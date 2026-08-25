@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Ribotas kursas"
+msgstr[1] "Ribotas kursas%(index)s"
+msgstr[2] "Ribotas kursas %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "Bent vienas ribojimas viršytas. Dalis mokėjimo bus atliktas kitu kursu."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Bazinis konvertavimo kursas"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "Kitas pritaikomas kursas"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Aktyvių ribotų kursų skaičius: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Bendras riboto kurso kiekis: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "Po konvertavimo:"
+
+msgid "common/cancel"
+msgstr "Atšaukti"
+
+msgid "common/combinedDiscount"
+msgstr "Kombinuojama nuolaida"
+
+msgid "common/exchange"
+msgstr "Konvertavimas"
+
+msgid "common/exchangeRate"
+msgstr "Konvertavimo kursas"
+
+msgid "common/limitExceeded"
+msgstr "Limitas viršytas. Konvertavimai bus atliekami kombinuojant nuolaidas."
+
+msgid "common/limitOverExceeded"
+msgstr "Pasiektas limitas: nuolaidos bus kombinuojamos."
+
+msgid "common/limitRestrictions"
+msgstr "SUŽINOKITE DAUGIAU"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Bazinis konvertavimo kursas: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Bendras konvertavimo kursas: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "Sėkmingai iškeista %(gold)s aukso. Gauta kreditų: %(res)s."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Asmeninis konvertavimo kursas: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Asmeninis konvertavimo kursas: %(rateFrom)s = %(rateTo)s. Limitas viršytas"
+
+msgid "exchangeXP/information"
+msgstr "%(res)s patirties sėkmingai iškeista į laisvąją patirtį. Išnaudota aukso: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "Galima patirtis:"
+
+msgid "experienceExchange/paid"
+msgstr "Išleista"
+
+msgid "experienceExchange/received"
+msgstr "Gauta"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Rūšiuoti pagal technikos lygį"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Rūšiuoti pagal Papildomų modifikacijų lygį"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Rūšiuoti pagal mašinų pavadinimus"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Rūšiuoti pagal nacijas"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Rūšiuoti pagal mašinos tipą"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Rūšiuoti pagal pasirinktą mašiną"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Rūšiuoti pagal gautus patirties taškus"
+
+msgid "goldExchange/paid"
+msgstr "Iš"
+
+msgid "goldExchange/received"
+msgstr "Į"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s aukso = %(resourceRate)s kreditų"
+
+msgid "notification/discountDescription/message"
+msgstr "Asmeninis konvertavimo kursas"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "Į konvertavimus"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Galimas naujas konvertavimo kursas!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Bazinis konvertavimo kursas"
+
+msgid "tooltip/common/generalRate"
+msgstr "Bendras konvertavimo kursas"
+
+msgid "tooltip/common/personalRate"
+msgstr "Asmeninis konvertavimo kursas"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Pelningas konvertavimo kursas"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Laikinas konvertavimo kursas"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "Balansas bus suskaičiuotas po aukso pirkimo."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Aukso kiekis po konvertavimo"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s aukso = %(resourceRate)s laisvosios patirties"

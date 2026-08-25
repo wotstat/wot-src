@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Gelimiteerde koers"
+msgstr[1] "Gelimiteerde koers %(index)s"
+msgstr[2] "Gelimiteerde koers %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "Er is minstens één limiet overschreden. Een deel van de betaling zal met de volgende koers plaatsvinden."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Basiswisselkoers"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "De volgende toepasbare koers"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Aantal actieve gelimiteerde koersen: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Totale hoeveelheid van gelimiteerde koers: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "Na het inwisselen:"
+
+msgid "common/cancel"
+msgstr "Annuleren"
+
+msgid "common/combinedDiscount"
+msgstr "Gecombineerde korting"
+
+msgid "common/exchange"
+msgstr "Inwisselen"
+
+msgid "common/exchangeRate"
+msgstr "Wisselkoers"
+
+msgid "common/limitExceeded"
+msgstr "Limiet overschreden. Het inwisselen zal met een gecombineerde korting gebeuren."
+
+msgid "common/limitOverExceeded"
+msgstr "Limiet overschreden: er wordt een gecombineerde korting gebruikt."
+
+msgid "common/limitRestrictions"
+msgstr "LEER MEER"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Basiswisselkoers: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Algemene wisselkoers: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "%(gold)s goud succesvol ingewisseld. Credits ontvangen: %(res)s"
+
+msgid "exchange/personalExchangeRate"
+msgstr "Persoonlijke wisselkoers: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Persoonlijke wisselkoers: %(rateFrom)s = %(rateTo)s. Limiet overschreden."
+
+msgid "exchangeXP/information"
+msgstr "%(res)s XP succesvol ingewisseld voor Vrije XP. Goud uitgegeven: %(gold)s"
+
+msgid "experienceExchange/available"
+msgstr "XP beschikbaar:"
+
+msgid "experienceExchange/paid"
+msgstr "Uitgegeven"
+
+msgid "experienceExchange/received"
+msgstr "Ontvangen"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Sorteer op voertuigniveau"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Sorteer op Veldmodificatielevel"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Sorteer op voertuignaam"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Sorteer op natie"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Sorteer op voertuigtype"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Sorteer op geselecteerd voertuig"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Sorteren op verdiende XP"
+
+msgid "goldExchange/paid"
+msgstr "Van"
+
+msgid "goldExchange/received"
+msgstr "Naar"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s goud = %(resourceRate)s credits"
+
+msgid "notification/discountDescription/message"
+msgstr "Persoonlijke wisselkoers"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "Naar inwisselen"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Nieuwe wisselkoers beschikbaar!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Basiswisselkoers"
+
+msgid "tooltip/common/generalRate"
+msgstr "Algemene wisselkoers"
+
+msgid "tooltip/common/personalRate"
+msgstr "Persoonlijke wisselkoers"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Gunstige wisselkoers"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Tijdelijke wisselkoers"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "De hoeveelheid kan pas worden bepaald na het kopen van goud."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Hoeveelheid goud na het inwisselen"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s goud = %(resourceRate)s Vrije XP"

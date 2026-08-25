@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "actionStub/name"
+msgstr "Τροποποίηση"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "Αποκαθιστά άμεσα %(immediatelyRestore)s hit points του οχήματος. Κατά τη διάρκεια των %(duration)s sec της επίδρασης, όλη η προσλαμβανόμενη φθορά από εχθρικά βλήματα ή δυνατότητες των εχθρικών οχημάτων θα μετατρέπεται σε κερδισμένα hit points. Επιπλέον, μόλις λήξει η επίδραση της δυνατότητας, θα αποκαθίσταται %(restoringCoefficient)s hit points του οχήματος, ανάλογα με τη συνολική φθορά που δέχθηκε το όχημα.\n\n*Θα αποκαθιστά και μέρος των hit points των οχημάτων των συμπαικτών που βρίσκονται μέσα σε μια συγκεκριμένη απόσταση."
+
+msgid "adaptationHealthRestore/descr"
+msgstr "Αποκαθιστά άμεσα %(immediatelyRestore)s hit points του οχήματος. Κατά τη διάρκεια των %(duration)s sec της επίδρασης, όλη η προσλαμβανόμενη φθορά από εχθρικά βλήματα ή δυνατότητες των εχθρικών οχημάτων θα μετατρέπεται σε κερδισμένα hit points. Επιπλέον, μόλις λήξει η επίδραση της δυνατότητας, θα αποκαθίσταται %(restoringCoefficient)s hit points του οχήματος, ανάλογα με τη συνολική φθορά που δέχθηκε το όχημα.\n\n*Θα αποκαθιστά και μέρος των hit points των οχημάτων των συμπαικτών που βρίσκονται μέσα σε μια συγκεκριμένη απόσταση."
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "Αποκαθιστά άμεσα {green_Open}%(immediatelyRestore)s hit points{green_Close} του οχήματος. Κατά τη διάρκεια των {whiteSpanish_Open}%(duration)s sec{whiteSpanish_Close} της επίδρασης, όλη η προσλαμβανόμενη φθορά από εχθρικά βλήματα ή δυνατότητες των εχθρικών οχημάτων θα μετατρέπεται σε κερδισμένα hit points. Επιπλέον, μόλις λήξει η επίδραση της δυνατότητας, θα αποκαθίσταται {green_Open}%(restoringCoefficient)s hit points{green_Close} του οχήματος, ανάλογα με τη συνολική φθορά που δέχθηκε το όχημα.\n\n*Θα αποκαθιστά και μέρος των hit points των οχημάτων των συμπαικτών που βρίσκονται μέσα σε μια συγκεκριμένη απόσταση."
+
+msgid "adaptationHealthRestore/name"
+msgstr "Προσαρμόσιμη Θωράκιση"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "Αποκαθιστά άμεσα {green_Open}%(immediatelyRestore)s hit points{green_Close} του οχήματος. Κατά τη διάρκεια των {whiteSpanish_Open}%(duration)s sec{whiteSpanish_Close} της επίδρασης, όλη η προσλαμβανόμενη φθορά από εχθρικά βλήματα ή δυνατότητες των εχθρικών οχημάτων θα μετατρέπεται σε κερδισμένα hit points. Επιπλέον, μόλις λήξει η επίδραση της δυνατότητας, θα αποκαθίσταται {green_Open}%(restoringCoefficient)s hit points{green_Close} του οχήματος, ανάλογα με τη συνολική φθορά που δέχθηκε το όχημα.\n\n*Θα αποκαθιστά και μέρος των hit points των οχημάτων των συμπαικτών που βρίσκονται μέσα σε μια συγκεκριμένη απόσταση."
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s στον συντελεστή κάλυψης ενός ακίνητου οχήματος με τοποθετημένη Εξάτμιση Χαμηλού Θορύβου (κάθε κλάσης) ή Αναβαθμίσιμη Εξάτμιση Χαμηλού Θορύβου."
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "Βελτιώνει την επίδραση της Εξάτμισης Χαμηλού Θορύβου ή της Αναβαθμίσιμης Εξάτμισης Χαμηλού Θορύβου, κατά τη διάρκεια της μάχης. Θα πρέπει να έχετε ήδη τοποθετήσει τον σχετικό εξοπλισμό για να χρησιμοποιήσετε τη συγκεκριμένη οδηγία."
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "Μόνωση Εξάτμισης"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "Αυξάνει τον συντελεστή κάλυψης ενός ακίνητου ή κινούμενου οχήματος"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "Η επίδραση εξαρτάται από τον τύπο του οχήματος. Αυξάνει τον συντελεστή κάλυψης ενός ακίνητου ή κινούμενου οχήματος. Χρήσιμο για ανιχνευτές που θέλουν να εντοπίζουν αντιπάλους από ριψοκίνδυνες θέσεις."
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "Εξάτμιση Χαμηλού Θορύβου"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "Αυξάνει τον συντελεστή κάλυψης ενός ακίνητου ή κινούμενου οχήματος."
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "Εξάτμιση Χαμηλού Θορύβου 1ης Κλάσης"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "Εξάτμιση Χαμηλού Θορύβου 2ης Κλάσης"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "Εξάτμιση Χαμηλού Θορύβου 3ης Κλάσης"
+
+msgid "additional_armor_plates_1/name"
+msgstr "Πρόσθετη Θωράκιση (Τύπος 1)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "Πρόσθετη Θωράκιση (Τύπος 2)"
+
+msgid "afterburning/descr"
+msgstr "Αυξάνει την ταχύτητα και την επιτάχυνση του οχήματος για συγκεκριμένο χρόνο."
+
+msgid "afterburning/name"
+msgstr "Τούρμπο"
+
+msgid "aimingStabilizer/long_special"
+msgstr "Η μείωση της διασποράς των πυρών είναι σημαντική: όσο μικρότερη είναι η αρχική διασπορά τόσο μικρότερος θα είναι ο αρχικός κύκλος στόχευσης και θα απαιτείται λιγότερος χρόνος για πλήρη στόχευση. Επιπλέον, μία βολή χωρίς να έχει κλείσει τελείως ο κύκλος στόχευσης θα έχει μεγαλύτερη πιθανότητα να πετύχει τον στόχο."
+
+msgid "aimingStabilizer/name"
+msgstr "Κάθετος Σταθεροποιητής"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s στη διασπορά μετά τη ρίψη πυρών, κατά τη κίνηση του οχήματος και την περιστροφή του πυργίσκου με Κάθετο Σταθεροποιητή, Αναβαθμίσιμο Σταθεροποιητή ή Σύστημα Σταθεροποίησης."
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "Βελτιώνει την επίδραση του Κάθετου Σταθεροποιητή (κάθε κλάσης), του Συστήματος Σταθεροποίησης ή του Αναβαθμίσιμου Σταθεροποιητή, κατά τη διάρκεια της μάχης. Θα πρέπει να έχετε ήδη τοποθετήσει τον σχετικό εξοπλισμό για να χρησιμοποιήσετε τη συγκεκριμένη οδηγία."
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "Λίπανση Σταθεροποιητή"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "Βελτιώνει την επίδραση της σταθεροποίησης"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "Κάθετος Σταθεροποιητής 1ης Κλάσης"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "Κάθετος Σταθεροποιητής 2ης Κλάσης"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "Κάθετος Σταθεροποιητής 1ης Κλάσης"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "Κάθετος Σταθεροποιητής 2ης Κλάσης"
+
+msgid "antifragmentationLining/long_special"
+msgstr "Οι αντιθραυσματικές επενδύσεις μειώνουν την προσλαμβανόμενη φθορά από εμβολισμό ή βλήματα High-Explosive. Είναι ευεργετικές κυρίως σε βαρέα άρματα μάχης με ισχυρή θωράκιση, τα οποία είναι ικανά για εμβολισμούς και αποτελούν τον κύριο στόχο του πυροβολικού."
+
+msgid "antifragmentationLining/name"
+msgstr "Αντιθραυσματική Επένδυση"
+
+msgid "antifragmentationLining/short_special"
+msgstr "Προστατεύει το όχημα και το πλήρωμα από βλήματα HE, τραυματισμούς, σοκ και εμβολισμούς"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "Αντιθραυσματική Επένδυση Υπέρ-Βαρέως Tύπου"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "Αντιθραυσματική Επένδυση Βαρέως Tύπου"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "Αντιθραυσματική Επένδυση Μέσου Tύπου"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "Αντιθραυσματική Επένδυση Ελαφρού Tύπου"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "Εξάτμιση"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "Σταθεροποιητής"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "Αντιθραυσματική Επένδυση"
+
+msgid "archetype/camouflageNet/name"
+msgstr "Δίχτυ Καμουφλάζ"
+
+msgid "archetype/coatedOptics/name"
+msgstr "Οπτικά"
+
+msgid "archetype/commandersView/name"
+msgstr "Σύστημα Διόπτευσης"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "Σύστημα Σκόπευσης"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "Σκλήρυνση"
+
+msgid "archetype/grousers/name"
+msgstr "Μεταλλικά Πέλματα"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "Διαμόρφωση"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "Σύστημα Ασυρμάτου"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "Μηχανισμός Περιστροφής"
+
+msgid "archetype/improvedSights/name"
+msgstr "Στόχευση"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "Εξαερισμός"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "Σετ Ελέγχου Πυρών"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "Σετ Βελτιωμένης Αντοχής"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "Σετ Βελτιωμένης Ευστοχίας"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "Σετ Βελτιωμένης Ευκινησίας"
+
+msgid "archetype/stereoscope/name"
+msgstr "Διοπτρικό Τηλεσκόπιο"
+
+msgid "archetype/tankRammer/name"
+msgstr "Έμβολο"
+
+msgid "archetype/template"
+msgstr "Εξοπλισμός \"%(name)s\""
+
+msgid "archetype/turbocharger/name"
+msgstr "Τούρμπο"
+
+msgid "artillery/longDescr"
+msgstr "Δίνεται εντολή για πυρά με βλήματα HE σε μία επιλεγμένη μικρή περιοχή. Τα πυρά προκαλούν πολύ μεγαλύτερη φθορά στο κέντρο της περιοχής. Ιδιαιτέρως αποτελεσματικό εναντίον οχημάτων με βαριά θωράκιση."
+
+msgid "artillery/name"
+msgstr "Μπαράζ Πυροβολικού"
+
+msgid "artillery/shortDescr"
+msgstr "Προκαλεί μεγάλη φθορά στα εχθρικά οχήματα μέσα σε μία μικρή περιοχή."
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s στην πιθανότητα φωτιάς στον κινητήρα"
+
+msgid "autoExtinguishers/descr"
+msgstr "Αυτόματη πυρόσβεση στο όχημά σας."
+
+msgid "autoExtinguishers/long_special"
+msgstr "Σβήνει αυτόματα τις φωτιές και μειώνει την πιθανότητα ανάφλεξης του οχήματος. Το συγκεκριμένο αναλώσιμο είναι κατάλληλο για όλα τα οχήματα οποιουδήποτε έθνους."
+
+msgid "autoExtinguishers/name"
+msgstr "Αυτόματος Πυροσβεστήρας"
+
+msgid "autoExtinguishers/onUse"
+msgstr "Αυτόματη πυρόσβεση στο όχημά σας. Μπορεί να χρησιμοποιηθεί πολλές φορές σε μία μάχη. Το αναλώσιμο καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω και μία φορά."
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "Αυτόματη πυρόσβεση"
+
+msgid "berserker/battleDescr"
+msgstr "Αυξάνει τη διατρητικότητα και την ταχυβολία κατά %(gunPiercing)s φορές, ενώ αυξάνει την σταθεροποίηση του πυροβόλου κατά %(gunAimingTime)s, αλλά αφαιρεί %(healthDebuff)s από τα συνολικά HP του οχήματός σας μέσα στα %(duration)s sec της επίδρασης.\n\n*Προσλαμβανόμενη φθορά από αυτήν τη δυνατότητα δεν μπορεί να καταστρέψει το όχημά σας."
+
+msgid "berserker/descr"
+msgstr "Αυξάνει τη διατρητικότητα και την ταχυβολία κατά %(gunPiercing)s φορές, ενώ αυξάνει την σταθεροποίηση του πυροβόλου κατά %(gunAimingTime)s, αλλά αφαιρεί %(healthDebuff)s από τα συνολικά HP του οχήματός σας μέσα στα %(duration)s sec της επίδρασης.\n\n*Προσλαμβανόμενη φθορά από αυτήν τη δυνατότητα δεν μπορεί να καταστρέψει το όχημά σας."
+
+msgid "berserker/longDescr"
+msgstr "Αυξάνει τη διατρητικότητα και την ταχυβολία {green_Open}κατά %(gunPiercing)s φορές{green_Close}, ενώ αυξάνει την σταθεροποίηση του πυροβόλου {green_Open}κατά %(gunAimingTime)s{green_Close}, αλλά αφαιρεί {red_Open}%(healthDebuff)s{red_Close} από τα συνολικά HP του οχήματός σας μέσα στα {whiteSpanish_Open}%(duration)s sec{whiteSpanish_Close} της επίδρασης.\n\n*Προσλαμβανόμενη φθορά από αυτήν τη δυνατότητα δεν μπορεί να καταστρέψει το όχημά σας."
+
+msgid "berserker/name"
+msgstr "Μαινόμενος"
+
+msgid "berserker/shortDescr"
+msgstr "Αυξάνει τη διατρητικότητα και την ταχυβολία {green_Open}κατά %(gunPiercing)s φορές{green_Close}, ενώ αυξάνει την σταθεροποίηση του πυροβόλου {green_Open}κατά %(gunAimingTime)s{green_Close}, αλλά αφαιρεί {red_Open}%(healthDebuff)s{red_Close} από τα συνολικά HP του οχήματός σας μέσα στα {whiteSpanish_Open}%(duration)s sec{whiteSpanish_Close} της επίδρασης.\n\n*Προσλαμβανόμενη φθορά από αυτήν τη δυνατότητα δεν μπορεί να καταστρέψει το όχημά σας."
+
+msgid "blackout_headlights_1/name"
+msgstr "Σκίαση Προβολέων (Τύπος 1)"
+
+msgid "bomber/longDescr"
+msgstr "Δίνεται εντολή για σε ένα επιθετικό αεροσκάφος να ρίξει βόμβες σε μία επιλεγμένη περιοχή, προκαλώντας φθορά στα εχθρικά οχήματα. Ο βομβαρδισμός προκαλεί πολύ μεγαλύτερη φθορά στο κέντρο της περιοχής. Ιδιαιτέρως αποτελεσματικό εναντίον οχημάτων με ελαφριά και μέση θωράκιση."
+
+msgid "bomber/name"
+msgstr "Αεροπορική Επιδρομή"
+
+msgid "bomber/shortDescr"
+msgstr "Προκαλεί μέση φθορά αλλά και σοκ στα εχθρικά οχήματα μέσα σε μία μεγάλη περιοχή."
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "Σταδιακά αποκαθιστά %(healPerTickDuration)s από τα hit points του οχήματος μέσα στα %(duration)s sec της επίδρασης. Η επίδραση διακόπτεται αν το όχημα δεχθεί φθορά."
+
+msgid "brRegenerationKit/descr"
+msgstr "Σταδιακά αποκαθιστά %(healPerTickDuration)s από τα hit points του οχήματος μέσα στα %(duration)s sec της επίδρασης. Η επίδραση διακόπτεται αν το όχημα δεχθεί φθορά."
+
+msgid "brRegenerationKit/long_special"
+msgstr "Σταδιακά {green_Open}αποκαθιστά %(healPerTickDuration)s{green_Close} από τα hit points του οχήματος {whiteSpanish_Open}μέσα στα %(duration)s sec{whiteSpanish_Close} της επίδρασης. Η επίδραση διακόπτεται αν το όχημα δεχθεί φθορά."
+
+msgid "brRegenerationKit/name"
+msgstr "Ανάκτηση"
+
+msgid "brRegenerationKit/short_special"
+msgstr "Σταδιακά {green_Open}αποκαθιστά %(healPerTickDuration)s{green_Close} από τα hit points του οχήματος {whiteSpanish_Open}μέσα στα %(duration)s sec{whiteSpanish_Close} της επίδρασης. Η επίδραση διακόπτεται αν το όχημα δεχθεί φθορά."
+
+msgid "brRepairkit/descr"
+msgstr "Επισκευάζει εξαρτήματα και αφαιρεί αρνητικές επιδράσεις."
+
+msgid "brRepairkit/long_special"
+msgstr "Επισκευάζει εξαρτήματα και αφαιρεί αρνητικές επιδράσεις."
+
+msgid "brRepairkit/name"
+msgstr "Κουτί Επισκευών"
+
+msgid "brRepairkit/short_special"
+msgstr "Επισκευάζει εξαρτήματα και αφαιρεί αρνητικές επιδράσεις."
+
+msgid "br_bomber/battleDescr"
+msgstr "Προκαλεί σοκ και από %(minDamage)s έως %(maxDamage)s HP φθοράς στα εχθρικά οχήματα. Προκαλεί πολύ μεγαλύτερη φθορά στα οχήματα που βρίσκονται στο κέντρο της περιοχής.\n\n*Υπάρχει καθυστέρηση %(delay)s sec πριν ξεκινήσει η επίδραση."
+
+msgid "br_bomber/descr"
+msgstr "Προκαλεί σοκ από %(minDamage)s έως %(maxDamage)s HP φθοράς στα εχθρικά οχήματα. Προκαλεί πολύ μεγαλύτερη φθορά στα οχήματα που βρίσκονται στο κέντρο της περιοχής.\n\n*Υπάρχει καθυστέρηση %(delay)s sec πριν ξεκινήσει η επίδραση."
+
+msgid "br_bomber/longDescr"
+msgstr "Προκαλεί σοκ και {whiteSpanish_Open}από %(minDamage)s έως %(maxDamage)s HP φθοράς{whiteSpanish_Close} στα εχθρικά οχήματα. Προκαλεί πολύ μεγαλύτερη φθορά στα οχήματα που βρίσκονται στο κέντρο της περιοχής.\n\n*Υπάρχει καθυστέρηση %(delay)s sec πριν ξεκινήσει η επίδραση."
+
+msgid "br_bomber/name"
+msgstr "Αεροπορική Επιδρομή"
+
+msgid "br_bomber/shortDescr"
+msgstr "Προκαλεί σοκ και {whiteSpanish_Open}από %(minDamage)s έως %(maxDamage)s HP φθοράς{whiteSpanish_Close} στα εχθρικά οχήματα. Προκαλεί πολύ μεγαλύτερη φθορά στα οχήματα που βρίσκονται στο κέντρο της περιοχής.\n\n*Υπάρχει καθυστέρηση %(delay)s sec πριν ξεκινήσει η επίδραση."
+
+msgid "br_minefield/battleDescr"
+msgstr "Τοποθετεί νάρκες στην επιλεγμένη περιοχή για %(duration)s sec, οι οποίες προκαλούν φθορά και σοκ στα εχθρικά οχήματα. Τα εχθρικά οχήματα μπορούν να καταστρέψουν τις νάρκες σας με τα πυροβόλα τους.\n\n*Οι νάρκες που τοποθετούνται απευθείας κάτω από εχθρικά οχήματα δεν θα εκρήγνυνται."
+
+msgid "br_minefield/descr"
+msgstr "Τοποθετεί νάρκες στην επιλεγμένη περιοχή για %(duration)s sec, οι οποίες προκαλούν φθορά και σοκ στα εχθρικά οχήματα. Τα εχθρικά οχήματα μπορούν να καταστρέψουν τις νάρκες σας με τα πυροβόλα τους.\n\n*Οι νάρκες που τοποθετούνται απευθείας κάτω από εχθρικά οχήματα δεν θα εκρήγνυνται."
+
+msgid "br_minefield/longDescr"
+msgstr "Τοποθετεί νάρκες στην επιλεγμένη περιοχή για {whiteSpanish_Open}%(duration)s sec{whiteSpanish_Close}, οι οποίες προκαλούν φθορά και σοκ στα εχθρικά οχήματα. Τα εχθρικά οχήματα μπορούν να καταστρέψουν τις νάρκες σας με τα πυροβόλα τους.\n\n*Οι νάρκες που τοποθετούνται απευθείας κάτω από εχθρικά οχήματα δεν θα εκρήγνυνται."
+
+msgid "br_minefield/name"
+msgstr "Ναρκοπέδιο"
+
+msgid "br_minefield/shortDescr"
+msgstr "Τοποθετεί νάρκες στην επιλεγμένη περιοχή για {whiteSpanish_Open}%(duration)s sec{whiteSpanish_Close}, οι οποίες προκαλούν φθορά και σοκ στα εχθρικά οχήματα. Τα εχθρικά οχήματα μπορούν να καταστρέψουν τις νάρκες σας με τα πυροβόλα τους.\n\n*Οι νάρκες που τοποθετούνται απευθείας κάτω από εχθρικά οχήματα δεν θα εκρήγνυνται."
+
+msgid "br_respawn/name"
+msgstr "Επανεκκίνηση"
+
+msgid "br_respawn/platoon/descr"
+msgstr "Θα επιστρέφετε στη μάχη, μόλις το όχημά σας καταστραφεί. Ο μηχανισμός αυτός λειτουργεί μέσα στα πρώτα %(duration)s min της μάχης.\n\nΓια να γίνει ανάκτηση ενός συμπαίκτη, θα πρέπει να μείνετε εκτός μάχης για %(timeToResurrect)s sec. Οι επαναλήψεις της Επανεκκίνησης μοιράζονται ανάμεσα στα μέλη ενός Ουλαμού."
+
+msgid "br_respawn/solo/descr"
+msgstr "Επιστρέφετε στη μάχη, μόλις το όχημά σας καταστραφεί. Ο μηχανισμός αυτός λειτουργεί μέσα στα πρώτα %(duration)s min της μάχης.\n\nΘα ανακτάτε αυτόματα το όχημά σας, μόλις αυτό καταστραφεί."
+
+msgid "br_smoke/battleDescr"
+msgstr "Αυξάνει τον συντελεστή κάλυψης όλων των οχημάτων μέσα στην περιοχή δράσης του αναλώσιμου για %(duration)s δευτερόλεπτα."
+
+msgid "br_smoke/descr"
+msgstr "Αυξάνει τον συντελεστή κάλυψης όλων των οχημάτων μέσα στην περιοχή δράσης του αναλώσιμου."
+
+msgid "br_smoke/longDescr"
+msgstr "Αυξάνει τον συντελεστή κάλυψης όλων των οχημάτων μέσα στην περιοχή δράσης του αναλώσιμου για %(duration)s δευτερόλεπτα."
+
+msgid "br_smoke/name"
+msgstr "Παραπέτασμα Καπνού"
+
+msgid "br_smoke/shortDescr"
+msgstr "Αυξάνει τον συντελεστή κάλυψης όλων των οχημάτων μέσα στην περιοχή δράσης του αναλώσιμου."
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "Αυξάνει τον συντελεστή κάλυψης όλων των οχημάτων μέσα στην περιοχή δράσης του αναλώσιμου και προκαλεί φθορά ίση με το %(damagePerTick)s των συνολικών HP ανά sec σε όλα τα οχήματα εντός της εμβέλειάς του. Διαρκεί για %(duration)s sec.\n\n*Φθορά από Διαβρωτική Ομίχλη δεν σταματά τη συλλογή εφοδίων ούτε καταστρέφει οχήματα, απλώς τα αφήνει με 1 HP."
+
+msgid "br_smoke_with_damage/descr"
+msgstr "Αυξάνει τον συντελεστή κάλυψης όλων των οχημάτων μέσα στην περιοχή δράσης του αναλώσιμου και προκαλεί φθορά ίση με το %(damagePerTick)s των συνολικών HP ανά sec σε όλα τα οχήματα εντός της εμβέλειάς του. Διαρκεί για %(duration)s sec.\n\n*Φθορά από Διαβρωτική Ομίχλη δεν σταματά τη συλλογή εφοδίων ούτε καταστρέφει οχήματα, απλώς τα αφήνει με 1 HP."
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "Αυξάνει τον συντελεστή κάλυψης όλων των οχημάτων μέσα στην περιοχή δράσης του αναλώσιμου και προκαλεί φθορά ίση με το {whiteSpanish_Open}%(damagePerTick)s{whiteSpanish_Close} των συνολικών HP ανά sec σε όλα τα οχήματα εντός της εμβέλειάς του. Διαρκεί για {whiteSpanish_Open}%(duration)s sec.{whiteSpanish_Close}\n\n*Φθορά από Διαβρωτική Ομίχλη δεν σταματά τη συλλογή εφοδίων ούτε καταστρέφει οχήματα, απλώς τα αφήνει με 1 HP."
+
+msgid "br_smoke_with_damage/name"
+msgstr "Διαβρωτική Ομίχλη"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "Αυξάνει τον συντελεστή κάλυψης όλων των οχημάτων μέσα στην περιοχή δράσης του αναλώσιμου και προκαλεί φθορά ίση με το {whiteSpanish_Open}%(damagePerTick)s{whiteSpanish_Close} των συνολικών HP ανά sec σε όλα τα οχήματα εντός της εμβέλειάς του. Διαρκεί για {whiteSpanish_Open}%(duration)s sec.{whiteSpanish_Close}\n\n*Φθορά από Διαβρωτική Ομίχλη δεν σταματά τη συλλογή εφοδίων ούτε καταστρέφει οχήματα, απλώς τα αφήνει με 1 HP."
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s στην ταχύτητα επισκευών"
+
+msgid "builtinRepairkit/long_special"
+msgstr "Επισκευάζει ταυτόχρονα όλα τα χαλασμένα εξαρτήματα όταν επιλεχθεί. Παρέχει μόνιμο μπόνους στην ταχύτητα επισκευών. Κατάλληλο για συγκεκριμένα οχήματα."
+
+msgid "builtinRepairkit/name"
+msgstr "Τυπικό Μεγάλο Κουτί Επισκευών"
+
+msgid "builtinRepairkit/onUse"
+msgstr "Επισκευάζει ταυτόχρονα όλα τα χαλασμένα εξαρτήματα. Μπορεί να χρησιμοποιηθεί πολλές φορές σε μία μάχη. Δεν καταναλώνεται μετά τη μάχη.\nΤο συγκεκριμένο αναλώσιμο δεν γίνεται να αφαιρεθεί, αλλά μόνο να μετακινηθεί σε άλλη θέση."
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "Παρέχει επιπλέον 10% στον συντελεστή κάλυψης του οχήματος"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "Παρέχει σε όλα τα μέλη του πληρώματος την ικανότητα Καμουφλάζ στο 100%"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "Η ικανότητα Καμουφλάζ μειώνει την πιθανότητα εντοπισμού του οχήματος και εν κινήσει και σε ακινησία, κατά τη διάρκεια της μάχης. Όταν κατέχετε την ικανότητα στο 100%, η οδηγία αυξάνει κι άλλο την επίδρασή της, όταν δεν την κατέχετε, η οδηγία σας την παρέχει στο 100%."
+
+msgid "camouflageBattleBooster/name"
+msgstr "Φυσική Επικάλυψη"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "Παρέχει την ικανότητα Καμουφλάζ στο 100% ή αυξάνει την επίδρασή της"
+
+msgid "camouflageNet/battleDescr"
+msgstr "Αυξάνει τον συντελεστή κάλυψης ενός ακίνητου οχήματος, 3 sec αφότου σταματήσει"
+
+msgid "camouflageNet/long_special"
+msgstr "Η επίδραση εξαρτάται από τον τύπο του οχήματος. Το Δίχτυ Καμουφλάζ είναι αποτελεσματικό κυρίως σε Α/Κ Πυροβόλα και αντιαρματικά με μικρό σχήμα και μεγάλο συντελεστή κάλυψης. Αυξάνει την αποτελεσματικότητα της ικανότητας Καμουφλάζ, αφού σε συνδυασμό με αυτήν, αυξάνει σημαντικά τον συντελεστή κάλυψης του οχήματος. Το Δίχτυ Καμουφλάζ ενεργοποιείται 3 δευτερόλεπτα αφότου σταματήσει να κινείται το όχημα."
+
+msgid "camouflageNet/name"
+msgstr "Δίχτυ Καμουφλάζ"
+
+msgid "camouflageNet/short_special"
+msgstr "Αυξάνει τον συντελεστή κάλυψης ενός ακίνητου οχήματος"
+
+msgid "camouflageNet_tier2/name"
+msgstr "Δίχτυ Καμουφλάζ 2ης Κλάσης"
+
+msgid "camouflageNet_tier3/name"
+msgstr "Δίχτυ Καμουφλάζ 3ης Κλάσης"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} στο μπόνους επιδόσεων του πληρώματος για μία μάχη."
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} στο μπόνους επιδόσεων πληρώματος."
+
+msgid "chocolate/long_special"
+msgstr "Ενεργοποιείται αυτόματα με την έναρξη της μάχης και επιδρά κατά τη διάρκεια αυτής. Μόνο για Γερμανικά οχήματα."
+
+msgid "chocolate/name"
+msgstr "Σοκολάτα"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "Κατάλληλο μόνο για Γερμανικά οχήματα."
+
+msgid "chocolate/short_special"
+msgstr "Βελτιώνει τις επιδόσεις των Γερμανικών πληρωμάτων"
+
+msgid "clingBrander/battleDescr"
+msgstr "Καλεί ένα αυτόνομο άρμα μάχης το οποίο θα επιτεθεί στον πλησιέστερο αντίπαλο για %(botLifeTime)s sec.\n\n*Το συγκεκριμένο όχημα-ρομπότ μπορεί να καταστραφεί."
+
+msgid "clingBrander/descr"
+msgstr "Καλεί ένα αυτόνομο άρμα μάχης το οποίο θα επιτεθεί στον πλησιέστερο αντίπαλο για %(botLifeTime)s sec.\n\n*Το συγκεκριμένο όχημα-ρομπότ μπορεί να καταστραφεί."
+
+msgid "clingBrander/longDescr"
+msgstr "Καλεί ένα αυτόνομο άρμα μάχης το οποίο θα επιτεθεί στον πλησιέστερο αντίπαλο {whiteSpanish_Open}για %(botLifeTime)s sec.{whiteSpanish_Close}\n\n*Το συγκεκριμένο όχημα-ρομπότ μπορεί να καταστραφεί."
+
+msgid "clingBrander/name"
+msgstr "Ρομπότ Μάχης"
+
+msgid "clingBrander/shortDescr"
+msgstr "Καλεί ένα αυτόνομο άρμα μάχης το οποίο θα επιτεθεί στον πλησιέστερο αντίπαλο {whiteSpanish_Open}για %(botLifeTime)s sec.{whiteSpanish_Close}\n\n*Το συγκεκριμένο όχημα-ρομπότ μπορεί να καταστραφεί."
+
+msgid "clutches_replace_1/name"
+msgstr "Αντικατάσταση Συνδέσμων Ζεύξεως (Τύπος 1)"
+
+msgid "clutches_replace_2/name"
+msgstr "Αντικατάσταση Συνδέσμων Ζεύξεως (Τύπος 2)"
+
+msgid "coatedOptics/long_special"
+msgstr "Αντίθετα με το Διοπτρικό Τηλεσκόπιο, τα Επικαλυμμένα Οπτικά (κάθε τύπου) παρέχουν μικρότερο αλλά μόνιμο μπόνους στο εύρος ορατότητας, που δεν αναιρείται με την κίνηση του οχήματος. Τα Επικαλυμμένα Οπτικά είναι χρήσιμα σε οχήματα με πιο επιθετικό στιλ, όπως ελαφρά και μέσα άρματα μάχης."
+
+msgid "coatedOptics/name"
+msgstr "Επικαλυμμένα Οπτικά"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s στο εύρος ορατότητας (μέχρι και 445 m) με Επικαλυμμένα Οπτικά (κάθε κλάσης), Αναβαθμίσιμα Οπτικά ή Πειραματικά Οπτικά."
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "Βελτιώνει την επίδραση των Επικαλυμμένων Οπτικών, των Πειραματικών Οπτικών ή των Αναβαθμίσιμων Οπτικών, κατά τη διάρκεια της μάχης. Θα πρέπει να έχετε ήδη τοποθετήσει τον σχετικό εξοπλισμό για να χρησιμοποιήσετε τη συγκεκριμένη οδηγία."
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "Βαθμονόμηση Οπτικών"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "Βελτιώνει την επίδραση των οπτικών"
+
+msgid "coatedOptics_tier1/name"
+msgstr "Επικαλυμμένα Οπτικά 1ης Κλάσης"
+
+msgid "coatedOptics_tier2/name"
+msgstr "Επικαλυμμένα Οπτικά 2ης Κλάσης"
+
+msgid "coatedOptics_tier3/name"
+msgstr "Επικαλυμμένα Οπτικά 3ης Κλάσης"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} στο μπόνους επιδόσεων του πληρώματος για μία μάχη."
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} στο μπόνους επιδόσεων πληρώματος."
+
+msgid "cocacola/long_special"
+msgstr "Ενεργοποιείται αυτόματα με την έναρξη της μάχης και επιδρά κατά τη διάρκεια αυτής. Μόνο για Αμερικανικά οχήματα."
+
+msgid "cocacola/name"
+msgstr "Κιβώτιο με Cola"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "Κατάλληλο μόνο για Αμερικανικά οχήματα."
+
+msgid "cocacola/short_special"
+msgstr "Βελτιώνει τις επιδόσεις των Αμερικανικών πληρωμάτων"
+
+msgid "commandersView/long_special"
+msgstr "Μειώνει τον συντελεστή κάλυψης εχθρικών οχημάτων όταν κινούνται και όταν βρίσκονται πίσω από φυλλώματα. Δίνει τη δυνατότητα για εντοπισμό κινούμενων αντιπάλων από μεγαλύτερη απόσταση και για πιο αποτελεσματικό εντοπισμό τους όταν κρύβονται πίσω από θάμνους ή πεσμένα δέντρα."
+
+msgid "commandersView/name"
+msgstr "Σύστημα Διόπτευσης Αρχηγού"
+
+msgid "commandersView/short_special"
+msgstr "Μειώνει τον συντελεστή κάλυψης των εχθρικών οχημάτων, όταν κινούνται ή όταν βρίσκονται πίσω από φυλλώματα"
+
+msgid "corrodingShot/battleDescr"
+msgstr "Προσθέτει διαβρωτικές ιδιότητες στο βλήμα αυξάνοντας τη διατρητικότητα και τη δυνητική φθορά. Μόλις προκληθεί φθορά σε εχθρικό όχημα, το βλήμα αφήνει μια προσωρινή επίδραση σε αυτό, προκαλώντας πρόσθετη φθορά έως και %(damagePerDotEffectDuration)s HP μέσα στα %(dotEffectDuration)s sec της επίδρασης.\n\n*Το Κουτί Επισκευών αφαιρεί την αρνητική επίδραση."
+
+msgid "corrodingShot/descr"
+msgstr "Προσθέτει διαβρωτικές ιδιότητες στο βλήμα αυξάνοντας τη διατρητικότητα και τη δυνητική φθορά. Μόλις προκληθεί φθορά σε εχθρικό όχημα, το βλήμα αφήνει μια προσωρινή επίδραση σε αυτό, προκαλώντας πρόσθετη φθορά έως και %(damagePerDotEffectDuration)s HP μέσα στα %(dotEffectDuration)s sec της επίδρασης.\n\n*Το Κουτί Επισκευών αφαιρεί την αρνητική επίδραση."
+
+msgid "corrodingShot/longDescr"
+msgstr "Προσθέτει διαβρωτικές ιδιότητες στο βλήμα αυξάνοντας τη διατρητικότητα και τη δυνητική φθορά. Μόλις προκληθεί φθορά σε εχθρικό όχημα, το βλήμα αφήνει μια προσωρινή επίδραση σε αυτό, προκαλώντας πρόσθετη φθορά {whiteSpanish_Open}έως και %(damagePerDotEffectDuration)s HP{whiteSpanish_Close} μέσα στα {whiteSpanish_Open}%(dotEffectDuration)s sec{whiteSpanish_Close} της επίδρασης.\n\n*Το Κουτί Επισκευών αφαιρεί την αρνητική επίδραση."
+
+msgid "corrodingShot/name"
+msgstr "Διαβρωτικό Βλήμα"
+
+msgid "corrodingShot/shortDescr"
+msgstr "Προσθέτει διαβρωτικές ιδιότητες στο βλήμα αυξάνοντας τη διατρητικότητα και τη δυνητική φθορά. Μόλις προκληθεί φθορά σε εχθρικό όχημα, το βλήμα αφήνει μια προσωρινή επίδραση σε αυτό, προκαλώντας πρόσθετη φθορά {whiteSpanish_Open}έως και %(damagePerDotEffectDuration)s HP{whiteSpanish_Close} μέσα στα {whiteSpanish_Open}%(dotEffectDuration)s sec{whiteSpanish_Close} της επίδρασης.\n\n*Το Κουτί Επισκευών αφαιρεί την αρνητική επίδραση."
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "Βελτιώνει"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "Ιδιότητα Αρχηγού"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} \"{name}\""
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "την ικανότητα:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "Δίνει"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "την ικανότητα:"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "Μία βελτιωμένη έκδοση του Κάθετου Σταθεροποιητή ({colorTagOpen}-20%{colorTagClose} στην διασπορά μετά τη ρίψη πυρών, κατά τη διάρκεια κίνησης του οχήματος και περιστροφής του πυργίσκου) με μεγαλύτερη επίδραση: {colorTagOpen}-27,5%{colorTagClose} στην διασπορά μετά τη ρίψη πυρών, κατά τη διάρκεια κίνησης του οχήματος και περιστροφής του πυργίσκου. Ο συγκεκριμένος εξοπλισμός είναι κατάλληλος για οχήματα συγκεκριμένων τύπων οποιουδήποτε έθνους. Αποσυνδέεται μόνο με bonds."
+
+msgid "deluxAimingStabilizer/name"
+msgstr "Σύστημα Σταθεροποίησης"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "Μία βελτιωμένη έκδοση των Επικαλυμμένων Οπτικών ({colorTagOpen}+10%{colorTagClose} στο εύρος ορατότητας) με μεγαλύτερη επίδραση: {colorTagOpen}+13,5%{colorTagClose} στο εύρος ορατότητας. Ο συγκεκριμένος εξοπλισμός είναι κατάλληλος για όλα τα οχήματα οποιουδήποτε έθνους. Αποσυνδέεται μόνο με bonds."
+
+msgid "deluxCoatedOptics/name"
+msgstr "Πειραματικά Οπτικά"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "Μία βελτιωμένη έκδοση του Προηγμένου Συστήματος Σκόπευσης ({colorTagOpen}+10%{colorTagClose} στην ταχύτητα σκόπευσης) με μεγαλύτερη επίδραση: {colorTagOpen}+13,5%{colorTagClose} στην ταχύτητα σκόπευσης. Ο συγκεκριμένος εξοπλισμός είναι κατάλληλος για όλα τα οχήματα οποιουδήποτε έθνους. Αποσυνδέεται μόνο με bonds."
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "Ανθεκτικό Σύστημα Σκόπευσης"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "Μία βελτιωμένη έκδοση της Τροποποιημένης Διαμόρφωσης με μεγαλύτερη επίδραση. Ο συγκεκριμένος εξοπλισμός είναι κατάλληλος για όλα τα οχήματα οποιουδήποτε έθνους. Αποσυνδέεται μόνο με bonds."
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "Βελτιωμένη Διαμόρφωση"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "Αυξάνει την ταχύτητα των επισκευών, προστατεύει τα πυρομαχικά, τις δεξαμενές καυσίμων και τον κινητήρα"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "Μία βελτιωμένη έκδοση του Εξαερισμού με μεγαλύτερη επίδραση: {colorTagOpen}+8,5%{colorTagClose} στο μπόνους επιδόσεων του πληρώματος (αντί για {colorTagOpen}+5%{colorTagClose}). Ο συγκεκριμένος εξοπλισμός είναι κατάλληλος για όλα τα οχήματα οποιουδήποτε έθνους. Αποσυνδέεται μόνο με χρήση bonds."
+
+msgid "deluxImprovedVentilation/name"
+msgstr "Σύστημα Εξαερισμού"
+
+msgid "deluxRammer/long_special"
+msgstr "Μία βελτιωμένη έκδοση του Εμβόλου ({colorTagOpen}-10%{colorTagClose} στον χρόνο γέμισης) με μεγαλύτερη επίδραση: {colorTagOpen}-13,5%{colorTagClose} στον χρόνο γέμισης. Ο συγκεκριμένος εξοπλισμός είναι κατάλληλος για όλα τα οχήματα οποιουδήποτε έθνους. Αποσυνδέεται μόνο με bonds."
+
+msgid "deluxRammer/name"
+msgstr "Καινοτόμο Σύστημα Γέμισης"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "Βελτιωμένη έκδοση της Εξάτμισης Χαμηλού Θορύβου με μεγαλύτερη επίδραση στην αύξηση των συντελεστών κάλυψης κινούμενου ή ακίνητου οχήματος. Ιδιαίτερα χρήσιμη για οχήματα σε ρόλο ανιχνευτή.\nΟ συγκεκριμένος εξοπλισμός είναι κατάλληλος για όλα τα οχήματα οποιουδήποτε έθνους. Αποσυνδέεται μόνο με χρήση bonds."
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "Εξάτμιση Μηδενικού Θορύβου"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "Αυξάνει τους συντελεστές κάλυψης ακίνητου ή κινούμενου οχήματος κατά {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose}"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "Αυξάνει τον συντελεστή κάλυψης ενός ακίνητου οχήματος, 1,5 sec αφότου σταματήσει"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "Βελτιωμένη έκδοση του εξοπλισμού Δίχτυ Καμουφλάζ, η επίδραση του οποίου εξαρτάται από τον τύπο του οχήματος. Το Δίχτυ Τακτικής Κάλυψης είναι αποτελεσματικό κυρίως σε Α/Κ Πυροβόλα και αντιαρματικά με μικρό σχήμα και μεγάλο συντελεστή κάλυψης. Αυξάνει την αποτελεσματικότητα της ικανότητας Καμουφλάζ, αφού σε συνδυασμό με αυτήν, αυξάνει σημαντικά τον συντελεστή κάλυψης του οχήματος. Το Δίχτυ Τακτικής Κάλυψης ενεργοποιείται σε 1,5 δευτερόλεπτα αφότου σταματήσει να κινείται το όχημα."
+
+msgid "deluxeCamouflageNet/name"
+msgstr "Δίχτυ Τακτικής Κάλυψης"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17,5{colorTagClose}/{colorTagOpen}12,5{colorTagClose}/{colorTagOpen}7,5%{colorTagClose} στους συντελεστές κάλυψης ακίνητου οχήματος"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "Επαναφέρει πλήρως τα hit points των ερπυστριών μετά από επισκευή."
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "Επαναφέρει πλήρως τις ερπύστριες μετά από επισκευή."
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "Αναβαθμισμένη έκδοση της Βελτιωμένης Σκλήρυνσης: {colorTagOpen}+12.5%{colorTagClose} στα hit points του οχήματος, {colorTagOpen}+75%{colorTagClose} στην αντοχή της ανάρτησης, {colorTagOpen}+30%{colorTagClose} στην ταχύτητα επισκευών, {colorTagOpen}–75%{colorTagClose} στη φθορά που λαμβάνει το σκάφος από φθορά της ανάρτησης κατά τη διάρκεια πρόσκρουσης. Επαναφέρει πλήρως τις ερπύστριες μετά από επισκευή. Μειώνει την πιθανότητα καταστροφής των ερπυστριών μετά από προσλαμβανόμενη φθορά και την πιθανότητα ακινητοποίησης του οχήματος. Ο συγκεκριμένος εξοπλισμός είναι κατάλληλος για όλα τα οχήματα (εκτός από Α/Κ Πυροβόλα) οποιουδήποτε έθνους. Αποσυνδέεται μόνο με bonds."
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "Αυξημένη Αντιβληματική Προστασία"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "Αυξάνει την αντοχή και προστατεύει τις ερπύστριες"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "Αναβαθμισμένη έκδοση του Βελτιωμένου Μηχανισμού Περιστροφής που δίνει μεγαλύτερα μπόνους: {colorTagOpen}+17,5% {colorTagClose}στην ταχύτητα περιστροφής του πυροβόλου, {colorTagOpen}+17,5% {colorTagClose}στην ταχύτητα περιστροφής του σκάφους και {colorTagOpen}-17,5% {colorTagClose}στη διασπορά των πυρών κατά την περιστροφή του σκάφους και του πυργίσκου. Ο εξοπλισμός αυτός είναι κατάλληλος για οχήματα κάθε έθνους και τύπου. Μπορεί να αποσυνδεθεί μόνο με bonds."
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "Αναβαθμισμένη Περιστροφή"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "Αυξάνει την ταχύτητα περιστροφής και την ευστοχία κατά τη διάρκεια περιστροφής σκάφους και πυργίσκου"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "Αναβαθμισμένη έκδοση της Βελτιωμένης Στόχευσης: μειώνει τον κύκλο στόχευσης και όταν κλείνει ο κύκλος και όταν έχει κλείσει τελείως. Αυξάνει την ευστοχία του πυροβόλου κατά {colorTagOpen}9%{colorTagClose}. Ο εξοπλισμός αυτός είναι κατάλληλος για οχήματα κάθε έθνους και τύπου (εκτός από Α/Κ Πυροβόλα). Μπορεί να αποσυνδεθεί μόνο με bonds."
+
+msgid "deluxeImprovedSights/name"
+msgstr "Πρωτοποριακή Στόχευση"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "Μειώνει τη διασπορά των πυρών"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "Αυξάνει το εύρος ορατότητας ενός σταματημένου οχήματος, 1,5 sec αφότου έχει σταματήσει (μέχρι και τα 445 m)"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "Βελτιωμένη έκδοση του εξοπλισμού Διοπτρικό Τηλεσκόπιο. Το καλό εύρος ορατότητας δίνει σημαντικό πλεονέκτημα στη μάχη. Αυτός ο τύπος εξοπλισμού είναι πιο αποτελεσματικός σε αντιαρματικά με μεγάλο συντελεστή κάλυψης και εύστοχα πυροβόλα. Ενεργοποιείται σε 1,5 δευτερόλεπτα αφότου το όχημα έχει σταματήσει να κινείται."
+
+msgid "deluxeStereoscope/name"
+msgstr "Σύστημα Τηλεσκοπικής Διόπτευσης"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27,5%{colorTagClose} στο εύρος ορατότητας ακίνητου οχήματος (μέχρι και τα 445 m)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "Αναβαθμισμένη έκδοση του Τούρμπο ({colorTagOpen}+7.5%{colorTagClose} στην ισχύ του κινητήρα, {colorTagOpen}+4 km/h{colorTagClose} στη μέγιστη ταχύτητα, {colorTagOpen}+2 km/h{colorTagClose} στην ταχύτητα οπισθοπορείας): {colorTagOpen}+12.5%{colorTagClose} στην ισχύ του κινητήρα, {colorTagOpen}+6 km/h{colorTagClose} στη μέγιστη ταχύτητα, {colorTagOpen}+4 km/h{colorTagClose} στην ταχύτητα οπισθοπορείας. Ο συγκεκριμένος εξοπλισμός είναι κατάλληλος για όλα τα οχήματα (εκτός από τροχήλατα οχήματα) οποιουδήποτε έθνους. Αποσυνδέεται μόνο με bonds."
+
+msgid "deluxeTurbocharger/name"
+msgstr "Βελτιωμένος Συμπιεστής"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "Αυξάνει την ισχύ του κινητήρα και τη μέγιστη ταχύτητα"
+
+msgid "eb_minefield/descr"
+msgstr "Τοποθετεί νάρκες στην επιλεγμένη περιοχή για συγκεκριμένο χρονικό διάστημα."
+
+msgid "eb_minefield/long_descr"
+msgstr "Τοποθετεί νάρκες στην επιλεγμένη περιοχή για συγκεκριμένο χρονικό διάστημα, οι οποίες προκαλούν φθορά και σοκ στα εχθρικά οχήματα. Οι νάρκες μπορούν να καταστραφούν από βολές ή εκρήξεις. Τα εχθρικά οχήματα μπορούν να δουν τις νάρκες από μικρή απόσταση ή χρησιμοποιώντας τις εφεδρείες Αναγνωριστική Πτήση και Φρουρά."
+
+msgid "eb_minefield/name"
+msgstr "Ναρκοπέδιο"
+
+msgid "eb_minefield/short_descr"
+msgstr "Τοποθετεί νάρκες στην επιλεγμένη περιοχή για συγκεκριμένο χρονικό διάστημα."
+
+msgid "eb_regenerationKit/descr"
+msgstr "Σταδιακά αποκαθιστά ένα προκαθορισμένο ποσοστό των hit points του οχήματος."
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "Σταδιακά αποκαθιστά ένα προκαθορισμένο ποσοστό των hit points του οχήματος και αυξάνει την ταχύτητα επισκευής χαλασμένων εξαρτημάτων των οχημάτων που βρίσκονται μέσα στον Κύκλο Ανεφοδιασμού. Όταν ενεργοποιηθεί, μειώνει την προσλαμβανόμενη φθορά από νάρκες."
+
+msgid "eb_regenerationKit/name"
+msgstr "Επισκευές στη Μάχη"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "Σταδιακά αποκαθιστά ένα προκαθορισμένο ποσοστό των hit points του οχήματος."
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "Θέση στο Γκαράζ"
+
+msgid "empty_slot/name"
+msgstr "Θέση στο Γκαράζ"
+
+msgid "empty_slot/short_descr"
+msgstr "Η θέση Εφεδρείας χρησιμοποιείται."
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "Αυξάνει την επίδρασή της ικανότητας Ηχητικός Εντοπισμός κατά 1,5 φορές"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "Παρέχει την ικανότητα Ηχητικός Εντοπισμός στο 100%"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "Η ικανότητα Ηχητικός Εντοπισμός δίνει σήμα κινδύνου για βολή εχθρικού πυροβολικού και μειώνει την αρνητική επίδραση του σοκ. Όταν κατέχετε την ικανότητα στο 100%, η οδηγία αυξάνει περαιτέρω την επίδρασή της. Όταν δεν την κατέχετε, η οδηγία σας την παρέχει στο 100%."
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "Προσδοκώμενη Εκδίκηση"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "Παρέχει την ικανότητα Ηχητικός Εντοπισμός στο 100% ή αυξάνει την επίδρασή της"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "Το Προηγμένο Σύστημα Σκόπευσης μειώνει τον απαιτούμενο χρόνο στόχευσης. Σε πολλές περιπτώσεις βελτιώνει έμμεσα και την ταχυβολία, σε οχήματα που ο αρχικός χρόνος γέμισης είναι μικρότερος από τον χρόνο πλήρους στόχευσης."
+
+msgid "enhancedAimDrives/name"
+msgstr "Προηγμένο Σύστημα Σκόπευσης"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s στην ταχύτητα σκόπευσης με Προηγμένο Σύστημα Σκόπευσης (κάθε κλάσης), Ανθεκτικό Σύστημα Σκόπευσης, Αναβαθμίσιμο Σύστημα Σκόπευσης ή Σετ Ελέγχου Πυρών."
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "Βελτιώνει την επίδραση του Προηγμένου Συστήματος Σκόπευσης, του Αναβαθμίσιμου Συστήματος Σκόπευσης ή του Ανθεκτικού Συστήματος Σκόπευσης, κατά τη διάρκεια της μάχης. Θα πρέπει να έχετε ήδη τοποθετήσει τον σχετικό εξοπλισμό για να χρησιμοποιήσετε τις συγκεκριμένες οδηγίες."
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "Ρύθμιση Σκόπευσης"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "Βελτιώνει την επίδραση των συστημάτων σκόπευσης"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "Προηγμένο Σύστημα Σκόπευσης 1ης Κλάσης"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "Προηγμένο Σύστημα Σκόπευσης 2ης Κλάσης"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "Προηγμένο Σύστημα Σκόπευσης 3ης Κλάσης"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "Ενισχυμένες ροδέλες Belleville"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "Επαναφέρει πλήρως τα hit points των ερπυστριών μετά από επισκευή."
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Επαναφέρει πλήρως τα hit points των ερπυστριών μετά από επισκευή"
+
+msgid "enhancedLevers/name"
+msgstr "Ενισχυμένοι μοχλοβραχίονες"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "Ενισχυμένες Επιμήκεις Μπάρες Στρέψης"
+
+msgid "enhancedSprings/name"
+msgstr "Ενισχυμένα Ελατήρια"
+
+msgid "enhancedTorsions1t/name"
+msgstr "Ενισχυμένες Μπάρες Στρέψης Κλάσης 1 t"
+
+msgid "enhancedTorsions3t/name"
+msgstr "Ενισχυμένες Μπάρες Στρέψης Κλάσης 3 t"
+
+msgid "enhancedTorsions5t/name"
+msgstr "Ενισχυμένες Μπάρες Στρέψης Κλάσης 5 t"
+
+msgid "exampleAbility/descr"
+msgstr "Δοκιμαστική Ικανότητα για Visual Script"
+
+msgid "exampleAbility/name"
+msgstr "Δοκιμαστική Ικανότητα"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s σε ισχύ κινητήρα και ταχύτητα περιστροφής πυργίσκου κατά τη διάρκεια μίας μάχης."
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} σε ισχύ κινητήρα και ταχύτητα περιστροφής πυργίσκου."
+
+msgid "excellentFuel/long_special"
+msgstr "Προσθέτει {colorTagOpen}10%{colorTagClose} στην ισχύ του κινητήρα και στην ταχύτητα περιστροφής του πυργίσκου, κατά τη διάρκεια της μάχης. Ενεργοποιείται αυτόματα με την έναρξη της μάχης και επιδρά κατά τη διάρκεια αυτής."
+
+msgid "excellentFuel/name"
+msgstr "Ραφιναρισμένο Καύσιμο"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} σε ισχύ κινητήρα και ταχύτητα περιστροφής πυργίσκου"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "Επαναφέρει πλήρως τα hit points των ερπυστριών μετά από επισκευή."
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "Επαναφέρει πλήρως τις ερπύστριες μετά από επισκευή."
+
+msgid "extraHealthReserve/long_special"
+msgstr "Αυξάνει την αντοχή του οχήματος και την ταχύτητα των επισκευών. Μειώνει τη φθορά στο σκάφος μετά από πρόσκρουση. Επαναφέρει πλήρως τις ερπύστριες μετά από επισκευή. Μειώνει την πιθανότητα καταστροφής των ερπυστριών μετά από προσλαμβανόμενη φθορά και την πιθανότητα ακινητοποίησης του οχήματος."
+
+msgid "extraHealthReserve/name"
+msgstr "Βελτιωμένη Σκλήρυνση"
+
+msgid "extraHealthReserve/short_special"
+msgstr "Αυξάνει την αντοχή και προστατεύει τις ερπύστριες"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "Βελτιωμένη Σκλήρυνση 1ης Κλάσης"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "Βελτιωμένη Σκλήρυνση 2ης Κλάσης"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "Βελτιωμένη Σκλήρυνση 3ης Κλάσης"
+
+msgid "fireCircle/battleDescr"
+msgstr "Δημιουργεί μία κυκλική περιοχή φωτιάς γύρω από το όχημά σας, μέσα στην οποία μειώνεται η ευκινησία των εχθρικών οχημάτων, ενώ προκαλεί σε αυτά φθορά έως και %(damagePerTickForInterval)s των συνολικών τους HP μέσα στα %(timer)s sec της επίδρασης.\n\n*Η κυκλική περιοχή φωτιάς παραμένει σε σταθερό σημείο και δεν ακολουθεί το όχημά σας."
+
+msgid "fireCircle/descr"
+msgstr "Δημιουργεί μία κυκλική περιοχή φωτιάς γύρω από το όχημά σας, μέσα στην οποία μειώνεται η ευκινησία των εχθρικών οχημάτων, ενώ προκαλεί σε αυτά φθορά έως και %(damagePerTickForInterval)s των συνολικών τους HP μέσα στα %(timer)s sec της επίδρασης.\n\n*Η κυκλική περιοχή φωτιάς παραμένει σε σταθερό σημείο και δεν ακολουθεί το όχημά σας."
+
+msgid "fireCircle/longDescr"
+msgstr "Δημιουργεί μία κυκλική περιοχή φωτιάς γύρω από το όχημά σας, μέσα στην οποία μειώνεται η ευκινησία των εχθρικών οχημάτων, ενώ προκαλεί σε αυτά {whiteSpanish_Open}φθορά έως και %(damagePerTickForInterval)s των συνολικών τους HP{whiteSpanish_Close} μέσα στα {whiteSpanish_Open}%(timer)s sec{whiteSpanish_Close} της επίδρασης.\n\n*Η κυκλική περιοχή φωτιάς παραμένει σε σταθερό σημείο και δεν ακολουθεί το όχημά σας."
+
+msgid "fireCircle/name"
+msgstr "Δακτύλιος Φωτιάς"
+
+msgid "fireCircle/shortDescr"
+msgstr "Δημιουργεί μία κυκλική περιοχή φωτιάς γύρω από το όχημά σας, μέσα στην οποία μειώνεται η ευκινησία των εχθρικών οχημάτων, ενώ προκαλεί σε αυτά {whiteSpanish_Open}φθορά έως και %(damagePerTickForInterval)s των συνολικών τους HP{whiteSpanish_Close} μέσα στα {whiteSpanish_Open}%(timer)s sec{whiteSpanish_Close} της επίδρασης.\n\n*Η κυκλική περιοχή φωτιάς παραμένει σε σταθερό σημείο και δεν ακολουθεί το όχημά σας."
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "Αυξάνει την επίδρασή της ικανότητας Πυρόσβεση κατά 1,5 φορές"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "Παρέχει την ικανότητα Πυρόσβεση στο 100%"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "Η ικανότητα Πυρόσβεση αυξάνει τις δυνατότητες πυρόσβεσης κατά τη διάρκεια της μάχης. Όταν κατέχετε την ικανότητα στο 100%, η οδηγία αυξάνει κι άλλο την επίδρασή της, όταν δεν την κατέχετε, η οδηγία σας την παρέχει στο 100%."
+
+msgid "fireFightingBattleBooster/name"
+msgstr "Έμπειρος Πυροσβέστης"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "Παρέχει την ικανότητα Πυρόσβεση στο 100% ή αυξάνει την επίδρασή της"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "Δίνει διαταγή στο πυροβολικό να ρίξει πυρά στην επιλεγμένη περιοχή και να προκαλέσει φθορά σε όλα τα εχθρικά οχήματα μέσα σε αυτήν."
+
+msgid "fort_aoe_artillery/name"
+msgstr "Μπαράζ Πυροβολικού"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "Δίνει διαταγή στο πυροβολικό να ρίξει πυρά στην επιλεγμένη περιοχή και να προκαλέσει φθορά σε όλα τα εχθρικά οχήματα μέσα σε αυτήν."
+
+msgid "fort_inspire/longDescr"
+msgstr "Βελτιώνει τα πληρώματα του ίδιου του οχήματος αλλά και των άλλων οχημάτων της ομάδας μέσα σε μία καθορισμένη περιοχή, δίνοντας μπόνους στην κύρια ειδικότητα και τις ικανότητες του κάθε μέλους."
+
+msgid "fort_inspire/name"
+msgstr "Έμπνευση"
+
+msgid "fort_inspire/shortDescr"
+msgstr "Βελτιώνει τα πληρώματα του ίδιου του οχήματος αλλά και των άλλων οχημάτων της ομάδας μέσα σε μία καθορισμένη περιοχή, δίνοντας μπόνους στην κύρια ειδικότητα και τις ικανότητες του κάθε μέλους."
+
+msgid "fuel_system_revision_1/name"
+msgstr "Βελτίωση Καυσίμου (Τύπος 1)"
+
+msgid "grousers/long_special"
+msgstr "Αυξάνει την ταχύτητα περιστροφής του οχήματος και βοηθά στην διατήρηση της ταχύτητας σε όλους τους τύπους εδάφους. Ιδιαιτέρως αποτελεσματικό σε μαλακό η λασπώδες έδαφος. Ακόμη πιο αποτελεσματικό όταν συνδυάζεται με τις ικανότητες Επιτυχές Φρενάρισμα και Οδήγηση Εκτός-Δρόμου."
+
+msgid "grousers/name"
+msgstr "Επιπρόσθετα Μεταλλικά Πέλματα"
+
+msgid "grousers/short_special"
+msgstr "Αυξάνει την ταχύτητα περιστροφής του οχήματος και βελτιώνει την επιτάχυνση"
+
+msgid "grousers_tier1/name"
+msgstr "Επιπρόσθετα Μεταλλικά Πέλματα 1ης Κλάσης"
+
+msgid "grousers_tier2/name"
+msgstr "Επιπρόσθετα Μεταλλικά Πέλματα 2ης Κλάσης"
+
+msgid "grousers_tier3/name"
+msgstr "Επιπρόσθετα Μεταλλικά Πέλματα 3ης Κλάσης"
+
+msgid "gun_balancing_1/name"
+msgstr "Ζυγοστάθμιση Πυροβόλου (Τύπος 1)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "Σβήνει φωτιά στο όχημά σας."
+
+msgid "handExtinguishers/long_special"
+msgstr "Σβήνει τη φωτιά στο όχημα όταν επιλεχθεί. Κατάλληλο για όλα τα οχήματα οποιουδήποτε έθνους. Το αναλώσιμο καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω και μία φορά."
+
+msgid "handExtinguishers/name"
+msgstr "Χειροκίνητος Πυροσβεστήρας"
+
+msgid "handExtinguishers/onUse"
+msgstr "Πυρόσβεση στο όχημά σας. Μπορεί να χρησιμοποιηθεί πολλές φορές σε μία μάχη. Το αναλώσιμο καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω και μία φορά."
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "Σβήνει τη φωτιά"
+
+msgid "healPoint/battleDescr"
+msgstr "Δημιουργεί μία περιοχή γύρω από το όχημά σας, μέσα στην οποία όλα τα μέλη του Ουλαμού αποκαθιστούν %(healPerTick)s των HP τους κάθε %(duration)s sec."
+
+msgid "healPoint/descr"
+msgstr "Δημιουργεί μία περιοχή γύρω από το όχημά σας, μέσα στην οποία όλα τα μέλη του Ουλαμού αποκαθιστούν %(healPerTick)s των HP τους κάθε %(duration)s sec."
+
+msgid "healPoint/longDescr"
+msgstr "Δημιουργεί μία περιοχή γύρω από το όχημά σας, μέσα στην οποία όλα τα μέλη του Ουλαμού {green_Open}αποκαθιστούν %(healPerTick)s των HP τους{green_Close} κάθε {whiteSpanish_Open}%(duration)s sec.{whiteSpanish_Close}"
+
+msgid "healPoint/name"
+msgstr "Ζώνη Ανάκτησης"
+
+msgid "healPoint/shortDescr"
+msgstr "Δημιουργεί μία περιοχή γύρω από το όχημά σας, μέσα στην οποία όλα τα μέλη του Ουλαμού {green_Open}αποκαθιστούν %(healPerTick)s των HP τους{green_Close} κάθε {whiteSpanish_Open}%(duration)s sec.{whiteSpanish_Close}"
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s στο μπόνους επιδόσεων του πληρώματος για μία μάχη."
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} στο μπόνους επιδόσεων πληρώματος."
+
+msgid "hotCoffee/long_special"
+msgstr "Ενεργοποιείται αυτόματα με την έναρξη της μάχης και επιδρά κατά τη διάρκεια αυτής. Μόνο για Γαλλικά οχήματα."
+
+msgid "hotCoffee/name"
+msgstr "Δυνατός Καφές"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "Κατάλληλο μόνο για Γαλλικά οχήματα."
+
+msgid "hotCoffee/short_special"
+msgstr "Βελτιώνει τις επιδόσεις των Γαλλικών πληρωμάτων"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "Αποτρέπει μία φορά τη φωτιά στις δεξαμενές καυσίμων, την ανατίναξη των πυρομαχικών ή την καταστροφή του κινητήρα όταν, καταστραφούν τα αντίστοιχα εξαρτήματα."
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "Αποτρέπει μία φορά τη φωτιά στις δεξαμενές καυσίμων, την ανατίναξη των πυρομαχικών ή την καταστροφή του κινητήρα όταν, καταστραφούν τα αντίστοιχα εξαρτήματα."
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "Τα πυρομαχικά προστατεύονται από ανατίναξη"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "Η ανατίναξη των πυρομαχικών απετεύχθη"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "Ο κινητήρας προστατεύεται"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "Η καταστροφή του κινητήρα απετεύχθη"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "Οι δεξαμενές καυσίμων προστατεύονται από φωτιά"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "Η φωτιά στις δεξαμενές καυσίμων απετεύχθη"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "Αποτρέπει μία φορά τη φωτιά στις δεξαμενές καυσίμων, την ανατίναξη των πυρομαχικών ή την καταστροφή του κινητήρα όταν, καταστραφούν τα αντίστοιχα εξαρτήματα."
+
+msgid "improvedConfiguration/long_special"
+msgstr "Αυξάνει την ταχύτητα των επισκευών, την αντοχή των πυρομαχικών, των δεξαμενών καυσίμων και του κινητήρα. Μειώνει τη διάρκεια των ποινών όταν καταστραφούν τα αντίστοιχα εξαρτήματα. Μειώνει την πιθανότητα φωτιάς στον κινητήρα. Αποτρέπει μία φορά τη φωτιά στις δεξαμενές καυσίμων, την ανατίναξη των πυρομαχικών ή την καταστροφή του κινητήρα όταν, καταστραφούν τα αντίστοιχα εξαρτήματα. Περισσότερο αποτελεσματικό όταν συνδυάζεται με τις επιδεξιότητες Επισκευές, Ασφαλής Αποθήκευση και Προληπτική Συντήρηση."
+
+msgid "improvedConfiguration/name"
+msgstr "Τροποποιημένη Διαμόρφωση"
+
+msgid "improvedConfiguration/short_special"
+msgstr "Αυξάνει την ταχύτητα των επισκευών, προστατεύει τα πυρομαχικά, τις δεξαμενές καυσίμων και τον κινητήρα"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s στην ταχύτητα επισκευών με Τροποποιημένη Διαμόρφωση (κάθε κλάσης), Βελτιωμένη Διαμόρφωση ή Αναβαθμίσιμη Προστατευτική Τεχνολογία."
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "Βελτιώνει την επίδραση της Τροποποιημένης Διαμόρφωσης, της Βελτιωμένης Διαμόρφωσης ή της Αναβαθμίσιμης Προστατευτικής Τεχνολογίας, κατά τη διάρκεια της μάχης. Θα πρέπει να έχετε ήδη τοποθετήσει τον σχετικό εξοπλισμό για να χρησιμοποιήσετε τη συγκεκριμένη οδηγία."
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "Προετοιμασία Μάχης"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "Βελτιώνει την επίδραση της Τροποποιημένης Διαμόρφωσης"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "Τροποποιημένη Διαμόρφωση 1ης Κλάσης"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "Τροποποιημένη Διαμόρφωση 2ης Κλάσης"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "Αυξάνει τον χρόνο στον οποίο ένα εχθρικό όχημα παραμένει εντοπισμένο όταν βγει εκτός του εύρους ορατότητας του οχήματος. Μειώνει τον χρόνο στον οποίο το όχημα παραμένει εντοπισμένο από τους αντιπάλους. Περισσότερο αποτελεσματικό όταν συνδυάζεται με τις ικανότητες Καθορισμός Στόχου και Η Ώρα της Εκδίκησης."
+
+msgid "improvedRadioCommunication/name"
+msgstr "Βελτιωμένο Σύστημα Ασυρμάτου"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "Αυξάνει τον χρόνο εντοπισμού ενός εχθρικού οχήματος και μειώνει τον χρόνο εντοπισμού του οχήματος από τους αντιπάλους"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "Αυξάνει την ταχύτητα περιστροφής του οχήματος και του πυργίσκου σε οχήματα με πυργίσκο. Αυξάνει την ταχύτητα περιστροφής του οχήματος και του πυροβόλου σε οχήματα χωρίς πυργίσκο. Αυξάνει την ευστοχία του πυροβόλου κατά τη διάρκεια κίνησης του οχήματος ή κατά τη διάρκεια περιστροφής του σκάφους και του πυργίσκου, καθώς και μετά τη ρίψη πυρών. Περισσότερο αποτελεσματικό όταν συνδυάζεται με την ικανότητα Επιτυχές Φρενάρισμα."
+
+msgid "improvedRotationMechanism/name"
+msgstr "Βελτιωμένος Μηχανισμός Περιστροφής"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "Αυξάνει την ταχύτητα περιστροφής και την ευστοχία κατά τη διάρκεια περιστροφής σκάφους και πυργίσκου"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "Βελτιωμένος Μηχανισμός Περιστροφής 1ης Κλάσης"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "Βελτιωμένος Μηχανισμός Περιστροφής 2ης Κλάσης"
+
+msgid "improvedSights/long_special"
+msgstr "Μειώνει τον κύκλο στόχευσης για μεγαλύτερη ευστοχία όταν κλείνει ο κύκλος ή όταν έχει κλείσει τελείως. Αυξάνει την ευστοχία του πυροβόλου."
+
+msgid "improvedSights/name"
+msgstr "Βελτιωμένη Στόχευση"
+
+msgid "improvedSights/short_special"
+msgstr "Μειώνει τη διασπορά των πυρών"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s στο μέγεθος του κύκλου στόχευσης με τοποθετημένη Βελτιωμένη Στόχευση (κάθε κλάσης), Αναβαθμίσιμη Στόχευση ή με Σετ Βελτιωμένης Ευστοχίας."
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "Βελτιώνει την επίδραση της Βελτιωμένης Στόχευσης ή της Αναβαθμίσιμης Στόχευσης, κατά τη διάρκεια της μάχης. Θα πρέπει να έχετε ήδη τοποθετήσει τον σχετικό εξοπλισμό για να χρησιμοποιήσετε τη συγκεκριμένη οδηγία."
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "Γυαλισμένοι Φακοί"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "Μειώνει το μέγεθος του κύκλου στόχευσης"
+
+msgid "improvedSights_tier1/name"
+msgstr "Βελτιωμένη Στόχευση 1ης Κλάσης"
+
+msgid "improvedSights_tier2/name"
+msgstr "Βελτιωμένη Στόχευση 2ης Κλάσης"
+
+msgid "improvedSights_tier3/name"
+msgstr "Βελτιωμένη Στόχευση 3ης Κλάσης"
+
+msgid "improvedVentilation/long_special"
+msgstr "Βελτιώνει μία σειρά από χαρακτηριστικά του οχήματος: εύρος ορατότητας, ταχυβολία, χρόνος στόχευσης, κλπ. Ωστόσο, η επίδραση αυτού του εξοπλισμού θα κάνει τη διαφορά κυρίως σε συνδυασμό με την ικανότητα «Αδέρφια στη Μάχη» στο 100%."
+
+msgid "improvedVentilation/name"
+msgstr "Βελτιωμένος Εξαερισμός"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s στο μπόνους επιδόσεων του πληρώματος με Βελτιωμένο Εξαερισμό (κάθε κλάσης), Αναβαθμίσιμο Εξαερισμό ή Σύστημα Εξαερισμού."
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "Βελτιώνει την επίδραση του Βελτιωμένου Εξαερισμού (κάθε κλάσης), του Συστήματος Εξαερισμού ή του Αναβαθμίσιμου Εξαερισμού, κατά τη διάρκεια της μάχης. Θα πρέπει να έχετε ήδη τοποθετήσει τον σχετικό εξοπλισμό για να χρησιμοποιήσετε τη συγκεκριμένη οδηγία."
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "Καθαρισμός Εξαερισμού"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "Αυξάνει την επίδραση του εξαερισμού"
+
+msgid "improvedVentilation_class1/name"
+msgstr "Βελτιωμένος Εξαερισμός 1ης Κλάσης"
+
+msgid "improvedVentilation_class2/name"
+msgstr "Βελτιωμένος Εξαερισμός 2ης Κλάσης"
+
+msgid "improvedVentilation_class3/name"
+msgstr "Βελτιωμένος Εξαερισμός 3ης Κλάσης"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "Βελτιωμένος Εξαερισμός 1ης Κλάσης"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "Βελτιωμένος Εξαερισμός 2ης Κλάσης"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "Βελτιωμένος Εξαερισμός 3ης Κλάσης"
+
+msgid "improved_suspension_1/name"
+msgstr "Βελτιωμένη Ανάρτηση (Τύπος 1)"
+
+msgid "improved_suspension_2/name"
+msgstr "Βελτιωμένη Ανάρτηση (Τύπος 2)"
+
+msgid "inspire/longDescr"
+msgstr "Βελτιώνει τα πληρώματα του ίδιου του οχήματος αλλά και των άλλων οχημάτων της ομάδας μέσα σε μία καθορισμένη περιοχή, δίνοντας μπόνους % στην κύρια ειδικότητα του κάθε μέλους. Ο παίκτης που ενεργοποιεί την Εφεδρεία λαμβάνει μεγαλύτερο μπόνους."
+
+msgid "inspire/name"
+msgstr "Έμπνευση"
+
+msgid "inspire/shortDescr"
+msgstr "Βελτιώνει την κύρια ειδικότητα των μελών όλων των πληρωμάτων"
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "Έμβολο Βλημάτων Πυροβολικού Μεγάλου Διαμετρήματος"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "Έμβολο Όπλου Άρματος Μεγάλου Διαμετρήματος"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s στη διάρκεια του σοκ\n%(crewHitChance)s στην προστασία του πληρώματος από τραυματισμούς"
+
+msgid "largeMedkit/descr"
+msgstr "Θεραπεύει όλα τα τραυματισμένα μέλη του πληρώματος και αφαιρεί το σοκ."
+
+msgid "largeMedkit/long_special"
+msgstr "Θεραπεύει όλα τα τραυματισμένα μέλη του πληρώματος και αφαιρεί το σοκ όταν επιλεχθεί. Παρέχει μόνιμη προστασία στο πλήρωμα από τραυματισμούς. Κατάλληλο για όλα τα οχήματα οποιουδήποτε έθνους."
+
+msgid "largeMedkit/name"
+msgstr "Μεγάλο Κουτί Πρώτων Βοηθειών"
+
+msgid "largeMedkit/onUse"
+msgstr "Θεραπεύει όλα τα τραυματισμένα μέλη του πληρώματος. Μπορεί να χρησιμοποιηθεί πολλές φορές σε μία μάχη. Το αναλώσιμο καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω και μία φορά."
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "Θεραπεύει όλα τα τραυματισμένα μέλη του πληρώματος και αφαιρεί το σοκ. Μπορεί να χρησιμοποιηθεί πολλές φορές σε μία μάχη. Το αναλώσιμο καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω και μία φορά."
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "Θεραπεύει όλα τα τραυματισμένα μέλη του πληρώματος και αφαιρεί το σοκ"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s στην ταχύτητα επισκευών"
+
+msgid "largeRepairkit/descr"
+msgstr "Επισκευάζει όλα τα χαλασμένα εξαρτήματα."
+
+msgid "largeRepairkit/long_special"
+msgstr "Επισκευάζει ταυτόχρονα όλα τα χαλασμένα εξαρτήματα όταν επιλεχθεί. Παρέχει μόνιμο μπόνους στην ταχύτητα επισκευών. Κατάλληλο για όλα τα οχήματα οποιουδήποτε έθνους."
+
+msgid "largeRepairkit/name"
+msgstr "Μεγάλο Κουτί Επισκευών"
+
+msgid "largeRepairkit/onUse"
+msgstr "Επισκευάζει όλα τα χαλασμένα εξαρτήματα. Μπορεί να χρησιμοποιηθεί πολλές φορές σε μία μάχη. Το αναλώσιμο καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω και μία φορά."
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "Επισκευάζει όλα τα χαλασμένα εξαρτήματα"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "Επιπλέον 50% στην ικανότητα Η Ώρα Της Εκδίκησης"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "Δίνει την ικανότητα Η Ώρα της Εκδίκησης στο 100%"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "Η ικανότητα «Η Ώρα της Εκδίκησης» δίνει τη δυνατότητα για αναφορά της θέσης των εχθρικών οχημάτων για 2 δευτερόλεπτα επιπλέον, μετά την καταστροφή του οχήματος, κατά τη διάρκεια της μάχης. Όταν κατέχετε την ικανότητα στο 100%, η οδηγία αυξάνει την επίδρασή της κατά 1 δευτερόλεπτο (με συνολική διάρκεια 3 δευτερολέπτων), ενώ όταν δεν την κατέχετε, η οδηγία σας την παρέχει στο 100 (με την προκαθορισμένη διάρκεια των 2 δευτερολέπτων)%."
+
+msgid "lastEffortBattleBooster/name"
+msgstr "Πρώτα Το Καθήκον"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "Παρέχει την ικανότητα Η Ώρα της Εκδίκησης στο 100% ή αυξάνει την επίδρασή της"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "Έμβολο Βλημάτων Πυροβολικού Μέσου Διαμετρήματος"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "Έμβολο Όπλου Άρματος Μέσου Διαμετρήματος"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "Σετ Ελέγχου Πυρών Τ1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "Σετ Ελέγχου Πυρών Τ1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "Σετ Ελέγχου Πυρών Τ1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "Σετ Ελέγχου Πυρών Τ2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "Σετ Ελέγχου Πυρών Τ2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "Σετ Ελέγχου Πυρών Τ2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "Σετ Ελέγχου Πυρών Τ3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "Σετ Ελέγχου Πυρών Τ3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "Σετ Ελέγχου Πυρών Τ3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "Σετ Βελτιωμένης Αντοχής Τ1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "Σετ Βελτιωμένης Αντοχής Τ1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "Σετ Βελτιωμένης Αντοχής Τ1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "Σετ Βελτιωμένης Αντοχής Τ2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "Σετ Βελτιωμένης Αντοχής Τ2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "Σετ Βελτιωμένης Αντοχής Τ2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "Σετ Βελτιωμένης Αντοχής Τ3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "Σετ Βελτιωμένης Αντοχής Τ3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "Σετ Βελτιωμένης Αντοχής Τ3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "Σετ Βελτιωμένης Ευστοχίας Τ1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "Σετ Βελτιωμένης Ευστοχίας Τ1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "Σετ Βελτιωμένης Ευστοχίας Τ1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "Σετ Βελτιωμένης Ευστοχίας Τ2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "Σετ Βελτιωμένης Ευστοχίας Τ2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "Σετ Βελτιωμένης Ευστοχίας Τ2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "Σετ Βελτιωμένης Ευστοχίας Τ3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "Σετ Βελτιωμένης Ευστοχίας Τ3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "Σετ Βελτιωμένης Ευστοχίας Τ3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "Σετ Βελτιωμένης Ευκινησίας Τ1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "Σετ Βελτιωμένης Ευκινησίας Τ1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "Σετ Βελτιωμένης Ευκινησίας Τ1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "Σετ Βελτιωμένης Ευκινησίας Τ2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "Σετ Βελτιωμένης Ευκινησίας Τ2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "Σετ Βελτιωμένης Ευκινησίας Τ2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "Σετ Βελτιωμένης Ευκινησίας Τ3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "Σετ Βελτιωμένης Ευκινησίας Τ3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "Σετ Βελτιωμένης Ευκινησίας Τ3"
+
+msgid "nitro/battleDescr"
+msgstr "Αυξάνεται προσωρινά η ισχύς του κινητήρα κατά %(enginePowerFactor)s και η μέγιστη ταχύτητα κατά %(maxSpeedFactor)s φορές για %(consumeSeconds)s sec."
+
+msgid "nitro/descr"
+msgstr "Αυξάνεται προσωρινά η ισχύς του κινητήρα κατά %(enginePowerFactor)s και η μέγιστη ταχύτητα κατά %(maxSpeedFactor)s φορές για %(consumeSeconds)s sec."
+
+msgid "nitro/long_special"
+msgstr "Αυξάνεται προσωρινά η ισχύς του κινητήρα {green_Open}κατά %(enginePowerFactor)s{green_Close} και η μέγιστη ταχύτητα {green_Open}κατά %(maxSpeedFactor)s φορές{green_Close} για {whiteSpanish_Open}%(consumeSeconds)s sec.{whiteSpanish_Close}"
+
+msgid "nitro/name"
+msgstr "Τούρμπο"
+
+msgid "nitro/short_special"
+msgstr "Αυξάνεται προσωρινά η ισχύς του κινητήρα {green_Open}κατά %(enginePowerFactor)s{green_Close} και η μέγιστη ταχύτητα {green_Open}κατά %(maxSpeedFactor)s φορές{green_Close} για {whiteSpanish_Open}%(consumeSeconds)s sec.{whiteSpanish_Close}"
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "Εναλλασσόμενη Διαμόρφωση: Επικουρικό Φορτίο"
+
+msgid "passive_engineering/longDescr"
+msgstr "Αυξάνεται η ταχύτητα κατάληψης και ανεφοδιασμού. Επιταχύνεται η κατάληψη ή η ανακατάληψη των σημαντικών θέσεων και ο ανεφοδιασμός, ενώ μειώνεται η επαναφορά των Κύκλων Ανεφοδιασμού."
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "Η συγκεκριμένη Εφεδρεία δεν χρησιμοποιείται από Α/Κ Πυροβόλα."
+
+msgid "passive_engineering/name"
+msgstr "Μηχανική"
+
+msgid "passive_engineering/shortDescr"
+msgstr "Αυξάνει την ταχύτητα κατάληψης, υπεράσπισης και ανεφοδιασμού."
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "Όχι για Α/Κ Πυροβόλα"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "Τριπλασιάζει την επίδρασή της ικανότητας Ασφαλής Αποθήκευση"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "Παρέχει την ικανότητα Ασφαλής Αποθήκευση στο 100%"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "Η ικανότητα Ασφαλής Αποθήκευση αυξάνει την αντοχή των πυρομαχικών κατά τη διάρκεια της μάχης. Όταν κατέχετε την ικανότητα στο 100%, η οδηγία αυξάνει κι άλλο την επίδρασή της, όταν δεν την κατέχετε, η οδηγία σας την παρέχει στο 100%."
+
+msgid "pedantBattleBooster/name"
+msgstr "Οργάνωση Βλημάτων"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "Παρέχει την ικανότητα Ασφαλής Αποθήκευση στο 100% ή αυξάνει την επίδρασή της"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "Μέσα σε {colorTagOpen}%(delay)d sec{colorTagClose}, η επιλεγμένη περιοχή θα δέχεται επίθεση από Μπαράζ Πυροβολικού. Οι στόχοι που βρίσκονται σε ακτίνα {colorTagOpen}%(radius)d m{colorTagClose} θα δέχονται {colorTagOpen}%(damage)d{colorTagClose} HP φθοράς και σοκ διάρκειας {colorTagOpen}%(stunDuration)d sec{colorTagClose}."
+
+msgid "poi_artillery_aoe/name"
+msgstr "Μπαράζ Πυροβολικού"
+
+msgid "poi_radar/descr"
+msgstr "Όταν ενεργοποιείται, όλα τα εχθρικά οχήματα θα παραμένουν εντοπισμένα για {colorTagOpen}%(duration)d sec{colorTagClose}."
+
+msgid "poi_radar/name"
+msgstr "Ραντάρ Μεραρχίας"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "Διπλασιάζει την επίδρασης της ικανότητας Πρακτικότητα"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "Παρέχει την ικανότητα Πρακτικότητα στο 100%"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "Η ικανότητα Πρακτικότητα μειώνει τον χρόνο επαναφοράς των αναλώσιμων κατά τη διάρκεια της μάχης. Όταν κατέχετε την ικανότητα στο 100%, η οδηγία αυξάνει κι άλλο την επίδρασή της, όταν δεν την κατέχετε, η οδηγία σας την παρέχει στο 100%."
+
+msgid "practicalityBattleBooster/name"
+msgstr "Διεξοδικές Προετοιμασίες"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "Παρέχει την ικανότητα Πρακτικότητα στο 100% ή αυξάνει την επίδρασή της"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s σε ισχύ κινητήρα και ταχύτητα περιστροφής πυργίσκου κατά τη διάρκεια μίας μάχης."
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5%{colorTagClose} σε ισχύ κινητήρα και ταχύτητα περιστροφής πυργίσκου."
+
+msgid "qualityFuel/long_special"
+msgstr "Προσθέτει {colorTagOpen}5%{colorTagClose} στην ισχύ του κινητήρα και στην ταχύτητα περιστροφής του πυργίσκου, κατά τη διάρκεια της μάχης. Ενεργοποιείται αυτόματα με την έναρξη της μάχης και επιδρά κατά τη διάρκεια αυτής."
+
+msgid "qualityFuel/name"
+msgstr "Ποιοτικό Καύσιμο"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "{colorTagOpen}+5%{colorTagClose} σε ισχύ κινητήρα και ταχύτητα περιστροφής πυργίσκου"
+
+msgid "radar/descr"
+msgstr "Ανιχνεύει εχθρικά οχήματα και Λάφυρα Πολέμου στο minimap."
+
+msgid "radar/name"
+msgstr "Ανίχνευση Ασυρμάτου"
+
+msgid "rammer/long_special"
+msgstr "Η ταχυβολία είναι ένα από τα πιο σημαντικά χαρακτηριστικά του οχήματος. Ο συγκεκριμένος εξοπλισμός είναι άκρως ευεργετικός στη μάχη και θα πρέπει να τοποθετείται στα οχήματα. Τα έμβολα όμως δεν μπορούν να τοποθετηθούν σε οχήματα με αυτόματο σύστημα γέμισης."
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s στον χρόνο γέμισης με Έμβολο Όπλου (κάθε τύπου και διαμετρήματος), Αναβαθμίσιμο Έμβολο Όπλου ή με Καινοτόμο Σύστημα Γέμισης."
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "Βελτιώνει την επίδραση του Εμβόλου Όπλου (κάθε πυροβόλου και διαμετρήματος), του Αναβαθμίσιμου Εμβόλου Όπλου ή του Καινοτόμου Συστήματος Γέμισης, κατά τη διάρκεια της μάχης. Θα πρέπει να έχετε ήδη τοποθετήσει τον σχετικό εξοπλισμό για να χρησιμοποιήσετε τη συγκεκριμένη οδηγία."
+
+msgid "rammerBattleBooster/name"
+msgstr "Τακτοποιημένα Πυρομαχικά"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "Αυξάνει την επίδραση του εμβόλου"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "Διπλασιάζει την επίδρασης της ικανότητας Καθορισμός Στόχου"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "Παρέχει την ικανότητα Καθορισμός Στόχου στο 100%"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "Η ικανότητα Καθορισμός Στόχου αυξάνει τον χρόνο στον οποίο ένα εχθρικό όχημα που βρίσκεται στο στόχαστρο παραμένει εντοπισμένο κατά 2 δευτερόλεπτα. Όταν κατέχετε την ικανότητα στο 100%, η οδηγία αυξάνει κι άλλο την επίδρασή της, όταν δεν την κατέχετε η οδηγία σας την παρέχει στο 100%."
+
+msgid "rancorousBattleBooster/name"
+msgstr "Εστίαση στον Στόχο"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "Παρέχει την ικανότητα Καθορισμός Στόχου στο 100% ή αυξάνει την επίδρασή της"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s στο μπόνους επιδόσεων του πληρώματος για μία μάχη."
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} στο μπόνους επιδόσεων πληρώματος."
+
+msgid "ration/long_special"
+msgstr "Ενεργοποιείται αυτόματα με την έναρξη της μάχης και επιδρά κατά τη διάρκεια αυτής. Μόνο για Σοβιετικά οχήματα."
+
+msgid "ration/name"
+msgstr "Επιπλέον Συσσίτιο"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "Κατάλληλο μόνο για Σοβιετικά οχήματα."
+
+msgid "ration/short_special"
+msgstr "Βελτιώνει τις επιδόσεις των Σοβιετικών πληρωμάτων"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s στο μπόνους επιδόσεων του πληρώματος για μία μάχη."
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} στο μπόνους επιδόσεων πληρώματος."
+
+msgid "ration_china/long_special"
+msgstr "Ενεργοποιείται αυτόματα με την έναρξη της μάχης και επιδρά κατά τη διάρκεια αυτής. Μόνο για Κινεζικά οχήματα."
+
+msgid "ration_china/name"
+msgstr "Βελτιωμένο Συσσίτιο"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "Κατάλληλο μόνο για Κινεζικά οχήματα."
+
+msgid "ration_china/short_special"
+msgstr "Βελτιώνει τις επιδόσεις των Κινεζικών πληρωμάτων"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s στο μπόνους επιδόσεων του πληρώματος για μία μάχη."
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} στο μπόνους επιδόσεων πληρώματος."
+
+msgid "ration_czech/long_special"
+msgstr "Ενεργοποιείται αυτόματα με την έναρξη της μάχης και επιδρά κατά τη διάρκεια αυτής. Μόνο για Τσεχοσλοβάκικα οχήματα."
+
+msgid "ration_czech/name"
+msgstr "Κέικ Buchty"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "Κατάλληλο μόνο για Τσεχοσλοβάκικα οχήματα."
+
+msgid "ration_czech/short_special"
+msgstr "Βελτιώνει τις επιδόσεις των Τσεχοσλοβάκικων πληρωμάτων"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s στο μπόνους επιδόσεων του πληρώματος για μία μάχη."
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} στο μπόνους επιδόσεων πληρώματος."
+
+msgid "ration_italy/long_special"
+msgstr "Ενεργοποιείται αυτόματα με την έναρξη της μάχης και επιδρά κατά τη διάρκεια αυτής. Μόνο για Ιταλικά οχήματα."
+
+msgid "ration_italy/name"
+msgstr "Σπαγγέτι με Κιμά"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "Κατάλληλο μόνο για Ιταλικά οχήματα."
+
+msgid "ration_italy/short_special"
+msgstr "Βελτιώνει τις επιδόσεις των Ιταλικών πληρωμάτων"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s στο μπόνους επιδόσεων του πληρώματος για μία μάχη."
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} στο μπόνους επιδόσεων πληρώματος."
+
+msgid "ration_japan/long_special"
+msgstr "Ενεργοποιείται αυτόματα με την έναρξη της μάχης και επιδρά κατά τη διάρκεια αυτής. Μόνο για Ιαπωνικά οχήματα."
+
+msgid "ration_japan/name"
+msgstr "Ονιγκίρι"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "Κατάλληλο μόνο για Ιαπωνικά οχήματα."
+
+msgid "ration_japan/short_special"
+msgstr "Βελτιώνει τις επιδόσεις των Ιαπωνικών πληρωμάτων"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s στο μπόνους επιδόσεων του πληρώματος για μία μάχη."
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} στο μπόνους επιδόσεων πληρώματος."
+
+msgid "ration_poland/long_special"
+msgstr "Ενεργοποιείται αυτόματα με την έναρξη της μάχης και επιδρά κατά τη διάρκεια αυτής. Μόνο για Πολωνικά οχήματα."
+
+msgid "ration_poland/name"
+msgstr "Ψωμί με Smalec"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "Κατάλληλο μόνο για Πολωνικά οχήματα."
+
+msgid "ration_poland/short_special"
+msgstr "Βελτιώνει τις επιδόσεις των Πολωνικών πληρωμάτων"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s στο μπόνους επιδόσεων του πληρώματος για μία μάχη."
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} στο μπόνους επιδόσεων πληρώματος."
+
+msgid "ration_sweden/long_special"
+msgstr "Ενεργοποιείται αυτόματα με την έναρξη της μάχης και επιδρά κατά τη διάρκεια αυτής. Μόνο για Σουηδικά οχήματα."
+
+msgid "ration_sweden/name"
+msgstr "Καφές με Γλυκάκια Κανέλας"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "Κατάλληλο μόνο για Σουηδικά οχήματα."
+
+msgid "ration_sweden/short_special"
+msgstr "Βελτιώνει τις επιδόσεις των Σουηδικών πληρωμάτων"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s στο μπόνους επιδόσεων του πληρώματος για μία μάχη."
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} στο μπόνους επιδόσεων πληρώματος."
+
+msgid "ration_uk/long_special"
+msgstr "Ενεργοποιείται αυτόματα με την έναρξη της μάχης και επιδρά κατά τη διάρκεια αυτής. Μόνο για Βρετανικά οχήματα."
+
+msgid "ration_uk/name"
+msgstr "Πουτίγκα και Τσάι"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "Κατάλληλο μόνο για Βρετανικά οχήματα."
+
+msgid "ration_uk/short_special"
+msgstr "Βελτιώνει τις επιδόσεις των Βρετανικών πληρωμάτων"
+
+msgid "recon/longDescr"
+msgstr "Δίνεται εντολή για σε ένα αεροσκάφος να εντοπίσει αντιπάλους πετώντας σε ευθεία γραμμή πάνω από μία μεγάλη περιοχή. Τα οχήματα που εντοπίζονται παραμένουν ορατά για συγκεκριμένο χρόνο. Επίσης, ανιχνεύει ναρκοπέδια."
+
+msgid "recon/name"
+msgstr "Αναγνωριστική Πτήση"
+
+msgid "recon/shortDescr"
+msgstr "Εντοπίζει εχθρικά οχήματα και ναρκοπέδια."
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} στην ισχύ του κινητήρα, αλλά προκαλεί φθορά στον κινητήρα."
+
+msgid "removedRpmLimiter/long_special"
+msgstr "Αυξάνει την ισχύ του κινητήρα κατά {colorTagOpen}10%{colorTagClose} αλλά όσο είναι ενεργό φθείρει τον κινητήρα. Μπορεί να ενεργοποιηθεί ή να απενεργοποιηθεί πολλαπλές φορές στη μάχη. Μόνο για Κινεζικά και Σοβιετικά οχήματα."
+
+msgid "removedRpmLimiter/name"
+msgstr "Αφαίρεση Αυτόματου Ελέγχου Ταχύτητας"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s στην ισχύ του κινητήρα, αλλά προκαλεί φθορά στον κινητήρα. Μπορεί να χρησιμοποιηθεί πολλαπλές φορές σε μία μάχη."
+
+msgid "removedRpmLimiter/restriction"
+msgstr "Κατάλληλο μόνο για Κινεζικά και Σοβιετικά οχήματα."
+
+msgid "removedRpmLimiter/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} στην ισχύ του κινητήρα αλλά φθείρει τον κινητήρα"
+
+msgid "repairpoint/battleDescr"
+msgstr "Δημιουργεί μία προσωρινή στατική περιοχή η οποία επισκευάζει όλα τα χαλασμένα εξαρτήματα, αφαιρεί όλες τις αρνητικές επιδράσεις και αποκαθιστά %(healPerTick)s HP του οχήματός σας ανά δευτερόλεπτο, για %(timer)s sec.\n\n*Αποκαθιστά HP και των άλλων οχημάτων της ομάδας που βρίσκονται μέσα στην περιοχή επίδρασης."
+
+msgid "repairpoint/descr"
+msgstr "Δημιουργεί μία προσωρινή στατική περιοχή η οποία επισκευάζει όλα τα χαλασμένα εξαρτήματα, αφαιρεί όλες τις αρνητικές επιδράσεις και αποκαθιστά %(healPerTick)s HP του οχήματός σας ανά δευτερόλεπτο, για %(timer)s sec.\n\n*Αποκαθιστά HP και των άλλων οχημάτων της ομάδας που βρίσκονται μέσα στην περιοχή επίδρασης."
+
+msgid "repairpoint/long_special"
+msgstr "Δημιουργεί μία προσωρινή στατική περιοχή η οποία επισκευάζει όλα τα χαλασμένα εξαρτήματα, αφαιρεί όλες τις αρνητικές επιδράσεις και {green_Open}αποκαθιστά %(healPerTick)s HP{green_Close} του οχήματός σας {whiteSpanish_Open}ανά δευτερόλεπτο, για %(timer)s sec.{whiteSpanish_Close}\n\n*Αποκαθιστά HP και των άλλων οχημάτων της ομάδας που βρίσκονται μέσα στην περιοχή επίδρασης."
+
+msgid "repairpoint/name"
+msgstr "Ζώνη Επισκευών"
+
+msgid "repairpoint/short_special"
+msgstr "Δημιουργεί μία προσωρινή στατική περιοχή η οποία επισκευάζει όλα τα χαλασμένα εξαρτήματα, αφαιρεί όλες τις αρνητικές επιδράσεις και {green_Open}αποκαθιστά %(healPerTick)s HP{green_Close} του οχήματός σας {whiteSpanish_Open}ανά δευτερόλεπτο, για %(timer)s sec.{whiteSpanish_Close}\n\n*Αποκαθιστά HP και των άλλων οχημάτων της ομάδας που βρίσκονται μέσα στην περιοχή επίδρασης."
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "Καθαρισμός Κάνης (Τύπος 1)"
+
+msgid "roleSlot/name"
+msgstr "Κατηγορία 2ης θέσης εξοπλισμού"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "Παθητική Ασφάλεια"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "Παθητική\nΑσφάλεια"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "Αναδιάταξη Πυρομαχικών"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "Αναδιάταξη\nΠυρομαχικών"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "Επισκευάσιμες Ερπύστριες"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "Επισκευάσιμες\nΕρπύστριες"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "Ρύθμιση Κινητήρα"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "Ρύθμιση\nΚινητήρα"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "Ενίσχυση Ανάρτησης"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "Ενίσχυση\nΑνάρτησης"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "Ελαφρύτερη Ανάρτηση"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "Ελαφρύτερη\nΑνάρτηση"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "Λείανση Σκοπευτικών"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "Λείανση\nΣκοπευτικών"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "Προσαρμογή Παράλλαξης"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "Προσαρμογή\nΠαράλλαξης"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "Ρύθμιση Εξολκέα"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "Ρύθμιση\nΕξολκέα"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "Δεξί Περισκόπιο"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "Δεξί\nΠερισκόπιο"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "Ρύθμιση Γέμισης"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "Ρύθμιση\nΓέμισης"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "Ρύθμιση Στόχευσης"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "Ρύθμιση\nΣτόχευσης"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "Ρύθμιση PTO"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "Ρύθμιση\nPTO"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "Ηλεκτρική Στόχευση"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "Ηλεκτρική\nΣτόχευση"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "Νέα Σκοπευτικά"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "Νέα\nΣκοπευτικά"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "Ρύθμιση Κλείστρου"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "Ρύθμιση\nΚλείστρου"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "Μείωση Ολικού Βάρους"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "Μείωση\nΟλικού Βάρους"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "Αύξηση Αντοχής"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "Αύξηση\nΑντοχής"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "Βαφές Ματ"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "Βαφές\nΜατ"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "Πρόσθετη Όπισθεν"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "Πρόσθετη\nΌπισθεν"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "Κινητήρας OHC"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "Κινητήρας\nOHC"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "Βελτιωμένο Έμβολο Όπλου"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "Βελτιωμένο\nΈμβολο Όπλου"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "Πρόσθετη Ηχητική Μόνωση"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "Πρόσθετη\nΗχητική Μόνωση"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "Ελάφρυνση Θωράκισης"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "Ελάφρυνση\nΘωράκισης"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "Επικουρική Ασφάλεια"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "Επικουρική\nΑσφάλεια"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "Ελαφρύτερα Σημεία Φορτίου"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "Ελαφρύτερα\nΣημεία Φορτίου"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "Νέα Καλωδίωση (Εγκατάσταση 1)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "Νέα Καλωδίωση\n(Εγκατάσταση 1)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "Νέα Καλωδίωση (Εγκατάσταση 2)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "Νέα Καλωδίωση\n(Εγκατάσταση 2)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "Ενισχυμένη Πλατφόρμα"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "Ενισχυμένη\nΠλατφόρμα"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "Ελαφρύτερη Πλατφόρμα"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "Ελαφρύτερη\nΠλατφόρμα"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "Εστίαση στην Ευκινησία"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "Εστίαση στην\nΕυκινησία"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "Εστίαση στην Δύναμη Πυρός"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "Εστίαση στην\nΔύναμη Πυρός"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "Βαρύτερο Πυροβόλο"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "Βαρύτερο\nΠυροβόλο"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "Ελαφρύτερο Πυροβόλο"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "Ελαφρύτερο\nΠυροβόλο"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "Ρύθμιση Ισχύος (Εγκατάσταση 1)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "Ρύθμιση Ισχύος\n(Διαμόρφωση 1)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "Ρύθμιση Ισχύος (Διαμόρφωση 2)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "Ρύθμιση Ισχύος\n(Διαμόρφωση 2)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "Ενίσχυση Σκάφους"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "Ενίσχυση\nΣκάφους"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "Ελαφρύτερο Σκάφος"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "Ελαφρύτερο\nΣκάφος"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Αντί-Αντανακλαστική Επικάλυψη Οπτικών"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Αντί-Αντανακλαστική\nΕπικάλυψη Οπτικών"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Εξωτερικό Σύστημα Διόπτευσης"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Εξωτερικό Σύστημα\nΔιόπτευσης"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Πανοραμικό Τρίπλεξ"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Πανοραμικό\nΤρίπλεξ"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Συσκευή Διόπτευσης Μικρής-Γωνίας"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Συσκευή Διόπτευσης\nΜικρής-Γωνίας"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "Ενισχυμένη Δομή"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "Ενισχυμένη\nΔομή"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "Επέκταση Πυργίσκου"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "Επέκταση\nΠυργίσκου"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "Κυτίο Ανίχνευσης"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "Κυτίο\nΑνίχνευσης"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "Κυτίο Επίθεσης"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "Κυτίο\nΕπίθεσης"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "Περαιτέρω Βελτίωση Αντοχής"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "Περαιτέρω Βελτίωση\nΑντοχής"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "Περαιτέρω Βελτίωση Στόχευσης"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "Περαιτέρω Βελτίωση\nΣτόχευσης"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "Πρόσθετες Συσκευές Διόπτευσης"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "Πρόσθετες\nΣυσκευές Διόπτευσης"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "Ενισχυμένοι Σύνδεσμοι"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "Ενισχυμένοι\nΣύνδεσμοι"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "Ρύθμιση Γέμισης"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "Ρύθμιση\nΓέμισης"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "Ρύθμιση Στόχευσης"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "Ρύθμιση\nΣτόχευσης"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "Ρύθμιση PTO"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "Ρύθμιση\nPTO"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "Ηλεκτρική Στόχευση"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "Ηλεκτρική\nΣτόχευση"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "Ρύθμιση Κλείστρου"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "Ρύθμιση\nΚλείστρου"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "Νέα Σκοπευτικά"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "Νέα\nΣκοπευτικά"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "Ρύθμιση Συστήματος Ψεκασμού"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "Ρύθμιση\nΣυστήματος Ψεκασμού"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "Ρύθμιση Εύρους Ορατότητας"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "Ρύθμιση\nΕύρους Ορατότητας"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "Αύξηση Αντοχής Εξαρτημάτων"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "Αύξηση Αντοχής\nΕξαρτημάτων"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "Σημεία Φορτίου Ελαφρού Μετάλλου"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "Σημεία Φορτίου\nΕλαφρού Μετάλλου"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "Ρύθμιση Κλείστρου"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "Ρύθμιση\nΚλείστρου"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "Νέα Σκοπευτικά"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "Νέα\nΣκοπευτικά"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "Ακροφύσια Βαρέος Τύπου"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "Ακροφύσια\nΒαρέος Τύπου"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "Ευαίσθητα Οπτικά"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "Ευαίσθητα\nΟπτικά"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "Ενισχυμένοι Τροχίσκοι Υποστήριξης"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "Ενισχυμένοι\nΤροχίσκοι Υποστήριξης"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "Ελαφρύτεροι Τροχίσκοι Υποστήριξης"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "Ελαφρύτεροι\nΤροχίσκοι Υποστήριξης"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "Ρύθμιση Ανάρτησης"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "Ρύθμιση\nΑνάρτησης"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "Ρύθμιση Κινητήρα"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "Ρύθμιση\nΚινητήρα"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "Σουίτα Hunter S"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "Σουίτα\nHunter S"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "Σουίτα Hunter C"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "Σουίτα\nHunter C"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "Ρύθμιση Υδραυλικών (Διαμόρφωση 1)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "Ρύθμιση Υδραυλικών\n(Διαμόρφωση 1)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "Ρύθμιση Υδραυλικών (Διαμόρφωση 2)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "Ρύθμιση Υδραυλικών\n(Διαμόρφωση 2)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "Ρύθμιση Γέμισης"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "Ρύθμιση\nΓέμισης"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "Ρύθμιση Στόχευσης"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "Ρύθμιση\nΣτόχευσης"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "Αύξηση Ικανότητας Επιβίωσης"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "Αύξηση\nΙκανότητας Επιβίωσης"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "Μείωση Βάρους"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "Μείωση\nΒάρους"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "Ανάρτηση Παντός Τύπου Εδάφους"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "Ανάρτηση Παντός\nΤύπου Εδάφους"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "Ελαφρύτερη Ανάρτηση"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "Ελαφρύτερη\nΑνάρτηση"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "Προσαρμογή Παράλλαξης"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "Προσαρμογή\nΠαράλλαξης"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "Λείανση Σκοπευτικών"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "Λείανση\nΣκοπευτικών"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "Ηχητική Μόνωση"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "Ηχητική\nΜόνωση"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "Ηλεκτρικό Περισκόπιο"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "Ηλεκτρικό\nΠερισκόπιο"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "Ρύθμιση Βαλβίδων (Διαμόρφωση 1)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "Ρύθμιση Βαλβίδων\n(Διαμόρφωση 1)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "Ρύθμιση Βαλβίδων (Διαμόρφωση 2)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "Ρύθμιση Βαλβίδων\n(Διαμόρφωση 2)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "Ρύθμιση Γέμισης"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "Ρύθμιση\nΓέμισης"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "Ρύθμιση Στόχευσης"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "Ρύθμιση\nΣτόχευσης"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "Ενισχυμένη Αντιθραυσματική Προστασία"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "Ενισχυμένη\nΑντιθραυσματική Προστασία"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "Ελαφρύτερη Αντιθραυσματική Προστασία"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "Ελαφρύτερη\nΑντιθραυσματική Προστασία"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "Αύξηση Αντοχής Εξαρτημάτων"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "Αύξηση Αντοχής\nΕξαρτημάτων"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "Σημεία Φορτίου Ελαφρού Μετάλλου"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "Σημεία Φορτίου\nΕλαφρού Μετάλλου"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "Ρύθμιση Βραχίονα Ανάρτησης"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "Ρύθμιση\nΒραχίονα Ανάρτησης"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "Βελτιωμένο Στόχαστρο"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "Βελτιωμένο\nΣτόχαστρο"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "Ρύθμιση Τούρμπο"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "Ρύθμιση\nΤούρμπο"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "Αντί-Αντανακλαστική Επικάλυψη Προβολέων"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "Αντί-Αντανακλαστική\nΕπικάλυψη Προβολέων"
+
+msgid "selfBuff/battleDescr"
+msgstr "Για %(duration)s sec μειώνει τη διασπορά των πυρών και τον χρόνο στόχευσης κατά %(gunAimingTime)s, ενώ βελτιώνει τη σταθεροποίηση του πυροβόλου και την ταχυβολία.\n\n*Δεν επηρεάζει τον χρόνο που μεσολαβεί για τη ρίψη του επόμενου βλήματος σε γεμιστήρα ή πολλαπλό πυροβόλο."
+
+msgid "selfBuff/descr"
+msgstr "Για %(duration)s sec μειώνει τη διασπορά των πυρών και τον χρόνο στόχευσης κατά %(gunAimingTime)s, ενώ βελτιώνει τη σταθεροποίηση του πυροβόλου και την ταχυβολία.\n\n*Δεν επηρεάζει τον χρόνο που μεσολαβεί για τη ρίψη του επόμενου βλήματος σε γεμιστήρα ή πολλαπλό πυροβόλο."
+
+msgid "selfBuff/longDescr"
+msgstr "Για {whiteSpanish_Open}%(duration)s sec{whiteSpanish_Close} μειώνει τη διασπορά των πυρών και τον χρόνο στόχευσης κατά {green_Open}%(gunAimingTime)s{green_Close}, ενώ βελτιώνει τη σταθεροποίηση του πυροβόλου και την ταχυβολία.\n\n*Δεν επηρεάζει τον χρόνο που μεσολαβεί για τη ρίψη του επόμενου βλήματος σε γεμιστήρα ή πολλαπλό πυροβόλο."
+
+msgid "selfBuff/name"
+msgstr "Εντοπισμός Στόχου"
+
+msgid "selfBuff/shortDescr"
+msgstr "Για {whiteSpanish_Open}%(duration)s sec{whiteSpanish_Close} μειώνει τη διασπορά των πυρών και τον χρόνο στόχευσης κατά {green_Open}%(gunAimingTime)s{green_Close}, ενώ βελτιώνει τη σταθεροποίηση του πυροβόλου και την ταχυβολία.\n\n*Δεν επηρεάζει τον χρόνο που μεσολαβεί για τη ρίψη του επόμενου βλήματος σε γεμιστήρα ή πολλαπλό πυροβόλο."
+
+msgid "shells_consumables_switch/name"
+msgstr "Εναλλασσόμενη Διαμόρφωση: Βασικό Φορτίο"
+
+msgid "shotPassion/battleDescr"
+msgstr "Για %(duration)s sec, μειώνει την ταχύτητα στόχευσης και τη σταθεροποίηση του πυροβόλου κατά %(gunAimingTime)s, αλλά κάθε βολή που διαπερνά τη θωράκιση εχθρικού οχήματος θα προκαλεί συνεχώς μεγαλύτερη φθορά κατά %(damageIncreasePerShot)s, μέχρι τον πενταπλασιασμό της αρχικής φθοράς. Βολές που αστόχησαν ή δεν προκάλεσαν φθορά θα επαναφέρουν τον μετρητή της φθοράς στην προκαθορισμένη τιμή.\n\n*Οι βολές Ηλεκτρικής Εκκένωσης προσμετρώνται επίσης στον μετρητή του μπόνους φθοράς."
+
+msgid "shotPassion/descr"
+msgstr "Για %(duration)s sec, μειώνει την ταχύτητα στόχευσης και τη σταθεροποίηση του πυροβόλου κατά %(gunAimingTime)s, αλλά κάθε βολή που διαπερνά τη θωράκιση εχθρικού οχήματος θα προκαλεί συνεχώς μεγαλύτερη φθορά κατά %(damageIncreasePerShot)s, μέχρι τον πενταπλασιασμό της αρχικής φθοράς. Βολές που αστόχησαν ή δεν προκάλεσαν φθορά θα επαναφέρουν τον μετρητή της φθοράς στην προκαθορισμένη τιμή.\n\n*Οι βολές Ηλεκτρικής Εκκένωσης προσμετρώνται επίσης στον μετρητή του μπόνους φθοράς."
+
+msgid "shotPassion/longDescr"
+msgstr "{whiteSpanish_Open}Για %(duration)s sec{whiteSpanish_Close}, μειώνει την ταχύτητα στόχευσης και τη σταθεροποίηση του πυροβόλου {red_Open}κατά %(gunAimingTime)s{red_Close}, αλλά κάθε βολή που διαπερνά τη θωράκιση εχθρικού οχήματος θα προκαλεί συνεχώς μεγαλύτερη φθορά {green_Open}κατά %(damageIncreasePerShot)s{green_Close}, μέχρι τον {whiteSpanish_Open}πενταπλασιασμό{whiteSpanish_Close} της αρχικής φθοράς. Βολές που αστόχησαν ή δεν προκάλεσαν φθορά θα επαναφέρουν τον μετρητή της φθοράς στην προκαθορισμένη τιμή.\n\n*Οι βολές Ηλεκτρικής Εκκένωσης προσμετρώνται επίσης στον μετρητή του μπόνους φθοράς."
+
+msgid "shotPassion/name"
+msgstr "Αυξανόμενη Ένταση"
+
+msgid "shotPassion/shortDescr"
+msgstr "{whiteSpanish_Open}Για %(duration)s sec{whiteSpanish_Close}, μειώνει την ταχύτητα στόχευσης και τη σταθεροποίηση του πυροβόλου {red_Open}κατά %(gunAimingTime)s{red_Close}, αλλά κάθε βολή που διαπερνά τη θωράκιση εχθρικού οχήματος θα προκαλεί συνεχώς μεγαλύτερη φθορά {green_Open}κατά %(damageIncreasePerShot)s{green_Close}, μέχρι τον {whiteSpanish_Open}πενταπλασιασμό{whiteSpanish_Close} της αρχικής φθοράς. Βολές που αστόχησαν ή δεν προκάλεσαν φθορά θα επαναφέρουν τον μετρητή της φθοράς στην προκαθορισμένη τιμή.\n\n*Οι βολές Ηλεκτρικής Εκκένωσης προσμετρώνται επίσης στον μετρητή του μπόνους φθοράς."
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "Η Έκτη Αίσθηση ενεργοποιείται 1 sec νωρίτερα"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "Κάνει τον Αρχηγό Πληρώματος ικανό να αντιλαμβάνεται πότε το όχημά του έχει εντοπιστεί από τους αντιπάλους. Ενεργοποιείται 3 sec από τον εντοπισμό του οχήματος."
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "Η ικανότητα Έκτη Αίσθηση επιτρέπει στον Αρχηγό να γνωρίζει εάν το όχημά του έχει εντοπιστεί από αντίπαλο κατά τη διάρκεια της μάχης. Η τοποθέτηση οδηγίας αυξάνει κι άλλο την επίδρασή της ικανότητας."
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "Αυξημένη Προσοχή"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "Βελτιώνει την ιδιότητα του αρχηγού Έκτη Αίσθηση"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "Θεραπεύει όλα τα τραυματισμένα μέλη του πληρώματος και αφαιρεί το σοκ."
+
+msgid "smallMedkit/long_special"
+msgstr "Θεραπεύει όλα τα τραυματισμένα μέλη του πληρώματος και αφαιρεί το σοκ όταν επιλεχθεί. Κατάλληλο για όλα τα οχήματα οποιουδήποτε έθνους. Το αναλώσιμο καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω και μία φορά."
+
+msgid "smallMedkit/name"
+msgstr "Μικρό Κουτί Πρώτων Βοηθειών"
+
+msgid "smallMedkit/onUse"
+msgstr "Θεραπεύει όλα τα τραυματισμένα μέλη του πληρώματος και αφαιρεί το σοκ."
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "Θεραπεύει όλα τα τραυματισμένα μέλη του πληρώματος και αφαιρεί το σοκ."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "Θεραπεύει όλα τα τραυματισμένα μέλη του πληρώματος και αφαιρεί το σοκ."
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "Επισκευάζει όλα τα χαλασμένα εξαρτήματα."
+
+msgid "smallRepairkit/long_special"
+msgstr "Επισκευάζει όλα τα χαλασμένα εξαρτήματα του οχήματος όταν επιλεχθεί. Κατάλληλο για όλα τα οχήματα οποιουδήποτε έθνους. Το αναλώσιμο καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω και μία φορά."
+
+msgid "smallRepairkit/name"
+msgstr "Μικρό Κουτί Επισκευών"
+
+msgid "smallRepairkit/onUse"
+msgstr "Επισκευάζει όλα τα χαλασμένα εξαρτήματα όταν επιλεχθεί. Κατάλληλο για όλα τα οχήματα οποιουδήποτε έθνους. Το αναλώσιμο καταναλώνεται μετά τη μάχη εάν χρησιμοποιήθηκε έστω και μία φορά."
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "Επισκευάζει όλα τα χαλασμένα εξαρτήματα."
+
+msgid "smoke/longDescr"
+msgstr "Δημιουργεί παραπέτασμα καπνού που αυξάνει τον συντελεστή κάλυψης όλων των οχημάτων. Τα εχθρικά οχήματα μέσα στο καπνό έχουν μειωμένο εύρος ορατότητας και τα πληρώματά τους μειωμένες επιδόσεις."
+
+msgid "smoke/name"
+msgstr "Παραπέτασμα Καπνού"
+
+msgid "smoke/shortDescr"
+msgstr "Κρύβει όλα τα οχήματα μέσα ή πίσω από τον καπνό. Οι αντίπαλοι μέσα στο καπνό έχουν μειωμένο εύρος ορατότητας και τα πληρώματά τους μειωμένες επιδόσεις."
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "Διπλασιάζει την επίδραση της ικανότητας Ομαλή Πορεία"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "Παρέχει την ικανότητα Ομαλή Πορεία στο 100%"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "Η ικανότητα Ομαλή Πορεία βελτιώνει την ευστοχία των πυρών εν κινήσει, κατά τη διάρκεια της μάχης. Όταν κατέχετε την ικανότητα στο 100%, η οδηγία αυξάνει κι άλλο την επίδρασή της, όταν δεν την κατέχετε, η οδηγία σας την παρέχει στο 100%."
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "Περίπλοκο Κιβώτιο Ταχυτήτων"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "Παρέχει την ικανότητα Ομαλή Πορεία στο 100% ή αυξάνει την επίδρασή της"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "Διπλασιάζει την επίδραση της ικανότητας Αστραπιαία Βολή"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "Παρέχει την ικανότητα Αστραπιαία Βολή στο 100%"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "Η ικανότητα Αστραπιαία Βολή βελτιώνει την ευστοχία κατά τη διάρκεια περιστροφής του πυργίσκου στη μάχη. Όταν κατέχετε την ικανότητα στο 100%, η οδηγία αυξάνει κι άλλο την επίδρασή της, όταν δεν την κατέχετε, η οδηγία σας την παρέχει στο 100%."
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "Σταθερό Χέρι"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "Παρέχει την ικανότητα Αστραπιαία Βολή στο 100% ή αυξάνει την επίδρασή της"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "Τοποθετεί μία αυτοκινούμενη νάρκη η οποία κυνηγά για %(botLifeTime)s sec το πλησιέστερο εχθρικό όχημα και προκαλεί 400 με 600 HP φθοράς μέσα σε περιοχή μικρής ακτίνας όταν εκραγεί.\n\n*Τα εχθρικά οχήματα μπορούν να καταστρέψουν τη Βολίδα σας με βολές ή εμβολισμό. Η Βολίδα προκαλεί και φθορά με εμβολισμό όταν φτάσει τον στόχο της."
+
+msgid "spawn_kamikaze/descr"
+msgstr "Τοποθετεί μία αυτοκινούμενη νάρκη η οποία κυνηγά για %(botLifeTime)s sec το πλησιέστερο εχθρικό όχημα και προκαλεί 400 με 600 HP φθοράς μέσα σε περιοχή μικρής ακτίνας όταν εκραγεί.\n\n*Τα εχθρικά οχήματα μπορούν να καταστρέψουν τη Βολίδα σας με βολές ή εμβολισμό. Η Βολίδα προκαλεί και φθορά με εμβολισμό όταν φτάσει τον στόχο της."
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "Τοποθετεί μία αυτοκινούμενη νάρκη η οποία κυνηγά για {whiteSpanish_Open}%(botLifeTime)s sec{whiteSpanish_Close} το πλησιέστερο εχθρικό όχημα και προκαλεί {whiteSpanish_Open}400 με 600 HP φθοράς{whiteSpanish_Close} μέσα σε περιοχή μικρής ακτίνας όταν εκραγεί.\n\n*Τα εχθρικά οχήματα μπορούν να καταστρέψουν τη Βολίδα σας με βολές ή εμβολισμό. Η Βολίδα προκαλεί και φθορά με εμβολισμό όταν φτάσει τον στόχο της."
+
+msgid "spawn_kamikaze/name"
+msgstr "Βολίδα"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "Τοποθετεί μία αυτοκινούμενη νάρκη η οποία κυνηγά για {whiteSpanish_Open}%(botLifeTime)s sec{whiteSpanish_Close} το πλησιέστερο εχθρικό όχημα και προκαλεί {whiteSpanish_Open}400 με 600 HP φθοράς{whiteSpanish_Close} μέσα σε περιοχή μικρής ακτίνας όταν εκραγεί.\n\n*Τα εχθρικά οχήματα μπορούν να καταστρέψουν τη Βολίδα σας με βολές ή εμβολισμό. Η Βολίδα προκαλεί και φθορά με εμβολισμό όταν φτάσει τον στόχο της."
+
+msgid "stealthRadar/descr"
+msgstr "Αυξάνει τους συντελεστές κάλυψης και το εύρος ορατότητας. Μειώνει τους συντελεστές κάλυψης των εχθρικών οχημάτων."
+
+msgid "stealthRadar/long_descr"
+msgstr "Αυξάνει τους συντελεστές κάλυψης του οχήματός σας %(activationDelay)s sec αφότου αυτό σταματήσει και μειώνει τους συντελεστές κάλυψης των εχθρικών οχημάτων. Παρέχει μόνιμο μπόνους στο εύρος ορατότητας και ανιχνεύει εχθρικές νάρκες. Δεν λειτουργεί όταν το όχημα κινείται."
+
+msgid "stealthRadar/name"
+msgstr "Φρουρά"
+
+msgid "stealthRadar/short_descr"
+msgstr "Αυξάνει τους συντελεστές κάλυψης και το εύρος ορατότητας. Μειώνει τους συντελεστές κάλυψης των εχθρικών οχημάτων."
+
+msgid "stereoscope/battleDescr"
+msgstr "Αυξάνει το εύρος ορατότητας ενός σταματημένου οχήματος, 3 sec αφότου έχει σταματήσει (μέχρι και τα 445 m)"
+
+msgid "stereoscope/long_special"
+msgstr "Το καλό εύρος ορατότητας δίνει σημαντικό πλεονέκτημα στη μάχη. Αυτός ο τύπος εξοπλισμού είναι πιο αποτελεσματικός σε αντιαρματικά με μεγάλο συντελεστή κάλυψης και εύστοχα πυροβόλα. Ενεργοποιείται 3 δευτερόλεπτα αφότου το όχημα έχει σταματήσει να κινείται."
+
+msgid "stereoscope/name"
+msgstr "Διοπτρικό Τηλεσκόπιο"
+
+msgid "stereoscope_tier1/name"
+msgstr "Διοπτρικό Τηλεσκόπιο 1ης Κλάσης"
+
+msgid "stereoscope_tier2/name"
+msgstr "Διοπτρικό Τηλεσκόπιο 2ης Κλάσης"
+
+msgid "stereoscope_tier3/name"
+msgstr "Διοπτρικό Τηλεσκόπιο 3ης Κλάσης"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "Αντικατάσταση Στοιχείων Ανάρτησης (Τύπος 1)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "Αντικατάσταση Στοιχείων Ανάρτησης (Τύπος 2)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "Λείανση Μηχανισμού Περιστροφής (Τύπος 1)"
+
+msgid "tankRammer/name"
+msgstr "Έμβολο Όπλου"
+
+msgid "tankRammer_tier1/name"
+msgstr "Έμβολο Όπλου 1ης Κλάσης"
+
+msgid "tankRammer_tier2/name"
+msgstr "Έμβολο Όπλου 2ης Κλάσης"
+
+msgid "thunderStrike/battleDescr"
+msgstr "Δημιουργεί μία ζώνη στην οποία γίνονται %(thunderCount)s ηλεκτρικές εκκενώσεις με μεγάλη συχνότητα. Κάθε εκκένωση προκαλεί %(damage)s HP φθοράς και μειώνει την ευκινησία των οχημάτων μέσα στην περιοχή επίδρασης.\n\n*Υπάρχει χρονική καθυστέρηση %(delay)s sec από την ενεργοποίηση μέχρι την πρώτη ηλεκτρική εκκένωση. Το Κουτί Επισκευών αφαιρεί την αρνητική επίδραση."
+
+msgid "thunderStrike/descr"
+msgstr "Δημιουργεί μία ζώνη στην οποία γίνονται %(thunderCount)s ηλεκτρικές εκκενώσεις με μεγάλη συχνότητα. Κάθε εκκένωση προκαλεί %(damage)s HP φθοράς και μειώνει την ευκινησία των οχημάτων μέσα στην περιοχή επίδρασης.\n\n*Υπάρχει χρονική καθυστέρηση %(delay)s sec από την ενεργοποίηση μέχρι την πρώτη ηλεκτρική εκκένωση. Το Κουτί Επισκευών αφαιρεί την αρνητική επίδραση."
+
+msgid "thunderStrike/longDescr"
+msgstr "Δημιουργεί μία ζώνη στην οποία γίνονται %(thunderCount)s ηλεκτρικές εκκενώσεις με μεγάλη συχνότητα. Κάθε εκκένωση προκαλεί {whiteSpanish_Open}%(damage)s HP φθοράς{whiteSpanish_Close} και μειώνει την ευκινησία των οχημάτων μέσα στην περιοχή επίδρασης.\n\n*Υπάρχει χρονική καθυστέρηση %(delay)s sec από την ενεργοποίηση μέχρι την πρώτη ηλεκτρική εκκένωση. Το Κουτί Επισκευών αφαιρεί την αρνητική επίδραση."
+
+msgid "thunderStrike/name"
+msgstr "Ηλεκτρική Εκκένωση"
+
+msgid "thunderStrike/shortDescr"
+msgstr "Δημιουργεί μία ζώνη στην οποία γίνονται %(thunderCount)s ηλεκτρικές εκκενώσεις με μεγάλη συχνότητα. Κάθε εκκένωση προκαλεί {whiteSpanish_Open}%(damage)s HP φθοράς{whiteSpanish_Close} και μειώνει την ευκινησία των οχημάτων μέσα στην περιοχή επίδρασης.\n\n*Υπάρχει χρονική καθυστέρηση %(delay)s sec από την ενεργοποίηση μέχρι την πρώτη ηλεκτρική εκκένωση. Το Κουτί Επισκευών αφαιρεί την αρνητική επίδραση."
+
+msgid "trappoint/battleDescr"
+msgstr "Για %(duration)s sec, δημιουργεί μία περιοχή στην οποία μειώνεται η ευκινησία κατά %(vehicleMaxSpeed)s, η ταχυβολία και η ταχύτητα στόχευσης κατά %(gunReloadTime)s, σε όλα τα εχθρικά οχήματα μέσα σε αυτήν."
+
+msgid "trappoint/descr"
+msgstr "Για %(duration)s sec, δημιουργεί μία περιοχή στην οποία μειώνεται η ευκινησία κατά %(vehicleMaxSpeed)s, η ταχυβολία και η ταχύτητα στόχευσης κατά %(gunReloadTime)s, σε όλα τα εχθρικά οχήματα μέσα σε αυτήν."
+
+msgid "trappoint/long_special"
+msgstr "{whiteSpanish_Open}Για %(duration)s sec{whiteSpanish_Close}, δημιουργεί μία περιοχή στην οποία μειώνεται η ευκινησία {whiteSpanish_Open}κατά %(vehicleMaxSpeed)s{whiteSpanish_Close}, η ταχυβολία και η ταχύτητα στόχευσης {whiteSpanish_Open}κατά %(gunReloadTime)s{whiteSpanish_Close}, σε όλα τα εχθρικά οχήματα μέσα σε αυτήν."
+
+msgid "trappoint/name"
+msgstr "Παγίδα"
+
+msgid "trappoint/short_special"
+msgstr "{whiteSpanish_Open}Για %(duration)s sec{whiteSpanish_Close}, δημιουργεί μία περιοχή στην οποία μειώνεται η ευκινησία {whiteSpanish_Open}κατά %(vehicleMaxSpeed)s{whiteSpanish_Close}, η ταχυβολία και η ταχύτητα στόχευσης {whiteSpanish_Open}κατά %(gunReloadTime)s{whiteSpanish_Close}, σε όλα τα εχθρικά οχήματα μέσα σε αυτήν."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "Η επίδραση εξαρτάται από τον τύπο του οχήματος. Αυξάνει τον συντελεστή κάλυψης ενός ακίνητου ή κινούμενου οχήματος. Χρήσιμο για ανιχνευτές που θέλουν να εντοπίζουν αντιπάλους από ριψοκίνδυνες θέσεις."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "Αναβαθμίσιμη Εξάτμιση Χαμηλού Θορύβου"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "Αυξάνει τον συντελεστή κάλυψης ενός ακίνητου ή κινούμενου οχήματος."
+
+msgid "trophyBasicAimDrives/name"
+msgstr "Αναβαθμίσιμο Σύστημα Σκόπευσης"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "Αυξάνει την ταχύτητα σκόπευσης του πυροβόλου."
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "Αναβαθμίσιμος Σταθεροποιητής"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "Μειώνει τη διασπορά των πυρών κατά τη διάρκεια κίνησης ή περιστροφής του οχήματος."
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "Αναβαθμίσιμα Οπτικά"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "Αυξάνει το εύρος ορατότητας και σε ακίνητα και σε κινούμενα οχήματα."
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "Επαναφέρει πλήρως τα hit points από τις ερπύστριες μετά από επισκευή."
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "Επαναφέρει πλήρως τις ερπύστριες μετά από επισκευή."
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "Αυξάνει την αντοχή του οχήματος και την ταχύτητα των επισκευών. Μειώνει τη φθορά στο σκάφος μετά από πρόσκρουση. Επαναφέρει πλήρως τις ερπύστριες μετά από επισκευή. Μειώνει την πιθανότητα καταστροφής των ερπυστριών μετά από προσλαμβανόμενη φθορά και την πιθανότητα ακινητοποίησης του οχήματος."
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "Αναβαθμίσιμη Βελτιωμένη Σκλήρυνση"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "Αυξάνει την αντοχή και προστατεύει τις ερπύστριες"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "Αναβαθμίσιμη Προστατευτική Τεχνολογία"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "Αναβαθμίσιμος Μηχανισμός Περιστροφής"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "Μειώνει τον κύκλο στόχευσης για μεγαλύτερη ευστοχία όταν κλείνει ο κύκλος ή όταν έχει κλείσει τελείως. Αυξάνει την ευστοχία του πυροβόλου."
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "Αναβαθμίσιμη Στόχευση"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "Μειώνει τη διασπορά των πυρών"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "Αναβαθμίσιμος Εξαερισμός"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "Βελτιώνει την αποτελεσματικότητα του πληρώματος και συνεπώς τα χαρακτηριστικά του οχήματος."
+
+msgid "trophyBasicTankRammer/name"
+msgstr "Αναβαθμίσιμο Έμβολο Όπλου"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "Επιταχύνει τη γέμιση του πυροβόλου. Κανένας περιορισμός κλάσης."
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "Αυξάνει την ισχύ του κινητήρα παρέχοντας μεγαλύτερη επιτάχυνση, ευελιξία και ταχύτητα στις ανηφόρες. Αυξάνει τη μέγιστη ταχύτητα του οχήματος και της οπισθοπορείας."
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "Αναβαθμίσιμο Τούρμπο"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "Αυξάνει την ισχύ του κινητήρα και τη μέγιστη ταχύτητα"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}{arrow} στο εύρος ορατότητας μέχρι και τα 445 m"
+
+msgid "trophyOptics/name"
+msgstr "Αναβαθμίσιμα Οπτικά"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "Αναβαθμίσιμη Εξάτμιση Χαμηλού Θορύβου"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "Αναβαθμίσιμο Σύστημα Σκόπευσης"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "Αναβαθμίσιμος Σταθεροποιητής"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "Αναβαθμίσιμα Οπτικά"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "Επαναφέρει πλήρως τα hit points από τις ερπύστριες μετά από επισκευή."
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Επαναφέρει πλήρως τις ερπύστριες μετά από επισκευή."
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "Αναβαθμίσιμη Βελτιωμένη Σκλήρυνση"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "Αναβαθμίσιμη Προστατευτική Τεχνολογία"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "Αναβαθμίσιμος Μηχανισμός Περιστροφής"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "Αναβαθμίσιμη Στόχευση"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "Αναβαθμίσιμος Εξαερισμός"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "Αναβαθμίσιμο Έμβολο Όπλου"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "Αναβαθμίσιμο Τούρμπο"
+
+msgid "turbocharger/long_special"
+msgstr "Αυξάνει την ισχύ του κινητήρα παρέχοντας μεγαλύτερη επιτάχυνση, ευελιξία και ταχύτητα στις ανηφόρες. Αυξάνει τη μέγιστη ταχύτητα του οχήματος και της οπισθοπορείας."
+
+msgid "turbocharger/name"
+msgstr "Τούρμπο"
+
+msgid "turbocharger/short_special"
+msgstr "Αυξάνει την ισχύ του κινητήρα και τη μέγιστη ταχύτητα"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s στην ισχύ του κινητήρα με τοποθετημένο Τούρμπο (κάθε κλάσης), Αναβαθμίσιμο Τούρμπο, Βελτιωμένο Συμπιεστή ή Σετ Βελτιωμένης Ευκινησίας."
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "Βελτιώνει την επίδραση του Τούρμπο (κάθε κλάσης), του Αναβαθμίσιμου Τούρμπο ή του Βελτιωμένου Συμπιεστή κατά τη διάρκεια της μάχης. Θα πρέπει να έχετε ήδη τοποθετήσει τον σχετικό εξοπλισμό για να χρησιμοποιήσετε τη συγκεκριμένη οδηγία."
+
+msgid "turbochargerBattleBooster/name"
+msgstr "Αντικατάσταση Φίλτρου Καυσίμου"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "Αυξάνει την ισχύ του κινητήρα"
+
+msgid "turbocharger_tier1/name"
+msgstr "Τούρμπο 1ης Κλάσης"
+
+msgid "turbocharger_tier2/name"
+msgstr "Τούρμπο 2ης Κλάσης"
+
+msgid "turbocharger_tier3/name"
+msgstr "Τούρμπο 3ης Κλάσης"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "Διπλασιάζει την επίδραση της ικανότητας Επιτυχές Φρενάρισμα"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "Παρέχει την ικανότητα Επιτυχές Φρενάρισμα στο 100%"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "Η ικανότητα Επιτυχές Φρενάρισμα αυξάνει την ταχύτητα περιστροφής του οχήματος κατά τη διάρκεια της μάχης. Όταν κατέχετε την ικανότητα στο 100%, η οδηγία αυξάνει κι άλλο την επίδρασή της, όταν δεν την κατέχετε, η οδηγία σας την παρέχει στο 100%."
+
+msgid "virtuosoBattleBooster/name"
+msgstr "Πορεία Μάχης"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "Παρέχει την ικανότητα Επιτυχές Φρενάρισμα στο 100% ή αυξάνει την επίδρασή της"

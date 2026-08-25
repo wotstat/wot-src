@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "closeButtonLabel"
+msgstr "LUKK"
+
+msgid "featureName"
+msgstr "REPRISER"
+
+msgid "filter/apply"
+msgstr "Aktiver filter"
+
+msgid "filter/group/nation/title"
+msgstr "Nasjon"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Nivå"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Nivå"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Spesialisering"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Type kjøretøy"
+
+msgid "filter/reset"
+msgstr "Nullstill filter"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Vis/skjul besetningsmedlemmer fra denne nasjonen."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Vis/skjul besetningsdrakter fra denne nasjonen"
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Vis/skjul kjøretøy fra denne nasjonen."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Vis/skjul kjøretøy av denne typen."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Panserjagere"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "SPGer"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Tunge tanks"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Lette tanks"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Mediumtanks"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Ingen kjøretøy som møter\nsøkekriteriene"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sortér etter kjøretøyenes navn."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Navn"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sortér etter kjøretøyenes nivå."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Nivå"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sortér etter type kjøretøy."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Type"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Navn"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Klikk for å aktivere filterinnstillinger."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Aktiver valgt filtrering"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Klikk for å nullstille filterinnstillinger."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Nullstill alle filtere"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Bare vis favoritt reprisene"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "%(count)s gjenværende dag"
+msgstr[1] "Siste %(count)s dagene"
+msgstr[2] "Siste %(count)s dagene"
+
+msgid "filterPopover/title"
+msgstr "Reprisefiltre"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Konfigurer reprisefiltre etter type kjøretøy, nivå, nasjon, osv."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Filtrér etter parametere"
+
+msgid "findReplay/buttonText/find"
+msgstr "Finn reprise"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Ta vekk det innskrevne"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Se reprise!"
+
+msgid "findReplay/errorMessage"
+msgstr "Kunne ikke finne noe. Vennligst endre søk"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Vennligst skriv ARENA_ID her..."
+
+msgid "findReplay/successMessage"
+msgstr "KI fant reprisen du er interessert i! Kos deg med å se på"
+
+msgid "page/heading/bestReplays"
+msgstr "BESTE REPRISENE"
+
+msgid "page/heading/findReplay"
+msgstr "FINN REPRISE (TIL UTVIKLER)"
+
+msgid "page/heading/myReplays"
+msgstr "MINE REPRISER"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Denne delen inneholder informasjon om de beste reprisene fra alle WoT spillere"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Denne delen er for å finne repriser etter bestemte parametre"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Denne delen inneholder informasjon om DINE beste repriser"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "BESTE REPRISENE"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Finn reprise"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "MINE REPRISER"
+
+msgid "statsParam/damageAssisted"
+msgstr "Topp 1 for Hjelp til bekjempelse"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Topp 1 for Blokkert skade"
+
+msgid "statsParam/damageDealt"
+msgstr "Topp 1 for Forårsaket skade"
+
+msgid "statsParam/earnedXp"
+msgstr "Topp 1 for Tjent erfaring"
+
+msgid "statsParam/kills"
+msgstr "Topp 1 for Antall bekjempede kjøretøy"
+
+msgid "table/error/buttonText"
+msgstr "Oppdater"
+
+msgid "table/error/description"
+msgstr "Vi beklager den midlertidige ubeleiligheten. Vennligst prøv å laste siden på nytt senere."
+
+msgid "table/error/title"
+msgstr "Feil ved lasting av data"
+
+msgid "table/header/damageAssisted"
+msgstr "Assistanse"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Blokkert skade"
+
+msgid "table/header/damageDealt"
+msgstr "Skade"
+
+msgid "table/header/date"
+msgstr "Dato"
+
+msgid "table/header/earnedXp"
+msgstr "Tjente erfaringspoeng"
+
+msgid "table/header/kills"
+msgstr "Antall bekjempede kjøretøy"
+
+msgid "table/header/map"
+msgstr "Kart"
+
+msgid "table/header/marksOfMastery"
+msgstr "Mestringsmerker"
+
+msgid "table/header/player"
+msgstr "Spillernavn"
+
+msgid "table/header/vehicle"
+msgstr "Kjøretøy"
+
+msgid "table/noRecords/buttonText"
+msgstr "Nullstill filter"
+
+msgid "table/noRecords/title"
+msgstr "Fant ikke noe. Endre innstillingene eller nullstill filteret"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Klikk for å nullstille filterinnstillinger."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Nullstill alle filtere"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Mengde assistert skade for spiller i denne reprisen"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Assistert skade"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Mengde blokkert skade for spiller i denne reprisen"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Skade blokkert av pansring"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Mengde påført skade for spiller i denne reprisen"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Skade påført"
+
+msgid "table/tooltip/date/body"
+msgstr "Dato for når reprise ble lagret."
+
+msgid "table/tooltip/date/header"
+msgstr "Dato på reprise"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Mengde tjente erfaringspoeng for spiller i denne reprisen"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Tjente erfaringspoeng"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Episke merker oppnådd av spiller i denne reprisen"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Episke medaljer"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Klikk for å markere denne reprisen som en favoritt."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Favoritt"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Klikk for å fjerne denne reprisen som en favoritt."
+
+msgid "table/tooltip/kills/body"
+msgstr "Antall kjøretøy bekjempet av spiller i denne reprisen"
+
+msgid "table/tooltip/kills/header"
+msgstr "Bekjempelser"
+
+msgid "table/tooltip/map/body"
+msgstr "Reprisens kart."
+
+msgid "table/tooltip/map/header"
+msgstr "Kart"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Viktige merker oppnådd av spiller i denne reprisen"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Mestringsmerker"
+
+msgid "table/tooltip/player/body"
+msgstr "Spillerens navn fra reprisen."
+
+msgid "table/tooltip/player/header"
+msgstr "Spillernavn"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Kjøretøyet som ble benyttet i spillerens reprise."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Kjøretøy"
+
+msgid "tableInfo/amount"
+msgstr "Antall repriser: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Filter"
+
+msgid "waitingSpinner/message"
+msgstr "Laster innhold..."

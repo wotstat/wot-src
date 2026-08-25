@@ -1,0 +1,254 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "closeBtn"
+msgstr "ZATVORI"
+
+msgid "continueBtn"
+msgstr "Nastavi"
+
+msgid "economy/double/credits"
+msgstr "WoT premium račun povećava količinu zarađenih kredita za %(value)s%%."
+
+msgid "economy/double/free_xp"
+msgstr "WoT premium račun povećava količinu zarađenog slobodnog iskustva za %(value)s%%."
+
+msgid "economy/double/tmen_xp"
+msgstr "WoT premium račun povećava količinu zarađenog iskustva posade za %(value)s%%."
+
+msgid "economy/double/xp"
+msgstr "WoT premium račun povećava količinu zarađenog borbenog iskustva za %(value)s%%."
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "WoT premium račun povećava količinu zarađenog borbenog i slobodnog iskustva za %(value)s%%."
+
+msgid "efficiency/capturePoints"
+msgstr "Zauzeće baze"
+
+msgid "efficiency/damageAssisted"
+msgstr "Potpomognuta šteta"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "Ošamuti"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "Blokirana šteta"
+
+msgid "efficiency/damageDealt"
+msgstr "Šteta"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "Obrana baze"
+
+msgid "efficiency/empty"
+msgstr "—"
+
+msgid "efficiency/kills"
+msgstr "Uništen"
+
+msgid "efficiency/spotted"
+msgstr "Otkrivanje"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "Zauzeće baze"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "Šteta s vašom pomoći"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "Ošamuti"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "Korištenje oklopa"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "Šteta"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "Obrana baze"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "Neprijatelj uništen"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "Otkrivanje"
+
+msgid "finish"
+msgstr "Bitka je završila"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "Mora se primjeniti na posljednju bitku u istom vozilu."
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "Bonus se ne može primjeniti: ubrzana obuka posade je uključena."
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "Bonus se ne može primjeniti: ubrzana obuka posade je isključena."
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "Množitelji se mogu primjeniti samo u pobjedničkim bitkama."
+
+msgid "premiumBonus/NoCrew"
+msgstr "Upravljivi bonus se ne može primjeniti: posada nije pronađena."
+
+msgid "premiumBonus/NoVehicle"
+msgstr "Upravljivi bonus se ne može primjeniti: vozilo nije pronađeno."
+
+msgid "progress/title"
+msgstr "%(modeName)s: posebni zadatak. Etapa: %(done)s / %(total)s"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s: posebni zadatak"
+
+msgid "result/lose"
+msgstr "PORAZ"
+
+msgid "result/tie"
+msgstr "NERIJEŠENO"
+
+msgid "result/win"
+msgstr "POBJEDA"
+
+msgid "resultRace/battleStatus/finished"
+msgstr "ZAVRŠENA"
+
+msgid "resultRace/battleStatus/inTop"
+msgstr "PLASMAN"
+
+msgid "resultRace/battleStatus/notFinished"
+msgstr "NIJE\nZAVRŠIO"
+
+msgid "resultRace/finishReason/finished"
+msgstr "Cilj dosegnut"
+
+msgid "resultRace/finishReason/notFinished"
+msgstr "Cilj nije dosegnut"
+
+msgid "resultRace/footerSubtitle/battleEnded"
+msgstr "Bitka je završila: {{time}}"
+
+msgid "resultRace/footerSubtitle/finished"
+msgstr "Nije loše!"
+
+msgid "resultRace/footerSubtitle/inTop"
+msgstr "Najboljih 3!"
+
+msgid "resultRace/footerSubtitle/notFinished"
+msgstr "Više sreće drugi put!"
+
+msgid "ribbon/applied"
+msgstr "Bonus uspješno primjenjen"
+
+msgid "ribbon/errorState"
+msgstr "Greška aplikacije"
+
+msgid "ribbon/expBonus"
+msgstr "+%(count)s %(icon)s bonus na iskustvo"
+
+msgid "ribbon/timeLeft"
+msgstr "Obnova bonusa za:"
+
+msgid "ribbon/usesLeft"
+msgstr "Dostupno primjena: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "Dev PREGLED"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "Dev TIMSKI REZULTAT"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "Igrači"
+
+msgid "sub_modes/fall_tanks/efficiency/checkpointsPassed"
+msgstr "Kontrolne točke"
+
+msgid "sub_modes/fall_tanks/efficiency/deathCount"
+msgstr "Oživljavanja"
+
+msgid "sub_modes/fall_tanks/efficiency/finishPosition"
+msgstr "Plasman"
+
+msgid "sub_modes/fall_tanks/efficiency/finishTime"
+msgstr "Vrijeme"
+
+msgid "sub_modes/fall_tanks/efficiency/kills"
+msgstr "Dezintegriran"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/checkpointsPassed"
+msgstr "Broj kontrolnih točaka koje ste prošli"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/deathCount"
+msgstr "Broj oživljavanja nakon što je vaše vozilo dezintegrirano"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/destroyed"
+msgstr "Broj neprijateljskih vozila koje ste dezintegrirali"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishPosition"
+msgstr "Vaš konačni plasman na tablici utrke"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishTime"
+msgstr "Koliko vam je bilo potrebno za dostizanje na cilj"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/checkpointsPassed"
+msgstr "Kontrolne točke"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/deathCount"
+msgstr "Oživljavanja"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/destroyed"
+msgstr "Dezintegriran"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishPosition"
+msgstr "Plasman"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishTime"
+msgstr "Vrijeme"
+
+msgid "sub_modes/fall_tanks/navigation/battleResults"
+msgstr "OSOBNI REZULTAT"
+
+msgid "sub_modes/fall_tanks/navigation/teamEfficiency"
+msgstr "REZULTATI SUDIONIKA"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/body"
+msgstr "Poredaj po plasmanu"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/header"
+msgstr "Plasman"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/body"
+msgstr "Poredaj po vremenu"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/header"
+msgstr "Vrijeme"
+
+msgid "sub_modes/fall_tanks/team/singleTeam"
+msgstr "Igrači"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/body"
+msgstr "Poredaj po vozilu"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/header"
+msgstr "Vozila"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "PREGLED"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "TIMSKI REZULTAT"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "Igrači"
+
+msgid "team/empty/finishTime"
+msgstr "-- : -- . --"
+
+msgid "team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "title"
+msgstr "REZULTATI BITKE"

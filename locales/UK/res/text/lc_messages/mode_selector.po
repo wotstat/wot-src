@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "button/progression"
+msgstr "Показати прогресію"
+
+msgid "button/select"
+msgstr "Налаштувати"
+
+msgid "event/battlePass/name"
+msgstr "Бойова перепустка, сезон %(seasonNum)s"
+
+msgid "event/finished"
+msgstr "%(eventName)s\nзавершено"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\nрозпочнеться %(date)s"
+
+msgid "event/paused"
+msgstr "%(eventName)s\nтимчасово недоступний"
+
+msgid "event/ranked/name"
+msgstr "Сезон %(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "ПЕРЕГЛЯД У РЕЖИМІ ПРОГРЕСІЇ"
+
+msgid "mode/epicBattle/condition"
+msgstr "30x30&nbsp;{par_open}I{par_close}&nbsp;%(levels)s&nbsp;рівні"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30x30&nbsp;{par_open}I{par_close}&nbsp;%(levels)s&nbsp;рівень"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "Подія\nпочнеться %(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Режим\nнезабаром почнеться"
+
+msgid "mode/epicBattle/description"
+msgstr "Режим із прогресією та нагородами."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "Подію завершено"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "Граючи технікою VIII рівня в режимі {whiteSpanish_open}«Лінія фронту»{whiteSpanish_close}, ви здобуватиме очки. Вони потрібні для просування прогресією Бойової перепустки."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Очки Бойової перепустки"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "Граючи технікою VIII-X рівнів в режимі {whiteSpanish_open}«Розвідка боєм»{whiteSpanish_close}, ви здобуватиме очки. Вони потрібні для просування прогресією Бойової перепустки."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Очки Бойової перепустки"
+
+msgid "mode/mapbox/condition"
+msgstr "15×15 %(parSecondary_open)sI%(parSecondary_close)s VIII–X&nbsp;рівні"
+
+msgid "mode/mapbox/description"
+msgstr "Нові механіки на мапах."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Погодні візуальні ефекти залежать від ваших загальних налаштувань графіки. На низьких налаштуваннях можуть виникати візуальні артефакти й інші проблеми. Для найкращого ігрового досвіду рекомендуємо встановити найвищі налаштування графіки, якщо це дозволяють характеристики вашої машини. Режим вимогливий до комп'ютера. Можливе зниження частоти кадрів під час інтенсивних бойових дій."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "Рекомендовані найвищі налаштування графіки"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Рекомендовані найвищі налаштування графіки"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Вивчайте мапи"
+
+msgid "mode/mapsTraining/description"
+msgstr "Вивчайте мапи"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "Граючи технікою IV–XI рівнів у {whiteSpanish_open}Випадкових боях{whiteSpanish_close}, ви здобуватиме очки. Вони потрібні для просування прогресією Бойової перепустки."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Очки Бойової перепустки"
+
+msgid "mode/random/condition"
+msgstr "15x15 %(parSecondary_open)sI%(parSecondary_close)s I–XI&nbsp;рівні"
+
+msgid "mode/random/description"
+msgstr "Бої з автоматичним добиранням команд."
+
+msgid "mode/random/setup"
+msgstr "Налаштувати"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "Граючи технікою X рівня в режимі {whiteSpanish_open}«Ранговий бій»{whiteSpanish_close}, ви здобуватиме очки. Вони потрібні для просування прогресією Бойової перепустки."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Очки Бойової перепустки"
+
+msgid "mode/ranked/condition"
+msgstr "10x10 %(parSecondary_open)sI%(parSecondary_close)s X&nbsp;рівень"
+
+msgid "mode/ranked/description"
+msgstr "Режим із прогресією та нагородами."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Запишіться на турнір"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Найближчий бій: %(date)s о %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1х1–15x15 %(parSecondary_open)sI%(parSecondary_close)s I–X&nbsp;рівні"
+
+msgid "mode/specBattlesList/description"
+msgstr "Глобальна мапа та турніри."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Бийтеся легіонером"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Бийтеся в клані"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7х7–15x15 %(parSecondary_open)sI%(parSecondary_close)s VI–X&nbsp;рівні"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Кланові бої за промресурс."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Тренувальних кімнат: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1х1–15x15 %(parSecondary_open)sI%(parSecondary_close)s I–X&nbsp;рівні"
+
+msgid "mode/trainingsList/description"
+msgstr "Ознайомчі бої."
+
+msgid "novelty"
+msgstr "НОВЕ"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Боїв у кваліфікації: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "Граючи в режимі, ви можете отримати унікальні 3D-обвіси."
+
+msgid "reward/attachment/name"
+msgstr "3D-обвіси"
+
+msgid "reward/bones/description"
+msgstr "Нагорода визначається за показником вашої ефективності в бою."
+
+msgid "reward/bones/name"
+msgstr "Бони"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Граючи в режимі, ви можете отримати %(name)s."
+
+msgid "reward/bountyEquipment/name"
+msgstr "Спеціальне обладнання"
+
+msgid "reward/credits/description"
+msgstr "Нагорода визначається за показником вашої ефективності в бою."
+
+msgid "reward/credits/name"
+msgstr "Кредити"
+
+msgid "reward/crew/description"
+msgstr "Граючи в режимі, ви можете отримати унікальних членів екіпажу."
+
+msgid "reward/crew/name"
+msgstr "Члени екіпажу"
+
+msgid "reward/experience/description"
+msgstr "Нагорода визначається за показником вашої ефективності в бою."
+
+msgid "reward/experience/name"
+msgstr "Досвід"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "Граючи в режимі, ви можете отримати різне експериментальне обладнання."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Спеціальне обладнання"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Граючи в режимі, ви можете отримати %(name)s."
+
+msgid "reward/improvedEquipment/name"
+msgstr "Спеціальне обладнання"
+
+msgid "reward/lootBoxes/description"
+msgstr "Граючи в режимі, ви можете отримати коробки."
+
+msgid "reward/lootBoxes/name"
+msgstr "Особливі коробки"
+
+msgid "reward/other/description"
+msgstr "Граючи в режимі, ви можете отримати безліч корисних нагород."
+
+msgid "reward/other/name"
+msgstr "Особлива нагорода"
+
+msgid "reward/progressionStyle/description"
+msgstr "Граючи в режимі, ви можете отримати особливий стиль прогресії."
+
+msgid "reward/progressionStyle/name"
+msgstr "Стиль прогресії"
+
+msgid "reward/random/description"
+msgstr "За гру в режимі ви можете отримати безліч корисних нагород."
+
+msgid "reward/random/name"
+msgstr "Випадкова нагорода"
+
+msgid "reward/style/description"
+msgstr "Граючи в режимі, ви можете отримати особливий 3D-стиль для %(name)s."
+
+msgid "reward/style/name"
+msgstr "3D-стиль"
+
+msgid "reward/vehicle/description"
+msgstr "Граючи в режимі, ви можете отримати %(name)s."
+
+msgid "reward/vehicle/name"
+msgstr "Нагородна техніка"
+
+msgid "selectMap"
+msgstr "Попередні налаштування для Випадкових боїв"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s д"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s год"
+
+msgid "status/timeLeft/lessMin"
+msgstr "менше хвилини"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s хв"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "ВИБЕРІТЬ РЕЖИМ БОЮ"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Глобальна мапа"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Захоплює провінції та бийтеся за світове панування. Режим доступний тільки клановим гравцям."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Вступити до клану"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Бої на Глобальній мапі"
+
+msgid "window/battleSession/title"
+msgstr "СПЕЦІАЛЬНИЙ БІЙ"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Список турнірів"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Зараз ця функціональність недоступна, але стане доступна в майбутньому. Зачекайте."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Бийтеся самотужки чи в складі команди, демонструйте свої здібності й отримуйте гідні нагороди."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Турніри"

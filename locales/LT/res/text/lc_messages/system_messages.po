@@ -1,0 +1,4475 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: <translator name> <<translator email>>\nLanguage-Team: <language team name> <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "Jūsų paskyra sėkmingai atstatyta"
+
+msgid "achievements/server_error"
+msgstr "Vertingų apdovanojimų juostos pakeitimai neišsaugoti."
+
+msgid "actionAchievement/title"
+msgstr "Akcijos medalis"
+
+msgid "actionAchievements/title"
+msgstr "Akcijų medaliai"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "Klaida treniruojant įgūdį. Netinkama mašina."
+
+msgid "add_tankman_skill/server_error"
+msgstr "Negalima ištreniruoti naujo įgūdžio.\nServeris neatsako. Pabandykite vėliau."
+
+msgid "add_tankman_skill/success"
+msgstr "Ištreniruotas naujas įgūdis: %(skill)s"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "Klaida treniruojant naują įgūdį. Mašina užblokuota."
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "Klaida treniruojant naują įgūdį. Susiremontuokite mašiną."
+
+msgid "add_tankman_skills/server_error"
+msgstr "Negalima ištreniruoti naujų įgūdžių.\nServeris neatsako. Pabandykite vėliau."
+
+msgid "add_tankman_skills/success"
+msgstr "Ištreniruoti nauji įgūdžiai: %(skill)s"
+
+msgid "another_periphery"
+msgstr "Jūs esate prisijungę prie kito serverio."
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "Klaida jungiantis į mūšį: jūs jau pasijungėte į komandą."
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "Klaida jungiantis į mūšį: netinkamas komandos numeris."
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "Prisijungimo klaida. Operacija laikinai įšaldyta, pabandykite vėliau."
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "Šiuo metu šis renginys nepasiekiamas. Sekite naujienas žaidimo puslapyje."
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "Klaida jungiantis į mūšį: pakvietimas nebegalioja."
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "Prisijungimo klaida. Nepakanka teisių."
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "Negalima prisijungti į mūšį. Eilė šiuo metu nepasiekiama. Pabandykite vėliau."
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "Veiksmas negalimas. Šiuo metu eilė pilna. Pabandykite vėliau."
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "Klaida jungiantis į mūšį: komanda jau suformuota."
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "Klaida jungiantis į mūšį: per ilgai nėra atsakymo."
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "Prisijungimo klaida. Negalioja šiam paskyros tipui."
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "Prisijungiant prie mūšio įvyko klaida."
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "Prisijungimo klaida, WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "Jungimosi klaida: pasirinktas Istorinis mūšis nepasiekiamas."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "Sujungimo klaida. Pasirinkite serverį %s."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "Sujungimo klaida. Pasirinkite kitą serverį."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "Klaida jungiantis į mūšį: ši mašina dar neparuošta."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "Klaida: šio lygio mašinos negali kovoti šiame režime."
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "Negalima jungtis į mūšį: mašina neparuošta."
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "Įsigykite mašiną prieš stodami į mūšį."
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "Stojimo į mūšį klaida (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "Stojimo į mūšį klaida (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "Stojimo į mūšį klaida (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "Stojimo į mūšį klaida (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "Stojimo į mūšį klaida (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "Stojimo į mūšį klaida (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "Stojimo į mūšį klaida (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "Stojimo į mūšį klaida (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "Stojimo į mūšį klaida (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "Stojimo į mūšį klaida (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "Stojimo į mūšį klaida (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "Baigėsi maksimalus laukimo laikas eilėje. Pasirinkite kitą mašiną arba bandykite vėliau."
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" netinka šiai mašinai."
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "Netinkama mašina. %(kind)s \"%(name)s\" nesumontuota."
+
+msgid "artefact_apply/money_success"
+msgstr "%(kind)s \"%(name)s\" demontuota iš mašinos. Išleista %(money)s."
+
+msgid "artefact_apply/server_error"
+msgstr "Serverio klaida montuojant %(kind)s \"%(name)s\". Bandykite vėliau."
+
+msgid "artefact_apply/success"
+msgstr "%(kind)s \"%(name)s\" sumontuota mašinoje."
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "Mašina užblokuota. %(kind)s \"%(name)s\" nesumontuota."
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "Mašina pažeista. %(kind)s \"%(name)s\" nesumontuota. Suremontuokite mašiną ir bandykite vėliau."
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" netinka šiai mašinai."
+
+msgid "artefact_buy/invalid_module"
+msgstr "Negalima nupirkti %(kind)s \"%(name)s\". Netinkamas modulis."
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "Netinkama mašina. Negalima nupirkti ir sumontuoti %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "Negalima nupirkti %(kind)s \"%(name)s\". Nepakanka kreditų."
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "Negalima nupirkti %(kind)s \"%(name)s\". Trūksta bonų."
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "Nepavyko nupirkti %(kind)s \"%(name)s\". Nepakanka Jubiliejinių monetų."
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "Negalima nupirkti %(kind)s \"%(name)s\". Trūksta aukso."
+
+msgid "artefact_buy/server_error"
+msgstr "Negalima nupirkti %(kind)s \"%(name)s\". Bandykite vėliau."
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "Negalima nupirkti %(kind)s \"%(name)s\". Serveris laikinai nepasiekiamas."
+
+msgid "artefact_buy/success"
+msgstr "%(kind)s \"%(name)s\" sėkmingai nupirktas (%(count)s vnt.). Išleista %(money)s."
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "Mašina užblokuota. Negalima nupirkti ir sumontuoti %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "Negalima nupirkti ir sumontuoti %(kind)s \"%(name)s\". Suremontuokite mašiną ir pabandykite vėl."
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "Negalima išardyti %(name)s. Netinkamas modulis."
+
+msgid "artefact_deconstructing/server_error"
+msgstr "Negalima išardyti %(name)s. Pabandykite dar kartą vėliau."
+
+msgid "artefact_deconstructing/success"
+msgstr "Išardyta įranga: %(name)s (x%(count)s). Jūs gavote %(money)s."
+
+msgid "artefact_deconstructingMult/success"
+msgstr "Išardyta įranga: %(names)s. Jūs gavote %(money)s."
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "\"%(equipment)s\" neišmontuota. Trūksta lėšų."
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "Netinkama mašina. %(kind)s \"%(name)s\" nesunaikintas."
+
+msgid "artefact_destroy/server_error"
+msgstr "Serverio klaida sunaikinant %(kind)s \"%(name)s\". Bandykite vėliau."
+
+msgid "artefact_destroy/success"
+msgstr "%(kind)s \"%(name)s\" sunaikinta demontuojant."
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "Mašina užblokuota. %(kind)s \"%(name)s\" nesunaikinta."
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "Mašina pažeista. %(kind)s \"%(name)s\" nesunaikinta. Suremontuokite mašiną ir bandykite dar kartą."
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "%(kind)s \"%(name)s\" išmontuota iš mašinos. Jūs sunaudojote Išmontavimo rinkinį."
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "Ekipuotė \"%s\" nusiųsta į sandėlį dėl nesuderinamumo su sumontuotu moduliu."
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "Netinkama mašina. %(kind)s \"%(name)s\" nedemontuota."
+
+msgid "artefact_remove/money_success"
+msgstr "%(kind)s \"%(name)s\" demontuota iš mašinos. Išleista %(money)s."
+
+msgid "artefact_remove/server_error"
+msgstr "Serverio klaida demontuojant %(kind)s \"%(name)s\". Bandykite vėliau."
+
+msgid "artefact_remove/success"
+msgstr "%(kind)s \"%(name)s\" demontuota iš mašinos."
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "Mašina užblokuota. %(kind)s \"%(name)s\" demontuoti nepavyko."
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "Mašina pažeista. %(kind)s \"%(name)s\" nedemontuotas. Suremontuokite mašiną ir bandykite dar kartą."
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "%(kind)s \"%(name)s\" išmontuotas nemokamai dėl aktyvios WoT Plus prenumeratos."
+
+msgid "artefact_sell/invalid_module"
+msgstr "Parduoti nepavyko %(kind)s \"%(name)s\". Netinkamas modulis."
+
+msgid "artefact_sell/server_error"
+msgstr "Parduoti nepavyko %(kind)s \"%(name)s\". Bandykite vėliau."
+
+msgid "artefact_sell/success"
+msgstr "%(kind)s \"%(name)s\" (%(count)s vnt.). Gauta %(money)s."
+
+msgid "artefact_upgrade/server_error"
+msgstr "Klaida tobulinant įrangą. Pabandykite dar kartą vėliau."
+
+msgid "artefact_upgrade/success"
+msgstr "%(kind)s \"%(name)s\" sėkmingai patobulinta. Charakteristikos pagerėjo. Išleista %(money)s."
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "%(name)s %(kind)s sėkmingai patobulinta ir charakteristikos buvo pagerintos. Išleista %(money)s.\n\nPanaši įranga iš alternatyvaus komplekto buvo perkelta į sandėlį."
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "Mašina pažeista. %(kind)s \"%(name)s\" nepatobulinta. Suremontuokite mašiną ir bandykite vėliau."
+
+msgid "badges/select/server_error"
+msgstr "Serverio klaida"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "Veiksmas negalimas. Palaukite kol pasibaigs dabartinė operacija."
+
+msgid "battle/request/SEND_INVITES"
+msgstr "Kvietimų siuntimas"
+
+msgid "battleAbilities_apply/error"
+msgstr "Kovinių rezervų konfigūravimo klaida. Pabandykite vėliau."
+
+msgid "battleBooster_buy/credits_error"
+msgstr "Nepavyko nusipirkti %(kind)s \"%(name)s\". Trūksta kreditų."
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "Nepavyko nusipirkti %(kind)s \"%(name)s\". Trūksta bonų."
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" netinka šiai mašinai."
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "Nepavyko nupirkti %(kind)s \"%(name)s\". Nepakanka Jubiliejinių monetų."
+
+msgid "battleBooster_buy/gold_error"
+msgstr "Nepavyko nusipirkti %(kind)s \"%(name)s\". Trūksta aukso."
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "Nepavyko nusipirkti %(kind)s \"%(name)s\". Netinkamas modulis."
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "Nepavyko nusipirkti ir sumontuoti %(kind)s \"%(name)s\". Netinkama mašina."
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "Nepavyko nusipirkti %(kind)s \"%(name)s\". Trūksta kreditų."
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "Nepavyko nusipirkti %(kind)s \"%(name)s\". Trūksta bonų."
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "Nepavyko nupirkti %(kind)s \"%(name)s\". Nepakanka Jubiliejinių monetų."
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "Nepavyko nusipirkti %(kind)s \"%(name)s\". Trūksta aukso."
+
+msgid "battleBooster_buy/server_error"
+msgstr "Operacijos su instrukcijomis laikinai negalimos dėl profilaktikos."
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "Nepavyko nusipirkti %(kind)s \"%(name)s\". Serveris laikinai nepasiekiamas."
+
+msgid "battleBooster_buy/success"
+msgstr "%(kind)s \"%(name)s\" sėkmingai nupirktas (%(count)s vnt.). Išleista %(money)s."
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "Mašina užblokuota. Nepavyko nusipirkti %(kind)s \"%(name)s\"."
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "Nepavyko nusipirkti ir sumontuoti %(kind)s \"%(name)s\". Suremontuokite mašiną ir pabandykite dar kartą."
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "Operacija negalima. Visas jūsų auksas bus pasiekiamas po WG Wallet darbo automatinio atstatymo."
+
+msgid "battleBooster_sell/server_error"
+msgstr "Operacijos su instrukcijomis laikinai negalimos dėl profilaktikos."
+
+msgid "battleBooster_sell/success"
+msgstr "%(kind)s \"%(name)s\" parduota (%(count)s vnt.). Gauta: %(money)s."
+
+msgid "battleBoosters_apply/error"
+msgstr "Instrukcijų konfigūravimo klaida. Pabandykite vėliau."
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "Instrukcijų konfigūravimo klaida. Trūksta lėšų pirkimui."
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po to, kai WG Wallet veikimas bus atstatytas."
+
+msgid "battlePass/activateChapter/success"
+msgstr "Aktyvuotas skyrius %(chapter)s"
+
+msgid "battlePass/extraFinish/body"
+msgstr "Renginys %(name)s baigėsi. Ačiū už dalyvavimą!"
+
+msgid "battlePass/extraFinish/header"
+msgstr "Kovinis leidimas: Skyrius \"%(name)s\""
+
+msgid "battlePass/extraStarted/body"
+msgstr "Vadai! Koviniame leidime prasidėjo renginys %(name)s, kurio metu galite gauti specialų apdovanojimą!"
+
+msgid "battlePass/extraStarted/header"
+msgstr "Kovinis leidimas: Pasiekiamas naujas skyrius!"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "Vade! Liko labai mažai laiko iki skyriaus \"%(name)s\" pabaigos. Paskubėkite!"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "Kovinis leidimas: Skyrius \"%(name)s\""
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "Kariai! Nepamirškite, kad Kovinio leidimo taškus galite rinkti ir Reitinguojamuose mūšiuose!"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "Kariai! Nepamirškite, kad Kovinio leidimo taškus galite rinkti ir Fronto linijoje!"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "Kariai! Nepamirškite, kad Kovinio leidimo taškus galite rinkti ir Žvalgybinėje misijoje!"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "Kariai! Nepamirškite, kad Kovinio leidimo taškus galite rinkti ir Prasiveržime!"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "Kovinio leidimo %(seasonNum)d sezonas"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "Klaida pasirenkant apdovanojimus. Pabandykite dar kartą."
+
+msgid "battlePass/seasonEnd/text"
+msgstr "Kovinio leidimo sezonas baigėsi. Visi apdovanojimai, kurių nepasirinkote sezono metu, buvo suteikti jums:"
+
+msgid "battlePass/switchChapter/error"
+msgstr "Klaida pasirenkant skyrių. Pabandykite dar kartą."
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "Pasirinkite skyrių. Jūs bet kada galite persijungti į kitą skyrių."
+
+msgid "battlePass/switchChapter/success"
+msgstr "Jūs persijungėte į kitą skyrių. Dabar aktyvus skyrius %(chapter)s."
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "Kovinis leidimas laikinai neveikia režime Plieninis medžiotojas dėl techninės profilaktikos. Atsiprašome už nepatogumus."
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "Prasiveržimo režime šiuo metu negalite gauti kovinio leidimo taškų, dėl techninės apžiūros."
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "Prasiveržimo šviesos režime šiuo metu negalite gauti kovinio leidimo taškų, dėl techninės apžiūros."
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "Kovinis leidimas Fronto linijoje laikinai nepasiekiamas dėl planinių darbų."
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "Kovinis leidimas Reitinguojamuose mūšiuose laikinai nepasiekiamas dėl planinių darbų."
+
+msgid "battlePass/switch_enabled/body"
+msgstr "Kovinis leidimas vėl pasiekiamas. Atsiprašome už nepatogumus.\nSezonas pratęstas iki %(expiryTime)s."
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "Kovinio leidimo taškai vėl gali būti renkami Prasiveržime. Atsiprašome už sukeltus nepatogumus."
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "Kovinio leidimo taškai vėl gali būti renkami Prasiveržimo šviesoje. Atsiprašome už sukeltus nepatogumus."
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "Kovinis leidimas vėl veikia Fronto linijoje. Atsiprašome už nepatogumus."
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "Kovinis leidimas vėl veikia Reitinguojamuose mūšiuose. Atsiprašome už nepatogumus."
+
+msgid "battlePass/switch_pause/body"
+msgstr "Kovinis leidimas laikinai nepasiekiamas dėl planinių darbų."
+
+msgid "battlePass/switch_started/body"
+msgstr "Vadai! Atėjo laikas ir vėl kautis dėl unikalių Kovinio leidimo prizų!"
+
+msgid "battlePass/switch_started/title"
+msgstr "Kovinio leidimo %(seasonNum)d sezonas"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "Kovinis leidimas: %(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "Kovinis leidimas užbaigtas. Visi apdovanojimai, kurių nepasirinkote, buvo suteikti jums:"
+
+msgid "battlePassH/switch_disable/body"
+msgstr "Skyrius pasibaigė. Iki kito karto!"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "Kovinis leidimas: %(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "Kovinis leidimas vėl veikia. Atsiprašome už nepatogumus."
+
+msgid "battlePassH/switch_started/body"
+msgstr "Vadai! Kaip tikriausiai netrukus pastebėsite, tai yra specialus Kovinis leidimas.\n\nUžbaigę šią seką, gausite Premium mašiną, papuoštą unikaliu 3D stiliumi, pritaikomųjų elementų ir daugiau apdovanojimų!"
+
+msgid "battlePassH/switch_started/title"
+msgstr "Kovinis leidimas: %(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "Klaida perkant sekos etapus. Pabandykite vėliau."
+
+msgid "battlePass_buy/server_error"
+msgstr "Klaida perkant Pagerintą leidimą. Pabandykite vėliau."
+
+msgid "battleResults/sharing/success"
+msgstr "Nuoroda nukopijuota į atmintį. Jūs galite ją įdėti į pokalbių langą paspaudę Ctrl+V arba naudoti ją kitoje programoje."
+
+msgid "battleSession/kickedFromQueue"
+msgstr "Napavyko rasti priešininkų šiai Kuopai. Pamėginkite pakeisti komandos sudėtį."
+
+msgid "battleSession/memberJoined"
+msgstr "%s prisijungė prie komandos."
+
+msgid "battleSession/memberLeave"
+msgstr "%s paliko komandą."
+
+msgid "battleSession/memberNotReady"
+msgstr "%s nepasiruošęs kovoti komandoje."
+
+msgid "battleSession/memberOffline"
+msgstr "Prarastas ryšys su %s."
+
+msgid "battleSession/memberReady"
+msgstr "%s pasiruošęs kovoti komandoje."
+
+msgid "battlesession/error/AddObserver"
+msgstr "Maksimalus stebėtojų skaičius komandoje: %(numPlayers)s."
+
+msgid "battlesession/error/AddPlayer"
+msgstr "Maksimalus žaidėjų skaičius komandoje: %(numPlayers)s."
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "Trūksta teisių kitų žaidėjų perkėlimui."
+
+msgid "battlesession/error/Limits"
+msgstr "Viršytas maksimalus žaidėjų skaičius komandoje."
+
+msgid "blueprints/conversion/disable"
+msgstr "Trūksta fragmentų konvertavimui."
+
+msgid "blueprints/conversion/error"
+msgstr "Nepavyko atleisti. Serveris nepasiekiamas. Pabandykite vėliau."
+
+msgid "blueprints/switch_off"
+msgstr "Mašinų brėžiniai: ši funkcija laikinai išjungta. Atsiprašome už nepatogumus."
+
+msgid "blueprints/switch_on"
+msgstr "Mašinų brėžiniai vėl pasiekiami."
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "Veiksmas negalimas. Asmeninsi rezervas jau panaudotas."
+
+msgid "booster_activate/DISABLED"
+msgstr "Nepavyko aktyvuoti asmeninio rezervo. Veiksmas negalimas."
+
+msgid "booster_activate/EXCEPTION"
+msgstr "Nepavyko aktyvuoti asmeninio rezervo. Veiksmas negalimas."
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "Veiksmas negalimas. Asmeninis rezervas neegzistuoja arba nepasirinktas."
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "Nepavyko aktyvuoti asmeninio rezervo. Veiksmas negalimas."
+
+msgid "booster_activate/server_error"
+msgstr "Nepavyko aktyvuoti asmeninio rezervo. Pabandykite vėliau."
+
+msgid "booster_activate/success"
+msgstr "Asmeninis rezervas \"%(boosterName)s\" aktyvuotas. Liko laiko: %(time)s."
+
+msgid "booster_buy/not_enough_credits"
+msgstr "Negalima nupirkti asmeninio rezervo \"%(boosterName)s\". Trūksta kreditų."
+
+msgid "booster_buy/not_enough_gold"
+msgstr "Negalima nupirkti asmeninio rezervo \"%(boosterName)s\". Trūksta aukso."
+
+msgid "booster_buy/server_error"
+msgstr "Negalima nupirkti asmeninio rezervo \"%(boosterName)s\"."
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "Negalima nupirkti asmeninio rezervo \"%(boosterName)s\". Serveris laikinai nepasiekiamas."
+
+msgid "booster_buy/success"
+msgstr "Asmeninis rezervas\"%(boosterName)s\" sėkmingai nupirktas (%(count)s vnt.). Išleista %(money)s."
+
+msgid "booster_buy/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "booster_sell/server_error"
+msgstr "Nepavyko parduoti asmeninio rezervo \"%(boosterName)s\". Pabandykite vėliau."
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "Nepavyko parduoti asmeninio rezervo \"%(boosterName)s\". Pabandykite vėliau."
+
+msgid "booster_sell/success"
+msgstr "Asmeninis rezervas \"%(boosterName)s\" sėkmingai parduotas (%(count)s vnt.). Gauta %(money)s."
+
+msgid "buttons/goToPoll"
+msgstr "Pereiti į apklausą"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "Negalima rekrutuoti ir persodinti įgulos nario: tanke unikali nuolatinė įgula."
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "Jūs išnaudojote nemokamų įgulos narių dienos limitą."
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "Nepavyko pasamdyti ir perkelti įgulos nario. Netinkama mašina."
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "Nepavyko pasamdyti ir perkelti įgulos nario. Nepakanka kreditų."
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "Nepavyko pasamdyti ir perkelti įgulos nario. Nepakanka aukso."
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "Nepavyko pasamdyti ir perkelti įgulos nario. Bandykite vėliau."
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "Nepavyko pasamdyti ir perkelti įgulos nario. Mašina užblokuota."
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "Negalima rekrutuoti ir persodinti įgulos nario: tanke unikali nuolatinė įgula."
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "Jūs išnaudojote nemokamų įgulos narių dienos limitą."
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "Nepavyko pasamdyti ir pakeisti įgulos nario. Netinkama mašina."
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "Nepavyko pasamdyti ir pakeisti įgulos nario. Nepakanka kreditų."
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "Nepavyko pasamdyti ir pakeisti įgulos nario. Nepakanka aukso."
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "Nepavyko pasamdyti naujo įgulos nario. Pasamdymui reikalingas laisvas gultas. Atlaisvinkite gultą arba nupirkite papildomų gultų."
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "Nepavyko pasamdyti ir pakeisti įgulos nario. Bandykite vėliau."
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "Nepavyko pasamdyti ir pakeisti įgulos nario. Mašina užblokuota."
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "Jūs pasiekėte nemokamos technikos įsigijimo limitą. Pabandykite rytoj."
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "Klaida didinant kareivines. Neužtenka kreditų."
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "Klaida didinant kareivines. Neužtenka aukso."
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "Negalima padidinti kareivinių. Pabandykite vėliau."
+
+msgid "buy_tankmen_berths/success"
+msgstr "Kareivinės padidintos.\nIšleista aukso: %(money)s."
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "buy_vehicle_slot_error"
+msgstr "Negalima nupirkti \"%s\". Nepakanka vietos garaže. Atlaisvinkite vietą arba nusipirkite naują."
+
+msgid "buy_vehicle_slot_error2"
+msgstr "Negalima nupirkti \"%s\". Nepakanka vietos garaže. Atlaisvinkite vietą."
+
+msgid "challenges/activate/serverError"
+msgstr "Nepavyksta aktyvuoti Kalvės misijų. Pabandykite vėliau."
+
+msgid "challenges/activate/success/text"
+msgstr "Galite vykdyti pirmąją šios serijos misiją. Važiuokite į mūšį ir įveikite iššūkį!"
+
+msgid "challenges/activate/success/title"
+msgstr "Kalvė: %(challengeName)s aktyvuota!"
+
+msgid "challenges/challengeEnd/button"
+msgstr "Į Kalvę"
+
+msgid "challenges/challengeEnd/text"
+msgstr "Įvykdykite ją dabar ir gaukite apdovanojimų."
+
+msgid "challenges/challengeEnd/title"
+msgstr "Kalvės misijos greitai baigsis!"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "Sveikiname!"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "Jūs įvykdėte Kalvę: %(challengeName)s! Gauti apdovanojimai:"
+
+msgid "challenges/formatter/spent/credits"
+msgstr "Išleista kreditų:"
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "Išleista bonų:"
+
+msgid "challenges/formatter/spent/gold"
+msgstr "Išleista aukso:"
+
+msgid "challenges/restart/free/text"
+msgstr "Panaudotas vienas nemokamas atstatymas ir misijų seka atstatyta."
+
+msgid "challenges/restart/free/title"
+msgstr "Kalvė: %(challengeName)s atstatyta nemokamai"
+
+msgid "challenges/restart/paid/title"
+msgstr "Kalvė: %(challengeName)s atstatyta"
+
+msgid "challenges/restart/serverError"
+msgstr "Nepavyksta atstatyti Kalvės misijų. Pabandykite vėliau."
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "Veiksmas negalimas. Palaukite kol pasibaigs dabartinė operacija."
+
+msgid "challenges/surrender/serverError"
+msgstr "Nepavyksta apleisti Kalvės misijų. Pabandykite vėliau."
+
+msgid "challenges/surrender/success/text"
+msgstr "Jūs apleidote Kalvę: %(challengeName)s. Misijų serijos įvykdyti nepavyko."
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "Negalima pakeisti įgulos nario specializacijos: tanke unikali nuolatinė įgula."
+
+msgid "change_tankman_role/invalid_role"
+msgstr "Nepavyko pakeisti kvalifikacijos. Pabandykite vėliau."
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "Nepavyko pakeisti kvalifikacijos. Netinkama mašina."
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "Tokios mašinos nėra garaže. Perkvalifikuotas įgulos narys bus nusiųstas į Kareivines."
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "Nepavyko pakeisti įgulos nario kvalifikacijos. Trūksta kreditų."
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "Nepavyko pakeisti įgulos nario kvalifikacijos. Trūksta aukso."
+
+msgid "change_tankman_role/server_error"
+msgstr "Nepavyko pakeisti kvalifikacijos.\nPabandykite vėliau."
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "Mašinoje %(vehicle)s jau yra %(role)s. Perkvalifikuotas įgulos narys bus išsiųstas į Kareivines."
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "Nepavyko pakeisti kvalifikacijos. Pabandykite vėliau."
+
+msgid "charge/credits_error"
+msgstr "Trūksta %s kreditų ir %s aukso. Amuniciją sudėkite patys."
+
+msgid "charge/credits_error_credits"
+msgstr "Trūksta %s kreditų. Amuniciją sudėkite patys."
+
+msgid "charge/credits_error_gold"
+msgstr "Trūksta %s aukso. Amuniciją sudėkite patys."
+
+msgid "charge/inventory_error"
+msgstr "Amunicija į mašiną %(vehicle)s nepakrauta. Amuniciją sudėkite patys."
+
+msgid "charge/money_spent"
+msgstr "Amunicijai išleista %s."
+
+msgid "charge/server_error"
+msgstr "Klaida pakraunant amuniciją. Pabandykite vėliau."
+
+msgid "charge/server_error_save"
+msgstr "Klaida išsaugant amunicijos sarašą. Pabandykite vėliau."
+
+msgid "charge/success"
+msgstr "Amunicija sėkmingai pakrauta."
+
+msgid "charge/success_save"
+msgstr "Amunicijos sarašas sėkmingai išsaugotas."
+
+msgid "checkout_error"
+msgstr "Serverio klaida gaunant informaciją apie vartotoją. Pabandykite dar kartą."
+
+msgid "clans/isClanProfileDisabled"
+msgstr "Veiksmas negalimas. Pabandykite vėliau."
+
+msgid "clans/notifications/accept"
+msgstr "Priimti"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "Klano pakvietimas jau išsiųstas žaidėjui %(userName)s."
+
+msgid "clans/notifications/decline"
+msgstr "Atmesti"
+
+msgid "clans/notifications/from"
+msgstr "nuo %(user)s"
+
+msgid "clans/notifications/info"
+msgstr "Peržiūrėti klano informaciją"
+
+msgid "clans/notifications/invite"
+msgstr "Kvietimas į klaną"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "Kvietimas į klaną priimtas."
+
+msgid "clans/notifications/invite/declined"
+msgstr "Kvietimas į klaną atmestas."
+
+msgid "clans/notifications/invite/expired"
+msgstr "Klaidingas kvietimas į klaną."
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s priėmė pakvietimą į klaną."
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s atmetė pakvietimą į klaną."
+
+msgid "clans/notifications/inviteSendError"
+msgstr "Negalima išsiųsti pakvietimo i klaną žaidėjui %(userName)s."
+
+msgid "clans/notifications/inviteSent"
+msgstr "Klano pakvietimas išsiųstas žaidėjui %(userName)s."
+
+msgid "clans/notifications/invites"
+msgstr "Pakvietimai į klaną: %(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "Išjungti pranešimus"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "Peržiūrėti pakvietimus"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "Kvietimai į klaną nebuvo išsiųsti %(userCount)d žaidėjams."
+
+msgid "clans/notifications/invitesSent"
+msgstr "Kvietimai išsiųsti %(userCount)d žaidėjams."
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "Jūs priimti į klaną\n%(nameStartTag)s%(name)s%(nameEndTag)s."
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "Jūsų prašymas įstoti į klaną\n%(nameStartTag)s%(name)s%(nameEndTag)s buvo atmestas."
+
+msgid "clans/notifications/request"
+msgstr "Paraiška klanui"
+
+msgid "clans/notifications/request/accepted"
+msgstr "Paraiška priimta."
+
+msgid "clans/notifications/request/declined"
+msgstr "Paraiška atmesta."
+
+msgid "clans/notifications/requestSent"
+msgstr "Paraiška išsiųsta klanui\n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "Kvietimai iš žaidėjų: %(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "Peržiūrėti paraiškas"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "%(userName)s jau pakviestas į jūsų klaną."
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "Veiksmas negalimas. Žaidėjas neatitinka rekrutavimo reikalavimų."
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "Vienos dienas apribojimas išėjus iš klano dar nepasibaigė."
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "Veiksmas negalimas. Neteisinga paskyra."
+
+msgid "clans/request/errors/Account is banned"
+msgstr "Veiksmas negalimas. Paskyra užblokuota."
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "Šis žaidėjas jau yra klano narys."
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "Veiksmas negalimas. Žaidėjas nėra klano narys."
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "Veiksmas negalimas. Paraiška neegzistuoja."
+
+msgid "clans/request/errors/Application is not active"
+msgstr "Veiksmas negalimas. Paraiška nebegalioja."
+
+msgid "clans/request/errors/Bad request"
+msgstr "Veiksmas negalimas. Pabandykite vėliau."
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "Trūksta teisių pakvietimo į klaną siuntimui."
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "Verbavimas į klaną sustabdytas."
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "Klanas pilnas."
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "Veiksmas negalimas. Klanas neegzistuoja."
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "Veiksmas negalimas. Klanas pilnas."
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "Veiksmas negalimas. Klanas išformuotas."
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "Veiksmas negalimas. Klanas neaktyvus."
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "Veiksmas negalimas. Pabandykite vėliau."
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "Veiksmas negalimas. Pabandykite vėliau."
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "Veiksmas negalimas šiam paskyros tipui."
+
+msgid "clans/request/errors/Forbidden"
+msgstr "Veiksmas negalimas. Jūs neturite teisių."
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "Veiksmas negalimas. Pabandykite vėliau."
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "Veiksmas negalimas. Pakvietimas neegzistuoja."
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "Veiksmas negalimas. Pakvietimas nebegalioja."
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "Veiksmas negalimas. Pabandykite vėliau."
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "Veiksmas negalimas. Pabandykite vėliau."
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "Veiksmas negalimas. Tvirtovė nepasiekiama."
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "Veiksmas negalimas. Pasiektas paraiškų limitas."
+
+msgid "clans/request/errors/Too many invites"
+msgstr "Veiksmas negalimas. Pasiektas maksimalus pakvietimų skaičius."
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "Veiksmas negalimas. Pabandykite vėliau."
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "Veiksmas negalimas. Pabandykite vėliau."
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "Veiksmas negalimas. Pabandykite vėliau."
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "Veiksmas negalimas. Pabandykite vėliau."
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "%(userName)s jau yra klano narys."
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s \"%s\" netinka šiai mašinai."
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s \"%s\" netinka šiam bokšteliui. Pakeiskite bokštelį."
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s \"%s\" yra netinkamo tipo."
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s \"%s\" netinka šiai nacijai."
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s \"%s\" netinka šiai mašinai."
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s \"%s\" yra netinkamo tipo."
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s \"%s\" netinka šiai nacijai."
+
+msgid "client_inactive"
+msgstr "Neaktyvus klientas"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "Kolekcijos laikinai nepasiekiamos dėl profilaktinių darbų."
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "Kolekcijos nepasiekiamos"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "Kolekcijos sutvarkytos. Atsiprašome už nepatogumus."
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "Kolekcijos vėl pasiekiamos"
+
+msgid "connected"
+msgstr "Sveiki prisijungę į World of Tanks %s serverį!"
+
+msgid "consumables_apply/error"
+msgstr "Ekipuotės konfigūravimo klaida. Pabandykite vėliau."
+
+msgid "consumables_apply/not_enough_money"
+msgstr "Ekipuotės konfigūravimo klaida. Trūksta lėšų pirkimui."
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po to, kai WG Wallet veikimas bus atstatytas."
+
+msgid "conversion/error"
+msgstr "Nepavyko atleisti. Serveris nepasiekiamas. Pabandykite vėliau."
+
+msgid "conversion/header"
+msgstr "Data: %(at)s\nSuteikta:"
+
+msgid "conversion/success"
+msgstr "Atleisti netreniruoti įgulos nariai: %(number)s"
+
+msgid "conversion/title"
+msgstr "Kvitas"
+
+msgid "conversionPerks/header"
+msgstr "Data: %(at)s\nKonvertuojama patirtis viršijo įgulos įgūdžiu limitą. Gauta:"
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "Privačios žinutės žaidėjams iš jūsų šalies nepasiekiamos."
+
+msgid "crewBooks/failed"
+msgstr "Negalima ištreniruoti šios įgulos.\nPabandykite vėliau."
+
+msgid "crewBooks/server_error"
+msgstr "Įgulos nario(-ių) treniravimas nepavyko dėl serverio klaidos. Pabandykite vėliau."
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s."
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "crewBooksNotification/success"
+msgstr "Įgula ištreniruota.\nIšleista:"
+
+msgid "crewBooks_buy/server_error"
+msgstr "Nupirkti nepavyko Įgulos knygos dėl serverio klaidos. Pabandykite vėliau."
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s (%(count)s vnt.).\nIšleista kreditų: %(money)s."
+
+msgid "crewBooks_sell/server_error"
+msgstr "Nupirkti parduoti Įgulos knygos dėl serverio klaidos. Pabandykite vėliau."
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s (%(count)s vnt.).\nGauta kreditų: %(money)s."
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "Įgulos apvalkalas pakeistas."
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "Pridėta įgulos apvalkalų: %(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "Ši mašina pakeista į \"%s\"."
+
+msgid "customization/added/attachment"
+msgstr "Gautas 3D elementas %s"
+
+msgid "customization/added/attachmentValue"
+msgstr "Gautas 3D elementas %s: (x%s)"
+
+msgid "customization/added/camouflage"
+msgstr "Pridėtas kamufliažas %s"
+
+msgid "customization/added/camouflageValue"
+msgstr "Pridėtas kamufliažas %s: (x%s)"
+
+msgid "customization/added/decal"
+msgstr "Pridėtas lipdukas %s"
+
+msgid "customization/added/decalValue"
+msgstr "Pridėtas lipdukas %s: (x%s)"
+
+msgid "customization/added/emblem"
+msgstr "Pridėta emblema %s"
+
+msgid "customization/added/emblemValue"
+msgstr "Pridėta emblema %s: (x%s)"
+
+msgid "customization/added/inscription"
+msgstr "Pridėtas užrašas %s"
+
+msgid "customization/added/inscriptionValue"
+msgstr "Pridėtas užrašas %s: (x%s)"
+
+msgid "customization/added/modification"
+msgstr "Pridėtas efektas %s"
+
+msgid "customization/added/modificationValue"
+msgstr "Pridėtas efektas %s: (x%s)"
+
+msgid "customization/added/paint"
+msgstr "Pridėti dažai %s"
+
+msgid "customization/added/paintValue"
+msgstr "Pridėti dažai %s: (x%s)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "Pridėtas vieno skaitmens skaičius %s"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "Pridėtas vieno skaitmens skaičius %s: (x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "Pridėtas dviejų skaitmenų skaičius %s"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "Pridėtas dviejų skaitmenų skaičius %s: (x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "Pridėtas trijų skaitmenų skaičius %s"
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "Pridėtas trijų skaitmenų skaičius %s: (x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "Pridėtas lipdukas %s"
+
+msgid "customization/added/projectionDecalValue"
+msgstr "Pridėtas lipdukas %s: (x%s)"
+
+msgid "customization/added/statTracker"
+msgstr "Statistikos sekiklis: %s suteiktas"
+
+msgid "customization/added/statTrackerValue"
+msgstr "Statistikos sekikliai: %s suteikta: (x%s)"
+
+msgid "customization/added/style"
+msgstr "Pridėtas stilius %s"
+
+msgid "customization/added/styleValue"
+msgstr "Pridėtas stilius %s: (x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "Modifikuoti negalima. Trūksta kreditų ir aukso."
+
+msgid "customization/credits_not_enough"
+msgstr "Modifikuoti negalima. Trūksta kreditų."
+
+msgid "customization/currency_not_enough"
+msgstr "Nepakanka valiutos daiktui nusipirkti."
+
+msgid "customization/gold_not_enough"
+msgstr "Modifikuoti negalima. Trūksta aukso."
+
+msgid "customization/igr_type_changed_error"
+msgstr "IGR statusas pasikeitė. Dabartinė operacija atšaukta."
+
+msgid "customization/invalidVehicle"
+msgstr "Negalima patvirtinti: netinkama mašina"
+
+msgid "customization/personal_number_prohibited"
+msgstr "Skaičius %(value)s negalimas.\n%(itemType)s%(itemName)s buvo pašalintas iš %(seasonName)s žemėlapio."
+
+msgid "customization/progression/down/style"
+msgstr "Stilius %s sumažintas iki %s lygio"
+
+msgid "customization/progression/up/style"
+msgstr "Stilius %s pagerintas iki %s lygio"
+
+msgid "customization/prohibited"
+msgstr "Negalima uždėti: %(itemName)s nėra inventoriuje."
+
+msgid "customization/removed/attachment"
+msgstr "Pašalintas 3D elementas %s"
+
+msgid "customization/removed/attachmentValue"
+msgstr "Atimtas 3D elementas %s: (x%s)"
+
+msgid "customization/removed/camouflage"
+msgstr "Pašalintas kamufliažas %s"
+
+msgid "customization/removed/camouflageValue"
+msgstr "Pašalintas kamufliažas %s: (x%s)"
+
+msgid "customization/removed/decal"
+msgstr "Pašalintas lipdukas %s"
+
+msgid "customization/removed/decalValue"
+msgstr "Pašalintas lipdukas %s: (x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "Pašalinta emblema %s"
+
+msgid "customization/removed/emblemValue"
+msgstr "Pašalinta emblema %s: (x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "Pašalintas užrašas %s"
+
+msgid "customization/removed/inscriptionValue"
+msgstr "Pašalintas užrašas %s: (x%s)"
+
+msgid "customization/removed/modification"
+msgstr "Pašalintas efektas %s"
+
+msgid "customization/removed/modificationValue"
+msgstr "Pašalintas efektas %s: (x%s)"
+
+msgid "customization/removed/paint"
+msgstr "Pašalinti dažai %s"
+
+msgid "customization/removed/paintValue"
+msgstr "Pašalinti dažai %s: (x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "Pašalintas vieno skaitmens skaičius %s"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "Pašalintas vieno skaitmens skaičius %s: (x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "Pašalintas dviejų skaitmenų skaičius %s"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "Pašalintas dviejų skaitmenų skaičius %s: (x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "Pridėtas trijų skaitmenų skaičius %s"
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "Pašalintas trijų skaitmenų skaičius %s: (x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "Pašalintas lipdukas %s"
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "Pašalintas lipdukas %s: (x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "Statistikos sekiklis: %s atimtas"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "Statistikos sekikliai: %s atimti: (x%s)"
+
+msgid "customization/removed/style"
+msgstr "Pašalintas stilius %s"
+
+msgid "customization/removed/styleValue"
+msgstr "Pridėtas stilius %s: (x%s)"
+
+msgid "customization/server_error"
+msgstr "Negalima pritaikyti."
+
+msgid "customization/unavailable"
+msgstr "Mašinos pritaikymo funkcionalumas dėl techninių priežasčių laikinai išjungtas."
+
+msgid "customization/vehicle_damaged"
+msgstr "Modifikuoti negalima. Mašina pažeista. Reikalingas remontas."
+
+msgid "customization/vehicle_destroyed"
+msgstr "Modifikuoti negalima. Mašina sunaikinta. Reikalingas remontas."
+
+msgid "customization/vehicle_exploded"
+msgstr "Modifikuoti negalima. Mašina sunaikinta. Reikalingas remontas."
+
+msgid "customization/vehicle_locked"
+msgstr "Modifikuoti negalima. Mašina užrakinta."
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "Negalima prasukti Standartinės misijos: misija jau įvykdyta."
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "Negalima prasukti Standartinės misijos: operacija blokuojama."
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "Negalima prasukti Standartinės misijos: operacija sustabdyta."
+
+msgid "daily_quests/reroll/success"
+msgstr "Standartinė misija sėkmingai prasukta."
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "Negalima prasukti Standartinės misijos. Pabandykite vėliau."
+
+msgid "daily_quests/switch_off/body"
+msgstr "Šis funkcionalumas laikinai nepasiekiamas dėl techninių priežasčių.\nAtsiprašome už nepatogumus."
+
+msgid "daily_quests/switch_off/title"
+msgstr "Standartinės misijos laikinai nepasiekiamos"
+
+msgid "daily_quests/switch_on/body"
+msgstr "Techninės problemos pašalintos. Atsiprašome už nepatogumus."
+
+msgid "daily_quests/switch_on/title"
+msgstr "Standartinės misijos vėl pasiekiamos"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "Šis funkcionalumas laikinai nepasiekiamas dėl techninių priežasčių.\nAtsiprašome už nepatogumus."
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "Valdomas bonusas patirčiai laikinai nepasiekiamas"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "Techninės problemos pašalintos. Atsiprašome už nepatogumus."
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "Valdomas bonusas patirčiai vėl pasiekiamas"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "Operacijos su Išmontavimo rinkiniais laikinai negalimos dėl profilaktikos."
+
+msgid "demountKit_restored/switchedOn"
+msgstr "Operacijos su Išmontavimo rinkiniais vėl veikia. Atsiprašome už nepatogumus."
+
+msgid "denunciation/success"
+msgstr "Skundas dėl %(name)s \"%(topic)s\" priimtas."
+
+msgid "disconnected"
+msgstr "Klientas atjungtas nuo serverio."
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "Negalima atleisti įgulos nario: tanke unikali nuolatinė įgula."
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "Įvyko klaida demobilizuojant įgulos narį. Netinkama mašina."
+
+msgid "dismiss_tankman/server_error"
+msgstr "Negalima atleisti šio įgulos nario.\nPabandykite vėliau."
+
+msgid "dismiss_tankman/success"
+msgstr "Įgulos narys atleistas."
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "Įvyko klaida demobilizuojant įgulos narį. Ši mašina užblokuota."
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "Įvyko klaida demobilizuojant įgulos narį. Sutaisykite mašiną."
+
+msgid "dog_tags/switch_off/body"
+msgstr "Šis funkcionalumas laikinai nepasiekiamas dėl techninių priežasčių.\nAtsiprašome už nepatogumus."
+
+msgid "dog_tags/switch_off/title"
+msgstr "Kariški žetonai laikinai nepasiekiami"
+
+msgid "dog_tags/switch_on/body"
+msgstr "Techninės problemos pašalintos. Atsiprašome už nepatogumus."
+
+msgid "dog_tags/switch_on/title"
+msgstr "Kariški žetonai vėl pasiekiami"
+
+msgid "dossiers_unavailable"
+msgstr "Sąskaita neparuošta (DOSSIERS_UNAVAILABLE)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "Visi įgūdžiai buvo atstatyti.\nIšleista kreditų: %(money)s."
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "Visi įgūdžiai buvo atstatyti.\nIšleista aukso: %(money)s."
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "Nepavyko atstatyti įgūdžių. Netinkama mašina."
+
+msgid "drop_tankman_skill/server_error"
+msgstr "Nepavyko atstatyti įgūdžių. Pabandykite vėliau."
+
+msgid "drop_tankman_skill/success"
+msgstr "Visi įgūdžiai apnulinti."
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "Nepavyko atstatyti įgūdžių. Mašina užblokuota."
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "Nepavyko atstatyti įgūdžių. Sutaisykite mašiną."
+
+msgid "drr_scale/step_down"
+msgstr "Dinamiškas sprendimas sumažintas iki %(scale)d%%."
+
+msgid "drr_scale/step_up"
+msgstr "Dinamiškas sprendimas padidintas iki %(scale)d%%."
+
+msgid "earning/button/multiple"
+msgstr "Į Pasiekimus"
+
+msgid "earning/button/single"
+msgstr "Į Pasiekimą"
+
+msgid "earning/common/multiple"
+msgstr "Atrakinti %(value)s pasiekimai!"
+
+msgid "earning/common/single"
+msgstr "Pasiekimas %(value)s atrakintas!"
+
+msgid "earning/title"
+msgstr "Sveikiname!"
+
+msgid "earning/trophy/multiple"
+msgstr "Gauti %(value)s trofėjai!"
+
+msgid "earning/trophy/single"
+msgstr "Trofėjus %(value)s gautas!"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "Greitas paruošimas vėl pasiekiamas. Atsiprašome už sukeltus nepatogumus."
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "Greitas paruošimas laikinai nepasiekiamas dėl planinių darbų."
+
+msgid "easyTankEquip_apply/error"
+msgstr "Nepavyko pritaikyti Greito paruošimo konfigūracijos. Pabandykite dar kartą vėliau."
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "Nepavyko pritaikyti Greito paruošimo konfigūracijos. Trūksta išteklių."
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "Greito paruošimo operacija negalima. Jūsų auksas bus pasiekiamas po to, kai WG Wallet veikimas bus atstatytas."
+
+msgid "epicBattles/levelUp/awards"
+msgstr "Gautas apdovanojimas:"
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "Tu pasiekei <font color='#E9E2BF'>%(tier)s</font> Fronto linijos progresijos lygį."
+
+msgid "epicBattles/levelUp/title"
+msgstr "Sveikiname!"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "Fronto linija nepasiekiama. Sekite naujienas žaidimo puslapyje."
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "Klaida pasirenkant apdovanojimus. Pabandykite dar kartą."
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "Gavote %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "Gavote įrangos instrukcijų: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "Gauta eksperimentinė įranga: %(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "Fronto sezonas baigėsi.<br/>Visi apdovanojimai, kurių nepasirinkote sezono metu, buvo suteikti jums:"
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "Fronto linija"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "Negalima persodinti įgulos nario: tanke unikali nuolatinė įgula."
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "Įvyko klaida perkeliant įgulos narį. Netinkama mašina."
+
+msgid "equip_tankman/not_enough_space"
+msgstr "Nepavyko nusiųsti įgulos nario į Kareivines. Kareivinėse trūksta vietos."
+
+msgid "equip_tankman/server_error"
+msgstr "Įvyko klaida perkeliant įgulos narį. Pabandykite vėliau."
+
+msgid "equip_tankman/success"
+msgstr "Įgulos narys perkeltas į %(vehName)s."
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "Įvyko klaida perkeliant įgulos narį. Mašina užblokuota."
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "Įvyko klaida perkeliant įgulos narį. Sutaisykite mašiną."
+
+msgid "exchange/not_enough_gold"
+msgstr "Neužtenka aukso keitimui."
+
+msgid "exchange/server_error"
+msgstr "Įvyko klaida konvertuojant %(gold)s aukso. Pabandykite vėliau."
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "Patirties %(xp)s keitimui nepakanka aukso."
+
+msgid "exchangeXP/server_error"
+msgstr "Įvyko klaida konvertuojant %(xp)s patirtį. Pabandykite vėliau."
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "filling_untrained_perks/server_error"
+msgstr "Negalima ištreniruoti naujų įgūdžių.\nServeris neatsako. Pabandykite vėliau."
+
+msgid "filling_untrained_perks/success"
+msgstr "Įgulos nariams ištreniruoti nauji įgūdžiai."
+
+msgid "fortification/addOrder"
+msgstr "%(count)s rezervo paruošimas prasidėjo. Liko laiko: %(time)s."
+
+msgid "fortification/buildingProcess"
+msgstr "Pastato %(buildingName)s statybos prasidėjo. Transportuokite reikalingą kiekį pramoninių išteklių, kad užtikrintumėte nepertraukiamą statymą."
+
+msgid "fortification/created"
+msgstr "Sveikiname!\nTvirtovė sėkmingai pastatyta."
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "Tvirtovės gynyba bus išjungta po 48 valandų. Per šį laiką, jūs galite gynybą vėl įjungti Tvirtovės nustatymuose."
+
+msgid "fortification/defenceHourSet"
+msgstr "Gynybos nustatymai bus pakeisti po 14 dienų. Naujas gynybos periodas: %(defenceHour)s."
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "Paliaubų dieną įsigalios po 14 dienų. Nauja paliaubų diena nenustatyta."
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "Paliaubų dieną įsigalios po 14 dienų. Nauja paliaubų diena — %(offDay)s."
+
+msgid "fortification/demountBuilding"
+msgstr "Statinys %(buildingName)s sunaikintas."
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "Veiksmas negalimas. Jūs jau prijungtas prie šio pastato."
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "Veiksmas negalimas. Tvirtovė jau sukurta."
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "Veiksmas negalimas. Klanas jau yra žymų sąraše."
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "Veiksmas negalimas. Jūs negalite planuoti daugiau nei vieną ataką prieš tą patį klaną."
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "Veiksmas negalimas. Informacija apie ataka nepakrauta."
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "Veiksmas negalimas. Turi praeiti bent savaitė nuo atakos prieš šį klaną."
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "Veiksmas negalimas. Kitas padalinys kontroliuoja placdarmą."
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "Veiksmas negalimas. Nesuplanuota ataka."
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "Veiksmas negalimas. Galima planuoti ataką prasidėsiančia bent po 15 minučių."
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "Neįmanoma suplanuoti puolimo pasirinktai dienai."
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "Veiksmas negalimas. Neteisingas klano ID."
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "Veiksmas negalimas. Neteisinga paliaubų data."
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "Veiksmas negalimas. Neteisinga data."
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "Veiksmas negalimas. Neteisingas Puolimo ID."
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "Veiksmas negalimas. Neteisinga gynybos periodo reikšmė."
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "Negalima atakuoti pasirinkto klano: tvirtovių lygiai skiriasi daugiau nei vienu. Pasirinkite kitą klaną."
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "Veiksmas negalimas. Neteisingas rezervų skaičius."
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "Veiksmas negalimas. Perduotas netinkamas išteklių kiekis."
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "Veiksmas negalimas. Neteisingas divizionas."
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "Veiksmas negalimas. Negauti Išpuolio duomenys."
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "Šiuo metu šiame serveryje mūšiai negalimi."
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "Veiksmas negalimas. Neteisinga neutraliteto trukmė."
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "Veiksmas negalimas. Neteisinga neutraliteto paskelbimo data."
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "Veiksmas negalimas. Suremontuokite valdymo centrą."
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "Veiksmas negalimas. Komandinis centras sunaikintas."
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "Veiksmas negalimas. Komandinis centras nepažeistas."
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "Veiksmas negalimas. Mūšis neegzistuoja."
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "Atsiprašome, kovos rezultatai nepasiekiami."
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "Negalima ištrinti. Tvirtovėje yra pastatų."
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "Veiksmas negalimas. Pastatas pažeistas."
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "Veiksmas negalimas. Pastatas nepastatytas."
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "Veiksmas negalimas. Negalima gauti klano duomenų."
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "Veiksmas negalimas. Neįmanoma rasti klano."
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "Veiksmas negalimas. Transportavimas negalimas."
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "Veiksmas negalimas. Negalima patobulinti pastato."
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "Operacija atšaukta. Serveris laikinai nepasiekiamas."
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "Veiksmas negalimas. Klanas paskelbė paliaubų dieną."
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "Veiksmas negalimas. Klanas yra neutralus."
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "Veiksmas begalimas. Negalima nustatyti gynybos periodo nurodytu laiku."
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "Veiksmas negalimas. Kitas padalinys kontroliuoja placdarmą."
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "Veiksmas negalimas. Nesuplanuota gynyba."
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "Veiksmas negalimas. Neteisingi duomenys."
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "Veiksmas negalimas. Gynyba neaktyvuota."
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "Tvirtovė laikinai nepasiekiama."
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "Veiksmas negalimas. Pastatas jau pastatytas."
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "Veiksmas negalimas. Palaukite kol pasibaigs dabartinė operacija."
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "Veiksmas negalimas. Tuo metu jūs puolate kitą klaną."
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "Nurodytu laiku negalima suplanuoti šio klano puolimo."
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "Klaida. Tvirtovė laikinai nepasiekiama."
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "Veiksmas negalimas. Tvirtovės lygis per žemas."
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "Veiksmas negalimas. Visų pastatų statyba pristabdyta."
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "Veiksmas negalimas. Jūs neturite teisių."
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "Veiksmas negalimas. Nepavyko prisijungti į formuotę."
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "Veiksmas laikinai negalimas."
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "Veiksmas negalimas. Nesinchronizuotas laikas."
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "Veiksmas negalimas. Jūs neprijungtas prie statinio."
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "Veiksmas negalimas. Žaidėjas nepriklauso klanui."
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "Veiksmas negalimas. Trūksta žaidėjų klane."
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "Veiksmas negalimas. Trūksta pramoninių išteklių sandėlyje."
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "Veiksmas negalimas. Klano nėra žymų sąraše."
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "Veiksmas negalimas. Pastatas nepastatytas."
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "Veiksmas negalimas. Jūs nepriklausote jokiam klanui."
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "Veiksmas negalimas. Šiuo metu rezervo aktyvuoti negalima."
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "Veiksmas negalimas. Netinkamas statinys."
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "Veiksmas negalimas. Rezervas nepasiekiamas arba nepasirinktas."
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "Veiksmas negalimas. Klaidingas rezervas."
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "Veiksmas negalimas. Klaidingas rezervas."
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "Veiksmas negalimas. Pastatas jau statomas."
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "Veiksmas negalimas. Ataka neegzistuoja."
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "Veiksmas negalimas. Rezervas jau naudojamas."
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "Veiksmas negalimas. Rezervas jau ruošiamas."
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "Veiksmas negalimas. Statybos jau pristabdytos."
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "Veiksmas negalimas. Nėra rezervo."
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "Veiksmas negalimas. Statybos nepristabdytos."
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "Veiksmas negalimas. Serveris atjungtas."
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "Veiksmas negalimas. Vieta jau užimta."
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "Veiksmas negalimas. Apsauga jau atjungta."
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "Veiksmas negalimas. Apsauga dar neatjungta."
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "Veiksmas negalimas. Apmokymai nebaigti."
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "Veiksmas negalimas. Sandėlis pilnas."
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "Veiksmas negalimas. Šiai dienai jau suplanuota gynyba."
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "Pasiektas pažymėtų klanų limitas."
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "Veiksmas negalimas. Pasiektas paruošto rezervo limitas."
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "Veiksmas negalimas. Pastato garnizonas pilnas."
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "Veiksmas negalimas. Pasiektas Išpuolių limitas."
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "Veiksmas negalimas. Transportavimas laikinai negalimas."
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "Veiksmas negalimas. Pasiektas transportavimo limitas."
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "Veiksmas negalimas. Žaidėjas nepasiruošęs."
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "Veiksmas negalimas. Negalima sunaikinti valdymo centro."
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "Veiksmas negalimas. Neteisingas klanas."
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "Veiksmas negalimas. Neteisingas serveris."
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "Veiksmas negalimas. Negalima statyti šioje teritorijoje."
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "Jūs esate prijungtas prie %(buildingName)s."
+
+msgid "fortification/fortBattleFinished"
+msgstr "Puolimas sustabdytas dėl serverio techninių problemų."
+
+msgid "fortification/modernizationBuilding"
+msgstr "Patobulinimas sėkmingai užbaigtas. Statinio %(buildingName)s lygis pakilo iki %(buildingLevel)s."
+
+msgid "fortification/notification/turnedOff"
+msgstr "Tvirtovė laikinai nepasiekiama. Pabandykite dar kartą vėliau."
+
+msgid "fortification/notification/turnedOn"
+msgstr "Režimas Tvirtovė: mūšiai vėl pasiekiamas."
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "Aktyvuoti rezervą"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "Pastatyti pastatą"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "Pažymėti klaną"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "Pridėti rezervą"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "Pridėti žaidėjų į garnizoną"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "Vėl įjungti gynybos periodą"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "Gynybos periodo nustatymas"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "Paliaubų nustatymas"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "Serverio keitimas"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "Keisti nustatymus"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "Neutralumo nustatymas"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "Sukurti Tvirtovę"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "Sukurti padalinį"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "Pašalinti pastatą"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "Ištrinti Tvirtovę"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "Puolimo planavimas"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "Pašalinti pažymėtą klaną"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "Peržiūrėti klano informaciją"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "Peržiūrėti klanų informaciją"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "Padalinio duomenų gavimas"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "Išjungti gynybos periodą"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "Transportavimas"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "Statinio patobulinimas"
+
+msgid "fortification/transport"
+msgstr "Transportavimas pavyko. %(res)s pramoninių išteklių iš %(fromBuilding)s pervežta į %(toBuilding)s."
+
+msgid "fortification/vacationSet"
+msgstr "Tvirtovė laikosi neutralumo %(vacationPeriod)s."
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "Veiksmas negalimas."
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "Klaida treniruojant įgulos narį. Nepakanka laisvos patirties."
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "Klaida treniruojant įgulos narį. Narys neegzistuoja."
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "Klaida treniruojant įgulos narį. Pabandykite vėliau."
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "Klaida treniruojant įgulos narį. Pabandykite vėliau."
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "Negalima treniruoti įgulos nario su laisvąja patirtimi.\nPabandykite vėliau."
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "Įgulos narys ištreniruotas.\nIšleista laisvosios patirties: %(money)s."
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "Siekiant apsaugoti vaikus ir paauglius nuo priklausomybės žaidimui, galimybė pradėti mūšį bus užblokuota. Jūs būsite atjungti nuo serverio %(blockTime)s."
+
+msgid "gameSessionControl/korea/note"
+msgstr "Excessive video game playing may interfere with your daily life."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "Likęs žaidimo laikas: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "Baigėsi žaidimo laikas ir jūs negalite pradėti naujo mūšio. Jūs būsite atjungti nuo serverio %s."
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "Žaidimo trukmė: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "Iki vidurnakčio liko: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "Baigėsi žaidimo laikas ir jūs negalite pradėti naujo mūšio. Jūs būsite atjungti nuo serverio už %(kickTime)s."
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "Žaidimo laiko limitas tavo paskyrai nebegalioja"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "Tėvų kontrolės nustatymai pakeisti."
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "Tu būsi atjungtas nuo serverio už %(timeLimit)s."
+
+msgid "graficsOptionsFail"
+msgstr "Šie grafikos parametrai negalimi: %s. Nesuderinama vaizdo plokštė."
+
+msgid "graficsPresetFail"
+msgstr "Grafikos kokybės nustatymai netinkami, nes vaizdo plokštė yra nesuderinama."
+
+msgid "igr/customization/begin"
+msgstr "Nemokami kamufliažai, užrašai ir emblemos galimi %(igrIcon)s."
+
+msgid "igr/customization/end"
+msgstr "%(igrIcon)s baigėsi. Nemokami kamufliažai, užrašai ir emblemos bus pašalinti nuo jūsų technikos."
+
+msgid "info/noAvailable"
+msgstr "Detalesnė informacija nepasiekiama."
+
+msgid "install_component"
+msgstr "%s \"%s\" įmontuota į mašiną."
+
+msgid "install_vehicle_broken"
+msgstr "Mašina sugadinta. Neįmanoma įmontuoti %s \"%s\". Sutaisykite mašiną ir bandykite dar kartą."
+
+msgid "install_vehicle_locked"
+msgstr "Mašina užblokuota. Neįmanoma įmontuoti %s \"%s\"."
+
+msgid "inventory/item/already_exists"
+msgstr "Modulis %(typeString)s \"%(userString)s\" jau yra sandėlyje."
+
+msgid "inventory/item/equip_in_processing"
+msgstr "Modulio montavimo užklausa išsiųsta. Laukiama serverio atsako."
+
+msgid "inventory/item/not_found"
+msgstr "Modulis %(typeString)s \"%(userString)s\" nerastas sandėlyje."
+
+msgid "inventory/vehicle/already_exists"
+msgstr "Tankas %(userString)s jau yra sandėlyje."
+
+msgid "inventory/vehicle/not_found"
+msgstr "Tankas %(userString)s sandėlyje nerastas."
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "Kvietimas legionieriui %(name)s negali būti išsiųstas."
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "Kvietimas žaidėjui %(name)s negali būti išsiųstas: neteisingas klanas."
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "Serviso klaida \"%(vehName)s\". Nepavyko papildyti ekipuotės. Bandykite vėliau."
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "Serviso klaida \"%(vehName)s\". Nepavyko papildyti ekipuotės. Bandykite vėliau."
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "Serviso klaida \"%(vehName)s\". Nepavyko papildyti ekipuotės. Bandykite vėliau."
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "Serviso klaida \"%(vehName)s\". Nepavyko papildyti šovinių. Bandykite vėliau."
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "Serviso klaida \"%(vehName)s\". Nepavyko papildyti šovinių. Maksimalus kiekis šovinių jau pakrautas."
+
+msgid "layout_apply/Component is not in shop"
+msgstr "Serviso klaida \"%(vehName)s\". Nepavyko papildyti ekipuotės. Bandykite vėliau."
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "Serviso klaida \"%(vehName)s\". Neužtenka kreditų šovinių pirkimui. Bandykite vėliau."
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "Serviso klaida \"%(vehName)s\". Neužtenka bonų šovinių pirkimui."
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "Serviso klaida \"%(vehName)s\". Neužtenka aukso šovinių pirkimui. Bandykite vėliau."
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "Serviso klaida \"%(vehName)s\". Nepavyko papildyti ekipuotės. Bandykite vėliau."
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "Serviso klaida \"%(vehName)s\". Netinkama mašina."
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "Serviso klaida \"%(vehName)s\". Neužtenka kreditų šovinių pirkimui."
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "Serviso klaida \"%(vehName)s\". Neužtenka aukso šovinių pirkimui."
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "Serviso klaida \"%(vehName)s\". Mašina užblokuota."
+
+msgid "layout_apply/error"
+msgstr "Serviso klaida \"%(vehName)s\". Pabandykite vėliau."
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "Serviso klaida \"%(vehName)s\". Netinkama mašina."
+
+msgid "layout_apply/success_money_spent"
+msgstr "Viso šoviniams išleista %(money)s."
+
+msgid "layout_apply/vehicle_locked"
+msgstr "Serviso klaida \"%(vehName)s\". Mašina užblokuota."
+
+msgid "layout_apply/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "limitedUI/switchOff"
+msgstr "Laipsniškas paslėptų sąsajos elementų rodymas laikinai išjungtas."
+
+msgid "limitedUI/switchOn"
+msgstr "Laipsniškas paslėptų sąsajos elementų rodymas iš vėl įjungtas. Galite išjungti nustatymuose."
+
+msgid "locked_vehicle_error"
+msgstr "Ši funkcija negalima su iš anksto paruoštomis mašinoms."
+
+msgid "login_to_other_game_unknown"
+msgstr "aktyvi žaidimo sesija nutraukta. Jūsų Wargaming.net&nbsp;ID buvo panaudotas jungiantis į kitą žaidimą"
+
+msgid "login_to_other_game_web"
+msgstr "dabartinė žaidimo sesija nutraukta. Jūs buvote atjungtas nuo serverio per žaidimo portalą."
+
+msgid "login_to_other_game_wot"
+msgstr "aktyvi žaidimo sesija nutraukta. Jūsų Wargaming.net&nbsp;ID buvo panaudotas jungiantis į World&nbsp;of&nbsp;Tanks"
+
+msgid "login_to_other_game_wotb"
+msgstr "aktyvi žaidimo sesija nutraukta. Jūsų Wargaming.net&nbsp;ID buvo panaudotas jungiantis į World&nbsp;of&nbsp;Tanks&nbsp;Blitz"
+
+msgid "login_to_other_game_wotg"
+msgstr "aktyvi žaidimo sesija nutraukta. Jūsų Wargaming.net&nbsp;ID buvo panaudotas jungiantis į World&nbsp;of&nbsp;Tanks&nbsp;Generals"
+
+msgid "login_to_other_game_wowp"
+msgstr "aktyvi žaidimo sesija nutraukta. Jūsų Wargaming.net&nbsp;ID buvo panaudotas jungiantis į World&nbsp;of&nbsp;Warplanes"
+
+msgid "login_to_other_game_wows"
+msgstr "aktyvi žaidimo sesija nutraukta. Jūsų Wargaming.net&nbsp;ID buvo panaudotas jungiantis į World&nbsp;of&nbsp;Warships"
+
+msgid "lootboxes/open/server_error"
+msgstr "Nepavyko gauti dovanos: serverio klaida."
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "Klaida gaunant dovaną. Prašome palaukti, kol baigsis ankstesnė operacija."
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "Veiksmas laikinai negalimas. Pabandykite vėliau."
+
+msgid "mapbox/notification/primeTime"
+msgstr "Žvalgybinė misija nepasiekiama iki paliaubų pabaigos."
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "Paliaubos"
+
+msgid "maps_black_list/select/server_error"
+msgstr "Serverio klaida"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "Veiksmas negalimas. Palaukite kol pasibaigs dabartinė operacija."
+
+msgid "maps_black_list/select/success"
+msgstr "Žemėlapis %(mapName)s buvo išimtas iš Atsitiktinių mūšių. Iki kol galėsite pakeisti savo pasirinkimą liko %(time)s."
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "Žemėlapis %(mapName)s buvo išimtas iš Atsitiktinių mūšių. Iki kol galėsite pakeisti savo pasirinkimą liko %(time)s, arba galite išimti papildomą žemėlapį su WoT Premium paskyra ar įsigiję WoT Plus prenumeratą."
+
+msgid "maps_black_list/select/success/premium"
+msgstr "Žemėlapis %(mapName)s buvo išimtas iš Atsitiktinių mūšių. Iki kol galėsite pakeisti savo pasirinkimą liko %(time)s, arba įsigiję WoT Plus prenumeratą."
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "Žemėlapis %(mapName)s buvo išimtas iš Atsitiktinių mūšių. Iki kol galėsite pakeisti savo pasirinkimą liko %(time)s, arba galite išimti papildomą žemėlapį su WoT Premium paskyra."
+
+msgid "maps_black_list/switch_off/body"
+msgstr "Šis funkcionalumas laikinai nepasiekiamas dėl techninių priežasčių.\nAtsiprašome už nepatogumus."
+
+msgid "maps_black_list/switch_off/title"
+msgstr "Žemėlapių išėmimas laikinai neveikia"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "Techninės problemos pašalintos. Atsiprašome už nepatogumus."
+
+msgid "maps_black_list/switch_on/title"
+msgstr "Žemėlapių išėmimas vėl veikia"
+
+msgid "maps_training/switch/title"
+msgstr "Topografija"
+
+msgid "maps_training/switch_off/body"
+msgstr "Šis režimas išjungtas."
+
+msgid "maps_training/switch_on/body"
+msgstr "Šis režimas įjungtas."
+
+msgid "memberRosterChangedMain"
+msgstr "%s pervedė %s į pagrindinę komandą."
+
+msgid "memberRosterChangedSecond"
+msgstr "%s pervedė %s į atsarginę komandą."
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "Nepakanka operatyvinės atminties. Perkraukite žaidimą."
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "Nepakanka atminties. Žema tekstūrų kokybė."
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "Nepakanka atminties. Vidutinė tekstūrų kokybė."
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "Trūksta atminties. Tekstūrų kokybė sumažinta. Perkraukite žaidimą."
+
+msgid "missingEvents/button"
+msgstr "Atidaryti"
+
+msgid "missingEvents/header"
+msgstr "Renginiai"
+
+msgid "missingEvents/text"
+msgstr "Svarbūs renginiai ,kuriuos praleidote: "
+
+msgid "module_apply/error_is_current"
+msgstr "Modulis %(kind)s \"%(name)s\" jau sumontuotas."
+
+msgid "module_apply/error_need_gun"
+msgstr "Nepavyko sumontuoti %(kind)s \"%(name)s\" mašinoje su dabartiniu pabūklu."
+
+msgid "module_apply/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" negalima naudoti su dabartiniu bokšteliu. Pakeiskite bokštelį."
+
+msgid "module_apply/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" nesumontuota. Sandėlyje nėra suderinamo pabūklo."
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" negalima naudoti su dabartiniu bokšteliu. Pakeiskite bokštelį."
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" netinka šiai mašinai."
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "Modulis %(kind)s \"%(name)s\" nesuderinamas su ekipuote \"%s\"."
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" yra netinkamo tipo."
+
+msgid "module_apply/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" yra netinkamos nacijos."
+
+msgid "module_apply/incompatibleEqs"
+msgstr "Ekipuotė \"%(items)s\" perkelta į Sandėlį, nes nesuderinama su uždėtu moduliu."
+
+msgid "module_apply/invalid_vehicle"
+msgstr "Netinkama mašina. Nepavyko sumontuoti modulio %(kind)s \"%(name)s\"."
+
+msgid "module_apply/server_error"
+msgstr "Serverio klaida montuojant modulį %(kind)s \"%(name)s\". Pabandykite vėliau."
+
+msgid "module_apply/success"
+msgstr "%(kind)s \"%(name)s\" sumontuota mašinoje."
+
+msgid "module_apply/success_gun_change"
+msgstr "%(kind)s \"%(name)s\" sumontuotas mašinoje su pabūklu \"%(gun)s\"."
+
+msgid "module_apply/vehicle_locked"
+msgstr "Mašina užblokuota, negalima sumontuoti modulio %(kind)s \"%(name)s\"."
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "Nepavyko sumontuoti modulio %(kind)s \"%(name)s\", nes mašina pažeista. Suremontuokite ir pabandykite vėl."
+
+msgid "module_buy/error_is_current"
+msgstr "Modulis %(kind)s \"%(name)s\" jau sumontuotas."
+
+msgid "module_buy/error_need_gun"
+msgstr "Nepavyko sumontuoti %(kind)s \"%(name)s\" mašinoje su dabartiniu pabūklu."
+
+msgid "module_buy/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" negalima naudoti su dabartiniu bokšteliu. Pakeiskite bokštelį."
+
+msgid "module_buy/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" nesumontuota. Sandėlyje nėra suderinamo pabūklo."
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" netinka su šiuo bokšteliu. Pakeiskite bokštelį."
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" netinka šiai mašinai."
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "Modulis %(kind)s \"%(name)s\" nesuderinamas su ekipuote \"%s\"."
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" yra netinkamo tipo."
+
+msgid "module_buy/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" yra netinkamos nacijos."
+
+msgid "module_buy/invalid_module"
+msgstr "Negalima nupirkti %(kind)s \"%(name)s\". Netinkamas modulis."
+
+msgid "module_buy/invalid_vehicle"
+msgstr "Netinkama mašina. Negalima nupirkti ir sumontuoti %(kind)s \"%(name)s\"."
+
+msgid "module_buy/not_enough_credits"
+msgstr "Negalima nupirkti %(kind)s \"%(name)s\". Nepakanka kreditų."
+
+msgid "module_buy/not_enough_gold"
+msgstr "Negalima nupirkti %(kind)s \"%(name)s\". Trūksta aukso."
+
+msgid "module_buy/server_error"
+msgstr "Negalima nupirkti %(kind)s \"%(name)s\". Bandykite vėliau."
+
+msgid "module_buy/server_error_centerDown"
+msgstr "Negalima nupirkti %(kind)s \"%(name)s\". Serveris laikinai nepasiekiamas."
+
+msgid "module_buy/success"
+msgstr "Modulis %(kind)s \"%(name)s\" sėkmingai nupirktas (%(count)s vnt.). Išleista %(money)s."
+
+msgid "module_buy/vehicle_locked"
+msgstr "Mašina užblokuota. Negalima nupirkti ir sumontuoti %(kind)s \"%(name)s\"."
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "Negalima nupirkti ir sumontuoti %(kind)s \"%(name)s\". Suremontuokite mašiną ir pabandykite vėl."
+
+msgid "module_buy/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "module_sell/invalid_module"
+msgstr "Parduoti nepavyko %(kind)s \"%(name)s\". Netinkamas modulis."
+
+msgid "module_sell/server_error"
+msgstr "Parduoti nepavyko %(kind)s \"%(name)s\". Bandykite vėliau."
+
+msgid "module_sell/success"
+msgstr "Modulis %(kind)s \"%(name)s\" (%(count)s vnt.). Gauta %(money)s."
+
+msgid "multipleSelling/success"
+msgstr "Gauta %(money)s"
+
+msgid "nation_change/FAILED"
+msgstr "Klaida keičiant konfigūraciją"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "Klaida keičiant konfigūraciją"
+
+msgid "nation_change/error"
+msgstr "Klaida keičiant konfigūraciją"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: pakeista nacionalinė konfigūracija"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "Kasdienės misijos atnaujintos dėl techninių priežasčių. Misijos progresas išsaugotas."
+
+msgid "notrecruit_window/success"
+msgstr "Įgulos narys priimtas.\n%(colorTagOpen)s%(rank)s %(fullName)s\n(%(role)s, %(vehicleName)s)%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "Veiksmas laikinai negalimas. Pabandykite vėliau."
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "Klaida gaunant dovaną: serverio klaida"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "Klaida gaunant dovaną: Kai kurie prizų perdavimas užtruko — pabandykite pasiimti juos vėliau."
+
+msgid "offers/switch_off/body"
+msgstr "Namų fronto atsargų paslauga laikinai nepasiekiama."
+
+msgid "offers/unavailable_many"
+msgstr "Nepasiekiamos akcijos: %(count)s vnt."
+
+msgid "offers/unavailable_one"
+msgstr "Akcija nepasiekiama."
+
+msgid "optionalDevices_apply/error"
+msgstr "Įrangos konfigūravimo klaida. Pabandykite vėliau."
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "Įrangos konfigūravimo klaida. Trūksta lėšų pirkimui."
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po to, kai WG Wallet veikimas bus atstatytas."
+
+msgid "optionalDevices_remove/error"
+msgstr "Įrangos konfigūravimo klaida. Pabandykite vėliau."
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "Privačios žinutės su žaidėjais, kurie nėra jūsų kontaktų sąraše, jums negalimos."
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "Privačios žinutės jums negalimos."
+
+msgid "parentControl/linkText"
+msgstr "Nurodykite datą"
+
+msgid "parentControl/mainText"
+msgstr "Nurodykite gimimo datą."
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "Privačių žinučių su žaidėjais, kurie nėra jūsų kontaktų sąraše, neleidžia tėvų kontrolė."
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "Privačių žinučių neleidžia tėvų kontrolė."
+
+msgid "parentControl/title"
+msgstr "Amžiaus patvirtinimas"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "Perkėlimas negalimas. Nepavyko nustatyti serverio."
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "Gautas apdovanojimas:"
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "Eiti į operaciją"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "Misija įvykdyta"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "Toliau vykdyti šią misiją galėsite pakeitę mašiną."
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "Operacija: %(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "Įvykdyta: %(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "Kampanija %(campaignName)s įvykdyta su pagyrimu!"
+
+msgid "personalMission/operationComplete/title"
+msgstr "Operacija %(operationName)s įvykdyta!"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "Operacija %(operationName)s įvykdyta su pagyrimu!"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "Kampanijos laikinai nepasiekiamos dėl profilaktinių darbų."
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "Kampanijos vėl pasiekiamos. Atsiprašome už nepatogumus."
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "Kampanija %(campaignName)s laikinai nepasiekiama dėl techninės profilaktikos."
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "Kampanija %(campaignName)s vėl pasiekiama. Atsiprašome už nepatogumus."
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "Operacijos %(operationName)s misija %(missionName)s laikinai nepasiekiama dėl techninės profilaktikos."
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "Operacijos %(operationName)s misija %(missionName)s vėl pasiekiama. Mes atsiprašome už nesklandumus."
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "Kampanijos %(campaignName)s operacija %(operationName)s laikinai nepasiekiama dėl techninės profilaktikos."
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "Kampanijos %(campaignName)s operacija %(operationName)s vėl pasiekiama. Atsiprašome už nepatogumus."
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "Nepavyko pakeisti kampanijos. Pabandykite vėliau."
+
+msgid "personalMissions/badge"
+msgstr "Gautas ženkliukas %(name)s."
+
+msgid "personalMissions/camouflageGiven"
+msgstr "Gautas unikalus kamufliažas, skirtas %(vehicleName)s."
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "Unikalus kamufliažas, skirtas %(vehicleName)s pasiekiamas visos mašinoms, priklausančioms nacijai: %(nation)s."
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "Visi operacijos pasiekimai išsaugoti. Kampanijas pratęsti galite bet kada."
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "Kampanijos %(campaignName1)s ir %(campaignName2)s pristabdytos"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "Pristabdytos operacijos ir jų misijos pratęstos."
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "Kampanijos %(campaignName1)s ir %(campaignName2)s pratęstos"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "Visi operacijos pasiekimai išsaugoti. Kampaniją pratęsti galite bet kada."
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "Kampanija %(campaignName)s sustabdyta"
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "Pristabdytos operacijos pratęstos."
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "Kampanija %(campaignName)s pratęsta"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "Sėkmingai sumontuota detalė %(detailName)s."
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "Operacija: %(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "Nepavyko anuliuoti misijos. Pabandykite vėliau."
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "Veiksmas negalima. Misijos laikinai išjungtos."
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "Šiuo metu negalima pratęsti misijos. Pabandykite vėliau."
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Šiuo metu negalima pratęsti misijos. Palaukite kol šio tipo mašina nebebus mūšyje."
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Šiuo metu negalima pratęsti misijos. Palaukite mašinų grupė nebebus mūšyje."
+
+msgid "personalMissions/discard/success"
+msgstr "Misija %(quest)s sėkmingai anuliuota."
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "Gauta įsakymo blankų: %(count)s"
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "Sugrąžinta įsakymo blankų: %(count)s\nJie vėl gali būti panaudoti."
+
+msgid "personalMissions/operationActivation/body"
+msgstr "Aktyvuota pirmoji kiekvienos serijos misija."
+
+msgid "personalMissions/operationActivation/title"
+msgstr "Operacija %(operationName)s aktyvuota!"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "Gautas apdovanojimas: \n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "Operacija %(name)s įvykdyta!"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "Visi misijos pasiekimai išsaugoti. Operaciją pratęsti galite bet kada."
+
+msgid "personalMissions/operationPaused/title"
+msgstr "Operacija %(operationName)s pristabdyta"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "Pristabdytos misijos pratęstos."
+
+msgid "personalMissions/operationResumed/title"
+msgstr "Operacija %(operationName)s pratęsta"
+
+msgid "personalMissions/pause/server_error"
+msgstr "Misija nebuvo pristabdyta. Pabandykite vėliau."
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "Veiksmas negalima. Misijos laikinai išjungtos."
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "Šiuo metu negalima pristabdyti misijos. Pabandykite vėliau."
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Šiuo metu negalima pristabdyti misijos. Palaukite kol šio tipo mašina nebebus mūšyje."
+
+msgid "personalMissions/pause/success_pause"
+msgstr "Misija %(quest)s sėkmingai pristabdyta."
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "Misijos %(quest)s vykdymas sėkmingai pratęstas."
+
+msgid "personalMissions/pawn/server_error"
+msgstr "Klaida. Šiuo metu negalima užstatyti įsakymo blanko."
+
+msgid "personalMissions/pawn/success"
+msgstr "Misijoje %(questName)s užstatyti įsakymo blankai: %(count)s"
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "Nepavyko gauti apdovanojimų. Pabandykite vėliau."
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "Sėkmingai sumontuota detalė %(detail_name)s."
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "Nepavyko gauti apdovanojimo. Pabandykite vėliau."
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "Veiksmas negalima. Misijos laikinai išjungtos."
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "Nepavyko gauti apdovanojimo. Apdovanojimas nepasiekiamas."
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "Nepavyko gauti apdovanojimo. Apdovanojimas nepasiekiamas."
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "Nepavyko gauti apdovanojimo. Neteisingi duomenys."
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "Nepavyko gauti apdovanojimo. Pabandykite vėliau."
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "Veiksmas negalima. Misijos laikinai išjungtos."
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "Nepavyko gauti apdovanojimo. Apdovanojimas nepasiekiamas."
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "Nepavyko gauti apdovanojimo. Apdovanojimas nepasiekiamas."
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "Nepavyko gauti apdovanojimo. Neteisingi duomenys."
+
+msgid "personalMissions/select/server_error"
+msgstr "Nepasirinktos misijos: %(questNames)s. Pabandykite vėliau."
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "Veiksmas negalima. Misijos laikinai išjungtos."
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "Nepasirinktos misijos: %(questNames)s. Pabandykite vėliau."
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Dėmesio! Norėdami pakeisti misiją, palaukite kol iš mūšio grįš aktyvią misiją vykdančios mašinos."
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "Misijos nepasirinktos: %(questNames)s. Įvykdykite prieš tai esančią operaciją."
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "Nepasirinktos misijos: %(questNames)s. Trūksta vietos."
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "Misijos nepasirinktos: %(questNames)s. Pasiimkite apdovanojimą."
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "Nepasirinktos misijos: %(questNames)s. Misija nepasiekiama."
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "Nepasirinktos misijos: %(questNames)s. Misija jau įvykdyta."
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "Misija nepasirinkta: %(questNames)s."
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "Misijos nepasirinktos: %(questNames)s. Šiame rinkinyje misija jau pasirinkta."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "Nepasirinktos misijos: %(questNames)s. Neteisingi duomenys."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "Nepasirinktos misijos: %(questNames)s. Neteisingi duomenys."
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Laikinai negalima pasirinkti misijos. Sulaukite mašinų grupės grįžimo iš mūšio."
+
+msgid "personalMissions/select/success"
+msgstr "Misijos sėkmingai pasirinktos. Šiuo metu pasirinktos misijos: %(questNames)s."
+
+msgid "personalMissions/tankmenGain"
+msgstr "Pridėta: mergina tankistė"
+
+msgid "personalMissions30/select/server_error"
+msgstr "Nepavyko aktyvuoti operacijos. Pabandykite vėliau."
+
+msgid "piggyBank/piggyBankFull"
+msgstr "Kreditų saugykla pilna, ji atsidarys po %(timeValue)s"
+
+msgid "piggybank/switch_off/body"
+msgstr "Šis funkcionalumas laikinai nepasiekiamas dėl techninių priežasčių.\nAtsiprašome už nepatogumus."
+
+msgid "piggybank/switch_off/title"
+msgstr "Kreditų saugykla laikinai nepasiekiama"
+
+msgid "piggybank/switch_on/body"
+msgstr "Techninės problemos pašalintos. Atsiprašome už nepatogumus."
+
+msgid "piggybank/switch_on/title"
+msgstr "Kreditų saugykla vėl pasiekiama"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "Šis funkcionalumas laikinai nepasiekiamas dėl techninių priežasčių.\nAtsiprašome už nepatogumus."
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "Žaidėjo prenumeratos daugiau nebepasiekiamos!"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "Techninės problemos pašalintos. Atsiprašome už nepatogumus."
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "Žaidėjo prenumeratos dabar pasiekiamos"
+
+msgid "post_progression/server_error"
+msgstr "Prizai už įgulos postprogresiją\njau gauti"
+
+msgid "post_progression/success"
+msgstr "Data: %(at)s\nĮtraukta į sandėlį: %(book_name)s (x%(amount)s).\nPostprogresijos patirtis iškeista."
+
+msgid "post_progression/success/title"
+msgstr "Kvitas"
+
+msgid "prebattle/hasLockedState"
+msgstr "Pakvietimo priimti negalite nes jau laukiate mūšio. Išeikite iš laukiamojo arba baikite mūšį ir bandykite dar kartą."
+
+msgid "prebattle/invites/sendInvite"
+msgstr "Pakvietimas žaidėjui išsiųstas."
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "Pakvietimas žaidėjui %(name)s išsiųstas."
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "Klaida ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "Klaida AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "Klaida BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "Klaida CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "Vadas išėjo iš komandos."
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "Komanda buvo panaikinta."
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "Režimas laikinai nepasiekiamas"
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "Demobilizacija."
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "Klaida PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "Baigėsi skirtas laikas."
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "Nežinoma klaida."
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "Klaida VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "Jūs buvote pašalintas iš būrio."
+
+msgid "prebattle/kick/type/unknown"
+msgstr "Jūs buvote pašalintas iš komandos."
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "Jums reikia turėti bent 3 šiam režimui tinkamas mašinas. Daugiau informacijos rasite skiltyje Apie Prasiveržimą."
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "Auto paieška"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "Pakeisti balso pokalbius"
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "Diviziono keitimas"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "Režimo pasirinkimas"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "Subrežimo perjungimas"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "Režimo pasirinkimas"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "Pakeisti nustatymus"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "Redaguoti komandą"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "Stebėtojo režimo keitimas"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "Užrakinti vietą"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "Paieška"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "Pakviesti į komandą"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "Patvirtinti pasiruošimą"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "Patvirtinti komandos pasiruošimą"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "Technikos pasirinkimas"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "Pakeisti komandas"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "Paieška"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "Į mūšį leidžiamos komandos, kuriose tankų ne mažiau nei: %(minCount)d."
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "Į mūšį leidžiamos komandos, kurių tankų suminis lygis nuo %(minTotalLevel)d iki %(maxTotalLevel)d."
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "Mūšiui tinka tik tankai nuo %(minLevel)d iki %(maxLevel)d lygio."
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "Netinkama mašina šiam mūšiui."
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "Visi komandos nariai negali būti stebėtojais."
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "Pasirinkta mašina tinkama tik režimui Fronto linija."
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "Pasirinkta mašina tinkama tik režimui \"Siautėjimas\"."
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "Amunicija ir ekipuotė netinkami šiam mūšiui."
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "Netinkamo lygio tankas šiam mūšiui. Minimalus lygis: %s. Maksimalus lygis: %s."
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "Netinkamas tanko tipas šiam mūšiui. Leidžiami tipai: %s."
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "Pasirinktoje mašinoje sumontuoti komponentai netinkami šiam mūšiui."
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "Netinkamo lygio mašina šiam mūšiui. Minimalus lygis: %s. Maksimalus lygis: %s."
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "Šios nacijos tankai netinka šiam mūšiui. Rinkitės iš: %s."
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "Netinkama mašina"
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "Mašinoje esanti amunicija netinkama šiam mūšiui."
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "Netinkama mašina"
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "Netinkama mašina šiam mūšiui."
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "Pasirinkta mašina neparuošta."
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "Veiksmas negalimas. Pirmiausia pasirinkite norimą techniką."
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "Nepavyko prisijungti prie komandos."
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "Netinkama mašina"
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "Pasirinkta mašina bus atrakinta mūšio metu."
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "Nepavyko surasti priešininkų šiai komandai. Pabandykite performuoti komandą."
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "Nepavyko surasti priešininkų šiam būriui. Perorganizuokite savo komandą."
+
+msgid "premium/buyingSuccess"
+msgstr "Premium paskyra nupirkta %(period)d d. Išleista %(money)s."
+
+msgid "premium/continueSuccess"
+msgstr "Premium paskyra pratęsta %(period)d d. Išleista %(money)s."
+
+msgid "premium/not_enough_gold"
+msgstr "Nepakanka aukso Premium paskyrai %(period)d dienoms."
+
+msgid "premium/post_battle_premium"
+msgstr "Premium paskyros dėka, jūs gaunate %(xpDiff)d patirties ir %(creditDiff)d kreditų."
+
+msgid "premium/server_error"
+msgstr "Neužtenka aukso nusipirkti Premium paskyrą %(period)d dienoms. Bandykite vėliau."
+
+msgid "premium/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "Veiksmas negalimas. Pabandykite vėliau."
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "Veiksmas negalimas. Palaukite kol pasibaigs dabartinė operacija."
+
+msgid "premium_quests/switch_off/body"
+msgstr "Šis funkcionalumas laikinai nepasiekiamas dėl techninių priežasčių.\nAtsiprašome už nepatogumus."
+
+msgid "premium_quests/switch_off/title"
+msgstr "Premium misijos laikinai nepasiekiamos"
+
+msgid "premium_quests/switch_on/body"
+msgstr "Techninės problemos pašalintos. Atsiprašome už nepatogumus."
+
+msgid "premium_quests/switch_on/title"
+msgstr "Premium misijos vėl pasiekiamos"
+
+msgid "progressiveReward/error"
+msgstr "Operacija laikinai negalima. Pabandykite vėliau."
+
+msgid "progressiveReward/switch_off"
+msgstr "Apdovanojimas už nuopelnus: ši funkcija laikinai išjungta. Atsiprašome už nepatogumus."
+
+msgid "progressiveReward/switch_on"
+msgstr "Apdovanojimai už nuopelnus vėl pasiekiami."
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "Misija nebegalioja. Detalus aprašymas nepasiekiamas."
+
+msgid "queue/isInQueue"
+msgstr "Operacija laikinai negalima. Pabandykite vėliau."
+
+msgid "rally/leaveDisabled"
+msgstr "Veiksmas negalimas.\nJūs negalite išeiti iš režimo. Jūs esate formuotės narys ir pasiruošęs mūšiui."
+
+msgid "ranked/notification/available"
+msgstr "Paliaubos baigėsi: Reitinguojami mūšiai vėl pasiekiami."
+
+msgid "ranked/notification/available/title"
+msgstr "Pasiekiami Reitinguojami mūšiai"
+
+msgid "ranked/notification/congratulations"
+msgstr "Sveikiname!"
+
+msgid "ranked/notification/notAvailable"
+msgstr "Reitinguojami mūšiai nepasiekiami. Sekite naujienas žaidimo portale."
+
+msgid "ranked/notification/notSet"
+msgstr "Režimas pasirinktame serveryje nepasiekiamas."
+
+msgid "ranked/notification/notSet/title"
+msgstr "Reitinguojami mūšiai nepasiekiami"
+
+msgid "ranked/notification/primeTime"
+msgstr "Reitinguojami mūšiai nepasiekiama iki paliaubų pabaigos."
+
+msgid "ranked/notification/primeTime/title"
+msgstr "Paliaubos"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "Jūs pasiekėte išskirtinius rezultatus Reitinguojamų mūšių 2020/2021 sezone ir užėmėte vietą tarp geriausių žaidėjų!"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "Sveikiname!"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "Jūs pasiekėte išskirtinius rezultatus Reitinguojamų mūšių 2020/2021 sezone ir užėmėte %(playerPosition)s vietą tarp geriausių žaidėjų!"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "Sveikiname!"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "Gautas ženkliukas:"
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "Gauti ženkliukai:"
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "Uždirbta kreditų:"
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "Gauta bonų:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "Gauta Jubiliejinių monetų:"
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "Gauta aukso:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "Pridėta pagerintos įrangos išsirinkimui: %(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "Gautas stilius:"
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "Gauti stiliai:"
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "Gauti rango žetonai: %(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "Wargaming Premium paskyros diena"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "Wargaming Premium paskyros dienos (x%(daysCount)s)"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "WoT Premium paskyros diena"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "WoT Premium paskyros dienos (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "Etapo %(number)s rezultatai"
+
+msgid "ranked/notifications/league"
+msgstr "Lyga: %(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "Auksinę"
+
+msgid "ranked/notifications/league2"
+msgstr "Sidabrinė"
+
+msgid "ranked/notifications/league3"
+msgstr "Bronzinę"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "Gauti Auksinės lygos rango žetonai: %(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "Maksimalus rangas: %(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s, %(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "Vieta reitinge: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "Jūs užbaigėte kvalifikaciją"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "Gauti sezono rango žetonai: %(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "Reitinguojamų mūšių sezono %(seasonNumber)s rezultatai"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "Jūs pasiekėte rangą %(rankName)s (%(divisionName)s)"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "Gautas Sprinterio ženklas. Apdovanojimai pagerinti."
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "Gautas Sprinterio ženklas"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "Negalima rekrutuoti naujo įgulos nario: tanke unikali nuolatinė įgula."
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "Nepavyko rekrutuoti įgulos nario. Paslauga laikinai neteikiama."
+
+msgid "recruit_window/financial_success"
+msgstr "Įgulos narys priimtas į %(vehName)s. Išleista kreditų: %(credits)s."
+
+msgid "recruit_window/financial_success_credits"
+msgstr "Įgulos narys priimtas į %(vehName)s.\nIšleista kreditų: %(price)s."
+
+msgid "recruit_window/financial_success_gold"
+msgstr "Įgulos narys priimtas į %(vehName)s.\nIšleista aukso: %(price)s."
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "Jūs išnaudojote nemokamų įgulos narių dienos limitą."
+
+msgid "recruit_window/not_enough_credits"
+msgstr "Klaida rekrūtuojant įgulos narį. Trūksta kreditų."
+
+msgid "recruit_window/not_enough_gold"
+msgstr "Klaida rekrūtuojant įgulos narį. Trūksta aukso."
+
+msgid "recruit_window/not_enough_space"
+msgstr "Klaida verbuojant įgulos narį. Nepakanka vietos kareivinėse. Atlaisvinkite arba nupirkite daugiau vietos."
+
+msgid "recruit_window/server_error"
+msgstr "Įgulos nario priimti nepavyko. Pabandykite vėliau."
+
+msgid "recruit_window/success"
+msgstr "Įgulos narys priimtas į %(vehName)s nemokamai."
+
+msgid "recruit_window/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "Negalima persodinti įgulos nario: tanke unikali nuolatinė įgula."
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "Klaida keičiant įgulos narį. Netinkama mašina."
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "Nepavyko nusiųsti įgulos nario į Kareivines. Kareivinėse trūksta vietos."
+
+msgid "reequip_tankman/server_error"
+msgstr "Įgulos nario pakeisti nepavyko. Pabandykite vėliau."
+
+msgid "reequip_tankman/success"
+msgstr "Įgulos narys pakeistas."
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "Klaida keičiant įgulos narį. Mašina užblokuota."
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "Klaida keičiant įgulos narį. Suremontuokite mašiną."
+
+msgid "remove_component"
+msgstr "%s \"%s\" išmontuotas iš mašinos."
+
+msgid "remove_vehicle_broken"
+msgstr "Mašina sugadinta. Neįmanoma išmontuoti %s \"%s\". Sutaisykite mašiną ir bandykite dar kartą."
+
+msgid "remove_vehicle_locked"
+msgstr "Mašina užblokuota. Neįmanoma išmontuoti %s \"%s\"."
+
+msgid "repair/credits_error"
+msgstr "Trūksta %s kreditų, kad galėtumėte suremontuoti tanką %s."
+
+msgid "repair/server_error"
+msgstr "Įvyko klaida bandant suremontuoti %s. Bandykite vėliau."
+
+msgid "repair/success"
+msgstr "%s suremontuota. Išleidote %s."
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "Negalima pakeisti įgulos narių asmeninių duomenų: tanke unikali nuolatinė įgula."
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "Nepavyko pakeisti įgulos nario dokumentų. Netinkama mašina."
+
+msgid "replace_tankman/not_enough_money"
+msgstr "Nepavyko pakeisti dokumentų. Nepakanka kreditų."
+
+msgid "replace_tankman/server_error"
+msgstr "Nepavyko pakeisti dokumentų. Bandykite vėliau."
+
+msgid "replace_tankman/success"
+msgstr "Sėkmingai pakeista išvaizda."
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "Nepavyko pakeisti įgulos nario dokumentų. Mašina užblokuota."
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "Nepavyko pakeisti įgulos nario dokumentų. Suremontuokite mašiną."
+
+msgid "request/isInCoolDown"
+msgstr "Operacija \"%(request)s\" užšaldyta %(coolDown)s s."
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "Negalima atstatyti įgūdžių.\nServeris neatsako. Pabandykite vėliau."
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "Nemokamai atstatyti visų\nįgulų įgūdžiai."
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "Klaida įdedant resursus. Pabandykite vėliau."
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "Resursų grąžinimo metu įvyko klaida. Pabandykite dar kartą."
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "Jūs dar turite susigrąžinamų mašinų. Eikite į sandėlį ir persiųskite norimas mašinas į garažą."
+
+msgid "restore_tankman/DISABLED"
+msgstr "Įgulos susigrąžinimas laikinai negalimas. Pabandykite vėliau."
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "Negalima sugrąžinti įgulos nario."
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "Trūksta aukso įgulos nario sugrąžinimui."
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "Negalima sugrąžinti įgulos nario. Baigėsi operacijai skirtas laikas."
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "Negalima sugrąžinti įgulos nario. Pabandykite vėliau."
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "Negalima sugrąžinti įgulos nario. Įgulos narių sugrąžinimas laikinai neveikia."
+
+msgid "restore_tankman/error"
+msgstr "%(tankman)s nebegrįš."
+
+msgid "restore_tankman/financial_success"
+msgstr "Įgulos narys sugrąžintas.\nIšleista kreditų: %(money)s."
+
+msgid "restore_tankman/not_enough_space"
+msgstr "Negalima sugrąžinti įgulos nario. Kareivinėse nėra laisvų gultų."
+
+msgid "restore_tankman/server_error"
+msgstr "Negalima sugrąžinti šio įgulos nario. Pabandykite vėliau."
+
+msgid "restore_tankman/success"
+msgstr "Įgulos narys sugrąžintas."
+
+msgid "retraining_change_tankman_role/success"
+msgstr "Įgulos nario kvalifikacija pakeista."
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "Negalima naujai treniruoti įgulos narių: tanke unikali nuolatinė įgula."
+
+msgid "retraining_crew/empty_list"
+msgstr "Klaida pertreniruojant įgulą. Nepasirinkti įgulos nariai."
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "Išleista kreditų: %(money)s."
+
+msgid "retraining_crew/financial_success_free"
+msgstr "Įgula pertreniruota dėl %(vehName)s nemokamai."
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "Išleista aukso: %(money)s."
+
+msgid "retraining_crew/invalid_operation"
+msgstr "Klaida pertreniruojant įgulą. Operacija negalima."
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "Klaida pertreniruojant įgulą. Netinkama mašina."
+
+msgid "retraining_crew/server_error"
+msgstr "Nepavyko pertreniruoti įgulos. Pabandykite vėliau."
+
+msgid "retraining_crew/success"
+msgstr "Įgula pertreniruota dėl %(vehName)s."
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "Klaida permokinant įgulą. Mašina užblokuota."
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "Klaida permokinant įgulą. Suremontuokite mašiną."
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "Negalima naujai treniruoti įgulos nario: tanke unikali nuolatinė įgula."
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "Išleista kreditų: %(money)s."
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "Įgulos narys pertreniruotas dėl %(vehName)s nemokamai."
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "Išleista aukso: %(money)s."
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "Klaida pertreniruojant įgulos narį. Operacija negalima."
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "Klaida pertreniruojant įgulos narį. Netinkama mašina."
+
+msgid "retraining_tankman/server_error"
+msgstr "Negalima pertreniruoti įgulos nario.\nPabandykite vėliau."
+
+msgid "retraining_tankman/success"
+msgstr "Įgulos narys pertreniruotas dėl %(vehName)s."
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "Nepavyko pertreniruoti įgulos nario. Mašina užblokuota."
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "Nepavyko pertreniruoti įgulos nario. Suremontuokite mašiną."
+
+msgid "return_crew/FORBIDDEN"
+msgstr "Negalima sugrąžinti įgulos: tanke unikali nuolatinė įgula."
+
+msgid "return_crew/invalid_vehicle"
+msgstr "Klaida sugrąžinant įgulą. Netinkama mašina."
+
+msgid "return_crew/not_enough_space"
+msgstr "Nepavyko nusiųsti įgulos į Kareivines. Kareivinėse trūksta vietos."
+
+msgid "return_crew/return_unavailable"
+msgstr "Kai kurių įgulos narių negalima sugrąžinti į šią mašiną."
+
+msgid "return_crew/server_error"
+msgstr "Nepavyko sugrąžinti įgulos. Pabandykite vėliau."
+
+msgid "return_crew/success"
+msgstr "Įgula sėkmingai perkelta."
+
+msgid "return_crew/vehicle_locked"
+msgstr "Klaida sugrąžinant įgulą. Mašina užblokuota."
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "Klaida sugrąžinant įgulą. Suremontuokite mašiną."
+
+msgid "rotation/lock"
+msgstr "Šios grupės yra užrakintos ir daugiau nepasiekiamos mūšiams: %(groupNum)s."
+
+msgid "rotation/unlock"
+msgstr "Šios grupės atrakintos ir dabar pasiekiamos mūšiams: %(groupNum)s."
+
+msgid "rotation/vehicleIsLocked"
+msgstr "Mašina užblokuota ir nepasiekiama mūšiams."
+
+msgid "royale/notification/congratulations"
+msgstr "Sveikiname!"
+
+msgid "royale/notification/primeTime"
+msgstr "Plieninio medžiotojo mūšiai nepasiekiami iki paliaubų pabaigos. Pasižiūrėkite tvarkaraštį kalendoriuje."
+
+msgid "royale/notification/primeTime/title"
+msgstr "Paliaubos"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "Pasiektas lygis: %(level)s"
+
+msgid "rts/notification/available"
+msgstr "Renginio Strategijos menas mūšiai vėl vyksta šiame serveryje."
+
+msgid "rts/notification/available/title"
+msgstr "Pasiekiami mūšiai"
+
+msgid "rts/notification/notAvailable"
+msgstr "Renginys Strategijos menas nepasiekiamas. Sekite naujienas žaidimo portale."
+
+msgid "rts/notification/notSet"
+msgstr "Renginio Strategijos menas mūšiai nepasiekiami pasirinktame serveryje."
+
+msgid "rts/notification/notSet/title"
+msgstr "Mūšiai nepasiekiami"
+
+msgid "rts/notification/primeTime"
+msgstr "Galioja paliaubos. Strategijos meno mūšiai laikinai nepasiekiami."
+
+msgid "rts/notification/primeTime/title"
+msgstr "Paliaubos"
+
+msgid "securityMessage/bad_email"
+msgstr "Jūsų e-paštas užregistruotas nepatikimame serveryje. Prašome, dėl saugumo, pasikeiskite savo pašto adresą. %(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "Pakeisti saugumo nustatymus"
+
+msgid "securityMessage/no_phone"
+msgstr "Dėl saugumo susiekite savo telefono numerį su paskyra. %(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "Slaptažodžio atstatymui, pasirinkite slaptą klausimą paskyros nustatymuose. %(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "Jūs nekeitėte slaptažodžio jau 30 dienų. Rekomenduojame dėl saugumo pasikeisti slaptažodį. %(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "Slaptažodis, kurį nurodėte paskyros kūrimo metu, yra nepakankamai saugus. Prašome pasikeisti slaptažodį. %(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "Mašina sugadinta, neįmanoma parduoti %s. Suremontuokite mašiną ir bandykite dar kartą."
+
+msgid "sell_vehicle_locked"
+msgstr "Mašina užblokuota. Neįmanoma parduoti %s."
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "Renginys Užsitarnautas apdovanojimas sugrįžo. Atsiprašome už nepatogumus."
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "Renginys Užsitarnautas apdovanojimas laikinai pristabdytas dėl profilaktikos."
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "Nepavyko gauti apdovanojimų. Operacija laikinai nepasiekiama."
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "Nepavyko gauti prizo. Kreipkitės į žaidėjų aptarnavimą."
+
+msgid "seniority_awards/selection_timeout"
+msgstr "Prizai už jūsų tarnavimo metus vėluoja. Pabandykite vėliau."
+
+msgid "serverInstallError"
+msgstr "Įvyko serverio klaida įmontuojant %s \"%s\" modulį. Pabandykite vėliau."
+
+msgid "serverRemoveError"
+msgstr "Įvyko klaida bandant išmontuoti modulį %s \"%s\". Pabandykite vėliau."
+
+msgid "server_shut_down"
+msgstr "Žaidimo serveris persikrauna."
+
+msgid "session_tracker_kick"
+msgstr "Su jūsų Wargaming.net&nbsp;ID prisijungta prie kito žaidimo. Dabartinė žaidimo sesija nutraukta."
+
+msgid "shell_buy/invalid_module"
+msgstr "Nupirkti nepavyko %(name)s. Netinkamas sviedinys."
+
+msgid "shell_buy/not_enough_credits"
+msgstr "Nupirkti nepavyko %(name)s. Nepakanka kreditų."
+
+msgid "shell_buy/not_enough_gold"
+msgstr "Nupirkti nepavyko %(name)s. Nepakanka aukso."
+
+msgid "shell_buy/server_error"
+msgstr "Nupirkti nepavyko %(name)s. Bandykite vėliau."
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "Nupirkti nepavyko %(name)s sviedinių. Serveris laikinai nepasiekiamas."
+
+msgid "shell_buy/success"
+msgstr "Sviediniai %(name)s sėkmingai nupirkti (%(count)s vnt.). Išleidote %(money)s."
+
+msgid "shell_buy/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "shell_sell/invalid_module"
+msgstr "Nepavyko parduoti \"%(name)s\". Netinkamas sviedinys."
+
+msgid "shell_sell/server_error"
+msgstr "Nepavyko parduoti \"%(name)s\". Bandykite vėliau."
+
+msgid "shell_sell/success"
+msgstr "Sviedinys \"%(name)s\" (%(count)s vnt.). Gauta %(money)s."
+
+msgid "shells_apply/error"
+msgstr "Amunicijos konfigūravimo klaida. Pabandykite vėliau."
+
+msgid "shells_apply/not_enough_money"
+msgstr "Amunicijos konfigūravimo klaida. Trūksta lėšų pirkimui."
+
+msgid "shells_apply/success_money_spent"
+msgstr "Viso šoviniams išleista %(money)s."
+
+msgid "shells_apply/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po to, kai WG Wallet veikimas bus atstatytas."
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "Užklausa nupirkti ir pakeisti modulį išsiųsta. Laukiame serverio atsakymo."
+
+msgid "shop/item/buy_server_error"
+msgstr "Negalima nupirkti %(typeString)s \"%(userString)s\". Pabandykite vėliau."
+
+msgid "shop/item/buy_success"
+msgstr "Modulis %(typeString)s \"%(userString)s\" sėkmingai nupirktas (%(count)d). Išleista %(price)s."
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "Operacija laikinai negalima."
+
+msgid "shop/item/not_enough_money"
+msgstr "%(typeString)s \"%(userString)s\" pirkimui trūksta %(price)s."
+
+msgid "shop/item/not_found"
+msgstr "Modulis %(typeString)s \"%(userString)s\" parduotuvėje nerastas. Pabandykite vėliau."
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "Operacija laikinai negalima."
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "Tankui %(userString)s nusipirkti, trūksta %(price)s."
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "%(userString)s nuomai, trūksta dar %(price)s."
+
+msgid "shop/vehicle/not_found"
+msgstr "Tankas %(userString)s parduotuvėje nerastas. Pabandykite vėliau."
+
+msgid "shop_resync"
+msgstr "Vartotojo sąsaja atnaujinta %(date)s %(time)s dėl pasikeitimų serveryje."
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "<font color='#E9E2BF'>\"{oldName}\"</font> ({amount}) puvo pakeistas į <font color='#E9E2BF'>\"{newName}\"</font> ({amount})"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "Data: %(date)s\nKonvertuotos instrukcijos: %(items)s."
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "Kvitas"
+
+msgid "squad/createError"
+msgstr "Tik žaidėjai, turintys Premium paskyrą, gali sukurti burį."
+
+msgid "squad/kickedFromQueue"
+msgstr "Nepavyko surasti priešininkų šiam būriui. Perorganizuokite savo komandą."
+
+msgid "squad/leaveDisabled"
+msgstr "Veiksmas negalimas.\nJūs negalite išeiti iš būrio. Jūs esate būrio narys ir pasiruošęs mūšiui."
+
+msgid "squad/memberJoined"
+msgstr "%s prisijungė į formuotę."
+
+msgid "squad/memberLeave"
+msgstr "%s paliko formuotę."
+
+msgid "squad/memberNotReady"
+msgstr "%s nepasiruošęs."
+
+msgid "squad/memberOffline"
+msgstr "Prarastas ryšys su %s."
+
+msgid "squad/memberReady"
+msgstr "%s pasiruošęs."
+
+msgid "squad/notSetReadyStatus"
+msgstr "Nepavyko patekti į mūšį su būriu."
+
+msgid "squad/notValidDeleted"
+msgstr "Mašina %(vehName)s buvo pašalinta iš būrio, nes mašinos lygis nesuderinamas su būrio vado mašina. Pasirinkite tokio pat lygio mašiną."
+
+msgid "squad/notValidDeletedFilter"
+msgstr "%(vehName)s buvo pašalintas iš būrio, nes vadas pakeitė reikalavimus."
+
+msgid "squad/notValidEnqueueData"
+msgstr "Jūs buvote pašalinti iš būrio, nes būrio vadas pakeitė reikalavimus arba jūs negali prisijungti, nes jūsų mašina neatitinka reikalavimų. Pasirinkite kitą mašiną."
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "%(vehName)s buvo išmesta dėl mašinų tipų ribojimų būriams. Pasirinkite kitą mašiną."
+
+msgid "squad_bonus/switch_off/body"
+msgstr "Šis funkcionalumas laikinai nepasiekiamas dėl techninių priežasčių.\nAtsiprašome už nepatogumus."
+
+msgid "squad_bonus/switch_off/title"
+msgstr "Būrio bonusas laikinai nepasiekiamas"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "Techninės problemos pašalintos. Atsiprašome už nepatogumus."
+
+msgid "squad_bonus/switch_on/title"
+msgstr "Būrio bonusas vėl pasiekiamas"
+
+msgid "ssr/unavailable"
+msgstr "Negalima atsisiųsti įrašo"
+
+msgid "steam_login_not_allowed"
+msgstr "Jūs negalite naudoti šio programos žaidimui: jūsų Steam paskyra jau yra susieta su Wargaming.net paskyra. Sužinokite daugiau žaidėjų aptarnavimo centre."
+
+msgid "tankman/tankmanToRemove"
+msgstr "Įgulos narys atleistas."
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s d."
+
+msgid "techtree/action/header"
+msgstr "Akcija \"%(actionName)s\""
+
+msgid "techtree/action/text"
+msgstr "Iki akcijos pabaigos liko "
+
+msgid "techtree/action/text/closest"
+msgstr "Kita akcija baigiasi po: "
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "Priežastis: mašina skirta tik Prime Gaming nariams. Pasitikrinkite savo Prime Gaming prenumeratos statusą."
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "Mašina nepasiekiama"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "Data: %(datetime)s\nPridėtos mašinos: %(vehicles)s\nPridėta: garažo vieta,%(crew)s 3D stilius."
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "Data: %(datetime)s\nPridėtos mašinos: %(vehicles)s\nPridėta: vieta garaže,%(crew)s išskirtinis kamufliažas."
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr " 100%% įgula%(skills)s,"
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "Pridėtos mašinos"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "Data: %(datetime)s\nPašalinta: %(vehicles)s, vieta garaže."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "Priežastis: mašina skirta tik Prime Gaming nariams. Pasitikrinkite savo Prime Gaming prenumeratos statusą."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "Pašalinta technika"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "Mašina vėl pasiekiama"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "Pridėtas tankas T-44-100 Igrovoy. Pašalinta: %(tanks)s."
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "Dabar misijas galite įvykdyti su T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " ir "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)s kreditų"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "Visi %(tanks)s įgulos nariai naujai išmokyti tankui T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "Įranga išmontuota ir perkelta į sandėlį.\nPritaikomi elementai perkelti į sandėlį.\nAmunicija ir instrukcijos perkelti į sandėlį."
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "Komplektacija, pritaikomi elementai, kovinė patirtis, statistika ir apdovanojimai perkelti iš %(mergedTank)s į T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)s laisvosios patirties"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr ", "
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "Kompensuota patirtis už Papildomą modifikaciją: pridėta %(compensation)s."
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "Kompensuoti nupirkti progresiniai lipdukai: pridėta %(value)s aukso."
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "Žaidimo statistika ir apdovanojimai iš %(mergedTank)s perkelti į T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "Kovinė patirtis susumuota ir perkelta į T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "Sėkmės mūšiuose!"
+
+msgid "telecomMergeResults/title"
+msgstr "\"Igrovoy\" tarifo pasikeitimai"
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "Mašinos pasirinkimas ir nuoma pristabdyta."
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "Mašinų nuoma laikinai nepasiekiama"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "Mašinų nuoma pasiekiama"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "Sveikiname! Jūs gavote %(count)s žetoną(us)."
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "Nepavyko pervesti aukso. Gavėjas atšaukė pavedimą."
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "Neįmanoma pervesti aukso."
+
+msgid "tradingError/NO_WARES"
+msgstr "Neįmanoma pervesti aukso. Nepakanka aukso."
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "Pasiektas dienos pavedimų limitas. Šiandien nebegalite pervesti aukso."
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "Aukso pavedimas nepavyko. Pamėginkite vėliau."
+
+msgid "training/error/AddPlayer"
+msgstr "Treniruočių kambario klaida. Viršytas maksimalus žaidėjų skaičius komandoje."
+
+msgid "training/error/doAction"
+msgstr "Treniruočių kambario klaida. Mėginkite vėliau."
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "Treniruočių kambario klaida. Maksimalus komandos dydis Prasiveržime: %(numPlayers)s."
+
+msgid "training/error/selectObserver"
+msgstr "Treniruočių kambario klaida. Maksimalus žaidėjų skaičius komandoje: %(numPlayers)s."
+
+msgid "training/error/swapTeams"
+msgstr "Serverio klaida mėginant sukeisti komandas. Mėginkite vėliau."
+
+msgid "transferXP/server_error"
+msgstr "Operacija negalima. Pabandykite vėliau."
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "Veiksmas negalimas. Trūksta teisių."
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "Veiksmas negalimas. Jūs nepriklausote jokiam klanui."
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "Klaida: negalima suremontuoti pasirinktos mašinos."
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "Klaida: trūksta atsarginių detalių mašinos remontui."
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "Klaida: remonto kaina šiai mašinai pasikeitė."
+
+msgid "unit/error/wgshEvent/common"
+msgstr "Klaida: nepavyko užbaigti veiksmo."
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "Klaida prisijungiant į būrį: jūsų paskyra laikinai užblokuota šiame režime."
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "Veiksmas negalimas. Paskyra atstatyta."
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "Žaidėjui nepavyko prisijungti prie komandos."
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "Veiksmas negalimas. Vieta jau užimta."
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "Žaidėjas prie komandos jau prisijungęs."
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "Negalima perduoti vadovavimo."
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "Veiksmas negalimas. Netinkamas paskyros tipas."
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "Veiksmas negalimas. Klaidingas klanas."
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "Nepavyko prisijungti prie komandos."
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "Tankų lygių suma viršyja leistiną."
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "Veiksmas negalimas. Klaidingas padalinio narių sąrašas."
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "Neteisingas vietos numeris"
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "Veiksmas negalimas. Netinkamas mašinos tipas būriui."
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "Klaida jungiantis į komandą. Netinkamas tanko lygis."
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "Nurodytu laiku diviziono keisti negalima."
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "Nepavyko rasti komandos."
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "Pakvietimo išsiųsti nepavyko."
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "Klaida prisijungiant į būrį: negalima žaisti būryje nepabaigus kvalifikacijos."
+
+msgid "unit/errors/COOLDOWN"
+msgstr "Operacija laikinai negalima."
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "Paskutines operacijos su komanda atlikti nepavyko."
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "Tankas mūšiui neparuoštas arba garaže nėra tanko."
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "Tanko perkelti į vietą nepavyko."
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "Veiksmas negalimas. Kai kurie padalinio nariai vis dar mūšyje."
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "Šiai operacijai neturite leidimo."
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "Paskyra užrakinta."
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "Komanda laukia eilėje arba yra paieškos rezultatuose."
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "Prie komandos prisijungti nepavyko. Prisijungimas uždraustas."
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "Komandos nėra eilėje."
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "Paieškos rezultatuose komandos nėra."
+
+msgid "unit/errors/NOT_READY"
+msgstr "Komanda nepasiruošusi."
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "Klaida prisijungiant į būrį: jūs neturite tinkamos mašinos pasirinktam režimui."
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "Negalima įtraukti žaidėjo į komandos sudėtį."
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "Veiksmas negalimas. Nerastas žaidėjas."
+
+msgid "unit/errors/NO_UNIT"
+msgstr "Komanda nerasta."
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "Komanda neegzistuoja."
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "Veiksmas negalimas. Klaida rodant technikos sąrašą."
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "Veiksmas negalimas. Žaidėjas neprisijungęs."
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "Jūs esate vado juodajame sąraše."
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "Veiksmas negalimas. Ankstesnis mūšis dar nesibaigė."
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "Nepavyko pašalint žaidėjo iš komandos."
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "Veiksmas negalimas. Vienas ar daugiau žaidėjų dar nepriėmė kvietimo."
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "Veiksmas negalimas legionieriams."
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "Veiksmas negalimas. Vieta neužrakinta."
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "Veiksmas negalimas. Vieta jau užimta."
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "Veiksmas negalimas šiai vietai."
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "Nurodytu laiku Išpuoliai bus neleidžiami."
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "Negalima persijungti į kitą žaidimo režimą. Viršytas būrio narių skaičius."
+
+msgid "unit/errors/TIMEOUT"
+msgstr "Veiksmas negalimas. Baigėsi laikas."
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "Veiksmas negalimas. Užrakintas maksimalus vietų skaičius."
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "Veiksmas negalimas. Maksimalus legionierių skaičius."
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "Nepavyko sukurti komandos arba prie jos prisijungti."
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "Nepavyko sukurti komandos."
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "Veiksmas negalimas. Padalinys atstatytas."
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "Veiksmas negalimas. Technika neatitinka reikalavimų."
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "Veiksmas negalimas. Pirmiausia pasirinkite norimą techniką."
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "Komanda neegzistuoja."
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "Veiksmas negalimas. Mašina neparuošta arba neatitinka reikalavimų."
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Jūs perduotos kovinių rezervų valdymo teisės."
+
+msgid "unit/notification/changeDivision"
+msgstr "Vadas %(name)s pasirinko %(division)s divizioną."
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "Asai"
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "Čempionai"
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "Vidutiniokai"
+
+msgid "unit/notification/giveLeadership"
+msgstr "%(userName)s buvo paskirtas komandos kapitonu."
+
+msgid "unit/notification/playerAdded"
+msgstr "%(userName)s prisijungė į padalinį."
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "%(userName)s prisijungė į būrį su %(tierRange)s lygio mašina."
+
+msgid "unit/notification/playerOffline"
+msgstr "Ryšys su žaidėju %(userName)s prarastas."
+
+msgid "unit/notification/playerOnline"
+msgstr "Ryšys su žaidėju %(userName)s atkurtas."
+
+msgid "unit/notification/playerRemoved"
+msgstr "%(userName)s paliko padalinį."
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "Pakvietimas jau yra išsiųstas."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "Vado teisės perduotos kitam žaidėjui."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Vado teisės ir kovinių rezervų kontrolė perduotos kitam žaidėjui."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Kovinių rezervų valdymo teisės perduotos kitam žaidėjui."
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "Jūs buvote pašalintas iš padalinio: padalinys išformuotas."
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "Jūs buvote pašalintas iš padalinio. Pasikeitė klanas."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "Baigėsi žaidimo laikas ir jūs negalite pradėti naujo mūšio. Jūs būsite atjungti nuo serverio už %(expiredTime)s."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "Vienas iš žaidėjų neturi pakankamai laiko užbaigti mūšiui. Būrys dabar pasiruošimo stadijoje."
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "Legionierių rinkimas sustabdytas."
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "Veiksmas negalimas. Baigėsi laukimo laikas."
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "Prisijungimo klaida. Jūs buvote išmestas iš komandos."
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "Jūs buvote automatiškai pašalintas iš savanorių sąrašo."
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "Jus pašalino vadas."
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "Jūs buvote pašalintas iš padalinio: padalinys išformuotas."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "Jūs tapote padalinio vadu."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Jūs tapote padalinio vadu.\nJums suteiktos teisės kontroliuoti kovinius rezervus."
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "Pasirinktas kitas placdarmas Puolimui."
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "Pasirinktas kitas mūšio režimas."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "Paieška laikinai išjungta: per daug būrių serveryje."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "Negalima surasti žaidėjų dėl serverio klaidos. Pabandykite vėliau."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "Paieška nutraukta: bent vienas būrio narys neturi pasirinktam režimui tinkamų mašinų."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "Paieška pasibaigė. Nepavyko rasti tinkamų žaidėjų."
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "Jungiamasi prie žaidėjo. Prašome palaukti."
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "Suremontuota mašina: %(vehicleName)s"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "Nepavyko patvirtinti pasiruošimo prisijungti prie komandos."
+
+msgid "unload/button"
+msgstr "Į Kareivines"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "Negalima išsiųsti įgulos narių į kareivines: tanke unikali nuolatinė įgula."
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "Klaida perkeliant įgulą į kareivines. Netinkama mašina."
+
+msgid "unload_crew/server_error"
+msgstr "Įgulos perkėlimas į kareivines nepavyko. Pabandykite vėliau."
+
+msgid "unload_crew/success"
+msgstr "Įgula išsiųsta į Kareivines."
+
+msgid "unload_crew/vehicle_locked"
+msgstr "Klaida perkeliant įgulą į kareivines. Mašina užblokuota."
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "Klaida perkeliant įgulą į kareivines. Suremontuokite mašiną."
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "Negalima išsiųsti įgulos nario į kareivines: tanke unikali nuolatinė įgula."
+
+msgid "unload_tankman/button"
+msgstr "Į Kareivines"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "Klaida perkeliant įgulos narį į kareivines. Netinkama mašina."
+
+msgid "unload_tankman/not_enough_space"
+msgstr "Nepavyko nusiųsti šio įgulos nario į Kareivines. Kareivinėse trūksta vietos."
+
+msgid "unload_tankman/server_error"
+msgstr "Nepavyko perkelti įgulos nario į Kareivines. Pabandykite vėliau."
+
+msgid "unload_tankman/success"
+msgstr "Įgulos narys perkeltas į Kareivines."
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "Klaida perkeliant įgulos narį į kareivines. Mašina užblokuota."
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "Klaida perkeliant įgulos narį į kareivines. Suremontuokite mašiną."
+
+msgid "unlocks/drawFailed"
+msgstr "Neteisingi nustatymai. Technologijų medis užrakintas."
+
+msgid "unlocks/item/already_unlocked"
+msgstr "Modulis %(typeString)s \"%(userString)s\" išrastas."
+
+msgid "unlocks/item/in_processing"
+msgstr "Išradimo užklausa vykdoma. Laukiama serverio atsakymo."
+
+msgid "unlocks/item/server_error"
+msgstr "Serverio klaida išrandant modulį %(typeString)s \"%(userString)s\". Pabandykite vėliau."
+
+msgid "unlocks/item/unlock_success"
+msgstr "Modulis %(typeString)s \"%(userString)s\" išrastas. Panaudota patirties: %(vehXP)s. Panaudota Laisvosios patirties: %(freeXP)s."
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "Tankas %(userString)s išrastas."
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "Išradimo užklausa vykdoma. Laukiama serverio atsakymo."
+
+msgid "unlocks/vehicle/server_error"
+msgstr "Serverio klaida išrandant tanką %(userString)s.Mėginkite vėliau."
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "Tankas %(userString)s Išrastas. Panaudota patirties: %(vehXP)s. Panaudota Laisvos patirties: %(freeXP)s."
+
+msgid "upgradeTankman/server_error"
+msgstr "Įvyko klaida treniruojant įgulos narį. Pabandykite vėliau."
+
+msgid "upgradeTankman/success"
+msgstr "Treniravimas sėkmingai įvykdytas."
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "Trofėjinės įrangos tobulinimas laikinai nepasiekiamas dėl techninių priežasčių. Prašome pabandykite vėliau."
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "Trofėjinės įrangos tobulinimas vėl pasiekiamas. Atsiprašome už nepatogumus."
+
+msgid "vehicle/restore/finished"
+msgstr "Mašinos %(vehicleName)s susigrąžinti negalima: baigėsi susigrąžinimui skirtas laikas."
+
+msgid "vehicle/restoreDuration/days"
+msgstr "Jūs galėsite susigrąžinti mašiną sandėlyje dar %(time)s d."
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "Jūs galėsite susigrąžinti mašiną sandėlyje dar %(time)s val."
+
+msgid "vehicleCompare/disabled"
+msgstr "Veiksmas laikinai negalimas. Pabandykite vėliau."
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "%(vehicle)s peržiūra bus pasiekiama, kai atsiųsite pilną žaidimo versiją."
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "Modulio montavimo užklausa išsiųsta. Laukiama serverio atsako."
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "Negalima nupirkti %(typeString)s \"%(userString)s\". Pabandykite vėliau."
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "Modulis %(typeString)s \"%(userString)s\" sėkmingai nupirktas (%(count)d). Išleista %(price)s."
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "Modulis %(typeString)s \"%(userString)s\" jau yra sandėlyje."
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "Modulis %(typeString)s \"%(userString)s\" išrastas."
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "%(typeString)s \"%(userString)s\" pirkimui trūksta %(price)s."
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "Modulis %(typeString)s \"%(userString)s\" nerastas sandėlyje."
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "Modulis %(typeString)s \"%(userString)s\" parduotuvėje nerastas. Pabandykite vėliau."
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "%(typeString)s \"%(userString)s\" išrastas. Išleista %(unspentXP)s patirties ir %(freeXP)s laisvosios patirties."
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "Išradimo užklausa vykdoma. Laukiama serverio atsakymo."
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "Tankas %(userString)s jau yra sandėlyje."
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "Tankas %(userString)s išrastas."
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "Tankui %(userString)s nusipirkti, trūksta %(price)s."
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "Tankas %(userString)s sandėlyje nerastas."
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "Tankas %(userString)s parduotuvėje nerastas. Pabandykite vėliau."
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "Tankas %(userString)s išrastas. Išleista %(unspentXP)s patirties ir %(freeXP)s laisvosios patirties."
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "Elitinių apdovanojimų sistema pasiekiama mašinoje %(vehicle)s."
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "Elitiniai apdovanojimai"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "%(modification)s modifikacija, skirta %(vehicle)s, sėkmingai nupirkta."
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "Modifikacija nupirkta"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "Kategorija %(category)s buvo sėkmingai priskirta %(vehicle)s antrai vietai."
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "Vietos kategorijos priskyrimas"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "Išleista kreditų: %(value)s."
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Visos %(vehicle)s Dvigubos modifikacijos bus atšauktos."
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "%(modification)s modifikacija, skirta %(vehicle)s, atšaukta."
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "Modifikacija atšaukta"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "%(modifications)s modifikacijos, skirtos %(vehicle)s, atšauktos."
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "Išleista kovinės patirties: %(value)s."
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "Išleista laisvosios patirties: %(value)s."
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "Modifikacijų medžio klaida. Pabandykite vėliau."
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "Klaida"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "%(level)s lygio Standartinė modifikacija, skirta %(vehicle)s, sėkmingai išrasta ir nupirkta."
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "%(levels)s Standartinės modifikacijos, skirtos %(vehicle)s, lygiai sėkmingai išrasti ir nupirkti."
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "Modifikacija išrasta"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "Kategorija %(category)s buvo sėkmingai priskirta %(vehicle)s antrai vietai."
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "Vietos kategorijos priskyrimas"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "Pagalbinis išdėstymas pasiekiamas mašinoje %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "Pagalbinis išdėstymas"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "Antros vietos kategorijos priskyrimas dabar pasiekiamas %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "Vietos kategorijos pasiekimas"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "Pagrindinis išdėstymas pasiekiamas mašinoje %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "Pagrindinis išdėstymas"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "Modifikacijų medis pasiekiamas mašinoje %(vehicle)s."
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "Papildoma modifikacija"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "Pasiekiamas Modifikacijų medis. Jūs galite konfigūruoti mašinas pagal jų roles mūšiuose ir keisti jų charakteristikas naudodami įvairias modifikacijas."
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "Patobulinimo klaida. Pabandykite vėliau."
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "Klaida"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "Sėkmingai išrastas %(vehicle)s langelis \"%(perk)s\"."
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "Langelis gautas"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "Sėkmingai išrasti %(vehicle)s langeliai \"%(perk)s\"."
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "Langeliai išrasti"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "Operacija negalima. Pabandykite vėliau."
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "Negalima nupirkti %(vehName)s. Netinkama mašina."
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "Negalima nupirkti %(vehName)s. Trūksta kreditų."
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "Negalima nupirkti %(vehName)s. Trūksta aukso."
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "Operacija negalima. Šios nacijos mašinos neišrastos."
+
+msgid "vehicle_buy/server_error"
+msgstr "Negalima nupirkti %(vehName)s dėl serverio klaidos. Pabandykite vėliau."
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "Negalima nupirkti %(vehName)s mašinos. Serveris laikinai nepasiekiamas."
+
+msgid "vehicle_buy/success"
+msgstr "%(vehName)s sėkmingai nupirkta. Išleidote %(price)s."
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "Negalima pašalinti %(vehName)s. Bandykite vėliau."
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "Negalima pašalinti %(vehName)s. Netinkama mašina."
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "Negalima pašalinti %(vehName)s. Trūksta kreditų."
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "Negalima pašalinti %(vehName)s. Trūksta aukso."
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "Negalima pašalinti %(vehName)s. Trūksta vietos kareivinėse."
+
+msgid "vehicle_remove/server_error"
+msgstr "Negalima parduoti %(vehName)s. Įsitikinkite ar ši mašina nėra kokioje nors formuotėje arba pabandykite vėliau."
+
+msgid "vehicle_remove/success/default"
+msgstr "%(vehName)s sėkmingai panaikinta.\n%(money)s."
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "%(vehName)s sėkmingai panaikinta."
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "%(vehName)s sėkmingai pašalinta.\n%(gainMoney)s.\n%(spendMoney)s."
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "Negalima pašalinti %(vehName)s. Mašina bus pašalinta automatiškai."
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "Negalima pašalinti %(vehName)s. Mašina užblokuota."
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "Negalima pašalinti %(vehName)s. Mašiną reikia suremontuoti."
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "Negalima pašalinti %(vehName)s. Jūs pasiekėte dienos mašinų limitą."
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "Operacija negalima. Visas jūsų auksas bus pasiekiamas po to, kai WG Wallet veikimas bus automatiškai atstatytas."
+
+msgid "vehicle_rent/buyOption"
+msgstr "Dėmesio! Jeigu nuspręsite įsigyti šią mašiną, ją gausite su nuolaida."
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "%(vehName)s nuoma negalima. Netinkama mašina."
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "%(vehName)s nuoma negalima. Trūksta kreditų."
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "%(vehName)s nuoma negalima. Trūksta aukso."
+
+msgid "vehicle_rent/server_error"
+msgstr "%(vehName)s nuoma negalima dėl serverio klaidos. Pabandykite vėliau."
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "%(vehName)s nuoma negalima. Mašinos nuoma laikinai nepasiekiama."
+
+msgid "vehicle_rent/success"
+msgstr "Jūs išsinuomojote %(vehName)s %(rentPackageName)s. Išleidote %(price)s. %(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "%(days)d d"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "Operacija neįmanoma. Visas jūsų auksas bus pasiekiamas, kai WG Wallet veikimas bus automatiškai atstatytas."
+
+msgid "vehicle_repair/credits_error"
+msgstr "Reikia %(needed)s norint suremontuoti %(vehName)s."
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "Reikia %(needed)s norint suremontuoti %(vehName)s."
+
+msgid "vehicle_repair/server_error"
+msgstr "Įvyko klaida bandant suremontuoti %(vehName)s. Bandykite vėliau."
+
+msgid "vehicle_repair/success"
+msgstr "%(vehName)s suremontuota. Išleista %(money)s."
+
+msgid "vehicle_restore/DISABLED"
+msgstr "Mašinos susigrąžinimas laikinai negalimas. Pabandykite vėliau."
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "Negalima sugrąžinti %(vehName)s. Mašinų susigrąžinimas laikinai neveikia."
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "Negalima sugrąžinti %(vehName)s. Netinkama mašina."
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "Negalima sugrąžinti %(vehName)s. Trūksta kreditų."
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "Negalima sugrąžinti %(vehName)s. Trūksta aukso."
+
+msgid "vehicle_restore/server_error"
+msgstr "Negalima sugrąžinti %(vehName)s dėl serverio klaidos. Pabandykite vėliau."
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "Negalima sugrąžinti %(vehName)s. Mašinų susigrąžinimas laikinai neveikia."
+
+msgid "vehicle_restore/success"
+msgstr "Mašina %(vehName)s sėkmingai susigrąžinta. Išleista %(price)s."
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "Operacija negalima. Visas jūsų auksas bus pasiekiamas, kai WG Wallet veikimas bus atstatytas."
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "Panaudotas išmontavimo rinkinys (x%(countDK)s)"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "Negalima parduoti %(vehName)s. Bandykite vėliau."
+
+msgid "vehicle_sell/disabledService"
+msgstr "Negalima parduoti %(vehName)s. Bandykite vėliau."
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "Negalima parduoti %(vehName)s. Neužtenka komponentų įrangos išmontavimui."
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "Negalima parduoti %(vehName)s. Netinkama mašina."
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "Negalima parduoti %(vehName)s. Trūksta kreditų."
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "Negalima parduoti %(vehName)s. Trūksta aukso."
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "Negalima parduoti %(vehName)s. Nepakanka gultų kareivinėse."
+
+msgid "vehicle_sell/server_error"
+msgstr "Negalima parduoti %(vehName)s. Įsitikinkite ar ši mašina nėra kokioje nors formuotėje arba pabandykite vėliau."
+
+msgid "vehicle_sell/success"
+msgstr "%(vehName)s sėkmingai parduota.\n%(money)s.\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "%(vehName)s sėkmingai parduota.\n%(gainMoney)s.\n%(spendMoney)s.\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "Negalima parduoti %(vehName)s. Mašina bus pašalinta automatiškai."
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "Negalima parduoti %(vehName)s. Mašina užblokuota."
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "Negalima parduoti %(vehName)s. Suremontuokite mašiną."
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "Negalima parduoti %(vehName)s. Jūs pasiekėte dienos mašinų limitą."
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "Klaida perkant vietą. Nepakanka kreditų."
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "Klaida perkant vietą. Nepakanka aukso."
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "Klaida perkant vietą garaže. Pabandykite vėliau."
+
+msgid "vehicle_slot_buy/success"
+msgstr "Nupirkta papildoma vieta garaže. Išleidote %(money)s."
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "Klaida pakeičiant pagreitintą įgulos treniravimą %(vehName)s. Netinkama mašina."
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "Nepavyko pakeisti pagreitinto įgulos treniravimo %(vehName)s. Pabandykite vėliau."
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "Pagreitintas įgulos treniravimas %(vehName)s išjungtas."
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "Pagreitintas įgulos treniravimas %(vehName)s įjungtas."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "Klaida pakeičiant pagreitintą įgulos treniravimą %(vehName)s. Mašina užblokuota."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "Klaida pakeičiant pagreitintą įgulos treniravimą %(vehName)s. Suremontuokite mašiną."
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "Nepavyko iškeisti į %(vehName)s. Pasirinkta netinkama mašina."
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "Negalima iškeisti į %(vehName)s. Trūksta kreditų."
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "Negalima iškeisti į %(vehName)s. Trūksta aukso."
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "Negalima iškeisti %(tradeOffVehName)s. Barakuose trūksta gultų."
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "Pasiekiamas iškeitimo pasiūlymas!"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "Iškeitimo pasiūlymas nebepasiekiamas!"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "Nepavyko iškeisti į %(vehName)s. Serverio klaida. Pabandykite vėliau."
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "Nepavyko iškeisti į %(vehName)s. Pirkimo/keitimo paslauga laikinai nepasiekiama."
+
+msgid "vehicle_trade_in/success"
+msgstr "Mašina %(tradeOffVehName)s pašalinta. %(vehName)s įsigyta už %(price)s."
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "Nepavyko iškeisti %(tradeOffVehName)s. Mašina bus pašalinta automatiškai."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "Nepavyko iškeisti į %(vehName)s. Mašinos negalima gauti per keitimą."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "Negalima iškeisti %(tradeOffVehName)s. Mašina netinka keitimui."
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "Negalima iškeisti %(tradeOffVehName)s. Mašina nepasiekiama."
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "Negalima iškeisti %(tradeOffVehName)s. Suremontuokite mašiną."
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "Negalima iškeisti %(tradeOffVehName)s. Mašinos nėra sandėlyje."
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "Operacija negalima. Jūsų auksas bus pasiekiamas po WG Wallet veikimo atstatymo."
+
+msgid "video/error"
+msgstr "Klaida paleidžiant video įrašą. Klaidos kodas: %(code)s."
+
+msgid "w2gt/switchOff/description"
+msgstr "kovinės zonos žemėlapyje laikinai nepasiekiamos."
+
+msgid "w2gt/switchOff/header"
+msgstr "Techninės problemos"
+
+msgid "w2gt/switchOn/description"
+msgstr "Žemėlapio kovinės zonos ir vėl pasiekiamos. Į mūšį!"
+
+msgid "w2gt/switchOn/header"
+msgstr "Vėl funkcionalu"
+
+msgid "wallet/available"
+msgstr "WG Wallet sėkmingai susinchronizuota. Visas jūsų auksas, bonai, kreditai ir laisvoji patirtis jau pasiekiami."
+
+msgid "wallet/available_freexp"
+msgstr "WG Wallet sėkmingai susinchronizuota. Jūsų laisvoji patirtis jau pasiekiamia."
+
+msgid "wallet/available_gold"
+msgstr "WG Wallet sėkmingai susinchronizuota. Jūsų auksas jau pasiekiamas."
+
+msgid "wallet/not_available"
+msgstr "Vyksta balanso duomenų atnaujinimas. Visas jūsų auksas, bonai, kreditai ir laisvoji patirtis bus greitai pasiekiami."
+
+msgid "wallet/not_available_freexp"
+msgstr "Vyksta balanso duomenų atnaujinimas. Jūsų laisva patirtis bus prieinama netrukus."
+
+msgid "wallet/not_available_gold"
+msgstr "Vyksta balanso duomenų atnaujinimas. Jūsų auksas bus prieinamas netrukus."
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "Negalima prasukti Savaitinės misijos: operacija blokuojama."
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "Negalima prasukti Savaitinės misijos: netinkama misija."
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "Negalima prasukti Savaitinės misijos: misija jau įvykdyta."
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "Negalima prasukti Savaitinės misijos: operacija sustabdyta."
+
+msgid "weekly_quests/reroll/success"
+msgstr "Savaitinė misija sėkmingai prasukta."
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "Negalima prasukti Savaitinės misijos. Pabandykite vėliau."
+
+msgid "weekly_quests/switch_off/body"
+msgstr "Savaitinės misijos laikinai nepasiekiamos. Atsiprašome už nepatogumus."
+
+msgid "weekly_quests/switch_on/body"
+msgstr "Savaitinės misijos vėl pasiekiamos. Atsiprašome už nepatogumus."
+
+msgid "winback/turnOffBattlesError"
+msgstr "Nepavyksta išeiti iš Apšilimo. Pabandykite vėliau."
+
+msgid "window/buttons/close"
+msgstr "Uždaryti"
+
+msgid "wrong_slot"
+msgstr "Modulis %s \"%s\" netinka langeliui %s."

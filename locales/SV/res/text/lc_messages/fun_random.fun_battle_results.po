@@ -1,0 +1,254 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "closeBtn"
+msgstr "STÄNG"
+
+msgid "continueBtn"
+msgstr "Fortsätt"
+
+msgid "economy/double/credits"
+msgstr "WoT-Premiumkonto ökar mängden krediter du tjänar med %(value)s%%."
+
+msgid "economy/double/free_xp"
+msgstr "WoT-Premiumkonto ökar mängden fri erfarenhet du tjänar med %(value)s%%."
+
+msgid "economy/double/tmen_xp"
+msgstr "WoT-Premiumkonto ökar mängden besättningserfarenhet du tjänar med %(value)s%%."
+
+msgid "economy/double/xp"
+msgstr "WoT-Premiumkonto ökar mängden stridserfarenhet du tjänar med %(value)s%%."
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "WoT-Premiumkonto ökar mängden stridserf. och fri erf. du tjänar med %(value)s%%."
+
+msgid "efficiency/capturePoints"
+msgstr "Baserövring"
+
+msgid "efficiency/damageAssisted"
+msgstr "Skada med din assistans"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "Chock"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "Blockerad skada"
+
+msgid "efficiency/damageDealt"
+msgstr "SKADA"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "Basförsvar"
+
+msgid "efficiency/empty"
+msgstr "—"
+
+msgid "efficiency/kills"
+msgstr "Förstörda"
+
+msgid "efficiency/spotted"
+msgstr "Observation"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "Baserövring"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "Förstörda med din assistans"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "Chock"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "Användande av pansar"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "SKADA"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "Basförsvar"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "Fienden förstörd"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "Observation"
+
+msgid "finish"
+msgstr "Striden över"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "Kan bara användas på den senaste segern för varje vagn."
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "Bonusen kan inte användas: ökad besättningsträning aktiverad."
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "Bonusen kan inte användas: ökad besättningsträning ej aktiverad."
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "Erfarenhetsbonusen kan bara användas när du vunnit striden."
+
+msgid "premiumBonus/NoCrew"
+msgstr "Manuell bonus kan inte användas: besättningen hittades inte."
+
+msgid "premiumBonus/NoVehicle"
+msgstr "Manuell bonus kan inte användas: vagnen hittades inte."
+
+msgid "progress/title"
+msgstr "%(modeName)s: Specialuppdrag. Delmoment: %(done)s / %(total)s"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s: Specialuppdrag"
+
+msgid "result/lose"
+msgstr "FÖRLUST"
+
+msgid "result/tie"
+msgstr "OAVGJORT"
+
+msgid "result/win"
+msgstr "SEGER"
+
+msgid "resultRace/battleStatus/finished"
+msgstr "GICK I MÅL"
+
+msgid "resultRace/battleStatus/inTop"
+msgstr "PLACERING"
+
+msgid "resultRace/battleStatus/notFinished"
+msgstr "GICK EJ\nI MÅL"
+
+msgid "resultRace/finishReason/finished"
+msgstr "Mållinjen nådd"
+
+msgid "resultRace/finishReason/notFinished"
+msgstr "Nådde ej mållinjen"
+
+msgid "resultRace/footerSubtitle/battleEnded"
+msgstr "Striden slut: {{time}}"
+
+msgid "resultRace/footerSubtitle/finished"
+msgstr "Inte dåligt!"
+
+msgid "resultRace/footerSubtitle/inTop"
+msgstr "Topp 3!"
+
+msgid "resultRace/footerSubtitle/notFinished"
+msgstr "Bättre lycka nästa gång!"
+
+msgid "ribbon/applied"
+msgstr "Bonus använd"
+
+msgid "ribbon/errorState"
+msgstr "Ett fel inträffade"
+
+msgid "ribbon/expBonus"
+msgstr "+%(count)s %(icon)s extra erf."
+
+msgid "ribbon/timeLeft"
+msgstr "Bonusen förnyas om:"
+
+msgid "ribbon/usesLeft"
+msgstr "Tillgängliga användningar: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "Dev ÖVERSIKT"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "Dev LAGPOÄNG"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "Spelare"
+
+msgid "sub_modes/fall_tanks/efficiency/checkpointsPassed"
+msgstr "Checkpoints"
+
+msgid "sub_modes/fall_tanks/efficiency/deathCount"
+msgstr "Återvändningar"
+
+msgid "sub_modes/fall_tanks/efficiency/finishPosition"
+msgstr "Placering"
+
+msgid "sub_modes/fall_tanks/efficiency/finishTime"
+msgstr "Tid"
+
+msgid "sub_modes/fall_tanks/efficiency/kills"
+msgstr "Förintad"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/checkpointsPassed"
+msgstr "Antal checkpoints du passerat"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/deathCount"
+msgstr "Antal gånger du återvände efter att vagnen förintats"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/destroyed"
+msgstr "Antalet fiendevagnar du förintat"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishPosition"
+msgstr "Din slutplacering i racet"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishTime"
+msgstr "Hur lång tid det tog för dig att nå mållinjen"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/checkpointsPassed"
+msgstr "Checkpoints"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/deathCount"
+msgstr "Återvändningar"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/destroyed"
+msgstr "Förintad"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishPosition"
+msgstr "Placering"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishTime"
+msgstr "Tid"
+
+msgid "sub_modes/fall_tanks/navigation/battleResults"
+msgstr "PERSONLIGT RESULTAT"
+
+msgid "sub_modes/fall_tanks/navigation/teamEfficiency"
+msgstr "DELTAGARRESULTAT"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/body"
+msgstr "Sortera efter placering"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/header"
+msgstr "Placering"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/body"
+msgstr "Sortera efter tid"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/header"
+msgstr "Tid"
+
+msgid "sub_modes/fall_tanks/team/singleTeam"
+msgstr "Spelare"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/body"
+msgstr "Sortera efter vagn"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/header"
+msgstr "Vagnar"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "ÖVERSIKT"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "LAGPOÄNG"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "Spelare"
+
+msgid "team/empty/finishTime"
+msgstr "-- : -- . --"
+
+msgid "team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "title"
+msgstr "STRIDSRESULTAT"

@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Primitak štete prekida obnavljanje HP.\n\nStopa oporavka HP i najveća granica oporavka temelje se na ukupnom HP vozila, uključujući sve primijenjene modifikatore."
+
+msgid "armorPatching/alt/info"
+msgstr "Za grupne sposobnosti, računa se prosječna obuka među svim članovima posade. Uključuje se kada je obučena na najmanje 1% i povećava učinkovitost s daljnjom obukom."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Korištenje Alata za popravke obnavlja %(hpRecover)s HP {yellow_Start} vozila{yellow_End} tijekom 5 s, do najviše 20% po bitci. Omogućava korištenje Alata za popravke bez prethodne kritične štete."
+
+msgid "armorPatching/hudDescription"
+msgstr "HP se obnavlja."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Kada je potpuno obučen za sve članove posade, obnavlja %(hpRecover)s HP {yellow_Start}vozila{yellow_End} tijekom 5 s, do najviše 20% po bitci. Omogućava korištenje Alata za popravke bez prethodne kritične štete."
+
+msgid "armorPatching/name"
+msgstr "Krpanje oklopa"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Povećava osnovnu skrovitost vozila."
+
+msgid "brotherhood/alt/description"
+msgstr "Bonus učinkovitosti posade poboljšava učinkovitost člana posade u bitci, kao i učinkovitost svih naučenih sposobnosti, osim ove. Ovaj parametar se može dalje povećati montiranjem opreme ili potrošnog materijala sličnog učinka ili korištenjem smjernice Pročišćenje provjetravanja. Zapovjednikova sposobnost Nužda kao vezistove sposobnosti Rame uz rame i Komunikacijski stručnjak također mogu povećati ovaj parametar."
+
+msgid "brotherhood/alt/info"
+msgstr "Za grupne sposobnosti, računa se prosječna obuka među svim članovima posade. Uključuje se kada je obučena na najmanje 1% i povećava učinkovitost s daljnjom obukom."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "{greenBright_Start}Bonus učinkovitosti posade{greenBright_End} cijele posade se povećava za %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Kada je potpuno obučena za sve članove posade, povećava {greenBright_Start}bonus učinkovitosti posade{greenBright_End} cijele posade za%(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Braća po oružju"
+
+msgid "brotherhood/shortDescription"
+msgstr "Povećava opću izvedbu posade."
+
+msgid "camouflage/alt/description"
+msgstr "Ova sposobnost utječe na skrovitost vozila. Može se dodatno poboljšati korištenjem smjernice Prirodni pokrov.\n\nDodatno, skrovitost vozila se može povećati nanošenjem kamuflažnog uzorka ili stila, kao i montiranjem opreme sličnog učinka."
+
+msgid "camouflage/alt/info"
+msgstr "Za grupne sposobnosti, računa se prosječna obuka među svim članovima posade. Uključuje se kada je obučena na najmanje 1% i povećava učinkovitost s daljnjom obukom."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "Skrovitost {greenBright_Start}vozila{greenBright_End} je povećana za %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Kada je potpuno obučena za sve članove posade, povećava skrovitost{greenBright_Start}vozila{greenBright_End} za %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Skrovitost"
+
+msgid "camouflage/shortDescription"
+msgstr "Povećava osnovnu skrovitost vozila."
+
+msgid "commander_coordination/alt/description"
+msgstr "Učinak se aktivira svaki puta kada je otkriveno neprijateljsko vozilo i ne gomila se kada je otkriveno više vozila.\n\nBrzina ciljanja se može daljnje povećati obukom topnika sposobnošću Brzo ciljanje ili montiranjem opreme sličnog učinka."
+
+msgid "commander_coordination/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "{yellow_Start}Brzina ciljanja{yellow_End} će se povećati za %(vehicleGunAimSpeed)s na 15 s nakon što otkrijete neprijateljsko vozilo."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Brzina ciljanja je povećana."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {yellow_Start}brzinu ciljanja{yellow_End} za %(vehicleGunAimSpeed)s na 15 s nakon što otkrijete neprijateljsko vozilo.\t"
+
+msgid "commander_coordination/name"
+msgstr "Koordinacija"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Brzina ciljanja je povećana."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Vidokrug se može dodatno povećati obukom sposobnosti vezista Situacijska svjesnost ili montiranjem opreme sličnog učinka. Korištenje smjernice Kalibracija optike poboljšava učinak."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}Vidokrug{greenBright_End} se povećava za %(circularVisionRadius)s&zwnbsp;. {greenBright_Start}Kazna na oštećene osmatračke sprave{greenBright_End} se smanjuje za %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Kazna na oštećene osmatračke sprave se smanjuje."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {greenBright_Start}vidokrug{greenBright_End} za %(circularVisionRadius)s&zwnbsp; i smanjuje {greenBright_Start}kaznu na oštećene osmatračke sprave{greenBright_End} za %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Izviđač"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Povećava vidokrug, posebno kada je oštećen osmatrački uređaj."
+
+msgid "commander_emergency/alt/description"
+msgstr "Kada se opetovan prima šteta od neprijatelja, učinak se ne gomila. Bonus učinkovitosti posade poboljšava učinkovitost člana posade u borbi. Ovaj parametar se može dalje povećati montiranjem opreme ili potrošnog materijala sličnog učinka ili korištenjem smjernice Pročišćenje provjetravanja. Grupna sposobnost Braća po oružju, kao i vezistove sposobnosti Rame uz rame i Komunikacijski stručnjak mogu povećati parametar."
+
+msgid "commander_emergency/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "{yellow_Start}Bonus učinkovitosti posade{yellow_End} će se povećati za %(crewLevelIncrease)s na 15 s nakon primitka štete od neprijatelja."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Bonus učinkovitosti posade je povećan."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Kada je potpuno obučen, povećava{yellow_Start}bonus učinkovitosti posade{yellow_End} za %(crewLevelIncrease)s na 15 s nakon primitka štete od neprijatelja."
+
+msgid "commander_emergency/name"
+msgstr "Nužda"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Bonus učinkovitosti posade je povećan."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Obavijest o paljbi neprijateljskog samohodnog topa se aktivira u trenutku hica, ali s odgodom.\n\nSposobnost se može poboljšati smjernicom Povećani oprez."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "{yellow_Start}Obavijest o paljbi neprijateljskog samohodnog topa{yellow_End} i smjer hica će biti izdana s %(artNotificationDelayFactor)s odgodom. {greenBright_Start}Negativni učinak ošamućenja{greenBright_End} se smanjuje za %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Kada je potpuno obučena, daje {yellow_Start}obavijest o paljbi neprijateljskog samohodnog topa{yellow_End} s %(artNotificationDelayFactor)s odgodom i identificira smjer hica. Smanjuje {greenBright_Start}negativni učinak ošamućenja{greenBright_End} za %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Detekcija zvuka"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Naznačuje neprijateljski hitac samohodnog topa."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Bonus učinkovitosti posade poboljšava učinkovitost člana posade u bitci.\n\nOvaj parametar se može još povećati montiranjem opreme ili potrošnog materijala sličnog učinka ili korištenjem smjernice Pročišćenje provjetravanja. Razne ostale sposobnosti posade također mogu povećavati parametar."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "{yellow_Start}Bonus učinkovitosti posade{yellow_End} će se povećati za %(crewLevelIncrease)s dok neprijateljski tim ima najmanje tri vozila više u bitci od vašeg tima&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Bonus učinkovitosti posade je povećan (neprijateljska većina)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Kada je potpuno obučen, povećava {yellow_Start}bonus učinkovitosti posade{yellow_End} za %(crewLevelIncrease)s dok neprijateljski tim ima najmanje tri vozila više u bitci od vašeg tima&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Drži liniju"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Povećava bonus učinkovitosti vozila"
+
+msgid "commander_practical/alt/description"
+msgstr "Sposobnost djeluje za sve tipove potrošnog materijala montiranog na vaše vozilo.\n\nNjen učinak se može dalje povećati korištenjem smjernice Detaljne pripreme."
+
+msgid "commander_practical/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}Vrijeme hlađenja potrošnog materijala{greenBright_End} se smanjuje za %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Kada je potpuno obučena, umanjuje {greenBright_Start}vrijeme hlađenja potrošnog materijala{greenBright_End} za %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Praktičnost"
+
+msgid "commander_practical/shortDescription"
+msgstr "Umanjuje vrijeme hlađenja potrošnog materijala."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Šesto čulo je isključeno kada je zapovjednik ozlijeđen. Vrijeme aktivacije se može umanjiti sa sposobnošću vezista Prisluškivanje signala."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "To je posebna osobina zapovjednika koja ne zahtjeva obuku i dostupna je zadano zapovjedniku."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Omogućuje zapovjedniku identificiranje da li je neprijatelj otkrio vozilo. Aktivira se %(delay)s nakon što je vozilo otkriveno."
+
+msgid "commander_sixthSense/name"
+msgstr "Šesto čulo"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Omogućava zapovjedniku da identificira je li njihovo vozilo otkriveno od strane neprijatelja."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Bonus učinkovitosti posade poboljšava učinkovitost člana posade u bitci.\n\nOvaj parametar se može još povećati montiranjem opreme ili potrošnog materijala sličnog učinka ili korištenjem smjernice Pročišćenje provjetravanja. Razne ostale sposobnosti posade također mogu povećavati parametar."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "{yellow_Start}Bonus učinkovitosti posade{yellow_End} će se povećati za %(crewLevelIncrease)s na 15&nbsp;s nakon korištenja Pribora za prvu pomoć. Omogućava korištenje Pribora za prvu pomoć čak i kada nijedan član posade nije ozlijeđen&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Povećana je učinkovitost posade (korišten je Pribor za prvu pomoć)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Kada je potpuno obučen, povećava {yellow_Start}bonus učinkovitosti posade{yellow_End} za %(crewLevelIncrease)s na 15 s nakon korištenja Pribora za prvu pomoć. Omogućava korištenje Pribora za prvu pomoć čak i kada nijedan član posade nije ozlijeđen&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Ostanite na oprezu"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Povećava bonus učinkovitosti vozila"
+
+msgid "commander_tutor/alt/description"
+msgstr "Ozlijeđeni zapovjednik ne može zamijeniti drugog člana posade. Bonus se primjenjuje samo na osnovnu količinu iskustva posade zarađenog u bitci.\n\nDodatno iskustvo posade se može dobiti korištenjem knjižica posade ili pretvorbom slobodnog iskustva u iskustvo posade."
+
+msgid "commander_tutor/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Količina zarađenog {greenBright_Start}iskustva{greenBright_End} se povećava za %(xpBonusFactorPerLevel)s za sve članove posade. Zapovjednik može {greenBright_Start}zamjeniti članove izbačene iz stroja{greenBright_End} s %(woundedCrewEfficiency)s učinkovitošću."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Člana posade izbačenog iz stroja zamjenjuje zapovjednik."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava količinu zarađenog {greenBright_Start}iskustva{greenBright_End} za %(xpBonusFactorPerLevel)s za sve članove posade. Omogućava zapovjedniku {greenBright_Start}zamjenu člana posade izbačenog iz stroja{greenBright_End} s %(woundedCrewEfficiency)s učinkovitošću."
+
+msgid "commander_tutor/name"
+msgstr "Tutor"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Člana posade izbačenog iz stroja zamjenjuje zapovjednik."
+
+msgid "commander_universalist/alt/description"
+msgstr "Zapovjednik može zamjeniti samo osnovnu kvalifikaciju člana posade izbačenog iz stroja. Učinak zamjene se smanjuje sa svakim članom posade izbačenim iz stroja."
+
+msgid "commander_universalist/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1%. Učinkovitost raste s daljnjom obukom."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Zapovjednik može {greenBright_Start}zamjeniti izbačenog{greenBright_End} člana posade s %(woundedCrewEfficiency)s učinkovitošću."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Zapovjednik igra ulogu člana posade izbačenog iz stroja."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Kada je potpuno obučena, omogućuje zapovjedniku {greenBright_Start}zamjenu izbačenog{greenBright_End} člana posade s %(woundedCrewEfficiency)s učinkovitošću."
+
+msgid "commander_universalist/name"
+msgstr "Sveznalica"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Omogućuje zapovjedniku zamjenu izbačenog člana posade."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Umanjuje kaznu pokretljivosti vozila i ubrzanje prilikom vožnje na umjereno mekanom terenu. Značajno umanjuje ove kazne prilikom vožnje na mekanom terenu što ih uravnotežuje s onima na umjereno mekanom terenu.\nPokretljivost na umjereno mekanom i mekanom terenu ne može premašiti pokretljivost na tvrdom terenu."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}Gubitak brzine na umjereno mekanom terenu{greenBright_End} je smanjena za %(mediumGroundFactor)s&zwnbsp;, {greenBright_Start}gubitak brzine na mekanom terenu{greenBright_End} se smanjuje na %(softGroundFactor)s rezultirajuće vrijednosti umjereno mekanog terena."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Kada je potpuno obučena, smanjuje {greenBright_Start}gubitak brzine na umjereno mekanom terenu{greenBright_End} za %(mediumGroundFactor)s&zwnbsp;, smanjuje {greenBright_Start}gubitak brzine na mekanom terenu{greenBright_End} na %(softGroundFactor)s rezultirajuće vrijednosti umjereno mekanog terena."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Vožnja izvan ceste"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Bonus učinkovitosti posade poboljšava učinkovitost člana posade u bitci.\n\nOvaj parametar se može još povećati montiranjem opreme ili potrošnog materijala sličnog učinka ili korištenjem smjernice Pročišćenje provjetravanja. Razne ostale sposobnosti posade također mogu povećavati parametar."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "{yellow_Start}Bonus učinkovitosti posade{yellow_End} će se povećati za %(crewLevelIncrease)s ako je količina štete koju blokirate veća od početnog HP vašeg vozila."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Bonus učinkovitosti posade se povećava (blokirano je dovoljno štete)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {yellow_Start}bonus učinkovitosti posade{yellow_End} za %(crewLevelIncrease)s ako je količina štete koju blokirate veća od početnog HP vašeg vozila."
+
+msgid "driver_bulletproof/name"
+msgstr "Otporan na metke"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Najveća brzina vašeg vozila se može dalje povećati, a kazna na oštećeni motor dalje smanjiti montiranjem opreme sličnog učinka."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "{greenBright_Start}Najveća brzina unaprijed{greenBright_End} i {greenBright_Start}brzina unatrag{greenBright_End} vašeg vozila se povećava za %(vehicleForwardMaxSpeed)s. {greenBright_Start}Kazna na oštećeni motor{greenBright_End} se smanjuje za %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Smanjuje se kazna na oštećeni motor."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {greenBright_Start}najveću brzinu unaprijed{greenBright_End} i {greenBright_Start}brzinu unatrag{greenBright_End} vašeg vozila se povećava za %(vehicleForwardMaxSpeed)s. Smanjuje {greenBright_Start}kaznu na oštećeni motor{greenBright_End} za %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Inžinjer"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Smanjuje se kazna na oštećeni motor."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Sposobnost nema učinka kada se sudare dva saveznička vozila.\n\nŠteta sudaranja vašem vozilu se može još umanjiti montiranjem opreme sličnog učinka."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}Šteta sudaranja neprijateljskih vozila{greenBright_End} se povećava za %(damageEnemiesByRamming)s&zwnbsp;. {greenBright_Start}Šteta sudaranja vašem vozilu{greenBright_End} se smanjuje za %(vehicleRamDamageResistance)s&zwnbsp; i na {greenBright_Start}vaš ovjes{greenBright_End} za %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {greenBright_Start}štetu sudaranja neprijateljskim vozilima{greenBright_End} za %(damageEnemiesByRamming)s&zwnbsp;. Smanjuje {greenBright_Start}štetu sudaranja vašem vozilu{greenBright_End} za %(vehicleRamDamageResistance)s&zwnbsp; i na {greenBright_Start}vaš ovjes{greenBright_End} za %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Majstor sudaranja"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Smanjuje štetu sudaranja vašeg vozila i povećava štetu sudaranja neprijateljskim vozilima."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Šteta primljena od HE granata se može dalje umanjiti montiranjem opreme sličnog učinka."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}Upijanje štete HE granate{greenBright_End} se povećava za %(vehicleHEShellDamageResistance)s&zwnbsp;. &nbsp;{greenBright_Start}Vjerojatnost požara motora{greenBright_End} se smanjuje za %(vehicleFireChance)s, a {greenBright_Start}šteta vašem ovjesu{greenBright_End} za %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {greenBright_Start}upijanje štete HE granata{greenBright_End} za %(vehicleHEShellDamageResistance)s&zwnbsp;. Smanjuje {greenBright_Start}vjerojatnost požara motora{greenBright_End} za %(vehicleFireChance)s, a {greenBright_Start}štetu vašem ovjesu{greenBright_End} za %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Pouzdano postavljanje"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Ne utječe na preciznost nepomičnog vozila i na preciznost tijekom zakretanja kupole.\n\nSposobnost se može poboljšati smjernicom Zamršenost mjenjača. Preciznost pri paljbi u pokretu se može dodatno poboljšati montiranjem opreme sličnog učinka ili korištenjem smjernice Podmazivanje stabilizatora."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "{greenBright_Start}Rasipanje topa{greenBright_End} u paljbi u pokretu se smanjuje za %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Kada je potpuno obučena, smanjuje{greenBright_Start}rasipanje topa{greenBright_End} pri paljbi u pokretu za %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Majstor vožnje"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Povećava preciznost pucanja u pokretu."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Ova sposobnost utiče na brzinu popravka ovjesa od crvenog do žutog stanja unutar 50 m od savezničkog vozila."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "{yellow_Start}Brzina popravka ovjesa{yellow_End} će se povećati za %(suspensionRepairSpeed)s na udaljenostima od manje od 50 m od savezničkog vozila."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Povećana je brzina popravka ovjesa (saveznik je blizu)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {yellow_Start}brzinu popravka ovjesa{yellow_End} za %(suspensionRepairSpeed)s na udaljenostima od manje od 50 m od savezničkog vozila."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Terenska potpora"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Otpornost na požar vozila se može daljnje poboljšati montiranjem opreme i potrošnog materijala sličnog učinka. Sposobnost Vatrogastvo će ubrzati gašenje požara ako ga ima."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1%. Učinkovitost raste s daljnjom obukom."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "Umanjuje {greenBright_Start}vjerojatnost požara motora{greenBright_End} za %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Kada je potpuno obučena, umanjuje {greenBright_Start}vjerojatnost požara motora{greenBright_End} za %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Čistunac"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Umanjuje vjerojatnost požara motora."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Brzina zakretanja trupa se može daljnje pojačati montiranjem opreme ili potrošnog materijala sličnog učinka."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}Brzina zakretanja trupa{greenBright_End} se povećava za %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava{greenBright_Start}brzinu zakretanja trupa{greenBright_End} za %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Virtuoz"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Povećava brzinu zakretanja trupa."
+
+msgid "fireFighting/alt/description"
+msgstr "Ova sposobnost utječe na štetu primljenu od požara i njegovog trajanja.\n\nAko dva vezista imaju ovu sposobnost, primjenjuje se prosječna vrijednost razine obuke.\n\nSposobnost se može poboljšati smjernicom Iskusni vatrogasci."
+
+msgid "fireFighting/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}Brzina gašenja požara{greenBright_End} se povećava za %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {greenBright_Start}brzinu gašenja požara{greenBright_End} za %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Vatrogastvo"
+
+msgid "fireFighting/shortDescription"
+msgstr "Poboljšava vatrogasne sposobnosti."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Zadano, opseg potencijalne štete i probojnosti je ±25% od osnovnih vrijednosti. Primjerice, ako granata probija oklop do 100 mm i nanosi 100 HP štete, nakon pogotka mete, stvarna probojnost može varirati od 75 do 125 mm, a stvarna šteta od 75 do 125 HP. Smanjenje ovog modifikatora će vam dati rezultate pogotka koji se mogu bolje predvidjeti.\n\nAko dva topnika imaju ovu sposobnost, primjenjuje se prosječna vrijednost razine obuke."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Opsezi {greenBright_Start}potencijalne štete{greenBright_End} i {greenBright_Start}potencijalne probojnosti{greenBright_End} su smanjeni za {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s.{greenBright_Start} Rasipanje topa{greenBright_End} je smanjeno za %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Kada je potpuno obučena, smanjuje opsege {greenBright_Start}potencijalne štete{greenBright_End} i {greenBright_Start}potencijalne probojnosti{greenBright_End} za {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. Smanjuje {greenBright_Start}rasipanje topa{greenBright_End} za %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Majstor oružar"
+
+msgid "gunner_focus/alt/description"
+msgstr "Učinak počinje 3 s nakon što se vozilo zaustavi i poništava se po kretanju.\n\nAko dva topnika imaju ovu sposobnost, primjenjuje se prosječna vrijednost razine obuke."
+
+msgid "gunner_focus/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "{yellow_Start}Rasipanje topa{yellow_End} nepomičnog vozila će se smanjiti za %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Rasipanje topa je smanjeno."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Kada je potpuno obučena, smanjuje {yellow_Start}rasipanje topa{yellow_End} nepomičnog vozila za %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Koncentracija"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Umanjuje rasipanje topa nepomičnog vozila."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Rasipanje topa i brzina ciljanja se može još poboljšati obučavanjem sposobnosti posade ili montiranjem opreme sličnog učinka.\n\nAko dva topnika imaju ovu sposobnost, primjenjuje se prosječna vrijednost razine obučenosti."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "{yellow_Start}Rasipanje topa{yellow_End} će se smanjiti za %(vehicleGunAimSpeed)s, a {yellow_Start}brzina ciljanja{yellow_End} će se povećati za %(vehicleGunAimSpeed)s dok nema savezničkih vozila u polumjeru od 300 m."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Poboljšano je rasipanje topa i vrijeme ciljanja (nema saveznika blizu)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Kada je potpuno obučena, smanuje {yellow_Start}rasipanje topa{yellow_End} i povećava {yellow_Start}brzinu ciljanja{yellow_End} za %(vehicleGunAimSpeed)s dok nema savezničkih vozila u polumjeru od 300 m."
+
+msgid "gunner_loneWolf/name"
+msgstr "Vuk samotnjak"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Rasipanje topa je smanjeno. Brzina ciljanja je poboljšana."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Zadano, potencijalna najveća proobjnost je +25% od osnovne vrijednosti. Primjerice, ako granata probija oklop do 100 mm, nakon pogotka mete najveća moguća vrijednost probojnosti za ovaj pojedinačni hitac može biti 125 mm. Povećanje ovog modifikatora vodi ka učinkovitijim rezultatima proboja.\n\nAko dva topnika imaju ovu sposobnost, primjenjuje se prosječna vrijednost razine obučenosti."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "{yellow_Start}Maksimalna potencijalna probojnost{yellow_End} vaših granata će se povećati za %(piercingHEShellsDistributionUpperBound)s kada pucate na neprijateljska vozila udaljena manje od 50 m."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {yellow_Start}maksimalnu potencijalnu probojnost{yellow_End} za %(piercingHEShellsDistributionUpperBound)s kada pucate na neprijateljska vozila udaljena manje od 50 m."
+
+msgid "gunner_pointBlast/name"
+msgstr "Neposredno"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Povećava najveću potencijalnu probojnost vaših granata"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Ako dva topnika imaju ovu sposobnost, primjenjuje se prosječna vrijednost razine obuke.\n\nBrzina ciljanja se može dalje povećati obukom sposobnosti zapovjednika Koordinacija ili montiranjem opreme sličnog učinka.\n\nBrzina zakretanja kupole se može dalje povećati montiranjem opreme ili potrošnog materijala sličnog učinka."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}Brzina ciljanja{greenBright_End} i {greenBright_Start}brzina zakretanja kupole{greenBright_End} je povećana za %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {greenBright_Start}brzinu ciljanja{greenBright_End} i {greenBright_Start}brzinu zakretanja kupole{greenBright_End} za %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Brzo ciljanje"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Brzina ciljanja je povećana."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Identificira kritično oštećene module na ciljanim vozilima unutar topnikovog vidokruga u režimima izravne i neizravne paljbe.\nPodručje pregleda topnika je definirano sektorom ±10° (ukupno 20°) ispred topa vozila i njegovim viokrugom.\nAko dva topnika imaju ovu sposobnost, primjenjuje se prosječna vrijednost razine obuke.\nSposobnost se može dalje poboljšati smjernicom Koncentracija na metu. Korištenje poboljšane radio opreme će još povećati vrijeme prije nego što neprijatelj više nije vidljiv."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "{greenBright_Start}Vrijeme{greenBright_End} prije nego neprijateljsko {greenBright_Start}vozilo više nije vidljivo{greenBright_End} unutar područja pregleda topnika se povećava za %(vehicleEnemySpottingTime)s. Vrijeme do {yellow_Start}identificiranja oštećenih modula{yellow_End} se smanjuje na %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {greenBright_Start}vrijeme{greenBright_End} prije nego neprijateljsko {greenBright_Start}vozilo više nije vidljivo{greenBright_End} unutar područja pregleda topnika za %(vehicleEnemySpottingTime)s. Omogućava {yellow_Start}identifikaciju oštećenih modula{yellow_End} s %(damageMonitoringDelay)s odgode."
+
+msgid "gunner_rancorous/name"
+msgstr "Osvetnik"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Povećava vrijeme prije nego neprijateljsko vozilo više nije vidljivo unutar područja pregleda topnika. Omogućuje identifikaciju oštećenih modula."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Ako dva topnika imaju istu sposobnost, primjenjuje se prosječna vrijednost razine obuke.\n\nSposobnost se može poboljšati smjernicom Mirna ruka. Rasipanje tijekom rotacije kupole se može dalje umanjiti montiranjem opreme sličnog učinka ili korištenjem smjernice Podmazivanje stabilizatora."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "{greenBright_Start}Rasipanje topa{greenBright_End} tijekom rotacije kupole se smanjuje za %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Kada je potpuno obučena, smanjuje {greenBright_Start}rasipanje topa{greenBright_End} tijekom rotacije kupole za %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Mirne ruke"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Umanjuje rasipanje topa tijekom rotacije kupole."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Učinak djeluje za sve tipove granata osim u vozilima s automatskim topovima.\n\nAko dva topnika imaju ovu sposobnost, primjenjuje se prosječna vrijednost obuke."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "{greenBright_Start}Vjerojatnost kritičnog oštećenja{greenBright_End} {greenBright_Start}modula neprijateljskog vozila{greenBright_End} i ozljeđivanje {greenBright_Start}neprijateljskih članova posade{greenBright_End} svim tipovima granata se povećava za %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {greenBright_Start}vjerojatnost kritičnog oštećivanja{greenBright_End} {greenBright_Start}modula neprijateljskog vozila{greenBright_End} i ozljeđivanje {greenBright_Start}neprijateljskih članova posade{greenBright_End} svim tipovima granata za %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Snajper"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Zadano, opseg potencijalne štete i probojnosti je ±25% od osnovnih vrijednosti. Primjerice, ako granata probija oklop do 100 mm i nanosi 100 HP štete, nakon pogotka mete, najmanja moguća vrijednost probojnosti jednog hica može biti 75 mm i najmanja moguća vrijednost štete 75 HP. Povećanje ovog modifikatora vodi ka učinkovitijim rezultatima paljbe.\n\nAko dva punitelja imaju ovu sposobnost, primjenjuje se prosječna vrijednost razine obuke."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "{greenBright_Start}Minimalna potencijalna šteta{greenBright_End} i {greenBright_Start}minimalna potencijalna probojnost{greenBright_End} se povećavaju za %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {greenBright_Start}minimalnu potencijalnu štetu{greenBright_End} i {greenBright_Start}minimalnu potencijalnu probojnost{greenBright_End} za %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Podešavanje ciljanja"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Povećava prosječne vrijednosti štete i probojnosti."
+
+msgid "loader_desperado/alt/description"
+msgstr "Ako dva punitelja imaju ovu sposobnost, primjenjuje se prosječna vrijednost razine obuke.\n\nVrijeme punjenja topa se može dalje umanjiti obučavanjem puniteljeve sposobnosti Bliska borba ili montiranjem opreme sličnog učinka. Korištenje smjernice Uredno skladište streljiva poboljšava učinak."
+
+msgid "loader_desperado/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "{yellow_Start}Vrijeme punjenja topa{yellow_End} će se umanjiti za %(vehicleGunReloadTime)s ako vaše vozilo ima manje od 25% HP."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Vrijeme punjenja topa je smanjeno (niska izdržljivost vozila)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Kada je potpuno obučena, umanjuje {yellow_Start}vrijeme punjenje topa{yellow_End} za %(vehicleGunReloadTime)s ako vozilo ima manje od 25% HP."
+
+msgid "loader_desperado/name"
+msgstr "Očajnik"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Ubrzava punjenje topa ako vozilo ima manje od 25% HP."
+
+msgid "loader_intuition/alt/description"
+msgstr "Za uključivanje ove sposobnosti, top, oba topa ili spremnik moraju biti potpuno napunjeni. Minimalno vrijeme promjene tipa granate za standardne topove je 1 s; za topove s dvostrukom cijevi i topove sa spremnicima je 2,5 s.\n\nAko dva punitelja imaju ovu sposobnost, primjenjuje se prosječna vrijednost razine obuke."
+
+msgid "loader_intuition/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "{greenBright_Start}Vrijeme promjene tipa granate{greenBright_End} u napunjenom topu se umanjuje za %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Vrijeme promjene tipa granate u napunjenom topu je umanjeno.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Kada je potpuno obučena, umanjuje {greenBright_Start}vrijeme promjene tipa granata{greenBright_End} u punom topu za %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Predosjećaj"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Značajno povećava brzinu promjena tipa granata u napunjenom topu."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Ova sposobnost smanjuje vrijeme punjenja samo za topove sa spremnikom i ne utječe na ostale sustave topova.\n\nAko dva punitelja imaju ovu sposobnost, primjenjuje se prosječna vrijednost razine obučenosti."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "{greenBright_Start}Vrijeme punjenja{greenBright_End} spremnika se smanjuje za %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Kada je potpuno obučena, smanjuje {greenBright_Start}vrijeme punjenja{greenBright_End} spremnika za %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "Majstorstvo spremnika"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Smanjuje vrijeme punjenja vaših spremnika"
+
+msgid "loader_melee/alt/description"
+msgstr "Ako dva punitelja imaju ovu sposobnost, primjenjuje se prosječna vrijednost razine obuke.\n\nVrijeme punjenja topa se može dalje umanjiti obučavanjem puniteljeve sposobnosti Očajnik ili montiranjem opreme sličnog učinka. Korištenje smjernice Uredno skladište streljiva poboljšava učinak."
+
+msgid "loader_melee/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "{yellow_Start}Vrijeme punjenja topa{yellow_End} će se umanjiti za %(vehicleGunReloadTime)s na udaljenostima manjim od 50 m od neprijateljskog vozila."
+
+msgid "loader_melee/hudDescription"
+msgstr "Vrijeme punjenja topa je umanjeno (neprijatelj je blizu).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Kada je potpuno obučena, umanjuje {yellow_Start}vrijeme punjenja topa{yellow_End} za %(vehicleGunReloadTime)s na udaljenostima manjim od 50 m od neprijateljskog vozila."
+
+msgid "loader_melee/name"
+msgstr "Bliska borba"
+
+msgid "loader_melee/shortDescription"
+msgstr "Ubrzava punjenje topa u bliskoj borbi."
+
+msgid "loader_pedant/alt/description"
+msgstr "Ozliljeđeni punitelj ne utječe na učinkovitost sposobnosti.\n\nAko dva punitelja imaju istu sposobnost, primjenjuje se prosječna vrijednost razine obuke.\n\nSposobnost se može poboljšati korištenjem smjernice Organizator granata. Izdržljivost spremnika streljiva se može daljnje povećati montiranjem opreme sličnog učinka."
+
+msgid "loader_pedant/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}Izdržljivost spremnika streljiva{greenBright_End} je povećana za %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {greenBright_Start}izdržljivost spremnika streljiva{greenBright_End} za %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Sigurno spremište streljiva"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Povećava izdržljivost spremnika streljiva."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Učinak djeluje za sve tipove granata.\n\nOzlijeđeni punitelj ne utječe na učinkovitost sposobnosti.\n\nAko dva punitelja imaju istu sposobnost, primjenjuje se prosječna vrijednost razine obuke."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}Brzina granate{greenBright_End} se povećava za %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {greenBright_Start}brzinu granate{greenBright_End} za %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Savršeni naboj"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Ova sposobnost nema učinak na topove sa spremnicima ili autotopove i ne naslaguje se za dvostruke topove.\n\nZa topove sa selektivnim sustavima punjenja ako se ispaljuje iz obje cijevi i nijedna ne uzrokuje štetu, smanjenje vremena punjenja topa se primjenjuje na obje cijevi. \n\nAko dva punitelja imaju ovu sposobnost, primjenjuje se prosječna vrijednost razine obučenosti.\n\nVrijeme punjenja topa se može još smanjiti obukom puniteljove sposobnosti Očajnik ili Bliska borba ili montiranjem opreme sličnog učinka. Korištenje smjernice Uredno skladište streljiva poboljšava učinak."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "{yellow_Start}Vrijeme punjenja topa{yellow_End} će se smanjiti za %(vehicleGunReloadTime)s za slijedeću granatu ako prethodni hitac nije nanio štetu neprijateljskom vozilu."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Vrijeme punjenja topa je smanjeno (promašeni hitac)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Kada je potpuno obučena, smanjuje {yellow_Start}vrijeme punjenja topa{yellow_End} za %(vehicleGunReloadTime)s za slijedeću granatu ako prethodni hitac nije nanio štetu neprijateljskom vozilu."
+
+msgid "loader_secondChance/name"
+msgstr "Druga prilika"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Smanjuje vrijeme punjenja topa"
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Braća po oružju"
+
+msgid "perkRole/commander"
+msgstr "Zapovjednik"
+
+msgid "perkRole/common"
+msgstr "Grupa"
+
+msgid "perkRole/driver"
+msgstr "Vozač"
+
+msgid "perkRole/gunner"
+msgstr "Topnica"
+
+msgid "perkRole/loader"
+msgstr "Puniteljica"
+
+msgid "perkRole/radioman"
+msgstr "Vezistica"
+
+msgid "popularity/tooltip/common"
+msgstr "od svih igrača"
+
+msgid "popularity/tooltip/header"
+msgstr "Za ovo vozilo, preferirano"
+
+msgid "popularity/tooltip/legendary"
+msgstr "od WTR Legend igrača"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Ako dva vezista imaju ovu sposobnost, primjenjuje se prosječna vrijednost razine obučenosti.\n\nUčinak se može još poboljšati zapovjednikovom sposobnosti Detekcija zvuka."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Svaki put kada posada vozila ošamućena, {greenBright_Start}negativni učinak ošamućenja{greenBright_End} će se smanjiti za %(stunResistanceEffectFactor)s, do najviše 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Kada je potpuno obučena, svaki put kada je posada vozila ošamućena, smanjuje {greenBright_Start}negativni učinak ošamućenja{greenBright_End} za %(stunResistanceEffectFactor)s&nbsp;, do najviše 30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Kaljen u bitci"
+
+msgid "radioman_expert/alt/description"
+msgstr "Bonus učinkovitosti posade poboljšava učinkovitost člana posade u bitci. Ako dva vezista imaju istu sposobnost, primjenjuje se prosječna vrijednost razine obuke. Ovaj parametar se može dalje povećati montiranjem opreme ili potrošnog materijala sličnog učinka ili korištenjem smjernice Pročišćenje provjetravanja. Grupna sposobnost Braća po oružju, kao i sposobnosti zapovjednika Nužda ili vezista Rame uz rame također mogu povećati parametar."
+
+msgid "radioman_expert/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "{yellow_Start}Bonus učinkovitosti posade{yellow_End} će se povećati za %(crewLevelIncrease)s ako je količina štete koju potpomognete veća od početnog HP vašeg vozila&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Bonus učinkovitosti posade se povećava (prebačeno je dovoljno podataka izviđanja)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {yellow_Start}bonus učinkovitosti posade{yellow_End} za %(crewLevelIncrease)s ako je količina štete koju potpomognete veća od početnog HP vašeg vozila&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Komunikacijski stručnjak"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Poboljšana izvedba posade."
+
+msgid "radioman_finder/alt/description"
+msgstr "Ako dva vezista imaju istu sposobnost, primjenjuje se prosječna vrijednost razine obuke.\n\nVidokrug se može daljnje povećati izučavanjem sposobnosti Izviđanje ili montiranjem opreme sličnog učinka. Korištenje smjernice Kalibracija optike poboljšava učinak."
+
+msgid "radioman_finder/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}Vidokrug{greenBright_End} se povećava za %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {greenBright_Start}vidokrug{greenBright_End} za %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Situacijska svjesnost"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Povećava vidokrug."
+
+msgid "radioman_interference/alt/description"
+msgstr "Ako dva vezista imaju istu sposobnost, primjenjuje se prosječna vrijednost razine obuke.\n\nVrijeme dok vaše vozilo ostaje otkriveno se može dalje umanjiti montiranjem opreme sličnog učinka."
+
+msgid "radioman_interference/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "{greenBright_Start}Vrijeme dok vaše vozilo ostaje otkriveno{greenBright_End} od strane neprijatelja se umanjuje za %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Kada je potpuno obučena, umanjuje {greenBright_Start}vrijeme dok vaše vozilo ostaje otkriveno{greenBright_End} od strane neprijatelja za %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Ometanje"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Umanjuje vrijeme vidljivosti vašeg vozila neprijatelju."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Ako dva vezista imaju istu sposobnost, primjenjuje se samo veća vrijednost. Učinak je aktivan samo ako je vezist neozlijeđen prilikom uništenja vozila.\n\nSposobnost se može daljnje poboljšati smjernicom Dužnost je prva."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1%. Učinkovitost raste s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Vezist može {yellow_Start}prijaviti neprijateljske položaje{yellow_End} za slijedećih %(radiomanDurationPerLevel)s nakon što je vaše vozilo uništeno."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Prijava položaja."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Kada je potpuno obučena, omogućuje {yellow_Start}prijavu neprijateljskih položaja{yellow_End} za slijedećih %(radiomanDurationPerLevel)s nakon što je vaše vozilo uništeno."
+
+msgid "radioman_lastEffort/name"
+msgstr "Zov na osvetu"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Na kratko vrijeme nakon uništenja vašeg vozila, prijavljuje neprijateljske položaje."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Bonus učinkovitosti posade poboljšava učinkovitost člana posade u bitci. Ako dva vezista imaju istu sposobnost, primjenjuje se prosječna vrijednost razine obuke. Ovaj parametar se može dalje povećati montiranjem opreme ili potrošnog materijala sličnog učinka ili korištenjem smjernice Pročišćenje provjetravanja. Grupna sposobnost Braća po oružju, kao i sposobnosti zapovjednika Nužda ili vezista Komunikacijski stručnjak također mogu povećati parametar."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "{yellow_Start}Bonus učinkovitosti posade{yellow_End} će se povećati za %(crewLevelIncrease)s na udaljenostima manjim od 50 m od savezničkog vozila istog tipa&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Bonus učinkovitosti posade se povećava (blizu je saveznik istog tipa)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {yellow_Start}bonus učinkovitosti posade{yellow_End} za %(crewLevelIncrease)s na udaljenostima manjim od 50 m od savezničkog vozila istog tipa&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Rame uz rame"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Poboljšana izvedba posade."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Učinak poboljšava zapovjednikovu posebnu značajku Šesto čulo tako da ubrzava njeno uključenje.\n\nAko dva vezista imaju istu sposobnost, primjenjuje se prosječna vrijednost razine obuke."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Sposobnost se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "{greenBright_Start}Vrijeme određivanja{greenBright_End} je li {greenBright_Start}vaše vozilo otkriveno{greenBright_End} od strane neprijatelja se povećava za %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Kada je potpuno obučena, umanjuje {greenBright_Start}vrijeme određivanja {greenBright_End} je li {greenBright_Start}vaše vozilo otkriveno {greenBright_End} od strane neprijatelja za %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Prisluškivanje signala"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Ova sposobnost se uključuje kada obavijest Šesto čulo pokazuje da je vaše vozilo opaženo.\n\nAko dva vezista imaju ovu sposobnost, primjenjuje se prosječna vrijednost razine obučenosti.\n\nVidokrug se može još poboljšati obukom sposobnosti Izviđanje ili Situacijska svjesnost ili montiranjem opreme sličnog učinka. Korištenje smjernice Kalibracija optike poboljšava učinak."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Sposobnost sa sitaucijskim učinkom se uključuje kada je obučena na najmanje 1% i povećava svoju učinkovitost s daljnjom obukom. Situacijski učinak se uključuje kada su ispunjeni određeni uvjeti u bitci."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "{yellow_Start}Vidokrug{yellow_End} će se povećati za %(vehicleCircularVisionRadius)s na 5 s nakon primitka obavijesti Šesto čulo."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Vidokrug je povećan."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Kada je potpuno obučena, povećava {yellow_Start}vidokrug{yellow_End} za %(vehicleCircularVisionRadius)s na 5 s nakon primitka obavijesti Šesto čulo."
+
+msgid "radioman_threatSearch/name"
+msgstr "Potraga za prijetnjom"
+
+msgid "repair/alt/description"
+msgstr "Ova sposobnost utječe na popravak unutarnjih i vanjskih modula iz \"crvenog\" u \"žuto\" stanje.\n\nOvaj parametar se može daljnje poboljšati montiranjem opreme ili potrošnog materijala sličnog učinka."
+
+msgid "repair/alt/info"
+msgstr "Za grupne sposobnosti, računa se prosječna obuka među svim članovima posade. Uključuje se kada je obučena na najmanje 1% i povećava učinkovitost s daljnjom obukom."
+
+msgid "repair/currentLvlDescription"
+msgstr "{greenBright_Start}Brzina popravka{greenBright_End} oštećenih modula vašeg vozila se povećava za %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Kada je potpuno obučena za sve članove posade, povećava {greenBright_Start}brzinu popravka{greenBright_End} oštećenih modula vozila za %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Popravci"
+
+msgid "repair/shortDescription"
+msgstr "Povećava brzinu popravaka oštećenih modula."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Braća po oružju"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Popularan"
+
+msgid "sorting/fallback"
+msgstr "Zadani"
+
+msgid "sorting/legendary"
+msgstr "Legendarno"
+
+msgid "sorting/title"
+msgstr "Poredano po:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPopularan.%(whiteSpanish_Close)s Na osnovi trenutnih trendova sposobnosti među svim World of Tanks igračima"
+
+msgid "sorting/tooltip/header"
+msgstr "WoT Plus prednosti"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Primite točne podatke o sposobnostima posade na osnovi milijuna igara i izvucite najviše iz svake bitke."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendaran.%(whiteSpanish_Close)s Na osnovi sposobnosti koju trenutno preferiraju igrači na Legend WTR razini"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Sortiranje sposobnosti isključeno"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Nema dostupnih podataka"
+
+msgid "sorting/tooltip/title"
+msgstr "Pomoćnik posade"
+
+msgid "sorting/tooltip/types"
+msgstr "Tipovi sortiranja sposobnosti"
+
+msgid "sorting/tooltip/warning"
+msgstr "Sortiranje sposobnosti nije dostupno"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Potpuni podaci o sposobnosti nisu dostupni za ovo vozilo pa je primjenjeno zadano sortiranje sposobnosti."
+
+msgid "witches_brotherhood/name"
+msgstr "Družina"
+
+msgid "yha_brotherhood/name"
+msgstr "Bratstvo zečeva"

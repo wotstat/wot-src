@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Taktikai eszköz"
+
+msgid "open_artefact/server_error"
+msgstr "A művelet átmenetileg nem érhető el. Próbálkozz újra később!"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Nem sikerült feltölteni a taktikai eszközöket ehhez: %s. Technikai hiba."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Nem sikerült feltölteni a taktikai eszközöket ehhez: %s. Nincs fedezet."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "%s taktikai eszközei feltöltve. Ennyit költöttél: "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Dekódolható feljegyzések érhetők el"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Mód: Túlélő: Terra Nord"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Túlélő: Terra Nord (normál)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Túlélő: Terra Nord (haladó)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Túlélő: Terra Nord (brutális)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Nehézség"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Normál"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Haladó"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Brutális"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Adat"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Feladat teljesítve!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Feladatok teljesítve!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Jármű"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Teljesített hullámok: %(maxPhases)s/%(curPhase)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Elköltöttél: %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Pénzügyi tranzakció"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "A nehézségi szintet a Túlélő garázsában látható nehézségiszint-panelen választhatod ki."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Feloldottad a haladó nehézségi szintet"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "A nehézségi szintet a Túlélő garázsában látható nehézségiszint-panelen választhatod ki."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Feloldottad a brutális nehézséget"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "A módot a Túlélő: Pandóra hadművelet garázsának nehézségiszint-panelén választhatod ki."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Túlélő mód feloldva"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Kódfejtő kulcsokat kaptál: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Nyugta"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Kulcsok eltávolítva: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Sikeres dekódolás"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "A Túlélő csatái átmenetileg nem érhetők el.\nPróbálkozz újra később."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "A %(difficulty)s nehézségű csaták átmenetileg nem érhetők el. Próbáld meg újra később."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "A Túlélő átmenetileg nem érhető el. Látogass el a játékportálra a legfrissebb információkért."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "A szakaszparancsnok megváltoztatta a nehézségi szintet erre: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "%(userName)s játékos még nem oldotta fel az egyik nehézségi szintet."

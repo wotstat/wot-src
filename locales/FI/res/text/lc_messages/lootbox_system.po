@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "Miehistö ja koulutus"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "Muok.elementit"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "Varusteet ja direktiivit"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "Muut"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "Ajoneuvoja"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "Selvä!"
+
+msgid "autoOpenView/title"
+msgstr "SAADUT PALKINNOT"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Selvä!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "Direktiivi"
+
+msgid "bonuses/description/booster"
+msgstr "Henkilökohtainen reservi"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Miehistöskini"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Tavallinen varuste"
+
+msgid "bonuses/description/style"
+msgstr "Kaksiulotteinen tyyli"
+
+msgid "bonuses/description/style3D"
+msgstr "Kolmiulotteinen tyyli"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "Piirustuksen palanen (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "Yleinen piirustuksen palanen"
+
+msgid "bonuses/label/bpcoin"
+msgstr "Taistelupassin poletti"
+
+msgid "boxTooltip/description/text/default"
+msgstr "Saattaa avatessa antaa vaunuja, talousresursseja ja muita arvotavaroita.\nLaatikot ovat saatavilla pelinsisäisestä Kaupasta."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "avaamista jäljellä ennen takuupalkintoa, jos sellaista ei saa aiemmin."
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "Laatikot ovat saatavilla pelinsisäisestä Kaupasta."
+
+msgid "common/backButton"
+msgstr "TAKAISIN"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "Taktinen laatikko"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "TAKTINEN LAATIKKO"
+
+msgid "common/closeButton"
+msgstr "SULJE"
+
+msgid "common/footer/checkbox"
+msgstr "Avausanimaatio"
+
+msgid "common/getButton/lowerCase"
+msgstr "Hanki lisää"
+
+msgid "common/getButton/upperCase"
+msgstr "HANKI LISÄÄ"
+
+msgid "common/infoButton"
+msgstr "Mitä sisältä löytyy?"
+
+msgid "common/loader"
+msgstr "Laatikon avaaminen..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) kpl"
+msgstr[1] "%(count) kpl"
+msgstr[2] "%(count) kpl"
+
+msgid "common/rewards/multiplier"
+msgstr "x{count}"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "päivä"
+msgstr[1] "päivää"
+msgstr[2] "päivää"
+
+msgid "common/selectTooltip"
+msgstr "Ei riittävästi laatikoita, jotta voisit avata {{count}} kerralla"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Avaa laatikoita nähdäksesi tilastot."
+
+msgid "common/statistics/header"
+msgstr "Laatikoita avattu: %(count)"
+
+msgid "common/statsButton"
+msgstr "Tilastot"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "Peruuta"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Palkintohistoriasi poistetaan."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "Nollaa"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "Nollaa tilastot?"
+
+msgid "entryPoint/boxes"
+msgstr "LAATIKOIHIN"
+
+msgid "entryPoint/count"
+msgstr "x%(count)"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "x999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Nämä ovat erikoislaatikoita, jotka sisältävät uusia ja ainutlaatuisia tavaroita. Niitä voi hankkia pelinsisäisestä Kaupasta."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Tapahtuman päättymiseen"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Törmäsimme tekniseen ongelmaan ja olemme laittaneet tapahtuman hetkellisesti tauolle korjausten ajaksi."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Väliakaisesti pois käytöstä"
+
+msgid "eventName/lowerCase"
+msgstr "Taistelukentän tarvikkeet"
+
+msgid "eventName/upperCase"
+msgstr "TAISTELUKENTÄN TARVIKKEET"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "joka %(count) avauksesta"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "Vaunu"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "%(item) on taattu %(count). Laskuri nollautuu, jos sen saa aikaisemmin."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Jos omistat jo kaikki vaunut, saat sen sijaan kultaa."
+
+msgid "guaranteedTitle/text"
+msgstr "%(name) %(count) avauksesta"
+
+msgid "guaranteedTitle/textName"
+msgstr "Taattu palkinto"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "Avaa"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "Tapahtuman päättymiseen %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Mikäli et avaa kaikkia laatikoita ennen tapahtuman päättymistä, ne avataan automaattisesti myöhemmin."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Mikäli omistat jo kaikki vaunut laatikon mahdollisen sisällön listalta, hyvitetään kaikki seuraavat vaunut, jotka saat laatikoista, kullalla niiden täyden arvon mukaan."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Joka %(guaranteed0)s. laatikko sisältää taatusti tason VIII-X vaunun. Jos avaat niitä saamatta tällaista vaunua, saat sellaisen tason VIII-X vaunun, jota et vielä omista, kun avaat %(guaranteed0)s&zwnbsp;. laatikon (laatikosta riippuen). Kun näin käy, laskuri nollautuu."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Automaattinen avaus"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Hyvitys"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Taattu palkinto"
+
+msgid "infoPage/header/lootListLink"
+msgstr "Katso lista tavaroista pelin portaalista"
+
+msgid "infoPage/header/probability/description"
+msgstr "Saamisen todennäköisyys"
+
+msgid "infoPage/header/probability/title"
+msgstr "Ryhmä"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Saada voi vain yhden palkinnon per ryhmä"
+
+msgid "infoPage/header/rewards/title"
+msgstr "Palkinnot"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "Avaa lisää"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "\"%(name)\" -laatikosta (%(boxesCount) laatikkoa avattu)"
+
+msgid "multipleRewardView/header/title/"
+msgstr "SAADUT PALKINNOT"
+
+msgid "noBoxesView/description/"
+msgstr "Laatikot ovat saatavilla pelinsisäisestä Kaupasta"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "Kauppaan"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Saatavilla oleviin laatikoihin"
+
+msgid "preview/backLabel"
+msgstr "LAATIKOIHIN"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Saatavilla: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Ei enempää laatikoita"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "Jatka"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "%(vehicleInfo) vaunulle"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "kolmiulotteinen \"%(style)\" -tyylisi"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "\"%(eventName)s\" -tapahtuma on päättynyt"
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "Kaikki jäljellä olevat laatikot avataan. Niiden sisältö lisätään tilillesi."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Näytä palkinnot"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Palkintoja saatu"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Olemme lisänneet tavarat, joita et saanut tapahtuman aikana."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "Tapahtuma on väliaikaisesti pois käytöstä huoltotoimien tähden."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "Tapahtuma on jälleen saatavilla. Pahoittelemme häiriötä."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s kpl)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "Saadut palkinnot:"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "Virhe"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "Ole hyvä ja odota kunnes edellinen toiminto valmistuu."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "Toiminto ei ole väliaikaisesti saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "serviceChannelMessages/start/button"
+msgstr "Mene tapahtumaan"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "\"%(eventName)s\" -tapahtuma on alkanut"
+
+msgid "serviceChannelMessages/start/text"
+msgstr "Aikaa vain %(date)s asti: Premium-vaunuja ja arvokkaita pelihyödykkeitä!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "Tilastojen nollaus ei onnistu. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "Ja myös"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "Avaa lisää"
+
+msgid "singleRewardView/header/title/"
+msgstr "SAADUT PALKINNOT"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "Ainutlaatuinen miehistön jäsen"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "Kolmiulotteiset lisävarusteet"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "Tehtäviä x5 kokemukseen per taistelu"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "Direktiivejä"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "Piirustusten palasia"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "Vihkot"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "Koulutusvihkot"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "Kulutustarvikkeita"
+
+msgid "statisticsRewards/label/credits"
+msgstr "Krediittejä"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "Ohjeet"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "Koulutusohjeet"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "Tehtäviä x3 miehistökokemukseen"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "Arvopapereita"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "Muok.elementtejä"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "Paranneltuja varusteita"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "Komponentteja"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "Kokeellisia varusteita"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "Vapaata kokemusta"
+
+msgid "statisticsRewards/label/gold"
+msgstr "Kultaa"
+
+msgid "statisticsRewards/label/guide"
+msgstr "Oppaat"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "Koulutusoppaat"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "Opetuslupa"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "Tavallinen varuste"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "Henkilökohtaisia reservejä"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "WoT Premium-tiliä"
+
+msgid "statisticsRewards/label/rations"
+msgstr "Eväitä"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "Uudelleenkoulutuskäskyt"
+
+msgid "statisticsRewards/label/style"
+msgstr "Kaksiulotteisia tyylejä"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "Kolmiulotteisia tyylejä"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "Miehistön jäseniä"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "Palkkiovarusteita"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "Ajoneuvoja"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "Nollaa tilastot"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "Klikkaa nollataksesi kaikki tilastot."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "Ja vielä %(count) palkinto."
+msgstr[1] "Ja vielä %(count) palkintoa."
+msgstr[2] "Ja vielä %(count) palkintoa."
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "\"%(label)\""
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "x%(count)"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "Kansallinen piirustusten palanen"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). \"%(label)\" %(vehicleInfo) vaunulle"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "Hyvitetyt tyylit: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "Hyvitetyt vaunut: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "Hyvitys vaunusta, joka sinulla on jo tallissasi."

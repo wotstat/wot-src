@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Bekræftet!"
+
+msgid "attachments_preview/description"
+msgstr "Sæt med 3D-tilbehør"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Episk 3D-tilbehør"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Legendarisk 3D-tilbehør"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Sjældent 3D-tilbehør"
+
+msgid "bundle/name"
+msgstr "Mystisk marked"
+
+msgid "bundle/name_uppercased"
+msgstr "MYSTISK MARKED"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Afbryd"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Køb"
+
+msgid "confirmation/description"
+msgstr "Bekræft for at modtage obligationer og en ny vinduesbelønning."
+
+msgid "confirmation/purchase"
+msgstr "Køb for {{price}} ?"
+
+msgid "entryPoint/button"
+msgstr "Gå til event"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} er her. Tjek den ud!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Når du køber obligationer under {{eventName}}, vil du modtage en belønning fra et af de uåbnede vinduer som en bonusgave. Vinduer indeholder værdifulde in-game ting — inklusive eventets primære belønning: et premium køretøj."
+
+msgid "intro/cards/description/c_2"
+msgstr "Belønninger tildeles i tilfældig rækkefølge. Hvert uåbnet vindue har sin egen sandsynlighed for at blive udvalgt, og alle sandsynligheder giver altid 100% i alt. Når et vindue er blevet åbnet, kan det ikke åbnes igen, og chancen for at modtage de tilbageværende belønninger forøges."
+
+msgid "intro/cards/description/c_3"
+msgstr "Hvert trin koster en vis mængde guld. Både antallet af obligationer og prisen på trinnet varierer alt efter dit fremskridt."
+
+msgid "intro/cards/link"
+msgstr "Se betingelserne og priserne på hvert trin på {{@ class 'linkPart'}}portalen.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Køb af obligationer"
+
+msgid "intro/cards/title/c_2"
+msgstr "Vinduer og sandsynlighed"
+
+msgid "intro/cards/title/c_3"
+msgstr "Priser på trin"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "DIN BELØNNING VENTER"
+
+msgid "main/alt/description"
+msgstr "Se sandsynlighed"
+
+msgid "main/alt/tooltip/body"
+msgstr "Tryk på Alt-tasten for at se sandsynligheden for at modtage hvert vindue."
+
+msgid "main/alt/tooltip/header"
+msgstr "Sandsynlighedsvisning"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "TILLYKKE! \n DU HAR MODTAGET ALLE BELØNNINGERNE"
+
+msgid "main/footer/button"
+msgstr "Køb"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}Belønning fra et vindue"
+
+msgid "main/footer/receive"
+msgstr "Du modtager: {{item}}"
+
+msgid "main/header/description"
+msgstr "Deltag i eventet fra {{startDate}} til {{endDate}} og snup belønninger!"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Gå til tilpasning"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Gå til stil"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Gå til køretøj"
+
+msgid "notifications/specialReward/title"
+msgstr "Den primære {{eventName}}-belønning er din!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Yderligere belønninger:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Modtaget:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Denne operation er midlertidigt utilgængelig af tekniske årsager. Prøv igen senere."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Til event"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s slutter snart!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Eventet er tilgængeligt indtil: %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "%(eventName)s-vindue åbnet"
+
+msgid "tooltips/entry/description"
+msgstr "Din belønning venter! Hvert køb af obligationer giver dig en tilfældig belønning fra et vindue som en gave. Du åbner et nyt vindue hver gang, da dem, du allerede har åbnet, bliver elimineret."
+
+msgid "tooltips/entry/timer"
+msgstr "Eventet vil være tilgængeligt i {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "Om event"
+
+msgid "tooltips/steps/description"
+msgstr "For hvert køb får du mere {{currency}}. Mængden du modtager forøges ved bestemte købsgrænser."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} for hvert køb"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Trin:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} — {{end}}"

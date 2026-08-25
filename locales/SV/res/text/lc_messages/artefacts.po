@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT-översättare <noreply@wargaming.net>\nLanguage-Team: WoT-teamet <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "actionStub/name"
+msgstr "Anpassning"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "Återställer omedelbart %(immediatelyRestore)s av vagnens träffpoäng. Förmågan är aktiv under %(duration)s s och all inkommande skada från granater och stridsförmågor samlas in för att konverteras till träffpoäng för vagnen när förmågan upphör, plus %(restoringCoefficient)s av den totala skadan som bonus.\n\n*Konverterade träffpoäng gäller även för allierade vagnar inom ett kort avstånd."
+
+msgid "adaptationHealthRestore/descr"
+msgstr "Återställer omedelbart %(immediatelyRestore)s av vagnens träffpoäng. Förmågan är aktiv under %(duration)s s och all inkommande skada från granater och stridsförmågor samlas in för att konverteras till träffpoäng för vagnen när förmågan upphör, plus %(restoringCoefficient)s av den totala skadan som bonus.\n\n*Konverterade träffpoäng gäller även för allierade vagnar inom ett kort avstånd."
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "{green_Open}Återställer omedelbart %(immediatelyRestore)s{green_Close} av vagnens träffpoäng. Förmågan är aktiv under {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} och all inkommande skada från granater och stridsförmågor samlas in för att konverteras till träffpoäng för vagnen när förmågan upphör, {green_Open}plus %(restoringCoefficient)s av den totala skadan som bonus{green_Close}.\n\n*Konverterade träffpoäng gäller även för allierade vagnar inom ett kort avstånd."
+
+msgid "adaptationHealthRestore/name"
+msgstr "Adaptivt pansar"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "{green_Open}Återställer omedelbart %(immediatelyRestore)s{green_Close} av vagnens träffpoäng. Förmågan är aktiv under {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} och all inkommande skada från granater och stridsförmågor samlas in för att konverteras till träffpoäng för vagnen när förmågan upphör, {green_Open}plus %(restoringCoefficient)s av den totala skadan som bonus{green_Close}.\n\n*Konverterade träffpoäng gäller även för allierade vagnar inom ett kort avstånd."
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s extra kamouflage för vagnar, både stillastående och i rörelse, med Ljuddämpat avgassystem (oavsett klass) eller Erövrat avgassystem monterat."
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "Ökar effekten av Ljuddämpat avgassystem eller Erövrat avgassystem under hela striden. Anvisningen fungerar bara om du har angiven utrustning monterad på vagnen."
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "Avgasisolering"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "Ökar kamouflagevärde för vagnen oavsett om den är stillastående eller i rörelse"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "Effektiviteten beror på vagnstyp. Ökar kamouflagevärdet för vagnen oavsett om den är stillastående eller i rörelse. Användbar för aktiv spaning såväl som passiv spaning från utsatta positioner."
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "Ljuddämpat avgassystem"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "Ökar kamouflagevärde för vagnen oavsett om den är stillastående eller i rörelse."
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "Ljuddämpat avgassystem klass 1"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "Ljuddämpat avgassystem klass 2"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "Ljuddämpat avgassystem klass 3"
+
+msgid "additional_armor_plates_1/name"
+msgstr "Tilläggspansar (typ 1)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "Tilläggspansar (typ 2)"
+
+msgid "afterburning/descr"
+msgstr "Ökar vagnens hastighet och acceleration under en begränsad tid."
+
+msgid "afterburning/name"
+msgstr "Turbo"
+
+msgid "aimingStabilizer/long_special"
+msgstr "Att minska kanonens siktesspridning är av högsta vikt: ju mindre siktesspridningen är när du börjar sikta, desto mindre är cirkeln i siktet och desto mindre tid tar det att sikta in dig helt och hållet. Dessutom kommer slängskott (skott du skjuter innan du siktat helt och hållet, eller i rörelse) ha bättre chans att träffa målet."
+
+msgid "aimingStabilizer/name"
+msgstr "Vertikalstabilisator"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s mindre siktesspridning efter eldgivning samt under rörelse och torntraversering med vertikalstabilisator, kanonstabilisator eller erövrad stabilisator installerad i vagnen."
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "Förbättrar effekten av Vertikalstabilisator (oavsett klass), Kanonstabilisator eller Erövrad stabilisator under hela striden. Anvisningen kan bara användas om du har angiven utrustning monterad på vagnen."
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "Stabilisatorsmörjning"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "Förbättrar effekten av stabilisator"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "Vertikalstabilisator klass 1"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "Vertikalstabilisator klass 2"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "Vertikalstabilisator klass 1"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "Vertikalstabilisator klass 2"
+
+msgid "antifragmentationLining/long_special"
+msgstr "Splitterskyddet absorberar skada; det betyder att det reducerar skadan från rammningar och spränggranater. Splitterskydd är väldigt fördelaktigt för tunga stridsvagnar med kraftigt pansar och som ofta rammar motståndare och kämpar i närstrid."
+
+msgid "antifragmentationLining/name"
+msgstr "Splitterskydd"
+
+msgid "antifragmentationLining/short_special"
+msgstr "Skyddar vagnen och besättningen från spränggranater, skador, chock och rammning"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "Extra kraftigt splitterskydd"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "Kraftigt splitterskydd"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "Medelstort splitterskydd"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "Lättare splitterskydd"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "Avgassystem"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "Stabilisering"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "Splitterskydd"
+
+msgid "archetype/camouflageNet/name"
+msgstr "Kamouflagenät"
+
+msgid "archetype/coatedOptics/name"
+msgstr "Optik"
+
+msgid "archetype/commandersView/name"
+msgstr "Observation"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "Eldriktningsmotor"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "Härdning"
+
+msgid "archetype/grousers/name"
+msgstr "Greppytor"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "Konfiguration"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "Radioutrustning"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "Rotationsmekanism"
+
+msgid "archetype/improvedSights/name"
+msgstr "Sikte"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "Ventilation"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "Eldledningssystem"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "Skydd"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "Precisionsförbättringssystem"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "Mobilitet"
+
+msgid "archetype/stereoscope/name"
+msgstr "Tvåtubsteleskop"
+
+msgid "archetype/tankRammer/name"
+msgstr "Ansättare"
+
+msgid "archetype/template"
+msgstr "Utrustningstyp \"%(name)s\""
+
+msgid "archetype/turbocharger/name"
+msgstr "Turbo"
+
+msgid "artillery/longDescr"
+msgstr "Kallar in artillerield med spränggranater mot ett litet område. Vagnar i mitten av verkansområdet tar mest skada. Speciellt effektiv mot tungt bepansrade vagnar."
+
+msgid "artillery/name"
+msgstr "Artilleriattack"
+
+msgid "artillery/shortDescr"
+msgstr "Åsamkar avsevärd skada på fiendevagnar inom ett litet område."
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s minskad risk för motorbrand"
+
+msgid "autoExtinguishers/descr"
+msgstr "Automatisk brandsläckning i din vagn."
+
+msgid "autoExtinguishers/long_special"
+msgstr "Släcker automatiskt brand och minskar även brandrisken. Förnödenheten kan användas på alla vagnar från alla nationer."
+
+msgid "autoExtinguishers/name"
+msgstr "Automatisk brandsläckare"
+
+msgid "autoExtinguishers/onUse"
+msgstr "Automatisk brandsläckning i din vagn. Kan användas flera gånger i en strid. Förnödenheten tas bort efter en strid om den används minst en gång."
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "Automatisk brandsläckare"
+
+msgid "berserker/battleDescr"
+msgstr "Ökar genomslagsförmåga och eldhastighet med en faktor av %(gunPiercing)s, samtidigt som den minskar sikttid och siktesspridning med %(gunAimingTime)s, men minskar vagnens träffpoäng med %(healthDebuff)s under %(duration)s s.\n\n*Skada åsamkad av förmågan Bärsärk kan inte förstöra din vagn."
+
+msgid "berserker/descr"
+msgstr "Ökar genomslagsförmåga och eldhastighet med en faktor av %(gunPiercing)s, samtidigt som den minskar sikttid och siktesspridning med %(gunAimingTime)s, men minskar vagnens träffpoäng med %(healthDebuff)s under %(duration)s s.\n\n*Skada åsamkad av förmågan Bärsärk kan inte förstöra din vagn."
+
+msgid "berserker/longDescr"
+msgstr "Ökar genomslagsförmåga och eldhastighet med {green_Open}en faktor av %(gunPiercing)s{green_Close}, samtidigt som den minskar sikttid och siktesspridning {green_Open}med %(gunAimingTime)s{green_Close}, men minskar vagnens träffpoäng{whiteSpanish_Open} med {red_Open}%(healthDebuff)s{red_Close} under %(duration)s s.{whiteSpanish_Close}\n\n*Skada åsamkad av förmågan Bärsärk kan inte förstöra din vagn."
+
+msgid "berserker/name"
+msgstr "Bärsärk"
+
+msgid "berserker/shortDescr"
+msgstr "Ökar genomslagsförmåga och eldhastighet med {green_Open}en faktor av %(gunPiercing)s{green_Close}, samtidigt som den minskar sikttid och siktesspridning {green_Open}med %(gunAimingTime)s{green_Close}, men minskar vagnens träffpoäng{whiteSpanish_Open} med {red_Open}%(healthDebuff)s{red_Close} under %(duration)s s.{whiteSpanish_Close}\n\n*Skada åsamkad av förmågan Bärsärk kan inte förstöra din vagn."
+
+msgid "blackout_headlights_1/name"
+msgstr "Avskärmade lyktor (typ 1)"
+
+msgid "bomber/longDescr"
+msgstr "Kallar in attackplan som bombar angivet område vilket chockar och skadar fiendevagnar. Vagnar i mitten av verkansområdet tar mest skada. Speciellt effektiv mot lätt- och medeltungt bepansrade vagnar."
+
+msgid "bomber/name"
+msgstr "Flyganfall"
+
+msgid "bomber/shortDescr"
+msgstr "Chockar fiendevagnar och åsamkar skada inom ett stort område."
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "Återställer gradvis %(healPerTickDuration)s av vagnens träffpoäng under %(duration)s s. Effekten avbryts om vagnen skadas."
+
+msgid "brRegenerationKit/descr"
+msgstr "Återställer gradvis %(healPerTickDuration)s av vagnens träffpoäng under %(duration)s s. Effekten avbryts om vagnen skadas."
+
+msgid "brRegenerationKit/long_special"
+msgstr "{green_Open}Återställer gradvis %(healPerTickDuration)s{green_Close} av vagnens träffpoäng {whiteSpanish_Open}under %(duration)s s.{whiteSpanish_Close} Effekten avbryts om vagnen skadas."
+
+msgid "brRegenerationKit/name"
+msgstr "Fältreparation"
+
+msgid "brRegenerationKit/short_special"
+msgstr "{green_Open}Återställer gradvis %(healPerTickDuration)s{green_Close} av vagnens träffpoäng {whiteSpanish_Open}under %(duration)s s.{whiteSpanish_Close} Effekten avbryts om vagnen skadas."
+
+msgid "brRepairkit/descr"
+msgstr "Reparerar moduler och tar bort negativa effekter."
+
+msgid "brRepairkit/long_special"
+msgstr "Reparerar moduler och tar bort negativa effekter."
+
+msgid "brRepairkit/name"
+msgstr "Reparationslåda"
+
+msgid "brRepairkit/short_special"
+msgstr "Reparerar moduler och tar bort negativa effekter."
+
+msgid "br_bomber/battleDescr"
+msgstr "Chockar och åsamkar fiendevagnar mellan %(minDamage)s och %(maxDamage)s träffpoäng skada. Skadeverkan minskar med avståndet från centrum av verkansområdet.\n\n*Från aktiveringen tar det %(delay)s s till nedslaget."
+
+msgid "br_bomber/descr"
+msgstr "Chockar och åsamkar fiendevagnar mellan %(minDamage)s och %(maxDamage)s träffpoäng skada. Skadeverkan minskar med avståndet från centrum av verkansområdet.\n\n*Från aktiveringen tar det %(delay)s s till nedslaget."
+
+msgid "br_bomber/longDescr"
+msgstr "Chockar och åsamkar fiendevagnar {whiteSpanish_Open}mellan %(minDamage)s och %(maxDamage)s träffpoäng skada{whiteSpanish_Close}. Skadeverkan minskar med avståndet från centrum av verkansområdet.\n\n*Från aktiveringen tar det %(delay)s s till nedslaget."
+
+msgid "br_bomber/name"
+msgstr "Flyganfall"
+
+msgid "br_bomber/shortDescr"
+msgstr "Chockar och åsamkar fiendevagnar {whiteSpanish_Open}mellan %(minDamage)s och %(maxDamage)s träffpoäng skada{whiteSpanish_Close}. Skadeverkan minskar med avståndet från centrum av verkansområdet.\n\n*Från aktiveringen tar det %(delay)s s till nedslaget."
+
+msgid "br_minefield/battleDescr"
+msgstr "Lägger ut ett minfält i det angivna området under %(duration)s s. Fiendevagnar som kommer i kontakt med minorna chockas och skadas av explosionen.\n\n*Minorna kan förstöras genom att skjuta dem. Minor utlagda under en fiendevagn kommer INTE explodera."
+
+msgid "br_minefield/descr"
+msgstr "Lägger ut ett minfält i det angivna området under %(duration)s s. Fiendevagnar som kommer i kontakt med minorna chockas och skadas av explosionen.\n\n*Minorna kan förstöras genom att skjuta dem. Minor utlagda under en fiendevagn kommer INTE explodera."
+
+msgid "br_minefield/longDescr"
+msgstr "Lägger ut ett minfält i det angivna området {whiteSpanish_Open}under %(duration)s s{whiteSpanish_Close}. Fiendevagnar som kommer i kontakt med minorna chockas och skadas av explosionen.\n\n*Minorna kan förstöras genom att skjuta dem. Minor utlagda under en fiendevagn kommer INTE explodera."
+
+msgid "br_minefield/name"
+msgstr "Minfält"
+
+msgid "br_minefield/shortDescr"
+msgstr "Lägger ut ett minfält i det angivna området {whiteSpanish_Open}under %(duration)s s{whiteSpanish_Close}. Fiendevagnar som kommer i kontakt med minorna chockas och skadas av explosionen.\n\n*Minorna kan förstöras genom att skjuta dem. Minor utlagda under en fiendevagn kommer INTE explodera."
+
+msgid "br_respawn/name"
+msgstr "Återvändning"
+
+msgid "br_respawn/platoon/descr"
+msgstr "Låter dig återvända till striden när din vagn har förstörts. Gäller bara under de första %(duration)s min av striden.\n\nFör att få en allierad att återvända måste du hålla dig utanför strid under %(timeToResurrect)s s. Laddningar av Återvändning delas mellan plutonsmedlemmar."
+
+msgid "br_respawn/solo/descr"
+msgstr "Låter dig återvända till striden när din vagn har förstörts. Gäller bara under de första %(duration)s min av striden.\n\nNär du förstörs återvänder din vagn automatiskt för en ny insats."
+
+msgid "br_smoke/battleDescr"
+msgstr "Ger alla vagnar inom räckvidden för förnödenheten en %(duration)s sekunders kamouflagebonus."
+
+msgid "br_smoke/descr"
+msgstr "Ger alla vagnar inom räckvidden för förnödenheten en kamouflagebonus."
+
+msgid "br_smoke/longDescr"
+msgstr "Ger alla vagnar inom räckvidden för förnödenheten en %(duration)s sekunders kamouflagebonus."
+
+msgid "br_smoke/name"
+msgstr "Rökridå"
+
+msgid "br_smoke/shortDescr"
+msgstr "Ger alla vagnar inom räckvidden för förnödenheten en kamouflagebonus."
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "Ger alla vagnar inom verkansområdet en maskeringsbonus, samt åsamkar ALLA vagnar inom verkansområdet skada motsvarande %(damagePerTick)s av deras totala mängd träffpoäng. Verkar i %(duration)s s.\n\n*Skada från Frätande dimma påverkar inte insamling av underhåll och förstör inte vagnen, utan lämnar minst 1 träffpoäng."
+
+msgid "br_smoke_with_damage/descr"
+msgstr "Ger alla vagnar inom verkansområdet en maskeringsbonus, samt åsamkar ALLA vagnar inom verkansområdet skada motsvarande %(damagePerTick)s av deras totala mängd träffpoäng. Verkar i %(duration)s s.\n\n*Skada från Frätande dimma påverkar inte insamling av underhåll och förstör inte vagnen, utan lämnar minst 1 träffpoäng."
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "Ger alla vagnar inom verkansområdet en maskeringsbonus, samt åsamkar ALLA vagnar inom verkansområdet skada {whiteSpanish_Open}motsvarande %(damagePerTick)s{whiteSpanish_Close} av deras totala mängd träffpoäng. Verkar i {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}\n\n*Skada från Frätande dimma påverkar inte insamling av underhåll och förstör inte vagnen, utan lämnar minst 1 träffpoäng."
+
+msgid "br_smoke_with_damage/name"
+msgstr "Frätande dimma"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "Ger alla vagnar inom verkansområdet en maskeringsbonus, samt åsamkar ALLA vagnar inom verkansområdet skada {whiteSpanish_Open}motsvarande %(damagePerTick)s{whiteSpanish_Close} av deras totala mängd träffpoäng. Verkar i {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}\n\n*Skada från Frätande dimma påverkar inte insamling av underhåll och förstör inte vagnen, utan lämnar minst 1 träffpoäng."
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s snabbare modulreparationer"
+
+msgid "builtinRepairkit/long_special"
+msgstr "Reparerar alla skadade moduler när det aktiveras. Den passiva effekten ökar reparationshastigheten. Kan endast användas på vissa vagnar."
+
+msgid "builtinRepairkit/name"
+msgstr "Stor standardreparationslåda"
+
+msgid "builtinRepairkit/onUse"
+msgstr "Reparerar alla skadade moduler. Kan användas flera gånger per strid. Kan inte förbrukas.\nFörnödenheten kan inte tas bort, men den kan flyttas till en annan plats."
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "Ger vagnen 10% extra maskeringsvärde"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "Ger alla besättningsmedlemmar förmågan Maskering tränad till 100%"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "Förmågan Maskering minskar vagnens synlighet, både i rörelse och stillastående under hela striden. Om besättningen har förmågan tränad till 100% ökar anvisningen effekten, annars ger den förmågan tränad till 100%."
+
+msgid "camouflageBattleBooster/name"
+msgstr "Naturlig maskering"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "Ger förmågan Maskering tränad till 100% eller ökar dess effekt"
+
+msgid "camouflageNet/battleDescr"
+msgstr "Ökar en stillastående vagns kamouflagevärde 3 s efter den stannat"
+
+msgid "camouflageNet/long_special"
+msgstr "Effekten beror på vagnstyp. Kamouflagenät är mest effektivt för vagnar med bra smygförmåga: artillerivagnar och pansarvärnskanonvagnar med låg profil. Det ökar effekten av förmågan Maskering. I kombination ger de en bra kamouflagebonus för din vagn. Kamouflagenätet aktiveras 3 sekunder efter att vagnen stannat."
+
+msgid "camouflageNet/name"
+msgstr "Kamouflagenät"
+
+msgid "camouflageNet/short_special"
+msgstr "Ökar kamouflagevärde för en stillastående vagn"
+
+msgid "camouflageNet_tier2/name"
+msgstr "Kamouflagenät klass 2"
+
+msgid "camouflageNet_tier3/name"
+msgstr "Kamouflagenät klass 3"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} besättningseffektivitetsbonus under hela striden."
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} besättningseffektivitetsbonus."
+
+msgid "chocolate/long_special"
+msgstr "Aktiveras automatiskt i när striden börjar och varar under hela striden. Endast för tyska vagnar."
+
+msgid "chocolate/name"
+msgstr "Choklad"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "Endast för tyska vagnar."
+
+msgid "chocolate/short_special"
+msgstr "Förbättrar träningsnivån för tyska besättningar"
+
+msgid "clingBrander/battleDescr"
+msgstr "Kallar in en självstyrd stridsvagn utrustad med igenkänningssystem som förföljer och bekämpar närmaste fiende i upp till %(botLifeTime)s s.\n\n*Stridsvagnen kan förstöras."
+
+msgid "clingBrander/descr"
+msgstr "Kallar in en självstyrd stridsvagn utrustad med igenkänningssystem som förföljer och bekämpar närmaste fiende i upp till %(botLifeTime)s s.\n\n*Stridsvagnen kan förstöras."
+
+msgid "clingBrander/longDescr"
+msgstr "Kallar in en självstyrd stridsvagn utrustad med igenkänningssystem som förföljer och bekämpar närmaste fiende {whiteSpanish_Open}i upp till %(botLifeTime)s s.{whiteSpanish_Close}\n\n*Stridsvagnen kan förstöras."
+
+msgid "clingBrander/name"
+msgstr "Understödsrobot"
+
+msgid "clingBrander/shortDescr"
+msgstr "Kallar in en självstyrd stridsvagn utrustad med igenkänningssystem som förföljer och bekämpar närmaste fiende {whiteSpanish_Open}i upp till %(botLifeTime)s s.{whiteSpanish_Close}\n\n*Stridsvagnen kan förstöras."
+
+msgid "clutches_replace_1/name"
+msgstr "Nya friktionsbelägg i kopplingen (typ 1)"
+
+msgid "clutches_replace_2/name"
+msgstr "Nya friktionsbelägg i kopplingen (typ 2)"
+
+msgid "coatedOptics/long_special"
+msgstr "Till skillnad från tvåtubsteleskopet så ger belagd optik (oavsett typ) en mindre bonus men som alltid är aktiv, även när vagnen är i rörelse. Det betyder att belagd optik är extra viktig för vagnar med aktiv spelstil som t.ex. lätta och medeltunga vagnar."
+
+msgid "coatedOptics/name"
+msgstr "Belagd Optik"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s siktsträcka (upp till 445 m) med Belagd optik (oavsett klass), Experimentell optik eller Erövrad optik i vagnen."
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "2,5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "2,5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "Förbättrar effekten av Belagd optik, Experimentell optik eller Erövrad optik under hela striden. Anvisningen kan bara användas om du har angiven utrustning monterad på vagnen."
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "Riktmedelskalibrering"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "Förbättrar effekten av optik"
+
+msgid "coatedOptics_tier1/name"
+msgstr "Belagd optik klass 1"
+
+msgid "coatedOptics_tier2/name"
+msgstr "Belagd optik klass 2"
+
+msgid "coatedOptics_tier3/name"
+msgstr "Belagd optik klass 3"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} besättningseffektivitetsbonus under hela striden."
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} besättningseffektivitetsbonus."
+
+msgid "cocacola/long_special"
+msgstr "Aktiveras automatiskt i när striden börjar och varar under hela striden. Endast för amerikanska vagnar."
+
+msgid "cocacola/name"
+msgstr "En back Coca-Cola"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "Endast för amerikanska vagnar."
+
+msgid "cocacola/short_special"
+msgstr "Förbättrar träningsnivån för amerikanska besättningar"
+
+msgid "commandersView/long_special"
+msgstr "Minskar kamouflagevärdet för fiendevagnar i rörelse och kamouflagefaktorn från växtlighet vid spaning. Detta låter dig observera fiender i rörelse från längre håll och mer effektivt upptäcka fiender som är kamouflerade av buskar och träd."
+
+msgid "commandersView/name"
+msgstr "Stridsledningsoptik"
+
+msgid "commandersView/short_special"
+msgstr "Minskar kamouflagevärdet för fiendevagnar i rörelse eller kamouflerade av växtlighet"
+
+msgid "corrodingShot/battleDescr"
+msgstr "Ger en granat frätande egenskaper som ökar dess genomslagsförmåga och skadeverkan. När den skadar en fiendevagn ger den en tillfällig effekt som minskar fiendevagnens träffpoäng med upp till %(damagePerDotEffectDuration)s under %(dotEffectDuration)s s.\n\n*Reparationslådan tar bort den här effekten."
+
+msgid "corrodingShot/descr"
+msgstr "Ger en granat frätande egenskaper som ökar dess genomslagsförmåga och skadeverkan. När den skadar en fiendevagn ger den en tillfällig effekt som minskar fiendevagnens träffpoäng med upp till %(damagePerDotEffectDuration)s under %(dotEffectDuration)s s.\n\n*Reparationslådan tar bort den här effekten."
+
+msgid "corrodingShot/longDescr"
+msgstr "Ger en granat frätande egenskaper som ökar dess genomslagsförmåga och skadeverkan. När den skadar en fiendevagn ger den en tillfällig effekt som minskar fiendevagnens träffpoäng med {whiteSpanish_Open}upp till %(damagePerDotEffectDuration)s{whiteSpanish_Close} {whiteSpanish_Open}under %(dotEffectDuration)s s.{whiteSpanish_Close}\n\n*Reparationslådan tar bort den här effekten."
+
+msgid "corrodingShot/name"
+msgstr "Korrosionsgranat"
+
+msgid "corrodingShot/shortDescr"
+msgstr "Ger en granat frätande egenskaper som ökar dess genomslagsförmåga och skadeverkan. När den skadar en fiendevagn ger den en tillfällig effekt som minskar fiendevagnens träffpoäng med {whiteSpanish_Open}upp till %(damagePerDotEffectDuration)s{whiteSpanish_Close} {whiteSpanish_Open}under %(dotEffectDuration)s s.{whiteSpanish_Close}\n\n*Reparationslådan tar bort den här effekten."
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "Förbättrar följande"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "Vagnschefsförmåga"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} \"{name}\""
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "förmåga:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "Ger följande"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "förmåga:"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "En uppgraderad version av vertikalstabilisatorn ({colorTagOpen}–20 %{colorTagClose} siktesspridning efter eldgivning samt under förflyttning och tornrotation) som ger bättre effekt: {colorTagOpen}–27,5 %{colorTagClose} siktesspridning vid eldgivning, förflyttning och tornrotation. Utrustningen kan användas på alla vagnstyper oavsett nationalitet och kan endast demonteras för obligationer."
+
+msgid "deluxAimingStabilizer/name"
+msgstr "Kanonstabilisator"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "En uppgraderad version av belagd optik ({colorTagOpen}10%{colorTagClose} längre siktsträcka) som ger bättre effekt: Ökar siktsträckan med {colorTagOpen}13,5%{colorTagClose}. Utrustningen kan användas på alla vagnstyper oavsett nationalitet och kan endast demonteras för obligationer."
+
+msgid "deluxCoatedOptics/name"
+msgstr "Experimentell optik"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "En uppgraderad version av den förbättrade eldriktningsmotorn ({colorTagOpen}10%{colorTagClose} snabbare sikttid) som ger bättre effekt: Minskar sikttiden med {colorTagOpen}13,5%{colorTagClose}. Utrustningen kan användas på alla vagnstyper oavsett nationalitet och kan endast demonteras för obligationer."
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "Extra slitstark eldriktningsmotor"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "Säkerhetsanpassning med förbättrad effekt. Utrustningen kan användas på alla vagnstyper oavsett nationalitet och kan endast demonteras för obligationer."
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "Förbättrad säkerhetsanpassning"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "Snabbar på reparationer samt skyddar ammunitionsställ, bränsletankar och motorn"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "Uppgraderad ventilation ({colorTagOpen}+5%{colorTagClose} besättningseffektivitetsbonus) som ger bättre effekt: {colorTagOpen}+8,5%{colorTagClose} besättningseffektivitetsbonus. Utrustningen kan användas på alla vagnstyper oavsett nationalitet och kan endast demonteras för obligationer."
+
+msgid "deluxImprovedVentilation/name"
+msgstr "Avluftningssystem"
+
+msgid "deluxRammer/long_special"
+msgstr "En uppgraderad version av ansättare ({colorTagOpen}10%{colorTagClose} snabbare omladdning) som ger bättre effekt: Minskar omladdningstiden med {colorTagOpen}13,5%{colorTagClose}. Utrustningen kan användas på alla vagnstyper oavsett nationalitet och kan endast demonteras för obligationer."
+
+msgid "deluxRammer/name"
+msgstr "Innovativt laddningsstystem"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "En förbättrad version av Ljuddämpat avgassystem med bättre effekt: ökar maskeringsförmågan för vagnen, stillastående eller i rörelse. Användbart för aktiv spaning och passiv spaning från riskabla ställningar.\nUtrustningen kan användas på vagnar av alla typer och nationer, men effekten beror på vagnstypen. Kan bara demonteras med obligationer."
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "Tystat avgassystem"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "Ökar maskeringsförmågan för vagnen, stillastående eller i rörelse, med {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose}"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "Ökar en stillastående vagns kamouflagevärde 1,5 s efter den stannat"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "En förbättrad version av Kamouflagenät vars effekt beror på vagnstyp. Taktiskt maskeringsnät är mest effektivt för vagnar med bra maskeringsvärde: artillerivagnar och pansarvärnskanonvagnar med låg profil. Det ökar effekten av förmågan Maskering. I kombination ger de en bra kamouflagebonus för din vagn. Taktiskt maskeringsnät aktiveras 1,5 sekunder efter att vagnen stannat."
+
+msgid "deluxeCamouflageNet/name"
+msgstr "Taktiskt maskeringsnät"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17,5{colorTagClose}/{colorTagOpen}12,5{colorTagClose}/{colorTagOpen}7,5%{colorTagClose} bättre maskeringsvärde för en stillastående vagn"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "Återställer helt träffpoängen för upphängningen efter reparationer."
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "Återställer upphängningen efter reparation."
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "En förbättrad version av Extra förstärkning: {colorTagOpen}+12,5%{colorTagClose} extra träffpoäng, {colorTagOpen}+75%{colorTagClose} tåligare upphängning, {colorTagOpen}+30%{colorTagClose} snabbare reparation av upphängningen, {colorTagOpen}-75%{colorTagClose} skada åsamkad skrovet då upphängningen skadas av en kollision. Återställer helt upphängningens träffpoäng efter en skada, vilket håller vagnen i rörelse så länge som möjligt. Denna utrustning kan användas på vagnar av alla nationaliteter och typer (förutom artillerivagnar). Kan endast demonteras för obligationer."
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "Ökad granattålighet"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "Ökar vagnens tålighet och lastkapacitet samt skyddar upphängningen"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "En uppgraderad version av Förbättrad rotationsmekanism som ger mer effekt: {colorTagOpen}+17,5% {colorTagClose} kanonrörelser, {colorTagOpen}+17,5% {colorTagClose} skrovrotationshastighet och {colorTagOpen}-17,5% {colorTagClose} siktesspridning vid förflyttning och skrovrotation. Utrustningen kan användas på alla vagnar oavsett nation eller vagnstyp. Kan endast demonteras med obligationer."
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "Förbättrad kardanaxel"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "Ökar rotationshastigheten samt minskar siktesspridningen under förflyttning och rotation"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "En förbättrad version av Sikte som ger bättre effekt: minskar storleken på siktet med {colorTagOpen}9%{colorTagClose}. Resultatet är att kanonen blir träffsäkrare. Utrustningen kan användas på alla vagnstyper, förutom artillerivagnar, oavsett nationalitet och kan endast demonteras för obligationer."
+
+msgid "deluxeImprovedSights/name"
+msgstr "Innovativt riktmedel"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "Minskar siktesspridningen"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "Ökar siktsträckan för en stillastående vagn 1,5 sekunder efter den stannat (upp till 445 m)"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "En förbättrad version av Tvåtubsteleskop. En lång siktsträcka ger ett ordentligt övertag för vilken vagn som helst. Denna utrustning är mest fördelaktig för pansarvärnskanonvagnar med låg profil och träffsäker kanon. Den aktiveras 1,5 sekunder efter att vagnen stannat."
+
+msgid "deluxeStereoscope/name"
+msgstr "Spaningsteleskopsystem"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27.5%{colorTagClose} siktsträcka för en stillastående vagn (upp till 445 m)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "En förbättrad version av Turbo ({colorTagOpen}+7,5%{colorTagClose} extra motorstyrka, {colorTagOpen}+4 km/h{colorTagClose} topphastighet framåt, {colorTagOpen}+2 km/h{colorTagClose} topphastighet bakåt): {colorTagOpen}+12,5%{colorTagClose} extra motorstyrka, {colorTagOpen}+6 km/h{colorTagClose} topphastighet framåt, {colorTagOpen}+4 km/{colorTagClose} topphastighet bakåt. Denna utrustning kan användas på vagnar av alla nationaliteter och typer (förutom pansarbilar). Kan endast demonteras för obligationer."
+
+msgid "deluxeTurbocharger/name"
+msgstr "Förbättrad kompressor"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "Ökar motorstyrkan och topphastigheten"
+
+msgid "eb_minefield/descr"
+msgstr "Lägger ut ett minfält i det angivna området som är aktivt under en viss tid."
+
+msgid "eb_minefield/long_descr"
+msgstr "Lägger ut ett aktivt minfält inom angivet område under en begränsad tid. När de utlöses åsamkar minorna skada och chockar fiendevagnar. Fienden kan upptäcka minorna på nära håll eller med stridsreserverna Spaningsflyg eller Vaktpost."
+
+msgid "eb_minefield/name"
+msgstr "Minfält"
+
+msgid "eb_minefield/short_descr"
+msgstr "Lägger ut ett minfält i det angivna området som är aktivt under en viss tid."
+
+msgid "eb_regenerationKit/descr"
+msgstr "Återställer gradvis en procentandel av din vagns träffpoäng."
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "Återställer gradvis en procentandel av din vagns träffpoäng. Ökar reparationshastigheten inom omladdningscirklar. Minskar skada från minor när den är aktiv."
+
+msgid "eb_regenerationKit/name"
+msgstr "Fältreparationer"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "Återställer gradvis en procentandel av din vagns träffpoäng."
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "Garageplats"
+
+msgid "empty_slot/name"
+msgstr "Garageplats"
+
+msgid "empty_slot/short_descr"
+msgstr "Stridsreservplats upptagen."
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "Ökar effekten av förmågan Ljudspårning med faktor av 1,5"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "Ger förmågan Ljudspårning med 100% träning"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "Förmågan Ljudspårning ger en varning om fientlig artillerield och minskar den negativa effekten av chock. Om förmågan är tränad till 100% ökar anvisningen dess effekt; om inte ger anvisningen förmågan tränad till 100%."
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "Höjd uppmärksamhet"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "Ger förmågan Ljudspårning tränad till 100% eller ökar dess effekt"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "Förbättrat sikte minskar tiden det tar att sikta ordentligt. En vagn som har en förbättrad eldriktningsmotor kan ge mer välriktad eld snabbare (eftersom omladdningen i vissa fall är snabbare än siktet)."
+
+msgid "enhancedAimDrives/name"
+msgstr "Förbättrad Eldriktningsmotor"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s bättre sikttid med förbättrad eldriktningsmotor, extra slitstark eldriktningsmotor, erövrad eldriktningsmotor eller eldledningssystem monterat på vagnen."
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "2,5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "2,5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "Förbättrar effekten av Erövrad eldriktningsmotor, Förbättrad eldriktningsmotor eller Extra slitstark eldriktningsmotor under hela striden. Anvisningen kan bara användas om du har angiven utrustning monterad på vagnen."
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "Justerat sikte"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "Förbättrar effekten av eldriktningsmotorn"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "Förbättrad eldriktningsmotor klass 1"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "Förbättrad eldriktningsmotor klass 2"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "Förbättrad eldriktningsmotor klass 3"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "Förbättrade Belleville-Fjäderbrickor"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "Återställer helt träffpoängen för upphängningen efter reparationer."
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Återställer helt träffpoängen för upphängningen efter reparationer"
+
+msgid "enhancedLevers/name"
+msgstr "Förbättrade Hävarmar"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "Förbättrade Längsgående Torsionsstavar"
+
+msgid "enhancedSprings/name"
+msgstr "Förbättrade Fjädrar"
+
+msgid "enhancedTorsions1t/name"
+msgstr "Förbättrade torsionsstavar, klass 1 ton"
+
+msgid "enhancedTorsions3t/name"
+msgstr "Förbättrade torsionsstavar, klass 3 ton"
+
+msgid "enhancedTorsions5t/name"
+msgstr "Förbättrade torsionsstavar, klass 5 ton"
+
+msgid "exampleAbility/descr"
+msgstr "Testfärdighet för Visual Script"
+
+msgid "exampleAbility/name"
+msgstr "Testfärdighet"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s högre motorstyrka och snabbare tornrotation under hela striden."
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}10%{colorTagClose} högre motorstyrka och torntraverseringshastighet."
+
+msgid "excellentFuel/long_special"
+msgstr "Ökar motorstyrka och tornrotationshastigheten med {colorTagOpen}10%{colorTagClose} under hela striden. Aktiveras automatiskt i när striden börjar och varar under hela striden."
+
+msgid "excellentFuel/name"
+msgstr "Extra fint bränsle"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "{colorTagOpen}10%{colorTagClose} högre motorstyrka och torntraverseringshastighet"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "Återställer helt träffpoängen för upphängningen efter reparationer."
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "Återställer upphängningen efter reparation."
+
+msgid "extraHealthReserve/long_special"
+msgstr "Ökar vagnens tålighet och reparationshastighet. Minskar skador på skrovet som uppkommer genom skada åsamkad upphängningen vid kollision och fall. Minskar risken för förstörda band vid skada, vilket låter vagnen förbli manöverduglig längre."
+
+msgid "extraHealthReserve/name"
+msgstr "Extra förstärkning"
+
+msgid "extraHealthReserve/short_special"
+msgstr "Ökar vagnens tålighet och lastkapacitet samt skyddar upphängningen"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "Extra förstärkning klass 1"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "Extra förstärkning klass 2"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "Extra förstärkning klass 3"
+
+msgid "fireCircle/battleDescr"
+msgstr "Skapar en ring av eld runt vagnen som minskar fiendens rörlighet och reducerar träffpoängen med upp till %(damagePerTickForInterval)s under %(timer)s s.\n\n*Verkansområdet är statiskt och följer inte din vagns rörelser."
+
+msgid "fireCircle/descr"
+msgstr "Skapar en ring av eld runt vagnen som minskar fiendens rörlighet och reducerar träffpoängen med upp till %(damagePerTickForInterval)s under %(timer)s s.\n\n*Verkansområdet är statiskt och följer inte din vagns rörelser."
+
+msgid "fireCircle/longDescr"
+msgstr "Skapar en ring av eld runt vagnen som minskar fiendens rörlighet och reducerar träffpoängen med {whiteSpanish_Open}upp till %(damagePerTickForInterval)s{whiteSpanish_Close} {whiteSpanish_Open}under %(timer)s s.{whiteSpanish_Close}\n\n*Verkansområdet är statiskt och följer inte din vagns rörelser."
+
+msgid "fireCircle/name"
+msgstr "Eldring"
+
+msgid "fireCircle/shortDescr"
+msgstr "Skapar en ring av eld runt vagnen som minskar fiendens rörlighet och reducerar träffpoängen med {whiteSpanish_Open}upp till %(damagePerTickForInterval)s{whiteSpanish_Close} {whiteSpanish_Open}under %(timer)s s.{whiteSpanish_Close}\n\n*Verkansområdet är statiskt och följer inte din vagns rörelser."
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "Ökar effekten av förmågan Brandbekämpning med faktor av 1,5"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "Ger förmågan Brandbekämpning med 100% träning"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "Förmågan Brandbekämpning förbättrar brandsläckningsförmågan under hela striden. Om besättningen har förmågan tränad till 100% ökar anvisningen effekten, annars ger den förmågan tränad till 100%."
+
+msgid "fireFightingBattleBooster/name"
+msgstr "Brandbekämpningserfarenhet"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "Ger förmågan Brandbekämpning tränad till 100% eller ökar dess effekt"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "Begär in artillerield mot angivet område vilket skadar alla vagnar inom verkansområdet."
+
+msgid "fort_aoe_artillery/name"
+msgstr "Artilleriattack"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "Begär in artillerield mot angivet område vilket skadar alla vagnar inom verkansområdet."
+
+msgid "fort_inspire/longDescr"
+msgstr "Ökar hela besättningens, och alla besättningars i allierade vagnar i närheten, huvudutbildning och förmågor."
+
+msgid "fort_inspire/name"
+msgstr "Inspiration"
+
+msgid "fort_inspire/shortDescr"
+msgstr "Ökar hela besättningens, och alla besättningars i allierade vagnar i närheten, huvudutbildning och förmågor."
+
+msgid "fuel_system_revision_1/name"
+msgstr "Översyn av bränslesystem (typ 1)"
+
+msgid "grousers/long_special"
+msgstr "Ökar vagnens rotationshastighet och bibehåller hastigheten över alla terrängtyper. Avsevärt mer effektiv på mjukt och halvmjukt underlag. Bäst när de kombineras med förarförmågorna Motorbromsning och Terrängkörning."
+
+msgid "grousers/name"
+msgstr "Extra Greppytor"
+
+msgid "grousers/short_special"
+msgstr "Ökar vagnens rotationshastighet och accelerationsförmåga"
+
+msgid "grousers_tier1/name"
+msgstr "Extra greppytor klass 1"
+
+msgid "grousers_tier2/name"
+msgstr "Extra greppytor klass 2"
+
+msgid "grousers_tier3/name"
+msgstr "Extra greppytor klass 3"
+
+msgid "gun_balancing_1/name"
+msgstr "Pjäsbalansering (typ 1)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "Brandsläckning i din vagn."
+
+msgid "handExtinguishers/long_special"
+msgstr "Släcker bränder i vagnen vid aktivering. Kan användas på alla vagnar från alla nationer. Förnödenheten tas bort från vagnen efter striden om den förbrukades."
+
+msgid "handExtinguishers/name"
+msgstr "Manuell brandsläckare"
+
+msgid "handExtinguishers/onUse"
+msgstr "Släcker bränder i din vagn. Kan användas flera gånger i en strid. Förnödenheten tas bort efter striden om den användes minst en gång."
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "Släcker bränder"
+
+msgid "healPoint/battleDescr"
+msgstr "Skapar ett område runt din vagn inom vilket %(healPerTick)s av spelarens och plutonkamraters träffpoäng återställs varje sekund i %(duration)s s."
+
+msgid "healPoint/descr"
+msgstr "Skapar ett område runt din vagn inom vilket %(healPerTick)s av spelarens och plutonkamraters träffpoäng återställs varje sekund i %(duration)s s."
+
+msgid "healPoint/longDescr"
+msgstr "Skapar ett område runt din vagn inom vilket {green_Open}%(healPerTick)s av spelarens och plutonkamraters träffpoäng återställs{green_Close} varje sekund i {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}"
+
+msgid "healPoint/name"
+msgstr "Fältreparationsområde"
+
+msgid "healPoint/shortDescr"
+msgstr "Skapar ett område runt din vagn inom vilket {green_Open}%(healPerTick)s av spelarens och plutonkamraters träffpoäng återställs{green_Close} varje sekund i {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}"
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s besättningseffektivitetsbonus under hela striden."
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} besättningseffektivitetsbonus."
+
+msgid "hotCoffee/long_special"
+msgstr "Aktiveras automatiskt i när striden börjar och varar under hela striden. Endast för franska vagnar."
+
+msgid "hotCoffee/name"
+msgstr "Starkt Kaffe"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "Endast för franska vagnar."
+
+msgid "hotCoffee/short_special"
+msgstr "Förbättrar träningsnivån för franska besättningar"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "Förhindrar en av följande effekter; antändning av bränsletank, detonation i ammunitionsställ eller motorhaveri när respektive modul förstörs."
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "Förhindrar en av följande effekter; antändning av bränsletank, detonation i ammunitionsställ eller motorhaveri när respektive modul förstörs."
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "Ammunitionsstället skyddat mot detonation"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "Detonation i ammunitionsstället förhindrad"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "Motorn är skyddad mot haveri"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "Motorhaveri förhindrat"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "Bränsletankarna skyddade mot antändning"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "Antändning av bränsletankarna förhindrad"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "Förhindrar en av följande effekter; antändning av bränsletank, detonation i ammunitionsställ eller motorhaveri när respektive modul förstörs."
+
+msgid "improvedConfiguration/long_special"
+msgstr "Snabbar på reparationer. Ökar tåligheten för ammunitionsställ, bränsletankar och motor. Minskar skadeeffekten på omladdningstid och motorstyrka då respektive moduler skadats. Minskar risken för motorbrand. Förhindrar en av följande effekter; antändning av bränsletank, detonation i ammunitionsställ eller motorhaveri när respektive modul förstörs. Är effektivare i kombination med färdigheten Reparationer samt förmågorna Lastsäkring och Förebyggande underhåll."
+
+msgid "improvedConfiguration/name"
+msgstr "Säkerhetsanpassning"
+
+msgid "improvedConfiguration/short_special"
+msgstr "Snabbar på reparationer samt skyddar ammunitionsställ, bränsletankar och motorn"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s reparationshastighet med Säkerhetsanpassning (oavsett klass), Förbättrad säkerhetsanpassning eller Erövrad säkerhetsanpassning monterad på vagnen."
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "Förbättrar effekten av Säkerhetsanpassning, Förbättrad säkerhetsanpassning eller Erövrad säkerhetsanpassning under hela striden. Anvisningen kan bara användas om du har angiven utrustning monterad på vagnen."
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "Fältmässigt underhåll"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "Förbättrar effekten av säkerhetsanpassning"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "Säkerhetsanpassning klass 1"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "Säkerhetsanpassning klass 2"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "Ökar tiden en fiende förblir synlig efter den lämnat din siktsträcka. Minskar tiden du förblir synlig för fienden. Effekten är som störst när den kombineras med förmågorna Målföljning och Sista andetaget."
+
+msgid "improvedRadioCommunication/name"
+msgstr "Förbättrad radioutrustning"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "Ökar tiden fienden förblir synlig samt minskar tiden du förblir synlig"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "Snabbare skrov- och tornrotation för vagnar med torn. Snabbare rotation av skrov och kanon för vagnar med kasemattkonstruktion. Minskar siktesspridningen under rotation av torn och torn samt efter eldgivning. Är som mest effektiv i kombination med förmågan Motorbromsning."
+
+msgid "improvedRotationMechanism/name"
+msgstr "Förbättrad rotationsmekanism"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "Ökar rotationshastigheten samt minskar siktesspridningen under förflyttning och rotation"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "Förbättrad rotationsmekanism klass 1"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "Förbättrad rotationsmekanism klass 2"
+
+msgid "improvedSights/long_special"
+msgstr "Minskar storleken på siktesringen för att öka träffsäkerheten under sikttiden eller när kanonen är helt insiktad. Det ger dig en bättre chans att träffa målet."
+
+msgid "improvedSights/name"
+msgstr "Förbättrat sikte"
+
+msgid "improvedSights/short_special"
+msgstr "Minskar siktesspridningen"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s mindre siktesring med Förbättrat sikte (oavsett klass), Erövrat sikte eller Precisionsförbättringssystem monterat på vagnen."
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "Förbättrar effekten av Förbättrat sikte eller Erövrat sikte under hela striden. Anvisningen kan bara användas om du har angiven utrustning monterad på vagnen."
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "Linspolering"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "Minskar siktesringens storlek"
+
+msgid "improvedSights_tier1/name"
+msgstr "Förbättrat sikte klass 1"
+
+msgid "improvedSights_tier2/name"
+msgstr "Förbättrat sikte klass 2"
+
+msgid "improvedSights_tier3/name"
+msgstr "Förbättrat sikte klass 3"
+
+msgid "improvedVentilation/long_special"
+msgstr "Förbättrar ett flertal av vagnens egenskaper: siktsträcka, eldhastighet, sikttid, dynamiska egenskaper m.m. Utrustningens effekt kommer dock bli mest uppenbar i kombination med förmågan vapenbröder tränad till 100%."
+
+msgid "improvedVentilation/name"
+msgstr "Förbättrad ventilation"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s besättningseffektivitetsbonus med förbättrad ventilation (oavsett klass), avluftningssystem eller erövrad ventilation installerad i vagnen."
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "2,5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "2,5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "Förbättrar effekten av Förbättrad ventilation (oavsett klass), Avluftningssystem eller Erövrad ventilation under hela striden. Anvisningen kan bara användas om du har angiven utrustning monterad på vagnen."
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "Ventilationsrengöring"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "Förbättrar effekten av ventilation"
+
+msgid "improvedVentilation_class1/name"
+msgstr "Förbättrad ventilation, klass 1"
+
+msgid "improvedVentilation_class2/name"
+msgstr "Förbättrad ventilation, klass 2"
+
+msgid "improvedVentilation_class3/name"
+msgstr "Förbättrad ventilation, klass 3"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "Förbättrad ventilation, klass 1"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "Förbättrad ventilation, klass 2"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "Förbättrad ventilation, klass 3"
+
+msgid "improved_suspension_1/name"
+msgstr "Förbättrade stötdämpare (typ 1)"
+
+msgid "improved_suspension_2/name"
+msgstr "Förbättrade stötdämpare (typ 2)"
+
+msgid "inspire/longDescr"
+msgstr "Ökar besättningens och alla allierade besättningars inom ett visst avstånds effektivitet. Ger en %-bonus till alla besättningsmedlemmars huvudutbildning. Ökad effekt för spelaren som aktiverar den."
+
+msgid "inspire/name"
+msgstr "Inspirera"
+
+msgid "inspire/shortDescr"
+msgstr "Ökar huvudutbildningen för spelarens besättning och allierade besättningar."
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "Ansättare för Grovkalibrig Artillerigranat"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "Ansättare för Grovkalibrig Stridsvagnspjäs"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s kortare chock\n%(crewHitChance)s skydd mot skador för besättningen"
+
+msgid "largeMedkit/descr"
+msgstr "Vård av alla skadade besättningsmedlemmar och borttagande av chock."
+
+msgid "largeMedkit/long_special"
+msgstr "Läker alla skadade besättningsmedlemmar och tar bort effekten av chock vid aktivering. Den passiva effekten skyddar besättningen från skada. Kan användas på alla vagnar från alla nationer."
+
+msgid "largeMedkit/name"
+msgstr "Stor förbandslåda"
+
+msgid "largeMedkit/onUse"
+msgstr "Läker alla skadade besättningsmedlemmar. Kan användas flera gånger i en strid. Förnödenheten tas bort efter en strid om den används minst en gång."
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "Läker alla skadade besättningsmedlemmar och tar bort alla chockeffekter. Kan användas flera gånger under en strid. Förnödenheten tas bort efter striden om den används minst en gång."
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "Läker alla skadade besättningsmedlemmar och tar bort effekten av chock"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s snabbare modulreparationer"
+
+msgid "largeRepairkit/descr"
+msgstr "Reparation av alla skadade moduler."
+
+msgid "largeRepairkit/long_special"
+msgstr "Reparerar alla skadade moduler när det aktiveras. Den passiva effekten ökar reparationshastigheten. Kan användas på alla vagnar från alla nationer."
+
+msgid "largeRepairkit/name"
+msgstr "Stor reparationslåda"
+
+msgid "largeRepairkit/onUse"
+msgstr "Reparation av alla skadade moduler. Kan användas flera gånger i en strid. Förnödenheten tas bort efter en strid om den används minst en gång."
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "Reparerar alla skadade moduler"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "Ökar förmågan Sista andetaget med 50%"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "Ger förmågan Sista andetaget med 100% träning"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "Förmågan Sista andetaget ger dig en chans att meddela fiendens positioner till resten av laget i ytterligare 2 sekunder efter att din vagn förstörts i strid. Om förmågan är tränad till 100% ökar den utrustade effekten med 1 sekund (sammanlagt 3 sekunder) när den utrustas. Annars ger anvisningen vagnen förmågan tränad till 100% (standard 2 sekunder)."
+
+msgid "lastEffortBattleBooster/name"
+msgstr "Plikten framför allt"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "Ger förmågan sista andetaget tränad till 100% eller ökar effekten av den"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "Ansättare för Medelkalibrig Artillerigranat"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "Ansättare för Medelkalibrig Stridsvagnspjäs"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "Eldledningssystem T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "Eldledningssystem T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "Eldledningssystem T1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "Eldledningssystem T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "Eldledningssystem T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "Eldledningssystem T2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "Eldledningssystem T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "Eldledningssystem T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "Eldledningssystem T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "Skyddsförbättringspaket T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "Skyddsförbättringspaket T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "Skyddsförbättringspaket T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "Skyddsförbättringspaket T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "Skyddsförbättringspaket T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "Skyddsförbättringspaket T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "Skyddsförbättringspaket T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "Skyddsförbättringspaket T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "Skyddsförbättringspaket T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "Precisionsförbättringssystem T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "Precisionsförbättringssystem T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "Precisionsförbättringssystem T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "Precisionsförbättringssystem T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "Precisionsförbättringssystem T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "Precisionsförbättringssystem T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "Precisionsförbättringssystem T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "Precisionsförbättringssystem T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "Precisionsförbättringssystem T3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "Mobilitetspaket T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "Mobilitetspaket T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "Mobilitetspaket T1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "Mobilitetspaket T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "Mobilitetspaket T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "Mobilitetspaket T2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "Mobilitetspaket T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "Mobilitetspaket T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "Mobilitetspaket T3"
+
+msgid "nitro/battleDescr"
+msgstr "Ökar tillfälligt vagnens motorstyrka med %(enginePowerFactor)s och topphastigheten med en faktor av %(maxSpeedFactor)s i %(consumeSeconds)s s."
+
+msgid "nitro/descr"
+msgstr "Ökar tillfälligt vagnens motorstyrka med %(enginePowerFactor)s och topphastigheten med en faktor av %(maxSpeedFactor)s i %(consumeSeconds)s s."
+
+msgid "nitro/long_special"
+msgstr "Ökar tillfälligt vagnens motorstyrka {green_Open}med %(enginePowerFactor)s{green_Close} och topphastigheten {green_Open}med en faktor av %(maxSpeedFactor)s{green_Close} {whiteSpanish_Open}i %(consumeSeconds)s s.{whiteSpanish_Close}"
+
+msgid "nitro/name"
+msgstr "Turbo"
+
+msgid "nitro/short_special"
+msgstr "Ökar tillfälligt vagnens motorstyrka {green_Open}med %(enginePowerFactor)s{green_Close} och topphastigheten {green_Open}med en faktor av %(maxSpeedFactor)s{green_Close} {whiteSpanish_Open}i %(consumeSeconds)s s.{whiteSpanish_Close}"
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "Konfigurationsalternativ: Tilläggslast"
+
+msgid "passive_engineering/longDescr"
+msgstr "Ger snabbare erövrings- och omladdningshastighet. Ökar omladdningshastigheten vilket minskar tiden för nedkylning av omladdningscirklar och för att erövra eller återta kontrollpunkter."
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "Du kan inte använda denna stridsreserv på artillerivagnar."
+
+msgid "passive_engineering/name"
+msgstr "Ingenjör"
+
+msgid "passive_engineering/shortDescr"
+msgstr "Ger en bonus till erövringshastighet, erövringsblockering och omladdning."
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "Ej lämplig för artillerivagnar"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "Tredubblar effekten av förmågan Lastsäkring"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "Ger förmågan Lastsäkring med 100% träning"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "Förmågan lastsäkring gör ditt ammunitionsställ tåligare under hela striden. Om besättningen har förmågan tränad till 100% ökar anvisningen effekten, annars ger den förmågan tränad till 100%."
+
+msgid "pedantBattleBooster/name"
+msgstr "Granatsortering"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "Ger förmågan Lastsäkring tränad till 100% eller ökar dess effekt"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "Angivet område beskjuts med artillerield efter {colorTagOpen}%(delay)d s{colorTagClose}. Alla mål inom verkansradien {colorTagOpen}%(radius)d m{colorTagClose} åsamkas {colorTagOpen}%(damage)d{colorTagClose} träffpoäng skada och chockas i {colorTagOpen}%(stunDuration)d s{colorTagClose}."
+
+msgid "poi_artillery_aoe/name"
+msgstr "Artilleriattack"
+
+msgid "poi_radar/descr"
+msgstr "Alla fiender fortsätter vara upptäckta i {colorTagOpen}%(duration)d s{colorTagClose} från aktiveringsögonblicket."
+
+msgid "poi_radar/name"
+msgstr "Divisionsradar"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "Dubblar effekten av förmågan Praktisk"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "Ger förmågan Praktisk med 100% träning"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "Förmågan Praktisk minskar nedkylningstiden för förnödenheter under hela striden. Om förmågan är tränad till 100% ökar anvisningen dess effekt; om inte ger anvisningen förmågan tränad till 100%."
+
+msgid "practicalityBattleBooster/name"
+msgstr "Grundliga förberedelser"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "Ger förmågan Praktisk tränad till 100% eller ökar dess effekt"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s högre motorstyrka och snabbare tornrotation under hela striden."
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}5%{colorTagClose} högre motorstyrka och torntraverseringshastighet."
+
+msgid "qualityFuel/long_special"
+msgstr "Ökar motorstyrka och tornrotationshastigheten med {colorTagOpen}5%{colorTagClose} under hela striden. Aktiveras automatiskt i när striden börjar och varar under hela striden."
+
+msgid "qualityFuel/name"
+msgstr "Kvalitetsbränsle"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "{colorTagOpen}5%{colorTagClose} högre motorstyrka och torntraverseringshastighet"
+
+msgid "radar/descr"
+msgstr "Upptäcker och markerar fiendevagnar och krigsbyte på minikartan."
+
+msgid "radar/name"
+msgstr "Radiopejling"
+
+msgid "rammer/long_special"
+msgstr "Eldhastighet är din vagns viktigaste egenskap. Denna utrustning ger dig en stor fördel och du bör överväga att montera den på alla dina vagnar. Ansättaren kan dock inte monteras på vagnar med ett automatladdat magasinsystem."
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s kortare omladdningstid med ansättare (oavsett kanontyp och kaliber), innovativt laddningssystem eller erövrad ansättare monterad på vagnen."
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2,5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2,5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "Förbättrar effekten av Ansättare (oavsett pjäs eller kaliber), Erövrad ansättare eller Innovativt laddningssystem under hela striden. Anvisningen kan bara användas om du har angiven utrustning monterad på vagnen."
+
+msgid "rammerBattleBooster/name"
+msgstr "Sorterat ammunitionsställ"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "Förbättrar effekten av ansättare"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "Dubblar effekten av förmågan Målföljning"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "Ger förmågan Målföljning med 100% träning"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "Förmågan Målföljning håller en målangiven fiendevagn synlig i två sekunder längre under hela striden. Om besättningen har förmågan tränad till 100% ökar anvisningen effekten, annars ger den förmågan tränad till 100%."
+
+msgid "rancorousBattleBooster/name"
+msgstr "Målfokusering"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "Ger förmågan Målföljning tränad till 100% eller ökar dess effekt"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s besättningseffektivitetsbonus under hela striden."
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} besättningseffektivitetsbonus."
+
+msgid "ration/long_special"
+msgstr "Aktiveras automatiskt i när striden börjar och varar under hela striden. Endast för sovjetiska vagnar."
+
+msgid "ration/name"
+msgstr "Extra fältransoner"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "Endast för sovjetiska vagnar."
+
+msgid "ration/short_special"
+msgstr "Förbättrar träningsnivån för sovjetiska besättningar"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s besättningseffektivitetsbonus under hela striden."
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} besättningseffektivitetsbonus."
+
+msgid "ration_china/long_special"
+msgstr "Aktiveras automatiskt i när striden börjar och varar under hela striden. Endast för kinesiska vagnar."
+
+msgid "ration_china/name"
+msgstr "Högkvalitativa fältransoner"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "Endast för kinesiska vagnar."
+
+msgid "ration_china/short_special"
+msgstr "Förbättrar träningsnivån för kinesiska besättningar"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s besättningseffektivitetsbonus under hela striden."
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} besättningseffektivitetsbonus."
+
+msgid "ration_czech/long_special"
+msgstr "Aktiveras automatiskt i när striden börjar och varar under hela striden. Endast för tjeckoslovakiska vagnar."
+
+msgid "ration_czech/name"
+msgstr "Buchty"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "Endast för tjeckoslovakiska vagnar."
+
+msgid "ration_czech/short_special"
+msgstr "Förbättrar träningsnivån för tjeckoslovakiska besättningar"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s besättningseffektivitetsbonus under hela striden."
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} besättningseffektivitetsbonus."
+
+msgid "ration_italy/long_special"
+msgstr "Aktiveras automatiskt i när striden börjar och varar under hela striden. Endast för italienska vagnar."
+
+msgid "ration_italy/name"
+msgstr "Spaghetti och Köttfärssås"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "Endast för italienska vagnar."
+
+msgid "ration_italy/short_special"
+msgstr "Förbättrar träningsnivån för italienska besättningar"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s besättningseffektivitetsbonus under hela striden."
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} besättningseffektivitetsbonus."
+
+msgid "ration_japan/long_special"
+msgstr "Aktiveras automatiskt i när striden börjar och varar under hela striden. Endast för japanska vagnar."
+
+msgid "ration_japan/name"
+msgstr "Onigiri"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "Endast för japanska vagnar."
+
+msgid "ration_japan/short_special"
+msgstr "Förbättrar träningsnivån för japanska besättningar"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s besättningseffektivitetsbonus under hela striden."
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} besättningseffektivitetsbonus."
+
+msgid "ration_poland/long_special"
+msgstr "Aktiveras automatiskt i när striden börjar och varar under hela striden. Endast för polska vagnar."
+
+msgid "ration_poland/name"
+msgstr "Smörgås med smalec"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "Endast för polska vagnar."
+
+msgid "ration_poland/short_special"
+msgstr "Förbättrar träningsnivån för polska besättningar"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s besättningseffektivitetsbonus under hela striden."
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} besättningseffektivitetsbonus."
+
+msgid "ration_sweden/long_special"
+msgstr "Aktiveras automatiskt i när striden börjar och varar under hela striden. Endast för svenska vagnar."
+
+msgid "ration_sweden/name"
+msgstr "Kaffe med dopp"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "Endast för Svenska vagnar."
+
+msgid "ration_sweden/short_special"
+msgstr "Förbättrar träningsnivån för svenska besättningar"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s besättningseffektivitetsbonus under hela striden."
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} besättningseffektivitetsbonus."
+
+msgid "ration_uk/long_special"
+msgstr "Aktiveras automatiskt i när striden börjar och varar under hela striden. Endast för brittiska vagnar."
+
+msgid "ration_uk/name"
+msgstr "Te och pudding"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "Endast för brittiska vagnar."
+
+msgid "ration_uk/short_special"
+msgstr "Förbättrar träningsnivån för brittiska besättningar"
+
+msgid "recon/longDescr"
+msgstr "Spaningsflyg flyger längs en linje på kartan. Vagnar inom synhåll för planet upptäcks och förblir synliga under period. Upptäcker minfält."
+
+msgid "recon/name"
+msgstr "Spaningsflyg"
+
+msgid "recon/shortDescr"
+msgstr "Upptäcker fiendevagnar och minfält."
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}10%{colorTagClose} högre motorstyrka, men skadar motorn."
+
+msgid "removedRpmLimiter/long_special"
+msgstr "Ökar motorstyrkan med {colorTagOpen}10%{colorTagClose} men minskar gradvis motorns träffpoäng när den är aktiv. Kan aktiveras och avaktiveras flera gånger under striden. Endast för kinesiska och sovjetiska vagnar."
+
+msgid "removedRpmLimiter/name"
+msgstr "Borttagen hastighetsregulator"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s högre motorstyrka, men skadar motorn. Kan användas flera gånger under en strid."
+
+msgid "removedRpmLimiter/restriction"
+msgstr "Endast för sovjetiska och kinesiska vagnar."
+
+msgid "removedRpmLimiter/short_special"
+msgstr "{colorTagOpen}10%{colorTagClose} högre motorstyrka, men skadar motorn"
+
+msgid "repairpoint/battleDescr"
+msgstr "Skapar tillfälligt fast område som reparerar alla skadade moduler, tar bort ALLA negativa effekter och återställer %(healPerTick)s av vagnens träffpoäng per sekund i %(timer)s s\n\n*Gäller även allierade vagnar inom verkansområdet."
+
+msgid "repairpoint/descr"
+msgstr "Skapar tillfälligt fast område som reparerar alla skadade moduler, tar bort ALLA negativa effekter och återställer %(healPerTick)s av vagnens träffpoäng per sekund i %(timer)s s\n\n*Gäller även allierade vagnar inom verkansområdet."
+
+msgid "repairpoint/long_special"
+msgstr "Skapar tillfälligt fast område som reparerar alla skadade moduler, tar bort ALLA negativa effekter och {green_Open}återställer %(healPerTick)s{green_Close} av vagnens träffpoäng {whiteSpanish_Open}per sekund i %(timer)s s{whiteSpanish_Close}\n\n*Gäller även allierade vagnar inom verkansområdet."
+
+msgid "repairpoint/name"
+msgstr "Underhållsplats"
+
+msgid "repairpoint/short_special"
+msgstr "Skapar tillfälligt fast område som reparerar alla skadade moduler, tar bort ALLA negativa effekter och {green_Open}återställer %(healPerTick)s{green_Close} av vagnens träffpoäng {whiteSpanish_Open}per sekund i %(timer)s s{whiteSpanish_Close}\n\n*Gäller även allierade vagnar inom verkansområdet."
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "Särskild tillsyn av eldrör (typ 1)"
+
+msgid "roleSlot/name"
+msgstr "Kategori för andra utrustningsplatsen"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "Passivt säkerhetssystem"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "Passivt\nsäkerhetssystem"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "Omstrukturerat ammunitionsställ"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "Omstrukturerat\nammunitionsställ"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "Lättreparerade band"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "Lättreparerade\nband"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "Omarbetat motorrum"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "Omarbetat\nmotorrum"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "Förstärkt upphängning"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "Förstärkt\nupphängning"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "Lättviktsupphängning"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "Lättvikts-\nupphängning"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "Polerade eldriktningsdrev"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "Polerade\neldriktningsdrev"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "Parallaxkalibrering"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "Parallax-\nkalibrering"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "Tillsyn av utkastare"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "Tillsyn av\nutkastare"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "Rätvinkelperiskop"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "Rätvinkel-\nperiskop"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "Tillsyn av laddningsanordning"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "Tillsyn av\nladdningsanordning"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "Tillsyn av eldriktningsanordning"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "Tillsyn av\neldriktningsanordning"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "Kraftuttagsinställning"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "Kraftuttags-\ninställning"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "Elektrisk eldriktningsmotor"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "Elektrisk\neldriktningsmotor"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "Nya eldriktningsdrev"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "Nya\neldriktningsdrev"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "Slutstyckesinställning"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "Slutstyckes-\ninställning"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "Allmän viktreduktion"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "Allmän\nviktreduktion"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "Allmän hållbarhetsöversyn"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "Allmän\nhållbarhetsöversyn"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "Mattlack"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "Matt\nlack"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "Extra backväxel"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "Extra\nbackväxel"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "Överliggande kamaxel"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "Överliggande\nkamaxel"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "Förbättrad ansättare"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "Förbättrad\nansättare"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "Extra stötvågsisolering"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "Extra\nstötvågsisolering"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "Borttagning av säkerhetsdynor"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "Borttagning av\nsäkerhetsdynor"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "Tilläggssäkerhetssystem"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "Tilläggs-\nsäkerhetssystem"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "Slipade tappaxlar"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "Slipade\ntappaxlar"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "Omkopplat elaggregat (variant 1)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "Omkopplat\nelaggregat (variant 1)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "Omkopplat elaggregat (variant 2)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "Omkopplat\nelaggregat (variant 2)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "Förstärkt bottenplatta"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "Förstärkt\nbottenplatta"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "Lättare bottenplatta"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "Lättare\nbottenplatta"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "Rörlighetsfokus"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "Rörlighets-\nfokus"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "Eldkraftsfokus"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "Eldkrafts-\nfokus"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "Tung pjäsmotvikt"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "Tung\npjäsmotvikt"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "Viktreducerad kanon"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "Viktreducerad\nkanon"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "Trimmad uteffekt (variant 1)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "Trimmad\nuteffekt (variant 1)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "Trimmad uteffekt (variant 2)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "Trimmad\nuteffekt (variant 2)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "Förstärkt vagnskropp"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "Förstärkt\nvagnskropp"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "Lättviktsskrov"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "Lättvikts-\nskrov"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Antireflexbeläggning"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Antireflex-\nbeläggning"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Extra eldledningsoptik"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Extra\neldledningsoptik"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Vidvinkelprisma"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Vidvinkel-\nprisma"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Förstorande prisma"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Förstorande\nprisma"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "Förstärkt pansarkropp"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "Förstärkt\npansarkropp"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "Utökat tornutrymme"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "Utökat\ntornutrymme"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "Spaningsutrustning"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "Spanings-\nutrustning"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "Anfallsutrustning"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "Anfalls-\nutrustning"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "Specialförstärkt vagnskropp"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "Specialförstärkt\nvagnskropp"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "Avancerat eldriktningssystem"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "Avancerat\neldriktningssystem"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "Extra observationsenheter"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "Extra\nobservationsenheter"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "Förstärkta svetsfogar"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "Förstärkta\nsvetsfogar"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "Tillsyn av laddningsanordning"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "Tillsyn av\nladdningsanordning"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "Tillsyn av eldriktningsanordning"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "Tillsyn av\neldriktningsanordning"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "Kraftuttagsinställning"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "Kraftuttags-\ninställning"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "Elektrisk eldriktningsmotor"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "Elektrisk\neldriktningsmotor"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "Slutstyckesinställning"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "Slutstyckes-\ninställning"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "Nya eldriktningsdrev"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "Nya\neldriktningsdrev"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "Trimmat injektionssystem"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "Trimmat\ninjektionssystem"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "Synfältsinsanpassning"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "Synfältsins-\nanpassning"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "Interna modulskyddsplåtar"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "Interna\nmodulskyddsplåtar"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "Axeltappar i lättmetall"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "Axeltappar\ni lättmetall"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "Slutstyckesinställning"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "Slutstyckes-\ninställning"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "Nya eldriktningsdrev"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "Nya\neldriktningsdrev"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "Högeffektsventiler"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "Högeffekts-\nventiler"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "Finkänslig optik"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "Finkänslig\noptik"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "Förstärkta stödrullar"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "Förstärkta\nstödrullar"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "Lättviktsstödrullar"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "Lättvikts-\nstödrullar"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "Stötdämparinställning"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "Stötdämpar-\ninställning"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "Motortrimning"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "Motor-\ntrimning"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "Jaktutförande F"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "Jakt-\nutförande F"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "Jaktutförande C"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "Jakt-\nutförande C"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "Hydraulikinställning (variant 1)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "Hydraulik-\ninställning (variant 1)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "Hydraulikinställning (variant 2)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "Hydraulik-\ninställning (variant 2)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "Tillsyn av laddningsanordning"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "Tillsyn av\nladdningsanordning"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "Tillsyn av eldriktningsanordning"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "Tillsyn av\neldriktningsanordning"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "Tilläggspansar"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "Tilläggs-\npansar"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "Viktreduktion"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "Vikt-\nreduktion"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "Allterrängsupphängning"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "Allterrängs-\nupphängning"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "Lättviktsupphängning"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "Lättvikts-\nupphängning"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "Parallaxkalibrering"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "Parallax-\nkalibrering"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "Polerade eldriktningsdrev"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "Polerade\neldriktningsdrev"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "Ljudisolering"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "Ljud-\nisolering"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "Elektrisk observationsenhet"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "Elektrisk\nobservationsenhet"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "Ventiltrimning (variant 1)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "Ventiltrimning\n(variant 1)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "Ventiltrimning (variant 2)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "Ventiltrimning\n(variant 2)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "Tillsyn av laddningsanordning"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "Tillsyn av\nladdningsanordning"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "Tillsyn av eldriktningsanordning"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "Tillsyn av\neldriktningsanordning"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "Förstärkt splitterskyddsliner"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "Förstärkt\nsplitterskyddsliner"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "Reducerad splitterskyddsliner"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "Reducerad\nsplitterskyddsliner"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "Interna modulskyddsplåtar"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "Interna\nmodulskyddsplåtar"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "Axeltappar i lättmetall"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "Axeltappar\ni lättmetall"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "Mjuka stötdämpare"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "Mjuka\nstötdämpare"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "Förbättrat sikte"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "Förbättrat\nsikte"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "Trimmad turbo"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "Trimmad\nturbo"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "Antireflexstrålkastare"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "Antireflex-\nstrålkastare"
+
+msgid "selfBuff/battleDescr"
+msgstr "Minskar siktesspridning och sikttid med %(gunAimingTime)s samt förbättrar eldhastighet och kanonstabilisering under %(duration)s s.\n\n*Påverkar inte tiden mellan granater i magasin, kassetter eller dubbelpjäser."
+
+msgid "selfBuff/descr"
+msgstr "Minskar siktesspridning och sikttid med %(gunAimingTime)s samt förbättrar eldhastighet och kanonstabilisering under %(duration)s s.\n\n*Påverkar inte tiden mellan granater i magasin, kassetter eller dubbelpjäser."
+
+msgid "selfBuff/longDescr"
+msgstr "Minskar siktesspridning och sikttid {green_Open}med %(gunAimingTime)s{green_Close} samt förbättrar eldhastighet och kanonstabilisering {whiteSpanish_Open}under %(duration)s s{whiteSpanish_Close}.\n\n*Påverkar inte tiden mellan granater i magasin, kassetter eller dubbelpjäser."
+
+msgid "selfBuff/name"
+msgstr "Målsökning"
+
+msgid "selfBuff/shortDescr"
+msgstr "Minskar siktesspridning och sikttid {green_Open}med %(gunAimingTime)s{green_Close} samt förbättrar eldhastighet och kanonstabilisering {whiteSpanish_Open}under %(duration)s s{whiteSpanish_Close}.\n\n*Påverkar inte tiden mellan granater i magasin, kassetter eller dubbelpjäser."
+
+msgid "shells_consumables_switch/name"
+msgstr "Konfigurationsalternativ: Standardlast"
+
+msgid "shotPassion/battleDescr"
+msgstr "Ökar sikttid och siktesspridning med %(gunAimingTime)s under %(duration)s s, men varje träff som slår igenom pansaret ökar skadeverkan för efterföljande granater med %(damageIncreasePerShot)s. Effekten kan staplas upp till 5 gånger. Träffar utan skadeverkan eller missar återställer skadebonusen till 0.\n\n*Träffar med Elektrisk urladdning räknas som träffar för skadebonusen."
+
+msgid "shotPassion/descr"
+msgstr "Ökar sikttid och siktesspridning med %(gunAimingTime)s under %(duration)s s, men varje träff som slår igenom pansaret ökar skadeverkan för efterföljande granater med %(damageIncreasePerShot)s. Effekten kan staplas upp till 5 gånger. Träffar utan skadeverkan eller missar återställer skadebonusen till 0.\n\n*Träffar med Elektrisk urladdning räknas som träffar för skadebonusen."
+
+msgid "shotPassion/longDescr"
+msgstr "Ökar sikttid och siktesspridning {red_Open}med %(gunAimingTime)s{red_Close} {whiteSpanish_Open}under %(duration)s s{whiteSpanish_Close}, men varje träff som slår igenom pansaret ökar skadeverkan för efterföljande granater {green_Open}med %(damageIncreasePerShot)s.{green_Close} Effekten kan staplas {whiteSpanish_Open}upp till 5 gånger{whiteSpanish_Close}. Träffar utan skadeverkan eller missar återställer skadebonusen till 0.\n\n*Träffar med Elektrisk urladdning räknas som träffar för skadebonusen."
+
+msgid "shotPassion/name"
+msgstr "Svallande vrede"
+
+msgid "shotPassion/shortDescr"
+msgstr "Ökar sikttid och siktesspridning {red_Open}med %(gunAimingTime)s{red_Close} {whiteSpanish_Open}under %(duration)s s{whiteSpanish_Close}, men varje träff som slår igenom pansaret ökar skadeverkan för efterföljande granater {green_Open}med %(damageIncreasePerShot)s.{green_Close} Effekten kan staplas {whiteSpanish_Open}upp till 5 gånger{whiteSpanish_Close}. Träffar utan skadeverkan eller missar återställer skadebonusen till 0.\n\n*Träffar med Elektrisk urladdning räknas som träffar för skadebonusen."
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "Sjätte sinnet aktiveras 1 sekund tidigare"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "Sjätte sinnet varnar vagnschefen när vagnen har upptäckts av fienden. Aktiveras 3 s efter att vagnen upptäckts."
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "Sjätte sinnet låter vagnschefen avgöra om vagnen har blivit upptäckt av fienden under hela striden. Anvisningen ökar effekten av förmågan."
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "Ökad koncentration"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "Ökar effekten av vagnschefsförmågan Sjätte sinnet"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "Läker alla skadade besättningsmedlemmar och tar bort effekten av chock."
+
+msgid "smallMedkit/long_special"
+msgstr "Läker alla skadade besättningsmedlemmar och tar bort chock vid aktivering. Kan användas på alla vagnar från alla nationer. Förnödenheten tas bort efter striden om den använts minst en gång."
+
+msgid "smallMedkit/name"
+msgstr "Liten förbandslåda"
+
+msgid "smallMedkit/onUse"
+msgstr "Läker alla skadade besättningsmedlemmar och tar bort effekten av chock."
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "Läker alla skadade besättningsmedlemmar och tar bort effekten av chock."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "Läker alla skadade besättningsmedlemmar och tar bort effekten av chock."
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "Reparerar alla skadade moduler."
+
+msgid "smallRepairkit/long_special"
+msgstr "Reparerar alla skadade moduler direkt vid aktivering. Kan användas på alla vagnar från alla nationer. Förnödenheten tas bort från vagnen efter striden om den förbrukades."
+
+msgid "smallRepairkit/name"
+msgstr "Liten reparationslåda"
+
+msgid "smallRepairkit/onUse"
+msgstr "Reparerar alla skadade moduler. Kan användas på alla vagnar från alla nationer. Förnödenheten tas bort från vagnen efter striden om den förbrukades."
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "Reparerar alla skadade moduler."
+
+msgid "smoke/longDescr"
+msgstr "Lägger rök som döljer alla vagnar i och bakom den. Fiendevagnar i röken har minskad siktsträcka och besättningseffektivitet."
+
+msgid "smoke/name"
+msgstr "Rökridå"
+
+msgid "smoke/shortDescr"
+msgstr "Rök maskerar alla vagnar i/bakom den. Fiende i röken har minskad sikt och besättningsprestanda."
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "Dubblar effekten av förmågan Mjuk körning"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "Ger förmågan Mjuk körning med 100% träning"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "Förmågan Mjuk körning förbättrar träffsäkerheten vid eldgivning i rörelse under hela striden. Om förmågan är tränad till 100% ökar anvisningen effekten, om inte ger anvisningen förmågan 100% träning."
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "Avancerad växellåda"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "Ger förmågan Mjuk körning tränad till 100% eller ökar dess effekt"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "Dubblar effekten av förmågan Slängskott"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "Ger förmågan Slängskott med 100% träning"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "Förmågan Slängskott ökar träffsäkerheten vid tornrotation under hela striden. Om besättningen har förmågan tränad till 100% ökar anvisningen effekten, annars ger den förmågan tränad till 100%."
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "Stadig hand"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "Ger förmågan Slängskott tränad till 100% eller ökar dess effekt"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "Aktiverar en självgående mina som jagar närmaste fiende under upp till %(botLifeTime)s s, och åsamkar 400 till 600 träffpoäng skada inom ett begränsat område när den detonerar.\n\n*Fienden kan förstöra din eldboll genom att skjuta eller ramma den. Eldbollen åsamkar extra kollisionsskada när den når målet."
+
+msgid "spawn_kamikaze/descr"
+msgstr "Aktiverar en självgående mina som jagar närmaste fiende under upp till %(botLifeTime)s s, och åsamkar 400 till 600 träffpoäng skada inom ett begränsat område när den detonerar.\n\n*Fienden kan förstöra din eldboll genom att skjuta eller ramma den. Eldbollen åsamkar extra kollisionsskada när den når målet."
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "Aktiverar en självgående mina som jagar närmaste fiende under upp till {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close}, och åsamkar {whiteSpanish_Open}400 till 600 träffpoäng skada{whiteSpanish_Close} inom ett begränsat område när den detonerar.\n\n*Fienden kan förstöra din eldboll genom att skjuta eller ramma den. Eldbollen åsamkar extra kollisionsskada när den når målet."
+
+msgid "spawn_kamikaze/name"
+msgstr "Eldboll"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "Aktiverar en självgående mina som jagar närmaste fiende under upp till {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close}, och åsamkar {whiteSpanish_Open}400 till 600 träffpoäng skada{whiteSpanish_Close} inom ett begränsat område när den detonerar.\n\n*Fienden kan förstöra din eldboll genom att skjuta eller ramma den. Eldbollen åsamkar extra kollisionsskada när den når målet."
+
+msgid "stealthRadar/descr"
+msgstr "Ger en ökad kamouflageförmåga och siktsträcka. Minskar fiendevagnars kamouflageförmåga."
+
+msgid "stealthRadar/long_descr"
+msgstr "Ökar din vagns kamouflageförmåga under %(activationDelay)s s efter den stannat helt och minskar fiendevagnars kamouflageförmåga. Ger en passiv ökning av siktsträckan och upptäcker fientliga minfält. Fungerar inte när vagnen är i rörelse."
+
+msgid "stealthRadar/name"
+msgstr "Vaktpost"
+
+msgid "stealthRadar/short_descr"
+msgstr "Ger en ökad kamouflageförmåga och siktsträcka. Minskar fiendevagnars kamouflageförmåga."
+
+msgid "stereoscope/battleDescr"
+msgstr "Ökar siktsträckan för en stillastående vagn 3 sekunder efter den stannat (upp till 445 m)"
+
+msgid "stereoscope/long_special"
+msgstr "En lång siktsträcka ger ett ordentligt övertag för vilken vagn som helst. Denna utrustning är mest fördelaktig för pansarvärnskanonvagnar med låg profil och träffsäker kanon. Den aktiveras 3 sekunder efter att vagnen stannat."
+
+msgid "stereoscope/name"
+msgstr "Tvåtubsteleskop"
+
+msgid "stereoscope_tier1/name"
+msgstr "Tvåtubsteleskop klass 1"
+
+msgid "stereoscope_tier2/name"
+msgstr "Tvåtubsteleskop klass 2"
+
+msgid "stereoscope_tier3/name"
+msgstr "Tvåtubsteleskop klass 3"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "Byte av stötdämparkomponenter (typ 1)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "Byte av stötdämparkomponenter (typ 2)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "Polerade rotationslager (typ 1)"
+
+msgid "tankRammer/name"
+msgstr "Ansättare"
+
+msgid "tankRammer_tier1/name"
+msgstr "Ansättare klass 1"
+
+msgid "tankRammer_tier2/name"
+msgstr "Ansättare klass 2"
+
+msgid "thunderStrike/battleDescr"
+msgstr "Skapar ett område med %(thunderCount)s snabba elektriska urladdningar. Varje urladdning åsamkar %(damage)s träffpoäng skada och minskar tillfälligt alla fiendevagnars rörelseförmåga inom verkansområdet.\n\n*Från aktivering tar det %(delay)s s till första urladdningen. Den negativa effekten kan tas bort med reparationslådor."
+
+msgid "thunderStrike/descr"
+msgstr "Skapar ett område med %(thunderCount)s snabba elektriska urladdningar. Varje urladdning åsamkar %(damage)s träffpoäng skada och minskar tillfälligt alla fiendevagnars rörelseförmåga inom verkansområdet.\n\n*Från aktivering tar det %(delay)s s till första urladdningen. Den negativa effekten kan tas bort med reparationslådor."
+
+msgid "thunderStrike/longDescr"
+msgstr "Skapar ett område med %(thunderCount)s snabba elektriska urladdningar. Varje urladdning åsamkar {whiteSpanish_Open}%(damage)s träffpoäng skada{whiteSpanish_Close} och minskar tillfälligt alla fiendevagnars rörelseförmåga inom verkansområdet.\n\n*Från aktivering tar det %(delay)s s till första urladdningen. Den negativa effekten kan tas bort med reparationslådor."
+
+msgid "thunderStrike/name"
+msgstr "Elektrisk urladdning"
+
+msgid "thunderStrike/shortDescr"
+msgstr "Skapar ett område med %(thunderCount)s snabba elektriska urladdningar. Varje urladdning åsamkar {whiteSpanish_Open}%(damage)s träffpoäng skada{whiteSpanish_Close} och minskar tillfälligt alla fiendevagnars rörelseförmåga inom verkansområdet.\n\n*Från aktivering tar det %(delay)s s till första urladdningen. Den negativa effekten kan tas bort med reparationslådor."
+
+msgid "trappoint/battleDescr"
+msgstr "Skapar ett område som minskar manöverförmågan med %(vehicleMaxSpeed)s och ökar omladdningstid och sikttid för alla fiendevagnar med %(gunReloadTime)s under %(duration)s s."
+
+msgid "trappoint/descr"
+msgstr "Skapar ett område som minskar manöverförmågan med %(vehicleMaxSpeed)s och omladdningstid och sikttid med %(gunReloadTime)s för alla fiendevagnar under %(duration)s s."
+
+msgid "trappoint/long_special"
+msgstr "Skapar ett område som minskar manöverförmågan {whiteSpanish_Open}med %(vehicleMaxSpeed)s{whiteSpanish_Close} och omladdningstid och sikttid {whiteSpanish_Open}med %(gunReloadTime)s{whiteSpanish_Close} för alla fiendevagnar {whiteSpanish_Open}under %(duration)s s.{whiteSpanish_Close}"
+
+msgid "trappoint/name"
+msgstr "Fälla"
+
+msgid "trappoint/short_special"
+msgstr "Skapar ett område som minskar manöverförmågan {whiteSpanish_Open}med %(vehicleMaxSpeed)s{whiteSpanish_Close} och ökar omladdningstid och sikttid för alla fiendevagnar {whiteSpanish_Open}med %(gunReloadTime)s{whiteSpanish_Close} {whiteSpanish_Open}under %(duration)s s{whiteSpanish_Close}."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "Effektiviteten beror på vagnstyp. Ökar kamouflagevärdet för vagnen oavsett om den är stillastående eller i rörelse. Användbar för aktiv spaning såväl som passiv spaning från utsatta positioner."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "Erövrat avgassystem"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "Ökar kamouflagevärde för vagnen oavsett om den är stillastående eller i rörelse."
+
+msgid "trophyBasicAimDrives/name"
+msgstr "Erövrad eldriktningsmotor"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "Minskar sikttiden så du kan avfyra välriktade skott snabbare."
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "Erövrad stabilisator"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "Minskar siktesspridningen vid eldgivning under förflyttning och rotering."
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "Erövrad optik"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "Ökar siktsträckan för både stillastående vagnar och vagnar i rörelse."
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "Återställer helt träffpoängen för upphängningen efter reparationer."
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "Återställer upphängningen efter reparation."
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "Ökar vagnens tålighet och reparationshastighet. Minskar skador på skrovet som uppkommer genom skada åsamkad upphängningen vid kollision och fall. Minskar risken för förstörda band vid skada, vilket låter vagnen förbli manöverduglig längre."
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "Erövrad förstärkning"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "Ökar vagnens tålighet och lastkapacitet samt skyddar upphängningen"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "Erövrad säkerhetsanpassning"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "Erövrad rotationsmekanism"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "Minskar storleken på siktesringen för att öka träffsäkerheten under sikttiden eller när kanonen är helt insiktad. Det ger dig en bättre chans att träffa målet."
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "Erövrat sikte"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "Minskar siktesspridningen"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "Erövrad ventilation"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "Ökar besättningens effektivitet och har en positiv effekt på de flesta av vagnens egenskaper."
+
+msgid "trophyBasicTankRammer/name"
+msgstr "Erövrad ansättare"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "Ökar omladdningshastigheten. Inga restriktioner på vagnstyp."
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "Ökar motorstyrkan, ger bättre accelerationsförmåga, manöverförmåga och förmåga att köra i uppförsbacke. Ökar vagnens högsta hastighet både framåt och bakåt, vilket låter dig ta eldställning och retirera undan fiendens eld snabbare."
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "Erövrad turbo"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "Ökar motorstyrkan och topphastigheten"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}10%{colorTagClose} {arrow}längre siktsträcka, upp till maximalt 445 m"
+
+msgid "trophyOptics/name"
+msgstr "Erövrad optik"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "Erövrat avgassystem"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "Erövrad eldriktningsmotor"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "Erövrad stabilisator"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "Erövrad optik"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "Återställer helt träffpoängen för upphängningen efter reparationer."
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Återställer upphängningen efter reparation."
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "Erövrad förstärkning"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "Erövrad säkerhetsanpassning"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "Erövrad rotationsmekanism"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "Erövrat sikte"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "Erövrad ventilation"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "Erövrad ansättare"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "Erövrad turbo"
+
+msgid "turbocharger/long_special"
+msgstr "Ökar motorstyrkan, ger bättre accelerationsförmåga, manöverförmåga och förmåga att köra i uppförsbacke. Ökar vagnens högsta hastighet både framåt och bakåt, vilket låter dig ta eldställning och retirera undan fiendens eld snabbare."
+
+msgid "turbocharger/name"
+msgstr "Turbo"
+
+msgid "turbocharger/short_special"
+msgstr "Ökar motorstyrkan och topphastigheten"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s motorstyrka med Turbo (oavsett klass), Erövrad turbo, Förbättrad kompressor eller Mobilitetspaket monterat på vagnen."
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "Ökar effekten av Turbo (oavsett klass), Erövrad turbo eller Förbättrad kompressor under en strid. Anvisningen fungerar bara om du har angiven utrustning monterad på vagnen."
+
+msgid "turbochargerBattleBooster/name"
+msgstr "Byte av bränslefilter"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "Ökar motorstyrkan"
+
+msgid "turbocharger_tier1/name"
+msgstr "Turbo klass 1"
+
+msgid "turbocharger_tier2/name"
+msgstr "Turbo klass 2"
+
+msgid "turbocharger_tier3/name"
+msgstr "Turbo klass 3"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "Dubblar effekten av förmågan Motorbromsning"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "Ger förmågan Motorbromsning med 100% träning"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "Förmågan Motorbromsning ökar rotationshastighet för skrovet, både i rörelse och stillastående, under hela striden. Om besättningen har förmågan tränad till 100% ökar anvisningen effekten, annars ger den förmågan tränad till 100%."
+
+msgid "virtuosoBattleBooster/name"
+msgstr "Hinderkörning"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "Ger förmågan Motorbromsning tränad till 100% eller ökar dess effekt"

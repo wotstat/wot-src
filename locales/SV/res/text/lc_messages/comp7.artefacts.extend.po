@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_aggressive_detection/descr/active"
+msgstr "Ökar siktsträckan med {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose} i {colorTagOpen}%(duration)s s{colorTagClose}.\n\nNedräkningen återställs när en fiendevagn förstörs under din observation."
+
+msgid "comp7_aggressive_detection/name"
+msgstr "Aktiv spaning"
+
+msgid "comp7_ally_support/descr/active"
+msgstr "Under {colorTagOpen}%(duration)s s{colorTagClose} ökas besättningseffektiviteten med {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} för varje roll som fylls av minst en vagn i laget.\n\nDin egen vagns roll räknas alltid."
+
+msgid "comp7_ally_support/name"
+msgstr "En för alla"
+
+msgid "comp7_aoe_heal/descr/active"
+msgstr "Under {colorTagOpen}%(duration)s s{colorTagClose}, skapas ett område med radien {colorTagOpen}%(radius)s m{colorTagClose} runt vagnen som återställer {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} träffpoäng för din egen och alla allierade vagnar."
+
+msgid "comp7_aoe_heal/name"
+msgstr "Fältreparationer"
+
+msgid "comp7_aoe_inspire/descr/active"
+msgstr "Under {colorTagOpen}%(duration)s s{colorTagClose} ökas din besättnings, och alla allierade besättningars, effektivitet med {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose}."
+
+msgid "comp7_aoe_inspire/name"
+msgstr "Inspirera"
+
+msgid "comp7_berserk/descr/active"
+msgstr "Under {colorTagOpen}%(duration)s s{colorTagClose} minskas omladdningstiden för kanonen med {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}. Dessutom minskas siktesspridning efter eldgivning, under förflyttning och vid skrov- och tornrotation med {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nNedräkningen återställs när du åsamkar skada genom rammning eller skott på under {colorTagOpen}%(damageDistance)s m{colorTagClose} håll."
+
+msgid "comp7_berserk/name"
+msgstr "Vrede"
+
+msgid "comp7_concentration/descr/active"
+msgstr "Minskar sikttid och siktesspridning under rörelse och torn- eller skrovrotation med {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose} under {colorTagOpen}%(duration)s s{colorTagClose}.\n\nNär den här rollfärdigheten är aktiv minskas omladdningstiden mellan granater med {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s s{colorTagClose}."
+
+msgid "comp7_concentration/name"
+msgstr "Målfokusering"
+
+msgid "comp7_fast_recharge/descr/active"
+msgstr "• För magasinladdade kanoner:\nMinskar återstående omladdningstid med {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n• För automatomladdade kanoner:\nAlla avfyrade granater i omgången laddas om {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose} snabbare\n\nFärdigheten kan bara aktiveras under omladdning.\n\n• För överhettningsskyddade automatkanoner:\nMinskar uppvärmningen med {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose} av maxtemperaturen.\n\nFärdigheten kan bara aktiveras om kanonen är upphettad."
+
+msgid "comp7_fast_recharge/name"
+msgstr "Fingerfärdighet"
+
+msgid "comp7_hunter/descr/active"
+msgstr "Återställer antalet fiendevagnar skadade av granater.\n\nÅterställer under {colorTagOpen}%(duration)s s{colorTagClose} {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} av vagnens träffpoäng för varje fiendevagn som skadats med granater vid aktiveringsögonblicket."
+
+msgid "comp7_hunter/descr/passive"
+msgstr "Minskar omladdningstiden med {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose} för varje fiendevagn som skadats med granater."
+
+msgid "comp7_hunter/name"
+msgstr "Prisjägare"
+
+msgid "comp7_juggernaut/descr/active"
+msgstr "Under {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}:\n• Inkommande skada minskas med {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• Topphastighet framåt ökas med {colorTagOpen}%(fwMaxSpeedBonus)s km/h{colorTagClose}\n• Topphastighet bakåt ökas med {colorTagOpen}%(bkMaxSpeedBonus)s km/h{colorTagClose}\n• Motorstyrkan ökas med {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• Skada åsamkad fiendevagnar vid rammning ökas med {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\nNär rollfärdigheten är aktiv förstörs dina band av ett enda skott."
+
+msgid "comp7_juggernaut/name"
+msgstr "Juggernaut"
+
+msgid "comp7_march/descr/active"
+msgstr "Ökar vagnens motorstyrka med {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, topphastigheten med {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h och kamouflageförmågan med {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose} under {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}."
+
+msgid "comp7_march/name"
+msgstr "Forcerad marsch"
+
+msgid "comp7_recon/descr/active"
+msgstr "Ett spaningsflyg överflyger området efter {colorTagOpen}%(delay)s s{colorTagClose}. Upptäckta fiendevagnar inom {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} förblir upptäckta under {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;s{colorTagClose}. En speciell ikon visas för upptäckta spelare med {colorTagOpen}%(lampDelay)s s{colorTagClose} fördröjning.\n\nFärdigheten blir tillgänglig {colorTagOpen}%(startupDelay)s s{colorTagClose} efter stridens början."
+
+msgid "comp7_recon/name"
+msgstr "Spaningsflyg"
+
+msgid "comp7_redline/descr/active"
+msgstr "Kallar in artillerield som slår ned efter {colorTagOpen}%(delay)s s{colorTagClose}.\n\nMål inom verkansradien {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} åsamkas {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} träffpoäng skada och chockas i {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s s{colorTagClose}."
+
+msgid "comp7_redline/name"
+msgstr "Eldunderstöd"
+
+msgid "comp7_risky_attack/descr/active"
+msgstr "Acceleration\n\nÖkar motorstyrkan med {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, topphastigheten med {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h och backhastigheten med {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/h under {colorTagOpen}%(duration)s s{colorTagClose}.\n\nÅterhämtning\n\nÅterställer {colorTagOpen}%(baseHeal)s{colorTagClose} av vagnens träffpoäng {colorTagOpen} under {colorTagOpen}%(healDuration)s s{colorTagClose} +%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose} av träffpoäng som förlorats när Acceleration är aktiv."
+
+msgid "comp7_risky_attack/name"
+msgstr "Andra andningen"
+
+msgid "comp7_role_skill/descr/startLevel"
+msgstr " \n\nRollförmågan har laddningsgrad {colorTagOpen} %(startLevel)s{colorTagClose} när striden börjar."
+
+msgid "comp7_sniper/descr/active"
+msgstr "Under {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose} tvingas siktesspridning på 100 m att vara {colorTagOpen}%(dispersionFactor)s m{colorTagClose}.\n\nOm din vagn inte har upptäckts vid eldgivningsögonblicket ökas skadeverkan för granater med {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}. \n\nNedräkningen återställs när du åsamkar skada med ett skott på över {colorTagOpen}%(damageDistance)s m{colorTagClose} håll."
+
+msgid "comp7_sniper/name"
+msgstr "Mitt-i-prick"
+
+msgid "comp7_sure_shot/descr/active"
+msgstr "Minskar siktesspridning under rörelse och torn- eller skrovrotation med {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose} under {colorTagOpen}%(duration)s s{colorTagClose}.\n\nNär den här färdigheten är aktiv minskas omladdningstiden med {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose} av procentandelen fiendens träffpoäng minskats.\n\nOm en fiendevagn förstörs minskas omladdningstiden med {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}."
+
+msgid "comp7_sure_shot/name"
+msgstr "Ren träff"

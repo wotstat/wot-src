@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "Ως επικύρωση, εισάγετε την ποσότητα των XP για μεταφορά προς το επιλεγμένο μέλος."
+
+msgid "assignmentDialog/price"
+msgstr "Κόστος:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Μεταφορά όλων των Crew XP μεταξύ των μελών πληρώματος"
+
+msgid "assignmentDialog/title"
+msgstr "Επικύρωση Διαδικασίας Καθοδήγησης"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Αυτό το μέλος πληρώματος θα διαγραφεί\nχωρίς δυνατότητα ανάκτησης."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} XP θα χαθούν."
+
+msgid "dialogue/description"
+msgstr "Ένα αναλώσιμο που σας δίνει τη δυνατότητα να μεταφέρετε Crew XP από ένα μέλος πληρώματος σε κάποιο άλλο του ίδιου έθνους."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}Θα χαθούν XP:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "ΕΠΙΛΟΓΗ"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Συνολικά XP:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Άδειες Καθοδήγησης:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Δεν υπάρχουν κατάλληλα μέλη πληρώματος"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Επιλέξτε μέλος πληρώματος από το οποίο θα μεταφερθούν XP\nστο μέλος πληρώματος {cream_Open}%(name)s{cream_Close} και θα διαγραφεί στη συνέχεια από τον λογαριασμό σας."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "Μετά τη μεταφορά των Crew XP, το μέλος πληρώματος {cream_Open}%(name)s{cream_Close} θα φτάσει το όριο ικανοτήτων και όλα τα επιπλέον XP θα χαθούν."
+
+msgid "mentorAssigment/title"
+msgstr "ΕΠΙΛΕΞΤΕ ΚΑΘΟΔΗΓΗΤΗ"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "Το μέλος πληρώματος {bond_Open}%(name)s{bond_Close} έχει φτάσει το όριο ικανοτήτων και δεν μπορεί να επιλεχθεί για μεταφορά XP."
+
+msgid "multipleUserName"
+msgstr "Άδειες Καθοδήγησης"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Χρησιμοποιημένες Άδειες Καθοδήγησης: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "Μεταφορά Crew XP: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "ΔΙΑΔΙΚΑΣΙΑ ΚΑΘΟΔΗΓΗΣΗΣ"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>Χάθηκαν Crew XP: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Σας δίνει τη δυνατότητα να μεταφέρετε Crew XP\nαπό ένα μέλος πληρώματος σε κάποιο άλλο του ίδιου έθνους."
+
+msgid "storage/userName"
+msgstr "Άδεια Καθοδήγησης"
+
+msgid "userName"
+msgstr "Άδεια Καθοδήγησης"

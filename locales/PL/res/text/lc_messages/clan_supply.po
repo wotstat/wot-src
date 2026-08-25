@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "main/backText"
+msgstr "DO SZCZEGÓŁÓW KLANU"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "Za wypełnianie misji zdobywasz punkty służby potrzebne do odkrywania nowych regionów."
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "Punkty służby"
+
+msgid "main/infoPageButtonLabel"
+msgstr "O OKRESIE SŁUŻBY"
+
+msgid "main/mdash"
+msgstr " – "
+
+msgid "messages/claimRewards/error"
+msgstr "Działanie jest tymczasowo niedostępne. Spróbuj ponownie później."
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "Odśwież"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "Przepraszamy za chwilowe niedogodności."
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "Błąd wczytywania danych"
+
+msgid "progressionPage/header/heading"
+msgstr "OKRES SŁUŻBY"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "OKRES SŁUŻBY SKOŃCZYŁ SIĘ"
+
+msgid "progressionPage/header/subheading"
+msgstr "Zdobywaj punkty służby, wypełniając misje klanowe. Punkty służby służą do odkrywania nowych regionów i zdobywania cennych nagród. Na koniec służby możesz otrzymać pojazd X poziomu."
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "Otrzymano pojazd %(vehicle)s"
+
+msgid "progressionPage/loading"
+msgstr "Ładowanie zawartości..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "Odkryj poprzedni połączony region."
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "Region już odkryto"
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "Otrzymane nagrody:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "Odkryj poprzedni połączony region."
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "Nie można odkrywać regionu"
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "Błąd wczytywania danych"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "Odkryj region"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "Do odkrycia regionu potrzeba jeszcze %(value)s punktów służby."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "Nie można odkrywać regionu"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "Odkryj poprzedni połączony region."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "Nie można odkrywać regionu"
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "Odbierz nagrodę"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "Ładowanie zawartości..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "Oczekiwanie na przyznanie nagrody..."
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "Odśwież"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "NAGRODA ZA ODKRYCIE REGIONU:"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "OTRZYMANO NAGRODĘ:"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "Podgląd"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "Odśwież"
+
+msgid "questsPage/errorScreen/description"
+msgstr "Przepraszamy za chwilowe niedogodności."
+
+msgid "questsPage/errorScreen/heading"
+msgstr "Błąd wczytywania danych"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "Odbierz nagrodę"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "Auto-wyszukiwanie klanów"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "Dołącz do klanu, aby ukończyć misję i otrzymać nagrodę."
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "Postęp misji został zatrzymany. Aby kontynuować, odbierz nagrodę: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "MISJE OKRESU SŁUŻBY"
+
+msgid "questsPage/header/subheading"
+msgstr "Wypełniaj misje i zdobywaj nagrody. Drugą i trzecią misję można wypełnić wyłącznie w plutonie/oddziale z kolegą z klanu."
+
+msgid "questsPage/loading"
+msgstr "Ładowanie zawartości..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "Zdobądź przynajmniej {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} bazowych PD pojazdami poziomów VIII–XI, walcząc w bitwie w plutonie lub wygraj bitwę, grając w oddziale."
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "Pojazdami poziomów VI–XI, zdobądź w bitwie przynajmniej {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} bazowych PD lub wygraj bitwę, grając w oddziale."
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "Pojazdami poziomów VIII–XI zniszcz w bitwie minimum {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} pojazdów przeciwnika, grając w plutonie lub wygraj bitwę, grając w oddziale."
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "Pojazdami poziomów VI–XI, zniszcz w bitwie minimum {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} pojazdów przeciwnika, grając w plutonie lub wygraj bitwę, grając w oddziale."
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "Pojazdami poziomów VIII–XI, zadaj/pomóż w zadaniu {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} PW uszkodzeń w bitwie, grając w plutonie lub wygraj bitwę, grając w oddziale."
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "Pojazdami poziomów VI–XI, zadaj/pomóż w zadaniu {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} PW uszkodzeń w bitwie lub wygraj bitwę, grając w oddziale."
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "Surowce przemysłowe"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "Punkty służby"
+
+msgid "questsPage/questCard/status/available"
+msgstr "Możesz odebrać nagrodę"
+
+msgid "questsPage/questCard/status/completed"
+msgstr "Otrzymano nagrodę"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "Niedostępne"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "Nagroda wkrótce pojawi się na Twoim koncie."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "Odbierz nagrody za wypełnienie poprzednich misji."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "Wypełnij poprzednią misję."
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "Misja niedostępna"
+
+msgid "questsPage/timer/dash"
+msgstr " – "
+
+msgid "questsPage/timer/heading"
+msgstr "Czas pozostały na zbieranie punktów służby"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "Za wypełnianie misji zdobywasz punkty służby potrzebne do odkrywania nowych regionów."
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "Punkty służby"
+
+msgid "rewardsView/additionalRewards"
+msgstr "Otrzymałeś także:"
+
+msgid "rewardsView/button/close"
+msgstr "ZAMKNIJ"
+
+msgid "rewardsView/button/confirm"
+msgstr "Tak jest!"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "Wyświetl w garażu"
+
+msgid "rewardsView/heading"
+msgstr "OTRZYMANO NAGRODY"
+
+msgid "rewardsView/style/317"
+msgstr "Styl 2D Płomień"
+
+msgid "rewardsView/style/345"
+msgstr "Styl 2D Przepowiednia"
+
+msgid "rewardsView/style/435"
+msgstr "Styl 2D Zemsta"
+
+msgid "rewardsView/style/436"
+msgstr "Styl 2D Żniwiarz"
+
+msgid "rewardsView/subheading"
+msgstr "OKRES SŁUŻBY"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Postępy okresu służby"
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "Postępy misji okresu służby"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Okres służby"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "Misje okresu służby"

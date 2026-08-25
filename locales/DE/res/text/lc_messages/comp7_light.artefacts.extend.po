@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_light_aggressive_detection/descr/active"
+msgstr "{colorTagOpen}%(duration)s s{colorTagClose} lang wird die Sichtweite um {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s %%{colorTagClose} erhöht.\n\nDiese Zeit wird zurückgesetzt, wenn ein von Ihnen aufgeklärtes gegnerisches Fahrzeug zerstört wird."
+
+msgid "comp7_light_aggressive_detection/name"
+msgstr "Aktive Aufklärung"
+
+msgid "comp7_light_ally_support/descr/active"
+msgstr "{colorTagOpen}%(duration)s s{colorTagClose} lang erhält Ihre Besatzung für jedes verbündete Fahrzeug mit einer anderen Rolle einen Bonus von {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s %%{colorTagClose} auf die Effizienz.\n\nIhr eigenes Fahrzeug wird in der Berechnung dieses Bonus immer mit einbezogen."
+
+msgid "comp7_light_ally_support/name"
+msgstr "Einer für alle"
+
+msgid "comp7_light_aoe_heal/descr/active"
+msgstr "{colorTagOpen}%(duration)s s{colorTagClose} lang wird ein Bereich mit einem Radius von {colorTagOpen}%(radius)s m{colorTagClose} um das Fahrzeug erzeugt, der {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} Strukturpunkte für das eigene und verbündete Fahrzeuge wiederherstellt."
+
+msgid "comp7_light_aoe_heal/name"
+msgstr "Feldreparatur"
+
+msgid "comp7_light_aoe_inspire/descr/active"
+msgstr "{colorTagOpen}%(duration)s s{colorTagClose} lang erhalten Ihre und verbündete Besatzungen einen Bonus von {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s %%{colorTagClose} auf die Effizienz."
+
+msgid "comp7_light_aoe_inspire/name"
+msgstr "Inspiration"
+
+msgid "comp7_light_berserk/descr/active"
+msgstr "{colorTagOpen}%(duration)s s{colorTagClose} lang wird die Nachladezeit zwischen Schüssen um {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s %%{colorTagClose} verringert. Die Geschützstreuung nach dem Feuern, bei Bewegung sowie Wannen- oder Turmdrehung wird um {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s %%{colorTagClose} verringert.\n\nDer Timer wird zurückgesetzt, wenn Sie Schaden durch Rammen oder Schießen aus einer Entfernung von maximal {colorTagOpen}%(damageDistance)s m{colorTagClose} verursachen."
+
+msgid "comp7_light_berserk/name"
+msgstr "Zorn"
+
+msgid "comp7_light_concentration/descr/active"
+msgstr "{colorTagOpen}%(duration)s s{colorTagClose} lang werden Zielerfassung und Geschützstreuung bei Bewegung sowie Wannen- oder Turmdrehung um {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s %%{colorTagClose} verringert.\n\nWährend diese Rollenfertigkeit aktiv ist, wird die Nachladezeit zwischen Schüssen um {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s s{colorTagClose} verringert."
+
+msgid "comp7_light_concentration/name"
+msgstr "Zielfokus"
+
+msgid "comp7_light_fast_recharge/descr/active"
+msgstr "• Bei Magazinladesystemen:\nDie verbleibende Nachladezeit des Magazins wird verkürzt um: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s %%{colorTagClose}\n\n• Bei Nachladeautomaten:\nAlle abgefeuerten Granaten im aktuellen Zyklus werden nachgeladen: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\nDie Fertigkeit kann nur während des Nachladevorgangs aktiviert werden.\n\n• Bei Maschinenkanonen mit Temperaturkontrolle gegen Überhitzen:\nDie Geschützhitze wird um {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s %%{colorTagClose} des möglichen Maximalwerts gesenkt.\n\nDie Fertigkeit kann nur bei erhitztem Geschütz aktiviert werden."
+
+msgid "comp7_light_fast_recharge/name"
+msgstr "Fingerfertigkeit"
+
+msgid "comp7_light_hunter/descr/active"
+msgstr "Setzt die Anzahl der durch Schüsse beschädigten gegnerischem Fahrzeug zurück.\n\n{colorTagOpen}%(duration)s s{colorTagClose} lang stellt Ihr Fahrzeug für jedes gegnerische Fahrzeug, das bis zur Aktivierung der Fertigkeit durch einen Schuss beschädigt wurde, {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} Strukturpunkte wieder her."
+
+msgid "comp7_light_hunter/descr/passive"
+msgstr "Die Nachladezeit wird für jedes gegnerische Fahrzeug, das durch einen Schuss beschädigt wurde, um {colorTagOpen}%(gunReloadTimeBuff)s %%{colorTagClose} verringert."
+
+msgid "comp7_light_hunter/name"
+msgstr "Kopfgeldjäger"
+
+msgid "comp7_light_juggernaut/descr/active"
+msgstr "Es wird{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose} lang:\n• Eingehender Schaden um {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s %%{colorTagClose} verringert\n• Höchstgeschwindigkeit vorwärts um {colorTagOpen}%(fwMaxSpeedBonus)s km/h{colorTagClose} erhöht\n• Höchstgeschwindigkeit rückwärts um {colorTagOpen}%(bkMaxSpeedBonus)s km/h{colorTagClose} erhöht\n• Motorleistung um {colorTagOpen}%(enginePowerBuff)s %%{colorTagClose} erhöht\n• Durch Rammen gegnerischer Fahrzeuge verursachter Schaden um {colorTagOpen}%(rammingDamageBuff)s %%{colorTagClose} erhöht\n\nWenn diese Rollenfertigkeit aktiv ist, können die eigenen Ketten durch einen einzigen Schuss zerstört werden."
+
+msgid "comp7_light_juggernaut/name"
+msgstr "Moloch"
+
+msgid "comp7_light_march/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose} lang werden die Motorleistung Ihres Fahrzeugs um {colorTagOpen}%(enginePowerBuff)s %%{colorTagClose}, die Höchstgeschwindigkeit vorwärts um {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h und der Tarnwert um {colorTagOpen}%(invisibilityFactor)s %%{colorTagClose} erhöht."
+
+msgid "comp7_light_march/name"
+msgstr "Gewaltmarsch"
+
+msgid "comp7_light_recon/descr/active"
+msgstr "In {colorTagOpen}%(delay)s s{colorTagClose} fliegt ein Aufklärungsflugzeug über den ausgewählten Bereich. Gegnerische Fahrzeuge, die in einem Radius von {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} aufgeklärt werden, bleiben {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;s{colorTagClose} lang aufgeklärt. Spielern, die durch diese Fertigkeit aufgeklärt werden, wird mit einer Verzögerung von {colorTagOpen}%(lampDelay)s s{colorTagClose} ein besonderes Symbol angezeigt.\n\nDiese Fertigkeit ist {colorTagOpen}%(startupDelay)s s{colorTagClose} nach Beginn des Gefechts verfügbar."
+
+msgid "comp7_light_recon/name"
+msgstr "Aufklärungsflug"
+
+msgid "comp7_light_redline/descr/active"
+msgstr "In {colorTagOpen}%(delay)s s{colorTagClose} wird der ausgewählte Bereich mit einem Artillerieschlag angegriffen.\n\nZiele in einem Radius von {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} erleiden {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} SP Schaden und werden für {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s s{colorTagClose} betäubt."
+
+msgid "comp7_light_redline/name"
+msgstr "Feuerschutz"
+
+msgid "comp7_light_risky_attack/descr/active"
+msgstr "Beschleunigung\n\n{colorTagOpen}%(duration)s s{colorTagClose} lang werden die Motorleistung um {colorTagOpen}%(enginePowerBuff)s %%{colorTagClose}, die Höchstgeschwindigkeit vorwärts um {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h und die Höchstgeschwindigkeit rückwärts um {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/h erhöht.\n\nWiederherstellung\n\n{colorTagOpen}%(healDuration)s s{colorTagClose} lang stellt Ihr Fahrzeug {colorTagOpen}%(baseHeal)s{colorTagClose} Strukturpunkte {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s %%{colorTagClose} der verlorenen Strukturpunkte wieder her, solange Beschleunigung aktiv ist."
+
+msgid "comp7_light_risky_attack/name"
+msgstr "Neuer Aufschwung"
+
+msgid "comp7_light_role_skill/descr/startLevel"
+msgstr " \n\nZu Beginn des Gefechts ist die Ladungsstufe der Rollenfertigkeit {colorTagOpen}%(startLevel)s{colorTagClose}."
+
+msgid "comp7_light_sniper/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose} lang beträgt die Streuung auf 100 m nur {colorTagOpen}%(dispersionFactor)s m{colorTagClose}.\n\nWenn Ihr Fahrzeug beim Feuern nicht entdeckt wird, erhöht sich der Schaden Ihrer Granate um {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s %%{colorTagClose}. \n\nDer Timer wird zurückgesetzt, wenn Sie Schaden durch Schüsse aus einer Entfernung von mehr als {colorTagOpen}%(damageDistance)s m{colorTagClose} verursachen."
+
+msgid "comp7_light_sniper/name"
+msgstr "Volltreffer"
+
+msgid "comp7_light_sure_shot/descr/active"
+msgstr "{colorTagOpen}%(duration)s s{colorTagClose} lang wird die Geschützstreuung bei Bewegung sowie Wannen- oder Turmdrehung um {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s %%{colorTagClose} verringert.\n\nWährend diese Fertigkeit aktiv ist, verringert Schaden durch Schüsse die Geschütznachladezeit um {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s %%{colorTagClose} des Prozentwerts, um den die Strukturpunkte des gegnerischen Fahrzeugs verringert wurden.\n\nEin gegnerisches Fahrzeug zu zerstören, verringert die Geschütznachladezeit um {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s %%{colorTagClose}."
+
+msgid "comp7_light_sure_shot/name"
+msgstr "Sauberer Schuss"

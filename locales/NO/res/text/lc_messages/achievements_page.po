@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Poeng som øker summen for totalprestasjonen."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Poeng for totalprestasjon"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Du har fullført alle trinnene i denne utmerkelsen og mottar alle tilgjengelige belønninger."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Trykk %(escIcon)s for å gå tilbake til det forrige nivået i KATALOGEN."
+
+msgid "catalog/rootLink"
+msgstr "KATALOG"
+
+msgid "category/achievementsScore/title"
+msgstr "SUM FOR TOTALPRESTASJONEN"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "Hovedindikatoren for fremgang i prestasjonssamlingen. Hver nye prestasjon øker poengsummen for totalprestasjonen, bortsett fra for trofeer."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Poengsummen for totalprestasjonen: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "NYLIGE\nUTMERKELSER"
+
+msgid "category/title"
+msgstr "SPILLERS SAMLING"
+
+msgid "category/upcoming/title"
+msgstr "KOMMENDE\nUTMERKELSER"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s og mer"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Utmerkelse åpnet!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "%(count)s utmerkelser åpnet!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s og mer"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Tjent nytt trofe!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "%(count)s tjente troféer!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "Den automatiske visningen sorterer utmerkelser fra alle kategorier etter deres verdi, for å bli vist på båndet for utmerkelser. Den skrus av dersom du endrer på rekkefølgen av utmerkelsene manuelt."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "Den automatiske visningen sorterer utmerkelser fra alle kategorier etter deres verdi, for å bli vist på båndet for utmerkelser. Når du iverksetter innstillingen, blir den manuelle rekkefølgen nullstilt."
+
+msgid "editConfirm/description/error"
+msgstr "Vi undersøker problemet. Vennligst prøv å endre senere. I mellomtiden vil du bli videresendt til oppsummeringen."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Lagre"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Avbryt"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Bekreftet!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Automatisk visning skrudd av"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Automatisk visning skrudd på"
+
+msgid "editConfirm/title/error"
+msgstr "En feil har oppstått"
+
+msgid "editConfirm/title/normal"
+msgstr "Iverksette endringene for båndet for verdifulle utmerkelser?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Avbryt endringer"
+
+msgid "editView/footer/button/save"
+msgstr "Iverksett og avslutt"
+
+msgid "editView/header/checkbox"
+msgstr "Automatisk visning"
+
+msgid "editView/header/close"
+msgstr "LUKK"
+
+msgid "editView/header/title/idle"
+msgstr "Velg utmerkelser som skal vises på båndet"
+
+msgid "editView/header/title/selecting"
+msgstr "Velg utmerkelser som skal byttes ut"
+
+msgid "editView/header/title/tutorial"
+msgstr "Velg plassholder for utmerkelse"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Avbryt"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Erstatt"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "DINE UTMERKELSER\nER HER"
+
+msgid "hint/profile"
+msgstr "DINE UTMERKELSER\nER HER"
+
+msgid "hint/summary/customizationButton"
+msgstr "Redigering tilgjengelig"
+
+msgid "notifications/editingEnabled/button"
+msgstr "Til bånd"
+
+msgid "notifications/editingEnabled/title"
+msgstr "Redigering av båndet for verdifulle utmerkelser er tilgjengelig"
+
+msgid "notifications/firstEntry/button"
+msgstr "Til tjenestemappe"
+
+msgid "notifications/firstEntry/text"
+msgstr "World of Tanks rangering,\nredigering av utmerkelser."
+
+msgid "notifications/firstEntry/title"
+msgstr "Tjenestemappe oppdateres"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "Til tjenestemappe"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Redigering av utmerkelser\nog visuell design."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Tjenestemappe oppdateres"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "Til tjenestemappe"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Ditt nivå: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Din rangering har blitt beregnet!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "Til tjenestemappe"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "Din rangering i World of Tanks har blitt endret. Gå til tjenestemappen for å finne ut alle detaljene."
+
+msgid "notifications/ratingUp/button"
+msgstr "Til tjenestemappe"
+
+msgid "notifications/ratingUp/text"
+msgstr "Du har nådd følgende nivå: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Din rangering har økt!"
+
+msgid "playerInfo/clan/button"
+msgstr "Klanprofil"
+
+msgid "playerInfo/clan/date"
+msgstr "Ble medlem den:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "Spilleren har ingen permanente taktiske enheter"
+
+msgid "playerInfo/clan/post"
+msgstr "Posisjon:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "Personlig ID-merke er\nmidlertidig utilgjengelig"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "Spillerens rangering er ikke blitt kalkulert: Kjempet mindre enn %(amount)s kamper."
+
+msgid "ratingWidget/status/initial"
+msgstr "Kjemp i %(amount)s kamper for å få kalkulert din rangering i World of Tanks."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "Rangeringen til spilleren har ikke blitt kalkulert ennå"
+
+msgid "ratingWidget/status/progress"
+msgstr "Kalkulerer din rangering i WTR.\nRestkamper: %(amount)s."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Gå til kamp og vi vil kunne kalkulere din rangering."
+
+msgid "rewardView/button/achievements"
+msgstr "Til utmerkelser"
+
+msgid "rewardView/button/dogTag"
+msgstr "Til ID-merke"
+
+msgid "rewardView/button/dogTags"
+msgstr "Til ID-merker"
+
+msgid "rewardView/button/moreRewards"
+msgstr "Se %(value)s flere"
+
+msgid "rewardView/reward/dogTag"
+msgstr "%(value)s ID-merke"
+
+msgid "rewardView/title/multi"
+msgstr "UTMERKELSESBELØNNINGER MOTTATT"
+
+msgid "rewardView/title/single"
+msgstr "UTMERKELSESBELØNNING MOTTATT"
+
+msgid "section/action"
+msgstr "Spesiell"
+
+msgid "section/battle"
+msgstr "Kamphelter"
+
+msgid "section/class"
+msgstr "Nivåutmerkelser"
+
+msgid "section/epic"
+msgstr "Episke medaljer"
+
+msgid "section/group"
+msgstr "Gruppeutmerkelser"
+
+msgid "section/memorial"
+msgstr "Minnemynter"
+
+msgid "section/special"
+msgstr "Hederlig omtale"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "TIL UTMERKELSER"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Siste kamp: %(lastVisitDate)s kl. %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Konto opprettet: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Bakgrunn"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Standard"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Ild"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Gull"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Legendarisk"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Retro"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Eksplosiv"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Avbryt endringer"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Bånd"
+
+msgid "summary/achievements/customization/save"
+msgstr "Iverksett og avslutt"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "Av tekniske årsaker er det på tiden ikke mulig å tilpasse skjermbildet for tjenestemappen din. Vi jobber med å fikse det. Gjenoppfrisk skjermbildet eller kom tilbake senere."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Tilpasninger utilgjengelige for øyeblikket"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Verdifulle utmerkelser"
+
+msgid "summary/achievements/total"
+msgstr "Totalt: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Unik: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Gjennomsnittlig: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Seiere: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Gjennomsnittlig: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Gjennomsnittlig: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Rekord: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Gjennomsnittlig: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Gå til kamp mens vi gjør klar dataene dine."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Informasjonen er midlertidig utilgjengelig."
+
+msgid "summary/disabled/title"
+msgstr "Mer informasjon blir tilgjengelig senere"
+
+msgid "summary/main/assistance"
+msgstr "OVERSIKT\nASSISTANSE"
+
+msgid "summary/main/battles"
+msgstr "KAMPER\nKJEMPET"
+
+msgid "summary/main/blocked"
+msgstr "MAKSIMALT\nBLOKKERT"
+
+msgid "summary/main/damage"
+msgstr "OVERSIKT\nSKADE"
+
+msgid "summary/main/destroyed"
+msgstr "KJØRETØY\nBEKJEMPET"
+
+msgid "summary/main/experience"
+msgstr "OVERSIKT\nERFARING"
+
+msgid "summary/statistic/title"
+msgstr "World of Tanks rangering"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Personlig rangering"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Maksimal skade forårsaket med din assistanse."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Maksimal skade forårsaket med din assistanse i kamp med %(tankName)s."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Assistanseoversikt: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Rate for totalt mengde skade forårsaket på fiendtlige kjøretøy med din assistanse, i forhold til antall kamper kjempet. Teller med som bidrag:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Skade etter din oppdagelse\n• Skade etter at du har ødelagt et belte og immobilisert det fiendtlige kjøretøyet."
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Gjennomsnittlig assistanse: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Raten for totalt antall seiere, i forhold til antall kjempede kamper."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Inkludert:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Seiere: %(wins)s\n• Tap: %(loses)s\n• Uavgjort: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Seiersrate: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Kamper kjempet: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Maksimal mengde skade blokkert."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Maksimal mengde skade blokkert i kamp med %(tankName)s."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Maksimalt blokkert: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Rate for den totale mengden blokkert av pansring fra ikke-penetrerende treff og rikosjetter fra AP, HEAT og APCR granater, i forhold til antall kamper kjempet."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Gjennomsnittlig skade blokkert: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Maksimal mengde skade forårsaket."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Maksimal mengde skade forårsaket i kamp med %(tankName)s."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Skadeoversikt: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Raten for total skade forårsaket, i forhold til antall kamper kjempet."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Gjennomsnittlig skade: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Maksimalt antall bekjempede kjøretøy."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "Maksimalt antall fiendtlige kjøretøy bekjempet med %(tankName)s."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Maksimalt antall bekjempet: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Totalt antall bekjempede fiendtlige kjøretøy i alle kamper."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Bekjempede kjøretøy: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Maksimal mengde tjente erfaringspoeng."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "Maksimal mengde erfaringspoeng tjent med %(tankName)s."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Erfaringsrekord: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Raten for total mengde tjent erfaring, i forhold til antall kamper kjempet."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Gjennomsnittlig mengde erfaringspoeng: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Hverken seier eller tap påvirker kalkuleringen av din rangering i World of Tanks."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Spill i ulike kjøretøy for å finne ut hvilke kjøretøy som er de mest effektive for deg etter følgende ytelsesparametere:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "WTR er en rangeringssystem som kalkulerer en individuell rangering for hvert kjøretøy og deretter benytter det til å bestemme spillerens generelle ytelse. Systemet reagerer fleksibelt på endringer i kampstrategier og sammenlikner spillerens statistikker i forhold til serverens gjennomsnitt."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Skade forårsaket"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Skade forårsaket med din assistanse"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Antall fiendtlige kjøretøy bekjempet"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Blokkert skade og overlevelsesrate"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "Økning av WTR"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "World of Tanks rangering"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Gjenværende kamper før vi kan kalkulere rangering: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Nivå: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Grense nådd!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Poeng før nivået økes: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "Bronse %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "Sølv %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "Gull %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "Ess %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "Legende %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Nivå"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Antall poeng"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "World of Tanks rangering"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "Når innstillingen aktiveres, blir rekkefølgen du satte opp %(whiteSpanish_Open)snullstilt%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "Når innstillingen skrus av eller sette opp manuelt, vil utmerkelsesbåndet %(whiteSpanish_Open)sslutte å%(whiteSpanish_Close)s %(whiteSpanish_Open)sbli oppdatert%(whiteSpanish_Close)s %(whiteSpanish_Open)sautomatisk%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "Sorterer utmerkelser %(whiteSpanish_Open)sfra alle kategorier%(whiteSpanish_Close)s automatisk etter verdi for å bli vist på båndet for verdifulle utmerkelser."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Automatisk visning"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "Redigering av båndet for verdifulle utmerkelser er midlertidig utilgjengelig. Vennligst prøv igjen senere."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Du har ingen utmerkelser å plassere her ennå. Få dem %(whiteSpanish_Open)si kamper%(whiteSpanish_Close)s eller %(whiteSpanish_Open)sved deltagelse i eventer%(whiteSpanish_Close)s %(whiteSpanish_Open)si spillet.%(whiteSpanish_Close)s"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "Å redigere båndet for verdifulle utmerkelser blir tilgjengelig etter å ha fått %(whiteSpanish_Open)s%(amount)s eller flere utmerkelser%(whiteSpanish_Close)s i en hvilken som helst kategori."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Ingen utmerkelser å plassere her."
+
+msgid "tooltips/mastery/body"
+msgstr "Ace Tanker mestringsmerker mottatt i alle relevante kampmodi / antall kjøretøy som har kjempet i minst én tilfeldig kamp"
+
+msgid "tooltips/mastery/header"
+msgstr "Mestringsmerker: Ace Tanker"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "Personlig rangering er et mål på en spillers ferdigheter og erfaring, og baseres på følgende:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "Personlig rangering blir oppdatert etter hver utkjempede kamp."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Seiere\n• Skade forårsaket med din assistanse\n• Gjennomsnittlig skade per kamp\n• Gjennomsnittlig erfaring per kamp\n• Overlevde kamper"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Personlig rangering"

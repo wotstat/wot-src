@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "button/progression"
+msgstr "Arată progresul"
+
+msgid "button/select"
+msgstr "Configurează"
+
+msgid "event/battlePass/name"
+msgstr "Sezonul %(seasonNum)s al Certificatului de luptă"
+
+msgid "event/finished"
+msgstr "%(eventName)s\ns-a încheiat"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\nva începe în %(date)s"
+
+msgid "event/paused"
+msgstr "%(eventName)s\neste temporar indisponibil"
+
+msgid "event/ranked/name"
+msgstr "Sezonul %(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "VEZI ÎN MODUL PROGRES"
+
+msgid "mode/epicBattle/condition"
+msgstr "30v30 &nbsp;{par_open}I{par_close}&nbsp;Generațiile&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30v30&nbsp;{par_open}I{par_close}&nbsp;Generația&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "Evenimentul\nva începe pe %(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Modul\nva începe în curând"
+
+msgid "mode/epicBattle/description"
+msgstr "Mod cu progres și recompense."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "Evenimentul s-a încheiat"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "Participând la lupte cu vehicule de generația VIII în {whiteSpanish_open}Front{whiteSpanish_close}, vei obține puncte care îți permit să avansezi în progresul Certificatului de luptă."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Punctele certificatului de luptă"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "Participând la lupte cu vehicule de generația VIII-X în {whiteSpanish_open}Misiunea de Recunoaștere{whiteSpanish_close}, vei obține puncte care îți permit să avansezi în progresul Certificatului de luptă."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Punctele certificatului de luptă"
+
+msgid "mode/mapbox/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s Generațiile&nbsp;VIII–X"
+
+msgid "mode/mapbox/description"
+msgstr "Mecanici noi pe hărți."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Efectele vizuale ale vremii depind de setările generale ale graficii. În cazul setărilor de grafică reduse, pot apărea artefacte vizuale și probleme. Recomandăm selectarea setărilor grafice maxime pentru cea mai bună experiență în joc, dacă sistemul tău îndeplinește aceste cerințe. Modul necesită un computer performant. Numărul de cadre pe secundă poate scădea în cazul luptelor intense."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "Se recomandă setările grafice maxime"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Se recomandă setările grafice maxime"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Învață hărțile"
+
+msgid "mode/mapsTraining/description"
+msgstr "Învață hărțile"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "Participând la lupte cu vehicule de generația IV-XI în {whiteSpanish_open}Lupte standard{whiteSpanish_close}, vei obține puncte care îți permit să avansezi în progresul Certificatului de luptă."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Punctele certificatului de luptă"
+
+msgid "mode/random/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s Generațiile&nbsp;I–XI"
+
+msgid "mode/random/description"
+msgstr "Lupte cu potrivire automată."
+
+msgid "mode/random/setup"
+msgstr "Configurează"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "Participând la lupte cu vehicule de generația X în {whiteSpanish_open}Lupte de clasament{whiteSpanish_close}, vei obține puncte care îți permit să avansezi în progresul Certificatului de luptă."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Punctele certificatului de luptă"
+
+msgid "mode/ranked/condition"
+msgstr "10v10 %(parSecondary_open)sI%(parSecondary_close)s Generația&nbsp;X"
+
+msgid "mode/ranked/description"
+msgstr "Mod cu progres și recompense."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Aplică pentru turneu"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Următoarea luptă: %(date)s la %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s Generațiile&nbsp;I–X"
+
+msgid "mode/specBattlesList/description"
+msgstr "Harta globală și turneele."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Luptă ca legionar"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Luptă într-un clan"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7v7–15v15 %(parSecondary_open)sI%(parSecondary_close)s Generațiile&nbsp;VI–X"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Lupte de clan pentru resurse industriale."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Camere de antrenament: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s Generațiile&nbsp;I–X"
+
+msgid "mode/trainingsList/description"
+msgstr "Lupte de introducere."
+
+msgid "novelty"
+msgstr "NOU"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Lupte în calificări: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "Poți primi atașamente 3D unice pentru lupta în acest mod."
+
+msgid "reward/attachment/name"
+msgstr "Atașamente 3D"
+
+msgid "reward/bones/description"
+msgstr "Recompensa este determinată în funcție de performanța ta în luptă."
+
+msgid "reward/bones/name"
+msgstr "Bondurile"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Poți primi %(name)s pentru lupta în acest mod."
+
+msgid "reward/bountyEquipment/name"
+msgstr "Echipament special"
+
+msgid "reward/credits/description"
+msgstr "Recompensa este determinată în funcție de performanța ta în luptă."
+
+msgid "reward/credits/name"
+msgstr "Creditele"
+
+msgid "reward/crew/description"
+msgstr "Poți primi membri de echipaj unici pentru lupta în acest mod."
+
+msgid "reward/crew/name"
+msgstr "Membrii de echipaj"
+
+msgid "reward/experience/description"
+msgstr "Recompensa este determinată în funcție de performanța ta în luptă."
+
+msgid "reward/experience/name"
+msgstr "Experienţă"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "Poți primi echipament experimental variat pentru lupta în acest mod."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Echipament special"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Poți primi %(name)s pentru lupta în acest mod."
+
+msgid "reward/improvedEquipment/name"
+msgstr "Echipament special"
+
+msgid "reward/lootBoxes/description"
+msgstr "Poți primi cutii pentru lupta în acest mod."
+
+msgid "reward/lootBoxes/name"
+msgstr "Cutii speciale"
+
+msgid "reward/other/description"
+msgstr "Poți primi multe recompense utile pentru lupta în acest mod."
+
+msgid "reward/other/name"
+msgstr "Recompensă specială"
+
+msgid "reward/progressionStyle/description"
+msgstr "Poți primi un stil special progresiv pentru jocul în acest mod."
+
+msgid "reward/progressionStyle/name"
+msgstr "Stilul progresiv"
+
+msgid "reward/random/description"
+msgstr "Poți primi multe recompense utile pentru lupta în acest mod."
+
+msgid "reward/random/name"
+msgstr "Recompensă aleatorie"
+
+msgid "reward/style/description"
+msgstr "Poți primi un stil special 3D pentru %(name)s luptând în acest mod."
+
+msgid "reward/style/name"
+msgstr "Stil 3D"
+
+msgid "reward/vehicle/description"
+msgstr "Poți primi %(name)s pentru lupta în acest mod."
+
+msgid "reward/vehicle/name"
+msgstr "Vehicule recompensă"
+
+msgid "selectMap"
+msgstr "Presetări pentru lupte standard"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s z"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "status/timeLeft/lessMin"
+msgstr "sub un minut"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "ALEGE MODUL DE LUPTĂ"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Harta Globală"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Capturează provincii și luptă pentru dominația globală. Modul este disponibil doar membrilor de clan."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Intră în clan"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Lupte pe Harta Globală"
+
+msgid "window/battleSession/title"
+msgstr "LUPTĂ SPECIALĂ"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Lista turneelor"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Această caracteristică este momentan indisponibilă, dar va deveni disponibilă în viitor. Te rugăm să aștepți."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Luptă singur sau în echipă, arată ce poți și vei primi recompense meritate."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Turneele"

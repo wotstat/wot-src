@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Ierobežota likme"
+msgstr[1] "Ierobežota likme %(index)s"
+msgstr[2] "Ierobežota likme %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "Pārsniegts vismaz viens ierobežojums. Daļa maksājuma tiks veikta pēc nākamās likmes."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Pamata maiņas likme"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "Nākamā piemērojamā likme"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Aktīvu ierobežotu likmju skaits: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Kopējais ierobežotās likmes daudzums: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "Pēc maiņas:"
+
+msgid "common/cancel"
+msgstr "Atcelt"
+
+msgid "common/combinedDiscount"
+msgstr "Apvienota Atlaide"
+
+msgid "common/exchange"
+msgstr "Maiņa"
+
+msgid "common/exchangeRate"
+msgstr "Maiņas likme"
+
+msgid "common/limitExceeded"
+msgstr "Ierobežojums pārsniegts. Maiņa tiks veikta ar apvienotu atlaidi."
+
+msgid "common/limitOverExceeded"
+msgstr "Ierobežojums pārsniegts: Tiks izmantota apvienota atlaide."
+
+msgid "common/limitRestrictions"
+msgstr "UZZINĀT VAIRĀK"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Pamata maiņas likme: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Vispārējā maiņas likme: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "%(gold)s zelts veiksmīgi iemainīts. Kredīti saņemti: %(res)s."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Personālā maiņas likme: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Personālā maiņas likme: %(rateFrom)s = %(rateTo)s. Ierobežojums pārsniegts"
+
+msgid "exchangeXP/information"
+msgstr "%(res)s Pieredze veiksmīgi iemainīta pret Brīvo Pieredzi. Zelts iztērēts: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "Pieejama Pieredze:"
+
+msgid "experienceExchange/paid"
+msgstr "Iztērēts"
+
+msgid "experienceExchange/received"
+msgstr "Saņemts"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Kārtot pēc tanka līmeņa"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Kārtot pēc Lauka Modifikācijas līmeņa"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Kārtot pēc tanka nosaukuma"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Kārtot pēc nācijas"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Kārtot pēc tanku veidiem"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Kārtot pēc izvēlētajiem tankiem"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Kārtot pēc nopelnītās Pieredzes"
+
+msgid "goldExchange/paid"
+msgstr "No"
+
+msgid "goldExchange/received"
+msgstr "Uz"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s zelts = %(resourceRate)s kredīti"
+
+msgid "notification/discountDescription/message"
+msgstr "Personālā maiņas likme"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "Uz Maiņu"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Pieejama jauna maiņas likme!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Pamata maiņas likme"
+
+msgid "tooltip/common/generalRate"
+msgstr "Vispārējā maiņas likme"
+
+msgid "tooltip/common/personalRate"
+msgstr "Personālā maiņas likme"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Labvēlīga maiņas likme"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Pagaidu maiņas likme"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "Daudzums var tikt noteikts tikai pēc zelta nopirkšanas."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Zelta daudzums pēc apmaiņas"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s zelts = %(resourceRate)s Brīvā Pieredze"

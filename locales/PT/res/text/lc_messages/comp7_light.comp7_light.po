@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Mudar de Servidor"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detalhes"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Este modo está indisponível neste servidor %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Este modo está indisponível em todos os servidores"
+
+msgid "alertMessage/modeOffline"
+msgstr "Erro na base de dados. Modo de jogo indisponível."
+
+msgid "alertMessage/noVehicles"
+msgstr "Sem veículos adequados na sua Garagem %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Afirmativo!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "MASSACRE LIGEIRO"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "FASE FINAL CONCLUÍDA!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "FASE %(level)s CONCLUÍDA!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Todas as missões concluídas!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Concluído"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Expira em: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Missão Massacre Ligeiro"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Nova missão Massacre Ligeiro em: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Recompensa:"
+msgstr[1] "Recompensas:"
+msgstr[2] "Recompensas:"
+
+msgid "battleResult/header/deserter"
+msgstr "Recebeu uma penalidade"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "PROGRESSÃO DO MASSACRE LIGEIRO"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "O Massacre Ligeiro irá durar %(days)d dia"
+msgstr[1] "O Massacre Ligeiro irá durar %(days)d dias"
+msgstr[2] "O Massacre Ligeiro irá durar %(days)d dias"
+
+msgid "calendarDay/title"
+msgstr "Calendário"
+
+msgid "closeButtonLabel"
+msgstr "FECHAR"
+
+msgid "countDown/text"
+msgstr "O Evento começa em:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Um modo rápido com batalhas 7v7 em veículos de Nível %(levels)s. Desfrute da jogabilidade do modo Massacre original sem Qualificação, Postos ou Registos de Serviço, e ganhe recompensas em missões diárias."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MODO"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — Modo de jogo. Clique para explorar"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Massacre Ligeiro"
+
+msgid "entryPointTooltip/status/active"
+msgstr "O modo está disponível por %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Cessar-Fogo%(timer)s"
+
+msgid "featureName"
+msgstr "Massacre Ligeiro"
+
+msgid "featureNameCapitalized"
+msgstr "MASSACRE LIGEIRO"
+
+msgid "intro/confirmButton"
+msgstr "Afirmativo!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Desfrute da jogabilidade do modo Massacre original sem Qualificação, Postos ou qualquer Registo de Serviço."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "O modo tem modificadores que alteram determinados parâmetros do veículo, tais como os seus pontos de energia, tempo de cooldown dos consumíveis, tempo em que permanece visível e mais."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Após capturar certas áreas do mapa, vai poder utilizar habilidades táticas. Existem dois tipos de Pontos de Interesse: o Quartel-General da Artilharia vai permitir que dirija um ataque de artilharia numa determinada posição e o Centro de Comunicações vai detetar todos os veículos inimigos. Dependendo do mapa, a presença e localização destes Pontos de Interesse podem mudar."
+
+msgid "intro/description/roleSkills"
+msgstr "Dependendo da função, cada veículo tem uma habilidade especial com três níveis de carga. Quanto mais alto o nível de carga quando a habilidade for ativada, mais forte será o efeito. O nível de carga vai depender do número de Pontos de Prestígio que podem ser ganhos por desempenho impressionante em batalha, captura de Pontos de Interesse, utilização de Habilidades Táticas, etc.\n\nVerifique os regulamentos do modo para saber mais sobre as diferentes maneiras de ganhar Pontos de Prestígio."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Apenas os veículos de %(levels)s podem ser utilizados neste modo (AAPs e alguns outros tanques não estão disponíveis). Prepare os seus veículos na Garagem depois escolha o melhor com base nas características do mapa em questão assim que entrar em batalha. Ao selecionar o seu veículo, considere também quais os veículos que os seus aliados escolheram."
+
+msgid "intro/title/lightGameplay"
+msgstr "TENHA CALMA, COMANDANTE"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "MODIFICADORES DO MASSACRE"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "PONTOS DE INTERESSE"
+
+msgid "intro/title/roleSkills"
+msgstr "HABILIDADES DA FUNÇÃO"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "ESCOLHA UM VEÍCULO PARA UM MAPA ESPECÍFICO"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Vitória"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Derrota/Empate"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Bom trabalho, Comandante, continue assim!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Conclua missões e alcance as posições de topo nas batalhas Massacre Ligeiro para aumentar o seu nível de Progressão."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "O número de Pontos de Progressão que ganha depende da sua posição em termos de Pontos de Prestígio em batalha."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "O modo termina em %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Progressão Principal completa"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Massacre Ligeiro"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Top 2 por Pontos de Prestígio"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Top 5 por Pontos de Prestígio"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Top 7 por Pontos de Prestígio"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Utilize a Conta WoT Premium"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Ativar Reservas Pessoais"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Concluir Missões"
+
+msgid "noVehicles/howTo/title"
+msgstr "Qual é a forma mais rápida de obter veículos de Nível %(levels)s?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Para participar no Massacre Ligeiro, precisa de ter pelo menos um veículo Nível %(levels)s na Garagem que seja adequado para o modo.\nPode comprar veículos Premium Nível %(levels)s na Árvore Tecnológica ou na Loja do jogo."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Para participar no Massacre Ligeiro, precisa ter pelo menos um veículo de Nível %(levels)s na Garagem que seja adequado para o modo.\nTem um veículo de Nível %(levels)s disponível para recuperação."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Para participar no Massacre Ligeiro, precisa ter pelo menos um veículo de Nível %(levels)s na Garagem que seja adequado para o modo."
+
+msgid "noVehicles/title"
+msgstr "Sem veículos adequados na sua Garagem"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Consulte a página Sobre o Massacre Ligeiro para os detalhes."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Pontos de Prestígio"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Causar dano\nAssistência a detectar\nDestruir lagartas\nCausar tiros críticos\nDestruir veículos inimigos\nE mais"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Pontos de Prestígio podem ser ganhos realizando ações de combate, incluindo:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "A Temporada terminou no servidor %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "A Temporada terminou no servidor %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "A Temporada terminou no servidor %(server)s."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Progressão Principal completa!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Fase %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s ou %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Novas missões em:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "O evento termina em:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "As missões serão atualizadas em"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Todas as missões diárias concluídas."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Progressão concluída. Jogue no Massacre Ligeiro para ganhar mais recompensas."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Conclua missões e assegure as posições de topo nas batalhas\nMassacre Ligeiro para aumentar o seu nível de Progressão. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Atribuído por concluir missões especiais e combater batalhas em Massacre Ligeiro. Eles permitem-lhe avançar pela Progressão."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Pontos de Progressão de Massacre Ligeiro"
+
+msgid "selectorTooltip/desc"
+msgstr "Modo não classificado. 7v7 | Nível %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Massacre Ligeiro"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Siga as últimas notícias no portal do jogo para se manter atualizado no início da nova Temporada."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Este modo está temporariamente indisponível por razões técnicas."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Este modo vai ficar disponível a %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Pontos de Progressão recebidos"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Detalhes"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Massacre Ligeiro"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Recompensas recebidas:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Concluiu a Fase de Progressão %(stage)s no modo %(progressionName)s."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Parabéns!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Cessar-fogo em efeito. As batalhas do Massacre Ligeiro estão temporariamente indisponíveis."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Cessar-Fogo"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "O Cessar-Fogo terminou. As batalhas do Massacre Ligeiro estão disponíveis de novo."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Cessar-Fogo"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Sobre o Massacre Ligeiro"

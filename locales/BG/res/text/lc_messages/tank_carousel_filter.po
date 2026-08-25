@@ -1,0 +1,239 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "checkbox/inventory"
+msgstr "Налично в Парка"
+
+msgid "infotip/counter"
+msgstr "Брой подходящи машини: %(count)d от %(total)d"
+
+msgid "infotip/event"
+msgstr "Специалните машини са скрити"
+
+msgid "infotip/header/description"
+msgstr "Показва машини, отговарящи на избраните критерии."
+
+msgid "infotip/header/title"
+msgstr "Филтър на машини"
+
+msgid "infotip/levels"
+msgstr "Нива:"
+
+msgid "infotip/nations"
+msgstr "Нации:"
+
+msgid "infotip/only"
+msgstr "Само следните машини:"
+
+msgid "infotip/only/elite"
+msgstr "Елитни"
+
+msgid "infotip/only/favorite"
+msgstr "Основни"
+
+msgid "infotip/only/premium"
+msgstr "Премиум"
+
+msgid "infotip/rent"
+msgstr "Машините под наем не се показват"
+
+msgid "infotip/searchNameVehicle"
+msgstr "Търси по име:"
+
+msgid "infotip/vehicleTypes"
+msgstr "Видове:"
+
+msgid "popover/checkbox/battleRoyale"
+msgstr "Скрий несъвместимите машини"
+
+msgid "popover/checkbox/elite"
+msgstr "Елитни"
+
+msgid "popover/checkbox/event"
+msgstr "Специална"
+
+msgid "popover/checkbox/favorite"
+msgstr "Основни"
+
+msgid "popover/checkbox/premium"
+msgstr "Премиум"
+
+msgid "popover/checkbox/rented"
+msgstr "Под наем"
+
+msgid "popover/checkbox/unlock_available"
+msgstr "Само достъпни за изследване"
+
+msgid "popover/counter"
+msgstr "Показани машини: %(count)s"
+
+msgid "popover/label/customization"
+msgstr "Персонализация"
+
+msgid "popover/label/hidden"
+msgstr "Още"
+
+msgid "popover/label/levels"
+msgstr "Ниво"
+
+msgid "popover/label/nations"
+msgstr "Нация"
+
+msgid "popover/label/progressions"
+msgstr "Боен пропуск"
+
+msgid "popover/label/roles/AT-SPG"
+msgstr "Роли на ПТ-САУ %(levels)s"
+
+msgid "popover/label/roles/heavyTank"
+msgstr "Роли на тежки танкове %(levels)s"
+
+msgid "popover/label/roles/lightTank"
+msgstr "Роли на леки танкове %(levels)s"
+
+msgid "popover/label/roles/mediumTank"
+msgstr "Роли на средни танкове %(levels)s"
+
+msgid "popover/label/searchNameVehicle"
+msgstr "Търси по име"
+
+msgid "popover/label/specials"
+msgstr "Специални"
+
+msgid "popover/label/vehicleRole"
+msgstr "Роля"
+
+msgid "popover/label/vehicleTypes"
+msgstr "Вид"
+
+msgid "popover/title"
+msgstr "Филтър по параметри"
+
+msgid "tooltip/battleRoyale/body"
+msgstr "Показвай/скривай машините, неподходящи за \"Стоманен ловец\"."
+
+msgid "tooltip/battleRoyale/header"
+msgstr "Скрий несъвместимите машини"
+
+msgid "tooltip/bonus/body"
+msgstr "Показване/скриване на машини с активен множител за опит."
+
+msgid "tooltip/bonus/header"
+msgstr "Бонус опит"
+
+msgid "tooltip/clanRented/body"
+msgstr "Покажи/скрий машините под наем за битки на Глобалната карта и за Укрепление."
+
+msgid "tooltip/clanRented/header"
+msgstr "Машини под наем за кланови битки"
+
+msgid "tooltip/crystals/body"
+msgstr "Показвай/скривай машините, с които могат да се печелят бонове."
+
+msgid "tooltip/crystals/header"
+msgstr "Машини за печелене на бонове"
+
+msgid "tooltip/customization/canInstallAttachments/body"
+msgstr "Покажи/скрий машини, подходящи за монтиране на триизмерни приставки."
+
+msgid "tooltip/customization/own3DStyle/body"
+msgstr "Покажи/скрий машини, за които имате триизмерни стилове."
+
+msgid "tooltip/elite/body"
+msgstr "Покажи/скрий машини с всички налични модули, подобрения и технически клонове изследвани, включително машините от следващото ниво."
+
+msgid "tooltip/elite/header"
+msgstr "Елитни машини"
+
+msgid "tooltip/event/body"
+msgstr "Покажи/скрий машините за специални игрови събития."
+
+msgid "tooltip/event/header"
+msgstr "Специални машини"
+
+msgid "tooltip/favorite/body"
+msgstr "Покажи/скрий само основните машини."
+
+msgid "tooltip/favorite/header"
+msgstr "Основни машини"
+
+msgid "tooltip/gameMode/body"
+msgstr "Включете отметката, за да виждате машини, подходящи за режим %(battleType)s."
+
+msgid "tooltip/gameMode/header"
+msgstr "Буйство"
+
+msgid "tooltip/igr/body"
+msgstr "Покажи/скрий IGR машини."
+
+msgid "tooltip/igr/header"
+msgstr "IGR машини"
+
+msgid "tooltip/inventory/body"
+msgstr "?empty?"
+
+msgid "tooltip/inventory/header"
+msgstr "?empty?"
+
+msgid "tooltip/isCommonProgression/body"
+msgstr "Покажи машини, които са подходящи за печелене на точки за напредък или за изпълнение на мисии, които носят точки за напредък."
+
+msgid "tooltip/isCommonProgression/header"
+msgstr "Машини за Боен пропуск"
+
+msgid "tooltip/isCompetitiveProgression/body"
+msgstr "tooltip/isCompetitiveProgression/body"
+
+msgid "tooltip/isCompetitiveProgression/header"
+msgstr "tooltip/isCompetitiveProgression/header"
+
+msgid "tooltip/nations/body"
+msgstr "Покажи/скрий машини от тази нация."
+
+msgid "tooltip/params/body"
+msgstr "Настройка на показването на машини според техния вид, нация, ниво и други параметри."
+
+msgid "tooltip/params/header"
+msgstr "Филтър по параметри"
+
+msgid "tooltip/premium/body"
+msgstr "Покажи/скрий само Премиум и наградни машини."
+
+msgid "tooltip/premium/header"
+msgstr "Премиум машини"
+
+msgid "tooltip/ranked/body"
+msgstr "Покажи/скрий машините, подходящи за Битки за Класацията"
+
+msgid "tooltip/ranked/header"
+msgstr "Машини за Битки за Класацията"
+
+msgid "tooltip/rented/body"
+msgstr "Покажи/скрий машини под наем."
+
+msgid "tooltip/rented/header"
+msgstr "Машини под наем"
+
+msgid "tooltip/role/body"
+msgstr "Покажи/скрий машини с тази роля."
+
+msgid "tooltip/rtsBattles/body"
+msgstr "Покажи/скрий подходящите машини за събитието \"Изкуството на стратегията\"."
+
+msgid "tooltip/rtsBattles/header"
+msgstr "Скрий несъвместимите машини"
+
+msgid "tooltip/searchInput/body"
+msgstr "Името на машината трябва да съдържа до %(count)d символа."
+
+msgid "tooltip/searchInput/header"
+msgstr "Търси по име"
+
+msgid "tooltip/toggleSwitchCarousel/body"
+msgstr "Превключване между панел с машини на един и на два реда."
+
+msgid "tooltip/toggleSwitchCarousel/header"
+msgstr "Панел с машини"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Покажи/скрий машини от този вид."

@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "categories/body/firepower"
+msgstr "Sada parametrů, která ukazuje efektivitu v ničení nepřátelských vozidel. Tento filtr ukazuje/skrývá vybavení s touto sadou parametrů."
+
+msgid "categories/body/mobility"
+msgstr "Sada parametrů, která ukazuje, jak rychle může vozidlo změnit svou pozici na bojišti. Tento filtr ukazuje/skrývá vybavení s touto sadou parametrů."
+
+msgid "categories/body/stealth"
+msgstr "Sada parametrů, která ukazuje efektivitu maskování vozidla a schopnost odhalovat nepřátelská vozidla. Tento filtr ukazuje/skrývá vybavení s touto sadou parametrů."
+
+msgid "categories/body/survivability"
+msgstr "Sada parametrů, která ukazuje odolnost vozidla vůči poškození. Tento filtr ukazuje/skrývá vybavení s touto sadou parametrů."
+
+msgid "categories/empty"
+msgstr "Kategorie druhého slotu"
+
+msgid "categories/firepower"
+msgstr "Palebná síla"
+
+msgid "categories/mobility"
+msgstr "Pohyblivost"
+
+msgid "categories/slotEffect/empty"
+msgstr "Možnost přiřadit kategorii ke druhému slotu na vybavení pro toto vozidlo."
+
+msgid "categories/slotEffect/firepower"
+msgstr "Standardní vybavení z kategorie „Palebná síla“ bude účinnější, pokud bude namontováno v tomto slotu."
+
+msgid "categories/slotEffect/mobility"
+msgstr "Standardní vybavení z kategorie „Pohyblivost“ bude účinnější, pokud bude namontováno v tomto slotu."
+
+msgid "categories/slotEffect/stealth"
+msgstr "Standardní vybavení z kategorie „Průzkum“ bude účinnější, pokud bude namontováno v tomto slotu."
+
+msgid "categories/slotEffect/survivability"
+msgstr "Standardní vybavení z kategorie „Odolnost“ bude účinnější, pokud bude namontováno v tomto slotu."
+
+msgid "categories/stealth"
+msgstr "Průzkum"
+
+msgid "categories/survivability"
+msgstr "Odolnost"
+
+msgid "categories/universal"
+msgstr "Žádná kategorie"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "Vyberte ze seznamu jednu použitelnou směrnici."
+
+msgid "compare/section/description/consumables"
+msgstr "Vyberte ze seznamu jeden použitelný spotřební doplněk."
+
+msgid "compare/section/description/optDevices"
+msgstr "Vyberte ze seznamu jeden kus použitelného vybavení."
+
+msgid "compare/section/title/battleBoosters"
+msgstr "Směrnice pro {name}"
+
+msgid "compare/section/title/consumables"
+msgstr "Spotřební doplňky pro {name}"
+
+msgid "compare/section/title/optDevices"
+msgstr "Vybavení pro {name}"
+
+msgid "dealPanel/autoRenew"
+msgstr "Automatické doplnění"
+
+msgid "dealPanel/button/apply"
+msgstr "Použít"
+
+msgid "dealPanel/button/applyType"
+msgstr "Použít na typ"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "Použít na vozidlo"
+
+msgid "dealPanel/button/cancel"
+msgstr "Zrušit"
+
+msgid "dealPanel/button/purchase"
+msgstr "Koupit"
+
+msgid "dealPanel/fromStorage"
+msgstr "Ze skladu:"
+
+msgid "dealPanel/fromVehicle"
+msgstr "Namontováno:"
+
+msgid "dealPanel/repair"
+msgstr "Opravte své vozidlo"
+
+msgid "dealPanel/toBePaid"
+msgstr "Celkem:"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "Ve skladu"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "Namontováno na vozidle"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "Nedostatek prostředků k provedení nákupu"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "Bude zakoupeno za kredity"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "Bude zakoupeno za bony"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "Bude namontováno ze skladu"
+
+msgid "deconstructionDeviceView/available"
+msgstr "K dispozici:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "Zrušit"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "Pokračovat"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "Ze skladu:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "Z vozidel:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "( %(red_Open)sVylepšení vyžaduje více%(red_Close)s %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "Bude získáno:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "VYBRANÉ VOZIDLO"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "VE SKLADU: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "NA VOZIDLECH: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "Vyberte vybavení, které chcete rozložit na %(whiteSpanish_Open)ssoučásti%(whiteSpanish_Close)s %(icon)s. Získané součásti lze využít na vylepšení experimentálního vybavení."
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s Pro získání dalších součástí rozložte nepoužívané experimentální vybavení."
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "PONK"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "Nedostatek součástí na vylepšení\n%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "Pokračujte rozložením nevyužívaného vybavení na součásti."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "Pokračujte získáním požadovaného počtu součástí."
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "Zrušení změn"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "Zrušit"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "Zrušit"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "Zrušit"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "Zrušení změn"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "Uložit"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "Koupit"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "Koupit a namontovat"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "Namontovat"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "Vybavení můžete za %(price)s odmontovat a poslat do skladu, nebo ho zničit."
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "Odmontovat vybavení můžete za %(price)s nebo {whiteSpanish_Open}zdarma{whiteSpanish_Close} s WoT Plus, abyste ho poslali do skladu, nebo ho mohli zničit."
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "Odmontovat vybavení můžete za %(demountKit)s, %(price)s nebo {whiteSpanish_Open}zdarma{whiteSpanish_Close} s WoT Plus, abyste ho poslali do skladu, nebo ho mohli zničit."
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "Odmontovat vybavení můžete {whiteSpanish_Open}zdarma{whiteSpanish_Close} s WoT Plus, abyste ho poslali do skladu."
+
+msgid "dialogs/confirm/demount/items"
+msgstr "Vybavení můžete odmontovat a poslat do skladu."
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "NEBUDE FUNGOVAT"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "směrnici"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "Při zakoupení této duální modifikace bude druhá duální modifikace zrušena."
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "spotřební doplněk"
+
+msgid "dialogs/confirm/item/module"
+msgstr "modul"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "vybavení"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "duální modifikaci"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "směrnice"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "spotřební doplňky"
+
+msgid "dialogs/confirm/items/module"
+msgstr "moduly"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "vybavení"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " a "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "Uložit změny ve slotech směrnic?"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "Uložit změny ve slotech spotřebních doplňků?"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "Uložit změny ve slotech vybavení?"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "Koupit {type} %(name)s?"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "Koupit a namontovat {type} %(name)s?"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "Namontovat {type} %(name)s?"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "Zapnout %(name)s {type} pro všechny %(vehicle)s?"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "Koupit {type}?"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "Koupit a namontovat {type}?"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "Namontovat {type}?"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "Zapnout {type} pro všechny %(vehicle)s?"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "stíhače tanků"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "samohybná děla"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "těžké tanky"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "lehké tanky"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "střední tanky"
+
+msgid "dialogs/confirm/warning"
+msgstr "Pozor! Chybí vám vybavení „%(devices)s“. Směrnice %(doesNotWork)s."
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "Pozor! Po rozložení nebudete mít žádné experimentální vybavení!"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "Zrušit"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "Rozložit"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "Rozložit"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "Celkem získáte:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "Za 1 položku získáte:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "Rozložit\n„%(name)s“?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "Rozložit\n„%(name)s“?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "Upozornění: Toto vybavení nebudete moci po rozložení obnovit ani zakoupit."
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "Zrušit"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "Rozložit"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "Rozložit následující vybavení na součásti?"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "Rozložit následující vybavení a vylepšit\n„%(deviceName)s“?"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "Bude rozloženo ze skladu: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "Bude rozloženo na vozidlech: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "Po rozložení získáte: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "Celkem získáte:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "Cena vylepšení:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "Pozor! Po rozložení nebudete mít žádné experimentální vybavení!"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "Pozor! Experimentální vybavení na vašich vozidlech bude rozloženo."
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "Vyměnit"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "vybavení"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "Pro vylepšení „%(name)s“ je potřeba ještě %(credits)s"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "vybavení"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "Pro vylepšení vybavení je potřeba ještě %(credits)s"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "Vybavení nelze vylepšit. Potřebujete %(gold)s na výměnu za kredity."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "Máte dostatek kreditů na vylepšení vybavení."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "Výměna není potřeba"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "Nemáte žádné experimentální vybavení k rozložení."
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "Pro získání dalších součástí rozložte experimentální vybavení."
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "Vylepšit\n„%(name)s“?"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "Požadováno: %(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "Cena:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "Ke koupi"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "Ke koupi"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "Výměna"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "Směnný kurz: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "Pro použití Rychlého servisu je potřeba dalších %(credits)s"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "směrnice"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "spotřebního doplňku"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "modulu"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "vybavení"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "duální modifikace"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "{action} {type} %(name)s je potřeba ještě %(credits)s"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "směrnic"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "spotřebních doplňků"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "modulů"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "vybavení"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "{action} {type} je potřeba ještě %(credits)s"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "Na opravu je potřeba ještě %(credits)s"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "Nelze koupit: výměna selhala. K výměně je potřeba ještě %(gold)s."
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "Ke koupi"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "na modifikaci"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "Výměna není nutná – máte dostatek kreditů."
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "Dostatek kreditů {action}"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "K doplnění munice je potřeba ještě %(credits)s"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "Opravit automaticky"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "Opravit"
+
+msgid "dialogs/needRepair/durability"
+msgstr "Výdrž:"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s %"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "Vozidlo je opraveno automaticky a zdarma"
+
+msgid "dialogs/needRepair/price"
+msgstr "Cena opravy:"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "Nedostatek prostředků k opravě"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "Potvrzuji!"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "Opravy nejsou potřeba"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "Doplnit"
+
+msgid "dialogs/refillShells/price"
+msgstr "Cena doplnění:"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "Doplnit munici?"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "Uložit změny u munice?"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "Upozornění: Prodáváte vylepšené vybavení."
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "Upozornění: Toto vybavení nebudete moci po prodeji obnovit ani zakoupit."
+
+msgid "dialogs/sell/button/cancel"
+msgstr "Zrušit"
+
+msgid "dialogs/sell/button/sell"
+msgstr "Prodat"
+
+msgid "dialogs/sell/header"
+msgstr "Prodat následující vybavení?\n%(equipmentName)s"
+
+msgid "dialogs/sell/text"
+msgstr "Prodejní cena za 1 předmět:"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "Nedostatek zdrojů pro odmontování."
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "Doporučení nejsou pro toto vozidlo dostupná"
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "Nelze namontovat."
+
+msgid "easyTankEquipView/applied"
+msgstr "Aplikováno"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "Pokročilé"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "Vylepšené"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "Standardní"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "SPOTŘEBNÍ DOPLŇKY"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "Nedostatek lůžek v kasárnách pro přesun a změny posádky. Přidejte do kasáren více lůžek."
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "{{count}}x"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "Zkušená posádka"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "Nová posádka"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "{{count}}\nNový člen posádky bude naverbován"
+msgstr[1] "{{count}}\nNoví členové posádky budou naverbováni"
+msgstr[2] "{{count}}\nNových členů posádky bude naverbováno"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "POSÁDKA"
+
+msgid "easyTankEquipView/discount"
+msgstr "–{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "Pokročilé"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "Standardní"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "VYBAVENÍ"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "Pokročilé"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "Standardní"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "MUNICE"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "Už jste styl aplikovali"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "Na {{battlesCount}} bitev za {{price}}"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "HOTOVÉ STYLY"
+
+msgid "easyTankEquipView/title"
+msgstr "RYCHLÝ SERVIS"
+
+msgid "effects/name"
+msgstr "Efekt"
+
+msgid "effects/template"
+msgstr "%(icon)s %(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "Doba obnovení je %(cooldown)s&nbsp;s."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "Získat součásti"
+
+msgid "filters/shown"
+msgstr "Zobrazeno: "
+
+msgid "hints/dragAndDrop/section"
+msgstr "PŘETÁHNĚTE\nVYBAVENÍ"
+
+msgid "hints/filters/specialization"
+msgstr "DODATEČNÝ\nBONUS KE KATEGORII"
+
+msgid "hints/tabs/equipment"
+msgstr "NOVÝ TYP\nVYBAVENÍ"
+
+msgid "introduction/currency/deluxe"
+msgstr "bony"
+
+msgid "introduction/currency/modernized"
+msgstr "součásti"
+
+msgid "introduction/message/deluxe"
+msgstr "Tento typ vybavení je dostupný za %(currencyName)s (%(currencyIcon)s). Lze jej získat také jako odměnu za určité herní úspěchy a během speciálních herních akcí."
+
+msgid "introduction/message/modernized"
+msgstr "Specializovaný typ vybavení se třemi úrovněmi vylepšení, které je udělováno za dokončení misí a během určitých herních akcí. Toto vybavení nelze zničit nebo prodat, lze jej však rozložit na speciální díly – %(currencyName)s (%(currencyIcon)s). Získané součásti lze použít k vylepšení jakéhokoliv experimentálního vybavení."
+
+msgid "introduction/message/trophy"
+msgstr "Speciální typ vybavení, které má při získání stejné parametry jako standardní vybavení, za kredity ho však lze vylepšit. Trofejní vybavení není možné koupit za herní měnu, během určitých herních akcí ho však lze získat jako odměnu."
+
+msgid "introduction/showButton"
+msgstr "Ukázat vybavení"
+
+msgid "introduction/slide/1/description"
+msgstr "Bylo přidáno nové vybavení. Navíc bylo vybavení %(repairBox)s, %(wetAmmo)s, %(CO2Cistern)s a %(cycloneFilter)s zkombinováno do vybavení %(changedConfiguration)s. Obdoby vybavení %(forcedChassis)s byly nahrazeny vybavením %(forcedMetal)s. Všechny staré bonusy zůstávají a ještě byly přidány nové."
+
+msgid "introduction/slide/1/title"
+msgstr "NOVÉ VYBAVENÍ"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr " — Palebná síla"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr " — Pohyblivost"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr " — Průzkum"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr " — Odolnost"
+
+msgid "introduction/slide/2/description"
+msgstr "Je-li vybavení namontováno ve slotu stejné kategorie, bude účinnější. V opačném případě poskytne pouze standardní bonus."
+
+msgid "introduction/slide/2/subtitle"
+msgstr "ODPOVÍDAJÍCÍ KATEGORIE"
+
+msgid "introduction/slide/2/title"
+msgstr "KATEGORIE VYBAVENÍ"
+
+msgid "introduction/slide/3/description/left"
+msgstr "Cena většiny vybavení nepřesáhne 50 000 kreditů u vozidel II.–IV. úrovně, 300 000 kreditů u vozidel V.–VII. úrovně a 600 000 u vozidel VIII.–XI. úrovně."
+
+msgid "introduction/slide/3/description/right"
+msgstr "Některé z nových kusů vybavení mají tři třídy. I když je třída jiná, poskytuje vybavení stejný účinek. Čím vyšší je třída, tím vyšší je i cena vybavení. Každá třída vybavení odpovídá vlastnímu rozsahu úrovní vozidel."
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "ZMĚNY U VYBAVENÍ"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "NOVÉ VYBAVENÍ"
+
+msgid "introduction/slide/3/title"
+msgstr "CENA VYBAVENÍ"
+
+msgid "introduction/slide/4/description"
+msgstr "Vybavení není dostupné pro vozidla I. úrovně. Na vozidla II. úrovně můžete namontovat pouze jeden kus vybavení, na vozidla III. úrovně dva kusy vybavení a na vozidla IV.–XI. úrovně tři kusy vybavení. Vybavení namontované v odebraných slotech bylo odmontováno a posláno do skladu."
+
+msgid "introduction/slide/4/title"
+msgstr "SLOTY NA VYBAVENÍ"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "Naplnění nádrží CO2"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "Upravená konfigurace"
+
+msgid "introduction/slide/confirm"
+msgstr "Potvrzuji!"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "Cyklónový filtr"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "Vylepšený podvozek"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "Vylepšené kalení"
+
+msgid "introduction/slide/repairBox"
+msgstr "Nástroje"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "„Mokrá“ bedna s municí"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "Vylepšené vybavení"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "Experimentální vybavení"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "Trofejní vybavení"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "Nemáte žádné vhodné experimentální vybavení"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "Nemáte žádné vhodné trofejní vybavení"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "k časové prodlevě, než velitel určí, zda bylo vaše vozidlo odhaleno nepřítelem"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "z trvání dodatečného ochromení, je-li vozidlo již ochromeno"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "z maskování nepřátelských vozidel za listovím (jedoucích i nehybných)"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "k rychlosti granátu pro všechny typy granátů"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "k postihu rychlosti nabíjení, když jsou moduly poškozené"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "ke ztrátě výkonu motoru, když jsou moduly poškozené"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "z maskování nehybného či jedoucího vozidla"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "z navýšení maskování, ať už vozidlo stojí či jede (účinnost závisí na typu vozidla)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "z poškození korby způsobeného poškozením podvozku při dopadu"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "z dohledu (až do 445 m) – navýšení tohoto parametru nad 445 m umožňuje efektivnější odhalování nepřátel"
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "k poškození obdrženému při dopadu"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "z rozptylu za pohybu a při otáčení vozidla, při otáčení děla a po výstřelu"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "k poškození od HE granátu pohlcenému pancířem"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "k době, po kterou je vaše vozidlo viditelné"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "k zachování rychlosti\npři jízdě přes libovolný typ terénu"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "z maskování nehybného vozidla 3 sekundy poté, co se zastaví"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "k maskování nehybného vozidla\n1,5 sekundy poté, co se zastaví"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "z navýšení maskování nehybného vozidla 3 sekundy poté, co se zastaví (účinnost závisí na typu vozidla)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "k navýšení maskování nehybného vozidla 1,5 sekundy poté, co se zastaví (účinnost závisí na typu vozidla)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "z dohledu nehybného vozidla 3 sekundy poté, co se zastaví (až do 445 m) – navýšení tohoto parametru nad 445 m umožňuje efektivnější odhalování nepřátel"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "k dohledu nehybného vozidla 1,5 sekundy poté, co se zastaví (až do 445 m) – navýšení tohoto parametru nad 445 m umožňuje efektivnější odhalování nepřátel"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "z bodů výdrže vozidla (zaokrouhlených nahoru)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "z rychlosti otáčení věže nebo rychlosti otáčení děla vozidel se stacionární kabinou"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "k časové prodlevě, než velitel určí, zda bylo vaše vozidlo odhaleno nepřítelem"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "k trvání dodatečného ochromení, je-li vozidlo již ochromeno"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "k maskování jedoucích i nehybných nepřátelských vozidel za listovím"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "k rychlosti granátu pro všechny typy granátů"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "k postihu rychlosti nabíjení, když jsou moduly poškozené"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "ke ztrátě výkonu motoru, když jsou moduly poškozené"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "k maskování nehybného či jedoucího vozidla"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "k navýšení maskování, ať už vozidlo stojí, či jede (účinnost závisí na typu vozidla)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "k poškození korby způsobenému poškozením podvozku při dopadu"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "k dohledu (až do 445 m). Navýšení parametru nad 445 m umožňuje efektivnější odhalování nepřátel."
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "k poškození obdrženému při dopadu"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "k rozptylu za pohybu a při otáčení vozidla, při otáčení děla a po výstřelu"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "k poškození od HE granátu pohlcenému pancířem"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "k době, po kterou je vaše vozidlo viditelné"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "k zachování rychlosti\npři jízdě přes libovolný typ terénu"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "k maskování nehybného vozidla 3 sekundy po zastavení"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "k maskování nehybného vozidla\n1,5 sekundy poté, co se zastaví"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "k maskování nehybného vozidla 3 sekundy poté, co se zastaví (účinnost závisí na typu vozidla)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "k maskování nehybného vozidla 1,5 sekundy poté, co se zastaví (účinnost závisí na typu vozidla)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "k dohledu nehybného vozidla 3 sekundy po zastavení (až do 445 m). Navýšení parametru nad 445 m umožňuje efektivnější odhalování nepřátel."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "k dohledu nehybného vozidla 1,5 sekundy poté, co se zastaví (až do 445 m). Navýšení tohoto parametru nad 445 m umožňuje efektivnější odhalování nepřátel."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "k bodům výdrže vozidla (zaokrouhleným nahoru)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "k rychlosti otáčení věže nebo rychlosti otáčení děla vozidel se stacionární kabinou"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "prodleva před aktivací\nZvukové detekce"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "k prodlevě před upozorněním, že jste odhaleni"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "z rychlosti ochlazení děla"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "z ochrany posádky proti zranění"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "k bonusu efektivity posádky"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "z trvání dodatečného ochromení"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "z trvání ochromení"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "k minimálnímu potencionálnímu poškození\na hodnotě průbojnosti"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "k maximálnímu potencionálnímu poškození\na hodnotě průbojnosti"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "z poškození způsobeného nárazy"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "prodleva před tím, než je zobrazeno\nkritické poškození vozidla v zaměřovači"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "z maskování nepřátelských vozidel za listovím"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "z maskování jedoucích nepřátelských vozidel"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "k pravděpodobnosti poškození nepřátelských modulů\na zranění členů posádky"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "k času obnovení spotřebního doplňku"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "k rychlosti hašení"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "k maskování za vegetací"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "z bodů výdrže obnovených sadou nářadí"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "k zachování rychlosti\nna středně měkkém terénu"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "k postihu k dohledu, když je vyřazeno\npozorovací zařízení"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "z maximální potenciální průbojnosti"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "k času vysílání\npozic nepřátelského vozidla\npo zničení"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "k ochraně radisty\nproti zranění"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "k rychlosti granátu"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "k zachování rychlosti\nna měkkém terénu"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "k negativním efektům\nz ochromení posádky"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "k poškození podvozku"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "z rychlosti oprav podvozku"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "k postihu rychlosti nabíjení"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "k postihu poškozeného motoru"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "z rychlosti otáčení korby"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "z výdrže vnitřních modulů"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "z výdrže bedny s municí"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "z maximální rychlosti couvání"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "z maskování"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "z navýšení maskování"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr " k poškození dopadem"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "z rychlosti oprav podvozku"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "z výdrže podvozku"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "z dohledu"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "k době, po kterou je pro vás\nnepřátelské vozidlo viditelné"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "z výkonu motoru"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr " k poškození dopadem"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "z pravděpodobnosti vznícení motoru"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "z maximální rychlosti jízdy vpřed"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "k pravděpodobnosti kritického poškození\npalivových nádrží"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "z rychlosti zaměření"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "z doby nabíjení"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "z rozptylu za pohybu a při otáčení vozidla"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "z velkosti kruhu zaměřovače po výstřelu"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "z rozptylu za pohybu"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "z rozptylu při otáčení korby"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "z rozptylu při otáčení děla"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "z rozptylu poškozeného děla"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "z velkosti kruhu zaměřovače"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "k poškození HE granátem"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "z maskování po výstřelu"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "z doby, po kterou je vaše vozidlo viditelné"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "k poškození podvozku obdrženého\nnárazem"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "z poškození obdrženého při nárazu"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "k rychlosti změny typů granátu\nv nabitém děle"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "z rychlosti oprav"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "ze zachovávání rychlosti při překonávání všech typů terénu"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "z maskování nehybného vozidla"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "z maskování nehybného vozidla"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "z navýšení maskování nehybného vozidla"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "z navýšení maskování nehybného vozidla"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "z dohledu nehybného vozidla"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "z dohledu nehybného vozidla"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "z HP vozidla"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "z rychlosti otáčení věže nebo rychlosti otáčení děla vozidel se stacionární kabinou"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "z rychlosti otáčení věže"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "k rychlosti zatáčení kol"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "k postihu, když je člen posádky\nzraněn, kromě velitele"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "prodleva před aktivací\nZvukové detekce"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "prodleva před tím, než je zobrazeno\nkritické poškození vozidla v zaměřovači"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "doba trvání odhalování nepřátel\npo zničení"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "k poškození HE granátem"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "k průbojnosti HE granátů"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "k rychlosti letu HE granátu"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "ke kapacitě munice"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "k poškození všemi granáty"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "k rychlosti granátu pro všechny typy granátů"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "prodleva před aktivací\nZvukové detekce"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "k poškození standardního granátu"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "k prodlevě před upozorněním, že jste odhaleni"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "k rychlosti ochlazení děla"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "k ochraně posádky proti zranění"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "k bonusu efektivity posádky"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "k trvání dodatečného ochromení"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "k trvání ochromení"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "k minimálnímu potencionálnímu poškození a hodnotě průbojnosti"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "k maximálnímu potencionálnímu poškození\na hodnotě průbojnosti"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "k poškození způsobenému nárazy"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "prodleva před tím, než je zobrazeno\nkritické poškození vozidla v zaměřovači"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "k maskování nepřátelských vozidel za listovím"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "k maskování jedoucích nepřátelských vozidel"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "k pravděpodobnosti poškození nepřátelských modulů\na zranění členů posádky"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "k bodům výdrže motoru"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "k času obnovení spotřebního doplňku"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "k rychlosti hašení"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "k maskování za vegetací"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "k bodům výdrže nádrže s palivem"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "ke sklápění děla"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "k náměru děla"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "ke stabilizaci děla"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "k omezení otočení děla"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "k bodům výdrže obnoveným sadou nářadí"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "k rychlosti zvednutí korby"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "k zachování rychlosti\nna středně měkkém terénu"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "k poškození ne-HE granáty"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "k postihu k dohledu, když je vyřazeno\npozorovací zařízení"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "k maximální potenciální průbojnosti"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "k času vysílání\npozic nepřátelského vozidla\npo zničení"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "k ochraně radisty\nproti zranění"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "k době nabíjení v rámci zásobníku"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "k době nabíjení (režim palby salvou)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "k době nabíjení (režim palby jednotlivými výstřely)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "k poškození granátů způsobeného nepřátelským modulům"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "k rychlosti granátu"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "k zachování rychlosti\nna měkkém terénu"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "k poškození speciálního granátu"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "k průbojnosti speciálního granátu"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "k rychlosti speciálního granátu"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "k poškození standardního granátu"
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "k průbojnosti standardního granátu"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "k rychlosti standardního granátu"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "k negativním efektům ochromení posádky"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "z poškození podvozku"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "k rychlosti oprav podvozku"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "k omezení otočení věže"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "k postihu rychlosti nabíjení"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "k postihu poškozeného motoru"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "k rychlosti otáčení korby"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "k výdrži vnitřních modulů"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "k výdrži bedny s municí"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "k maximální rychlosti couvání"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "k maskování"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "k navýšení maskování"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "k poškození při dopadu"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "k rychlosti oprav podvozku"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "k výdrži podvozku"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "k dohledu (až do 445 m)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "k době, po kterou je pro vás\nnepřátelské vozidlo viditelné"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "k výkonu motoru"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr " k poškození dopadem"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "k pravděpodobnosti vznícení motoru"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "k maximální rychlosti jízdy vpřed"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "k pravděpodobnosti kritického poškození\npalivových nádrží"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "k rychlosti zaměření"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "k době nabíjení"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "k rozptylu za pohybu a při otáčení vozidla"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "k velkosti kruhu zaměřovače po výstřelu"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "k rozptylu za pohybu"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "k rozptylu při otáčení korby"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "k rozptylu při otáčení děla"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "k rozptylu poškozeného děla"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "k velkosti kruhu zaměřovače"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "k poškození HE granátem"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "k maskování po výstřelu"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "k době, po kterou je vaše vozidlo viditelné"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "k poškození podvozku obdrženého\nnárazem"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "k poškození obdrženému při nárazu"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "k rychlosti změny typů granátu\nv nabitém děle"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "k rychlosti oprav"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "k maximální rychlosti / rychlosti couvání"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "k zachovávání rychlosti při překonávání všech typů terénu"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "k maskování nehybného vozidla"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "k maskování nehybného vozidla"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "k navýšení maskování nehybného vozidla"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "k navýšení maskování nehybného vozidla"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "k dohledu nehybného vozidla (až do 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "k dohledu nehybného vozidla (až do 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "k bodům výdrže vozidla"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "k rychlosti otáčení věže nebo rychlosti otáčení děla vozidel se stacionární kabinou"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "k rychlosti otáčení věže"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "k rychlosti zatáčení kol"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "k postihu, když je zraněn člen posádky,\nkromě velitele"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "k prodlevě před upozorněním, že jste odhaleni"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "z ochrany posádky\nproti zranění"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "k bonusu efektivity posádky"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "z trvání dodatečného ochromení"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "z trvání ochromení"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "z poškození způsobeného nárazy"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "prodleva před tím, než je zobrazeno\nkritické poškození vozidla v zaměřovači"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "z maskování nepřátelských vozidel\nza listovím"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "z maskování jedoucích\nnepřátelských vozidel"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "z bodů výdrže obnovených sadou nářadí"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "z doby nabíjení"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "z maximální potenciální průbojnosti"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "k ochraně radisty proti zranění"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "k rychlosti granátu pro všechny typy granátů"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "k rozptylu děla"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "z rychlosti oprav podvozku"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "k rozptylu při otáčení děla"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "k postihu rychlosti nabíjení"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "ze ztráty výkonu motoru\npři poškození"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "z rychlosti otáčení vozidla"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "k výdrži vnitřních modulů"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "z výdrže bedny s municí"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "z maximální rychlosti couvání"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "z maskování"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr " k poškození dopadem"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "z rychlosti oprav podvozku"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "z výdrže podvozku"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "z dohledu"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "k době, po kterou je pro vás\nnepřátelské vozidlo viditelné"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "z výkonu motoru"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr " k poškození dopadem"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "z pravděpodobnosti vznícení motoru"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "z maximální rychlosti jízdy vpřed"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "z rychlosti zaměření"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "z doby nabíjení"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "z rozptylu za pohybu a při otáčení vozidla"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "z velkosti kruhu zaměřovače\npo výstřelu"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "z rozptylu za pohybu"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "z rozptylu při otáčení korby"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "k rozptylu při \notáčení děla"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "z rozptylu poškozeného děla"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "z velkosti kruhu zaměřovače"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "k poškození HE granátem"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "z maskování po výstřelu"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "z doby, po kterou je vaše vozidlo viditelné"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "z poškození obdrženého při nárazu"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "k rychlosti změny typů granátů"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "z rychlosti oprav"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "ze zachovávání rychlosti"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "z maskování nehybného\nvozidla"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "z maskování nehybného\nvozidla"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "z dohledu"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "z dohledu"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "z HP vozidla"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "z rychlosti otáčení děla"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "z rychlosti otáčení věže"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "k postihu, když je zraněn člen posádky,\nkromě velitele"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "k prodlevě před upozorněním, že jste odhaleni"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "k ochraně posádky\nproti zranění"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "k bonusu efektivity posádky"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "k bonusu efektivity posádky"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "k trvání dodatečného ochromení"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "k trvání ochromení"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "k minimálnímu potencionálnímu poškození\na hodnotě průbojnosti"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "k poškození způsobenému nárazy"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "k maskování nepřátelských vozidel\nza listovím"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "k maskování jedoucích\nnepřátelských vozidel"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "k pravděpodobnosti poškození nepřátelských modulů\na zranění členů posádky"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "k rychlosti hašení"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "k bodům výdrže obnoveným sadou nářadí"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "z doby nabíjení"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "k maskování vozidla"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "k zachování rychlosti\nna středně měkkém terénu"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "k maximální potenciální průbojnosti"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "k dosahu rádiového signálu"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "k ochraně radisty proti zranění"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "k rychlosti granátu pro všechny typy granátů"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "k zachování rychlosti\nna měkkém terénu"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "k rychlosti oprav podvozku"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "k dosahu signálu spojeneckého spojení v rámci rádiového pokrytí vozidla"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "k postihu rychlosti nabíjení"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "ke ztrátě výkonu motoru\npři poškození"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "k rychlosti otáčení vozidla"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "k výdrži vnitřních modulů"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "k výdrži bedny s municí"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "k maximální rychlosti couvání"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "k maskování"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "k poškození při dopadu"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "k rychlosti oprav podvozku"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "k výdrži podvozku"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "k dohledu\n(až do 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "k době, po kterou je pro vás\nnepřátelské vozidlo viditelné"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "k výkonu motoru"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr " k poškození dopadem"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "k pravděpodobnosti vznícení motoru"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "k maximální rychlosti jízdy vpřed"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "k rychlosti zaměření"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "k době nabíjení"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "k rozptylu za pohybu a při\notáčení vozidla"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "k velkosti kruhu zaměřovače\npo výstřelu"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "k rozptylu za pohybu"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "k rozptylu při otáčení korby"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "k rozptylu při \notáčení děla"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "k rozptylu poškozeného děla"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "k velkosti kruhu zaměřovače"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "k poškození HE granátem"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "k maskování po výstřelu"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "k době, po kterou je vaše vozidlo viditelné"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "k poškození obdrženému při nárazu"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "k rychlosti změny typů granátů"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "k rychlosti oprav"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "k udržování rychlosti"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "k maskování nehybného vozidla"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "k maskování nehybného vozidla"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "k dohledu nehybného vozidla\n(až do 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "k dohledu nehybného vozidla\n(až do 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "k bodům výdrže vozidla"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "k rychlosti otáčení děla"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "k rychlosti otáčení věže"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "ke zkušenostem posádky získaným v bitvě"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "s"
+
+msgid "popularLoadouts/common"
+msgstr "Oblíbené"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "Běžně používané"
+
+msgid "popularLoadouts/legendary"
+msgstr "Legendární"
+
+msgid "popularLoadouts/noData"
+msgstr "Nejsou dostupná data"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "Nejsou dostupná data"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)sOblíbené.%(whiteSpanish_Close)s Založené na současných trendech ve vybavení všech hráčů World of Tanks"
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "Sběr dat"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "Pokud ještě nejsou k dispozici údaje z aktuální sezóny Náporu, použijí se údaje z předchozí sezóny"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "Pomocník je dostupný pro %(whiteSpanish_Open)snáhodné bitvy%(whiteSpanish_Close)s a %(whiteSpanish_Open)sNápor%(whiteSpanish_Close)s"
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "Bere v úvahu data ze všech typů vybavení."
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "Výhoda WoT Plus"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "Získejte přesné údaje o vybavení na základě milionů odehraných her a využijte každou bitvu na maximum."
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "Výbavový pomocník"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendární.%(whiteSpanish_Close)s Založené na vybavení aktuálně preferovaném hráči na legendární úrovni hodnocení WTR"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "Typy výbav"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "Navržené výbavy jsou založeny na výbavách, které jsou oblíbené u vozidel s podobným herním stylem."
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "Zobrazují se data pro níže uvedené vozidlo s podobným herním stylem:"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "Data o výbavě nejsou k dispozici"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "Vybrané vozidlo není pro tento herní režim dostupné"
+
+msgid "section/battleAbilities"
+msgstr "BOJOVÉ ZÁLOHY"
+
+msgid "section/battleBoosters"
+msgstr "SMĚRNICE"
+
+msgid "section/consumables"
+msgstr "SPOTŘEBNÍ DOPLŇKY"
+
+msgid "section/modules"
+msgstr "MODULY"
+
+msgid "section/optDevices"
+msgstr "VYBAVENÍ"
+
+msgid "section/shells"
+msgstr "MUNICE"
+
+msgid "section/toggleCamouflage"
+msgstr "KAMUFLÁŽ"
+
+msgid "section/toggleShells"
+msgstr "MUNICE"
+
+msgid "shells/ammunitionFull"
+msgstr "Plná munice"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "Nekompletní munice"
+
+msgid "shells/autoFillOff"
+msgstr "Automatické doplnění vypnuto"
+
+msgid "shells/autofillOn"
+msgstr "Automatické doplnění zapnuto"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "Ve skladu:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "V bedně s municí:"
+
+msgid "shells/shortSpecification/price"
+msgstr "Koupit:"
+
+msgid "shells/specification/inStorage"
+msgstr "Ve skladu"
+
+msgid "shells/specification/inVehicle"
+msgstr "V bedně s municí"
+
+msgid "shells/specification/price"
+msgstr "Koupit"
+
+msgid "shells/title"
+msgstr "Munice"
+
+msgid "shells/type/base"
+msgstr "STANDARDNÍ (AP)"
+
+msgid "shells/type/special"
+msgstr "SPECIÁLNÍ (HE)"
+
+msgid "shells/type/tactical"
+msgstr "TAKTICKÉ (APCR)"
+
+msgid "tabs/crew"
+msgstr "Pro posádku"
+
+msgid "tabs/deluxe"
+msgstr "Vylepšené"
+
+msgid "tabs/modernized"
+msgstr "Experimentální"
+
+msgid "tabs/optDevice"
+msgstr "Na vybavení"
+
+msgid "tabs/simple"
+msgstr "Standardní"
+
+msgid "tabs/trophy"
+msgstr "Trofejní"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "Směrnice bude automaticky doplněna poté, co vozidlo opustí bitvu. Buď bude převzata ze skladu (pokud máte zásoby této směrnice), nebo zakoupena za herní měnu."
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "V případě potřeby budou spotřební doplňky automaticky doplněny poté, co vozidlo opustí bitvu."
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "V případě potřeby budou opravy automaticky provedeny poté, co vozidlo opustí bitvu."
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "V případě potřeby bude munice automaticky doplněna poté, co vozidlo opustí bitvu."
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "Automatické doplnění"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "Automatické opravy"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "Bude rozloženo ze skladu: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "Bude rozloženo na vozidlech: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr ", "
+
+msgid "tooltips/action/description/add_one"
+msgstr "Kliknutím zakoupíte další předměty pro tento slot."
+
+msgid "tooltips/action/description/demount"
+msgstr "Kliknutím odmontujete vybavení z tohoto slotu."
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "Kliknutím odmontujete vybavení z tohoto slotu."
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "Kliknutím odmontujete vybavení ze všech konfigurací."
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "S vaším aktivním předplatným WoT Plus kliknutím odmontujete vybavení z tohoto slotu zdarma."
+
+msgid "tooltips/action/description/destroy"
+msgstr "Kliknutím zničíte vybavení v tomto slotu, nebo pokud máte aktivní předplatné WoT Plus, odmontujete ho zdarma."
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "Klikněte pro rozložení vybavení na součásti."
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "Kliknutím zničíte vybavení v tomto slotu."
+
+msgid "tooltips/action/description/swap"
+msgstr "Kliknutím prohodíte předměty mezi sloty."
+
+msgid "tooltips/action/description/upgrade"
+msgstr "Vylepšení vybavení posílí jeho vlastnosti."
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "Vylepšení vybavení posílí jeho vlastnosti."
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "Vylepšení vybavení posílí jeho vlastnosti."
+
+msgid "tooltips/action/title/add_one"
+msgstr "Koupit"
+
+msgid "tooltips/action/title/cancel"
+msgstr "Poslat do skladu"
+
+msgid "tooltips/action/title/demount"
+msgstr "Odmontovat"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "Odmontovat"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "Odmontovat ze všech konfigurací"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "Odmontovat zdarma"
+
+msgid "tooltips/action/title/destroy"
+msgstr "Zničit"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "Rozložit"
+
+msgid "tooltips/action/title/swap"
+msgstr "Změna pořadí"
+
+msgid "tooltips/action/title/undo"
+msgstr "Odstranit ze slotu"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "Vylepšit"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "Vylepšit"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "Vylepšit"
+
+msgid "tooltips/additional"
+msgstr "Doplňující informace."
+
+msgid "tooltips/categories/list"
+msgstr "Kliknutím se podíváte na seznam modulů."
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "K tomuto slotu lze znovu přiřadit kategorii v nabídce „Polní vylepšení“ nebo na obrazovce s výběrem vybavení."
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "Změnitelná kategorie"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "Kliknutím znovu přiřadíte kategorii ke slotu."
+
+msgid "tooltips/equipmentList"
+msgstr "Kliknutím se podíváte na seznam dostupného vybavení."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "Experimentální vybavení nelze rozložit na součásti: Nemáte žádné vybavení tohoto typu."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "Klikněte pro rozložení vybavení na součásti."
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "Při namontování bude toto vybavení poskytovat standardní bonus, protože pouze dělostřelectvo a stíhače tanků mají kategorii „Palebná síla“ a toto vybavení není namontováno do slotu kategorie „Palebná síla“."
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "Vaše vozidlo získává zvýšené bonusy ke svým vlastnostem."
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "Pro zvýšení bonusů k vlastnostem namontujte toto vybavení do slotu s jednou z následujících kategorií: %(category)s."
+
+msgid "tooltips/howToIncrease/single"
+msgstr "Pro zvýšení bonusů k vlastnostem namontujte toto vybavení do slotu s následující kategorií: %(category)s."
+
+msgid "tooltips/placeEquipment"
+msgstr "Slot na vybavení"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "V rozhraní polního vylepšení můžete zapnout/vypnout možnost výběru sad granátů a spotřebních doplňků během odpočtu před bitvou."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "V rozhraní polního vylepšení můžete zapnout/vypnout možnost výběru sad vybavení a směrnic během odpočtu před bitvou."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "V rozhraní polního vylepšení můžete zapnout/vypnout možnost výběru sad granátů a spotřebních doplňků během odpočtu před bitvou."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "V rozhraní vylepšení můžete zapnout/vypnout možnost výběru sad granátů a spotřebních doplňků během odpočtu před bitvou."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "V rozhraní polního vylepšení můžete zapnout/vypnout možnost výběru sad vybavení a směrnic během odpočtu před bitvou."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "V rozhraní vylepšení můžete zapnout/vypnout možnost výběru sad vybavení a směrnic během odpočtu před bitvou."
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "Přepínání mezi sadami je vypnuto"
+
+msgid "tooltips/separator/last"
+msgstr " a "
+
+msgid "tooltips/separator/other"
+msgstr ", "
+
+msgid "tooltips/specializationDesc"
+msgstr "Standardní vybavení z kategorie „%(spec)s“ bude účinnější, když bude namontováno v tomto slotu. Vybavení z jiných kategorií zajistí pouze standardní bonus."
+
+msgid "tooltips/specializationName"
+msgstr "Kategorie:"
+
+msgid "tooltips/specializationType"
+msgstr "Palebná síla"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "Cenný typ vybavení s lepšími technickými vlastnostmi, než mají jiné typy vybavení."
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "Speciální vybavení se třemi úrovněmi vylepšení."
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "Vybavení vylepšuje vlastnosti vašeho vozidla."
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "Typ vybavení, které má parametry standardního vybavení, ale je možné jej vylepšit."
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "Vylepšené vybavení"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "Experimentální vybavení"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "Standardní vybavení"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "Trofejní vybavení"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "Tento typ vybavení je dostupný za %(whiteSpanish_Open)sbony%(whiteSpanish_Close)s. Lze jej získat také jako odměnu za určité herní úspěchy a během speciálních herních akcí."
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "Tento typ vybavení lze získat za odměnu během speciálních herních akcí."
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "Tento typ vybavení lze zakoupit za herní měnu. Lze jej také získat jako odměnu za určitého herní úspěchy a během speciálních herních akcí. Vlastnosti standardního vybavení mohou být vylepšeny jeho přiřazením do odpovídajícího slotu."
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "Tento typ vybavení lze získat za odměnu během speciálních herních akcí."
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "Způsob pořízení"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "Způsob pořízení"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "Sloty na vybavení"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "Trofejní vybavení nelze zakoupit"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "Vlastnosti experimentálního vybavení lze vylepšit pomocí %(whiteSpanish_Open)ssoučástí%(whiteSpanish_Close)s, které lze získat rozložením tohoto typu vybavení."
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "Vlastnosti trofejního vybavení můžete vylepšit za herní měnu."
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "Vylepšení experimentálního vybavení"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "Vylepšení trofejního vybavení"

@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "Vybrat odměny"
+
+msgid "banner/giftsAvailable"
+msgstr "Zásoby doručeny!"
+
+msgid "banner/giftsForOffer"
+msgstr "Odměny za účast v akci „%(name)s“."
+
+msgid "banner/selectNowOrLater"
+msgstr "Vyberte si své odměny hned teď, nebo později ve skladu."
+
+msgid "banner/title"
+msgstr "Zásoby z domácí fronty"
+
+msgid "description/rentValue/battles"
+msgstr "na bitvy: %(value)s"
+
+msgid "description/rentValue/days"
+msgstr "na dny: %(value)s"
+
+msgid "description/rentValue/wins"
+msgstr "na vítězství: %(value)s"
+
+msgid "giftDescription/tank/base"
+msgstr "Kromě vybraného vozidla také zdarma získáte %(items)s."
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}posádku{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}posádku{neutralClose} a {neutralOpen}stání v garáži{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}stání v garáži{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "Storno"
+
+msgid "giftDialog/description/newRent"
+msgstr "%(tankName)s bude pronajat %(rentValue)s"
+
+msgid "giftDialog/description/noRent"
+msgstr "%(tankName)s bude poslán do garáže"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "Pronájem %(tankName)s bude prodloužen %(rentValue)s"
+
+msgid "giftDialog/submit"
+msgstr "Potvrdit"
+
+msgid "giftDialog/title/common"
+msgstr "Potvrzení o získání\n„%(name)s“"
+
+msgid "giftDialog/title/tank"
+msgstr "Získání vozidla"
+
+msgid "giftDialog/title/tankRent"
+msgstr "Pronájem vozidla"
+
+msgid "giftsWindow/availableCount"
+msgstr "Dostupné: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "K dispozici do: %(date), %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "Dostupné odměny: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "V garáži"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "Otevřen ještě"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "Náhled"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value) bitev"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value) d"
+
+msgid "giftsWindow/rent/title"
+msgstr "Pronájem na: %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value) vítězství"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "Vyzvednout"
+
+msgid "giftsWindow/tokens"
+msgstr "Dostupné: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "Dostupné žetony: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "Nedostupná"
+
+msgid "rewardWindow/btnLabel"
+msgstr "Potvrzuji!"
+
+msgid "rewardWindow/title"
+msgstr "Odměna získána"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "Vyzvednout!"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "Prodloužit pronájem!"
+
+msgid "tankPreview/description/newRent"
+msgstr "Bezplatný pronájem %(tankName)s %(rentValue)s"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s s posádkou"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s s posádkou a stáním v garáži"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s se stáním v garáži"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "Prodloužit pronájem %(tankName)s %(rentValue)s"

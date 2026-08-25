@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Hoofdpantser"
+
+msgid "armorValues/title/no_damage"
+msgstr "Geen schade"
+
+msgid "armorValues/title/other"
+msgstr "Overige"
+
+msgid "armorValues/title/penetration"
+msgstr "Penetratiekans"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Ricochet"
+
+msgid "armorValues/title/spaced"
+msgstr "Spaced pantser"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Aanvallersconfiguratie"
+
+msgid "attackerTooltip/body"
+msgstr "Klik om aanvallend voertuig te veranderen"
+
+msgid "attackerTooltip/header"
+msgstr "Aanvallend voertuig"
+
+msgid "menu/header"
+msgstr "Soort overlay"
+
+msgid "menu/no_armor"
+msgstr "Geen overlay"
+
+msgid "menu/nominal"
+msgstr "Nominaal pantser"
+
+msgid "menu/penetration"
+msgstr "Penetratiekans"
+
+msgid "modules/current"
+msgstr "Huidige configuratie"
+
+msgid "modules/custom"
+msgstr "Aangepaste configuratie"
+
+msgid "modules/standard"
+msgstr "Standaard configuratie"
+
+msgid "modules/title"
+msgstr "Voertuigmodules"
+
+msgid "modules/top"
+msgstr "Topconfiguratie"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Chassis"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Kanon"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Kanonmantel"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Romp"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Scherm"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Observatieapparatuur"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Koepel"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Wielen"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Geen schade"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Doorboor"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Ricochet"
+
+msgid "tooltip/minor/angle/description"
+msgstr "De hoek tussen de kogelbaan en de lijn loodrecht op de pantserplaat.\n\nDe kogelbaan is een rechte lijn vanuit het midden van het scherm."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Invalshoek"
+
+msgid "tooltip/minor/damage/description"
+msgstr "De kans dat de granaat het vijandelijk pantser doorboort en schade veroorzaakt."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Penetratiekans"
+
+msgid "tooltip/minor/effective/description"
+msgstr "Voor een enkele pantserlaag is de effectieve bepantsering het nominale pantser, aangepast voor de invalshoek en granaatnormalisatie.\n\nAls er meerdere pantserlagen zijn op het punt van inslag, is het resultaat de som van de effectieve waarde van elke laag."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Effectief pantser"
+
+msgid "tooltip/minor/header"
+msgstr "Legenda"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Het raken van spaced pantser brengt geen schade toe aan een voertuig, tenzij de granaat daarna het hoofdpantser doorboort."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Geen schade"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "De daadwerkelijke breedte van de hoofd- of spaced pantserplaat/-platen."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Nominaal pantser"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Granaten die het vijandelijke pantser onder een kleine hoek raken, zullen afketsen. Ze kunnen echter nog steeds een ander voertuig raken, of zelfs hetzelfde voertuig."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Ricochet"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Beïnvloed de berekening van effectief pantser en de penetratiekans.\n\nEr wordt een afstand van 100 m gebruikt voor alle berekeningen (AP- en APCR-granaten verliezen penetratiekracht over afstand).\n\nBemanningsspecialisaties en upgrades van het aanvallende voertuig hebben geen invloed op de berekeningen."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Aanvallersconfiguratie"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "De kans om vijandelijk pantser te doorboren en schade aan het voertuig toe te brengen.\n\nHet raken van spaced pantser brengt geen schade toe aan een voertuig, tenzij de granaat daarna het hoofdpantser doorboort."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Penetratiekans"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Een voertuig wordt alleen beschadigd als het hoofdpantser wordt geraakt en doorboord. HE-granaten brengen zonder penetratie minder schade toe aan een voertuig; ze moeten echter nog steeds het hoofdpantser bereiken."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Hoofdpantser"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Het raken van spaced pantser beschadigt een voertuig niet, tenzij de granaat daarna ook het hoofdpantser doorboort.\n\nHet raken en doorboren van externe modules beschadigt die modules: raak een rupsband om een voertuig te immobiliseren, raak een kanon om het uit te schakelen, of raak observatieapparatuur om het zichtbereik van een voertuig te verminderen."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Geen schade"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "De afketshoek is voor pantserdoorborende en APCR-granaten 70 graden en voor HEAT-granaten 85 graden.\n\nBR-granaten kunnen niet afketsen; AP- en APCR-granaten verliezen 25% van hun penetratiekracht bij het afketsen.\n\nEen granaat ketst niet af wanneer het kaliber ervan meer dan drie keer zo groot is als de nominale pantserdikte op de plek van impact (alleen geldig voor AP- en APCR-granaten)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Ricochet"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Het raken van spaced pantser beschadigt een voertuig niet, tenzij de granaat daarna ook het hoofdpantser doorboort.\n\nHet raken en doorboren van externe modules beschadigt die modules: raak een rupsband om een voertuig te immobiliseren, raak een kanon om het uit te schakelen, of raak observatieapparatuur om het zichtbereik van een voertuig te verminderen.\n\nInvalshoek geldt niet voor externe modules (zoals rupsbanden en het kanon); hier is effectief pantser gelijk aan nominaal pantser."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Spaced pantser"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Bekijk de video over penetratiemechanismen"

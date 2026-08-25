@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "demountConfirmation/submit"
+msgstr "Демонтувати"
+
+msgid "demountKit/gained/count"
+msgstr "Набір для демонтажу (%(count)s шт.)"
+
+msgid "demountKit/sell/header"
+msgstr "Продано:"
+
+msgid "demountKit/sell_success"
+msgstr "Спорядження «Набір для демонтажу» (%(count)s шт.). Отримано кредитів: %(count)s."
+
+msgid "demountKit/tooltip/description/common"
+msgstr "Дає змогу демонтувати одну одиницю обладнання."
+
+msgid "dialogue/description/common"
+msgstr "Дає змогу демонтувати одну одиницю загального чи трофейного обладнання."
+
+msgid "discounts/tooltips/noSaleProfit"
+msgstr "Вартість продажу менша, ніж звичайно — на купівлю діє знижка."
+
+msgid "equipmentDemount/confirmation/description"
+msgstr "Після демонтажу обладнання буде переміщено на Склад."
+
+msgid "equipmentDemount/confirmation/descriptionForInappropriateClass"
+msgstr "Увага! Це обладнання, клас якого змінили відносно теперішнього типу машини.\nОбладнання демонтують безкоштовно, але після демонтажу встановити його назад на цю машину буде {red_Open}неможливо{red_Close}."
+
+msgid "equipmentDemount/confirmation/title"
+msgstr "Демонтувати обладнання «%(equipment)s»?"
+
+msgid "equipmentDemount/confirmationForFitting/title"
+msgstr "Щоб встановити нове обладнання, демонтувати обладнання «%(equipment)s»?"
+
+msgid "equipmentDemount/notEnoughBonds/description"
+msgstr "Здобудьте їх у бою чи отримайте як нагороду за різні ігрові події."
+
+msgid "equipmentDemount/notEnoughBonds/text"
+msgstr "Недостатньо бонів"
+
+msgid "equipmentDemount/optionFree"
+msgstr "Безкоштовно"
+
+msgid "equipmentDemount/wotPlus"
+msgstr "WoT Plus"
+
+msgid "equipmentDemountFromSlot/confirmation/cancel"
+msgstr "Скасування"
+
+msgid "equipmentDemountFromSlot/confirmation/description"
+msgstr "Це копія обладнання, встановленого в альтернативному наборі. Його демонтаж безкоштовний."
+
+msgid "equipmentDemountFromSlot/confirmation/submit"
+msgstr "Демонтувати"
+
+msgid "equipmentDemountFromSlot/confirmation/title"
+msgstr "Демонтувати обладнання «%(equipment)s» з цього слота?"
+
+msgid "equipmentDemountFromSlot/confirmationForFitting/title"
+msgstr "Щоб встановити нове обладнання, демонтувати теперішнє: %(equipment)s?"
+
+msgid "equipmentDemountPrice"
+msgstr "Вартість демонтажу:"
+
+msgid "equipmentInstall/demount"
+msgstr "%(count)s"
+
+msgid "equipmentInstall/demountNoKitOr"
+msgstr "%(count)s <br /> або %(wotPlus)s"
+
+msgid "equipmentInstall/demountWithKit"
+msgstr "%(count)s або %(countDK)s"
+
+msgid "equipmentInstall/demountWithKitOr"
+msgstr "%(count)s, %(countDK)s <br /> або %(wotPlus)s"
+
+msgid "shop/DemountOptions/bonds"
+msgstr "Можна демонтувати, щоб продати чи встановити на іншу машину за %(count)s, або можна знищити."
+
+msgid "shop/DemountOptions/common"
+msgstr "Можна демонтувати, щоб продати чи встановити на іншу машину за %(count)s, за допомогою %(iconDK)s набору для демонтажу, або можна знищити."
+
+msgid "storage/description/common"
+msgstr "Дає змогу демонтувати загальне чи трофейне обладнання. Витрачається під час використання."
+
+msgid "storage/userName/common"
+msgstr "Набір для демонтажу"
+
+msgid "tooltips:vehicle/action_prc"
+msgstr "Знижка %(actionPrc)s, колишня вартість: %(oldPrice)s"
+
+msgid "userName/common"
+msgstr "Набір для демонтажу"

@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "Alege un vehicul pe care vrei să-l excluzi din această luptă"
+
+msgid "prebattleTimer/ban/header"
+msgstr "Etapa votului de interzicere"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "Confirmă selecția"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "După confirmare, nu vei putea alege alt vehicul."
+
+msgid "prebattleTimer/pick/header"
+msgstr "Etapa confirmării"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "Alege cel mai potrivit vehicul pentru această hartă și compoziția echipei tale"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "Etapa de preselctare a vehiculelor"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "Selectează cel mai bun vehicul pentru harta și echipa curente."
+
+msgid "prebattleTimer/wait/header"
+msgstr "În aşteptarea jucătorilor..."
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "Selectează un vehicul"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Etapa s-a încheiat pe serverul %(server)s"
+
+msgid "primeTimeView/server"
+msgstr "Server disponibil: %(server)s."
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Luptele pe %(server)s\nvor fi disponibile timp de încă %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Luptele pe %(server)s\nvor fi disponibile în %(time)s"
+
+msgid "primeTimeView/servers"
+msgstr "Servere disponibile:"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Luptele sunt indisponibile pe toate serverele"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Mod indisponibil pe serverul %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Luptele pe serverul %(server)s vor fi disponibile timp de încă %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Luptele pe serverul %(server)s vor începe la %(time)s"
+
+msgid "primeTimeView/status/untill"
+msgstr "Luptele nu vor fi disponibile pe serverul %(server)s până la %(startTime)s"

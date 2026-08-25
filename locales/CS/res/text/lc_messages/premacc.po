@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} v klanu"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "NA STATUS ÚČTU"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "ZPĚT"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Mapu budete moci nahradit za {}."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Ukázat/skrýt mapy tohoto typu."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Pouštní mapy"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Letní mapy"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Zimní mapy"
+
+msgid "mapsBlacklist/header"
+msgstr "Vyloučené mapy"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Vylučte nechtěnou mapu ze své herní rotace. Další mapu můžete vyloučit pomocí prémiového účtu WoT a %(mapCount)s další díky WoT Plus. Pokud vyprší platnost některého z předplatných, vyloučené mapy se vrátí zpět do rotace počínaje od mapy nejvíce vpravo."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Vyloučené mapy"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Tyto mapy jsou vyloučeny pouze v náhodných bitvách."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Vyloučenou mapu můžete nahradit každých %(maxCooldownTimeStr)s."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Tento prvek je dostupný pro vozidla IV. a vyšší úrovně."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "V četách jsou vyloučeny pouze mapy vybrané velitelem čety."
+
+msgid "mapsBlacklist/mapName"
+msgstr "„{mapName}“"
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Map zobrazeno: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Map zobrazeno: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Typy map:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Storno"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Zavřít"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "Vybraná mapa bude nahrazena mapou „{mapNameStr}“. Svůj výběr můžete změnit za {cooldownStr}."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Kterou mapu chcete nahradit?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Vyloučit"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Vyberte mapu, kterou chcete nahradit"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Storno"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Zavřít"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Svůj výběr můžete změnit za {cooldownStr}."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Vyloučit mapu {mapNameStr} z náhodných bitev?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Vyloučit"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Vyloučit"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Vyloučit mapu {mapNameStr}?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Začlenit"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Začlenit mapu „{mapNameStr}“ do náhodných bitev?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Tuto mapu můžete nahradit za {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Nahrazení mapy není k dispozici"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Tuto mapu můžete nahradit za {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Nahrazení mapy není k dispozici"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Nevybráno"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Kliknutím vyberte mapu pro vyloučení z náhodných bitev."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Mapa není vybrána"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "Vyloučenou mapu „{mapName}“ lze nahradit za jinou."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Nahrazení mapy je k dispozici"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Mapu „{mapName}“ můžete nahradit za {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Nahrazení mapy není k dispozici"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Dodatečná pozice je dostupná pouze s aktivním prémiovým účtem WoT."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Pozice není k dispozici"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Vyberte mapu ze seznamu níže, kterou vyloučíte z náhodných bitev."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Mapa není vybrána"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Vyberte mapu ze seznamu níže, kterou vyloučíte z náhodných bitev."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Nahrazení mapy je k dispozici"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Tuto mapu můžete nahradit za {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Nahrazení mapy není k dispozici"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "Pozice na vyloučení dodatečné mapy je dostupná pouze s aktivním prémiovým účtem WoT."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Pozice není k dispozici"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Storno"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Svůj výběr můžete změnit za {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Nahradit"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Vyloučit"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Vyloučit mapu %(mapName)s z náhodných bitev?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "Vybraná mapa bude nahrazena mapou {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Svůj výběr můžete změnit za %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Kterou mapu chcete nahradit?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Tato mapa bude nahrazena mapou {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Svůj výběr můžete změnit za %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Chcete nahradit tuto mapu?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Pro tento účet byla aktivována rodičovská kontrola.\nVíce se o omezeních rodičovské kontroly dozvíte {link}."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Rodičovská kontrola"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "na herním portálu"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Kreditní rezerva"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s min"

@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Plantegning samlet"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Plantegning  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Plantegning {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "Til køb"
+
+msgid "blueprintScreen/button/research"
+msgstr "Til forskning"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Vis i garagen"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Du kan samle en plantegning, for at påføre en rabat på udforskning af et ønsket køretøj. Du vil dog skulle udforske det forrige køretøj i træet for at kunne bruge rabatten."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Bekræftet!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Ikke i stand til at udforske"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "For at oprette et plantegningsfragment, skal du bruge:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "vælg:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "OPRET FRAGMENT:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Opret fragmenter"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Konverter\nfragment"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Konvertering\nutilgængelig"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "UTILGÆNGELIG:\nIkke nok\nressourcer"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Gå til køretøj"
+
+msgid "blueprintScreen/or"
+msgstr "eller"
+
+msgid "blueprintScreen/research"
+msgstr "FORSKNING"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Gratis udforskning af køretøjet"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Ikke i stand til at udforske"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Rabat på forskning:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Dette køretøj er blevet udforsket og er tilgængeligt til køb"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Dette køretøj er blevet udforsket og købt"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "I depot:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Du kan bruge en 100% rabat på udforskning af {vehicleName} efter du har udforsket det forrige køretøj i træet."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Plantegning samlet"
+
+msgid "blueprintScreen/unlocked"
+msgstr "KØRETØJ\nUDFORSKET"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Koalition:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Blok:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Alliance:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Union:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Universel:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Koalition"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Blok"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Alliance"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Union"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Frankrig, Tjekkoslovakiet, Sverige, Italien)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Tyskland, Japan)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(USA, Storbritannien, Polen)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(Sovjetunionen, Kina)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Vælg antallet af nationale fragmenter til at oprette køretøjsplantegningsfragmenter.\n%(allianceIcon)%(allianceName) %(allianceNations) nationale fragmenter tilgængelige."
+
+msgid "conversionView/topMessage/single"
+msgstr "Vælg fragmenter fra en af nationerne til at oprette et køretøjsplantegningsfragment.\n%(allianceIcon)%(allianceName) %(allianceNations) nationale fragmenter tilgængelige."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Endelig pris:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Pris på plantegningsfragment:"
+
+msgid "nations/china"
+msgstr "Kina"
+
+msgid "nations/czech"
+msgstr "Tjekkoslovakiet"
+
+msgid "nations/france"
+msgstr "Frankrig"
+
+msgid "nations/germany"
+msgstr "Tyskland"
+
+msgid "nations/italy"
+msgstr "Italien"
+
+msgid "nations/japan"
+msgstr "Japan"
+
+msgid "nations/poland"
+msgstr "Polen"
+
+msgid "nations/sweden"
+msgstr "Sverige"
+
+msgid "nations/uk"
+msgstr "Storbritannien"
+
+msgid "nations/usa"
+msgstr "USA"
+
+msgid "nations/ussr"
+msgstr "Sovjetunionen"

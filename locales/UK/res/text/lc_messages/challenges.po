@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Також отримано:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Цю низку завдань можна пройти повторно."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Так!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Закрити"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Подивитися в Гаражі"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Повторити"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "До Горнила"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "Танковий преміум акаунт"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Преміум машина"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Прокатна машина"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "і стиль «{{styleName}}»"
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) день"
+msgstr[1] "%(day) дн."
+msgstr[2] "%(day) дн."
+
+msgid "awards_view/title"
+msgstr "ГОРНИЛО ЗАВЕРШЕНО!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Завдання на x5 досвіду за бій"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Фрагмент креслення (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Універсальний фрагмент креслення"
+
+msgid "bonuses/bpcoin"
+msgstr "Жетон Бойової перепустки"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Завдання на x3 досвіду екіпажу"
+
+msgid "bonuses/description/attachments_set"
+msgstr "Набір 3D-обвісів"
+
+msgid "bonuses/description/booster"
+msgstr "Особистий резерв"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Трофейне обладнання"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Образ екіпажу"
+
+msgid "bonuses/description/directive"
+msgstr "Настанова"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Експериментальне обладнання"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Удосконалене обладнання"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "і стиль «%(styleName)s»"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Загальне обладнання"
+
+msgid "bonuses/description/style"
+msgstr "2D-стиль"
+
+msgid "bonuses/description/style_3d"
+msgstr "3D-стиль"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Танкістка"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Новобранець"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Член екіпажу"
+
+msgid "condition/achievement"
+msgstr "Отримати відзнаку «%(achievement)s»"
+
+msgid "condition/achievement/title"
+msgstr "Герої битви"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Завдати й допомогти завдати сумарно %(goal)s од. шкоди"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Завдати, отримати й заблокувати сумарно %(goal)s од. шкоди"
+
+msgid "condition/aggregated/title"
+msgstr "Комплексна умова"
+
+msgid "condition/classes/AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "condition/classes/SPG"
+msgstr "САУ"
+
+msgid "condition/classes/heavyTank"
+msgstr "ВТ"
+
+msgid "condition/classes/lightTank"
+msgstr "ЛТ"
+
+msgid "condition/classes/mediumTank"
+msgstr "СТ"
+
+msgid "condition/critsCount"
+msgstr "%(goal)s р. завдати критичних влучень по внутрішніх або зовнішніх модулях техніки супротивника"
+
+msgid "condition/critsCount/title"
+msgstr "Знерухомлювання"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Заблокувати %(goal)s од. шкоди"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Заблокувати у %(goal)s р. більше од. шкоди, ніж має міцності ваша машина"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Блокування"
+
+msgid "condition/damageDealt"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Завдати у %(goal)s р. більше од. шкоди, ніж має міцності ваша машина"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Влучити по машинах супротивника з відстані не більше як %(distance)s м %(goal)s р."
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Влучити по машинах супротивника з відстані щонайменше у %(distance)s м %(goal)s р."
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Завдати шкоди техніці супротивника тараном %(goal)s р."
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Влучити по машинах супротивника в межах огляду вашої машини %(goal)s р."
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Завдати %(goal)s од. шкоди протягом перших %(timeLimit)s хв бою"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника з відстані не більше як %(distance)s м"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника з відстані щонайменше у %(distance)s м"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Завдати %(goal)s од. шкоди тараном"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Таран"
+
+msgid "condition/damageDealt/title"
+msgstr "Шкода"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Завдати %(goal)s од. шкоди невиявленій техніці супротивника"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Завдати %(goal)s од. шкоди техніці супротивника в межах огляду вашої машини"
+
+msgid "condition/kills"
+msgstr "Знищити %(goal)s од. техніки супротивника"
+
+msgid "condition/kills/classes"
+msgstr "Знищити %(goal)s од. танків супротивника типу %(vehicleClass)s"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Знищити %(goal)s од. техніки %(classCount)s різних типів"
+
+msgid "condition/kills/title"
+msgstr "Знищення"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Знищити %(goal)s од. техніки супротивника, не зазнавши шкоди"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Знищити %(goal)s од. техніки супротивника, залишаючись непоміченими"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Завдати %(goal)s%% від сумарної шкоди своєї команди"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Шкода"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Пробити броню супротивника %(goal)s р."
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Пробивання"
+
+msgid "condition/spotted"
+msgstr "Виявити %(goal)s од. техніки супротивника"
+
+msgid "condition/spotted/title"
+msgstr "Виявлення"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Виявити %(goal)s од. техніки, залишаючись непоміченими"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Виявлення"
+
+msgid "condition/top/damageDealt"
+msgstr "Посісти місце в топ-%(rank)s за завданою шкодою у своїй команді"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Посісти місце в топ-%(rank)s за завданою шкодою в обох командах"
+
+msgid "condition/top/title"
+msgstr "Найліпший гравець"
+
+msgid "condition/top/xp"
+msgstr "Посісти місце в топ-%(rank)s за здобутим досвідом у своїй команді"
+
+msgid "condition/unknown"
+msgstr "Пошук оптимального завдання..."
+
+msgid "condition/unknown/title"
+msgstr "Очікування"
+
+msgid "postbattle/name"
+msgstr "ГОРНИЛО: "

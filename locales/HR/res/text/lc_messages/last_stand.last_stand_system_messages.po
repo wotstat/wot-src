@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Taktička naprava"
+
+msgid "open_artefact/server_error"
+msgstr "Operacija je privremeno nedostupna. Pokušajte ponovo kasnije."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Nije moguće snabdjeti taktičke naprave za %s. Tehnički kvar."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Nije moguće snabdjeti taktičke naprave za %s. Nedovoljno sredstava."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Taktičke naprave za %s snabdjevene. Utrošili ste "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Zastupni dostupni za dešifriranje"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Režim: Posljednje uporište: Terra Nord"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Posljednje uporište: Terra Nord (regularna)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Posljednje uporište: Terra Nord (napredna)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Posljednje uporište: Terra Nord (brutalna)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Težina"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Regularna"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Napredni"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Brutalna"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Podaci"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Cilj ostvaren!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Ciljevi ostvareni!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Vozilo"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Valovi završeni: %(curPhase)s od %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Utrošeno %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Financijska transakcija"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Možete odabrati razinu težine na ploči težine u garaži Posljednjeg uporišta."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Napredna težina otključana"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Možete odabrati razinu težine na ploči težine u garaži Posljednjeg uporišta."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Brutalna težina otključana"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Možete odabrati režim na ploči težine u Garaži Posljednje uporište: Operacija Pandora."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Režim Posljednje uporište otključan"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Primljeno Ključeva dešifriranja: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Potvrda"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Uklonjeno Ključeva: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Dešifriranje uspješno"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Bitke Posljednjeg uporišta su privremeno nedostupne.\nPokušajte ponovo kasnije."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Bitke %(difficulty)s razine su privremeno nedostupne. Pokušajte ponovo kasnije."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Posljednje uporište je privremeno nedostupno. Provjerite portal igre za ažuriranja."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Zapovjednik voda je promjenio težinu na: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Igrač %(userName)s nije otključao jednu od razina težine."

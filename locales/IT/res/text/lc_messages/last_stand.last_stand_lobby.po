@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Combatti comunque"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Equipaggia!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Dispositivi tattici incompleti"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "Al veicolo che hai selezionato manca uno o più Dispositivi tattici. Questo potrebbe limitare significativamente le tue prestazioni di battaglia. Vuoi entrare comunque in battaglia?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Puoi personalizzare i tasti di scelta rapida predefiniti dell'evento per proiettili e Dispositivi tattici.\nQuesta modifica si applica solo alle battaglie dell'evento e non influenzerà altre modalità di gioco.\nPuoi comunque modificare i singoli tasti rapidi da Menu — Impostazioni — Controlli (sotto Consumabili)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Modifica tasti di scelta rapida predefiniti dei consumabili"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Completa questa missione per ricevere un distintivo unico \"Ultima resistenza: operazione Pandora\":"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Missione onorificenza epica"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Quando ricercato, riduce il {EDCB9E_Start}costo in Mirium{EDCB9E_End} di tutti i Dispositivi tattici del {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Efficienza del Mirium"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Quando ricercato, aumenta la {EDCB9E_Start}durata dell'effetto dei Dispositivi tattici{EDCB9E_End} del {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Durata dell'effetto dei dispositivi"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Quando ricercato, aumenta il {EDCB9E_Start}raggio d'effetto dei Dispositivi tattici{EDCB9E_End} del {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Raggio d'effetto dei dispositivi"
+
+msgid "booster/booster_heal/description"
+msgstr "Quando ricercato, aumenta gli {EDCB9E_Start}effetti curativi{EDCB9E_End} applicati al veicolo del {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Effetti curativi"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Quando ricercato, aumenta l'ammontare di {EDCB9E_Start}danno trasmesso dagli Obelischi{EDCB9E_End} ai veicoli nemici del {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Danno trasmesso dagli Obelischi"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Quando ricercato, aumenta il {EDCB9E_Start}raggio di raccolta del Mirium{EDCB9E_End} dai nemici del {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Raggio di raccolta del Mirium"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Quando ricercato, aumenta la {EDCB9E_Start}quantità di Mirium raccolto{EDCB9E_End} dai veicoli distrutti del {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Raccolta del Mirium"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Quando ricercato, aumenta la {EDCB9E_Start}quantità di Mirium{EDCB9E_End} garantita per la distruzione di un'ondata del {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Mirium per ondata"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Quando ricercato, aumenta la {EDCB9E_Start}quantità di Mirium{EDCB9E_End} recuperato al momento del rischieramento del {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Mirium al rischieramento"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Quando ricercato, aumenta la {EDCB9E_Start}capienza massima di Mirium del veicolo{EDCB9E_End} del {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Capienza di Mirium"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "PACCHETTO DIFENSORE"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Chiavi acquistate"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "La possibilità di guadagnare Exp ×5, a partire dalla seconda vittoria del giorno con qualsiasi veicolo."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Missione Exp ×5 ottenuta in battaglia"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Configura la visualizzazione dei veicoli per tipo, nazionalità e altri parametri."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Filtra per parametri"
+
+msgid "common/back"
+msgstr "INDIETRO"
+
+msgid "common/close"
+msgstr "CHIUDI"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "ALL'EVENTO"
+
+msgid "common/toRewardPath"
+msgstr "ALLA PROGRESSIONE"
+
+msgid "common/yes"
+msgstr "Affermativo!"
+
+msgid "difficult/daily"
+msgstr "MISSIONE GIORNALIERA PER CHIAVI SBLOCCATA"
+
+msgid "difficult/disabled/body"
+msgstr "Sei in un Plotone. Solo il Comandante può cambiare il livello di difficoltà."
+
+msgid "difficult/disabled/header"
+msgstr "Modifica della difficoltà non disponibile"
+
+msgid "difficult/level_1"
+msgstr "Regolare"
+
+msgid "difficult/level_2"
+msgstr "Avanzata"
+
+msgid "difficult/level_3"
+msgstr "Brutale"
+
+msgid "difficult/new"
+msgstr "NOVITÀ"
+
+msgid "difficult/searching/body"
+msgstr "Impossibile durante la ricerca."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "I nemici hanno un'integrità inferiore e una corazzatura più debole. Ammontare standard di Dati per battaglia."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "I nemici hanno una corazzatura più robusta. I Dati per battaglia sono aumentati del {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Ci sono più nemici con una corazzatura più robusta. I Dati per battaglia sono aumentati del {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Ricompense per aver distrutto l'ultima ondata per la prima volta:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Difficoltà Regolare"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Difficoltà Avanzata"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Difficoltà Brutale"
+
+msgid "difficult/tooltip/locked"
+msgstr "Difficoltà bloccata"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Per sbloccare questo livello di difficoltà, completa la difficoltà Regolare."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Per sbloccare questo livello di difficoltà, completa la difficoltà Avanzata."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Difficoltà disponibile"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Difficoltà selezionata"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Ondate distrutte: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "REGOLARE"
+
+msgid "difficult/uppercase/level_2"
+msgstr "AVANZATA"
+
+msgid "difficult/uppercase/level_3"
+msgstr "BRUTALE"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "I nemici hanno una corazzatura più robusta. Più crediti e Dati ×{{modifier}} per battaglia."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Più nemici con una corazzatura più robusta. Più crediti e Dati ×{{modifier}} per battaglia."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Combatti e sconfiggi ondate di nemici, e mostra la tua abilità raggiungendo la cima della Classifica. Ti aspettano ricompense uniche e molto altro."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "LIVELLO DI DIFFICOLTÀ AVANZATA"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "LIVELLO DI DIFFICOLTÀ BRUTALE"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "MODALITÀ ULTIMA RESISTENZA"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "AVANZATA"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "BRUTALE"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "\"ULTIMA RESISTENZA\""
+
+msgid "difficultyWindow/rewards"
+msgstr "Ricompense per il completamento:"
+
+msgid "difficultyWindow/title"
+msgstr "DISPONIBILE"
+
+msgid "hangar/exit"
+msgstr "LASCIA EVENTO"
+
+msgid "hangar/narration"
+msgstr "Storia"
+
+msgid "hangar/tooltip/about"
+msgstr "Scopri di più sull'evento Ultima resistenza: Terra del Nord."
+
+msgid "hangar/tooltip/narration"
+msgstr "Scopri di più sulla storia dell'evento."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "DISPOSITIVI TATTICI"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "CARICO"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Ultima resistenza"
+
+msgid "iconButton/comparison/default"
+msgstr "Confronto veicoli"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Confronto tra veicoli non disponibile"
+
+msgid "iconButton/preview/default"
+msgstr "Anteprima veicolo"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Anteprima veicolo non disponibile"
+
+msgid "keyCard/name"
+msgstr "Chiavi di decodifica"
+
+msgid "meta/btn/decrypt"
+msgstr "DECODIFICA"
+
+msgid "meta/btn/skip"
+msgstr "SALTA"
+
+msgid "meta/btn/view"
+msgstr "MOSTRA"
+
+msgid "meta/receive/description"
+msgstr "Raccogli %(keys) / %(decrypt) %(icon) \nper decodificare questa Registrazione"
+
+msgid "metaIntro/description/fight"
+msgstr "Combatti nelle battaglie dell'evento e ottieni Dati per avanzare nella progressione."
+
+msgid "metaIntro/description/progress"
+msgstr "Ottieni Dati per ricercare potenziamenti per i veicoli e affrontare sfide più grandi."
+
+msgid "metaIntro/description/reward"
+msgstr "Completa le Fasi della progressione per ricevere le ricompense speciali dell'evento. Vedi il percorso delle ricompense per ulteriori dettagli."
+
+msgid "metaIntro/header/fight"
+msgstr "Battaglie dell'evento"
+
+msgid "metaIntro/header/progress"
+msgstr "Potenziamenti"
+
+msgid "metaIntro/header/reward"
+msgstr "Ricompense uniche"
+
+msgid "metaIntro/title"
+msgstr "PROGRESSIONE"
+
+msgid "missionWidget/complete"
+msgstr "Missione completata.\nTorna domani."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Completa la missione giornaliera attuale che è disponibile ogni 24 ore per ricevere la ricompensa. Missione di oggi:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Missione giornaliera"
+
+msgid "narration/actions/voiceover"
+msgstr "Doppiaggio"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}TOP SECRET{{/}}{{titleParagraph}}{{@ class $highlightText}}SETTORE: N-07 (Perimetro \"Aurora\"){{/}}{{pargraphStart}}Le nostre previsioni erano corrette. Gli osservatori della stazione hanno registrato l'avvicinamento dell'anomalia 11 giorni prima dell'evento. Per la prima volta, siamo riusciti a prevederla.{{pargraphStart}}Durante la calma prima della tempesta la produzione di complessi ATLAS è stata standardizzata. I nuovi moduli vengono assemblati più rapidamente e calibrati con maggiore precisione. Ci siamo esercitati, ci siamo formati e abbiamo preparato delle squadre di riserva. Allerta massima.{{pargraphStart}}Ma l'anomalia ha i suoi piani.{{pargraphStart}}La Voragine non si è aperta nel settore previsto. È apparsa qui, in una remota regione del nord, lontana dalle infrastrutture esistenti. Non è chiaro perché abbia scelto questa località. Niente nei modelli indicava quest'area. Il rischieramento di emergenza è stato avviato immediatamente, ma il territorio e la distanza non giocano a nostro favore. Alcuni veicoli e alcune squadre arriveranno tardi.{{pargraphStart}}Ogni complesso ATLAS che siamo riusciti a realizzare è ora indispensabile{{pargraphStart}}Questa volta siamo pronti a combattere. Ma a combattere in un luogo diverso.{{pargraphStart}}FIRMATO: CURATORE (PROGETTO M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Promemoria analitico 27/C \"SCELTA DEL LUOGO DI INVASIONE\"{{/}}{{titleParagraph}}Per uso interno. Timbro \"Consultazione limitata\".{{pargraphStart}}C'è una domanda a cui sono obbligato a rispondere, ma per la quale non trovo alcuna risposta: perché proprio qui?{{pargraphStart}}Questa regione non ha valore strategico per la Voragine. Qui non c'è niente. Nessuna infrastruttura, nessun insediamento. Solo una base militare non operativa su un'isola. I carri eco non possono attraversare il mare. Perciò, perché catturare un luogo da cui non possono attaccare? {{pargraphStart}}Ho richiesto la storia operativa completa di questo luogo. La risposta è stata pesantemente censurata. Intere sezioni sono state cancellate. A una seconda richiesta hanno risposto con la nota \"accesso limitato su ordine di {{@ class $highlightSecondaryText}}[INFORMAZIONE RIMOSSA]{{/}}\". Io, il capo del dipartimento di ricerca le cui raccomandazioni determinano la strategia difensiva di questo settore, non posso consultare le informazioni su questo territorio!{{pargraphStart}}Ecco cosa posso dedurre dai dati raccolti sul campo: il comportamento della Voragine non corrisponde a quanto abbiamo osservato nel settore R-22. Sono comparsi nuovi tipi di carri eco che non abbiamo mai incontrato prima. Corrispondono, come funzione, ai nostri cacciacarri a lungo raggio e sono estremamente efficaci in questo tipo di territorio. Gli avversari hanno imparato dalle nostre tattiche e hanno preso delle contromisure. Ora è il nostro turno di adattarci.{{pargraphStart}}Potrebbe essere che abbia bisogno di questo luogo. Oppure di ciò che nasconde sotto.{{pargraphStart}}Non lo so. E mi preoccupa il fatto che qualcuno lo sappia, ma non voglia dirlo.{{pargraphStart}}FIRMATO: CURATORE (PROGETTO M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}REGISTRO PERSONALE DEL CURATORE{{/}}{{pargraphStart}}Ho analizzato nuovamente le mie ipotesi. Tutte e tre.{{pargraphStart}}  1. L'anomalia cerca di distruggerci. {{pargraphStart}}  2. L'anomalia sta sperimentando. Studia le nostre tattiche, analizza le nostre risposte, si adatta e impara.{{pargraphStart}}  3. L'anomalia si sta addestrando. Ogni ondata rappresenta l'esercitazione di nuove tattiche e ogni battaglia è un addestramento sul campo.{{pargraphStart}}Tutte e tre le ipotesi condividono il presupposto che siamo il bersaglio di questa invasione.{{pargraphStart}}Ma se così non fosse?{{pargraphStart}}E se l'anomalia avesse un altro scopo e noi ci trovassimo semplicemente sulla sua strada? Come un formicaio che viene distrutto mentre si costruisce una strada. Il costruttore non dichiara guerra alle formiche. Semplicemente non le nota.{{pargraphStart}}Puoi fermare un nemico che vuole distruggerti. Ci puoi negoziare. Ma non puoi spaventare qualcosa che non nota neppure la tua esistenza. Non puoi batterlo in astuzia. Non puoi fermarlo. Perché non hai mai fatto parte dei suoi calcoli.{{pargraphStart}}Credo che ci siamo posti la domanda sbagliata. Non ci dovremmo chiedere perché ci sta attaccando, ma se è conscia della nostra esistenza.{{pargraphStart}} FIRMATO: CURATORE (PROGETTO M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}RAPPORTO FINALE{{/}}{{titleParagraph}}{{@ class $highlightText}}STATO: DECLASSIFICATO (PARZIALMENTE){{/}}{{pargraphStart}}Alle 03:47 la Voragine è collassata. L'anomalia ha interrotto ogni attività. Il settore è pulito.{{pargraphStart}}Negli ultimi secondi prima del collasso, i rilevatori ATLAS hanno registrato un picco di energia che ha superato ogni valore precedentemente reigstrato. Gli equipaggi hanno osservato una manifestazione fisica di breve durata, meno di 12 secondi, al centro dell'anomalia. Dopodiché, la Voragine si è chiusa. {{pargraphStart}}Annuncio ufficiale: l'incidente è terminato. Il territorio è stato difeso con successo. La quarantena sul settore è stata revocata.{{pargraphStart}}{{@ class $highlightText}}NOTA PERSONALE DEL CURATORE (solo per riserve speciali){{/}}{{pargraphStart}}Non abbiamo vinto. È finita.{{pargraphStart}}Non si è trattato di un'invasione. Era una copertura. Un perimetro protettivo attorno a ciò che si è manifestato nella Voragine pochi secondi prima del collasso.{{pargraphStart}}Sono comparsi contemporaneamente dozzine di Obelischi. Non sappiamo cosa stessero facendo. L'ATLAS ha registrato tutti i parametri, ma ci vorrà del tempo per interpretarli. Abbiamo solo una certezza: l'anomalia ha completato una sorta di processo.{{pargraphStart}}Qualunque cosa stesse facendo, ci dobbiamo preparare al prossimo attacco. Adesso abbiamo sufficienti dati. I nostri ingegneri stanno già esaminando le registrazioni e, a dire il vero, non li ho mai visti così emozionati. Ritengono di poter potenziare considerevolmente i nostri veicoli. Dobbiamo farlo prima della ricomparsa della Voragine. {{pargraphStart}}Non riesco a smettere di pensare a una cosa: tutto ciò che è successo qui per così poco tempo, quante volte è già successo in passato? In posti in cui non c'era l'ATLAS e in cui nessuno lo potesse notare...{{pargraphStart}}FIRMATO: CURATORE (PROGETTO M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Eravamo pronti"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Perché qui?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. La domanda sbagliata"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. È finita"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Completa il livello di difficoltà Regolare per procedere alla successiva parte della Storia."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Completa il livello di difficoltà Avanzata per procedere alla successiva parte della Storia."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Completa il livello di difficoltà Brutale per procedere alla successiva parte della Storia."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Storia successiva"
+
+msgid "preBattle/leave"
+msgstr "Esci dalla battaglia"
+
+msgid "preBattle/searching"
+msgstr "IN CERCA DI ALLEATI..."
+
+msgid "preBattle/tip"
+msgstr "Ci vuole troppo tempo a trovare una Forza operativa? Prova a cambiare il livello di difficoltà."
+
+msgid "preBattle/uppercase/leave"
+msgstr "ESCI DALLA BATTAGLIA"
+
+msgid "promoWindow/header"
+msgstr "GIOCA A ULTIMA RESISTENZA"
+
+msgid "promoWindow/subheader"
+msgstr "Dal {dateRange}, scopri un nuovo capitolo della modalità di gioco PvE Ultima resistenza.\nOttieni un set di {cream_open}accessori 3D{cream_close} a tema, equipaggiamenti sperimentali e altre ricompense esclusive."
+
+msgid "questCard/allCompleted"
+msgstr "Tutte le missioni giornaliere sono state completate"
+
+msgid "questCard/completed"
+msgstr "Missione giornaliera completata.\nTorna domani."
+
+msgid "reward/rest"
+msgstr "E ulteriori %(count)s"
+
+msgid "rewardPath/about"
+msgstr "INFORMAZIONI SUGLI OBIETTIVI"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Scopri di più sulla progressione dell'evento."
+
+msgid "rewardPath/boostTitle"
+msgstr "Accelera i tuoi progressi e ottieni più Dati {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Vedi nella Fabbrica"
+
+msgid "rewardPath/completed"
+msgstr "Dati e ricompense ricevuti"
+
+msgid "rewardPath/completedTitle"
+msgstr "Visita la Fabbrica per esclusivi elementi di personalizzazione a tema"
+
+msgid "rewardPath/intro"
+msgstr "INTRODUZIONE"
+
+msgid "rewardPath/introTooltip"
+msgstr "Guarda il video introduttivo."
+
+msgid "rewardPath/progress"
+msgstr "Dati ricevuti alla FASE {artefactIndex}: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "PROGRESSIONE"
+
+msgid "rewardPathCard/completed"
+msgstr "Completata"
+
+msgid "rewardPathCard/name"
+msgstr "Percorso delle ricompense"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Pacchetti dell'evento"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Annulla"
+
+msgid "squad/goToAnother/message"
+msgstr "Il Plotone verrà congedato."
+
+msgid "squad/goToAnother/submit"
+msgstr "Abbandona"
+
+msgid "squad/goToAnother/title"
+msgstr "Abbandonare l'evento Ultima resistenza: Terra del Nord?"
+
+msgid "squad/leave/cancel"
+msgstr "Annulla"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Il Plotone verrà congedato."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Affermativo!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "L'evento Ultima resistenza: Terra del Nord è terminato"
+
+msgid "squad/leave/message"
+msgstr "Il Plotone verrà congedato."
+
+msgid "squad/leave/submit"
+msgstr "Abbandona"
+
+msgid "squad/leave/title"
+msgstr "Abbandonare il Plotone di Ultima resistenza: Terra del Nord?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Continua"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Sei nel Plotone e sei pronto per la battaglia."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Non puoi abbandonare il Plotone!"
+
+msgid "stageReward/rewards/received"
+msgstr "Ricevuto anche:"
+
+msgid "stageReward/special/header"
+msgstr "LIVELLO DI DIFFICOLTÀ BRUTALE COMPLETATO!"
+
+msgid "stageReward/special/subheader"
+msgstr "Ricompensa speciale ricevuta"
+
+msgid "stageReward/stage/header"
+msgstr "RICOMPENSE RICEVUTE"
+
+msgid "stageReward/stage/subheader"
+msgstr "Ultima resistenza: Fase {{number}} completata"
+
+msgid "stageReward/stageFinal/header"
+msgstr "TUTTE LE RICOMPENSE RICEVUTE"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Ultima resistenza: Fase finale completata"

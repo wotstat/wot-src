@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "main/backText"
+msgstr "NA DETALJE KLANA"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "Za izvršenje zadataka osvajate bodove Roka koji su vam potrebni za istraživanje novih regija."
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "Bodovi Roka"
+
+msgid "main/infoPageButtonLabel"
+msgstr "O VOJNOM ROKU"
+
+msgid "main/mdash"
+msgstr "—"
+
+msgid "messages/claimRewards/error"
+msgstr "Akcija je privremeno nedostupna. Pokušajte ponovo kasnije."
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "Obnovi"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "Ispričavamo se zbog privremenih poteškoća."
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "Greška u učitavanju podataka"
+
+msgid "progressionPage/header/heading"
+msgstr "VOJNI ROK"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "VOJNI ROK JE ZAVRŠIO"
+
+msgid "progressionPage/header/subheading"
+msgstr "Osvajajte bodove Roka izvršenjem klanskih zadataka. Bodovi Roka se koriste za istraživanje novih regija i primitak vrijednih nagrada. Na kraju Roka možete dobiti vozilo razine X."
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "Vozilo %(vehicle)s primljeno"
+
+msgid "progressionPage/loading"
+msgstr "Učitavanje sadržaja..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "Istražite prethodno povezane regije."
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "Regija je već istražena"
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "Zarađena nagrada:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "Istražite prethodno povezane regije."
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "Regiju nije moguće istražiti"
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "Greška u učitavanju podataka"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "Istražite regiju"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "Potrebno je još %(value)s bodova Roka za istraživanje regije."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "Regiju nije moguće istražiti"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "Istražite prethodno povezane regije."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "Regiju nije moguće istražiti"
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "Zatraži nagradu"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "Učitavanje sadržaja..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "Čekanje na dodavanje nagrada..."
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "Obnovi"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "NAGRADA ZA ISTRAŽIVANJE REGIJE:"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "NAGRADA PRIMLJENA:"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "Pregled"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "Obnovi"
+
+msgid "questsPage/errorScreen/description"
+msgstr "Ispričavamo se zbog privremenih poteškoća."
+
+msgid "questsPage/errorScreen/heading"
+msgstr "Greška u učitavanju podataka"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "Zatraži nagradu"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "Na auto pretragu klana"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "Pridružite se klanu za izvršenje zadataka i primitak nagrada."
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "Napredovanje zadatka je pauzirano. Zatražite svoju nagradu za nastavak: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "ZADACI ROKA"
+
+msgid "questsPage/header/subheading"
+msgstr "Izvršite zadatke i osvojite nagrade. Drugi i treći zadatak se može izvršiti samo u vodu/odredu s kolegom iz klana."
+
+msgid "questsPage/loading"
+msgstr "Učitavanje sadržaja..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "U vozilima razine VIII-XI osvojite najmanje {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} osnovnog iskustva u bitci igrajući u vodu ili pobjedite u bitci u odredu."
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "Boreći se u vozilima razine VI-XI osvojite najmanje {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} osnovnog iskustva u bitci ili pobjedite u bitci u odredu."
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "U vozilima razine VIII-XI uništite najmanje {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} vozila u bitci igrajući u vodu ili pobjedite u bitci u odredu."
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "Boreći se u vozilima razine VI-XI, uništite {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} neprijateljskih vozila u bitci ili pobjedite u bitci u odredu."
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "U vozilima razine VIII-XI nanesite ili pomognite nanijeti {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} HP štete u bitci igrajući u vodu ili pobjedite u bitci u odredu."
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "U vozilima razine VI-XI nanesite ili pomognite nanijeti {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} HP štete u bitci ili pobjedite u odredu."
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "Industrijski resursi"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "Bodovi Roka"
+
+msgid "questsPage/questCard/status/available"
+msgstr "Možete zatražiti nagradu"
+
+msgid "questsPage/questCard/status/completed"
+msgstr "Nagrada primljena"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "Nedostupno"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "Nagrada će uskoro biti dodana na vaš račun."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "Zatražite nagrade za izvršenje prethodnih zadataka."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "Izvrši prethodni zadatak."
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "Zadatak nedostupan"
+
+msgid "questsPage/timer/dash"
+msgstr "—"
+
+msgid "questsPage/timer/heading"
+msgstr "Preostalo vrijeme za skupljanje bodova Roka"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "Za izvršenje zadataka osvajate bodove Roka koji su vam potrebni za istraživanje novih regija."
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "Bodovi Roka"
+
+msgid "rewardsView/additionalRewards"
+msgstr "Također ste dobili:"
+
+msgid "rewardsView/button/close"
+msgstr "ZATVORI"
+
+msgid "rewardsView/button/confirm"
+msgstr "Razumijem!"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "Pregledaj u Garaži"
+
+msgid "rewardsView/heading"
+msgstr "PRIMLJENE NAGRADE"
+
+msgid "rewardsView/style/317"
+msgstr "2D stil Plamen"
+
+msgid "rewardsView/style/345"
+msgstr "2D sti Proročanstvo"
+
+msgid "rewardsView/style/435"
+msgstr "2D stil Odmazda"
+
+msgid "rewardsView/style/436"
+msgstr "2D stil Žeteoc"
+
+msgid "rewardsView/subheading"
+msgstr "VOJNI ROK"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Napredovanje Vojnog roka"
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "Napredovanje zadataka Roka"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Vojni rok"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "Zadaci Roka"

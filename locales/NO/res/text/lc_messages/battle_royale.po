@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Det er våpenhvile på alle tilgjengelige servere."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "Det er våpenhvile på denne serveren."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Endre server"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Steel Hunter er avsluttet"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Modus er ikke tilgjengelig på denne serveren"
+
+msgid "banner/info/disabled"
+msgstr "Våpenhvile"
+
+msgid "banner/info/seasonActive"
+msgstr "Andre sjanse og belønninger"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "Frem til %(day)s. %(month)s"
+
+msgid "banner/subtitle"
+msgstr "Battle royale med verdifulle belønninger"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s t"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s t %(minutes)s min"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s min"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "STEEL HUNTER"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Kampen fortsetter fra en ny posisjon."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Du blir gjenfødt snarlig"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Gjenfødelsen pågår"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Det blir ikke flere gjenfødelser."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Gjenfødelse er ikke lenger mulig"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Gjenfødelse blir snart utilgjengelig!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Vær mer forsiktig denne gang."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Ditt kjøretøy er klar for kamp!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Tilbakekomst til kamp"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Det blir aktive kamphandlinger straks."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Gjenfødelse er ikke tilgjengelig"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Finn et gjenfødelsesoppladingspunkt for å få kjøretøyet tilbake i kampen."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Alliert kjøretøy bekjempet"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Gjenfødelsen pågår"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "To kjøretøy er bedre enn ett!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Alliert kjøretøy gjenfødt"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Ikke delta i kamphandlinger!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Gjenføder en alliert"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Bonus aktivert!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Belønning for førsteplass"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Samlet i kamp"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "SEIER"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Kapittel ikke valgt. Ubrukte Battle Pass poeng: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Alle kapitlene fullført. Fortsett å spille og akkumulere Battle Pass poeng."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Gå til Battle Pass"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Battle Pass"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Velg et kapittel"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Gå til fremgangen i det aktive kapittelet"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Gå til Battle Pass"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Oppdrag fullført per kamp: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Oppdrag"
+
+msgid "battleResult/battleReward/title"
+msgstr "MOTTATT FOR KAMP"
+
+msgid "battleResult/button/hangar"
+msgstr "Til garasjen"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Poeng og belønninger deles ut etter at alle spillerne avslutter denne kampen. Oppdrag vil også bli evaluert basert på kampresultater."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Trykk på %(esc) for å droppe animering"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Invitér til tropp"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Alliert"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Tilfeldig alliert"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Type kamp"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "SOLOKAMP"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "med WoT premium konto kunne du fått:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Totalverdier med WoT premium konto"
+
+msgid "battleResult/progressStage"
+msgstr "Fremgang på trinn {stage}"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Spillerens faktiske spillernavn og klanmerke vises ikke til andre spillere i kampen."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Spillerens egentlige spillernavn: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Spillernavnet ble endret til {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Mengde skade blokkert av ditt kjøretøys pansring."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Mengde skade forårsaket av deg."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Antall fiendtlige kjøretøy bekjempet av deg."
+
+msgid "battleResult/stats/body/place"
+msgstr "Din plassering basert på resultatet av kampen."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Antall fiendtlige kjøretøy bekjempet av din tropp."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Blokkert skade"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Forårsaket skade"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Bekjempet av deg"
+
+msgid "battleResult/stats/header/place"
+msgstr "Posisjon"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Bekjempet av tropp"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Blokkert skade"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Forårsaket skade"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Bekjempet av deg"
+
+msgid "battleResult/stats/title/place"
+msgstr "Posisjon"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Bekjempet av tropp"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Resultatliste"
+
+msgid "battleResult/tab/result"
+msgstr "Kampresultater"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "EGEN TROPP BEKJEMPET"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "EGET KJØRETØY BEKJEMPET"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "SEIER"
+
+msgid "battleResult/title/victoryOther"
+msgstr "ÆRESPLASS"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Velg et av spesialkjøretøyene til Steel Hunter."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Inkompatibelt kjøretøy"
+
+msgid "button/modules"
+msgstr "UTVIKLINGSTRE"
+
+msgid "button/repair"
+msgstr "Reparér"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Kamper er midlertidig utilgjengelig"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Kamper er midlertidig utilgjengelig"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Modus ikke tilgjengelig"
+
+msgid "ceasefire/header/schedule"
+msgstr "Kampprogram"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Våpenhvile er iverksatt på alle tilgjengelige servere. Du kan se timeplanen nedenfor."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "Våpenhvile er gjeldende på denne serveren. Du kan bytte til en annen server for å få tilgang til modusen."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Steel Hunter er ikke tilgjengelig på denne serveren. Du kan bytte til en annen server for å få tilgang til modusen."
+
+msgid "commanderInfo/commonRank"
+msgstr "Kommandør"
+
+msgid "commanderInfo/description/china"
+msgstr "\"Jeg har allerede vunnet. Du kommer til å innse det snart.\""
+
+msgid "commanderInfo/description/france"
+msgstr "\"Jeg er loven!\""
+
+msgid "commanderInfo/description/germany"
+msgstr "\"I dag er en strålende dag som vil gå inn i historiebøkene.\""
+
+msgid "commanderInfo/description/poland"
+msgstr "\"Det er ikke tid til gode manerer.\""
+
+msgid "commanderInfo/description/sweden"
+msgstr "\"Alt går som planlagt.\""
+
+msgid "commanderInfo/description/uk"
+msgstr "\"Uansett hva du er, vær ditt beste.\""
+
+msgid "commanderInfo/description/usa"
+msgstr "\"Stridøksa er gravd opp, polert og slipt.\""
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"Vinneren tar alt!\""
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Fordeler"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nSpesialkjøretøy til Steel Hunter"
+
+msgid "fragPanel/squadsCount"
+msgstr "Tropper: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Resultatliste"
+
+msgid "hangarResults/btns/summary"
+msgstr "Kampresultater"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "LUKK"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Moduler kan kun oppgraderes i kamp. For å åpne oppgraderingsmenyen, trykk %(key)s mens du er i kampen."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s og %(highlight2)s for å få erfaringspoeng. Hvert nye nådde nivå gir spilleren en moduloppgradering fra oppgraderingsmenyen og forbedrer kjøretøyets karakteristika betydelig."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Forårsak skade på fiendtlige kjøretøy"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "samle krigsbytter på kartet"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Kjøretøyoppgraderinger i kamp"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Du går til kamp med et kjøretøy på nivå 1."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Moduler kan oppgraderes fra både oppgraderingsmenyen i kampen (standardtast %(treeKey)s) og ved å trykke tastekombinasjonen %(leftModuleKey)s og %(rightModuleKey)s.\n\nModuler er kun tilgjengelig for oppgradering i kamp."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "I kamp:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Din Steel Hunter får erfaringspoeng i kamper ved å forårsake skade og samle krigsbytter. Så snart den påkrevde mengde erfaringspoeng er akkumulert, kan kjøretøyet nå det neste nivået og gir mulighet til å velge oppgradering av en av modulene."
+
+msgid "levelUp/severalTitles"
+msgstr "MOTTATTE NIVÅER: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "NIVÅ %(level)s MOTTATT!"
+
+msgid "levelUp/twoTitles"
+msgstr "MOTTATTE NIVÅER: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Fullfør oppdrag og få verdifulle belønninger."
+
+msgid "level_up/max_level_info/title"
+msgstr "Nye daglige oppdrag tilgjengelige"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Sesongen\nbegynner snart"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Sesongen begynner %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Blokkért"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Skade"
+
+msgid "playerStats/killsStat/name"
+msgstr "Bekjempet"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Bekjempet"
+
+msgid "playerStats/placeStat/name"
+msgstr "Posisjon"
+
+msgid "playerStats/title"
+msgstr "Personlige poeng"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Radiooppdagelser ikke tilgjengelig: Holder på å gjøre klart"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Kjøretøyet er helt operativt. Ikke behov for gjenopprettelse."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Slagmarksrobot bekjempet"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s bekjempet %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s bekjempet fienden %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Ildkule bekjempet"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Minene ble deaktivert"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Miner lagt ut"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Radiooppdagelse er klar til bruk"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Kjøretøyet har nådd høyeste nivå"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Nivå %(level)s nådd"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Montert: %(moduleType)s. Oppgradert: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Skrog"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Oppheng"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Motor"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Kanon"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Radiooppdagelse"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Tårn"
+
+msgid "playersPanel/title"
+msgstr "LAG"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Veksle mellom troppskjøretøy."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Tilskuermodus"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Tilbake til garasjen.\nGå i kamp med et annet kjøretøy."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Tilbake til garasjen"
+
+msgid "preBattle/buttonTitle"
+msgstr "KAMP!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Velg et kart"
+
+msgid "preBattle/listTitle"
+msgstr "SPILLERE SOM ER KLARE"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Dreamland"
+
+msgid "preBattle/mapRandom"
+msgstr "Tilfeldig kart"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "TROPPSKJØRETØY"
+
+msgid "preBattle/title"
+msgstr "BIG HUNT"
+
+msgid "preBattle/userFooterTitle"
+msgstr "VALGTE KJØRETØY"
+
+msgid "preBattle/userNotReady"
+msgstr "Ikke klar"
+
+msgid "preBattle/userReady"
+msgstr "Klar"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "%(cycleNo)s. sesong på %(server)s serveren er ferdig"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "Sesongen på %(server)s serveren er ferdig."
+
+msgid "proxyPanel/button"
+msgstr "Butikk"
+
+msgid "proxyPanel/label"
+msgstr "Stål\nsegl"
+
+msgid "proxyPanel/store"
+msgstr "BUTIKK"
+
+msgid "questsTooltip/timeLeft"
+msgstr "Sesongen slutter om %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "Ingen nøkkel er tildelt radiooppdagelse"
+
+msgid "radar/hint/press"
+msgstr "Trykk"
+
+msgid "radar/hint/text"
+msgstr "for å aktivere radiooppdagelse"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Land"
+
+msgid "selectRespawn/button/land"
+msgstr "Land"
+
+msgid "selectRespawn/description"
+msgstr "Klikk på ett av de foreslåtte punktene. Hvis ingen velges, vil ett av de foreslåtte punktene bli valgt for deg."
+
+msgid "selectRespawn/header"
+msgstr "Velg et landingspunkt"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Klikk på ett av de foreslåtte punktene. Hvis ingen velges, vil ett av de foreslåtte punktene bli valgt for deg."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Din kamp begynner her"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Velg et landingspunkt"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "GÅ BERSERK!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Syre korroderer pansringen!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Sonen er stengt! Forlat sonen ellers vil ditt kjøretøy bli bekjempet!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "Sonen blir rød snart"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Mobilitet redusert!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Tilbake på sporet..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Gjenoppretter helsepoeng"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Gjenoppretter helsepoeng"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Konverterer skade"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Tekniske karakteristika forbedret"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Granater og gjenopprettelse"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Luftslipp"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Reparasjonssett og evneladning"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Krigsbytte"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Kombinerte krigsbytter: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Samler: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Reparasjonssone"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Sugende inderlighet!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "I røyk"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Pansringen vår korroderer!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Mobilitet redusert!"
+
+msgid "techParams/type/damage"
+msgstr "Skade"
+
+msgid "techParams/type/difficulty"
+msgstr "Vanskelighetsgrad"
+
+msgid "techParams/type/mobility"
+msgstr "Mobilitet"
+
+msgid "techParams/type/spotting"
+msgstr "Oppdagelse"
+
+msgid "techParams/type/survivability"
+msgstr "Overlevelsesevne"
+
+msgid "techtree/body_armor"
+msgstr "Pansring"
+
+msgid "techtree/body_health"
+msgstr "Helsepoeng"
+
+msgid "techtree/body_mobility"
+msgstr "Mobilitet"
+
+msgid "techtree/engine_acceleration"
+msgstr "Dynamikk"
+
+msgid "techtree/engine_speed"
+msgstr "Toppfart"
+
+msgid "techtree/gun_alpha"
+msgstr "Skade per skudd"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Autolader"
+
+msgid "techtree/gun_clip"
+msgstr "Magasinlader"
+
+msgid "techtree/gun_dpm"
+msgstr "Ladehastighet"
+
+msgid "techtree/gun_dualgun"
+msgstr "Dobbel kanon"
+
+msgid "techtree/gun_he"
+msgstr "HE-granat skade"
+
+msgid "techtree/gun_machinegun"
+msgstr "Antitanks maskingevær"
+
+msgid "techtree/gun_piercing"
+msgstr "Penetrasjon"
+
+msgid "techtree/radar_cooldown"
+msgstr "Radiooppdagelse nedkjøling"
+
+msgid "techtree/radar_distance"
+msgstr "Oppdagelsesrekkevidde"
+
+msgid "techtree/turret_armor"
+msgstr "Pansring"
+
+msgid "techtree/turret_health"
+msgstr "Helsepoeng"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Rotasjonshastighet"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "Opp til {{credits}} credits"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "Opp til {{experience}} erfaringspoeng"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Tropp kampbonus"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Kjemp i en tropp med en tilfeldig alliert. Spill som lag mot ni fiendtlige tropper. Troppsoppdrag kan fullføres i denne modusen. Troppen blir automatisk oppløst etter kampen."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Klassisk Steel Hunter. Hver spiller kjemper for seg selv. Samle ressurser, oppgrader kjøretøyet ditt og bruk dens unike evner til å bli den siste gjenværende på slagmarken!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Kjemp i en tropp sammen med en venn. Spill som et lag mot ni fiendtlige tropper. Troppsoppdrag kan fullføres i denne modusen."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Tilfeldig tropp"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Solomodus"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Tropp med venn"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Solo"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Tropp"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Regler for tjening av poeng"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s. plass"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s. plasser"
+
+msgid "tooltips/awards/achievement"
+msgstr "Medalje"
+
+msgid "tooltips/awards/badge"
+msgstr "Merke"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "Gjør at du kan komme deg tilbake til kamp etter at kjøretøyet ditt har blitt bekjempet. Når det skjer blir ikke kjøretøyets oppgraderingsnivå tapt. Det kan kun benyttes et begrenset antall ganger per kamp."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Gjenfødelsesladninger kan fås fra et luftslipp."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "For å gjenføde en alliert, ikke delta i kamphandlinger i {brown_Open}%(timeToResurrect)s{brown_Close}. Denne mekanismen fungerer de første {brown_Open}%(duration)s min{brown_Close} av en kamp. Gjenfødelsesladninger deles mellom troppsmedlemmene."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "Når du spiller i en tropp"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Så snart du blir bekjempet, gjenfødes kjøretøyet ditt automatisk. Denne mekanismen fungerer i de første {brown_Open}%(duration)s min{brown_Close} av en kamp."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "Når du spiller alene"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Engangsbruk"
+
+msgid "tooltips/respawn/title"
+msgstr "Gjenfødelse"
+
+msgid "tooltips/vehicle/description"
+msgstr "Kjøretøy til Steel Hunter modusen"
+
+msgid "tournament/description"
+msgstr "BIG HUNT"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Ikke klar"
+
+msgid "tournament/fightButton/ready"
+msgstr "Klar!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Kan ikke gå til turnering. Feilkode: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Big Hunt turneringsfeil. Feilkode: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "BIG HUNT"
+
+msgid "tournament/type/solo"
+msgstr "Type: Solo"
+
+msgid "tournament/type/squad"
+msgstr "Type: Tropp"
+
+msgid "upgradePanel/alert/0"
+msgstr "Du kan ikke oppgradere kjøretøyet ditt!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Du kan ikke oppgradere kjøretøyet under aktive kamphandlinger!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Du kan ikke oppgradere kjøretøyet ditt. Kjøretøyet drukner!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Du kan ikke oppgradere kjøretøyet ditt. Kjøretøyet har veltet!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Trykk %(key)s for å åpne oppgraderingsmenyen"
+
+msgid "upgradePanel/title/default"
+msgstr "Ny modul tilgjengelig"
+
+msgid "upgradePanel/title/hull"
+msgstr "Nytt skrog tilgjengelig"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Nytt oppheng tilgjengelig"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Ny motor tilgjengelig"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Ny kanon tilgjengelig"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Ny radio tilgjengelig"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Nytt tårn tilgjengelig"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "ELLER"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Pansring"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Skade per skudd"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Ladehastighet"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Helsepoeng"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Penetrasjon"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Operativ radiooppdagelse"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Magasinladesystem"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Fart"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Kjøretøyegenskaper"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Fordeler"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Ulemper"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Våpenhvile gjelder for alle servere. Kamper blir tilgjengelig om %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Velg en annen server"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Episode %(cycle)s avsluttet"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Episode avsluttet"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Det er våpenhvile på serveren. Kamper blir tilgjengelig om %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Våpenhvile gjelder på %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Episode %(cycle)s begynner om %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "Den første episoden begynner om %(time)s"

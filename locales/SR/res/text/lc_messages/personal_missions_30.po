@@ -1,0 +1,677 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "campaignSelector/completedAll/subtitle"
+msgstr "Sve kampanje su završene sa počastima"
+
+msgid "campaignSelector/completedAll/title"
+msgstr "Čestitamo!"
+
+msgid "campaignSelector/locked"
+msgstr "Lične misije mogu biti završene samo u vozilima VI nivoa ili višeg"
+
+msgid "campaignSelector/operation/tooltip/locked"
+msgstr "Operacije su trenutno onemogućene"
+
+msgid "campaignSelector/status/button/activate"
+msgstr "Aktiviraj kampanju"
+
+msgid "campaignSelector/status/button/switchCampaign"
+msgstr "Nastavi kampanju"
+
+msgid "campaignSelector/status/button/switchCampaigns"
+msgstr "Nastavi kampanje"
+
+msgid "campaignSelector/status/button/tooltip"
+msgstr "Sačekaj da se vozilo vrati iz borbe. Ne možeš menjati kampanje ili operacije dok je vozilo u borbi."
+
+msgid "campaignSelector/status/completed/firstTwo"
+msgstr "{{firstCampaign}} i {{secondCampaign}} kampanje su završene sa počastima!"
+
+msgid "campaignSelector/status/completed/third"
+msgstr "{{thirdCampaign}} kampanja je završena sa počastima!"
+
+msgid "campaignSelector/status/text/activate"
+msgstr "Nova kampanja {{thirdCampaign}} je dostupna!"
+
+msgid "campaignSelector/status/text/switchCampaign"
+msgstr "{{thirdCampaign}} kampanja je pauzirana {{icon}}"
+
+msgid "campaignSelector/status/text/switchCampaigns"
+msgstr "{{firstCampaign}} i {{secondCampaign}} kampanje su pauzirane {{icon}}"
+
+msgid "campaignSelector/status/tooltip/firstTwo"
+msgstr "Kada su kampanje Dugo očekivana podrška i Drugi front nastavljene, kampanja Sektor 3 će biti pauzirana. Sav napredak u pauziranoj kampanji će biti sačuvan i možeš da je nastaviš bilo kada."
+
+msgid "campaignSelector/status/tooltip/third"
+msgstr "Kada je Sektor 3 kampanja nastavljena, Dugo očekivana podrška i Drugi front kampanje će biti pauzirane. Sav napredak u pauziranim kampanjama će biti sačuvan i možeš da ih nastaviš bilo kada."
+
+msgid "campaignSelector/status/tooltip/title"
+msgstr "Nastavak kampanje"
+
+msgid "common/category/assault"
+msgstr "Prethodnica"
+
+msgid "common/category/sniper"
+msgstr "Zaseda"
+
+msgid "common/category/support"
+msgstr "Asistencija"
+
+msgid "common/role/assault"
+msgstr "Juriš"
+
+msgid "common/role/breakthrough"
+msgstr "Proboj"
+
+msgid "common/role/sniper"
+msgstr "Snajper"
+
+msgid "common/role/support"
+msgstr "Podrška"
+
+msgid "common/role/universal"
+msgstr "Svestrani"
+
+msgid "conditions/requiredVehicle/bottomLabel"
+msgstr "Ispuni uslove u %(count)s različitih vozila"
+
+msgid "detail/descr/historical/s3_t10_vehElement_1"
+msgstr "James Corvin, prvi unos. Danas smo počeli sklapanje mog tenka, Black Rock. Instalirali smo kupolu. Kompozitna konstrukcija od livenih elemenata zavarenih zajedno. Odobravam ovaj dizajn. Praktičan je.\n\nŠto se tiče naše istrage - temeljno ispitivanje ostrva je opovrglo našu teoriju. Ispod nas nema strogo poverljivog Moretti bunkera.\n\nOvaj Moretti je delovao metodično, stvarajući čitavu mrežu lažnih objekata i izmišljenih dokumenata da bi nas zbunio.\n\nPreviše smo vremena izgubili prateći lažni trag. Moramo preispitati naš pristup i delovati promišljenije - i zasnivati svaki naš korak na čvrstim, dokazanim činjenicama."
+
+msgid "detail/descr/historical/s3_t10_vehElement_10"
+msgstr "Bočne ploče instalirane danas. Malo dodatne zaštite nikada nije loša ideja.\n\n Moretti zapisi bacaju svetlo na događaje u Morgenlicht. Upravo su tamo naučnici slučajno otkrili sklonost prototipa KRONOS-a da generiše neočekivane rezultate praveći verovatnosne greške. Ova sposobnost za kontrolisane greške mogla se fino podesiti i usavršiti - da bi se generisala nekonvencionalna rešenja po potrebi.\n\n Sve što im je bilo potrebno da otključaju zaista revolucionarne izume bilo je povećanje računarske snage. Bukvalno, povećanjem veličine mašine. Eksponencijalno."
+
+msgid "detail/descr/historical/s3_t10_vehElement_11"
+msgstr "Danas smo ofarbali tenk u crno. Tamna kamuflaža će dati dodatnu psihološku prednost nad neprijateljem i poboljšati efikasnost tokom noćnih operacija.\n\nU našoj istrazi, sve je došlo na svoje mesto: KRONOS je kolosalni računarski sistem sposoban za \"kreativne mutacije\". I zaista je izvor svih ovih nemogućih tehnologija koje smo pronašli u tajnim bunkerima i koje Arhitekta distribuira putem satelita. Neverovatno.\n\nMoretti beleške pokazuju da se u početku divio svojoj kreaciji i verovao da je napravio alat sposoban da \"dizajnira budućnost čovečanstva\". Ali posle toga postaje zanimljivije."
+
+msgid "detail/descr/historical/s3_t10_vehElement_12"
+msgstr "Instalirali smo dimne minobacače danas. Naizgled neupadljive komponente. Ali dimne zavese su više puta spasile moje prethodne tenkove od uništenja.\n\nTon Moretti beleški se dramatično menja. Uvek je bio oprezan i nikada nikome nije previše verovao. Ali u nekom trenutku postaje potpuno paranoičan. Sumnja ne samo u naučnike, inženjere i osoblje, već i u sam KRONOS. Bukvalno piše da je uveren da je mašina stekla \"samosvest\" i da manipuliše ljudima.\n\nŠto dalje idemo, Moretti zapisi postaju sve paranoičniji. Sada se suočavamo sa novom misterijom: da li je sam Moretti postepeno tonuo u ludilo ili je zaista stvorio nešto što je prevazišlo njegove programirane mogućnosti?"
+
+msgid "detail/descr/historical/s3_t10_vehElement_13"
+msgstr "Ugradili smo završetak cevi, što će značajno smanjiti trzaj. Time je top završen.\n\nU Moretti poslednjem zapisu, čini se da je potpuno izgubio kontrolu nad sobom. Piše da se mašina pretvara, da \"sve zna\". On eksplicitno poziva na njeno uništenje pre nego što bude prekasno.\n\nAli posle tog zapisa nema ničega. Nismo pronašli nijedan dokaz o kasnijoj sudbini KRONOSA. Da li je mašina zaista uništena ili još uvek radi negde u snegovima Antarktika? To bi bilo zastrašujuće, posebno imajući u vidu postupke Arhitekte.\n\nŠta ako poseduje još novije razvoje KRONOSA koji su ponovo deceniju ispred naših mogućnosti?"
+
+msgid "detail/descr/historical/s3_t10_vehElement_14"
+msgstr "Tenk je sada opremljen svim neophodnim stvarima. Biće spreman ubrzo.\n\nI taman na vreme. Sada kada znamo šta je Moretti krio od nas i odakle je Arhitekta dobio sve ove tehnologije, ostaje nam glavna misija - da pronađemo KRONOS.\n\nVeć pripremamo vojnu operaciju potrage na Antarktiku. Ali zašto imam osećaj da je sve ovo još jedna od Moretti obmana? Da li je Moreti uopšte postojao? Posle svih njegovih prevara, počinješ da preispituješ sve i razmatraš čak i najneverovatnije teorije. Leni je predložila da su Arhitekta i Moretti možda ista osoba. A Teddy je apsolutno uveren da je Arhitekta zapravo sam KRONOS.\n\nKo god da je Arhitekta, on je nekoliko koraka ispred nas. Moramo da pronađemo KRONOS da zaustavimo Arhitektu."
+
+msgid "detail/descr/historical/s3_t10_vehElement_15"
+msgstr "Gusenice su postavljene. Black Rock je konačno završen. Svaka komponenta je kalibrisana, svaki sistem testiran. Inženjersko čudo spremno da se suoči sa bilo kojim izazovom.\n\nTokom karijere, komandovao sam mnogim tenkovima, ali ovaj je nešto posebno. On predstavlja kulminaciju naših napora, pronađenih tehnologija i naše odlučnosti da se suprotstavimo pretnji koja je Arhitekta.\n\nŠta god da je planirao, kakve god tajne da nas čekaju na Antarktiku ili negde drugde, ova mašina povećava našu verovatnoću uspeha.\n\nIstorija nas uči da je priprema odlučujući faktor između pobede i poraza. Uveren sam da će to biti tačno i u bici koja je pred nama."
+
+msgid "detail/descr/historical/s3_t10_vehElement_2"
+msgstr "Danas smo instalirali komponente vešanja. Ništa neobično. Ali dizajn je pouzdan, testiran na terenu.\n\nJoš uvek ispitujemo trebovanja gde se pojavljuju Moretti pseudonimi. Zahvaljujući rutama transportnih brodova i podacima sa satelita Arhitekte, locirali smo nekoliko desetina tajnih objekata.\n\nU njima smo pronašli nove planove i zapise kreirane kao deo Projekta KRONOS. Ali to nas ne približava razumevanju kako su Nemački naučnici uspeli da razviju sve ove dizajne, niti pronalaženju glavnog bunkera KRONOS-a gde se gradilo nešto zaista grandiozno i opasno."
+
+msgid "detail/descr/historical/s3_t10_vehElement_3"
+msgstr "Danas smo instalirali putne točkove. Sistem vešanja je skoro završen. Ovaj deo je jednostavan.\n\nMeđutim, naša istraga ostaje izazovna. Šta nam nedostaje? Gde bi u Evropi mogao biti sakriven tajni bunker takve veličine da ga do sada nismo uspeli pronaći?\n\nTeddy sugeriše da bi objekat mogao biti pod vodom. Napomenuo je da se datumi polazaka podmornica često poklapaju sa rasporedima transportnih brodova. Zanimljivo zapažanje, ali izgradnja podvodne baze 1940-ih bila bi izvan čak i Moretti mogućnosti.\n\nTeddy je predložio drugu teoriju - da bi tajna baza mogla biti na Mesecu. To smo odmah odbacili. Arhitekta je tek nedavno uspeo da lansira satelit. 1940-ih, putovanje u svemir je bilo fantazija."
+
+msgid "detail/descr/historical/s3_t10_vehElement_4"
+msgstr "Komandantova oprema za osmatranje je instalirana. Rotirajući periskop pruža potpunu vidljivost od 360 stepeni. Mogu da pratim bojište, a da ne budem u samoj kupoli - obećava.\n\nIdentifikovali smo neobične obrasce aktivnosti flote malih teretnih brodova. Napuštali bi luku i vraćali se prazni nekoliko sati kasnije. Prema brodskim dnevnicima, uvek su se upućivali ka istim koordinatama na otvorenom moru.\n\nDa li je to zaista podvodna baza?\n\nLeni deli moj skepticizam prema ovoj teoriji. Međutim, ona smatra da je prenos kontejnera na podmornice verovatniji. Moramo utvrditi kuda su se podmornice iz ovog sektora uputile."
+
+msgid "detail/descr/historical/s3_t10_vehElement_5"
+msgstr "Oprema za osmatranje za posadu instalirana je danas. U njenoj srži je sistem za osmatranje zasnovan na televiziji - još jedan deo KRONOS tehnologije koji je decenijama ispred svog vremena.\n\nObaveštajne arhive ukazuju na povećanu aktivnost podmornica u južnom Atlantiku blizu Argentinske obale, sa sumnjivim obrascima kretanja ka Antarktiku. Nedavno dešifrovani dokumenti potvrđuju ovu teoriju.\n\nAntarktik izgleda da je konačno odredište za ove pošiljke. Najudaljenija lokacija na Zemlji bi zaista bila idealno mesto za skrivanje nečega ovih razmera. Sada samo treba da utvrdimo šta je tačno Moretti želeo da sakrije u ledu."
+
+msgid "detail/descr/historical/s3_t10_vehElement_6"
+msgstr "Instalirali su par teških mitraljeza Browning M2HB. Sistem daljinskog upravljanja nam omogućava da dejstvujemo na mete bez izlaganja posade uzvraćanju vatre – taktička prednost koju veoma cenim.\n\nMislili smo da se približavamo istini o tome šta je Moretti gradio, samo da bismo otkrili nedoslednosti u šemama ovog gigantskog Wunderwaffe iz nedavno dešifrovanih KRONOS arhiva. Nacrti sadrže namerne greške koje bi učinile svaki sklopljeni uređaj neupotrebljivim.\n\nProkletstvo! Još jedan Moretti falsifikat.\n\nŠta je tačno krio iza tako složenih dezinformacija? Šta bi moglo biti poverljivije od Wunderwaffe?"
+
+msgid "detail/descr/historical/s3_t10_vehElement_7"
+msgstr "Glavni top konačno instaliran. Veoma neobičan primerak specijalnog kalibra sa izbacivačem koji će osigurati visoku preciznost i brzinu paljbe. Upravo ono što mi treba.\n\nNakon analize i odvajanja autentičnih planova od falsifikata, napravili smo revolucionarno otkriće: \"čudesno oružje\" koje smo tražili uopšte nije oružje, već računarski centar neverovatnih razmera.\n\nMoram da priznam Moretti genijalnost u stvaranju tako složene dimne zavese lažnih projekata i tajnih baza. Bez podataka sa Arhitektinog satelita, još uvek bismo bili daleko od ovog otkrića."
+
+msgid "detail/descr/historical/s3_t10_vehElement_8"
+msgstr "Blatnici i blatobrani su danas postavljeni. Ništa posebno, ali su još jedan korak ka završetku tenka.\n\nMeđutim, naša istraga je donela nešto posebno. Otkrili smo Moretti lične zapise. On piše o stvaranju mehaničko-elektronskog sistema sposobnog ne samo za računanje, već i za \"predviđanje\" novih ideja.\n\nČini se da je ovo pravi KRONOS - pravi izvor svih ovih neverovatnih tehnologija. Mašina koja bi mogla da projektuje druge mašine.\n\nAli kako je to moguće? Ili je ovo samo još jedna od Moretti razrađenih obmana - možda namenjenih da odvrati pažnju obaveštajnih agencija od stvarno funkcionišućeg \"čudesnog oružja\"?"
+
+msgid "detail/descr/historical/s3_t10_vehElement_9"
+msgstr "Infracrveni reflektori su povezani. Ovi uređaji omogućavaju borbene operacije u noćnim uslovima. Neophodan minimum po današnjim standardima.\n\nJoš uvek dešifrujemo Moretti zapise. On piše da je njegova mašina prvobitno zamišljena kao džinovski inženjerski alat, ali zbog brojnih nedostataka u dizajnu, počela je da \"halucinira\", generišući odgovore, teorije i koncepte koji ranije nisu postojali. Većina ovog rezultata bila je besmislena, ali među haosom su bile i prave inovacije.\n\n\"Greške vode do novih otkrića. Savršenstvu nedostaje kreativna iskra. Sve se pokorava zakonima prirode. Čak i mašine.\" Hmm..."
+
+msgid "detail/descr/historical/s3_t8_vehElement_1"
+msgstr "Nebel ovde, unos u dnevnik prvi. Danas je počela izgradnja mog vozila Windhund.\n\nInstaliran je dodatni razmaknuti oklop. Vredna komponenta. Takav oklop je efikasan protiv kumulativnih granata.\n\nNaša istraga je takođe počela danas. Dokumenti označeni sa \"KRONOS\" sadrže tehnologije decenijama ispred naših trenutnih sposobnosti. Dizajni iz 40. koji jednostavno ne bi trebalo da postoje. Neki se podudaraju sa podacima koje prenosi Arhitektin satelit.\n\nDo sada smo pronašli samo jedan trag: reference na \"Schloss Morgenlicht.\" Zamak jutarnje svetlosti. Moramo pronaći ovo mesto i otkriti koje su se aktivnosti tamo obavljale."
+
+msgid "detail/descr/historical/s3_t8_vehElement_10"
+msgstr "Mobilni taktički zemaljski impulsni dopler radar. Impresivna tehnologija. Može da identifikuje veličinu i domet cilja. Vešt operater, kao ja, očigledno, može da razlikuje osoblje, životinje i vozila sa značajnih udaljenosti. Mnogo kompaktniji od svega što nam je danas dostupno.\n\nI sve to zahvaljujući šemi radara iz 1944. godine koju smo pronašli u arhivi KRONOS. Ova tehnologija nije samo ispred svog vremena - ona je i ispred našeg.\n\nDa sam samo ovo imao u rukama tad, promenio bih tok istorije..."
+
+msgid "detail/descr/historical/s3_t8_vehElement_11"
+msgstr "Standardni sistem osvetljenja tenka, retrovizori i komunikacione antene. Ništa specijalno - samo osnovna oprema za svako moderno borbeno vozilo.\n\nMeđutim, ono što je izvanredno je ono što smo saznali o sredini 1944. Nešto se tada dramatično promenilo u Morgenlicht: kamioni su počeli da stižu tokom dnevnih sati, a još jedno krilo klinike je potpuno predato Morantiju. \n\nVreme se tačno poklapa sa vremenom kada je Rajh očajnički pokušavao da razvije svoj \"Wunderwaffe\". Hmm..."
+
+msgid "detail/descr/historical/s3_t8_vehElement_12"
+msgstr "Lanseri dimnih granata instalirani su danas. Efikasni su za brzo postavljanje skrivenih dimnih zavesa iz neposredne blizine.\n\nNaš Moranti je napravio sopstvenu skrivenu zavesu, koju još uvek pokušavamo da rasteramo.\n\nU dokumentima iz tog perioda pronašli smo pominjanja da je njegov eksperiment \"Geistesfessel\" - \"Okovi uma\" - bio uspešan i spreman za ekspanziju.\n\nProlazi mi jeza niz kičmu kada počnem da zamišljam šta je sve morao da uradi tim naučnicima da bi dobio sve ove tehnologije."
+
+msgid "detail/descr/historical/s3_t8_vehElement_13"
+msgstr "Opremili smo tenk neophodnim alatima za ukopavanje. Možeš imati najnapredniji radarski sistem, ali ponekad moraš da se isprljaš ruke da bi se izvukao iz nevolje.\n\nU jednom od tajnih bunkera koje smo otkrili, pronašli smo fragmente Morgenlicht-ove medicinske dokumentacije. Sadržala je listu uznemirujućih naziva procedura: \"Sakupljanje misli\", \"Komora magle\", \"Hvatač snova\", \"Most uma\", \"Mehanička memorija\", \"Arhiva senki\".\n\nSlagalica se polako sklapa. Osećam da se približavamo istini - i uskoro ćemo pronaći delove koji nedostaju."
+
+msgid "detail/descr/historical/s3_t8_vehElement_14"
+msgstr "Vozilo je skoro gotovo. Danas sam obezbedio svoje omiljene kamuflažne mreže. Prikrivanje je moja specijalnost - skrivanje sebe i pronalaženje onih koji žele da nestanu.\n\nAli praćenje Morantija se pokazalo mnogo teško. U nekom trenutku, on iznenada nestaje iz svih dokumenata, kao da je eliminisan kao nepotreban svedok. Ali eksperimenti u Morgenlicht su se nastavili čak i bez njega.\n\nŠta se zaista dogodilo tu? Još jedan inscenirani nestanak? Ili je Moranti prešao neku granicu? Šta je mogao da uradi a da je bilo van prihvatljivih granica čak i za Rajh?"
+
+msgid "detail/descr/historical/s3_t8_vehElement_15"
+msgstr "Windhund je spreman. Završna provera sistema je završena.\n\nOvo nije samo još jedno borbeno vozilo. Ovo je predator stvoren za lov - skriveno, smrtonosno na velikim udaljenostima i sposobno da nestane u noć.\n\nLov konačno počinje.\n\nSada će se naša istraga značajno ubrzati. Neke tajne se mogu otkriti samo terenskim radom."
+
+msgid "detail/descr/historical/s3_t8_vehElement_2"
+msgstr "Otvori su danas montirani. Pogodno postavljeni za brz ulaz i izlaz. Praktično, efikasno. Upravo ono što mi treba.\n\nPronašao sam više informacija o Schloss Morgenlicht. To je medicinska ustanova sa tajnim krilom, u zamku.\n\nZapisi pominju nadzornika ustanove - \"doktora Morantija\".\n\nMedicinska ustanova sa tajnim odeljenjem? Nešto ovde ne štima. Moramo utvrditi kako je povezana sa projektom KRONOS i ovim šifrovanim planovima."
+
+msgid "detail/descr/historical/s3_t8_vehElement_3"
+msgstr "Prvi deo sistema vešanja je ugrađen. Još jedan korak bliže završetku Windhund.\n\nProučavajući arhivu, otkrili smo uznemirujući obrazac. 1943, istaknuti Nemački naučnici i inženjeri su sistematizovano proglašavani \"ludim\" i nestajali u klinici Morgenlicht.\n\nPreviše organizovano da bi bilo slučajno. Ovo nisu bili slučajni izbijanja mentalnih bolesti. Ovo je bilo namerno prikupljanje intelektualnih resursa.\n\nPitanje je: resursi za šta?"
+
+msgid "detail/descr/historical/s3_t8_vehElement_4"
+msgstr "Ugrađeni su drumski točkovi. Četiri sa svake strane. Prednji par ima metalne felne umesto onih gumenih. Standardna guma bi se prebrzo raspala pod takvom raspodelom težine.\n\nPronašao sam bivšeg bolničara Morgenlicht. Njegovo svedočenje otkriva dosta. Vojni kamioni pod naoružanom stražom redovno su stizali u ograničeno krilo. Dovozili su ljude kojima je dijagnostikovana \"manična depresija\".\n\nDakle, držali su naučnike i inženjere zatvorene. I pod pritiskom, ovi zarobljenici su izmišljali nove tehnologije? Da li je to cilj Projekta KRONOS?"
+
+msgid "detail/descr/historical/s3_t8_vehElement_5"
+msgstr "Danas su sa strane postavljene prašnjave ploče. One će povećati izdržljivost vozila na dužim misijama. Definitivno dobrodošao dodatak.\n\n Pronađene su zanimljive informacije u pronađenim dokumentima Morgenlicht. Inženjer koji je zvanično proglašen \"poginuo u akciji\" 1943. godine pojavljuje se u dnevnicima prijema tri nedelje kasnije.\n\n Ali da li je ovo bilo prisilno zatvaranje? Neki dokazi ukazuju na to da su određeni specijalisti tamo otišli ​​dobrovoljno, prihvatajući iscenirane smrti da bi nastavili da rade pod Morantijevom zaštitom. Lukav trik da sakriju svoja istraživanja od savezničkih obaveštajnih službi.\n\n A ko ste vi, dr Moranti? I kako to da još uvek ne znam ništa o vama?"
+
+msgid "detail/descr/historical/s3_t8_vehElement_6"
+msgstr "Ugradili smo vrh cevi na glavnom topu. Značajno smanjuje trzaj. Baš ono što mi treba.\n\nPronašao sam dnevnik medicinske sestre iz Morgenlicht. Ona opisuje \"doktora Morantija\" kako komanduje i stražarima i pacijentima sa apsolutnim autoritetom. Ipak, ovaj doktor se ne pojavljuje ni u jednom Nemačkom medicinskom registru ili vojnoj arhivi. Pravi fantom.\n\nOvo samo potvrđuje moje sumnje - nije postojao doktor Moranti, već samo pseudonim kreiran za Projekat KRONOS. Neko je više voleo da vuče konce iz senki."
+
+msgid "detail/descr/historical/s3_t8_vehElement_7"
+msgstr "Naneli smo osnovnu kamuflažu. Crna. Moram priznati, crna je razlog zašto sam se pridružio Sektoru 3. To i šansa da pronađem još nekoliko ratnih zločinaca. I da napravim borbeno vozilo svojih snova. U redu. To je više razloga.\n\nDokumenti koje smo otkrili pokazuju da su pacijenti u Morgenlicht stvarali revolucionarne dizajne dok su bili podvrgnuti \"posebnim procedurama\".\n\nNema objašnjenja o tome šta su ove procedure podrazumevale, ali izveštaji prate \"povećanje produktivnosti\" nakon svake sesije. Šta god da su radili ovim naučnicima, bilo je sistematsko i davalo je rezultate koje su očekivali. Još jedna misterija za nas."
+
+msgid "detail/descr/historical/s3_t8_vehElement_8"
+msgstr "Televizijska kamera za nisku količinu svetla postavljena je danas. Izuzetna tehnologija. Može da detektuje mete u skoro potpunom mraku.\n\nRezolucija prevazilazi sve sa čim sam do sada radio. Uspeli smo da napravimo prototip zasnovan na šemama sistema za optički nadzor Projekta KRONOS. Dizajni su verovatno kreirani korišćenjem ideja pacijenata. Ne želim ni da mislim o tome koje je metode Moranti koristio da iz njih izvuče ove koncepte.\n\nNadam se da je još živ i da ga možemo pronaći. Pravda se ne umara nikad."
+
+msgid "detail/descr/historical/s3_t8_vehElement_9"
+msgstr "Infracrveni reflektor. Dokazana tehnologija. Koristio sam ga i ranije. Značajno poboljšava nišanjenje u mraku. A rad u mraku je ono što najviše volim.\n\nOtkrili smo dokaze o opremi koja je transportovana iz Morgenlicht početkom 1944. Dokumenti pominju \"specijalne sanduke\" koji su premešteni pod naoružanom stražom.\n\nTo znači da klinika nije bila samo mesto za \"izdvajanje naučnih koncepata\". Tamo su takođe stvarani prototipovi opreme. Izgleda da je Moranti skrivao napredni dizajnerski biro na vidljivom mestu."
+
+msgid "detail/descr/historical/s3_t9_vehElement_1"
+msgstr "Prvi zapis, ovde Miroslav Kotva, ali svi me zovu samo Tedi. Konačno počinjemo sklapanje mog tenka - Dravec! Danas smo montirali kupolu. Zavarili konstrukciju, valjali oklop. Prelep je!\n\nProces ide punom brzinom, i uskoro ću imati novog čeličnog prijatelja.\n\nAli naša istraga izgleda da je došla do ćorsokaka.\n\nToliko smo naučili o ovoj Morgenlicht klinici. Skoro smo stigli do dna stvari. A onda smo iznenada otkrili da je sredinom 44. tamo izbio požar. Svi koji su znali istinu - pacijenti, stražari, osoblje - zvanično se vode kao nestali.\n\nMiriše na ribu kao cela zapaljena riblja pijaca. Ha! Nije ovo moja najbolja šala."
+
+msgid "detail/descr/historical/s3_t9_vehElement_10"
+msgstr "Danas smo konačno počeli da postavljamo kamuflažu na tenk. Čisto crna - elegantna i zastrašujuća, baš kako volim. Neki kažu da crna čini metu vidljivijom, ali ne razumeju psihološki efekat. Kada neprijatelj vidi potpuno crn tenk kako izranja iz magle, zaledi se.\n\nLeni i naši inženjeri su sve više uvereni da je KRONOS neka vrsta elektromagnetnog oružja. Pronašli smo nacrte za ogromne radio cevi, moćne generatore i složene sisteme hlađenja.\n\nSamo jedna stvar mi nije jasna - ako je to tako moćan elektromagnetni top, zašto mu dati tako dosadno ime? \"KRONOS\". Nešto tu meni ne štima."
+
+msgid "detail/descr/historical/s3_t9_vehElement_11"
+msgstr "Danas je Dravec dobio svoj sistem 902 Tucha. Savršen dodatak mom crnom predatoru! Sada mogu da nestanem u oblaku dima za nekoliko sekundi. Kao što je moj deda govorio: \"Pametan ratnik zna kada da bude viđen, a kada da nestane.\"\n\nPratili smo pošiljke KRONOS opreme do obale Severnog mora, ali onda se trag ohladi.\n\nOgromni transportni teret, specijalizovana oprema, tone materijala - sve je isporučeno u priobalne objekte, a onda... ništa. Nema nikakvih zapisa o tome gde je sve dalje išlo.\n\nOvaj Moretti zaista nije želeo da neko ide njegovim stopama."
+
+msgid "detail/descr/historical/s3_t9_vehElement_12"
+msgstr "Danas smo instalirali laserski daljinomer. To je neverovatna tehnologija - određuje udaljenost do mete sa neverovatnom preciznošću. Moj Dravec dobija sve više novih igračaka svaki dan!\n\nKad smo već kod lasera - koristimo KRONOS tehnologiju za ovaj daljinomer. Ali naši tehničari su morali sve da prerade. Originalni planovi su bili nacrtani u čudnoj razmeri. Skoro kao da je trebalo da bude neki masivni borbeni laser.\n\nŠto dublje kopamo, sve više pitanja imamo. Da li je Moretti pokušavao da napravi neku vrstu smrtonosnog zraka? Zvuči kao nešto iz onih naučno fantastičnih knjiga koje sam čitao kao dečak... ali gledajući ove KRONOS šeme, spreman sam da verujem u bilo šta."
+
+msgid "detail/descr/historical/s3_t9_vehElement_13"
+msgstr "Danas smo instalirali novi vrh na cev topa. To je remek-delo! Značajno smanjuje trzaj, što čini pucanje mnogo udobnijim.\n\nAli to nije ništa. Ono što smo nedavno otkrili... u jednom od KRONOS dokumenata, postoji opis masivnog bunkera ugrađenog u priobalne litice. Tačna lokacija nije navedena, naravno - Moretti nam ne bi dao takav poklon - ali sama razmera bunkera je zapanjujuća.\n\nAko su dimenzije tačne, ima dovoljno prostora da se sakrije nešto zaista gigantsko...\n\nSpreman sam da se kladim da je Moreti tamo sklapao svoj Wunderwaffe."
+
+msgid "detail/descr/historical/s3_t9_vehElement_14"
+msgstr "Danas smo obezbedili sve što nam je moglo zatrebati za tenk: vučne kablove, dimne kanistere, opremu za podvodnu vožnju - baš sve. Dobar tenk, kao i dobar vojnik, mora biti spreman na sve.\n\nA mi imamo mnogo toga za šta treba da budemo spremni. Proučavali smo mape Severnog mora...\n\nTaj bunker koji je Moretti izgradio nalazi se na Norveškim ostrvima. I snažno sumnjamo da je upravo na istom ostrvu gde se nalazila američka raketna baza - ista ona koju su plaćenici zauzeli i lansirali satelit.\n\nDakle, direktno ispred našeg nosa? Negde direktno ispod nas? Sve ovo vreme smo sedeli na vrhu glavnog bunkera KRONOS-a?!"
+
+msgid "detail/descr/historical/s3_t9_vehElement_15"
+msgstr "Dravec je spreman! Moj novi čelični prijatelj je naoružan i opasan. Brz, oklopljen i sa dovoljno vatrene moći da neprijateljima pokaže kako im život bljesne pred očima kada cev mog topa usmerim ka njima.\n\nSamo pogledajte te elegantne linije i tu preteću siluetu! Zaposedaće noćne more naših neprijatelja.\n\nKakve nas avanture očekuju - i kakve ću priče moći da ispričam kasnije!\n\nNeka lov počne!"
+
+msgid "detail/descr/historical/s3_t9_vehElement_2"
+msgstr "Instalirao sam podvozje. Vešanje je remek delo! Učiniće vožnju tako glatkom da ću moći da uživam u kafi, a da ne prospem ni kap. Pa... ne bukvalno, naravno. I dalje će biti vibracija. Na kraju krajeva, to je ipak tenk.\n\nNaša istraga ponovo napreduje. Mislili smo da je slučaj sa požarom Morgenlicht zatvoren, ali onda je Leni otkrila nešto čudno - KRONOS planovi koje koristimo za izgradnju naših tenkova su napravljeni POSLE požara.\n\nKao što kažu u tim detektivskim romanima - zaplet se zapetljava!"
+
+msgid "detail/descr/historical/s3_t9_vehElement_3"
+msgstr "Konačno sam dobio svoju komandantsku kupolu! Apsolutno je sjajna - dolazi sa kompletnim setom uređaja za osmatranje koji su san svakog tankiste. Najviše mi se sviđa sistem za noćno osmatranje TKN-1 - mogu da vidim u mraku, kao mačka.\n\nRazvili smo novu teoriju o celoj ovoj stvari sa KRONOS-om. Ili je rad pacijenata uklonjen pre požara i obrađen negde drugde, ili... i tu postaje zanimljivo... šta ako su ti \"ludi naučnici\" samo priča za naslovnu stranu? Šta ako pravi izvor ovih tehnologija uopšte nisu oni?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_4"
+msgstr "Danas smo dodali dodatni oklop oko kupole - pet moćnih blokova ispunjenih poliuretanom i čeličnim pločama. Odlična zaštita od kumulativnih punjenja. Jedva čekam da vidim kako će se pokazati u borbi!\n\nU međuvremenu, ispostavilo se da je Leni sve vreme bila u pravu. Nikada nije postojao nikakav \"Doktor Moranti!\". Bio je to samo jedan od desetina pseudonima koje je koristio pravi genijalni lik - neko po imenu Alesandro Moreti.\n\nZašto bi jednom čoveku trebalo toliko imena? Nije mogao da odluči koje mu se najviše sviđa?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_5"
+msgstr "Instalirali smo glavni top danas i jedva čekam da pucam! Kada povučeš obarač i osetiš kako se cela mašina trese... ništa se ne može uporediti sa tim osećajem.\n\nIspostavilo se da je ovaj Moretti veoma zanimljiv lik. Nije bio samo inženjer - bio je majstor u izgradnji tajnih objekata. A onda, 43. , potpuno nestaje iz svih zvaničnih spisa.\n\nI znaš šta? Tačno tada se iznenada pojavljuje naš \"doktor Moranti\"! Onda, posle požara u Morgenlicht, pseudonimi sa našeg spiska iznenada počinju da se pojavljuju u otpremnim trebovanjima i drugim dokumentima."
+
+msgid "detail/descr/historical/s3_t9_vehElement_6"
+msgstr "Danas smo instalirali sistem aktivne zaštite. Revolucionarno je - može da detektuje dolazeće granate u deliću sekunde. Zapanjujuće!\n\nUzgred, otkrili smo nešto neočekivano u vezi sa Morgenlicht. Ispostavilo se da to nije bio zatvor ili laboratorija za mučenje kao što smo mislili. Bila je to samo jedna karika u mreži pažljivo prikrivenih istraživačkih centara.\n\nIzgleda da je naš prijatelj Moretti sanjao da postane pisac horora. Toliko truda je uloženo u stvaranje ove naslovnice, toliko detalja u lažnim izveštajima. Toliko talenta je propalo!"
+
+msgid "detail/descr/historical/s3_t9_vehElement_7"
+msgstr "Danas smo instalirali termičku navlaku na cev topa. To je dobar komad opreme - sprečava da vremenski uslovi utiču na preciznost topa.\n\nA Moretti nam stalno baca nove zagonetke. Pratili smo lance snabdevanja povezane sa svim tim pseudonimima. Desetine fabrika su bile uključene u ovaj Projekat KRONOS - proizvođači elektronike, hemijski pogoni, tekstilne fabrike... i čudno, ogromne pošiljke ćilibara.\n\nŠta im, dođavola, treba ćilibar? I odakle mu toliko? Da li je Moretti ukrao ćilibarsku sobu ili tako nešto?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_8"
+msgstr "Danas smo instalirali sistem aktivne zaštite Oplot-MO, i to je stvarno nešto! Radar detektuje protivtenkovske rakete koje lete brzinom od 600-800 m/s i automatski aktivira šestocevni protivavionski top koji ih obara u vazduhu. KRONOS ima konkurenciju, jer imamo prilično impresivnu sopstvenu tehnologiju!\n\nOvaj Moretti... potpuno me je zbunio. Taman sam počeo da verujem u njegovu priču o ludim naučnicima koji su mu crtali lude planove, a sada otkrivamo da je gradio nešto veliko. \n\nAli odakle mu svi ti planovi i tehnologija?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_9"
+msgstr "Moj Dravec se približava završetku. Druže, uskoro ćemo krenuti u avanture dostojne holivudskog filma!\n\nI ja bih snimio film o KRONOSU. Ali karte bi se prodavale samo ljudima sa bezbednosnom ovlašćenjem petog nivoa - baš ekskluzivnoj publici.\n\nŠteta, jer bi to bio pravi spektakl. Među planovima KRONOSA, pronašli smo nešto sumnjivo - šeme komponenti koje ukazuju na neku vrstu Wunderwaffe. Niko ne može da shvati šta tačno.\n\nAli šta god da bilo, trebalo mu je dovoljno energije da pokreće ceo grad."
+
+msgid "detail/name/s3_t10_vehElement_1"
+msgstr "Kupola"
+
+msgid "detail/name/s3_t10_vehElement_10"
+msgstr "Bočne ploče"
+
+msgid "detail/name/s3_t10_vehElement_11"
+msgstr "Telekamera i Kamo."
+
+msgid "detail/name/s3_t10_vehElement_12"
+msgstr "Bacači dimnih bombi"
+
+msgid "detail/name/s3_t10_vehElement_13"
+msgstr "Vrh cevi"
+
+msgid "detail/name/s3_t10_vehElement_14"
+msgstr "Alat za ukopavanje"
+
+msgid "detail/name/s3_t10_vehElement_15"
+msgstr "Gusenice"
+
+msgid "detail/name/s3_t10_vehElement_2"
+msgstr "Sistem vešanja"
+
+msgid "detail/name/s3_t10_vehElement_3"
+msgstr "Putni točkovi"
+
+msgid "detail/name/s3_t10_vehElement_4"
+msgstr "Glavni periskop"
+
+msgid "detail/name/s3_t10_vehElement_5"
+msgstr "Periskop posade"
+
+msgid "detail/name/s3_t10_vehElement_6"
+msgstr "Mitraljezi"
+
+msgid "detail/name/s3_t10_vehElement_7"
+msgstr "Glavni top"
+
+msgid "detail/name/s3_t10_vehElement_8"
+msgstr "Branici"
+
+msgid "detail/name/s3_t10_vehElement_9"
+msgstr "Infracrv. reflektori"
+
+msgid "detail/name/s3_t8_vehElement_1"
+msgstr "Razmaknuti oklop"
+
+msgid "detail/name/s3_t8_vehElement_10"
+msgstr "Radar"
+
+msgid "detail/name/s3_t8_vehElement_11"
+msgstr "Sistem rasvete"
+
+msgid "detail/name/s3_t8_vehElement_12"
+msgstr "Lanser dimnih bombi"
+
+msgid "detail/name/s3_t8_vehElement_13"
+msgstr "Alat za ukopavanje"
+
+msgid "detail/name/s3_t8_vehElement_14"
+msgstr "Kamuflažne mreže"
+
+msgid "detail/name/s3_t8_vehElement_15"
+msgstr "Gusenice"
+
+msgid "detail/name/s3_t8_vehElement_2"
+msgstr "Otvori i optika"
+
+msgid "detail/name/s3_t8_vehElement_3"
+msgstr "Sistem vešanja"
+
+msgid "detail/name/s3_t8_vehElement_4"
+msgstr "Putni točkovi"
+
+msgid "detail/name/s3_t8_vehElement_5"
+msgstr "Prašnjave ploče"
+
+msgid "detail/name/s3_t8_vehElement_6"
+msgstr "Vrh cevi"
+
+msgid "detail/name/s3_t8_vehElement_7"
+msgstr "Osnovna kamuflaža"
+
+msgid "detail/name/s3_t8_vehElement_8"
+msgstr "LLLTV kamera"
+
+msgid "detail/name/s3_t8_vehElement_9"
+msgstr "Infracrv. reflektor"
+
+msgid "detail/name/s3_t9_vehElement_1"
+msgstr "Kupola"
+
+msgid "detail/name/s3_t9_vehElement_10"
+msgstr "Farovi i Kamo."
+
+msgid "detail/name/s3_t9_vehElement_11"
+msgstr "902 Tucha sistem"
+
+msgid "detail/name/s3_t9_vehElement_12"
+msgstr "Las. daljinometar"
+
+msgid "detail/name/s3_t9_vehElement_13"
+msgstr "Vrh cevi"
+
+msgid "detail/name/s3_t9_vehElement_14"
+msgstr "Alat i mreže"
+
+msgid "detail/name/s3_t9_vehElement_15"
+msgstr "Gusenice"
+
+msgid "detail/name/s3_t9_vehElement_2"
+msgstr "Sistem vešanja"
+
+msgid "detail/name/s3_t9_vehElement_3"
+msgstr "Kupola komandanta"
+
+msgid "detail/name/s3_t9_vehElement_4"
+msgstr "Dodatne oklop. ploče"
+
+msgid "detail/name/s3_t9_vehElement_5"
+msgstr "Glavni top"
+
+msgid "detail/name/s3_t9_vehElement_6"
+msgstr "APS"
+
+msgid "detail/name/s3_t9_vehElement_7"
+msgstr "Termička navaka topa"
+
+msgid "detail/name/s3_t9_vehElement_8"
+msgstr "Oplot-MO APS"
+
+msgid "detail/name/s3_t9_vehElement_9"
+msgstr "Branici"
+
+msgid "main/additionalMission/text/completed"
+msgstr "Dodatni poeni kampanje su zarađeni."
+
+msgid "main/additionalMission/text/daily"
+msgstr "Završi dnevne misije da zaradiš dodatne poene kampanje."
+
+msgid "main/additionalMission/text/weekly"
+msgstr "Završi nedeljne misije da zaradiš dodatne poene kampanje."
+
+msgid "main/additionalMission/title/daily"
+msgstr "Dneven misije"
+
+msgid "main/additionalMission/title/weekly"
+msgstr "Nedeljne misije"
+
+msgid "main/assembling/component"
+msgstr "Deo"
+
+msgid "main/chain/Assault/name"
+msgstr "Prethodnica"
+
+msgid "main/chain/Sniper/name"
+msgstr "Zaseda"
+
+msgid "main/chain/Support/name"
+msgstr "Asistencija"
+
+msgid "main/complete/button"
+msgstr "Na operaciju"
+
+msgid "main/complete/description/campaignFinished"
+msgstr "{{campaignName}} kampanja završena! Sve nagrade su primljene."
+
+msgid "main/complete/description/notAllCompleted"
+msgstr "{{currentOperationName}} operacija završena uz počasti! {{nextOperationName}} operacija je sada dostupna."
+
+msgid "main/complete/description/notAllCompletedWithHonor"
+msgstr "{{currentOperationName}} operacija {{@ split}} završena uz počasti! {{/}} Još možeš poboljšati svoj rezultat u {{nextOperationName}} operaciji."
+
+msgid "main/complete/title"
+msgstr "Čestitamo!"
+
+msgid "main/menuItem/state/active"
+msgstr "Aktivno"
+
+msgid "main/menuItem/state/available"
+msgstr "Dostupno"
+
+msgid "main/menuItem/state/completed"
+msgstr "Vozilo primljeno"
+
+msgid "main/menuItem/state/completedWithHonors"
+msgstr "Završeno sa počastima"
+
+msgid "main/menuItem/state/unavailable"
+msgstr "Nedostupno"
+
+msgid "main/menuItem/tooltip/videoIntro"
+msgstr "Pogledaj video uvod za ovo vozilo"
+
+msgid "main/mission/counter"
+msgstr "{{currentValue}} {{@ colorLegacy 'ede6d97f'}}/ {{maxValue}}{{/}}"
+
+msgid "main/mission/mission/quest/separator"
+msgstr "ILI"
+
+msgid "main/mission/subtitle"
+msgstr "Aktivna misija"
+
+msgid "main/mission/text/alert"
+msgstr "Misija je trenutno nedostupna za takmičenje. Biće dostupna uskoro."
+
+msgid "main/mission/text/completed"
+msgstr "Sve misije {{missionType}}\nsu završene."
+
+msgid "main/missions/button/tooltip/toActiveMission"
+msgstr "Klikni da odeš na trenutnu aktivnu misiju."
+
+msgid "main/missions/card/tooltip/done"
+msgstr "Misija je završena, nagrada je primljena."
+
+msgid "main/missions/card/tooltip/locked"
+msgstr "Završi prethodnu misiju da otključaš ovu. Sve misije u seriji se moraju završavati redom."
+
+msgid "main/missions/category/description"
+msgstr "{{category}} misije u {{operationName}} operaciji se mogu završavati redom u {{@ colorLegacy 'ede6d9'}} nivou {{minLevel}} - {{maxLevel}}{{/}} vozilima sledećih tipova:"
+
+msgid "main/missions/category/vehicles/assault"
+msgstr "{{HT}}, {{MT}}, {{TD}} sa ulogama {{breakthrough}}, {{assault}}, {{universal}}."
+
+msgid "main/missions/category/vehicles/sniper"
+msgstr "{{HT}}, {{MT}}, {{TD}} sa ulogama {{sniper}}, {{support}}."
+
+msgid "main/missions/category/vehicles/support"
+msgstr "{{LT}}, {{SPG}} bez obzira na ulogu."
+
+msgid "main/operation/button/available/"
+msgstr "Aktiviraj"
+
+msgid "main/operation/button/completed"
+msgstr "Poboljšaj rezultat"
+
+msgid "main/operation/button/nextOperationAvailable"
+msgstr "Na operaciju"
+
+msgid "main/operation/button/paused"
+msgstr "Nastavi operaciju"
+
+msgid "main/operation/button/precedingOperationNotCompleted"
+msgstr "Na operaciju"
+
+msgid "main/operation/status/available"
+msgstr "{{currentOperationName}} je dostupna!"
+
+msgid "main/operation/status/completed"
+msgstr "{{currentOperationName}} operacija je završena! Možeš je završiti ponovo sa počastima da zaradiš još bolje nagrade."
+
+msgid "main/operation/status/nextOperationAvailable"
+msgstr "{{currentOperationName}} operacija završena! {{nextOperationName}} operacija je sada dostupna."
+
+msgid "main/operation/status/paused"
+msgstr "{{currentOperationName}} operacija je pauzirana."
+
+msgid "main/operation/status/precedingOperationNotCompleted"
+msgstr "Operacija nije dostupna: završi prethodnu operaciju."
+
+msgid "main/operation/status/requiresVehicle"
+msgstr "Operacija nedostupna: vozilo nivoa {{requiredVehicleLevel}} ili više je potrebno."
+
+msgid "main/operation/status/vehicleIsInBattle"
+msgstr "Ne možeš menjati kampanje ili operacije dok je vozilo u borbi."
+
+msgid "main/progression/button"
+msgstr "Montiraj"
+
+msgid "main/progression/counter/zero"
+msgstr "0"
+
+msgid "main/progression/detail/status/active"
+msgstr "{{detailName}}: {{earnedPoint}} {{@ colorLegacy 'ede6d97f'}}/ {{maxPoint}}{{/}} {{icon}}"
+
+msgid "main/progression/detailNumber"
+msgstr "{{number}}"
+
+msgid "main/progression/mountButton/active"
+msgstr "Klikni da montiraš ovaj deo na vozilo."
+
+msgid "main/progression/mountButton/disable"
+msgstr "Montiraj prethodni deo prvo."
+
+msgid "main/progression/reward/previewButton"
+msgstr "Pogledaj u garaži"
+
+msgid "main/progression/reward/status/inProgress/campaign"
+msgstr "Operacija završena uz počasti: {{completedTasks}}{{@ colorLegacy 'ede6d97f'}}/{{tasksNumber}}{{/}}"
+
+msgid "main/progression/reward/status/inProgress/operation"
+msgstr "Misije završene: {{completedTasks}}{{@ colorLegacy 'ede6d97f'}}/{{tasksNumber}}{{/}}"
+
+msgid "main/progression/reward/status/received"
+msgstr "Primljeno"
+
+msgid "main/progression/reward/title/campaign"
+msgstr "Za završetak kampanje sa počastima"
+
+msgid "main/progression/reward/title/main"
+msgstr "Glavne nagrade"
+
+msgid "main/progression/reward/title/operation"
+msgstr "Za završetak operacije sa počastima"
+
+msgid "main/progression/tooltip/detail/notDone"
+msgstr "Moći ćeš da pogledaš deo tek nakon montiranja."
+
+msgid "main/progression/tooltip/rewards/campaign"
+msgstr "Završi sve misije u sve tri operacije kampanje da dobiješ ove nagrade."
+
+msgid "main/progression/tooltip/rewards/main"
+msgstr "Završi progres i montiraj poslednji deo da dobiješ glavnu nagradu i vozilo."
+
+msgid "main/progression/tooltip/rewards/operation"
+msgstr "Završi sve misije operacije da dobiješ ove nagrade."
+
+msgid "main/progression/tooltip/toActiveStage"
+msgstr "Klik za prelaz na trenutnu etapu."
+
+msgid "plugin/post_battle/condition"
+msgstr "Stanje"
+
+msgid "plugin/post_battle/openButton"
+msgstr "Klik za pregled detaljnih informacija."
+
+msgid "plugin/post_battle/questsSeparator"
+msgstr "ILI"
+
+msgid "questStatus/topLabelAlreadyUsedVehicle"
+msgstr "Nije dostupno: Već si ispunio uslov u izabranom vozilu. Molimo izaberi drugo."
+
+msgid "questStatus/topLabelCompleted"
+msgstr "Završeno"
+
+msgid "questStatus/topLabelCompletedForBattle"
+msgstr "Završeno za trenutnu borbu"
+
+msgid "rewards/additional"
+msgstr "Takođe primljeno:"
+
+msgid "rewards/buttons/close"
+msgstr "Zatvori"
+
+msgid "rewards/buttons/confirm"
+msgstr "Razumem!"
+
+msgid "rewards/buttons/goToOperation"
+msgstr "Idi na operaciju"
+
+msgid "rewards/buttons/goToVehicle"
+msgstr "Pogledaj u garaži"
+
+msgid "rewards/operationUnlocked"
+msgstr "{{name}} operacija je dostupna!"
+
+msgid "rewards/subTitle/campaignWithHonors"
+msgstr "Kampanja: {{name}}"
+
+msgid "rewards/subTitle/operationWithHonors"
+msgstr "Operacija: {{name}}"
+
+msgid "rewards/subTitle/vehiclePart"
+msgstr "Operacija: {{name}}"
+
+msgid "rewards/title/campaignWithHonors"
+msgstr "ZAVRŠENO UZ POČASTI!"
+
+msgid "rewards/title/operation"
+msgstr "OPERACIJA: {{name}} ZAVRŠENA!"
+
+msgid "rewards/title/operationWithHonors"
+msgstr "ZAVRŠENO UZ POČASTI!"
+
+msgid "rewards/title/vehiclePart"
+msgstr "DEO DOSTUPAN ZA MONTAŽU"
+
+msgid "tooltip/assembling/viewAnimation"
+msgstr "Klik da pogledaš animaciju montaže."
+
+msgid "tooltip/assembling/zoomOut"
+msgstr "Klik da sakriješ opis."
+
+msgid "tooltip/missionProgress/completed"
+msgstr "Završeno: {{completed}}{{@ class $totalClass}} / {{total}}{{/}}"
+
+msgid "tooltip/missionProgress/description"
+msgstr "Da završiš misiju, moraš ispuniti uslove više puta koristeći različita dostupna vozila."
+
+msgid "tooltip/missionProgress/footer"
+msgstr "Jednom kada je vozilo ispunilo uslove, ne može se koristiti za ovu misiju ponovo dok se misija ne završi."
+
+msgid "tooltip/missionProgress/title"
+msgstr "Zaršavanje u drugim vozilima"
+
+msgid "tooltip/missionProgress/unknownVehicle"
+msgstr "?"
+
+msgid "tooltip/missionsCategory/description/assault"
+msgstr "Vozila fronta koja mogu primeniti svoja pravila na bojno polje."
+
+msgid "tooltip/missionsCategory/description/sniper"
+msgstr "Vozila druge linije koja pojačavaju napade na neprijateljske pozicije."
+
+msgid "tooltip/missionsCategory/description/support"
+msgstr "Podrška vatre iz vazduha i informacije u poziciji neprijatelja na bojnom polju."
+
+msgid "tooltip/missionsCategory/footer"
+msgstr "{{@ colorLegacy 'b2afab'}}{{operationName}}{{/}} misije operacije se mogu završiti samo u vozilima nivoa {{@ colorLegacy 'b2afab'}}{{minLevel}}-{{maxLevel}}{{/}}."
+
+msgid "tooltip/missionsCategory/innerBlock/description/assault"
+msgstr "Prethodnica misije se mogu završiti redom u:"
+
+msgid "tooltip/missionsCategory/innerBlock/description/sniper"
+msgstr "Misije zasede se mogu završiti redom u:"
+
+msgid "tooltip/missionsCategory/innerBlock/description/support"
+msgstr "Misije asistencije se mogu završiti redom u:"
+
+msgid "tooltip/missionsCategory/innerBlock/noRoles"
+msgstr "Tipovi vozila bez obzira na ulogu:"
+
+msgid "tooltip/missionsCategory/innerBlock/vehiclesTypes"
+msgstr "Tipovi vozila:"
+
+msgid "tooltip/missionsCategory/innerBlock/withRoles"
+msgstr "Sa ulogama:"
+
+msgid "tooltip/personalMissionsPoints/footer"
+msgstr "Upamti da ispratiš završene etape i montiraš komponente vozila kako napreduješ."
+
+msgid "tooltip/personalMissionsPoints/innerBlock/bulletItem1"
+msgstr "Poeni kampanje se dodeljuju za završavanje ličnih misija u kampanji Sektor 3."
+
+msgid "tooltip/personalMissionsPoints/innerBlock/bulletItem2"
+msgstr "Takođe možeš da zaradiš poene kampanje završavanjem dnevnih i nedeljnih misija."
+
+msgid "tooltip/personalMissionsPoints/innerBlock/description"
+msgstr "Napreduj kroz progres aktivne operacije u kampanji Sektor 3."
+
+msgid "tooltip/personalMissionsPoints/innerBlock/subTitle"
+msgstr "Kako se zarađuje"
+
+msgid "tooltip/personalMissionsPoints/innerBlock/title"
+msgstr "Poeni kampanje"
+
+msgid "tooltip/progression/description"
+msgstr "Napreduj kroz etape, sakupi delove, i montiraj ih na svoje vozilo. Kada su svi delovi sakupljeni, dobićeš vozilo operacije kao nagradu. Da napreduješ i završiš etape, poeni kampanje će ti biti potrebni."
+
+msgid "tooltip/progression/footer"
+msgstr "Upamti da ispratiš završene etape i montiraš delove vozila kako napreduješ."
+
+msgid "tooltip/progression/innerBlock/bulletItem1"
+msgstr "Poeni kampanje se dodeljuju za završavanje ličnih misija u kampanji Sektor 3. "
+
+msgid "tooltip/progression/innerBlock/bulletItem2"
+msgstr "Takođe možeš da zaradiš poene kampanje završavanjem dnevnih i nedeljnih misija."
+
+msgid "tooltip/progression/innerBlock/title"
+msgstr "Kako da zaradiš poene kampanje"
+
+msgid "tooltip/progression/title"
+msgstr "Progres radionice"

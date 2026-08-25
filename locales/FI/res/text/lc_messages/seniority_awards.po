@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2011-03-18 10:00+0300\nPO-Revision-Date: 2011-03-18 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "notifications/count"
+msgstr "×{count}"
+
+msgid "notifications/manualClaim/button"
+msgstr "Ota vastaan palkinnot"
+
+msgid "notifications/manualClaim/title"
+msgstr "Palkinnot palvelusvuosistasi odottavat sinua!"
+
+msgid "notifications/selectVehicles/button"
+msgstr "Valitse"
+
+msgid "notifications/selectVehicles/title"
+msgstr "Vuosien palveluksesta\nsaatavilla olevat vaunut"
+
+msgid "notifications/tokens/button"
+msgstr "Kauppaan"
+
+msgid "notifications/tokens/title"
+msgstr "Vaihda poletit palvelusvuosistasi haluamiisi palkintoihin!"
+
+msgid "notifications/vehicleSelectionAvailable/title"
+msgstr "Valitse haluamasi vaunu!"
+
+msgid "rewardsView/applyBtn"
+msgstr "Selvä!"
+
+msgid "rewardsView/exchangeCoins"
+msgstr "Vaihda polettisi palkintoihin kaupassa."
+
+msgid "rewardsView/gotoHangarBtn"
+msgstr "Näytä tallissa"
+
+msgid "rewardsView/gotoRewardsBtn"
+msgstr "Kauppaan"
+
+msgid "rewardsView/info"
+msgstr "Lisätietoa sotilasarvoista"
+
+msgid "rewardsView/moreRewardsBtn"
+msgstr "Lisää palkintoja!"
+
+msgid "rewardsView/moreRewardsWithCountBtn"
+msgstr "Lisää palkintoja! ({count})"
+
+msgid "rewardsView/selection/available"
+msgstr "{{count}} vaunu saatavilla palvelusvuosista"
+
+msgid "rewardsView/selection/received"
+msgstr "PALKINTO SAATU"
+
+msgid "rewardsView/subTitle/otherRewards"
+msgstr "Sait myös:"
+
+msgid "rewardsView/subTitle/rank/ctg1"
+msgstr "VÄRVÄÄ"
+
+msgid "rewardsView/subTitle/rank/ctg2"
+msgstr "SOTURI"
+
+msgid "rewardsView/subTitle/rank/ctg3"
+msgstr "KOMENTAJA"
+
+msgid "rewardsView/subTitle/rank/ctg4"
+msgstr "UPSEERI"
+
+msgid "rewardsView/subTitle/rank/ctg5"
+msgstr "VETERAANI"
+
+msgid "rewardsView/subTitle/rank/ctg6"
+msgstr "LEGENDA"
+
+msgid "rewardsView/subTitle/text"
+msgstr "ARVO SAAVUTETTU: {rank}"
+
+msgid "rewardsView/textButton/select"
+msgstr "Valitse"
+
+msgid "rewardsView/title"
+msgstr "ONNEKSI OLKOON!"
+
+msgid "rewardsView/wdrcoin/counter"
+msgstr "×%(count)s"
+
+msgid "specialItem/body"
+msgstr "Myönnetään taistelumeriiteistä. Tapahtuman päätyttyä kaikki jäljellä olevat poletit poistetaan."
+
+msgid "specialItem/header"
+msgstr "Poletti palvelusvuosista: {count}"
+
+msgid "tooltip/congratulation/ctg1"
+msgstr "Onneksi olkoon tulokkaan sotilasarvon saavuttamisesta"
+
+msgid "tooltip/congratulation/ctg2"
+msgstr "Onneksi olkoon soturin sotilasarvon saavuttamisesta"
+
+msgid "tooltip/congratulation/ctg3"
+msgstr "Onneksi olkoon komentajan sotilasarvon saavuttamisesta"
+
+msgid "tooltip/congratulation/ctg4"
+msgstr "Onneksi olkoon upseerin sotilasarvon saavuttamisesta"
+
+msgid "tooltip/congratulation/ctg5"
+msgstr "Onneksi olkoon veteraanin sotilasarvon saavuttamisesta"
+
+msgid "tooltip/congratulation/ctg6"
+msgstr "Onneksi olkoon legendan sotilasarvon saavuttamisesta"
+
+msgid "tooltip/medalBlock/label/and"
+msgstr "{abLabel} ja {yearsLabel}"
+
+msgid "tooltip/medalBlock/label/ca"
+msgstr "Alfa-testiin osallistumisesta"
+
+msgid "tooltip/medalBlock/label/cb"
+msgstr "Beta-testiin osallistumisesta"
+
+msgid "tooltip/medalBlock/label/duration"
+msgid_plural "plural/tooltip/medalBlock/label/duration"
+msgstr[0] "{{count}} palvelusvuosi"
+msgstr[1] "{{count}} palvelusvuotta"
+msgstr[2] "{{count}} palvelusvuotta"
+
+msgid "tooltip/rank/ctg1"
+msgstr "Värvää"
+
+msgid "tooltip/rank/ctg2"
+msgstr "Soturi"
+
+msgid "tooltip/rank/ctg3"
+msgstr "Komentaja"
+
+msgid "tooltip/rank/ctg4"
+msgstr "Upseeri"
+
+msgid "tooltip/rank/ctg5"
+msgstr "Veteraani"
+
+msgid "tooltip/rank/ctg6"
+msgstr "Legenda"
+
+msgid "tooltip/segment/ctg1"
+msgstr "Alle yksi vuosi"
+
+msgid "tooltip/segment/ctg2"
+msgstr "1–3 vuotta"
+
+msgid "tooltip/segment/ctg3"
+msgstr "4–6 vuotta"
+
+msgid "tooltip/segment/ctg4"
+msgstr "7–9 vuotta"
+
+msgid "tooltip/segment/ctg5"
+msgstr "10–14 vuotta"
+
+msgid "tooltip/segment/ctg6"
+msgstr "15 vuotta"
+
+msgid "vehicle/A134_M24E2_SuperChaffee"
+msgstr "Legendaarinen kevyt vaunu, jolta löytyvät mahtavat liikeominaisuudet. Vaunu aiheuttaa kelpo vahinkoa per minuutti ja sillä on hyvä ylä-/alakoro, joka mahdollistaa rikkonaisen maaston hyödyntämisen taistelussa."
+
+msgid "vehicle/G158_VK2801_105_SPXXI"
+msgstr "Tämä vaunu on varustettu suurikaliiperisella tykillä ja siltä löytyy mukava panssarointi, vaikka se vaikuttaakin sen liikeominaisuuksiin. Vaunu on joltiseenkin kulmikas, mikä tekee siitä äärimmäisen tehokkaan törmääjän kevyemmin panssaroituihin vaunuihin."
+
+msgid "vehicle/R160_T_50_2"
+msgstr "Kevyt vaunu, joka on täydellinen aktiiviseen tiedusteluun taistelun kaikissa vaiheissa. Sen matala profiili ja hurja vauhti mahdollistavat osumien väistelyn, mikä on sen keskinkertainen tulivoima huomioiden erittäin tärkeää."
+
+msgid "vehicle/R197_KV_1S_MZ"
+msgstr "Tämä on ainoa tasonsa vaunu, jolta löytyy käänteinen automaattilataaja. Se on parhaimmillaan aiheuttaessaan vahinkopurskeen vihollisvaunuihin tai tarjotessaan tulitukea liittolaisilleen."

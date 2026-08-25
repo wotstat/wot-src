@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Vaihda palvelin"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Lisätiedot"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Pelimuoto ei ole saatavilla tällä palvelimella %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Pelimuoto ei ole saatavilla millään palvelimella"
+
+msgid "alertMessage/modeOffline"
+msgstr "Tietokantavirhe. Pelimuoto ei ole saatavilla."
+
+msgid "alertMessage/noVehicles"
+msgstr "Tallissasi ei ole soveliaita vaunuja %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Selvä!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "KEVYT-RYNNISTYS"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "VIIMEINEN VAIHE SUORITETTU!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "VAIHE %(level)s SUORITETTU!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Kaikki tehtävät suoritettu!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Suoritettu"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Vanhenemiseen: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Kevyt-Rynnistyksen tehtäviä"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Uusien Kevyt-Rynnistyksen tehtävien saataville tulemiseen: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Palkinto:"
+msgstr[1] "Palkinnot:"
+msgstr[2] "Palkinnot:"
+
+msgid "battleResult/header/deserter"
+msgstr "Olet saanut rangaistuksen"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "KEVYT-RYNNISTYKSEN EDISTYMINEN"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Kevyt-Rynnistys kestää %(days)d päivän"
+msgstr[1] "Kevyt-Rynnistys kestää %(days)d päivää"
+msgstr[2] "Kevyt-Rynnistys kestää %(days)d päivää"
+
+msgid "calendarDay/title"
+msgstr "Aikataulu"
+
+msgid "closeButtonLabel"
+msgstr "SULJE"
+
+msgid "countDown/text"
+msgstr "Tapahtuman alkamiseen:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Nopeatempoinen pelimuoto 7v7 taisteluilla tason %(levels)s vaunuilla. Nauti alkuperäisen \"Rynnistys\" -pelimuodon pelikokemuksesta ilman karsintoja, luokituksia tai tilastoja ja ansaitse palkintoja päivittäisistä tehtävistä."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MODE"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s – Pelimuoto. Klikkaa tutkiaksesi"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Kevyt-Rynnistys"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Pelimuoto on saatavilla %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Tulitauko%(timer)s"
+
+msgid "featureName"
+msgstr "Kevyt-Rynnistys"
+
+msgid "featureNameCapitalized"
+msgstr "KEVYT-RYNNISTYS"
+
+msgid "intro/confirmButton"
+msgstr "Selvä!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Nauti alkuperäisen Rynnistyksen pelikokemuksesta ilman karsintoja, luokituksia tai mitään palvelushistoriaa."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Pelimuodossa on muuttujia, jotka vaihtavat vaunun tiettyjä parametrejä, kuten kestopisteitä, kulutustarvikkeiden jäähtymisaikaa, vaunun näkyvissä pysymisen aikaa ja paljon muuta."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Vallattuasi tiettyjä kartan alueita voit käyttää taktisia taitoja. On olemassa kahden tyyppisiä kohdealueita: tykistöpäämaja antaa mahdollisuuden ohjata tykistön iskemään tiettyyn asemaan ja viestintäkeskus havaitsee kaikki vihollisvaunut. Näiden kohdealueiden olemassaolo ja sijainti voivat vaihdella kartasta riippuen."
+
+msgid "intro/description/roleSkills"
+msgstr "Kullakin vaunulla on oma erikoistaitonsa roolista riippuen kolmella eri lataustasolla. Mitä korkeampi lataustaso taitoa aktivoitaessa sitä vahvempi vaikutus. Lataustaso riippuu arovaltapisteitä, joita voidaan ansaita vaikuttavasta taistelussa suoriutumisesta, kohdealueiden valtauksesta, taktisten taitojen käytöstä jne.\n\nTutustu pelimuodon sääntöihin saadaksesi lisää tietoa erilaisista tavoista, joilla voit ansaita arvovaltapisteitä."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Pelimuodossa voi käyttää vain tason %(levels)s vaunuja (telatykit ja muutamat muut vaunut eivät ole käytettävissä). Valmistele vaunusi tallissa ja valitse sitten paras valitun kartan perusteella, kun pääset taisteluun. Vaunua valitessa kannattaa pitää silmällä myös liittolaistesi valintoja."
+
+msgid "intro/title/lightGameplay"
+msgstr "OTA IISISTI, KOMENTAJA"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "RYNNISTYKSEN MUUTTUJAT"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "KOHDEALUEET"
+
+msgid "intro/title/roleSkills"
+msgstr "ROOLITAIDOT"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "VALITSE VAUNU TIETYLLE KARTALLE"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Voitto"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Tappio/tasapeli"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Vahvaa työtä, komentaja. Jatka samaan malliin!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Suorita tehtäviä ja saavuta huippusijoituksia Kevyt-Rynnistyksen taisteluissa parantaaksesi edistymistasoasi."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Ansaitsemiesi edistymispisteiden määrä riippuu arvovaltapisteiden mukaisesta sijoituksestasi taistelussa."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Pelimuodon päättymiseen %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Ensisijainen edistyminen suoritettu"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Kevyt-Rynnistys"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Top-2 sijoitus arvovaltapisteiden mukaan"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Top-5 sijoitus arvovaltapisteiden mukaan"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Top-7 sijoitus arvovaltapisteiden mukaan"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Käytä WoT Premium-tiliä"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktivoi henkilökohtaisia reservejä"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Suorita tehtäviä"
+
+msgid "noVehicles/howTo/title"
+msgstr "Mikä on nopein tapa hankkia tason %(levels)s vaunuja?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Osallistuaksesi Kevyt-Rynnistykseen, sinulle tulee olla tallissasi vähintään yksi tason %(levels)s vaunu, joka soveltuu pelimuotoon.\nvoit ostaa tason %(levels)s premium-vaunuja kehityspuusta tai pelinsisäisestä Kaupasta."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Osallistuaksesi Kevyt-Rynnistykseen tarvitset talliisi vähintään yhden tason %(levels)s vaunun, joka sopii pelimuotoon.\nSinulla on tason %(levels)s vaunu, jonka voit palauttaa."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Osallistuaksesi Kevyt-Rynnistykseen tarvitset talliisi vähintään yhden tason %(levels)s vaunun, joka sopii pelimuotoon"
+
+msgid "noVehicles/title"
+msgstr "Tallissasi ei ole soveltuvia vaunuja."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Tutustu Kevyt-Rynnistyksestä -sivuun saadaksesi lisätietoja."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Arvovaltapisteet"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Vahingon aiheuttaminen\nHavaitsemalla avustus\nTelojen tuhoaminen\nKriittisten osumien aiheuttaminen\nVihollisvaunujen tuhoaminen\nJa muuta"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Arvovaltapisteitä voi ansaita suorittamalla taistelutekoja, kuten:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Kausi on päättynyt %(server)s palvelimella."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Kausi on päättynyt %(server)s palvelimella."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Kausi on päättynyt %(server)s palvelimella."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Ensisijainen edistyminen suoritettu!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Vaihe %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s tai %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Uuden tehtävän saapumiseen:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Tapahtuman päättymiseen:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Tehtävien päivittämiseen"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Kaikki päivittäiset tehtävät suoritettu."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Edistyminen suoritettu. Pelaa Kevyt-Rynnistystä ansaitaksesi lisää palkintoja."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Suorita tehtäviä ja varmista huippusijoituksia Kevyt-Rynnistyksen\ntaisteluissa parantaaksesi edistymistasoasi.%(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Myönnetään palkinnoksi erikoistehtävien suorittamisesta ja taisteluiden taistelemisesta Kevyt-Rynnistyksessä. Ne antavat tilaisuuden edetä läpi tapahtuman edistymisen."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Kevyt-Rynnistyksen edistymispisteet"
+
+msgid "selectorTooltip/desc"
+msgstr "Luokittamaton pelimuoto. 7v7 | Taso %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Kevyt-Rynnistys"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Seuraa uusimpia uutisia pelin portaalissa pysyäksesi ajan hermoilla uuden kauden alkamisesta."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Tämä pelimuoto ei väliaikaisesti ole saatavilla teknisten syiden tähden."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Tämä pelimuoto tulee saataville %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Edistymispisteitä saatu"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Lisätiedot"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Kevyt-Rynnistys"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Saadut palkinnot:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Olet suorittanut edistymisen vaiheen %(stage)s %(progressionName)s -pelimuodossa."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Onneksi olkoon!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Tulitauko voimassa. Kevyt-Rynnistyksen taistelut eivät väliaikaisesti ole saatavilla."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Tulitauko"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Tulitauko ohi. Kevyt-Rynnistyksen taistelut ovat jälleen saatavilla."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Tulitauko"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Kevyt-Rynnistyksestä"

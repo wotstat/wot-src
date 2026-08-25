@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Tasso limitato"
+msgstr[1] "Tassi limitati %(index)s"
+msgstr[2] "Tassi limitati %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "È stato superato almeno un limite. Parte del pagamento sarà effettuato al tasso successivo."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Tasso di conversione base"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "Tasso successivo applicabile"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Numero di tassi limitati attivi: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Quantità totale al tasso limitato: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "Dopo la conversione:"
+
+msgid "common/cancel"
+msgstr "Annulla"
+
+msgid "common/combinedDiscount"
+msgstr "Sconto combinato"
+
+msgid "common/exchange"
+msgstr "Scambia"
+
+msgid "common/exchangeRate"
+msgstr "Tasso di conversione"
+
+msgid "common/limitExceeded"
+msgstr "Limite superato. Lo scambio sarà eseguito con lo sconto combinato."
+
+msgid "common/limitOverExceeded"
+msgstr "Limite superato: sarà usato lo sconto combinato."
+
+msgid "common/limitRestrictions"
+msgstr "SCOPRI DI PIÙ"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Tasso di conversione base: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Tasso di conversione generale: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "%(gold)s oro scambiato con successo. Crediti ricevuti: %(res)s."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Tasso di conversione personale: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Tasso di conversione personale: %(rateFrom)s = %(rateTo)s. Limite superato"
+
+msgid "exchangeXP/information"
+msgstr "%(res)s Exp convertita con successo in Exp tecnica. Oro speso: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "Exp disponibile:"
+
+msgid "experienceExchange/paid"
+msgstr "Spesa"
+
+msgid "experienceExchange/received"
+msgstr "Ricevuta"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Ordina per livello del veicolo"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Ordina per livello di Potenziamento specifico"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Ordina per nome del veicolo"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Ordina per nazionalità"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Ordina per tipo di veicolo"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Ordina per veicolo selezionato"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Ordina per Exp ottenuta"
+
+msgid "goldExchange/paid"
+msgstr "Da"
+
+msgid "goldExchange/received"
+msgstr "A"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s oro = %(resourceRate)s crediti"
+
+msgid "notification/discountDescription/message"
+msgstr "Tasso di conversione personale"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "Allo scambio"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Nuovo tasso di conversione disponibile!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Tasso di conversione base"
+
+msgid "tooltip/common/generalRate"
+msgstr "Tasso di conversione generale"
+
+msgid "tooltip/common/personalRate"
+msgstr "Tasso di conversione personale"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Tasso di conversione favorevole"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Tasso di conversione temporaneo"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "La quantità può essere determinata solo dopo l'acquisto di oro."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Quantità di oro dopo lo scambio"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s oro = %(resourceRate)s Exp tecnica"

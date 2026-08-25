@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Активирай"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Купи и активирай"
+
+msgid "activation/activateBonus"
+msgstr "Активирай резерв: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Активирай резерв"
+
+msgid "activation/activateButtonClan"
+msgstr "Към Укреплението"
+
+msgid "activation/battleXPDescription"
+msgstr "Бонус към бойния опит за 1 ч."
+
+msgid "activation/battleXPTitle"
+msgstr "Боен опит"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Купи и активирай подобрения личен резерв, който носи %(boosterBonus)s към %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Купи злато"
+
+msgid "activation/buyGoldTitle"
+msgstr "Купи злато за подобрения личен резерв, който носи %(boosterBonus)s към %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Злато, нужно за покупка на подобрения личен резерв:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Кредити и боен опит"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "Опит на екипажа и свободен опит"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Кланови резерви"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Активирай резерв в Укрепление"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Виж в Укрепление"
+
+msgid "activation/comboXPDescription"
+msgstr "Бонус към свободния и опита на екипажа за 1 ч."
+
+msgid "activation/comboXPTitle"
+msgstr "Свободен опит/екипаж"
+
+msgid "activation/creditsDescription"
+msgstr "Бонус към кредитите за 1 ч."
+
+msgid "activation/creditsTitle"
+msgstr "Кредити"
+
+msgid "activation/footer"
+msgstr "Изтичащите резерви трябва да бъдат активирани: %(expirableAmount) в %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Бонус към опита във Фронтова линия за 1 ч."
+
+msgid "activation/frontLineXPTitle"
+msgstr "Опит във Фронтова линия"
+
+msgid "activation/informationButton"
+msgstr "ИНФОРМАЦИЯ"
+
+msgid "activation/price"
+msgstr "Цена:"
+
+msgid "activation/subFooter/depot"
+msgstr "Склад"
+
+msgid "activation/subFooter/main"
+msgstr "Резервите, които са най-близо до изтичане, се активират първи. Можете да видите всичките си налични резерви в %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Активирайте {whiteSpanish_Open}до 3 лични резерва{whiteSpanish_Close}, за да печелите повече кредити и опит в битки. Купете още лични резерви в %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "Магазина"
+
+msgid "activation/terms/booster_credits"
+msgstr "кредитите"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "опит във Фронтова линия"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "свободния опит/опита на екипажа"
+
+msgid "activation/terms/booster_xp"
+msgstr "бойния опит"
+
+msgid "activation/title"
+msgstr "ЛИЧНИ РЕЗЕРВИ"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Активираният стандартен личен резерв, който носи %(previousBoosterBonus)s към %(previousBoosterTerm)s, ще бъде загубен.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Искате ли да активирате подобрения личен резерв, който носи %(boosterBonus)s към %(boosterTerm)s, вместо активирания стандартен личен резерв?"
+
+msgid "battleView/notice"
+msgstr "Личните резерви могат да бъдат активирани по всяко време в битка. Ще получите бонуса, дори ако резервът изтече по време на битка."
+
+msgid "battleView/title"
+msgstr "Активиране на лични резерви"
+
+msgid "depot/buyButton"
+msgstr "Към покупка"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Вече е активиран друг резерв от този вид."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Този личен резерв изтече по време на битката. Бонусът от личния резерв все още важи за тази битка."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)мин."
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Активираните лични резерви не се прилагат в този режим."
+
+msgid "intro/buttons/close"
+msgstr "Тъй вярно!"
+
+msgid "intro/buttons/details"
+msgstr "Подробности"
+
+msgid "intro/description"
+msgstr "Изтичащите лични резерви са достъпни за ограничен период от време след получаването им. Ако не бъдат активирани през това време, те ще бъдат загубени. Неизтичащите лични резерви не могат да се използват, докато имате налични лични изтичащи резерви от същия тип."
+
+msgid "intro/title"
+msgstr "ИЗТИЧАЩИ ЛИЧНИ РЕЗЕРВИ"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Няма лични резерви от този тип в Склада. Можете да ги закупите по-късно или да активирате в Парка."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Изпълнявайте мисии и участвайте в игрови събития, за да спечелите лични резерви."
+
+msgid "noReserveTooltip/text"
+msgstr "Няма лични резерви от този тип в Склад."

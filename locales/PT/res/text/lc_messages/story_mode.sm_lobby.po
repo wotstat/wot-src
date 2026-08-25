@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, duração da batalha: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "FECHAR"
+
+msgid "battleResult/continueButton"
+msgstr "Continuar"
+
+msgid "battleResult/damageAssisted"
+msgstr "Dano\nassistido"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Dano\nbloqueado"
+
+msgid "battleResult/damageDealt"
+msgstr "Dano\ncausado"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s Ao concluir as missões na dificuldade Rigoroso,\ntambém as conclui automaticamente em Normal.\nIsto significa que receberá recompensas pelos dois níveis de dificuldade."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s Ao concluir as missões na dificuldade Rigoroso, também as conclui automaticamente em Normal.\nIsto significa que receberá recompensas pelos dois níveis de dificuldade."
+
+msgid "battleResult/kills"
+msgstr "Inimigos\ndestruídos"
+
+msgid "battleResult/lose/title"
+msgstr "A BATALHA TERMINOU"
+
+msgid "battleResult/missionName/1"
+msgstr "CAÇADOR DE TIGERS: Operação Avalanche de Aço"
+
+msgid "battleResult/missionName/2"
+msgstr "CAÇADOR DE TIGERS: Operação Caçador"
+
+msgid "battleResult/missionName/3"
+msgstr "CAÇADOR DE TIGERS: Operação Martelo e Bigorna"
+
+msgid "battleResult/missionName/4"
+msgstr "CAÇADOR DE TIGERS: Operação Gato na Ratoeira"
+
+msgid "battleResult/missionName/5"
+msgstr "OPERAÇÃO OVERLORD"
+
+msgid "battleResult/missionName/6"
+msgstr "OPERAÇÃO CARTEIRO"
+
+msgid "battleResult/missionName/7"
+msgstr "OPERAÇÃO PONTO DE EBULIÇÃO"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Sem missões\nativas"
+
+msgid "battleResult/rewards/other"
+msgstr "Também recebeu:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Missões\nconcluídas"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Sobreviveu{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Não sobreviveu{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "VITÓRIA!"
+
+msgid "countdown/days"
+msgstr "{days} d"
+
+msgid "countdown/daysHours"
+msgstr "{days} d {hours} h"
+
+msgid "countdown/endsSoon"
+msgstr "Menos de {minutes} minutos"
+
+msgid "countdown/hours"
+msgstr "{hours} h"
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} h {minutes} min"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} h {minutes} m"
+
+msgid "countdown/lessThanMinute"
+msgstr "Menos de 1 minuto"
+
+msgid "countdown/minutes"
+msgstr "{minutes} min"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} m"
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "Cancelar"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "Não irá receber quaisquer recompensas por concluir esta operação.\nAinda quer jogar a operação sem as missões activas?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Confirmar"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "Sem Missões Activas Nesta Operação"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Identifique a ameaça desconhecida, impeça o lançamento do míssil e garanta que as novas tecnologias caem nas mãos certas."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "Jogue a solo e lute contra inimigos com IA nesta história épica com comandantes do Setor 3!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Conclua todas as missões para receber um crachá e uma medalha comemorativos, estilos 2D temáticos e outras recompensas valiosas."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "Uma Nova Era Nasce"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "História a Solo"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Recompensas"
+
+msgid "eventWelcomeScreen/header"
+msgstr "OPERAÇÃO PONTO DE EBULIÇÃO"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s – %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Histórias"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Rigorosa"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Normal"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Campo de Minas\nRigoroso"
+
+msgid "missionSelection/exitButton"
+msgstr "SAIR DO MODO"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "OPERAÇÃO\nAVALANCHE DE AÇO"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "OPERAÇÃO\nCAÇADOR"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "OPERAÇÃO\nMARTELO E BIGORNA"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "OPERAÇÃO\nGATO NA RATOEIRA"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "OPERAÇÃO\nOVERLORD"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "OPERAÇÃO\nCARTEIRO"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "OPERAÇÃO\nPONTO DE EBULIÇÃO"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Brooks: Então como está? Vai voltar? Irá ver os médicos mais tarde. Cada arma conta agora. O assalto já começou. E como estávamos atrasados, o inimigo concentrou toda a sua atenção noutro flanco. Esta é a nossa oportunidade. Nós atacamos logo. Entre na cidade e esmague-os de ambos os lados.\nSiga-nos — e evite os dentes do dragão. Eles têm um monte de fileiras dessas presas de concreto naquele campo. Mas está tudo bem. Nós vamos passar. Tudo o que precisa fazer é me ouvir e executar as minhas ordens com rapidez e precisão. MacLeod e eu dar-lhe-emos cobertura.\nE não ligue às piadas dele. Todos tem os seus próprios mecanismos de lidar únicos... Avante!"
+
+msgid "missionSelection/missionDescription/2"
+msgstr "MacLeod: Ah, Tigres - estes são os piores que pode enfrentar no campo de batalha. E se o comando disser que eles têm um problema, eles provavelmente se referem a Tigers. Não podemos contactar o primeiro esquadrão de assalto, o segundo acabou de partir, e aqui estamos — enviados para segui-los.\nE se eles nos enviarem, isso pode significar apenas uma coisa: Tigers. É o que dizem no QG: \"Mandem aqueles especialistas em Tigers!\" Nove tanques para dois. Nada mau para meio ano. Já lidera por 5-4. Mas eu tenho uma oportunidade de nos adiantarmos. E finalmente ganhe aquela maldita medalha!\nVamos — o Brooks não gosta de esperar. A nossa caça começa."
+
+msgid "missionSelection/missionDescription/3"
+msgstr "MacLeod: “Muito bem, pessoal, é a Operação Martelo e Bigorna. Nome simples para um trabalho não tão simples. Estamos a ir para a cidade para limpar as forças inimigas. Não vai ser um passeio no parque -vamos enfrentar uma blindagem pesada. Mas temos a inteligência, a força e o trabalho de equipa do nosso lado, certo, Lucky? E vamos ser rápidos, pessoal. Tenho planos para uma chávena de “chá” às cinco, se é que me entendem!"
+
+msgid "missionSelection/missionDescription/4"
+msgstr "MacLeod: “Não perguntes, Lucky. Estou tão às escuras como tu.Não sou fã de todo este secretismo. Gosto das coisas diretas. Vê-se o inimigo, luta-se. Mas isto? É uma confusão.\n\nHá tanques aliados na cidade também. Brooks pediu-nos para andarmos com cuidado. O que é que isso quer dizer?\nTemos um trabalho especial. Encontrar uma espécie de Wunderwaffe, algo enorme sobre carris. Não há mais ninguém para o fazer a não ser nós, Lucky.\n\nPronto? Vamos lá.”"
+
+msgid "missionSelection/missionDescription/5"
+msgstr "Capitão John McCormick: \"Muito bem, rapazes, o dia chegou. Está na hora de acabar com esta guerra e é exatamente isso que vamos fazer. Todos nós, juntos - Americanos, Ingleses, Franceses, Canadianos, Australianos, Belgas, Checoslovacos, Gregos, Holandeses, Kiwis, Noruegueses, Polacos. Estamos unidos para colocar um fim a este mal de uma vez por todas.\n\nVamos atravessar o Muro Atlântico e estabelecer a nossa posição.\n\nPreparem-se para a aterragem!\""
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Capitão Smith: “Oiçam. A Alemanha assinou os papéis de rendição há horas. A guerra termina amanhã. Mas os nossos rapazes nas montanhas perderam o contacto via rádio - eles não sabem que acabou. Vão atacar esta maldita fortaleza ao amanhecer, e os Alemães lá dentro também não sabem da rendição. Vai ser um massacre sem sentido. \n\nNós somos os únicos que o podem impedir. A nossa missão: Esgueirarmo-nos pelas linhas inimigas e entregar a ordem de cessar-fogo. É uma corrida suicida, mas cada vida que salvarmos vale a pena. \n\nTemos connosco um técnico de rádio Alemão capturado - ele conhece o terreno e tem tantas razões como nós para impedir este derramamento de sangue. \n\nAvancem.”"
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Leni Scharf: \"A situação é crítica. Perdemos o contacto com a nossa base de mísseis no mar da Noruega. O voo de reconhecimento nunca regressou e a força inicial de tanques foi aniquilada por um inimigo desconhecido.\n\nAs informações sugerem que se preparam para lançar um míssil balístico. Não sabemos o alvo, mas neste clima político, um único lançamento pode despoletar um conflito global.\n\nParece os velhos tempos, não é? Mais uma missão impossível atrás das linhas inimigas. Vamos rolar!\""
+
+msgid "missionSelection/missionName/1"
+msgstr "OPERAÇÃO AVALANCHE DE AÇO"
+
+msgid "missionSelection/missionName/2"
+msgstr "OPERAÇÃO CAÇADOR"
+
+msgid "missionSelection/missionName/3"
+msgstr "OPERAÇÃO MARTELO E BIGORNA"
+
+msgid "missionSelection/missionName/4"
+msgstr "OPERAÇÃO GATO NA RATOEIRA"
+
+msgid "missionSelection/missionName/5"
+msgstr "OPERAÇÃO OVERLORD"
+
+msgid "missionSelection/missionName/6"
+msgstr "OPERAÇÃO CARTEIRO"
+
+msgid "missionSelection/missionName/7"
+msgstr "OPERAÇÃO PONTO DE EBULIÇÃO"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Veículo Especial"
+
+msgid "missionSelection/tab/event"
+msgstr "OPERAÇÃO PONTO DE EBULIÇÃO"
+
+msgid "missionSelection/tab/newbies"
+msgstr "HISTÓRIAS TUTORIAIS"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Ataque a vila e destrua veículos inimigos."
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Ataque a vila e destrua veículos inimigos."
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Ataque a vila e destrua veículos inimigos."
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Conclua os objetivos principais da missão sem sofrer dano das minas inimigas."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Conclua os objetivos da missão principal sem perder um único veículo."
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Atacar a vila e capture a Wunderwaffe inimiga."
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Conclua os objetivos da missão principal em menos de %(win_timer)s."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Conclua os objetivos da missão principal e destrua pelo menos %(kill_enemies)s com a ajuda da aeronave."
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Avance, destrua as armas costeiras e capture a cabeça-de-ponte."
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Conclua os objetivos da missão principal em menos de %(win_timer)s."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Conclua os objetivos da missão principal sem perder um único veículo."
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Entregar a ordem de cessar-fogo aos seus aliados."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Conclua os objetivos principais da missão e destrua menos de %(kill_enemies)s."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Conclua os objetivos da missão principal sem perder um único veículo."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Chegue ao centro de comando e pare o lançamento do míssil."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Conclua os objetivos da missão principal em menos de %(win_timer)s."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Conclua os objetivos da missão principal sem perder um único veículo."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s veículo inimigo"
+msgstr[1] "%(value)s veículos inimigos"
+msgstr[2] "%(value)s veículos inimigos"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "A missão está bloqueada: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s minuto"
+msgstr[1] "%(value)s minutos"
+msgstr[2] "%(value)s minutos"
+
+msgid "missionSelection/taskRewards"
+msgstr "Recompensa:"
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Este veículo está apenas disponível nas Histórias."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Complete mais %(numBattles)s batalhas no modo de Batalhas Aleatórias \npara desbloquear esta operação."
+
+msgid "mode/story_mode/callToAction"
+msgstr "Cenários para iniciantes"
+
+msgid "mode/story_mode/description"
+msgstr "Conclua as operações escritas contra os veículos conduzidos por IA"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Operação Ponto de Ebulição disponível"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "Pode encontrar o modo de jogo atualmente selecionado na parte superior do menu principal da Garagem. Clique no nome do modo para ver o que mais está disponível."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Clique em &zwnbsp;{whiteSpanish_Open}Histórias{whiteSpanish_Close}&zwnbsp; para selecionar este modo de jogo."
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "Em Histórias, podes explorar cenários PvE narrativos, lutar contra inimigos controlados por IA, mergulhar na atmosfera das batalhas heróicas e ganhar recompensas valiosas!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Entrar no Seletor do Modo de Jogo"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Selecionar Histórias"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "Desfrute da Ação PvE"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "HISTÓRIAS"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Cenários com guião aguardam"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Reiniciar"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "A BATALHA TERMINOU"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Saltar"
+
+msgid "onboardingQueue/skipText"
+msgstr "Todos os servidores ocupados. Por favor, espere ou salte esta história."
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Estamos a preparar o servidor para si. Por favor espere..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Dano bloqueado pela blindagem {parSecondary_Start} (unidades){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Dano bloqueado"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "Tiros de munições HE e HESH não são contabilizados."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Contado:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Ricochete de tiros inimigos"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Tiros não penetrantes"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Dano assistidos"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "O seguinte dano causado por aliados com a sua ajuda é contado:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Dano sob a sua detecção"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "Dano causado ao destruir uma lagarta e imobilizar o veículo inimigo"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "Dano total causado por aliados\n{parSecondary_Start}(unidades){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Dano causado"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Contado:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Dano por tiro"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Dano por abalroamento"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Dano por fogo"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Dano causado ao empurrar o veículo inimigo de um obstáculo."
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Dano total {parSecondary_Start}(unidades){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Inimigos destruídos"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Contado:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Destruição por um tiro"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Destruição por fogo"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Destruição por abalroamento"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Destruição por afogamento"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Destruição por empurrar o veículo inimigo de um obstáculo"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Destruição por capotamento"
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Missões concluídas"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "O número de missões concluídas e\ntodas as missões disponíveis no momento.\nAs missões concluídas na dificuldade Rigorosa\nsão também concluídas automaticamente\nna dificuldade Regular."
+
+msgid "tooltips/difficulty/available"
+msgstr "Disponível"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "A velocidade de reação e a precisão dos inimigos foram aumentadas, e atacá-lo-ão com mais agressividade. Em troca, receberá recompensas extra ao completar a missão."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "Ao concluir missões na dificuldade {whiteSpanish_Open}Rigoroso{whiteSpanish_Close}, irá concluí-las automaticamente na dificuldade {whiteSpanish_Open}Normal{whiteSpanish_Close}. Receberá as recompensas para ambos os níveis de dificuldade."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Condição adicional"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Rigorosa"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "Para desbloquear a dificuldade Rigoroso, demonstre a sua habilidade no modo de jogo completando esta operação no Normal."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Bloqueado"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Os oponentes são mais lentos e menos precisos e recebe recompensas padrão ao concluir a missão."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Normal"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Selecionada"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "Uma versão mais desafiante da fase Campo de Minas da operação – tem coragem para entrar neste labirinto mortal?\nOferece maiores recompensas de batalha."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Rigoroso, Campo de Minas"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Identifique a ameaça desconhecida, impeça o lançamento do míssil e garanta que as novas tecnologias caem nas mãos certas."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Operação Ponto de Ebulição"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "MODO"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr " — Modo de jogo. Clique para explorar"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "Jogue a solo e lute contra inimigos com IA nesta história épica com comandantes do Setor 3!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Evento disponível por {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "HISTÓRIAS"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "MODO"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr " — Modo de jogo. Clique para explorar"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "Cenários especiais com guião. Embarque na sua jornada ao mundo dos veículos blindados e prove o seu valor lutando contra adversários com IA."
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "Histórias"
+
+msgid "tooltips/task/active"
+msgstr "Ativa"
+
+msgid "tooltips/task/completed"
+msgstr "Concluída"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Condições desconhecidas"
+
+msgid "tooltips/task/locked"
+msgstr "Bloqueada: %(timer)s"

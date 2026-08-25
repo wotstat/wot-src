@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "Bekreftes!"
+
+msgid "awardsView/subTitle"
+msgstr "KAMPER KJEMPET: {number}"
+
+msgid "awardsView/title"
+msgstr "REKOGNOSERINGSOPPDRAG"
+
+msgid "buttonDisable/tooltip"
+msgstr "Ikke tilgjengelig"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Program"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "Kan ikke gå inn i kampen"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "Kamper er avsluttet"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "Kan ikke gå inn i kampen"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "Våpenhvile har trådt i effekt for denne serveren. Vennligst velg en annen server."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "Du kan kun gå til kamp med %(levelSubStr)s."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "Inkompatibelt kjøretøynivå"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "Kjøretøy på nivå %(levels)s"
+
+msgid "intro/button"
+msgstr "Bekreftes!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "Dine tilbakemeldinger vil hjelpe oss med å forbedre slagmarkene. Fortell oss hva du tenker om de nye mekanismene og vi vil implementere de beste innspillene i spillet."
+
+msgid "intro/interviewInfoTitle"
+msgstr "Viktig tilbakemelding"
+
+msgid "intro/modeInfoDescription"
+msgstr "Kjemp i kjøretøy på nivå 8–10 på kart med nye mekanismer, fyll ut spørreundersøkelser og få belønninger. Om en uke blir fremgangen nullstilt, og du kan begynne å tjene belønninger igjen."
+
+msgid "intro/modeInfoTitle"
+msgstr "Hjelp oss med å utvikle nye mekanismer!"
+
+msgid "intro/startEvent"
+msgstr "Eventet begynner om: "
+
+msgid "intro/taskInfoDescription"
+msgstr "Når du kjemper i rekognoseringsoppdrag kan du samtidig fullføre daglige- og Battle Pass oppdrag, og oppfylle vilkår for fremgangsdekaler."
+
+msgid "intro/taskInfoTitle"
+msgstr "Kjemp med reglene som gjelder for tilfeldige kamper"
+
+msgid "intro/time/period/day"
+msgstr "{day} d"
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} d {hours} t"
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} t {min} min"
+
+msgid "intro/time/period/minute"
+msgstr "{min} min"
+
+msgid "intro/title"
+msgstr "REKOGNOSERINGSOPPDRAG"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s kan ikke kjempe i rekognoseringsoppdrag."
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "Inkompatibel kjøretøytype"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "Velg nivå %(levelSubStr)s til å delta i rekognoseringsoppdrag."
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "Inkompatibelt kjøretøynivå"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Nivå %(levels)s kjøretøy"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s kan ikke kjempe i rekognoseringsoppdrag."
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "Inkompatibelt kjøretøy"
+
+msgid "mapboxTab"
+msgstr "Rekognoseringsoppdrag"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Trinnet på %(server)s serveren er avsluttet"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Kamper på serveren %(server)s\n vil være tilgjengelig i ytterligere %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Kamper på %(server)s serveren\n vil være tilgjengelig i %(time)s"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Det er våpenhvile på alle serverne"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Denne modusen er ikke tilgjengelig på %(server)s serveren"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Kamper på %(server)s kommer til å være tilgjengelig i ytterligere %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Kamper begynner på %(server)s serveren om %(time)s"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "Kamper i denne modusen er ikke tilgjengelige: Sesongen er avsluttet."
+
+msgid "primeTimeView/status/untill"
+msgstr "Våpenhvile på %(server)s serveren gjelder frem til %(startTime)s"
+
+msgid "primeTimeView/title"
+msgstr "REKOGNOSERINGSOPPDRAG"
+
+msgid "primeTimes/availableServer"
+msgstr "Tilgjengelig server:"
+
+msgid "primeTimes/availableServers"
+msgstr "Tilgjengelige servere:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "Kamper er avsluttet"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Denne modusen er ikke tilgjengelig på %(serverName)s serveren"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "Kjemp kamper"
+
+msgid "progression/cardTitle/rating"
+msgstr "Bli blant de {rating} beste spillerne etter tjente erfaringspoeng"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "Vær blant de {rating} beste spillerne etter tjente erfaringspoeng på dette kartet med ild"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "Vær blant de {rating} beste spillerne etter tjente erfaringspoeng på dette kartet med tåke"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "Vær blant de {rating} beste spillerne etter tjente erfaringspoeng på dette kartet med tungt regn"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "Vær blant de {rating} beste spillerne etter tjente erfaringspoeng på dette kartet med sandstormer"
+
+msgid "progression/changeAnswer"
+msgstr "Endre svaret"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Kjemp i kjøretøy på nivåene 8–10 på kart med nye mekanismer, fyll ut spørreskjema og få belønninger."
+
+msgid "progression/info/restart"
+msgstr "Fremgangsbelønningene blir nullstilt om %(leftTime)s"
+
+msgid "progression/info/title"
+msgstr "Vær blant de %(rating) beste spillerne etter tjente erfaringspoeng: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "OM EVENTET"
+
+msgid "progression/map_01_karelia"
+msgstr "KARELIA"
+
+msgid "progression/map_02_malinovka"
+msgstr "MALINOVKA"
+
+msgid "progression/map_05_prohorovka"
+msgstr "PROKHOROVKA"
+
+msgid "progression/map_18_cliff"
+msgstr "WESTFIELD"
+
+msgid "progression/map_all"
+msgstr "SPILL\nMEKANISMER"
+
+msgid "progression/map_fire"
+msgstr "Ild"
+
+msgid "progression/map_fog"
+msgstr "Tåke"
+
+msgid "progression/map_heavy_rain"
+msgstr "Tungt regn"
+
+msgid "progression/map_sandstorm"
+msgstr "Sandstorm"
+
+msgid "progression/redirect"
+msgstr "Gå til modusen"
+
+msgid "progression/startInterview"
+msgstr "Fyll ut spørreskjema"
+
+msgid "progression/startInterviewTooltip"
+msgstr "Oppfyll vilkårene over for å kunne besvare spørreskjemaet."
+
+msgid "progression/startSpecialInterview"
+msgstr "Fyll ut spørreskjema"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "Oppfyll vilkårene over for å kunne besvare spørreskjemaet."
+
+msgid "progression/subtitle"
+msgstr "Her kan du svare på spørreskjema om de nye spillmekanismene"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "progression/title"
+msgstr "REKOGNOSERINGSOPPDRAG"
+
+msgid "progressionError/description/line1"
+msgstr "Fremgangen din er lagret. Du kan fortsette å spille."
+
+msgid "progressionError/description/line2"
+msgstr "Du vil kunne se fremgangen din og svare på spørreskjemaet snart."
+
+msgid "progressionError/title"
+msgstr "Detaljene om rekognoseringsoppdrag er midlertidig utilgjengelig"
+
+msgid "questFlag/complete"
+msgstr "Alle belønningene mottatt"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "Kjemp i %(highlightedText)s, svar på spørreskjema og få belønninger."
+
+msgid "questFlag/frozen/header"
+msgstr "Rekognoseringsoppdrag ikke tilgjengelig"
+
+msgid "questFlag/frozen/text"
+msgstr "Rekognoseringsoppdrag er ikke tilgjengelig av tekniske årsaker."
+
+msgid "questFlag/highlightedText"
+msgstr "Kjøretøy på nivåene 8–10 på kart med nye mekanismer"
+
+msgid "questFlag/incomplete"
+msgstr "Kamper som må kjempes for å få den neste belønningen: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "Kamper kjempet:"
+
+msgid "questFlag/surveysTitle"
+msgstr "Besvarte spørreskjemaer: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "Utforskningen av kart med nye mekanismer begynner om %(day)s"
+
+msgid "selector/tooltip/body"
+msgstr "Utforskningen av kart med nye mekanismer vil vare til %(day)s"
+
+msgid "selector/tooltip/title"
+msgstr "Program"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Sesong avsluttes om:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Kampprogram"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "I dag"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "I morgen"
+
+msgid "serverAlertMessage/button"
+msgstr "Velg en annen server"
+
+msgid "survey/backBtn"
+msgstr "Tilbake"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "PJere"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "SPGer"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "TT"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "LT"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "MT"
+
+msgid "survey/fire/question/q1"
+msgstr "Var det kult å spille på Murovanka kartet med ildmekanismen?"
+
+msgid "survey/fire/question/q2"
+msgstr "Hva er din mening om det visuelle designet med ild på Murovanka kartet?"
+
+msgid "survey/fire/question/q3"
+msgstr "Hadde du likt å kunne justere hvordan hendelsene med ild påvirker spillet på Murovanka kartet?"
+
+msgid "survey/fire/question/q4"
+msgstr "Akkurat hvordan ville du ha justert påvirkelsen av ild på spillets gang i Murovanka kartet?"
+
+msgid "survey/fire/question/q5"
+msgstr "Hvilke typer kjøretøy spilte du på Murovanka kartet?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "Hvordan påvirket {value} spillingen på Murovanka kartet?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "Hvordan påvirket {value} spillingen på Murovanka kartet?"
+
+msgid "survey/fire/question/q7"
+msgstr "Vil du at hendelsene med ild på kartene kommer til tilfeldige kamper?"
+
+msgid "survey/fire/question/q8"
+msgstr "Hva likte du ikke med ildmekanismen på Murovanka kartet?"
+
+msgid "survey/fire/question/q9"
+msgstr "Spesifisér hvilke som helst nødvendige forbedringer."
+
+msgid "survey/fire/response/q1_1"
+msgstr "Ja, det synes jeg"
+
+msgid "survey/fire/response/q1_2"
+msgstr "Nei, det synes jeg ikke"
+
+msgid "survey/fire/response/q1_3"
+msgstr "Ikke sikker"
+
+msgid "survey/fire/response/q2_1"
+msgstr "Jeg likte det"
+
+msgid "survey/fire/response/q2_2"
+msgstr "Det er okei"
+
+msgid "survey/fire/response/q2_3"
+msgstr "Jeg mislikte det"
+
+msgid "survey/fire/response/q2_4"
+msgstr "Ikke sikker"
+
+msgid "survey/fire/response/q3_1"
+msgstr "Ja, det ville jeg"
+
+msgid "survey/fire/response/q3_2"
+msgstr "Nei, det ville jeg ikke"
+
+msgid "survey/fire/response/q3_3"
+msgstr "Ikke sikker"
+
+msgid "survey/fire/response/q4_1"
+msgstr "Gjør det kraftigere"
+
+msgid "survey/fire/response/q4_2"
+msgstr "Gjør det svakere"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "PJere"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "SPGer"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "TT"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "LT"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "MT"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "Husker ikke"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "Det ble bedre"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "Det ble verre"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "Det endret ikke noe"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "Ikke sikker"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "Det ble bedre"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "Det ble verre"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "Det endret ikke noe"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "Ikke sikker"
+
+msgid "survey/fire/response/q7_1"
+msgstr "Ja, det ville jeg"
+
+msgid "survey/fire/response/q7_2"
+msgstr "Nei, det ville jeg ikke"
+
+msgid "survey/fire/response/q7_3"
+msgstr "Ikke sikker"
+
+msgid "survey/fire/response/q8_1"
+msgstr "Ilden reduserte antall tilgjengelige posisjoner betydelig"
+
+msgid "survey/fire/response/q8_10"
+msgstr "Det ene laget får en fordel"
+
+msgid "survey/fire/response/q8_11"
+msgstr "Tekniske problemer"
+
+msgid "survey/fire/response/q8_12"
+msgstr "Andre"
+
+msgid "survey/fire/response/q8_2"
+msgstr "Ild forårsaker for mye skade"
+
+msgid "survey/fire/response/q8_3"
+msgstr "Motstandere utenfor sonen kan ikke se kjøretøyet mitt, men jeg kan ikke se deres heller"
+
+msgid "survey/fire/response/q8_4"
+msgstr "Ildens lokasjon på kartet"
+
+msgid "survey/fire/response/q8_5"
+msgstr "Måten ilden ser ut på"
+
+msgid "survey/fire/response/q8_6"
+msgstr "For stor påvirkning på spillets gang i dette kartet"
+
+msgid "survey/fire/response/q8_7"
+msgstr "For liten påvirkning på spillets gang i dette kartet"
+
+msgid "survey/fire/response/q8_8"
+msgstr "De visuelle flammene forstyrret kampen"
+
+msgid "survey/fire/response/q8_9"
+msgstr "Ild tvinger frem nærkamper"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "PJere"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "SPGer"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "TT"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "LT"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "MT"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "PJere"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "SPGer"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "TT"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "LT"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "MT"
+
+msgid "survey/fog/question/q1"
+msgstr "Var det kult å spille på de følgende kartene med tåkemekanismen?"
+
+msgid "survey/fog/question/q10"
+msgstr "Vil du at hendelsene med tåke på kartene kommer til tilfeldige kamper?"
+
+msgid "survey/fog/question/q11"
+msgstr "Hva likte du ikke med tåkemekanismen på Fjords kartet?"
+
+msgid "survey/fog/question/q12"
+msgstr "Hva likte du ikke med tåkemekanismen på Outpost kartet?"
+
+msgid "survey/fog/question/q13"
+msgstr "Spesifisér hvilke som helst nødvendige forbedringer."
+
+msgid "survey/fog/question/q2"
+msgstr "Hva er din mening om det visuelle designet med tåke på de følgende kartene?"
+
+msgid "survey/fog/question/q3"
+msgstr "Hadde du likt å kunne justere hvordan tåke påvirker spillet på kartet?"
+
+msgid "survey/fog/question/q4"
+msgstr "Akkurat hvordan ville du ha justert påvirkelsen av tåke på spillets gang i Fjords kartet?"
+
+msgid "survey/fog/question/q5"
+msgstr "Akkurat hvordan ville du ha justert påvirkelsen av tåke på spillets gang i Outpost kartet?"
+
+msgid "survey/fog/question/q6"
+msgstr "Hvilke typer kjøretøy spilte du på Fjords kartet?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "Hvordan påvirket {value} spillingen på Fjords kartet?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "Hvordan påvirket {value} spillingen på Fjords kartet?"
+
+msgid "survey/fog/question/q8"
+msgstr "Hvilke typer kjøretøy spilte du på Outpost kartet?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "Hvordan påvirket {value} spillingen på Outpost kartet?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "Hvordan påvirket {value} spillingen på Outpost kartet?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "Ja, det ville jeg"
+
+msgid "survey/fog/response/q10_2"
+msgstr "Nei, det ville jeg ikke"
+
+msgid "survey/fog/response/q10_3"
+msgstr "Ikke sikker"
+
+msgid "survey/fog/response/q11_1"
+msgstr "Motstandere utenfor sonen kan ikke se kjøretøyet mitt, men jeg kan ikke se deres heller"
+
+msgid "survey/fog/response/q11_10"
+msgstr "Andre"
+
+msgid "survey/fog/response/q11_2"
+msgstr "Tåkens lokasjon på kartet"
+
+msgid "survey/fog/response/q11_3"
+msgstr "Måten tåken ser ut som"
+
+msgid "survey/fog/response/q11_4"
+msgstr "For stor påvirkning på spillets gang i dette kartet"
+
+msgid "survey/fog/response/q11_5"
+msgstr "For liten påvirkning på spillets gang i dette kartet"
+
+msgid "survey/fog/response/q11_6"
+msgstr "Det visuelle med tåken forstyrret kampen"
+
+msgid "survey/fog/response/q11_7"
+msgstr "Tåken tvinger frem nærkamper"
+
+msgid "survey/fog/response/q11_8"
+msgstr "Det ene laget får en fordel"
+
+msgid "survey/fog/response/q11_9"
+msgstr "Tekniske problemer"
+
+msgid "survey/fog/response/q12_1"
+msgstr "Motstandere utenfor sonen kan ikke se kjøretøyet mitt, men jeg kan ikke se deres heller"
+
+msgid "survey/fog/response/q12_10"
+msgstr "Andre"
+
+msgid "survey/fog/response/q12_2"
+msgstr "Tåkens lokasjon på kartet"
+
+msgid "survey/fog/response/q12_3"
+msgstr "Måten tåken ser ut som"
+
+msgid "survey/fog/response/q12_4"
+msgstr "For stor påvirkning på spillets gang i dette kartet"
+
+msgid "survey/fog/response/q12_5"
+msgstr "For liten påvirkning på spillets gang i dette kartet"
+
+msgid "survey/fog/response/q12_6"
+msgstr "Det visuelle med tåken forstyrret kampen"
+
+msgid "survey/fog/response/q12_7"
+msgstr "Tåken tvinger frem nærkamper"
+
+msgid "survey/fog/response/q12_8"
+msgstr "Det ene laget får en fordel"
+
+msgid "survey/fog/response/q12_9"
+msgstr "Tekniske problemer"
+
+msgid "survey/fog/response/q1_1"
+msgstr "Ja, det synes jeg"
+
+msgid "survey/fog/response/q1_2"
+msgstr "Nei, det synes jeg ikke"
+
+msgid "survey/fog/response/q1_3"
+msgstr "Ikke sikker"
+
+msgid "survey/fog/response/q2_1"
+msgstr "Jeg likte det"
+
+msgid "survey/fog/response/q2_2"
+msgstr "Det er okei"
+
+msgid "survey/fog/response/q2_3"
+msgstr "Jeg mislikte det"
+
+msgid "survey/fog/response/q2_4"
+msgstr "Ikke sikker"
+
+msgid "survey/fog/response/q3_1"
+msgstr "Ja, det ville jeg"
+
+msgid "survey/fog/response/q3_2"
+msgstr "Nei, det ville jeg ikke"
+
+msgid "survey/fog/response/q3_3"
+msgstr "Ikke sikker"
+
+msgid "survey/fog/response/q4_1"
+msgstr "Gjør det kraftigere"
+
+msgid "survey/fog/response/q4_2"
+msgstr "Gjør det svakere"
+
+msgid "survey/fog/response/q5_1"
+msgstr "Gjør det kraftigere"
+
+msgid "survey/fog/response/q5_2"
+msgstr "Gjør det svakere"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "PJere"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "SPGer"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "TT"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "LT"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "MT"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "Husker ikke"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "Det ble bedre"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "Det ble verre"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "Det endret ikke noe"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "Ikke sikker"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "Det ble bedre"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "Det ble verre"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "Det endret ikke noe"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "Ikke sikker"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "PJere"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "SPGer"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "TT"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "LT"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "MT"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "Husker ikke"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "Det ble bedre"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "Det ble verre"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "Det endret ikke noe"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "Ikke sikker"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "Det ble bedre"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "Det ble verre"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "Det endret ikke noe"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "Ikke sikker"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "PJere"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "SPGer"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "TT"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "LT"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "MT"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "PJere"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "SPGer"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "TT"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "LT"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "MT"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "Var det kult å spille på de følgende kartene med mekanismen med tungt regn?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "Vil du at hendelsene med tungt regn på kartene kommer til tilfeldige kamper?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "Hva likte du ikke med mekanismen med tungt regn på Westfield kartet?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "Hva likte du ikke med tåkemekanismen på Fisherman's Bay kartet?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "Spesifisér hvilke som helst nødvendige forbedringer."
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "Hva er din mening om det visuelle designet med tungt regn på de følgende kartene?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "Hadde du likt å kunne justere hvordan tungt regn påvirker spillet på kartet?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "Akkurat hvordan ville du ha justert påvirkelsen av tungt regn for spillets gang på Westfield kartet?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "Akkurat hvordan ville du ha justert påvirkelsen av tungt regn for spillets gang på Fisherman's Bay kartet?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "Hvilke typer kjøretøy spilte du på Westfield kartet?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "Hvordan påvirket {value} spillingen på Westfield kartet?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "Hvordan påvirket {value} spillingen på Westfield kartet?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "Hvilke typer kjøretøy spilte du på Fisherman's Bay kartet?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "Hvordan påvirket {value} spillingen på Fisherman's Bay kartet?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "Hvordan påvirket {value} spillingen på Fisherman's Bay kartet?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "Ja, det ville jeg"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "Nei, det ville jeg ikke"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "Ikke sikker"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "Det blir for glatt i sonen med tungt regn"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "Tekniske problemer"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "Andre"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "Motstandere utenfor sonen kan ikke se kjøretøyet mitt, men jeg kan ikke se deres heller"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "Lokasjon for det tunge regnet på kartet"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "Måten tungt regn ser ut på"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "For stor påvirkning på spillets gang i dette kartet"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "For liten påvirkning på spillets gang i dette kartet"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "Det visuelle med tungt regn forstyrret kampen"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "Tungt regn tvinger frem nærkamper"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "Det ene laget får en fordel"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "Det blir for glatt i sonen med tungt regn"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "Tekniske problemer"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "Andre"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "Motstandere utenfor sonen kan ikke se kjøretøyet mitt, men jeg kan ikke se deres heller"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "Lokasjon for det tunge regnet på kartet"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "Måten tungt regn ser ut på"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "For stor påvirkning på spillets gang i dette kartet"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "For liten påvirkning på spillets gang i dette kartet"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "Det visuelle med tungt regn forstyrret kampen"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "Tungt regn tvinger frem nærkamper"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "Det ene laget får en fordel"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "Ja, det synes jeg"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "Nei, det synes jeg ikke"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "Ikke sikker"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "Jeg likte det"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "Det er okei"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "Jeg mislikte det"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "Ikke sikker"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "Ja, det ville jeg"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "Nei, det ville jeg ikke"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "Ikke sikker"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "Gjør det kraftigere"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "Gjør det svakere"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "Gjør det kraftigere"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "Gjør det svakere"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "PJere"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "SPGer"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "TT"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "LT"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "MT"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "Husker ikke"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "Det ble bedre"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "Det ble verre"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "Det endret ikke noe"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "Ikke sikker"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "Det ble bedre"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "Det ble verre"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "Det endret ikke noe"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "Ikke sikker"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "PJere"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "SPGer"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "TT"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "LT"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "MT"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "Husker ikke"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "Det ble bedre"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "Det ble verre"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "Det endret ikke noe"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "Ikke sikker"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "Det ble bedre"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "Det ble verre"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "Det endret ikke noe"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "Ikke sikker"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "Neste"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "Bekreftet!"
+
+msgid "survey/required"
+msgstr "Besvar spørsmålet for å fortsette."
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "PJere"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "SPGer"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "TT"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "LT"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "MT"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "Var det kult å spille på Sand River kartet med sandstorm mekanismen?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "Hva er din mening om det visuelle designet med sandstorm på Sand River kartet?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "Hadde du likt å kunne justere hvordan hendelsene med sandstorm påvirker spillet på Sand River kartet?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "Akkurat hvordan ville du ha justert påvirkelsen av sandstorm for spillets gang på Sand River kartet?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "Hvilke typer kjøretøy spilte du på Sand River kartet?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "Hvordan påvirket {value} spillingen på Sand River kartet?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "Hvordan påvirket {value} spillingen på Sand River kartet?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "Vil du at hendelsene med sandstorm på kartene kommer til tilfeldige kamper?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "Hva likte du ikke med sandstorm mekanismen på Sand River kartet?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "Spesifisér hvilke som helst nødvendige forbedringer."
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "Ja, det synes jeg"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "Nei, det synes jeg ikke"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "Ikke sikker"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "Jeg likte det"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "Det er okei"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "Jeg mislikte det"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "Ikke sikker"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "Ja, det ville jeg"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "Nei, det ville jeg ikke"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "Ikke sikker"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "Gjør det kraftigere"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "Gjør det svakere"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "PJere"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "SPGer"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "TT"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "LT"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "MT"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "Husker ikke"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "Det ble bedre"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "Det ble verre"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "Det endret ikke noe"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "Ikke sikker"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "Det ble bedre"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "Det ble verre"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "Det endret ikke noe"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "Ikke sikker"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "Ja, det ville jeg"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "Nei, det ville jeg ikke"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "Ikke sikker"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "Motstandere utenfor sonen kan ikke se kjøretøyet mitt, men jeg kan ikke se deres heller"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "Andre"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "Sandstormens lokasjon på kartet"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "Måten sandstormer ser ut som"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "For stor påvirkning på spillets gang i dette kartet"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "For liten påvirkning på spillets gang i dette kartet"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "Det visuelle med sandstorm forstyrret kampen"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "Sandstorm tvinger frem nærkamper"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "Det ene laget får en fordel"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "Tekniske problemer"
+
+msgid "survey/subTitle"
+msgstr "Takk for at du tok deg tid til å delta i denne spørreundersøkelsen! Det vil ta omtrent to minutter. Svarene dine vil kun bli brukt til denne undersøkelsen, og personlige data vil bli slettet i henhold til våre privatrettslige regler."
+
+msgid "survey/template/final/title"
+msgstr "Takk for at du tok deg tid til å delta i denne spørreundersøkelsen!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "KLIKK PÅ KARTET FOR Å VELGE EN POSISJON"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "DU KAN VELGE OPPTIL TRE POSISJONER PÅ KARTET"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "Detaljert beskrivelse (opptil %(maxLength)s tegn)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "Posisjon"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "Fjern posisjon"
+
+msgid "survey/template/opened/description"
+msgstr "Detaljert beskrivelse av problemet (opptil %(maxLength)s tegn)"
+
+msgid "survey/title/common"
+msgstr "Vennligst ranger de nye egenskapene"
+
+msgid "survey/title/map"
+msgstr "Evaluering av %(map)s kartet"

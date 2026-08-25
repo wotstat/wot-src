@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Επέκταση"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Αποστράτευση Μελών Με Ελλειπή Εκπαίδευση"
+
+msgid "barracks/bunks/title"
+msgstr "Κλίνες:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Καθορίστε πλήθος κλινών για αγορά. Διαθέσιμες κλίνες στον Στρατώνα: %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Τιμή Έκπτωσης"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Νέα τιμή: %(currency)s ανά %(bunksCount)s κλίνες"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Αρχική τιμή: %(currency)s ανά %(bunksCount)s κλίνες"
+
+msgid "barracks/enlarge/header"
+msgstr "Επέκταση του Στρατώνα?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Τα μέλη πληρώματος με ελλειπή εκπαίδευση στον Στρατώνα που έχουν λιγότερα από τα {whiteSpanish_Open}210 060{whiteSpanish_Close}{icon} XP που απαιτούνται για να αποκτήσουν την πρώτη τους ικανότητα στο {whiteSpanish_Open}100%{whiteSpanish_Close} μπορούν να αποστρατευτούν."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Μέλη Με Ελλειπή Εκπαίδευση"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Δεν έχετε μέλη με ελλειπή εκπαίδευση"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Δεν θα λάβετε κάποιο αντιστάθμισμα για τα μέλη με ελλειπή εκπαίδευση που αποστρατεύετε. Μόλις αυτά αποστρατευτούν, δεν θα μπορεί να γίνει ανάκτησή τους και όλα τους τα XP θα χαθούν."
+
+msgid "barracks/title"
+msgstr "ΣΤΡΑΤΩΝΑΣ"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Κάντε κλικ εδώ για επέκταση Στρατώνα."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Επέκταση Στρατώνα"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Τοποθεσία"
+
+msgid "common/imageNotAvailable"
+msgstr "Εικονίδιο Μη Διαθέσιμο"
+
+msgid "common/inBarracks"
+msgstr "Στον Στρατώνα"
+
+msgid "common/inBattle"
+msgstr "Σε Μάχη"
+
+msgid "common/inPrebattle"
+msgstr "Σε Επιχειρησιακή Μονάδα"
+
+msgid "common/navigation/aboutCrew"
+msgstr "ΣΧΕΤΙΚΑ ΜΕ ΤΟ ΠΛΗΡΩΜΑ"
+
+msgid "common/navigation/toBarracks"
+msgstr "ΣΤΟΝ ΣΤΡΑΤΩΝΑ"
+
+msgid "common/navigation/toGarage"
+msgstr "ΣΤΟ ΓΚΑΡΑΖ"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "ΠΡΟΣΩΠΙΚΟ ΑΡΧΕΙΟ"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Θετικό!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Τα μέλη πληρώματος μετατράπηκαν σε Τόμους Πληρώματος."
+
+msgid "conversionAwards/title"
+msgstr "ΕΠΙΤΥΧΗΣ ΜΕΤΑΤΡΟΠΗ"
+
+msgid "conversionAwards/underTitle"
+msgstr "Τα ακόλουθα αντικείμενα πιστώθηκαν στον λογαριασμό σας."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Άκυρο"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Αποστράτευση"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Μέλη πληρώματος που θα αποστρατευτούν: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Αποστράτευση των μελών με ελλειπή εκπαίδευση?"
+
+msgid "conversionConfirm/warning"
+msgstr "Δεν θα λάβετε κάποιο αντιστάθμισμα για τα μέλη με ελλειπή εκπαίδευση που αποστρατεύετε. Μόλις αυτά αποστρατευτούν, δεν θα μπορεί να γίνει ανάκτησή τους και όλα τους τα XP θα χαθούν."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Αυτόματη Επιλογή Ικανοτήτων"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Δεν υπάρχουν μέλη πληρώματος με μη εκπαιδευμένες ικανότητες."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Αδύνατη Η Αυτόματη Επιλογή Ικανοτήτων"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Όλες οι μη εκπαιδευμένες ικανότητες που έχουν ως σήμανση έναν σταυρό θα αντικατασταθούν με ικανότητες που θα επιλεχθούν αυτόματα, με την ίδια λογική για όλα τα πληρώματα."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Αυτόματη Επιλογή Ικανοτήτων Για Όλα Τα Μέλη"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Επαναφορά Ικανοτήτων Για Όλα Τα Μέλη"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Δεν υπάρχουν μέλη πληρώματος με εκπαιδευμένες ικανότητες."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Αδύνατη Η Επαναφορά Των Ιικανοτήτων"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Θα γίνει επαναφορά όλων των ικανοτήτων σε όλα τα μέλη πληρώματος του λογαριασμού σας. Δεν θα μπορεί να γίνει αναστροφή της λειτουργίας αυτής."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Επαναφορά Ικανοτήτων Για Όλα Τα Μέλη"
+
+msgid "crewBanner/infoText"
+msgstr "Δωρεάν επαναφορά ικανοτήτων ή αυτόματη επιλογή μη εκπαιδευμένων ικανοτήτων για όλα τα μέλη πληρώματος του λογαριασμού σας"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Η Επιτάχυνση Εκπαίδευσης Πληρώματος είναι ενεργή"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Μπόνους Επιδόσεων: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Επίδραση Ικανοτήτων"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Οι ικανότητες δεν είναι διαθέσιμες γιατί το συγκεκριμένο μέλος πληρώματος δεν είναι εκπαιδευμένο για αυτό το όχημα."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Ειδίκευση:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Ικανότητες Μη Διαθέσιμες"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Πρόσθετες ικανότητες:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Ικανότητες κύριας ειδικότητας:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(Κίνα)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Τσεχοσλοβακία)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Γαλλία)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Γερμανία)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Ιταλία)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Ιαπωνία)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Πολωνία)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Σουηδία)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(Η.Β.)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(Η.Π.Α.)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(Ε.Σ.Σ.Δ.)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Όλα τα Προνομιακά αντιαρματικά {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Όλα τα Προνομιακά Α/Κ Πυροβόλα\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Όλα τα Προνομιακά βαρέα άρματα\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Όλα τα Προνομιακά ελαφρά άρματα\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Όλα τα Προνομιακά μέσα άρματα\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Λεπτομέρειες"
+
+msgid "filter/group/details/title"
+msgstr "Λεπτομέρειες"
+
+msgid "filter/group/nation/title"
+msgstr "Έθνος"
+
+msgid "filter/group/other/title"
+msgstr "Λοιπά"
+
+msgid "filter/group/special/title"
+msgstr "Ειδικά"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Ειδικότητα"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Βαθμίδα"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Βαθμίδα"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Ειδίκευση"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Τύπος Οχήματος"
+
+msgid "filter/popup/button/title"
+msgstr "Φίλτρο"
+
+msgid "filter/popup/default/title"
+msgstr "Φίλτρο"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Φίλτρο Εθνών"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Φίλτρο Οχημάτων"
+
+msgid "filter/reset"
+msgstr "Επαναφορά Φίλτρου"
+
+msgid "filter/search/placeholder"
+msgstr "Αναζήτηση με το όνομα"
+
+msgid "filter/search/tooltip/header"
+msgstr "Αναζήτηση Με Το Όνομα"
+
+msgid "filter/title"
+msgstr "Προβολή:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Εμφάνιση/Απόκρυψη μελών πληρώματος σε οχήματα με όλα τα διαθέσιμα εξαρτήματα και κλάδους τεχνολογίας να έχουν ανακαλυφθεί."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Επίλεκτα Οχήματα"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Προβολή/Απόκρυψη μελών πληρώματος για Προνομιακά Οχήματα."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Προνομιακά Οχήματα"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Προβολή/Απόκρυψη μελών πληρώματος σε πρωταρχικά οχήματα."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Πρωταρχικά Οχήματα"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Προβολή/Απόκρυψη μελών πληρώματος για οχήματα αυτού του τύπου."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Προβολή/Απόκρυψη μελών πληρώματος αυτού του έθνους."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Προβολή/Απόκρυψη προσώπων πληρώματος αυτού του έθνους."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Προβολή/Απόκρυψη οχημάτων αυτού του έθνους."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Προβολή/Απόκρυψη αποστρατευμένων."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Σε Αποστρατεία"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Προβολή νεοσύλλεκτων."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Νεοσύλλεκτοι"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Προβολή μελών πληρώματος."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Μέλη Πληρώματος"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Προβολή/Απόκρυψη μελών πληρώματος αυτής της ειδικότητας."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Προβολή/Απόκρυψη Προνομιακών Οχημάτων."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Προνομιακά Οχήματα"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Προβολή/Απόκρυψη οχημάτων αυτού του τύπου."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Αντιαρματικά"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Α/Κ Πυροβόλα"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Βαρέα Άρματα"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Ελαφρά Άρματα"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Μέσα Άρματα"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Κανένα όχημα δεν πληροί\nτα κριτήρια αναζήτησης"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Ταξινόμηση με βάση την ονομασία των οχημάτων."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Όνομα"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Ταξινόμηση με βάση τις Βαθμίδες των οχημάτων."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Βαθμίδα"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Ταξινόμηση με βάση τον τύπο οχήματος."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Τύπος"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Όνομα"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Κλικ για επαναφορά του φίλτρου."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Επαναφορά Όλων Των Φίλτρων"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Θετικό!"
+
+msgid "junkTankmen/description"
+msgstr "Αυτά τα μέλη πληρώματος έχουν λιγότερα από τα {bond_Open}210 060{bond_Close}{icon} XP που απαιτούνται για να αποκτήσουν την πρώτη τους ικανότητα στο {whiteSpanish_Open}100%{whiteSpanish_Close}.\nΘα διαγραφούν οριστικά από τον λογαριασμό σας."
+
+msgid "junkTankmen/title"
+msgstr "Αποστράτευση των μελών με ελλειπή εκπαίδευση?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Υπάρχει όριο {whiteSpanish_Open}τριών{whiteSpanish_Close} ικανοτήτων για κάθε πρόσθετη ειδικότητα. Πρόσβαση στις πρόσθετες ικανότητες θα αποκτάτε όταν φτάνετε στην {whiteSpanish_Open}πρώτη{whiteSpanish_Close}, {whiteSpanish_Open}τρίτη{whiteSpanish_Close} και {whiteSpanish_Open}πέμπτη{whiteSpanish_Close} ικανότητα της κύριας ειδικότητας."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Πρόσθετες Ικανότητες"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Όταν εκπαιδεύεται ένα μέλος πληρώματος για κάποιο άλλο όχημα με διαφορετικό συνδυασμό ειδικοτήτων, θα μπορείτε να επιλέξετε εκ νέου πρόσθετες ικανότητες για τις επιπλέον ικανότητες."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Οι πρόσθετες ικανότητες εκπαιδεύονται 50% πιο αργά από τις ικανότητες της κύριας ειδικότητας."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Δεν απαιτούνται επιπλέον XP για την εκπαίδευση των πρόσθετων ικανοτήτων."
+
+msgid "matrix/freeResetButton"
+msgstr "Δωρεάν Επαναφορά"
+
+msgid "matrix/increaseButton"
+msgstr "Επιτάχυνση Εκπαίδευσης"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Το μέλος πληρώματος έφτασε στο όριο ικανοτήτων."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Αδύνατη η επιτάχυνση της εκπαίδευσης"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Εκπαίδευση ικανοτήτων με χρήση Free XP και Τόμων Πληρώματος."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Ταχύρυθμη Εκπαίδευση"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Μη Συμβατή Ειδικότητα"
+
+msgid "matrix/qualification/1"
+msgstr "Κύρια Ειδικότητα"
+
+msgid "matrix/qualification/2"
+msgstr "Δεύτερη Ειδικότητα"
+
+msgid "matrix/qualification/3"
+msgstr "Τρίτη Ειδικότητα"
+
+msgid "matrix/qualification/4"
+msgstr "Τέταρτη Ειδικότητα"
+
+msgid "matrix/qualification/5"
+msgstr "5η Ειδικότητα"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Όχι προκαθορισμένες ικανότητες για τη δεύτερη ειδικότητα"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Όχι προκαθορισμένες ικανότητες για την τρίτη ειδικότητα"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Όχι προκαθορισμένες ικανότητες για την τέταρτη ειδικότητα"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Η 2η ειδικότητα δεν είναι διαθέσιμη σε αυτό το όχημα"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Η 3η ειδικότητα δεν είναι διαθέσιμη σε αυτό το όχημα"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Η 4η ειδικότητα δεν είναι διαθέσιμη σε αυτό το όχημα"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Η 5η ειδικότητα δεν είναι διαθέσιμη σε αυτό το όχημα"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Υπάρχει όριο {whiteSpanish_Open}τριών{whiteSpanish_Close} πρόσθετων ικανοτήτων για κάθε επιπλέον ειδικότητα. Μόνο ικανότητες της συγκεκριμένης ειδικότητας μπορούν να επιλεχθούν ως πρόσθετες."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Υπάρχει όριο {whiteSpanish_Open}έξι{whiteSpanish_Close} ικανοτήτων κύριας ειδικότητας (συμπεριλαμβανομένων και των προκαθορισμένων ικανοτήτων)."
+
+msgid "matrix/resetButton"
+msgstr "Επαναφορά"
+
+msgid "matrix/resetButtonHint"
+msgstr "ΕΠΑΝΑΦΟΡΑ ΙΚΑΝΟΤΗΤΩΝ"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Δεν έχετε εκπαιδευμένες ικανότητες."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Αδύνατη Η Επαναφορά Των Ιικανοτήτων"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Κλικ για επαναφορά των ικανοτήτων."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Επαναφορά Ικανοτήτων"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Πρόσθετες Ικανότητες Προς Εκπαίδευση"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Δεν απαιτούνται επιπλέον Crew XP για την εκπαίδευση των πρόσθετων ικανοτήτων."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Μη διαθέσιμη"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Διαθέσιμη όταν εκπαιδευτεί η 3η ικανότητα κύριας ειδικότητας. Δεν απαιτούνται επιπλέον XP."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Διαθέσιμη όταν εκπαιδευτεί η 5η ικανότητα κύριας ειδικότητας. Δεν απαιτούνται επιπλέον XP."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Επίπεδο εκπαίδευσης"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "Τα συνολικά XP που απαιτούνται είναι λιγότερα επειδή το μέλος πληρώματος κατέχει μία προκαθορισμένη ικανότητα."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "Τα συνολικά XP που απαιτούνται είναι λιγότερα επειδή το μέλος πληρώματος κατέχει δύο προκαθορισμένες ικανότητες."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Διαθέσιμη Ικανότητα"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Μη Διαθέσιμη"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Η προηγούμενη ικανότητα πρέπει να φτάσει στο 100%."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Προκαθορισμένη Ικανότητα Διαθέσιμη"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Οι προκαθορισμένες ικανότητες εκπαιδεύονται πάντα πρώτες, ακόμη και όταν επιλέγονται μονομιάς πολλές ικανότητες. Δεν απαιτούνται Crew XP για την εκπαίδευσή τους."
+
+msgid "matrix/skills/allSkills"
+msgstr "Όλες οι ικανότητες στο 100% γι αυτό το όχημα"
+
+msgid "matrix/skills/available"
+msgstr "Ικανότητες διαθέσιμες για εκπαίδευση:"
+
+msgid "matrix/skills/bonus"
+msgstr "Πρόσθετες Ικανότητες"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Οι ικανότητες δεν είναι διαθέσιμες"
+
+msgid "matrix/skills/locked"
+msgstr "Οι ικανότητες δεν είναι διαθέσιμες"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Όλες οι ικανότητες είναι απενεργοποιημένες γι αυτό το όχημα"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Ικανότητες Κύριας Ειδικότητας"
+
+msgid "matrix/skills/reduced"
+msgstr "Μειωμένη επίδραση ικανοτήτων"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Ικανότητες Αρχηγού"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Ικανότητες Οδηγού"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Ικανότητες Αρχηγού"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Ικανότητες Οδηγού"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Ικανότητες Πυροβολητή"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Ικανότητες Γεμιστή"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Ικανότητες Ασυρματιστή"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Ικανότητες Πυροβολητή"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Ικανότητες Γεμιστή"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Ικανότητες Ασυρματιστή"
+
+msgid "matrix/skills/training"
+msgstr "Εκπαίδευση Ικανοτήτων"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Προκαθορισμένες ικανότητες για εκπαίδευση:"
+
+msgid "memberChange/action/recruit"
+msgstr "Νεοσύλλεκτος {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount}% ΕΚΠΤΩΣΗ ΣΤΗΝ ΑΛΛΑΓΗ ΕΙΔΙΚΟΤΗΤΑΣ"
+
+msgid "memberChange/title"
+msgstr "ΕΠΙΛΟΓΗ {role} για το {vehicle} "
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}Στην Αποθήκη{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Μετά την επικύρωση, το μέλος πληρώματος που μετέφερε τα XP του θα διαγραφεί από τον λογαριασμό σας."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Με τη Άδεια Καθοδήγησης μπορείτε να μεταφέρετε Crew XP από ένα μέλος πληρώματος σε κάποιο άλλο του ίδιου έθνους."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Άδεια Καθοδήγησης"
+
+msgid "personalData/card/edit"
+msgstr "Επεξεργασία"
+
+msgid "personalData/card/remove"
+msgstr "Αφαίρεση"
+
+msgid "personalData/card/restrictions"
+msgstr "Περιορισμοί: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Κλικ για αλλαγή ονόματος και εμφάνισης ενός μέλος πληρώματος."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Εμφάνιση"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Το συγκεκριμένο μέλος πληρώματος έχει ήδη μοναδικό όνομα και εμφάνιση."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Αδύνατη Η Αλαλγή Ονόματος & Εμφάνισης"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Κανένα αποτέλεσμα αναζήτησης. Αλλαγή ρυθμίσεων ή επαναφορά του φίλτρου."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Προβολή προσώπων πληρώματος με βάση το έθνος."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Φίλτρο Παραμέτρων"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Προβολή βασικών προσώπων."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Βασικά Πρόσωπα"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Προβολή κατάλληλων προσώπων."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Κατάλληλα Πρόσωπα"
+
+msgid "personalData/filter/type/title"
+msgstr "Τύπος"
+
+msgid "personalData/title"
+msgstr "ΑΛΛΑΓΗ ΟΝΟΜΑΤΟΣ & ΕΜΦΑΝΙΣΗΣ"
+
+msgid "personalFile/changeVehicle"
+msgstr "Αλλαγή"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Αδύνατη η εκπαίδευση του συγκεκριμένου μέλους πληρώματος για άλλο όχημα."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Μη Διαθέσιμη Λειτουργία"
+
+msgid "personalFile/discount/full"
+msgstr "Έκπτωση στην επανεκπαίδευση πληρώματος"
+
+msgid "personalFile/discount/short"
+msgstr "Διαθέσιμη έκπτωση"
+
+msgid "personalFile/inVehicle"
+msgstr "Στο όχημα: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Αύξηση"
+
+msgid "personalFile/isUntrained"
+msgstr "Μη εκπαιδευμένο για αυτό το όχημα"
+
+msgid "personalFile/premiumVehicle"
+msgstr "{icon} Προνομιακά Οχήματα"
+
+msgid "personalFile/retrain"
+msgstr "Επανεκπαίδευση"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Επίδραση Ικανοτήτων: "
+
+msgid "personalFile/specialization"
+msgstr "Ειδίκευση:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Ειδίκευση"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Κλικ για να ακούσετε τη μοναδική φωνή του Αρχηγού Πληρώματος."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Μοναδικές Φωνές"
+
+msgid "postProgression/button/claim"
+msgstr "Διεκδίκηση Επάθλου"
+
+msgid "postProgression/description"
+msgstr "Όλα τα μέλη πληρώματος που κατέχουν 6 ικανότητες κύριας ειδικότητας θα μετέχουν στη Δημιουργία Τόμων Πληρώματος και θα μπορούν να μετατρέπουν κάθε 100.000 πρόσθετων κερδισμένων XP σε έναν Οδηγό Γενικής Χρήσης για να χρησιμοποιηθεί σε κάποιο άλλο πλήρωμα."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "Η Δημιουργία Τόμων Πληρώματος είναι ενοποιημένη διαδικασία για όλα τα μέλη με 6 πλήρως εκπαιδευμένες ικανότητες κύριας ειδικότητας στον λογαριασμό ενός παίκτη."
+
+msgid "postProgression/tips/2"
+msgstr "Μόνο τα Combat XP υπολογίζονται για τη Δημιουργία Τόμων Πληρώματος. Τα μισά από τα κερδισμένα Combat XP στη μάχη θα διαιρούνται με το πλήθος των μελών πληρώματος του οχήματος και θα προσμετρούνται στη Δημιουργία Τόμων Πληρώματος."
+
+msgid "postProgression/tips/3"
+msgstr "Τα τυχόν χαμένα XP από μετεκπαίδευση μελών πληρώματος δεν θα επηρεάζουν τη Δημιουργία Τόμων Πληρώματος."
+
+msgid "postProgression/title"
+msgstr "ΔΗΜΙΟΥΡΓΙΑ ΤΟΜΩΝ ΠΛΗΡΩΜΑΤΟΣ"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Όλα τα μέλη πληρώματος που μετέχουν στη Δημιουργία Τόμων Πληρώματος έχουν μειωμένη επίδραση ικανοτήτων."
+
+msgid "postProgression/warning/retire"
+msgstr "Όλα τα μέλη πληρώματος που μετέχουν στη Δημιουργία Τόμων Πληρώματος έχουν αποστρατευτεί ή έχουν χάσει XP από την τελευταία τους ικανότητα."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Όλα τα προνομιακά αντιαρματικά"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Όλα τα Προνομιακά Α/Κ Πυροβόλα"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Προνομιακά αντιαρματικά"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Προνομιακά Α/Κ Πυροβόλα"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Προνομιακά βαρέα άρματα"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Προνομιακά ελαφρά άρματα"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Προνομιακά μέσα άρματα"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Όλα τα Προνομιακά βαρέα άρματα"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Όλα τα Προνομιακά ελαφρά άρματα"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Όλα τα Προνομιακά μέσα άρματα"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "ΒΡΑΒΕΙΑ"
+
+msgid "serviceRecord/averageXP"
+msgstr "Μέσο Experience ανά Μάχη"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Συμμετοχές σε Μάχες"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Δεν αποκτήθηκαν κατορθώματα ή έπαθλα σε μάχες."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Αναλογία των κερδισμένων ΧΡ προς τις συμμετοχές σε μάχες του οχήματος στο οποίο υπηρετεί το συγκεκριμένο μέλος πληρώματος."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Μέσο Experience ανά Μάχη"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Ο βαθμός ενός μέλους πληρώματος εξαρτάται από το κερδισμένο experience και το πλήθος των ικανοτήτων που κατέχει."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Βαθμός"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Το μέλος πληρώματος κατέχει όλες τις ικανότητες για αυτό το όχημα"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Ικανότητες διαθέσιμες για εκπαίδευση"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Όλες οι ικανότητες είναι απενεργοποιημένες γι αυτό το όχημα"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Δεν απαιτούνται επιπλέον XP για την εκπαίδευση πρόσθετων ικανοτήτων, οι οποίες εκπαιδεύονται 50% πιο αργά από τις ικανότητες της κύριας ειδικότητας."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Άκυρο"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Εκπαίδευση"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "ΠΡΟΣΘΕΤΗ ΕΙΔΙΚΟΤΗΤΑ"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "ΚΥΡΙΑ ΕΙΔΙΚΟΤΗΤΑ"
+
+msgid "tankChange/title"
+msgstr "ΕΚΠΑΙΔΕΥΣΗ ΓΙΑ ΟΧΗΜΑ"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Προβολή οχημάτων στο Γκαράζ."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "Στο Γκαράζ"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Διαμορφώστε τον τρόπο προβολής των οχημάτων με βάση τον τύπο και τη βαθμίδα τους."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Φίλτρο Παραμέτρων"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Δεν χρειάζεται να εκπαιδεύετε πληρώματα για τα Προνομιακά οχήματα. Η μεταφορά πληρώματος από ένα κανονικό όχημα σε ένα Προνομιακό του ίδιου τύπου γίνεται χωρίς ποινή."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Προνομιακό Όχημα"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Το όνομα του οχήματος πρέπει να περιέχει μέχρι και %(maxLength)s χαρακτήρες."
+
+msgid "tankman/action/dismiss/title"
+msgstr "ΑΠΟΣΤΡΑΤΕΥΣΗ"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Αποστράτευση του συγκεκριμένου μέλους πληρώματος."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Αδύνατη η αποστράτευση του συγκεκριμένου μέλους πληρώματος."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Μη Διαθέσιμη Λειτουργία"
+
+msgid "tankman/action/recruit/title"
+msgstr "ΣΤΡΑΤΟΛΟΓΗΣΗ"
+
+msgid "tankman/action/restore/title"
+msgstr "ΑΝΑΚΤΗΣΗ"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Ανάκτηση του συγκεκριμένου μέλους πληρώματος."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Κλικ για να ακούσετε τη μοναδική φωνή του Αρχηγού Πληρώματος."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Μοναδικές Φωνές"
+
+msgid "tankman/recruit"
+msgstr "Νεοσύλλεκτος"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Εμφάνιση"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Προσωπικό Αρχείο"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Μητρώο Υπηρεσίας"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Στρατολόγηση"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Επαναφορά Φίλτρου"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Κανένα αποτέλεσμα αναζήτησης. Αλλαγή ρυθμίσεων ή επαναφορά του φίλτρου."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Κανένα αποτέλεσμα αναζήτησης. Στρατολογήστε ένα μέλος πληρώματος."
+
+msgid "tankmanList/filter/title"
+msgstr "Μέλη πληρώματος:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Όχι αρκετές κλίνες στον Στρατώνα."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Προβολή/Απόκρυψη μόνο των αποστρατευμένων μελών πληρώματος."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Σε Αποστρατεία"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Προβολή μελών πληρώματος στον Στρατώνα."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "Στον Στρατώνα"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Προβολή μελών πληρώματος σε οχήματα."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "Σε Οχήματα"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Προβολή/Απόκρυψη προσώπων πληρώματος αυτού του έθνους."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Καθορίστε την προβολή των μελών πληρώματος με βάση την κύρια ειδικότητα, την ειδίκευση και άλλες παραμέτρους."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Φίλτρο Παραμέτρων"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Στρατολογήστε ένα νέο μέλος πληρώματος."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Το όνομα πρέπει να περιέχει μέχρι και %(maxLength)s χαρακτήρες."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Αν πάτε το ποντίκι σας πάνω από μία ικανότητα θα δείτε πως αυτή επιδρά στα χαρακτηριστικά του οχήματος όταν είναι εκπαιδευμένη στο 100% με την τρέχουσα επίδραση ικανοτήτων."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Θετικόν!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "2 νέες ικανότητες για κάθε ειδικότητα, η ικανότητα Προσεκτική Τοποθέτηση άλλαξε και μια νέα επιλογή απόκρυψης ικανοτήτων."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Μία νέα λειτουργία σας δίνει τη δυνατότητα μαζικής αποστράτευσης μελών πληρώματος με ένα κλικ."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Μπορεί πλέον να γίνει επαναφορά των ικανοτήτων του πληρώματος μόνο για credits, χωρίς να χάνονται XP."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Νέες ικανότητες, νέες λειτουργίες και αλλαγές σε μία υπάρχουσα ικανότητα."
+
+msgid "welcomeScreen/title"
+msgstr "ΑΛΛΑΓΕΣ ΣΤΑ ΠΛΗΡΩΜΑΤΑ"

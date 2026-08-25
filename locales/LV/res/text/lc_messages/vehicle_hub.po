@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Ļauj šāviņus no magazīnas izšaut pa vienam, katram šāvienam automātiski pārlādējoties laika gaitā."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Ļauj no magazīnas pa vienam izšaut vairākus šāviņus, katram šāvienam automātiski pārlādējoties laika gaitā. Nodrošina bonusa ātrumu nākamā šāviņa ielādēšanas laikā pārlādēšanas procesā."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Šauj lādiņu sērijas ar lielu bojājumu īsā laikā, apmaiņā pret caursišanas spēju un precizitāti. Visefektīvāk tuvcīņā."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Uguns zvaigžņu šāviņus, kas izraisa maksimālu bojājumu 50 m rādiusā. Šāviņu bojājumi samazinās ar attālumu, padarot tos visefektīvākos tuvā cīņā."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Unikāla dzesēšanas sistēma, kas ļauj veikt dubulto mērķēšanu: pagaidot pēc pārlādēšanas, lielgabals šauj precīzāk. Uzlabota precizitāte tiek attēlota ar otru, mazāku mērķēšanas apli."
+
+msgid "abilities/common/description/dualGun"
+msgstr "Divu lielgabalu sistēma ar iespēju šaut no abiem stobriem atsevišķi vai vienlaikus. Dubultie šāvieni nodara lielu bojājumu, bet tiem ir ilgāka pārlāde."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Ļauj tanka korpusam mainīt pacēluma leņķus, piedāvājot iespējas Uguns no vairākām pozīcijām kaujā. Aktivizācija ir atkarīga no dažādiem nosacījumiem."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "Pārkārto papildu riteņus, būtiski palielinot ātrumu, bet samazinot manevrētspēju. Vislabāk piemērots tālu distanču veikšanai un straujiem uzbrukumiem."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Ļauj izšaut vairākas šāviņu sērijas no magazīnas, pirms nepieciešama pilna pārlāde. Nodrošina augstu sprādzienveida bojājumu, bet atstāj tanku neaizsargātu pārlādes laikā. Var pārlādēt tikai visu magazīnu vienlaikus."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "Ieroču sistēma var šaut nepārtraukti bez pārlādēšanas. Katrs šāviens rada siltumu: jo augstāka temperatūra, jo vairāk parametru mainās. Nepārtraukta šaušana izraisa pārkaršanu, kas neļauj turpināt uguni līdz atdzišanai."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Palielina dzinēja jaudu un maksimālo ātrumu ātrai kustībai pa kaujas lauku. Aktivizējot, strūklas pastiprinātāji samazina manevrētspēju un nevar tikt deaktivēti manuāli."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "Aktivējot šo īpašo režīmu, tiek uzlaboti un/vai mainīti noteikti kaujas parametri. Vislabāk izmantot, kad ieņemta pozīcija un gatavs uzbrukumam."
+
+msgid "abilities/common/description/stun"
+msgstr "Apdullina ienaidnieka tankus noteiktā sprādziena rādiusā arī bez tieša trāpījuma. Uz īsu brīdi samazina to pārvietošanās ātrumu, precizitāti un pārlādes laiku. Apdullinātie mērķi ir apzīmēti ar īpašu ikonu."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Ļauj tankam kustēties ar samazinātu ātrumu, ja galvenā ķēde ir iznīcināta. Papildu ķēdes zaudēšana vēl vairāk samazina mobilitāti, bet tanks joprojām var pagriezties un pārvietoties."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "Ļauj tankam pārvietoties ievērojami ātrāk, taču būtiski pasliktina lielgabala vadāmību."
+
+msgid "abilities/common/description/twinGun"
+msgstr "Aktivējot šo režīmu, tiek nodarīts dubults bojājums un uzlaboti vai mainīti daži kaujas parametri. Visefektīvāk izmantot tuvā cīņā."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Autolādētājs"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "Uzlabots Autolādētājs"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Automātiskais lielgabals"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Dziļās vītnes lielgabals"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Lielgabala dzesēšana"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Dubults ierocis"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Hidropneimatiskā Piekares Sistēma"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Paātrinātais Režīms"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Autolādētājs"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Termiskās Pārkaršanas Kontroles Automātiskais Lielgabals"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Reaktīvo Dzinēju Pastiprinātāji"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Cietokšņa Režīms"
+
+msgid "abilities/common/name/stun"
+msgstr "Apdullināt"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Rezerves Kāpurķēde"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Turbo Režīms"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Zālves Uguns Režīms"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "Stāvot uz vietas vai pārvietojoties lēni, uzkrājas precizitātes līmeņi, kas uzlabo nākamā šāviena precizitāti.\nMaksimālā līmenī tiek uzlabota lielgabala vadāmība, un pat kustībā vai grozot tornīti/korpusu izkliede samazinās."
+
+msgid "abilities/special/description/battleFury"
+msgstr "Katru reizi, kad trāpi ienaidniekam ar čaulu, tu iegūsti pārlādēšanas efektivitātes līmeni, kas uz laiku palielina tava lielgabala pārlādēšanas ātrumu. Līmeņi uzkrājas ar katru trāpījumu.\nIenaidnieka tanks iznīcināšana ar čaulu piešķir papildu pārlādēšanas efektivitātes līmeņus."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Ja ierocis ir pielādēts, vari sākt uzsildīt nākamo šāvienu, lai palielinātu tā bojājumu. Jo augstāks siltuma līmenis, jo spēcīgāks efekts.\nSasniedzot maksimālo karstumu, tev būs daži mirkļi, lai izšautu — pretējā gadījumā īslaicīgi zaudēsi iespēju šaut."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Pēc diviem bruņusitējiem trāpījumiem pa ienaidnieka tehniku tiek aktivizēts Sērijas režīms—tiek ielādēta kasešu tipa šaušanas sistēma, kas ļauj ar nākamo šāvienu izšaut divus šāviņus pēc kārtas un nodarīt milzīgus bojājumus."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "Pneimatiskais žiroskops nodrošina maksimālu stabilizāciju kustībā, korpusa un torņa pagriezienos, ļaujot veikt precīzāku šaušanu un ātri reaģēt uz pēkšņiem draudiem un uzbrukumiem no slēpņa. "
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "Sistēma automātiski sāk ievietot jaunu kaseti, kad iepriekšējā palikusi viena čaula, ļaujot saglabāt gatavību cīņai. Šo pēdējo šāvienu vēl var izšaut, bet pārlādes laiks tiek pagarināts par dažām sekundēm."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "Sistēma uztur ieroča dzesēšanu, nodrošinot augstu šaušanas precizitāti. Ierocis sakarst šaušanas laikā, bet sāk atdzist un parametri uzlabojas pārlādēšanas laikā. Jo augstāka temperatūra, jo vairāk mainās tā parametri."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "Balstoties uz konstrukcijas pieredzi no agrākajiem modeļiem, šis tanks ir speciāli konfigurēts nāvējošiem taranēšanas uzbrukumiem. Strukturālie pastiprinājumi ļauj nodarīt lielākus bojājumus, taranējot ienaidnieka tankus, sniedzot priekšrocības tuvās kaujās."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "Šī tanka lielgabals var šaut agrāk: vienreizējas uzlādes šāvieni, kas izšauti pārlādes laikā, ir ar samazinātu efektivitāti, bet parastie pilnas uzlādes šāvieni pēc pārlādes ir ar optimāliem ballistikas parametriem."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "Ieroču sistēma var šaut nepārtraukti bez pārlādēšanas. Katrs šāviens rada siltumu: jo augstāka temperatūra, jo vairāk parametru mainās. Nepārtraukta šaušana izraisa pārkaršanu, kas neļauj turpināt uguni līdz atdzišanai."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Paliec nekustīgs vai pārvietojies lēni, lai uzkrātu uzsildīšanu–tas palielina nākamā šāviena radītos bojājumus un precizitāti. Sasniedzot maksimālu uzsildīšanas līmeni, bruņas cauršaujošs trāpījums ienaidniekam ar mazāku HP nekā Tavs vidējais bojājumu rādītājs izraisa munīcijas detonāciju un iznīcina tanku."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Šis režīms pārvērš tavu tanku par nocietinātu uguns platformu, nodrošinot augstu precizitāti un ātrāku pārlādi. Taču par šādu ugunsspēku tiek zaudēta mobilitāte—samazināts ātrums uz priekšu/atpakaļ un ierobežota kustība vertikāli/horizontāli."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Šis režīms būtiski palielina dzinēja jaudu un maksimālo ātrumu uz priekšu. Jo ilgāk brauc taisni, jo lielāks ātrums—ļaujot ātri pārvarēt lielus attālumus kaujas laukā."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "Sistēma laika gaitā uzkrāj uzlādi, un lielāka uzlāde piešķir lielāku bojājumu bonusu. Uzlādi ierobežo ierobežotājs, kuru var izslēgt, lai iegūtu vēl lielāku bojājumu bonusu uz lielgabala vadāmības samazināšanas rēķina."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "Aktivizējiet Šķidro degvielas paātrinātājus jebkurā laikā, lai iegūtu ātruma pieaugumu, kad tas ir visvairāk nepieciešams. Pastiprinātāji uzkarst un tiem ir jāatdziest, pirms tos var izmantot atkārtoti, savukārt kritiskā siltuma līmeņa pārsniegšana tos uz laiku pilnībā atspējos."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Cietā kurināmā paātrinātāji paaugstina paātrinājumu, mobilitāti un manevrētspēju uz vairākām sekundēm. Kreisais un labais paātrinātāji darbojas neatkarīgi viens no otra, nodrošinot ātrāku korpusa apgriešanos un neierobežo atpakaļgaitu."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "Atkarībā no aktīvā režīma un uzlādes līmeņa, tehnika var aktivizēt vienu no divām prasmēm:\nJonu izlādes pēcapdegšanas kamera: palielina dzinēja jaudu un ātrumu.\nSaskaņots elektromehāniskais tēmēklis: samazina izkliedi un pārlādēšanas laiku, uzlabo precizitāti."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Šis modulis ļauj palikt cīņā, pārtraucot pārlādi jebkurā brīdī, ja ielādēta vismaz viena čaula. Nospied taustiņu, lai apturētu pārlādi, izšauj pēc īsa brīža, tad atsāc manuāli vai ļauj žurnālam automātiski pārlādēties, kad tas iztukšots."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Nospiežot aktivizācijas pogu, tavs tanks atklāj uguni ar palīgieročiem. Šis papildu ugunsspēks darbojas ar savu pārlādes ciklu, neatkarīgi no galvenā ieroča. "
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "Tavs nākamais šāviens rada efektu atkarībā no pretinieka atklāšanas statusa. Ja trāpi atklātam mērķim—tas tiek iezīmēts, paliek redzams ilgāk un saņem vairāk bojājumu. Ja trāpi neatklātam—tā atrašanās vieta tiek parādīta ar īpašu marķieri."
+
+msgid "abilities/special/description/twinGun"
+msgstr "Nodrošina dubultu bojājumu un uzlabotu stabilizāciju, samazinot mobilitāti, precizitāti, torņa rotācijas ātrumu un mērķēšanas laiku. Visefektīvākais tuvā cīņā."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Šī mehāniskā modifikācija būtiski palielina tanka paātrinājumu, dzinēja jaudu un maksimālo ātrumu uz priekšu un atpakaļ uz īsu laiku, ļaujot ātri reaģēt uz ienaidnieka uzbrukumiem un pārsteigt pretiniekus ar dinamiskām manevrēšanas darbībām."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Analogais ballistiskais dators"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Daļēji automātiska munīcijas glabātuve"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Termo-ballistiskā pārslodze"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Sērijas režīms"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Pneimatiskais žirostabilizators"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Kasetes ielādes sistēma"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Aktīvā Ieroču Dzesēšana"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Tarana konfigurācija"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "Vairāku lādiņu uzlādes sistēma"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Termiskās Pārkaršanas Kontroles Automātiskais Lielgabals"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "Dzinēja termiskās kontroles sistēma"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Ilglaicīgā ugunspunkta režīms"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Tiešās piedziņas režīms"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "Indukcijas propelenta pēcdedzinātājs"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Šķidrā kurināmā paātrinātāji"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "Secīgi Raķešu paātrinātāji"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Taktiskais enerģijas bloks"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Ārējais munīcijas padeves modulis"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Palīgieroči"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Lāzera mērķēšanas iekārta"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Serijas uguns režīms"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Augstspiediena turbokompresora palīgsistēma"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Uzlabo nākamā šāviena precizitāti ar labu stabilizāciju pēc pilnas kalibrācijas."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Katrs trāpījums ienaidnieka tankam uz laiku palielina ieroča pārlādēšanas ātrumu."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Uzkarsē stobru, lai nākamais šāviens nodarītu vairāk bojājumu"
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "Sērijas kasete, kas ļauj ātri izšaut divus šāviņus pēc kārtas"
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Maksimāla stabilizācija kustībā un pagriezienos—precīzākai šaušanai"
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Pārlādējas automātiski pēc pēdējā šāviņa, ko vēl var izšaut"
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "Aktīva ieroča dzesēšanas sistēma, kas uzlabo precizitāti, kad ierocis atdziest."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Palielina taranēšanas bojājumus, kas nodarīti ienaidnieka tankiem."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "Īpaša lielgabala mehānika, kas ļauj šaut agrāk uz šāviena efektivitātes rēķina."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "Sistēma ļauj nepārtraukti šaut bez pārlādēšanas un kontrolē, kā ierocis ģenerē siltumu, kad notiek uguns."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "Stāvot vai lēni braucot, nākamais šāviens nodara vairāk bojājumu un ir precīzāks"
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Krasi palielina precizitāti un pārlādes ātrumu, bet ierobežo manevrētspēju"
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Jaudas pieaugums—jo ilgāk kustībā, jo lielāks maksimālais ātrums"
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "Sistēma uzkrāj uzlādi, lai palielinātu bojājumus. Jo lielāka uzlāde, jo lielāki bojājumi."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "Aktivējami pastiprinātāji, kas uzreiz piešķir īslaicīgu ātruma pieaugumu"
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "Cietā kurināmā dzinēji, kas palielina paātrinājumu, mobilitāti un manevrētspēju."
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Uzlādē vienu no divām unikālām spējām: ātrums vai precīza šaušana"
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "Ļauj pārtraukt pārlādi un šaut izšķirošos brīžos"
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Daži papildu ieroči, lai nodrošinātu papildu ugunsspēku līdzās galvenajam lielgabalam."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Palielina ienaidnieku redzamības laiku un saņemtos bojājumus vai iezīmē tos ar speciālu marķieri."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Ļauj izšaut no abiem lielgabaliem vienlaikus, apmaiņā pret ilgāku pārlādes laiku."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "Īpaša mehānika, kas uz īsu laiku palielina dzinēja jaudu, paātrinājumu un maksimālo ātrumu."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Paliekot nekustīgam vai pārvietojoties zem noteikta ātruma, tavs tanks var kalibrēt savu analogo ballistisko skaitļošanas ierīci un uzkrāt precizitātes līmeņus, palielinot nākamā šāviena precizitāti. Ja pārsniedz ātruma robežu, precizitātes līmeņu uzkrāšana tiek apturēta, līdz samazini ātrumu. Pie maksimālā precizitātes līmeņa tanks iegūst ievērojamu lielgabala stabilizāciju, samazinot izkliedi kustībā vai torņa/korpusa pagrieziena laikā. Efekts tiek noņemts pēc šāviena."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "Katru reizi, kad trāpi redzamam ienaidniekam ar lādiņu, tu iegūsti pārlādes efektivitātes līmeni, īslaicīgi palielinot lielgabala pārlādes ātrumu. Līmeņi uzkrājas ar katru trāpījumu, un ienaidnieka tanka iznīcināšana ar lādiņu piešķir papildu pārlādes efektivitātes līmeņus."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Ja lielgabals ir ielādēts, vari sākt uzkarsēt nākamo šāvienu. Jo augstāks uzkarsēšanas līmenis, jo lielāks bonuss vidējiem bojājumiem. Uzkarsēšanas laikā nevar mainīt lādiņus. Sasniedzot maksimālo uzkarsēšanas līmeni, sākas atskaite. Ja neizšausi līdz tās beigām, vairākas sekundes nevarēsi šaut."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Divi bruņas caursitoši trāpījumi ienaidnieka tankiem aktivizē Sērijas režīmu, ielādējot kaseti, kas ļauj nākamajā šāvienā izšaut divus šāviņus pēc kārtas."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "Pneimatiskais žirostabilizators nodrošina maksimālu stabilizāciju korpusa un torņa pagriešanas laikā uz īsu laiku, ļaujot precīzāk šaut kustībā un ātri reaģēt uz pēkšņiem draudiem."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "Sistēma automātiski sāk ielādēt jaunu kaseti, kad pašreizējā paliek viens lādiņš. Pēdējā lādiņa izšaušana, kamēr tiek ielādēta jaunā kasete, pievieno vairākas sekundes atlikušajam pārlādes laikam. Nospiežot pārlādēšanas taustiņu, tiek izmesti visi atlikušie lādiņi, izņemot pēdējo. Nospied taustiņu divreiz, lai atiestatītu pilnībā ielādētu kaseti."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "Sistēma uztur ieroča dzesēšanu, nodrošinot augstu šaušanas precizitāti. Ierocis sakarst šaušanas laikā, bet sāk atdzist un parametri uzlabojas pārlādēšanas laikā. Jo augstāka temperatūra, jo vairāk mainās tā parametri."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Šis tanks ir īpaši konfigurēts taranēšanas uzbrukumiem, ar virkni konstrukcijas modifikāciju, kas ļauj nodarīt lielākus bojājumus, taranējot ienaidnieka tankus."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "Šī tanka lielgabals var šaut agrāk: vienreizējas uzlādes šāvieni, kas izšauti pārlādes laikā, ir ar samazinātu efektivitāti, bet parastie pilnas uzlādes šāvieni pēc pārlādes ir ar optimāliem ballistikas parametriem."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "Ieroču sistēma var šaut nepārtraukti bez pārlādēšanas. Katrs šāviens rada siltumu: jo augstāka temperatūra, jo vairāk parametru mainās. Nepārtraukta šaušana izraisa pārkaršanu, kas neļauj turpināt uguni līdz atdzišanai."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "Paliekot nekustīgam vai pārvietojoties zem noteikta ātruma, tiek uzkrāta priekšuzkarsēšana, kas palielina nākamā šāviena vidējos bojājumus un precizitāti. Pārsniedzot ātruma robežu, bonuss pakāpeniski samazinās, bet šāviens vai lādiņu maiņa to nekavējoties atiestata. Pie maksimālā priekšuzkarsēšanas līmeņa ienaidnieka tanka bruņas caursišana, ja tā izturība ir mazāka par taviem vidējiem bojājumiem — ieskaitot uzkrāto priekšuzkarsēšanas bonusu—izraisa munīcijas plaukta detonāciju, uzreiz iznīcinot tanku."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "Šajā režīmā būtiski palielinās lielgabala precizitāte, pārlādes ātrums un pacēluma/nolaišanas leņķi, bet mobilitāte (ātrums uz priekšu/atpakaļ un vertikālais/horizontālais pagriešanās ātrums) ir stipri ierobežota. Procentu vērtības norādītas salīdzinājumam ar Aplenkuma režīmu."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "Tiešās piedziņas režīms būtiski palielina dzinēja jaudu un maksimālo uz priekšu kustības ātrumu. Jo ilgāk brauc uz priekšu, jo lielāks ātrums uzkrājas, ļaujot vieglāk pārvietoties pa kaujas lauku."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "Laika gaitā sistēma automātiski uzkrāj uzlādi, kas tiek daļēji patērēta, lai palielinātu bojājumus šāviena laikā. Jo lielāka uzlāde, jo lielāks bojājumu bonuss. Pēc noklusējuma sistēma uzkrāj uzlādi tikai līdz noteiktai robežai. Izslēdzot ierobežotāju, tā var uzkrāt vēl lielāku uzlādi, piešķirot daudz lielāku bojājumu bonusu, bet samazinot lielgabala vadāmību."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "Šķidrās degvielas pastiprinātāji nodrošina dzinēja jaudas pieaugumu, ļaujot iegūt pozicionālu priekšrocību kaujas laukā, bet ierobežo tanka atpakaļgaitas un pagriešanās ātrumu. Tos var ieslēgt vai izslēgt jebkurā laikā, izņemot pēc atkārtotas aktivizācijas robežas sasniegšanas. Pastiprinātāji darbības laikā uzkarst un kļūst nepieejami, līdz atdziest, kas nozīmē, ka tos nevar izmantot nepārtraukti—pārsniedzot kritisko uzkarsēšanas līmeni, tie uz laiku pilnībā izslēdzas. Plāno savas darbības, lai netiktu pārsteigts nesagatavots."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "Cietā kurināmā paātrinātāji, kas uz dažām sekundēm uzlabo tanka paātrinājumu, mobilitāti un manevrētspēju. Atšķirībā no parastajiem reaktīvajiem pastiprinātājiem kreisais un labais paātrinātājs var darboties neatkarīgi viens no otra, nodrošinot ātrāku korpusa pagriešanu un neierobežojot atpakaļgaitu. Tos var izmantot vairākas reizes kaujā, taču pirms atkārtotas aktivizēšanas nepieciešama atdzišana."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "Atkarībā no aktīvā režīma un uzlādes līmeņa tanks var aktivizēt vienu no divām spējām: jonu izlādes pēcdedzinātāju vai sakritības elektromehānisko tēmēkli.\nJonu izlādes pēcdedzinātājs uz laiku palielina dzinēja jaudu, maksimālo ātrumu uz priekšu un atpakaļ. Sakritības elektromehāniskais tēmēklis uz laiku uzlabo precizitāti un samazina pārlādes laiku."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "Ārējais munīcijas padeves modulis ļauj pārtraukt pārlādi un sākt šaušanu jebkurā brīdī, ja vien ir ielādēts vismaz viens lādiņš. Pārlādes laikā modulis bloķē tanka torni un ārējās munīcijas tvertnes, uz laiku neļaujot mērķēt vai šaut, ja vien nepārtrauc pārlādi."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "Šis tanks ir aprīkots ar palīgieroču komplektu, kuru pārlādes cikls ir atsevišķs no galvenā lielgabala, ļaujot izšķirošos brīžos nodarīt papildu bojājumus."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "Lāzera mērķa apzīmētājs piešķir īpašu efektu nākamajam šāvienam, kas tiek piemērots jebkuram ienaidniekam, kuram trāpi. Efekts atšķiras atkarībā no tā, vai ienaidnieks trāpījuma brīdī bija atklāts. Trāpot atklātam ienaidnieka tankam, tas tiek iezīmēts, pagarinot tā atklātības laiku un palielinot no lādiņiem saņemtos bojājumus, bet trāpot neatklātam ienaidnieka tankam, tā atrašanās vieta tiek atzīmēta ar īpašu marķieri."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "Nodrošina dubultu bojājumu un uzlabotu stabilizāciju, samazinot mobilitāti, precizitāti, torņa rotācijas ātrumu un mērķēšanas laiku. Visefektīvākais tuvā cīņā."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Šī mehāniskā modifikācija būtiski palielina tanka paātrinājumu, dzinēja jaudu un maksimālo ātrumu uz priekšu un atpakaļ uz īsu laiku, ļaujot ātri reaģēt uz ienaidnieka uzbrukumiem un pārsteigt pretiniekus ar dinamiskām manevrēm. Uzturot lielu kustības ātrumu, paātrinās mehānikas atdzišana."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Visas norādītās vērtības ir maksimāli iespējamās šim tankam. Aprīkojums, direktīvas un patēriņa priekšmeti var mainīt šīs vērtības, taču šeit šīs izmaiņas nav atspoguļotas."
+
+msgid "characteristics/templates/upTo"
+msgstr "Līdz %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Pirkt un Uzstādīt"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Lauka Modifikācija"
+
+msgid "modules/controls/button/mount"
+msgstr "Uzstādīt"
+
+msgid "modules/controls/button/research"
+msgstr "Izpētīt"
+
+msgid "modules/controls/button/sell"
+msgstr "Pārdot no noliktavas"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Šis tanks piedalās kaujā. Moduļus varēsi nomainīt pēc kaujas."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Tanks ir bojāts. Lai nomainītu moduļus, vispirms to jāsalabo."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Nevar uzstādīt moduli: {{module}} nav savietojams."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Šis tanks ir taktiskajā vienībā."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "Iegādājies šo tanku, lai varētu mainīt tā moduļus."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "Vispirms jāizpēta iepriekšējie moduļi, lai izpētītu šo."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "Vispirms jāizpēta tanks, lai varētu izpētīt tā moduļus."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Visi moduļi ir izpētīti."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Modulis jau ir uzstādīts."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Izvēlies moduli vai tanku izpētei."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Šis tanks piedalās kaujā. Moduļus varēsi nomainīt pēc kaujas."
+
+msgid "modules/controls/name"
+msgstr "Izvēlēts: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Šasija"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Dzinējs"
+
+msgid "modules/name/vehicleGun"
+msgstr "Lielgabals"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Radiostacijas"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Tornis"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Riteņi"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Kolekcionāru Tanki"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Spēja nopelnīt"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "kredītu par katru kauju"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "apkalpes pārvietošana bez soda"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "Kaujas Pieredze un Apkalpes Pieredze"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Bonas"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Vairāk"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Bezmaksas"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Vairāk"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Nopelnīt bonas"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Vairāk kredīti"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Bezmaksas pārcelšana"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Vairāk pieredzes"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Bezmaksas remonta komplekts"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Spēja nopelnīt"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "kredītu par katru kauju"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "Ekipāžas pārvietošana no jebkuras tanku klases bez soda."
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "Kaujas Pieredze un Apkalpes Pieredze"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "Bonas"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Vairāk"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Bezmaksas"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Vairāk"
+
+msgid "overview/crew/name"
+msgstr "Ekipāža {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Skatīt mehāniku"
+
+msgid "overview/title/generalDescription"
+msgstr "Tanka apraksts"
+
+msgid "overview/title/historicalReference"
+msgstr "Vēsturiskā uzziņa"
+
+msgid "researchPurchase/discountTimer"
+msgstr "Līdz {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "Atjaunošana pieejama līdz {{date}}"
+
+msgid "tabs/armor"
+msgstr "Bruņas"
+
+msgid "tabs/modules"
+msgstr "Moduļi"
+
+msgid "tabs/overview"
+msgstr "Pārskats"
+
+msgid "tabs/stats"
+msgstr "Parametri"
+
+msgid "tabs/vehSkillTree"
+msgstr "Uzlabojumi"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "Noma ir beigusies"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Abonements ir apturēts"

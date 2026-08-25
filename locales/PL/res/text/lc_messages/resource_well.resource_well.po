@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Otrzymano pojazd"
+
+msgid "awardView/end"
+msgstr "WYDARZENIE ZAKOŃCZONE"
+
+msgid "awardView/info"
+msgstr "Numer stylu"
+
+msgid "awardView/toHangar"
+msgstr "Wyświetl w garażu"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) z numerowanym stylem"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "OTRZYMANO POJAZD"
+
+msgid "awardView/vehicleTitle"
+msgstr "OTRZYMANO POJAZD"
+
+msgid "commonTexts/aboutButton"
+msgstr "O WYDARZENIU"
+
+msgid "commonTexts/closeBtn"
+msgstr "ZAMKNIJ"
+
+msgid "commonTexts/eventTitle"
+msgstr "WARSZTAT"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Anuluj"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Wydaj"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Nie ma już pojazdów ze stylem z numerem. Otrzymasz %(vehicleName)s bez numeru.\nCzy na pewno chcesz wydać zasoby?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "Otrzymasz %(vehicleName)s bez numeru"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Powrót do garażu"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Wszystkie wydane zasoby zostaną wkrótce zwrócone na Twoje konto."
+
+msgid "confirm/NoVehicles/title"
+msgstr "Niestety, nie ma już pojazdów"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Anuluj"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Wydaj"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Postępy po wydaniu: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Wydać zasoby?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Zwróć zasoby"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Wszystkie wydane zasoby zostaną zwrócone na Twoje konto, a postępy montażu zostaną zresetowane. Dopóki wydarzenie będzie trwać, będziesz mógł ponownie wydać zasoby, by zdobyć pojazd."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Zwrócić wszystkie wydane zasoby?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Wszystkie wydane zasoby zostaną zwrócone na Twoje konto, a postępy montażu zostaną zresetowane. Zostanie wybrany %(vehicleName) i będziesz mógł wydać zasoby, aby go otrzymać."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Czy zwrócić wszystkie wydane zasoby i wybrać %(vehicleName)?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Wybierz pojazd"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "W czasie wydarzenia można kupić oba pojazdy."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "W czasie wydarzenia będzie można kupić zestaw zawierający pojazd ze stylem 3D z numerem."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "Pierwszych %(styleTanksCount) graczy otrzyma pojazd z numerowanym stylem 3D,{{@ class $br}}{{/}} następna grupa %(withoutStyleTanksCount) pojazdów będzie dostarczona bez stylu 3D z numerem."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "WYDARZENIE ZAKOŃCZONE"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "OTRZYMANO POJAZDY"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "OTRZYMANO POJAZD"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Pozostałe pojazdy"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Ten pojazd znajduje się już w Twoim garażu"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Otrzymano pojazd"
+
+msgid "eventInfo/tanksOver"
+msgstr "BRAK"
+
+msgid "eventInfo/top/styleText"
+msgstr "Z numerem"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Pozostałe pojazdy z numerem"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "Dostawa %(regularRewardVehiclesCount) pojazdów w standardowej konfiguracji rozpocznie się,\ngdy nie będzie już pojazdów z numerami."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "W konfiguracji standardowej"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Pozostałe pojazdy"
+
+msgid "mainView/affirmative/button"
+msgstr "Tak jest"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "Do zwrotu zasobów"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Zebrane zasoby:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Zasoby zebrane dla:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Powrót do garażu"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Wybierz zasoby"
+
+msgid "mainView/footer/description/text"
+msgstr "Jeśli nie pozostały już żadne pojazdy, wszystkie wydane zasoby zostaną zwrócone."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "Rodzaj Twojego konta uniemożliwia uczestnictwo w wydarzeniu."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Nie możesz wziąć udziału"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Możesz kupić oba pojazdy, ale możesz zainwestować zasoby tylko w jeden z nich naraz."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Wybierz pojazd i zainwestuj wymagane zasoby, aby go złożyć – ale pospiesz się!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Wydaj szybko zasoby wymagane do złożenia pojazdu i zdobądź %(vehicleName)!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Wszystkie wydane zasoby zostaną wkrótce zwrócone na Twoje konto."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "Niestety, nie ma już pojazdów"
+
+msgid "mainView/navbar/backBtn"
+msgstr "DO WARSZTATU"
+
+msgid "mainView/navbar/title"
+msgstr "WARSZTAT"
+
+msgid "mainView/preview/label"
+msgstr "Podgląd"
+
+msgid "mainView/timer/lastUntil"
+msgstr "Do"
+
+msgid "mainView/timer/leftTime"
+msgstr "Pozostały czas:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Zamknij"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Wydane zasoby"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Dane chwilowo niedostępne"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Nie ma już pojazdów"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Pozostałe pojazdy z numerem: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Pozostałe pojazdy: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Uniwersalny"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Maksymalne zasoby %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "Maksymalne %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Zebrane zasoby %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Fragmenty schematów"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Waluty"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "ZBIERANIE ZASOBÓW"
+
+msgid "tankPreview/button"
+msgstr "Wybierz zasoby"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "W czasie wydarzenia będzie można kupić zestaw zawierający pojazd ze stylem 3D z numerem."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "Pierwszych %(topPlayers) graczy otrzyma pojazd ze stylem 3D z numerem,\nnastępna grupa %(basePlayers) pojazdów będzie dostarczona bez stylu 3D z numerem."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "W czasie wydarzenia można kupić oba pojazdy."
+
+msgid "tankPreview/title"
+msgstr "Zbierz i wydaj 100% wymaganych zasobów, aby otrzymać %(vehicleInfo)!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Wydane zasoby możesz zobaczyć w dowolnym momencie i, jeśli trzeba, pobrać je z powrotem na swoje konto, klikając przycisk Zwróć zasoby.\nTwój postęp montażu zostanie zresetowany, ale będziesz mógł ponownie wydać te lub inne zasoby, by zdobyć pojazd."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Zwracanie zasobów"
+
+msgid "tooltips/counter/error/text"
+msgstr "Dane chwilowo niedostępne.\nPracujemy nad rozwiązaniem problemu."
+
+msgid "tooltips/counter/warning/text"
+msgstr "Liczba jest wyświetlana z opóźnieniem i prawdziwa liczba pojazdów może być inna."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Wydaj zasoby, aby otrzymać %(vehicleName1) i %(vehicleName2). Liczba pojazdów jest ograniczona."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Wydaj zasoby, aby otrzymać %(vehicleName) z numerowanym stylem 3D. Liczba pojazdów jest ograniczona."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Dostępne do: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s - %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Dostępne przez %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Dostępne za: %(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "Warsztat"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Kliknij, aby dowiedzieć się więcej o wydarzeniu"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Wybierz pojazd, w który chcesz zainwestować zasoby.\nJeśli już zainwestowałeś zasoby w inny pojazd, zostaną one zwrócone na Twoje konto."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Pozostały czas: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "Aby złożyć pojazd, wydaj 100% wymaganych zasobów. Stosunek udziału różnych zasobów można zmienić."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "Jeśli nie pozostały już żadne pojazdy, wszystkie wydane zasoby zostaną zwrócone."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Wybrano"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Wydano"
+
+msgid "tooltips/progressbar/title"
+msgstr "Zbieranie zasobów"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "Wydawanie zasobów jest tymczasowo niedostępne. Spróbuj ponownie później."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Uniwersalne i narodowe fragmenty."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Fragmenty schematów"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Przyznawane za aktywne działania w bitwie. Można je również kupić za prawdziwe pieniądze."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Waluty"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Wydatki:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "Maksymalna ilość tego zasobu do wydania: %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Zebrano odpowiednią ilość zasobów, by zdobyć pojazd. Możesz usunąć jeden rodzaj zasobu i wybrać inny."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Zebrano zasoby"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "To unikalny pojazd z własnym numerem i specjalną modyfikacją wyglądu."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "Numer jest wyświetlany na obu stronach lufy i na tyle kadłuba. Numery na takich samych pojazdach nie powtarzają się, a ich liczba jest ograniczona."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "Cechy wyróżniające Twojego pojazdu można ukryć. Jego styl 3D z numerem seryjnym możesz usunąć na ekranie Personalizacja."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Pojazd z numerem"

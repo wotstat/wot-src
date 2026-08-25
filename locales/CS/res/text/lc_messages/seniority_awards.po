@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2011-03-18 10:00+0300\nPO-Revision-Date: 2011-03-18 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "notifications/count"
+msgstr "{count}×"
+
+msgid "notifications/manualClaim/button"
+msgstr "Vyzvednout odměny"
+
+msgid "notifications/manualClaim/title"
+msgstr "Odměny za vaše roky služby na váš čekají!"
+
+msgid "notifications/selectVehicles/button"
+msgstr "Vybrat"
+
+msgid "notifications/selectVehicles/title"
+msgstr "Vozidlo dostupné za roky\nslužby"
+
+msgid "notifications/tokens/button"
+msgstr "Do obchodu"
+
+msgid "notifications/tokens/title"
+msgstr "Vyměňte své žetony za roky služby za odměny!"
+
+msgid "notifications/vehicleSelectionAvailable/title"
+msgstr "Vyberte si libovolné vozidlo!"
+
+msgid "rewardsView/applyBtn"
+msgstr "Potvrzuji!"
+
+msgid "rewardsView/exchangeCoins"
+msgstr "Vyměňte v obchodě své žetony za odměny."
+
+msgid "rewardsView/gotoHangarBtn"
+msgstr "Ukázat v garáži"
+
+msgid "rewardsView/gotoRewardsBtn"
+msgstr "Do obchodu"
+
+msgid "rewardsView/info"
+msgstr "Více o hodnostech"
+
+msgid "rewardsView/moreRewardsBtn"
+msgstr "Více odměn!"
+
+msgid "rewardsView/moreRewardsWithCountBtn"
+msgstr "Více odměn ({count})"
+
+msgid "rewardsView/selection/available"
+msgstr "{{count}} vozidlo dostupné za roky služby"
+
+msgid "rewardsView/selection/received"
+msgstr "ODMĚNA ZÍSKÁNA"
+
+msgid "rewardsView/subTitle/otherRewards"
+msgstr "Získali jste také:"
+
+msgid "rewardsView/subTitle/rank/ctg1"
+msgstr "REKRUT"
+
+msgid "rewardsView/subTitle/rank/ctg2"
+msgstr "BOJOVNÍK"
+
+msgid "rewardsView/subTitle/rank/ctg3"
+msgstr "VELITEL"
+
+msgid "rewardsView/subTitle/rank/ctg4"
+msgstr "DŮSTOJNÍK"
+
+msgid "rewardsView/subTitle/rank/ctg5"
+msgstr "VETERÁN"
+
+msgid "rewardsView/subTitle/rank/ctg6"
+msgstr "LEGENDA"
+
+msgid "rewardsView/subTitle/text"
+msgstr "DOSAŽENA HODNOST {rank}"
+
+msgid "rewardsView/textButton/select"
+msgstr "Vybrat"
+
+msgid "rewardsView/title"
+msgstr "BLAHOPŘEJEME!"
+
+msgid "rewardsView/wdrcoin/counter"
+msgstr "×%(count)s"
+
+msgid "specialItem/body"
+msgstr "Udělují se za bojové zásluhy. Po skončení akce budou všechny zbývající žetony vynulovány."
+
+msgid "specialItem/header"
+msgstr "Žetony za roky služby: {count}"
+
+msgid "tooltip/congratulation/ctg1"
+msgstr "Gratulujeme k dosažení hodnosti Rekrut"
+
+msgid "tooltip/congratulation/ctg2"
+msgstr "Gratulujeme k dosažení hodnosti Bojovník"
+
+msgid "tooltip/congratulation/ctg3"
+msgstr "Gratulujeme k dosažení hodnosti Velitel"
+
+msgid "tooltip/congratulation/ctg4"
+msgstr "Gratulujeme k dosažení hodnosti Důstojník"
+
+msgid "tooltip/congratulation/ctg5"
+msgstr "Gratulujeme k dosažení hodnosti Veterán"
+
+msgid "tooltip/congratulation/ctg6"
+msgstr "Gratulujeme k dosažení hodnosti Legenda"
+
+msgid "tooltip/medalBlock/label/and"
+msgstr "{abLabel} a {yearsLabel}"
+
+msgid "tooltip/medalBlock/label/ca"
+msgstr "Za účast v Alfatestu"
+
+msgid "tooltip/medalBlock/label/cb"
+msgstr "Za účast v Betatestu"
+
+msgid "tooltip/medalBlock/label/duration"
+msgid_plural "plural/tooltip/medalBlock/label/duration"
+msgstr[0] "{{count}} rok služby"
+msgstr[1] "{{count}} roky služby"
+msgstr[2] "{{count}} let služby"
+
+msgid "tooltip/rank/ctg1"
+msgstr "Rekrut"
+
+msgid "tooltip/rank/ctg2"
+msgstr "Válečník"
+
+msgid "tooltip/rank/ctg3"
+msgstr "Velitel"
+
+msgid "tooltip/rank/ctg4"
+msgstr "Důstojník"
+
+msgid "tooltip/rank/ctg5"
+msgstr "Veterán"
+
+msgid "tooltip/rank/ctg6"
+msgstr "Legenda"
+
+msgid "tooltip/segment/ctg1"
+msgstr "Méně než rok"
+
+msgid "tooltip/segment/ctg2"
+msgstr "1–3 roky"
+
+msgid "tooltip/segment/ctg3"
+msgstr "4–6 let"
+
+msgid "tooltip/segment/ctg4"
+msgstr "7–9 let"
+
+msgid "tooltip/segment/ctg5"
+msgstr "10–14 let"
+
+msgid "tooltip/segment/ctg6"
+msgstr "15 let"
+
+msgid "vehicle/A134_M24E2_SuperChaffee"
+msgstr "Legendární lehký tank se skvělou obratností. Vozidlo způsobuje slušné poškození za minutu a má dobré úhly náměru a sklápění děla, což mu v bitvě umožňuje využívat terénní nerovnosti."
+
+msgid "vehicle/G158_VK2801_105_SPXXI"
+msgstr "Toto vozidlo je vyzbrojené velkorážním dělem a má dobré pancéřování, které však ovlivňuje jeho pohyblivost a obratnost. Tank je poněkud těžkopádný, díky čemuž je velice efektivní při narážení do lehce opancéřovaných vozidel."
+
+msgid "vehicle/R160_T_50_2"
+msgstr "Lehký tank, který je ve všech fázích bitvy perfektní pro aktivní průzkum. Jeho malá silueta a vysoká rychlost mu umožňují se vyhnout zásahu, což je vzhledem k jeho skromné palebné síle velice důležité."
+
+msgid "vehicle/R197_KV_1S_MZ"
+msgstr "Jediné vozidlo své úrovně vybavené inverzním automatickým dobíjením. Nejlépe se osvědčuje při způsobování výbušného poškození nepřátelským vozidlům nebo při poskytování podpůrné palby spojencům."

@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n > 1);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Changer de serveur"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Détails"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Ce mode est indisponible sur ce serveur %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Ce mode est indisponible sur tous les serveurs"
+
+msgid "alertMessage/modeOffline"
+msgstr "Erreur de la base de données. Le mode de jeu est indisponible."
+
+msgid "alertMessage/noVehicles"
+msgstr "Aucun véhicule n'est adéquat dans votre garage %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Affirmatif !"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "OFFENSIVE LÉGÈRE"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "ÉTAPE FINALE FRANCHIE !"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "ÉTAPE %(level)s FRANCHIE !"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Toutes les missions ont été accomplies !"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Accomplie"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Expire dans : %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Mission d'Offensive légère"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Nouvelle mission d'Offensive légère dans : %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Récompense :"
+msgstr[1] "Récompenses :"
+msgstr[2] "Récompenses :"
+
+msgid "battleResult/header/deserter"
+msgstr "Vous avez reçu une sanction"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "PROGRESSION D'OFFENSIVE LÉGÈRE"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Offensive légère durera %(days)d jour"
+msgstr[1] "Offensive légère durera %(days)d jours"
+msgstr[2] "Offensive légère durera %(days)d jours"
+
+msgid "calendarDay/title"
+msgstr "Programme"
+
+msgid "closeButtonLabel"
+msgstr "FERMER"
+
+msgid "countDown/text"
+msgstr "L'évènement commence dans :\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Un mode dynamique sous la forme de batailles en 7 contre 7 à bord de véhicules de rang %(levels)s. Profitez du gameplay du mode Offensive d'origine sans la qualification, les rangs, ni les États de service, et gagnez des récompenses à travers des missions quotidiennes."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MODE"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — mode de jeu. Cliquez pour le découvrir"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Offensive légère"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Ce mode est disponible pendant %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Cessez-le-feu%(timer)s"
+
+msgid "featureName"
+msgstr "Offensive légère"
+
+msgid "featureNameCapitalized"
+msgstr "OFFENSIVE LÉGÈRE"
+
+msgid "intro/confirmButton"
+msgstr "Affirmatif !"
+
+msgid "intro/description/lightGameplay"
+msgstr "Profitez du gameplay du mode Offensive d'origine sans la qualification, les rangs, ni les États de service."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Le mode possède des modificateurs qui changent certains paramètres du véhicule, comme ses points de structure, le temps de rechargement des consommables, la durée pendant laquelle il reste visible et plus encore."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Après avoir capturé certaines zones de la carte, vous pourrez utiliser des compétences tactiques. Il existe deux types de Points d'intérêt : Quartier général de l'artillerie vous permettra d'appeler une frappe d'artillerie sur une position donnée, tandis que Centre de communications repérera tous les véhicules ennemis. En fonction de la carte, la présence et l'emplacement de ces Points d'intérêt peuvent changer."
+
+msgid "intro/description/roleSkills"
+msgstr "En fonction du rôle, chaque véhicule dispose d'une compétence spéciale avec trois niveaux de charge. Plus le niveau de charge est élevé lors de l'activation de la compétence, plus son effet sera important. Le niveau de charge dépendra du nombre de Points de prestige pouvant être obtenus par des performances impressionnantes en bataille, la capture de Points d'intérêt, l'utilisation de compétences tactiques, etc.\n\nConsultez les règles du mode pour en savoir davantage concernant les différentes manières d'obtenir des Points de prestige."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Seuls les véhicules %(levels)s peuvent être utilisés dans ce mode (les canons automoteurs et d'autres chars ne sont pas disponibles). Préparez vos véhicules dans le garage, puis choisissez le meilleur en fonction des caractéristiques de la carte désignée une fois en bataille. Lors du choix de votre véhicule, prenez également en compte les véhicules sélectionnés par vos alliés."
+
+msgid "intro/title/lightGameplay"
+msgstr "DÉTENDEZ-VOUS, COMMANDANT"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "MODIFICATEURS D'OFFENSIVE"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "POINTS D'INTÉRÊT"
+
+msgid "intro/title/roleSkills"
+msgstr "COMPÉTENCES DE RÔLE"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "CHOISISSEZ UN VÉHICULE POUR UNE CARTE DONNÉE"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Victoire"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Défaite / Égalité"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Beau travail, Commandant, continuez comme ça !"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Accomplissez des missions et atteignez les meilleures positions lors des batailles d'Offensive légère pour augmenter votre niveau de progression."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Le nombre de Points de progression que vous gagnez dépend de votre position en matière de Points de prestige en bataille."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Le mode se termine dans %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Progression principale terminée"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Offensive légère"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Top 2 en termes de Points de prestige"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Top 5 en termes de Points de prestige"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Top 7 en termes de Points de prestige"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Utilisez le compte premium WoT"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Activez des Réserves personnelles"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Accomplissez des missions"
+
+msgid "noVehicles/howTo/title"
+msgstr "Quelle est la meilleure manière d'obtenir des véhicules de rang %(levels)s ?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Afin de participer à Offensive légère, vous devez posséder au moins un véhicule de rang %(levels)s approprié pour ce mode dans votre garage.\nVous pouvez acheter des véhicules premium de rang %(levels)s dans l'Arbre technologique ou dans le Magasin en jeu."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Afin de participer au mode Offensive légère, vous devez posséder au moins un véhicule de rang %(levels)s dans votre garage approprié pour ce mode.\nVous disposez d'un véhicule de rang %(levels)s qui peut être récupéré."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Afin de participer au mode Offensive légère, vous devez posséder au moins un véhicule de rang %(levels)s dans votre garage approprié pour ce mode."
+
+msgid "noVehicles/title"
+msgstr "Aucun véhicule n'est adéquat dans votre garage"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Voir la page À propos d'Offensive légère pour plus de détails."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Points de prestige"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Infliger des dégâts\nAssister par détection\nDétruire des chenilles\nInfliger des coups critiques\nDétruire des véhicules ennemis\nEt plus"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Des Points de prestige peuvent être obtenus en réalisant des actions en bataille, dont :"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "La Saison est terminée sur le serveur %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "La Saison est terminée sur le serveur %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "La Saison est terminée sur le serveur %(server)s."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Progression principale terminée !"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Étape %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s ou %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Nouvelles missions dans :"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "L'évènement se termine dans :"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Les missions seront mises à jour dans"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Toutes les missions quotidiennes ont été accomplies."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Progression terminée. Jouez à Offensive légère pour gagner davantage de récompenses."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Accomplissez des missions et occupez les meilleures positions lors des batailles\nd'Offensive légère pour augmenter votre niveau de progression. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Décernés pour avoir terminé des missions spéciales et disputé des batailles lors d'Offensive légère. Ils vous permettent d'avancer dans la Progression."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Points de progression d'Offensive légère"
+
+msgid "selectorTooltip/desc"
+msgstr "Mode sans cote. 7v7 | Rang %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Offensive légère"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Suivez les dernières actualités sur le portail du jeu pour vous tenir au courant du début de la nouvelle Saison."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Le mode est temporairement indisponible en raison de problèmes techniques."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Ce mode deviendra disponible le %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Points de progression reçus"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Détails"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Offensive légère"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Récompenses reçues :"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Vous avez terminé l'Étape de progression %(stage)s dans le mode %(progressionName)s."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Félicitations !"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Cessez-le-feu effectif. Les batailles en mode Offensive légère sont temporairement indisponibles."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Cessez-le-feu"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Cessez-le-feu terminé. Les batailles en mode Offensive légère sont à nouveau disponibles."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Cessez-le-feu"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "À propos d'Offensive légère"

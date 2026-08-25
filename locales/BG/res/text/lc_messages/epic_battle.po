@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "Управление на резерви"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "Натиснете, за да изберете достъпен боен резерв."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "Бомби"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "Област на покритие"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "Зашемети"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "Връщане в битка"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "Брой мини"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "Продължителност на миннито поле"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "Зашемети"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "Радиус на поражения"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "Продължителност"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "Снаряди"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "Презареждане"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "Връщане в битка"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "Продължителност на действие"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "Количество възстановени точки живот"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "Обем на незабавно възстановени точки живот при активиране"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "Намалени поражения, нанасяни от мини"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "Бонус към скоростта на възстановяване на точки живот в кръга за презареждане"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "Ефективност на екипажа"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "Продължителност"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "Продължителност на остатъчния ефект"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "Радиус на действие"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "Ефективност на екипажа на машината ви"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "Повишена защита"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "Бонус при завладяване"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "Опресняване на кръга за презареждане"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "Скорост на попълване на боекомплекта"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "Време за пристигане"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "Област на покритие"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300 x 750 м"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "Продължителност на полета"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "Намалена ефективност на екипажа"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "Димни гранати"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "Област на покритие"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "Продължителност"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "Понижен обзор на вражески машини"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "Намаляване на маскировката на вражески машини зад растителност"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "Намаляване на маскировката на движещи се вражески машини"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "Продължителност на действие"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "Бонус към маскировката на неподвижна машина"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "Пасивен бонус към обзора"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "Ниво на резерва"
+
+msgid "abilityInfo/properties/static"
+msgstr "Постоянни характеристики"
+
+msgid "abilityInfo/units/meter"
+msgstr "м"
+
+msgid "abilityInfo/units/seconds"
+msgstr "сек"
+
+msgid "advance_message_txt"
+msgstr "Напреднете към фронта"
+
+msgid "advance_mission_txt"
+msgstr "Напреднете към фронта"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "ПОДРОБНОСТИ ЗА СЦЕНАРИИТЕ"
+
+msgid "awards/acceptButton"
+msgstr "Тъй вярно!"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "ПОЛУЧЕНИ СА НАГРАДИ"
+
+msgid "awards/subTitle2"
+msgstr "ПОЛУЧЕНА Е НАГРАДА"
+
+msgid "awards/title"
+msgstr "ФРОНТОВА ЛИНИЯ"
+
+msgid "base/contested_atk"
+msgstr "Оспорва се"
+
+msgid "base/contested_def"
+msgstr "Атакувана"
+
+msgid "battleResults/armor"
+msgstr "Използване на броня"
+
+msgid "battleResults/assistance"
+msgstr "Поддръжка"
+
+msgid "battleResults/crits"
+msgstr "Критични попадения"
+
+msgid "battleResults/damage"
+msgstr "Поражения"
+
+msgid "battleResults/kill"
+msgstr "Унищожен"
+
+msgid "battleResults/spotting"
+msgstr "Открити"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "x1 личен резерв: %(effectValue)s към опита на екипажа за %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "x1 личен резерв: %(effectValue)s към свободния опит за %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "x1 личен резерв: %(effectValue)s към бойния опит за %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Атакувайте цел %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Защитавайте цел %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Внимание към позиция!"
+
+msgid "command_shortcut/title"
+msgstr "Команди"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "Направлението е блокирано - достигнат е лимитът на играчи"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "Опасна зона"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "Направлението е блокирано - достигнат е лимитът на клас машини"
+
+msgid "dialogs/quotedName"
+msgstr "\"%(name)s\""
+
+msgid "dialogs/title/buy/item"
+msgstr "Купи %(name)s %(type)s?"
+
+msgid "dialogs/title/buy/items"
+msgstr "Купи %(type)s?"
+
+msgid "dialogs/title/install/item"
+msgstr "Активирай %(name)s %(type)s?"
+
+msgid "dialogs/title/install/items"
+msgstr "Активирай %(type)s?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "Натрупайте необходимия брой точки и активирайте бойни резерви за \"Фронтова линия\"."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "Натрупайте необходимия брой точки и активирайте бойни резерви за \"Фронтова линия\"."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "Точки за бойни резерви"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "Машини %(level)s ще бъдат отключени за битка след завладяване/загуба на която и да е точка от втората линия (D, E или F)."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "ниво %(lvl)s"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "Изберете машина ниво VIII за участие в режим \"Фронтова линия\"."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "Несъвместима машина"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "Получи"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "Макс."
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "Бойни резерви"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "Ниво на командира"
+
+msgid "epictraining/info/otherLabel"
+msgstr "Неразпределени играчи: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "Атакуващи ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "Защитаващи се ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "Всички вражески машини са унищожени"
+
+msgid "game/all_hqs_destroyed"
+msgstr "Всички цели са унищожени"
+
+msgid "game/all_tanks_defeated"
+msgstr "Всички съюзнически машини са унищожени"
+
+msgid "game/defeat"
+msgstr "Поражение!"
+
+msgid "game/draw"
+msgstr "Реми!"
+
+msgid "game/time_over"
+msgstr "Целите не бяха унищожени"
+
+msgid "game/victory"
+msgstr "Победа!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "Унищожете целите!"
+
+msgid "global_msg/atk/time_short"
+msgstr "Завладейте зона!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "Защитавайте целите!"
+
+msgid "global_msg/def/time_short"
+msgstr "Защитавайте зоните!"
+
+msgid "global_msg/lane/center_short"
+msgstr "Нужно е подкрепление в зона %(strArg1)s!"
+
+msgid "global_msg/lane/east_short"
+msgstr "Нужно е подкрепление в зона %(strArg1)s!"
+
+msgid "global_msg/lane/west_short"
+msgstr "Нужно е подкрепление в зона %(strArg1)s!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "Не губете танковете си!"
+
+msgid "help_window/communication"
+msgstr "Зона на покритие"
+
+msgid "help_window/communication/description"
+msgstr "Можете да получавате команди само от съюзници, намиращи се в пределите на видимата част на миникартата ви или ако целта на командата е в тази зона."
+
+msgid "help_window/overview_map"
+msgstr "Стратегическа карта"
+
+msgid "help_window/overview_map/description"
+msgstr "Стартегическата карта се използва за обзор на текущата картина на бойното поле. Когато картата е отворена, можете да общувате с всички членове на вашия отбор и да получавате съобщения от тях."
+
+msgid "help_window/recovery"
+msgstr "Възстановяване"
+
+msgid "help_window/recovery/description"
+msgstr "Възстановяването позволява самоунищожаване на машина, заседнала на бойното поле. Това е нужно, защото по-продължителната битка и възможността за връщане обратно в нея налагат играчът постоянно да е в центъра на събитията."
+
+msgid "help_window/reserves"
+msgstr "Резерв от машини"
+
+msgid "help_window/reserves/description"
+msgstr "На всеки няколко минути една машина се добавя към вашия резерв. Резервът може да съдържа максимум две машини. Когато няма останали машини, не можете да влезете в битката и трябва да изчакате доставянето на нови машини."
+
+msgid "hq/under_attack_atk"
+msgstr "Атакувана"
+
+msgid "hq/under_attack_def"
+msgstr "Атакувана"
+
+msgid "in_game_rank/experience_text"
+msgstr "Опит"
+
+msgid "lane_central_name"
+msgstr "Център"
+
+msgid "lane_east_name"
+msgstr "Изток"
+
+msgid "lane_west_name"
+msgstr "Запад"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "Ниво %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "Получаването е недостъпно: нямате точки за бойни резерви."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "Бойният резерв достигна максималното ниво."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "Подобрението е недостъпно: нямате точки за бойни резерви."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "Боен резерв не е закупен"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "Нивото на бойния резерв се повишава след достигане на ранговете капитан и майор в битка. Максималното ниво се определя от сценария на битката."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "Стойност на покупка: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "Основна цел"
+
+msgid "mission/title"
+msgstr "Мисия"
+
+msgid "mission/zone_closing_atk"
+msgstr "Зоната се отваря след: "
+
+msgid "mission/zone_closing_def"
+msgstr "Вражеска бомбардировка след: "
+
+msgid "missions/primary/atk/base"
+msgstr "Завладейте зона"
+
+msgid "missions/primary/atk/hq"
+msgstr "Унищожете цел"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s от %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "Унищожени цели:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "Завладявайте зони, за да достигнете основните цели. Унищожете основните цели."
+
+msgid "missions/primary/def/base"
+msgstr "Отбранявайте зона"
+
+msgid "missions/primary/def/hq"
+msgstr "Отбранявайте цел"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s от %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "Изгубени цели:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "Защитавайте основните цели до изтичане на времето или унищожете всички атакуващи."
+
+msgid "missions/unlockTankLevel"
+msgstr "Достъпни са машини ниво IX"
+
+msgid "overtime/label"
+msgstr "ПРОДЪЛЖЕНИЕ"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "Не могат да се активират две еднакви резерви"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "Неуспешно разполагане. Минните полета се пресичат."
+
+msgid "primeTime/applyBtn"
+msgstr "Отиди на режим"
+
+msgid "primeTime/cancelBtn"
+msgstr "Отмени"
+
+msgid "primeTime/continueBtn"
+msgstr "Продължи"
+
+msgid "primeTime/endOfCycle"
+msgstr "Режимът на сървър %(server)s завърши."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "Достъпни сървъри:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "Достъпен сървър: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "Битките на сървър %(server)s ще бъдат достъпни още %(time)s"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "Следващи битки на %(server)s след %(time)s"
+
+msgid "primeTime/serverTooltip"
+msgstr "Сървър %(server)s\nБитките ще бъдат достъпни още %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Битките ще бъдат достъпни след %(time)s"
+
+msgid "primeTime/servers"
+msgstr "Достъпни сървъри: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Битките на сървър %(server)s завършиха"
+
+msgid "primeTime/status/disable"
+msgstr "Можете да отидете на сървър с режим \"Фронтова линия\" и да продължите с подготовката преди битка."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "Режимът е недостъпен на сървър %(server)s"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "На сървър %(server)s е в сила примирие до %(startTime)s"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "На всички сървъри е в сила примирие"
+
+msgid "primeTime/status/thisEnable"
+msgstr "На сървър %(server)s режим \"Фронтова линия\" е достъпен още: %(time)s."
+
+msgid "primeTime/steelhunter/title"
+msgstr "СТОМАНЕН ЛОВЕЦ"
+
+msgid "primeTime/title"
+msgstr "ФРОНТОВА ЛИНИЯ"
+
+msgid "primeTime/titleWelcome"
+msgstr "ДОБРЕ ДОШЛИ\nВ РЕЖИМ \"ФРОНТОВА ЛИНИЯ\""
+
+msgid "progress_timers/active"
+msgstr "Започната"
+
+msgid "progress_timers/fully_equipped"
+msgstr "Напълно оборудвана"
+
+msgid "progress_timers/resupply"
+msgstr "Кръг за презареждане"
+
+msgid "progress_timers/unavailable"
+msgstr "Недостъпна"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "Мисии за \"Фронтова линия\""
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "по-малко от 1 ден"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "достигнете ниво %(level)s"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "Нови мисии ще бъдат достъпни след %(time)s"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "Мисии за \"Стоманен ловец\""
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "\"Фронтова линия\" завършва след: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "Недостъпно: %(reason)s."
+
+msgid "rank/allReserveUpgraded"
+msgstr "Повишени са нивата на всички бойни резерви"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "Отборният бонус към представянето на екипажа се увеличи до +%(percent)s%%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "Максималната производителност на екипажа се достига при +%(percent)s%%"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "Отборен бонус към представянето на екипажа +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "Играч"
+
+msgid "rank/promotion"
+msgstr "получава звание %(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "Редник"
+
+msgid "rank/rank2"
+msgstr "Сержант"
+
+msgid "rank/rank3"
+msgstr "Лейтенант"
+
+msgid "rank/rank4"
+msgstr "Капитан"
+
+msgid "rank/rank5"
+msgstr "Майор"
+
+msgid "rank/rank6"
+msgstr "Генерал"
+
+msgid "rank/recerveUnlocked"
+msgstr "Боен резерв %(reserveName)s е отключен"
+
+msgid "rank/reserveUpgraded"
+msgstr "Боен резерв %(reserveName)s е подобрен"
+
+msgid "rank/slotUnlocked"
+msgstr "%(slotNumber)s боен резерв е отключен"
+
+msgid "rank/slot_2"
+msgstr "2ри"
+
+msgid "rank/slot_3"
+msgstr "3ти"
+
+msgid "recovery/Blocked"
+msgstr "Временно\nблокирано"
+
+msgid "recovery/disabled"
+msgstr "Възстановяването е недостъпно"
+
+msgid "recovery_panel/base_text"
+msgstr "Натиснете J\nза възстановяване"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "Движете се или стреляйте за отмяна."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "Възстановяването\nе отменено"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "Поискахте\nвъзстановяване"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "Завладейте следващата зона"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "Подкрепления след "
+
+msgid "reinforcement/unavailable"
+msgstr "Подкрепленията са недостъпни"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s сек. до автоматично връщане в битка."
+
+msgid "respawn/deploy_button"
+msgstr "Битка!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "Подобрено снаряжение не може да се купува в битка."
+
+msgid "respawn/shop_title"
+msgstr "Обслужване"
+
+msgid "respawn/tanks_left"
+msgstr "останали машини"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "Изберете машина и зона за развръщане"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "Развръщането в тази зона е опасно."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s секунди"
+
+msgid "retreat_message_txt"
+msgstr "Отстъпете"
+
+msgid "retreat_mission_txt"
+msgstr "Отстъпете към следващата зона"
+
+msgid "rewardSelection/subTitle"
+msgstr "ИЗБЕРЕТЕ НАГРАДАТА СИ"
+
+msgid "rewardSelection/title"
+msgstr "ФРОНТОВА ЛИНИЯ"
+
+msgid "scorePanel/stage1"
+msgstr "Етап 1"
+
+msgid "scorePanel/stage2"
+msgstr "Етап 2"
+
+msgid "scorePanel/stage3"
+msgstr "Етап 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "Производителността на вашия компютър е недостатъчна за този режим. Може да се наблюдават проблеми с графиката и движението на машините. Възможно е и блокиране на клиента на играта."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "Ниска производителност"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "При недостатъчна производителност пробвайте да намалите качеството на графиката от Настройки."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "Този режим изисква висока производителност на компютъра"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "Този режим изисква висока производителност на компютъра. Може да срещнете проблеми със зареждането на картата, графиката и движението на машината. В случай на недостатъчна производителност, опитайте да намалите качеството на графиката във вашите настройки."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "Ниска производителност"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "30 на 30 битки с %(bodyVehicleLevel)s. Използвайте опцията за съживяване, бойните резерви, както и кръговете за презареждане."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "машини ниво %(level)s"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "30 на 30 битки с %(bodyVehicleLevel)s. Използвайте опцията за съживяване, бойните резерви, както и ремонти в битка."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "Режимът е временно недостъпен по технически причини."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "Фронтова линия"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "Битките започват след: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "Битките завършват след: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "Разписание на битките"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "Днес"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "Утре"
+
+msgid "skill/category/firesupport"
+msgstr "Нападателни резерви"
+
+msgid "skill/category/reconnaissance"
+msgstr "Разузнавателни резерви"
+
+msgid "skill/category/tactics"
+msgstr "Тактически резерви"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "Камера в режим на наблюдател"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "Въртете камерата с мишката си."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "Използвайте W,A,S,D, за да движите камерата по картата."
+
+msgid "spectator_mode/follow_text"
+msgstr "Ляв бутон за започване на следване."
+
+msgid "spectator_mode/follow_title"
+msgstr "Следвай"
+
+msgid "spectator_mode/msg_text"
+msgstr "Машината пристига след:"
+
+msgid "spectator_mode/msg_title"
+msgstr "Всички машини са унищожени!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "Натиснете отново, за да спрете следването."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "Спри следване"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s д"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s ч"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 мин."
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s мин"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "Блокирана"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Излезте от зоната!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Възстановяване на точки живот"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Възстановяване на точки живот"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Въодушевление"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "Въодушевление"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Кръг за презареждане"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "В дима: замаскиран."
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "В дима. Обзорът и ефективността на екипажа са намалени."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "Остатъчен ефект. Обзорът и ефективността на екипажа са намалени."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "Активиран е \"Часовой\""
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "Активира се %(activationDelay)s сек. след спиране на машината"
+
+msgid "super_platoon_panel/title"
+msgstr "Взвод"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "— общ бонус на отбора към представянето на екипажа за присъствието на генерал."
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "Всички направления"
+
+msgid "tab_screen/show_my_lane"
+msgstr "Моето направление"
+
+msgid "team1Name"
+msgstr "Атакуващи"
+
+msgid "team2Name"
+msgstr "Отбраняващи се"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "Изберете награди за достигнати нива във \"Фронтова линия\" (%(number)s)."
+
+msgid "tooltips/common/disabled"
+msgstr "Режимът е недостъпен"
+
+msgid "tooltips/common/title"
+msgstr "Фронтова линия"
+
+msgid "tooltips/end"
+msgstr "Събитието завърши"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "редът на отключване на бойните резерви зависи от вида на машината. Един боен резерв е достъпен от самото начало, а другите се отключват при достигане съответно на ранг сержант и лейтенант."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "Отключване: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "В сценария <font color='#E9E2BF'>\"Обрат на съдбата\"</font> закупуването на боен резерв ще повиши нивото му с едно и ще предостави възможност за подобряването му до ниво <font color='#E9E2BF'>IV</font>."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "Боен резерв, поставен в този слот, увеличава шанса да бъде предложен в сценария <font color='#E9E2BF'>Обрат на съдбата</font> с <font color='#E9E2BF'>10%</font>."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "Отключване и подобряване на бойни резерви в битка"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "Бойните резерви се отключват и подобряват в битка в зависимост от вида на машината и достигнатия от вас ранг."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "Конфигурация на резерви за ПТ-САУ"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "Конфигурация на резерви за САУ"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "Конфигурация на резерви за тежки танкове"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "Конфигурация на резерви за леки танкове"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "Конфигурация на резерви за средни танкове"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "след отключване на всички бойни резерви при достигане на нови рангове, тези бойни резерви се подобряват. Първоначално отключеният боен резерв може да се подобри до ниво III, а вторият отключен боен резерв може да се подобри до ниво II."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "Подобряване: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "Слотът ще бъде отключен при достигане на звание \"%(rank)s\"."
+
+msgid "tooltips/timeToEnd"
+msgstr "Режимът е достъпен: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "Битките ще започнат след: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "Събитието завърши"
+
+msgid "tooltips/widget/level"
+msgstr "%(level)s ниво"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "Достигнато е максималното ниво."
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "БОЙНИ РЕЗЕРВИ"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "На всички сървъри е в сила примирие. Битките ще бъдат достъпни след %(time)s"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "Битките започват скоро"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Избери друг сървър"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "Подробности"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "Режимът \"Фронтова линия\" приключи."
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "Сценарии на Фронтова линия"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "На сървъра е в сила примирие. Битките ще бъдат достъпни след %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "На %(serverName)s е в сила примирие"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "Битките ще започнат след: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "Кликнете, за да научите повече за сценариите на \"Фронтова линия\"\nи разликите между тях."
+
+msgid "zone/arrived_text"
+msgstr "Пристигна!"
+
+msgid "zone/capture_text"
+msgstr "Завладяване"
+
+msgid "zone/captured_text"
+msgstr "Завладяно"
+
+msgid "zone/defend_text"
+msgstr "Отбранявайте"
+
+msgid "zone/destroy_text"
+msgstr "Унищожете"
+
+msgid "zone/destroyed_text"
+msgstr "Унищожен"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "Вражески подкрепления"
+
+msgid "zone/headquarters_text"
+msgstr "Цели"
+
+msgid "zone/leave_zone"
+msgstr "Напуснете зоната!"
+
+msgid "zone/lost_text"
+msgstr "Изгубена"
+
+msgid "zone/reached_text"
+msgstr "Достигната"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "Вражеско подкрепление:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "Подкрепление:"
+
+msgid "zone/reinforcements_text"
+msgstr "Подкрепление"
+
+msgid "zone/time_added"
+msgstr "Добавени минути: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "Остават %(minutes)s минути"
+
+msgid "zone/zone_text"
+msgstr "Зона"

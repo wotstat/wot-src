@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "Taip tikrai!"
+
+msgid "awardsView/subTitle"
+msgstr "MŪŠIŲ SKAIČIUS: {number}"
+
+msgid "awardsView/title"
+msgstr "ŽVALGYBINĖ MISIJA"
+
+msgid "buttonDisable/tooltip"
+msgstr "Nepasiekiama"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Tvarkaraštis"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "Negalima eiti į mūšį"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "Mūšiai baigėsi"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "Negalima eiti į mūšį"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "Šiame serveryje galioja paliaubos. Pasirinkite kitą serverį."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "Mūšyje galite dalyvauti tik su %(levelSubStr)s."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "Netinkamas mašinos lygis"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "%(levels)s lygio mašinomis"
+
+msgid "intro/button"
+msgstr "Taip tikrai!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "Jūsų atsiliepimai padeda mums pagerinti mūšio laukus. Čia galite parašyti savo pastebėjimus apie naują funkcionalumą žemėlapiuose, o mes į žaidimą įtrauksime geriausias idėjas"
+
+msgid "intro/interviewInfoTitle"
+msgstr "Lemiami atsiliepimai"
+
+msgid "intro/modeInfoDescription"
+msgstr "Kovokite su VIII–X lygio mašinomis žemėlapiuose, turinčiuose naujo funkcionalumo, ir gaukite prizus. Už savaitės progresas bus apnulintas ir galėsite rinkti prizus iš naujo."
+
+msgid "intro/modeInfoTitle"
+msgstr "Padėkite mums kurti naujoves!"
+
+msgid "intro/startEvent"
+msgstr "Renginys prasideda po: "
+
+msgid "intro/taskInfoDescription"
+msgstr "Kovodami Žvalgybinėje misijoje jūs galite įvykdyti kasdienes ir Kovinio leidimo misijas bei progresinių lipdukų sąlygas."
+
+msgid "intro/taskInfoTitle"
+msgstr "Kova pagal Atsitiktinio mūšio taisykles"
+
+msgid "intro/time/period/day"
+msgstr "{day} d."
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} d. {hours} val."
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} val. {min} min."
+
+msgid "intro/time/period/minute"
+msgstr "{min} min."
+
+msgid "intro/title"
+msgstr "ŽVALGYBINĖ MISIJA"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s negali kovoti Žvalgybinėje misijoje."
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "Netinkamas mašinos tipas"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "Žvalgybinėse misijose galite dalyvauti tik su %(levelSubStr)s."
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "Netinkamas mašinos lygis"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "%(levels)s lygio mašinos"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s negali kovoti Žvalgybinėje misijoje."
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "Netinkama mašina"
+
+msgid "mapboxTab"
+msgstr "Žvalgybinė misija"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Etapas serveryje %(server)s baigėsi"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Serveryje %(server)s\nmūšiai bus pasiekiami dar: %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Serveryje %(server)s\nmūšiai bus pasiekiami po %(time)s"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Paliaubos galioja visuose serveriuose"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Režimas nepasiekiamas serveryje %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Serveryje %(server)s mūšiai bus pasiekiami dar %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Mūšiai prasidės serveryje %(server)s po %(time)s"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "Mūšiai šiame režime nepasiekiami. Baigėsi sezonas."
+
+msgid "primeTimeView/status/untill"
+msgstr "Paliaubos galioja serveryje %(server)s iki %(startTime)s"
+
+msgid "primeTimeView/title"
+msgstr "ŽVALGYBINĖ MISIJA"
+
+msgid "primeTimes/availableServer"
+msgstr "Pasiekiamas serveris:"
+
+msgid "primeTimes/availableServers"
+msgstr "Pasiekiami serveriai:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "Mūšiai baigėsi"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Režimas nepasiekiamas serveryje %(serverName)s"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "Sužaisti mūšius"
+
+msgid "progression/cardTitle/rating"
+msgstr "Patekti tarp {rating} geriausių žaidėjų pagal uždirbtą patirtį"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "Patekti tarp {rating} geriausių žaidėjų pagal uždirbtą patirtį žemėlapyje su ugnimi"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "Patekti tarp {rating} geriausių žaidėjų pagal uždirbtą patirtį žemėlapiuose su rūku"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "Patekti tarp {rating} geriausių žaidėjų pagal uždirbtą patirtį žemėlapiuose su smarkia liūtimi"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "Patekti tarp {rating} geriausių žaidėjų pagal uždirbtą patirtį žemėlapyje su smėlio audra"
+
+msgid "progression/changeAnswer"
+msgstr "Pakeisti atsakymą"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Dalyvaukite mūšiuose su VIII–X lygio mašinomis žemėlapiuose, turinčiuose naujo funkcionalumo, užpildykite apklausos formą ir gaukite prizus."
+
+msgid "progression/info/restart"
+msgstr "Apdovanojimų progresas bus atstatytas po %(leftTime)s"
+
+msgid "progression/info/title"
+msgstr "Patekti tarp %(rating) geriausių žaidėjų pagal uždirbtą patirtį: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "APIE RENGINĮ"
+
+msgid "progression/map_01_karelia"
+msgstr "KARELIJA"
+
+msgid "progression/map_02_malinovka"
+msgstr "MALINOVKA"
+
+msgid "progression/map_05_prohorovka"
+msgstr "PROKOROVKA"
+
+msgid "progression/map_18_cliff"
+msgstr "VESTFILDAS"
+
+msgid "progression/map_all"
+msgstr "ŽAIDIMO\nPRINCIPAI"
+
+msgid "progression/map_fire"
+msgstr "UGNIS"
+
+msgid "progression/map_fog"
+msgstr "RŪKAS"
+
+msgid "progression/map_heavy_rain"
+msgstr "SMARKI LIŪTIS"
+
+msgid "progression/map_sandstorm"
+msgstr "SMĖLIO AUDRA"
+
+msgid "progression/redirect"
+msgstr "Pereiti į režimą"
+
+msgid "progression/startInterview"
+msgstr "Dalyvauti apklausoje"
+
+msgid "progression/startInterviewTooltip"
+msgstr "Įvykdykite nurodytas sąlygas norėdami sudalyvauti apklausoje."
+
+msgid "progression/startSpecialInterview"
+msgstr "Dalyvauti apklausoje"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "Įvykdykite nurodytas sąlygas norėdami sudalyvauti apklausoje."
+
+msgid "progression/subtitle"
+msgstr "Čia galite sudalyvauti apklausoje apie naujas funkcijas"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s d."
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s val. %(min)s min."
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 min."
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s min."
+
+msgid "progression/title"
+msgstr "ŽVALGYBINĖ MISIJA"
+
+msgid "progressionError/description/line1"
+msgstr "Jūsų progresas išsaugotas. Galite tęsti žaidimą."
+
+msgid "progressionError/description/line2"
+msgstr "Jūs greitai galėsite pamatyti savo progresą ir sudalyvauti apklausoje."
+
+msgid "progressionError/title"
+msgstr "Žvalgybinės misijos informacija laikinai nepasiekiama"
+
+msgid "questFlag/complete"
+msgstr "Gauti visi apdovanojimai"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "Kovokite su %(highlightedText)s, vykdykite apklausas ir gaukite prizų."
+
+msgid "questFlag/frozen/header"
+msgstr "Žvalgybinė misija nepasiekiama"
+
+msgid "questFlag/frozen/text"
+msgstr "Žvalgybinės misijos mūšiai nepasiekiami dėl techninių problemų."
+
+msgid "questFlag/highlightedText"
+msgstr "VIII–X lygio mašinomis žemėlapiuose, turinčiuose naujo funkcionalumo"
+
+msgid "questFlag/incomplete"
+msgstr "Mūšių skaičius kitam prizui: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "Mūšių skaičius:"
+
+msgid "questFlag/surveysTitle"
+msgstr "Užpildyta apklausų: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "Žemėlapių, su nauju funkcionalumu, tyrinėjimas prasidės %(day)s"
+
+msgid "selector/tooltip/body"
+msgstr "Žemėlapių, su nauju funkcionalumu, tyrinėjimas tęsis iki %(day)s"
+
+msgid "selector/tooltip/title"
+msgstr "Tvarkaraštis"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Iki sezono pabaigos:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Mūšių tvarkaraštis"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Šiandien"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Rytoj"
+
+msgid "serverAlertMessage/button"
+msgstr "Pasirinkite kitą serverį"
+
+msgid "survey/backBtn"
+msgstr "Atgal"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "Prieštankiniais"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "Artilerija"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "Sunkiaisiais"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "Lengvaisiais"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "Vidutiniais"
+
+msgid "survey/fire/question/q1"
+msgstr "Ar jums patiko žaisti Murovanka žemėlapyje su nauja ugnies funkcija?"
+
+msgid "survey/fire/question/q2"
+msgstr "Ką manote apie ugnies grafinį apipavidalinimą Murovanka žemėlapyje?"
+
+msgid "survey/fire/question/q3"
+msgstr "Ar norėtumėte pakoreguoti ugnies poveikį mūšio eigai Murovanka žemėlapyje?"
+
+msgid "survey/fire/question/q4"
+msgstr "Kaip tiksliai jūs pakeistumėte ugnies poveikį mūšyje Murovanka žemėlapyje?"
+
+msgid "survey/fire/question/q5"
+msgstr "Su kokio tipo mašinomis jūs žaidėte Murovanka žemėlapyje?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "Kaip pasikeitė žaidimas su {value} Murovanka žemėlapyje?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "Kaip pasikeitė žaidimas su {value} Murovanka žemėlapyje?"
+
+msgid "survey/fire/question/q7"
+msgstr "Ar norėtumėte matyti ugnį Atsitiktinių mūšių žemėlapiuose?"
+
+msgid "survey/fire/question/q8"
+msgstr "Kuo jums nepatiko ugnies funkcionalumas Murovanka žemėlapyje?"
+
+msgid "survey/fire/question/q9"
+msgstr "Nurodykite reikalingus patobulinimus."
+
+msgid "survey/fire/response/q1_1"
+msgstr "Taip, patiko"
+
+msgid "survey/fire/response/q1_2"
+msgstr "Ne, nepatiko"
+
+msgid "survey/fire/response/q1_3"
+msgstr "Nežinau"
+
+msgid "survey/fire/response/q2_1"
+msgstr "Man patiko"
+
+msgid "survey/fire/response/q2_2"
+msgstr "Visai gerai"
+
+msgid "survey/fire/response/q2_3"
+msgstr "Man nepatiko"
+
+msgid "survey/fire/response/q2_4"
+msgstr "Nežinau"
+
+msgid "survey/fire/response/q3_1"
+msgstr "Taip, norėčiau"
+
+msgid "survey/fire/response/q3_2"
+msgstr "Ne, nenorėčiau"
+
+msgid "survey/fire/response/q3_3"
+msgstr "Nežinau"
+
+msgid "survey/fire/response/q4_1"
+msgstr "Sustiprinčiau"
+
+msgid "survey/fire/response/q4_2"
+msgstr "Susilpninčiau"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "Prieštankiniais"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "Artilerija"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "Sunkiaisiais"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "Lengvaisiais"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "Vidutiniais"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "Nepamenu"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "Pagerėjo"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "Pablogėjo"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "Nepasikeitė"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "Nežinau"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "Pagerėjo"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "Pablogėjo"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "Nepasikeitė"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "Nežinau"
+
+msgid "survey/fire/response/q7_1"
+msgstr "Taip, norėčiau"
+
+msgid "survey/fire/response/q7_2"
+msgstr "Ne, nenorėčiau"
+
+msgid "survey/fire/response/q7_3"
+msgstr "Nežinau"
+
+msgid "survey/fire/response/q8_1"
+msgstr "Ugnis ženkliai sumažina galimų pozicijų skaičių"
+
+msgid "survey/fire/response/q8_10"
+msgstr "Vienai komandai suteikiamas pranašumas"
+
+msgid "survey/fire/response/q8_11"
+msgstr "Techninės problemos"
+
+msgid "survey/fire/response/q8_12"
+msgstr "Kita"
+
+msgid "survey/fire/response/q8_2"
+msgstr "Ugnis daro per daug žalos"
+
+msgid "survey/fire/response/q8_3"
+msgstr "Priešai už teritorijos nemato mano mašinos, bet aš taip pat nematau ir jų"
+
+msgid "survey/fire/response/q8_4"
+msgstr "Ugnies vieta žemėlapyje"
+
+msgid "survey/fire/response/q8_5"
+msgstr "Kaip atrodo ugnis"
+
+msgid "survey/fire/response/q8_6"
+msgstr "Per didelis poveikis žaidimui žemėlapyje"
+
+msgid "survey/fire/response/q8_7"
+msgstr "Per mažas poveikis žaidimui žemėlapyje"
+
+msgid "survey/fire/response/q8_8"
+msgstr "Ugnies vizualizacija trukdo kovoje"
+
+msgid "survey/fire/response/q8_9"
+msgstr "Ugnis priverčia kovoti iš arti"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "Sargybos postas"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "Fiordai"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "Sargybos postas"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "Fiordai"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "Sargybos postas"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "Fiordai"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "Prieštankiniais"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "Artilerija"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "Sunkiaisiais"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "Lengvaisiais"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "Vidutiniais"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "Prieštankiniais"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "Artilerija"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "Sunkiaisiais"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "Lengvaisiais"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "Vidutiniais"
+
+msgid "survey/fog/question/q1"
+msgstr "Ar jums patiko žaisti šiuose žemėlapiuose su nauja rūko funkcija?"
+
+msgid "survey/fog/question/q10"
+msgstr "Ar norėtumėte matyti rūką Atsitiktinių mūšių žemėlapiuose?"
+
+msgid "survey/fog/question/q11"
+msgstr "Kuo jums nepatiko rūko funkcionalumas Fiordų žemėlapyje?"
+
+msgid "survey/fog/question/q12"
+msgstr "Kuo jums nepatiko rūko funkcionalumas Sargybos posto žemėlapyje?"
+
+msgid "survey/fog/question/q13"
+msgstr "Nurodykite reikalingus patobulinimus."
+
+msgid "survey/fog/question/q2"
+msgstr "Ką manote apie rūko grafinį apipavidalinimą šiuose žemėlapiuose?"
+
+msgid "survey/fog/question/q3"
+msgstr "Ar norėtumėte pakoreguoti rūko poveikį mūšio eigai žemėlapiuose?"
+
+msgid "survey/fog/question/q4"
+msgstr "Kaip tiksliai jūs pakeistumėte rūko poveikį mūšyje Fiordų žemėlapyje?"
+
+msgid "survey/fog/question/q5"
+msgstr "Kaip tiksliai jūs pakeistumėte rūko poveikį mūšyje Sargybos posto žemėlapyje?"
+
+msgid "survey/fog/question/q6"
+msgstr "Su kokio tipo mašinomis jūs žaidėte Fiordų žemėlapyje?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "Kaip pasikeitė žaidimas su {value} Fiordų žemėlapyje?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "Kaip pasikeitė žaidimas su {value} Fiordų žemėlapyje?"
+
+msgid "survey/fog/question/q8"
+msgstr "Su kokio tipo mašinomis jūs žaidėte Sargybos posto žemėlapyje?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "Kaip pasikeitė žaidimas su {value} Sargybos posto žemėlapyje?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "Kaip pasikeitė žaidimas su {value} Sargybos posto žemėlapyje?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "Taip, norėčiau"
+
+msgid "survey/fog/response/q10_2"
+msgstr "Ne, nenorėčiau"
+
+msgid "survey/fog/response/q10_3"
+msgstr "Nežinau"
+
+msgid "survey/fog/response/q11_1"
+msgstr "Priešai už teritorijos nemato mano mašinos, bet aš taip pat nematau ir jų"
+
+msgid "survey/fog/response/q11_10"
+msgstr "Kita"
+
+msgid "survey/fog/response/q11_2"
+msgstr "Rūko vieta žemėlapyje"
+
+msgid "survey/fog/response/q11_3"
+msgstr "Kaip atrodo rūkas"
+
+msgid "survey/fog/response/q11_4"
+msgstr "Per didelis poveikis žaidimui žemėlapyje"
+
+msgid "survey/fog/response/q11_5"
+msgstr "Per mažas poveikis žaidimui žemėlapyje"
+
+msgid "survey/fog/response/q11_6"
+msgstr "Rūko vizualizacija trukdo kovoje"
+
+msgid "survey/fog/response/q11_7"
+msgstr "Rūkas priverčia kovoti iš arti"
+
+msgid "survey/fog/response/q11_8"
+msgstr "Vienai komandai suteikiamas pranašumas"
+
+msgid "survey/fog/response/q11_9"
+msgstr "Techninės problemos"
+
+msgid "survey/fog/response/q12_1"
+msgstr "Priešai už teritorijos nemato mano mašinos, bet aš taip pat nematau ir jų"
+
+msgid "survey/fog/response/q12_10"
+msgstr "Kita"
+
+msgid "survey/fog/response/q12_2"
+msgstr "Rūko vieta žemėlapyje"
+
+msgid "survey/fog/response/q12_3"
+msgstr "Kaip atrodo rūkas"
+
+msgid "survey/fog/response/q12_4"
+msgstr "Per didelis poveikis žaidimui žemėlapyje"
+
+msgid "survey/fog/response/q12_5"
+msgstr "Per mažas poveikis žaidimui žemėlapyje"
+
+msgid "survey/fog/response/q12_6"
+msgstr "Rūko vizualizacija trukdo kovoje"
+
+msgid "survey/fog/response/q12_7"
+msgstr "Rūkas priverčia kovoti iš arti"
+
+msgid "survey/fog/response/q12_8"
+msgstr "Vienai komandai suteikiamas pranašumas"
+
+msgid "survey/fog/response/q12_9"
+msgstr "Techninės problemos"
+
+msgid "survey/fog/response/q1_1"
+msgstr "Taip, patiko"
+
+msgid "survey/fog/response/q1_2"
+msgstr "Ne, nepatiko"
+
+msgid "survey/fog/response/q1_3"
+msgstr "Nežinau"
+
+msgid "survey/fog/response/q2_1"
+msgstr "Man patiko"
+
+msgid "survey/fog/response/q2_2"
+msgstr "Jis geras"
+
+msgid "survey/fog/response/q2_3"
+msgstr "Man nepatiko"
+
+msgid "survey/fog/response/q2_4"
+msgstr "Nežinau"
+
+msgid "survey/fog/response/q3_1"
+msgstr "Taip, norėčiau"
+
+msgid "survey/fog/response/q3_2"
+msgstr "Ne, nenorėčiau"
+
+msgid "survey/fog/response/q3_3"
+msgstr "Nežinau"
+
+msgid "survey/fog/response/q4_1"
+msgstr "Sustiprinčiau"
+
+msgid "survey/fog/response/q4_2"
+msgstr "Susilpninčiau"
+
+msgid "survey/fog/response/q5_1"
+msgstr "Sustiprinčiau"
+
+msgid "survey/fog/response/q5_2"
+msgstr "Susilpninčiau"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "Prieštankiniais"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "Artilerija"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "Sunkiaisiais"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "Lengvaisiais"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "Vidutiniais"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "Nepamenu"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "Pagerėjo"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "Pablogėjo"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "Nepasikeitė"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "Nežinau"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "Pagerėjo"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "Pablogėjo"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "Nepasikeitė"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "Nežinau"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "Prieštankiniais"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "Artilerija"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "Sunkiaisiais"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "Lengvaisiais"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "Vidutiniais"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "Nepamenu"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "Pagerėjo"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "Pablogėjo"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "Nepasikeitė"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "Nežinau"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "Pagerėjo"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "Pablogėjo"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "Nepasikeitė"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "Nežinau"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "Vestfildas"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "Žvejų įlanka"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "Vestfildas"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "Žvejų įlanka"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "Vestfildas"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "Žvejų įlanka"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "Prieštankiniai"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "Artilerija"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "Sunkiaisiais"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "Lengvaisiais"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "Vidutiniais"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "Prieštankiniais"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "Artilerija"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "Sunkiaisiais"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "Lengvaisiais"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "Vidutiniais"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "Ar jums patiko žaisti šiuose žemėlapiuose su nauja smarkios liūties funkcija?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "Ar norėtumėte matyti smarkią liūtį Atsitiktinių mūšių žemėlapiuose?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "Kuo jums nepatiko smarkios liūties funkcionalumas Vestfildo žemėlapyje?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "Kuo jums nepatiko smarkios liūties funkcionalumas Žvejų įlankos žemėlapyje?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "Nurodykite reikalingus patobulinimus."
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "Ką manote apie smarkios liūties grafinį apipavidalinimą šiuose žemėlapiuose?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "Ar norėtumėte pakoreguoti smarkios liūties poveikį mūšio eigai žemėlapiuose?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "Kaip tiksliai jūs pakeistumėte smarkios liūties poveikį mūšyje Vestfildo žemėlapyje?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "Kaip tiksliai jūs pakeistumėte smarkios liūties poveikį mūšyje Žvejų įlankos žemėlapyje?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "Su kokio tipo mašinomis jūs žaidėte Vestfildo žemėlapyje?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "Kaip pasikeitė žaidimas su {value} Vestfildo žemėlapyje?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "Kaip pasikeitė žaidimas su {value} Vestfildo žemėlapyje?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "Su kokio tipo mašinomis jūs žaidėte Žvejų įlankos žemėlapyje?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "Kaip pasikeitė žaidimas su {value} Žvejų įlankos žemėlapyje?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "Kaip pasikeitė žaidimas su {value} Žvejų įlankos žemėlapyje?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "Taip, norėčiau"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "Ne, nenorėčiau"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "Nežinau"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "Smarkios liūties zonoje per slidu"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "Techninės problemos"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "Kita"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "Priešai už teritorijos nemato mano mašinos, bet aš taip pat nematau ir jų"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "Smarkios liūties vieta žemėlapyje"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "Kaip atrodo smarki liūtis"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "Per didelis poveikis žaidimui žemėlapyje"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "Per mažas poveikis žaidimui žemėlapyje"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "Smarkios liūties vizualizacija trukdo kovoje"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "Smarki liūtis priverčia kovoti iš arti"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "Vienai komandai suteikiamas pranašumas"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "Smarkios liūties zonoje per slidu"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "Techninės problemos"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "Kita"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "Priešai už teritorijos nemato mano mašinos, bet aš taip pat nematau ir jų"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "Smarkios liūties vieta žemėlapyje"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "Kaip atrodo smarki liūtis"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "Per didelis poveikis žaidimui žemėlapyje"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "Per mažas poveikis žaidimui žemėlapyje"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "Smarkios liūties vizualizacija trukdo kovoje"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "Smarki liūtis priverčia kovoti iš arti"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "Vienai komandai suteikiamas pranašumas"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "Taip, patiko"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "Ne, nepatiko"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "Nežinau"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "Man patiko"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "Jis geras"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "Man nepatiko"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "Nežinau"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "Taip, norėčiau"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "Ne, nenorėčiau"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "Nežinau"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "Sustiprinčiau"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "Susilpninčiau"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "Sustiprinčiau"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "Susilpninčiau"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "Prieštankiniais"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "Artilerija"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "Sunkiaisiais"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "Lengvaisiais"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "Vidutiniais"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "Nepamenu"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "Pagerėjo"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "Pablogėjo"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "Nepasikeitė"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "Nežinau"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "Pagerėjo"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "Pablogėjo"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "Nepasikeitė"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "Nežinau"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "Prieštankiniais"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "Artilerija"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "Sunkiaisiais"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "Lengvaisiais"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "Vidutiniais"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "Nepamenu"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "Pagerėjo"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "Pablogėjo"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "Nepasikeitė"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "Nežinau"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "Pagerėjo"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "Pablogėjo"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "Nepasikeitė"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "Nežinau"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "Toliau"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "Tikrai taip!"
+
+msgid "survey/required"
+msgstr "Atsakykite į klausimą norėdami tęsti."
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "Prieštankiniais"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "Artilerija"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "Sunkiaisiais"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "Lengvaisiais"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "Vidutiniais"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "Ar jums patiko žaisti Smėlio upės žemėlapyje su nauja smėlio audros funkcija?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "Ką manote apie smėlio audros grafinį apipavidalinimą Smėlio upės žemėlapyje?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "Ar norėtumėte pakoreguoti smėlio audros poveikį mūšio eigai Smėlio upės žemėlapyje?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "Kaip tiksliai norėtumėte pakoreguoti smėlio audros poveikį mūšio eigai Smėlio upės žemėlapyje?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "Su kokio tipo mašinomis jūs žaidėte Smėlio upės žemėlapyje?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "Kaip pasikeitė žaidimas su {value} Smėlio upės žemėlapyje?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "Kaip pasikeitė žaidimas su {value} Smėlio upės žemėlapyje?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "Ar norėtumėte matyti smėlio audras Atsitiktinių mūšių žemėlapiuose?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "Kuo jums nepatiko smėlio audros funkcionalumas Smėlio upės žemėlapyje?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "Nurodykite reikalingus patobulinimus."
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "Taip, patiko"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "Ne, nepatiko"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "Nežinau"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "Man patiko"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "Jis geras"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "Man nepatiko"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "Nežinau"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "Taip, norėčiau"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "Ne, nenorėčiau"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "Nežinau"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "Sustiprinčiau"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "Susilpninčiau"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "Prieštankiniai"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "Artilerija"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "Sunkiaisiais"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "Lengvaisiais"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "Vidutiniai"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "Nepamenu"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "Pagerėjo"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "Pablogėjo"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "Nepasikeitė"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "Nežinau"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "Pagerėjo"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "Pablogėjo"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "Nepasikeitė"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "Nežinau"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "Taip, norėčiau"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "Ne, nenorėčiau"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "Nežinau"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "Priešai už teritorijos nemato mano mašinos, bet aš taip pat nematau ir jų"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "Kita"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "Smėlio audros vieta žemėlapyje"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "Kaip atrodo smėlio audra"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "Per didelis poveikis žaidimui žemėlapyje"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "Per mažas poveikis žaidimui žemėlapyje"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "Smėlio audros vizualizacija trukdo kovoje"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "Smėlio audra priverčia kovoti iš arti"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "Vienai komandai suteikiamas pranašumas"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "Techninės problemos"
+
+msgid "survey/subTitle"
+msgstr "Ačiū už dalyvavimą šioje apklausoje! Ji truks apie dvi minutes. Jūsų atsakymai bus naudojami tik šios apklausos tikslams ir bet kokia asmeninė informacija bus ištrinta remiantis mūsų Privatumo politika."
+
+msgid "survey/template/final/title"
+msgstr "Ačiū už dalyvavimą šioje apklausoje!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "PASPAUSKITE ŽEMĖLAPĮ NORĖDAMI PASIRINKTI POZICIJĄ"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "JŪS GALITE PASIRINKTI IKI TRIJŲ POZICIJŲ ŽEMĖLAPYJE"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "Detalus aprašymas (iki %(maxLength)s simbolių)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "Pozicija"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "Pašalinti poziciją"
+
+msgid "survey/template/opened/description"
+msgstr "Detalus problemos aprašymas (iki %(maxLength)s simbolių)"
+
+msgid "survey/title/common"
+msgstr "Prašome įvertinti naujas funkcijas"
+
+msgid "survey/title/map"
+msgstr "Žemėlapio %(map)s įvertinimas"

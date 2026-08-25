@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT-översättare <noreply@wargaming.net>\nLanguage-Team: WoT-teamet <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Allmänt"
+
+msgid "channels/battle/team"
+msgstr "Lag"
+
+msgid "channels/clan"
+msgstr "Klan"
+
+msgid "channels/common"
+msgstr "Allmänt"
+
+msgid "channels/epic_training"
+msgstr "Träning—Frontstrider"
+
+msgid "channels/nubs"
+msgstr "Rekryter"
+
+msgid "channels/prebattle"
+msgstr "Briefing"
+
+msgid "channels/special_battles"
+msgstr "Specialstrid"
+
+msgid "channels/squad"
+msgstr "Pluton"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Plutonen har skapats. Vänta tills spelarna är redo."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Pluton"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Pluton har skapats. Alla spelare är redo."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Pluton"
+
+msgid "channels/system"
+msgstr "System"
+
+msgid "channels/tournament"
+msgstr "Turnering"
+
+msgid "channels/trading"
+msgstr "Handla"
+
+msgid "channels/training"
+msgstr "Träning"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Administratören för chatten är även en kanalmoderator."
+
+msgid "errors/addmoderatorowner"
+msgstr "Kanalägaren är även en kanalmoderator."
+
+msgid "errors/banchannelowner"
+msgstr "Kanalägaren kan inte avstängas."
+
+msgid "errors/banchatadmin"
+msgstr "Administratören för chatten kan inte avstängas."
+
+msgid "errors/banned"
+msgstr "Du har avstängts av användare %(banOwnerNick)s till %(banEndTime)s. Skäl: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Du har avstängts av användare %(banOwnerNick)s. Skäl: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Du har avstängts till %(banEndTime)s. Skäl: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Du har avstängts. Skäl: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Funktionen %(command)s har blockerats i %(cooldownPeriod)s sek."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Chatadministratörens moderatorrättigheter kan inte upphävas."
+
+msgid "errors/delmoderatorowner"
+msgstr "Kanalägarens moderatorrättigheter kan inte upphävas."
+
+msgid "errors/timeincorrect"
+msgstr "Parametern ‘tid‘ måste anges positivt för minuter [1-1440] eller ‘permanent‘."
+
+msgid "errors/toomanyargs"
+msgstr "För många parametrar."
+
+msgid "errors/toosmallargs"
+msgstr "För få parametrar."
+
+msgid "errors/userbanhimself"
+msgstr "Du kan inte stänga av dig själv."
+
+msgid "messages/userbanned"
+msgstr "Användare %(banedUser)s har avstängts av användare %(banOwnerNick)s till %(banEndTime)s. Skäl: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "Användare %(banedUser)s har avstängts av användare %(banOwnerNick)s. Skäl: %(banReason)s"

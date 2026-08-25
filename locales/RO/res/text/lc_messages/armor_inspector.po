@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Blindajul principal"
+
+msgid "armorValues/title/no_damage"
+msgstr "Fără daune"
+
+msgid "armorValues/title/other"
+msgstr "Altele"
+
+msgid "armorValues/title/penetration"
+msgstr "Șansa de penetrare"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Ricoșeu"
+
+msgid "armorValues/title/spaced"
+msgstr "Blindaj spațiat"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Configurația de atacator"
+
+msgid "attackerTooltip/body"
+msgstr "Clic pentru a schimb vehiculul de atac"
+
+msgid "attackerTooltip/header"
+msgstr "Vehiculul de atac"
+
+msgid "menu/header"
+msgstr "Tipul de suprapunere"
+
+msgid "menu/no_armor"
+msgstr "Fără suprapunere"
+
+msgid "menu/nominal"
+msgstr "Blindajul nominal"
+
+msgid "menu/penetration"
+msgstr "Șansa de penetrare"
+
+msgid "modules/current"
+msgstr "Configurația actuală"
+
+msgid "modules/custom"
+msgstr "Configurația personalizată"
+
+msgid "modules/standard"
+msgstr "Configurația standard"
+
+msgid "modules/title"
+msgstr "Module pentru vehicul"
+
+msgid "modules/top"
+msgstr "Configurația de top"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} {{count}}x)"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Șasiu"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Tun"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Mantaua tunului"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Carenă"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Ecran"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Aparatura de observare"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Turelă"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Roți"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Fără daune"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Penetrare"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Ricoșeu"
+
+msgid "tooltip/minor/angle/description"
+msgstr "Unghiul dintre traiectoria proiectilului și linia perpendiculară pe placa de blindaj.\n\nTraiectoria proiectilului se calculează ca și cum proiectilul ar urma o linie dreaptă având ca sursă centrul ecranului."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Unghiul de impact"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Șansa de penetrare a blindajului inamic și de a-i provoca daune acestuia."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Șansa de penetrare"
+
+msgid "tooltip/minor/effective/description"
+msgstr "În cazul unui singur strat, blindajul efectiv reprezintă grosimea sa nominală, modificată de unghiul de lovire și normalizarea proiectilului.\n\nDacă în punctul de impact se află mai multe straturi de blindaj, rezultatul este calculat prin însumarea grosimilor efective ale tuturor straturilor."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Blindajul efectiv"
+
+msgid "tooltip/minor/header"
+msgstr "Legendă"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Lovirea blindajului spațiat nu provoacă daune, decât dacă proiectilul lovește și apoi străpunge și blindajul principal."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Fără daune"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Grosimea actuală a plăcii/plăcilor de blindaj principale sau spațiate."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Blindajul nominal"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Proiectilele care lovesc blindajul sub un unghi foarte ascuțit vor ricoșa din acesta. Totuși, acestea pot lovi un alt vehicul sau chiar pe același."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Ricoșeu"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Afectează calcularea blindajului efectiv și a șansei de penetrare.\n\nToate calculele utilizează o distanță tipică de 100 m (proiectilele AP și APCR pierd din puterea de penetrare în funcție de distanță).\n\nTalentele echipajelor și îmbunătățirile vehiculului care atacă nu modifică aceste calcule."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Configurația de atacator"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Șansa de penetrare a blindajului efectiv și de a-i provoca daune vehiculului.\n\nLovirea blindajului spațiat nu provoacă daune, decât dacă proiectilul lovește și apoi străpunge și blindajul principal."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Șansa de penetrare"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Vehiculul suferă daune doar dacă blindajul său principal este lovit și penetrat. Proiectilele HE îi pot provoca daune unul vehicul chiar fără penetrare; totuși, acestea trebuie să atingă blindajul principal."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Blindajul principal"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Lovirea blindajului spațiat nu provoacă daune, decât dacă proiectilul lovește și apoi străpunge și blindajul principal.\n\nLovirea și penetrarea modulelor externe avariază direct acele module: lovește o șenilă pentru a imobiliza un vehicul, lovește un tun pentru a-l dezactiva sau lovește un dispozitiv de observație pentru a reduce raza vizuală a vehiculului inamic."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Fără daune"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "Unghiul de ricoșeu este de 70 de grade pentru proiectilele perforante și APCR și de 85 de grade pentru proiectilele HEAT.\n\nProiectilele HE nu ricoșează, în timp ce proiectilele AP și APCR pierd 25% din puterea lor de penetrare după ricoșeu.\n\nUn ricoșeu nu va avea loc dacă proiectilul are un calibru este mai mare decât triplul grosimii nominala a blindajului din punctul de impact (acest lucru se aplică doar proiectilelor AP și APCR)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Ricoșeu"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Lovirea blindajului spațiat nu provoacă daune, decât dacă proiectilul lovește și apoi străpunge și blindajul principal.\n\nLovirea și penetrarea modulelor externe avariază direct acele module: lovește o șenilă pentru a imobiliza un vehicul, lovește un tun pentru a-l dezactiva sau lovește un dispozitiv de observație pentru a reduce raza vizuală a vehiculului inamic.\n\nUnghiul de lovire nu se aplică modulelor externe (precum șenilele sau tunul): aici, blindajul efectiv este egal cu blindajul nominal."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Blindajul spațiat"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Urmărește un video despre mecanicile de penetrare a blindajului"

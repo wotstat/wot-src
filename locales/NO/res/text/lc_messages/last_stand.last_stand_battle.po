@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "Energiskudd er klar til bruk."
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "Vampyrskudd er klar til bruk."
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "Sjokkskudd er klar til bruk."
+
+msgid "LS_damageShieldReady"
+msgstr "Energiskjold er klar til bruk."
+
+msgid "LS_doubleDamageReady"
+msgstr "Dobbel skade er klar til bruk."
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "Situasjonsskade er klar."
+
+msgid "LS_fastReloadReady"
+msgstr "Rask lading er klar til bruk."
+
+msgid "LS_healSituationalReady"
+msgstr "Situasjonsreparasjon er klar."
+
+msgid "LS_invisibilityReady"
+msgstr "Skyggehelbredelse er klar til bruk."
+
+msgid "LS_nitroReady"
+msgstr "Turbo er klar til bruk."
+
+msgid "LS_pickupSouls"
+msgstr "Du har samlet %(souls)s Mirium enhet(er)"
+
+msgid "LS_selfRepairReady"
+msgstr "Nødreparasjoner er klar til bruk."
+
+msgid "LS_situationalNitroReady"
+msgstr "Situasjonsmobilitet er klar."
+
+msgid "LS_teamRepairKitReady"
+msgstr "Gruppereparasjoner er klar til bruk."
+
+msgid "LS_teamRepairKitUsed"
+msgstr "%(player)s aktiverte gruppereparasjoner."
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "Gruppereparasjoner aktivert."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "Følg med på sone: %(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "Forsvar ATLAS!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "Forsvar ATLAS"
+
+msgid "arena/marker/move_to_camp"
+msgstr "Kjør til sonen!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "Forsvarer ATLAS"
+
+msgid "arena/phase"
+msgstr "%(current)s. fase av %(total)s"
+
+msgid "arena/wave"
+msgstr "%(current)s. bølge av %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Hedgehogs&nbsp;nærmer seg!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Alpha Hedgehog&nbsp;nærmer seg!"
+
+msgid "battleHint/clearTheArea"
+msgstr "Tøm området!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "Skynd deg! Zero er nærme&nbsp;ATLAS!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "Zero bekjempet!\nGjenværende fiender: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "Finder som må bekjempes: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "data, %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Kjøretøy reparert"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "Skjold aktivert"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "Sjokkede fiender"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "%(name)s Obelisk ødelagt!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Regen"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "Barrier"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "Glitch"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "Gjenfødelsespunkter oppdaget! Innkommende fiender!"
+
+msgid "battleHint/hunter"
+msgstr "Hunters&nbsp;nærmer seg!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "Bølge bekjempet!"
+
+msgid "battleHint/leftToDestroy"
+msgstr "Gjenværende fiender å bekjempe:"
+
+msgid "battleHint/missing_squad"
+msgstr "Den savnede (Lost) troppen nærmer seg!"
+
+msgid "battleHint/newWave"
+msgstr "{current}. bølge av {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "En Obelisk har dukket opp!"
+
+msgid "battleHint/stopConvoy"
+msgstr "Stans Zero!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "Stans Zero\nfør den når ATLAS!"
+
+msgid "battleHint/trapper"
+msgstr "Bekjemp Trapper for å&nbsp;stanse ødeleggelsesonene fra å dukke opp."
+
+msgid "battleHint/turret"
+msgstr "Mosquitoes har våknet!"
+
+msgid "battleHint/waveFinished"
+msgstr "Bølge bekjempet!\nOmgrupper og gjør dere klare!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "Omgrupper og gjør dere klare!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "Fiendens forsterkninger har&nbsp;ankommet!"
+
+msgid "common/close"
+msgstr "LUKK"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "Varighet: %(time)s s"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Skade fra sone"
+
+msgid "damageLog/static_death_zone"
+msgstr "Skade fra sone"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "Sett i brann med pyrokinese"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "Skade fra energiangrep"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "Skade fra eksplosjon"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "Skade fra helsetyveri"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "Situasjonsskade aktivert"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "Situasjonsreparasjoner aktivert"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "Skade fra energiskudd"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "Skade fra vampyrskudd"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "Skade fra sjokkskudd"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "Modul usårbarhet"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "Situasjonsmobilitet aktivert"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "Gjenopprettelse"
+
+msgid "efficiencyRibbons/repair"
+msgstr "Kjøretøy reparert"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "Kjøretøy reparert av"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "Kjøretøy reparert av alliert"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "Allierte reparert"
+
+msgid "eventStats/activeWave"
+msgstr "%(num)s. bølge"
+
+msgid "eventStats/difficulty"
+msgstr "Vanskelighetsgrad: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "Last Stand: Terra Nord"
+
+msgid "eventStats/globalTask"
+msgstr "Mål: Bekjemp alle fiendtlige bølger"
+
+msgid "eventStats/mission"
+msgstr "Bekjemp alle fiendtlige bølger"
+
+msgid "eventStats/tableCaption"
+msgstr "Troppsmedlemmer"
+
+msgid "help/description_0"
+msgstr "Bekjemp alle fiendtlige bølger for å vinne.\nFienden blir sterkere for hver påfølgende bølge."
+
+msgid "help/description_1"
+msgstr "Den rette kombinasjonen av kampenheter kan bli ekstremt kraftig.\nHusk: Direktiver og alle typer granater er gratis å bruke i Last Stand modusen."
+
+msgid "help/description_2"
+msgstr "Å skade en Obelisk overfører deler av den skaden til fiendtlige kjøretøy, mens det å bekjempe en gir en tilfeldig bonus."
+
+msgid "help/description_3"
+msgstr "Beskytt ATLAS mot den siste echo tanksen, Zero, for enhver pris. Når den frem til ATLAS vil den ødelegge den og vi taper kampen."
+
+msgid "help/title"
+msgstr "Last Stand: Terra Nord"
+
+msgid "help/title_0"
+msgstr "FIENDTLIGE ANGREPSBØLGER"
+
+msgid "help/title_1"
+msgstr "OVERLEVELSESTIPS"
+
+msgid "help/title_2"
+msgstr "BRUK OBELISKER I KAMP"
+
+msgid "help/title_3"
+msgstr "FORSVAR ATLAS"
+
+msgid "helpScreen/hint/description"
+msgstr "for å se reglene for modusen"
+
+msgid "helpScreen/hint/press"
+msgstr "Trykk"
+
+msgid "hitMarker/useless"
+msgstr "Ubrukelig!"
+
+msgid "loading/description_0"
+msgstr "Bekjemp alle fiendtlige bølger for å vinne.\nFienden blir sterkere for hver påfølgende bølge."
+
+msgid "loading/description_1"
+msgstr "Den rette kombinasjonen av kampenheter kan bli ekstremt kraftig.\nHusk: Direktiver og alle typer granater er gratis å bruke i Last Stand modusen."
+
+msgid "loading/description_2"
+msgstr "Å skade en Obelisk overfører deler av den skaden til fiendtlige kjøretøy, mens det å bekjempe en gir en tilfeldig bonus."
+
+msgid "loading/description_3"
+msgstr "Beskytt ATLAS mot den siste echo tanksen, Zero, for enhver pris. Når den frem til ATLAS vil den ødelegge den og vi taper kampen."
+
+msgid "loading/title"
+msgstr "Laster inn..."
+
+msgid "loading/title_0"
+msgstr "Fiendtlige angrepsbølger"
+
+msgid "loading/title_1"
+msgstr "Overlevelsestips"
+
+msgid "loading/title_2"
+msgstr "BRUK OBELISKER I KAMP"
+
+msgid "loading/title_3"
+msgstr "FORSVAR ATLAS"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "Kan ikke benytte [%(name)s]: Motoren er ødelagt."
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "Kan ikke benytte [%(name)s]: Kanonen er skadd."
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "Kanonen er ladet."
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "Kan ikke benytte [%(name)s]: Ikke nok Mirium til å aktivere enheten."
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "Kjøretøyet er ikke skadet."
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "Kan ikke benytte [%(name)s]: Kjøretøyet er under vann."
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "Kan ikke benytte [%(name)s]: Kjøretøyet er i brann."
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "Kan ikke benytte [%(name)s]: Kjøretøyet har veltet."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Alliert %(target)s bekjempet av fiendtlig eksplosjon (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Alliert %(target)s kolliderte."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Alliert %(target)s bekjempet i ødeleggelsessonen."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Alliert %(target)s bekjempet."
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "Dersom troppen din klarer å bekjempe denne bølgen."
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "BLIR DU GJENFØDT"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "Kampen din er over.\nDu klarte deg bra!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Kjøretøy bekjempet i ødeleggelsessonen"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "Kjøretøy bekjempet av energiangrep"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "Kjøretøy bekjempet av pyrokinese"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "Kjøretøy bekjempet av helsetyveri"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "Kjøretøy bekjempet av en eksplosjon"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "Kjøretøy kolliderte"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modul [%(device)s] eksploderte etter skudd fra spiller"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "Kjøretøyet ble ødelagt av brann"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Kjøretøy bekjempet. Tiden er ute."
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "Kjøretøy bekjempet av et skudd fra fienden"
+
+msgid "prebattle/description/message"
+msgstr "Mål: Bekjemp alle fiendtlige bølger"
+
+msgid "prebattle/description/title"
+msgstr "Last Stand: Vanskelighetsgrad %(difficulty)s"
+
+msgid "prebattle/difficulty/107"
+msgstr "Vanlig"
+
+msgid "prebattle/difficulty/108"
+msgstr "Høy vanskelighetsgrad"
+
+msgid "prebattle/difficulty/109"
+msgstr "Brutal"
+
+msgid "prebattle/waiting/title"
+msgstr "Venter på spillere..."
+
+msgid "radialMenu/attention_here"
+msgstr "Be om forsvar"
+
+msgid "radialMenu/cancel"
+msgstr "Avbryt"
+
+msgid "radialMenu/confirm"
+msgstr "Bekreftet!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "Kjør til sonen!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "Forsvarer"
+
+msgid "radialMenu/obelisk"
+msgstr "Jeg tar obelisken!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "Ødelegg obelisken!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "Energiskjold"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "Tilbake på beltene..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "Forlat\nfaresonen!"
+
+msgid "teamList/teammates"
+msgstr "Vårt lag"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "Skru av stemmechat"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "Aktivér stemmechat"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "Trykk for å snakke"

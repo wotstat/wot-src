@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "Recepționat!"
+
+msgid "awardsView/subTitle"
+msgstr "LUPTE PURTATE: {number}"
+
+msgid "awardsView/title"
+msgstr "MISIUNE DE RECUNOAȘTERE"
+
+msgid "buttonDisable/tooltip"
+msgstr "Indisponibil"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Calendarul"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "Nu se poate intra în luptă"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "Luptele s-au încheiat"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "Nu se poate intra în luptă"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "Armistițiu în efect pe acest server. Alege alt server."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "Poți intra în lupte doar cu %(levelSubStr)s"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "Vehicul de generație incompatibilă"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "vehicule de generaţia %(levels)s"
+
+msgid "intro/button"
+msgstr "Recepționat!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "Recenzia ta ne ajută să îmbunătățim câmpurile de luptă. Scrie-ți părerea despre noile mecanici de hărți, iar noi vom adăuga în joc cele mai bune idei."
+
+msgid "intro/interviewInfoTitle"
+msgstr "Recenzie crucială"
+
+msgid "intro/modeInfoDescription"
+msgstr "Participă la lupte cu vehicule din generațiile VIII-X pe hărți cu mecanici noi, completează sondaje și obține recompense. Progresul va fi resetat într-o săptămână, apoi poți începe să obții din nou recompense."
+
+msgid "intro/modeInfoTitle"
+msgstr "Ajută-ne să dezvoltăm mecanici noi!"
+
+msgid "intro/startEvent"
+msgstr "Evenimentele încep în: "
+
+msgid "intro/taskInfoDescription"
+msgstr "Poți finaliza misiuni zilnice și ale Certificatului de luptă și îndeplini condiții ale autocolantelor progresive prin participarea la Misiuni de recunoaștere."
+
+msgid "intro/taskInfoTitle"
+msgstr "Luptă cu regulile luptelor standard"
+
+msgid "intro/time/period/day"
+msgstr "{day} z"
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} s {hours} h"
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} h {min} min"
+
+msgid "intro/time/period/minute"
+msgstr "{min} min"
+
+msgid "intro/title"
+msgstr "MISIUNE DE RECUNOAȘTERE"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s nu poate participa la misiunile de recunoaștere."
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "Tip de vehicul incompatibil"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "Selectează %(levelSubStr)s pentru a participa la Misiunea de Recunoaștere."
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "Vehicul de generație incompatibilă"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Vehicul de generația %(levels)s"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s nu poate participa la misiunile de recunoaștere."
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "Vehicul incompatibil"
+
+msgid "mapboxTab"
+msgstr "Misiune de recunoaștere"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Etapa s-a încheiat pe serverul %(server)s"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Luptele pe %(server)s \nvor fi disponibile timp de încă %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Luptele pe %(server)s \nvor fi disponibile în %(time)s"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Armistițiu în efect pe toate serverele"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Acest mod este indisponibil pe serverul %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Luptele pe serverul %(server)s vor fi disponibile timp de încă %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Luptele pe serverul %(server)s vor începe la %(time)s"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "Lupte indisponibile în acest mod: sezonul s-a încheiat."
+
+msgid "primeTimeView/status/untill"
+msgstr "Armistițiu în efect pe serverul %(server)s până la %(startTime)s"
+
+msgid "primeTimeView/title"
+msgstr "MISIUNE DE RECUNOAȘTERE"
+
+msgid "primeTimes/availableServer"
+msgstr "Server disponibil:"
+
+msgid "primeTimes/availableServers"
+msgstr "Servere disponibile:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "Luptele s-au încheiat"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Acest mod este indisponibil pe serverul %(serverName)s"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "Participă la lupte"
+
+msgid "progression/cardTitle/rating"
+msgstr "Clasează-te în top {rating} jucători după EXP obținută"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "Clasează-te în top {rating} jucători după EXP obținută, pe harta cu foc"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "Clasează-te în top {rating} jucători după EXP obținută, pe hărți cu ceață"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "Clasează-te în top {rating} jucători după EXP obținută, pe hărți cu ploaie grea"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "Clasează-te în top {rating} jucători după EXP obținută, pe harta cu furtuni de nisip"
+
+msgid "progression/changeAnswer"
+msgstr "Schimbă răspunsul"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Participă la lupte cu vehicule din generațiile VIII-X pe hărți cu mecanici noi, completează sondaje și obține recompense."
+
+msgid "progression/info/restart"
+msgstr "Progresul cu recompense va fi resetat în %(leftTime)s"
+
+msgid "progression/info/title"
+msgstr "Clasează-te în top %(rating) jucători după EXP obținută: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "DESPRE EVENIMENT"
+
+msgid "progression/map_01_karelia"
+msgstr "KARELIA"
+
+msgid "progression/map_02_malinovka"
+msgstr "MALINOVKA"
+
+msgid "progression/map_05_prohorovka"
+msgstr "PROKHOROVKA"
+
+msgid "progression/map_18_cliff"
+msgstr "WESTFIELD"
+
+msgid "progression/map_all"
+msgstr "MECANICILE\nDE JOC"
+
+msgid "progression/map_fire"
+msgstr "FOC"
+
+msgid "progression/map_fog"
+msgstr "CEAȚĂ"
+
+msgid "progression/map_heavy_rain"
+msgstr "PLOAIE GREA"
+
+msgid "progression/map_sandstorm"
+msgstr "FURTUNĂ DE NISIP"
+
+msgid "progression/redirect"
+msgstr "Mergi la mod"
+
+msgid "progression/startInterview"
+msgstr "Completează sondajul"
+
+msgid "progression/startInterviewTooltip"
+msgstr "Îndeplinește condiția de mai sus pentru a completa chestionarul."
+
+msgid "progression/startSpecialInterview"
+msgstr "Completează chestionarul"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "Îndeplinește condiția de mai sus pentru a completa chestionarul."
+
+msgid "progression/subtitle"
+msgstr "Aici poți completa un chestionar privind mecanicile noi"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s z"
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "progression/title"
+msgstr "MISIUNE DE RECUNOAȘTERE"
+
+msgid "progressionError/description/line1"
+msgstr "Progresul tău a fost salvat. Poți continua să joci."
+
+msgid "progressionError/description/line2"
+msgstr "În curând vei putea să îți vizualizezi progresul și să completezi sondajul."
+
+msgid "progressionError/title"
+msgstr "Detaliile misiunii de recunoaștere sunt momentan indisponibile"
+
+msgid "questFlag/complete"
+msgstr "S-au primit toate recompensele"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "Luptă cu %(highlightedText)s, completează chestionare și obține recompense."
+
+msgid "questFlag/frozen/header"
+msgstr "Misiune de recunoaștere indisponibilă"
+
+msgid "questFlag/frozen/text"
+msgstr "Luptele misiunii de recunoaștere sunt indisponibile din motive tehnice."
+
+msgid "questFlag/highlightedText"
+msgstr "Vehicule de generațiile VIII-X pe hărți cu mecanici noi"
+
+msgid "questFlag/incomplete"
+msgstr "Lupte de purtat pentru a primi următoarea recompensă: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "Lupte purtate:"
+
+msgid "questFlag/surveysTitle"
+msgstr "Sondaje completate: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "Explorarea de hărți cu mecanici noi va începe pe %(day)s"
+
+msgid "selector/tooltip/body"
+msgstr "Explorarea de hărți cu mecanici noi va dura până pe %(day)s"
+
+msgid "selector/tooltip/title"
+msgstr "Calendarul"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Sezonul se încheie în:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Calendarul luptelor"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Azi"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Mâine"
+
+msgid "serverAlertMessage/button"
+msgstr "Selectează alt server"
+
+msgid "survey/backBtn"
+msgstr "Înapoi"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "Antitancuri"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "Artilerii"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "Tancuri grele"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "Tancuri ușoare"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "Tancuri medii"
+
+msgid "survey/fire/question/q1"
+msgstr "Ți-a plăcut să joci pe harta Murovanka cu mecanica de foc?"
+
+msgid "survey/fire/question/q2"
+msgstr "Ce părere ai despre înfățișarea vizuală a focului pe harta Murovanka?"
+
+msgid "survey/fire/question/q3"
+msgstr "Ai dori ca influența focului asupra hărții și jocului în Murovanka să fie ajustată?"
+
+msgid "survey/fire/question/q4"
+msgstr "Cum ai dori, exact, ca influența focului asupra hărții și jocului în Murovanka să fie ajustată?"
+
+msgid "survey/fire/question/q5"
+msgstr "Cu ce tipuri de vehicule ai jucat pe harta Murovanka?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "Cum s-a schimbat jocul cu {value} pe harta Murovanka?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "Cum s-a schimbat jocul cu {value} pe harta Murovanka?"
+
+msgid "survey/fire/question/q7"
+msgstr "Ți-ar plăcea să vezi incendii pe hărți în lupte standard?"
+
+msgid "survey/fire/question/q8"
+msgstr "Ce nu ți-a plăcut legat de mecanica de foc pe harta Murovanka?"
+
+msgid "survey/fire/question/q9"
+msgstr "Specifică orice îmbunătățiri necesare."
+
+msgid "survey/fire/response/q1_1"
+msgstr "Da, mi-a plăcut"
+
+msgid "survey/fire/response/q1_2"
+msgstr "Nu, nu mi-a plăcut"
+
+msgid "survey/fire/response/q1_3"
+msgstr "Nu sunt sigur"
+
+msgid "survey/fire/response/q2_1"
+msgstr "Mi-a plăcut"
+
+msgid "survey/fire/response/q2_2"
+msgstr "E în regulă"
+
+msgid "survey/fire/response/q2_3"
+msgstr "Mi-a displăcut"
+
+msgid "survey/fire/response/q2_4"
+msgstr "Nu sunt sigur"
+
+msgid "survey/fire/response/q3_1"
+msgstr "Da, aș vrea"
+
+msgid "survey/fire/response/q3_2"
+msgstr "Nu, nu aș vrea"
+
+msgid "survey/fire/response/q3_3"
+msgstr "Nu sunt sigur"
+
+msgid "survey/fire/response/q4_1"
+msgstr "Să fie mai puternică"
+
+msgid "survey/fire/response/q4_2"
+msgstr "Să fie mai slabă"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "Antitancuri"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "Artilerii"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "Tancuri grele"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "Tancuri ușoare"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "Tancuri medii"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "Nu-mi amintesc"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "S-a îmbunătățit"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "S-a înrăutățit"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "Nu s-a schimbat"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "Nu sunt sigur"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "S-a îmbunătățit"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "S-a înrăutățit"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "Nu s-a schimbat"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "Nu sunt sigur"
+
+msgid "survey/fire/response/q7_1"
+msgstr "Da, mi-ar plăcea"
+
+msgid "survey/fire/response/q7_2"
+msgstr "Nu, nu mi-ar plăcea"
+
+msgid "survey/fire/response/q7_3"
+msgstr "Nu sunt sigur"
+
+msgid "survey/fire/response/q8_1"
+msgstr "Focul descrește simțitor numărul de poziții disponibile"
+
+msgid "survey/fire/response/q8_10"
+msgstr "Una dintre echipe este avantajată"
+
+msgid "survey/fire/response/q8_11"
+msgstr "Probleme tehnice"
+
+msgid "survey/fire/response/q8_12"
+msgstr "Altele"
+
+msgid "survey/fire/response/q8_2"
+msgstr "Focul provoacă prea multe daune"
+
+msgid "survey/fire/response/q8_3"
+msgstr "Inamicii din afara zonei nu-mi pot vedea vehiculul, însă nici eu nu îi pot vedea pe aceștia"
+
+msgid "survey/fire/response/q8_4"
+msgstr "Amplasarea focului pe hartă"
+
+msgid "survey/fire/response/q8_5"
+msgstr "Modul în care arată focul"
+
+msgid "survey/fire/response/q8_6"
+msgstr "Influențează prea mult jocul pe hartă"
+
+msgid "survey/fire/response/q8_7"
+msgstr "Influențează prea puțin jocul pe hartă"
+
+msgid "survey/fire/response/q8_8"
+msgstr "Înfățișarea focului interferează cu lupta"
+
+msgid "survey/fire/response/q8_9"
+msgstr "Focul forțează jocul la distanțe mici"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "Antitancuri"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "Artilerii"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "Tancuri grele"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "Tancuri ușoare"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "Tancuri medii"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "Antitancuri"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "Artilerii"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "Tancuri grele"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "Tancuri ușoare"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "Tancuri medii"
+
+msgid "survey/fog/question/q1"
+msgstr "Ți-a plăcut să joci pe următoarele hărți cu mecanica de ceață?"
+
+msgid "survey/fog/question/q10"
+msgstr "Ți-ar plăcea să vezi ceață pe hărți în lupte standard?"
+
+msgid "survey/fog/question/q11"
+msgstr "Ce nu ți-a plăcut legat de mecanica de ceață pe harta Fjords?"
+
+msgid "survey/fog/question/q12"
+msgstr "Ce nu ți-a plăcut legat de mecanica de ceață pe harta Outpost?"
+
+msgid "survey/fog/question/q13"
+msgstr "Specifică orice îmbunătățiri necesare."
+
+msgid "survey/fog/question/q2"
+msgstr "Ce părere ai despre înfățișarea vizuală a ceții de pe următoarele hărți?"
+
+msgid "survey/fog/question/q3"
+msgstr "Ai dori ca influența ceții asupra hărții și jocului să fie ajustată?"
+
+msgid "survey/fog/question/q4"
+msgstr "Cum ai dori, exact, ca influența ceții asupra hărții și jocului să fie ajustată?"
+
+msgid "survey/fog/question/q5"
+msgstr "Cum ai dori, exact, ca influența ceții asupra jocului de pe harta Outpost să fie ajustată?"
+
+msgid "survey/fog/question/q6"
+msgstr "Cu ce tipuri de vehicule ai jucat pe harta Fjords?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "Cum s-a schimbat jocul cu {value} pe harta Fjords?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "Cum s-a schimbat jocul cu {value} pe harta Fjords?"
+
+msgid "survey/fog/question/q8"
+msgstr "Cu ce tipuri de vehicule ai jucat pe harta Outpost?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "Cum s-a schimbat jocul cu {value} pe harta Outpost?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "Cum s-a schimbat jocul cu {value} pe harta Outpost?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "Da, mi-ar plăcea"
+
+msgid "survey/fog/response/q10_2"
+msgstr "Nu, nu mi-ar plăcea"
+
+msgid "survey/fog/response/q10_3"
+msgstr "Nu sunt sigur"
+
+msgid "survey/fog/response/q11_1"
+msgstr "Inamicii din afara zonei nu-mi pot vedea vehiculul, însă nici eu nu îi pot vedea pe aceștia"
+
+msgid "survey/fog/response/q11_10"
+msgstr "Altele"
+
+msgid "survey/fog/response/q11_2"
+msgstr "Amplasarea ceții pe hartă"
+
+msgid "survey/fog/response/q11_3"
+msgstr "Înfățișarea ceții"
+
+msgid "survey/fog/response/q11_4"
+msgstr "Influențează prea mult jocul pe hartă"
+
+msgid "survey/fog/response/q11_5"
+msgstr "Influențează prea puțin jocul pe hartă"
+
+msgid "survey/fog/response/q11_6"
+msgstr "Înfățișarea ceții interferează cu lupta"
+
+msgid "survey/fog/response/q11_7"
+msgstr "Ceața forțează jocul la distanțe mici"
+
+msgid "survey/fog/response/q11_8"
+msgstr "Una dintre echipe este avantajată"
+
+msgid "survey/fog/response/q11_9"
+msgstr "Probleme tehnice"
+
+msgid "survey/fog/response/q12_1"
+msgstr "Inamicii din afara zonei nu-mi pot vedea vehiculul, însă nici eu nu îi pot vedea pe aceștia"
+
+msgid "survey/fog/response/q12_10"
+msgstr "Altele"
+
+msgid "survey/fog/response/q12_2"
+msgstr "Amplasarea ceții pe hartă"
+
+msgid "survey/fog/response/q12_3"
+msgstr "Înfățișarea ceții"
+
+msgid "survey/fog/response/q12_4"
+msgstr "Influențează prea mult jocul pe hartă"
+
+msgid "survey/fog/response/q12_5"
+msgstr "Influențează prea puțin jocul pe hartă"
+
+msgid "survey/fog/response/q12_6"
+msgstr "Înfățișarea ceții interferează cu lupta"
+
+msgid "survey/fog/response/q12_7"
+msgstr "Ceața forțează jocul la distanțe mici"
+
+msgid "survey/fog/response/q12_8"
+msgstr "Una dintre echipe este avantajată"
+
+msgid "survey/fog/response/q12_9"
+msgstr "Probleme tehnice"
+
+msgid "survey/fog/response/q1_1"
+msgstr "Da, mi-a plăcut"
+
+msgid "survey/fog/response/q1_2"
+msgstr "Nu, nu mi-a plăcut"
+
+msgid "survey/fog/response/q1_3"
+msgstr "Nu sunt sigur"
+
+msgid "survey/fog/response/q2_1"
+msgstr "Mi-a plăcut"
+
+msgid "survey/fog/response/q2_2"
+msgstr "E în regulă"
+
+msgid "survey/fog/response/q2_3"
+msgstr "Mi-a displăcut"
+
+msgid "survey/fog/response/q2_4"
+msgstr "Nu sunt sigur"
+
+msgid "survey/fog/response/q3_1"
+msgstr "Da, mi-ar plăcea"
+
+msgid "survey/fog/response/q3_2"
+msgstr "Nu, nu mi-ar plăcea"
+
+msgid "survey/fog/response/q3_3"
+msgstr "Nu sunt sigur"
+
+msgid "survey/fog/response/q4_1"
+msgstr "Să fie mai puternică"
+
+msgid "survey/fog/response/q4_2"
+msgstr "Să fie mai slabă"
+
+msgid "survey/fog/response/q5_1"
+msgstr "Să fie mai puternică"
+
+msgid "survey/fog/response/q5_2"
+msgstr "Să fie mai slabă"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "Antitancuri"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "Artilerii"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "Tancuri grele"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "Tancuri ușoare"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "Tancuri medii"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "Nu-mi amintesc"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "S-a îmbunătățit"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "S-a înrăutățit"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "Nu s-a schimbat"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "Nu sunt sigur"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "S-a îmbunătățit"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "S-a înrăutățit"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "Nu s-a schimbat"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "Nu sunt sigur"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "Antitancuri"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "Artilerii"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "Tancuri grele"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "Tancuri ușoare"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "Tancuri medii"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "Nu-mi amintesc"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "S-a îmbunătățit"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "S-a înrăutățit"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "Nu s-a schimbat"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "Nu sunt sigur"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "S-a îmbunătățit"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "S-a înrăutățit"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "Nu s-a schimbat"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "Nu sunt sigur"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "Antitancuri"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "Artilerii"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "Tancuri grele"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "Tancuri ușoare"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "Tancuri medii"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "Antitancuri"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "Artilerii"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "Tancuri grele"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "Tancuri ușoare"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "Tancuri medii"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "Ți-a plăcut să joci pe următoarele hărți cu mecanica de ploaie grea?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "Ți-ar plăcea să vezi ploaie grea pe hărți în lupte standard?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "Ce nu ți-a plăcut legat de mecanica de ploaie grea pe harta Westfield?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "Ce nu ți-a plăcut legat de mecanica de ploaie grea pe harta Westfield?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "Specifică orice îmbunătățiri necesare."
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "Ce părere ai despre înfățișarea vizuală a ploii grele de pe următoarele hărți?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "Ai dori ca impactul ploii grele asupra hărții și jocului să fie ajustat?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "Cum ai dori, exact, ca influența ploii grele asupra jocului de pe harta Westfield să fie ajustată?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "Cum ai dori, exact, ca influența ploii grele asupra jocului de pe harta Fisherman's Bay să fie ajustată?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "Cu ce tipuri de vehicule ai jucat pe harta Westfield?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "Cum s-a schimbat jocul cu {value} pe harta Westfield?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "Cum s-a schimbat jocul cu {value} pe harta Westfield?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "Cu ce tipuri de vehicule ai jucat pe harta Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "Cum s-a schimbat jocul cu {value} pe harta Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "Cum s-a schimbat jocul cu {value} pe harta Fisherman's Bay?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "Da, mi-ar plăcea"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "Nu, nu mi-ar plăcea"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "Nu sunt sigur"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "Zona cu ploaie grea e prea alunecoasă"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "Probleme tehnice"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "Altele"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "Inamicii din afara zonei nu-mi pot vedea vehiculul, însă nici eu nu îi pot vedea pe aceștia"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "Amplasarea ploii grele pe hartă"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "Înfățișarea ploii grele"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "Influențează prea mult jocul pe hartă"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "Influențează prea puțin jocul pe hartă"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "Înfățișarea ploii grele interferează cu lupta"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "Ploaia grea forțează jocul la distanțe mici"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "Una dintre echipe este avantajată"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "Zona cu ploaie grea e prea alunecoasă"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "Probleme tehnice"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "Altele"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "Inamicii din afara zonei nu-mi pot vedea vehiculul, însă nici eu nu îi pot vedea pe aceștia"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "Amplasarea ploii grele pe hartă"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "Înfățișarea ploii grele"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "Influențează prea mult jocul pe hartă"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "Influențează prea puțin jocul pe hartă"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "Înfățișarea ploii grele interferează cu lupta"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "Ploaia grea forțează jocul la distanțe mici"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "Una dintre echipe este avantajată"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "Da, mi-a plăcut"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "Nu, nu mi-a plăcut"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "Nu sunt sigur"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "Mi-a plăcut"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "E în regulă"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "Mi-a displăcut"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "Nu sunt sigur"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "Da, mi-ar plăcea"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "Nu, nu mi-ar plăcea"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "Nu sunt sigur"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "Să fie mai puternică"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "Să fie mai slabă"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "Să fie mai puternică"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "Să fie mai slabă"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "Antitancuri"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "Artilerii"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "Tancuri grele"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "Tancuri ușoare"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "Tancuri medii"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "Nu-mi amintesc"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "S-a îmbunătățit"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "S-a înrăutățit"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "Nu s-a schimbat"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "Nu sunt sigur"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "S-a îmbunătățit"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "S-a înrăutățit"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "Nu s-a schimbat"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "Nu sunt sigur"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "Antitancuri"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "Artilerii"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "Tancuri grele"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "Tancuri ușoare"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "Tancuri medii"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "Nu-mi amintesc"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "S-a îmbunătățit"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "S-a înrăutățit"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "Nu s-a schimbat"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "Nu sunt sigur"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "S-a îmbunătățit"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "S-a înrăutățit"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "Nu s-a schimbat"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "Nu sunt sigur"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "Următoarea"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "Recepționat!"
+
+msgid "survey/required"
+msgstr "Răspunde întrebării pentru a continua."
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "Antitancuri"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "Artilerii"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "Tancuri grele"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "Tancuri ușoare"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "Tancuri medii"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "Ți-a plăcut să joci pe harta Sand River cu mecanica de furtună de nisip?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "Ce părere ai despre înfățișarea vizuală a furtunii de nisip pe harta Sand River?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "Ai dori ca influența furtunii de nisip asupra hărții și jocului în Sand River să fie ajustată?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "Cum ai dori, exact, ca influența furtunii de nisip asupra jocului de pe harta Sand River să fie ajustată?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "Cu ce tipuri de vehicule ai jucat pe harta Sand River?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "Cum s-a schimbat jocul cu {value} pe harta Sand River?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "Cum s-a schimbat jocul cu {value} pe harta Sand River?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "Ți-ar plăcea să vezi furtuni de nisip pe hărți în lupte standard?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "Ce nu ți-a plăcut legat de mecanica de furtună de nisip pe harta Sand River?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "Specifică orice îmbunătățiri necesare."
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "Da, mi-a plăcut"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "Nu, nu mi-a plăcut"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "Nu sunt sigur"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "Mi-a plăcut"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "E în regulă"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "Mi-a displăcut"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "Nu sunt sigur"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "Da, mi-ar plăcea"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "Nu, nu mi-ar plăcea"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "Nu sunt sigur"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "Să fie mai puternică"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "Să fie mai slabă"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "Antitancuri"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "Artilerii"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "Tancuri grele"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "Tancuri ușoare"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "Tancuri medii"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "Nu-mi amintesc"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "S-a îmbunătățit"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "S-a înrăutățit"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "Nu s-a schimbat"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "Nu sunt sigur"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "S-a îmbunătățit"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "S-a înrăutățit"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "Nu s-a schimbat"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "Nu sunt sigur"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "Da, mi-ar plăcea"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "Nu, nu mi-ar plăcea"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "Nu sunt sigur"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "Inamicii din afara zonei nu-mi pot vedea vehiculul, însă nici eu nu îi pot vedea pe aceștia"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "Altele"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "Amplasarea furtunii de nisip pe hartă"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "Înfățișarea furtunii de nisip"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "Influențează prea mult jocul pe hartă"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "Influențează prea puțin jocul pe hartă"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "Înfățișarea furtunii de nisip interferează cu lupta"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "Furtuna de nisip forțează jocul la distanțe mici"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "Una dintre echipe este avantajată"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "Probleme tehnice"
+
+msgid "survey/subTitle"
+msgstr "Mulțumim pentru timpul acordat în completarea acestui chestionar! Va dura aproximativ două minute. Răspunsul tău va fi procesat doar în scopul acestui chestionar, iar orice date personale vor fi șterse, în conformitate cu Politica de confidențialitate."
+
+msgid "survey/template/final/title"
+msgstr "Mulțumim pentru timpul acordat în completarea acestui chestionar!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "CLIC PE HARTĂ PENTRU A ALEGE O POZIȚIE"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "POȚI ALEGE PÂNĂ LA TREI POZIȚII PE HARTĂ"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "Descrierea detaliată (până la %(maxLength)s caractere)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "Poziție"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "Elimină poziția"
+
+msgid "survey/template/opened/description"
+msgstr "Descrierea detaliată a problemei (până la %(maxLength)s caractere)"
+
+msgid "survey/title/common"
+msgstr "Acordă o notă noilor caracteristici"
+
+msgid "survey/title/map"
+msgstr "Evaluarea hărții %(map)s"

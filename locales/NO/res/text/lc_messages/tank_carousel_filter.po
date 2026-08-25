@@ -1,0 +1,239 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT oversetter <noreply@wargaming.net>\nLanguage-Team: WoT team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "checkbox/inventory"
+msgstr "Står i garasjen"
+
+msgid "infotip/counter"
+msgstr "Antall passende kjøretøy: %(count)d av %(total)d"
+
+msgid "infotip/event"
+msgstr "Spesialkjøretøy vises ikke"
+
+msgid "infotip/header/description"
+msgstr "Viser kjøretøy som møter de valgte kriteriene."
+
+msgid "infotip/header/title"
+msgstr "Kjøretøyfilter"
+
+msgid "infotip/levels"
+msgstr "Nivåer:"
+
+msgid "infotip/nations"
+msgstr "Nasjoner:"
+
+msgid "infotip/only"
+msgstr "Bare de følgende kjøretøyene:"
+
+msgid "infotip/only/elite"
+msgstr "Elite"
+
+msgid "infotip/only/favorite"
+msgstr "Primær"
+
+msgid "infotip/only/premium"
+msgstr "Premium"
+
+msgid "infotip/rent"
+msgstr "Leiekjøretøy vises ikke"
+
+msgid "infotip/searchNameVehicle"
+msgstr "Søk på navn:"
+
+msgid "infotip/vehicleTypes"
+msgstr "Typer:"
+
+msgid "popover/checkbox/battleRoyale"
+msgstr "Skjul inkompatible kjøretøy"
+
+msgid "popover/checkbox/elite"
+msgstr "Elite"
+
+msgid "popover/checkbox/event"
+msgstr "Spesial"
+
+msgid "popover/checkbox/favorite"
+msgstr "Primær"
+
+msgid "popover/checkbox/premium"
+msgstr "Premium"
+
+msgid "popover/checkbox/rented"
+msgstr "Leie"
+
+msgid "popover/checkbox/unlock_available"
+msgstr "Kun tilgjengelig for utvikling"
+
+msgid "popover/counter"
+msgstr "Viste kjøretøy: %(count)s"
+
+msgid "popover/label/customization"
+msgstr "Tilpasning"
+
+msgid "popover/label/hidden"
+msgstr "Mer"
+
+msgid "popover/label/levels"
+msgstr "Nivå"
+
+msgid "popover/label/nations"
+msgstr "Nasjon"
+
+msgid "popover/label/progressions"
+msgstr "Battle Pass"
+
+msgid "popover/label/roles/AT-SPG"
+msgstr "Roller for panserjagere på nivå %(levels)s"
+
+msgid "popover/label/roles/heavyTank"
+msgstr "Roller for tunge tanks på nivå %(levels)s"
+
+msgid "popover/label/roles/lightTank"
+msgstr "Roller for lette tanks på nivå %(levels)s"
+
+msgid "popover/label/roles/mediumTank"
+msgstr "Roller for medium tanks på nivå %(levels)s"
+
+msgid "popover/label/searchNameVehicle"
+msgstr "Søk på navn"
+
+msgid "popover/label/specials"
+msgstr "Spesial"
+
+msgid "popover/label/vehicleRole"
+msgstr "Rolle"
+
+msgid "popover/label/vehicleTypes"
+msgstr "Type"
+
+msgid "popover/title"
+msgstr "Parameterfilter"
+
+msgid "tooltip/battleRoyale/body"
+msgstr "Vis/skjul inkompatible kjøretøy til Steel Hunter."
+
+msgid "tooltip/battleRoyale/header"
+msgstr "Skjul inkompatible kjøretøy"
+
+msgid "tooltip/bonus/body"
+msgstr "Vis/skjul kjøretøy med aktivert erfaringsmultiplikator."
+
+msgid "tooltip/bonus/header"
+msgstr "Bonus erfaring"
+
+msgid "tooltip/clanRented/body"
+msgstr "Vis/skjul leiekjøretøy for det globale kartet og kamper i Forsvarsverk."
+
+msgid "tooltip/clanRented/header"
+msgstr "Leiekjøretøy for klankamper"
+
+msgid "tooltip/crystals/body"
+msgstr "Vis/skjul tilgjengelige kjøretøy som kan tjene sedler."
+
+msgid "tooltip/crystals/header"
+msgstr "Kjøretøy som kan tjene sedler"
+
+msgid "tooltip/customization/canInstallAttachments/body"
+msgstr "Vis/skjul kjøretøy som passer til å montere 3D vedheng på."
+
+msgid "tooltip/customization/own3DStyle/body"
+msgstr "Vis/skjul kjøretøy som du har 3D stiler til."
+
+msgid "tooltip/elite/body"
+msgstr "Vis/skjul kjøretøy med alle tilgjengelige moduler, oppgraderinger og tekniske grener ferdig utviklet, inkludert kjøretøy(ene) fra det påfølgende nivået."
+
+msgid "tooltip/elite/header"
+msgstr "Elitekjøretøy"
+
+msgid "tooltip/event/body"
+msgstr "Vis/skjul kjøretøy til spesielle spill eventer."
+
+msgid "tooltip/event/header"
+msgstr "Spesialkjøretøy"
+
+msgid "tooltip/favorite/body"
+msgstr "Vis/skjul primærkjøretøy."
+
+msgid "tooltip/favorite/header"
+msgstr "Primærkjøretøy"
+
+msgid "tooltip/gameMode/body"
+msgstr "Kryss av i boksen for å vise passende kjøretøy for %(battleType)s modusen."
+
+msgid "tooltip/gameMode/header"
+msgstr "Ødeleggelse"
+
+msgid "tooltip/igr/body"
+msgstr "Vis/skjul IGR kjøretøy."
+
+msgid "tooltip/igr/header"
+msgstr "IGR kjøretøy"
+
+msgid "tooltip/inventory/body"
+msgstr "?empty?"
+
+msgid "tooltip/inventory/header"
+msgstr "?empty?"
+
+msgid "tooltip/isCommonProgression/body"
+msgstr "Vis kjøretøy som passer til å tjene fremgangspoeng eller fullfør oppdrag som belønner deg med fremgangspoeng."
+
+msgid "tooltip/isCommonProgression/header"
+msgstr "Battle Pass kjøretøy"
+
+msgid "tooltip/isCompetitiveProgression/body"
+msgstr "tooltip/isCompetitiveProgression/body"
+
+msgid "tooltip/isCompetitiveProgression/header"
+msgstr "tooltip/isCompetitiveProgression/header"
+
+msgid "tooltip/nations/body"
+msgstr "Vis/skjul kjøretøy fra denne nasjonen."
+
+msgid "tooltip/params/body"
+msgstr "Konfigurér visningen av kjøretøy etter type, nasjonalitet, nivå og andre parametre."
+
+msgid "tooltip/params/header"
+msgstr "Parameterfilter"
+
+msgid "tooltip/premium/body"
+msgstr "Vis/skjul premium og belønningskjøretøy."
+
+msgid "tooltip/premium/header"
+msgstr "Premiumkjøretøy"
+
+msgid "tooltip/ranked/body"
+msgstr "Vis/skjul kjøretøy som passer til rangerte kamper."
+
+msgid "tooltip/ranked/header"
+msgstr "Kjøretøy til rangerte kamper"
+
+msgid "tooltip/rented/body"
+msgstr "Vis/skjul leiekjøretøy."
+
+msgid "tooltip/rented/header"
+msgstr "Leiekjøretøy"
+
+msgid "tooltip/role/body"
+msgstr "Vis/skjul kjøretøy med denne rollen."
+
+msgid "tooltip/rtsBattles/body"
+msgstr "Vis/skjul kjøretøy som passer til eventet Strategiens kunst."
+
+msgid "tooltip/rtsBattles/header"
+msgstr "Skjul inkompatible kjøretøy"
+
+msgid "tooltip/searchInput/body"
+msgstr "Kjøretøynavn må være på opptil %(count)d tegn."
+
+msgid "tooltip/searchInput/header"
+msgstr "Søk på navn"
+
+msgid "tooltip/toggleSwitchCarousel/body"
+msgstr "Bytt mellom enkelt og dobbeltpanel for visning av kjøretøy."
+
+msgid "tooltip/toggleSwitchCarousel/header"
+msgstr "Kjøretøypanel"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Vis/skjul kjøretøy av denne typen."

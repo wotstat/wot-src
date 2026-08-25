@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Csapat <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "Elfogad"
+
+msgid "EULA/labels/agree"
+msgstr "Elfogadom."
+
+msgid "EULA/title"
+msgstr "Végfelhasználói licencszerződés"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "Ez az email cím már hozzá van rendelve a fiókodhoz."
+
+msgid "accountCompletion/activate/button"
+msgstr "Kód küldése/Email csere"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "Kód újraküldése vagy az email megváltoztatása %(timer) mp múlva"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "Add meg az email címed újra"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "A kód lejárt. Add meg az email címed újra."
+
+msgid "accountCompletion/activate/keyError"
+msgstr "Érvénytelen kód"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "Ha nem találod az emailt, ellenőrizd, hogy helyesen adtad -e meg az email címed, kérlek."
+
+msgid "accountCompletion/activate/text"
+msgstr "A Wargaming.net küldött egy megerősítő kódot tartalmazó e-mailt a következő címre: {whiteSpanish_Open}%(email){whiteSpanish_Close}. Írd be a 4 számjegyű kódot az e-mail-címed megerősítéséhez és a fiókod befejezéséhez."
+
+msgid "accountCompletion/activate/title"
+msgstr "E-mail-cím megerősítése"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "Túl sokszor adtál meg érvénytelen kódot."
+
+msgid "accountCompletion/add"
+msgstr "Hozzáadás"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "Ez az email cím már hozzá van rendelve a fiókodhoz."
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "Email már hozzá van rendelve"
+
+msgid "accountCompletion/cancel"
+msgstr "Később"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "Email címed"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "Email"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "Add meg az emailed, hogy megszerezd a jutalmat és teljes hozzáférést kaphass a játék eseményekhez."
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "SZEREZZ TELJES HOZZÁFÉRÉST A JÁTÉKHOZ"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "Írd be és erősítsd meg az e-mail-címedet, hogy jutalmat kapj és új funkciókat oldj fel. %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "Fiók véglegesítése"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "Egy fiók már regisztrálva van ezzel az email címmel."
+
+msgid "accountCompletion/emailForbidden"
+msgstr "Ez az email cím tiltva van."
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "Az email maximum %(amount)s karaktert tartalmazhat."
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "Az emailnek legalább %(amount)s karakter hosszúnak kell lennie."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "Már megerősítetted az emailed."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "Email megerősítve"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "Túllépted a megengedett számú kérelmet. Megváltoztathatod az email címed vagy újraküldheted az emailt %(timer) múlva"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "Ez az email szolgáltató tiltva van az országodban."
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "Ez az email szolgáltató tiltva van az országodban."
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "Email hozzárendelése nem lehetséges"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "Az email csak latin betűket, számjegyeket, @ szimbólumot, pontot és alulvonást tartalmazhat."
+
+msgid "accountCompletion/later"
+msgstr "Később"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "Jutalom az e-mail-cím megerősítéséért"
+
+msgid "accountCompletion/submit"
+msgstr "Megerősít"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "Várakozás a szerver várólistáján.\nEz eltarthat egy ideig."
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) A szolgáltatás átmenetileg nem érhető el. Kérlek, próbáld újra később."
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon)A szolgáltatás átmenetileg nem érhető el.\nKérlek, próbáld újra %(time)s múlva."
+
+msgid "barracksExpand/cancel"
+msgstr "Mégse"
+
+msgid "barracksExpand/message"
+msgstr "A barakk megnövelése %(price)s aranyért %(count)s férőhely hozzáadásával?"
+
+msgid "barracksExpand/submit"
+msgstr "Megnövelés"
+
+msgid "barracksExpand/title"
+msgstr "Barakk méretének növelése"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "Nincs elég arany."
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "Barakk méretének növelése"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "Mégse"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "Nem áll készen az összes játékos a csatára vagy kevesebben vannak a szükségesnél."
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "Csata elindítása"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "Nem teljes"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "Aktiváld a(z) %(newBoosterName)s bónuszt"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "Megerősítés"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "Aktiválás megerősítése"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "Ha aktiválod a(z) %(newBoosterName)s személyes tartalékot, akkor a jelenleg aktív %(curBoosterName)s személyes tartalék törlődik és megsemmisül."
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "Megerősítés"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "Aktiválás megerősítése"
+
+msgid "buyConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "buyConfirmation/message"
+msgstr "Megvásárolod a(z) %(product)s terméket, %(price)s-ért?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "Vásárolsz {%count} darabot a következőből: \"{%name}\" ?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "Megvásárolod a(z) '%(equipment)s' felszerelést?"
+
+msgid "buyConfirmation/submit"
+msgstr "Vásárlás"
+
+msgid "buyConfirmation/title"
+msgstr "Vásárlás jóváhagyása"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "inkompatibilitás"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " a jelenlegi modullal."
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "\"%(conflicted)s\" fogyócikk visszaküldve a Depóba, indok "
+
+msgid "buyInstallConfirmation/message"
+msgstr "Megveszed és felszereled a(z) \"%(name)s\" (%(kind)s) eszközt %(price)s%(creditsIcon)s kreditért a jelenlegi járműre? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "Megveszed és felszereled a(z) \"%(name)s\" (%(kind)s) eszközt %(price)s kreditért a jelenlegi járműre?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "Vásárlás"
+
+msgid "buyInstallConfirmation/title"
+msgstr "Vásárlás jóváhagyása"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "Prémium fiókot vásárolsz %(days)s napra %(gold)s aranyért?\n%(alertIcon)s %(alertColorTagOpen)s Technikai okok miatt nem kapsz további tapasztalatot vagy kreditet. Válassz másik csatát vagy vásárolj prémium fiókot a Prémium fiók vásárlása menüből.%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "Vásárlás"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "Vásárlás jóváhagyása"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "Garázsférőhely"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "buySlotConfirmation/message"
+msgstr "Veszel egy új férőhelyet a garázsodba %(goldCost)s ellenében?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "Vásárlás"
+
+msgid "buySlotConfirmation/title"
+msgstr "Vásárlás jóváhagyása"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "Nincs elég kredit a férőhely megvásárlásához."
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "Nincs elég kredited"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "Nincs elég arany a hely megvásárlásához."
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "Nincs elég arany"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "Nincs elég hely a garázsodban. Szeretnél venni {%d} kreditért?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "Vásárlás"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "Vásárlás jóváhagyása"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "Alaplőszer vásárlása"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "Mégse"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Már van legénységed ehhez a járműhöz."
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "A járműbérlés időszakára egy ingyen férőhelyet kapsz."
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "Lőszer feltöltése sikertelen: a kiválasztott jármű már teljesen fel van töltve."
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "Lőszer feltöltése sikertelen: a kiválasztott járműben még van lőszer."
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "Ár: %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "Garázs bővítése"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "Vásárlás"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "Vásárlás"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "Becserélés"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "Legénység nélküli vásárlás"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "Legénység kiképzése"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "Harckocsizók: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "Vásárlás: %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "Összesen:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "Helytelen információt adtál meg."
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "Írd be az \"Összesen\" oszlopból az arany mennyiségét"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "Művelet megerősítése:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "Nincs megfelelő járműved\na cseréhez"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "A becsült értéke %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "Legénység képzése: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "Összesen:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "Jármű kiválasztása"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "Válassz ki egy becserélésre\nalkalmas prémium tankot"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "Mégse"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "Felár ezért %(vehiclename)s:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "Átváltás"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "Legénység nélküli vásárlás"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "Becserélés %(vehiclename)s"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "A megvásárolt felszerelések és fogyócikkek nem válthatók vissza aranyért, ha a Becserélés gombra kattintasz. Nézd meg a részleteket."
+
+msgid "buyVehicleWindow/warning"
+msgstr "A vásárolt felszerelések és fogyócikkek árát nem kapod vissza aranyban, miután a \"Vásárlás\" gombra kattintasz. Kérlek, ellenőrizd a részleteket."
+
+msgid "challenge_missions/activation/cancel"
+msgstr "Mégse"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "Aktivál"
+
+msgid "challenge_missions/activation/description"
+msgstr "Ha aktiválsz egy Próbatétel küldetéssorozatot, akkor {{@ style (color #FFE4C0)}}teljesítheted, elbukhatod vagy feladhatod{{/}} azt. Ha elbuksz a sorozat egyik küldetésén, elveszítesz egy pajzsot."
+
+msgid "challenge_missions/activation/title"
+msgstr "Aktiválod a Próbatételt: {{challengeName}}?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "Mégse"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "Újraindít"
+
+msgid "challenge_missions/restart/description"
+msgstr "A küldetésed előrehaladása visszaáll, a pajzsok visszaállnak, és újra szerezhetsz jutalmakat. A küldetéssorozat az újraindítás után azonnal elérhetővé válik."
+
+msgid "challenge_missions/restart/free/title"
+msgstr "Újraindítod a Próbatétel: {{challengeName}} kihívást ingyen?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "Újraindítod a Próbatétel: {{challengeName}} kihívást ennyiért: {{cost}}?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "Mégse"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "Feladás"
+
+msgid "challenge_missions/surrender/description"
+msgstr "A feladással a Próbatétel küldetéssorozat véget ér, és az összes elért előrehaladás, valamint a pajzsok visszaállnak az alapértékre. A sorozatot bármikor újrakezdheted."
+
+msgid "challenge_missions/surrender/title"
+msgstr "Feladod a Próbatétel: {{challengeName}} kihívást?"
+
+msgid "changeGraphics/cancel"
+msgstr "Mégse"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s A grafika jelentősen át lett dolgozva ebben a frissítésben. Választhatod a grafikai beállítások automatikus kiválasztását vagy beállíthatod azt manuálisan."
+
+msgid "changeGraphics/submit"
+msgstr "Auto. választás"
+
+msgid "changeGraphics/title"
+msgstr "Grafikai beállítások automatikus kiválasztása"
+
+msgid "changePeriphery/cancel"
+msgstr "Mégse"
+
+msgid "changePeriphery/message"
+msgstr "Átlépsz másik szerverre?"
+
+msgid "changePeriphery/submit"
+msgstr "Folytatás"
+
+msgid "changePeriphery/title"
+msgstr "Átlépés megerősítése"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "Visszavon"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "A szerverváltás el lesz mentve. A beállításokban ki- vagy bekapcsolhatod az automatikus bejelentkezést."
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "Folytat"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "Váltás másik szerverre?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "Mégse"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "Átlépsz másik szerverre?\n\nHa más szerverre váltasz, a következő korlátozásokkal találkozol:\n\t• Néhány jármű nem lesz elérhető.\n\t• Az emblémák és feliratok nem lesznek láthatóak.\n\t• A küldetések, személyes tartalékok és gyakorlótér mód nem lesznek elérhetőek.\n\nProblémáid lehetnek a kapcsolat minőségével. Kérlek, tiszteld a más területekről származó játékosokat."
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "Folytatás"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "Átlépés megerősítése"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "Visszavon"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "Átlépsz másik szerverre?\n\nHa más szerverre váltasz, a következő korlátozásokkal találkozol:\n\t• Néhány jármű nem lesz elérhető.\n\t• Az emblémák és feliratok nem lesznek láthatóak.\n\t• A küldetések, személyes tartalékok és gyakorlótér mód nem lesznek elérhetőek.\n\nProblémáid lehetnek a kapcsolat minőségével. Kérlek, tiszteld a más területekről származó játékosokat.\n\n\nA szerverváltás el lesz mentve.\nA beállításokban ki- vagy bekapcsolhatod az automatikus bejelentkezést."
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "Folytat"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "Átlépés megerősítése"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "Mégse"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sA következő klánhoz csatlakozol:\n%(clanName)s\n\nA csatlakozási szándék megerősítésével automatikusan elfogadod a klán szabályait és előírásait valamint azt, hogy aktívan részt veszel a klán tevékenységekben és fejlesztésben.\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "A klánból való kilépés után ideiglenesen nem csatlakozhatsz más klánokhoz."
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "Megerősítés"
+
+msgid "clanConfirmJoining/title"
+msgstr "Klánhoz csatlakozás megerősítése"
+
+msgid "clan_data_not_available/cancel"
+msgstr "Bezárás"
+
+msgid "clan_data_not_available/message"
+msgstr "Játékos klánjának a profilja átmenetileg nem elérhető. Próbálkozz újra később."
+
+msgid "clan_data_not_available/title"
+msgstr "Figyelem!"
+
+msgid "common/cancel"
+msgstr "Mégse"
+
+msgid "common/confirm/cancel"
+msgstr "Nem"
+
+msgid "common/confirm/submit"
+msgstr "Igen"
+
+msgid "common/cost"
+msgstr "Ár:"
+
+msgid "common/error/cancel"
+msgstr "Bezárás"
+
+msgid "common/submit"
+msgstr "Folytatás"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "Mégse"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "Vásárlás"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "Direktívák megvásárlása és felszerelése"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "Mégse"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "Figyelem! %(devices)s nincs felszerelve. A direktíva %(font_tag_open)sSNEM FOG MŰKÖDNI.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "Felszerel"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "Direktíva felszerelése"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "Mégse"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "Figyelem! Nincs olyan felszerelésed, ami kompatibilis a kiválasztott direktívával. A direktíva %(font_tag_open)sSNEM FOG MŰKÖDNI.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "Felszerel"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "Direktíva felszerelése"
+
+msgid "confirmBuy/title"
+msgstr "Megvásárolod %(moduleName)s?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "Mégse"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "A modul a depóba kerül."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "A vásárlásához szükséges összeg:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "Szerezz kreditet csatában, add el a felesleges dolgokat a depódból vagy válts át aranyat, hogy többet szerezz belőle."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "Nincs elég kredited"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "Modul ára:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "Add el a lecserélt %(previousModuleName) modult ennyiért: %(previousModulePrice)"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "Ez a modul kompatibilis a következőkkel:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "A modult eladhatod most, vagy elküldjük a depódba, ahol később eladhatod vagy újra felszerelheted."
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "Vásárlás"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "Megveszed és felszereled %(moduleName)s?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "Megvásárolod és felszereled a(z) '%(equipment)s' felszerelést?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "Felszerel"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "Mégse"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "Nem szükséges az átváltás.\nVan elegendő kredited."
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "Vásárlás nem lehetséges: átváltás nem sikerült.\nTovábbi %(gold)s szükséges az átváltáshoz."
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "Átváltasz %(gold)s aranyat a hiányzó kredit pótlására?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "Szükséges kredit:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "Vásárláshoz szükséges mennyiség: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "Átváltás"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "Átváltás megerősítése a vásárláshoz"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "Mégse"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "Nem szükséges az átváltás.\nVan elegendő tapasztalati pontod."
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "Fejlesztés nem lehetséges: átváltás nem sikerült.\nTovábbi %(gold)s szükséges az átváltáshoz."
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "Átváltod a szükséges mennyiségű tapasztalati pontot %(gold)s aranyért?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "Szükséges tapasztalati pont:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "Kifejlesztéshez szükséges mennyiség: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "Jármű kiválasztása"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "Átváltás megerősítése a fejlesztéshez"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "Összesen:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "Mégse"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "Átváltás nem szükséges a visszaállításhoz.\nVan elég kredited."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "Nem lehet átváltani a visszaállításhoz.\n%(gold)s arany szükséges az átváltáshoz."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "Átváltasz %(gold)s aranyat a hiányzó kredit pótlására?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "Szükséges kredit:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "Visszaállításhoz szükséges mennyiség: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "Átváltás"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "Átváltás megerősítése a visszaállításhoz"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "Összesen:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "Szám"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "Összesen"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "Ár:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "Ár"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "Összesen:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "Összesen"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "Össz.:"
+
+msgid "confirmUnlock/cancel"
+msgstr "Nem"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}}-ért (ezzel együtt: {{freeXP}})?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "Kifejleszted a következőt: {{items}},"
+
+msgid "confirmUnlock/item/message"
+msgstr "Kifejleszted %(typeString)s %(userString)s %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s tapasztalatért (ebből szabad tapasztalat %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "confirmUnlock/submit"
+msgstr "Igen"
+
+msgid "confirmUnlock/title"
+msgstr "Fejlesztés Megerősítése"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "Kifejleszted %(userString)s %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s tapasztalatért (ebből szabad tapasztalat %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "Mégse"
+
+msgid "controlsWrongNotification/message"
+msgstr "Egy, vagy több billentyű nincs beállítva. Biztos elmented így a Beállításokat?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "Mentés"
+
+msgid "controlsWrongNotification/title"
+msgstr "Hiba"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "Mégse"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "A kijelölt fájl sérült, vagy nem létezik. Az értesítő hang vissza lett állítva az alapállapotra.\nEgy, vagy több gomb nincs hozzárendelve. Biztos menti a beállításokat?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "Mentés"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "Hiba"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "createOrderConfirmation/submit"
+msgstr "Megerősítés"
+
+msgid "createOrderConfirmation/title"
+msgstr "Tartalék előkészítésének jóváhagyása"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "Nincs elegendő fedezet a vásárláshoz."
+
+msgid "crewBookPurchase/description/crew"
+msgstr "Az egész legénységre érvényes. Tanulásakor a(z) %(book)s minden legénységi tagnak %(exp)s-t ad."
+
+msgid "crewBookPurchase/description/personal"
+msgstr "A kiválasztott legénységi tagra érvényes. Tanulásakor a(z) %(book)s %(exp)s-t ad ennek a harckocsizónak."
+
+msgid "crewBookPurchase/purchase"
+msgstr "Vásárlás"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "%(book)s megvásárlása?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "Mégse"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "Minden, {season} pályához felrakott matrica el lesz {removed} a járműről,\nmert ez a hely nem elérhető {this}"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "Megerősít"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "ezekhez a pályákhoz."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "ehhez a pályához."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "Felteszed ezt a matricát erre a férőhelyre minden pályára?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "Mikor megvásárolod ezeket az elemeket, alkalmazod őket a jelenlegi járművön. A csillaggal jelölt elemek elérhetetlenek lesznek más járműveken."
+
+msgid "customization/buy_install_bound/title"
+msgstr "Elemek vásárlásának megerősítése"
+
+msgid "customization/change_install_bound/message"
+msgstr "Mikor kiválasztod ezeket az elemeket, alkalmazod őket a jelenlegi járművön. A csillaggal jelölt elemek elérhetetlenek lesznek más járműveken."
+
+msgid "customization/change_install_bound/title"
+msgstr "Elemek lecserélésének megerősítése"
+
+msgid "customization/close/cancel"
+msgstr "Mégse"
+
+msgid "customization/close/submit"
+msgstr "Kilépés"
+
+msgid "customization/close/title"
+msgstr "Kilépsz a garázsba a változtatások mentése nélkül?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "Mégse"
+
+msgid "customization/exitToShop/submit"
+msgstr "Tovább"
+
+msgid "customization/exitToShop/title"
+msgstr "Továbblépsz a boltba a változtatások mentése nélkül?"
+
+msgid "customization/filter/cancel"
+msgstr "Mégse"
+
+msgid "customization/filter/message"
+msgstr "Minden elem eltávolításra kerül. Folytatod?"
+
+msgid "customization/filter/submit"
+msgstr "Összes eltávolítása"
+
+msgid "customization/filter/title"
+msgstr "Elemek eltávolítása"
+
+msgid "customization/install_bound/cancel"
+msgstr "Mégse"
+
+msgid "customization/install_bound/submit"
+msgstr "Folytatás"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "Mégse"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "Figyelem! Miután felhasználod a (%(cTypeName)s \"%(itemName)s\") elemet a jelenlegi járműhez, csak további %(numberLeft)s járműhez használhatod. Felrakod az elemet?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "Alkalmaz"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "Elem alkalmazása"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "Mégse"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "Figyelem! Miután felhasználod a (%(cTypeName)s \"%(itemName)s\") elemet a jelenlegi járműhez, nem használhatod más járművekhez. Felrakod az elemet?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "Alkalmaz"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "Elem alkalmazása"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "Mégse"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "Figyelem! Miután felhasználod a (%(cTypeName)s \"%(itemName)s\") elemet a jelenlegi járműhez, nem használhatod más járművekhez. Az elem %(willBeDeleted)s ha eltávolítod. Felrakod az elemet?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "Alkalmaz"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "Elem alkalmazása"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "törölve lesz"
+
+msgid "customization/remove_element/cancel"
+msgstr "Mégse"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "Eltávolítás"
+
+msgid "customization/remove_element/title"
+msgstr "Elem eltávolítása"
+
+msgid "customizationConfirmSell/message"
+msgstr "%(name)s eladása a köv. összegért: %(price)s%(creditsIcon)s?"
+
+msgid "customizationConfirmSell/title"
+msgstr "Eladás megerősítése"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "%(days)s naponta"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "minden %(days)s n %(hours)s ó"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "minden %(hours)s ó"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "minden %(hours)s ó %(mins)s perc"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "minden %(mins)s perc"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "Küldetés újrapörgetésig {timeLimitMsg}"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "Újrapörgetés"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "Újrapörgeted a küldetést?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning}Néhány járműved csatában van. A küldetés újrapörgetésével a folyamat elveszhet. Küldetés újrapörgetéséig {timeLimitMsg}"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "Újrapörgetés"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "Újrapörgeted a küldetést?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "Figyelmeztetés!"
+
+msgid "dedication/headline"
+msgstr "Korunk hőse kitüntetés megszerezve"
+
+msgid "dedication/sub-headline"
+msgstr "{battlesNum} megvívott csatáért"
+
+msgid "dialogTemplates/cancel"
+msgstr "Mégse"
+
+msgid "dialogTemplates/confirm"
+msgstr "Megerősít"
+
+msgid "dialogTemplates/ok"
+msgstr "Értettem!"
+
+msgid "disconnect/cancel"
+msgstr "Nem"
+
+msgid "disconnect/message"
+msgstr "Biztosan ki akarsz lépni a szerverről?"
+
+msgid "disconnect/submit"
+msgstr "Igen"
+
+msgid "disconnect/title"
+msgstr "Kilépés a szerverről"
+
+msgid "disconnected/cancel"
+msgstr "OK"
+
+msgid "disconnected/message"
+msgstr "Megszakadt a kapcsolat. Újracsatlakozáshoz nyomd meg az OK gombot."
+
+msgid "disconnected/messageBan"
+msgstr "A felhasználói fiókod fel lett függesztve.%(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "A felhasználói fiókod fel lett függesztve %(expiryTime)s.%(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "Hiba a csatlakozásban. %(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \nIndok: %s"
+
+msgid "disconnected/title"
+msgstr "Kapcsolat megszakadt"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "Leszerelés"
+
+msgid "dismissTankman/description/perk"
+msgstr "Ehhez a művelethez add meg a készség képzési szintjét: {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "Ehhez a művelethez add meg a legutóbb képzett készség szintjét ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "A kiválasztott harckocsizót leszereled. {whiteOrange_Open}%(time)s napon{whiteOrange_Close} belül visszaállíthatod."
+
+msgid "dismissTankman/header"
+msgstr "Harckocsizó leszerelése"
+
+msgid "dismissTankman/limited"
+msgstr "Elérted a leszerelési korlátot. A leszerelt harckocsizó %(name)s (%(role)s, %(vehicle)s) helyét veszi át."
+
+msgid "dismissTankman/noRecovery"
+msgstr "A visszaállítás nem lesz lehetséges"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "Mégse"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "Figyelem! Ha leszereled %(dismissedName)s harckocsizót, %(deletedStr)s helyét veszi át. Jóváhagyod a cserét?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "Megerősítés"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "Változtatás megerősítése"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "Mégse"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "Figyelem! Ha leszereled a legénységet, %(deletedStr)s és %(extraCount)s helyét veszik át. Jóváhagyod a cserét?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "Megerősítés"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "A leszerelt harckocsizók zónája megtelt"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "Lecserélés"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "Név"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "Vezetéknév"
+
+msgid "documentChangeDialog/title"
+msgstr "Megváltoztatod a nevet és a megjelenést?"
+
+msgid "dropSkill/cancel"
+msgstr "Mégse"
+
+msgid "dropSkill/message"
+msgstr "Visszaállítod az összes készséget?"
+
+msgid "dropSkill/submit"
+msgstr "Visszaállítás"
+
+msgid "dropSkill/title"
+msgstr "Újraosztás megerősítése"
+
+msgid "elementType/chassis"
+msgstr "felfüggesztés"
+
+msgid "elementType/engine"
+msgstr "motor"
+
+msgid "elementType/gun"
+msgstr "löveg"
+
+msgid "elementType/radiostation"
+msgstr "rádió"
+
+msgid "elementType/turret"
+msgstr "torony"
+
+msgid "elenDisabled/cancel"
+msgstr "Bezárás"
+
+msgid "elenDisabled/message"
+msgstr "A versenyek ideiglenesen nem érhetők el, tervezett karbantartás miatt."
+
+msgid "elenDisabled/title"
+msgstr "Figyelem!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "Mégsem"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "Ne mutassa újra ezt a figyelmeztetést"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "A számítógép konfigurációd miatt alacsony FPS-t és grafikai torzulásokat fogsz tapasztalni. A csata betöltése tovább fog tartani és előfordulhat, hogy kifagy a kliens. Biztosan belépsz a csatába?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "Csata!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "Teljesítmény figyelmeztetés"
+
+msgid "equipmentBuyInstall/price"
+msgstr "Vételi ár:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "Szétszereled a következőt: %(equipment)s?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "Mégse"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "Szétszerelés és fejlesztés"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "Szétszerel"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "Ez az eltávolított felszerelés {white_Open}meg fog semmisülni{white_Close}.\nAz eszköz biztonságosan leszerelhető kötvény segítségével."
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "Ez az eltávolított felszerelés {white_Open}meg fog semmisülni{white_Close}.\nAz eszköz biztonságosan leszerelhető arany vagy leszerelő készlet segítségével."
+
+msgid "equipmentDestroy/conformation"
+msgstr "Megsemmisíted a(z) '%(equipment)s' felszerelést?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "Felszereled a(z) '%(equipment)s' felszerelést?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "Eladod a(z) '%(equipment)s' felszerelést?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "Mégse"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "Fejleszt"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "A szétszereléshez"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "Nincs szétszerelhető kísérleti felszerelés."
+
+msgid "eula/p1"
+msgstr "Kérlek, olvasd el a <BR/><A HREF='event:%(eulaURL)s'><U>Végfelhasználói Licenc Szerződést</U></A> mielőtt továbblépnél."
+
+msgid "eula/p2"
+msgstr "AZ \"ELFOGAD\" GOMB MEGNYOMÁSÁVAL JELEN FELHASZNÁLÓ ELFOGADJA, HOGY ELOLVASTA, MEGÉRTETTE ÉS KÖTELELZŐ ÉRVÉNNYEL VÁLLALJA JELEN VÉGFELHASZNÁLÓI LICENCSZERZŐDÉST (EULA), ÉS ANNAK MEGSÉRTÉSÉBŐL EREDŐ KÖVETKEZMÉNYEKET. A KÉSZÍTŐK FENNTARTJÁK A JOGOT A VÉGFELHASZNÁLÓI LICENCSZERZŐDÉS MÓDOSÍTÁSÁRA."
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "Biztosan át akarsz váltani %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s aranyat %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s kreditre?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "Átváltás"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "Arany Átváltása"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "A leárazást felhasználva akár %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s XP-t átválthatsz szabad tapasztalati pontra. Legközelebb a tapasztalatkonvertálás aranyba fog kerülni."
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "Átváltasz %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s XP-t, szabad XP-vé %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s aranyért?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "Átváltás"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "Szabad XP-vé alakítás"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "Nincs elég harci XP az átváltáshoz"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "Nincs elég harci XP az átváltáshoz"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "Mégse"
+
+msgid "fillAllPerks/button/fill"
+msgstr "Auto. választás"
+
+msgid "fillAllPerks/checkbox"
+msgstr "A készségek automatikus kiválasztása a barakkban lévő legénységek számára"
+
+msgid "fillAllPerks/description"
+msgstr "Képzettségüktől függően azoknak a harckocsizóknak, akiknek van szabad készségférőhelyük, az algoritmus kiválasztja az első készséget az alábbi táblázatból. Ha a harckocsizó már rendelkezik az első készséggel, akkor az algoritmus a másodikat választja ki, és ezt addig folytatja, amíg az összes szabad készségférőhelyet feltölti. A művelet eltarthat egy ideig."
+
+msgid "fillAllPerks/subTitle"
+msgstr "A készségek csak a járművekben lévő harckocsizók számára lesznek automatikusan kiválasztva."
+
+msgid "fillAllPerks/title"
+msgstr "Automatikusan kiválasztod a kiképzetlen készségeket minden harckocsizó számára?"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "Mégse"
+
+msgid "finance_dialog/header"
+msgstr "Megerősítés"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "Írja be a pénzügyi jelszót a művelet jóváhagyásához."
+
+msgid "finance_dialog/results/invalid"
+msgstr "Helytelen jelszó."
+
+msgid "finance_dialog/results/limit"
+msgstr "Sokszor írtad be helytelenül a jelszót. Próbáld újra 24óra múlva. <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Elfelejtetted a jelszót?</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "A jelszónak legalább 6 karakternek kell lennie, melyek Latin betűk, számok, vagy '_' lehetnek."
+
+msgid "finance_dialog/submitBtn"
+msgstr "Megerősítés"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "Megvásárolod a(z) %(product)s tárgyat %(price)s áron?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "Megvásárolom"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "Elfogad"
+
+msgid "fortDisabled/cancel"
+msgstr "Bezárás"
+
+msgid "fortDisabled/message"
+msgstr "A kláninformációk tervezett karbantartás miatt átmenetileg nem érhetők el."
+
+msgid "fortDisabled/title"
+msgstr "Figyelem!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "OK"
+
+msgid "fortTurnedOff/message"
+msgstr "Az erőd átmenetileg nem érhető el. Próbálkozz újra később."
+
+msgid "fortTurnedOff/title"
+msgstr "Figyelem!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "Nem"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "Igen"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "Mégse"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "Elhagyod a(z) %(oldBuilding)s épület helyőrségét. %(newBuilding)s épülethez leszel hozzárendelve."
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "Megerősítés"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "Építményhez hozzárendel"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "freeObtainConfirmation/message"
+msgstr "Megvásárolod a(z) %(product)s tárgyat %(price)s áron?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "Megvásárolom"
+
+msgid "freeObtainConfirmation/title"
+msgstr "Elfogad"
+
+msgid "freeSkillsLearning/message"
+msgstr "A nulladik készséget nem kell XP-ért kiképezni. Nagy előnyt jelent azáltal, hogy jelentősen csökkenti a harckocsizó további képzéséhez szükséges XP mennyiségét."
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "%(skillName)s kiválasztása nulladik készségként?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "%(skillName)s újraképzése nulladik készségként?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "freeSlotConfirmation/message"
+msgstr "Felhasználod a 100%-os leárazást egy extra garázshely ingyenes megszerzésére?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "Hozzáadás"
+
+msgid "freeSlotConfirmation/title"
+msgstr "Hely hozzáadása"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "Bezárás"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "Elérted az ingyen vásárolható járművek limitjét. Próbáld meg holnap."
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "Bezárás"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "Vásárlási limit"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)sA tapasztalati pont%(orangeText_close)s%(simpleText_open)s a játék egyik erőforrása, amit csatákban gyűjthetsz.\n\nBeleértve:%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)sA harci tapasztalati pontot,%(orangeText_close)s%(simpleText_open)s amit felhasználva egyes járművekhez új modulokat tudsz kifejleszteni és tovább tudsz fejlődni a Wargaming univerzumban, ahol mindezt összegyűjtötted.%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sA szabad tapasztalati pontot%(orangeText_close)s%(simpleText_open)s felhasználhatod bármely modul és jármű kifejlesztésére, valamint a legénység képzésének felgyorsítására. Használd körültekintően.%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "Folytatás"
+
+msgid "freeXPInfo/title"
+msgstr "XP"
+
+msgid "gammaDialog/cancel"
+msgstr "Start"
+
+msgid "gammaDialog/message/description"
+msgstr "Parancsnok! Állítsd be a monitorodat a megfelelő gamma korrekcióra a képminőség javításához.\n\n "
+
+msgid "gammaDialog/message/header"
+msgstr "Állítsd be a monitorod most!"
+
+msgid "gammaDialog/title"
+msgstr "Gamma beállítások"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "Átváltás után:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "Átváltás előtt:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "Mégse"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "Átváltás"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "Összesen:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "Legénység"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "Jármű"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "Tapasztalat"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "Minden jármű"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "Rendezés a kiválasztott járművek alapján."
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "Rendezés jármű név alapján."
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "Járművek"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "Rendezés TP alapján."
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "Tapasztalat"
+
+msgid "gatheringXPForm/title"
+msgstr "Szabad XP-vé alakítás"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "TP átváltása:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "Legénység kiképzése felgyorsítva."
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "Legénység kiképzése normál állapotban."
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "Összesen:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "Összesen:"
+
+msgid "graphics/message/alert"
+msgstr "Figyelem!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "Képernyőmód megváltoztatva. Váltás az előző beállításra %(time)s másodperc múlva. Elmented az aktuális beállításokat?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "Mentés"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "Képernyőmód beállítások mentése"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "Nem"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "Figyelem! Minden változtatás el fog veszni. Biztosan folytatod?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "Igen"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "Grafikai minőség automatikus felismerése"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "Nem"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "Figyelem! A grafikus beállítások életbelépése időbe telik. Folytatod?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "Igen"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "Beállítások megváltoztatása"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "Bezárás"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "A paraméterek maximálisra állítása nem lehetséges. Helyette a felhasználó által megadott grafikai minőség használata."
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "Figyelem"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "Bezárás"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "Magas textúra felbontás csak a 64 bites rendszereknek elérhető."
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "Textúra minőség nem elérhető"
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "Később"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "Az új beállítások csak újraindítás után lépnek életbe."
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "Újraindít"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "Beállítások megváltoztatása"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/message"
+msgstr "Nincs több hely a Garázsban. Vegyél egy újabb helyet vagy adj el egy járművet, hogy el tudd helyezni az új járművet."
+
+msgid "haveNoEmptySlots/submit"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/title"
+msgstr "Hiba"
+
+msgid "hof/excludeRating/cancel"
+msgstr "Mégse"
+
+msgid "hof/excludeRating/message"
+msgstr "Más játékosok többé nem fogják látni a kitüntetéseid, de láthatóvá teheted őket a hírességek csarnoka főoldalán."
+
+msgid "hof/excludeRating/submit"
+msgstr "Eredmények elrejtése"
+
+msgid "hof/excludeRating/title"
+msgstr "Eredmények megjelenítése az értékelésben"
+
+msgid "hofDisabled/cancel"
+msgstr "Bezárás"
+
+msgid "hofDisabled/message"
+msgstr "A hírességek csarnoka átmenetileg nem érhető el. Kérjük, próbáld meg később."
+
+msgid "hofDisabled/title"
+msgstr "Figyelem!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "Mégse"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}Hiányos legénység{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}A legénység egy vagy több tagja nem harcra kész{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "A kiválasztott jármű a következő okok valamelyike miatt nem megfelelő:"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "Csak egy legénység kaphatja meg a bónuszt. A bónuszt áttesszük erről a járműről:"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "erre:"
+
+msgid "idleCrewBonus/submit"
+msgstr "Megerősít"
+
+msgid "idleCrewBonus/title"
+msgstr "Engedélyezed az intenzív legénységi képzést?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "Próbáld meg letiltani a böngésző hardveres gyorsítását a beállításokban (a grafika fülön)."
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "Betöltési hiba"
+
+msgid "interviewQuit/cancel"
+msgstr "Vissza"
+
+msgid "interviewQuit/message"
+msgstr "Elutasíthatod a kérdőívet most és majd később újrakezdheted az Értesítési központban megtalálható meghívót tartalmazó üzenet megnyitásával. Az üzenet aktív marad egy játékmenet alatt."
+
+msgid "interviewQuit/submit"
+msgstr "Mégse"
+
+msgid "interviewQuit/title"
+msgstr "Kérdőív elutasítása"
+
+msgid "koreaParentNotification/cancel"
+msgstr "Értettem!"
+
+msgid "koreaParentNotification/message"
+msgstr "A gyermekek és kamaszok játékfüggőségének megelőzése érdekében a %(preBlockTime)s utáni játékindítást letiltottuk. %(blockTime)s -kor lecsatlakoztatunk a szerverről."
+
+msgid "koreaParentNotification/submit"
+msgstr "Értettem!"
+
+msgid "koreaParentNotification/title"
+msgstr "Játék korlátozások"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "Értettem!"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "Időkorlát túllépve. Nem tudsz új csatába belépni."
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "Értettem!"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "Szülői felügyelet"
+
+msgid "leaveEvent/cancel"
+msgstr "Mégse"
+
+msgid "leaveEvent/message"
+msgstr "A versenyben játszott csatáid eredményei törlődnek, miután az értékelés frissül. Nem fogsz részt venni az értékelésben és jutalmat sem szerezhetsz.\n\nA kilépést követően %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "NEM LÉPHETSZ BE ISMÉT A VERSENYBE."
+
+msgid "leaveEvent/submit"
+msgstr "Kilépés a versenyből"
+
+msgid "leaveEvent/title"
+msgstr "Kilépés a versenyből"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "Mégse"
+
+msgid "leaveStartedEvent/message"
+msgstr "A versenyben játszott csatád eredményei nem fognak számítani ebben a versenyben. Nem tudsz részt venni az értékelésben és jutalmat sem szerezhetsz.\n\nA kilépést követően %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "Kilépés a versenyből"
+
+msgid "leaveStartedEvent/title"
+msgstr "Kilépés a versenyből"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "Mégse"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "Már az ütközet előkészítő szobában vagy. Ki akarsz lépni, hogy elfogadd a meghívást?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "Meghívás"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "Mégse"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "Te már a szakasz tagja vagy. Biztosan el akarod hagyni a szakaszt, hogy elfogadd a meghívást?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "Meghívás"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "Mégse"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "Már a gyakorló szobában vagy. Biztosan ki akarsz lépni és elfogadni a meghívást?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "Meghívás"
+
+msgid "legalInfoWindow/title"
+msgstr "Jogi információk"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "Mégse"
+
+msgid "limitedUIOffNotification/message"
+msgstr "Biztos vagy benne, hogy kikapcsolod a rejtett kezelőfelület-elemek fokozatos megjelenítését a garázsban?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "Az opció letiltását követően nem fogod tudni újból engedélyezni."
+
+msgid "limitedUIOffNotification/submit"
+msgstr "Letilt"
+
+msgid "limitedUIOffNotification/title"
+msgstr "Beállítások megváltoztatása"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "Visszavon"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "A szerverváltás el lesz mentve. A beállításokban ki- vagy bekapcsolhatod az automatikus bejelentkezést."
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "Folytat"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "Elmented a szerverváltást?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "Nincs elég lőszer az alternatív konfigurációban. Így is belépsz a csatába?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "Lőszerkészlet hiányos"
+
+msgid "lowAmmo/cancel"
+msgstr "Mégse"
+
+msgid "lowAmmo/message"
+msgstr "Nincs elég lőszer a kiválasztott járműben. A lőszerkészletet automatikusan feltöltjük a csata kezdete előtt."
+
+msgid "lowAmmo/submit"
+msgstr "Újratölt"
+
+msgid "lowAmmo/title"
+msgstr "Lőszer automatikus újratöltése"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "Mégse"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "A kiválasztott járműhöz nincs elég lőszer. Ennek ellenére belépsz a csatába?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "Csata!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "Lőszerkészlet hiányos"
+
+msgid "lowFpsWarning/cancel"
+msgstr "Nem"
+
+msgid "lowFpsWarning/message"
+msgstr "A jelenlegi beállításokkal lassú a játék. Szeretnéd alacsonyabbra állítani a grafikai minőséget?"
+
+msgid "lowFpsWarning/submit"
+msgstr "Igen"
+
+msgid "lowFpsWarning/title"
+msgstr "Alacsony játék teljesítmény"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "%(userName)s játékos adatai zárolva vannak."
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "Játékos adatai zárolva"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "%(userName)s játékos adatai jelenleg nem elérhetőek."
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "Adatok jelenleg nem elérhetők."
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "Mégse"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s Ennek a beállításnak az engedélyezésével jelentősen csökken a számítógéped teljesítménye a csatában."
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "Figyelem!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "Bekapcsol"
+
+msgid "minimapAlphaNotification/title"
+msgstr "Kistérkép áttetszősége"
+
+msgid "moduleSale/conformation/header"
+msgstr "Eladod a(z) %(moduleType)s '%(moduleName)s'?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "Mégse"
+
+msgid "moneyTransfer/labelClan"
+msgstr "Klán:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "kredit"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "arany"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "Bér:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "Átutal:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "Normál:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "kredit"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "arany"
+
+msgid "moneyTransfer/labelTo"
+msgstr "Címzett:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "Összesen:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(nem klántag)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "Küldés"
+
+msgid "moneyTransfer/title"
+msgstr "Arany átutalása…"
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "Le lesz vonva {fee} <img src='icon_gold' />utalási költség. Biztosan átakarsz utalni {gold} <img src='icon_gold' /> {player} számára?"
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "Átváltás"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "Átutalás jóváhagyása"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Átutalási jelszó megadása</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/message"
+msgstr "Arany átutalása nem engedélyezett. Oka: %s."
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "Átutalási korlát lejár: %s."
+
+msgid "moneyTransferRestriction/submit"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/title"
+msgstr "Arany átutalása nem engedélyezett."
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "Nem"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "Néhány változtatás csak a következő csatában lép életbe. Folytatod?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "Igen"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "Beállítások megváltoztatása"
+
+msgid "perkLearnConfirm/desc"
+msgstr "A készség szintje a kiképzést követően: {yellow_Open}%(level)s%%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "Kiképzés"
+
+msgid "perkLearnConfirm/title"
+msgstr "Kiképzed a(z) %(skillName)s készséget?"
+
+msgid "perksReset/after"
+msgstr "A visszaállítás után:"
+
+msgid "perksReset/before"
+msgstr "A visszaállítás előtt:"
+
+msgid "perksReset/cancel"
+msgstr "Mégse"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "Ez a lehetőség nem érhető el, mivel már 100%-os kedvezményed van a készségek visszaállítására a Tankakadémián."
+
+msgid "perksReset/discountTooltip/header"
+msgstr "Nem érhető el"
+
+msgid "perksReset/free/description"
+msgstr "Legfeljebb {yellow_Open}1%{yellow_Close} készséget ingyenesen visszaállíthatsz."
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "A harckocsizó első készségvisszaállítása ingyenes"
+
+msgid "perksReset/graceLabel"
+msgstr "Az ingyenes készségvisszaállítás eddig érhető el:"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "A készség teljes XP-je csökkenni fog. Kevesebb készség lesz kiképezhető."
+
+msgid "perksReset/noNewPerks"
+msgstr "A kiképzett készségekből származó tapasztalat hozzáadódik a fő képzettség szintjéhez."
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "a készség teljes XP-jéből"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "Ezrediskola"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "a készség teljes XP-jéből"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "Gyors képzés"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "Készségek visszaállítása\n XP-veszteség nélkül"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "Használj kreditet a készségek XP-veszteség nélküli visszaállításához"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "Tankakadémia"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "Készségek visszaállítása\n XP-veszteség nélkül"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "Visszaállítás"
+
+msgid "perksReset/title"
+msgstr "Visszaállítod az összes harckocsizó készségeit?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "Mégse"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "A kiválasztott hangfizikai minőség eltér a játékkliens által automatikusan észlelt beállítástól. Az opció bekapcsolása hatással lehet a teljesítményre. Javasoljuk, hogy megerősítés előtt teszteld a teljesítményt. Alkalmazod ezeket a változtatásokat?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "Megerősít"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "A hangfizika minősége nem egyezik"
+
+msgid "postmortem/cancel"
+msgstr "Kilépés"
+
+msgid "postmortem/message"
+msgstr "A jármű megsemmisült. Bent akarsz maradni a csatában vagy ki akarsz lépni a garázsba?"
+
+msgid "postmortem/submit"
+msgstr "Maradok"
+
+msgid "postmortem/title"
+msgstr "Jármű megsemmisítve"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "Prémium fiók vásárlása %(days)s napra %(gold)s aranyért?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "Vásárlás"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "Vásárlás jóváhagyása"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "Prémium fiók meghosszabbítása %(days)s nappal %(gold)s aranyért?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "Hosszabbítás"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "Elfogad"
+
+msgid "priceCard/credits/title"
+msgstr "Ezrediskola"
+
+msgid "priceCard/free/title"
+msgstr "Gyors képzés"
+
+msgid "priceCard/gold/title"
+msgstr "Tankakadémia"
+
+msgid "priceCard/price/free"
+msgstr "Ingyen"
+
+msgid "priceCard/recertification/title"
+msgstr "Átképzési parancs"
+
+msgid "punishmentWindow/cancel"
+msgstr "Elismert"
+
+msgid "punishmentWindow/header/ban"
+msgstr "Ki lettél tiltva ennyi időre: %(time)s"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "Büntetést kaptál"
+
+msgid "punishmentWindow/header/warning"
+msgstr "Sportszerűtlen viselkedés"
+
+msgid "punishmentWindow/info"
+msgstr "Ha a helyzetedet csatlakozási problémák vagy egyéb technikai nehézségek okozzák,\nkérjük, lépj kapcsolatba az Ügyfélszolgálattal."
+
+msgid "punishmentWindow/message/ban"
+msgstr "Megsértetted a játékszabályzatot ezen a pályán: {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}, {whiteSpanish_Open}%(time)s{whiteSpanish_Close}-kor.\nÁtmenetileg ki lettél tiltva a következő játékmód csatáiból: {whiteSpanish_Open}%(mode)s{whiteSpanish_Close}."
+
+msgid "punishmentWindow/message/penalty"
+msgstr "Megsértetted a játékszabályzatot a(z) {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} pályán {whiteSpanish_Open}%(time)s{whiteSpanish_Close}-kor.\nA csatában szerzett kreditjeidet, tapasztalati pontjaidat és jutalmaidat eltávolítottuk."
+
+msgid "punishmentWindow/message/warning"
+msgstr "Megsértetted a játékszabályzatot ezen a pályán: {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}, {whiteSpanish_Open}%(time)s{whiteSpanish_Close}-kor.\nIsmételt szabályszegés esetén a csatában szerzett összes kreditet, tapasztalatot és jutalmat elveszíted."
+
+msgid "punishmentWindow/reason/afk"
+msgstr "Inaktivitás csatában"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "A csata elhagyása mielőtt az befejeződött volna vagy a járműved megsemmisült volna"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "Tétlenség a csatában / a csata korai elhagyása"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "Szándékos önmegsemmisítés"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s n %(hour)s ó"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s ó %(min)s perc"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 perc"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s perc"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "Mégse"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "Ne kérdezd újra"
+
+msgid "questsConfirmDialog/message"
+msgstr "Ha kiválasztod a(z) \"%(newQuest)s\" küldetést, akkor a(z) \"%(oldQuest)s\" küldetés meg lesz szakítva."
+
+msgid "questsConfirmDialog/submit"
+msgstr "Megerősítés"
+
+msgid "questsConfirmDialog/title"
+msgstr "Kiválasztott küldetés megerősítése"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "Mégse"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "A(z) %(curQuest)s küldetésben elért előrehaladásod törlődni fog.\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "Figyelem! A jelenlegi küldetésben elért előrehaladásod el fog veszni."
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "Megerősítés"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "Előrehaladás visszaállítása"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "Mégse"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "Ha a(z) %(newQuest)s küldetést választod, akkor a(z) %(oldQuest)s küldetés meg fog szakadni.\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "Figyelem! A jelenlegi küldetésben elért előrehaladásod el fog veszni."
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "Megerősítés"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "Kiválasztott küldetés megerősítése"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "Mégse"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "A(z) %(quest)s küldetés meg fog szakadni.\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "Figyelem! A jelenlegi küldetésben elért előrehaladásod el fog veszni."
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "Megerősítés"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "A küldetés megszakításának megerősítése"
+
+msgid "quit/cancel"
+msgstr "Maradok"
+
+msgid "quit/submit"
+msgstr "Kilépés"
+
+msgid "quit/title"
+msgstr "Kilépsz a játékból?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "Mégse"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "A csapatodnak szüksége van rád! Ha elhagyod a csatát, mielőtt az véget érne vagy a járműved megsemmisülne, az dezertálásnak minősül. Ez büntetést vonhat maga után, és elveszítheted az IGR csatában szerzett bónuszokat."
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "Dezertál"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "Dezertálsz a csatatérről?"
+
+msgid "quitBattle/cancel"
+msgstr "Mégse"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Mégse"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "A csapatodnak szüksége van rád! Ha elhagyod a csatát, mielőtt az véget érne vagy a járműved megsemmisülne, az dezertálásnak minősül. Ez büntetést vonhat maga után."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Dezertál"
+
+msgid "quitBattle/leaver/title"
+msgstr "Dezertálsz a csatatérről?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "Mégse"
+
+msgid "quitBattle/replay/submit"
+msgstr "Kilépés"
+
+msgid "quitBattle/replay/title"
+msgstr "Kilépsz a megfigyelő módból?"
+
+msgid "quitBattle/submit"
+msgstr "Kilépek"
+
+msgid "quitBattle/title"
+msgstr "Kilépsz a csatából?"
+
+msgid "quitPreBattle/cancel"
+msgstr "Nem"
+
+msgid "quitPreBattle/message"
+msgstr "Biztosan ki akarsz lépni az ütközet-előkészítő lobbyból?"
+
+msgid "quitPreBattle/submit"
+msgstr "Igen"
+
+msgid "quitPreBattle/title"
+msgstr "Kilépés az ütközet-előkészítő lobbyból"
+
+msgid "rally/autoSearch/cancel"
+msgstr "Nem"
+
+msgid "rally/autoSearch/message"
+msgstr "Automatikusan keresel férőhelyet?"
+
+msgid "rally/autoSearch/submit"
+msgstr "Igen"
+
+msgid "rally/autoSearch/title"
+msgstr "Autokeresés"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "Mégse"
+
+msgid "rally/changePeriphery/message"
+msgstr "Automatikusan át leszel irányítva más szerverre (%(host)s). Biztosan folytatod?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "Folytatás"
+
+msgid "rally/changePeriphery/title"
+msgstr "Átlépés másik szerverre"
+
+msgid "rally/goToAnother/cancel"
+msgstr "Mégse"
+
+msgid "rally/goToAnother/message"
+msgstr "Ha megváltoztatod a csata módot, automatikusan kilépsz a taktikai egységből."
+
+msgid "rally/goToAnother/submit"
+msgstr "Folytatás"
+
+msgid "rally/goToAnother/title"
+msgstr "Mód váltása"
+
+msgid "rally/goToIntro/cancel"
+msgstr "Mégse"
+
+msgid "rally/goToIntro/message"
+msgstr "Biztosan el akarod hagyni a taktikai egységet?"
+
+msgid "rally/goToIntro/submit"
+msgstr "Megerősítés"
+
+msgid "rally/goToIntro/title"
+msgstr "Kilépés megerősítése"
+
+msgid "rally/goToSquad/cancel"
+msgstr "Mégse"
+
+msgid "rally/goToSquad/message"
+msgstr "Ha létrehozol egy szakaszt, akkor automatikusan kiléptetésre kerülsz a jelenlegi módból."
+
+msgid "rally/goToSquad/submit"
+msgstr "Létrehozás"
+
+msgid "rally/goToSquad/title"
+msgstr "Szakasz létrehozása"
+
+msgid "rally/leave/cancel"
+msgstr "Mégse"
+
+msgid "rally/leave/message"
+msgstr "Biztosan elhagyod a taktikai egységből és a kilépsz módból?"
+
+msgid "rally/leave/submit"
+msgstr "Megerősítés"
+
+msgid "rally/leave/title"
+msgstr "Kilépés megerősítése"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "Folytatás"
+
+msgid "rally/leaveDisabled/message"
+msgstr "Nem sikerült kilépni. A járműved készen áll a csatára."
+
+msgid "rally/leaveDisabled/title"
+msgstr "Figyelem"
+
+msgid "rally/startBattle/cancel"
+msgstr "Nem"
+
+msgid "rally/startBattle/message"
+msgstr "Ellenfél keresése?"
+
+msgid "rally/startBattle/submit"
+msgstr "Igen"
+
+msgid "rally/startBattle/title"
+msgstr "Ellenfél keresése"
+
+msgid "recruit/cancel"
+msgstr "Mégse"
+
+msgid "recruit/submit"
+msgstr "Újonc"
+
+msgid "recruit/title"
+msgstr "Új %(role)s toborzása ehhez a járműhöz %(vehicleName)s?"
+
+msgid "recruit/voiceoverText"
+msgstr "A harckocsizók egyedi szinkronhangja csak parancsnoki beosztásban működik."
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "A prémium járművekhez nem kell harckocsizókat toboroznod. A legénységet büntetés nélkül áthelyezheted egy azonos típusú prémium járműre."
+
+msgid "recruit/warning/slotChanged"
+msgstr "Ez a harckocsizó nem toborozható a kiválasztott járműhöz, ezért a Barakkba kerül."
+
+msgid "recruitConversionConfirm/warning"
+msgstr "A harckocsizónak elavult készségei vannak, amelyeket automatikusan visszaállítunk XP-veszteség nélkül."
+
+msgid "recruitDialog/name/title"
+msgstr "Toborzol egy új harckocsizót (%(name)s)?"
+
+msgid "recruitDialog/title"
+msgstr "Toborzol egy új harckocsizót?"
+
+msgid "recruitWindow/cancel"
+msgstr "Mégse"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "Összes Nemzet"
+
+msgid "recruitWindow/nation"
+msgstr "Nemzet"
+
+msgid "recruitWindow/specialization"
+msgstr "Kvalifikáció"
+
+msgid "recruitWindow/submit"
+msgstr "Toborzás"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "Járműtípus"
+
+msgid "recruitWindow/vehicleType"
+msgstr "Jármű"
+
+msgid "referralReward/cancel"
+msgstr "Mégse"
+
+msgid "referralReward/message"
+msgstr "Átveszed a(z) %(product)s?"
+
+msgid "referralReward/submit"
+msgstr "Megerősít"
+
+msgid "referralReward/title"
+msgstr "Átvétel megerősítése"
+
+msgid "refuseTraining/cancel"
+msgstr "Nem"
+
+msgid "refuseTraining/message"
+msgstr "Kilépsz a kiképzésből?"
+
+msgid "refuseTraining/submit"
+msgstr "Igen"
+
+msgid "refuseTraining/title"
+msgstr "Elfogad"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "Semmisíts meg"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "Mégse"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "A(z) \"%(name)s\" fogyócikk a depóba fog kerülni %(reason)s miatt a jelenlegi modullal."
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "inkompatibilitás"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "Eltávolítás"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "Levétel jóváhagyása"
+
+msgid "rentConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "rentConfirmation/event"
+msgstr "A(z) %(eventName)s módhoz"
+
+msgid "rentConfirmation/message"
+msgstr "Kibéreled a következőt: %(name)s %(event)s, ennyiért: %(price)s?"
+
+msgid "rentConfirmation/submit"
+msgstr "Megerősít"
+
+msgid "rentConfirmation/title"
+msgstr "Bérlet megerősítése"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "Mégse"
+
+msgid "rentConfirmationRenew/message"
+msgstr "Meghosszabbítod a(z) %(name)s %(event)s bérleti idejét ennyiért: %(price)s?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "Megerősít"
+
+msgid "rentConfirmationRenew/title"
+msgstr "Bérlet megerősítése"
+
+msgid "replacePassport/unique/cancel"
+msgstr "Mégse"
+
+msgid "replacePassport/unique/message"
+msgstr "Ez egy különleges legénységi tag, a személyes adatait nem lehet később megváltoztatni. Biztos vagy benne, hogy felülírod a személyes adatokat %(gold)s aranyért?"
+
+msgid "replacePassport/unique/submit"
+msgstr "Váltás"
+
+msgid "replacePassport/unique/title"
+msgstr "Csere megerősítése"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "replacePassportConfirmation/message"
+msgstr "A harckocsizó személyes adatainak átírása %(gold)s aranyért?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "Váltás"
+
+msgid "replacePassportConfirmation/title"
+msgstr "Személyes adat átírása"
+
+msgid "replayNotification/cancel"
+msgstr "Nem"
+
+msgid "replayNotification/message"
+msgstr "A jelenlegi verziója a World of Tanks-nak nem kompatibilis a csata felvételével. Ez problémát tud okozni a visszajátszásban. Biztos vagy benne, hogy nem veszed figyelembe a különbséget és folytatod a visszajátszást?"
+
+msgid "replayNotification/submit"
+msgstr "Igen"
+
+msgid "replayNotification/title"
+msgstr "Figyelmeztetés"
+
+msgid "replayStopped/cancel"
+msgstr "Mégse"
+
+msgid "replayStopped/message"
+msgstr "A visszajátszás véget ért. Kattints a Befejezés gombra, hogy kilépj a játékból."
+
+msgid "replayStopped/submit"
+msgstr "Befejezés"
+
+msgid "replayStopped/title"
+msgstr "A visszajátszás véget ért"
+
+msgid "reportBug/cancel"
+msgstr "Mégse"
+
+msgid "reportBug/message"
+msgstr "Ide kattintva megnyitod az alapértelmezett böngésződet, és a World of Tanks ügyfélszolgálati weboldalára lépsz, ahol bejelentheted a hibát. Szeretnéd folytatni?"
+
+msgid "reportBug/submit"
+msgstr "Folytatás"
+
+msgid "reportBug/title"
+msgstr "Tovább az ügyfélszolgálathoz"
+
+msgid "resetAllPerks/cancel"
+msgstr "Mégse"
+
+msgid "resetAllPerks/submit"
+msgstr "Visszaállítás"
+
+msgid "resetAllPerks/title"
+msgstr "Visszaállítod az összes harckocsizó minden készségét?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}A fiókodon lévő összes harckocsizó minden készségét visszaállítod.{orangeEnd}\n{orangeStart}Ezt a műveletet nem lehet visszavonni.{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "Folytatás"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s A grafikai beállítások automatikusan megváltoztak az optimális képminőségért.\nA teljesítmény növeléséhez, válassz gyengébb grafikai minőséget a Beállításokban."
+
+msgid "resetGraphics/submit"
+msgstr "Beállítások"
+
+msgid "resetGraphics/title"
+msgstr "Grafikai beállítások változtatása"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "Visszaállítás"
+
+msgid "restoreTankman/description"
+msgstr "%(name)s vissza lesz állítva."
+
+msgid "restoreTankman/free"
+msgstr "Ár: Ingyen"
+
+msgid "restoreTankman/header"
+msgstr "Visszaállítod ezt a harckocsizót?"
+
+msgid "restoreTankman/price"
+msgstr "Ár:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "Mégse"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "%(vehiclename)s visszaállítása"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "Visszaállítás"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "Legénység nélkül"
+
+msgid "restoreVehicleDialog/title"
+msgstr "%(vehiclename)s visszaállítása"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "A visszaállításra kattintás után, már nem tudod lecserélni a megvásárolt felszerelést és fogyócikkeket arannyal. Kérjük, figyelmesen ellenőrizz minden részletet."
+
+msgid "retrain/cancel"
+msgstr "Mégse"
+
+msgid "retrain/changeRole"
+msgstr "Képesítés megváltoztatása"
+
+msgid "retrain/discountLabel"
+msgstr "Ezt a kedvezményt azért kapod, mert az első készség nincs 100%-ra képezve."
+
+msgid "retrain/discountTooltip/body"
+msgstr "Ez a lehetőség nem érhető el, mivel már 100%-os kedvezményed van az átképzésre a Tankakadémián."
+
+msgid "retrain/discountTooltip/header"
+msgstr "Nem érhető el"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "Harckocsizók átképzése: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "A prémium járművekhez nem kell átképezned a harckocsizókat.\nA legénységet büntetés nélkül áthelyezheted egy azonos típusú prémium járműre."
+
+msgid "retrain/price"
+msgstr "Ár:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "A készséghatékonyság\nátképzés után: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "Ezrediskola"
+
+msgid "retrain/priceCard/free/description"
+msgstr "A készséghatékonyság\nátképzés után: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "Gyors képzés"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "A készséghatékonyság\nátképzés után: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "Tankakadémia"
+
+msgid "retrain/submit"
+msgstr "Átképzés"
+
+msgid "retrain/title/massive"
+msgstr "Átképzed a legénységet erre a járműre: %(vehicleName)s&zwnbsp;?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "Átképzed erre a járműre: %(vehicleName)s\n, és megváltoztatod a képesítést erre: %(role)?"
+
+msgid "retrain/title/single/simple"
+msgstr "Átképzés erre a járműre: %(vehicleName)s"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "A nem megfelelő képesítéshez tartozó előnyök ki lesznek kapcsolva. Állítsd vissza őket manuálisan!"
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "A legénység büntetés nélkül áthelyezhető egy azonos típusú prémium járműbe, de a nem megfelelő készségeket manuálisan vissza kell állítanod."
+
+msgid "rudyInfo/message"
+msgstr "Halhatatlan klasszikusok a játékban! „A négy páncélos és a kutya” (lengyelül „Czterej pancerni i pies”) egy lengyel fekete-fehér tévésorozat volt, amely Janusz Przymanowski azonos című regénye alapján készült. Az 1966. május 9-én bemutatott sorozat egy T-34-85 tank, becenevén Rudy (vörös, rőt) legénységének és kutyájuknak, Gömböcnek a kalandjait mutatja be a második világháború alatt."
+
+msgid "rudyInfo/submit"
+msgstr "Értettem!"
+
+msgid "rudyInfo/title"
+msgstr "A négy páncélos és a kutya"
+
+msgid "selectVehicle/counter"
+msgstr "Megjelenített járművek:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "Támadó jármű kiválasztása"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "Jármű kiválasztása"
+
+msgid "sellConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "sellConfirmation/submit"
+msgstr "Elad"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "Elad"
+
+msgid "sellModuleConfirmation/title"
+msgstr "Eladás megerősítése"
+
+msgid "sellShellConfirmation/submit"
+msgstr "Eladod a(z) '%(shellName)s' lőszert?"
+
+msgid "sendInvites/common/title"
+msgstr "Meghívás taktikai egységbe"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "Mégse"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "Az időszak statisztikái automatikusan visszaállnak{} múlva"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "Visszaállítás"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s ó %(minutes)s perc"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "Visszaállítod az időszak statisztikáit?"
+
+msgid "shopSyncError/cancel"
+msgstr "Folytatás"
+
+msgid "shopSyncError/message"
+msgstr "Frissítsd az alkalmazást. Ha a hiba megismétlődik, frissítsd a szervert."
+
+msgid "shopSyncError/title"
+msgstr "Szinkronizálatlanság"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "Mégse"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "Kiképzed a kiválasztott készség(ek)et?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "Kiképzés"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "Alkalmaz"
+
+msgid "soundModeInvalid/cancel"
+msgstr "Mégse"
+
+msgid "soundModeInvalid/message"
+msgstr "A kijelölt fájl sérült, vagy nem létezik. Az értesítő hang át lett állítva az alapértelmezettre."
+
+msgid "soundModeInvalid/submit"
+msgstr "Mentés"
+
+msgid "soundModeInvalid/title"
+msgstr "Hiba"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "Mégse"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "A kiválasztott hangrendszer eltér a játék kliense által automatikusan meghatározottól. Egyes hangok esetleg nem lesznek elérhetőek. Javasoljuk a beállítások közti különbségek tesztelését. Megerősíted a változtatásokat?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "Megerősítés"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "Hangrendszer eltérés"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "Nem"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "A kiválasztott hangrendszer eltér a játék kliense által automatikusan meghatározottól. Egyes hangok esetleg nem lesznek elérhetőek. Az optimális hangbeállítások alkalmazása?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "Igen"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "Hangrendszer eltérés"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "Értettem!"
+
+msgid "squad/eventDisabled/message"
+msgstr "Az esemény nem elérhető. A szakasz fel lesz oszlatva."
+
+msgid "squad/eventDisabled/title"
+msgstr "Az esemény véget ért"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Mégse"
+
+msgid "squad/goToAnother/message"
+msgstr "Jelenleg szakaszban vagy. Ha megváltoztatod a csata módot, kilépsz a szakaszból."
+
+msgid "squad/goToAnother/submit"
+msgstr "Folytatás"
+
+msgid "squad/goToAnother/title"
+msgstr "Mód váltása"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "Mégse"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "A játékmód megváltoztatásakor a jelenlegi szakaszod feloszlik. Biztosan meg akarod változtatni a csatatípust?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "Megerősít"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "A játékmód megváltoztatása"
+
+msgid "squad/goToSquad/cancel"
+msgstr "Mégse"
+
+msgid "squad/goToSquad/message"
+msgstr "Taktikai egység elhagyása és szakasz létrehozása a játékossal?"
+
+msgid "squad/goToSquad/submit"
+msgstr "Létrehozás"
+
+msgid "squad/goToSquad/title"
+msgstr "Szakasz létrehozása"
+
+msgid "squad/leave/cancel"
+msgstr "Mégse"
+
+msgid "squad/leave/message"
+msgstr "Biztosan el akarod hagyni a szakaszt?"
+
+msgid "squad/leave/submit"
+msgstr "Megerősítés"
+
+msgid "squad/leave/title"
+msgstr "Kilépés megerősítése"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Folytatás"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Szakasz elhagyása nem lehetséges. Tagja vagy a szakasznak és készen állsz a csatára."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Figyelem"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "Mégse"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "A szakasz nem teljes. Automatikusan hozzáadunk egy játékost. Belépsz a csatába?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "Csata!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "A szakasz nem áll készen"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "Mégse"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "A szakasz nem teljes. Biztosan belépsz a csatába?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "Csata!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "A szakasz nem áll készen"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "Mégse"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "A szakasz hiányos. Szeretnél automatikusan hozzáadni játékosokat és elindítani a csatát?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "Csata!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "A szakasz nem áll készen"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "Mégse"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "A szakasz egy tagja nem áll készen. Biztosan belépsz a csatába?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "Csata!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "A szakasz nem áll készen"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "Mégse"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "A készenlétét nem igazoló játékost kizárásra kerül a taktikai egységből. Automatikusan csatlakozik egy játékos. Belépsz a csatába?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "Csata!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "A szakasz nem áll készen"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "Mégse"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "Senki sem áll készen a szakaszból. Biztosan belépsz a csatába?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "Csata!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "A szakasz nem áll készen"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "Mégse"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "A szakasz hiányos. Azok a játékosok, akik nem erősítették meg, hogy készen állnak, kizárásra kerülnek a taktikai egységből. Szeretnél automatikusan hozzáadni játékosokat és elindítani a csatát?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "Csata!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "A szakasz nem áll készen"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "Nem tudtál új csatához csatlakozni: több játékos nem tért vissza. Várj míg befejezik a jelenlegi csatájukat."
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "Értettem!"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "A szakasz nem áll készen"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "OK"
+
+msgid "squadPremiumNeeded/message"
+msgstr "Csak Prémium felhasználók készíthetnek Szakaszt.\nA Szakaszt létrehozó felhasználó bármilyen felhasználói fiókkal rendelkező játékost meghívhat."
+
+msgid "squadPremiumNeeded/title"
+msgstr "Csak Prémium felhasználói fiókkal rendelkező felhasználónak"
+
+msgid "steamStartNeeded/cancel"
+msgstr "Játék bezárása"
+
+msgid "steamStartNeeded/message"
+msgstr "A megfelelő bejelentkezéshez a játékot Steamen keresztül kell elindítani."
+
+msgid "steamStartNeeded/title"
+msgstr "Bejelentkezés nem lehetséges"
+
+msgid "stronghold/leave/cancel"
+msgstr "Mégse"
+
+msgid "stronghold/leave/message"
+msgstr "Biztos, hogy elhagyod az osztagot?"
+
+msgid "stronghold/leave/submit"
+msgstr "Megerősítés"
+
+msgid "stronghold/leave/title"
+msgstr "Kilépés megerősítése"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "Amikor kilépsz, az osztag feloszlik.\nA klán büntetést kap, amiért nem lépett be a csatába.\nBiztosan elhagyod az osztagot?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "Kilépés megerősítése"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "Mégse"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "Folytatás"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "Átlépés másik szerverre"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "tradeInConfirmation/message"
+msgstr "A(z) %(vehName)ss be lesz cserélve és nem lesz visszaállítható.%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " További, %(operations)s."
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "a legénység a barakkba kerül"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "a fogyócikkek a depóba kerülnek"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "a felszerelés ingyen leszerelésre kerül"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "minden megvásárolt kettős módosítás törölve lesz, de a normál módosítás folyamata megmarad"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "a lőszer a depóba kerül"
+
+msgid "tradeInConfirmation/submit"
+msgstr "Becserélés"
+
+msgid "tradeInConfirmation/title"
+msgstr "Jármű becserélés"
+
+msgid "tradeInPopover/descr"
+msgstr "A garázsban található prémium járművek"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "A kiválasztott járművek nemzetiségeinek megjelenítése."
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "Nemzet"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "Megmutatja, mennyit spórolsz, ha becseréled a kiválasztott járműveket"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "Jármű\nértékelése"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "Jármű értékelése"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "A kiválasztott járművek szintjeinek megjelenítése."
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "Szint"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "A kiválasztott járművek neveinek megjelenítése."
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "Név"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "A kiválasztott járművek típusainak megjelenítése."
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "Típus"
+
+msgid "tradeInPopover/title"
+msgstr "Válassz ki egy járművet becserélésre"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "Válassz járművet"
+
+msgid "updateNeeded/cancel"
+msgstr "Később"
+
+msgid "updateNeeded/message"
+msgstr "Kérjük, frissítsd az alkalmazásodat."
+
+msgid "updateNeeded/submit"
+msgstr "Frissítés"
+
+msgid "updateNeeded/title"
+msgstr "Frissítés szükséges"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "Kiképzed a harckocsizót {%d} aranyért?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "Kiképzés"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "Kiképzés Megerősítése"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "Nincs elég arany a képzéshez."
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "Nincs elég arany"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "Mégse"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "Harckocsizó kiképzése {%d} kreditért?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "Kiképzés"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "Kiképzés Megerősítése"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "Nincs elég kredit a kiképzéshez."
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "Nincs elég kredit."
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "Mégse"
+
+msgid "vehConf/exitDialog/message"
+msgstr "A módosítások nem lesznek elmentve. Kilépsz a jármű konfigurációból?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "Megerősítés"
+
+msgid "vehConf/exitDialog/title"
+msgstr "Változtatások visszavonása"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "Eltávolítás a garázsból %(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "Mégse"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "Figyelem! Ez egy különleges jármű. Ha eladod, várnod kell %(cooldown)s ideig, hogy visszaállíthasd. Eladod a járművet?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "Megerősítés"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "Eladás megerősítése"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "Mégse"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "Figyelem! Ez egy különleges jármű. Ha eladod, később visszaállíthatod. Eladod a járművet?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "Megerősítés"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "Eladás megerősítése"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "Mégse"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "Mégse"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "FIGYELEM! Ez egy egyedi tank, amit nem lehet visszaállítani. A legénységet is véglegesen el fogod veszteni."
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "Megerősítés"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "Eladás megerősítése"
+
+msgid "vehicleSell/unique/message"
+msgstr "Figyelem! Ez egy különleges jármű. A jármű nem vásárolható meg. Biztosan folytatod?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "Megerősítés"
+
+msgid "vehicleSell/unique/title"
+msgstr "Eladás megerősítése"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "Vásárlás megerősítése"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "A megerősítéshez írd be az eladási árat, ami az \"Összesen\" oszlopban található (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "Helytelen információt adtál meg."
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "LŐSZER:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "DIREKTÍVÁK:"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "Mégse"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "ÖSSZESEN:"
+
+msgid "vehicleSellDialog/count"
+msgstr "tételek"
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "Leszerelés"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "Barakkba küldés"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "LEGÉNYSÉG:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "KÜLSŐ:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "Szétszerel"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "FOGYÓCIKKEK:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "Részletek"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "DEPÓ:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "Elkötve:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "A jármű összes nemzeti konfigurációjával!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "Modulok"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "FELSZERELÉS:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "Ha eladod a járművet, az aktuális harctéri módosítási szint megmarad, de minden kettős módosítás törlődik."
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "Kapott:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "Eltávolítás"
+
+msgid "vehicleSellDialog/submit"
+msgstr "Elad"
+
+msgid "vehicleSellDialog/title"
+msgstr "Elad %(name)s"
+
+msgid "vehicleSellDialog/unload"
+msgstr "Depóba küldés"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "Elit"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "Ár"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "Szint. "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "Szerep: "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "Páncélvadász"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "Önjáró löveg"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "Nehéz tank"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "Könnyű tank"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "Közepes tank"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "Értettem!"
+
+msgid "voiceChatInitFailed/message"
+msgstr "Hiba a hang kommunikáció inicializálása közben: a szolgáltatás jelenleg nem érhető el."
+
+msgid "voiceChatInitFailed/title"
+msgstr "Hang kommunikáció inicializálása"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "OK"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "Hang kommunikáció sikeresen inicializálva."
+
+msgid "voiceChatInitSucceded/title"
+msgstr "Hang kommunikáció inicializálása"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "Bezárás"
+
+msgid "waterQualityNotPossible/message"
+msgstr "Magas kidolgozottságú víz az 'Utófeldolgozás' funkcióval együtt elérhető."
+
+msgid "waterQualityNotPossible/title"
+msgstr "Víz Minősége nem elérhető"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "Mégse"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "Ellenőrizd, hogy a garázsban vannak-e elérhető járművek"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "Ár: %(price)s %(icon)s (elérhető: %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "Játékos: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "Kiválasztott járművek: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "Visszaállítás szolgálatba"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "Visszaállítod szolgálatba?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "Segéd"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "Bejelentkezési jutalmak"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "Csatabónusz"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "Battle Pass Plusz"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "Kizárt pálya"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "Exkluzív jármű"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "Exkluzív járművek"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "A felszerelések ingyenes leszerelése"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "Aranytartalék"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "Intenzív legénységi képzés"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "Kiosztható XP-szorzó"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "Pro gyorsító"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "Szolgálati feljegyzés testreszabása"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "Harckocsizó banner"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "WOT PLUSZ AKTIVÁLVA"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "Készen állok!"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "Meghosszabbodik ekkor: {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "WOT PLUSZ CORE AKTIVÁLVA"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "Részletek"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "360 napos csomag"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "180 napos csomag"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}, meghosszabbodik ekkor: {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "WOT PLUSZ PRO AKTIVÁLVA"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "Aktiválás"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}Nem tudsz újabb járművet gyorsítani {{@ style (color #fff)}}{{boostInterval}} órán át{{/}}.{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "Az Pro gyorsító aktiválásával ez a jármű {{@ style (color #fff)}}{{bonusPercent}}-kal több kreditet és XP-t fog kapni{{/}}. Csak egy járműre alkalmazható."
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "Aktiválod a Pro gyorsítót ehhez a járműhöz: {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "Váltás"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}Csak egy jármű kaphat gyorsítót. Nem tudsz újabb járművet gyorsítani {{@ style (color #fff)}}{{boostInterval}} órán át{{/}}.{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "Az Pro gyorsító aktiválásával ez a jármű {{@ style (color #fff)}}{{bonusPercent}}-kal több kreditet és XP-t fog kapni{{/}}. Csak egy járműre alkalmazható."
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "Átváltod a Pro gyorsítót erre a járműre: {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "Mégse"
+
+msgid "wotPlusRental/description"
+msgstr "A következő járműbérlés:  {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "Bérlés"
+
+msgid "wotPlusRental/title"
+msgstr "Kibérled {cream_Open}%s{cream_Close}?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "Mentés"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "Szeretnéd elmenteni a szolgálati feljegyzés testreszabását?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "Mégse"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "A járművel szerzett összes tapasztalatot a legénység képzésére fordítod. A legkevésbé tapasztalt legénységi tag kétszer olyan gyorsan fejlődik."
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "Bekapcsol"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "Felgyorsítod a legénység kiképzését?"

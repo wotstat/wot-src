@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "Klán chat"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "Kattints az üzenet megírásához és elküldéséhez a klán chaten."
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "Klán chat"
+
+msgid "clan/header/creationDate"
+msgstr "Létrehozva %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "Jelentkezések és meghívások"
+
+msgid "clan/header/requestSent"
+msgstr "Jelentkezés elküldve"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "Jelentkezés elküldése"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "Kattints az ebbe a klánba történő jelentkezés elküldéséhez."
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "Jelentkezés elküldése"
+
+msgid "clan/post/combatOfficer"
+msgstr "Harctéri parancsnok"
+
+msgid "clan/post/commander"
+msgstr "Parancsnok"
+
+msgid "clan/post/executiveOfficer"
+msgstr "Másodtiszt"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "Hírszerzőtiszt"
+
+msgid "clan/post/juniorOfficer"
+msgstr "Altiszt"
+
+msgid "clan/post/personnelOfficer"
+msgstr "Személyzeti tiszt"
+
+msgid "clan/post/private"
+msgstr "Közlegény"
+
+msgid "clan/post/quartermaster"
+msgstr "Szállásmester"
+
+msgid "clan/post/recruit"
+msgstr "Újonc"
+
+msgid "clan/post/recruiter"
+msgstr "Toborzótiszt"
+
+msgid "clan/post/reservist"
+msgstr "Tartalékos"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "Hiba a név megjelenítése során"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "A táblázat adatai frissültek."
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "Toborzási követelmények"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "Szerkeszthető"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "A klánnak nincsenek függő jelentkezései."
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "A klánnak nincsenek lejárt jelentkezései."
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "Meghívás a klánba"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "Kattints %(invite)s meghívó küldéséhez\núj játékosoknak."
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "A klán nem küldött meghívót az elmúlt 28 napban."
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "A klánnak nincs függő jelentkezése az elmúlt 28 napból."
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "A klánnak nincs lejárt jelentkezése az elmúlt 28 napból."
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "A klánnak nincs felhasznált meghívója az elmúlt 28 napból."
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "A klánnak nincs feldolgozott jelentkezése."
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "Nincs adat a szervertől. \nPróbáld újra később."
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "Szerver hiba"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "Függő (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "Összes (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "Lejárt (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "Válasz érkezett (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "Feldolgozott (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "Szabad helyek a klánban: %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "Meghívás klánba"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "Három napod van a jelentkezés feldolgozásához, hogy csatlakozhass a klánba. A jelentkezéseket és meghívásokat 28 napig tároljuk, majd automatikusan törlődnek."
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "Játékos meghívása nem lehetséges: a klán tele van."
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "Játékos meghívása nem lehetséges: a klán toborzása jelenleg le van zárva."
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "Elfogadva"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "%(days)d nap a feldolgozásra"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "Elutasítva"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "Hiba"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "Lejárt"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "%(hours)d h a feldolgozásra"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "%(min)d perc a feldolgozásra"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "Elküldve"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "Meghívók (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "Jelentkezések (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "Műveletek"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "Meghívás"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "Elküldve"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "Mutass többet"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "Státusz"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "Játékos"
+
+msgid "clanInvitesWindow/title"
+msgstr "Jelentkezések és meghívások"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "Kattints játékosok meghívásához a klánba."
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "Meghívóval tőle:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "Meghívás elfogadva."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "Meghívás elutasítva."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "Meghívás elküldve."
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "Küldő:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Ez a gomb elérhető lesz, amint új adat érkezik a szervertől."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Kattints a jelentkezések és meghívások megtekintéséhez."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "A lista frissítése"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "Döntéshozó:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "Jelentkezés elfogadva."
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "Jelentkezés elutasítva."
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "Az alkalmazás érvényessége lejárt"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "Jelentkezés elküldve."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "Játékos meghívása nem lehetséges: a klán tele van."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "A játékos nemrég kilépett egy klánból.\nCsak ekkortól veheted fel a klánba:"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "Új játékos meghívása nem lehetséges: a klán toborzása jelenleg le van zárva."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "A meghívót kapó játékos átlagos csatánkénti tapasztalati pontja (beleszámítva a Prémium fiókot)."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Átlag tapasztalati pont csatánként"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "A meghívót kapó játékos által lejátszott csaták száma."
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Csaták"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "Kattints a játékos meghívásához a klánba."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "A meghívóval elküldött üzenet a klántól."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Üzenet"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "A meghívót kapó játékos Személyes értékelése."
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "Személyes értékelés"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "A meghívó elküldésének dátuma és ideje."
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "Elküldve"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Klán meghívó státusza.\nEgy meghívás lehet függő, lejárt vagy feldolgozott."
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Státusz"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "A meghívót kapó játékos neve."
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "Játékos"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "A meghívót kapó játékos győzelmi aránya."
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Győzelmek"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Egy jelentkezést el lehet fogadni vagy utasítani."
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Műveletek"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "A jelentkezést küldő játékos átlagos csatánkénti tapasztalati pontja (beleszámítva a Prémium fiókot)."
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "Átlag tapasztalati pont csatánként"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "A jelentkezést küldő játékos által lejátszott csaták száma."
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "Csaták"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "A jelentkezéssel elküldött üzenet a játékostól."
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "Üzenet"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "A jelentkezést küldő játékos Személyes értékelése."
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "Személyes értékelés"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "Klán jelentkezés státusza.\nEgy jelentkezés lehet függő, lejárt vagy feldolgozott."
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "Státusz"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "A jelentkezést küldő játékos neve."
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "Játékos"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "A jelentkezést küldő játékos győzelmi aránya."
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "Győzelmek"
+
+msgid "clanLanding/notification/archived"
+msgstr "Az üzenet az archívumba került."
+
+msgid "clanLanding/notification/commonError"
+msgstr "Technikai hiba: nem sikerült befejezni a műveletet az üzenettel."
+
+msgid "clanLanding/notification/deleted"
+msgstr "Üzenet eltávolítva."
+
+msgid "clanLanding/notification/edited"
+msgstr "Üzenet közzétéve."
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "Meghaladtad a maximálisan megengedett karaktert."
+
+msgid "clanLanding/notification/limitReached"
+msgstr "Már közzétetted a maximálisan megengedett üzenetet a klánban."
+
+msgid "clanLanding/notification/noPermission"
+msgstr "Nincs elegendő jogosultság a klán üzenetek kezeléséhez: a beosztásod módosult."
+
+msgid "clanLanding/notification/notExist"
+msgstr "Az üzenetet eltávolították vagy archiválásra került."
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "Az üzenet olyan kifejezéseket tartalmaz, amelyek megsértik a <a href=\"event:clanRulesLink\">klán szabályait</a>."
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "Függő meghívások %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "Elutasítottak (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "Klán meghívóim"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "Adatok fogadása…"
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "Nem kaptál meghívót klánba."
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "Az összes jelentkezés kijelölése"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "Műveletek"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "Klán neve"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "Státusz"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "Klán meghívók"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Frissítheted a listát, amint megkaptad az új adatokat."
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Kattints a táblázat frissítéséhez."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Most hagytad el a klánod. Csak ennyi idő múlva fogadhatsz el klánmeghívót:"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "A meghívót küldő klán tagjai által csatánként szerzett átlagos tapasztalati pont (normál csaták súlyozott átlaga)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Átlag tapasztalati pont csatánként"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "A meghívót küldő klán tagjai által lejátszott csaták átlaga (csak normál csaták)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Klán csatái"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "A meghívót küldő klán neve"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "Klán neve"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "A meghívót küldő klán üzenete"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Üzenet"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "A meghívót küldő klán összesített értékelése"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "Klán értékelése"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "A klán meghívók és a feldolgozásukra rendelkezésre álló idő megjelenítése"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Státusz"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "A meghívót küldő klán tagjainak győzelmi aránya (a normál csaták súlyozott átlaga alapján)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Klán győzelmei"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Elfogadhatod vagy elutasíthatod a meghívást. A meghívó elfogadásával automatikusan elutasítod a más klánoktól kapott meghívókat."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Műveletek"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "Klán profil"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "Bezárás"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "Üdv a klánban!"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "Most már harcolhatsz a világtérképen, építhetsz és megvédheted az erődítményed és teljesítheted a speciális küldetéseket."
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "Közlemény"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "Klánod: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "Elnézést kérünk a kellemetlenségért. Próbáld meg később."
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "Az erőd átmenetileg nem érhető el"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "Elnézést kérünk a kellemetlenségért. Próbáld meg később."
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "Hiba az adatok betöltése során"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "Klán profil"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "Erődítmény"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "Világtérkép"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "klán tagok"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "Erődítmény"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "Összegzés"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "Játékos meghívása a klánba"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "Művelet nem elérhető. Csak egyesével hívhatsz meg játékosokat a klánba."
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "Kapcsolatok hozzáadása a címzettekhez."
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "Csaták az elmúlt 28 napban"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "Előrenyomulás az elmúlt 28 napban"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "Klán parancsnok"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "Még nincs létrehozva"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "Nincs megvívott csata.\nNincs birtokolt terület."
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "Erődítmény szintje"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "Kincstár"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "Nincs megvívott csata"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "Területek"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Elo értékelés X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Elo értékelés VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Elo értékelés VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "Csatározások az elmúlt 28 napban"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "Összes tag"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "Részletek"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "Folytatás"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "Jelentkezés elküldése"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "A klánnak nincs mottója."
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "Világtérkép részletek"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "A térképhez"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "A részletek átmenetileg nem elérhetők"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "Nem lehet csatlakozni a klánhoz."
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "Toborzási követelmények elolvasása %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "Már tagja vagy egy másik klánnak."
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "Már kaptál meghívót, hogy csatlakozz ebbe a klánba."
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s Átmenetileg korlátozva"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s Átmenetileg korlátozva"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "Ez a klán nem fogad jelentkezéseket %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "Jelentkezés elküldve"
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "Adatok szinkronizálása…"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "A klán Elo értékelése X-es divízióban az Előrenyomulásban"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Elo értékelés X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "A klán Elo értékelése VI-os divízióban"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Elo értékelés VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "A klán Elo értékelése VIII-as divízióban az Előrenyomulásban"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Elo értékelés VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "A klán Előrenyomulás csatái az elmúlt 28 napban"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "Előrenyomulás az elmúlt 28 napban"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "Az erőd szintje megegyezik a Parancsnoki központ szintjével."
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "Erődítmény szintje"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "A klán csatározásai az elmúlt 28 napban"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "Csatározások az elmúlt 28 napban"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "A klán Elo értékelés X-es divízióban a Világtérképen"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Elo értékelés X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "A klán Elo értékelés VI-os divízióban a Világtérképen"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Elo értékelés VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "A klán Elo értékelés VIII-as divízióban a Világtérképen"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Elo értékelés VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "A klán által megvívott csaták a világtérképen az elmúlt 28 napban"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "Csaták az elmúlt 28 napban"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "A klán által jelenleg birtokolt területek a világtérképen."
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "Területek"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "Elérted a maximálisan elküldhető jelentkezések számát."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "Jelentkezés elküldése nem lehetséges"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "Elérted a maximálisan elküldhető jelentkezések számát."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "Jelentkezés elküldése nem lehetséges"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "A klán nem fogad jelentkezéseket."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "Jelentkezés elküldése nem lehetséges"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "A klán értékelése nem frissült az elmúlt 28 napban."
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "Elavult információ"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "Az összesített értékelés a klán eredményességét mutatja erődítmény módban és a világtérképen."
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "Összesített értékelés"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "Összesített értékelés"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "Klán profil"
+
+msgid "globalMap/disabled"
+msgstr "A régiódban jelenleg nem érhetők el\na globális térkép csatái"
+
+msgid "globalMapView/level10"
+msgstr "X-es szint"
+
+msgid "globalMapView/level6"
+msgstr "VI-os szint"
+
+msgid "globalMapView/level8"
+msgstr "VIII-as szint"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "Ez a terület ad neked bevételt, mert megszakadt az összeköttetés a parancsnoki központtal vagy a területet kifosztották."
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "Nem szereztél bevételt"
+
+msgid "globalMapView/noProvince"
+msgstr "A klánnak nincs területe."
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "Népszerű kezdési idő: %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "A világtérkép egy harcmező, ahol klánok csatáznak a stratégiai fölény megszerzéséért. A klán tisztjei itt töltik a legtöbb idejüket, taktikákon gondolkozva, és az egységeket mozgatva egy stratégiai manőverhez."
+
+msgid "globalMapView/promo/header"
+msgstr "Világtérkép"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "Világtérkép részletek"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "A térképhez"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "Csaták"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "A X-es divíziójú csaták száma a világtérképen"
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "Csaták"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Elo értékelés"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "A klán értékelése a világtérképen megvívott X-es divíziójú csaták alapján."
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Elo értékelés"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "Kedvenc pálya"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "Az a pálya, amelyen a klán a legtöbb X-es divíziójú csatáját vívta az elmúlt 28 napban"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "Kedvenc pálya: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "Helyezés a ranglistán"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "A klán helyezése a világtérképen megvívott X-es divíziójú csaták alapján"
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "Helyezés a ranglistán"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "Győzelmek"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "Összesített győzelmi arány a világtérképen megvívott X-es divíziójú csatákban"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "Győzelmek"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "Csaták"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "Összes csata VI-os divízióban a globális térképen"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "Csaták"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Elo értékelés"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "A klán értékelése a világtérképen megvívott VI-os divíziójú csaták alapján."
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Elo értékelés"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "Kedvenc pálya"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "Az a pálya, amelyen a klán a legtöbb VI-os divíziójú csatáját játszotta az elmúlt 28 napban."
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "Kedvenc pálya: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "Helyezés a ranglistán"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "A klán helyezése a világtérképen megvívott VI-os divíziójú csaták alapján."
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "Helyezés a ranglistán"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "Győzelmek"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "Összesített győzelmi arány a világtérképen megvívott VI-os divíziójú csatákban"
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "Győzelmek"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "Csaták"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "A VIII-as divíziójú csaták száma a világtérképen"
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "Csaták"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Elo értékelés"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "A klán értékelése a világtérképen megvívott VIII-as divíziójú csaták alapján."
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Elo értékelés"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "Kedvenc pálya"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "Az a pálya, amelyen a klán a legtöbb VIII-as divíziójú csatáját vívta az elmúlt 28 napban"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "Kedvenc pálya: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "Helyezés a ranglistán"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "A klán helyezése a világtérképen megvívott VIII-as divíziójú csaták alapján."
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "Helyezés a ranglistán"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "Győzelmek"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "Összesített győzelmi arány a világtérképen megvívott VIII-as divíziójú csatákban"
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "Győzelmek"
+
+msgid "globalMapView/stats/battles"
+msgstr "Csaták a világtérképen"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "A klán által világtérképen megvívott csaták száma"
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "Csaták a világtérképen"
+
+msgid "globalMapView/stats/seized"
+msgstr "Birtokolt területek"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "A klán által birtokolt területek száma. Azok a területek is számítanak, amelyeket korábban birtokoltak, de mostanra elvesztettek."
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "Birtokolt területek"
+
+msgid "globalMapView/stats/wins"
+msgstr "A klán győzelmei"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "A klán tagok összesített győzelmi aránya a világtérképen megvívott csaták során."
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "A klán győzelmei"
+
+msgid "globalMapView/table/days"
+msgstr "Napok"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "Az a periódus napokban, mely alatt a klán birtokolta a területet a világtérképen."
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "Napok"
+
+msgid "globalMapView/table/front"
+msgstr "Front"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "A kiválasztott Front neve"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "Front"
+
+msgid "globalMapView/table/income"
+msgstr "Bevétel"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "A terület által napi aranyhozama"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "Bevétel"
+
+msgid "globalMapView/table/map"
+msgstr "Pálya"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "A pálya neve, amelyen a területért vívott harcok zajlanak."
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "Pálya"
+
+msgid "globalMapView/table/primeTime"
+msgstr "Kezdési idő"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "A területért zajló csaták tervezett kezdési ideje."
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "Kezdési idő"
+
+msgid "globalMapView/table/province"
+msgstr "Province"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "A kiválasztott terület neve."
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "Province"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "A területet kifosztották és átmenetileg nem ad neked bevételt."
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "Az időpont, amikortól újra tudsz bevételt szerezni:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "Területek"
+
+msgid "globalMapView/tabs/stats"
+msgstr "Statisztika"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "A klán értékelése nem frissült az elmúlt 28 napban."
+
+msgid "globalMapView/totalIncome"
+msgstr "Összesített napi bevétel: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "Csaták\nátlagos száma"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "A lejátszott normál és tankszázad csaták átlaga a klán tagjai között. Csak a klán jelenlegi tagjai számítanak."
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "A klán tagok átlagos csata száma"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "Átlag tapasztalat"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "A klán tagok által normál és tankszázad csatákban gyűjtött tapasztalati pontjainak súlyozott átlaga. A játékosok által megvívott csaták száma befolyásolja a súlyozást. Csak a jelenlegi klán tagok számítanak."
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "A klán tagok átlagos tapasztalati pontja"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "Átlagos személyes értékelés"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "A klán tagok személyes értékelésének átlaga. Csak a jelenlegi klán tagok számítanak."
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "A klán tagok átlagos személyes értékelése"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "Átlagos győzelmi arány"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "A klán tagok normál és tankszázad csatákban elért győzelmi arányának súlyozott átlaga. A játékosok által megvívott csaták száma befolyásolja a súlyozást. Csak a jelenlegi klán tagok számítanak."
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "A klán tagok átlagos győzelmi aránya"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "A szerzett tapasztalat és a játékos által megvívott normál és tankszázad csaták aránya"
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "Átlag tapasztalat"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "Normál és tank század csaták összesített száma"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "Összesített csata szám"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "A játékos által a klánban eltöltött napok száma"
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "Napok a klánban"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "A játékos személyes értékelése"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "Személyes értékelés"
+
+msgid "personnelView/table/player"
+msgstr "Játékos (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "Klántag neve"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "Játékos"
+
+msgid "personnelView/table/post"
+msgstr "Pozíció"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "Tag rangja a klánban"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "Pozíció"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "A játékos győzelmi arány normál és tankszázad csatákban"
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "Győzelmek"
+
+msgid "personnelView/title"
+msgstr "Klántagok statisztikái a normál csatákban és a tankszázadcsatákban:"
+
+msgid "search/clansList"
+msgstr "Listázott klánok: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "Nincs eredmény a keresésedre. Próbálj más szavakkal keresni."
+
+msgid "search/emptyResult/button"
+msgstr "Vissza a listához"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "Kattints a visszatéréshez keresett klánok listájához."
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "Vissza a listához"
+
+msgid "search/emptyResult/header"
+msgstr "Nincs találat a keresésre"
+
+msgid "search/foundClans"
+msgstr "Találat klánokra: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "Nem lehet csatlakozni a klánhoz."
+
+msgid "search/info/banned/tooltip/header"
+msgstr "Jelentkezés elküldése nem lehetséges"
+
+msgid "search/info/clanProfileBtn"
+msgstr "Klán profil"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "Nem lehet elküldeni a jelentkezést a klánnak."
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "Művelet nem elérhető"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "Már kaptál meghívót, hogy csatlakozz ebbe a klánba."
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "Jelentkezés elküldése nem lehetséges"
+
+msgid "search/info/ratingDescription"
+msgstr "Összesített értékelés"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "Az összesített értékelés a klán eredményességét mutatja erődítmény módban és a világtérképen."
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "Összesített értékelés"
+
+msgid "search/info/ratingTitle"
+msgstr "Statisztikák az összes Csatatípusban:"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "Már küldtél jelentkezést, hogy csatlakozhass ebbe a klánba."
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "Jelentkezés elküldése nem lehetséges"
+
+msgid "search/info/requestSent"
+msgstr "Jelentkezés elküldve"
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "A klán nem fogad jelentkezéseket."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "Jelentkezés elküldése nem lehetséges"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "Elérted a maximálisan elküldhető jelentkezések számát."
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "Jelentkezés elküldése nem lehetséges"
+
+msgid "search/info/sendRequestBtn"
+msgstr "Jelentkezés elküldése"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "Nem érkezett adat a szervertől. Próbáld újra később."
+
+msgid "search/info/serverUnavailable/header"
+msgstr "Szerver hiba"
+
+msgid "search/info/stats/avgExp"
+msgstr "Átlag tapasztalat"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "A klán tagok által normál és tankszázad csatákban gyűjtött tapasztalati pontjainak súlyozott átlaga. A játékosok által megvívott csaták száma befolyásolja a súlyozást. Csak a jelenlegi klán tagok számítanak."
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "A klán tagok átlagos tapasztalati pontja"
+
+msgid "search/info/stats/battles"
+msgstr "Csaták\nátlagos száma"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "A klán tagok által a különböző módokban megvívott csaták átlaga. Csak a jelenlegi klán tagok számítanak."
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "A klán tagok átlagos csata száma"
+
+msgid "search/info/stats/wins"
+msgstr "Átlagos győzelmi arány"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "A klán tagok normál és tankszázad csatákban elért győzelmi arányának súlyozott átlaga. A játékosok által megvívott csaták száma befolyásolja a súlyozást. Csak a jelenlegi klán tagok számítanak."
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "A klán tagok átlagos győzelmi aránya"
+
+msgid "search/nextBtn"
+msgstr "Következő"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "Kattints a klánlista következő részének megtekintéséhez."
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "Következő"
+
+msgid "search/previousBtn"
+msgstr "Előző"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "Kattints a klán lista előző részének megtekintéséhez."
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "Előző"
+
+msgid "search/promoText/body"
+msgstr "Klán kereséséhez írd be a nevét vagy rövidítését a mezőbe és kattints a keresésre."
+
+msgid "search/promoText/header"
+msgstr "Klán keresés"
+
+msgid "search/requestTooShort/body"
+msgstr "Klán kereséséhez írj be legalább 2 karaktert a mezőbe és próbáld újra."
+
+msgid "search/requestTooShort/button"
+msgstr "Vissza a listához"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "Vissza a listához"
+
+msgid "search/requestTooShort/header"
+msgstr "Hiányos adatok"
+
+msgid "search/searchBtn"
+msgstr "Keresés"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "Írd be a klán nevét vagy rövidítését a baloldali mezőbe (legalább 2 karakter)."
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "Klán keresés"
+
+msgid "search/searchInputPrompt"
+msgstr "Klán név v. rövidítés megadása."
+
+msgid "search/serverUnavailable/body"
+msgstr "Nem érkezett adat a szervertől. Próbáld újra később."
+
+msgid "search/serverUnavailable/header"
+msgstr "Szerver hiba"
+
+msgid "search/table/clan"
+msgstr "Klán"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "Klán adatok: rövidítés és név"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "Klán"
+
+msgid "search/table/creationDate"
+msgstr "Létrehozva"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "Klán létrehozásának dátuma"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "Létrehozva"
+
+msgid "search/table/players"
+msgstr "Játékosok"
+
+msgid "search/table/players/tooltip/body"
+msgstr "Klán tagok"
+
+msgid "search/table/players/tooltip/header"
+msgstr "Játékosok"
+
+msgid "search/table/rating"
+msgstr "Értékelés"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "Klán összesített értékelése"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "Értékelés"
+
+msgid "search/title"
+msgstr "Klán keresés"
+
+msgid "search/titleDescription"
+msgstr "Itt kereshetsz klánokat, megnézheted a részletes leírásukat, és jelentkezhetsz. Kereshetsz név vagy rövidítés alapján."
+
+msgid "search/windowTitle"
+msgstr "Klán keresés"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "Terv"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "Statisztika"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "Szint %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "nincs beállítva"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "Tűzszünet:"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "Védelmi időszak:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "Otthon szerver:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "Felépült épületek:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "Semlegesség:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "Legtöbb megszerzett ipari nyersanyag"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "Leghosszabb győzelmi sorozat"

@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "В битка все пак"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Оборудвай!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Тактическите устройства не са завършени"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "На избраната от вас машина липсва едно или повече тактически устройства. Това може значително да повлияе на бойните ви показатели. Ще влезете ли в битката въпреки това?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Можете да персонализирате предварително зададените клавишни комбинации за събития по подразбиране за снаряди и тактически устройства.\nТази промяна се отнася само за битки за събитието и няма да засегне други режими.\nВсе още можете да променяте отделни клавишни комбинации в Меню — Настройки — Контроли (под Снаряжение)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Промяна на клавишни комбинации за Снаряжение"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Изпълнете текущата мисия, за да получите уникална значка \"Последна битка: Операция Пандора\":"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Мисия за епично постижение"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Когато е изследвано, намалява {EDCB9E_Start}минималната цена{EDCB9E_End} на всички тактически устройства с {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Ефективност на мирия"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Когато е изследвано, повишава {EDCB9E_Start}продължителността на ефекта на тактическите устройства{EDCB9E_End} с {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Продължителност на ефекта на устройство"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Когато е изследвано, повишава {EDCB9E_Start} радиуса на ефекта на тактическите устройства{EDCB9E_End} с {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Радиус на ефекта на устройство"
+
+msgid "booster/booster_heal/description"
+msgstr "Когато е изследвано, повишава всички {EDCB9E_Start}лечебни ефекти{EDCB9E_End}, проложени на машината с {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Лечебни ефекти"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Когато е изследвано, повишава количеството на {EDCB9E_Start}пораженията, предавани от обелиските{EDCB9E_End} на вражески машини с {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Поражения, предавани от обелиски"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Когато е изследвано, повишава {EDCB9E_Start}радиуса на вземане на мирий{EDCB9E_End} от врагове с {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Радиус на вземане на мирий"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Когато е изследвано, повишава {EDCB9E_Start}количеството събран мирий{EDCB9E_End} от унищожени машини с {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Събиране на мирий"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Когато е изследвано, повишава {EDCB9E_Start}количеството мирий{EDCB9E_End}, давано за унищожаване на вълна с {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Мирий на вълна"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Когато е изследвано, повишава {EDCB9E_Start}количеството мирий{EDCB9E_End}, възстановено при съживяване с {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Мирий при съживяване"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Когато е изследвано, повишава {EDCB9E_Start}максималния капацитет за мирий на машината{EDCB9E_End} с {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Капацитет за мирий"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "ПАКЕТ DEFENDER"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Закупени са ключове"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Опцията да печелите ×5 опит, считано от втората победа за деня с всяка машина."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Мисия за ×5 опит, спечелен в битка"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Настройка на показването на машини според техния вид, нация и други параметри."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Филтър по параметри"
+
+msgid "common/back"
+msgstr "НАЗАД"
+
+msgid "common/close"
+msgstr "ЗАТВОРИ"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "КЪМ СЪБИТИЕТО"
+
+msgid "common/toRewardPath"
+msgstr "КЪМ НАПРЕДЪКА"
+
+msgid "common/yes"
+msgstr "Тъй вярно!"
+
+msgid "difficult/daily"
+msgstr "ОТКЛЮЧЕНА ЕЖЕДНЕВНА МИСИЯ ЗА КЛЮЧОВЕ"
+
+msgid "difficult/disabled/body"
+msgstr "Вие сте във взвод. Само командирът може да променя нивото на трудност."
+
+msgid "difficult/disabled/header"
+msgstr "Промяната на трудност е недостъпна"
+
+msgid "difficult/level_1"
+msgstr "Нормална"
+
+msgid "difficult/level_2"
+msgstr "Висока"
+
+msgid "difficult/level_3"
+msgstr "Брутална"
+
+msgid "difficult/new"
+msgstr "НОВО"
+
+msgid "difficult/searching/body"
+msgstr "Не е налично по време на търсене."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Враговете имат по-ниска издръжливост и по-слаба броня. Стандартно количество данни на битка."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Враговете имат по-здрава броня. Данните за битка се увеличават с {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Има повече врагове с по-силна броня. Данните за битка се увеличават с {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Награди за унищожаване на последната вълна за първи път:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Нормална трудност"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Висока трудност"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Брутална трудност"
+
+msgid "difficult/tooltip/locked"
+msgstr "Отключена е трудност"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "За да отключите това ниво на трудност, завършете нормалното ниво на трудност."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "За да отключите това ниво на трудност, завършете високото ниво на трудност."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Достъпна трудност"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Избрана трудност"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Унищожени вълни: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "НОРМАЛНА"
+
+msgid "difficult/uppercase/level_2"
+msgstr "ВИСОКА"
+
+msgid "difficult/uppercase/level_3"
+msgstr "БРУТАЛНА"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Враговете имат по-здрава броня. Повече кредити и ×{{modifier}} данни на битка."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Повече врагове с по-здрава броня. Повече кредити и ×{{modifier}} данни на битка."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Бийте се и побеждавайте вълни от врагове и покажете своята мощ, като достигнете върха на класацията. Очакват ви уникални награди и много повече."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "ВИСОКО НИВО НА ТРУДНОСТ"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "БРУТАЛНО НИВО НА ТРУДНОСТ"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "РЕЖИМ ПОСЛЕДНА БИТКА"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "ВИСОКА"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "БРУТАЛНА"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "ПОСЛЕДНА БИТКА"
+
+msgid "difficultyWindow/rewards"
+msgstr "Награди за изпълнение:"
+
+msgid "difficultyWindow/title"
+msgstr "НАЛИЧНО"
+
+msgid "hangar/exit"
+msgstr "НАПУСНИ СЪБИТИЕТО"
+
+msgid "hangar/narration"
+msgstr "История"
+
+msgid "hangar/tooltip/about"
+msgstr "Научете повече за събитието \"Последна битка: Северна земя\"."
+
+msgid "hangar/tooltip/narration"
+msgstr "Научете повече за историята на събитието."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "ТАКТИЧЕСКИ УСТРОЙСТВА"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "ОБОРУДВАНЕ"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Последна битка"
+
+msgid "iconButton/comparison/default"
+msgstr "Сравнение на машини"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Сравнението на машини е недостъпно"
+
+msgid "iconButton/preview/default"
+msgstr "Преглед на машина"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Прегледът на машината е недостъпен"
+
+msgid "keyCard/name"
+msgstr "Ключове за дешифриране"
+
+msgid "meta/btn/decrypt"
+msgstr "ДЕШИФРИРАНЕ"
+
+msgid "meta/btn/skip"
+msgstr "ПРОПУСНИ"
+
+msgid "meta/btn/view"
+msgstr "ВИЖ"
+
+msgid "meta/receive/description"
+msgstr "Съберете %(keys) / %(decrypt) %(icon) \nза дешифриране на този запис"
+
+msgid "metaIntro/description/fight"
+msgstr "Участвайте в битки на събитието и печелете данни, за да напредвате в прогресията."
+
+msgid "metaIntro/description/progress"
+msgstr "Събирайте данни, за да изследвате подобрения на машините и да се справяте с по-големи предизвикателства."
+
+msgid "metaIntro/description/reward"
+msgstr "Завършете етапите на прогресията, за да получите специални награди за събитието. Вижте Пътя на наградата за повече подробности."
+
+msgid "metaIntro/header/fight"
+msgstr "Битки от събитието"
+
+msgid "metaIntro/header/progress"
+msgstr "Подобрения"
+
+msgid "metaIntro/header/reward"
+msgstr "Уникални награди"
+
+msgid "metaIntro/title"
+msgstr "НАПРЕДЪК"
+
+msgid "missionWidget/complete"
+msgstr "Мисията е изпълнена.\nВърнете се утре."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Изпълнете текущата ежедневна мисия, която е достъпна на всеки 24 часа, за да получите наградата. Днешната мисия:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Дневна мисия"
+
+msgid "narration/actions/voiceover"
+msgstr "Озвучаване"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}СТРОГО СЕКРЕТНО{{/}}{{titleParagraph}}{{@ class $highlightText}}СЕКТОР: N-07 (Периметър \"Аврора\"){{/}}{{pargraphStart}}Нашата прогноза беше правилна. Наблюдателите на станцията регистрираха приближаването на аномалията 11 дни преди събитието. За първи път я видяхме да идва.{{pargraphStart}}По време на затишието преди бурята, производството на комплекси АТЛАС беше стандартизирано. Новите модули се сглобяват по-бързо и се калибрират по-прецизно. Проведохме тренировки, преминахме през формации и подготвихме резервни отряди. Пълна готовност.{{pargraphStart}}Но аномалията имаше свои собствени планове.{{pargraphStart}}Фунията не се отвори в прогнозирания сектор. Тя се появи тук, в отдалечен северен регион, далеч от разположената инфраструктура. Не е ясно защо е избрано това място. Нищо в моделите не беше посочило тази област. Веднага беше започнато спешно предислоциране, но теренът и разстоянието не са в наша полза. Някои машини и отряди ще пристигнат късно.{{pargraphStart}}Всеки комплекс АТЛАС, който успяхме да доставим, вече е незаменим.{{pargraphStart}}Този път бяхме готови за бой. Но за бой на различно място.{{pargraphStart}}ПОДПИС: КУРАТОР (ПРОЕКТ M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Аналитична бележка 27/C \"ИЗБОР НА МЕСТОПОЛОЖЕНИЕ ЗА НАШЕСТВИЕ\"{{/}}{{titleParagraph}}За вътрешна употреба. Печат \"Ограничен достъп\".{{pargraphStart}}Задавам въпрос, на който съм длъжен да отговоря, но не мога: Защо тук?{{pargraphStart}}Този регион няма стратегическа стойност за Фунията. Тук няма нищо. Няма инфраструктура, няма селища. Само нефункционираща военна база на острова. Ехо танковете не могат да прекосят морето. Така че защо да превземат място, от което не могат да атакуват? {{pargraphStart}}Поисках пълната оперативна история на региона. Отговорът беше силно редактиран. Цели раздели бяха заличени. Втора заявка беше изпратена обратно с бележка \"достъпът е ограничен от авторизацията на {{@ class $highlightSecondaryText}}[ДАННИТЕ СА ПРЕМАХНАТИ]{{/}}.\" Аз, ръководителят на изследователския отдел, чиито препоръки определят отбранителната стратегия на този сектор, получавам отказ за информация за тази територия!{{pargraphStart}}Ето какво мога да заключа от полевите данни: поведението на Фунията не съответства на това, което наблюдавахме в сектор R-22. Появиха се нови видове ехо танкове, с които не сме се сблъсквали преди. Те съответстват по функция на нашите далекобойни ПТ-САУ и са изключително ефективни на този вид терен. Противникът се е поучил от нашите тактики и е предприел контрамерки. Сега е наш ред да се адаптираме.{{pargraphStart}}Може би се нуждае от това място. Или може би от това, което е под него.{{pargraphStart}}Не знам. И ме притеснява, че някой знае, но няма да каже.{{pargraphStart}}ПОДПИС: КУРАТОР (ПРОЕКТ M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}ЛИЧЕН ДОКЛАД НА КУРАТОРА{{/}}{{pargraphStart}}Прегледах собствените си хипотези. И трите.{{pargraphStart}}  1. Аномалията се стреми да ни унищожи. {{pargraphStart}}  2. Аномалията експериментира. Тя изследва нашите тактики, изучава нашия отговор, настройва се и се учи.{{pargraphStart}}  3. Аномалията се упражнява. Всяка вълна е тренировка на новите тактики; всяка битка е тренировка в полеви условия.{{pargraphStart}}И трите хипотези споделят предположението, че ние сме целта на това нашествие.{{pargraphStart}}Но какво ще стане, ако не сме?{{pargraphStart}}Ами ако аномалията прави нещо друго и ние просто ѝ пречим? Като мравуняк, наводнен, докато се строи път. Строителят не води война с мравките. Той просто не ги забелязва.{{pargraphStart}}Можеш да спреш враг, който иска да те унищожи. Можеш да преговаряш с него. Но не можеш да уплашиш нещо, което не признава съществуването ти; не можеш да го надхитриш. То не може да бъде спряно. Защото никога не си бил част от неговите изчисления.{{pargraphStart}}Мисля, че задаваме грешния въпрос. Не бива да питаме защо ни атакува, а дали изобщо ни забелязва.{{pargraphStart}}ПОДПИС: КУРАТОР (ПРОЕКТ M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}ОКОНЧАТЕЛЕН ДОКЛАД{{/}}{{titleParagraph}}{{@ class $highlightText}}СТАТУС: РАЗСЕКРЕТЕН (ЧАСТИЧНО){{/}}{{pargraphStart}}В 03:47, Фунията се срина. Активността на аномалията спря. Секторът е чист.{{pargraphStart}}В последните секунди преди срива, измервателните уреди АТЛАС регистрираха енергиен скок, надвишаващ всички регистрирани досега стойности. Екипажите наблюдаваха краткотрайно физическо проявление в центъра на аномалията, което продължи не повече от 12 секунди. След това Фунията се затвори. {{pargraphStart}}Официално изявление: Инцидентът е приключил. Територията е успешно защитена. Карантината е вдигната от сектора.{{pargraphStart}}{{@ class $highlightText}}ЛИЧНА БЕЛЕЖКА НА КУРАТОРА (Само за специални резерви){{/}}{{pargraphStart}}Не спечелихме. Свърши.{{pargraphStart}}Това не беше нашествие. Беше прикритие. Защитен периметър около това, което се появи в центъра на Фунията секунди преди нейното срутване.{{pargraphStart}}Десетки обелиски се появиха едновременно. Все още не знаем какво са правили. АТЛАС записа всички параметри, но ще отнеме време, за да ги интерпретираме. Знаем едно нещо почти със сигурност: аномалията е завършила някакъв процес.{{pargraphStart}}Каквото и да е правила, трябва да се подготвим за следващата атака. Вече имаме достатъчно данни. Нашите инженери вече преглеждат записите и, честно казано, никога не съм ги виждал толкова развълнувани. Мислят, че можем сериозно да подсилим машините си. Трябва да го направим, преди Фунията да се завърне. {{pargraphStart}}Не мога да спра да мисля за едно нещо: ако това се е случило тук и е продължило толкова кратко, колко пъти се е случвало преди? На места, където не е имало АТЛАС, нямало е кой да го види как се случва...{{pargraphStart}}ПОДПИС: КУРАТОР (ПРОЕКТ M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Бяхме готови"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Защо тук?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. Грешен въпрос"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Приключи."
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Завършете нормалното ниво на трудност, за да продължите към следващата част от историята."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Завършете високото ниво на трудност, за да продължите към следващата част от историята."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Завършете бруталното ниво на трудност, за да продължите към финалната част от историята."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Следваща история"
+
+msgid "preBattle/leave"
+msgstr "Изход от битка"
+
+msgid "preBattle/searching"
+msgstr "ТЪРСЕНЕ НА СЪЮЗНИЦИ..."
+
+msgid "preBattle/tip"
+msgstr "Отнема твърде много време, за да намерите оперативни сили? Опитайте да промените нивото на трудност."
+
+msgid "preBattle/uppercase/leave"
+msgstr "ИЗХОД ОТ БИТКА"
+
+msgid "promoWindow/header"
+msgstr "ИГРАЙ ПОСЛЕДНА БИТКА"
+
+msgid "promoWindow/subheader"
+msgstr "Разгледайте нова глава от PvE режима на игра \"Последна битка\" от {dateRange}.\nСпечелете набор от тематични {cream_open}триизмерни приставки{cream_close}, експериментално оборудване и още ексклузивни награди."
+
+msgid "questCard/allCompleted"
+msgstr "Всички дневни мисии са изпълнени"
+
+msgid "questCard/completed"
+msgstr "Дневната мисия е изпълнена.\nВърнете се утре."
+
+msgid "reward/rest"
+msgstr "И още %(count)s"
+
+msgid "rewardPath/about"
+msgstr "ЗА ЦЕЛИТЕ"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Научете повече за прогресията на събитието."
+
+msgid "rewardPath/boostTitle"
+msgstr "Ускорете напредъка си и спечелете повече данни {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Виж в Магазина"
+
+msgid "rewardPath/completed"
+msgstr "Всички данни и награди са получени"
+
+msgid "rewardPath/completedTitle"
+msgstr "Посетете Магазина за уникални тематични елементи за персонализация"
+
+msgid "rewardPath/intro"
+msgstr "ВЪВЕДЕНИЕ"
+
+msgid "rewardPath/introTooltip"
+msgstr "Гледайте въвеждащото видео."
+
+msgid "rewardPath/progress"
+msgstr "Данни, получени на ЕТАП {artefactIndex}: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "НАПРЕДЪК"
+
+msgid "rewardPathCard/completed"
+msgstr "Изпълнено"
+
+msgid "rewardPathCard/name"
+msgstr "Път на наградата"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Пакети за събитието"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Отмени"
+
+msgid "squad/goToAnother/message"
+msgstr "Взводът ще бъде разпуснат."
+
+msgid "squad/goToAnother/submit"
+msgstr "Излез"
+
+msgid "squad/goToAnother/title"
+msgstr "Напуснете събитието \"Последна битка: Северна земя\"?"
+
+msgid "squad/leave/cancel"
+msgstr "Отмени"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Взводът ще бъде разпуснат."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Тъй вярно!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Събитието \"Последна битка: Северна земя\" приключи"
+
+msgid "squad/leave/message"
+msgstr "Взводът ще бъде разпуснат."
+
+msgid "squad/leave/submit"
+msgstr "Излез"
+
+msgid "squad/leave/title"
+msgstr "Напуснете взвода в събитието \"Последна битка: Северна земя\"?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Продължи"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Вие сте във взвода и сте готови за битка."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Не можете да напуснете взвода!"
+
+msgid "stageReward/rewards/received"
+msgstr "Също така получени:"
+
+msgid "stageReward/special/header"
+msgstr "БРУТАЛНОТО НИВО НА ТРУДНОСТ Е ЗАВЪРШЕНО!"
+
+msgid "stageReward/special/subheader"
+msgstr "Получена е специална награда"
+
+msgid "stageReward/stage/header"
+msgstr "ПОЛУЧЕНИ СА НАГРАДИ"
+
+msgid "stageReward/stage/subheader"
+msgstr "Последна битка: Етап {{number}} е завършен"
+
+msgid "stageReward/stageFinal/header"
+msgstr "ВСИЧКИ НАГРАДИ СА ПОЛУЧЕНИ"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Последна битка: Финален етап е завършен"

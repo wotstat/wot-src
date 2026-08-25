@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "error/button"
+msgstr "Tikrai taip!"
+
+msgid "error/description"
+msgstr "Informacija laikinai nepasiekiama. Atsiprašome už nesklandumus. Pabandykite vėliau."
+
+msgid "error/title"
+msgstr "Negalima atidaryti prizų pasirinkimo"
+
+msgid "footer/closeBtn/label"
+msgstr "Pasirinkti vėliau"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "Pasirinkite apdovanojimą ir pateiktų kategorijų."
+msgstr[1] "Pasirinkite apdovanojimus ir pateiktų kategorijų."
+msgstr[2] "Pasirinkite apdovanojimus ir pateiktų kategorijų."
+
+msgid "footer/okBtn/label"
+msgstr "Pasiimti"
+
+msgid "footer/rewardsSelected"
+msgstr "Pasirinkti apdovanojimai:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "Pasirinkite apdovanojimą ir pateiktos kategorijos."
+msgstr[1] "Pasirinkite apdovanojimus ir pateiktos kategorijos."
+msgstr[2] "Pasirinkite apdovanojimus ir pateiktos kategorijos."
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "Pasiektas limitas"
+
+msgid "reward/state_received"
+msgstr "Jau gautas"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "Pasiektas limitas daiktų pasirinkimui iš šios kategorijos. Jūs galite tik pakeisti pasirinktus daiktus į kitus."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "Pasiektas limitas"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "Instrukcijos\nįrangai"
+
+msgid "tabs/items/battle_booster"
+msgstr "Instrukcijos įrangai"
+
+msgid "tabs/items/blueprint"
+msgstr "Brėžinių fragmentai"
+
+msgid "tabs/items/brochure"
+msgstr "Treniruočių lankstinukas"
+
+msgid "tabs/items/crewbook"
+msgstr "Treniruočių instrukcija"
+
+msgid "tabs/items/deluxe"
+msgstr "Pagerinta įranga"
+
+msgid "tabs/items/expequipments"
+msgstr "Eksperimentinė\nįranga"
+
+msgid "tabs/items/guide"
+msgstr "Treniruočių gidas"
+
+msgid "tabs/items/modernized_device"
+msgstr "Eksperimentinė įranga"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "Eksperimentinė įranga 1 lygio"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "Eksperimentinė įranga 2 lygio"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "Eksperimentinė įranga 3 lygio"
+
+msgid "tabs/items/new_device"
+msgstr "Standartinė įranga"
+
+msgid "tabs/items/trophy"
+msgstr "Trofėjinė įranga"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "Paspauskite mygtuką Pasiimti, norėdami gauti pasirinktus prizus."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "Pasirinkti apdovanojimai: %(white_open)s%(count)s%(white_close)s"

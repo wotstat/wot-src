@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "%(leftDetailedSeasonName)s kaujas ir beigušās"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Visos serveros ir spēkā Pamiers. Kaujas būs pieejamas pēc %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "%(leftDetailedSeasonName)s kaujas ir beigušās"
+
+msgid "alertMessage/allNotSet"
+msgstr "Šis režīms nav pieejams %(serverName)s serverī"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Izvēlieties Citu Serveri"
+
+msgid "alertMessage/notAvailable"
+msgstr "%(serverName)s serverī ir spēkā Pamiers"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "%(serverName)s serverī ir spēkā Pamiers"
+
+msgid "alertMessage/notSet"
+msgstr "Šis režīms nav pieejams %(serverName)s serverī"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Šajā serverī ir spēkā Pamiers. Kaujas būs pieejamas pēc %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "%(leftDetailedSeasonName)s kaujas ir beigušās"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Šis režīms nav pieejams %(serverName)s serverī"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Nav piemērota tanka"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Grafiks"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "REŽĪMS"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} — pārslēgšanās uz citu spēles režīmu"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "Režīms būs pieejams"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "Pamiers {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "Kaujas ir beigušās"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "Režīms vairs nav pieejams."
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "Režīms būs pieejams vēl {{timer}}"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s nevar cīnīties %(modeName)s kaujās."
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "Nesaderīgs Tanku Tips"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "Izvēlieties %(levelSubStr)s tanku, lai piedalītos %(modeName)s režīmā."
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "Nesaderīgs Tanku Līmenis"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "%(levels)s Līmeņa"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s nevar cīnīties %(modeName)s režīmā."
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "Nesaderīgs Tanks"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "Šajā serverī ir spēkā Pamiers. Lūdzu izvēlieties citu serveri."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "Došanās Kaujā Nav Pieejama"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "Šis režīms nav pieejams izvēlētajā serverī."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "Došanās Kaujā Nav Pieejama"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "%(subModeName)s kaujas ir beigušās"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "Došanās Kaujā Nav Pieejama"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "Mainiet režīmu vai izvēlieties tanku, kas atbilst prasībām."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "Tanks Nav Piemērots Režīmam"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "Izveidojiet taktisko vienību no 2 vai 3 spēlētājiem, lai sadarbotos %(modeName)s kaujās."
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "Vads"
+
+msgid "invite/text/detailedTitle"
+msgstr "Ielūgums Pievienoties \"%(detailedModeName)s\" Vadam"
+
+msgid "invite/tooltip/noVehicles"
+msgstr "Jums vajag vismaz vienu tanku jūsu Garāžā."
+
+msgid "lootboxTooltip/chance"
+msgstr "Izkrišanas iespēja: %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "Viena spēles lieta no zemāk esošā saraksta:"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "VISAS STADIJAS IZPILDĪTAS"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "PAŠREIZĒJĀS MISIJAS VISAS\nSTADIJAS IZPILDĪTAS"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "Nākamās Stadijas Balvas - Atslēdzas %(stagePoints)s Punktos"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "Nākamās Stadijas Balvas"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "%(time)s līdz aktīvās fāzes beigām"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "%(time)s līdz nākamajai palaišanai"
+
+msgid "modeSelector/notStarted"
+msgstr "Šis režīms sāksies drīzumā"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "UZ REŽĪMIEM"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "Nav pieejams tehnisku iemeslu dēļ"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "Jūs esiet izpildījuši visas pašreizējās misijas Stadijas"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "Balvas: %(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "Kaujas ir beigušās"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "Drīzumā"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "Tas sāksies pēc"
+
+msgid "modeSubSelector/subtitle"
+msgstr "IZVĒLĒTIES APAKŠREŽĪMU"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "Dev Visi posmi pabeigti"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "Dev Progresa atjauninājums"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "Pievienojies darbībai!"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "Meties cīņā!"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "Arkādes kabineta notikumi ir unikālas, ierobežota laika aktivitātes, kas piedāvā ko atšķirīgu! Cīnies ekskluzīvos režīmos ar spēli mainošiem noteikumiem, pildi misijas un nopelni retas balvas."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Tu esi pabeidzis Progresu"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "Dev Iegūsti pēc iespējas vairāk atlīdzību:"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "Iegūtie Dev punkti: {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "Izpildīts:"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "Atkārtojams"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Par pabeigšanu:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Par sakāvi:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Par uzvaru:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Punkti:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Saņemts:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "Visas pašlaik pieejamās misijas ir izpildītas."
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "Misijas parādīsies, kad sāksies progresija."
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "Pagaidām jūs esat izpildījis visas pieejamās misijas. Nākamajā rotācijā parādīsies vēl citas."
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "Pieejams vēl {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "Pieejams vēl {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "Jaunas misijas būs pieejamas pēc {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} statuss"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} misija"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "Visi posmi ir pabeigti."
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "Progresa atjauninājums"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "NEONA SKRĒJIENS"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "Finiša līnija gaida!"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "Vai esi gatavs sacensībām?"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "Neona Skrējiens ir unikāls, laika ierobežots pasākums, kas piedāvā kaut ko atšķirīgu! Sacensties un cīnies cauri bīstamiem maršrutiem, pildi misijas un nopelni balvas."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Šis režīms prasa augstu datora veiktspēju. Jums var rasties problēmas ar kartes ielādi, grafiku un tanku kustību. Nepietiekamas veiktspējas gadījumā mēģiniet izvēlēties zemāku grafikas kvalitāti iestatījumos."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Iespējama Samazināta Veiktspēja"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Šis režīms prasa augstu datora veiktspēju. Jums var rasties problēmas ar kartes ielādi, grafiku un tanku kustību. Nepietiekamas veiktspējas gadījumā mēģiniet izvēlēties zemāku grafikas kvalitāti iestatījumos."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Iespējama Samazināta Veiktspēja"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "Episka nejauša balva"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "Leģendāra nejauša balva"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "Parasta nejauša balva"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "Reta nejauša balva"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "Neparasta nejauša balva"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "Neona Skrējiena Misija - Stadijā: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "Jūsu progress tiek skaitīts jebkurā Neona Sprinta sacīkstē."
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "Neona Skrējiena Misija"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "Jūsu progress tiek skaitīts jebkurā Arkādes Kabineta apakšrežīmā."
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "līdz jauna Arkādes Kabineta misija ir pieejama"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15–30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "Cīnies līdz finišam šajā brīvajā sacīkšu režīmā."
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Visi līmeņi"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "Zemiem grafikas iestatījumiem var rasties vizuāli artefakti un problēmas. Mēs iesakām izvēlēties augstāko grafikas iestatījumu, lai nodrošinātu vislabāko iespējamo pieredzi, ja jūsu datora specifikācijas atbilst prasībām. Šis režīms prasa augstu datora veiktspēju. Intensīvas cīņas laikā FPS daudzums var samazināties."
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "Zemiem grafikas iestatījumiem var rasties vizuāli artefakti un problēmas. Mēs iesakām izvēlēties augstāko grafikas iestatījumu, lai nodrošinātu vislabāko iespējamo pieredzi, ja jūsu datora specifikācijas atbilst prasībām. Šis režīms prasa augstu datora veiktspēju. Intensīvas cīņas laikā FPS daudzums var samazināties."
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "Jauna Neona Skrējiena misija ir pieejama pēc:"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "%(subModeName)s apakšrežīms ir beidzies. Progress atiestatīts."
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "%(subModeName)s apakšrežīms ir beidzies."
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "Jaunas balvas un %(subModeName)s apakšrežīma ir pieejami."
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "Jauns apakšrežīms ir pieejams: %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "%(subModeName)s apakšrežīms nav pieejams apkopes dēļ."
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "%(subModeName)s apakšrežīms atkal ir pieejams."
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "Balvu Saraksts"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "Apsveicam!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "Jūs pabeidzāt Progresu"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "Apsveicam!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "Bezgalīgs progress"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "Jūs pabeidzāt galveno progresu."
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "Pabeidziet šo posmu tik reižu, cik vien iespējams."
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "Nopelnītie punkti: {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Nopelnīti punkti:"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "NEONA SKRĒJIENA MISIJAS"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "Izpildīts:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "Atkārtojams"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Par pabeigšanu:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Par sakāvi:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Par uzvaru:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Punkti:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Saņemts:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "Visas pašlaik pieejamās misijas ir izpildītas."
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "Misijas parādīsies, kad sāksies progresija."
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "Pagaidām jūs esat izpildījis visas pieejamās misijas. Nākamajā rotācijā parādīsies vēl citas."
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "Pieejams vēl {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "Pieejams vēl {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "Jaunas misijas būs pieejamas pēc {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} statuss"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} misija"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "LEĢENDĀRA BALVA SAŅEMTA"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "%(subModeName)s atkal ir pieejams."
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "Pitstops"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s ir beidzies."
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "Pitstops"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "Laiks uz pitstopu! %(subModeName)s sacīkstes uz laiku nav pieejamas."
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "Pitstops"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "Katra nejaušā balva ir viens priekšmets no zemāk esošā saraksta, kas tiek piešķirts ar noteiktu varbūtību."
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "Kas ir Iekšā?"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "Visi tanki ir pieejami Neona Skrējienam."
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "Neona Skrējiena Tanki"
+
+msgid "modes/fall_tanks/userName"
+msgstr "Neona Skrējiens"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "Visi posmi pabeigti"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "Progresa atjauninājums"
+
+msgid "modes/undefined/capsUserName"
+msgstr "ARKĀDES KABINETS"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s: %(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "Pievienojies darbībai!"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "Meties cīņā!"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "Arkādes kabineta notikumi ir unikālas, ierobežota laika aktivitātes, kas piedāvā ko atšķirīgu! Cīnies ekskluzīvos režīmos ar spēli mainošiem noteikumiem, pildi misijas un nopelni retas balvas."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Šis režīms ir prasīgs pret datorsistēmas veiktspēju. Jūs piedzīvosiet problēmas ar karšu ielādi, grafiku, bruņutehnikas pārvietošanos. Nepietiekamas veiktspējas gadījumā pamēģiniet zemākus grafikas iestatījumus."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Iespējama Samazināta Veiktspēja"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Šis režīms ir prasīgs pret datorsistēmas veiktspēju. Jūs piedzīvosiet problēmas ar karšu ielādi, grafiku, bruņutehnikas pārvietošanos. Nepietiekamas veiktspējas gadījumā pamēģiniet zemākus grafikas iestatījumus."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Iespējama Samazināta Veiktspēja"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "Episka nejauša balva"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "Leģendāra nejauša balva"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "Parasta nejauša balva"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "Reta nejauša balva"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "Neparasta nejauša balva"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "Arkādes Kabineta Misija - Stadijā: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "Jūsu progress tiek skaitīts jebkurā Arkādes Kabineta apakšrežīmā."
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "Arkādes Kabineta Misija"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "Jūsu progress tiek skaitīts jebkurā Arkādes Kabineta apakšrežīmā."
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "līdz jauna Arkādes Kabineta misija ir pieejama"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15v15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "Eksperimentālas kaujas ar nestandarta noteikumiem."
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Līmeņi&nbsp;%(levels)s"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "Zemiem grafikas iestatījumiem var rasties vizuāli artefakti un problēmas. Mēs iesakām izvēlēties augstāko grafikas iestatījumu, lai nodrošinātu vislabāko iespējamo pieredzi, ja jūsu datora specifikācijas atbilst prasībām. Šis režīms prasa augstu datora veiktspēju. Intensīvas cīņas laikā FPS daudzums var samazināties."
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "Zemiem grafikas iestatījumiem var rasties vizuāli artefakti un problēmas. Mēs iesakām izvēlēties augstāko grafikas iestatījumu, lai nodrošinātu vislabāko iespējamo pieredzi, ja jūsu datora specifikācijas atbilst prasībām. Šis režīms prasa augstu datora veiktspēju. Intensīvas cīņas laikā FPS daudzums var samazināties."
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "Jauna Arkādes Kabineta misija ir pieejama pēc:"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "%(subModeName)s apakšrežīms ir beidzies. Progresija atiestatīta."
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "%(subModeName)s apakšrežīms ir beidzies."
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "Jaunas balvas un %(subModeName)s apakšrežīma ir pieejami."
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "Jauns apakšrežīms ir pieejams: %(subModeName)s."
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "%(subModeName)s apakšrežīms nav pieejams apkopes dēļ."
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "%(subModeName)s apakšrežīms atkal ir pieejams."
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "Balvu Saraksts"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "Apsveicam!"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "Jūs pabeidzāt Progresiju"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "Apsveicam!"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "Atkārtojama Stadija"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "Jūs pabeidzāt Galveno Progresiju"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "Iegūsti pēc iespējas vairāk atlīdzību:"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "Nopelnītie punkti: {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Nopelnīti punkti:"
+
+msgid "modes/undefined/progression/title"
+msgstr "ARKĀDES KABINETA MISIJAS"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "Izpildīts:"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "Atkārtojams"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Par pabeigšanu:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Par sakāvi:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Par uzvaru:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Punkti:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Saņemts:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "Visas pašlaik pieejamās misijas ir izpildītas."
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "Misijas parādīsies, kad sāksies progresija."
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "Pagaidām jūs esat izpildījis visas pieejamās misijas. Nākamajā rotācijā parādīsies vēl citas."
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "Pieejams vēl {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "Pieejams vēl {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "Jaunas misijas būs pieejamas pēc {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} statuss"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} misija"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "LEĢENDĀRA BALVA SAŅEMTA"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "%(subModeName)s kaujas atkal ir pieejamas."
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "Pamiers"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s kaujas ir beigušās"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "Pamiers"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "Pamiers ir spēkā. %(subModeName)s kaujas īslaicīgi nav pieejamas."
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "Pamiers"
+
+msgid "modes/undefined/tierList/description"
+msgstr "Katra nejauša balva ir priekšmets no zemāk esošā saraksta, ko jūs variet saņemt ar noteiktu varbūtību."
+
+msgid "modes/undefined/tierList/title"
+msgstr "Kas ir Iekšā?"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "Rādīt/slēpt piemērotus tankus Arkādes Kabineta režīmam."
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "Arkādes Kabineta Tanki"
+
+msgid "modes/undefined/userName"
+msgstr "Arkādes Kabinetā"
+
+msgid "notification/congratulation"
+msgstr "Apsveicam!"
+
+msgid "notification/finishSubModes"
+msgstr "\"%(modeName)s\" pasākums ir beidzies."
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "%(subModesNames)s apakšrežīmi ir beigušies. Progresija atiestatīta."
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "%(subModesNames)s apakšrežīmi ir beigušies."
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "Nejauša balva"
+
+msgid "notification/newProgression"
+msgstr "Pasākuma progresija tika atiestatīta - jūs atkal variet saņemt balvas!"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "Pasākuma progresija tika atiestatīta. Jauni apakšrežīmi ir pieejami: %(subModesNames)s."
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "Jauni apakšrežīmi ir pieejami: %(subModesNames)s."
+
+msgid "notification/progressionComplete"
+msgstr "Jūs esiet izpildījuši visas pieejamās \"%(modeName)s\" misijas. Balva saņemta:"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "Jūs esiet izpildījuši visas pieejamās \"%(modeName)s\" misijas. Atkārtojama Stadija ir pieejama. Balva saņemta:"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "Progresija tiks atiestatīta pēc mazāk kā 1 dienas. Pēc tam jūs varēsiet atkal izpildīt misijas."
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "Progresija tiks atiestatīta pēc %(days)d dienām. Pēc tam jūs varēsiet atkal izpildīt misijas."
+
+msgid "notification/progressionStageComplete"
+msgstr "Jūs pabeidzāt \"%(modeName)s\" stadiju: %(stage)s. Balva saņemta:"
+
+msgid "notification/subModesSeparator"
+msgstr ", "
+
+msgid "notification/switchOffSubModes"
+msgstr "%(subModesNames)s apakšrežīmi nav pieejami apkopes dēļ."
+
+msgid "notification/switchOnSubModes"
+msgstr "%(subModesNames)s apakšrežīmi atkal ir pieejami."
+
+msgid "platoonView/title"
+msgstr "Vads: %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "Pieejams serveris: %(server)s."
+
+msgid "primeTimes/availableServers"
+msgstr "Pieejami serveri:"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "%(serverName)s\nServera Kaujas būs pieejamas pēc %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "%(serverName)s servera\n\"%(leftDetailedSeasonName)s\" kaujas ir beigušās."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "%(serverName)s\nServera Kaujas būs pieejamas vēl %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "%(serverName)s\nServera Kaujas būs pieejamas pēc %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "%(serverName)s servera\n\"%(leftDetailedSeasonName)s\" kaujas ir beigušās."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "%(serverName)s\nServera Kaujas būs pieejamas pēc %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "%(serverName)s servera\n\"%(leftDetailedSeasonName)s\" kaujas ir beigušās."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Visos serveros ir spēkā Pamiers.\nKaujas būs pieejamas pēc %(primeDelta)s"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" kaujas ir beigušās"
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "Šis režīms nav pieejams %(serverName)s serverī"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Pamiers ir spēkā %(serverName)s serverī līdz %(primeDeltaDate)s%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "%(serverName)s serverī ir spēkā Pamiers"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Šis režīms nav pieejams %(serverName)s serverī"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "%(serverName)s serverī ir spēkā Pamiers.\nKaujas būs pieejamas pēc %(primeDelta)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" kaujas ir beigušās"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Šis režīms nav pieejams %(serverName)s serverī"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Kaujas %(serverName)s serverī sāksies pēc %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" kaujas %(serverName)s serverī ir beigušās."
+
+msgid "primeTimes/timeText/available"
+msgstr "Kaujas %(serverName)s serverī būs pieejamas vēl %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Kaujas %(serverName)s serverī sāksies pēc %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" kaujas %(serverName)s serverī ir beigušās."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Kaujas %(serverName)s serverī sāksies pēc %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" kaujas %(serverName)s serverī ir beigušās."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "punkti"
+
+msgid "progression/complete/affirmative"
+msgstr "Sapratu!"
+
+msgid "progression/defaultCondition/text"
+msgstr "Pelniet Punktus un virzieties cauri Progresijai."
+
+msgid "progression/infinite/pointsEarned"
+msgstr "Nopelnīti punkti:"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "Aktīvā fāze ir beigusies. Kaujas ir beigušās."
+
+msgid "progression/questsList/quest/completed"
+msgstr "Pabeigts:"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "Atkārtojams"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "Par pabeigšanu:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "Par sakāvi:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "Par uzvaru:"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "Saņemts:"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "Aktīvā fāze beigsies pēc: {{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "Aktīvā fāze beigsies pēc:"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "Nākamā palaišana pēc:"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "Nākamās Stadijas Balvas - Atslēdzas %(count)d Punktos"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Jūs arī saņēmāt:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Sapratu!"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "Vada Komandieris pārgāja uz %(subModeName)s apakšrežīmu."
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "Apakšrežīma Maiņa"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Līmeņi&nbsp;%(levels)s"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "NEONA SKRĒJIENS"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "Sacenties uz finiša līniju un neļauj citiem to sasniegt. Izmanto Skrējiena un Vairoga spējas, lai radītu papildu haosu!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "Uzmanību: Kustīgas Platformas"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "Izvairies no lāzeriem un rūpīgi laiko lēcienus, lai ātri sasniegtu finišu!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "Uzmanību: Lāzeri un Lēcieni"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "uzzināt vairāk par šo režīmu"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "Nospiediet"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "Neona Skrējiens"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15–30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "Cīnies līdz\n finišam"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Visi līmeņi"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "Izmantojot zemos grafikas iestatījumus, var rasties vizuāli artefakti un citas problēmas. Mēs iesakām izvēlēties augstāko grafikas iestatījumu, lai nodrošinātu vislabāko pieredzi, ja vien jūsu datora specifikācijas atbilst prasībām. Šis režīms prasa augstu veiktspēju, un FPS ātrums var samazināties intensīvos brīžos."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "Izmantojot zemos grafikas iestatījumus, var rasties vizuāli artefakti un citas problēmas. Mēs iesakām izvēlēties augstāko grafikas iestatījumu, lai nodrošinātu vislabāko pieredzi, ja vien jūsu datora specifikācijas atbilst prasībām. Šis režīms prasa augstu datora veiktspēju. Jūsu FPS ātrums var samazināties intensīvos brīžos."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "Neona Skrējiens"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "Neona Skrējiens"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "Neona Skrējiens"
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Līmeņi&nbsp;%(levels)s"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "Zemiem grafikas iestatījumiem var rasties vizuāli artefakti un problēmas. Mēs iesakām izvēlēties augstāko grafikas iestatījumu, lai nodrošinātu vislabāko iespējamo pieredzi, ja jūsu datora specifikācijas atbilst prasībām. Šis režīms prasa augstu datora veiktspēju. Intensīvas cīņas laikā FPS daudzums var samazināties."
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "Zemiem grafikas iestatījumiem var rasties vizuāli artefakti un problēmas. Mēs iesakām izvēlēties augstāko grafikas iestatījumu, lai nodrošinātu vislabāko iespējamo pieredzi, ja jūsu datora specifikācijas atbilst prasībām. Šis režīms prasa augstu datora veiktspēju. Intensīvas cīņas laikā FPS daudzums var samazināties."
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Ieteicamie augstākie grafikas iestatījumi"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

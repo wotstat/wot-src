@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Permet de tirer une série d'obus du barillet un par un, chaque obus se rechargeant automatiquement au fil du temps."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Permet de tirer une série d'obus du barillet un par un, chaque obus se rechargeant automatiquement au fil du temps. Octroie un bonus à la vitesse de chargement du prochain obus pendant le rechargement."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Tire des rafales d'obus rapides pour infliger de gros dégâts en peu de temps, au prix de la pénétration et de la précision. Surtout efficace en combat rapproché."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Tire des obus étoilés qui infligent leur maximum de dégâts à une distance maximale de 50 m. Les dégâts de ces obus diminuent avec la distance, ce qui les rend surtout efficaces en combat rapproché."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Un système de refroidissement unique qui permet une double visée : attendre après le rechargement permet au canon de tirer plus précisément. Cette précision améliorée est indiquée par un deuxième cercle de visée, plus petit."
+
+msgid "abilities/common/description/dualGun"
+msgstr "Un système de canon jumelé avec la possibilité de tirer avec les deux tubes séparément ou en même temps. Les doubles tirs infligent des dégâts plus importants, mais entraînent un rechargement plus long."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Permet à la caisse du véhicule de changer ses angles d'élévation, ce qui offre davantage d'opportunités pour tirer depuis plus de positions en bataille. L'activation dépend de diverses conditions."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "Change la position des roues supplémentaires pour augmenter grandement la vitesse, au prix de la maniabilité. Idéal pour parcourir de grandes distances ou lors d'attaques rapides."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Permet de tirer une série d'obus du barillet avant de nécessiter un rechargement complet. Inflige des dégâts en rafale élevés, mais laisse le véhicule vulnérable pendant son rechargement. Il est uniquement possible de recharger tout le barillet d'un coup."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "Ce canon peut tirer en continu sans avoir besoin de recharger. Chaque tir génère de la chaleur : plus la température est élevée, plus certains de ses paramètres sont altérés. Tirer en continu peut entraîner une surchauffe du canon, l'empêchant alors de tirer tant qu'il n'a pas refroidi."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Augmente la puissance du moteur et la vitesse maximale pour se déplacer rapidement sur le champ de bataille. Lorsqu'ils sont actifs, les propulseurs réduisent la maniabilité et ils ne peuvent pas être désactivés manuellement."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "Lorsqu'il est activé, ce mode spécial augmente et/ou change certains paramètres de combat. Surtout utile une fois en position et prêt à engager l'ennemi."
+
+msgid "abilities/common/description/stun"
+msgstr "Étourdit les véhicules ennemis dans un certain rayon d'explosion, même sans impact direct, ce qui réduit temporairement leur mobilité, leur précision et leur temps de rechargement. Les véhicules ennemis étourdis sont marqués d'un indicateur d'étourdissement."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Permet au véhicule de se déplacer à faible vitesse lorsque la chenille principale est détruite. La perte d'une autre chenille extérieure réduit encore davantage la mobilité, mais le véhicule peut encore pivoter et se déplacer."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "Permet au véhicule de se déplacer bien plus rapidement tout en réduisant grandement les paramètres de maniement du canon."
+
+msgid "abilities/common/description/twinGun"
+msgstr "Lorsqu'il est activé, ce mode spécial inflige le double de dégâts et augmente et/ou change certains paramètres de combat. Surtout utile en combat rapproché."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Rechargement automatique"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "Rechargement automatique amélioré"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Canon automatique"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Canon profondément rayé"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Refroidissement du canon"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Canon jumelé"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Suspension hydropneumatique"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Mode rapide"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Barillet"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Canon automatique avec gestion de la surchauffe"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Propulseurs"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Mode tir"
+
+msgid "abilities/common/name/stun"
+msgstr "Étourdissement"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Chenille de réserve"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Mode turbo"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Mode de tir salve"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "En restant immobile ou en roulant lentement, vous accumulez des niveaux de précision pour améliorer la précision de votre prochain tir.\nAu niveau de précision le plus élevé, vous atteignez un maniement du canon correct, avec une dispersion réduite même en mouvement ou lors de la rotation de la caisse ou de la tourelle."
+
+msgid "abilities/special/description/battleFury"
+msgstr "Chaque fois que vous touchez un ennemi avec un obus, vous gagnez un niveau d'efficacité du rechargement qui accélère temporairement la vitesse de rechargement de votre canon. Les niveaux se cumulent à chaque tir. \nLa destruction d'un véhicule ennemi avec un obus octroie des niveaux d'efficacité du rechargement supplémentaires."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Si votre canon est chargé, vous pouvez commencer à chauffer votre prochain tir pour des dégâts accrus : plus le niveau de chauffe est élevé, plus l'effet est important.\nAu niveau de chauffe maximal, vous disposez de plusieurs secondes pour tirer, faute de quoi vous serez temporairement dans l'incapacité de tirer."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Effectuer deux tirs pénétrants sur des véhicules ennemis déclenche le mode rafale qui charge un chargeur de tir en rafale pour envoyer deux obus en une courte succession lors de votre prochain tir pour infliger d'énormes dégâts."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "Le Gyro-stabilisateur pneumatique octroie une stabilisation maximale en mouvement, lors de la rotation de la caisse et lors de la rotation de la tourelle pour effectuer des tirs plus précis, répondre rapidement aux menaces soudaines et engager efficacement l'ennemi en restant à couvert."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "Le système lance automatiquement le chargement d'un nouveau chargeur lorsqu'il ne reste qu'un obus dans le chargeur actuel, vous permettant de toujours être prêt à engager l'ennemI? Vous pouvez toujours tirer le dernier obus durant ce processus, mais faire cela ajoutera plusieurs secondes au temps de rechargement restant."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "Le système refroidit le canon, ce qui permet de tirer avec une grande précision. Le canon chauffe lorsqu'il tire, puis il commence à refroidir jusqu'à retrouver ses paramètres améliorés durant le rechargement. Plus la température est élevée, plus certains de ses paramètres sont altérés."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "S'appuyant sur l'expérience de conception de modèles précédents, ce véhicule est spécialement configuré pour des attaques par collision dévastatrices. Des renforts structurels lui permettent d'infliger davantage de dégâts en percutant les véhicules ennemis, lui donnant l'avantage lors des combats rapprochés."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "Le canon de ce véhicule peut tirer plus tôt : les tirs de charge unique, tirés pendant le rechargement, possèdent une efficacité réduite, tandis que les tirs de charge complète tirés une fois le rechargement terminé ont des paramètres balistiques optimaux."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "Ce canon peut tirer en continu sans avoir besoin de recharger. Chaque tir génère de la chaleur : plus la température est élevée, plus certains de ses paramètres sont altérés. Tirer en continu peut entraîner une surchauffe du canon, l'empêchant alors de tirer tant qu'il n'a pas refroidi."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Restez immobile ou roulez lentement pour accumuler de la préchauffe, ce qui augmente les dégâts et la précision de votre prochain tir. Au niveau de préchauffe maximal, pénétrer le blindage d'un ennemi ayant moins de PS que vos dégâts moyens déclenche une explosion de son râtelier de munitions, ce qui détruit le véhicule."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Ce mode transforme votre véhicule en une plateforme de tir fortifiée avec une précision supérieure et un temps de rechargement plus court. En échange de cette puissance de feu améliorée, la mobilité du véhicule (vitesse de marche avant/marche arrière et rotation verticale/horizontale) est grandement limitée."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Ce mode octroie une grande augmentation de la puissance du moteur et de la vitesse en marche avant. Plus vous roulez pendant longtemps, plus vous gagnez en vitesse, ce qui vous permet de filer sur le champ de bataille et de parcourir de grandes distances avec facilité."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "Le système accumule de la charge au fil du temps. Plus la charge est élevée, plus le bonus de dégâts est important. La charge est plafonnée par un limiteur, qui peut être désactivé pour obtenir un bonus de dégâts encore plus élevé, au prix d'une dégradation du maniement du canon."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "Activez les Propulseurs à carburant liquide à tout moment pour gagner en vitesse au moment où vous en avez le plus besoin. Les propulseurs chauffent et doivent être refroidis avant d'être réutilisés, et dépasser le niveau de chauffe critique les désactivera totalement pour un certain temps."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Des réacteurs à carburant solide renforçant l'accélération, la mobilité et la maniabilité pour plusieurs secondes. Les réacteurs gauche et droit peuvent fonctionner indépendamment l'un de l'autre pour faire pivoter la caisse plus rapidement, et sans l'empêcher d'utiliser la marche arrière."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "En fonction du mode actif et du niveau de charge, le véhicule peut activer une des deux capacités : \nPostcombustion à décharge ionique : augmente la puissance du moteur et la vitesse.\nCoïncidence du viseur électromécanique : réduit la dispersion ainsi que le temps de rechargement, et améliore la précision."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Cet élément vous garde dans le combat en vous permettant d'interrompre le rechargement à tout moment si au moins un obus est chargé. Appuyez sur la touche pour arrêter le rechargement, tirez après un court délai, puis reprenez manuellement le rechargement ou laissez le barillet se recharger automatiquement s'il est vide."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Appuyer sur le bouton d'activation fait tirer les armements auxiliaires sur la cible. Cette puissance de feu supplémentaire possède son propre cycle de rechargement, indépendant de celui du canon principal."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "Votre prochain tir applique un effet en fonction de l'état de détection de l'ennemi. Toucher un ennemi repéré le marquera, il restera repéré plus longtemps et subira davantage de dégâts. Toucher un ennemi non repéré mettra en avant son emplacement avec un marqueur spécial."
+
+msgid "abilities/special/description/twinGun"
+msgstr "Permet d'infliger le double de dégâts avec une stabilisation accrue au prix de la mobilité, de la précision, de la vitesse de rotation de la tourelle et du temps de visée. Idéal en combat rapproché."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Cette modification mécanique augmente considérablement l'accélération du véhicule, la puissance du moteur, ainsi que sa vitesse maximale en marche avant et arrière pendant une courte durée, ce qui vous permet de réagir rapidement aux attaques ennemies et de surprendre vos adversaires grâce à des manœuvres dynamiques."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Dispositif de calcul balistique analogique"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Râtelier de munitions semi-automatique"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Surcharge thermo-balistique"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Mode rafale"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Gyro-stabilisateur pneumatique"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Système de chargement du chargeur"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Refroidissement actif du canon"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Configuration pour collision"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "Système de charges multiples"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Canon automatique avec gestion de la surchauffe"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "Système de contrôle thermique du propulsif"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Mode casemate"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Entraînement direct"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "Postcombustion à induction"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Propulseurs à carburant liquide"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "Réacteurs séquentiels"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Bloc d'alimentation tactique"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Élément de ravitaillement en munitions externe"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Armement auxiliaire"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Indicateur de cible laser"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Mode de tir salve"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Assistance turbo haute pression"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Augmente la précision de votre prochain tir avec une stabilisation correcte après un étalonnage complet."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Chaque coup infligé à un véhicule ennemi accélère la vitesse de rechargement du canon pendant un certain temps."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Accumulez des niveaux de chaleur pour infliger davantage de dégâts aux véhicules ennemis à votre prochain tir."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "Un chargeur de tir en rafale qui vous permet de tirer deux obus en une courte rafale."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Maximise la stabilisation en mouvement et lors de la rotation pour un tir plus précis."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Commence automatiquement le rechargement au dernier obus qui peut malgré tout être tiré pendant le rechargement."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "Un système de refroidissement actif du canon qui améliore la précision quand le canon refroidit."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Augmente les dégâts par collision infligés aux véhicules ennemis."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "Une mécanique de canon spéciale qui permet de tirer plus tôt au prix de l'efficacité du tir."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "Ce système permet de tirer en continu sans avoir à recharger et il contrôle la chaleur que le canon génère quand il tire."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "Rester immobile ou avancer lentement augmente les dégâts et la précision du prochain tir."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Augmente énormément la précision du canon et la vitesse de rechargement, mais avec un gros impact négatif sur la mobilité."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Octroie un coup de pouce à la puissance du moteur, gagnant en vitesse de pointe tant que le véhicule reste en mouvement."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "Le système accumule de la charge pour augmenter les dégâts. Plus la charge est élevée, plus les dégâts augmentent."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "Les propulseurs peuvent être activés à tout moment pour une belle augmentation de la vitesse."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "Réacteurs à carburant solide qui boostent l'accélération, la mobilité et la maniabilité."
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Charge une des deux capacités uniques, augmentant la vitesse ou améliorant la précision du canon."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "Vous permet d'interrompre le rechargement et de riposter aux moments opportuns."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Des armements supplémentaires pour offrir davantage de puissance de feu en plus du canon principal."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Augmente la durée pendant laquelle les ennemis sont repérés et les dégâts qu'ils subissent ou les met en avant grâce à un marqueur spécial."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Permet de tirer simultanément avec les deux canons au prix d'un temps de rechargement plus grand."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "Une mécanique spéciale qui augmente la puissance du moteur, l'accélération et la vitesse maximale pendant une courte durée."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Rester immobile ou rouler sous une certaine vitesse permet à votre véhicule de calibrer son Dispositif de calcul balistique analogique et d'accumuler des niveaux de précision, augmentant ainsi la précision de votre prochain tir. Si vous dépassez la limite de vitesse, votre progression dans l'accumulation de niveaux de précision sera mise en pause tant que vous ne ralentirez pas. Au niveau de précision le plus élevé, votre véhicule gagne une stabilisation du canon correcte, avec une dispersion réduite en mouvement ainsi que lors de la rotation de la caisse ou de la tourelle. L'effet est retiré lorsque vous tirez."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "Chaque fois que vous touchez un ennemi visible avec un obus, vous gagnez un niveau d'efficacité du rechargement qui accélère temporairement la vitesse de rechargement de votre canon. Les niveaux se cumulent à chaque tir et la destruction d'un véhicule ennemi avec un obus octroie des niveaux d'efficacité du rechargement supplémentaires."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Si votre canon est chargé, vous pouvez commencer à chauffer votre prochain tir. Plus le niveau de chaleur atteint est élevé, plus le bonus aux dégâts moyens le sera également. Lors du processus de chauffe, vous ne pouvez pas changer de type d'obus. Lorsque vous atteignez le niveau maximal de chauffe, un compte à rebours commence. Si vous ne tirez pas avant la fin de celui-ci, vous ne pourrez pas tirer pendant plusieurs secondes."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Effectuer deux coups pénétrants sur des véhicules ennemis active le mode rafale, préparant un chargeur de tir en rafale qui vous permet de tirer rapidement deux obus à la suite lors du prochain tir."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "Le Gyro-stabilisateur pneumatique octroie une stabilisation maximale lors de la rotation de la caisse et de la tourelle pendant un court instant, ce qui permet de tirer plus précisément en mouvement et de mieux réagir aux menaces soudaines."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "Le système lance automatiquement le chargement d'un nouveau chargeur lorsqu'il ne reste plus qu'un obus dans l'actuel. Tirer le dernier obus alors que le nouveau chargeur est en cours de chargement ajoute plusieurs secondes au temps de rechargement restant. Appuyer sur la touche de raccourci pour Recharger le conteneur à obus retire tous les obus restants à l'exception du dernier. Appuyer deux fois sur la touche de raccourci réinitialisera le chargeur entièrement chargé."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "Le système refroidit le canon, ce qui permet de tirer avec une grande précision. Le canon chauffe lorsqu'il tire, puis il commence à refroidir jusqu'à retrouver ses paramètres améliorés durant le rechargement. Plus sa température est élevée, plus certains de ses paramètres sont altérés."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Ce véhicule est spécialement configuré pour les attaques par collision, grâce à une série de modifications de conception l'aidant à infliger plus de dégâts en percutant les véhicules ennemis."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "Le canon de ce véhicule peut tirer plus tôt : les tirs de charge unique, tirés pendant le rechargement, possèdent une efficacité réduite, tandis que les tirs de charge complète tirés une fois le rechargement terminé ont des paramètres balistiques optimaux."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "Ce canon peut tirer en continu sans avoir besoin de recharger. Chaque tir génère de la chaleur : plus la température est élevée, plus certains de ses paramètres sont altérés. Tirer en continu peut entraîner une surchauffe du canon, l'empêchant alors de tirer tant qu'il n'a pas refroidi."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "Rester immobile ou rouler sous une certaine vitesse génère de la préchauffe qui augmente les dégâts moyens et la précision de votre prochain tir. Dépasser la limite de vitesse réduit progressivement le bonus, tandis que tirer ou changer d'obus le réinitialise immédiatement. Au niveau maximal de préchauffe, la pénétration du blindage d'un véhicule ennemi ayant moins de points de structure que vos dégâts moyens (en prenant en compte le bonus de préchauffe accumulée) entraînera l'explosion de son râtelier, détruisant instantanément le véhicule."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "Dans ce mode, la précision du canon, la vitesse de rechargement ainsi que les angles de dépression et d'élévation sont grandement augmentés, tandis que la mobilité (vitesse en marche avant/marche arrière et vitesse de pivot vertical/horizontal) devient très limitée. Les valeurs en pourcentage sont données à titre de comparaison avec le mode tir."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "Le mode entraînement direct octroie une grande augmentation de la puissance du moteur et de la vitesse maximale en marche avant. Plus vous roulez en marche avant pendant longtemps, plus vous gagnez en vitesse, ce qui vous permet de traverser le champ de bataille avec facilité."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "Au fil du temps, le système accumule automatiquement une charge qui est partiellement consommée pour booster les dégâts lors du tir. Plus la charge est élevée, plus le bonus aux dégâts est important. Par défaut, le système accumule de la charge jusqu'à une certaine limite. Désactiver cette limite permet d'accumuler davantage de charge pour un bonus aux dégâts bien plus important, au prix d'un maniement du canon réduit."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "Les Propulseurs à carburant liquide confèrent une poussée à la puissance du moteur, ce qui vous permet de prendre un avantage positionnel sur le champ de bataille, mais en limitant la vitesse en marche avant et en marche arrière de votre véhicule. Ils peuvent être activés ou désactivés à tout moment, sauf après avoir atteint la limite de réactivation. Les propulseurs chauffent tant qu'ils sont actifs et ils deviennent indisponibles jusqu'à la fin du refroidissement, ils ne peuvent donc pas être utilisés en continu, et dépasser le niveau de chauffe critique les désactivera totalement pendant un moment. Prévoyez vos mouvements attentivement pour éviter de vous faire surprendre."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "Des réacteurs à carburant solide qui améliorent l'accélération, la mobilité et la maniabilité du véhicule pendant plusieurs secondes. Contrairement aux propulseurs standards, les réacteurs gauche et droit peuvent fonctionner indépendamment l'un de l'autre pour faire pivoter la caisse plus rapidement, et sans l'empêcher d'utiliser la marche arrière. Ils peuvent être utilisés à plusieurs reprises en bataille, mais ils nécessitent un temps de rechargement avant d'être réactivés."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "En fonction du mode actif et du niveau de charge, le véhicule peut activer une des deux capacités : Postcombustion à décharge ionique ou Coïncidence du viseur électromécanique.\nPostcombustion à décharge ionique augmente temporairement la puissance du moteur, la vitesse maximale en marche avant et celle en marche arrière. Coïncidence du viseur électromécanique augmente temporairement la précision et réduit le temps de rechargement."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "L'Élément de ravitaillement en munitions externe vous permet d'interrompre le rechargement et de commencer à tirer à tout moment, tant qu'il vous reste au moins un obus chargé. Durant le rechargement, cet élément verrouille la tourelle du véhicule et les capsules de munitions externes, ce qui vous empêche temporairement de viser et de tirer, à moins de l'interrompre."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "Ce véhicule est équipé d'un ensemble d'armements auxiliaires avec un cycle de rechargement à part de celui du canon principal, ce qui vous permet d'infliger des dégâts supplémentaires aux moments opportuns."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "L'Indicateur de cible laser ajoute un effet spécial à votre prochain tir, appliqué à n'importe quel ennemi que vous touchez. L'effet varie selon que l'ennemi est repéré ou non au moment de l'impact. Toucher un véhicule ennemi repéré le marquera, prolongeant la durée pendant laquelle il reste repéré et augmentant les dégâts qu'il subit par les obus, tandis que toucher un ennemi non repéré marquera son emplacement avec un marqueur spécial."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "Permet d'infliger le double de dégâts avec une stabilisation accrue au prix de la mobilité, de la précision, de la vitesse de rotation de la tourelle et du temps de visée. Idéal en combat rapproché."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Cette modification mécanique augmente considérablement l'accélération du véhicule, la puissance du moteur, ainsi que sa vitesse maximale en marche avant et arrière pendant une courte durée, ce qui vous permet de réagir rapidement aux attaques ennemies et de surprendre vos adversaires grâce à des manœuvres dynamiques. Maintenir une vitesse de déplacement élevée accélère le rechargement de la mécanique."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Toutes les valeurs affichées correspondent au maximum possible pour ce véhicule. L'équipement, les directives et les consommables peuvent modifier ces valeurs, mais ces changements ne sont pas reflétés ici."
+
+msgid "characteristics/templates/upTo"
+msgstr "Jusqu'à %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Acheter et installer"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Amélioration de terrain"
+
+msgid "modules/controls/button/mount"
+msgstr "Installer"
+
+msgid "modules/controls/button/research"
+msgstr "Rechercher"
+
+msgid "modules/controls/button/sell"
+msgstr "Vendre depuis le dépôt"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Ce véhicule est en bataille. Vous pourrez modifier ses éléments quand la bataille sera terminée."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Ce véhicule est endommagé. Réparez-le pour pouvoir modifier ses éléments."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Impossible d'installer l'élément. {{module}} incompatible."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Ce véhicule est dans une unité tactique."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "Achetez ce véhicule pour pouvoir modifier ses éléments."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "Recherchez les éléments précédents pour pouvoir rechercher cet élément."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "Recherchez ce véhicule pour pouvoir rechercher ses éléments."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Tous les éléments ont été recherchés."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Cet élément est déjà installé."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Sélectionnez un élément ou un véhicule à rechercher."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Ce véhicule est en bataille. Vous pourrez modifier ses éléments quand la bataille sera terminée."
+
+msgid "modules/controls/name"
+msgstr "Sélectionné : {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Châssis"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Moteur"
+
+msgid "modules/name/vehicleGun"
+msgstr "Canon"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Radio"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Tourelle"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Roues"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Véhicules de collection"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Possibilité de gagner"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "de crédits à chaque bataille"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "transfert de l'équipage sans pénalité"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "d'EXP. de bataille et d'EXP. d'équipage"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Obligations"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Plus"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Gratuit"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Plus"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Obtenir des obligations"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Plus de crédits"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Transfert gratuit"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Plus d'expérience"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Kit de réparation gratuit"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Possibilité de gagner"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "de crédits à chaque bataille"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "transfert de l'équipage depuis n'importe quelle classe de véhicules sans pénalité"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "d'EXP. de bataille et d'EXP. d'équipage"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "d'obligations"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Plus"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Gratuit"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Plus"
+
+msgid "overview/crew/name"
+msgstr "Équipage {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Voir la mécanique"
+
+msgid "overview/title/generalDescription"
+msgstr "Description du véhicule"
+
+msgid "overview/title/historicalReference"
+msgstr "Référence historique"
+
+msgid "researchPurchase/discountTimer"
+msgstr "Jusqu'au {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "Récupération disponible jusqu'au {{date}}"
+
+msgid "tabs/armor"
+msgstr "Blindage"
+
+msgid "tabs/modules"
+msgstr "Éléments"
+
+msgid "tabs/overview"
+msgstr "Résumé"
+
+msgid "tabs/stats"
+msgstr "Caractéristiques"
+
+msgid "tabs/vehSkillTree"
+msgstr "Améliorations"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "Location terminée"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Abonnement suspendu"

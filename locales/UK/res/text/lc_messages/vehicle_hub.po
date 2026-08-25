@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Стріляє чергою снарядів із магазина з автоматичним перезарядженням кожного набою з часом."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Стріляє чергою снарядів із магазина з автоматичним перезарядженням кожного набою з часом. Гарантований бонус до швидкості заряджання наступного снаряда впродовж перезаряджання."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Вистрілює швидку чергу снарядів для заподіяння високої шкоди за короткий проміжок часу ціною зниження бронепробиття і влучності. Найефективніший на ближній дистанції."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Вистрілює зіркоподібними снарядами, які завдають максимальної шкоди на відстані до 50 м. Шкода снаряда зменшується з відстанню, що робить їх ефективнішими на ближній дистанції."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Унікальна система охолодження ствола дає змогу використовувати подвійне прицілювання: якщо ствол встигне охолонути після пострілу, його влучність збільшується, що позначається другим, меншим колом зведення."
+
+msgid "abilities/common/description/dualGun"
+msgstr "Система спарених гармат, яка дає змогу вистрілювати з обох стволів одночасно або окремо. Дуплети завдають високої шкоди, але перезаряджання після них довше."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Дозволяє нахилити корпус машини, що вможливлює вогонь із різноманітних позицій у бою. Активація залежить від різних умов."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "Змінює положення додаткових коліс, щоб відчутно збільшити швидкість ціною зниження маневровості. Найефективніше використовувати для пересування великими відстанями чи раптових атак."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Стріляє серією снарядів із магазина, після чого потребує повного перезаряджання. Завдає високої шкоди за магазин, але робить машину беззахисною на час перезаряджання. Перезаряджає весь магазин за раз."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "Гармата може вести безперервний вогонь без потреби в перезаряджанні. Кожен постріл нагріває її: що вища температура, то більше змінюються певні параметри. Тривалий вогонь призводить до перегрівання, після чого стрільба стає неможливою, доки гармата не охолоне."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Збільшує потужність двигуна та максимальну швидкість для швидкого переміщення полем бою. Під час активації реактивні прискорювачі зменшують маневровість і не можуть бути вимкнені вручну."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "Після активації цей особливий режим збільшує і/або змінює певні характеристики машини. Найкраще активувати, коли ви перебуваєте на позиції й готові вести вогонь по супротивнику."
+
+msgid "abilities/common/description/stun"
+msgstr "Оглушує машини супротивника в певному радіусі навіть без прямого влучення, погіршуючи їхню рухливість, влучність і швидкість перезаряджання. Оглушені супротивники позначені спеціальним індикатором."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Дозволяє продовжити рух на низькій швидкості після втрати основної гусениці. Втрата другої зовнішньої гусениці знижує рухливість іще сильніше, але машина досі зможе рухатися й повертатися."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "Дозволяє машині рухатися значно швидше, але гармата стає помітно менш зручною."
+
+msgid "abilities/common/description/twinGun"
+msgstr "Після активації цей особливий режим подвоює завдану шкоду, а також збільшує і/або змінює певні параметри бою. Найкраще активувати під час бою на ближній дистанції."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Дозаряджання магазину"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "Допрацьована система дозаряджання"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Автоматична гармата"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Гармата з глибоким нарізом"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Охолодження гармати"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Спарені гармати"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Гідропневматична підвіска"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Швидкий режим"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Автомат заряджання"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Автоматична гармата із системою контролю нагріву"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Реактивні прискорювачі"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Облоговий режим"
+
+msgid "abilities/common/name/stun"
+msgstr "Оглушення"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Резервна гусениця"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Турбо-режим"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Залповий режим"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "Залишаючись нерухомими або рухаючись повільно, ви накопичуєте рівні точності, які поліпшують влучність наступного пострілу.\nНа максимальному рівні точності ви отримуєте комфортну гармату зі зменшеним розкидом навіть під час руху чи обертання башти/корпусу."
+
+msgid "abilities/special/description/battleFury"
+msgstr "Кожне влучення по машині суперника дає рівень ефективності перезаряджання, тимчасово пришвидшуючи заряджання гармати. Рівні накопичуються з кожним влученням. \nЗнищення машини дає додаткові рівні ефективності перезаряджання."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Якщо гармата заряджена, можна почати нагрів наступного пострілу, щоб підвищити шкоду — що вищий рівень нагріву, то сильніший ефект.\nНа максимальному нагріві у вас є кілька секунд на постріл — інакше ведення вогню тимчасово стане недоступне."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Два пробиття броні машин суперника активують залповий режим: заряджається магазин для залпового вогню, який дозволяє випустити два снаряди поспіль, завдаючи нищівної шкоди."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "Пневматичний гіростабілізатор забезпечує максимальну стабілізацію під час руху, обертання корпусу й башти, що дає змогу стріляти точніше, оперативно реагувати на загрози та ефективно вести вогонь з укриття."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "Система автоматично починає заряджання нової касети, коли в поточній залишається один снаряд. Ви все ще можете вистрілити останній снаряд, але це додасть кілька секунд до часу перезаряджання."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "Система охолоджує гармату, дозволяючи вести точний вогонь. Під час стрільби гармата нагрівається, але починає охолоджуватися й повертається до поліпшених параметрів під час перезаряджання. Що вища температура, то більше змінюються окремі параметри."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "Ця машина створена на основі попередніх моделей і спеціально налаштована для смертельних таранів. Посилена конструкція дозволяє завдавати більшої шкоди тараном, що дає перевагу в ближньому бою."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "Гармата машини здатна стріляти завчасно: постріли з одним зарядом під час перезаряджання мають знижену ефективність, водночас постріли з повним зарядом після перезаряджання мають оптимальні балістичні параметри."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "Гармата може вести безперервний вогонь без потреби в перезаряджанні. Кожен постріл нагріває її: що вища температура, то більше змінюються певні параметри. Тривалий вогонь призводить до перегрівання, після чого стрільба стає неможливою, доки гармата не охолоне."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Залишайтеся нерухомими або рухайтеся повільно, щоб накопичувати розігрів, підвищуючи шкоду й точність наступного пострілу. На максимальному розігріві пробиття суперника з меншим запасом міцності, ніж ваша середня шкода, спричиняє детонацію боєукладки й знищення машини."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Цей режим перетворює вашу машину на укріплену вогневу платформу, що дає кращу точність і швидше перезаряджання. Утім, ціна за посилену вогневу міць — різке зниження рухливості: обмеження швидкості вперед/назад і вертикального/горизонтального обертання."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Цей режим суттєво підвищує потужність двигуна й максимальну швидкість уперед. Що довше ви їдете вперед, то вища швидкість — ви зможете стрімко перетинати поле бою та без зусиль долати великі відстані."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "Система накопичує заряд із часом, і що він більший, то вищий бонус до шкоди. Заряд має обмеження, яке можна вимкнути, щоб отримати ще більший бонус до шкоди коштом гіршої керованості гармати."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "Активуйте рідинні прискорювачі, коли вам терміново потрібен ривок швидкості. Прискорювачі нагріваються й потребують охолодження перед повторним використанням. У разі досягнення критичного рівня нагріву вони на деякий час повністю вимикаються."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Твердопаливні прискорювачі, що підсилюють прискорення, рухливість і маневровість на кілька секунд. Лівий і правий прискорювачі можуть працювати окремо для швидшого повороту корпусу й не обмежують швидкість заднього ходу."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "Залежно від активного режиму й рівня заряду машина може активувати одне з двох умінь: \nІонний форсаж: підвищує потужність двигуна й швидкість. \nЕлектромеханічний далекомір: зменшує розкид і час перезаряджання, поліпшує точність."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Цей модуль дозволяє вам залишатися в бою, даючи змогу будь-коли перервати перезаряджання, якщо заряджено хоча б один снаряд. Натисніть на гарячу клавішу, щоб зупинити перезаряджання, після короткої затримки зробіть постріл, а потім або вручну поновіть заряджання, або дочекайтеся автоматичного перезаряджання магазину."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Натискання кнопки активації запускає допоміжне озброєння вашої машини, що починає вести вогонь по цілі. Ця додаткова вогнева міць має власний цикл перезаряджання — незалежний від основної гармати."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "Наступний постріл накладає ефект залежно від статусу виявлення цілі. Потрапляння по поміченому супернику накладає позначку — він довше залишатиметься виявленим й отримуватиме більше шкоди. Влучення в невиявлену машину позначить її спеціальним маркером."
+
+msgid "abilities/special/description/twinGun"
+msgstr "Дає змогу завдати подвоєної шкоди й поліпшує стабілізацію гармати ціною рухливості, влучності, швидкості повороту башти та часу зведення. Найкраще використовувати на ближніх дистанціях."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Ця механічна модифікація на короткий час значно підвищує прискорення машини, потужність двигуна й максимальну швидкість руху вперед і назад, дозволяючи швидко реагувати на дії супротивника й захоплювати того зненацька завдяки динамічним маневрам."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Аналоговий балістичний обчислювач"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Напівавтоматична боєукладка"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Термобалістичний надзаряд"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Залповий режим"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Пневматичний гіростабілізатор"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Касетна система заряджання"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Система активного охолодження гармати"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Таранна конфігурація"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "Багатозарядна система заряджання"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Автоматична гармата із системою контролю нагріву"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "Система термоконтролю заряду"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Режим дота"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Прямий привід"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "Індукційний допалювач снаряда"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Рідинні прискорювачі"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "Послідовні ракетні прискорювачі"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Тактичне посилення"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Зовнішній модуль подачі боєприпасів"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Допоміжне озброєння"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Лазерний цілевказівник"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Режим залпового вогню"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Допоміжний турбонагнітач високого тиску"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Підвищує точність наступного пострілу завдяки відмінній стабілізації на повному калібруванні."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Кожне влучення в машину супротивника на короткий час прискорює перезаряджання гармати."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Накопичуйте розігрів, щоб завдати більшої шкоди наступним пострілом."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "Касета залпового вогню дозволяє зробити два постріли поспіль."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Максимальна стабілізація під час руху й обертання — для влучної стрільби."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Автоматичне заряджання, якщо залишився один снаряд. Його можна використати, але це сповільнить перезаряджання."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "Система активного охолодження гармати, що підвищує точність у міру охолодження."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Збільшує шкоду тараном, яку ви завдаєте техніці супротивника."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "Особлива механіка гармати, що дозволяє стріляти завчасно коштом ефективності пострілу."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "Система дає змогу вести безперервний вогонь без перезаряджання й контролює нагрівання під час стрільби."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "Стояння на місці або повільний рух підвищують шкоду й точність наступного пострілу."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Суттєво поліпшує точність гармати й швидкість перезаряджання, але значно обмежує рухливість."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Забезпечує приріст потужності двигуна — що довше машина рухається, то вищою стає її максимальна швидкість."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "Система накопичує заряд для збільшення шкоди. Що більший заряд, то більша шкода."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "Прискорювачі, які можна активувати в будь-яку мить для різкого ривка."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "Твердопаливні прискорювачі, що підсилюють прискорення, рухливість і маневровість."
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Заряджає одну з двох унікальних здібностей — для підвищення швидкості або поліпшення точності гармати."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "Дозволяє перервати перезаряджання й відкрити вогонь у критичний момент."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Додаткове озброєння, що підсилює основну гармату."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Збільшує тривалість виявлення супротивників і шкоду, яку вони отримують, або позначає їх спеціальним маркером."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Дозволяє вести вогонь із двох гармат одночасно, але збільшує час перезаряджання."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "Особлива механіка, що на короткий час підвищує потужність двигуна, прискорення й максимальну швидкість."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Залишаючись на місці чи рухаючись із невеликою швидкістю, ваша машина калібрує аналоговий балістичний обчислювач і накопичує рівні точності, які поліпшують влучність наступного пострілу. Якщо перевищити допустиму швидкість, прогрес калібрування призупиниться, доки ви не сповільнитеся. На найвищому рівні точності машина отримує добру стабілізацію гармати зі зниженим розкидом під час руху чи обертання башти/корпусу. Ефект зникає після пострілу."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "Кожне влучення по видимій машині суперника дає рівень ефективності перезаряджання, тимчасово пришвидшуючи заряджання гармати. Рівні накопичуються з кожним влученням. Знищення машини пострілом дає додаткові рівні ефективності перезаряджання."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Якщо гармата заряджена, ви можете розпочати нагрів наступного пострілу. Що вищий рівень нагріву, то вищим буде бонус до середньої шкоди. Під час нагріву не можна змінювати тип снаряда. Після досягнення максимального рівня нагріву запускається таймер — якщо не зробити постріл до його завершення, кілька секунд не можна буде стріляти."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Після двох пробиттів броні машин супротивника активується залповий режим, що заряджає залпову касету й дозволяє зробити два швидкі постріли поспіль."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "Пневматичний гіростабілізатор забезпечує максимальну стабілізацію під час обертання корпусу й башти протягом короткого часу, що дозволяє точніше стріляти на ходу та швидше реагувати на раптові загрози."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "Система автоматично починає заряджання нової касети, коли в поточній залишається один снаряд. Якщо ви стріляєте останнім снарядом під час заряджання, до часу перезаряджання додається кілька секунд. Натискання на гарячу клавішу «Перезарядити касету» скидає всі снаряди, крім останнього. Натисніть на клавішу двічі, щоб скинути повністю заряджену касету."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "Система підтримує охолодження гармати, дозволяючи вести точний вогонь. Гармата нагрівається під час стрільби, але починає охолоджуватися й повертається до поліпшених параметрів під час перезаряджання. Що вища температура, то більше змінюються окремі параметри."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Ця машина спеціально сконструйована для зіткнень: низка інженерних модифікацій дозволяє завдавати супротивнику більшої шкоди тараном."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "Гармата машини здатна стріляти завчасно: постріли з одним зарядом під час перезаряджання мають знижену ефективність, водночас постріли з повним зарядом після перезаряджання мають оптимальні балістичні параметри."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "Гармата може вести безперервний вогонь без потреби в перезаряджанні. Кожен постріл нагріває її: що вища температура, то більше змінюються певні параметри. Тривалий вогонь призводить до перегрівання, після чого стрільба стає неможливою, доки гармата не охолоне."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "Залишаючись нерухомими чи рухаючись нижче певної швидкості, ви накопичуєте розігрів, що підвищує середню шкоду й точність наступного пострілу. Перевищення допустимої швидкості поступово зменшує бонус, а постріл чи зміна типу снаряда повністю його скидає. На максимальному рівні розігріву пробиття супротивника, чий запас міцності менший за вашу середню шкоду (з урахуванням бонусу), спричиняє вибух боєукладки, миттєво знищуючи машину."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "У цьому режимі значно підвищуються точність гармати, швидкість перезаряджання й кути нахилу, але різко знижується рухливість (швидкість уперед/назад і швидкість горизонтального/вертикального обертання). Значення у відсотках наведені в порівнянні з облоговим режимом."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "Режим прямого приводу значно підвищує потужність двигуна й максимальну швидкість уперед. Що довше ви рухаєтеся вперед, то вищою стає ваша швидкість, і це дозволяє стрімко перетинати поле бою."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "З часом система автоматично накопичує заряд, який частково витрачається для підвищення шкоди під час пострілу. Що вищий заряд, то більший бонус до шкоди. За стандартних налаштувань система накопичує заряд лише до певного ліміту. Вимкнення обмежувача дозволяє накопичувати ще більший заряд, що значно підвищує бонус до шкоди, але погіршує керованість гармати."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "Рідинні прискорювачі надають короткочасний приріст потужності двигуна, дозволяючи отримати позиційну перевагу. Водночас зменшуються швидкість руху назад і швидкість обертання. Прискорювачі можна вмикати й вимикати будь-коли, окрім як у разі досягнення обмеження повторної активації. Увімкнені прискорювачі нагріваються та стають недоступними, доки не охолонуть, тобто вони не можуть працювати безперервно. Якщо перевищити критичний рівень нагріву, прискорювачі на деякий час повністю вимикаються. Плануйте свої дії, щоб не залишитися без них у критичний момент."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "Твердопаливні прискорювачі, що підсилюють прискорення, рухливість і маневровість на кілька секунд. Лівий і правий прискорювачі можуть працювати окремо для швидшого повороту корпусу й не обмежують швидкість заднього ходу. Їх можна використовувати кілька разів за бій, але після активації потрібен час на відновлення."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "Залежно від активного режиму й рівня заряду машина може активувати одну з двох здібностей: Іонний форсаж чи Електромеханічний далекомір.\nІонний форсаж тимчасово збільшує потужність двигуна та максимальну швидкість уперед і назад. Електромеханічний далекомір тимчасово підвищує точність і зменшує час перезаряджання."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "Зовнішній модуль подачі боєприпасів дозволяє перервати перезаряджання й відкрити вогонь у будь-яку мить, якщо заряджено хоча б один снаряд. Під час перезаряджання модуль блокує башту та зовнішні боєукладки, тимчасово забороняючи наводитися чи стріляти, якщо ви не перервете процес вручну."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "Машина оснащена допоміжним озброєнням, цикл перезаряджання якого не залежить від основної гармати, що дозволяє завдавати додаткової шкоди у вирішальні моменти."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "Лазерний цілевказівник накладає спеціальний ефект із наступним пострілом, який активується під час влучання. Ефект відрізняється для виявлених та невиявлених машин супротивника. Якщо ціль уже виявлена, її буде позначено, завдяки чому вона довше залишатиметься поміченою та отримуватиме більше шкоди. Якщо ж ціль була невиявленою, на мапі з'явиться спеціальний маркер її місцеперебування."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "Дає змогу завдати подвоєної шкоди й поліпшує стабілізацію гармати коштом рухливості, влучності, швидкості повороту башти та часу зведення. Найкраще використовувати на ближніх дистанціях."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Ця механічна модифікація на короткий час значно підвищує прискорення машини, потужність двигуна й максимальну швидкість руху вперед і назад, дозволяючи швидко реагувати на дії супротивника й захоплювати того зненацька завдяки динамічним маневрам. Рух на високій швидкості пришвидшує відновлення механіки."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Усі наведені значення є максимально можливими для машини. Обладнання, настанови й спорядження можуть змінювати показники, однак такі зміни тут не відображено."
+
+msgid "characteristics/templates/upTo"
+msgstr "До %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Купити та встановити"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Польова модернізація"
+
+msgid "modules/controls/button/mount"
+msgstr "Встановити"
+
+msgid "modules/controls/button/research"
+msgstr "Дослідити"
+
+msgid "modules/controls/button/sell"
+msgstr "Продати зі Складу"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Машина в бою. Змінити модулі можна після завершення бою."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Машину пошкоджено. Відремонтуйте її, щоб змінити модулі."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Неможливо встановити модуль. Несумісний модуль: {{module}}."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Машина в складі формування."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "Придбайте цю машину, щоб мати змогу змінити її модулі."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "Щоб мати змогу дослідити цей модуль, дослідіть попередні."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "Дослідіть цю машину, щоб мати змогу дослідити її модулі."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Всі модулі досліджено."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Цей модуль вже встановлено."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Виберіть модуль або машину для дослідження."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Машина в бою. Змінити модулі можна після завершення бою."
+
+msgid "modules/controls/name"
+msgstr "Вибрано: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Шасі"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Двигун"
+
+msgid "modules/name/vehicleGun"
+msgstr "Гармата"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Радіостанція"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Башта"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Колеса"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Колекційна техніка"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Можливість здобуття"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "кредитів за кожен бій"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "пересаджування екіпажу без штрафів"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "бойового досвіду та досвіду екіпажу"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Бони"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Більше"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Безкоштовно"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Більше"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Здобути бони"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Більше кредитів"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Безкоштовне пересаджування"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Більше досвіду"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Безкоштовний ремкомплект"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Можливість здобуття"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "кредитів за кожен бій"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "пересаджування екіпажу з будь-якої техніки без штрафів"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "бойового досвіду та досвіду екіпажу"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "Бони"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Більше"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Безкоштовне"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Більше"
+
+msgid "overview/crew/name"
+msgstr "Екіпаж {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Переглянути механіку"
+
+msgid "overview/title/generalDescription"
+msgstr "Опис машини"
+
+msgid "overview/title/historicalReference"
+msgstr "Історична довідка"
+
+msgid "researchPurchase/discountTimer"
+msgstr "До {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "Відновлення доступне до {{date}}"
+
+msgid "tabs/armor"
+msgstr "Бронювання"
+
+msgid "tabs/modules"
+msgstr "Модулі"
+
+msgid "tabs/overview"
+msgstr "Загальне"
+
+msgid "tabs/stats"
+msgstr "Характеристики"
+
+msgid "tabs/vehSkillTree"
+msgstr "Поліпшення"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "Прокат завершено"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Підписку призупинено"

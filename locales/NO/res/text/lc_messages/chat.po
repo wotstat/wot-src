@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Generell"
+
+msgid "channels/battle/team"
+msgstr "Lag"
+
+msgid "channels/clan"
+msgstr "Klan"
+
+msgid "channels/common"
+msgstr "Generell"
+
+msgid "channels/epic_training"
+msgstr "Trening—Frontlinje"
+
+msgid "channels/nubs"
+msgstr "Rekrutter"
+
+msgid "channels/prebattle"
+msgstr "Kampforberedelser"
+
+msgid "channels/special_battles"
+msgstr "Spesialkamp"
+
+msgid "channels/squad"
+msgstr "Tropp"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Troppen er opprettet. Vennligst vent til spillerne er klare."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Tropp"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Troppen er opprettet. Alle spillerne er klare."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Tropp"
+
+msgid "channels/system"
+msgstr "System"
+
+msgid "channels/tournament"
+msgstr "Turnering"
+
+msgid "channels/trading"
+msgstr "Handel"
+
+msgid "channels/training"
+msgstr "Trening"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Chat administrator er også moderator for kanalen."
+
+msgid "errors/addmoderatorowner"
+msgstr "Kanaleier er også kanalmoderator."
+
+msgid "errors/banchannelowner"
+msgstr "Kanaleier kan ikke utestenges."
+
+msgid "errors/banchatadmin"
+msgstr "Chat administrator kan ikke utestenges."
+
+msgid "errors/banned"
+msgstr "Du har blitt utestengt av brukeren %(banOwnerNick)s frem til %(banEndTime)s. Årsak %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Du har blitt utestengt av brukeren %(banOwnerNick)s. Årsak: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Du er utestengt frem til %(banEndTime)s. Årsak: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Du er utestengt. Årsak: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Kommandoen %(command)s er blokkert i %(cooldownPeriod)s sek."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Moderator tilgang kan ikke fjernes fra chat administrator."
+
+msgid "errors/delmoderatorowner"
+msgstr "Moderator tilgang kan ikke fjernes fra kanaleier."
+
+msgid "errors/timeincorrect"
+msgstr "'Varighet' parameteret må være et positivt antall minutter [1-1440] eller 'permanent'."
+
+msgid "errors/toomanyargs"
+msgstr "For mange parametre."
+
+msgid "errors/toosmallargs"
+msgstr "Utilstrekkelig antall parametre."
+
+msgid "errors/userbanhimself"
+msgstr "Du kan ikke utestenge deg selv."
+
+msgid "messages/userbanned"
+msgstr "Brukeren %(banedUser)s har blitt utestengt av %(banOwnerNick)s frem til %(banEndTime)s. Årsak: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "Brukeren %(banedUser)s har blitt utestengt av %(banOwnerNick)s. Årsak: %(banReason)s"

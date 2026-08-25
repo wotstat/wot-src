@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Componentă tactică"
+
+msgid "open_artefact/server_error"
+msgstr "Operațiunea este momentan indisponibilă. Încearcă mai târziu."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Nu am putut realimenta componentele tactice pentru %s. Eroare tehnică."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Nu am putut realimenta componentele tactice pentru %s. Fonduri insuficiente."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "S-au realimentat componentele tactice pentru %s. Ai cheltuit "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Înregistrări disponibile pentru decriptare"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Mod: Ultima Redută: Terra Nord"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Ultima Redută: Terra Nord (standard)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Ultima Redută: Terra Nord (avansată)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Ultima Redută: Terra Nord (brutală)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Dificultate"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Standard"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Avansată"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Brutală"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Date"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Obiectiv finalizat!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Obiective finalizate!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Vehicul"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Valuri finalizate: %(curPhase)s din %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Cheltuit %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Tranzacţie financiară"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Poți alege nivelul de dificultate din panoul de dificultate din garajul Ultima Redută."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Dificultatea avansată deblocată"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Poți alege nivelul de dificultate din panoul de dificultate din garajul Ultima Redută."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Dificultatea brutală deblocată"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Poți alege modul de dificultate din panoul de dificultate din garajul Ultima Redută: Operațiunea Pandora."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Modul Ultima Redută deblocat"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Chei de decriptare obținute: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Chitanţă"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Chei eliminate: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Decriptare cu succes"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Luptele din Ultima Redută sunt momentan indisponibile.\nReîncearcă mai târziu."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Luptele cu dificultate %(difficulty)s sunt temporar indisponibile. Reîncearcă mai târziu."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Ultima Redută este momentan indisponibil. Verifică portalul jocului pentru actualizări."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Comandantul plutonului a schimbat nivelul dificultății la: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Jucătorul %(userName)s nu a deblocat unul dintre nivelurile de dificultate."

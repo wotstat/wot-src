@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Er is een staakt-het-vuren op alle beschikbare servers."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "Er is een staakt-het-vuren op deze server."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Verander van server"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Staaljager is afgelopen"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Modus onbeschikbaar op deze server"
+
+msgid "banner/info/disabled"
+msgstr "Staakt-het-vuren"
+
+msgid "banner/info/seasonActive"
+msgstr "Tweede kans en beloningen"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "Tot %(day)s %(month)s"
+
+msgid "banner/subtitle"
+msgstr "Battle royale met waardevolle beloningen"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s u"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s u %(minutes)s min"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s min"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "STAALJAGER"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Het gevecht gaat door vanaf een nieuwe plek."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Je zult binnenkort respawnen"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Respawnen"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Er zal geen tweede kans zijn."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Respawnen is niet meer beschikbaar"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Respawnen is binnenkort niet meer beschikbaar!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Wees ditmaal voorzichtiger."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Je voertuig is klaar voor het gevecht!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Terugkeren naar het gevecht"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Er wordt hevig gevochten."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Respawnen onbeschikbaar"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Vind een respawnlading om het naar de strijd terug te laten keren."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Geallieerd voertuig vernietigd"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Respawnen"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "Twee voertuigen zijn beter dan één!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Geallieerd voertuig respawnd"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Raak niet verwikkeld in de strijd!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Bondgenoot respawnen"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Bonus geactiveerd!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Beloning voor de eerste plaats"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Verzameld in gevecht"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "OVERWINNING"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Hoofdstuk niet geselecteerd. Onuitgegeven Vechtpaspunten: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Alle hoofdstukken zijn voltooid. Ga door met spelen en blijf Vechtpaspunten verzamelen."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Ga naar Vechtpas"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Vechtpas"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Selecteer een hoofdstuk"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Ga naar de progressie van het actieve hoofdstuk"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Ga naar Vechtpas"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Missies voltooid per gevecht: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Missies"
+
+msgid "battleResult/battleReward/title"
+msgstr "ONTVANGEN VOOR HET GEVECHT"
+
+msgid "battleResult/button/hangar"
+msgstr "Naar de garage"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Punten en beloningen worden verdeeld nadat alle spelers dit gevecht hebben afgerond. Missies zullen ook op basis van de gevechtsresultaten worden geëvalueerd."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Druk op %(esc) om de animatie over te slaan"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Uitnodigen voor peloton"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Bondgenoot"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Willekeurige bondgenoot"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Gevechtstype"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "SOLOGEVECHT"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "Met WoT Premium account had je kunnen ontvangen:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Totale hoeveelheden met WoT Premium account"
+
+msgid "battleResult/progressStage"
+msgstr "Stadium {stage} progressie"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "De echte in-game naam en clantag van de speler worden niet aan andere spelers in het gevecht getoond."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Werkelijke spelersnaam: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Spelers echte naam is veranderd naar {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "De hoeveelheid schade die door de bepantsering van je voertuig is geblokkeerd."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "De hoeveelheid schade die jij hebt veroorzaakt."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Het aantal vijandelijke voertuigen dat door jou is vernietigd."
+
+msgid "battleResult/stats/body/place"
+msgstr "Jouw positie op basis van de gevechtsresultaten."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Het aantal vijandelijke voertuigen dat door jouw peloton is vernietigd."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Geblokkeerde schade"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Veroorzaakte schade"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Vernietigd door jou"
+
+msgid "battleResult/stats/header/place"
+msgstr "Plek"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Vernietigd door peloton"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Geblokkeerde schade"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Veroorzaakte schade"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Vernietigd door jou"
+
+msgid "battleResult/stats/title/place"
+msgstr "Plek"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Vernietigd door peloton"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Leidersklassement"
+
+msgid "battleResult/tab/result"
+msgstr "Gevechtsresultaten"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "PELOTON VERNIETIGD"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "VOERTUIG VERNIETIGD"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "OVERWINNING"
+
+msgid "battleResult/title/victoryOther"
+msgstr "EERVOLLE PLEK"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Selecteer een van de speciale voertuigen voor de Staaljagermodus."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Ongeschikt voertuig"
+
+msgid "button/modules"
+msgstr "TECHNOLOGIEBOOM"
+
+msgid "button/repair"
+msgstr "Repareren"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Gevechten tijdelijk onbeschikbaar"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Gevechten tijdelijk onbeschikbaar"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Modus onbeschikbaar"
+
+msgid "ceasefire/header/schedule"
+msgstr "Gevechtsschema"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Er is een staakt-het-vuren op alle beschikbare servers. Hieronder kun je het schema zien."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "Er is een staakt-het-vuren op deze server. Je kunt van server veranderen om de modus te spelen."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Staaljager is op deze server onbeschikbaar. Je kunt van server veranderen om het te spelen."
+
+msgid "commanderInfo/commonRank"
+msgstr "Commandant"
+
+msgid "commanderInfo/description/china"
+msgstr "\"Ik heb al gewonnen. Je zult het snel beseffen.\""
+
+msgid "commanderInfo/description/france"
+msgstr "\"Ik geef hier de bevelen!\""
+
+msgid "commanderInfo/description/germany"
+msgstr "\"Vandaag is een glorieuze dag die de geschiedenisboeken in zal gaan.\""
+
+msgid "commanderInfo/description/poland"
+msgstr "\"Geen tijd voor manieren.\""
+
+msgid "commanderInfo/description/sweden"
+msgstr "\"Alles gaat volledig volgens plan.\""
+
+msgid "commanderInfo/description/uk"
+msgstr "\"Wat je ook bent, wees de beste.\""
+
+msgid "commanderInfo/description/usa"
+msgstr "\"De bijl is opgegraven, opgepoetst en geslepen.\""
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"De winnaar pakt alles!\""
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Specialisaties"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nSpeciaal voertuig voor Staaljager"
+
+msgid "fragPanel/squadsCount"
+msgstr "Pelotons: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Leidersklassement"
+
+msgid "hangarResults/btns/summary"
+msgstr "Gevechtsresultaten"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "AFSLUITEN"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Modules kunnen alleen in het gevecht worden geüpgraded. Druk in het gevecht op %(key)s om het upgrademenu te openen."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s en %(highlight2)s om ervaring te ontvangen. Bij elk nieuw niveau kan de speler in het upgrademenu een module upgraden, waardoor de eigenschappen van het voertuig aanzienlijk worden verbeterd."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Veroorzaak schade aan vijandelijke voertuigen"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "verzamel oorlogsbuit op de kaart"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Voertuigupgrades in het gevecht"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Je betreedt het gevecht met een niveau I voertuig."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Modules kunnen in het gevecht worden geüpgraded in het upgrademenu (standaard de %(treeKey)s-toets) of door tegelijkertijd %(leftModuleKey)s en %(rightModuleKey)s in te drukken.\n\nModules kunnen alleen in het gevecht worden geüpgraded."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "In het gevecht:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Je Staaljager ontvangt in een gevecht ervaring voor het veroorzaken van schade en verzamelen van oorlogsbuit. Zodra de benodigde hoeveelheid ervaring is verzameld, kun je het volgende niveau bereiken en een upgrade voor een van de modules selecteren."
+
+msgid "levelUp/severalTitles"
+msgstr "ONTVANGEN LEVELS: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "LEVEL %(level)s ONTVANGEN!"
+
+msgid "levelUp/twoTitles"
+msgstr "ONTVANGEN LEVELS: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Voltooi missies en ontvang waardevolle beloningen."
+
+msgid "level_up/max_level_info/title"
+msgstr "Nieuwe dagelijkse missies beschikbaar"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Het seizoen\nbegint binnenkort"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Het seizoen begint op %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Geblokkeerd"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Schade"
+
+msgid "playerStats/killsStat/name"
+msgstr "Vernietigd"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Vernietigd"
+
+msgid "playerStats/placeStat/name"
+msgstr "Positie"
+
+msgid "playerStats/title"
+msgstr "Persoonlijke score"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Radiodetectie onbeschikbaar: voorbereiding in voortgang"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Het voertuig is volledig operationeel. Herstellen is niet nodig."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Slagveldrobot vernietigd"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s vernietigde %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s vernietigde vijand %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Vuurbal vernietigd"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Mijnen vervallen"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Mijnen gelegd"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Radiodetectie is klaar voor gebruik"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Je voertuig heeft het maximale niveau bereikt"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Niveau %(level)s bereikt"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Gemonteerd: %(moduleType)s. Geüpgraded: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Romp"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Ophanging"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Motor"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Kanon"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Radiodetectie"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Koepel"
+
+msgid "playersPanel/title"
+msgstr "TEAM"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Wissel tussen pelotonvoertuigen."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Toeschouwersmodus"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Terug naar de garage.\nGa een gevecht in met een ander voertuig."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Terug naar de garage"
+
+msgid "preBattle/buttonTitle"
+msgstr "VECHT!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Selecteer een kaart"
+
+msgid "preBattle/listTitle"
+msgstr "SPELERSGEREEDHEID"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Zone 404"
+
+msgid "preBattle/mapRandom"
+msgstr "Willekeurige kaart"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "PELOTONVOERTUIGEN"
+
+msgid "preBattle/title"
+msgstr "GROTE JACHT"
+
+msgid "preBattle/userFooterTitle"
+msgstr "GESELECTEERDE VOERTUIGEN"
+
+msgid "preBattle/userNotReady"
+msgstr "Niet gereed"
+
+msgid "preBattle/userReady"
+msgstr "Gereed"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Seizoen %(cycleNo)s op de %(server)s-server is afgelopen"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "Het seizoen op de %(server)s-server is afgelopen."
+
+msgid "proxyPanel/button"
+msgstr "Winkel"
+
+msgid "proxyPanel/label"
+msgstr "Stalen\nzegels"
+
+msgid "proxyPanel/store"
+msgstr "WINKEL"
+
+msgid "questsTooltip/timeLeft"
+msgstr "Het seizoen eindigt over %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "Er is geen toets aan Radiodetectie toegewezen"
+
+msgid "radar/hint/press"
+msgstr "Druk op"
+
+msgid "radar/hint/text"
+msgstr "om Radiodetectie te activeren"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Landen"
+
+msgid "selectRespawn/button/land"
+msgstr "Landen"
+
+msgid "selectRespawn/description"
+msgstr "Klik op een van de voorgestelde locaties. Indien er geen locatie is geselecteerd, zul je op een van de voorgestelde locaties landen."
+
+msgid "selectRespawn/header"
+msgstr "Selecteer een landingslocatie"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Klik op een van de voorgestelde locaties. Indien er geen locatie is geselecteerd, zul je op een van de voorgestelde locaties landen."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Jouw gevecht begint hier"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Selecteer een landingslocatie"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s u %(min)s min"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "RAZERNIJ!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Zuur tast het pantser aan!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "De zone is gesloten! Verlaat de zone of je voertuig zal worden vernietigd!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "De zone zal snel rood worden"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Mobiliteit verminderd!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "We kunnen weer verder..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Levenspunten worden hersteld"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Levenspunten worden hersteld"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Schade wordt omgezet"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Technische eigenschappen verbeterd"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Granaten en herstel"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Luchtbevoorrading"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Reparatieset of bekwaamheidslading"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Oorlogsbuit"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Grote oorlogsbuit: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Wordt verzameld: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Reparatiezone"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Toenemende passie!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "In rook"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Onze bepantsering is aan het corroderen!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Mobiliteit verminderd!"
+
+msgid "techParams/type/damage"
+msgstr "Schade"
+
+msgid "techParams/type/difficulty"
+msgstr "Moeilijkheid"
+
+msgid "techParams/type/mobility"
+msgstr "Mobiliteit"
+
+msgid "techParams/type/spotting"
+msgstr "Verkenning"
+
+msgid "techParams/type/survivability"
+msgstr "Overlevingsvermogen"
+
+msgid "techtree/body_armor"
+msgstr "Bepantsering"
+
+msgid "techtree/body_health"
+msgstr "Levenspunten"
+
+msgid "techtree/body_mobility"
+msgstr "Mobiliteit"
+
+msgid "techtree/engine_acceleration"
+msgstr "Dynamiek"
+
+msgid "techtree/engine_speed"
+msgstr "Topsnelheid"
+
+msgid "techtree/gun_alpha"
+msgstr "Schade per schot"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Autoherlader"
+
+msgid "techtree/gun_clip"
+msgstr "Magazijnherlader"
+
+msgid "techtree/gun_dpm"
+msgstr "Herlaadsnelheid"
+
+msgid "techtree/gun_dualgun"
+msgstr "Dubbelloops"
+
+msgid "techtree/gun_he"
+msgstr "Schade brisantgranaat"
+
+msgid "techtree/gun_machinegun"
+msgstr "Antitank-machinegeweer"
+
+msgid "techtree/gun_piercing"
+msgstr "Penetratie"
+
+msgid "techtree/radar_cooldown"
+msgstr "Radiodetectie cooldown"
+
+msgid "techtree/radar_distance"
+msgstr "Detectiebereik"
+
+msgid "techtree/turret_armor"
+msgstr "Bepantsering"
+
+msgid "techtree/turret_health"
+msgstr "Levenspunten"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Rotatiesnelheid"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "Tot {{credits}} credits"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "Tot {{experience}} XP"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Peloton-gevechtsbonus"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Vecht samen met een willekeurige bondgenoot in een peloton. Neem het als team op tegen negen vijandelijke pelotons. Pelotonmissies kunnen in deze modus worden voltooid. Het peloton zal na het gevecht automatisch worden ontbonden."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Klassiek Staaljager. Elke speler vecht op eigen houtje. Verzamel middelen, upgrade je voertuig, en gebruik zijn unieke bekwaamheden om als enige het gevecht te overleven!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Vecht samen met een vriend in een peloton. Neem het als team op tegen negen vijandelijke pelotons. Pelotonmissies kunnen in deze modus worden voltooid."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Willekeurig peloton"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Solomodus"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Peloton met vriend"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Solo"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Peloton"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Regels voor het verdienen van punten"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s plek"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s plekken"
+
+msgid "tooltips/awards/achievement"
+msgstr "Medaille"
+
+msgid "tooltips/awards/badge"
+msgstr "Badge"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "Stelt je in staat om nadat je voertuig is vernietigd weer het gevecht in te gaan. Het upgradelevel van je voertuig gaat in dat geval niet verloren. Dit kan per gevecht een beperkt aantal keer worden gebruikt."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Herspawnladingen zitten in een luchtbevoorrading."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "Om een bondgenoot te respawnen, moet je gedurende {brown_Open}%(timeToResurrect)s s{brown_Close} niet in de strijd zijn verwikkeld. Dit kan alleen in de eerste {brown_Open}%(duration)s min{brown_Close} van een gevecht. Respawnladingen worden gedeeld met je pelotongenoten."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "Wanneer je in een peloton speelt"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Na vernietiging zal je voertuig automatisch respawnen. Dit gebeurt alleen in de eerste {brown_Open}%(duration)s min{brown_Close} van een gevecht."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "Wanneer je alleen speelt"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Eenmalig gebruik"
+
+msgid "tooltips/respawn/title"
+msgstr "Respawn"
+
+msgid "tooltips/vehicle/description"
+msgstr "Voertuig voor de Staaljagermodus"
+
+msgid "tournament/description"
+msgstr "GROTE JACHT"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Niet gereed"
+
+msgid "tournament/fightButton/ready"
+msgstr "Gereed!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Kan het toernooi niet betreden. Foutcode: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Grote Jacht-toernooi foutmelding. Foutcode: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "GROTE JACHT"
+
+msgid "tournament/type/solo"
+msgstr "Type: solo"
+
+msgid "tournament/type/squad"
+msgstr "Type: peloton"
+
+msgid "upgradePanel/alert/0"
+msgstr "Je kunt je voertuig niet upgraden!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Je kunt je voertuig tijdens actieve strijd niet upgraden!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Je kunt je voertuig niet upgraden. Het voertuig is aan het verdrinken!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Je kunt je voertuig niet upgraden. Het voertuig is omgeslagen!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Druk op %(key)s om het upgrademenu te openen"
+
+msgid "upgradePanel/title/default"
+msgstr "Nieuwe module beschikbaar"
+
+msgid "upgradePanel/title/hull"
+msgstr "Nieuwe romp beschikbaar"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Nieuwe ophanging beschikbaar"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Nieuwe motor beschikbaar"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Nieuw kanon beschikbaar"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Nieuwe radio beschikbaar"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Nieuwe koepel beschikbaar"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "OF"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Bepantsering"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Schade per schot"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Herlaadsnelheid"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Levenspunten"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Penetratie"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Radiodetectiegebruik"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Magazijnlaadsysteem"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Snelheid"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Voertuigeigenschappen"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Voordelen"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Nadelen"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Er is een staakt-het-vuren op alle servers. Gevechten komen over %(time)s beschikbaar."
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Selecteer een andere server"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Stadium %(cycle)s is afgelopen"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Stadium afgelopen"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Er is een staakt-het-vuren op deze server. Gevechten komen over %(time)s beschikbaar."
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Er is een staakt-het-vuren op %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Stadium %(cycle)s zal beginnen over %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "Het eerste stadium begint over %(time)s"

@@ -1,0 +1,1547 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "O Cessar-Fogo está em efeito em todos os servidores. As batalhas ficarão disponíveis em %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "A Temporada %(leftSeasonName)s terminou"
+
+msgid "alertMessage/allNotSet"
+msgstr "Este modo está indisponível no servidor %(serverName)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Seleccionar Outro Servidor"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detalhes"
+
+msgid "alertMessage/notAvailable"
+msgstr "O Cessar-Fogo está em efeito no servidor %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "O Cessar-Fogo está em efeito no servidor %(serverName)s"
+
+msgid "alertMessage/notSet"
+msgstr "Este modo está indisponível no servidor %(serverName)s"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "O Cessar-Fogo está em efeito neste servidor. As batalhas ficarão disponíveis em %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "A Temporada %(leftSeasonName)s terminou"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Este modo está indisponível no servidor %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Sem veículos de Nível %(levels)s adequados na Garagem"
+
+msgid "awards/bonusBattles/efficiency"
+msgstr "Normais, pela sua performance na fase concluída: %(amount)s"
+
+msgid "awards/bonusBattles/header"
+msgstr "Batalhas de Bónus recebidas:"
+
+msgid "awards/bonusBattles/label"
+msgstr "Batalhas de Bónus recebidas: %(count)s"
+
+msgid "awards/bonusBattles/steps/daily"
+msgstr " \nDiário, pelo número de insígnias recebidas na Qualificação: %(amount)s"
+
+msgid "awards/bonusBattles/steps/persistent"
+msgstr " \nNormal, pelo número de insígnias recebidas na Qualificação: %(amount)s"
+
+msgid "awards/congratulation"
+msgstr "Parabéns!"
+
+msgid "awards/gotDivision"
+msgstr "Você foi movido para a próxima Divisão"
+
+msgid "awards/gotLeague"
+msgstr "Você alcançou o nível das Ligas"
+
+msgid "awards/gotQualification"
+msgstr "Concluiu a Qualificação e entrou na Terceira Divisão."
+
+msgid "awards/gotQualificationQuest"
+msgstr "Recebeu a recompensa pela Qualificação. Batalhas travadas: %(count)s"
+
+msgid "awards/gotRank"
+msgstr "Novo Posto recebido"
+
+msgid "awards/yes"
+msgstr "Afirmativo!"
+
+msgid "battleResult/losers"
+msgstr "Equipa perdedora"
+
+msgid "battleResult/rank/lose"
+msgstr "Posto perdido"
+
+msgid "battleResult/rank/progress/lose"
+msgstr "Insígnia perdida"
+
+msgid "battleResult/rank/progress/up"
+msgstr "Insígnia recebida"
+
+msgid "battleResult/rank/unchanged"
+msgstr "Insígnia retida"
+
+msgid "battleResult/rank/up"
+msgstr "Posto alcançado"
+
+msgid "battleResult/winners"
+msgstr "Equipa vencedora"
+
+msgid "battleResult/yes"
+msgstr "Afirmativo!"
+
+msgid "battleresult/bonusBattlesEarned"
+msgstr " \n\nBatalhas de Bónus adicionadas:"
+
+msgid "battleresult/bonusBattlesEarned/efficiency"
+msgstr " \nNormal, para a sua performance na fase concluída: %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/daily"
+msgstr " \nDiário, pelo número de insígnias recebidas na Qualificação: %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/persistent"
+msgstr " \nNormal, pelo número de insígnias recebidas na Qualificação: %(amount)s"
+
+msgid "battleresult/bonusBattlesUsed"
+msgstr ". Você combateu numa Batalha de Bónus."
+
+msgid "battleresult/divisionEarned"
+msgstr "Nova\nDivisão"
+
+msgid "battleresult/first/inTop/lose"
+msgstr "É o melhor jogador da equipa derrotada por experiência recebida"
+
+msgid "battleresult/first/inTop/win"
+msgstr "É o melhor jogador da equipa vencedora por experiência recebida"
+
+msgid "battleresult/first/notInTop/lose"
+msgstr "Não é o melhor jogador da equipa derrotada por experiência recebida"
+
+msgid "battleresult/first/notInTop/win"
+msgstr "Não é o melhor jogador da equipa vencedora por experiência recebida"
+
+msgid "battleresult/headerText"
+msgstr "Resultados da Batalha"
+
+msgid "battleresult/inTop/lose"
+msgstr "Você está no top %(topNumber)s dos jogadores da equipa perdedora por experiência ganha"
+
+msgid "battleresult/inTop/win"
+msgstr "Você está no top %(topNumber)s dos jogadores da equipa vencedora por experiência ganha"
+
+msgid "battleresult/leagueEarned"
+msgstr "Mudar para\nLigas"
+
+msgid "battleresult/leagueUnavailable"
+msgstr "A sua Liga será definida após os cálculos da Tabela de Classificação.\n "
+
+msgid "battleresult/notInTop/lose"
+msgstr "Você não está no top %(topNumber)s dos melhores jogadores da equipa perdedora por experiência ganha"
+
+msgid "battleresult/notInTop/minXP"
+msgstr "Não ganhou a quantidade mínima de experiência."
+
+msgid "battleresult/notInTop/stageSaved"
+msgstr "Está protegido contra a perda de divisas nesta fase"
+
+msgid "battleresult/notInTop/win"
+msgstr "Você não está no top %(topNumber)s dos melhores jogadores na equipa vencedora por experiência ganha"
+
+msgid "battleresult/rankEarned"
+msgstr "Posto\nrecebido"
+
+msgid "battleresult/rankLost"
+msgstr "Posto\nperdido"
+
+msgid "battleresult/rankUnburnable"
+msgstr "Sem\nalterações"
+
+msgid "battleresult/shieldLose"
+msgstr "Escudo de Posto\npartido"
+
+msgid "battleresult/shieldLoseStep"
+msgstr "Escudo de Posto\nenfraquecido"
+
+msgid "battleresult/stageEarned"
+msgstr "Insígnia\nrecebida"
+
+msgid "battleresult/stageLost"
+msgstr "Insígnia\nperdida"
+
+msgid "battleresult/stageNotEarned"
+msgstr "Insígnia\nretida"
+
+msgid "battleresult/stageSaved"
+msgstr "Insígnia\nretida"
+
+msgid "battleresult/stagesEarned"
+msgstr "Insígnias\nrecebidas"
+
+msgid "battleresult/status/rankEarned"
+msgstr "Posto retornado"
+
+msgid "battleresult/status/rankLost"
+msgstr "Posto perdido"
+
+msgid "battleresult/status/rankUnburnable"
+msgstr "Sem alterações"
+
+msgid "battleresult/status/shieldCount"
+msgstr " \nPontos de energia retidos: %(count)s"
+
+msgid "battleresult/status/shieldLose"
+msgstr "Protecção do posto quebrada!"
+
+msgid "battleresult/status/shieldLoseStep"
+msgstr "Protecção do posto enfraquecida!"
+
+msgid "battleresult/status/shieldRenew"
+msgstr " \nProtecção do posto restaurada"
+
+msgid "battleresult/status/shieldWarning"
+msgstr " \nOutra derrota poderá levar à perda do seu posto."
+
+msgid "battleresult/status/stageEarned"
+msgstr "Insígnia recebida"
+
+msgid "battleresult/status/stageLost"
+msgstr "Insígnia perdida"
+
+msgid "battleresult/status/stageNotEarned"
+msgstr "Insígnia retida"
+
+msgid "battleresult/status/stageSaved"
+msgstr "Insígnia retida"
+
+msgid "battleresult/status/stagesEarned"
+msgstr "Insígnias recebidas"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s - %(end)s"
+
+msgid "calendarDay/timeLeft"
+msgstr "A Temporada %(seasonName)s irá durar por %(days)s dias"
+
+msgid "calendarDay/title"
+msgstr "Horário"
+
+msgid "calendarStepsTooltip/title"
+msgstr "Calendário da Fase"
+
+msgid "currentVehicleStatus/unsuitableToQueue"
+msgstr "Não adequado para o modo"
+
+msgid "division/bronze"
+msgstr "Terceira Divisão"
+
+msgid "division/classification"
+msgstr "Qualificação"
+
+msgid "division/gold"
+msgstr "Primeira Divisão"
+
+msgid "division/silver"
+msgstr "Segunda Divisão"
+
+msgid "division/status/completed"
+msgstr "Divisão concluída"
+
+msgid "division/status/completed/description"
+msgstr "Concluiu com sucesso a Divisão seleccionada."
+
+msgid "division/status/locked"
+msgstr "Divisão indisponível"
+
+msgid "division/status/locked/description"
+msgstr "A Divisão anterior não foi concluída."
+
+msgid "division/status/qualification"
+msgstr "Batalhas travadas: %(progress)s"
+
+msgid "division/status/qualification/progress"
+msgstr "%(current)s / %(total)s"
+
+msgid "division/status/qualificationDescr/complete"
+msgstr "Qualificação concluída"
+
+msgid "division/status/qualificationDescr/progress"
+msgstr "Trave %(battlesTotal)s batalhas para concluir a Qualificação.\nAo concluir a Qualificação, irá receber recompensas por travar %(battlesList)s batalhas."
+
+msgid "division/tooltip/battlesDescription"
+msgstr "Consiste de %(battlesCount)s batalhas"
+
+msgid "division/tooltip/desc/completed/text"
+msgstr "Você recebeu todos os postos nesta Divisão."
+
+msgid "division/tooltip/desc/completedFinal/text"
+msgstr "Você recebeu todos os postos nesta Divisão e mudou para as Ligas."
+
+msgid "division/tooltip/desc/completedQual/text"
+msgstr "O número necessário de batalhas de Qualificação foi combatido."
+
+msgid "division/tooltip/desc/current/text"
+msgstr "Após a conclusão, passará para a próxima Divisão e receberá Batalhas de Bónus que impulsionarão o seu progresso."
+
+msgid "division/tooltip/desc/currentFinal/text"
+msgstr "Após e conclusão, passará para as Ligas e recebeu Batalhas de Bónus para consolidar ou melhorar a sua posição entre os Líderes da Temporada."
+
+msgid "division/tooltip/desc/currentQual/text"
+msgstr "Ao concluir a Qualificação, irá receber recompensas por travar %(battles)s batalhas.\nApós concluir a Qualificação, irá mover-se para a Terceira Divisão e receber Bónus de Batalhas que vão impulsionar a sua progressão."
+
+msgid "division/tooltip/desc/locked/text"
+msgstr "Após a conclusão, passará para a próxima Divisão e receberá Batalhas de Bónus que impulsionarão o seu progresso."
+
+msgid "division/tooltip/desc/lockedFinal/text"
+msgstr "Após e conclusão, passará para as Ligas e recebeu Batalhas de Bónus para consolidar ou melhorar a sua posição entre os Líderes da Temporada."
+
+msgid "division/tooltip/desc/title"
+msgstr "Descrição:"
+
+msgid "division/tooltip/rankDescription"
+msgstr "Consiste em %(ranksCount)s Postos"
+
+msgid "division/tooltip/status/completed"
+msgstr "Divisão concluída"
+
+msgid "division/tooltip/status/completedQual"
+msgstr "Concluída"
+
+msgid "division/tooltip/status/current"
+msgstr "Divisão não concluída"
+
+msgid "division/tooltip/status/currentQual"
+msgstr "Não concluída"
+
+msgid "division/tooltip/status/locked"
+msgstr "Divisão indisponível"
+
+msgid "division/tooltip/status/locked/desc"
+msgstr "Conclua primeiro a Divisão anterior."
+
+msgid "division/tooltip/status/locked/descQual"
+msgstr "A Qualificação não foi concluída."
+
+msgid "introPage/alert/beforeSeason"
+msgstr "Evento começa em:"
+
+msgid "introPage/alert/disabled"
+msgstr "O modo está temporariamente indisponível. Por favor, volte mais tarde."
+
+msgid "introPage/blocks/block1/description"
+msgstr "As batalhas de 10v10 jogadores, sob as regras das Batalhas Normais, num número limitado de mapas e apenas em veículos pesquisáveis e de Coleccionador de Nível X."
+
+msgid "introPage/blocks/block1/title"
+msgstr "Veículos Nível X"
+
+msgid "introPage/blocks/block2/description"
+msgstr "Conclua 3 Divisões no caminho pela glória e alcance uma das Ligas lutando com jogadores de habilidade similar."
+
+msgid "introPage/blocks/block2/title"
+msgstr "Progressão nas Batalhas Classificadas"
+
+msgid "introPage/blocks/block3/description"
+msgstr "Após concluir cada uma das três Temporadas, irá receber um estilo especial para veículos de Nível X. Irá também receber recompensas valiosas e um veículo de Nível X exclusivo no final das Temporadas 2021-2022."
+
+msgid "introPage/blocks/block3/title"
+msgstr "Recompensas Exclusivas"
+
+msgid "introPage/blocks/yearRewardDisabled"
+msgstr "Cada posto conquistado irá trazer-lhe uma recompensa valiosa. Além disso, irá receber um estilo único para veículos Nível X por concluir as três Temporadas."
+
+msgid "introPage/btns/accept"
+msgstr "Afirmativo!"
+
+msgid "introPage/btns/detailed"
+msgstr "Detalhes do Modo"
+
+msgid "introPage/btns/toHangar"
+msgstr "Para a Garagem"
+
+msgid "introPage/description"
+msgstr "Batalhas 10v10, veículos de Nível X, 3 Divisões no caminho para a glória."
+
+msgid "introPage/timeLeft/days"
+msgstr "%(day)s d %(hour)s h"
+
+msgid "introPage/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "introPage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "introPage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "notification/rankEarned"
+msgstr "posto recebido"
+
+msgid "notification/rankLost"
+msgstr "posto perdido"
+
+msgid "notification/rankedMessage"
+msgstr "Parabéns!\nAlcançou o Posto %(rankRoman)s\nCréditos recebidos: %(creditsCount)s\nPontos recebidos: %(expCount)s\nPrémios recebidos: %(medalsCount)s"
+
+msgid "notification/stageEarned"
+msgstr "insígnia recebida"
+
+msgid "notification/stageLost"
+msgstr "insígnia perdida"
+
+msgid "notification/stageNotEarned"
+msgstr "Insígnia retida"
+
+msgid "notification/vehicleRankEarned"
+msgstr "classificação do veículo recebida"
+
+msgid "notification/vehicleRankLost"
+msgstr "classificação do veículo perdida"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Servidor %(serverName)s\nAs batalhas ficarão disponíveis em %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Servidor %(serverName)s\nA Temporada%(leftSeasonName)s terminou."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Servidor %(serverName)s\nAs batalhas estarão disponíveis por mais %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Servidor %(serverName)s\nAs batalhas ficarão disponíveis em %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Servidor %(serverName)s\nA Temporada%(leftSeasonName)s terminou."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Servidor %(serverName)s\nAs batalhas ficarão disponíveis em %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Servidor %(serverName)s\nA Temporada%(leftSeasonName)s terminou."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "um minuto"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "O Cessar-Fogo está em efeito em todos os servidores"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "A Temporada %(leftSeasonName)s no servidor %(serverName)s terminou."
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "O Cessar-Fogo está em efeito no servidor %(serverName)s até %(primeDeltaDate)s%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "A Temporada %(leftSeasonName)s no servidor %(serverName)s terminou."
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Este modo está indisponível no servidor %(serverName)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "O Cessar-Fogo está em efeito no servidor %(serverName)s até %(primeDeltaDate)s%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "A Temporada %(leftSeasonName)s no servidor %(serverName)s terminou."
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Este modo está indisponível no servidor %(serverName)s"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Batalhas no servidor %(serverName)s vão começar em %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "A Temporada %(leftSeasonName)s no servidor %(serverName)s terminou."
+
+msgid "primeTimes/timeText/available"
+msgstr "Batalhas no servidor %(serverName)s estarão disponíveis por mais %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Batalhas no servidor %(serverName)s vão começar em %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "A Temporada %(leftSeasonName)s no servidor %(serverName)s terminou."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Batalhas no servidor %(serverName)s vão começar em %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "A Temporada %(leftSeasonName)s no servidor %(serverName)s terminou."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "qualificationRewards/battlesNeeded"
+msgstr "Trave %(battlesCount)s batalhas para concluir a Qualificação."
+
+msgid "qualificationRewards/battlesPlayed"
+msgstr "Batalhas travadas:"
+
+msgid "qualificationRewards/description"
+msgstr "As recompensas por concluir a Qualificação são dadas uma vez após o fim da última batalha da Qualificação."
+
+msgid "quests/detailed/allServersPrime"
+msgstr "Cessar fogo"
+
+msgid "quests/detailed/notInLeagues"
+msgstr "Atinja primeiro as Ligas"
+
+msgid "quests/detailed/seasonEnd/days"
+msgstr "A Temporada termina em %(day)s d"
+
+msgid "quests/detailed/seasonEnd/default"
+msgstr "A Temporada termina em breve"
+
+msgid "quests/detailed/seasonEnd/hours"
+msgstr "A Temporada termina em %(hour)s h"
+
+msgid "quests/detailed/seasonEnd/lessMin"
+msgstr "A Temporada termina em menos de um minuto"
+
+msgid "quests/detailed/seasonEnd/min"
+msgstr "A Temporada termina em %(min)s min"
+
+msgid "quests/detailed/unavailableLabel"
+msgstr "Indisponível:"
+
+msgid "quests/tooltip/unavailable/body/allServersPrime"
+msgstr "As missões estarão disponíveis após o final do Cessar-fogo nas Batalhas Classificadas."
+
+msgid "quests/tooltip/unavailable/body/notInLeagues"
+msgstr "Atinja primeiro as Ligas"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/days"
+msgstr "A Temporada termina em %(day)s d"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/default"
+msgstr "A Temporada termina em breve"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/hours"
+msgstr "A Temporada termina em %(hour)s h"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/lessMin"
+msgstr "A Temporada termina em menos de um minuto"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/min"
+msgstr "A Temporada termina em %(min)s min"
+
+msgid "quests/tooltip/unavailable/bottom"
+msgstr "Conclusão Indisponível"
+
+msgid "quests/tooltip/unavailable/header/allServersPrime"
+msgstr "Cessar fogo"
+
+msgid "quests/tooltip/unavailable/header/notInLeagues"
+msgstr "Não nas Ligas"
+
+msgid "quests/tooltip/unavailable/header/seasonEnd"
+msgstr "Fim da Temporada"
+
+msgid "questsTooltip/available"
+msgstr "A Temporada termina em %(timeDelta)s"
+
+msgid "questsTooltip/available/days"
+msgstr "%(day)s d"
+
+msgid "questsTooltip/available/hours"
+msgstr "%(hour)s h"
+
+msgid "questsTooltip/available/lessMin"
+msgstr "menos de um minuto"
+
+msgid "questsTooltip/available/min"
+msgstr "%(min)s min"
+
+msgid "questsTooltip/bottom"
+msgstr "Mais missões: %(number)d"
+
+msgid "questsTooltip/cooldown/days"
+msgstr "As novas missões estarão disponíveis em %(day)s d"
+
+msgid "questsTooltip/cooldown/hours"
+msgstr "As novas missões estarão disponíveis em %(hour)s h"
+
+msgid "questsTooltip/cooldown/lessMin"
+msgstr "As novas missões estarão disponíveis em um minuto"
+
+msgid "questsTooltip/cooldown/min"
+msgstr "As novas missões estarão disponíveis em %(min)s min"
+
+msgid "questsTooltip/header"
+msgstr "Missões das Batalhas Classificadas"
+
+msgid "questsTooltip/unavailable/allServersPrime"
+msgstr "Indisponível: o Cessar-fogo está agora em vigor"
+
+msgid "questsTooltip/unavailable/notInLeagues"
+msgstr "Indisponível: alcance as Ligas primeiro"
+
+msgid "questsTooltip/unavailable/seasonEnd/days"
+msgstr "Indisponível: a Temporada termina em %(day)s d"
+
+msgid "questsTooltip/unavailable/seasonEnd/hours"
+msgstr "Indisponível: a Temporada termina em %(hour)s h"
+
+msgid "questsTooltip/unavailable/seasonEnd/lessMin"
+msgstr "Indisponível: a Temporada termina em menos de um minuto"
+
+msgid "questsTooltip/unavailable/seasonEnd/min"
+msgstr "Indisponível: a Temporada termina em %(min)smin"
+
+msgid "rankedAwards/awardsBlock/awardsHeaderTxt"
+msgstr "Recompensas pelos Postos Alcançados"
+
+msgid "rankedAwards/awardsBlock/crystal"
+msgstr "Títulos"
+
+msgid "rankedAwards/awardsBlock/description"
+msgstr "O seu posto mais alto"
+
+msgid "rankedAwards/awardsBlock/points"
+msgstr "Pontos"
+
+msgid "rankedAwards/awardsBlock/title"
+msgstr "Resultados da Fase %(cycleNumber)s"
+
+msgid "rankedBattle/title"
+msgstr "BATALHAS CLASSIFICADAS"
+
+msgid "rankedBattleCyclesView/tabs/final"
+msgstr "Final"
+
+msgid "rankedBattleCyclesView/tabs/ranks"
+msgstr "Posto"
+
+msgid "rankedBattleCyclesView/title"
+msgstr "Recompensas da Temporada"
+
+msgid "rankedBattleHeader/points/current"
+msgstr "Em progresso"
+
+msgid "rankedBattleHeader/points/final"
+msgstr "Total de pontos: %(points)s"
+
+msgid "rankedBattleHeader/points/past"
+msgstr "Pontos: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/body"
+msgstr "A fase actual terminará a %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/header"
+msgstr "Fase %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/body"
+msgstr "Todos os pontos recebidos nas fases anteriores são adicionados em conjunto na Final, e os jogadores recebem recompensas.\nFinal da Temporada - %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/header"
+msgstr "Final da Temporada"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/body"
+msgstr "A fase irá começar em %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/header"
+msgstr "Fase %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/body"
+msgstr "Pontos ganhos:  %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/header"
+msgstr "A Fase %(cycle)d Terminou"
+
+msgid "rankedBattleHeader/tooltip/date"
+msgstr "%d.%m.%y"
+
+msgid "rankedBattleMainView/bonusBattles"
+msgstr "Batalhas de Bónus: %(battlesCount)s"
+
+msgid "rankedBattleMainView/date/days"
+msgstr "%(day)s d até ao final"
+
+msgid "rankedBattleMainView/date/hours"
+msgstr "%(hour)s h até o final"
+
+msgid "rankedBattleMainView/date/lessMin"
+msgstr "Menos de um minuto até o final"
+
+msgid "rankedBattleMainView/date/min"
+msgstr "%(min)s min até o final"
+
+msgid "rankedBattleMainView/date/period"
+msgstr "%(start)s–%(finish)s"
+
+msgid "rankedBattleMainView/divisions/currentRank"
+msgstr "O Seu Posto"
+
+msgid "rankedBattleMainView/divisions/rank"
+msgstr "Posto %(rank)s"
+
+msgid "rankedBattleMainView/emptyBubble"
+msgstr " "
+
+msgid "rankedBattleMainView/infoPage/header"
+msgstr "Veículos Nível X, Experiência por Função, Batalhas de Bónus, progresso em 3 Divisões e batalhas em Ligas."
+
+msgid "rankedBattleMainView/leaguesView/descr"
+msgstr "Ganhe insígnias e melhore o seu desempenho para avançar na Tabela de Classificação e alcançar o top %(count)d."
+
+msgid "rankedBattleMainView/leaguesView/league1"
+msgstr "Liga Dourada"
+
+msgid "rankedBattleMainView/leaguesView/league2"
+msgstr "Liga Prata"
+
+msgid "rankedBattleMainView/leaguesView/league3"
+msgstr "Liga Bronze"
+
+msgid "rankedBattleMainView/leaguesView/top"
+msgstr "TOP %(count)d"
+
+msgid "rankedBattleMainView/leaguesView/topDescr"
+msgstr "Ganhe insígnias e melhore o seu desempenho para avançar na Tabela de Classificação e manter a sua posição no top %(count)d."
+
+msgid "rankedBattleMainView/leaguesView/unavailableDescr"
+msgstr "Calculando a sua Liga. Os resultados estarão disponíveis brevemente."
+
+msgid "rankedBattleMainView/leaguesView/unavailableTitle"
+msgstr "Liga não calculada"
+
+msgid "rankedBattleMainView/leaguesView/yearLeaderboardDisabled"
+msgstr "Ganhe insígnias e melhore o seu desempenho para manter a sua posição na Liga."
+
+msgid "rankedBattleMainView/season"
+msgstr "Temporada %(season)s"
+
+msgid "rankedBattleMainView/seasonComplete"
+msgstr "Temporada %(season)s terminou"
+
+msgid "rankedBattleMainView/seasonCompleteSingle"
+msgstr "Temporada %(season)s terminou."
+
+msgid "rankedBattleMainView/seasonGap"
+msgstr "A próxima Temporada %(newSeason)s começa a %(date)s"
+
+msgid "rankedBattleMainView/seasonGap/bannedDivision/descr"
+msgstr "Todos os Tokens de Postos ganhos durante a Temporada foram removidos devido à sua violação das Regras do Jogo."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/descr"
+msgstr "Foi excluído da lista de Líderes da Temporada devido à sua violação das Regras do Jogo. Todos os Tokens de Posto ganhos durante a temporada foram removidos."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/withoutPoints/descr"
+msgstr "Você foi excluído da lista de Líderes da Temporada devido a sua violação das Regras do Jogo."
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInDivisions/descr"
+msgstr "Um Token de Posto foi removido devido à sua violação das Regras do Jogo."
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInSeason/descr"
+msgstr "Todos os Tokens de Postos ganhos durante a Temporada foram removidos devido à sua violação das Regras do Jogo."
+
+msgid "rankedBattleMainView/seasonGap/division/descr"
+msgstr "O posto mais alto alcançado nesta Temporada"
+
+msgid "rankedBattleMainView/seasonGap/division/ratingBtn"
+msgstr "Líderes da Temporada"
+
+msgid "rankedBattleMainView/seasonGap/division/title"
+msgstr "Posto %(rank)s (%(division)s)"
+
+msgid "rankedBattleMainView/seasonGap/league/descr"
+msgstr "Paarbéns por concluir com sucesso esta Temporada!"
+
+msgid "rankedBattleMainView/seasonGap/league/ratingBtn"
+msgstr "Ir para a Tabela de Classificação"
+
+msgid "rankedBattleMainView/seasonGap/league1"
+msgstr "Liga Dourada"
+
+msgid "rankedBattleMainView/seasonGap/league2"
+msgstr "Liga Prata"
+
+msgid "rankedBattleMainView/seasonGap/league3"
+msgstr "Liga Bronze"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/descr"
+msgstr "O seu resultado mais alto esta Temporada"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/title"
+msgstr "Concluiu a Qualificação"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/descr"
+msgstr "Você não ganhou nenhum posto nesta Temporada"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/title"
+msgstr "Sem Postos"
+
+msgid "rankedBattleMainView/seasonGap/rolledDivision/descr"
+msgstr "Você foi excluído da lista de Líderes da Temporada após a recuperação da sua conta."
+
+msgid "rankedBattleMainView/seasonGap/rolledLeague/descr"
+msgstr "Você foi excluído da lista de Líderes da Temporada após a recuperação da sua conta."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInDivisions/descr"
+msgstr "Você foi excluído da lista de Líderes da Temporada após a recuperação da sua conta."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInSeason/descr"
+msgstr "Você foi excluído da lista de Líderes da Temporada após a recuperação da sua conta."
+
+msgid "rankedBattleMainView/seasonGap/stats/efficiency"
+msgstr "Desempenho"
+
+msgid "rankedBattleMainView/seasonGap/stats/outOfRating"
+msgstr "Fora da Tabela de Classificação"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/descr"
+msgstr "Após o cálculo, irá ver os seus resultados finais e receber a recompensa merecida"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/title"
+msgstr "A Calcular Resultados"
+
+msgid "rankedBattleMainView/specialSeason"
+msgstr "X"
+
+msgid "rankedBattleMainView/stats/battlesInLeague"
+msgstr "Batalhas em Ligas"
+
+msgid "rankedBattleMainView/stats/battlesTotal"
+msgstr "Total de batalhas"
+
+msgid "rankedBattleMainView/stats/divisionEfficiency"
+msgstr "Desempenho em Divisão"
+
+msgid "rankedBattleMainView/stats/qualificationEfficiency"
+msgstr "Desempenho\nna Qualificação"
+
+msgid "rankedBattleMainView/stats/qualificationSteps"
+msgstr "Insígnias\nna Qualificação"
+
+msgid "rankedBattleMainView/stats/rating/title"
+msgstr "Posição na Tabela de Classificação"
+
+msgid "rankedBattleMainView/stats/rating/tooltip"
+msgstr "A Tabela de Classificação é actualizada a cada %(minutes)s minutos. Última actualização: %(time)s"
+
+msgid "rankedBattleMainView/stats/rating/unavailableTooltip"
+msgstr "A Tabela de Classificação não está a ser actualizada temporariamente devido a problemas técnicos."
+
+msgid "rankedBattleMainView/stats/seasonEfficiency"
+msgstr "Desempenho Geral"
+
+msgid "rankedBattleMainView/stats/stripesInLeague"
+msgstr "Insígnias em Ligas"
+
+msgid "rankedBattleMainView/stats/stripesTotal"
+msgstr "Total de Insígnias"
+
+msgid "rankedBattleMainView/yearGap/header"
+msgstr "Os Seus Resultados em 2021–2022"
+
+msgid "rankedBattlePage/closeBtn"
+msgstr "FECHAR"
+
+msgid "rankedBattleView/awardBlock/emptyLeague"
+msgstr "—"
+
+msgid "rankedBattleView/awardBlock/points/currLeagueHeader"
+msgstr "Liga Actual"
+
+msgid "rankedBattleView/awardBlock/points/header"
+msgstr "Líderes da Temporada"
+
+msgid "rankedBattleView/awardBlock/points/noLeagueHeader"
+msgstr "Fora da Classificação"
+
+msgid "rankedBattleView/awardBlock/points/noPriseHeader"
+msgstr "Liga de Madeira"
+
+msgid "rankedBattleView/awardBlock/points/totalLabel"
+msgstr "Total de pontos: "
+
+msgid "rankedBattleView/awardBlock/pointsAlt/description"
+msgstr "Clique para ver os Líderes da Temporada"
+
+msgid "rankedBattleView/awardBlock/quest/description/battlesLeft"
+msgstr "Batalhas efectivas para jogar:"
+
+msgid "rankedBattleView/awardBlock/quest/description/noQuest"
+msgstr "Não há missões actuais"
+
+msgid "rankedBattleView/awardBlock/quest/header"
+msgstr "Missão"
+
+msgid "rankedBattleView/awardBlock/seasonAward/description"
+msgstr "Clique para ver as recompensas"
+
+msgid "rankedBattleView/awardBlock/seasonAward/header"
+msgstr "Prémios de Temporada"
+
+msgid "rankedBattleView/closeBtn"
+msgstr "VOLTAR"
+
+msgid "rankedBattleView/closeBtnDescr"
+msgstr "PARA A GARAGEM"
+
+msgid "rankedBattleView/nextStageBlock/stage"
+msgstr "Fase %(cycleNumber)s"
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/body"
+msgstr "Clique para iniciar a sua jornada nas Batalhas Classificadas."
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/header"
+msgstr "Avançar!"
+
+msgid "rankedBattleView/playVideoBtn"
+msgstr "Video sobre o Modo"
+
+msgid "rankedBattleView/progressBlock/bestRank"
+msgstr "Recorde da temporada"
+
+msgid "rankedBattleView/progressBlock/continue"
+msgstr "Ganhe pontos para receber recompensas nas Finais"
+
+msgid "rankedBattleView/progressBlock/currentRank"
+msgstr "O seu posto actual: %(rank)s"
+
+msgid "rankedBattleView/progressBlock/finalRank"
+msgstr "Parabéns! Alcançou o posto mais alto %(rank)s nesta Temporada."
+
+msgid "rankedBattleView/progressBlock/steps"
+msgstr "Insígnias: %(numbers)s"
+
+msgid "rankedBattleView/progressBlock/vehicleRank"
+msgstr "Tokens de Posto"
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/body"
+msgstr "Clique para ver a informação sobre todas as etapas da temporada."
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/header"
+msgstr "Calendário"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/attentionText"
+msgstr "Resultados da Fase %(cycleNumber)s em %(timeLeft)s"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/cycleItem"
+msgstr "Temporada %(cycleNumber)s: %(day0)s/%(month0)s—%(day1)s/%(month1)s"
+
+msgid "rankedBattleView/statusBlock/statusText"
+msgstr "Os resultados da temporada serão finalizados em: "
+
+msgid "rankedBattleView/title"
+msgstr "Batalha Classificada"
+
+msgid "rankedBattlesBattleResults/animationCheckBoxLabel"
+msgstr "Mostrar animação"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s não pode combater nas Batalhas Classificadas."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/header"
+msgstr "Tipo de Veículo Incompatível"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/body"
+msgstr "Seleccione um %(levelSubStr)s para combater nas Batalhas Classificadas."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/header"
+msgstr "Nível de Veículo Incompatível"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "veículo de Nível %(levels)s"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/body"
+msgstr "O %(forbiddenType)s não pode combater nas Batalhas Classificadas."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/header"
+msgstr "Veículo Incompatível"
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/body"
+msgstr "Recebido no final de uma fase e contém recompensas valiosas. O número de recompensas e a sua qualidade depende da posição na Tabela de Classificação."
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/header"
+msgstr "Caixote com Recompensas"
+
+msgid "rankedBattlesCyclesView/btnClose"
+msgstr "FECHAR"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/awardRecieved"
+msgstr "Recompensa recebida"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/body"
+msgstr "Recebido no final de uma fase e contém diversas recompensas. O número de recompensas e a sua qualidade depende do posto alcançado."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/header"
+msgstr "Caixote com Recompensas"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/body"
+msgstr "Pode ser trocado por itens raros: Reservas Pessoais e equipamentos raros. Um título pode ser trocado por um conjunto de Reservas Pessoais ou equipamentos. Quantos mais títulos ganhar, mais valiosos serão os equipamentos que irá receber."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/header"
+msgstr "Títulos"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rank"
+msgstr "Posto"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rankAward"
+msgstr "Recompensa pelo Posto Alcançado"
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/body"
+msgstr "Atribuído pelo melhor resultado atingido numa etapa. O melhor resultado não será reiniciado mesmo que perca um posto."
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/header"
+msgstr "Recompensa no Final da Etapa"
+
+msgid "rankedBattlesCyclesView/currentCycle/vehicleRankComment"
+msgstr "Recompensa normal"
+
+msgid "rankedBattlesCyclesView/final/btnLadder"
+msgstr "Ir para a Tabela de Classificação"
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/body"
+msgstr "Clique para ir para a lista de dos Líderes da Temporada e ver a sua posição."
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/header"
+msgstr "Líderes da Temporada"
+
+msgid "rankedBattlesCyclesView/final/first"
+msgstr "%(count)s melhores jogadores"
+
+msgid "rankedBattlesCyclesView/final/intermediate"
+msgstr "próximo %(count)s"
+
+msgid "rankedBattlesCyclesView/final/last"
+msgstr "Liga de Madeira"
+
+msgid "rankedBattlesCyclesView/final/lastComment"
+msgstr "Ganhe pontos para progredir na Tabela de Classificação.\nA recompensa final que irá receber depende\nda sua liga actual."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/noLeagueDataTooltip"
+msgstr "A informação sobre a sua liga actual está temporariamente indisponível. Tente de novo mais tarde."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/position"
+msgstr "Posição na Classificação"
+
+msgid "rankedBattlesCyclesView/final/tableHeader/seasonAward"
+msgstr "Recompensa Final"
+
+msgid "rankedBattlesCyclesView/noAchievements/future/footer"
+msgstr "Desde %(start)s até %(end)s"
+
+msgid "rankedBattlesCyclesView/noAchievements/past/footer"
+msgstr "Não atingiu nenhum posto durante a fase actual.\nPontos ganhos: %(points)s"
+
+msgid "rankedBattlesUnreachableView/bottom/missions"
+msgstr "Concluir as Missões Pessoais"
+
+msgid "rankedBattlesUnreachableView/bottom/premium"
+msgstr "Utilize Conta %(premiumType)s Premium"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/basic"
+msgstr "Wargaming"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/plus"
+msgstr "WoT"
+
+msgid "rankedBattlesUnreachableView/bottom/reserves"
+msgstr "Activar Reservas Pessoais"
+
+msgid "rankedBattlesUnreachableView/bottomText"
+msgstr "Qual é a forma mais rápida para pesquisar veículos de Nível %(levels)s?"
+
+msgid "rankedBattlesUnreachableView/closeBtnLabel"
+msgstr "FECHAR"
+
+msgid "rankedBattlesUnreachableView/subtitleText"
+msgstr "Modo indisponível"
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForBuy"
+msgstr "Tem de ter veículos de Nível %(levels)s na sua Garagem para lutar nas Batalhas Classificadas.\nVocê tem veículos pesquisados de Nível %(levels)s que ainda não adquiriu."
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForRestore"
+msgstr "Tem de ter veículos de Nível %(levels)s na sua Garagem para lutar nas Batalhas Classificadas.\nVocê tem veículos de Nível %(levels)s que estão disponíveis para recuperação."
+
+msgid "rankedBattlesUnreachableView/vehicleUnavailable"
+msgstr "Tem de ter veículos de Nível %(levels)s na sua Garagem para lutar nas Batalhas Classificadas."
+
+msgid "rankedBattlesViewHeader/tabs/current"
+msgstr "Posto"
+
+msgid "rankedBattlesViewHeader/tabs/final"
+msgstr "Final"
+
+msgid "rankedBattlesWidget/bonusMultiplier"
+msgstr "x%(count)s"
+
+msgid "rankedBattlesWidget/bonusSteps"
+msgstr "para Batalha de Bónus"
+
+msgid "rankedBattlesWidget/league0"
+msgstr "Desconhecido"
+
+msgid "rankedBattlesWidget/league1"
+msgstr "Dourada"
+
+msgid "rankedBattlesWidget/league2"
+msgstr "Prata"
+
+msgid "rankedBattlesWidget/league3"
+msgstr "Bronze"
+
+msgid "rankedBattlesWidget/leagueDecrease/info"
+msgstr "Você retornou à Liga %(leagueName)s"
+
+msgid "rankedBattlesWidget/leagueDecrease/title"
+msgstr "LIGA ALTERADA"
+
+msgid "rankedBattlesWidget/leagueIncrease/info"
+msgstr "Você foi movido para a Liga %(leagueName)s"
+
+msgid "rankedBattlesWidget/leagueIncrease/title"
+msgstr "LIGA ALTERADA"
+
+msgid "rankedBattlesWidget/leaguesAchievment/info"
+msgstr "Agora pode lutar por uma posição na Tabela de Classificação"
+
+msgid "rankedBattlesWidget/leaguesAchievment/title"
+msgstr "LIGAS DISPONÍVEIS"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/info"
+msgstr "Você foi movido para a próxima Divisão"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/title"
+msgstr "NOVA DIVISÃO"
+
+msgid "rankedBattlesWidget/newRankCongrat"
+msgstr "Parabéns!\nPosto recebido!"
+
+msgid "rankedBattlesWidget/noChanges"
+msgstr "Sem alterações"
+
+msgid "rankedBattlesWidget/qualificationIdleText"
+msgstr "Batalhas para concluir a Qualificação:\n%(currentBattles)s / %(totalBattles)s"
+
+msgid "rewardsView/common/currentReward"
+msgstr "Candidato à recompensa"
+
+msgid "rewardsView/tabs/leagues"
+msgstr "Recompensas pelas Ligas"
+
+msgid "rewardsView/tabs/leagues/awardDescr/style"
+msgstr "The estilo %(styleName)s e o crachá %(badgeName)s"
+
+msgid "rewardsView/tabs/leagues/description"
+msgstr "Os estilos e crachás de recompensa são temporários e estão disponíveis para um jogador até ao final da próxima Temporada. Para defender o direito de os aplicar, os jogadores devem alcançar a mesma Liga novamente. Se um jogador não alcançar uma das Ligas, o estilo e o crachá ficam indisponíveis. Se um jogador alcançar outra Liga, o estilo e o crachá serão substituídos pelos correspondentes."
+
+msgid "rewardsView/tabs/leagues/description/league1"
+msgstr "O estilo é atribuído aos vencedores da Temporada que demonstraram resultados notáveis: concluíram todas as Divisões e ficaram no top20%% de jogadores em termos de desempenho ou foram os primeiros jogadores a entrar nas Ligas. Quando aplicado a um veículo, o estilo demonstra as conquistas reais do proprietário. O direito de aplicar este estilo deve ser defendido a cada Temporada do modo Batalhas Classificadas."
+
+msgid "rewardsView/tabs/leagues/description/league2"
+msgstr "O estilo é atribuído aos vencedores da Temporada que demonstraram um nível apropriado de mestria e compromisso entrando na Liga Prata no final da Temporada. Aplicado a um veículo, o estilo demonstra as conquistas reais do proprietário. O direito de aplicar esse estilo deve ser defendido a cada Temporada do modo Batalhas Classificadas."
+
+msgid "rewardsView/tabs/leagues/description/league3"
+msgstr "O estilo é atribuído aos vencedores da Temporada que entraram na Liga Bronze no final da Temporada. Aplicado a um veículo, o estilo demonstra as conquistas reais do proprietário. O direito de aplicar esse estilo deve ser defendido a cada Temporada do modo Batalhas Classificadas."
+
+msgid "rewardsView/tabs/leagues/league1"
+msgstr "Liga Dourada"
+
+msgid "rewardsView/tabs/leagues/league2"
+msgstr "Liga Prata"
+
+msgid "rewardsView/tabs/leagues/league3"
+msgstr "Liga Bronze"
+
+msgid "rewardsView/tabs/ranks"
+msgstr "Recompensas pelos Postos"
+
+msgid "rewardsView/tabs/year"
+msgstr "Recompensas Anuais"
+
+msgid "rewardsView/tabs/year/compensation/extraPoints"
+msgstr "Por %(points)s %(rankedImg)s, recebeu %(crystal)s %(crystalImg)s de compensação"
+
+msgid "rewardsView/tabs/year/compensation/notEnough"
+msgstr "Recebeu %(crystal)s %(crystalImg)s de compensação"
+
+msgid "rewardsView/tabs/year/current"
+msgstr "Candidato à recompensa"
+
+msgid "rewardsView/tabs/year/currentChoose"
+msgstr "Seleccionar Recompensa"
+
+msgid "rewardsView/tabs/year/currentFinal"
+msgstr "Recompensa recebida"
+
+msgid "rewardsView/tabs/year/title/awarded"
+msgstr "Tokens de Posto: %(points)s"
+
+msgid "rewardsView/tabs/year/title/notAwarded"
+msgstr "Tokens de Posto: %(points)s"
+
+msgid "seasonComplete/bestRank"
+msgstr "O seu posto mais alto alcançado"
+
+msgid "seasonComplete/bigTitle"
+msgstr "Resultados da Temporada %(season)s"
+
+msgid "seasonComplete/division/tooltip/header"
+msgstr "Posto %(rank)s (%(division)s)"
+
+msgid "seasonComplete/effectLabel"
+msgstr "Desempenho"
+
+msgid "seasonComplete/leadersButton"
+msgstr "Líderes da Temporada"
+
+msgid "seasonComplete/outOfRating"
+msgstr "Fora da Tabela de Classificação"
+
+msgid "seasonComplete/placeInRating"
+msgstr "Posição na Classificação"
+
+msgid "seasonComplete/smallTitle"
+msgstr "Batalha Classificada"
+
+msgid "seasonComplete/sprinterImproved"
+msgstr "Está entre os primeiros jogadores a entrar nas Ligas e receberá uma recompensa pela Liga Dourada."
+
+msgid "seasonComplete/sprinterTop"
+msgstr "Está entre os primeiros jogadores a entrar nas Ligas."
+
+msgid "seasonComplete/tooltip/body"
+msgstr "Os seus resultados na Temporada %(season)s"
+
+msgid "selectableReward/subTitle"
+msgstr "SELECCIONE A SUA RECOMPENSA"
+
+msgid "selectableReward/title"
+msgstr "BATALHAS CLASSIFICADAS. %(rewardName)s"
+
+msgid "selectableReward/tooltip/equipmentChoice/limit"
+msgstr "Cada item da lista apenas pode ser reclamado uma vez."
+
+msgid "selectableReward/tooltip/equipmentChoice/list"
+msgstr "• Sistema de Ventilação\n• Sistema de Equipamento de Estabilização\n• Sistema de Carregamento Inovador\n• Motor de Pontaria Resistente ao Desgaste\n• Ópticas Experimentais\n• Configuração Melhorada\n• Compressor Melhorado\n• Resistência a Munições Aumentada"
+
+msgid "selectableReward/tooltip/equipmentChoice/title"
+msgstr "Itens de Equipamento Melhorado por Onde Seleccionar"
+
+msgid "selectorTooltip/desc"
+msgstr "Batalhas em veículos pesquisáveis e de Colecionador de Nível X sob as regras das Batalhas Standard. As equipas são constituídas por jogadores com mais ou menos o mesmo posto."
+
+msgid "selectorTooltip/tillEnd"
+msgstr "A Temporada termina em:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/time"
+msgstr "%(start)s - %(end)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Calendário da Batalha"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Hoje"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Amanhã"
+
+msgid "selectorTooltip/title"
+msgstr "Batalha Classificada"
+
+msgid "statistic/playersRaiting"
+msgstr "Líderes da Temporada"
+
+msgid "statistic/vehicleRank"
+msgstr "Tokens de Posto ganhos"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "tooltip/closeButton/body"
+msgstr "A recompensa será adicionada automaticamente."
+
+msgid "tooltip/closeButton/header"
+msgstr "Voltar para a Garagem"
+
+msgid "tooltip/step/conditions"
+msgstr "Se um jogador estiver entre o top %(battlesNum)s de jogadores\nna equipa %(team)s por experiência ganha"
+
+msgid "tooltip/step/conditions/header"
+msgstr "Recebido"
+
+msgid "tooltip/step/decommission/description"
+msgstr "Se um jogador se classificar em %(fromTill)s na equipa perdedora por experiência recebida."
+
+msgid "tooltip/step/decommission/header"
+msgstr "Removido"
+
+msgid "tooltip/step/decommissionWin/description"
+msgstr "Se um jogador se classificar em %(fromTill)s na equipa vencedora por experiência recebida."
+
+msgid "tooltip/step/description"
+msgstr "Um elemento especial que representa o seu progresso para o próximo posto"
+
+msgid "tooltip/step/fromTill"
+msgstr "%(fromPlace)s–%(tillPlace)s"
+
+msgid "tooltip/step/header"
+msgstr "Insígnia"
+
+msgid "tooltip/step/losers"
+msgstr "equipa derrotada"
+
+msgid "tooltip/step/notCharged/description"
+msgstr "Se um jogador não estiver no top %(battlesNum)s de jogadores da equipa vencedora por experiência recebida, mas classificou-se em %(fromTill)s."
+
+msgid "tooltip/step/notCharged/header"
+msgstr "Guardado"
+
+msgid "tooltip/step/notChargedLose/description"
+msgstr "Se um jogador estiver no top %(battlesNum)s de jogadores da equipa perdedora por experiência recebida, mas classificou-se em %(fromTill)s."
+
+msgid "tooltip/step/or"
+msgstr "ou"
+
+msgid "tooltip/step/winners"
+msgstr "equipa vencedora"
+
+msgid "welcomeScreen/btn"
+msgstr "Avançar!"
+
+msgid "welcomeScreen/centerRule"
+msgstr "Alcance postos mais altos em batalhas contra adversários dignos"
+
+msgid "welcomeScreen/centerRuleTooltip/body"
+msgstr "A sua equipa e a equipa inimiga serão constituídas por jogadores com mais ou menos o mesmo posto."
+
+msgid "welcomeScreen/centerRuleTooltip/header"
+msgstr "Digno Adversário"
+
+msgid "welcomeScreen/closeBtn"
+msgstr "FECHAR"
+
+msgid "welcomeScreen/closeBtnTooltip/body"
+msgstr "Clique para fechar o ecrã e regressar à Garagem."
+
+msgid "welcomeScreen/closeBtnTooltip/header"
+msgstr "Fechar"
+
+msgid "welcomeScreen/equalityText"
+msgstr "="
+
+msgid "welcomeScreen/header"
+msgstr "Bem-vindo!"
+
+msgid "welcomeScreen/leftRule"
+msgstr "Combata nos seus veículos \nfavoritos de nível X"
+
+msgid "welcomeScreen/leftRuleTooltip/body"
+msgstr "Combata nos seus veículos pesquisáveis ou de Coleccionador de Nível X\nfavoritos"
+
+msgid "welcomeScreen/leftRuleTooltip/header"
+msgstr "Nível X"
+
+msgid "welcomeScreen/negative/body"
+msgstr "{team}, mas fique entre os melhores {topNumber} jogadores da sua equipa por experiência ganha."
+
+msgid "welcomeScreen/negative/team"
+msgstr "Perder uma batalha"
+
+msgid "welcomeScreen/positive/body"
+msgstr "{team}, e fique entre os melhores {topNumber} jogadores da sua equipa por experiência ganha."
+
+msgid "welcomeScreen/positive/team"
+msgstr "Vencer uma batalha"
+
+msgid "welcomeScreen/rankDescr"
+msgstr "Para alcançar o posto 1"
+
+msgid "welcomeScreen/ranks/header"
+msgstr "Junte-se Aos Melhores Jogadores Por Experiência Recebida e Alcance os Postos Superiores!"
+
+msgid "welcomeScreen/ranksDescr"
+msgstr "Quanto mais alto for a sua posição, mais valiosa a recompensa que recebe."
+
+msgid "welcomeScreen/rightRule"
+msgstr "Quanto mais alto o posto, mais valiosas serão as recompensas que eventualmente receberá"
+
+msgid "welcomeScreen/rightRuleTooltip/body"
+msgstr "Quanto mais alto for o seu posto, mais valiosas as recompensas que recebe."
+
+msgid "welcomeScreen/rightRuleTooltip/header"
+msgstr "Recompensas Valiosas"
+
+msgid "welcomeScreen/rulesDelimeter"
+msgstr "ou"
+
+msgid "yearLeaderboard/rewardView/battleType"
+msgstr "Batalha Classificada"
+
+msgid "yearLeaderboard/rewardView/clanDescr"
+msgstr "[%(clan)s] "
+
+msgid "yearLeaderboard/rewardView/leaderboardBtn/label"
+msgstr "Ir para a Tabela de Classificação"
+
+msgid "yearLeaderboard/rewardView/positionDescr"
+msgstr "Posição de {name} {clan}na Tabela de Classificação"
+
+msgid "yearLeaderboard/rewardView/reward/label"
+msgstr "Recebeu um crachá especial %(name) para equipar ao lado do seu nome."
+
+msgid "yearLeaderboard/rewardView/reward/nameTemplate"
+msgstr "\"{name}\""
+
+msgid "yearLeaderboard/rewardView/title"
+msgstr "Alcançou o top {total}"
+
+msgid "yearRewards/box/big/title"
+msgstr "Recompensa Avançada"
+
+msgid "yearRewards/box/large/title"
+msgstr "Recompensa Máxima"
+
+msgid "yearRewards/box/medium/title"
+msgstr "Recompensa Normal"
+
+msgid "yearRewards/box/small/title"
+msgstr "Recompensa Pequena"
+
+msgid "yearRewards/tooltip/any/reward/title"
+msgstr "Recompensa"
+
+msgid "yearRewards/tooltip/box/big/title"
+msgstr "Recompensa Avançada"
+
+msgid "yearRewards/tooltip/box/large/title"
+msgstr "Recompensa Máxima"
+
+msgid "yearRewards/tooltip/box/medium/title"
+msgstr "Recompensa Normal"
+
+msgid "yearRewards/tooltip/box/small/title"
+msgstr "Recompensa Pequena"
+
+msgid "yearRewards/tooltip/box/subTitle"
+msgstr "Recompensa Anual. Atribuída apenas se o jogador ganhar o número necessário de Tokens de Posto após o final de três Temporadas de Batalhas Classificadas."
+
+msgid "yearRewards/tooltip/equipmentChoice/description/1"
+msgstr "Pode seleccionar uma peça de Equipamento Melhorado como recompensa:"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/2"
+msgstr "Pode seleccionar duas peças de Equipamento Melhorado como recompensa. Cada item só pode ser recebido uma vez:"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/3"
+msgstr "Pode seleccionar três peças de Equipamento Melhorado como recompensa. Cada item só pode ser recebido uma vez:"
+
+msgid "yearRewards/tooltip/equipmentChoice/list"
+msgstr "• Sistema de Ventilação\n• Sistema de Equipamento de Estabilização\n• Sistema de Carregamento Inovador\n• Motor de Pontaria Resistente ao Desgaste\n• Ópticas Experimentais\n• Configuração Melhorada\n• Compressor Melhorado\n• Resistência a Munições Aumentada"
+
+msgid "yearRewards/tooltip/equipmentChoice/title"
+msgstr "Equipamento Melhorado"
+
+msgid "yearRewards/tooltip/needPoints"
+msgstr "Tokens de Posto necessários"
+
+msgid "yearRewards/tooltip/status/current/description"
+msgstr "Você é um candidato a uma Recompensa Anual por ter ganho o número necessário de Tokens de Posto."
+
+msgid "yearRewards/tooltip/status/current/title"
+msgstr "A Sua Recompensa Actual"
+
+msgid "yearRewards/tooltip/status/currentChoose/description"
+msgstr "Recebeu uma Recompensa Anual! Clique no botão Seleccionar Recompensa para seleccionar itens de equipamento melhorado."
+
+msgid "yearRewards/tooltip/status/currentChoose/title"
+msgstr "Recompensa recebida! Os itens de equipamento melhorado estão disponíveis para seleccionar."
+
+msgid "yearRewards/tooltip/status/currentFinal/description"
+msgstr "Recebeu uma Recompensa Anual!"
+
+msgid "yearRewards/tooltip/status/currentFinal/title"
+msgstr "Recompensa Recebida!"
+
+msgid "yearRewards/tooltip/status/locked/description"
+msgstr "Ganhe-as nas Batalhas Classificadas movendo-se pelas Divisões e jogando nas Ligas."
+
+msgid "yearRewards/tooltip/status/locked/title"
+msgstr "Sem Tokens de Posto Suficientes"
+
+msgid "yearRewards/tooltip/status/lockedFinal/description"
+msgstr "Não ganhou Tokens de Posto suficientes para receber esta recompensa."
+
+msgid "yearRewards/tooltip/status/lockedFinal/title"
+msgstr "Sem Tokens de Posto Suficientes"
+
+msgid "yearRewards/tooltip/status/passed/description"
+msgstr "Você já é um candidato a uma Recompensa Anual mais valiosa"
+
+msgid "yearRewards/tooltip/status/passed/title"
+msgstr "Recompensa Indisponível"
+
+msgid "yearRewards/tooltip/status/passedFinal/description"
+msgstr "Você já recebeu uma Recompensa Anual mais valiosa"
+
+msgid "yearRewards/tooltip/status/passedFinal/title"
+msgstr "Recompensa Indisponível"
+
+msgid "year_award/acceptButton/acceptLabel"
+msgstr "Afirmativo!"
+
+msgid "year_award/acceptButton/hangarLabel"
+msgstr "Ver na Garagem"
+
+msgid "year_award/compensationLabel"
+msgstr "Ganhou {total} {pointsIcon}. Por {compensated} {pointsIcon} deles, recebeu {crystals} {crystalIcon} de compensação."
+
+msgid "year_award/rankedLabel"
+msgstr "Batalha Classificada"
+
+msgid "year_award/rewardSelected"
+msgstr "Recompensa recebida"
+
+msgid "year_award/rewardsToSelect"
+msgstr "Recompensas disponíveis para seleccionar: {count}"

@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "Ім’я"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "За місяць"
+
+msgid "ClanListWindow/table/role"
+msgstr "Посада"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "За тиждень"
+
+msgid "battleQueue/clanPosition"
+msgstr "Місце: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "Місце:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "Добираємо супротивника:"
+
+msgid "battleQueue/waitBattle"
+msgstr "Чекаємо на бій:"
+
+msgid "battleQueue/yourTeam"
+msgstr "Ваш загін:"
+
+msgid "disconnected/Warning"
+msgstr "Увага!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "Укріпрайон тимчасово недоступний. Спробуйте пізніше."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "У роумінгу Укріпрайон недоступний. Щоб отримати доступ до Укріпрайону, перейдіть у свій регіон."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "Однокланівці"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "Легіонери"
+
+msgid "fortVehPopover/btnSave"
+msgstr "Зберегти вибір (%(count)d)"
+
+msgid "inspire/inspired"
+msgstr "Наснага"
+
+msgid "inspire/inspiring"
+msgstr "Наснага"
+
+msgid "mainWindow/maintenance/body"
+msgstr "Вибачте за незручності."
+
+msgid "mainWindow/maintenance/button"
+msgstr "Оновити"
+
+msgid "mainWindow/maintenance/header"
+msgstr "Помилка завантаження даних"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "Додатковий інструктаж"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "Бойові виплати"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "Військові навчання"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "Тактична підготовка"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "Додатковий ефект"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "Артбатарея здійснює залп по вказаній площині у Вилазках та при Наступах на 1 бій"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "Додає бонус до основних спеціальностей та всіх навичок екіпажу машини гравця з Наснагою та найближчих союзників у Вилазках та під час Наступу на 1 бій"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "Встановити резерв можна перед боєм"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "Встановити резерв можна перед Наступом"
+
+msgid "reserves/tooltip/empty"
+msgstr "У вас немає резервів для встановлення"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s на Складі"
+
+msgid "reserves/tooltip/level"
+msgstr "%(level)s рівень"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "Ефект від застосування"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "Можна встановлювати"
+
+msgid "reserves/tooltip/selected"
+msgstr "Встановлено"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "Натисніть, щоб переглянути список доступних до встановлення резервів."
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "Встановити резерв може лише командир загону на посаді командувача, заступника командувача, офіцера штабу або командира підрозділу."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "У загоні не вистачає однокланівців: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "До початку битви %(nextDate)s хв"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "Час початку уточнимо пізніше"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "До завершення: %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "Вилазки доступні"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "Найближча битва відбудеться %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "До початку: %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "Початок сьогодні о %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "Початок завтра о %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "Час початку уточнимо пізніше"
+
+msgid "sortie/introView/title"
+msgstr "Укріпрайон: битви"
+
+msgid "sortie/listView/enterBtn"
+msgstr "Записатися"
+
+msgid "sortie/listView/enterText"
+msgstr "Ви можете записатися добровольцем"
+
+msgid "sortie/listView/notSelected"
+msgstr "Виберіть загін зі списку ліворуч,\nщоб побачити докладний опис."
+
+msgid "sortie/listView/teamMembers"
+msgstr "Склад: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "Техніка:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "Легіонер"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "Автодобір легіонера"
+
+msgid "sortie/room/candidates"
+msgstr "Добровольці"
+
+msgid "sortie/room/chat"
+msgstr "Канал зв’язку"
+
+msgid "sortie/room/description"
+msgstr "Сформований загін вступає у бій із випадковим загоном іншого клану супротивника на нейтральній території. Рівень техніки для бою визначається вибраним дивізіоном."
+
+msgid "sortie/room/fight"
+msgstr "До бою!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "Запросити гравців"
+
+msgid "sortie/room/leaveBtn"
+msgstr "ДО ДОБОРУ ЗАГОНУ"
+
+msgid "sortie/room/level"
+msgstr "%(level)s рівень"
+
+msgid "sortie/room/members"
+msgstr "Склад: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "Не готовий"
+
+msgid "sortie/room/ready"
+msgstr "Готовий!"
+
+msgid "sortie/room/title"
+msgstr "Загін"
+
+msgid "sortie/slot/emptySlot"
+msgstr "Вільно"
+
+msgid "sortie/slot/takePlace"
+msgstr "Посісти місце"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "Виберіть машину, якою хочете вступити у бій. Червоний індикатор означає, що техніка не готова до бою."
+
+msgid "stronghold/teamHeader"
+msgstr "Склад загону"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "Вибір техніки для легіонера"
+
+msgid "strongholdPopover/header"
+msgstr "Вибір техніки"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "Вибрано машин:"
+
+msgid "strongholdbuilds/direction"
+msgstr "%(direction)s плацдарм союзників"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "Північний"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "Східний"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "Південний"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "Західний"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "Плацдарм супротивника"
+
+msgid "strongholdbuilds/mapName"
+msgstr "Мапа: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "Мапу буде визначено коли почнеться Наступ"
+
+msgid "strongholdbuilds/point1"
+msgstr "Цитадель"
+
+msgid "strongholdbuilds/point2"
+msgstr "Запасний рубіж"
+
+msgid "strongholdbuilds/point3"
+msgstr "Передовий рубіж"
+
+msgid "strongholdbuilds/point4"
+msgstr "Передовий рубіж"
+
+msgid "strongholdbuilds/point5"
+msgstr "Запасний рубіж"
+
+msgid "strongholdbuilds/point6"
+msgstr "Цитадель"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "×%(reward)s за першу перемогу доби у Наступах на цьому плацдармі"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "Утримання Цитаделі, якщо втратили обидва рубежі"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "Утримання запасного рубежу, якщо втратили передовий"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "Утримання обох рубежів без захоплення рубежів супротивника"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "Захоплення лише передового рубежу"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "Захоплення обох рубежів без захоплення Цитаделі"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "Захоплення Цитаделі супротивника"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "від резерву Реквізиція"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "Нагороду видають після завершення Наступу"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "Приховати від легіонерів"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "Легіонери бачать загін"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "Показувати легіонерам"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "Легіонери не бачать загін"
+
+msgid "strongholddirection/A"
+msgstr "Північного"
+
+msgid "strongholddirection/B"
+msgstr "Східного"
+
+msgid "strongholddirection/C"
+msgstr "Південного"
+
+msgid "strongholddirection/D"
+msgstr "Західного"
+
+msgid "strongholdinfo/sortie"
+msgstr "Вилазка у %(level)s дивізіоні"
+
+msgid "strongholdinfo/stronghold"
+msgstr "Наступ із %(direction)s плацдарму"
+
+msgid "strongholdmap/randomMap"
+msgstr "Випадкова мапа"
+
+msgid "strongholdreserve/boost"
+msgstr "Наснага"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "Великовантажний транспорт"
+
+msgid "strongholdreserve/requisition"
+msgstr "Реквізиція"
+
+msgid "strongholdreserve/support"
+msgstr "Артобстріл"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "У Вилазках та у Наступах на 1 бій"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "За результат здійсненого Наступу"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "Активується, коли починається бій"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "Активується, коли починається Наступ"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "Активується, коли використовують резерв у бою"
+
+msgid "strongholdtable/rating"
+msgstr "Рейтинг"
+
+msgid "strongholdtable/roster"
+msgstr "Склад"
+
+msgid "strongholdtable/tech"
+msgstr "Техніка"
+
+msgid "strongholdtitle/sortie"
+msgstr "Вилазка"
+
+msgid "strongholdtitle/stronghold"
+msgstr "Наступ із %(direction)s плацдарму"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Кордон{/HEADER}{BODY}Нейтральна територія. Переможець атакує рубіж супротивника у наступному бою. У випадку нічиєї того, хто атакує, виберуть випадково.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "Наступ із %(direction)s плацдарму"
+
+msgid "strongholdtooltips/hours"
+msgstr "год"
+
+msgid "strongholdtooltips/minuts"
+msgstr "хв"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "Вилазка у %(level)s дивізіоні"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Тип машини, яку матиме автоматично вибраний легіонер після натискання кнопки «До бою!».\n\nНатисніть, щоб підтвердити або скасувати вибір цього типу техніки для легіонера."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "Вільні місця посядуть автоматично добрані легіонери"

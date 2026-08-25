@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Applica a tutte le {{icon}} {{type}}"
+
+msgid "header/points"
+msgstr "Punti Riserve di combattimento: {{value}}"
+
+msgid "header/title"
+msgstr "RISERVE DI COMBATTIMENTO"
+
+msgid "infoPanel/category/firesupport"
+msgstr "Riserve Attacco"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "Riserve Ricognizione"
+
+msgid "infoPanel/category/tactics"
+msgstr "Riserve Tattiche"
+
+msgid "infoPanel/category/title"
+msgstr "Categoria: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "Nello scenario {{@ colorLegacy 'FFE4C0'}}Scherzo del destino{{/}}, acquistare una Riserva di combattimento ne aumenta il livello di uno e fornisce l'opportunità di migliorarla fino al livello {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "infoPanel/description/unlocked"
+msgstr "Nello scenario {{@ colorLegacy 'FFE4C0'}}Scherzo del destino{{/}}, le Riserve di combattimento posizionate in uno spazio prima della battaglia, hanno una probabilità di essere offerte aumentata del {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "infoPanel/level"
+msgstr "Livello:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}} m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}}%"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}}%/s"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}} s"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "Riserva di combattimento non acquistata"
+
+msgid "infoPanel/status/unlocked"
+msgstr "Riserva di combattimento acquistata"

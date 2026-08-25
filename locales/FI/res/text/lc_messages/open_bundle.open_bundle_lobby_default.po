@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Selvä!"
+
+msgid "attachments_preview/description"
+msgstr "Kolmiulotteisten lisävarusteiden lajitelma"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Eeppinen kolmiulotteinen lisävaruste"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Legendaarinen kolmiulotteinen lisävaruste"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Harvinainen kolmiulotteinen lisävaruste"
+
+msgid "bundle/name"
+msgstr "MYSTEERITORI"
+
+msgid "bundle/name_uppercased"
+msgstr "MYSTEERITORI"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Peruuta"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Osta"
+
+msgid "confirmation/description"
+msgstr "Vahvista saadaksesi arvopaperit ja uuden solupalkinnon."
+
+msgid "confirmation/purchase"
+msgstr "Osta hintaan {{price}}?"
+
+msgid "entryPoint/button"
+msgstr "Mene tapahtumaan"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} on täällä. Tutustu siihen!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Ostaessasi arvopapereita {{eventName}} -tapahtuman aikana saat bonuslahjana palkinnon yhdestä avaamattomasta solusta. Solut sisältävät arvokkaita pelinsisäisiä tarvikkeita, joiden mukana tapahtuman pääpalkinto: premium-vaunu."
+
+msgid "intro/cards/description/c_2"
+msgstr "Palkinnot annetaan satunnaisessa järjestyksessä. Jokaisella avaamattomalla solulla on oma todennäköisyytensä tulla valituksi ja kaikkien todennäköisyyksien summa on aina 100%. Kun solu on avattu, ei sitä voi enää avata uudestaan ja mahdollisuudet jäljellä olevien palkintojen saamiseen kasvavat."
+
+msgid "intro/cards/description/c_3"
+msgstr "Jokainen askel maksaa annetun määrän kultaa. Sekä saatujen arvopapereiden määrä että askeleen hinta vaihtelevat edetessäsi."
+
+msgid "intro/cards/link"
+msgstr "Katso kunkin askeleen ehdot ja hinnat {{@ class 'linkPart'}}portaalista.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Arvopapereiden ostaminen"
+
+msgid "intro/cards/title/c_2"
+msgstr "Solut ja todennäköisyys"
+
+msgid "intro/cards/title/c_3"
+msgstr "Askelhinnat"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "PALKINTOSI ODOTTAVAT"
+
+msgid "main/alt/description"
+msgstr "Näytä todennäköisyys"
+
+msgid "main/alt/tooltip/body"
+msgstr "Paina Alt-näppäintä nähdäksesi todennäköisyyden kunkin solun saamiseen."
+
+msgid "main/alt/tooltip/header"
+msgstr "Todennäköisyysnäyttö"
+
+msgid "main/cell/probability"
+msgstr "{{num}}%"
+
+msgid "main/completed"
+msgstr "ONNEKSI OLKOON! \n OLET SAANUT KAIKKI PALKINNOT"
+
+msgid "main/footer/button"
+msgstr "Osta"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}Palkinto solusta"
+
+msgid "main/footer/receive"
+msgstr "Saat: {{item}}"
+
+msgid "main/header/description"
+msgstr "Osallistu tapahtumaan {{startDate}}–{{endDate}} ja nappaa palkintoja!"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Mene muokkaamiseen"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Mene tyyliin"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Mene vaunuun"
+
+msgid "notifications/specialReward/title"
+msgstr "{{eventName}} -tapahtuman pääpalkinto on sinun!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Lisäpalkinnot:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Saatu:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Tämä operaatio ei ole hetkellisesti saatavilla teknisistä syistä. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Tapahtumaan"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s päättyy pian!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Tapahtuma on saatavilla %(date)s asti."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "%(eventName)s -tapahtuman solu avattu"
+
+msgid "tooltips/entry/description"
+msgstr "Palkintosi odottavat sinua! Jokainen arvopapereiden ostokerta tuo sinulle lahjaksi satunnaisen palkinnon yhdestä lahjasta. Avaat uuden solun joka kerta, kun jo avaamasi poistetaan valikoimasta."
+
+msgid "tooltips/entry/timer"
+msgstr "Tapahtuma on saatavilla {{timer}} ajan"
+
+msgid "tooltips/header/info"
+msgstr "Tapahtumasta"
+
+msgid "tooltips/steps/description"
+msgstr "Jokaisesta ostosta saat lisää {{currency}}. Saamasi määrä kasvaa jokaisella ostoaskeleella."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} jokaisesta ostosta"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Askeleet:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} — {{end}}"

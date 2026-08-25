@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_aggressive_detection/descr/active"
+msgstr "Videokrug će biti proširen za {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose} za {colorTagOpen}%(duration)ss{colorTagClose}.\n\nOvaj tajmer će se resetovati kada je neprijateljsko vozilo uništeno nakon otkrivanja."
+
+msgid "comp7_aggressive_detection/name"
+msgstr "Aktivno izviđanje"
+
+msgid "comp7_ally_support/descr/active"
+msgstr "Tokom {colorTagOpen}%(duration)s s{colorTagClose}, tvoja posada dobija {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} bonus na efikasnost za svako vozilo u tvom timu sa različitom ulogom.\n\nTvoje vozilo će uvek biti uključeno u kalkulaciju ovog bonusa."
+
+msgid "comp7_ally_support/name"
+msgstr "Jedan za sve"
+
+msgid "comp7_aoe_heal/descr/active"
+msgstr "Tokom {colorTagOpen}%(duration)s s{colorTagClose}, zona sa prečnikom od {colorTagOpen}%(radius)s m{colorTagClose} je kreirana oko tvog vozila koja obnavlja {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} poene izdržljivosti tvog vozila i savezničkih vozila."
+
+msgid "comp7_aoe_heal/name"
+msgstr "Popravke na terenu"
+
+msgid "comp7_aoe_inspire/descr/active"
+msgstr "Tokom {colorTagOpen}%(duration)s s{colorTagClose}, tvoja i savezničke posade dobijaju {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} bonus na efikasnost."
+
+msgid "comp7_aoe_inspire/name"
+msgstr "Inspiracija"
+
+msgid "comp7_berserk/descr/active"
+msgstr "Tokom {colorTagOpen}%(duration)s s{colorTagClose}, vreme punjenja topa je smanjeno za {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}. Takođe, rasipanje topa nakon pucanja, tokom pokreta i tokom okretanja kupole i trupa je smanjena za {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nVreme će se poništiti kada naneseš štetu udarcem ili pucanjem sa daljine ispod {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_berserk/name"
+msgstr "Bes"
+
+msgid "comp7_concentration/descr/active"
+msgstr "Tokom {colorTagOpen}%(duration)s s{colorTagClose}, vreme nišanjenja i rasipanje topa tokom kretanja i tokom okretanja trupa i kupole je smanjeno za {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nDok je ova veština uloge aktivna, vreme punjenja između hitaca je smanjeno za {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s s{colorTagClose}."
+
+msgid "comp7_concentration/name"
+msgstr "Fokus na metu"
+
+msgid "comp7_fast_recharge/descr/active"
+msgstr "• Za šaržer sistem punjenja:\npreostalo vreme punjenja je smanjeno za: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n• Za sistem punjenja sa automatskim punjačem:\nSve ispaljene u trenutnom ciklusu će biti napunjene: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\nVeština može biti aktivirana samo tokom procesa ponovnog punjenja.\n\n• Za automatske topove sa termalnom kontrolom pregrevanja:\nToplota topa je smanjena za {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose}od mogućeg maksimuma.\n\nVeština može biti aktivirana ako je top zagrejan."
+
+msgid "comp7_fast_recharge/name"
+msgstr "Brza ruka"
+
+msgid "comp7_hunter/descr/active"
+msgstr "Resetuje broj oštećenih neprijateljskih vozila hicima.\n\nZa {colorTagOpen}%(duration)s s{colorTagClose}, tvoje vozilo će obnoviti {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} poena zdravlja za svako oštećeno vozilo neprijatelja u trenutku aktivacije."
+
+msgid "comp7_hunter/descr/passive"
+msgstr "Vreme punjenja je smanjeno za {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose} za svako neprijateljsko vozilo oštećeno pogotkom."
+
+msgid "comp7_hunter/name"
+msgstr "Lovac na ucene"
+
+msgid "comp7_juggernaut/descr/active"
+msgstr "Tokom {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}:\n• nadolazeća šteta je smanjena za {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• Maksimalna brzina unapred je povećana za {colorTagOpen}%(fwMaxSpeedBonus)s km/h{colorTagClose}\n• Maksimalna brzina unazad je povećana za {colorTagOpen}%(bkMaxSpeedBonus)s km/h{colorTagClose}\n• Snaga motora je povećana za {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• Šteta na neprijateljskim vozila od udara je povećana za {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\nKada je ova veština uloge aktivna, tvoje gusenice će biti unštene jednim hicem."
+
+msgid "comp7_juggernaut/name"
+msgstr "Sila"
+
+msgid "comp7_march/descr/active"
+msgstr "Za {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}, snaga motora tvog vozila će se povrćati za {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, maksimalna brzina unapred će se povećati za {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h a skrivanje će se povećati za {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}."
+
+msgid "comp7_march/name"
+msgstr "Prisilni marš"
+
+msgid "comp7_recon/descr/active"
+msgstr "Izviđački avion će preleteti izabranu oblast u roku od {colorTagOpen}%(delay)s s{colorTagClose}. Neprijateljska vozila otkrivena u prečniku od {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} ostaju otkrivena tokom {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;s{colorTagClose}. Odvojena ikona će biti prikazana za igrača otkrivenog ovom veštinom sa {colorTagOpen}%(lampDelay)s s{colorTagClose} kašnjenja.\n\nOva veština postaje dostupna za upotrebu {colorTagOpen}%(startupDelay)s s{colorTagClose} nakon početka borbe."
+
+msgid "comp7_recon/name"
+msgstr "Izviđački let"
+
+msgid "comp7_redline/descr/active"
+msgstr "Izabrana zona biće napadnuta artiljerijskim napadom na {colorTagOpen}%(delay)s s{colorTagClose}.\n\nCiljevi unutar radijusa {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} će primiti {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} štete i biće ošamućene za {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s s{colorTagClose}."
+
+msgid "comp7_redline/name"
+msgstr "Vatrena podrška"
+
+msgid "comp7_risky_attack/descr/active"
+msgstr "Ubrzanje\n\nZa {colorTagOpen}%(duration)s s{colorTagClose}, snaga motora će se povećati za {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, maksimalna brzina napred će se povećati za {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h, a maksimalna brzina unazad za {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/h.\n\nObnavljanje\n\nZa {colorTagOpen}%(healDuration)s s{colorTagClose}, tvoje vozilo će obnoviti {colorTagOpen}%(baseHeal)s{colorTagClose} poena izdržljivosti {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose} poena izgubljenih dok je ubrzanje aktivno."
+
+msgid "comp7_risky_attack/name"
+msgstr "Drugi vetar"
+
+msgid "comp7_role_skill/descr/startLevel"
+msgstr " \n\nNa početku borbe nivo punjenja uloge veštine je {colorTagOpen} %(startLevel)s{colorTagClose}."
+
+msgid "comp7_sniper/descr/active"
+msgstr "Tokom {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}, rasipanje na 100 m je jednako {colorTagOpen}%(dispersionFactor)s m{colorTagClose}.\n\nAko tvoje vozilo nije uočeno u momentu hica, šteta naneta tvojom granatom će biti povećana za {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}.\n\nMerač vremena će biti poništen za štetu nanetu sa distance veće od {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_sniper/name"
+msgstr "U centar"
+
+msgid "comp7_sure_shot/descr/active"
+msgstr "Za {colorTagOpen}%(duration)s s{colorTagClose}, disperzija topa tokom pokreta i tokom okretanja i pomeranja trupa je smanjena za {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nDok je veština aktivna šteta gađanjem smanjuje vreme punjenja za {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose} procenta za koji su se neprijateljski poeni zdravlja smanjili.\n\nUništenje neprijateljskog vozila smanjuje vreme punjenja za {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}."
+
+msgid "comp7_sure_shot/name"
+msgstr "Čist pogodak"

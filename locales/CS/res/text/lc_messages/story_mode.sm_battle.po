@@ -1,0 +1,671 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-07-20 10:00+0300\nPO-Revision-Date: 2023-07-20 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "battleResult/reason/1"
+msgstr "Všechna nepřátelská vozidla zničena"
+
+msgid "battleResult/reason/11"
+msgstr "Všechny cíle splněny"
+
+msgid "battleResult/reason/3"
+msgstr "Čas bitvy vypršel"
+
+msgid "battleResult/reason/5"
+msgstr "Technická porážka"
+
+msgid "battleResult/reason/8"
+msgstr "Spojenec zničen"
+
+msgid "battleResult/reason/9"
+msgstr "Vaše vozidlo je zničeno"
+
+msgid "battleResult/reason/default"
+msgstr "Důvod neznámý"
+
+msgid "battleResult/resultLabel/tie"
+msgstr "BITVA SKONČILA"
+
+msgid "battleResult/resultLabel/win"
+msgstr "VÍTĚZSTVÍ!"
+
+msgid "berlin/hint01"
+msgstr "Zničte pásy King Tigeru pro Storm Petrel"
+
+msgid "berlin/hint02"
+msgstr "Čekejte a poslouchejte seržanta Brookse"
+
+msgid "berlin/objective01/header"
+msgstr "Pátrejte po nepřátelských „zázračných zbraních“"
+
+msgid "berlin/objective01/subheader"
+msgstr "Postupujte opatrně"
+
+msgid "berlin/objective02/header"
+msgstr "Zadržte!"
+
+msgid "berlin/objective02/subheader"
+msgstr "Řiďte se pokyny z velitelství"
+
+msgid "berlin/objective03/header"
+msgstr "Pátrejte po nepřátelských „zázračných zbraních“"
+
+msgid "berlin/objective03/subheader"
+msgstr "Postupujte opatrně"
+
+msgid "berlin/objective03/success"
+msgstr "Ruiny vyčištěny!"
+
+msgid "berlin/objective04/header"
+msgstr "Počkejte, až seržant Brooks přivolá bombardér"
+
+msgid "berlin/objective04/subheader"
+msgstr "Braňte svou pozici!"
+
+msgid "berlin/objective05/header"
+msgstr "Dorazte nepřátele"
+
+msgid "berlin/objective05/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Zničte %d zbývajícího nepřítele"
+msgstr[1] "Zničte %d zbývající nepřátele"
+msgstr[2] "Zničte %d zbývajících nepřátel"
+
+msgid "berlin/objective05/success"
+msgstr "Bombardér je na cestě! Připravte se!"
+
+msgid "berlin/objective06/header"
+msgstr "Dokončete práci"
+
+msgid "berlin/objective06/subheader"
+msgstr "Zničte pásy Jagdtigeru"
+
+msgid "berlin/objective06/success"
+msgstr "Jagdtiger zničen"
+
+msgid "berlin/objective07/header"
+msgstr "Ukořistěte zázračné zbraně"
+
+msgid "berlin/objective07/subheader"
+msgstr "Zničte pásy Myšky"
+
+msgid "berlin/objective07/success"
+msgstr "Myška zničena a ukořistěna!"
+
+msgid "berlin/prebattle/header"
+msgstr "Postupujte opatrně"
+
+msgid "berlin/prebattle/start"
+msgstr "Pokračovat"
+
+msgid "berlin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "berlin/respawn/header"
+msgstr "Připrav se, vojáku"
+
+msgid "berlin/respawn/subheader"
+msgstr "Blíží se posily"
+
+msgid "berlin/respawn_over/header"
+msgstr "Je konec"
+
+msgid "berlin/respawn_over/subheader"
+msgstr "Všechna dostupná vozidla byla zničena"
+
+msgid "botNames/Brooks"
+msgstr "Seržant Brooks"
+
+msgid "botNames/Connolly"
+msgstr "Por. Arthur Connolly"
+
+msgid "botNames/Dubois"
+msgstr "Kpt. Louis Dubois"
+
+msgid "botNames/McCormick"
+msgstr "Kpt. John McCormick"
+
+msgid "botNames/McLaud"
+msgstr "Alistair MacLeod"
+
+msgid "botNames/Murphy"
+msgstr "Kpt. Jack Murphy"
+
+msgid "botNames/Teddy"
+msgstr "Kpt. Miroslav Kotva"
+
+msgid "botNames/Ulysses"
+msgstr "Kpt. James Corvin"
+
+msgid "bunker"
+msgstr "Pobřežní bunkr"
+
+msgid "common/battleBtn"
+msgstr "Bitva!"
+
+msgid "common/continueBtn"
+msgstr "Pokračovat"
+
+msgid "common/loading"
+msgstr "Načítání"
+
+msgid "common/skipBtn"
+msgstr "Přeskočit"
+
+msgid "confirmExit/exit"
+msgstr "Přeskočit"
+
+msgid "confirmExit/exitRegular"
+msgstr "Opustit"
+
+msgid "confirmExit/stay"
+msgstr "Zrušit"
+
+msgid "confirmExit/title"
+msgstr "Chcete přeskočit příběh Lovce Tigerů?"
+
+msgid "confirmExit/titleRegular"
+msgstr "Chcete opustit příběh?"
+
+msgid "dday/hint01"
+msgstr "Najděte způsob, jak zničit pobřežní bunkry"
+
+msgid "dday/hint02"
+msgstr "Použijte kouřové signály k navedení bitevní lodi"
+
+msgid "dday/objective01/header"
+msgstr "Přežijte na pláži"
+
+msgid "dday/objective01/subheader"
+msgstr "Za každou cenu se vyhněte nepřátelské palbě"
+
+msgid "dday/objective02/header"
+msgstr "Prorazte nepřátelské linie"
+
+msgid "dday/objective02/subheader"
+msgid_plural "plural/dday/objective02/subheader"
+msgstr[0] "Zničte %d pobřežní bunkr"
+msgstr[1] "Zničte %d pobřežní bunkry"
+msgstr[2] "Zničte %d pobřežních bunkrů"
+
+msgid "dday/objective02/success"
+msgstr "Všechny pobřežní bunkry zničeny!"
+
+msgid "dday/objective03/header"
+msgstr "Vyšplhejte nahoru"
+
+msgid "dday/objective03/subheader"
+msgstr "Dosáhněte a zničte nepřátelskou obranu v sektoru B5"
+
+msgid "dday/objective03/success"
+msgstr "Obrana zničena! Využijte tento průlom!"
+
+msgid "dday/objective04/header"
+msgstr "Pomozte svým spojencům prorazit"
+
+msgid "dday/objective04/subheader"
+msgstr "Zneškodněte nepřátelskou obranu v sektoru D6"
+
+msgid "dday/objective04/success"
+msgstr "Cesta pro kapitána Murphyho vyčištěna!"
+
+msgid "dday/objective05/header"
+msgstr "Pomozte kapitánovi Duboisovi"
+
+msgid "dday/objective05/subheader"
+msgstr "Zneškodněte nepřátelskou obranu v sektoru H6"
+
+msgid "dday/objective05/success"
+msgstr "Cesta pro kapitána Duboise vyčištěna!"
+
+msgid "dday/objective06/header"
+msgstr "Chraňte námořní síly"
+
+msgid "dday/objective06/subheader"
+msgid_plural "plural/dday/objective06/subheader"
+msgstr[0] "Zničte %d pobřežní dělo"
+msgstr[1] "Zničte %d pobřežní děla"
+msgstr[2] "Zničte %d pobřežních děl"
+
+msgid "dday/objective06/success"
+msgstr "Všechna pobřežní děla zničena!"
+
+msgid "dday/objective07/header"
+msgstr "Vyčistěte oblast"
+
+msgid "dday/objective07/subheader"
+msgid_plural "plural/dday/objective07/subheader"
+msgstr[0] "Zničte %d zbývajícího nepřítele"
+msgstr[1] "Zničte %d zbývající nepřátele"
+msgstr[2] "Zničte %d zbývajících nepřátel"
+
+msgid "dday/objective07/success"
+msgstr "Všichni nepřátelé zničeni!"
+
+msgid "dday/objective08/header"
+msgstr "Udržte pozice"
+
+msgid "dday/objective08/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Zničte %d nepřátelské vozidlo"
+msgstr[1] "Zničte %d nepřátelská vozidla"
+msgstr[2] "Zničte %d nepřátelských vozidel"
+
+msgid "dday/objective08/success"
+msgstr "Předmostí ubráněno!"
+
+msgid "dday/prebattle/header"
+msgstr "Připravte se na útok"
+
+msgid "dday/prebattle/start"
+msgstr "Zaútočte!"
+
+msgid "dday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "dday/respawn/header"
+msgstr "Připrav se, vojáku"
+
+msgid "dday/respawn/subheader"
+msgstr "Blíží se posily"
+
+msgid "dday/respawn_over/header"
+msgstr "Je konec"
+
+msgid "dday/respawn_over/subheader"
+msgstr "Všechna dostupná vozidla byla zničena"
+
+msgid "epilogue/text"
+msgstr "MacLeod: „Naživu! Brooks je naživu! Je ošklivě popálený. Ale je naživu. Sakra, jasně, že je naživu. Slíbil mi medaili. A ty máš tu svou. Zaslouženě, musím říct. Ten King Tiger jsi opekl dokřupava. Teď jsme si kvit. Ten zásah Tigeru, když jsme tě zachránili, bylo čisté štěstí. Pálil jsem, aniž bych zaměřil. A vidíš, jak to dopadlo? Zdá se, že jsem zachránil sám sebe. A Brookse také.\n\nTeď si můžeme trochu odpočinout. Máme pár dní. Opravíme si tanky a vyrazíme. Berlín čeká.\n\nMimochodem, 7 : 4 pro tebe. Ale Němci ještě nějaké Tigery mít budou, takže uvidíme, kdo zvítězí!“"
+
+msgid "epilogue/title"
+msgstr "ZÁVĚR"
+
+msgid "finish/reason/1"
+msgstr "VŠECHNA NEPŘÁTELSKÁ VOZIDLA ZNIČENA"
+
+msgid "finish/reason/11"
+msgstr "VŠECHNY CÍLE SPLNĚNY"
+
+msgid "finish/reason/3"
+msgstr "ČAS BITVY VYPRŠEL"
+
+msgid "finish/reason/5"
+msgstr "TECHNICKÁ PORÁŽKA"
+
+msgid "finish/reason/8"
+msgstr "SPOJENEC ZNIČEN"
+
+msgid "finish/reason/9"
+msgstr "VAŠE VOZIDLO JE ZNIČENO"
+
+msgid "finish/reason/default"
+msgstr "DŮVOD NEZNÁMÝ"
+
+msgid "hint_aim_weak_spots"
+msgstr "Zelená značka ukazuje vysokou šanci na způsobení poškození"
+
+msgid "hint_move"
+msgstr "Ovládání vozidla"
+
+msgid "hint_move_turret"
+msgstr "Ovládání věže a míření"
+
+msgid "hint_shoot"
+msgstr "Namiřte na nepřátelské vozidlo a palte"
+
+msgid "hint_sniper_enter"
+msgstr "Rolujte kolečkem myši, abyste přešli do odstřelovacího režimu"
+
+msgid "hint_sniper_on_distance_exit"
+msgstr "Rolujte kolečkem myši, abyste opustili odstřelovací režim"
+
+msgid "hint_sniper_weak_spots_enter"
+msgstr "Odstřelovací režim umožňuje lepší zaměření slabých míst nepřátelských vozidel"
+
+msgid "hint_target_unlock"
+msgstr "Automatické míření zapnuto. Zrušíte ho pravým tlačítkem myši."
+
+msgid "ingameMenu/buttons/quit"
+msgstr "Přeskočit intro"
+
+msgid "introVideo/loading"
+msgstr "Načítání..."
+
+msgid "lootCapturing/equipment"
+msgstr "Obsazování: Mapa minového pole"
+
+msgid "lootCapturing/plan"
+msgstr "Obsazování: Část mapy"
+
+msgid "lootCapturing/tank"
+msgstr "Ukořistění nepřátelského vozidla"
+
+msgid "prebattle/mission/stage/1"
+msgstr "Operace 1"
+
+msgid "prebattle/mission/stage/2"
+msgstr "Operace 2"
+
+msgid "prebattle/mission/stage/3"
+msgstr "Operace 3"
+
+msgid "prebattle/mission/stage/4"
+msgstr "Operace 4"
+
+msgid "prebattle/mission/stage/5"
+msgstr "Operace 5"
+
+msgid "prebattle/mission/stage/6"
+msgstr "Operace 6"
+
+msgid "prebattle/mission/stage/7"
+msgstr "Operace 7"
+
+msgid "prebattle/mission/task/1"
+msgstr "Mise: Zaútočte na město a zničte všechna nepřátelská vozidla."
+
+msgid "prebattle/mission/task/2"
+msgstr "Mise: Zaútočte na město a zničte všechna nepřátelská vozidla."
+
+msgid "prebattle/mission/task/3"
+msgstr "Zaútočte na město a zničte všechna nepřátelská vozidla."
+
+msgid "prebattle/mission/task/4"
+msgstr "Najděte a zničte nepřátelské Wunderwaffe."
+
+msgid "prebattle/mission/task/5"
+msgstr "Prorazte obranu, zničte pobřežní děla a obsaďte předmostí."
+
+msgid "prebattle/mission/task/6"
+msgstr "Doručte svým spojencům rozkaz k zastavení palby."
+
+msgid "prebattle/mission/task/7"
+msgstr "Dosáhněte velitelského centra a zastavte odpálení rakety."
+
+msgid "prebattle/mission/text/1"
+msgstr "Brooks: „Tak jak ti je? Už ses vzpamatoval? Doktora navštívíš později. Teď se každé dělo počítá. Útok už začal. A protože jsme přijeli pozdě, nepřítel soustředil všechnu pozornost na druhé křídlo. To je naše šance. Rychlý útok. Vtrhneme do města a zmáčkneme je z obou stran.\n\nPojeď za námi – a vyhni se dračím zubům. Tamhle v poli mají hned několik řad těchhle betonových špičáků. Ale to je v pořádku. Projedeme. Jenom mě musíš poslouchat a řídit se mými rozkazy rychle a přesně. MacLeod a já tě budeme krýt.\n\nJeho vtípků si nevšímej. Všichni máme různé způsoby, jak se vyrovnat s realitou… Vpřed!“"
+
+msgid "prebattle/mission/text/2"
+msgstr "MacLeod: „Ach, Tigery – ty jsou na bojišti nejhorší. Pokud velení říká, že mají problém, téměř jistě mají na mysli Tigery. Nemůžeme kontaktovat první útočnou jednotku, druhá právě vyrazila – a tady jsme my, vyslaní v jejich stopách.\n\nPokud poslali nás, znamená to jediné: Tigery. To je to, co velení řeklo: „Pošlete ty experty na Tigery!“ Devět tanků na dva. To není špatné na půl roku. Vedeš 5 : 4. Ale teď mám šanci tě předběhnout. A konečně získat tu zatracenou medaili!\n\nHonem – Brooks nerad čeká. Náš lov začíná.“"
+
+msgid "prebattle/mission/text/3"
+msgstr "MacLeod: „Tak jo, je to operace Kladivo a kovadlina. Jednoduchý název pro nepříliš jednoduchou práci. Míříme do města, abychom vyčistili nepřátelské síly. Nebude to procházka růžovým sadem – stojíme proti těžkým obrněncům. Ale máme na své straně chytrost, sílu a týmovou spolupráci, že ano, Lucky? A ať je to rychlé, přátelé. Mám plány s malým šálkem „čaje“ o páté, jestli mi rozumíte!“"
+
+msgid "prebattle/mission/text/4"
+msgstr "MacLeod: „Neptej se, Lucky. Nevím o nic víc než ty.\n\nNemám rád všechna tahle tajemství. Jsem radši, když jsou věci jasné. Vidíš nepřítele, bojuješ. Ale tohle? To je zmatek.\n\nVe městě budou také spojenecké tanky. Brooks nás požádal, abychom postupovali opatrně. Co to má znamenat?\nMáme speciální úkol. Najít nějakou „zázračnou zbraň“ – něco obrovského na pásech. Nikdo jiný než my to neudělá, Lucky.\n\nPřipraven? Vyrážíme.“"
+
+msgid "prebattle/mission/text/5"
+msgstr "Kapitán John McCormick: „Tak jo, pánové, ten den nastal. Je čas ukončit tuhle válku, a to přesně uděláme. Všichni společně – Američané, Britové, Francouzi, Kanaďané, Australané, Belgičané, Čechoslováci, Řekové, Holanďané, Novozélanďané, Norové, Poláci. Spojíme se, abychom s tímto zlem jednou provždy skoncovali.\n\nProlomíme Atlantický val a upevníme své pozice.\n\nPřipravte se na vylodění!“"
+
+msgid "prebattle/mission/text/6"
+msgstr "Kapitán Smith: „Poslouchejte. Německo před několika hodinami podepsalo kapitulaci. Válka zítra končí. Ale naši hoši v horách ztratili rádiové spojení – nevědí, že je konec. Za úsvitu se chystají zaútočit na tuhle zatracenou pevnost a Němci uvnitř o kapitulaci taky nevědí. Bude to zbytečná řež. \n\nJsme jediní, kdo to může zastavit. Naším úkolem je proklouznout přes nepřátelské linie a doručit rozkaz k zastavení palby. Je to sebevražedná mise, ale každý zachráněný život za to stojí. \n\nMáme s sebou zajatého německého radistu, který zná terén a má stejnou motivaci jako my zabránit tomuhle krveprolití. \n\nVyrážíme.“"
+
+msgid "prebattle/mission/text/7"
+msgstr "Leni Scharf: „Situace je kritická. Ztratili jsme kontakt s naší raketovou základnou v Norském moři. Průzkumná letka se nevrátila a první tanková výsadková jednotka byla zničena neznámým nepřítelem.\n\nZpravodajské informace naznačují, že se připravují na odpálení balistické rakety. Neznáme cíl, ale v současné politické situaci by jediný odpal mohl vyvolat globální konflikt.\n\nJe to jako za starých časů, že? Další nemožná mise za nepřátelskými liniemi. Vyrážíme!“"
+
+msgid "prebattle/mission/title/1"
+msgstr "Ocelová lavina"
+
+msgid "prebattle/mission/title/2"
+msgstr "Traper"
+
+msgid "prebattle/mission/title/3"
+msgstr "Kladivo a kovadlina"
+
+msgid "prebattle/mission/title/4"
+msgstr "Kočka v pasti na myši"
+
+msgid "prebattle/mission/title/5"
+msgstr "Operace Overlord"
+
+msgid "prebattle/mission/title/6"
+msgstr "Operace Pošťák"
+
+msgid "prebattle/mission/title/7"
+msgstr "Operace Bod varu"
+
+msgid "ruinberg/hint01"
+msgstr "Najděte zkratku a napadněte nepřítele z boku"
+
+msgid "ruinberg/objective01/header"
+msgstr "Vpřed!"
+
+msgid "ruinberg/objective01/subheader"
+msgstr "Tlačte a vyčistěte nepřátelské síly"
+
+msgid "ruinberg/objective02/header"
+msgstr "Projeďte nenápadně kolem"
+
+msgid "ruinberg/objective02/subheader"
+msgstr "Zmáčkněte nepřítele z obou stran"
+
+msgid "ruinberg/objective02/success"
+msgstr "Zničen!"
+
+msgid "ruinberg/objective03/header"
+msgstr "Projeďte nenápadně kolem"
+
+msgid "ruinberg/objective03/subheader"
+msgstr "Zmáčkněte nepřítele z obou stran"
+
+msgid "ruinberg/objective03/success"
+msgstr "Zničen!"
+
+msgid "ruinberg/objective05/header"
+msgstr "Vpřed!"
+
+msgid "ruinberg/objective05/subheader"
+msgstr "Tlačte a vyčistěte nepřátelské síly"
+
+msgid "ruinberg/objective07/header"
+msgstr "Připravte se na protiútok!"
+
+msgid "ruinberg/objective07/subheader"
+msgstr "Držte pozici"
+
+msgid "ruinberg/objective07/success"
+msgstr "Nepřítel zničen!"
+
+msgid "ruinberg/prebattle/header"
+msgstr "Připravte se!"
+
+msgid "ruinberg/prebattle/start"
+msgstr "Zaútočte!"
+
+msgid "ruinberg/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "ruinberg/respawn/header"
+msgstr "Připrav se, vojáku"
+
+msgid "ruinberg/respawn/subheader"
+msgstr "Blíží se posily"
+
+msgid "ruinberg/respawn_over/header"
+msgstr "Je konec"
+
+msgid "ruinberg/respawn_over/subheader"
+msgstr "Všechna dostupná vozidla byla zničena"
+
+msgid "settings/disabledTabsOverlay"
+msgstr "Dokončete příběh Lovce Tigerů, abyste odemkli toto nastavení."
+
+msgid "timersPanel/overturned"
+msgstr "Obnovování vašeho vozidla..."
+
+msgid "vday/hint01"
+msgstr "Rychle se přesuňte za roh"
+
+msgid "vday/hint02"
+msgstr "Připližte se blíž"
+
+msgid "vday/hint03"
+msgstr "Pošlete kpt. Duboise na průzkum okolí"
+
+msgid "vday/hint04"
+msgstr "Použijte ukořistěnou vysílačku k vydání falešného rozkazu Tigeru"
+
+msgid "vday/hint05"
+msgstr "Zkontrolujte německé velitelské stanoviště"
+
+msgid "vday/hint06"
+msgstr "Schopnosti „Průzkum okolí“ a „Falešný rozkaz“ jsou pro váš úspěch klíčové"
+
+msgid "vday/hint07"
+msgstr "Použijte schopnosti „Průzkum okolí“ a „Falešný rozkaz“ k nepozorovanému pohybu"
+
+msgid "vday/hint08"
+msgstr "Jeďte! Je to buď na plný plyn, nebo plná rakev!"
+
+msgid "vday/hint09"
+msgstr "Elitní tanky nelze zmást Falešným rozkazem"
+
+msgid "vday/hint10"
+msgstr "Řiďte se instrukcemi kpt. Smithe a opatrně se pohybujte"
+
+msgid "vday/hint11"
+msgstr "Vraťte se k misi!"
+
+msgid "vday/objective01/header"
+msgstr "Vpřed!"
+
+msgid "vday/objective01/subheader"
+msgstr "Doručte spojeneckým jednotkám rozkaz k zastavení palby"
+
+msgid "vday/objective02/header"
+msgstr "Dosáhněte německého velitelského stanoviště"
+
+msgid "vday/objective02/subheader"
+msgstr "Řiďte se instrukcemi kpt. Smithe"
+
+msgid "vday/objective02/success"
+msgstr "Mapa minového pole ukořistěna"
+
+msgid "vday/objective03/header"
+msgstr "Najděte části mapy průjezdů"
+
+msgid "vday/objective03/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Sebrán %d kus mapy"
+msgstr[1] "Sebrány %d kusy mapy"
+msgstr[2] "Sebráno %d kusů mapy"
+
+msgid "vday/objective03/success"
+msgstr "Mapa průjezdů sestavena"
+
+msgid "vday/objective04/header"
+msgstr "Doručte spojeneckým jednotkám rozkaz k zastavení palby"
+
+msgid "vday/objective04/subheader"
+msgstr "Projeďte minovými poli"
+
+msgid "vday/objective04/success"
+msgstr "Rozkaz k zastavení palby doručen!"
+
+msgid "vday/objective05/header"
+msgstr "Dosáhněte minových polí"
+
+msgid "vday/objective05/subheader"
+msgstr "Propližte se nepřátelskými liniemi"
+
+msgid "vday/objective05/success"
+msgstr "Dosáhli jste minových polí"
+
+msgid "vday/prebattle/header"
+msgstr "Propližte se nepřátelskými liniemi"
+
+msgid "vday/prebattle/start"
+msgstr "Pokračovat"
+
+msgid "vday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "vday/prebattleVeryHard/header"
+msgstr "Projeďte minovým polem"
+
+msgid "vday/prebattleVeryHard/start"
+msgstr "Jeďte"
+
+msgid "vday/prebattleVeryHard/subheader"
+msgstr "?empty?"
+
+msgid "vday/respawn/header"
+msgstr "Buď připraven, vojáku"
+
+msgid "vday/respawn/subheader"
+msgstr "Blíží se posily"
+
+msgid "vday/respawn_over/header"
+msgstr "Je konec"
+
+msgid "vday/respawn_over/subheader"
+msgstr "Všechna dostupná vozidla byla zničena"
+
+msgid "zeppelin/hint01"
+msgstr "Nabijte dělo svého vozidla a způsobte zvýšené poškození"
+
+msgid "zeppelin/hint02"
+msgstr "Poškoďte vzdáleného nepřítele palbou s maximální přesností děla"
+
+msgid "zeppelin/hint03"
+msgstr "Zjistěte, jak vystřelit z přídavné výzbroje tohoto vozidla"
+
+msgid "zeppelin/objective01/failure"
+msgstr "Mise selhala!"
+
+msgid "zeppelin/objective01/header"
+msgstr "Vpřed!"
+
+msgid "zeppelin/objective01/subheader"
+msgstr "Dostaňte se k raketě a zabraňte jejímu odpálení."
+
+msgid "zeppelin/objective02/header"
+msgstr "Objeveno nepřátelské údržbářské zařízení!"
+
+msgid "zeppelin/objective02/subheader"
+msgstr "Ukořistěte opuštěné vozidlo"
+
+msgid "zeppelin/objective02/success"
+msgstr "Vozidlo ukořistěno!"
+
+msgid "zeppelin/objective03/header"
+msgstr "Nový cíl obdržen!"
+
+msgid "zeppelin/objective03/subheader"
+msgstr "Obsaďte odpalovací rampu a velitelské centrum"
+
+msgid "zeppelin/objective03/success"
+msgstr "Odpalovací rampa obsazena"
+
+msgid "zeppelin/objective04/header"
+msgstr "Držte pozici"
+
+msgid "zeppelin/objective04/subheader"
+msgstr "Zničte nepřátelská vozidla: %d"
+
+msgid "zeppelin/objective04/success"
+msgstr "Nepřátelský útok odražen"
+
+msgid "zeppelin/prebattle/header"
+msgstr "Připravte se!"
+
+msgid "zeppelin/prebattle/start"
+msgstr "Pokračujte!"
+
+msgid "zeppelin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "zeppelin/respawn/header"
+msgstr "Buď připraven, veliteli"
+
+msgid "zeppelin/respawn/subheader"
+msgstr "Blíží se posily"
+
+msgid "zeppelin/respawn_over/header"
+msgstr "Konec"
+
+msgid "zeppelin/respawn_over/subheader"
+msgstr "Všechna dostupná vozidla byla zničena"

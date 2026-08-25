@@ -1,0 +1,1547 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Tűzszünet van érvényben az összes szerveren. A csaták %(primeDelta)s múlva lesznek elérhetőek"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "A(z) %(leftSeasonName)s. szezon véget ért"
+
+msgid "alertMessage/allNotSet"
+msgstr "A játékmód nem elérhető a(z) %(serverName)s szerveren"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Válassz másik szervert"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Részletek"
+
+msgid "alertMessage/notAvailable"
+msgstr "Tűzszünet van érvényben a(z) %(serverName)s szerveren"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Tűzszünet van érvényben a(z) %(serverName)s szerveren"
+
+msgid "alertMessage/notSet"
+msgstr "A játékmód nem elérhető a(z) %(serverName)s szerveren"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Tűzszünet van érvényben ezen a szerveren. A csaták %(primeDelta)s múlva lesznek elérhetőek"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "A(z) %(leftSeasonName)s. szezon véget ért"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "A játékmód nem elérhető a(z) %(serverName)s szerveren"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s n"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s ó %(min)s perc"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 perc"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s perc"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Nincs megfelelő %(levels)s szintű jármű a garázsodban"
+
+msgid "awards/bonusBattles/efficiency"
+msgstr "Normál, a teljesített szakaszban nyújtott teljesítményedért: %(amount)s"
+
+msgid "awards/bonusBattles/header"
+msgstr "Megszerzett bónusz csaták:"
+
+msgid "awards/bonusBattles/label"
+msgstr "Megszerzett bónusz csaták: %(count)s"
+
+msgid "awards/bonusBattles/steps/daily"
+msgstr " \nNapi, a kvalifikáció során szerzett stráfokért: %(amount)s"
+
+msgid "awards/bonusBattles/steps/persistent"
+msgstr " \nNormál, a kvalifikáció során szerzett stráfokért: %(amount)s"
+
+msgid "awards/congratulation"
+msgstr "Gratulálunk!"
+
+msgid "awards/gotDivision"
+msgstr "Átjutottál a következő divízióba"
+
+msgid "awards/gotLeague"
+msgstr "Elérted a ligák szintjét"
+
+msgid "awards/gotQualification"
+msgstr "Teljesítetted a kvalifikációs szakaszt és beléptél a harmadik divízióba."
+
+msgid "awards/gotQualificationQuest"
+msgstr "Megkaptad a jutalmat a Kvalifikációért. Megvívott csaták: %(count)s"
+
+msgid "awards/gotRank"
+msgstr "Új rangot szereztél"
+
+msgid "awards/yes"
+msgstr "Értettem!"
+
+msgid "battleResult/losers"
+msgstr "Vesztes csapat"
+
+msgid "battleResult/rank/lose"
+msgstr "Rang elveszítve"
+
+msgid "battleResult/rank/progress/lose"
+msgstr "Stráf elveszítve"
+
+msgid "battleResult/rank/progress/up"
+msgstr "Stráf megszerezve"
+
+msgid "battleResult/rank/unchanged"
+msgstr "Stráf megtartva"
+
+msgid "battleResult/rank/up"
+msgstr "Rang megszerezve"
+
+msgid "battleResult/winners"
+msgstr "Győztes csapat"
+
+msgid "battleResult/yes"
+msgstr "Értettem!"
+
+msgid "battleresult/bonusBattlesEarned"
+msgstr " \n\nBónusz csaták hozzáadva:"
+
+msgid "battleresult/bonusBattlesEarned/efficiency"
+msgstr " \nNormál, a teljesített szakaszban nyújtott teljesítményedért: %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/daily"
+msgstr " \nNapi, a kvalifikáció során szerzett stráfokért: %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/persistent"
+msgstr " \nNormál, a kvalifikáció során szerzett stráfokért: %(amount)s"
+
+msgid "battleresult/bonusBattlesUsed"
+msgstr ". Megvívtál egy bónusz csatát."
+
+msgid "battleresult/divisionEarned"
+msgstr "Új\nDivízió"
+
+msgid "battleresult/first/inTop/lose"
+msgstr "A legjobb játékos vagy a vesztes csapatban a szerzett tapasztalat alapján"
+
+msgid "battleresult/first/inTop/win"
+msgstr "A legjobb játékos vagy a győztes csapatban a szerzett tapasztalat alapján"
+
+msgid "battleresult/first/notInTop/lose"
+msgstr "Nem te vagy a legjobb játékos a vesztes csapatban a szerzett tapasztalat alapján"
+
+msgid "battleresult/first/notInTop/win"
+msgstr "Nem te vagy a legjobb játékos a győztes csapatban a szerzett tapasztalat alapján"
+
+msgid "battleresult/headerText"
+msgstr "Csata eredmények"
+
+msgid "battleresult/inTop/lose"
+msgstr "A(z) %(topNumber)s legjobb játékos között vagy a vesztes csapatban a szerzett tapasztalat alapján"
+
+msgid "battleresult/inTop/win"
+msgstr "A(z) %(topNumber)s legjobb játékos között vagy a győztes csapatban a szerzett tapasztalat alapján"
+
+msgid "battleresult/leagueEarned"
+msgstr "Átjutás a\nLigákba"
+
+msgid "battleresult/leagueUnavailable"
+msgstr "A ligád a ranglista számítás után lesz meghatározva.\n "
+
+msgid "battleresult/notInTop/lose"
+msgstr "Nem vagy a(z) %(topNumber)s legjobb játékos között a vesztes csapatban a szerzett tapasztalat alapján"
+
+msgid "battleresult/notInTop/minXP"
+msgstr "Nem szerezted meg a minimálisan szükséges XP-t."
+
+msgid "battleresult/notInTop/stageSaved"
+msgstr "Jelenleg védve vagy a stráfvesztéstől"
+
+msgid "battleresult/notInTop/win"
+msgstr "Nem vagy a(z) %(topNumber)s legjobb játékos között a győztes csapatban a szerzett tapasztalat alapján"
+
+msgid "battleresult/rankEarned"
+msgstr "Rang\nmegszerezve"
+
+msgid "battleresult/rankLost"
+msgstr "Rang\nelveszítve"
+
+msgid "battleresult/rankUnburnable"
+msgstr "Nincs\nváltozás"
+
+msgid "battleresult/shieldLose"
+msgstr "Rangpáncél\nmegsemmisült"
+
+msgid "battleresult/shieldLoseStep"
+msgstr "Rangpáncél\nmeggyengült"
+
+msgid "battleresult/stageEarned"
+msgstr "Stráf\nmegszerezve"
+
+msgid "battleresult/stageLost"
+msgstr "Stráf\nelveszítve"
+
+msgid "battleresult/stageNotEarned"
+msgstr "Stráf\nmegtartva"
+
+msgid "battleresult/stageSaved"
+msgstr "Stráf\nmegtartva"
+
+msgid "battleresult/stagesEarned"
+msgstr "Stráfok\nmegszerezve"
+
+msgid "battleresult/status/rankEarned"
+msgstr "Rang visszaadva"
+
+msgid "battleresult/status/rankLost"
+msgstr "Rang elveszítve"
+
+msgid "battleresult/status/rankUnburnable"
+msgstr "Nincs változás"
+
+msgid "battleresult/status/shieldCount"
+msgstr " \nMegmaradt életerő: %(count)s"
+
+msgid "battleresult/status/shieldLose"
+msgstr "Rang védelem megszűnt!"
+
+msgid "battleresult/status/shieldLoseStep"
+msgstr "Rang védelem meggyengült!"
+
+msgid "battleresult/status/shieldRenew"
+msgstr " \nRang védelem helyreállt"
+
+msgid "battleresult/status/shieldWarning"
+msgstr " \nEgy további vereség a rangod elvesztéséhez vezethet."
+
+msgid "battleresult/status/stageEarned"
+msgstr "Stráf megszerezve"
+
+msgid "battleresult/status/stageLost"
+msgstr "Stráf elveszett"
+
+msgid "battleresult/status/stageNotEarned"
+msgstr "Stráf megtartva"
+
+msgid "battleresult/status/stageSaved"
+msgstr "Stráf megtartva"
+
+msgid "battleresult/status/stagesEarned"
+msgstr "Stráfok megszerezve"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgstr "A(z) %(seasonName)s. szezon %(days)s napig fog tartani"
+
+msgid "calendarDay/title"
+msgstr "Időbeosztás"
+
+msgid "calendarStepsTooltip/title"
+msgstr "Szakasz menetrendje"
+
+msgid "currentVehicleStatus/unsuitableToQueue"
+msgstr "Nem megfelelő a módhoz"
+
+msgid "division/bronze"
+msgstr "Harmadik divízió"
+
+msgid "division/classification"
+msgstr "Képzettség"
+
+msgid "division/gold"
+msgstr "Első divízió"
+
+msgid "division/silver"
+msgstr "Második divízió"
+
+msgid "division/status/completed"
+msgstr "Divízió teljesítve"
+
+msgid "division/status/completed/description"
+msgstr "Sikeresen teljesítetted a kiválasztott divíziót."
+
+msgid "division/status/locked"
+msgstr "Divízió nem elérhető"
+
+msgid "division/status/locked/description"
+msgstr "Nem teljesítetted az előző divíziót."
+
+msgid "division/status/qualification"
+msgstr "Megvívott csaták: %(progress)s"
+
+msgid "division/status/qualification/progress"
+msgstr "%(current)s / %(total)s"
+
+msgid "division/status/qualificationDescr/complete"
+msgstr "Kvalifikáció teljesítve"
+
+msgid "division/status/qualificationDescr/progress"
+msgstr "Vívj meg %(battlesTotal)s csatát, hogy teljesítsd a Kvalifikációt.\nA Kvalifikáció teljesítésekor jutalmakat kapsz a(z) %(battlesList)s csata lejátszásáért."
+
+msgid "division/tooltip/battlesDescription"
+msgstr "%(battlesCount)s csatából áll"
+
+msgid "division/tooltip/desc/completed/text"
+msgstr "Megkaptál minden rangot ebben a divízióban."
+
+msgid "division/tooltip/desc/completedFinal/text"
+msgstr "Megkaptál minden rangot ebben a divízióban így átkerülsz a ligákba."
+
+msgid "division/tooltip/desc/completedQual/text"
+msgstr "Megfelelő számú kvalifikációs csatában harcoltál."
+
+msgid "division/tooltip/desc/current/text"
+msgstr "Miután teljesítetted, átkerülsz a következő divízióba és bónusz csatákat kapsz a haladásod felgyorsítására."
+
+msgid "division/tooltip/desc/currentFinal/text"
+msgstr "Miután teljesítetted, átkerülsz a ligákba és bónusz csatákat kapsz a szezon legjobbjai között elért helyezésed megszilárdítására vagy javítására."
+
+msgid "division/tooltip/desc/currentQual/text"
+msgstr "A Kvalifikáció teljesítésekor jutalmakat kapsz a(z) %(battles)s csata lejátszásáért.\nA Kvalifikáció teljesítése után a harmadik divízióba kerülsz és megkapod a bónusz csatákat, melyek felgyorsítják a fejlődésed."
+
+msgid "division/tooltip/desc/locked/text"
+msgstr "Miután teljesítetted, átkerülsz a következő divízióba és bónusz csatákat kapsz a haladásod felgyorsítására."
+
+msgid "division/tooltip/desc/lockedFinal/text"
+msgstr "Miután teljesítetted, átkerülsz a ligákba és bónusz csatákat kapsz a szezon legjobbjai között elért helyezésed megszilárdítására vagy javítására."
+
+msgid "division/tooltip/desc/title"
+msgstr "Leírás:"
+
+msgid "division/tooltip/rankDescription"
+msgstr "%(ranksCount)s rangból áll"
+
+msgid "division/tooltip/status/completed"
+msgstr "Divízió teljesítve"
+
+msgid "division/tooltip/status/completedQual"
+msgstr "Teljesítve"
+
+msgid "division/tooltip/status/current"
+msgstr "Divízió nincs teljesítve"
+
+msgid "division/tooltip/status/currentQual"
+msgstr "Nincs teljesítve"
+
+msgid "division/tooltip/status/locked"
+msgstr "Divízió nem elérhető"
+
+msgid "division/tooltip/status/locked/desc"
+msgstr "Először teljesítsd az előző divíziót."
+
+msgid "division/tooltip/status/locked/descQual"
+msgstr "Nem teljesítetted a kvalifikációt."
+
+msgid "introPage/alert/beforeSeason"
+msgstr "Az esemény kezdetéig:"
+
+msgid "introPage/alert/disabled"
+msgstr "A mód átmenetileg nem elérhető. Kérlek, gyere vissza később."
+
+msgid "introPage/blocks/block1/description"
+msgstr "10 a 10 elleni csaták, normál csata szabályok szerint, korlátozott számú pályán, kizárólag X-es szintű kifejleszthető és gyűjtői járművekkel."
+
+msgid "introPage/blocks/block1/title"
+msgstr "X-es szintű járművek"
+
+msgid "introPage/blocks/block2/description"
+msgstr "Teljesíts 3 divíziót a dicsőség felé vezető utadon és érj el egy ligát, azonos képességű játékosokkal harcolva."
+
+msgid "introPage/blocks/block2/title"
+msgstr "Előrehaladás a rangsorolt csatákban"
+
+msgid "introPage/blocks/block3/description"
+msgstr "Miután teljesítetted mindhárom szezont, egy különleges stílust kapsz X-es szintű járművekhez. A 2021–2022-es év végén további értékes jutalmakat és egy egyedi X-es szintű járművet kapsz."
+
+msgid "introPage/blocks/block3/title"
+msgstr "Egyedi jutalmak"
+
+msgid "introPage/blocks/yearRewardDisabled"
+msgstr "Minden megszerzett rang után értékes jutalmat kapsz. Továbbá megkapod az egyedi stílust X-es szintű járművekhez, ha mindhárom szezont teljesíted."
+
+msgid "introPage/btns/accept"
+msgstr "Értettem!"
+
+msgid "introPage/btns/detailed"
+msgstr "Játékmód részletei"
+
+msgid "introPage/btns/toHangar"
+msgstr "A garázsba"
+
+msgid "introPage/description"
+msgstr "10 a 10 elleni csaták, X-es szintű járművek, 3 divízió a dicsőség felé vezető úton."
+
+msgid "introPage/timeLeft/days"
+msgstr "%(day)s n %(hour)s ó"
+
+msgid "introPage/timeLeft/hours"
+msgstr "%(hour)s ó %(min)s perc"
+
+msgid "introPage/timeLeft/lessMin"
+msgstr "1 perc"
+
+msgid "introPage/timeLeft/min"
+msgstr "%(min)s perc"
+
+msgid "notification/rankEarned"
+msgstr "rang megszerezve"
+
+msgid "notification/rankLost"
+msgstr "rang elveszítve"
+
+msgid "notification/rankedMessage"
+msgstr "Gratulálunk!\nElérted a(z) %(rankRoman)s rangot\nÖsszegyűjtött kreditek: %(creditsCount)s\nÖsszegyűjtött pontok: %(expCount)s\nMegszerzett jutalmak: %(medalsCount)s"
+
+msgid "notification/stageEarned"
+msgstr "stráf megszerezve"
+
+msgid "notification/stageLost"
+msgstr "stráf elveszítve"
+
+msgid "notification/stageNotEarned"
+msgstr "stráf megtartva"
+
+msgid "notification/vehicleRankEarned"
+msgstr "jármű rang megszerezve"
+
+msgid "notification/vehicleRankLost"
+msgstr "jármű rang elveszítve"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "A(z) %(serverName)s szerveren \na csaták elérhetőek lesznek %(primeDelta)s múlva"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "A(z) %(serverName)s szerveren \na(z) %(leftSeasonName)s. szezon véget ért."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "A(z) %(serverName)s szerveren \na csaták elérhetőek lesznek további %(primeDelta)s-ig"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "A(z) %(serverName)s szerveren \na csaták elérhetőek lesznek %(primeDelta)s múlva"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "A(z) %(serverName)s szerveren \na(z) %(leftSeasonName)s. szezon véget ért."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "A(z) %(serverName)s szerveren \na csaták elérhetőek lesznek %(primeDelta)s múlva"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "A(z) %(serverName)s szerveren \na(z) %(leftSeasonName)s. szezon véget ért."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s n"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s ó"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "egy perc"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s perc"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Tűzszünet van érvényben minden szerveren"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "A(z) %(leftSeasonName)s szezon a(z) %(serverName)s szerveren véget ért."
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Tűzszünet van érvényben a(z) %(serverName)s szerveren %(primeDeltaDate)s%(primeDeltaTime)s időpontig"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "A(z) %(leftSeasonName)s szezon a(z) %(serverName)s szerveren véget ért."
+
+msgid "primeTimes/statusText/notSet"
+msgstr "A játékmód nem elérhető a(z) %(serverName)s szerveren"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Tűzszünet van érvényben a(z) %(serverName)s szerveren %(primeDeltaDate)s%(primeDeltaTime)s időpontig"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "A(z) %(leftSeasonName)s szezon a(z) %(serverName)s szerveren véget ért."
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "A játékmód nem elérhető a(z) %(serverName)s szerveren"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "A csaták a(z) %(serverName)s szerveren %(primeDelta)s múlva kezdődnek"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "A(z) %(leftSeasonName)s szezon a(z) %(serverName)s szerveren véget ért."
+
+msgid "primeTimes/timeText/available"
+msgstr "A csaták a(z) %(serverName)s szerveren további %(primeDelta)s-ig lesznek elérhetőek"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "A csaták a(z) %(serverName)s szerveren %(primeDelta)s múlva kezdődnek"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "A(z) %(leftSeasonName)s szezon a(z) %(serverName)s szerveren véget ért."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "A csaták a(z) %(serverName)s szerveren %(primeDelta)s múlva kezdődnek"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "A(z) %(leftSeasonName)s szezon a(z) %(serverName)s szerveren véget ért."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "qualificationRewards/battlesNeeded"
+msgstr "Vívj meg %(battlesCount)s csatát hogy teljesítsd a Kvalifikációt."
+
+msgid "qualificationRewards/battlesPlayed"
+msgstr "Megvívott csaták:"
+
+msgid "qualificationRewards/description"
+msgstr "A kvalifikáció teljesítéséért járó jutalmak, akkor lesznek kiosztva, amikor az utolsó kvalifikációs csata befejeződik."
+
+msgid "quests/detailed/allServersPrime"
+msgstr "Tűzszünet"
+
+msgid "quests/detailed/notInLeagues"
+msgstr "Először érd el a ligákat"
+
+msgid "quests/detailed/seasonEnd/days"
+msgstr "A szezon végéig hátravan: %(day)s n"
+
+msgid "quests/detailed/seasonEnd/default"
+msgstr "A szezon hamarosan véget ér"
+
+msgid "quests/detailed/seasonEnd/hours"
+msgstr "A szezon végéig hátravan: %(hour)s ó"
+
+msgid "quests/detailed/seasonEnd/lessMin"
+msgstr "Kevesebb, mint egy perc van hátra a szezonból"
+
+msgid "quests/detailed/seasonEnd/min"
+msgstr "A szezon végéig hátravan: %(min)s p"
+
+msgid "quests/detailed/unavailableLabel"
+msgstr "Nem elérhető:"
+
+msgid "quests/tooltip/unavailable/body/allServersPrime"
+msgstr "A küldetések a rangsorolt csaták tűzszünetének vége után lesznek elérhetők."
+
+msgid "quests/tooltip/unavailable/body/notInLeagues"
+msgstr "Először érd el a ligákat"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/days"
+msgstr "A szezon végéig hátravan: %(day)s n"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/default"
+msgstr "A szezon hamarosan véget ér"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/hours"
+msgstr "A szezon végéig hátravan: %(hour)s ó"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/lessMin"
+msgstr "Kevesebb, mint egy perc van hátra a szezonból"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/min"
+msgstr "A szezon végéig hátravan: %(min)s p"
+
+msgid "quests/tooltip/unavailable/bottom"
+msgstr "Verseny nem elérhető"
+
+msgid "quests/tooltip/unavailable/header/allServersPrime"
+msgstr "Tűzszünet"
+
+msgid "quests/tooltip/unavailable/header/notInLeagues"
+msgstr "Nincs a ligában"
+
+msgid "quests/tooltip/unavailable/header/seasonEnd"
+msgstr "Szezon vége"
+
+msgid "questsTooltip/available"
+msgstr "A szezon végéig hátravan: %(timeDelta)s"
+
+msgid "questsTooltip/available/days"
+msgstr "%(day)s n"
+
+msgid "questsTooltip/available/hours"
+msgstr "%(hour)s ó"
+
+msgid "questsTooltip/available/lessMin"
+msgstr "kevesebb, mint egy perc"
+
+msgid "questsTooltip/available/min"
+msgstr "%(min)s perc"
+
+msgid "questsTooltip/bottom"
+msgstr "Több küldetés: %(number)d"
+
+msgid "questsTooltip/cooldown/days"
+msgstr "Új küldetések %(day)s nap múlva lesznek elérhetők"
+
+msgid "questsTooltip/cooldown/hours"
+msgstr "Új küldetések %(hour)s óra múlva lesznek elérhetők"
+
+msgid "questsTooltip/cooldown/lessMin"
+msgstr "Új küldetések egy perc múlva lesznek elérhetők"
+
+msgid "questsTooltip/cooldown/min"
+msgstr "Új küldetések %(min)s perc múlva lesznek elérhetők"
+
+msgid "questsTooltip/header"
+msgstr "Rangsorolt csata küldetések"
+
+msgid "questsTooltip/unavailable/allServersPrime"
+msgstr "Nem elérhető: Jelenleg tűzszünet van érvényben"
+
+msgid "questsTooltip/unavailable/notInLeagues"
+msgstr "Nem elérhető: előbb érd el a ligákat"
+
+msgid "questsTooltip/unavailable/seasonEnd/days"
+msgstr "Nem elérhető: A szezon %(day)s nap múlva véget ér"
+
+msgid "questsTooltip/unavailable/seasonEnd/hours"
+msgstr "Nem elérhető: A szezon %(hour)s óra múlva véget ér"
+
+msgid "questsTooltip/unavailable/seasonEnd/lessMin"
+msgstr "Nem elérhető: A szezon kevesebb, mint egy perc múlva véget ér"
+
+msgid "questsTooltip/unavailable/seasonEnd/min"
+msgstr "Nem elérhető: A szezon %(min)s perc múlva véget ér"
+
+msgid "rankedAwards/awardsBlock/awardsHeaderTxt"
+msgstr "Jutalom az elért rangért"
+
+msgid "rankedAwards/awardsBlock/crystal"
+msgstr "Kötvények"
+
+msgid "rankedAwards/awardsBlock/description"
+msgstr "Legmagasabb rangod"
+
+msgid "rankedAwards/awardsBlock/points"
+msgstr "Pontok"
+
+msgid "rankedAwards/awardsBlock/title"
+msgstr "%(cycleNumber)s szakasz eredményei"
+
+msgid "rankedBattle/title"
+msgstr "RANGSOROLT CSATÁK"
+
+msgid "rankedBattleCyclesView/tabs/final"
+msgstr "Végső"
+
+msgid "rankedBattleCyclesView/tabs/ranks"
+msgstr "Rang"
+
+msgid "rankedBattleCyclesView/title"
+msgstr "Szezon jutalmak"
+
+msgid "rankedBattleHeader/points/current"
+msgstr "Folyamatban"
+
+msgid "rankedBattleHeader/points/final"
+msgstr "Összes pont: %(points)s"
+
+msgid "rankedBattleHeader/points/past"
+msgstr "Pontok: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/body"
+msgstr "A jelenlegi szakasz véget ér: %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/header"
+msgstr "Szakasz %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/body"
+msgstr "Az előző szakaszban szerzett összes pont összeadódik a döntőkben és a játékosok jutalmat kapnak.\nSzezon döntők—%(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/header"
+msgstr "Szezon döntő"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/body"
+msgstr "A szakasz ekkor kezdődik %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/header"
+msgstr "Szakasz %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/body"
+msgstr "Elért pontok: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/header"
+msgstr "Szakasz %(cycle)d vége"
+
+msgid "rankedBattleHeader/tooltip/date"
+msgstr "%d.%m.%y"
+
+msgid "rankedBattleMainView/bonusBattles"
+msgstr "Bónusz csaták: %(battlesCount)s"
+
+msgid "rankedBattleMainView/date/days"
+msgstr "%(day)s n a végéig"
+
+msgid "rankedBattleMainView/date/hours"
+msgstr "%(hour)s ó a végéig"
+
+msgid "rankedBattleMainView/date/lessMin"
+msgstr "Kevesebb, mint egy perc a végéig"
+
+msgid "rankedBattleMainView/date/min"
+msgstr "%(min)s perc a végéig"
+
+msgid "rankedBattleMainView/date/period"
+msgstr "%(start)s–%(finish)s"
+
+msgid "rankedBattleMainView/divisions/currentRank"
+msgstr "Rangod"
+
+msgid "rankedBattleMainView/divisions/rank"
+msgstr "Rang %(rank)s"
+
+msgid "rankedBattleMainView/emptyBubble"
+msgstr " "
+
+msgid "rankedBattleMainView/infoPage/header"
+msgstr "X-es szintű járművek, szerep tapasztalat, bónusz csaták, előrehaladás 3 divízióban és csaták ligákban."
+
+msgid "rankedBattleMainView/leaguesView/descr"
+msgstr "Szerezz stráfokat és javíts a teljesítményeden, hogy feljebb juss a Ranglistán és bekerülj a legjobb %(count)d közé."
+
+msgid "rankedBattleMainView/leaguesView/league1"
+msgstr "Arany liga"
+
+msgid "rankedBattleMainView/leaguesView/league2"
+msgstr "Ezüst liga"
+
+msgid "rankedBattleMainView/leaguesView/league3"
+msgstr "Bronz liga"
+
+msgid "rankedBattleMainView/leaguesView/top"
+msgstr "TOP %(count)d"
+
+msgid "rankedBattleMainView/leaguesView/topDescr"
+msgstr "Szerezz stráfokat és javíts a teljesítményeden, hogy feljebb juss a Ranglistán és megőrizd pozíciódat a legjobb %(count)d között."
+
+msgid "rankedBattleMainView/leaguesView/unavailableDescr"
+msgstr "A ligád kiszámítása folyamatban. Az eredmény hamarosan elérhető lesz."
+
+msgid "rankedBattleMainView/leaguesView/unavailableTitle"
+msgstr "Liga nem lett kiszámítva"
+
+msgid "rankedBattleMainView/leaguesView/yearLeaderboardDisabled"
+msgstr "Szerezz stráfokat és javíts a teljesítményeden, hogy megőrizd a helyed a ligában."
+
+msgid "rankedBattleMainView/season"
+msgstr "%(season)s szezon"
+
+msgid "rankedBattleMainView/seasonComplete"
+msgstr "A(z) %(season)s. szezon véget ért"
+
+msgid "rankedBattleMainView/seasonCompleteSingle"
+msgstr "A(z) %(season)s. szezon véget ért."
+
+msgid "rankedBattleMainView/seasonGap"
+msgstr "A következő, %(newSeason)s. szezon kezdete %(date)s"
+
+msgid "rankedBattleMainView/seasonGap/bannedDivision/descr"
+msgstr "A szezon alatt szerzett összes rang tokened elvettük a játékszabályok megsértése miatt."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/descr"
+msgstr "A játékszabályok megsértése miatt kizártak a szezon legjobbjainak a listájáról. Továbbá eltávolításra került az összes rang tokened, amit a szezon során szereztél."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/withoutPoints/descr"
+msgstr "Eltávolítottunk a szezon legjobbjainak listájáról a játékszabályok megsértése miatt."
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInDivisions/descr"
+msgstr "Egy rang tokened elvettük a játékszabályok megsértése miatt"
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInSeason/descr"
+msgstr "A szezon alatt szerzett összes rang tokened elvettük a játékszabályok megsértése miatt."
+
+msgid "rankedBattleMainView/seasonGap/division/descr"
+msgstr "Az ebben a szezonban elért legmagasabb rangod"
+
+msgid "rankedBattleMainView/seasonGap/division/ratingBtn"
+msgstr "A szezon legjobbjai"
+
+msgid "rankedBattleMainView/seasonGap/division/title"
+msgstr "%(rank)s rang (%(division)s)"
+
+msgid "rankedBattleMainView/seasonGap/league/descr"
+msgstr "Gratulálunk a szezon sikeres teljesítéséhez!"
+
+msgid "rankedBattleMainView/seasonGap/league/ratingBtn"
+msgstr "Tovább a ranglistához"
+
+msgid "rankedBattleMainView/seasonGap/league1"
+msgstr "Arany liga"
+
+msgid "rankedBattleMainView/seasonGap/league2"
+msgstr "Ezüst liga"
+
+msgid "rankedBattleMainView/seasonGap/league3"
+msgstr "Bronz liga"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/descr"
+msgstr "A legjobb eredményed ebben a szezonban"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/title"
+msgstr "Teljesítetted a kvalifikációt"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/descr"
+msgstr "Nem értél el rangot ebben a szezonban"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/title"
+msgstr "Nincs rang"
+
+msgid "rankedBattleMainView/seasonGap/rolledDivision/descr"
+msgstr "A fiókod visszaállítása után ki lettél zárva a Szezon legjobbjai listáról."
+
+msgid "rankedBattleMainView/seasonGap/rolledLeague/descr"
+msgstr "A fiókod visszaállítása után ki lettél zárva a Szezon legjobbjai listáról."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInDivisions/descr"
+msgstr "A fiókod visszaállítása után ki lettél zárva a Szezon legjobbjai listáról."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInSeason/descr"
+msgstr "A fiókod visszaállítása után ki lettél zárva a Szezon legjobbjai listáról."
+
+msgid "rankedBattleMainView/seasonGap/stats/efficiency"
+msgstr "Teljesítmény"
+
+msgid "rankedBattleMainView/seasonGap/stats/outOfRating"
+msgstr "Ranglistán kívül"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/descr"
+msgstr "A kiszámítást követően látni fogod a végső eredményed és megkapod a megérdemelt jutalmad"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/title"
+msgstr "Eredmények kiszámítása"
+
+msgid "rankedBattleMainView/specialSeason"
+msgstr "X"
+
+msgid "rankedBattleMainView/stats/battlesInLeague"
+msgstr "Csaták ligákban"
+
+msgid "rankedBattleMainView/stats/battlesTotal"
+msgstr "Összes csata"
+
+msgid "rankedBattleMainView/stats/divisionEfficiency"
+msgstr "Teljesítmény a divízióban"
+
+msgid "rankedBattleMainView/stats/qualificationEfficiency"
+msgstr "A kvalifikáción\nelért teljesítmény"
+
+msgid "rankedBattleMainView/stats/qualificationSteps"
+msgstr "Kvalifikáció\nstráfjai"
+
+msgid "rankedBattleMainView/stats/rating/title"
+msgstr "Helyezés a ranglistán"
+
+msgid "rankedBattleMainView/stats/rating/tooltip"
+msgstr "A ranglista %(minutes)s percenként frissül. Legutóbb frissítve: %(time)s"
+
+msgid "rankedBattleMainView/stats/rating/unavailableTooltip"
+msgstr "A ranglista technikai okokból kifolyólag átmenetileg nem frissül."
+
+msgid "rankedBattleMainView/stats/seasonEfficiency"
+msgstr "Általános teljesítmény"
+
+msgid "rankedBattleMainView/stats/stripesInLeague"
+msgstr "Stráfok ligákban"
+
+msgid "rankedBattleMainView/stats/stripesTotal"
+msgstr "Összes stráf"
+
+msgid "rankedBattleMainView/yearGap/header"
+msgstr "Eredményeid 2021–2022-ben"
+
+msgid "rankedBattlePage/closeBtn"
+msgstr "BEZÁRÁS"
+
+msgid "rankedBattleView/awardBlock/emptyLeague"
+msgstr "—"
+
+msgid "rankedBattleView/awardBlock/points/currLeagueHeader"
+msgstr "Jelenlegi liga"
+
+msgid "rankedBattleView/awardBlock/points/header"
+msgstr "A szezon legjobbjai"
+
+msgid "rankedBattleView/awardBlock/points/noLeagueHeader"
+msgstr "Ranglistán kívül"
+
+msgid "rankedBattleView/awardBlock/points/noPriseHeader"
+msgstr "Fa liga"
+
+msgid "rankedBattleView/awardBlock/points/totalLabel"
+msgstr "Összes pont: "
+
+msgid "rankedBattleView/awardBlock/pointsAlt/description"
+msgstr "Kattints a Szezon legjobbjainak megtekintéséhez"
+
+msgid "rankedBattleView/awardBlock/quest/description/battlesLeft"
+msgstr "Lejátszandó érdemi csaták:"
+
+msgid "rankedBattleView/awardBlock/quest/description/noQuest"
+msgstr "Nincs aktuális küldetés"
+
+msgid "rankedBattleView/awardBlock/quest/header"
+msgstr "Küldetés"
+
+msgid "rankedBattleView/awardBlock/seasonAward/description"
+msgstr "Kattints a jutalmak megtekintéséhez"
+
+msgid "rankedBattleView/awardBlock/seasonAward/header"
+msgstr "Szezon jutalmak"
+
+msgid "rankedBattleView/closeBtn"
+msgstr "VISSZA"
+
+msgid "rankedBattleView/closeBtnDescr"
+msgstr "A GARÁZSBA"
+
+msgid "rankedBattleView/nextStageBlock/stage"
+msgstr "Szakasz %(cycleNumber)s"
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/body"
+msgstr "Kattints a Rangsorolt csatákba vezető utad megkezdéséhez."
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/header"
+msgstr "Előre!"
+
+msgid "rankedBattleView/playVideoBtn"
+msgstr "Bemutató videó a játékmódról"
+
+msgid "rankedBattleView/progressBlock/bestRank"
+msgstr "Szezon eredmény"
+
+msgid "rankedBattleView/progressBlock/continue"
+msgstr "Szerezz pontokat, hogy jutalmakat szerezz a döntőben"
+
+msgid "rankedBattleView/progressBlock/currentRank"
+msgstr "Jelenlegi rangod: %(rank)s"
+
+msgid "rankedBattleView/progressBlock/finalRank"
+msgstr "Gratulálunk! Elérted a legmagasabb %(rank)s rangot ebben a szezonban."
+
+msgid "rankedBattleView/progressBlock/steps"
+msgstr "Stráfok: %(numbers)s"
+
+msgid "rankedBattleView/progressBlock/vehicleRank"
+msgstr "Rang tokenek"
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/body"
+msgstr "Kattints a szezon összes szakaszával kapcsolatos információk megtekintéséhez."
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/header"
+msgstr "Naptár"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/attentionText"
+msgstr "%(cycleNumber)s szakasz eredményei %(timeLeft)s múlva"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/cycleItem"
+msgstr "Szezon %(cycleNumber)s: %(day0)s/%(month0)s—%(day1)s/%(month1)s"
+
+msgid "rankedBattleView/statusBlock/statusText"
+msgstr "A szezon eredmények lezárásra kerülnek: "
+
+msgid "rankedBattleView/title"
+msgstr "Rangsorolt csata"
+
+msgid "rankedBattlesBattleResults/animationCheckBoxLabel"
+msgstr "Animáció megjelenítése"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s nem harcolhat rangsorolt csatákban."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/header"
+msgstr "Nem kompatibilis jármű típus"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/body"
+msgstr "Rangsorolt csatákban való harchoz válassz egy %(levelSubStr)s szintű járművet."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/header"
+msgstr "Nem kompatibilis jármű szint"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "%(levels)s szintű járműre"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s nem harcolhat rangsorolt csatákban."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/header"
+msgstr "Nem kompatibilis jármű"
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/body"
+msgstr "A szakasz végén lehetett megkapni, értékes jutalmakat tartalmazott. A jutalmak száma és értéke a ranglistán elfoglalt helyezéstől függött."
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/header"
+msgstr "Láda jutalmakkal"
+
+msgid "rankedBattlesCyclesView/btnClose"
+msgstr "BEZÁRÁS"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/awardRecieved"
+msgstr "Megszerzett jutalom"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/body"
+msgstr "Egy szakasz végén kaptad, különböző jutalmakat tartalmaz. A jutalmak száma és értéke az elért rang függvényei."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/header"
+msgstr "Láda jutalmakkal"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/body"
+msgstr "Beválthatók új egyedi tárgyakra: személyes tartalékokra és ritka felszerelésekre. Egy kötvény egy személyes tartalék szettre vagy felszerelésre váltható be. Minél több kötvényt szerzel, annál több értékes tárgyat szerezhetsz."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/header"
+msgstr "Kötvények"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rank"
+msgstr "Rang"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rankAward"
+msgstr "Jutalom az elért rangért"
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/body"
+msgstr "Az egy szakaszban elért legjobb eredmény jutalma. A legjobb eredmény nem tűnik el még akkor sem ha a rangot elveszted."
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/header"
+msgstr "Jutalom a szakasz végén"
+
+msgid "rankedBattlesCyclesView/currentCycle/vehicleRankComment"
+msgstr "Szokásos jutalom"
+
+msgid "rankedBattlesCyclesView/final/btnLadder"
+msgstr "Tovább a ranglistához"
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/body"
+msgstr "Kattints a Szezon legjobbjai lista és a helyezésed megtekintéséhez."
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/header"
+msgstr "A szezon legjobbjai"
+
+msgid "rankedBattlesCyclesView/final/first"
+msgstr "%(count)s legjobb játékos"
+
+msgid "rankedBattlesCyclesView/final/intermediate"
+msgstr "következő %(count)s"
+
+msgid "rankedBattlesCyclesView/final/last"
+msgstr "Fa liga"
+
+msgid "rankedBattlesCyclesView/final/lastComment"
+msgstr "Szerezz pontokat, hogy előrelépj a ranglistán.\nA végső jutalom attól függ, hogy milyen\nligában játszol éppen."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/noLeagueDataTooltip"
+msgstr "Az aktuális ligádról átmenetileg nem érhető el információ. Próbáld meg később."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/position"
+msgstr "Helyezés a ranglistán"
+
+msgid "rankedBattlesCyclesView/final/tableHeader/seasonAward"
+msgstr "Végső jutalom"
+
+msgid "rankedBattlesCyclesView/noAchievements/future/footer"
+msgstr "Ettől az időponttól %(start)s, eddig az időpontig %(end)s"
+
+msgid "rankedBattlesCyclesView/noAchievements/past/footer"
+msgstr "Nem értél el helyezést ebben a szakaszban.\nGyűjtött pontok: %(points)s"
+
+msgid "rankedBattlesUnreachableView/bottom/missions"
+msgstr "Teljesíts személyes küldetéseket"
+
+msgid "rankedBattlesUnreachableView/bottom/premium"
+msgstr "Használj %(premiumType)s Prémium fiókot"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/basic"
+msgstr "Wargaming"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/plus"
+msgstr "WoT"
+
+msgid "rankedBattlesUnreachableView/bottom/reserves"
+msgstr "Aktiválj személyes tartalékokat"
+
+msgid "rankedBattlesUnreachableView/bottomText"
+msgstr "Mi a leggyorsabb módja, hogy kifejlessz %(levels)s szintű járműveket?"
+
+msgid "rankedBattlesUnreachableView/closeBtnLabel"
+msgstr "BEZÁRÁS"
+
+msgid "rankedBattlesUnreachableView/subtitleText"
+msgstr "Mód nem elérhető"
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForBuy"
+msgstr "A rangsorolt csatában való részvételhez %(levels)s. szintű járműveknek kell lennie a garázsodban.\nMár kifejlesztettél %(levels)s szintű járműveket, amiket még nem vásároltál meg."
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForRestore"
+msgstr "A rangsorolt csatában való részvételhez %(levels)s. szintű járműveknek kell lennie a garázsodban.\n%(levels)s visszaállítható járműved van."
+
+msgid "rankedBattlesUnreachableView/vehicleUnavailable"
+msgstr "A rangsorolt csatában való részvételhez %(levels)s. szintű járműveknek kell lennie a garázsodban."
+
+msgid "rankedBattlesViewHeader/tabs/current"
+msgstr "Rang"
+
+msgid "rankedBattlesViewHeader/tabs/final"
+msgstr "Végső"
+
+msgid "rankedBattlesWidget/bonusMultiplier"
+msgstr "x%(count)s"
+
+msgid "rankedBattlesWidget/bonusSteps"
+msgstr "Bónusz csatáért"
+
+msgid "rankedBattlesWidget/league0"
+msgstr "Ismeretlen"
+
+msgid "rankedBattlesWidget/league1"
+msgstr "Arany"
+
+msgid "rankedBattlesWidget/league2"
+msgstr "Ezüst"
+
+msgid "rankedBattlesWidget/league3"
+msgstr "Bronz"
+
+msgid "rankedBattlesWidget/leagueDecrease/info"
+msgstr "Visszatértél a(z) %(leagueName)s ligába"
+
+msgid "rankedBattlesWidget/leagueDecrease/title"
+msgstr "LIGA VÁLTOZÁS"
+
+msgid "rankedBattlesWidget/leagueIncrease/info"
+msgstr "Átjutottál a(z) %(leagueName)s ligába"
+
+msgid "rankedBattlesWidget/leagueIncrease/title"
+msgstr "LIGA VÁLTOZÁS"
+
+msgid "rankedBattlesWidget/leaguesAchievment/info"
+msgstr "Most már harcolhatsz egy ranglistás helyezésért"
+
+msgid "rankedBattlesWidget/leaguesAchievment/title"
+msgstr "ELÉRHETŐ LIGÁK"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/info"
+msgstr "Átjutottál a következő divízióba"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/title"
+msgstr "ÚJ DIVÍZIÓ"
+
+msgid "rankedBattlesWidget/newRankCongrat"
+msgstr "Gratulálunk!\nRang megszerezve!"
+
+msgid "rankedBattlesWidget/noChanges"
+msgstr "Nincs változás"
+
+msgid "rankedBattlesWidget/qualificationIdleText"
+msgstr "A kvalifikáció teljesítéséhez szükséges csaták:\n%(currentBattles)s / %(totalBattles)s"
+
+msgid "rewardsView/common/currentReward"
+msgstr "Versenyben a jutalomért"
+
+msgid "rewardsView/tabs/leagues"
+msgstr "Jutalmak a ligákért"
+
+msgid "rewardsView/tabs/leagues/awardDescr/style"
+msgstr "A(z) %(styleName)s stílus és a(z) %(badgeName)s jelvény"
+
+msgid "rewardsView/tabs/leagues/description"
+msgstr "A jutalom stílusok és jelvények ideiglenesek és csak a következő szezon végéig érhetőek el a játékos számára. Ahhoz, hogy a játékos megtarthassa őket, el kell érnie ugyanazt a ligát még egyszer. Ha a játékos nem jut be egyetlen ligába sem, akkor a stílus és jelvény elveszik. Ha a játékos másik ligába lép, akkor a stílus és jelvény annak a ligának megfelelőre változik."
+
+msgid "rewardsView/tabs/leagues/description/league1"
+msgstr "A stílus azon szezon győztesek jutalma, akik figyelemre méltó eredményeket értek el: minden divíziót teljesítettek és bekerültek a legjobb 20%%-ba teljesítmény alapján vagy az elsők között jutottak be a ligába. Járművön használva a stílus a tulajdonosa által elért eredményeket bizonyítja. A stílus használatának jogát a rangsorolt csaták minden szezonjában meg kell védeni."
+
+msgid "rewardsView/tabs/leagues/description/league2"
+msgstr "A stílus azon szezon győztesek jutalma, akik megfelelő szintű kiválóságot és elkötelezettséget bizonyítva bejutottak az ezüst ligába a szezon végére. Járművön használva, a stílus a tulajdonosa által elért eredményeket bizonyítja. A stílus használatának jogát a rangsorolt csaták minden szezonjában meg kell védeni."
+
+msgid "rewardsView/tabs/leagues/description/league3"
+msgstr "A stílus azon szezon győztesek jutalma, akik bejutottak a bronz ligába a szezon végére. Járművön használva, a stílus a tulajdonosa által elért eredményeket bizonyítja. A stílus használatának jogát a rangsorolt csaták minden szezonjában meg kell védeni."
+
+msgid "rewardsView/tabs/leagues/league1"
+msgstr "Arany liga"
+
+msgid "rewardsView/tabs/leagues/league2"
+msgstr "Ezüst liga"
+
+msgid "rewardsView/tabs/leagues/league3"
+msgstr "Bronz liga"
+
+msgid "rewardsView/tabs/ranks"
+msgstr "Jutalmak a rangokért"
+
+msgid "rewardsView/tabs/year"
+msgstr "Éves jutalmak"
+
+msgid "rewardsView/tabs/year/compensation/extraPoints"
+msgstr "%(points)s%(rankedImg)s-ért %(crystal)s%(crystalImg)s-t kaptál kompenzációként"
+
+msgid "rewardsView/tabs/year/compensation/notEnough"
+msgstr "%(crystal)s%(crystalImg)s-t kaptál kompenzációként"
+
+msgid "rewardsView/tabs/year/current"
+msgstr "Versenyben a jutalomért"
+
+msgid "rewardsView/tabs/year/currentChoose"
+msgstr "Válassz jutalmat"
+
+msgid "rewardsView/tabs/year/currentFinal"
+msgstr "Megszerzett jutalom"
+
+msgid "rewardsView/tabs/year/title/awarded"
+msgstr "Rang tokenek: %(points)s"
+
+msgid "rewardsView/tabs/year/title/notAwarded"
+msgstr "Rang tokenek: %(points)s"
+
+msgid "seasonComplete/bestRank"
+msgstr "Legmagasabb elért rangod"
+
+msgid "seasonComplete/bigTitle"
+msgstr "%(season)s szezon eredményei"
+
+msgid "seasonComplete/division/tooltip/header"
+msgstr "%(rank)s rang (%(division)s)"
+
+msgid "seasonComplete/effectLabel"
+msgstr "Teljesítmény"
+
+msgid "seasonComplete/leadersButton"
+msgstr "A szezon legjobbjai"
+
+msgid "seasonComplete/outOfRating"
+msgstr "Ranglistán kívül"
+
+msgid "seasonComplete/placeInRating"
+msgstr "Helyezés a ranglistán"
+
+msgid "seasonComplete/smallTitle"
+msgstr "Rangsorolt csata"
+
+msgid "seasonComplete/sprinterImproved"
+msgstr "Az elsők között jutottál be a ligákba, ezért megkapod az arany ligáért járó jutalmakat."
+
+msgid "seasonComplete/sprinterTop"
+msgstr "Az elsők között jutottál be a ligákba."
+
+msgid "seasonComplete/tooltip/body"
+msgstr "Eredményeid a(z) %(season)s. szezonban"
+
+msgid "selectableReward/subTitle"
+msgstr "VÁLASZD KI A JUTALMAD"
+
+msgid "selectableReward/title"
+msgstr "RANGSOROLT CSATÁK. %(rewardName)s"
+
+msgid "selectableReward/tooltip/equipmentChoice/limit"
+msgstr "A listán szereplő tételek mindegyike csak egyszer szerezhető meg."
+
+msgid "selectableReward/tooltip/equipmentChoice/list"
+msgstr "• Szellőztető rendszer\n• Stabilizáló rendszer\n• Innovatív töltőrendszer\n• Kopásálló célzórendszer\n• Kísérleti távcső\n• Fejlesztett konfiguráció\n• Fejlesztett kompresszor\n• Megnövelt lövésállóság"
+
+msgid "selectableReward/tooltip/equipmentChoice/title"
+msgstr "Választható fejlesztett felszerelések"
+
+msgid "selectorTooltip/desc"
+msgstr "Csaták X-es szintű, kifejleszthető és gyűjtői járművekkel, normál csata szabályokkal. A csapatokban többé-kevésbé hasonló rangú játékosoknak kell lennie."
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Szezon véget ér:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Csata beosztás"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Ma"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Holnap"
+
+msgid "selectorTooltip/title"
+msgstr "Rangsorolt csata"
+
+msgid "statistic/playersRaiting"
+msgstr "A szezon legjobbjai"
+
+msgid "statistic/vehicleRank"
+msgstr "Megszerzett rang tokenek"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s nap"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s óra"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 perc"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s perc"
+
+msgid "tooltip/closeButton/body"
+msgstr "A jutalmat automatikusan megkapod."
+
+msgid "tooltip/closeButton/header"
+msgstr "Vissza a garázsba"
+
+msgid "tooltip/step/conditions"
+msgstr "Ha a játékos a %(team)s a legjobb %(battlesNum)s játékos\nközött van a szerzett XP alapján"
+
+msgid "tooltip/step/conditions/header"
+msgstr "Megszerezve"
+
+msgid "tooltip/step/decommission/description"
+msgstr "Ha a játékos %(fromTill)s helyezést ér el a vesztes csapatban a megszerzett tapasztalat alapján."
+
+msgid "tooltip/step/decommission/header"
+msgstr "Eltávolítva"
+
+msgid "tooltip/step/decommissionWin/description"
+msgstr "Ha a játékos %(fromTill)s helyezést ér el a nyertes csapatban a megszerzett tapasztalat alapján."
+
+msgid "tooltip/step/description"
+msgstr "Speciális elem, ami a következő rang felé történő előrehaladásod jeleníti meg"
+
+msgid "tooltip/step/fromTill"
+msgstr "%(fromPlace)s–%(tillPlace)s"
+
+msgid "tooltip/step/header"
+msgstr "Az olasz kihívás"
+
+msgid "tooltip/step/losers"
+msgstr "vesztes csapatban"
+
+msgid "tooltip/step/notCharged/description"
+msgstr "Ha a játékos nincs a győztes csapat %(battlesNum)s legjobb játékosa között a megszerzett tapasztalat alapján, de %(fromTill)s helyen végez."
+
+msgid "tooltip/step/notCharged/header"
+msgstr "Elmentve"
+
+msgid "tooltip/step/notChargedLose/description"
+msgstr "Ha a játékos nincs a vesztes csapat %(battlesNum)s legjobb játékosa között a megszerzett tapasztalat alapján, de %(fromTill)s helyen végez."
+
+msgid "tooltip/step/or"
+msgstr "vagy"
+
+msgid "tooltip/step/winners"
+msgstr "győztes csapatban"
+
+msgid "welcomeScreen/btn"
+msgstr "Előre!"
+
+msgid "welcomeScreen/centerRule"
+msgstr "Érj el magasabb rangot csatákban méltó ellenfelek ellen"
+
+msgid "welcomeScreen/centerRuleTooltip/body"
+msgstr "A te csapatod és az ellenfél csapat is többé-kevésbé azonos szintű játékosokból áll."
+
+msgid "welcomeScreen/centerRuleTooltip/header"
+msgstr "Méltó ellenfél"
+
+msgid "welcomeScreen/closeBtn"
+msgstr "BEZÁRÁS"
+
+msgid "welcomeScreen/closeBtnTooltip/body"
+msgstr "Kattints az ablak bezárásához és a visszatéréshez a Garázsba."
+
+msgid "welcomeScreen/closeBtnTooltip/header"
+msgstr "Bezárás"
+
+msgid "welcomeScreen/equalityText"
+msgstr "="
+
+msgid "welcomeScreen/header"
+msgstr "Üdvözlünk!"
+
+msgid "welcomeScreen/leftRule"
+msgstr "Harcolj a kedvenc X-es szintű járművedben"
+
+msgid "welcomeScreen/leftRuleTooltip/body"
+msgstr "Harcolj a kedvenc X-es szintű, kifejleszthető vagy gyűjtői\njárműveidben"
+
+msgid "welcomeScreen/leftRuleTooltip/header"
+msgstr "X-es szint"
+
+msgid "welcomeScreen/negative/body"
+msgstr "{team}, de legyél a {topNumber} legtöbb XP-t szerző játékos között a csapatodban."
+
+msgid "welcomeScreen/negative/team"
+msgstr "Veszíts"
+
+msgid "welcomeScreen/positive/body"
+msgstr "{team} és legyél a {topNumber} legtöbb XP-t szerző játékos között a csapatodban."
+
+msgid "welcomeScreen/positive/team"
+msgstr "Nyerj egy csatát"
+
+msgid "welcomeScreen/rankDescr"
+msgstr "1. rang megszerzéséhez"
+
+msgid "welcomeScreen/ranks/header"
+msgstr "Legyél a legtöbb XP-t szerzők között és érj el magasabb rangot!"
+
+msgid "welcomeScreen/ranksDescr"
+msgstr "Minél jobb helyezést érsz el, annál nagyobb jutalomban részesülsz."
+
+msgid "welcomeScreen/rightRule"
+msgstr "Minél magasabb rangot érsz el, annál nagyobb jutalomban részesülsz"
+
+msgid "welcomeScreen/rightRuleTooltip/body"
+msgstr "Minél jobb rangot érsz el, annál nagyobb jutalomban részesülsz."
+
+msgid "welcomeScreen/rightRuleTooltip/header"
+msgstr "Értékes jutalmak"
+
+msgid "welcomeScreen/rulesDelimeter"
+msgstr "vagy"
+
+msgid "yearLeaderboard/rewardView/battleType"
+msgstr "Rangsorolt csata"
+
+msgid "yearLeaderboard/rewardView/clanDescr"
+msgstr "[%(clan)s] "
+
+msgid "yearLeaderboard/rewardView/leaderboardBtn/label"
+msgstr "Tovább a ranglistához"
+
+msgid "yearLeaderboard/rewardView/positionDescr"
+msgstr "{name} {clan}helyezése a Ranglistán"
+
+msgid "yearLeaderboard/rewardView/reward/label"
+msgstr "Szereztél egy speciális %(name) jelvényt, melyet kitehetsz a neved mellé."
+
+msgid "yearLeaderboard/rewardView/reward/nameTemplate"
+msgstr "\"{name}\""
+
+msgid "yearLeaderboard/rewardView/title"
+msgstr "Bekerültél a legjobb {total} közé"
+
+msgid "yearRewards/box/big/title"
+msgstr "Nagy jutalom"
+
+msgid "yearRewards/box/large/title"
+msgstr "Maximális jutalom"
+
+msgid "yearRewards/box/medium/title"
+msgstr "Általános jutalom"
+
+msgid "yearRewards/box/small/title"
+msgstr "Kis jutalom"
+
+msgid "yearRewards/tooltip/any/reward/title"
+msgstr "Jutalom"
+
+msgid "yearRewards/tooltip/box/big/title"
+msgstr "Nagy jutalom"
+
+msgid "yearRewards/tooltip/box/large/title"
+msgstr "Maximális jutalom"
+
+msgid "yearRewards/tooltip/box/medium/title"
+msgstr "Normál jutalom"
+
+msgid "yearRewards/tooltip/box/small/title"
+msgstr "Kis jutalom"
+
+msgid "yearRewards/tooltip/box/subTitle"
+msgstr "Éves jutalom. Csak akkor szerezhető meg, ha a játékos kellő mennyiségű rang tokent gyűjt össze a rangsorolt csaták három szezonja alatt."
+
+msgid "yearRewards/tooltip/equipmentChoice/description/1"
+msgstr "Választhatsz egy fejlesztett felszerelést jutalmul:"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/2"
+msgstr "Két fejlesztett felszerelést választhatsz jutalmul. Mindegyik csak egyszer szerezhető meg:"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/3"
+msgstr "Három fejlesztett felszerelést választhatsz jutalmul. Mindegyik csak egyszer szerezhető meg:"
+
+msgid "yearRewards/tooltip/equipmentChoice/list"
+msgstr "• Szellőztető rendszer\n• Stabilizáló rendszer\n• Innovatív töltőrendszer\n• Kopásálló célzórendszer\n• Kísérleti távcső\n• Fejlesztett konfiguráció\n• Fejlesztett kompresszor\n• Megnövelt lövésállóság"
+
+msgid "yearRewards/tooltip/equipmentChoice/title"
+msgstr "Fejlesztett felszerelés"
+
+msgid "yearRewards/tooltip/needPoints"
+msgstr "Szükséges rang tokenek"
+
+msgid "yearRewards/tooltip/status/current/description"
+msgstr "Versenyben vagy az éves jutalomért, mivel elegendő mennyiségű rang tokent gyűjtöttél össze."
+
+msgid "yearRewards/tooltip/status/current/title"
+msgstr "Jelenlegi jutalmad"
+
+msgid "yearRewards/tooltip/status/currentChoose/description"
+msgstr "Éves jutalomban részesültél! Kattints a Jutalom kiválasztása gombra a fejlesztett felszerelési tárgyak kiválasztásához."
+
+msgid "yearRewards/tooltip/status/currentChoose/title"
+msgstr "Jutalmat kaptál! Fejlesztett felszerelési tárgyak közül lehet választani."
+
+msgid "yearRewards/tooltip/status/currentFinal/description"
+msgstr "Megszerezheted az éves jutalmat!"
+
+msgid "yearRewards/tooltip/status/currentFinal/title"
+msgstr "Jutalom megszerezve!"
+
+msgid "yearRewards/tooltip/status/locked/description"
+msgstr "Szerezd meg őket rangsorolt csatákban a divíziókban való előrejutással és ligákban való játékkal."
+
+msgid "yearRewards/tooltip/status/locked/title"
+msgstr "Nincs elegendő rang token"
+
+msgid "yearRewards/tooltip/status/lockedFinal/description"
+msgstr "Nem gyűjtöttél össze elegendő rang tokent, hogy megszerezd ezt a jutalmat."
+
+msgid "yearRewards/tooltip/status/lockedFinal/title"
+msgstr "Nincs elegendő rang token"
+
+msgid "yearRewards/tooltip/status/passed/description"
+msgstr "Már versenyben vagy egy értékesebb éves jutalomért"
+
+msgid "yearRewards/tooltip/status/passed/title"
+msgstr "Jutalom nem elérhető"
+
+msgid "yearRewards/tooltip/status/passedFinal/description"
+msgstr "Már megszereztél egy értékesebb éves jutalmat"
+
+msgid "yearRewards/tooltip/status/passedFinal/title"
+msgstr "Jutalom nem elérhető"
+
+msgid "year_award/acceptButton/acceptLabel"
+msgstr "Értettem!"
+
+msgid "year_award/acceptButton/hangarLabel"
+msgstr "Megtekintés a Garázsban"
+
+msgid "year_award/compensationLabel"
+msgstr "{total} {pointsIcon}-t gyűjtöttél. {compensated} {pointsIcon}-ért {crystals} {crystalIcon}-t kaptál kompenzációként."
+
+msgid "year_award/rankedLabel"
+msgstr "Rangsorolt csata"
+
+msgid "year_award/rewardSelected"
+msgstr "Megszerzett jutalom"
+
+msgid "year_award/rewardsToSelect"
+msgstr "Választható jutalmak: {count}"

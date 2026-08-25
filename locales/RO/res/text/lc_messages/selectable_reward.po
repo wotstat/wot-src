@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "error/button"
+msgstr "Recepționat!"
+
+msgid "error/description"
+msgstr "Informație temporar indisponibilă. Ne oferim scuze pentru inconveniențe. Te rugăm să încerci mai târziu."
+
+msgid "error/title"
+msgstr "Nu pot deschide selecția recompenselor"
+
+msgid "footer/closeBtn/label"
+msgstr "Selectează mai târziu"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "Selectează recompensa din categoriile oferite."
+msgstr[1] "Selectează recompense din categoriile oferite."
+msgstr[2] "Selectează recompense din categoriile oferite."
+
+msgid "footer/okBtn/label"
+msgstr "Revendică"
+
+msgid "footer/rewardsSelected"
+msgstr "Recompense selectate:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "Selectează recompensa din categoria oferită."
+msgstr[1] "Selectează recompense din categoria oferită."
+msgstr[2] "Selectează recompense din categoria oferită."
+
+msgid "reward/packSizeCount"
+msgstr "{packSize}x"
+
+msgid "reward/state_limited"
+msgstr "Limită atinsă"
+
+msgid "reward/state_received"
+msgstr "Deja obținut"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "S-a atins limita articolelor selectate din această categorie. Poți anula selectarea unui articol pentru a adăuga un altul."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "Limită atinsă"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "Directive\npentru echipament"
+
+msgid "tabs/items/battle_booster"
+msgstr "Directivele de echipament"
+
+msgid "tabs/items/blueprint"
+msgstr "Fragmente de proiect"
+
+msgid "tabs/items/brochure"
+msgstr "Broșură de antrenament"
+
+msgid "tabs/items/crewbook"
+msgstr "Manual de antrenament"
+
+msgid "tabs/items/deluxe"
+msgstr "Echipament îmbunătățit"
+
+msgid "tabs/items/expequipments"
+msgstr "Echipament\nexperimental"
+
+msgid "tabs/items/guide"
+msgstr "Ghid de antrenament"
+
+msgid "tabs/items/modernized_device"
+msgstr "Echipament experimental"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "Echipament experimental, nivelul 1"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "Echipament experimental, nivelul 2"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "Echipament experimental, nivelul 3"
+
+msgid "tabs/items/new_device"
+msgstr "Echipament standard"
+
+msgid "tabs/items/trophy"
+msgstr "Echipament recompensă"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "Apasă butonul „Revendică” pentru a primi recompensele selectate."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " %(count)sx"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "Recompense selectate: %(white_open)s%(count)s%(white_close)s"

@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Återställningen av träffpoäng avbryts om vagnen tar skada.\n\nÅterställningstakt och gränsen för hur mycket som kan återställas baseras på vagnens totala mängd träffpoäng, inklusive alla bonusar."
+
+msgid "armorPatching/alt/info"
+msgstr "För gruppförmågor räknas genomsnittsnivån för alla besättningsmedlemmar. Den får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Låter Reparationslådan återställa %(hpRecover)s av vagnens {yellow_Start}träffpoäng{yellow_End} under 5 s, upp till totalt 20% av maxpoängen per strid. Gör det möjligt att använda Reparationslåda utan kritisk skada."
+
+msgid "armorPatching/hudDescription"
+msgstr "Träffpoäng återställda."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "När förmågan är fullt tränad för alla besättningsmedlemmar återställer den %(hpRecover)s av vagnens {yellow_Start}träffpoäng{yellow_End} under 5 s, upp till totalt 20% av maxpoängen per strid. Gör det möjligt att använda Reparationslåda utan även utan kritisk skada."
+
+msgid "armorPatching/name"
+msgstr "Pansarlagning"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Ökar vagnens maskeringsvärde."
+
+msgid "brotherhood/alt/description"
+msgstr "Besättningseffektivitetsbonusen ökar besättningsmedlemmens effektivitet i strid samt effektgraden för alla deras tränad förmågor, förutom den här. Värdet kan förbättras ytterligare med hjälp av utrustning eller förnödenheter med samma effekt, eller med hjälp av anvisningen Ventilationsrengöring. Även vagnschefsförmågan Nödläge samt signalistförmågorna Sida vid sida och Kommunikationsexpert ökar det här värdet."
+
+msgid "brotherhood/alt/info"
+msgstr "För gruppförmågor räknas genomsnittsnivån för alla besättningsmedlemmar. Den får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "Ökar {greenBright_Start}besättningseffektivitetsbonusen{greenBright_End} för hela besättningen med %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "När alla besättningsmedlemmar har förmågan tränad till 100% ökar den {greenBright_Start}besättningseffektivitetsbonusen{greenBright_End} för hela besättningen med%(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Vapenbröder"
+
+msgid "brotherhood/shortDescription"
+msgstr "Ökar besättningens övergripande effektivitet."
+
+msgid "camouflage/alt/description"
+msgstr "Förmågan påverkar vagnens maskeringsvärde. Det kan ökas ytterligare med anvisningen Naturlig maskering.\n\nDessutom kan vagnens maskeringsvärde ökas genom att använda kamouflage eller en stil, eller genom att montera utrustning med motsvarande effekt."
+
+msgid "camouflage/alt/info"
+msgstr "För gruppförmågor räknas genomsnittsnivån för alla besättningsmedlemmar. Den får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "Ökar vagnens {greenBright_Start}maskeringsvärde{greenBright_End} med %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Ökar vagnens {greenBright_Start}maskeringsvärde{greenBright_End} med %(maskingFactor)s när den är fullt tränad av alla besättningsmedlemmar&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Maskering"
+
+msgid "camouflage/shortDescription"
+msgstr "Ökar vagnens maskeringsvärde."
+
+msgid "commander_coordination/alt/description"
+msgstr "Effekten aktiveras varje gång en fiendevagn upptäcks och räknas inte samman om flera vagnar observeras samtidigt.\n\nSikttiden kan ökas ytterligare med skyttens förmåga Snabbsikte eller med hjälp av utrustning med motsvarande effekt."
+
+msgid "commander_coordination/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "Ger %(vehicleGunAimSpeed)s {yellow_Start}snabbare sikte{yellow_End} under 15 s efter att du upptäckt en fiendevagn."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Ger snabbare sikte."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Ger %(vehicleGunAimSpeed)s {yellow_Start}snabbare sikte{yellow_End} under 15 s efter att du upptäckt en fiendevagn när den är fullt tränad av alla besättningsmedlemmar.\t"
+
+msgid "commander_coordination/name"
+msgstr "Koordinering"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Ger snabbare sikte."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Siktsträckan kan förbättras ytterligare med hjälp av signalistens förmåga Situationsmedvetenhet eller med hjälp av utrustning med motsvarande effekt. Anvisningen Riktmedelskalibrering förbättrar effekten."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "Ökar {greenBright_Start}siktsträckan{greenBright_End} med %(circularVisionRadius)s&zwnbsp;. Minskar {greenBright_Start}den negativa effekten från skadade observationsenheter{greenBright_End} med %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Minskar den negativa effekten från skadade observationsenheter."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {greenBright_Start}siktsträckan{greenBright_End} med %(circularVisionRadius)s&zwnbsp; och minskar {greenBright_Start}den negativa effekten från skadade observationsenheter{greenBright_End} med %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Spaning"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Ökar siktsträckan, extra effekt när observationsenheten är skadad."
+
+msgid "commander_emergency/alt/description"
+msgstr "Effekten staplas inte av upprepad skada från samma fiende. Besättningseffektivitetsbonusen ökar besättningsmedlemmens effektivitet i strid. Värdet kan förbättras ytterligare med hjälp av utrustning och förnödenheter med motsvarande effekt. Även gruppförmågan Vapenbröder och signalistens förmågor Sida vid sida och Kommunikationsexpert höjer värdet."
+
+msgid "commander_emergency/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "Ökar {yellow_Start}Besättningseffektivitetsbonusen{yellow_End} med %(crewLevelIncrease)s i 15 s efter vagnen skadas av en fiende."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Ökar besättningseffektivitetsbonusen."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {yellow_Start}besättningseffektivitetsbonusen{yellow_End} med %(crewLevelIncrease)s i 15 s efter vagnen skadas av en fiende."
+
+msgid "commander_emergency/name"
+msgstr "Nödläge"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Ökar besättningseffektivitetsbonusen."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "En varning om artillerivarning aktiveras en kort stund efter att fientligt artilleri öppnat eld.\n\nEffekten kan förbättras med hjälp av anvisningen Höjd uppmärksamhet."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "{yellow_Start}Varnar om inkommande artillerield{yellow_End} och visar eldriktning med %(artNotificationDelayFactor)s fördröjning. Minskar den {greenBright_Start}negativa effekten av chock{greenBright_End} med %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Fullt tränad förmåga {yellow_Start}varnar om inkommande artillerield{yellow_End} och visar eldriktning med %(artNotificationDelayFactor)s fördröjning. Minskar den {greenBright_Start}negativa effekten av chock{greenBright_End} med %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Ljudspårning"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Indikerar fientlig artillerield."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Besättningseffektivitetsbonusen ökar besättningsmedlemmens effektivitet i strid.\n\nVärdet kan förbättras ytterligare med hjälp av utrustning eller förnödenheter med samma effekt, eller med hjälp av anvisningen Ventilationsrengöring. Även flera andra besättningsförmågor ökar det här värdet."
+
+msgid "commander_holdLine/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "Ökar {yellow_Start}besättningseffektivitetsbonusen{yellow_End} med %(crewLevelIncrease)s när fiendelaget har tre eller fler vagnar mer än det egna laget&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Ökar besättningseffektivitetsbonusen (fienden i numerärt överläge)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {yellow_Start}besättningseffektivitetsbonusen{yellow_End} med %(crewLevelIncrease)s när fiendelaget har tre eller fler vagnar mer än det egna laget&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Håll linjen"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Ökar besättningseffektivitetsbonusen"
+
+msgid "commander_practical/alt/description"
+msgstr "Förmågan fungerar med alla sorters förnödenheter.\n\nEffekten kan förbättras med hjälp av anvisningen Grundliga förberedelser."
+
+msgid "commander_practical/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "Minskar {greenBright_Start}nedkylningstiden för förnödenheter{greenBright_End} med %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Fullt tränad förmåga minskar {greenBright_Start}nedkylningstiden för förnödenheter{greenBright_End} med %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Händig"
+
+msgid "commander_practical/shortDescription"
+msgstr "Minskar nedkylningstiden för förnödenheter."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Sjätte sinnet fungerar inte när vagnschefen är skadad. Aktiveringstiden kan minskas med signalistens förmåga Signalpejling."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "En speciell vagnschefsförmåga som inte kräver träning och som alltid är tillgänglig för vagnschefer."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Varnar vagnschefen när vagnen har upptäckts av fienden. Aktiveras %(delay)s efter att vagnen upptäckts."
+
+msgid "commander_sixthSense/name"
+msgstr "Sjätte sinnet"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Låter vagnschefen veta när deras vagn blivit upptäckt av fienden."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Besättningseffektivitetsbonusen ökar besättningsmedlemmens effektivitet i strid.\n\nVärdet kan förbättras ytterligare med hjälp av utrustning eller förnödenheter med samma effekt, eller med hjälp av anvisningen Ventilationsrengöring. Även flera andra besättningsförmågor ökar det här värdet."
+
+msgid "commander_staySharp/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "Ökar {yellow_Start}besättningseffektivitetsbonusen{yellow_End} med %(crewLevelIncrease)s under 15&nbsp;s efter att Förbandslåda används. Gör det möjligt att använda Förbandslåda även när inga besättningsmedlemmar är skadade&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Ökar besättningseffektivitetsbonus (när Förbandslåda används)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {yellow_Start}besättningseffektivitetsbonusen{yellow_End} med %(crewLevelIncrease)s under 15 s efter att Förbandslåda används. Gör det möjligt att använda Förbandslåda även när inga besättningsmedlemmar är skadade&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Håll skärpan"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Ökar besättningseffektivitetsbonusen"
+
+msgid "commander_tutor/alt/description"
+msgstr "En skadad vagnschef kan inte ersätta en annan besättningsmedlem. Bonusen gäller bara för grunderfarenheten besättningen tjänar i strid.\n\nExtra besättningserfarenhet kan erhållas från läromedel eller genom att konvertera fri erfarenhet till besättningserfarenhet."
+
+msgid "commander_tutor/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Ökar intjänad {greenBright_Start}erfarenhet{greenBright_End} med %(xpBonusFactorPerLevel)s för alla besättningsmedlemmar. Vagnschefen kan {greenBright_Start}ersätta utslagna besättningsmedlemmar{greenBright_End} med %(woundedCrewEfficiency)s effektivitet."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Vagnschefen ersätter utslagna besättningsmedlemmar."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Fullt tränad ökar förmågan intjänad {greenBright_Start}erfarenhet{greenBright_End} med %(xpBonusFactorPerLevel)s för alla besättningsmedlemmar samt låter vagnschefen {greenBright_Start}ersätta utslagna besättningsmedlemmar{greenBright_End} med %(woundedCrewEfficiency)s effektivitet."
+
+msgid "commander_tutor/name"
+msgstr "Mentor"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Vagnschefen ersätter utslagna besättningsmedlemmar."
+
+msgid "commander_universalist/alt/description"
+msgstr "Vagnschefen kan ersätta huvudutbildningen för en utslagen besättningsmedlem. Effektiviteten minskar för varje utslagen besättningsmedlem."
+
+msgid "commander_universalist/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Låter vagnschefen {greenBright_Start}ersätta utslagna besättningsmedlemmar{greenBright_End} med %(woundedCrewEfficiency)s effektivitet."
+
+msgid "commander_universalist/hudDescription"
+msgstr "När besättningsmedlemmar blir utslagna kan vagnschefen ta över deras uppgifter."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Fullt tränad förmåga låter vagnschefen {greenBright_Start}ersätta utslagna besättningsmedlemmar{greenBright_End} med %(woundedCrewEfficiency)s effektivitet."
+
+msgid "commander_universalist/name"
+msgstr "Mångsysslare"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Låter vagnschefen ersätta utslagna besättningsmedlemmar."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Minskar negativa effekter på vagnens manöverförmåga och acceleration vid körning på halvmjukt underlag. Minskar avsevärt de negativa effekterna vid körning på mjukt underlag så att det likställs med halvmjukt underlag.\nManöverförmågan på mjukt- och halvmjukt underlag kan inte bli bättre än manöverförmågan på fast underlag."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "Fullt tränad förmåga minskar {greenBright_Start}hastighetsförlusten på halvmjukt underlag{greenBright_End} med %(mediumGroundFactor)s&zwnbsp; och sätter {greenBright_Start}hastighetsförlusten på mjukt underlag{greenBright_End} till %(softGroundFactor)s av värdet för halvmjukt underlag."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Fullt tränad förmåga minskar {greenBright_Start}hastighetsförlusten på halvmjukt underlag{greenBright_End} med %(mediumGroundFactor)s&zwnbsp; och sätter {greenBright_Start}hastighetsförlusten på mjukt underlag{greenBright_End} till %(softGroundFactor)s av värdet för halvmjukt underlag."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Terrängkörning"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Besättningseffektivitetsbonusen ökar besättningsmedlemmens effektivitet i strid.\n\nVärdet kan förbättras ytterligare med hjälp av utrustning eller förnödenheter med samma effekt, eller med hjälp av anvisningen Ventilationsrengöring. Även flera andra besättningsförmågor ökar det här värdet."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "Ökar {yellow_Start}besättningseffektivitetsbonusen{yellow_End} med %(crewLevelIncrease)s om blockerad skada är mer än din egen vagns ursprungliga träffpoäng."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Ökar besättningseffektivitetsbonusen (när tillräckligt med skada har blockerats)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {yellow_Start}besättningseffektivitetsbonusen{yellow_End} med %(crewLevelIncrease)s om blockerad skada är mer än din egen vagns ursprungliga träffpoäng."
+
+msgid "driver_bulletproof/name"
+msgstr "Skottsäker"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Vagnens topphastighet kan ökas ytterligare, och negativa effekter av en skadad motor kan minskas med hjälp av utrustning med motsvarande effekt."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "Ökar vagnens {greenBright_Start}topphastighet framåt{greenBright_End} och {greenBright_Start}bakåt{greenBright_End} med %(vehicleForwardMaxSpeed)s. {greenBright_Start}Negativa effekter från en skadad motor{greenBright_End} minskas med %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Minskar negativa effekter från en skadad motor."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar vagnens {greenBright_Start}topphastighet framåt{greenBright_End} och {greenBright_Start}bakåt{greenBright_End} med %(vehicleForwardMaxSpeed)s. {greenBright_Start}Negativa effekter från en skadad motor{greenBright_End} minskas med %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Ingenjör"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Minskar negativa effekter från en skadad motor."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Förmågan aktiveras när två vagnar från samma lag kolliderar.\n\nKollisionsskadan kan minskas ytterligare med hjälp av utrustning med motsvarande effekt."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "Ökar {greenBright_Start}skadan åsamkad fiendevagnar genom rammning{greenBright_End} med %(damageEnemiesByRamming)s&zwnbsp;.{greenBright_Start}Skada från rammning på din vagn {greenBright_End} minskas med %(vehicleRamDamageResistance)s&zwnbsp;, och på {greenBright_Start}din upphängning{greenBright_End} med %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {greenBright_Start}skadan åsamkad fiendevagnar genom rammning{greenBright_End} med %(damageEnemiesByRamming)s&zwnbsp;.{greenBright_Start}Skada från rammning på din vagn {greenBright_End} minskas med %(vehicleRamDamageResistance)s&zwnbsp;, och på {greenBright_Start}din upphängning{greenBright_End} med %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Krocksäkerhet"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Minskar kollisionsskadan för din egen vagn och ökar den på fienden."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Skada från spränggranater kan minskas ytterligare med hjälp av utrustning med motsvarande effekt."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "Ökar {greenBright_Start}absorberingen av sprängskada{greenBright_End} med %(vehicleHEShellDamageResistance)s&zwnbsp;. Minskar&nbsp;{greenBright_Start}risken för motorbrand{greenBright_End} med %(vehicleFireChance)s och {greenBright_Start}skadan på upphängningen{greenBright_End} med %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {greenBright_Start}absorberingen av sprängskada{greenBright_End} med %(vehicleHEShellDamageResistance)s&zwnbsp;. Minskar {greenBright_Start}risken för motorbrand{greenBright_End} med %(vehicleFireChance)s och {greenBright_Start}skadan på upphängningen{greenBright_End} med %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Säker placering"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Påverkar inte träffsäkerheten för en stillastående vagn eller vid skrovrotation.\n\nEffekten kan förbättras med anvisningen Avancerad växellåda. Träffsäkerheten i rörelse kan förbättras ytterligare med hjälp av utrustning med motsvarande effekt eller med anvisningen Stabilisatorsmörjning."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "Minskar {greenBright_Start}siktesspridning{greenBright_End} vid eldgivning i rörelse med%(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Fullt tränad förmåga minskar {greenBright_Start}siktesspridning{greenBright_End} vid eldgivning i rörelse med%(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Mjuk körning"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Förbättrar träffsäkerheten vid eldgivning i rörelse."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Förmågan påverkar hur snabbt upphängningen repareras från röd till gul status inom 50 m från en allierad vagn."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "Ökar {yellow_Start}hur snabbt upphängningen repareras{yellow_End} med %(suspensionRepairSpeed)s inom 50 m från en allierad vagn."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Ökar reparationshastigheten (nära en allierad)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {yellow_Start}hur snabbt upphängningen repareras{yellow_End} med %(suspensionRepairSpeed)s inom 50 m från en allierad vagn."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Fältunderstöd"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Vagnens brandmotstånd kan förbättras ytterligare med hjälp av utrustning och förnödenheter med motsvarande effekt. Förmågan Brandbekämpning gör att eventuella bränder släcks snabbare."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "Minskar {greenBright_Start}risken för motorbrand{greenBright_End} med %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Fullt tränad förmåga minskar {greenBright_Start}risken för motorbrand{greenBright_End} med %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Förebyggande underhåll"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Minskar risken för motorbrand."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Skrovrotationshastigheten kan förbättras ytterligare med hjälp av utrustning eller förnödenheter med motsvarande effekt."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "Ökar {greenBright_Start}skrovrotationshastigheten{greenBright_End} med %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {greenBright_Start}skrovrotationshastigheten{greenBright_End} med %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Motorbromsning"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Ökar skrovrotationshastigheten."
+
+msgid "fireFighting/alt/description"
+msgstr "Förmågan påverkar skadan från brand och brandens varaktighet.\n\nOm två signalister har förmågan räknas medelvärdet av deras träningsnivå.\n\nEffekten kan förbättras med anvisningen Brandbekämpningserfarenhet."
+
+msgid "fireFighting/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "Ökar {greenBright_Start}brandbekämpningshastigheten{greenBright_End} med %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {greenBright_Start}brandbekämpningshastigheten{greenBright_End} med %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Brandbekämpning"
+
+msgid "fireFighting/shortDescription"
+msgstr "Förbättrar förmågan Brandbekämpning."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Skadepotential och genomslagsförmåga avviker som standard ±25% från det nominella värdet. Till exempel; om en granat har en nominell genomslagsförmåga på 100 mm pansar och en skadeverkan på 100 TP så kan det faktiska genomslagsvärdet variera mellan 75 mm och 125 mm, och den faktiska skadeverkan vara mellan 75 TP och 125 TP. Minskar värdet för avvikelsen ger det mer förutsägbart utfall för genomslag och skadeverkan.\n\nOm två skyttar har förmågan räknas medelvärdet av deras träningsnivå."
+
+msgid "gunner_armorer/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Minskar avvikelsen från det nominella värdet för {greenBright_Start}skadeverkan{greenBright_End} och {greenBright_Start}genomslagsförmåga{greenBright_End} med {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. Minskar {greenBright_Start}siktesspridningen{greenBright_End} med %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Fullt tränad förmåga minskar avvikelsen från det nominella värdet för {greenBright_Start}skadeverkan{greenBright_End} och {greenBright_Start}genomslagsförmåga{greenBright_End} med {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. Minskar {greenBright_Start}siktesspridningen{greenBright_End} med %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Pjäsmekaniker"
+
+msgid "gunner_focus/alt/description"
+msgstr "Effekten börjar 3 s efter vagnen stannat och upphör om vagnen rör sig.\n\nOm två skyttar har förmågan räknas medelvärdet av deras träningsnivå."
+
+msgid "gunner_focus/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "Minskar {yellow_Start}siktesspridning{yellow_End} för en stillastående vagn med %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Minskar siktesspridning."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Fullt tränad förmåga minskar {yellow_Start}siktesspridning{yellow_End} för en stillastående vagn med %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Koncentration"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Minskar siktesspridningen för en stillastående vagn."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Siktesspridning och sikttid kan förbättras ytterligare genom att träna besättningsförmågor eller montera utrustning med liknande effekt.\n\nOm två skyttar har förmågan räknas medelvärdet av deras träningsnivå."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "Minskar {yellow_Start}siktesspridning{yellow_End} med %(vehicleGunAimSpeed)s och {yellow_Start}sikttid{yellow_End} med %(vehicleGunAimSpeed)s när inga allierade vagnar finns inom 300 m."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Förbättrar siktesspridning och sikttid (när inga allierade finns i närheten)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Fullt tränad förmåga förbättrar {yellow_Start}siktesspridning{yellow_End} och minskar {yellow_Start}sikttid{yellow_End} med %(vehicleGunAimSpeed)s när inga allierade vagnar finns inom 300 m."
+
+msgid "gunner_loneWolf/name"
+msgstr "Ensamvarg"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Minskar siktesspridning och sikttid."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Som standard är granaternas maximala genomslagspotential +25% över det nominella basvärdet. Om till exempel genomslagsförmågan för en granat anges till 100 mm är den maximala pansartjockleken granaten kan slå igenom 125 mm. Ökning av det här värdet leder till att fler träffar slår igenom pansaret.\n\nOm två skyttar har förmågan räknas medelvärdet av deras träningsnivå."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "Fullt Ökar granaternas {yellow_Start}maximala genomslagspotential{yellow_End} med %(piercingHEShellsDistributionUpperBound)s vid eld mot mål inom 50 m."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar granaternas {yellow_Start}maximala pansargenomslagsförmåga{yellow_End} med %(piercingHEShellsDistributionUpperBound)s vid eld mot mål inom 50 m."
+
+msgid "gunner_pointBlast/name"
+msgstr "Närhåll"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Ökar granaternas maximala genomslagspotential"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Om två skyttar har förmågan räknas medelvärdet av deras träningsnivå.\n\nSikttiden kan förbättras ytterligare med vagnschefens förmåga Koordinering eller med hjälp av utrustning med motsvarande effekt.\n\nTornrotationshastigheten kan förbättras ytterligare med hjälp av utrustning eller förnödenheter med motsvarande effekt."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "Förbättrar {greenBright_Start}sikttiden{greenBright_End} och {greenBright_Start}tornrotationshastigheten{greenBright_End} med %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Fullt tränad förmåga förbättrar {greenBright_Start}sikttiden{greenBright_End} och {greenBright_Start}tornrotationshastigheten{greenBright_End} med %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Snabbsikte"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Ger snabbare sikte."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Identifierar kritiska skador på vagnar inom skyttens synfält i både direkt- och indirekt eldläge.\nSkyttens synfält är ±10° från kanonens siktlinje (totalt 20 ) ut till maximal siktsträcka.\nOm två skyttar har förmågan räknas medelvärdet av deras träningsnivå.\nEffekten kan förbättras med anvisningen Målfokusering. Med Förbättrad radioutrustning förlängs tiden fiendevagnen förblir synlig."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "Förlänger {greenBright_Start}tiden{greenBright_End} en fiendevagn {greenBright_Start}förblir synlig{greenBright_End} inom skyttens synfält med %(vehicleEnemySpottingTime)s. Minskar tiden för att {yellow_Start}identifiera skadade moduler{yellow_End} till %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Fullt tränad förmåga förlänger {greenBright_Start}tiden{greenBright_End} en fiendevagn {greenBright_Start}förblir synlig{greenBright_End} inom skyttens synfält med %(vehicleEnemySpottingTime)s. Minskar tiden för att {yellow_Start}identifiera skadade moduler{yellow_End} till %(damageMonitoringDelay)s."
+
+msgid "gunner_rancorous/name"
+msgstr "Målföljning"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Förlänger tiden en fiendevagn är synlig inom skyttens synfält och identifierar skadade moduler."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Om två skyttar har förmågan räknas medelvärdet av deras träningsnivå.\n\nEffekten kan förbättras med anvisningen Stadig hand. Siktesspridning vid tornrotation kan minskas ytterligare med hjälp av utrustning med motsvarande effekt eller med anvisningen Stabilisatorsmörjning."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "Minskar {greenBright_Start}siktesspridning{greenBright_End} vid tornrotation med %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Fullt tränad förmåga minskar {greenBright_Start}siktesspridning{greenBright_End} vid tornrotation med %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Slängskott"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Minskar siktesspridning vid tornrotation."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Effekten gäller för alla ammunitionstyper förutom i vagnar med automatkanoner.\n\nOm två skyttar har förmågan räknas medelvärdet av deras träningsnivå."
+
+msgid "gunner_sniper/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "Ökar {greenBright_Start}chansen att kritiskt skada{greenBright_End} {greenBright_Start}moduler{greenBright_End} och såra {greenBright_Start}besättningsmedlemmar{greenBright_End} med alla typer av ammunition med %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {greenBright_Start}chansen att kritiskt skada{greenBright_End} {greenBright_Start}moduler{greenBright_End} och såra {greenBright_Start}besättningsmedlemmar{greenBright_End} med alla typer av ammunition med %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Skarpskytt"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Minsta skada och genomslagsvärde avviker som standard upp till -25% från det nominella värdet. Till exempel; om en granat har en nominell genomslagsförmåga på 100 mm pansar och en skadeverkan på 100 TP så kan det faktiska genomslagsvärdet vara så lågt som 75 mm och den faktiska skadeverkan 75 TP. En ökning av minimumgränsen ger ett bättre resultat.\n\nOm två laddare har förmågan räknas medelvärdet av deras träningsnivå."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "Ökar {greenBright_Start}minsta potentiella skadeverkan{greenBright_End} och {greenBright_Start}minsta potentiella genomslagsförmågan{greenBright_End} med %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {greenBright_Start}minsta potentiella skadeverkan{greenBright_End} och {greenBright_Start}minsta potentiella genomslagsförmågan{greenBright_End} med %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Granattrimning"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Ökar genomsnittlig skadeverkan och pansargenomslag."
+
+msgid "loader_desperado/alt/description"
+msgstr "Om två laddare har förmågan räknas medelvärdet av deras träningsnivå.\n\nOmladdningstiden kan minskas ytterligare med laddarens förmåga Närstrid eller med hjälp av utrustning med motsvarande effekt. Anvisningen Sorterat ammunitionsställ förbättrar effekten."
+
+msgid "loader_desperado/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "Minskar {yellow_Start}omladdningstiden{yellow_End} med %(vehicleGunReloadTime)s om vagnen har mindre än 25% träffpoäng kvar."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Minskar omladdningstiden (låg mängd träffpoäng)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Fullt tränad förmåga minskar {yellow_Start}omladdningstiden{yellow_End} med %(vehicleGunReloadTime)s om vagnen har mindre än 25% träffpoäng kvar."
+
+msgid "loader_desperado/name"
+msgstr "Adrenalinkick"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Minskar omladdningstiden om vagnen har mindre än 25% träffpoäng kvar."
+
+msgid "loader_intuition/alt/description"
+msgstr "För att aktivera förmågan måste kanonen, båda kanonerna eller magasinet vara fulladdat. Minsta tid för att byta ammunitionstyp är 1 s för en standardkanon och 2,5 s för dubbelpjäser och magasin.\n\nOm två laddare har förmågan räknas medelvärdet av deras träningsnivå."
+
+msgid "loader_intuition/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "Minskar{greenBright_Start}tiden för ammunitionsväxling{greenBright_End} i en laddad kanon med %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Minskar tiden för ammunitionsväxling i en laddad kanon.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Fullt tränad förmåga minskar{greenBright_Start}tiden för ammunitionsväxling{greenBright_End} i en laddad kanon med %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Intuition"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Ökar avsevärt takten på byte av granattyp i en laddad kanon."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Förmågan minskar omladdningstiden för kanoner med magasin, men påverkar inte andra kanontyper.\n\nOm två laddare har förmågan räknas medelvärdet av deras träningsnivå."
+
+msgid "loader_magMastery/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "Minskar {greenBright_Start}omladdningstiden{greenBright_End} för magasin med %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Fullt tränad förmåga minskar {greenBright_Start}omladdningstiden{greenBright_End} för magasin med %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "Magasinmästare"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Minskar omladdningstiden för magasin"
+
+msgid "loader_melee/alt/description"
+msgstr "Om två laddare har förmågan räknas medelvärdet av deras träningsnivå.\n\nOmladdningstiden kan minskas ytterligare med laddarens förmåga Adrenalinkick eller med hjälp av utrustning med motsvarande effekt. Anvisningen Sorterat ammunitionsställ förbättrar effekten."
+
+msgid "loader_melee/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "Minskar {yellow_Start}omladdningstiden{yellow_End} med %(vehicleGunReloadTime)s på avstånd mindre än 50 m från en fiendevagn."
+
+msgid "loader_melee/hudDescription"
+msgstr "Minskar omladdningstiden (nära fienden).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Fullt tränad förmåga minskar {yellow_Start}omladdningstiden{yellow_End} med %(vehicleGunReloadTime)s på avstånd mindre än 50 m från en fiendevagn."
+
+msgid "loader_melee/name"
+msgstr "Närstrid"
+
+msgid "loader_melee/shortDescription"
+msgstr "Ökar omladdningstakten i närstrid."
+
+msgid "loader_pedant/alt/description"
+msgstr "En skadad laddare påverkar inte effekten av förmågan.\n\nOm två laddare har förmågan räknas medelvärdet av deras träningsnivå.\n\nEffekten kan förbättras med anvisningen Granatsortering. Ammunitionsställets tålighet kan förbättras ytterligare med hjälp av utrustning med motsvarande effekt."
+
+msgid "loader_pedant/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "Ökar tåligheten för {greenBright_Start}ammunitionsstället{greenBright_End} med %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {greenBright_Start}ammunitionsställets tålighet{greenBright_End} med %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Lastsäkring"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Ökar ammunitionsställets tålighet."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Effekten gäller för alla ammunitionstyper.\n\nEn skadad laddare påverkar inte förmågans effekt.\n\nOm två laddare har förmågan räknas medelvärdet av deras träningsnivå."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "Ökar {greenBright_Start}granatens utgångshastighet{greenBright_End} med %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {greenBright_Start}granatens utgångshastighet{greenBright_End} med %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Perfekt laddning"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Förmågan har ingen effektiv för magasinladdade kanoner eller automatkanoner, och räknas bara en gång för dubbelpjäser.\n\nOm en kanon med dubbelpjäs avfyrar två granater och ingen av dem åsamkar skada räknas tidsminskningen för båda pjäserna.\n\nOm två laddare har förmågan räknas medelvärdet av deras träningsnivå.\n\nOmladdningstiden kan minskas ytterligare med hjälp av laddarens förmågor Adrenalinkick och Närstrid, eller med hjälp av utrustning med liknande effekt. Anvisningen Sorterat ammunitionsställ ökar effekten."
+
+msgid "loader_secondChance/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "Minskar {yellow_Start}omladdningstiden{yellow_End} med %(vehicleGunReloadTime)s för nästa granat om föregående granat inte åsamkade en fiendevagn skada."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Minskar omladdningstiden för nästa granat (om skottet missade)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Fullt tränad förmåga minskar {yellow_Start}omladdningstiden{yellow_End} med %(vehicleGunReloadTime)s för nästa granat om föregående granat inte åsamkade en fiendevagn skada."
+
+msgid "loader_secondChance/name"
+msgstr "En andra chans"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Minskar omladdningstiden"
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Brödraband"
+
+msgid "perkRole/commander"
+msgstr "Vagnschef"
+
+msgid "perkRole/common"
+msgstr "Grupp"
+
+msgid "perkRole/driver"
+msgstr "Förare"
+
+msgid "perkRole/gunner"
+msgstr "Skytt"
+
+msgid "perkRole/loader"
+msgstr "Laddare"
+
+msgid "perkRole/radioman"
+msgstr "Signalist"
+
+msgid "popularity/tooltip/common"
+msgstr "av alla spelare"
+
+msgid "popularity/tooltip/header"
+msgstr "För den här vagnen, föredragna av"
+
+msgid "popularity/tooltip/legendary"
+msgstr "av spelare med legendarisk WTR"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Om två signalister har förmågan räknas medelvärdet av deras träningsnivå.\n\nEffekten kan förbättras ytterligare med vagnschefens förmåga Ljudspårning."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Minskar den {greenBright_Start}negative chockeffekten{greenBright_End} med %(stunResistanceEffectFactor)s varje gång besättningen chockas, upp till maximalt 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Fullt tränad förmåga minskar den {greenBright_Start}negative chockeffekten{greenBright_End} med %(stunResistanceEffectFactor)s&nbsp;varje gång besättningen chockas, upp till maximalt 30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Stridshärdad"
+
+msgid "radioman_expert/alt/description"
+msgstr "Besättningseffektivitetsbonusen ökar besättningsmedlemmens effektivitet i strid. Om två signalister har förmågan räknas medelvärdet av deras träningsnivå. Värdet kan förbättras ytterligare med hjälp av utrustning och förnödenheter med motsvarande effekt, eller med anvisningen Ventilationsrengöring. Även gruppförmågan Vapenbröder, vagnschefens förmåga Nödläge och signalistens förmåga Sida vid sida ökar värdet."
+
+msgid "radioman_expert/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "Ökar {yellow_Start}besättningseffektivitetsbonusen{yellow_End} med %(crewLevelIncrease)s om skadan åsamkad med din assistans är mer än din egen vagns ursprungliga träffpoäng&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Ökar besättningseffektivitetsbonusen (när tillräckligt med kommunikation har översatts)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {yellow_Start}besättningseffektivitetsbonusen{yellow_End} med %(crewLevelIncrease)s om skadan åsamkad med din assistans är mer än din egen vagns ursprungliga träffpoäng&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Kommunikationsexpert"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Förbättrar besättningens prestanda."
+
+msgid "radioman_finder/alt/description"
+msgstr "Om två signalister har förmågan räknas medelvärdet av deras träningsnivå.\n\nSiktsträckan kan förbättras ytterligare med förmågan Spaning eller med hjälp av utrustning med motsvarande effekt. Anvisningen Riktmedelskalibrering förbättrar effekten."
+
+msgid "radioman_finder/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "Ökar {greenBright_Start}siktsträckan{greenBright_End} med %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {greenBright_Start}siktsträckan{greenBright_End} med %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Situationsmedvetenhet"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Ökar siktsträckan."
+
+msgid "radioman_interference/alt/description"
+msgstr "Om två signalister har förmågan räknas medelvärdet av deras träningsnivå.\n\nTiden din vagn förblir synlig kan minskas ytterligare med hjälp av utrustning med motsvarande effekt."
+
+msgid "radioman_interference/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "Minskar {greenBright_Start}tiden din vagn förblir synlig för fienden{greenBright_End} med %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Fullt tränad förmåga minskar {greenBright_Start}tiden din vagn förblir synlig för fienden{greenBright_End} med %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Radiostörning"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Minskar tiden vagnen är synlig för fienden."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Om två signalister har förmågan används bara det högre värdet. Effekten är bara aktiv om signalisten inte är skadad när vagnen förstörs.\n\nFörmågan kan förbättras ytterligare med anvisningen Plikten framför allt."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Signalisten kan fortsätta {yellow_Start}rapportera fiendens positioner{yellow_End} i %(radiomanDurationPerLevel)s efter att din vagn förstörs."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Spaningsrapportering"
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Fullt tränad förmåga låter signalisten fortsätta {yellow_Start}rapportera fiendens positioner{yellow_End} i %(radiomanDurationPerLevel)s efter att din vagn förstörs."
+
+msgid "radioman_lastEffort/name"
+msgstr "Sista andetaget"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Låter signalisten fortsätta rapportera fiendens positioner under en kort tid efter att vagnen förstörts."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Besättningseffektivitetsbonusen ökar besättningsmedlemmens effektivitet i strid. Om två signalister har förmågan räknas medelvärdet av deras träningsnivå. Värdet kan förbättras ytterligare med hjälp av utrustning och förnödenheter med motsvarande effekt, eller med anvisningen Ventilationsrengöring. Även gruppförmågan Vapenbröder, vagnschefens förmåga Nödläge och signalistens förmåga Kommunikationsexpert ökar värdet."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "Ökar {yellow_Start}besättningseffektivitetsbonusen{yellow_End} med %(crewLevelIncrease)s på mindre än 50 m till en allierad vagn av samma typ&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Ökar besättningseffektivitetsbonusen (nära allierad av samma typ)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {yellow_Start}besättningseffektivitetsbonusen{yellow_End} med %(crewLevelIncrease)s på mindre än 50 m till en allierad vagn av samma typ&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Sida vid sida"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Förbättrar besättningens prestanda."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Effekten förbättrar vagnschefens förmåga Sjätte sinnet genom att aktivera den snabbare\n\nOm två signalister har förmågan räknas medelvärdet av deras träningsnivå."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "En förmåga får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "Minskar {greenBright_Start}tiden att avgöra{greenBright_End} om {greenBright_Start}din vagn blivit upptäckt{greenBright_End}av fienden med %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Fullt tränad förmåga minskar {greenBright_Start}tiden att avgöra{greenBright_End} om {greenBright_Start}din vagn blivit upptäckt{greenBright_End}av fienden med %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Signalpejling"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Förmågan aktiveras när Sjätte sinnet indikerar att vagnen har upptäckts.\n\nOm två signalister har förmågan räknas medelvärdet av deras träningsnivå.\n\nSiktsträckan kan förbättras ytterligare med hjälp av förmågorna Spaning och Situationsmedvetenhet, eller med utrustning med motsvarande effekt. Anvisningen Riktmedelskalibrering förbättrar effekten."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "En situationsförmåga får effekt när den är tränad till minst 1%. Effekten ökar med träningsnivån. Situationseffekten aktiveras när dess villkor uppfylls i strid."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "Ökar {yellow_Start}siktsträckan{yellow_End} med %(vehicleCircularVisionRadius)s under 5 s efter att Sjätte sinnet aktiverats."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Ökar siktsträckan."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {yellow_Start}siktsträckan{yellow_End} med %(vehicleCircularVisionRadius)s under 5 s efter att Sjätte sinnet aktiverats."
+
+msgid "radioman_threatSearch/name"
+msgstr "Hotsökning"
+
+msgid "repair/alt/description"
+msgstr "Förmågan påverkar hur snabbt interna och externa moduler repareras från \"röd\" till \"gul\".\n\nVärdet kan förbättras med hjälp av utrustning och förnödenheter med motsvarande effekt."
+
+msgid "repair/alt/info"
+msgstr "För gruppförmågor räknas genomsnittsnivån för alla besättningsmedlemmar. Den får effekt när den tränats till minst 1% och effekten ökar med träningsgraden."
+
+msgid "repair/currentLvlDescription"
+msgstr "Ökar {greenBright_Start}reparationshastigheten{greenBright_End} för vagnens skadade moduler med %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Fullt tränad förmåga ökar {greenBright_Start}reparationshastigheten{greenBright_End} för vagnens skadade moduler med %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Reparationer"
+
+msgid "repair/shortDescription"
+msgstr "Ökar reparationshastigheten för skadade moduler."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Brödraband"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Populär"
+
+msgid "sorting/fallback"
+msgstr "Standard"
+
+msgid "sorting/legendary"
+msgstr "Legendarisk"
+
+msgid "sorting/title"
+msgstr "Sortera efter:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPopulär.%(whiteSpanish_Close)s Baserat på aktuella trender bland World of Tanks spelare"
+
+msgid "sorting/tooltip/header"
+msgstr "WoT Plusfördel"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Få exakta uppgifter om besättningsförmågor baserade på miljontals matcher för mesta möjliga nytta i varje strid."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendarisk.%(whiteSpanish_Close)s Baserat på de populäraste förmågorna bland World of Tanks spelare med legendarisk WTR"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Sortering efter förmåga avstängd"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Uppgifter saknas"
+
+msgid "sorting/tooltip/title"
+msgstr "Besättningshjälp"
+
+msgid "sorting/tooltip/types"
+msgstr "Sortera förmågor på olika sätt"
+
+msgid "sorting/tooltip/warning"
+msgstr "Kan inte sortera efter förmågor"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Data saknas för förmågor för den här vagnen, så grundsortering efter förmågor används."
+
+msgid "witches_brotherhood/name"
+msgstr "Församling"
+
+msgid "yha_brotherhood/name"
+msgstr "Harbröder"

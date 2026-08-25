@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "Per confermare, inserisci la quantità di Exp del membro dell'equipaggio selezionato per il trasferimento."
+
+msgid "assignmentDialog/price"
+msgstr "Prezzo:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Trasferisci tutta l'Exp dell'equipaggio tra i membri dell'equipaggio"
+
+msgid "assignmentDialog/title"
+msgstr "Conferma Corso di tutoraggio"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Questo membro dell'equipaggio sarà rimosso dal\ntuo account senza possibilità di recupero."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} Exp extra andrà persa."
+
+msgid "dialogue/description"
+msgstr "Un oggetto consumabile che permette di trasferire tutta l'Exp dell'equipaggio tra membri dell'equipaggio della stessa nazione."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}L'Exp extra andrà persa:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "SELEZIONA"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Exp totale:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Licenza/e di tutoraggio:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Nessun membro dell'equipaggio idoneo"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Seleziona il membro dell'equipaggio che trasferirà la propria Exp\na {cream_Open}%(name)s{cream_Close} e che sarà rimosso dal tuo account."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "Dopo aver trasferito l'Exp dell'equipaggio, {cream_Open}%(name)s{cream_Close} raggiungerà il limite di talenti e tutta l'Exp oltre il limite andrà persa."
+
+msgid "mentorAssigment/title"
+msgstr "SELEZIONA MENTORE"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close}, ha raggiunto il limite di talenti e non può essere selezionato per il trasferimento di Exp."
+
+msgid "multipleUserName"
+msgstr "Licenze di tutoraggio"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Licenza/e di tutoraggio usata/e: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "Exp dell'equipaggio trasferita: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "Corso di tutoraggio"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>Exp dell'equipaggio extra persa: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Ti permette di trasferire l'Exp dell'equipaggio tra membri\ndell'equipaggio della stessa nazione."
+
+msgid "storage/userName"
+msgstr "Licenza di tutoraggio"
+
+msgid "userName"
+msgstr "Licenza di tutoraggio"

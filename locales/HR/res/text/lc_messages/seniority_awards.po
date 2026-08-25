@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2011-03-18 10:00+0300\nPO-Revision-Date: 2011-03-18 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "notifications/count"
+msgstr "×{count}"
+
+msgid "notifications/manualClaim/button"
+msgstr "Zatraži nagrade"
+
+msgid "notifications/manualClaim/title"
+msgstr "Nagrade za vaše godine službe vas čekaju!"
+
+msgid "notifications/selectVehicles/button"
+msgstr "Odaberi"
+
+msgid "notifications/selectVehicles/title"
+msgstr "Dostupna vozila za godine\nslužbe"
+
+msgid "notifications/tokens/button"
+msgstr "U Prodavaonicu"
+
+msgid "notifications/tokens/title"
+msgstr "Razmjenite vaše tokene za godine službe za nagrade!"
+
+msgid "notifications/vehicleSelectionAvailable/title"
+msgstr "Odaberite vozilo koje želite!"
+
+msgid "rewardsView/applyBtn"
+msgstr "Razumijem!"
+
+msgid "rewardsView/exchangeCoins"
+msgstr "Razmjenite tokene za nagrade u prodavaonici."
+
+msgid "rewardsView/gotoHangarBtn"
+msgstr "Pregledaj u Garaži"
+
+msgid "rewardsView/gotoRewardsBtn"
+msgstr "U Prodavaonicu"
+
+msgid "rewardsView/info"
+msgstr "Više o rangovima"
+
+msgid "rewardsView/moreRewardsBtn"
+msgstr "Još nagrada!"
+
+msgid "rewardsView/moreRewardsWithCountBtn"
+msgstr "Još nagrada! ({count})"
+
+msgid "rewardsView/selection/available"
+msgstr "{{count}} vozila dostupnih za godine službe"
+
+msgid "rewardsView/selection/received"
+msgstr "NAGRADA PRIMLJENA"
+
+msgid "rewardsView/subTitle/otherRewards"
+msgstr "Također ste dobili:"
+
+msgid "rewardsView/subTitle/rank/ctg1"
+msgstr "UNOVAČI"
+
+msgid "rewardsView/subTitle/rank/ctg2"
+msgstr "RATNIK"
+
+msgid "rewardsView/subTitle/rank/ctg3"
+msgstr "ZAPOVJEDNIK"
+
+msgid "rewardsView/subTitle/rank/ctg4"
+msgstr "ČASNIK"
+
+msgid "rewardsView/subTitle/rank/ctg5"
+msgstr "VETERAN"
+
+msgid "rewardsView/subTitle/rank/ctg6"
+msgstr "LEGENDA"
+
+msgid "rewardsView/subTitle/text"
+msgstr "RANG {rank} DOSEGNUT"
+
+msgid "rewardsView/textButton/select"
+msgstr "Odaberi"
+
+msgid "rewardsView/title"
+msgstr "ČESTITAMO!"
+
+msgid "rewardsView/wdrcoin/counter"
+msgstr "×%(count)s"
+
+msgid "specialItem/body"
+msgstr "Dodjeljuju se za borbene zasluge. Kada akcija završi, svi preostali tokeni će biti uklonjeni."
+
+msgid "specialItem/header"
+msgstr "Tokena za godine službe: {count}"
+
+msgid "tooltip/congratulation/ctg1"
+msgstr "Čestitke na ostvarenju ranga Novak"
+
+msgid "tooltip/congratulation/ctg2"
+msgstr "Čestitke na ostvarenju ranga Ratnik"
+
+msgid "tooltip/congratulation/ctg3"
+msgstr "Čestitke na ostvarenju ranga Zapovjednik"
+
+msgid "tooltip/congratulation/ctg4"
+msgstr "Čestitke na ostvarenju ranga Časnik"
+
+msgid "tooltip/congratulation/ctg5"
+msgstr "Čestitke na ostvarenju ranga Veteran"
+
+msgid "tooltip/congratulation/ctg6"
+msgstr "Čestitke na ostvarenju ranga Legenda"
+
+msgid "tooltip/medalBlock/label/and"
+msgstr "{abLabel} i {yearsLabel}"
+
+msgid "tooltip/medalBlock/label/ca"
+msgstr "Za sudjelovanje u Alfa testiranju"
+
+msgid "tooltip/medalBlock/label/cb"
+msgstr "Za sudjelovanje u Beta testiranju"
+
+msgid "tooltip/medalBlock/label/duration"
+msgid_plural "plural/tooltip/medalBlock/label/duration"
+msgstr[0] "{{count}} godina službe"
+msgstr[1] "{{count}} godina službe"
+msgstr[2] "{{count}} godina službe"
+
+msgid "tooltip/rank/ctg1"
+msgstr "Novak"
+
+msgid "tooltip/rank/ctg2"
+msgstr "Ratnik"
+
+msgid "tooltip/rank/ctg3"
+msgstr "Zapovjednik"
+
+msgid "tooltip/rank/ctg4"
+msgstr "Časnik"
+
+msgid "tooltip/rank/ctg5"
+msgstr "Veteran"
+
+msgid "tooltip/rank/ctg6"
+msgstr "Legenda"
+
+msgid "tooltip/segment/ctg1"
+msgstr "Manje od jedne godine"
+
+msgid "tooltip/segment/ctg2"
+msgstr "1-3 godina"
+
+msgid "tooltip/segment/ctg3"
+msgstr "4-6 godina"
+
+msgid "tooltip/segment/ctg4"
+msgstr "7-9 godina"
+
+msgid "tooltip/segment/ctg5"
+msgstr "10-14 godina"
+
+msgid "tooltip/segment/ctg6"
+msgstr "15 godina"
+
+msgid "vehicle/A134_M24E2_SuperChaffee"
+msgstr "Legendarni laki tenk sjajne pokretljivosti. Vozilo nanosi pristojnu količinu štete po minuti i ima dobre kuteve depresije i elevacije što omogućuje korištenje nepravilnosti terena u bitci."
+
+msgid "vehicle/G158_VK2801_105_SPXXI"
+msgstr "Ovo vozilo je naoružano topom velikog kalibra i ima dobar oklop iako to utječe na njegovu dinamiku i pokretljivost. Tenk je donekle nezgrapan što ga čini krajnje učinkovitim u udaranju lako oklopljenih vozila."
+
+msgid "vehicle/R160_T_50_2"
+msgstr "Laki tenk koji je savršen za aktivno izviđanje u svim etapama bitke. Njegova niska silueta i velika brzina omogućuju izbjegavanje pogodaka što je iznimno bitno obzirom na njegovu skromnu vatrenu moć."
+
+msgid "vehicle/R197_KV_1S_MZ"
+msgstr "Ovo je jedino vozilo u svojoj razini koje ima obrnuti autopunjač. Najbolji je kada nanosi rafalnu štetu neprijateljskim vozilima ili kada pruža potporu saveznicima."

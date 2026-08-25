@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Změnit server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detaily"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Režim je na tomto serveru nedostupný %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Režim je na všech serverech nedostupný."
+
+msgid "alertMessage/modeOffline"
+msgstr "Chyba databáze. Herní režim není dostupný."
+
+msgid "alertMessage/noVehicles"
+msgstr "Ve vaší garáži nejsou žádná vhodná vozidla %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Potvrzuji"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "LEHKÝ NÁPOR"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "ZÁVĚREČNÁ FÁZE DOKONČENA!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "%(level)s. FÁZE DOKONČENA!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Všechny mise splněny!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Splněno"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Vyprší za: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Mise Lehkého Náporu"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Nová mise Lehkého Náporu za: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Odměna:"
+msgstr[1] "Odměny:"
+msgstr[2] "Odměn:"
+
+msgid "battleResult/header/deserter"
+msgstr "Byl vám uložen trest"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "POSTUP LEHKÉHO NÁPORU"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Lehký Nápor potrvá %(days)d den"
+msgstr[1] "Lehký Nápor potrvá %(days)d dny"
+msgstr[2] "Lehký Nápor potrvá %(days)d dní"
+
+msgid "calendarDay/title"
+msgstr "Rozvrh"
+
+msgid "closeButtonLabel"
+msgstr "ZAVŘÍT"
+
+msgid "countDown/text"
+msgstr "Akce začne za:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Rychlý režim s bitvami 7 proti 7 ve vozidlech %(levels)s. úrovně. Užijte si herní styl původního režimu „Nápor“ bez kvalifikace, hodností nebo služebního záznamu a získávejte v denních misích odměny."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "REŽIM"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s – herní režim. Prozkoumejte kliknutím"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Lehký Nápor"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Režim je dostupný %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Příměří%(timer)s"
+
+msgid "featureName"
+msgstr "Lehký Nápor"
+
+msgid "featureNameCapitalized"
+msgstr "LEHKÝ NÁPOR"
+
+msgid "intro/confirmButton"
+msgstr "Potvrzuji!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Užijte si herní styl původního režimu „Nápor“ bez kvalifikace, hodností nebo jakéhokoliv služebního záznamu."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Režim má modifikátory, které mění určité parametry vozidla, jako jsou body výdrže vozidla, doba obnovení spotřebních doplňků, zbývající čas odhalení a další."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Jakmile na mapě obsadíte určité oblasti, budete moct použít taktické schopnosti. Existují dva typy bodů zájmu: Velitelství dělostřelectva vám umožní nasměrovat na určitou pozici dělostřelecký úder a Komunikační centrum odhalí všechna nepřátelská vozidla. V závislosti na mapě se přítomnost a umístění těchto bodů zájmu může změnit."
+
+msgid "intro/description/roleSkills"
+msgstr "V závislosti na úloze má každé vozidlo speciální schopnost se třemi úrovněmi nabití. Čím vyšší úroveň nabití při aktivování schopnosti, tím silnější efekt schopnost bude mít. Úroveň nabití bude záviset na počtu bodů prestiže, které lze získat za úctyhodný výkon v bitvě, obsazování bodů zájmu, použití taktických schopností atd.\n\nAbyste se dozvěděli víc o různých způsobech, jak můžete body prestiže získat, přečtěte si pravidla režimu."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "V režimu lze použít pouze vozidla %(levels)s. úrovně (dělostřelectva a některé další tanky nejsou dostupné). Připravte si svá vozidla v garáži, a jakmile vstoupíte do bitvy, vyberte si to nejlepší vozidlo podle podmínek dané mapy."
+
+msgid "intro/title/lightGameplay"
+msgstr "KLÍDEK, VELITELI"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "MODIFIKÁTORY NÁPORU"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "BODY ZÁJMU"
+
+msgid "intro/title/roleSkills"
+msgstr "ÚLOHOVÉ SCHOPNOSTI"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "VYBERTE SI VOZIDLO PRO KONKRÉTNÍ MAPU"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Vítězství"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Porážka/remíza"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Dobrá práce, veliteli, jen tak dál!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Pro zvýšení své úrovně postupu plňte mise a v bitvách Lehkého Náporu se umísťujte na předních pozicích."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Počet bodů postupu, které získáte, závisí na vašem umístění v bitvě podle bodů prestiže."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Režim skončí za %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Hlavní postup dokončen"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Lehký Nápor"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "2 nejlepší podle bodů prestiže"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "5 nejlepších podle bodů prestiže"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "7 nejlepších podle bodů prestiže"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Použijte prémiový účet WoT"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktivujte osobní zálohy"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Plňte mise"
+
+msgid "noVehicles/howTo/title"
+msgstr "Jak nejrychleji vyzkoumat vozidla %(levels)s. úrovně?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Pro účast v Lehkém Náporu potřebujete mít v garáži alespoň jedno vozidlo %(levels)s. úrovně, které je pro režim vhodné.\nPrémiová vozidla %(levels)s. úrovně si můžete zakoupit z výzkumu nebo v herním obchodě."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Pro účast v Lehkém Náporu potřebujete mít v garáži alespoň jedno vozidlo %(levels)s. úrovně, které je pro režim vhodné.\nMáte vozidlo %(levels)s. úrovně, které je dostupné pro obnovení."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Pro účast v Lehkém Náporu potřebujete mít v garáži alespoň jedno vozidlo %(levels)s. úrovně, které je pro režim vhodné."
+
+msgid "noVehicles/title"
+msgstr "Ve vaší garáži nejsou žádná vhodná vozidla"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Podrobnosti najdete na stránce o Lehkém Náporu."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Body prestiže"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Způsobování poškození\nAsistování odhalením\nNičení pásů\nZpůsobování kritických zásahů\nNičení nepřátelských vozidel\nA další akce"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Body prestiže lze získat za provádění bojových akcí, jako jsou:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Na serveru %(server)s sezóna skončila."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Na serveru %(server)s sezóna skončila."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Na serveru %(server)s sezóna skončila."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Hlavní postup dokončen!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "%(current)s. fáze"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s nebo %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Nová mise za:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Akce končí za:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Mise budou aktualizovány za"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Všechny denní mise splněny."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Postup dokončen. Hrajte v Lehkém Náporu a získejte další odměny."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Pro zvýšení své úrovně postupu plňte mise a v bitvách\nLehkého Náporu se umísťujte na předních pozicích. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Udělovány za splnění speciálních misí a za bojování v bitvách Lehkého Náporu. Umožňují vám pokročit v postupu."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Body postupu Lehkým Náporem"
+
+msgid "selectorTooltip/desc"
+msgstr "Nehodnocený režim: 7 proti 7 | %(tier)s. úroveň"
+
+msgid "selectorTooltip/title"
+msgstr "Lehký Nápor"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Sledujte novinky na herním portálu a mějte neustálý přehled o startu nové sezóny."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Tento režim je z důvodu technických potíží dočasně nedostupný."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Tento režim bude k dispozici v %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Body postupu získány"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Detaily"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Lehký Nápor"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Získané odměny:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Dokončili jste %(stage)s. fázi postupu v režimu „%(progressionName)s“."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Blahopřejeme!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Platí příměří. Bitvy Lehkého Náporu jsou dočasně nedostupné."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Příměří"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Příměří skončilo. Bitvy Lehkého Náporu jsou opět dostupné."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Příměří"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "O Lehkém Náporu"

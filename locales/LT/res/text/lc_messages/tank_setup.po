@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "categories/body/firepower"
+msgstr "Parametrų rinkinys, parodantis efektyvumą naikinant priešų mašinas. Šis filtras rodo/slepia įrangą su tokiu parametrų rinkiniu."
+
+msgid "categories/body/mobility"
+msgstr "Parametrų rinkinys, parodantis kaip greitai mašina gali pakeisti poziciją mūšio lauke. Šis filtras rodo/slepia įrangą su tokiu parametrų rinkiniu."
+
+msgid "categories/body/stealth"
+msgstr "Parametrų rinkinys, parodantis mašinos maskuotės ir priešų aptikimo efektyvumą. Šis filtras rodo/slepia įrangą su tokiu parametrų rinkiniu."
+
+msgid "categories/body/survivability"
+msgstr "Parametrų rinkinys, parodantis mašinos atsparumą žalai. Šis filtras rodo/slepia įrangą su tokiu parametrų rinkiniu."
+
+msgid "categories/empty"
+msgstr "Antros vietos kategorija"
+
+msgid "categories/firepower"
+msgstr "Šaunamoji galia"
+
+msgid "categories/mobility"
+msgstr "Mobilumas"
+
+msgid "categories/slotEffect/empty"
+msgstr "Galimybė priskirti kategoriją antrai įrangos vietai šioje mašinoje."
+
+msgid "categories/slotEffect/firepower"
+msgstr "Standartinė įranga iš Šaunamosios galios kategorijos bus efektyvesnė, jeigu ją sumontuosite šioje vietoje."
+
+msgid "categories/slotEffect/mobility"
+msgstr "Standartinė įranga iš Mobilumo kategorijos bus efektyvesnė, jeigu ją sumontuosite šioje vietoje."
+
+msgid "categories/slotEffect/stealth"
+msgstr "Standartinė įranga iš Žvalgybos kategorijos bus efektyvesnė, jeigu ją sumontuosite šioje vietoje."
+
+msgid "categories/slotEffect/survivability"
+msgstr "Standartinė įranga iš Atsparumo kategorijos bus efektyvesnė, jeigu ją sumontuosite šioje vietoje."
+
+msgid "categories/stealth"
+msgstr "Žvalgyba"
+
+msgid "categories/survivability"
+msgstr "Atsparumas"
+
+msgid "categories/universal"
+msgstr "Nėra kategorijos"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "Pasirinkite vieną tinkamą instrukciją iš sąrašo."
+
+msgid "compare/section/description/consumables"
+msgstr "Pasirinkite vieną tinkamą ekipuotę iš sąrašo."
+
+msgid "compare/section/description/optDevices"
+msgstr "Pasirinkite vieną tinkamą įrangą iš sąrašo."
+
+msgid "compare/section/title/battleBoosters"
+msgstr "Instrukcijos skirtos {name}"
+
+msgid "compare/section/title/consumables"
+msgstr "Ekipuotė skirta {name}"
+
+msgid "compare/section/title/optDevices"
+msgstr "Įranga skirta {name}"
+
+msgid "dealPanel/autoRenew"
+msgstr "Automatinis papildymas"
+
+msgid "dealPanel/button/apply"
+msgstr "Panaudoti"
+
+msgid "dealPanel/button/applyType"
+msgstr "Pritaikyti tipui"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "Pritaikyti mašinai"
+
+msgid "dealPanel/button/cancel"
+msgstr "Atšaukti"
+
+msgid "dealPanel/button/purchase"
+msgstr "Pirkti"
+
+msgid "dealPanel/fromStorage"
+msgstr "Iš Sandėlio:"
+
+msgid "dealPanel/fromVehicle"
+msgstr "Sumontuota:"
+
+msgid "dealPanel/repair"
+msgstr "Reikalingas remontas"
+
+msgid "dealPanel/toBePaid"
+msgstr "Viso:"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "Sandėlyje"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "Sumontuota mašinoje"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "Pirkimui trūksta lėšų"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "Bus nupirkta už kreditus"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "Bus nupirkta už bonus"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "Bus sumontuota iš sandėlio"
+
+msgid "deconstructionDeviceView/available"
+msgstr "Pasiekiama:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "Atšaukti"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "Pratęsti"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "Iš sandėlio:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "Nuo mašinų:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "( %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s %(red_Open)strūksta patobulinimui%(red_Close)s )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "Gausite:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "AKTYVI MAŠINA"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "SANDĖLYJE: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "MAŠINOSE: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "Pasirinkite įrangą, kurią norite išardyti į %(whiteSpanish_Open)skomponentus%(whiteSpanish_Close)s %(icon)s. Gauti komponentai gali būti panaudojami eksperimentinės įrangos tobulinimui."
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s Norėdami gauti daugiau komponentų, išardykite nenaudojamą eksperimentinę įrangą."
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "DARBASTALIS"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "Neužtenka komponentų įrangos\n%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s tobulinimui."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "Norėdami tęsti, išardykite nenaudojamą įrangą į komponentus."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "Norėdami tęsti, gaukite reikiamą komponentų skaičių."
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "Atšaukti pakeitimus"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "Atšaukti"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "Atšaukti"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "Atšaukti"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "Atšaukti pakeitimus"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "Išsaugoti"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "Pirkti"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "Nupirkti ir sumontuoti"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "Sumontuoti"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "Jūs galite išmontuoti įrangą už %(price)s ir perkelti į sandėlį arba galite tiesiog ją sunaikinti."
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "Jūs galite išmontuoti įrangą už %(price)s arba {whiteSpanish_Open}nemokamai{whiteSpanish_Close} su WoT Plus, tada išsiųsti ją į sandėlį arba sunaikinti."
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "Jūs galite išmontuoti įrangą už %(demountKit)s, %(price)s arba {whiteSpanish_Open}nemokamai{whiteSpanish_Close} su WoT Plus, tada išsiųsti ją į sandėlį arba sunaikinti."
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "Jūs galite išmontuoti įrangą {whiteSpanish_Open}nemokamai{whiteSpanish_Close} su WoT Plus ir nusiųsti įrangą į sandėlį."
+
+msgid "dialogs/confirm/demount/items"
+msgstr "Jūs galite išmontuoti įrangą ir perkelti ją į Sandėlį."
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "NEVEIKS"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "instrukciją"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "Nusipirkus šią Dvigubą modifikaciją, kita bus atšaukta."
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "ekipuotę"
+
+msgid "dialogs/confirm/item/module"
+msgstr "modulį"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "įrangą"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "Dvigubą modifikaciją"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "instrukcijas"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "ekipuotes"
+
+msgid "dialogs/confirm/items/module"
+msgstr "modulius"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "įrangą"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " ir "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "Išsaugoti pakeitimus instrukcijos vietose?"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "Išsaugoti pakeitimus ekipuotės vietose?"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "Išsaugoti pakeitimus įrangos vietose?"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "Pirkti %(name)s {type}?"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "Pirkti ir sumontuoti %(name)s {type}?"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "Sumontuoti %(name)s {type}?"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "Įjungti %(name)s {type} visiems %(vehicle)s?"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "Pirkti {type}?"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "Pirkti ir sumontuoti {type}?"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "Sumontuoti {type}?"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "Įjungti {type} visiems %(vehicle)s?"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "prieštankiniams"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "artilerijoms"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "sunkiesiems tankams"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "lengviesiems tankams"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "vidutiniams tankams"
+
+msgid "dialogs/confirm/warning"
+msgstr "Dėmesio! %(devices)s nesumontuota. Instrukcija %(doesNotWork)s."
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "Dėmesio! Išardę jūs nebeturėsite eksperimentinės įrangos!"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "Atšaukti"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "Išardyti"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "Išardyti"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "Iš viso gausite:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "Gausite už 1 vienetą:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "Išardyti\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "Išardyti\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "Dėmesio: Išardę šią įrangą negalėsite jos atstatyti ar iš naujo nusipirkti."
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "Atšaukti"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "Išardyti"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "Išardyti šią įrangą į komponentus?"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "Išardyti šią įrangą į komponentus ir patobulinti\n%(deviceName)s?"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "Bus išardyta iš sandėlio: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "Bus išardyta iš mašinų: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "Po išardymo jūs gausite: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "Iš viso gausite:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "Tobulinimo kaina:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "Dėmesio! Išardę jūs nebeturėsite eksperimentinės įrangos!"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "Dėmesio! Eksperimentinė įranga ,esanti jūsų mašinose, bus išardyta."
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "Keisti"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "įrangą"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "Trūksta %(credits)s %(name)s patobulinimui"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "įrangą"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "Trūksta %(credits)s įrangos patobulinimui"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "Negalima patobulinti įrangos. Jums reikia iškeisti %(gold)s į kreditus."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "Trūksta kreditų įrangos tobulinimui."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "Keisti nereikia"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "Jūs neturite eksperimentinės įrangos išardymui."
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "Norėdami gauti daugiau komponentų, išardykite eksperimentinę įrangą."
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "Patobulinti\n%(name)s?"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "Reikia: %(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "Kaina:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "nusipirkti"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "nusipirkti"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "Keisti"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "Keitimo kursas: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "Greitam paruošimui reikia dar %(credits)s"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "instrukciją"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "ekipuotę"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "modulį"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "įrangą"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "Dvigubą modifikaciją"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "Trūksta %(credits)s norint {action} %(name)s {type}"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "instrukcijas"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "ekipuotes"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "modulius"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "įrangą"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "Trūksta %(credits)s norint {action} {type}"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "Trūksta %(credits)s remontui"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "Nepavyko nupirkti: konvertavimas nepavyko. Konvertavimui reikia dar %(gold)s."
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "nusipirkti"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "modifikacijai"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "Konvertavimas nebūtinas — jūs turite pakankamai kreditų."
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "Pakanka kreditų {action}"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "Trūksta %(credits)s amunicijos papildymui"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "Automatinis remontas"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "Remontuoti"
+
+msgid "dialogs/needRepair/durability"
+msgstr "Patvarumas:"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s%"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "Mašina suremontuota automatiškai ir nemokamai"
+
+msgid "dialogs/needRepair/price"
+msgstr "Remonto kaina:"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "Nepakanka lėšų remontui"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "Tikrai taip!"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "Remonto nereikia"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "Papildyti"
+
+msgid "dialogs/refillShells/price"
+msgstr "Papildymo kaina:"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "Papildyti amuniciją?"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "Išsaugoti amunicijos pakeitimus?"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "Dėmesio: jūs parduodate pagerintą įrangą."
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "Dėmesio: Pardavę šią įrangą negalėsite jos atstatyti ar iš naujo nusipirkti."
+
+msgid "dialogs/sell/button/cancel"
+msgstr "Atšaukti"
+
+msgid "dialogs/sell/button/sell"
+msgstr "Parduoti"
+
+msgid "dialogs/sell/header"
+msgstr "Parduoti šią įrangą?\n%(equipmentName)s"
+
+msgid "dialogs/sell/text"
+msgstr "Pardavimo kaina už 1 vienetą:"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "Nepakanka resursų išmontavimui."
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "Šiai mašinai rekomendacijos nėra galimos"
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "Neįmanoma sumontuoti."
+
+msgid "easyTankEquipView/applied"
+msgstr "Uždėti"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "Išplėstinis"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "Pagerinta"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "Standartiniai"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "EKIPUOTĖ"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "Nepakanka gultų įgulų pakeitimams. Nusipirkite daugiau gultų kareivinėse."
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "x{{count}}"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "Patyrusi įgula"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "Nauja įgula"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "Bus pasamdytas {{count}}\nnaujas įgulos narys"
+msgstr[1] "Bus pasamdyti {{count}}\nnauji įgulos nariai"
+msgstr[2] "Bus pasamdyta {{count}}\nnaujų įgulos narių"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "ĮGULA"
+
+msgid "easyTankEquipView/discount"
+msgstr "-{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "Išplėstinis"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "Standartiniai"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "ĮRANGA"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "Išplėstinis"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "Standartiniai"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "AMUNICIJA"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "Jūs jau esate pritaikę stilių"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "{{battlesCount}} mūšių už {{price}}"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "PARUOŠTI STILIAI"
+
+msgid "easyTankEquipView/title"
+msgstr "GREITAS PARUOŠIMAS"
+
+msgid "effects/name"
+msgstr "Efektas"
+
+msgid "effects/template"
+msgstr "%(icon)s %(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "Atsistatymo laikas yra %(cooldown)s&nbsp;s."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "Gauti komponentų"
+
+msgid "filters/shown"
+msgstr "Rodoma: "
+
+msgid "hints/dragAndDrop/section"
+msgstr "TEMPK IR PALEISK\nĮRANGA"
+
+msgid "hints/filters/specialization"
+msgstr "PAPILDOMAS\nBONUSAS KATEGORIJAI"
+
+msgid "hints/tabs/equipment"
+msgstr "NAUJAS ĮRANGOS\nTIPAS"
+
+msgid "introduction/currency/deluxe"
+msgstr "bonus"
+
+msgid "introduction/currency/modernized"
+msgstr "komponentus"
+
+msgid "introduction/message/deluxe"
+msgstr "Šio tipo įranga įsigyjama už %(currencyName)s (%(currencyIcon)s). Ją taip pat galima gauti kaip apdovanojimą už tam tikrus pasiekimus žaidime bei per specialius žaidimo renginius."
+
+msgid "introduction/message/modernized"
+msgstr "Specializuoto tipo įranga su trejais patobulinimo lygiais, kurie suteikiami už įvykdomas misijas tam tikrų žaidimo renginių metu. Šios įrangos negalite parduoti ar sunaikinti, bet ją galite išardyti ir gauti specialių detalių – %(currencyName)s (%(currencyIcon)s). Su šiais komponentais galite tobulinti bet kokią eksperimentinę įrangą."
+
+msgid "introduction/message/trophy"
+msgstr "Specialaus tipo įranga, kuri gavimo metu turi tokius pat parametrus kaip ir standartinė įranga, bet ją galima pagerinti už kreditus. Jūs negalite nusipirkti trofėjinės įrangos už žaidimo valiutą, bet galite ją gauti kaip apdovanojimą tam tikruose žaidimo renginiuose."
+
+msgid "introduction/showButton"
+msgstr "Rodyti įrangą"
+
+msgid "introduction/slide/1/description"
+msgstr "Pridėta nauja įranga. Papildomai %(repairBox)s, %(wetAmmo)s, %(CO2Cistern)s ir %(cycloneFilter)s buvo sujungti į %(changedConfiguration)s. %(forcedChassis)s analogai buvo pakeisti į %(forcedMetal)s. Išlieka visi seni bonusai, tik prisidėjo naujų."
+
+msgid "introduction/slide/1/title"
+msgstr "NAUJA ĮRANGA"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr " — Šaunamoji galia"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr " — Mobilumas"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr " — Žvalgyba"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr " — Atsparumas"
+
+msgid "introduction/slide/2/description"
+msgstr "Jeigu įranga sumontuojama į tos pačios kategorijos vietą, ji tampa dar efektyvesne. Priešingu atveju ji suteiks tik standartinį bonusą."
+
+msgid "introduction/slide/2/subtitle"
+msgstr "SUTAMPA KATEGORIJA"
+
+msgid "introduction/slide/2/title"
+msgstr "ĮRANGOS KATEGORIJOS"
+
+msgid "introduction/slide/3/description/left"
+msgstr "Didžioji dalis įrangos II–IV lygio mašinoms kainuos iki 50 000 kreditų, V–VII lygio mašinoms neviršys 300 000 kreditų, o VIII–XI lygio mašinoms kaina sieks 600 000."
+
+msgid "introduction/slide/3/description/right"
+msgstr "Kai kuri nauja įranga išskirta į tris klases. Net jei ir klasė skiriasi, įranga suteikia tokį patį efektą. Aukštesnės klasės įranga kainuoja brangiau. Kiekvienos klasės įranga tinka tik tam tikrų lygių mašinoms."
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "ĮRANGOS ATNAUJINIMAI"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "NAUJA ĮRANGA"
+
+msgid "introduction/slide/3/title"
+msgstr "ĮRANGOS KAINA"
+
+msgid "introduction/slide/4/description"
+msgstr "I lygio mašinose įrangos sumontuoti negalima. II lygio mašinose yra viena vieta įrangai, III lygio mašinose dvi vietos, o IV–XI lygio mašinose galima sumontuoti tris įrangos vienetus. Anksčiau sumontuota įranga vietose, kurių mašinose nebeliko, buvo išmontuota ir perkelta į Sandėlį."
+
+msgid "introduction/slide/4/title"
+msgstr "VIETOS ĮRANGAI"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "Pripildo kuro baką CO2"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "Modifikuota konfigūracija"
+
+msgid "introduction/slide/confirm"
+msgstr "Tikrai taip!"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "Filtras \"Ciklonas\""
+
+msgid "introduction/slide/forcedChassis"
+msgstr "Pagerinta važiuoklė"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "Pagerintas grūdinimas"
+
+msgid "introduction/slide/repairBox"
+msgstr "Dėžė su instrumentais"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "\"Šlapias\" amunicijos skyrius"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "Pagerinta įranga"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "Eksperimentinė įranga"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "Trofėjinė įranga"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "Jūs neturite tinkamos eksperimentinės įrangos"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "Jūs neturite tinkamos trofėjinės įrangos"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "laikui, per kurį vadas nustato, ar jūsų mašiną aptiko priešas"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "papildomai apkurtinimo trukmei, kai mašina jau apkurtinta"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "priešų mašinos maskuotei už augmenijos (tiek stovinčios, tiek judančios)"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "visų sviedinių tipų greičiui"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "užtaisymo greičio nuobaudai, kai pažeidžiami moduliai"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "variklio galios nuobaudai ir variklio galios praradimui, kai pažeidžiami moduliai"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "judančios ar stovinčios mašinos maskuotei"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "maskuotės padidinimui, kai mašina stovi ar juda (efektyvumas priklauso nuo mašinos tipo)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "korpuso žalai, kuria sukelia smūgis į važiuoklę"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "apžvalgos atstumui (iki 445 m) — didėjanti parametro reikšmė virš 445 m leidžia efektyviau aptikti priešus"
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "žalai, gautai nuo smūgio"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "išbarstymui judant, sukantis, sukant bokštelį bei po šūvio"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "šarvų absorbuojamai fugasinių sviedinių žalai"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "trukmei, kai jūsų mašina išlieka matoma"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "greičio išlaikymui\njudant ant bet kokio grunto tipo"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "stovinčios mašinos maskuotei praėjus 3 sek. po sustojimo"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "maskuotei, jei mašina stovi\nbent 1.5 sek."
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "stovinčios mašinos maskuotės padidinimui praėjus 3 sek. po sustojimo (efektyvumas priklauso nuo mašinos tipo)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "stovinčios mašinos maskuotės padidinimui praėjus 1.5 sek. po sustojimo (efektyvumas priklauso nuo mašinos tipo)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "stovinčios mašinos apžvalgos atstumui praėjus 3 sek. po sustojimo (iki 445 m) — didėjanti parametro reikšmė virš 445 m leidžia efektyviau aptikti priešus"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "matymo laikui, jei mašina stovi bent 1.5 sek. (iki 445 m) — jei padidinsite šią vertę virš 445 m, vietoje didesnio atstumo, galėsite efektyviau aptikti priešus"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "mašinos patvarumo taškams (apvalinama į didžiąją pusę)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "bokštelio sukimosi greičiui ar ginklo pasukimo greičiui, mašinoms su stacionariomis kabinomis"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "laikui, per kurį vadas nustato, ar jūsų mašiną aptiko priešas"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "papildomai apkurtinimo trukmei, kai mašina jau apkurtinta"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "už augmenijos stovinčių ar judančių priešų mašinų maskuotei"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "visų sviedinių tipų greičiui"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "užtaisymo greičio nuobaudai, kai pažeidžiami moduliai"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "variklio galios nuobaudai ir variklio galios praradimui, kai pažeidžiami moduliai"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "judančios ar stovinčios mašinos maskuotei"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "maskuotės padidinimui, kai mašina stovi ar juda (efektyvumas priklauso nuo mašinos tipo)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "korpuso žalai, kurią sukelia smūgis į važiuoklę"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "apžvalgos atstumui (iki 445 m). Didėjanti parametro reikšmė virš 445 m leidžia efektyviau aptikti priešus."
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "žalai, gautai nuo smūgio"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "išbarstymui judant, sukantis, sukant bokštelį bei po šūvio"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "šarvų susiurbiamai fugasinių sviedinių žalai"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "trukmei, kai jūsų mašina išlieka matoma"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "greičio išlaikymui\njudant ant bet kokio grunto tipo"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "stovinčios mašinos maskuotei praėjus 3 sek. po sustojimo"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "maskuotei, jei mašina stovi\nbent 1.5 sek."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "stovinčios mašinos maskuotei praėjus 3 sek. po sustojimo (efektyvumas priklauso nuo mašinos tipo)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "stovinčios mašinos maskuotei praėjus 1.5 sek. po sustojimo (efektyvumas priklauso nuo mašinos tipo)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "stovinčios mašinos apžvalgos atstumui praėjus 3 sek. po sustojimo (iki 445 m). Didėjanti parametro reikšmė virš 445 m leidžia efektyviau aptikti priešus."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "matymo laikui, jei mašina stovi bent 1.5 sek. (iki 445 m). Jei padidinsite šią vertę virš 445 m, vietoje didesnio atstumo, galėsite efektyviau aptikti priešus"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "mašinos patvarumo taškams (apvalinama į didžiąją pusę)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "bokštelio sukimosi greičiui ar ginklo pasukimo greičiui, mašinoms su stacionariomis kabinomis"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "laikui iki Garso aptikimo\naktyvavimo"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "laikui prieš sužinant, ar jus pastebėjo"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "ginklo aušinimo greičiui"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "įgulos apsaugai nuo sužeidimų"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "įgulos efektyvumo bonusui"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "papildomai apkurtinimo trukmei"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "apkurtinimo trukmei"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "mažiausiai galimai žalos\nir pramušimo vertei"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "didžiausiai galimai žalos\nir pramušimo vertei"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "padarytai taranavimo žalai"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "laikui prieš stebimo mašinos\nkritinių apgadinimų parodymą"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "priešų mašinos maskuotei už augmenijos"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "judančios priešų mašinos maskuotei"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "priešų mašinų modulių ir\nįgulos narių sužalojimo tikimybei"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "ekipuotės atsistatymo laikui"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "ugnies gesinimo greičiui"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "maskuotei už augalijos"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "su remonto komplektu atstatomiems patvarumo taškams"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "greičio palaikymui vidutiniškai\nsunkiai pravažiuojamu gruntu"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "nuobaudai apžvalgos atstumui, kai\nstebėjimo įranga nebeveikia"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "maksimaliam potencialiam pramušimui"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "laikui po jūsų sunaikinimo,\nkuomet komandos nariams perduodamos\npriešų mašinų pozicijos"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "radijo operatoriaus apsaugai\nnuo sužeidimų"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "sviedinių greičiui"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "greičio palaikymui\nsunkiai pravažiuojamu gruntu"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "negatyviems įgulos\napkurtinimo efektams"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "važiuoklei daromai žalai"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "važiuoklės remonto greičiui"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "užtaisymo greičio nuobaudai"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "pažeisto variklio nuobaudai"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "korpuso sukimosi greičiui"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "vidinių modulių patvarumui"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "amunicijos skyriaus patvarumui"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "maksimaliam atbuliniam greičiui"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "maskuotei"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "maskuotės padidėjimui"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "smūgio žalai"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "važiuoklės remonto greičiui"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "važiuoklės patvarumui"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "apžvalgos atstumui"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "trukmei, kai priešų mašina\nišlieka jums matoma"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "variklio galiai"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "smūgio žalai"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "variklio gaisro tikimybei"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "maksimaliam greičiui į priekį"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "kuro bako\nkritinės žalos tikimybei"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "taikymosi greičiui"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "užtaisymo laikui"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "išbarstymui judant ir sukantis"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "taikinio apskritimo dydžiui po šūvio"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "išbarstymui važiuojant"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "išbarstymui sukant korpusą"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "išbarstymui sukant ginklą"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "pažeisto ginklo išbarstymui"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "taikinio apskritimo dydžiui"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "fugasinių sviedinių žalai"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "maskuotei po šūvio"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "trukmei, kai jūsų mašina išlieka matoma"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "važiuoklė gautai\ntaranavimo žalai"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "gautai taranavimo žalai"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "sviedinių pakeitimo greičiui\nužtaisytame pabūkle"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "remonto greičiui"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "greičio išlaikymui judant ant bet kokio grunto tipo"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "stovinčios mašinos maskuotei"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "stovinčios mašinos maskuotei"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "stovinčios mašinos maskuotės padidinimui"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "stovinčios mašinos maskuotės padidinimui"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "stovinčios mašinos apžvalgos atstumui"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "stovinčios mašinos apžvalgos atstumui"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "mašinos patvarumo taškams"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "bokštelio sukimosi greičiui ar ginklo pasukimo greičiui, mašinoms su stacionariomis kabinomis"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "bokštelio sukimosi greičiui"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "ratų sukimosi greičiui"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "efektyvumo praradimui, kai\nsužalotas ne vadas"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "laikui iki Garso aptikimo\naktyvavimo"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "laikui prieš stebimo mašinos\nkritinių apgadinimų parodymą"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "priešų aptikimo po\njūsų sunaikinimo laikui"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "fugasinių sviedinių žalai"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "fugasinių sviedinių pramušimui"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "fugasinių sviedinių greičiui"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "amunicijos talpai"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "visų sviedinių žalai"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "visų sviedinių tipų greičiui"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "laikui iki Garso aptikimo\naktyvavimo"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "standartinių sviedinių žalai"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "laikui prieš sužinant, ar jus pastebėjo"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "ginklo aušinimo greičiui"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "įgulos apsaugai nuo sužeidimų"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "įgulos efektyvumo bonusui"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "papildomai apkurtinimo trukmei"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "apkurtinimo trukmei"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "mažiausiai galimai žalos ir pramušimo vertei"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "didžiausiai galimai žalos\nir pramušimo vertei"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "padarytai taranavimo žalai"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "laikui prieš stebimo mašinos\nkritinių apgadinimų parodymą"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "priešų mašinos maskuotei už augmenijos"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "judančios priešų mašinos maskuotei"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "priešų mašinų modulių ir\nįgulos narių sužalojimo tikimybei"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "variklio patvarumui"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "ekipuotės atsistatymo laikui"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "ugnies gesinimo greičiui"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "maskuotei už augalijos"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "kuro bako patvarumui"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "pabūklo nusileidimui"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "pabūklo pakilimui"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "pabūklo stabilizavimui"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "pabūklo judėjimo limitams"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "su remonto komplektu atstatomiems patvarumo taškams"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "korpuso kėlimo greičiui"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "greičio palaikymui vidutiniškai\nsunkiai pravažiuojamu gruntu"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "ne fugasinių sviedinių žalai"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "nuobaudai matomumui, kai\nstebėjimo įranga nebeveikia"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "maksimaliam potencialiam pramušimui"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "laikui po jūsų sunaikinimo,\nkuomet komandos nariams perduodamos\npriešų mašinų pozicijos"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "radijo operatoriaus apsaugai\nnuo sužeidimų"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "užsitaisymui apkaboje"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "užsitaisymo laikui (šaudymo salvėmis režime)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "užsitaisymo laikui (šaudant pavieniais šūviais)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "sviedinių žalai priešų moduliams"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "sviedinių greičiui"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "greičio palaikymui\nsunkiai pravažiuojamu gruntu"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "specialių sviedinių žalai"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "specialių sviedinių pramušimui"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "specialių sviedinių greičiui"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "standartinių sviedinių žalai"
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "standartinių sviedinių pramušimui"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "standartinių sviedinių greičiui"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "negatyviems įgulos narių susižalojimų efektams"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "važiuoklei daromai žalai"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "važiuoklės remonto greičiui"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "bokštelio sukimosi limitams"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "užtaisymo greičio nuobaudai"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "pažeisto variklio nuobaudai"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "korpuso sukimosi greičiui"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "vidinių modulių patvarumui"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "amunicijos skyriaus patvarumui"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "maksimaliam atbuliniam greičiui"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "maskuotei"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "maskuotės padidėjimui"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "žalai nuo smūgio"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "važiuoklės remonto greičiui"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "važiuoklės patvarumui"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "apžvalgos atstumui (iki 445 m)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "trukmei, kai priešų mašina\nišlieka jums matoma"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "variklio galiai"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "smūgio žalai"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "variklio gaisro tikimybei"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "maksimaliam greičiui į priekį"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "kuro bako\nkritinės žalos tikimybei"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "taikymosi greičiui"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "užtaisymo laikui"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "išbarstymui judant ir sukantis"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "taikinio apskritimo dydžiui po šūvio"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "išbarstymui važiuojant"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "išbarstymui sukant korpusą"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "išbarstymui sukant ginklą"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "pažeisto ginklo išbarstymui"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "taikymosi apskritimo dydžiui"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "fugasinių sviedinių žalai"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "maskuotei po šūvio"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "trukmei, kai jūsų mašina išlieka matoma"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "važiuoklė gautai\ntaranavimo žalai"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "gautai taranavimo žalai"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "sviedinių pakeitimo greičiui\nužtaisytame pabūkle"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "remonto greičiui"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "maksimaliam greičiui į priekį/atgal"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "greičio išlaikymui judant ant bet kokio grunto tipo"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "stovinčios mašinos maskuotei"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "stovinčios mašinos maskuotei"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "stovinčios mašinos maskuotės padidinimui"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "stovinčios mašinos maskuotės padidinimui"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "stovinčios mašinos apžvalgos atstumui (iki 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "stovinčios mašinos apžvalgos atstumui (iki 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "mašinos patvarumo taškams"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "bokštelio sukimosi greičiui ar ginklo pasukimo greičiui, mašinoms su stacionariomis kabinomis"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "bokštelio sukimosi greičiui"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "ratų sukimosi greičiui"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "efektyvumo praradimui, kai\nsužalotas ne vadas"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "laikui prieš sužinant, ar jus pastebėjo"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "įgulos apsaugai nuo\nsužeidimų"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "įgulos efektyvumo bonusui"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "papildomai apkurtinimo trukmei"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "apkurtinimo trukmei"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "padarytai taranavimo žalai"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "laikui prieš stebimo mašinos\nkritinių apgadinimų parodymą"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "priešų mašinos maskuotei\nuž augmenijos"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "judančios priešų\nmašinos maskuotei"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "su remonto komplektu atstatomiems patvarumo taškams"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "kasetės užtaisymo laikui"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "maksimaliam potencialiam pramušimui"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "radijo operatoriaus apsaugai nuo sužeidimų"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "visų sviedinių tipų greičiui"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "ginklo išbarstymui"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "važiuoklės remonto greičiui"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "išbarstymui sukant ginklą"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "užtaisymo greičio nuobaudai"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "variklio galios praradimui\npatyrus žalą"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "mašinos sukimosi greičiui"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "vidinių modulių patvarumui"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "amunicijos skyriaus patvarumui"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "maksimaliam atbuliniam greičiui"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "maskuotei"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "smūgio žalai"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "važiuoklės remonto greičiui"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "važiuoklės patvarumui"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "apžvalgos atstumui"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "trukmei, kai priešų mašina\nišlieka jums matoma"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "variklio galiai"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "smūgio žalai"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "variklio gaisro tikimybei"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "maksimaliam greičiui į priekį"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "taikymosi greičiui"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "užtaisymo laikui"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "išbarstymui judant ir sukantis"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "taikymosi apskritimo dydžiui po\nšūvio"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "išbarstymui važiuojant"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "išbarstymui sukant korpusą"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "išbarstymui\nsukant ginklą "
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "pažeisto ginklo išbarstymui"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "taikinio apskritimo dydžiui"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "fugasinių sviedinių žalai"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "maskuotei po šūvio"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "trukmei, kai jūsų mašina išlieka matoma"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "gautai taranavimo žalai"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "sviedinių pakeitimo greičiui"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "remonto greičiui"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "greičio išlaikymui"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "stovinčios mašinos maskuotei"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "stovinčios mašinos maskuotei"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "apžvalgos atstumui"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "apžvalgos atstumui"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "mašinos patvarumo taškams"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "ginklo sukimosi greičiui"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "bokštelio sukimosi greičiui"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "efektyvumo praradimui, kai\nsužalotas ne vadas"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "laikui prieš sužinant, ar jus pastebėjo"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "įgulos apsaugai nuo sužeidimų"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "įgulos efektyvumo bonusui"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "įgulos efektyvumo bonusui"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "papildomai apkurtinimo trukmei"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "apkurtinimo trukmei"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "mažiausiai galimai žalos\nir pramušimo vertei"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "padarytai taranavimo žalai"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "priešų mašinos maskuotei\nuž augmenijos"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "judančios priešų\nmašinos maskuotei"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "priešų mašinų modulių ir įgulos narių\nsužalojimo tikimybei"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "ugnies gesinimo greičiui"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "su remonto komplektu atstatomiems patvarumo taškams"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "kasetės užtaisymo laikui"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "mašinos maskuotei"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "greičio palaikymui vidutiniškai\nsunkiai pravažiuojamu gruntu"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "maksimaliam potencialiam pramušimui"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "radijo signalo atstumui"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "radijo operatoriaus apsaugai nuo sužeidimų"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "visų sviedinių tipų greičiui"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "greičio palaikymui\nsunkiai pravažiuojamu gruntu"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "važiuoklės remonto greičiui"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "komandos komunikacijų signalui mašinos radijo ryšio atstumu"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "užtaisymo greičio nuobaudai"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "variklio galios praradimui\npatyrus žalą"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "mašinos sukimosi greičiui"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "vidinių modulių patvarumui"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "amunicijos skyriaus patvarumui"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "maksimaliam atbuliniam greičiui"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "maskuotei"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "žalai nuo smūgio"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "važiuoklės remonto greičiui"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "važiuoklės patvarumui"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "apžvalgos atstumui\n(iki 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "trukmei, kai priešų mašina\nišlieka jums matoma"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "variklio galiai"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "smūgio žalai"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "variklio gaisro tikimybei"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "maksimaliam greičiui į priekį"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "taikymosi greičiui"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "užtaisymo laikui"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "išbarstymui judant ir sukantis"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "taikymosi apskritimo dydžiui po\nšūvio"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "išbarstymui važiuojant"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "išbarstymui sukant korpusą"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "išbarstymui \nsukant ginklą"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "pažeisto ginklo išbarstymui"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "taikymosi apskritimo dydžiui"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "fugasinių sviedinių žalai"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "maskuotei po šūvio"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "trukmei, kai jūsų mašina išlieka matoma"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "gautai taranavimo žalai"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "sviedinių pakeitimo greičiui"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "remonto greičiui"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "greičio išlaikymui"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "stovinčios mašinos maskuotei"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "stovinčios mašinos maskuotei"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "stovinčios mašinos apžvalgos atstumui\n(iki 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "stovinčios mašinos apžvalgos atstumui\n(iki 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "mašinos patvarumo taškams"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "ginklo sukimosi greičiui"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "bokštelio sukimosi greičiui"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "įgulos patirčiai mūšyje"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "s"
+
+msgid "popularLoadouts/common"
+msgstr "Populiarus"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "Dažnai naudojama"
+
+msgid "popularLoadouts/legendary"
+msgstr "Legendinis"
+
+msgid "popularLoadouts/noData"
+msgstr "Nėra informacijos"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "Nėra informacijos"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)sPopuliarus.%(whiteSpanish_Close)s Paremtas dabartinėmis World of Tanks žaidėjų įrangos tendencijomis"
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "Duomenų surinkimas"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "Jei dar nėra duomenų apie dabartinį Prasiveržimo sezoną, pateikiami duomenys iš ankstesnių"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "Asistentu pasinaudoti galite %(whiteSpanish_Open)sAtsitiktiniuose mūšiuose%(whiteSpanish_Close)s ir %(whiteSpanish_Open)sPrasiveržime%(whiteSpanish_Close)s"
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "Visų tipų įrangos charakteristikos suvienodintos"
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "WoT Plus privalumai"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "Gaukite patikimą informaciją apie įrangą, kurią surinkome iš milijonų mūšių, ir pasirodykite kaip galite geriau."
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "Įrangos asistentas"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendinis.%(whiteSpanish_Close)s Paremtas įranga, kurią naudoja legendinį WTR lygį pasiekę žaidėjai"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "Įrangų konfigūracijų tipai"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "Pasiūlytos konfigūracijos yra paremtos panašiai žaidžiamų mašinų konfigūracijomis"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "Rodoma informacija apie panašiai žaidžiamą mašiną, rodomą žemiau:"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "Nėra informacijos apie šios mašinos įrangos konfigūraciją"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "Pasirinktos mašinos negalima naudoti šiame režime"
+
+msgid "section/battleAbilities"
+msgstr "KOVINIAI REZERVAI"
+
+msgid "section/battleBoosters"
+msgstr "INSTRUKCIJOS"
+
+msgid "section/consumables"
+msgstr "EKIPUOTĖ"
+
+msgid "section/modules"
+msgstr "MODULIAI"
+
+msgid "section/optDevices"
+msgstr "ĮRANGA"
+
+msgid "section/shells"
+msgstr "AMUNICIJA"
+
+msgid "section/toggleCamouflage"
+msgstr "KAMUFLIAŽAS"
+
+msgid "section/toggleShells"
+msgstr "AMUNICIJA"
+
+msgid "shells/ammunitionFull"
+msgstr "Pilna amunicija"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "Nepilna amunicija"
+
+msgid "shells/autoFillOff"
+msgstr "Automatinis papildymas išjungtas"
+
+msgid "shells/autofillOn"
+msgstr "Automatinis papildymas įjungtas"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "Sandėlyje:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "Amunicijos skyriuje:"
+
+msgid "shells/shortSpecification/price"
+msgstr "Pirkti:"
+
+msgid "shells/specification/inStorage"
+msgstr "Sandėlyje"
+
+msgid "shells/specification/inVehicle"
+msgstr "Amunicijos skyriuje"
+
+msgid "shells/specification/price"
+msgstr "Pirkti"
+
+msgid "shells/title"
+msgstr "Amunicija"
+
+msgid "shells/type/base"
+msgstr "STANDARTINĖ (ŠM)"
+
+msgid "shells/type/special"
+msgstr "SPECIALI (SF)"
+
+msgid "shells/type/tactical"
+msgstr "TAKTINĖ (PŠM)"
+
+msgid "tabs/crew"
+msgstr "Įgulai"
+
+msgid "tabs/deluxe"
+msgstr "Pagerinta"
+
+msgid "tabs/modernized"
+msgstr "Eksperimentinė"
+
+msgid "tabs/optDevice"
+msgstr "Ekipuotei"
+
+msgid "tabs/simple"
+msgstr "Standartiniai"
+
+msgid "tabs/trophy"
+msgstr "Trofėjinė"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "Instrukcijos bus papildytos automatiškai mašinai grįžus iš mūšio. Jos bus paimtos iš Sandėlio (jeigu ten jų turite) arba nupirktos už žaidimo valiutą."
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "Ekipuotė bus papildyta automatiškai, jei to reikia, kai mašina grįš iš mūšio."
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "Remonto darbai bus atlikti automatiškai, jei to reikia, kai mašina grįš iš mūšio."
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "Amunicija bus papildyta automatiškai, jei to reikia, kai mašina grįš iš mūšio."
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "Papildyti automatiškai"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "Automatinis remontas"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "Bus išardyta iš sandėlio: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "Bus išardyta iš mašinų: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr ", "
+
+msgid "tooltips/action/description/add_one"
+msgstr "Paspauskite norėdami nusipirkti papildomų daiktų šiai vietai."
+
+msgid "tooltips/action/description/demount"
+msgstr "Paspauskite norėdami išmontuoti įrangą iš šios vietos."
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "Paspauskite norėdami išmontuoti įrangą iš šios vietos."
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "Paspauskite norėdami išmontuoti įrangą iš visų konfigūracijų."
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "Paspauskite ir išmontuokite ir įrangą nemokamai su aktyvia WoT Plus prenumerata."
+
+msgid "tooltips/action/description/destroy"
+msgstr "Paspauskite ir sunaikinkite šią įrangą arba, jei turite WoT Plus prenumeratą, išmontuokite nemokamai."
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "Paspauskite norėdami išardyti įrangą į komponentus."
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "Paspauskite norėdami sunaikinti įrangą šioje vietoje."
+
+msgid "tooltips/action/description/swap"
+msgstr "Paspauskite norėdami sukeisti daiktus tarp vietų."
+
+msgid "tooltips/action/description/upgrade"
+msgstr "Įrangos tobulinimas pagerina jos charakteristikas."
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "Įrangos tobulinimas pagerina jos charakteristikas."
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "Įrangos tobulinimas pagerina jos charakteristikas."
+
+msgid "tooltips/action/title/add_one"
+msgstr "Pirkti"
+
+msgid "tooltips/action/title/cancel"
+msgstr "Perkelti į sandėlį"
+
+msgid "tooltips/action/title/demount"
+msgstr "Demontuoti"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "Demontuoti"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "Išmontuoti iš visų konfigūracijų"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "Išmontuoti nemokamai"
+
+msgid "tooltips/action/title/destroy"
+msgstr "Sunaikinti"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "Išardyti"
+
+msgid "tooltips/action/title/swap"
+msgstr "Keisti eiliškumą"
+
+msgid "tooltips/action/title/undo"
+msgstr "Pašalinti iš šios vietos"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "Patobulinti"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "Patobulinti"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "Patobulinti"
+
+msgid "tooltips/additional"
+msgstr "Papildoma informacija."
+
+msgid "tooltips/categories/list"
+msgstr "Paspauskite norėdami pamatyti modulių sąrašą."
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "Šios vietos kategorija gali būti naujai priskirta per Papildomos modifikacijos meniu arba įrangos pasirinkimo lange."
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "Keičiama kategorija"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "Paspauskite norėdami pakeisti kategoriją vietai."
+
+msgid "tooltips/equipmentList"
+msgstr "Paspauskite norėdami pamatyti galimos ekipuotės sąrašą."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "Negalima išardyti eksperimentinės įrangos į komponentus: jūs neturi šio tipo įrangos."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "Paspauskite norėdami išardyti įrangą į komponentus."
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "Sumontuota ši įranga suteiks standartinį bonusą, nes tik prieštankiniai ir artilerija turi Šaunamosios galios kategoriją, o ši įranga nėra sumontuota Šaunamosios galios kategorijai skirtoje vietoje."
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "Jūsų mašina gauna padidintą bonusą charakteristikoms."
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "Norėdami padidinti bonusą charakteristikoms, sumontuokite šią įrangą į vietą, priklausančią vienai iš šių kategorijų: %(category)s."
+
+msgid "tooltips/howToIncrease/single"
+msgstr "Norėdami padidinti bonusą charakteristikoms, sumontuokite šią įrangą į vietą, priklausančią šiai kategorijai: %(category)s."
+
+msgid "tooltips/placeEquipment"
+msgstr "Vieta įrangai"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "Jūs galite įjungti/išjungti galimybę pasirinkti sviedinių ir ekipuotės rinkinį Papildomos modifikacijos sąsajoje vykstant skaičiavimui prieš mūšį."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "Jūs galite įjungti/išjungti galimybę pasirinkti įrangos ir instrukcijų rinkinį Papildomos modifikacijos sąsajoje vykstant skaičiavimui prieš mūšį."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "Jūs galite įjungti/išjungti galimybę pasirinkti sviedinių ir ekipuotės rinkinį Papildomos modifikacijos sąsajoje vykstant skaičiavimui prieš mūšį."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "Jūs galite įjungti/išjungti galimybę pasirinkti sviedinių ir ekipuotės rinkinį Patobulinimų sąsajoje vykstant skaičiavimui prieš mūšį."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "Jūs galite įjungti/išjungti galimybę pasirinkti įrangos ir instrukcijų rinkinį Papildomos modifikacijos sąsajoje vykstant skaičiavimui prieš mūšį."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "Jūs galite įjungti/išjungti galimybę pasirinkti įrangos ir instrukcijų rinkinį Patobulinimų sąsajoje vykstant skaičiavimui prieš mūšį."
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "Perjungimas tarp rinkinių išjungtas"
+
+msgid "tooltips/separator/last"
+msgstr " ir "
+
+msgid "tooltips/separator/other"
+msgstr ", "
+
+msgid "tooltips/specializationDesc"
+msgstr "Standartinė įranga, priklausanti kategorijai %(spec)s, bus efektyvesnė, jeigu ją sumontuosite šioje vietoje. Kitų kategorijų įranga suteiks tik standartinį bonusą."
+
+msgid "tooltips/specializationName"
+msgstr "Kategorija:"
+
+msgid "tooltips/specializationType"
+msgstr "Šaunamoji galia"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "Vertinga įranga, kuri turi geresnes charakteristikas nei kiti įrangos tipai."
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "Speciali įranga, kuri turi tris patobulinimo lygius."
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "Įranga pagerina mašinos charakteristikas."
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "Įranga, kuri turi tokius pat parametrus kaip standartinė įranga, bet ją galima dar patobulinti."
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "Pagerinta įranga"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "Eksperimentinė įranga"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "Standartinė įranga"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "Trofėjinė įranga"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "Šio tipo įranga įsigyjama už %(whiteSpanish_Open)sbonus%(whiteSpanish_Close)s. Ją taip pat galima gauti kaip apdovanojimą už tam tikrus pasiekimus žaidime bei per specialius žaidimo renginius."
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "Šio tipo įrangą galima gauti kaip apdovanojimą tam tikruose žaidimo renginiuose."
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "Šio tipo įrangą galima nusipirkti už žaidimo valiutą. Ją taip pat galima gauti kaip apdovanojimą už tam tikrus pasiekimus žaidime bei per specialius žaidimo renginius. Standartinės įrangos charakteristikas galima pagerinti sumontavus ją į tinkamą vietą."
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "Šio tipo įrangą galima gauti kaip apdovanojimą tam tikruose žaidimo renginiuose."
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "Įsigijimo būdas"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "Įsigijimo būdas"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "Vietos įrangai"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "Trofėjinės įrangos negalima nusipirkti"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "Jūs galite patobulinti eksperimentinę įrangą naudodami %(whiteSpanish_Open)skomponentus%(whiteSpanish_Close)s, kuriuos galima gauti išardžius to paties tipo įrangą."
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "Jūs galite pagerinti trofėjinės įrangos charakteristikas naudodami žaidimo valiutą."
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "Eksperimentinės įrangos tobulinimas"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "Trofėjinės įrangos tobulinimas"

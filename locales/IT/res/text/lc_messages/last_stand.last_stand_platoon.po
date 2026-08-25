@@ -1,0 +1,77 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Crea un'unità tattica da 2 a 5 giocatori per cooperare\nin Ultima resistenza."
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Plotone"
+
+msgid "members/header/last_stand"
+msgstr ": Ultima resistenza: Terra del Nord"
+
+msgid "members/header/tooltip/last_stand/body"
+msgstr "Per partecipare a una battaglia dell'evento, tutti i membri del Plotone devono avere accesso al livello di difficoltà selezionato dal Comandante."
+
+msgid "members/header/tooltip/last_stand/header"
+msgstr "Regole per la creazione del Plotone"
+
+msgid "platoon/commander/difficulty_body"
+msgstr "Puoi selezionare uno qualsiasi dei livelli di difficoltà disponibili."
+
+msgid "platoon/difficulty/error_body_1"
+msgstr "Livelli di difficoltà disponibili: Regolare."
+
+msgid "platoon/difficulty/error_body_2"
+msgstr "Livelli di difficoltà disponibili: Regolare, Avanzata."
+
+msgid "platoon/difficulty/error_header"
+msgstr "Difficoltà indisponibile"
+
+msgid "platoon/difficulty/level_1"
+msgstr "Difficoltà: Regolare"
+
+msgid "platoon/difficulty/level_2"
+msgstr "Difficoltà: Avanzata"
+
+msgid "platoon/difficulty/level_3"
+msgstr "Difficoltà: Brutale"
+
+msgid "platoon/difficulty/level_4"
+msgstr "Difficoltà: Ultima resistenza"
+
+msgid "platoon/difficulty/lock_header"
+msgstr "Livello di difficoltà bloccato"
+
+msgid "platoon/difficulty/maxAvailable"
+msgstr "Difficoltà disponibile {%(icon)s}"
+
+msgid "platoon/difficulty/warning_body"
+msgstr "Uno o più membri del Plotone non hanno sbloccato questo livello di difficoltà."
+
+msgid "platoon/difficulty/warning_header"
+msgstr "Difficoltà incompatibile"
+
+msgid "platoon/dropdown/difficulty_1"
+msgstr "Regolare %(icon)s"
+
+msgid "platoon/dropdown/difficulty_2"
+msgstr "Avanzata %(icon)s"
+
+msgid "platoon/dropdown/difficulty_3"
+msgstr "Brutale %(icon)s"
+
+msgid "platoon/dropdown/header/difficulty"
+msgstr "{whiteSpanish_Open}Difficoltà: {whiteSpanish_Close}%(difficulty)s"
+
+msgid "platoon/player/difficulty_body"
+msgstr "Solo il Comandante del Plotone può cambiare il livello di difficoltà."
+
+msgid "platoon/simpleState/difficultyDisabled"
+msgstr "Indisponibile per motivi tecnici."
+
+msgid "platoon/simpleState/lockVehicle"
+msgstr "Il veicolo selezionato non è disponibile."
+
+msgid "platoon/simpleState/notAvailableLevel"
+msgstr "Livello di difficoltà incompatibile per il Plotone."

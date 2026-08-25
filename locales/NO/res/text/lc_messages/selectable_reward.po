@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "error/button"
+msgstr "Bekreftet!"
+
+msgid "error/description"
+msgstr "Informasjon er midlertidig utilgjengelig. Vi beklager ulempen. Vennligst prøv igjen senere."
+
+msgid "error/title"
+msgstr "Kan ikke åpne avdelingen for valg av belønninger"
+
+msgid "footer/closeBtn/label"
+msgstr "Velg senere"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "Velg belønning fra de viste kategoriene."
+msgstr[1] "Velg belønninger fra de viste kategoriene."
+msgstr[2] "Velg belønninger fra de viste kategoriene."
+
+msgid "footer/okBtn/label"
+msgstr "Hent"
+
+msgid "footer/rewardsSelected"
+msgstr "Belønninger valgt:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "Velg belønning fra de viste kategoriene."
+msgstr[1] "Velg belønning fra de viste kategoriene."
+msgstr[2] "Velg belønning fra de viste kategoriene."
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "Grense nådd"
+
+msgid "reward/state_received"
+msgstr "Allerede mottatt"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "Grensen for valgte enheter i denne kategorien har blitt nådd. Du kan avbryte valget av én enhet for å legge til en annen."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "Grense nådd"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "Direktiver\nfor utstyr"
+
+msgid "tabs/items/battle_booster"
+msgstr "Utstyrsdirektiver"
+
+msgid "tabs/items/blueprint"
+msgstr "Tegningsdeler"
+
+msgid "tabs/items/brochure"
+msgstr "Treningshefte"
+
+msgid "tabs/items/crewbook"
+msgstr "Treningsmanual"
+
+msgid "tabs/items/deluxe"
+msgstr "Forbedret utstyr"
+
+msgid "tabs/items/expequipments"
+msgstr "Eksperimentelt\nutstyr"
+
+msgid "tabs/items/guide"
+msgstr "Treningsguide"
+
+msgid "tabs/items/modernized_device"
+msgstr "Eksperimentelt utstyr"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "Eksperimentelt utstyr 1. nivå"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "Eksperimentelt utstyr 2. nivå"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "Eksperimentelt utstyr 3. nivå"
+
+msgid "tabs/items/new_device"
+msgstr "Standardutstyr"
+
+msgid "tabs/items/trophy"
+msgstr "Skuddpremieutstyr"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "Klikk på Hent knappen for å få de utvalgte belønningene."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "Valgte belønninger: %(white_open)s%(count)s%(white_close)s"

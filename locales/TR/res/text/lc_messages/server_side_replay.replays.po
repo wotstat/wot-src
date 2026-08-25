@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "closeButtonLabel"
+msgstr "KAPAT"
+
+msgid "featureName"
+msgstr "OYUN KAYITLARI"
+
+msgid "filter/apply"
+msgstr "Süzgeci Uygula"
+
+msgid "filter/group/nation/title"
+msgstr "Ülke"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Seviye"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Seviye"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "İhtisas"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Araç Türü"
+
+msgid "filter/reset"
+msgstr "Süzgeci Sıfırla"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Bu ülkenin mürettebat üyelerini göster/gizle."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Bu ülkenin kaplamalarını göster/gizle."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Bu ülkenin araçlarını göster/gizle."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Bu türdeki araçları göster/gizle."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Tank Avcıları"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "KMT'ler"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Ağır Tanklar"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Hafif Tanklar"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Orta Tanklar"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Arama kriterlerine uyan\nhiç araç bulunamadı"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Araç ismine göre sırala."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "İsim"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Araç seviyesine göre sırala."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Seviye"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Araç türüne göre sırala."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Tür"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "İsim"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Süzgeç ayarlarını uygulamak için tıklayın."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Seçili süzgeçleri uygula"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Süzgeç ayarlarını sıfırlamak için tıklayın."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Tüm Süzgeçleri Sıfırla"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Sadece altın saatlerdeki oyun kayıtlarını göster"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "Son %(count)s gün"
+msgstr[1] "Son %(count)s gün"
+msgstr[2] "Son %(count)s gün"
+
+msgid "filterPopover/title"
+msgstr "Oyun kayıtları süzgeci"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Oyun kayıtları süzgecini aracın türü, seviyesi, ülkesi, vb. ile ayarlayın."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Parametrelere göre süz"
+
+msgid "findReplay/buttonText/find"
+msgstr "Oyun kaydı bul"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Girdiyi temizle"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Oyun kaydını izle!"
+
+msgid "findReplay/errorMessage"
+msgstr "Bir şey bulunamadı. Lütfen talebinizi değiştirin"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Lütfen ARENA_ID bilgisini buraya yazın..."
+
+msgid "findReplay/successMessage"
+msgstr "Yapay zekâ, ilginizi çeken oyun kaydını buldu! İyi seyirler"
+
+msgid "page/heading/bestReplays"
+msgstr "EN İYİ OYUN KAYITLARI"
+
+msgid "page/heading/findReplay"
+msgstr "OYUN KAYDI BUL (DEV İÇİN)"
+
+msgid "page/heading/myReplays"
+msgstr "OYUN KAYITLARIM"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Bu bölümde tüm WoT oyuncularından En İyi Oyun Kayıtları hakkında bilgi bulunuyor."
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Bu bölüm, belirli parametrelere göre oyun kaydı bulmak içindir."
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Bu bölümde SİZİN en iyi oyun kayıtlarınız hakkında bilgi bulunuyor."
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "En İyi Oyun Kayıtları"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Oyun kaydı bul"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "Oyun Kayıtlarım"
+
+msgid "statsParam/damageAssisted"
+msgstr "İmhaya yardımda ilk 1"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Engellenen hasarda ilk 1"
+
+msgid "statsParam/damageDealt"
+msgstr "Verilen hasarda ilk 1"
+
+msgid "statsParam/earnedXp"
+msgstr "Kazanılan deneyimde ilk 1"
+
+msgid "statsParam/kills"
+msgstr "Araç avlamada ilk 1"
+
+msgid "table/error/buttonText"
+msgstr "Güncelle"
+
+msgid "table/error/description"
+msgstr "Verdiğimiz geçici rahatsızlıktan dolayı özür dileriz. Lütfen daha sonra tekrar sayfayı güncellemeyi deneyin."
+
+msgid "table/error/title"
+msgstr "Veriler yüklenirken hata"
+
+msgid "table/header/damageAssisted"
+msgstr "Destek"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Engellenen hasar"
+
+msgid "table/header/damageDealt"
+msgstr "Hasar"
+
+msgid "table/header/date"
+msgstr "Tarih"
+
+msgid "table/header/earnedXp"
+msgstr "Kazanılan DP"
+
+msgid "table/header/kills"
+msgstr "Avlanan araç sayısı"
+
+msgid "table/header/map"
+msgstr "Harita"
+
+msgid "table/header/marksOfMastery"
+msgstr "Ustalık bröveleri"
+
+msgid "table/header/player"
+msgstr "Oyuncunun Adı"
+
+msgid "table/header/vehicle"
+msgstr "Araç"
+
+msgid "table/noRecords/buttonText"
+msgstr "Süzgeci Sıfırla"
+
+msgid "table/noRecords/title"
+msgstr "Hiçbir şey bulunamadı. Lütfen ayarları değiştirin veya süzgeci sıfırlayın"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Süzgeç ayarlarını sıfırlamak için tıklayın."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Tüm süzgeçleri sıfırla"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Bu oyun kaydında oyuncunun verdiği destek hasarı miktarı"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Yardımcı Olunan Hasar"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Bu oyun kaydında oyuncunun engellediği hasar miktarı"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Zırh Tarafından Engellenen Hasar"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Bu oyun kaydında oyuncunun verdiği hasar miktarı"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Verilen Hasar"
+
+msgid "table/tooltip/date/body"
+msgstr "Oyunun kaydedildiği tarih."
+
+msgid "table/tooltip/date/header"
+msgstr "Oyun kaydının tarihi"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Bu oyun kaydında oyuncunun kazandığı dp miktarı"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Kazanılan dp"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Bu oyun kaydında oyuncunun elde ettiği epik madalyalar"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Epik Madalyalar"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Bu oyun kaydını Favori oyun kayıtlarına eklemek için tıklayın."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Favori"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Bu oyun kaydını Favori oyun kayıtlarından kaldırmak için tıklayın."
+
+msgid "table/tooltip/kills/body"
+msgstr "Bu oyun kaydında oyuncunun avladığı araç miktarı"
+
+msgid "table/tooltip/kills/header"
+msgstr "Avlar"
+
+msgid "table/tooltip/map/body"
+msgstr "Oyun kaydının haritası."
+
+msgid "table/tooltip/map/header"
+msgstr "Harita"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Bu oyun kaydında oyuncunun elde ettiği önemli bröveler"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Ustalık bröveleri"
+
+msgid "table/tooltip/player/body"
+msgstr "Oyun kaydındaki oyuncunun adı."
+
+msgid "table/tooltip/player/header"
+msgstr "Oyuncunun Adı"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Oyun kaydının kaydedildiği oyuncunun aracı."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Araç"
+
+msgid "tableInfo/amount"
+msgstr "Gösterilen oyun kayıtları: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Süzgeç"
+
+msgid "waitingSpinner/message"
+msgstr "İçerik yükleniyor..."

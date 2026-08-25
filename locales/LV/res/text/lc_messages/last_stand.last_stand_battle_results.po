@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, ilgums: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "Parasta grūtības pakāpe"
+
+msgid "info/difficult/2"
+msgstr "Paaugstināta Grūtība"
+
+msgid "info/difficult/3"
+msgstr "Brutāla Grūtības Pakāpe"
+
+msgid "info/mapName"
+msgstr "Pēdējā Pretošanās • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "Atdzimšanas laiki: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "Visi sabiedroto tanki tika iznīcināti."
+
+msgid "ls_finish/reason/10/lose"
+msgstr "Tev neizdevās apturēt Zero."
+
+msgid "ls_finish/reason/3/lose"
+msgstr "Laiks beidzies."
+
+msgid "ls_finish/reason/5/lose"
+msgstr "Visi sabiedrotie ir pametuši kauju."
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "Labi padarīts! Gatavs sarežģītākai misijai?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "Visi ienaidnieki Parastajā grūtības līmenī ir likvidēti."
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "Izcils sniegums! Tikai daži sasniedz šo līmeni."
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "Iznīcināti visi pretinieki ar Brutālu grūtības pakāpi."
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "Iespaidīgs darbs! Tagad laiks īstajam izaicinājumam."
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "Visi ienaidnieki Paaugstinātajā grūtībā iznīcināti."
+
+msgid "ribbon/ban"
+msgstr "Nepieņemams sniegums: bezdarbība/dezertēšana.\nBalva nav saņemta."
+
+msgid "ribbon/banRecord"
+msgstr "Nepieņemams sniegums: bezdarbība/dezertēšana.\nBalva nav saņemta. Jūsu vilņu iznīcināšanas rekords netika atjaunināts."
+
+msgid "ribbon/noReward"
+msgstr "Jūsu komandai neizdevās izturēt pirmo vilni.\nBalva nav saņemta."
+
+msgid "status/lose"
+msgstr "KAUJA PABEIGTA"
+
+msgid "status/win"
+msgstr "UZVARA"
+
+msgid "subtitle/lose"
+msgstr "Uzbrukums nav izturēts"
+
+msgid "subtitle/win"
+msgstr "Labi padarīts! Jauni dati iegūti."
+
+msgid "teamList/actions"
+msgstr "Ātras Darbības"
+
+msgid "teamList/teammates"
+msgstr "Sabiedrotie"
+
+msgid "time/record"
+msgstr "JAUNS\nREKORDS!"
+
+msgid "title/lose/noWaves"
+msgstr "KAUJA PABEIGTA"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "%(phaseNumber)s VILNIS PABEIGTS"
+msgstr[1] "%(phaseNumber)s VILŅI PABEIGTI"
+msgstr[2] "%(phaseNumber)s VILŅI PABEIGTI"
+
+msgid "title/win"
+msgstr "VISI VIĻŅI PABEIGTI"
+
+msgid "tooltip/ban"
+msgstr "Nepieņemams sniegums: bezdarbība/dezertēšana. Jūsu personālais vilņu iznīcināšanas rekords netika atjaunināts."

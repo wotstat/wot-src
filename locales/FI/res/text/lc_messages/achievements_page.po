@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Pisteet, jotka kasvattavat saavutuspisteiden kokonaismäärää."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Saavutuspisteet"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Olet suorittanut kaikki tämän saavutuksen vaiheet ja saanut kaikki saatavilla olevat palkinnot."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Paina %(escIcon)s palataksesi edelliselle KATALOGIN tasolle."
+
+msgid "catalog/rootLink"
+msgstr "KATALOGI"
+
+msgid "category/achievementsScore/title"
+msgstr "SAAVUTUSPISTEET"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "Saavutuskokoelman karttumisen tärkein osoitin. Jokainen uusi saavutus pokaaleja lukuun ottamatta kasvattaa saavutuspisteiden kokonaismäärää."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Saavutuspisteiden kokonaismäärä: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "VIIMEAIKAISET\nSAAVUTUKSET"
+
+msgid "category/title"
+msgstr "PELAAJAN KOKOELMA"
+
+msgid "category/upcoming/title"
+msgstr "TULEVAT\nSAAVUTUKSET"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s ja muita"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Saavutus avattu!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "%(count)s saavutusta avattu!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s ja muita"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Uusi palkinto ansaittu!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "%(count)s palkintoa ansaittu!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "Automaattinen näyttö lajittelee kaikkien kategorioiden palkinnot niiden arvon mukaan näytille arvokkaiden palkintojen nauhaan. Se poistuu käytöstä, jos järjestelet palkinnot käsin."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "Automaattinen näyttö lajittelee kaikkien kategorioiden palkinnot niiden arvon mukaan näytille arvokkaiden palkintojen nauhaan. Käsin tehty järjestys nollautuu, kun tämä asetus otetaan käyttöön."
+
+msgid "editConfirm/description/error"
+msgstr "Tutkimme ongelmaa. Ole hyvä ja yritä muokkausta myöhemmin. Sillä välin sinut ohjataan yleiskatsaukseen."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Tallenna"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Peruuta"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Selvä!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Automaattinen näyttö pois käytöstä"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Automaattinen näyttö käytössä"
+
+msgid "editConfirm/title/error"
+msgstr "Virhe kohdattu"
+
+msgid "editConfirm/title/normal"
+msgstr "Ota käyttöön arvokkaiden palkintojen palkintonauhan muutokset?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Peruuta muutokset"
+
+msgid "editView/footer/button/save"
+msgstr "Ota käyttöön ja poistu"
+
+msgid "editView/header/checkbox"
+msgstr "Automaattinen näyttö"
+
+msgid "editView/header/close"
+msgstr "SULJE"
+
+msgid "editView/header/title/idle"
+msgstr "Valitse palkinnot palkintonauhassa näytettäväksi"
+
+msgid "editView/header/title/selecting"
+msgstr "Valitse korvattava palkinto"
+
+msgid "editView/header/title/tutorial"
+msgstr "Valitse palkinnon paikka"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Peruuta"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Korvaa"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "SAAVUTUKSESTI\nLÖYTYVÄT TÄÄLTÄ"
+
+msgid "hint/profile"
+msgstr "SAAVUTUKSESTI\nLÖYTYVÄT TÄÄLTÄ"
+
+msgid "hint/summary/customizationButton"
+msgstr "Muokkaus saatavilla"
+
+msgid "notifications/editingEnabled/button"
+msgstr "Palkintonauhaan"
+
+msgid "notifications/editingEnabled/title"
+msgstr "Arvokkaiden palkintojen palkintonauhan muokkaaminen saatavilla"
+
+msgid "notifications/firstEntry/button"
+msgstr "Palvelushistoriaan"
+
+msgid "notifications/firstEntry/text"
+msgstr "World of Tanks -luokitus,\npalkintojen muokkaaminen."
+
+msgid "notifications/firstEntry/title"
+msgstr "Palvelushistorian päivittäminen"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "Palvelushistoriaan"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Palkintojen muokkaaminen\nja visuaalinen design."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Palvelushistorian päivittäminen"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "Palvelushistoriaan"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Tasosi: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Luokituksesi on laskettu!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "Palvelushistoriaan"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "World of Tanks -luokituksesi on muuttunut. Mene palveluhistoria -osioon ottamaan selvää yksityiskohdista."
+
+msgid "notifications/ratingUp/button"
+msgstr "Palvelushistoriaan"
+
+msgid "notifications/ratingUp/text"
+msgstr "Olet saavuttanut tason: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Luokituksesi on parantunut!"
+
+msgid "playerInfo/clan/button"
+msgstr "Klaanin profiili"
+
+msgid "playerInfo/clan/date"
+msgstr "Liittymispäivä:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "Pelaajalla ei ole pysyviä taktisia yksikköjä"
+
+msgid "playerInfo/clan/post"
+msgstr "Asema:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "Henkilökohtainen tuntolaatta on\nväliaikaisesti poissa saatavilta"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "Pelaajan luokitusta ei ole vielä laskettu: olet taistellut alle %(amount)s taistelua."
+
+msgid "ratingWidget/status/initial"
+msgstr "Taistele %(amount)s taistelua World of Tanks -luokituksesi laskemiseksi."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "Pelaajan luokitusta ei ole vielä laskettu"
+
+msgid "ratingWidget/status/progress"
+msgstr "Lasketaan World of Tanks -luokitustasi. Taisteluja jäljellä: %(amount)s."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Mene taistelemaan ja me laskemme sinulle luokituksesi."
+
+msgid "rewardView/button/achievements"
+msgstr "Saavutuksiin"
+
+msgid "rewardView/button/dogTag"
+msgstr "Tuntolaattaan"
+
+msgid "rewardView/button/dogTags"
+msgstr "Tuntolaattoihin"
+
+msgid "rewardView/button/moreRewards"
+msgstr "Katso %(value)s lisää"
+
+msgid "rewardView/reward/dogTag"
+msgstr "\"%(value)s\" -tuntolaatta"
+
+msgid "rewardView/title/multi"
+msgstr "SAAVUTUSPALKINTOJA SAATU"
+
+msgid "rewardView/title/single"
+msgstr "SAAVUTUSPALKINTO SAATU"
+
+msgid "section/action"
+msgstr "Erikoiset"
+
+msgid "section/battle"
+msgstr "Taistelusankarit"
+
+msgid "section/class"
+msgstr "Luokalliset palkinnot"
+
+msgid "section/epic"
+msgstr "Eeppiset mitalit"
+
+msgid "section/group"
+msgstr "Osastopalkinnot"
+
+msgid "section/memorial"
+msgstr "Muistomerkit"
+
+msgid "section/special"
+msgstr "Kunnia-asemat"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "SAAVUTUKSIIN"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Viimeinen taistelu: %(lastVisitDate)s kello %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Tili luotu: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Tausta"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Oletus"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Tulipalo"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Kultaa"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Legendaarinen"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Retro"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Räjähtävä"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Peruuta muutokset"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Palkintonauha"
+
+msgid "summary/achievements/customization/save"
+msgstr "Ota käyttöön ja poistu"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "Teknisten ongelmien tähden palvelushistoriasi näyttävän ruudun muokkaaminen ei ole saatavilla. Työskentelemme korjataksemme sen. Päivitä ruutusi tai palaa myöhemmin."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Muokkaaminen ei ole tällä hetkellä saatavilla"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Arvokkaat palkinnot"
+
+msgid "summary/achievements/total"
+msgstr "Yhteensä: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Ainutlaatuiset: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Keskimäärin: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Voittoja: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Keskimäärin: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Keskimäärin: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Ennätys: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Keskimäärin: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Mene taistelemaan sillä välin, kun valmistelemme tietojasi."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Tietoja ei väliaikaisesti ole saatavilla."
+
+msgid "summary/disabled/title"
+msgstr "Lisää tietoja on saatavilla myöhemmin"
+
+msgid "summary/main/assistance"
+msgstr "AVUSTUSENNÄTYS"
+
+msgid "summary/main/battles"
+msgstr "TAISTELUJA\nKÄYTY"
+
+msgid "summary/main/blocked"
+msgstr "SUURIN TORJUTTU\nVAHINKO"
+
+msgid "summary/main/damage"
+msgstr "VAHINKO-\nENNÄTYS"
+
+msgid "summary/main/destroyed"
+msgstr "VAUNUJA\nTUHOTTU"
+
+msgid "summary/main/experience"
+msgstr "KOKEMUS-\nENNÄTYS"
+
+msgid "summary/statistic/title"
+msgstr "World of Tanks -luokitus"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Henkilökohtainen luokitus"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Suurin avustuksellasi aiheutetun vahingon määrä."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Suurin avustuksellasi aiheutetun vahingon määrä taistellessasi %(tankName)s vaunulla."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Avustusennätys: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Avustuksellasi vihollisvaunuihin aiheutetun kokonaisvahingon suhde käytyjen taisteluiden määrään. Tähän lasketaan:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Vahinko pelaajan havaitsemiin kohteisiin\n• Vahinko vaunuun, jonka olet tehnyt liikuntakyvyttömäksi."
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Avustusta keskimäärin: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Voittojen kokonaismäärän suhde pelattujen taisteluiden määrään."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Sisältäen:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Voittoja: %(wins)s\n• Tappioita: %(loses)s\n• Tasapelejä: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Voittosuhde: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Taisteluita käyty: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Vahinkoa torjuttu enimmillään."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Vahinkoa torjuttu enimmillään taistellessasi %(tankName)s vaunulla."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Vahinkoa torjuttu: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Läpäisemättömistä osumista ja panssari- ja ontelokranaattien sekä alikaliiperiammusten kimmokkeista torjutun vahingon kokonaismäärän suhde käytyjen taisteluiden määrään."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Vahinkoa torjuttu keskimäärin: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Vahinkoa aiheutettu enimmillään."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Vahinkoa aiheutettu enimmillään taistellessasi %(tankName)s vaunulla."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Vahinkoennätys: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Aiheutetun vahingon kokonaismäärän suhde pelattujen taisteluiden määrään."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Vahinkoa keskimäärin: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Vihollisvaunuja tuhottu enimmillään."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "Vihollisvaunuja tuhottu enimmillään taistellessasi %(tankName)s vaunulla."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Vaunuja tuhottu enimmillään: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Kaikissa taisteluissa tuhottujen vihollisvaunujen määrä yhteensä."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Vaunuja tuhottu: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Korkein ansaittu kokemusmäärä."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "Korkein ansaittu kokemusmäärä taistellessasi %(tankName)s vaunulla."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Kokemusennätys: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Ansaitun kokemuksen kokonaismäärän suhde pelattujen taisteluiden määrään."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Kokemusta keskimäärin: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Voitto tai tappio eivät vaikuta World of Tanks -luokituksesi laskentaan."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Pelaa erilaisilla vaunuilla määrittääksesi tehokkaimmat vaunusi seuraavien suorituskykymittareiden mukaan:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "WTR on luokitusjärjestelmä, joka laskee yksittäiset luokitukset joka vaunulle ja käyttää niitä määrittämään pelaajan yleisen suoriutumisen. Järjestelmä reagoi joustavasti muutoksiin taistelustrategiassa ja vertaa pelaajan tilastoja palvelimen keskiarvoihin."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Vahinkoa aiheutettu"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Vahinkoa aiheutettu avustuksellasi"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Tuhottujen vihollisvaunujen määrä"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Torjuttu vahinko ja selviytyminen"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "WTR-luokituksen parantaminen"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "World of Tanks -luokitus"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Taisteluita jäljellä luokituksen laskemiseen: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Taso: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Raja saavutettu!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Pisteitä jäljellä tasosi parantamiseen: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "Pronssi %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "Hopea %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "Kulta %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "Ässä %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "Legenda %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Taso"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Pisteiden määrä"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "World of Tanks -luokitus"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "Tämän asetuksen käyttöön ottaminen %(whiteSpanish_Open)snollaa%(whiteSpanish_Close)s asettamasi järjestyksen."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "Poistamalla asetus käytöstä tai järjestelemällä sen käsin %(whiteSpanish_Open)slakkaavat%(whiteSpanish_Close)s palkintonauhan palkinnot %(whiteSpanish_Open)späivittymästä%(whiteSpanish_Close)s %(whiteSpanish_Open)sautomaattisesti%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "Järjestelee %(whiteSpanish_Open)skaikkien kategorioiden%(whiteSpanish_Close)s palkinnot automaattisesti niiden arvon mukaan näyttääkseen arvokkaat palkintonauhassa."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Automaattinen näyttö"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "Arvokkaiden palkintojen palkintonauhan muokkaus ei ole väliaikaisesti saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Sinulla ei ole vielä tänne sijoitettavia palkintoja. Saat niitä %(whiteSpanish_Open)staisteluista%(whiteSpanish_Close)s tai %(whiteSpanish_Open)sosallistumalla pelitapahtumiin.%(whiteSpanish_Close)s"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "Arvokkaiden palkintojen palkintonauhan muokkaaminen tulee mahdolliseksi saatuasi %(whiteSpanish_Open)s%(amount)s tai enemmän palkintoja%(whiteSpanish_Close)s mistä hyvänsä kategoriasta."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Ei tänne sijoitettavia palkintoja."
+
+msgid "tooltips/mastery/body"
+msgstr "Kaikissa asiaankuuluvissa taistelutiloissa saavutettujen \"Tankkiässä\" -arvomerkkien määrä / vähintään yhteen satunnaistaisteluun osallistuneiden vaunujen määrä"
+
+msgid "tooltips/mastery/header"
+msgstr "Taitomerkit: Tankkiässä"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "Henkilökohtainen luokitus on pelaajan taidon ja kokemuksen mittari, joka perustuu seuraaviin seikkoihin:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "Henkilökohtaista luokitusta päivitetään jokaisen käydyn taistelun myötä."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Voitot\n• Avustuksellasi aiheutettu vahinko\n• Keskimääräinen vahinko per taistelu\n• Keskimääräinen kokemus per taistelu\n• Hengissä selvityt taistelut"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Henkilökohtainen luokitus"

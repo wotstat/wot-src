@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: Equipo WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "Ataque de artillería"
+
+msgid "attackReason/artillery_sector"
+msgstr "Ataque de artillería"
+
+msgid "attackReason/bombers"
+msgstr "Ataque aéreo"
+
+msgid "battleCommunication/hint/description"
+msgstr "para indicar una posición o poner un marcador"
+
+msgid "battleCommunication/hint/press"
+msgstr "Pulsa"
+
+msgid "battleEndWarning/text"
+msgstr "La batalla finaliza en:"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "Se ocultarán en esta batalla los mensajes de texto y voz de este jugador."
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "Bloquear mensajes de este jugador"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "Los mensajes de un jugador en la lista negra están bloqueados."
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "Acción no disponible"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "Los mensajes de texto y voz de este jugador\nestarán disponibles de nuevo."
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "Desbloquear mensajes del jugador"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "Se ha producido un problema técnico al recuperar los datos de la zona de combate."
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "En este mapa, no hay datos disponibles sobre la zona de combate de este vehículo."
+
+msgid "battleProgress/hint/description"
+msgstr "para ver misiones personales"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "No se han asignado las teclas principales"
+
+msgid "battleProgress/hint/press"
+msgstr "Pulsa"
+
+msgid "battle_notifier/lose"
+msgstr "¡Derrota!"
+
+msgid "battle_notifier/tie"
+msgstr "¡Empate!"
+
+msgid "battle_notifier/win"
+msgstr "¡Victoria!"
+
+msgid "bot/boss"
+msgstr "Jefe"
+
+msgid "bot/elite"
+msgstr "Élite"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "ALERTA DE DAÑO"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "MOTOR DAÑADO"
+
+msgid "chat_example/affirmative"
+msgstr "¡Afirmativo!"
+
+msgid "chat_example/attack_enemy"
+msgstr "¡Solicito fuego sobre <Enemy Name>!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "¡Atacando a <Enemy Name>!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "¡Capturad la base!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "¡Defended la base!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "¡Atención al sector <sector del minimapa>!"
+
+msgid "chat_example/attention_to_position"
+msgstr "¡Atención al sector!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "Destruid objetivos"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "¡Proteged los vehículos!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "Capturad la zona"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "Defended los objetivos"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "¡Proteged los vehículos!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "Defended las zonas"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "Reforzad la zona"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "Reforzad la zona"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "Reforzad la zona"
+
+msgid "chat_example/going_there"
+msgstr "¡Me dirijo aquí!"
+
+msgid "chat_example/help_me"
+msgstr "¡Ayuda!"
+
+msgid "chat_example/help_me_ex"
+msgstr "¡<Nombre de aliado>, ayuda!"
+
+msgid "chat_example/negative"
+msgstr "¡Negativo!"
+
+msgid "chat_example/overheated_gun"
+msgstr "¡Cañón sobrecalentado! No puede disparar durante <Reload Time> s"
+
+msgid "chat_example/positive"
+msgstr "¡Afirmativo!"
+
+msgid "chat_example/reloading_cassette"
+msgstr "Listo para disparar en <Tiempo de recarga> s, proyectiles en la recámara: <N.º de proyectiles> ud(s)."
+
+msgid "chat_example/reloading_gun"
+msgstr "¡Recargando! ¡Quedan <Tiempo de recarga> s!"
+
+msgid "chat_example/reloading_ready"
+msgstr "¡Listo para disparar!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "¡Listo para disparar! Proyectiles en la recámara: <N.º de proyectiles> ud(s)."
+
+msgid "chat_example/reloading_unavailable"
+msgstr "La munición está agotada."
+
+msgid "chat_example/spg_aim_area"
+msgstr "¡Apuntando al <Sector on Minimap>!"
+
+msgid "chat_example/supporting_ally"
+msgstr "¡<Ally Name>, voy a ayudarte!"
+
+msgid "chat_example/thanks"
+msgstr "¡<Ally Name>, gracias!"
+
+msgid "chat_example/turn_back"
+msgstr "¡<Nombre de aliado>, retrocede!"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "¡Afirmativo!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "¡Solicito fuego sobre %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "¡Listo para disparar! ¡Atacad %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "¡No tengo munición! ¡Solicito fuego sobre %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "¡Atacando a %(target)s! Recargando, ¡quedan %(reloadTime)d s!"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "¡Voy a capturar la base!"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "¡Estoy capturando la base %(strArg1)s!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "¡Atacando a %(target)s!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "¡Capturad la base!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "¡Capturad la base %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "¡Defended la base!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "¡Defended la base %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "¡Atención a %(cellName)s!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Destruid el objetivo %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "¡Estoy atacando el objetivo %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Defended el objetivo %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "¡Estoy defendiendo el objetivo %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "¡Atención a la posición!"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "Atención a %(gridId)s"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "¡Voy a defender la base!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "¡Estoy defendiendo la base %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "¡Destruid los objetivos!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "Tenemos tiempo. ¡Proteged los vehículos!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "Se acaba el tiempo. ¡Dadlo todo por capturar la zona!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "¡Defended los objetivos!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "Tenemos que aguantar. ¡Proteged los vehículos!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "Se acaba el tiempo. ¡Defended las zonas a toda costa!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "¡La zona %(strArg1)s necesita ayuda, reforzadla!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "¡La zona %(strArg1)s necesita ayuda, reforzadla!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "¡La zona %(strArg1)s necesita ayuda, reforzadla!"
+
+msgid "chat_shortcuts/going_there"
+msgstr "¡De camino a la posición!"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "Me dirijo a %(gridId)s"
+
+msgid "chat_shortcuts/help_me"
+msgstr "¡Ayuda!"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "¡%(target)s, ayuda!"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "Id al objetivo: %(target)s"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "¡Voy al objetivo: %(target)s!"
+
+msgid "chat_shortcuts/negative"
+msgstr "¡Negativo!"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "¡Cañón sobrecalentado! No puede disparar durante %(floatArg1)d s"
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s, ¡afirmativo!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "Listo para disparar en %(floatArg1)d s, proyectiles en la recámara: %(int32Arg1)s ud(s)."
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "¡Recargando! ¡Quedan %(floatArg1)d s!"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "¡Listo para disparar!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "¡Listo para disparar! Proyectiles en la recámara: %(int32Arg1)s ud(s)."
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "La munición está agotada."
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "Posición en la mira. ¡Listo para disparar!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "¡Observando %(gridId)s! ¡No tengo munición!"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "Apuntando a %(gridId)s. ¡Listo para disparar!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "Posición en la mira. Recargando, ¡quedan %(reloadTime)d s!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "Apuntando a %(gridId)s. Recargando, ¡quedan %(reloadTime)d s!"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "¡%(target)s, voy a ayudarte!"
+
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s, ¡gracias!"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "¡%(target)s, retrocede!"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "Ir a Ajustes"
+
+msgid "commanderCam/hint/description"
+msgstr "Aleja el zoom para usar la Vista táctica"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "Enfriamiento: %(cooldownSeconds)s s"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "Espacio para consumibles"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "km/h"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "AP"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "APCR"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "AE"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "AE"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "AEAC"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "Comandante herido. Características técnicas reducidas."
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "Comandante"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "Conductor herido. Movimiento y velocidad de giro del casco reducidos."
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "Conductor"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "Artillero herido. Precisión reducida."
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "Artillero"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "Artillero 2 herido. Precisión reducida."
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "Artillero 2"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "Cargador herido. Velocidad de carga reducida."
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "Cargador"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "Cargador 2 herido. Velocidad de carga reducida."
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "Cargador 2"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "Operador de radio herido. Alcance de señal reducido."
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "Operador de radio"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "Operador de radio 2 herido. Alcance de señal reducido."
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "Operador de radio 2"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "Compartimento de munición dañado. Velocidad de carga reducida."
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "El compartimento de municiones explotó."
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "Compartimento de municiones intacto."
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "Suspensión dañada."
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "Inmovilizado: suspensión destruida."
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "Suspensión intacta."
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "Motor dañado. La potencia ha disminuido."
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "Inmovilizado: motor destruido."
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "Motor intacto."
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "Depósito de combustible dañado."
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "Depósito de combustible destruido."
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "Depósito de combustible Intacto."
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "Cañón dañado. Disminuyó la precisión."
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "Cañón destruido. Imposible disparar."
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "Cañón intacto."
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "Radio dañada."
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "Radio destruida. Alcance de señal reducido."
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "Radio intacta."
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "Dispositivo de observación dañado."
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "Dispositivo de observación destruido. Alcance de visión reducido."
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "Dispositivo de observación intacto."
+
+msgid "damage_panel/devices/track/critical"
+msgstr "Suspensión dañada."
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "Inmovilizado: suspensión destruida."
+
+msgid "damage_panel/devices/track/normal"
+msgstr "Suspensión intacta."
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "Torreta dañada. Velocidad de giro reducida."
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "Giro imposible: torreta destruida."
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "Torreta intacta."
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "Suspensión dañada."
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "Inmovilizado: suspensión destruida."
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "Suspensión intacta."
+
+msgid "danger_zone/indicator"
+msgstr "Tu vehículo puede ser destruido. ¡Sal de la zona de riesgo!"
+
+msgid "destroyTimer/liftOver"
+msgstr "Retomando el rumbo..."
+
+msgid "devMaps/hint/description"
+msgstr "para ver las características del mapa"
+
+msgid "devMaps/hint/press"
+msgstr "Pulsa"
+
+msgid "devMaps/mapInfo/info"
+msgstr "Puede haber sucesos fortuitos en este mapa. Este tipo de mapa se puede desactivar en los ajustes del juego."
+
+msgid "devMaps/mapInfo/text"
+msgstr "Mapa con sucesos fortuitos"
+
+msgid "devices/ammo_bay"
+msgstr "compartimento de munición"
+
+msgid "devices/chassis"
+msgstr "suspensión"
+
+msgid "devices/engine"
+msgstr "motor"
+
+msgid "devices/fuel_tank"
+msgstr "depósito de combustible"
+
+msgid "devices/gun"
+msgstr "cañón"
+
+msgid "devices/left_track"
+msgstr "oruga izquierda"
+
+msgid "devices/radio"
+msgstr "radio"
+
+msgid "devices/right_track"
+msgstr "oruga derecha"
+
+msgid "devices/surveing_device"
+msgstr "dispositivo de observación"
+
+msgid "devices/track"
+msgstr "oruga %(type)s"
+
+msgid "devices/track/left"
+msgstr "izquierda"
+
+msgid "devices/track/main"
+msgstr "de reserva"
+
+msgid "devices/track/outer"
+msgstr "principal"
+
+msgid "devices/track/right"
+msgstr "derecha"
+
+msgid "devices/turret_rotator"
+msgstr "rotor de torreta"
+
+msgid "devices/wheel"
+msgstr "rueda"
+
+msgid "distance/meters"
+msgstr "%(meters)d m"
+
+msgid "dynamicSquad/ally/add"
+msgstr "Haz clic para invitar al jugador a ingresar en el pelotón.\nEl jugador puede aceptar tu invitación bien durante o tras finalizar la batalla.%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\n¡Atención! Los miembros del pelotón verán tu nombre de usuario real y la etiqueta de tu clan."
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\n¡Atención! Los miembros del pelotón verán tu nombre de usuario real."
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "No se puede invitar a ese aliado a ingresar en el pelotón."
+
+msgid "dynamicSquad/ally/received"
+msgstr "Haz clic para aceptar la invitación para ingresar en el pelotón.\nEl pelotón se creará durante la batalla."
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "Se envió una invitación al jugador.\nSi la aceptan, ingresarán en tu pelotón bien durante o tras finalizar la batalla."
+
+msgid "dynamicSquad/enemy/add"
+msgstr "Haz clic para invitar al jugador a ingresar en el pelotón.\nEl jugador puede aceptar tu invitación bien durante o tras finalizar la batalla.%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "No se puede invitar al enemigo a ingresar en el pelotón."
+
+msgid "dynamicSquad/enemy/received"
+msgstr "Haz clic para aceptar la invitación para ingresar en el pelotón.\nEl pelotón se creará solo tras finalizar la batalla."
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "Se envió una invitación al jugador.\nSi la aceptan, ingresarán en tu pelotón tras finalizar la batalla."
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "Pulsa"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "para activar el chat de voz"
+
+msgid "dynamicSquad/invite"
+msgstr "Invitación para ingresar en el pelotón"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "Daño por Ataque aéreo"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "Daño por Ataque de artillería"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "Daño por el Objetivo principal"
+
+msgid "efficiencyRibbons/armor"
+msgstr "Daño bloqueado"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "Asistir con reservas de combate"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "Daño sobre detectados"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "Daño tras tu aturdimiento"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "Oruga destruida"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "Daño de Berserker"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "Experiencia de rol"
+
+msgid "efficiencyRibbons/burn"
+msgstr "Incendio"
+
+msgid "efficiencyRibbons/capture"
+msgstr "Captura de la base enemiga"
+
+msgid "efficiencyRibbons/crits"
+msgstr "Impacto crítico"
+
+msgid "efficiencyRibbons/damage"
+msgstr "Daño causado"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "Daño por salva del buque de guerra"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "Daño del USS Frankford"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "Daño de minas"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "Daño con Robot de batalla"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "Daño con Proyectil ácido"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "Daño con Cinturón de fuego"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "Daño con Descarga eléctrica"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "Daño de zona"
+
+msgid "efficiencyRibbons/defence"
+msgstr "Puntos de captura reducidos"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "Zona defendida"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "Daño causado"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "Objetivo destruido"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "Objetivo defendido"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "Zona capturada"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "Daño de zona de incendio"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "Vehículo reparado"
+
+msgid "efficiencyRibbons/kill"
+msgstr "Destruido"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "Daño del campo de minas"
+
+msgid "efficiencyRibbons/ram"
+msgstr "Embestida"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "Daño por fuego"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "Daño con Robot de batalla"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "Daño con Proyectil ácido"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "Daño con Cinturón de fuego"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "Daño de minas"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "Daño de Niebla corrosiva"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "Daño con Descarga eléctrica"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "Daño crítico"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "Daño por disparo"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "Daño de Bola de fuego"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "Daño por embestida"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "Daño por colisión"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "Daño de Bola de fuego"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "Detectado"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "Daño por zona de destrucción"
+
+msgid "efficiencyRibbons/stun"
+msgstr "Aturdimiento"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "Vehículo abandonado"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "Daño por impacto"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "Ventiscas"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "Incendios"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "Niebla"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "Lluvias torrenciales"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "Tormentas de arena"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "Humo"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "Tornados"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "Ocultar paneles del equipo"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "Sin panel"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Pulsa Ctrl + Tab para alternar entre los modos)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "Muestra los nombres de los jugadores, objetivos destruidos e iconos de los vehículos"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "Panel medio 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Pulsa Ctrl + Tab para alternar entre los modos)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "Muestra los vehículos destruidos por un jugador, nombre e icono del vehículo de un jugador."
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "Panel medio 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Pulsa Ctrl + Tab para alternar entre los modos)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "Muestra objetivos destruidos e iconos de vehículos"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "Panel corto"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Pulsa Ctrl + Tab para alternar entre los modos)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "Alterna entre visualizar tu propio grupo de aparición o los tres grupos de aparición."
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "Alternar columnas"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Pulsa Ctrl + Tab para alternar entre los modos)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "¡Destruiste la bandera!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "¡Bandera capturada!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "Bandera entregada."
+
+msgid "flagNotification/flagInbase"
+msgstr "Entrega la bandera en el cuartel general."
+
+msgid "flags/timer"
+msgstr "%(time)s s..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "s..."
+
+msgid "grille/status/reload"
+msgstr "RECARGANDO..."
+
+msgid "grille/status/speedlimit"
+msgstr "LÍMITE DE VELOCIDAD"
+
+msgid "helpScreen/hint/description"
+msgstr "para ver las características del vehículo"
+
+msgid "helpScreen/hint/press"
+msgstr "Pulsa"
+
+msgid "helpScreen/mapbox/description"
+msgstr "para ver las características del mapa"
+
+msgid "helpScreen/mapbox/press"
+msgstr "Pulsa"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "para activar el modo disparo/<font color='#F4B12C'><b>fortín</b></font>"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "para activar el modo disparo/<font color='#F4B12C'><b>movimiento</b></font>"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "para activar el modo movimiento/<font color='#F4B12C'><b>fortín</b></font>"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "Tecla de cambio de modo sin asignar"
+
+msgid "helpScreen/pillbox/press"
+msgstr "Pulsa/<font color='#F4B12C'><b>Mantén</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "No se han asignado las teclas principales"
+
+msgid "hitMarker/blocked"
+msgstr "No se ha penetrado el blindaje"
+
+msgid "hitMarker/critical"
+msgstr "Impacto crítico"
+
+msgid "hitMarker/missArmor"
+msgstr "No se ha golpeado el blindaje"
+
+msgid "hitMarker/ricochet"
+msgstr "Rebote"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "No se ha penetrado la pantalla"
+
+msgid "hitMarker/trackBlocked"
+msgstr "No se ha penetrado la oruga"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "No se ha penetrado la rueda"
+
+msgid "levelProgress/maxLevel"
+msgstr "NIVEL MÁXIMO DE VEHÍCULO"
+
+msgid "marker/meters"
+msgstr "m"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "La detonación del depósito de combustible fue evitada por el equipamiento %(device)s"
+
+msgid "optDeviceResurrection/engine"
+msgstr "La destrucción del motor fue evitada por el equipamiento %(device)s"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "El incendio fue evitado por el equipamiento %(device)s"
+
+msgid "penetration/high"
+msgstr "Alta"
+
+msgid "penetration/low"
+msgstr "Baja"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "Condición secundaria:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "Condición primaria:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "No hay misiones activas para este modo de batalla."
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "No hay misiones activas para este modo de batalla."
+
+msgid "personal_reserves/hint/description"
+msgstr "para activar las reservas personales"
+
+msgid "personal_reserves/hint/press"
+msgstr "Pulsa"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "Inmovilizado: suspensión dañada."
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "Inmovilizado: tripulación destruida."
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "Inmovilizado: motor dañado."
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "Inmovilizado: vehículo destruido."
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "No puedes disparar: tripulación destruida."
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "No puedes disparar: cañón dañado."
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "Imposible disparar."
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "No se puede disparar: cañón sobrecalentado."
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "Cargando cañón."
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "Se está completando la carga."
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "No puedes disparar: la munición se ha agotado."
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "No puedes disparar: vehículo destruido."
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "Cambio no disponible: el motor ha sido destruido."
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "Cambio no disponible: cañón destruido"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "Cambio no disponible: solo queda un proyectil"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] ya se ha activado."
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "El consumible [%(name)s] está inactivo: No hay incendio."
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] no está disponible durante el enfriamiento."
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "La asistencia médica no es necesaria: No hay tripulantes heridos."
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] no necesita ayuda médica."
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "La reserva todavía no está lista."
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "Captura el %(name)s para activar la habilidad táctica."
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "Los módulos y el comandante tienen todos sus puntos de vida. No necesitan reparaciones o tratamiento."
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "Las reparaciones no son necesarias: todos los dispositivos intactos."
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] totalmente operacional, no se requieren reparaciones."
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "No se puede activar el arma coaxial."
+
+msgid "player_messages/ALLY_HIT"
+msgstr "¡Has disparado a un aliado %(entity)s!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s] se puede utilizar."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "Batería de artillería desplegada y lista para disparar."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "Aviones listos para bombardear."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "La tripulación está lista para inspirar a aquellos que les rodean."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "Ya se puede desplegar el Campo de minas."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "Nuestro avión se aproxima y está listo para el reconocimiento."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "Ya se puede usar Reparaciones de campo."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "Batería de humo desplegada y lista para disparar."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "Ya se puede usar Centinela."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "Batería de artillería de %(player)s disparando."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "Bombarderos de %(player)s en camino."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s crea una zona de recuperación."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s ha activado la inspiración."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s ha desplegado un Campo de minas."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "Reconocimiento de %(player)s en camino."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s ha usado Reparaciones de campo."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s ha desplegado una cortina de humo."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s ha activado Centinela."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s ha sido destruido por el ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s ha sido destruido por el ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s ha sido destruido por el ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s ha sido destruido por el ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s ha sido destruido por el ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s ha sido destruido por el ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Vehículo destruido por fuego de artillería."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s ha sido destruido por el ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s ha sido destruido por el ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s ha sido destruido por el ataque aéreo."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s ha sido destruido por el ataque aéreo."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "El aliado %(target)s fue destruido por el aliado %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(attacker)s destruyó a %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "El vehículo fue destruido por el aliado %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "%(target)s aliado destruido por la zona."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(attacker)s destruyó a %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "El enemigo %(attacker)s destruyó al enemigo %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "El vehículo fue destruido por %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s ha sido destruido por la zona."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "Aliado %(target)s destruido."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s destruido."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vehículo destruido."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Módulo [%(device)s] destruido por un incendio"
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "El dispositivo [%(device)s] fue destruido por un disparo de %(entity)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "El aliado %(attacker)s ahogó al aliado %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(attacker)s ahogó a %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "El vehículo fue ahogado por el aliado %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "Aliado %(target)s ahogado."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(attacker)s ahogó a %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "El enemigo %(attacker)s ahogó al enemigo %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "El vehículo fue ahogado por %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "Enemigo %(target)s ahogado."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "El aliado %(target)s se ahogó."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "%(target)s se ahogó."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vehículo ahogado."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "El aliado %(target)s fue destruido por el aliado %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(attacker)s destruyó a %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "El vehículo fue destruido por el aliado %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(attacker)s destruyó a %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "El enemigo %(attacker)s destruyó al enemigo %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "El vehículo fue destruido por %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "Aliado %(target)s destruido."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s destruido."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "Tripulación destruida."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "La tripulación fue destruida por un disparo de %(entity)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "La tripulación del aliado %(target)s fue destruida por el aliado %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "La tripulación de %(target)s fue destruida por %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "La tripulación fue destruida por el aliado %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "El aliado %(target)s destruyó su tripulación."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "La tripulación de %(target)s fue destruida por %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "La tripulación del enemigo %(target)s fue destruida por el enemigo %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "La tripulación fue destruida por %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "El enemigo %(target)s destruyó su tripulación."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "Tripulación del aliado %(target)s destruida."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "Tripulación %(target)s destruida."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Tripulación destruida."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "%(target)s aliado destruido por el campo de minas."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s destruido."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(attacker)s destruyó a %(target)s con minas."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(attacker)s destruyó a %(target)s con minas."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s destruido por minas."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "El aliado %(attacker)s hizo volcar al aliado %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s hizo volcar a %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Vehículo volcado por %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "El aliado %(target)s hizo volcar su vehículo"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s hizo volcar a %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "El enemigo %(attacker)s hizo volcar al enemigo %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Vehículo volcado y destruido por %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "El enemigo %(target)s hizo volcar su vehículo"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "El aliado %(target)s volcó"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s volcó"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vehículo volcado y destruido"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "El aliado %(attacker)s destruyó al aliado %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(attacker)s destruyó a %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "El vehículo fue destruido por el aliado %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "El aliado %(target)s se estrelló."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(attacker)s destruyó a %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "El enemigo %(attacker)s destruyó al enemigo %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "El vehículo fue destruido por %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "El enemigo %(target)s se estrelló."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "Aliado %(target)s destruido."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s destruido."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vehículo destruido."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s ha abandonado su vehículo."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s ha abandonado su vehículo."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Vehículo destruido durante un bombardeo de zona."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s ha sido destruido durante el bombardeo de zona."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s ha sido destruido durante el bombardeo de zona."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Vehículo destruido por fuego de artillería."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s ha sido destruido por el ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s ha sido destruido por el ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "El aliado %(attacker)s destruyó a %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "El aliado %(attacker)s destruyó a %(target)s con un ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "El aliado %(attacker)s destruyó a %(target)s con un bombardeo."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s destruyó a %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s destruyó a %(target)s con Ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(attacker)s destruyó a %(target)s con Ataque aéreo."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s ha destruido a %(target)s (Fuego de cobertura)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s ha destruido a %(target)s (Ataque de artillería)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "El aliado %(target)s se perdió en batalla."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "El aliado %(target)s se perdió en batalla tras un ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "El aliado %(target)s se perdió en batalla tras bombardeo."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s destruyó a %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(attacker)s destruyó a %(target)s con Ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(attacker)s destruyó a %(target)s con Ataque aéreo."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s ha destruido a %(target)s (Fuego de cobertura)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s ha destruido a %(target)s (Ataque de artillería)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "El enemigo %(attacker)s destruyó al enemigo %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "El enemigo %(attacker)s destruyó al enemigo %(target)s con un ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "El enemigo %(attacker)s destruyó al enemigo %(target)s con un bombardeo."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "El enemigo %(target)s se perdió en la batalla."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "El enemigo %(target)s se perdió en batalla tras un ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "El enemigo %(target)s se perdió en batalla tras un bombardeo."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "Aliado %(target)s destruido."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "Aliado %(target)s destruido por un ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "Aliado %(target)s destruido por un bombardeo."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s destruido."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s destruido por un ataque de artillería."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s destruido por Ataque aéreo."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s destruido"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s destruido"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "El enemigo (desconocido) ha destruido a %(target)s."
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Aliado %(target)s destruido por la zona de destrucción."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "El aliado %(attacker)s se estrelló con el aliado %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s se estrelló con %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "El vehículo fue estrellado por el aliado %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "El aliado %(target)s se estrelló."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s se estrelló con %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "El enemigo %(attacker)s se estrelló contra el enemigo %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "El vehículo fue estrellado por %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "El enemigo %(target)s se estrelló."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "El aliado %(target)s fue estrellado."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s fue estrellado."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "El vehículo se estrelló."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s ha destruido el objetivo %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s ha destruido el objetivo %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "Has destruido el objetivo %(target)s."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "Dispositivo [%(device)s] dañado por el fuego."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "El disparo de %(entity)s dañó [%(device)s]."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "El dispositivo [%(device)s] fue destruido por el fuego."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "El dispositivo [%(device)s] fue destruido por %(entity)s."
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "Dispositivo [%(device)s] reparado."
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "Dispositivo [%(device)s] operativo."
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "El dispositivo [%(device)s] se incendió por un disparo de %(entity)s."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "Un impulso ha dañado el dispositivo [%(device)s]."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "El dispositivo [%(device)s] fue dañado al eliminar el regulador de velocidad."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "Un impulso ha destruido el dispositivo [%(device)s]."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "El dispositivo [%(device)s] fue destruido al eliminar el regulador de velocidad."
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "Fuego extinguido."
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "Un disparo de %(entity)s hirió [%(device)s]."
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] de vuelta a la acción."
+
+msgid "player_messages/allied_team_name"
+msgstr "Aliados"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "Captura de la base%s amiga (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "¡Base amiga%s capturada!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "Captura de base bloqueada"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "Captura de la base%s (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "¡Base%s capturada!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "Captura de la base%s enemiga (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "¡Base enemiga%s capturada!"
+
+msgid "player_messages/enemy_team_name"
+msgstr "Enemigos"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "Tu aliado %(name)s ha usado la habilidad táctica «%(equipment)s»"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "El enemigo ha usado la habilidad táctica «%(equipment)s»"
+
+msgid "player_messages/postmortem_caption"
+msgstr "Jugador: %(name)s (%(type)s); PV: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "Jugador: %(name)s; Durabilidad: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "Tu vehículo (%(type)s) está destruido"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "No puedes disparar: la munición se ha agotado."
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "Controles de reproducción:"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "LMB: cambia entre modos de cámara\nEspacio: pausa"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "Flecha izquierda: rebobina 20 s. (con Ctrl: 40 s.)\nFlecha derecha: avance rápido 20 s. (con Ctrl: 40 s.)\nInicio/Fin: salta al principio/al final\nFlecha arriba/Flecha abajo: +/- velocidad de visionado"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "Cámara libre activada"
+
+msgid "player_messages/replayPaused"
+msgstr "Pausa"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "Cámara fija activada"
+
+msgid "player_messages/replaySpeedChange"
+msgstr "Velocidad de reproducción: %(speed)sx"
+
+msgid "player_messages/tank_in_fire"
+msgstr "¡Vehículo en llamas!"
+
+msgid "players_panel/state/large/body"
+msgstr "Mostrar nombres de jugadores, objetivos destruidos, nombres e iconos de los vehículos"
+
+msgid "players_panel/state/large/header"
+msgstr "Panel completo"
+
+msgid "players_panel/state/large/note"
+msgstr "(Pulsa Ctrl + Tab para cambiar entre los modos)"
+
+msgid "players_panel/state/medium/body"
+msgstr "Mostrar nombres de jugadores, objetivos destruidos e iconos de los vehículos"
+
+msgid "players_panel/state/medium/header"
+msgstr "Medio"
+
+msgid "players_panel/state/medium/note"
+msgstr "(Pulsa Ctrl + Tab para cambiar entre los modos)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "Mostrar los vehículos destruidos por un jugador, nombre e icono del vehículo de un jugador."
+
+msgid "players_panel/state/medium2/header"
+msgstr "Panel medio 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(Pulsa Ctrl + Tab para cambiar entre los modos)"
+
+msgid "players_panel/state/none/body"
+msgstr "Ocultar paneles de equipo"
+
+msgid "players_panel/state/none/header"
+msgstr "Sin panel"
+
+msgid "players_panel/state/none/note"
+msgstr "(Pulsa Ctrl + Tab para cambiar entre los modos)"
+
+msgid "players_panel/state/short/body"
+msgstr "Mostrar los objetivos destruidos y los iconos de los vehículos"
+
+msgid "players_panel/state/short/header"
+msgstr "Panel corto"
+
+msgid "players_panel/state/short/note"
+msgstr "(Pulsa Ctrl + Tab para cambiar entre los modos)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "Enemigo"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "ESC > Volver al garaje."
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "Salir a luchar con otro vehículo."
+
+msgid "postmortem/tips/freecam/button"
+msgstr "ESPACIO"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "Cámara libre"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "Activa la cámara libre."
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "Cámara libre no disponible"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "No se puede activar la cámara libre en este modo."
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "Modo espectador"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "Cambiar entre vehículos aliados"
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "Seguir el vehículo"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "Apunta el cursor a un vehículo aliado y haz clic izquierdo para seguirlo."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "Vehículo destruido por el objetivo principal"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Vehículo destruido por un ataque de artillería."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "Vehículo destruido por el objetivo principal"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "Vehículo destruido por ataque aéreo"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "Vehículo destruido por un merodeador."
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "Vehículo destruido por Robot de batalla."
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "Vehículo destruido por Proyectil ácido."
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vehículo destruido en una zona prohibida por un aliado"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vehículo destruido en una zona prohibida"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "No lograste salir de la zona de riesgo"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Módulo [%(device)s] destruido por un incendio"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "El módulo [%(device)s] explotó por un disparo"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vehículo ahogado por un aliado"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vehículo ahogado"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vehículo ahogado"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "Vehículo incendiado por el jugador"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "Vehículo destruido por Cinturón de fuego."
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Tripulación fuera de combate por un disparo"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Tripulación fuera de combate tras colisionar con un aliado"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Tripulación fuera de combate tras una colisión"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Tripulación fuera de combate tras una colisión"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "Vehículo destruido por Bola de fuego."
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Vehículo destruido en el campo de minas"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "Vehículo destruido por minas"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Vehículo volcado por un aliado"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Vehículo volcado por un enemigo"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vehículo destruido tras volcar"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Vehículo destruido por la embestida de un aliado"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Vehículo destruido por una embestida"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vehículo destruido por una embestida"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "Tu vehículo está destruido"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Vehículo destruido durante un bombardeo de zona."
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Vehículo destruido por un ataque de artillería."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "Vehículo destruido por el disparo del jugador"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "Vehículo destruido por ataque aéreo."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "Vehículo destruido por ataque aéreo."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Vehículo destruido por un ataque de artillería"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Vehículo destruido por ataque aéreo"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vehículo destruido por la zona de destrucción"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "Vehículo destruido por Descarga eléctrica."
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vehículo estrellado por un aliado"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vehículo estrellado por un enemigo"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vehículo estrellado"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "Tu vehículo está destruido"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "La configuración seleccionada se usa en la batalla:"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "Elige la configuración para la batalla antes de que acabe la cuenta atrás."
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "Elige una configuración"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "Selección de configuración: {seconds} s"
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "Selección de configuración:"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "Desfiladero"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "Observación"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "Bosque"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "Sendero"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "Calle"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "Ruinas"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "Puente"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "Vía férrea"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "Ciudad"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "Pueblo"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "Plaza"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "Fábrica"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "Colina"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "Faro"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "Centro"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "Castillo"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "Molino"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "Montañas"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "Ruta A"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "Ruta B"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "Ruta C"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "Ruta D"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "Ruta E"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "Valle"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "Glaciar"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "Desvío"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "Colinas"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "Carretera"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "Montaña"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "Bunker"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "Avenida"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "Muro"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "Rocas"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "Talleres"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "Campiña"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "Garaje"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "Carbón"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "Barcos"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "Portaaviones"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "Trincheras"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "Camino sinuoso"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "Norte"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "Sur"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "Oeste"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "Este"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "Cresta"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "Dirigible"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "Almacenes"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "Costa"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "Río"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "Lago"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "Ciénaga"
+
+msgid "quickReply/hint/press"
+msgstr "Pulsa"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "para confirmar"
+
+msgid "quickReply/hint/toCommend"
+msgstr "para devolver el elogio"
+
+msgid "quickReply/hint/toHelp"
+msgstr "para asistir"
+
+msgid "quickReply/hint/toThank"
+msgstr "para dar las gracias"
+
+msgid "recovery/cooldown"
+msgstr "Puedes abandonar el vehículo en %(cooldown)s segundos"
+
+msgid "recovery/hint1"
+msgstr "Mantén"
+
+msgid "recovery/hint2"
+msgstr "para abandonar el vehículo"
+
+msgid "repairPoint/title"
+msgstr "Reparaciones"
+
+msgid "repairPoint/unavailable"
+msgstr "No disponible"
+
+msgid "respawnView/additionalTip"
+msgstr "Selecciona un vehículo para continuar. Si todos los vehículos están en reparación, continuarás la batalla en el primer vehículo disponible."
+
+msgid "respawnView/additionalTipLimited"
+msgstr "Selecciona un vehículo para continuar. El vehículo destruido no se puede reparar antes del final de la batalla."
+
+msgid "respawnView/classNotAvailable"
+msgstr "Límite del frente\nalcanzado"
+
+msgid "respawnView/cooldownLbl"
+msgstr "En reparación %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "Destruido"
+
+msgid "respawnView/disabledLbl"
+msgstr "Vehículo no disponible"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "No se seleccionó un vehículo adecuado"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "No hay vehículos de nivel X en el grupo."
+
+msgid "respawnView/nextVehicleName"
+msgstr "La batalla continúa en "
+
+msgid "respawnView/title"
+msgstr "Seleccionar vehículo"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "¡Afirmativo!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "¡Gracias por participar en la evolución de World of Tanks! Apreciamos enormemente tu contribución personal."
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "Carta de agradecimiento"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "¡Has recibido una recompensa!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "¡Enhorabuena!"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "¡Afirmativo!"
+
+msgid "rewardWindow/base/descText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/base/headerText"
+msgstr "Enhorabuena"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "Paquete de provisiones India"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "Paquete de provisiones Juliett"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "A las cajas"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "Has recibido cajas grandes con valiosas recompensas."
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "¡Has recibido cajas!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "Has recibido cajas pequeñas con valiosas recompensas por completar misiones."
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "¡Es hora de descubrir qué esconde la caja!"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "¡Afirmativo!"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "Acumulación de créditos suspendida. Prolonga la cuenta premium de WoT para seguir rellenando tu reserva de créditos."
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "Créditos recibidos"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "Reserva de créditos abierta"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "¡Enhorabuena!"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "¡SÍ, SEÑOR!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "Enhorabuena, has recibido una entrega de suministros especial con Prime Gaming. ¡Úsala sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "Paquete de provisiones Delta"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "¡Has recibido una recompensa!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "¡RECLÚTALA!"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "Enhorabuena, has recibido una nueva recluta especial con Prime Gaming."
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "Paquete de provisiones Alfa"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "¡Has recibido una recompensa!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "¡SÍ, SEÑOR!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "Paquete de provisiones Pase de batalla"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "¡SÍ, SEÑOR!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "Paquete de provisiones Cósmico"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "¡SÍ, SEÑOR!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "Paquete provisiones Noche estrellada"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "Más"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "Paquete de provisiones de junio"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "Paquete de provisiones Julio"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "Más"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "Paquete de provisiones Diez años"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "World of Tanks: Kit de Luz Estelar"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "Kit de la Reina Maeve"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "Colección de muérdago"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "Más"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "Colección «La gran captura»"
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "¡SÍ, SEÑOR!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "Enhorabuena, has recibido una entrega de suministros especial con Prime Gaming. ¡Úsala sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "Paquete de provisiones Charlie"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "¡Has recibido una recompensa!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "Lote «G.I. JOE: Duke»"
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "Lote «G.I. JOE: Cobra»"
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "Más"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "Paquete «¡A rodar al ritmo del rock!»"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "Paquete «Cazadora silenciosa»"
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "Más"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "Lote «Nuevo aspecto»"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "Más"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "Lote «Ondas veraniegas»"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "Paquete «Alto voltaje»"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "Más"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "Lote «Acero sobrenatural»"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "Vikingos entre nosotros"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "Más"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "Lote «Nuevo comienzo»"
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "Paquete de provisiones Echo"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "Más"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "Ondas retro"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "Adepta Sororitas"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "Pistolero"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "Has recibido una recompensa única por la suscripción: Prime Gaming"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "e-Camo"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "Listo para la batalla"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "Vamos, Sabuesos"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "Daga"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Has recibido una recompensa única por la suscripción: Prime Gaming"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "Brujería"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "Hora del aquelarre"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "Has venido al barrio equivocado"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "¡Muérdeme!"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "Has recibido una recompensa única por la suscripción: Prime Gaming"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "Silbato de inicio"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "Gol ganador"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "Clásico atemporal"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Has recibido una recompensa única por el programa: Prime Gaming"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "Atuendo navideño"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "Regalo cautivador"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "Regalo pesado"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "Celebración doble"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "Elegir recompensas"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Has recibido una recompensa única por la suscripción: Prime Gaming"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "Un valeroso mundo nuevo"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "Ojo del observador"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "Anatomía de un cíborg"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "Te han detectado"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "Paquete de provisiones Foxtrot"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "Paquete de provisiones Golf"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "Paquete de provisiones Hotel"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "Paquete de provisiones Kilo"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "Paquete de provisiones Lima"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "Reclutar"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "¡Enhorabuena! Has recibido una entrega de suministros especial con Prime Gaming. ¡Úsalos sabiamente en el campo de batalla!"
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "Paquete de provisiones Mike"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "Recompensas recibidas"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "¡Afirmativo!"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "Tus compañeros de clan cuentan con tu participación\npara progresar por el Periodo de servicio."
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "¡Prima recibida!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "Al Periodo de servicio"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "Periodo de servicio"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "¡Afirmativo!"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "Tus compañeros de clan cuentan con tu participación\npara progresar por el Periodo de servicio."
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "¡Recompensa recibida!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "Al Periodo de servicio"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "Periodo de servicio"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "¡Felicidades!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "Nuestro pelotón"
+
+msgid "scorePanel/playerScore"
+msgstr "Tu contribución:"
+
+msgid "scorePanel/squadLbl"
+msgstr "Pelotón %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s mm Alta Penetración %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s mm AP Compuesto Rígido %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s mm AP Alto Explosivo %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s mm Alto-Explosivo %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s mm AP Anticarro %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "Daño medio: %(value)s PV"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "Daño por segundo: %(value)s PV/s"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "Radio de daño: %(value)s m"
+
+msgid "shells_kinds/params/header"
+msgstr "Carga completa/individual"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "Penetración media: %(value)s mm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "Velocidad de los proyectiles: %(value)s m/s"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "Duración de aturdimiento: %(minValue)s-%(maxValue)s s"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "para cambiar a modo disparo"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "para cambiar al modo movimiento"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "No se han asignado las teclas principales"
+
+msgid "siegeMode/hint/press"
+msgstr "Pulsa"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "para activar los Propulsores de combustible líquido"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "para activar los propulsores a reacción"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "para activar los Impulsores cohete secuenciales"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "Impacta en el vehículo enemigo para obtener un efecto adicional del Indicador láser de objetivos"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "para cambiar el modo del motor"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "para cambiar de modo de disparo"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "para cambiar el modo de movimiento"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "para activar la Asistencia de turbocargador"
+
+msgid "spotted/indicator"
+msgstr "Se ha aumentado el tiempo de detección y el daño recibido"
+
+msgid "spotted/seconds"
+msgstr " s"
+
+msgid "statistics/exit"
+msgstr "Pulsa Esc para volver al Garaje..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "Destruido por: %s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "Base capturada: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "Dañado(s):"
+
+msgid "statistics/final/personal/directHits"
+msgstr "Impactos en el objetivo: %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "Impactos recibidos: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "Defensa de base: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "Destruido:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(post-mortem)"
+
+msgid "statistics/final/personal/shots"
+msgstr "Disparos: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "Detectado:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "Todos los vehículos aliados destruidos."
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "¡Todos los vehículos destruidos!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "Todos los vehículos enemigos destruidos."
+
+msgid "statistics/final/reasons/reason2"
+msgstr "¡Base capturada!"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "¡Tiempo de batalla agotado!"
+
+msgid "statistics/final/stats/credits"
+msgstr "Créditos:"
+
+msgid "statistics/final/stats/experience"
+msgstr "Experiencia:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "Experiencia (x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "Reparaciones:"
+
+msgid "statistics/final/status/lose"
+msgstr "¡Derrota! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "¡Empate! %s"
+
+msgid "statistics/final/status/win"
+msgstr "¡Victoria! %s"
+
+msgid "statistics/header"
+msgstr "Estadísticas de batalla"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "Jugador"
+
+msgid "statistics/headers/header2"
+msgstr "Vehículos"
+
+msgid "statistics/headers/header3"
+msgstr "Condición"
+
+msgid "statistics/headers/header4"
+msgstr "Destruidos"
+
+msgid "statistics/playerState/0"
+msgstr "Destruido"
+
+msgid "statistics/playerState/1"
+msgstr "Fuera de batalla"
+
+msgid "statistics/playerState/2"
+msgstr "Destruido"
+
+msgid "statistics/playerState/3"
+msgstr "En batalla"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "Miembros"
+
+msgid "statistics/tab/line_up/title"
+msgstr "Composición de equipo"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "Reservas personales"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "Activación de reservas personales"
+
+msgid "statistics/tab/quests/header"
+msgstr "Misiones"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "En este modo de batalla las misiones personales no están disponibles"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "Ve a la pestaña «Campañas» en el garaje para seleccionar una misión"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "No tienes misiones activas para este vehículo"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "Condición primaria cumplida"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "Todas las misiones completadas"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "Comenzada"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "Mejora del resultado"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "En pausa"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "La visualización del progreso de misiones no está disponible"
+
+msgid "statistics/tabs/group"
+msgstr "Logros del equipo"
+
+msgid "statistics/tabs/heroes"
+msgstr "Héroes de batalla"
+
+msgid "statistics/tabs/personal"
+msgstr "Logros personales"
+
+msgid "statistics/team1title"
+msgstr "Aliados"
+
+msgid "statistics/team2title"
+msgstr "Enemigos"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "¡Sal de la zona\nde destrucción!"
+
+msgid "stun/indicator"
+msgstr "Tripulación aturdida"
+
+msgid "stun/seconds"
+msgstr " s"
+
+msgid "tabStatsHint"
+msgstr "— Estadísticas"
+
+msgid "tankmen/commander"
+msgstr "Comandante"
+
+msgid "tankmen/driver"
+msgstr "Conductor"
+
+msgid "tankmen/gunner"
+msgstr "Artillero"
+
+msgid "tankmen/loader"
+msgstr "Cargador"
+
+msgid "tankmen/radioman"
+msgstr "Operador de radio"
+
+msgid "timer/battlePeriod"
+msgstr "La batalla finaliza en:"
+
+msgid "timer/started"
+msgstr "¡Comienza la batalla!"
+
+msgid "timer/starting"
+msgstr "La batalla comienza en:"
+
+msgid "timer/waiting"
+msgstr "Esperando jugadores..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "Pulsa"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "para cambiar el modo de apuntamiento"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "No se han asignado las teclas principales"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "El vehículo fue destruido por el aliado %(entity)s en una zona muerta."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "El vehículo fue destruido por %(entity)s en una zona mortal."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vehículo destruido por la zona de riesgo."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "El vehículo fue ahogado por el aliado %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "El vehículo fue ahogado por %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vehículo ahogado."
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "Vehículo destruido por un incendio"
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Vehículo destruido por el aliado %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Vehículo destruido por %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "La tripulación fue destruida tras impactar con el aliado %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "La tripulación fue destruida tras impactar con %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Tripulación destruida debido a un impacto."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Vehículo volcado por el aliado %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Vehículo volcado por el enemigo %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vehículo destruido tras volcar"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "El aliado %(entity)s destruyó el vehículo tras una embestida."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "%(entity)s destruyó el vehículo tras una embestida."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "El vehículo fue destruido tras una embestida."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "El vehículo fue destruido por un disparo de %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "%(entity)s destruyó el vehículo con un ataque de artillería."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "%(entity)s destruyó el vehículo con un bombardeo."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "El vehículo fue estrellado por el aliado %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "El vehículo fue estrellado por el enemigo %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "El vehículo se estrelló."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "El aliado %(entity)s dañó el dispositivo [%(device)s] tras una embestida."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "El aliado %(entity)s dañó el dispositivo [%(device)s] tras una embestida."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Dispositivo [%(device)s] dañado tras una embestida."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "El enemigo %(entity)s dañó el dispositivo [%(device)s] tras una embestida."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "El enemigo %(entity)s dañó el dispositivo [%(device)s] tras una embestida."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "Dispositivo [%(device)s] dañado tras una embestida."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "El impacto del aliado %(entity)s dañó el dispositivo [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "El impacto del aliado %(entity)s dañó el dispositivo [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Dispositivo [%(device)s] dañado tras un impacto."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "El impacto del enemigo %(entity)s dañó el dispositivo [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "El impacto del enemigo %(entity)s dañó el dispositivo [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Dispositivo [%(device)s] dañado tras un impacto."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "El dispositivo [%(device)s] fue destruido en el campo de minas."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "El dispositivo [%(device)s] fue destruido en el campo de minas."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "El aliado %(entity)s destruyó el dispositivo [%(device)s] tras una embestida."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "El aliado %(entity)s destruyó el dispositivo [%(device)s] tras una embestida."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "El dispositivo [%(device)s] se destruyó tras una embestida."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "El enemigo %(entity)s destruyó el dispositivo [%(device)s] tras una embestida."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "El enemigo %(entity)s destruyó el dispositivo [%(device)s] tras una embestida."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "El dispositivo [%(device)s] se destruyó tras una embestida."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "El impacto del aliado %(entity)s destruyó el dispositivo [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "El impacto del aliado %(entity)s destruyó el dispositivo [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "El dispositivo [%(device)s] fue destruido tras un impacto."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "El impacto del enemigo %(entity)s destruyó el dispositivo [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "El impacto del enemigo %(entity)s destruyó el dispositivo [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "El dispositivo [%(device)s] fue destruido tras un impacto."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "El dispositivo [%(device)s] se incendió tras ser embestido por el aliado %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "El dispositivo [%(device)s] se incendió tras ser embestido por el aliado %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "El dispositivo [%(device)s] se incendió tras una embestida."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "El dispositivo [%(device)s] se incendió tras ser embestido por el enemigo %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "El dispositivo [%(device)s] se incendió tras ser embestido por el enemigo %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "El dispositivo [%(device)s] se incendió tras una embestida."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] herido tras el impacto del aliado %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] herido tras el impacto del aliado %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] herido tras un impacto."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] herido tras impactar con el enemigo %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] herido tras impactar con el enemigo %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] herido tras un impacto."
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "¡La habilidad táctica «%(equipment)s» se ha activado!"
+
+msgid "warning_zone/indicator"
+msgstr "¡Cuidado! Estás cerca de la zona de riesgo."

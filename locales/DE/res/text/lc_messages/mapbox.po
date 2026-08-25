@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "Jawohl!"
+
+msgid "awardsView/subTitle"
+msgstr "BESTRITTENE GEFECHTE: {number}"
+
+msgid "awardsView/title"
+msgstr "SPÄHEINSATZ"
+
+msgid "buttonDisable/tooltip"
+msgstr "Nicht verfügbar"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Zeitplan"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "Gefechtsbeitritt nicht möglich"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "Gefechte sind beendet"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "Gefechtsbeitritt nicht möglich"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "Auf diesem Server herrscht Waffenruhe. Bitte wählen Sie einen anderen Server aus."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "Sie können das Gefecht nur in %(levelSubStr)s betreten."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "Fahrzeugstufe nicht kompatibel"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "Fahrzeugen der Stufe %(levels)s"
+
+msgid "intro/button"
+msgstr "Jawohl!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "Ihr Feedback hilft uns, die Schlachtfelder zu verbessern. Lassen Sie uns wissen, wie Sie über die neuen Kartenmechaniken denken, die besten Ideen lassen wir ins Spiel einfließen."
+
+msgid "intro/interviewInfoTitle"
+msgstr "Wichtiges Feedback"
+
+msgid "intro/modeInfoDescription"
+msgstr "Kämpfen Sie in Fahrzeugen der Stufen VIII–X auf Karten mit neuen Mechaniken, beantworten Sie Fragebögen und holen Sie sich Belohnungen. In einer Woche wird der Fortschritt zurückgesetzt, dann können Sie erneut Belohnungen sammeln."
+
+msgid "intro/modeInfoTitle"
+msgstr "Helfen Sie uns, neue Mechaniken zu entwickeln!"
+
+msgid "intro/startEvent"
+msgstr "Event beginnt in: "
+
+msgid "intro/taskInfoDescription"
+msgstr "In Gefechten von Späheinsatz können Sie Tagesaufträge und Aufträge für den Battle Pass abschließen und die Bedingungen für progressive Dekore erfüllen."
+
+msgid "intro/taskInfoTitle"
+msgstr "Kampf nach den Regeln für Zufallsgefechte"
+
+msgid "intro/time/period/day"
+msgstr "{day} T."
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} T. {hours} Std."
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} Std. {min} Min."
+
+msgid "intro/time/period/minute"
+msgstr "{min} Min."
+
+msgid "intro/title"
+msgstr "SPÄHEINSATZ"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s kann am Späheinsatz nicht teilnehmen."
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "Fahrzeugtyp nicht kompatibel"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "Wählen Sie ein %(levelSubStr)s, um am Späheinsatz teilzunehmen."
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "Fahrzeugstufe nicht kompatibel"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Fahrzeug der Stufe %(levels)s"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s kann am Späheinsatz nicht teilnehmen."
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "Fahrzeug nicht kompatibel"
+
+msgid "mapboxTab"
+msgstr "Späheinsatz"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Der Abschnitt auf dem Server %(server)s ist beendet"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Server %(server)s\nGefechte sind noch für %(time)s verfügbar"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Server %(server)s\nGefechte sind in %(time)s verfügbar"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Auf allen Servern herrscht Waffenruhe."
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Dieser Modus ist auf dem Server %(server)s nicht verfügbar."
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Gefechte auf dem Server %(server)s sind noch für %(time)s verfügbar"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Gefechte auf dem Server %(server)s starten in %(time)s"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "Gefechte in diesem Modus sind nicht verfügbar: Saison ist beendet."
+
+msgid "primeTimeView/status/untill"
+msgstr "Auf dem Server %(server)s herrscht bis %(startTime)s Waffenruhe."
+
+msgid "primeTimeView/title"
+msgstr "SPÄHEINSATZ"
+
+msgid "primeTimes/availableServer"
+msgstr "Verfügbarer Server:"
+
+msgid "primeTimes/availableServers"
+msgstr "Verfügbare Server:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "Gefechte sind beendet"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Dieser Modus ist auf dem Server %(serverName)s nicht verfügbar."
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "Gefechte bestreiten"
+
+msgid "progression/cardTitle/rating"
+msgstr "Erzielen Sie mindestens Platz {rating} nach verdienten EP."
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "Erzielen Sie mindestens Platz {rating} nach verdienten EP auf einer Karte mit Bränden."
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "Erzielen Sie mindestens Platz {rating} nach verdienten EP auf Karten mit Nebel."
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "Erzielen Sie mindestens Platz {rating} nach verdienten EP auf Karten mit starkem Regen."
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "Erzielen Sie mindestens Platz {rating} nach verdienten EP auf einer Karte mit Sandstürmen."
+
+msgid "progression/changeAnswer"
+msgstr "Antwort ändern"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Kämpfen Sie in Fahrzeugen der Stufen VIII–X auf Karten mit neuen Mechaniken, füllen Sie Umfragen aus und erhalten Sie Belohnungen."
+
+msgid "progression/info/restart"
+msgstr "Der Fortschritt mit Belohnungen wird zurückgesetzt in %(leftTime)s"
+
+msgid "progression/info/title"
+msgstr "Erzielen Sie mindestens Platz %(rating) nach verdienten EP: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "ÜBER DAS EVENT"
+
+msgid "progression/map_01_karelia"
+msgstr "KARELIEN"
+
+msgid "progression/map_02_malinovka"
+msgstr "MALINOWKA"
+
+msgid "progression/map_05_prohorovka"
+msgstr "PROKHOROWKA"
+
+msgid "progression/map_18_cliff"
+msgstr "WESTFIELD"
+
+msgid "progression/map_all"
+msgstr "SPIEL-\nMECHANIKEN"
+
+msgid "progression/map_fire"
+msgstr "FEUER"
+
+msgid "progression/map_fog"
+msgstr "NEBEL"
+
+msgid "progression/map_heavy_rain"
+msgstr "STARKER REGEN"
+
+msgid "progression/map_sandstorm"
+msgstr "SANDSTURM"
+
+msgid "progression/redirect"
+msgstr "Zum Modus"
+
+msgid "progression/startInterview"
+msgstr "Umfrage ausfüllen"
+
+msgid "progression/startInterviewTooltip"
+msgstr "Erfüllen Sie die oben stehende Bedingung, um an der Umfrage teilzunehmen."
+
+msgid "progression/startSpecialInterview"
+msgstr "Umfrage ausfüllen"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "Erfüllen Sie die oben stehende Bedingung, um an der Umfrage teilzunehmen."
+
+msgid "progression/subtitle"
+msgstr "Hier können sie an einer Umfrage zur neuen Mechanik teilnehmen."
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s T."
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s Std. %(min)s Min"
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 Min."
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s Min."
+
+msgid "progression/title"
+msgstr "SPÄHEINSATZ"
+
+msgid "progressionError/description/line1"
+msgstr "Ihr Fortschritt wurde gespeichert. Sie können weiter spielen."
+
+msgid "progressionError/description/line2"
+msgstr "Sie können in Kürze Ihren Fortschritt einsehen und eine Umfrage ausfüllen."
+
+msgid "progressionError/title"
+msgstr "Details zum Späheinsatz sind vorübergehend nicht verfügbar"
+
+msgid "questFlag/complete"
+msgstr "Alle Belohnungen erhalten"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "Bestreiten Sie Gefechte in Fahrzeugen vom Typ %(highlightedText)s, schließen Sie Umfragen ab und verdienen Sie sich Belohnungen."
+
+msgid "questFlag/frozen/header"
+msgstr "Späheinsatz ist nicht verfügbar"
+
+msgid "questFlag/frozen/text"
+msgstr "Gefechte im Späheinsatz sind aus technischen Gründen nicht verfügbar."
+
+msgid "questFlag/highlightedText"
+msgstr "Fahrzeugen der Stufen VIII–X auf Karten mit neuen Mechaniken"
+
+msgid "questFlag/incomplete"
+msgstr "Gefechte bis zur nächsten Belohnung: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "Gefechte gespielt:"
+
+msgid "questFlag/surveysTitle"
+msgstr "Umfragen ausgefüllt: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "Die Erforschung von Karten mit neuen Mechaniken beginnt am %(day)s."
+
+msgid "selector/tooltip/body"
+msgstr "Die Erforschung von Karten mit neuen Mechaniken dauert bis zum %(day)s."
+
+msgid "selector/tooltip/title"
+msgstr "Zeitplan"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Saison endet in:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "–"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Gefechtszeitplan"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Heute"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Morgen"
+
+msgid "serverAlertMessage/button"
+msgstr "Anderen Server wählen"
+
+msgid "survey/backBtn"
+msgstr "Zurück"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "Selbstfahrlafetten"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "schwere Panzer"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "leichte Panzer"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "mittlere Panzer"
+
+msgid "survey/fire/question/q1"
+msgstr "Haben Ihnen die Gefechte auf der Karte „Murowanka“ mit der Mechanik für Brände gefallen?"
+
+msgid "survey/fire/question/q2"
+msgstr "Wie ist Ihr Eindruck von den visuellen Aspekten der Brände auf der Karte „Murowanka“?"
+
+msgid "survey/fire/question/q3"
+msgstr "Würden Sie den Einfluss dieser Brände auf die Spielweise der Karte „Murowanka“ anpassen wollen?"
+
+msgid "survey/fire/question/q4"
+msgstr "Wie genau würden Sie den Einfluss der Brände auf die Spielweise der Karte „Murowanka“ anpassen?"
+
+msgid "survey/fire/question/q5"
+msgstr "Welche Fahrzeugtypen haben Sie auf der Karte „Murowanka“ gespielt?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "Wie hat sich die Spielweise für {value} auf der Karte „Murowanka“ geändert?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "Wie hat sich die Spielweise für {value} auf der Karte „Murowanka“ geändert?"
+
+msgid "survey/fire/question/q7"
+msgstr "Würden Sie gerne Brände auf den Karten in Zufallsgefechten sehen?"
+
+msgid "survey/fire/question/q8"
+msgstr "Was hat Ihnen an der Mechanik der Brände auf der Karte „Murowanka“ nicht gefallen?"
+
+msgid "survey/fire/question/q9"
+msgstr "Bitte geben Sie jegliche notwendigen Verbesserungen an."
+
+msgid "survey/fire/response/q1_1"
+msgstr "Ja"
+
+msgid "survey/fire/response/q1_2"
+msgstr "Nein"
+
+msgid "survey/fire/response/q1_3"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/fire/response/q2_1"
+msgstr "Es hat mir gefallen"
+
+msgid "survey/fire/response/q2_2"
+msgstr "Ganz in Ordnung"
+
+msgid "survey/fire/response/q2_3"
+msgstr "Es hat mir nicht gefallen"
+
+msgid "survey/fire/response/q2_4"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/fire/response/q3_1"
+msgstr "Ja, würde ich"
+
+msgid "survey/fire/response/q3_2"
+msgstr "Nein, würde ich nicht"
+
+msgid "survey/fire/response/q3_3"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/fire/response/q4_1"
+msgstr "Ihn verstärken"
+
+msgid "survey/fire/response/q4_2"
+msgstr "Ihn abschwächen"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "Selbstfahrlafetten"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "Schwere Panzer"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "Leichte Panzer"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "Mittlere Panzer"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "Ich weiß nicht mehr"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "Sie wurde besser"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "Sie wurde schlechter"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "Sie hat sich nicht geändert"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "Sie wurde besser"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "Sie wurde schlechter"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "Sie hat sich nicht geändert"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/fire/response/q7_1"
+msgstr "Ja, würde ich"
+
+msgid "survey/fire/response/q7_2"
+msgstr "Nein, würde ich nicht"
+
+msgid "survey/fire/response/q7_3"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/fire/response/q8_1"
+msgstr "Verfügbare Positionen durch Brände zu sehr limitiert"
+
+msgid "survey/fire/response/q8_10"
+msgstr "Eins der Teams hat einen Vorteil erhalten"
+
+msgid "survey/fire/response/q8_11"
+msgstr "Technische Probleme"
+
+msgid "survey/fire/response/q8_12"
+msgstr "Andere"
+
+msgid "survey/fire/response/q8_2"
+msgstr "Zu viel Schaden durch Brände"
+
+msgid "survey/fire/response/q8_3"
+msgstr "Gegner außerhalb der Zone konnten mein Fahrzeug nicht sehen, ich die Gegner aber auch nicht"
+
+msgid "survey/fire/response/q8_4"
+msgstr "Position der Brände auf der Karte"
+
+msgid "survey/fire/response/q8_5"
+msgstr "Aussehen der Brände"
+
+msgid "survey/fire/response/q8_6"
+msgstr "Zu starker Einfluss auf die Spielweise der Karte"
+
+msgid "survey/fire/response/q8_7"
+msgstr "Zu geringer Einfluss auf die Spielweise der Karte"
+
+msgid "survey/fire/response/q8_8"
+msgstr "Visuelle Aspekte der Brände haben das Gefecht behindert"
+
+msgid "survey/fire/response/q8_9"
+msgstr "Brände haben zu Nahkampf gezwungen"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "Außenposten"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "Fjorde"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "Außenposten"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "Fjorde"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "Außenposten"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "Fjorde"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "Selbstfahrlafetten"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "schwere Panzer"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "leichte Panzer"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "mittlere Panzer"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "Selbstfahrlafetten"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "schwere Panzer"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "leichte Panzer"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "mittlere Panzer"
+
+msgid "survey/fog/question/q1"
+msgstr "Haben Ihnen die Gefechte mit der Mechanik für Nebel auf den folgenden Karten gefallen?"
+
+msgid "survey/fog/question/q10"
+msgstr "Würden Sie gerne Nebel auf den Karten in Zufallsgefechten sehen?"
+
+msgid "survey/fog/question/q11"
+msgstr "Was hat Ihnen an der Mechanik des Nebels auf der Karte „Fjorde“ nicht gefallen?"
+
+msgid "survey/fog/question/q12"
+msgstr "Was hat Ihnen an der Mechanik des Nebels auf der Karte „Außenposten“ nicht gefallen?"
+
+msgid "survey/fog/question/q13"
+msgstr "Bitte geben Sie jegliche notwendigen Verbesserungen an."
+
+msgid "survey/fog/question/q2"
+msgstr "Wie ist Ihr Eindruck von den visuellen Aspekten des Nebels auf den folgenden Karten?"
+
+msgid "survey/fog/question/q3"
+msgstr "Würden Sie den Einfluss des Nebels auf die Spielweise der Karte anpassen wollen?"
+
+msgid "survey/fog/question/q4"
+msgstr "Wie genau würden Sie den Einfluss des Nebels auf die Spielweise der Karte „Fjorde“ anpassen?"
+
+msgid "survey/fog/question/q5"
+msgstr "Wie genau würden Sie den Einfluss des Nebels auf die Spielweise der Karte „Außenposten“ anpassen?"
+
+msgid "survey/fog/question/q6"
+msgstr "Welche Fahrzeugtypen haben Sie auf der Karte „Fjorde“ gespielt?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "Wie hat sich die Spielweise für {value} auf der Karte „Fjorde“ geändert?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "Wie hat sich die Spielweise für {value} auf der Karte „Fjorde“ geändert?"
+
+msgid "survey/fog/question/q8"
+msgstr "Welche Fahrzeugtypen haben Sie auf der Karte „Außenposten“ gespielt?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "Wie hat sich die Spielweise für {value} auf der Karte „Außenposten“ geändert?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "Wie hat sich die Spielweise für {value} auf der Karte „Außenposten“ geändert?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "Ja, würde ich"
+
+msgid "survey/fog/response/q10_2"
+msgstr "Nein, würde ich nicht"
+
+msgid "survey/fog/response/q10_3"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/fog/response/q11_1"
+msgstr "Gegner außerhalb der Zone konnten mein Fahrzeug nicht sehen, ich die Gegner aber auch nicht"
+
+msgid "survey/fog/response/q11_10"
+msgstr "Andere"
+
+msgid "survey/fog/response/q11_2"
+msgstr "Position des Nebels auf der Karte"
+
+msgid "survey/fog/response/q11_3"
+msgstr "Aussehen des Nebels"
+
+msgid "survey/fog/response/q11_4"
+msgstr "Zu starker Einfluss auf die Spielweise der Karte"
+
+msgid "survey/fog/response/q11_5"
+msgstr "Zu geringer Einfluss auf die Spielweise der Karte"
+
+msgid "survey/fog/response/q11_6"
+msgstr "Visuelle Aspekte des Nebels haben das Gefecht behindert"
+
+msgid "survey/fog/response/q11_7"
+msgstr "Nebel hat zu Nahkampf gezwungen"
+
+msgid "survey/fog/response/q11_8"
+msgstr "Eins der Teams hat einen Vorteil erhalten"
+
+msgid "survey/fog/response/q11_9"
+msgstr "Technische Probleme"
+
+msgid "survey/fog/response/q12_1"
+msgstr "Gegner außerhalb der Zone konnten mein Fahrzeug nicht sehen, ich die Gegner aber auch nicht"
+
+msgid "survey/fog/response/q12_10"
+msgstr "Andere"
+
+msgid "survey/fog/response/q12_2"
+msgstr "Position des Nebels auf der Karte"
+
+msgid "survey/fog/response/q12_3"
+msgstr "Aussehen des Nebels"
+
+msgid "survey/fog/response/q12_4"
+msgstr "Zu starker Einfluss auf die Spielweise der Karte"
+
+msgid "survey/fog/response/q12_5"
+msgstr "Zu geringer Einfluss auf die Spielweise der Karte"
+
+msgid "survey/fog/response/q12_6"
+msgstr "Visuelle Aspekte des Nebels haben das Gefecht behindert"
+
+msgid "survey/fog/response/q12_7"
+msgstr "Nebel hat zu Nahkampf gezwungen"
+
+msgid "survey/fog/response/q12_8"
+msgstr "Eins der Teams hat einen Vorteil erhalten"
+
+msgid "survey/fog/response/q12_9"
+msgstr "Technische Probleme"
+
+msgid "survey/fog/response/q1_1"
+msgstr "Ja"
+
+msgid "survey/fog/response/q1_2"
+msgstr "Nein"
+
+msgid "survey/fog/response/q1_3"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/fog/response/q2_1"
+msgstr "Es hat mir gefallen"
+
+msgid "survey/fog/response/q2_2"
+msgstr "Ganz in Ordnung"
+
+msgid "survey/fog/response/q2_3"
+msgstr "Es hat mir nicht gefallen"
+
+msgid "survey/fog/response/q2_4"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/fog/response/q3_1"
+msgstr "Ja, würde ich"
+
+msgid "survey/fog/response/q3_2"
+msgstr "Nein, würde ich nicht"
+
+msgid "survey/fog/response/q3_3"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/fog/response/q4_1"
+msgstr "Ihn verstärken"
+
+msgid "survey/fog/response/q4_2"
+msgstr "Ihn abschwächen"
+
+msgid "survey/fog/response/q5_1"
+msgstr "Ihn verstärken"
+
+msgid "survey/fog/response/q5_2"
+msgstr "Ihn abschwächen"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "Selbstfahrlafetten"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "Schwere Panzer"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "Leichte Panzer"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "Mittlere Panzer"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "Ich weiß nicht mehr"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "Sie wurde besser"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "Sie wurde schlechter"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "Sie hat sich nicht geändert"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "Sie wurde besser"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "Sie wurde schlechter"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "Sie hat sich nicht geändert"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "Selbstfahrlafetten"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "Schwere Panzer"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "Leichte Panzer"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "Mittlere Panzer"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "Ich weiß nicht mehr"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "Sie wurde besser"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "Sie wurde schlechter"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "Sie hat sich nicht geändert"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "Sie wurde besser"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "Sie wurde schlechter"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "Sie hat sich nicht geändert"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "Fischerbucht"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "Fischerbucht"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "Fischerbucht"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "Selbstfahrlafetten"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "schwere Panzer"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "leichte Panzer"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "mittlere Panzer"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "Selbstfahrlafetten"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "schwere Panzer"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "leichte Panzer"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "mittlere Panzer"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "Haben Ihnen die Gefechte mit der Mechanik für starken Regen auf den folgenden Karten gefallen?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "Würden Sie gerne starken Regen auf den Karten in Zufallsgefechten sehen?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "Was hat Ihnen an der Mechanik des starken Regens auf der Karte „Westfield“ nicht gefallen?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "Was hat Ihnen an der Mechanik des starken Regens auf der Karte „Fischerbucht“ nicht gefallen?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "Bitte geben Sie jegliche notwendigen Verbesserungen an."
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "Wie ist Ihr Eindruck von den visuellen Aspekten des starken Regens auf den folgenden Karten?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "Würden Sie den Einfluss des starken Regens auf die Spielweise der Karte anpassen wollen?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "Wie genau würden Sie den Einfluss des starken Regens auf die Spielweise der Karte „Westfield“ anpassen?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "Wie genau würden Sie den Einfluss des starken Regens auf die Spielweise der Karte „Fischerbucht“ anpassen?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "Welche Fahrzeugtypen haben Sie auf der Karte „Westfield“ gespielt?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "Wie hat sich die Spielweise für {value} auf der Karte „Westfield“ geändert?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "Wie hat sich die Spielweise für {value} auf der Karte „Westfield“ geändert?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "Welche Fahrzeugtypen haben Sie auf der Karte „Fischerbucht“ gespielt?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "Wie hat sich die Spielweise für {value} auf der Karte „Fischerbucht“ geändert?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "Wie hat sich die Spielweise für {value} auf der Karte „Fischerbucht“ geändert?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "Ja, würde ich"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "Nein, würde ich nicht"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "Im Bereich mit starkem Regen ist es zu rutschig"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "Technische Probleme"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "Andere"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "Gegner außerhalb der Zone konnten mein Fahrzeug nicht sehen, ich die Gegner aber auch nicht"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "Position des starken Regens auf der Karte"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "Das Aussehen des starken Regens"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "Zu starker Einfluss auf die Spielweise der Karte"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "Zu geringer Einfluss auf die Spielweise der Karte"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "Visuelle Aspekte des starken Regens haben das Gefecht behindert"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "Der starke Regen hat zu Nahkampf gezwungen"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "Eins der Teams hat einen Vorteil erhalten"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "Im Bereich mit starkem Regen ist es zu rutschig"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "Technische Probleme"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "Andere"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "Gegner außerhalb der Zone konnten mein Fahrzeug nicht sehen, ich die Gegner aber auch nicht"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "Position des starken Regens auf der Karte"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "Das Aussehen des starken Regens"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "Zu starker Einfluss auf die Spielweise der Karte"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "Zu geringer Einfluss auf die Spielweise der Karte"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "Visuelle Aspekte des starken Regens haben das Gefecht behindert"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "Der starke Regen hat zu Nahkampf gezwungen"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "Eins der Teams hat einen Vorteil erhalten"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "Ja"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "Nein"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "Es hat mir gefallen"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "Ganz in Ordnung"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "Es hat mir nicht gefallen"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "Ja, würde ich"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "Nein, würde ich nicht"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "Ihn verstärken"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "Ihn abschwächen"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "Ihn verstärken"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "Ihn abschwächen"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "Selbstfahrlafetten"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "Schwere Panzer"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "Leichte Panzer"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "Mittlere Panzer"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "Ich weiß nicht mehr"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "Sie wurde besser"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "Sie wurde schlechter"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "Sie hat sich nicht geändert"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "Sie wurde besser"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "Sie wurde schlechter"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "Sie hat sich nicht geändert"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "Selbstfahrlafetten"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "Schwere Panzer"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "Leichte Panzer"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "Mittlere Panzer"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "Ich weiß nicht mehr"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "Sie wurde besser"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "Sie wurde schlechter"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "Sie hat sich nicht geändert"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "Sie wurde besser"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "Sie wurde schlechter"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "Sie hat sich nicht geändert"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "Weiter"
+
+msgid "survey/percentage"
+msgstr "%(percent)s %"
+
+msgid "survey/readyBtn"
+msgstr "Verstanden!"
+
+msgid "survey/required"
+msgstr "Beantworten Sie die Frage zum Fortfahren."
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "Selbstfahrlafetten"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "schwere Panzer"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "leichte Panzer"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "mittlere Panzer"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "Haben Ihnen die Gefechte auf der Karte „Wadi“ mit der Mechanik für Sandstürme gefallen?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "Wie ist Ihr Eindruck von den visuellen Aspekten der Sandstürme auf der Karte „Wadi“?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "Würden Sie den Einfluss dieser Sandstürme auf die Spielweise der Karte „Wadi“ anpassen wollen?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "Wie genau würden Sie den Einfluss der Sandstürme auf die Spielweise der Karte „Wadi“ anpassen?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "Welche Fahrzeugtypen haben Sie auf der Karte „Wadi“ gespielt?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "Wie hat sich die Spielweise für {value} auf der Karte „Wadi“ geändert?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "Wie hat sich die Spielweise für {value} auf der Karte „Wadi“ geändert?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "Würden Sie gerne Sandstürme auf den Karten in Zufallsgefechten sehen?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "Was hat Ihnen an der Mechanik der Sandstürme auf der Karte „Wadi“ nicht gefallen?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "Bitte geben Sie jegliche notwendigen Verbesserungen an."
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "Ja"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "Nein"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "Es hat mir gefallen"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "Ganz in Ordnung"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "Es hat mir nicht gefallen"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "Ja, würde ich"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "Nein, würde ich nicht"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "Ihn verstärken"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "Ihn abschwächen"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "Selbstfahrlafetten"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "Schwere Panzer"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "Leichte Panzer"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "Mittlere Panzer"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "Ich weiß nicht mehr"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "Sie wurde besser"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "Sie wurde schlechter"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "Sie hat sich nicht geändert"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "Sie wurde besser"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "Sie wurde schlechter"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "Sie hat sich nicht geändert"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "Ja, würde ich"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "Nein, würde ich nicht"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "Ich bin mir nicht sicher"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "Gegner außerhalb der Zone konnten mein Fahrzeug nicht sehen, ich die Gegner aber auch nicht"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "Andere"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "Position des Sandsturms auf der Karte"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "Das Aussehen des Sandsturms"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "Zu starker Einfluss auf die Spielweise der Karte"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "Zu geringer Einfluss auf die Spielweise der Karte"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "Visuelle Aspekte des Sandsturms haben das Gefecht behindert"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "Der Sandsturm hat zu Nahkampf gezwungen"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "Eins der Teams hat einen Vorteil erhalten"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "Technische Probleme"
+
+msgid "survey/subTitle"
+msgstr "Vielen Dank, dass Sie sich die Zeit für unsere Umfrage nehmen! Es wird nur etwa zwei Minuten dauern. Ihre Antworten werden nur für Zwecke dieser Umfrage ausgewertet, jegliche personenbezogenen Daten werden gemäß unserer Datenschutzrichtlinie gelöscht."
+
+msgid "survey/template/final/title"
+msgstr "Vielen Dank, dass Sie sich die Zeit für unsere Umfrage nehmen!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "KLICKEN SIE AUF DIE KARTE, UM EINE POSITION AUSZUWÄHLEN"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "SIE KÖNNEN BIS ZU DREI POSITIONEN AUF DER KARTE AUSWÄHLEN"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "Detaillierte Beschreibung (bis zu %(maxLength)s Zeichen)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "Position"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "Position entfernen"
+
+msgid "survey/template/opened/description"
+msgstr "Detaillierte Beschreibung des Problems (bis zu %(maxLength)s Zeichen)"
+
+msgid "survey/title/common"
+msgstr "Bitte bewerten Sie die neuen Funktionen"
+
+msgid "survey/title/map"
+msgstr "Bewertung der Karte „%(map)s“"

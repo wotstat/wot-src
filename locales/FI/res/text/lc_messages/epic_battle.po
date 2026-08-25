@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "Hallitse reservejä"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "Klikkaa valitaksesi saatavilla oleva taistelureservi."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "Pommit"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "Vaikutusalue"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "Lamauta"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "Paluu taisteluun"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "Miinojen määrä"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "Miinakentän kesto"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "Lamauta"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "Vahinkosäde"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "Kesto"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "Ammukset"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "Jäähtymisaika"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "Paluu taisteluun"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "Kesto"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "Palautettujen kestopisteiden määrä"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "Välittömästi aktivoitaessa palautuvien kestopisteiden määrä"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "Miinoista vähentyvä vahinko"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "Bonus kestopisteiden palauttamiseen täydennysympyrässä"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "Miehistön suorituskyky"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "Kesto"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "Häviämisaika"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "Vaikutuksen säde"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "Vaunusi miehistön suoriutuminen"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "Parempi suojaus"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "Valtaamisbonus"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "Täydennyksen uusiutuminen"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "Ammusten täydennysnopeus"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "Saapumisaika"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "Vaikutusalue"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750 m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "Havaitsemisen kesto"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "Miehistön suorituskyky heikentynyt"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "Savukranaatit"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "Vaikutusalue"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "Kesto"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "Vihollisvaunujen heikentynyt näkökyky"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "Kasvuston takana olevien vihollisten naamioinnin heikennys"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "Liikkuvien vihollisvaunujen naamioinnin heikennys"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "Kesto"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "Bonus paikoillaan olevan vaunun naamioitumiseen"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "Passiivinen bonus näkökykyyn"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "Reservin taso"
+
+msgid "abilityInfo/properties/static"
+msgstr "Pysyvät ominaisuudet"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "s"
+
+msgid "advance_message_txt"
+msgstr "Etene Etulinjalle"
+
+msgid "advance_mission_txt"
+msgstr "Etene Etulinjalle"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "SKENAARION TIEDOT"
+
+msgid "awards/acceptButton"
+msgstr "Selvä!"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "PALKINTOJA SAATU"
+
+msgid "awards/subTitle2"
+msgstr "PALKINTO SAATU"
+
+msgid "awards/title"
+msgstr "ETULINJA"
+
+msgid "base/contested_atk"
+msgstr "Kiistanalainen"
+
+msgid "base/contested_def"
+msgstr "Hyökkäyksen kohteena"
+
+msgid "battleResults/armor"
+msgstr "Panssarin käyttö"
+
+msgid "battleResults/assistance"
+msgstr "Avusta"
+
+msgid "battleResults/crits"
+msgstr "Kriittistä vahinkoa"
+
+msgid "battleResults/damage"
+msgstr "Vahinko"
+
+msgid "battleResults/kill"
+msgstr "Tuhottu"
+
+msgid "battleResults/spotting"
+msgstr "Havaitut"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "1x henkilökohtainen reservi: %(effectValue)s miehistökokemukseen %(effectTime)s ajaksi"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "1x henkilökohtainen reservi: %(effectValue)s vapaaseen kokemukseen %(effectTime)s ajaksi"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "1x henkilökohtainen reservi: %(effectValue)s taistelukokemukseen %(effectTime)s ajaksi"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Hyökkää kohteeseen %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Puolusta kohdetta %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Huomio sijaintiin!"
+
+msgid "command_shortcut/title"
+msgstr "Komennot"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "Rintama suljettu—pelaajamäärän raja saavutettu"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "Vaara-alue"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "Rintama suljettu—vaunutyypin raja saavutettu"
+
+msgid "dialogs/quotedName"
+msgstr "\"%(name)s\""
+
+msgid "dialogs/title/buy/item"
+msgstr "Osta \"%(name)s\" %(type)s?"
+
+msgid "dialogs/title/buy/items"
+msgstr "Osta %(type)s?"
+
+msgid "dialogs/title/install/item"
+msgstr "Ota käyttöön \"%(name)s\" %(type)s?"
+
+msgid "dialogs/title/install/items"
+msgstr "Ota käyttöön %(type)s?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "Kerää vaadittu määrä pisteitä ja aktivoi Etulinjan taistelureservejä."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "Kerää vaadittu määrä pisteitä ja aktivoi Etulinjan taistelureservejä."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "Taistelureservipisteet"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "%(level)s vaunut avataan taisteluun minkä hyvänsä toisen linjan pisteen (D, E tai F) valtaamisen tai menettämisen jälkeen."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "Tason %(lvl)s"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "Valitse tason VIII vaunu Etulinja -pelimuotoon."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "Yhteensopimaton vaunu"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "Hanki"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "Maks."
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "Taistelureservit"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "Komentajan taso"
+
+msgid "epictraining/info/otherLabel"
+msgstr "Jakamattomat pelaajat: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "Hyökkääjät ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "Puolustajat ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "Kaikki vihollisvaunut tuhottu"
+
+msgid "game/all_hqs_destroyed"
+msgstr "Kaikki kohteet tuhottu"
+
+msgid "game/all_tanks_defeated"
+msgstr "Kaikki liittolaisvaunut tuhottu"
+
+msgid "game/defeat"
+msgstr "Tappio!"
+
+msgid "game/draw"
+msgstr "Tasapeli!"
+
+msgid "game/time_over"
+msgstr "Kohteita selviytyi"
+
+msgid "game/victory"
+msgstr "Voitto!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "Tuhoa kohteet!"
+
+msgid "global_msg/atk/time_short"
+msgstr "Valtaa alue!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "Puolusta kohteita!"
+
+msgid "global_msg/def/time_short"
+msgstr "Puolusta alueita!"
+
+msgid "global_msg/lane/center_short"
+msgstr "Täydennä %(strArg1)s!"
+
+msgid "global_msg/lane/east_short"
+msgstr "Täydennä %(strArg1)s!"
+
+msgid "global_msg/lane/west_short"
+msgstr "Täydennä %(strArg1)s!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "Säästäkää vaunujanne!"
+
+msgid "help_window/communication"
+msgstr "Viestintäalue"
+
+msgid "help_window/communication/description"
+msgstr "Voit saada komentoja liittolaisilta, jos nämä ovat sinulle näkyvällä pienoiskartan alueella tai jos komennon kohde on tällä alueella."
+
+msgid "help_window/overview_map"
+msgstr "Tilannekuvakartta"
+
+msgid "help_window/overview_map/description"
+msgstr "Tilannekuvakarttaa käytetään saamaan taktinen ja strateginen kuva koko taistelukentästä. Kun tilannekuvakartta on auki, voidaan viestejä lähettää ja saada koko joukkueelta."
+
+msgid "help_window/recovery"
+msgstr "Hylkääminen"
+
+msgid "help_window/recovery/description"
+msgstr "Hylkääminen on aiheuttaa maastoon juuttuneen vaunun itsetuho. Mekaniikkaa tarvitaan, koska pidempi taistelun kesto ja mahdollisuus syntyä uudelleen vaativat pelaajalta jatkuvaa läsnäoloa taistelussa."
+
+msgid "help_window/reserves"
+msgstr "Vaunureservit"
+
+msgid "help_window/reserves/description"
+msgstr "Muutaman minuutin välein yksi vaunu lisätään reserviisi. Reservissä voi olla korkeintaan kaksi vaunua. Jos vaunuja ei ole jäljellä, et voi syntyä uudestaan ja sinun täytyy odottaa, kunnes uusia vaunuja tulee saataville."
+
+msgid "hq/under_attack_atk"
+msgstr "Hyökkäyksen kohteena"
+
+msgid "hq/under_attack_def"
+msgstr "Hyökkäyksen kohteena"
+
+msgid "in_game_rank/experience_text"
+msgstr "XP"
+
+msgid "lane_central_name"
+msgstr "Keskusta"
+
+msgid "lane_east_name"
+msgstr "Itä"
+
+msgid "lane_west_name"
+msgstr "Länsi"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "Taso %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "Hankkiminen ei ole saatavilla: sinulla ei ole taistelureservipisteitä."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "Taistelureservi on saavuttanut maksimitason."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "Päivittäminen ei ole saatavilla: sinulla ei ole taistelureservipisteitä."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "Taistelureserviä ei ostettu"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "Taistelureservin tasoa parannetaan saavutettaessa kapteenin ja majurin arvot taistelussa. Maksimitaso määrittyy taisteluskenaarion mukaan."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "Ostohinta: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "Pääkohde"
+
+msgid "mission/title"
+msgstr "Tehtävä"
+
+msgid "mission/zone_closing_atk"
+msgstr "Alueen avautumiseen: "
+
+msgid "mission/zone_closing_def"
+msgstr "Vihollisen pommitukseen: "
+
+msgid "missions/primary/atk/base"
+msgstr "Valtaa alue"
+
+msgid "missions/primary/atk/hq"
+msgstr "Tuhoa kohde"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s / %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "Koheita tuhottu:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "Valloita alueita päästäksesi pääkohteiden luo. Tuhoa pääkohteet."
+
+msgid "missions/primary/def/base"
+msgstr "Puolusta aluetta"
+
+msgid "missions/primary/def/hq"
+msgstr "Puolusta kohdetta"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s / %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "Kohteita menetetty:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "Puolusta kaikkia pääkohteita, kunnes aika loppuu tai kaikki hyökkääjät on tuhottu."
+
+msgid "missions/unlockTankLevel"
+msgstr "Tason IX vaunut saatavilla"
+
+msgid "overtime/label"
+msgstr "JATKOAIKA"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "Kahden identtisen reservin aktivointi ei ole mahdollista"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "Miinakentän asettaminen ei onnistu. Miinakentät osuvat päällekkäin."
+
+msgid "primeTime/applyBtn"
+msgstr "Etene"
+
+msgid "primeTime/cancelBtn"
+msgstr "Peruuta"
+
+msgid "primeTime/continueBtn"
+msgstr "Jatka"
+
+msgid "primeTime/endOfCycle"
+msgstr "Pelimuoto %(server)s palvelimella on päättynyt."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "Saatavilla olevat palvelimet:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "Tavilla olevat palvelimet: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "Taistelut palvelimella %(server)s ovat saatavilla vielä seuraavan %(time)s"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "Seuraavat taistelut palvelimella %(server)s %(time)s kuluttua"
+
+msgid "primeTime/serverTooltip"
+msgstr "Palvelin %(server)s\nTaistelut ovat saatavilla vielä seuraavan %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Taistelut tulevat saataville seuraavan kerran %(time)s"
+
+msgid "primeTime/servers"
+msgstr "Saatavilla olevat palvelimet: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Taistelut %(server)s palvelimella ovat päättyneet"
+
+msgid "primeTime/status/disable"
+msgstr "Voit vaihtaa Etulinjaa tarjoavalle palvelimelle jatkaaksesi taisteluvalmistelujasi."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "Pelimuoto ei ole saatavilla palvelimella %(server)s"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "Tulitauko on voimassa palvelimella %(server)s %(startTime)s asti"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "Tulitauko on voimassa kaikilla palvelimilla"
+
+msgid "primeTime/status/thisEnable"
+msgstr "Etulinja on pelattavissa palvelimella %(server)s vielä %(time)s."
+
+msgid "primeTime/steelhunter/title"
+msgstr "TERÄKSEN METSÄSTÄJÄ"
+
+msgid "primeTime/title"
+msgstr "ETULINJA"
+
+msgid "primeTime/titleWelcome"
+msgstr "TERVETULOA\nETULINJALLE"
+
+msgid "progress_timers/active"
+msgstr "Aloitettu"
+
+msgid "progress_timers/fully_equipped"
+msgstr "Täysin varusteltu"
+
+msgid "progress_timers/resupply"
+msgstr "Täydennyskehä"
+
+msgid "progress_timers/unavailable"
+msgstr "Ei saatavilla"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "Etulinjan tehtävät"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "alle 1 p"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "saavuta taso %(level)s"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "Uusia tehtäviä tulee saataville %(time)s kuluttua"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "Teräksen metsästäjän tehtävät"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "Etulinjan päättymiseen: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "Ei saatavilla: %(reason)s."
+
+msgid "rank/allReserveUpgraded"
+msgstr "Kaikkia taistelureservien tasoja parannettiin"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "Joukkuebonus miehistön suorituskykyyn kasvoi: +%(percent)s%%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "Suurin miehistön suorituskyky saavutettiin: +%(percent)s%%"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "Joukkuebonus miehistön suorituskykyyn: +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "Pelaaja"
+
+msgid "rank/promotion"
+msgstr "ylennetty arvoon %(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "Alokas"
+
+msgid "rank/rank2"
+msgstr "Kersantti"
+
+msgid "rank/rank3"
+msgstr "Luutnantti"
+
+msgid "rank/rank4"
+msgstr "Kapteeni"
+
+msgid "rank/rank5"
+msgstr "Majuri"
+
+msgid "rank/rank6"
+msgstr "Kenraali"
+
+msgid "rank/recerveUnlocked"
+msgstr "\"%(reserveName)s\" -taistelureservi avattu"
+
+msgid "rank/reserveUpgraded"
+msgstr "\"%(reserveName)s\" -taistelureserviä parannettu"
+
+msgid "rank/slotUnlocked"
+msgstr "%(slotNumber)s taistelureservi avattu"
+
+msgid "rank/slot_2"
+msgstr "2."
+
+msgid "rank/slot_3"
+msgstr "3."
+
+msgid "recovery/Blocked"
+msgstr "Väliaikaisesti\nestetty"
+
+msgid "recovery/disabled"
+msgstr "Hylkääminen ei saatavilla"
+
+msgid "recovery_panel/base_text"
+msgstr "Paina J\nhylätäksesi vaunu"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "Liiku tai ammu peruuttaaksesi."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "Hylkääminen\nperuutettu"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "Hylkäämistä\npyydetty"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "Valtaa seuraava tukikohta"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "Täydennysjoukkojen saapumiseen "
+
+msgid "reinforcement/unavailable"
+msgstr "Täydennysjoukkoja ei saatavilla"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s s automaattiseen paluuseen taisteluun."
+
+msgid "respawn/deploy_button"
+msgstr "Taistele!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "Paranneltuja kulutustarvikkeita ei voida ostaa taistelussa."
+
+msgid "respawn/shop_title"
+msgstr "Huolto"
+
+msgid "respawn/tanks_left"
+msgstr "vaunuja jäljellä"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "Valitse vaunu ja sijoitusalue"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "Tälle alueelle sijoittautuminen on vaarallista."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s sekuntia"
+
+msgid "retreat_message_txt"
+msgstr "Peräänny"
+
+msgid "retreat_mission_txt"
+msgstr "Peräänny seuraavalle alueelle"
+
+msgid "rewardSelection/subTitle"
+msgstr "VALITSE PALKINTOSI"
+
+msgid "rewardSelection/title"
+msgstr "ETULINJA"
+
+msgid "scorePanel/stage1"
+msgstr "Vaihe 1"
+
+msgid "scorePanel/stage2"
+msgstr "Vaihe 2"
+
+msgid "scorePanel/stage3"
+msgstr "Vaihe 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "Tietokoneesi suorituskyky ei riitä tähän pelitilaan. Voit kohdata ongelmia grafiikan ja vaunujen liikkumisen kanssa. Pelin kaatuminen on myös todennäköistä."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "Heikko suorituskyky"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "Mikäli suorituskyky ei riitä, kokeile heikompia grafiikka-asetuksia."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "Tämä pelimuoto vaatii runsaasti suorituskykyä"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "Tämä pelimuoto vaatii hyvää suorituskykyä tietokoneelta. Saatat kohdata ongelmia kartan lataamisen, grafiikoiden ja vaunujen liikkeen kanssa. Mikäli kohtaat ongelmia, koeta heikentää grafiikan laatua asetuksistasi."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "Heikko suorituskyky"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "30vs30 taisteluita %(bodyVehicleLevel)s. Käytössä ovat taisteluun palaaminen, taistelureservit sekä täydennysympyrät."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "tason %(level)s vaunuilla"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "30vs30 taisteluita %(bodyVehicleLevel)s. Käytössä ovat taisteluun palaaminen, taistelureservit sekä korjaaminen taistelussa."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "Tämä pelimuoto ei väliaikaisesti ole saatavilla teknisten vaikeuksien tähden."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "Etulinja"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "Taisteluiden alkamiseen: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "Taisteluiden päättymiseen: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "Taisteluaikataulu"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "Tänään"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "Huomenna"
+
+msgid "skill/category/firesupport"
+msgstr "Hyökkäysreservit"
+
+msgid "skill/category/reconnaissance"
+msgstr "Tiedustelureservit"
+
+msgid "skill/category/tactics"
+msgstr "Taktiset reservit"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "Katsoja-tilan kamera"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "Pyöritä kameraa hiirelläsi."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "Käytä W, A, S ja D -näppäimiä liikuttaaksesi kameraa ympäri karttaa."
+
+msgid "spectator_mode/follow_text"
+msgstr "Klikkaa vasemmalla napilla seurataksesi."
+
+msgid "spectator_mode/follow_title"
+msgstr "Seuraa"
+
+msgid "spectator_mode/msg_text"
+msgstr "Vaunun saapumiseen:"
+
+msgid "spectator_mode/msg_title"
+msgstr "Kaikki vaunut tuhottu!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "Klikkaa uudelleen lopettaaksesi seuraaminen."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "Lopeta seuraaminen"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s p"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "Estetty"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Poistu alueelta!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Kestopisteitä palautetaan"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Kestopisteitä palautetaan"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Motivoidaan"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "Motivoidaan"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Täydennyskehä"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Savun sisällä: piilossa."
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "Savun sisällä. Näkökyky ja miehistön suorituskyky ovat heikentyneet."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "Hengähdystauko. Näkökyky ja miehistön suorituskyky ovat heikentyneet."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "Vartija aktivoitu"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "Aktivoituu %(activationDelay)s s kuluttua vaunun pysähtymisestä"
+
+msgid "super_platoon_panel/title"
+msgstr "Osasto"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "– yhteisbonus miehistön suorituskykyyn kenraalin läsnäolosta."
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "Kaikki rintamat"
+
+msgid "tab_screen/show_my_lane"
+msgstr "Oma rintamani"
+
+msgid "team1Name"
+msgstr "Hyökkääjät"
+
+msgid "team2Name"
+msgstr "Puolustajat"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "Valitse palkinto suoritetuista ETulinjan tasoista (%(number)s)."
+
+msgid "tooltips/common/disabled"
+msgstr "Pelimuoto ei saatavilla"
+
+msgid "tooltips/common/title"
+msgstr "Etulinja"
+
+msgid "tooltips/end"
+msgstr "Tapahtuma on päättynyt"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "taistelureservien avaamisjärjestys riippuu vaunutyypistä. Alussa saatavilla on yksi taistelureservi ja toiset avautuvat saavutettaessa kersantin ja luutnantin sotilasarvot."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "Avaaminen: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "<font color='#E9E2BF'>\"Kohtalon oikku\"</font> -skenaariossa taistelureservin ostaminen parantaa sen tasoa yhdellä ja tarjoaa mahdollisuuden parantaa sitä tasolle <font color='#E9E2BF'>IV</font>."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "Tähän paikkaan sijoitetulla taistelureservillä on <font color='#E9E2BF'>10%</font> suurempi mahdollisuus tulla tarjolle <font color='#E9E2BF'>\"Kohtalon oikku\"</font> -skenaariossa."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "Reservien avaaminen ja parantaminen taistelussa"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "Taistelureservejä avataan ja parannetaan taistelussa vaunutyypistäsi ja saavuttamistasi sotilasarvoista riippuen."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "PST-vaunujen reservivalikoima"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "Telatykkien reservivalikoima"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "Raskaiden vaunujen reservivalikoima"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "Kevyiden vaunujen reservivalikoima"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "Keskiraskaiden vaunujen reservivalikoima"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "avattuasi kaikki taistelureservin niitä parannetaan, kun saavutat uusia sotilasarvoja. Ensimmäisenä avattu taistelureservi voidaan parantaa tasolle III asti ja toisena avattu taistelureservi tasolle II."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "Parantaminen: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "Paikka avataan saavutettaessa sotilasarvo: %(rank)s."
+
+msgid "tooltips/timeToEnd"
+msgstr "Pelimuoto saatavilla: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "Taisteluiden alkamiseen: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "Tapahtuma on päättynyt"
+
+msgid "tooltips/widget/level"
+msgstr "Taso %(level)s"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "Maksimitaso saavutettu."
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "TAISTELURESERVIT"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Tulitauko on voimassa kaikilla palvelimilla. Taisteluiden alkamiseen %(time)s"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "Taistelut ovat meneillään"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Valitse toinen palvelin"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "Lisätiedot"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "Etulinja -pelimuoto on päättynyt."
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "Etulinjan skenaariot"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Tulitauko on voimassa tällä palvelimella. Taisteluiden alkamiseen %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Tulitauko on voimassa %(serverName)s palvelimella"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "Taisteluiden alkamiseen: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "Klikkaa saadaksesi lisätietoa Etulinjan\nskenaarioista ja niiden välisistä eroista."
+
+msgid "zone/arrived_text"
+msgstr "Saapunut!"
+
+msgid "zone/capture_text"
+msgstr "Valtaa"
+
+msgid "zone/captured_text"
+msgstr "Vallattu"
+
+msgid "zone/defend_text"
+msgstr "Puolusta"
+
+msgid "zone/destroy_text"
+msgstr "Tuhoa"
+
+msgid "zone/destroyed_text"
+msgstr "Tuhottu"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "Vihollisen täydennysjoukot"
+
+msgid "zone/headquarters_text"
+msgstr "Kohteet"
+
+msgid "zone/leave_zone"
+msgstr "Poistu alueelta!"
+
+msgid "zone/lost_text"
+msgstr "Menetetty"
+
+msgid "zone/reached_text"
+msgstr "Tavoitettu"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "Vihollisen täydennysjoukot:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "Täydennysjoukot:"
+
+msgid "zone/reinforcements_text"
+msgstr "Täydennysjoukot"
+
+msgid "zone/time_added"
+msgstr "Minuutteja lisätty: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "%(minutes)s minuuttia jäljellä"
+
+msgid "zone/zone_text"
+msgstr "Alue"

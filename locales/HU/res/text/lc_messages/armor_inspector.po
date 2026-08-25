@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Fő páncélzat"
+
+msgid "armorValues/title/no_damage"
+msgstr "Nincs sebzés"
+
+msgid "armorValues/title/other"
+msgstr "Egyéb"
+
+msgid "armorValues/title/penetration"
+msgstr "Páncélátütés esélye"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Lepattanó"
+
+msgid "armorValues/title/spaced"
+msgstr "Rétegelt páncélzat"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Támadó konfiguráció"
+
+msgid "attackerTooltip/body"
+msgstr "Kattints a támadó jármű megváltoztatásához"
+
+msgid "attackerTooltip/header"
+msgstr "Támadó jármű"
+
+msgid "menu/header"
+msgstr "Átfedés típusa"
+
+msgid "menu/no_armor"
+msgstr "Nincs átfedés"
+
+msgid "menu/nominal"
+msgstr "Névleges páncélzat"
+
+msgid "menu/penetration"
+msgstr "Páncélátütés esélye"
+
+msgid "modules/current"
+msgstr "Jelenlegi konfiguráció"
+
+msgid "modules/custom"
+msgstr "Egyéni konfiguráció"
+
+msgid "modules/standard"
+msgstr "Normál konfiguráció"
+
+msgid "modules/title"
+msgstr "Jármű moduljai"
+
+msgid "modules/top"
+msgstr "Legjobb konfiguráció"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Alváz"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Löveg"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Lövegpajzs"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Járműtest"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Előtétpáncélzat"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Megfigyelőeszköz"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Torony"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Kerekek"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Nincs sebzés"
+
+msgid "tooltip/dcc/penetration"
+msgstr "páncélátütés"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Lepattanó"
+
+msgid "tooltip/minor/angle/description"
+msgstr "A lövedék röppályája és a páncéllemezre merőleges vonal által bezárt szög.\n\nA lövedék röppályáját úgy számítjuk, mintha egyenesen a képernyő közepéből indulna."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Becsapódási szög"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Annak az esélye, hogy a lövedék átüti az ellenség páncélzatát, és sebzést okoz a járműnek."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Páncélátütés esélye"
+
+msgid "tooltip/minor/effective/description"
+msgstr "Egyetlen páncélréteg esetén az effektív páncélzat megegyezik a névleges páncélzat becsapódási szöggel és lövedéknormalizációval módosított értékével.\n\nHa a becsapódási ponton többrétegű a páncélzat, az eredményt az egyes rétegek effektív értékének az összege adja."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Effektív páncélzat"
+
+msgid "tooltip/minor/header"
+msgstr "Jelmagyarázat"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "A rétegelt páncélzatot eltalálva nem okozol sebzést a járműnek, kivéve, ha a becsapódás után a lövedék átüti a fő páncélzatot."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Nincs sebzés"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "A fő vagy rétegelt páncéllemez(ek) tényleges szélessége."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Névleges páncélzat"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Az ellenséges páncélzatot érintőlegesen eltaláló lövedékek lepattannak róla. Azonban még így is eltalálhatnak egy másik járművet, vagy akár ugyanazt a járművet is."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Lepattanó"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Hatással van az effektív páncélzat és a páncélátütési esély kiszámítására.\n\nMinden számításhoz 100 méteres távolságot veszünk alapul (a PCT és KPCT lövedékek átütőereje csökken a távolsággal).\n\nA legénység készségei és a támadó járművek fejlesztései nem befolyásolják a számításokat."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Támadó konfiguráció"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Az ellenséges páncélzat átütésének és a járműnek okozott sebzés esélye.\n\nA rétegelt páncélzatot eltalálva nem okozol sebzést a járműnek, kivéve, ha a becsapódás után a lövedék átüti a fő páncélzatot."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Páncélátütés esélye"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Egy jármű csak akkor szenved el sebzést, ha a fő páncélzatát találat éri, és a lövedék átüti azt. A R.RO lövedékek átütés nélkül is képesek csökkentett sebzést okozni a járműnek, azonban ehhez ugyanúgy el kell érniük a fő páncélzatot."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Fő páncélzat"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "A rétegelt páncélzatot eltalálva nem okozol sebzést a járműnek, kivéve, ha a becsapódás után a lövedék átüti a fő páncélzatot.\n\nA külső modulokat ért találat és átütés közvetlenül a moduloknak okoz sebzést: a lánctalpat érő találat mozgásképtelenné teszi a járművet, a löveget ért találat használhatatlanná teszi azt, a megfigyelőeszközt érő találat pedig csökkenti a jármű látótávolságát."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Nincs sebzés"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "A lepattanási szög páncéltörő és KPCT lőszer esetén 70 fok, KUM lőszer esetében pedig 85 fok.\n\nA R.RO lövedékek nem pattannak le, míg a PCT és KPCT lövedékek a lepattanás után 25%-ot veszítenek az átütőerejükből.\n\nA lövedék nem pattanhat le, ha a löveg kalibere több mint háromszorosa a célpont névleges páncélzatvastagságának a becsapódási ponton (ez a szabály csak a PCT és KPCT lőszerekre érvényes)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Lepattanó"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "A rétegelt páncélzatot eltalálva nem okozol sebzést a járműnek, kivéve, ha a becsapódás után a lövedék átüti a fő páncélzatot.\n\nA külső modulokat ért találat és átütés közvetlenül a moduloknak okoz sebzést: a lánctalpat érő találat mozgásképtelenné teszi a járművet, a löveget ért találat használhatatlanná teszi azt, a megfigyelőeszközt érő találat pedig csökkenti a jármű látótávolságát.\n\nA becsapódási szög nem érvényesül a külső modulok (például a lánctalp és a löveg) esetében – ezeknél az effektív és a névleges páncélzat megegyezik."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Rétegelt páncélzat"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Nézz meg egy videót a páncélátütés mechanikájáról!"

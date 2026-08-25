@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Γενικά"
+
+msgid "channels/battle/team"
+msgstr "Ομάδα"
+
+msgid "channels/clan"
+msgstr "Clan"
+
+msgid "channels/common"
+msgstr "Γενικά"
+
+msgid "channels/epic_training"
+msgstr "Εκπαίδευση—Πρώτη Γραμμή"
+
+msgid "channels/nubs"
+msgstr "Νεοσύλλεκτοι"
+
+msgid "channels/prebattle"
+msgstr "Προ-Μάχης"
+
+msgid "channels/special_battles"
+msgstr "Ειδική Μάχη"
+
+msgid "channels/squad"
+msgstr "Ουλαμός"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Ο Ουλαμός δημιουργήθηκε. Περιμένετε μέχρι όλοι οι παίκτες να είναι έτοιμοι."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Ουλαμός"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Ο Ουλαμός δημιουργήθηκε. Όλοι οι παίκτες είναι έτοιμοι."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Ουλαμός"
+
+msgid "channels/system"
+msgstr "Σύστημα"
+
+msgid "channels/tournament"
+msgstr "Τουρνουά"
+
+msgid "channels/trading"
+msgstr "Συναλλαγές"
+
+msgid "channels/training"
+msgstr "Εκπαίδευση"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Ο Chat administrator είναι επίσης και ένας channel moderator."
+
+msgid "errors/addmoderatorowner"
+msgstr "Ο Channel owner είναι επίσης και ένας channel moderator."
+
+msgid "errors/banchannelowner"
+msgstr "Ο Channel owner δεν μπορεί να αποκλειστεί."
+
+msgid "errors/banchatadmin"
+msgstr "Ο Chat administrator δεν μπορεί να αποκλειστεί."
+
+msgid "errors/banned"
+msgstr "Έχετε αποκλειστεί από τον χρήστη %(banOwnerNick)s μέχρι %(banEndTime)s. Αιτία: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Έχετε αποκλειστεί από τον χρήστη %(banOwnerNick)s. Αιτία: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Έχετε αποκλειστεί μέχρι %(banEndTime)s. Αιτία: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Έχετε αποκλειστεί. Αιτία: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Η εντολή %(command)s έχει απενεργοποιηθεί για %(cooldownPeriod)s sec."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Τα δικαιώματα του Moderator δεν μπορούν να ανακληθούν από τον chat administrator."
+
+msgid "errors/delmoderatorowner"
+msgstr "Τα δικαιώματα του Moderator δεν μπορούν να ανακληθούν από τον channel owner."
+
+msgid "errors/timeincorrect"
+msgstr "Η παράμετρος ‘χρόνος’ πρέπει να έχει μία θετική τιμή λεπτών [1-1440] ή ‘permanent’."
+
+msgid "errors/toomanyargs"
+msgstr "Πάρα πολλές παράμετροι."
+
+msgid "errors/toosmallargs"
+msgstr "Ελλιπής αριθμός παραμέτρων."
+
+msgid "errors/userbanhimself"
+msgstr "Δεν μπορείτε να αποκλείσετε τον εαυτό σας."
+
+msgid "messages/userbanned"
+msgstr "Ο χρήστης %(banedUser)s έχει αποκλειστεί από τον χρήστη %(banOwnerNick)s μέχρι %(banEndTime)s. Αιτία: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "Ο χρήστης %(banedUser)s έχει αποκλειστεί από τον χρήστη %(banOwnerNick)s. Αιτία: %(banReason)s"

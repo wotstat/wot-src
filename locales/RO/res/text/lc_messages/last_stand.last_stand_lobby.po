@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Luptă oricum"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Echipează!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Componente tactice incomplete"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "Vehiculului selectat îi lipsesc una sau mai multe componente tactice. Acest lucru poate afecta semnificativ performanța sa în lupte. Intri oricum în luptă?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Poți personaliza tastele implicite ale evenimentului pentru proiectile și componente tactice.\nModificarea se aplică doar luptelor de eveniment și nu afectează alte moduri.\nPoți modifica tastele individual în meniu / Setări / Control (sub Consumabile)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Schimbarea presetărilor tastelor pentru consumabile"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Finalizează misiunea actuală pentru a obține o insignă unică „Ultima Redută: Operațiunea Pandora”:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Misiunea de realizare epică"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "După cercetare, reduce cu {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End} {EDCB9E_Start}prețul în Mirium{EDCB9E_End} al tuturor componentelor tactice."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Eficiența Miriumului"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "După cercetare, crește cu {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End} {EDCB9E_Start}durata efectului componentelor tactice{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Durata efectului componentei"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "După cercetare, crește cu {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End} {EDCB9E_Start}raza efectului componentelor tactice{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Raza efectului componentei"
+
+msgid "booster/booster_heal/description"
+msgstr "După cercetare, crește cu {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End} toate {EDCB9E_Start}efectele de însănătoșire{EDCB9E_End} aplicate vehiculului."
+
+msgid "booster/booster_heal/name"
+msgstr "Efectele de însănătoșire"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "După cercetare, crește cu {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End} cantitatea de {EDCB9E_Start}daune transmise de la Obeliskuri{EDCB9E_End} vehiculelor inamice."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Daunele transmise de Obeliskuri"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "După cercetare, crește cu {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End} {EDCB9E_Start}raza culegerii de Mirium{EDCB9E_End} de la inamici."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Raza culegerii de Mirium"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "După cercetare, crește cu {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End} {EDCB9E_Start}cantitatea de Mirium culeasă{EDCB9E_End} de la inamicii distruși."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Colectarea de Mirium"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "După cercetare, crește cu {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End} {EDCB9E_Start}cantitatea de Mirium{EDCB9E_End} obținută din distrugerea unui val."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Mirium per val"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "După cercetare, crește cu {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End} {EDCB9E_Start}cantitatea de Mirium{EDCB9E_End} restaurată la reapariție."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Mirium la reapariție"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "După cercetare, crește cu {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End} {EDCB9E_Start}capacitatea maximă de Mirium a vehiculului{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Capacitatea de Mirium"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "PACHETUL APĂRĂTORULUI"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Chei cumpărate"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Opțiunea de a obține 5× EXP, începând cu a doua victorie a zilei, în orice vehicul."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Misiune pentru 5× la EXP obținută în lupte"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Configurează afişarea vehiculelor după tip, naţiune şi alţi parametri."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Filtru după parametri"
+
+msgid "common/back"
+msgstr "ÎNAPOI"
+
+msgid "common/close"
+msgstr "ÎNCHIDE"
+
+msgid "common/modifierInline"
+msgstr "{value}x"
+
+msgid "common/modifierInlineTimes"
+msgstr "{value}×"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "SPRE EVENIMENT"
+
+msgid "common/toRewardPath"
+msgstr "SPRE PROGRES"
+
+msgid "common/yes"
+msgstr "Recepționat!"
+
+msgid "difficult/daily"
+msgstr "MISIUNEA ZILNICĂ PENTRU CHEI DEBLOCATĂ"
+
+msgid "difficult/disabled/body"
+msgstr "Ești în pluton. Doar comandantul poate schimba nivelul de dificultate."
+
+msgid "difficult/disabled/header"
+msgstr "Schimbarea dificultății indisponibilă"
+
+msgid "difficult/level_1"
+msgstr "Standard"
+
+msgid "difficult/level_2"
+msgstr "Avansată"
+
+msgid "difficult/level_3"
+msgstr "Brutală"
+
+msgid "difficult/new"
+msgstr "NOU"
+
+msgid "difficult/searching/body"
+msgstr "Indisponibil pe perioada căutării."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Inamicii au durabilitate mai mică și blindaj mai slab. Cantitate standard de date per luptă."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Inamicii au blindaj mai puternic. Datele per luptă cresc cu {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Mai mulți inamici, cu blindaj mai puternic. Datele per luptă cresc cu {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Recompense pentru prima distrugere a valului final:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Dificultate standard"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Dificultate avansată"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Dificultate brutală"
+
+msgid "difficult/tooltip/locked"
+msgstr "Dificultate blocată"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Pentru a debloca acest nivel de dificultate, finalizează nivelul cu dificultate standard."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Pentru a debloca acest nivel de dificultate, finalizează nivelul cu dificultate avansată."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Dificultate disponibilă"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Dificultate selectată"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Valuri distruse: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "STANDARD"
+
+msgid "difficult/uppercase/level_2"
+msgstr "AVANSATĂ"
+
+msgid "difficult/uppercase/level_3"
+msgstr "BRUTALĂ"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Inamicii au blindaj mai puternic. Mai multe credite și {{modifier}}× date per luptă."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Mai mulți inamici cu blindaj mai puternic. Mai multe credite și {{modifier}}× date per luptă."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Luptă și învinge valuri de inamici, dovedindu-ți abilitățile ajungând în vârful clasamentului. Te așteaptă recompense unice și multe altele."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "NIVELUL DE DIFICULTATE AVANSATĂ"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "NIVELUL DE DIFICULTATE BRUTAL"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "MODUL ULTIMA REDUTĂ"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "AVANSATĂ"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "BRUTALĂ"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "'ULTIMA REDUTĂ'"
+
+msgid "difficultyWindow/rewards"
+msgstr "Recompense pentru finalizare:"
+
+msgid "difficultyWindow/title"
+msgstr "DISPONIBILĂ"
+
+msgid "hangar/exit"
+msgstr "PĂRĂSEȘTE EVENIMENTUL"
+
+msgid "hangar/narration"
+msgstr "Povestea"
+
+msgid "hangar/tooltip/about"
+msgstr "Află mai multe despre evenimentul Ultima Redută: Terra Nord."
+
+msgid "hangar/tooltip/narration"
+msgstr "Află mai multe despre povestea evenimentului."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "COMPONENTELE TACTICE"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "CONFIGURAȚIE"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Ultima redută"
+
+msgid "iconButton/comparison/default"
+msgstr "Compararea vehiculelor"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Compararea vehiculelor e indisponibilă"
+
+msgid "iconButton/preview/default"
+msgstr "Previzualizare vehicul"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Previzualizarea vehiculelor e indisponibilă"
+
+msgid "keyCard/name"
+msgstr "CHEI DE DECRIPTARE"
+
+msgid "meta/btn/decrypt"
+msgstr "DECRIPTARE"
+
+msgid "meta/btn/skip"
+msgstr "SĂRI PESTE"
+
+msgid "meta/btn/view"
+msgstr "AFIȘEAZĂ"
+
+msgid "meta/receive/description"
+msgstr "Strânge %(keys) / %(decrypt) %(icon) \npentru a decripta această înregistrare"
+
+msgid "metaIntro/description/fight"
+msgstr "Participă la lupte de eveniment și obține date pentru a avansa în progres."
+
+msgid "metaIntro/description/progress"
+msgstr "Strânge date pentru a cerceta îmbunătățiri pentru vehicule și a înfrunta provocări mai mari."
+
+msgid "metaIntro/description/reward"
+msgstr "Finalizează etape de progres pentru a obține recompense speciale ale evenimentului. Vezi Calea recompenselor pentru mai multe detalii."
+
+msgid "metaIntro/header/fight"
+msgstr "Luptele evenimentului"
+
+msgid "metaIntro/header/progress"
+msgstr "Îmbunătățirile"
+
+msgid "metaIntro/header/reward"
+msgstr "Recompense unice"
+
+msgid "metaIntro/title"
+msgstr "PROGRESUL"
+
+msgid "missionWidget/complete"
+msgstr "Misiune finalizată\nRevino mâine."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Finalizează misiunea zilnică actuală, disponibilă la fiecare 24 de ore, pentru a obține recompensa. Recompensa de azi:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Misiunea zilnică"
+
+msgid "narration/actions/voiceover"
+msgstr "Cu voce"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}TOP SECRET{{/}}{{titleParagraph}}{{@ class $highlightText}}SECTOR: N-07 (Perimetrul „Aurora”){{/}}{{pargraphStart}}Predicția noastră a fost corectă. Observatorii stației au înregistrat apropierea anomaliilor cu 11 zile înainte de eveniment. Pentru prima dată, am văzut-o venind.{{pargraphStart}}În calmul dinaintea furtunii, producția complexelor ATLAS a fost standardizată. Noile module sunt asamblate mai rapid și calibrate mai precis. Am efectuat antrenamente, am parcurs formațiuni și am pregătit echipe de rezervă. Alertă maximă.{{pargraphStart}}Dar anomalia avea propriile planuri.{{pargraphStart}}Pâlnia nu s-a deschis în sectorul prezis. A apărut aici, într-o regiune nordică îndepărtată, departe de infrastructura amplasată. Nu este clar de ce a fost aleasă această locație. Niciunul dintre modele nu indicase această zonă. Redeplasarea de urgență a fost inițiată imediat, dar terenul și distanța nu sunt în favoarea noastră. Unele vehicule și echipe vor ajunge târziu.{{pargraphStart}}Fiecare complex ATLAS pe care am reușit să-l livrăm este acum indispensabil.{{pargraphStart}}De data aceasta, eram pregătiți pentru luptă. Dar pentru lupta într-o zonă diferită.{{pargraphStart}}SEMNAT: CURATOR (PROIECT M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Însemnare de Analiză 27/C „SELECȚIA LOCULUI INVAZIEI”{{/}}{{titleParagraph}}Pentru uz intern. Ștampilă \"Acces Restricționat\".{{pargraphStart}}Pun o întrebare la care sunt obligat să răspund, dar nu pot: De ce aici?{{pargraphStart}}Această regiune nu are valoare strategică pentru Pâlnie. Nu este nimic aici. Nicio infrastructură, nicio așezare. Doar o bază militară nefuncțională pe insulă. Tancurile-ecou nu pot traversa marea. De ce să captureze un loc de unde nu pot ataca?{{pargraphStart}}Am solicitat istoricul operațional complet al regiunii. Răspunsul a fost puternic redactat. Întregi secțiuni au fost șterse. O a doua cerere a fost returnată cu nota „acces restricționat de autoritatea {{@ class $highlightSecondaryText}}[DATE ELIMINATE]{{/}}.” Mie, șefului departamentului de cercetare, ale cărui recomandări determină strategia de apărare a acestui sector, îmi sunt refuzate informații despre acest teritoriu!{{pargraphStart}}Iată ce pot deduce din datele de teren: comportamentul Pâlniei nu corespunde cu ceea ce am observat în sectorul R-22. Au apărut noi tipuri de tancuri-ecou pe care nu le-am întâlnit înainte. Ele corespund ca funcție cu antitancurile noastre cu rază lungă și sunt extrem de eficiente pe acest tip de teren. Inamicul a învățat din tacticile noastre și a adaptat contramăsuri. Acum este rândul nostru să ne adaptăm.{{pargraphStart}}Poate că are nevoie de acest loc. Sau poate de ceea ce este dedesubt.{{pargraphStart}}Nu știu. Și mă îngrijorează că cineva știe, dar nu spune.{{pargraphStart}}SEMNĂTURĂ: CURATOR (PROIECT M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}ÎNREGISTRAREA PERSONALĂ A CURATORULUI{{/}}{{pargraphStart}}Am revizuit propriile mele ipoteze. Pe toate trei.{{pargraphStart}}  1. Anomalia caută să ne distrugă. {{pargraphStart}}  2. Anomalia experimentează. Cercetează tacticile noastre, studiază răspunsul nostru, se ajustează și învață.{{pargraphStart}}  3. Anomalia se antrenează. Fiecare val este un exercițiu al noilor sale tactici; fiecare bătălie este un antrenament în condiții de teren.{{pargraphStart}}Toate cele trei ipoteze împărtășesc presupunerea că noi suntem ținta acestei invazii.{{pargraphStart}}Dar dacă nu suntem?{{pargraphStart}}Dacă anomalia face altceva și noi pur și simplu stăm în calea ei? Ca un mușuroi de furnici inundat în timp ce se construiește un drum. Constructorul nu poartă război cu furnicile. Pur și simplu nu le observă.{{pargraphStart}}Poți opri un inamic care vrea să te distrugă. Poți negocia cu el. Dar nu poți opri ceva care nu îți recunoaște existența; nu poți să-i schimbi scopul. Nu poate fi oprit. Pentru că nu ai făcut niciodată parte din calculele sale.{{pargraphStart}}Cred că am pus întrebarea greșită. Nu ar trebui să ne întrebăm de ce ne atacă, ci dacă ne remarcă în vreun fel.{{pargraphStart}}SEMNĂTURĂ: CURATOR (PROIECTUL M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}RAPORT FINAL{{/}}{{titleParagraph}}{{@ class $highlightText}}STARE: DESECRETIZATĂ (PARȚIAL){{/}}{{pargraphStart}}La ora 03:47, Pâlnia s-a prăbușit. Activitatea anomalia a încetat. Sectorul este curat.{{pargraphStart}}În ultimele secunde înainte de prăbușire, metrul ATLAS a înregistrat un val de energie care a depășit toate valorile înregistrate anterior. Echipajele au observat o manifestare fizică de scurtă durată în centrul anomalia, care a durat nu mai mult de 12 secunde. După aceea, Pâlnia s-a închis.{{pargraphStart}}Declarație oficială: Incidentul s-a încheiat. Teritoriul a fost apărat cu succes. Carantina a fost ridicată din sector.{{pargraphStart}}{{@ class $highlightText}}NOTA PERSONALĂ A CURATORULUI (Doar pentru rezerve speciale){{/}}{{pargraphStart}}Nu am câștigat. S-a terminat.{{pargraphStart}}Aceasta nu a fost o invazie. A fost o acoperire. Un perimetru de protecție în jurul a ceea ce s-a manifestat în centrul Pâlniei cu câteva secunde înainte de prăbușirea sa.{{pargraphStart}}Zeci de Obeliskuri au apărut simultan. Încă nu știm ce făceau. ATLAS a înregistrat toți parametrii, dar va dura timp să-i interpretăm. Știm un lucru cu aproape certitudine: anomalia a finalizat un fel de proces.{{pargraphStart}}Orice ar fi făcut, trebuie să ne pregătim pentru următorul atac. Avem suficiente date acum. Inginerii noștri deja analizează înregistrările și, să fiu sincer, nu i-am văzut niciodată atât de entuziasmați. Ei cred că putem întări serios vehiculele noastre. Trebuie să facem asta înainte ca Pâlnia să revină.{{pargraphStart}}Nu pot să nu mă gândesc la un lucru: dacă s-a întâmplat aici și a durat atât de puțin timp, de câte ori s-a întâmplat înainte? În locuri unde nu a fost ATLAS, nimeni care să observe evenimentul...{{pargraphStart}}SEMNĂTURĂ: CURATOR (PROIECT M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Eram pregătiți"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. De ce aici?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. Întrebarea greșită"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. A terminat"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Finalizează nivelul standard al dificultății pentru a merge la următoarea parte a poveștii."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Finalizează nivelul avansat al dificultății pentru a merge la următoarea parte a poveștii."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Finalizează nivelul brutal al dificultății pentru a merge la partea finală a poveștii."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Următoarea poveste"
+
+msgid "preBattle/leave"
+msgstr "Ieşire din luptă"
+
+msgid "preBattle/searching"
+msgstr "SE CAUTĂ ALIAȚI..."
+
+msgid "preBattle/tip"
+msgstr "Durează prea mult găsirea unei Forțe operaționale? Schimbă nivelul de dificultate."
+
+msgid "preBattle/uppercase/leave"
+msgstr "IEŞIRE DIN LUPTĂ"
+
+msgid "promoWindow/header"
+msgstr "JOACĂ ULTIMA REDUTĂ"
+
+msgid "promoWindow/subheader"
+msgstr "Explorează un nou capitol al modului PvE Ultima Redută, începând cu {dateRange}.\nObține o serie de {cream_open}Atașamente 3D{cream_close} tematice, echipament experimental și mai multe recompense exclusive."
+
+msgid "questCard/allCompleted"
+msgstr "Toate misiunile zilnice finalizate"
+
+msgid "questCard/completed"
+msgstr "Misiunea zilnică finalizată.\nRevino mâine."
+
+msgid "reward/rest"
+msgstr "Și încă %(count)s"
+
+msgid "rewardPath/about"
+msgstr "DESPRE OBIECTIVE"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Află mai multe despre progresul evenimentului."
+
+msgid "rewardPath/boostTitle"
+msgstr "Accelerează-ți progresul și obține mai multe date {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Afișează în Magazin"
+
+msgid "rewardPath/completed"
+msgstr "Ai obținut toate datele și recompensele"
+
+msgid "rewardPath/completedTitle"
+msgstr "Vizitează Magazinul pentru elemente de personalizare unice"
+
+msgid "rewardPath/intro"
+msgstr "INTRODUCERE"
+
+msgid "rewardPath/introTooltip"
+msgstr "Urmărește video-ul introductiv."
+
+msgid "rewardPath/progress"
+msgstr "Datele obținute din ETAPA {artefactIndex}: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "PROGRESUL"
+
+msgid "rewardPathCard/completed"
+msgstr "Finalizată"
+
+msgid "rewardPathCard/name"
+msgstr "Calea Recompenselor"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Pachete de eveniment"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Anulează"
+
+msgid "squad/goToAnother/message"
+msgstr "Plutonul va fi desființat."
+
+msgid "squad/goToAnother/submit"
+msgstr "Ieșire"
+
+msgid "squad/goToAnother/title"
+msgstr "Părăsești evenimentul Ultima Redută: Terra Nord?"
+
+msgid "squad/leave/cancel"
+msgstr "Anulează"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Plutonul va fi desființat."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Recepționat!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Evenimentul Ultima Redută: Terra Nord s-a încheiat"
+
+msgid "squad/leave/message"
+msgstr "Plutonul va fi desființat."
+
+msgid "squad/leave/submit"
+msgstr "Ieșire"
+
+msgid "squad/leave/title"
+msgstr "Părăsești plutonul Ultima Redută: Terra Nord?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Continuă"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Ești în pluton și pregătit de luptă."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Nu poți părăsi plutonul!"
+
+msgid "stageReward/rewards/received"
+msgstr "S-au mai obținut:"
+
+msgid "stageReward/special/header"
+msgstr "NIVELUL DE DIFICULTATE BRUTAL FINALIZAT!"
+
+msgid "stageReward/special/subheader"
+msgstr "Recompensă specială obținută"
+
+msgid "stageReward/stage/header"
+msgstr "RECOMPENSE OBȚINUTE"
+
+msgid "stageReward/stage/subheader"
+msgstr "Ultima Redută: Etapa {{number}} finalizată"
+
+msgid "stageReward/stageFinal/header"
+msgstr "S-AU OBȚINUT TOATE RECOMPENSELE"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Ultima Redută: Ultima etapă finalizată"

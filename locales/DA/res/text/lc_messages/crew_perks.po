@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Modtagelse af skade afbryder gendannelse af hp.\n\nGendannelsesraten af hp og den maksimale gendannelsesgrænse er baseret på køretøjets samlede hp, inklusive alle anvendte modifikationer."
+
+msgid "armorPatching/alt/info"
+msgstr "For gruppe-evner træder det gennemsnitlige træningsniveau på hele mandskabet i kraft. Effekten starter, når der er trænet til mindst 1%, og effektiviteten øges derefter ved yderligere træning."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Brug af reparationssæt gendanner %(hpRecover)s af køretøjets {yellow_Start}hp{yellow_End} over 5 sek., op til et maksimum på 20% per kamp. Gør det muligt at bruge reparationssæt uden kritisk skade."
+
+msgid "armorPatching/hudDescription"
+msgstr "Hp gendannes."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Når den er fuldt trænet for alle mandskabsmedlemmer, gendannes %(hpRecover)s af køretøjets {yellow_Start}hp{yellow_End} over 5 sek. med et reparationssæt, op til et maksimum på 20% per kamp. Gør det muligt at bruge reparationssæt uden kritisk skade."
+
+msgid "armorPatching/name"
+msgstr "Panserlapning"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Forøger køretøjets grundlæggende sløring."
+
+msgid "brotherhood/alt/description"
+msgstr "Mandskabets effektivitetsbonus forbedrer mandskabsmedlemmets effektivitet i kamp, samt effektiviteten af alle deres indlærte evner, undtagen denne. Denne parameter kan yderligere forøges ved at montere udstyr eller forbrugsvarer med en lignende effekt, eller ved at bruge ventilationsrensning-direktivet. Kommandørens nødplan-evnen, samt radiooperatørens side om side- og kommunikationsekspert-evner kan også forøge parameteren."
+
+msgid "brotherhood/alt/info"
+msgstr "For gruppe-evner træder det gennemsnitlige træningsniveau på hele mandskabet i kraft. Effekten starter, når der er trænet til mindst 1%, og effektiviteten øges derefter ved yderligere træning."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "{greenBright_Start}Mandskabets effektivitetsbonus{greenBright_End} hos hele mandskabet er forøget med %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Når alle mandskabsmedlemmer er fuldt trænet, forøges {greenBright_Start}mandskabets effektivitetsbonus{greenBright_End} hos hele mandskabet med %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Våbenbrødre"
+
+msgid "brotherhood/shortDescription"
+msgstr "Forøger generel ydeevne hos mandskabet."
+
+msgid "camouflage/alt/description"
+msgstr "Denne evne påvirker køretøjs sløring. Den kan yderligere forbedres med naturligt dække-direktivet.\n\nDerudover kan køretøjets sløring forbedres ved at påføre et sløringsmønster eller en stil, samt ved at montere udstyr med en lignende effekt."
+
+msgid "camouflage/alt/info"
+msgstr "For gruppe-evner træder det gennemsnitlige træningsniveau på hele mandskabet i kraft. Effekten starter, når der er trænet til mindst 1%, og effektiviteten øges derefter ved yderligere træning."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "Køretøjets {greenBright_Start}sløring{greenBright_End} er forøget med %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Når alle mandskabsmedlemmer er fuldt trænet, forøges køretøjets {greenBright_Start}sløring{greenBright_End} med %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Sløring"
+
+msgid "camouflage/shortDescription"
+msgstr "Forøger køretøjets grundlæggende sløring."
+
+msgid "commander_coordination/alt/description"
+msgstr "Effekten aktiveres, hver gang et fjendtligt køretøj bliver opdaget, men forøges ikke, når flere køretøjer opdages samtidig.\n\nSigtehastigheden kan yderligere forøges ved at træne skyttens hurtigt sigte-evne, eller ved at montere udstyr med en lignende effekt."
+
+msgid "commander_coordination/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%, og effekten forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i en kamp."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "{yellow_Start}Sigtehastighed{yellow_End} vil blive forøget med %(vehicleGunAimSpeed)s i 15 s, efter du har opdaget et fjendtligt køretøj."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Sigtehastighed er forøget."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Ved komplet træning forøges {yellow_Start}sigtehastigheden{yellow_End} med %(vehicleGunAimSpeed)s i 15 s, efter du har opdaget et fjendtligt køretøj.\t"
+
+msgid "commander_coordination/name"
+msgstr "Koordination"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Sigtehastighed er forøget."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Synsrækkevidden kan yderligere forøges ved at træne radiooperatørens situationsfornemmelse-evne, eller ved at montere udstyr med en lignende effekt. Brug af optisk kalibrering-direktivet forbedrer effekten."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}Synsrækkevidden{greenBright_End} forøges med %(circularVisionRadius)s&zwnbsp;. {greenBright_Start}Straffen ved skadet observationsudstyr{greenBright_End} reduceres med %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Straffen ved skadet observationsudstyr er reduceret."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Ved fuld træning forøges {greenBright_Start}synsrækkevidden{greenBright_End} med %(circularVisionRadius)s&zwnbsp; og reducerer {greenBright_Start}straffen ved skadet observationsudstyr{greenBright_End} med %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Rekognoscering"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Forøger synsrækkevidden, særligt når observationsudstyret er beskadiget."
+
+msgid "commander_emergency/alt/description"
+msgstr "Når du modtager skade fra en fjende gentagne gange, tælles effekten ikke flere gange. Mandskabets effektivitetsbonus forbedrer mandskabsmedlemmets effektivitet i kamp. Denne parameter kan yderligere forøges ved at montere udstyr eller forbrugsvarer med en lignende effekt, eller ved at bruge ventilationsrensning-direktivet. Gruppe-evnen våbenbrødre, samt radiooperatørens side om side- og kommunikationsekspert-evner, kan også forøge parameteren."
+
+msgid "commander_emergency/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%, og effekten forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i en kamp."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "{yellow_Start}Mandskabets effektivitetsbonus{yellow_End} vil blive forøget med %(crewLevelIncrease)s i 15 s efter du har modtaget skade fra en fjende."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Mandskabets effektivitetsbonus er forøget."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Når den er fuldt trænet forøges {yellow_Start}mandskabets effektivitetsbonus{yellow_End} med %(crewLevelIncrease)s i 15 s efter du har modtaget skade fra en fjende."
+
+msgid "commander_emergency/name"
+msgstr "Nødplan"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Mandskabets effektivitetsbonus er forøget."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "En advarsel om fjendtlig SPG-beskydning aktiveres i skudøjeblikket, men med en forsinkelse.\n\nEvnen kan forbedres med styrket årvågenhed-direktivet."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%, og effekten forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i en kamp."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "En {yellow_Start}advarsel om fjendtlig SPG-beskydning{yellow_End} og selve skudretningen vil blive givet med en forsinkelse på %(artNotificationDelayFactor)s. Den {greenBright_Start}negative effekt af fortumling{greenBright_End} reduceres med %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Når den er fuldt trænet gives en {yellow_Start}advarsel om fjendtlig SPG-beskydning{yellow_End} med en forsinkelse på %(artNotificationDelayFactor)s og viser samtidig skudretningen. Reducerer den {greenBright_Start}negative effekt af fortumling{greenBright_End} med %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Lyddetektion"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Viser et fjendtligt SPG-skud."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Mandskabets effektivitetsbonus forbedrer mandskabets effektivitet i kamp.\n\nDenne parameter kan yderligere forøges ved at montere udstyr eller forbrugsvarer med en lignende effekt, eller ved at bruge ventilationsrensning-direktivet. Forskellige andre mandskabsevner kan også forøge parameteren."
+
+msgid "commander_holdLine/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%, og effekten forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i en kamp."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "{yellow_Start}Mandskabets effektivitetsbonus{yellow_End} vil blive forøget med %(crewLevelIncrease)s, mens det fjendtlige hold har mindst tre køretøjer mere i kamp end dit&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Mandskabets effektivitetsbonus er forøget (fjendtligt overtal)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Når den er fuldt trænet, vil {yellow_Start}mandskabets effektivitetsbonus{yellow_End} blive forøget med %(crewLevelIncrease)s, mens det fjendtlige hold har mindst tre køretøjer mere i kamp end dit&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Hold linjen"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Forøger mandskabets effektivitetsbonus"
+
+msgid "commander_practical/alt/description"
+msgstr "Evnen virker for alle typer forbrugsvarer monteret på dit køretøj.\n\nDens effekt kan yderligere forøges med grundige forberedelser-direktivet."
+
+msgid "commander_practical/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}Cooldown på forbrugsvarer{greenBright_End} er reduceret med %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Når den er fuldt trænet, reduceres {greenBright_Start}cooldown på forbrugsvarer{greenBright_End} med %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Praksis"
+
+msgid "commander_practical/shortDescription"
+msgstr "Reducerer cooldown på forbrugsvarer."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Sjette sans er inaktiv, mens kommandøren er såret. Dens aktiveringstid kan reduceres med radiooperatørens signalsporingsevne."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Det er en særlig kommandør-egenskab, der ikke kræver træning, og som standard er tilgængelig for kommandøren."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Gør kommandøren i stand til at identificere om deres køretøj er blevet opdaget af fjenden. Aktiveres %(delay)s efter køretøjet er blevet opdaget."
+
+msgid "commander_sixthSense/name"
+msgstr "Sjette sans"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Gør kommandøren i stand til at identificere om deres køretøj er blevet opdaget af fjenden."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Mandskabets effektivitetsbonus forbedrer mandskabets effektivitet i kamp.\n\nDenne parameter kan yderligere forøges ved at montere udstyr eller forbrugsvarer med en lignende effekt, eller ved at bruge ventilationsrensning-direktivet. Forskellige andre mandskabsevner kan også forøge parameteren."
+
+msgid "commander_staySharp/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%, og effekten forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i en kamp."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "{yellow_Start}Mandskabets effektivitetsbonus{yellow_End} vil blive forøget med %(crewLevelIncrease)s i 15&nbsp;sek. efter brug af et førstehjælpssæt. Gør det muligt at bruge et førstehjælpssæt, selv hvis ingen mandskabsmedlemmer er sårede&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Mandskabets effektivitetsbonus er forøget (førstehjælpssæt blev brugt)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Når den er fuldt trænet, vil {yellow_Start}mandskabets effektivitetsbonus{yellow_End} blive forøget med %(crewLevelIncrease)s i 15 sek. efter brug af et førstehjælpssæt. Gør det muligt at bruge et førstehjælpssæt, selv hvis ingen mandskabsmedlemmer er sårede&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Forbliv årvågen"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Forøger mandskabets effektivitetsbonus"
+
+msgid "commander_tutor/alt/description"
+msgstr "En såret kommandør kan ikke erstatte et andet mandskabsmedlem. Bonussen påføres kun det basale antal mandskabs xp optjent i kamp.\n\nYderligere mandskabs xp kan fås ved at bruge mandskabsbøger eller ved at konvertere fri xp til mandskabs xp."
+
+msgid "commander_tutor/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Mængden af optjent {greenBright_Start}xp{greenBright_End} forøges med %(xpBonusFactorPerLevel)s for alle mandskabsmedlemmer. Kommandøren kan {greenBright_Start}erstatte ukampdygtige medlemmer{greenBright_End} med %(woundedCrewEfficiency)s effektivitet."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Ukampdygtige mandskabsmedlemmer erstattes af kommandøren."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges mængden af optjent {greenBright_Start}xp{greenBright_End} med %(xpBonusFactorPerLevel)s for alle mandskabsmedlemmer. Gør at kommandøren kan {greenBright_Start}erstatte ukampdygtige medlemmer{greenBright_End} med %(woundedCrewEfficiency)s effektivitet."
+
+msgid "commander_tutor/name"
+msgstr "Mentor"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Ukampdygtige mandskabsmedlemmer erstattes af kommandøren."
+
+msgid "commander_universalist/alt/description"
+msgstr "Kommandøren kan kun erstatte den primære kvalifikation på det bevidstløse mandskabsmedlem. Erstatningseffekten aftager med hvert efterfølgende bevidstløse mandskabsmedlem."
+
+msgid "commander_universalist/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1%. Effektiviteten vokser med yderligere træning."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Kommandøren kan {greenBright_Start}erstatte bevidstløse{greenBright_End} mandskabsmedlemmer med %(woundedCrewEfficiency)s effektivitet."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Kommandøren påtager sig opgaverne fra det bevidstløse mandskabsmedlem."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Når den er fuldt trænet, kan kommandøren {greenBright_Start}erstatte bevidstløse{greenBright_End} mandskabsmedlemmer med %(woundedCrewEfficiency)s effektivitet."
+
+msgid "commander_universalist/name"
+msgstr "Altmuligmand"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Gør kommandøren i stand til at erstatte bevidstløse mandskabsmedlemmer."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Reducerer straf til køretøjets manøvredygtighed og acceleration, når der køres på moderat blødt underlag. Reducerer markant disse straffe, når der køres på blødt underlag, hvilket bringer det på højde med moderat blødt underlag.\nManøvredygtighed på moderat blødt og blødt underlag kan ikke overstige manøvredygtigheden på hårdt underlag."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}Hastighedstab på moderat blødt underlag{greenBright_End} er reduceret med %(mediumGroundFactor)s&zwnbsp;, {greenBright_Start}hastighedstab på blødt underlag{greenBright_End} er reduceret til %(softGroundFactor)s af værdien på moderat blødt underlag."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Når den er fuldt trænet, reduceres {greenBright_Start}hastighedstab på moderat blødt underlag{greenBright_End} med %(mediumGroundFactor)s&zwnbsp;, reducerer {greenBright_Start}hastighedstab på blødt underlag{greenBright_End} til %(softGroundFactor)s af værdien på moderat blødt underlag."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Terrænkørsel"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Mandskabets effektivitetsbonus forbedrer mandskabets effektivitet i kamp.\n\nDenne parameter kan yderligere forøges ved at montere udstyr eller forbrugsvarer med en lignende effekt, eller ved at bruge ventilationsrensning-direktivet. Forskellige andre mandskabsevner kan også forøge parameteren."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%, og effekten forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i en kamp."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "{yellow_Start}Mandskabets effektivitetsbonus{yellow_End} vil blive forøget med %(crewLevelIncrease)s, hvis mængden af skade du blokerer overstiger dit køretøjs maksimale hp."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Mandskabets effektivitetsbonus er blevet forøget (nok skade er blevet blokeret)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges{yellow_Start}mandskabets effektivitetsbonus{yellow_End} med %(crewLevelIncrease)s, hvis mængden af skade du har blokeret overstiger dit køretøjs maksimale hp."
+
+msgid "driver_bulletproof/name"
+msgstr "Skudsikker"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Tophastigheden på dit køretøj kan yderligere forøges, og straffen ved en skadet motor kan yderligere reduceres, ved at montere udstyr med en lignende effekt."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "{greenBright_Start}Tophastighed{greenBright_End} og {greenBright_Start}bakhastighed{greenBright_End} på dit køretøj er forøget med %(vehicleForwardMaxSpeed)s. {greenBright_Start}Straffen ved en skadet motor{greenBright_End} er reduceret med %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Straffen ved en skadet motor er reduceret."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges {greenBright_Start}tophastigheden{greenBright_End} og {greenBright_Start}bakhastigheden{greenBright_End} på dit køretøj med %(vehicleForwardMaxSpeed)s. Reducerer {greenBright_Start}straffen ved en skadet motor{greenBright_End} med %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Ingeniør"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Straffen ved en skadet motor er reduceret."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Evnen er ineffektiv, når to allierede køretøjer støder sammen.\n\nPåkørselsskade til dit køretøj kan yderligere reduceres ved at montere udstyr med en lignende effekt."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}Skade ved påkørsel af fjendtlige køretøjer{greenBright_End} er forøget med %(damageEnemiesByRamming)s&zwnbsp;. {greenBright_Start}Skade ved påkørsel af dit køretøj{greenBright_End} er reduceret med %(vehicleRamDamageResistance)s&zwnbsp; og til {greenBright_Start}din affjedring{greenBright_End} med %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges {greenBright_Start}skade ved påkørsel af fjendtlige køretøjer{greenBright_End} med %(damageEnemiesByRamming)s&zwnbsp;. Reducerer {greenBright_Start}skade ved påkørsel af dit køretøj{greenBright_End} med %(vehicleRamDamageResistance)s&zwnbsp;, og til {greenBright_Start}din affjedring{greenBright_End} med %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Kontrolleret sammenstød"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Reducerer skade ved påkørsel af dit køretøj og forøger skade ved påkørsel af et fjendtligt køretøj."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Skaden modtaget fra HE-granater kan yderligere reduceres ved at montere udstyr med en lignende effekt."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}Absorbering af skade fra HE-granater{greenBright_End} er forøget med %(vehicleHEShellDamageResistance)s&zwnbsp;.&nbsp;{greenBright_Start}Risikoen for motorbrand{greenBright_End} er reduceret med %(vehicleFireChance)s og {greenBright_Start}skade til din affjedring{greenBright_End} med %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges {greenBright_Start}absorbering af skade fra HE-granater{greenBright_End} med %(vehicleHEShellDamageResistance)s&zwnbsp;. Reducerer {greenBright_Start}risikoen for motorbrand{greenBright_End} med %(vehicleFireChance)s og {greenBright_Start}skade til din affjedring{greenBright_End} med %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Pålidelig placering"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Påvirker ikke et stationært køretøjs præcision og præcisionen under drejning af skroget.\n\nEvnen kan forbedres med gearkasse finesse-direktivet. Præcision ved skud i bevægelse kan yderligere forøges ved at montere udstyr med en lignende effekt eller ved at bruge stabilisatorsmøring-direktivet."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "{greenBright_Start}Kanonens spredning{greenBright_End} ved skud i bevægelse er reduceret med %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Når den er fuldt trænet, reduceres {greenBright_Start}kanonens spredning{greenBright_End} ved skud i bevægelse med %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Jævn kørsel"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Øger præcisionen ved skud i bevægelse."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Denne evne påvirker hastigheden på reparationer af affjedringen fra rød til gul tilstand inden for en afstand på 50 m af et allieret køretøj."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%, og effekten forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i en kamp."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "{yellow_Start}Reparationshastighed af affjedring{yellow_End} forøges med %(suspensionRepairSpeed)s på en afstand af mindre end 50 m fra et allieret køretøj."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Reparationshastighed af affjedring er forøget (allieret i nærheden)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges {yellow_Start}reparationshastighed af affjedring{yellow_End} med %(suspensionRepairSpeed)s på en afstand af mindre end 50 m fra et allieret køretøj."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Feltstøtte"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Brandmodstandsevnen på køretøjet kan yderligere forøges ved at montere udstyr eller forbrugsvarer med en lignende effekt. Brandslukningsevnen vil gøre det hurtigere at slukke en eventuel brand."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1%. Effektiviteten vokser med yderligere træning."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "Reducerede {greenBright_Start}risikoen for motorbrand{greenBright_End} med %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Når den er fuldt trænet, reduceres {greenBright_Start}risikoen for motorbrand{greenBright_End} med %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Forebyggende vedligeholdelse"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Reducerer risikoen for motorbrand."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Skrogets drejehastighed kan yderligere forøges ved at montere udstyr eller forbrugsvarer med en lignende effekt."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}Skrogets drejehastighed{greenBright_End} er forøget med %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges {greenBright_Start}skrogets drejehastighed{greenBright_End} med %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Koblingsbremse"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Forøger skrogets drejehastighed."
+
+msgid "fireFighting/alt/description"
+msgstr "Denne evne påvirker skaden modtaget fra brand og varigheden af den.\n\nHvis to radiooperatører har denne evne, vil gennemsnitsværdien af deres træning blive anvendt.\n\nEvnen kan forbedres med erfarne brandmænd-direktivet."
+
+msgid "fireFighting/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}Brandslukningshastighed{greenBright_End} er forøget med %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges {greenBright_Start}brandslukningshastighed{greenBright_End} med %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Brandslukning"
+
+msgid "fireFighting/shortDescription"
+msgstr "Forbedrer brandbekæmpelse."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Som udgangspunkt er det potentielle interval på skade og gennembrydning ±25% fra standardværdien. For eksempel, hvis en granat gennembryder panser på op til 100 mm og uddeler 100 hp skade, når den træffer et mål, kan den aktuelle gennembrydning for dette enkelte skud variere mellem 75 og 125 mm, og den aktuelle skade fra 75 til 125 hp. Reduktion af denne modifikator vil resultere i mere forudsigelige skud.\n\nHvis to skytter har denne evne, vil gennemsnitsværdien af deres træning blive anvendt."
+
+msgid "gunner_armorer/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Intervallet på {greenBright_Start}potentiel skade{greenBright_End} og {greenBright_Start}potentiel gennembrydning{greenBright_End} er reduceret med {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. {greenBright_Start}Kanonens spredning{greenBright_End} er reduceret med %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Når den er fuldt trænet, reduceres intervallet på {greenBright_Start}potentiel skade{greenBright_End} og {greenBright_Start}potentiel gennembrydning{greenBright_End} med {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. Reducerer {greenBright_Start}kanonens spredning{greenBright_End} med %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Våbenmester"
+
+msgid "gunner_focus/alt/description"
+msgstr "Effekten starter 3 s efter køretøjet stopper og nulstilles ved bevægelse.\n\nHvis to skytter har denne evne, vil gennemsnitsværdien af deres træning blive anvendt."
+
+msgid "gunner_focus/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%, og effekten forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i en kamp."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "{yellow_Start}Kanonens spredning{yellow_End} på et stationært køretøj vil blive reduceret med %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Kanonens spredning er reduceret."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Når den er fuldt trænet, reduceres {yellow_Start}kanonens spredning{yellow_End} på et stationært køretøj med %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Koncentration"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Reducerer kanonens spredning på et stationært køretøj."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Kanonens spredning og sigtehastighed kan yderligere forbedres ved at træne mandskabsevner eller montere udstyr med en lignende effekt.\n\nHvis to skytter har denne evne, vil gennemsnitsværdien af deres træning blive anvendt."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%, og effekten forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i en kamp."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "{yellow_Start}Kanonens spredning{yellow_End} vil blive nedsat med %(vehicleGunAimSpeed)s og {yellow_Start}sigtehastigheden{yellow_End} vil blive forøget med %(vehicleGunAimSpeed)s, mens der ikke er nogen allierede køretøjer i en radius på 300 m."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Kanonens spredning og sigtehastighed er forbedret (ingen allierede i nærheden)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Når den er fuldt trænet, nedsættes {yellow_Start}kanonens spredning{yellow_End} og {yellow_Start}sigtehastigheden{yellow_End} forøges med %(vehicleGunAimSpeed)s, mens der ikke er nogen allierede køretøjer i en radius på 300 m."
+
+msgid "gunner_loneWolf/name"
+msgstr "Enlig ulv"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Kanonens spredning er nedsat. Sigtehastighed er forøget."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Som udgangspunkt er den maksimale gennembrydning +25% fra den grundlæggende værdi. For eksempel, hvis en granat gennembryder panser på op til 100 mm, er den maksimale gennembrydning, når den træffer et mål, være på 125 mm. At forøge denne parameter fører til mere effektiv gennembrydning.\n\nHvis to skytter har denne evne, vil gennemsnitsværdien af deres træning blive anvendt."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%, og effekten forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i en kamp."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "Den {yellow_Start}maksimale potentielle gennembrydning{yellow_End} af dine granater vil blive forøget med %(piercingHEShellsDistributionUpperBound)s, mens der skydes mod fjendtlige køretøjer mindre end 50 m væk."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges den {yellow_Start}maksimale potentielle gennembrydning{yellow_End} med %(piercingHEShellsDistributionUpperBound)s, mens der skydes mod fjendtlige køretøjer mindre end 50 m væk."
+
+msgid "gunner_pointBlast/name"
+msgstr "Klods hold"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Forøger den maksimale potentielle gennembrydning af dine granater"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Hvis to skytter har denne evne, vil gennemsnitsværdien af deres træning blive anvendt.\n\nSigtehastigheden kan yderligere forøges med kommandørens koordination-evne, eller ved at montere udstyr med en lignende effekt.\n\nTårnets drejehastighed kan yderligere forøges ved at montere udstyr eller forbrugsvarer med en lignende effekt."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}Sigtehastighed{greenBright_End} og {greenBright_Start}tårnets drejehastighed{greenBright_End} er forøget med %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges {greenBright_Start}sigtehastighed{greenBright_End} og {greenBright_Start}tårnets drejehastighed{greenBright_End} med %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Hurtigt sigte"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Sigtehastighed er forøget."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Identificerer kritisk skadede moduler på køretøjer i sigteområdet indenfor skyttens synsrækkevidde i både direkte og indirekte skudtilstand.\nSkyttens synsområde er defineret som en ±10° sektor (20° i alt) foran køretøjets kanon og i dens synsrækkevidde.\nHvis to skytter har denne evne, vil gennemsnitsværdien af deres træning blive anvendt.\nEvnen kan yderligere forbedres med fokus på målet-direktivet. Brug af forbedret radioudstyr vil yderligere forlænge tiden indtil det fjendtlige køretøj ikke længere er synligt."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "{greenBright_Start}Tiden{greenBright_End} før et fjendtligt {greenBright_Start}ikke længere er synligt{greenBright_End} indenfor skyttens synsområde er forlænget med %(vehicleEnemySpottingTime)s. Tiden for at {yellow_Start}identificere skadede moduler{yellow_End} er reduceret til %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forlænges {greenBright_Start}tiden{greenBright_End} før et fjendtligt {greenBright_Start}køretøj ikke længere er synligt{greenBright_End} i skyttens synsområde med %(vehicleEnemySpottingTime)s. Gør det muligt at {yellow_Start}identificere skadede moduler{yellow_End} med en %(damageMonitoringDelay)s forsinkelse."
+
+msgid "gunner_rancorous/name"
+msgstr "Udpeget mål"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Forlænger tiden før et fjendtligt køretøj ikke længere er synligt i skyttens synsområde. Gør det muligt at identificere skadede moduler."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Hvis to skytter har denne evne, vil gennemsnitsværdien af deres træning blive anvendt.\n\nEvnen kan forbedres med rolig hånd-direktivet. Spredning ved drejning af tårnet kan yderligere reduceres ved at montere udstyr med en lignende effekt eller ved brug af stabilisatorsmøring-direktivet."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "{greenBright_Start}Kanonens spredning{greenBright_End} ved drejning af tårnet er reduceret med %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Når den er fuldt trænet, reduceres {greenBright_Start}kanonens spredning{greenBright_End} ved drejning af tårnet med %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Skud fra hoften"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Reducerer kanonens spredning ved drejning af tårnet."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Denne effekt virker på alle typer granater undtagen i køretøjer med maskinkanoner.\n\nHvis to skytter har denne evne, vil gennemsnitsværdien af deres træning blive anvendt."
+
+msgid "gunner_sniper/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "{greenBright_Start}Chancen for at uddele kritisk skade til{greenBright_End} fjendtlige {greenBright_Start}køretøjers moduler{greenBright_End}, og skade fjendtlige {greenBright_Start}mandskabsmedlemmer{greenBright_End} med alle typer granater, er forøget med %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges {greenBright_Start}chancen for at uddele kritisk skade til{greenBright_End} fjendtlige {greenBright_Start}køretøjers moduler{greenBright_End}, og skade fjendtlige {greenBright_Start}mandskabsmedlemmer{greenBright_End} med alle typer granater, med %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Snigskytte"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Som udgangspunkt er den potentielle værdi for minimumsskade og gennembrydning på -25% af standardværdien. For eksempel, hvis en granat kan gennembryde panser på op til 100 mm og uddele 100 hp skade, når den træffer et mål, kan den mindst mulige gennembrydning for dette enkelte skud være på 75 mm, og den mindst mulige skade være på 75 hp. Forøgelse af denne modifikator vil resultere i mere forudsigelige skud.\n\nHvis to ladere har denne evne, vil gennemsnitsværdien af deres træning blive anvendt."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "{greenBright_Start}Minimale potentielle skade{greenBright_End} og den {greenBright_Start}minimale potentielle gennembrydning{greenBright_End} er forøget med %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges den {greenBright_Start}minimale potentielle skade{greenBright_End} og den {greenBright_Start}minimale potentielle gennembrydning{greenBright_End} med %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Ammunitionsoptimering"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Forøger gennemsnitlig skade og gennembrydning."
+
+msgid "loader_desperado/alt/description"
+msgstr "Hvis to ladere har denne evne, vil gennemsnitsværdien af deres træning blive anvendt.\n\nKanonens ladetid kan yderligere reduceres ved at træne laderens nærkamp-evne, eller ved at montere udstyr med en lignende effekt. Brug af ordnet ammunitionsstativ-direktivet forstærker effekten."
+
+msgid "loader_desperado/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%, og effekten forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i en kamp."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "{yellow_Start}Kanonens ladetid{yellow_End} vil blive reduceret med %(vehicleGunReloadTime)s hvis dit køretøj har under 25% hp tilbage."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Kanonens ladetid er reduceret (lav holdbarhed på køretøjet)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Når den er fuldt trænet, reduceres {yellow_Start}kanonens ladetid{yellow_End} med %(vehicleGunReloadTime)s, hvis dit køretøj har mindre end 25% af dets hp tilbage."
+
+msgid "loader_desperado/name"
+msgstr "Desperat"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Hurtigere ladning af kanonen, hvis køretøjet har under 25% af dets hp tilbage."
+
+msgid "loader_intuition/alt/description"
+msgstr "For at aktivere evnen skal kanonen, begge kanoner, eller magasinet, være fuldt ladet. Minimumstiden for at skifte granattype for en almindelig kanon er 1 sek.; for dobbeltløbede kanoner og magasiner er det 2,5 sek.\n\nHvis to ladere har denne evne, vil gennemsnitsværdien af deres træning blive anvendt."
+
+msgid "loader_intuition/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "{greenBright_Start}Tiden det tager at skifte granattype{greenBright_End} i en ladet kanon er reduceret med %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Tiden det tager at skifte granattype i en ladet kanon er reduceret.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Når den er fuldt trænet, reduceres {greenBright_Start}tiden det tager at skifte granattype{greenBright_End} i en ladet kanon med %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Intuition"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Forøger markant hastigheden på at skifte granattyper i en ladet kanon."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Denne evne reducerer ladetiden for kanoner med magasiner og påvirker ikke andre kanonsystemer.\n\nHvis to ladere har denne evne, vil gennemsnitsværdien af deres træning blive anvendt."
+
+msgid "loader_magMastery/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "Magasinets {greenBright_Start}ladetid{greenBright_End} er reduceret med %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Når den er fuldt trænet, reduceres magasinets {greenBright_Start}ladetid{greenBright_End} med %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "Magasinmester"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Reducerer ladetiden på dine magasiner"
+
+msgid "loader_melee/alt/description"
+msgstr "Hvis to ladere har denne evne, vil gennemsnitsværdien af deres træning blive anvendt.\n\nKanonens ladetid kan yderligere reduceres ved at træne laderens desperat-evne, eller ved at montere udstyr med en lignende effekt. Brug af ordnet ammunitionsstativ-direktivet forstærker effekten."
+
+msgid "loader_melee/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%, og effekten forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i en kamp."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "{yellow_Start}Kanonens ladetid{yellow_End} vil blive reduceret med %(vehicleGunReloadTime)s ved afstande på mindre end 50 m fra det fjendtlige køretøj."
+
+msgid "loader_melee/hudDescription"
+msgstr "Kanonens ladetid er reduceret (fjende er i nærheden).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Når den er fuldt trænet, reduceres {yellow_Start}kanonens ladetid{yellow_End} med %(vehicleGunReloadTime)s ved afstande på mindre end 50 m fra det fjendtlige køretøj."
+
+msgid "loader_melee/name"
+msgstr "Nærkamp"
+
+msgid "loader_melee/shortDescription"
+msgstr "Hurtigere ladning af kanonen i nærkamp."
+
+msgid "loader_pedant/alt/description"
+msgstr "En såret lader påvirker ikke evnens effektivitet.\n\nHvis to ladere har denne evne, vil gennemsnitsværdien af deres træning blive anvendt.\n\nEvnen kan forbedres ved at bruge granatlægger-direktivet. Ammunitionsstativets holdbarhed kan yderligere forøges ved at montere udstyr med en lignende effekt."
+
+msgid "loader_pedant/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}Ammunitionsstativets holdbarhed{greenBright_End} er forøget med %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges {greenBright_Start}holdbarhed på ammunitionsstativet{greenBright_End} med %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Sikker opbevaring"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Forøger holdbarhed på ammunitionsstativ."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Effekten virker for alle typer granater.\n\nEn såret lader påvirker ikke evnens effektivitet.\n\nHvis to ladere har denne evne, vil gennemsnitsværdien af deres træning blive anvendt."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}Skudhastighed{greenBright_End} er forøget med %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges {greenBright_Start}skudhastigheden{greenBright_End} med %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Perfekt ladning"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Denne evne har ingen effekt på kanoner med magasiner eller maskinkanoner, og har ikke dobbelt effekt for kanoner med to løb.\n\nFor kanoner med et valgfrit ladesystem, vil nedsættelsen af kanonens ladetid anvendes på begge løb, hvis de begge er blevet affyret og ingen af granaterne har uddelt skade.\n\nHvis to ladere har denne evne, vil gennemsnitsværdien af deres træning blive anvendt.\n\nKanonens ladetid kan yderligere reduceres ved at træne laderens desperat-evne eller nærkamps-evner eller ved at montere udstyr med en lignende effekt. Brug af ordnet ammunitionsstativ-direktivet forstærker effekten."
+
+msgid "loader_secondChance/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%, og effekten forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i en kamp."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "{yellow_Start}Kanonens ladetid{yellow_End} vil blive reduceret med %(vehicleGunReloadTime)s for den næste granat, hvis det forrige skud ikke uddelte skade til et fjendtligt køretøj."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Kanonens ladetid reduceres (ingen skade på skud)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Når den er fuldt trænet, reduceres {yellow_Start}kanonens ladetid{yellow_End} med %(vehicleGunReloadTime)s for den næste granat, hvis det forrige skud ikke uddelte skade til et fjendtligt køretøj."
+
+msgid "loader_secondChance/name"
+msgstr "En chance til"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Reducerer kanonens ladetid"
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/t"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Våbenbrødre"
+
+msgid "perkRole/commander"
+msgstr "Kommandør"
+
+msgid "perkRole/common"
+msgstr "Gruppe"
+
+msgid "perkRole/driver"
+msgstr "Kører"
+
+msgid "perkRole/gunner"
+msgstr "Skytte"
+
+msgid "perkRole/loader"
+msgstr "Lader"
+
+msgid "perkRole/radioman"
+msgstr "Radiooperatør"
+
+msgid "popularity/tooltip/common"
+msgstr "af alle spillere"
+
+msgid "popularity/tooltip/header"
+msgstr "For dette køretøj, foretrukket af"
+
+msgid "popularity/tooltip/legendary"
+msgstr "af spillere på WTR Legend-niveau"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Hvis to radiooperatører har denne evne, vil gennemsnitsværdien af deres træning blive anvendt.\n\nEffekten kan yderligere forbedres med kommandørens lyddetektion-evne."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Hver gang køretøjets mandskab bliver fortumlet, vil den {greenBright_Start}negative effekt på fortumling{greenBright_End} blive reduceret med %(stunResistanceEffectFactor)s op til et maksimum på 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Når den er fuldt trænet, vil den {greenBright_Start}negative effekt på fortumling{greenBright_End}, hver gang køretøjets mandskab bliver fortumlet, blive reduceret med%(stunResistanceEffectFactor)s&nbsp;op til et maksimum på 30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Kamphærdet"
+
+msgid "radioman_expert/alt/description"
+msgstr "Mandskabets effektivitetsbonus forbedrer mandskabsmedlemmets effektivitet i kamp. Hvis to radiooperatører har denne evne, vil gennemsnitsværdien af deres træning blive anvendt. Denne parameter kan yderligere forbedres ved at montere udstyr eller forbrugsvarer med en lignende effekt, eller ved at bruge ventilationsrensning-direktivet. Gruppe-evnen våbenbrødre, samt kommandørens nødråb- eller radiooperatørens side om side-evner kan også forøge parameteren."
+
+msgid "radioman_expert/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%, og effekten forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i en kamp."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "{yellow_Start}Mandskabets effektivitetsbonus{yellow_End} vil blive forøget med %(crewLevelIncrease)s, hvis mængden af skade ved din assistance overgår dit køretøjs maksimale hp&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Mandskabets effektivitetsbonus er blevet forøget (nok rekognosceringsdata er blevet oversat)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges{yellow_Start}mandskabets effektivitetsbonus{yellow_End} med %(crewLevelIncrease)s, hvis mængden af skade ved din assistance overgår dit køretøjs maksimale hp&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Kommunikationsekspert"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Forbedret ydeevne hos mandskabet."
+
+msgid "radioman_finder/alt/description"
+msgstr "Hvis to radiooperatører har denne evne, vil gennemsnitsværdien af deres træning blive anvendt.\n\nSynsrækkevidden kan forøges yderligere ved at træne rekognosceringsevnen eller ved at montere udstyr med en lignende effekt. Brug af optisk kalibrering-direktivet forbedrer effekten."
+
+msgid "radioman_finder/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}Synsrækkevidde{greenBright_End} forøges med %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges {greenBright_Start}synsrækkevidden{greenBright_End} med %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Situationsfornemmelse"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Forøger synsrækkevidde."
+
+msgid "radioman_interference/alt/description"
+msgstr "Hvis to radiooperatører har denne evne, vil gennemsnitsværdien af deres træning blive anvendt.\n\nTiden dit køretøj forbliver opdaget, kan yderligere reduceres ved at montere udstyr med en lignende effekt."
+
+msgid "radioman_interference/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "{greenBright_Start}Tiden dit køretøj forbliver opdaget{greenBright_End} af fjenden er reduceret med %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Når den er fuldt trænet, reduceres {greenBright_Start}tiden dit køretøj forbliver opdaget{greenBright_End} af fjenden med %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Jamming"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Reducerer tiden dit køretøj er synligt for fjenden."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Hvis to radiooperatører har evnen, vil kun den højeste værdi blive anvendt. Effekten er kun aktiv, hvis radiooperatøren er ved fuldt helbred, når køretøjet bliver ødelagt.\n\nEvnen kan forbedres yderligere med pligt kommer først-direktivet."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%. Dens effektivitet forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i kamp."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Radiooperatøren kan {yellow_Start}melde om fjendtlige positioner{yellow_End} i endnu %(radiomanDurationPerLevel)s efter dit køretøj er blevet ødelagt."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Indrapporterer positioner."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Når den er fuldt trænet, gør den det muligt at {yellow_Start}melde om fjendtlige positioner{yellow_End} i endnu %(radiomanDurationPerLevel)s efter dit køretøj er blevet ødelagt."
+
+msgid "radioman_lastEffort/name"
+msgstr "Hævntogt"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "I en kort periode efter dit køretøj er blevet ødelagt, vil fjendens positioner meldes."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Mandskabets effektivitetsbonus forbedrer mandskabsmedlemmets effektivitet i kamp. Hvis to radiooperatører har denne evne, vil gennemsnitsværdien af deres træning blive anvendt. Denne parameter kan yderligere forbedres ved at montere udstyr eller forbrugsvarer med en lignende effekt, eller ved at bruge ventilationsrensning-direktivet. Gruppe-evnen våbenbrødre, samt kommandørens nødråb- eller radiooperatørens kommunikationsekspert-evner kan også forøge parameteren."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%, og effekten forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i en kamp."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "{yellow_Start}Mandskabets effektivitetsbonus{yellow_End} vil blive forøget med %(crewLevelIncrease)s på afstande af mindre end 50 m fra et allieret køretøj af samme type&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Mandskabets effektivitetsbonus er forøget (allieret af samme type er nær)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges {yellow_Start}mandskabets effektivitetsbonus{yellow_End} med %(crewLevelIncrease)s på afstande af mindre end 50 m fra et allieret køretøj af samme type&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Side om side"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Forbedret ydeevne hos mandskabet."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Effekten forbedrer kommandørens særlige sjette sans-egenskab, og gør dens aktivering hurtigere.\n\nHvis to radiooperatører har denne evne, vil gennemsnitsværdien af deres træning blive anvendt."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "En evne træder i kraft, når der er trænet til mindst 1% og forøger dens effekt med yderligere træning."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "{greenBright_Start}Tiden til at afgøre{greenBright_End} om {greenBright_Start}dit køretøj er blevet opdaget{greenBright_End} af fjenden er reduceret med %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Når den er fuldt trænet, reduceres {greenBright_Start}tiden til at afgøre{greenBright_End} om {greenBright_Start}dit køretøj er blevet opdaget{greenBright_End} af fjenden med %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Signalsporing"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Denne evne aktiveres, når sjette sans-advarslen indikerer, at dit køretøj er blevet opdaget.\n\nHvis to radiooperatører har denne evne, vil gennemsnitsværdien af deres træning blive anvendt.\n\nSynsrækkevidden kan yderligere forøges ved at træne evnerne rekognoscering eller situationsfornemmelse, eller ved at montere udstyr med en lignende effekt. Brug af optisk kalibrering-direktivet forstærker effekten."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "En evne med en situationsafhængig effekt træder i kraft, når den er trænet til mindst 1%, og effekten forøges med yderligere træning. Den situationsafhængige effekt aktiveres, når bestemte betingelser er opfyldt i en kamp."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "{yellow_Start}Synsrækkevidde{yellow_End} vil blive forøget med %(vehicleCircularVisionRadius)s i 5 sek. efter at have modtaget sjette sans-advarslen."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Synsrækkevidde er forøget."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges {yellow_Start}synsrækkevidde{yellow_End} med %(vehicleCircularVisionRadius)s i 5 sek. efter at have modtaget sjette sans-advarslen."
+
+msgid "radioman_threatSearch/name"
+msgstr "Trusselsvurdering"
+
+msgid "repair/alt/description"
+msgstr "Denne evne påvirker hastigheden på reparationer af indre og eksterne moduler fra \"rød\" til \"gul\" tilstand.\n\nDenne parameter kan forbedres yderligere ved at montere udstyr eller forbrugsvarer med en lignende effekt."
+
+msgid "repair/alt/info"
+msgstr "For gruppe-evner træder det gennemsnitlige træningsniveau på hele mandskabet i kraft. Effekten starter, når der er trænet til mindst 1%, og effektiviteten øges derefter ved yderligere træning."
+
+msgid "repair/currentLvlDescription"
+msgstr "{greenBright_Start}Reparationshastigheden{greenBright_End} af køretøjets skadede moduler er forøget med %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Når den er fuldt trænet, forøges {greenBright_Start}reparationshastigheden{greenBright_End} på køretøjets skadede moduler med %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Reparationer"
+
+msgid "repair/shortDescription"
+msgstr "Forøger reparationshastighed på skadede moduler."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Våbenbrødre"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Populær"
+
+msgid "sorting/fallback"
+msgstr "Standard"
+
+msgid "sorting/legendary"
+msgstr "Legendarisk"
+
+msgid "sorting/title"
+msgstr "Sorteret efter:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPopulær.%(whiteSpanish_Close)s Baseret på nuværende trends i evner blandt alle World of Tanks-spillere"
+
+msgid "sorting/tooltip/header"
+msgstr "WoT Plus fordel"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Modtag nøjagtig data om mandskabernes evner baseret på millioner af spil og få det meste ud af hver eneste kamp."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendarisk.%(whiteSpanish_Close)s Baseret på evner, der i øjeblikket er populære hos spillere på Legend WTR-niveau"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Sortering af evner inaktiveret"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Ingen data tilgængelig"
+
+msgid "sorting/tooltip/title"
+msgstr "Mandskabsassistent"
+
+msgid "sorting/tooltip/types"
+msgstr "Typer af sortering af evner"
+
+msgid "sorting/tooltip/warning"
+msgstr "Sortering af evner utilgængelig"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Komplet data om evner utilgængelig for dette køretøj, så standard sortering af evner er blevet anvendt."
+
+msgid "witches_brotherhood/name"
+msgstr "Coven"
+
+msgid "yha_brotherhood/name"
+msgstr "Harernes broderskab"

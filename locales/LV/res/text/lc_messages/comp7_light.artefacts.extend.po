@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_light_aggressive_detection/descr/active"
+msgstr "Redzamība tiks palielināta par {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose} for {colorTagOpen}%(duration)s s{colorTagClose}.\n\nTaimeris tiks atiestatīts, kas ienaidnieku tanks tiks iznīcināts pēc jūsu izlūkošanas."
+
+msgid "comp7_light_aggressive_detection/name"
+msgstr "Aktīva Izlūkošana"
+
+msgid "comp7_light_ally_support/descr/active"
+msgstr "Uz {colorTagOpen}%(duration)s s{colorTagClose}, jūsu apkalpe saņem {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} bonusu efektivitātei par katru tanku jūsu komandā ar dažādu lomu.\n\nJūsu tanks vienmēr tiks iekļauts šī bonusa aprēķinā."
+
+msgid "comp7_light_ally_support/name"
+msgstr "Viens par Visiem"
+
+msgid "comp7_light_aoe_heal/descr/active"
+msgstr "Uz {colorTagOpen}%(duration)s s{colorTagClose}, zona ar {colorTagOpen}%(radius)s m{colorTagClose} rādiusu tiek izveidota apkārt jūsu tanku, kas atjauno {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} dzīvība punktus jūsu tankam un sabiedroto tankiem."
+
+msgid "comp7_light_aoe_heal/name"
+msgstr "Lauka Remonts"
+
+msgid "comp7_light_aoe_inspire/descr/active"
+msgstr "Uz {colorTagOpen}%(duration)s s{colorTagClose}, jūsu apkalpe un sabiedroto apkalpes saņem {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} bonusu efektivitātei."
+
+msgid "comp7_light_aoe_inspire/name"
+msgstr "Iedvesmot"
+
+msgid "comp7_light_berserk/descr/active"
+msgstr "Uz {colorTagOpen}%(duration)s s{colorTagClose}, ieroča pārlādes laiks ir samazināts par {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}. Arī, ieroča izkliede pēc šaušanas, kustībā, torņa un korpusa griešanās laikā ir samazināta par {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nTaimeris tiks atiestatīts, kas jūs izdariet bojājumus taranējot vai šaujot no attāluma mazāka nekā {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_light_berserk/name"
+msgstr "Niknums"
+
+msgid "comp7_light_concentration/descr/active"
+msgstr "{colorTagOpen}%(duration)s s{colorTagClose} laikā mērķēšanas laiks un lielgabala izkliede kustībā, korpusa pagriezienā un torņa pagriezienā tiek samazināti par {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nKamēr šī Lomas Spēja ir aktīva, šāvienu pārlādēšanas laiks tiek samazināts par {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s s{colorTagClose}."
+
+msgid "comp7_light_concentration/name"
+msgstr "Fokuss uz Mērķa"
+
+msgid "comp7_light_fast_recharge/descr/active"
+msgstr "• Magazīna lādēšanas sistēmai:\nAtlikušais magazīna pārlādes laiks tiek samazināts par: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n• Autopārlādes sistēmai:\nVisi šajā ciklā izšautie lādiņi tiks pārlādēti par ātrāk. {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\nPrasmi var aktivizēt tikai pārlādes procesa laikā.\n\n• Termiskās pārkaršanas kontroles automātiskajam lielgabalam:\nLielgabala karstums tiek samazināts par {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose} no maksimāli iespējamā.\n\nPrasmi var aktivizēt tikai tad, ja lielgabals ir uzkarsis."
+
+msgid "comp7_light_fast_recharge/name"
+msgstr "Roku Veiklība"
+
+msgid "comp7_light_hunter/descr/active"
+msgstr "Atiestata bojāto ienaidnieku tanku ar šāvieniem skaitu.\n\nUz {colorTagOpen}%(duration)s s{colorTagClose}, jūsu tanks atjaunos {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} dzīvības punktus par katru bojāto ienaidnieku tanku ar šāvieniem aktivizācijas laikā."
+
+msgid "comp7_light_hunter/descr/passive"
+msgstr "Ieroča pārlādes laiks ir samazināts par {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose} par katru bojāto ienaidnieku tanku ar šāvieniem."
+
+msgid "comp7_light_hunter/name"
+msgstr "Balvu Mednieks"
+
+msgid "comp7_light_juggernaut/descr/active"
+msgstr "Uz {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}:\n• Saņemiet bojājumi tiek samazināti par {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• Maksimālais ātrums palielināts par {colorTagOpen}%(fwMaxSpeedBonus)s km/h{colorTagClose}\n• Maksimālais atpakaļgaitas ātrums palielināts par {colorTagOpen}%(bkMaxSpeedBonus)s km/h{colorTagClose}\n• Dzinēja jauda palielināta par {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• Bojājumi no taranēšanas ienaidnieku tankos palielināti par {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\nKad šī Lomas Spēja ir aktīva, jūs kāpurķēdes tiks iznīcinātas ar vienu šāvienu."
+
+msgid "comp7_light_juggernaut/name"
+msgstr "Džagernauts"
+
+msgid "comp7_light_march/descr/active"
+msgstr "Uz {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}, jūsu tanka dzinēja jauda tiks palielināta par {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, tā maksimālais ātrums tiks palielināts par {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h, un tā maskēšanās vērtība tiks palielināta par {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}."
+
+msgid "comp7_light_march/name"
+msgstr "Piespiedu Gājiens"
+
+msgid "comp7_light_recon/descr/active"
+msgstr "Izlūkošanas lidmašīna pārlidos izvēlēto teritoriju {colorTagOpen}%(delay)s s{colorTagClose} laikā. Ienaidnieka tanki, kas atklāti {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} rādiusā, paliek redzami {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp; s{colorTagClose}. Spēlētājam, kuru atklāj šī prasme, tiks parādīta atsevišķa ikona ar {colorTagOpen}%(lampDelay)s s{colorTagClose} aizkavi.\n\nŠī prasme kļūst pieejama lietošanai {colorTagOpen}%(startupDelay)s s{colorTagClose} pēc kaujas sākuma."
+
+msgid "comp7_light_recon/name"
+msgstr "Izlūklidmašīna"
+
+msgid "comp7_light_redline/descr/active"
+msgstr "Izvēlētajai zonai uzbruks artilērijas trieciens pēc {colorTagOpen}%(delay)s s{colorTagClose}.\n\nBojātie mērķi rādiusā {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} saņems {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} dzīvības punktu bojājumus un tiks apdullināti uz {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s s{colorTagClose}."
+
+msgid "comp7_light_redline/name"
+msgstr "Uguns Aizsegs"
+
+msgid "comp7_light_risky_attack/descr/active"
+msgstr "Paātrinājums\n\nUz {colorTagOpen}%(duration)s s{colorTagClose}, dzinēja jauda palielinās par {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, maksimālais ātrums palielinās par {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h, un maksimālais atpakaļgaitas ātrums palielinās par {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/h.\n\nAtveseļošanās\n\nUz {colorTagOpen}%(healDuration)s s{colorTagClose}, jūsu tanks atjauno {colorTagOpen}%(baseHeal)s{colorTagClose} dzīvības punktus {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose} no zaudētajiem dzīvības punktiem kamēr Paātrinājums ir aktīvs."
+
+msgid "comp7_light_risky_attack/name"
+msgstr "Otrais Vējš"
+
+msgid "comp7_light_role_skill/descr/startLevel"
+msgstr " \n\nKaujas sākumā, Lomas Spējas lādiņa līmenis ir{colorTagOpen} %(startLevel)s{colorTagClose}."
+
+msgid "comp7_light_sniper/descr/active"
+msgstr "Uz {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}, izkliede no 100 m ir vienāda ar {colorTagOpen}%(dispersionFactor)s m{colorTagClose}.\n\nJa jūsu tanks nav atklāts šāviena brīdī, čaulītes izdarītie bojājumi palielināsies par {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}. \n\nTaimeris tiks atiestatīts par bojājumiem izdarītiem šaujot no attāluma lielāka nekā {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_light_sniper/name"
+msgstr "Mērķī"
+
+msgid "comp7_light_sure_shot/descr/active"
+msgstr "{colorTagOpen}%(duration)s s{colorTagClose} laikā lielgabala izkliede kustībā, korpusa pagriezienā un torņa pagriezienā tiek samazināta par {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nKamēr šī spēja ir aktīva, šāviena radītais bojājums samazina lielgabala pārlādēšanas laiku par {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose} no procenta, par kādu samazinājušies ienaidnieka tanka dzīvības punkti.\n\nIenaidnieka tanka iznīcināšana samazina lielgabala pārlādēšanas laiku par {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}."
+
+msgid "comp7_light_sure_shot/name"
+msgstr "Tīrs Šāviens"

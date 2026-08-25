@@ -1,0 +1,50 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "serviceChannelMessages/resourceWell/enabled/text"
+msgstr "Az Összeszerelő műhely újra megnyílt!"
+
+msgid "serviceChannelMessages/resourceWell/end/text"
+msgstr "Elkezdtünk dolgozni a következő projekten. Értesíteni fogunk, amint befejeztük a fejlesztést. Hamarosan találkozunk!"
+
+msgid "serviceChannelMessages/resourceWell/end/title"
+msgstr "Az Összeszerelő műhely bezár"
+
+msgid "serviceChannelMessages/resourceWell/noSerialVehicles/text"
+msgstr "A számmal ellátott járművek szállítása befejeződött. Megkezdjük a normál konfigurációjú %(vehicle)s harckocsik összeszerelését. Siess, mert a járművek korlátozott számban érhetők el!"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/text"
+msgstr "A járművek összeszerelése befejeződött. Minden járművet átadtunk a tulajdonosaiknak."
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/title"
+msgstr "Az Összeszerelő műhely jelentése"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/twoParallelProducts/text"
+msgstr "%(soldOutVehicle)s jármű szállítása befejeződött. Még lehetőséged van megvásárolni %(availableVehicle)s jármű valamelyikét. Ha költöttél rá nyersanyagokat, de nem fejezed be a vásárlást időben, azokat visszatérítjük a fiókodba. Siess, mert a járművek korlátozott számban érhetők el!"
+
+msgid "serviceChannelMessages/resourceWell/noVehiclesWithReturn/text"
+msgstr "A járművek összeszerelése befejeződött. Minden járművet átadtunk a tulajdonosaiknak. Minden elköltött nyersanyagot hamarosan visszatérítünk a fiókodba."
+
+msgid "serviceChannelMessages/resourceWell/oneVehicleStart/text"
+msgstr "Parancsnok! Lehetőséged van rá, hogy egy számozott 3D-stílussal ellátott %(vehicle)s tulajdonosa legyél. A járművek korlátozott számban érhetők el!"
+
+msgid "serviceChannelMessages/resourceWell/pause/text"
+msgstr "Az Összeszerelő műhely karbantartás miatt átmenetileg nem érhető el."
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/additionalText"
+msgstr "Stílus sorszáma: %(serialNumber)s"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/text"
+msgstr "Az egyedi %(vehicle)s megérkezett az Összeszerelő műhelyből."
+
+msgid "serviceChannelMessages/resourceWell/reward/title"
+msgstr "%(vehicle)s megszerezve!"
+
+msgid "serviceChannelMessages/resourceWell/reward/vehicle/text"
+msgstr "Az Összeszerelő műhelyből megérkezett a következő: %(vehicle)s."
+
+msgid "serviceChannelMessages/resourceWell/start/title"
+msgstr "Az Összeszerelő műhely megnyílik"
+
+msgid "serviceChannelMessages/resourceWell/twoVehiclesStart/text"
+msgstr "Parancsnok! Itt a lehetőség, hogy megkaparintsd a következő járműveket: %(firstVehicle)s és %(secondVehicle)s! De siess, mert a készlet korlátozott!"

@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "Spravovat zálohy"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "Kliknutím vyberte dostupnou bojovou zálohu."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "Pumy"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "Oblast dopadu"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "Ochromení"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "Vysazení"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "Počet min"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "Doba trvání minového pole"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "Ochromení"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "Poloměr poškození"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "Trvání"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "Granáty"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "Obnovení"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "Vysazení"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "Doba trvání"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "Počet obnovených HP"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "Množství HP obnovených okamžitě při aktivaci"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "Snížené poškození obdržené od min"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30 %"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "Bonus k rychlosti obnovení HP v kruhu doplnění"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "Výkon posádky"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "Trvání"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "Čas do odeznění"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "Dosah efektu"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "Výkon posádky vašeho vozidla"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "Zvýšená ochrana"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "Bonus k obsazování"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "Obnovení kruhu doplnění"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "Rychlost doplnění munice"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "Doba příletu"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "Oblast dopadu"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300 x 750 m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "Doba, po kterou trvá odhalování"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "Snížený výkon posádky"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "Kouřové granáty"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "Oblast dopadu"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "Trvání"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "Snížený dohled nepřátelských vozidel"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "Snížení maskování nepřátelských vozidel za listovím"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "Snížení maskování pohybujících se nepřátelských vozidel"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "Doba trvání"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "Bonus k maskování nehybného vozidla"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "Pasivní bonus k dohledu"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "Úroveň zálohy"
+
+msgid "abilityInfo/properties/static"
+msgstr "Trvalé vlastnosti"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "s"
+
+msgid "advance_message_txt"
+msgstr "Postupujte na frontové linii"
+
+msgid "advance_mission_txt"
+msgstr "Postupujte na frontové linii"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "PODROBNOSTI SCÉNÁŘŮ"
+
+msgid "awards/acceptButton"
+msgstr "Potvrzuji!"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "ZÍSKÁNY ODMĚNY"
+
+msgid "awards/subTitle2"
+msgstr "ZÍSKÁNA ODMĚNA"
+
+msgid "awards/title"
+msgstr "FRONTOVÁ LINIE"
+
+msgid "base/contested_atk"
+msgstr "Napadeno"
+
+msgid "base/contested_def"
+msgstr "Pod útokem"
+
+msgid "battleResults/armor"
+msgstr "Využívání pancíře"
+
+msgid "battleResults/assistance"
+msgstr "Asistence"
+
+msgid "battleResults/crits"
+msgstr "Kritické poškození"
+
+msgid "battleResults/damage"
+msgstr "Poškození"
+
+msgid "battleResults/kill"
+msgstr "Zničeno"
+
+msgid "battleResults/spotting"
+msgstr "Odhaleno"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "x1 osobní záloha: %(effectValue)s ke zkušenostem posádky na %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "x1 osobní záloha: %(effectValue)s k volným zkušenostem na %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "x1 osobní záloha: %(effectValue)s k bojovým zkušenostem na %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Napadněte cíl %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Braňte cíl %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Pozor na pozici!"
+
+msgid "command_shortcut/title"
+msgstr "Příkazy"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "Fronta blokována – dosaženo limitu hráčů"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "Nebezpečná oblast"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "Fronta blokována – dosaženo limitu typů vozidel"
+
+msgid "dialogs/quotedName"
+msgstr "„%(name)s“"
+
+msgid "dialogs/title/buy/item"
+msgstr "Koupit %(type)s %(name)s?"
+
+msgid "dialogs/title/buy/items"
+msgstr "Koupit %(type)s?"
+
+msgid "dialogs/title/install/item"
+msgstr "Aktivovat %(type)s %(name)s?"
+
+msgid "dialogs/title/install/items"
+msgstr "Aktivovat %(type)s?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "Nasbírejte požadovaný počet bodů a aktivujte bojové zálohy Frontové linie."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "Nasbírejte požadovaný počet bodů a aktivujte bojové zálohy Frontové linie."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "Body bojových záloh"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "Vozidla %(level)s budou v bitvě zpřístupněna po obsazení/ztrátě jakéhokoliv bodu v druhé linii (D, E nebo F)."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "%(lvl)s. úrovně"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "Vyberte vozidlo VIII. úrovně pro režim Frontové linie."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "Nekompatibilní vozidlo"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "Pořídit"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "Max."
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "Bojové zálohy"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "Stupeň velitele"
+
+msgid "epictraining/info/otherLabel"
+msgstr "Nerozdělení hráči: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "Útočníci ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "Obránci ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "Všechna nepřátelská vozidla zničena"
+
+msgid "game/all_hqs_destroyed"
+msgstr "Všechny cíle zničeny"
+
+msgid "game/all_tanks_defeated"
+msgstr "Všechna spojenecká vozidla zničena"
+
+msgid "game/defeat"
+msgstr "Porážka!"
+
+msgid "game/draw"
+msgstr "Remíza!"
+
+msgid "game/time_over"
+msgstr "Cíle přežily"
+
+msgid "game/victory"
+msgstr "Vítězství!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "Zničte cíle!"
+
+msgid "global_msg/atk/time_short"
+msgstr "Obsaďte zónu!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "Braňte cíle!"
+
+msgid "global_msg/def/time_short"
+msgstr "Braňte zóny!"
+
+msgid "global_msg/lane/center_short"
+msgstr "Posilte %(strArg1)s!"
+
+msgid "global_msg/lane/east_short"
+msgstr "Posilte %(strArg1)s!"
+
+msgid "global_msg/lane/west_short"
+msgstr "Posilte %(strArg1)s!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "Zachraňte své tanky!"
+
+msgid "help_window/communication"
+msgstr "Komunikační oblast"
+
+msgid "help_window/communication/description"
+msgstr "Příkazy můžete obdržet pouze od spojenců ve viditelné oblasti vaší minimapy, nebo když je v této oblasti cíl příkazu."
+
+msgid "help_window/overview_map"
+msgstr "Přehledová mapa"
+
+msgid "help_window/overview_map/description"
+msgstr "Přehledová mapa slouží k získání taktického a strategického náhledu na celé bojiště. Když je otevřena přehledová mapa, lze od celého týmu přijímat komunikaci a dají se posílat zprávy."
+
+msgid "help_window/recovery"
+msgstr "Obnovení"
+
+msgid "help_window/recovery/description"
+msgstr "Obnovení je zavedeno kvůli sebedestrukci vozidla, které uvízne v terénu. Mechanika je potřebná, protože zvýšená doba trvání bitvy a možnost nového objevení si žádají trvalé zapojení hráče."
+
+msgid "help_window/reserves"
+msgstr "Zálohy vozidel"
+
+msgid "help_window/reserves/description"
+msgstr "Každých pár minut je do vaší zálohy přidáno jedno vozidlo. V záloze mohou být maximálně dvě vozidla. Když vám nezbývají žádná vozidla, není možné vás znovu vysadit do boje a musíte počkat na dodání nových vozidel."
+
+msgid "hq/under_attack_atk"
+msgstr "Pod útokem"
+
+msgid "hq/under_attack_def"
+msgstr "Pod útokem"
+
+msgid "in_game_rank/experience_text"
+msgstr "ZK"
+
+msgid "lane_central_name"
+msgstr "Centrum"
+
+msgid "lane_east_name"
+msgstr "Východ"
+
+msgid "lane_west_name"
+msgstr "Západ"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "Úroveň %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "Pořízení není k dispozici: nemáte žádné body bojových záloh."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "Bojová záloha dosáhla maximální úrovně."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "Vylepšení není k dispozici: nemáte žádné body bojových záloh."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "Bojová záloha nezakoupena"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "Úroveň bojové zálohy je zvýšena po dosažení hodností kapitána a majora v bitvě. Maximální úroveň je určena scénářem bitvy."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "Nákupní cena: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "Hlavní cíl"
+
+msgid "mission/title"
+msgstr "Mise"
+
+msgid "mission/zone_closing_atk"
+msgstr "Zóna se otevírá za: "
+
+msgid "mission/zone_closing_def"
+msgstr "Nepřátelské bombardování za: "
+
+msgid "missions/primary/atk/base"
+msgstr "Obsaďte zónu"
+
+msgid "missions/primary/atk/hq"
+msgstr "Zničte cíl"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s z %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "Cílů zničeno:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "Obsazujte zóny, abyste se dostali k hlavním cílům. Zničte hlavní cíle."
+
+msgid "missions/primary/def/base"
+msgstr "Braňte zónu"
+
+msgid "missions/primary/def/hq"
+msgstr "Braňte cíl"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s z %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "Cílů ztraceno:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "Braňte hlavní cíle, dokud nevyprší čas, nebo zničte všechny útočníky."
+
+msgid "missions/unlockTankLevel"
+msgstr "Dostupná vozidla IX. úrovně"
+
+msgid "overtime/label"
+msgstr "PRODLOUŽENÍ"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "Nelze aktivovat dvě identické zálohy"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "Nelze položit minové pole. Minová pole se protínají."
+
+msgid "primeTime/applyBtn"
+msgstr "Přejít"
+
+msgid "primeTime/cancelBtn"
+msgstr "Storno"
+
+msgid "primeTime/continueBtn"
+msgstr "Pokračovat"
+
+msgid "primeTime/endOfCycle"
+msgstr "Režim na serveru %(server)s skončil."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "Dostupné servery:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "Dostupný server: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "Bitvy na serveru %(server)s budou dostupné ještě %(time)s"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "Další bitvy na serveru %(server)s za %(time)s"
+
+msgid "primeTime/serverTooltip"
+msgstr "Na serveru %(server)s\nbudou bitvy dostupné ještě %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Bitvy budou dostupné za %(time)s"
+
+msgid "primeTime/servers"
+msgstr "Dostupné servery: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Bitvy na serveru %(server)s skončily"
+
+msgid "primeTime/status/disable"
+msgstr "Chcete-li pokračovat v přípravách na bitvu, můžete přejít na server Frontové linie."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "Režim není na serveru %(server)s dostupný"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "Na serveru %(server)s platí do %(startTime)s příměří"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "Příměří platí na všech serverech"
+
+msgid "primeTime/status/thisEnable"
+msgstr "Na serveru %(server)s je Frontová linie dostupná ještě %(time)s."
+
+msgid "primeTime/steelhunter/title"
+msgstr "OCELOVÝ LOVEC"
+
+msgid "primeTime/title"
+msgstr "FRONTOVÁ LINIE"
+
+msgid "primeTime/titleWelcome"
+msgstr "VÍTEJTE\nNA FRONTOVÉ LINII"
+
+msgid "progress_timers/active"
+msgstr "Aktivní"
+
+msgid "progress_timers/fully_equipped"
+msgstr "Plně vybaveno"
+
+msgid "progress_timers/resupply"
+msgstr "Kruh doplnění"
+
+msgid "progress_timers/unavailable"
+msgstr "Nedostupné"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "Mise Frontové linie"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "méně než 1 d"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "zdolejte úroveň %(level)s"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "Nové mise budou k dispozici za %(time)s"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "Mise režimu „Ocelový lovec“"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "Frontová linie končí za: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "Není k dispozici: %(reason)s."
+
+msgid "rank/allReserveUpgraded"
+msgstr "Úroveň všech bojových záloh zvýšena"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "Týmový bonus k výkonu posádky zvýšen o +%(percent)s %%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "Maximální výkon posádky je dosažen na +%(percent)s %%"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "Týmový bonus k výkonu posádky +%(percent)s %%"
+
+msgid "rank/no_name"
+msgstr "Hráč"
+
+msgid "rank/promotion"
+msgstr "byl povýšen na %(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "Vojín"
+
+msgid "rank/rank2"
+msgstr "Seržant"
+
+msgid "rank/rank3"
+msgstr "Poručík"
+
+msgid "rank/rank4"
+msgstr "Kapitán"
+
+msgid "rank/rank5"
+msgstr "Major"
+
+msgid "rank/rank6"
+msgstr "Generál"
+
+msgid "rank/recerveUnlocked"
+msgstr "Bojová záloha „%(reserveName)s“ odemčena"
+
+msgid "rank/reserveUpgraded"
+msgstr "Bojová záloha „%(reserveName)s“ vylepšena"
+
+msgid "rank/slotUnlocked"
+msgstr "%(slotNumber)s bojová záloha odemčena"
+
+msgid "rank/slot_2"
+msgstr "2."
+
+msgid "rank/slot_3"
+msgstr "3."
+
+msgid "recovery/Blocked"
+msgstr "Dočasně\nblokováno"
+
+msgid "recovery/disabled"
+msgstr "Obnovení není k dispozici"
+
+msgid "recovery_panel/base_text"
+msgstr "Pro obnovení\nstiskněte J"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "Zrušíte pohybem či střelbou."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "Obnovení\nzrušeno"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "Obnovení\nvyžádáno"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "Obsaďte další základnu"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "Posily za "
+
+msgid "reinforcement/unavailable"
+msgstr "Posily nejsou k dispozici"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s s do automatického vysazení."
+
+msgid "respawn/deploy_button"
+msgstr "Bitva!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "Vylepšené spotřební doplňky nelze zakoupit v bitvě."
+
+msgid "respawn/shop_title"
+msgstr "Servis"
+
+msgid "respawn/tanks_left"
+msgstr "vozidel zbývá"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "Vyberte si vozidlo a oblast vysazení"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "Vysazení v této oblasti je nebezpečné."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s sekund"
+
+msgid "retreat_message_txt"
+msgstr "Ustupte"
+
+msgid "retreat_mission_txt"
+msgstr "Ustupte do další zóny"
+
+msgid "rewardSelection/subTitle"
+msgstr "VYBERTE SI SVOU ODMĚNU"
+
+msgid "rewardSelection/title"
+msgstr "FRONTOVÁ LINIE"
+
+msgid "scorePanel/stage1"
+msgstr "Fáze 1"
+
+msgid "scorePanel/stage2"
+msgstr "Fáze 2"
+
+msgid "scorePanel/stage3"
+msgstr "Fáze 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "Výkon vašeho počítače není pro tento herní režim dostačující. Můžete mít potíže s grafikou a pohybem vozidla. Pravděpodobné jsou také pády herního klienta."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "Nízký výkon"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "V případě nedostatečného výkonu zkuste v nastavení snížit kvalitu grafiky."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "Tento režim vyžaduje vysoký výkon počítače"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "Tento herní režim vyžaduje vysoký výpočetní výkon. Můžou se vyskytnout potíže s načítáním mapy, grafikou a pohybem vozidla. V případě nedostatečného výkonu zkuste v nastavení snížit kvalitu své grafiky."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "Nízký výkon"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "Bitvy 30 proti 30 s %(bodyVehicleLevel)s. Využijte mechaniky znovuobjevení, bojových záloh a kruhu doplnění."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "vozidly %(level)s. úrovně"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "Bitvy 30 proti 30 s %(bodyVehicleLevel)s. Využijte v bitvě mechaniky znovuobjevení, bojových záloh a také oprav."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "Tento režim je z důvodu technických potíží dočasně nedostupný."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "Frontová linie"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "Bitva začíná za: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "Bitva končí za: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "–"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "Plán bitev"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "Dnes"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "Zítra"
+
+msgid "skill/category/firesupport"
+msgstr "Útočné zálohy"
+
+msgid "skill/category/reconnaissance"
+msgstr "Průzkumné zálohy"
+
+msgid "skill/category/tactics"
+msgstr "Taktické zálohy"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "Kamera v režimu pozorovatele"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "Otáčejte kamerou pomocí své myši."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "Pro pohyb kamery po mapě použijte klávesy W, A, S, D."
+
+msgid "spectator_mode/follow_text"
+msgstr "Levým kliknutím začnete sledovat."
+
+msgid "spectator_mode/follow_title"
+msgstr "Sledovat"
+
+msgid "spectator_mode/msg_text"
+msgstr "Vozidlo dorazí za:"
+
+msgid "spectator_mode/msg_title"
+msgstr "Všechna vozidla zničena!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "Opětovným kliknutím sledování zastavíte."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "Zastavit sledování"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "Zablokováno"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Opusťte zónu!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Obnovování bodů výdrže"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Obnovování bodů výdrže"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Povzbuzování"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "Povzbuzování"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Kruh doplnění"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Uvnitř kouře: maskovaný."
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "V kouři. Snížen dohled a výkon posádky."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "Čas do odeznění. Snížen dohled a výkon posádky."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "Strážce aktivován"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "Aktivuje se %(activationDelay)s s po zastavení vozidla"
+
+msgid "super_platoon_panel/title"
+msgstr "Četa"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "– celkový týmový bonus k výkonu posádky za přítomnost generála."
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s %%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "Všechny fronty"
+
+msgid "tab_screen/show_my_lane"
+msgstr "Moje fronta"
+
+msgid "team1Name"
+msgstr "Útočníci"
+
+msgid "team2Name"
+msgstr "Obránci"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "Vyberte si odměny za dokončené úrovně Frontové linie (%(number)s)."
+
+msgid "tooltips/common/disabled"
+msgstr "Režim není k dispozici"
+
+msgid "tooltips/common/title"
+msgstr "Frontová linie"
+
+msgid "tooltips/end"
+msgstr "Akce skončila"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "pořadí při odemykání bojových záloh závisí na typu vozidla. Ze začátku je dostupná jedna bojová záloha, zatímco zbývající se odemknou po dosažení hodností seržanta a poté poručíka."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "Odemčení: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "Ve scénáři <font color='#E9E2BF'>„Vrtochy osudu“</font> zakoupení bojové zálohy zvýší její úroveň o jednu a poskytne příležitost zálohu vylepšit na <font color='#E9E2BF'>IV.</font> úroveň."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "Bojová záloha umístěná v tomto slotu zvyšuje o <font color='#E9E2BF'>10 %</font> pravděpodobnost, že bude ve scénáři <font color='#E9E2BF'>„Vrtochy osudu“</font> nabídnuta."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "Odemčení a vylepšení záloh v bitvě"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "Bojové zálohy se odemykají a vylepšují v bitvě, a to v závislosti na typu vozidla a vámi dosažené hodnosti."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "Konfigurace záloh pro stíhače tanků"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "Konfigurace záloh pro dělostřelectvo"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "Konfigurace záloh pro těžké tanky"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "Konfigurace záloh pro lehké tanky"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "Konfigurace záloh pro střední tanky"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "tyto bojové zálohy se vylepší po odemknutí všech bojových záloh za dosažení nových hodností. První odemknuté bojové zálohy mohou být vylepšeny až na III. úroveň a druhé odemknuté bojové zálohy mohou být vylepšeny na II. úroveň."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "Vylepšení: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "Slot se odemkne po dosažení hodnosti %(rank)s."
+
+msgid "tooltips/timeToEnd"
+msgstr "Režim dostupný: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "Bitvy začnou za: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "Akce skončila"
+
+msgid "tooltips/widget/level"
+msgstr "%(level)s. úroveň"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "Dosaženo maximální úrovně."
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "BOJOVÉ ZÁLOHY"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Na všech serverech platí příměří. Bitvy budou dostupné za %(time)s"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "Bitvy se blíží"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Vyberte jiný server"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "Detaily"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "Režim Frontová linie skončil."
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "Scénáře Frontové linie"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Na tomto serveru platí příměří. Bitvy budou dostupné za %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Na %(serverName)s platí příměří"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "Bitvy začnou za: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "Kliknutím zjistíte víc o scénářích\nFrontové linie a o rozdílech mezi nimi."
+
+msgid "zone/arrived_text"
+msgstr "Dorazilo!"
+
+msgid "zone/capture_text"
+msgstr "Obsazení"
+
+msgid "zone/captured_text"
+msgstr "Obsazeno"
+
+msgid "zone/defend_text"
+msgstr "Braňte"
+
+msgid "zone/destroy_text"
+msgstr "Zničte"
+
+msgid "zone/destroyed_text"
+msgstr "Zničeno"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "Nepřátelské posily"
+
+msgid "zone/headquarters_text"
+msgstr "Cíle"
+
+msgid "zone/leave_zone"
+msgstr "Opusťte zónu!"
+
+msgid "zone/lost_text"
+msgstr "Ztracena"
+
+msgid "zone/reached_text"
+msgstr "Dosažena"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "Nepřátelské posily:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "Posily:"
+
+msgid "zone/reinforcements_text"
+msgstr "Posily"
+
+msgid "zone/time_added"
+msgstr "Přidány minuty: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "Zbývá minut: %(minutes)s"
+
+msgid "zone/zone_text"
+msgstr "Zóna"

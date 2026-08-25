@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "Az esemény végig hátravan: %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) – Játékmód. Kattints a felfedezéséhez"
+
+msgid "bannerTooltip/description"
+msgstr "Különleges PvE-mód, amelyben az ellenséges erők hullámaival kell megküzdened. Válaszd ki a kedvenc járművedet, pusztítsd el az echo-tankokat, és verd vissza a támadást. Exkluzív jutalmak és sok más finomság vár rád!"
+
+msgid "bannerTooltip/header"
+msgstr "Túlélő: Terra Nord"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "A számítógéped teljesítménye nem megfelelő ehhez a módhoz. Problémákat tapasztalhatsz a grafikával és a jármű mozgásával kapcsolatban. Előfordulhat, hogy a játékkliens összeomlik."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Ez a játékmód nagy teljesítményű számítógépet igényel. Problémákat tapasztalhatsz a pálya betöltésekor, a grafika és a jármű mozgása kapcsán. Ha nem megfelelő a teljesítmény, próbáld meg csökkenteni a grafika minőségét a beállítások között!"
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Alacsony teljesítmény"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Csökkentett teljesítmény lehetséges"
+
+msgid "battlePass/playGame"
+msgstr "Gyűjts pontokat a Túlélő eseményben az előrehaladás során (VIII-as szintű járművek szükségesek)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Már barátok vagytok."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Várakozás a barátfelkérés elfogadására."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "A játékos eltávolítása a tiltólistáról."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Hozzáadás a barátlistához."
+
+msgid "battleResult/interaction/menu"
+msgstr "Kattints az interakciós menü megnyitásához ezzel a játékossal."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Hozzáadás a szakaszhoz."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "A játékos már tagja egy szakasznak."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "A meghívót már elküldtük."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Csak a szakaszparancsnok hívhat meg játékosokat a szakaszba."
+
+msgid "booster/activated"
+msgstr "Aktiválva"
+
+msgid "booster/howItWorks"
+msgstr "Így működik"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Visszatöltési idő: %(cooldownSeconds)s mp"
+
+msgid "consumables/params/usageCost"
+msgstr "Miriumköltség: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "A napi küldetés teljesítésére hátralévő idő"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "Idő a következő napi küldetésig"
+
+msgid "dailyQuests/completed"
+msgstr "Teljesítve"
+
+msgid "dailyQuests/completedAll"
+msgstr "Az esemény összes napi küldetését teljesítetted."
+
+msgid "dailyQuests/completedDescr"
+msgstr "Ezt a napi küldetést már teljesítetted. Holnap új küldetés lesz elérhető."
+
+msgid "dailyQuests/rewards"
+msgstr "Jutalmak:"
+
+msgid "dailyQuests/status"
+msgstr "Új napi küldetés %(timer) múlva"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "Az esemény végéig hátravan: %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "A csatába lépéshez válassz egy elérhető járművet!"
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Nem érhető el"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "A kiválasztott nehézségi szinten / módban a csaták technikai okok miatt átmenetileg nem érhetők el."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Nem érhető el"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Várd meg, amíg a szakasz visszatér az előző csatából, hogy új csatába léphess!"
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Nem érhető el"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "A szakasz nem kompatibilis ezzel a nehézségi szinttel."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Nem érhető el"
+
+msgid "points/accrued"
+msgstr "Megszerezve:"
+
+msgid "points/battles"
+msgstr "• Vegyél részt az esemény csatáiban"
+
+msgid "points/body"
+msgstr "A Túlélő módban való előrehaladáshoz és az értékes nyersanyagok megszerzéséhez adatokra van szükséged. Adatokat az eseménycsatákban való részvétellel, napi küldetések teljesítésével vagy „{{bundle_name}}“ vásárlásával szerezhetsz."
+
+msgid "points/bottom"
+msgstr "Esemény vége: (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• Teljesíts napi küldetéseket minden nap"
+
+msgid "points/effective"
+msgstr "• Hatékonyság a csatában:"
+
+msgid "points/gold"
+msgstr "• Vásárold meg a Boltban: „{{bundle_name}}“"
+
+msgid "points/header"
+msgstr "Adat"
+
+msgid "points/howToEarn"
+msgstr "Így gyűjtheted"
+
+msgid "points/missionDaily"
+msgstr "• Teljesített napi küldetés:"
+
+msgid "points/obelisk"
+msgstr "• Megsemmisített obeliszk:"
+
+msgid "points/vehicleDaily"
+msgstr "• Megszerzett napi járműbónusz:"
+
+msgid "rewardPath/info/first"
+msgstr "Több adatot szerezhetsz, ha teljesíted a napi küldetéseket, amelyek az esemény során naponta frissülnek."
+
+msgid "rewardPath/info/header"
+msgstr "Még több adat"
+
+msgid "rewardPath/info/second"
+msgstr "A Boltban megvásárolhatsz egy különleges eseménycsomagot, amely adatokat is tartalmaz, hogy felgyorsítsd az előrehaladásodat."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "Járműbónusz:"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "Egyéb jutalmak:"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}Járműbónusz{EDCB9E_End} — {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "Megszerezted az összes adatot és jutalmat"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "Megszerzett adat {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "Gyűjts adatokat a csaták során, és haladj előre a Túlélő módban. Minden szakasz teljesítéséért értékes tárgyakat és egy járműbónuszt kapsz jutalmul, amelyek segítségével még erősebb ellenfeleket győzhetsz le."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "Végső szakasz"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "Aktuális szakasz"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "Az esemény végéig hátravan: {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "Előrehaladás"
+
+msgid "shopWidget/body"
+msgstr "Kattints ide a játékon belüli Bolt egy különleges szekciójának megnyitásához, ahol exkluzív eseménytárgyakat találsz."
+
+msgid "shopWidget/header"
+msgstr "Az esemény csomagjai"
+
+msgid "teamList/actions/body"
+msgstr "Gyors műveletek szakasz létrehozásához és barátok felvételéhez/eltávolításához."
+
+msgid "teamList/actions/header"
+msgstr "Gyors műveletek"
+
+msgid "teamList/damage/body"
+msgstr "Rendezés okozott sebzés szerint."
+
+msgid "teamList/damage/header"
+msgstr "Okozott sebzés"
+
+msgid "teamList/keys/body"
+msgstr "Rendezés a megszerzett adatok szerint. A megjelenített érték nem tartalmazza a napi küldetések teljesítéséért, illetve a napi járműbónuszokból kapott további adatmennyiséget."
+
+msgid "teamList/keys/header"
+msgstr "Adat"
+
+msgid "teamList/kills/body"
+msgstr "Rendezés megsemmisített ellenséges járművek szerint."
+
+msgid "teamList/kills/header"
+msgstr "Megsemmisített ellenséges járművek"
+
+msgid "teamList/name/header"
+msgstr "A játékos neve"
+
+msgid "teamList/place/body"
+msgstr "Rendezés a csapatban elért helyezés alapján."
+
+msgid "teamList/place/header"
+msgstr "Helyezés a csapatban"
+
+msgid "teamList/squad/header"
+msgstr "A szakasz egy taktikai egység, amelyben a játékosok együttműködnek a csatákban."
+
+msgid "teamList/vehicle/body"
+msgstr "Rendezés a járművek típusa és neve szerint."
+
+msgid "teamList/vehicle/header"
+msgstr "Járművek"
+
+msgid "teamList/warned/body"
+msgstr "Ezt a játékost megbüntettük inaktivitásért / dezertálásért, így nem kapott jutalmakat ezért a csatáért."
+
+msgid "teamList/warned/header"
+msgstr "Figyelmeztetés"
+
+msgid "teamList/warned/self/body"
+msgstr "Megbüntettünk inaktivitásért / dezertálásért, így nem kaptál jutalmakat ezért a csatáért."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Alacsony legénységhatékonyság"
+
+msgid "vehicle/rentState"
+msgstr "Zárolva"
+
+msgid "vehicleDaily/header"
+msgstr "Napi járműbónusz"

@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "button/progression"
+msgstr "Visa framsteg"
+
+msgid "button/select"
+msgstr "Anpassa"
+
+msgid "event/battlePass/name"
+msgstr "Stridspass säsong %(seasonNum)s"
+
+msgid "event/finished"
+msgstr "%(eventName)s\nhar avslutats"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\nbörjar den %(date)s"
+
+msgid "event/paused"
+msgstr "%(eventName)s\när för tillfället inte tillgängligt"
+
+msgid "event/ranked/name"
+msgstr "Säsong %(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "VISA I FRAMSTEGSLÄGE"
+
+msgid "mode/epicBattle/condition"
+msgstr "30 mot 30 &nbsp;{par_open}I{par_close}&nbsp;Klass&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30v30&nbsp;{par_open}I{par_close}&nbsp;Klass&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "Evenemanget\nbörjar %(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Striderna\nbörjar snart"
+
+msgid "mode/epicBattle/description"
+msgstr "Strider med framsteg och belöningar."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "Evenemanget är över"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "När du deltar i {whiteSpanish_open}Frontstrider{whiteSpanish_close} i vagnar klass VIII tjänar du poäng som räknas till dina framsteg i Stridspass."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Stridspasspoäng"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "När du deltar i {whiteSpanish_open}Spaningsuppdrag{whiteSpanish_close} i vagnar klass VIII–X tjänar du poäng som räknas till dina framsteg i Stridspass."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Stridspasspoäng"
+
+msgid "mode/mapbox/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s Klass&nbsp;VIII–X"
+
+msgid "mode/mapbox/description"
+msgstr "Ny kartmekanik"
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Visuella vädereffekter påverkas av dina grafikinställningar. Låg grafikkvalitet kan medföra artefakter och andra grafikproblem. Vi rekommenderar de högsta grafikinställningar din dator kan hantera för bästa upplevelse. FPS kan minska under intensiva strider."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "Högsta grafikinställningarna rekommenderas"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Högsta grafikinställningarna rekommenderas"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Lär dig kartorna"
+
+msgid "mode/mapsTraining/description"
+msgstr "Lär dig kartorna"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "När du deltar i {whiteSpanish_open}slumpvis matchade strider{whiteSpanish_close} i vagnar klass IV-XI tjänar du poäng som räknas till dina framsteg i Stridspass."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Stridspasspoäng"
+
+msgid "mode/random/condition"
+msgstr "15 mot 15 %(parSecondary_open)sI%(parSecondary_close)s Klass&nbsp;I–XI"
+
+msgid "mode/random/description"
+msgstr "Strider med automatisk matchmaking."
+
+msgid "mode/random/setup"
+msgstr "Anpassa"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "När du deltar i {whiteSpanish_open}rankade strider{whiteSpanish_close} i vagnar klass X tjänar du poäng som räknas till dina framsteg i Stridspass."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Stridspasspoäng"
+
+msgid "mode/ranked/condition"
+msgstr "10 mot 10 %(parSecondary_open)sI%(parSecondary_close)s Klass&nbsp;X"
+
+msgid "mode/ranked/description"
+msgstr "Strider med framsteg och belöningar."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Anmäl dig till turnering"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Nästa strid: %(date)s kl. %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1 mot 1–15 mot 15 %(parSecondary_open)sI%(parSecondary_close)sKlass&nbsp;I–X"
+
+msgid "mode/specBattlesList/description"
+msgstr "Världskartan och turneringar."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Strid som legionär"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Strid i en klan"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7 mot 7–15 mot 15 %(parSecondary_open)sI%(parSecondary_close)s Klass&nbsp;VI–X"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Klanstrider om industriresurser."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Träningsrum: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1 mot 1–15 mot 15 %(parSecondary_open)sI%(parSecondary_close)sKlass&nbsp;I–X"
+
+msgid "mode/trainingsList/description"
+msgstr "Introduktionsstrider."
+
+msgid "novelty"
+msgstr "NY"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Strider i kvalet: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "Du kan få unika 3D-tillbehör för dessa strider."
+
+msgid "reward/attachment/name"
+msgstr "3D-tillbehör"
+
+msgid "reward/bones/description"
+msgstr "Belöningen bestäms av ditt stridsresultat."
+
+msgid "reward/bones/name"
+msgstr "Obligationer"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Du kan få %(name)s för dessa strider."
+
+msgid "reward/bountyEquipment/name"
+msgstr "Specialutrustning"
+
+msgid "reward/credits/description"
+msgstr "Belöningen bestäms av ditt stridsresultat."
+
+msgid "reward/credits/name"
+msgstr "Krediter"
+
+msgid "reward/crew/description"
+msgstr "Du kan få unika besättningsmedlemmar för dessa strider."
+
+msgid "reward/crew/name"
+msgstr "Besättningsmedlemmar"
+
+msgid "reward/experience/description"
+msgstr "Belöningen bestäms av ditt stridsresultat."
+
+msgid "reward/experience/name"
+msgstr "Erfarenhet"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "Du kan få olika experimentell utrustning för dessa strider."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Specialutrustning"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Du kan få %(name)s för dessa strider."
+
+msgid "reward/improvedEquipment/name"
+msgstr "Specialutrustning"
+
+msgid "reward/lootBoxes/description"
+msgstr "Du kan få unika prislådor för dessa strider."
+
+msgid "reward/lootBoxes/name"
+msgstr "Specialprislådor"
+
+msgid "reward/other/description"
+msgstr "Du kan få många användbara belöningar för dessa strider."
+
+msgid "reward/other/name"
+msgstr "Specialbelöning"
+
+msgid "reward/progressionStyle/description"
+msgstr "Du kan få en speciell progressiv stil när du deltar i dessa strider."
+
+msgid "reward/progressionStyle/name"
+msgstr "Progressiv stil"
+
+msgid "reward/random/description"
+msgstr "Du kan få många användbara belöningar för dessa strider."
+
+msgid "reward/random/name"
+msgstr "Slumpvis belöning"
+
+msgid "reward/style/description"
+msgstr "Du kan få en speciell 3D-stil till %(name)s genom att delta i dessa strider."
+
+msgid "reward/style/name"
+msgstr "3D-stil"
+
+msgid "reward/vehicle/description"
+msgstr "Du kan få %(name)s för dessa strider."
+
+msgid "reward/vehicle/name"
+msgstr "Belöningsvagnar"
+
+msgid "selectMap"
+msgstr "Förinställningar för slumpvis matchade strider"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "status/timeLeft/lessMin"
+msgstr "mindre än en minut"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "VÄLJ STRIDSLÄGE"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Världskartan"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Erövra provinser för globalt herravälde. Endast för klanmedlemmar."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Gå med i en klan"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Strider på världskartan"
+
+msgid "window/battleSession/title"
+msgstr "SPECIALSTRID"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Turneringslista"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Funktionen blir tillgänglig i framtiden. Vänligen vänta."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Kämpa ensam eller i ett lag, visa vad du går för och få värdefulla belöningar."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Turneringar"

@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "Cancelar a Procura"
+
+msgid "buttons/cancelSearch/description"
+msgstr "Clique para cancelar a procura por membros de Pelotão."
+
+msgid "buttons/createPlatoon/caption"
+msgstr "Novo Pelotão"
+
+msgid "buttons/createPlatoon/description"
+msgstr "Crie um Pelotão para convidar amigos para jogarem juntos."
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "Novo Super Pelotão"
+
+msgid "buttons/findPlayers/caption"
+msgstr "Encontrar Jogadores"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "Encontre jogadores com uma mestria e veículos semelhantes ao utilizar o filtro."
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "Todos os convites para amigos serão cancelados se iniciar a procura por jogadores online."
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "Encontrar Jogadores"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "Não pode procurar jogadores: existem demasiados Pelotões no servidor."
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "Não pode procurar jogadores para o Pelotão: sem veículos adequados."
+
+msgid "buttons/invite/player/caption"
+msgstr "Convidar Jogadores"
+
+msgid "buttons/invite/player/description"
+msgstr "Clique para convidar um jogador para um Pelotão."
+
+msgid "buttons/invite/players/caption"
+msgstr "Convidar Jogadores"
+
+msgid "buttons/invite/players/description"
+msgstr "Clique para convidar jogadores para um Pelotão."
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "Sair do Pelotão"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "Clique para sair do Pelotão."
+
+msgid "buttons/mute/caption"
+msgstr "Desactivar o Chat de Voz do Pelotão"
+
+msgid "buttons/mute/description"
+msgstr "Clique para desactivar o chat de voz do Pelotão."
+
+msgid "buttons/notReady/caption"
+msgstr "Não Pronto"
+
+msgid "buttons/notReady/description"
+msgstr "Clique se não estiver pronto para entrar na batalha."
+
+msgid "buttons/ready/caption"
+msgstr "Pronto!"
+
+msgid "buttons/ready/description"
+msgstr "Clique se estiver pronto para entrar na batalha."
+
+msgid "buttons/reset/caption"
+msgstr "Reiniciar as Preferências da Procura"
+
+msgid "buttons/reset/description"
+msgstr "Clique para reiniciar as preferências da procura para padrão."
+
+msgid "buttons/settings/caption"
+msgstr "Definir Preferências da Procura"
+
+msgid "buttons/settings/description"
+msgstr "Procure jogadores que vão de encontro com as suas preferências. Quanto mais tempo demorar a encontrar jogadores, mais extensa será a procura."
+
+msgid "buttons/unMute/caption"
+msgstr "Ligar o Chat de Voz do Pelotão"
+
+msgid "buttons/unMute/description"
+msgstr "Clique para activar o chat de voz do Pelotão."
+
+msgid "headerButton/inSquad"
+msgstr "Em Pelotão"
+
+msgid "headerButton/onboarding"
+msgstr "PODE AGORA PROCURAR JOGADORES\nPARA FORMAR UM PELOTÃO"
+
+msgid "headerButton/searching"
+msgstr "A pesquisar..."
+
+msgid "headerButton/squad"
+msgstr "Criar Pelotão"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "Lute num Pelotão com um amigo. Jogue em equipa contra nove Pelotões inimigos."
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "Pelotão"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "Não pode criar ou juntar-se a Pelotões porque está temporariamente bloqueado neste modo."
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "Não poderá criar ou participar em Pelotões porque precisa de ter pelo menos um veículo de Nível %(level)s na Garagem que seja adequado para o modo."
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "A criação de Pelotão está temporariamente indisponível."
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "Pelotão indisponível"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "Pode criar um Pelotão ou juntar-se a um já existente. No Massacre Ligeiro, os Pelotões podem ser constituídos por 2 ou 7 jogadores."
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "Pelotão"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "Não pode criar ou juntar-se a Pelotões porque não tem um veículo de Nível %(level)s adequado na sua Garagem."
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "Depois de concluída a Qualificação, estarão disponíveis Pelotões de 2 e 7 jogadores."
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "Não é possível criar um Pelotão."
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "Pelotão indisponível"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "Crie um Pelotão ou junte-se a um já existente. Os Pelotões no Massacre podem ser constituídos por 2 ou 7 jogadores."
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "Pelotão"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "Crie uma unidade táctica de 2 ou 3 jogadores para jogar cooperativamente.\n• Modos de Batalha: Fúria.\n• Tipos de batalha: Caça ao Aço, Domínio."
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "Pelotão"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "Crie uma unidade táctica de 2 ou 3 jogadores para participar na Grande Corrida."
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "Pelotão da Grande Corrida"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "Clique para abrir o Menu do Pelotão."
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "Missão de Reconhecimento: Pelotão"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "Clique para abrir o Menu do Pelotão."
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "Pelotão"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "Crie um Pelotão de 2 ou 3 jogadores para participar da Missão de Reconhecimento."
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "Missão de Reconhecimento: Pelotão"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "Não são permitidas unidades tácticas nas Batalhas Classificadas."
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "Criar Pelotão"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "A pesquisar por jogadores..."
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "A pesquisar"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Crie uma unidade tática de 2 ou 3 jogadores para cooperar em Batalhas Aleatórias e na Linha da Frente (quando disponível)"
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Pelotão"
+
+msgid "members/card/connectionLost"
+msgstr "Ligação interrompida"
+
+msgid "members/card/disabled"
+msgstr "Este modo apenas suporta Pelotões de dois jogadores"
+
+msgid "members/card/disabledVertical"
+msgstr "Não disponível para este modo"
+
+msgid "members/card/empty"
+msgstr "Lugar Vazio"
+
+msgid "members/card/inBattle"
+msgstr "Em Batalha"
+
+msgid "members/card/muted/caption"
+msgstr "Jogador mudo"
+
+msgid "members/card/muted/description"
+msgstr "Clique com o botão direito para retirar o mudo deste jogador."
+
+msgid "members/card/notReady"
+msgstr "Não Pronto"
+
+msgid "members/card/searching"
+msgstr "A pesquisar por jogador..."
+
+msgid "members/card/selectVehicle"
+msgstr "Seleccione um veículo de Nível %(level)s"
+
+msgid "members/chat/chatName"
+msgstr "Canal de Chat:"
+
+msgid "members/chat/sendMessage/body"
+msgstr "Clique para enviar uma mensagem no canal de chat."
+
+msgid "members/chat/sendMessage/header"
+msgstr "Enviar Mensagem"
+
+msgid "members/footer/comp7Invite"
+msgstr "Convidar"
+
+msgid "members/footer/comp7Limitations"
+msgstr "Restrições de Pelotão"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "Posto máximo no Pelotão"
+
+msgid "members/footer/getNotReady"
+msgstr "Clique para indicar que não está pronto."
+
+msgid "members/footer/getReady"
+msgstr "Confirme que está pronto para se juntar à batalha."
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "Nível Incompatível"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "Penalidade sobre a experiência devido à composição inapropriada do Pelotão!"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "Limite de veículos atingido"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "O Pelotão alcançou o número máximo de antitanques"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "O Pelotão alcançou o número máximo de AAPs"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "O Pelotão alcançou o número máximo de tanques pesados"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "O Pelotão alcançou o número máximo de tanques médios"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "O Pelotão alcançou o número máximo de tanques ligeiros"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "O Pelotão alcançou o número máximo de veículos com rodas"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "O Pelotão alcançou o número máximo de tanques ligeiros"
+
+msgid "members/header/battle_royal"
+msgstr ": Caçador de Aço"
+
+msgid "members/header/epic"
+msgstr ": Linha da Frente"
+
+msgid "members/header/event"
+msgstr ": Waffenträger: Projecto Hyperion"
+
+msgid "members/header/mapbox"
+msgstr ": Missão de Reconhecimento"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP HEADER PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr ": Batalha Aleatória"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "A Linha da Frente está disponível\napenas para veículos de Nível VIII."
+
+msgid "members/header/tooltip/epic/header"
+msgstr "Regras para a Criação de Pelotão"
+
+msgid "members/header/tooltip/event/body"
+msgstr "O Pelotão deve conter três veículos especiais do modo."
+
+msgid "members/header/tooltip/event/header"
+msgstr "Regras para a Criação de Pelotão"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "O Pelotão deve consistir em veículos do mesmo nível."
+
+msgid "members/header/tooltip/standard/header"
+msgstr "Regras para a Criação de Pelotão"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Jogadores no Pelotão"
+
+msgid "searching/estimated/caption"
+msgstr "Tempo Estimado"
+
+msgid "searching/estimated/lessThan"
+msgstr "menos de %(seconds)d s"
+
+msgid "searching/estimated/moreThan"
+msgstr "mais de %(seconds)d s"
+
+msgid "searching/expanded/body"
+msgstr "Sem jogadores com as preferências originais.\nA procura foi expandida para incluir outros níveis de veículos."
+
+msgid "searching/expanded/header"
+msgstr "Preferências da Procura Expandidas"
+
+msgid "searching/lookingFor"
+msgstr "A pesquisar por:"
+
+msgid "searching/playersInQueue"
+msgstr "Jogadores na Fila"
+
+msgid "searching/state"
+msgstr "A pesquisar:"
+
+msgid "settings/tiers"
+msgstr "Nível de Veículo Preferido"
+
+msgid "settings/voice"
+msgstr "Preferir jogadores com chat de voz"
+
+msgid "squad"
+msgstr "Pelotão"

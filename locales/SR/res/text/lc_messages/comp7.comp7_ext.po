@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Borbe na serverima će biti dostupne za %(primeDelta)s"
+
+msgid "alertMessage/allNotSet"
+msgstr "Ovaj režim je nedostupan na svim serverima"
+
+msgid "alertMessage/ban"
+msgstr "Privremeno si blokiran iz ovog režima. Preostalo vreme: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Promeni server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detalji"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Ovaj režim je nedostupan na trenutnom serveru %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Ovaj režim je nedostupan na svim serverima."
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "Moraš da imaš najmanje %(count)s pouzdana vozila za režim. Pogledaj stranicu O Jurišu za detalje."
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "Nema dovoljno pogodnih vozila"
+
+msgid "alertMessage/modeOffline"
+msgstr "Greška baze podataka. Režim nedostupan."
+
+msgid "alertMessage/noVehicles"
+msgstr "Nema pogodnih vozila %(levels)s nivoa u garaži %(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "Borbe nisu dostupne na %(serverName)s serveru"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Borbe nisu dostupne na %(serverName)s serveru"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "Nema dovoljno pogodnih vozila %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "Ovaj režim je nedostupan na %(serverName)s serveru"
+
+msgid "alertMessage/preannounce/first"
+msgstr "Sezona Azurnog zmaja će početi: %(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "Sezona Grimiznog zmaja će početi: %(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "Sezona zmaja od Žada će početi: %(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "Čekanje na kvalifikacione rezultate za dobijanje tvog ranga"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "Sezona Azurnog zmaja se završila"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "Sezona Grimiznog zmaja se završila"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "Sezona Žad zmaja se završila"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Borbe na ovom serveru će biti dostupne za %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Ovaj režim je nedostupan na %(serverName)s serveru"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s č %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Nema pogodnih vozila %(levels)s nivoa u garaži"
+
+msgid "awardsWidget/description/award"
+msgstr "Klikni da izabereš i preuzmeš svoje nagrade."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Finalne nagrade su trenutno nedostupne. Izvinjavamo se zbog neprijatnosti."
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "PREUZMI\nNAGRADU"
+msgstr[1] "PREUZMI\nNAGRADE"
+msgstr[2] "PREUZMI\nNAGRADA"
+
+msgid "banView/actionButtons/confirm"
+msgstr "Glasaj"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "Već si glasao za %(vehicleName)s"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "Ne banuj"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "Predloži vozilo za ban"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "Možeš da glasaš samo\ntokom faze glasanja za ban"
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "Predlažeš:\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "Neko u tvom timu\nje odabrao vozilo koje ti želiš da banuješ"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "Sačekaj da se faza glasanja za ban završi"
+
+msgid "banView/button/back"
+msgstr "NAZAD"
+
+msgid "banView/button/ban"
+msgstr "Na odabir bana"
+
+msgid "banView/button/description"
+msgstr "KA ODABIRU VOZILA"
+
+msgid "banView/description/prepick"
+msgstr "Odaberi najpogodnije vozilo za ovu mapu i sastav tvog tima"
+
+msgid "banView/description/voting"
+msgstr "Odaberi vozilo koje želiš da isključiš iz ove borbe"
+
+msgid "banView/factory/candidate"
+msgstr "Kandidat za ban: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "Timski kandidati za ban"
+
+msgid "banView/factory/noCandidates"
+msgstr "Nema kandidata za ban"
+
+msgid "banView/factory/pick"
+msgstr "Tvoj kandidat: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "Ne banuj"
+
+msgid "banView/title/prepick"
+msgstr "Faza preodabira vozila"
+
+msgid "banView/title/voting"
+msgstr "Faza glasanja za ban"
+
+msgid "banView/tooltip/confirmed"
+msgstr "Glasanje je potvrđeno"
+
+msgid "banView/tooltip/noAction"
+msgstr "Nema urađene akcije"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "Ovaj igrač nije predložio vozilo za ban još uvek."
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "Predloženo"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "Lovci tenkova"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "Teški tenkovi"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "Laki tenkovi"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "Srednji tenkovi"
+
+msgid "banView/withoutBan"
+msgstr "Ne banuj"
+
+msgid "banWidget/allies"
+msgstr "Saveznički glasovi"
+
+msgid "banWidget/enemies"
+msgstr "Neprijateljski glasovi"
+
+msgid "banWidget/tooltip"
+msgstr "Tim se nije složio za ban vozila, zato je banovano nasumično vozilo sa liste vozila sa najviše glasova."
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "Konfigurše prikaz vozila po tipu, ulozi i naciji."
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "Filter po parametrima"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "Samo vozila koja se mogu koristiti u režimu se prikazuju."
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "Nema vozila koje odgovaraju izabranim filterima"
+
+msgid "battleMessages/enableVOIP"
+msgstr "Tim sakupljen. Izaberi vozila i u borbu!\nPridruži se glasovnom četu (%(keyName)s)"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "Tim sakupljen. Izaberi vozila i u borbu!\nDodeli taster za brzu glasovnu komunikaciju."
+
+msgid "battleMessages/withoutVOIP"
+msgstr "Tim sakupljen. Izaberi vozila i u borbu!\nDa se Pridružiš glasovnom četu, uključi opciju u podešavanjima."
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "Detalji režima (F1)"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "Videokrug vozila povećan"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "Karakteristike posade poboljšane"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "Obnavljanje poena izdržljivosti"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "Obnavljanje poena izdržljivosti"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "Karakteristike posade poboljšane"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "Karakteristike posade poboljšane"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "Brzina punjenja topa povećana"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "Karakteristike vozila poboljšane"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "Obnavljanje poena izdržljivosti"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "Karakteristike vozila poboljšane"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "Karakteristike vozila poboljšane"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "Mobilnost poboljšana"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "Obnavljanje poena izdržljivosti"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "Rasipanje topa smanjeno"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "Karakteristike vozila poboljšane"
+
+msgid "battleResult/header/deserter"
+msgstr "Dobio si kaznu na poene rejtinga"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "Kažnjen si. Nakon završavanja kvalifikacija, tvoj rejting će biti smanjen."
+
+msgid "battleResult/label/deserter"
+msgstr "Dezertiranje"
+
+msgid "battleResult/message/deserter"
+msgstr "Kažnjen si.\nIzgubljeni rejting poeni: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "Napustio si bojište.\nNakon završavanja kvalifikacija, tvoj rejting će biti smanjen."
+
+msgid "battleResult/message/header/deserter"
+msgstr "Nesportsko ponašanje"
+
+msgid "battleResult/personal/label"
+msgstr "Poeni rejtinga"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "Pokazuje trenutni progres igrača u sistemu. Poeni rejtinga se mogu zaraditi i izgubiti u zavisnosti od uspeha u režimu."
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• porazi/nerešeno u borbama režima\n• Dobijanje kazne\n• Neaktivnost ranka."
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "Uklonjeno poena rejtinga zbog:"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "Poeni rejtinga"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "Kvalifikaciona borba"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s - %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "Kvalifikacija"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "Poena rejtinga primljeno. Da sačuvaš rang Legende ostani u top %(topPercentage)d%% igrača na tabeli."
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "Poena rejtinga primljeno. Da sačuvaš rang Legende budi u top %(topPercentage)d%% igrača na tabeli."
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "Primljenih poena rejtinga"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "Poena rejtinga izgubljeno. Da sačuvaš rang Legende ostani u top %(topPercentage)d%% igrača na tabeli."
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "Poena rejtinga izgubljeno. Da sačuvaš rang Legende budi u top %(topPercentage)d%% igrača na tabeli."
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "Izgubljenih poena rejtinga"
+
+msgid "battleResult/subTask/rating"
+msgstr "Poeni rejtinga: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "Ražalovan si na %(division)s.%(rank)s"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "%(rank)s. %(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "Unapređen si na %(division)s.%(rank)s!"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "Borbi vođeno (dan): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "Uključujući:"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "Borbi vođeno (sezona): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "Solo/vod: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "Super vod: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s - %(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "Sezona Azurnog zmaja će trajati još %(days)d dan"
+msgstr[1] "Sezona Azurnog zmaja će trajati još %(days)d dana"
+msgstr[2] "Sezona Azurnog zmaja će trajati još %(days)d dana"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "Sezona Grimiznog zmaja će trajati još %(days)d dan"
+msgstr[1] "Sezona Grimiznog zmaja će trajati još %(days)d dana"
+msgstr[2] "Sezona Grimiznog zmaja će trajati još %(days)d dana"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "Sezona Žad zmaja će trajati još %(days)d dan"
+msgstr[1] "Sezona Žad zmaja će trajati još %(days)d dana"
+msgstr[2] "Sezona Žad zmaja će trajati još %(days)d dana"
+
+msgid "calendarDay/title"
+msgstr "Raspored"
+
+msgid "carousel/banned"
+msgstr "Banovano"
+
+msgid "claimRewards/button"
+msgstr "Preuzmi nagradu"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "Ova operacija je privremeno nedostupna zbog tehničkih razloga. Radimo na otklanjanju problema."
+
+msgid "closeButtonLabel"
+msgstr "ZATVORI"
+
+msgid "controls/compare"
+msgstr "Dodaj na poredjenje"
+
+msgid "controls/preview"
+msgstr "Pregled"
+
+msgid "countDown/text"
+msgstr "Događaj počinje za:\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1 min"
+
+msgid "crewMembersTooltip/description"
+msgstr "Ova specijalna posada obuhvata tenkiste širom sveta, ujedinjene pod vođstvom njihovog komandira. Svi imaju nultu odliku Braća po oružiju i dovoljno iskustva posade da nauče još dve odlike, što im dozvoljava da poboljšaju performanse vozila - kao i da donesu sopstveni šmek na bojište."
+
+msgid "crewMembersTooltip/perks"
+msgstr "Veštine"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "JURIŠ. GODINA ZMAJA"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "Nulte veštine"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "Prosečna šteta (dan): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "Odnos ukupne štete nanete i broja odigranih borbi."
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "Prosečna šteta (sezona): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "Dnevni rekord štete: %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "Maksimalna šteta naneta u borbi u %(vehicleName)s"
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "Sezonski rekord štete: %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "-"
+
+msgid "dataError/description"
+msgstr "Izvinjavamo se zbog trenutnih problema, pokušaj da osvežiš stranicu kasnije ponovo."
+
+msgid "dataError/title"
+msgstr "Greška učitavanja podataka"
+
+msgid "dayTooltip/day"
+msgstr "Dan %(index)s"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "Dan %(index)s: Nema vođenih borbi."
+
+msgid "dayTooltip/noBattles"
+msgstr "Si vis pacem, para bellum"
+
+msgid "dayTooltip/rankInactivity"
+msgstr "Neaktivnost ranga: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)s rejting poen"
+msgstr[1] "%(pointsCount)s rejting poena"
+msgstr[2] "%(pointsCount)s rejting poena"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "Promena rejting poena: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "Dan %(index)s (danas)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "Dan %(index)s: Danas nema vođenih borbi."
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "Divizija"
+
+msgid "division/text"
+msgstr "Divizija %(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "Ova divizija je za igrače sa {eeede9e6_Open}%(fromScore)&nbsp;do&nbsp;%(toScore){eeede9e6_Close}&nbsp;poenima rejtinga."
+
+msgid "divisionTooltip/heading"
+msgstr "Divizija %(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "Poeni rejtinga"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "Borbi vođeno"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)s Rezultati pristižu..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)s Rezultati pristižu"
+
+msgid "entryPointTooltip/description"
+msgstr "Takmičarski režim sa 7 na 7 borbama u vozilima\n%(levels)s nivoa. Uzdigni se kroz rangove da zaradiš jedinstvene elemente prilagođavanja, vozila, bonove i ostale vredne nagrade."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "REŽIM"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s - Režim igre. Klik za proširenje"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Dostupno za %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Primirje%(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "Biće dostupno:\n%(timer)s"
+
+msgid "featureName"
+msgstr "Juriš"
+
+msgid "featureNameCapitalized"
+msgstr "JURIŠ"
+
+msgid "fifthRankTooltip/description"
+msgstr "{eeede9e6_Open}Šampionski{eeede9e6_Close}rang se dodeljuje igračima koji su zaradili najmanje {eeede9e6_Open}%(fromScore){eeede9e6_Close} poena rejtinga."
+
+msgid "forVehicle"
+msgstr "Za: %(vehicleName)s"
+
+msgid "generalRankTooltip/body/first"
+msgstr "{eeede9e6_Open}Gvozdeni{eeede9e6_Close}rang se dodeljuje igračima koji su zaradili {eeede9e6_Open}%(fromScore) do %(toScore){eeede9e6_Close} poena rejtinga."
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "{eeede9e6_Open}Zlatni{eeede9e6_Close}rang se dodeljuje igračima koji su zaradili {eeede9e6_Open}%(fromScore) do %(toScore){eeede9e6_Close} poena rejtinga."
+
+msgid "generalRankTooltip/body/second"
+msgstr "{eeede9e6_Open}Bronzani{eeede9e6_Close}rang se dodeljuje igračima koji su zaradili {eeede9e6_Open}%(fromScore) do %(toScore){eeede9e6_Close} poena rejtinga."
+
+msgid "generalRankTooltip/body/third"
+msgstr "{eeede9e6_Open}Srebrni{eeede9e6_Close}rang se dodeljuje igračima koji su zaradili {eeede9e6_Open}%(fromScore) do %(toScore){eeede9e6_Close} poena rejtinga."
+
+msgid "generalRankTooltip/subheading"
+msgstr "Uključuje divizije: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "O DOGAĐAJU"
+
+msgid "intro/confirmButton"
+msgstr "Razumem!"
+
+msgid "intro/description/banPhase"
+msgstr "Svaki tim može totalno da banuje vozilo iz borbe. Usaglasi glasove sa saveznicima da isključite najopasnije mašine ili da pripremite neočekivanu postavku za neprijatelje. Ako je tvoje vozilo banovano, možeš da odabereš od nekoliko predfinisanih za iznajmljivanje umesto njega."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Režim ima modifikatore koji menjaju određene parametre vozila poput poena izdržljivosti vozila, vremena hlađenja potrošnog materijala, vremena koliko je vozilo vidljivo i drugog."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Kada zarobiš određene zone mape, moći ćeš da koristiš taktičke veštine. Postoje dve vrste interesnih tačaka: štab artiljerije će ti omogućiti da usmeriš artiljerijski udar na određenu poziciju, a centar za komunikaciju će uočiti sva neprijateljska vozila. U zavisnosti od mape, prisustvo i lokacija ovih interesnih tačaka se mogu promeniti."
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "Bori se u %(count)s kvalifikacionoj borbi da utvrdiš svoj nivo veštine i rang. Nakon završetka dobićeš nagrade za rang koji si dostigao i za prethodne rangove.\n\nDezertacija ili nerešeno u kvalifikaciji će se smatrati kao poraz."
+msgstr[1] "Bori se u %(count)s kvalifikacione borbe da utvrdiš svoj nivo veštine i rang. Nakon završetka dobićeš nagrade za rang koji si dostigao i za prethodne rangove.\n\nDezertacija ili nerešeno u kvalifikaciji će se smatrati kao poraz."
+msgstr[2] "Bori se u %(count)s kvalifikacionih borbi da utvrdiš svoj nivo veštine i rang. Nakon završetka dobićeš nagrade za rang koji si dostigao i za prethodne rangove.\n\nDezertacija ili nerešeno u kvalifikaciji će se smatrati kao poraz."
+
+msgid "intro/description/ranks"
+msgstr "Sistem koji reflektuje veštinu igrača. Napreduj kroz rangove od gvozdenog do legendarnog i zaradi vredne nagrade. Bori se tokom Godine zmaja da zaradiš godišnje jedinstvene nagrade."
+
+msgid "intro/description/roleSkills"
+msgstr "U zavisnosti od uloge, svako vozilo ima posebnu veštinu sa tri nivoa punjenja. Što je veći nivo punjenja kada je veština aktivirana, to će biti jači efekat. Nivo punjenja će zavisiti od broja poena prestiža koji se mogu zaraditi za impresivne performanse u borbi, zauzimanje tački interesa, korišćenje taktičkih veština, itd.\n\nPogledaj propise događaja da bi saznao više o različitim načinima na koje možeš zaraditi poena prestiža."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Možeš da uđeš u borbu u izučivim vozilima %(levels)s nivoa (izuzev artiljerija), kao i u kolekcionarskim i nekim specijalnim vozilima. Pripremi svoja vozila u garaži, potom izaberi najbolje zasnovano na odlikama date mape kada jednom uđeš u borbu. Prilikom odabira svog vozila, takođe razmotri koja vozila su tvoji saveznici odabrali."
+
+msgid "intro/title/banPhase"
+msgstr "BANOVI VOZILA"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "MODIFIKATORI JURIŠA"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "TAČKE INTERESA"
+
+msgid "intro/title/qualification"
+msgstr "KVALIFIKACIJA"
+
+msgid "intro/title/ranks"
+msgstr "SISTEM RANGOVA"
+
+msgid "intro/title/roleSkills"
+msgstr "VEŠTINE ULOGA"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "IZABERI VOZILO ZA ODREĐENU MAPU"
+
+msgid "lastUpdateNote/info"
+msgstr "Nadograđeno: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "Poeni rejtinga donjeg igrača sa rangom Legenda\nse osvežavaju svakih %(count)s min."
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "Osvežavanje podataka..."
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "Tabela se osvežava svakih %(count)s minuta."
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "Poslednje ažuriranje: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "Moja pozicija"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "Dostigni rang Šampiona ili Legende da uđeš na tabelu."
+
+msgid "leaderboard/error/buttonText"
+msgstr "Osveži"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "Igrači u rangovima Šampiona i Legende se nalaze na tabeli. Zaradi {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close} poena rejtinga i dostigni vrh tabele!"
+
+msgid "leaderboard/noRecords/title"
+msgstr "Nema igrača na tabeli trenutne sezone"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "Borbi"
+
+msgid "leaderboard/table/header/order"
+msgstr "#"
+
+msgid "leaderboard/table/header/player"
+msgstr "Ime igrača"
+
+msgid "leaderboard/table/header/score"
+msgstr "Poeni rejtinga"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "Broj borbi koje je igrač imao u Jurišu tokom trenutne sezone."
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "Borbi"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "Igračeva pozicija u rejtingu."
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "Pozicija"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "Ime igrača koji drži poziciju na rejtingu."
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "Ime igrača"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "Broj rejting poena zarađenih u trenutnoj sezoni."
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "Poeni rejtinga"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Igrači u vodu"
+
+msgid "noVehicles/howTo/premium"
+msgstr "Koristi WoT Premium nalog"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktiviraj lične rezerve"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Završi misije"
+
+msgid "noVehicles/howTo/title"
+msgstr "Koji je najbrži način da izučiš vozila %(levels)s nivoa?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Da učestvuješ u Jurišu, treba ti najmanje jedno vozili nivoa %(levels)s u garaži koje je adekvatno za režim.\nImaš istražena vozila nivoa %(levels)s koja nisu u tvom vlasništvu."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Da učestvuješ u Jurišu, treba ti najmanje jedno vozili nivoa %(levels)s u garaži koje je adekvatno za režim.\nImaš vozila nivoa %(levels)s koja se mogu povratiti."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Da učestvuješ u Jurišu, treba ti najmanje jedno vozili nivoa %(levels)s u garaži koje je adekvatno za režim."
+
+msgid "noVehicles/title"
+msgstr "Nema pogodnog vozila u tvojoj garaži"
+
+msgid "page/heading/leaderboard"
+msgstr "TABELA"
+
+msgid "page/heading/progression"
+msgstr "SISTEM RANGOVA"
+
+msgid "page/heading/qualification"
+msgstr "KVALIFIKACIJA"
+
+msgid "page/heading/rankRewards"
+msgstr "NAGRADE ZA RANGOVE"
+
+msgid "page/heading/shop"
+msgstr "PRODAVNICA JURIŠA"
+
+msgid "page/heading/weeklyQuests"
+msgstr "NEDELJNE MISIJE"
+
+msgid "page/heading/yearlyRewards"
+msgstr "GODIŠNJE NAGRADE"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "GODIŠNJA STATISTIKA"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "Napred"
+
+msgid "pagination/prev"
+msgstr "Nazad"
+
+msgid "pbs/bans/title"
+msgstr "BANOVANA VOZILA"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "2D STIL JURIŠA"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "MISIJA 2D STILA JE ZAVRŠENA!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "NEDELJNA MISIJA #%(count)s JE ZAVRŠENA!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "NEDELJNA MISIJA JE ZAVRŠENA!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "JURIŠ NEDELJNO"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "PORAZ, JER SI TI"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "NEREŠENO, JER SI TI"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "POBEDA, ALI SI TI"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "Unapređen u %(rank)s"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "Razrešen u %(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "Unapređen u %(rank)s, %(division)s"
+
+msgid "pbs/overview/qualification/description"
+msgstr "Borbi vođeno"
+
+msgid "pbs/overview/qualification/title"
+msgstr "Kvalifikacije"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "Dobio si disciplinsku kaznu: Ograničenje na poene rejtinga"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "Dobio si disciplinsku kaznu: Nakon završetka kvalifikacija, tvoj rejting će biti smanjen."
+
+msgid "pbs/rankDescription/fifth"
+msgstr "Da bi dostigao legendarni rang, budi među {ede6d9e5_Open}najboljih%(topPercentage)%{ede6d9e5_Close} igrača na tabeli."
+
+msgid "pbs/rankDescription/sixth"
+msgstr "Da bi dostigao legendarni rang, budi među {ede6d9e5_Open}najboljih%(topPercentage)%{ede6d9e5_Close} igrača na tabeli."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Pogledaj stranicu O Jurišu za detalje."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Poeni prestiža"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Nanošenje štete\nAsistencija uočavanja\nUništavanje gusenica\nNanošenje kritičnih pogodaka\nUništavanje neprijatlejskih vozila\nI ostalo"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Ovaj specijalni resurs utiče na broj poena rejtinga zarađenih i izgubljenih u borbi. Poeni prestiža mogu biti zarađeni za obavljanje borbenih akcija uključujući:"
+
+msgid "percentage"
+msgstr "%(percentageValue)s%"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "Prosečni poeni prestiža (dan): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "Odnos ukupno zarađenih poena prestiža prema broju vođenih borbi."
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "Prosečni poeni prestiža (sezona): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "Dnevni rekord poena prestiža: %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "Maksimalan broj poena prestiža zarađenih u borbi u %(vehicleName)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "Sezonski rekord poena prestiža: %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Sezona Azurnog zmaja se završila na %(server)s serveru."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Sezona Grimiznog zmaja se završila na %(server)s serveru."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Sezona Žad zmaja se završila na %(server)s serveru."
+
+msgid "products/actions/buy"
+msgstr "Kupi"
+
+msgid "products/actions/restore"
+msgstr "Ka depou"
+
+msgid "products/actions/toCustomization"
+msgstr "Ka stilu"
+
+msgid "products/actions/toHangar"
+msgstr "Pogledaj u garaži"
+
+msgid "products/customizationUnavailable/body"
+msgstr "Nemoguće je otići na stil. Ovo je možda zbog: još uvek ne poseduješ ovo vozilo, vozilo je u formaciji, vozilo je u borbi ili je potrebna popravka."
+
+msgid "products/customizationUnavailable/title"
+msgstr "Nedostupno"
+
+msgid "products/discount"
+msgstr "-%(discountPercentage)s%"
+
+msgid "products/discountDescription"
+msgstr "Do početka sledeće sezone, imaćeš pristup stvarima i popustima u zavisnosti od tvog {eeede9e6_Open}najvišeg{eeede9e6_Close} {eeede9e6_Open}dostignutog{eeede9e6_Close}{eeede9e6_Open} ranga{eeede9e6_Close}."
+
+msgid "products/discountSectionName"
+msgstr "USLOVI PRISTUPA I POPUSTI"
+
+msgid "products/inProgress"
+msgstr "Molim sačekaj, tvoja kupovina se obrađuje..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "Dostupno za kupovinu po sezoni: %(count)s"
+
+msgid "products/message/notEnough"
+msgstr "Nedovoljni fondovi za kupovinu."
+
+msgid "products/message/rankAccess"
+msgstr "Uslovi za kupovinu\n%(rank)s"
+
+msgid "products/newLabel"
+msgstr "NOVO"
+
+msgid "products/priceSectionName"
+msgstr "CENA"
+
+msgid "products/productAccess"
+msgstr "Pristupni\nrang"
+
+msgid "products/purchased"
+msgstr "Kupljeno"
+
+msgid "products/rankAccess"
+msgstr "Pristupni nag %(rank)s"
+
+msgid "products/readyToRestore"
+msgstr "Povraćaj je dostupan"
+
+msgid "products/readyToRestoreDescription"
+msgstr "Dostupno za povraćaj u depou"
+
+msgid "products/style3d"
+msgstr "%(name)s 3D stil"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "POVRATAK NA STATISTIKU SEZONE"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "STATISTIKE SEZONE"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "STATISTIKA ZA DAN %(day)s"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "STATISTIKA ZA DANAS"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "Svaka kolona pokazuje podatke za period između udarnog vremena izabranog dana i udarnog vremena sledećeg dana. U nekim slučajevima može da uključuje borbe iz dva kalendarska dana."
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "Svaka kolona pokazuje podatke za period između udarnog vremena izabranog dana i udarnog vremena sledećeg dana. U nekim slučajevima može da uključuje borbe iz dva kalendarska dana."
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "Ova sekcija se ažurira samo kada su novi podaci dostupni. Možeš da zahtevaš ažuriranje klikom na dugme za osvežavanje."
+
+msgid "progressionPage/chartHeader/update"
+msgstr "Ažurirano: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "Čestitamo!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "Završio si sve misije 2D stila."
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s / %(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "Serija misija za otključavanje novih elemenata za progresivni 2D stil trenutne sezone."
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "MISIJA 2D STILA: %(taskNumber)s"
+msgstr[1] "MISIJE 2D STILA: %(taskNumber)s"
+msgstr[2] "MISIJE 2D STILA: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "MISIJE 2D STILA"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "Ka stilu"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "Svi stilovi trenutno primenjeni na nedostupna vozila"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "Nema dostupnih vozila za primenu stila"
+
+msgid "progressionPage/error/refresh"
+msgstr "Osveži"
+
+msgid "progressionPage/error/refreshing"
+msgstr "Osvežavanje..."
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "Prosečna šteta"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "Prosek bod. prestiža"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "Promena rejtinga %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "Rekord postavljen %(seasonRecordDescriptionDay)s"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "dan %(day)s"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "Ka svoj statistici"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "Uključuje:\n • Štetu nakon tvog uočavanja (uključujući štetu uz pomoć veština)\n • Štetu nakon tvog uništenja gusenica i imobilizovanja neprijateljskog vozila (uključujući štetu uz pomoć veština)\n • Štetu nanetu od strane saveznika uz pomoć tvojih veština\n • Štetu nanetu od strane saveznika ošamućenom neprijatelju (uključujući ošamućenja uz pomoć tvojih veština)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "Ukupan broj vođenih borbi"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "Odnos ukupne štete i broja borbi"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "Odnos uništenih neprijateljskih vozila prema broju koliko je puta vozilo igrača uništeno"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "Odnos 'nanete štete' i 'pretrpljene šete'"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "Odnos ukupno zarađenih poena prestiža i broja vođenih borbi"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "Vozilo sa najvećim brojem vođenih borbi"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "Ukupana stopa pobeda"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "Prosečna šteta prouzrokovana uz tvoju pomoć"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "Borbe"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "Prosečna naneta šteta"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "Odnos uništenja"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "Odnos štete"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "Prosečan broj poena prestiža po borbi"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "Ime vozila"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "Pobede"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "STATISTIKA VOZILA"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s-%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "Dana do sniženja rejtinga: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "Ako se ne boriš u režimu Juriša, izgubićeš {eeede9e6_Open}%(count)s{eeede9e6_Close} poen rejtinga."
+msgstr[1] "Ako se ne boriš u režimu Juriša, izgubićeš {eeede9e6_Open}%(count)s{eeede9e6_Close} poena rejtinga."
+msgstr[2] "Ako se ne boriš u režimu Juriša, izgubićeš {eeede9e6_Open}%(count)s{eeede9e6_Close} poena rejtinga."
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(1&nbsp;borba&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;poen aktivnosti)"
+msgstr[1] "(1&nbsp;borba&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;poena aktivnosti)"
+msgstr[2] "(1&nbsp;borba&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;poena aktivnosti)"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "nećeš izgubiti rejting poene ako se ne boriš u režimu na svom trenutnom rangu, ali bi mogao ako dostigneš sledeće rangove: %(rankList)s"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "Tvoj rang je pod uticajem neaktivnosti"
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "Tvoj rang nije pod uticajem neaktivnosti"
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "Rang"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "Najboljih %(topPercentage)s% igrača na tabeli"
+
+msgid "progressionTooltip/division"
+msgstr "Divizija %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "Ova divizija je za igrače sa {eeede9e6_Open}%(fromScore) do %(toScore){eeede9e6_Close} poena rejtinga."
+
+msgid "progressionTooltip/info/fifth"
+msgstr "Šampionski rang se dodeljuje igračima koji su zaradili najmanje {eeede9e6_Open}%(fromScore){eeede9e6_Close} poena rejtinga."
+
+msgid "progressionTooltip/info/sixth"
+msgstr "Legendarni rang, se dodeljuje {eeede9e6_Open}najboljim %(topPercentage)%{eeede9e6_Close} igračima na tabeli."
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "Bori se u %(maxBattlesCount)s borbi u režimu da bi utvrdio svoj nivo veštine i rang."
+msgstr[1] "Bori se u %(maxBattlesCount)s borbe u režimu da bi utvrdio svoj nivo veštine i rang."
+msgstr[2] "Bori se u %(maxBattlesCount)s borbi u režimu da bi utvrdio svoj nivo veštine i rang."
+
+msgid "progressionTooltip/qualificationName"
+msgstr "Kvalifikacije"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "Dana do sniženja rejtinga: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "Ako se ne boriš u režimu Juriša, izgubićeš {eeede9e6_Open}%(count)s{eeede9e6_Close} poen rejtinga."
+msgstr[1] "Ako se ne boriš u režimu Juriša, izgubićeš {eeede9e6_Open}%(count)s{eeede9e6_Close} poena rejtinga."
+msgstr[2] "Ako se ne boriš u režimu Juriša, izgubićeš {eeede9e6_Open}%(count)s{eeede9e6_Close} poena rejtinga."
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s Tvoj rang je pod uticajem neaktivnosti ranga."
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "Igraj do kraja dana da održiš svoj rang."
+
+msgid "progressionTooltip/ratingScore"
+msgstr "Poeni rejtinga"
+
+msgid "purchase/affirmative"
+msgstr "Razumem!"
+
+msgid "purchase/cancelButton"
+msgstr "Nazad"
+
+msgid "purchase/confirmButton"
+msgstr "Kupi"
+
+msgid "purchase/error/description"
+msgstr "Završavanje kupovine nije moguće. Molim, pokušaj ponovo kasnije."
+
+msgid "purchase/error/title"
+msgstr "Greška"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)sNemaš odgovarajuće vozilo za ovaj stil u garaži."
+
+msgid "purchase/price"
+msgstr "Cena kupovine:"
+
+msgid "purchase/success/heading"
+msgstr "Hvala na kupovini!"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)sKupljeno će biti dodato na tvoj nalog u igri ubrzo"
+
+msgid "purchase/success/style3d"
+msgstr "%(name)s 3D stil za %(vehicleName)s"
+
+msgid "purchase/title/style3d"
+msgstr "Kupi %(name)s 3D stil?"
+
+msgid "purchase/title/vehicle"
+msgstr "Kupi %(name)s?"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "Bori se u {eeede9_Open}%(maxBattlesCount)s borbi{eeede9_Close} u režimu da bi utvrdio svoj nivo veštine i rang."
+msgstr[1] "Bori se u {eeede9_Open}%(maxBattlesCount)s borbe{eeede9_Close} u režimu da bi utvrdio svoj nivo veštine i rang."
+msgstr[2] "Bori se u {eeede9_Open}%(maxBattlesCount)s borbi{eeede9_Close} u režimu da bi utvrdio svoj nivo veštine i rang."
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "Da završiš kvalifikaciju, bori se u %(maxBattlesCount)s borbi i sačekaj da tvoj rejting bude izračunat. Tvoje performanse u borbi tokom kvalifikacije utiču na konačni rang koji ćeš dobiti.\nDezertiranje u kvalifikacijama vodi ka lošijem rezultatu više nego najgori poraz."
+msgstr[1] "Da završiš kvalifikaciju, bori se u %(maxBattlesCount)s borbe i sačekaj da tvoj rejting bude izračunat. Tvoje performanse u borbi tokom kvalifikacije utiču na konačni rang koji ćeš dobiti.\nDezertiranje u kvalifikacijama vodi ka lošijem rezultatu više nego najgori poraz."
+msgstr[2] "Da završiš kvalifikaciju, bori se u %(maxBattlesCount)s borbi i sačekaj da tvoj rejting bude izračunat. Tvoje performanse u borbi tokom kvalifikacije utiču na konačni rang koji ćeš dobiti.\nDezertiranje u kvalifikacijama vodi ka lošijem rezultatu više nego najgori poraz."
+
+msgid "qualification/conditionTooltip/header"
+msgstr "Pravila kvalifikacije"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "Borbi vođeno"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s Čekanje na kvalifikacione rezultate za dobijanje tvog ranga"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "Može potrajati do pet minuta izračunavanje tvog rejtinga zasnovanog na kvalifikacionim rezultatima. Nakon toga dobićeš rang i možeš da nastaviš sa igranjem režima Juriš."
+
+msgid "qualification/rewardsButton"
+msgstr "Ka nagradama"
+
+msgid "qualification/rewardsDescription"
+msgstr "Nakon kompletiranja kvalifikacija, dobićeš nagrade za rang koji si dostigaoi sve prethodne rangove."
+
+msgid "quotesWrapper"
+msgstr "%(name)s"
+
+msgid "rank/achieved"
+msgstr "Dostignuto"
+
+msgid "rank/current"
+msgstr "Trenutna"
+
+msgid "rank/fifth"
+msgstr "Šampion"
+
+msgid "rank/first"
+msgstr "Gvožđe"
+
+msgid "rank/fourth"
+msgstr "Zlato"
+
+msgid "rank/qualification"
+msgstr "Kvalifikacija"
+
+msgid "rank/second"
+msgstr "Bronza"
+
+msgid "rank/sixth"
+msgstr "Legenda"
+
+msgid "rank/text"
+msgstr "%(rank)s rang"
+
+msgid "rank/third"
+msgstr "Srebro"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "Rang igrača"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "Rang saigrača u vodu"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "Vodovi mogu da se sastoje samo od igrača sličnog ranga."
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "Restrikcije naga za vodove %(count)s -igrača"
+
+msgid "rankInactivityTooltip/description"
+msgstr "Ako ne igraš u ovom režimu, izgubićeš poene rejtinga."
+
+msgid "rankInactivityTooltip/heading"
+msgstr "Neaktivnost ranga"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "Dana pre padanja ranga: %(count)s"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "Dnevni rejting"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "Promena rejting poena: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "Razlika u rejting poenima između odabranog dana i prethodnog dana."
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "Dnevni rekord rejtinga: %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "Maksimalni rejting dostignut odabranog dana."
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "dan %(day)s"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "Sezonski rekord postavljen dana %(dayOfRecord)s"
+
+msgid "rankInfo/current/fifth"
+msgstr "Šampionski rang se dodeljuje igračima koji su zaradili najmanje {eeede9e6_Open}%(fromScore){eeede9e6_Close} poena rejtinga."
+
+msgid "rankInfo/current/sixth"
+msgstr "Legendarni rang, se dodeljuje {eeede9e6_Open}najboljim %(topPercentage)%{eeede9e6_Close} igračima na tabeli."
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "Da dostigneš rang Legende budi među {eeede9e6_Open} najboljih %(topPercentage) igrača %{eeede9e6_Close} na tabeli po poenima rejtinga."
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "Da odbraniš rang Legende ostani među {eeede9e6_Open} najboljih %(topPercentage) igrača %{eeede9e6_Close} na tabeli poena rejtinga."
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "Da dostigneš rang Legende budi među {eeede9e6_Open} najboljih %(topPercentage)igrača %{eeede9e6_Close} na tabeli poena rejtinga. Poeni rejtinga donjeg igrača u rangu &nbsp;Legende&nbsp;: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "Da odbraniš rang Legende ostani među {eeede9e6_Open} najboljih %(topPercentage)igrača %{eeede9e6_Close}na tabeli poena rejtinga. Poeni rejtinga donjeg igrača u rangu &nbsp;Legende&nbsp;: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankUpper/fifth"
+msgstr "ŠAMPION"
+
+msgid "rankUpper/first"
+msgstr "GVOŽĐE"
+
+msgid "rankUpper/fourth"
+msgstr "ZLATO"
+
+msgid "rankUpper/second"
+msgstr "BRONZA"
+
+msgid "rankUpper/sixth"
+msgstr "LEGENDA"
+
+msgid "rankUpper/text"
+msgstr "%(rank)s RANG"
+
+msgid "rankUpper/third"
+msgstr "SREBRO"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "Možeš da izabereš jedan komad od poboljšane opreme sa liste ispod:\n\n• Pritajena izduvna jedinica\n• Inovativno nišanjenje\n• Poboljšani finalni pogon\n• Pooboljšani kompresor\n• Poboljšana otpornost na granate\n• Poboljšana konfiguracija\n• Eksperimentalna optika\n• Inovativni sistem punjenja\n• Sistem ventilacije\n• Sistem pomeranja topa otporan na habanje\n• Sistem opreme za stabilizaciju\n• Teleskopski osmatrački sistem\n• Mreža taktičke prikrivenosti"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "Možeš da izabereš jedan komad od poboljšane opreme sa liste ispod:\n\n• Sistem upravljanja vatre T3\n• Komplet za poboljšavanje preživljavanja T3\n• Sistem za poboljšavanje pokretljivosti T3\n• Sistem poboljšavanja preciznosti T3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "%(name)s kamuflaža"
+
+msgid "rewards/preview"
+msgstr "Pregled"
+
+msgid "rewards/status/achieved"
+msgstr "Primljena nagrada"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}Za vozila %(vehicleLevel)s nivoa{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}Za %(progressionStyleName)s stil{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "Nivo %(vehicleLevel)s"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "Takođe si dobio:"
+
+msgid "rewardsScreen/button"
+msgstr "Razumem!"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "Ka nagradama"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "Izaberi nagradu"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "Idi na kupovinu"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "JURIŠ. KVALIFIKACIJE ZAVRŠENE"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "JURIŠ. SEZONA AZURNOG ZMAJA"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "JURIŠ SEZONA GRIMIZNOG ZMAJA"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "JURIŠ SEZONA ŽAD ZMAJA"
+
+msgid "rewardsScreen/description/year"
+msgstr "JURIŠ. GODINA ZMAJA"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "Gde je moj Ashbringer?!"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "Nema ranga"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "Nakon dostizanja ranga, možeš izgubiti poene rejtinga ako prestaneš da igraš Juriš."
+
+msgid "rewardsScreen/notice/title"
+msgstr "Neaktivnost ranga"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "Ukupno boja\nJuriša"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "Izaberi opremu"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "Odaberi nagrade"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "Novi popusti su dostupni u prodavnici Juriša!"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "Nove stvari su dostupne u prodavnici Juriša!"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "Do početka sledeće sezone, imaćeš pristup stvarima i popustima u zavisnosti od tvog najvišeg dostignutog ranga."
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "Do početka sledeće sezone, imaćeš pristup stvarima i popustima u zavisnosti od tvog najvišeg dostignutog ranga."
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}%(rank)s rang {ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "Na osnovu kvalifikacionih rezultata dobio si nagrade za sledeće rangove: {ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr ", "
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "Dobio si nagrade za unapređenje na {ffe4c0_Open}%(rank)s{ffe4c0_Close} rang"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "Nagrada za završavanje {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} nedeljne misije"
+msgstr[1] "Nagrada za završavanje {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} nedeljne misije"
+msgstr[2] "Nagrada za završavanje {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} nedeljnih misija"
+
+msgid "rewardsScreen/title/division"
+msgstr "DOSTINUTA DIVIZIJA %(division)s"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "DOSTIGNUT RANG {ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "NAGRADE ZA DOSTIGNUTE RANGOVE"
+
+msgid "rewardsScreen/title/rank"
+msgstr "DOSTIGNUT RANG {ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "NAGRADA ZA TVOJ NOVI RANG"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "DOBIJENA NAGRADA"
+msgstr[1] "NAGRADE PRIMLJENE"
+msgstr[2] "NAGRADE PRIMLJENE"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "NAGRADE NEDELJNIH MISIJA"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "GODIŠNJE NAGRADE"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "Dolazi sa:"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "JURIŠ"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "IZABERI NAGRADU"
+msgstr[1] "IZABERI NAGRADE"
+msgstr[2] "IZABERI NAGRADA"
+
+msgid "scoreTooltip/body"
+msgstr "Poeni rejtinga koje zaradiš odlučuju o tvom rangu i diviziji u Jurišu. Pobedi da postaneš najbolji!"
+
+msgid "scoreTooltip/header"
+msgstr "Poeni rejtinga"
+
+msgid "season/daysLeft"
+msgstr "Završava se za %(totalDays)s d"
+
+msgid "season/hoursLeft"
+msgstr "Završava se za %(hours)s h"
+
+msgid "season/minutesLeft"
+msgstr "Završava se za %(minutes)s min"
+
+msgid "season/over"
+msgstr "%(seasonName)s je završen"
+
+msgid "season/range"
+msgstr "%(startDate)s - %(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "Završava se za %(seconds)s s"
+
+msgid "seasonName/first"
+msgstr "Sezona Azurnog zmaja"
+
+msgid "seasonName/second"
+msgstr "Sezona Grimiznog zmaja"
+
+msgid "seasonName/third"
+msgstr "Sezona žad zmaja"
+
+msgid "seasonPointTooltip/header"
+msgstr "Boje Juriša"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "Primljeno"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "Nije primljeno"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "Takmičiš se za boje Juriša"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "Neupotrebljene boje Juriša se pretvorene u bonove po sledećem kursu: {bond_Open}1 boja Juriša{bond_Close} u {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "Na kraju svake sezone, dobićeš boje Juriša u zavisnosti ot tvog dostignutog ranga."
+
+msgid "seasonPointTooltip/text/year"
+msgstr "Svake 3 boje Juriša će poboljšati kvalitet nagrade koju dobijaš na kraju godine."
+
+msgid "seasonStatistics/button/fifth"
+msgstr "Gde je moj trofej?!"
+
+msgid "seasonStatistics/button/first"
+msgstr "Ovo je u redu"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "Moj dragoceni!"
+
+msgid "seasonStatistics/button/second"
+msgstr "Razumem!"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "Legendarno!"
+
+msgid "seasonStatistics/button/third"
+msgstr "I'll Be Back"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "Rejting finalne sezone"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "Pozicija na tabeli: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "NAPAD. %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "Primljena %(points)s boja Juriša"
+msgstr[1] "Primljene %(points)s boje Juriša"
+msgstr[2] "Primljeno %(points)s boja Juriša"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "SEZONA I. AZURNI ZMAJ"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "SEZONA II. GRIMIZNI ZMAJ"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "SEZONA III. ŽAD ZMAJ"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "Pobeda: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "Borbi"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "Prosečno: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "Rekord\nštete"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "Odnos uništenja: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "Najviše vozila uništeno\nu borbi"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "Prosečno: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "Rekord\npoena prestiža"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "STATISTIKE SEZONE"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "U Super vodu: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "Niz pobeda\n(solo / vod)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "Borbi"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "-"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "Nema vozila"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "PRIMARNA VOZILA"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "Pobeda"
+
+msgid "seasonStatistics/title"
+msgstr "%(name)s STATISTIKE SEZONE"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "Sezona se završava za:"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr " - "
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s - %(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "Raspored borbi"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "Danas"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "Sutra"
+
+msgid "selectorTooltip/desc"
+msgstr "Kompetivni režim. 7 na 7 | Nivo X"
+
+msgid "selectorTooltip/title"
+msgstr "Juriš"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Prati najnovije vesti na portalu igre za početak nove sezone."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Režim je trenutno nedostupan zbog tehničkih problema."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Režim će biti dostupan %(time)s"
+
+msgid "shortSeasonName/first"
+msgstr "Azurni Zmaj"
+
+msgid "shortSeasonName/second"
+msgstr "Grimizni Zmaj"
+
+msgid "shortSeasonName/third"
+msgstr "Žad zmaj"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "Ova sekcija sadrži informacije o najboljim igračima trenutne sezone Juriša."
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Ova sekcija sadrži informacije o kvalifikacijama kao i tvoj rang, diviziju, i poene rejtinga nakon završetka."
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "Ova sekcija sadrži informacije o dostupnim nagradama za dostizanje viših rangova u Jurišu."
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "Ova sekcija sadrži informacije o stvarima dostupnim u prodavnici Juriša"
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "Ova sekcija sadrži informacije o nedeljnim misijama u režimu juriša."
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "Ova sekcija sadrži etalje o godišnjim nagradama koje možeš da dobiješ zarađujući boje Juriša."
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "Ova sekcija sadrži informacija o tvojim dostignućima u svakoj sezoni trenutne godine događaja Juriš."
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "Tabela"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Sistem rangova"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "Nagrade za rankove"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "Prodavnica Juriša"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "Nedeljne misije"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "Godišnje nagrade"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "Godišnja statistika"
+
+msgid "sixthRankTooltip/description"
+msgstr "{eeede9e6_Open}Legendarni{eeede9e6_Close} rang će biti dodeljen za najboljih {eeede9e6_Open}%(topPercentage)%{eeede9e6_Close} igrača na tabeli po poenima rejtinga."
+
+msgid "style3dTooltip/954"
+msgstr "Srebrni šiljci"
+
+msgid "style3dTooltip/955"
+msgstr "Zlatne kandže"
+
+msgid "style3dTooltip/956"
+msgstr "Šampionska krila"
+
+msgid "style3dTooltip/957"
+msgstr "Legendarna kreatura"
+
+msgid "style3dTooltip/description"
+msgstr "Jaka kao lav, žestoka kao zmaj i smrtonosna poput škorpije, ova zver je otelotvorenje u metalu kreature koje su se plašili još od antičkih vremena."
+
+msgid "style3dTooltip/howToReceive"
+msgstr "Kako se dobijaju"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "Dodeljuje se za sakupljanje najmanje 9 boja juriša u Godini mantikore u režimu Juriša."
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "Dodeljuje se za sakupljanje najmanje 12 boja juriša u Godini mantikore u režimu Juriša. Zamenjuje prethodni stil."
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "Dodeljuje se za sakupljanje najmanje 15 boja juriša u Godini mantikore u režimu Juriša. Zamenjuje prethodni stil."
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "Dodeljuje se za sakupljanje najmanje 18 boja juriša u Godini mantikore u režimu Juriša. Zamenjuje prethodni stil."
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "Pogodan za vozila"
+
+msgid "system_messages/periodicReward/body"
+msgstr "Dobio si dnevnu nagradu za održavanje %(rank)s ranga.\n%(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "Dnevne nagrade"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Primirje je u toku. Borbe Juriša su trenutno nedostupne."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Primirje"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Primirje je gotovo. Borbe Juriša su ponovo dostupne."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Primirje"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "Čestitamo! Dobio si %(maxRank)s rang.\nDobio si nagrade za sledeće rangove: %(ranks)s:\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "Kvalifikacija je završena"
+
+msgid "system_messages/regularReward/body"
+msgstr "Datum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "Račun"
+
+msgid "system_messages/shop/offer/button"
+msgstr "Idi na Prodavnicu"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "Novi popusti su dostupni u prodavnici Juriša!"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "Popusti su povećani"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "Nove stvari sada dostupne u prodavnici Juriša!"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "Nove stvari su dostupne"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "Greška pri plaćanju. Molim pokušaj kasnije."
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "Datum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "Nagrade za završavanje nedeljnih misija"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "Datum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "Nagrada za nedeljnu misiju"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "O Jurišu"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "Novosti sezone"
+
+msgid "tournament/LBFinals"
+msgstr "GG FINALE"
+
+msgid "tournament/LBRound1"
+msgstr "GG 1. RUNDA"
+
+msgid "tournament/LBRound2"
+msgstr "GG 2. RUNDA"
+
+msgid "tournament/LBSemifinals"
+msgstr "GG POLU FINALE"
+
+msgid "tournament/UBFinals"
+msgstr "DG finale"
+
+msgid "tournament/UBSemifinals"
+msgstr "DG POLU FINALE"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "Poeni rejtinga se ne mogu zaraditi niti gubiti u Turniru."
+
+msgid "tournament/bestOf"
+msgstr "NAJBOLJI OD %(number)s"
+
+msgid "tournament/cny"
+msgstr "%(amount)s CNY"
+
+msgid "tournament/cnySign"
+msgstr "%(amount)s ¥"
+
+msgid "tournament/comeBack"
+msgstr "Molimo pokušaj ponovo kasnije"
+
+msgid "tournament/comingSoon"
+msgstr "USKORO %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "VREMENA MOGU VARIRTI U ZAVISNOSTI OD DUŽINE MEČEVA"
+
+msgid "tournament/completed"
+msgstr "ZAVRŠENO"
+
+msgid "tournament/douyin"
+msgstr "Gledaj na Douyin"
+
+msgid "tournament/drops/huya"
+msgstr "Gledaj na Huya i zaradi ekskluzivne \nHuya dropove!"
+
+msgid "tournament/drops/twitch"
+msgstr "Gledaj na Twitch i zaradi ekskluzivne \nTwitch dropove!"
+
+msgid "tournament/dropsShort/huya"
+msgstr "I zaradi ekskluzivne Huya dropove!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "I zaradi ekskluzivne Twitch dropove!"
+
+msgid "tournament/error"
+msgstr "GREŠKA UČITAVANJA PODATAKA"
+
+msgid "tournament/eur"
+msgstr "%(amount)s EUR"
+
+msgid "tournament/euroSign"
+msgstr "€%(amount)s"
+
+msgid "tournament/finalResult"
+msgstr "POBEDNIK"
+
+msgid "tournament/fundDistribution"
+msgstr "RASPODELA NAGRADA"
+
+msgid "tournament/grandFinals"
+msgstr "VELIKO FINALE"
+
+msgid "tournament/huya"
+msgstr "Gledaj na Huya"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "Nagradni fond se formira iz kupovine igračkih paketa. Poslednji put ažurirano u: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "NEMA VIŠE ZAKAZANIH MEČEVA"
+
+msgid "tournament/ols/roundRobin"
+msgstr "FAZA %(phase)s RUNDA %(round)s"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s - %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "NAGRADE %(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "I ŠANSU ZA VEČNU SLAVU"
+
+msgid "tournament/refresh"
+msgstr "Osveži"
+
+msgid "tournament/refreshing"
+msgstr "Osvežavanje..."
+
+msgid "tournament/roundOf"
+msgstr "%(number)s RUNDA"
+
+msgid "tournament/separator"
+msgstr "ILI"
+
+msgid "tournament/tab/overview"
+msgstr "PREGLED"
+
+msgid "tournament/tab/schedule"
+msgstr "RASPORED"
+
+msgid "tournament/teamPlaceholder"
+msgstr "USKORO"
+
+msgid "tournament/toShop"
+msgstr "Poseti prodavnicu"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "Razmena"
+
+msgid "tournament/tokenStore/ols"
+msgstr "SLJ ŽETONI"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "Dostupno u:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "O turniru"
+
+msgid "tournament/twitch"
+msgstr "Gledaj na Twitch"
+
+msgid "tournament/viewFull"
+msgstr "Pogledaj sve"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "Podrži serijal Legende Juriša podižući nagradni fond paketima turnira!"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "Pokaži svoj esport duh sa ekskluivnim elementima prilagođavanja i jedinstvenim tenkovima!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "NAPUNI NAGRADNI FOND"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "WCI PAKETI"
+
+msgid "tournament/vsBestOf"
+msgstr "PROTIV\nNAJBOLJI IZ %(number)s"
+
+msgid "tournament/wci/roundRobin"
+msgstr "ROBIN RUNDA"
+
+msgid "tournament/winner"
+msgstr "Pobednik"
+
+msgid "tournament/youtube"
+msgstr "Gledaj na Youtube"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "Najbolji evropski timovi se bore za titulu šampiona Serijala legende juriša! Gledaj uzbudljive 7 na 7 mečeve, zaradi Twitch dropove i podrži svoje omiljene timove podižući nagradni fond kroz ekskluzivne pakete prilagođavanja."
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "Epski sukob je zakazan da se odigra na World of Tanks internacionalnom šampionatu u Suzhou, Kini, gde će se najžešći timovi na svetu sukobiti po pravilima režima Juriša, nadmećući se za prestižnu titulu svetskog šampiona. Iskusi uzbuđenje dok se legende rađaju na bojnom polju!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "SLJ sezona 6"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI'25"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "Lajv strim će biti dostupan za %(timer)s"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "Još mečeva za %(timer)s"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "Poeni rejtinga ne mogu biti zarađeni u treningu Juriša"
+
+msgid "unit/message/modeOffline"
+msgstr "Nije moguće pridružiti se borbi: Greška baze podataka."
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "Restrikcija razlike ranga je prekoračena"
+
+msgid "voiceChat/active"
+msgstr "Napusti glasovni čet"
+
+msgid "voiceChat/inactive"
+msgstr "Pridruži se glasovnom četu"
+
+msgid "waitingSpinner/message"
+msgstr "Pokretanje..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "Misije Juriša su završene"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "Odlično! Završio si sve nedeljne misije. Ne zaboravi da preuzmeš svoju nagradu i vidimo se u sledećoj sezoni!"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "Dobićeš dodatne nagrade za završavanje {eeede9e5_Open}%(questsList)s{eeede9e5_Close}, i {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close} misija"
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "Nedeljna misija Juriša"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "Završeno: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s nova misija za:"
+msgstr[1] "%(value)s nove misije za:"
+msgstr[2] "%(value)s novih misija za:"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "Nagrada:"
+msgstr[1] "Nagrada:"
+msgstr[2] "Nagrada:"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)s NOVA MISIJA ZA %(countdown)s"
+msgstr[1] "%(value)s NOVE MISIJE ZA %(countdown)s"
+msgstr[2] "%(value)s NOVIH MISIJA ZA %(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "NOVE MISIJE SLEDEĆE SEZONE!"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "Misija završeno: %(passed)s{eeede980_Open}/%(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "Dobićeš %(value)s novu misiju svake nedelje. Svaka završena misija se računa za tvoju nagradu!"
+msgstr[1] "Dobićeš %(value)s nove misije svake nedelje. Svaka završena misija se računa za tvoju nagradu!"
+msgstr[2] "Dobićeš %(value)s novih misija svake nedelje. Svaka završena misija se računa za tvoju nagradu!"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "U toku"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "Završeno"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "Nedostupno"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "Nedostupno za završavanje: Režim nije aktivan."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "Za otključavanje, izuči i kupi vozilo X nivoa."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "Završi prethodnu misiju da bi otključao ovu."
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "Misija je nedostupna"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "Preuzmi svoju nagradu!"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "Završeno: %(current)s / %(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "Misija %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s nova misija za:"
+msgstr[1] "%(value)s nove misije za:"
+msgstr[2] "%(value)s novih misija za:"
+
+msgid "whatsNewButtonLabel"
+msgstr "SEZONSKE NOVOSTI"
+
+msgid "whatsNewView/banner/description"
+msgstr "Ova sezona označava tvoju poslednju šansu da preuzmeš vredne nagrade, uključujući ekskluzivan teški tenk X nivoa Ashbringer sa jedinstvenim 3D stilovima koje si zaradio za njega i tvoju neustrašivu posadu sa nultom veštinom Braća po oružju, plus poboljšanu i eksperimentalnu opremu za odabir, 2D stila koji privlači pogled i drugog. Nemoj da propustiš - tvoje pobede čekju na bojištu!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "Uhvati poslednje momente u godini zmaja!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "SEZONA ŽAD ZMAJA"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "JURIŠ. ŠTA JE NOVO?"
+
+msgid "whatsNewView/button/ok"
+msgstr "Ban-tastično!"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "Poboljšani ekran sa rezultatima nakon borbe sa svojim svežim dizajnom verzije 2.0 će ti sada davati dodatne informacije vezane za režim nakon svake borbe."
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "Detaljni rezultati borbe"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "Ne plaši se ako je tvoje omiljeno vozilo isključeno. Vozila za iznamljivanje sada dolaze sa unapred definisanim posadama, opremom, granatama i potrošnim materijalom."
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "Vozila za iznajmljivanje spremna za akciju %(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "Ove sezone, svaki tim može potpuno da banuje vozilo iz igre. Kordiniši glasove sa saveznicima da isključiš mašinu koja te najviše plaši ili da pripremiš neočekivanu postavku za neprijatelja."
+
+msgid "whatsNewView/intro/heading"
+msgstr "Banovanje vozila %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "Mape"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "Nova vozila dostupna u Jurišu"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "VOZILA RENTE"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "Nedavno dodat Ares 90 američki srednji tenk X nivoa je sada dostupan u režimu sa prilagođenom veštinom uloge."
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "Ažuriranje veštine uloge %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "114 SP2 je sada dostupno za kupovinu u srebrnom rengu u prodavnici Juriša."
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "Ažuriranje prodavnice %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "ISKLJUČENO"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "U PONOVNOM RAZVOJU"
+
+msgid "whatsNewView/tag/attention"
+msgstr "Pažnja"
+
+msgid "whatsNewView/tag/changed"
+msgstr "Promenjeno"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "Eksperimentalna"
+
+msgid "whatsNewView/tag/new"
+msgstr "Novo"
+
+msgid "whatsNewView/tag/returned"
+msgstr "Vraćeno"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "Prerađeno"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "Sezonske novosti"
+
+msgid "whatsNewView/watchVideo"
+msgstr "Pogledaj video"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "Procenat pobede (dan): %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "Porazi: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "Nerešeno: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "Procenat pobede (sezona): %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "Odnos ukupnih pobeda u odnosu na broj vođenih borbi.\nBorbe po rezultatu:"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "Pobede: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "Nagrade se isporučuju na kraju treće sezone."
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "Nagrade će biti isporučene uskoro. Molim sačekaj."
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "Godišnja nagrada je primljena. Vidimo se sledeće godine!"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "Imaš opremu za odabir"
+
+msgid "yearlyRewards/claim"
+msgstr "Preuzmi"
+
+msgid "yearlyRewards/claimReward"
+msgstr "Preuzmi nagradu"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "Dobio si 1%(seasonPointIcon)s za svaki rang na kraju sezone."
+
+msgid "yearlyRewards/description/current"
+msgstr "Dobićeš 1%(seasonPointIcon)s za svaki rang na kraju sezone."
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\nsa jedinstvenim 3D stilovima"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "KA GODIŠNJIM NAGRADAMA"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "Pregled 2D stila"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "Pregled 3D stila"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "Dostignut rang: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "Trenutni rang: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "Četiri jedinstvena člana posade"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "Primljena nagrada"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "Zagarantovana nagrada"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "Zaradi ukupno %(count)s boja da dobiješ etapne nagrade"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "Potencijalna nagrada"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "Garantovano dobijaš ovu nagradu na kraju godine."
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "Zaradi potreban broj boja Juriša da bi dobio svoju nagradu na kraju godine."
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "Dobićeš ovu nagradu na kraju godine ako održiš svoj trenutni rang ili ga povećaš pre kraja sezone."
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "Aktivna etapa"
+
+msgid "yearlyStatistics/battles"
+msgstr "Borbi (solo/vod)"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "Isračunavanje sezonske statistike..."
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)sKa statistici sezone"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "Nema ranga"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "%(rank)s rang"
+
+msgid "yearlyStatistics/rating"
+msgstr "Poeni rejtinga"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "Jesen 2025"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "Zima 2026"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "Proleće 2026"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s - %(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "Sezona I. Azurni zmaj"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "Sezona II. Grimizni zmaj"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "Sezona III. Žad zmaj"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "Trenutna"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "Završeno"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "Borbe (Super vod)"
+
+msgid "yearlyStatistics/wins"
+msgstr "Procenat pobede"

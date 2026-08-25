@@ -1,0 +1,1124 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "comparison/fullUpgrades/title"
+msgstr "Plně vyzkoumáno"
+
+msgid "comparison/partialUpgrades/title"
+msgstr "Stávající"
+
+msgid "comparison/title"
+msgstr "Vylepšení"
+
+msgid "comparison/tooltip/body"
+msgstr "Obrazovka konfigurace ukazuje, jak vylepšení ovlivní charakteristiky vozidla. Vyberte „Plně vyzkoumáno“ a prohlédněte si úplný efekt všech dostupných vylepšení."
+
+msgid "comparison/tooltip/header"
+msgstr "Vylepšení"
+
+msgid "comparison/zeroUpgrades/title"
+msgstr "Nevyzkoumáno"
+
+msgid "dialog/altConfiguration/description"
+msgstr "Nechte tyto možnosti zapnuté, abyste mohli před bitvou přepínat mezi sadami výbavy."
+
+msgid "dialog/altConfiguration/info"
+msgstr "Tato nastavení můžete kdykoliv změnit."
+
+msgid "dialog/altConfiguration/optDevBoostersSwitch"
+msgstr "Vedlejší výzbroj"
+
+msgid "dialog/altConfiguration/shellsConsumablesSwitch"
+msgstr "Základní výzbroj"
+
+msgid "dialog/altConfiguration/title"
+msgstr "Alternativní konfigurace"
+
+msgid "dialog/common/accept"
+msgstr "Potvrdit"
+
+msgid "dialog/confirmation/researchPerks"
+msgid_plural "plural/dialog/confirmation/researchPerks"
+msgstr[0] "%(perks)s"
+msgstr[1] "Uzly %(perks)s"
+msgstr[2] "Uzlů %(perks)s"
+
+msgid "footer/button/label"
+msgstr "Vyzkoumat"
+
+msgid "footer/description/text/allResearched"
+msgstr "Všechny uzly byly vyzkoumány. Nyní máte přístup do systému Elitních odměn."
+
+msgid "footer/description/text/emergencyModeEnabled"
+msgstr "Peněženka WG je dočasně nedostupná. Omlouváme se za nepříjemnosti."
+
+msgid "footer/description/text/inBattle"
+msgstr "Uzel není k dispozici. Vozidlo je v bitvě."
+
+msgid "footer/description/text/inFormation"
+msgstr "Uzel není k dispozici. Vozidlo je v taktické jednotce."
+
+msgid "footer/description/text/needsRepair"
+msgstr "Uzel není k dispozici. Vozidlo vyžaduje opravy."
+
+msgid "footer/description/text/notInInventory"
+msgstr "Před výzkumem uzlů musíte toto vozidlo vlastnit"
+
+msgid "footer/description/text/researchAvailable"
+msgstr "Vyberte uzel nebo větev uzlu k vyzkoumání"
+
+msgid "footer/text/amountItems"
+msgstr "{{amount}} uzlů"
+
+msgid "footer/text/selectedItem"
+msgstr "Vybráno: {{selectedItem}}"
+
+msgid "footer/tooltip/body/emergencyModeEnabled"
+msgstr "Peněženka WG je dočasně nedostupná. Omlouváme se za nepříjemnosti."
+
+msgid "footer/tooltip/body/inBattle"
+msgstr "Uzel není k dispozici. Vozidlo je v bitvě."
+
+msgid "footer/tooltip/body/inFormation"
+msgstr "Uzel není k dispozici. Vozidlo je v taktické jednotce."
+
+msgid "footer/tooltip/body/needsRepair"
+msgstr "Uzel není k dispozici. Vozidlo vyžaduje opravy."
+
+msgid "footer/tooltip/body/notEnoughExp"
+msgstr "Nedostatek ZK pro výzkum vybraných uzlů."
+
+msgid "footer/tooltip/body/researchInProgress"
+msgstr "Probíhá výzkum, počkejte prosím..."
+
+msgid "footer/tooltip/header/emergencyModeEnabled"
+msgstr "Není k dispozici"
+
+msgid "footer/tooltip/header/info"
+msgstr "Vybrané uzly"
+
+msgid "footer/tooltip/listSelectedPerks"
+msgid_plural "plural/footer/tooltip/listSelectedPerks"
+msgstr[0] "• {{selectedPerks}},"
+msgstr[1] "• {{selectedPerks}}."
+msgstr[2] "• {{selectedPerks}}."
+
+msgid "intro/button"
+msgstr "Potvrzuji!"
+
+msgid "intro/button/tooltip"
+msgstr "O vylepšeních"
+
+msgid "intro/improvements/description"
+msgstr "Získávejte bojové ZK a odemykejte uzly, které zlepší charakteristiky vašeho vozidla. Konečné charakteristiky mohou být vyšší nebo nižší než uvedené hodnoty kvůli dodatečným aditivním a multiplikativním modifikátorům aplikovaným po bonusech uzlů."
+
+msgid "intro/improvements/title"
+msgstr "Jak to funguje"
+
+msgid "intro/progression/description"
+msgstr "Vylepšení, která jsou dostupná exkluzivně pro vozidla XI. úrovně, vám umožňují ještě více vylepšit charakteristiky vašich vozidel."
+
+msgid "intro/progression/title"
+msgstr "Vylepšení"
+
+msgid "intro/vanity/description"
+msgstr "Po vyzkoumání všech uzlů získáte přístup k Elitním odměnám, které si můžete vyzvednout po dosažení určitých Elitních úrovní. Odměny obsahují jedinečný volumetrický styl, Sledovač statistik a kryt děla!"
+
+msgid "intro/vanity/title"
+msgstr "Elitní odměny"
+
+msgid "kpi/bonus/valueTypes/cnt"
+msgstr " předmět/předměty"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/gps"
+msgstr " stupňů/s"
+
+msgid "kpi/bonus/valueTypes/grads"
+msgstr " stupňů"
+
+msgid "kpi/bonus/valueTypes/m"
+msgstr " m"
+
+msgid "kpi/bonus/valueTypes/mm"
+msgstr " mm"
+
+msgid "kpi/bonus/valueTypes/mph"
+msgstr " km/h"
+
+msgid "kpi/bonus/valueTypes/mps"
+msgstr " m/s"
+
+msgid "kpi/bonus/valueTypes/p"
+msgstr " hp"
+
+msgid "kpi/bonus/valueTypes/s"
+msgstr " s"
+
+msgid "kpi/bonus/valueTypes/val"
+msgstr " HP"
+
+msgid "notifications/perkAvailable/disabledButtonTooltip"
+msgstr "Tato funkce je dočasně nedostupná"
+
+msgid "notifications/perkAvailable/goToProgression"
+msgstr "Přejít na vylepšení"
+
+msgid "notifications/perkAvailable/title"
+msgstr "Máte dostatek ZK pro vylepšení vašeho vozidla!"
+
+msgid "rewardScreen/button/accept"
+msgstr "Potvrzuji"
+
+msgid "rewardScreen/button/check"
+msgstr "Prohlédnout v sekci „Vnější vzhled“"
+
+msgid "rewardScreen/rewardName"
+msgstr "{{rarity}} {{rewardName}}"
+
+msgid "rewardScreen/subtitle"
+msgstr "Za dosažení {{prestigeLevel}}. Elitní úrovně ve {{type}} {{name}} {{level}}"
+
+msgid "rewardScreen/title"
+msgstr "ELITNÍ ODMĚNA"
+
+msgid "tooltips/backToMainProgressionEntryPoint/text"
+msgstr "Vylepšení, která jsou dostupná exkluzivně pro vozidla XI. úrovně, vám umožňují ještě více vylepšit charakteristiky vašich vozidel."
+
+msgid "tooltips/backToMainProgressionEntryPoint/title"
+msgstr "Vylepšení"
+
+msgid "tooltips/common/cost"
+msgstr "Cena: {{amount}}"
+
+msgid "tooltips/description/HEDamageAbsorption"
+msgstr "Vylepšuje schopnost vašeho vozidla pohltit HE granáty a poškození způsobené nárazem."
+
+msgid "tooltips/description/HEShellDamage"
+msgstr "Zvyšuje poškození způsobené HE granáty."
+
+msgid "tooltips/description/HEshellVelocity"
+msgstr "Zvyšuje rychlost HE granátů."
+
+msgid "tooltips/description/a179_mechanic_0"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} snižuje rozptyl druhého výstřelu v režimu palby dávkou."
+
+msgid "tooltips/description/a179_mechanic_1"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu obnovení pro palbu v režimu palby dávkou."
+
+msgid "tooltips/description/a182_mechanic_0"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje bonus k rychlosti nabíjení za úroveň efektivity."
+
+msgid "tooltips/description/a182_mechanic_1"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} prodlužuje dobu trvání úrovní efektivity nabíjení."
+
+msgid "tooltips/description/a182_mechanic_2"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} prodlužuje dobu trvání úrovní efektivity nabíjení."
+
+msgid "tooltips/description/a182_mechanic_3"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje bonus k rychlosti nabíjení za úroveň efektivity."
+
+msgid "tooltips/description/a183_mechanic_0"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu obnovení před tím, než lze mechaniku znovu použít."
+
+msgid "tooltips/description/a183_mechanic_1"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu obnovení před tím, než lze mechaniku znovu použít."
+
+msgid "tooltips/description/a183_mechanic_2"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} prodlužuje dobu trvání mechaniky."
+
+msgid "tooltips/description/a183_mechanic_3"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} prodlužuje dobu trvání mechaniky."
+
+msgid "tooltips/description/a195_mechanic_1"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} snižuje rozptyl na 100 m pro výstřely s částečným nabitím."
+
+msgid "tooltips/description/a195_mechanic_2"
+msgstr "O {colorTagOpen}{value} HP{colorTagClose} zvyšuje poškození způsobené výstřely s částečným nabitím standardními a speciálními granáty."
+
+msgid "tooltips/description/a195_mechanic_3"
+msgstr "O {colorTagOpen}{value} m/s{colorTagClose} zvyšuje rychlost letu granátů pro výstřely s částečným nabitím."
+
+msgid "tooltips/description/a195_mechanic_4"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} snižuje dobu nabíjení výstřelu s částečným nabitím."
+
+msgid "tooltips/description/advancedChassisProtection"
+msgstr "Zvyšuje počet bodů výdrže podvozku a rychlost oprav."
+
+msgid "tooltips/description/advancedModuleAndCrewProtection"
+msgstr "Snižuje postih, když je poškozena bedna s municí nebo motor vozidla, a snižuje šanci na zranění člena posádky při poškození vozidla."
+
+msgid "tooltips/description/aimingCircleSize"
+msgstr "Zmenšuje velikost vašeho kruhu zaměřování po výstřelu."
+
+msgid "tooltips/description/aimingTime"
+msgstr "Snižuje čas zaměření vašeho vozidla."
+
+msgid "tooltips/description/aimingTimeSalvo"
+msgstr "Snižuje čas zaměření vašeho vozidla v režimu palby jednotlivými výstřely."
+
+msgid "tooltips/description/allShellDamage"
+msgstr "Zvyšuje poškození způsobené všemi typy granátů."
+
+msgid "tooltips/description/allShellsVelocity"
+msgstr "Zvyšuje rychlost všech vašich granátů."
+
+msgid "tooltips/description/ammoRackHP"
+msgstr "Zvyšuje hodnotu poškození, které může bedna s municí obdržet, než bude zničena."
+
+msgid "tooltips/description/ammoRackPenalty"
+msgstr "Snižuje postih, když je poškozena bedna s municí vašeho vozidla."
+
+msgid "tooltips/description/basicShellDamage"
+msgstr "Zvyšuje poškození způsobené standardními granáty."
+
+msgid "tooltips/description/ch67_mechanic_0"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje rychlost otáčení, když jsou trysky aktivní."
+
+msgid "tooltips/description/ch67_mechanic_1"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje maximální rychlost, když jsou trysky aktivní."
+
+msgid "tooltips/description/ch67_mechanic_2"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu obnovení, než jsou trysky plně obnoveny."
+
+msgid "tooltips/description/ch67_mechanic_3"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} prodlužuje maximální dobu trvání trysek."
+
+msgid "tooltips/description/ch70_mechanic_0"
+msgstr "O {colorTagOpen}{value} %{colorTagClose} zvyšuje výkon motoru poskytovaný tryskami."
+
+msgid "tooltips/description/ch70_mechanic_1"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu obnovení před tím, než lze trysky znovu použít."
+
+msgid "tooltips/description/ch70_mechanic_2"
+msgstr "O {colorTagOpen}{value} %{colorTagClose} zvyšuje výkon motoru poskytovaný tryskami."
+
+msgid "tooltips/description/ch70_mechanic_3"
+msgstr "O {colorTagOpen}{value}{colorTagClose} zvyšuje maximální počet použití trysek v jedné bitvě."
+
+msgid "tooltips/description/crewProtection"
+msgstr "Snižuje šanci na zranění člena posádky při poškození vozidla."
+
+msgid "tooltips/description/damagedGunDispersion"
+msgstr "Snižuje rozptyl děla při poškození vašeho děla."
+
+msgid "tooltips/description/driveModeForwardSpeed"
+msgstr "Zvyšuje maximální rychlost jízdy vpřed v cestovním režimu."
+
+msgid "tooltips/description/driveModeReverseSpeed"
+msgstr "Zvyšuje maximální rychlost couvání v cestovním režimu."
+
+msgid "tooltips/description/enginePenalty"
+msgstr "Snižuje postih, když je poškozen motor vašeho vozidla."
+
+msgid "tooltips/description/enginePower"
+msgstr "Zvyšuje výkon motoru, čímž umožňuje vašemu vozidlu nabrat rychlost a rychleji vyjet na kopec."
+
+msgid "tooltips/description/f135_mechanic_0"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} snižuje dobu do začátku nabíjení."
+
+msgid "tooltips/description/f135_mechanic_1"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} snižuje prodlevu před výstřelem po přerušení nabíjení."
+
+msgid "tooltips/description/f136_mechanic_0"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje postih k době nabíjení po vystřelení posledního granátu v kazetě."
+
+msgid "tooltips/description/f143_mechanic_0"
+msgstr "Když je překročen limit, o {colorTagOpen}{value0}%{colorTagClose} snižuje postih k rozptylu na 100 m a o {colorTagOpen}{value1}%{colorTagClose} snižuje postih k času zaměření děla."
+
+msgid "tooltips/description/f143_mechanic_1"
+msgstr "O {colorTagOpen}{value} %/s{colorTagClose} zvyšuje rychlost sbírání nabití."
+
+msgid "tooltips/description/f143_mechanic_2"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} snižuje množství nabití ztraceného po výstřelu."
+
+msgid "tooltips/description/f143_mechanic_3"
+msgstr "O {colorTagOpen}{value0} HP{colorTagClose} zvyšuje nárůst poškození po překročení limitu a o {colorTagOpen}{value1}%{colorTagClose} zvyšuje maximální bonus k poškození po překročení limitu."
+
+msgid "tooltips/description/forwardSpeed"
+msgstr "Zvyšuje rychlost vozidla při jízdě vpřed."
+
+msgid "tooltips/description/g185_mechanic_0"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje bonus k rozptylu za úroveň přesnosti."
+
+msgid "tooltips/description/g185_mechanic_1"
+msgstr "O {colorTagOpen}{value} km/h{colorTagClose} zvyšuje maximální rychlost, při které lze získat úrovně přesnosti."
+
+msgid "tooltips/description/g185_mechanic_2"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu vyžadovanou pro dosažení další úrovně přesnosti."
+
+msgid "tooltips/description/g185_mechanic_3"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje bonus ke stabilizaci na maximální úrovni přesnosti."
+
+msgid "tooltips/description/g187_mechanic_0"
+msgstr "Snižuje dobu nabíjení pomocných děl o {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g187_mechanic_1"
+msgstr "Snižuje dobu nabíjení pomocných děl o {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_0"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} prodlužuje dobu, po kterou označené nepřátelské vozidlo zůstane odhalené."
+
+msgid "tooltips/description/g188_mechanic_1"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu obnovení před tím, než lze mechaniku znovu použít."
+
+msgid "tooltips/description/g188_mechanic_2"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje výchozí dobu obnovení před tím, než lze mechaniku použít."
+
+msgid "tooltips/description/g188_mechanic_3"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje dodatečné poškození způsobené spojeneckými granáty označeným vozidlům."
+
+msgid "tooltips/description/g189_mechanic_0"
+msgstr "O {colorTagOpen}{value} km/h{colorTagClose} zvyšuje maximální rychlost, při které lze generovat nahřátí."
+
+msgid "tooltips/description/g189_mechanic_1"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje maximální bonus k rozptylu z nahřátí."
+
+msgid "tooltips/description/g189_mechanic_2"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje maximální bonus k poškození z nahřátí."
+
+msgid "tooltips/description/g189_mechanic_3"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu vyžadovanou pro dosažení maximální úrovně nahřátí."
+
+msgid "tooltips/description/gb147_mechanic_0"
+msgstr "O {colorTagOpen}{value} metrů{colorTagClose} snižuje rozptyl děla v režimu palby salvou."
+
+msgid "tooltips/description/gb147_mechanic_1"
+msgstr "O {colorTagOpen}{value} stupňů/s{colorTagClose} zvyšuje rychlost otáčení věže v režimu palby salvou."
+
+msgid "tooltips/description/gb147_mechanic_2"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje čas zaměření v režimu palby salvou."
+
+msgid "tooltips/description/gb147_mechanic_3"
+msgstr "O {colorTagOpen}{value} km/h{colorTagClose} zvyšuje maximální rychlost jízdy vpřed v režimu palby salvou."
+
+msgid "tooltips/description/gb152_mechanic_0"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu vyžadovanou pro přepnutí do režimu přímého pohonu."
+
+msgid "tooltips/description/gb152_mechanic_1"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu vyžadovanou pro dosažení maximálního výkonu v režimu přímého pohonu."
+
+msgid "tooltips/description/gb152_mechanic_2"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje výkon motoru v režimu přímého pohonu."
+
+msgid "tooltips/description/gb152_mechanic_3"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje maximální rychlost jízdy vpřed v režimu přímého pohonu."
+
+msgid "tooltips/description/gb158_mechanic_0"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje posílení výkonu motoru poskytované Pomocným turbodmychadlem."
+
+msgid "tooltips/description/gb158_mechanic_1"
+msgstr "Když je Pomocné turbodmychadlo aktivní, o {colorTagOpen}{value} km/h{colorTagClose} zvyšuje maximální rychlost couvání."
+
+msgid "tooltips/description/gb158_mechanic_2"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} prodlužuje dobu trvání Pomocného turbodmychadla."
+
+msgid "tooltips/description/gb158_mechanic_3"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu obnovení před tím, než lze pomocné turbodmychadlo znovu použít."
+
+msgid "tooltips/description/gunDepression"
+msgstr "Zvyšuje úhel sklápění děla."
+
+msgid "tooltips/description/gunDispersion"
+msgstr "Zlepšuje soustřel granátů v kruhu zaměřovače."
+
+msgid "tooltips/description/gunDispersionSalvo"
+msgstr "Zlepšuje soustřel granátů v kruhu zaměřovače v režimu palby jednotlivými výstřely."
+
+msgid "tooltips/description/gunStabilization"
+msgstr "Zlepšuje stabilizaci děla ve všech situacích."
+
+msgid "tooltips/description/gunStabilizationFromHull"
+msgstr "Zlepšuje stabilizaci děla za pohybu a při otáčení korby."
+
+msgid "tooltips/description/gunStabilizationFromHullMovement"
+msgstr "Zlepšuje stabilizaci děla při pohybu korby."
+
+msgid "tooltips/description/gunStabilizationFromHullRotation"
+msgstr "Zlepšuje stabilizaci děla při otáčení korby."
+
+msgid "tooltips/description/gunStabilizationFromHullSalvo"
+msgstr "Zlepšuje stabilizaci děla za pohybu a při otáčení korby v režimu palby jednotlivými výstřely."
+
+msgid "tooltips/description/gunStabilizationFromTurret"
+msgstr "Zlepšuje stabilizaci děla při otáčení věže."
+
+msgid "tooltips/description/gunStabilizationFromTurretSalvo"
+msgstr "Zlepšuje stabilizaci děla při otáčení věže v režimu palby jednotlivými výstřely."
+
+msgid "tooltips/description/gunTraverse"
+msgstr "Zvyšuje maximální úhly horizontálního otáčení děla."
+
+msgid "tooltips/description/hitPoints"
+msgstr "Zvyšuje odolnost vozidla a umožňuje mu obdržet více poškození před tím, než bude zničeno."
+
+msgid "tooltips/description/innerClipReloadTime"
+msgstr "Snižuje dobu nabíjení mezi granáty v zásobníku vašeho děla."
+
+msgid "tooltips/description/invisibilityWhenShooting"
+msgstr "Snižuje pravděpodobnost, že vás po výstřelu odhalí nepřátelská vozidla."
+
+msgid "tooltips/description/j52_mechanic_0"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} zkracuje čekací dobu před ochlazováním děla."
+
+msgid "tooltips/description/j52_mechanic_1"
+msgstr "O {colorTagOpen}{value} %{colorTagClose} snižuje množství tepla generovaného dělem při každém výstřelu."
+
+msgid "tooltips/description/j52_mechanic_2"
+msgstr "O {colorTagOpen}{value} %{colorTagClose} zrychluje ochlazování zahřátého děla."
+
+msgid "tooltips/description/nonHEShellDamage"
+msgstr "Zvyšuje poškození způsobené nevýbušnými granáty."
+
+msgid "tooltips/description/opt_dev_boosters_switch"
+msgstr "Umožňuje vám nastavit si alternativní konfiguraci vybavení a směrnic."
+
+msgid "tooltips/description/overheat_coolingDelay"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} zkracuje čekací dobu před ochlazováním děla."
+
+msgid "tooltips/description/overheat_coolingPerSec"
+msgstr "O {colorTagOpen}{value} %{colorTagClose} zvyšuje rychlost ochlazování zahřátého a přehřátého děla."
+
+msgid "tooltips/description/overheat_heatingPerShot"
+msgstr "O {colorTagOpen}{value} %{colorTagClose} snižuje množství tepla generovaného dělem při každém výstřelu."
+
+msgid "tooltips/description/overheat_overheatedCoolingPerSec"
+msgstr "O {colorTagOpen}{value} %{colorTagClose} zvyšuje rychlost ochlazování přehřátého děla."
+
+msgid "tooltips/description/pl37_mechanic_0"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu potřebnou pro přepnutí mezi režimy."
+
+msgid "tooltips/description/pl37_mechanic_1"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje množství pasivně generované energie generované za sekundu v turbo režimu."
+
+msgid "tooltips/description/pl37_mechanic_2"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje množství pasivně generované energie generované za sekundu v soubojovém režimu."
+
+msgid "tooltips/description/pl37_mechanic_3"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} prodlužuje dobu trvání efektu v soubojovém režimu."
+
+msgid "tooltips/description/r228_mechanic_0"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje poškození způsobené nárazem do nepřátelských vozidel."
+
+msgid "tooltips/description/r228_mechanic_1"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje poškození způsobené nárazem do podvozku nepřátelských vozidel."
+
+msgid "tooltips/description/r228_mechanic_2"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje poškození způsobené nárazem do nepřátelských vozidel."
+
+msgid "tooltips/description/r228_mechanic_3"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zvyšuje poškození způsobené nárazem do nepřátelských vozidel."
+
+msgid "tooltips/description/r230_mechanic_0"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu, po které je možné znovu střílet po přehřátí nabití."
+
+msgid "tooltips/description/r230_mechanic_1"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} prodlužuje dobu, kdy je možné na maximální úroveň nahřátí střílet."
+
+msgid "tooltips/description/r230_mechanic_2"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu, po které je možné znovu střílet po přehřátí nabití."
+
+msgid "tooltips/description/r230_mechanic_3"
+msgstr "O {colorTagOpen}{value0}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value1}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value2}%{colorTagClose} zvyšuje bonus k poškození za úroveň nahřátí."
+
+msgid "tooltips/description/reducedRammingDamage"
+msgstr "Snižuje poškození obdržené nepřátelským nárazem."
+
+msgid "tooltips/description/reloadTimeTwinGun"
+msgstr "Snižuje dobu nabíjení děla jak v režimu palby salvou, tak v režimu palby jednotlivými výstřely."
+
+msgid "tooltips/description/reverseSpeed"
+msgstr "Zvyšuje rychlost couvání vozidla."
+
+msgid "tooltips/description/roleSlot"
+msgstr "Přiřadit kategorii ke druhému slotu na vybavení."
+
+msgid "tooltips/description/s36_mechanic_0"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} zlepšuje rychlost otáčení korby a náměru děla v opevněném režimu."
+
+msgid "tooltips/description/s36_mechanic_1"
+msgstr "O {colorTagOpen}{value} s{colorTagClose} snižuje dobu vyžadovanou pro opuštění opevněného režimu."
+
+msgid "tooltips/description/s36_mechanic_2"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} snižuje rozptyl děla v opevněném režimu."
+
+msgid "tooltips/description/s36_mechanic_3"
+msgstr "O {colorTagOpen}{value}%{colorTagClose} snižuje dobu nabíjení děla v opevněném režimu."
+
+msgid "tooltips/description/selectiveModuleHPBoost"
+msgstr "Zvyšuje body výdrže modulů nádrží a motoru vašeho vozidla."
+
+msgid "tooltips/description/selectiveModuleProtection"
+msgstr "Snižuje postih poškozené bedny s municí a motoru."
+
+msgid "tooltips/description/shellModuleDamage"
+msgstr "Zvyšuje poškození, které vaše granáty způsobí modulům nepřátelských vozidel."
+
+msgid "tooltips/description/shells_consumables_switch"
+msgstr "Umožňuje vám nastavit si alternativní konfiguraci munice a spotřebních doplňků."
+
+msgid "tooltips/description/specialShellDamage"
+msgstr "Zvyšuje poškození způsobené speciálními granáty."
+
+msgid "tooltips/description/specialShellPenetration"
+msgstr "Zvyšuje průbojnost speciálních granátů."
+
+msgid "tooltips/description/specialShellVelocity"
+msgstr "Zvyšuje rychlost speciálních granátů."
+
+msgid "tooltips/description/spottingBonusFoliage"
+msgstr "Snižuje maskování nepřátelských vozidel ukrývajících se za listovím."
+
+msgid "tooltips/description/spottingBonusMovement"
+msgstr "Snižuje maskování jedoucích nepřátelských vozidel."
+
+msgid "tooltips/description/standardShellDamage"
+msgstr "Zvyšuje poškození způsobené standardními granáty."
+
+msgid "tooltips/description/standardShellPenetration"
+msgstr "Zvyšuje průbojnost standardních granátů."
+
+msgid "tooltips/description/standardShellVelocity"
+msgstr "Zvyšuje rychlost standardních granátů."
+
+msgid "tooltips/description/stunDuration"
+msgstr "Snižuje dobu, po kterou je vaše vozidlo ochromeno nepřátelskými výstřely."
+
+msgid "tooltips/description/turretTraverse"
+msgstr "Zvyšuje maximální úhly horizontálního otáčení věže."
+
+msgid "tooltips/description/turretTraverseStability"
+msgstr "Snižuje rozptyl děla při otáčení věže v soubojovém režimu."
+
+msgid "tooltips/description/vehicleSpeed"
+msgstr "Zvyšuje rychlost vozidla při jízdě vpřed a při couvání."
+
+msgid "tooltips/description/viewRange"
+msgstr "Umožňuje vám odhalit nepřátelská vozidla na větší vzdálenost."
+
+msgid "tooltips/large/eliteStatus"
+msgstr "Poskytuje vašemu vozidlu elitní stav."
+
+msgid "tooltips/large/perksResearchRequired"
+msgstr "Abyste mohli vyzkoumat tento uzel, vyzkoumejte všechny ostatní uzly."
+
+msgid "tooltips/paramNameWithUnit"
+msgstr "{paramName} ({unit})"
+
+msgid "tooltips/perk/category/concealment"
+msgstr "Kategorie: Maskování"
+
+msgid "tooltips/perk/category/firepower"
+msgstr "Kategorie: Palebná síla"
+
+msgid "tooltips/perk/category/mechanics"
+msgstr "Mechanika vylepšení"
+
+msgid "tooltips/perk/category/mobility"
+msgstr "Kategorie: Pohyblivost"
+
+msgid "tooltips/perk/category/special"
+msgstr "Speciální vylepšení"
+
+msgid "tooltips/perk/category/spotting"
+msgstr "Kategorie: Odhalování"
+
+msgid "tooltips/perk/category/survivability"
+msgstr "Kategorie: Odolnost"
+
+msgid "tooltips/special/tapToModify"
+msgstr "Po vyzkoumání uzlu klikněte pro úpravu."
+
+msgid "tooltips/title/HEDamageAbsorption"
+msgstr "Pohlcení HE poškození"
+
+msgid "tooltips/title/HEShellDamage"
+msgstr "Poškození HE granátů"
+
+msgid "tooltips/title/HEShellPenetration"
+msgstr "Průbojnost HE granátů"
+
+msgid "tooltips/title/HEshellVelocity"
+msgstr "Rychlost letu HE granátu"
+
+msgid "tooltips/title/a179_mechanic_0"
+msgstr "Poloaktivní tlumič hmotnosti"
+
+msgid "tooltips/title/a179_mechanic_1"
+msgstr "Vylepšení řetězového nabijáku"
+
+msgid "tooltips/title/a182_mechanic_0"
+msgstr "Poloautomatický torzní extraktor"
+
+msgid "tooltips/title/a182_mechanic_1"
+msgstr "Pokročilá filtrace vzduchu v bojovém prostoru"
+
+msgid "tooltips/title/a182_mechanic_2"
+msgstr "Odstředivý přetlakový ventilátor"
+
+msgid "tooltips/title/a182_mechanic_3"
+msgstr "Upravené svorky munice"
+
+msgid "tooltips/title/a183_mechanic_0"
+msgstr "Kompresor s vysokým výkonem"
+
+msgid "tooltips/title/a183_mechanic_1"
+msgstr "Píst kompresoru s tlakem 6 000 PSI"
+
+msgid "tooltips/title/a183_mechanic_2"
+msgstr "Pneumatický systém s tlakem 6 000 PSI"
+
+msgid "tooltips/title/a183_mechanic_3"
+msgstr "Dodatečný vysokotlaký válec"
+
+msgid "tooltips/title/a195_mechanic_1"
+msgstr "Vylepšení balistické konzistence"
+
+msgid "tooltips/title/a195_mechanic_2"
+msgstr "Zvýšený částečný náboj"
+
+msgid "tooltips/title/a195_mechanic_3"
+msgstr "Posílený částečný náboj"
+
+msgid "tooltips/title/a195_mechanic_4"
+msgstr "Lehký separátor náboje"
+
+msgid "tooltips/title/additionalShellAmmoCapacity"
+msgstr "Dodatečná kapacita munice"
+
+msgid "tooltips/title/advancedChassisProtection"
+msgstr "Pokročilá ochrana podvozku"
+
+msgid "tooltips/title/advancedModuleAndCrewProtection"
+msgstr "Pokročilá ochrana modulů a posádky"
+
+msgid "tooltips/title/aimingCircleSize"
+msgstr "Velikost kruhu zaměřovače"
+
+msgid "tooltips/title/aimingTime"
+msgstr "Čas zaměření"
+
+msgid "tooltips/title/aimingTimeSalvo"
+msgstr "Čas zaměření"
+
+msgid "tooltips/title/allShellDamage"
+msgstr "Poškození všech granátů"
+
+msgid "tooltips/title/allShellsVelocity"
+msgstr "Rychlost granátu"
+
+msgid "tooltips/title/ammoRackHP"
+msgstr "Body výdrže bedny s municí"
+
+msgid "tooltips/title/ammoRackPenalty"
+msgstr "Postih bedny s municí"
+
+msgid "tooltips/title/basicShellDamage"
+msgstr "Standardní poškození granátu"
+
+msgid "tooltips/title/ch67_mechanic_0"
+msgstr "Vektorování tahu"
+
+msgid "tooltips/title/ch67_mechanic_1"
+msgstr "Vysokoprůtokové čerpadlo pohonných látek"
+
+msgid "tooltips/title/ch67_mechanic_2"
+msgstr "Odpařovací chlazení"
+
+msgid "tooltips/title/ch67_mechanic_3"
+msgstr "Trysky chlazené transpirační metodou"
+
+msgid "tooltips/title/ch70_mechanic_0"
+msgstr "Vysokoenergetické palivo"
+
+msgid "tooltips/title/ch70_mechanic_1"
+msgstr "Poloautomatický extraktor trysky"
+
+msgid "tooltips/title/ch70_mechanic_2"
+msgstr "Optimalizace tvaru jádra"
+
+msgid "tooltips/title/ch70_mechanic_3"
+msgstr "Rozšířený úložný prostor pro trysku"
+
+msgid "tooltips/title/chassisHP"
+msgstr "Body výdrže podvozku"
+
+msgid "tooltips/title/chassisRepairSpeed"
+msgstr "Rychlost oprav podvozku"
+
+msgid "tooltips/title/crewProtection"
+msgstr "Ochrana posádky"
+
+msgid "tooltips/title/damagedGunDispersion"
+msgstr "Situační rozptyl děla"
+
+msgid "tooltips/title/driveModeForwardSpeed"
+msgstr "Rychlost jízdy vpřed v cestovním režimu"
+
+msgid "tooltips/title/driveModeReverseSpeed"
+msgstr "Rychlost couvání v cestovním režimu"
+
+msgid "tooltips/title/engineFireChance"
+msgstr "Šance na zapálení motoru"
+
+msgid "tooltips/title/engineHP"
+msgstr "Body výdrže motoru"
+
+msgid "tooltips/title/enginePenalty"
+msgstr "Postih motoru"
+
+msgid "tooltips/title/enginePower"
+msgstr "Výkon motoru"
+
+msgid "tooltips/title/f135_mechanic_0"
+msgstr "Optimalizace hydraulických hadic"
+
+msgid "tooltips/title/f135_mechanic_1"
+msgstr "Optimalizace sekvence nabíjení"
+
+msgid "tooltips/title/f136_mechanic_0"
+msgstr "Vylepšený mechanismus nabíjení"
+
+msgid "tooltips/title/f143_mechanic_0"
+msgstr "Tepelná izolace hlavně"
+
+msgid "tooltips/title/f143_mechanic_1"
+msgstr "Výkonnostní alternátor"
+
+msgid "tooltips/title/f143_mechanic_2"
+msgstr "Elektroinstalace s nízkým odporem"
+
+msgid "tooltips/title/f143_mechanic_3"
+msgstr "Upravený omezovač výstupu"
+
+msgid "tooltips/title/forwardSpeed"
+msgstr "Rychlost jízdy vpřed"
+
+msgid "tooltips/title/fuelTankHP"
+msgstr "Body výdrže nádrže s palivem"
+
+msgid "tooltips/title/g185_mechanic_0"
+msgstr "Senzor Coriolisovy síly"
+
+msgid "tooltips/title/g185_mechanic_1"
+msgstr "Gyroskopický snímač náklonu"
+
+msgid "tooltips/title/g185_mechanic_2"
+msgstr "Vylepšený vstupní terminál"
+
+msgid "tooltips/title/g185_mechanic_3"
+msgstr "Vysoce přesný senzor otáčení"
+
+msgid "tooltips/title/g187_mechanic_0"
+msgstr "Vylepšené pomocné úložiště granátů"
+
+msgid "tooltips/title/g187_mechanic_1"
+msgstr "Pomocný nabiják"
+
+msgid "tooltips/title/g188_mechanic_0"
+msgstr "Pokročilý sledovací mechanismus"
+
+msgid "tooltips/title/g188_mechanic_1"
+msgstr "Vysoce účinný chladič"
+
+msgid "tooltips/title/g188_mechanic_2"
+msgstr "Generátor vysokého napětí"
+
+msgid "tooltips/title/g188_mechanic_3"
+msgstr "Rubínový laser s nízkým rozptylem"
+
+msgid "tooltips/title/g189_mechanic_0"
+msgstr "Upravený vývodový hřídel"
+
+msgid "tooltips/title/g189_mechanic_1"
+msgstr "Dvojitý teplotní senzor"
+
+msgid "tooltips/title/g189_mechanic_2"
+msgstr "Přesná regulace teploty"
+
+msgid "tooltips/title/g189_mechanic_3"
+msgstr "Vysokovýkonný alternátor"
+
+msgid "tooltips/title/gb147_mechanic_0"
+msgstr "Předem nabité kolébky děla"
+
+msgid "tooltips/title/gb147_mechanic_1"
+msgstr "Pokročilý systém otáčení"
+
+msgid "tooltips/title/gb147_mechanic_2"
+msgstr "Systém řízení náklonu"
+
+msgid "tooltips/title/gb147_mechanic_3"
+msgstr "Uvolněný regulátor točivého momentu"
+
+msgid "tooltips/title/gb152_mechanic_0"
+msgstr "Úprava převodových poměrů"
+
+msgid "tooltips/title/gb152_mechanic_1"
+msgstr "Optimalizace geometrie turbíny"
+
+msgid "tooltips/title/gb152_mechanic_2"
+msgstr "Optimalizace rozdělovacího potrubí"
+
+msgid "tooltips/title/gb152_mechanic_3"
+msgstr "Upravený omezovač otáček"
+
+msgid "tooltips/title/gb158_mechanic_0"
+msgstr "Nastavitelný regulátor tlaku"
+
+msgid "tooltips/title/gb158_mechanic_1"
+msgstr "Modernizované výfukové potrubí"
+
+msgid "tooltips/title/gb158_mechanic_2"
+msgstr "Vzduchová nádrž se zvýšenou kapacitou"
+
+msgid "tooltips/title/gb158_mechanic_3"
+msgstr "Vysoce účinný vzduchový kompresor"
+
+msgid "tooltips/title/gunDepression"
+msgstr "Roztpyl děla"
+
+msgid "tooltips/title/gunDispersion"
+msgstr "Rozptyl děla"
+
+msgid "tooltips/title/gunDispersionSalvo"
+msgstr "Rozptyl děla"
+
+msgid "tooltips/title/gunElevation"
+msgstr "Náměr děla"
+
+msgid "tooltips/title/gunStabilization"
+msgstr "Celková stabilizace děla"
+
+msgid "tooltips/title/gunStabilizationFromHull"
+msgstr "Částečná stabilizace děla"
+
+msgid "tooltips/title/gunStabilizationFromHullMovement"
+msgstr "Stabilizace za pohybu"
+
+msgid "tooltips/title/gunStabilizationFromHullRotation"
+msgstr "Stabilizace při otáčení"
+
+msgid "tooltips/title/gunStabilizationFromHullSalvo"
+msgstr "Částečná stabilizace děla"
+
+msgid "tooltips/title/gunStabilizationFromTurret"
+msgstr "Částečná stabilizace děla"
+
+msgid "tooltips/title/gunStabilizationFromTurretSalvo"
+msgstr "Částečná stabilizace děla"
+
+msgid "tooltips/title/gunTraverse"
+msgstr "Vylepšené otáčení děla"
+
+msgid "tooltips/title/hitPoints"
+msgstr "Body výdrže (HP)"
+
+msgid "tooltips/title/hullElevationSpeed"
+msgstr "Rychlost zvednutí korby"
+
+msgid "tooltips/title/hullTraverseSpeed"
+msgstr "Rychlost otáčení korby"
+
+msgid "tooltips/title/innerClipReloadTime"
+msgstr "Doba nabíjení vnitřního zásobníku"
+
+msgid "tooltips/title/invisibilityWhenShooting"
+msgstr "Maskování po výstřelu"
+
+msgid "tooltips/title/j52_mechanic_0"
+msgstr "Nízkoteplotní teplonosná kapalina"
+
+msgid "tooltips/title/j52_mechanic_1"
+msgstr "Termální pouzdro s vysokou vodivostí"
+
+msgid "tooltips/title/j52_mechanic_2"
+msgstr "Optimalizace tepelných trubic"
+
+msgid "tooltips/title/nonHEShellDamage"
+msgstr "Poškození ne-HE granáty"
+
+msgid "tooltips/title/opt_dev_boosters_switch"
+msgstr "Konfigurace vybavení a směrnic"
+
+msgid "tooltips/title/overheat_coolingDelay"
+msgstr "Chromová vložka s povlakem"
+
+msgid "tooltips/title/overheat_coolingPerSec"
+msgstr "Hlaveň děla s vysokou vodivostí"
+
+msgid "tooltips/title/overheat_heatingPerShot"
+msgstr "Palivo s nižší teplotou hoření"
+
+msgid "tooltips/title/overheat_overheatedCoolingPerSec"
+msgstr "Systém nuceného odvětrání"
+
+msgid "tooltips/title/pl37_mechanic_0"
+msgstr "Lehký rotor turbíny"
+
+msgid "tooltips/title/pl37_mechanic_1"
+msgstr "Vysokovýkonný pomocný alternátor"
+
+msgid "tooltips/title/pl37_mechanic_2"
+msgstr "Pokročilé řízení rektifikace"
+
+msgid "tooltips/title/pl37_mechanic_3"
+msgstr "Hybridní kondenzátorové pole"
+
+msgid "tooltips/title/r228_mechanic_0"
+msgstr "Místní tvrzení okrajů"
+
+msgid "tooltips/title/r228_mechanic_1"
+msgstr "Pásy z vysoce legované oceli"
+
+msgid "tooltips/title/r228_mechanic_2"
+msgstr "Hluboká lokální cementace"
+
+msgid "tooltips/title/r228_mechanic_3"
+msgstr "Lokální povrchová cementace"
+
+msgid "tooltips/title/r230_mechanic_0"
+msgstr "Vysoce přesný teplotní senzor"
+
+msgid "tooltips/title/r230_mechanic_1"
+msgstr "Ohřívače závěru s nízkou setrvačností"
+
+msgid "tooltips/title/r230_mechanic_2"
+msgstr "Mechanizovaný zásobník granátů"
+
+msgid "tooltips/title/r230_mechanic_3"
+msgstr "Tepelná ochrana proti přetížení"
+
+msgid "tooltips/title/reducedRammingDamage"
+msgstr "Snížené poškození nárazem"
+
+msgid "tooltips/title/reloadTime"
+msgstr "Doba nabíjení"
+
+msgid "tooltips/title/reloadTimeTwinGun"
+msgstr "Doba nabíjení"
+
+msgid "tooltips/title/reverseSpeed"
+msgstr "Rychlost couvání"
+
+msgid "tooltips/title/roleSlot"
+msgstr "Kategorie druhého slotu"
+
+msgid "tooltips/title/s36_mechanic_0"
+msgstr "Axiální pístové hydraulické čerpadlo"
+
+msgid "tooltips/title/s36_mechanic_1"
+msgstr "Synchronizátor vícekuželového adaptéru"
+
+msgid "tooltips/title/s36_mechanic_2"
+msgstr "Přesně vyvážený rotor"
+
+msgid "tooltips/title/s36_mechanic_3"
+msgstr "Hydraulicky poháněný nabiják"
+
+msgid "tooltips/title/selectiveModuleHPBoost"
+msgstr "Posílení bodů výdrže vybraného modulu"
+
+msgid "tooltips/title/selectiveModuleProtection"
+msgstr "Ochrana vybraného modulu"
+
+msgid "tooltips/title/shellModuleDamage"
+msgstr "Poškození granátů do modulů"
+
+msgid "tooltips/title/shells_consumables_switch"
+msgstr "Konfigurace munice a spotřebních doplňků"
+
+msgid "tooltips/title/specialShellDamage"
+msgstr "Poškození speciálního granátu"
+
+msgid "tooltips/title/specialShellPenetration"
+msgstr "Průbojnost speciálních granátů"
+
+msgid "tooltips/title/specialShellVelocity"
+msgstr "Rychlost speciálních granátů"
+
+msgid "tooltips/title/spottingBonusFoliage"
+msgstr "Bonus k odhalování: Listoví"
+
+msgid "tooltips/title/spottingBonusMovement"
+msgstr "Bonus k odhalování: Pohyb"
+
+msgid "tooltips/title/standardShellDamage"
+msgstr "Poškození standardního granátu"
+
+msgid "tooltips/title/standardShellPenetration"
+msgstr "Standardní průbojnost granátů"
+
+msgid "tooltips/title/standardShellVelocity"
+msgstr "Rychlost standardních granátů"
+
+msgid "tooltips/title/stunDuration"
+msgstr "Trvání ochromení"
+
+msgid "tooltips/title/turretTraverse"
+msgstr "Vylepšené otáčení věže"
+
+msgid "tooltips/title/turretTraverseSpeed"
+msgstr "Rychlost otáčení věže"
+
+msgid "tooltips/title/turretTraverseStability"
+msgstr "Stabilizace při otáčení věže"
+
+msgid "tooltips/title/vehicleSpeed"
+msgstr "Rychlost vozidla"
+
+msgid "tooltips/title/viewRange"
+msgstr "Zvýšený dohled"
+
+msgid "tooltips/vanityEntryPoint/statusInfo"
+msgstr "Pro odemčení vyzkoumejte finální uzel"
+
+msgid "tooltips/vanityEntryPoint/text"
+msgstr "Získejte exkluzivní odměny pro vozidla XI. úrovně, včetně volumetrického stylu, Sledovače statistik a krytu děla."
+
+msgid "tooltips/vanityEntryPoint/title"
+msgstr "Elitní odměny"
+
+msgid "vanity/available/subtitle"
+msgstr "Získejte odměny za elitní úroveň vašeho vozidla."
+
+msgid "vanity/available/tooltip"
+msgstr "Stávající elitní úroveň"
+
+msgid "vanity/completed/subtitle"
+msgstr "Blahopřejeme! Všechny odměny získány."
+
+msgid "vanity/completed/tooltip"
+msgstr "Stávající elitní úroveň"
+
+msgid "vanity/disabled/subtitle"
+msgstr "Lze získat po vyzkoumání finálního uzlu"
+
+msgid "vanity/disabled/tooltip"
+msgstr "Vozidlo nemá elitní stav"
+
+msgid "vanity/reward/level/tooltip"
+msgstr "Elitní úroveň vyžadovaná pro odměnu"
+
+msgid "vanity/rewardType/description/attachment"
+msgstr "Exkluzivní kryt děla, díky kterému bude vaše vozidlo okamžitě na bojišti vyčnívat."
+
+msgid "vanity/rewardType/description/stattracker"
+msgstr "Jedinečný nový prvek na úpravu vzhledu, který ukazuje, kolik vozidel jste zničili."
+
+msgid "vanity/rewardType/description/style"
+msgstr "Speciální 2D styl, který je dostupný exkluzivně pro vozidla XI. úrovně s jedinečným vizuálním efektem, který mu propůjčuje 3D vzhled."
+
+msgid "vanity/rewardType/title/attachment"
+msgstr "3D doplněk pro kryt děla"
+
+msgid "vanity/rewardType/title/stattracker"
+msgstr "Sledovač statistik"
+
+msgid "vanity/rewardType/title/style"
+msgstr "Volumetrický styl"
+
+msgid "vanity/title"
+msgstr "ELITNÍ ODMĚNY"

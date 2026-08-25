@@ -1,0 +1,1124 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "comparison/fullUpgrades/title"
+msgstr "Tam Araştırıldı"
+
+msgid "comparison/partialUpgrades/title"
+msgstr "Güncel"
+
+msgid "comparison/title"
+msgstr "Yükseltmeler"
+
+msgid "comparison/tooltip/body"
+msgstr "Yapılandırma ekranı Yükseltmelerin araç niteliklerini nasıl etkilediğini gösterir. Kullanılabilir tüm Yükseltmelerin tam etkisini görmek için Tam Araştırılmış seçeneğini belirleyin."
+
+msgid "comparison/tooltip/header"
+msgstr "Yükseltmeler"
+
+msgid "comparison/zeroUpgrades/title"
+msgstr "Araştırılmamış"
+
+msgid "dialog/altConfiguration/description"
+msgstr "Savaştan önce savaş yükü setleri arasında geçiş yapabilmek için bu seçenekleri etkin tutun."
+
+msgid "dialog/altConfiguration/info"
+msgstr "Bu ayarları istediğiniz zaman değiştirebilirsiniz."
+
+msgid "dialog/altConfiguration/optDevBoostersSwitch"
+msgstr "Yardımcı Savaş Yükü"
+
+msgid "dialog/altConfiguration/shellsConsumablesSwitch"
+msgstr "Temel Savaş Yükü"
+
+msgid "dialog/altConfiguration/title"
+msgstr "Alternatif Yapılandırma"
+
+msgid "dialog/common/accept"
+msgstr "Onaylayın"
+
+msgid "dialog/confirmation/researchPerks"
+msgid_plural "plural/dialog/confirmation/researchPerks"
+msgstr[0] "%(perks)s"
+msgstr[1] "%(perks)s düğüm"
+msgstr[2] "%(perks)s düğüm"
+
+msgid "footer/button/label"
+msgstr "Araştır"
+
+msgid "footer/description/text/allResearched"
+msgstr "Tüm düğümler araştırıldı. Artık Elit Ödül sistemine erişim hakkınız var."
+
+msgid "footer/description/text/emergencyModeEnabled"
+msgstr "WG Cüzdan geçici olarak devre dışıdır. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "footer/description/text/inBattle"
+msgstr "Düğüm geçersiz. Araç savaşta."
+
+msgid "footer/description/text/inFormation"
+msgstr "Düğüm geçersiz. Araç bir taktik birimde."
+
+msgid "footer/description/text/needsRepair"
+msgstr "Düğüm geçersiz. Aracın onarıma ihtiyacı var."
+
+msgid "footer/description/text/notInInventory"
+msgstr "Düğümlerini araştırabilmek için bu araca sahip olmanız gerekir"
+
+msgid "footer/description/text/researchAvailable"
+msgstr "Araştıracağınız bir düğüm veya düğüm hattı seçin"
+
+msgid "footer/text/amountItems"
+msgstr "{{amount}} düğüm"
+
+msgid "footer/text/selectedItem"
+msgstr "Seçilen: {{selectedItem}}"
+
+msgid "footer/tooltip/body/emergencyModeEnabled"
+msgstr "WG Cüzdan geçici olarak devre dışıdır. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "footer/tooltip/body/inBattle"
+msgstr "Düğüm geçersiz. Araç savaşta."
+
+msgid "footer/tooltip/body/inFormation"
+msgstr "Düğüm geçersiz. Araç bir taktik birimde."
+
+msgid "footer/tooltip/body/needsRepair"
+msgstr "Düğüm geçersiz. Aracın onarıma ihtiyacı var."
+
+msgid "footer/tooltip/body/notEnoughExp"
+msgstr "Seçili düğümleri araştırmak için yeterli DP yok."
+
+msgid "footer/tooltip/body/researchInProgress"
+msgstr "Araştırma devam ediyor, lütfen bekleyin..."
+
+msgid "footer/tooltip/header/emergencyModeEnabled"
+msgstr "Geçersiz"
+
+msgid "footer/tooltip/header/info"
+msgstr "Seçili düğümler"
+
+msgid "footer/tooltip/listSelectedPerks"
+msgid_plural "plural/footer/tooltip/listSelectedPerks"
+msgstr[0] "• {{selectedPerks}},"
+msgstr[1] "• {{selectedPerks}}."
+msgstr[2] "• {{selectedPerks}}."
+
+msgid "intro/button"
+msgstr "Olumlu!"
+
+msgid "intro/button/tooltip"
+msgstr "Yükseltmeler Hakkında"
+
+msgid "intro/improvements/description"
+msgstr "Aracınızın niteliklerini geliştirecek düğümler açmak için Savaş DP'si kazanın. Nihai nitelikler, düğüm bonuslarından sonra uygulanan toplanan ve çarpan değiştiriciler nedeniyle belirtilen değerlerden daha yüksek veya daha düşük olabilir."
+
+msgid "intro/improvements/title"
+msgstr "İşleyiş Şekli"
+
+msgid "intro/progression/description"
+msgstr "Sadece Seviye XI araçlar için geçerli olan Yükseltmeler, araçlarınızın niteliklerini daha da geliştirmenizi sağlar."
+
+msgid "intro/progression/title"
+msgstr "Yükseltmeler"
+
+msgid "intro/vanity/description"
+msgstr "Tüm düğümleri araştırdıktan sonra Elit Ödüllere erişim hakkı kazanacaksınız. Bunları belirli Elit Seviyelere ulaştığınızda alabileceksiniz. Ödüller arasında özgün bir hacimsel stil, İstatistik Takipçisi ve top kılıfı var!"
+
+msgid "intro/vanity/title"
+msgstr "Elit Ödüller"
+
+msgid "kpi/bonus/valueTypes/cnt"
+msgstr " adet"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/gps"
+msgstr " derece/sn."
+
+msgid "kpi/bonus/valueTypes/grads"
+msgstr " derece"
+
+msgid "kpi/bonus/valueTypes/m"
+msgstr " m"
+
+msgid "kpi/bonus/valueTypes/mm"
+msgstr " mm"
+
+msgid "kpi/bonus/valueTypes/mph"
+msgstr " km/sa."
+
+msgid "kpi/bonus/valueTypes/mps"
+msgstr " m/sn."
+
+msgid "kpi/bonus/valueTypes/p"
+msgstr " bg"
+
+msgid "kpi/bonus/valueTypes/s"
+msgstr " sn."
+
+msgid "kpi/bonus/valueTypes/val"
+msgstr " CP"
+
+msgid "notifications/perkAvailable/disabledButtonTooltip"
+msgstr "Bu özellik şu anda geçersiz"
+
+msgid "notifications/perkAvailable/goToProgression"
+msgstr "Yükseltmelere Git"
+
+msgid "notifications/perkAvailable/title"
+msgstr "Aracınızı geliştirmeye yetecek kadar DP'niz var!"
+
+msgid "rewardScreen/button/accept"
+msgstr "Tamam!"
+
+msgid "rewardScreen/button/check"
+msgstr "Dış Görünüşte Bak"
+
+msgid "rewardScreen/rewardName"
+msgstr "{{rarity}} {{rewardName}}"
+
+msgid "rewardScreen/subtitle"
+msgstr "{{level}} {{type}} {{name}} için {{prestigeLevel}} Elit Seviyesine ulaşma karşılığında"
+
+msgid "rewardScreen/title"
+msgstr "ELİT ÖDÜL"
+
+msgid "tooltips/backToMainProgressionEntryPoint/text"
+msgstr "Sadece Seviye XI araçlar için geçerli olan Yükseltmeler, araçlarınızın niteliklerini daha da geliştirmenizi sağlar."
+
+msgid "tooltips/backToMainProgressionEntryPoint/title"
+msgstr "Yükseltmeler"
+
+msgid "tooltips/common/cost"
+msgstr "Ücreti: {{amount}}"
+
+msgid "tooltips/description/HEDamageAbsorption"
+msgstr "Aracınızın HE mermi ve çarpma hasarı soğurma kabiliyetini iyileştirir."
+
+msgid "tooltips/description/HEShellDamage"
+msgstr "HE mermilerin verdiği hasarı artırır."
+
+msgid "tooltips/description/HEshellVelocity"
+msgstr "HE mermilerinin hızını artırır."
+
+msgid "tooltips/description/a179_mechanic_0"
+msgstr "Seri atış modunda ikinci merminin dağılımını {colorTagOpen}{value}%{colorTagClose} azaltır."
+
+msgid "tooltips/description/a179_mechanic_1"
+msgstr "Seri atış modunda ateş etme soğumasını {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/a182_mechanic_0"
+msgstr "Verimlilik seviyesi başına yükleme hızı bonusunu {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/a182_mechanic_1"
+msgstr "Yükleme verimliliği seviyesinin süresini {colorTagOpen}{value} sn.{colorTagClose} uzatır."
+
+msgid "tooltips/description/a182_mechanic_2"
+msgstr "Yükleme verimliliği seviyesinin süresini {colorTagOpen}{value} sn.{colorTagClose} uzatır."
+
+msgid "tooltips/description/a182_mechanic_3"
+msgstr "Verimlilik seviyesi başına yükleme hızı bonusunu {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/a183_mechanic_0"
+msgstr "Mekanizmanın tekrar kullanılabilir hale gelmesi için soğuma süresini {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/a183_mechanic_1"
+msgstr "Mekanizmanın tekrar kullanılabilir hale gelmesi için soğuma süresini {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/a183_mechanic_2"
+msgstr "Mekanizma faaliyet süresini {colorTagOpen}{value} sn.{colorTagClose} uzatır."
+
+msgid "tooltips/description/a183_mechanic_3"
+msgstr "Mekanizma faaliyet süresini {colorTagOpen}{value} sn.{colorTagClose} uzatır."
+
+msgid "tooltips/description/a195_mechanic_1"
+msgstr "Tek şarjlı atışlar için 100 m'deki dağılımı {colorTagOpen}{value}%{colorTagClose} azaltır."
+
+msgid "tooltips/description/a195_mechanic_2"
+msgstr "Standart ve özel mermilerle tek şarjlı atışların verdiği hasarı {colorTagOpen}{value} CP{colorTagClose} artırır."
+
+msgid "tooltips/description/a195_mechanic_3"
+msgstr "Tek şarjlı atışlar için mermi hızını {colorTagOpen}{value} m/sn.{colorTagClose} artırır."
+
+msgid "tooltips/description/a195_mechanic_4"
+msgstr "Tek şarjlı atışların yükleme süresini {colorTagOpen}{value}%{colorTagClose} azaltır."
+
+msgid "tooltips/description/advancedChassisProtection"
+msgstr "Süspansiyonun can puanını ve onarım hızını artırır."
+
+msgid "tooltips/description/advancedModuleAndCrewProtection"
+msgstr "Aracın cephaneliği veya motoru hasarlandığı zamanki cezayı azaltır, araç hasar aldığı zaman mürettebat üyesinin yaralanma riskini azaltır."
+
+msgid "tooltips/description/aimingCircleSize"
+msgstr "Ateş ettikten sonraki nişan alma çemberinin boyutunu küçültür."
+
+msgid "tooltips/description/aimingTime"
+msgstr "Aracınızın nişan alma süresini azaltır."
+
+msgid "tooltips/description/aimingTimeSalvo"
+msgstr "Tekli Atış modunda aracınızın nişan alma süresini kısaltır."
+
+msgid "tooltips/description/allShellDamage"
+msgstr "Tüm mermi türlerinin verdiği hasarı artırır."
+
+msgid "tooltips/description/allShellsVelocity"
+msgstr "Tüm mermilerinizin hızını artırır."
+
+msgid "tooltips/description/ammoRackHP"
+msgstr "Cephaneliğin yok edilmeden önce alabileceği hasar miktarını artırır."
+
+msgid "tooltips/description/ammoRackPenalty"
+msgstr "Aracın cephaneliği hasarlı olduğu zaman gelen cezayı azaltır."
+
+msgid "tooltips/description/basicShellDamage"
+msgstr "Standart mermilerin verdiği hasarı artırır."
+
+msgid "tooltips/description/ch67_mechanic_0"
+msgstr "Takviyeler aktifken dönüş hızını {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/ch67_mechanic_1"
+msgstr "Takviyeler aktifken azami hızı {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/ch67_mechanic_2"
+msgstr "Takviyelerin tam şarj olması için gereken soğuma süresini {colorTagOpen}{value} sn.{colorTagClose} azaltır."
+
+msgid "tooltips/description/ch67_mechanic_3"
+msgstr "Maksimum takviye süresini {colorTagOpen}{value} sn.{colorTagClose} uzatır."
+
+msgid "tooltips/description/ch70_mechanic_0"
+msgstr "İticilerin sağladığı motor gücü takviyesini {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/ch70_mechanic_1"
+msgstr "İticilerin tekrar kullanılabilir hale gelmesi için gereken soğuma süresini {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/ch70_mechanic_2"
+msgstr "İticilerin sağladığı motor gücü takviyesini {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/ch70_mechanic_3"
+msgstr "İticilerin tek bir savaşta maksimum kullanma hakkı sayısını {colorTagOpen}{value}{colorTagClose} artırır."
+
+msgid "tooltips/description/crewProtection"
+msgstr "Araç hasar aldığında mürettebat üyelerinin yaralanma riskini azaltır."
+
+msgid "tooltips/description/damagedGunDispersion"
+msgstr "Topunuz hasarlı olduğunda top dağılımını azaltır."
+
+msgid "tooltips/description/driveModeForwardSpeed"
+msgstr "Sürüş modunda aracın ileri hızını artırır."
+
+msgid "tooltips/description/driveModeReverseSpeed"
+msgstr "Sürüş modunda aracın geri hızını artırır."
+
+msgid "tooltips/description/enginePenalty"
+msgstr "Aracın motoru hasarlı olduğu zaman gelen cezayı azaltır."
+
+msgid "tooltips/description/enginePower"
+msgstr "Motor gücünü artırarak aracın ivmelenmesini ve yokuş tırmanışını hızlandırır."
+
+msgid "tooltips/description/f135_mechanic_0"
+msgstr "Yüklemeye başlama süresini {colorTagOpen}{value}%{colorTagClose} azaltır."
+
+msgid "tooltips/description/f135_mechanic_1"
+msgstr "Yükleme aksadıktan sonra ateş etme öncesi gecikmeyi {colorTagOpen}{value}%{colorTagClose} azaltır."
+
+msgid "tooltips/description/f136_mechanic_0"
+msgstr "Kartuştaki son mermiyi ateşledikten sonra yükleme süresine gelen cezayı {colorTagOpen}{value} sn.{colorTagClose} azaltır."
+
+msgid "tooltips/description/f143_mechanic_0"
+msgstr "Sınır aşıldığında 100 m'deki dağılım cezasını {colorTagOpen}{value0}%{colorTagClose} ve top nişan alma zamanı cezasını {colorTagOpen}{value1}%{colorTagClose} azaltır."
+
+msgid "tooltips/description/f143_mechanic_1"
+msgstr "Şarj birikim hızını {colorTagOpen}% {value}/sn.{colorTagClose} artırır."
+
+msgid "tooltips/description/f143_mechanic_2"
+msgstr "Ateş ettikten sonra kaybedilen şarj miktarını {colorTagOpen}{value}%{colorTagClose} azaltır."
+
+msgid "tooltips/description/f143_mechanic_3"
+msgstr "Limit aşımı sonrası hasar artışını {colorTagOpen}{value0} CP{colorTagClose} kadar ve limit aşımı sonrası maksimum hasar bonusunu {colorTagOpen}{value1}%{colorTagClose} kadar artırır."
+
+msgid "tooltips/description/forwardSpeed"
+msgstr "İleri giderken araç hızını artırır."
+
+msgid "tooltips/description/g185_mechanic_0"
+msgstr "İsabetlilik seviyesi başına dağılım bonusunu {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/g185_mechanic_1"
+msgstr "İsabetlilik seviyesinin kazanılabileceği azami hızı {colorTagOpen}{value} km/sa.{colorTagClose} artırır."
+
+msgid "tooltips/description/g185_mechanic_2"
+msgstr "Bir sonraki isabetlilik seviyesine ulaşmak için gereken süreyi {colorTagOpen}{value} sn.{colorTagClose} azaltır."
+
+msgid "tooltips/description/g185_mechanic_3"
+msgstr "Azami isabetlilik seviyesindeki stabilizasyon bonusunu {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/g187_mechanic_0"
+msgstr "Yardımcı silahların yükleme süresini {colorTagOpen}{value}%{colorTagClose} azaltır."
+
+msgid "tooltips/description/g187_mechanic_1"
+msgstr "Yardımcı silahların yükleme süresini {colorTagOpen}{value}%{colorTagClose} azaltır."
+
+msgid "tooltips/description/g188_mechanic_0"
+msgstr "İşaretli bir düşman aracının tespit edilmiş halde kalma süresini {colorTagOpen}{value} sn. {colorTagClose} artırır."
+
+msgid "tooltips/description/g188_mechanic_1"
+msgstr "Mekanizmanın tekrar kullanılabilir hale gelmesi için soğuma süresini {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/g188_mechanic_2"
+msgstr "Mekanizmanın kullanılabilir hale gelmesi için gereken ilk soğuma süresini {colorTagOpen}{value}{colorTagClose} kısaltır."
+
+msgid "tooltips/description/g188_mechanic_3"
+msgstr "Müttefik mermilerinin işaretli düşman araçlarına verdiği ek hasarı {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/g189_mechanic_0"
+msgstr "Ön ısıtmanın oluşturulabileceği azami hızı {colorTagOpen}{value} km/sa.{colorTagClose} artırır."
+
+msgid "tooltips/description/g189_mechanic_1"
+msgstr "Ön ısıtmadan gelen azami dağılım bonusunu {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/g189_mechanic_2"
+msgstr "Ön ısıtmadan gelen azami hasar bonusunu {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/g189_mechanic_3"
+msgstr "Azami ön ısıtma seviyesine ulaşmak için gereken süreyi {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/gb147_mechanic_0"
+msgstr "Salvo Atış modunda top dağılımını {colorTagOpen}{value} metre{colorTagClose} azaltır."
+
+msgid "tooltips/description/gb147_mechanic_1"
+msgstr "Salvo Atış modunda kule dönüş hızını {colorTagOpen}{value} derece/sn.{colorTagClose} artırır."
+
+msgid "tooltips/description/gb147_mechanic_2"
+msgstr "Salvo Atış modunda nişan alma süresini {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/gb147_mechanic_3"
+msgstr "Salvo Atış modunda azami ileri hızı {colorTagOpen}{value} km/sa.{colorTagClose} artırır."
+
+msgid "tooltips/description/gb152_mechanic_0"
+msgstr "Doğrudan Sürüş moduna girmek için gereken süreyi {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/gb152_mechanic_1"
+msgstr "Doğrudan Sürüş modunda azami performansa ulaşmak için gereken süreyi {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/gb152_mechanic_2"
+msgstr "Doğrudan Sürüş modunda motor gücünü {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/gb152_mechanic_3"
+msgstr "Doğrudan Sürüş modunda ileri hızı {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/gb158_mechanic_0"
+msgstr "Turboşarj Takviyesinin sağladığı motor gücü artışını {colorTagOpen}{value}%{colorTagClose} kadar artırır."
+
+msgid "tooltips/description/gb158_mechanic_1"
+msgstr "Turboşarj Takviyesi etkinken azami geri hızı {colorTagOpen}{value} km/sa.{colorTagClose} artırır."
+
+msgid "tooltips/description/gb158_mechanic_2"
+msgstr "Turboşarj Takviyesinin süresini {colorTagOpen}{value} sn.{colorTagClose} uzatır."
+
+msgid "tooltips/description/gb158_mechanic_3"
+msgstr "Turboşarj Takviyesinin tekrar kullanılabilmesi için gereken soğuma süresini {colorTagOpen}{value} sn.{colorTagClose} azaltır."
+
+msgid "tooltips/description/gunDepression"
+msgstr "Topun eğim açısını artırır."
+
+msgid "tooltips/description/gunDispersion"
+msgstr "Nişan alma çemberi içinde mermi gruplaşmasını iyileştirir."
+
+msgid "tooltips/description/gunDispersionSalvo"
+msgstr "Tekli Atış modunda nişan alma çemberi içinde mermi gruplaşmasını iyileştirir."
+
+msgid "tooltips/description/gunStabilization"
+msgstr "Her durumda top stabilizasyonunu iyileştirir."
+
+msgid "tooltips/description/gunStabilizationFromHull"
+msgstr "Hareket ve gövde dönüşü sırasında top stabilizasyonunu iyileştirir."
+
+msgid "tooltips/description/gunStabilizationFromHullMovement"
+msgstr "Gövde hareketi sırasında top stabilizasyonunu iyileştirir."
+
+msgid "tooltips/description/gunStabilizationFromHullRotation"
+msgstr "Gövde dönüşü sırasında top stabilizasyonunu iyileştirir."
+
+msgid "tooltips/description/gunStabilizationFromHullSalvo"
+msgstr "Tekli Atış modunda hareket ve gövde dönüşü sırasında top stabilizasyonunu iyileştirir."
+
+msgid "tooltips/description/gunStabilizationFromTurret"
+msgstr "Kule dönüşü sırasında top stabilizasyonunu iyileştirir."
+
+msgid "tooltips/description/gunStabilizationFromTurretSalvo"
+msgstr "Tekli Atış modunda kule dönüşü sırasında top stabilizasyonunu iyileştirir."
+
+msgid "tooltips/description/gunTraverse"
+msgstr "Azami yatay top dönüş açılarını artırır."
+
+msgid "tooltips/description/hitPoints"
+msgstr "Aracın dayanıklılığını artırır, böylece araç yok edilmeden önce daha fazla hasar alabilir."
+
+msgid "tooltips/description/innerClipReloadTime"
+msgstr "Topunuzun şarjöründeki mermiler arası yükleme süresini kısaltır."
+
+msgid "tooltips/description/invisibilityWhenShooting"
+msgstr "Ateş ederken düşman araçları tarafından tespit edilme riskini azaltır."
+
+msgid "tooltips/description/j52_mechanic_0"
+msgstr "Top soğumasının gecikme süresini {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/j52_mechanic_1"
+msgstr "Atış başına oluşan top ısısı miktarını {colorTagOpen}{value}%{colorTagClose} azaltır."
+
+msgid "tooltips/description/j52_mechanic_2"
+msgstr "Isınmış topun soğuma hızını {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/nonHEShellDamage"
+msgstr "HE olmayan mermilerin verdiği hasarı artırır."
+
+msgid "tooltips/description/opt_dev_boosters_switch"
+msgstr "Alternatif donanım ve yönerge savaş yükü yapılandırmanıza imkan sağlar."
+
+msgid "tooltips/description/overheat_coolingDelay"
+msgstr "Top soğumasının gecikmesini {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/overheat_coolingPerSec"
+msgstr "Isınmış ve aşırı ısınmış topların soğuma hızını {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/overheat_heatingPerShot"
+msgstr "Atış başına oluşan top ısısı miktarını {colorTagOpen}{value}%{colorTagClose} azaltır."
+
+msgid "tooltips/description/overheat_overheatedCoolingPerSec"
+msgstr "Aşırı ısınmış topların soğuma hızını {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/pl37_mechanic_0"
+msgstr "Modlar arasında geçiş için gereken süreyi {colorTagOpen}{value} sn.{colorTagClose} azaltır."
+
+msgid "tooltips/description/pl37_mechanic_1"
+msgstr "Turbo modunda saniye başına pasif olarak oluşan enerji miktarını {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/pl37_mechanic_2"
+msgstr "Çatışma modunda saniye başına pasif olarak oluşan enerji miktarını {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/pl37_mechanic_3"
+msgstr "Hem Turbo hem de Çatışma modunda etki süresini {colorTagOpen}{value} sn.{colorTagClose} uzatır."
+
+msgid "tooltips/description/r228_mechanic_0"
+msgstr "Düşman araçlarına verilen çarpma hasarını {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/r228_mechanic_1"
+msgstr "Düşman araçlarının süspansiyonlarına verilen çarpma hasarını {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/r228_mechanic_2"
+msgstr "Düşman araçlarına verilen çarpma hasarını {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/r228_mechanic_3"
+msgstr "Düşman araçlarına verilen çarpma hasarını {colorTagOpen}{value}%{colorTagClose} artırır."
+
+msgid "tooltips/description/r230_mechanic_0"
+msgstr "Barut hakkı aşırı ısındıktan sonra tekrar ateş etmeye kadar olan süreyi {colorTagOpen}{value} sn.{colorTagClose} azaltır."
+
+msgid "tooltips/description/r230_mechanic_1"
+msgstr "Azami ısı seviyesinde ateş etmek kalan süreyi {colorTagOpen}{value} sn.{colorTagClose} artırır."
+
+msgid "tooltips/description/r230_mechanic_2"
+msgstr "Barut hakkı aşırı ısındıktan sonra tekrar ateş etmeye kadar olan süreyi {colorTagOpen}{value} sn.{colorTagClose} azaltır."
+
+msgid "tooltips/description/r230_mechanic_3"
+msgstr "Isı seviyesi başına hasar bonusunu {colorTagOpen}{value0}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value1}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value2}%{colorTagClose} artırır."
+
+msgid "tooltips/description/reducedRammingDamage"
+msgstr "Düşman çarpma saldırılarından alınan hasarı azaltır."
+
+msgid "tooltips/description/reloadTimeTwinGun"
+msgstr "Hem Salvo Atış hem Tekli Atış modlarında top yükleme süresini kısaltır."
+
+msgid "tooltips/description/reverseSpeed"
+msgstr "Araç geri hızını artırır."
+
+msgid "tooltips/description/roleSlot"
+msgstr "İkinci donanım yuvasına kategori atayın."
+
+msgid "tooltips/description/s36_mechanic_0"
+msgstr "Korugan modunda gövde dönüş ve top kaldırma hızını {colorTagOpen}{value}%{colorTagClose} iyileştirir."
+
+msgid "tooltips/description/s36_mechanic_1"
+msgstr "Korugan modundan çıkış için gereken süreyi {colorTagOpen}{value} sn.{colorTagClose} kısaltır."
+
+msgid "tooltips/description/s36_mechanic_2"
+msgstr "Korugan modunda top dağılımını {colorTagOpen}{value}%{colorTagClose} azaltır."
+
+msgid "tooltips/description/s36_mechanic_3"
+msgstr "Korugan modunda top yükleme süresini {colorTagOpen}{value}%{colorTagClose} kısaldır."
+
+msgid "tooltips/description/selectiveModuleHPBoost"
+msgstr "Aracınızın yakıt deposunun ve motor parçalarının can puanını artırır."
+
+msgid "tooltips/description/selectiveModuleProtection"
+msgstr "Hasarlı cephanelik ve motorun cezayı azaltır."
+
+msgid "tooltips/description/shellModuleDamage"
+msgstr "Mermilerinizin düşman araçlarının parçalarına verdiği hasarı artırır."
+
+msgid "tooltips/description/shells_consumables_switch"
+msgstr "Alternatif mühimmat ve sarf malzemeleri savaş yükü yapılandırmanıza imkan sağlar."
+
+msgid "tooltips/description/specialShellDamage"
+msgstr "Özel mermilerin verdiği hasarı artırır."
+
+msgid "tooltips/description/specialShellPenetration"
+msgstr "Özel mermilerin delme gücünü artırır."
+
+msgid "tooltips/description/specialShellVelocity"
+msgstr "Özel mermilerin hızını artırır."
+
+msgid "tooltips/description/spottingBonusFoliage"
+msgstr "Yeşillik arkasında saklanan düşman araçlarının gizliliklerini azaltır."
+
+msgid "tooltips/description/spottingBonusMovement"
+msgstr "Hareket halindeki düşman araçlarının gizliliğini azaltır."
+
+msgid "tooltips/description/standardShellDamage"
+msgstr "Standart mermilerin verdiği hasarı artırır."
+
+msgid "tooltips/description/standardShellPenetration"
+msgstr "Standart mermilerin delme gücünü artırır."
+
+msgid "tooltips/description/standardShellVelocity"
+msgstr "Standart mermilerin hızını artırır."
+
+msgid "tooltips/description/stunDuration"
+msgstr "Aracınızın düşman atışlarıyla girdiği şokta kalma süresini kısaltır."
+
+msgid "tooltips/description/turretTraverse"
+msgstr "Azami yatay kule dönüş açılarını artırır."
+
+msgid "tooltips/description/turretTraverseStability"
+msgstr "Çatışma modunda kule dönüşü sırasında top dağılımını azaltır."
+
+msgid "tooltips/description/vehicleSpeed"
+msgstr "İleri ve geri sürerken araç hızını artırır."
+
+msgid "tooltips/description/viewRange"
+msgstr "Düşman araçlarını daha uzak mesafeden tespit etmenizi sağlar."
+
+msgid "tooltips/large/eliteStatus"
+msgstr "Araca Elit statüsü kazandırır"
+
+msgid "tooltips/large/perksResearchRequired"
+msgstr "Bu düğümü araştırmak için diğer tüm düğümleri araştırın."
+
+msgid "tooltips/paramNameWithUnit"
+msgstr "{paramName} ({unit})"
+
+msgid "tooltips/perk/category/concealment"
+msgstr "Kategori: Gizlilik"
+
+msgid "tooltips/perk/category/firepower"
+msgstr "Kategori: Ateş Gücü"
+
+msgid "tooltips/perk/category/mechanics"
+msgstr "Mekanizma Yükseltmesi"
+
+msgid "tooltips/perk/category/mobility"
+msgstr "Kategori: Hareket Kabiliyeti"
+
+msgid "tooltips/perk/category/special"
+msgstr "Özel Yükseltme"
+
+msgid "tooltips/perk/category/spotting"
+msgstr "Kategori: Tespit"
+
+msgid "tooltips/perk/category/survivability"
+msgstr "Kategori: Dayanıklılık"
+
+msgid "tooltips/special/tapToModify"
+msgstr "Düğümü araştırdıktan sonra değiştirmek için tıklayın."
+
+msgid "tooltips/title/HEDamageAbsorption"
+msgstr "HE Hasar Soğurma"
+
+msgid "tooltips/title/HEShellDamage"
+msgstr "HE Mermi Hasarı"
+
+msgid "tooltips/title/HEShellPenetration"
+msgstr "HE Mermi Delme Gücü"
+
+msgid "tooltips/title/HEshellVelocity"
+msgstr "HE Mermi Hızı"
+
+msgid "tooltips/title/a179_mechanic_0"
+msgstr "Yarı Aktif Kütle Sönümleyici"
+
+msgid "tooltips/title/a179_mechanic_1"
+msgstr "Zincir Tahrikli Sürgü Geliştirmesi"
+
+msgid "tooltips/title/a182_mechanic_0"
+msgstr "Yarı Otomatik Burulma Çubuğu Çıkarıcı"
+
+msgid "tooltips/title/a182_mechanic_1"
+msgstr "Savaş Kompartmanı Gelişmiş Hava Filtrelemesi"
+
+msgid "tooltips/title/a182_mechanic_2"
+msgstr "Merkezkaçlı Basınç Pervanesi"
+
+msgid "tooltips/title/a182_mechanic_3"
+msgstr "Modifiye Mühimmat Kelepçeleri"
+
+msgid "tooltips/title/a183_mechanic_0"
+msgstr "Yüksek Çıkışlı Kompresör"
+
+msgid "tooltips/title/a183_mechanic_1"
+msgstr "6.000 PSI Kompresör Pistonu"
+
+msgid "tooltips/title/a183_mechanic_2"
+msgstr "6.000 PSI Pnömatik Sistem"
+
+msgid "tooltips/title/a183_mechanic_3"
+msgstr "Yüksek Basınçlı Ek Silindir"
+
+msgid "tooltips/title/a195_mechanic_1"
+msgstr "Balistik Tutarlılık Geliştirmesi"
+
+msgid "tooltips/title/a195_mechanic_2"
+msgstr "Genişletilmiş Tek Şarj"
+
+msgid "tooltips/title/a195_mechanic_3"
+msgstr "Çarpma Tek Şarj"
+
+msgid "tooltips/title/a195_mechanic_4"
+msgstr "Hafif Şarj Ayrıştırıcı"
+
+msgid "tooltips/title/additionalShellAmmoCapacity"
+msgstr "Ek Mühimmat Kapasitesi"
+
+msgid "tooltips/title/advancedChassisProtection"
+msgstr "Gelişmiş Süspansiyon Koruma"
+
+msgid "tooltips/title/advancedModuleAndCrewProtection"
+msgstr "Gelişmiş Parça ve Mürettebat Koruma"
+
+msgid "tooltips/title/aimingCircleSize"
+msgstr "Nişan Alma Çember Boyutu"
+
+msgid "tooltips/title/aimingTime"
+msgstr "Nişan Alma Süresi"
+
+msgid "tooltips/title/aimingTimeSalvo"
+msgstr "Nişan Alma Süresi"
+
+msgid "tooltips/title/allShellDamage"
+msgstr "Tüm Mermi Hasarı"
+
+msgid "tooltips/title/allShellsVelocity"
+msgstr "Mermi Hızı"
+
+msgid "tooltips/title/ammoRackHP"
+msgstr "Cephanelik CP'si"
+
+msgid "tooltips/title/ammoRackPenalty"
+msgstr "Cephanelik Cezası"
+
+msgid "tooltips/title/basicShellDamage"
+msgstr "Standart Mermi Hasarı"
+
+msgid "tooltips/title/ch67_mechanic_0"
+msgstr "İtiş Yönlendirme"
+
+msgid "tooltips/title/ch67_mechanic_1"
+msgstr "Yüksek Akışlı Sevk Yakıt Pompası"
+
+msgid "tooltips/title/ch67_mechanic_2"
+msgstr "Buharlaşmalı Soğutma"
+
+msgid "tooltips/title/ch67_mechanic_3"
+msgstr "Terleme Soğutmalı Püskürtücüler"
+
+msgid "tooltips/title/ch70_mechanic_0"
+msgstr "Yüksek Enerjili Sevk Barutu"
+
+msgid "tooltips/title/ch70_mechanic_1"
+msgstr "Yarı Otomatik İtici Aspiratörü"
+
+msgid "tooltips/title/ch70_mechanic_2"
+msgstr "Çekirdek Şekli Optimizasyonu"
+
+msgid "tooltips/title/ch70_mechanic_3"
+msgstr "Genişletilmiş Takviye Haznesi"
+
+msgid "tooltips/title/chassisHP"
+msgstr "Süspansiyon CP'si"
+
+msgid "tooltips/title/chassisRepairSpeed"
+msgstr "Süspansiyon Onarım Hızı"
+
+msgid "tooltips/title/crewProtection"
+msgstr "Mürettebat Koruması"
+
+msgid "tooltips/title/damagedGunDispersion"
+msgstr "Durumsal Top Dağılımı"
+
+msgid "tooltips/title/driveModeForwardSpeed"
+msgstr "Sürüş Modu İleri Hızı"
+
+msgid "tooltips/title/driveModeReverseSpeed"
+msgstr "Sürüş Modu Geri Hızı"
+
+msgid "tooltips/title/engineFireChance"
+msgstr "Motorda Yangın Olasılığı"
+
+msgid "tooltips/title/engineHP"
+msgstr "Motor CP'si"
+
+msgid "tooltips/title/enginePenalty"
+msgstr "Motor Cezası"
+
+msgid "tooltips/title/enginePower"
+msgstr "Motor Gücü"
+
+msgid "tooltips/title/f135_mechanic_0"
+msgstr "Hidrolik Hortum Optimizasyonu"
+
+msgid "tooltips/title/f135_mechanic_1"
+msgstr "Yükleme Silsile Optimizasyonu"
+
+msgid "tooltips/title/f136_mechanic_0"
+msgstr "İyileştirilmiş Yükleme Mekanizması"
+
+msgid "tooltips/title/f143_mechanic_0"
+msgstr "Termal Namlu Yalıtımı"
+
+msgid "tooltips/title/f143_mechanic_1"
+msgstr "Yüksek Çıkışlı Alternatör"
+
+msgid "tooltips/title/f143_mechanic_2"
+msgstr "Düşük Dirençli Kablolama"
+
+msgid "tooltips/title/f143_mechanic_3"
+msgstr "Modifiye Çıktı Sınırlayıcısı"
+
+msgid "tooltips/title/forwardSpeed"
+msgstr "İleri Hız"
+
+msgid "tooltips/title/fuelTankHP"
+msgstr "Yakıt Deposu CP'si"
+
+msgid "tooltips/title/g185_mechanic_0"
+msgstr "Coriolis Kuvvet Sensörü"
+
+msgid "tooltips/title/g185_mechanic_1"
+msgstr "Jiroskopik Meyil Sensörü"
+
+msgid "tooltips/title/g185_mechanic_2"
+msgstr "Gelişmiş Giriş Terminali"
+
+msgid "tooltips/title/g185_mechanic_3"
+msgstr "Yüksek Hassasiyetli Dönüş Sensörü"
+
+msgid "tooltips/title/g187_mechanic_0"
+msgstr "İyileştirilmiş Yardımcı Mermi Deposu"
+
+msgid "tooltips/title/g187_mechanic_1"
+msgstr "Yardımcı Top Sürgüsü"
+
+msgid "tooltips/title/g188_mechanic_0"
+msgstr "Gelişmiş Takip Mekanizması"
+
+msgid "tooltips/title/g188_mechanic_1"
+msgstr "Verimi Yüksek Soğutucu"
+
+msgid "tooltips/title/g188_mechanic_2"
+msgstr "Yüksek Amperajlı Jeneratör"
+
+msgid "tooltips/title/g188_mechanic_3"
+msgstr "Düşük Dağılımlı Yakut Lazer"
+
+msgid "tooltips/title/g189_mechanic_0"
+msgstr "Modifiye Güç Çıkış Ünitesi"
+
+msgid "tooltips/title/g189_mechanic_1"
+msgstr "Çift Isı Kontrol Sensörü"
+
+msgid "tooltips/title/g189_mechanic_2"
+msgstr "Hassas Isı Kumandası"
+
+msgid "tooltips/title/g189_mechanic_3"
+msgstr "Yüksek Çıkışlı Alternatör"
+
+msgid "tooltips/title/gb147_mechanic_0"
+msgstr "Önden Yüklenmiş Top Yatakları"
+
+msgid "tooltips/title/gb147_mechanic_1"
+msgstr "Gelişmiş Dönüş Sistemi"
+
+msgid "tooltips/title/gb147_mechanic_2"
+msgstr "Eğim Kumanda Sistemi"
+
+msgid "tooltips/title/gb147_mechanic_3"
+msgstr "Boşalmış Tork Regülatörü"
+
+msgid "tooltips/title/gb152_mechanic_0"
+msgstr "Vites Oran Ayarı"
+
+msgid "tooltips/title/gb152_mechanic_1"
+msgstr "Türbin Geometrisi Optimizasyonu"
+
+msgid "tooltips/title/gb152_mechanic_2"
+msgstr "Borulu Manifold Optimizasyonu"
+
+msgid "tooltips/title/gb152_mechanic_3"
+msgstr "Modifiye Devir Sınırlayıcı"
+
+msgid "tooltips/title/gb158_mechanic_0"
+msgstr "Ayarlanmış Basınç Düzenleyici"
+
+msgid "tooltips/title/gb158_mechanic_1"
+msgstr "Modernize Edilmiş Egzoz Manifoldu"
+
+msgid "tooltips/title/gb158_mechanic_2"
+msgstr "Yüksek Kapasiteli Hava Tankı"
+
+msgid "tooltips/title/gb158_mechanic_3"
+msgstr "Yüksek Verimli Hava Kompresörü"
+
+msgid "tooltips/title/gunDepression"
+msgstr "Top Eğim Açısı"
+
+msgid "tooltips/title/gunDispersion"
+msgstr "Top Dağılımı"
+
+msgid "tooltips/title/gunDispersionSalvo"
+msgstr "Top Dağılımı"
+
+msgid "tooltips/title/gunElevation"
+msgstr "Top Kaldırma Açısı"
+
+msgid "tooltips/title/gunStabilization"
+msgstr "Toplam Top Stabilizasyonu"
+
+msgid "tooltips/title/gunStabilizationFromHull"
+msgstr "Kısmî Top Stabilizasyonu"
+
+msgid "tooltips/title/gunStabilizationFromHullMovement"
+msgstr "Hareket Stabilizasyonu"
+
+msgid "tooltips/title/gunStabilizationFromHullRotation"
+msgstr "Dönüş Stabilizasyonu"
+
+msgid "tooltips/title/gunStabilizationFromHullSalvo"
+msgstr "Kısmî Top Stabilizasyonu"
+
+msgid "tooltips/title/gunStabilizationFromTurret"
+msgstr "Kısmî Top Stabilizasyonu"
+
+msgid "tooltips/title/gunStabilizationFromTurretSalvo"
+msgstr "Kısmî Top Stabilizasyonu"
+
+msgid "tooltips/title/gunTraverse"
+msgstr "İyileştirilmiş Top Dönüşü"
+
+msgid "tooltips/title/hitPoints"
+msgstr "Can Puanı (CP)"
+
+msgid "tooltips/title/hullElevationSpeed"
+msgstr "Gövde Kaldırma Hızı"
+
+msgid "tooltips/title/hullTraverseSpeed"
+msgstr "Gövde Dönüş Hızı"
+
+msgid "tooltips/title/innerClipReloadTime"
+msgstr "Şarjör İçi Yükleme Süresi"
+
+msgid "tooltips/title/invisibilityWhenShooting"
+msgstr "Ateş Ettikten Sonra Gizlilik"
+
+msgid "tooltips/title/j52_mechanic_0"
+msgstr "Düşük Derecede Isı Transfer Sıvısı"
+
+msgid "tooltips/title/j52_mechanic_1"
+msgstr "Yüksek İletkenlikli Termal Muhafaza"
+
+msgid "tooltips/title/j52_mechanic_2"
+msgstr "Isı Borusu Optimizasyonu"
+
+msgid "tooltips/title/nonHEShellDamage"
+msgstr "HE Olmayan Mermi Hasarı"
+
+msgid "tooltips/title/opt_dev_boosters_switch"
+msgstr "Donanım ve Yönergeler Savaş Yükü"
+
+msgid "tooltips/title/overheat_coolingDelay"
+msgstr "Krom Astar Kaplama"
+
+msgid "tooltips/title/overheat_coolingPerSec"
+msgstr "Yüksek İletkenlikli Silah Namlusu"
+
+msgid "tooltips/title/overheat_heatingPerShot"
+msgstr "Düşük Alev Sıcaklıklı Sevk Barutu"
+
+msgid "tooltips/title/overheat_overheatedCoolingPerSec"
+msgstr "Basınçlı Havalandırma Sistemi"
+
+msgid "tooltips/title/pl37_mechanic_0"
+msgstr "Hafif Türbin Rotoru"
+
+msgid "tooltips/title/pl37_mechanic_1"
+msgstr "Yüksek Çıkışlı Yardımcı Alternatör"
+
+msgid "tooltips/title/pl37_mechanic_2"
+msgstr "Gelişmiş Düzeltme Kumandası"
+
+msgid "tooltips/title/pl37_mechanic_3"
+msgstr "Hibrit Kapasitör Dizisi"
+
+msgid "tooltips/title/r228_mechanic_0"
+msgstr "Yerel Kenar Sertleştirme"
+
+msgid "tooltips/title/r228_mechanic_1"
+msgstr "Yüksek Alaşım Çelik Paletler"
+
+msgid "tooltips/title/r228_mechanic_2"
+msgstr "Derin Yerel Karbürleme"
+
+msgid "tooltips/title/r228_mechanic_3"
+msgstr "Yerel Yüzey Karbürleme"
+
+msgid "tooltips/title/r230_mechanic_0"
+msgstr "Yüksek Hassasiyette Isı Sensörü"
+
+msgid "tooltips/title/r230_mechanic_1"
+msgstr "Düşük Ataletli Kama Isıtıcıları"
+
+msgid "tooltips/title/r230_mechanic_2"
+msgstr "Mekanize Şarj Tepsisi"
+
+msgid "tooltips/title/r230_mechanic_3"
+msgstr "Isı Kumanda Aşırı Yük"
+
+msgid "tooltips/title/reducedRammingDamage"
+msgstr "Azaltılmış Çarpma Hasarı"
+
+msgid "tooltips/title/reloadTime"
+msgstr "Yükleme Süresi"
+
+msgid "tooltips/title/reloadTimeTwinGun"
+msgstr "Yükleme Süresi"
+
+msgid "tooltips/title/reverseSpeed"
+msgstr "Geri Hız"
+
+msgid "tooltips/title/roleSlot"
+msgstr "İkinci Yuva Kategorisi"
+
+msgid "tooltips/title/s36_mechanic_0"
+msgstr "Eksenel Piston Hidrolik Pompası"
+
+msgid "tooltips/title/s36_mechanic_1"
+msgstr "Çoklu Koni Güç Eşleştirici"
+
+msgid "tooltips/title/s36_mechanic_2"
+msgstr "Hassas Dengeli Rotor"
+
+msgid "tooltips/title/s36_mechanic_3"
+msgstr "Hidrolik Tahrikli Sürgü"
+
+msgid "tooltips/title/selectiveModuleHPBoost"
+msgstr "Seçimlik Parça CP Takviyesi"
+
+msgid "tooltips/title/selectiveModuleProtection"
+msgstr "Seçimlik Parça Koruması"
+
+msgid "tooltips/title/shellModuleDamage"
+msgstr "Mermi Parça Hasarı"
+
+msgid "tooltips/title/shells_consumables_switch"
+msgstr "Mühimmat ve Sarf Malzemeleri Savaş Yükü"
+
+msgid "tooltips/title/specialShellDamage"
+msgstr "Özel Mermi Hasarı"
+
+msgid "tooltips/title/specialShellPenetration"
+msgstr "Özel Mermi Delme Gücü"
+
+msgid "tooltips/title/specialShellVelocity"
+msgstr "Özel Mermi Hızı"
+
+msgid "tooltips/title/spottingBonusFoliage"
+msgstr "Tespit Bonusu: Yeşillik"
+
+msgid "tooltips/title/spottingBonusMovement"
+msgstr "Tespit Bonusu: Hareket"
+
+msgid "tooltips/title/standardShellDamage"
+msgstr "Standart Mermi Hasarı"
+
+msgid "tooltips/title/standardShellPenetration"
+msgstr "Standart Mermi Delme Gücü"
+
+msgid "tooltips/title/standardShellVelocity"
+msgstr "Standart Mermi Hızı"
+
+msgid "tooltips/title/stunDuration"
+msgstr "Şok Süresi"
+
+msgid "tooltips/title/turretTraverse"
+msgstr "İyileştirilmiş Kule Dönüşü"
+
+msgid "tooltips/title/turretTraverseSpeed"
+msgstr "Kule Dönüş Hızı"
+
+msgid "tooltips/title/turretTraverseStability"
+msgstr "Kule Dönüş Stabilizasyonu"
+
+msgid "tooltips/title/vehicleSpeed"
+msgstr "Araç Hızı"
+
+msgid "tooltips/title/viewRange"
+msgstr "Artırılmış Görüş Mesafesi"
+
+msgid "tooltips/vanityEntryPoint/statusInfo"
+msgstr "Açmak için son düğümü araştırın"
+
+msgid "tooltips/vanityEntryPoint/text"
+msgstr "Seviye XI araçlar için hacimsel bir stil, İstatistik Takipçisi ve top kılıfı gibi seçkin ödüller alın."
+
+msgid "tooltips/vanityEntryPoint/title"
+msgstr "Elit Ödüller"
+
+msgid "vanity/available/subtitle"
+msgstr "Aracınızın Elit seviyesi için ödüller alın"
+
+msgid "vanity/available/tooltip"
+msgstr "Mevcut Elit Seviyesi"
+
+msgid "vanity/completed/subtitle"
+msgstr "Tebrikler! Tüm ödüller alındı."
+
+msgid "vanity/completed/tooltip"
+msgstr "Mevcut Elit Seviyesi"
+
+msgid "vanity/disabled/subtitle"
+msgstr "Son düğüme ulaştıktan sonra kazanılabilir"
+
+msgid "vanity/disabled/tooltip"
+msgstr "Araç Elit statüsüne sahip değil"
+
+msgid "vanity/reward/level/tooltip"
+msgstr "Ödül için gereken Elit Seviyesi"
+
+msgid "vanity/rewardType/description/attachment"
+msgstr "Aracınızın savaş alanında hemen göz doldurmasını sağlayan seçkin bir top kılıfı."
+
+msgid "vanity/rewardType/description/stattracker"
+msgstr "Kaç araç yok ettiğinizi gösteren yeni bir özgün özelleştirme ögesi."
+
+msgid "vanity/rewardType/description/style"
+msgstr "Sadece Seviye XI araçlar için sunulan, 3B görünümü veren özgün görsel efekte sahip özel bir 2B stil."
+
+msgid "vanity/rewardType/title/attachment"
+msgstr "Top Kılıfı 3B Eki"
+
+msgid "vanity/rewardType/title/stattracker"
+msgstr "İstatistik Takipçisi"
+
+msgid "vanity/rewardType/title/style"
+msgstr "Hacimsel stil"
+
+msgid "vanity/title"
+msgstr "ELİT ÖDÜLLER"

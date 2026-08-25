@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: Equipo de WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "Recompensas para los cazacarros"
+
+msgid "awards/class/SPG"
+msgstr "Recompensas para la AAP"
+
+msgid "awards/class/heavyTank"
+msgstr "Recompensas para los carros pesados"
+
+msgid "awards/class/lightTank"
+msgstr "Recompensas para los carros ligeros"
+
+msgid "awards/class/mediumTank"
+msgstr "Recompensas para los carros medios"
+
+msgid "awards/level"
+msgstr "Recompensas para vehículos de nivel %(level)s"
+
+msgid "awards/nation/china"
+msgstr "Recompensas para vehículos chinos"
+
+msgid "awards/nation/czech"
+msgstr "Recompensas para vehículos checoeslovacos"
+
+msgid "awards/nation/france"
+msgstr "Recompensas para vehículos franceses"
+
+msgid "awards/nation/germany"
+msgstr "Recompensas para vehículos alemanes"
+
+msgid "awards/nation/japan"
+msgstr "Recompensas para vehículos japoneses"
+
+msgid "awards/nation/poland"
+msgstr "Recompensas para vehículos polacos"
+
+msgid "awards/nation/sweden"
+msgstr "Recompensas para vehículos suecos"
+
+msgid "awards/nation/uk"
+msgstr "Recompensas para vehículos británicos"
+
+msgid "awards/nation/usa"
+msgstr "Recompensas para vehículos estadounidenses"
+
+msgid "awards/nation/ussr"
+msgstr "Recompensas para vehículos soviéticos"
+
+msgid "awards/tooltip/class"
+msgstr "Haz clic para mostrar las recompensas para este tipo de vehículo."
+
+msgid "awards/tooltip/level"
+msgstr "Haz clic para mostrar las recompensas para los vehículos de este nivel."
+
+msgid "awards/tooltip/nation"
+msgstr "Haz clic para mostrar las recompensas para los vehículos de esta nación."
+
+msgid "awards/vehicle"
+msgstr "Recompensas para el vehículo seleccionado"
+
+msgid "badge/tooltip/description"
+msgstr "Una insignia es un icono exclusivo que se mostrará en batalla junto a tu nombre de usuario. La insignia se muestra a los jugadores de ambos equipos e indica vuestro rendimiento destacado en el evento «Desfile de Naciones»."
+
+msgid "badgesGroup/tooltip/header"
+msgstr "Insignias conmemorativas"
+
+msgid "block/award"
+msgstr "Recompensa principal"
+
+msgid "block/objective"
+msgstr "Condiciones"
+
+msgid "block/task"
+msgstr "Misión"
+
+msgid "button/awards"
+msgstr "Todas las recompensas"
+
+msgid "button/awards/tooltip"
+msgstr "Haz clic para mostrar la lista de todas las recompensas en la competición."
+
+msgid "button/regulations"
+msgstr "Requisitos"
+
+msgid "button/regulations/tooltip"
+msgstr "Haz clic para mostrar la descripción completa de la competición."
+
+msgid "condition/battletype/random"
+msgstr "Batalla aleatoria 15 x 15"
+
+msgid "condition/battletype/ranked"
+msgstr "Batalla de clasificación"
+
+msgid "condition/battletype/squadallowed"
+msgstr "Se admiten pelotones"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "No se admiten pelotones"
+
+msgid "condition/primetime/any"
+msgstr "En cualquier servidor y momento"
+
+msgid "condition/primetime/chosen"
+msgstr "Solo en los servidores especificados"
+
+msgid "condition/vehicle/chosen"
+msgstr "Solo en los vehículos especificados:"
+
+msgid "condition/vehicle/exist"
+msgstr "En el garaje"
+
+msgid "condition/vehicle/missing"
+msgstr "No tienes este vehículo"
+
+msgid "condition/vehicle/single"
+msgstr "En el %(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "Premio"
+
+msgid "excel/btnClose"
+msgstr "A LA COMPETICIÓN"
+
+msgid "excel/group/title"
+msgstr "Grupo"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "Para posicionarte en la puntuación, libra más batallas: %(number)s"
+
+msgid "excel/noData"
+msgstr "Todavía no se han obtenido posiciones premiadas."
+
+msgid "excel/participate/join"
+msgstr "Luchar"
+
+msgid "excel/participate/notParticipated"
+msgstr "No obtuviste una posición en esta clasificación"
+
+msgid "excel/subHeader"
+msgstr "Competición: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "Únete"
+
+msgid "header/participate/button/leave"
+msgstr "Abandonar la competición"
+
+msgid "header/participate/finished"
+msgstr "La competición ha terminado"
+
+msgid "header/participate/notStarted"
+msgstr "Te has unido"
+
+msgid "header/participate/reason/byAge"
+msgstr "Cuenta creada después del %date%"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "Competición no disponible"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "Has abandonado esta competición"
+
+msgid "header/participate/started"
+msgstr "Estás participando"
+
+msgid "header/timer"
+msgstr "Finaliza en:"
+
+msgid "maintenance/body"
+msgstr "Sentimos el inconveniente temporal."
+
+msgid "maintenance/title"
+msgstr "Error al cargar los datos"
+
+msgid "maintenance/update"
+msgstr "Actualizar"
+
+msgid "notification/buttons/details"
+msgstr "Detalles"
+
+msgid "notification/eventFinished/body"
+msgstr "La competición %(eventName)s ha finalizado. Los ganadores se determinarán durante los próximos días, tras los cuales recibirán sus merecidas recompensas."
+
+msgid "notification/eventFinished/header"
+msgstr "Competición finalizada"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "Los resultados de tus batallas se tienen ahora en cuenta para la competición, así que puedes situarte en la clasificación y conseguir una recompensa."
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "Te has unido como participante"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "Los resultados de tus batallas se tendrán en cuenta una vez comience la competición, así que puedes situarte en la clasificación y conseguir una recompensa."
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "Te has unido como participante"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "No es posible unirse como participante: no se cumplen los requisitos."
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "No es posible unirse como participante: ha finalizado el periodo de registro."
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "Tus estadísticas en la competición se reiniciarán una vez se actualicen las clasificaciones."
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "Has abandonado la competición"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "No se tendrán en cuenta tus estadísticas para esta competición."
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "Has abandonado la competición"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "No es posible abandonar la competición: ha finalizado el plazo."
+
+msgid "notification/eventStarted/body"
+msgstr "¡Ha comenzado la competición %(eventName)s! Los jugadores que se situen en puestos premiados cuando termine la competición recibirán valiosas recompensas."
+
+msgid "notification/eventStarted/header"
+msgstr "Ha comenzado la competición"
+
+msgid "notification/unknownError/body"
+msgstr "No es posible completar la operación."
+
+msgid "orders/title"
+msgstr "Requisitos"
+
+msgid "popover/buttons/cancel"
+msgstr "Cancelar"
+
+msgid "popover/buttons/rating"
+msgstr "Ir a las clasificaciones"
+
+msgid "popover/buttons/select"
+msgstr "Seleccionar"
+
+msgid "popover/noVehicles"
+msgstr "No hay vehículos que coincidan con el filtro seleccionado."
+
+msgid "popover/resetFilter"
+msgstr "Reiniciar filtro"
+
+msgid "popover/title"
+msgstr "Lista de clasificación"
+
+msgid "popover/title/vehicle"
+msgstr "Lista de clasificación"
+
+msgid "popover/tooltip/class"
+msgstr "Ir a la clasificación para los vehículos del tipo seleccionado."
+
+msgid "popover/tooltip/level"
+msgstr "Ir a la clasificación para los vehículos del nivel seleccionado."
+
+msgid "popover/tooltip/nation"
+msgstr "Ir a la clasificación para los vehículos de la nación seleccionada."
+
+msgid "server/list"
+msgstr "Para hacer que tus batallas se tengan en cuenta para la competición, transfiérete al siguiente servidor:"
+
+msgid "server/noSuitable/body"
+msgstr "Los resultados de las batallas se volverán a calcular a las: %(data)s. Calendario de la competición"
+
+msgid "server/noSuitable/header"
+msgstr "En este momento no se tienen en cuenta para la competición los resultados de las batallas"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s en %(server)s"
+
+msgid "status/bestResults/many"
+msgstr "Mis mejores resultados"
+
+msgid "status/bestResults/one"
+msgstr "Mis resultados"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "La competición no está disponible:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "No se te permite participar en esta competición debido a tu violación del reglamento del juego"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "cuenta creada después del %(date)s"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "no has librado el número requerido de batallas en el modo de Batallas aleatorias: %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "tu tasa de victorias en el modo Batallas aleatorias excede %(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "no has alcanzado la siguiente tasa de victorias en el modo Batallas aleatorias: %(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "Ha terminado el periodo de registro"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "No te puedes unir a esta competición como participante."
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "Has abandonado esta competición"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "Los resultados de tus batallas ya no se tienen en cuenta para esta competición. No se te situará en la clasificación y no conseguirás una recompensa.\nNo puedes volver a entrar en esta competición."
+
+msgid "status/cantJoin/reason/many"
+msgstr "no se cumple el requisito %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "no se cumple el requisito (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "No te clasificaste"
+
+msgid "status/cantJoin/reason/special"
+msgstr "No puedes participar en la competición usando esta cuenta."
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "no hay vehículos adecuados"
+
+msgid "status/participate/cantJoin"
+msgstr "Competición no disponible"
+
+msgid "status/participate/needMoreBattles"
+msgstr "Cumple los requisitos especificados en batallas y tus resultados se mostrarán aquí una vez se actualicen las clasificaciones."
+
+msgid "status/participate/notParticipated"
+msgstr "No participaste en esta clasificación"
+
+msgid "summary/averagedamage"
+msgstr "Daño medio"
+
+msgid "summary/averagedamageassisted"
+msgstr "Daño promedio con tu asistencia"
+
+msgid "summary/averagexp"
+msgstr "Experiencia promedio"
+
+msgid "summary/battles"
+msgstr "Batallas en competición"
+
+msgid "summary/damage"
+msgstr "Daño"
+
+msgid "summary/damageassist"
+msgstr "Daño con tu asistencia"
+
+msgid "summary/damageblocked"
+msgstr "Daño bloqueado"
+
+msgid "summary/description/awards/title/award"
+msgstr "RECOMPENSA AL FINAL DE LA COMPETICIÓN"
+
+msgid "summary/description/awards/title/group"
+msgstr "GRUPO"
+
+msgid "summary/description/awards/title/position"
+msgstr "POSICIÓN"
+
+msgid "summary/description/max/class"
+msgstr "Libraste tu mejor batalla en el %(value)s"
+
+msgid "summary/description/max/level"
+msgstr "Libraste tu mejor batalla en un vehículo de nivel %(value)s"
+
+msgid "summary/description/max/nation"
+msgstr "Libraste tu mejor batalla en un vehículo de %(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "Libraste tu mejor batalla en el %(value)s"
+
+msgid "summary/description/sum/class"
+msgstr "Tus estadísticas en la competición en el valor %(value)s"
+
+msgid "summary/description/sum/level"
+msgstr "Tus estadísticas en la competición en vehículos del nivel %(value)s"
+
+msgid "summary/description/sum/nation"
+msgstr "Tus estadísticas en la competición en vehículos de %(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "Tus estadísticas en la competición en el siguiente vehículo: %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "Tu mejor serie de batallas en el %(value)s"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "Tu mejor serie de batallas en vehículos de nivel %(value)s"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "Tu mejor serie de batallas en vehículos de %(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "Tu mejor serie de batallas en el %(value)s"
+
+msgid "summary/description/sumN/class"
+msgstr "Tus mejores batallas en el %(value)s"
+
+msgid "summary/description/sumN/level"
+msgstr "Tus mejores batallas en vehículos de nivel %(value)s"
+
+msgid "summary/description/sumN/nation"
+msgstr "Tus mejores batallas en vehículos de %(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "Tus mejores batallas en el %(value)s"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "Tu mejor serie de batallas en el %(value)s"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "Tu mejor serie de batallas en vehículos de nivel %(value)s"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "Tu mejor serie de batallas en vehículos de %(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "Tu mejor serie de batallas en el %(value)s"
+
+msgid "summary/destroyedvehicles"
+msgstr "Vehículos enemigos destruidos"
+
+msgid "summary/fightInSquaad"
+msgstr "Batalla formando un pelotón"
+
+msgid "summary/fightNotInSquaad"
+msgstr "Batallas sin formar un pelotón"
+
+msgid "summary/originalXP"
+msgstr "Experiencia base"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "Daño causado con la asistencia del jugador"
+
+msgid "summary/param/max/damageDealt"
+msgstr "Daño"
+
+msgid "summary/param/max/originalXP"
+msgstr "Experiencia base"
+
+msgid "summary/param/max/xp"
+msgstr "Experiencia"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "Daño medio causado con la asistencia del jugador"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "Daño medio"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "Experiencia base promedio"
+
+msgid "summary/param/sumAll/wins"
+msgstr "Victorias"
+
+msgid "summary/param/sumAll/xp"
+msgstr "Experiencia promedio"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "Daño medio causado con la asistencia del jugador"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "Daño total"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "Experiencia base total"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "Experiencia total"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "Daño total causado con la asistencia del jugador"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "Daño total"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "Experiencia base total"
+
+msgid "summary/param/sumN/xp"
+msgstr "Experiencia total"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "Daño medio causado con la asistencia del jugador"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "Daño total"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "Experiencia base total"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "Experiencia total"
+
+msgid "summary/position"
+msgstr "Situado en la clasificación: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "Empate"
+
+msgid "summary/result/loss"
+msgstr "Derrota"
+
+msgid "summary/result/win"
+msgstr "Victoria"
+
+msgid "summary/status"
+msgstr "Actualizado el %(day)s a las %(time)s"
+
+msgid "summary/winrate"
+msgstr "Victorias"
+
+msgid "table/header/player"
+msgstr "Jugador"
+
+msgid "table/header/position"
+msgstr "#"
+
+msgid "table/selectParticipateBtn"
+msgstr "Abandonar competición"
+
+msgid "table/selectRatingBtn"
+msgstr "Lista de clasificaciones"
+
+msgid "table/selectRegistrationBtn"
+msgstr "Unirse como participante"
+
+msgid "table/stripe/bronze/title"
+msgstr "Grupo III (puestos %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/gold/title"
+msgstr "Grupo I (puestos %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "Grupo I"
+
+msgid "table/stripe/iron/title"
+msgstr "Grupo IV (puestos %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/silver/title"
+msgstr "Grupo II (puestos %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/wood/title"
+msgstr "Posiciones no premiadas"
+
+msgid "task/eventtype/all"
+msgstr "Clasificación general para todos los participantes"
+
+msgid "task/eventtype/class"
+msgstr "Cada tipo de vehículo tiene su propia clasificación"
+
+msgid "task/eventtype/level"
+msgstr "Cada nivel de vehículo tiene su propia clasificación"
+
+msgid "task/eventtype/nation"
+msgstr "Cada nación de vehículo tiene su propia clasificación"
+
+msgid "task/eventtype/vehicle"
+msgstr "Cada vehículo tiene su propia clasificación"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "Posiciónate en la clasificación por daño causado con tu asistencia"
+
+msgid "task/objective/max/damageDealt"
+msgstr "Posiciónate en la clasificación por daño causado con tu asistencia"
+
+msgid "task/objective/max/originalXP"
+msgstr "Posiciónate en la clasificación por experiencia base conseguida"
+
+msgid "task/objective/max/xp"
+msgstr "Posiciónate en la clasificación por experiencia conseguida"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "Posiciónate en la clasificación por daño total causado con tu asistencia"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "Posiciónate en la clasificación por daño total causado"
+
+msgid "task/objective/sum/originalXP"
+msgstr "Posiciónate en la clasificación por experiencia base total conseguida"
+
+msgid "task/objective/sum/wins"
+msgstr "Entrar en la clasificación por número de victorias"
+
+msgid "task/objective/sum/xp"
+msgstr "Posiciónate en la clasificación por experiencia total conseguida"
+
+msgid "task/objparam/damageAssisted"
+msgstr "daño causado con tu asistencia"
+
+msgid "task/objparam/damageDealt"
+msgstr "daño causado"
+
+msgid "task/objparam/originalXP"
+msgstr "experiencia base conseguida"
+
+msgid "task/objparam/wins"
+msgstr "número de victorias"
+
+msgid "task/objparam/xp"
+msgstr "experiencia"
+
+msgid "task/selection/max"
+msgstr "Se tiene en cuenta tu mejor batalla"
+
+msgid "task/selection/sumAll"
+msgstr "Se tienen en cuenta todas tus batallas"
+
+msgid "task/selection/sumMSeqN"
+msgstr "Se cuentan las (%(cardinality)s) mejores batallas de la serie. Batallas de la serie: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "Se tienen en cuenta tus mejores batallas: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "Se tiene en cuenta tu mejor racha de batallas. Batallas en la racha: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "hoy"
+
+msgid "time/day/tomorrow"
+msgstr "mañana"
+
+msgid "time/day/yesterday"
+msgstr "ayer"
+
+msgid "time/eventFinished"
+msgstr "La competición finalizó: %(date)s"
+
+msgid "time/period/day"
+msgstr "d."
+
+msgid "time/period/hour"
+msgstr "h."
+
+msgid "time/period/minute"
+msgstr "min"
+
+msgid "time/timeTo/end"
+msgstr "Termina en: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "El periodo de registro termina en: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "Comienza en: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "La recompensa se otorga al final de la competición y depende de tu posición en la clasificación.\nPara ver la lista de todas las recompensas en esta clasificación, haz clic en «Todas las recompensas»."
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "La cantidad de experiencia que se tiene en cuenta no incluye ninguna experiencia extra por cuenta premium o vehículos premium, reservas personales, multiplicadores por la primera victoria del día o cualquier otra bonificación especial."
+
+msgid "tooltip/top/amount/xp"
+msgstr "La cantidad de experiencia que se tiene en cuenta no incluye ninguna experiencia extra por vehículos premium, reservas personales, multiplicadores por la primera victoria del día o cualquier otra bonificación especial.\nSe tiene en cuenta la experiencia extra por cuenta premium."
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "Daño causado con la asistencia del jugador en la última posición premiada: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "Daño causado por el jugador en la última posición premiada: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "Experiencia base conseguida por el jugador en la última posición premiada: %(number)s\nLa cantidad de experiencia que se tiene en cuenta no incluye ninguna experiencia extra por cuenta premium o vehículos premium, reservas personales, multiplicadores por la primera victoria del día o cualquier otra bonificación especial."
+
+msgid "tooltip/top/description/max/xp"
+msgstr "Experiencia conseguida por el jugador en la última posición premiada: %(number)s\nLa cantidad de experiencia que se tiene en cuenta no incluye ninguna experiencia extra por vehículos premium, reservas personales, multiplicadores por la primera victoria del día o cualquier otra bonificación especial.\nSe tiene en cuenta la experiencia extra por cuenta premium."
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "Daño total causado con la asistencia de un jugador en la última posición premiada: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "Daño total causado por el jugador en la última posición premiada: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "Experiencia base total conseguida por el jugador en la última posición premiada: %(number)s\nLa cantidad de experiencia que se tiene en cuenta no incluye ninguna experiencia extra por cuenta premium o vehículos premium, reservas personales, multiplicadores por la primera victoria del día o cualquier otra bonificación especial."
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "Número de victorias del jugador en la última posición premiada: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "Experiencia base total conseguida por el jugador en la última posición premiada: %(number)s\nLa cantidad de experiencia que se tiene en cuenta no incluye ninguna experiencia extra por vehículos premium, reservas personales, multiplicadores por la primera victoria del día o cualquier otra bonificación especial.\nSe tiene en cuenta la experiencia extra por cuenta premium."
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "Posición no premiada"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "Grupo %(group)s (positions %(min)s-%(max)s)"
+
+msgid "top/averageXP"
+msgstr "Experiencia promedio conseguida por el jugador en la última posición premiada:"
+
+msgid "top/participation/notParticipated"
+msgstr "No participaste en esta clasificación"
+
+msgid "top/participation/notfull"
+msgstr "No te clasificaste"
+
+msgid "top/participation/notintop"
+msgstr "No ocupas una posición premiada"
+
+msgid "top/position"
+msgstr "Tu posición:"
+
+msgid "top/reason/notfull"
+msgstr "Para posicionarte en la clasificación, libra más batallas:"
+
+msgid "vehicles/level"
+msgstr "Vehículos de nivel %(level)s"
+
+msgid "vehicles/tooltip/class"
+msgstr "Haz clic para mostrar los vehículos de este tipo que participan en la competición."
+
+msgid "vehicles/tooltip/level"
+msgstr "Haz clic para mostrar los vehículos de este nivel que participan en la competición."
+
+msgid "vehicles/tooltip/nation"
+msgstr "Haz clic para mostrar los vehículos de esta nación que participan en la competición."
+
+msgid "vehicles/vehicle"
+msgstr "Vehículos en competición"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "Haz clic para mostrar la lista de vehículos permitidos en la competición."

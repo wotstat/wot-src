@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Zpět na truhly"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Smaragdová truhla"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "SMARAGDOVÁ TRUHLA"
+
+msgid "common/getButton/lowerCase"
+msgstr "Získat truhly"
+
+msgid "common/getButton/upperCase"
+msgstr "ZÍSKAT TRUHLY"
+
+msgid "common/loader"
+msgstr "Otevírání truhly..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Otevřete truhly a prohlédněte si statistiky."
+
+msgid "common/statistics/header"
+msgstr "Truhel otevřeno: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Všechny informace o otevřených truhlách byly vymazány."
+
+msgid "entryPoint/boxes"
+msgstr "NA TRUHLY"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Jde o speciální truhly obsahující prémiová vozidla, 3D doplňky, kredity a další hodnotné herní předměty.\nMůžete je získat v herním obchodě."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Truhly nelze v současné době z technických důvodů otevřít ani zakoupit. Omlouváme se za dočasné potíže."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Truhly jsou dočasně nedostupné"
+
+msgid "eventName/lowerCase"
+msgstr "Parádní v zelené"
+
+msgid "eventName/upperCase"
+msgstr "PARÁDNÍ V ZELENÉ"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Zaručená odměna v další truhle!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maximální počet otevřených truhel před získáním zaručené odměny: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Pokud truhly neotevřete před koncem akce, budou otevřeny automaticky."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Pokud již vlastníte všechna vozidla ze seznamu možného obsahu truhly, budou všechna následující vozidla, která z truhel získáte, kompenzována ve zlaťácích v hodnotě jejich plné ceny."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Každá %(guaranteed0)s. truhla zaručeně obsahuje vozidlo VIII.–IX. úrovně. Pokud daný počet truhel otevřete, aniž by vám takové vozidlo padlo, pak při otevření %(guaranteed0)s.&zwnbsp;truhly padne vozidlo VIII.–IX. úrovně, které ještě nevlastníte. Až k tomu dojde, počítadlo se vynuluje."
+
+msgid "infoPage/header/description"
+msgstr "Otevřete truhlu pro šanci získat cenné herní předměty! Více podrobností níže."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Z %(name) (otevřeno %(boxesCount) truhel)"
+
+msgid "noBoxesView/description/"
+msgstr "Nemáte žádné truhly.\nMůžete si je pořídit v herním obchodě."
+
+msgid "preview/backLabel"
+msgstr "NA TRUHLY"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Dostupné truhly: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nejsou dostupné žádné truhly"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Pokud již vlastníte všechna vozidla ze seznamu možného obsahu truhly, pak všechna následující vozidla, která z truhel získáte, budou kompenzována ve zlaťácích."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) truhla"
+msgstr[1] "%(remainingCount) truhly"
+msgstr[2] "%(remainingCount) truhel"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Zaručená odměna je vozidlo ze seznamu možného obsahu truhly.\nPokud otevřete %(remainingCount) truhel, aniž by vám takové vozidlo padlo, při otevření %(count). truhly takové vozidlo padne. Když k tomu dojde, počítadlo se vynuluje."

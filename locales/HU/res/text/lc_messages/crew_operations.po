@@ -1,0 +1,122 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "crewBooks/button/label"
+msgstr "Kinyitás"
+
+msgid "crewBooks/description"
+msgstr "Menj a legénységi könyvek tanulásához."
+
+msgid "crewBooks/error/locked"
+msgstr "Művelet nem elérhető"
+
+msgid "crewBooks/title"
+msgstr "Legénységi könyvek ({count})"
+
+msgid "crewBooks/tutorial/crewOperations"
+msgstr "MOSTANTÓL ELÉRHETŐ A\nLEGÉNYSÉGI KÖNYVEK TANULÁSA"
+
+msgid "crewBooks/tutorial/readBook"
+msgstr "MENJ A LEGÉNYSÉGI KÖNYVEK\nTANULÁSÁHOZ"
+
+msgid "crewBooks/warning/membersInBattle/tooltip/body"
+msgstr "A legénység csatában van"
+
+msgid "crewBooks/warning/membersInBattle/tooltip/header"
+msgstr "Hiba"
+
+msgid "crewOperations/btn/tooltip/body"
+msgstr "Küldd barakkba a legénységi tagokat, képezd őket újra, helyezd vissza őket azonnal a járműbe vagy használj legénységi könyveket."
+
+msgid "crewOperations/btn/tooltip/header"
+msgstr "Legénységi műveletek"
+
+msgid "dropInBarrack/button/label"
+msgstr "Küldés"
+
+msgid "dropInBarrack/description"
+msgstr "Legénység összes tagjának Barakkba küldése."
+
+msgid "dropInBarrack/error/noCrew"
+msgstr "Nincs legénység"
+
+msgid "dropInBarrack/title"
+msgstr "Legénység Barakkba küldése"
+
+msgid "dropInBarrack/warning/crewIsLocked/tooltip/body"
+msgstr "Nem lehet az összes harckocsizót a Barakkba küldeni."
+
+msgid "dropInBarrack/warning/crewIsLocked/tooltip/header"
+msgstr "A művelet nem hajtható végre"
+
+msgid "dropInBarrack/warning/inBattle/tooltip/body"
+msgstr "Legénység csatában"
+
+msgid "dropInBarrack/warning/inBattle/tooltip/header"
+msgstr "Hiba"
+
+msgid "dropInBarrack/warning/noSpace/tooltip/body"
+msgstr "Nincs elég hely a Barakkban"
+
+msgid "dropInBarrack/warning/noSpace/tooltip/header"
+msgstr "Hadművelet nem elérhető"
+
+msgid "retrain/button/label"
+msgstr "Átképzés"
+
+msgid "retrain/description"
+msgstr "A legénység összes tagjának kiképzése ehhez a járműhöz."
+
+msgid "retrain/error/alreadyRetrained"
+msgstr "Legénység kiképezve"
+
+msgid "retrain/error/locked"
+msgstr "Művelet nem elérhető"
+
+msgid "retrain/error/noCrew"
+msgstr "Nincs legénység"
+
+msgid "retrain/title"
+msgstr "Legénység újraképzése"
+
+msgid "return/button/label"
+msgstr "Vissza"
+
+msgid "return/description"
+msgstr "Visszahelyezi azt a legénységet, ami ez előző csatában ebben a járműben harcolt."
+
+msgid "return/error/allDemobilized"
+msgstr "A legénység összes tagja elbocsájtva"
+
+msgid "return/error/alreadyOnPlaces"
+msgstr "A legénység már a járműben van"
+
+msgid "return/error/noPrevious"
+msgstr "Vívj meg legalább egy csatát\nezzel a járművel"
+
+msgid "return/error/vehicleInBattle"
+msgstr "Ez a jármű csatában van"
+
+msgid "return/title"
+msgstr "Legénység visszahelyezése"
+
+msgid "return/toggle/description"
+msgstr "Automatikusan visszahelyezi azt a legénységet, amely az előző csatában ebben a járműben harcolt."
+
+msgid "return/toggle/label"
+msgstr "A. visszahelyezés"
+
+msgid "return/warning/memberDemobilized/tooltip/body"
+msgstr "A korábbi legénység néhány tagja leszerelt, és nem lehet őket visszahelyezni a járműbe. Az időkeret lejárta előtt visszaállíthatod őket a Barakkban. Ellenkező esetben teljesen eltávolítjuk őket a fiókodról."
+
+msgid "return/warning/memberDemobilized/tooltip/header"
+msgstr "Figyelmeztetés"
+
+msgid "return/warning/membersInBattle/tooltip/body"
+msgstr "A korábbi legénység néhány tagja még csatában van"
+
+msgid "return/warning/membersInBattle/tooltip/header"
+msgstr "Hiba"
+
+msgid "window/title"
+msgstr "Legénységi műveletek"

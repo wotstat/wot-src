@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "tulivoima"
+
+msgid "categories/mobility"
+msgstr "liikkuvuus"
+
+msgid "categories/stealth"
+msgstr "tiedustelu"
+
+msgid "categories/survivability"
+msgstr "selviytyvyys"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "Selvä!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "Ei!"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "Muokkausten peruuttamisen jälkeen voit ostaa ne uudelleen krediiteillä."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "Muokkausten peruuttamisen jälkeen voit ostaa ne uudelleen."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "Peruuta kaikki kaksoismuokkaukset ilmaiseksi?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "Muokkauksen peruuttamisen jälkeen voit ostaa sen uudelleen krediiteillä."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "Muokkauksen peruuttamisen jälkeen voit ostaa sen uudelleen."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "Peruuta \"%(modification)s\" kaksoismuokkaus ilmaiseksi?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "OSTA MUOKKAUKSET"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "VALITSE PAIKAN KATEGORIA"
+
+msgid "hint/entryPoint"
+msgstr "MUOKKAUKSIA SAATAVILLA"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "KLIKKAA VAIHTAAKSESI\nAVUSTAVAA VARUSTUSTA"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "KLIKKAA VAIHTAAKSESI\nOLEELLISTA VARUSTUSTA"
+
+msgid "hint/vehiclePreview"
+msgstr "MUUTOKSET VAUNUN OMINAISUUKSIIN"
+
+msgid "postProgressionIntro/okButton"
+msgstr "Selvä!"
+
+msgid "postProgressionIntro/title"
+msgstr "KENTTÄMUOKKAUS"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "Erikoismuokkaus %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "Klikkaa nähdäksesi muutokset vaunun ominaisuuksiin tason saavuttamisen jälkeen ja korostaaksesi käytetyt muokkaukset."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "Kaksoismuokkaus %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "Kenttämuokkauksen taso"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "Saatavilla vaunun ostamisen jälkeen"
+
+msgid "researchEntry/status/notResearched"
+msgstr "Saatavilla eliittistatuksen saavuttamisen jälkeen"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "Saatavilla vaunun ostamisen ja eliittistatuksen saavuttamisen jälkeen"
+
+msgid "researchEntry/title"
+msgstr "KENTTÄMUOKKAUS"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "Kartuta"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "Peruuta"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} ja {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "Avustava varustus"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "Paikka"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "Oleellinen varustus"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "pääsy erikoismuokkauksiin: {name1} ja {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "pääsy erikoismuokkauksiin: {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "pääsy erikoismuokkaukseen: {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "pääsy erikoismuokkauksiin: {name1}, {name2} ja {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "pääsy kaksoismuokkauksien tasoon {numbers}"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "pääsy kaksoismuokkauksen tasoon {number}"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "Saadaan: {unlockedItems}."
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "Parannetaan perusmuokkauksen tasoa tasolle {level}?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "Paranna perusmuokkauksen tasoa?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "Yhteensä:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "Asettaminen"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "Saatavilla olevat kategoriat: %(roles)."
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "Valittu kategoria: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "Mahdollisuus asettaa kategoria tämän vaunun toiselle varustepaikalle."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "Ensimmäisen paikan kategorian asettaminen"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "Asettaminen (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "Toisen paikan kategoria"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "Aseta"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "Osa ja aseta uudelleen"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "Vaihda"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "Peruuta"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "Voit asettaa paikan kategorian uudelleen käyttäen %(price)"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "Valittu kategoria asetetaan toiselle varustepaikalle. Voit asettaa paikan kategorian uudelleen käyttäen %(price)"
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "Muuntosuhde: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "Muuntaminen epäonnistui: vaaditaan %(gold) enemmän"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "Aseta toisen varustepaikan kategoria"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "Aseta toisen varustepaikan kategoria uudelleen"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "Toisen varustepaikan kategorian asettaminen uudelleen ei onnistu: tarvitaan %(credits) lisää"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "Yhteensä:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "Tilaisuus ottaa käyttöön ylimääräinen nippu {cream_Open}varusteita{cream_Close} ja {cream_Open}direktiivejä.{cream_Close}"
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "Tilaisuus ottaa käyttöön ylimääräinen nippu {cream_Open}ammuksia{cream_Close} ja {cream_Open}kulutustarvikkeita.{cream_Close}"
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "Avustava varustus"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "Oleellinen varustus"
+
+msgid "setupTooltipView/tip"
+msgstr "Voit vaihtaa vaunun ensisijaisen kokoonpanon tai vaihtoehtoisen kokoonpanon välillä tallissa ja taistelun lähtölaskennan aikana."
+
+msgid "setupTooltipView/title"
+msgstr "Vaihtoehtoinen kokoonpano: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)Avustava varustelu%(/accent) on osa vaunun kokoonpanoa, joka koostuu %(accent)varusteista ja direktiiveistä%(/accent). Saatuasi pääsyn vaihtoehtoiseen kokoonpanoon voit %(accent)vaihtaa avustavan varustelun kokoonpanojen välillä%(/accent) taistelun lähtölaskennan aikana."
+
+msgid "slides/additionalEquipment/title"
+msgstr "AVUSTAVA VARUSTELU"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "Saavutettuasi tietyn kenttämuokkausten tason vaunullesi tulee saataville %(accent)vaihtoehtoinen kokoonpano%(/accent) ja voit valmistella %(accent)toisen valikoiman varusteita, ammuksia, kulutustarvikkeita ja direktiivejä%(/accent) tallissa. Se ei korvaa ensisijaista, mutta avaa uusia tilaisuuksia. Voit arvioida kartan ja joukkueiden kokoopanon taistelun lähtölaskennan aikana ja %(accent)valita yhden kahdesta%(/accent) vaunun kokoonpanosta. Sen myötä voit valmistautua paremmin tuleviin taistelun olosuhteisiin."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "VAIHTOEHTOINEN VAUNUN KOKOONPANO"
+
+msgid "slides/baseModifications/description"
+msgstr "%(accent)Perusmuokkaukset%(/accent) antavat bonuksen %(accent)yhteen vaunun ominaisuuksista%(/accent) ja avaa kaksoismuokkaukset. Näiden muokkausten asentaminen on ilmaista ja tarvitset taistelu- tai vapaata kokemusta niiden tutkimiseen."
+
+msgid "slides/baseModifications/title"
+msgstr "PERUSMUOKKAUKSET"
+
+msgid "slides/extraModification/description"
+msgstr "%(accent)Erikoismuokkaukset%(/accent) avaavat vaunulle vaihtoehtoisen kokoonpanon ja antaa mahdollisuuden %(accent)asettaa kategorian%(/accent) toiseen varustepaikkaan (tasojen VIII–X vaunuille). Voit asettaa valitun paikan kategorian uudelleen käyttämällä krediittejä."
+
+msgid "slides/extraModification/title"
+msgstr "ERIKOISMUOKKAUKSET: ROOLIPAIKKA"
+
+msgid "slides/fieldModernization/description"
+msgstr "Kenttämuokkaus on kyky säätää vaunun kokoonpanoa paremmin sen rooliin sopivaksi ja %(accent)muuttaa sen ominaisuuksia%(/accent) käyttämällä erilaisia %(accent)muokkauksia%(/accent). Kukin seuraava muokkaus avataan edellisen tutkimisen jälkeen."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "KENTTÄMUOKKAUS"
+
+msgid "slides/fieldModernization/title"
+msgstr "VAUNUN OMINAISUUKSIEN MUUTTAMINEN"
+
+msgid "slides/modificationTree/description"
+msgstr "Muokkauspuu on saatavilla %(accent)tasojen V–X%(/accent) tutkittaville ja keräilijöiden vaunuille, jotka ovat saavuttaneet %(accent)eliittistatuksen%(/accent). Muokkaukset erikois-, palkkio-, palkinto- ja premium-vaunuille ovat saatavilla ostamisen jälkeen."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "MUOKKAUSTEN TUTKIMINEN"
+
+msgid "slides/modificationTree/title"
+msgstr "MUOKKAUSTEN TUTKIMINEN"
+
+msgid "slides/pairedModifications/description"
+msgstr "%(accent)Kaksoismuokkaukset parantavat yhtä%(/accent) vaunun ominaisuutta ja %(accent)heikentävät toista%(/accent). Tarvitset taistelu- tai vapaata kokemusta tutkimaan muokkauksia ja krediittejä asentamaan niitä. Voit %(accent)peruuttaa (poistaa vaunusta)%(/accent) muokkauksen %(accent)ilmaiseksi%(/accent).\nJos vaunu myydään, perus- ja erikoismuokkaukset säästetään, mutta kaksoismuokkaukset peruutetaan."
+
+msgid "slides/pairedModifications/title"
+msgstr "KAKSOISMUOKKAUKSET"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)Oleellinen varustelu%(/accent) on osa vaunun kokoonpanoa, joka koostuu %(accent)ammuksista ja kulutustarvikkeista%(/accent). Saatuasi pääsyn vaihtoehtoiseen kokoonpanoon voit %(accent)vaihtaa oleellisen varustelun kokoonpanojen välillä%(/accent) taistelun lähtölaskennan aikana."
+
+msgid "slides/requiredEquipment/title"
+msgstr "OLEELLINEN KOKOONPANO"
+
+msgid "slides/roleInBattle/description"
+msgstr "Vaunun tyypin sijaan vaunun rooli kuvastaa tarkemmin optimaalista %(accent)taistelutaktiikkaa%(/accent) ja määrittää, mikä %(accent)muokkauspuu%(/accent) on saatavilla tietylle vaunulle."
+
+msgid "slides/roleInBattle/title"
+msgstr "VAUNUN ROOLI TAISTELUSSA"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "Muokkaukset muuttavat vaunun ominaisuuksia, avaavat %(accent)pääsyn vaihtoehtoiseen kokoonpanoon%(/accent) ja mahdollistavat kategorian asettamisen toiselle %(accent)varustepaikalle%(/accent)."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "Vaihtoehtoinen kokoonpano on toinen valikoima %(accent)varusteita, ammuksia, kulutustarvikkeita ja direktiivejä%(/accent). Voit vaihtaa kokoonpanojen välillä."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "Mahdollisuus valita ja asettaa %(accent)toisen varustepaikan%(/accent) kategoria. Vaikuttaa suoraan vaunun tehokkuuteen taistelussa."
+
+msgid "slides/specialModifications/title"
+msgstr "MUOKKAUKSET, VAIHTOEHTOINEN KOKOONPANO, PAIKAN KATEGORIA"
+
+msgid "tooltips/entry_point/description"
+msgstr "Kyky muuttaa vaunun ominaisuuksia."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "Tutkitut moduulit ja vaunut: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "Tutkitut moduulit: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "Kenttämuokkaus"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "Saatavilla vaunun ostamisen jälkeen."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "Saatavilla eliittistatuksen saavuttamisen jälkeen."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "Saatavilla vaunun ostamisen ja eliittistatuksen saavuttamisen jälkeen."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "Olemme pahoillamme väliaikaisesta häiriöstä. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "Erikoismuokkaukset eivät ole saatavilla"
+
+msgid "tooltips/feature/subTitle"
+msgstr "Erikoismuokkaus %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "Ansaitse niitä taisteluista, myy ylimääräisiä tavaroita varastostasi tai muunna kultaa saadaksesi lisää."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "Ei riittävästi krediittejä"
+
+msgid "tooltips/pairModification/demount"
+msgstr "Irrottaminen"
+
+msgid "tooltips/pairModification/level"
+msgstr "Kaksoismuokkaus %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "Muutokset teknisiin ominaisuuksiin:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "Irrottaminen (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "Ostaminen (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "Ostaminen"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "Klikkaa näyttääksesi muutokset vaunun teknisiin ominaisuuksiin tämän muokkauksen ostamisen jälkeen."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "Peruutettuasi muokkaukset voit ostaa minkä hyvänsä tämän parin muokkauksen käyttämällä krediittejä."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "Tämän muokkauksen ostaminen peruuttaa automaattisesti tästä parista jo asennetun muokkauksen."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "Toinen muokkaus ostettu"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "Tutki kenttämuokkausten taso %(level) saadaksesi pääsy tähän muokkaukseen"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "Muokkaus ei saatavilla"
+
+msgid "tooltips/priceBlock/free"
+msgstr "Ilmainen"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "vaaditaan:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "Arvioitu numero. Tarkat arvot määritetään ominaisuuksissa."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "Ota käyttöön"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "Peruuta"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "Nollaa"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "%(title)s vaunun muokkaukset"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "Lisää vertailuun"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "Tuhoa kaikki kaksoismuokkaukset"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "Klikkaa tuhotaksesi kaikki kaksoismuokkaukset."
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "Tuhoa"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "Esikatsele"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "Uudelleenaseta"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "Ennen taistelua"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "Valitse"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "Ota käyttöön/poista käytöstä mahdollisuus valita varusteet ja direktiivit taistelun lähtölaskennan aikana.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "Ota käyttöön/poista käytöstä mahdollisuus valita ammukset ja kulutustarvikkeet taistelun lähtölaskennan aikana.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "Taisteluissa käytetään tallissa valittua kokoonpanoa, kun asetus on pois käytöstä."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "Ennen taistelua vaihtaminen"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "Tämä vaunu on taistelussa."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "Tämä vaunu on lukittu."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "Tämä vaunu vaatii korjauksia."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "Tämä vaunu on taktisessa osastossa."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "Paikan kategorian asettaminen ei onnistu: vaunu ei ole tallissa."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "Vaunun vuokra-aika on ohi."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "Tämä vaunu on taistelussa."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "Tämä vaunu on lukittu."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "Tämä vaunu vaatii korjauksia."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "Tämä vaunu on taktisessa osastossa."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "Ostaminen ei onnistu: vaunu ei ole tallissa."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "Vaunun vuokra-aika on ohi."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "Klikkaa tuhotaksesi kaksoismuokkaus."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "Tuhoa"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "tai"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "Kenttämuokkauksen maksimitaso"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "Saatavilla tasojen {minAllowedLevel}–{maxAllowedLevel} vaunuille"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "Saatavilla tason {allowedLevel} vaunuille"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "PIILOTA OMINAISUUDET"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "Pysyvät bonukset: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "Pysyvä bonus: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "Pysyvät bonukset: %(bonus1) ja %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "Paranna tasoa saadaksesi pysyvät bonukset: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "Paranna tasoa saadaksesi pysyvä bonus: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "Paranna tasoa saadaksesi pysyvät bonukset: %(bonus1) ja %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "Paranna tasoa"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "Paranna tasoa tasolle %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "Paranna tasoa saadaksesi:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "Parannetut ominaisuudet"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "Erikoismuokkaukset"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "Erikoismuokkaus {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "Kaksoismuokkaukset"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "Kaksoismuokkaus {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "Moduuleihin"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "Kenttämuokkaus ei saatavilla: vaunu on taistelussa."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "Kenttämuokkaus ei saatavilla: vaunu on lukittu."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "Kenttämuokkaus ei saatavilla: vaunu vaatii korjausta."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "Lisämahdollisuus muuttaa vaunun ominaisuuksia tulee saataville vaunun saatua eliittistatuksen."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "Kenttämuokkaus ei saatavilla: vaunu on taktisessa yksikössä."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "Vaunun tulee olla tallissa tutkiaksesi muokkauksia ja kasvattaaksesi kenttämuokkauksen tasoa."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "Kenttämuokkaukset eivät ole saatavilla vuokravaunuille. Osta tämä vaunu avataksesi kenttämuokkaukset."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "Kenttämuokkaus ei ole saatavilla: vaunun vuokra-aika on ohi. Pidennä vuokra-aikaa avataksesi kenttämuokkauksen."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "NÄYTÄ OMINAISUUDET"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "Lisämahdollisuus muuttaa vaunun ominaisuuksia. Se tulee saataville vaunun saatua eliittistatuksen."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "Kenttämuokkaus"

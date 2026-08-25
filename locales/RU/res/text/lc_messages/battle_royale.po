@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Режим прекращения огня на всех доступных серверах."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "На этом сервере режим прекращения огня."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Сменить сервер"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Событие «Стальной охотник» завершено"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "На этом сервере режим недоступен"
+
+msgid "banner/info/disabled"
+msgstr "Режим прекращения огня"
+
+msgid "banner/info/seasonActive"
+msgstr "Второй шанс и награды"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "До %(day)s %(month)s"
+
+msgid "banner/subtitle"
+msgstr "Королевская битва с ценными наградами"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s ч"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s ч %(minutes)s мин"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s мин"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "СТАЛЬНОЙ ОХОТНИК"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Бой продолжится с новой позиции."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Вы скоро возродитесь"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Идёт Возрождение"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Второго шанса не будет."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Возрождение больше недоступно"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Возрождение скоро станет недоступно!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "В этот раз будьте осторожнее."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Машина готова к бою!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Возвращение в бой"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Идут активные боевые действия."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Возрождение невозможно"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Найдите заряд Возрождения, чтобы вернуть её в строй."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Машина союзника уничтожена"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Идёт Возрождение"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "Одна машина хорошо, а две — лучше!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Союзник возрождён"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Не вступайте в бой."
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Возрождение союзника"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Бонус активирован!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Награда за первое место"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Собрано за бой"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "ПОБЕДА"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Глава не выбрана. Нераспределённых очков Боевого пропуска: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Все главы пройдены. Продолжайте играть и накапливать очки Боевого пропуска."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Перейти к Боевому пропуску"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Боевой пропуск"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Выбрать главу"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Открыть прогрессию активной главы"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Перейти к Боевому пропуску"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Выполнено задач за бой: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Боевые задачи"
+
+msgid "battleResult/battleReward/title"
+msgstr "ПОЛУЧЕНО ЗА БОЙ"
+
+msgid "battleResult/button/hangar"
+msgstr "В Ангар"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Очки и награды будут распределены после того, как все игроки завершат данный бой. Боевые задачи также будут зачтены по результатам боя."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Нажмите %(esc), чтобы пропустить анимацию"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Пригласить во взвод"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Союзник"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Случайный союзник"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Тип боя"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "ОДИНОЧНЫЙ БОЙ"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "Было бы получено с Танковым премиум аккаунтом:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Итоговое значение с Танковым премиум аккаунтом"
+
+msgid "battleResult/progressStage"
+msgstr "Прогресс {stage} этапа"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Настоящее имя игрока и тег клана не видны другим игрокам в бою."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Настоящее имя игрока: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Имя игрока изменено на {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Количество единиц урона, заблокированного бронёй вашей машины."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Количество нанесённого вами урона."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Количество уничтоженных вами машин противника."
+
+msgid "battleResult/stats/body/place"
+msgstr "Ваша позиция по результатам боя."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Суммарное количество машин противника, уничтоженных вашим взводом."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Заблокировано урона"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Нанесено урона"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Уничтожено лично"
+
+msgid "battleResult/stats/header/place"
+msgstr "Позиция"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Уничтожено взводом"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Заблокировано урона"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Нанесено урона"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Уничтожено лично"
+
+msgid "battleResult/stats/title/place"
+msgstr "Позиция"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Уничтожено взводом"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Таблица лидеров"
+
+msgid "battleResult/tab/result"
+msgstr "Результаты боя"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "ВЗВОД УНИЧТОЖЕН"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "МАШИНА УНИЧТОЖЕНА"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "ПОБЕДА"
+
+msgid "battleResult/title/victoryOther"
+msgstr "ПОЧЁТНОЕ МЕСТО"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Выберите одну из специальных машин режима «Стальной охотник»."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Неподходящая машина"
+
+msgid "button/modules"
+msgstr "ДЕРЕВО РАЗВИТИЯ"
+
+msgid "button/repair"
+msgstr "Ремонт"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Бои временно недоступны"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Бои временно недоступны"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Режим отключён"
+
+msgid "ceasefire/header/schedule"
+msgstr "Расписание боёв"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Режим прекращения огня на всех доступных серверах. Вы можете узнать расписание ниже."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "На этом сервере режим прекращения огня. Перейдите на другой сервер."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Режим «Стальной охотник» недоступен на этом сервере. Перейдите на другой сервер."
+
+msgid "commanderInfo/commonRank"
+msgstr "Командир"
+
+msgid "commanderInfo/description/china"
+msgstr "«Я уже победил. Скоро вы это поймёте»."
+
+msgid "commanderInfo/description/france"
+msgstr "«Я тут закон!»"
+
+msgid "commanderInfo/description/germany"
+msgstr "«Сегодня день моего триумфа. Сегодня день нашей славы»."
+
+msgid "commanderInfo/description/poland"
+msgstr "«В этот раз не до вежливости»."
+
+msgid "commanderInfo/description/sweden"
+msgstr "«Всё идёт так, как и задумано»."
+
+msgid "commanderInfo/description/uk"
+msgstr "«В этом спектакле у меня главная роль!»"
+
+msgid "commanderInfo/description/usa"
+msgstr "«Топор войны уже откопан, перекован и наточен»."
+
+msgid "commanderInfo/description/ussr"
+msgstr "«В этой гонке нельзя занять почётное второе место!»"
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Пётр Лопахин"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Навыки"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nСпециальная машина события «Стальной охотник»"
+
+msgid "fragPanel/squadsCount"
+msgstr "Взводов: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Таблица лидеров"
+
+msgid "hangarResults/btns/summary"
+msgstr "Результаты боя"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "ЗАКРЫТЬ"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Модули доступны для исследования только в бою. Чтобы открыть дерево исследований, во время сражения нажмите клавишу %(key)s."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "Для получения опыта %(highlight1)s и %(highlight2)s. С каждым новым уровнем вы можете улучшить модуль из дерева исследований — это существенно улучшит ТТХ вашей машины."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "наносите урон противнику"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "подбирайте трофеи на карте"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Улучшение машины в бою"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Вы выходите в бой на машине I уровня."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Модули можно улучшать как в древе исследований во время боя (по умолчанию клавиша %(treeKey)s), так и с помощью сочетаний клавиш: %(leftModuleKey)s и %(rightModuleKey)s.\n\nМодули доступны для исследования только в бою."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "В бою:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Ваш Стальной охотник получает опыт в бою, нанося урон и собирая добычу. Набрав достаточное количество опыта, вы перейдёте на новый уровень и сможете выбрать улучшение одного из модулей."
+
+msgid "levelUp/severalTitles"
+msgstr "ПОЛУЧЕНЫ УРОВНИ: %(firstLevel)s – %(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "ПОЛУЧЕН %(level)s УРОВЕНЬ!"
+
+msgid "levelUp/twoTitles"
+msgstr "ПОЛУЧЕНЫ УРОВНИ: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Выполняйте задачи и получайте ценные награды."
+
+msgid "level_up/max_level_info/title"
+msgstr "Доступны новые ежедневные задачи"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Сезон\nскоро стартует"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Сезон начнётся %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Заблокировано"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Урон"
+
+msgid "playerStats/killsStat/name"
+msgstr "Уничтожено"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Уничтожено"
+
+msgid "playerStats/placeStat/name"
+msgstr "Место"
+
+msgid "playerStats/title"
+msgstr "Личный результат"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Радар недоступен: идёт подготовка"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Машина полностью исправна. Восстановление не требуется."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Боевой робот уничтожен"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s уничтожил %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s уничтожил противника %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Брандер подорван"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Мины пропали"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Мины установлены"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Радар готов к работе"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Машина достигла максимального уровня"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Уровень %(level)s получен"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Установлено: %(moduleType)s. Улучшено: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Корпус"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Ходовая"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Двигатель"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Орудие"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Радар"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Башня"
+
+msgid "playersPanel/title"
+msgstr "КОМАНДА"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Переключайтесь между машинами взвода."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Режим наблюдателя"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Выйти в Ангар.\nНачните бой на другой машине."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Выйти в Ангар"
+
+msgid "preBattle/buttonTitle"
+msgstr "В БОЙ!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Выберите карту"
+
+msgid "preBattle/listTitle"
+msgstr "ГОТОВНОСТЬ УЧАСТНИКОВ"
+
+msgid "preBattle/mapArzagir"
+msgstr "Арзагир 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Зона 404"
+
+msgid "preBattle/mapRandom"
+msgstr "Случайная карта"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "ТЕХНИКА ВЗВОДА"
+
+msgid "preBattle/title"
+msgstr "БОЛЬШАЯ ОХОТА"
+
+msgid "preBattle/userFooterTitle"
+msgstr "ВЫБРАННАЯ ТЕХНИКА"
+
+msgid "preBattle/userNotReady"
+msgstr "Не готов"
+
+msgid "preBattle/userReady"
+msgstr "Готов"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Сезон %(cycleNo)s на сервере %(server)s завершился"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "Сезон на сервере %(server)s завершился."
+
+msgid "proxyPanel/button"
+msgstr "Магазин"
+
+msgid "proxyPanel/label"
+msgstr "Стальные\nпечати"
+
+msgid "proxyPanel/store"
+msgstr "МАГАЗИН"
+
+msgid "questsTooltip/timeLeft"
+msgstr "До конца сезона: %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "На радар не назначена клавиша"
+
+msgid "radar/hint/press"
+msgstr "Нажмите"
+
+msgid "radar/hint/text"
+msgstr "для активации радара"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Высадиться"
+
+msgid "selectRespawn/button/land"
+msgstr "Высадиться"
+
+msgid "selectRespawn/description"
+msgstr "Нажмите на одну из предложенных точек. Если вы не укажете точку, то будете высажены в случайной."
+
+msgid "selectRespawn/header"
+msgstr "Выберите точку высадки"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Нажмите на одну из предложенных точек. Если вы не укажете точку, то будете высажены в случайной."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Вы начнёте бой тут"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Выберите точку высадки"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s д"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s ч %(min)s мин"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 мин"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s мин"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "В ЯРОСТИ!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Броню разъедает кислота!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Зона закрыта — срочно покиньте её, или вам конец!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "Зона скоро станет красной"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Мобильность снижена!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Машина возвращается на гусеницы..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Восстановление прочности машины"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Восстановление прочности машины"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Конвертация урона"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Улучшены ТТХ"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Снаряды и Восстановление"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Воздушный груз"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Ремкомплект или заряд умения"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Трофеи"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Комбинированная добыча: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Подбор: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Ремзона"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Нарастающий азарт!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "В дымах"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Броню съедает коррозия!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Подвижность снижена!"
+
+msgid "techParams/type/damage"
+msgstr "Урон"
+
+msgid "techParams/type/difficulty"
+msgstr "Сложность"
+
+msgid "techParams/type/mobility"
+msgstr "Мобильность"
+
+msgid "techParams/type/spotting"
+msgstr "Разведка"
+
+msgid "techParams/type/survivability"
+msgstr "Живучесть"
+
+msgid "techtree/body_armor"
+msgstr "Бронирование"
+
+msgid "techtree/body_health"
+msgstr "Запас прочности"
+
+msgid "techtree/body_mobility"
+msgstr "Мобильность"
+
+msgid "techtree/engine_acceleration"
+msgstr "Динамика"
+
+msgid "techtree/engine_speed"
+msgstr "Максимальная скорость"
+
+msgid "techtree/gun_alpha"
+msgstr "Разовый урон"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Дозарядка магазина"
+
+msgid "techtree/gun_clip"
+msgstr "Магазин заряжания"
+
+msgid "techtree/gun_dpm"
+msgstr "Скорость перезарядки"
+
+msgid "techtree/gun_dualgun"
+msgstr "Двухорудийная установка"
+
+msgid "techtree/gun_he"
+msgstr "Осколочный-фугасный урон"
+
+msgid "techtree/gun_machinegun"
+msgstr "Противотанковый пулемёт"
+
+msgid "techtree/gun_piercing"
+msgstr "Бронепробиваемость"
+
+msgid "techtree/radar_cooldown"
+msgstr "Перезарядка радара"
+
+msgid "techtree/radar_distance"
+msgstr "Дистанция покрытия"
+
+msgid "techtree/turret_armor"
+msgstr "Бронирование"
+
+msgid "techtree/turret_health"
+msgstr "Запас прочности"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Скорость вращения"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "До {{credits}} кредитов"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "До {{experience}} опыта"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Взводный бонус"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Сражение во взводе со случайно подобранным союзником. Командная работа против девяти взводов-соперников. В этом режиме выполняются взводные боевые задачи. По завершении боя взвод будет автоматически расформирован."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Классический «Стальной охотник». Каждый игрок сражается сам за себя. Подбирайте добычу, улучшайте свою технику и используйте её уникальные способности, чтобы остаться последним выжившим!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Сражение во взводе с другом. Командная работа против девяти взводов-соперников. В этом режиме выполняются взводные боевые задачи."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Случайный взвод"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Одиночный режим"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Взвод с другом"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "В одиночку"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Взвод"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Правила начисления очков"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s место"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s места"
+
+msgid "tooltips/awards/achievement"
+msgstr "Медаль"
+
+msgid "tooltips/awards/badge"
+msgstr "Нашивка"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: «%(userName)s»"
+
+msgid "tooltips/respawn/common/description"
+msgstr "Позволяет вернуться в бой после того, как ваша машина была уничтожена, сохранив при этом её уровень улучшений. Можно использовать ограниченное количество раз."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Заряд Возрождения можно получить при подборе Воздушного груза."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "Для возрождения вашего союзника не вступайте в бой в течение {brown_Open}%(timeToResurrect)s с{brown_Close}. Механика действует в течение первых {brown_Open}%(duration)s мин{brown_Close} сражения. Для взвода заряд «Возрождения» общий."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "При игре во взводе"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Возрождение происходит автоматически после уничтожения вашей машины. Механика действует в течение первых {brown_Open}%(duration)s мин{brown_Close} сражения."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "При игре в одиночку"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Однократное использование"
+
+msgid "tooltips/respawn/title"
+msgstr "Возрождение"
+
+msgid "tooltips/vehicle/description"
+msgstr "Машина режима «Стальной охотник»"
+
+msgid "tournament/description"
+msgstr "БОЛЬШАЯ ОХОТА"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Не готов"
+
+msgid "tournament/fightButton/ready"
+msgstr "Готов!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Невозможно зайти в турнир. Код ошибки: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Ошибка турнира «Большая охота». Код ошибки: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "БОЛЬШАЯ ОХОТА"
+
+msgid "tournament/type/solo"
+msgstr "Тип: одиночный"
+
+msgid "tournament/type/squad"
+msgstr "Тип: взводный"
+
+msgid "upgradePanel/alert/0"
+msgstr "Вы не можете улучшать машину!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Вы не можете улучшать машину — идут активные боевые действия!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Вы не можете улучшать машину — машина в воде!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Вы не можете улучшать машину — машина перевёрнута!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Нажмите %(key)s, чтобы увидеть дерево исследований"
+
+msgid "upgradePanel/title/default"
+msgstr "Доступен новый модуль"
+
+msgid "upgradePanel/title/hull"
+msgstr "Доступен новый корпус"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Доступна новая ходовая"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Доступен новый двигатель"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Доступно новое орудие"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Доступен новый радар"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Доступна новая башня"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "ИЛИ"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Бронирование"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Разовый урон"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Скорость перезарядки"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Прочность"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Пробитие"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Качество радара"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Магазин заряжания"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Скорость"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Особенности машины"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Сильные стороны"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Слабые стороны"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Режим прекращения огня на всех серверах. Бои начнутся через %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Сменить сервер"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Эпизод %(cycle)s завершён"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Эпизод завершён"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Режим прекращения огня на сервере. Бои начнутся через %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Режим прекращения огня на %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Эпизод %(cycle)s начнётся через %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "Первый эпизод начнётся через %(time)s"

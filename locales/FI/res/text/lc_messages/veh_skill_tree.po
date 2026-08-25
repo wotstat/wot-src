@@ -1,0 +1,1124 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "comparison/fullUpgrades/title"
+msgstr "Täysin tutkittu"
+
+msgid "comparison/partialUpgrades/title"
+msgstr "Nykyinen"
+
+msgid "comparison/title"
+msgstr "Päivitykset"
+
+msgid "comparison/tooltip/body"
+msgstr "Kokoonpanoruutu näyttää, miten päivitykset vaikuttavat vaunun ominaisuuksiin. Valitse \"Täysin tutkittu\" nähdäksesi kaikkien saatavilla olevien päivitysten täydet vaikutukset."
+
+msgid "comparison/tooltip/header"
+msgstr "Päivitykset"
+
+msgid "comparison/zeroUpgrades/title"
+msgstr "Tutkimaton"
+
+msgid "dialog/altConfiguration/description"
+msgstr "Pidä nämä asetukset käytössä voidaksesi vaihtaa varustusten välillä ennen taistelua."
+
+msgid "dialog/altConfiguration/info"
+msgstr "Voit vaihtaa näitä asetuksia milloin hyvänsä."
+
+msgid "dialog/altConfiguration/optDevBoostersSwitch"
+msgstr "Avustava varustus"
+
+msgid "dialog/altConfiguration/shellsConsumablesSwitch"
+msgstr "Oleellinen varustus"
+
+msgid "dialog/altConfiguration/title"
+msgstr "Vaihtoehtoinen kokoonpano"
+
+msgid "dialog/common/accept"
+msgstr "Vahvista"
+
+msgid "dialog/confirmation/researchPerks"
+msgid_plural "plural/dialog/confirmation/researchPerks"
+msgstr[0] "%(perks)s"
+msgstr[1] "%(perks)s noodia"
+msgstr[2] "%(perks)s noodia"
+
+msgid "footer/button/label"
+msgstr "Tutki"
+
+msgid "footer/description/text/allResearched"
+msgstr "Kaikki noodit on tutkittu. Sinulla on nyt pääsy eliittipalkintojen järjestelmään."
+
+msgid "footer/description/text/emergencyModeEnabled"
+msgstr "WG Wallet ei ole väliaikaisesti saatavilla. Pahoittelemme sen aiheuttamaa häiriötä."
+
+msgid "footer/description/text/inBattle"
+msgstr "Noodi ei ole saatavilla. Vaunu on taistelussa."
+
+msgid "footer/description/text/inFormation"
+msgstr " Noodi ei ole saatavilla. Vaunu on taktisessa yksikössä."
+
+msgid "footer/description/text/needsRepair"
+msgstr "Noodi ei ole saatavilla. Vaunu vaatii korjausta."
+
+msgid "footer/description/text/notInInventory"
+msgstr "Sinun tulee omistaa tämä vaunu voidaksesi tutkia sen noodeja"
+
+msgid "footer/description/text/researchAvailable"
+msgstr "Valitse noodi tai noodihaara tutkittavaksi"
+
+msgid "footer/text/amountItems"
+msgstr "{{amount}} noodia"
+
+msgid "footer/text/selectedItem"
+msgstr "Valittu: {{selectedItem}}"
+
+msgid "footer/tooltip/body/emergencyModeEnabled"
+msgstr "WG Wallet ei ole väliaikaisesti saatavilla. Pahoittelemme sen aiheuttamaa häiriötä."
+
+msgid "footer/tooltip/body/inBattle"
+msgstr "Noodi ei ole saatavilla. Vaunu on taistelussa."
+
+msgid "footer/tooltip/body/inFormation"
+msgstr " Noodi ei ole saatavilla. Vaunu on taktisessa yksikössä."
+
+msgid "footer/tooltip/body/needsRepair"
+msgstr "Noodi ei ole saatavilla. Vaunu vaatii korjausta."
+
+msgid "footer/tooltip/body/notEnoughExp"
+msgstr "Ei riittävästi kokemusta valittujen noodien tutkimiseen."
+
+msgid "footer/tooltip/body/researchInProgress"
+msgstr "Tutkiminen meneillään, ole hyvä ja odota..."
+
+msgid "footer/tooltip/header/emergencyModeEnabled"
+msgstr "Ei saatavilla"
+
+msgid "footer/tooltip/header/info"
+msgstr "Valitut noodit"
+
+msgid "footer/tooltip/listSelectedPerks"
+msgid_plural "plural/footer/tooltip/listSelectedPerks"
+msgstr[0] "• {{selectedPerks}},"
+msgstr[1] "• {{selectedPerks}}."
+msgstr[2] "• {{selectedPerks}}."
+
+msgid "intro/button"
+msgstr "Selvä!"
+
+msgid "intro/button/tooltip"
+msgstr "Päivityksistä"
+
+msgid "intro/improvements/description"
+msgstr "Ansaitse taistelukokemusta avataksesi noodeja, jotka parantavat vaunusi ominaisuuksia. Lopulliset ominaisuudet voivat päätyä joko suuremmiksi tai pienemmiksi kuin osoitetut arvot lisäbonusten ja -kertoimien tähden, jotka lasketaan noodien bonusten jälkeen."
+
+msgid "intro/improvements/title"
+msgstr "Kuinka se toimii"
+
+msgid "intro/progression/description"
+msgstr "Vain tason XI vaunuille saatavilla olevat päivitykset mahdollistavat vaunujesi ominaisuuksien kohentamisen entistäkin paremmiksi."
+
+msgid "intro/progression/title"
+msgstr "Päivitykset"
+
+msgid "intro/vanity/description"
+msgstr "Tutkittuasi kaikki noodit saat pääsyn eliittipalkintoihin, joita voit lunastaa saavuttaessasi tietyt eliittitasot. Näitä palkintoja ovat ainutlaatuinen volumetrinen tyyli, tilastojen seuraaja ja tykin vaippa!"
+
+msgid "intro/vanity/title"
+msgstr "Eliittipalkinnot"
+
+msgid "kpi/bonus/valueTypes/cnt"
+msgstr " kappale(tta)"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/gps"
+msgstr " astetta/s"
+
+msgid "kpi/bonus/valueTypes/grads"
+msgstr " astetta"
+
+msgid "kpi/bonus/valueTypes/m"
+msgstr " m"
+
+msgid "kpi/bonus/valueTypes/mm"
+msgstr " mm"
+
+msgid "kpi/bonus/valueTypes/mph"
+msgstr " km/t"
+
+msgid "kpi/bonus/valueTypes/mps"
+msgstr " m/s"
+
+msgid "kpi/bonus/valueTypes/p"
+msgstr " hv"
+
+msgid "kpi/bonus/valueTypes/s"
+msgstr " s"
+
+msgid "kpi/bonus/valueTypes/val"
+msgstr " kestopistettä"
+
+msgid "notifications/perkAvailable/disabledButtonTooltip"
+msgstr "Tämä toiminnallisuus ei ole tällä hetkellä saatavilla"
+
+msgid "notifications/perkAvailable/goToProgression"
+msgstr "Mene päivityksiin"
+
+msgid "notifications/perkAvailable/title"
+msgstr "Sinulla on riittävästi kokemuspisteitä vaunusi kohdentamiseksi!"
+
+msgid "rewardScreen/button/accept"
+msgstr "Selvä"
+
+msgid "rewardScreen/button/check"
+msgstr "Näytä ulkoasussa"
+
+msgid "rewardScreen/rewardName"
+msgstr "{{rarity}} {{rewardName}}"
+
+msgid "rewardScreen/subtitle"
+msgstr "Eliittitason {{prestigeLevel}} saavuttamisesta {{level}} {{type}} {{name}} vaunulla"
+
+msgid "rewardScreen/title"
+msgstr "ELIITTIPALKINTO"
+
+msgid "tooltips/backToMainProgressionEntryPoint/text"
+msgstr "Vain tason XI vaunuille saatavilla olevat päivitykset mahdollistavat vaunujesi ominaisuuksien kohentamisen entistäkin paremmiksi."
+
+msgid "tooltips/backToMainProgressionEntryPoint/title"
+msgstr "Päivitykset"
+
+msgid "tooltips/common/cost"
+msgstr "Hinta: {{amount}}"
+
+msgid "tooltips/description/HEDamageAbsorption"
+msgstr "Parantaa vaunusi kykyä kestää vahinkoa sirpalekranaateista ja törmäyksestä."
+
+msgid "tooltips/description/HEShellDamage"
+msgstr "Parantaa sirpalekranaattien aiheuttamaa vahinkoa."
+
+msgid "tooltips/description/HEshellVelocity"
+msgstr "Parantaa sirpalekranaattien lentonopeutta."
+
+msgid "tooltips/description/a179_mechanic_0"
+msgstr "Pienentää sarjatilan toisen laukauksen hajontaa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a179_mechanic_1"
+msgstr "Lyhentää sarjatilalla ampumisen jäähtymisaikaa {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_0"
+msgstr "Lisää latausnopeuden bonusta {colorTagOpen}{value}%{colorTagClose} per tehokkuuden taso."
+
+msgid "tooltips/description/a182_mechanic_1"
+msgstr "Pidentää lataustehokkuuden tasojen kestoa {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_2"
+msgstr "Pidentää lataustehokkuuden tasojen kestoa {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_3"
+msgstr "Lisää latausnopeuden bonusta {colorTagOpen}{value}%{colorTagClose} per tehokkuuden taso."
+
+msgid "tooltips/description/a183_mechanic_0"
+msgstr "Lyhentää jäähtymisaikaa ennen kuin mekaniikkaa voi käyttää uudelleen {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_1"
+msgstr "Lyhentää jäähtymisaikaa ennen kuin mekaniikkaa voi käyttää uudelleen {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_2"
+msgstr "Pidentää mekaniikan kestoa {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_3"
+msgstr "Pidentää mekaniikan kestoa {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_1"
+msgstr "Pienentää yksittäin viritettyjen laukauksen hajontaa 100 metrissä {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_2"
+msgstr "Kasvattaa yksittäin viritettyjen laukausten aiheuttamaa vahinkoa tavallisilla ja erikoisammuksilla {colorTagOpen}{value} pistettä{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_3"
+msgstr "Kasvattaa yksittäin viritettyjen ammusten lentonopeutta {colorTagOpen}{value} m/s{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_4"
+msgstr "Lyhentää yksittäin viritettyjen laukausten latausaikaa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/advancedChassisProtection"
+msgstr "Kasvattaa telakoneiston kestopisteitä ja nopeuttaa korjausta."
+
+msgid "tooltips/description/advancedModuleAndCrewProtection"
+msgstr "Pienentää rangaistusta, joka tulee vaunun moottorin tai ammustelineen vahingoittumisesta, ja pienentää miehistön mahdollisuutta loukkaantua vaunun vahingoittuessa."
+
+msgid "tooltips/description/aimingCircleSize"
+msgstr "Pienentää tähtäysympyrääsi ampumisen jälkeen."
+
+msgid "tooltips/description/aimingTime"
+msgstr "Lyhentää vaunusi tähtäysaikaa."
+
+msgid "tooltips/description/aimingTimeSalvo"
+msgstr "Lyhentää vaunusi tähtäysaikaa kertalaukaus -tilassa."
+
+msgid "tooltips/description/allShellDamage"
+msgstr "Parantaa kaikkien ammustyyppien aiheuttamaa vahinkoa."
+
+msgid "tooltips/description/allShellsVelocity"
+msgstr "Parantaa kaikkien ammustesi lentonopeutta."
+
+msgid "tooltips/description/ammoRackHP"
+msgstr "Kasvattaa vahingon määrää, jonka ammusteline voi kärsiä ennen tuhoutumistaan."
+
+msgid "tooltips/description/ammoRackPenalty"
+msgstr "Pienentää rangaistusta, joka tulee vaunun ammustelineen vahingoittumisesta."
+
+msgid "tooltips/description/basicShellDamage"
+msgstr "Parantaa tavallisten ammusten aiheuttamaa vahinkoa."
+
+msgid "tooltips/description/ch67_mechanic_0"
+msgstr "Parantaa kääntönopeutta tehostimien ollessa aktiivisia {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_1"
+msgstr "Parantaa huippunopeutta tehostimien ollessa aktiivisia {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_2"
+msgstr "Lyhentää jäähtymisaikaa tehostimien täyteen palautumiseen {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_3"
+msgstr "Pidentää tehostimien maksimikestoa {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_0"
+msgstr "Parantaa suihkumoottorien antamaa lisätehoa moottoreille {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_1"
+msgstr "Lyhentää jäähtymisaikaa ennen kuin suihkumoottoreita voi käyttää uudelleen {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_2"
+msgstr "Parantaa suihkumoottorien antamaa lisätehoa moottoreille {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_3"
+msgstr "Lisää kertoja, joita suihkumoottoreita voi käyttää yhdessä taistelussa: {colorTagOpen}{value}{colorTagClose}."
+
+msgid "tooltips/description/crewProtection"
+msgstr "Pienentää miehistön mahdollisuutta loukkaantua vaunun vahingoittuessa."
+
+msgid "tooltips/description/damagedGunDispersion"
+msgstr "Pienentää tykin hajontaa tykkisi ollessa vahingoittunut."
+
+msgid "tooltips/description/driveModeForwardSpeed"
+msgstr "Lisää vaunun nopeutta eteenpäin matkustustilassa."
+
+msgid "tooltips/description/driveModeReverseSpeed"
+msgstr "Lisää vaunun peruutusnopeutta matkustustilassa."
+
+msgid "tooltips/description/enginePenalty"
+msgstr "Pienentää rangaistusta, joka tulee vaunun moottorin vahingoittumisesta."
+
+msgid "tooltips/description/enginePower"
+msgstr "Lisää moottoritehoa mahdollistaen vaunulle nopeamman kiihdytyksen ja ylämäkeen liikkumisen."
+
+msgid "tooltips/description/f135_mechanic_0"
+msgstr "Lyhentää latauksen aloittamiseen menevää aikaa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f135_mechanic_1"
+msgstr "Lyhentää viivettä ennen ampumista latauksen keskeyttämisen jälkeen {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f136_mechanic_0"
+msgstr "Lyhentää latausaikaan kasetin viimeisen laukauksen ampumisesta tulee rangaistusta {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_0"
+msgstr "Pienentää hajonnan heikennystä 100 metrissä {colorTagOpen}{value0}%{colorTagClose} ja tykin tähtäysajan heikennystä {colorTagOpen}{value1}%{colorTagClose}, kun raja ylitetään."
+
+msgid "tooltips/description/f143_mechanic_1"
+msgstr "Kasvattaa kertymisnopeutta {colorTagOpen}{value}%/s{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_2"
+msgstr "Pienentää ammuttaessa menetettävää virityksen määrää {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_3"
+msgstr "Kasvattaa rajan ylityksen jälkeistä vahinkopiikkiä {colorTagOpen}{value0} pistettä{colorTagClose} ja suurinta ylityksen jälkeistä vahinkobonusta {colorTagOpen}{value1}%{colorTagClose}."
+
+msgid "tooltips/description/forwardSpeed"
+msgstr "Parantaa vaunun nopeutta eteenpäin ajettaessa."
+
+msgid "tooltips/description/g185_mechanic_0"
+msgstr "Parantaa hajonnan bonusta {colorTagOpen}{value}%{colorTagClose} per tarkkuustaso."
+
+msgid "tooltips/description/g185_mechanic_1"
+msgstr "Kasvattaa suurinta nopeutta, jolla tarkkuustasoja voidaan saada, {colorTagOpen}{value} km/t{colorTagClose}."
+
+msgid "tooltips/description/g185_mechanic_2"
+msgstr "Lyhentää {colorTagOpen}{value} s{colorTagClose} aikaa, joka kuluu seuraavan tarkkuustason saavuttamiseen."
+
+msgid "tooltips/description/g185_mechanic_3"
+msgstr "Parantaa vakausbonusta suurimmalla tarkkuustasolla {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g187_mechanic_0"
+msgstr "Lyhentää aputykkien latausaikaa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g187_mechanic_1"
+msgstr "Lyhentää aputykkien latausaikaa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_0"
+msgstr "Pidentää aikaa, jonka merkitty vihollisvaunu pysyy havaittuna, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_1"
+msgstr "Lyhentää jäähtymisaikaa ennen kuin mekaniikkaa voi käyttää uudelleen {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_2"
+msgstr "Lyhentää alun jäähtymisaikaa ennen kuin mekaniikka on käytettävissä {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_3"
+msgstr "Kasvattaa liittolaisten ammusten merkittyihin vihollisiin aiheuttamaa lisävahinkoa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_0"
+msgstr "Kasvattaa suurinta nopeutta, jolla esilämmitystä voi kerryttää, {colorTagOpen}{value} km/t{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_1"
+msgstr "Lisää esilämmityksen antamaa suurinta hajontabonusta {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_2"
+msgstr "Lisää esilämmityksen antamaa suurinta vahinkobonusta {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_3"
+msgstr "Lyhentää {colorTagOpen}{value} s{colorTagClose} aikaa, joka kuluu suurimman esilämmityksen tason saavuttamiseen."
+
+msgid "tooltips/description/gb147_mechanic_0"
+msgstr "Pienentää tykin hajontaa {colorTagOpen}{value} metriä{colorTagClose} yhteislaukaus -tilassa."
+
+msgid "tooltips/description/gb147_mechanic_1"
+msgstr "Nopeuttaa tornin kääntymisnopeutta {colorTagOpen}{value} astetta{colorTagClose} yhteislaukaus -tilassa."
+
+msgid "tooltips/description/gb147_mechanic_2"
+msgstr "Lyhentää tähtäysaikaa yhteislaukaus -tilassa {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb147_mechanic_3"
+msgstr "Kasvattaa huippunopeutta eteenpäin yhteislaukaus -tilassa {colorTagOpen}{value} km/t{colorTagClose}."
+
+msgid "tooltips/description/gb152_mechanic_0"
+msgstr "Lyhentää suoraveto -tilaan siirtymiseen menevää aikaa {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb152_mechanic_1"
+msgstr "Lyhentää aikaa, joka menee suurimman suorituskyvyn saavuttamiseen suoraveto -tilassa, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb152_mechanic_2"
+msgstr "Lisää moottoritehoa suoveto -tilassa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/gb152_mechanic_3"
+msgstr "Kasvattaa ajonopeutta eteenpäin suoraveto -tilassa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_0"
+msgstr "Kasvattaa turboahtimen avustimen antamaan moottorin lisätehoa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_1"
+msgstr "Parantaa huippunopeutta peruutettaessa turboahtimen avustimen ollessa aktiivinen {colorTagOpen}{value} km/t{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_2"
+msgstr "Pidentää turboahtimen avustimen kestoa {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_3"
+msgstr "Lyhentää jäähtymisaikaa ennen kuin turboahtimen avustinta voi käyttää uudelleen {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gunDepression"
+msgstr "Kasvattaa tykin alakoron kulmaa."
+
+msgid "tooltips/description/gunDispersion"
+msgstr "Tiivistää osumarykelmää tähtäysympyrän sisällä."
+
+msgid "tooltips/description/gunDispersionSalvo"
+msgstr "Tiivistää osumarykelmää tähtäysympyrän sisällä kertalaukaus -tilassa."
+
+msgid "tooltips/description/gunStabilization"
+msgstr "Parantaa tykin vakautta kaikissa tilanteissa."
+
+msgid "tooltips/description/gunStabilizationFromHull"
+msgstr "Parantaa tykin vakautta liikkeessä ja runkoa käännettäessä."
+
+msgid "tooltips/description/gunStabilizationFromHullMovement"
+msgstr "Parantaa tykin vakautta rungon liikkuessa."
+
+msgid "tooltips/description/gunStabilizationFromHullRotation"
+msgstr "Parantaa tykin vakautta rungon kääntyessä."
+
+msgid "tooltips/description/gunStabilizationFromHullSalvo"
+msgstr "Parantaa tykin vakautta liikkeessä ja rungon kääntyessä kertalaukaus -tilassa."
+
+msgid "tooltips/description/gunStabilizationFromTurret"
+msgstr "Parantaa tykin vakautta tornin kääntyessä."
+
+msgid "tooltips/description/gunStabilizationFromTurretSalvo"
+msgstr "Parantaa tykin vakautta tornin kääntyessä kertalaukaus -tilassa."
+
+msgid "tooltips/description/gunTraverse"
+msgstr "Parantaa tykin suurinta horisontaalista kääntösädettä."
+
+msgid "tooltips/description/hitPoints"
+msgstr "Parantaa vaunun selviytyvyyttä antaen sille mahdollisuuden kärsiä enemmän vahinkoa ennen tuhoutumista."
+
+msgid "tooltips/description/innerClipReloadTime"
+msgstr "Lyhentää latausaikaa tykkisi lippaan ammusten välissä."
+
+msgid "tooltips/description/invisibilityWhenShooting"
+msgstr "Lyhentää aikaa, jonka ole ampuessasi vihollisvaunujen havaitsemana."
+
+msgid "tooltips/description/j52_mechanic_0"
+msgstr "Lyhentää viivettä, joka jäähtymisen alkamiseen menee, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j52_mechanic_1"
+msgstr "Pienentää tykin joka laukauksella tuottaman lämmön määrää {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j52_mechanic_2"
+msgstr "Nopeuttaa tykin jäähtymisnopeutta {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/nonHEShellDamage"
+msgstr "Parantaa muiden kuin sirpalekranaattien aiheuttamaa vahinkoa."
+
+msgid "tooltips/description/opt_dev_boosters_switch"
+msgstr "Antaa mahdollisuuden tehdä vaihtoehtoisen varuste- ja direktiivivarustuksen."
+
+msgid "tooltips/description/overheat_coolingDelay"
+msgstr "Lyhentää viivettä, joka jäähtymisen alkamiseen menee, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/overheat_coolingPerSec"
+msgstr "Nopeuttaa lämmenneen ja ylikuumenneen tykin jäähtymisnopeutta {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/overheat_heatingPerShot"
+msgstr "Pienentää tykin joka laukauksella tuottaman lämmön määrää {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/overheat_overheatedCoolingPerSec"
+msgstr "Nopeuttaa ylikuumenneen tykin jäähtymisnopeutta {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_0"
+msgstr "Lyhentää tilojen välillä vaihtamiseen kuluvaa aikaa {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_1"
+msgstr "Kasvattaa passiivisesti turbotilassa per sekunti generoidun energian määrää {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_2"
+msgstr "Kasvattaa passiivisesti taistelutilassa per sekunti generoidun energian määrää {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_3"
+msgstr "Pidentää vaikutuksen kestoa {colorTagOpen}{value} s{colorTagClose} sekä turbo- että taistelutilassa."
+
+msgid "tooltips/description/r228_mechanic_0"
+msgstr "Kasvattaa vihollisvaunuihin törmäällä aiheutettua vahinkoa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_1"
+msgstr "Kasvattaa vihollisvaunujen telakoneistoihin törmäämällä aiheutettua vahinkoa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_2"
+msgstr "Kasvattaa vihollisvaunuihin törmäällä aiheutettua vahinkoa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_3"
+msgstr "Kasvattaa vihollisvaunuihin törmäällä aiheutettua vahinkoa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_0"
+msgstr "Lyhentää {colorTagOpen}{value} s{colorTagClose} aikaa, jonka aikana ampuminen ei ylikuumenemisen jälkeen onnistu."
+
+msgid "tooltips/description/r230_mechanic_1"
+msgstr "Kasvattaa ampumiseen suurimmalla lämpötasolla saatavilla olevaa aikaa {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_2"
+msgstr "Lyhentää {colorTagOpen}{value} s{colorTagClose} aikaa, jonka aikana ampuminen ei ylikuumenemisen jälkeen onnistu."
+
+msgid "tooltips/description/r230_mechanic_3"
+msgstr "Kasvattaa vahinkobonusta per lämpötaso {colorTagOpen}{value0}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value1}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value2}%{colorTagClose}."
+
+msgid "tooltips/description/reducedRammingDamage"
+msgstr "Pienentää vihollisen törmäyshyökkäyksistä kärsittävää vahinkoa."
+
+msgid "tooltips/description/reloadTimeTwinGun"
+msgstr "Lyhentää tykin latausaikaa sekä yhteislaukauksissa että kertalaukauksissa."
+
+msgid "tooltips/description/reverseSpeed"
+msgstr "Kasvattaa vaunun peruutusnopeutta."
+
+msgid "tooltips/description/roleSlot"
+msgstr "Aseta toisen varustepaikan kategoria."
+
+msgid "tooltips/description/s36_mechanic_0"
+msgstr "Parantaa rungon kääntymis- ja tykin korotusnopeutta bunkkeritilassa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s36_mechanic_1"
+msgstr "Lyhentää bunkkeritilasta pois siirtymiseen menevää aikaa {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/s36_mechanic_2"
+msgstr "Pienentää tykin hajontaa bunkkeritilassa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s36_mechanic_3"
+msgstr "Lyhentää tykin latausaikaa bunkkeritilassa {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/selectiveModuleHPBoost"
+msgstr "Kasvattaa vaunusi poltta-ainetankin ja moottorin kestopisteitä."
+
+msgid "tooltips/description/selectiveModuleProtection"
+msgstr "Pienentää vahingoittuneesta ammustelineestä ja moottorista tulevaa rangaistusta."
+
+msgid "tooltips/description/shellModuleDamage"
+msgstr "Lisää ammustesi vihollisvaunun moduuleille aiheuttamaa vahinkoa."
+
+msgid "tooltips/description/shells_consumables_switch"
+msgstr "Antaa mahdollisuuden tehdä vaihtoehtoisen ammus- ja kulutustarvikevarustuksen."
+
+msgid "tooltips/description/specialShellDamage"
+msgstr "Parantaa erikoisammusten aiheuttamaa vahinkoa."
+
+msgid "tooltips/description/specialShellPenetration"
+msgstr "Lisää erikoisammusten läpäisyvoimaa."
+
+msgid "tooltips/description/specialShellVelocity"
+msgstr "Parantaa erikoisammusten lentonopeutta."
+
+msgid "tooltips/description/spottingBonusFoliage"
+msgstr "Heikentää vihollisvaunujen naamiointia kasvillisuuden kätköissä."
+
+msgid "tooltips/description/spottingBonusMovement"
+msgstr "Heikentää liikkuvien vihollisvaunujen naamiointia."
+
+msgid "tooltips/description/standardShellDamage"
+msgstr "Parantaa tavallisten ammusten aiheuttamaa vahinkoa."
+
+msgid "tooltips/description/standardShellPenetration"
+msgstr "Lisää tavallisten ammusten läpäisyvoimaa."
+
+msgid "tooltips/description/standardShellVelocity"
+msgstr "Parantaa tavallisten ammusten lentonopeutta."
+
+msgid "tooltips/description/stunDuration"
+msgstr "Lyhentää aikaa, jonka vaunusi on lamautunut vihollisen toimesta."
+
+msgid "tooltips/description/turretTraverse"
+msgstr "Parantaa tornin suurinta horisontaalista kääntösädettä."
+
+msgid "tooltips/description/turretTraverseStability"
+msgstr "Pienentää tykin hajontaa taistelutilassa tornia käännettäessä."
+
+msgid "tooltips/description/vehicleSpeed"
+msgstr "Kasvattaa vaunun nopeutta eteen- ja taaksepäin ajettaessa."
+
+msgid "tooltips/description/viewRange"
+msgstr "Mahdollistaa vihollisvaunujen havaitsemisen pidemmiltä etäisyyksiltä."
+
+msgid "tooltips/large/eliteStatus"
+msgstr "Antaa vaunulle eliittistatuksen"
+
+msgid "tooltips/large/perksResearchRequired"
+msgstr "Tutki kaikki muut noodit voidaksesi tutkia tämän noodin."
+
+msgid "tooltips/paramNameWithUnit"
+msgstr "{paramName} ({unit})"
+
+msgid "tooltips/perk/category/concealment"
+msgstr "Kategoria: naamioituminen"
+
+msgid "tooltips/perk/category/firepower"
+msgstr "Kategoria: tulivoima"
+
+msgid "tooltips/perk/category/mechanics"
+msgstr "Mekaaninen päivitys"
+
+msgid "tooltips/perk/category/mobility"
+msgstr "Kategoria: liikkuvuus"
+
+msgid "tooltips/perk/category/special"
+msgstr "Erikoispäivitys"
+
+msgid "tooltips/perk/category/spotting"
+msgstr "Kategoria: havaitseminen"
+
+msgid "tooltips/perk/category/survivability"
+msgstr "Kategoria: selviytyvyys"
+
+msgid "tooltips/special/tapToModify"
+msgstr "Klikkaa muokataksesi tutkittuasi noodin."
+
+msgid "tooltips/title/HEDamageAbsorption"
+msgstr "Räjähdysvahingon kestäminen"
+
+msgid "tooltips/title/HEShellDamage"
+msgstr "Sirpalekranaatin vahinkoa"
+
+msgid "tooltips/title/HEShellPenetration"
+msgstr "Sirpalekranaatin läpäisy"
+
+msgid "tooltips/title/HEshellVelocity"
+msgstr "Sirpalekranaattien lentonopeus"
+
+msgid "tooltips/title/a179_mechanic_0"
+msgstr "Puoliaktiivinen massavaimentaja"
+
+msgid "tooltips/title/a179_mechanic_1"
+msgstr "Ketjutoiminen lataajan parannus"
+
+msgid "tooltips/title/a182_mechanic_0"
+msgstr "Puoliautomaattinen väännön poistaja"
+
+msgid "tooltips/title/a182_mechanic_1"
+msgstr "Taistelutilan kehittynyt ilmansuodatus"
+
+msgid "tooltips/title/a182_mechanic_2"
+msgstr "Sentrifugaalinen ylipainetuuletin"
+
+msgid "tooltips/title/a182_mechanic_3"
+msgstr "Muokatut ammuskiinnikkeet"
+
+msgid "tooltips/title/a183_mechanic_0"
+msgstr "Suuritehoinen kompressori"
+
+msgid "tooltips/title/a183_mechanic_1"
+msgstr "6 000 PSI:n kompressorimäntä"
+
+msgid "tooltips/title/a183_mechanic_2"
+msgstr "6000 PSI:n painejärjestelmä"
+
+msgid "tooltips/title/a183_mechanic_3"
+msgstr "Ylimääräinen korkeapainesylinteri"
+
+msgid "tooltips/title/a195_mechanic_1"
+msgstr "Ballistiikan tasoitin"
+
+msgid "tooltips/title/a195_mechanic_2"
+msgstr "Laajennettu yksittäinen viritys"
+
+msgid "tooltips/title/a195_mechanic_3"
+msgstr "Ahdettu yksittäinen viritys"
+
+msgid "tooltips/title/a195_mechanic_4"
+msgstr "Kevyt virityksen erottelija"
+
+msgid "tooltips/title/additionalShellAmmoCapacity"
+msgstr "Lisää ammuskapasiteettia"
+
+msgid "tooltips/title/advancedChassisProtection"
+msgstr "Kehittynyt telakoneiston suojaus"
+
+msgid "tooltips/title/advancedModuleAndCrewProtection"
+msgstr "Kehittynyt moduulien ja miehistön suojaus"
+
+msgid "tooltips/title/aimingCircleSize"
+msgstr "Tähtäysympyrän koko"
+
+msgid "tooltips/title/aimingTime"
+msgstr "Tähtäysaika"
+
+msgid "tooltips/title/aimingTimeSalvo"
+msgstr "Tähtäysaika"
+
+msgid "tooltips/title/allShellDamage"
+msgstr "Kaikkien ammusten vahinko"
+
+msgid "tooltips/title/allShellsVelocity"
+msgstr "Ammuksen nopeus"
+
+msgid "tooltips/title/ammoRackHP"
+msgstr "Ammustelineen kestopisteet"
+
+msgid "tooltips/title/ammoRackPenalty"
+msgstr "Ammustelineen rangaistus"
+
+msgid "tooltips/title/basicShellDamage"
+msgstr "Tavallisen ammuksen vahinko"
+
+msgid "tooltips/title/ch67_mechanic_0"
+msgstr "Työntövoiman vektorointi"
+
+msgid "tooltips/title/ch67_mechanic_1"
+msgstr "Suuritehoinen potkuripumppu"
+
+msgid "tooltips/title/ch67_mechanic_2"
+msgstr "Lauhduttava jäähdytys"
+
+msgid "tooltips/title/ch67_mechanic_3"
+msgstr "Haihdutuksella jäähdyttävät suuttimet"
+
+msgid "tooltips/title/ch70_mechanic_0"
+msgstr "Korkeatehoinen lähtöpanos"
+
+msgid "tooltips/title/ch70_mechanic_1"
+msgstr "Puoliautomaattinen suihkumoottorin pakotie"
+
+msgid "tooltips/title/ch70_mechanic_2"
+msgstr "Ytimen muodon optimointi"
+
+msgid "tooltips/title/ch70_mechanic_3"
+msgstr "Laajannettu tehostinvarasto"
+
+msgid "tooltips/title/chassisHP"
+msgstr "Telakoneiston kestopisteet"
+
+msgid "tooltips/title/chassisRepairSpeed"
+msgstr "Telakoneiston korjausnopeus"
+
+msgid "tooltips/title/crewProtection"
+msgstr "Miehistön suojaus"
+
+msgid "tooltips/title/damagedGunDispersion"
+msgstr "Tilannekohtainen tykin hajonta"
+
+msgid "tooltips/title/driveModeForwardSpeed"
+msgstr "Matkustustilan nopeus eteenpäin"
+
+msgid "tooltips/title/driveModeReverseSpeed"
+msgstr "Matkustustilan nopeus taaksepäin"
+
+msgid "tooltips/title/engineFireChance"
+msgstr "Moottorin tulipalon todennäköisyys"
+
+msgid "tooltips/title/engineHP"
+msgstr "Moottorin kestopisteet"
+
+msgid "tooltips/title/enginePenalty"
+msgstr "Moottorin rangaistus"
+
+msgid "tooltips/title/enginePower"
+msgstr "Moottorin teho"
+
+msgid "tooltips/title/f135_mechanic_0"
+msgstr "Hydraulisten letkujen optimointi"
+
+msgid "tooltips/title/f135_mechanic_1"
+msgstr "Lataussekvenssin optimointi"
+
+msgid "tooltips/title/f136_mechanic_0"
+msgstr "Paranneltu latausmekanismi"
+
+msgid "tooltips/title/f143_mechanic_0"
+msgstr "Piipun lämpöeristys"
+
+msgid "tooltips/title/f143_mechanic_1"
+msgstr "Suuritehoinen laturi"
+
+msgid "tooltips/title/f143_mechanic_2"
+msgstr "Hyvin johtavat kaapelit"
+
+msgid "tooltips/title/f143_mechanic_3"
+msgstr "Muokattu tehon rajoitin"
+
+msgid "tooltips/title/forwardSpeed"
+msgstr "Nopeus eteenpäin"
+
+msgid "tooltips/title/fuelTankHP"
+msgstr "Polttoainetankin kestopisteet"
+
+msgid "tooltips/title/g185_mechanic_0"
+msgstr "Coriolisvoiman sensori"
+
+msgid "tooltips/title/g185_mechanic_1"
+msgstr "Gyroskooppinen taivutussensori"
+
+msgid "tooltips/title/g185_mechanic_2"
+msgstr "Paranneltu syöttöterminaali"
+
+msgid "tooltips/title/g185_mechanic_3"
+msgstr "Korkeatarkkuuksinen kääntösensori"
+
+msgid "tooltips/title/g187_mechanic_0"
+msgstr "Paranneltu toissijainen ammusvarasto"
+
+msgid "tooltips/title/g187_mechanic_1"
+msgstr "Apuaseistuksen lataaja"
+
+msgid "tooltips/title/g188_mechanic_0"
+msgstr "Kehittynen telamekanismi"
+
+msgid "tooltips/title/g188_mechanic_1"
+msgstr "Korkeatehoinen lämpöripa"
+
+msgid "tooltips/title/g188_mechanic_2"
+msgstr "Korkeajännitegeneraattori"
+
+msgid "tooltips/title/g188_mechanic_3"
+msgstr "Pienihajontainen rubiinilaser"
+
+msgid "tooltips/title/g189_mechanic_0"
+msgstr "Muokattu voimanotto"
+
+msgid "tooltips/title/g189_mechanic_1"
+msgstr "Lämmönhallinnan kaksoissensori"
+
+msgid "tooltips/title/g189_mechanic_2"
+msgstr "Tarkka lämmönhallinta"
+
+msgid "tooltips/title/g189_mechanic_3"
+msgstr "Suuritehoinen laturi"
+
+msgid "tooltips/title/gb147_mechanic_0"
+msgstr "Esipainotetut tykkilavetit"
+
+msgid "tooltips/title/gb147_mechanic_1"
+msgstr "Kehittynyt kääntöjärjestelmä"
+
+msgid "tooltips/title/gb147_mechanic_2"
+msgstr "Kaltevuuden säätöjärjestelmä"
+
+msgid "tooltips/title/gb147_mechanic_3"
+msgstr "Vapautettu väännönsäätäjä"
+
+msgid "tooltips/title/gb152_mechanic_0"
+msgstr "Vaihdesuhteen säätö"
+
+msgid "tooltips/title/gb152_mechanic_1"
+msgstr "Turbiinin geometrian optimointi"
+
+msgid "tooltips/title/gb152_mechanic_2"
+msgstr "Jakotukin optimointi"
+
+msgid "tooltips/title/gb152_mechanic_3"
+msgstr "Muokattu kierroksenrajoitin"
+
+msgid "tooltips/title/gb158_mechanic_0"
+msgstr "Säädetty paineensäätelijä"
+
+msgid "tooltips/title/gb158_mechanic_1"
+msgstr "Modernisoitu pakokaasujärjestelmä"
+
+msgid "tooltips/title/gb158_mechanic_2"
+msgstr "Suurempi ilmatankki"
+
+msgid "tooltips/title/gb158_mechanic_3"
+msgstr "Tehokas ilmakompressori"
+
+msgid "tooltips/title/gunDepression"
+msgstr "Tykin alakoro"
+
+msgid "tooltips/title/gunDispersion"
+msgstr "Tykin hajonta"
+
+msgid "tooltips/title/gunDispersionSalvo"
+msgstr "Tykin hajonta"
+
+msgid "tooltips/title/gunElevation"
+msgstr "Tykin koro"
+
+msgid "tooltips/title/gunStabilization"
+msgstr "Täysi tykin vakaaja"
+
+msgid "tooltips/title/gunStabilizationFromHull"
+msgstr "Osittainen tykin vakaaja"
+
+msgid "tooltips/title/gunStabilizationFromHullMovement"
+msgstr "Liikevakaaja"
+
+msgid "tooltips/title/gunStabilizationFromHullRotation"
+msgstr "Kääntövakaaja"
+
+msgid "tooltips/title/gunStabilizationFromHullSalvo"
+msgstr "Osittainen tykin vakaaja"
+
+msgid "tooltips/title/gunStabilizationFromTurret"
+msgstr "Osittainen tykin vakaaja"
+
+msgid "tooltips/title/gunStabilizationFromTurretSalvo"
+msgstr "Osittainen tykin vakaaja"
+
+msgid "tooltips/title/gunTraverse"
+msgstr "Parannettu tykin kääntö"
+
+msgid "tooltips/title/hitPoints"
+msgstr "Kestopisteet (HP)"
+
+msgid "tooltips/title/hullElevationSpeed"
+msgstr "Rungon korotusnopeus"
+
+msgid "tooltips/title/hullTraverseSpeed"
+msgstr "Rungon kääntönopeus"
+
+msgid "tooltips/title/innerClipReloadTime"
+msgstr "Lippaan sisäinen latausaika"
+
+msgid "tooltips/title/invisibilityWhenShooting"
+msgstr "Naamioituminen ampumisen jälkeen"
+
+msgid "tooltips/title/j52_mechanic_0"
+msgstr "Matalan lämpötilan lämmönsiirtoneste"
+
+msgid "tooltips/title/j52_mechanic_1"
+msgstr "Lämpöä johtava lauhdutin"
+
+msgid "tooltips/title/j52_mechanic_2"
+msgstr "Lämpöputkien optimointi"
+
+msgid "tooltips/title/nonHEShellDamage"
+msgstr "Muiden kuin sirpalekranaattien vahinko"
+
+msgid "tooltips/title/opt_dev_boosters_switch"
+msgstr "Varuste- ja direktiivivarustus"
+
+msgid "tooltips/title/overheat_coolingDelay"
+msgstr "Kromipinnoite"
+
+msgid "tooltips/title/overheat_coolingPerSec"
+msgstr "Lämpöä johtava tykin putki"
+
+msgid "tooltips/title/overheat_heatingPerShot"
+msgstr "Vähemmän lämpöä tuottava lähtöpanos"
+
+msgid "tooltips/title/overheat_overheatedCoolingPerSec"
+msgstr "Pakotettu tuuletusjärjestelmä"
+
+msgid "tooltips/title/pl37_mechanic_0"
+msgstr "Kevyt turbiinin roottori"
+
+msgid "tooltips/title/pl37_mechanic_1"
+msgstr "Korkeatehoinen varalaturi"
+
+msgid "tooltips/title/pl37_mechanic_2"
+msgstr "Kehittynyt oikaisunhallinta"
+
+msgid "tooltips/title/pl37_mechanic_3"
+msgstr "Hybridikondensaattoriryhmä"
+
+msgid "tooltips/title/r228_mechanic_0"
+msgstr "Paikallinen reunan kovetus"
+
+msgid "tooltips/title/r228_mechanic_1"
+msgstr "Korkeaseosteiset terästelaketjut"
+
+msgid "tooltips/title/r228_mechanic_2"
+msgstr "Paikallinen syväkarkaisu"
+
+msgid "tooltips/title/r228_mechanic_3"
+msgstr "Paikallinen pinnan karkaisu"
+
+msgid "tooltips/title/r230_mechanic_0"
+msgstr "Korkeatarkkuuksinen lämpösensori"
+
+msgid "tooltips/title/r230_mechanic_1"
+msgstr "Matalan inertian lukonlämmittimet"
+
+msgid "tooltips/title/r230_mechanic_2"
+msgstr "Mekanisoitu ajopanostarjotin"
+
+msgid "tooltips/title/r230_mechanic_3"
+msgstr "Lämmönhallinnan ylikuormitus"
+
+msgid "tooltips/title/reducedRammingDamage"
+msgstr "Pienennetty törmäysvahinko"
+
+msgid "tooltips/title/reloadTime"
+msgstr "Latausaika"
+
+msgid "tooltips/title/reloadTimeTwinGun"
+msgstr "Latausaika"
+
+msgid "tooltips/title/reverseSpeed"
+msgstr "Peruutusnopeus"
+
+msgid "tooltips/title/roleSlot"
+msgstr "Toisen paikan kategoria"
+
+msgid "tooltips/title/s36_mechanic_0"
+msgstr "Aksiaalimäntäinen hydraulinen pumppu"
+
+msgid "tooltips/title/s36_mechanic_1"
+msgstr "Monikartioinen virranlähteen synkronoija"
+
+msgid "tooltips/title/s36_mechanic_2"
+msgstr "Tarkkuustasapainotettu roottori"
+
+msgid "tooltips/title/s36_mechanic_3"
+msgstr "Hydraulinen lataaja"
+
+msgid "tooltips/title/selectiveModuleHPBoost"
+msgstr "Valikoiva moduulin kestopistelisä"
+
+msgid "tooltips/title/selectiveModuleProtection"
+msgstr "Valikoiva moduulin suojaus"
+
+msgid "tooltips/title/shellModuleDamage"
+msgstr "Ammuksen moduulivahinko"
+
+msgid "tooltips/title/shells_consumables_switch"
+msgstr "Ammus- ja kulutustarvikevarustus"
+
+msgid "tooltips/title/specialShellDamage"
+msgstr "Erikoisammuksen vahinko"
+
+msgid "tooltips/title/specialShellPenetration"
+msgstr "Erikoisammusten läpäisy"
+
+msgid "tooltips/title/specialShellVelocity"
+msgstr "Erikoisammusten lentonopeus"
+
+msgid "tooltips/title/spottingBonusFoliage"
+msgstr "Havaitsemisbonus: kasvillisuus"
+
+msgid "tooltips/title/spottingBonusMovement"
+msgstr "Havaitsemisbonus: liike"
+
+msgid "tooltips/title/standardShellDamage"
+msgstr "Tavallisen ammuksen vahinko"
+
+msgid "tooltips/title/standardShellPenetration"
+msgstr "Tavallisen ammuksen läpäisy"
+
+msgid "tooltips/title/standardShellVelocity"
+msgstr "Tavallisten ammusten lentonopeus"
+
+msgid "tooltips/title/stunDuration"
+msgstr "Lamautuksen kesto"
+
+msgid "tooltips/title/turretTraverse"
+msgstr "Paranneltu tornin kääntö"
+
+msgid "tooltips/title/turretTraverseSpeed"
+msgstr "Tornin kääntönopeus"
+
+msgid "tooltips/title/turretTraverseStability"
+msgstr "Tornin käännön vakaaja"
+
+msgid "tooltips/title/vehicleSpeed"
+msgstr "Vaunun nopeus"
+
+msgid "tooltips/title/viewRange"
+msgstr "Paranneltu näköetäisyys"
+
+msgid "tooltips/vanityEntryPoint/statusInfo"
+msgstr "Tutki viimeinen noodi avataksesi"
+
+msgid "tooltips/vanityEntryPoint/text"
+msgstr "Saat eksklusiivisia palkintoja tason XI vaunuille, kuten volumetrisen tyylin, tilastojen seuraajan ja tykin vaipan."
+
+msgid "tooltips/vanityEntryPoint/title"
+msgstr "Eliittipalkinnot"
+
+msgid "vanity/available/subtitle"
+msgstr "Saat palkintoja vaunusi eliittitasosta"
+
+msgid "vanity/available/tooltip"
+msgstr "Nykyinen eliittitaso"
+
+msgid "vanity/completed/subtitle"
+msgstr "Onneksi olkoon! Kaikki palkinnot saatu."
+
+msgid "vanity/completed/tooltip"
+msgstr "Nykyinen eliittitaso"
+
+msgid "vanity/disabled/subtitle"
+msgstr "Voidaan ansaita viimeisen noodin tutkimisen jälkeen"
+
+msgid "vanity/disabled/tooltip"
+msgstr "Vaunulla ei ole eliittistatusta"
+
+msgid "vanity/reward/level/tooltip"
+msgstr "Palkintoon vaadittu eliittitaso"
+
+msgid "vanity/rewardType/description/attachment"
+msgstr "Eksklusiivinen tykin vaippa, joka saa vaunusi erottumaan välittömästi taistelukentällä."
+
+msgid "vanity/rewardType/description/stattracker"
+msgstr "Ainutlaatuinen uusi muokkauselementti, joka näyttää, montako vaunua olet tuhonnut."
+
+msgid "vanity/rewardType/description/style"
+msgstr "Erityinen kaksiulotteinen tyyli ainutlaatuisella visuaalisella efektillä, joka antaa sille kolmiulotteisen vaikutelman. saatavilla vain tason XI vaunuille."
+
+msgid "vanity/rewardType/title/attachment"
+msgstr "Kolmiulotteinen lisävaruste: tykin vaippa"
+
+msgid "vanity/rewardType/title/stattracker"
+msgstr "Tilastojen seuraaja"
+
+msgid "vanity/rewardType/title/style"
+msgstr "Volumetrinen tyyli"
+
+msgid "vanity/title"
+msgstr "ELIITTIPALKINNOT"

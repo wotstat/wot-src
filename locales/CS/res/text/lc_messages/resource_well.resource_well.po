@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Vozidlo získáno"
+
+msgid "awardView/end"
+msgstr "AKCE SKONČILA"
+
+msgid "awardView/info"
+msgstr "Číslo stylu"
+
+msgid "awardView/toHangar"
+msgstr "Ukázat v garáži"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) s očíslovaným stylem"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "VOZIDLO ZÍSKÁNO"
+
+msgid "awardView/vehicleTitle"
+msgstr "VOZIDLO ZÍSKÁNO"
+
+msgid "commonTexts/aboutButton"
+msgstr "O AKCI"
+
+msgid "commonTexts/closeBtn"
+msgstr "ZAVŘÍT"
+
+msgid "commonTexts/eventTitle"
+msgstr "MONTOVNA"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d %"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Zrušit"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Utratit"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Nezbývají žádná vozidla s očíslovanými styly. %(vehicleName)s obdržíte bez čísla.\nUrčitě chcete zdroje utratit?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "%(vehicleName)s obdržíte bez čísla"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Zpět do garáže"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Všechny utracené zdroje budou brzy vráceny na váš účet."
+
+msgid "confirm/NoVehicles/title"
+msgstr "Bohužel nezbývají žádná vozidla"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Zrušit"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Utratit"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Postup po utracení: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Utratit zdroje?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Vrátit zdroje"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Všechny utracené zdroje budou vráceny na váš účet a montážní proces bude vynulován. Dokud bude akce aktivní, budete moci zdroje znovu utratit a vozidlo získat."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Vrátit všechny utracené zdroje?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Všechny utracené zdroje budou vráceny na váš účet a montážní proces bude vynulován. Bude vybráno vozidlo%(vehicleName), k jehož získání můžete utratit zdroje."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Vrátit všechny utracené zdroje a vybrat %(vehicleName)?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Vybrat vozidlo"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "Během akce můžete zakoupit obě vozidla."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "Během akce si budete moct zakoupit balíček obsahující vozidlo s očíslovaným 3D stylem."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "Prvních %(styleTanksCount) hráčů získá vozidlo s očíslovaným 3D stylem,{{@ class $br}}{{/}}následně bude doručeno %(withoutStyleTanksCount) vozidel bez očíslovaného stylu."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "AKCE SKONČILA"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "VOZIDLA ZÍSKÁNA"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "VOZIDLO ZÍSKÁNO"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Zbývající vozidla"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Toto vozidlo už je ve vaší garáži"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Vozidlo získáno"
+
+msgid "eventInfo/tanksOver"
+msgstr "NEZBÝVAJÍ ŽÁDNÁ VOZIDLA"
+
+msgid "eventInfo/top/styleText"
+msgstr "S číslem"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Zbývající vozidla s čísly"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "Doručování %(regularRewardVehiclesCount) vozidel ve standardní konfiguraci započne,\njakmile dojdou vozidla s čísly."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "Ve standardní konfiguraci"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Zbývající vozidla"
+
+msgid "mainView/affirmative/button"
+msgstr "Potvrzuji"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "Na vrácení zdrojů"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Nasbírané zdroje:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Nasbírané zdroje na:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Zpět do garáže"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Vybrat zdroje"
+
+msgid "mainView/footer/description/text"
+msgstr "Pokud nezbývají žádná vozidla, budou vám všechny utracené zdroje vráceny."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "S tímto typem účtu není možné se akce zúčastnit."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Nemůžete se zúčastnit"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Můžete si zakoupit obě vozidla, ale zdroje můžete investovat vždy jen do jednoho z nich."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Vyberte vozidlo a do jeho sestavení investujte požadované zdroje – ale pospěšte si!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Pospěšte si, utraťte zdroje vyžadované k montáži a získejte %(vehicleName)!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Všechny utracené zdroje budou brzy vráceny na váš účet."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "Bohužel nezbývají žádná vozidla"
+
+msgid "mainView/navbar/backBtn"
+msgstr "DO MONTOVNY"
+
+msgid "mainView/navbar/title"
+msgstr "MONTOVNA"
+
+msgid "mainView/preview/label"
+msgstr "Náhled"
+
+msgid "mainView/timer/lastUntil"
+msgstr "Do"
+
+msgid "mainView/timer/leftTime"
+msgstr "Zbývající čas:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Zavřít"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Utratit zdroje"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d %"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Údaje jsou dočasně nedostupné"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Nezbývají žádná vozidla"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Zbývající vozidla s čísly: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Zbývající vozidla: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Univerzální"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Maximum zdrojů %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "Maximum %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Nasbírané zdroje %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Fragmenty plánů"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Měny"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "SBÍRÁNÍ ZDROJŮ"
+
+msgid "tankPreview/button"
+msgstr "Vybrat zdroje"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "Během akce si budete moct zakoupit balíček obsahující vozidlo s očíslovaným 3D stylem."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "Prvních %(topPlayers) hráčů získá vozidlo s očíslovaným 3D stylem,\n následně bude doručeno %(basePlayers) vozidel bez očíslovaného stylu."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "Během akce můžete zakoupit obě vozidla."
+
+msgid "tankPreview/title"
+msgstr "Nasbírejte a utraťte 100 % požadovaných zdrojů a získejte %(vehicleInfo)!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Utracené zdroje si můžete kdykoliv prohlédnout, a pokud je to potřeba, vrátit je na svůj účet kliknutím na tlačítko „Vrátit zdroje“.\nVáš montážní proces bude vynulován, tyto nebo jiné zdroje však budete moci znovu utratit a vozidlo získat."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Vrácení zdrojů"
+
+msgid "tooltips/counter/error/text"
+msgstr "Údaje jsou dočasně nedostupné.\nNa opravě problému pracujeme."
+
+msgid "tooltips/counter/warning/text"
+msgstr "Množství se zobrazuje se zpožděním a od skutečného počtu vozidel se může lišit."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Utraťte zdroje a získejte %(vehicleName1) a %(vehicleName2). Počet vozidel je omezen."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Utraťte zdroje a získejte %(vehicleName) s očíslovaným 3D stylem. Počet vozidel je omezen."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Bude dostupná: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s–%(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Dostupná ještě %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Dostupná za: %(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "Montovna"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Kliknutím se dozvíte víc o akci"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Vyberte si vozidlo, do kterého chcete investovat zdroje.\nPokud byly zdroje již investovány do jiného vozidla, budou vráceny na váš účet."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Zbývající čas: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "Pro smontování vozidla utraťte 100 % požadovaných zdrojů. Poměr různých typů zdrojů se může změnit."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "Pokud nezbývají žádná vozidla, budou vám všechny utracené zdroje vráceny."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Vybráno"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Utraceno"
+
+msgid "tooltips/progressbar/title"
+msgstr "Sbírání zdrojů"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "Utrácení zdrojů je dočasně nedostupné. Zkuste to prosím později."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Univerzální a národní fragmenty."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Fragmenty plánů"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Udělovány za aktivní akce v bitvě. Lze je zakoupit také za skutečné peníze."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Měny"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Utraceno:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "Maximální množství tohoto zdroje k utracení: %(maxAmount)d."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Nasbírali jste požadované množství zdrojů pro získání vozidla. Můžete odstranit jeden typ zdroje a vybrat jiný."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Nasbírané zdroje"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "Toto je jedinečné vozidlo se svým vlastním číslem a speciální vizuální úpravou."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "Číslo je zobrazeno na obou stranách děla a na zadní části korby. Čísla na stejných vozidlech se nikdy neopakují a jejich počet je omezen."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "Rozlišovací prvky vašeho vozidla je možné skrýt. Očíslovaný 3D styl vozidla můžete odstranit na obrazovce úprav vzhledu."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Vozidlo s číslem"

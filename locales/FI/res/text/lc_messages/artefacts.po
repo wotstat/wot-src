@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "actionStub/name"
+msgstr "Muokkaus"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "Palauttaa välittömästi %(immediatelyRestore)s vaunun kestopisteistä. Koko kyvyn %(duration)s s keston ajan kaikki ammuksista ja taistelukyvyistä tuleva vahinko lasketaan yhteen ja muunnetaan kestopisteiksi ja siihen lisätään lisäksi %(restoringCoefficient)s saadusta kokonaisvahingosta kyvyn päättyessä.\n\n*Muunnettava kestopisteiden palautus vaikuttaa myös liittolaisvaunuihin pienellä etäisyydellä."
+
+msgid "adaptationHealthRestore/descr"
+msgstr "Palauttaa välittömästi %(immediatelyRestore)s vaunun kestopisteistä. Koko kyvyn %(duration)s s keston ajan kaikki ammuksista ja taistelukyvyistä tuleva vahinko lasketaan yhteen ja muunnetaan kestopisteiksi ja siihen lisätään lisäksi %(restoringCoefficient)s saadusta kokonaisvahingosta kyvyn päättyessä.\n\n*Muunnettava kestopisteiden palautus vaikuttaa myös liittolaisvaunuihin pienellä etäisyydellä."
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "{green_Open}Palauttaa välittömästi %(immediatelyRestore)s{green_Close} vaunun kestopisteistä. Koko kyvyn {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} keston ajan kaikki ammuksista ja taistelukyvyistä tuleva vahinko lasketaan yhteen ja muunnetaan kestopisteiksi ja siihen lisätään {green_Open}lisäksi %(restoringCoefficient)s saadusta kokonaisvahingosta{green_Close} kyvyn päättyessä.\n\n*Muunnettava kestopisteiden palautus vaikuttaa myös liittolaisvaunuihin pienellä etäisyydellä."
+
+msgid "adaptationHealthRestore/name"
+msgstr "Mukautuva panssari"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "{green_Open}Palauttaa välittömästi %(immediatelyRestore)s{green_Close} vaunun kestopisteistä. Koko kyvyn {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} keston ajan kaikki ammuksista ja taistelukyvyistä tuleva vahinko lasketaan yhteen ja muunnetaan kestopisteiksi ja siihen lisätään {green_Open}lisäksi %(restoringCoefficient)s saadusta kokonaisvahingosta{green_Close} kyvyn päättyessä.\n\n*Muunnettava kestopisteiden palautus vaikuttaa myös liittolaisvaunuihin pienellä etäisyydellä."
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s naamiointiin paikallaan olevalle tai liikkuvalle vaunulle, jolla on hiljainen pakokaasujärjestelmä (mikä hyvänsä luokka) tai pakokasujärjestelmä (palkkio) asennettuna."
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "Tehostaa hiljaisen pakokaasujärjestelmän tai pakokaasujärjestelmän (palkkio) vaikutusta taistelun ajan. Direktiivi toimii vain, jos sinulla on sitä vastaava varuste asennettuna."
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "Jäähdytetty pakokaasujärjestelmä"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "Parantaa paikallaan olevan tai liikkuvan vaunun naamiointia"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "Tehokkuus riippuu vaunun tyypistä. Parantaa paikallaan olevan tai liikkuvan vaunun naamiointia. Hyödyllistä aktiiviseen tiedusteluun sekä passiiviseen havainnointiin riskialttiista asemista."
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "Hiljainen pakokaasujärjestelmä"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "Parantaa paikallaan olevan tai liikkuvan vaunun naamiointia."
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "Hiljainen pakokaasujärjestelmä, luokka 1"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "Hiljainen pakokaasujärjestelmä, luokka 2"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "Hiljainen pakokaasujärjestelmä, luokka 3"
+
+msgid "additional_armor_plates_1/name"
+msgstr "Ylimääräinen panssarilevy (tyyppi 1)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "Ylimääräinen panssarilevy (tyyppi 2)"
+
+msgid "afterburning/descr"
+msgstr "Parantaa nopeuttasi ja kiihtyvyyttäsi rajoitetun ajan."
+
+msgid "afterburning/name"
+msgstr "Turboahdin"
+
+msgid "aimingStabilizer/long_special"
+msgstr "Tykkisi hajonnan pienentäminen on ensiarvoisen tärkeää: mitä pienempi hajonta on alkujaan, sitä pienempi tähtäysympyrä ja sitä vähemmän aikaa kuluu sen supistumiseen. Lisäksi heittolaukauksella (joka ammutaan ilman kunnon tähtäystä tai liikkeestä) on parempi mahdollisuus osua kohteeseen."
+
+msgid "aimingStabilizer/name"
+msgstr "Pystyvakaaja"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s hajontaan ampumisen jälkeen, vaunun liikkuessa tai tornin pyöriessä, kun pystyvakaaja, vakautusjärjestelmä tai vakaaja (palkkio) on asennettuna."
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "Tehostaa parannellun pystyvakaajan (mikä hyvänsä luokka), vakautusjärjestelmän ja vakaajan (palkkio) vaikutusta taistelun ajan. Ottaaksesi käyttöön ja aktivoidaksesi tämän direktiivin täytyy sinulla olla nämä varusteet asennettuna vaunuusi."
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "Vakaajan rasvaus"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "Parantaa vakaajan toimintaa"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "Pystyvakaaja, luokka 1"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "Pystyvakaaja, luokka 2"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "Pystyvakaaja, luokka 1"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "Pystyvakaaja, luokka 2"
+
+msgid "antifragmentationLining/long_special"
+msgstr "Sirpalesuojavuoraukset imevät vahinkoa. Tämä tarkoittaa, että ne vähentävät sirpalekranaateista ja törmäyksistä tulevaa vahinkoa. Sirpalesuojat ovat erityisen hyödyllisiä raskaille vaunuille, joilla on luotettava panssarointi, jotka taistelevat lähinnä lähitaistelussa ja jotka tekevät kohtuutonta jälkeä törmätessään."
+
+msgid "antifragmentationLining/name"
+msgstr "Sirpalesuojavuoraus"
+
+msgid "antifragmentationLining/short_special"
+msgstr "Suojaa vaunua ja miehistöä sirpalekranaateilta, vammoilta, lamautukselta ja törmäyksiltä"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "Superraskas sirpalesuojavuoraus"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "Raskas sirpalesuojavuoraus"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "Keskiraskas sirpalesuojavuoraus"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "Kevyt sirpalesuojavuoraus"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "Pakokaasujärjestelmä"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "Vakaaja"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "Sirpalesuojavuoraus"
+
+msgid "archetype/camouflageNet/name"
+msgstr "Naamioverkko"
+
+msgid "archetype/coatedOptics/name"
+msgstr "Optiikat"
+
+msgid "archetype/commandersView/name"
+msgstr "Näköjärjestelmä"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "Tykin moottori"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "Karkaisu"
+
+msgid "archetype/grousers/name"
+msgstr "Harjat"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "Kokoonpano"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "Radiolaitteisto"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "Kääntömekanismi"
+
+msgid "archetype/improvedSights/name"
+msgstr "Tähtäys"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "Ilmastointi"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "Tulenjohtojärjestelmä"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "Selviytyvyyden kehityspaketti"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "Tarkkuuden parannusjärjestelmä"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "Liikkuvuuden parannusjärjestelmä"
+
+msgid "archetype/stereoscope/name"
+msgstr "Teleskooppikiikarit"
+
+msgid "archetype/tankRammer/name"
+msgstr "Lataaja"
+
+msgid "archetype/template"
+msgstr "\"%(name)s\" -kategorian varuste"
+
+msgid "archetype/turbocharger/name"
+msgstr "Turboahdin"
+
+msgid "artillery/longDescr"
+msgstr "Käskee tyksitön ampumaan sirpalekranaatteja pienelle alueelle. Vaunut osuma-alueen keskellä kärsivät eniten vahinkoa. Erityisen tehokas raskaasti panssaroituja vaunuja vastaan."
+
+msgid "artillery/name"
+msgstr "Tykistöisku"
+
+msgid "artillery/shortDescr"
+msgstr "Aiheuttaa pienellä säteellä merkittävää vahinkoa vihollisvaunuihin."
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s moottorin syttymisen todennäköisyyteen"
+
+msgid "autoExtinguishers/descr"
+msgstr "Sammutta automaattisesti palon vaunussasi."
+
+msgid "autoExtinguishers/long_special"
+msgstr "Sammuttaa automaattisesti tulipalot sekä pienentää syttymisen todennäköisyyttä. Tämä kulutustarvike sopii kaikkien kansakuntien kaikkiin vaunuihin."
+
+msgid "autoExtinguishers/name"
+msgstr "Automaattinen palosammutin"
+
+msgid "autoExtinguishers/onUse"
+msgstr "Sammuttaa automaattisesti tulipalon vaunussasi. Voidaan käyttää useita kertoja taistelun aikana. Kulutustarvike poistetaan taistelun jälkeen, jos sitä käytettiin vähintään kerran."
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "Automaattinen tulipalojen sammuttaminen"
+
+msgid "berserker/battleDescr"
+msgstr "Kasvattaa läpäisyä ja tulinopeutta %(gunPiercing)s-kertaiseksi ja samalla parantaa tykin moottorin ja vakaajan tehokkuutta %(gunAimingTime)s, mutta vie %(healthDebuff)s vaunusi kokonaiskestopisteistä sen %(duration)s s keston aikana.\n\n*Berserkki -kyvyn aiheuttama vahinko ei voi tuhota vaunuasi."
+
+msgid "berserker/descr"
+msgstr "Kasvattaa läpäisyä ja tulinopeutta %(gunPiercing)s-kertaiseksi ja samalla parantaa tykin moottorin ja vakaajan tehokkuutta %(gunAimingTime)s, mutta vie %(healthDebuff)s vaunusi kokonaiskestopisteistä sen %(duration)s s keston aikana.\n\n*Berserkki -kyvyn aiheuttama vahinko ei voi tuhota vaunuasi."
+
+msgid "berserker/longDescr"
+msgstr "Kasvattaa läpäisyä ja tulinopeutta {green_Open}%(gunPiercing)s-kertaiseksi{green_Close} ja samalla parantaa tykin moottorin ja vakaajan tehokkuutta {green_Open}%(gunAimingTime)s{green_Close}, mutta vie {red_Open}%(healthDebuff)s{red_Close} vaunusi kokonaiskestopisteistä sen {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} keston aikana.\n\n*Berserkki -kyvyn aiheuttama vahinko ei voi tuhota vaunuasi."
+
+msgid "berserker/name"
+msgstr "Berserkki"
+
+msgid "berserker/shortDescr"
+msgstr "Kasvattaa läpäisyä ja tulinopeutta {green_Open}%(gunPiercing)s-kertaiseksi{green_Close} ja samalla parantaa tykin moottorin ja vakaajan tehokkuutta {green_Open}%(gunAimingTime)s{green_Close}, mutta vie {red_Open}%(healthDebuff)s{red_Close} vaunusi kokonaiskestopisteistä sen {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} keston aikana.\n\n*Berserkki -kyvyn aiheuttama vahinko ei voi tuhota vaunuasi."
+
+msgid "blackout_headlights_1/name"
+msgstr "Ajovalojen himmennys (tyyppi 1)"
+
+msgid "bomber/longDescr"
+msgstr "Käskee maataistelukoneen pudottamaan pommeja valitulle alueelle lamauttaen ja vahingoittaen viholisvaunuja. Vaunut osuma-alueen keskellä kärsivät eniten vahinkoa. Erityisen tehokas kevyestä ja keskiraskaasti panssaroituja vaunuja vastaan."
+
+msgid "bomber/name"
+msgstr "Pommituslento"
+
+msgid "bomber/shortDescr"
+msgstr "Lamauttaa vihollisvaunuja ja aiheuttaa kohtalaista vahinkoa suuren säteen sisällä."
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "Palauttaa asteittan %(healPerTickDuration)s vaunun kestopisteistä %(duration)s s kuluessa. Voi keskeytyä ottamalla vahinkoa."
+
+msgid "brRegenerationKit/descr"
+msgstr "Palauttaa asteittain %(healPerTickDuration)s vaunun kestopisteistä %(duration)s s kuluessa. Voi keskeytyä ottamalla vahinkoa."
+
+msgid "brRegenerationKit/long_special"
+msgstr "{green_Open}Palauttaa asteittan %(healPerTickDuration)s{green_Close} vaunun kestopisteistä {whiteSpanish_Open}%(duration)s s kuluessa.{whiteSpanish_Close} Voi keskeytyä ottamalla vahinkoa."
+
+msgid "brRegenerationKit/name"
+msgstr "Palautus"
+
+msgid "brRegenerationKit/short_special"
+msgstr "{green_Open}Palauttaa asteittan %(healPerTickDuration)s{green_Close} vaunun kestopisteistä {whiteSpanish_Open}%(duration)s s kuluessa.{whiteSpanish_Close} Voi keskeytyä ottamalla vahinkoa."
+
+msgid "brRepairkit/descr"
+msgstr "Korjaa moduulit ja poistaa negatiiviset vaikutukset."
+
+msgid "brRepairkit/long_special"
+msgstr "Korjaa moduulit ja poistaa negatiiviset vaikutukset."
+
+msgid "brRepairkit/name"
+msgstr "Korjaussarja"
+
+msgid "brRepairkit/short_special"
+msgstr "Korjaa moduulit ja poistaa negatiiviset vaikutukset."
+
+msgid "br_bomber/battleDescr"
+msgstr "Lamauttaa ja aiheuttaa %(minDamage)s–%(maxDamage)s pistettä vahinkoa vihollisvaunuihin. Vaikutusalueen keskustassa olevat vaunut kärsivät enemmän vahinkoa.\n\n*Ennen vaikutusta on %(delay)s s viive."
+
+msgid "br_bomber/descr"
+msgstr "Lamauttaa ja aiheuttaa %(minDamage)s–%(maxDamage)s pistettä vahinkoa vihollisvaunuihin. Vaikutusalueen keskustassa olevat vaunut kärsivät enemmän vahinkoa.\n\n*Ennen vaikutusta on %(delay)s s viive."
+
+msgid "br_bomber/longDescr"
+msgstr "Lamauttaa ja aiheuttaa {whiteSpanish_Open}%(minDamage)s–%(maxDamage)s pistettä vahinkoa{whiteSpanish_Close} vihollisvaunuihin. Vaikutusalueen keskustassa olevat vaunut kärsivät enemmän vahinkoa.\n\n*Ennen vaikutusta on %(delay)s s viive."
+
+msgid "br_bomber/name"
+msgstr "Pommituslento"
+
+msgid "br_bomber/shortDescr"
+msgstr "Lamauttaa ja aiheuttaa {whiteSpanish_Open}%(minDamage)s–%(maxDamage)s pistettä vahinkoa{whiteSpanish_Close} vihollisvaunuihin. Vaikutusalueen keskustassa olevat vaunut kärsivät enemmän vahinkoa.\n\n*Ennen vaikutusta on %(delay)s s viive."
+
+msgid "br_minefield/battleDescr"
+msgstr "Sijoittaa valitulle alueelle miinakentän %(duration)s s ajaksi. Vihollisvaunut, jotka osuvat miinoihin lamautuvat ja saavat räjähdysvahinkoa.\n\n*Miinat voi tuhota ampumalla. Vihollisvaunujen alle sijoitetut miinat EIVÄT räjähdä."
+
+msgid "br_minefield/descr"
+msgstr "Sijoittaa valitulle alueelle miinakentän %(duration)s s ajaksi. Vihollisvaunut, jotka osuvat miinoihin lamautuvat ja saavat räjähdysvahinkoa.\n\n*Miinat voi tuhota ampumalla. Vihollisvaunujen alle sijoitetut miinat EIVÄT räjähdä."
+
+msgid "br_minefield/longDescr"
+msgstr "Sijoittaa valitulle alueelle miinakentän {whiteSpanish_Open}%(duration)s s ajaksi{whiteSpanish_Close}. Vihollisvaunut, jotka osuvat miinoihin lamautuvat ja saavat räjähdysvahinkoa.\n\n*Miinat voi tuhota ampumalla. Vihollisvaunujen alle sijoitetut miinat EIVÄT räjähdä."
+
+msgid "br_minefield/name"
+msgstr "Miinakenttä"
+
+msgid "br_minefield/shortDescr"
+msgstr "Sijoittaa valitulle alueelle miinakentän {whiteSpanish_Open}%(duration)s s ajaksi{whiteSpanish_Close}. Vihollisvaunut, jotka osuvat miinoihin lamautuvat ja saavat räjähdysvahinkoa.\n\n*Miinat voi tuhota ampumalla. Vihollisvaunujen alle sijoitetut miinat EIVÄT räjähdä."
+
+msgid "br_respawn/name"
+msgstr "Taisteluun palaaminen"
+
+msgid "br_respawn/platoon/descr"
+msgstr "Mahdollistaa taisteluun palaamisen vaunusi tuhoutumisen jälkeen. Tämä mekaniikka toimii taistelun ensimmäisten %(duration)s min aikana.\n\nLiittolaisen palauttamiseksi taisteluun tulee pysyä pois taistelusta %(timeToResurrect)s s. Taisteluun palaamisen käyttökerrat ovat jaettuja osaston jäsenten kesken."
+
+msgid "br_respawn/solo/descr"
+msgstr "Mahdollistaa taisteluun palaamisen vaunusi tuhoutumisen jälkeen. Tämä mekaniikka toimii taistelun ensimmäisten %(duration)s min aikana.\n\nVaunusi palaa automaattisesti taisteluun tuhouduttuaan."
+
+msgid "br_smoke/battleDescr"
+msgstr "Lisää %(duration)s sekunnin naamiointibonuksen kaikille kulutustarvikkeen vaikutusalueella oleville vaunuille."
+
+msgid "br_smoke/descr"
+msgstr "Lisää naamiointibonuksen kaikille kulutustarvikkeen vaikutusalueella oleville vaunuille."
+
+msgid "br_smoke/longDescr"
+msgstr "Lisää %(duration)s sekunnin naamiointibonuksen kaikille kulutustarvikkeen vaikutusalueella oleville vaunuille."
+
+msgid "br_smoke/name"
+msgstr "Savuverho"
+
+msgid "br_smoke/shortDescr"
+msgstr "Lisää naamiointibonuksen kaikille kulutustarvikkeen vaikutusalueella oleville vaunuille."
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "Lisää naamioitumisbonuksen kaikille kulutustarvikkeen kantamalla oleville vaunuille sekä vahingoittaa KAIKKIA vaunuja sen kantamalla tehden vahinkoa %(damagePerTick)s niiden kokonaiskestopisteistä per sekunti. Kestää %(duration)s s ajan.\n\n*Syövyttävä sumu ei keskeytä sotasaaliin poimimista eikä tuhoa vaunuja, vaan jättää ne vähintään 1 kestopisteeseen."
+
+msgid "br_smoke_with_damage/descr"
+msgstr "Lisää naamioitumisbonuksen kaikille kulutustarvikkeen kantamalla oleville vaunuille sekä vahingoittaa KAIKKIA vaunuja sen kantamalla tehden vahinkoa %(damagePerTick)s niiden kokonaiskestopisteistä per sekunti. Kestää %(duration)s s ajan.\n\n*Syövyttävä sumu ei keskeytä sotasaaliin poimimista eikä tuhoa vaunuja, vaan jättää ne vähintään 1 kestopisteeseen."
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "Lisää naamioitumisbonuksen kaikille kulutustarvikkeen kantamalla oleville vaunuille sekä vahingoittaa KAIKKIA vaunuja sen kantamalla tehden vahinkoa {whiteSpanish_Open}%(damagePerTick)s{whiteSpanish_Close} niiden kokonaiskestopisteistä per sekunti. Kestää {whiteSpanish_Open}%(duration)s s ajan.{whiteSpanish_Close}\n\n*Syövyttävä sumu ei keskeytä sotasaaliin poimimista eikä tuhoa vaunuja, vaan jättää ne vähintään 1 kestopisteeseen."
+
+msgid "br_smoke_with_damage/name"
+msgstr "Syövyttävä usva"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "Lisää naamioitumisbonuksen kaikille kulutustarvikkeen kantamalla oleville vaunuille sekä vahingoittaa KAIKKIA vaunuja sen kantamalla tehden vahinkoa {whiteSpanish_Open}%(damagePerTick)s{whiteSpanish_Close} niiden kokonaiskestopisteistä per sekunti. Kestää {whiteSpanish_Open}%(duration)s s ajan.{whiteSpanish_Close}\n\n*Syövyttävä sumu ei keskeytä sotasaaliin poimimista eikä tuhoa vaunuja, vaan jättää ne vähintään 1 kestopisteeseen."
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s moduulin korjausnopeuteen"
+
+msgid "builtinRepairkit/long_special"
+msgstr "Korjaa aktivoitaessa kaikki vahingoittuneet moduulit. Passiivisena vaikutuksena nopeuttaa korjaamista. Tämä kulutustarvike soveltuu tiettyihin vaunuihin."
+
+msgid "builtinRepairkit/name"
+msgstr "Tavallinen suuri korjaussarja"
+
+msgid "builtinRepairkit/onUse"
+msgstr "Korjaa kaikki vahingoittuneet moduulit. Voidaan käyttää useita kertoja taistelussa. Ei kulu.\nTätä kulutustarviketta ei voi poistaa, mutta sen voi siirtää toiseen paikkaan."
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "Antaa ylimääräiset 10% vaunun naamiointiin"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "Antaa kaikille miehistön jäsenille \"Naamiointi\" -pätevyyden 100 % tasolle koulutettuna"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "\"Naamiointi\" -pätevyys vähentää sekä liikkuvan että paikallaan olevan vaunun näkyvyyttä taistelun aikana. Kun pätevyys on koulutettu 100% tasolle, lisää käytössä oleva direktiivi sen vaikutusta; mikäli pätevyys ei vielä ole täydessä tehossa, antaa direktiivi vaunullesi 100% koulutetun pätevyyden."
+
+msgid "camouflageBattleBooster/name"
+msgstr "Luonnollinen suoja"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "Antaa 100% koulutetun \"Naamiointi\" -pätevyyden tai kasvattaa sen vaikutusta"
+
+msgid "camouflageNet/battleDescr"
+msgstr "Parantaa paikallaan olevan vaunun naamiointia alkaen 3 sekunttia pysähtymisestä"
+
+msgid "camouflageNet/long_special"
+msgstr "Tehokkuus riippuu vaunun tyypistä. Naamioverkko on tehokkaimmillaan salavihkaisille vaunuille eli telatykeille ja matalaprofiilisille PST-vaunuille. Se parantaa \"Naamioituminen\" -pätevyyden vaikutusta. Niiden yhdistäminen tuo tuntuvan bonuksen vaunullesi. Naamiointiverkko aktivoituu 3 sekuntia vaunun pysähtymisen jälkeen."
+
+msgid "camouflageNet/name"
+msgstr "Naamioverkko"
+
+msgid "camouflageNet/short_special"
+msgstr "Parantaa paikallaan olevan vaunun naamiointia"
+
+msgid "camouflageNet_tier2/name"
+msgstr "Naamioverkko, luokka 2"
+
+msgid "camouflageNet_tier3/name"
+msgstr "Naamioverkko, luokka 3"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} miehistön tehokkuuden bonukseen koko taistelun ajaksi."
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} miehistön tehokkuuden bonukseen"
+
+msgid "chocolate/long_special"
+msgstr "Aktivoituu automaattisesti taistelun alkaessa ja tarjoaa vaikutuksensa koko taistelun ajan. Sopii vain saksalaisille vaunuille."
+
+msgid "chocolate/name"
+msgstr "Suklaa"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "Soveltuu vain saksalaisille vaunuille."
+
+msgid "chocolate/short_special"
+msgstr "Parantaa saksalaisten miehistöjen suorituskykyä"
+
+msgid "clingBrander/battleDescr"
+msgstr "Kutsuu itsenäisesti toimivan vaunun, joka on varustettu ystävällismieliset ja vihamieliset kohteet tunnistavalla järjestelmällä, jonka turvin se hyökkää lähimmän vihollisen kimppuun jopa %(botLifeTime)s s ajan.\n\n* Tämän vaunun voi tuhota."
+
+msgid "clingBrander/descr"
+msgstr "Kutsuu itsenäisesti toimivan vaunun, joka on varustettu ystävällismieliset ja vihamieliset kohteet tunnistavalla järjestelmällä, jonka turvin se hyökkää lähimmän vihollisen kimppuun jopa %(botLifeTime)s s ajan.\n\n* Tämän vaunun voi tuhota."
+
+msgid "clingBrander/longDescr"
+msgstr "Kutsuu itsenäisesti toimivan vaunun, joka on varustettu ystävällismieliset ja vihamieliset kohteet tunnistavalla järjestelmällä, jonka turvin se hyökkää lähimmän vihollisen kimppuun {whiteSpanish_Open}jopa %(botLifeTime)s s ajan.{whiteSpanish_Close}\n\n*Tämän vaunun voi tuhota."
+
+msgid "clingBrander/name"
+msgstr "Taistelurobotti"
+
+msgid "clingBrander/shortDescr"
+msgstr "Kutsuu itsenäisesti toimivan vaunun, joka on varustettu ystävällismieliset ja vihamieliset kohteet tunnistavalla järjestelmällä, jonka turvin se hyökkää lähimmän vihollisen kimppuun {whiteSpanish_Open}jopa %(botLifeTime)s s ajan.{whiteSpanish_Close}\n\n*Tämän vaunun voi tuhota."
+
+msgid "clutches_replace_1/name"
+msgstr "Kitkakytkimen korvaaja (tyyppi 1)"
+
+msgid "clutches_replace_2/name"
+msgstr "Kitkakytkimen korvaaja (tyyppi 2)"
+
+msgid "coatedOptics/long_special"
+msgstr "Toisin kuin teleskooppikiikarit, pinnoitetut optiikat (mitä tahansa tyyppiä) tarjoavat pienemmän, mutta pysyvän bonuksen, joka ei katoa vaunun liikkuessa. Tämän seurauksena pinnoitetut optiikat sopivat erityisesti aktiivisesti pelaaville kevyille ja keskiraskaille vaunuille."
+
+msgid "coatedOptics/name"
+msgstr "Pinnoitettu optiikka"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s näköetäisyyteen (445 metriin asti), kun pinnoitetut optiikat (mikä hyvänsä luokka), kokeelliset optiikat tai optiikat (palkkio) ovat asennettuna."
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2,5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2,5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "Tehostaa pinnoitettujen optiikoiden, kokeellisten optiikoiden ja optiikoiden (palkkio) vaikutusta taistelun ajan. Ottaaksesi käyttöön ja aktivoidaksesi tämän direktiivin täytyy sinulla olla nämä varusteet asennettuna vaunuusi."
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "Optinen kalibrointi"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "Tehostaa optiikkojen vaikutusta"
+
+msgid "coatedOptics_tier1/name"
+msgstr "Pinnoitetut optiikat, luokka 1"
+
+msgid "coatedOptics_tier2/name"
+msgstr "Pinnoitetut optiikat, luokka 2"
+
+msgid "coatedOptics_tier3/name"
+msgstr "Pinnoitetut optiikat, luokka 3"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} miehistön tehokkuuden bonukseen koko taistelun ajaksi."
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} miehistön tehokkuuden bonukseen"
+
+msgid "cocacola/long_special"
+msgstr "Aktivoituu automaattisesti taistelun alkaessa ja tarjoaa vaikutuksensa koko taistelun ajan. Sopii vain amerikkalaisille vaunuille."
+
+msgid "cocacola/name"
+msgstr "Kori kolajuomaa"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "Soveltuu vain amerikkalaisille vaunuille."
+
+msgid "cocacola/short_special"
+msgstr "Parantaa amerikkalaisten miehistöjen suorituskykyä"
+
+msgid "commandersView/long_special"
+msgstr "Heikentää liikkuvien vihollisten naamiointia ja luonnon tarjoaman suojan kertoimia vihollisille tiedustellessasi. Tämä mahdollistaa liikkuvien vihollisten näkemisen kauempaa ja auttaa löytämään tehokkaammin viholliset, jotka ovat pensaiden tai kaatuneiden puiden takana."
+
+msgid "commandersView/name"
+msgstr "Komentajan näköjärjestelmä"
+
+msgid "commandersView/short_special"
+msgstr "Heikentää vihollisvaunujen naamiointia olivat nämä liikkeessä tai kasvillisuuden kätköissä"
+
+msgid "corrodingShot/battleDescr"
+msgstr "Lisää ammukseen syövyttäviä ominaisuuksia, jotka kasvattavat sen läpäisyä ja vahinkopotentiaalia. Aiheuttaessaan vahinkoa vihollisvaunulle ammus antaa sille väliaikaisen efektin, joka vie jopa %(damagePerDotEffectDuration)s vihollisvaunun kestopisteistä sen %(dotEffectDuration)s s keston aikana.\n\n*Negatiivisen efektin voi poistaa korjaussarjalla."
+
+msgid "corrodingShot/descr"
+msgstr "Lisää ammukseen syövyttäviä ominaisuuksia, jotka kasvattavat sen läpäisyä ja vahinkopotentiaalia. Aiheuttaessaan vahinkoa vihollisvaunulle ammus antaa sille väliaikaisen efektin, joka vie jopa %(damagePerDotEffectDuration)s vihollisvaunun kestopisteistä sen %(dotEffectDuration)s s keston aikana.\n\n*Negatiivisen efektin voi poistaa korjaussarjalla."
+
+msgid "corrodingShot/longDescr"
+msgstr "Lisää ammukseen syövyttäviä ominaisuuksia, jotka kasvattavat sen läpäisyä ja vahinkopotentiaalia. Aiheuttaessaan vahinkoa vihollisvaunulle ammus antaa sille väliaikaisen efektin, joka vie {whiteSpanish_Open}jopa %(damagePerDotEffectDuration)s{whiteSpanish_Close} vihollisvaunun kestopisteistä {whiteSpanish_Open}sen %(dotEffectDuration)s s{whiteSpanish_Close} keston aikana.\n\n*Negatiivisen efektin voi poistaa korjaussarjalla."
+
+msgid "corrodingShot/name"
+msgstr "Happoammus"
+
+msgid "corrodingShot/shortDescr"
+msgstr "Lisää ammukseen syövyttäviä ominaisuuksia, jotka kasvattavat sen läpäisyä ja vahinkopotentiaalia. Aiheuttaessaan vahinkoa vihollisvaunulle ammus antaa sille väliaikaisen efektin, joka vie {whiteSpanish_Open}jopa %(damagePerDotEffectDuration)s{whiteSpanish_Close} vihollisvaunun kestopisteistä {whiteSpanish_Open}sen %(dotEffectDuration)s s{whiteSpanish_Close} keston aikana.\n\n*Negatiivisen efektin voi poistaa korjaussarjalla."
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "Parantaa seuraavaa ominaisuutta"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "Komentajan ominaisuus"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose}: \"{name}\" ({skillOrPerk})"
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "pätevyys"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "Antaa seuraavan ominaisuuden"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "pätevyys"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "Paranneltu versio pystyvakaajasta ({colorTagOpen}–20%{colorTagClose} hajontaan ampumisen jälkeen ja liikkeessä ja tykkitornin kääntyessä), jonka vaikutus on suurempi: {colorTagOpen}–27,5%{colorTagClose} hajontaan ampumisen jälkeen ja liikkeessä ja tykkitornin kääntyessä. Tämä varuste sopii kaikkien kansakuntien tietyn tyyppisiin vaunuihin. Voidaan irrottaa vain arvopapereita käyttämällä."
+
+msgid "deluxAimingStabilizer/name"
+msgstr "Vakautusjärjestelmä"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "Paranneltu versio pinnoitetuista optiikoista ({colorTagOpen}+10%{colorTagClose} näköetäisyyteen), jonka vaikutus on suurempi: {colorTagOpen}+13,5%{colorTagClose} näköetäisyyteen. Tämä varuste sopii kaikkien kansakuntien kaikkiin vaunuihin. Sen voi irrottaa vain arvopapereita käyttämällä."
+
+msgid "deluxCoatedOptics/name"
+msgstr "Kokeelliset optiikat"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "Paranneltu versio parannellusta tykin moottorista ({colorTagOpen}+10%{colorTagClose} tähtäysnopeuteen), jonka vaikutus on suurempi: {colorTagOpen}+13,5%{colorTagClose} tähtäysnopeuteen. Tämä varuste sopii kaikkien kansakuntien kaikkiin vaunuihin. Sen voi irrottaa vain arvopapereita käyttämällä."
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "Kulutuskestävä tykin moottori"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "Muokatun kokoonpanon vastine, joka tarjoaa vahvemman vaikutuksen. Tämä varuste sopii kaikkien kansakuntien kaikkiin vaunuihin. Sen voi irrottaa vain arvopapereita käyttämällä."
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "Paranneltu kokoonpano"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "Nopeuttaa korjauksia, suojelee ammustelinettä, polttoainetankkeja ja moottoria"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "Paranneltu versio ilmanvaihdosta ({colorTagOpen}+5%{colorTagClose} miehistön tehokkuuden bonukseen), jonka vaikutus on suurempi: {colorTagOpen}+8,5%{colorTagClose} miehistön tehokkuuden bonukseen. Tämä varuste sopii kaikkien kansakuntien kaikkiin vaunuihin. Sen voi irrottaa vain arvopapereita käyttämällä."
+
+msgid "deluxImprovedVentilation/name"
+msgstr "Ilmanpoistojärjestelmä"
+
+msgid "deluxRammer/long_special"
+msgstr "Paranneltu versio tykin lataajasta ({colorTagOpen}-10%{colorTagClose} latausaikaan), jonka vaikutus on suurempi: {colorTagOpen}-13,5%{colorTagClose} latausaikaan. Tämä varuste sopii kaikkien kansakuntien kaikkiin vaunuihin. Sen voi irrottaa vain arvopapereita käyttämällä."
+
+msgid "deluxRammer/name"
+msgstr "Kekseliäs lautausjärjestelmä"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "Paranneltu versio hiljaisesta pakokaasujärjestelmästä, jonka vaikutus on vahvempi: se parantaa paikallaan pysyvän tai liikkuvan vaunun naamiointia. Höydyllinen aktiiviseen tiedusteluun sekä passiiviseen tiedusteluun vaarallisissa asemissa.\nTämä varuste sopii kaikkien kansakuntien ja tyyppien vaunuille, mutta sen tehokkuus riippuu vaunun tyypistä. Voidaan irrottaa vain käyttämällä arvopapereita."
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "Pakokaasun piilotusyksikkö"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "Parantaa paikallaan olevan tai liikkuvan vaunun naamioitumista. Vaikutus: {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose}"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "Parantaa paikallaan olevan vaunun naamiointia alkaen 1,5 sekuntia pysähtymisestä"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "Paranneltu versio naamioverkosta, jonka tehokkuus riippuu vaunun tyypistä. Taktinen naamioverkko on tehokkaimmillaan salavihkaisilla vaunuilla eli telatykeillä ja matalaprofiilisilla PST-vaunuilla. Se parantaa \"Naamioituminen\" -pätevyyden vaikutusta. Niiden yhdistäminen tuo tuntuvan bonuksen vaunullesi. Taktinen naamiointiverkko aktivoituu 1,5 sekuntia vaunun pysähtymisen jälkeen."
+
+msgid "deluxeCamouflageNet/name"
+msgstr "Taktinen naamioverkko"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17,5{colorTagClose}/{colorTagOpen}12,5{colorTagClose}/{colorTagOpen}7,5%{colorTagClose} paikallaan olevan vaunun naamiointikykyyn"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "Palauttaa täysin telakoneiston kestopisteet korjausten jälkeen."
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "Palauttaa telakoneiston korjausten jälkeen."
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "Paranneltu versio Paremmasta karkaisusta: {colorTagOpen}+12,5%{colorTagClose} vaunun kestopisteisiin, {colorTagOpen}+75%{colorTagClose} telakoneiston kestävyyteen, {colorTagOpen}+30%{colorTagClose} telakoneiston korjausnopeuteen, {colorTagOpen}–75%{colorTagClose} rungon vaurioihin, jotka johtuvat telakoneiston vaurioista törmäyksessä. Parantaa telakoneiston kestopisteet täyteen korjauksen jälkeen. Vähentää telan tuhoutumisen mahdollisuutta sen saadessa osuman, pitää vaunusi liikkeessä niin pitkään kuin mahdollista. Tämä varuste sopii kaikkien kansakuntien ja tyyppien (telatykit pois lukien) vaunuille."
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "Vahvempi iskunkestävyys"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "Parantaa vaunun kestävyyttä ja suojelee telakoneistoa"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "Parempi versio parannellulsta kääntömekanismista, jonka vaikutus on tehokkaampi: {colorTagOpen}+17,5% {colorTagClose}tykin kääntönopeuteen, {colorTagOpen}+17,5% {colorTagClose}rungon kääntönopeuteen ja {colorTagOpen}-17,5% {colorTagClose} hajontaan liikkeessä ja tornin kääntyessä. Tämä varuste soveltuu kaikkien kansakuntien kaiken tyyppisille vaunuille. Voidaan irrottaa vain käyttämällä arvopapereita."
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "Paranneltu voimansiirto"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "Parantaa kääntönopeutta ja vähentää tykin hajontaa liikkessä ja tornia pyörittäessä"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "Kehittyneempi versio parannellusta tähtäämisestä, jonka vaikutus on suurempi: pienentää tähtäysympyrän kokoa tähdätessä tai täysin tähdätyllä tykillä {colorTagOpen}9%{colorTagClose}. Tämän seurauksena tykilläsi on suurempi mahdollisuus osua kohteeseen. Tämä varuste sopii kaikkien kansakuntien kaikkiin vaunuihin paitsi telatykkeihin. Voidaan irrottaa vain arvopapereita käyttämällä."
+
+msgid "deluxeImprovedSights/name"
+msgstr "Innovatiivinen tähtäys"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "Vähentää tykin hajontaa"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "Parantaa paikallaan olevan vaunun näkökyky (korkeintaan 445 m asti) 1,5 kuluttua vaunun pysähtymisestä"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "Paranneltu versio teleskooppikiikareista. Hyvä näkökyky antaa kovan edun vaunuille taistelussa. Tämän tyyppinen varuste on erityisen hyödyllinen matalaprofiilisille PST-vaunuille, joilla on tarkat tykit. Se aktivoituu 1,5 sekunnin kuluttua vaunun pysähtymisestä."
+
+msgid "deluxeStereoscope/name"
+msgstr "Teleskooppinen tarkkailujärjestelmä"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27,5%{colorTagClose} paikallaan olevan vaunun näköetäisyyteen (445 m asti)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "Paranneltu versio turboahtimesta ({colorTagOpen}+7,5%{colorTagClose} moottoritehoon, {colorTagOpen}+4 km/t{colorTagClose} huippunopeuteen eteenpäin, {colorTagOpen}+2 km/t{colorTagClose} huippunopeuteen peruuttaen): {colorTagOpen}+12,5%{colorTagClose} moottoritehoon, {colorTagOpen}+6 km/t{colorTagClose} huippunopeuteen eteenpäin, {colorTagOpen}+4 km/t{colorTagClose} huippunopeuteen peruuttaen. Tämä varuste sopii kaikkien kansakuntien ja tyyppien (pyörälliset vaunut pois lukien) vaunuille. Voidaan irrottaa vain arvopapereita käyttäen."
+
+msgid "deluxeTurbocharger/name"
+msgstr "Paranneltu kompressori"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "Kasvattaa moottoritehoa ja huippunopeutta"
+
+msgid "eb_minefield/descr"
+msgstr "Sijoittaa aktiivisen miinakentän valitulle alueelle tietyksi ajaksi."
+
+msgid "eb_minefield/long_descr"
+msgstr "Sijoittaa valitulle alueelle aktiivisen miinakentän tietyksi ajaksi. Räjähtäessään miinat vahingoittavat ja lamauttavat vihollisvaunuja. Viholliset voivat havaita miinat läheltä tai \"Tiedustelulento\" tai \"Vartija\" -taistelureserveillä."
+
+msgid "eb_minefield/name"
+msgstr "Miinakenttä"
+
+msgid "eb_minefield/short_descr"
+msgstr "Sijoittaa aktiivisen miinakentän valitulle alueelle tietyksi ajaksi."
+
+msgid "eb_regenerationKit/descr"
+msgstr "Palauttaa vähitellen tietyn prosenttiosuuden vaunusi kestopisteistä."
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "Palauttaa hiljalleen tietyn prosenttiosuuden vaunusi kestopisteistä. Vauhdittaa korjausnopeutta täydennysympyrässä. Aktiivisena ollessaan vähentää vahinkoa miinoista."
+
+msgid "eb_regenerationKit/name"
+msgstr "Kenttäkorjaukset"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "Palauttaa vähitellen tietyn prosenttiosuuden vaunusi kestopisteistä."
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "Tallipaikka"
+
+msgid "empty_slot/name"
+msgstr "Tallipaikka"
+
+msgid "empty_slot/short_descr"
+msgstr "Taistelureservin paikka on käytetty."
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "Kasvattaa \"Äänipeilaus\" -pätevyyden efektin 1,5-kertaiseksi"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "Antaa \"Äänipeilaus\" -pätevyyden 100% tasolle koulutettuna"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "\"Äänipeilaus\" -pätevyys antaa varoituksen vihollisen telatykin tulesta ja lyhentää lamautumisen negatiivisen vaikutuksen kestoa. Jos pätevyys on koulutettu 100% tasolle, parantaa käytössä oleva direktiivi sen tehoa; jos ei, direktiivi tarjoaa vaunullesi pätevyyden 100% tasolle koulutettuna."
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "Korkeampi valppaus"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "Antaa \"Äänipeilaus\" -pätevyyden 100% tasolle tai tehostaa sen vaikutusta"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "Paranneltu tähtääminen lyhentää tähtäämisaikaa. Vaunu, joka on varustettu parannellulla tykin moottorilla ampuu tarkemmin (ja lisäksi nopeammin, sillä lataaminen on joskus nopeampaa kuin täysi tähtääminen)."
+
+msgid "enhancedAimDrives/name"
+msgstr "Paranneltu tykin moottori"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s tähtäysnopeuteen, kun paranneltu tykin moottori (mikä hyvänsä luokka), kulutuskestävä tykin moottori, tykin moottori (palkkio) tai tulenjohtojärjestelmä on asennettuna."
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2,5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2,5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "Tehostaa tykin moottorin (palkkio), parannellun tykin moottorin ja kulutuskestävän tykin moottorin tehoa taistelun ajan. Jotta voit aktivoida tämän direktiivin, sinulla tulee olla näitä varusteita asennettuna vaunuusi."
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "Tähtäimen viritys"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "Tehostaa paranneltujen tykin moottoreiden vaikutusta"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "Paranneltu tykin moottori, luokka 1"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "Paranneltu tykin moottori, luokka 2"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "Paranneltu tykin moottori, luokka 3"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "Parannellut jousialuslaatat"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "Palauttaa täysin telakoneiston kestopisteet korjausten jälkeen."
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Palauttaa täysin telakoneiston kestopisteet korjausten jälkeen"
+
+msgid "enhancedLevers/name"
+msgstr "Parannellut vivut"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "Parannellut pitkittäiset vääntösauvat"
+
+msgid "enhancedSprings/name"
+msgstr "Parannellut jouset"
+
+msgid "enhancedTorsions1t/name"
+msgstr "Parannellut vääntösauvat, luokka 1 t"
+
+msgid "enhancedTorsions3t/name"
+msgstr "Parannellut vääntösauvat, luokka 3 t"
+
+msgid "enhancedTorsions5t/name"
+msgstr "Parannellut vääntösauvat, luokka 5 t"
+
+msgid "exampleAbility/descr"
+msgstr "Testitaito visuaaliselle skriptille"
+
+msgid "exampleAbility/name"
+msgstr "Testitaito"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s moottorin tehoon ja tykkitornin kääntönopeuteen taistelun ajaksi."
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} moottorin tehoon ja tykkitornin kääntönopeuteen."
+
+msgid "excellentFuel/long_special"
+msgstr "Lisää {colorTagOpen}10%{colorTagClose} moottorin tehoon ja tornin kääntönopeuteen taistelun ajan. Aktivoituu automaattisesti taistelun alkaessa ja vaikuttaa koko taistelun ajan."
+
+msgid "excellentFuel/name"
+msgstr "Loistava polttoaine"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} moottoritehoon ja tykkitornin kääntönopeuteen"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "Palauttaa täysin telakoneiston kestopisteet korjausten jälkeen."
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "Palauttaa telakoneiston korjausten jälkeen."
+
+msgid "extraHealthReserve/long_special"
+msgstr "Parantaa vaunun kestävyyttä ja korjausnopeutta. Vähentää telakoneiston vahingoittumisen rungolle aiheuttamaa vahinkoa törmätessä. Palauttaa telakoneiston kestopisteet täysin korjausten jälkeen. Pienentää telan tuhoutumisen todennäköisyyttä vahinkoa kärsittäessä, mahdollistaa vaunun liikkeellä pysymisen niin pitkään kuin mahdollista."
+
+msgid "extraHealthReserve/name"
+msgstr "Parempi karkaisu"
+
+msgid "extraHealthReserve/short_special"
+msgstr "Parantaa vaunun kestävyyttä ja suojelee telakoneistoa"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "Parempi karkaisu, luokka 1"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "Parempi karkaisu, luokka 2"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "Parempi karkaisu, luokka 3"
+
+msgid "fireCircle/battleDescr"
+msgstr "Luo vaunusi ympärille tulikehän, joka heikentää vihollisvaunujen liikkuvuutta kyvyn vaikutusalueella ja vie jopa %(damagePerTickForInterval)s niiden kokonaiskestopisteistä sen %(timer)s s keston aikana.\n\n*Tulikehän vaikutusalue pysyy paikallaan, eikä liiku vaunusi mukana."
+
+msgid "fireCircle/descr"
+msgstr "Luo vaunusi ympärille tulikehän, joka heikentää vihollisvaunujen liikkuvuutta kyvyn vaikutusalueella ja vie jopa %(damagePerTickForInterval)s niiden kokonaiskestopisteistä sen %(timer)s s keston aikana.\n\n*Tulikehän vaikutusalue pysyy paikallaan, eikä liiku vaunusi mukana."
+
+msgid "fireCircle/longDescr"
+msgstr "Luo vaunusi ympärille tulikehän, joka heikentää vihollisvaunujen liikkuvuutta kyvyn vaikutusalueella ja vie {whiteSpanish_Open}jopa %(damagePerTickForInterval)s{whiteSpanish_Close} niiden kokonaiskestopisteistä {whiteSpanish_Open}sen %(timer)s s{whiteSpanish_Close} keston aikana.\n\n*Tulikehän vaikutusalue pysyy paikallaan, eikä liiku vaunusi mukana."
+
+msgid "fireCircle/name"
+msgstr "Tulikehä"
+
+msgid "fireCircle/shortDescr"
+msgstr "Luo vaunusi ympärille tulikehän, joka heikentää vihollisvaunujen liikkuvuutta kyvyn vaikutusalueella ja vie {whiteSpanish_Open}jopa %(damagePerTickForInterval)s{whiteSpanish_Close} niiden kokonaiskestopisteistä {whiteSpanish_Open}sen %(timer)s s{whiteSpanish_Close} keston aikana.\n\n*Tulikehän vaikutusalue pysyy paikallaan, eikä liiku vaunusi mukana."
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "Kasvattaa \"Tulentorjunta\" -pätevyyden efektin 1,5-kertaiseksi"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "Antaa \"Tulentorjunta\" -pätevyyden 100% tasolle koulutettuna"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "\"Tulentorjunta\" -pätevyys parantaa vaunusi kykyä taistella tulipaloja vastaan taistelun ajan. Kun pätevyys on koulutettu 100% tasolle, lisää käytössä oleva direktiivi sen vaikutusta; mikäli pätevyys ei vielä ole täydessä tehossa, antaa direktiivi vaunullesi 100% koulutetun pätevyyden."
+
+msgid "fireFightingBattleBooster/name"
+msgstr "Kokenut tulentorjuja"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "Antaa 100% koulutetun \"Tulentorjunta\" -pätevyyden tai kasvattaa sen vaikutusta"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "Käskee tykistön iskemään valitulle alueelle vahingoittaen kaikkia sillä olevia vaunuja."
+
+msgid "fort_aoe_artillery/name"
+msgstr "Tykistöisku"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "Käskee tykistön iskemään valitulle alueelle vahingoittaen kaikkia sillä olevia vaunuja."
+
+msgid "fort_inspire/longDescr"
+msgstr "Tarjoaa bonuksen vaunusi ja lähellä olevien liittolaisvaunujen miehistöjen päätaitoihin ja pätevyyksiin."
+
+msgid "fort_inspire/name"
+msgstr "Motivointi"
+
+msgid "fort_inspire/shortDescr"
+msgstr "Tarjoaa bonuksen vaunusi ja lähellä olevien liittolaisvaunujen miehistöjen päätaitoihin ja pätevyyksiin."
+
+msgid "fuel_system_revision_1/name"
+msgstr "Polttoainejärjestelmän uusinta (tyyppi 1)"
+
+msgid "grousers/long_special"
+msgstr "Parantaa vaunun kääntönopeutta ja säilyttää nopeutta kaiken tyylisessä maastossa kuljettaessa. Se on merkittävästi tehokkaampi pehmeässä tai melko pehmeässä maastossa. Se on tehokkaimmillaan, kun se yhdistetään \"Kytkinjarrutus\" ja \"Maastoajo\" -pätevyyksiin."
+
+msgid "grousers/name"
+msgstr "Telalapun lisäharjat"
+
+msgid "grousers/short_special"
+msgstr "Parantaa vaunun kääntönopeutta ja kiihtyvyyttä"
+
+msgid "grousers_tier1/name"
+msgstr "Telojen lisäharjat, luokka 1"
+
+msgid "grousers_tier2/name"
+msgstr "Telojen lisäharjat, luokka 2"
+
+msgid "grousers_tier3/name"
+msgstr "Telojen lisäharjat, luokka 3"
+
+msgid "gun_balancing_1/name"
+msgstr "Tykin tasapainotus (tyyppi 1)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "Sammuttaa tulipalon vaunussasi."
+
+msgid "handExtinguishers/long_special"
+msgstr "Sammuttaa tulipalon vaunussasi, kun aktivoit kulutustarvikkeen. Sopii kaikkien kansakuntien kaikkiin vaunuihin. Kulutustarvike poistetaan taistelun jälkeen, mikäli sitä käytettiin vähintään kerran."
+
+msgid "handExtinguishers/name"
+msgstr "Käsikäyttöinen palosammutin"
+
+msgid "handExtinguishers/onUse"
+msgstr "Sammuttaa tulipalon vaunussasi. Voidaan käyttää useita kertoja taistelun aikana. Kulutustarvike poistetaan taistelun jälkeen, jos sitä käytettiin vähintään kerran."
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "Sammuttaa tulipalon"
+
+msgid "healPoint/battleDescr"
+msgstr "Luo alueen vaunusi ympärille. Tällä alueella sekä pelaaja että osaston jäsenet saavat takaisin %(healPerTick)s vaunujensa kestopisteistä joka sekuntti %(duration)s s ajan."
+
+msgid "healPoint/descr"
+msgstr "Luo alueen vaunusi ympärille. Tällä alueella sekä pelaaja että osaston jäsenet saavat takaisin %(healPerTick)s vaunujensa kestopisteistä joka sekuntti %(duration)s s ajan."
+
+msgid "healPoint/longDescr"
+msgstr "Luo alueen vaunusi ympärille. Tällä alueella sekä pelaaja että osaston jäsenet {green_Open}saavat takaisin %(healPerTick)s{green_Close} vaunujensa kestopisteistä joka sekuntti {whiteSpanish_Open}%(duration)s s ajan.{whiteSpanish_Close}"
+
+msgid "healPoint/name"
+msgstr "Palautumisvyöhyke"
+
+msgid "healPoint/shortDescr"
+msgstr "Luo alueen vaunusi ympärille. Tällä alueella sekä pelaaja että osaston jäsenet {green_Open}saavat takaisin %(healPerTick)s{green_Close} vaunujensa kestopisteistä joka sekuntti {whiteSpanish_Open}%(duration)s s ajan.{whiteSpanish_Close}"
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s miehistön tehokkuuden bonukseen koko taistelun ajaksi."
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} miehistön tehokkuuden bonukseen"
+
+msgid "hotCoffee/long_special"
+msgstr "Aktivoituu automaattisesti taistelun alkaessa ja tarjoaa vaikutuksensa koko taistelun ajan. Sopii vain ranskalaisille vaunuille."
+
+msgid "hotCoffee/name"
+msgstr "Vahva kahvi"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "Soveltuu vain ranskalaisille vaunuille."
+
+msgid "hotCoffee/short_special"
+msgstr "Parantaa ranskalaisten miehistöjen suorituskykyä"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "Estää yhden polttoainetankin palon, ammustelineen räjähdyksen ja moottorin tuhoutumisen taistelussa näiden moduulien tuhoutuessa."
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "Estää yhden polttoainetankin palon, ammustelineen räjähdyksen ja moottorin tuhoutumisen taistelussa näiden moduulien tuhoutuessa."
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "Ammusteline on suojattu räjähtämiseltä"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "Ammustelineen räjähtäminen estetty"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "Moottori on suojattu"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "Moottorin tuhoutuminen estetty"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "Polttoainetankit on suojattu tulipalolta"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "Polttoainetankkien tulipalo estetty"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "Estää yhden polttoainetankin palon, ammustelineen räjähdyksen ja moottorin tuhoutumisen taistelussa näiden moduulien tuhoutuessa."
+
+msgid "improvedConfiguration/long_special"
+msgstr "Nopeuttaa korjauksia. Parantaa ammustelineen, polttoainetankkien ja moottorin kestävyyttä. Pienentää latausajan ja moottoritehon heikennyksiä näitä vastaavien moduulien vahingoittuessa. Vähentää moottorin todennäköisyyttä syttyä tuleen. Estää yhden polttoainetankin palon, ammustelineen räjähdyksen ja moottorin tuhoutumisen taistelussa näiden moduulien tuhoutuessa. On tehokkaampi yhdistettäessä \"Korjaukset\", \"Varma säilö\" ja \"Ennakoiva huolto\" -lisätaitojen ja pätevyyksien kanssa."
+
+msgid "improvedConfiguration/name"
+msgstr "Muokattu kokoonpano"
+
+msgid "improvedConfiguration/short_special"
+msgstr "Nopeuttaa korjauksia, suojelee ammustelinettä, polttoainetankkeja ja moottoria"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s korjausnopeuteen muokatun kokoonpanon (mikä hyvänsä luokka), parannellun kokoonpanon tai suojausteknologian (palkkio) ollessa asennettuna."
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "Tehostaa muokatun kokoonpanot, parannellun kokoonpanon ja suojausteknologian (palkkio) vaikutusta taistelun ajan. Ottaaksesi käyttöön ja aktivoidaksesi tämän direktiivin täytyy sinulla olla nämä varusteet asennettuna vaunuusi."
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "Taistelua edeltävä huolto"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "Tehostaa muokatun kokoonpanon vaikutusta"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "Muokattu kokoonpano, luokka 1"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "Muokattu kokoonpano, luokka 2"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "Pidentää aikaa, jonka vaunu pysyy havaittuna poistuttuaan vaunusi näköetäisyydeltä. Lyhentää aikaa, jonka pysyt vihollistesi havaitsemana. On tehokkaimmillaan yhdistettynä \"Merkitty kohde\" tai \"Kostokutsu\" -pätevyyksien kanssa."
+
+msgid "improvedRadioCommunication/name"
+msgstr "Paranneltu radiolaitteisto"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "Pidentää aikaa, jonka vihollisesi pysyvät havaittuna, ja lyhentää aikaa, jonka sinä pysyt havaittuna"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "Parantaa rungon ja tornin kääntönopeutta vaunuilla, joilla on torni. Parantaa rungon ja tykin kääntönopeutta vaunuilla, joilla on kiinteät taistelutilat. Vähentää tykin hajontaa liikkeessä, rungon sekä tornin kääntyessä sekä ammuttaessa. On tehokkaampi yhdistettäessä \"Kytkinjarrutus\" -pätevyyden kanssa."
+
+msgid "improvedRotationMechanism/name"
+msgstr "Paranneltu kääntömekanismi"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "Parantaa kääntönopeutta ja vähentää tykin hajontaa liikkessä ja tornia pyörittäessä"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "Paranneltu kääntömekanismi, luokka 1"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "Paranneltu kääntömekanismi, luokka 2"
+
+msgid "improvedSights/long_special"
+msgstr "Pienentää tähtäysympyrää parantaen tähtäyksen tai täysin tähdätyn tykin tarkkuutta. Tämän ansiosta tykilläsi on parempi mahdollisuus osua kohteeseen."
+
+msgid "improvedSights/name"
+msgstr "Paranneltu tähtäys"
+
+msgid "improvedSights/short_special"
+msgstr "Vähentää tykin hajontaa"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s tähtäysympyrän kokoon, kun paranneltu tähtääminen (mikä hyvänsä luokka), tähtäin (palkkio) tai tarkkuuden parannusjärjestelmä on asennettuna."
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "Tehostaa parannellun tähtäämisen tai tähtäin (palkkio) vaikutusta taistelun ajan. Direktiivi toimii vain, jos sinulla on sitä vastaava varuste asennettuna."
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "Kiillotettu linssi"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "Pienentää tähtäinympyrän kokoa"
+
+msgid "improvedSights_tier1/name"
+msgstr "Paranneltu tähtäys, luokka 1"
+
+msgid "improvedSights_tier2/name"
+msgstr "Paranneltu tähtäys, luokka 2"
+
+msgid "improvedSights_tier3/name"
+msgstr "Paranneltu tähtäys, luokka 3"
+
+msgid "improvedVentilation/long_special"
+msgstr "Parantaa vaunusi monia eri ominaisuuksia: näkökykyä, tulinopeutta, tähtäysaikaa, liikeominaisuuksia ynnä muuta. Tämän varusteen tarjoaman bonuksen huomaa kuitenkin parhaiten, mikäli se yhdistetään miehistöön, jolla on \"Aseveljet\" -pätevyys 100% tasolla."
+
+msgid "improvedVentilation/name"
+msgstr "Paranneltu ilmanvaihto"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s miehistön tehokkuuden bonukseen, kun mikä hyvänsä paranneltu ilmanvaihto, ilmanpoistojärjestelmä tai ilmastointi (palkkio) on asennettuna."
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2,5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2,5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "Tehostaa parannellun ilmanvaihdon (mikä hyvänsä luokka), ilmanpoistojärjestelmän tai ilmastoinnin (palkkio) vaikutusta taistelun ajan. Ottaaksesi käyttöön ja aktivoidaksesi tämän direktiivin täytyy sinulla olla nämä varusteet asennettuna vaunuusi."
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "Venttiilien puhdistus"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "Tehostaa ilmastoinnin vaikutusta"
+
+msgid "improvedVentilation_class1/name"
+msgstr "Paranneltu ilmanvaihto luokka 1"
+
+msgid "improvedVentilation_class2/name"
+msgstr "Paranneltu ilmanvaihto luokka 2"
+
+msgid "improvedVentilation_class3/name"
+msgstr "Paranneltu ilmanvaihto luokka 3"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "Paranneltu ilmanvaihto luokka 1"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "Paranneltu ilmanvaihto luokka 2"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "Paranneltu ilmanvaihto luokka 3"
+
+msgid "improved_suspension_1/name"
+msgstr "Paranneltu telakoneisto (tyyppi 1)"
+
+msgid "improved_suspension_2/name"
+msgstr "Paranneltu telakoneisto (tyyppi 2)"
+
+msgid "inspire/longDescr"
+msgstr "Parantaa oman ja tietyllä säteellä olevien liittolaisvaunujen miehistöjen suoriutumista lisäten %-bonuksen jokaisen miehistönjäsenen päätaitoon. Tämän käyttänyt pelaaja saa vahvemman vaikutuksen."
+
+msgid "inspire/name"
+msgstr "Motivointi"
+
+msgid "inspire/shortDescr"
+msgstr "Lisää bonuksen pelaajan ja liittolaisten miehistöjen päätaitoon."
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "Suurikaliiperisen tykistöammuksen lataaja"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "Suurikaliiperisen tykin lataaja"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s lamautuksen kestoaikaan\n%(crewHitChance)s miehistön suojaan loukkaantumisia vastaan"
+
+msgid "largeMedkit/descr"
+msgstr "Kaikkien loukkaantuneiden miehistön jäsenten parantaminen ja lamautuksen vaikutusten poistaminen."
+
+msgid "largeMedkit/long_special"
+msgstr "Hoitaa aktivoitaessa kaikki miehistön jäsenet ja poistaa lamautuksen vaikutukset. Passiivisena ominaisuutena suojelee miehistöä loukkaantumisilta. Tämä kulutustarvike soveltuu kaikkien kansakuntien kaikkiin vaunuihin."
+
+msgid "largeMedkit/name"
+msgstr "Suuri ensiapupakkaus"
+
+msgid "largeMedkit/onUse"
+msgstr "Kaikkien loukkaantuneiden miehistön jäsenten parantaminen. Voidaan käyttää useita kertoja taistelussa. Kulutustarvike poistetaan taistelun jälkeen, jos sitä käytettiin vähintään kerran."
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "Hoitaa kaikki loukkaantuneet miehistönjäsenet ja poistaa lamautuksen vaikutukset. Voidaan käyttää useita kertoja taistelussa. Kulutustarvike poistetaan taistelun jälkeen, jos sitä käytettiin vähintään kerran."
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "Parantaa kaikki loukkaantuneet miehistön jäsenet ja poistaa lamautuksen vaikutukset"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s moduulin korjausnopeuteen"
+
+msgid "largeRepairkit/descr"
+msgstr "Korjaa kaikki vaurioituneet moduulit."
+
+msgid "largeRepairkit/long_special"
+msgstr "Korjaa aktivoitaessa kaikki vahingoittuneet moduulit. Passiivisena vaikutuksena nopeuttaa korjaamista. Tämä kulutustarvike soveltuu kaikkien kansakuntien kaikkiin vaunuihin."
+
+msgid "largeRepairkit/name"
+msgstr "Suuri korjaussarja"
+
+msgid "largeRepairkit/onUse"
+msgstr "Korjaa kaikki vaurioituneet moduulit. Voidaan käyttää useita kertoja taistelussa. Kulutustarvike poistetaan taistelun jälkeen, jos sitä käytettiin vähintään kerran."
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "Korjaa kaikki vahingoittuneet moduulit"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "50% lisää \"Kostokutsu\" -pätevyyteen"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "Antaa kostokutsu-pätevyyden 100% tasolle koulutettuna"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "\"Kostokutsu\" -pätevyys antaa mahdollisuuden pitää viholliset näkyvissä 2 sekuntia pidempään vaunun tuhouduttua taistelussa. Kun pätevyys on koulutettu 100% tasolle, lisää käytössä oleva direktiivi sen kestoon 1 sekunnin (yhteensä 3 sekunttia). Mikäli pätevyys ei vielä ole 100% tasolla, antaa direktiivi vaunullesi 100% koulutetun taidon (tavanomaiset 2 sekunttia)."
+
+msgid "lastEffortBattleBooster/name"
+msgstr "Velvollisuus ennen muuta"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "Antaa \"Kostokutsu\" -pätevyyden 100% tasolle tai tehostaa sen vaikutusta"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "Keskikaliiperisen tykistöammuksen lataaja"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "Keskikaliiperisen tykin lataaja"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "Tulenjohtojärjestelmä T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "Tulenjohtojärjestelmä T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "Tulenjohtojärjestelmä T1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "Tulenjohtojärjestelmä T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "Tulenjohtojärjestelmä T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "Tulenjohtojärjestelmä T2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "Tulenjohtojärjestelmä T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "Tulenjohtojärjestelmä T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "Tulenjohtojärjestelmä T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "Selviytyvyyden kehityspaketti T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "Selviytyvyyden kehityspaketti T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "Selviytyvyyden kehityspaketti T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "Selviytyvyyden kehityspaketti T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "Selviytyvyyden kehityspaketti T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "Selviytyvyyden kehityspaketti T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "Selviytyvyyden kehityspaketti T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "Selviytyvyyden kehityspaketti T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "Selviytyvyyden kehityspaketti T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "Tarkkuuden parannusjärjestelmä T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "Tarkkuuden parannusjärjestelmä T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "Tarkkuuden parannusjärjestelmä T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "Tarkkuuden parannusjärjestelmä T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "Tarkkuuden parannusjärjestelmä T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "Tarkkuuden parannusjärjestelmä T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "Tarkkuuden parannusjärjestelmä T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "Tarkkuuden parannusjärjestelmä T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "Tarkkuuden parannusjärjestelmä T3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "Liikkuvuuden parannusjärjestelmä T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "Liikkuvuuden parannusjärjestelmä T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "Liikkuvuuden parannusjärjestelmä T1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "Liikkuvuuden parannusjärjestelmä T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "Liikkuvuuden parannusjärjestelmä T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "Liikkuvuuden parannusjärjestelmä T2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "Liikkuvuuden parannusjärjestelmä T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "Liikkuvuuden parannusjärjestelmä T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "Liikkuvuuden parannusjärjestelmä T3"
+
+msgid "nitro/battleDescr"
+msgstr "Lisää väliaikaisesti vaunusi moottoritehoa %(enginePowerFactor)s ja sen huippunopeutta %(maxSpeedFactor)s-kertaiseksi %(consumeSeconds)s s ajaksi."
+
+msgid "nitro/descr"
+msgstr "Lisää väliaikaisesti vaunusi moottoritehoa %(enginePowerFactor)s ja sen huippunopeutta %(maxSpeedFactor)s-kertaiseksi %(consumeSeconds)s s ajaksi."
+
+msgid "nitro/long_special"
+msgstr "Lisää väliaikaisesti vaunusi moottoritehoa {green_Open}%(enginePowerFactor)s{green_Close} ja sen huippunopeutta {green_Open}%(maxSpeedFactor)s-kertaiseksi{green_Close} {whiteSpanish_Open}%(consumeSeconds)s s ajaksi.{whiteSpanish_Close}"
+
+msgid "nitro/name"
+msgstr "Turboahdin"
+
+msgid "nitro/short_special"
+msgstr "Lisää väliaikaisesti vaunusi moottoritehoa {green_Open}%(enginePowerFactor)s{green_Close} ja sen huippunopeutta {green_Open}%(maxSpeedFactor)s-kertaiseksi{green_Close} {whiteSpanish_Open}%(consumeSeconds)s s ajaksi.{whiteSpanish_Close}"
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "Vaihtoehtoinen kokoonpano: Avustava varustus"
+
+msgid "passive_engineering/longDescr"
+msgstr "Tarjoaa bonuksen valtaus ja täydennysnopeuteen. Kiihdyttää täydennysnopeutta, vähentäen aikaa, joka kuluu täydennysympyrän virkistymiseen ja avainalueiden valtaamiseen tai takaisinvaltaamiseen."
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "Et voi ottaa käyttöön tätä taistelureserviä telatykeille."
+
+msgid "passive_engineering/name"
+msgstr "Huolto"
+
+msgid "passive_engineering/shortDescr"
+msgstr "Tarjoaa bonuksen valtausnopeuteen, valtauksen estämiseen ja täydennykseen."
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "Ei sovi telatykeille"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "Kolminkertaistaa \"Varma säilö\" -pätevyyden vaikutuksen"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "Antaa \"Varma säilö\" -pätevyyden 100% tasolle koulutettuna"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "\"Varma säilö\" -pätevyys parantaa ammustelineen kestävyyttä taistelun ajan. Kun pätevyys on koulutettu 100% tasolle, lisää käytössä oleva direktiivi sen vaikutusta; mikäli pätevyys ei vielä ole täydessä tehossa, antaa direktiivi vaunullesi 100% koulutetun taidon."
+
+msgid "pedantBattleBooster/name"
+msgstr "Ammusten järjestelijä"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "Antaa \"Varma säilö\" -pätevyyden 100% tasolle tai tehostaa sen vaikutusta"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "{colorTagOpen}%(delay)d s{colorTagClose} kuluttua valitulle alueelle isketään tykistöllä. Kaikki {colorTagOpen}%(radius)d m{colorTagClose} säteellä vahingoittuneet kohteet saavat {colorTagOpen}%(damage)d{colorTagClose} pistettä vahinkoa ja lamautuvat {colorTagOpen}%(stunDuration)d s{colorTagClose} ajaksi."
+
+msgid "poi_artillery_aoe/name"
+msgstr "Tykistöisku"
+
+msgid "poi_radar/descr"
+msgstr "Aktivoitaessa kaikki vihollisvaunut pysyvät havaittuina {colorTagOpen}%(duration)d s{colorTagClose} ajan."
+
+msgid "poi_radar/name"
+msgstr "Divisioonan tutka"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "Tuplaa \"Käytännöllisyys\" -pätevyyden vaikutuksen"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "Antaa \"Käytännöllisyys\" -pätevyyden 100% tasolle koulutettuna"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "\"Käytännöllisys\" -pätevyys lyhentää kulutustarvikkeen jäähtymisaikaa taistelun aikana. Kun pätevyys on koulutettu 100% tasolle, lisää käytössä oleva direktiivi sen vaikutusta; mikäli pätevyys ei vielä ole täydessä tehossa, antaa direktiivi vaunullesi 100% koulutetun pätevyyden."
+
+msgid "practicalityBattleBooster/name"
+msgstr "Perinpohjainen valmistautuminen"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "Antaa 100% koulutetun \"Käytännöllisyys\" -pätevyyden tai kasvattaa sen vaikutusta"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s moottorin tehoon ja tykkitornin kääntönopeuteen taistelun ajaksi."
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5%{colorTagClose} moottorin tehoon ja tykkitornin kääntönopeuteen."
+
+msgid "qualityFuel/long_special"
+msgstr "Lisää {colorTagOpen}5%{colorTagClose} moottorin tehoon ja tornin kääntönopeuteen taistelun ajan. Aktivoituu automaattisesti taistelun alkaessa ja vaikuttaa koko taistelun ajan."
+
+msgid "qualityFuel/name"
+msgstr "Laadukas polttoaine"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "{colorTagOpen}+5%{colorTagClose} moottoritehoon ja tykkitornin kääntönopeuteen"
+
+msgid "radar/descr"
+msgstr "Havaitsee vihollisvaunut ja sotasaaliit pienoiskartalta."
+
+msgid "radar/name"
+msgstr "Radiopeilaus"
+
+msgid "rammer/long_special"
+msgstr "Tulinopeus on tärkein yksittäinen vaunusi ominaisuus. Niinpä tämä varuste on sangen hyödyllinen taistelussa ja tulisi asentaa vaunuihisi. Huomaa kuitenkin, ettei lataajia voida asentaa vaunuihin, joissa on automaattinen latausjärjestelmä."
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s latausaikaan, kun minkä hyvänsä tykkityypin ja kaliiberin lataaja, kekseliäs latausjärjestelmä tai lataaja (palkkio) on asennettuna."
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2,5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2,5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "Tehostaa lataajan (mikä hyvänsä tykkityyppi ja kaliiperi), lataajan (palkkio) tai innovatiivisen latausjärjestelmän vaikutusta taistelun ajan. Ottaaksesi käyttöön ja aktivoidaksesi tämän direktiivin täytyy sinulla olla nämä varusteet asennettuna vaunuusi."
+
+msgid "rammerBattleBooster/name"
+msgstr "Järjestelmällinen ammusteline"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "Tehostaa lataajan vaikutusta"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "Tuplaa \"Merkitty kohde\" -pätevyyden vaikutuksen"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "Antaa \"Merkitty kohde\" -pätevyyden 100% tasolle koulutettuna"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "\"Merkitty kohde\" -pätevyys pitää kohteeksi lukitun vihollisvaunun näkyvissä kaksi sekuntia pidempään taistelun ajan. Kun pätevyys on koulutettu 100% tasolle, lisää käytössä oleva direktiivi sen vaikutusta. Mikäli pätevyys ei vielä ole täydessä tehossa, antaa direktiivi vaunullesi 100% koulutetun taidon."
+
+msgid "rancorousBattleBooster/name"
+msgstr "Kohteeseen keskittyminen"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "Antaa \"Merkitty kohde\" -pätevyyden 100% tasolle tai tehostaa sen vaikutusta"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s miehistön tehokkuuden bonukseen koko taistelun ajaksi."
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} miehistön tehokkuuden bonukseen"
+
+msgid "ration/long_special"
+msgstr "Aktivoituu automaattisesti taistelun alkaessa ja tarjoaa vaikutuksensa koko taistelun ajan. Sopii vain neuvostoliittolaisille vaunuille."
+
+msgid "ration/name"
+msgstr "Ylimääräinen muonapakkaus"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "Soveltuu vain neuvostoliittolaisille vaunuille."
+
+msgid "ration/short_special"
+msgstr "Parantaa neuvostoliittolaisten miehistöjen suorituskykyä"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s miehistön tehokkuuden bonukseen koko taistelun ajaksi."
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} miehistön tehokkuuden bonukseen"
+
+msgid "ration_china/long_special"
+msgstr "Aktivoituu automaattisesti taistelun alkaessa ja tarjoaa vaikutuksensa koko taistelun ajan. Sopii vain kiinalaisille vaunuille."
+
+msgid "ration_china/name"
+msgstr "Paranneltu muonapakkaus"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "Soveltuu vain kiinalaisille vaunuille."
+
+msgid "ration_china/short_special"
+msgstr "Parantaa kiinalaisten miehistöjen suorituskykyä"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s miehistön tehokkuuden bonukseen koko taistelun ajaksi."
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} miehistön tehokkuuden bonukseen"
+
+msgid "ration_czech/long_special"
+msgstr "Aktivoituu automaattisesti taistelun alkaessa ja tarjoaa vaikutuksensa koko taistelun ajan. Sopii vain tšekkoslovakialaisille vaunuille."
+
+msgid "ration_czech/name"
+msgstr "Buchty"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "Soveltuu vain tšekkoslovakialaisille vaunuille."
+
+msgid "ration_czech/short_special"
+msgstr "Parantaa tšekkoslovakialaisten miehistöjen suorituskykyä"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s miehistön tehokkuuden bonukseen koko taistelun ajaksi."
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} miehistön tehokkuuden bonukseen"
+
+msgid "ration_italy/long_special"
+msgstr "Aktivoituu automaattisesti taistelun alkaessa ja tarjoaa vaikutuksensa koko taistelun ajan. Sopii vain italialaisille vaunuille."
+
+msgid "ration_italy/name"
+msgstr "Spagettia lihakastikkeella"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "Soveltuu vain italialaisille vaunuille."
+
+msgid "ration_italy/short_special"
+msgstr "Parantaa italialaisten miehistöjen suorituskykyä"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s miehistön tehokkuuden bonukseen koko taistelun ajaksi."
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} miehistön tehokkuuden bonukseen"
+
+msgid "ration_japan/long_special"
+msgstr "Aktivoituu automaattisesti taistelun alkaessa ja tarjoaa vaikutuksensa koko taistelun ajan. Sopii vain japanilaisille vaunuille."
+
+msgid "ration_japan/name"
+msgstr "Onigiri"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "Soveltuu vain japanilaisille vaunuille."
+
+msgid "ration_japan/short_special"
+msgstr "Parantaa japanilaisten miehistöjen suorituskykyä"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s miehistön tehokkuuden bonukseen koko taistelun ajaksi."
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} miehistön tehokkuuden bonukseen"
+
+msgid "ration_poland/long_special"
+msgstr "Aktivoituu automaattisesti taistelun alkaessa ja tarjoaa vaikutuksensa koko taistelun ajan. Sopii vain puolalaisille vaunuille."
+
+msgid "ration_poland/name"
+msgstr "Leipää läskillä"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "Soveltuu vain puolalaisille vaunuille."
+
+msgid "ration_poland/short_special"
+msgstr "Parantaa puolalaisten miehistöjen suorituskykyä"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s miehistön tehokkuuden bonukseen koko taistelun ajaksi."
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} miehistön tehokkuuden bonukseen"
+
+msgid "ration_sweden/long_special"
+msgstr "Aktivoituu automaattisesti taistelun alkaessa ja tarjoaa vaikutuksensa koko taistelun ajan. Sopii vain ruotsalaisille vaunuille."
+
+msgid "ration_sweden/name"
+msgstr "Kahvi kanelipullalla"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "Soveltuu vain ruotsalaisille vaunuille."
+
+msgid "ration_sweden/short_special"
+msgstr "Parantaa ruotsalaisten miehistöjen suorituskykyä"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s miehistön tehokkuuden bonukseen koko taistelun ajaksi."
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} miehistön tehokkuuden bonukseen"
+
+msgid "ration_uk/long_special"
+msgstr "Aktivoituu automaattisesti taistelun alkaessa ja tarjoaa vaikutuksensa koko taistelun ajan. Sopii vain britti-vaunuille."
+
+msgid "ration_uk/name"
+msgstr "Vanukas ja tee"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "Soveltuu vain brittivaunuille."
+
+msgid "ration_uk/short_special"
+msgstr "Parantaa britti-miehistöjen suorituskykyä"
+
+msgid "recon/longDescr"
+msgstr "Käskee tiedustelukoneen lentämään linjassa laajan alueen ylitse. Vaunut lentokoneen näköetäisyydellä tulevat näkyviin ja pysyvät näkyvissä tietyn ajan. Havaitsee miinakentät."
+
+msgid "recon/name"
+msgstr "Tiedustelulento"
+
+msgid "recon/shortDescr"
+msgstr "Havaitsee vihollisvaunut ja miinakentät."
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} moottoritehoon, mutta vahingoittaa moottoria."
+
+msgid "removedRpmLimiter/long_special"
+msgstr "Lisää moottorin tehoa {colorTagOpen}10%{colorTagClose}, mutta päällä ollessaan kuluttaa vähitellen moottorin kestopisteitä. Voidaan kytkeä päälle ja pois päältä useita kertoja taistelun aikana. Soveltuu vain kiinalaisille ja neuvostoliittolaisille vaunuille."
+
+msgid "removedRpmLimiter/name"
+msgstr "Poistettu nopeuden rajoitin"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s moottoritehoon, mutta vahingoittaa moottoria. Voidaan käyttää useita kertoja taistelussa."
+
+msgid "removedRpmLimiter/restriction"
+msgstr "Soveltuu vain neuvostoliittolaisille ja kiinalaisille vaunuille."
+
+msgid "removedRpmLimiter/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} moottoritehoon, mutta vahingoittaa moottoria"
+
+msgid "repairpoint/battleDescr"
+msgstr "Luo väliaikaisen staattisen alueen, joka korjaa kaikki vahingoittuneet moduulit, poistaa KAIKKI negatiiviset efektit ja palauttaa %(healPerTick)s vaunusi kestopisteistä per sekuntti %(timer)s s ajan.\n\n*Myös liittolaisvaunut saavat alueella kestopisteitään takaisin."
+
+msgid "repairpoint/descr"
+msgstr "Luo väliaikaisen staattisen alueen, joka korjaa kaikki vahingoittuneet moduulit, poistaa KAIKKI negatiiviset efektit ja palauttaa %(healPerTick)s vaunusi kestopisteistä per sekuntti %(timer)s s ajan.\n\n*Myös liittolaisvaunut saavat alueella kestopisteitään takaisin."
+
+msgid "repairpoint/long_special"
+msgstr "Luo väliaikaisen staattisen alueen, joka korjaa kaikki vahingoittuneet moduulit, poistaa KAIKKI negatiiviset efektit ja {green_Open}palauttaa %(healPerTick)s{green_Close} vaunusi kestopisteistä {whiteSpanish_Open}per sekuntti %(timer)s s ajan{whiteSpanish_Close}.\n\n*Myös liittolaisvaunut saavat alueella kestopisteitään takaisin."
+
+msgid "repairpoint/name"
+msgstr "Korjausvyöhyke"
+
+msgid "repairpoint/short_special"
+msgstr "Luo väliaikaisen staattisen alueen, joka korjaa kaikki vahingoittuneet moduulit, poistaa KAIKKI negatiiviset efektit ja {green_Open}palauttaa %(healPerTick)s{green_Close} vaunusi kestopisteistä {whiteSpanish_Open}per sekuntti %(timer)s s ajan{whiteSpanish_Close}.\n\n*Myös liittolaisvaunut saavat alueella kestopisteitään takaisin."
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "Piipuun rihlauksen puhdistus (tyyppi 1)"
+
+msgid "roleSlot/name"
+msgstr "Toisen varustepaikan kategoria"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "Passiivinen turvallisuusjärjestelmä"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "Passiivinen\nturvallisuusjärjestelmä"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "Ammustelineen uudelleensuunnittelu"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "Ammustelineen\nuudelleensuunnittelu"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "Korjattavat telat"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "Korjattavat\ntelat"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "Moottoritilan säätö"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "Moottoritilan\nsäätö"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "Vahvistettu telakoneisto"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "Vahvistettu\ntelakoneisto"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "Keveä telakoneisto"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "Keveä\ntelakoneisto"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "Tähtäysmekanismin viritys"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "Tähtäysmekanismin\nviritys"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "Tähtäyspisteen säätö"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "Tähtäyspisteen\nsäätö"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "Hylsynpoistajan viritys"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "Hylsynpoistajan\nviritys"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "Oikean kulman periskooppi"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "Oikean kulman\nperiskooppi"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "Latausmekanismin viritys"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "Latausmekanismin\nviritys"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "Tähtäysmekanismin viritys"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "Tähtäysmekanismin\nviritys"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "Voiman ulosoton viritys"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "Voiman ulosoton\nviritys"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "Sähköinen tähtäimen moottori"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "Sähköinen\ntähtäimen moottori"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "Uusi tähtäimen ratasto"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "Uusi\ntähtäimen ratasto"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "Suujarrun säätö"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "Suujarrun\nsäätö"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "Yleinen kevennys"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "Yleinen\nkevennys"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "Yleinen kestävyyden parannus"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "Yleinen kestävyyden\nparannus"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "Mattamaali"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "Matta-\nmaali"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "Ylimääräinen peruutusvaihde"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "Ylimääräinen\nperuutusvaihde"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "Yläpuolisen nokka-akselin moottori"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "Yläpuolisen nokka-akselin\nmoottori"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "Paranneltu tykin lataaja"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "Paranneltu\ntykin lataaja"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "Ylimääräinen äänenvaimennus"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "Ylimääräinen\näänenvaimennus"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "Pehmustuksen poisto"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "Pehmustuksen\npoisto"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "Ylimääräinen turvallisuusjärjestelmä"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "Ylimääräinen\nturvallisuusjärjestelmä"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "Kevyet kiinnityspisteet"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "Kevyet\nkiinnityspisteet"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "Voimanlähteen uudelleenkaapelointi (1 vaihtoehto)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "Voimanlähteen\nuudelleenkaapelointi (1 vaihtoehto)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "Voimanlähteen uudelleenkaapelointi (2 vaihtoehto)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "Voimanlähteen\nuudelleenkaapelointi (2 vaihtoehto)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "Vahvistettu alusta"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "Vahvistettu\nalusta"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "Keveä alusta"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "Keveä\nalusta"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "Painopiste liikkuvuudessa"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "Painopiste\nliikkuvuudessa"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "Painopiste tulivoimassa"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "Painopiste\ntulivoimassa"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "Raskas tykki"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "Raskas\ntykki"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "Keveä tykki"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "Keveä\ntykki"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "Voimantuoton viritys (1 vaihtoehto)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "Voimantuoton\nviritys (1 vaihtoehto)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "Voimantuoton viritys (2 vaihtoehto)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "Voimantuoton\nviritys (2 vaihtoehto)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "Vahvistettu runko"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "Vahvistettu\nrunko"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "Keveä runko"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "Keveä\nrunko"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Heijastamaton optiikoiden pinnoitus"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Heijastamaton\noptiikoiden pinnoitus"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Ulkoinen näköjärjestelmä"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Ulkoinen\nnäköjärjestelmä"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Panoraamaperiskooppi"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Panoraama\nperiskooppi"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Kapeakulmainen tarkkailulaite"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Kapeakulmainen\ntarkkailulaite"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "Vahvistettu rakenne"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "Vahvistettu\nrakenne"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "Tornikammion laajennus"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "Tornikammion\nlaajennus"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "Tiedusteluvarusteet"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "Tiedustelu-\nvarusteet"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "Rynnäkkövarusteet"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "Rynnäkkö-\nvarusteet"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "Edistynyt kestävyyden vahvistus"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "Edistynyt kestävyyden\nvahvistus"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "Kehittynyt tähtäimien parannus"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "Kehittynyt tähtäimien\nparannus"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "Ylimääräiset tarkkailulaitteet"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "Ylimääräiset\ntarkkailulaitteet"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "Vahvistetut nivelet"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "Vahvistetut\nnivelet"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "Latausmekanismin viritys"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "Latausmekanismin\nviritys"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "Tähtäysmekanismin viritys"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "Tähtäysmekanismin\nviritys"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "Voiman ulosoton viritys"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "Voiman ulosoton\nviritys"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "Sähköinen tähtäimen moottori"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "Sähköinen\ntähtäimen moottori"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "Suujarrun säätö"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "Suujarrun\nsäätö"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "Uusi tähtäimen ratasto"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "Uusi\ntähtäimen ratasto"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "Syöttöjärjestelmän viritys"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "Syöttöjärjestelmän\nviritys"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "Näkökentän viritys"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "Näkökentän\nviritys"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "Moduulien kestävyyden parannus"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "Moduulien kestävyyden\nparannus"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "Kevytseoksiset kiinnityspisteet"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "Kevytseoksiset\nkiinnityspisteet"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "Suujarrun säätö"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "Suujarrun\nsäätö"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "Uusi tähtäimen ratasto"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "Uusi\ntähtäimen ratasto"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "Raskaan sarjan nopeusmittari"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "Raskaan sarjan\nnopeusmittari"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "Herkät optiikat"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "Herkät\noptiikat"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "Vahvistetut kantotelat"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "Vahvistetut\nkantotelat"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "Keveät kantotelat"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "Keveät\nkantotelat"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "Telakoneiston säätö"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "Telakoneiston\nsäätö"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "Moottorin säätö"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "Moottorin\nsäätö"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "\"Hunter nopeus\" -sarja"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "\"Hunter nopeus\"\n-sarja"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "\"Hunter naamiointi\" -sarja"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "\"Hunter naamiointi\"\n-sarja"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "Hydrauliikan viritys (1 vaihtoehto)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "Hydrauliikan\nviritys (1 vaihtoehto)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "Hydrauliikan viritys (2 vaihtoehto)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "Hydrauliikan\nviritys (2 vaihtoehto)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "Latausmekanismin viritys"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "Latausmekanismin\nviritys"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "Tähtäysmekanismin viritys"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "Tähtäysmekanismin\nviritys"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "Selviytymiskyvyn parannus"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "Selviytymiskyvyn\nparannus"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "Painon kevennys"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "Painon\nkevennys"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "Joka maaston telakoneisto"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "Joka maaston\ntelakoneisto"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "Keveä telakoneisto"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "Keveä\ntelakoneisto"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "Tähtäyspisteen säätö"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "Tähtäyspisteen\nsäätö"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "Tähtäysmekanismin viritys"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "Tähtäysmekanismin\nviritys"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "Äänieristys"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "Ääni-\neristys"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "Periskoopin sähkömoottori"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "Periskoopin\nsähkömoottori"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "Venttiileiden viritys (1 vaihtoehto)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "Venttiileiden viritys\n(1 vaihtoehto)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "Venttiileiden viritys (2 vaihtoehto)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "Venttiileiden viritys\n(2 vaihtoehto)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "Latausmekanismin viritys"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "Latausmekanismin\nviritys"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "Tähtäysmekanismin viritys"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "Tähtäysmekanismin\nviritys"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "Vahvistettu sirpaloitumissuojaus"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "Vahvistettu\nsirpaloitumissuojaus"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "Keveä sirpaloitumissuojaus"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "Keveä\nsirpaloitumissuojaus"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "Moduulien kestävyyden parannus"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "Moduulien kestävyyden\nparannus"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "Kevytseoksiset kiinnityspisteet"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "Kevytseoksiset\nkiinnityspisteet"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "Tukivarren viritys"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "Tukivarren\nviritys"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "Paranneltu tähtäin"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "Paranneltu\ntähtäin"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "Turboahtimen viritys"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "Turboahtimen\nviritys"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "Heijastamaton ajovalojen pinnoitus"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "Heijastamaton\najovalojen pinnoitus"
+
+msgid "selfBuff/battleDescr"
+msgstr "Pienentää tykin hajontaa ja tähtäysaikaa %(gunAimingTime)s ja parantaa tykin vakautta ja tulinopeutta %(duration)s ajan.\n\n*Ei vaikuta aikaan ammuksen ampumisen ja seuraavan ammuksen lataamisen lippaaseen tai tykkiin välillä olevaa aikaa."
+
+msgid "selfBuff/descr"
+msgstr "Pienentää tykin hajontaa ja tähtäysaikaa %(gunAimingTime)s ja parantaa tykin vakautta ja tulinopeutta %(duration)s ajan.\n\n*Ei vaikuta aikaan ammuksen ampumisen ja seuraavan ammuksen lataamisen lippaaseen tai tykkiin välillä olevaa aikaa."
+
+msgid "selfBuff/longDescr"
+msgstr "Pienentää tykin hajontaa ja tähtäysaikaa {green_Open}%(gunAimingTime)s{green_Close} ja parantaa tykin vakautta ja tulinopeutta {whiteSpanish_Open}%(duration)s ajan.{whiteSpanish_Close}\n\n*Ei vaikuta aikaan ammuksen ampumisen ja seuraavan ammuksen lataamisen lippaaseen tai tykkiin välillä olevaa aikaa."
+
+msgid "selfBuff/name"
+msgstr "Kohteen seuraaminen"
+
+msgid "selfBuff/shortDescr"
+msgstr "Pienentää tykin hajontaa ja tähtäysaikaa {green_Open}%(gunAimingTime)s{green_Close} ja parantaa tykin vakautta ja tulinopeutta {whiteSpanish_Open}%(duration)s ajan.{whiteSpanish_Close}\n\n*Ei vaikuta aikaan ammuksen ampumisen ja seuraavan ammuksen lataamisen lippaaseen tai tykkiin välillä olevaa aikaa."
+
+msgid "shells_consumables_switch/name"
+msgstr "Vaihtoehtoinen kokoonpano: Oleellinen varustus"
+
+msgid "shotPassion/battleDescr"
+msgstr "Heikentää tykin moottorisi ja vakaajasi tehokkuutta %(gunAimingTime)s %(duration)s s ajan, mutta jokainen läpäisevä osumasi kasvattaa aiheuttamaasi vahinkoa %(damageIncreasePerShot)s. Kasautuu korkeintaan viisi kertaa. Osumat, jotka eivät aiheuta vahinkoa, ja ohilaukaukset nollaavat vahinkobonuksen.\n\n*Sähköpurkauksen osumat lasketaan myös vahinkobonuksesi kasautumiseen."
+
+msgid "shotPassion/descr"
+msgstr "Heikentää tykin moottorisi ja vakaajasi tehokkuutta %(gunAimingTime)s %(duration)s s ajan, mutta jokainen läpäisevä osumasi kasvattaa aiheuttamaasi vahinkoa %(damageIncreasePerShot)s. Kasautuu korkeintaan viisi kertaa. Osumat, jotka eivät aiheuta vahinkoa, ja ohilaukaukset nollaavat vahinkobonuksen.\n\n*Sähköpurkauksen osumat lasketaan myös vahinkobonuksesi kasautumiseen."
+
+msgid "shotPassion/longDescr"
+msgstr "Heikentää tykin moottorisi ja vakaajasi tehokkuutta {red_Open}%(gunAimingTime)s{red_Close} {whiteSpanish_Open}%(duration)s s ajan{whiteSpanish_Close}, mutta jokainen läpäisevä osumasi kasvattaa aiheuttamaasi vahinkoa {green_Open}%(damageIncreasePerShot)s.{green_Close} Kasautuu {whiteSpanish_Open}korkeintaan viisi kertaa{whiteSpanish_Close}. Osumat, jotka eivät aiheuta vahinkoa, ja ohilaukaukset nollaavat vahinkobonuksen.\n\n*Sähköpurkauksen osumat lasketaan myös vahinkobonuksesi kasautumiseen."
+
+msgid "shotPassion/name"
+msgstr "Kiihtyvä raivo"
+
+msgid "shotPassion/shortDescr"
+msgstr "Heikentää tykin moottorisi ja vakaajasi tehokkuutta {red_Open}%(gunAimingTime)s{red_Close} {whiteSpanish_Open}%(duration)s s ajan{whiteSpanish_Close}, mutta jokainen läpäisevä osumasi kasvattaa aiheuttamaasi vahinkoa {green_Open}%(damageIncreasePerShot)s.{green_Close} Kasautuu {whiteSpanish_Open}korkeintaan viisi kertaa{whiteSpanish_Close}. Osumat, jotka eivät aiheuta vahinkoa, ja ohilaukaukset nollaavat vahinkobonuksen.\n\n*Sähköpurkauksen osumat lasketaan myös vahinkobonuksesi kasautumiseen."
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "Kuudes aisti aktivoituu 1 s aikaisemmin"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "Kuudes aisti -ominaisuus antaa komentajalle kyvyn tunnistaa, onko vaunu vihollisen havaitsema. Aktivoituu 3 s sen jälkeen, kun vaunusi on havaittu."
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "\"Kuudes aisti\" -pätevyys antaa komentajalle kyvyn määrittää, onko vaunu vihollisen havaitsema taistelun aikana. Käyttöön otettu direktiivi tehostaa sen vaikutusta."
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "Äärimmäinen keskittyminen"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "Parantaa komentajan Kuudes aisti -ominaisuuden tehoa"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "Kaikkien loukkaantuneiden miehistön jäsenten parantaminen ja lamautuksen vaikutusten poistaminen."
+
+msgid "smallMedkit/long_special"
+msgstr "Parantaa aktivoitaessa kaikki loukkaantuneet miehistön jäsenet ja poistaa lamautuksen vaikutuksen. Sopii kaikkien kansakuntien kaikille vaunuille. Kulutustarvike poistetaan taistelun jälkeen, mikäli se aktivoitiin vähintään kerran."
+
+msgid "smallMedkit/name"
+msgstr "Pieni ensiapupakkaus"
+
+msgid "smallMedkit/onUse"
+msgstr "Kaikkien loukkaantuneiden miehistön jäsenten parantaminen ja lamautuksen vaikutusten poistaminen."
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "Kaikkien loukkaantuneiden miehistön jäsenten parantaminen ja lamautuksen vaikutusten poistaminen."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "Parantaa kaikki loukkaantuneet miehistön jäsenet ja poistaa lamautuksen vaikutukset."
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "Korjaa kaikki vaurioituneet moduulit."
+
+msgid "smallRepairkit/long_special"
+msgstr "Korjaa aktivoitaessa kaikki vaurioituneet moduulit. Sopii kaikkien kansakuntien kaikille vaunuille. Kulutustarvike poistetaan taistelun jälkeen, mikäli se aktivoitiin vähintään kerran."
+
+msgid "smallRepairkit/name"
+msgstr "Pieni korjaussarja"
+
+msgid "smallRepairkit/onUse"
+msgstr "Korjaa kaikki vaurioituneet moduulit. Sopii kaikkien kansakuntien kaikille vaunuille. Kulutustarvike poistetaan taistelun jälkeen, mikäli se aktivoitiin vähintään kerran."
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "Korjaa kaikki vahingoittuneet moduulit."
+
+msgid "smoke/longDescr"
+msgstr "Luo savuverhon, joka kätkee kaikki vaunut savun sisällä ja takana. Savun sisällä olevien vihollisvaunujen näkökyky ja miehistön suorituskyky ovat heikompia."
+
+msgid "smoke/name"
+msgstr "Savuverho"
+
+msgid "smoke/shortDescr"
+msgstr "Savu kätkee kaikki vaunut sisäänsä/taakseen. Sisällä olevat vaunut näkevät ja suoriutuvat heikommin."
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "Tuplaa \"Pehmeä ajo\" -pätevyyden vaikutuksen"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "Antaa \"Pehmeä ajo\" -pätevyyden 100% tasolle koulutettuna"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "\"Pehmeä ajo\" -pätevyys parantaa tarkkuutta liikkeestä ammuttaessa taistelun ajan. Kun pätevyys on koulutettu 100% tasolle, tehostaa käytössä oleva direktiivi sen vaikutusta; mikäli pätevyys ei vielä ole täydessä tehossa, antaa direktiivi vaunullesi 100% koulutetun pätevyyden."
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "Vaihdelaatikon salat"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "Antaa \"Pehmeä ajo\" -pätevyyden 100% tasolle tai tehostaa sen vaikutusta"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "Tupaa \"Vakaa tykkitorni\" -pätevyyden vaikutuksen"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "Antaa \"Vakaa tykkitorni\" -pätevyyden 100% tasolle koulutettuna"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "\"Vakaa tykkitorni\" -pätevyys parantaa tarkkuutta tornin liikkuessa taistelun aikana. Kun pätevyys on koulutettu 100% tasolle, lisää käytössä oleva direktiivi sen vaikutusta; mikäli pätevyys ei vielä ole täydessä tehossa, antaa direktiivi vaunullesi 100% koulutetun pätevyyden."
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "Vakaa käsi"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "Antaa \"Vakaa tykkitorni\" -pätevyyden 100% tasolle tai tehostaa sen vaikutusta"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "Asettaa liikkuvan miinan, joka jahkaa lähintä vihollista korkeintaan %(botLifeTime)s s ajan ja aiheuttaa räjähtäessään 400-600 pistettä vahinkoa pienelle etäisyydelle.\n\n*Viholliset voivat tuhota Tulipallosi ampumalla sitä tai törmäämällä siihen. Tulipallo aiheuttaa ylimääräistä törmäysvahinkoa saavuttaessaan kohteensa."
+
+msgid "spawn_kamikaze/descr"
+msgstr "Asettaa liikkuvan miinan, joka jahkaa lähintä vihollista korkeintaan %(botLifeTime)s s ajan ja aiheuttaa räjähtäessään 400-600 pistettä vahinkoa pienelle etäisyydelle.\n\n*Viholliset voivat tuhota Tulipallosi ampumalla sitä tai törmäämällä siihen. Tulipallo aiheuttaa ylimääräistä törmäysvahinkoa saavuttaessaan kohteensa."
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "Asettaa liikkuvan miinan, joka jahkaa lähintä vihollista korkeintaan {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close} ajan ja aiheuttaa räjähtäessään {whiteSpanish_Open}400-600 pistettä vahinkoa{whiteSpanish_Close} pienelle etäisyydelle.\n\n*Viholliset voivat tuhota Tulipallosi ampumalla sitä tai törmäämällä siihen. Tulipallo aiheuttaa ylimääräistä törmäysvahinkoa saavuttaessaan kohteensa."
+
+msgid "spawn_kamikaze/name"
+msgstr "Tulipallo"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "Asettaa liikkuvan miinan, joka jahkaa lähintä vihollista korkeintaan {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close} ajan ja aiheuttaa räjähtäessään {whiteSpanish_Open}400-600 pistettä vahinkoa{whiteSpanish_Close} pienelle etäisyydelle.\n\n*Viholliset voivat tuhota Tulipallosi ampumalla sitä tai törmäämällä siihen. Tulipallo aiheuttaa ylimääräistä törmäysvahinkoa saavuttaessaan kohteensa."
+
+msgid "stealthRadar/descr"
+msgstr "Tarjoaa bonuksen naamioitumiseen ja näkökykyyn. Heikentää vihollisvaunujen naamioitumista."
+
+msgid "stealthRadar/long_descr"
+msgstr "Parantaa vaunusi naamioitumiskykyä %(activationDelay)s s kuluttua sen pysähtymisestä ja heikentää vihollisvaunujen naamioitumiskykyä. Tarjoaa passiivisen bonuksen näkökykyyn ja havaitsee vihollisen miinat. Ei toimi vaunun liikkuessa."
+
+msgid "stealthRadar/name"
+msgstr "Vartija"
+
+msgid "stealthRadar/short_descr"
+msgstr "Tarjoaa bonuksen naamioitumiseen ja näkökykyyn. Heikentää vihollisvaunujen naamioitumista."
+
+msgid "stereoscope/battleDescr"
+msgstr "Kasvattaa paikallaan olevan vaunun näköetäisyyttä 3 sekunnin kuluttua sen pysähtymisestä (445 m asti)"
+
+msgid "stereoscope/long_special"
+msgstr "Hyvä näkökyky antaa kovan edun vaunuille taistelussa. Tämän tyyppinen varuste on erityisen hyödyllinen matalaprofiilisille PST-vaunuille, joilla on tarkat tykit. Se aktivoituu 3 sekunnin kuluttua vaunun pysähtymisestä."
+
+msgid "stereoscope/name"
+msgstr "Teleskooppikiikarit"
+
+msgid "stereoscope_tier1/name"
+msgstr "Teleskooppikiikarit, luokka 1"
+
+msgid "stereoscope_tier2/name"
+msgstr "Teleskooppikiikarit, luokka 2"
+
+msgid "stereoscope_tier3/name"
+msgstr "Teleskooppikiikarit, luokka 3"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "Telakoneiston komponenttien vaihto (tyyppi 1)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "Telakoneiston komponenttien vaihto (tyyppi 2)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "Kääntömekanismin hierto (tyyppi 1)"
+
+msgid "tankRammer/name"
+msgstr "Tykin lataaja"
+
+msgid "tankRammer_tier1/name"
+msgstr "Tykin lataaja, luokka 1"
+
+msgid "tankRammer_tier2/name"
+msgstr "Tykin lataaja, luokka 2"
+
+msgid "thunderStrike/battleDescr"
+msgstr "Luo alueen, jolla iskee tiuhaan %(thunderCount)s sähköpurkauksen sarja. Jokainen purkaus aiheuttaa %(damage)s pistettä vahinkoa ja väliaikaisesti heikentää jokaisen kyvyn vaikutusalueella olevan vihollisvaunun liikkuvuutta.\n\n*Kyvyn aktivoinnin ja ensimmäisen purkauksen välillä on %(delay)s s viive. Sen negatiivisen vaikutuksen voi poistaa korjaussarjalla."
+
+msgid "thunderStrike/descr"
+msgstr "Luo alueen, jolla iskee tiuhaan %(thunderCount)s sähköpurkauksen sarja. Jokainen purkaus aiheuttaa %(damage)s pistettä vahinkoa ja väliaikaisesti heikentää jokaisen kyvyn vaikutusalueella olevan vihollisvaunun liikkuvuutta.\n\n*Kyvyn aktivoinnin ja ensimmäisen purkauksen välillä on %(delay)s s viive. Sen negatiivisen vaikutuksen voi poistaa korjaussarjalla."
+
+msgid "thunderStrike/longDescr"
+msgstr "Luo alueen, jolla iskee tiuhaan %(thunderCount)s sähköpurkauksen sarja. Jokainen purkaus aiheuttaa {whiteSpanish_Open}%(damage)s pistettä vahinkoa{whiteSpanish_Close} ja väliaikaisesti heikentää jokaisen kyvyn vaikutusalueella olevan vihollisvaunun liikkuvuutta.\n\n*Kyvyn aktivoinnin ja ensimmäisen purkauksen välillä on %(delay)s s viive. Sen negatiivisen vaikutuksen voi poistaa korjaussarjalla."
+
+msgid "thunderStrike/name"
+msgstr "Sähköpurkaus"
+
+msgid "thunderStrike/shortDescr"
+msgstr "Luo alueen, jolla iskee tiuhaan %(thunderCount)s sähköpurkauksen sarja. Jokainen purkaus aiheuttaa {whiteSpanish_Open}%(damage)s pistettä vahinkoa{whiteSpanish_Close} ja väliaikaisesti heikentää jokaisen kyvyn vaikutusalueella olevan vihollisvaunun liikkuvuutta.\n\n*Kyvyn aktivoinnin ja ensimmäisen purkauksen välillä on %(delay)s s viive. Sen negatiivisen vaikutuksen voi poistaa korjaussarjalla."
+
+msgid "trappoint/battleDescr"
+msgstr "Luo %(duration)s s ajaksi alueen, joka heikentää kaikkien sen sisällä olevien vihollisvaunujen liikeominaisuuksia %(vehicleMaxSpeed)s sekä pidentää tykin lataus- ja tähtäysaikaa %(gunReloadTime)s."
+
+msgid "trappoint/descr"
+msgstr "Luo %(duration)s s ajaksi alueen, joka heikentää kaikkien sen sisällä olevien vihollisvaunujen liikeominaisuuksia %(vehicleMaxSpeed)s sekä tykin lataus- ja tähtäysaikaa %(gunReloadTime)s."
+
+msgid "trappoint/long_special"
+msgstr "Luo{whiteSpanish_Open} %(duration)s s ajaksi{whiteSpanish_Close} alueen, joka heikentää kaikkien sen sisällä olevien vihollisvaunujen liikeominaisuuksia {whiteSpanish_Open}%(vehicleMaxSpeed)s{whiteSpanish_Close} sekä tykin lataus- ja tähtäysaikaa {whiteSpanish_Open}%(gunReloadTime)s{whiteSpanish_Close}."
+
+msgid "trappoint/name"
+msgstr "Ansa"
+
+msgid "trappoint/short_special"
+msgstr "Luo{whiteSpanish_Open} %(duration)s s ajaksi{whiteSpanish_Close} alueen, joka heikentää kaikkien sen sisällä olevien vihollisvaunujen liikeominaisuuksia {whiteSpanish_Open}%(vehicleMaxSpeed)s{whiteSpanish_Close} sekä pidentää tykin lataus- ja tähtäysaikaa {whiteSpanish_Open}%(gunReloadTime)s{whiteSpanish_Close}."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "Tehokkuus riippuu vaunun tyypistä. Parantaa paikallaan olevan tai liikkuvan vaunun naamiointia. Hyödyllistä aktiiviseen tiedusteluun sekä passiiviseen havainnointiin riskialttiista asemista."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "Pakokaasujärjestelmä (palkkio)"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "Parantaa paikallaan olevan tai liikkuvan vaunun naamiointia."
+
+msgid "trophyBasicAimDrives/name"
+msgstr "Tykin moottori (palkkio)"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "Parantaa tykin tähtäysnopeutta mahdollistaen nopeamman tarkasti ampumisen."
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "Vakaaja (palkkio)"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "Vähentää tykin hajontaa ammuttaessa vaunun liikkuessa ja kääntyessä."
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "Optiikat (palkkio)"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "Pidentää paikallaan olevien ja liikkuvien vaunujen näköetäisyyttä."
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "Palauttaa täysin telakoneiston kestopisteet korjausten jälkeen."
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "Palauttaa telakoneiston korjausten jälkeen."
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "Parantaa vaunun kestävyyttä ja korjausnopeutta. Vähentää telakoneiston vahingoittumisen rungolle aiheuttamaa vahinkoa törmätessä. Palauttaa telakoneiston kestopisteet täysin korjausten jälkeen. Pienentää telan tuhoutumisen todennäköisyyttä vahinkoa kärsittäessä, mahdollistaa vaunun liikkeellä pysymisen niin pitkään kuin mahdollista."
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "Karkaisu (palkkio)"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "Parantaa vaunun kestävyyttä ja suojelee telakoneistoa"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "Suojausteknologia (palkkio)"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "Kääntömekanismi (palkkio)"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "Pienentää tähtäysympyrää parantaen tähtäyksen tai täysin tähdätyn tykin tarkkuutta. Tämän ansiosta tykilläsi on parempi mahdollisuus osua kohteeseen."
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "Palkkiotähtäin"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "Vähentää tykin hajontaa"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "Ilmastointi (Palkkio)"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "Parantaa miehistön tehokkuutta, joka vaikuttaa positiivisesti suurimpaan osaan vaunun ominaisuuksista."
+
+msgid "trophyBasicTankRammer/name"
+msgstr "Lataaja (palkkio)"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "Nopeuttaa tykin lataamista. Ei luokkakohtaisia rajoituksia."
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "Parantaa moottoritehoa tarjoten nopeamman kiihtyvyyden, paremman ohjattavuuden ja nopeamman kyvyn kiivetä harjanteille. Nostaa vaunun maksiminopeutta eteen- ja taaksepäin, mikä mahdollistaa asemien ottamisen haltuun ja viholliselta pakenemisen vikkelämmin."
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "Turboahdin (palkkio)"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "Kasvattaa moottoritehoa ja huippunopeutta"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} {arrow} näköetäisyyteen aina 445m asti"
+
+msgid "trophyOptics/name"
+msgstr "Optiikat (palkkio)"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "Pakokaasujärjestelmä (palkkio)"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "Tykin moottori (palkkio)"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "Vakaaja (palkkio)"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "Optiikat (palkkio)"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "Palauttaa täysin telakoneiston kestopisteet korjausten jälkeen."
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Palauttaa telakoneiston korjausten jälkeen."
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "Karkaisu (palkkio)"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "Suojausteknologia (palkkio)"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "Kääntömekanismi (palkkio)"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "Palkkiotähtäin"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "Ilmanvaihto (Palkkio)"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "Lataaja (palkkio)"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "Turboahdin (palkkio)"
+
+msgid "turbocharger/long_special"
+msgstr "Parantaa moottoritehoa tarjoten nopeamman kiihtyvyyden, paremman ohjattavuuden ja nopeamman kyvyn kiivetä harjanteille. Nostaa vaunun maksiminopeutta eteen- ja taaksepäin, mikä mahdollistaa asemien ottamisen haltuun ja viholliselta pakenemisen vikkelämmin."
+
+msgid "turbocharger/name"
+msgstr "Turboahdin"
+
+msgid "turbocharger/short_special"
+msgstr "Kasvattaa moottoritehoa ja huippunopeutta"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s moottoritehoon, kun turboahdin (mikä hyvänsä luokka), turboahdin (palkkio), paranneltu kompressori tai liikkuvuuden parannusjärjestelmä on asennettuna."
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "Tehostaa turboahtimen (mikä hyvänsä luokka), turboahtimen (palkkio) tai parannellun kompressorin vaikutusta yhden taistelun ajan. Direktiivi toimii vain, jos sinulla on sitä vastaava varuste asennettuna."
+
+msgid "turbochargerBattleBooster/name"
+msgstr "Polttoainesuotimen korvike"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "Parantaa moottoritehoa"
+
+msgid "turbocharger_tier1/name"
+msgstr "Turboahdin, luokka 1"
+
+msgid "turbocharger_tier2/name"
+msgstr "Turboahdin, luokka 2"
+
+msgid "turbocharger_tier3/name"
+msgstr "Turboahdin, luokka 3"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "Tupaa \"Kytkinjarrutus\" -pätevyyden vaikutuksen"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "Antaa \"Kytkinjarrutus\" -pätevyyden 100% tasolle koulutettuna"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "\"Kytkinjarrutus\" -pätevyys nopeuttaa kääntymisnopeutta sekä paikallaan ollessa että liikkeessä. Kun pätevyys on koulutettu 100% tasolle, lisää käytössä oleva direktiivi sen vaikutusta; mikäli pätevyys ei vielä ole täydessä tehossa, antaa direktiivi vaunullesi 100% koulutetun pätevyyden."
+
+msgid "virtuosoBattleBooster/name"
+msgstr "Ajokoulutus"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "Antaa \"Kytkinjarrutus\" -pätevyyden 100% tasolle tai tehostaa sen vaikutusta"

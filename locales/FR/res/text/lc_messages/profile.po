@@ -1,0 +1,1712 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "profile/dropdown/battlesType"
+msgstr "Bataille :"
+
+msgid "profile/dropdown/existence"
+msgstr "Disponible :"
+
+msgid "profile/dropdown/labels/all"
+msgstr "Aléatoire, compagnie de chars"
+
+msgid "profile/dropdown/labels/battleRoyaleSolo"
+msgstr "Traqueur d'acier, solo"
+
+msgid "profile/dropdown/labels/battleRoyaleSquad"
+msgstr "Traqueur d'acier, peloton"
+
+msgid "profile/dropdown/labels/clan"
+msgstr "Carte globale"
+
+msgid "profile/dropdown/labels/comp7"
+msgstr "Offensive"
+
+msgid "profile/dropdown/labels/comp7_archive_Griffin"
+msgstr "Année du Griffon"
+
+msgid "profile/dropdown/labels/comp7_archive_Manticore"
+msgstr "Année de la Manticore"
+
+msgid "profile/dropdown/labels/comp7_archive_Pegasus"
+msgstr "Année du Pégase"
+
+msgid "profile/dropdown/labels/comp7_season_1"
+msgstr "Saison du Dragon azuré"
+
+msgid "profile/dropdown/labels/comp7_season_2"
+msgstr "Saison du Dragon pourpre"
+
+msgid "profile/dropdown/labels/comp7_season_3"
+msgstr "Saison du Dragon de jade"
+
+msgid "profile/dropdown/labels/epicRandom"
+msgstr "Grande bataille"
+
+msgid "profile/dropdown/labels/fallout"
+msgstr "Ravages"
+
+msgid "profile/dropdown/labels/fortifications"
+msgstr "Batailles de bastion"
+
+msgid "profile/dropdown/labels/fortifications/battles"
+msgstr "Incursion"
+
+msgid "profile/dropdown/labels/fortifications/sorties"
+msgstr "Escarmouches"
+
+msgid "profile/dropdown/labels/historical"
+msgstr "Historique"
+
+msgid "profile/dropdown/labels/random"
+msgstr "Bataille aléatoire"
+
+msgid "profile/dropdown/labels/ranked"
+msgstr "Bataille classée en 15v15"
+
+msgid "profile/dropdown/labels/ranked_10x10"
+msgstr "Bataille classée"
+
+msgid "profile/dropdown/labels/staticTeam"
+msgstr "Bataille en équipe classée"
+
+msgid "profile/dropdown/labels/staticTeam/season"
+msgstr "Équipe : batailles classées"
+
+msgid "profile/dropdown/labels/team"
+msgstr "Équipe : non classées"
+
+msgid "profile/params/tooltip/achievementsCount/body"
+msgstr "Récompenses reçues dans la catégorie champ de bataille"
+
+msgid "profile/params/tooltip/achievementsCount/header"
+msgstr "Récompenses"
+
+msgid "profile/params/tooltip/armorUsing/body"
+msgstr "Taux de dégâts bloqués par le blindage en fonction des dégâts reçus par des tirs non pénétrants et des ricochets d'obus AP, HEAT et APCR. Les dégâts potentiels des obus HE et HESH ne sont pas pris en compte.\n• Dégâts moyens bloqués par le blindage de ces types d'obus : %(value_0)s"
+
+msgid "profile/params/tooltip/armorUsing/header"
+msgstr "Efficacité de l'utilisation du blindage"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/body"
+msgstr "Quantité totale de dégâts infligés à des véhicules ennemis étourdis"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/header"
+msgstr "Dégâts aux véhicules ennemis étourdis par le joueur"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/body"
+msgstr "Quantité totale de dégâts infligés à des véhicules ennemis étourdis"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/header"
+msgstr "Dégâts aux véhicules ennemis étourdis par vous"
+
+msgid "profile/params/tooltip/avgAssistedDamage/body"
+msgstr "Dont :\n• Dégâts grâce à votre détection\n• Dégâts grâce à votre destruction d'une chenille et immobilisation de véhicules ennemis."
+
+msgid "profile/params/tooltip/avgAssistedDamage/header"
+msgstr "Dégâts moyens infligés grâce à votre aide"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/body"
+msgstr "Dont :\n• Dégâts grâce à la détection du joueur\n• Dégâts grâce à votre destruction d'une chenille et immobilisation de véhicules ennemis."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/header"
+msgstr "Dégâts infligés grâce à l'aide du joueur"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/body"
+msgstr "Dont :\n• Dégâts grâce à votre détection\n• Dégâts grâce à votre destruction d'une chenille et immobilisation de véhicules ennemis."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/body"
+msgstr "Inclut :\n• Dégâts grâce à votre détection (dont les dégâts grâce aux compétences)\n• Dégâts grâce à votre destruction d'une chenille et de l'immobilisation d'un véhicule ennemi (dont les dégâts grâce aux compétences)\n• Dégâts infligés par les alliés grâce à vos compétences."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/header"
+msgstr "Dégâts infligés grâce à votre aide"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/header"
+msgstr "Dégâts infligés grâce à votre aide"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/body"
+msgstr "Le taux du total de dégâts infligés à un ennemi étourdi (y compris les étourdissements grâce aux compétences) sur le nombre de batailles disputées"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/header"
+msgstr "Dégâts aux véhicules ennemis étourdis par le joueur"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/body"
+msgstr "Le taux du total de dégâts infligés à un ennemi étourdi (y compris les étourdissements grâce aux compétences) sur le nombre de batailles disputées"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/header"
+msgstr "Dégâts infligés aux véhicules que vous avez étourdis"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/body"
+msgstr "Taux du total des dégâts infligés aux véhicules ennemis étourdis sur le nombre de batailles jouées"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/header"
+msgstr "Dégâts aux véhicules ennemis étourdis par le joueur"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/body"
+msgstr "Taux du total des dégâts infligés aux véhicules ennemis étourdis sur le nombre de batailles jouées"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/header"
+msgstr "Dégâts aux véhicules ennemis étourdis par vous"
+
+msgid "profile/params/tooltip/avgDamage/body"
+msgstr "Taux de total des dégâts infligés sur le nombre de batailles jouées"
+
+msgid "profile/params/tooltip/avgDamage/header"
+msgstr "Dégâts moyens par bataille"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/body"
+msgstr "Taux du total de véhicules ennemis détruits sur le nombre de batailles jouées"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/body"
+msgstr "Le taux du nombre total de véhicules ennemis détruits (y compris les véhicules détruits grâce aux compétences) sur le nombre de batailles disputées"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/header"
+msgstr "Véhicules ennemis détruits"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/header"
+msgstr "Véhicules ennemis détruits"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/body"
+msgstr "Taux du total des véhicules ennemis repérés sur le nombre de batailles jouées"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/body"
+msgstr "Le taux du nombre total de véhicules ennemis repérés (y compris les véhicules repérés grâce aux compétences) sur le nombre de batailles disputées"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/header"
+msgstr "Véhicules ennemis repérés"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/header"
+msgstr "Véhicules ennemis repérés"
+
+msgid "profile/params/tooltip/avgDmg/short/body"
+msgstr "Taux de total des dégâts infligés sur le nombre de batailles jouées"
+
+msgid "profile/params/tooltip/avgDmg/short/header"
+msgstr "Dégâts infligés"
+
+msgid "profile/params/tooltip/avgEx/short/body"
+msgstr "Taux du total des points d'expérience gagnés sur le nombre de batailles jouées"
+
+msgid "profile/params/tooltip/avgEx/short/header"
+msgstr "Expérience"
+
+msgid "profile/params/tooltip/avgExp/body"
+msgstr "Taux du total des points d'expérience gagnés sur le nombre de batailles jouées"
+
+msgid "profile/params/tooltip/avgExp/header"
+msgstr "EXP. moyenne par bataille"
+
+msgid "profile/params/tooltip/avgHealthRepair/body"
+msgstr "Le taux du nombre de points de structure restaurés sur le nombre de batailles disputées"
+
+msgid "profile/params/tooltip/avgHealthRepair/header"
+msgstr "Points de structure restaurés"
+
+msgid "profile/params/tooltip/avgPoiCaptured/body"
+msgstr "Le taux du nombre de Points d'intérêt capturés sur le nombre de batailles disputées"
+
+msgid "profile/params/tooltip/avgPoiCaptured/header"
+msgstr "Points d'intérêt capturés"
+
+msgid "profile/params/tooltip/avgPrestigePoints/body"
+msgstr "Le taux du nombre total de Points de prestige gagnés sur le nombre de batailles disputées"
+
+msgid "profile/params/tooltip/avgPrestigePoints/header"
+msgstr "Nombre moyen de Points de prestige par bataille"
+
+msgid "profile/params/tooltip/avgReceivedDamage/body"
+msgstr "Taux du total des dégâts reçus sur le nombre de batailles jouées"
+
+msgid "profile/params/tooltip/avgReceivedDamage/header"
+msgstr "Dégâts reçus"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/body"
+msgstr "Le taux du nombre total de compétences de rôle utilisées sur le nombre de batailles disputées"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/header"
+msgstr "Compétences de rôle utilisées"
+
+msgid "profile/params/tooltip/avgStunNumber/body"
+msgstr "Taux du total des coups ayant étourdi un équipage ennemi sur le nombre de batailles jouées"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/body"
+msgstr "Le taux du nombre total de coups au but (y compris les coups au but grâce aux compétences) avec étourdissement de l'équipage adverse sur le nombre de batailles disputées"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/header"
+msgstr "Nombre d'étourdissements"
+
+msgid "profile/params/tooltip/avgStunNumber/header"
+msgstr "Nombre d'étourdissements"
+
+msgid "profile/params/tooltip/avgVictoryPoints/body"
+msgstr "Taux du total du nombre de points de victoire sur le nombre de batailles jouées"
+
+msgid "profile/params/tooltip/avgVictoryPoints/header"
+msgstr "Nombre moyen de points de victoire"
+
+msgid "profile/params/tooltip/battlesCount/body"
+msgstr "Total des batailles jouées, dont :\n• Victoires : %(value_0)s\n• Défaites : %(value_1)s\n• Égalités : %(value_2)s"
+
+msgid "profile/params/tooltip/battlesCount/header"
+msgstr "Batailles"
+
+msgid "profile/params/tooltip/brAverageLevel/body"
+msgstr "Le rapport de la somme de tous les niveaux atteints sur le nombre de batailles disputées."
+
+msgid "profile/params/tooltip/brAverageLevel/header"
+msgstr "Niveau moyen"
+
+msgid "profile/params/tooltip/brAverageRank/body"
+msgstr "Le rapport de la somme de toutes les positions dans les résultats de la bataille sur le nombre de batailles disputées."
+
+msgid "profile/params/tooltip/brAverageRank/header"
+msgstr "Position moyenne"
+
+msgid "profile/params/tooltip/brAvgDamage/body"
+msgstr "Le rapport du total de dégâts infligés sur le nombre de batailles disputées."
+
+msgid "profile/params/tooltip/brAvgDamage/header"
+msgstr "Dégâts infligés"
+
+msgid "profile/params/tooltip/brBattlesCount/body"
+msgstr "Le nombre total de batailles disputées."
+
+msgid "profile/params/tooltip/brBattlesCount/header"
+msgstr "Batailles"
+
+msgid "profile/params/tooltip/brMaxDamage/body"
+msgstr "Le maximum de dégâts infligés aux véhicules ennemis en une bataille.\nRecord réalisé en %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxDamage/header"
+msgstr "Dégâts maximum en une bataille"
+
+msgid "profile/params/tooltip/brMaxExp/body"
+msgstr "Le maximum d'expérience obtenue en une bataille avec le compte premium WoT.\nRecord réalisé en %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxExp/header"
+msgstr "Expérience maximum en une bataille"
+
+msgid "profile/params/tooltip/brMaxFrags/body"
+msgstr "Le nombre maximum de véhicules ennemis détruits personnellement en une bataille.\nRecord réalisé en %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxFrags/header"
+msgstr "Maximum de véhicules détruits en une bataille"
+
+msgid "profile/params/tooltip/brWins/body"
+msgstr "Le nombre total de victoires."
+
+msgid "profile/params/tooltip/brWins/header"
+msgstr "Victoires"
+
+msgid "profile/params/tooltip/capturePoints/body"
+msgstr "Nombre de points de capture de base ennemi gagnés"
+
+msgid "profile/params/tooltip/capturePoints/header"
+msgstr "Points de capture de base"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/body"
+msgstr "Taux de \"Dégâts infligés\" sur les \"Dégâts reçus\" dans tous les niveaux de bataille, ayant pour valeurs :\n• Dégâts infligés : %(value_0)s\n• Dégâts reçus : %(value_1)s"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/header"
+msgstr "Taux de dégâts moyen"
+
+msgid "profile/params/tooltip/damageCoeff/body"
+msgstr "Taux de \"Dégâts infligés\" sur les \"Dégâts reçus\", ayant pour valeurs :\n• Dégâts infligés : %(value_0)s\n• Dégâts reçus : %(value_1)s"
+
+msgid "profile/params/tooltip/damageCoeff/header"
+msgstr "Taux des dégâts"
+
+msgid "profile/params/tooltip/destroyCoeff/body"
+msgstr "Taux de véhicules ennemis détruits sur le nombre de fois que le véhicule du joueur a été détruit, ayant pour valeurs :\n• Véhicules ennemis détruits : %(value_0)s\n• Véhicule du joueur détruit : %(value_1)s"
+
+msgid "profile/params/tooltip/destroyCoeff/header"
+msgstr "Taux de destruction"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/body"
+msgstr "Taux de dégâts bloqués par le blindage en fonction des dégâts reçus par des tirs non pénétrants et des ricochets d'obus AP, HEAT et APCR. Les dégâts potentiels des réserves de combat, des obus explosifs et HESH ne sont pas pris en compte.\n• Dégâts moyens bloqués par le blindage de ces types d'obus : %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/header"
+msgstr "Efficacité de l'utilisation du blindage"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/body"
+msgstr "Taux du total des dégâts infligés (réserves de combat incluses) sur le nombre de batailles jouées."
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/header"
+msgstr "Dégâts moyens par bataille"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body"
+msgstr "Taux du total des véhicules ennemis détruits (réserves de combat incluses) sur le nombre de batailles jouées"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header"
+msgstr "Véhicules ennemis détruits"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body"
+msgstr "Taux du total des véhicules ennemis détruits (réserves de combat exclues) sur le nombre de batailles jouées"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header"
+msgstr "Véhicules ennemis détruits"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/body"
+msgstr "Taux du total des dégâts infligés (réserves de combat incluses) sur le nombre de batailles jouées"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/header"
+msgstr "Dégâts infligés"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body"
+msgstr "Taux du total des dégâts infligés (réserves de combat exclues) sur le nombre de batailles jouées"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header"
+msgstr "Dégâts infligés"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/body"
+msgstr "Taux du total des dégâts reçus (réserves de combat incluses) sur le nombre de batailles jouées"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/header"
+msgstr "Dégâts reçus"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/body"
+msgstr "Total des batailles jouées, dont :\n• Victoires : %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/header"
+msgstr "Batailles"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/body"
+msgstr "Taux de « Dégâts infligés » sur les « Dégâts reçus » (réserves de combat incluses), ayant pour valeurs :\n• Dégâts infligés par vos véhicules : %(value_0)s\n• Dégâts infligés par vos réserves de combat : %(value_2)s\n• Dégâts reçus de la part des véhicules et réserves de combat ennemis : %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/header"
+msgstr "Taux des dégâts"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body"
+msgstr "Taux de « Dégâts infligés » sur les « Dégâts reçus » (réserves de combat exclues), ayant pour valeurs :\n• Dégâts infligés : %(value_0)s\n• Dégâts reçus : %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header"
+msgstr "Taux des dégâts"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/body"
+msgstr "Taux des véhicules ennemis détruits sur le nombre de fois où le véhicule du joueur a été détruit (réserves de combat incluses), ayant pour valeurs :\n• Véhicules ennemis détruits par vos véhicules : %(value_0)s\n• Véhicules ennemis détruits par vos réserves de combat : %(value_2)s\n• Véhicules du joueur détruits par des véhicules et des réserves de combats ennemis : %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/header"
+msgstr "Taux de destruction"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body"
+msgstr "Taux des véhicules ennemis détruits sur le nombre de fois où le véhicule du joueur a été détruit (réserves de combat exclues), ayant pour valeurs :\n• Véhicules ennemis détruits : %(value_0)s\n• Véhicules du joueur détruits : %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header"
+msgstr "Taux de destruction"
+
+msgid "profile/params/tooltip/dif/fallout/hits/body"
+msgstr "Précision de tir sur les véhicules ennemis (réserves de combat exclues)"
+
+msgid "profile/params/tooltip/dif/fallout/hits/header"
+msgstr "Coups au but"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/body"
+msgstr "Le record obtenu inclut les réserves de combat."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/header"
+msgstr "Le plus de dégâts en une bataille"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/body"
+msgstr "Le record obtenu n'inclut pas les réserves de combat."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/header"
+msgstr "Le plus de dégâts en une bataille"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/body"
+msgstr "Le record obtenu inclut les réserves de combat."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/header"
+msgstr "Record de véhicules détruits en une bataille"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body"
+msgstr "Le record obtenu n'inclut pas les réserves de combat."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header"
+msgstr "Record de véhicules détruits en une bataille"
+
+msgid "profile/params/tooltip/dif/fallout/wins/body"
+msgstr "Nombre total de victoires"
+
+msgid "profile/params/tooltip/dif/fallout/wins/header"
+msgstr "Victoires"
+
+msgid "profile/params/tooltip/droppedCapturePoints/body"
+msgstr "Nombre de points de défense de base alliée gagnés"
+
+msgid "profile/params/tooltip/droppedCapturePoints/header"
+msgstr "Points de défense de base"
+
+msgid "profile/params/tooltip/flagsAbsorbed/body"
+msgstr "Total des drapeaux détruits"
+
+msgid "profile/params/tooltip/flagsAbsorbed/header"
+msgstr "Drapeaux détruits"
+
+msgid "profile/params/tooltip/flagsDelivered/body"
+msgstr "Nombre de drapeaux rapportés à votre base"
+
+msgid "profile/params/tooltip/flagsDelivered/header"
+msgstr "Drapeaux rapportés"
+
+msgid "profile/params/tooltip/fort/battles/body"
+msgstr "Total des incursions, dont :\n• Victoires : %(value_0)s\n• Défaites : %(value_1)s\n• Égalités : %(value_2)s."
+
+msgid "profile/params/tooltip/fort/battles/header"
+msgstr "Incursions"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/body"
+msgstr "Taux total de victoires en incursions"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/header"
+msgstr "Victoires en incursions"
+
+msgid "profile/params/tooltip/fort/looting/body"
+msgstr "Total des bastions ennemis pillés avec succès"
+
+msgid "profile/params/tooltip/fort/looting/header"
+msgstr "Pillages"
+
+msgid "profile/params/tooltip/fort/resource/body"
+msgstr "Taux de ressources industrielles obtenues en escarmouches sur le nombre d'escarmouches jouées"
+
+msgid "profile/params/tooltip/fort/resource/header"
+msgstr "Butin moyen par escarmouche"
+
+msgid "profile/params/tooltip/fort/sortie/body"
+msgstr "Nombre total d'escarmouches jouées, dont :\n• Victoires : %(value_0)s\n• Défaites : %(value_1)s\n• Égalités : %(value_2)s"
+
+msgid "profile/params/tooltip/fort/sortie/header"
+msgstr "Escarmouches"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/body"
+msgstr "Taux total de victoires en escarmouches"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/header"
+msgstr "Victoires en escarmouches"
+
+msgid "profile/params/tooltip/fortBattles/attacks/body"
+msgstr "Total des attaques sur les bastions ennemis.\nPris en compte uniquement si vous avez joué au moins un affrontement lors de l'attaque."
+
+msgid "profile/params/tooltip/fortBattles/attacks/header"
+msgstr "Attaques"
+
+msgid "profile/params/tooltip/fortBattles/defences/body"
+msgstr "Total des actions défensives dans votre bastion.\nPris en compte uniquement si vous avez joué au moins un affrontement lors de la période de défense."
+
+msgid "profile/params/tooltip/fortBattles/defences/header"
+msgstr "Actions défensives"
+
+msgid "profile/params/tooltip/fortBattlesWins/body"
+msgstr "Taux total de victoires en incursions"
+
+msgid "profile/params/tooltip/fortBattlesWins/header"
+msgstr "Victoires en incursions"
+
+msgid "profile/params/tooltip/fortSortieWins/body"
+msgstr "Taux total de victoires en escarmouches"
+
+msgid "profile/params/tooltip/fortSortieWins/header"
+msgstr "Victoires en escarmouches"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/body"
+msgstr "Taux total de ressources industrielles obtenues sur l'ensemble des escarmouches jouées"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/header"
+msgstr "Quantité moyenne de butin pillé par escarmouche"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/body"
+msgstr "Quantité totale de ressources industrielles obtenues sur l'ensemble des escarmouches"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/header"
+msgstr "Quantité totale de butin pillé sur l'ensemble des escarmouches"
+
+msgid "profile/params/tooltip/hits/body"
+msgstr "Précision de tir sur les véhicules ennemis"
+
+msgid "profile/params/tooltip/hits/header"
+msgstr "Taux de coups au but"
+
+msgid "profile/params/tooltip/kdr/body"
+msgstr "Taux des véhicules ennemis détruits sur le nombre de fois où le véhicule du joueur a été détruit (réserves de combat incluses), ayant pour valeurs :\n• Véhicules ennemis détruits par vos véhicules : %(value_0)s\n• Véhicules ennemis détruits par vos réserves de combat : %(value_1)s\n• Véhicules du joueur détruits par des véhicules et des réserves de combats ennemis : %(value_2)s"
+
+msgid "profile/params/tooltip/kdr/header"
+msgstr "Taux de destruction"
+
+msgid "profile/params/tooltip/markOfMastery/body"
+msgstr "Insignes de maîtrise As du char reçus dans tous les modes de bataille concernés / Nombre de véhicules ayant participé à au moins une bataille aléatoire"
+
+msgid "profile/params/tooltip/markOfMastery/header"
+msgstr "Insignes de maîtrise : As du char"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/body"
+msgstr "Les insignes de maîtrise ne sont pas accordés dans ce mode de bataille."
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/header"
+msgstr "Insigne de maîtrise : As du char"
+
+msgid "profile/params/tooltip/maxDamage/body"
+msgstr "Record accompli en %(value_0)s"
+
+msgid "profile/params/tooltip/maxDamage/header"
+msgstr "Dégâts maximum dans une bataille"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/body"
+msgstr "Le plus de dégâts infligés aux véhicules ennemis en une bataille."
+
+msgid "profile/params/tooltip/maxDamage/vehicle/header"
+msgstr "Le plus de dégâts"
+
+msgid "profile/params/tooltip/maxDestroyed/body"
+msgstr "Record accompli en %(value_0)s"
+
+msgid "profile/params/tooltip/maxDestroyed/header"
+msgstr "Maximum détruits en bataille"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/body"
+msgstr "Le plus de véhicules ennemis détruits en une bataille."
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/header"
+msgstr "Le plus de véhicules détruits"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/body"
+msgstr "Le maximum de dégâts infligés par les compétences de rôle et les compétences tactiques en une bataille."
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/header"
+msgstr "Maximum de dégâts infligés par les compétences en une bataille"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/body"
+msgstr "Les dégâts infligés par les compétences de rôle et les compétences tactiques sont inclus.\nLe record a été établi à bord du %(value_0)s"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/header"
+msgstr "Maximum de dégâts infligés par les compétences en une bataille"
+
+msgid "profile/params/tooltip/maxExp/body"
+msgstr "Record accompli en %(value_0)s"
+
+msgid "profile/params/tooltip/maxExp/header"
+msgstr "EXP. max. gagnée par bataille"
+
+msgid "profile/params/tooltip/maxExp/vehicle/body"
+msgstr "Le plus d'expérience obtenue en une bataille, compte premium inclus."
+
+msgid "profile/params/tooltip/maxExp/vehicle/header"
+msgstr "Le plus d'expérience"
+
+msgid "profile/params/tooltip/maxExpDisabled/body"
+msgstr "L'expérience maximale n'est pas affichée dans ce mode de bataille."
+
+msgid "profile/params/tooltip/maxExpDisabled/header"
+msgstr "EXP. max. gagnée par bataille"
+
+msgid "profile/params/tooltip/maxHealthRepair/body"
+msgstr "Le nombre maximum de points de structure restaurés pour votre véhicule et ceux de vos alliés en une bataille."
+
+msgid "profile/params/tooltip/maxHealthRepair/header"
+msgstr "Maximum de points de structure restaurés en une bataille"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/body"
+msgstr "Le nombre maximal de points de structure restaurés pour votre véhicule et ceux de vos alliés en une bataille.\nLe record a été établi à bord du %(value_0)s"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/header"
+msgstr "Maximum de points de structure restaurés en une bataille"
+
+msgid "profile/params/tooltip/maxPrestigePoints/body"
+msgstr "Le nombre maximum de Points de prestige gagnés en une bataille."
+
+msgid "profile/params/tooltip/maxPrestigePoints/header"
+msgstr "Nombre maximum de Points de prestige en une bataille"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/body"
+msgstr "Le record a été établi à bord du %(value_0)s"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/header"
+msgstr "Nombre maximum de Points de prestige en une bataille"
+
+msgid "profile/params/tooltip/maxVictoryPoints/body"
+msgstr "Record de points de victoire gagnés en une bataille sur toutes les batailles jouées"
+
+msgid "profile/params/tooltip/maxVictoryPoints/header"
+msgstr "Record de points de victoire gagnés en une bataille"
+
+msgid "profile/params/tooltip/maxWinPoints/body"
+msgstr "Record de points de victoire gagnés en une bataille sur toutes les batailles jouées"
+
+msgid "profile/params/tooltip/maxWinPoints/header"
+msgstr "Record de points de victoire gagnés en une bataille"
+
+msgid "profile/params/tooltip/maxWinSeries/body"
+msgstr "La plus grande série de victoires dans ce mode en solo ou dans un peloton/peloton de 7 joueurs."
+
+msgid "profile/params/tooltip/maxWinSeries/header"
+msgstr "Plus grande série de victoires (solo et peloton/super-peloton)"
+
+msgid "profile/params/tooltip/poiCaptured/body"
+msgstr "Le nombre de Points d'intérêt capturés"
+
+msgid "profile/params/tooltip/poiCaptured/header"
+msgstr "Points d'intérêt capturés"
+
+msgid "profile/params/tooltip/ranked/avgFrags/body"
+msgstr "Nombre moyen de véhicules ennemis détruits par bataille"
+
+msgid "profile/params/tooltip/ranked/avgFrags/header"
+msgstr "Nombre moyen de véhicules détruits"
+
+msgid "profile/params/tooltip/ranked/avgPoints/body"
+msgstr "Rapport de pourcentage du nombre de bandes reçues sur le nombre total de batailles jouées en mode batailles classées.\n• Total des bandes : %(value_0)s\n• Total des batailles : %(value_1)s"
+
+msgid "profile/params/tooltip/ranked/avgPoints/header"
+msgstr "Efficacité en batailles classées"
+
+msgid "profile/params/tooltip/ranked/points/body"
+msgstr "Total des points obtenus"
+
+msgid "profile/params/tooltip/ranked/points/header"
+msgstr "Points de classement"
+
+msgid "profile/params/tooltip/stunNumber/body"
+msgstr "Total des coups ayant étourdi un équipage ennemi"
+
+msgid "profile/params/tooltip/stunNumber/header"
+msgstr "Nombre d'étourdissements"
+
+msgid "profile/params/tooltip/survival/body"
+msgstr "Pourcentage des batailles dans lesquelles le véhicule du joueur n'a pas été détruit"
+
+msgid "profile/params/tooltip/survival/header"
+msgstr "Batailles survécues"
+
+msgid "profile/params/tooltip/totalVehs/body"
+msgstr "Nombre total des différents véhicules utilisés"
+
+msgid "profile/params/tooltip/totalVehs/header"
+msgstr "Véhicules utilisés"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/body"
+msgstr "Nombre total d'incursions.\n\nLe paramètre est indisponible dans la version actuelle."
+
+msgid "profile/params/tooltip/unavailable/fort/battles/header"
+msgstr "Incursions"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/body"
+msgstr "Pourcentage total des victoires en incursions.\n\nLe paramètre est indisponible dans la version actuelle."
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/header"
+msgstr "Victoires en incursions"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/body"
+msgstr "Aucune bataille depuis l'introduction de ce paramètre"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/header"
+msgstr "Données indisponibles"
+
+msgid "profile/params/tooltip/usedTechnics/body"
+msgstr "Véhicules ayant combattu lors d'au moins une bataille historique."
+
+msgid "profile/params/tooltip/usedTechnics/header"
+msgstr "Véhicules utilisés"
+
+msgid "profile/params/tooltip/wins/body"
+msgstr "Taux global des victoires"
+
+msgid "profile/params/tooltip/wins/header"
+msgstr "Victoires"
+
+msgid "profile/ranked/seasonsdropdown/1"
+msgstr "Saison 1, 2021-2022"
+
+msgid "profile/ranked/seasonsdropdown/2"
+msgstr "Saison 2, 2021-2022"
+
+msgid "profile/ranked/seasonsdropdown/3"
+msgstr "Saison 3, 2021-2022"
+
+msgid "profile/ranked/seasonsdropdown/archive"
+msgstr "Données archivées"
+
+msgid "profile/seasonsdropdown/all"
+msgstr "Toutes les saisons"
+
+msgid "profile/seasonsdropdown/current"
+msgstr "Saison actuelle"
+
+msgid "profile/seasonsdropdown/specific"
+msgstr "Season %(date1)s – %(date2)s"
+
+msgid "profile/section/statistics/scores/maxHealthRepair"
+msgstr "Maximum de points de structure restaurés en une bataille"
+
+msgid "profile/summary/clan/btnLabel"
+msgstr "Profil du clan"
+
+msgid "profile/summary/clan/joinDate"
+msgstr "A rejoint le:"
+
+msgid "profile/summary/clan/post"
+msgstr "Position :"
+
+msgid "profile/summary/club/btnLabel"
+msgstr "Profil de l'équipe"
+
+msgid "profile/summary/club/ladder"
+msgstr "Tableau d'honneur :"
+
+msgid "profile/summary/club/ladderInfo"
+msgstr "Ladder %(league)s, Division %(division)s"
+
+msgid "profile/summary/club/post"
+msgstr "Position :"
+
+msgid "profile/summary/nextAwards/tooltip/body"
+msgstr "Les prochaines récompenses sont attachées au ruban."
+
+msgid "profile/summary/nextAwards/tooltip/header"
+msgstr "Prochaines récompenses"
+
+msgid "profile/summary/noGroups"
+msgstr "Le joueur ne possède aucune unité tactique permanente."
+
+msgid "profile/summary/significantAwards/tooltip/body"
+msgstr "Les récompenses majeures du joueur sont attachées au ruban."
+
+msgid "profile/summary/significantAwards/tooltip/header"
+msgstr "Récompenses majeures"
+
+msgid "profile/tabs/tooltip/advancedAchievements/body"
+msgstr "Voir le Répertoire des faits d'armes."
+
+msgid "profile/tabs/tooltip/advancedAchievements/header"
+msgstr "Faits d'armes"
+
+msgid "profile/tabs/tooltip/awards/body"
+msgstr "Voir les récompenses et leurs descriptions"
+
+msgid "profile/tabs/tooltip/awards/header"
+msgstr "Récompenses"
+
+msgid "profile/tabs/tooltip/collections/body"
+msgstr "Voir les collections"
+
+msgid "profile/tabs/tooltip/collections/header"
+msgstr "Collections"
+
+msgid "profile/tabs/tooltip/formations/body"
+msgstr "Voir les détails concernant les unités tactiques dont vous avez fait partie."
+
+msgid "profile/tabs/tooltip/formations/header"
+msgstr "Unités tactiques"
+
+msgid "profile/tabs/tooltip/hof/body"
+msgstr "Voir les classements dans le Panthéon"
+
+msgid "profile/tabs/tooltip/hof/header"
+msgstr "Panthéon"
+
+msgid "profile/tabs/tooltip/hofDisabled/body"
+msgstr "Le Panthéon est temporairement indisponible. Veuillez réessayer plus tard."
+
+msgid "profile/tabs/tooltip/hofDisabled/header"
+msgstr "Attention"
+
+msgid "profile/tabs/tooltip/statistics/body"
+msgstr "Voir les statistiques de batailles des véhicules de tous types"
+
+msgid "profile/tabs/tooltip/statistics/header"
+msgstr "Statistiques"
+
+msgid "profile/tabs/tooltip/summary/body"
+msgstr "Voir l'efficacité en bataille"
+
+msgid "profile/tabs/tooltip/summary/header"
+msgstr "Résumé"
+
+msgid "profile/tabs/tooltip/technique/body"
+msgstr "Voir les statistiques de batailles de chaque véhicule"
+
+msgid "profile/tabs/tooltip/technique/header"
+msgstr "Véhicules"
+
+msgid "profile/title"
+msgstr "Statistiques du joueur %s"
+
+msgid "seasons/comp7_dropdown_label"
+msgstr "Année/Saison :"
+
+msgid "seasons/dropdown_label"
+msgstr "Saison :"
+
+msgid "section/advancedAchievements/title"
+msgstr "Faits d'armes"
+
+msgid "section/awards/dropdown/labels/all"
+msgstr "Tous"
+
+msgid "section/awards/dropdown/labels/inProcess"
+msgstr "Reçu"
+
+msgid "section/awards/dropdown/labels/none"
+msgstr "Non reçu"
+
+msgid "section/awards/dropdown/tooltip/body"
+msgstr "Activer le filtre pour voir soit toutes les récompenses ou les récompenses reçues, ou bien les récompenses non reçues"
+
+msgid "section/awards/dropdown/tooltip/header"
+msgstr "Classement des récompenses"
+
+msgid "section/awards/labels/battleHeroes"
+msgstr "Héros de la bataille"
+
+msgid "section/awards/labels/epic"
+msgstr "Médailles épiques"
+
+msgid "section/awards/labels/group"
+msgstr "Récompenses en groupe"
+
+msgid "section/awards/labels/honorary"
+msgstr "Grades honorifiques"
+
+msgid "section/awards/labels/marksOnGun"
+msgstr "Marques d'excellence"
+
+msgid "section/awards/labels/memory"
+msgstr "Jetons commémoratifs"
+
+msgid "section/awards/labels/special"
+msgstr "Spécial"
+
+msgid "section/awards/labels/stage"
+msgstr "Récompenses par paliers"
+
+msgid "section/awards/title"
+msgstr "Récompenses"
+
+msgid "section/collections/title"
+msgstr "Collections"
+
+msgid "section/formations/clan/none"
+msgstr "Vous ne faites partie d'aucun clan."
+
+msgid "section/formations/clan/none/thirdperson"
+msgstr "Le joueur ne fait partie d'aucun clan."
+
+msgid "section/formations/clan/type"
+msgstr "Clan"
+
+msgid "section/formations/fort/battles"
+msgstr "Incursions"
+
+msgid "section/formations/fort/create"
+msgstr "Créer un bastion"
+
+msgid "section/formations/fort/level"
+msgstr "Niveau du bastion : %s"
+
+msgid "section/formations/fort/link"
+msgstr "Faits d'armes du bastion"
+
+msgid "section/formations/fort/none"
+msgstr "Le bastion n'est pas créé"
+
+msgid "section/formations/fort/none/thirdperson"
+msgstr "Le clan du joueur ne possède pas de bastion."
+
+msgid "section/formations/fort/resourceRating"
+msgstr "Cote de chasseur de ressources"
+
+msgid "section/formations/fort/sorties"
+msgstr "Escarmouches"
+
+msgid "section/formations/history/battles"
+msgstr "Batailles en tant que membre"
+
+msgid "section/formations/history/dates"
+msgstr "Date d'arrivée/de départ"
+
+msgid "section/formations/history/datesPattern"
+msgstr "%(date1)s–%(date2)s"
+
+msgid "section/formations/history/team"
+msgstr "Équipe"
+
+msgid "section/formations/history/title"
+msgstr "Historique des équipes du joueur"
+
+msgid "section/formations/joinDate"
+msgstr "Date d'arrivée : %s"
+
+msgid "section/formations/rank"
+msgstr "Grade du joueur : %s"
+
+msgid "section/formations/team/completedSeason"
+msgstr "Season %s (terminée)"
+
+msgid "section/formations/team/find"
+msgstr "Aller à la recherche d'équipe permanente"
+
+msgid "section/formations/team/league"
+msgstr "Échelle : %(league)s. Division : %(division)s. Place : %(position)s."
+
+msgid "section/formations/team/none"
+msgstr "Vous ne faites pas partie d'une équipe permanente."
+
+msgid "section/formations/team/none/thirdperson"
+msgstr "Le joueur ne fait pas partie d'une équipe permanente."
+
+msgid "section/formations/team/season"
+msgstr "Season %s"
+
+msgid "section/formations/team/seasonBattles"
+msgstr "Batailles classées"
+
+msgid "section/formations/team/seasonWinRate"
+msgstr "Victoires cette saison"
+
+msgid "section/formations/team/title"
+msgstr "Équipe \"%s\""
+
+msgid "section/formations/team/type"
+msgstr "Équipe"
+
+msgid "section/formations/title"
+msgstr "Unités tactiques"
+
+msgid "section/formations/tooltip/fort/battles/body"
+msgstr "Nombre total d'incursions, dont :\n• Victoires : %(wins)s\n• Défaites : %(losses)s\n• Égalités : %(draws)s"
+
+msgid "section/formations/tooltip/fort/battles/header"
+msgstr "Incursions"
+
+msgid "section/formations/tooltip/fort/level/body"
+msgstr "Le niveau du bastion est équivalent au niveau de son Centre de commandement."
+
+msgid "section/formations/tooltip/fort/level/header"
+msgstr "Niveau du bastion"
+
+msgid "section/formations/tooltip/fort/link/body"
+msgstr "Cliquez pour voir les faits d'armes du bastion du clan."
+
+msgid "section/formations/tooltip/fort/link/header"
+msgstr "Faits d'armes du bastion"
+
+msgid "section/formations/tooltip/fort/resourceRating/body"
+msgstr "Votre place"
+
+msgid "section/formations/tooltip/fort/resourceRating/header"
+msgstr "Cote de chasseur de ressources"
+
+msgid "section/formations/tooltip/fort/sorties/body"
+msgstr "Nombre total d'escarmouches jouées, dont :\n• Victoires : %(wins)s\n• Défaites : %(losses)s\n• Égalités : %(draws)s"
+
+msgid "section/formations/tooltip/fort/sorties/header"
+msgstr "Escarmouches"
+
+msgid "section/formations/tooltip/team/link/body"
+msgstr "Cliquez pour voir le profil de l'équipe."
+
+msgid "section/formations/tooltip/team/link/header"
+msgstr "Profil de l'équipe"
+
+msgid "section/formations/tooltip/team/seasonBattles/body"
+msgstr "Nombre total de batailles classées jouées en tant que membre de cette équipe, dont :\n• Victoires : %(wins)s\n• Défaites : %(losses)s\n• Égalités : %(draws)s"
+
+msgid "section/formations/tooltip/team/seasonBattles/header"
+msgstr "Batailles classées"
+
+msgid "section/formations/tooltip/team/seasonWinRate/body"
+msgstr "Taux total de victoires en batailles classées"
+
+msgid "section/formations/tooltip/team/seasonWinRate/header"
+msgstr "Victoires"
+
+msgid "section/hof/BrowserView/closeBtn"
+msgstr "FERMER"
+
+msgid "section/hof/achievementsRatingsBtn"
+msgstr "Aller au classement"
+
+msgid "section/hof/achievementsRatingsTitle"
+msgstr "Classements par faits d'armes\nen batailles aléatoires"
+
+msgid "section/hof/betaBtn"
+msgstr "BÊTA"
+
+msgid "section/hof/betaTooltip"
+msgstr "Le Panthéon et le classement de World of Tanks\nsont en phase de test bêta"
+
+msgid "section/hof/mainDescription"
+msgstr "Voir vos performances en bataille et votre position dans les classements parmi les autres joueurs sur la période sélectionnée."
+
+msgid "section/hof/mainTitle"
+msgstr "Panthéon"
+
+msgid "section/hof/notAvailable/tooltip/body"
+msgstr "Le Panthéon est temporairement indisponible. Veuillez réessayer plus tard."
+
+msgid "section/hof/notAvailable/tooltip/header"
+msgstr "Attention"
+
+msgid "section/hof/statusBtn/hideResults"
+msgstr "Afficher les résultats"
+
+msgid "section/hof/statusBtn/showResults"
+msgstr "Masquer les résultats"
+
+msgid "section/hof/statusDescription/exclusion"
+msgstr "La demande pour dissimuler vos résultats dans les classements a été soumise, elle sera traitée lors du prochain ajustement des résultats."
+
+msgid "section/hof/statusDescription/hideResults"
+msgstr "Les résultats de votre classement sont maintenant cachés aux autres joueurs."
+
+msgid "section/hof/statusDescription/inclusion"
+msgstr "La demande a été envoyée et elle sera traitée lors du prochain ajustement des positions du classement. Les résultats de votre classement sont maintenant visibles par les autres joueurs."
+
+msgid "section/hof/statusDescription/showResults"
+msgstr "Les résultats de votre classement sont affichés pour tous les joueurs, amis et camarades de clans."
+
+msgid "section/hof/title"
+msgstr "Panthéon"
+
+msgid "section/hof/vehiclesRatingsBtn"
+msgstr "Aller aux classements"
+
+msgid "section/hof/vehiclesRatingsTitle"
+msgstr "Classements par véhicules\nen batailles aléatoires"
+
+msgid "section/statistics/bodyBar/label/charts"
+msgstr "Infographies"
+
+msgid "section/statistics/bodyBar/label/clan10"
+msgstr "Rang X"
+
+msgid "section/statistics/bodyBar/label/clan6"
+msgstr "Rang VI"
+
+msgid "section/statistics/bodyBar/label/clan8"
+msgstr "Rang VIII"
+
+msgid "section/statistics/bodyBar/label/detailed"
+msgstr "Statistiques"
+
+msgid "section/statistics/bodyBar/label/fortBattles"
+msgstr "Détails sur les incursions"
+
+msgid "section/statistics/bodyBar/label/fortSortie"
+msgstr "Détails sur les escarmouches"
+
+msgid "section/statistics/bodyBar/label/specific"
+msgstr "Spécial"
+
+msgid "section/statistics/bodyParams/label/average"
+msgstr "Score moyen par bataille"
+
+msgid "section/statistics/bodyParams/label/common"
+msgstr "Paramètres généraux"
+
+msgid "section/statistics/bodyParams/label/fortBattles"
+msgstr "Incursions"
+
+msgid "section/statistics/bodyParams/label/fortSortie"
+msgstr "Escarmouches"
+
+msgid "section/statistics/bodyParams/label/record"
+msgstr "Score record"
+
+msgid "section/statistics/bodyParams/label/resource"
+msgstr "Ressources industrielles"
+
+msgid "section/statistics/chart/class/tooltip/body"
+msgstr "Le nombre total de batailles à bord de véhicules de cette classe"
+
+msgid "section/statistics/chart/class/tooltip/header"
+msgstr "Classe de véhicules : %(value)s"
+
+msgid "section/statistics/chart/level/tooltip/body"
+msgstr "Nombre de batailles dans les véhicules de ce rang"
+
+msgid "section/statistics/chart/level/tooltip/header"
+msgstr "Rang du véhicule : %(value)s"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/body"
+msgstr "Seuls les véhicules de rangs VI à VIII peuvent combattre dans ce mode de bataille."
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/header"
+msgstr "Rang du véhicule : %(value)s"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/body"
+msgstr "Seuls les véhicules de rangs VIII à X peuvent combattre dans ce mode de bataille."
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/header"
+msgstr "Rang du véhicule : %(value)s"
+
+msgid "section/statistics/chart/nation/tooltip/body"
+msgstr "Nombre de batailles dans les véhicules de cette nation"
+
+msgid "section/statistics/chart/nation/tooltip/header"
+msgstr "Nation du véhicule : %(value)s"
+
+msgid "section/statistics/chart/place/tooltip/body"
+msgstr "Le nombre total de batailles en occupant cette place"
+
+msgid "section/statistics/chart/place/tooltip/header"
+msgstr "Place occupée : %(value)s"
+
+msgid "section/statistics/chart/type/tooltip/body"
+msgstr "Nombre de batailles dans des véhicules de ce rang"
+
+msgid "section/statistics/chart/type/tooltip/header"
+msgstr "Type de véhicule : %(value)s"
+
+msgid "section/statistics/charts/byClassLabel"
+msgstr "Par classe"
+
+msgid "section/statistics/charts/byLevelLabel"
+msgstr "Par rang"
+
+msgid "section/statistics/charts/byNationLabel"
+msgstr "Par nation"
+
+msgid "section/statistics/charts/byPlaceLabel"
+msgstr "Par place occupée"
+
+msgid "section/statistics/charts/byTypeLabel"
+msgstr "Par type"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortOther"
+msgstr "Dégâts aux véhicules ennemis étourdis par le joueur"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortSelf"
+msgstr "Dégâts aux véhicules ennemis étourdis par vous"
+
+msgid "section/statistics/detailed/avgDamage"
+msgstr "Dégâts infligés aux véhicules ennemis"
+
+msgid "section/statistics/detailed/avgDestroyedVehicles"
+msgstr "Véhicules ennemis détruits"
+
+msgid "section/statistics/detailed/avgDetectedEnemies"
+msgstr "Véhicules ennemis repérés"
+
+msgid "section/statistics/detailed/avgHealthRepaired"
+msgstr "Points de structure restaurés"
+
+msgid "section/statistics/detailed/avgPoiCaptured"
+msgstr "Points d'intérêt capturés"
+
+msgid "section/statistics/detailed/avgPrestigePoints"
+msgstr "Points de prestige"
+
+msgid "section/statistics/detailed/avgReceivedDamage"
+msgstr "Dégâts reçus"
+
+msgid "section/statistics/detailed/avgRoleSkillUsed"
+msgstr "Compétences de rôle utilisées"
+
+msgid "section/statistics/detailed/damageCoefficient"
+msgstr "Taux de dégâts"
+
+msgid "section/statistics/detailed/dealOutDamage"
+msgstr "Dégâts"
+
+msgid "section/statistics/detailed/destroyed"
+msgstr "Détruit"
+
+msgid "section/statistics/detailed/destructionCoefficient"
+msgstr "Taux de destruction"
+
+msgid "section/statistics/detailed/killed"
+msgstr "Véhicules ennemis détruits"
+
+msgid "section/statistics/detailed/maxDestroyedVehicles"
+msgstr "Maximum détruits en bataille"
+
+msgid "section/statistics/detailed/receivedDamage"
+msgstr "Dégâts reçus"
+
+msgid "section/statistics/detailed/stunNumber"
+msgstr "Nombre d'étourdissements"
+
+msgid "section/statistics/headerText/all"
+msgstr "Aléatoire et compagnie de chars"
+
+msgid "section/statistics/headerText/battleRoyaleSolo"
+msgstr "Traqueur d'acier"
+
+msgid "section/statistics/headerText/battleRoyaleSquad"
+msgstr "Traqueur d'acier"
+
+msgid "section/statistics/headerText/clan"
+msgstr "Carte globale"
+
+msgid "section/statistics/headerText/comp7"
+msgstr "Offensive"
+
+msgid "section/statistics/headerText/epicRandom"
+msgstr "Grande bataille"
+
+msgid "section/statistics/headerText/fallout"
+msgstr "Ravages"
+
+msgid "section/statistics/headerText/fortifications"
+msgstr "Batailles de bastion"
+
+msgid "section/statistics/headerText/historical"
+msgstr "Batailles historiques"
+
+msgid "section/statistics/headerText/ranked_10x10"
+msgstr "Bataille classée"
+
+msgid "section/statistics/headerText/ranked_15x15"
+msgstr "Bataille classée en 15v15"
+
+msgid "section/statistics/headerText/staticTeam"
+msgstr "Équipe : batailles classées"
+
+msgid "section/statistics/headerText/team"
+msgstr "Équipe : batailles non classées"
+
+msgid "section/statistics/labels/battlesOnTech"
+msgstr "Batailles jouées dans les véhicules"
+
+msgid "section/statistics/scores/achievementsCount"
+msgstr "Récompenses"
+
+msgid "section/statistics/scores/armorUsing"
+msgstr "Efficacité de l'utilisation du blindage"
+
+msgid "section/statistics/scores/avgAssistedDamage"
+msgstr "Dégâts moyens infligés grâce à votre aide"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortOther"
+msgstr "Dégâts infligés grâce à l'aide du joueur"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortSelf"
+msgstr "Dégâts infligés grâce à votre aide"
+
+msgid "section/statistics/scores/avgDamage"
+msgstr "Dégâts moyens par bataille"
+
+msgid "section/statistics/scores/avgExperience"
+msgstr "EXP. moyenne par bataille"
+
+msgid "section/statistics/scores/avgExperience/short"
+msgstr "Expérience"
+
+msgid "section/statistics/scores/avgPrestigePoints"
+msgstr "Nombre moyen de Points de prestige par bataille"
+
+msgid "section/statistics/scores/avgVictoryPoints"
+msgstr "Nombre moyen de points de victoire"
+
+msgid "section/statistics/scores/capturePoints"
+msgstr "Points de capture de base"
+
+msgid "section/statistics/scores/clan/summaryDamageCoefficient"
+msgstr "Coefficient de dégâts moyen"
+
+msgid "section/statistics/scores/coolSigns"
+msgstr "Insignes de maîtrise : As du char"
+
+msgid "section/statistics/scores/droppedCapturePoints"
+msgstr "Points de défense de base"
+
+msgid "section/statistics/scores/flagsAbsorbed"
+msgstr "Drapeaux détruits"
+
+msgid "section/statistics/scores/flagsDelivered"
+msgstr "Drapeaux rapportés"
+
+msgid "section/statistics/scores/fort/battles"
+msgstr "Incursions"
+
+msgid "section/statistics/scores/fort/battlesWinsEfficiency"
+msgstr "Victoires"
+
+msgid "section/statistics/scores/fort/resource"
+msgstr "Quantité moyenne de butin pillé par escarmouche"
+
+msgid "section/statistics/scores/fort/sortie"
+msgstr "Escarmouches"
+
+msgid "section/statistics/scores/fort/sortieWinsEfficiency"
+msgstr "Victoires en escarmouches"
+
+msgid "section/statistics/scores/fortBattles/attacks"
+msgstr "Attaques"
+
+msgid "section/statistics/scores/fortBattles/defences"
+msgstr "Actions défensives"
+
+msgid "section/statistics/scores/fortBattlesTotalWins"
+msgstr "Victoires en incursions"
+
+msgid "section/statistics/scores/fortSortie"
+msgstr "Escarmouches"
+
+msgid "section/statistics/scores/fortSortieTotalWins"
+msgstr "Victoires en escarmouches"
+
+msgid "section/statistics/scores/fortSorties/AvgResources"
+msgstr "Quantité moyenne de butin pillé par escarmouche"
+
+msgid "section/statistics/scores/fortSorties/totalResources"
+msgstr "Quantité totale de butin pillé en escarmouches"
+
+msgid "section/statistics/scores/fortTotalBattles"
+msgstr "Incursions"
+
+msgid "section/statistics/scores/hits"
+msgstr "Coups au but"
+
+msgid "section/statistics/scores/killDeathRatio"
+msgstr "Taux de destruction"
+
+msgid "section/statistics/scores/looting"
+msgstr "Pillages"
+
+msgid "section/statistics/scores/maxDamage"
+msgstr "Dégâts maximum en une bataille"
+
+msgid "section/statistics/scores/maxEquipmentDamageDealt"
+msgstr "Maximum de dégâts infligés par les compétences en une bataille"
+
+msgid "section/statistics/scores/maxExperience"
+msgstr "EXP. max. gagnée en une bataille"
+
+msgid "section/statistics/scores/maxPrestigePoints"
+msgstr "Nombre maximum de Points de prestige en une bataille"
+
+msgid "section/statistics/scores/maxVictoryPoints"
+msgstr "Record de points de victoire gagnés en une bataille"
+
+msgid "section/statistics/scores/maxWinSeries"
+msgstr "Plus grande série de victoires (solo et peloton/super-peloton)"
+
+msgid "section/statistics/scores/poiCaptured"
+msgstr "Points d'intérêt capturés"
+
+msgid "section/statistics/scores/ranked/avgFrags"
+msgstr "Nombre moyen de véhicules détruits"
+
+msgid "section/statistics/scores/ranked/avgPoints"
+msgstr "Efficacité en batailles classées"
+
+msgid "section/statistics/scores/ranked/points"
+msgstr "Points de classement"
+
+msgid "section/statistics/scores/survival"
+msgstr "Batailles survécues"
+
+msgid "section/statistics/scores/totalBattles"
+msgstr "Batailles"
+
+msgid "section/statistics/scores/totalVehs"
+msgstr "Véhicules"
+
+msgid "section/statistics/scores/totalWins"
+msgstr "Victoires"
+
+msgid "section/statistics/scores/usedTechnics"
+msgstr "Véhicules utilisés"
+
+msgid "section/statistics/title"
+msgstr "Statistiques"
+
+msgid "section/summary/errorText/nextAwards"
+msgstr "Aucune autre récompense"
+
+msgid "section/summary/errorText/significantAwards"
+msgstr "Aucune récompense importante"
+
+msgid "section/summary/labels/nextAwards"
+msgstr "Prochaines récompenses"
+
+msgid "section/summary/labels/significantAwards"
+msgstr "Récompenses majeures"
+
+msgid "section/summary/scores/averageLevel"
+msgstr "Niveau moyen"
+
+msgid "section/summary/scores/averageRank"
+msgstr "Position moyenne"
+
+msgid "section/summary/scores/avgDamage"
+msgstr "Dégâts moyens par bataille"
+
+msgid "section/summary/scores/avgExperience"
+msgstr "EXP. moyenne par bataille"
+
+msgid "section/summary/scores/coolSigns"
+msgstr "Insignes de maîtrise : As du char"
+
+msgid "section/summary/scores/damageDealt"
+msgstr "Dégâts infligés"
+
+msgid "section/summary/scores/hits"
+msgstr "Taux de coups au but"
+
+msgid "section/summary/scores/maxDestroyed"
+msgstr "Maximum détruits en bataille"
+
+msgid "section/summary/scores/maxExperience"
+msgstr "EXP. max. gagnée en une bataille"
+
+msgid "section/summary/scores/personalScore"
+msgstr "Cote personnelle"
+
+msgid "section/summary/scores/totalBattles"
+msgstr "Batailles"
+
+msgid "section/summary/scores/totalWins"
+msgstr "Victoires"
+
+msgid "section/summary/title"
+msgstr "Résumé"
+
+msgid "section/technique/awards/noAchievements"
+msgstr "Aucune récompense reçue"
+
+msgid "section/technique/buttonBar/avgExperience"
+msgstr "Exp. moyenne\npar bataille"
+
+msgid "section/technique/buttonBar/classiness"
+msgstr "Maîtrise"
+
+msgid "section/technique/buttonBar/totalBattles"
+msgstr "Batailles"
+
+msgid "section/technique/buttonBar/totalWins"
+msgstr "Victoires"
+
+msgid "section/technique/buttonBar/vehicleName"
+msgstr "Nom"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/body"
+msgstr "Voir les véhicules dans le garage"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/header"
+msgstr "Disponible dans le garage"
+
+msgid "section/technique/emptyScreenLabel/battleType/all"
+msgstr "Aucun véhicule du garage n'a combattu en bataille aléatoire ni en compagnie de chars."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSolo"
+msgstr "Aucun véhicule dans le garage n'a joué dans Traqueur d'acier."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSquad"
+msgstr "Aucun véhicule dans le garage n'a joué dans Traqueur d'acier."
+
+msgid "section/technique/emptyScreenLabel/battleType/comp7"
+msgstr "Aucun véhicule n'a combattu en mode Offensive."
+
+msgid "section/technique/emptyScreenLabel/battleType/epicRandom"
+msgstr "Aucun véhicule dans le garage n'a encore joué en mode grande bataille"
+
+msgid "section/technique/emptyScreenLabel/battleType/fallout"
+msgstr "Aucun véhicule de votre garage n'a joué en mode Ravages."
+
+msgid "section/technique/emptyScreenLabel/battleType/fortBattles"
+msgstr "Aucun véhicule dans le garage n'a joué d'incursions"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortSorties"
+msgstr "Aucun véhicule dans le garage n'a participé à des escarmouches"
+
+msgid "section/technique/emptyScreenLabel/battleType/globalMap"
+msgstr "Aucun véhicule du garage n'a combattu sur la carte globale."
+
+msgid "section/technique/emptyScreenLabel/battleType/historical"
+msgstr "Aucun véhicule du garage n'a combattu en batailles historiques."
+
+msgid "section/technique/emptyScreenLabel/battleType/ranked"
+msgstr "Aucun véhicule de votre garage n'a joué en bataille classée"
+
+msgid "section/technique/emptyScreenLabel/battleType/staticTeam"
+msgstr "Aucun véhicule dans le garage n'a participé à une bataille classée."
+
+msgid "section/technique/emptyScreenLabel/battleType/team"
+msgstr "Aucun véhicule du garage n'a combattu en batailles en équipe."
+
+msgid "section/technique/sort/tooltip/avgDamage/body"
+msgstr "Classer par dégâts moyens par bataille."
+
+msgid "section/technique/sort/tooltip/avgDamage/header"
+msgstr "Dégâts moyens"
+
+msgid "section/technique/sort/tooltip/avgFrags/body"
+msgstr "Classer par nombre de véhicules ennemis détruits en une bataille."
+
+msgid "section/technique/sort/tooltip/avgFrags/header"
+msgstr "Véhicules ennemis détruits"
+
+msgid "section/technique/sort/tooltip/avgexp/body"
+msgstr "Classer par expérience moyenne par bataille."
+
+msgid "section/technique/sort/tooltip/avgexp/header"
+msgstr "Expérience moyenne"
+
+msgid "section/technique/sort/tooltip/battlesCount/body"
+msgstr "Classer par nombre de batailles."
+
+msgid "section/technique/sort/tooltip/battlesCount/header"
+msgstr "Batailles"
+
+msgid "section/technique/sort/tooltip/class/body"
+msgstr "Classer par classe de véhicules"
+
+msgid "section/technique/sort/tooltip/class/header"
+msgstr "Classe"
+
+msgid "section/technique/sort/tooltip/lvl/body"
+msgstr "Classer par rang des véhicules."
+
+msgid "section/technique/sort/tooltip/lvl/header"
+msgstr "Rang"
+
+msgid "section/technique/sort/tooltip/marksofmastery/body"
+msgstr "Classer par insignes de maîtrise."
+
+msgid "section/technique/sort/tooltip/marksofmastery/header"
+msgstr "Maîtrise"
+
+msgid "section/technique/sort/tooltip/name/body"
+msgstr "Classer par nom des véhicules."
+
+msgid "section/technique/sort/tooltip/name/header"
+msgstr "Nom"
+
+msgid "section/technique/sort/tooltip/nation/body"
+msgstr "Classer par nation."
+
+msgid "section/technique/sort/tooltip/nation/header"
+msgstr "Nation"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/body"
+msgstr "Classer par Niveau d'élite"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/header"
+msgstr "Système d'élite"
+
+msgid "section/technique/sort/tooltip/prestigePoints/body"
+msgstr "Classer par nombre moyen de Points de prestige par bataille"
+
+msgid "section/technique/sort/tooltip/prestigePoints/header"
+msgstr "Nombre moyen de Points de prestige par bataille"
+
+msgid "section/technique/sort/tooltip/technique/body"
+msgstr "Classer par type des véhicules."
+
+msgid "section/technique/sort/tooltip/technique/header"
+msgstr "Type"
+
+msgid "section/technique/sort/tooltip/winRate/body"
+msgstr "Classer par taux de victoire."
+
+msgid "section/technique/sort/tooltip/winRate/header"
+msgstr "Victoires"
+
+msgid "section/technique/sort/tooltip/wins/body"
+msgstr "Classer par nombre de victoires."
+
+msgid "section/technique/sort/tooltip/wins/header"
+msgstr "Victoires"
+
+msgid "section/technique/statistics/accuracy"
+msgstr "Coups au but"
+
+msgid "section/technique/statistics/assistedStunDamage/shortOther"
+msgstr "Dégâts aux véhicules ennemis étourdis par le joueur"
+
+msgid "section/technique/statistics/assistedStunDamage/shortSelf"
+msgstr "Dégâts aux véhicules ennemis étourdis par vous"
+
+msgid "section/technique/statistics/avgAssistedStunDamage"
+msgstr "Dégâts infligés aux véhicules que vous avez étourdis"
+
+msgid "section/technique/statistics/avgDamage"
+msgstr "Dégâts infligés aux véhicules ennemis"
+
+msgid "section/technique/statistics/avgDestroyedVehicles"
+msgstr "Véhicules ennemis détruits"
+
+msgid "section/technique/statistics/avgDetectedEnemies"
+msgstr "Véhicules ennemis repérés"
+
+msgid "section/technique/statistics/avgExperience"
+msgstr "Expérience"
+
+msgid "section/technique/statistics/avgReceivedDamage"
+msgstr "Dégâts reçus"
+
+msgid "section/technique/statistics/avgScoutingDamage"
+msgstr "Dégâts infligés grâce à l'aide du joueur"
+
+msgid "section/technique/statistics/avgStats"
+msgstr "Score moyen par bataille"
+
+msgid "section/technique/statistics/avgStunNumber"
+msgstr "Nombre d'étourdissements"
+
+msgid "section/technique/statistics/common"
+msgstr "Paramètres généraux"
+
+msgid "section/technique/statistics/damageCoefficient"
+msgstr "Taux de dégâts"
+
+msgid "section/technique/statistics/destructionCoefficient"
+msgstr "Taux de destruction"
+
+msgid "section/technique/statistics/maxDamage"
+msgstr "Dégâts maximum dans une bataille"
+
+msgid "section/technique/statistics/maxDestroyedVehicles"
+msgstr "Maximum détruits en bataille"
+
+msgid "section/technique/statistics/maxExperience"
+msgstr "EXP. max. gagnée en une bataille"
+
+msgid "section/technique/statistics/records"
+msgstr "Score record"
+
+msgid "section/technique/statistics/stunNumber"
+msgstr "Nombre d'étourdissements"
+
+msgid "section/technique/statistics/survival"
+msgstr "Batailles survécues"
+
+msgid "section/technique/statistics/tankingCoefficient"
+msgstr "Efficacité de l'utilisation du blindage"
+
+msgid "section/technique/statistics/totalBattles"
+msgstr "Batailles"
+
+msgid "section/technique/statistics/totalWins"
+msgstr "Victoires"
+
+msgid "section/technique/tabBtn/achievements"
+msgstr "Récompenses"
+
+msgid "section/technique/tabBtn/awards/tooltip/body"
+msgstr "Voir les récompenses pour les véhicules sélectionnés."
+
+msgid "section/technique/tabBtn/awards/tooltip/header"
+msgstr "Récompenses"
+
+msgid "section/technique/tabBtn/statistic"
+msgstr "Statistiques"
+
+msgid "section/technique/tabBtn/statistic/tooltip/body"
+msgstr "Voir les statistiques pour les véhicules sélectionnés."
+
+msgid "section/technique/tabBtn/statistic/tooltip/header"
+msgstr "Statistiques"
+
+msgid "section/technique/title"
+msgstr "Véhicules"
+
+msgid "section/technique/window/hangarVehiclesLabel"
+msgstr "Disponible dans le garage"
+
+msgid "tooltip/dropdown/battleType/body"
+msgstr "Activer le filtre pour voir les statistiques par modes de bataille."
+
+msgid "tooltip/dropdown/battleType/header"
+msgstr "Classer par modes de bataille"

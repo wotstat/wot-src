@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Tanks saņemts"
+
+msgid "awardView/end"
+msgstr "PASĀKUMS BEIDZIES"
+
+msgid "awardView/info"
+msgstr "Stila Numurs"
+
+msgid "awardView/toHangar"
+msgstr "Skatīt Garāžā"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) ar numurētu stilu"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "TANKS SAŅEMTS"
+
+msgid "awardView/vehicleTitle"
+msgstr "TANKS SAŅEMTS"
+
+msgid "commonTexts/aboutButton"
+msgstr "PAR PASĀKUMU"
+
+msgid "commonTexts/closeBtn"
+msgstr "AIZVĒRT"
+
+msgid "commonTexts/eventTitle"
+msgstr "MONTĀŽAS VEIKALS"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Atcelt"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Iztērēt"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Nav atlikuši tanki ar numurētiem stiliem. Jūs saņemsiet %(vehicleName)s bez numura.\nVai esiet pārliecināti, ka vēlieties iztērēt resursus?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "Jūs saņemsiet %(vehicleName)s bez numura"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Atpakaļ uz Garāžu"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Visi iztērētie resursi tikt atgriezti jūsu kontam drīzumā."
+
+msgid "confirm/NoVehicles/title"
+msgstr "Diemžēl, Nav Atlikušu Tanku"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Atcelt"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Iztērēt"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Progress pēc iztērēšanas: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Iztērēt resursus?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Resursu Atgriešana"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Visi iztērētie resursi tiks atgriezti jūsu kontam, un jūsu salikšanas progress tiks atiestatīts. Kamēr vien pasākums būs aktīvs, jūs varēsiet iztērēt resursus, lai iegūtu tanku."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Atgriezt visus iztērētos resursus?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Visi iztērētie resursi tiks atgriezti jūsu kontā, un jūsu montāžas progress tiks atiestatīts. %(vehicleName) tiks izvēlēts, un jūs varat iztērēt resursus, lai to saņemtu."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Atgrieziet visus iztērētos resursus un izvēlieties %(vehicleName)?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Izvēlēties Tanku"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "Jūs varat iegādāties abus transportlīdzekļus pasākuma laikā."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "Pasākuma laikā jūs varēsiet iegādāties saišķi, kas satur transportlīdzekli ar numurētu 3D stilu."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "Pirmie %(styleTanksCount) spēlētāji saņems tanku ar numurētu 3D stilu,{{@ class $br}}{{/}}pēc tam %(withoutStyleTanksCount) tanki tiks piegādāti bez numurēta 3D stila."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "PASĀKUMS BEIDZIES"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "TANKI SAŅEMTI"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "TANKS SAŅEMTS"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Atlikuši tanki"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Šis tanks jau ir jūsu Garāžā"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Tanks saņemts"
+
+msgid "eventInfo/tanksOver"
+msgstr "VAIRS NAV ATLIKUŠI"
+
+msgid "eventInfo/top/styleText"
+msgstr "Ar numuru"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Atlikuši tanki ar numuriem"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "%(regularRewardVehiclesCount) tanku piegāde standarta konfigurācijā sāksies\nkad vairs nebūs atlikuši tanki ar numuriem."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "Standarta konfigurācijā"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Atlikuši tanki"
+
+msgid "mainView/affirmative/button"
+msgstr "Sapratu!"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "Uz Atgriežamiem Resursiem"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Resursi savākti:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Resursi savākti priekš:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Atpakaļ uz Garāžu"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Izvēlieties Resursus"
+
+msgid "mainView/footer/description/text"
+msgstr "Ja nav atlikuši resursi, visi iztērētie resursi tiks atgriezti."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "Jūsu konta tips nevar piedalīties pasākumā."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Jūs Nevariet Piedalīties"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Jūs varat iegādāties abus transportlīdzekļus, bet resursus varat ieguldīt tikai vienā no tiem vienlaikus."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Izvēlieties transportlīdzekli un ieguldiet nepieciešamos resursus, lai to saliktu—bet pasteidzieties!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Pasteidzieties iztērēt nepieciešamos resursus priekš salikšanas un iegūstiet %(vehicleName)!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Visi iztērētie resursi tikt atgriezti jūsu kontam drīzumā."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "Diemžēl, Nav Atlikušu Tanku"
+
+msgid "mainView/navbar/backBtn"
+msgstr "UZ MONTĀŽAS VEIKALU"
+
+msgid "mainView/navbar/title"
+msgstr "MONTĀŽAS VEIKALS"
+
+msgid "mainView/preview/label"
+msgstr "Pirmsapskate"
+
+msgid "mainView/timer/lastUntil"
+msgstr "Līdz"
+
+msgid "mainView/timer/leftTime"
+msgstr "Atlikušais laiks:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Aizvērt"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Tērēt Resursus"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Dati uz laiku nav pieejami"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Nav atlikušu tanku"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Atlikuši tanki ar numuriem: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Atlikuši tanki: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Universāli"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Maksimāli resursi %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "Maksimums %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Resursi savākti %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Plānu Fragmenti"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Valūtas"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "RESURSI TIEK SAVĀKTI"
+
+msgid "tankPreview/button"
+msgstr "Izvēlieties Resursus"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "Pasākuma laikā jūs varēsiet iegādāties saišķi, kas satur transportlīdzekli ar numurētu 3D stilu."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "Pirmie %(topPlayers) spēlētāji saņems tanku ar numurētu 3D stilu,\ntad %(basePlayers) tanki tiks piegādāti bez numurēta 3D stila."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "Jūs varat iegādāties abus transportlīdzekļus pasākuma laikā."
+
+msgid "tankPreview/title"
+msgstr "Savāciet un izlietojiet 100% nepieciešamo resursu un saņemiet %(vehicleInfo)!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Jūs variet skatīt iztērētos resursus jebkurā laikā un, ja nepieciešams, atgriezt tos jūsu kontam, noklikšķinot Atgriezt Resursus pogu.\nJūsu salikšanas progress tiks atiestatīts, bet jūs varēsiet iztērēt no jauna šos vai citus resursus, lai iegūtu tanku."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Atgriežamie Resursi"
+
+msgid "tooltips/counter/error/text"
+msgstr "Dati īslaicīgi nav pieejami.\nMēs strādājam pie problēmas atrisināšanas."
+
+msgid "tooltips/counter/warning/text"
+msgstr "Numurs tiek rādīts ar aizturi un var atšķirties no patiesā tanku skaita."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Izmantojiet resursus un saņemiet %(vehicleName1) un %(vehicleName2). Tanku skaits ir ierobežots."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Izmantojiet resursus un saņemiet %(vehicleName) ar numurētu 3D stilu. Tanku skaits ir ierobežots."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Būs pieejams: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s - %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Pieejams %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Pieejams pēc:%(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "Montāžas Veikals"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Noklikšķiniet, lai uzzinātu vairāk par pasākumu."
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Izvēlieties transportlīdzekli, lai ieguldītu resursus.\nJa resursi jau ir ieguldīti citā transportlīdzeklī, tie tiks atgriezti jūsu kontā."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Atlikušais laiks: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "Lai saliktu tanku, iztērējiet 100% no nepieciešamajiem resursiem. Dažādu veidu resursu attiecību var mainīt."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "Ja nav atlikuši resursi, visi iztērētie resursi tiks atgriezti."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Izvēlēti"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Iztērēti"
+
+msgid "tooltips/progressbar/title"
+msgstr "RESURSI TIEK SAVĀKTI"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "Resursu tērēšana uz laiku nav pieejama. Lūdzu mēģiniet vēlāk."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Universāli un nacionāli fragmenti."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Plānu Fragmenti"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Piešķirts par aktīvām darbībām kaujā. Var arī iegādāties par reālu naudu."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Valūtas"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Iztērēts:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "Maksimālais tērējamais šī resursa daudzums: %(maxAmount)d."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Jūs esiet savākuši nepieciešamo resursu daudzumu, lai iegūtu tanku. Jūs variet noņemt vienu resursa veidu, lai izvēlētos citu."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Resursi Savākti"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "Šis ir unikāls tanks ar savu numuru un īpašu vizuālu modifikāciju."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "Numurs tiek rādīts abās ieroča pusēs un korpusa aizmugurē. Numuri uz identiskiem tankiem nekad netiek atkārtoti un ir ierobežoti."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "Jūsu tanka atšķirīgās iezīmes var paslēpt. Noņemiet tā numurēto 3D stilu pielāgošanas ekrānā."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Tanks Ar Numuru"

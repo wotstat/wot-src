@@ -1,0 +1,194 @@
+msgid "fatal_shell/penetration_range"
+msgstr "%(from)d-%(to)d mm"
+
+msgid "fatal_shell/penetration_value"
+msgstr "%(penetration)d mm"
+
+msgid "hints/camera_flow/buttonText"
+msgstr "MELLOMROM"
+
+msgid "hints/camera_flow/pause"
+msgstr "Avansert modus (%(duration))"
+
+msgid "hints/camera_flow/pauseSimplified"
+msgstr "Pause (%(duration))"
+
+msgid "hints/camera_flow/resume"
+msgstr "Gjenoppta (%(duration))"
+
+msgid "hints/death_reason/destroyed"
+msgstr "Kjøretøy bekjempet"
+
+msgid "hints/death_reason/legacyHE"
+msgstr "Splintskade"
+
+msgid "hints/death_reason/modernHE"
+msgstr "Skade på splintduk"
+
+msgid "hints/death_reason/nonPenetrationDamage"
+msgstr "Overflateskade"
+
+msgid "hints/death_reason/penetration"
+msgstr "Direkte treff"
+
+msgid "hints/follow_pt1"
+msgstr "Venstreklikk"
+
+msgid "hints/follow_pt2"
+msgstr "for å følge dette kjøretøyet"
+
+msgid "hints/free_cam/return_previous"
+msgstr "Høyreklikk for å gå tilbake til det forrige kjøretøyet"
+
+msgid "hints/height/label"
+msgstr "Høyde"
+
+msgid "hints/height/text"
+msgstr "Juster kamerahøyde"
+
+msgid "hints/movement/label"
+msgstr "Bevegelser"
+
+msgid "hints/movement/text"
+msgstr "For å flytte på kamera, bruk %(forward)s, %(left)s, %(backward)s, %(right)s tastene."
+
+msgid "hints/skip/buttonText"
+msgstr "ESC"
+
+msgid "hints/skip/label"
+msgstr "Hopp over"
+
+msgid "hints/spectatorDown"
+msgstr "SHIFT"
+
+msgid "hints/spectatorUp"
+msgstr "SPACE"
+
+msgid "hints/speed/label"
+msgstr "Fart"
+
+msgid "hints/speed/text"
+msgstr "Juster kamerahastighet."
+
+msgid "hints/spotted_status/spotted"
+msgstr "Flekket"
+
+msgid "hints/spotted_status/unspotted"
+msgstr "Blindskudd"
+
+msgid "marker/paramName/angleFailure"
+msgstr "Ikke-penetrasjonsvinkel"
+
+msgid "marker/paramName/angleImpact"
+msgstr "Penetrasjonsvinkel"
+
+msgid "marker/paramName/angleRicochet"
+msgstr "Rikosjettvinkel"
+
+msgid "marker/paramName/armorNominal"
+msgstr "Nominell pansring {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/armorRelative"
+msgstr "Pansring {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/damageDistanceModifier"
+msgstr "Avstandsmodifikator {colorTagOpen}(helsepoeng){colorTagClose}"
+
+msgid "marker/paramName/deathReason/crew"
+msgstr "Besetning slått ut!"
+
+msgid "marker/paramName/deathReason/detonation"
+msgstr "Ammolageret eksploderte!"
+
+msgid "marker/paramName/deathReason/ignition"
+msgstr "Sett i brann!"
+
+msgid "marker/paramName/is2CaliberRuleApplied"
+msgstr "2-kaliber regel"
+
+msgid "marker/paramName/is3CaliberRuleApplied"
+msgstr "3-kaliber regel"
+
+msgid "marker/paramName/nonArmored"
+msgstr "Ingen pansring"
+
+msgid "marker/paramName/shellArmorAngleGain"
+msgstr "Tykkere pansring pga. skråvinkel {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellCaliber"
+msgstr "Kaliber {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBasic"
+msgstr "Gjennomsnittlig skade {colorTagOpen}(helsepoeng){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBurst"
+msgstr "Potensiell skade {colorTagOpen}(helsepoeng){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/legacyHE"
+msgstr "Splintskade forårsaket {colorTagOpen}(helsepoeng){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/modernHE"
+msgstr "Skade på splintduk forårsaket {colorTagOpen}(helsepoeng){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/nonPenetrationDamage"
+msgstr "Overflateskade forårsaket {colorTagOpen}(helsepoeng){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/penetration"
+msgstr "Skade forårsaket {colorTagOpen}(helsepoeng){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossDistance"
+msgstr "Redusert på avstand {colorTagOpen}(helsepoeng){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionHe"
+msgstr "Blokkert av pansring {colorTagOpen}(helsepoeng){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionSpallLiner"
+msgstr "Redusert av utstyr {colorTagOpen}(helsepoeng){colorTagClose}"
+
+msgid "marker/paramName/shellDamageRandomizationFactor"
+msgstr "Tilfeldig skade {colorTagOpen}(helsepoeng){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationBasic"
+msgstr "Gjennomsnittlig penetrasjon {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationEffective"
+msgstr "Penetrasjon {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellVelocityBasic"
+msgstr "Granathastighet {colorTagOpen}(m/s){colorTagClose}"
+
+msgid "marker/paramName/shootDistance"
+msgstr "Avstand {colorTagOpen}(m){colorTagClose}"
+
+msgid "marker/paramName/shootDistanceUnspotted"
+msgstr "Fiende ikke oppdaget"
+
+msgid "marker/value/angle/exact"
+msgstr "%(value)s°"
+
+msgid "marker/value/angle/less"
+msgstr "< %(value)s°"
+
+msgid "marker/value/angle/more"
+msgstr "> %(value)s°"
+
+msgid "marker/value/applied"
+msgstr "Montert"
+
+msgid "marker/value/dashes"
+msgstr "--"
+
+msgid "marker/value/failed"
+msgstr "Ingen"
+
+msgid "marker/value/notAffected"
+msgstr "--"
+
+msgid "marker/value/signNegative"
+msgstr "- %(value)s"
+
+msgid "marker/value/signPositive"
+msgstr "+ %(value)s"
+
+msgid "marker/value/unspotted"
+msgstr "Ikke oppdaget"

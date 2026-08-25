@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT-vertaler <noreply@wargaming.net>\nLanguage-Team: WoT-team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sBekijk%(linkEndTag)s details van speler"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sAanvraag voor clan%(titleEndTag)s\nvan %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Aanvragen bekijken"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sSchakel%(linkEndTag)s berichten uit"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sAanvragen van spelers: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sBekijk%(linkEndTag)s details van clan"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sUitnodiging voor clan%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Uitnodigingen bekijken"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sClanuitnodigingen: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "Speler is toegelaten tot de clan."
+
+msgid "clans/state/app/declined"
+msgstr "Aanvraag afgewezen."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "De eendaagse sanctie van de speler voor het verlaten van de vorige clan is nog niet verlopen."
+
+msgid "clans/state/invite/accepted"
+msgstr "Je bent toegelaten tot de clan."
+
+msgid "clans/state/invite/declined"
+msgstr "Uitnodiging afgewezen."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "De eendaagse sanctie voor het verlaten van je vorige clan is nog niet verlopen."
+
+msgid "errors/creationNotAllowed"
+msgstr "Onvoldoende rechten om een uitnodiging te maken."
+
+msgid "errors/invalid"
+msgstr "Ongeldige uitnodiging."
+
+msgid "errors/inviteNotSupported"
+msgstr "Dit type uitnodiging is nu niet beschikbaar. Probeer het later opnieuw."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "De ontvanger van de uitnodiging heeft je aan zijn zwarte lijst toegevoegd."
+
+msgid "errors/selfinvite"
+msgstr "Je kunt jezelf niet uitnodigen."
+
+msgid "errors/unknownuser"
+msgstr "Deze gebruiker is nog niet geregistreerd."
+
+msgid "errors/useroffline"
+msgstr "Deze gebruiker is offline."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "Het voertuig in de garage is beschadigd of vergrendeld. Kies een ander voertuig."
+
+msgid "friendship/note/approved"
+msgstr "Speler toegevoegd aan vriendenlijst"
+
+msgid "friendship/note/canceled"
+msgstr "Verzoek afgewezen"
+
+msgid "friendship/note/maxRoster"
+msgstr "Maximum aantal contacten in de lijst: %(rosterMaxCount)s. Om deze speler aan je vriendenlijst toe te voegen, verwijder eerst iemand uit de lijst."
+
+msgid "friendship/note/notConnected"
+msgstr "Kan geen verbinding maken met de server. Even wachten alsjeblieft."
+
+msgid "friendship/note/process"
+msgstr "Aan het wachten op antwoord van de server"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sVriendschapsverzoek%(titleEndTag)s\nvan %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Akkoord"
+
+msgid "gui/buttons/cancel"
+msgstr "Annuleren"
+
+msgid "gui/buttons/reject"
+msgstr "Afwijzen"
+
+msgid "gui/buttons/send"
+msgstr "Versturen"
+
+msgid "gui/labels/additionalText"
+msgstr "Overige tekst:"
+
+msgid "gui/labels/inviteText"
+msgstr "Uitnodigingstekst:"
+
+msgid "gui/labels/receiver"
+msgstr "Ontvanger:"
+
+msgid "gui/titles/barter"
+msgstr "Handelsuitnodiging"
+
+msgid "gui/titles/clan"
+msgstr "Clanuitnodiging"
+
+msgid "gui/titles/invite"
+msgstr "Uitnodiging"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Uitnodigingen"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit de tactische eenheid worden verwijderd en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit de tactische eenheid worden verwijderd en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch worden uitgesloten van het gevecht op de Wereldkaart en worden overgeplaatst naar de %(host)s-server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit de tactische eenheid worden verwijderd en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit de tactische eenheid worden verwijderd en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit de tactische eenheid worden verwijderd en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch de teamtraining in de Frontlinie-modus verlaten en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit de tactische eenheid worden verwijderd en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Zodra je de uitnodiging accepteert, zul je de teamgevechtsmodus verlaten en overgeplaatst worden naar de %(host)s-server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit het peloton worden verwijderd en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "Zodra je de uitnodiging accepteert, zul je Vestingen: Gevechten verlaten en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "Wanneer je de uitnodiging accepteert, zul je de huidige Offensiefmodus verlaten en overgeplaatst worden naar de %(host)s-server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit het Verkenningsmissie-peloton worden verwijderd en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch worden uitgesloten van teamtraining en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "Zodra je de uitnodiging accepteert, zul je Vestingen: Gevechten verlaten en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit het peloton worden verwijderd en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "Wanneer je de uitnodiging accepteert, zul je de huidige afdeling verlaten en overgeplaatst worden naar de %(host)s-server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uitgesloten worden van het toernooi en overgeplaatst worden naar de %(host)s-server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uitgesloten worden van teamtraining en overgeplaatst worden naar de %(host)s-server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch de teamtraining in de Bestorming-modus verlaten en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Zodra je de uitnodiging accepteert, zul je de teamgevechtsmodus verlaten en overgeplaatst worden naar de %(host)s-server."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "Zodra je de uitnodiging accepteert, zul je Staaljager verlaten en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Zodra je de uitnodiging accepteert, zul je Grote jacht verlaten en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "Zodra je de uitnodiging accepteert, zul je Bestorming verlaten en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "Zodra je de uitnodiging accepteert, zul je Bestorming Light verlaten en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "Zodra je de uitnodiging accepteert, zul je Frontlinie verlaten en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "Zodra je de uitnodiging accepteert, zul je +++Event battle+++ verlaten en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "Zodra je de uitnodiging accepteert, zul je Verkenningsmissie verlaten en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "Zodra je de uitnodiging accepteert, zul je Topografie verlaten en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "Zodra je de uitnodiging accepteert, zul je Willekeurige gevechten verlaten en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "Zodra je de uitnodiging accepteert, zul je de Klassementsgevechten-modus verlaten en worden overgeplaatst naar de %(host)s-server."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "Zodra je de uitnodiging accepteert, zul je Warming-up verlaten en naar de %(host)s-server worden overgeplaatst."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "Zodra je de uitnodiging accepteert, zul je Warming-up verlaten en naar de %(host)s-server worden overgeplaatst. Je kunt er dan niet opnieuw aan beginnen."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit de tactische eenheid worden verwijderd."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit de tactische eenheid worden verwijderd."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uitgesloten worden van het gevecht op de Wereldkaart."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit de tactische eenheid worden verwijderd."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit de tactische eenheid worden verwijderd."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit de tactische eenheid worden verwijderd."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch de teamtraining in de Frontlinie-modus verlaten."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit de tactische eenheid worden verwijderd."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Zodra je de uitnodiging accepteert zul je de teamgevechtsmode verlaten."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit het peloton worden verwijderd."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "Zodra je de uitnodiging accepteert, zul je Vestingen: Gevechten verlaten."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "Wanneer je de uitnodiging accepteert, zul je de Offensief modus verlaten."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit het Verkenningsmissie-peloton worden verwijderd."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "Zodra je de uitnodiging accepteert, zal je automatisch worden uitgesloten van teamtraining."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "Zodra je de uitnodiging accepteert, zul je Vestingen: Gevechten verlaten."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uit het peloton worden verwijderd."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "Wanneer je de uitnodiging accepteert, zul je de huidige afdeling verlaten."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch uitgesloten worden van het toernooi."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "Zodra je de uitnodiging accepteert, zal je automatisch uitgesloten worden van teamtraining."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Zodra je de uitnodiging accepteert, zul je automatisch de teamtraining in de Bestorming-modus verlaten."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Zodra je de uitnodiging accepteert zul je de teamgevechtsmode verlaten."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "Zodra je de uitnodiging accepteert, zul je Staaljager verlaten."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Zodra je de uitnodiging accepteert, zul je Grote jacht verlaten."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "Zodra je de uitnodiging accepteert, zul je Bestorming verlaten."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "Zodra je de uitnodiging accepteert, zul je Bestorming Light verlaten."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "Zodra je de uitnodiging accepteert, zul je Frontlinie verlaten."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "Zodra je de uitnodiging accepteert, zul je +++Event battle+++ verlaten."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "Zodra je de uitnodiging accepteert, zul je Verkenningsmissie verlaten."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "Zodra je de uitnodiging accepteert, zul je Topografie verlaten."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "Zodra je de uitnodiging accepteert, zul je Willekeurige gevechten verlaten."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "Zodra je de uitnodiging accepteert, zul je de Klassementsgevechten-modus verlaten."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "Zodra je de uitnodiging accepteert, zul je Warming-up verlaten."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "Zodra je de uitnodiging accepteert, zul je Warming-up verlaten. Je kunt er dan niet opnieuw aan beginnen."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Serverwijzigingen zullen nu worden opgeslagen."
+
+msgid "invites/note/server_change"
+msgstr "Je zult automatisch overgeplaatst worden naar de %(host)s-server."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Je kunt de uitnodiging niet accepteren. Om de uitnodiging te accepteren, moet je de %(host)s-server selecteren."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Je ben niet in staat de uitnodiging te accepteren. Om de uitnodiging te accepteren, selecteer een andere server."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Je zit al in het peloton."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Je hebt je al bij het gevecht op de wereldkaart gevoegd."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Je doet al mee aan teamtraining."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Je hebt je al bij het peloton gevoegd."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Je hebt je al bij het peloton gevoegd."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Je bent al toegetreden tot de afdeling."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Je hebt je al bij het peloton gevoegd."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Je hebt je al bij het toernooi gevoegd."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Je doet al mee aan teamtraining."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Je doet al mee aan teamtraining."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Je hebt je al bij het team gevoegd."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Uitnodiging geaccepteerd."
+
+msgid "invites/state/DECLINED"
+msgstr "Uitnodiging afgewezen."
+
+msgid "invites/state/ERROR"
+msgstr "Uitnodiging ongeldig."
+
+msgid "invites/state/EXPIRED"
+msgstr "Ongeldige uitnodiging."
+
+msgid "invites/state/REVOKED"
+msgstr "Uitnodiging ingetrokken."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Uitnodiging voor toetreding tot Staaljagerpeloton"
+
+msgid "invites/text/COMP7"
+msgstr "Uitnodiging om het Bestorming-peloton te betreden"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Uitnodiging om het Bestorming Light-peloton te betreden"
+
+msgid "invites/text/EPIC"
+msgstr "Uitnodiging om het Frontlinie-peloton te betreden"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Uitnodiging om mee te doen aan teamtraining in de Frontliniemodus"
+
+msgid "invites/text/EVENT"
+msgstr "Uitnodiging voor het peloton"
+
+msgid "invites/text/FALLOUT"
+msgstr "Uitnodiging voor het peloton voor %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Dominatie"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Staaljacht"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Uitnodiging voor het gevecht"
+
+msgid "invites/text/MAPBOX"
+msgstr "Uitnodiging voor toetreding tot Verkenningsmissie-peloton"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Uitnodiging om kaarten te verkennen"
+
+msgid "invites/text/SORTIE"
+msgstr "Uitnodiging voor toetreding tot de afdeling"
+
+msgid "invites/text/SQUAD"
+msgstr "Uitnodiging voor het peloton"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Uitnodiging voor toetreding tot de afdeling"
+
+msgid "invites/text/TRAINING"
+msgstr "Uitnodiging om mee te doen aan teamtraining"
+
+msgid "invites/text/UNIT"
+msgstr "Uitnodiging voor toetreding tot het team"
+
+msgid "invites/text/creatorName"
+msgstr "van %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Verdedigingsperiode"
+
+msgid "invites/text/fort/direction"
+msgstr "Bruggenhoofd"
+
+msgid "invites/text/fort/offence"
+msgstr "Aanval op"
+
+msgid "invites/warning/anonymized"
+msgstr "Zodra je de uitnodiging accepteert, zullen je werkelijke in-game naam en clantag tijdens het gevecht aan leden van de tactische eenheid worden getoond."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Uitnodiging verstuurd aan %(name)s."

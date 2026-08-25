@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Jármű megszerezve"
+
+msgid "awardView/end"
+msgstr "AZ ESEMÉNY BEFEJEZŐDÖTT"
+
+msgid "awardView/info"
+msgstr "Stílus sorszáma"
+
+msgid "awardView/toHangar"
+msgstr "Megtekintés a Garázsban"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) számozott stílussal"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "JÁRMŰ MEGSZEREZVE"
+
+msgid "awardView/vehicleTitle"
+msgstr "JÁRMŰ MEGSZEREZVE"
+
+msgid "commonTexts/aboutButton"
+msgstr "AZ ESEMÉNY RÉSZLETEI"
+
+msgid "commonTexts/closeBtn"
+msgstr "BEZÁRÁS"
+
+msgid "commonTexts/eventTitle"
+msgstr "ÖSSZESZERELŐ MŰHELY"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Mégse"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Elköltöm"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Nem maradt több számozott stílussal ellátott jármű. A következő járművet szám nélkül fogod megkapni: %(vehicleName)s.\nBiztos vagy benne, hogy elköltöd rá a nyersanyagokat?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "A következő járművet szám nélkül fogod megkapni: %(vehicleName)s"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Vissza a Garázsba"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Minden elköltött nyersanyag hamarosan visszakerül a fiókodba."
+
+msgid "confirm/NoVehicles/title"
+msgstr "Sajnos nincs több jármű"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Mégse"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Elköltöm"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Előrehaladás a költést követően: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Elköltöd a nyersanyagokat?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Nyersanyagok visszaküldése"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Minden elköltött nyersanyag visszakerül a fiókodba, és az összeszerelésed előrehaladása alaphelyzetbe áll vissza. Amíg az esemény aktív, újra elköltheted az nyersanyagokat, hogy megszerezz egy járművet."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Visszaküldesz minden elköltött nyersanyagot?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Minden elköltött nyersanyag visszakerül a fiókodba, és az összeszerelésed előrehaladása alaphelyzetbe áll vissza. A következő járművet választod: %(vehicleName), ennek megszerzésére költheted a nyersanyagaidat."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Visszaküldöd az összes elköltött nyersanyagot, és kiválasztod ezt a járművet: %(vehicleName)?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Jármű kiválasztása"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "Mindkét járművet megvásárolhatod az esemény ideje alatt."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "Az esemény során megvásárolhatsz egy csomagot, amelyben egy számozott 3D-stílussal ellátott járművet találsz."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "Az első %(styleTanksCount) játékos egy számozott 3D-stílussal ellátott járművet kap,{{@ class $br}}{{/}}majd további %(withoutStyleTanksCount) járművet szállítunk le számozott 3D-stílus nélkül."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "AZ ESEMÉNY BEFEJEZŐDÖTT"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "MEGSZERZETT JÁRMŰVEK"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "JÁRMŰ MEGSZEREZVE"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Megmaradt járművek"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Ez a jármű már megtalálható a Garázsodban"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Jármű megszerezve"
+
+msgid "eventInfo/tanksOver"
+msgstr "NEM MARADT TÖBB"
+
+msgid "eventInfo/top/styleText"
+msgstr "Számozott"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Megmaradt számozott járművek"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "%(regularRewardVehiclesCount) normál konfigurációjú jármű szállítását akkor fogjuk\nelkezdeni, ha már nem maradt több számozott jármű."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "Normál konfigurációban"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Megmaradt járművek"
+
+msgid "mainView/affirmative/button"
+msgstr "Értettem"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "A nyersanyagok visszaküldéséhez"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Összegyűjtött nyersanyagok:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Összegyűjtött nyersanyagok ehhez:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Vissza a Garázsba"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Nyersanyagok kiválasztása"
+
+msgid "mainView/footer/description/text"
+msgstr "Ha nincs már több jármű, az összes elköltött nyersanyag visszakerül a fiókodba."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "Ezzel a fióktípussal nem vehetsz részt az eseményen."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Nem vehetsz részt"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Mindkét járművet megvásárolhatod, de egyszerre csak az egyikbe fektethetsz nyersanyagokat."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Válassz egy járművet, és fektesd be a szükséges nyersanyagokat az összeszereléséhez – de siess!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Siess, és költsd el az összeszereléshez szükséges nyersanyagokat, hogy megszerezd ezt a járművet: %(vehicleName)!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Minden elköltött nyersanyag hamarosan visszakerül a fiókodba."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "Sajnos nincs több jármű"
+
+msgid "mainView/navbar/backBtn"
+msgstr "AZ ÖSSZESZERELŐ MŰHELYBE"
+
+msgid "mainView/navbar/title"
+msgstr "ÖSSZESZERELŐ MŰHELY"
+
+msgid "mainView/preview/label"
+msgstr "Előnézet"
+
+msgid "mainView/timer/lastUntil"
+msgstr "Eddig:"
+
+msgid "mainView/timer/leftTime"
+msgstr "Hátralévő idő:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Bezárás"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Nyersanyagok elköltése"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Az adatok átmenetileg nem állnak rendelkezésre"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Nincs több jármű"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Megmaradt számozott járművek: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Megmaradt járművek: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Univerzális"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Maximális nyersanyag %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "Legfeljebb %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Összegyűjtött nyersanyagok %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Tervrajztöredékek"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Fizetőeszközök"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "NYERSANYAGOK GYŰJTÉSE"
+
+msgid "tankPreview/button"
+msgstr "Nyersanyagok kiválasztása"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "Az esemény során megvásárolhatsz egy csomagot, amelyben egy számozott 3D-stílussal ellátott járművet találsz."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "Az első %(topPlayers) játékos egy számozott 3D-stílussal ellátott járművet kap,\nmajd további %(basePlayers) járművet szállítunk le számozott 3D-stílus nélkül."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "Mindkét járművet megvásárolhatod az esemény ideje alatt."
+
+msgid "tankPreview/title"
+msgstr "Gyűjtsd össze, és költsd el a szükséges nyersanyagok 100%-át, hogy megszerezd ezt a járművet: %(vehicleInfo)!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Az elköltött nyersanyagokat bármikor megnézheted, és ha szükséges, a Nyersanyagok visszaküldése gombra kattintva visszaküldheted őket a fiókodba.\nAz összeszerelésed előrehaladása alaphelyzetbe áll vissza, de újra elköltheted ezeket, illetve más nyersanyagokat egy jármű megszerzésére."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Nyersanyagok visszaküldése"
+
+msgid "tooltips/counter/error/text"
+msgstr "Az adat átmenetileg nem érhető el.\nDolgozunk a probléma megoldásán."
+
+msgid "tooltips/counter/warning/text"
+msgstr "A szám késleltetve jelenik meg, és eltérhet a járművek tényleges számától."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Használj fel nyersanyagokat, és tiéd lehet egy %(vehicleName1) és egy %(vehicleName2). A járművek száma korlátozott."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Használj fel nyersanyagokat, és a tiéd lehet egy %(vehicleName), mégpedig számozott 3D-stílussal! A járművek száma korlátozott."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Elérhető ekkor: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s - %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Elérhető: %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Elérhető: %(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "Összeszerelő műhely"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Kattins az esemény további részleteiért"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Válassz egy járművet, amelybe nyersanyagokat szeretnél befektetni.\nHa már fektettél be nyersanyagokat egy másik járműbe, akkor azok visszakerülnek a fiókodba."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Hátralévő idő: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "Egy jármű összeszereléséhez költsd el a szükséges nyersanyagok 100%-át. A különböző nyersanyagtípusok arányát módosíthatod."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "Ha nincs már több jármű, az összes elköltött nyersanyag visszakerül a fiókodba."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Kiválasztva"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Elköltve"
+
+msgid "tooltips/progressbar/title"
+msgstr "Nyersanyagok gyűjtése"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "A nyersanyagok elköltése átmenetileg nem érhető el. Kérjük, próbáld újra később."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Univerzális és nemzeti töredékek."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Tervrajztöredékek"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Jutalom a csatában végrehajtott tetteidért. Megvásárolható valós pénzért is."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Fizetőeszközök"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Elköltve:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "A maximálisan elkölthető mennyiség ebből a nyersanyagból: %(maxAmount)d."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Összegyűjtötted a szükséges mennyiségű nyersanyagot egy jármű megszerzéséhez. Eltávolíthatsz egy nyersanyagtípust, hogy másikat válassz."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Nyersanyagok összegyűjtve"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "Ez egy egyedi jármű saját számmal és egy különleges vizuális módosítással."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "A szám megjelenik a löveg mindkét oldalán és a járműtest hátulján is. Az azonos járműveken lévő számok soha nem ismétlődnek és korlátozottan állnak rendelkezésre."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "A járműved megkülönböztető ismertetőjegyeit elrejtheted. A számozott 3D-stílusát a Testreszabás képernyőn távolíthatod el."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Számozott jármű"

@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "Avbryt sökning"
+
+msgid "buttons/cancelSearch/description"
+msgstr "Klicka för att avbryta sökning efter plutonsmedlemmar."
+
+msgid "buttons/createPlatoon/caption"
+msgstr "Ny pluton"
+
+msgid "buttons/createPlatoon/description"
+msgstr "Skapa en pluton för att bjuda in vänner och spela tillsmamans."
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "Ny superpluton"
+
+msgid "buttons/findPlayers/caption"
+msgstr "Hitta spelare"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "Hitta spelare med liknande färdighetsnivå och vagnar genom att använda sökfiltret."
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "Alla inbjudningar du skickat till vänner avbryts om du börjar söka efter spelare online."
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "Hitta spelare"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "Du kan inte söka efter spelare: för många plutoner på servern."
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "Du kan inte söka efter spelare för en pluton: lämpliga vagnar saknas."
+
+msgid "buttons/invite/player/caption"
+msgstr "Bjud in spelare"
+
+msgid "buttons/invite/player/description"
+msgstr "Klicka för att bjuda in spelare."
+
+msgid "buttons/invite/players/caption"
+msgstr "Bjud in spelare"
+
+msgid "buttons/invite/players/description"
+msgstr "Klicka för att bjuda in spelare till en pluton."
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "Lämna pluton"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "Klicka för att lämna plutonen."
+
+msgid "buttons/mute/caption"
+msgstr "Avaktivera röstchatt för plutonen"
+
+msgid "buttons/mute/description"
+msgstr "Klicka för att avaktivera plutonens röstchatt."
+
+msgid "buttons/notReady/caption"
+msgstr "Inte redo"
+
+msgid "buttons/notReady/description"
+msgstr "Klicka om du inte är redo att gå i strid."
+
+msgid "buttons/ready/caption"
+msgstr "Redo!"
+
+msgid "buttons/ready/description"
+msgstr "Klicka om du är redo att gå i strid."
+
+msgid "buttons/reset/caption"
+msgstr "Återställ sökfilter"
+
+msgid "buttons/reset/description"
+msgstr "Klicka för att återställa sökfiltret."
+
+msgid "buttons/settings/caption"
+msgstr "Ange sökfilter"
+
+msgid "buttons/settings/description"
+msgstr "Sök efter spelare som matchar ditt sökfilter. Ju längre tid det tar att hitta spelare, desto mer breddas sökningen."
+
+msgid "buttons/unMute/caption"
+msgstr "Aktivera röstchatt för plutonen"
+
+msgid "buttons/unMute/description"
+msgstr "Klicka för att aktivera plutonens röstchatt."
+
+msgid "headerButton/inSquad"
+msgstr "I pluton"
+
+msgid "headerButton/onboarding"
+msgstr "DU KAN NU SÖKA EFTER SPELARE\nFÖR EN PLUTON"
+
+msgid "headerButton/searching"
+msgstr "Söker..."
+
+msgid "headerButton/squad"
+msgstr "Skapa pluton"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "Delta i en pluton med en kamrat. Samarbeta mot nio fiendeplutoner."
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "Pluton"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "Du kan inte skapa eller gå med i plutoner eftersom du tillfälligt är avstängd från det här stridsläget."
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "Du kan inte skapa eller gå med i plutoner eftersom du måste ha minst en vagn klass %(level)s i garaget som kan delta i striderna."
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "Plutonsskapande tillfälligt ej tillgängligt."
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "Plutoner ej tillgängliga"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "Du kan skapa en pluton eller gå med i den existerande. I Pansarstorm Light kan plutoner bestå av 2 eller 7 spelare."
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "Pluton"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "Du kan inte skapa eller gå med i plutoner eftersom du inte har en giltig vagn klass %(level)s i garaget."
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "När kvalet är över blir plutoner med 2 eller 7 spelare tillgängliga."
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "Kan inte skapa en pluton."
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "Plutoner ej tillgängliga"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "Skapa en pluton eller gå med i en existerande. Plutoner i Pansarstorm kan bestå av 2 eller 7 spelare."
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "Pluton"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "Skapa en taktiskt enhet med 2 eller 3 spelare för samarbetsspel.\n• Spellägen: Härjning\n• Stridstyper: Pansarjakt, Kontrollstrid."
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "Pluton"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "Skapa en taktisk enhet med 2 till 3 spelare för att delta i Det stora loppet."
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "Racingpluton"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "Klicka för att öppna plutonsmenyn."
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "Spaningsuppdrag: Pluton"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "Klicka för att öppna plutonsmenyn."
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "Pluton"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "Skapa en pluton för 2 eller 3 spelare för att samarbeta i Spaningsuppdraget."
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "Spaningsuppdrag: Pluton"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "Taktiska enheter är inte tillåtna i Rankade strider."
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "Skapa pluton"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "Söker efter spelare..."
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "Söker"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Skapa en taktisk enhet bestående av 2 eller 3 spelare för samverkan i slumpvis matchade strider och frontstrider (när de är tillgängliga)"
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Pluton"
+
+msgid "members/card/connectionLost"
+msgstr "Anslutningen avbruten"
+
+msgid "members/card/disabled"
+msgstr "Striderna stöder bara tvåmannaplutoner"
+
+msgid "members/card/disabledVertical"
+msgstr "Ej tillgängligt för dessa strider"
+
+msgid "members/card/empty"
+msgstr "Tom plats"
+
+msgid "members/card/inBattle"
+msgstr "I strid"
+
+msgid "members/card/muted/caption"
+msgstr "Spelaren tystad"
+
+msgid "members/card/muted/description"
+msgstr "Klicka för att tillåta spelarens röstchatt."
+
+msgid "members/card/notReady"
+msgstr "Inte redo"
+
+msgid "members/card/searching"
+msgstr "Söker efter spelare..."
+
+msgid "members/card/selectVehicle"
+msgstr "Välj en vagn klass %(level)s"
+
+msgid "members/chat/chatName"
+msgstr "Chattkanal:"
+
+msgid "members/chat/sendMessage/body"
+msgstr "Klicka för att skicka ett meddelande till en chattkanal."
+
+msgid "members/chat/sendMessage/header"
+msgstr "Skicka meddelande"
+
+msgid "members/footer/comp7Invite"
+msgstr "Bjud in"
+
+msgid "members/footer/comp7Limitations"
+msgstr "Gradbegränsning"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "Högsta spelargrad i plutonen"
+
+msgid "members/footer/getNotReady"
+msgstr "Klicka för att indikera att du inte är redo."
+
+msgid "members/footer/getReady"
+msgstr "Bekräfta att du är redo att gå med i striden."
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "Felaktig vagnsklass"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "Erfarenhetsavdrag för olämplig plutonssammansättning!"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "Vagnsgränsen uppnådd"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "Plutonen innehåller maximalt antal pansarvärnskanonvagnar"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "Plutonen innehåller maximalt antal artillerivagnar"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "Plutonen innehåller maximalt antal tunga stridsvagnar"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "Plutonen innehåller maximalt antal medeltunga stridsvagnar"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "Plutonen innehåller maximalt antal lätta stridsvagnar"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "Plutonen innehåller maximalt antal pansarbilar"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "Plutonen innehåller maximalt antal lätta stridsvagnar"
+
+msgid "members/header/battle_royal"
+msgstr ": Pansarjakt"
+
+msgid "members/header/epic"
+msgstr ": Frontstrider"
+
+msgid "members/header/event"
+msgstr ": Waffenträger: Projekt Hyperion"
+
+msgid "members/header/mapbox"
+msgstr ": Spaningsuppdrag"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP HEADER PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr ": slumpvis matchad strid"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "Frontstrider är endast tillgängliga\nför vagnar klass VIII."
+
+msgid "members/header/tooltip/epic/header"
+msgstr "Regler för plutonsskapande"
+
+msgid "members/header/tooltip/event/body"
+msgstr "Plutonen måste bestå av tre av stridslägets specialvagnar."
+
+msgid "members/header/tooltip/event/header"
+msgstr "Regler för plutonsskapande"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "Plutonen bör bestå av vagnar av samma klass."
+
+msgid "members/header/tooltip/standard/header"
+msgstr "Regler för plutonsskapande"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Spelare i plutonen"
+
+msgid "searching/estimated/caption"
+msgstr "Upskattad tid"
+
+msgid "searching/estimated/lessThan"
+msgstr "mindre än %(seconds)d s"
+
+msgid "searching/estimated/moreThan"
+msgstr "mer än %(seconds)d s"
+
+msgid "searching/expanded/body"
+msgstr "Inga spelare hittades med det ursprungliga sökfiltret.\nSökningen breddades för att inkludera fler vagnsklasser."
+
+msgid "searching/expanded/header"
+msgstr "Sökfiltret breddat"
+
+msgid "searching/lookingFor"
+msgstr "Söker efter:"
+
+msgid "searching/playersInQueue"
+msgstr "Spelare i kö"
+
+msgid "searching/state"
+msgstr "Söker:"
+
+msgid "settings/tiers"
+msgstr "Föredragen vagnsklass"
+
+msgid "settings/voice"
+msgstr "Föredra spelare med röstchatt"
+
+msgid "squad"
+msgstr "Pluton"

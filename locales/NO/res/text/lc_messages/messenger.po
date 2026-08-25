@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "Se nye meldinger"
+
+msgid "battle/history/header"
+msgstr "Fiendens lag"
+
+msgid "battle/history/latestMessage"
+msgstr "Se den siste meldingen"
+
+msgid "battle/history/title"
+msgstr "Chathistorikk:"
+
+msgid "battle/history/upMessage"
+msgstr "Se gamle meldinger"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)sCHAT SKRUDD AV%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "Kampchat er ikke tilgjengelig for spillere fra ditt land."
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "Kampchat er ikke tilgjengelig for din konto."
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "Kampchat er skrudd av fra foreldrekontroll."
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "Kampchat kan skrus på i innstillingene."
+
+msgid "battle/receivers/common"
+msgstr "TIL ALLE"
+
+msgid "battle/receivers/squad"
+msgstr "TIL LAG"
+
+msgid "battle/receivers/team"
+msgstr "TIL LAG"
+
+msgid "battle/toolTips/cancel"
+msgstr "avbryt"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "endre mottager"
+
+msgid "battle/toolTips/default"
+msgstr "med foregående mottager"
+
+msgid "battle/toolTips/duringChat"
+msgstr "Under chat:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "Du kan blokkere meldinger fra de valgte spillerne ved å klikke på knappen ved spillerens meldinger i chat."
+
+msgid "battle/toolTips/send"
+msgstr "send"
+
+msgid "battle/toolTips/startChat"
+msgstr "Start chat:"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "Du kan rapportere en melding ved å klikke på det og velge årsaken for klagen. Det valget lar deg også slå av chat eller sette chat til bare for allierte. Troppchat vil alltid være tilgjengelig."
+
+msgid "battle/toolTips/usingChat"
+msgstr "Chat"
+
+msgid "battle/toolTips/withSquad"
+msgstr "med laget"
+
+msgid "battle/unknown/ally"
+msgstr "Alliert"
+
+msgid "battle/unknown/enemy"
+msgstr "Fiendens lag"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "Din forbindelse til serveren vil bli stengt kl.%(curfewTime)s. Denne sesjonen avsluttes om %(timeLeft)s min."
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "Du har nådd den daglige grensen for spilletid. Denne sesjonen avsluttes om %(timeLeft)s min."
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "Du har nådd ukesgrensen for spilletid. Denne sesjonen avsluttes om %(timeLeft)s min."
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "Du har nådd grensen for spilletid. Denne omgangen blir avsluttet om %(timeLeft)s min."
+
+msgid "chat/personalMessage/warningBody"
+msgstr "Meldinger fra ukjente spillere kan inneholde skadelige linker. Ikke klikk/følg linkene og ikke del ditt passord med noen."
+
+msgid "chat/personalMessage/warningHead"
+msgstr "Obs!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "Kampresultater"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "Meldinger fra %(playerName)s er blokkert."
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "Send melding"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "Send melding"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "Søk etter spiller"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "Innstillinger for stemmechat"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "du kan ikke blokkere deg selv."
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "Feil ved utførelsen av \"%(actionName)s\"."
+
+msgid "chat_error/IS_BUSY"
+msgstr "Server er opptatt."
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "ikke tillatt å utføre operasjonen."
+
+msgid "chat_error/NOT_READY"
+msgstr "Handlingen \"%(actionName)s\" er ikke tilgjengelig."
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "brukeren finnes ikke."
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "ugyldig parameter."
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "Stemmechat deaktivert. For å kommunisere med dine troppskamerater, aktivér stemmechat ved å trykke %(keyName)s."
+
+msgid "client/COMP7/disableVOIP"
+msgstr "Stemmechat deaktivert. For å kommunisere med dine troppmedlemmer, aktivér stemmechat (%(keyName)s)."
+
+msgid "client/commendations/comms_mutual"
+msgstr "Du og %(player)s anbefalte hverandre."
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)s anbefalte deg."
+
+msgid "client/commendations/comms_sent"
+msgstr "%(player)s har blitt anbefalt."
+
+msgid "client/dynSquad/created/allies"
+msgstr "Dine allierte opprettet en tropp %(squadNum)s."
+
+msgid "client/dynSquad/created/enemies"
+msgstr "Tropp %(squadNum)s opprettet i fiendens lag."
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "Tropp %(squadNum)s opprettet. Tropp chat og stemmechat er nå tilgjengelig. For å skru av stemmechat, trykk %(keyName)s."
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "Tropp %(squadNum)s opprettet. Tropp chat og stemmechat er nå tilgjengelig. For å skru på stemmechat, trykk %(keyName)s."
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "Tropp nr: %(squadNum)s opprettet. Tropp chat og stemme chat er nå tilgjengelig. Tildel en tast for å iverksette/skru av stemme chat."
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "Tropp %(squadNum)s opprettet. Troppchat er nå tilgjengelig."
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "Du har sluttet deg til troppen %(squadNum)s. Tropp chat og stemmechat er nå tilgjengelig. For å skru av stemmechat, trykk %(keyName)s."
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "Du har sluttet deg til troppen %(squadNum)s. Tropp chat og stemmechat er nå tilgjengelig. For å skru på stemmechat, trykk %(keyName)s."
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "Du har blitt med i tropp nr: %(squadNum)s. Tropp chat og stemme chat er nå tilgjengelig. Tildel en tast for å iverksette/skru av stemme chat."
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "Du har blitt med i tropp %(squadNum)s. Troppchat er nå tilgjengelig."
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "Stemmechat deaktivert. For å kommunisere med dine troppmedlemmer, aktivér stemmechat ved å trykke %(keyName)s."
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "Stemmechat aktivert."
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "Du har sluttet deg til troppen %(squadNum)s. Tropp chat og stemmechat er nå tilgjengelig. For å skru av stemmechat, trykk %(keyName)s."
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "Du har sluttet deg til troppen %(squadNum)s. Tropp chat og stemmechat er nå tilgjengelig. For å skru på stemmechat, trykk %(keyName)s."
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "Du har blitt med i tropp nr: %(squadNum)s. Tropp chat og stemme chat er nå tilgjengelig. Tildel en tast for å iverksette/skru av stemme chat."
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "Du har blitt med i tropp %(squadNum)s. Troppchat er nå tilgjengelig."
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s har blitt med i tropp %(squadNum)s."
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s inviterte deg til en tropp."
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)s inviterte deg til en tropp.\nMerk! Ditt faktiske spillernavn og klanmerke blir vist til troppsmedlemmer."
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s invitert til tropp."
+
+msgid "client/error/broadcastInCooldown"
+msgstr "Du kan ikke sende meldinger i %s sek."
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "Kommando \"%s\" er suspendert i %s sek."
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "Kommando %s er suspendert."
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "Melding holdes. Vennligst vent %s s."
+
+msgid "client/information/addToFriends/message"
+msgstr "Forespørsel om å legge til spilleren %s i din venneliste er lagret."
+
+msgid "client/information/addToIgnored/message"
+msgstr "Forespørselen din om å legge til spilleren %s i din svarteliste har blitt lagret. Chat med denne spilleren er blokkert og spillerens meldinger vises ikke."
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "Chat med %s er blokkert; spillernes meldinger skjules."
+
+msgid "client/information/emptySearchResult/message"
+msgstr "Fant ingen resultat."
+
+msgid "client/information/removeFromFriends/message"
+msgstr "Forespørsel om å fjerne spilleren %s fra din venneliste er lagret."
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "Din forespørsel om å fjerne spilleren %s fra svartelisten din har blitt lagret. Chat med spilleren er gjenopprettet."
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "Chat med %s er tilgjengelig igjen."
+
+msgid "client/information/setMuted/message"
+msgstr "%s har ikke tillatelse til å sende deg talebeskjeder."
+
+msgid "client/information/unsetMuted/message"
+msgstr "%s har tillatelse til å sende deg talebeskjeder."
+
+msgid "client/warning/AFKWarning/message"
+msgstr "Inaktivitet vil bli straffet!\nLagsamarbeid er påkrevet for seier!"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "Tomt søk"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "Finn brukere"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "Feil lengde eller feil tegn i søkefeltet. Antall tegn skal være mellom %d og %d."
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "Finn brukere"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "Legg spiller til i venneliste"
+
+msgid "client_action/ADD_GROUP"
+msgstr "Opprett gruppe"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "Legg spiller til i svarteliste"
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "Bekreft venneforespørsel"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "Avslå venneforespørsel"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "Redigér gruppe"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "Opprett spillerkanal"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "Søk etter spiller"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "Opprett forbindelse til spillerkanal"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "Forlat spillerkanal"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "Fjern spiller fra venneliste"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "Fjern spiller fra svarteliste"
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "Slett notat"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "Send venneforespørsel"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "Se tidligere meldinger"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "Søk spillerkanaler"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "Send melding"
+
+msgid "client_action/SET_MUTE"
+msgstr "Deaktivér talebeskjeder"
+
+msgid "client_action/SET_NOTE"
+msgstr "Opprett/rediger melding"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "Aktivér talebeskjeder"
+
+msgid "client_error/action/in_cooldown"
+msgstr "Handlingen \"%(actionName)s\" er fryst i %(floatArg1)s s."
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "Handlingen \"%(actionName)s\" er midlertidig utilgjengelig. Prøv igjen senere."
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "Du har nådd maks antall kanaler tillatt. Vennligst lukk undøvendige kanaler og prøv på nytt."
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "Kanal \"%(strArg1)s\" eksisterer fra før."
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "Kanalnavnet er ikke spesifisert."
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "Ugyldig kanalnavn \"%(strArg1)s\"."
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "Passordbekreftelse samsvarer ikke med det skrevne passordet."
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "Kanalpassord er ikke spesifisert."
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "Ugyldig kanalpassord."
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "Passordbekreftelse ikke spesifisert."
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "Ugyldig passordbekreftelse."
+
+msgid "client_error/command/generic_error"
+msgstr "Feil ved kjøring av kommandoen \"%(strArg1)s\"."
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "kommandoen fryst i %(floatArg1)s."
+
+msgid "client_error/command/not_supported"
+msgstr "kommandoen %(strArg1)s støttes ikke av klienten."
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "ugyldig varighet på utestengelse %(int64Arg1)s."
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "ugyldig type utestengelse %(int32Arg1)s."
+
+msgid "client_error/command/wrong_player_name"
+msgstr "ugyldig spillernavn %(strArg1)s."
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "Spiller \"%(strArg1)s\" er i din svarteliste."
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "Spilleren \"%(strArg1)s\" er ikke på din svarteliste."
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "Spiller ikke funnet."
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "Du har allerede bekreftet venneforepørselen fra \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "Du har allerede avslått venneforepørselen fra \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "Ditt svar til venneforespørselen fra \"%(strArg1)s\" blir prosessert."
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "Gruppenavn ikke spesifisert."
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "Gruppe \"%(strArg1)s\" eksisterer allerede."
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "Ugyldig gruppenavn \"%(strArg1)s\""
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "Gruppe \"%(strArg1)s\" ikke funnet."
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "Talebeskjeder aktiv for spiller \"%(strArg1)s\"."
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "Meldingstekst ikke spesifisert."
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "Ingen meldinger til spiller \"%(strArg1)s\""
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "Spiller \"%(strArg1)s\" er din venn."
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "Spiller \"%(strArg1)s\" ble ikke funnet i din kontaktliste."
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "Kanalnavnet må bestå av %(int32Arg1)s–%(int32Arg2)s tegn."
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "Gruppenavn kan ikke inneholde mer enn %(int32Arg2)s symboler."
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "Maks antall spillere i svarteliste %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "Maks antall grupper opprettet %(int32Arg2)s."
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "Desverre kan du ikke ha mer enn %(int32Arg2)s spillere i din kontaktliste. Fjern spillere du ikke spiller med."
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "Teksten i meldingen kan ikke overstige %(int32Arg2)s symboler."
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "Passordet må bestå av %(int32Arg1)s–%(int32Arg2)s tegn."
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "Ugyldig spiller ID"
+
+msgid "client_error/shared/GENERIC"
+msgstr "Feil ved utførelsen av \"%(actionName)s\""
+
+msgid "client_error/shared/LOCKED"
+msgstr "Handlingen \"%(actionName)s\" er midlertidig utilgjengelig. Prøv igjen senere."
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "Spillernavn ikke spesifisert."
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "Ugyldig spillernavn %(strArg1)s"
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "Kan ikke opprette forbindelse til chat-server. Prølv igjen senere."
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "Handlingen \"%(actionName)s\" støttes ikke av spillklienten."
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "En feil oppstod, prøv igjen senere."
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "Noen funksjoner er deaktivert til nedtellingen begynner."
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "Ugyldige data spesifisert."
+
+msgid "command/acceptInvite"
+msgstr "Akseptér invitasjon"
+
+msgid "command/addFriend"
+msgstr "Legg spiller til i vennelista"
+
+msgid "command/addIgnored"
+msgstr "Legg til spilleren i din svartesliste"
+
+msgid "command/broadcast"
+msgstr "Send melding"
+
+msgid "command/createChatChannel"
+msgstr "Lag kanal"
+
+msgid "command/createInvite"
+msgstr "Lag invitasjon"
+
+msgid "command/createPrivate"
+msgstr "Opprett privat kanal"
+
+msgid "command/findChatChannels"
+msgstr "Søk i kanaler"
+
+msgid "command/findUser"
+msgstr "Søk etter spiller"
+
+msgid "command/getActiveInvites"
+msgstr "Hent invitasjonsliste"
+
+msgid "command/getArchiveInvites"
+msgstr "Hent arkivert invitasjonsliste"
+
+msgid "command/getMembersCount"
+msgstr "Hent antall spillere i denne kanalen"
+
+msgid "command/leaveChatChannel"
+msgstr "Forlat kanal"
+
+msgid "command/rejectInvite"
+msgstr "Avslå invitasjon"
+
+msgid "command/removeFriend"
+msgstr "Fjern denne spilleren fra vennelisten"
+
+msgid "command/removeIgnored"
+msgstr "Fjern spiller fra din svarteliste"
+
+msgid "command/requestChatChannelMembers"
+msgstr "Hent liste over klanmedlemmer"
+
+msgid "command/requestSystemChatChannels"
+msgstr "Hent liste over systemkanaler"
+
+msgid "command/setMuted"
+msgstr "Deaktivér talebeskjeder"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s er stengt ute."
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s er ikke stengt ute."
+
+msgid "command/unsetMuted"
+msgstr "Aktivér talebeskjeder"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "Klikk for å lagre den opprettede gruppen med kontakter."
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "Opprett"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "Klikk for å avbryte opprettelsen og returnere til din kontaktliste."
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "Avslutt"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "Klikk for å slette gruppen med kontakter."
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "Slett"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "Klikk for å avbryte sletting og returnér til kontaktlisten."
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "Avbryt"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "Klikk for å lagre gruppen med kontakter under et nytt navn."
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "Lagre"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "Klikk for å avbryte redigering og gå tilbake til kontaktlisten."
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "Avslutt"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "Navnet kan ikke inneholde mer enn %(maxChars)s tegn."
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "Klikk for å legg til en spiller i din kontaktliste."
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "Legg til"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "Klikk for å avbryte søk etter spiller og returnér til din kontaktliste."
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "Avslutt"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "Klikk for å søke etter spiller på navn."
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "Søk"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "Navnet må inneholde mellom %(minChars)s til %(maxChars)s bokstaver eller tall."
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "Søk sperret i %(time)s sekunder fordi du har sendt søkeforespørsler for ofte."
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "Klikk for å lagre de valgte innstillingene."
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "Bruk"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "Klikk for å avbryte endringene, og returnér til din kontaktliste."
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "Avbryt"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "Klikk for å opprette en gruppe."
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "Opprett gruppe"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "Klikk for å søke etter spiller på navn som ikke er i din kontaktliste."
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "Søk utenfor kontaktlisten"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "Klikk for å finne og legge til en spiller i din kontaktliste."
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "Søk etter spiller"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "Klikk for å endre innstillingene for kontaktlisten."
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "Innstillinger"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "Navnet må inneholde opptil %(maxChars)s bokstaver."
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "Send kommando"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "Fjern fra lag"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "Avslutt"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "Lag kanal"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "Søk og delta"
+
+msgid "dialogs/channels/title"
+msgstr "Kanaler"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "Avslutt"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "Bli med"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "Passordet må innholde 3 til 12 tegn."
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "Feil passord."
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "Du forsøker å koble til sikret kanal %s."
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "Skriv inn passord:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "Advarsel"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "Koble til kanal"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "Invitér til klanen"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "Legg til i vennelista"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "Legg til i svartelista"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "Kopiér til utklippstavle"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "Opprett privat kanal"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "Overfør gull"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "Fjern fra vennelista"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "Fjern fra svartelista"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "Se karakteristikk"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "Sortér etter navn."
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "Sortér etter status."
+
+msgid "dialogs/contacts/title"
+msgstr "Liste over kontakter"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "Klan"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "Venner"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "Venneforespørsler"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "Svarteliste"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "Talemeldinger deaktivert"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "Avslutt"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "Opprett"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "Vil automatisk bli opprettet"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "Skriv inn passord"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "Kanalnavn"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "Passord"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "Bekreft passord"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "Passord kreves"
+
+msgid "dialogs/createChannel/title"
+msgstr "Lag kanal"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "Velg %(vehName)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "Velg et kjøretøy på nivå %(level)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "Velg kjøretøy"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "Velg et kjøretøy på nivå %(level)s"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "Kjøretøy: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "8-10"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "10"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "10"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "8-10"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "10"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "Avslutt"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "Bli med"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "Søk"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "Søkeresultat (første %d):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "Søk"
+
+msgid "dialogs/searchChannel/title"
+msgstr "Søk i kanal"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "Legg til venn"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "Svarteliste"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "Avslutt"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "Søk"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "Informasjon"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "Søkeresultat:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "Søk"
+
+msgid "dialogs/searchContact/title"
+msgstr "Finn kontakt"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "Brukerstøtte kanal"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "Velg et nivå 8 kjøretøy"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "Hovedmålet er å bli den siste gjenværende troppen."
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "Frontlinjemodusen er kun tilgjengelig\nfor nivå 8 kjøretøy."
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ event +++\n+++ event +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "Ytterligere erfaring per kamp\nfor kjøretøy på nivå 4 eller høyere"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "Spill i kjøretøy på samme nivå\nfra nivå 4 og få ytterligere erfaringspoeng"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "Så snart spillere aksepterer invitasjonen vil ditt faktiske spillernavn og klanmerke bli vist til troppsmedlemmene gjennom hele kampen."
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "Chattekanal"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "Eksperimentelle moduler montert på kjøretøy: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "Status: Pause"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "Status: I kamp"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "Status: Ikke klar"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "Status: Offline"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "Status: Klar"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "Avslutt"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "Invitér"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "skyldig"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "mistenkt"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "Teamkill: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "Déaktiver talebeskjeder"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "Legg til i vennelista"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "Legg til i svartelista"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "Avslutt"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "Opprett privat kanal"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "Aktivér talebeskjeder"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "Total"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "Opprettet"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "Siste kamp"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "Status:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s - Spillerdetaljer"
+
+msgid "events/enterChannel"
+msgstr "[%s] har entret kanalen"
+
+msgid "events/leaveChannel"
+msgstr "[%s] har forlatt kanalen"
+
+msgid "keyboardChat"
+msgstr "Chat"
+
+msgid "listView/emptyList/info"
+msgstr "varsler"
+
+msgid "listView/emptyList/invite"
+msgstr "invitasjoner"
+
+msgid "listView/emptyList/offer"
+msgstr "spesialer"
+
+msgid "listView/emptyList/template"
+msgstr "Ingen %(listType)s ennå."
+
+msgid "listView/news/checkNewsBtn"
+msgstr "Til nyheter"
+
+msgid "listView/news/header"
+msgstr "HVA ER NYTT?"
+
+msgid "listView/title"
+msgstr "Meldingssentral"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "Kamptid: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "Send"
+
+msgid "lobby/buttons/channels"
+msgstr "Kanaler"
+
+msgid "lobby/buttons/contacts"
+msgstr "Kontakter"
+
+msgid "lobby/buttons/send"
+msgstr "Send"
+
+msgid "lobby/channels/actions/remove"
+msgstr "Steng kanal"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "Vis dato i meldinger"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "Vis tid i meldinger"
+
+msgid "lobby/faq/close"
+msgstr "Avslutt"
+
+msgid "lobby/faq/title"
+msgstr "FAQ"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "Legg denne spilleren til i din venneliste"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "Legg spilleren til i din svarteliste"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "Kopiér til utklippstavle"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "Opprett privat kanal"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "Vis spillerens detaljer"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "Søk utenfor kontaktlisten"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "Avbryt"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "Redigér gruppe"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "Slett fra gruppe"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "Slett gruppe"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "Klikk for å avbryte opprettelsen og returnere til din kontaktliste."
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "Avslutt"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "Klikk for å lagre det opprettede spillernotatet."
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "Opprett"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "Dra kontakter hit"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "Klikk for å avbryte redigering og gå tilbake til kontaktlisten."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "Avslutt"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "Klikk for å lagre redigeringen til spillerens notat."
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "Lagre"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "Ingenting funnet som passer ditt søk"
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "Permanent taktisk enhet"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "Venner"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "Andre"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "Svarteliste"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "Venneforespørsler"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "Finn en spiller i listen"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "Ingen spillere lagt til ennå."
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "Kontaktlisten er tom"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "Ingen kontakter online akkurat nå"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "Prøv å søke utenfor din kontaktliste."
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "Ingen treff"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "Skriv spillers navn."
+
+msgid "messenger/contacts/title"
+msgstr "Kontakter"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "Avslutt"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "Legg til"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "Gruppen eksisterer allerede."
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "Søk etter spiller"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "Avslutt"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "Opprett"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "Opprett notat"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "Avslutt"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "Lagre"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "Navnet kan ikke inneholde mer enn %(maxChars)s tegn."
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "Redigér notat"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "for "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "Avslutt"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "Opprett"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "Opprett gruppe"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "Skriv et navn (opp til %(symbols)s symboler)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "Inkludér kontakter i gruppen"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "Avbryt"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "Slett"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "Slett gruppe"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "Avslutt"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "Lagre"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "Redigér gruppe"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "Skriv et navn (opp til %(symbols)s symboler)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "Skriv beskrivelse (opp til %(symbols)s tegn)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "Beskrivelsen kan ikke overskride %(maxChars)s tegn."
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "Søk etter spiller"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "Godta som en gruppe i ett vindu"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "Vis offlinespillere"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "Vis \"andre\" kategori"
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "Meldinger fra spillere utenfor din kontaktliste:"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "Godta i eget vindu"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "Avbryt"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "Bruk"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "Innstillinger"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "Komponent lagt til"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "Battle Pass poeng fjernet"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "Chips fjernet"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "Maneuvers polletter fjernet"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "Komponenter fjernet"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "Personlige Fame poeng fjernet"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "Fri erfaring brukt"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "Tjenestepoeng fjernet"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "Polletter for år i tjeneste fjernet"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "Battle Pass poeng lagt til"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "Chips lagt til"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "Maneuvers polletter lagt til"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "Komponenter lagt til"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "Personlige Fame poeng lagt til"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "Frie erfaringspoeng mottatt"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "Tjenestepoeng lagt til"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "Polletter for år i tjeneste lagt til"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "Legg alle kontaktene til i mottakerlisten."
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "Legg til valgte kontakt."
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "Delete all contacts from recipient list."
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "Delete selected contact from recipient list."
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "Handling %(action)s ble suspendert i %(cooldownPeriod)s sek."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "Meldingsfeil"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "Du har nådd maksimalt antall åpne kanaler. Vennligst lukk ubenyttede kanaler."
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "Feil"
+
+msgid "server/errors/addFriendError/message"
+msgstr "Det har oppstått en feil ved å legge spilleren til din venneliste."
+
+msgid "server/errors/addFriendError/title"
+msgstr "Feil"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "Det har oppstått en feil ved å legge spilleren til din svarteliste."
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "Feil"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "Navnet på kanalen finnes allerede."
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "Feil ved oppretting av kanal."
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "Kanal slettet."
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "Det har oppstått en feil ved å gå inn i kanalen."
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "Meldingsfeil"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "Det har oppstått en feil i meldingshandling: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "Meldingsfeil"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "Kommandoen %(command)s er blokkert i %(cooldownPeriod)s sek."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "Meldingsfeil"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "Melding holdes tilbake. For mange meldinger."
+
+msgid "server/errors/connectTimeout/message"
+msgstr "Oppkobling til kanal er tidsavbrutt."
+
+msgid "server/errors/connectTimeout/title"
+msgstr "Meldingsfeil"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "Kan ikke opprette en privat kanal, brukeren er offline for tiden."
+
+msgid "server/errors/createPrivateError/title"
+msgstr "Meldingsfeil"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "Ugyldig symbol"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "Feil"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "Ugyldig parameter %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "Feil"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "Feil passord for den sikrede kanalen."
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "Det har oppstått en feil ved å gå inn i kanalen."
+
+msgid "server/errors/initializationFailure/message"
+msgstr "Oppsett av chat mislyktes."
+
+msgid "server/errors/initializationFailure/title"
+msgstr "Meldingsfeil"
+
+msgid "server/errors/internalError/message"
+msgstr "Intern feil, prøv igjen senere."
+
+msgid "server/errors/internalError/title"
+msgstr "Feil ved oppretting av kanal"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "Ugyldig kanalnavn."
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "Meldingsfeil"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "Det har oppstått en feil ved invitasjonskommandoen."
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "Feil"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "Bruker %(user)s er allerede utestengt."
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "Meldingsfeil"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "Bruker %(user)s er allerede moderator i kanalen."
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "Meldingsfeil"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "Meldingsfeil"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "Brukeren er koblet fra"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "Meldingsfeil"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "Bruker %(user)s er ikke moderator i kanalen."
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "Meldingsfeil"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "Maksimalt antall brukere i kanalen er oppnådd."
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "Feil vel tilkobling til kanal."
+
+msgid "server/errors/notAllowed/message"
+msgstr "Du har ikke tillatelse til å utføre denne handlingen."
+
+msgid "server/errors/notAllowed/title"
+msgstr "Meldingsfeil"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "Skriv inn ditt passord for å koble til den sikrede kanalen."
+
+msgid "server/errors/passwordRequired/title"
+msgstr "Feil ved å koble til kanalen"
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "Endring av denne innstillingen er for tiden ikke tilgjengelig."
+
+msgid "server/errors/sqlError/message"
+msgstr "Feil ved oppkobling til DB"
+
+msgid "server/errors/sqlError/title"
+msgstr "Feil"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "Denne brukeren har lagt deg på sin svarteliste."
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "Feil"
+
+msgid "server/errors/userNotExists/message"
+msgstr "Bruker med dette navnet eksisterer ikke."
+
+msgid "server/errors/userNotExists/title"
+msgstr "Feil"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "Du har nådd makismalt antall brukere i din kontaktliste."
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "Feil"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "Du har overskredet maks antall tillatte kanaler."
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "Du har overskredet maks antall tillatte tegn for et kanalnavn."
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "Du har overskredet maks antall tillatte tegn for et passord."
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "Kanal \"%(strArg1)s\" eksisterer fra før."
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "Ugyldige tegn i kanalnavnet."
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "Støtende ord i kanalnavnet."
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "Steel Hunter"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "Dette er spesialkjøretøy til Steel Hunter. Gå til Steel Hunter for å se hva disse kjøretøyene er gode for."
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "Kjøretøy bekjempet"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "Nivå nådd"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "Poeng tjent"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "Seier"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "Lagt til"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "Bekreftet!"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "Gå til operasjon"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "Tjenestemappe"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "Kampanje"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "Kampanjen er over."
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "WoT Plus med multiplikator for erfaringspoeng du kan styre selv er tilgjengelig"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "WoT Plus med multiplikator for erfaringspoeng du kan styre selv er ikke tilgjengelig"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "Kunne ikke etterfylle forbruksvarer på %s. Alt ditt gull blir tilgjengelig etter at WG Wallet automatisk blir operativt igjen."
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "Kunne ikke etterforsyne direktiver til %s. Operasjonen er midlertidig utilgjengelig på grunn av vedlikehold."
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "Kunne ikke etterforsyne direktivet på %s. Ikke nok midler."
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "Kunne ikke etterforsyne direktivet på %s automatisk. Vennligst utsyr den manuelt."
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "Direktivet til %s ble etterforsynt. Du har brukt "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Kunne ikke laste forbruksmateriell på %s. Vurdér å kjøpe forbruksmateriell for gull."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Kunne ikke etterfylle forbruksmateriell på %s. Ikke nok credits."
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "Kunne ikke etterfylle forbruksvarer på %s. Alt ditt gull blir tilgjengelig etter at WG Wallet automatisk blir operativt igjen."
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "Kunne ikke etterfylle forbruksmateriell på kjøretøyet %s automatisk. Etterfyll manuelt."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Forbruksmateriellet er etterfylt på %s. Det kostet "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "Kunne ikke laste ammunisjonen på %s. Vurdér å kjøpe granater for gull."
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "Kunne ikke fylle opp ammunisjonlageret på kjøretøyet %s. Ikke nok credits."
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "Kunne ikke etterfylle ammunisjon på %s. Alt ditt gull vil bli tilgjengelig etter at WG Wallet automatisk blir operativt igjen."
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "Kunne ikke etterfylle ammunisjonlageret på kjøretøyet %s automatisk. Etterfyll manuelt."
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "Ammunisjonslageret er fullt på kjøretøyet %s. Det kostet "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "Kunne ikke videreføre leien av stilen for %s. Kjøp stilen for gull."
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "Kunne ikke videreføre leien av stilen for %s. Mangler midler."
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "Kunne ikke videreføre leien av stilen for %s. Alt ditt gull blir tilgjengelig etter at funksjonaliteten til WG Wallet gjenopprettes automatisk."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "Forleng leieperiode"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "Denne %s leiestilen påført %s kjøretøy er i ferd med å utløpe: 3 gjenstående kamper."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "Leiestilen %s for %s blir automatisk forlenget med %s flere kamper etter 3 kamper."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "Til eksteriør"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "Leie av stilen %s på %s kjøretøyet har utløpt. Du kan forlenge leie av stilen på skjermen for eksteriør."
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "Kunne ikke videreføre leien av stilen for %s automatisk. Kjøp stilen manuelt."
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "Leie av stil for %s ble forlenget. Brukt "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "Kan ikke reparere kjøretøyet %s."
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "Du kan ikke reparere kjøretøyet %s. Ikke nok credits."
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "Kunne ikke reparere %s. Alt ditt gull vil bli tilgjengelig etter at WG Wallet automatisk blir operativt igjen."
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "Kan ikke reparere kjøretøyet %s automatisk. Reparér ditt kjøretøy manuelt."
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "Kjøretøyet %s er reparert. Det kostet "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "WoT Plus banner med spillernavnet ditt er tilgjengelig"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "WoT Plus banner med spillernavnet ditt er ikke tilgjengelig"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "Merker lagt til"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "WoT Plus kampbonus er tilgjengelig"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "WoT Plus kampbonus er ikke tilgjengelig"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "Oppdrag fullført: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "Du har fullført en serie med krigsskoleoppdrag."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "Polletter kan veksler til et hvilket som helst utviklingsbart kjøretøy på nivå 6."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "Til kjøretøyvalg"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "Gratulerer!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "Fullførte oppdrag i Krigsskolen: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "Belønning mottatt:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "Benyttet krigsskolepollett."
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "Belønning mottatt:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "Garasjeplasser: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "Leiekjøretøy: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "Tjen kjøretøy og nyttige resurser ved å fullføre treningsoppdrag."
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "Til krigsskolen"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "ALT DU TRENGER\nFOR Å KOMME I GANG"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "Krigsskolepollett"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "Ubenyttede poeng brukt"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "Ubenyttede poeng brukt ved aktivering av Elite Circuit: %(points)s."
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "Ubenyttede poeng brukt: %(points)s for kapittel %(chapter)s."
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "Standardutstyr å velge fra"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "Elite Circuit aktivert"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "Elite Circuit er satt på pause."
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "Poeng grense nådd"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "Du tjente maksimalt antall poeng i %(vehName)s.\nBelønning for å ha nådd poenggrensen: %(bonusPoints)s.\nKjemp i et annet kjøretøy for å fortsette å tjene poeng."
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "Gratulerer!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "Stilen %(name)s mottatt. Det kan påsettes kjøretøyet med det samme og oppgraderes i løpet av fremgangen i Battle Pass."
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "Skuddpremieutstyr å velge fra"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "Detaljer"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "Detaljer"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "Du fullførte kapittelet %(chapter)s i Battle Pass!\nBelønninger mottatt:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "Du fullførte kapittelet %(chapter)s i Battle Pass!\nBelønninger mottatt:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "Du fullførte det %(newLevel)s. fremgangstrinnet i Battle Pass.\n\nBelønning mottatt:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "Trinn lagt til i kapittel %(chapter)s: %(levelCount)s\nDu nådde %(currentLevel)s. trinn.\nBelønninger mottatt:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "Du fikk belønninger for de tidligere fullførte trinnene i Battle Pass:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "Du får nå belønningene fra både basis- og det forbedrede sporet."
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "Du fikk belønninger for de fullførte trinnene ved å bruke ubenyttede poeng:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "Du fullførte kapittelet %(chapter)s!\nBelønning mottatt:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "Fortsett å kjempe og tjene poeng!"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "Du fullførte alle kapitlene av %(season)s i Battle Pass.\nBelønning mottatt:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "Du fullførte det %(newLevel)s. fremgangstrinnet i kapittelet %(chapter)s.\nBelønning mottatt:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "Detaljer"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "Fri erfaring brukt:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "Gull brukt:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "Du kjøpte det forbedrede passet og alle trinnene til kapittelet %(chapter)s.\nBelønninger mottatt for alle trinnene i kapittelet:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "Du fikk bonus for kjøp av forbedrede pass:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "Du får nå både basis og forbedrede belønninger for alle sesongens kapitler."
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "Trinn lagt til i kapittel %(chapter)s: %(levelCount)s\nDu nådde %(currentLevel)s. trinn.\nBelønninger mottatt:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "Du fikk en bonus for kjøp av det forbedrede passet:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "Dette forbedrede passet gjelder kun til kapittel %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "Du fikk belønninger for de tidligere fullførte trinnene i Battle Pass:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "Dette forbedrede passet er bare til %(chapter)s kapittelet."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "Du får nå belønningene fra både basis- og det forbedrede sporet i %(chapter)s kapittelet."
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "Standardbelønning lagt til:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "Forbedret pass kjøpt"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "Forbedret pass kjøpt"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "Trinn kjøpt"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "Gratulerer!"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "Belønning gitt"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "Elite Circuit trinn fullført.\nBelønning mottatt:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "Elite Circuit trinn fullført: %(amount)s\nBelønning mottatt:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "Besetningsmedlem:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "Kampmeritter"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "Mottatt %s for spesialen '%s'"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "Mottatt %s for spesialen '%s'"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s polletter"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s credits"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s sedler"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "%s jubileumsmynter"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s Fri erfaring"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s gull"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "Kamp"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "Battle Pass poeng mottatt: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "Polletter mottatt"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "Detaljer"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "kompensasjon for skade påført av allierte: %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "Credits tjent: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "Sedler mottatt"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "Tap"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "3."
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "1."
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "2."
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "x%d for den første seieren hver dag"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "Uavgjort"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "Kampen avsluttet"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "Kampreservepoeng"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "Komponenter mottatt"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "Jubileumsmynter mottatt"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "Erfaring mottatt: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "Fremrykking"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "Bygning"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "Industrielle ressurser tjent"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "per klan"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "per spiller"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "Frie erfaringspoeng mottatt"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "Gull tjent"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "For å ha blitt med i %(campaignName)s, har du fått %(nameMedal)s medaljen."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "Gratulerer!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "For å ha fullført 45 oppdrag i %(categoryName)s gruppen i %(campaignName)s kampanjen, har du fått %(nameMedal)s medaljen."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "For å ha fullført 30 oppdrag i %(categoryName)s gruppen i %(campaignName)s kampanjen, har du fått %(nameMedal)s medaljen."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "For å ha fullført 15 oppdrag i %(categoryName)s gruppen i %(campaignName)s kampanjen, har du fått %(nameMedal)s medaljen."
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "bot for skade påført dine allierte: %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "Gratulerer!\nFor å ha fullført personlige oppdrag, mottar du følgende belønninger"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "Gratulerer!\nFor fullførelse av de personlige oppdragene i Long-Awaited Personal Backup kampanjen får du følgende belønninger"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "Gratulerer!\nFor fullførelse av de personlige oppdragene i Second Front kampanjen får du følgende belønninger"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "Gratulerer!\nFor fullførelse av de personlige oppdragene i begge kampanjene får du følgende belønninger"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "Lagt til i creditreserven"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Oppdrag utført! Belønning"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "Tjenestemappe"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "Battle Pass poeng mottatt: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "Flere senger lagt til i kaserna"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "Polletter lagt til"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "Credits lagt til"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "Sedler lagt til"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "Komponenter lagt til"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "Jubileumsmynter lagt til"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "Fri erfaring lagt til"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "Gull lagt til"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "Lagt til"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "Kampanjepoeng: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "Kjæledyr mottatt"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "Dager med Wargaming premiumkonto lagt til"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "Dager med WoT premiumkonto lagt til"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "Bonuskamper lagt til: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "%(count)s daglig"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "%(count)s standard"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "Garasjeplasser lagt til"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "Bonuskamper lagt til"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \nStandard, for din ytelse i de fullførte trinnene: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \nFor fullførelse av oppdrag: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \nDaglig, for antall mottatte striper i kvalifiseringen: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \nStandard, for antall mottatte striper i kvalifiseringen: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "Endringer i rangeringer"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \nStriper mottatt"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \nStriper mottatt"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \nGår over til divisjon: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \nGår over til ligaer"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \nStripe beholdt"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \nDu fikk rangen %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \nDu mistet rangen %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \nRangeringsskjold svekket"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \nIngen endringer"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \nRangeringsskjold tapt"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \nStripe beholdt"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \nStripe mottatt"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \nStripe tapt"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \nStriper mottatt"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "Rangeringspoeng"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "Du fikk følgende belønninger for din årelange tjeneste"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "Gratulerer!"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "Rekruttér"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "Kjøretøy"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "Kvinnelig besetningsmedlem"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "Teknisk tap"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "Teknisk seier"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "Seier"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "Én plass for et ekskludert kart har blitt fjernet. %(mapName)s kartet er tilbake i rotasjonen."
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "Det ekskluderte %(mapNames)s kartet har blitt fjernet fra spillet. Du kan ekskludere et annet kart."
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "Én plass for et ekskludert kart har blitt fjernet. %(mapNames)s kartet er tilbake i rotasjonen."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "Spesialen har begynt!\nI kun 10 dager kan du veksle dine tegninger til andre verdifulle ting."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "Detaljer"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "Spesial avsluttet"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "Veksle dine tegninger"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "Konvertering av tegninger er slått av på grunn av vedlikehold."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "Konvertering av tegninger er gjenopprettet."
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "Ikke glem å hente belønningene dine!"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "Gå til utvelgelse"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "Bonusene fra pågående kamper er ikke inkludert."
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "Personlig reserve \"%(boosterName)s\" er deaktivert av tekniske årsaker."
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: Personlig reserve brukt i sin helhet"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "Tapte reserver:"
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "Reserver er utgått"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "credits"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "Fri erfaring"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "Besetningserfaring"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "Erfaringspoeng"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "Total bonus på %(resourceName)s:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "Avslutt"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "Du forlot eller ble eksludert fra klanen: "
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "%(element_name)s lagt til"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "Medaljen \"%(element_name)s\" lagt til"
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "Stripen \"%(element_name)s\" lagt til"
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "Belønning hentet"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "Mottatte anbefalinger"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "Direktemerker er ikke tilgjengelig nå"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "Direktemerker er tilgjengelig i kamp"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "Anbefalinger er for tiden ikke tilgjengelig"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "Anbefalinger er tilgjengelig i kamp"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "Du har blitt tildelt %(gold)s gull, %(credits)s credits."
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "Du har blitt tildelt %(credits)s penger."
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "Besetningsassistent er tilgjengelig"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "Besetningsassistent er ikke tilgjengelig"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "Credit- og gullreserver åpnet!"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "Auksjon"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "Battle Pass"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "Dato"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "Polletter fjernet"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "Credits trukket"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "Sedler fjernet"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "Komponenter fjernet"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "Jubileumsmynter fjernet"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "Fri erfaring brukt"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "Gull trukket fra"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "Finansiell overføring"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "Auksjon"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "Polletter mottatt"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "Credits mottatt"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "Sedler mottatt"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "Komponenter mottatt"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "Jubileumsmynter mottatt"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "Frie erfaringspoeng mottatt"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "Mottatt gull"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "Hero of Our Time utmerkelse"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "%(medalName)s medaljen mottatt for å ha kjempet %(battlesCount)s kamper\nDekaler mottatt for å ha kjempet %(battlesCount)s kamper (x%(decalsCount)s)"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "Operasjoner med demonteringssett er midlertidig utilgjengelig på grunn av vedlikehold."
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "Operasjoner med demonteringssett er tilgjengelig igjen. Vi beklager eventuelle ulemper som har oppstått."
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "Bakgrunn til identitetsmerke åpnet: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "Inngravering av identitetsmerke åpnet: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "%(name)s ID-merke"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "nådd nivå"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "Nytt nivå"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "Åpnet"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "Bakgrunn"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "Gravering"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "Wargaming premiumkonto utløper %(expiryTime)s."
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "Bekreft epost"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "Epost ikke bekreftet"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "Eksperimentell modul benyttet"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "Alle eksperimentelle moduler fjernet"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "Eksperimentelle moduler demontert fra følgende kjøretøy"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "Scenario"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• Utstyrsdirektiver å velge fra"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• Battle Pass poeng"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• Universelt hefte"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• Sedler"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• Kampreservepoeng"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• Eksperimentelt utstyr å velge fra"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• Mentorlisens"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• Omskoleringsordre"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• Universell manual"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "Du har fått jubileumsmynter: %(eventCoin)s."
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "Ytterligere en plassholder for ekskluderte kart har blitt åpnet"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "Kan ikke ekskludere kart med WoT Plus"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "Årsak"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "Boosteroid abonnement avsluttet."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "Abonnement avsluttet."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "Kjøretøy utløpt"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "Kjøretøy"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "Kjøretøy tilgjengelig"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "Kjøretøy"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "Fremgangsnullstilling"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "Gå til oppdrag"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "Obs! Fremgangen på %(missionShortName)s oppdraget ble nullstilt. Fullførelsen av vilkåret starter på nytt."
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "Oppdrag: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "Operasjon: %(operation)s"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s, %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "Detaljer"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "Du har midlertidig blitt blokkert fra kamper i %(mode)s modusen. Blokkeringen opphører den %(date)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "Din midlertidige blokkering har opphørt. Du kan spille i %(mode)smodusen igjen."
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "Dine credits, erfaringspoeng og belønninger tjent i kamp har blitt fjernet for %(reason)s i %(mode)s modusen."
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "Du fikk en advarsel for %(reason)s i %(mode)s modusen."
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "Blokkering"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "Blokkering opphevet"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "Du har fått en straff"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "Usportslig oppførsel"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "Krig erklært mot klanen %(clan)s!\nFremrykking starter %(date)s kl. %(time)s."
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "Forsvaret overkjørt!\nAlle angrep er avlyst. Forsterk utholdenhetsgraden til Kommandosentralen i forsvarsverket for å fungere igjen."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "Planlagt kamp med klanen %(clan)s ble avlyst."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "Fremrykking planlagt til %(time)s den %(date)s mot %(clan)s klanen er avlyst: Forskjellen på forsvarsverkene er på mer enn 1 nivå."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "Bygningen %(building)s er skadet! Forsterk utholdenhetsgraden slik at bygningen fungerer igjen."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "Kommandosentralen er skadet! Forsterk utholdenhetsgraden til forsvarsverket for å fungere igjen. Hvis din kommandosentral blir ytterligere skadet, vil forsvaret ditt bli overkjørt."
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "Klanen %(clan)s har erklært krig mot deg!\nFremrykking starter %(date)s kl. %(time)s."
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "Forsvarsperiode satt: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "Forsvarsperioden har blitt justert. Ny forsvarsperiode: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "Forsvaret av ditt forsvarsverk er inaktivt. Nivået på alle bygningene og reservene er redusert til nivå 4."
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "Gratulerer! Du utviklet ditt forsvarsverk til nivå 8."
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "Gratulerer! Forsvarsverket er til klanens fordel nå fullt operativt."
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "Våpenhviledagen har blitt endret. Ny våpenhviledag ikke satt."
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "Dag for våpenhvile satt: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "%(building)s bygningens nivå har økt.\n%(order)s forberedte reserver ble omgjort til Industrielle ressurser og lagt til i bygningens lager."
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "Reserve %(orderTypeName)s kompensert og klar for aktivering."
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "Hjemmeserver endret til %(peripheryName)s."
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "Industrielle ressurser lagt til: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "Industrielle ressurser fjernet: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "Du er tilknyttet bygning %(building)s."
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "Reserver lagt til: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "Reserver trukket: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "Reserver %(order)s er aktive. Tid igjen: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "Reserve aktivert"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "Reserver %(order)s brukt opp."
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "Forberedelse av %(count)s Reserve(s) %(order)s fullført."
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "Evakueringsreservene er utløpt.\n\n%(additional)s\nTotalt for din klan: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "Fienden aktiverte reserverekvisisjonene og plyndret ytterligere: %(resDec)s\nDin klan var i stand til å berge: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "De rekvirerte reservene er utløpt.\n\n%(additional)s\nTotalt for vår klan: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "Fienden brukte reserveevakuering og berget ytterligere: %(resDec)s\nPlyndret av din klan: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "Lageret i bygning %(building)s er fullt.\nBruk Industrielle ressurser til å forberede transport av reserver eller transportér det til en annen bygning."
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "Nøytrailtetsperioden for ditt forsvarsverk er avsluttet.\nAndre klaner kan nå angripe deg—vær forberedt!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "Ditt forsvarsverk erklærte nøytralitet.\nAndre klaner kan ikke angripe deg nå. Nøytralitetstiden utløper om %(finish)s."
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "%(defResCount)s enheter med industrielle ressurser lagt til lageret på Kommandosentralen."
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "Gå til eventet"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "Til fremgang"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "Du har blitt tildelt %(gold)s gull."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "Auksjon: Ditt bud er lavere enn det konkurrerende budet"
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "Dine sjanser til å vinne denne auksjonen har blitt redusert: Budet ditt er nå lavere enn det konkurrerende budet."
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "Til eventet"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "Ditt bud var for lavt. Beløp du får tilbake:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "Du ble bydd over av andre spillere. Budet ditt blir snart returnert til kontoen din."
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "Feil"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "Feil ved budgivning. Ingen midler ble trukket. Vennligst prøv igjen."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "Budgivningsrunden stenger snart."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "Skynd deg og legg inn et bud!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "Skynd deg og legg inn et bud. Antall enheter er begrenset."
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "Budgivning for det nye lottet har begynt!"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "Køyer lagt til i kaserna"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "Køyer fjernet fra kaserna"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "Personlige reserver"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "Personlige reserver fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "Polletter lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "Polletter fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "Kompensasjon for"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "med polletter"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "Kamuflasje"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "credits"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "med sedler"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "Type emblem"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "med jubileumsmynter"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "gull"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "Type inskripsjon"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "Effekt"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "Maling"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "Ett-sifret tall"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "To-sifret tall"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "Tresifret tall"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "Dekal"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "Stil"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "Credits lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "Credits ble trukket fra din saldo"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "Besetningsbøker lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "bestning sendt til kaserna"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "besetning %d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "Besetningsdrakter lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "Besetningsdrakter fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "besetning %d%% sendt til kaserna"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "besetning fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "Sedler mottatt"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "Sedler fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "Personlige rabatter"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "Utmerkelser lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "Utmerkelser fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "Eksperimentelle moduler lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "Eksperimentelle moduler fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "Lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "Fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "Komponenter lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "Komponenter fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "Forbruksmateriell"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "Forbruksmateriell fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "Jubileumsmynter lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "Jubileumsmynter fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "Personlige reserver med utløpsdato"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "Ordre lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "Ordre utført"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "Fri erfaring"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "Fri erfaring lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "Fri erfaring brukt"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "Gull lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "Gull trukket fra"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "Universaldeler lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "Universaldeler fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "Kvittering"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "Lagt til i depotet"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "Forbruksmateriell fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "På kjøretøy"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "Deler av tegninger for %(nationName)s kjøretøy lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "Deler av tegninger for %(nationName)s kjøretøy fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "Lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "Fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "utstyr"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "Dager med Wargaming premiumkonto lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "Dager med Wargaming premiumkonto trukket fra"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "Wargaming premiumkonto"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "%(vehicleName)s fikk %(xpCount)s elitepoeng."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "%(vehicleName)s fikk %(xpCount)s elitepoeng og kom på %(level)s. elitenivå."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "%(vehicleName)s kom på %(level)s. elitenivå."
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "Innhold fra"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "Steam-nedlasting"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Steam-innhold"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "Bonuskamper lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "Bonuskamper fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "dagers leie: "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "Garasjeplasser lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "Plasser fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "WoT premium konto"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "Dager med WoT premiumkonto lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "Dager med WoT premium konto trukket fra"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "Rekrutter"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "Gitt udistribuert erfaring til besetningmedlemmene"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "Fjernet udistribuert erfaring fra besetningmedlemmene"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "Avskjediget"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "alle moduler utviklet"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "Deler av tegninger til %(vehicleName)s lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "Deler av tegninger til %(vehicleName)s fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "Kjøretøy lagt til"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "Kjøretøy fjernet"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "Leide kjøretøy lagt til"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "Du har blitt tildelt forbruksmateriell: %(typeName)s \"%(itemName)s\" - %(amount)d stk."
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "Til kasser"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "Klikk knappen for å se innholdet."
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "Du fikk en pakke:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Se"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "Porter aktivert: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "Aktivéring av porter"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "Ting mottatt:\n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "Vi aktiverte alle portene dine og la til inneholdet i dem til kontoen din:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Belønninger mottatt"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Vi åpnet alle eskene dine og la til belønningene for Høytidsoperasjonene"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "Belønninger mottatt"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "Dekaler lagt til: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "Dekal lagt til: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "Til spørreskjema"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "Gratulerer!"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "Rekognoseringsoppdrag er avsluttet. Takk for ditt bidrag til utviklingen av nye kart!"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "Rekognoseringsoppdrag er avsluttet.\n\nTakk for ditt bidrag til utviklingen av nye kart!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "Rekognoseringoppdrag har begynt.\n\nKjemp på kart som er under utvikling i kjøretøy på nivåene 8–10, del din mening i spørreundersøkelsene og få belønninger!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "Siste belønning:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "Du har kjempet %(battles)s kamper i rekognoseringsoppdrag."
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "Belønning mottatt:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "Du kan besvare spørreskjemaet om modusmeknismene i rekognoseringsoppdrag."
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "Spørreskjema tilgjengelig"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "Du kan besvare spørreskjemaet om %(mapName)s kartet i rekognoseringsoppdrag."
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "Gå til kaserna"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "Besetningsmeldemmer fjernet: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "Hjemmefront forsyninger"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "Utstyrsassistenten er tilgjengelig"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "Utstyrsassistenten er ikke tilgjengelig"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "Du har nye reserver:"
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "Varsel om slipp av reserver"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "Reserver som holder på å utløpe:"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "Reserver med holdbarhetsdato som du snart mister"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "Credits mottatt: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "Dato: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "Finansiell overføring:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "Lagt til i depotet: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "Kvittering"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "Ny akkumulasjonsrunde startet."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "Ny akkumulasjonssyklys påbegynt. For å tjene credits, aktivér WoT premiumkonto."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "Ny akkumulasjonssyklys påbegynt. For å tjene gull, abonnér på WoT Plus."
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "Akkumulasjon av creditsreservene har blitt stanset."
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "Creditreserven åpnet!"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "Hent belønning"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "Post-fremgangen er fullført!"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "Til fremgang"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "Post-fremgang"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "Du har fått tilgang til en spesialbelønning."
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "Klankamp"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "Kampresultater"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "Turnering"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "Tap"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "Uavgjort"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "Resultat ikke definert"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "Seier!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "Slettet av eier"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "Teknisk svikt"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "Du har blitt ekskludert"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "Teknisk nederlag"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "Teknisk uavgjort"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "Resultat ikke definert"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "Teknisk seier!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "Tiden gikk ut"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "Fullført"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(battle %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "Delvis resultat"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "Resultat"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "Wargaming premiumkonto mottatt. Utløper %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "Wargaming premiumkonto endret. Utløper %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "Wargaming premiumkonto utløpt."
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "Wargaming premiumkonto forlenget. Utløper %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "WoT premium konto mottatt. Utløper %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "WoT premium konto endret. Utløper %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "WoT premium konto utløpt."
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "WoT premium konto forlenget. Utløper %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "Du har fått Wargaming premiumkonto i %(days)d dag(er)."
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "Til elitesystemet"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "Elitenivåer og mottatte elitemerker."
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "Elitesystem"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "Til kjøretøy"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "Oppnådd elitenivå"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "En feil oppsto ved hentingen av elitebelønningen."
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "%(rewardName)s %(typeReward)s mottatt for å ha nådd elitenivå %(lvl)s."
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "Elitebelønning mottatt"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "Obs!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "Detaljer"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "Kamuflasje"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "dekal"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "emblem"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "Type inskripsjon"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(name)s %(typeName)s%(level)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "Og %(count)s mer"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr " på nivå %(level)s"
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "maling"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "dekal"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "Mottatt:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "%(name)s Stil"
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "Gratulerer!"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "Detaljer"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "Belønning for Bragd"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "Kjemp kamper og få belønninger. Jo mer du kjemper, jo nærmere er belønningene."
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "Avansert belønning mottatt:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "Detaljer"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "%(surplusPoints)s rangeringspollett(er) konvertert til %(count)s sedler."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "Gratulerer!"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "Maksimal belønning mottatt:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "Standard belønning mottatt:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "Liten belønning mottatt:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "Du tjente %(points)s rangeringspollett(er) i 2021–2022."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "Årlig belønning"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "Forsterkninger har ankommet!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "Du fikk en besetning til %(event)s."
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "Du har ikke-rekrutterte besetningsmedlemmer: %(count)s. Neste fjerning den %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "Du har ikke-rekrutterte besetningsmedlemmer: %(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "Merker fjernet"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "Kompensasjon"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "Credits lagt til for ubrukt tid for leie av %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "Gull lagt til for ubrukt tid for leie av %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "Leieperioden for %(vehicleName)s er avsluttet."
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "Tegningsdeler: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "Credits: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "Sedler: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "Detaljer"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "Fri erfaring: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "Gull: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "universale tegningsdeler"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "Nåværende fremgang: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "Ressurser brukt på prosjektet med monteringsbutikk:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "Benyttede ressurser"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "Bruk ressurser"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "Ressurser returnert til monteringsbutikken:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "Returnerte ressurser"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "Treningshefter å velge fra"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "Treningsguider å velge fra"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "Kamuflasje"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "Utførelsen av %s er utvidet pga vedlikeholdsarbeid."
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "Emblemer"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "Merker"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "Wargaming premiumkonto"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "WoT premium konto"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "Leie"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "Spillserveren vil bli utkoblet %(date)s."
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "Serverutkobling er avbrutt, utkoblingen er planlagt %(date)s."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "Tilpasning av tjenestemappe er tilgjengelig"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "Denne funksjonen har opphørt."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "Tilpasning av tjenestemappe er for tiden ikke tilgjengelig"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "Universal del (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "Nasjonal del (%(nationName)s) (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "Spesialbelønning"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "Tegningsdel for %(vehicleName)s (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "Belønning mottatt for å bekreftelse av epost:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "Gratulerer!"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "Kompensasjon mottatt for deler til tegninger av kjøretøy som allerede er utviklet:"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "Kamuflasje endret"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "Credits mottatt: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "Credits trukket: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "Sedler: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "Sedler: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "Endret ekstriørelementer."
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "Tilpasningselementer endret. Elementer kjøpt: %(count)s. Du har brukt %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "Emblemer endret"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "Jubileumsmynter lagt til: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "Jubileumsmynter fjernet: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "Fri erfaring mottatt: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "Fri erfaring trukket: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "Gull mottatt: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "Gull trukket: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "Inskripsjoner endret"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "Universale tegningsdeler"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "%(nationName)s nasjonale tegningsdeler"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "Etter oppdateringen har alle dekalene blitt fjernet fra kjøretøyet og sendt til depotet, i seksjonen for eksteriør."
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "Garasjeplass(er) lagt til: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "Garasjeplass fjernet: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "Obs!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "Kjøretøy lagt til: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "Kjøretøy fjernet: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "De følgende tilpasningselementene ble kjøpt:\n%(items)s\nBeløp %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "\"%(itemName)s\" %(itemType)s ble kjøpt.\nBeløp %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "Stilen %(name)s %(level)s. nivå ble kjøpt.\nBrukte %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "Kjøretøys tilpasningselementer endret."
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "%(itemType)s \"%(itemName)s\" (%(count)s enheter)"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "Stilen %(styleName)s på nivå %(level)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "Tilpasningselementer ble fjernet fra kjøretøyet."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "Gratulerer!\nProgressive dekaler gjør at du kan justere de forhåndsinnstilte stilene på %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "Gratulerer!\nDu fikk et 1. nivå \"%(itemName)s\" dekal til %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "Gratulerer!\nDu fikk et 1. nivå \"%(itemName)s\" dekal."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "%(level)s. nivå \"%(itemName)s\" dekal til %(vehicleName)s nådd."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "Til eksteriør"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "%(level)s. nivå \"%(itemName)s\" dekal nådd."
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Brukt: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "Ørkenkart: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "Sommerkart: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "Vinterkart: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Mottatt: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "Utstyr tatt av"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "Til eksteriør"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "På grunn av modulbytter, har de følgende tilpasningselementer blitt fjernet fra %(vehicle)s."
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "Tilpasning:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "Utstyr tatt av"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "Demontert:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "Feil:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "Finansiell overføring:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "Salg av gjenstander fra depotet:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "Betalingsmetode \"%(method)s\" ble lagt til"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "Betalingsmetode \"%(method)s\" ble fjernet"
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "Utviklet:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "Kjøpt:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "Fjern fra garasjen:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "Reparasjoner:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "Gjenopprettet:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "Solgt:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "Utstyrsoppgradering"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "Du har fått WoT premium konto i %(days)d dag(er)."
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "Til reserver"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "Kamuflasjen på kjøretøy %(vehicleName)s har utløpt."
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "Emblemet på kjøretøy %(vehicleName)s har utløpt."
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "Inskripsjonen på kjøretøy %(vehicleName)s har utløpt."
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "Samling tilgjengelig"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "Gratulerer!\nDu har utviklet et %(nation)s kjøretøy på nivå %(level)s. Nå kan du kjøpe samlerkjøretøy fra samme nivå og nasjon i butikken."
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "Kjøretøy ødelagt. %(vehicleName)s er utilgjengelig for klankamper frem til %(expireTime)s."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "Aktivert. %(vehicleName)s er tilgjengelig for klankamper."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Alle doble modifikasjoner på %(vehicle)s er kansellert."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "Modifikasjon er kansellert"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "deaktivert"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "aktivert"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "Å bytte mellom utstyrssett og direktiver under nedtellingen til kamp for %(tankName)s er %(state)s."
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "Å bytte mellom granattyper og forbruksmateriell under nedtellingen til kamp for %(tankName)s er %(state)s."
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "Du har blitt innvilget et premiumkjøretøy: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "Kan ikke leie kjøretøy. Ikke nok midler."
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "Kjøretøyet %(vehicleName)s leid. Leieperiode utløper: %(expiryTime)s."
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "Lås opphevet. Kjøretøyene er frigitt til klankamper."
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "Spiller %(srcName)s har overført %(srcWares)s gull til din konto."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s gull har blitt overført til spiller %(dstName)s. Avgift: %(fee)s."
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "En rabatt på et nivå %(level)s kjøretøy"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "Belønninger for fullførelse av fremgangen i Back in Action mottatt:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "Velg belønning"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "En rabatt på et nivå %(level)s kjøretøy"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% og %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "Rabatter på kjøp og utvikling lagt til: "
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "Gratulerer!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "Kjøretøy på nivå %(level)s"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "Velg belønninger fra de tilgjengelige kategoriene."
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "Velg"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "Belønninger mottatt!"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "Battle Pass Plus fordeler har blitt opphevet."
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "Battle Pass Plus er for tiden ikke tilgjengelig"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "Battle Pass Plus er tilgjengelig"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "Fortsett å logge deg på i spillet for å få flere belønninger!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "Spesiell oppmøtebelønning mottatt!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "Syklus fullført"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "Logg deg på i spillet og få belønninger."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "Syklus påbegynt!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "Belønning for oppmøte"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "Kom tilbake en annen dag for å få en ny belønning!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "Oppmøte notert!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "Egenskapen med belønning for oppmøte har blitt suspendert."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "Belønninger for oppmøte er ikke tilgjengelige"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "Belønninger for oppmøte er tilgjengelige"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "Den eksklusive %(vehicleType)s <font color='#E9E2BF'>%(vehicleName)s</font> er tilgjengelig."
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "<font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s, som kun er til for WoT Plus, er per nå ikke tilgjengelig."
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "WoT Plus Core utløp den %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "Gratis utstyrsdemontering er ikke tilgjengelig"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "Forleng WoT Plus for å få alle fordelene igjen."
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "WoT Plus utløp den %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "WoT Plus Pro utløp den %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "Akkumulasjon av gull har blitt suspendert."
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "Gullreserve er ikke tilgjengelig akkurat nå"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "Gullreserve er tilgjengelig"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "Gullreserven er full: Du kan ikke akkumulere noe mer gull"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "Gullreserven åpnet!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "Alle fordlene er nå tilgjengelige.\nForlenges den: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "Forlenges igjen den: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "Din 180 dagers plan er nå aktivert. Kos deg!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "Din 360 dagers plan er nå aktivert. Kos deg!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "Din 180 dagers plan er nå aktivert. Kos deg!\nForlenges den: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "Din 360 dagers plan er nå aktivert. Kos deg!\nForlenges den: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "Intensiv besetningstrening virker ikke på <font color='#E9E2BF'>%(vehicleName)s</font>. Sjekk kjøretøyets besetning."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "Ett eller flere besetningsmedlemmer på <font color='#E9E2BF'>%(vehicleName)s</font> er ikke kvalifisert til intensiv besetningstrening og akkumulerer ikke besetningserfaring."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "Intensiv besetningstrening"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "Intensiv besetningstrening er skrudd på for besetningsmedlemmene i %(vehicleName)s."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "Intensiv besetningstrening er skrudd av for besetningsmedlemmene i %(vehicleName)s."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "Akkumulasjon av besetningserfaring har blitt suspendert."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "Intensiv besetningstrening er ikke tilgjengelig akkurat nå"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "Intensiv besetningstrening er tilgjengelig"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "Velg et kjøretøy som får gratis bonus på besetningserfaring."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "Intensiv besetningstrening ble overført fra <font color='#E9E2BF'>%(oldVehName)s</font> til <font color='#E9E2BF'>%(newVehName)s</font>. Besetningen fra <font color='#E9E2BF'>%(oldVehName)s</font> stoppet å akkumulere erfaringspoeng."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "Intensiv besetningstrening relokalisert"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "Bonusen på besetningserfaring kan ikke brukes på ett eller flere av besetningsmedlemmene."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "Du går glipp av verdifull besetningserfaring!"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "Du kan gjøre om på valget ditt igjen om %(cooldown)s timer."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "Pro Boost aktivert til %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "Du kan booste et annet kjøretøy i stedet."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "Pro boost deaktivert på %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "Inntjening med Pro boost har opphørt."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "Pro boost er ikke tilgjengelig nå"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "Pro boost er tilgjengelig"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)s boostes ikke lenger. Du kan gjøre om på ditt valg igjen om %(cooldown)s timer."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "Pro boost overført til %(vehicleNameTo)s"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "Dato for WoT Plus tillegg endret"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "Velg et kjøretøy fra listen som du kan leie."
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "Ingen leiekjøretøy valgt"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "%(vehicle)s legges til kontoen din snarlig."
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "Leid!"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "Disse fordelene er skrudd av."
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "WoT Plus ikke tilgjengelig"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "WOT PLUS CORE AKTIVERT"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "Gratis demontering av utstyr er tilgjengelig"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "WOT PLUS AKTIVERT"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT Plus Pro"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "WoT Plus oppgradert til Pro!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "Forleng"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "Du har fått %(freeXP)s Fri erfaring."
+
+msgid "status/offline"
+msgstr "Offline"
+
+msgid "status/online"
+msgstr "Online"
+
+msgid "xmpp_error/action"
+msgstr "Kan ikke utføre \"%(actionName)s\". Forsøk igjen senere."
+
+msgid "xmpp_error/simple"
+msgstr "Forsøk igjen senere."
+
+msgid "xmpp_error/user_room_creation"
+msgstr "Kan ikke opprette spillekanal \"%(strArg1)s\"."

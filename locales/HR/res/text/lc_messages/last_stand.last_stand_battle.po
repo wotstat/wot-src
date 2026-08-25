@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "Energetski hitac je spreman za uporabu."
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "Vampirski hitac je spreman za uporabu."
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "Hitac ošamućenja je spreman za uporabu."
+
+msgid "LS_damageShieldReady"
+msgstr "Energetski štit je spreman za uporabu."
+
+msgid "LS_doubleDamageReady"
+msgstr "Dvostruka šteta je spremna za uporabu."
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "Situacijska šteta je spremna."
+
+msgid "LS_fastReloadReady"
+msgstr "Brzo punjenje je spremno za uporabu."
+
+msgid "LS_healSituationalReady"
+msgstr "Situacijski popravci su spremni."
+
+msgid "LS_invisibilityReady"
+msgstr "Liječenje iz sjene je spremno za uporabu."
+
+msgid "LS_nitroReady"
+msgstr "Turbopunjač je spreman za uporabu."
+
+msgid "LS_pickupSouls"
+msgstr "Prikupili ste %(souls)s mirium predmet(a)"
+
+msgid "LS_selfRepairReady"
+msgstr "Hitni popravci su spremni za uporabu."
+
+msgid "LS_situationalNitroReady"
+msgstr "Situacijska pokretljivost je spremna."
+
+msgid "LS_teamRepairKitReady"
+msgstr "Grupni popravci su spremni za upotrebu."
+
+msgid "LS_teamRepairKitUsed"
+msgstr "%(player)s je aktivirao grupne popravke."
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "Grupni popravci aktivirani."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "Pozor na zonu: %(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "Brani ATLASA!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "Brani ATLASA"
+
+msgid "arena/marker/move_to_camp"
+msgstr "Vozim u zonu!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "Obrana ATLASA"
+
+msgid "arena/phase"
+msgstr "Faza %(current)s od %(total)s"
+
+msgid "arena/wave"
+msgstr "Val %(current)s od %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Ježevi&nbsp;prilaze!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Alfa jež&nbsp;prilazi!"
+
+msgid "battleHint/clearTheArea"
+msgstr "Očisti područje!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "Požurite! Zero je blizu&nbsp;ATLASA!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "Zero uništen!\nPreostalo neprijatelja: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "Neprijatelja za uništiti: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "podaci, %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Vozila popravljena"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "Štit odobren"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "Neprijatelji ošamućeni"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "%(name)s Obelisk uništen!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Regen"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "Zapreka"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "Glitch"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "Otkrivene točke oživljavanja! Neprijatelji dolaze!"
+
+msgid "battleHint/hunter"
+msgstr "Lovci&nbsp;prilaze!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "Val uništen!"
+
+msgid "battleHint/leftToDestroy"
+msgstr "Preostalo neprijatelja za uništiti:"
+
+msgid "battleHint/missing_squad"
+msgstr "Prilazi Izgubljeni vod!"
+
+msgid "battleHint/newWave"
+msgstr "Val {current} od {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "Pojavio se obelisk!"
+
+msgid "battleHint/stopConvoy"
+msgstr "Zaustavite Zero!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "Zaustavite Zero\nprije nego dođe do ATLASA!"
+
+msgid "battleHint/trapper"
+msgstr "Uništite Trapera&nbsp;kako bi se prestale pojavljivati zone uništenja."
+
+msgid "battleHint/turret"
+msgstr "Komarci su se probudili!"
+
+msgid "battleHint/waveFinished"
+msgstr "Val uništen!\nPregrupirajte se i pripremite!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "Pregrupirajte se i pripremite!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "Stigla su neprijateljska&nbsp;pojačanja!"
+
+msgid "common/close"
+msgstr "ZATVORI"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "Trajanje: %(time)s s"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Šteta od zone"
+
+msgid "damageLog/static_death_zone"
+msgstr "Šteta od zone"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "Zapaljen pirokinezom"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "Oštećen energetskim udarom"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "Oštećen eksplozijom"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "Oštećen krađom života"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "Situacijska šteta uključena"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "Situacijski popravci uključeni"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "Oštećen energetskim hicem"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "Oštećen vampirskim hicem"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "Oštećen hicem ošamućenja"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "Neranjivost modula"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "Situacijska pokretljivost uključena"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "Obnova"
+
+msgid "efficiencyRibbons/repair"
+msgstr "Vozilo popravljeno"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "Vozilo je popravio"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "Saveznik je popravio vozilo"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "Saveznici popravljeni"
+
+msgid "eventStats/activeWave"
+msgstr "Val %(num)s"
+
+msgid "eventStats/difficulty"
+msgstr "Težina: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "Posljednje uporište: Terra Nord"
+
+msgid "eventStats/globalTask"
+msgstr "Cilj: uništite sve neprijateljske valove"
+
+msgid "eventStats/mission"
+msgstr "Uništite sve neprijateljske valove"
+
+msgid "eventStats/tableCaption"
+msgstr "Članovi odreda"
+
+msgid "help/description_0"
+msgstr "Uništite sve neprijateljske valove za pobjedu.\nNeprijatelj jača sa svakim uspješnim valom."
+
+msgid "help/description_1"
+msgstr "Prava kombinacija taktičkih naprava se može pokazati iznimno snažnom.\nUpamtite: smjernice i svi tipovi granata su besplatni za uporabu u režimu Posljednje uporište."
+
+msgid "help/description_2"
+msgstr "Oštećenje obeliska prenosi dio te štete neprijateljskim vozilima dok uništenje obeliska daje nasumični bonus."
+
+msgid "help/description_3"
+msgstr "Zaštitite ATLASA od posljednjeg eho tenka, Zero, pod svaku cijenu. Ako dođe do ATLASA uništit će ga i bitka će biti izgubljena."
+
+msgid "help/title"
+msgstr "POSLJEDNJE UPORIŠTE: TERRA NORD"
+
+msgid "help/title_0"
+msgstr "VALOVI NEPRIJATELJSKIH NAPADA"
+
+msgid "help/title_1"
+msgstr "SAVJETI ZA PREŽIVLJAVANJE"
+
+msgid "help/title_2"
+msgstr "KORISTITE OBELISKE U BITCI"
+
+msgid "help/title_3"
+msgstr "BRANI ATLASA"
+
+msgid "helpScreen/hint/description"
+msgstr "za pregled pravila režima"
+
+msgid "helpScreen/hint/press"
+msgstr "Pritisni"
+
+msgid "hitMarker/useless"
+msgstr "Nema uporabe!"
+
+msgid "loading/description_0"
+msgstr "Uništite sve neprijateljske valove za pobjedu.\nNeprijatelj jača sa svakim uspješnim valom."
+
+msgid "loading/description_1"
+msgstr "Prava kombinacija taktičkih naprava se može pokazati iznimno snažnom.\nUpamtite: smjernice i svi tipovi granata su besplatni za uporabu u režimu Posljednje uporište."
+
+msgid "loading/description_2"
+msgstr "Oštećenje obeliska odašilje dio te štete neprijateljskim vozilima dok uništenje obeliska daje nasumični bonus."
+
+msgid "loading/description_3"
+msgstr "Zaštitite ATLASA od posljednjeg eho tenka, Zero, pod svaku cijenu. Ako dođe do ATLASA uništit će ga i bitka će biti izgubljena."
+
+msgid "loading/title"
+msgstr "Učitavam..."
+
+msgid "loading/title_0"
+msgstr "VALOVI NEPRIJATELJSKIH NAPADA"
+
+msgid "loading/title_1"
+msgstr "SAVJETI ZA PREŽIVLJAVANJE"
+
+msgid "loading/title_2"
+msgstr "KORISTITE OBELISKE U BITCI"
+
+msgid "loading/title_3"
+msgstr "BRANI ATLASA"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "Nije moguće koristiti [%(name)s]: motor je uništen."
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "Nije moguće koristiti [%(name)s]: top je oštećen."
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "Top je napunjen."
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "Nije moguće koristiti [%(name)s]: nedovoljno miriuma za aktiviranje naprave."
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "Vozilo nije oštećeno."
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "Nije moguće koristiti [%(name)s]: vozilo se utapa."
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "Nije moguće koristiti [%(name)s]: vozilo gori."
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "Nije moguće koristiti [%(name)s]: vozilo je prevrnuto."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Saveznika %(target)s je uništila neprijateljska eksplozija (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Saveznik %(target)s se razbio."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Saveznik %(target)s je uništen od zone uništenja."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Saveznik %(target)s uništen."
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "Ako vaš odred uspije eliminirati ovaj val."
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "OŽIVJET ĆETE"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "Vaša bitka je završila.\nDobro ste odigrali!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Vozilo je uništeno od strane zone uništenja"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "Vozilo je uništeno energetskim udarom"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "Vozilo je uništeno pirokinezom"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "Vozilo je uništeno krađom života"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "Vozilo je uništeno eksplozijom"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "Vozilo razbijeno"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modul [%(device)s] je eksplodirao od hica igrača"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "Vozilo je uništeno vatrom"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Vozilo uništeno. Vrijeme je isteklo."
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "Vozilo je uništeno neprijateljskim hicem"
+
+msgid "prebattle/description/message"
+msgstr "Cilj: uništite sve neprijateljske valove"
+
+msgid "prebattle/description/title"
+msgstr "Posljednje uporište: %(difficulty)s težina"
+
+msgid "prebattle/difficulty/107"
+msgstr "Regularna"
+
+msgid "prebattle/difficulty/108"
+msgstr "Napredni"
+
+msgid "prebattle/difficulty/109"
+msgstr "Brutalna"
+
+msgid "prebattle/waiting/title"
+msgstr "Čekam igrače..."
+
+msgid "radialMenu/attention_here"
+msgstr "Zatraži obranu"
+
+msgid "radialMenu/cancel"
+msgstr "Odustani"
+
+msgid "radialMenu/confirm"
+msgstr "Razumijem!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "Vozim u zonu!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "Obrana"
+
+msgid "radialMenu/obelisk"
+msgstr "Zauzet ću Obelisk!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "Uništi Obelisk!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "Energetski štit"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "Nazad u stroj..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "Napustite\nopasnu zonu!"
+
+msgid "teamList/teammates"
+msgstr "Saveznici"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "Isključi glasovni razgovor"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "Uključi glasovni razgovor"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "Pritisni za razgovor"

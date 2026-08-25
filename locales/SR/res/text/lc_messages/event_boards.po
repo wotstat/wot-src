@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "Nagrade za Lovce Tenkova"
+
+msgid "awards/class/SPG"
+msgstr "Nagrade za Artiljerije"
+
+msgid "awards/class/heavyTank"
+msgstr "Nagrade za Teško Tenkove"
+
+msgid "awards/class/lightTank"
+msgstr "Nagrade za Lake Tenkove"
+
+msgid "awards/class/mediumTank"
+msgstr "Nagrade za Srednje Tenkove"
+
+msgid "awards/level"
+msgstr "Nagrade za Vozila %(level)s"
+
+msgid "awards/nation/china"
+msgstr "Nagrade za Kineska Vozila"
+
+msgid "awards/nation/czech"
+msgstr "Nagrade za Čehoslovačka Vozila"
+
+msgid "awards/nation/france"
+msgstr "Nagrade za Francuska Vozila"
+
+msgid "awards/nation/germany"
+msgstr "Nagrade za Nemačka Vozila"
+
+msgid "awards/nation/japan"
+msgstr "Nagrade za Japanska Vozila"
+
+msgid "awards/nation/poland"
+msgstr "Nagrade za Poljska Vozila"
+
+msgid "awards/nation/sweden"
+msgstr "Nagrade za Švedska Vozila"
+
+msgid "awards/nation/uk"
+msgstr "Nagrade za Britanska Vozila"
+
+msgid "awards/nation/usa"
+msgstr "Nagrade za Vozila SAD"
+
+msgid "awards/nation/ussr"
+msgstr "Nagrade za Vozila SSSR"
+
+msgid "awards/tooltip/class"
+msgstr "Klik za prikaz nagrada za ovaj tip vozila."
+
+msgid "awards/tooltip/level"
+msgstr "Klik za prikaz nagrada za ovaj nivo vozila."
+
+msgid "awards/tooltip/nation"
+msgstr "Klik za prikaz nagrada za ovu naciju."
+
+msgid "awards/vehicle"
+msgstr "Nagrade za Izabrana Vozila"
+
+msgid "badge/tooltip/description"
+msgstr "Značka je jedinstvena ikona koja će biti prikazana pored tvog imena u borbi. Značka je vidljiva za igrače iz oba tima i ukazuje na tvoje sjajne rezultate u događaju \"Marš nacija\"."
+
+msgid "badgesGroup/tooltip/header"
+msgstr "Komemorativne značke"
+
+msgid "block/award"
+msgstr "Glavna nagrada"
+
+msgid "block/objective"
+msgstr "Uslovi"
+
+msgid "block/task"
+msgstr "Misija"
+
+msgid "button/awards"
+msgstr "Sve Nagrade"
+
+msgid "button/awards/tooltip"
+msgstr "Klik za prikaz liste svih nagrada u ovom takmičenju."
+
+msgid "button/regulations"
+msgstr "Uslovi"
+
+msgid "button/regulations/tooltip"
+msgstr "Klik za prikaz punog opisa ovog takmičenja."
+
+msgid "condition/battletype/random"
+msgstr "Slučajne borbe 15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "Rangirana Borba"
+
+msgid "condition/battletype/squadallowed"
+msgstr "Dozvoljeni Vodovi"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "Vodovi nisu dozvoljeni"
+
+msgid "condition/primetime/any"
+msgstr "Bilo koji server i vreme"
+
+msgid "condition/primetime/chosen"
+msgstr "Samo na označenom serveru"
+
+msgid "condition/vehicle/chosen"
+msgstr "Samo na sledećim vozilima:"
+
+msgid "condition/vehicle/exist"
+msgstr "U Garaži"
+
+msgid "condition/vehicle/missing"
+msgstr "Nije u Garaži"
+
+msgid "condition/vehicle/single"
+msgstr "U %(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "Nagrada"
+
+msgid "excel/btnClose"
+msgstr "KA TAKMIČENJU"
+
+msgid "excel/group/title"
+msgstr "Grupa"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "Da bi se plasirao u rejting, bori se u više borbi: %(number)s"
+
+msgid "excel/noData"
+msgstr "Nagradna mesta još nisu zauzeta."
+
+msgid "excel/participate/join"
+msgstr "Borba"
+
+msgid "excel/participate/notParticipated"
+msgstr "Nisi učestvovao u rejtingu"
+
+msgid "excel/subHeader"
+msgstr "Takmičenje: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "Pridruži se"
+
+msgid "header/participate/button/leave"
+msgstr "Napusti Takmičenje"
+
+msgid "header/participate/finished"
+msgstr "Takmičenje se završilo"
+
+msgid "header/participate/notStarted"
+msgstr "Pridružio si se"
+
+msgid "header/participate/reason/byAge"
+msgstr "Nalog napravljen nakon %date%"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "Takmičenje je nedostupno"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "Napustio si ovo Takmičenje"
+
+msgid "header/participate/started"
+msgstr "Učestvuješ"
+
+msgid "header/timer"
+msgstr "Završava se za:"
+
+msgid "maintenance/body"
+msgstr "Izvinjavamo se zbog trenutnih problema."
+
+msgid "maintenance/title"
+msgstr "Greška učitavanja podataka"
+
+msgid "maintenance/update"
+msgstr "Osveži"
+
+msgid "notification/buttons/details"
+msgstr "Detalji"
+
+msgid "notification/eventFinished/body"
+msgstr "Takmićenje %(eventName)s je završeno. Pobednici će biti objavljeni tokom idućih nekoliko dana, nakon čega će primiti svoje zaslužene nagrade."
+
+msgid "notification/eventFinished/header"
+msgstr "Takmičenje je završeno"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "Rezultati tvojih borbi se sada sabiraju za takmičenje, da bi mogao da se plasiraš u rejtingu i dobiješ nagradu."
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "Pridružio si se kao učesnik"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "Rezultati tvoji borbi će se sabirati kada takmičenje započne, da bi mogao da se plasiraš u rejtingu i dobiješ nagradu."
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "Pridružio si se kao učesnik"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "Nije moguće da se pridrižiš kao učesnik: zahtevi nisu ispunjeni."
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "Nije moguće da se pridrižiš kao učesnik: period registracije je završen."
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "Tvoja statistika za takmičenje će se resetovati nakon osvežavanja rejtinga."
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "Napustio si Takmičenje"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "Tvoja statistika se neće računati za ovo takmičenje."
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "Napustio si Takmičenje"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "Nije moguće napustiti takmičenje: period razmeštanja je istekao."
+
+msgid "notification/eventStarted/body"
+msgstr "Takmičenje %(eventName)s je počelo! Igrači koji osvoje nagradna mesta do kraja takmičenja će dobiti vredne nagrade."
+
+msgid "notification/eventStarted/header"
+msgstr "Takmičenje je počelo"
+
+msgid "notification/unknownError/body"
+msgstr "Nije moguće kompletirati operaciju."
+
+msgid "orders/title"
+msgstr "Uslovi"
+
+msgid "popover/buttons/cancel"
+msgstr "Otkaži"
+
+msgid "popover/buttons/rating"
+msgstr "Idi na Rejting"
+
+msgid "popover/buttons/select"
+msgstr "Izaberi"
+
+msgid "popover/noVehicles"
+msgstr "Nema vozila koje odgovaraju izabranim filterima."
+
+msgid "popover/resetFilter"
+msgstr "Reset filtera"
+
+msgid "popover/title"
+msgstr "Lista Rejtinga"
+
+msgid "popover/title/vehicle"
+msgstr "Lista Rejtinga"
+
+msgid "popover/tooltip/class"
+msgstr "Idi na rejting za vozila izabranog tipa."
+
+msgid "popover/tooltip/level"
+msgstr "Idi na rejting za vozila izabranog nivoa."
+
+msgid "popover/tooltip/nation"
+msgstr "Idi na rejting za vozila izabrane nacije."
+
+msgid "server/list"
+msgstr "Da bi se tvoje borbe računale za takmičenje, prebaci se na sledeći server:"
+
+msgid "server/noSuitable/body"
+msgstr "Rezultati borbi će se računati na: %(data)s. Raspored takmičenja"
+
+msgid "server/noSuitable/header"
+msgstr "Rezultati borbi se neće računati za takmičenje u ovo vreme"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s na %(server)s"
+
+msgid "status/bestResults/many"
+msgstr "Moj najbolji rezultat"
+
+msgid "status/bestResults/one"
+msgstr "Moji rezultati"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "Takmičenje je nedostupno:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "Nije ti dozvoljeno da učestvuješ u ovom takmičenju zbog kršenja pravila igre"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "Nalog kreiran nakon %(date)s"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "nisi se borio dovoljan broj borbi u režimu Slučajne borbe: %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "Tvoj odnos pobeda u Slučajnim borbama premašuje %(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "nisi dostigao dovoljan odnos pobeda u Slučajnim borbama: %(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "Period registracije je istekao"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "Nemožeš se pridružiti ovom takmičenju kao učesnik."
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "Napustio si ovo Takmičenje"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "Rezultati tvojih borbi se više ne računaju za ovo takmičenje. Nećeš se plasirati u rejtingu i nećeš dobiti nagradu.\nNemožeš ući ponovo u ovo takmičenje."
+
+msgid "status/cantJoin/reason/many"
+msgstr "uslovi nisu ispunjeni %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "uslovi nisu ispunjeni (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "Nisi se plasirao u rejtingu"
+
+msgid "status/cantJoin/reason/special"
+msgstr "Nemožeš učestvovati u ovom takmičenju koristeći ovaj nalog."
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "nema odgovarajućih vozila"
+
+msgid "status/participate/cantJoin"
+msgstr "Takmičenje je nedostupno"
+
+msgid "status/participate/needMoreBattles"
+msgstr "Ispuni uslove u borbama, i tvoj rezultat že biti prikazan ovde nakon osvežavanja rejtinga."
+
+msgid "status/participate/notParticipated"
+msgstr "Nisi učestvovao u rejtingu"
+
+msgid "summary/averagedamage"
+msgstr "Prosečna šteta"
+
+msgid "summary/averagedamageassisted"
+msgstr "Prosečna šteta sa tvojom asistencijom"
+
+msgid "summary/averagexp"
+msgstr "Prosečno iskustvo"
+
+msgid "summary/battles"
+msgstr "Borbi u takmičenju"
+
+msgid "summary/damage"
+msgstr "Šteta"
+
+msgid "summary/damageassist"
+msgstr "Šteta sa tvojom asistencijom"
+
+msgid "summary/damageblocked"
+msgstr "Blokrana šteta"
+
+msgid "summary/description/awards/title/award"
+msgstr "NAGRADA NA KRAJU TAKMIČENJA"
+
+msgid "summary/description/awards/title/group"
+msgstr "GRUPA"
+
+msgid "summary/description/awards/title/position"
+msgstr "POZICIJA"
+
+msgid "summary/description/max/class"
+msgstr "Najbolju borbu borio si se u %(value)s"
+
+msgid "summary/description/max/level"
+msgstr "Najbolju borbu borio si se u vozilu nivoa %(value)s"
+
+msgid "summary/description/max/nation"
+msgstr "Najbolju borbu borio si se u vozilu nacije: %(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "Najbolju borbu borio si se u %(value)s"
+
+msgid "summary/description/sum/class"
+msgstr "Tvoja statistika u takmičenju %(value)s"
+
+msgid "summary/description/sum/level"
+msgstr "Tvoja statistika u takmičenju za vozila nivoa %(value)s"
+
+msgid "summary/description/sum/nation"
+msgstr "Tvoja statistika u takmičenju za vozila sledeće nacije: %(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "Tvoja statistika u takmičenju za sledeće vozilo %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "Tvoje najbolje serija borbi u %(value)s"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "Tvoje najbolje serija borbi u vozilima nivoa %(value)s"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "Tvoje najbolje serija borbi u vozilima nacije: %(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "Tvoje najbolje serija borbi u %(value)s"
+
+msgid "summary/description/sumN/class"
+msgstr "Tvoja najbolja borba u %(value)s"
+
+msgid "summary/description/sumN/level"
+msgstr "Tvoje najbolje borba u vozilima nivoa %(value)s"
+
+msgid "summary/description/sumN/nation"
+msgstr "Tvoje najbolje borba u vozilima nacije: %(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "Tvoja najbolja borba u %(value)s"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "Tvoje najbolje serija borbi u %(value)s"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "Tvoje najbolje serija borbi u vozilima nivoa %(value)s"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "Tvoje najbolje serija borbi u vozilima nacije: %(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "Tvoje najbolje serija borbi u %(value)s"
+
+msgid "summary/destroyedvehicles"
+msgstr "Neprijateljskih vozila uništeno"
+
+msgid "summary/fightInSquaad"
+msgstr "Borbi u Vodu"
+
+msgid "summary/fightNotInSquaad"
+msgstr "Borbi van Voda"
+
+msgid "summary/originalXP"
+msgstr "Osnovno iskustvo"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "Šteta naneta uz asistenicju igrača"
+
+msgid "summary/param/max/damageDealt"
+msgstr "Šteta"
+
+msgid "summary/param/max/originalXP"
+msgstr "Osnovno iskustvo"
+
+msgid "summary/param/max/xp"
+msgstr "Iskustvo"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "Prosečna štetea naneta sa igračevom asistencijom"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "Prosečna šteta"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "Prosečno osnovno iskustvo"
+
+msgid "summary/param/sumAll/wins"
+msgstr "Pobede"
+
+msgid "summary/param/sumAll/xp"
+msgstr "Prosečno iskustvo"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "Prosečna štetea naneta sa igračevom asistencijom"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "Ukupna šteta"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "Ukupno osnovno iskustvo"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "Ukupno iskustvo"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "Ukupno štete naneto uz igračevu asistenciju"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "Ukupna šteta"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "Ukupno osnovno iskustvo"
+
+msgid "summary/param/sumN/xp"
+msgstr "Ukupno iskustvo"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "Prosečna štetea naneta sa igračevom asistencijom"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "Ukupna šteta"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "Ukupno osnovno iskustvo"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "Ukupno iskustvo"
+
+msgid "summary/position"
+msgstr "Mesto u rejtingu: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "Nerešeno"
+
+msgid "summary/result/loss"
+msgstr "Poraz"
+
+msgid "summary/result/win"
+msgstr "Pobeda"
+
+msgid "summary/status"
+msgstr "Osveženo %(day)s u %(time)s"
+
+msgid "summary/winrate"
+msgstr "Pobede"
+
+msgid "table/header/player"
+msgstr "Igrač"
+
+msgid "table/header/position"
+msgstr "Br"
+
+msgid "table/selectParticipateBtn"
+msgstr "Napusti Takmičenje"
+
+msgid "table/selectRatingBtn"
+msgstr "Lista Rejtinga"
+
+msgid "table/selectRegistrationBtn"
+msgstr "Pridruži se kao učesnik"
+
+msgid "table/stripe/bronze/title"
+msgstr "III grupa (mesta %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/gold/title"
+msgstr "I grupa (mesta %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "I grupa"
+
+msgid "table/stripe/iron/title"
+msgstr "IV grupa (mesta %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/silver/title"
+msgstr "II grupa (mesta %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/wood/title"
+msgstr "Nenagradjena mesta"
+
+msgid "task/eventtype/all"
+msgstr "Zajednički rejting za sve učesnike"
+
+msgid "task/eventtype/class"
+msgstr "Svaki tip vozila ima svoj rejting"
+
+msgid "task/eventtype/level"
+msgstr "Svaki nivo vozila ima svoj rejting"
+
+msgid "task/eventtype/nation"
+msgstr "Svaka nacija vozila ima svoj rejting"
+
+msgid "task/eventtype/vehicle"
+msgstr "Svako vozilo ima svoj rejting"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "Plasiraj se na rejtingu po nanetoj šteti sa tvojom asistencijom"
+
+msgid "task/objective/max/damageDealt"
+msgstr "Plasiraj se na rejtingu po nanetoj steti"
+
+msgid "task/objective/max/originalXP"
+msgstr "Plasiraj se na rejtingu po osnovnom zaradjenom iskustvu"
+
+msgid "task/objective/max/xp"
+msgstr "Plasiraj se na rejtingu po zaradjenom iskustvu"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "Plasiraj se na rejtingu po ukupnoj nanetoj steti sa tvojom asistencijom"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "Plasiraj se na rejtingu po ukupnoj nanetoj steti"
+
+msgid "task/objective/sum/originalXP"
+msgstr "Plasiraj se na rejtingu po ukupnom osnovnom zaradjenom iskustvu"
+
+msgid "task/objective/sum/wins"
+msgstr "Plasiraj se u rejting po broju pobeda"
+
+msgid "task/objective/sum/xp"
+msgstr "Plasiraj se na rejtingu po ukupnom zaradjenom iskustvu"
+
+msgid "task/objparam/damageAssisted"
+msgstr "šteta naneta sa tvojom asistencijom"
+
+msgid "task/objparam/damageDealt"
+msgstr "naneta šteta"
+
+msgid "task/objparam/originalXP"
+msgstr "zaradjeno osnovno iskustvo"
+
+msgid "task/objparam/wins"
+msgstr "broj pobeda"
+
+msgid "task/objparam/xp"
+msgstr "iskustvo"
+
+msgid "task/selection/max"
+msgstr "Tvoja najbolja borba se računa"
+
+msgid "task/selection/sumAll"
+msgstr "Sve tvoje borbe se računaju"
+
+msgid "task/selection/sumMSeqN"
+msgstr "Najboljih (%(cardinality)s) borbi u seriji se računaju. Borbi u seriji: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "Tvoje najbolje borba se računaju: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "Tvoja najbolja serija borbi se računa. Borbi u seriji: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "danas"
+
+msgid "time/day/tomorrow"
+msgstr "sutra"
+
+msgid "time/day/yesterday"
+msgstr "juče"
+
+msgid "time/eventFinished"
+msgstr "Takmičenje je završeno: %(date)s"
+
+msgid "time/period/day"
+msgstr "d."
+
+msgid "time/period/hour"
+msgstr "h."
+
+msgid "time/period/minute"
+msgstr "min"
+
+msgid "time/timeTo/end"
+msgstr "Do završetka: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "Period registracije se završava za: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "Počinje za: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "Nagrada se dodeljuje na kraju takmičenja i zavisi od mesta u rejtingu.\nDa bi video listu svih nagrada za ovo takmičenje, klikni na Sve Nagrade."
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "Količina iskustva koja se broji ne zavisi od ekstra iskustva od premijum naloga i premijum vozila, ličnih rezervi, množitelja za prvu pobedu dana, i drugih specijala."
+
+msgid "tooltip/top/amount/xp"
+msgstr "Količina iskustva koja se broji ne zavisi od ekstra iskustva od Premijum vozila, Ličnih rezervi, množitelja za prvu pobedu dana, i drugih specijala.\nEkstra iskustvo od Premijum naloga se računa."
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "Šteta naneta uz igračevu asistenciju na poslednjem nagradnom mestu: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "Šteta naneta od strane igrača na poslednjem nagradnom mestu: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "Osnovno iskustvo zaradjeno od strane igrača na poslednjem nagradnom mestu: %(number)s\nKoličina iskustva koja se broji ne zavisi od ekstra iskustva od premijum naloga i premijum vozila, ličnih rezervi, množitelja za prvu pobedu dana, i drugih specijala."
+
+msgid "tooltip/top/description/max/xp"
+msgstr "Osnovno iskustvo zaradjeno od strane igrača na poslednjem nagradnom mestu: %(number)s\nKoličina iskustva koja se broji ne zavisi od ekstra iskustva od Premijum vozila, Ličnih rezervi, množitelja za prvu pobedu dana, i drugih specijala.\nEkstra iskustvo od Premijum naloga se računa."
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "Ukupna naneta šteta sa igračevom asistencijom na poslednjem nagradnom mestu: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "Ukupna naneta šteta na poslednjem nagradnom mestu: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "Ukupno osnovno iskustvo zaradjeno od strane igrača na poslednjem nagradnom mestu:%(number)s\nKoličina iskustva koja se broji ne zavisi od ekstra iskustva od premijum naloga i premijum vozila, ličnih rezervi, množitelja za prvu pobedu dana, i drugih specijala."
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "Broj pobeda igrača na poslednjem nagradnom mestu: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "Ukupno osnovno iskustvo zaradjeno od strane igrača na poslednjem nagradnom mestu:%(number)s\nKoličina iskustva koja se broji ne zavisi od ekstra iskustva od Premijum vozila, Ličnih rezervi, množitelja za prvu pobedu dana, i drugih specijala.\nEkstra iskustvo od Premijum naloga se računa."
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "Nenagradjena mesta"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "Grupa %(group)s (pozicije %(min)s-%(max)s)"
+
+msgid "top/averageXP"
+msgstr "Prosečno iskustvo zaradjeno od igrača na poslednjem nagradnom mestu:"
+
+msgid "top/participation/notParticipated"
+msgstr "Nisi učestvovao u rejtingu"
+
+msgid "top/participation/notfull"
+msgstr "Nisi se plasirao u rejtingu"
+
+msgid "top/participation/notintop"
+msgstr "Trenutno nisi na nagradnom mestu"
+
+msgid "top/position"
+msgstr "Tvoje mesto:"
+
+msgid "top/reason/notfull"
+msgstr "Da bi ušao u rejting, bori se u još borbi:"
+
+msgid "vehicles/level"
+msgstr "Vozila nivoa %(level)s"
+
+msgid "vehicles/tooltip/class"
+msgstr "Klik za prikaz vozila ovog tipa koja učestvuju u takmičenju."
+
+msgid "vehicles/tooltip/level"
+msgstr "Klik za prikaz vozila ovog nivoa koja učestvuju u takmičenju."
+
+msgid "vehicles/tooltip/nation"
+msgstr "Klik za prikaz vozila ove nacije koja učestvuju u takmičenju."
+
+msgid "vehicles/vehicle"
+msgstr "Vozila u Takmičenju"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "Klik za prikaz liste vozila koje su dozvoljena u takmičenju."

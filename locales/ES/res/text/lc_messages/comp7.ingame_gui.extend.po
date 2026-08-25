@@ -1,0 +1,35 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "player_errors/equipment/fastRecharge/gunTemperatureLow"
+msgstr "No disponible: el cañón del vehículo no está caliente."
+
+msgid "player_errors/equipment/fastRecharge/vehicleIsNotRecharged"
+msgstr "No disponible: el cañón del vehículo no se está recargando."
+
+msgid "player_errors/equipment/fastRecharge/vehicleIsOnFastRecharge"
+msgstr "No disponible: el tiempo de recarga ya se ha reducido."
+
+msgid "player_errors/equipment/hunter/noDamagedEnemyVehicles"
+msgstr "No disponible: no se ha dañado ningún vehículo enemigo con disparos."
+
+msgid "player_errors/equipment/hunter/vehicleIsNotDamaged"
+msgstr "No disponible: no necesitas restaurar puntos de vida."
+
+msgid "player_errors/equipment/roleSkill/alreadyActivated"
+msgstr "La habilidad de rol «%(name)s» ya está activa."
+
+msgid "player_errors/equipment/roleSkill/cooldown"
+msgstr "La habilidad de rol «%(name)s» no está disponible: en periodo de enfriamiento."
+
+msgid "player_errors/equipment/roleSkill/unavailable"
+msgstr "La habilidad de rol «%(name)s» no está disponible: no hay cargas."
+
+msgid "player_messages/equipment/roleSkill/applied"
+msgstr "¡La habilidad de rol «%(name)s» se ha activado!"
+
+msgid "player_messages/equipment/roleSkill/promoted"
+msgstr "¡El nivel de carga de la habilidad de rol «%(name)s» ha aumentado!"
+
+msgid "player_messages/equipment/roleSkill/ready"
+msgstr "La habilidad de rol «%(equipment)s» ya se puede activar."

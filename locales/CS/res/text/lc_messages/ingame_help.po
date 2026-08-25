@@ -1,0 +1,602 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleControls/casseteReload"
+msgstr "Dobít zásobník munice"
+
+msgid "battleControls/closeBtnLabel"
+msgstr "ZAVŘÍT"
+
+msgid "battleControls/cruiseCtrlBackward"
+msgstr "Jízda vzad s tempomatem"
+
+msgid "battleControls/cruiseCtrlForward"
+msgstr "Jízda vpřed s tempomatem"
+
+msgid "battleControls/disableLockTarget"
+msgstr "Vypnout automatické zaměřování"
+
+msgid "battleControls/fire"
+msgstr "Střelba"
+
+msgid "battleControls/hideInterface"
+msgstr "Zobrazit/skrýt rozhraní"
+
+msgid "battleControls/hideMinimap"
+msgstr "Ukázat/Skrýt Minimapu"
+
+msgid "battleControls/makeScreenshort"
+msgstr "Uložit screen do adresáře"
+
+msgid "battleControls/movementBackward"
+msgstr "Jízda vzad"
+
+msgid "battleControls/movementForward"
+msgstr "Jízda vpřed"
+
+msgid "battleControls/movementLeft"
+msgstr "Otáčení/pohyb doleva"
+
+msgid "battleControls/movementRight"
+msgstr "Otáčení/pohyb doprava"
+
+msgid "battleControls/pageTitle"
+msgstr "OBECNÉ INFORMACE"
+
+msgid "battleControls/showCursor"
+msgstr "Zobrazit kurzor"
+
+msgid "battleControls/showCursor/ext"
+msgstr "(pro minimapu, seznam hráčů, atp.)"
+
+msgid "battleControls/showExPlayerInfo"
+msgstr "Zobrazit alternativní značku"
+
+msgid "battleControls/stopFire"
+msgstr "Zastavit a vypálit"
+
+msgid "battleControls/switchAutorotation"
+msgstr "Uzamčení korby / přepnutí režimu"
+
+msgid "battleControls/title"
+msgstr "Režim bitvy"
+
+msgid "battleControls/toggleAFL"
+msgstr "Zapnout/vypnout Rozbor pancíře"
+
+msgid "battleControls/toggleAFL/ext"
+msgstr "dostupné pouze v odstřelovacím režimu"
+
+msgid "battleControls/toggleLockTarget"
+msgstr "Zapnout/vypnout automatické zaměřování"
+
+msgid "battleControls/toggleLockTarget/ext"
+msgstr "(se zaměřovačem na cíli)"
+
+msgid "battleControls/togglePlayerPanelModes"
+msgstr "Zobrazit/skrýt seznamy týmů"
+
+msgid "battleControls/togglePlayerPanelModes/ext"
+msgstr "nebo pochvalte zpět"
+
+msgid "battleControls/toggleSniperMode"
+msgstr "Zapnout/vypnout odstřelovací režim"
+
+msgid "battleControls/toggleSniperMode/ext"
+msgstr "nebo dělostřelecký režim"
+
+msgid "battleControls/voiceChatMute"
+msgstr "Zapnout hlasovou komunikaci"
+
+msgid "chatControls/change"
+msgstr "Týmu/Četě"
+
+msgid "chatControls/enterToChatMode"
+msgstr "Vstup do režimu chatu"
+
+msgid "chatControls/exitFromChatMode"
+msgstr "Opustit režim chatu"
+
+msgid "chatControls/send"
+msgstr "Poslat zprávu"
+
+msgid "chatControls/title"
+msgstr "Režim chatu"
+
+msgid "crosshairControls/ammoNumber"
+msgstr "Zbývající granáty"
+
+msgid "crosshairControls/damageIndicator"
+msgstr "Směr střelby"
+
+msgid "crosshairControls/dispercion"
+msgstr "Rozptyl"
+
+msgid "crosshairControls/example/damage"
+msgstr "-248"
+
+msgid "crosshairControls/example/hp"
+msgstr "375/720"
+
+msgid "crosshairControls/example/name"
+msgstr "T-34-85"
+
+msgid "crosshairControls/gunMarker"
+msgstr "Pozice děla"
+
+msgid "crosshairControls/healthPlayer"
+msgstr "Výdrž hráče"
+
+msgid "crosshairControls/hpIndicator"
+msgstr "Indikátor výdrže"
+
+msgid "crosshairControls/hpValues"
+msgstr "Výdrž cíle (%/zbývá/celkem)"
+
+msgid "crosshairControls/marker"
+msgstr "Záměrný bod"
+
+msgid "crosshairControls/reloadIndicator"
+msgstr "Nabíjení"
+
+msgid "crosshairControls/reloadTimer"
+msgstr "Čas nabíjení děla v sekundách"
+
+msgid "crosshairControls/targetClass"
+msgstr "Značka typu vozidla"
+
+msgid "crosshairControls/targetDistance"
+msgstr "Vzdálenost cíle"
+
+msgid "crosshairControls/targetIcon"
+msgstr "Ikona vozidla"
+
+msgid "crosshairControls/targetLevel"
+msgstr "Úroveň vozidla"
+
+msgid "crosshairControls/targetName"
+msgstr "Model vozidla / Jméno hráče"
+
+msgid "crosshairControls/title"
+msgstr "Ukazatele děla a zaměřovače"
+
+msgid "detailsHelp/default/title"
+msgstr "Nápověda"
+
+msgid "detailsHelp/devMaps/headerTitle"
+msgstr "Prvky mapy"
+
+msgid "detailsHelp/devMaps/markers/description"
+msgstr "Lokace náhodné události bude na mapě označena\nkouřem a na minimapě značkou.\nMapy s náhodnými událostmi lze vypnout v nastavení hry v záložce „Hra“."
+
+msgid "detailsHelp/devMaps/title"
+msgstr "Mapy s náhodnými událostmi"
+
+msgid "detailsHelp/devMaps/zone/description"
+msgstr "Vaše vozidlo může být zničeno v oblasti náhodné události (například během zřícení letadla).\nMapy s náhodnými událostmi lze vypnout v nastavení hry v záložce „Hra“."
+
+msgid "detailsHelp/dualGun/quick_fire"
+msgstr "Vozidla s tímto palebným systémem přepínají při palbě děla. Jedno vystřelené dělo se začíná nabíjet automaticky, zatímco druhé nabité dělo bude muset chvíli počkat."
+
+msgid "detailsHelp/dualGun/quick_fire/title"
+msgstr "Rapidní palba"
+
+msgid "detailsHelp/dualGun/volley_fire"
+msgstr "Vozidla se systémem dvouhlavňového děla jsou vybavena speciální mechanikou palby salvou, která se aktivuje přidržením přiřazené klávesy. Vypálené granáty letí paralelně vedle sebe. Tlačítko pro ovládání palby lze změnit v nastavení."
+
+msgid "detailsHelp/dualGun/volley_fire/title"
+msgstr "Palba salvou"
+
+msgid "detailsHelp/engineMode/engineModePage1"
+msgstr "Režimy motoru můžete přepínat podle konkrétní taktické situace. Změna režimů motoru vyžaduje úplné zastavení a zabere určitý čas, který nezávisí na stavu modulu."
+
+msgid "detailsHelp/engineMode/engineModePage1/title"
+msgstr "Nová mechanika pohybu"
+
+msgid "detailsHelp/engineMode/engineModePage2"
+msgstr "Režim s běžící turbínou zvyšuje výkon motoru, rychlost jízdy vpřed a rychlost couvání. V tomto režimu je však vaše vozidlo lépe viditelné, má sníženou stabilizaci děla a zvýšený čas zaměření."
+
+msgid "detailsHelp/engineMode/engineModePage2/title"
+msgstr "Výhody a nevýhody"
+
+msgid "detailsHelp/mapbox/headerTitle"
+msgstr "Prvky mapy"
+
+msgid "detailsHelp/mapbox/localWeather/description"
+msgstr "Vozidla uvnitř zóny Místního počasí nemohou odhalovat vozidla mimo zónu a naopak, ani si vyměňovat informace o pozicích nepřátelských vozidel mimo zónu. Požár vozidla poškozuje."
+
+msgid "detailsHelp/mapbox/localWeather/title"
+msgstr "Místní počasí"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/description"
+msgstr "Zůstanete-li stát na místě nebo se budete pohybovat rychlostí nižší než určitá hodnota, vaše vozidlo bude moci kalibrovat svůj Analogový balistický počítač a zvýšit úrovně přesnosti.\nKaždá úroveň zvyšuje přesnost vašeho dalšího výstřelu a při výstřelu je odstraněna."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/title"
+msgstr "Analogový balistický počítač"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/description"
+msgstr "Při plné kalibraci dosáhne vaše vozidlo nejvyšší úrovně přesnosti a dobré stabilizace děla se sníženým rozptylem za pohybu nebo při otáčení věže/korby.\nTento efekt je po výstřelu odstraněn."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/title"
+msgstr "Plná kalibrace"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/description"
+msgstr "Typ automatické zbraně s extrémně vysokou rychlostí střelby. Účinnost střelby je znázorněna indikátorem v kruhu zaměřovače."
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/title"
+msgstr "Autokanón"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/description"
+msgstr "Toto dělo může střílet nepřetržitě bez nutnosti nabíjení. Každý výstřel ale generuje teplo a nepřetržitá palba postupně způsobí přehřátí děla, což znemožní další palbu, dokud se dělo neochladí."
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
+msgstr "Automatický kanón s termální ochranou proti přehřátí"
+
+msgid "detailsHelp/mechanics/battleFury/page1/description"
+msgstr "Kdykoliv zasáhnete nepřítele granátem, získáte úroveň efektivity nabíjení, která dočasně zkracuje dobu nabíjení vašeho děla. Úrovně se s každým zásahem sčítají.\nZničení nepřátelského vozidla granátem poskytuje další úrovně efektivity nabíjení."
+
+msgid "detailsHelp/mechanics/battleFury/page1/title"
+msgstr "Poloautomatický zásobník munice"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/description"
+msgstr "Pokud je vaše dělo nabito, můžete začít nahřívat svůj další výstřel. Čím vyšší úrovně nahřátí dosáhnete, tím větší bonus k průměrnému poškození obdržíte.\nPro spuštění procesu nahřívání stiskněte:"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/title"
+msgstr "Termobalistické přehřátí"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/description"
+msgstr "Když dosáhnete maximální úrovně nahřátí, začne odpočet. Pokud před jeho skončením nevystřelíte, nebudete moct několik sekund střílet nebo změnit granáty."
+
+msgid "detailsHelp/mechanics/chargeShot/page2/title"
+msgstr "Přehřátí granátu"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/description"
+msgstr "Dosažení dvou zásahů nepřátelských vozidel s probitím pancíře aktivuje režim palby dávkou a nabije kazetu pro palbu dávkou, která umožní při příštím výstřelu vypálit v krátkém sledu dva granáty po sobě."
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
+msgstr "Režim palby dávkou"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/description"
+msgstr "Pneumatický gyroskopický stabilizátor poskytuje na krátkou dobu maximální stabilizaci během otáčení korby a věže, čímž umožňuje přesněji střílet za pohybu a rychle reagovat na náhlé hrozby.\nPro aktivaci stiskněte klávesovou zkratku:"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/title"
+msgstr "Pneumatický gyroskopický stabilizátor"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/description"
+msgstr "Pokud je dělo po palbě dostatečně ochlazeno, bude snížen jeho rozptyl. Objeví se druhý kruh zaměřování s menším průměrem, který určí oblast dopadu granátu. Tento efekt potrvá, dokud nebude vypálen další výstřel."
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/title"
+msgstr "Dvojí zaměřování"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/description"
+msgstr "Když ve stávající kazetě zbývá poslední granát, začne systém automaticky nabíjet novou kazetu.\nVystřelení posledního granátu při nabíjení nové kazety přidá několik sekund ke zbývající době nabíjení."
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/title"
+msgstr "Systém nabíjení kazety"
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/description"
+msgstr "Systém ochlazuje dělo, což umožňuje velmi přesnou palbu. Dělo se při palbě zahřívá, ale během nabíjení se začne ochlazovat a vrátí se k vylepšeným parametrům. Čím vyšší je teplota děla, tím více se mění některé jeho parametry."
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/title"
+msgstr "Aktivní ochlazování děla"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/description"
+msgstr "Toto vozidlo je speciálně konfigurováno pro útoky narážením, s řadou konstrukčních úprav, které mu pomáhají způsobit větší poškození při narážení."
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/title"
+msgstr "Konfigurace pro narážení"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/description"
+msgstr "Dělo tohoto vozidla může střílet předčasně: výstřely s částečným nabitím vypálené během nabíjení mají sníženou účinnost, zatímco běžné výstřely s plným nabitím vypálené po nabití mají optimální balistické parametry."
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/title"
+msgstr "Segmentovaný nabíjecí systém"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/description"
+msgstr "Zůstanete-li stát na místě nebo se budete pohybovat rychlostí nižší než určitá hodnota, generuje se nahřátí, které zvyšuje průměrné způsobené poškození a přesnost vašeho následujícího výstřelu.\nPřekročení rychlostního limitu postupně bonus snižuje, zatímco výstřel nebo změna granátu bonus okamžitě zruší."
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/title"
+msgstr "Systém řízení teploty hnacích plynů"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/description"
+msgstr "Na maximální úroveň nahřátí způsobí probití pancíře nepřátelského vozidla s méně body výdrže, než je vaše průměrné poškození – včetně vašeho nahromaděného bonusu za nahřátí – výbuch bedny s municí, který okamžitě vozidlo zničí."
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/title"
+msgstr "Rozhodující poškození"
+
+msgid "detailsHelp/mechanics/powerMode/page1/description"
+msgstr "Režim přímého pohonu poskytuje výrazné posílení výkonu motoru a maximální rychlosti jízdy vpřed. Čím déle pojedete dopředu, tím rychleji pojedete, což vám dovolí snadno přejíždět po bojišti."
+
+msgid "detailsHelp/mechanics/powerMode/page1/title"
+msgstr "Přímý pohon"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/description"
+msgstr "Postupem času se v systému automaticky hromadí náboj, který se při střelbě částečně spotřebovává k zvýšení poškození. Čím vyšší je náboj, tím větší je bonus k poškození."
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/title"
+msgstr "Přídavné indukční spalování"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/description"
+msgstr "Ve výchozím nastavení systém ukládá nabití pouze do určitého limitu. Vypnutím omezovače umožníte akumulaci ještě vyššího nabití, což přinese mnohem větší bonus k poškození, ale sníží ovládání děla. Chcete-li omezovač zapnout nebo vypnout, stiskněte:"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/title"
+msgstr "Omezovač"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/description"
+msgstr "Trysky na kapalné palivo poskytují krátkodobé posílení výkonu motoru, díky čemuž můžete rychle přejíždět po bojišti, ale omezují rychlost couvání a rychlost otáčení. Trysky lze kdykoliv zapnout a vypnout, kromě toho, když dosáhnou kritické teplotní meze.\nPro zapnutí trysek stiskněte nebo podržte:"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/title"
+msgstr "Trysky na kapalné palivo"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/description"
+msgstr "Trysky se během provozu přehřívají, až dosáhnou kritické teplotní meze, po jejímž překročení je nelze znovu aktivovat, dokud nevychladnou. Pečlivě plánujte své tahy, abyste nebyli zaskočeni."
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/title"
+msgstr "Kritická teplotní mez"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/description"
+msgstr "Použití raketových trysek zvyšuje pohyblivost vozidla. Umožňuje vám zaujmout výhodné pozice nebo rychleji přejet nebezpečné oblasti. Raketové trysky lze aktivovat po stanovenou dobu a jen několikrát za bitvu. Nelze je vypnout nebo zničit."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/title"
+msgstr "Raketové trysky"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/description"
+msgstr "Po aktivaci raketové trysky zvýší výkon motoru a maximální rychlost jízdy vpřed. Avšak vozidlo bude méně obratné a ztratí rychlost couvání."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
+msgstr "Výhody a nevýhody"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
+msgstr "Trysky na tuhé palivo, které na několik sekund zvyšují zrychlení, pohyblivost a obratnost. Levé a pravé trysky mohou pracovat nezávisle na sobě, což umožňuje rychlejší otáčení korby a neomezuje couvání."
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/title"
+msgstr "Sekvenční raketové trysky"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/description"
+msgstr "Toto vozidlo má dva režimy – turbo a soubojový – mezi kterými lze kdykoliv přepínat. Taktický napájecí zdroj hromadí energii pro aktivní režim.\nPro přepnutí mezi režimy stiskněte:"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/title"
+msgstr "Dva režimy"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/description"
+msgstr "Jakmile je Taktický napájecí zdroj plně nabitý, zpřístupní se schopnost specifická pro daný režim. Aktivování této schopnosti spotřebuje všechnu nahromaděnou energii a na krátký čas poskytne silné bonusy.\nPro aktivaci jedinečné schopnosti režimu stiskněte:"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/title"
+msgstr "Schopnosti režimu"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/description"
+msgstr "Vnější modul pro zásobování municí vám, dokud máte stále nabitý jeden granát, umožňuje kdykoliv přerušit nabíjení a začít střílet. Pro přerušení nebo pokračování procesu nabíjení stiskněte klávesovou zkratku:"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/title"
+msgstr "Vnější modul pro zásobování municí"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/description"
+msgstr "Během nabíjení modul uzamkne věž vozidla a vnější zásobníky munice, čímž vám dočasně zabrání v zaměřování nebo palbě, dokud nabíjení nepřerušíte nebo nedokončíte."
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/title"
+msgstr "Vnější modul pro zásobování municí"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/description"
+msgstr "Toto vozidlo je vybaveno sadou pomocných zbraní, jejichž cyklus nabíjení je nezávislý na hlavním dělu a které vám v klíčových okamžicích umožní způsobit další poškození. Pro aktivaci pomocných zbraní stiskněte klávesovou zkratku:"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/title"
+msgstr "Pomocný zbraňový systém"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/description"
+msgstr "Laserový značkovač cílů přidává k vašemu následujícímu výstřelu speciální efekt, který je aplikovaný na nepřítele, kterého zasáhnete. Efekt se liší podle toho, zda byl nepřítel v okamžiku zásahu odhalen.\nPro aktivaci Laserového značkovače cílů stiskněte:"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/title"
+msgstr "Laserový značkovač cílů"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/description"
+msgstr "Zasažení odhaleného nepřátelského vozidla ho označí, čímž prodlouží čas, po který zůstane odhaleno, a zvýší poškození, které obdrží od granátů.\nZasažení neodhaleného nepřátelského vozidla označí jeho lokaci speciálním ukazatelem."
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/title"
+msgstr "Označení cíle"
+
+msgid "detailsHelp/mechanics/twinGun/page1/description"
+msgstr "V závislosti na taktické situaci na bojišti můžete přepínat mezi režimem palby salvou a režimem palby jednotlivými výstřely."
+
+msgid "detailsHelp/mechanics/twinGun/page1/title"
+msgstr "Mechanika změny režimu palby"
+
+msgid "detailsHelp/mechanics/twinGun/page2/description"
+msgstr "Režim palby salvou zdvojnásobuje jak poškození, tak dobu nabíjení, a na 100 m* se navíc zvýší rozptyl vašeho vozidla."
+
+msgid "detailsHelp/mechanics/twinGun/page2/title"
+msgstr "Výhody a nevýhody"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/description"
+msgstr "Tato mechanická úprava na krátkou dobu výrazně zvyšuje zrychlení vozidla při jízdě vpřed i vzad, výkon motoru a maximální rychlost při jízdě vpřed i vzad. Udržování vysoké rychlosti pohybu zkracuje dobu jejího ochlazování."
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/title"
+msgstr "Vysokotlaké pomocné turbodmychadlo"
+
+msgid "detailsHelp/noKeysWarning"
+msgstr "Klíčové klávesy nebyly přiřazeny. Přiřaďte je v nastavení hry."
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1"
+msgstr "V tomto režimu je přesnost děla, doba nabíjení a úhly náměru a sklápění děla výrazně zlepšena, ale pohyblivost (rychlost jízdy vpřed a vzad a rychlost vertikálního a horizontálního otáčení) je výrazně omezena. Pro aktivaci režimu %(pressAndHold)s klávesovou zkratku:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/pressAndHold"
+msgstr "stiskněte a držte"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/title"
+msgstr "Opevněný režim"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2"
+msgstr "V tomto režimu je zlepšena přesnost děla, doba nabíjení a úhly náměru a sklápění děla, ale pohyblivost (rychlost jízdy vpřed a vzad) je snížena. Pro aktivaci režimu stiskněte klávesovou zkratku:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2/title"
+msgstr "Palebný režim"
+
+msgid "detailsHelp/role/description"
+msgstr "Získejte bonus ke zkušenostem prováděním úlohových akcí:"
+
+msgid "detailsHelp/role/title"
+msgstr "Úloha vozidla v bitvě"
+
+msgid "detailsHelp/trackWithinTrack/description"
+msgstr "Umožňuje částečné zachování pohyblivosti, když je hlavní pás zničen."
+
+msgid "detailsHelp/trackWithinTrack/title"
+msgstr "Náhradní pás"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique"
+msgstr "Francouzská lehká kolová vozidla mají nejvyšší rychlost a dynamiku, zároveň však také poměrně průměrný dohled. Stojící kolová vozidla se nemohou otočit na místě."
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique/title"
+msgstr "Celkem"
+
+msgid "detailsHelp/wheeledVeh/burnout"
+msgstr "Stiskněte a přidržte zároveň %(key2)s a %(key1)s. Úroveň na panelu výkonu ovlivňuje sílu zrychlení. Pusťte %(key1)s, abyste zrychlení aktivovali, nebo pusťte %(key2)s a zrychlení zrušíte. Zrychlení umožňuje rychlou akceleraci, kterou lze využít k nečekaným útokům a klamným manévrům. Pozor! Zrychlení se dá využít teprve poté, co vozidlo zcela zastaví. Aktivace zrychlení poškozuje motor vašeho vozidla."
+
+msgid "detailsHelp/wheeledVeh/burnout/title"
+msgstr "Zrychlení"
+
+msgid "detailsHelp/wheeledVeh/stableChassis"
+msgstr "Kolová vozidla obdrží snížené poškození, pokud dopadnou na svá kola. Zničení jednoho kola kolová vozidla nezastaví. Při zničení více kol se snižuje rychlost a ovladatelnost vozidla. Kolová vozidla nelze snadno znehybnit – zničená kola se po určité době zcela opraví."
+
+msgid "detailsHelp/wheeledVeh/stableChassis/title"
+msgstr "Odolný podvozek"
+
+msgid "detailsHelp/wheeledVeh/twoModes"
+msgstr "Stisknutím %(key1)s přepnete režim. Vozidla mají v každém režimu různou rychlost, dynamiku a ovladatelnost."
+
+msgid "detailsHelp/wheeledVeh/twoModes/title"
+msgstr "Dva režimy jízdy"
+
+msgid "markerColors/enemy"
+msgstr "Nepřítel"
+
+msgid "markerColors/friend"
+msgstr "Spojenec"
+
+msgid "markerColors/squadPlayer"
+msgstr "Spolubojovník v četě"
+
+msgid "markerColors/teamKiller"
+msgstr "Hráč poškozující vlastní"
+
+msgid "markerColors/title"
+msgstr "Barvy značek:"
+
+msgid "markerMarks/attack"
+msgstr "Útočím"
+
+msgid "markerMarks/follow"
+msgstr "Za mnou!"
+
+msgid "markerMarks/help"
+msgstr "Pomoc!"
+
+msgid "markerMarks/target/sau"
+msgstr "Cíl dělostřelectva"
+
+msgid "markerMarks/target/tank"
+msgstr "Cíl vozidla"
+
+msgid "markerMarks/title"
+msgstr "Značky na minimapě:"
+
+msgid "radialMenu/ally_hq_defend_command"
+msgstr "Braňte!"
+
+msgid "radialMenu/ally_hq_defend_commit"
+msgstr "Bráním!"
+
+msgid "radialMenu/attackAreaSPG"
+msgstr "Mířím sem!"
+
+msgid "radialMenu/attack_enemy"
+msgstr "Požaduji palbu!"
+
+msgid "radialMenu/attack_enemy_with_SPG"
+msgstr "Útočím na cíl!"
+
+msgid "radialMenu/attacking_base"
+msgstr "Budu obsazovat!"
+
+msgid "radialMenu/attacking_enemy"
+msgstr "Útočím na cíl!"
+
+msgid "radialMenu/attention_to_base_atk"
+msgstr "Obsazujte!"
+
+msgid "radialMenu/attention_to_base_def"
+msgstr "Braňte!"
+
+msgid "radialMenu/attention_to_position"
+msgstr "Pozor na pozici!"
+
+msgid "radialMenu/cancel_reply"
+msgstr "Odmítám"
+
+msgid "radialMenu/defending_base"
+msgstr "Budu bránit!"
+
+msgid "radialMenu/enemy_hq_attack_command"
+msgstr "Zaútočte!"
+
+msgid "radialMenu/enemy_hq_attack_commit"
+msgstr "Útočím!"
+
+msgid "radialMenu/going_there"
+msgstr "Jedu na pozici!"
+
+msgid "radialMenu/helpMe"
+msgstr "Pomoc!"
+
+msgid "radialMenu/helpMeEx"
+msgstr "Potřebuji pomoc!"
+
+msgid "radialMenu/overheated_gun"
+msgstr "Přehřáté!"
+
+msgid "radialMenu/positive"
+msgstr "Potvrzuji!"
+
+msgid "radialMenu/reloadingGun"
+msgstr "Nabíjím!"
+
+msgid "radialMenu/reply_to_player"
+msgstr "Potvrzeno!"
+
+msgid "radialMenu/supporting_ally"
+msgstr "Pomohu ti!"
+
+msgid "radialMenu/thanks"
+msgstr "Děkuji!"
+
+msgid "radialMenu/turn_back"
+msgstr "Ústup!"
+
+msgid "returnToGame"
+msgstr "Esc - Zpět do bitvy"
+
+msgid "roleDescription/msg"
+msgstr "Získejte bonus ke zkušenostem prováděním úlohových akcí:"
+
+msgid "settings/button"
+msgstr "Nastavení"
+
+msgid "settings/help"
+msgstr "Ke zobrazení a úpravě ovládání klikněte na tlačítko nastavení."
+
+msgid "teamComm/highlightAsActiveTarget"
+msgstr "Označit aktivní cíl"
+
+msgid "teamComm/highlightLocation"
+msgstr "Označit pozici"
+
+msgid "teamComm/show"
+msgstr "Zobrazit příkazové menu"
+
+msgid "teamComm/show/ext"
+msgstr "(seznam příkazů v závislosti na cíli)"
+
+msgid "teamComm/title"
+msgstr "Týmová komunikace"
+
+msgid "vehicleTypes/title"
+msgstr "Značky vozidel"

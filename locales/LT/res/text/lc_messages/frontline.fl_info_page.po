@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "Apie kovinį leidimą"
+
+msgid "about/position/header"
+msgstr "Kovinio leidimo taškų paskirstymas"
+
+msgid "about/position/text"
+msgstr "Po kiekvieno mūšio jūs gausite Kovinio leidimo taškų, kurių kiekis priklausys nuo užimtos pozicijos. Jūs gausite papildomų Kovinio leidimo taškų jeigu pakelsite savo Fronto linijos lygį."
+
+msgid "about/scores/header"
+msgstr "Kovinio leidimo taškai"
+
+msgid "about/scores/text"
+msgstr "Speciali Kovinio leidimo valiuta, kurią galima uždirbti Atsitiktiniuose mūšiuose ir Fronto linijos režime. Kovinio leidimo taškai suteikiami pasiekus Fronto linijos lygius ir už jūsų poziciją mūšio rezultatų lange. Fronto linijos mašinos neturi taškų limito."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Pralaimėjimas"
+
+msgid "about/scoresTable/topCell"
+msgstr "Top {{top}} pagal uždirbtą patirtį"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Pergalė"
+
+msgid "about/text"
+msgstr "Kovinis leidimas yra ilgos trukmės renginys, kuriame žaidėjai eina per etapus rinkdami kovinio leidimo taškus. Kiekvienas pasiektas etapas garantuoja vertingus prizus. Už įvykdytus kai kuriuos etapus žaidėjai gali gauti Kovinių leidimo žetonų — tai speciali valiuta, kuri naudojama unikalių mašinų ir kitų vertingų prizų pirkimui atitinkamame parduotuvės skyriuje."
+
+msgid "addons/cellRent/header"
+msgstr "Mašinų nuoma"
+
+msgid "addons/cellRent/text_10"
+msgstr "Už kreditus galite išsinuomoti keletą skirtingų {{vehiclesLevel}} lygio mašinų. Į jas galite susodinti įgulas iš tokio pat tipo ir tos pačios nacijos kitų mašinų be jokių nuobaudų ir be papildomų treniravimų."
+
+msgid "addons/cellRent/text_9"
+msgstr "Už kreditus galite išsinuomoti keletą skirtingų {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} lygio mašinų. Į jas galite susodinti įgulas iš tokio pat tipo ir tos pačios nacijos kitų mašinų be jokių nuobaudų ir be papildomų treniravimų."
+
+msgid "addons/cellSpectator/header"
+msgstr "Stebėtojo režimas"
+
+msgid "addons/cellSpectator/text"
+msgstr "Laukdami sugrįžimo į mūšį, jūs galite įsijungti Stebėtojo režimą ir įvertinę situaciją mūšio lauke, paruošti naują planą."
+
+msgid "addons/cellTime/header"
+msgstr "Papildomas laikas"
+
+msgid "addons/cellTime/text"
+msgstr "Jei bazė yra užimama ir tuo metu baigiasi mūšio laikas, jūsų komanda gaus papildomo laiko. Jeigu besiginanti komanda nutraukia bazės užėmimą, papildomas laikas virsta nuliu."
+
+msgid "addons/header"
+msgstr "Papildoma informacija"
+
+msgid "levelUp/sectionHeader"
+msgstr "{{level}} lygio mašinos"
+
+msgid "levelUp/text"
+msgstr "Kaip ir anksčiau, jūs galite į mūšį žengti tik su {{vehiclesLevelFrom}} lygio mašinomis, bet garaže galite pasiruošti ir {{vehiclesLevelTo}} lygio mašinas. Užėmus bet kurią bazę antroje linijoje (D, E, F), abi komandos galės soti į kovą savo turimose {{vehiclesLevelTo}} lygio mašinose."
+
+msgid "main/cellDuration/header"
+msgstr "Trukmė"
+
+msgid "main/cellDuration/text"
+msgstr "Fronto linija tęsis {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}} dienų. Naujo starto data bus paskelbta atskirai."
+
+msgid "main/cellFrontline/header"
+msgstr "Fronto linija"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Masiniai 30 prieš 30 mūšiai su {{vehiclesLevel}} lygio mašinomis {{@ colorLegacy 'FFE4C0'}}Normandija, Kraftwerk{{/}} ir {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}} žemėlapiuose. Puolėjai turi sunaikinti 3 iš 5 stambaus kalibro pabūklų, o gynėjai turi juos apsaugoti."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Masiniai 30 prieš 30 mūšiai su {{vehiclesLevelFrom}}–{{vehiclesLevelTo}} lygio mašinomis {{@ colorLegacy 'FFE4C0'}}Normandija, Kraftwerk{{/}} ir {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}} žemėlapiuose. Puolėjai turi sunaikinti 3 iš 5 stambaus kalibro pabūklų, o gynėjai turi juos apsaugoti."
+
+msgid "main/cellLevel9/header"
+msgstr "{{vehiclesLevel}} lygio mašinos"
+
+msgid "main/cellLevel9/text"
+msgstr "Kai tik bus užimta bet kuri antros linijos bazė (D, E arba F), jūs galėsite žengti į kovą su {{vehiclesLevel}} lygio mašina."
+
+msgid "main/cellLevels/header"
+msgstr "{{vehiclesLevel}} lygio mašinos"
+
+msgid "main/cellLevels/text_8"
+msgstr "Tik {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} lygio mašinos pasiekiamos šiame režime."
+
+msgid "main/cellLevels/text_9"
+msgstr "Tik {{vehiclesLevel}} lygio mašinos gali patekti į mūšį."
+
+msgid "main/cellPass/header"
+msgstr "Kovinis leidimas"
+
+msgid "main/cellPass/text"
+msgstr "Fronto linija suteikia puikią progą uždirbti Kovinio leidimo taškų už dalyvavimą mūšiuose ir už pasiektus naujus Fronto linijos lygius."
+
+msgid "main/cellReserves/header"
+msgstr "Kovinių rezervų kategorijos"
+
+msgid "main/cellReserves/text"
+msgstr "Iš viso yra trys kovinių rezervų kategorijos, kiekviena priskirta konkrečiai vietai. Jų atrakinimo ir pagerinimo eiliškumas priklauso nuo mašinos tipo."
+
+msgid "main/cellScenarios/header"
+msgstr "Scenarijai"
+
+msgid "main/cellScenarios/text"
+msgstr "Fronto linijos mūšiai vyksta pagal vieną iš šių scenarijų: {{@ colorLegacy 'FFE4C0'}}Standartinis mūšis{{/}}, {{@ colorLegacy 'FFE4C0'}}Operatyvinė pagalba{{/}} arba {{@ colorLegacy 'FFE4C0'}}Likimo posūkis{{/}}. Informacija apie dabartinį mūšio scenarijų pateikiama užkrovimo lange, skaičiavimo prieš mūšį metu arba paspaudus Tab klavišą."
+
+msgid "main/sectionHeader"
+msgstr "Bendra informacija"
+
+msgid "page/backBtn"
+msgstr "ATGAL"
+
+msgid "page/headerUpper"
+msgstr "FRONTO LINIJA"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "Priklausomai nuo pasiekto rango, jūs gausite Fronto linijos bei kovinės patirties. Fronto linijos patirtis naudojama norint pakelti Fronto linijos lygį. Iš viso tokių {{@ colorLegacy 'FFE4C0'}}lygių yra 20{{/}}."
+
+msgid "progression/levelsSection/header"
+msgstr "Fronto linijos lygiai"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Fronto linijos lygiai{{/}} suteiks jums Kovinio leidimo taškų, kovinių rezervų taškų, bonų, instrukcijų, pertreniravimo įsakymų, mentorystės licenciją ir įgulos knygų."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Fronto linijos lygiai{{/}} suteikia jums kovinių rezervų taškų, bonų, instrukcijų, treniravimo įsakymų ir įgulos knygų."
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Rangai{{/}} ne tik atspindi jūsų rezultatą, bet ir suteikia daugiau kovinės patirties. Šis bonusas pridedamas prie jūsų visų mūšyje dalyvavusių mašinų bendros surinktos bazinės patirties kiekio. Jei jūs ar jūsų komandos nariai pasiekia generolo rangą, visa komanda gauna bonusą įgulai (pagrindinės kvalifikacijos lygiui) nuo {{@ colorLegacy 'FFE4C0'}}1,5%{{/}} iki {{@ colorLegacy 'FFE4C0'}}15%{{/}}."
+
+msgid "progression/ranksSection/header"
+msgstr "Rangai"
+
+msgid "progression/ranksSection/text"
+msgstr "Režime yra šešių rangų sistema, kuri leidžia žaidėjams pakilti nuo eilinio iki generolo rango. Jūs būsite paaukštinti už efektyvius veiksmus mūšyje (bazės užėmimas ar gynyba, pagrindinių taikinių sunaikinimas) bei pagal gautą patirtį. Skaičiuojama bendra patirtis, kurią gavote su visomis mašinomis, dalyvavusiomis mūšyje."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Bonusas kovinei patirčiai"
+
+msgid "progression/ranksTable/captain"
+msgstr "Kapitonas"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Bonusas įgulos efektyvumui"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Fronto linijos patirtis"
+
+msgid "progression/ranksTable/general"
+msgstr "Generolas"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Leitenantas"
+
+msgid "progression/ranksTable/major"
+msgstr "Majoras"
+
+msgid "progression/ranksTable/private"
+msgstr "Eilinis"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Seržantas"
+
+msgid "progression/sectionHeader"
+msgstr "Progresas Fronto linijoje"
+
+msgid "progression/text"
+msgstr "Žaisdami šiame režime jūs kelsite rangus, progresuosite Fronto linijoje ir uždirbsite prizus."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Antrinis"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Rezervo vieta 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Rezervo vieta 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Rezervo vieta 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Pagrindinis"
+
+msgid "reserveCategories/categories/support"
+msgstr "Pagalbinis"
+
+msgid "reserveCategories/config/footerText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Likimo posūkio{{/}} scenarijaus mūšiuose kovinių rezervų atrakinimo tvarka nepriklauso nuo mašinos tipo."
+
+msgid "reserveCategories/config/header"
+msgstr "Rezervų konfigūracijos pagal mašinos tipą"
+
+msgid "reserveCategories/config/text"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Standartinio mūšio{{/}} ir {{@ colorLegacy 'FFE4C0'}}Operatyvinės pagalbos{{/}} scenarijaus mūšiuose koviniai rezervai pasiekiami visų tipų mašinoms. Tačiau jų atrakinimo tvarka priklauso nuo mašinos tipo."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "Prieštankiniai"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Sunkieji tankai"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Lengvieji tankai"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Vidutiniai tankai"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "SAP"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* Šis lygis pasiekiamas tik {{@ colorLegacy 'FFE4C0'}}nusipirktiems{{/}} koviniams rezervams žaidžiant pagal {{@ colorLegacy 'FFE4C0'}}Likimo posūkio{{/}} scenarijų."
+
+msgid "reserveCategories/levels/header"
+msgstr "Kaip atrakinti vietas ir pagerinti kovinius rezervus"
+
+msgid "reserveCategories/levels/text"
+msgstr "Iš pradžių jums pasiekiamas tik vienas kovinis rezervas. Daugiau galite gauti pasiekę seržanto ir leitenanto rangus. Visi trys rezervai pagerinami pasiekus kapitono ir majoro rangus."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} arba {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}} lygis"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Kapitonas"
+
+msgid "reserveCategories/ranks/general"
+msgstr "Generolas"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Leitenantas"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Majoras"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Seržantas"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Eilinis"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Likimo posūkis"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "Žaidėjai mūšyje gali rinktis iš atsitiktinių rezervų, skirtų bet kokio tipo mašinoms. Parinkdami rezervui vietą padidinate šansą vėl gauti jį gauti mūšyje {{@ colorLegacy 'FFE4C0'}}10%{{/}}. Nusipirkę rezervą padidinsite jo lygį iki {{@ colorLegacy 'FFE4C0'}}II{{/}} ir turėsite galimybę jį patobulinti iki {{@ colorLegacy 'FFE4C0'}}IV{{/}} lygio."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Fronto linijos scenarijai"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Standartinis mūšis"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Taikomos standartinės Fronto linijos taisyklės. Kovinių rezervų naudojimo sąlygos nepakeistos."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Operatyvinė pagalba"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "Atrakinus rezervą: {{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "Sugrįžus į mūšį: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Greitesnis scenarijus su mažesniu kovinių rezervų atsistatymo laiku:"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Fronto linijos mūšiai vyksta pagal vieną iš šių scenarijų: {{@ colorLegacy 'FFE4C0'}}Standartinis mūšis{{/}}, {{@ colorLegacy 'FFE4C0'}}Operatyvinė pagalba{{/}} arba {{@ colorLegacy 'FFE4C0'}}Likimo posūkis{{/}}. Scenarijai pakeičia kovinių rezervų naudojimo sąlygas mūšyje. Informacija apie dabartinį mūšio scenarijų pateikiama užkrovimo lange, skaičiavimo prieš mūšį metu arba paspaudus Tab klavišą."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Kovinių rezervų kategorijos"
+
+msgid "reserveCategories/text"
+msgstr "Koviniai rezervai yra padalinti į tris kategorijas, kiekvienoje po tris rezervus. Žengdami į kovą galite įsidėti tik vieną rezervą atitinkamos kategorijos vietoje."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Atakos rezervai"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Žvalgybos rezervai"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Taktiniai rezervai"
+
+msgid "reserves/sectionHeader"
+msgstr "Greiti rezervai"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Greitas startas"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Kovinių rezervų paruošimo laikas sutrumpintas 50% mūšio pradžioje."
+
+msgid "reserves/sectionReload/header"
+msgstr "Momentinis pasiekiamumas"
+
+msgid "reserves/sectionReload/text"
+msgstr "Koviniai rezervai bus paruošti naudojimui iš karto, kai tik jie bus atrakinti."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Antras kvėpavimas"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Kovinių rezervų paruošimo laikas sutrumpėja 70% sugrįžus į mūšį su nauja mašina."
+
+msgid "rules/backToFight/header"
+msgstr "Sugrįžimas į mūšį"
+
+msgid "rules/backToFight/text"
+msgstr "Jeigu jūsų mašina sunaikinama, pasirinkite bet kurią kitą pasiekiamą mašiną ir toliau kovokite dėl pergalės. Jūs galite pasirinkti kelias grįžimo į mūšį zonas flanguose bei užnugaryje, tai leis efektyviai planuoti tolesnius veiksmus mūšyje. Besiginantys žaidėjai gali rinktis iš daugiau grįžimo taškų gynybos gilumoje, tai leidžia greičiau suorganizuoti stambaus kalibro pabūklų gynybą netikėto priešų prasiveržimo atveju. Sugrąžinimo į mūšį sistema turi specialų indikatorių, kuris perspėja žaidėją, jeigu jo pasirinkta grįžimo zona yra per daug pavojinga."
+
+msgid "rules/base/header"
+msgstr "Bazės užėmimas"
+
+msgid "rules/base/textBottom"
+msgstr "Bazę užimančios mašinos (ar jos modulių) pažeidimas nenumuša bazės užėmimo progreso, o tik jį pristabdo. Norėdami visiškai numušti bazės užėmimo progresą, gynėjai turi sunaikinti priešo mašiną arba priversti ją palikti bazės apskritimą. Besiginanti komanda nebegali atsiimti bazės, kai ją užima puolėjai."
+
+msgid "rules/base/textTop"
+msgstr "{FFE4C0_Start}Puolanti komanda{FFE4C0_End} privalo užgrobti bazes vieną po kitos ir pasiekti pagrindinius taškus. Užgrobta bazė prailgins mūšį 2 minutės. Užgrobę paskutinę bazę prailginsite 4 minutėmis."
+
+msgid "rules/sectionHeader"
+msgstr "Bendros taisyklės"
+
+msgid "rules/service/header"
+msgstr "Pasipildymo sritys"
+
+msgid "rules/service/text"
+msgstr "Pasipildymo sritys atstato patvarumo taškų, išgydo sužeistus įgulos narius ir papildo amuniciją. {FFE4C0_Start}papildymo greitis: 100 patvarumo taškų / vienas įgulos narys / 10%{FFE4C0_End} amunicijos per sekundę."
+
+msgid "rules/weapons/header"
+msgstr "Taikinys: 3 iš 5 stambaus kalibro pabūklų"
+
+msgid "rules/weapons/list/back"
+msgstr "Galiniai šarvai: {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "Stogas ir priekiniai šarvai {{@ colorLegacy 'FFE4C0'}}negali būti pramušti{{/}} sviediniais."
+
+msgid "rules/weapons/list/sides"
+msgstr "Šoniniai šarvai: {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Šoniniai šarvai: {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Kritiniai taškai: {{@ colorLegacy 'FFE4C0'}}durys (70 mm) ir ventiliacija (25 mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Besiginančios komandos teritorijos gilumoje dislokuoti penki įtvirtinimai, kurie yra pagrindiniai taikiniai mūšyje. Puolanti komanda turi sunaikinti 3 pagrindinius taikinius, o gynėjai turi juos apsaugoti bet kokia kaina."
+
+msgid "subTitle/differentMonth"
+msgstr "nuo {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}{{/}} iki {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "nuo {{@ colorLegacy 'FFE4C0'}}{{startYear}} {{startMonth}} {{from}}{{/}} iki {{@ colorLegacy 'FFE4C0'}}{{endYear}} {{endMonth}} {{to}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "nuo {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{from}}{{/}} iki {{@ colorLegacy 'FFE4C0'}}{{to}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "Sektoriai A, B ir C {{@ colorLegacy 'FFE4C0'}}pirmoje linijoje{{/}} žymi startines abiejų komandų pozicijas."
+
+msgid "winStrategy/header"
+msgstr "Pergalinga strategija"
+
+msgid "winStrategy/mapZones"
+msgstr "Režimo žemėlapis turi tris horizontalias gynybos linijas:"
+
+msgid "winStrategy/secondLine"
+msgstr "Kai pirmoje linijoje esantys sektoriai užimami, mūšis persikelia į D, E ir F sektorius, esančius {{@ colorLegacy 'FFE4C0'}}antroje linijoje{{/}}."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Trečioji linija{{/}} nėra padalinta į sektorius - tai teritorija, kurioje vyksta paskutinis mūšio etapas. Teritorijoje dislokuoti stambaus kalibro pabūklai, kurių sunaikinimas atneša pergalę puolančiai komandai. Puolėjai gali pasiekti pagrindinius taikinius tik užėmę bent vieną sektorių antroje linijoje. Kai sektorius prarandamas, gynėjai turi per 1 minutę palikti zoną, nes ji subombarduojama ir likę gynėjai sunaikinami. Puolėjai, kurie bando pasiekti antros ar trečios linijos sektorius, neužėmę prieš tai buvusio sektoriaus irgi yra sunaikinami bombardavimu iš oro."

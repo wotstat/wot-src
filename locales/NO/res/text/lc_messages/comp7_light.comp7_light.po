@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Endre server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detaljer"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Denne modusen er ikke tilgjengelig på denne serveren %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Denne modusen er ikke tilgjengelig på noen servere"
+
+msgid "alertMessage/modeOffline"
+msgstr "Databasefeil. Spillmodus ikke tilgjengelig."
+
+msgid "alertMessage/noVehicles"
+msgstr "Ingen passende kjøretøy i din garasje %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Bekreftet!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "ONSLAUGHT LIGHT"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "SISTE TRINNET FULLFØRT!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "TRINN %(level)s FULLFØRT!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Alle oppdrag fullført!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Fullført"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Utløper om: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Onslaught Light oppdrag"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Nytt Onslaught Light oppdrag om: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Belønning:"
+msgstr[1] "Belønninger:"
+msgstr[2] "Belønninger:"
+
+msgid "battleResult/header/deserter"
+msgstr "Du har fått en disiplinærstraff"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "ONSLAUGHT LIGHT FREMGANG"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Onslaught Light vil vare i %(days)d dag"
+msgstr[1] "Onslaught Light vil vare i %(days)d dager"
+msgstr[2] "Onslaught Light vil vare i %(days)d dager"
+
+msgid "calendarDay/title"
+msgstr "Program"
+
+msgid "closeButtonLabel"
+msgstr "LUKK"
+
+msgid "countDown/text"
+msgstr "Eventet begynner om:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "En konkurransemodus med 7 mot 7 kamper i kjøretøy på nivå %(levels)s. Nyt spilling i den originale Onslaught modusen uten kvalifisering, rangering eller tjenestemapper og tjen belønninger i daglige oppdrag."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MODUS"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — Spillmodus. Klikk for å utforske"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Onslaught Light"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Modusen er tilgjengelig i %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Våpenhvile%(timer)s"
+
+msgid "featureName"
+msgstr "Onslaught Light"
+
+msgid "featureNameCapitalized"
+msgstr "ONSLAUGHT LIGHT"
+
+msgid "intro/confirmButton"
+msgstr "Bekreftet!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Kos deg med spilling i den originale Onslaught modusen uten kvalifisering, rangering eller noen tjenestemapper."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Modusen har modifikatorer som endrer visse parametere på kjøretøyet, som f.eks. motstandsdyktighet, nedkjølingstid på forbruksmateriell, tiden man forblir synlig etter å ha blitt oppdaget og mer."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Så snart du erobrer bestemte områder på kartet, vil du kunne benytte taktiske ferdigheter. Det er to typer interessepunkter: Hovedkvarteret for artilleri vil la deg kunne dirigere et artilleriangrep mot en bestemt posisjon, og kommunikasjonssenteret vil oppdage alle de fiendtlige kjøretøyene. Avhengig av kart kan tilstedeværelsen og lokasjon for disse interessepunktene endre seg."
+
+msgid "intro/description/roleSkills"
+msgstr "Avhengig av rollen har hvert kjøretøy en spesialferdighet med tre ladningsnivåer. Jo høyere ladningsnivå når ferdigheten aktiveres, jo sterkere blir effekten. Ladningsnivået avhenger av antall prestisjepoeng som kan tjenes for imponerende ytelse i kamp, erobring av interessepunkter, bruk av taktiske ferdigheter, osv.\n\nSjekk reglene for modusen for å lære mer om de ulike måtene du kan tjene prestisjepoeng på."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Det er kun kjøretøy på nivå %(levels)s som kan benyttes i modusen (SPGer og noen andre tanks er ikke tilgjengelige). Klargjør dine kjøretøy i garasjen, velg deretter det beste kjøretøyet basert på egenskapene for det kartet du skal utkjempe en kamp i. Når du velger ditt kjøretøy bør du også vurdere det i forhold til hvilke kjøretøy dine allierte har valgt."
+
+msgid "intro/title/lightGameplay"
+msgstr "CHILL, KOMMANDØR"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "ONSLAUGHT MODIFIKATORER"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "INTERESSEPUNKTER"
+
+msgid "intro/title/roleSkills"
+msgstr "ROLLEFERDIGHETER"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "VELG ET KJØRETØY TIL ET SPESIFIKT KART"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Seier"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Tap/uavgjort"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Bra jobba kommandør, fortsett sånn!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Fullfør oppdrag og bli blant de beste i kamper i Onslaught Light for å øke fremgangsnivået ditt."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Antall fremgangspoeng du kan tjene avhenger av hvor mange prestisjepoeng du fikk i kamp."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Modusen avsluttes om %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Hovedfremgang komplett"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Onslaught Light"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Blant de 2 beste etter prestisjepoeng"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Blant de 5 beste etter prestisjepoeng"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Blant de 7 beste etter prestisjepoeng"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Bruk WoT premium konto"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktivér personlige reserver"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Fullfør oppdrag"
+
+msgid "noVehicles/howTo/title"
+msgstr "Hva er den raskeste måten å få nivå %(levels)s kjøretøy på?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "For å delta i Onslaught Light trenger du minst et kjøretøy på nivå %(levels)s i garasjen som passer til modusen.\nDu kan kjøpe premiumkjøretøy på nivå %(levels)s i utviklingstreet eller i butikken i spillet."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "For å delta i Onslaught Light, må du ha minst ett kjøretøy i garasjen din på nivå %(levels)s som passer til modusen.\nDu har et kjøretøy på nivå %(levels)s som er tilgjengelig for gjenopprettelse."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "For å delta i Onslaught Light, må du ha minst ett kjøretøy i garasjen din på nivå %(levels)s som passer til modusen."
+
+msgid "noVehicles/title"
+msgstr "Ingen passende kjøretøy i din garasje"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Se Om Onslaught Light siden for detaljer."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Prestisjepoeng"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Forårsakelse av skade\nOppdagelsesassistanse\nØdeleggelse av belter\nForårsakelse av kritiske treff\nBekjempelse av fiendtlige kjøretøy\nOg mer"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Prestisjepoeng tjenes for utførelse av kamphandlinger inkludert:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Sesongen er avsluttet på %(server)s serveren."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Sesongen er avsluttet på %(server)s serveren."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Sesongen er avsluttet på %(server)s serveren."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Hovedfremgang komplett!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "%(current)s. trinn"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s eller %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Nye oppdrag om:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Eventet avsluttes om:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Oppdrag blir oppdatert om"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Alle daglige oppdrag fullført."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Fremgang fullført. Spill i Onslaught Light for å tjene flere belønninger."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Fullfør oppdrag og bli blant de beste i kamper i Onslaught Light\nfor å øke fremgangsnivået ditt. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Tildelt for fullførelse av spesialoppdrag og for å ha kjempet i kamper i Onslaught Light. De gjør at du kommer videre i fremgangen."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Onslaught Light fremgangspoeng"
+
+msgid "selectorTooltip/desc"
+msgstr "Ikke-rangert modus. 7 mot 7 | Nivå %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Onslaught Light"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Følg de siste nyhetene på spillportalen for å holde deg oppdatert om begynnelsen på den nye sesongen."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Modusen er midlertidig utilgjengelig av tekniske årsaker."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Denne modusen blir tilgjengelig den %(time)s."
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Fremgangspoeng mottatt"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Detaljer"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Onslaught Light"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Mottatte belønninger:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Du har fullført fremgangstrinn %(stage)s i %(progressionName)s modusen."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Gratulerer!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Våpenhvile gjelder. Kamper i Onslaught Light er midlertidig utilgjengelig."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Våpenhvile"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Våpenhvile er over. Onslaught Light kamper er tilgjengelige igjen."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Våpenhvile"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Om Onslaught Light"

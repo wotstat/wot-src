@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "3dObject/showVideo"
+msgstr "Näytä video"
+
+msgid "reward/confirm"
+msgstr "Näytä tallissa"
+
+msgid "reward/confirmStyle"
+msgstr "Selvä!"
+
+msgid "reward/goToVehicleBtn"
+msgstr "Näytä tallissa"
+
+msgid "reward/nameStyle"
+msgstr "Tiikerin koura"
+
+msgid "reward/nameVehicle"
+msgstr "%(level)s %(type)s %(name)s."
+
+msgid "reward/rest"
+msgstr "Ja %(count)s lisää"
+
+msgid "reward/secondary"
+msgstr "Ulkonäköön"
+
+msgid "reward/stage"
+msgstr "LUKU %(stage)s: %(text)s"
+
+msgid "reward/stageAllComplete"
+msgstr "PALKINNOT KAIKISTA VAIHEISTA SAATU."
+
+msgid "reward/stageCompleteLast"
+msgstr "OLET SUORITTANUT VIIMEISEN VAIHEEN."
+
+msgid "reward/stageNotAllComplete"
+msgstr "PALKINNOT VAIHEISTA, JOITA ET OLE SUORITTANUT."
+
+msgid "reward/stageStyle"
+msgstr "TIIKERIN LOIKKA"
+
+msgid "reward/styleTitle"
+msgstr "TYYLI SAATU!"
+
+msgid "reward/title"
+msgstr "Renegade-haaste"
+
+msgid "reward/vehicleTitle"
+msgstr "VAUNU SAATU!"
+
+msgid "reward/viewRewardsBtn"
+msgstr "Näytä palkinnot"
+
+msgid "rewardTooltip/tankmen/header"
+msgstr "Täysi miehistö, jolla \"Aseveljet\" -pätevyys 100% tasolle koulutettuna"
+
+msgid "rewardTooltip/title"
+msgstr "Palkinnot:"
+
+msgid "vehiclePreview/buyingPanel/buyBtn/label/buy"
+msgstr "Vaunun ostamiseen"
+
+msgid "vehiclePreview/buyingPanel/buyBtn/tooltip/active/body"
+msgstr "Klikkaa ostaaksesi tavara."
+
+msgid "vehiclePreview/buyingPanel/buyBtn/tooltip/inactive/body"
+msgstr "Tämä vaunu on saatavilla ostettavaksi \"%(event_name)s\" -tapahtuman alkamisen jälkeen.\n%(addInfo)s"
+
+msgid "vehiclePreview/buyingPanel/buyBtn/tooltip/inactive/header"
+msgstr "Ei saatavilla"
+
+msgid "vehiclePreview/buyingPanel/customOffer/discount"
+msgstr "Alennuksesi:"
+
+msgid "vehiclePreview/buyingPanel/title"
+msgstr "Vaunu ja muut palkinnot suorittamatta olevista vaiheista"
+
+msgid "vehiclePreview/title/tooltip/body/addInfo/announce"
+msgstr ".\n%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/body/addInfo/progress"
+msgstr " %(endVehicleSellDate)s asti.\n%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/body/marathon/announce"
+msgstr "Tapahtuma alkaa %(marathonStartDate)s."
+
+msgid "vehiclePreview/title/tooltip/body/marathon/inprogress"
+msgstr "Ostaessasi kiinalaisen tason&nbsp;IX raskaan WZ-114 vaunun saat samalla palkinnot niistä tapahtuman vaiheista, joita et ole vielä suorittanut."
+
+msgid "vehiclePreview/title/tooltip/header"
+msgstr "%(event_name)s"
+
+msgid "vehiclePreview/title/tooltip/info/body/announce"
+msgstr "Vaunu ja siihen liittyvät palkinnot on mahdollista ostaa \"%(event_name)s\" -tapahtuman aikana."
+
+msgid "vehiclePreview/title/tooltip/info/body/progress"
+msgstr "Vaunu ja siihen liittyvät palkinnot on mahdollista ostaa \"%(event_name)s\" -tapahtuman aikana%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/info/body/progress/withDiscount"
+msgstr "Vaunu ja siihen liittyvät palkinnot ovat saatavilla \"%(event_name)s\" -tapahtuman aikana%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/rewards"
+msgstr "Joukko palkintoja"
+
+msgid "vehiclePreview/tooltip/dateTime"
+msgstr "%(day)s %(monthName)s %(year)s, %(hour)s:%(min)s"

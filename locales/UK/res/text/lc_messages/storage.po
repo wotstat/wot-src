@@ -1,0 +1,353 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprints/buttonLabel/gotoblueprints"
+msgstr "До креслення"
+
+msgid "blueprints/card/additional"
+msgstr "на вибір:"
+
+msgid "blueprints/card/convertAvailable"
+msgstr "Можна створити фрагментів: %(count)s"
+
+msgid "blueprints/card/convertRequired"
+msgstr "Не вистачає фрагментів"
+
+msgid "blueprints/card/plus"
+msgstr "+"
+
+msgid "blueprints/carousel/title"
+msgstr "ДОСТУПНІ ДЛЯ ЗАПОВНЕННЯ КРЕСЛЕННЯ:"
+
+msgid "blueprints/checkbox/label"
+msgstr "Можна створити фрагмент"
+
+msgid "blueprints/nationBar/title"
+msgstr "Універсальні й національні фрагменти креслень"
+
+msgid "blueprints/noItems/discount/body"
+msgstr "Кожна заповнена фрагментом кресленням комірка, дає знижку на дослідження машини. Зберіть повне креслення, і дослідження цієї машини буде безкоштовним."
+
+msgid "blueprints/noItems/discount/header"
+msgstr "Отримуйте знижку на дослідження"
+
+msgid "blueprints/noItems/fill/body"
+msgstr "З кількох універсальних і національних фрагментів креслень можна створити фрагмент креслення конкретної машини."
+
+msgid "blueprints/noItems/fill/header"
+msgstr "Заповнюйте креслення машин"
+
+msgid "blueprints/noItems/receive/body"
+msgstr "Можна отримати випадково з нагород, які видають за виконані завдання. Дублікати фрагментів перетворюються на універсальні чи національні."
+
+msgid "blueprints/noItems/receive/header"
+msgstr "Збирайте фрагменти"
+
+msgid "blueprints/title"
+msgstr "КРЕСЛЕННЯ НЕДОСЛІДЖЕНОЇ ТЕХНІКИ"
+
+msgid "buttonDeconstruct/tooltip/body"
+msgstr "Натисніть, щоб розібрати обладнання на компоненти."
+
+msgid "buttonDeconstruct/tooltip/header"
+msgstr "Розібрати"
+
+msgid "buttonLabel/activate"
+msgstr "До активації"
+
+msgid "buttonLabel/preview"
+msgstr "Попередній перегляд"
+
+msgid "buttonLabel/remove"
+msgstr "Прибрати"
+
+msgid "buttonLabel/restore"
+msgstr "Перейти до відновлення"
+
+msgid "buttonLabel/select"
+msgstr "Вибрати"
+
+msgid "buttonLabel/sell"
+msgstr "Продати"
+
+msgid "buttonSell/tooltip/body"
+msgstr "Натисніть, щоб продати обладнання."
+
+msgid "buttonSell/tooltip/header"
+msgstr "Продати"
+
+msgid "buttonUpgrade/tooltip/body"
+msgstr "Налагодити роботу обладнання."
+
+msgid "card/attachment/hover/partOfBundle/label"
+msgstr "Входить до %(bundleName)s.\nПерелік придатних машин можна знайти в розділі «3D-обвіси» на екрані «Зовнішній вигляд»."
+
+msgid "card/cannotSellTitle"
+msgstr "Не підлягає продажу"
+
+msgid "card/vehicle/hover/maxAdditionalPriceLabel"
+msgstr "+ комплектація на суму:"
+
+msgid "card/vehicle/hover/restoreAvailableLabel"
+msgstr "Можливо відновити"
+
+msgid "card/vehicle/tradeOffPriceLabel"
+msgstr "Оцінка машини:"
+
+msgid "crewBooks/filters/nation"
+msgstr "Нація"
+
+msgid "crewBooks/filters/nation/all"
+msgstr "Усі"
+
+msgid "crewBooks/filters/title"
+msgstr "Тип"
+
+msgid "crewBooks/noItems/info"
+msgstr "Тут поки що нема навчальних матеріалів; їх можна одержати з нагород за виконані завдання"
+
+msgid "customization/noItems/navigationButton"
+msgstr "Перейти до Вигляду зовні"
+
+msgid "customization/noItems/title"
+msgstr "Тут зберігатимуться елементи зовнішнього вигляду, які не пасують до жодної машини в Гаражі."
+
+msgid "customization/sectionTitle"
+msgstr "ВИГЛЯД ЗОВНІ"
+
+msgid "customizationSuitable/label"
+msgstr "Пасує до машин: "
+
+msgid "customizationSuitableForAll/label"
+msgstr "Пасує для будь-якої техніки"
+
+msgid "devices/filters/all"
+msgstr "Все обладнання"
+
+msgid "devices/filters/deluxe"
+msgstr "Удосконалене"
+
+msgid "devices/filters/modernized"
+msgstr "Експериментальне"
+
+msgid "devices/filters/simple"
+msgstr "Загальне"
+
+msgid "devices/filters/trophy"
+msgstr "Трофейне"
+
+msgid "equipment/cooldown"
+msgstr "Час підготовки: %(cooldown)s&nbsp;с."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s\n%(extendedDescr)s"
+
+msgid "filter/noResultsBtn/label"
+msgstr "Скинути фільтр"
+
+msgid "filter/someTiersOnlyMessage"
+msgstr "Фрагменти креслень можна створювати виключно для техніки II-X рівнів."
+
+msgid "filter/warningMessage"
+msgstr "Нічого не знайдено. Змініть або скиньте налаштування фільтра."
+
+msgid "forSell/noItems/title"
+msgstr "Тут будуть модулі та снаряди, які не пасують до жодної машини"
+
+msgid "forSell/sectionTitle"
+msgstr "МОДУЛІ ТА СНАРЯДИ НА ПРОДАЖ"
+
+msgid "inhangar/filterTitle"
+msgstr "Показано:"
+
+msgid "inhangar/noImage"
+msgstr "Зображення недоступне"
+
+msgid "inhangar/noItems/allTab/title"
+msgstr "В Гаражі немає жодної машини"
+
+msgid "inhangar/noItems/rentTab/title"
+msgstr "Прокатної техніки не знайдено."
+
+msgid "inhangar/noItems/restoreTab/title"
+msgstr "Продані преміум чи акційні машини можна відновити за кредити.\nТехніки, яку можна відновити, не знайдено."
+
+msgid "inhangar/sectionTitle"
+msgstr "ТЕХНІКА В ГАРАЖІ"
+
+msgid "inhangar/tabs/all"
+msgstr "Техніка"
+
+msgid "inhangar/tabs/rent"
+msgstr "Прокат"
+
+msgid "inhangar/tabs/restore"
+msgstr "Відновлення"
+
+msgid "inventory/filterType/consumables"
+msgstr "Спорядження"
+
+msgid "inventory/filterType/instructions"
+msgstr "Передбойові настанови"
+
+msgid "inventory/filterType/other"
+msgstr "Інше"
+
+msgid "markEverything"
+msgstr "Вибрати всі товари для продажу на суму:"
+
+msgid "moduleCompatible/label"
+msgstr "Пасує до машин:"
+
+msgid "moduleCompatible/moreVehicles"
+msgstr "... і ще до машин: %(vehCount)s"
+
+msgid "notAvailable/navigationButton"
+msgstr "Повернутися в Гараж"
+
+msgid "notAvailable/title"
+msgstr "Склад зачинено, здійснюється інвентаризація"
+
+msgid "offers/expiration"
+msgstr "До %(date)s %(time)s"
+
+msgid "offers/giftAmount"
+msgstr "Нагород на вибір: %(gifts)s"
+
+msgid "offers/giftsTitle"
+msgstr "Доступно нагород: %(gifts)s"
+
+msgid "offers/noItems/title"
+msgstr "Сервіс тимчасово недоступний.\nСпробуйте зайти пізніше чи відвідайте Магазин."
+
+msgid "offers/sectionTitle"
+msgstr "ПОСТАВКИ З ТИЛУ"
+
+msgid "optDevice/hover/effect"
+msgstr "{effectTagOpen}Ефект: {effectTagClose}"
+
+msgid "personalreserves/activeCountLabel"
+msgstr "Активовано резервів: %(activeCount)s / %(totalCount)s"
+
+msgid "personalreserves/card/activated"
+msgstr "Активовано"
+
+msgid "personalreserves/card/notAvailable"
+msgstr "Недоступно"
+
+msgid "personalreserves/durationFilter/btn/label"
+msgstr "%(durTime)s год"
+
+msgid "personalreserves/durationFilter/label"
+msgstr "Час:"
+
+msgid "personalreserves/filterTitle"
+msgstr "Показано:"
+
+msgid "personalreserves/navigateToShopLabel"
+msgstr "Докупити в Магазині"
+
+msgid "personalreserves/noItems/title"
+msgstr "На Складі немає резервів. Ви можете поповнити запаси, купивши їх у Магазині"
+
+msgid "personalreserves/sectionTitle"
+msgstr "ОСОБИСТІ РЕЗЕРВИ"
+
+msgid "personalreserves/typeFilter/label"
+msgstr "Тип"
+
+msgid "restoreTimeLeft/timeless"
+msgstr "Безстроково"
+
+msgid "shellCompatible/label"
+msgstr "Пасує до гармат:"
+
+msgid "shellCompatible/moreGuns"
+msgstr "... і ще до гармат: %(vehCount)s"
+
+msgid "storage/balanceLabel"
+msgstr "У наявності:"
+
+msgid "storage/filterTitle"
+msgstr "Показано:"
+
+msgid "storage/noItems/navigationButton"
+msgstr "Перейти в Магазин"
+
+msgid "storage/noItems/title"
+msgstr "Поки тут нічого нема, але ви можете купити про запас у Магазині"
+
+msgid "storage/noItems/titleShort"
+msgstr "Поки тут нічого нема"
+
+msgid "storage/sectionTitle"
+msgstr "ЗАПАСИ"
+
+msgid "storage/tabs/all"
+msgstr "Усе"
+
+msgid "storage/tabs/consumable"
+msgstr "Спорядження"
+
+msgid "storage/tabs/crewBooks"
+msgstr "Підручники"
+
+msgid "storage/tabs/devices/filter/type/label"
+msgstr "Категорія"
+
+msgid "storage/tabs/equipment"
+msgstr "Обладнання"
+
+msgid "storage/tabs/modules"
+msgstr "Модулі"
+
+msgid "storage/tabs/modules/filter/appropriate/label"
+msgstr "Пасує для"
+
+msgid "storage/tabs/modules/filter/type/label"
+msgstr "Тип"
+
+msgid "storage/tabs/shells"
+msgstr "Снаряди"
+
+msgid "storage/tabs/shells/filter/appropriate/label"
+msgstr "Пасує для"
+
+msgid "storage/tabs/shells/filter/type/label"
+msgstr "Тип"
+
+msgid "storage/vehicleSelectPopover/label"
+msgstr "Виберіть техніку з Гаража"
+
+msgid "stylePreview/tooltip"
+msgstr "Попередній перегляд стилю"
+
+msgid "vehicleSelectPopover/noVehicles"
+msgstr "Не знайдено техніки, що задовольняє\nумовам пошуку"
+
+msgid "vehicleSelectPopover/tooltips/level/body"
+msgstr "Упорядкувати за рівнем техніки."
+
+msgid "vehicleSelectPopover/tooltips/level/header"
+msgstr "Рівень"
+
+msgid "vehicleSelectPopover/tooltips/nation/body"
+msgstr "Упорядкувати за нацією."
+
+msgid "vehicleSelectPopover/tooltips/nation/header"
+msgstr "Нація"
+
+msgid "vehicleSelectPopover/tooltips/title/body"
+msgstr "Упорядкувати за назвою машин."
+
+msgid "vehicleSelectPopover/tooltips/title/header"
+msgstr "Назва"
+
+msgid "vehicleSelectPopover/tooltips/type/body"
+msgstr "Упорядкувати за типом техніки."
+
+msgid "vehicleSelectPopover/tooltips/type/header"
+msgstr "Тип"
+
+msgid "vehicleSelectPopover/vehicleName"
+msgstr "Назва"

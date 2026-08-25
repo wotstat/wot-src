@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "closeButtonLabel"
+msgstr "ÎNCHIDE"
+
+msgid "featureName"
+msgstr "RELUĂRI"
+
+msgid "filter/apply"
+msgstr "Aplică filtrul"
+
+msgid "filter/group/nation/title"
+msgstr "Națiune"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Generaţie"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Generaţie"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specializarea"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Tip vehicul"
+
+msgid "filter/reset"
+msgstr "Resetare filtru"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Arată/ascunde membrii de echipaj ai acestei naţiuni."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Arată/ascunde fețele de echipaj ale acestei naţiuni."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Arată/ascunde vehiculele acestei naţiuni."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Arată/ascunde vehicule de acest tip."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Antitancuri"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Artilerii"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Tancuri grele"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Tancuri ușoare"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Tancuri medii"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nu s-au găsit vehicule după\ncriteriul de căutare ales"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sortare după numele vehiculelor."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Nume"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sortare după generaţia vehiculelor."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Generaţie"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sortare după tipurile vehiculelor."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Tip"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Nume"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Clic pentru a aplica setările filtrului."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Aplică filtrele selectate"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Clic pentru a reseta filtrele."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Resetează toate filtrele"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Afișează doar reluările semnificative"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "Ultima zi"
+msgstr[1] "Ultimele %(count)s zile"
+msgstr[2] "Ultimele %(count)s zile"
+
+msgid "filterPopover/title"
+msgstr "Filtru reluări"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Configurează filtrul de reluări după tipul vehiculului, generație, națiune etc."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Filtrează după parametri"
+
+msgid "findReplay/buttonText/find"
+msgstr "Caută reluare"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Golește"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Urmărește reluarea!"
+
+msgid "findReplay/errorMessage"
+msgstr "Nu s-a găsit nimic. Modifică cererea"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Introdu aici ARENA_ID..."
+
+msgid "findReplay/successMessage"
+msgstr "Am găsit reluarea care te interesează! Urmărește-o cu plăcere"
+
+msgid "page/heading/bestReplays"
+msgstr "CELE MAI BUNE RELUĂRI"
+
+msgid "page/heading/findReplay"
+msgstr "CAUTĂ RELUARE (PENTRU DEV)"
+
+msgid "page/heading/myReplays"
+msgstr "RELUĂRILE MELE"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Această secțiune conține informații despre cele mai bune reluări ale tuturor jucătorilor WoT"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Această secțiune permite căutarea de reluări după anumiți parametri"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Această secțiune conține informații despre cele mai bune reluări ale TALE"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "CELE MAI BUNE RELUĂRI"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Caută reluare"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "RELUĂRILE MELE"
+
+msgid "statsParam/damageAssisted"
+msgstr "Top 1 ca asistență la distrugeri"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Top 1 ca daune blocate"
+
+msgid "statsParam/damageDealt"
+msgstr "Top 1 ca daune provocate"
+
+msgid "statsParam/earnedXp"
+msgstr "Top 1 ca experiență obținută"
+
+msgid "statsParam/kills"
+msgstr "Top 1 ca vehicule distruse"
+
+msgid "table/error/buttonText"
+msgstr "Actualizează"
+
+msgid "table/error/description"
+msgstr "Oferim scuze pentru probleme. Încearcă să actualizezi pagina mai târziu."
+
+msgid "table/error/title"
+msgstr "Eroare la încărcarea datelor"
+
+msgid "table/header/damageAssisted"
+msgstr "Asistență"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Daune blocate"
+
+msgid "table/header/damageDealt"
+msgstr "Daune"
+
+msgid "table/header/date"
+msgstr "Data"
+
+msgid "table/header/earnedXp"
+msgstr "EXP obținută"
+
+msgid "table/header/kills"
+msgstr "Cantitatea de vehicule distruse"
+
+msgid "table/header/map"
+msgstr "Harta"
+
+msgid "table/header/marksOfMastery"
+msgstr "Însemne de excelență"
+
+msgid "table/header/player"
+msgstr "Numele jucătorului"
+
+msgid "table/header/vehicle"
+msgstr "Vehicul"
+
+msgid "table/noRecords/buttonText"
+msgstr "Resetare filtru"
+
+msgid "table/noRecords/title"
+msgstr "Nu s-a găsit nimic. Schimbă setările sau resetează filtrul"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Clic pentru a reseta filtrele."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Resetează toate filtrele"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Cantitatea de daune prin asistență ale jucătorului în această reluare"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Daune asistate"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Cantitatea de daune blocate de jucător în această reluare"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Daune blocate de blindaj"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Cantitatea de daune provocate de jucător în această reluare"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Daune provocate"
+
+msgid "table/tooltip/date/body"
+msgstr "Data înregistrării reluării."
+
+msgid "table/tooltip/date/header"
+msgstr "Data reluării"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Cantitatea de EXP obținută de jucător în această reluare"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "EXP obținută"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Realizările epice ale jucătorului în această reluare"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Medalii eroice"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Clic pentru a adăuga această reluare la favorite."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Favorite"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Clic pentru a elimina această reluare din favorite."
+
+msgid "table/tooltip/kills/body"
+msgstr "Numărul de vehicule distruse de jucător în această reluare"
+
+msgid "table/tooltip/kills/header"
+msgstr "Distrugeri"
+
+msgid "table/tooltip/map/body"
+msgstr "Harta reluării."
+
+msgid "table/tooltip/map/header"
+msgstr "Harta"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Realizările importante ale jucătorului în această reluare"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Însemne de excelență"
+
+msgid "table/tooltip/player/body"
+msgstr "Numele jucătorului din reluare."
+
+msgid "table/tooltip/player/header"
+msgstr "Numele jucătorului"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Vehiculul jucătorului reluării înregistrate."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Vehicul"
+
+msgid "tableInfo/amount"
+msgstr "Reluări afișate: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Filtru"
+
+msgid "waitingSpinner/message"
+msgstr "Încărcare conținut..."

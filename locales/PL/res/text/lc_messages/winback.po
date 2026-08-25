@@ -1,0 +1,305 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dailyQuestsIntroView/buttons/close"
+msgstr "ZAMKNIJ"
+
+msgid "dailyQuestsIntroView/buttons/confirm"
+msgstr "Tak jest!"
+
+msgid "dailyQuestsIntroView/info/mode/description"
+msgstr "Rozgrzewka przypomni Ci podstawy gry. Bitwy są rozgrywane przeciwko pojazdom kontrolowanym przez SI, a wyniki nie liczą się do Twoich statystyk. Możesz w dowolnym momencie wyjść z Rozgrzewki i przejść do bitew losowych."
+
+msgid "dailyQuestsIntroView/info/mode/title"
+msgstr "Rozgrzewka"
+
+msgid "dailyQuestsIntroView/info/quests/description"
+msgstr "Wypełniaj misje, ukończ postępy Powrotu do akcji i otrzymaj cenne nagrody w grze. Każda ukończona misja standardowa, premium lub bonusowa liczy się do nagrody. Misje można ukończyć w Rozgrzewce oraz w bitwach losowych."
+
+msgid "dailyQuestsIntroView/info/quests/descriptionBP"
+msgstr "Wypełniaj misje, ukończ postępy Powrotu do akcji i otrzymaj cenne nagrody. W czasie Przepustki bitewnej do puli nagród zostaną dodane punkty przepustki bitewnej. Misje można ukończyć w Rozgrzewce oraz w bitwach losowych."
+
+msgid "dailyQuestsIntroView/info/quests/title"
+msgstr "Powrót do akcji"
+
+msgid "dailyQuestsIntroView/info/rewards/description"
+msgstr "Możesz w nagrodę zdobyć wypożyczenie pojazdów premium VIII poziomu, pojazdy VI poziomu możliwe do zbadania i zniżki na badanie oraz kupno pojazdów. Po ukończeniu postępów otrzymasz główną nagrodę."
+
+msgid "dailyQuestsIntroView/info/rewards/title"
+msgstr "Nagrody"
+
+msgid "dailyQuestsIntroView/title"
+msgstr "POWRÓT DO AKCJI"
+
+msgid "mainRewardTooltip/description"
+msgstr "Po ukończeniu postępów Powrotu do akcji otrzymasz:"
+
+msgid "mainRewardTooltip/title"
+msgstr "Nagroda główna"
+
+msgid "mainRewardTooltip/vehicleRewardLabel"
+msgstr "Zniżka na badanie i kupno pojazdu %(level)s poziomu"
+
+msgid "modeInfoTooltip/description"
+msgstr "Bitwy przeciwko pojazdom kontrolowanym przez SI, które nie liczą się do Twoich statystyk. Aby wygrać, musisz zająć bazę przeciwnika lub zniszczyć wszystkie jego pojazdy. Bitwy są rozgrywane w formacie 15 na 15 na poziomach VI–XI oraz w formacie 10 na 10 na poziomach I–V."
+
+msgid "modeInfoTooltip/maps"
+msgstr "Lakeville, Linia Mannerheima, Malinowka, Klasztor, Kopalnie, Ruinberg, Ensk."
+
+msgid "modeInfoTooltip/subtitle"
+msgstr "Dostępne mapy:"
+
+msgid "modeInfoTooltip/title"
+msgstr "Rozgrzewka"
+
+msgid "selectableRewardTooltip/basic/description"
+msgstr "Można wybrać dowolny możliwy do zbadania pojazd %(level)s poziomu. Pojazd będzie miał zbadane moduły, załogę i miejsce w garażu."
+
+msgid "selectableRewardTooltip/basic/title"
+msgstr "Pojazd %(level)s poziomu"
+
+msgid "selectableRewardTooltip/discount/description"
+msgstr "Zniżka %(researchDiscount)s na badanie i zniżka %(purchaseDiscount)s na zakup pojazdu %(level)s poziomu. Można wybrać dowolny pojazd możliwy do zbadania."
+
+msgid "selectableRewardTooltip/discount/footer"
+msgstr "Zniżka na {whiteSpanish_Open}badanie{whiteSpanish_Close} jest dodawana do zniżki z fragmentów schematów. Jest stosowana największa dostępna zniżka na {whiteSpanish_Open}zakup{whiteSpanish_Close}."
+
+msgid "selectableRewardTooltip/discount/title"
+msgstr "Zniżka na pojazd %(level)s poziomu"
+
+msgid "vehicleDiscountRewardTooltip/description"
+msgstr "Zniżka na %(research)s jest dodawana do zniżki z fragmentów schematów pojazdu. Jest stosowana największa dostępna zniżka na %(purchase)s."
+
+msgid "vehicleDiscountRewardTooltip/description/purchase"
+msgstr "zakup"
+
+msgid "vehicleDiscountRewardTooltip/description/research"
+msgstr "badanie"
+
+msgid "winbackBattleQueue/footer/text"
+msgstr "Możesz wyjść z Rozgrzewki w menu ustawień bitew losowych."
+
+msgid "winbackBattleQueue/subTitle/battleRemaining"
+msgstr "Pozostałe bitwy: %(battlesCount)s"
+
+msgid "winbackBattleQueue/subTitle/text"
+msgstr "Bitwy przeciwko pojazdom kontrolowanym przez SI, które nie liczą się do Twoich statystyk."
+
+msgid "winbackBattleQueue/title"
+msgstr "Bitwa losowa: Rozgrzewka"
+
+msgid "winbackLeaveModeDialogView/alert"
+msgstr "Po wyjściu z rozgrzewki nie będziesz mógł jej zacząć od początku."
+
+msgid "winbackLeaveModeDialogView/buttons/cancel"
+msgstr "Anuluj"
+
+msgid "winbackLeaveModeDialogView/buttons/close"
+msgstr "ZAMKNIJ"
+
+msgid "winbackLeaveModeDialogView/buttons/confirm"
+msgstr "Opuść"
+
+msgid "winbackLeaveModeDialogView/title"
+msgstr "Czy opuścić Rozgrzewkę?"
+
+msgid "winbackPopover/battlesCount"
+msgstr "Pozostałe bitwy: %(battlesCount)s"
+
+msgid "winbackPopover/description"
+msgstr "Bitwy przeciwko pojazdom kontrolowanym przez SI, które nie liczą się do Twoich statystyk."
+
+msgid "winbackPopover/title"
+msgstr "Rozgrzewka"
+
+msgid "winbackPopover/turnOff"
+msgstr "Opuść"
+
+msgid "winbackRewardView/buttons/close"
+msgstr "ZAMKNIJ"
+
+msgid "winbackRewardView/buttons/confirm"
+msgstr "Tak jest!"
+
+msgid "winbackRewardView/buttons/selectReward"
+msgstr "Wybierz nagrodę"
+
+msgid "winbackRewardView/buttons/showQuests"
+msgstr "Do misji"
+
+msgid "winbackRewardView/buttons/showVehicle"
+msgstr "Wyświetl w garażu"
+
+msgid "winbackRewardView/premiumPlus"
+msgstr "Konto premium WoT"
+
+msgid "winbackRewardView/secondRowTitle"
+msgstr "Otrzymałeś także:"
+
+msgid "winbackRewardView/selectableReward/discount"
+msgstr "Zniżka %(expDiscount)s na badanie i zniżka %(priceDiscount)s na zakup pojazdu %(level)s poziomu"
+
+msgid "winbackRewardView/selectableReward/expDiscount"
+msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+
+msgid "winbackRewardView/selectableReward/gift"
+msgstr "Pojazd %(level)s poziomu"
+
+msgid "winbackRewardView/selectableReward/priceDiscount"
+msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+
+msgid "winbackRewardView/selectableReward/reserveDiscount"
+msgstr "Zniżka na pojazd %(level)s poziomu"
+
+msgid "winbackRewardView/subtitle/regularProgressionCompleted"
+msgstr "Za wypełnienie serii misji dziennych"
+
+msgid "winbackRewardView/subtitle/winback"
+msgstr "POWRÓT DO AKCJI"
+
+msgid "winbackRewardView/title/progressionStep"
+msgstr "NAGRODY ZA MISJE"
+
+msgid "winbackRewardView/title/regularProgressionCompleted"
+msgstr "OTRZYMANO EPICKĄ NAGRODĘ!"
+
+msgid "winbackRewardView/title/selectedRewards"
+msgstr "OTRZYMANO NAGRODY"
+
+msgid "winbackRewardView/title/welcome"
+msgstr "WITAJ PONOWNIE, DOWÓDCO!"
+
+msgid "winbackRewardView/title/winbackProgressionCompleted"
+msgstr "UKOŃCZONO POSTĘPY"
+
+msgid "winbackRewardView/vehicleReward/discount"
+msgstr "Zniżka %(expDiscount)sna badanie\ni zniżka %(priceDiscount)s na zakup"
+
+msgid "winbackRewardView/vehicleReward/expDiscount"
+msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+
+msgid "winbackRewardView/vehicleReward/inHangar"
+msgstr "W garażu"
+
+msgid "winbackRewardView/vehicleReward/priceDiscount"
+msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+
+msgid "winbackRewardView/vehicleReward/rent"
+msgstr "Dni wypożyczenia: %(days)s"
+
+msgid "winbackRewardView/vehicleReward/reserveDiscount"
+msgstr "Zniżka na badanie i zakup"
+
+msgid "winbackSelectableRewardView/bluePrintReward/value"
+msgstr "×%(value)s"
+
+msgid "winbackSelectableRewardView/buttons/cancel"
+msgstr "Wybierz później"
+
+msgid "winbackSelectableRewardView/buttons/close"
+msgstr "ZAMKNIJ"
+
+msgid "winbackSelectableRewardView/buttons/confirm"
+msgstr "Odbierz"
+
+msgid "winbackSelectableRewardView/buttons/reset"
+msgstr "Wyzeruj filtry"
+
+msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
+msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+
+msgid "winbackSelectableRewardView/category/title"
+msgstr "Zniżka na pojazd"
+
+msgid "winbackSelectableRewardView/category/titleDiscount"
+msgstr "Pojazd %(vehicleLevel)s poziomu"
+
+msgid "winbackSelectableRewardView/error/button"
+msgstr "Tak jest!"
+
+msgid "winbackSelectableRewardView/error/description"
+msgstr "Informacja jest tymczasowo niedostępna. Przepraszamy za niedogodności. Spróbuj ponownie później."
+
+msgid "winbackSelectableRewardView/error/title"
+msgstr "Nie można otworzyć wyboru nagród"
+
+msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
+msgstr "Zbadałeś wszystkie pojazdy %(vehicleLevel)s poziomu. Możesz teraz w nagrodę otrzymać narodowe fragmenty schematów."
+
+msgid "winbackSelectableRewardView/filter/placeholder"
+msgstr "Wyszukaj po nazwie"
+
+msgid "winbackSelectableRewardView/filter/searchResult"
+msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+
+msgid "winbackSelectableRewardView/filter/shown"
+msgstr "Wyświetlane:"
+
+msgid "winbackSelectableRewardView/filter/tooltip/body"
+msgstr "Kliknij, by ustawić domyślne ustawienia filtra."
+
+msgid "winbackSelectableRewardView/filter/tooltip/header"
+msgstr "Przywróć domyślne"
+
+msgid "winbackSelectableRewardView/footer/actionText/active"
+msgstr "Wybrane nagrody: %(amountRewards)s %(infoIcon)s"
+
+msgid "winbackSelectableRewardView/footer/actionText/disable"
+msgstr "Wybierz nagrody z podanych kategorii"
+
+msgid "winbackSelectableRewardView/resetInf/text"
+msgstr "Nic nie znaleziono. Zmień ustawienia filtra lub przywróć je do domyślnych."
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
+msgstr "{white_Open}Narodowy fragment schematu ×%(bluePrintsAmount)s {white_Close} (%(countryName)s)"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
+msgstr "{white_Open}%(name)s{white_Close} (%(expDiscount)s% zniżki na badanie oraz %(priceDiscount)s% zniżki na zakup)"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
+msgstr "Zniżka na pojazd %(level)s poziomu"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
+msgstr "{white_Open}%(name)s{white_Close} (Wszystkie zbadane moduły, załoga i miejsce w garażu) "
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
+msgstr "Pojazd %(level)s poziomu"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
+msgstr "Kliknij przycisk Odbierz, aby otrzymać wybrane nagrody."
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
+msgstr "Wybrane nagrody: %(amountRewards)s"
+
+msgid "winbackSelectableRewardView/tabs/buy"
+msgstr "Kup"
+
+msgid "winbackSelectableRewardView/tabs/exp"
+msgstr "Badaj"
+
+msgid "winbackSelectableRewardView/title/additionText"
+msgstr "POWRÓT DO AKCJI"
+
+msgid "winbackSelectableRewardView/title/text"
+msgstr "WYBIERZ SWOJĄ NAGRODĘ"
+
+msgid "winbackSelectableRewardView/vehicleName"
+msgstr "{cream_Open}%(level)s{cream_Close} %(name)s %(type)s"
+
+msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
+msgstr "niszczyciel czołgów"
+
+msgid "winbackSelectableRewardView/vehicleType/SPG"
+msgstr "DS"
+
+msgid "winbackSelectableRewardView/vehicleType/heavyTank"
+msgstr "czołg ciężki"
+
+msgid "winbackSelectableRewardView/vehicleType/lightTank"
+msgstr "czołg lekki"
+
+msgid "winbackSelectableRewardView/vehicleType/mediumTank"
+msgstr "czołg średni"
+
+msgid "winbackTab"
+msgstr "Powrót do akcji"

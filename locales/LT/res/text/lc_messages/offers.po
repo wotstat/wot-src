@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "Pasirinkite apdovanojimus"
+
+msgid "banner/giftsAvailable"
+msgstr "Ištekliai pristatyti!"
+
+msgid "banner/giftsForOffer"
+msgstr "Apdovanojimai už dalyvavimą \"%(name)s\"."
+
+msgid "banner/selectNowOrLater"
+msgstr "Pasirinkite savo apdovanojimus dabar arba vėliau sandėlyje."
+
+msgid "banner/title"
+msgstr "Namų fronto atsargos"
+
+msgid "description/rentValue/battles"
+msgstr "mūšiams: %(value)s"
+
+msgid "description/rentValue/days"
+msgstr "dienoms: %(value)s"
+
+msgid "description/rentValue/wins"
+msgstr "pergalėms: %(value)s"
+
+msgid "giftDescription/tank/base"
+msgstr "Papildomai pasirinktai mašinai jūs gausite %(items)s nemokamai."
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}įgulą{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}įgulą{neutralClose} ir {neutralOpen}garažo vietą{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}Garažo vieta{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "Atšaukti"
+
+msgid "giftDialog/description/newRent"
+msgstr "%(tankName)s bus išnuomotas %(rentValue)s"
+
+msgid "giftDialog/description/noRent"
+msgstr "%(tankName)s bus nusiųstas į garažą"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "%(tankName)s nuoma bus pratęsta %(rentValue)s"
+
+msgid "giftDialog/submit"
+msgstr "Patvirtinti"
+
+msgid "giftDialog/title/common"
+msgstr "\"%(name)s\" gavimo\npatvirtinimas"
+
+msgid "giftDialog/title/tank"
+msgstr "Mašinos gavimas"
+
+msgid "giftDialog/title/tankRent"
+msgstr "Mašinos nuoma"
+
+msgid "giftsWindow/availableCount"
+msgstr "Pasiekiami: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "Pasiekiama iki: %(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "Pasiekiami prizai: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "Garaže"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "Atidaryti už"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "Peržiūra"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value) mūšiai"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value) d."
+
+msgid "giftsWindow/rent/title"
+msgstr "Nuoma: %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value) pergalės"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "Gauti"
+
+msgid "giftsWindow/tokens"
+msgstr "Pasiekiami: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "Turimi žetonai: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "Nepasiekiami"
+
+msgid "rewardWindow/btnLabel"
+msgstr "Tikrai taip!"
+
+msgid "rewardWindow/title"
+msgstr "Gautas apdovanojimas"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "Gauti!"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "Pratęsti nuomą!"
+
+msgid "tankPreview/description/newRent"
+msgstr "Nemokama %(tankName)s nuoma %(rentValue)s"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s su įgula"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s su įgula ir garažo vieta"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s ir garažo vieta"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "Pratęsti %(tankName)s nuomą %(rentValue)s"

@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "backButton/label"
+msgstr "ÎNAPOI"
+
+msgid "backButton/to"
+msgstr "SPRE STAREA CONTULUI"
+
+msgid "filteredMapsDisplayed"
+msgstr "Hărți afișate: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Arată/ascunde hărți de acest tip."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Hărți deșert"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Hărți de vară"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Hărți de iarnă"
+
+msgid "header/cooldown"
+msgstr "Poți înlocui din nou o hartă în %(cooldownEndTime)."
+
+msgid "header/title"
+msgstr "Hărți excluse"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Poți înlocui din nou această hartă după expirarea timpului de refacere."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Înlocuirea hărții indisponibilă"
+
+msgid "mapTile/hoverExclude"
+msgstr "Excluzi harta %(mapName)?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Exclude"
+
+msgid "mapTile/hoverInclude"
+msgstr "Incluzi harta %(mapName) în Luptele standard?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Include"
+
+msgid "mapsFilterLabel"
+msgstr "Tipuri de hartă:"
+
+msgid "notSelected"
+msgstr "Ne-selectată"
+
+msgid "premium"
+msgstr "Premium WoT"
+
+msgid "slot/disabledTooltipBody"
+msgstr "Un locaș adițional este disponibil doar cu Contul Premium WoT sau abonamentul WoT Plus."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "Se deblochează cu contul premium WoT."
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Se deblochează cu un abonament activ WoT Plus."
+
+msgid "slot/replaceTooltipBody"
+msgstr "Alege o hartă din lista de mai jos pentru a o înlocui și exclude din luptele standard."
+
+msgid "slot/selectTooltipBody"
+msgstr "Alege o hartă din lista de mai jos pentru a o exclude din luptele standard."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Locaș disponibil"
+
+msgid "totalMapsDisplayed"
+msgstr "Hărți afișate: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "Exclude încă o hartă cu %(linkPremium) și încă %(mapCount)s cu %(linkWotPlus)."
+msgstr[1] "Exclude încă o hartă cu %(linkPremium) și încă %(mapCount)s cu %(linkWotPlus)."
+
+msgid "unlock/premium"
+msgstr "Exclude încă o hartă cu %(linkPremium)."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "Exclude încă %(mapCount)s hartă cu %(linkWotPlus)."
+msgstr[1] "Exclude încă %(mapCount)s hărți cu %(linkWotPlus)."
+
+msgid "wotplus"
+msgstr "WoT Plus"

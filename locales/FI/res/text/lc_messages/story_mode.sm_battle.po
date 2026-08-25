@@ -1,0 +1,671 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-07-20 10:00+0300\nPO-Revision-Date: 2023-07-20 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleResult/reason/1"
+msgstr "Kaikki vihollisvaunut tuhottu"
+
+msgid "battleResult/reason/11"
+msgstr "Kaikki tavoitteet suoritettu"
+
+msgid "battleResult/reason/3"
+msgstr "Taistelun aika loppui"
+
+msgid "battleResult/reason/5"
+msgstr "Tekninen tappio"
+
+msgid "battleResult/reason/8"
+msgstr "Liittolaiset tuhottu"
+
+msgid "battleResult/reason/9"
+msgstr "Vaunusi tuhoutui"
+
+msgid "battleResult/reason/default"
+msgstr "Tuntematon syy"
+
+msgid "battleResult/resultLabel/tie"
+msgstr "TAISTELU ON OHI"
+
+msgid "battleResult/resultLabel/win"
+msgstr "VOITTO!"
+
+msgid "berlin/hint01"
+msgstr "Hoitele King Tigerin telat Storm Petrelille"
+
+msgid "berlin/hint02"
+msgstr "Odota ja kuuntele kersantti Brooksia"
+
+msgid "berlin/objective01/header"
+msgstr "Etsi vihollisen ihmeasetta"
+
+msgid "berlin/objective01/subheader"
+msgstr "Etene varovaisesti"
+
+msgid "berlin/objective02/header"
+msgstr "Pidättele!"
+
+msgid "berlin/objective02/subheader"
+msgstr "Seuraa päämajan ohjeita"
+
+msgid "berlin/objective03/header"
+msgstr "Etsi vihollisen ihmeasetta"
+
+msgid "berlin/objective03/subheader"
+msgstr "Etene varovaisesti"
+
+msgid "berlin/objective03/success"
+msgstr "Rauniot selvät!"
+
+msgid "berlin/objective04/header"
+msgstr "Odota, kun kersantti Brooks kutsuu pommikoneen"
+
+msgid "berlin/objective04/subheader"
+msgstr "Puolusta asemaanne!"
+
+msgid "berlin/objective05/header"
+msgstr "Viimeistele viholliset"
+
+msgid "berlin/objective05/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Tuhoa %d jäljellä oleva vihollinen"
+msgstr[1] "Tuhoa %d jäljellä olevaa vihollista"
+msgstr[2] "Tuhoa %d jäljellä olevaa vihollista"
+
+msgid "berlin/objective05/success"
+msgstr "Pommittaja matkalla! Valmistaudu!"
+
+msgid "berlin/objective06/header"
+msgstr "Viimeistele homma"
+
+msgid "berlin/objective06/subheader"
+msgstr "Hoitele Jagdtigerin telat"
+
+msgid "berlin/objective06/success"
+msgstr "Jagdtiger tuhottu"
+
+msgid "berlin/objective07/header"
+msgstr "Valtaa ihmease"
+
+msgid "berlin/objective07/subheader"
+msgstr "Hoitele pikku-hiiren telat"
+
+msgid "berlin/objective07/success"
+msgstr "Pikku-hiiri tuhottu ja vallattu!"
+
+msgid "berlin/prebattle/header"
+msgstr "Etene varovaisesti"
+
+msgid "berlin/prebattle/start"
+msgstr "Jatka"
+
+msgid "berlin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "berlin/respawn/header"
+msgstr "Valmiina, sotilas"
+
+msgid "berlin/respawn/subheader"
+msgstr "Täydennykset ovat saapumassa"
+
+msgid "berlin/respawn_over/header"
+msgstr "Se on ohitse"
+
+msgid "berlin/respawn_over/subheader"
+msgstr "Kaikki saatavilla olevat vaunut ovat tuhoutuneet"
+
+msgid "botNames/Brooks"
+msgstr "Kersantti Brooks"
+
+msgid "botNames/Connolly"
+msgstr "Luutnantti Arthur Connolly"
+
+msgid "botNames/Dubois"
+msgstr "Kapteeni Louis Dubois"
+
+msgid "botNames/McCormick"
+msgstr "Kapteeni John McCormick"
+
+msgid "botNames/McLaud"
+msgstr "Alistair MacLeod"
+
+msgid "botNames/Murphy"
+msgstr "Kapteeni Jack Murphy"
+
+msgid "botNames/Teddy"
+msgstr "Kapt. Miroslav Kotva"
+
+msgid "botNames/Ulysses"
+msgstr "Kapt. James Korvin"
+
+msgid "bunker"
+msgstr "Rannikkobunkkeri"
+
+msgid "common/battleBtn"
+msgstr "Taistele!"
+
+msgid "common/continueBtn"
+msgstr "Jatka"
+
+msgid "common/loading"
+msgstr "Ladataan"
+
+msgid "common/skipBtn"
+msgstr "Jätä väliin"
+
+msgid "confirmExit/exit"
+msgstr "Jätä väliin"
+
+msgid "confirmExit/exitRegular"
+msgstr "Poistu"
+
+msgid "confirmExit/stay"
+msgstr "Peruuta"
+
+msgid "confirmExit/title"
+msgstr "Haluatko jättää väliin \"Tiikerin metsästäjä\" -tarinan?"
+
+msgid "confirmExit/titleRegular"
+msgstr "Haluatko poistua tarinasta?"
+
+msgid "dday/hint01"
+msgstr "Etsi keino tuhota rannikkobunkkerit"
+
+msgid "dday/hint02"
+msgstr "Käytä savumerkkejä auttamaan taistelulaivaa"
+
+msgid "dday/objective01/header"
+msgstr "Selviydy rannalla"
+
+msgid "dday/objective01/subheader"
+msgstr "Vältä vihollistulta hinnalla millä hyvänsä"
+
+msgid "dday/objective02/header"
+msgstr "Murra vihollisen linjat"
+
+msgid "dday/objective02/subheader"
+msgid_plural "plural/dday/objective02/subheader"
+msgstr[0] "Tuhoa %d rannikkobunkkeri"
+msgstr[1] "Tuhoa %d rannikkobunkkeria"
+msgstr[2] "Tuhoa %d rannikkobunkkeria"
+
+msgid "dday/objective02/success"
+msgstr "Kaikki rannikkobunkkerit tuhottu!"
+
+msgid "dday/objective03/header"
+msgstr "Selviydy kiipeämisestä"
+
+msgid "dday/objective03/subheader"
+msgstr "Etsi ja tuhoa vihollisen puolustusasemat sektorilta B5"
+
+msgid "dday/objective03/success"
+msgstr "Puolustusasemat tuhottu! Hyödyntäkää tämä läpimurto!"
+
+msgid "dday/objective04/header"
+msgstr "Auta liittolaisiasi murtautumaan läpi"
+
+msgid "dday/objective04/subheader"
+msgstr "Neutraloi vihollispuolustus sektorilla D6"
+
+msgid "dday/objective04/success"
+msgstr "Kapteeni Murphyn reitti on selvä!"
+
+msgid "dday/objective05/header"
+msgstr "Auta kapteeni Duboisia"
+
+msgid "dday/objective05/subheader"
+msgstr "Neutraloi vihollispuolustus sektorilla H6"
+
+msgid "dday/objective05/success"
+msgstr "Kapteeni Duboisin reitti on selvä!"
+
+msgid "dday/objective06/header"
+msgstr "Suojele merivoimia"
+
+msgid "dday/objective06/subheader"
+msgid_plural "plural/dday/objective06/subheader"
+msgstr[0] "Tuhoa %d rannikkotykki"
+msgstr[1] "Tuhoa %d rannikkotykkiä"
+msgstr[2] "Tuhoa %d rannikkotykkiä"
+
+msgid "dday/objective06/success"
+msgstr "Kaikki rannikkotykit tuhottu!"
+
+msgid "dday/objective07/header"
+msgstr "Siivoa alue"
+
+msgid "dday/objective07/subheader"
+msgid_plural "plural/dday/objective07/subheader"
+msgstr[0] "Tuhoa %d jäljellä oleva vihollinen"
+msgstr[1] "Tuhoa %d jäljellä olevaa vihollista"
+msgstr[2] "Tuhoa %d jäljellä olevaa vihollista"
+
+msgid "dday/objective07/success"
+msgstr "Kaikki viholliset tuhottu!"
+
+msgid "dday/objective08/header"
+msgstr "Pidä asemat"
+
+msgid "dday/objective08/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Tuhoa %d vihollisvaunu"
+msgstr[1] "Tuhoa %d vihollisvaunua"
+msgstr[2] "Tuhoa %d vihollisvaunua"
+
+msgid "dday/objective08/success"
+msgstr "Sillanpääasema suojattu!"
+
+msgid "dday/prebattle/header"
+msgstr "Valmistaudu rynnäkköön"
+
+msgid "dday/prebattle/start"
+msgstr "Hyökkäykseen!"
+
+msgid "dday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "dday/respawn/header"
+msgstr "Valmiina, sotilas"
+
+msgid "dday/respawn/subheader"
+msgstr "Täydennykset ovat saapumassa"
+
+msgid "dday/respawn_over/header"
+msgstr "Se on ohitse"
+
+msgid "dday/respawn_over/subheader"
+msgstr "Kaikki saatavilla olevat vaunut ovat tuhoutuneet"
+
+msgid "epilogue/text"
+msgstr "MacLeod: \"Elossa! Brooks on elossa! Pahasti palanut, mutta elossa. Tietysti hän on. Hän lupasi minulle mitalin. Sinä olet saanut omasi. Ansaitusti, jos saan sanoa. Poltit sen King Tigerin karrelle. Nyt olemme tasoissa. Se osuma Tigeriin sinua pelastaessamme oli silkkaa onnea. Ammuin tähtäämättä. Ja katso nyt, miten kävi? Näyttää siltä, että pelastin silloin itseni. Ja Booksin.\n\nNyt voimme levätä hetken. Meillä on pari päivää. Paikataan vaunumme. Berliini odottaa.\n\nAi niin, 7-4 sinun hyväksesi. Mutta saksalaisilla on yhä tiikereitä, joten katsotaan, kumpi voittaa!\""
+
+msgid "epilogue/title"
+msgstr "EPILOGI"
+
+msgid "finish/reason/1"
+msgstr "KAIKKI VIHOLLISVAUNUT TUHOTTU"
+
+msgid "finish/reason/11"
+msgstr "KAIKKI TAVOITTEET SUORITETTU"
+
+msgid "finish/reason/3"
+msgstr "TAISTELUAIKA LOPPUI"
+
+msgid "finish/reason/5"
+msgstr "TEKNINEN TAPPIO"
+
+msgid "finish/reason/8"
+msgstr "LIITTOLAISET TUHOTTU"
+
+msgid "finish/reason/9"
+msgstr "VAUNUSI TUHOUTUI"
+
+msgid "finish/reason/default"
+msgstr "TUNTEMATON SYY"
+
+msgid "hint_aim_weak_spots"
+msgstr "Vihreä osoitin kertoo korkeasta todennäköisyydestä aiheuttaa vahinkoa"
+
+msgid "hint_move"
+msgstr "Vaunun ohjaaminen"
+
+msgid "hint_move_turret"
+msgstr "Tornin hallinta ja tähtääminen"
+
+msgid "hint_shoot"
+msgstr "Tähtää vihollisvaunuun ja ammu"
+
+msgid "hint_sniper_enter"
+msgstr "Pyöritä hiiren rullaa siirtyäksesi tarkka-ampuja -tilaan"
+
+msgid "hint_sniper_on_distance_exit"
+msgstr "Pyöritä hiiren rullaa poistuaksesi tarkka-ampuja -tilasta"
+
+msgid "hint_sniper_weak_spots_enter"
+msgstr "Tarkka-ampuja-tila antaa paremman mahdollisuuden tähdätä vihollisvaunujen heikkoihin kohtiin"
+
+msgid "hint_target_unlock"
+msgstr "Automaattitähtäys on kytketty päälle. Poista se käytöstä oikealla hiiren napilla."
+
+msgid "ingameMenu/buttons/quit"
+msgstr "Jätä intro väliin"
+
+msgid "introVideo/loading"
+msgstr "Ladataan..."
+
+msgid "lootCapturing/equipment"
+msgstr "Vallataan: miinakentän kartta"
+
+msgid "lootCapturing/plan"
+msgstr "Vallataan: kartan pala"
+
+msgid "lootCapturing/tank"
+msgstr "Vallataan vihollisvaunua"
+
+msgid "prebattle/mission/stage/1"
+msgstr "Operaatio 1"
+
+msgid "prebattle/mission/stage/2"
+msgstr "Operaatio 2"
+
+msgid "prebattle/mission/stage/3"
+msgstr "Operaatio 3"
+
+msgid "prebattle/mission/stage/4"
+msgstr "Operaatio 4"
+
+msgid "prebattle/mission/stage/5"
+msgstr "Operaatio 5"
+
+msgid "prebattle/mission/stage/6"
+msgstr "Operaatio 6"
+
+msgid "prebattle/mission/stage/7"
+msgstr "Operaatio 7"
+
+msgid "prebattle/mission/task/1"
+msgstr "Tehtävä: Hyökkää kaupunkiin ja tuhoa kaikki vihollisvaunut."
+
+msgid "prebattle/mission/task/2"
+msgstr "Tehtävä: Hyökkää kaupunkiin ja tuhoa kaikki vihollisvaunut."
+
+msgid "prebattle/mission/task/3"
+msgstr "Hyökkää kaupunkiin ja tuhoa kaikki vihollisvaunut."
+
+msgid "prebattle/mission/task/4"
+msgstr "Etsi ja tuhoa vihollisen ihmease. "
+
+msgid "prebattle/mission/task/5"
+msgstr "Murtaudu läpi, tuhoa rannikkotykit ja valtaa sillanpääasema."
+
+msgid "prebattle/mission/task/6"
+msgstr "Toimita tulitaukokäsky liittolaisillesi."
+
+msgid "prebattle/mission/task/7"
+msgstr "Saavuta komentokeskus ja estä ohjuksen laukaisu."
+
+msgid "prebattle/mission/text/1"
+msgstr "Brooks: \"No miten voit? Oletko jo toipunut? Pääset tapaamaan lääkintämiehiä myöhemmin. Jokainen tykki on nyt tarpeen. Hyökkäys on jo alkanut. Ja, koska olemme myöhässä, on vihollinen päässyt keskittymään täysin toiseen sivustaan. Nyt on tilaisuutemme. Hyökkäämme tässä ja nyt. Murtaudu kaupunkiin ja nappaa ne kahden tulen väliin.\n\nSeuraa meitä – välttääksesi lohikäärmeenhampaat. Niitä on rivitolkulla tuolla pellolla. Mutta ei hätää, pääsemme kyllä läpi. Kuuntelet vain minua ja toteutat käskyni nopeasti ja tarkasti. MacLeod ja minä suojaamme sinua.\n\nÄläkä välitä hänen vitseistään. Jokainen pärjää tavallaan... Eteenpäin!\""
+
+msgid "prebattle/mission/text/2"
+msgstr "MacLeod: \"Aijai, Tigerit – ne ovat pahinta, mitä voit kohdata taistelukentällä. Ja jos komentopaikka sanoo, että heillä on ongelma, se tarkoittaa yleensä Tigereita. Emme saa yhteyttä ensimmäiseen hyökkäysosastoon, toinen on juuri lähtenyt ja tässä sitä ollaan – lähdössä heidän peräänsä.\n\nJos he lähettävät meidät, tarkoittaa se vain yhtä asiaa: Tigereita. Päämajassa sanotaan: \"Lähettää ne Tiger-ekspertit!\" Yhdeksän vaunua kahden hinnalla. Ei huonosti puoleksi vuodeksi. Johdat 5-4, mutta minulla on tilaisuus päästä edelle. Ja saada lopulta se pirun mitali!\n\nTulehan nyt! Brooks ei pidä odottamisesta. Jahti alkaa taas.\""
+
+msgid "prebattle/mission/text/3"
+msgstr "MacLeod: \"No niin, kaikki. Se on sitten operaatio Vasara ja alasin. Yksinkertainen nimi monimutkaiselll hommalle. Suuntaamme kaupunkiin puhdistamaan sen vihollisjoukoista. Ei ole mikään sunnuntaikävely – vastassa on raskaita panssareita. Mutta meiltä löytyy älyä, sisua ja tiimityötä, eikö niin Lucky? Ja hoidetaan se nopeasti. Minulla on suunnitelmissa piskuinen kuppi \"teetä\" viideltä, jos ymmärrätte vihjeen!\""
+
+msgid "prebattle/mission/text/4"
+msgstr "MacLeod: \"Älä kysy, Lucky. Tiedän aivan yhtä vähän kuin sinäkin.\n\nEn pidä ollenkaan tästä salailusta. Pidän suorasukaisuudesta. Näet vihollisen, taistelet. Mutta tämä? Se on yksi iso sotku.\n\nKaupungissa tulee myös olemaan omia vaunuja. Brooks pyysi meitä juuri etenemään varovaisesti. Mitä se ikinä sitten tarkoittaakaan?\nMeillä on erikoistehtävä: löytää jonkinlainen Wunderwaffe, ihmease – jotain valtavaa teloilla. Eikä ketään muuta tekemään se kuin me, Lucky.\n\nValmiina? Matkaan.\""
+
+msgid "prebattle/mission/text/5"
+msgstr "Kapteeni John McCormick: \"Okei tyypit. Nyt on aika. On aika lopettaa tämä sota ja juuri niin aiomme tehdä. Me kaikki – amerikkalaiset, britit, ranskalaiset, kanadalaiset, australialaiset, belgialaiset, tsekkoslovakialaiset, kreikkalaiset, hollantilaiset, uusiseelantilaiset, norjalaiset, puolalaiset. Olemme yhdessä panemassa tälle pahalle pisteen lopullisesti.\n\nMurtaudumme Atlantin vallin läpi ja otamme jalansijan mantereelta.\n\nValmistautukaa maihinnousuun!\""
+
+msgid "prebattle/mission/text/6"
+msgstr "Kapteeni Smith: \"Kuunnelkaa. Saksa allekirjoitti antautumispaperit tunteja sitten. Sota päättyy huomenna. Mutta meidän poikamme vuorilla ovat menettäneet radioyhteyden, eivätkä tiedä sodan loppuneen. He ovat hyökkäämässä tuon pirun linnoituksen kimppuun aamunkoitteessa, eivätkä saksalaiset sen sisällä tiedä sen enempää antautumisesta. Siitä tulee tarkoituksetonta teurastusta.\n\nVain me voimme estää sen. Tehtävämme: hiipiä vihollislinjojen läpi ja viedä tulitaukokäsky perille. Se on itsemurhatehtävä, mutta jokainen pelastamamme henki tekee siitä arvokkaan.\n\nMeillä on matkassamme vangittu saksalainen radisti – hän tuntee maaston ja hänellä on yhtä paljon syytä kuin meilläkin pysäyttää tämä verenvuodatus.\n\nEteenpäin.\""
+
+msgid "prebattle/mission/text/7"
+msgstr "Leni Scharf: \"Tilanne on kriittinen. Olemme menettäneet yhteyden ohjustukikohtaamme Norjanmerellä. Tiedustelulento ei koskaan palannut ja ensimmäinen maihinnousujoukko tuhottiin tuntemattoman vihollisen toimesta.\n\nTiedustelun mukaan he ovat mahdollisesti valmistautumassa ballistisen ohjuksen laukaisuun. Emme tiedä kohdetta, mutta tässä poliittisessa ympäristössä yksittäinenkin laukaisu voi aloittaa globaalin konfliktin.\n\nTuntuu vanhoilta hyviltä päiviltä, eikös? Vain yksi mahdoton tehtävä lisää vihollislinjojen takana. Eteenpäin!\""
+
+msgid "prebattle/mission/title/1"
+msgstr "Teräsvyöry"
+
+msgid "prebattle/mission/title/2"
+msgstr "Ansastaja"
+
+msgid "prebattle/mission/title/3"
+msgstr "Vasara ja alasin"
+
+msgid "prebattle/mission/title/4"
+msgstr "Kissa hiirenloukussa"
+
+msgid "prebattle/mission/title/5"
+msgstr "Operaatio Overlord"
+
+msgid "prebattle/mission/title/6"
+msgstr "Operaatio Postimies"
+
+msgid "prebattle/mission/title/7"
+msgstr "Operaatio Kiehumispiste"
+
+msgid "ruinberg/hint01"
+msgstr "Löydä kiertotie ja iske vihollisen sivustaan"
+
+msgid "ruinberg/objective01/header"
+msgstr "Etene!"
+
+msgid "ruinberg/objective01/subheader"
+msgstr "Puske eteenpäin ja raivaa viholliset pois tieltä"
+
+msgid "ruinberg/objective02/header"
+msgstr "Hiivi ympäri"
+
+msgid "ruinberg/objective02/subheader"
+msgstr "Antakaa painetta vihollisille molemmilta sivuilta"
+
+msgid "ruinberg/objective02/success"
+msgstr "Tuhoutui!"
+
+msgid "ruinberg/objective03/header"
+msgstr "Hiivi ympäri"
+
+msgid "ruinberg/objective03/subheader"
+msgstr "Antakaa painetta vihollisille molemmilta sivuilta"
+
+msgid "ruinberg/objective03/success"
+msgstr "Tuhoutui!"
+
+msgid "ruinberg/objective05/header"
+msgstr "Etene!"
+
+msgid "ruinberg/objective05/subheader"
+msgstr "Puske eteenpäin ja raivaa viholliset pois tieltä"
+
+msgid "ruinberg/objective07/header"
+msgstr "Valmistaudu vastahyökkäykseen!"
+
+msgid "ruinberg/objective07/subheader"
+msgstr "Pidä asemasi"
+
+msgid "ruinberg/objective07/success"
+msgstr "Viholliset tuhottu!"
+
+msgid "ruinberg/prebattle/header"
+msgstr "Valmiina!"
+
+msgid "ruinberg/prebattle/start"
+msgstr "Hyökkäykseen!"
+
+msgid "ruinberg/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "ruinberg/respawn/header"
+msgstr "Valmiina, sotilas"
+
+msgid "ruinberg/respawn/subheader"
+msgstr "Täydennykset ovat saapumassa"
+
+msgid "ruinberg/respawn_over/header"
+msgstr "Se on ohitse"
+
+msgid "ruinberg/respawn_over/subheader"
+msgstr "Kaikki saatavilla olevat vaunut ovat tuhoutuneet"
+
+msgid "settings/disabledTabsOverlay"
+msgstr "Suorita Tiikerin metsästäjän tarina avataksesi nämä asetukset."
+
+msgid "timersPanel/overturned"
+msgstr "Palautetaan vaunuasi..."
+
+msgid "vday/hint01"
+msgstr "Liiku nopeasti kulman taakse"
+
+msgid "vday/hint02"
+msgstr "Hiivi lähemmäs"
+
+msgid "vday/hint03"
+msgstr "Lähetä kapt. Dubois tiedustelemaan ympäriinsä"
+
+msgid "vday/hint04"
+msgstr "Käytä kaapattua radiota antamaan väärä käsky Tigerille"
+
+msgid "vday/hint05"
+msgstr "Tutki saksalaisten komentopaikka"
+
+msgid "vday/hint06"
+msgstr "Tiedustelu ympäriinsä ja väärä käsky ovat menestyksesi avaimia"
+
+msgid "vday/hint07"
+msgstr "Käytä \"Tiedustele ympäriinsä\" ja \"Väärä käsky\" -kykyjä liikkuaksesi huomaamatta"
+
+msgid "vday/hint08"
+msgstr "Liiku! Täyttä kaasua tai täysi hauta-arkku!"
+
+msgid "vday/hint09"
+msgstr "Eliittivaunuja ei voi hämätä väärällä käskyllä"
+
+msgid "vday/hint10"
+msgstr "Seuraa kapt. Smithin ohjeita ja liiku varovaisesti"
+
+msgid "vday/hint11"
+msgstr "Takaisin tehtävän pariin!"
+
+msgid "vday/objective01/header"
+msgstr "Taisteluun!"
+
+msgid "vday/objective01/subheader"
+msgstr "Toimita tulitaukokäsky liittoutuneiden joukoille"
+
+msgid "vday/objective02/header"
+msgstr "Pääse saksalaisen komentopaikan luo"
+
+msgid "vday/objective02/subheader"
+msgstr "Seuraa kapt. Smithin ohjeita"
+
+msgid "vday/objective02/success"
+msgstr "Miinakentän kartta kaapattu"
+
+msgid "vday/objective03/header"
+msgstr "Löydä kulkureittikartan palasia"
+
+msgid "vday/objective03/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "%d kartan palanen kerätty"
+msgstr[1] "%d kartan palasta kerätty"
+msgstr[2] "%d kartan palasta kerätty"
+
+msgid "vday/objective03/success"
+msgstr "Kulkureittikartta koottu"
+
+msgid "vday/objective04/header"
+msgstr "Toimita tulitaukokäsky liittoutuneiden joukoille"
+
+msgid "vday/objective04/subheader"
+msgstr "Liiku läpi miinakenttien"
+
+msgid "vday/objective04/success"
+msgstr "Tulitaukokäsky toimitettu!"
+
+msgid "vday/objective05/header"
+msgstr "Pääse miinakenttien luokse"
+
+msgid "vday/objective05/subheader"
+msgstr "Hiivi vihollislinjojen läpi"
+
+msgid "vday/objective05/success"
+msgstr "Miinakenttä saavutettu"
+
+msgid "vday/prebattle/header"
+msgstr "Hiivi vihollislinjojen läpi"
+
+msgid "vday/prebattle/start"
+msgstr "Jatka"
+
+msgid "vday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "vday/prebattleVeryHard/header"
+msgstr "Liiku läpi miinakentän"
+
+msgid "vday/prebattleVeryHard/start"
+msgstr "Liiku"
+
+msgid "vday/prebattleVeryHard/subheader"
+msgstr "?empty?"
+
+msgid "vday/respawn/header"
+msgstr "Valmiina, sotilas"
+
+msgid "vday/respawn/subheader"
+msgstr "Täydennykset ovat saapumassa"
+
+msgid "vday/respawn_over/header"
+msgstr "Se on ohitse"
+
+msgid "vday/respawn_over/subheader"
+msgstr "Kaikki saatavilla olevat vaunut ovat tuhoutuneet"
+
+msgid "zeppelin/hint01"
+msgstr "Lataa vaunusi tykki ja aiheuta enemmän vahinkoa"
+
+msgid "zeppelin/hint02"
+msgstr "Vahingoita kaukana olevia vihollisia ampumalla tykin suurimmalla tarkkuudella"
+
+msgid "zeppelin/hint03"
+msgstr "Ota selvää, kuinka tämän vaunu apuaseistuksella ammutaan"
+
+msgid "zeppelin/objective01/failure"
+msgstr "Tehtävä epäonnistui!"
+
+msgid "zeppelin/objective01/header"
+msgstr "Etene!"
+
+msgid "zeppelin/objective01/subheader"
+msgstr "Pääse ohjuksen luokse ja estä laukaisu"
+
+msgid "zeppelin/objective02/header"
+msgstr "Vihollisen huoltorakennus löydetty!"
+
+msgid "zeppelin/objective02/subheader"
+msgstr "Valtaa hylätty vaunu"
+
+msgid "zeppelin/objective02/success"
+msgstr "Vaunu vallattu!"
+
+msgid "zeppelin/objective03/header"
+msgstr "Uusi tavoite saatu!"
+
+msgid "zeppelin/objective03/subheader"
+msgstr "Valtaa laukaisualusta ja komentokeskus"
+
+msgid "zeppelin/objective03/success"
+msgstr "Laukaisualusta hallussa"
+
+msgid "zeppelin/objective04/header"
+msgstr "Pidä asemasi"
+
+msgid "zeppelin/objective04/subheader"
+msgstr "Tuhoa %d vihollisvaunua"
+
+msgid "zeppelin/objective04/success"
+msgstr "Vihollishyökkäys torjuttu"
+
+msgid "zeppelin/prebattle/header"
+msgstr "Valmiina!"
+
+msgid "zeppelin/prebattle/start"
+msgstr "Etene!"
+
+msgid "zeppelin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "zeppelin/respawn/header"
+msgstr "Valmiina, komentaja"
+
+msgid "zeppelin/respawn/subheader"
+msgstr "Täydennykset ovat saapumassa"
+
+msgid "zeppelin/respawn_over/header"
+msgstr "Se on ohitse"
+
+msgid "zeppelin/respawn_over/subheader"
+msgstr "Kaikki saatavilla olevat vaunut ovat tuhoutuneet"

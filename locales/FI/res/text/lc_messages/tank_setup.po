@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "categories/body/firepower"
+msgstr "Joukko parametrejä, jotka kertovat tehokkuudesta vihollisvaunujen tuhoamisessa. Tämä suodatin näyttää/piilottaa tämän parametrijoukon."
+
+msgid "categories/body/mobility"
+msgstr "Joukko parametrejä, jotka kertovat, kuinka nopeasti vaunu voi vaihtaa asemaansa taistelukentällä. Tämä suodatin näyttää/piilottaa tämän parametrijoukon."
+
+msgid "categories/body/stealth"
+msgstr "Joukko parametrejä, jotka kertovat vaunun tehokkuuden piiloutumisessa ja kyvyn nähdä vihollisvaunuja. Tämä suodatin näyttää/piilottaa tämän parametrijoukon."
+
+msgid "categories/body/survivability"
+msgstr "Joukko parametreja, jotka kertovat vaunun kyvystä kestää vahinkoa. Tämä suodatin näyttää/piilottaa tämän parametrijoukon."
+
+msgid "categories/empty"
+msgstr "Toisen paikan kategoria"
+
+msgid "categories/firepower"
+msgstr "Tulivoima"
+
+msgid "categories/mobility"
+msgstr "Liikkuvuus"
+
+msgid "categories/slotEffect/empty"
+msgstr "Mahdollisuus asettaa kategoria tämän vaunun toiselle varustepaikalle."
+
+msgid "categories/slotEffect/firepower"
+msgstr "Tavallinen tulivoima-kategorian varuste on tehokkaampi, mikäli se asennetaan tähän paikkaan."
+
+msgid "categories/slotEffect/mobility"
+msgstr "Tavallinen liikkuvuus-kategorian varuste on tehokkaampi, mikäli se asennetaan tähän paikkaan."
+
+msgid "categories/slotEffect/stealth"
+msgstr "Tavallinen tiedustelu-kategorian varuste on tehokkaampi, mikäli se asennetaan tähän paikkaan."
+
+msgid "categories/slotEffect/survivability"
+msgstr "Tavallinen selviytyvyys-kategorian varuste on tehokkaampi, mikäli se asennetaan tähän paikkaan."
+
+msgid "categories/stealth"
+msgstr "Tiedustelu"
+
+msgid "categories/survivability"
+msgstr "Selviytyvyys"
+
+msgid "categories/universal"
+msgstr "Ei kategoriaa"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "Valitse yksi soveltuva direktiivi listalta."
+
+msgid "compare/section/description/consumables"
+msgstr "Valitse yksi soveltuva kulutustarvike listalta."
+
+msgid "compare/section/description/optDevices"
+msgstr "Valitse yksi soveltuva varuste listalta."
+
+msgid "compare/section/title/battleBoosters"
+msgstr "Direktiivit {name} vaunulle"
+
+msgid "compare/section/title/consumables"
+msgstr "Kulutustarvikkeet {name} vaunulle"
+
+msgid "compare/section/title/optDevices"
+msgstr "Varusteet {name} vaunulle"
+
+msgid "dealPanel/autoRenew"
+msgstr "Automaattinen täydennys"
+
+msgid "dealPanel/button/apply"
+msgstr "Käytä"
+
+msgid "dealPanel/button/applyType"
+msgstr "Ota käyttöön tyypille"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "Ota käyttöön vaunulle"
+
+msgid "dealPanel/button/cancel"
+msgstr "Peruuta"
+
+msgid "dealPanel/button/purchase"
+msgstr "Osta"
+
+msgid "dealPanel/fromStorage"
+msgstr "Varastolta:"
+
+msgid "dealPanel/fromVehicle"
+msgstr "Asennettuna:"
+
+msgid "dealPanel/repair"
+msgstr "Korjaus vaaditaan"
+
+msgid "dealPanel/toBePaid"
+msgstr "Yhteensä:"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "Varikolla"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "Asennettuna vaunuun"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "Ei riittävästi varoja ostoon"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "Ostetaan krediiteillä"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "Ostetaan arvopapereilla"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "Asennetaan varastosta"
+
+msgid "deconstructionDeviceView/available"
+msgstr "Saatavilla:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "Peruuta"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "Jatka"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "Varastolta:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "Vaunuista:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "( %(red_Open)sPäivittämiseen tarvitaan%(red_Close)s %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s %(red_Open)slisää%(red_Close)s )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "Saadaan:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "AKTIIVINEN VAUNU"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "VARASTOLLA: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "VAUNUISSA: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "Valitse varuste, jonka haluat purkaa %(whiteSpanish_Open)skomponenteiksi%(whiteSpanish_Close)s%(icon)s. Saadut komponentit voi käyttää päivittämään kokeellisia varusteita."
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s Saadaksesi lisää komponentteja voit purkaa tarpeettomia kokeellisia varusteita."
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "TYÖPÖYTÄ"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "Ei riittävästi komponentteja päivittämään\n%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s varustetta."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "Jatkaaksesi sinun tulee purkaa tarpeettomia varusteita komponenteiksi."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "Jatkaaksesi sinun tulee hankkia vaadittu määrä komponentteja."
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "Peruuta muutokset"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "Peruuta"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "Peruuta"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "Peruuta"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "Peruuta muutokset"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "Tallenna"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "Osta"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "Osta ja asenna"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "Asenna"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "Voit irrottaa varusteen lähettääksesi sen varastoon käyttämällä %(price)s tai voit tuhota sen."
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "Voit irrottaa varusteen lähettääksesi sen varastoon käyttämällä %(price)s tai {whiteSpanish_Open}ilmaiseksi{whiteSpanish_Close}, jos sinulla on WoT Plus, tai voit tuhota sen."
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "Voit irrottaa varusteen lähettääksesi sen varastoon käyttämällä %(demountKit)s, %(price)s tai {whiteSpanish_Open}ilmaiseksi{whiteSpanish_Close}, jos sinulla on WoT Plus, tai voit tuhota sen."
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "Voit irrottaa varusteen lähettääksesi sen varastoon {whiteSpanish_Open}ilmaiseksi{whiteSpanish_Close}, jos sinulla on WoT Plus."
+
+msgid "dialogs/confirm/demount/items"
+msgstr "Voit irrottaa varusteen lähettääksesi sen varastoon."
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "EI TOIMI"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "direktiivi"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "Ostaessasi tämän kaksoimuokkauksen toinen peruutetaan."
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "kulutustarvike"
+
+msgid "dialogs/confirm/item/module"
+msgstr "moduuli"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "varuste"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "kaksoismuokkaus"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "direktiivejä"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "kulutustarvikkeita"
+
+msgid "dialogs/confirm/items/module"
+msgstr "moduuleja"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "varusteita"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " ja "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "Tallenna muutokset direktiivien paikkoihin?"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "Tallenna muutokset kulutustarvikkeiden paikkoihin?"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "Tallenna muutokset varusteiden paikkoihin?"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "Osta \"%(name)s\" {type}?"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "Osta ja asenna \"%(name)s\" {type}?"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "Asenna \"%(name)s\" {type}?"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "Ota \"%(name)s\" -{type} käyttöön kaikille %(vehicle)s?"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "Osta {type}?"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "Osta ja asenna {type}?"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "Asenna {type}?"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "Ota {type} käyttöön kaikille %(vehicle)s?"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "PST-vaunuille"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "telatykeille"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "raskaille vaunuille"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "kevyille vaunuille"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "keskiraskaille vaunuille"
+
+msgid "dialogs/confirm/warning"
+msgstr "Huomio! %(devices)s varustetta ei ole asennettu. Direktiivi %(doesNotWork)s."
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "Huomio! Purkamisen jälkeen sinulla ei ole kokeellisia varusteita!"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "Peruuta"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "Pura"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "Pura"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "Yhteensä saatavaa:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "Saadaan yhdestä kappaleesta:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "Pura\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "Pura\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "Huomio: Purkamisen jälkeen et voi palauttaa tai ostaa tätä varustetta."
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "Peruuta"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "Pura"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "Pura seuraava varuste komponenteiksi?"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "Pura seuraava varuste ja päivitä\n%(deviceName)s?"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "Puretaan varastolta: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "Puretaan vaunuista: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "Purettaessa saat: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "Yhteensä saatavaa:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "Päivityshinta:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "Huomio! Purkamisen jälkeen sinulla ei ole kokeellisia varusteita!"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "Huomio! Kokeelliset varusteet vaunuistasi puretaan."
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "Vaihda"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "varuste"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "%(credits)s lisää tarvitaan päivittämään %(name)s"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "varusteet"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "%(credits)s lisää tarvitaan päivittämään varuste"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "Varusteen päivittäminen ei onnistu. Tarvitset %(gold)s kultaa vaihtaaksesi ne krediitteihin."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "Sinulla on riittävästi krediittejä varusteen päivittämiseen."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "Vaihtamista ei tarvita"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "Sinulla ei ole kokeellisia varusteita purettavaksi."
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "Saadaksesi lisää komponentteja voit purkaa kokeellisia varusteita."
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "Päivitä\n%(name)s?"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "Vaaditaan: %(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "Hinta:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "ostamiseen"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "ostamiseen"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "Vaihda"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "Vaihtosuhde: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "Pikahuoltoon tarvitaan %(credits)s lisää"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "direktiivi"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "kulutustarvike"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "moduuli"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "varuste"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "kaksoismuokkauksen"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "Tarvitaan %(credits)s enemmän \"%(name)s\" {type} {action}"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "direktiivien"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "kulutustarvikkeiden"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "moduulien"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "varusteiden"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "Tarvitaan %(credits)s enemmän {type} {action}"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "Tarvitaan %(credits)s enemmän korjaamiseen"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "Ei voida ostaa: muuntaminen epäonnistui. Tarvitaan %(gold)s enemmän muunnettavaksi."
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "ostamiseen"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "muokkaukseen"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "Muuntamista ei tarvita – sinulla on riittävästi krediittejä."
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "Tarpeeksi krediittejä {action}"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "Tarvitaan %(credits)s enemmän ammuksien täydentämiseen"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "Korjaa automaattisesti"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "Korjaa"
+
+msgid "dialogs/needRepair/durability"
+msgstr "Kestävyys:"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s%"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "Vaunu korjataan automaattisesti ilmaiseksi"
+
+msgid "dialogs/needRepair/price"
+msgstr "Korjaushinta:"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "Ei riittävästi varaa korjaukseen"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "Selvä!"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "Korjauksia ei tarvita"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "Täydennä"
+
+msgid "dialogs/refillShells/price"
+msgstr "Täydennyksen hinta:"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "Täydennä ammuskuorma?"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "Tallenna muutokset ammuskuormaan?"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "Huomio: Olet myymässä paranneltua varustetta."
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "Huomio: Myymisen jälkeen et voi palauttaa tai ostaa tätä varustetta."
+
+msgid "dialogs/sell/button/cancel"
+msgstr "Peruuta"
+
+msgid "dialogs/sell/button/sell"
+msgstr "Myy"
+
+msgid "dialogs/sell/header"
+msgstr "Myy seuraava varuste?\n%(equipmentName)s"
+
+msgid "dialogs/sell/text"
+msgstr "Myyntihinta yhdelle kappaleelle:"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "Ei riittävästi resursseja irrottamiseen."
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "Suositukset eivät ole saatavilla tälle vaunulle"
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "Ei voida asentaa."
+
+msgid "easyTankEquipView/applied"
+msgstr "Otettu käyttöön"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "Edistyneet"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "Paranneltu"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "Perus"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "KULUTUSTARVIKKEET"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "Ei riittävästi sänkypaikkoja siirtoa ja miehistön muutoksia varten. Hanki lisää sänkyjä kasarmille."
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "x{{count}}"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "Kokenut miehistö"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "Uusi miehistö"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "{{count}}\nuusi miehistön jäsen värvätään"
+msgstr[1] "{{count}}\nuutta miehistön jäsentä värvätään"
+msgstr[2] "{{count}}\nuutta miehistön jäsentä värvätään"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "MIEHISTÖ"
+
+msgid "easyTankEquipView/discount"
+msgstr "-{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "Kehittyneet"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "Perus"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "VARUSTEET"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "Kehittyneet"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "Perus"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "AMMUKSET"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "Sinulla on jo tyyli käytössä"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "{{battlesCount}} taistelua {{price}} hinnalla"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "ESIASETETUT TYYLIT"
+
+msgid "easyTankEquipView/title"
+msgstr "PIKAHUOLTO"
+
+msgid "effects/name"
+msgstr "Vaikutus"
+
+msgid "effects/template"
+msgstr "%(icon)s %(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "Jäähtymisaika on %(cooldown)s&nbsp;s."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "Hanki komponentteja"
+
+msgid "filters/shown"
+msgstr "Näytetään: "
+
+msgid "hints/dragAndDrop/section"
+msgstr "VEDÄ JA PUDOTA\nVARUSTEITA"
+
+msgid "hints/filters/specialization"
+msgstr "YLIMÄÄRÄINEN\nBONUS KATEGORIAAN"
+
+msgid "hints/tabs/equipment"
+msgstr "UUDEN TYYPPISIÄ\nVARUSTEITA"
+
+msgid "introduction/currency/deluxe"
+msgstr "arvopapereilla"
+
+msgid "introduction/currency/modernized"
+msgstr "komponentteja"
+
+msgid "introduction/message/deluxe"
+msgstr "Tämän tyyppinen varuste on saatavilla %(currencyName)s (%(currencyIcon)s). Sen voi saada myös palkinnoksi tietyistä pelisaavutuksista ja tiettyjen erikoistapahtumien aikana."
+
+msgid "introduction/message/modernized"
+msgstr "Erityistä tyyppiä oleva varuste kolmella päivitystasolla, joka myönnetään tehtävien suorittamisesta ja tiettyjen pelitapahtumien aikana. Tätä varustetta ei voi tuhota tai myydä, mutta sen voi purkaa saadakseen erikoisosia: %(currencyName)s (%(currencyIcon)s). Saadut komponentit voi käyttää päivittämään mitä hyvänsä kokeellista varustetta."
+
+msgid "introduction/message/trophy"
+msgstr "Erityinen varustetyyppi, joilla on sen saataessa tavallisten varusteiden ominaisuudet, mutta jotka voidaan päivittää krediiteillä. Et voi ostaa palkkiovarusteita pelinsisäisellä valuutalla, mutta voit saada niitä palkinnoksi tietyistä pelitapahtumista."
+
+msgid "introduction/showButton"
+msgstr "Näytä varusteet"
+
+msgid "introduction/slide/1/description"
+msgstr "Uusia varusteita lisättiin. Lisäksi %(repairBox)s, %(wetAmmo)s, %(CO2Cistern)s ja %(cycloneFilter)s yhdistetiin %(changedConfiguration)s -varusteeksi. %(forcedChassis)s varusteen vastineet korvattiin %(forcedMetal)s varusteella. Kaikki vanhat bonukset säilyvät ja uusia lisättiin."
+
+msgid "introduction/slide/1/title"
+msgstr "UUSIA VARUSTEITA"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr "—Tulivoima"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr "—Liikkuvuus"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr "—Tiedustelu"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr "—Selviytyvyys"
+
+msgid "introduction/slide/2/description"
+msgstr "Varuste on tehokkaampi, mikäli se on asennettu saman kategorian paikkaan. Muuten se tarjoaa vain tavallisen bonuksen."
+
+msgid "introduction/slide/2/subtitle"
+msgstr "KATEGORIAN OSUVUUS"
+
+msgid "introduction/slide/2/title"
+msgstr "VARUSTEIDEN KATEGORIAT"
+
+msgid "introduction/slide/3/description/left"
+msgstr "Useimpien varusteiden hinta ei ylitä 50 000 krediittiä tasojen II–V vaunuille, 300 000 krediittiä tasojen V–VII vaunuille ja 600 000 krediittiä tasojen VIII-XI vaunuille."
+
+msgid "introduction/slide/3/description/right"
+msgstr "Joillain uusista varusteista on kolme luokkaa. Vaikka luokka on eri, tarjoaa varuste saman vaikutuksen. Mitä korkeampi luokka, sitä kalliimpi varuste. Kukin varusteluokka vastaa omaa osajoukkoa vaunutasoista."
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "MUUTOKSET VARUSTEISIIN"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "UUSIA VARUSTEITA"
+
+msgid "introduction/slide/3/title"
+msgstr "VARUSTEIDEN HINTA"
+
+msgid "introduction/slide/4/description"
+msgstr "Varusteet eivät ole saatavilla tason I vaunuille. Voit asentaa vain yhden varusteen tason II vaunuihin, kaksi varustetta tason III vaunuihin ja kolme varustetta tasojen IV–XI vaunuihin. Poistettuihin paikkoihin asennetut varusteet irrotettiin ja lähetettiin varastoon."
+
+msgid "introduction/slide/4/title"
+msgstr "VARUSTEPAIKAT"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "Täytä tankki CO2:lla"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "Muokattu kokoonpano"
+
+msgid "introduction/slide/confirm"
+msgstr "Selvä!"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "Sykloni-ilmansuodatin"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "Paranneltu jousitus"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "Parempi karkaisu"
+
+msgid "introduction/slide/repairBox"
+msgstr "Työkalupakki"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "Märkä ammusteline"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "Parannellut varusteet"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "Kokeelliset varusteet"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "Palkkiovarusteet"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "Sinulla ei ole soveltuvia kokeellisia varusteita"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "Sinulla ei ole soveltuvia palkkiovarusteita"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "viiveeseen ennen kuin komentaja tunnistaa vaunusi olevan vihollisen havaitsema"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "lisälamautuksen kestoon, jos vaunu on jo lamautettu"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "kasvusten takana olevien vihollisten (sekä liikkuvien että paikallaan olevien) naamiointiin"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "kaikkien ammustyyppien lentonopeuteen"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "latausnopeuden haittaan moduulien vahingoittuessa"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "moottoritehon laskuun moduulien vahingoittuessa"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "paikallaan olevan tai liikkuvan vaunun naamiointiin"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "naamioitumisen paranemiseen, oli vaunu paikallaan tai liikkeessä (tehokkuus riippuu vaunun tyypistä)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "telakoneiston rungolle aiheuttamaan vahinkoon törmätessä"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "näkökykyyn (445 m asti) – parametrin kasvattaminen 445 metrin yli mahdollistaa vihollisten tehokkaamman havaitsemisen"
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "vahinkoon törmäyksissä"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "hajontaan vaunun liikkuessa ja kääntyessä, tornia käännettäessä ja ampumisen jälkeen"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "panssarin pysäyttämään sirpalekranaattien vahinkoon"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "aikaan, jonka vaunusi on näkyvissä"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "nopeuden säilymiseen\nliikuttaessa missä hyvänsä maastossa"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "paikallaan olevan vaunun naamiointiin 3 sekunttia sen pysähtymisen jälkeen"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "paikallaan olevan vaunun naamiointiin\n1,5 sekuntia sen pysähtymisen jälkeen"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "paikallaan olevan vaunun naamioinnin parantumiseen 3 sekunttia sen pysähtymisestä (tehokkuus riippuu vaunun tyypistä)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "paikallaan olevan vaunun naamioinnin parantumiseen 1.5 sekuntia sen pysähtymisestä (tehokkuus riippuu vaunun tyypistä)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "paikallaan olevan vaunun näköetäisyyteen 3 sekunttia sen pysähtymisestä (445 m asti) – parametrin kasvaminen yli 445 m mahdollistaa vihollisten tehokkaamman havaitsemmisen"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "paikallaan olevan vaunun näköetäisyyteen 1,5 sekuntia sen pysähtymisestä (445 m asti) – parametrin kasvaminen yli 445 m mahdollistaa vihollisten tehokkaamman havaitsemisen"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "vaunun kestopisteisiin (ylöspäin pyöristettynä)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "tornin kääntönopeuteen tai tykin kääntönopeuteen tornittomille vaunuille"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "viiveeseen ennen kuin komentaja tunnistaa vaunusi olevan vihollisen havaitsema"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "lisälamautuksen kestoon, jos vaunu on jo lamautettu"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "kasvuston takana olevien liikkuvien että liikkumattomien vihollisvaunujen naamiointiin"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "kaikkien ammustyyppien lentonopeuteen"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "latausnopeuden haittaan moduulien vahingoittuessa"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "moottoritehon laskuun moduulien vahingoittuessa"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "paikallaan olevan tai liikkuvan vaunun naamiointiin"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "naamioitumisen paranemiseen, oli vaunu paikallaan tai liikkeessä (tehokkuus riippuu vaunun tyypistä)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "telakoneiston rungolle aiheuttamaan vahinkoon törmätessä"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "näkökykyyn (445 m asti). Parametrin kasvattaminen 445 metrin yli mahdollistaa vihollisten tehokkaamman havaitsemisen."
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "vahinkoon törmäyksissä"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "hajontaan vaunun liikkuessa ja kääntyessä, tornia käännettäessä ja ampumisen jälkeen"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "panssarin pysäyttämään sirpalekranaattien vahinkoon"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "aikaan, jonka vaunusi on näkyvissä"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "nopeuden säilymiseen\nliikuttaessa missä hyvänsä maastossa"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "paikallaan olevan vaunun naamiointiin 3 sekunttia sen pysähtymisestä"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "paikallaan olevan vaunun naamiointiin\n1,5 sekuntia sen pysähtymisen jälkeen"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "paikallaan olevan vaunun naamiointiin 3 sekunttia sen pysähtymisestä (tehokkuus riippuu vaunun tyypistä)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "paikallaan olevan vaunun naamiointiin 1.5 sekuntia sen pysähtymisestä (tehokkuus riippuu vaunun tyypistä)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "paikallaan olevan vaunun näköetäisyyteen 3 sekunttia sen pysähtymisestä (445 m asti). Parametrin kasvaminen yli 445 m mahdollistaa vihollisten tehokkaamman havaitsemmisen."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "paikallaan olevan vaunun näköetäisyyteen 1,5 sekuntia sen pysähtymisestä (445 m asti). Parametrin kasvaminen yli 445 m mahdollistaa vihollisten tehokkaamman havaitsemisen"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "vaunun kestopisteisiin (ylöspäin pyöristettynä)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "tornin kääntönopeuteen tai tykin kääntönopeuteen tornittomille vaunuille"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "viiveeseen ennen äänipeilauksen\naktivoitumista"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "viiveeseen, jolla havaituksi tuleminen huomataan"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "tykin jäähtymisnopeuteen"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "miehistön suojaan\nloukkaantumisilta"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "miehistön tehokkuuden bonukseen"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "lisää lamautuksen kestoa"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "lamautuksen kestoon"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "pienimpään potentiaaliseen vahinkoon\nja läpäisyyn"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "suurimpaan potentiaaliseen vahinkoon\nja läpäisyyn"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "törmäämällä aiheutettuun vahinkoon"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "viive ennen kuin tähtäimessä olevan\nvaunun kriittinen vahinko näytetään"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "kasvusten takana olevien vihollisten naamiointiin"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "liikkuvien vihollisten naamiointiin"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "mahdollisuuteen vahingoittaa vihollisen moduuleja\nja miehistön jäseniä"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "kulutustarvikkeiden jäähtymisaikaan"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "tulentorjunnan nopeuteen"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "namaioitumiseen kasvillisuuden takana"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "korjaussarjalla palautettaviin kestopisteisiin"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "vauhdin säilyttämiseen\nkohtuullisen pehmeässä maastossa"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "näköetäisyyden haittaan, kun\ntarkkailulaitteita on epäkunnossa"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "suurimpaan mahdolliseen läpäisyyn"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "vihollisvaunujen asemien\nvälittämisen aikaan\ntuhoutumisen jälkeen"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "radistin suojaan\nloukkaantumisilta"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "ammuksen lentonopeuteen"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "vauhdin säilyttämiseen\n pehmeässä maastossa"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "miehistön lamautumisen\nnegatiivisiin vaikutuksiin"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "telakoneiston kärsimään vahinkoon"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "telakoneiston korjausnopeuteen"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "latausnopeuden haittaan"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "vahingoittuneen moottorin haittaan"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "vaunun kääntönopeuteen"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "sisäisten moduulien kestävyyteen"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "ammustelineen kestävyyteen"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "peruutuksen huippunopeuteen"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "naamiointiin"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "naamioinnin parantumiseen"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "vahinkoon törmäyksistä"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "telakoneiston korjausnopeuteen"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "telakoneiston kestävyyteen"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "näköetäisyyteen"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "aikaan, jonka vihollisvaunu\non näkyvissä sinulle"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "moottoritehoon"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "vahinkoon törmäyksistä"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "moottorin tulipalon mahdollisuuteen"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "huippunopeuteen"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "polttoainetankkien kriittisen\nvahingoittumisen todennäköisyyteen"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "tähtäysnopeuteen"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "latausaikaan"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "hajontaan vaunun liikkuessa ja kääntyessä"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "tähtäysympyrän kokoon ampumisen jälkeen"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "hajontaan liikkeen aikana"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "hajontaan runkoa käännettäessä"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "hajontaan tykkiä käännettäessä"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "vahingoittuneen tykin hajontaan"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "tähtäysympyrän kokoon"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "sirpalekranaattien vahinkoon"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "naamiointiin ampumisen jälkeen"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "aikaan, jonka vaunusi on näkyvissä"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "telakoneiston kärismään\ntörmäysvahinkoon"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "vastaanotettuun törmäysvahinkoon"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "ladatun tykin\nammustyypin vaihtonopeuteen"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "korjausnopeuteen"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "nopeuden säilymiseen kuljettaessa kaikissa maastotyypeissä"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "paikallaan olevan vaunun naamiointiin"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "paikallaan olevan vanun naamiointiin"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "paikallaan olevan naamioinnin parantumiseen"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "paikallaan olevan naamioinnin parantumiseen"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "paikallaan olevan vaunun näköetäisyyteen"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "paikallaan olevan vaunun näköetäisyyteen"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "vaunun kestopisteisiin"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "tornin kääntönopeuteen tai tykin kääntönopeuteen tornittomille vaunuille"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "tornin kääntönopeuteen"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "pyörien kääntymisnopeuteen"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "rangaistukseen miehistön jäsenen\nhaavoittuessa komentaja pois lukien"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "viiveeseen ennen äänipeilauksen\naktivoitumista"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "viive ennen kuin tähtäimessä olevan\nvaunun kriittinen vahinko näytetään"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "vihollisvaunujen havaitsemisen kestoon\ntuhoutumisen jälkeen"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "sirpalekranaattien vahinkoon"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "sirpalekranaattien läpäisyyn"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "sirpalekranaattien lentonopeuteen"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "ammusten määrään"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "kaikkien ammusten vahinkoon"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "kaikkien ammustyyppien lentonopeuteen"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "viiveeseen ennen äänipeilauksen\naktivoitumista"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "tavallisten ammusten vahinkoon"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "viiveeseen, jolla havaituksi tuleminen huomataan"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "tykin jäähtymisnopeuteen"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "miehistön suojaan\nloukkaantumisilta"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "miehistön tehokkuuden bonukseen"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "lisää lamautuksen kestoa"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "lamautuksen kestoon"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "pienimpään potentiaaliseen vahinkoon ja läpäisyyn"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "suurimpaan potentiaaliseen vahinkoon\nja läpäisyyn"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "törmäämällä aiheutettuun vahinkoon"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "viive ennen kuin tähtäimessä olevan\nvaunun kriittinen vahinko näytetään"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "kasvusten takana olevien vihollisten naamiointiin"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "liikkuvien vihollisten naamiointiin"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "mahdollisuuteen vahingoittaa vihollisen moduuleja\nja miehistön jäseniä"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "moottorin kestopisteisiin"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "kulutustarvikkeiden jäähtymisaikaan"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "tulentorjunnan nopeuteen"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "namaioitumiseen kasvillisuuden takana"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "polttoainetankin kestopisteisiin"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "tykin alakoroon"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "tykin yläkoroon"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "tykin vakauteen"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "tykin kääntörajoihin"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "korjaussarjalla palautettaviin kestopisteisiin"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "rungon korotusnopeuteen"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "vauhdin säilyttämiseen\nkohtuullisen pehmeässä maastossa"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "muiden kuin sirpalekranaattien vahinkoon"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "näkyvyyden haittaan, kun\ntarkkailulaitteita on epäkunnossa"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "suurimpaan mahdolliseen läpäisyyn"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "vihollisvaunujen asemien\nvälittämisen aikaan\ntuhoutumisen jälkeen"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "radistin suojaan\nloukkaantumisilta"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "latausaikaan lippaan sisällä"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "latausaikaan (yhteislaukaus)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "latausaikaan (kertalaukaus)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "ammusten vihollisen moduuleihin tekemään vahinkoon"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "ammuksen lentonopeuteen"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "vauhdin säilyttämiseen\n pehmeässä maastossa"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "erikoisammusten vahinkoon"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "erikoisammusten läpäisyyn"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "erikoisammusten lentonopeuteen"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "tavallisten ammusten vahinkoon"
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "tavallisten ammusten läpäisyyn"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "tavallisten ammusten lentonopeuteen"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "miehistön lamautumisen negatiivisiin vaikutuksiin"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "telakoneiston kärsimään vahinkoon"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "telakoneiston korjausnopeuteen"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "tornin kääntörajoihin"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "latausnopeuden haittaan"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "vahingoittuneen moottorin haittaan"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "vaunun kääntönopeuteen"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "sisäisten moduulien kestävyyteen"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "ammustelineen kestävyyteen"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "peruutuksen huippunopeuteen"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "naamiointiin"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "naamioinnin parantumiseen"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "vahinkoon pudotessa"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "telakoneiston korjausnopeuteen"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "telakoneiston kestävyyteen"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "näköetäisyyteen (445 m asti)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "aikaan, jonka vihollisvaunu\non näkyvissä sinulle"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "moottoritehoon"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "vahinkoon törmäyksistä"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "moottorin tulipalon mahdollisuuteen"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "huippunopeuteen"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "polttoainetankkien kriittisen\nvahingoittumisen todennäköisyyteen"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "tähtäysnopeuteen"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "latausaikaan"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "hajontaan vaunun liikkuessa ja kääntyessä"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "tähtäysympyrän kokoon ampumisen jälkeen"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "hajontaan liikkeen aikana"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "hajontaan runkoa käännettäessä"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "hajontaan tykkiä käännettäessä"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "vahingoittuneen tykin hajontaan"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "tähtäysympyrän kokoon"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "sirpalekranaattien vahinkoon"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "naamiointiin ampumisen jälkeen"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "aikaan, jonka vaunusi on näkyvissä"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "telakoneiston kärismään\ntörmäysvahinkoon"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "vastaanotettuun törmäysvahinkoon"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "ladatun tykin\nammustyypin vaihtonopeuteen"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "korjausnopeuteen"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "huippunopeuteen eteen-/taaksepäin"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "nopeuden säilymiseen kuljettaessa kaikissa maastotyypeissä"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "paikallaan olevan vanun naamiointiin"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "paikallaan olevan vanun naamiointiin"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "paikallaan olevan naamioinnin parantumiseen"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "paikallaan olevan naamioinnin parantumiseen"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "paikallaan olevan vaunun näköetäisyyteen (445 m asti)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "paikallaan olevan vaunun näköetäisyyteen (445 m asti)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "vaunun kestopisteisiin"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "tornin kääntönopeuteen tai tykin kääntönopeuteen tornittomille vaunuille"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "tornin kääntönopeuteen"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "pyörien kääntymisnopeuteen"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "rangaistukseen miehistön jäsenen haavoittuessa\nkomentaja pois lukien"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "viiveeseen, jolla havaituksi tuleminen huomataan"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "miehistön suojaan\nloukkaantumisilta"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "miehistön tehokkuuden bonukseen"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "lisää lamautuksen kestoa"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "lamautuksen kestoon"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "törmäämällä aiheutettuun vahinkoon"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "viive ennen kuin tähtäimessä olevan\nvaunun kriittinen vahinko näytetään"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "kasvusten takana olevien\nvihollisten naamiointiin"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "liikkuvien vihollisten\nnaamiointiin"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "korjaussarjalla palautettaviin kestopisteisiin"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "lippaan latausaikaan"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "suurimpaan mahdolliseen läpäisyyn"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "radistin suojaan loukkaantumisilta"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "kaikkien ammustyyppien lentonopeuteen"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "tykin hajontaan"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "telakoneiston korjausnopeuteen"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "hajontaan tykkiä käännettäessä"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "latausnopeuden haittaan"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "moottoritehon menetykseen\nmoottorin vahingoittuessa"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "vaunun kääntönopeuteen"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "sisäisten moduulien kestävyyteen"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "ammustelineen kestävyyteen"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "peruutuksen huippunopeuteen"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "naamiointiin"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "vahinkoon törmäyksistä"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "telakoneiston korjausnopeuteen"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "telakoneiston kestävyyteen"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "näköetäisyyteen"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "aikaan, jonka vihollisvaunu\non näkyvissä sinulle"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "moottoritehoon"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "vahinkoon törmäyksistä"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "moottorin tulipalon mahdollisuuteen"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "huippunopeuteen"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "tähtäysnopeuteen"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "latausaikaan"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "hajontaan vaunun liikkuessa ja kääntyessä"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "tähtäysympyrän kokoon ampumisen\njälkeen"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "hajontaan liikkeen aikana"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "hajontaan runkoa käännettäessä"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "hajontaan\ntykkiä käännettäessä "
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "vahingoittuneen tykin hajontaan"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "tähtäysympyrän kokoon"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "sirpalekranaattien vahinkoon"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "naamiointiin ampumisen jälkeen"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "aikaan, jonka vaunusi on näkyvissä"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "vastaanotettuun törmäysvahinkoon"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "ammustyyppien vaihtonopeuteen"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "korjausnopeuteen"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "nopeuden säilyttämiseen"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "paikallaan olevan vaunun\nnaamiointiin"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "paikallaan olevan vaunun\nnaamiointiin"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "näköetäisyyteen"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "näköetäisyyteen"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "vaunun kestopisteisiin"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "tykin kääntönopeuteen"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "tornin kääntönopeuteen"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "haittaan miehistön jäsenen haavoittuessa\nkomentaja pois lukien"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "viiveeseen, jolla havaituksi tuleminen huomataan"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "miehistön suojaan\nloukkaantumisilta"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "miehistön tehokkuuden bonukseen"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "miehistön tehokkuuden bonukseen"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "lisää lamautuksen kestoa"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "lamautuksen kestoon"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "pienimpään potentiaaliseen vahinkoon\nja läpäisyyn"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "törmäämällä aiheutettuun vahinkoon"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "kasvusten takana olevien\nvihollisten naamiointiin"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "liikkuvien vihollisten\nnaamiointiin"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "mahdollisuuteen vahingoittaa vihollisen moduuleja ja\nmiehistön jäseniä"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "tulentorjunnan nopeuteen"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "korjaussarjalla palautettaviin kestopisteisiin"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "lippaan latausaikaan"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "vaunun naamiointiin"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "vauhdin säilyttämiseen\nkohtuullisen pehmeässä maastossa"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "suurimpaan mahdolliseen läpäisyyn"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "radiosignaalin kantamaan"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "radistin suojaan loukkaantumisilta"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "kaikkien ammustyyppien lentonopeuteen"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "vauhdin säilyttämiseen\n pehmeässä maastossa"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "telakoneiston korjausnopeuteen"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "liittolaisvaunujen signaalin kantamaan vaunun radiokantaman sisällä"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "latausnopeuden haittaan"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "moottoritehon menetykseen\nmoottorin vahingoittuessa"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "vaunun kääntönopeuteen"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "sisäisten moduulien kestävyyteen"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "ammustelineen kestävyyteen"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "peruutuksen huippunopeuteen"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "naamiointiin"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "vahinkoon pudotessa"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "telakoneiston korjausnopeuteen"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "telakoneiston kestävyyteen"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "näköetäisyyteen\n(445 m asti)"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "aikaan, jonka vihollisvaunu\non näkyvissä sinulle"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "moottoritehoon"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "vahinkoon törmäyksistä"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "moottorin tulipalon mahdollisuuteen"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "huippunopeuteen"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "tähtäysnopeuteen"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "latausaikaan"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "hajontaan vaunun liikkuessa\nja kääntyessä"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "tähtäysympyrän kokoon ampumisen\njälkeen"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "hajontaan liikkeen aikana"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "hajontaan runkoa käännettäessä"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "hajontaan \ntykkiä käännettäessä"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "vahingoittuneen tykin hajontaan"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "tähtäysympyrän kokoon"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "sirpalekranaattien vahinkoon"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "naamiointiin ampumisen jälkeen"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "aikaan, jonka vaunusi on näkyvissä"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "vastaanotettuun törmäysvahinkoon"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "ammustyyppien vaihtonopeuteen"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "korjausnopeuteen"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "nopeuden säilyttämiseen"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "paikallaan olevan vanun naamiointiin"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "paikallaan olevan vanun naamiointiin"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "paikallaan olevan vaunun näköetäisyyteen\n(445 m asti)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "paikallaan olevan vaunun näköetäisyyteen\n(445 m asti)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "vaunun kestopisteisiin"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "tykin kääntönopeuteen"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "tornin kääntönopeuteen"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "taistelussa ansaittuun miehistökokemukseen"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "km/t"
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "km/t"
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "s"
+
+msgid "popularLoadouts/common"
+msgstr "Suositut"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "Yleisesti käytetty"
+
+msgid "popularLoadouts/legendary"
+msgstr "Legendaarinen"
+
+msgid "popularLoadouts/noData"
+msgstr "Tietoja ei saatavilla"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "Tietoja ei saatavilla"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)sSuosittu.%(whiteSpanish_Close)s Perustuu tämän hetkisiin varustetrendeihin kaikkien World of Tanksin pelaajien kesken"
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "Tietojen keruu"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "Jos kuluvan Rynnistyksen kauden tietoja ei ole vielä saatavilla, käytetään edellisen kauden tietoja"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "Avustaja on saatavilla %(whiteSpanish_Open)ssatunnaistaisteluissa%(whiteSpanish_Close)s ja %(whiteSpanish_Open)sRynnistyksessä%(whiteSpanish_Close)s"
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "Tiedot kaikista varustetyypeistä on aggregoitu"
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "WoT Plussan etu"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "Saat tarkkaa varustetietoa miljoonien pelien pohjalta ja saat kaiken irti jo taistelusta."
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "Varusteapuri"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendaarinen.%(whiteSpanish_Close)s Perustuu varusteisiin, joita tällä hetkellä suosivat pelaajat, joilla on legendan WTR-taso"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "Varustusten tyypit"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "Ehdotetut varustukset perustuvat varustuksiin, jotka ovat suosittuja vaunuilla, joilla on samanlainen pelityyli"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "Näytetään tiedot alla olevalle vaunulle samankaltaisen pelityylin perusteella:"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "Tiedot varustuksesta eivät ole saatavilla"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "Valittu vaunu ei ole saatavilla tässä pelimuodossa"
+
+msgid "section/battleAbilities"
+msgstr "TAISTELURESERVIT"
+
+msgid "section/battleBoosters"
+msgstr "DIREKTIIVIT"
+
+msgid "section/consumables"
+msgstr "KULUTUSTARVIKKEET"
+
+msgid "section/modules"
+msgstr "MODUULIT"
+
+msgid "section/optDevices"
+msgstr "VARUSTEET"
+
+msgid "section/shells"
+msgstr "AMMUKSET"
+
+msgid "section/toggleCamouflage"
+msgstr "MAASTOKUVIO"
+
+msgid "section/toggleShells"
+msgstr "AMMUKSET"
+
+msgid "shells/ammunitionFull"
+msgstr "Täysi ammuskuorma"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "Puutteellinen ammuskuorma"
+
+msgid "shells/autoFillOff"
+msgstr "Automaattinen täydennys poistettu käytöstä"
+
+msgid "shells/autofillOn"
+msgstr "Automaattinen täydennys käytössä"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "Varikolla:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "Ammustelineessä:"
+
+msgid "shells/shortSpecification/price"
+msgstr "Osta:"
+
+msgid "shells/specification/inStorage"
+msgstr "Varikolla"
+
+msgid "shells/specification/inVehicle"
+msgstr "Ammustelineessä"
+
+msgid "shells/specification/price"
+msgstr "Osta"
+
+msgid "shells/title"
+msgstr "Ammukset"
+
+msgid "shells/type/base"
+msgstr "TAVALLINEN (AP)"
+
+msgid "shells/type/special"
+msgstr "ERIKOINEN (HE)"
+
+msgid "shells/type/tactical"
+msgstr "TAKTINEN (APCR)"
+
+msgid "tabs/crew"
+msgstr "Miehistölle"
+
+msgid "tabs/deluxe"
+msgstr "Paranneltu"
+
+msgid "tabs/modernized"
+msgstr "Kokeellinen"
+
+msgid "tabs/optDevice"
+msgstr "Varusteille"
+
+msgid "tabs/simple"
+msgstr "Perus"
+
+msgid "tabs/trophy"
+msgstr "Palkkio"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "Direktiivi täydennetään automaattisesti, kun vaunu palaa taistelusta. Se otetaan joko varastosta (jos sinulla on tätä direktiiviä varastossa) tai ostetaan pelinsisäisellä valuutalla."
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "Kulutustarvikkeet täydennetään automaattisesti, jos on tarvetta, kun vaunu palaa taistelusta."
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "Korjaukset suoritetaan automaattisesti, jos on tarvetta, kun vaunu palaa taistelusta."
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "Ammukset täydennetään automaattisesti, jos on tarvetta, kun vaunu palaa taistelusta."
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "Täydennä automaattisesti"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "Korjaa automaattisesti"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "Puretaan varastolta: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "Puretaan vaunuista: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr ", "
+
+msgid "tooltips/action/description/add_one"
+msgstr "Klikkaa ostaaksesi lisää tarvikkeita tähän paikkaan."
+
+msgid "tooltips/action/description/demount"
+msgstr "Klikkaa irrottaaksesi varuste tästä paikasta."
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "Klikkaa irrottaaksesi varuste tästä paikasta."
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "Klikkaa irrottaaksesi varuste kaikista kokoonpanoista."
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "Klikkaa irrottaaksesi varuste tästä paikasta ilmaiseksi aktiivisen WoT Plus -tilisi ansiosta."
+
+msgid "tooltips/action/description/destroy"
+msgstr "Klikkaa tuhotaksesi varuste tästä paikasta tai irrota se ilmaiseksi, jos sinulla on aktiivinen WoT Plus -tilaus."
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "Klikkaa purkaaksesi varuste komponenteiksi."
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "Klikkaa tuhotaksesi varuste tästä paikasta."
+
+msgid "tooltips/action/description/swap"
+msgstr "Klikaa vaihtaaksesi tavaraa paikasta toiseen."
+
+msgid "tooltips/action/description/upgrade"
+msgstr "Varusteen päivittäminen parantaa sen ominaisuuksia."
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "Varusteen päivittäminen parantaa sen ominaisuuksia."
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "Varusteen päivittäminen parantaa sen ominaisuuksia."
+
+msgid "tooltips/action/title/add_one"
+msgstr "Osta"
+
+msgid "tooltips/action/title/cancel"
+msgstr "Lähetä varikolle"
+
+msgid "tooltips/action/title/demount"
+msgstr "Irrota"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "Irrota"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "Irrota kaikista kokoonpanoista"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "Irrota ilmaiseksi"
+
+msgid "tooltips/action/title/destroy"
+msgstr "Tuhoa"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "Pura"
+
+msgid "tooltips/action/title/swap"
+msgstr "Muuta järjestystä"
+
+msgid "tooltips/action/title/undo"
+msgstr "Poista paikasta"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "Päivitä"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "Päivitä"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "Päivitä"
+
+msgid "tooltips/additional"
+msgstr "Lisätietoa."
+
+msgid "tooltips/categories/list"
+msgstr "Klikkaa nähdäksesi lista moduuleista."
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "Tämän paikan kategorian voi asettaa uusiksi kenttämuokkausten valikossa tai varusteiden valintaruudussa."
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "Uudelleen asetettava kategoria"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "Klikkaa asettaaksesi tämä kategoria uudelleen."
+
+msgid "tooltips/equipmentList"
+msgstr "Klikkaa nähdäksesi listan käytettävissä olevista varusteista."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "Kokeellisen varusteen purkaminen komponenteiksi ei onnistu: sinulla ei ole tämän tyyppistä varustetta."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "Klikkaa edetäksesi varusteen purkamisessa komponenteiksi."
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "Asennettuna tämä varuste tarjoaa tavallisen bonuksen, sillä vain PST-vaunuilla ja telatykeillä on tulivoima-kategoria ja tätä varustetta ei olla asentamassa tulivoima-kategorian paikkaan."
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "Vaunusi saa bonuksia ominaisuuksiinsa."
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "Kasvattaaksesi ominaisuusbonusta sinun tulee asentaa tämä varuste paikkaan, joka on yhtä seuraavista kategorioista: %(category)s."
+
+msgid "tooltips/howToIncrease/single"
+msgstr "Kasvattaaksesi ominaisuusbonusta sinun tulee asentaa tämä varuste paikkaan, joka on seuraavaa kategoriaa: %(category)s."
+
+msgid "tooltips/placeEquipment"
+msgstr "Varustepaikka"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "Voit ottaa käyttöön/poistaa käytöstä mahdollisuuden valita ammukset ja kulutustarvikkeet taistelun lähtölaskennan aikana kenttämuokkausten käyttöliittymästä."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "Voit ottaa käyttöön/poistaa käytöstä mahdollisuuden valita varusteet ja direktiivit taistelun lähtölaskennan aikana kenttämuokkausten käyttöliittymästä."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "Voit ottaa käyttöön/poistaa käytöstä mahdollisuuden valita ammukset ja kulutustarvikkeet taistelun lähtölaskennan aikana kenttämuokkausten käyttöliittymästä."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "Voit ottaa käyttöön/poistaa käytöstä mahdollisuuden valita ammukset ja kulutustarvikkeet taistelun lähtölaskennan aikana \"Päivitykset\" -käyttöliittymästä."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "Voit ottaa käyttöön/poistaa käytöstä mahdollisuuden valita varusteet ja direktiivit taistelun lähtölaskennan aikana kenttämuokkausten käyttöliittymästä."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "Voit ottaa käyttöön/poistaa käytöstä mahdollisuuden valita varusteet ja direktiivit taistelun lähtölaskennan aikana \"Päivitykset\" -käyttöliittymästä."
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "Kokoonpanojen vaihtaminen pois käytöstä"
+
+msgid "tooltips/separator/last"
+msgstr " ja "
+
+msgid "tooltips/separator/other"
+msgstr ", "
+
+msgid "tooltips/specializationDesc"
+msgstr "Tavallisen varusteet %(spec)s-kategoriasta ovat tehokkaampia, jos se asennetaan tähän paikkaan. Muiden kategorioiden varusteet tarjoavat vain tavallisen bonuksen."
+
+msgid "tooltips/specializationName"
+msgstr "Kategoria:"
+
+msgid "tooltips/specializationType"
+msgstr "Tulivoima"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "Arvokas varustetyyppi, jonka ominaisuudet ovat parempia kuin muun tyyppisillä varusteilla."
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "Erikoisvaruste, jolla on kolme päivitystasoa."
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "Varuste parantaa vaunusi ominaisuuksia."
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "Varustetyyppi, jolla on tavallisen varusteen parametrit, mutta jota voi päivittää."
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "Parannellut varusteet"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "Kokeelliset varusteet"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "Tavalliset varusteet"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "Palkkiovarusteet"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "Tämän tyyppinen varuste on saatavilla %(whiteSpanish_Open)sarvopapereilla%(whiteSpanish_Close)s. Sen voi saada myös palkinnoksi tietyistä pelisaavutuksista ja tiettyjen erikoistapahtumien aikana."
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "Tämän tyyppisiä varusteita voi saada palkintona tietyistä pelitapahtumista."
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "Tämän tyyppisen varusteen voi ostaa pelinsisäisellä valuutalla. Sen voi saada myös palkinnoksi tietyistä pelisaavutuksista ja erityisten pelitapahtumien aikana. Tavallisen varusteen ominaisuuksia voi parantaa asettamalla sen sitä vastaavalle paikalle."
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "Tämän tyyppisiä varusteita voi saada palkintona tietyistä pelitapahtumista."
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "Hankintatapa"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "Hankintatapa"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "Varustepaikat"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "Palkkiovarusteita ei voi ostaa"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "Voit päivittää kokeellisen varusteen ominaisuuksia käyttämällä %(whiteSpanish_Open)skomponentteja%(whiteSpanish_Close)s, joita voi saada purkamalla tämän tyyppisiä varusteita."
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "Voit päivittää palkkivarusteiden ominaisuuksia pelinsisäisellä valuutalla."
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "Kokeellisen varusteen päivittäminen"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "Palkkiovarusteen päivittäminen"

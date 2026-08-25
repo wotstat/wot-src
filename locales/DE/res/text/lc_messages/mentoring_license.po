@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "Geben Sie zum Bestätigen die EP des für den Transfer ausgewählten Besatzungsmitglieds ein."
+
+msgid "assignmentDialog/price"
+msgstr "Preis:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Alle Besatzungs-EP zwischen Besatzungsmitgliedern übertragen"
+
+msgid "assignmentDialog/title"
+msgstr "Mentoring bestätigen"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Dieses Besatzungsmitglied wird ohne Möglichkeit der Wiederherstellung\nvon Ihrem Konto entfernt."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} zusätzliche EP gehen verloren."
+
+msgid "dialogue/description"
+msgstr "Ein Verbrauchsgegenstand, mit dem alle Besatzungs-EP von einem Besatzungsmitglied auf ein anderes Besatzungsmitglied derselben Nation übertragen werden können."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}Zusätzliche EP gehen verloren:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "AUSWÄHLEN"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Gesamte EP:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Mentorlizenz(en):{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Keine passenden Besatzungsmitglieder"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Wählen Sie das Besatzungsmitglied aus, von dem die EP\nauf {cream_Open}%(name)s{cream_Close} übertragen werden sollen. Dieses wird dadurch von Ihrem Konto entfernt."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "Nach dem Übertragen der Besatzungs-EP wird {cream_Open}%(name)s{cream_Close} das Vorteilslimit erreichen. Alle EP über dem Limit gehen verloren."
+
+msgid "mentorAssigment/title"
+msgstr "MENTOR AUSWÄHLEN"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close} hat das Vorteilslimit erreicht und kann nicht für eine Übertragung von EP ausgewählt werden."
+
+msgid "multipleUserName"
+msgstr "Mentorlizenzen"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Verwendete Mentorlizenz(en): %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "Übertragene Besatzungs-EP: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "Mentorensystem"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>Verlorene zusätzliche Besatzungs-EP: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Erlaubt es, Besatzungs-EP von einem Besatzungsmitglied auf ein anderes Besatzungsmitglied derselben Nation zu übertragen."
+
+msgid "storage/userName"
+msgstr "Mentorlizenz"
+
+msgid "userName"
+msgstr "Mentorlizenz"

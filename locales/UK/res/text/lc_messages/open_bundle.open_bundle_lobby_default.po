@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Так!"
+
+msgid "attachments_preview/description"
+msgstr "Набір 3D-обвісів"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Епічний 3D-обвіс"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Легендарний 3D-обвіс"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Рідкісний 3D-обвіс"
+
+msgid "bundle/name"
+msgstr "Таємничий ярмарок"
+
+msgid "bundle/name_uppercased"
+msgstr "ТАЄМНИЧИЙ ЯРМАРОК"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Скасувати"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Купити"
+
+msgid "confirmation/description"
+msgstr "Підтвердьте, щоб отримати бони й нову нагороду з комірки."
+
+msgid "confirmation/purchase"
+msgstr "Придбати за {{price}} ?"
+
+msgid "entryPoint/button"
+msgstr "До події!"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} уже тут. Спробуйте!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Коли купуєте бони під час події «{{eventName}}», ви отримуєте як бонус нагороду з однієї з невідкритих комірок. Комірки містять цінні ігрові предмети — включно з головною нагородою події: преміум танком."
+
+msgid "intro/cards/description/c_2"
+msgstr "Нагороди видаються у випадковому порядку. Кожна невідкрита комірка має власну ймовірність випадіння, а всі ймовірності сумарно складають 100%. Після відкриття комірка більше не може бути відкрита, а шанси отримати решту нагород зростають."
+
+msgid "intro/cards/description/c_3"
+msgstr "Кожен етап коштує певну кількість золота. І кількість отриманих бонів, і ціна етапу змінюються мірою поступу."
+
+msgid "intro/cards/link"
+msgstr "Умови й вартість для кожного етапу дивіться на {{@ class 'linkPart'}}порталі.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Придбання бонів"
+
+msgid "intro/cards/title/c_2"
+msgstr "Комірки та ймовірність"
+
+msgid "intro/cards/title/c_3"
+msgstr "Ціни етапів"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "ВАША НАГОРОДА ЧЕКАЄ"
+
+msgid "main/alt/description"
+msgstr "Переглянути ймовірність"
+
+msgid "main/alt/tooltip/body"
+msgstr "Натисніть на клавішу Alt, щоб побачити ймовірність отримання кожної комірки."
+
+msgid "main/alt/tooltip/header"
+msgstr "Відображення ймовірності"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "ВІТАЄМО! \n ВИ ОТРИМАЛИ ВСІ НАГОРОДИ"
+
+msgid "main/footer/button"
+msgstr "Купити"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}Нагорода з комірки"
+
+msgid "main/footer/receive"
+msgstr "Ви отримали: {{item}}"
+
+msgid "main/header/description"
+msgstr "Беріть участь у події з {{startDate}} до {{endDate}} й здобувайте призи!"
+
+msgid "main/multi"
+msgstr "×{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "×{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "До зовнішнього вигляду"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Перейти до стилю"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Перейти до машини"
+
+msgid "notifications/specialReward/title"
+msgstr "Головна нагорода події «{{eventName}}» ваша!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Додаткові нагороди:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Отримано:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Операція тимчасово недоступна з технічних причин. Будь ласка, спробуйте пізніше."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "До події"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s скоро завершиться!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Подія доступна до: %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "%(eventName)s — комірка відкрита"
+
+msgid "tooltips/entry/description"
+msgstr "Ваша нагорода чекає! Кожне придбання бонів дає вам випадкову нагороду з комірки як подарунок. Щоразу ви відкриваєте нову комірку, а вже відкриті зникають."
+
+msgid "tooltips/entry/timer"
+msgstr "Подія буде доступна протягом {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "Про подію"
+
+msgid "tooltips/steps/description"
+msgstr "За кожну купівлю ви отримуєте все більше {{currency}}. Здобута кількість зростає на певних етапах."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} за кожну купівлю"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Етапи:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} — {{end}}"

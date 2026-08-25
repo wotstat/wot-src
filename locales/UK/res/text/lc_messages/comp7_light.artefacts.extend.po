@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_light_aggressive_detection/descr/active"
+msgstr "Протягом наступних {colorTagOpen}%(duration)s с{colorTagClose} огляд буде збільшено на {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose}.\n\nЗнищення техніки супротивника за вашими розвідданими оновлює час дії навички."
+
+msgid "comp7_light_aggressive_detection/name"
+msgstr "Активна розвідка"
+
+msgid "comp7_light_ally_support/descr/active"
+msgstr "Упродовж наступних {colorTagOpen}%(duration)s с{colorTagClose} екіпаж отримує +{colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} до ефективності за кожну машину іншої ролі у вашій команді.\n\nВаша машина завжди враховується під час розрахунку бонуса."
+
+msgid "comp7_light_ally_support/name"
+msgstr "Один за всіх"
+
+msgid "comp7_light_aoe_heal/descr/active"
+msgstr "Створює навколо танка область радіусом {colorTagOpen}%(radius)s м{colorTagClose}, що відновлює вам і машинам союзників {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} очок міцності протягом {colorTagOpen}%(duration)s с{colorTagClose}."
+
+msgid "comp7_light_aoe_heal/name"
+msgstr "Польова дільниця ремонту"
+
+msgid "comp7_light_aoe_inspire/descr/active"
+msgstr "Упродовж наступних {colorTagOpen}%(duration)s с{colorTagClose} ваш екіпаж й екіпажі союзників отримують +{colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} до ефективності."
+
+msgid "comp7_light_aoe_inspire/name"
+msgstr "Наснага"
+
+msgid "comp7_light_berserk/descr/active"
+msgstr "На наступні {colorTagOpen}%(duration)s с{colorTagClose} час перезаряджання гармати скорочується на {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}. Розкид гармати під час руху, поворотів шасі, обертання башти й після пострілу зменшується на {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nЗавдавання шкоди пострілом з дистанції менш ніж {colorTagOpen}%(damageDistance)s м{colorTagClose} або тараном оновлює час дії навички."
+
+msgid "comp7_light_berserk/name"
+msgstr "Лють"
+
+msgid "comp7_light_concentration/descr/active"
+msgstr "На наступні {colorTagOpen}%(duration)s с{colorTagClose} зменшує розкид гармати під час руху, поворотів шасі й обертання башти на {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nПротягом дії навички час перезаряджання між пострілами скорочується на {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s с{colorTagClose}."
+
+msgid "comp7_light_concentration/name"
+msgstr "Концентрація на цілі"
+
+msgid "comp7_light_fast_recharge/descr/active"
+msgstr "• Для магазинної системи заряджання:\nЧас перезаряджання магазину, що залишився, зменшується на {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}.\n\n• Для системи дозаряджання:\nУсі випущені снаряди в поточному циклі будуть заряджені на {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose} швидше.\n\nНавичку можна активувати лише під час перезаряджання.\n\n• Для автоматичної гармати із системою контролю нагріву:\nНагрів гармати зменшується на {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose} від максимального можливого значення.\n\nНавичку можна активувати, лише коли гармата нагріта."
+
+msgid "comp7_light_fast_recharge/name"
+msgstr "Спритні руки"
+
+msgid "comp7_light_hunter/descr/active"
+msgstr "Скидає кількість пошкоджених пострілами машин супротивника.\n\nПротягом наступних {colorTagOpen}%(duration)s с{colorTagClose} відновлює {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} очок міцності за кожну пошкоджену пострілами машину супротивника на момент активації."
+
+msgid "comp7_light_hunter/descr/passive"
+msgstr "Кожна пошкоджена пострілом машина супротивника скорочує час перезаряджання гармати на {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose}."
+
+msgid "comp7_light_hunter/name"
+msgstr "Мисливець за головами"
+
+msgid "comp7_light_juggernaut/descr/active"
+msgstr "Протягом {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s c{colorTagClose}:\n• Отримувана шкода зменшена на {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• Максимальна швидкість уперед збільшена на {colorTagOpen}%(fwMaxSpeedBonus)s км/год{colorTagClose}\n• Максимальна швидкість назад збільшена на {colorTagOpen}%(bkMaxSpeedBonus)s км/год{colorTagClose}\n•Потужність двигуна збільшена на {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• Шкода машинам супротивника від тарана збільшена на {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\nКоли активна ця рольова навичка, ваші гусениці зламаються після першого ж влучання."
+
+msgid "comp7_light_juggernaut/name"
+msgstr "Джаггернаут"
+
+msgid "comp7_light_march/descr/active"
+msgstr "На наступні {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s с{colorTagClose} потужність двигуна підвищується на {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, максимальна швидкість руху вперед збільшується на {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} км/год, а показник маскування зростає на {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}."
+
+msgid "comp7_light_march/name"
+msgstr "Марш-кидок"
+
+msgid "comp7_light_recon/descr/active"
+msgstr "Літак-розвідник пролетить над обраною областю за {colorTagOpen}%(delay)s с{colorTagClose}. Помічена техніка супротивника в радіусі {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s м{colorTagClose} залишатиметься видимою протягом {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp; с{colorTagClose}. Гравці, виявлені за допомогою навички, побачать відповідний значок із затримкою в {colorTagOpen}%(lampDelay)s с{colorTagClose}.\n\nНавичку можна використовувати за {colorTagOpen}%(startupDelay)s с{colorTagClose} після початку бою."
+
+msgid "comp7_light_recon/name"
+msgstr "Літак-розвідник"
+
+msgid "comp7_light_redline/descr/active"
+msgstr "Через {colorTagOpen}%(delay)s с{colorTagClose} по вибраній вами області буде завдано артудар.\n\nУражені цілі в радіусі {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s м{colorTagClose} отримають {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} од. шкоди й будуть оглушені на {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s с{colorTagClose}."
+
+msgid "comp7_light_redline/name"
+msgstr "Вогнева підтримка"
+
+msgid "comp7_light_risky_attack/descr/active"
+msgstr "Прискорення\n\nНа наступні {colorTagOpen}%(duration)s с{colorTagClose} потужність двигуна підвищується на {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, максимальна швидкість уперед збільшується на {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} км/год, а максимальна швидкість заднього ходу — на {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} км/год.\n\nВідновлення\n\nПротягом наступних {colorTagOpen}%(healDuration)s с{colorTagClose} відновлює міцність машини на {colorTagOpen}%(baseHeal)s{colorTagClose} од. {colorTagOpen}+ %(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose} від очок, втрачених під час дії Прискорення."
+
+msgid "comp7_light_risky_attack/name"
+msgstr "Друге дихання"
+
+msgid "comp7_light_role_skill/descr/startLevel"
+msgstr " \n\nНа початку бою рівень заряду навички дорівнює{colorTagOpen} %(startLevel)s{colorTagClose}."
+
+msgid "comp7_light_sniper/descr/active"
+msgstr "Упродовж наступних {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s с{colorTagClose} розкид гармати на 100 м становитиме {colorTagOpen}%(dispersionFactor)s м{colorTagClose}.\n\nЯкщо вашу машину не було виявлено в момент пострілу, завдана снарядом шкода збільшиться на {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}.\n\nЗавдавання шкоди пострілом з дистанції понад {colorTagOpen}%(damageDistance)s м{colorTagClose} оновлює час дії навички."
+
+msgid "comp7_light_sniper/name"
+msgstr "Точно в ціль"
+
+msgid "comp7_light_sure_shot/descr/active"
+msgstr "На наступні {colorTagOpen}%(duration)s с{colorTagClose} зменшує розкид гармати під час руху, поворотів шасі й обертання башти на {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nЗавдавання шкоди пострілом протягом дії навички скорочує час перезаряджання на {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose} від відсотка, на який зменшилася міцність машини супротивника.\n\nЗнищення техніки супротивника пострілом скорочує час перезаряджання на {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}."
+
+msgid "comp7_light_sure_shot/name"
+msgstr "Влучний постріл"

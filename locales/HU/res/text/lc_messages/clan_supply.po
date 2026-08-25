@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "main/backText"
+msgstr "A KLÁNADATOKHOZ"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "A küldetések teljesítéséért kötelességpontokat kapsz, amelyek szükségesek új régiók felfedezéséhez."
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "Kötelességpont"
+
+msgid "main/infoPageButtonLabel"
+msgstr "A KÖTELESSÉG ÚTJÁRÓL"
+
+msgid "main/mdash"
+msgstr "–"
+
+msgid "messages/claimRewards/error"
+msgstr "A művelet átmenetileg nem érhető el. Próbálkozz újra később!"
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "Frissítés"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "Elnézést kérünk az átmeneti kellemetlenségekért."
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "Hiba az adatok betöltése során"
+
+msgid "progressionPage/header/heading"
+msgstr "A KÖTELESSÉG ÚTJA"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "A KÖTELESSÉG ÚTJA VÉGET ÉRT"
+
+msgid "progressionPage/header/subheading"
+msgstr "Szerezz kötelességpontokat a klánküldetések teljesítésével! A kötelességpontok új régiók felfedezésére és értékes jutalmak megszerzésére használhatók fel. A kötelesség útja végén egy X-es szintű járművet kaphatsz."
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "%(vehicle)s jármű megszerezve"
+
+msgid "progressionPage/loading"
+msgstr "Tartalom betöltése..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "Fedezd fel az előző kapcsolódó régiót!"
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "Már felfedezted a régiót"
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "Megszerzett jutalom:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "Fedezd fel az előző kapcsolódó régiót!"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "A régió felfedezése nem lehetséges"
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "Hiba az adatok betöltése során"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "Régió felfedezése"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "Még %(value)s kötelességpont szükséges a régió felfedezéséhez."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "A régió felfedezése nem lehetséges"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "Fedezd fel az előző kapcsolódó régiót!"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "A régió felfedezése nem lehetséges"
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "Jutalom igénylése"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "Tartalom betöltése..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "Várakozás a jutalom hozzáadására..."
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "Frissítés"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "JUTALOM A RÉGIÓ FELFEDEZÉSÉÉRT:"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "JUTALOM MEGSZEREZVE:"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "Előnézet"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "Frissítés"
+
+msgid "questsPage/errorScreen/description"
+msgstr "Elnézést kérünk az átmeneti kellemetlenségekért."
+
+msgid "questsPage/errorScreen/heading"
+msgstr "Hiba az adatok betöltése során"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "Jutalom igénylése"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "Automata klánkeresés"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "Csatlakozz egy klánhoz a küldetések teljesítéséhez és a jutalom megszerzéséhez!"
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "A küldetés előrehaladása szünetel. A folytatáshoz igényeld a jutalmadat: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "A KÖTELESSÉG ÚTJA KÜLDETÉSEI"
+
+msgid "questsPage/header/subheading"
+msgstr "Teljesíts küldetéseket és szerezz jutalmakat. A 2. és 3. küldetést csak szakaszban/osztagban egy klántárssal teljesítheted."
+
+msgid "questsPage/loading"
+msgstr "Tartalom betöltése..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "VIII–XI-es szintű járművekkel gyűjts legalább {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} alap XP-t egy csatában szakaszban játszva, vagy nyerj meg egy csatát osztagban!"
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "VI–XI-es szintű járművekkel harcolva gyűjts legalább {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} alap XP-t egy csatában, vagy nyerj meg egy csatát osztagban!"
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "VIII–XI-es szintű járművekkel semmisíts meg {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} ellenséges járművet egy csatában szakaszban játszva, vagy nyerj meg egy csatát osztagban!"
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "VI–XI-es szintű járművekkel harcolva semmisíts meg {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} ellenséges járművet egy csatában, vagy nyerj meg egy csatát osztagban!"
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "VIII–XI-es szintű járművekkel okozz vagy segíts {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} sebzést okozni egy csatában szakaszban játszva, vagy nyerj meg egy csatát osztagban!"
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "VI–XI-es járművekkel okozz vagy segíts {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} sebzést okozni egy csatában, vagy nyerj meg egy csatát osztagban!"
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "Ipari nyersanyag"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "Kötelességpont"
+
+msgid "questsPage/questCard/status/available"
+msgstr "Igényelheted a jutalmat"
+
+msgid "questsPage/questCard/status/completed"
+msgstr "Jutalom megszerezve"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "Nem érhető el"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "A jutalmat hamarosan hozzáadjuk a fiókodhoz."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "Vedd át a korábbi küldetések teljesítéséért járó jutalmakat!"
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "Teljesítsd az előző küldetést!"
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "A küldetés nem érhető el"
+
+msgid "questsPage/timer/dash"
+msgstr "–"
+
+msgid "questsPage/timer/heading"
+msgstr "A kötelességpontok gyűjtésére hátralévő idő"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "A küldetések teljesítéséért kötelességpontokat kapsz, amelyek szükségesek új régiók felfedezéséhez."
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "Kötelességpont"
+
+msgid "rewardsView/additionalRewards"
+msgstr "Emellett még ezt kaptad:"
+
+msgid "rewardsView/button/close"
+msgstr "BEZÁRÁS"
+
+msgid "rewardsView/button/confirm"
+msgstr "Értettem!"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "Megtekintés a Garázsban"
+
+msgid "rewardsView/heading"
+msgstr "JUTALMAK MEGSZEREZVE"
+
+msgid "rewardsView/style/317"
+msgstr "Láng 2D-stílus"
+
+msgid "rewardsView/style/345"
+msgstr "Prófécia 2D-stílus"
+
+msgid "rewardsView/style/435"
+msgstr "Büntetés 2D-stílus"
+
+msgid "rewardsView/style/436"
+msgstr "Kaszás 2D-stílus"
+
+msgid "rewardsView/subheading"
+msgstr "A KÖTELESSÉG ÚTJA"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "A kötelesség útja előrehaladás"
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "A kötelesség útja küldetéseinek előrehaladása"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "A kötelesség útja"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "A kötelesség útja küldetései"

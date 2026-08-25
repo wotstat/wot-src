@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Karartma Zamanı {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Etkinlik şu tarihlerde geçerli olacak"
+
+msgid "bannerTooltip/description"
+msgstr "Normandie, Kraftwerk ve Fata Morgana haritalarında Seviye {{vehicleTier}} araçlarla devasa 30'a 30 savaşlar. Saldıranların beş yüksek kalibreli toptan üç adedini yok etmesi gerekirken savunanlar bunları korumalıdır."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Savaşta ustalığınızı göstererek ün kazanın, değerli ödüller alın ve rütbelerde yükselin."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Etkinlik sona erdi ve tamamlanmış Ön Cephe seviyelerinden alınmamış ödülleriniz var."
+
+msgid "bannerTooltip/header"
+msgstr "Ön Cephe"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Ön Cephe | Seviye {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}}: Oyun kipi. Keşfetmek için tıklayın."
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Bu kip yüksek bilgisayar performansına ihtiyaç duyar. Harita yüklenmesi, grafikler ve araç hareketi ile ilgili sorunlar yaşayabilirsiniz. Yetersiz performans durumunda Ayarlar'dan daha düşük grafik kalitesi kullanmayı deneyin."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Olası Düşürülmüş Performans"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Tamamlanan Seviyeler ({{value}}) için ödülleri seçin"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Alışverişi gerçekleştirmek için yeterli para yok."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Değişiklikler tüm tank avcılarına uygulanacak."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Değişiklikler tüm KMT'lere uygulanacak."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Değişiklikler tüm ağır tanklara uygulanacak."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Değişiklikler tüm hafif tanklara uygulanacak."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Değişiklikler tüm orta tanklara uygulanacak."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Uyumsuz araç"
+
+msgid "battleAbilities/points/body"
+msgstr "Gerekli miktarda Puan biriktirin ve Ön Cephe Savaş Yedeklerini etkinleştirin."
+
+msgid "battleAbilities/points/header"
+msgstr "Savaş Yedeği Puanı"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Saldırı Yedeklerine Bakın"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Saldırı Yedekleri"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Keşif Yedeklerine Bakın"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Keşif Yedekleri"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Taktik Yedeklere Bakın"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Taktik Yedekler"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Savaş Yedeği Seviyesi, savaşta Yüzbaşı ve Yarbay rütbelerine ulaştıktan sonra artar. Maksimum seviye, savaş senaryosu tarafından belirlenir."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Ek bilgi"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Saldırı Yedekleri"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Keşif Yedekleri"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Taktik Yedekler"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Sabit nitelikler:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Bu yuvaya yerleştirilen bir Savaş Yedeği, aynısının {{@ colorLegacy 'FFE4C0'}}Kaderin Cilvesi{{/}} senaryosunda sunulma olasılığını {{@ colorLegacy 'FFE4C0'}}%10{{/}} artırır."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Yedek Seviyesi:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Satın alınmadı!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Etkinlik sona erdi."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Etkinlik yakında başlayacak!"
+
+msgid "infoButton/body"
+msgstr "Daha fazla bilgi için tıklayın."
+
+msgid "infoButton/header"
+msgstr "Etkinlik Hakkında"
+
+msgid "levelReserves/desc"
+msgstr "Savaş Yedeği Seviyeleri yeni rütbelere ulaştığınızda artar:"
+
+msgid "levelReserves/info"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Kaderin Cilvesi{{/}} senaryosunda bir Savaş Yedeği satın almak Yedeğin seviyesini bir kademe yükseltip Seviyesini {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}'e çıkarma imkânı sunar."
+
+msgid "levelReserves/level"
+msgstr "Şu rütbelere ulaşıldığında artar: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Şu rütbe ile açılır: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Seviye - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Kaderin Cilvesi{{/}} senaryosunda {{@ colorLegacy 'FFE4C0'}}satın alınan Savaş Yedekleri{{/}} için."
+
+msgid "levelReserves/title"
+msgstr "Savaş Yedeği Seviyeleri"
+
+msgid "playlist/warning/body"
+msgstr "Bu oyun listesi, bu oyun kipine uygun olmayan veya Garajınızda olmayan araçlar içeriyor."
+
+msgid "playlist/warning/header"
+msgstr "Geçersiz araçlar (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Savaş Yedeği nitelikleri iyileştirildi"
+
+msgid "randomReserve/disable"
+msgstr "Savaş Yedeği yuvası kullanıldı."
+
+msgid "randomReserve/notPurchased"
+msgstr "Savaş Yedeği satın alınmadı"
+
+msgid "randomReserve/purchased"
+msgstr "Savaş Yedeği satın alındı"
+
+msgid "skillOrderTooltip/body"
+msgstr "Her araç türünün kendi Yedek açma sırası bulunmaktadır:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Savaş Yedeği Açma Sırası"
+
+msgid "skillOrderTooltip/info"
+msgstr "{{@ colorLegacy 'whiteSpanish'}}Kaderin Cilvesi{{/}} senaryosunda, Savaş Yedeklerinin açılma sırası araç türüne bağlı değildir."

@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT prevodilac <<noreply@wargaming.net>\nLanguage-Team: WoT tim <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "Vezi mesajele noi"
+
+msgid "battle/history/header"
+msgstr "Inamici"
+
+msgid "battle/history/latestMessage"
+msgstr "Vezi ultimul mesaj"
+
+msgid "battle/history/title"
+msgstr "Istoric chat:"
+
+msgid "battle/history/upMessage"
+msgstr "Vezi mesaje vechi"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)sCHAT DEZACTIVAT%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "Chat-ul în luptă nu este disponibil jucătorilor din țara ta."
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "Chat-ul în luptă nu este disponibil pentru contul tău."
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "Chat-ul în luptă este interzis de controlul parental."
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "Chat-ul din luptă poate fi activat în setările jocului."
+
+msgid "battle/receivers/common"
+msgstr "Către toţi"
+
+msgid "battle/receivers/squad"
+msgstr "Către pluton"
+
+msgid "battle/receivers/team"
+msgstr "Către echipă"
+
+msgid "battle/toolTips/cancel"
+msgstr "renunţă"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "schimbă destinatarul"
+
+msgid "battle/toolTips/default"
+msgstr "destinatarul anterior"
+
+msgid "battle/toolTips/duringChat"
+msgstr "În timpul discuţiei:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "Poţi bloca mesaje de la jucătorul selectat apăsând butonul de lângă numele jucătorului în chat."
+
+msgid "battle/toolTips/send"
+msgstr "trimite"
+
+msgid "battle/toolTips/startChat"
+msgstr "Porneşte discuţia:"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "Poţi raporta un mesaj dând clic pe acesta şi alegând motivul plângerii. Această opţiune îţi permite de asemenea să cezactivezi chat-ul sau să activezi doar chat-ul aliaţilor. Chat-ul de pluton va fi disponibil în orice moment."
+
+msgid "battle/toolTips/usingChat"
+msgstr "Discută"
+
+msgid "battle/toolTips/withSquad"
+msgstr "cu plutonul propriu"
+
+msgid "battle/unknown/ally"
+msgstr "Coechipier"
+
+msgid "battle/unknown/enemy"
+msgstr "Inamici"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "Vei fi deconectat de la server la %(curfewTime)s. Sesiunea se va încheia în %(timeLeft)s min."
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "Ai atins limita zilnică a timpului de joc. Sesiunea se va încheia în %(timeLeft)s min."
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "Ai atins limita săptămânală a timpului de joc. Sesiunea se va încheia în %(timeLeft)s min."
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "Ai atins limita de joc. Sesiunea ta se va încheia în %(timeLeft)s min."
+
+msgid "chat/personalMessage/warningBody"
+msgstr "Mesajele de la jucătorii necunoscuți pot include linkuri dăunătoare. Nu deschide aceste linkuri și da nimănui parola ta."
+
+msgid "chat/personalMessage/warningHead"
+msgstr "Atenție!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "Rezultate luptă"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "Mesajul de la %(playerName)s a fost blocat."
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "Trimite un mesaj"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "Trimite un mesaj"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "Căutare jucător"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "Setări chat voce"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "nu te poți bana singur"
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "Eroare la executarea \"%(actionName)s\"."
+
+msgid "chat_error/IS_BUSY"
+msgstr "Serverul este ocupat."
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "nu ai permisiuni suficiente pentru această operațiune"
+
+msgid "chat_error/NOT_READY"
+msgstr "Acțiunea \"%(actionName)s\" indisponibilă."
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "userul nu există."
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "parametru invalid."
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "Chat vocal dezactivat. Pentru a vorbi cu colegii de pluton, activează chat-ul vocal, apăsând %(keyName)s."
+
+msgid "client/COMP7/disableVOIP"
+msgstr "Chat voce dezactivat. Pentru a vorbi cu membrii plutonului tău, activează chat-ul de voce, (%(keyName)s)."
+
+msgid "client/commendations/comms_mutual"
+msgstr "Tu și %(player)s v-ați apreciat reciproc."
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)s te-a apreciat."
+
+msgid "client/commendations/comms_sent"
+msgstr "%(player)s a fost apreciat."
+
+msgid "client/dynSquad/created/allies"
+msgstr "Aliaţii tăi au creat plutonul %(squadNum)s."
+
+msgid "client/dynSquad/created/enemies"
+msgstr "Plutonul %(squadNum)s. a fost creat de echipa inamică."
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "Plutonul %(squadNum)s a fost creat. Chat-ul de pluton și de voce este acum disponibil. Pentru a dezactiva chat-ul de voce, apasă %(keyName)s)."
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "Plutonul %(squadNum)s a fost creat. Chat-ul de pluton și de voce este acum disponibil. Pentru a activa chat-ul de voce, apasă %(keyName)s)."
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "Plutonul %(squadNum)s a fost creat. Chat-ul de pluton și de voce este acum disponibil. Asignează o tastă pentru a activa/dezactiva chat-ul de voce."
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "S-a creat plutonul %(squadNum)s. Chatul de pluton este acum disponibil."
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "Ai intrat în Plutonul %(squadNum)s. Chat-ul de pluton și de voce este acum disponibil. Pentru a dezactiva chat-ul de voce, apasă %(keyName)s)."
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "Ai intrat în Plutonul %(squadNum)s. Chat-ul de pluton și de voce este acum disponibil. Pentru a activa chat-ul de voce, apasă %(keyName)s)."
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "Ai intrat în Plutonul %(squadNum)s. Chat-ul de pluton și de voce este acum disponibil. Asignează o tastă pentru a activa/dezactiva chat-ul de voce."
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "Ai intrat în plutonul %(squadNum)s. Chat-ul de pluton este acum disponibil."
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "Chat voce dezactivat. Pentru a vorbi cu membrii plutonului tău, activează chat-ul de voce, apăsând %(keyName)s)."
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "Chat voce activat."
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "Ai intrat în Plutonul %(squadNum)s. Chat-ul de pluton și de voce este acum disponibil. Pentru a dezactiva chat-ul de voce, apasă %(keyName)s)."
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "Ai intrat în Plutonul %(squadNum)s. Chat-ul de pluton și de voce este acum disponibil. Pentru a activa chat-ul de voce, apasă %(keyName)s)."
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "Ai intrat în Plutonul %(squadNum)s. Chat-ul de pluton și de voce este acum disponibil. Asignează o tastă pentru a activa/dezactiva chat-ul de voce."
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "Ai intrat în plutonul %(squadNum)s. Chat-ul de pluton este acum disponibil."
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s a intrat în plutonul %(squadNum)s."
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s te-a invitat în pluton."
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)s te-a invitat în pluton. \nAtenție! Porecla ta actuală și eticheta clanului tău vor fi afișate membrilor de pluton."
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s invitat în pluton."
+
+msgid "client/error/broadcastInCooldown"
+msgstr "Nu poţi trimite mesaje timp de %s s."
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "Comanda \"%s\" este inactivă pentru %s s."
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "Comanda \"%s\" este inactivă."
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "Mesaj suspendat. Așteaptă %s s."
+
+msgid "client/information/addToFriends/message"
+msgstr "Cererea de adăugare a jucătorului %s în lista de prieteni a fost salvată."
+
+msgid "client/information/addToIgnored/message"
+msgstr "Cererea ta de a adăuga jucătorul %s în Lista neagră a fost salvată. Discuția cu jucătorul a fost blocată și mesajele jucătorului au fost ascunse."
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "Chat-ul cu %s este blocat; mesajele jucătorului sunt ascunse."
+
+msgid "client/information/emptySearchResult/message"
+msgstr "Căutare fără rezultate."
+
+msgid "client/information/removeFromFriends/message"
+msgstr "Cererea de eliminare a jucătorului %s în lista de prieteni a fost salvată."
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "Cererea ta de a elimina jucătorul %s din Lista neagră a fost salvată. Discuția cu jucătorul a fost complet restaurată."
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "Chat-ul cu %s este din nou disponibil."
+
+msgid "client/information/setMuted/message"
+msgstr "%s nu are permisiunea să-ţi trimită mesaje vocale."
+
+msgid "client/information/unsetMuted/message"
+msgstr "%s are permisiunea să-ţi trimită mesaje vocale."
+
+msgid "client/warning/AFKWarning/message"
+msgstr "Inacțiunea va fi pedepsită!\nLucrul în echipă e necesar pentru a învinge!"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "Lipsă cuvinte cheie pentru căutare"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "Căutare jucători"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "Lungime incorectă sau caracter invalid în câmpul de căutare. Numărul permis de caractere este cuprins între %d şi %d."
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "Căutare jucători"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "Adaugă jucătorul la Prieteni"
+
+msgid "client_action/ADD_GROUP"
+msgstr "Creează grup"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "Adaugă jucătorul în Lista neagră"
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "Confirmă cerere prietenie"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "Respinge cerere prietenie"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "Editează grup"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "Creare canal de jucători"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "Căutare jucător"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "Conectare la canalul de jucători"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "Ieşire din canalul de jucători"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "Elimină jucătorul de la Prieteni"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "Elimină jucătorul din Lista neagră"
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "Șterge nota"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "Trimite cerere prietenie"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "Vezi mesajele anterioare"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "Caută canale de jucători"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "Trimite un mesaj"
+
+msgid "client_action/SET_MUTE"
+msgstr "Dezactivare mesaje vocale"
+
+msgid "client_action/SET_NOTE"
+msgstr "Creează/editează notă"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "Activare mesaje vocale"
+
+msgid "client_error/action/in_cooldown"
+msgstr "Acțiunea \"%(actionName)s\" este blocată pentru %(floatArg1)s s."
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "Acțiunea \"%(actionName)s\"este temporar indisponibilă. Încearcă mai târziu."
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "Ai depăşit numărul maxim permis de canale. Închide canalele nenecesare şi încearcă din nou."
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "Canalul \"%(strArg1)s\" există deja."
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "Numele canalului nu e specificat."
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "Nume canal invalid: \"%(strArg1)s\"."
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "Confirmarea parolei nu se potriveşte cu parola introdusă."
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "Parola canalului nu e specificată."
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "Parolă canal invalidă."
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "Confirmarea parolei nu a fost efectuată."
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "Confirmare parolă invalidă."
+
+msgid "client_error/command/generic_error"
+msgstr "Eroare la rularea comenzii \"%(strArg1)s\"."
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "comanda este blocată pentru %(floatArg1)s."
+
+msgid "client_error/command/not_supported"
+msgstr "comanda %(strArg1)s nu este suportată de client."
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "durată ban invalidă %(int64Arg1)s."
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "tip ban invalid %(int32Arg1)s."
+
+msgid "client_error/command/wrong_player_name"
+msgstr "nume jucător invalid %(strArg1)s."
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "Jucătorul \"%(strArg1)s\" este pe Lista neagră."
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "Jucătorul \"%(strArg1)s\" nu este pe Lista neagră."
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "Jucătorul nu a fost găsit."
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "Deja ai confirmat cererea de prietenie de la \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "Deja ai respins cererea de prietenie de la \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "Răspunsul tău la cererea de prietenie de la \"%(strArg1)s\" este în procesare."
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "Numele grupului nu a fost specificat."
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "Grupul \"%(strArg1)s\" deja există."
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "Numele de grup \"%(strArg1)s\" este invalid"
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "Grupul \"%(strArg1)s\" nu a fost găsit."
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "Mesaje vocale activate pentru jucătorul \"%(strArg1)s\"."
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "Textul notei nu a fost completat."
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "Nu există note pentru jucătorul \"%(strArg1)s\""
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "Jucătorul \"%(strArg1)s\" este prietenul tău."
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "Jucătorul \"%(strArg1)s\" nu a fost găsit în lista ta de Prieteni."
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "Numele canalului trebuie să conţină %(int32Arg1)s–%(int32Arg2)s caractere."
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "Numele grupului nu trebuie să depășească %(int32Arg2)s simboluri."
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "Numărul maxim de jucători în Lista neagră este %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "Numărul maxim de grupuri care pot fi create este %(int32Arg2)s."
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "Ne pare rău, dar nu poți să ai mai mult de %(int32Arg2)s jucători pe lista de Prieteni. Elimină jucătorii cu care nu joci des."
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "Textul notei nu trebuie să fie mai lung de %(int32Arg2)s simboluri."
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "Parola trebuie să conţină %(int32Arg1)s–%(int32Arg2)s caractere."
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "ID jucător invalid"
+
+msgid "client_error/shared/GENERIC"
+msgstr "Eroare la executarea \"%(actionName)s\""
+
+msgid "client_error/shared/LOCKED"
+msgstr "Acțiunea \"%(actionName)s\" este temporar indisponibilă. Încearcă mai târziu."
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "Nume jucător nespecificat."
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "Numele de jucător %(strArg1)s este invalid"
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "Conectare la serverul de chat eșuată. Încearcă mai târziu."
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "Acțiunea \"%(actionName)s\" nu este suportată de clientul de joc."
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "Eroare, reîncearcă mai târziu."
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "Unele caracteristici sunt dezactivate până la începerea numărătorii inverse."
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "Date invalide specificate."
+
+msgid "command/acceptInvite"
+msgstr "Accept invitaţia"
+
+msgid "command/addFriend"
+msgstr "Adaugă în lista de prieteni"
+
+msgid "command/addIgnored"
+msgstr "Adaugă jucătorul în Lista neagră"
+
+msgid "command/broadcast"
+msgstr "Trimite un mesaj"
+
+msgid "command/createChatChannel"
+msgstr "Creează canal"
+
+msgid "command/createInvite"
+msgstr "Creează invitaţie"
+
+msgid "command/createPrivate"
+msgstr "Creează canal de chat privat"
+
+msgid "command/findChatChannels"
+msgstr "Caută canale"
+
+msgid "command/findUser"
+msgstr "Căutare jucător"
+
+msgid "command/getActiveInvites"
+msgstr "Lista de invitaţii active"
+
+msgid "command/getArchiveInvites"
+msgstr "Lista de invitaţii arhivate"
+
+msgid "command/getMembersCount"
+msgstr "Numărul de jucători de pe canal"
+
+msgid "command/leaveChatChannel"
+msgstr "Părăseşte canalul"
+
+msgid "command/rejectInvite"
+msgstr "Refuză invitaţia"
+
+msgid "command/removeFriend"
+msgstr "Elimină din lista de prieteni"
+
+msgid "command/removeIgnored"
+msgstr "Elimină jucătorul din Lista neagră"
+
+msgid "command/requestChatChannelMembers"
+msgstr "Lista membrilor clanului"
+
+msgid "command/requestSystemChatChannels"
+msgstr "Lista canalelor de sistem"
+
+msgid "command/setMuted"
+msgstr "Dezactivare mesaje vocale"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s este banat."
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s nu mai este banat."
+
+msgid "command/unsetMuted"
+msgstr "Activare mesaje vocale"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "Clic pentru a salva grupul de contacte creat."
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "Creează"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "Clic pentru a anula crearea și a te întoarce la lista de Contacte."
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "Închide"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "Clic pentru a șterge grupul de contacte."
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "Șterge"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "Clic pentru a anula ștergerea și a te întoarce la lista de Contacte."
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "Anulare"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "Clic pentru a salva grupul de contacte sub un nume nou."
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "Salvează"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "Clic pentru a anula editarea și a te întoarce la lista de Contacte."
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "Închide"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "Numele nu trebuie să depășească %(maxChars)s simboluri."
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "Clic pentru a adăuga un jucător la Prieteni."
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "Adaugă"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "Clic pentru a anula căutarea de jucători și a te întoarce la lista de Contacte."
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "Închide"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "Clic pentru a căuta un jucător după nume."
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "Caută"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "Numele trebuie să conțină de la %(minChars)s la %(maxChars)s caractere sau cifre."
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "Căutarea înghețată pentru %(time)s secunde din cauza cererilor prea frecvente."
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "Clic pentru a salva setările selectate."
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "Aplică"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "Clic pentru a anula schimbările și a te întoarce la lista de Contacte."
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "Anulare"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "Clic pentru a crea un grup."
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "Creează grup"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "Clic pentru a căuta după nume un jucător care nu este în lista de Contacte."
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "Caută în afara Contactelor"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "Clic pentru a găsi și adăuga un jucător la lista de Contacte."
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "Căutare jucător"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "Clic pentru a schimba setările listei de Contacte."
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "Setări"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "Numele trebuie să conțină până la %(maxChars)s caractere."
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "Trimite comandă"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "Exclude din echipă"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "Închide"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "Creează canal"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "Căutare şi intrare"
+
+msgid "dialogs/channels/title"
+msgstr "Canale"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "Închide"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "Intră"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "Parola trebuie să conţină între 3 şi 12 caractere."
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "Parolă greşită."
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "Încerci să te conectezi la canalul securizat %s."
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "Introdu parola:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "Atenţie"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "Conectare la canal"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "Invită în clan"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "Adaugă în lista de prieteni"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "Adaugă în Lista neagră"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "Copiază în clipboard"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "Creează canal de chat privat"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "Transferă aur"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "Elimină din lista de prieteni"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "Şterge din Lista neagră"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "Afişează detaliile"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "Sortează după nume."
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "Sortează după stare."
+
+msgid "dialogs/contacts/title"
+msgstr "Lista de contacte"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "Clan"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "Prieteni"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "Cereri prietenie"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "Lista neagră"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "Mesaje voce oprite"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "Închide"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "Creează"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "Va fi creat automat"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "Introdu parola"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "Numele canalului"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "Parola"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "Confirmă parola"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "Necesită parolă"
+
+msgid "dialogs/createChannel/title"
+msgstr "Creează canal"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "Selectează %(vehName)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "Alege un vehicul de generația %(level)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "Alege vehicule"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "Alege un vehicul de generația %(level)s"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "Vehicul: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "Închide"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "Intră"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "Caută"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "Rezultate (primii %d):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "Căutare"
+
+msgid "dialogs/searchChannel/title"
+msgstr "Căutare canale"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "La prieteni"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "Lista neagră"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "Închide"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "Caută"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "Informații"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "Rezultate căutare:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "Căutare"
+
+msgid "dialogs/searchContact/title"
+msgstr "Căutare contacte"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "Canal service"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "Alege un vehicul de generația VIII"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "Obiectivul principal este de a fi ultimul pluton în acțiune."
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "Modul Front este disponibil\ndoar vehiculelor de generația VIII."
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ eveniment +++\n+++ eveniment +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "Experiență adițională per luptă\npentru vehiculele de generația IV sau mai mare"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "Jucați în vehicule de aceeași generație,\nîncepând cu generația IV și veți primi experiență suplimentară"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "Când jucătorii acceptă invitația, porecla ta actuală și eticheta clanului tău vor fi afișate acestora pe timpul luptei."
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "Canal de chat"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "Module experimentale montate pe vehicule: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "Stare: în pauză"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "Stare: în luptă"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "Stare: nepregătit"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "Stare: deconectat"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "Stare: pregătit"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "Dizolvare"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "Invită"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "vinovat"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "suspect"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "Ai distrus coechipieri: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "Dezactivare mesaje vocale"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "Adaugă la prieteni"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "Adaugă în Lista neagră"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "Închide"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "Creează canal privat"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "Activare mesaje vocale"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "Total"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "Creat la"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "Ultima luptă"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "Stare:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s - Detalii jucător"
+
+msgid "events/enterChannel"
+msgstr "[%s] a intrat pe canal"
+
+msgid "events/leaveChannel"
+msgstr "[%s] a ieşit de pe canal"
+
+msgid "keyboardChat"
+msgstr "Chat"
+
+msgid "listView/emptyList/info"
+msgstr "notificări"
+
+msgid "listView/emptyList/invite"
+msgstr "invitaţii"
+
+msgid "listView/emptyList/offer"
+msgstr "speciale"
+
+msgid "listView/emptyList/template"
+msgstr "Încă nu există %(listType)s."
+
+msgid "listView/news/checkNewsBtn"
+msgstr "Spre știri"
+
+msgid "listView/news/header"
+msgstr "CARE SUNT NOUTĂȚILE?"
+
+msgid "listView/title"
+msgstr "Centrul de notificări"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "Durata luptei: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "Trimite"
+
+msgid "lobby/buttons/channels"
+msgstr "Canale"
+
+msgid "lobby/buttons/contacts"
+msgstr "Contacte"
+
+msgid "lobby/buttons/send"
+msgstr "Trimite"
+
+msgid "lobby/channels/actions/remove"
+msgstr "Închide canalul"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "Afişează data în mesaje"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "Afişează ora în mesaje"
+
+msgid "lobby/faq/close"
+msgstr "Închide"
+
+msgid "lobby/faq/title"
+msgstr "FAQ"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "Adaugă jucătorul la Prieteni"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "Adaugă jucătorul în Lista neagră"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "Copiază în clipboard"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "Creează canal de chat privat"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "Arată detaliile jucătorului"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "Caută în afara Contactelor"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "Anulare"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "Editează grup"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "Șterge din grup"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "Șterge grup"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "Clic pentru a anula crearea și a te întoarce la lista de Contacte."
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "Închide"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "Clic pentru a salva nota jucător creată."
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "Creează"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "Trage conctactele aici"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "Clic pentru a anula editarea și a te întoarce la lista de Contacte."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "Închide"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "Click pentru a salva modificările la notițele despre jucător."
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "Salvează"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "Căutarea nu a dat rezultate."
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "Unități operative permanente"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "Prieteni"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "Alții"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "Lista neagră"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "Cereri prietenie"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "Găsește un jucător în listă"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "Nu ai adăugat încă jucători."
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "Listă Contacte goală"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "Niciun contact online"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "Încearcă să cauți în afara listei de Contacte."
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "Niciun rezultat"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "Introdu numele jucătorului"
+
+msgid "messenger/contacts/title"
+msgstr "Contacte"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "Închide"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "Adaugă"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "Grupul există deja"
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "Căutare jucător"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "Închide"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "Creează"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "Creează notă"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "Închide"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "Salvează"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "Numele nu trebuie să depăşească %(maxChars)s caractere."
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "Editează nota"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "pentru "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "Închide"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "Creează"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "Creează grup"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "Introdu un nume de grup (până la %(symbols)s simboluri)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "Include contacte din grup"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "Anulare"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "Șterge"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "Șterge grup"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "Închide"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "Salvează"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "Editează grup"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "Introdu un nume de grup (până la %(symbols)s simboluri)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "Introdu descrierea (maxim %(symbols)s caractere)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "Numele nu trebuie să depăşească %(maxChars)s caractere."
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "Căutare jucător"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "Acceptă ca grup într-o singură fereastră"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "Arată jucători offline"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "Arată categoria \"Alții\""
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "Mesaje de la jucători din afara listei tale de Contacte:"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "Acceptă într-o fereastră separată"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "Anulare"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "Aplică"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "Setări"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "Component adăugat"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "Punctele certificatului de luptă eliminate"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "Jetoane eliminate"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "Jeton Manevre eliminat"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "Componente eliminate"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "Puncte de Reputație Personală eliminate"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "Experienţă liberă scăzută"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "Puncte ale datoriei eliminate"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "Jetoanele pentru ani de serviciu eliminate"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "Punctele certificatului de luptă adăugate"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "Jetoane adăugate"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "Jeton Manevre adăugat"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "Componente adăugate"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "Puncte de Reputație Personală adăugate"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "Experienţă liberă primită"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "Puncte ale datoriei adăugate"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "Jetoanele pentru ani de serviciu adăugate"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "Adaugă toate contactele la lista de destinatari."
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "Adaugă contactul selectat."
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "Șterge toate contactele din lista destinatarilor."
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "Șterge contactul selectat din lista destinatarilor."
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "Acţiunea %(action)s este inactivă pentru %(cooldownPeriod)s s."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "Eroare de chat"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "Ai atins limita permisă de canale deschise. Te rugăm să le închizi pe cele nefolosite."
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "Eroare"
+
+msgid "server/errors/addFriendError/message"
+msgstr "Eroare la adăugarea în lista de prieteni."
+
+msgid "server/errors/addFriendError/title"
+msgstr "Eroare"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "Eroare la adăugarea în Lista neagră."
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "Eroare"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "Un canal cu acest nume deja există."
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "Eroare la crearea canalului."
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "Canalul a fost şters."
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "Eroare la intrarea pe canal."
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "Eroare de chat"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "Eroare la apelarea comenzii: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "Eroare de chat"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "Comanda %(command)s a fost blocată pentru %(cooldownPeriod)s secunde."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "Eroare de chat"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "Mesaj suspendat. Prea multe mesaje."
+
+msgid "server/errors/connectTimeout/message"
+msgstr "Conectarea la canalul selectat nu s-a putut realiza în timpul alocat."
+
+msgid "server/errors/connectTimeout/title"
+msgstr "Eroare de chat"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "Nu se poate crea canal privat deoarece jucătorul este deconectat."
+
+msgid "server/errors/createPrivateError/title"
+msgstr "Eroare de chat"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "Caracter nepermis"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "Eroare"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "Argument invalid %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "Eroare"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "Parola pentru canalul securizat e greşită."
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "Eroare la intrarea pe canal."
+
+msgid "server/errors/initializationFailure/message"
+msgstr "Iniţializarea chat-ului a eşuat."
+
+msgid "server/errors/initializationFailure/title"
+msgstr "Eroare de chat"
+
+msgid "server/errors/internalError/message"
+msgstr "Eroare internă de server, încearcă mai târziu."
+
+msgid "server/errors/internalError/title"
+msgstr "Eroare la crearea canalului"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "Nume canal invalid."
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "Eroare de chat"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "Eroare la apelarea comenzii \"Invită\"."
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "Eroare"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "Jucătorul %(user)s a fost deja banat."
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "Eroare de chat"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "Jucătorul %(user)s este deja moderator pe canal."
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "Eroare de chat"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "Eroare de chat"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "Jucătorul este deconectat"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "Eroare de chat"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "Jucătorul %(user)s nu este moderator pe canal."
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "Eroare de chat"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "Numărul limită de utilizatori pentru acest canal a fost atins."
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "Eroare la intrarea pe canal"
+
+msgid "server/errors/notAllowed/message"
+msgstr "Drepturi insuficiente pentru acţiunea solicitată."
+
+msgid "server/errors/notAllowed/title"
+msgstr "Eroare de chat"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "Introdu parola pentru conectarea la canalul securizat."
+
+msgid "server/errors/passwordRequired/title"
+msgstr "Eroare la intrarea pe canal"
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "Schimbarea acestei setări este momentan indisponibilă."
+
+msgid "server/errors/sqlError/message"
+msgstr "Eroare la apelarea bazei de date."
+
+msgid "server/errors/sqlError/title"
+msgstr "Eroare"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "Acest utilizator te are adăugat în Lista neagră."
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "Eroare"
+
+msgid "server/errors/userNotExists/message"
+msgstr "Jucătorul nu există."
+
+msgid "server/errors/userNotExists/title"
+msgstr "Eroare"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "Ai atins limita maximă de contacte în listă."
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "Eroare"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "Ai depăşit numărul maxim permis de canale."
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "Ai depăşit numărul maxim de caractere permise pentru numele de canal."
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "Ai depăşit numărul maxim de caractere permise pentru parolă."
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "Canalul \"%(strArg1)s\" există deja."
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "Carectere invalide în numele canalului."
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "Cuvinte ofensive în numele canalului."
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "Vânător de oţel"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "Acestea sunt vehicule speciale pentru modul Vânătorul de oțel. Intră în Vânătorul de Oțel pentru a afla de ce sunt capabile aceste vehicule."
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "Vehicul Distrus"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "Nivel atins"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "Puncte obținute"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "Victorie"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "Primit"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "Recepționat!"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "Spre operațiune"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "Dosar de serviciu"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "Acţiune"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "Specialul s-a terminat."
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "Multiplicatorul EXP gestionabil WoT Plus este disponibil"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "Multiplicatorul EXP gestionabil WoT Plus este indisponibil"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "Realimentarea cu consumabile a %s a eşuat. Tot aurul tău va fi disponibil după ce funcţionarea WG Wallet va fi reluată automat."
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "Nu s-a putut realimenta cu directive %s. Operațiunea este temporar indisponibilă din cauza lucrărilor de mentenanță."
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "Realimentarea cu directive a %s a eşuat. Fonduri insuficiente."
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "Realimentarea automată cu directive a %s a eşuat. Echipează-le manual."
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "Realimentarea cu directive a %s a reuşit. Ai cheltuit "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Realimentarea cu consumabile a %s a eşuat. Cumpără consumabilele cu aur."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Realimentarea cu consumabile a vehiculului %s a eşuat. Credite insuficiente."
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "Realimentarea cu consumabile a %s a eşuat. Tot aurul tău va fi disponibil după ce funcţionarea WG Wallet va fi reluată automat."
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "Realimentarea automată cu consumabile a vehiculului %s a eşuat. Realimentează manual."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Realimentarea cu consumabile a %s a reuşit. Ai cheltuit "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "Realimentarea cu proiectile a vehiculului %s a eşuat. Cumpără proiectilele cu aur."
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "Realimentarea cu muniţie a vehiculului %s a eşuat. Credite insuficiente."
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "Realimentarea cu muniţie a vehiculului \"%s\" a eşuat. Tot aurul tău va fi disponibil după ce funcţionarea WG Wallet va fi reluată automat."
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "Realimentarea automată cu muniţie a vehiculului %s a eşuat. Realimentează manual."
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "Realimentarea cu muniţie a vehiculului %s a reuşit. Cost "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "Nu am putut extinde închirierea stilului pentru %s. Cumpără stilul contra aur."
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "Nu am putut extinde închirierea stilului pentru %s. Fonduri insuficiente."
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "Nu am putut extinde închirierea stilului pentru %s. Aurul tău va fi disponibil după ce funcționalitatea WG Wallet este restaurată automat."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "Extinde perioada de închiriere"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "Stilul închiriat %s aplicat vehiculului %s e pe cale să expire: au rămas 3 lupte."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "Închirierea stilului %s pentru %s va fi automat extinsă pentru încă %s lupte după 3 lupte."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "La exterior"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "Stilul închiriat %s aplicat pe vehiculul %s a expirat. Poți extinde perioada de închiriere a stilului în ecranul Exterior."
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "Nu am putut extinde închirierea stilului pentru %s. Cumpără stilul manual."
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "Închirierea stilului pentru %s extinsă cu succes. S-a cheltuit "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "Repararea vehiculului %s a eşuat."
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "Repararea vehiculului %s a eşuat. Credite insuficiente."
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "Repararea vehiculului \"%s\" a eşuat. Tot aurul tău va fi disponibil după ce funcţionarea WG Wallet va fi reluată automat."
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "Repararea automată vehiculului %s a eşuat. Repară-l manual."
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "Repararea vehiculului %s a reuşit. Cost "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "Stindardul de tanchist WoT Plus este disponibil"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "Stindardul de tanchist WoT Plus este indisponibil"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "Ecusoane adăugate"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "Bonusul de luptă WoT Plus este disponibil"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "Bonusul de luptă WoT Plus este indisponibil"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "Misiune finalizată: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "Ai finalizat o serie de misiuni ale Academiei militare."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "Jetoanele pot fi schimbate contra oricărui vehicul cercetabil de generația VI."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "Spre selecția vehiculelor"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "Felicitări!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "Misiuni finalizate ale Academiei militare: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "Recompensă primită:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "Jetonul Academiei utilizat."
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "Recompensă primită:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "Locuri în Garaj: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "Vehicule de închiriat: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "Obține vehicule și resurse utile, finalizând misiuni de antrenament."
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "Spre academia de tancuri"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "TOT CE-ȚI TREBUIE\nPENTRU A ÎNCEPE"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "Jetonul Academiei"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "Puncte necheltuite utilizate"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "Puncte necheltuite utilizate la activarea Circuitului Elită: %(points)s."
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "Puncte necheltuite utilizate: %(points)s pentru capitolul %(chapter)s."
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "Echipament standard la alegere"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "Circuitul Elită activat"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "Circuitul Elită este suspendat."
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "Limita de puncte atinsă"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "Ai atins numărul maxim de puncte cu %(vehName)s.\nRecompensă pentru atingerea numărului de puncte: %(bonusPoints)s.\nLuptă cu alt vehicul pentru a câștiga puncte în continuare."
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "Felicitări!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "Stilul %(name)s primit. Poate fi aplicat imediat pe vehicul și actualizat în progresul Certificatului de luptă."
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "Echipament recompensă la alegere"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "Detalii"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "Detalii"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "Ai finalizat capitolul %(chapter)s al Certificatului de luptă!\nRecompense obținute:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "Ai finalizat capitolul %(chapter)s al Certificatului de luptă!\nRecompense obținute:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "Ai finalizat etapa %(newLevel)s a progresului Certificatului de luptă\n\nRecompensă primită:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "Etape adăugate la capitolul %(chapter)s: %(levelCount)s\nAi atins etapa %(currentLevel)s\nRecompense obținute:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "Ai primit recompense pentru episoadele finalizate anterior ale certificatului de luptă:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "Vei primi acum recompense atât din calea de bază, cât și din cea îmbunătățită."
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "Ai primit recompense pentru etapele finalizate contra puncte necheltuite:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "Ai finalizat capitolul %(chapter)s.\nRecompensă obținută:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "Continuă să lupți și să câștigi puncte!"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "Ai finalizat toate capitolele Certificatului de luptă, sezonul %(season)s.\nRecompensă obținută:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "Ai finalizat etapa de progres %(newLevel)s a capitolului %(chapter)s.\nRecompensă primită:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "Detalii"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "Experiență liberă cheltuită:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "Aur cheltuit:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "Ai cumpărat Certificatul îmbunătățit și toate etapele pentru capitolul %(chapter)s.\nRecompense obținute pentru toate etapele capitolului:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "Ai obținut un bonus în urma cumpărării Certificatelor îmbunătățite:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "Vei primi acum atât recompensele de bază, cât și cele îmbunătățite pentru toate capitolele sezonului."
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "Etape adăugate la capitolul %(chapter)s: %(levelCount)s\nAi atins etapa %(currentLevel)s.\nRecompense obținute:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "Ai obținut un bonus în urma cumpărării Certificatului îmbunătățit:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "Certificatul îmbunătățit se aplică doar capitolului %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "Ai primit recompense pentru episoadele finalizate anterior ale certificatului de luptă:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "Certificatul îmbunătățit funcționează doar pentru capitolul %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "Vei primi acum recompense atât din calea de bază, cât și din cea îmbunătățită ale capitolului %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "Recompensă implicită adăugată:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "Certificatul îmbunătățit cumpărat"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "Certificatul îmbunătățit cumpărat"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "Episoade cumpărate"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "Felicitări!"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "Recompensă acordată"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "Etapa Circuitului Elită finalizată.\nRecompensă obținută:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "Etape ale Circuitului Elită finalizate: %(amount)s\nRecompensă obținută:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "Membru echipaj:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "Realizări în luptă"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "Ai primit %s pentru acţiunea \"%s\""
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "Ai primit %s pentru acţiunile \"%s\""
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s jetoane"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s credite"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s bonduri"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "%s monede aniversare"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s experienţă liberă"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s aur"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "Luptă"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "Puncte ale Certificatului de luptă primite: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "Jetoane primite"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "Detalii"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "compensaţii pentru avarii produse de coechipieri: %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "Credite obținute: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "Bonduri primite"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "Înfrângere"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "x%d pentru prima victorie a fiecărei zile"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "Egalitate"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "Luptă terminată"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "Puncte rezerve luptă"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "Componente primite"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "Monede aniversare primite"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "Experiență obținută: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "Ofensivă"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "Structură"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "Resurse industriale obţinute"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "de clan"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "de jucător"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "Experienţă liberă primită"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "Aur obținut"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "Pentru intrarea în clasamentul din %(campaignName)s, ai fost recompensat cu medalia „%(nameMedal)s”."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "Felicitări!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "Pentru finalizarea cu succes a 45 de misiuni în seria %(categoryName)s din campania %(campaignName)s, ai fost recompensat cu medalia %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "Pentru finalizarea cu succes a 30 de misiuni în seria %(categoryName)s din campania %(campaignName)s, ai fost recompensat cu medalia %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "Pentru finalizarea cu succes a 15 misiuni în seria %(categoryName)s din campania %(campaignName)s, ai fost recompensat cu medalia %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "penalizare pentru avarii produse coechipierilor: %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "Felicitări!\nPentru finalizarea cu succes a misiunilor personale primești următoarele recompense"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "Felicitări!\nPentru finalizarea cu succes a misiunilor personale din campania Sprijinul mult așteptat vei primi următoarele recompense"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "Felicitări!\nPentru finalizarea cu succes a misiunilor personale din campania Al doilea front vei primi următoarele recompense"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "Felicitări!\nPentru finalizarea cu succes a misiunilor personale din ambele campanii vei primi următoarele recompense"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "Adăugat la rezerva de credite"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Misiune finalizată! Recompensă"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "Dosar de serviciu"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "Puncte ale Certificatului de luptă primite: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "Locuri adăugate în cazarmă"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "Jetoane adăugate"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "Credite adăugate"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "Bonduri adăugate"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "Componente adăugate"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "Monede aniversare adăugate"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "Experienţă liberă primită"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "Aur primit"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "Primit"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "Punctele campaniei: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "Animale de companie obținute"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "Zile de Cont Premium Wargaming adăugate"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "Zile de Cont Premium WoT adăugate"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "Lupte bonus adăugate: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "%(count)s zilnic"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "%(count)s standard"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "Locuri în garaj primite"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "Lupte bonus adăugate"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \nStandard, pentru performanța ta în episodul finalizat: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \nPentru finalizarea de misiuni: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \nZilnic, pentru numărul de galoane obținute în calificări: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \nStandard, pentru numărul de galoane obținute în calificări: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "Schimbări în rang"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \nGaloane obținute"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \nGaloane obținute"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \nMutat în divizia: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \nMutat în ligi"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \nGalon păstrat"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \nAi obținut rangul %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \nAi pierdut rangul %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \nScutul de rang slăbit"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \nNicio schimbare"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \nScutul de rang distrus"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \nGalon păstrat"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \nGalon obținut"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \nGalon pierdut"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \nGaloane obținute"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "Punctele de clasament"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "Ai primit următoarele recompense pentru anii de serviciu"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "Felicitări!"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "Recrutează"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "Vehicule"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "Membru feminin al echipajului"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "Înfrângere tehnică"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "Victorie tehnică"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "Victorie"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "Un spațiu pentru hărți excluse a fost eliminat. Harta %(mapName)s este repusă în rotație."
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "Harta exclusă %(mapNames)s a fost eliminată din joc. Poți exclude o nouă hartă."
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "Un spațiu pentru hărți excluse a fost eliminat. Harta %(mapNames)seste repusă în rotație."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "Specialul a început!\nSchimbă-ți schițele contra altor obiecte valoroase, timp de doar 10 zile."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "Detalii"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "Specialul s-a încheiat"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "Schimbă-ți schițele"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "Conversia schițelor dezactivată din cauza mentenanței."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "Conversia schițelor recuperată."
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "Nu uita să-ți revendici recompensa!"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "Mergi la selecție"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "Bonusurile din luptele în curs nu sunt incluse."
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "Rezerva personală \"%(boosterName)s\" a fost dezactivată din motive tehnice."
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: Rezerva personală este complet utilizată"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "Rezerve pierdute:"
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "Rezervele au expirat"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "credite"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "EXP liberă"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "EXP de echipaj"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "EXP de luptă"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "Bonus total la %(resourceName)s:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "Închide"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "Ai ieşit sau ai fost exclus din clan: "
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "%(element_name)s adăugat(ă)"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "Medalia „%(element_name)s” adăugată"
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "Bandiera „%(element_name)s” adăugată"
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "Recompensă obținută"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "Aprecieri primite"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "Etichetele dinamice sunt momentan indisponibile"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "Etichetele dinamice sunt disponibile în lupte"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "Aprecierile sunt momentan indisponibile"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "Aprecierile sunt disponibile în lupte"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "Ai primit cadou %(gold)s aur şi %(credits)s credite."
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "Ai primit cadou %(credits)s credite."
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "Asistentul de echipaj este disponibil"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "Asistentul de echipaj este indisponibil"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "Rezervele de credite și aur sunt deschise!"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "Licitație"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "Certificatul de luptă"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "Data"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "Jetoane eliminate"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "Credite scăzute"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "Bonduri eliminate"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "Componente eliminate"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "Monede aniversare eliminate"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "Experienţă liberă scăzută"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "Aur extras din cont"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "Tranzacţie financiară"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "Licitație"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "Jetoane primite"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "Credite primite"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "Bonduri primite"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "Componente primite"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "Monede aniversare primite"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "Experienţă liberă primită"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "Aur primit"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "Decorația ”Erou al vremurilor noastre”"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "Ai primit medalia %(medalName)s pentru %(battlesCount)s lupte purtate\nAutocolante primite pentru %(battlesCount)s lupte (x%(decalsCount)s)"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "Operațiunile cu kiturile de demontare sunt temporar indisponibile din cauza mentenanței."
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "Operațiunile cu kiturile de demontare sunt operaționale din nou. Ne oferim scuze pentru deranj."
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "Fundalul plăcuței deblocat: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "Gravura plăcuței deblocată: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "Plăcuța de identificare %(name)s"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "a atins nivelul"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "Nivel nou"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "Deblocat"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "Fundal"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "Gravură"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "Contul Premium Wargaming expiră la %(expiryTime)s."
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "Confirmă e-mail"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "E-mail neconfirmat"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "Modul experimental folosit"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "Toate modulele experimentale eliminate"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "Module experimentale demontate de pe următoarele vehicule"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "Scenariu"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• Directive de echipament de selectat"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• Puncte ale Certificatului de luptă"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• Broșură universală"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• Bonduri"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• Puncte ale rezervelor de luptă"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• Echipament experimental la alegere"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• Licența de mentor"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• Ordine de recalificare"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• Manual universal"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "Ți s-au acordat monede aniversare: %(eventCoin)s."
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "A fost deblocat un locaș nou pentru excluderea de hărți"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "Nu pot exclude hărți cu WoT Plus"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "Motiv"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "Abonamentul Boosteroid s-a încheiat."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "Abonamentul s-a încheiat."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "Vehicul dezactivat"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "Vehicul"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "Vehicul disponibil"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "Vehicul"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "Resetare progres"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "Mergi la misiune"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "Atenție! Progresul misiunii %(missionShortName)s a fost resetat. Finalizarea condiției va fi restartată."
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "Misiune: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "Operațiune: %(operation)s"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s, %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "Detalii"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "Ai fost suspendat temporar din lupte în modul %(mode)s. Suspendarea se va încheia pe %(date)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "Suspendarea temporară a fost eliminată. Poți juca din nou în modul %(mode)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "Ți s-au eliminat creditele, EXP și recompensele obținute în luptă pentru %(reason)s în modul %(mode)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "Ai primit o avertizare în modul %(mode)s din motivul %(reason)s."
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "Suspendare"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "Încheierea suspendării"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "Ai fost penalizat"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "Comportament nesportiv"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "Război declarat clanului %(clan)s!\nOfensiva începe pe %(date)s la %(time)s."
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "Apărarea depășită!\nToate atacurile anulate. Umple la loc bara de durabilitate a Centrului de Comandă pentru ca Fortul să funcționeze."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "Lupta programată cu clanul %(clan)s a fost anulată."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "Ofensiva programată pentru %(time)s în %(date)s contra clanului %(clan)s este anulată: diferenţa între nivelele forturilor este mai mare decât 1."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "Structura %(building)s este avariată! Umple la loc bara de durabilitate pentru ca Structura să funcționeze."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "Centrul de Comandă este avariat! Umple la loc bara de durabilitate pentru ca Fortul să funcționeze. Dacă Centrul de Comandă va fi dăunat mai grav, apărarea va fi depășită."
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "Clanul %(clan)s v-a declarat război!\nOfensiva începe pe %(date)s la %(time)s."
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "Perioadă Defensivă setată: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "Perioada Defensivă a fost ajustată. Noua Perioadă Defensivă: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "Defensiva fortului este dezactivată. Nivelul tuturor structurilor şi structurilor a fost redus la nivel IV."
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "Felicitări! Ţi-ai dezvoltat Fortul la nivelul VIII."
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "Felicitări! Fortul este complet operaţional, spre beneficiul clanului."
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "Ziua Armistițiului a fost schimbată. Noua zi de Armistițiu nu a fost setată."
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "Ziua de Armistițiu este: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "Nivelul structurii %(building)s a fost mărit.\nRezerva %(order)s în pregătire a fost transformată în resursă industrială şi transferată în depozitul structurii."
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "Rezerva %(orderTypeName)s a fost compensată şi este pregătită pentru activare."
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "Serverul de bază a fost schimbat în %(peripheryName)s."
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "Resurse industriale adăugate: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "Resurse industriale reduse: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "Eşti ataşat structurii %(building)s."
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "Rezerve adăugate: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "Rezerve scăzute: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "Rezerva %(order)s este activă. Timp rămas: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "Rezervă activată"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "Rezerva %(order)s este complet utilizată."
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "Pregătirea a %(count)s de rezerve %(order)s a fost realizată."
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "Evacuarea de rezervă a expirat.\n\n%(additional)s\nTotal pentru clanul nostru: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "Inamicul a activat Rezerva Rechiziție și a jefuit adițional: %(resDec)s\nClanul tău a salvat adițional: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "Rezerva Rechiziție a expirat.\n\n%(additional)s\nTotal pentru clanul tău: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "Inamicul a activat Rezerva Evacuare și a salvat adițional: %(resDec)s\nClanul tău a jefuit adițional: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "Depozitul structurii %(building)s este plin.\nFoloseşte resursa industrială pentru a pregăti rezerve sau transport-o la altă structură."
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "Perioada de Neutralitate a Fortului tău s-a încheiat.\nCelelalte clanuri vă pot ataca acum - fi pregătit!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "Fortul tău şi-a declarat Neutralitatea \nCelelalte clanuri nu vă mai pot ataca. Perioada de Neutralitate se termină la: %(finish)s."
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "%(defResCount)s unităţi de Resurse industriale au fost adăugate în depozitul Centrului de comandă."
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "Spre eveniment"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "Spre progres"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "Ai primit cadou %(gold)s aur."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "Licitație: licitarea ta este mai mică decât cea competitivă."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "Șansele de a câștiga licitația actuală au fost reduse: Licitarea ta este mai mică decât cea competitivă."
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "Spre eveniment"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "Licitarea ta a pierdut. Se vor returna:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "Ai fost supralicitat de alți jucători. Licitarea ta îți va fi în curând returnată în cont."
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "Eroare"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "Eroare la licitare. Nu s-au retras fonduri. Încearcă din nou."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "Licitația e pe cale să se încheie."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "Grăbește-te să licitezi!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "Grăbește-te să licitezi. Articolele sunt limitate."
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "Licitația pentru noul lot a început!"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "Paturi adăugate la Garnizoană"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "Paturi eliminate din Garnizoană"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "Rezerve personale"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "Rezerve personale eliminate"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "Jetoane adăugate"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "Jetoane eliminate"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "Compensaţie pentru"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "cu jetoane"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "Camuflaj"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "credite"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "cu bonduri"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "Emblemă"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "cu monede aniversare"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "aur"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "Inscripție"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "Efect"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "Vopsea"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "Număr de o cifră"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "Număr din două cifre"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "Număr cu trei cifre"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "Model"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "Stil"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "Ai primit credite"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "Creditele ţi-au fost extrase din cont"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "Cărți pentru echipaj adăugate"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "echipaj trimis în Barăci"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "echipaj %d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "S-au adăugat fețe de echipaj"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "S-au șters fețe de echipaj"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "echipaj %d%% trimis în Barăci"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "echipaj scos"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "Bonduri primite"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "Bonduri eliminate"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "Discounturi personale"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "Distincții adăugate"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "Distincții eliminate"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "Module experimentale adăugate"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "Module experimentale eliminate"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "Adăugat"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "Eliminat"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "Componente adăugate"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "Componente eliminate"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "Consumabile"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "Consumabile eliminate"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "Monede aniversare adăugate"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "Monede aniversare eliminate"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "Rezerve personale expirabile"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "Ordine adăugate"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "Ordine scăzute"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "Experiență liberă"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "Experienţă liberă adăugată"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "Experienţă liberă scăzută"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "Ai primit aur"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "Aur extras din cont"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "S-au adăugat fragmente universale"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "S-au șters fragmente universale"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "Chitanţă"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "Adăugat în depozit"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "Consumabile eliminate"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "Pe vehicule"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "Fragmente de proiect ale vehiculelor din națiunea %(nationName)s adăugate"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "Fragmente de proiect ale vehiculelor din națiunea %(nationName)s șterse"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "Adăugat"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "Eliminat"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "buc."
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "Zile de Cont Premium Wargaming adăugate"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "Zile de Cont Premium Wargaming scăzute"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "Cont Premium Wargaming"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "%(vehicleName)s a primit %(xpCount)s puncte de elită."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "%(vehicleName)s a obținut nivelul %(level)s elită și %(xpCount)s puncte de elită."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "%(vehicleName)s a obținut nivelul %(level)s elită."
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "Articole din"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "DLC Steam"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Inventar Steam"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "Lupte bonus adăugate"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "Lupte bonus eliminate"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "zile închiriere: "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "Locuri în garaj primite"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "Locuri în garaj eliminate"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "Cont Premium WoT"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "Zile de Cont Premium WoT adăugate"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "Zile de Cont Premium WoT scăzute"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "Recruţi"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "Experienţă nedistribuită adăugată membrilor de echipaj"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "Experienţă nedistribuită retrasă membrilor de echipaj"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "Demobilizați"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "toate modulele cercetate"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "Fragmente de proiect ale vehiculelor %(vehicleName)s adăugate"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "Fragmente de proiect ale vehiculelor %(vehicleName)s șterse"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "Vehicule primite"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "Vehicule eliminate"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "Vehicul închiriat adăugat"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "Ai primit cadou consumabile: %(typeName)s \"%(itemName)s\" - %(amount)d buc."
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "Spre cutii"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "Clic pe buton pentru a vedea conținutul."
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "Ai primit un pachet:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Afișează"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "%(count)sx"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "Porți activate: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (%(count)dx)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "Se activează porțile"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "Articole obținute:\n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "Am activat toate porțile și le-am adăugat conținutul în contul tău:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Recompense primite"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Am deschis toate cutiile și ți-am acordat toate recompensele pentru Operațiunea de Sărbători"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "Recompense primite"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "Autocolante adăugate: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "Autocolant adăugat: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "Spre sondaj"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "Felicitări!"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "Misiunea de recunoaștere s-a încheiat. Îți mulțumim pentru contribuția la dezvoltarea noilor hărți!"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "Misiunea de recunoaștere s-a încheiat.\n\nÎți mulțumim pentru contribuția la dezvoltarea noilor hărți!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "Misiunea de recunoaștere a început.\n\nLuptă pe hărți în dezvoltare cu vehicule din generațiile VIII-X, împărtășește-ți opinia în chestionare și primești recompense!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "Recompensa finală:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "Ai participat la %(battles)s lupte în Misiunea de recunoaștere."
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "Recompensă primită:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "Poți completa un sondaj legat de mecanicile modului în Misiunea de recunoaștere."
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "Sondaj disponibil"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "Poți completa un sondaj al hărții %(mapName)s în Misiunea de recunoaștere."
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (%(count)sx)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "Spre Cazarmă"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "Membri de echipaj eliminați: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "Provizii pentru Homefront"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "Asistentul pentru echipament este disponibil"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "Asistentul pentru echipament este indisponibil"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "Ai rezerve noi:"
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "Notificare de eliberare"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "Rezerve care expiră:"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "Rezerve expirabile pe cale să fie pierdute"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "Credite obținute: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "Data: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "Tranzacţie financiară:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "Adăugate în Depozit: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "Chitanţă"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "A început un nou ciclu de acumulare."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "A început un nou ciclu de acumulare. Pentru a obține credite, activează contul premium WoT."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "A început un nou ciclu de acumulare. Pentru a obține aur, abonează-te la WoT Plus."
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "Acumularea de credite în Rezerva de credite a fost suspendată."
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "Rezerva de credite a fost deschisă!"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "Revendică recompensa"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "Progresul ulterior finalizat!"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "Spre progres"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "Progresul ulterior"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "Ai obținut acces la o recompensă specială."
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "Luptă pe clanuri"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "Rezultatele luptei"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "Turneu"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "Înfrângere"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "Egalitate"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "Rezultat nedecis"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "Victorie!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "Anulată de către creator"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "Defecţiune tehnică"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "Ai fost exclus"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "Înfrângere tehnică"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "Egalitate tehnică"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "Rezultat nedecis"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "Victorie tehnică!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "Pauza a expirat"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "Finalizate"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(lupta %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "Rezultat parţial"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "Rezultat"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "Cont Premium Wargaming primit. Expiră la %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "Cont Premium Wargaming modificat. Expiră la %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "Contul Premium Wargaming a expirat."
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "Cont Premium Wargaming. Expiră la %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "Cont Premium WoT primit. Expiră la %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "Cont Premium WoT modificat. Expiră la %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "Contul Premium WoT a expirat."
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "Cont Premium WoT extins. Expiră la %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "Ai primit un Cont Premium Wargaming de %(days)d zi(le)."
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "Spre sistemul Elită"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "S-au obținut niveluri elită și grade elită."
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "Sistemul Elită"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "Spre vehicule"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "Nivelul elită obținut"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "Eroare la revendicarea recompensei Elită."
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "S-a obținut %(rewardName)s %(typeReward)s pentru atingerea nivelului Elită %(lvl)s."
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "Recompensa Elită obținută"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "Atenție!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "Detalii"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "Camuflaj"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "autocolant"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "emblemă"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "Inscripție"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(level)s%(name)s %(typeName)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "Și încă %(count)s"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr "Nivelul %(level)s "
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "vopsea"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "autocolant"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "Primit:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "Stil %(name)s"
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "Felicitări!"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "Detalii"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "Recompensă pentru Merite"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "Participă la lupte și primești premii. Cu cât câștigi mai des, cu atât vin premiile mai repede."
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "Recompensă avansată obținută:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "Detalii"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "Token(urile) de gradul %(surplusPoints)s transformat(e) în %(count)s bonduri."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "Felicitări!"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "Recompensă maximă obținută:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "Recompensă standard obținută:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "Recompensă mică obținută:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "Ai obținut %(points)s jeto(a)n(e) de grad în 2021-2022."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "Recompensă anuală"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "Au sosit întăririle!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "Ai primit echipaj pentru %(event)s."
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "Ai membri de echipaj nerecrutați: %(count)s. Următoarea eliminare, pe %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "Ai membri de echipaj nerecrutați: %(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "Insigne eliminate"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "Compensare"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "Pentru timpul de închiriere nefolosit al %(vehicleName)s aţi primit credite."
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "Pentru timpul de închiriere nefolosit al %(vehicleName)s aţi primit aur."
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "Perioada de închiriere a %(vehicleName)s s-a terminat."
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " %(count)sx"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "Fragmente de proiect: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "Credite: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "Bonduri: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "Detalii"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "EXP liberă: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "Aur: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "fragmente universale"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "Progresul actual: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "Resurse cheltuite pentru proiectul Magazinului de Asamblare:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "Resurse cheltuite"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "Cheltuiește resurse"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "Resurse înapoiate de la Magazinul de Asamblare:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "Resursele se înapoiază"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "Broșuri de antrenament la alegere"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "Ghiduri de antrenament la alegere"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "camuflajului"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "Valabilitatea %s este prelungită, din cauza operaţiunilor de mentenanţă."
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "emblemelor"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "inscripţiilor"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "Cont Premium Wargaming"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "Cont Premium WoT"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "Închiriere"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "Serverul jocului va fi deconectat la %(date)s."
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "Deconectarea serverului a fost anulată, replanificată la %(date)s."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "Personalizarea Dosarului de serviciu e disponibilă"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "Această caracteristică a fost suspendată."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "Personalizarea Dosarului de serviciu e temporar indisponibilă"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "Fragment universal (%(fragmentsCount)sx)"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "Fragment național (%(nationName)s) (%(fragmentsCount)sx)"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "Recompensă specială"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "Fragment de proiect pentru %(vehicleName)s (%(fragmentsCount)sx)"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "Recompensă obținută pentru confirmarea e-mail-ului:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "Felicitări!"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "Compensație primită pentru fragmente ale vehiculelor deja cercetate:"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "Camuflaj schimbat"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "Credite primite: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "Credite scăzute: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "Bonduri: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "Bonduri: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "Elemente de exterior schimbate."
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "Element personalizare schimbat. Elemente achiziționate: %(count)s. Ai cheltuit %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "Embleme schimbate"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "Monede aniversare adăugate: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "Monede aniversare eliminate: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "Experienţă liberă primită: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "Experienţă liberă scăzută: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "Aur primit: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "Aur scăzut: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "Inscripţii schimbate"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "Fragmente universale"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "Fragmente din națiunea %(nationName)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "În urma actualizării, toate decalurile au fost eliminate de pe vehicule și trimise în Depozit, în secțiunea Exterior."
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "Locașuri adăugate: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "Spaţii eliminate: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "Atenție!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "Vehicule adăugate: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "Vehicule eliminate: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "Următoarele elemente de personalizare au fost cumpărate:\n%(items)s\nS-au cheltuit: %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "\"%(itemName)s\" %(itemType)s cumpărat cu succes.\nS-au cheltuit %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "Nivelul %(level)s al stilului %(name)s cumpărat cu succes.\n S-a cheltuit: %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "Elementele de personalizare al vehiculului au fost schimbate."
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "%(itemType)s \"%(itemName)s\" (%(count)s obiect(e))"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "Stil %(styleName)s de nivelul %(level)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "Elemente de personalizare au fost eliminate de pe vehicul."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "Felicitări!\nAutocolantele progresive îți permit să ajustezi stilurile presetate pentru %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "Felicitări!\nAi primit un autocolant de nivelul I \"%(itemName)s\" pentru %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "Felicitări!\nAi primit un autocolant de nivelul I \"%(itemName)s\"."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "Autocolant \"%(itemName)s\" de nivelul %(level)s atins pentru vehiculul %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "Spre exterior"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "Autocolant \"%(itemName)s\" de nivelul %(level)s atins."
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Cheltuit: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "Hartă deșert: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "Hartă de vară: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "Hartă de iarnă: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Primit: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "Echipament dezasamblat"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (%(count)sx)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "La exterior"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "Din cauza înlocuirii modulelor, următoarele elemente de personalizare a fost eliminate de pe %(vehicle)s."
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "Personalizare:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "Echipament dezasamblat"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "Demontare:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "Eroare:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "Tranzacţie financiară:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "Se vând obiecte din Depozit:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "S-a adăugat metoda de plată \"%(method)s\""
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "S-a eliminat metoda de plată \"%(method)s\""
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "Cercetare:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "Achiziţii:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "Eliminare din garaj:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "Reparaţii:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "Recuperat:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "Vânzări:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "Îmbunătățire echipament"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "Ai primit un Cont Premium WoT de %(days)d zi(le)."
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "Spre rezerve"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "Camuflajul vehiculului %(vehicleName)s a expirat."
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "Emblema de pe vehiculul %(vehicleName)s a expirat."
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "Inscripţia de pe vehiculul %(vehicleName)s a expirat."
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "Colecție disponibilă"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "Felicitări!\nAi cercetat un vehicul din națiunea %(nation)s din generația %(level)s. Acum poți cumpăra din Magazin vehicule de colecție din aceeași generație și națiune."
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "Vehicul distrus. %(vehicleName)s indisponibil pentru lupte de clanuri până pe %(expireTime)s."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "Deblocat. %(vehicleName)s disponibil pentru lupte pe clanuri."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Toate modificările duble pentru %(vehicle)s sunt anulate."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "Modificare anulată"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "dezactivată"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "activată"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "Schimbarea între seturile de echipament și directive pe parcursul numărătorii inverse de dinaintea luptei este %(state)s pentru %(tankName)s."
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "Schimbarea între seturile de proiectile și consumabile pe parcursul numărătorii inverse de dinaintea luptei este %(state)s pentru %(tankName)s."
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "Ai primit recompensă un vehicul Premium: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "Nu se poate închiria vehiculul. Fonduri insuficiente."
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "Vehiculul %(vehicleName)s închiriat. perioada de închiriere expiră la %(expiryTime)s."
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "Blocaj eliminat. Vehiculele sunt deblocate şi disponibile pentru luptele de clanuri."
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "Jucătorul %(srcName)s a transferat %(srcWares)s aur în contul tău."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s aur a fost transferat jucătorului %(dstName)s. Comision: %(fee)s."
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "Reducere pentru un vehicul de generația %(level)s"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "Recompensă obținută pentru finalizarea progresului Înapoi în acțiune:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "Selectează recompensa"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "Reducere pentru un vehicul de generația %(level)s"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% și %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "Reduceri adăugate la cumpărare și cercetare: "
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "Felicitări!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "Vehicul de generația %(level)s"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "Selectează recompense din categoriile disponibile."
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "Selectare"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "Recompense obținute!"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "Beneficiile Certificatului de luptă Plus au fost suspendate."
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "Certificatul de luptă Plus e momentan indisponibil"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "Certificatului de luptă Plus e disponibil"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "Continuă să te conectezi la joc pentru mai multe recompense!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "Recompensă specială de participare obținută!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "Ciclu finalizat"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "Conectează-te la joc și primește recompense."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "Ciclul a început!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "Recompensă de participare"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "Revino în altă zi pentru o nouă recompensă!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "Participarea s-a notat!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "Caracteristica recompenselor de participare a fost suspendată."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "Recompensele de participare indisponibile"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "Recompensele de participare disponibile"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "Vehiculul exclusiv <font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s este disponibil."
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "<font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s, exclusiv pentru WoT Plus, este momentan indisponibil."
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "WoT Plus de bază a expirat pe %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "Demontarea gratuită a echipamentului este indisponibilă"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "Prelungește WoT Plus pentru a obține din nou toate beneficiile."
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "WoT Plus a expirat la %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "WoT Plus Pro a expirat pe %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "Acumularea de aur a fost suspendată."
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "Rezerva de aur este momentan indisponibilă"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "Rezerva de aur este disponibilă"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "rezerva de aur este plină: Nu mai poți acumula aur"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "Rezerva de aur a fost deschisă!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "Toate beneficiile sunt acum disponibile.\nSe prelungește pe: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "Se prelungește din nou pe: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "Planul tău pe 180 de zile e acum activ. Spre distracție!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "Planul tău pe 360 de zile e acum activ. Spre distracție!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "Planul tău pe 180 de zile e acum activ. Spre distracție!\nSe prelungește pe: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "Planul tău pe 360 de zile e acum activ. Spre distracție!\nSe prelungește pe: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "Antrenament intensiv al echipajului nu mai funcționează pentru <font color='#E9E2BF'>%(vehicleName)s</font>. Verifică echipajul vehiculului."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "Unul sau mai mulți membri din <font color='#E9E2BF'>%(vehicleName)s</font> nu sunt calificați pentru Antrenamentul intensiv al echipajului și nu acumulează EXP de echipaj."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "Antrenament intensiv al echipajului"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "Antrenamentul intensiv al echipajului este activat pentru membrii de echipaj de pe %(vehicleName)s."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "Antrenamentul intensiv al echipajului este dezactivat pentru membrii de echipaj de pe %(vehicleName)s."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "Acumularea de EXP de echipaj a fost suspendată."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "Antrenamentul intensiv al echipajului este momentan indisponibil"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "Antrenamentul intensiv al echipajului este disponibil"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "Selectează un vehicul pentru a primi un bonus gratuit la EXP de echipaj."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "Antrenamentul intensiv al echipajului a fost transferat de pe <font color='#E9E2BF'>%(oldVehName)s</font> pe <font color='#E9E2BF'>%(newVehName)s</font>. Echipajul de pe <font color='#E9E2BF'>%(oldVehName)s</font> nu mai acumulează EXP."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "Antrenamentul intensiv al echipajului a fost realocat"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "Bonusul la EXP al echipajului nu poate fi aplicat pe unul sau mai mulți membri de echipaj."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "Ratezi EXP de echipaj valoroasă!"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "Îți poți schimba alegerea din nou în %(cooldown)s ore."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "Accelerarea Pro este activată pentru %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "Poți accelera alt vehicul, în schimb."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "Accelerarea Pro este dezactivată pentru %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "Câștigurile Accelerării Pro au fost suspendate."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "Accelerarea Pro este momentan indisponibilă"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "Accelerarea Pro este disponibilă"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)s nu mai e accelerat. Îți poți schimba alegerea din nou în %(cooldown)s ore."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "Accelerarea Pro schimbată către %(vehicleNameTo)s"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "Data prelungirii WoT Plus a fost schimbată"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "Alege un vehicul de închiriat din listă."
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "Nu este selectat niciun vehicul de închiriat"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "%(vehicle)s va fi adăugat în cont în scurt timp."
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "Închiriat!"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "Aceste beneficii sunt dezactivate."
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "WoT Plus e indisponibil"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "WoT Plus de bază activat"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "Demontarea gratuită a echipamentului este disponibilă"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "WoT Plus activat"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT Plus Pro"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "WoT Plus îmbunătățit la Pro!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "Prelungesc"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "Ți s-au acordat %(freeXP)s puncte de Experienţă liberă."
+
+msgid "status/offline"
+msgstr "Deconectat"
+
+msgid "status/online"
+msgstr "Online"
+
+msgid "xmpp_error/action"
+msgstr "Nu s-a putut executa ”%(actionName)s”. Încearcă mai târziu."
+
+msgid "xmpp_error/simple"
+msgstr "Încearcă mai târziu."
+
+msgid "xmpp_error/user_room_creation"
+msgstr "Nu pot crea canalul de jucători \"%(strArg1)s\"."

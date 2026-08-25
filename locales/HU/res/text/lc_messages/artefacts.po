@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Fordító <noreply@wargaming.net>\nLanguage-Team: WoT Csapat <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "actionStub/name"
+msgstr "Módosítás"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "Azonnal visszaállít %(immediatelyRestore)s életerőpontot a járműveden. A képesség %(duration)s másodperces időtartama alatt a lövedékek és a harci képességek révén elszenvedett összes sebzés felhalmozódik, és életerőpontokká alakul át, plusz a teljes elszenvedett sebzés %(restoringCoefficient)s-a is, amint a képesség lejár.\n\n*Az átalakított életerő-visszaállítás a közelben tartózkodó csapattársakra is kiterjed."
+
+msgid "adaptationHealthRestore/descr"
+msgstr "Azonnal visszaállít %(immediatelyRestore)s életerőpontot a járműveden. A képesség %(duration)s másodperces időtartama alatt a lövedékek és a harci képességek révén elszenvedett összes sebzés felhalmozódik, és életerőpontokká alakul át, plusz a teljes elszenvedett sebzés %(restoringCoefficient)s-a is, amint a képesség lejár.\n\n*Az átalakított életerő-visszaállítás a közelben tartózkodó csapattársakra is kiterjed."
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "Azonnal {green_Open}visszaállít %(immediatelyRestore)s{green_Close} életerőpontot a járműveden. A képesség {whiteSpanish_Open}%(duration)s másodperces{whiteSpanish_Close} időtartama alatt a lövedékek és a harci képességek révén elszenvedett összes sebzés felhalmozódik, és életerőpontokká alakul át, plusz {green_Open}a teljes elszenvedett sebzés %(restoringCoefficient)s-a{green_Close} is, amint a képesség lejár.\n\n*Az átalakított életerő-visszaállítás a közelben tartózkodó csapattársakra is kiterjed."
+
+msgid "adaptationHealthRestore/name"
+msgstr "Adaptív páncélzat"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "Azonnal {green_Open}visszaállít %(immediatelyRestore)s{green_Close} életerőpontot a járműveden. A képesség {whiteSpanish_Open}%(duration)s másodperces{whiteSpanish_Close} időtartama alatt a lövedékek és a harci képességek révén elszenvedett összes sebzés felhalmozódik, és életerőpontokká alakul át, plusz {green_Open}a teljes elszenvedett sebzés %(restoringCoefficient)s-a{green_Close} is, amint a képesség lejár.\n\n*Az átalakított életerő-visszaállítás a közelben tartózkodó csapattársakra is kiterjed."
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s az álló vagy mozgó jármű álcázásához, ami alacsony zajkibocsátású kipufogó rendszerrel (bármely osztály) vagy jutalom kipufogó rendszerrel felszerelve."
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "Növeli az alacsony zajkibocsátású kipufogó rendszer vagy a jutalom kipufogó rendszer hatását a csata idejére. A direktíva csak akkor fog működni, ha felszereled a megfelelő felszerelést."
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "Kipufogó szigetelés"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "Javítja az álló vagy mozgó jármű álcázását"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "A hatékonysága a jármű típusától függően változik. Javítja az álló és mozgó jármű álcázását. Hasznos aktív felderítés és veszélyes pozícióból történő passzív felderítés során."
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "Alacsony zajkibocsájtású kipufogó rendszer"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "Javítja az álló vagy mozgó jármű álcázását."
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "Alacsony zajszintű kipufogórendszer 1. osztály"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "Alacsony zajszintű kipufogórendszer 2. osztály"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "Alacsony zajszintű kipufogórendszer 3. osztály"
+
+msgid "additional_armor_plates_1/name"
+msgstr "Kiegészítő páncéllemez (1. típus)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "Kiegészítő páncéllemez (2. típus)"
+
+msgid "afterburning/descr"
+msgstr "Korlátozott ideig növeli a járműved sebességét és gyorsulását."
+
+msgid "afterburning/name"
+msgstr "Turbótöltő"
+
+msgid "aimingStabilizer/long_special"
+msgstr "A löveged szórásának a csökkentése nagyon fontos: minél kisebb a kezdeti szórás, annál kisebb a célzókör és annál kevesebb idő kell a teljes célzáshoz. Továbbá a gyorsan ellőtt lövésnek (mint a nem teljesen becélzott és mozgás közben ellőt lövések) nagyobb esélye lesz eltalálni a célpontot."
+
+msgid "aimingStabilizer/name"
+msgstr "Függőleges stabilizátor"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s szórás tüzelés után, mozgás vagy toronyforgatás közben, ha függőleges stabilizátor, stabilizáló rendszer vagy jutalom stabilizáló van felszerelve."
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "Növeli a Függőleges stabilizátor (bármelyik osztály), a Stabilizáló rendszer vagy a Jutalom stabilizáló hatását a csata idejére. A direktíva felszereléséhez és aktiválásához szükség van ezekre a felszerelésekre a járműveden."
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "Stabilizátor kenés"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "Megnöveli a stabilizáló hatását"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "Függőleges stabilizátor 1. osztály"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "Függőleges stabilizátor 2. osztály"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "Függőleges stabilizátor 1. osztály"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "Függőleges stabilizátor 2. osztály"
+
+msgid "antifragmentationLining/long_special"
+msgstr "A repeszpáncélok elnyelik a sebzést; ez azt jelenti, hogy csökkentik az ütközés és a Repesz-romboló lövedékek sebzését. A repeszpáncélok az olyan nehéztankokon hatékony leginkább, melyek főleg közelharcban harcolnak és jól tudnak ütközéssel sebezni."
+
+msgid "antifragmentationLining/name"
+msgstr "Repeszpáncél"
+
+msgid "antifragmentationLining/short_special"
+msgstr "Megvédi a járművet és a legénységet a R.RO lövedékektől, sérülésektől, kábítástól és az ütközésektől"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "Szuper nehéz repesz páncél"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "Nehéz repesz páncél"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "Közepes repesz páncél"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "Könnyű repesz páncél"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "Kipufogórendszer"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "Stabilizátor"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "Repeszpáncél"
+
+msgid "archetype/camouflageNet/name"
+msgstr "Álcaháló"
+
+msgid "archetype/coatedOptics/name"
+msgstr "Távcső"
+
+msgid "archetype/commandersView/name"
+msgstr "Látási rendszer"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "Célzórendszer"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "Edzés"
+
+msgid "archetype/grousers/name"
+msgstr "Barázdák"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "Konfiguráció"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "Rádióberendezés"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "Forgási mechanizmus"
+
+msgid "archetype/improvedSights/name"
+msgstr "Célzás"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "Szellőzés"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "Tűzvezető rendszer"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "Túlélőképesség-növelő csomag"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "Pontosságjavító rendszer"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "Mobilitásjavító rendszer"
+
+msgid "archetype/stereoscope/name"
+msgstr "Periszkóp távcső"
+
+msgid "archetype/tankRammer/name"
+msgstr "Töltésgyorsító"
+
+msgid "archetype/template"
+msgstr "„%(name)s” kategóriájú felszerelés"
+
+msgid "archetype/turbocharger/name"
+msgstr "Turbótöltő"
+
+msgid "artillery/longDescr"
+msgstr "Parancsot ad a tüzérségnek, hogy tűz alá vegyenek egy kis területet R.RO lövedékekkel. A becsapódás középpontjában lévő járművek szenvedik el a legnagyobb sebzést. Kifejezetten hatékony a jól páncélozott járművek ellen."
+
+msgid "artillery/name"
+msgstr "Tüzérségi csapás"
+
+msgid "artillery/shortDescr"
+msgstr "Jelentős sebzést okoz az ellenséges járműveknek egy kis sugarú körben."
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s a motortűz esélyéhez"
+
+msgid "autoExtinguishers/descr"
+msgstr "Automatikusan eloltja a tüzet a járművedben."
+
+msgid "autoExtinguishers/long_special"
+msgstr "Automatikusan eloltja a tüzet és csökkenti a jármű kigyulladásának esélyét. Ez a fogyócikk minden nemzet minden járműtípusán használható."
+
+msgid "autoExtinguishers/name"
+msgstr "Automatikus tűzoltó készülék"
+
+msgid "autoExtinguishers/onUse"
+msgstr "Automatikusan eloltja a tüzet a járművedben. Többször is használható egy csatában. A fogyócikk a csata végeztével eltűnik, ha egyszer is használva volt."
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "Automatikus tűzoltás"
+
+msgid "berserker/battleDescr"
+msgstr "Növeli a páncélátütést és tűzgyorsaságot (%(gunPiercing)sx), valamint %(gunAimingTime)s-kal növeli a célzórendszer hatékonyságát és a lövegstabilitást, de elvesz %(healthDebuff)s-ot a járműved életerejéből a képesség %(duration)s másodperces időtartama alatt.\n\n*A Berserker képesség által okozott sebzés nem semmisíti meg a járművedet."
+
+msgid "berserker/descr"
+msgstr "%(gunPiercing)sx mértékben növeli a páncélátütést és tűzgyorsaságot, valamint növeli a célzórendszer hatékonyságát és a lövegstabilitást ennyivel: %(gunAimingTime)s. Ugyanakkor elvesz ennyit: %(healthDebuff)s a járműved életerejéből a képesség %(duration)s másodperces időtartama alatt.\n\n*A Berserker képesség által okozott sebzés nem semmisíti meg a járművedet."
+
+msgid "berserker/longDescr"
+msgstr "{green_Open}%(gunPiercing)s× {green_Close} növeli a páncélátütést és tűzgyorsaságot, valamint növeli a célzórendszer hatékonyságát és a lövegstabilitást {green_Open}%(gunAimingTime)s-kal{green_Close}, de elvesz {red_Open}%(healthDebuff)s-ot{red_Close} a járműved életerejéből a képesség {whiteSpanish_Open}%(duration)s másodperces{whiteSpanish_Close} időtartama alatt.\n\n*A Berserker képesség folytán elszenvedett sebzés nem semmisítheti meg a járművedet."
+
+msgid "berserker/name"
+msgstr "Berserker"
+
+msgid "berserker/shortDescr"
+msgstr "{green_Open}%(gunPiercing)s× {green_Close} növeli a páncélátütést és tűzgyorsaságot, valamint növeli a célzórendszer hatékonyságát és a lövegstabilitást {green_Open}%(gunAimingTime)s-kal{green_Close}, de elvesz {red_Open}%(healthDebuff)s-ot{red_Close} a járműved életerejéből a képesség {whiteSpanish_Open}%(duration)s másodperces{whiteSpanish_Close} időtartama alatt.\n\n*A Berserker képesség folytán elszenvedett sebzés nem semmisítheti meg a járművedet."
+
+msgid "blackout_headlights_1/name"
+msgstr "Fényszóró tompítás (1. típus)"
+
+msgid "bomber/longDescr"
+msgstr "Parancsot ad egy csatarepülőgépnek, hogy bombákat dobjon a kijelölt területre, sebzést okozva az ellenséges járműveknek és elkábítva a legénységüket. A becsapódás középpontjában lévő járművek szenvedik el a legnagyobb sebzést. Kifejezetten hatékony a gyengén és közepesen páncélozott járművek ellen."
+
+msgid "bomber/name"
+msgstr "Légicsapás"
+
+msgid "bomber/shortDescr"
+msgstr "Elkábítja az ellenséges járműveket és közepes sebzést okoz egy nagy sugarú körben."
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "Fokozatosan visszaállítja a jármű életerejének %(healPerTickDuration)s-át %(duration)s mp-en belül. A folyamat megszakad, ha sérülés éri a járművet."
+
+msgid "brRegenerationKit/descr"
+msgstr "Fokozatosan visszaállítja a jármű életerejének %(healPerTickDuration)s-át %(duration)s mp-en belül. A folyamat megszakad, ha sérülés éri a járművet."
+
+msgid "brRegenerationKit/long_special"
+msgstr "Fokozatosan {green_Open}visszaállítja a jármű életerejének %(healPerTickDuration)s-át{green_Close} {whiteSpanish_Open}%(duration)s mp-en belül.{whiteSpanish_Close} A folyamat megszakad, ha sérülés éri a járművet."
+
+msgid "brRegenerationKit/name"
+msgstr "Visszaállítás"
+
+msgid "brRegenerationKit/short_special"
+msgstr "Fokozatosan {green_Open}visszaállítja a jármű életerejének %(healPerTickDuration)s-át{green_Close} {whiteSpanish_Open}%(duration)s mp-en belül.{whiteSpanish_Close} A folyamat megszakad, ha sérülés éri a járművet."
+
+msgid "brRepairkit/descr"
+msgstr "Megjavítja a modulokat, és eltávolítja a negatív hatásokat."
+
+msgid "brRepairkit/long_special"
+msgstr "Megjavítja a modulokat, és eltávolítja a negatív hatásokat."
+
+msgid "brRepairkit/name"
+msgstr "Javítókészlet"
+
+msgid "brRepairkit/short_special"
+msgstr "Megjavítja a modulokat, és eltávolítja a negatív hatásokat."
+
+msgid "br_bomber/battleDescr"
+msgstr "Elkábítja az ellenfél járműveit és %(minDamage)s-%(maxDamage)s közötti sebzést okoz nekik. A becsapódási terület közepén tartózkodó járművek nagyobb sérülést szenvednek.\n\n*A becsapódás %(delay)s mp késleltetéssel történik."
+
+msgid "br_bomber/descr"
+msgstr "Elkábítja az ellenfél járműveit és %(minDamage)s-%(maxDamage)s közötti sebzést okoz nekik. A becsapódási terület közepén tartózkodó járművek nagyobb sérülést szenvednek.\n\n*A becsapódás %(delay)s mp késleltetéssel történik."
+
+msgid "br_bomber/longDescr"
+msgstr "Elkábítja az ellenséges járműveket, és {whiteSpanish_Open}%(minDamage)s-%(maxDamage)s HP sebzést{whiteSpanish_Close} okoz nekik. A becsapódási terület közepén tartózkodó járművek nagyobb sebzést szenvednek el.\n\n*A becsapódás %(delay)s másodperces késleltetéssel történik."
+
+msgid "br_bomber/name"
+msgstr "Légicsapás"
+
+msgid "br_bomber/shortDescr"
+msgstr "Elkábítja az ellenséges járműveket, és {whiteSpanish_Open}%(minDamage)s-%(maxDamage)s HP sebzést{whiteSpanish_Close} okoz nekik. A becsapódási terület közepén tartózkodó járművek nagyobb sebzést szenvednek el.\n\n*A becsapódás %(delay)s másodperces késleltetéssel történik."
+
+msgid "br_minefield/battleDescr"
+msgstr "A kiválasztott területen aktív aknamezőt helyez le %(duration)s másodpercre. Az aknákkal érintkezésbe kerülő ellenséges járművek elkábulnak, és robbanási sebzést szenvednek el.\n\n*Az aknák lövéssel megsemmisíthetők. Az ellenséges járművek alá elhelyezett aknák NEM robbannak fel."
+
+msgid "br_minefield/descr"
+msgstr "A kiválasztott területen aktív aknamezőt helyez le %(duration)s másodpercre. Az aknákkal érintkezésbe kerülő ellenséges járművek elkábulnak, és robbanási sebzést szenvednek el.\n\n*Az aknák lövéssel megsemmisíthetők. Az ellenséges járművek alá elhelyezett aknák NEM robbannak fel."
+
+msgid "br_minefield/longDescr"
+msgstr "A kiválasztott területen aktív aknamezőt helyez le {whiteSpanish_Open}%(duration)s másodpercre{whiteSpanish_Close}. Az aknákkal érintkezésbe kerülő ellenséges járművek elkábulnak, és robbanási sebzést szenvednek el.\n\n*Az aknák lövéssel megsemmisíthetők. Az ellenséges járművek alá elhelyezett aknák NEM robbannak fel."
+
+msgid "br_minefield/name"
+msgstr "Aknamező"
+
+msgid "br_minefield/shortDescr"
+msgstr "A kiválasztott területen aktív aknamezőt helyez le {whiteSpanish_Open}%(duration)s másodpercre{whiteSpanish_Close}. Az aknákkal érintkezésbe kerülő ellenséges járművek elkábulnak, és robbanási sebzést szenvednek el.\n\n*Az aknák lövéssel megsemmisíthetők. Az ellenséges járművek alá elhelyezett aknák NEM robbannak fel."
+
+msgid "br_respawn/name"
+msgstr "Újraéledés"
+
+msgid "br_respawn/platoon/descr"
+msgstr "Lehetővé teszi számodra, hogy visszatérj a csatába, miután a járműved megsemmisült. Ez a mechanika a csata első %(duration)s percében működik.\n\nEgy szövetséges újraélesztéséhez maradj ki a harcból %(timeToResurrect)s mp-re. Az újraéledési töltetek megoszlanak a szakasz tagjai között."
+
+msgid "br_respawn/solo/descr"
+msgstr "Lehetővé teszi számodra, hogy visszatérj a csatába, miután a járműved megsemmisült. Ez a mechanika a csata első %(duration)s percében működik.\n\nMiután megsemmisítettek, a járműved automatikusan újraéled."
+
+msgid "br_smoke/battleDescr"
+msgstr "%(duration)s másodpercig álcázási bónuszt ad minden járműnek a fogyócikk hatósugarában."
+
+msgid "br_smoke/descr"
+msgstr "Álcázási bónuszt ad minden járműnek a fogyócikk hatósugarában."
+
+msgid "br_smoke/longDescr"
+msgstr "%(duration)s másodpercig álcázási bónuszt ad minden járműnek a fogyócikk hatósugarában."
+
+msgid "br_smoke/name"
+msgstr "Füstfüggöny"
+
+msgid "br_smoke/shortDescr"
+msgstr "Álcázási bónuszt ad minden járműnek a fogyócikk hatósugarában."
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "Álcázási bónuszt ad minden járműnek a fogyócikk hatósugarában, valamint a hatósugarán belül MINDEN járművet másodpercenként a teljes életerejük %(damagePerTick)s-ával sebez. A hatása %(duration)s mp-ig tart.\n\n*A Maró köd általi sebzés nem szakítja meg a zsákmány felvételének folyamatát és nem semmisíti meg a járműveket, legalább 1 életerőpontot hagy nekik."
+
+msgid "br_smoke_with_damage/descr"
+msgstr "Álcázási bónuszt ad minden járműnek a fogyócikk hatósugarában, valamint a hatósugarán belül MINDEN járművet másodpercenként a teljes életerejük %(damagePerTick)s-ával sebez. A hatása %(duration)s mp-ig tart.\n\n*A Maró köd általi sebzés nem szakítja meg a zsákmány felvételének folyamatát és nem semmisíti meg a járműveket, legalább 1 életerőpontot hagy nekik."
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "Álcázási bónuszt ad minden járműnek a fogyócikk hatósugarában, valamint a hatósugarán belül MINDEN járművet másodpercenként a teljes életerejük {whiteSpanish_Open}%(damagePerTick)s-ával{whiteSpanish_Close} sebez. A hatása {whiteSpanish_Open}%(duration)s mp-ig tart.{whiteSpanish_Close}\n\n*A Maró köd általi sebzés nem szakítja meg a zsákmány felvételének folyamatát és nem semmisíti meg a járműveket, legalább 1 életerőpontot hagy nekik."
+
+msgid "br_smoke_with_damage/name"
+msgstr "Maró köd"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "Álcázási bónuszt ad minden járműnek a fogyócikk hatósugarában, valamint a hatósugarán belül MINDEN járművet másodpercenként a teljes életerejük {whiteSpanish_Open}%(damagePerTick)s-ával{whiteSpanish_Close} sebez. A hatása {whiteSpanish_Open}%(duration)s mp-ig tart.{whiteSpanish_Close}\n\n*A Maró köd általi sebzés nem szakítja meg a zsákmány felvételének folyamatát és nem semmisíti meg a járműveket, legalább 1 életerőpontot hagy nekik."
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s a modul javítási sebességhez"
+
+msgid "builtinRepairkit/long_special"
+msgstr "Aktiváláskor azonnal megjavítja az összes sérült modult. Passzív hatása gyorsítja a javítás sebességét. Ez a fogyócikk csak bizonyos járművekhez használható."
+
+msgid "builtinRepairkit/name"
+msgstr "Normál nagyméretű szerszám készlet"
+
+msgid "builtinRepairkit/onUse"
+msgstr "Megjavítja az összes sérült modult. Többször is lehet használni egy csata során. Ez a fogyócikk minden nemzet minden járműtípusán használható. Nem használódik el.\nEzt a fogyócikket nem lehet eltávolítani, de át lehet helyezni másik helyre."
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "További 10%-ot ad a jármű álcázásához"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "A teljes legénységnek megadja az Álcázás készséget 100%-ra fejlesztve"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "Az Álcázás készség csökkenti mind az álló, mind a mozgó jármű láthatóságát a csatában. Ha a készség szintje elérte a 100%-ot, a felszerelt direktíva megnöveli a hatását – ha még nem érte el a 100%-ot, akkor a direktíva 100%-ra emeli a készség szintjét."
+
+msgid "camouflageBattleBooster/name"
+msgstr "Természetes fedezék"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "100%-ra képzett Álcázás készséget ad, vagy megnöveli annak hatását"
+
+msgid "camouflageNet/battleDescr"
+msgstr "Javítja a mozdulatlan jármű álcázását 3 másodperccel azután, hogy megállt"
+
+msgid "camouflageNet/long_special"
+msgstr "A hatékonysága a jármű típusától függően változik. Az álcaháló elsősorban a lopakodó járműveknek előnyös: az önjáró lövegeknek és az alacsony páncélvadászoknak. Növeli az Álcázás készség hatékonyságát. A kettőt kombinálva szép bónuszt érhetsz el a járműveddel. Az álcaháló a megállás után 3 másodperccel aktiválódik."
+
+msgid "camouflageNet/name"
+msgstr "Álcaháló"
+
+msgid "camouflageNet/short_special"
+msgstr "Javítja az álló jármű álcázását"
+
+msgid "camouflageNet_tier2/name"
+msgstr "Álcaháló 2. osztály"
+
+msgid "camouflageNet_tier3/name"
+msgstr "Álcaháló 3. osztály"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} a legénység hatékonysági bónuszához a csata idejére."
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} a legénység hatékonysági bónuszához."
+
+msgid "chocolate/long_special"
+msgstr "A csata elején automatikusan aktiválódik és az egész csata alatt működik. Csak német járművekhez."
+
+msgid "chocolate/name"
+msgstr "Csokoládé"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "Csak német járművekhez."
+
+msgid "chocolate/short_special"
+msgstr "Javítja a német legénység teljesítményét"
+
+msgid "clingBrander/battleDescr"
+msgstr "Behív egy autonóm, „barát/ellenség” azonosítórendszerrel felszerelt harckocsit, amely üldözőbe veszi és megtámadja a legközelebbi ellenséget maximum %(botLifeTime)s mp-en keresztül.\n\n*Ez a harckocsi megsemmisíthető."
+
+msgid "clingBrander/descr"
+msgstr "Behív egy autonóm, „barát/ellenség” azonosítórendszerrel felszerelt harckocsit, amely üldözőbe veszi, és megtámadja a legközelebbi ellenséget legfeljebb %(botLifeTime)s mp-en keresztül.\n\n*Ez a harckocsi megsemmisíthető."
+
+msgid "clingBrander/longDescr"
+msgstr "Behív egy autonóm, „barát/ellenség” azonosítórendszerrel felszerelt harckocsit, amely üldözőbe veszi, és megtámadja a legközelebbi ellenséget {whiteSpanish_Open}legfeljebb %(botLifeTime)s másodpercen keresztül.{whiteSpanish_Close}\n\n*Ezt a harckocsit meg lehet semmisíteni."
+
+msgid "clingBrander/name"
+msgstr "Harctéri robot"
+
+msgid "clingBrander/shortDescr"
+msgstr "Behív egy autonóm, „barát/ellenség” azonosítórendszerrel felszerelt harckocsit, amely üldözőbe veszi, és megtámadja a legközelebbi ellenséget {whiteSpanish_Open}legfeljebb %(botLifeTime)s másodpercen keresztül.{whiteSpanish_Close}\n\n*Ezt a harckocsit meg lehet semmisíteni."
+
+msgid "clutches_replace_1/name"
+msgstr "Súrlódó tengelykapcsoló cseréje (1. típus)"
+
+msgid "clutches_replace_2/name"
+msgstr "Súrlódó tengelykapcsoló cseréje (2. típus)"
+
+msgid "coatedOptics/long_special"
+msgstr "A periszkóp távcsővel ellentétben a Távcső (bármelyik típus) kisebb, de állandó bónuszt ad, amely nem tűnik el mozgás hatására. Ennek köszönhetően a Távcső olyan járműveknek előnyös, amelyek aktív játékstílussal rendelkeznek—könnyű és közepes tankok."
+
+msgid "coatedOptics/name"
+msgstr "Távcső"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s a látótávhoz (egészen 445m-ig) távcsővel (bármelyik osztály), kísérleti távcsővel vagy jutalom távcsővel felszerelve."
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "Növeli a Távcső, a Kísérleti távcső vagy a Jutalom távcső hatását a csata idejére. A direktíva felszereléséhez és aktiválásához szükség van ezekre a felszerelésekre a járműveden."
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "Optikai kalibráció"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "Megnöveli a távcső hatását"
+
+msgid "coatedOptics_tier1/name"
+msgstr "Távcső 1. osztály"
+
+msgid "coatedOptics_tier2/name"
+msgstr "Távcső 2. osztály"
+
+msgid "coatedOptics_tier3/name"
+msgstr "Távcső 3. osztály"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} a legénység hatékonysági bónuszához a csata idejére."
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} a legénység hatékonysági bónuszához."
+
+msgid "cocacola/long_special"
+msgstr "A csata elején automatikusan aktiválódik és az egész csata alatt működik. Csak amerikai járművekhez."
+
+msgid "cocacola/name"
+msgstr "Doboz Cola"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "Csak amerikai járművekhez."
+
+msgid "cocacola/short_special"
+msgstr "Javítja az amerikai legénység teljesítményét"
+
+msgid "commandersView/long_special"
+msgstr "Csökkenti a mozgó ellenségek álcázását és a növényzet álcázási értékeit az ellenség felderítése során. Ezáltal képes leszel távolabbról felderíteni a mozgó ellenségeket és hatékonyabban felderítheted a kidőlt fák és bokrok által álcázott ellenségeket."
+
+msgid "commandersView/name"
+msgstr "Parancsnok látási rendszere"
+
+msgid "commandersView/short_special"
+msgstr "Csökkenti az ellenséges járművek álcázási értékeit mozgás közben vagy növényzet mögött rejtőzve"
+
+msgid "corrodingShot/battleDescr"
+msgstr "Korróziós tulajdonságokkal ruházza fel a lövedéket, ami megnöveli a páncélátütési és sebzési potenciálját. Amikor a lövedék sebzést okoz egy ellenséges járműnek, egy ideiglenes hatás aktiválódik akár %(damagePerDotEffectDuration)s további sebzést okozva %(dotEffectDuration)s mp-en keresztül.\n\n*A javítókészlet eltávolítja a negatív hatását."
+
+msgid "corrodingShot/descr"
+msgstr "Korróziós tulajdonságokkal ruházza fel a lövedéket, ami megnöveli a páncélátütési és sebzési potenciálját. Amikor a lövedék sebzést okoz egy ellenséges járműnek, egy ideiglenes hatás aktiválódik akár %(damagePerDotEffectDuration)s további sebzést okozva %(dotEffectDuration)s mp-en keresztül.\n\n*A negatív hatás javítókészlettel megszüntethető."
+
+msgid "corrodingShot/longDescr"
+msgstr "Korróziós tulajdonságokkal ruházza fel a lövedéket, amely megnöveli annak páncélátütési és sebzési potenciálját. Amikor a lövedék sebzést okoz egy ellenséges járműnek, egy ideiglenes hatás aktiválódik {whiteSpanish_Open}akár %(damagePerDotEffectDuration)s{whiteSpanish_Close} további sebzést okozva {whiteSpanish_Open}%(dotEffectDuration)s másodpercen{whiteSpanish_Close} keresztül.\n\n*A javítókészlet eltávolítja a negatív hatást."
+
+msgid "corrodingShot/name"
+msgstr "Savas lövedék"
+
+msgid "corrodingShot/shortDescr"
+msgstr "Korróziós tulajdonságokkal ruházza fel a lövedéket, amely megnöveli annak páncélátütési és sebzési potenciálját. Amikor a lövedék sebzést okoz egy ellenséges járműnek, egy ideiglenes hatás aktiválódik {whiteSpanish_Open}akár %(damagePerDotEffectDuration)s{whiteSpanish_Close} további sebzést okozva {whiteSpanish_Open}%(dotEffectDuration)s másodpercen{whiteSpanish_Close} keresztül.\n\n*A javítókészlet eltávolítja a negatív hatást."
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "Javítja a következőket"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "Parancsnoki tulajdonság"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} \"{name}\""
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "készség:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "A következőket adja"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "készség:"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "A függőleges stabilizátor ({colorTagOpen}–20%{colorTagClose} szórás tüzelés után, mozgás és toronyforgatás közben) feljavított változata, aminek erősebb a hatása: {colorTagOpen}–27.5%{colorTagClose} szórás tüzelés után, mozgás és torony forgatás közben. Ez a felszerelés az összes nemzet bizonyos járműtípusán használható. Csak kötvényért lehet leszerelni."
+
+msgid "deluxAimingStabilizer/name"
+msgstr "Stabilizáló rendszer"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "A távcső ({colorTagOpen}+10%{colorTagClose} a látótávolsághoz) feljavított változata, aminek erősebb a hatása: {colorTagOpen}+13,5%{colorTagClose} látótávolság. Ez a felszerelés az összes nemzet minden járműtípusán használható. Csak kötvényért lehet leszerelni."
+
+msgid "deluxCoatedOptics/name"
+msgstr "Kísérleti távcső"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "A fejlesztett célzórendszer ({colorTagOpen}+10%{colorTagClose} a célzási sebességhez) fejlesztett változata, aminek erősebb a hatása: {colorTagOpen}+13,5%{colorTagClose} célzási sebesség. Ez a felszerelés az összes nemzet minden járműtípusán használható. Csak kötvényért lehet leszerelni."
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "Kopásálló célzó rendszer"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "A módosított konfiguráció egy változata, amely erősebb hatást biztosít. Ez a felszerelés az összes nemzet minden járműtípusán használható. Csak kötvényért lehet leszerelni."
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "Fejlesztett konfiguráció"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "Gyorsítja a javítást, védi a lőszerrekeszt, az üzemanyagtartályt és a motort"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "A Szellőzés ({colorTagOpen}+5%{colorTagClose} a legénység hatékonysági bónuszához) feljavított változata, amely erősebb hatást biztosít: {colorTagOpen}+8,5%{colorTagClose} a legénység hatékonyságához. Ez a felszerelés az összes nemzet minden járműtípusán használható. Csak kötvényért lehet leszerelni."
+
+msgid "deluxImprovedVentilation/name"
+msgstr "Szellőztető rendszer"
+
+msgid "deluxRammer/long_special"
+msgstr "A töltésgyorsító ({colorTagOpen}-10%{colorTagClose} töltési idő) feljavított változata, aminek erősebb a hatása: {colorTagOpen}-13,5%{colorTagClose} töltési idő. Ez a felszerelés az összes nemzet minden járműtípusán használható. Csak kötvényért lehet leszerelni."
+
+msgid "deluxRammer/name"
+msgstr "Innovatív töltőrendszer"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "Az Alacsony zajkibocsátású kipufogórendszer egy továbbfejlesztett változata, amely erősebb hatással rendelkezik: növeli az álló vagy mozgó jármű álcázását. Hasznos aktív felderítés esetén, valamint kockázatos pozíciókból végzett passzív felderítéskor.\nEz a felszerelés bármely járműtípussal és nemzettel használható, de hatékonysága függ a jármű típusától. Csak kötvényért szerelhető le."
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "Csendes kipufogórendszer"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "Növeli az álló és mozgó jármű álcázását {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose}-kal"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "Javítja az álló jármű álcázását 1,5 másodperccel a megállást követően"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "Az álcaháló továbbfejlesztett változata, amelynek hatékonysága a jármű típusától függően változik. A taktikai álcaháló elsősorban a lopakodó stílusú járművek, vagyis az önjáró lövegek és az alacsony felépítésű páncélvadászok számára előnyös. Növeli az Álcázás készség hatékonyságát. A kettőt kombinálva szép bónuszt érhetsz el a járműveddel. A taktikai álcaháló 1,5 másodperccel a megállást követően aktiválódik."
+
+msgid "deluxeCamouflageNet/name"
+msgstr "Taktikai álcaháló"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17,5{colorTagClose}/{colorTagOpen}12,5{colorTagClose}/{colorTagOpen}7,5%{colorTagClose} az álló jármű álcázásához"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "Teljesen visszaállítja a felfüggesztés életerejét a javítás után."
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "Visszaállítja a felfüggesztést a javítás után."
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "A fejlesztett edzés egy feljavított változata: {colorTagOpen}+12,5%{colorTagClose} a jármű életerejéhez, {colorTagOpen}+75%{colorTagClose} a felfüggesztés tartósságához, {colorTagOpen}+30%{colorTagClose} a felfüggesztés javítási sebességéhez, {colorTagOpen}–75%{colorTagClose} a járműtest sérüléséből, ha a felfüggesztést éri találat. Teljesen visszaállítja a felfüggesztés életerejét a javítás után. Csökkenti a lánctalp megsemmisülésének esélyét sebzés elszenvedésekor, lehetővé téve, hogy a járműveddel mozgásban maradhass, amíg csak lehet. Ez a felszerelés az összes nemzet minden járműtípusán használható (kivéve az önjáró lövegeket). Csak kötvényért lehet leszerelni."
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "Megnövelt lövésállóság"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "Növeli a jármű ellenállóságát, és védi a felfüggesztést"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "A fejlesztett forgási mechanizmus felerősített változata, amely erősebb hatással rendelkezik: {colorTagOpen}+17,5% {colorTagClose}a torony forgási sebességéhez, {colorTagOpen}+17,5% {colorTagClose}a járműtest forgási sebességéhez és {colorTagOpen}-17,5% {colorTagClose}szórás mozgás és toronyforgatás közben. Ez a felszerelés minden nemzetiségű és típusú járművön használható. Csak kötvényért szerelhető le."
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "Fejlesztett meghajtás"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "Növeli a forgási sebességet és csökkenti a löveg szórását mozgás és forgás közben"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "A Javított célzás feljavított változata, amely erősebb hatást biztosít: {colorTagOpen}9%{colorTagClose}-cel csökkenti a célzó vagy teljesen becélzott löveg célzókörének méretét. Ennek eredményeképpen nagyobb eséllyel találod el a célpontot. Ez a felszerelés az összes nemzet minden járműtípusán használható, kivéve az önjáró lövegeket. Csak kötvényért lehet leszerelni."
+
+msgid "deluxeImprovedSights/name"
+msgstr "Innovatív célzás"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "Csökkenti a löveg szórását"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "Növeli az álló helyzetű jármű látótávolságát 1,5 mp-cel a megállását követően (445 méterig)"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "A periszkóp távcső továbbfejlesztett változata. A nagy látótávolság hatalmas előnyt jelenthet a csatában. Ez a felszerelés az alacsony felépítésű, pontos löveggel rendelkező páncélvadászok számára előnyös. A jármű megállása után 1,5 másodperccel aktiválódik."
+
+msgid "deluxeStereoscope/name"
+msgstr "Teleszkópos megfigyelőrendszer"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27,5%{colorTagClose} az álló jármű látótávolságához (445 méterig)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "A turbótöltő egy feljavított változata: ({colorTagOpen}+7.5%{colorTagClose} a motor teljesítményéhez, {colorTagOpen}+4 km/h{colorTagClose} a maximális előrehaladási sebességhez, {colorTagOpen}+2 km/h{colorTagClose} a maximális tolatási sebességhez): {colorTagOpen}+12.5%{colorTagClose} a motor teljesítményéhez, {colorTagOpen}+6 km/h{colorTagClose} a maximális előrehaladási sebességhez, {colorTagOpen}+4 km/h{colorTagClose} a maximális tolatási sebességhez. Ez a felszerelés az összes nemzet minden járműtípusán használható (kivéve a kerekes járműveket). Csak kötvényért lehet leszerelni."
+
+msgid "deluxeTurbocharger/name"
+msgstr "Fejlesztett kompresszor"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "Növeli a motor teljesítményét és a végsebességet"
+
+msgid "eb_minefield/descr"
+msgstr "Aknamezőt helyez el a kiválasztott területen, ami bizonyos ideig aktív."
+
+msgid "eb_minefield/long_descr"
+msgstr "Aktív aknamezőt telepít a kijelölt területre bizonyos ideig. Robbanáskor az aknák sebzést és kábítást okoznak az ellenséges járműveknek. Az ellenség képes felderíteni az aknákat kis távolságból, illetve a felderítő repülés és a Sentinel harci tartalék segítségével. Az aknákat lövéssel vagy robbanással lehet megsemmisíteni."
+
+msgid "eb_minefield/name"
+msgstr "Aknamező"
+
+msgid "eb_minefield/short_descr"
+msgstr "Aknamezőt helyez el a kiválasztott területen, ami bizonyos ideig aktív."
+
+msgid "eb_regenerationKit/descr"
+msgstr "Fokozatosan visszaállítja a jármű életerejének bizonyos százalékát."
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "Fokozatosan visszaállítja járműved életerejének bizonyos százalékát. Növeli a javítás sebességét az utántöltési körön belül. Amikor aktív, csökkenti az aknáktól elszenvedett sebzést."
+
+msgid "eb_regenerationKit/name"
+msgstr "Harctéri javítás"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "Fokozatosan visszaállítja a jármű életerejének bizonyos százalékát."
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "Garázsférőhely"
+
+msgid "empty_slot/name"
+msgstr "Garázsférőhely"
+
+msgid "empty_slot/short_descr"
+msgstr "A harci tartalék férőhely használatban van."
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "1,5-szeresére növeli a Hanglokátor készség hatását"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "100%-ra képzett Hanglokátor készséget ad"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "A Hanglokátor készség figyelmeztet az ellenséges önjáró löveg tüzére, és csökkenti a kábítás negatív hatását. Ha a készség szintje elérte a 100%-ot, a felszerelt direktíva megnöveli a hatását – ha még nem érte el a 100%-ot, akkor a direktíva 100%-ra emeli a készség szintjét."
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "Fokozott éberség"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "100%-ra képzett Hanglokátor készséget ad, vagy megnöveli annak hatását"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "A megnövelt célzás csökkenti a célzási időt. Pontosabban céloz az a jármű, amin Fejlesztett célzórendszer van (továbbá megnöveli a tűzgyorsaságot, mivel az újratöltés néha gyorsabb, mint a célzásnál a teljes szűkülés)."
+
+msgid "enhancedAimDrives/name"
+msgstr "Fejlesztett célzórendszer"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s a célzási sebességhez, ha Fejlesztett célzórendszer (bármelyik osztály), Kopásálló célzó rendszer, Jutalom célzórendszer vagy Tűzvezető rendszer van felszerelve."
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "Növeli a Jutalom célzórendszer, a Fejlesztett célzórendszer vagy a Kopásálló célzórendszer hatását a csata idejére. A direktíva felszereléséhez és aktiválásához szükség van ezekre a felszerelésekre a járműveden."
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "Célzó igazítás"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "Megnöveli a célzórendszer hatását"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "Fejlesztett célzórendszer 1. osztály"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "Fejlesztett célzórendszer 2. osztály"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "Fejlesztett célzórendszer 3. osztály"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "Fejlesztett csavar alátétek"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "Teljesen visszaállítja a felfüggesztés életerejét a javítás után."
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Teljesen visszaállítja a felfüggesztés életerejét a javítás után"
+
+msgid "enhancedLevers/name"
+msgstr "Fejlesztett lengőkarok"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "Fejlesztett hosszanti torziós rugók"
+
+msgid "enhancedSprings/name"
+msgstr "Fejlesztett lengéscsillapítók"
+
+msgid "enhancedTorsions1t/name"
+msgstr "Fejlesztett torziós rugók 1 t"
+
+msgid "enhancedTorsions3t/name"
+msgstr "Fejlesztett torziós rugók 3 t"
+
+msgid "enhancedTorsions5t/name"
+msgstr "Fejlesztett torziós rugók 5 t"
+
+msgid "exampleAbility/descr"
+msgstr "Tesztképesség virtuális scripthez"
+
+msgid "exampleAbility/name"
+msgstr "Tesztképesség"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s a motorteljesítményhez és a toronyforgási sebességhez a csata során."
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} a motor teljesítményhez és a toronyforgási sebességhez."
+
+msgid "excellentFuel/long_special"
+msgstr "{colorTagOpen}10%{colorTagClose}-kal növeli a motorteljesítményt és a toronyforgási sebességet a csata idejére. A csata elején automatikusan aktiválódik és az egész csata alatt működik."
+
+msgid "excellentFuel/name"
+msgstr "Kiváló üzemanyag"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} a motorerőhöz és a torony forgási sebességéhez"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "Teljesen visszaállítja a felfüggesztés életerejét a javítás után."
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "Visszaállítja a felfüggesztést a javítás után."
+
+msgid "extraHealthReserve/long_special"
+msgstr "Növeli a jármű ellenállóságát és javítási sebességét. Csökkenti a felfüggesztés által a járműtestnek okozott sérülést ütközéskor. Teljesen visszaállítja a felfüggesztés életerejét javítás után. Csökkenti a lánctalp megsemmisülésének esélyét sebzés elszenvedésekor, lehetővé téve, hogy a járműveddel mozgásban maradhass, amíg csak lehet."
+
+msgid "extraHealthReserve/name"
+msgstr "Fejlesztett edzés"
+
+msgid "extraHealthReserve/short_special"
+msgstr "Növeli a jármű ellenállóságát, és védi a felfüggesztést"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "Fejlesztett edzés 1. osztály"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "Fejlesztett edzés 2. osztály"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "Fejlesztett edzés 3. osztály"
+
+msgid "fireCircle/battleDescr"
+msgstr "Egy tűzgyűrűt hoz létre a járműved körül, amely csökkenti az ellenséges járművek mobilitását a képesség hatásterületén belül, és elveszi az összes életerejük legfeljebb %(damagePerTickForInterval)s-át %(timer)s mp-en át.\n\n*A tűzgyűrű hatásterülete helyhez kötött, és nem követi a jármű mozgását."
+
+msgid "fireCircle/descr"
+msgstr "Tűzgyűrűt hoz létre a járműved körül, amely csökkenti az ellenséges járművek mobilitását a képesség hatásterületén belül, és elveszi az összes életerejük legfeljebb %(damagePerTickForInterval)s-át %(timer)s mp-en át.\n\n*A tűzgyűrű hatásterülete helyhez kötött, és nem követi a jármű mozgását."
+
+msgid "fireCircle/longDescr"
+msgstr "Tűzgyűrűt hoz létre a járműved körül, amely csökkenti az ellenséges járművek mobilitását a képesség hatósugarán belül és elveszi az összes életerejük {whiteSpanish_Open}legfeljebb %(damagePerTickForInterval)s-át{whiteSpanish_Close} {whiteSpanish_Open}%(timer)s másodpercen{whiteSpanish_Close} át.\n\n*A tűzgyűrű területe helyhez kötött, és nem követi a jármű mozgását."
+
+msgid "fireCircle/name"
+msgstr "Tűzgyűrű"
+
+msgid "fireCircle/shortDescr"
+msgstr "Tűzgyűrűt hoz létre a járműved körül, amely csökkenti az ellenséges járművek mobilitását a képesség hatósugarán belül és elveszi az összes életerejük {whiteSpanish_Open}legfeljebb %(damagePerTickForInterval)s-át{whiteSpanish_Close} {whiteSpanish_Open}%(timer)s másodpercen{whiteSpanish_Close} át.\n\n*A tűzgyűrű területe helyhez kötött, és nem követi a jármű mozgását."
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "1,5-szeresére növeli a Tűzoltás készség hatását"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "100%-ra képzett Tűzoltás készséget ad"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "A tűzoltás készség javítja a járműved tűzoltási képességét a csatában. Ha a készség szintje elérte a 100%-ot, a felszerelt direktíva megnöveli a hatását – ha még nem érte el a 100%-ot, akkor a direktíva 100%-ra emeli a készség szintjét."
+
+msgid "fireFightingBattleBooster/name"
+msgstr "Tapasztalt tűzoltó"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "100%-ra képzett Tűzoltás készséget ad, vagy megnöveli annak hatását"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "Parancsot ad a tüzérségnek, hogy mérjen csapást a kijelölt területre, sebzést okozva az ott tartózkodó járműveknek."
+
+msgid "fort_aoe_artillery/name"
+msgstr "Tüzérségi csapás"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "Parancsot ad a tüzérségnek, hogy mérjen csapást a kijelölt területre, sebzést okozva az ott tartózkodó járműveknek."
+
+msgid "fort_inspire/longDescr"
+msgstr "Bónuszt ad a fő képzettséghez és minden készséghez a járműved teljes legénységének, valamint a közeli szövetséges járművek legénységének."
+
+msgid "fort_inspire/name"
+msgstr "Ösztönzés"
+
+msgid "fort_inspire/shortDescr"
+msgstr "Bónuszt ad a fő képzettséghez és minden készséghez a járműved teljes legénységének, valamint a közeli szövetséges járművek legénységének."
+
+msgid "fuel_system_revision_1/name"
+msgstr "Üzemanyag rendszer felülvizsgálat (1. típus)"
+
+msgid "grousers/long_special"
+msgstr "Növeli a jármű forgási sebességét, és tartja a sebességet bármilyen típusú talajon mozogva. Kifejezetten hatékony puha és közepesen puha talajon mozogva. A Kuplungégető és az Off-Road vezetés készséggel kombinálva a leghatékonyabb."
+
+msgid "grousers/name"
+msgstr "Plusz barázdák"
+
+msgid "grousers/short_special"
+msgstr "Növeli a jármű forgási sebességét és gyorsulását"
+
+msgid "grousers_tier1/name"
+msgstr "Plusz barázdák 1. osztály"
+
+msgid "grousers_tier2/name"
+msgstr "Plusz barázdák 2. osztály"
+
+msgid "grousers_tier3/name"
+msgstr "Plusz barázdák 3. osztály"
+
+msgid "gun_balancing_1/name"
+msgstr "Löveg egyensúlyozás (1. típus)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "Eloltja a tüzet a járművedben."
+
+msgid "handExtinguishers/long_special"
+msgstr "Aktiváláskor eloltja a tüzet. Ez a fogyócikk minden nemzet minden járműtípusán használható. A csata után eltűnik a fogyócikk, ha legalább egyszer használatban volt."
+
+msgid "handExtinguishers/name"
+msgstr "Kézi tűzoltókészülék"
+
+msgid "handExtinguishers/onUse"
+msgstr "Eloltja a tüzet a járművedben. Több alkalommal is használható egy csatában. A fogyócikk eltűnik a csata után, ha legalább egyszer használtad azt."
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "Tűz eloltása"
+
+msgid "healPoint/battleDescr"
+msgstr "Olyan területet hoz létre a járműved körül, amelyen belül a játékos és szakasztársai életerejének %(healPerTick)s-a visszatöltődik %(duration)s másodpercen át."
+
+msgid "healPoint/descr"
+msgstr "Olyan területet hoz létre a járműved körül, amelyen belül a játékos és szakasztársai életerejének %(healPerTick)s-a visszatöltődik %(duration)s másodpercen át."
+
+msgid "healPoint/longDescr"
+msgstr "Olyan területet hoz létre a járműved körül, amelyen belül a játékos és szakasztársai életerejének {green_Open}%(healPerTick)s-a visszatöltődik{green_Close} {whiteSpanish_Open}%(duration)s másodpercen át.{whiteSpanish_Close}"
+
+msgid "healPoint/name"
+msgstr "Visszaállítási zóna"
+
+msgid "healPoint/shortDescr"
+msgstr "Olyan területet hoz létre a járműved körül, amelyen belül a játékos és szakasztársai életerejének {green_Open}%(healPerTick)s-a visszatöltődik{green_Close} {whiteSpanish_Open}%(duration)s másodpercen át.{whiteSpanish_Close}"
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s a legénység hatékonysági bónuszához a csata idejére."
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} a legénység hatékonysági bónuszához."
+
+msgid "hotCoffee/long_special"
+msgstr "A csata elején automatikusan aktiválódik és az egész csata alatt működik. Csak francia járművekhez."
+
+msgid "hotCoffee/name"
+msgstr "Erős kávé"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "Csak francia járművekhez."
+
+msgid "hotCoffee/short_special"
+msgstr "Javítja a francia legénység teljesítményét"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "Meggátol egy üzemanyagtartály tüzet, lőszerrekesz robbanást és motor megsemmisülést egy csatában ezen modulok megsemmisülésekor."
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "Meggátol egy üzemanyagtartály tüzet, lőszerrekesz robbanást és motor megsemmisülést egy csatában ezen modulok megsemmisülésekor."
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "A lőszerrekesz védve van a megsemmisüléstől"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "Lőszerrekesz robbanás meggátolva"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "A motor védve van"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "Motor megsemmisülés meggátolva"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "Az üzemanyagtartályok védve vannak a tűztől"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "Üzemanyagtartály tűz meggátolva"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "Meggátol egy üzemanyagtartály tüzet, lőszerrekesz robbanást és motor megsemmisülést egy csatában ezen modulok megsemmisülésekor."
+
+msgid "improvedConfiguration/long_special"
+msgstr "Felgyorsítja a javítást. Növeli a lőszerrekesz, az üzemanyagtartályok és a motor ellenállóságát. Csökkenti a töltési idő növekedését és a motorteljesítmény veszteséget a kapcsolódó modulok sérülése esetén. Csökkenti a motortűz esélyét. Meggátol egy üzemanyagtartály tüzet, lőszerrekesz robbanást és motor megsemmisülést egy csatában ezen modulok megsemmisülésekor. Hatékonyabb Javítás, Biztonságos elhelyezés és Megelőző karbantartás képességekkel kombinálva."
+
+msgid "improvedConfiguration/name"
+msgstr "Módosított konfiguráció"
+
+msgid "improvedConfiguration/short_special"
+msgstr "Gyorsítja a javítást, védi a lőszerrekeszt, az üzemanyagtartályt és a motort"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s a javítási sebességhez Módosított konfigurációval (bármelyik osztály), Fejlesztett konfigurációval vagy Jutalom védelmi technológiával felszerelve."
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "Növeli a Módosított konfiguráció, a Fejlesztett konfiguráció és a Jutalom védelmi technológia hatását a csata idejére. A direktíva felszereléséhez és aktiválásához szükség van ezekre a felszerelésekre a járműveden."
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "Csata előtti karbantartás"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "Növeli a Módosított konfiguráció hatását"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "Módosított konfiguráció 1. osztály"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "Módosított konfiguráció 2. osztály"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "Növeli az időtartamot, amíg az ellenséges jármű felderítve marad a járműved megsemmisülése után. Csökkenti az időtartamot, amíg felderítve maradsz az ellenség számára. Célmegjelölő és Bosszúálló készségekkel kombinálva a leghatékonyabb."
+
+msgid "improvedRadioCommunication/name"
+msgstr "Fejlesztett rádió berendezés"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "Növeli az időtartamot, amíg az ellenség felderítve marad és csökkenti az időtartamot, amíg a járműved felderítve marad"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "Növeli a járműtest, illetve a toronnyal rendelkező járművek esetén a torony forgási sebességét. Növeli a járműtest forgási sebességét és a löveg mozgatási sebességét a fix felépítménnyel rendelkező járműveknél. Csökkenti a löveg szórását mozgás közben, a járműtest és a torony forgatása közben, valamint tüzelés után. A Kuplungégető készséggel még hatékonyabb."
+
+msgid "improvedRotationMechanism/name"
+msgstr "Fejlesztett forgási mechanizmus"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "Növeli a forgási sebességet és csökkenti a löveg szórását mozgás és forgás közben"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "Fejlesztett forgási mechanizmus 1. osztály"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "Fejlesztett forgási mechanizmus 2. osztály"
+
+msgid "improvedSights/long_special"
+msgstr "Csökkenti a célzókör méretét és növeli a célzó és a teljesen becélzott löveg hatékonyságát. Ennek eredményeként nagyobb eséllyel találod el a célpontod."
+
+msgid "improvedSights/name"
+msgstr "Fejlesztett célzás"
+
+msgid "improvedSights/short_special"
+msgstr "Csökkenti a löveg szórását"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s a célzókör méretéhez, ha fejlesztett célzás (bármely osztály), jutalom célzó vagy pontosságjavító rendszer van felszerelve."
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "Növeli a Fejlesztett célzás vagy a Jutalom célzó hatását a csata idejére. A direktíva csak akkor fog működni, ha felszereled a megfelelő felszerelést."
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "Polírozott lencsék"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "Csökkenti a célzókör méretét"
+
+msgid "improvedSights_tier1/name"
+msgstr "Fejlesztett célzás 1. osztály"
+
+msgid "improvedSights_tier2/name"
+msgstr "Fejlesztett célzás 2. osztály"
+
+msgid "improvedSights_tier3/name"
+msgstr "Fejlesztett célzás 3. osztály"
+
+msgid "improvedVentilation/long_special"
+msgstr "Megnöveli a járműved számos tulajdonságát: látótáv, tűzgyorsaság, célzási idő, menettulajdonság és egyéb tulajdonságok. Viszont a felszerelés nyújtotta bónuszok csak akkor lesznek észrevehetőek, ha kombinálod a 100%-ra fejlesztett Bajtársak készséggel."
+
+msgid "improvedVentilation/name"
+msgstr "Fokozott szellőzés"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s a legénység hatékonysági bónuszához, ha Fokozott szellőzés (bármely osztály), Szellőztető rendszer vagy Jutalom szellőzés van felszerelve."
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "Növeli a Fokozott szellőzés (bármelyik osztály), a Szellőztető rendszer vagy a Jutalom szellőzés hatását a csata idejére. A direktíva felszereléséhez és aktiválásához szükség van ezekre a felszerelésekre a járműveden."
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "Légtelenítő"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "Megnöveli a szellőzés hatását"
+
+msgid "improvedVentilation_class1/name"
+msgstr "Fokozott szellőzés 1. osztály"
+
+msgid "improvedVentilation_class2/name"
+msgstr "Fokozott szellőzés 2. osztály"
+
+msgid "improvedVentilation_class3/name"
+msgstr "Fokozott szellőzés 3. osztály"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "Fokozott szellőzés 1. osztály"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "Fokozott szellőzés 2. osztály"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "Fokozott szellőzés 3. osztály"
+
+msgid "improved_suspension_1/name"
+msgstr "Fejlesztett felfüggesztés (1. típus)"
+
+msgid "improved_suspension_2/name"
+msgstr "Fejlesztett felfüggesztés (2. típus)"
+
+msgid "inspire/longDescr"
+msgstr "Megnöveli a saját és a közelben lévő csapattársak legénységének a teljesítményét egy meghatározott körön belül. % bónuszt ad a legénység minden tagjának fő képzettségéhez. A játékos, aki alkalmazza, nagyobb hatást kap."
+
+msgid "inspire/name"
+msgstr "Ösztönzés"
+
+msgid "inspire/shortDescr"
+msgstr "Bónuszt ad a saját és csapattársak legénységének fő képzettségéhez."
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "Nagy-kaliberű tüzérségi töltésgyorsító"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "Nagy-kaliberű tank töltésgyorsító"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s kábítás idejéből\n%(crewHitChance)s legénység sérülés elleni védelem"
+
+msgid "largeMedkit/descr"
+msgstr "Meggyógyítja az összes sérült legénységi tagot és eltávolítja a kábítást."
+
+msgid "largeMedkit/long_special"
+msgstr "Aktiváláskor meggyógyít minden sérült legénységi tagot és megszünteti a kábítás hatását. Passzív hatásként növeli a legénység sérülésekkel szembeni ellenállóságát. A fogyócikk minden nemzet, minden járműtípusán használható."
+
+msgid "largeMedkit/name"
+msgstr "Nagyméretű elsősegély készlet"
+
+msgid "largeMedkit/onUse"
+msgstr "Meggyógyítja az összes sérült legénységi tagot. Többször is használható egy csatában. A fogyócikk a csata végeztével eltűnik, ha egyszer is használva volt."
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "Meggyógyítja a legénység összes sérült tagját és eltávolítja a kábítást. Egy csatában többször is lehet használni. A fogyócikk eltűnik a csata után, ha legalább egyszer használtad azt."
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "Meggyógyítja az összes sérült legénységi tagot és megszünteti a kábítás hatását"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s a modul javítási sebességhez"
+
+msgid "largeRepairkit/descr"
+msgstr "Megjavítja az összes sérült modult."
+
+msgid "largeRepairkit/long_special"
+msgstr "Aktiváláskor megjavítja a sérült modulokat. Passzív hatása gyorsítja a javítás sebességét. Ez a fogyócikk minden nemzet minden járműtípusán használható."
+
+msgid "largeRepairkit/name"
+msgstr "Nagyméretű szerszám készlet"
+
+msgid "largeRepairkit/onUse"
+msgstr "Megjavítja az összes sérült modult. Többször is használható egy csatában. A fogyócikk a csata végeztével eltűnik, ha egyszer is használva volt."
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "Megjavítja az összes sérült modult"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "További 50% a Bosszúálló készséghez"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "A célmegjelölő készséget adja 100%-ra fejlesztve"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "A Bosszúálló készséggel a jármű megsemmisülése után további 2 másodpercig tudod jelenteni az ellenség pozícióját a csata idejére. Amint ez a készség eléri a 100%-ot, a felszerelt direktíva 1 másodpercet ad az időtartamhoz (összesen 3 másodpercig aktív). Ha még nem érte el, akkor a direktíva 100%-ra emeli a készség szintjét. (2 másodpercig aktív)."
+
+msgid "lastEffortBattleBooster/name"
+msgstr "Első a kötelesség"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "100%-ra fejleszti a Bosszúálló készséget vagy megnöveli annak hatását"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "Közepes-kaliberű tüzérségi gyorsító"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "Közepes-kaliberű tank töltésgyorsító"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "Tűzvezető rendszer 1. szint"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "Tűzvezető rendszer 1. szint"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "Tűzvezető rendszer 1. szint"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "Tűzvezető rendszer 2. szint"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "Tűzvezető rendszer 2. szint"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "Tűzvezető rendszer 2. szint"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "Tűzvezető rendszer 3. szint"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "Tűzvezető rendszer 3. szint"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "Tűzvezető rendszer 3. szint"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "Túlélőképesség-növelő csomag 1. szint"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "Túlélőképesség-növelő csomag 1. szint"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "Túlélőképesség-növelő csomag 1. szint"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "Túlélőképesség-növelő csomag 2. szint"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "Túlélőképesség-növelő csomag 2. szint"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "Túlélőképesség-növelő csomag 2. szint"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "Túlélőképesség-növelő csomag 3. szint"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "Túlélőképesség-növelő csomag 3. szint"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "Túlélőképesség-növelő csomag 3. szint"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "Pontosságjavító rendszer 1. szint"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "Pontosságjavító rendszer 1. szint"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "Pontosságjavító rendszer 1. szint"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "Pontosságjavító rendszer 2. szint"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "Pontosságjavító rendszer 2. szint"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "Pontosságjavító rendszer 2. szint"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "Pontosságjavító rendszer 3. szint"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "Pontosságjavító rendszer 3. szint"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "Pontosságjavító rendszer 3. szint"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "Mobilitásjavító rendszer 1. szint"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "Mobilitásjavító rendszer 1. szint"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "Mobilitásjavító rendszer 1. szint"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "Mobilitásjavító rendszer 2. szint"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "Mobilitásjavító rendszer 2. szint"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "Mobilitásjavító rendszer 2. szint"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "Mobilitásjavító rendszer 3. szint"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "Mobilitásjavító rendszer 3. szint"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "Mobilitásjavító rendszer 3. szint"
+
+msgid "nitro/battleDescr"
+msgstr "Ideiglenesen megnöveli a jármű motorjának teljesítményét %(enginePowerFactor)s-kal, valamint %(maxSpeedFactor)sx-esen növeli a végsebességet %(consumeSeconds)s másodpercen át."
+
+msgid "nitro/descr"
+msgstr "Ideiglenesen megnöveli a jármű motorjának teljesítményét %(enginePowerFactor)s-kal, valamint %(maxSpeedFactor)sx-esen növeli a végsebességet %(consumeSeconds)s másodpercen át."
+
+msgid "nitro/long_special"
+msgstr "Ideiglenesen megnöveli a jármű motorjának teljesítményét {green_Open}%(enginePowerFactor)s-kal{green_Close}, valamint {green_Open}%(maxSpeedFactor)sx-esen{green_Close} növeli a végsebességet {whiteSpanish_Open}%(consumeSeconds)s másodpercen át.{whiteSpanish_Close}"
+
+msgid "nitro/name"
+msgstr "Turbótöltő"
+
+msgid "nitro/short_special"
+msgstr "Ideiglenesen megnöveli a jármű motorjának teljesítményét {green_Open}%(enginePowerFactor)s-kal{green_Close}, valamint {green_Open}%(maxSpeedFactor)sx-esen{green_Close} növeli a végsebességet {whiteSpanish_Open}%(consumeSeconds)s másodpercen át.{whiteSpanish_Close}"
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "Alternatív konfiguráció: Kiegészítő kiosztás"
+
+msgid "passive_engineering/longDescr"
+msgstr "Bónuszt biztosít a foglalás és az utántöltés sebességéhez. Növeli az utántöltési sebességet, csökkenti az utántöltési kör frissüléséhez és a kulcspozíciók elfoglalásához szükséges időt."
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "Ez a harci tartalék nem használható önjáró lövegeken."
+
+msgid "passive_engineering/name"
+msgstr "Műszaki segítség"
+
+msgid "passive_engineering/shortDescr"
+msgstr "Bónuszt biztosít a foglalási sebességhez, foglalás blokkolásához és az utántöltéshez."
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "Nem használható önjáró lövegeken"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "Megháromszorozza a Biztonságos elhelyezés készség hatását"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "100%-ra képzett Biztonságos elhelyezés készséget ad"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "A Biztonságos elhelyezés készség javítja a lőszeres rekesz tartósságát a csata idejére. Amint ez a készség eléri a 100%-ot, a felszerelt direktíva megnöveli a hatását; ha még nem érte el, akkor a direktíva 100%-ra emeli a készség szintjét."
+
+msgid "pedantBattleBooster/name"
+msgstr "Lőszer rendező"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "100%-ra képzett Biztonságos elhelyezés készséget ad, vagy megnöveli annak hatását"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "{colorTagOpen}%(delay)d mp-en{colorTagClose} belül a kiválasztott területet tüzérségi csapás éri. {colorTagOpen}%(radius)d m{colorTagClose} sugarú területen belül minden megsebzett célpont {colorTagOpen}%(damage)d{colorTagClose} HP sebzést szenved el, és elkábul {colorTagOpen}%(stunDuration)d mp-re{colorTagClose}."
+
+msgid "poi_artillery_aoe/name"
+msgstr "Tüzérségi csapás"
+
+msgid "poi_radar/descr"
+msgstr "Amikor aktiválva van, minden ellenséges jármű látható marad {colorTagOpen}%(duration)d mp-ig{colorTagClose}."
+
+msgid "poi_radar/name"
+msgstr "Hadosztály radar"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "Megduplázza a Praktikusság készség hatását"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "100%-ra képzett Praktikusság készséget ad"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "A Praktikusság készség csökkenti a fogyócikkek visszatöltési idejét a csata során. Ha a készség szintje elérte a 100%-ot, a felszerelt direktíva megnöveli a hatását – ha még nem érte el a 100%-ot, akkor a direktíva 100%-ra emeli a készség szintjét."
+
+msgid "practicalityBattleBooster/name"
+msgstr "Alapos felkészülés"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "100%-ra képzett Praktikusság készséget ad, vagy megnöveli annak hatását"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s a motorteljesítményhez és a toronyforgási sebességhez a csata során."
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5%{colorTagClose} a motor teljesítményhez és a toronyforgási sebességhez."
+
+msgid "qualityFuel/long_special"
+msgstr "{colorTagOpen}5%{colorTagClose}-kal növeli a motorteljesítményt és a toronyforgási sebességet a csata idejére. A csata elején automatikusan aktiválódik és az egész csata alatt működik."
+
+msgid "qualityFuel/name"
+msgstr "Minőségi üzemanyag"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "{colorTagOpen}+5%{colorTagClose} a motorerőhöz és a torony forgási sebességéhez"
+
+msgid "radar/descr"
+msgstr "Felfedi az ellenséges járműveket és a hadizsákmányt a térképen."
+
+msgid "radar/name"
+msgstr "Rádió észlelés"
+
+msgid "rammer/long_special"
+msgstr "A tűzgyorsaság a legfontosabb tulajdonsága a járművednek. Ez a felszerelés igazán fontos a csatában, ezért mindenképpen szereld fel a járműveidre. Viszont a töltésgyorsítót nem lehet felszerelni olyan járművekre, amiknek tár töltőrendszere van."
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s a töltés időhöz töltésgyorsítóval (bármely lövegtípushoz és kaliberhez), innovatív töltőrendszerrel vagy jutalom töltésgyorsítóval felszerelve."
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "Növeli a Töltésgyorsító (bármelyik lövegtípus és kaliber), a Jutalom töltésgyorsító vagy az Innovatív töltőrendszer hatását a csata idejére. A direktíva felszereléséhez és aktiválásához szükség van ezekre a felszerelésekre a járműveden."
+
+msgid "rammerBattleBooster/name"
+msgstr "Rendszeresített lőszer rekesz"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "Megnöveli a töltésgyorsító hatását"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "Megduplázza a Célmegjelölő készség hatását"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "100%-ra képzett Célmegjelölő készséget ad"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "A Célmegjelölő készség további 2 másodpercre láthatóvá teszi a célzott ellenséget a csata idejére. Amint ez a készség eléri a 100%-ot, a felszerelt direktíva megnöveli a hatását. Ha még nem érte el, akkor a direktíva 100%-ra emeli a készség szintjét."
+
+msgid "rancorousBattleBooster/name"
+msgstr "Összpontosíts a célpontra"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "100%-ra képzett Célmegjelölő készséget ad, vagy megnöveli annak hatását"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s a legénység hatékonysági bónuszához a csata idejére."
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} a legénység hatékonysági bónuszához."
+
+msgid "ration/long_special"
+msgstr "A csata elején automatikusan aktiválódik és az egész csata alatt működik. Csak szovjet járművekhez."
+
+msgid "ration/name"
+msgstr "Pótellátmány"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "Csak szovjet járművekhez."
+
+msgid "ration/short_special"
+msgstr "Javítja a szovjet legénység teljesítményét"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s a legénység hatékonysági bónuszához a csata idejére."
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} a legénység hatékonysági bónuszához."
+
+msgid "ration_china/long_special"
+msgstr "A csata elején automatikusan aktiválódik és az egész csata alatt működik. Csak kínai járművekhez."
+
+msgid "ration_china/name"
+msgstr "Kiadósabb hadi porció"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "Csak kínai járművekhez."
+
+msgid "ration_china/short_special"
+msgstr "Javítja a kínai legénység teljesítményét"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s a legénység hatékonysági bónuszához a csata idejére."
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} a legénység hatékonysági bónuszához."
+
+msgid "ration_czech/long_special"
+msgstr "A csata elején automatikusan aktiválódik és az egész csata alatt működik. Csak csehszlovák járművekhez."
+
+msgid "ration_czech/name"
+msgstr "Bukta"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "Csak csehszlovák járművekhez."
+
+msgid "ration_czech/short_special"
+msgstr "Javítja a csehszlovák legénység teljesítményét"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s a legénység hatékonysági bónuszához a csata idejére."
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} a legénység hatékonysági bónuszához."
+
+msgid "ration_italy/long_special"
+msgstr "A csata elején automatikusan aktiválódik és az egész csata alatt működik. Csak olasz járművekhez."
+
+msgid "ration_italy/name"
+msgstr "Spagetti hús szósszal"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "Csak olasz járművekhez."
+
+msgid "ration_italy/short_special"
+msgstr "Javítja az olasz legénység teljesítményét"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s a legénység hatékonysági bónuszához a csata idejére."
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} a legénység hatékonysági bónuszához."
+
+msgid "ration_japan/long_special"
+msgstr "A csata elején automatikusan aktiválódik és az egész csata alatt működik. Csak japán járművekhez."
+
+msgid "ration_japan/name"
+msgstr "Onigiri"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "Csak japán járművekhez."
+
+msgid "ration_japan/short_special"
+msgstr "Javítja a japán legénység teljesítményét"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s a legénység hatékonysági bónuszához a csata idejére."
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} a legénység hatékonysági bónuszához."
+
+msgid "ration_poland/long_special"
+msgstr "A csata elején automatikusan aktiválódik és az egész csata alatt működik. Csak lengyel járművekhez."
+
+msgid "ration_poland/name"
+msgstr "Zsíros kenyér"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "Csak lengyel járművekhez."
+
+msgid "ration_poland/short_special"
+msgstr "Javítja a lengyel legénység teljesítményét"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s a legénység hatékonysági bónuszához a csata idejére."
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} a legénység hatékonysági bónuszához."
+
+msgid "ration_sweden/long_special"
+msgstr "A csata elején automatikusan aktiválódik és az egész csata alatt működik. Csak svéd járművekhez."
+
+msgid "ration_sweden/name"
+msgstr "Kávé fahéjas zsemlével"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "Csak svéd járművekhez."
+
+msgid "ration_sweden/short_special"
+msgstr "Javítja a svéd legénység teljesítményét"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s a legénység hatékonysági bónuszához a csata idejére."
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} a legénység hatékonysági bónuszához."
+
+msgid "ration_uk/long_special"
+msgstr "A csata elején automatikusan aktiválódik és az egész csata alatt működik. Csak brit járművekhez."
+
+msgid "ration_uk/name"
+msgstr "Puding és tea"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "Csak brit járművekhez."
+
+msgid "ration_uk/short_special"
+msgstr "Javítja a brit legénység teljesítményét"
+
+msgid "recon/longDescr"
+msgstr "Parancsot ad egy felderítő repülőnek, hogy végezzen felderítést egy nagyobb területen. A repülőgép felderíti a látókörébe került járműveket, amik láthatóak maradnak egy bizonyos ideig. Felfedezi az aknamezőket."
+
+msgid "recon/name"
+msgstr "Felderítő repülés"
+
+msgid "recon/shortDescr"
+msgstr "Felderíti az ellenséges járműveket és aknamezőket."
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} a motor teljesítményhez, de károsítja a motort."
+
+msgid "removedRpmLimiter/long_special"
+msgstr "Megnöveli {colorTagOpen}10%-al{colorTagClose} a motorerőt de miközben aktív fokozatosan szívja el a motor életerejét. Ki/be lehet kapcsolni több alkalommal is egy csatában. Csak a kínai és szovjet járműveken használható."
+
+msgid "removedRpmLimiter/name"
+msgstr "Végsebesség-határoló kikapcsolása"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s a motor teljesítményhez, de károsítja a motort. Többször is használható egy csata során."
+
+msgid "removedRpmLimiter/restriction"
+msgstr "Csak szovjet és kínai járművekhez."
+
+msgid "removedRpmLimiter/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} a motorerőhöz, de károsítja a motort"
+
+msgid "repairpoint/battleDescr"
+msgstr "Létrehoz egy ideiglenes statikus területet, amely megjavítja az összes sérült modult, eltávolítja az ÖSSZES negatív hatást és másodpercenként visszaállítja a járműved életerejének %(healPerTick)s-át %(timer)s mp-en át.\n\n*A hatásterületen belül tartózkodó szövetséges járművek életerejét is visszaállítja."
+
+msgid "repairpoint/descr"
+msgstr "Létrehoz egy ideiglenes statikus területet, amely megjavítja az összes sérült modult, eltávolítja az ÖSSZES negatív hatást és másodpercenként visszaállítja a járműved életerejének %(healPerTick)s-át %(timer)s mp-en át.\n\n*A hatásterületen belül tartózkodó szövetséges járművek életerejét is visszaállítja."
+
+msgid "repairpoint/long_special"
+msgstr "Létrehoz egy ideiglenes statikus területet, amely megjavítja az összes sérült modult, eltávolítja az ÖSSZES negatív hatást és másodpercenként {green_Open}visszaállítja a járműved életerejének %(healPerTick)s-át{green_Close} {whiteSpanish_Open}%(timer)s másodpercen át.{whiteSpanish_Close}\n\n*A hatásterületen belül tartózkodó szövetséges járművek életerejét is visszaállítja."
+
+msgid "repairpoint/name"
+msgstr "Javító zóna"
+
+msgid "repairpoint/short_special"
+msgstr "Létrehoz egy ideiglenes statikus területet, amely megjavítja az összes sérült modult, eltávolítja az ÖSSZES negatív hatást és másodpercenként {green_Open}visszaállítja a járműved életerejének %(healPerTick)s-át{green_Close} {whiteSpanish_Open}%(timer)s másodpercen át.{whiteSpanish_Close}\n\n*A hatásterületen belül tartózkodó szövetséges járművek életerejét is visszaállítja."
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "Huzagolt lövegcső tisztítás (1. típus)"
+
+msgid "roleSlot/name"
+msgstr "Második felszerelés férőhely kategória"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "Passzív védelmi rendszer"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "Passzív\nvédelmi rendszer"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "Lőszerrekesz újrakonfigurálás"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "Lőszerrekesz\nújrakonfigurálás"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "Javítható lánctalpak"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "Javítható\nlánctalpak"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "Motortér beállítások"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "Motortér\nbeállítások"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "Megerősített felfüggesztés"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "Megerősített\nfelfüggesztés"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "Könnyű felfüggesztés"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "Könnyű\nfelfüggesztés"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "Célzórendszer csiszolása"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "Célzórendszer\ncsiszolása"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "Parallaxis beállítás"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "Parallaxis\nbeállítás"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "Ejektor igazítás"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "Ejektor\nigazítás"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "Derékszögű periszkóp"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "Derékszögű\nperiszkóp"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "Töltési mechanizmus igazítás"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "Töltési mechanizmus\nigazítás"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "Célzási mechanizmus igazítás"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "Célzási mechanizmus\nigazítás"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "Kihajtás hangolás"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "Kihajtás\nhangolás"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "Elektromos célzórendszer"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "Elektromos\ncélzórendszer"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "Új célzórendszer fogaskerekek"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "Új\ncélzórendszer fogaskerekek"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "Lövegzár igazítás"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "Lövegzár\nigazítás"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "Általános súlycsökkentés"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "Általános\nsúlycsökkentés"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "Általános ellenállósság-növelés"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "Általános\nellenállósság-növelés"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "Matt festés"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "Matt\nfestés"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "Extra hátrameneti fokozat"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "Extra\nhátrameneti fokozat"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "Felső vezérműtengelyes motor"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "Felső vezérműtengelyes\nmotor"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "Fejlesztett töltésgyorsító"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "Fejlesztett\ntöltésgyorsító"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "Kiegészítő zajszigetelés"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "Kiegészítő\nzajszigetelés"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "Bélés eltávolítása"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "Bélés\neltávolítása"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "Kiegészítő védelmi rendszer"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "Kiegészítő védelmi\nrendszer"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "Könnyű rögzítési pontok"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "Könnyű\nrögzítési pontok"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "Tápellátás újrakábelezés (1. beállítás)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "Tápellátás\nújrakábelezés (1. beállítás)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "Tápellátás újrakábelezés (2. beállítás)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "Tápellátás\nújrakábelezés (2. beállítás)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "Megerősített platform"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "Megerősített\nplatform"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "Könnyű platform"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "Könnyű\nplatform"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "Hangsúly a mobilitáson"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "Hangsúly a\nmobilitáson"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "Hangsúly a tűzerőn"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "Hangsúly a\ntűzerőn"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "Nehéz löveg"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "Nehéz\nlöveg"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "Könnyű löveg"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "Könnyű\nlöveg"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "Kimeneti teljesítmény hangolás (1. beállítás)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "Kimeneti teljesítmény\nhangolás (1. beállítás)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "Kimeneti teljesítmény hangolás (2. beállítás)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "Kimeneti teljesítmény\nhangolás (2. beállítás)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "Megerősített járműtest"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "Megerősített\njárműtest"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "Könnyű járműtest"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "Könnyű\njárműtest"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Tükröződésmentes optikai bevonat"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Tükröződésmentes\noptikai bevonat"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Külső látási rendszer"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Külső látási\nrendszer"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Panorámás triplex"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Panorámás\ntriplex"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Szűk látószögű megfigyelő eszköz"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Szűk látószögű\nmegfigyelő eszköz"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "Megerősített elsődleges szerkezet"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "Megerősített\nelsődleges szerkezet"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "Toronykamra bővítés"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "Toronykamra\nbővítés"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "Felderítő készlet"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "Felderítő\nkészlet"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "Roham készlet"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "Roham\nkészlet"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "Fejlett ellenállósság-növelés"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "Fejlett\nellenállósság-növelés"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "Fejlesztett célzás javítás"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "Fejlesztett célzás\njavítás"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "Kiegészítő megfigyelő eszközök"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "Kiegészítő\nmegfigyelő eszközök"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "Megerősített illesztések"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "Megerősített\nillesztések"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "Töltési mechanizmus igazítás"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "Töltési mechanizmus\nigazítás"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "Célzási mechanizmus igazítás"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "Célzási mechanizmus\nigazítás"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "Kihajtás hangolás"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "Kihajtás\nhangolás"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "Elektromos célzórendszer"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "Elektromos\ncélzórendszer"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "Lövegzár igazítás"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "Lövegzár\nigazítás"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "Új célzórendszer fogaskerekek"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "Új\ncélzórendszer fogaskerekek"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "Befecskendező rendszer hangolás"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "Befecskendező rendszer\nhangolás"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "Látómező igazítás"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "Látómező\nigazítás"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "Modul ellenállóság-növelés"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "Modul\nellenállóság-növelés"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "Könnyű ötvözetű rögzítési pontok"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "Könnyű ötvözetű\nrögzítési pontok"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "Lövegzár igazítás"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "Lövegzár\nigazítás"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "Új célzórendszer fogaskerekek"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "Új\ncélzórendszer fogaskerekek"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "Nagyméretű fúvókák"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "Nagyméretű\nfúvókák"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "Érzékeny optika"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "Érzékeny\noptika"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "Megerősített támasztó görgők"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "Megerősített\ntámasztó görgők"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "Könnyű támasztó görgők"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "Könnyű\ntámasztó görgők"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "Felfüggesztés igazítás"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "Felfüggesztés\nigazítás"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "Motor hangolás"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "Motor\nhangolás"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "Hunter S készlet"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "Hunter S\nkészlet"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "Hunter C készlet"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "Hunter C\nkészlet"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "Hidraulika igazítás (1. beállítás)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "Hidraulika\nigazítás (1. beállítás)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "Hidraulika igazítás (2. beállítás)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "Hidraulika\nigazítás (2. beállítás)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "Töltési mechanizmus igazítás"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "Töltési mechanizmus\nigazítás"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "Célzási mechanizmus igazítás"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "Célzási mechanizmus\nigazítás"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "Tűlélőképesség növelés"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "Tűlélőképesség\nnövelés"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "Súly csökkentése"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "Súly\ncsökkentése"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "Terepjáró felfüggesztés"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "Terepjáró\nfelfüggesztés"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "Könnyű felfüggesztés"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "Könnyű\nfelfüggesztés"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "Parallaxis beállítás"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "Parallaxis\nbeállítás"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "Célzórendszer csiszolása"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "Célzórendszer\ncsiszolása"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "Hangszigetelés"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "Hangszigetelés"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "Elektromos vezérlésű periszkóp"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "Elektromos vezérlésű\nperiszkóp"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "Szelep igazítás (1. beállítás)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "Szelep igazítás\n(1. beállítás)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "Szelep igazítás (2. beállítás)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "Szelep igazítás\n(2. beállítás)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "Töltési mechanizmus igazítás"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "Töltési mechanizmus\nigazítás"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "Célzási mechanizmus igazítás"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "Célzási mechanizmus\nigazítás"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "Megerősített repeszvédelem"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "Megerősített\nrepeszvédelem"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "Könnyű repeszvédelem"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "Könnyű\nrepeszvédelem"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "Modul ellenállóság-növelés"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "Modul\nellenállóság-növelés"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "Könnyű ötvözetű rögzítési pontok"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "Könnyű ötvözetű\nrögzítési pontok"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "Felfüggesztés kar igazítás"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "Felfüggesztés kar\nigazítás"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "Megnövelt látóképesség"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "Megnövelt\nlátóképesség"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "Turbótöltő hangolás"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "Turbótöltő\nhangolás"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "Tükröződésmentes fényszóró bevonat"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "Tükröződésmentes\nfényszóró bevonat"
+
+msgid "selfBuff/battleDescr"
+msgstr "%(duration)s másodpercre csökkenti a löveg szórását és a célzási időt %(gunAimingTime)s-kal, valamint javítja a löveg stabilitását és a tűzgyorsaságot.\n\n*Nem befolyásolja a lövés és a következő lőszer tárba, lövegbe vagy tárolóba való betöltése közötti időt."
+
+msgid "selfBuff/descr"
+msgstr "%(duration)s másodpercre csökkenti a löveg szórását és a célzási időt %(gunAimingTime)s-kal, valamint javítja a löveg stabilitását és a tűzgyorsaságot.\n\n*Nem befolyásolja a lövés és a következő lőszer tárba, lövegbe vagy tárolóba való betöltése közötti időt."
+
+msgid "selfBuff/longDescr"
+msgstr "{whiteSpanish_Open}%(duration)s másodpercre{whiteSpanish_Close} csökkenti a löveg szórását és a célzási időt {green_Open}%(gunAimingTime)s-kal{green_Close}, valamint javítja a löveg stabilitását és a tűzgyorsaságot.\n\n*Nem befolyásolja a lövés és a következő lőszer tárba, lövegbe vagy tárolóba való betöltése közötti időt."
+
+msgid "selfBuff/name"
+msgstr "Célpont követés"
+
+msgid "selfBuff/shortDescr"
+msgstr "{whiteSpanish_Open}%(duration)s másodpercre{whiteSpanish_Close} csökkenti a löveg szórását és a célzási időt {green_Open}%(gunAimingTime)s-kal{green_Close}, valamint javítja a löveg stabilitását és a tűzgyorsaságot.\n\n*Nem befolyásolja a lövés és a következő lőszer tárba, lövegbe vagy tárolóba való betöltése közötti időt."
+
+msgid "shells_consumables_switch/name"
+msgstr "Alternatív konfiguráció: Alapvető kiosztás"
+
+msgid "shotPassion/battleDescr"
+msgstr "Csökkenti a célzórendszer hatékonyságát és a lövegstabilitást %(gunAimingTime)s-kal %(duration)s mp-en át, de cserébe minden páncélt átütő találat %(damageIncreasePerShot)s-kal növeli a sebzésedet. A sebzés legfeljebb 5-ször növelhető. A sebzést nem okozó találatok és elvétett lövések után a sebzésbónusz visszaáll 0-ra.\n\n*Az Elektromos kisülés által okozott sebzés is növeli a bónuszt."
+
+msgid "shotPassion/descr"
+msgstr "Csökkenti a célzórendszer hatékonyságát és a lövegstabilitást %(gunAimingTime)s-kal %(duration)s mp-en át, de cserébe minden páncélt átütő találat %(damageIncreasePerShot)s-kal növeli a sebzésedet. A sebzés legfeljebb 5-ször növelhető. A sebzést nem okozó találatokat és az elvétett lövéseket követően a sebzésbónusz visszaáll 0-ra.\n\n*Az elektromos kisülés által okozott sebzés is növeli a bónuszt."
+
+msgid "shotPassion/longDescr"
+msgstr "{whiteSpanish_Open}%(duration)s másodpercen át{whiteSpanish_Close} {red_Open}%(gunAimingTime)s-kal{red_Close} csökkenti a célzórendszered hatékonyságát és a lövegstabilizálást, de cserébe minden páncélt átütő találat {green_Open}%(damageIncreasePerShot)s-kal növeli a sebzésedet.{green_Close} {whiteSpanish_Open}Legfeljebb 5-ször{whiteSpanish_Close} halmozható. A sebzést nem okozó találatok és elvétett lövések után a sebzésbónusz visszaáll 0-ra.\n\n*Az Elektromos kisülés által okozott sebzés is növeli a bónuszt."
+
+msgid "shotPassion/name"
+msgstr "Hullámzó hevület"
+
+msgid "shotPassion/shortDescr"
+msgstr "{whiteSpanish_Open}%(duration)s másodpercen át{whiteSpanish_Close} {red_Open}%(gunAimingTime)s-kal{red_Close} csökkenti a célzórendszered hatékonyságát és a lövegstabilizálást, de cserébe minden páncélt átütő találat {green_Open}%(damageIncreasePerShot)s-kal növeli a sebzésedet.{green_Close} {whiteSpanish_Open}Legfeljebb 5-ször{whiteSpanish_Close} halmozható. A sebzést nem okozó találatok és elvétett lövések után a sebzésbónusz visszaáll 0-ra.\n\n*Az Elektromos kisülés által okozott sebzés is növeli a bónuszt."
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "A hatodik érzék 1 másodperccel korábban aktiválódik"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "A hatodik érzék tulajdonság lehetővé teszi, hogy a parancsnok megállapítsa, ha az ellenség felderítette a járművet. A jármű felderítése után 3 mp elteltével aktiválódik."
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "A Hatodik érzék készség lehetővé teszi a parancsnok számára, hogy a csata során megállapítsa, hogy az ellenség felderítette-e a járművet. A felszerelt direktíva növeli a hatását."
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "Fokozott összpontosítás"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "Növeli a hatodik érzék parancsnoki tulajdonság hatását"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "Meggyógyítja az összes sérült legénységi tagot és eltávolítja a kábítást."
+
+msgid "smallMedkit/long_special"
+msgstr "Aktiváláskor meggyógyítja az összes harckocsizót és megszünteti a kábítás hatását. Ez a fogyócikk minden nemzet minden járműtípusán használható. A csata után eltűnik a fogyócikk, ha legalább egyszer használatban volt."
+
+msgid "smallMedkit/name"
+msgstr "Kis elsősegély készlet"
+
+msgid "smallMedkit/onUse"
+msgstr "Meggyógyítja az összes sérült legénységi tagot és eltávolítja a kábítást."
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "Meggyógyítja az összes sérült legénységi tagot és eltávolítja a kábítást."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "Meggyógyítja az összes sérült legénységi tagot és megszünteti a kábítás hatását."
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "Megjavítja az összes sérült modult."
+
+msgid "smallRepairkit/long_special"
+msgstr "Aktiváláskor megjavítja az összes sérült modult. Ez a fogyócikk minden nemzet minden járműtípusán használható. A csata után eltűnik a fogyócikk, ha legalább egyszer használatban volt."
+
+msgid "smallRepairkit/name"
+msgstr "Kis javító készlet"
+
+msgid "smallRepairkit/onUse"
+msgstr "Megjavítja az összes sérült modult. Ez a fogyócikk minden nemzet minden járműtípusán használható. A csata után eltűnik a fogyócikk, ha legalább egyszer használatban volt."
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "Megjavítja az összes sérült modult."
+
+msgid "smoke/longDescr"
+msgstr "Füstfüggönyöket képez, melyek elrejtik az összes járművet a füstben és a füst mögött. A füstön belüli ellenséges járművek látótávolsága és a legénységeik teljesítménye csökken."
+
+msgid "smoke/name"
+msgstr "Füstfüggöny"
+
+msgid "smoke/shortDescr"
+msgstr "A füst elrejti a benne/mögötte lévő tankot. A füstben a látótávolság, legénység teljesítménye csökken."
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "Megduplázza a Sima utazás készség hatását"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "100%-ra képzett Sima utazás készséget ad"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "A Sima utazás készség növeli a mozgás közbeni tüzelés pontosságát a csatában. Ha a készség szintje elérte a 100%-ot, a felszerelt direktíva megnöveli a hatását – ha még nem érte el a 100%-ot, akkor a direktíva 100%-ra emeli a készség szintjét."
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "Sebességváltó finomítás"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "100%-ra képzett Sima utazás készséget ad, vagy megnöveli annak hatását"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "Megduplázza a Pillanatkép készség hatását"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "100%-ra képzett Pillanatkép készséget ad"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "A Pillanatkép készség növeli a löveg pontosságát toronyforgás közben a csatában. Ha a készség szintje elérte a 100%-ot, a felszerelt direktíva megnöveli a hatását – ha még nem érte el a 100%-ot, akkor a direktíva 100%-ra emeli a készség szintjét."
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "Biztos kéz"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "100%-ra képzett Pillanatkép készséget ad, vagy megnöveli annak hatását"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "Önjáró aknát helyez le, amely a legközelebbi ellenséget üldözi legfeljebb %(botLifeTime)s mp-ig, és robbanáskor kis távolságon belül 400-600 HP sebzést okoz.\n\n*Az ellenségek lövéssel vagy ütközéssel megsemmisíthetik a tűzlabdát. A tűzlabda a célpont eléréskor további ütközési sebzést okoz."
+
+msgid "spawn_kamikaze/descr"
+msgstr "Önjáró aknát helyez le, amely a legközelebbi ellenséget üldözi legfeljebb %(botLifeTime)s mp-ig, és robbanáskor kis távolságon belül 400-600 HP sebzést okoz.\n\n*Az ellenségek lövéssel vagy ütközéssel megsemmisíthetik a tűzlabdát. A tűzlabda a célpont eléréskor további ütközési sebzést okoz."
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "Önjáró aknát helyez le, amely a legközelebbi ellenséget üldözi legfeljebb {whiteSpanish_Open}%(botLifeTime)s mp-ig{whiteSpanish_Close}, és robbanáskor kis távolságon belül {whiteSpanish_Open}400-600 HP sebzést{whiteSpanish_Close} okoz.\n\n*Az ellenségek lövéssel vagy ütközéssel megsemmisíthetik a tűzlabdát. A tűzlabda a célpont eléréskor további ütközési sebzést okoz."
+
+msgid "spawn_kamikaze/name"
+msgstr "Tűzlabda"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "Önjáró aknát helyez le, amely a legközelebbi ellenséget üldözi legfeljebb {whiteSpanish_Open}%(botLifeTime)s mp-ig{whiteSpanish_Close}, és robbanáskor kis távolságon belül {whiteSpanish_Open}400-600 HP sebzést{whiteSpanish_Close} okoz.\n\n*Az ellenségek lövéssel vagy ütközéssel megsemmisíthetik a tűzlabdát. A tűzlabda a célpont eléréskor további ütközési sebzést okoz."
+
+msgid "stealthRadar/descr"
+msgstr "Bónuszt ad az álcázáshoz és a látótávolsághoz. Csökkenti az ellenséges járművek álcázását."
+
+msgid "stealthRadar/long_descr"
+msgstr "Növeli a járműved álcázási paraméterét %(activationDelay)s mp után megáll, és csökkenti az ellenséges járművek álcázását. Passzív bónuszt biztosít a látótávolsághoz és felderíti az ellenséges aknákat. Nem működik a jármű mozgása közben."
+
+msgid "stealthRadar/name"
+msgstr "Sentinel"
+
+msgid "stealthRadar/short_descr"
+msgstr "Bónuszt ad az álcázáshoz és a látótávolsághoz. Csökkenti az ellenséges járművek álcázását."
+
+msgid "stereoscope/battleDescr"
+msgstr "Növeli az álló helyzetű jármű látótávját 3 mp-cel a megállás után (445 méterig)"
+
+msgid "stereoscope/long_special"
+msgstr "A jó látótáv hatalmas előnyt jelenthet a csatában. Ez a felszerelés az alacsony, pontos löveggel rendelkező páncélvadászok számára előnyös. A jármű megállása után 3 másodperccel aktiválódik."
+
+msgid "stereoscope/name"
+msgstr "Periszkóp távcső"
+
+msgid "stereoscope_tier1/name"
+msgstr "Periszkóp távcső 1. osztály"
+
+msgid "stereoscope_tier2/name"
+msgstr "Periszkóp távcső 2. osztály"
+
+msgid "stereoscope_tier3/name"
+msgstr "Periszkóp távcső 3. osztály"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "Felfüggesztés elemek cseréje (1. típus)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "Felfüggesztés elemek cseréje (2. típus)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "Forgási mechanizmus csiszolás (1. típus)"
+
+msgid "tankRammer/name"
+msgstr "Töltésgyorsító"
+
+msgid "tankRammer_tier1/name"
+msgstr "Töltésgyorsító 1. osztály"
+
+msgid "tankRammer_tier2/name"
+msgstr "Töltésgyorsító 2. osztály"
+
+msgid "thunderStrike/battleDescr"
+msgstr "Olyan zónát hoz létre, ahol %(thunderCount)s elektromos kisülések sorozata következik be nagy gyakorisággal. Minden kisülés %(damage)s sebzést okoz, és átmenetileg csökkenti minden ellenséges jármű mobilitását a képesség hatásterületén belül.\n\n*A képesség aktiválása és az első kisülés között %(delay)s másodperc késleltetés van. A negatív hatás javítókészlettel semlegesíthető."
+
+msgid "thunderStrike/descr"
+msgstr "Olyan zónát hoz létre, ahol %(thunderCount)s elektromos kisülések következnek be nagy gyakorisággal. Minden kisülés %(damage)s sebzést okoz, és átmenetileg csökkenti minden ellenséges jármű mobilitását a képesség hatásterületén belül.\n\n*A képesség aktiválása és az első kisülés között %(delay)s másodperc késleltetés van. A negatív hatás javítókészlettel semlegesíthető."
+
+msgid "thunderStrike/longDescr"
+msgstr "Olyan zónát hoz létre, ahol %(thunderCount)s elektromos kisülések sorozata következik be nagy gyakorisággal. Minden kisülés {whiteSpanish_Open}%(damage)s sebzést{whiteSpanish_Close} okoz, és átmenetileg csökkenti minden ellenséges jármű mobilitását a képesség hatásterületén belül.\n\n*A képesség aktiválása és az első kisülés között %(delay)s másodperc késleltetés van. A negatív hatás javítókészlettel semlegesíthető."
+
+msgid "thunderStrike/name"
+msgstr "Elektromos kisülés"
+
+msgid "thunderStrike/shortDescr"
+msgstr "Olyan zónát hoz létre, ahol %(thunderCount)s elektromos kisülések sorozata következik be nagy gyakorisággal. Minden kisülés {whiteSpanish_Open}%(damage)s sebzést{whiteSpanish_Close} okoz, és átmenetileg csökkenti minden ellenséges jármű mobilitását a képesség hatásterületén belül.\n\n*A képesség aktiválása és az első kisülés között %(delay)s másodperc késleltetés van. A negatív hatás javítókészlettel semlegesíthető."
+
+msgid "trappoint/battleDescr"
+msgstr "%(duration)s másodpercre egy olyan területet hoz létre, amely a mobilitási paramétereket csökkenti %(vehicleMaxSpeed)s-kal, a löveg újratöltési és célzási idejét pedig %(gunReloadTime)s-kal növeli a területen belül tartózkodó összes ellenséges járműre vonatkozóan."
+
+msgid "trappoint/descr"
+msgstr "%(duration)s másodpercre egy olyan területet hoz létre, amely a mobilitási paramétereket %(vehicleMaxSpeed)s-kal, a löveg újratöltési és célzási sebességét pedig %(gunReloadTime)s-kal csökkenti a területen belül tartózkodó összes ellenséges járműre vonatkozóan."
+
+msgid "trappoint/long_special"
+msgstr "{whiteSpanish_Open}%(duration)s másodpercre{whiteSpanish_Close} egy olyan területet hoz létre, amely a mobilitási paramétereket {whiteSpanish_Open}%(vehicleMaxSpeed)s-kal{whiteSpanish_Close}, a löveg újratöltési és célzási {whiteSpanish_Open}sebességét pedig %(gunReloadTime)s-kal{whiteSpanish_Close} csökkenti a területen belül tartózkodó összes ellenséges járműre vonatkozóan."
+
+msgid "trappoint/name"
+msgstr "Csapda"
+
+msgid "trappoint/short_special"
+msgstr "{whiteSpanish_Open}%(duration)s másodpercre{whiteSpanish_Close} egy olyan területet hoz létre, amely a mobilitási paramétereket {whiteSpanish_Open}%(vehicleMaxSpeed)s-kal{whiteSpanish_Close}, a löveg újratöltési és célzási {whiteSpanish_Open}sebességét pedig %(gunReloadTime)s-kal{whiteSpanish_Close} növeli a területen belül tartózkodó összes ellenséges járműre vonatkozóan."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "A hatékonysága a jármű típusától függően változik. Javítja az álló és mozgó jármű álcázását. Hasznos aktív felderítés és veszélyes pozícióból történő passzív felderítés során."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "Jutalom kipufogó rendszer"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "Javítja az álló vagy mozgó jármű álcázását."
+
+msgid "trophyBasicAimDrives/name"
+msgstr "Jutalom célzó rendszer"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "Növeli a löveg célzási sebességét a gyorsabb, pontos tüzelésért."
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "Jutalom stabilizáló"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "Csökkenti a löveg szórását tüzeléskor, mozgás vagy forgás közben."
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "Jutalom távcső"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "Növeli a látótávolságot álló és mozgó járműveknek egyaránt."
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "Teljesen visszaállítja a felfüggesztés életerejét a javítás után."
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "Visszaállítja a felfüggesztést a javítás után."
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "Növeli a jármű ellenállóságát és javítási sebességét. Csökkenti a felfüggesztés által a járműtestnek okozott sérülést ütközéskor. Teljesen visszaállítja a felfüggesztés életerejét javítás után. Csökkenti a lánctalp megsemmisülésének esélyét sebzés elszenvedésekor, lehetővé téve, hogy a járműveddel mozgásban maradhass, amíg csak lehet."
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "Jutalomedzés"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "Növeli a jármű ellenállóságát, és védi a felfüggesztést"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "Jutalom védelmi technológia"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "Jutalom forgási mechanizmus"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "Csökkenti a célzókör méretét és növeli a célzó és a teljesen becélzott löveg hatékonyságát. Ennek eredményeként nagyobb eséllyel találod el a célpontod."
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "Jutalom célzó"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "Csökkenti a löveg szórását"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "Jutalom szellőzés"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "Növeli a legénység hatékonyságát, ami pozitív hatással van a jármű legtöbb karakterisztikájára."
+
+msgid "trophyBasicTankRammer/name"
+msgstr "Jutalom töltésgyorsító"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "Gyorsítja a löveg töltését. Nincs megkötés osztályra."
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "Növeli a motorteljesítményt, jobb gyorsulást, manőverezhetőséget és emelkedést biztosítva terepen. Növeli a jármű végsebességét és maximális tolatási sebességét, lehetővé téve kulcspozíciók elfoglalását és az ellenséges tűz elkerülését."
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "Jutalom turbótöltő"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "Növeli a motor teljesítményét és a végsebességet"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} {arrow} a látótávolsághoz maximum 445 m-ig"
+
+msgid "trophyOptics/name"
+msgstr "Jutalom távcső"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "Jutalom kipufogó rendszer"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "Jutalom célzó rendszer"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "Jutalom stabilizáló"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "Jutalom távcső"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "Teljesen visszaállítja a felfüggesztés életerejét a javítás után."
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Visszaállítja a felfüggesztést a javítás után."
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "Jutalomedzés"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "Jutalom védelmi technológia"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "Jutalom forgási mechanizmus"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "Jutalom célzó"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "Jutalom szellőzés"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "Jutalom töltésgyorsító"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "Jutalom turbótöltő"
+
+msgid "turbocharger/long_special"
+msgstr "Növeli a motorteljesítményt, jobb gyorsulást, manőverezhetőséget és emelkedést biztosítva terepen. Növeli a jármű végsebességét és maximális tolatási sebességét, lehetővé téve kulcspozíciók elfoglalását és az ellenséges tűz elkerülését."
+
+msgid "turbocharger/name"
+msgstr "Turbótöltő"
+
+msgid "turbocharger/short_special"
+msgstr "Növeli a motor teljesítményét és a végsebességet"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s a motorerőhöz, ha Turbótöltő (bármely osztály), Jutalom turbótöltő, Fejlesztett kompresszor vagy Mobilitásjavító rendszer van felszerelve."
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "Növeli a turbótöltő (bármely osztály), jutalom turbótöltő vagy a fejlesztett kompresszor hatását egy csata során. A direktíva csak akkor fog működni, ha felszereled a megfelelő felszerelést."
+
+msgid "turbochargerBattleBooster/name"
+msgstr "Üzemanyagszűrő csere"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "Megnöveli a motorerőt"
+
+msgid "turbocharger_tier1/name"
+msgstr "Turbótöltő 1. osztály"
+
+msgid "turbocharger_tier2/name"
+msgstr "Turbótöltő 2. osztály"
+
+msgid "turbocharger_tier3/name"
+msgstr "Turbótöltő 3. osztály"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "Megduplázza a Kuplungégető készség hatását"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "100%-ra képzett Kuplungégető készséget ad"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "A Kuplungégető készség megnöveli mind az álló, mind a mozgó jármű fordulási sebességet a csatában. Ha a készség szintje elérte a 100%-ot, a felszerelt direktíva megnöveli a hatását – ha még nem érte el a 100%-ot, akkor a direktíva 100%-ra emeli a készség szintjét."
+
+msgid "virtuosoBattleBooster/name"
+msgstr "Harcmenet"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "100%-ra képzett Kuplungégető készséget ad, vagy megnöveli annak hatását"

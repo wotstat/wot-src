@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "domain/accuracy/description"
+msgstr "Skup parametara koji prikazuje sveukupnu učinkovitost paljbe na neprijatelja."
+
+msgid "domain/accuracy/name"
+msgstr "Učinkovitost paljbe"
+
+msgid "domain/armorPiercing/description"
+msgstr "Skup parametara koji prikazuje sposobnost vozila u probijanju neprijateljskog oklopa."
+
+msgid "domain/armorPiercing/name"
+msgstr "Probojnost"
+
+msgid "domain/battleParams/description"
+msgstr "Skup parametara koji prikazuje osnovnu mehaniku igre."
+
+msgid "domain/battleParams/name"
+msgstr "Borbeni parametri"
+
+msgid "domain/comp7LightSeasonModifiers/description"
+msgstr "Modifikatori specifični za režim koji mjenjaju parametre vozila."
+
+msgid "domain/comp7LightSeasonModifiers/name"
+msgstr "Modifikatori Lagane Navale"
+
+msgid "domain/comp7SeasonModifiers/description"
+msgstr "Modifikatori specifični za režim koji mjenjaju parametre vozila."
+
+msgid "domain/comp7SeasonModifiers/name"
+msgstr "Modifikatori Navale"
+
+msgid "domain/concealment/description"
+msgstr "Skup parametara koji prikazuje sposobnost vozila da ostane neotkriveno."
+
+msgid "domain/concealment/name"
+msgstr "Skrivenost"
+
+msgid "domain/damageDealing/description"
+msgstr "Skup parametara koji prikazuje sposobnost vozila u nanošenju štete."
+
+msgid "domain/damageDealing/name"
+msgstr "Nanošenje štete"
+
+msgid "domain/mobility/description"
+msgstr "Skup parametara koji prikazuje dinamičke i brzinske karakteristike vašeg vozila."
+
+msgid "domain/mobility/name"
+msgstr "Pokretljivost i dinamika"
+
+msgid "domain/randomization/description"
+msgstr "Skup parametara koji prikazuju udaljenost potencijalne štete i probojnosti."
+
+msgid "domain/randomization/name"
+msgstr "Nasumične vrijednosti"
+
+msgid "domain/sustaining/description"
+msgstr "Skup parametara koji prikazuje oporavak oštećenih modula/ozlijeđene posade."
+
+msgid "domain/sustaining/name"
+msgstr "Popravljivost"
+
+msgid "domain/visibility/description"
+msgstr "Skup parametara koji prikazuje sposobnost vozila u otkrivanju neprijatelja."
+
+msgid "domain/visibility/name"
+msgstr "Vidokrug"
+
+msgid "domain/vitality/description"
+msgstr "Skup parametara koji prikazuje sposobnost preživljavanja vašeg vozila u bitci."
+
+msgid "domain/vitality/name"
+msgstr "Otpor"
+
+msgid "modifier/name/aimingTime"
+msgstr "Vrijeme ciljanja"
+
+msgid "modifier/name/ammoBayHealth"
+msgstr "Izdržljivost spremnika streljiva"
+
+msgid "modifier/name/autoreloadTime"
+msgstr "Vrijeme punjenja za vozila s autopunjačima"
+
+msgid "modifier/name/battleLength"
+msgstr "Vrijeme bitke"
+
+msgid "modifier/name/bkMaxSpeed"
+msgstr "Najveća brzina unatrag"
+
+msgid "modifier/name/burstInterval"
+msgstr "Vrijeme za punjenje granata u spremnik"
+
+msgid "modifier/name/chassisHealth"
+msgstr "Izdržljivost šasije"
+
+msgid "modifier/name/clipInterval"
+msgstr "Vrijeme punjenja između hitaca u spremniku"
+
+msgid "modifier/name/damageRandomization"
+msgstr "Domet potencijalne štete"
+
+msgid "modifier/name/deviceDamageFirst"
+msgstr "Šteta unutarnjeg modula"
+
+msgid "modifier/name/dispFactorAfterShot"
+msgstr "Rasipanje nakon pucanja"
+
+msgid "modifier/name/dispFactorChassisMovement"
+msgstr "Rasipanje u pokretu"
+
+msgid "modifier/name/dispFactorChassisRotation"
+msgstr "Rasipanje tijekom zakretanja trupa"
+
+msgid "modifier/name/dispFactorTurretRotation"
+msgstr "Rasipanje tijekom zakretanja kupole"
+
+msgid "modifier/name/dispFactorWhileGunDamaged"
+msgstr "Rasipanje s oštećenim topom"
+
+msgid "modifier/name/engineFireFactor"
+msgstr "Vjerojatnost požara motora"
+
+msgid "modifier/name/engineHealth"
+msgstr "Izdržljivost motora"
+
+msgid "modifier/name/enginePower"
+msgstr "Snaga motora"
+
+msgid "modifier/name/envChassisDamage"
+msgstr "Šteta ovjesa prilikom udara"
+
+msgid "modifier/name/envHullDamage"
+msgstr "Šteta trupa prilikom udara"
+
+msgid "modifier/name/envModuleDamageChance"
+msgstr "Šteta ostalim modulima tijekom udara"
+
+msgid "modifier/name/envTankmanDamageChance"
+msgstr "Ozlijede posade tijekom udara"
+
+msgid "modifier/name/equipmentCooldown"
+msgstr "Vrijeme hlađenja potrošnog materijala"
+
+msgid "modifier/name/fuelTankHealth"
+msgstr "Izdržljivost rezervoara"
+
+msgid "modifier/name/fwMaxSpeed"
+msgstr "Najveća brzina unaprijed"
+
+msgid "modifier/name/gravityFactor"
+msgstr "Težište vozila"
+
+msgid "modifier/name/gunHealth"
+msgstr "Izdržljivost topa"
+
+msgid "modifier/name/gunRotationSpeed"
+msgstr "Brzina zakretanja topa u nepokretnoj kabini"
+
+msgid "modifier/name/invisibilityOnMove"
+msgstr "Skrovitost u pokretu"
+
+msgid "modifier/name/invisibilityOnStill"
+msgstr "Skrovitost nepokretnog vozila"
+
+msgid "modifier/name/normalizationAngle"
+msgstr "Normalizacija granate"
+
+msgid "modifier/name/piercingPowerRandomization"
+msgstr "Domet potencijalne probojnosti"
+
+msgid "modifier/name/radioDistance"
+msgstr "Domet veze"
+
+msgid "modifier/name/reloadTime"
+msgstr "Vrijeme punjenja"
+
+msgid "modifier/name/repairSpeed"
+msgstr "Brzina popravka"
+
+msgid "modifier/name/ricochetAngle"
+msgstr "Kut odbijanja granate. Što je kut oštriji, to je veća vjerojatnost odbijanja"
+
+msgid "modifier/name/rotationSpeedOnStill"
+msgstr "Brzina zakretanja trupa"
+
+msgid "modifier/name/shellGravity"
+msgstr "Gravitacija granate"
+
+msgid "modifier/name/shellSpeed"
+msgstr "Brzina granate"
+
+msgid "modifier/name/shotDispersionRadius"
+msgstr "Rasipanje na 100 m"
+
+msgid "modifier/name/surveyingDeviceHealth"
+msgstr "Izdržljivost osmatračke sprave"
+
+msgid "modifier/name/turretPressureDamage"
+msgstr "Šteta od pritiska rastrgnute kupole"
+
+msgid "modifier/name/turretRammingDamage"
+msgstr "Šteta od rastrgnute kupole"
+
+msgid "modifier/name/turretRotationSpeed"
+msgstr "Brzina zakretanja kupole"
+
+msgid "modifier/name/turretRotatorHealth"
+msgstr "Izdržljivost rotatora kupole"
+
+msgid "modifier/name/twinGunReloadTime"
+msgstr "Punjenje topa u režimu paljbe salve"
+
+msgid "modifier/name/vehicleAoIRadius"
+msgstr "Daljina iscrtavanja"
+
+msgid "modifier/name/vehicleHealth"
+msgstr "Izdržljivost vozila"
+
+msgid "modifier/name/vehiclePressureDamage"
+msgstr "Šteta od pritiska"
+
+msgid "modifier/name/vehicleRammingDamage"
+msgstr "Šteta od sudaranja"
+
+msgid "modifier/name/visionMinRadius"
+msgstr "Polumjer neposrednog otkrivanja"
+
+msgid "modifier/name/visionRadius"
+msgstr "Vidokrug"
+
+msgid "modifier/name/visionTime"
+msgstr "Preostalo vrijeme vidljivosti"
+
+msgid "modifier/name/zeroDamage"
+msgstr "Šteta nanešena hicima i sudaranjem"
+
+msgid "modifier/name/zeroEconomy"
+msgstr "Potrošeni i zarađeni resursi u bitkama režima"
+
+msgid "modifiersDomainTooltip/restrict/max"
+msgstr "ne&nbsp;više od&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/min"
+msgstr "ne&nbsp;manje od&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/oneRestriction"
+msgstr "(ali {restriction})"
+
+msgid "modifiersDomainTooltip/restrict/twoRestriction"
+msgstr "(ali {min}, {max})"
+
+msgid "modifiersDomainTooltip/subtitle/plural"
+msgstr "Modifikatori utječu na slijedeće parametre:"
+
+msgid "modifiersDomainTooltip/subtitle/single"
+msgstr "Modifikator utječe na slijedeći parametar:"

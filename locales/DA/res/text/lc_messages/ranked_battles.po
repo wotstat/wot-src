@@ -1,0 +1,1547 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Våbenhvile er aktiv på alle servere. Kampe vil være tilgængelige om %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "Sæson %(leftSeasonName)s er slut"
+
+msgid "alertMessage/allNotSet"
+msgstr "Denne kamptype er utilgængelig på %(serverName)s serveren"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Vælg en anden server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detaljer"
+
+msgid "alertMessage/notAvailable"
+msgstr "Våbenhvile er aktiv på %(serverName)s serveren"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Våbenhvile er aktiv på %(serverName)s serveren"
+
+msgid "alertMessage/notSet"
+msgstr "Denne kamptype er utilgængelig på %(serverName)s serveren"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Våbenhvile er aktiv på serveren. Kampe vil være tilgængelige om %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "Sæson %(leftSeasonName)s er slut"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Denne kamptype er utilgængelig på %(serverName)s serveren"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Ingen passende niveau %(levels)s køretøjer i garagen"
+
+msgid "awards/bonusBattles/efficiency"
+msgstr "Standard, for din præstation i det fuldførte stadie: %(amount)s"
+
+msgid "awards/bonusBattles/header"
+msgstr "Bonuskampe modtaget:"
+
+msgid "awards/bonusBattles/label"
+msgstr "Bonuskampe modtaget: %(count)s"
+
+msgid "awards/bonusBattles/steps/daily"
+msgstr " \nDagligt, for antallet af vinkler modtaget i kvalifikationen: %(amount)s"
+
+msgid "awards/bonusBattles/steps/persistent"
+msgstr " \nStandard, for antallet af vinkler modtaget i kvalifikationen: %(amount)s"
+
+msgid "awards/congratulation"
+msgstr "Tillykke!"
+
+msgid "awards/gotDivision"
+msgstr "Du flyttede til den næste division"
+
+msgid "awards/gotLeague"
+msgstr "Du opnåede liganiveauet"
+
+msgid "awards/gotQualification"
+msgstr "Du fuldførte kvalifikationen og indgik i tredje division."
+
+msgid "awards/gotQualificationQuest"
+msgstr "Du modtog belønningen for kvalifikation. Kampe: %(count)s"
+
+msgid "awards/gotRank"
+msgstr "Ny rang modtaget"
+
+msgid "awards/yes"
+msgstr "Bekræftet!"
+
+msgid "battleResult/losers"
+msgstr "Tabende hold"
+
+msgid "battleResult/rank/lose"
+msgstr "Rang tabt"
+
+msgid "battleResult/rank/progress/lose"
+msgstr "Vinkel tabt"
+
+msgid "battleResult/rank/progress/up"
+msgstr "Vinkel modtaget"
+
+msgid "battleResult/rank/unchanged"
+msgstr "Vinkel beholdt"
+
+msgid "battleResult/rank/up"
+msgstr "Rang opnået"
+
+msgid "battleResult/winners"
+msgstr "Vindende hold"
+
+msgid "battleResult/yes"
+msgstr "Bekræftet!"
+
+msgid "battleresult/bonusBattlesEarned"
+msgstr " \n\nBonuskampe tilføjet:"
+
+msgid "battleresult/bonusBattlesEarned/efficiency"
+msgstr " \nStandard, for din præstation i det fuldførte stadie: %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/daily"
+msgstr " \nDagligt, for antallet af vinkler modtaget i kvalifikationen: %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/persistent"
+msgstr " \nStandard, for antallet af vinkler modtaget i kvalifikationen: %(amount)s"
+
+msgid "battleresult/bonusBattlesUsed"
+msgstr ". Du deltog i en bonuskamp."
+
+msgid "battleresult/divisionEarned"
+msgstr "Ny\ndivision"
+
+msgid "battleresult/first/inTop/lose"
+msgstr "Du er den bedste spiller på det tabende hold efter optjent xp"
+
+msgid "battleresult/first/inTop/win"
+msgstr "Du er den bedste spiller på det vindende hold efter optjent xp"
+
+msgid "battleresult/first/notInTop/lose"
+msgstr "Du er ikke den bedste spiller på det tabende hold efter optjent xp"
+
+msgid "battleresult/first/notInTop/win"
+msgstr "Du er ikke den bedste spiller på det vindende hold efter optjent xp"
+
+msgid "battleresult/headerText"
+msgstr "Kampresultater"
+
+msgid "battleresult/inTop/lose"
+msgstr "Du er blandt top %(topNumber)s spillere på det tabende hold efter optjent xp"
+
+msgid "battleresult/inTop/win"
+msgstr "Du er blandt top %(topNumber)s spillere på det vindende hold efter optjent xp"
+
+msgid "battleresult/leagueEarned"
+msgstr "Flyt til\nligaer"
+
+msgid "battleresult/leagueUnavailable"
+msgstr "Din liga vil være bestemt af rangliste udregningen.\n "
+
+msgid "battleresult/notInTop/lose"
+msgstr "Du er ikke blandt top %(topNumber)s spillere på det tabende hold efter optjent xp"
+
+msgid "battleresult/notInTop/minXP"
+msgstr "Du optjente ikke den minimale mængde xp."
+
+msgid "battleresult/notInTop/stageSaved"
+msgstr "Du er beskyttet mod tab af vinkler på dette stadie"
+
+msgid "battleresult/notInTop/win"
+msgstr "Du er ikke blandt top %(topNumber)s spillere på det vindende hold efter optjent xp"
+
+msgid "battleresult/rankEarned"
+msgstr "Rang\nmodtaget"
+
+msgid "battleresult/rankLost"
+msgstr "Rang\ntabt"
+
+msgid "battleresult/rankUnburnable"
+msgstr "Ingen\nændringer"
+
+msgid "battleresult/shieldLose"
+msgstr "Rangeringsskjold\nbrudt"
+
+msgid "battleresult/shieldLoseStep"
+msgstr "Rangeringsskjold\nsvækket"
+
+msgid "battleresult/stageEarned"
+msgstr "Vinkel\nmodtaget"
+
+msgid "battleresult/stageLost"
+msgstr "Vinkel\ntabt"
+
+msgid "battleresult/stageNotEarned"
+msgstr "Vinkel\nbeholdt"
+
+msgid "battleresult/stageSaved"
+msgstr "Vinkel\nbeholdt"
+
+msgid "battleresult/stagesEarned"
+msgstr "Vinkler\nmodtaget"
+
+msgid "battleresult/status/rankEarned"
+msgstr "Rang returneret"
+
+msgid "battleresult/status/rankLost"
+msgstr "Rang tabt"
+
+msgid "battleresult/status/rankUnburnable"
+msgstr "Ingen ændringer"
+
+msgid "battleresult/status/shieldCount"
+msgstr " \nHp beholdt: %(count)s"
+
+msgid "battleresult/status/shieldLose"
+msgstr "Rangeringsskjold brudt!"
+
+msgid "battleresult/status/shieldLoseStep"
+msgstr "Rangeringsskjold svækket!"
+
+msgid "battleresult/status/shieldRenew"
+msgstr " \nRangeringsskjold gendannet"
+
+msgid "battleresult/status/shieldWarning"
+msgstr " \nEndnu et nederlag vil muligvis betyde tab af din rang."
+
+msgid "battleresult/status/stageEarned"
+msgstr "Vinkel modtaget"
+
+msgid "battleresult/status/stageLost"
+msgstr "Vinkel tabt"
+
+msgid "battleresult/status/stageNotEarned"
+msgstr "Vinkel beholdt"
+
+msgid "battleresult/status/stageSaved"
+msgstr "Vinkel beholdt"
+
+msgid "battleresult/status/stagesEarned"
+msgstr "Vinkler modtaget"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgstr "Sæson %(seasonName)s vil vare i %(days)s dage"
+
+msgid "calendarDay/title"
+msgstr "Skema"
+
+msgid "calendarStepsTooltip/title"
+msgstr "Stadie tidsplan"
+
+msgid "currentVehicleStatus/unsuitableToQueue"
+msgstr "Ikke egnet til kamptypen"
+
+msgid "division/bronze"
+msgstr "Tredje division"
+
+msgid "division/classification"
+msgstr "Kvalifikation"
+
+msgid "division/gold"
+msgstr "Første division"
+
+msgid "division/silver"
+msgstr "Anden division"
+
+msgid "division/status/completed"
+msgstr "Division fuldført"
+
+msgid "division/status/completed/description"
+msgstr "Du har fuldført den valgte division."
+
+msgid "division/status/locked"
+msgstr "Division utilgængelig"
+
+msgid "division/status/locked/description"
+msgstr "Den forrige division er ikke fuldført."
+
+msgid "division/status/qualification"
+msgstr "Kampe: %(progress)s"
+
+msgid "division/status/qualification/progress"
+msgstr "%(current)s / %(total)s"
+
+msgid "division/status/qualificationDescr/complete"
+msgstr "Kvalifikation fuldført"
+
+msgid "division/status/qualificationDescr/progress"
+msgstr "Deltag i %(battlesTotal)s kampe for at fuldføre kvalifikationen.\nNår kvalifikationen er fuldført, vil du modtage belønninger for at deltage i %(battlesList)s kampe."
+
+msgid "division/tooltip/battlesDescription"
+msgstr "Består af %(battlesCount)s kampe"
+
+msgid "division/tooltip/desc/completed/text"
+msgstr "Du modtog alle range i denne division."
+
+msgid "division/tooltip/desc/completedFinal/text"
+msgstr "Du modtog alle range i denne division og flytter til ligaer."
+
+msgid "division/tooltip/desc/completedQual/text"
+msgstr "Det krævede antal kvalifikationskampe er blevet udkæmpet."
+
+msgid "division/tooltip/desc/current/text"
+msgstr "Efter fuldførelse, vil du flytte til den næste division og modtage bonuskampe, der kan booste dit fremskridt."
+
+msgid "division/tooltip/desc/currentFinal/text"
+msgstr "Efter fuldførelse, vil du flytte til ligaer og modtage bonuskampe for at sikre eller forbedre din position blandt sæsonlederne."
+
+msgid "division/tooltip/desc/currentQual/text"
+msgstr "Når du fuldfører kvalifikationen, vil du modtage belønninger for at deltage i %(battles)s kampe.\nEfter at have fuldført kvalifikationen, vil du rykke videre til tredje division og modtage bonuskampe, der vil booste dit fremskridt."
+
+msgid "division/tooltip/desc/locked/text"
+msgstr "Efter fuldførelse, vil du flytte til den næste division og modtage bonuskampe, der kan booste dit fremskridt."
+
+msgid "division/tooltip/desc/lockedFinal/text"
+msgstr "Efter fuldførelse, vil du flytte til ligaer og modtage bonuskampe for at sikre eller forbedre din position blandt sæsonlederne."
+
+msgid "division/tooltip/desc/title"
+msgstr "Beskrivelse:"
+
+msgid "division/tooltip/rankDescription"
+msgstr "Består af %(ranksCount)s range"
+
+msgid "division/tooltip/status/completed"
+msgstr "Division fuldført"
+
+msgid "division/tooltip/status/completedQual"
+msgstr "Fuldført"
+
+msgid "division/tooltip/status/current"
+msgstr "Division ikke fuldført"
+
+msgid "division/tooltip/status/currentQual"
+msgstr "Ikke fuldført"
+
+msgid "division/tooltip/status/locked"
+msgstr "Division utilgængelig"
+
+msgid "division/tooltip/status/locked/desc"
+msgstr "Fuldfør den forrige division først."
+
+msgid "division/tooltip/status/locked/descQual"
+msgstr "Kvalifikation er ikke fuldført."
+
+msgid "introPage/alert/beforeSeason"
+msgstr "Event starter om:"
+
+msgid "introPage/alert/disabled"
+msgstr "Kamptypen er midlertidigt utilgængelig. Prøv igen senere."
+
+msgid "introPage/blocks/block1/description"
+msgstr "Kampe med 10 mod 10, under standard kampregler, på et begrænset antal kort, og kun i køretøjer der kan udforskes og samlerkøretøjer på niveau X."
+
+msgid "introPage/blocks/block1/title"
+msgstr "Niveau X køretøjer"
+
+msgid "introPage/blocks/block2/description"
+msgstr "Fuldfør 3 divisioner på din vej mod ære og hæder, og nå en af ligaerne, ved at kæmpe mod spillere med samme evner."
+
+msgid "introPage/blocks/block2/title"
+msgstr "Fremskridt i rangerede kampe"
+
+msgid "introPage/blocks/block3/description"
+msgstr "Efter fuldførelse af hver af de tre sæsoner, vil du modtage en særlig stil til niveau X køretøjer. Du vil også modtage værdifulde belønninger og et unikt niveau X køretøj ved slutningen af sæsonerne 2021-2022."
+
+msgid "introPage/blocks/block3/title"
+msgstr "Unikke belønninger"
+
+msgid "introPage/blocks/yearRewardDisabled"
+msgstr "Hver optjent rang vil give dig en værdifuld belønning. Derudover vil du modtage en unik stil til niveau X køretøjer for at fuldføre alle tre sæsoner."
+
+msgid "introPage/btns/accept"
+msgstr "Bekræftet!"
+
+msgid "introPage/btns/detailed"
+msgstr "Detaljer om kamptype"
+
+msgid "introPage/btns/toHangar"
+msgstr "Til garage"
+
+msgid "introPage/description"
+msgstr "10 mod 10-kampe, niveau X køretøjer, 3 divisioner på vej mod ære og hæder."
+
+msgid "introPage/timeLeft/days"
+msgstr "%(day)s d %(hour)s t"
+
+msgid "introPage/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "introPage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "introPage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "notification/rankEarned"
+msgstr "rang modtaget"
+
+msgid "notification/rankLost"
+msgstr "rang tabt"
+
+msgid "notification/rankedMessage"
+msgstr "Tillykke!\nDu opnåede rang %(rankRoman)s\nCredits modtaget: %(creditsCount)s\nPoint optjent: %(expCount)s\nMedaljer modtaget: %(medalsCount)s"
+
+msgid "notification/stageEarned"
+msgstr "vinkel modtaget"
+
+msgid "notification/stageLost"
+msgstr "vinkel tabt"
+
+msgid "notification/stageNotEarned"
+msgstr "vinkel beholdt"
+
+msgid "notification/vehicleRankEarned"
+msgstr "køretøjsrang modtaget"
+
+msgid "notification/vehicleRankLost"
+msgstr "køretøjsrang tabt"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Server %(serverName)s\nKampe vil være tilgængelige om %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Server %(serverName)s\nSæson %(leftSeasonName)s er slut."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Server %(serverName)s\nKampe vil være tilgængelige i endnu %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Server %(serverName)s\nKampe vil være tilgængelige om %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Server %(serverName)s\nSæson %(leftSeasonName)s er slut."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Server %(serverName)s\nKampe vil være tilgængelige om %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Server %(serverName)s\nSæson %(leftSeasonName)s er slut."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "et minut"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Våbenhvile er aktiv på alle servere"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "Sæson %(leftSeasonName)s på server %(serverName)s er slut."
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Våbenhvile er aktiv på server %(serverName)s indtil den %(primeDeltaDate)s kl. %(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Sæson %(leftSeasonName)s på server %(serverName)s er slut."
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Denne kamptype er utilgængelig på %(serverName)s serveren"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Våbenhvile er aktiv på server %(serverName)s indtil den %(primeDeltaDate)s kl. %(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "Sæson %(leftSeasonName)s på server %(serverName)s er slut."
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Denne kamptype er utilgængelig på %(serverName)s serveren"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Kampe på %(serverName)s serveren starter om %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "Sæson %(leftSeasonName)s på server %(serverName)s er slut."
+
+msgid "primeTimes/timeText/available"
+msgstr "Kampe på %(serverName)s serveren vil være tilgængelige i endnu %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Kampe på %(serverName)s serveren starter om %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "Sæson %(leftSeasonName)s på server %(serverName)s er slut."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Kampe på %(serverName)s serveren starter om %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "Sæson %(leftSeasonName)s på server %(serverName)s er slut."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "qualificationRewards/battlesNeeded"
+msgstr "Deltag i %(battlesCount)s kampe for at fuldføre kvalifikationen."
+
+msgid "qualificationRewards/battlesPlayed"
+msgstr "Antal kampe:"
+
+msgid "qualificationRewards/description"
+msgstr "Belønninger for at fuldføre kvalifikationen gives, når den sidste kvalifikationskamp er slut."
+
+msgid "quests/detailed/allServersPrime"
+msgstr "Våbenhvile"
+
+msgid "quests/detailed/notInLeagues"
+msgstr "Nå ligaer først"
+
+msgid "quests/detailed/seasonEnd/days"
+msgstr "Sæson slutter om %(day)s d"
+
+msgid "quests/detailed/seasonEnd/default"
+msgstr "Sæson slutter snart"
+
+msgid "quests/detailed/seasonEnd/hours"
+msgstr "Sæson slutter om %(hour)s t"
+
+msgid "quests/detailed/seasonEnd/lessMin"
+msgstr "Sæson slutter om mindre end et minut"
+
+msgid "quests/detailed/seasonEnd/min"
+msgstr "Sæson slutter om %(min)s min"
+
+msgid "quests/detailed/unavailableLabel"
+msgstr "Utilgængelig:"
+
+msgid "quests/tooltip/unavailable/body/allServersPrime"
+msgstr "Missioner vil være tilgængelige efter slutningen på våbenhvile i rangerede kampe."
+
+msgid "quests/tooltip/unavailable/body/notInLeagues"
+msgstr "Nå ligaer først"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/days"
+msgstr "Sæson slutter om %(day)s d"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/default"
+msgstr "Sæson slutter snart"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/hours"
+msgstr "Sæson slutter om %(hour)s t"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/lessMin"
+msgstr "Sæson slutter om mindre end et minut"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/min"
+msgstr "Sæson slutter om %(min)s min"
+
+msgid "quests/tooltip/unavailable/bottom"
+msgstr "Fuldførelse utilgængelig"
+
+msgid "quests/tooltip/unavailable/header/allServersPrime"
+msgstr "Våbenhvile"
+
+msgid "quests/tooltip/unavailable/header/notInLeagues"
+msgstr "Ikke i ligaer"
+
+msgid "quests/tooltip/unavailable/header/seasonEnd"
+msgstr "Sæsonafslutning"
+
+msgid "questsTooltip/available"
+msgstr "Sæson slutter om %(timeDelta)s"
+
+msgid "questsTooltip/available/days"
+msgstr "%(day)s d"
+
+msgid "questsTooltip/available/hours"
+msgstr "%(hour)s t"
+
+msgid "questsTooltip/available/lessMin"
+msgstr "mindre end et minut"
+
+msgid "questsTooltip/available/min"
+msgstr "%(min)s min"
+
+msgid "questsTooltip/bottom"
+msgstr "Flere missioner: %(number)d"
+
+msgid "questsTooltip/cooldown/days"
+msgstr "Nye missioner vil være tilgængelige om %(day)s d"
+
+msgid "questsTooltip/cooldown/hours"
+msgstr "Nye missioner vil være tilgængelige om %(hour)s t"
+
+msgid "questsTooltip/cooldown/lessMin"
+msgstr "Nye missioner vil være tilgængelige om et minut"
+
+msgid "questsTooltip/cooldown/min"
+msgstr "Nye missioner vil være tilgængelige om %(min)s min"
+
+msgid "questsTooltip/header"
+msgstr "Missioner for rangerede kampe"
+
+msgid "questsTooltip/unavailable/allServersPrime"
+msgstr "Utilgængelig: Våbenhvile er nu i effekt"
+
+msgid "questsTooltip/unavailable/notInLeagues"
+msgstr "Utilgængelig: Nå ligaer først"
+
+msgid "questsTooltip/unavailable/seasonEnd/days"
+msgstr "Utilgængelig: Sæson slutter om %(day)s d"
+
+msgid "questsTooltip/unavailable/seasonEnd/hours"
+msgstr "Utilgængelig: Sæson slutter om %(hour)s t"
+
+msgid "questsTooltip/unavailable/seasonEnd/lessMin"
+msgstr "Utilgængelig: Sæson slutter om mindre end et minut"
+
+msgid "questsTooltip/unavailable/seasonEnd/min"
+msgstr "Utilgængelig: Sæson slutter om %(min)s min"
+
+msgid "rankedAwards/awardsBlock/awardsHeaderTxt"
+msgstr "Belønning for opnåede range"
+
+msgid "rankedAwards/awardsBlock/crystal"
+msgstr "Obligationer"
+
+msgid "rankedAwards/awardsBlock/description"
+msgstr "Din højeste rang"
+
+msgid "rankedAwards/awardsBlock/points"
+msgstr "Point"
+
+msgid "rankedAwards/awardsBlock/title"
+msgstr "Stadie %(cycleNumber)s resultater"
+
+msgid "rankedBattle/title"
+msgstr "RANGEREDE KAMPE"
+
+msgid "rankedBattleCyclesView/tabs/final"
+msgstr "Finale"
+
+msgid "rankedBattleCyclesView/tabs/ranks"
+msgstr "Rang"
+
+msgid "rankedBattleCyclesView/title"
+msgstr "Sæsonbelønninger"
+
+msgid "rankedBattleHeader/points/current"
+msgstr "Undervejs"
+
+msgid "rankedBattleHeader/points/final"
+msgstr "Samlet antal point: %(points)s"
+
+msgid "rankedBattleHeader/points/past"
+msgstr "Point: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/body"
+msgstr "Det nuværende stadie slutter den %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/header"
+msgstr "Stadie %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/body"
+msgstr "Alle point optjent under forrige stadier lægges sammen i finalerne og spillere modtager belønninger.\nSæsonfinaler—%(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/header"
+msgstr "Sæsonfinaler"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/body"
+msgstr "Stadiet vil begynde den %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/header"
+msgstr "Stadie %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/body"
+msgstr "Point optjent: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/header"
+msgstr "Stadie %(cycle)d sluttede"
+
+msgid "rankedBattleHeader/tooltip/date"
+msgstr "%d.%m.%y"
+
+msgid "rankedBattleMainView/bonusBattles"
+msgstr "Bonuskampe: %(battlesCount)s"
+
+msgid "rankedBattleMainView/date/days"
+msgstr "%(day)s d indtil slutningen"
+
+msgid "rankedBattleMainView/date/hours"
+msgstr "%(hour)s t indtil slutningen"
+
+msgid "rankedBattleMainView/date/lessMin"
+msgstr "Mindre end et minut indtil slutningen"
+
+msgid "rankedBattleMainView/date/min"
+msgstr "%(min)s min indtil slutningen"
+
+msgid "rankedBattleMainView/date/period"
+msgstr "%(start)s–%(finish)s"
+
+msgid "rankedBattleMainView/divisions/currentRank"
+msgstr "Din rang"
+
+msgid "rankedBattleMainView/divisions/rank"
+msgstr "Rang %(rank)s"
+
+msgid "rankedBattleMainView/emptyBubble"
+msgstr " "
+
+msgid "rankedBattleMainView/infoPage/header"
+msgstr "Niveau X køretøjer, rolle xp, bonuskampe, fremskridt i 3 divisioner og kampe i ligaer."
+
+msgid "rankedBattleMainView/leaguesView/descr"
+msgstr "Optjen vinkler og forbedr din præstation for at rykke op på ranglisten og nå top %(count)d."
+
+msgid "rankedBattleMainView/leaguesView/league1"
+msgstr "Guldliga"
+
+msgid "rankedBattleMainView/leaguesView/league2"
+msgstr "Sølvliga"
+
+msgid "rankedBattleMainView/leaguesView/league3"
+msgstr "Bronzeliga"
+
+msgid "rankedBattleMainView/leaguesView/top"
+msgstr "TOP %(count)d"
+
+msgid "rankedBattleMainView/leaguesView/topDescr"
+msgstr "Optjen vinkler og forbedr din præstation for at rykke op på ranglisten og beholde din placering i top %(count)d."
+
+msgid "rankedBattleMainView/leaguesView/unavailableDescr"
+msgstr "Udregner din liga. Resultaterne vil snart være tilgængelige."
+
+msgid "rankedBattleMainView/leaguesView/unavailableTitle"
+msgstr "Liga ikke udregnet"
+
+msgid "rankedBattleMainView/leaguesView/yearLeaderboardDisabled"
+msgstr "Optjen vinkler og forbedr din præstation for at bibeholde din position i ligaen."
+
+msgid "rankedBattleMainView/season"
+msgstr "Sæson %(season)s"
+
+msgid "rankedBattleMainView/seasonComplete"
+msgstr "Sæson %(season)s er slut"
+
+msgid "rankedBattleMainView/seasonCompleteSingle"
+msgstr "Sæson %(season)s er slut."
+
+msgid "rankedBattleMainView/seasonGap"
+msgstr "Den næste sæson %(newSeason)s starter den %(date)s"
+
+msgid "rankedBattleMainView/seasonGap/bannedDivision/descr"
+msgstr "Alle rang tokens optjent under sæsonen er blevet fjernet, på grund af din overtrædelse af spillets regler."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/descr"
+msgstr "Du er blevet ekskluderet fra listen af sæsonledere på grund af din overtrædelse af spillets regler. Alle rang tokens optjent under sæsonen er blevet fjernet."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/withoutPoints/descr"
+msgstr "Du er blevet ekskluderet fra listen af sæsonledere på grund af din overtrædelse af spillets regler."
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInDivisions/descr"
+msgstr "Et rang token er blevet fjernet, på grund af din overtrædelse af spillets regler"
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInSeason/descr"
+msgstr "Alle rang tokens optjent under sæsonen er blevet fjernet, på grund af din overtrædelse af spillets regler."
+
+msgid "rankedBattleMainView/seasonGap/division/descr"
+msgstr "Din højest opnåede rang i denne sæson"
+
+msgid "rankedBattleMainView/seasonGap/division/ratingBtn"
+msgstr "Sæsonledere"
+
+msgid "rankedBattleMainView/seasonGap/division/title"
+msgstr "Rang %(rank)s (%(division)s)"
+
+msgid "rankedBattleMainView/seasonGap/league/descr"
+msgstr "Tillykke for at have fuldført denne sæson!"
+
+msgid "rankedBattleMainView/seasonGap/league/ratingBtn"
+msgstr "Gå til rangliste"
+
+msgid "rankedBattleMainView/seasonGap/league1"
+msgstr "Guldliga"
+
+msgid "rankedBattleMainView/seasonGap/league2"
+msgstr "Sølvliga"
+
+msgid "rankedBattleMainView/seasonGap/league3"
+msgstr "Bronzeliga"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/descr"
+msgstr "Dit bedste resultat i denne sæson"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/title"
+msgstr "Du fuldførte kvalifikationen"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/descr"
+msgstr "Du har ikke optjent en rang i denne sæson"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/title"
+msgstr "Ingen rang"
+
+msgid "rankedBattleMainView/seasonGap/rolledDivision/descr"
+msgstr "Du er blevet fjernet fra listen over sæsonledere efter din kontogendannelse."
+
+msgid "rankedBattleMainView/seasonGap/rolledLeague/descr"
+msgstr "Du er blevet fjernet fra listen over sæsonledere efter din kontogendannelse."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInDivisions/descr"
+msgstr "Du er blevet fjernet fra listen over sæsonledere efter din kontogendannelse."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInSeason/descr"
+msgstr "Du er blevet fjernet fra listen over sæsonledere efter din kontogendannelse."
+
+msgid "rankedBattleMainView/seasonGap/stats/efficiency"
+msgstr "Præstation"
+
+msgid "rankedBattleMainView/seasonGap/stats/outOfRating"
+msgstr "Udenfor rangliste"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/descr"
+msgstr "Efter udregningen, kan du se dine endelige resultater og modtage den fortjente belønning"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/title"
+msgstr "Udregner resultater"
+
+msgid "rankedBattleMainView/specialSeason"
+msgstr "X"
+
+msgid "rankedBattleMainView/stats/battlesInLeague"
+msgstr "Kampe i ligaer"
+
+msgid "rankedBattleMainView/stats/battlesTotal"
+msgstr "Samlet antal kampe"
+
+msgid "rankedBattleMainView/stats/divisionEfficiency"
+msgstr "Præstation i division"
+
+msgid "rankedBattleMainView/stats/qualificationEfficiency"
+msgstr "Præstation\ni kvalifikationen"
+
+msgid "rankedBattleMainView/stats/qualificationSteps"
+msgstr "Vinkler\ni kvalifikationen"
+
+msgid "rankedBattleMainView/stats/rating/title"
+msgstr "Position på ranglisten"
+
+msgid "rankedBattleMainView/stats/rating/tooltip"
+msgstr "Ranglisten opdateres hver %(minutes)s minutter. Sidst opdateret: %(time)s"
+
+msgid "rankedBattleMainView/stats/rating/unavailableTooltip"
+msgstr "Ranglisten bliver midlertidigt ikke opdateret på grund af tekniske problemer."
+
+msgid "rankedBattleMainView/stats/seasonEfficiency"
+msgstr "Generel præstation"
+
+msgid "rankedBattleMainView/stats/stripesInLeague"
+msgstr "Vinkler i ligaer"
+
+msgid "rankedBattleMainView/stats/stripesTotal"
+msgstr "Samlet antal vinkler"
+
+msgid "rankedBattleMainView/yearGap/header"
+msgstr "Dine resultater i 2021-2022"
+
+msgid "rankedBattlePage/closeBtn"
+msgstr "LUK"
+
+msgid "rankedBattleView/awardBlock/emptyLeague"
+msgstr "—"
+
+msgid "rankedBattleView/awardBlock/points/currLeagueHeader"
+msgstr "Nuværende liga"
+
+msgid "rankedBattleView/awardBlock/points/header"
+msgstr "Sæsonledere"
+
+msgid "rankedBattleView/awardBlock/points/noLeagueHeader"
+msgstr "Udenfor rangliste"
+
+msgid "rankedBattleView/awardBlock/points/noPriseHeader"
+msgstr "Træ liga"
+
+msgid "rankedBattleView/awardBlock/points/totalLabel"
+msgstr "Samlet antal point: "
+
+msgid "rankedBattleView/awardBlock/pointsAlt/description"
+msgstr "Klik for at se dem der fører sæsonen"
+
+msgid "rankedBattleView/awardBlock/quest/description/battlesLeft"
+msgstr "Effektive kampe at spille:"
+
+msgid "rankedBattleView/awardBlock/quest/description/noQuest"
+msgstr "Ingen nuværende missioner"
+
+msgid "rankedBattleView/awardBlock/quest/header"
+msgstr "Mission"
+
+msgid "rankedBattleView/awardBlock/seasonAward/description"
+msgstr "Klik for at se belønningerne"
+
+msgid "rankedBattleView/awardBlock/seasonAward/header"
+msgstr "Sæsonbelønninger"
+
+msgid "rankedBattleView/closeBtn"
+msgstr "TILBAGE"
+
+msgid "rankedBattleView/closeBtnDescr"
+msgstr "TIL GARAGE"
+
+msgid "rankedBattleView/nextStageBlock/stage"
+msgstr "Stadie %(cycleNumber)s"
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/body"
+msgstr "Klik for at starte din rejse i rangerede kampe."
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/header"
+msgstr "Let's Roll!"
+
+msgid "rankedBattleView/playVideoBtn"
+msgstr "Video om type"
+
+msgid "rankedBattleView/progressBlock/bestRank"
+msgstr "Sæsonrekord"
+
+msgid "rankedBattleView/progressBlock/continue"
+msgstr "Optjen point for at modtage belønninger i finalerne"
+
+msgid "rankedBattleView/progressBlock/currentRank"
+msgstr "Din nuværende rang: %(rank)s"
+
+msgid "rankedBattleView/progressBlock/finalRank"
+msgstr "Tillykke! Du nåede den højeste rang %(rank)s i denne sæson."
+
+msgid "rankedBattleView/progressBlock/steps"
+msgstr "Vinkler: %(numbers)s"
+
+msgid "rankedBattleView/progressBlock/vehicleRank"
+msgstr "Rang tokens"
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/body"
+msgstr "Klik for at se information om alle sæsonstadier."
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/header"
+msgstr "Kalender"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/attentionText"
+msgstr "Resultater af stadie %(cycleNumber)s om %(timeLeft)s"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/cycleItem"
+msgstr "Sæson %(cycleNumber)s: %(day0)s/%(month0)s—%(day1)s/%(month1)s"
+
+msgid "rankedBattleView/statusBlock/statusText"
+msgstr "Sæsonresultaterne færdiggøres om: "
+
+msgid "rankedBattleView/title"
+msgstr "Rangeret kamp"
+
+msgid "rankedBattlesBattleResults/animationCheckBoxLabel"
+msgstr "Vis animation"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s kan ikke deltage i rangerede kampe."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/header"
+msgstr "Inkompatibel køretøjstype"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/body"
+msgstr "Vælg et %(levelSubStr)s for at deltage i rangerede kampe."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/header"
+msgstr "Inkompatibelt køretøjsniveau"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "niveau %(levels)s køretøj"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s kan ikke deltage i rangerede kampe."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/header"
+msgstr "Inkompatibelt køretøj"
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/body"
+msgstr "Modtaget ved slutningen af stadiet og indeholdt værdifulde belønninger. Antallet af belønninger og deres kvalitet afhænger af rangliste positionen."
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/header"
+msgstr "Kasse med belønninger"
+
+msgid "rankedBattlesCyclesView/btnClose"
+msgstr "LUK"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/awardRecieved"
+msgstr "Belønning modtaget"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/body"
+msgstr "Modtaget ved slutningen af et stadie og indeholder forskellige belønninger. Antallet af belønninger og deres kvalitet afhænger af den opnåede rang."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/header"
+msgstr "Kasse med belønninger"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/body"
+msgstr "Kan veksles til nye unikke ting: Personlige reserver og sjældent udstyr. En obligation kan byttes til et sæt personlige reserver eller udstyr. Jo flere obligationer du optjener, jo mere værdifulde ting vil du modtage."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/header"
+msgstr "Obligationer"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rank"
+msgstr "Rang"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rankAward"
+msgstr "Belønning for opnået rang"
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/body"
+msgstr "Tildelt for det bedste resultat opnået under et stadie. Det bedste resultat nulstilles ikke selvom rangen tabes."
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/header"
+msgstr "Belønning ved slutningen af stadie"
+
+msgid "rankedBattlesCyclesView/currentCycle/vehicleRankComment"
+msgstr "Almindelig belønning"
+
+msgid "rankedBattlesCyclesView/final/btnLadder"
+msgstr "Gå til rangliste"
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/body"
+msgstr "Klik for at gå til listen af sæsonledere og se din position."
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/header"
+msgstr "Sæsonledere"
+
+msgid "rankedBattlesCyclesView/final/first"
+msgstr "top %(count)s spillere"
+
+msgid "rankedBattlesCyclesView/final/intermediate"
+msgstr "næste %(count)s"
+
+msgid "rankedBattlesCyclesView/final/last"
+msgstr "Træ liga"
+
+msgid "rankedBattlesCyclesView/final/lastComment"
+msgstr "Optjen point for fremskridt på ranglisten.\nDen endelige belønning du vil modtage afhænger af\ndin nuværende liga."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/noLeagueDataTooltip"
+msgstr "Information om din nuværende liga er midlertidigt utilgængelig. Prøv igen senere."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/position"
+msgstr "Position på ranglisten"
+
+msgid "rankedBattlesCyclesView/final/tableHeader/seasonAward"
+msgstr "Belønning ved finale"
+
+msgid "rankedBattlesCyclesView/noAchievements/future/footer"
+msgstr "Fra %(start)s til %(end)s"
+
+msgid "rankedBattlesCyclesView/noAchievements/past/footer"
+msgstr "Du opnåede ikke en rang under det nuværende stadie.\nOptjente point: %(points)s"
+
+msgid "rankedBattlesUnreachableView/bottom/missions"
+msgstr "Fuldfør personlige missioner"
+
+msgid "rankedBattlesUnreachableView/bottom/premium"
+msgstr "Brug %(premiumType)s premium konto"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/basic"
+msgstr "Wargaming"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/plus"
+msgstr "WoT"
+
+msgid "rankedBattlesUnreachableView/bottom/reserves"
+msgstr "Aktiver personlige reserver"
+
+msgid "rankedBattlesUnreachableView/bottomText"
+msgstr "Hvad er den hurtigste måde at udforske niveau %(levels)s køretøjer?"
+
+msgid "rankedBattlesUnreachableView/closeBtnLabel"
+msgstr "LUK"
+
+msgid "rankedBattlesUnreachableView/subtitleText"
+msgstr "Kamptype utilgængelig"
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForBuy"
+msgstr "Du skal have niveau %(levels)s køretøjer i din garage for at kunne deltage i rangerede kampe.\nDu har udforsket niveau %(levels)s køretøjer, som du ikke har købt endnu."
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForRestore"
+msgstr "Du skal have niveau %(levels)s køretøjer i din garage for at kunne deltage i rangerede kampe.\nDu har niveau %(levels)s køretøjer, som kan genoprettes."
+
+msgid "rankedBattlesUnreachableView/vehicleUnavailable"
+msgstr "Du skal have niveau %(levels)s køretøjer i din garage for at kunne deltage i rangerede kampe."
+
+msgid "rankedBattlesViewHeader/tabs/current"
+msgstr "Rang"
+
+msgid "rankedBattlesViewHeader/tabs/final"
+msgstr "Finale"
+
+msgid "rankedBattlesWidget/bonusMultiplier"
+msgstr "x%(count)s"
+
+msgid "rankedBattlesWidget/bonusSteps"
+msgstr "for bonuskamp"
+
+msgid "rankedBattlesWidget/league0"
+msgstr "Ukendt"
+
+msgid "rankedBattlesWidget/league1"
+msgstr "Guld"
+
+msgid "rankedBattlesWidget/league2"
+msgstr "Sølv"
+
+msgid "rankedBattlesWidget/league3"
+msgstr "Bronze"
+
+msgid "rankedBattlesWidget/leagueDecrease/info"
+msgstr "Du er returneret til %(leagueName)s ligaen"
+
+msgid "rankedBattlesWidget/leagueDecrease/title"
+msgstr "LIGA ÆNDRET"
+
+msgid "rankedBattlesWidget/leagueIncrease/info"
+msgstr "Du er flyttet til %(leagueName)s ligaen"
+
+msgid "rankedBattlesWidget/leagueIncrease/title"
+msgstr "LIGA ÆNDRET"
+
+msgid "rankedBattlesWidget/leaguesAchievment/info"
+msgstr "Nu kan du kæmpe om en position på ranglisten"
+
+msgid "rankedBattlesWidget/leaguesAchievment/title"
+msgstr "LIGAER UTILGÆNGELIGE"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/info"
+msgstr "Du flyttede til den næste division"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/title"
+msgstr "NY DIVISION"
+
+msgid "rankedBattlesWidget/newRankCongrat"
+msgstr "Tillykke!\nRang modtaget!"
+
+msgid "rankedBattlesWidget/noChanges"
+msgstr "Ingen ændringer"
+
+msgid "rankedBattlesWidget/qualificationIdleText"
+msgstr "Kampe til at fuldføre kvalifikationen:\n%(currentBattles)s / %(totalBattles)s"
+
+msgid "rewardsView/common/currentReward"
+msgstr "Med i opløb om belønninger"
+
+msgid "rewardsView/tabs/leagues"
+msgstr "Belønninger for ligaer"
+
+msgid "rewardsView/tabs/leagues/awardDescr/style"
+msgstr "%(styleName)s-stilen og %(badgeName)s-mærket"
+
+msgid "rewardsView/tabs/leagues/description"
+msgstr "Præmiestile og mærker er midlertidige, og tilgængelige for en spiller indtil slutningen af den næste sæson. For at forsvare retten til at bære dem, skal spilleren nå den samme liga igen. Hvis en spiller ikke når en af ligaerne, vil stilen og mærket blive utilgængelige. Hvis en spiller når en anden liga, udskiftes stilen og mærket med de tilsvarende fra den anden liga."
+
+msgid "rewardsView/tabs/leagues/description/league1"
+msgstr "Stilen er tildelt sæsonvindere, som har udvist bemærkelsesværdige resultater: Fuldførte alle divisioner og var i top 20%% af spillerne i forhold til præstation, eller var blandt de første spillere til at komme med i ligaerne. Stilen, når den er påført et køretøj, viser aktuelle præstationer af indehaveren. Retten til at påføre denne stil, skal forsvares i hver sæson af rangerede kampe kamptypen."
+
+msgid "rewardsView/tabs/leagues/description/league2"
+msgstr "Stilen er tildelt sæsonvindere, som har udvist en tilstrækkelig grad af evner og engagement, og kom med i sølvligaen ved slutningen af sæsonen. Stilen, når den er påført et køretøj, viser aktuelle præstationer af indehaveren. Retten til at påføre denne stil, skal forsvares i hver sæson af rangerede kampe kamptypen."
+
+msgid "rewardsView/tabs/leagues/description/league3"
+msgstr "Stilen er tildelt sæsonvindere, som kom med i bronzeligaen ved slutningen af sæsonen. Stilen, når den er påført et køretøj, viser aktuelle præstationer af indehaveren. Retten til at påføre denne stil, skal forsvares i hver sæson af rangerede kampe kamptypen."
+
+msgid "rewardsView/tabs/leagues/league1"
+msgstr "Guldliga"
+
+msgid "rewardsView/tabs/leagues/league2"
+msgstr "Sølvliga"
+
+msgid "rewardsView/tabs/leagues/league3"
+msgstr "Bronzeliga"
+
+msgid "rewardsView/tabs/ranks"
+msgstr "Belønninger for range"
+
+msgid "rewardsView/tabs/year"
+msgstr "Årlige belønninger"
+
+msgid "rewardsView/tabs/year/compensation/extraPoints"
+msgstr "For %(points)s %(rankedImg)s, modtog du %(crystal)s %(crystalImg)s som kompensation"
+
+msgid "rewardsView/tabs/year/compensation/notEnough"
+msgstr "Du modtog %(crystal)s %(crystalImg)s som kompensation"
+
+msgid "rewardsView/tabs/year/current"
+msgstr "Med i opløb om belønninger"
+
+msgid "rewardsView/tabs/year/currentChoose"
+msgstr "Vælg belønning"
+
+msgid "rewardsView/tabs/year/currentFinal"
+msgstr "Belønning modtaget"
+
+msgid "rewardsView/tabs/year/title/awarded"
+msgstr "Rang tokens: %(points)s"
+
+msgid "rewardsView/tabs/year/title/notAwarded"
+msgstr "Rang tokens: %(points)s"
+
+msgid "seasonComplete/bestRank"
+msgstr "Din højest opnåede rang"
+
+msgid "seasonComplete/bigTitle"
+msgstr "Sæson %(season)s resultater"
+
+msgid "seasonComplete/division/tooltip/header"
+msgstr "Rang %(rank)s (%(division)s)"
+
+msgid "seasonComplete/effectLabel"
+msgstr "Præstation"
+
+msgid "seasonComplete/leadersButton"
+msgstr "Sæsonledere"
+
+msgid "seasonComplete/outOfRating"
+msgstr "Udenfor rangliste"
+
+msgid "seasonComplete/placeInRating"
+msgstr "Position på ranglisten"
+
+msgid "seasonComplete/smallTitle"
+msgstr "Rangeret kamp"
+
+msgid "seasonComplete/sprinterImproved"
+msgstr "Du er blandt de første spillere til at komme med i ligaer og vil modtage en belønning for guldligaen."
+
+msgid "seasonComplete/sprinterTop"
+msgstr "Du er blandt de første spillere til at komme med i ligaer."
+
+msgid "seasonComplete/tooltip/body"
+msgstr "Dine resultater i sæson %(season)s"
+
+msgid "selectableReward/subTitle"
+msgstr "VÆLG DIN BELØNNING"
+
+msgid "selectableReward/title"
+msgstr "RANGEREDE KAMPE. %(rewardName)s"
+
+msgid "selectableReward/tooltip/equipmentChoice/limit"
+msgstr "Hver ting fra listen kan kun modtages én gang."
+
+msgid "selectableReward/tooltip/equipmentChoice/list"
+msgstr "• Udluftningssystem\n• Stabiliseringsudstyr\n• Innovativt ladesystem\n• Robust sigtemotor\n• Eksperimentel optik\n• Forbedret konfiguration\n• Forbedret kompressor\n• Øget granatmodstand"
+
+msgid "selectableReward/tooltip/equipmentChoice/title"
+msgstr "Forbedret udstyr at vælge fra"
+
+msgid "selectorTooltip/desc"
+msgstr "Kampe i køretøjer der kan udforskes og samlerkøretøjer på niveau X under standard kampregler. Hold består af spillere på mere eller mindre samme rang."
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Sæson slutter om:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Kampplan"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "I dag"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "I morgen"
+
+msgid "selectorTooltip/title"
+msgstr "Rangeret kamp"
+
+msgid "statistic/playersRaiting"
+msgstr "Sæsonledere"
+
+msgid "statistic/vehicleRank"
+msgstr "Rang tokens optjent"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "tooltip/closeButton/body"
+msgstr "Belønningen vil blive tilføjet automatisk."
+
+msgid "tooltip/closeButton/header"
+msgstr "Tilbage til garagen"
+
+msgid "tooltip/step/conditions"
+msgstr "Hvis en spiller er blandt de bedste %(battlesNum)s spillere\npå det %(team)s efter optjent xp"
+
+msgid "tooltip/step/conditions/header"
+msgstr "Modtaget"
+
+msgid "tooltip/step/decommission/description"
+msgstr "Hvis en spiller rangerer %(fromTill)s på det tabende hold efter optjent xp."
+
+msgid "tooltip/step/decommission/header"
+msgstr "Fjernet"
+
+msgid "tooltip/step/decommissionWin/description"
+msgstr "Hvis en spiller rangerer %(fromTill)s på det vindende hold efter optjent xp."
+
+msgid "tooltip/step/description"
+msgstr "Et særligt element der repræsenterer dit fremskridt mod den næste rang"
+
+msgid "tooltip/step/fromTill"
+msgstr "%(fromPlace)s–%(tillPlace)s"
+
+msgid "tooltip/step/header"
+msgstr "Vinkel"
+
+msgid "tooltip/step/losers"
+msgstr "tabende hold"
+
+msgid "tooltip/step/notCharged/description"
+msgstr "Hvis en spiller ikke er blandt de bedste %(battlesNum)s spillere på det vindende hold efter optjent xp, men rangerer %(fromTill)s."
+
+msgid "tooltip/step/notCharged/header"
+msgstr "Gemt"
+
+msgid "tooltip/step/notChargedLose/description"
+msgstr "Hvis en spiller ikke er blandt de bedste %(battlesNum)s spillere på det tabende hold efter optjent xp, men rangerer %(fromTill)s."
+
+msgid "tooltip/step/or"
+msgstr "eller"
+
+msgid "tooltip/step/winners"
+msgstr "vindende hold"
+
+msgid "welcomeScreen/btn"
+msgstr "Let's Roll!"
+
+msgid "welcomeScreen/centerRule"
+msgstr "Opnå højere range i kampe mod værdige modstandere"
+
+msgid "welcomeScreen/centerRuleTooltip/body"
+msgstr "Både dit hold og det fjendtlige hold vil bestå af spillere med en mere eller mindre ens rang."
+
+msgid "welcomeScreen/centerRuleTooltip/header"
+msgstr "Værdig modstander"
+
+msgid "welcomeScreen/closeBtn"
+msgstr "LUK"
+
+msgid "welcomeScreen/closeBtnTooltip/body"
+msgstr "Klik for at lukke skærmen og gå tilbage til garagen."
+
+msgid "welcomeScreen/closeBtnTooltip/header"
+msgstr "Luk"
+
+msgid "welcomeScreen/equalityText"
+msgstr "="
+
+msgid "welcomeScreen/header"
+msgstr "Velkommen!"
+
+msgid "welcomeScreen/leftRule"
+msgstr "Kæmp i dine favorit niveau X\nkøretøjer"
+
+msgid "welcomeScreen/leftRuleTooltip/body"
+msgstr "Kæmp i dine bedste køretøjer der kan udforskes eller samlerkøretøjer\npå niveau X"
+
+msgid "welcomeScreen/leftRuleTooltip/header"
+msgstr "Niveau X"
+
+msgid "welcomeScreen/negative/body"
+msgstr "{team}, men vær blandt de bedste {topNumber} spillere på dit hold efter optjent xp."
+
+msgid "welcomeScreen/negative/team"
+msgstr "Tab en kamp"
+
+msgid "welcomeScreen/positive/body"
+msgstr "{team} og vær blandt de bedste {topNumber} spillere på dit hold efter optjent xp."
+
+msgid "welcomeScreen/positive/team"
+msgstr "Vind en kamp"
+
+msgid "welcomeScreen/rankDescr"
+msgstr "For at opnå rang 1"
+
+msgid "welcomeScreen/ranks/header"
+msgstr "Vær blandt de bedste spillere efter optjent xp og opnå højere range!"
+
+msgid "welcomeScreen/ranksDescr"
+msgstr "Jo højere position du opnår, jo mere værdifuld er den belønning du modtager."
+
+msgid "welcomeScreen/rightRule"
+msgstr "Jo højere rang, jo mere værdifuld er belønningerne du modtager til sidst"
+
+msgid "welcomeScreen/rightRuleTooltip/body"
+msgstr "Jo højere rang du opnår, jo mere værdifuld er den belønning du modtager."
+
+msgid "welcomeScreen/rightRuleTooltip/header"
+msgstr "Værdifulde belønninger"
+
+msgid "welcomeScreen/rulesDelimeter"
+msgstr "eller"
+
+msgid "yearLeaderboard/rewardView/battleType"
+msgstr "Rangeret kamp"
+
+msgid "yearLeaderboard/rewardView/clanDescr"
+msgstr "[%(clan)s] "
+
+msgid "yearLeaderboard/rewardView/leaderboardBtn/label"
+msgstr "Gå til ranglisten"
+
+msgid "yearLeaderboard/rewardView/positionDescr"
+msgstr "Placering af {name} {clan}på ranglisten"
+
+msgid "yearLeaderboard/rewardView/reward/label"
+msgstr "Du modtog et særligt %(name) mærke, der kan placeres ved siden af dit kaldenavn."
+
+msgid "yearLeaderboard/rewardView/reward/nameTemplate"
+msgstr "\"{name}\""
+
+msgid "yearLeaderboard/rewardView/title"
+msgstr "Du nåede top {total}"
+
+msgid "yearRewards/box/big/title"
+msgstr "Avanceret belønning"
+
+msgid "yearRewards/box/large/title"
+msgstr "Maksimal belønning"
+
+msgid "yearRewards/box/medium/title"
+msgstr "Standard belønning"
+
+msgid "yearRewards/box/small/title"
+msgstr "Lille belønning"
+
+msgid "yearRewards/tooltip/any/reward/title"
+msgstr "Belønning"
+
+msgid "yearRewards/tooltip/box/big/title"
+msgstr "Avanceret belønning"
+
+msgid "yearRewards/tooltip/box/large/title"
+msgstr "Maksimal belønning"
+
+msgid "yearRewards/tooltip/box/medium/title"
+msgstr "Standard belønning"
+
+msgid "yearRewards/tooltip/box/small/title"
+msgstr "Lille belønning"
+
+msgid "yearRewards/tooltip/box/subTitle"
+msgstr "Årlig belønning. Kun tildelt, hvis spilleren optjener det krævede antal rang tokens ved slutningen af tre sæsoner af rangerede kampe."
+
+msgid "yearRewards/tooltip/equipmentChoice/description/1"
+msgstr "Du kan vælge ét stykke forbedret udstyr som belønning:"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/2"
+msgstr "Du kan vælge to stykker forbedret udstyr som belønning. Hver ting kan kun modtages én gang:"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/3"
+msgstr "Du kan vælge tre stykker forbedret udstyr som belønning. Hver ting kan kun modtages én gang:"
+
+msgid "yearRewards/tooltip/equipmentChoice/list"
+msgstr "• Udluftningssystem\n• Stabiliseringsudstyr\n• Innovativt ladesystem\n• Robust sigtemotor\n• Eksperimentel optik\n• Forbedret konfiguration\n• Forbedret kompressor\n• Øget granatmodstand"
+
+msgid "yearRewards/tooltip/equipmentChoice/title"
+msgstr "Forbedret udstyr"
+
+msgid "yearRewards/tooltip/needPoints"
+msgstr "Rang tokens krævet"
+
+msgid "yearRewards/tooltip/status/current/description"
+msgstr "Du er med i opløbet om en årlig belønning, da du har optjent det krævede antal rang-tokens."
+
+msgid "yearRewards/tooltip/status/current/title"
+msgstr "Din nuværende belønning"
+
+msgid "yearRewards/tooltip/status/currentChoose/description"
+msgstr "Du modtog en årlig belønning! Klik på Vælg belønning-knappen for at vælge forbedret udstyr."
+
+msgid "yearRewards/tooltip/status/currentChoose/title"
+msgstr "Belønning modtaget! Der kan nu vælges et stykke forbedret udstyr."
+
+msgid "yearRewards/tooltip/status/currentFinal/description"
+msgstr "Du modtog en årlig belønning!"
+
+msgid "yearRewards/tooltip/status/currentFinal/title"
+msgstr "Belønning modtaget!"
+
+msgid "yearRewards/tooltip/status/locked/description"
+msgstr "Optjen dem i rangerede kampe ved at rykke op gennem divisioner og spille i ligaer."
+
+msgid "yearRewards/tooltip/status/locked/title"
+msgstr "Ikke nok rang tokens"
+
+msgid "yearRewards/tooltip/status/lockedFinal/description"
+msgstr "Du har ikke optjent nok rang-tokens til at modtage denne belønning."
+
+msgid "yearRewards/tooltip/status/lockedFinal/title"
+msgstr "Ikke nok rang tokens"
+
+msgid "yearRewards/tooltip/status/passed/description"
+msgstr "Du er allerede med i opløbet om en mere værdifuld årlig belønning"
+
+msgid "yearRewards/tooltip/status/passed/title"
+msgstr "Belønning utilgængelig"
+
+msgid "yearRewards/tooltip/status/passedFinal/description"
+msgstr "Du har allerede modtaget en mere værdifuld årlig belønning"
+
+msgid "yearRewards/tooltip/status/passedFinal/title"
+msgstr "Belønning utilgængelig"
+
+msgid "year_award/acceptButton/acceptLabel"
+msgstr "Bekræftet!"
+
+msgid "year_award/acceptButton/hangarLabel"
+msgstr "Vis i garagen"
+
+msgid "year_award/compensationLabel"
+msgstr "Du optjente {total} {pointsIcon}. For {compensated} {pointsIcon} af dem, modtog du {crystals} {crystalIcon} som kompensation."
+
+msgid "year_award/rankedLabel"
+msgstr "Rangeret kamp"
+
+msgid "year_award/rewardSelected"
+msgstr "Belønning modtaget"
+
+msgid "year_award/rewardsToSelect"
+msgstr "Belønninger at vælge fra: {count}"

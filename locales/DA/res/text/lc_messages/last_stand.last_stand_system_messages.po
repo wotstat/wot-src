@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Taktisk grej"
+
+msgid "open_artefact/server_error"
+msgstr "Operation er midlertidigt utilgængelig. Prøv igen senere."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Kunne ikke genforsyne taktisk grej for %s. Teknisk fejl."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Kunne ikke genforsyne taktisk grej for %s. Ikke nok midler."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Taktisk grej for %s genforsynet. Du har brugt "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Dokumenter tilgængelige til dekryptering"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Kamptype: Sidste slag: Terra Nord"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Sidste slag: Terra Nord (Regulær)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Sidste slag: Terra Nord (Avanceret)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Sidste slag: Terra Nord (Brutal)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Sværhedsgrad"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Regulær"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Avanceret"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Brutal"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Data"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Mål fuldført!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Mål fuldført!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Køretøj"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Bølger fuldført: %(curPhase)s af %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Brugt %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Finansiel transaktion"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Du kan vælge sværhedsgraden på panelet for sværhedsgrad i Sidste slag-garagen."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Avanceret sværhedsgrad åbnet"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Du kan vælge sværhedsgraden på panelet for sværhedsgrad i Sidste slag-garagen."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Brutal sværhedsgrad åbnet"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Du kan vælge kamptypen på panelet for sværhedsgrad i Sidste slag: Operation Pandora-garagen."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Sidste slag-kamptype åbnet"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Dekrypteringsnøgler modtaget: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Kvittering"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Nøgler fjernet: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Dekryptering gennemført"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Sidste slag-kampe er midlertidigt utilgængelige.\nPrøv igen senere."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Kampe på %(difficulty)s sværhedsgrad er midlertidigt utilgængelige. Prøv igen senere."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Sidste slag er midlertidigt utilgængeligt. Se spilportalen for flere opdateringer."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Delingskommandøren har ændret sværhedsgraden til: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Spilleren %(userName)s har ikke åbnet op for en af sværhedsgraderne."

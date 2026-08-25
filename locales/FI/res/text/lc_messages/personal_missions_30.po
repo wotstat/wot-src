@@ -1,0 +1,677 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "campaignSelector/completedAll/subtitle"
+msgstr "Kaikki kampanjat on suoritettu ansiokkaasti"
+
+msgid "campaignSelector/completedAll/title"
+msgstr "Onneksi olkoon!"
+
+msgid "campaignSelector/locked"
+msgstr "Henkilökohtaisia tehtäviä voi suorittaa tason VI tai sitä suuremman tason vaunuilla"
+
+msgid "campaignSelector/operation/tooltip/locked"
+msgstr "Operaatiot väliaikaisesti pois käytöstä"
+
+msgid "campaignSelector/status/button/activate"
+msgstr "Aktivoi kampanja"
+
+msgid "campaignSelector/status/button/switchCampaign"
+msgstr "Palaa kampanjaan"
+
+msgid "campaignSelector/status/button/switchCampaigns"
+msgstr "Palaa kampanjoihin"
+
+msgid "campaignSelector/status/button/tooltip"
+msgstr "Odota, kunnes vaunu poistuu taistelusta. Et voi vaihtaa kampanjoita tai operaatioita vaunun ollessa taistelussa."
+
+msgid "campaignSelector/status/completed/firstTwo"
+msgstr "\"{{firstCampaign}}\" ja \"{{secondCampaign}}\" kampanjat on suoritettu ansiokkaasti!"
+
+msgid "campaignSelector/status/completed/third"
+msgstr "\"{{thirdCampaign}}\" kampanjsa on suoritettu ansiokkaasti!"
+
+msgid "campaignSelector/status/text/activate"
+msgstr "Uusi \"{{thirdCampaign}}\" kampanja on saatavilla!"
+
+msgid "campaignSelector/status/text/switchCampaign"
+msgstr "\"{{thirdCampaign}}\" kampanja on tauotettu {{icon}}"
+
+msgid "campaignSelector/status/text/switchCampaigns"
+msgstr "\"{{firstCampaign}}\" ja \"{{secondCampaign}}\" kampanjat on tauotettu {{icon}}"
+
+msgid "campaignSelector/status/tooltip/firstTwo"
+msgstr "Kun \"Kauan odotettu vahvistus\" ja \"Toinen rintama\" kampanjoihin palataan, asetetaan \"Sektori 3\" kampanja tauolle. Kaikki edistyminen tauotetussa kampanjassa tallennetaan ja voit palata siihen milloin hyvänsä."
+
+msgid "campaignSelector/status/tooltip/third"
+msgstr "Kun \"Sektori 3\" kampanjaan palataan, \"Kauan odotettu vahvistus\" ja \"Toinen rintama\" kampanjat asetetaan tauolle. Kaikki edistyminen tauotetussa kampanjassa tallennetaan ja voit palata siihen milloin hyvänsä."
+
+msgid "campaignSelector/status/tooltip/title"
+msgstr "Kampanjaan palaaminen"
+
+msgid "common/category/assault"
+msgstr "Etuvartio"
+
+msgid "common/category/sniper"
+msgstr "Väijytys"
+
+msgid "common/category/support"
+msgstr "Avustus"
+
+msgid "common/role/assault"
+msgstr "Rynnäköijä"
+
+msgid "common/role/breakthrough"
+msgstr "Läpimurto"
+
+msgid "common/role/sniper"
+msgstr "Tarkka-ampuja"
+
+msgid "common/role/support"
+msgstr "Tukija"
+
+msgid "common/role/universal"
+msgstr "Monipuolinen"
+
+msgid "conditions/requiredVehicle/bottomLabel"
+msgstr "Täytä ehto %(count)s eri vaunulla"
+
+msgid "detail/descr/historical/s3_t10_vehElement_1"
+msgstr "James Corvin, ensimmäinen merkintä. Aloitimme tänään vaununi, Black Rockin, kokoamisen. Asensimme tornin. Valetuista, yhteen hitsatuista elementeistä tehty komposiittirakenne. Hyvältä näyttää. Se on käytännöllinen.\n\nMitä tulee tutkimuksiimme, saaren perinpohjainen tutkiminen on osoittanut teoriamme vääräksi. Allamme ei ole mitään huippusalaista Morettin bunkkeria.\n\nTämä Moretti operoi järjestelmällisesti luoden kokonaisen valelaitosten verkoston ja väärentää koko joukon asiakirjoja hämätäkseen meitä.\n\nHukkasimme liikaa aikaa seuratessamme vääriä johtolankoja. Meidän tulee arvioida lähestymistapamme uusiksi ja toimia harkiten perustaen jokainen askeleemme todistetuille tosiasioille."
+
+msgid "detail/descr/historical/s3_t10_vehElement_10"
+msgstr "Asensimme tänään kylkilevyt. Vähän lisää suojaa ei ole koskaan huono ajatus.\n\nMorettin arkistot valaisevat Morgenlichtin tapahtumia. Siellä tiedemiehet löysivät vahingossa KRONOSin prototyypin tendenssin generoida odottamattomia tuloksia tekemällä todennäköisyyksiin liittyviä virheitä. Tätä kykyä hallittuihin virheisiin voitiin hienosäätää ja hioa generoimaan tarvittuja epätavanomaisia ratkaisuja.\n\nHe tarvitsivat todella maata mullistaviin keksintöihin vain lisää laskentatehoa. Kirjaimellisesti koneen koon kasvattamista. Eksponentiaalisesti."
+
+msgid "detail/descr/historical/s3_t10_vehElement_11"
+msgstr "Tänään maalasimme vaunun mustaksi. Tumma maastokuvio antaa lisäetua pelottamalla vihollisia ja parantaa yöaikaan toimimisen edellytyksiä.\n\nTutkimuksissamme kaikki alkaa lopulta käydä järkeen: KRONOS on valtava tietokonejärjestelmä, joka kykenee \"luoviin mutaatioihin\". Ja se on tosiaan lähde näille kaikille mahdottomille teknologioille, joita olemme löytäneet salaisista bunkkereista ja joista Arkkitehti kertoo satelliittinsa välityksellä. Uskomatonta.\n\nMorettin muistiinpanot kertovat, että aluksi hän ihaili luomustaan ja uskoi rakentaneensa työkalun \"ihmiskunnan tulevaisuuden suunnitteluun.\" Mutta sitten kaikki muuttuu kiinnostavammaksi."
+
+msgid "detail/descr/historical/s3_t10_vehElement_12"
+msgstr "Asensimme tänään savunheittimet. Ulkoisesti kovin viattoman näköiset laitteet. Mutta savuverhot ovat säästäneet aiemmat vaununi tuholta useammin kuin kerran.\n\nMorettin muistiinpanojen sävy muuttuu dramaattisesti. Hän oli aina varovainen, eikä koskaan luottanut keneenkään kovin paljoa. Mutta jossain vaiheessa hänestä tuli tyystin vainoharhainen. Hän ei epäile ainoastaan tiedemiehiä, insinöörejä ja henkilökuntaa, vaan myös KRONOSia itseään. Hän kirjaimellisesti kirjoittaa vakuuttuneensa siitä, että kone on tullut \"tietoiseksi\" ja manipuloi ihmisiä.\n\nMitä pidemmälle menemme, sitä vainoharhaisemmiksi Morettin merkinnät käyvät. Nyt kohtaamme uuden arvoituksen: oliko Moretti itse vajoamassa hulluuteen vai oliko hän todella luonut jotain, joka oli noussut ohjelmoitujen kyvykkyyksiensä tuolle puolen?"
+
+msgid "detail/descr/historical/s3_t10_vehElement_13"
+msgstr "Tänään asensimme suujarrun, joka pienentää rekyyliä merkittävästi. Sen myötä tykki on valmis.\n\nMorettin viimeisessä merkinnässä hän vaikuttaa menettäneen kokonaan itsehillintänsä. Hän kirjoittaa koneen teeskentelevän, etttä se \"tietää kaiken\". Hän eksplisiittisesti vaatii sitä tuhottavaksi ennen kuin on liian myöhäistä.\n\nSen merkinnän jälkeen ei ole mitään. Emme ole löytäneet pienintäkään todistetta KRONOSin kohtalosta sen jälkeen. Tuhottiinko kone todella vai onko se edelleen toiminnassa jossain Etelämantereen jäätiköillä? Se olisi pelottavaa etenkin Arkkitehdin toimet huomioiden.\n\nMitä jos hänellä on vielä tuoreempia KRONOSin keksintöjä, jotka ovat jälleen vuosikymmenen kyvykkyyksiämme edellä?"
+
+msgid "detail/descr/historical/s3_t10_vehElement_14"
+msgstr "Vaunu on nyt varustettu kaikella oleellisella. Se on pian kokonaan valmis.\n\nJa juuri ajoissa. Tiedämme nyt, mitä Moretti piilotteli meiltä ja mistä Arkkitehti sai kaikki nämä teknologiat. Niinpä jäljellä on päätehtävämme, KRONOSin löytäminen.\n\nOlemme jo valmistelemassa sotilaallista etsintäoperaatiota Etelämantereelle. Mutta miksi minusta tuntuu, että tämä on taas yksi Morettin harhautuksista? Oliko koko Morettia edes olemassa? Kaikkien hänen huijaustensa jälkeen sitä alkaa kyseenalaistamaan kaikkea ja harkitsemaan kaikkein villeimpiä teorioitamme. Leni ehdotti Arkkitehdin ja Morettin saattavan olla sama henkilö. Ja Teddy on ehdottoman vakuuttunut, että Arkkitehti on itse asiassa KRONOS.\n\nOli Arkkitehti kuka hyvänsä, hän on useita askeleita edellämme. Meidän pitää löytää KRONOS ja pysäyttää Arkkitehti."
+
+msgid "detail/descr/historical/s3_t10_vehElement_15"
+msgstr "Telat on asennettu. Black Rock on lopulta valmis. Jokainen komponentti on kalibroitu ja jokainen järjestelmä testattu. Todellinen insinöörityön ihme valmiina jokaiseen haasteeseen.\n\nLäpi koko urani olen komentanut monia vaunuja, mutta tämä on todella jotain erityistä. Se edustaa ponnisteluidemme huipentumaa, siinä yhdistyvät hankkimamme teknologiat päättäväisyyteemme pysäyttää Arkkitehti.\n\nMitä ikinä hän onkaan suunnitellut, mitkä salaisuudet meitä Etelämantereella tai muualla odottavatkaan, parantaa tämä kone mahdollisuuksiamme onnistua.\n\nHistoria opettaa meille, että valmistautuminen on merkitsevä ero tappion ja voiton välillä. Uskon, että tämä on totta myös tulevissa taisteluissamme."
+
+msgid "detail/descr/historical/s3_t10_vehElement_2"
+msgstr "Tänään asensimme telakoneiston komponentit. Ei mitään epätavanomaista. Mutta tämä on luotettava ja kentällä testattu.\n\nTutkimme yhä lähetyslistoja, joissa Morettin valenimet esiintyvät. Kuljetusalusten reittien ja Arkkitehdin satelliitin tietojen avulla olemme paikallistaneet tusinoittain salaisia laitoksia.\n\nNäistä löysimme uusia piirustuksia ja arkistoja, jotka syntyivät projekti KRONOSin osana. Mutta tämä ei auta meitä ymmärtämään lainkaan, kuinka saksalaiset tiedemiehet onnistuivat kehittämään kaikki nämä suunnitelmat, tai löytämään KRONOSin pääbunkkeria, jossa jotain todella suurta ja vaarallista rakennetaan."
+
+msgid "detail/descr/historical/s3_t10_vehElement_3"
+msgstr "Tänään asensimme ajopyörät. Telakoneisto on lähes valmis. Tämä on yksinkertainen vaihe.\n\nTutkimuksemme sen sijaan on edelleen haastava. Mitä meiltä jää huomaamatta? Missä päin Eurooppaa voisi olla näin valtava bunkkeri piilossa, jota emme ole vielä onnistuneet paikallistamaan?\n\nTeddy ehdottaa, että laitos saattaisi olla veden alla. Hän huomasi, että sukellusveneiden lähtöpäivät osuivat usein yhteen kuljetusalusten aikataulujen kanssa. Mielenkiintoinen havainto, mutta vedenalaisen tukikohdan rakentaminen 1940-luvulla olisi ollut jopa Morettin kykyjen ulottumattomissa.\n\nTeddy ehdotti toista teoriaa – salainen tukikohta voisi olla kuussa. Sen ammuimme alas välittömästi. Vain Arkkitehti on onnistunut satelliitin laukaisussa ja siinäkin vasta viime aikoina. 1940-luvulla avaruusmatkailu pysyi vielä mielikuvituksen asteella."
+
+msgid "detail/descr/historical/s3_t10_vehElement_4"
+msgstr "Komentajan tarkkailuvälineet asennettu. Pyörivä periskooppi tarjoilee täydet 360 astetta näkyvyyttä. Voin tarkkailla taistelukenttää olematta itse tornissa, mikä kuulostaa lupaavalta.\n\nOlemme tunnistaneet epätavallista aktiviteettiä pieneltä rahtialusten laivastolta. Ne poistuvat satamasta ja palaavat tyhjinä muutamaa tuntia myöhemmin. Laivojen lokikirjojen mukaan ne suuntaavat aina samoihin koordinaatteihin avomerellä.\n\nVoisiko se todella olla vedenalainen tukikohta?\n\nLeni jakaa skeptisyyteni tätä teoriaa kohtaan. Hän pitää uskottavampana, että rahti on siirretty sukellusveneisiin. Nyt meidän pitää määrittää, minne tämän sektorin sukellusveneet ovat olleet matkalla."
+
+msgid "detail/descr/historical/s3_t10_vehElement_5"
+msgstr "Miehistön tarkkailuvälineet asennettiin tänään. Sen ytimessä on kamerapohjainen järjestelmä – taas yksi pala KRONOSin teknologiaa, joka oli vuosikymmeniä aikaansa edellä.\n\nTiedustelulähteet kertovat kasvaneesta sukellusveneaktiivisuudesta Etelä-Atlantilla lähellä Argentiinan rannikkoa ja epäillyt liikesuunnat ovat kohti Etelämannerta. Viime aikoina läpikäydyt salatut asiakirjat vahvistavat tätä teoriaa.\n\nEtelämanner vaikuttaa olevan viimeinen kohde näille lähetyksille. Maapallon kaikkein syrjäisin kolkka vaikuttaisi todellakin ihanteelliselta paikalta piilottaa jotain tätä kokoluokkaa olevaa. Nyt meidän pitää vain onnistua määrittämään, mitä tarkalleen Moretti halusi piilottaa jään alle."
+
+msgid "detail/descr/historical/s3_t10_vehElement_6"
+msgstr "Asensimme pari Browning M2HB raskasta konekivääriä. Kauko-ohjausjärjestelmä mahdollistaa kohteiden tulittamisen ilman, että miehistön tarvitsee asettaa itseään vaaralle alttiiksi. Se on taktinen etu, jota arvostan suuresti.\n\nLuulimme, että olimme lähellä saada selville, mitä Moretti oli rakentamassa, vain löytääksemme epäjohdonmukaisuuksia tämän giganttisen Wunderwaffen piirustuksista, jotka hiljattain saimme parsittua kasaan KRONOSin arkistoista. Piirustukset sisältävät tarkoituksella tehtyjä virheitä, joiden takia koottu laite ei toimisi.\n\nPiru vieköön! Taas yksi Morettin hämäyksistä.\n\nMitä hän oikein piilottelee näin laajan disinformaatiotulvan takana? Mikä voisi olla vielä salaisempaa kuin Wunderwaffe?"
+
+msgid "detail/descr/historical/s3_t10_vehElement_7"
+msgstr "Päätykki lopultakin asennettu. Erittäin epätavanomainen näyte epätavanomaisesta kaliiperista. Siinä on hylsyn ulosheittäjä, joka varmistaa sekä hyvän tarkkuuden että tulinopeuden. Juuri, mitä tarvitsen.\n\nAutenttisten piirustusten analysoinnin ja väärennöksistä erottamisen jälkeen olemme tehneet läpimurron: \"ihmease\", jota olemme etsineet, ei ole lainkaan ase, vaan uskomattoman kokoinen laskentakeskus.\n\nMinun on pakko antaa Morettin nerokkuudelle tunnustusta näin huolellisen savuverhon luomisesta valehankkeilla ja salaisilla tukikohdilla. Ilman Arkkitehdin satelliitin dataa olisimme vielä kaukana tämän löydön tekemisestä."
+
+msgid "detail/descr/historical/s3_t10_vehElement_8"
+msgstr "Tänään asensimme lokasuojat. Ei mitään erityistä, mutta ne ovat taas yksi askel lähemmäs vaunun valmistumista.\n\nTutkimuksemme on kuitenkin löytänyt jotain erityistä. Paljastimme Morettin henkilökohtaisen arkiston. Hän kirjoittaa mekaaniselektronisen järjestelmän rakentamisesta, joka pelkän laskennon lisäksi voi \"ennustaa\" uusia ideoita.\n\nTämä vaikuttaa olleen todellinen KRONOS – näiden kaikkien uskomattomien teknologioiden lähde. Kone, joka voi suunnitella toisia koneita.\n\nMutta miten se on mahdollista? Vai onko tämä vain taas yksi Morettin monimutkainen harhautus, joka on ehkä tehty estämään tiedusteluorganisaatioita saamasta selville todellisen \"ihmeaseen\" luonnetta?"
+
+msgid "detail/descr/historical/s3_t10_vehElement_9"
+msgstr "Infrapunavalonheittimet yhdistetty. Näiden laitteiden ansiosta voimme taistella öisin. Pakollista nykypäivän standardeilla.\n\nKoetamme yhä saada tolkkua Morettin arkistoista. Hän kirjoittaa, että hänen koneensa oli tarkoitus alun perin olla jättimäinen insinöörien työkalu, mutta useiden suunnitteluvirheiden tähden se alkoi \"hallusinoida\": kehittää vastauksia, teorioita ja käsitteitä, joita ei aiemmin ollut olemassa. Useimmat sen tuotoksista olivat järjettömiä, mutta kaaoksen keskeltä löytyi aitoja innovaatioita.\n\n\"Virheet johtavat uusiin löytöihin. Täydellisyys tukahduttaa luovuutta. Kaikki tottelevat luonnon lakeja. Jopa koneet.\" Hmm..."
+
+msgid "detail/descr/historical/s3_t8_vehElement_1"
+msgstr "Nebel äänessä, lokimerkintä yksi. Tänään aloitimme Windhund vaununi rakentamisen.\n\nAsensimme lisää ontelopanssarointia. Se onkin arvoas osa. Sellainen panssari tehoaa hyvin ontelokranaatteihin.\n\nMyös tutkimuksemme alkoivat tänään. Dokumentit, joissa on merkintä \"KRONOS\" sisältävät teknologioita, jotka ovat vuosikymmeniä tämän hetkisiä kykyjämme edellä. Suunnitelmia 1940-luvulta, jollaisia ei yksinkertaisesti pitäisi olla olemassa. Osa täsmää Arkkitehdin satelliitin lähettämiin tietoihin.\n\nTähän mennessä olemme löytäneet vain yhden johtolangan: viitteitä \"Schloss Morgenlichtiin\". Aamun valon linna. Meidän tulee löytää tämä paikka ja saada selville, mitä siellä tapahtui."
+
+msgid "detail/descr/historical/s3_t8_vehElement_10"
+msgstr "Liikkuva, taktinen, maasta käsin toimiva dopplerpulssi-tutkia. Vaikuttavaa teknologiaa. Voimme tunnistaa kohteen koon ja etäisyyden. Kaltaiseni taitava operaattori voi tunnistaa henkilöstön, eläimet ja vaunut merkittävien etäisyyksien takaa. Ja paljon pienemmällä laitteella kuin meille tänä päivänä pitäisi olla mahdollista.\n\nKaikki tämä vuodelta 1944 olevien tutkapiirustusten ansiosta, jotka löysimme KRONOSin arkistoista. Tämä teknologia ei ollut vain edellä aikaansa – se oli myös edellä meidän aikaamme.\n\nJos minulla olisi ollut tämä käsissäni silloin muinoin, olisin voinut muuttaa historiaa..."
+
+msgid "detail/descr/historical/s3_t8_vehElement_11"
+msgstr "Tavalliset panssarivaunun valaistusjärjestelmät, peruutuspeilit ja radioantennit. Ei mitään merkillepantavaa – vain jokaisen modernin taisteluajoneuvon perusvarusteita.\n\nMerkillepantavaa on sen sijaan se, mitä olemme saaneet selville 1944 vuodelta. Jotain muuttui silloin dramaattisesti Morgenlichtissa: rekkoja alkoi saapua päiväsaikaan ja yksi klinikan siipi lisää annettiin kokonaan Morantin käsiin.\n\nAjoitus sopii täsmälleen yksiin sen kanssa, kun Reich alkoi epätoivoisesti yrittää kehittää sen \"Wunderwaffea\". Hmmm..."
+
+msgid "detail/descr/historical/s3_t8_vehElement_12"
+msgstr "Tänään asensimme savunheittimet. Sopivat nopeiden savuverhojen heittämiseen lähietäisyydelle.\n\nMorantimme luo taas omaa savuverhoaan, jota yritämme epätoivoisesti hälventää.\n\nLöysimme aikalaisdokumenteista mainintaoja hänen \"Geistesfessel\" -kokeestaan. \"Mielen kahleet\" -koe onnistui ja oli valmis laajennettavaksi.\n\nSelkäpiitäni karmii, kun kuvittelenkaan, mitä hänen on pitänyt tehdä noille tiedemiehille saadakseen kaikki nämä teknologiat."
+
+msgid "detail/descr/historical/s3_t8_vehElement_13"
+msgstr "Varustimme vaunun tarpeellisilla linnoittautumisvälineillä. Sitä voi olla maailman edistynein tutkajärjestelmä, mutta joskus sitä ei auta muu kuin liata kätensä, jotta pääsee pulasta.\n\nLöysimme yhden salaisen bunkkerin ja sieltä palasia Morgenlichtin lääketieteellisestä dokumentaatiosta. Se sisälsi koko joukon häiritseviä toimenpiteiden nimiä: \"Ajatusten keräys\", \"Usvakammio\", \"Unen sieppaaja\", \"Mielisilta\", \"Mekaaninen muisti\", \"Varjoarkisto\".\n\nPalapeli kasautuu pala kerrallaan. Tunnen, että olemme pääsemässä lähemmäs totuutta – ja pian löydämme puuttuvat palaset."
+
+msgid "detail/descr/historical/s3_t8_vehElement_14"
+msgstr "Vaunu on lähes valmis. Nappasimme tänään suosimani naamioverkot. Naamioituminen on erikoisalaani – sekä itseni piilottaminen että piilossa olijoiden löytäminen.\n\nMutta Morantin jäljittäminen on osoittautunut paljon vaikeammaksi. Jossain vaiheessa hän vain katoaa kaikista asiakirjoista aivan kuin hänet olisi eliminoitu tarpeettomana todistajana. Mutta kokeen Morgenlicthissa jatkuivat ilman häntä.\n\nMitä todella tapahtui? Taas yksi lavastettu katoaminen? Vai ylittikö Moranti jonkin rajan? Mitä hän olisi voinut tehdä sellaista, joka olisi ylittänyt rajan Reichin hirvittävillä standardeilla?"
+
+msgid "detail/descr/historical/s3_t8_vehElement_15"
+msgstr "Windhund on valmis. Viimeiset tarkastukset on tehty.\n\nTämä ei ole vain yksi taisteluajoneuvo. Se on saalistaja, joka on tehty metsästämään – salavihkaisesti, kuolettavasti pitkiltä matkoilta ja kykenevänä katoamaan yöhön.\n\nNyt jahti lopulta alkaa.\n\nTutkimuksemme saavat nyt merkittävästi lisävauhtia. Jotkut salaisuudet voi löytää vain kenttätöissä."
+
+msgid "detail/descr/historical/s3_t8_vehElement_2"
+msgstr "Tänään asennettiin luukut. Hyvä sijoittelu, joka mahdollistaa nopean poistumisen tai vaunuun menon. Käytännöllistä, tehokasta. Juuri, mitä tarvitsen.\n\nLöysin lisää tietoa Schloss Morgenlichtista. Se oli linnassa sijaitseva lääketieteellinen laitos, jolla salainen siipi.\n\nArkistot mainitsevat laitoksen valvojan, \"tohtori Morantin.\"\n\nLääketieteellinen laitos salaisella osastolla? Jokin täällä ei täsmää. Meidän pitää ottaa selvää, miten se on yhteydessä projekti KRONOSiin ja salakirjoitettuihin piirustuksiin."
+
+msgid "detail/descr/historical/s3_t8_vehElement_3"
+msgstr "Ensimmäinen osa telakoneistoa asennettu. Taas yksi askel lähempänä Windhundin valmistumista.\n\nArkistoja tutkiessa löysimme häiritsevän kaavan. Vuonna 1943 merkittäviä saksalaisia tiedemiehiä ja insinöörejä julistettiin systemaattisesti \"mielisairaiksi\" ja he katosivat Morgenlicht-klinikalle.\n\nLiian järjestelmällistä ollakseen sattumaa. Nämä eivät olleet satunnaisia mielisairausepidemioita. Tämä oli harkittu kokoelma inhimillistä pääomaa.\n\nKysymys on: mitä he varsinaisesti tekivät sillä pääomalla?"
+
+msgid "detail/descr/historical/s3_t8_vehElement_4"
+msgstr "Ajopyörät asennettu. Neljä kummallakin puolella. Etummaisella parilla on metallivanteet kumin sijaan. Tavallinen kumi hajoaisi liian nopeasti tällä painojakaumalla.\n\nLöysimme entisen Morgenlichtin hoitajan. Hänen todistuksensa oli sangen paljastava. Rajoitettuun siipeen saapui aseistettujen sotilaiden vartioimia armeijan rekkoja. Ne toivat \"maanisdepressiivisiksi\" diagnosoitua väkeä.\n\nHe siis pitivät tiedemiehiä ja insinöörejä lukittuna. Ja paineen allako nämä vangit sitten keksivät uusia teknologioita? Mistä tässä projekti KRONOSissa oli oikein kyse?"
+
+msgid "detail/descr/historical/s3_t8_vehElement_5"
+msgstr "Kylkiin asennettiin tänään pölysuojat. Ne parantavat vaunun kestävyyttä pitkillä tehtävillä. Varmasti tervetullut lisä.\n\nLöysimme mielenkiintoisia tietoja Morgenlichtin asiakirjoista. Virallisesti \"taistelussa kuolleeksi\" vuonna 1943 julistettu insinööri ilmestyy klinikan sisään otettavien potilaiden kirjaan kolme viikkoa myöhemmin.\n\nMutta oliko tämä pakotettu eristys? Osa todistusaineistosta vihjaa, että tietyt asiantuntijat menivät sinne vapaaehtoisesti ja hyväksyivät lavastetun kuoleman jatkaakseen työskentelyä Morantin suojissa. Näppärä temppu heidän tutkimuksensa kätkemisessä liittoutuneiden tiedustelulta.\n\nMissä siis olet, tohtori Moranti? Kuinka en edelleenkään tiedä mitään sinusta?"
+
+msgid "detail/descr/historical/s3_t8_vehElement_6"
+msgstr "Asensimme juuri suujarrun päätykkiin. Se vähentää merkittävästi rekyyliä. Juuri sitä, mitä tarvitsinkin.\n\nLöysin hoitajan päiväkirjan Morgenlichtista. Hän kuvailee \"tohtori Morantin\" komentaneen sekä vartijoita että potilaita ehdottomalla auktoriteetilla. Kuitenkaan tätä tohtoria ei löydy mistään saksalaisista lääketieteen rekistereistä tai sotilasarkistoista. Todellinen aave.\n\nTämä vain vahvistaa epäilykseni – mitään tohtori Morantia ei koskaan ollutkaan, vaan kyse on nimenomaisesti projekti KRONOSia varten luodusta salanimestä. Joku halusi vedellä naruja varjoista."
+
+msgid "detail/descr/historical/s3_t8_vehElement_7"
+msgstr "Maalasin maastokuvion pohjavärin. Täytyy myöntää, että musta on syy, miksi liityin Sektori 3:een. Se ja mahdollisuus jäljittää vielä muutama sotarikollinen lisää. Ja rakentaa unelmieni taisteluajoneuvo. Hyvä on. Oli monta syytä.\n\nLöytämämme asiakirjat kertovat, että Morgenlichtin potilaat loivat vallankumouksellisia suunnitelmia \"erikoistoimenpiteiden\" alaisina.\n\nMitään selityksiä siitä, mitä nämä toimenpiteet olivat, ei ole, mutta raportit kertovat \"tuottavuuden kasvusta\" jokaisen session jälkeen. Mitä ikinä he tekivätkään näille tiedemiehille, se oli järjestelmällistä ja tuotti odotettuja tuloksia. Yksi mysteeri lisää meille ratkaistavaksi."
+
+msgid "detail/descr/historical/s3_t8_vehElement_8"
+msgstr "Hämäräkamera asennettiin tänään. Vaikuttavaa teknologiaa. Se havaitsee kohteet lähes täydellisessä pimeydessä. Tarkkuus ylittää kaiken, minkä kanssa olen aiemmin työskennellyt.\n\nOnnistuimme tuottamaan prototyypin projekti KRONOSin optisen tarkkailujärjestelmän piirustusten pohjalta. Ne luotiin todennäköisesti potilaiden ideoiden pohjalta. En edelleenkään halua ajatella, mitä menetelmiä Moranti käytti saadakseen nämä suunnitelmat irti heistä.\n\nToivon, että hän on yhä hengissä, jotta voimme löytää hänet. Oikeus ei koskaan väsy."
+
+msgid "detail/descr/historical/s3_t8_vehElement_9"
+msgstr "Infrapunavalonheitin. Kelpo tekniikkaa. Olen käyttänyt näitä ennenkin. Helpottavat merkittävästi kohteen löytämistä pimeässä. Ja pimeässä työskentelystä nautin kaikkein eniten.\n\nOlemme löytäneet todisteita varusteiden siirtämisestä pois Morgenlicthistä varhain vuonna 1944. Asiakirjat mainitsevat \"erikoislaatikoita\", joita siirrettiin aseistettujen vartijoiden valvonnassa.\n\nTämä tarkoittaa, ettei klinikka ollut vain paikka, jossa \"hankittiin tieteellisiä konsepteja\". He myös rakensivat siellä prototyyppejä. Näyttää siltä, että Moranti oli piilottanut edistyneen suunnittelutoimiston aivan kaikkien näkösälle."
+
+msgid "detail/descr/historical/s3_t9_vehElement_1"
+msgstr "Ensimmäinen nauhoitus, Miroslav Kotva tässä, mutta kaikki kutsuvat minua Teddyksi. Lopulta aloittamassa vaununi, Dravecin kokoamista! Tänään asensimme tornin. Hitsattu rakenne, valssattua terästä. Mikä kaunokainen!\n\nProsessi etenee täyttä vauhtia ja pian minulla on uusi terästoveri.\n\nMutta tutkimuksemme tuntuu ajautuneen umpikujaan.\n\nOpimme niin paljon tästä Morgenlicht -klinikasta. Melkein kaiken mahdollisen. Ja yhtäkkiä saimme selville, että 1944 puolimaissa siellä oli tulipalo. Kaikki, jotka tiesivät totuuden - potilaat, vartijat, henkilökunta - on merkitty virallisesti kadonneiksi.\n\nTässä haiskahtaa jokin, eikä kyse oli sukistani. Hah! Ei paras vitsini."
+
+msgid "detail/descr/historical/s3_t9_vehElement_10"
+msgstr "Tänään ryhdyimme lopulta maalaamaan maastokuviointia vaunuun. Puhdasta mustaa - sulavaa ja pelottaa; juuri sellaisesta pidän. Jotkut sanovat mustan tekevän sinusta näkyvämmän kohteen, mutta he aliarvioivat psykologisen vaikutuksen. Kun vihollinen näkee sysimustan vaunun ilmestyvän sumusta, hän jäätyy.\n\nLeni ja insinöörimme ovat koko ajan vakuuttuneempia siitä, että KRONOS on jonkinlainen elektromagneettinen ase. Löysimme piirustuksia valtavista radioputkista, tehokkaista generaattoreista ja monimutkaisista jäähdytysjärjestelmistä.\n\nYhtä asiaa en vain ymmärrä. Jos se on niin tehokas elektromagneettinen tykki, miksi antaa sille niin tylsä nimi? \"KRONOS.\" Jokin tässä ei täsmää."
+
+msgid "detail/descr/historical/s3_t9_vehElement_11"
+msgstr "Tänään Dravec sai oman 902 Tucha -järjestelmänsä. Täydellinen lisä mustalle saalistajallemme! Nyt voin kadota savupilveen muutamassa sekunnissa. Kuten isoisäni tapasi sanoa: \"Viisas soturi tietää, milloin tulla nähdyksi ja milloin kadota.\"\n\nOlemme jäljittämään KRONOS -varustelähetyksiä Pohjanmeren rannikolle, mutta jäljet loppuvat sinne.\n\nMassiivisia kuljetuksia, erikoisvarusteita, tonnitolkulla tavaraa, jotka kaikki toimitetaan rannikolla oleviin laitoksiin ja sitten... ei mitään. Ei minkäänlaisia merkintöjä, minne tavarat menivät seuraavaksi.\n\nTämä Moretti ei todellakaan halunnut kenenkään seuraavan jälkiään."
+
+msgid "detail/descr/historical/s3_t9_vehElement_12"
+msgstr "Asensimme tänään laseretäisyysmittarin. Se on mahtavaa tekniikkaa – määrittää etäisyyden kohteeseen uskomattomalla tarkkuudella. Dravecini saa lisää uusia leluja joka päivä!\n\nLasereista puheen ollen käytämme KRONOS-teknologiaa tässä etäisyysmittarissa. Mutta teknikkomme piti rakentaa kaikki uusiksi. Alkuperäiset piirustukset oli piirretty oudolle skaalalle. Aivan kuin sen olisi tarkoitus olla massiivinen taistelulaser.\n\nMitä syvemmälle kaivamme, sitä enemmän jää avoimia kysymyksiä. Yrittikö Moretti rakentaa jonkinlaista kuolemansädettä? Kuulostaa aivan kuin se olisi lapsena lukemistani tieteiskirjoista... mutta näitä KRONOSin piirustuksia katsoessani alan olla valmis uskomaan mihin hyvänsä."
+
+msgid "detail/descr/historical/s3_t9_vehElement_13"
+msgstr "Tänään asensimme uuden suujarrun tykkiin. Se on todellinen helmi! Se vähentää merkittävästi rekyyliä, joka tekee ampumisesta paljon mukavampaa.\n\nEikä siinä kaikki. Saimme hiljattain selville yhdestä KRONOSin dokumenteista, että niissä on kuvaus massiivisesta rannikkokallioille rakennetusta bunkkerista. Tarkka sijainti ei tietenkään käy ilmi – eihän Moretti meille sellaista lahjaa antaisi –, mutta pelkkä mittakaava on jo uskomaton.\n\nJos mitat ovat tarkkoja, siellä on riittävästi tilaa jonkin aivan giganttisen piilotteluun...\n\nOlen valmis lyömään vetoa, että siellä Moretti kokosi wunderwaffeaan."
+
+msgid "detail/descr/historical/s3_t9_vehElement_14"
+msgstr "Tänään saimme kokoon kaiken, mitä saatamme vaunuun tarvita: hinauskaapeleita, savusäiliöitä, sukellusvarusteita ja muuta sellaista. Hyvän sotilaan tapaan hyvä vaunu on valmis mihin hyvänsä.\n\nJa meillä on aika lailla monenmoista, mihin pitää olla valmiina. Olemme tutkineet Pohjanmeren karttoja...\n\nSe Morettin rakentama bunkkeri on jollain norjalaisella saarella. Ja meillä on vahva epäilys, että se on aivan samalla saarella, jolla se amerikkalainen ohjustukikohta oli – se, jonka ne palkkasoturit valtasivat ja mistä he laukaisivat satelliittinsa.\n\nEli se on aivan neniemme alla? Kirjaimellisesti suoraan allamme? Olemmeko istuneet koko tämän ajan KRONOSin pääbunkkerin päällä?!?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_15"
+msgstr "Dravec on valmis! Uusi teräksinen toverini on aseistettu ja vaarallinen. Nopea, panssaroitu ja tulivoima riittää laittamaan elämän vilisemään filminauhana vihollisten silmissä, kun tykin vain kääntää kohti.\n\nKatso noita elegantteja linjoja ja tuota uhkaavaa profiilia! Se vainoaa vihollisiamme heidän painajaisissaan.\n\nMitkä seikkailut odottavatkaan meitä – ja mitä tarinoita niistä voinkaan myöhemmin kertoa!\n\nJahti alkakoon!"
+
+msgid "detail/descr/historical/s3_t9_vehElement_2"
+msgstr "Asensin ajokoneiston. Telakoneisto on todellinen mestariteos! Se laittaa tämän kulkemaan niin tasaisesti, että voin nauttia aamukahvini vailla huolta sen läikkymisesti... No... en tietenkään kirjaimellisesti. On siinä silti vähän värinää. Se on kuitenkin panssarivaunu.\n\nTutkimuksemme etenee niin ikään. Luulimme jo juttua suljetuksi Morgenlichtin tulipalon myötä, mutta sitten Leni löysi jotain outoa – KRONOSin piirustukset, joita käytimme vaunujemme rakentamiseen oli päivätty tulipalon JÄLKEEN.\n\nKuten dekkareissa sanotaan: jännitys tiivistyy!"
+
+msgid "detail/descr/historical/s3_t9_vehElement_3"
+msgstr "Sain lopulta komentajan kupolini! Se on kerrassaan briljantti – siinä on mukana sellainen valikoima optisia laitteita, että se on jokaisen panssarikomentajan unelma. Eniten pidän TKN-1 yönäkölaitteesta – näen pimeässä kuin kissa.\n\nOlemme kehitelleet uutta teoriaa koko tästä KRONOSin tapauksesta. Joko potilaiden työt poistettiin ennen tulipaloa ja käsiteltiin jossain muualla... tai sitten homma menee kiinnostavaksi... mitä jos nämä \"hullut tiedemiehet\" olivatkin vain peitetarina? Mitä jos he eivät olekaan tämän teknologian alkulähde?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_4"
+msgstr "Lisäsimme tänään torniin lisää panssarilevyjä – viisi tehokasta blokkia, jotka on täytetty teräslevyillä ja polyuretaanilla. Lisäsuojaa ontelokranaatteja vastaan. Tuskin maltan odottaa päästäkseni kokeilemaan, miten se kestää taistelussa!\n\nSitä odotellessa pitää sanoa, että Leni oli koko ajan oikeassa. Mitään \"tohtori Morantia\" ei koskaan ollutkaan! Se oli vain yksi tusinoista salanimistä, joita operaation todelliset aivot käyttivät. Hän kulkee nimellä Alessandro Moretti.\n\nMiksi yksi mies tarvitsisi niin monta nimeä? Eikö hän osannut päättää, mikä niistä oli paras?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_5"
+msgstr "Asensimme tänään päätykin, enkä malta odottaa, että pääsen ampumaa sillä! Kun vedät liipaisimesta ja tunnet koko koneen vapisevan... mikään ei vedä vertoja sille tunteelle.\n\nTämä Moretti näyttää osoittautuvan sangen kiinnostavaksi hahmoksi. Hän ei ollut vain insinööri. Hän oli myös mestari rakentamaan salaisia tukikohtia Ja vuonna 1943 hän katosi kaikista virallisista arkistoista.\n\nJa arvatkaapa mitä? Juuri silloin \"tohtori Morantimme\" tekee ensiesiintymisensä! Ja Morgenlichtin tulipalon jälkeen listamme salanimet alkavat näkymään rahtikirjoissa ja muissa dokumenteissa."
+
+msgid "detail/descr/historical/s3_t9_vehElement_6"
+msgstr "Tänään asensimme aktiivisen suojausjärjestelmän. Se on todellakin vallankumouksellinen – se voi havaita kohti tuleat ammukset sekunnin murto-osissa. Tajunnan räjäyttävää!\n\nLöysimme myös jotain odottamatonta Morgenlichtistä. Näyttää siltä, ettei se ollut vankila tai kidutuslaboratorio, kuten luulimme. Se oli vai yksi lenkki huolellisesti naamioitujen tutkimuskeskusten ketjussa.\n\nNäyttää siltä, että ystävästämme Morettista on tulossa kauhukirjailija. Niin paljon ponnistuksia tämän salaisuuksien verhon luomiseksi, niin paljon väärennettyjä raportteja. Mikä määrä lahjakkuutta tässä menee hukkaan!"
+
+msgid "detail/descr/historical/s3_t9_vehElement_7"
+msgstr "Tänään asensimme jäähdytysvaipan tykin piippuun. Se onkin melkoinen varuste – estää sääolosuhteita vaikuttamasta piipun tarkkuuteen.\n\nJa Moretti vain jatkaa uusien arvoitusten heittämistä syliimme. Olemme jäljittäneet kaikkiin noihin salanimiin liittyviä toimitusketjuja. Tusinoittain tehtaita oli mukana tässä Projekti KRONOSissa – elektroniikkavalmistajia, kemiantehtaita, tekstiilitehtaita... ja outoa kyllä, valtavia lähetyksiä meripihkaa.\n\nMihin hittoon ne tarvitsevat meripihkaa? Ja mistä hän sai sitä niin paljon? Varastiko Moretti Meripihkahuoneen tai jotain vastaavaa?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_8"
+msgstr "Tänään asensimme Oplot-MO aktiivisuojajärjestelmän ja se vasta onkin jotain! Tutka havaitsee 600–800 m/s lentävät panssarintorjuntaohjukset ja aktivoi automaattisesti kuusipiippuisen ilmatorjuntatykin, joka ampuu ne alas. KRONOSilla kilpailija, sillä meilläkin on nyt sangen vaikuttavaa omaa teknologiaamme!\n\nTämä Moretti... hän on saanut minut tyystin tolaltani. Juuri, kun aloin uskoa tarinaa hulluista tiedemiehistä, jotka piirsivät hänelle hulluja suunnitelmiaan... ja nyt olemme saaneet selville, että hän rakensi jotain isoa.\n\nMutta mistä hän sai kaikki nämä piirustukset ja teknologiat?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_9"
+msgstr "Dravecini on lähes valmis. Pian me suuntaamme seikkailuihin, jotka ovat Hollywood-elokuvan arvoisia!\n\nTekisin elokuvan myös KRONOSista. Mutta lippuja voisi myydä vain tason 5 turvaluokituksen omaaville ihmisille – aika pienelle yleisölle siis.\n\nSääli, sillä se olisi aikamoinen spektaakkeli. KRONOSin piirustusten joukosta löytyi jotain todella epäilyttävää – hahmotelmia komponenteista jonkinlaiseen wunderwaffeen. Kukaan ei vain saa tolkkua tarkalleen millaiseen.\n\nMutta oli se millainen hyvänsä, se tarvitsee virtaa yhtä paljon kuin kokonainen kaupunki."
+
+msgid "detail/name/s3_t10_vehElement_1"
+msgstr "Tykkitorni"
+
+msgid "detail/name/s3_t10_vehElement_10"
+msgstr "Sivulevyt"
+
+msgid "detail/name/s3_t10_vehElement_11"
+msgstr "Kamera ja naamioväri"
+
+msgid "detail/name/s3_t10_vehElement_12"
+msgstr "Savunheittimet"
+
+msgid "detail/name/s3_t10_vehElement_13"
+msgstr "Suujarru"
+
+msgid "detail/name/s3_t10_vehElement_14"
+msgstr "Kaivuutyökalut"
+
+msgid "detail/name/s3_t10_vehElement_15"
+msgstr "Telat"
+
+msgid "detail/name/s3_t10_vehElement_2"
+msgstr "Telakoneisto"
+
+msgid "detail/name/s3_t10_vehElement_3"
+msgstr "Ajopyörät"
+
+msgid "detail/name/s3_t10_vehElement_4"
+msgstr "Pääperiskooppi"
+
+msgid "detail/name/s3_t10_vehElement_5"
+msgstr "periskoopit"
+
+msgid "detail/name/s3_t10_vehElement_6"
+msgstr "Konekiväärit"
+
+msgid "detail/name/s3_t10_vehElement_7"
+msgstr "Päätykki"
+
+msgid "detail/name/s3_t10_vehElement_8"
+msgstr "Lokasuojat"
+
+msgid "detail/name/s3_t10_vehElement_9"
+msgstr "IP-valonheittimet"
+
+msgid "detail/name/s3_t8_vehElement_1"
+msgstr "Ontelopanssarointi"
+
+msgid "detail/name/s3_t8_vehElement_10"
+msgstr "Tutka"
+
+msgid "detail/name/s3_t8_vehElement_11"
+msgstr "Valaistusjärjestelmä"
+
+msgid "detail/name/s3_t8_vehElement_12"
+msgstr "Savunheittimet"
+
+msgid "detail/name/s3_t8_vehElement_13"
+msgstr "Kaivuutyökalut"
+
+msgid "detail/name/s3_t8_vehElement_14"
+msgstr "Naamioverkot"
+
+msgid "detail/name/s3_t8_vehElement_15"
+msgstr "Telat"
+
+msgid "detail/name/s3_t8_vehElement_2"
+msgstr "Luukut ja optiikat"
+
+msgid "detail/name/s3_t8_vehElement_3"
+msgstr "Telakoneisto"
+
+msgid "detail/name/s3_t8_vehElement_4"
+msgstr "Ajopyörät"
+
+msgid "detail/name/s3_t8_vehElement_5"
+msgstr "Pölysuojat"
+
+msgid "detail/name/s3_t8_vehElement_6"
+msgstr "Suujarru"
+
+msgid "detail/name/s3_t8_vehElement_7"
+msgstr "Pohjaväri"
+
+msgid "detail/name/s3_t8_vehElement_8"
+msgstr "Hämäräkamera"
+
+msgid "detail/name/s3_t8_vehElement_9"
+msgstr "Infrapunavalonheitin"
+
+msgid "detail/name/s3_t9_vehElement_1"
+msgstr "Tykkitorni"
+
+msgid "detail/name/s3_t9_vehElement_10"
+msgstr "Valot ja naamiointi"
+
+msgid "detail/name/s3_t9_vehElement_11"
+msgstr "902 Tucha"
+
+msgid "detail/name/s3_t9_vehElement_12"
+msgstr "Laseretäisyysmittari"
+
+msgid "detail/name/s3_t9_vehElement_13"
+msgstr "Suujarru"
+
+msgid "detail/name/s3_t9_vehElement_14"
+msgstr "Työkalut ja suojat"
+
+msgid "detail/name/s3_t9_vehElement_15"
+msgstr "Telat"
+
+msgid "detail/name/s3_t9_vehElement_2"
+msgstr "Telakoneisto"
+
+msgid "detail/name/s3_t9_vehElement_3"
+msgstr "Komentajan kupoli"
+
+msgid "detail/name/s3_t9_vehElement_4"
+msgstr "Lisäpanssarilevyt"
+
+msgid "detail/name/s3_t9_vehElement_5"
+msgstr "Päätykki"
+
+msgid "detail/name/s3_t9_vehElement_6"
+msgstr "ASJ"
+
+msgid "detail/name/s3_t9_vehElement_7"
+msgstr "Jäähdytysvaippa"
+
+msgid "detail/name/s3_t9_vehElement_8"
+msgstr "Oplot-MO ASJ"
+
+msgid "detail/name/s3_t9_vehElement_9"
+msgstr "Lokasuojat"
+
+msgid "main/additionalMission/text/completed"
+msgstr "Ylimääräisiä kampanjapisteitä ansaittu."
+
+msgid "main/additionalMission/text/daily"
+msgstr "Suorita päivittäisiä tehtäviä ansaitaksesi lisää kampanjapisteitä."
+
+msgid "main/additionalMission/text/weekly"
+msgstr "Suorita viikoittaisia tehtäviä ansaitaksesi lisää kampanjapisteitä."
+
+msgid "main/additionalMission/title/daily"
+msgstr "Päivittäiset tehtävät"
+
+msgid "main/additionalMission/title/weekly"
+msgstr "Viikoittaiset tehtävät"
+
+msgid "main/assembling/component"
+msgstr "Osa"
+
+msgid "main/chain/Assault/name"
+msgstr "Etuvartio"
+
+msgid "main/chain/Sniper/name"
+msgstr "Väijytys"
+
+msgid "main/chain/Support/name"
+msgstr "Avustus"
+
+msgid "main/complete/button"
+msgstr "OPERAATIOON"
+
+msgid "main/complete/description/campaignFinished"
+msgstr "\"{{campaignName}}\" kampanja suoritettu! Kaikki palkinnot on saatu."
+
+msgid "main/complete/description/notAllCompleted"
+msgstr "\"{{currentOperationName}}\" operaatio suoritettu ansiokkaasti! \"{{nextOperationName}}\" operaatio on nyt saatavilla."
+
+msgid "main/complete/description/notAllCompletedWithHonor"
+msgstr "\"{{currentOperationName}}\" operaatio {{@ split}}suoritettu ansiokkaasti! {{/}}Voit yhä parantaa tuloksiasi \"{{nextOperationName}}\" operaatiossa."
+
+msgid "main/complete/title"
+msgstr "Onneksi olkoon!"
+
+msgid "main/menuItem/state/active"
+msgstr "Aktiivinen"
+
+msgid "main/menuItem/state/available"
+msgstr "Saatavilla"
+
+msgid "main/menuItem/state/completed"
+msgstr "Vaunu vastaanotettu"
+
+msgid "main/menuItem/state/completedWithHonors"
+msgstr "Suoritettu ansiokkaasti"
+
+msgid "main/menuItem/state/unavailable"
+msgstr "Ei saatavilla"
+
+msgid "main/menuItem/tooltip/videoIntro"
+msgstr "Katso videoesittely tästä vaunusta"
+
+msgid "main/mission/counter"
+msgstr "{{currentValue}} {{@ colorLegacy 'ede6d97f'}}/ {{maxValue}}{{/}}"
+
+msgid "main/mission/mission/quest/separator"
+msgstr "TAI"
+
+msgid "main/mission/subtitle"
+msgstr "Aktiivinen tehtävä"
+
+msgid "main/mission/text/alert"
+msgstr "Tehtävä ei ole väliaikaisesti saatavilla suoritettavaksi. Se tulee saataville pian."
+
+msgid "main/mission/text/completed"
+msgstr "Kaikki {{missionType}} tehtävät\non suoritettu."
+
+msgid "main/missions/button/tooltip/toActiveMission"
+msgstr "Klikkaa mennäksesi nykyiseen aktiiviseen tehtävään."
+
+msgid "main/missions/card/tooltip/done"
+msgstr "Tehtävä suoritettu, palkinto saatu."
+
+msgid "main/missions/card/tooltip/locked"
+msgstr "Suorita edeltävä tehtävä avataksesi tämän. Kaikki sarjassa olevat tehtävät tulee suorittaa järjestyksessä."
+
+msgid "main/missions/category/description"
+msgstr "{{category}} tehtävät \"{{operationName}}\" operaatiossa voi suorittaa järjestyksessä {{@ colorLegacy 'ede6d9'}}tasojen {{minLevel}}–{{maxLevel}}{{/}} seuraavan tyyppisillä vaunuilla:"
+
+msgid "main/missions/category/vehicles/assault"
+msgstr "{{HT}}, {{MT}}, {{TD}} rooleilla: {{breakthrough}}, {{assault}}, {{universal}}."
+
+msgid "main/missions/category/vehicles/sniper"
+msgstr "{{HT}}, {{MT}}, {{TD}} rooleilla: {{sniper}}, {{support}}."
+
+msgid "main/missions/category/vehicles/support"
+msgstr "{{LT}}, {{SPG}} riippumatta roolista."
+
+msgid "main/operation/button/available/"
+msgstr "Aktivoi"
+
+msgid "main/operation/button/completed"
+msgstr "Paranna tulosta"
+
+msgid "main/operation/button/nextOperationAvailable"
+msgstr "OPERAATIOON"
+
+msgid "main/operation/button/paused"
+msgstr "Palaa operaatioon"
+
+msgid "main/operation/button/precedingOperationNotCompleted"
+msgstr "OPERAATIOON"
+
+msgid "main/operation/status/available"
+msgstr "\"{{currentOperationName}}\" operaatio on saatavilla!"
+
+msgid "main/operation/status/completed"
+msgstr "\"{{currentOperationName}}\" operaatio suoritettu! Voit suorittaa sen ansiokkaasti ansaitaksesi vieläkin parempia palkintoja."
+
+msgid "main/operation/status/nextOperationAvailable"
+msgstr "\"{{currentOperationName}}\" operaatio suoritettu! \"{{nextOperationName}}\" operaatio on nyt saatavilla."
+
+msgid "main/operation/status/paused"
+msgstr "\"{{currentOperationName}}\" operaatio on tauotettu."
+
+msgid "main/operation/status/precedingOperationNotCompleted"
+msgstr "Operaatio ei saatavilla: suorita edeltävä operaatio."
+
+msgid "main/operation/status/requiresVehicle"
+msgstr "Operaatio ei saatavilla: vaaditaan tason {{requiredVehicleLevel}} tai sitä suuremman tason vaunu."
+
+msgid "main/operation/status/vehicleIsInBattle"
+msgstr "Et voi vaihtaa kampanjoita tai operaatioita, kun vaunu on taistelussa."
+
+msgid "main/progression/button"
+msgstr "Asenna"
+
+msgid "main/progression/counter/zero"
+msgstr "0"
+
+msgid "main/progression/detail/status/active"
+msgstr "{{detailName}}: {{earnedPoint}} {{@ colorLegacy 'ede6d97f'}}/ {{maxPoint}}{{/}} {{icon}}"
+
+msgid "main/progression/detailNumber"
+msgstr "{{number}}"
+
+msgid "main/progression/mountButton/active"
+msgstr "Klikkaa asentaaksesi tämä osa vaunuun."
+
+msgid "main/progression/mountButton/disable"
+msgstr "Asenna edeltävä osa ensin."
+
+msgid "main/progression/reward/previewButton"
+msgstr "Näytä tallissa"
+
+msgid "main/progression/reward/status/inProgress/campaign"
+msgstr "Ansiokkaasti suoritetut operaatiot: {{completedTasks}} {{@ colorLegacy 'ede6d97f'}}/ {{tasksNumber}}{{/}}"
+
+msgid "main/progression/reward/status/inProgress/operation"
+msgstr "Suoritetut tehtävät: {{completedTasks}} {{@ colorLegacy 'ede6d97f'}}/ {{tasksNumber}}{{/}}"
+
+msgid "main/progression/reward/status/received"
+msgstr "Saatu"
+
+msgid "main/progression/reward/title/campaign"
+msgstr "Kampanjan suorittamisesta ansiokkaasti"
+
+msgid "main/progression/reward/title/main"
+msgstr "Pääpalkinnot"
+
+msgid "main/progression/reward/title/operation"
+msgstr "Operaation suorittamisesta ansiokkaasti"
+
+msgid "main/progression/tooltip/detail/notDone"
+msgstr "Voit katsella osaa sen jälkeen, kun se on asennettu.."
+
+msgid "main/progression/tooltip/rewards/campaign"
+msgstr "Suorita kaikki tehtävät kaikista kolmesta kampanjan operaatiosta saadaksesi nämä palkinnot."
+
+msgid "main/progression/tooltip/rewards/main"
+msgstr "Suorita edistyminen ja asenna viimeinen osa saadaksesi pääpalkinnon ja vaunun."
+
+msgid "main/progression/tooltip/rewards/operation"
+msgstr "Suorita kaikki operaation tehtävät saadaksesi nämä palkinnot."
+
+msgid "main/progression/tooltip/toActiveStage"
+msgstr "Klikkaa mennäksesi nykyiseen vaiheeseen."
+
+msgid "plugin/post_battle/condition"
+msgstr "Kunto"
+
+msgid "plugin/post_battle/openButton"
+msgstr "Klikkaa nähdäksesi tarkemmat tiedot."
+
+msgid "plugin/post_battle/questsSeparator"
+msgstr "TAI"
+
+msgid "questStatus/topLabelAlreadyUsedVehicle"
+msgstr "Ei saatavilla: olet jo täyttänyt ehdon valitulla vaunulla. Ole hyvä ja valitse toinen vaunu."
+
+msgid "questStatus/topLabelCompleted"
+msgstr "Suoritettu"
+
+msgid "questStatus/topLabelCompletedForBattle"
+msgstr "Suoritettu tälle taistelulle"
+
+msgid "rewards/additional"
+msgstr "Myös saatu:"
+
+msgid "rewards/buttons/close"
+msgstr "Sulje"
+
+msgid "rewards/buttons/confirm"
+msgstr "Selvä!"
+
+msgid "rewards/buttons/goToOperation"
+msgstr "Mene operaatioon"
+
+msgid "rewards/buttons/goToVehicle"
+msgstr "Näytä tallissa"
+
+msgid "rewards/operationUnlocked"
+msgstr "\"{{name}}\" operaatio on saatavilla"
+
+msgid "rewards/subTitle/campaignWithHonors"
+msgstr "Kampanja: {{name}}"
+
+msgid "rewards/subTitle/operationWithHonors"
+msgstr "Operaatio: {{name}}"
+
+msgid "rewards/subTitle/vehiclePart"
+msgstr "Operaatio: {{name}}"
+
+msgid "rewards/title/campaignWithHonors"
+msgstr "SUORITETTU ANSIOKKAASTI!"
+
+msgid "rewards/title/operation"
+msgstr "OPERAATIO: {{name}} SUORITETTU!"
+
+msgid "rewards/title/operationWithHonors"
+msgstr "SUORITETTU ANSIOKKAASTI!"
+
+msgid "rewards/title/vehiclePart"
+msgstr "OSA SAATAVILLA ASENNETTAVAKSI"
+
+msgid "tooltip/assembling/viewAnimation"
+msgstr "Klikkaa katsoaksesi asennusanimaatio."
+
+msgid "tooltip/assembling/zoomOut"
+msgstr "Klikkaa piilottaaksesi kuvaus."
+
+msgid "tooltip/missionProgress/completed"
+msgstr "Suoritettu: {{completed}}{{@ class $totalClass}} / {{total}}{{/}}"
+
+msgid "tooltip/missionProgress/description"
+msgstr "Suorittaaksesi tehtävän sinun tulee täyttää sen ehdot useita kertoja käyttäen eri sallittuja vaunuja."
+
+msgid "tooltip/missionProgress/footer"
+msgstr "Kun vaunu on täyttänyt ehdot, ei sitä voida käyttää tähän tehtävään uudelleen ennen kuin tehtävä on suoritettu."
+
+msgid "tooltip/missionProgress/title"
+msgstr "Suorittaminen eri vaunuilla"
+
+msgid "tooltip/missionProgress/unknownVehicle"
+msgstr "?"
+
+msgid "tooltip/missionsCategory/description/assault"
+msgstr "Etulinjan vaunuja, jotka sanelevat omat sääntönsä taistelukentällä."
+
+msgid "tooltip/missionsCategory/description/sniper"
+msgstr "Toisen aallon vaunuja, jotka vahvistavat hyökkäystä vihollisen asemiin."
+
+msgid "tooltip/missionsCategory/description/support"
+msgstr "Tulitukea ja tiedustelutietoa vihollisen asemista taistelukentällä."
+
+msgid "tooltip/missionsCategory/footer"
+msgstr "{{@ colorLegacy 'b2afab'}}\"{{operationName}}\"{{/}} operaation tehtävät voi suorittaa vain tasojen {{@ colorLegacy 'b2afab'}}{{minLevel}}–{{maxLevel}}{{/}} vaunuilla."
+
+msgid "tooltip/missionsCategory/innerBlock/description/assault"
+msgstr "Etuvartion tehtävät voi suorittaa järjestyksessä seuraavilla vaunuilla:"
+
+msgid "tooltip/missionsCategory/innerBlock/description/sniper"
+msgstr "Väijytyksen tehtävät voi suorittaa järjestyksessä seuraavilla vaunuilla:"
+
+msgid "tooltip/missionsCategory/innerBlock/description/support"
+msgstr "Avustuksen tehtävät voi suorittaa järjestyksessä seuraavilla vaunuilla:"
+
+msgid "tooltip/missionsCategory/innerBlock/noRoles"
+msgstr "Vaunutyypit roolista välittämättä:"
+
+msgid "tooltip/missionsCategory/innerBlock/vehiclesTypes"
+msgstr "Vaunutyypit:"
+
+msgid "tooltip/missionsCategory/innerBlock/withRoles"
+msgstr "Rooleilla:"
+
+msgid "tooltip/personalMissionsPoints/footer"
+msgstr "Muista seurata suoritettuja vaiheita ja asenna vaunun osat edetessäsi niiden läpi."
+
+msgid "tooltip/personalMissionsPoints/innerBlock/bulletItem1"
+msgstr "Kampanjapisteitä myönnetään henkilökohtaisten tehtävien suorittamisesta \"Sektori 3\" kampanjassa."
+
+msgid "tooltip/personalMissionsPoints/innerBlock/bulletItem2"
+msgstr "Voit myös ansaita kampanjapisteitä suorittamalla päivittäisiä ja viikoittaisia tehtäviä."
+
+msgid "tooltip/personalMissionsPoints/innerBlock/description"
+msgstr "Edistä etenemistäsi aktiivisen operaation läpi \"Sektori 3\" kampanjassa."
+
+msgid "tooltip/personalMissionsPoints/innerBlock/subTitle"
+msgstr "Miten ansaitaan"
+
+msgid "tooltip/personalMissionsPoints/innerBlock/title"
+msgstr "Kampanjapisteet"
+
+msgid "tooltip/progression/description"
+msgstr "Etene läpi vaiheiden, kerää osia ja asenna niitä vaunuusi. Kun kaikki osat on kerätty, saat operaation vaunun palkinnoksi. Etenemiseen ja vaiheiden suorittamiseen tarvitset kampanjapisteitä."
+
+msgid "tooltip/progression/footer"
+msgstr "Muista seurata suoritettuja vaiheita ja asenna vaunun osat edetessäsi niiden läpi."
+
+msgid "tooltip/progression/innerBlock/bulletItem1"
+msgstr "Kampanjapisteitä myönnetään henkilökohtaisten tehtävien suorittamisesta \"Sektori 3\" kampanjassa. "
+
+msgid "tooltip/progression/innerBlock/bulletItem2"
+msgstr "Voit myös ansaita kampanjapisteitä suorittamalla päivittäisiä ja viikoittaisia tehtäviä."
+
+msgid "tooltip/progression/innerBlock/title"
+msgstr "Kuinka ansaitset kampanjapisteitä"
+
+msgid "tooltip/progression/title"
+msgstr "Vaunun kokoamisen edistyminen"

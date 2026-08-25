@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "Vásárlás"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "A következő fogyócikk be lesz töltve: %(consumables)s."
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "Fogyócikkek vásárlása"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s harckocsizó"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Már van legénységed ehhez a járműhöz"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s harckocsizó."
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "Toborozz új harckocsizókat"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "itt."
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "A Wargaming a T-34 betű-szám kombinációt a közhasználatban elterjedt módon valódi harckocsik jelölésére használja, és semmilyen módon nem áll kapcsolatban az azonos nevű védjegyek szerzői jogtulajdonosaival. További tájékoztatás: {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "Lőszer betöltése"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "Fogyócikkek betöltése"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "Garázsférőhely"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "Becserélés"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "Ingyenes"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "Toborozz %(count)s harckocsizót"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "Bérelt"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "Bérlés"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "Bérlés 30 napra"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "Bérlés 3 napra"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "Bérlés 7 napra"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "Bérlés %(days)s napra"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "Frontvonal szakasz"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "Frontvonal szezon"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "Rangsorolt csaták szakasza"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "Rangsorolt csaták szezonja"
+
+msgid "buyVehicleWindow/restore"
+msgstr "Visszaállítás"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "Végtelen"
+
+msgid "buyVehicleWindow/title"
+msgstr "Konfiguráció"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "Visszaállítás"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "Vásárlás"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "Becserélés"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "Becserélés"
+
+msgid "carousel/filters/allVehicle"
+msgstr "Az összes járművem"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "Legénység"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "Tulajdonságok"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} csata"
+msgstr[1] "{{count}} csata"
+msgstr[2] "{{count}} csata"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} nap"
+msgstr[1] "{{count}} nap"
+msgstr[2] "{{count}} nap"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} óra"
+msgstr[1] "{{count}} óra"
+msgstr[2] "{{count}} óra"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} győzelem"
+msgstr[1] "{{count}} győzelem"
+msgstr[2] "{{count}} győzelem"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "Kattints a járműlistád megtekintéséhez"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "A járműveim"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "A legénység képzése, átképzése és kezelése."
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "A legénység kezelése"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "Jármű testreszabása: 2D- vagy 3D-stílusok és más elemek alkalmazása."
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "Testreszabás"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "Nyomd meg a megnyitáshoz"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "Járműinformáció, fejlesztés, összehasonlítás és javítás."
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "A jármű kezelése"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "A JÁRMŰ RÉSZLETEI"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "PÁNCÉLZAT"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "ÖSSZEHASONLÍTÁS"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "AUTOMATIKUS VISSZAHELYEZÉS"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "LEGÉNYSÉG VISSZAHELYEZÉSE"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "BARAKKBA KÜLDÉS"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "LEGÉNYSÉG ÁTKÉPZÉSE"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "GYORS SZERVIZ"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "HARCTÉRI MÓDOSÍTÁS"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "NEMZET VÁLTÁSA"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "AKTÍV"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "PRO GYORSÍTÓ {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "GYORS KIKÉPZÉS"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "JAVÍTÁSOK"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "FEJLESZTÉS"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "FEJLESZTÉSEK"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "Ezt a választást bármikor megváltoztathatod."
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "Pro gyorsító aktív ezen a járművön"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "A gyorsítás csak Normál csatákban, Roham módban, Erődítményben, a világtérképen és a tornákon működik."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "Pro gyorsítóval nem kompatibilis mód"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "A gyorsítás csak I–X-es szintű kifejleszthető és gyűjtői járművekkel működik "
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "Pro gyorsítóval nem kompatibilis jármű"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "A Pro gyorsító jelenleg ezen a járművön aktív: {{vehicle}}. Ezt a választást ennyi idő múlva változtathatod meg: {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "Nézz vissza később!"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "Ezt a választást ennyi idő múlva változtathatod meg: {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "Pro gyorsító aktív ezen a járművön"

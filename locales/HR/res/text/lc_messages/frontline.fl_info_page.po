@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "O Borbenoj propusnici"
+
+msgid "about/position/header"
+msgstr "Raspoređivanje bodova Borbene propusnice"
+
+msgid "about/position/text"
+msgstr "Nakon svake bitke ćete dobiti određeni broj bodova Borbene propusnice koji odgovaraju vašem položaju. Dobit ćete dodatne bodove Borbene propusnice ako povećate vašu razinu Bojišnice."
+
+msgid "about/scores/header"
+msgstr "Bodovi Borbene propusnice"
+
+msgid "about/scores/text"
+msgstr "Posebna valuta Borbene propusnice koja se može zaraditi u slučajnim bitkama i režimu Bojišnice. Bodovi Borbene propusnice se dodjeljuju za dosizanje razina Bojišnice i vaš plasman u rezultatima bitke. Vozila Bojišnice nemaju ograničenje na broj bodova koji mogu osvojiti."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Poraz"
+
+msgid "about/scoresTable/topCell"
+msgstr "Najboljih {{top}} po zarađenom iskustvu"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Pobjeda"
+
+msgid "about/text"
+msgstr "Borbena propusnica je dugotrajna akcija u kojoj igrači napreduju od etape do etape osvajanjem bodova Borbene propusnice. Svaka završena etapa im daje vrijedne nagrade. Nakon završenja određenih etapa igrači mogu dobiti tokene Borbene propusnice-posebnu valutu koja se može koristiti za kupnju jedinstvenih vozila i ostalih vrijednih nagrada u odgovarajućem djelu prodavaonice."
+
+msgid "addons/cellRent/header"
+msgstr "Unajmljivanje vozila"
+
+msgid "addons/cellRent/text_10"
+msgstr "Nekoliko je različitih vozila razine {{vehiclesLevel}} za najam u razmjenu za kredite. Članovi posade s vozila istog tipa i nacije se mogu prebacivati bez kazne ili potrebe za preobukom."
+
+msgid "addons/cellRent/text_9"
+msgstr "Nekoliko je različitih vozila razine {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} za najam u razmjenu za kredite. Članovi posade s vozila istog tipa i nacije se mogu prebacivati bez kazne ili potrebe za preobukom."
+
+msgid "addons/cellSpectator/header"
+msgstr "Režim promatrača"
+
+msgid "addons/cellSpectator/text"
+msgstr "Kada morate čekati na oživljavanje možete ući u režim promatrača i proučiti bojište i napraviti plan za buduće taktike."
+
+msgid "addons/cellTime/header"
+msgstr "Dodatno vrijeme"
+
+msgid "addons/cellTime/text"
+msgstr "Kada se baza osvaja i vrijeme bitke istekne, vaš tim će dobiti dodatno vrijeme. Ako obrambeni tim prekine osvajanje svoje baze, dodatno vrijeme pada na nulu."
+
+msgid "addons/header"
+msgstr "Dodatne informacije"
+
+msgid "levelUp/sectionHeader"
+msgstr "Vozila razine {{level}}"
+
+msgid "levelUp/text"
+msgstr "Kao i prije isprva možete u bitku samo u vozilima razine {{vehiclesLevelFrom}}, ali se vozila razine {{vehiclesLevelTo}} mogu pripremiti u vašoj Garaži. Jednom kad su osvojene baze druge linije (D, E i F) oba tima mogu u bitku poslati svoja vozila razine {{vehiclesLevelTo}}."
+
+msgid "main/cellDuration/header"
+msgstr "Trajanje"
+
+msgid "main/cellDuration/text"
+msgstr "Bojišnica će trajati {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}}. Datum slijedećeg početka će biti objavljen naknadno."
+
+msgid "main/cellFrontline/header"
+msgstr "Bojišnica"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Masivne bitke 30 na 30 u vozilima razine {{vehiclesLevel}} na mapama {{@ colorLegacy 'FFE4C0'}}Normandija, Kraftwerk{{/}} i {{@ colorLegacy 'FFE4C0'}}Fatamorgana{{/}}. Napadači moraju uništiti 3 od 5 topova velikog kalibra dok ih branitelji moraju štititi."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Masivne bitke 30 na 30 u vozilima razine {{vehiclesLevelFrom}}-{{vehiclesLevelTo}} na mapama {{@ colorLegacy 'FFE4C0'}}Normandija, Kraftwerk{{/}} i {{@ colorLegacy 'FFE4C0'}}Fatamorgana{{/}}. Napadači moraju uništiti 3 od 5 topova velikog kalibra dok ih branitelji moraju štititi."
+
+msgid "main/cellLevel9/header"
+msgstr "Vozila razine {{vehiclesLevel}}"
+
+msgid "main/cellLevel9/text"
+msgstr "Nakon što je osvojena jedna od baza druge linije (D, E ili F) možete ući u bitku u vozilima razine {{vehiclesLevel}}."
+
+msgid "main/cellLevels/header"
+msgstr "Vozila razine {{vehiclesLevel}}"
+
+msgid "main/cellLevels/text_8"
+msgstr "U režimu su dostupna samo vozila razine {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}}."
+
+msgid "main/cellLevels/text_9"
+msgstr "Samo vozila razine {{vehiclesLevel}} mogu ući u bitku."
+
+msgid "main/cellPass/header"
+msgstr "Borbena propusnica"
+
+msgid "main/cellPass/text"
+msgstr "Bojišnica predstavlja sjajnu priliku zarade bodova Borbene propusnice za sudjelovanje u bitkama i dosizanje novih razina Bojišnice."
+
+msgid "main/cellReserves/header"
+msgstr "Kategorije borbenih pričuva"
+
+msgid "main/cellReserves/text"
+msgstr "Postoje tri kategorije borbenih pričuva, svaka vezana uz određeno mjesto. Redoslijed njihova otključavanja i poboljšavanja ovisi o tipu vozila."
+
+msgid "main/cellScenarios/header"
+msgstr "Scenariji"
+
+msgid "main/cellScenarios/text"
+msgstr "Borbe u režimu Bojišnice koriste jedan od slijedećih scenarija: {{@ colorLegacy 'FFE4C0'}}Standardna bitka{{/}}, {{@ colorLegacy 'FFE4C0'}}Operativna podrška{{/}} ili {{@ colorLegacy 'FFE4C0'}}Zaplet sudbine{{/}}. Informacija o trenutnom scenariju bitke se prikazuje na ekranu učitavanja, tijekom odbrojavanje prije bitke ili pritiskom na tipku Tab."
+
+msgid "main/sectionHeader"
+msgstr "Opće informacije"
+
+msgid "page/backBtn"
+msgstr "NAZAD"
+
+msgid "page/headerUpper"
+msgstr "BOJIŠNICA"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "Ovisno koji rang dosegnete, dobit ćete iskusto Bojišnice kao i borbeno iskustvo. Iskustvo bojišnice se koristi za povećanje vaše razine Bojišnice. Sve u svemu, ima {{@ colorLegacy 'FFE4C0'}}20 razina{{/}}."
+
+msgid "progression/levelsSection/header"
+msgstr "Razine bojišnice"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Razine Bojišnice{{/}} vas nagrađuju s bodovima Borbene propusnice, bodovima borbene pričuve, obveznicama, smjernicama, zapovjedima preobuke, mentorskom licencom i knjižicama posade."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Razine Bojišnice{{/}} vas nagrađuju s bodovima borbene pričuve, obveznicama, smjernicama, zapovjedima preobuke i knjižicama posade."
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Rangovi{{/}} ne samo da odražavaju vašu učinkovitost u određenoj bitci već daju i bonus borbeno iskustvo. Ovaj bonus se primjenjuje na ukupno osnovno iskustvo zarađeno u svim vašim vozilima koja su bila u bitci. Kada vi ili vašai saveznici dosegnete rang generala cijeli tim dobiva bonus na izvedbu posade (razina osnovne kvalifikacije) od {{@ colorLegacy 'FFE4C0'}}1.5%{{/}} do {{@ colorLegacy 'FFE4C0'}}15%{{/}}."
+
+msgid "progression/ranksSection/header"
+msgstr "Rangovi"
+
+msgid "progression/ranksSection/text"
+msgstr "Ovaj režim predstavlja sustav od šest rangova gdje igrači napreduju od ranga vojnika do ranga generala. Biti ćete promaknuti za učinkovitu izvedbu u bitci (osvajanje ili obrana baza, uništenje glavnih ciljeva) i osvajanje iskustva. Računa se ukupno iskustvo zarađeno na svim vozilama u kojima ste se borili."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Bonus na borbeno iskustvo"
+
+msgid "progression/ranksTable/captain"
+msgstr "Satnik"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Bonus na izvedbu posade"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Iskustvo Bojišnice"
+
+msgid "progression/ranksTable/general"
+msgstr "General"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Poručnik"
+
+msgid "progression/ranksTable/major"
+msgstr "Bojnik"
+
+msgid "progression/ranksTable/private"
+msgstr "Vojink"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Narednik"
+
+msgid "progression/sectionHeader"
+msgstr "Napredak u Bojišnici"
+
+msgid "progression/text"
+msgstr "Kada igrate u ovom režimu, napredovat ćete u rangu i kroz napredak Bojišnice i osvajati nagrade."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Sekundarna"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Mjesto pričuve 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Mjesto pričuve 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Mjesto pričuve 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Glavna"
+
+msgid "reserveCategories/categories/support"
+msgstr "Pomoćna"
+
+msgid "reserveCategories/config/footerText"
+msgstr "U scenariju {{@ colorLegacy 'FFE4C0'}}Zaplet sudbine{{/}}, redosljed u kojem se otključavaju borbene pričuve ne ovisi o tipu vozila."
+
+msgid "reserveCategories/config/header"
+msgstr "Konfiguracije pričuve prema tipu vozila"
+
+msgid "reserveCategories/config/text"
+msgstr "U scenarijima {{@ colorLegacy 'FFE4C0'}}Standardna bitka{{/}} i {{@ colorLegacy 'FFE4C0'}}Operativna podrška{{/}}, sva tri mjesta borbenih pričuva su dostupna svim tipovima vozila. Međutim, redosljed u kojem se otključavaju ovisi o tipu vozila."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "Lovci na tenkove"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Teški tenkovi"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Laki tenkovi"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Srednji tenkovi"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "Samohodni topovi"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* Poboljšanje na ovu razinu je dostupno samo na {{@ colorLegacy 'FFE4C0'}}kupljene{{/}} borbene pričuve u scenariju {{@ colorLegacy 'FFE4C0'}}Zaplet sudbine{{/}}."
+
+msgid "reserveCategories/levels/header"
+msgstr "Kako otključati mjesta i poboljšati borbene pričuve"
+
+msgid "reserveCategories/levels/text"
+msgstr "Zadano, dostupna vam je jedna borbena pričuva. Ostale se otključavaju po dosizanju rangova narednika i poručnika. Sve tri pričuve će biti poboljšane po dosizanju rangova satnika i bojnika."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} ili {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}} razina"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Satnik"
+
+msgid "reserveCategories/ranks/general"
+msgstr "General"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Poručnik"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Bojnik"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Narednik"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Vojink"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Zaplet sudbine"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "U bitci igrači mogu odabrati iz nasumičnih pričuva koje su dostupne za vozila svih tipova. Smještanje pričuve u mjesto prije bitke povećava vjerojatnost njenog dobivanja u bitci za {{@ colorLegacy 'FFE4C0'}}10%{{/}}. Kupnja pričuve će povećati njenu razinu na {{@ colorLegacy 'FFE4C0'}}II{{/}} i dati priliku poboljšanja na razinu {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Scenariji Bojišnice"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Standardna bitka"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Primjenjuju se standardna pravila Bojišnice. Uvjeti korištenja borbenih pričuva su nepromjenjeni."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Operativna podrška"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "Nakon otključavanja pričuva: {{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "Nakon povratka u bitku: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Ubrzani scenarij sa smanjenim vremenom hlađenja borbene pričuve."
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Borbe u režimu Bojišnice koriste jedan od slijedećih scenarija: {{@ colorLegacy 'FFE4C0'}}Standardna bitka{{/}}, {{@ colorLegacy 'FFE4C0'}}Operativna podrška{{/}} ili {{@ colorLegacy 'FFE4C0'}}Zaplet sudbine{{/}}. Scenariji mjenjaju uvjete korištenja borbenih pričuva u bitci. Informacija o trenutnom scenariju bitke se prikazuje na ekranu učitavanja, tijekom odbrojavanje prije bitke ili pritiskom na tipku Tab."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Kategorije borbenih pričuva"
+
+msgid "reserveCategories/text"
+msgstr "Borbene pričuve su podjeljenje u tri kategorije s tri pričuve svaka. Pri ulasku u bitku možete smjestiti samo jednu pričuvu kategorije u odgovarajuće mjesto."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Jurišne pričuve"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Pričuve izviđanja"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Taktičke pričuve"
+
+msgid "reserves/sectionHeader"
+msgstr "Brze pričuve"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Brzi početak"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Vrijeme pripreme borbenih pričuva je skraćeno za 50% na početku bitke."
+
+msgid "reserves/sectionReload/header"
+msgstr "Trenutna dostupnost"
+
+msgid "reserves/sectionReload/text"
+msgstr "Borbene pričuve će biti spremneza uporabu čim su otključane."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Drugi vjetar"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Vrijeme priprema Borbenih pričuva je skraćeno za 70% nakon povratka u bitku u novom vozilu."
+
+msgid "rules/backToFight/header"
+msgstr "Povratak u bitku"
+
+msgid "rules/backToFight/text"
+msgstr "Ako je vaše vozilo uništeno, odaberite bilo koje drugo dostupno vozilo i vratite se na bojište i nastavite boriti za pobjedu. Možete odabrati jedno ili više područja razmještaja (točke oživljavanja) na bokovima kao i u pozadini što će vam pomoći u određivanju plana bitke. Obrambeni igrači imaju širi odabir točaka oživljavanja duboko iza svojih linija što znači da se mogu okupiti u obrani topova velikog kalibra u slučaju iznenadnog proboja. Sustav ima i posebni pokazivač koji upozorava igrača ako je odabrano podarčje preopasno za razmještaj."
+
+msgid "rules/base/header"
+msgstr "Zauzeće baze"
+
+msgid "rules/base/textBottom"
+msgstr "Oštećenje vozila (ili njegovih modula) koje osvaja bazu ne poništava napredak osvajanja već ga samo zaustavlja. Za poništenje osvajanja baze branitelji moraju uništiti neprijateljsko vozilo ili ga natjerati da napusti krug baze. Branijteljski tim ne može ponovo osvojiti bazu kada su je napadači osvojili."
+
+msgid "rules/base/textTop"
+msgstr "{FFE4C0_Start}Napadajući tim{FFE4C0_End} mora osvojiti baze zaredom kako bi dosegao glavni cilj. Osvojena baza dodaje dvije minute na trajanje bitke, a osvajanje posljednje baze dodaje četiri minute."
+
+msgid "rules/sectionHeader"
+msgstr "Opća pravila"
+
+msgid "rules/service/header"
+msgstr "Krugovi opskrbe"
+
+msgid "rules/service/text"
+msgstr "Krugovi opskrbe obnavljaju HP vozila, liječe sve ozlijeđene članove posade i opskrbljuju streljivo. {FFE4C0_Start}Stopa opskrbe je kako slijedi: 100 HP / jedan član posade / 10%{FFE4C0_End} streljiva u sekundi."
+
+msgid "rules/weapons/header"
+msgstr "Cilj: 3 od 5 topova velikog kalibra"
+
+msgid "rules/weapons/list/back"
+msgstr "Stražnji oklop: {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "Krov i prednji oklop se {{@ colorLegacy 'FFE4C0'}}ne mogu probiti{{/}} granatama."
+
+msgid "rules/weapons/list/sides"
+msgstr "Bočni oklop: {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Bočni oklop: {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Ranjive točke: {{@ colorLegacy 'FFE4C0'}}vrata (70 mm) i provjetravanje (25 mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Postoji pet položaja topovskih kula smještenih duboko unutar teritorije i glavni su cilj bitke. Napadački tim mora uništiti 3 kule dok ih branitelji moraju obraniti pod svaku cijenu."
+
+msgid "subTitle/differentMonth"
+msgstr "od {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}{{/}} do {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "do {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}, {{startYear}},{{/}} do {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}, {{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "od {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{from}}{{/}} do {{@ colorLegacy 'FFE4C0'}}{{to}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "Sektori A, B i C {{@ colorLegacy 'FFE4C0'}}prve linije{{/}} predstavljaju početne točke za oba tima."
+
+msgid "winStrategy/header"
+msgstr "Pobjednička strategija"
+
+msgid "winStrategy/mapZones"
+msgstr "Mapa režima daje tri vodoravne obrambene linije:"
+
+msgid "winStrategy/secondLine"
+msgstr "Jednom kad je sektor na prvoj liniji osvojen, bitka se nastavlja na sektorima D, E i F {{@ colorLegacy 'FFE4C0'}}druge linije{{/}}."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Treća linija{{/}} nije podjeljena u sektore; to je područje gdje se odigrava posljednja etapa bitke. Ovdje su smješteni topovi velikog kalibra i njihovo uništenje donosi pobjedu napadajućem timu. Napadači dobijaju pristup glavnom cilju tek nakon što osvoje najmanje jedan sektor druge linije. Jednom kad je sektor izgubljen, obrambeni igrači imaju 1 minutu napustiti ga prije nego što se zona bombardira. Zračni udar će pogoditi bilo koje branitelje koji preostanu u sektoru. Napadači koji pokušaju doseći sektore druge ili treće linije bez osvajanja prethodnog sektora će također biti uništeni zračnim udarom."

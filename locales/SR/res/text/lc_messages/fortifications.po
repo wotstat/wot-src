@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "Igrač"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "Za mesec"
+
+msgid "ClanListWindow/table/role"
+msgstr "Pozicija"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "Nedeljno"
+
+msgid "battleQueue/clanPosition"
+msgstr "Pozicija: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "Pozicija:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "Potraga za neprijateljem:"
+
+msgid "battleQueue/waitBattle"
+msgstr "Čekanje na borbu:"
+
+msgid "battleQueue/yourTeam"
+msgstr "Tvoj odred:"
+
+msgid "disconnected/Warning"
+msgstr "Pažnja!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "Utvrdjenje trenutno nije dostupno. Pokušaj ponovo kasnije."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "U romingu Utvrđenje je nedostupno. Da bi dobili pristup idite u svoj region."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "Članovi klana"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "Legionari"
+
+msgid "fortVehPopover/btnSave"
+msgstr "Sačuvaj selekciju (%(count)d)"
+
+msgid "inspire/inspired"
+msgstr "Inspirativno"
+
+msgid "inspire/inspiring"
+msgstr "Inspirativno"
+
+msgid "mainWindow/maintenance/body"
+msgstr "Izvinjavamo se na na neugodnostima."
+
+msgid "mainWindow/maintenance/button"
+msgstr "Osveži"
+
+msgid "mainWindow/maintenance/header"
+msgstr "Greška učitavanja podataka"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "Dodatne instrukcije"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "Borbena isplate"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "Vojni manevri"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "Taktički trening"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "Dodatni efekat"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "Naređuje artiljeriji da ospe paljbu na izabranu zonu u režimima Čarke i Napad tokom jedne borbe"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "Pruža bonus glavnim kvalifikacijama i svim veštinama cele posade tvog vozila inspiracijom kao i posadama obližnjih savezničkih vozilia u režimima Čarke i Napad tokom jedne borbe"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "Rezerva može biti aktivirana pre borbe"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "Rezerva može biti pozvana pre napada"
+
+msgid "reserves/tooltip/empty"
+msgstr "Nemaš rezervi da pozoveš"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s u depou"
+
+msgid "reserves/tooltip/level"
+msgstr "Nivo %(level)s"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "Efekat prilikom upotrebe"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "Može biti uključeno"
+
+msgid "reserves/tooltip/selected"
+msgstr "Uključeno"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "Klikni da pogledaš listu rezervi koje možeš da aktiviraš."
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "Rezerva može biti aktivirana samo od strane komandira odreda sa položajem komandira, zamenika komandira, štabnog oficira ili komandanta jedinice."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "Nedovoljno članova klana u odredu: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Borba počinje za %(nextDate)s min"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "Početno vreme će biti specificirano kasnije"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "Borba se završava za %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "Čarke su dostupni"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "Sledeća borba počinje %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Borba počinje za %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "Borba počinje danas u %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "Borba počinje sutra u %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "Početno vreme će biti specificirano kasnije"
+
+msgid "sortie/introView/title"
+msgstr "Utvrđenje: borbe"
+
+msgid "sortie/listView/enterBtn"
+msgstr "Pristupi"
+
+msgid "sortie/listView/enterText"
+msgstr "Možeš da se pridružiš timu kao dobrovoljac"
+
+msgid "sortie/listView/notSelected"
+msgstr "Izaberite odred sa liste sa leve strane\nda bi videli detaljan prikaz."
+
+msgid "sortie/listView/teamMembers"
+msgstr "Članovi tima: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "Vozila:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "Legionar"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "Automatsko sastajanje legionara"
+
+msgid "sortie/room/candidates"
+msgstr "Dobrovoljci"
+
+msgid "sortie/room/chat"
+msgstr "Čet kanal"
+
+msgid "sortie/room/description"
+msgstr "Kreirani odredi bore se u borbama sa slučajnom izabranim klanom na nautralnoj teritoriji. Nivo vozila se odredjuje biranjem divizije."
+
+msgid "sortie/room/fight"
+msgstr "U borbu!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "Pozovi igrače"
+
+msgid "sortie/room/leaveBtn"
+msgstr "IDI NA SASTAVLJANJE ODREDA"
+
+msgid "sortie/room/level"
+msgstr "Nivo %(level)s"
+
+msgid "sortie/room/members"
+msgstr "Članovi tima: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "Nije spreman"
+
+msgid "sortie/room/ready"
+msgstr "Spreman!"
+
+msgid "sortie/room/title"
+msgstr "Odred"
+
+msgid "sortie/slot/emptySlot"
+msgstr "Slobodno"
+
+msgid "sortie/slot/takePlace"
+msgstr "Zauzmi mesto"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "Izaberite vozilo za ulazak u borbu. Crveni indikator označava vozila koja nisu spremna za borbu."
+
+msgid "stronghold/teamHeader"
+msgstr "Članovi odreda"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "Izbor vozila za legionare"
+
+msgid "strongholdPopover/header"
+msgstr "Izaberi vozila"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "Vozila:"
+
+msgid "strongholdbuilds/direction"
+msgstr "%(direction)s saveznički mostobran"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "Severni"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "Istočni"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "Južni"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "Zapadni"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "Neprijateljski mostobran"
+
+msgid "strongholdbuilds/mapName"
+msgstr "Mapa: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "Mapa će biti izabrana nakon početka napada"
+
+msgid "strongholdbuilds/point1"
+msgstr "Citadela"
+
+msgid "strongholdbuilds/point2"
+msgstr "Rezervna linija"
+
+msgid "strongholdbuilds/point3"
+msgstr "Linija fronta"
+
+msgid "strongholdbuilds/point4"
+msgstr "Linija fronta"
+
+msgid "strongholdbuilds/point5"
+msgstr "Rezervna linija"
+
+msgid "strongholdbuilds/point6"
+msgstr "Citadela"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "x%(reward)s za prvu pobedu svakog dana u napadima na ovaj mostobran"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "Za odbranu Citadele sa obe izgubljene linije"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "Za odbranu rezervne linije sa izgubljenom linijom fronta"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "Za odbranu obe linije bez zauzimanja neprijateljskih linija"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "Za zauzimanje samo linije fronta"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "Za zauzimanje obe linije bez zauzimanja citadele"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "Za zauzimanje neprijateljske citadele"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "od rezerve rekvizicije"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "Dodeljuje se po završetku napada"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "Sakrij se od legionara"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "Odred je prikazan"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "Prikaži legionarima"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "Odred je sakriven"
+
+msgid "strongholddirection/A"
+msgstr "severnog"
+
+msgid "strongholddirection/B"
+msgstr "istočnog"
+
+msgid "strongholddirection/C"
+msgstr "južnog"
+
+msgid "strongholddirection/D"
+msgstr "zapadnog"
+
+msgid "strongholdinfo/sortie"
+msgstr "Čarke u %(level)s diviziji"
+
+msgid "strongholdinfo/stronghold"
+msgstr "Napad sa %(direction)s mostobrana"
+
+msgid "strongholdmap/randomMap"
+msgstr "nasumična mapa"
+
+msgid "strongholdreserve/boost"
+msgstr "Inspiracija"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "Transport visokog kapaciteta"
+
+msgid "strongholdreserve/requisition"
+msgstr "Rekvizicija"
+
+msgid "strongholdreserve/support"
+msgstr "Artiljerijski napad"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "U čarkama i napadima, za 1. borbu"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "Za rezultat u napadu"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "Aktivira se na početku borbe"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "Aktivira se na početku napada"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "Aktivira se kada se reterva upotrebi u borbi"
+
+msgid "strongholdtable/rating"
+msgstr "Rejting"
+
+msgid "strongholdtable/roster"
+msgstr "Sastav"
+
+msgid "strongholdtable/tech"
+msgstr "Vozila"
+
+msgid "strongholdtitle/sortie"
+msgstr "Čarke"
+
+msgid "strongholdtitle/stronghold"
+msgstr "Napad sa %(direction)s mostobrana"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Granica{/HEADER}{BODY}Neutralna teritorija. Pobednik će napasti neprijateljsku liniju u sledećoj borbi. Ako se borba završi nerešenim rezultatom, napadački tim će biti izabran nasumično.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "Napad sa %(direction)s mostobrana"
+
+msgid "strongholdtooltips/hours"
+msgstr "h"
+
+msgid "strongholdtooltips/minuts"
+msgstr "min"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "Čarke u %(level)s diviziji"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Tip vozila se atuomatski dodeljuje legionaru nakon što klikneš an dugme \"U borbu!\".\n\nKlikni da potvrdiš ili otkažeš izabrani tip vozila za legionare."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "Legionari će biti automatski dodati u slobodne pozicije"

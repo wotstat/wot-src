@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, Dauer: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "Schwierigkeit „Standard“"
+
+msgid "info/difficult/2"
+msgstr "Schwierigkeit „Schwer“"
+
+msgid "info/difficult/3"
+msgstr "Schwierigkeit „Brutal“"
+
+msgid "info/mapName"
+msgstr "Letztes Gefecht • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "Wiedereinstiege: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "Alle verbündeten Fahrzeuge wurden zerstört."
+
+msgid "ls_finish/reason/10/lose"
+msgstr "Sie haben es nicht geschafft, den Zero aufzuhalten."
+
+msgid "ls_finish/reason/3/lose"
+msgstr "Die Zeit ist um."
+
+msgid "ls_finish/reason/5/lose"
+msgstr "Alle Verbündeten haben das Gefecht verlassen."
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "Gut gemacht! Bereit für einen schwereren Auftrag?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "Alle Gegner auf Schwierigkeit „Standard“ wurden besiegt."
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "Hervorragende Leistung! Das schafft nicht jeder!"
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "Alle Gegner auf Schwierigkeit „Brutal“ wurden besiegt."
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "Beeindruckende Arbeit! Aber jetzt kommt die wahre Herausforderung."
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "Alle Gegner auf Schwierigkeit „Schwer“ wurden besiegt."
+
+msgid "ribbon/ban"
+msgstr "Inakzeptable Leistung: Inaktivität/Desertieren.\nKeine Belohnung erhalten."
+
+msgid "ribbon/banRecord"
+msgstr "Inakzeptable Leistung: Inaktivität/Desertieren.\nKeine Belohnung erhalten. Ihr Bestwert für Wellenzerstörung wurde nicht aktualisiert."
+
+msgid "ribbon/noReward"
+msgstr "Ihr Team hat es nicht geschafft, die erste Welle abzuhalten.\nKeine Belohnung erhalten."
+
+msgid "status/lose"
+msgstr "GEFECHT BEENDET"
+
+msgid "status/win"
+msgstr "SIEG"
+
+msgid "subtitle/lose"
+msgstr "Angriff nicht abgehalten"
+
+msgid "subtitle/win"
+msgstr "Gute Arbeit! Neue Daten gesammelt."
+
+msgid "teamList/actions"
+msgstr "Schnellaktionen"
+
+msgid "teamList/teammates"
+msgstr "Verbündete"
+
+msgid "time/record"
+msgstr "NEUER\nREKORD!"
+
+msgid "title/lose/noWaves"
+msgstr "GEFECHT BEENDET"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "%(phaseNumber)s WELLE ABGESCHLOSSEN"
+msgstr[1] "%(phaseNumber)s WELLEN ABGESCHLOSSEN"
+msgstr[2] "%(phaseNumber)s WELLEN ABGESCHLOSSEN"
+
+msgid "title/win"
+msgstr "ALLE WELLEN ABGESCHLOSSEN"
+
+msgid "tooltip/ban"
+msgstr "Inakzeptable Leistung: Inaktivität/Desertieren. Ihr Bestwert für Wellenzerstörung wurde nicht aktualisiert."

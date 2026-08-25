@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "Įgula ir treniravimas"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "Pritaikymas"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "Įranga ir instrukcijos"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "Kita"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "Mašinos"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "Tikrai taip!"
+
+msgid "autoOpenView/title"
+msgstr "GAUTI APDOVANOJIMAI"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Tikrai taip!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "Instrukcija"
+
+msgid "bonuses/description/booster"
+msgstr "Asmeninis rezervas"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Įgulos apvalkalas"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standartinė įranga"
+
+msgid "bonuses/description/style"
+msgstr "2D stilius"
+
+msgid "bonuses/description/style3D"
+msgstr "3D stilius"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "Brėžinio fragmentas (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "Universalus brėžinio fragmentas"
+
+msgid "bonuses/label/bpcoin"
+msgstr "Kovinio leidimo žetonas"
+
+msgid "boxTooltip/description/text/default"
+msgstr "Atidarę galite gauti mašinų, ekonominių resursų ir kitų vertingų daiktų.\nDėžių galite rasti žaidimo parduotuvėje."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "atidarymų iki garantuoto apdovanojimo, jei jo negausite anksčiau."
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "Dėžių rasite žaidimo parduotuvėje."
+
+msgid "common/backButton"
+msgstr "ATGAL"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "Taktinė dėžė"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "TAKTINĖ DĖŽĖ"
+
+msgid "common/closeButton"
+msgstr "UŽDARYTI"
+
+msgid "common/footer/checkbox"
+msgstr "Atidarymo animacija"
+
+msgid "common/getButton/lowerCase"
+msgstr "Gauti daugiau"
+
+msgid "common/getButton/upperCase"
+msgstr "GAUTI DAUGIAU"
+
+msgid "common/infoButton"
+msgstr "Kas viduje?"
+
+msgid "common/loader"
+msgstr "Dėžė atidaroma..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) vnt."
+msgstr[1] "%(count) vnt."
+msgstr[2] "%(count) vnt."
+
+msgid "common/rewards/multiplier"
+msgstr "x{count}"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "diena"
+msgstr[1] "dienos"
+msgstr[2] "dienų"
+
+msgid "common/selectTooltip"
+msgstr "Nepakanka dėžių, kad iš karto atidarytumėte {{count}}"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Statistiką pamatysite atidarę dėžes."
+
+msgid "common/statistics/header"
+msgstr "Atidaryta dėžių: %(count)"
+
+msgid "common/statsButton"
+msgstr "Statistika"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "Atšaukti"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Jūsų apdovanojimų istorija bus ištrinta."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "Ištrinti"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "Ištrinti statistiką?"
+
+msgid "entryPoint/boxes"
+msgstr "Į DĖŽES"
+
+msgid "entryPoint/count"
+msgstr "×%(count)"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "×999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Tai yra ypatingos dėžės, kurių viduje galite rasti naujų ir unikalių daiktų. Jų galite įsigyti žaidimo parduotuvėje."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Iki renginio pabaigos liko"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Mes susidūrėme su techniniais nesklandumais ir juos tvarkydami turime laikinai sustabdyti renginį."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Laikinai nepasiekiama"
+
+msgid "eventName/lowerCase"
+msgstr "Mūšio lauko ištekliai"
+
+msgid "eventName/upperCase"
+msgstr "MŪŠIO LAUKO IŠTEKLIAI"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)-as"
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)-as"
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)-as"
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)-as"
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "kas %(count) atidarymų"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "mašiną"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "Jūs esate garantuoti %(item) %(count). Jei gausite anksčiau, pradėsime skaičiuoti iš naujo."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Jei jau turite visas mašinas, vietoje jų gausite aukso."
+
+msgid "guaranteedTitle/text"
+msgstr "%(name) už %(count) atidarymų"
+
+msgid "guaranteedTitle/textName"
+msgstr "Garantuotas apdovanojimas"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "Atidaryti"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "Iki renginio pabaigos liko %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Jei iki renginio pabaigos neatidarysite visų dėžių, tai vėliau jos bus atidarytos automatiškai."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Jei jau turite visas mašinas, kurias galite gauti iš dėžių, tai toliau gaunamų mašinų vertė bus pilnai kompensuojama auksu."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Kas %(guaranteed0)s dėžių garantuotai gausite VIII–X lygio mašiną. Jei atidarinėdami jas negaunate tokios mašinos, tai VIII–X lygio mašiną, kurios dar neturite, būtinai gausite atidarę %(guaranteed0)s&zwnbsp;-tą dėžę (priklausomai nuo dėžės tipo). Gavus mašiną dėžės bus skaičiuojamos iš naujo."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Automatinis atidarymas"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Kompensacija"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Garantuotas prizas"
+
+msgid "infoPage/header/lootListLink"
+msgstr "Pamatykite visą daiktų sąrašą žaidimo portale"
+
+msgid "infoPage/header/probability/description"
+msgstr "Tikimybė gauti"
+
+msgid "infoPage/header/probability/title"
+msgstr "Grupė"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Galima gauti tik po vieną apdovanojimą iš grupės"
+
+msgid "infoPage/header/rewards/title"
+msgstr "Apdovanojimai"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "Atidaryti daugiau"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Atidarytos %(name) (iš viso atidaryta %(boxesCount))"
+
+msgid "multipleRewardView/header/title/"
+msgstr "GAUTI APDOVANOJIMAI"
+
+msgid "noBoxesView/description/"
+msgstr "Dėžių rasite žaidimo parduotuvėje"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "Į parduotuvę"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Į pasiekiamas dėžes"
+
+msgid "preview/backLabel"
+msgstr "Į DĖŽES"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Turimi: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nebeturite dėžių"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "Tęsti"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "už %(vehicleInfo)"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "3D stilius %(style),"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "Renginys «%(eventName)s» baigėsi."
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "Visos likusios dėžės bus atidarytos. Jų turinys bus pridėtas į jūsų paskyrą."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Perž. apdovanojimus"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Gauti apdovanojimai"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Mes pridėjome daiktus, kurių negavote renginio metu."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "Renginys laikinai nepasiekiamas dėl techninės profilaktikos."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "Renginys vėl pasiekiamas. Atsiprašome už nepatogumus."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s vnt.)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "Gauti apdovanojimai:"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "Klaida"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "Prašome palaukti kol baigsis ankstesnė operacija."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "Veiksmas laikinai negalimas. Pabandykite vėliau."
+
+msgid "serviceChannelMessages/start/button"
+msgstr "Pareiti į renginį"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "Renginys «%(eventName)s» prasidėjo."
+
+msgid "serviceChannelMessages/start/text"
+msgstr "Tik iki %(date)s: Premium mašinos ir vertingi žaidimo daiktai!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "Nepavyko atstatyti statistikos. Pabandykite vėliau."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "Ir dar"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "Atidaryti daugiau"
+
+msgid "singleRewardView/header/title/"
+msgstr "GAUTI APDOVANOJIMAI"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "Unikalus įgulos narys"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "3D elementai"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "x5 patirties misijos mūšiui"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "Instrukcijos"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "Brėžinių fragmentai"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "Lankstinukų"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "Treniruočių lankstinukai"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "Ekipuotė"
+
+msgid "statisticsRewards/label/credits"
+msgstr "Kreditai"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "Instrukcijų"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "Treniruočių instrukcijos"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "x3 įgulos patirties misijos."
+
+msgid "statisticsRewards/label/crystal"
+msgstr "Bonai"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "Pritaikomieji elementai"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "Pagerinta įranga"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "Komponentai"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "Eksperimentinė įranga"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "Laisvoji patirtis"
+
+msgid "statisticsRewards/label/gold"
+msgstr "Auksas"
+
+msgid "statisticsRewards/label/guide"
+msgstr "Gidų"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "Treniruočių gidai"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "Mentorystės licencija"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "Standartinė įranga"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "Asmeniniai rezervai"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "WoT Premium paskyra"
+
+msgid "statisticsRewards/label/rations"
+msgstr "Daviniai"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "Pertreniravimo įsakymų"
+
+msgid "statisticsRewards/label/style"
+msgstr "2D stiliai"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "3D stiliai"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "Įgulos nariai"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "Trofėjinė įranga"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "Mašinos"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "Ištrinti statistiką"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "Paspaudę ištrinsite visą statistiką."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "Ir dar %(count) prizas."
+msgstr[1] "Ir dar %(count) prizai."
+msgstr[2] "Ir dar %(count) prizų."
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "«%(label)»"
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "x%(count)"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "Nacionaliniai brėžinio fragmentai"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). «%(label)» for %(vehicleInfo)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "Kompensuoti stiliai: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "Kompensuotos mašinos: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "Kompensacija už mašiną, kuri jau yra jūsų garaže."

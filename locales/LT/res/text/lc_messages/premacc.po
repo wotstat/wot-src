@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} klane"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "Į PASKYROS STATUSĄ"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "ATGAL"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Jūs galėsite pakeisti žemėlapį po {}."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Rodyti/slėpti šio tipo žemėlapius."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Dykumų žemėlapiai"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Vasaros žemėlapiai"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Žiemos žemėlapiai"
+
+msgid "mapsBlacklist/header"
+msgstr "Išimti žemėlapiai"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Išimkite nenorimą žemėlapį ir galimų sąrašo. Išmeskite dar vieną su WoT Premium ir dar %(mapCount)s su WoT Plus. Jei bent viena iš prenumeratų baigia galioti, sugrąžinamas dešiniausiai esantis žemėlapis."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Išimti žemėlapiai"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Šie žemėlapiai yra išimami tik Atsitiktiniuose mūšiuose."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Jūs galite pakeisti išimtą žemėlapį kas %(maxCooldownTimeStr)s."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Ši funkcija skirta tik IV ir aukštesnio lygio mašinomis."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "Būriuose išimami tik būrio vado pažymėti žemėlapiai."
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Rodomi žemėlapiai: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Rodomi žemėlapiai: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Žemėlapių tipai:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Atšaukti"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Uždaryti"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "Pasirinktas žemėlapis bus pakeistas į {mapNameStr} žemėlapį. Jūs galite pakeisti savo pasirinkimą po {cooldownStr}"
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Kurį žemėlapį norite pakeisti?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Išimti"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Pasirinkite žemėlapį, kurį norite pakeisti"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Atšaukti"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Uždaryti"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Jūs galite pakeisti savo pasirinkimą po {cooldownStr}"
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Išimti {mapNameStr} žemėlapį iš Atsitiktinių mūšių?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Išimti"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Išimti"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Išimti {mapNameStr} žemėlapį?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Įtraukti"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Įtraukti {mapNameStr} žemėlapį į Atsitiktinius mūšius?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Jūs galite pakeisti šį žemėlapį po {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Žemėlapio keitimas negalimas"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Jūs galite pakeisti šį žemėlapį po {cooldownStr}"
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Žemėlapio keitimas negalimas"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Nepasirinkta"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Paspaudę pasirinksite žemėlapį, kurį išmesite iš Atsitiktinių mūšių."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Žemėlapis nepasirinktas"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "Išimtas {mapName} žemėlapis gali būti pakeistas kitu."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Žemėlapio keitimas galimas"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Jūs galite pakeisti {mapName} žemėlapį po {cooldownStr}"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Žemėlapio keitimas negalimas"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Papildoma vieta galima tik turint aktyvią WoT Premium paskyrą."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Vieta nepasiekiama"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Pasirinkite žemėlapį iš sąrašo norėdami išimti jį iš Atsitiktinių mūšių režimo."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Žemėlapis nepasirinktas"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Pasirinkite žemėlapį iš sąrašo norėdami išimti jį iš Atsitiktinių mūšių režimo."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Žemėlapio keitimas galimas"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Jūs galite pakeisti šį žemėlapį po {cooldownStr}"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Žemėlapio keitimas negalimas"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "Vieta papildomo žemėlapio išėmimui galima tik turint aktyvią WoT Premium paskyrą."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Vieta nepasiekiama"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Atšaukti"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Jūs galite pakeisti savo pasirinkimą po {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Pakeisti"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Išimti"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Išimti %(mapName)s žemėlapį iš Atsitiktinių mūšių?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "Pasirinktas žemėlapis bus pakeistas į {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close} žemėlapį. Jūs galite pakeisti savo pasirinkimą po %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Kurį žemėlapį norite pakeisti?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Šį žemėlapį pakeis žemėlapis {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Jūs galite pakeisti savo pasirinkimą už %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Jūs norite pakeisti šį žemėlapį?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Šiai paskyrai galioja tėvų kontrolės funkcija.\nApie ją gali sužinoti daugiau {link}."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Tėvų kontrolė"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "žaidimo portale"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Kreditų saugykla"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s d."
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s val."
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 min."
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s min."

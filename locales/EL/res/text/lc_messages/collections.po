@@ -1,0 +1,152 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "collection/error/description"
+msgstr "Ξεσκονίστε τη Συλλογή σας και μπείτε στη μάχη."
+
+msgid "collection/error/title"
+msgstr "Συλλογή Υπό Ανακατασκευή"
+
+msgid "collection/tooltip/completed"
+msgstr "Η Συλλογή \"%(name)s, %(season)s / %(year)s\" ολοκληρώθηκε."
+
+msgid "collection/tooltip/progress"
+msgstr "Στοιχεία από τη Συλλογή \"%(name)s, %(season)s / %(year)s\"."
+
+msgid "footer/buttonText"
+msgstr "Συλλογή"
+
+msgid "footer/collectionCompleted"
+msgstr "Η Συλλογή ολοκληρώθηκε!"
+
+msgid "footer/progressbar/activeState/receivedElements/text"
+msgstr "Στοιχεία Συλλογής: %(received)s / %(total)s"
+
+msgid "footer/progressbar/tooltip/body"
+msgstr "Συλλέξτε γρηγορότερα τα Στοιχεία που σας λείπουν από τη Συλλογή σας πηγαίνοντας τον κέρσορα του ποντικιού πάνω απο το κάθε Στοιχεία και μαθαίνοντας πως θα το αποκτήσετε."
+
+msgid "footer/progressbar/tooltip/note"
+msgstr "Η κάθε Συλλογή περιλαμβάνει και Στοιχεία που δεν προσμετρώνται στην πρόοδο ολοκλήρωσης της Συλλογής, αλλά παρέχουν πληροφορίες σχετικά με την κάθε ιστορία."
+
+msgid "footer/progressbar/tooltip/title"
+msgstr "Συλλογή Στοιχείων"
+
+msgid "header/overhead"
+msgstr "ΣΥΛΛΟΓΗ"
+
+msgid "header/seasonText/defaultConfig"
+msgstr "ΟΝΟΜΑ ΠΕΡΙΟΔΟΥ"
+
+msgid "header/subtitle"
+msgstr "Η ΣΥΛΛΟΓΗ ΟΛΟΚΛΗΡΩΘΗΚΕ!"
+
+msgid "header/title/defaultConfig"
+msgstr "ΑΛΜΠΟΥΜ ΣΥΛΛΟΓΗΣ"
+
+msgid "intro/buttonClose/text"
+msgstr "Συλλογές"
+
+msgid "intro/content/description/text"
+msgstr "Οι Συλλογές είναι σετ μοναδικών στοιχείων που απονέμονται σε διάφορες φάσεις της διοργάνωσης. Αποτελούνται από αποκλειστικές τεχνοτροπίες, χαλκομανίες και άλλα αντικείμενα, τα οποία δεν μπορείτε να αποκτήσετε με άλλον τρόπο."
+
+msgid "intro/header/text"
+msgstr "Συλλογές World of Tanks"
+
+msgid "main/backText"
+msgstr "ΣΤΙΣ ΣΥΛΛΟΓΕΣ"
+
+msgid "mainLayout/header/title"
+msgstr "Συλλογές World of Tanks"
+
+msgid "mainLayout/header/tooltip/body"
+msgstr "Οι Συλλογές είναι σετ μοναδικών στοιχείων που απονέμονται σε διάφορες φάσεις της διοργάνωσης. Αποτελούνται από αποκλειστικές τεχνοτροπίες, χαλκομανίες και άλλα αντικείμενα, τα οποία δεν μπορείτε να αποκτήσετε με άλλον τρόπο."
+
+msgid "mainLayout/header/tooltip/header"
+msgstr "Συλλογές World of Tanks"
+
+msgid "navigation/pageCounter"
+msgstr " / %(pageCount)s"
+
+msgid "notifications/button/goToCollection"
+msgstr "Συλλογή"
+
+msgid "notifications/button/goToCollections"
+msgstr "Συλλογές"
+
+msgid "notifications/button/goToReward"
+msgstr "Στο Έπαθλο"
+
+msgid "notifications/eventDisabled/text"
+msgstr "Η συλλογή στοιχείων είναι προσωρινά μη διαθέσιμη."
+
+msgid "notifications/eventEnabled/text"
+msgstr "Η συλλογή στοιχείων είναι και πάλι διαθέσιμη. Λυπούμαστε για την όποια ταλαιπωρία."
+
+msgid "notifications/eventStart/text"
+msgstr "Ετοιμάσαμε κάτι νέο για σας! Βρείτε %(feature)s Στοιχεία Συλλογής για να κερδίσετε μοναδικά έπαθλα."
+
+msgid "notifications/eventStart/title"
+msgstr "Συλλογή Του %(feature)s Είναι Διαθέσιμη!"
+
+msgid "notifications/feature/battle_pass_10"
+msgstr "BATTLE PASS"
+
+msgid "notifications/feature/battle_pass_11"
+msgstr "BATTLE PASS"
+
+msgid "notifications/feature/battle_pass_12"
+msgstr "BATTLE PASS"
+
+msgid "notifications/finalReceived/text"
+msgstr "Ολοκληρώσατε τη Συλλογή \"%(feature)s: %(season)s\""
+
+msgid "notifications/newItemsReceived/text"
+msgstr "Νέο Στοιχείο Συλλογής:\n\n%(items)s"
+
+msgid "notifications/newRewardsReceived/text"
+msgstr "Έπαθλο από τη συλλογή στοιχείων:\n\n%(items)s"
+
+msgid "notifications/renew/text"
+msgstr "Διαθέσιμη Συλλογή"
+
+msgid "notifications/renew/title"
+msgstr "%(feature)s, %(season)s"
+
+msgid "notifications/season/battle_pass_10"
+msgstr "ΠΕΡΙΟΔΟΣ X"
+
+msgid "notifications/season/battle_pass_11"
+msgstr "ΠΕΡΙΟΔΟΣ XI"
+
+msgid "notifications/season/battle_pass_12"
+msgstr "ΠΕΡΙΟΔΟΣ XII"
+
+msgid "notifications/title/collectionName"
+msgstr "Συλλογή \"%(feature)s: %(season)s\""
+
+msgid "notifications/title/congratulation"
+msgstr "Συγχαρητήρια!"
+
+msgid "notifications/updatedEntry/text"
+msgstr "Συλλογές World of Tanks"
+
+msgid "notifications/updatedEntry/title"
+msgstr "Ενημέρωση Μητρώου Υπηρεσίας"
+
+msgid "overlays/preview/previewButton/text"
+msgstr "Προεπισκόπηση"
+
+msgid "overlays/preview/style/title/text"
+msgstr "%(styleName)s για το %(vehicleInfo)"
+
+msgid "tooltips/item/achievement"
+msgstr "Μετάλλιο %(name)s"
+
+msgid "tooltips/receivedStatus"
+msgstr "Αποκτήθηκε"
+
+msgid "tooltips/title"
+msgstr "Στοιχείο Συλλογής"
+
+msgid "tooltips/unreceivedStatus"
+msgstr "Δεν αποκτήθηκε"

@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "VÁSÁRLÁS"
+
+msgid "buttons/cancel"
+msgstr "Mégse"
+
+msgid "buttons/learn"
+msgstr "Tanulás"
+
+msgid "buttons/postProgression/claim"
+msgstr "BEGYŰJTÉS"
+
+msgid "buttons/postProgression/hint"
+msgstr "TOVÁBB AZ UTÓLAGOS ELŐREHALADÁSHOZ"
+
+msgid "buttons/postProgression/howTo"
+msgstr "ÍGY SZEREZHETED MEG"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Átváltási arány:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "A kiválasztott harckocsizóra érvényes.\nSzabad XP felhasználásával felgyorsítja az aktuális készség képzését."
+
+msgid "card/freeExp/title"
+msgstr "SZABAD TAPASZTALAT"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Készséghatékonyság: 100%\n• Specializáció: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "A teljes legénységre érvényes.\n%(xp)-t ad minden harckocsizónak."
+
+msgid "card/nationBook/title/brochure"
+msgstr "KÉPZÉSI FÜZET (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "KÉPZÉSI KÉZIKÖNYV (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "KÉPZÉSI ÚTMUTATÓ (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Korlátozás nélkül felhasználva."
+
+msgid "card/personalBook/mainText"
+msgstr "A kiválasztott harckocsizóra érvényes.\n%(xp)-t ad ennek a harckocsizónak."
+
+msgid "card/personalBook/title"
+msgstr "SZEMÉLYES KÉPZÉSI KÉZIKÖNYV"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Készséghatékonyság: 100%\n• Specializáció: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "A teljes legénységre érvényes.\n%(xp)-t ad minden harckocsizónak."
+
+msgid "card/universalBook/title/universalBook"
+msgstr "UNIVERZÁLIS KÉZIKÖNYV"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "UNIVERZÁLIS FÜZET"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "UNIVERZÁLIS ÚTMUTATÓ"
+
+msgid "confirm/crewLabel"
+msgstr "Minden harckocsizó kap %(xpValue)-t"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Minden harckocsizó kap %(xpValue)-t, "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) extra %(xpValue)-t kap"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) %(xpValue)-t kap"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Némelyik harckocsizó %(xpValue)-t kap"
+
+msgid "items/brochure/Name"
+msgstr "Képzési füzet (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Képzési füzet"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "KÉPZÉSI FÜZET"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} legénységi XP minden harckocsizónak."
+
+msgid "items/crewBook/Name"
+msgstr "Képzési kézikönyv (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Képzési kézikönyv"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "KÉPZÉSI KÉZIKÖNYV"
+
+msgid "items/guide/Name"
+msgstr "Képzési útmutató (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Képzési útmutató"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "KÉPZÉSI ÚTMUTATÓ"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} tapasztalat a kiválasztott legénységi tagnak"
+
+msgid "items/personalBook/Name"
+msgstr "Személyes képzési kézikönyv"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} legénységi XP minden harckocsizónak."
+
+msgid "items/universalBook/Name"
+msgstr "Univerzális kézikönyv"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} tapasztalat minden harckocsizónak."
+
+msgid "items/universalBrochure/Name"
+msgstr "Univerzális füzet"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} tapasztalat minden harckocsizónak."
+
+msgid "items/universalGuide/Name"
+msgstr "Univerzális útmutató"
+
+msgid "page/mentoringLicense/hint"
+msgstr "TOVÁBB A MENTORÁLÁSI ENGEDÉLYHEZ"
+
+msgid "page/mentoringLicense/title"
+msgstr "MENTORÁLÁSI ENGEDÉLY"
+
+msgid "page/title"
+msgstr "GYORS KIKÉPZÉS"
+
+msgid "tooltip/buyManual"
+msgstr "Képzési kézikönyv vásárlása"
+
+msgid "tooltip/mouseWheel"
+msgstr "Görgess {mouseIcon} a legénységi könyvek számának növeléséhez/csökkentéséhez."
+
+msgid "tooltip/outOfStock"
+msgstr "Nincs több legénységi könyv"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Nincs több legénységi könyv. Vásárolj legénységi könyveket a Boltban."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "A kiválasztott harckocsizóra érvényes. %(xp)s-t ad ennek a harckocsizónak."
+
+msgid "tooltip/postProgression"
+msgstr "Tovább az utólagos előrehaladáshoz"
+
+msgid "tooltip/sale/header"
+msgstr "Jövedelmező átváltási arány"
+
+msgid "tooltip/sale/newRate"
+msgstr "Új átváltási arány: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Előző átváltási arány: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Kattints a %(controlsImg) gombra a készség képzési szintjének 1%-kal történő növeléséhez/csökkentéséhez."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Nyomd meg a %(pgupImg)/%(pgdownImg) gombot a készség szintjének&nbsp;100%-ra növeléséhez / a&nbsp;visszatéréshez az előző készségre."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "A teljes legénységre érvényes. %(xp)s-t ad minden harckocsizónak."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "A teljes legénységre érvényes. %(xp)s-t ad minden harckocsizónak."

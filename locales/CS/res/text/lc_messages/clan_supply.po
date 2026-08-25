@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "main/backText"
+msgstr "NA DETAILY KLANU"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "Za plnění misí získáváte body turnusu, které jsou potřeba k prozkoumání nových oblastí."
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "Body turnusu"
+
+msgid "main/infoPageButtonLabel"
+msgstr "O SLUŽEBNÍM TURNUSU"
+
+msgid "main/mdash"
+msgstr "–"
+
+msgid "messages/claimRewards/error"
+msgstr "Akce je dočasně nedostupná. Zkuste to později."
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "Aktualizovat"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "Omlouváme se za dočasné nepříjemnosti."
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "Chyba při načítání údajů"
+
+msgid "progressionPage/header/heading"
+msgstr "SLUŽEBNÍ TURNUS"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "SLUŽEBNÍ TURNUS SKONČIL"
+
+msgid "progressionPage/header/subheading"
+msgstr "Získejte body turnusu plněním klanových misí. Body turnusu jsou používány k průzkumu nových oblastí a k zisku hodnotných odměn. Na konci turnusu můžete získat vozidlo X. úrovně."
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "Získáno vozidlo %(vehicle)s"
+
+msgid "progressionPage/loading"
+msgstr "Načítání obsahu..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "Prozkoumejte předchozí propojenou oblast."
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "Oblast již byla prozkoumána"
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "Získaná odměna:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "Prozkoumejte předchozí propojenou oblast."
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "Oblast nelze prozkoumat"
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "Chyba při načítání údajů"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "Prozkoumat oblast"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "Dalších bodů turnusu nutných k průzkumu oblasti: %(value)s"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "Oblast nelze prozkoumat"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "Prozkoumejte předchozí propojenou oblast."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "Oblast nelze prozkoumat"
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "Vyzvednout odměnu"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "Načítání obsahu..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "Čekání na přidání odměny..."
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "Aktualizovat"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "ODMĚNA ZA PRŮZKUM OBLASTI:"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "ZÍSKÁNA ODMĚNA:"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "Náhled"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "Aktualizovat"
+
+msgid "questsPage/errorScreen/description"
+msgstr "Omlouváme se za dočasné nepříjemnosti."
+
+msgid "questsPage/errorScreen/heading"
+msgstr "Chyba při načítání údajů"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "Vyzvednout odměnu"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "Automatické hledání klanu"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "Abyste splnili mise a získali odměnu, vstupte do klanu."
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "Postup misí je pozastaven: Abyste mohli pokračovat, vyzvedněte si odměnu: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "MISE TURNUSU"
+
+msgid "questsPage/header/subheading"
+msgstr "Splňte mise a získejte odměny. Druhou a třetí misi lze splnit pouze v četě/odřadu se spoluhráčem z klanu."
+
+msgid "questsPage/loading"
+msgstr "Načítání obsahu..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "Při hraní v četě s vozidly VIII.–XI. úrovně získejte v bitvě alespoň {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} základních ZK, nebo vyhrajte bitvu jako součást odřadu."
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "Při hraní s vozidly VI.–XI. úrovně získejte v bitvě alespoň {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} základních ZK, nebo vyhrajte bitvu jako součást odřadu."
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "Při hraní v četě s vozidly VIII.–XI. úrovně zničte v bitvě alespoň {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} nepřátelských vozidel, nebo vyhrajte bitvu jako součást odřadu."
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "Při hraní s vozidly VI.–XI. úrovně zničte v bitvě alespoň {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} nepřátelských vozidel, nebo vyhrajte bitvu jako součást odřadu."
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "V četě s vozidly VIII.–XI. úrovně v bitvě způsobte nebo pomozte způsobit {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} bodů poškození, nebo vyhrajte bitvu jako součást odřadu."
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "S vozidly VI.–XI. úrovně způsobte nebo pomozte způsobit v bitvě {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} bodů poškození, nebo vyhrajte bitvu jako součást odřadu."
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "Průmyslové zdroje"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "Body turnusu"
+
+msgid "questsPage/questCard/status/available"
+msgstr "Můžete si vyzvednout odměnu"
+
+msgid "questsPage/questCard/status/completed"
+msgstr "Odměna vyzvednuta"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "Není k dispozici"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "Odměna bude brzy přidána na váš účet."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "Vyzvedněte si odměny za splnění předchozích misí."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "Splňte předchozí misi."
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "Mise není k dispozici"
+
+msgid "questsPage/timer/dash"
+msgstr "–"
+
+msgid "questsPage/timer/heading"
+msgstr "Zbývající čas pro sebrání bodů turnusu"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "Za plnění misí získáváte body turnusu, které jsou potřeba k prozkoumání nových oblastí."
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "Body turnusu"
+
+msgid "rewardsView/additionalRewards"
+msgstr "Získali jste také:"
+
+msgid "rewardsView/button/close"
+msgstr "ZAVŘÍT"
+
+msgid "rewardsView/button/confirm"
+msgstr "Potvrzuji!"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "Ukázat v garáži"
+
+msgid "rewardsView/heading"
+msgstr "ODMĚNY ZÍSKÁNY"
+
+msgid "rewardsView/style/317"
+msgstr "2D styl „Plamen“"
+
+msgid "rewardsView/style/345"
+msgstr "2D styl „Proroctví“"
+
+msgid "rewardsView/style/435"
+msgstr "2D styl „Odveta“"
+
+msgid "rewardsView/style/436"
+msgstr "2D styl „Smrťák“"
+
+msgid "rewardsView/subheading"
+msgstr "SLUŽEBNÍ TURNUS"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Postup služebním turnusem"
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "Postup misemi turnusu"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Služební turnus"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "Mise turnusu"

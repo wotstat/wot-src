@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Utegångsförbud {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Evenemanget är tillgänglig från"
+
+msgid "bannerTooltip/description"
+msgstr "Massiva strider 30v30 i vagnar klass {{vehicleTier}} på kartorna Normandie, Kraftwerk och Fata Morgana. Det anfallande laget måste förstöra tre av fem pjäser i det tunga batteriet, medan försvararna måste skydda dem."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Visa vad du går för i intensiva strider för ära, värdefulla belönigar och grader."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Evenemanget har avslutats och du har belöningar att ta emot för Frontklasser du uppnått."
+
+msgid "bannerTooltip/header"
+msgstr "Frontstrid"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Frontstrid | Klass {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} - Stridsläge. Klicka för att utforska"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Detta läge kräver hög datorprestanda. Du kommer uppleva att kartorna laddar långsamt, grafikproblem och problem att köra din vagn. Om du upplever att din dator inte klarar av detta bör du sänka kvalitetsinställningarna."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Möjligt minskad prestanda"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Välj belöning för uppnådda Frontklasser ({{value}})"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Täckning saknas för att genomföra köpet."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Förändringarna används för alla pansarvärnskanonvagnar."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Förändringarna används för alla artillerivagnar."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Förändringarna används för alla tunga stridsvagnar."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Förändringarna används för alla lätta stridsvagnar."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Förändringarna används för alla medeltunga stridsvagnar."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Icke-kompatibel vagn"
+
+msgid "battleAbilities/points/body"
+msgstr "Samla de poäng som krävs för att aktivera Frontreserver."
+
+msgid "battleAbilities/points/header"
+msgstr "Stridsreservpoäng"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Visa anfallsreserver"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Anfallsreserver"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Visa spaningsreserver"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Spaningsreserver"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Visa taktiska reserver"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Taktiska reserver"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Nivån på stridsreserverna ökas när du når graderna kapten och major under striden. Högsta nivån beror på stridsscenariot."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Ytterligare information"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Anfallsreserver"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Spaningsreserver"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Taktiska reserver"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Permanenta egenskaper:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "En stridsreserv placerad på den här platsen ökar chansen att den erbjuds som val i scenariot {{@ colorLegacy 'FFE4C0'}}Ödets Nyck{{/}} med {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Reservnivå:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Ej köpt!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Evenemanget har avslutats."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Evenemanget börjar snart!"
+
+msgid "infoButton/body"
+msgstr "Klicka för mer information."
+
+msgid "infoButton/header"
+msgstr "Om evenemanget"
+
+msgid "levelReserves/desc"
+msgstr "Nivån för stridsreserver höjs när du når nya grader:"
+
+msgid "levelReserves/info"
+msgstr "Under scenariot {{@ colorLegacy 'FFE4C0'}}Ödets Nyck{{/}} höjs nivån på stridsreserver ett steg när du köper den, och ger dessutom möjlighet att höja den till nivå {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}."
+
+msgid "levelReserves/level"
+msgstr "Höjs när du når följande nivå: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Tillgängliga med följande grad: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Nivå - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "För {{@ colorLegacy 'FFE4C0'}}köp av stridsreserver{{/}} i scenariot {{@ colorLegacy 'FFE4C0'}}Ödets Nyck{{/}}."
+
+msgid "levelReserves/title"
+msgstr "Stridsreservsnivåer"
+
+msgid "playlist/warning/body"
+msgstr "Spellistan innehåller vagnar som inte är giltiga för de här striderna eller inte finns i ditt garage."
+
+msgid "playlist/warning/header"
+msgstr "Vagnar ej tillgängliga (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Effekten av stridsreserven har förbättrats"
+
+msgid "randomReserve/disable"
+msgstr "Stridsreservplats upptagen."
+
+msgid "randomReserve/notPurchased"
+msgstr "Stridsreserver saknas"
+
+msgid "randomReserve/purchased"
+msgstr "Stridsreserver köpta"
+
+msgid "skillOrderTooltip/body"
+msgstr "Varje vagnstyp låser upp reserver i olika ordning:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Upplåsningsordning för stridsreserver"
+
+msgid "skillOrderTooltip/info"
+msgstr "Under scenariot {{@ colorLegacy 'whiteSpanish'}}Ödets Nyck{{/}} beror inte ordningen för upplåsning av stridsreserver på vagnstypen."

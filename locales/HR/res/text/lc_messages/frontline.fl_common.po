@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Poništi filtere"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Nema vozila koja odgovaraju odabranim parametrima.\nTrebate poništiti postavke filtera kako bi vidjeli odgovarajuća vozila"
+
+msgid "battleType/description/fast"
+msgstr "Scenarij sa smanjenim vremenom hlađenja borbene pričuve."
+
+msgid "battleType/description/random"
+msgstr "Scenarij gdje igrači biraju između skupova nasumičnih pričuva s prilikom za njihovo poboljšanje do razine IV."
+
+msgid "battleType/description/standard"
+msgstr "Scenarij sa standardnim pravilima Bojišnice."
+
+msgid "battleType/postBattle/title"
+msgstr "Scenarij bitke: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Smanjeno vrijeme hlađenja pričuve."
+
+msgid "battleType/shortDescription/random"
+msgstr "Borbene pričuve se daju nasumično."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Primjenjuju se standardna pravila."
+
+msgid "battleType/title/fast"
+msgstr "Operativna podrška"
+
+msgid "battleType/title/random"
+msgstr "Zaplet sudbine"
+
+msgid "battleType/title/standard"
+msgstr "Standardna bitka"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "NAZAD"
+
+msgid "button/close"
+msgstr "ZATVORI"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} dan"
+msgstr[1] "{duration} dana"
+msgstr[2] "{duration} dana"
+
+msgid "filterPopover/note"
+msgstr "Ovdje su prikazana samo vozila koja se mogu koristiti u režimu."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Razine borbene pričuve se povećavaju po dosizanju novog ranga."
+
+msgid "levelReservesTooltip/info"
+msgstr "U scenariju {whiteSpanish_Start}Zaplet sudbine{whiteSpanish_End}, kupnja borbene pričuve će povećati njenu razinu za jedan i pružiti priliku povećanja na razinu {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/level"
+msgstr "Povećava se po dosizanju slijedećeg ranga: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Dostupna sa slijedećim rangom: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Razina {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "Za {whiteSpanish_Start}kupnju borbenih pričuva{whiteSpanish_End} u scenariju {whiteSpanish_Start}Zaplet sudbine{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/title"
+msgstr "Razine borbene pričuve"
+
+msgid "loading"
+msgstr "Učitavam..."
+
+msgid "widget/eventStartSoon"
+msgstr "Akcija će uskoro početi!"
+
+msgid "widget/maxTier"
+msgstr "Dosegli ste najveću razinu!"

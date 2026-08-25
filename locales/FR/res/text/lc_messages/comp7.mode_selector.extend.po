@@ -1,0 +1,53 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n > 1);"
+
+msgid "mode/comp7/battlePassTooltip/body"
+msgstr "En combattant à bord de véhicules de rang X en mode {whiteSpanish_open}Offensive{whiteSpanish_close}, vous gagnerez des Points vous permettant d'avancer dans la Progression du Passe de combat."
+
+msgid "mode/comp7/battlePassTooltip/header"
+msgstr "Points du Passe de combat"
+
+msgid "mode/comp7/calendarTooltip"
+msgstr "Cet évènement se terminera le %(date)s"
+
+msgid "mode/comp7/description"
+msgstr "Mode compétitif : 7v7 %(parSecondary_open)sI%(parSecondary_close)s Rang&nbsp;X"
+
+msgid "mode/comp7/progress"
+msgstr "%(score)s/%(scoreToNextDivision)s"
+
+msgid "mode/comp7/seasonEnd/first"
+msgstr "La Saison du Dragon azuré est terminée"
+
+msgid "mode/comp7/seasonEnd/second"
+msgstr "La Saison du Dragon pourpre est terminée"
+
+msgid "mode/comp7/seasonEnd/third"
+msgstr "La Saison du Dragon de jade est terminée"
+
+msgid "mode/comp7/seasonStart/first"
+msgstr "La Saison du Dragon azuré commencera le %(date)s"
+
+msgid "mode/comp7/seasonStart/second"
+msgstr "La Saison du Dragon pourpre commencera le %(date)s"
+
+msgid "mode/comp7/seasonStart/third"
+msgstr "La Saison du Dragon de jade commencera le %(date)s"
+
+msgid "mode/comp7/warning"
+msgstr "Inactivité de rang : %(count)s"
+
+msgid "mode/comp7/widgetDescription/qualification"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Disputez %(maxBattlesCount)s bataille\npour terminer la Qualification."
+msgstr[1] "Disputez %(maxBattlesCount)s batailles\npour terminer la Qualification."
+msgstr[2] "Disputez %(maxBattlesCount)s batailles\npour terminer la Qualification."
+
+msgid "mode/comp7/widgetDescription/status"
+msgstr "%(rank)s\n%(division)s"
+
+msgid "mode/comp7/yearEnd"
+msgstr "L'Année du Dragon est terminée"

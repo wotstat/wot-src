@@ -1,0 +1,71 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "boxTooltip/description/text/bronze"
+msgstr "У коробках можна знайти техніку, ігрову валюту й інші цінні нагороди."
+
+msgid "boxTooltip/description/text/gold"
+msgstr "У коробках можна знайти техніку, ігрову валюту, елементи зовнішнього вигляду й інші цінні нагороди."
+
+msgid "boxTooltip/description/text/silver"
+msgstr "У коробках можна знайти техніку, ігрову валюту, елементи зовнішнього вигляду й інші цінні нагороди."
+
+msgid "boxTooltip/howGet/text/bronze"
+msgstr "Можна придбати у внутрішньоігровому Магазині чи отримати, відкриваючи коробки будь-якого іншого виду."
+
+msgid "boxTooltip/howGet/text/gold"
+msgstr "Можна отримати, відкриваючи коробки будь-якого іншого виду."
+
+msgid "boxTooltip/howGet/text/silver"
+msgstr "Можна отримати, відкриваючи коробки будь-якого іншого виду."
+
+msgid "common/boxCategory/lowerCase/bronze"
+msgstr "Коробка винагород"
+
+msgid "common/boxCategory/lowerCase/gold"
+msgstr "Коробка благ"
+
+msgid "common/boxCategory/lowerCase/silver"
+msgstr "Коробка дарів"
+
+msgid "common/boxCategory/upperCase/bronze"
+msgstr "КОРОБКА ВИНАГОРОД"
+
+msgid "common/boxCategory/upperCase/gold"
+msgstr "КОРОБКА БЛАГ"
+
+msgid "common/boxCategory/upperCase/silver"
+msgstr "КОРОБКА ДАРІВ"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Це спеціальні коробки з новими й унікальними предметами. Їх можна отримати у внутрішньоігровому Магазині."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "До кінця події"
+
+msgid "eventName/lowerCase"
+msgstr "Шепітне сховище"
+
+msgid "eventName/upperCase"
+msgstr "ШЕПІТНЕ СХОВИЩЕ"
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Якщо всі машини у вас уже є, ви отримаєте Коробку благ як компенсацію."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Якщо у вас уже є вся техніка з коробок, замість машини ви отримаєте Коробку благ як нагороду."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Кожна %(guaranteed0)s Коробка винагород, %(guaranteed1)s Коробка дарів і %(guaranteed2)s Коробка благ гарантовано містить машину. Якщо після їхніх відкриттів ви так і не отримали техніку, з %(guaranteed0)s-ї Коробки винагород/%(guaranteed1)s-ї Коробки дарів/%(guaranteed2)s-ї Коробки благ випаде машина, якої у вас ще немає (залежно від типу коробки). Після цього лічильник буде скинуто."
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Компенсація"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Гарантована нагорода"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Може випасти не більше як одна нагорода на групу"

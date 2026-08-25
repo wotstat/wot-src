@@ -1,0 +1,194 @@
+msgid "fatal_shell/penetration_range"
+msgstr "%(from)d-%(to)d mm"
+
+msgid "fatal_shell/penetration_value"
+msgstr "%(penetration)d mm"
+
+msgid "hints/camera_flow/buttonText"
+msgstr "SPACE"
+
+msgid "hints/camera_flow/pause"
+msgstr "Napredni režim (%(duration))"
+
+msgid "hints/camera_flow/pauseSimplified"
+msgstr "Pauza (%(duration))"
+
+msgid "hints/camera_flow/resume"
+msgstr "Nastavi (%(duration))"
+
+msgid "hints/death_reason/destroyed"
+msgstr "Vozilo uništeno"
+
+msgid "hints/death_reason/legacyHE"
+msgstr "Šteta od rasprskavanja"
+
+msgid "hints/death_reason/modernHE"
+msgstr "Šteta od krhotina"
+
+msgid "hints/death_reason/nonPenetrationDamage"
+msgstr "Površinska šteta"
+
+msgid "hints/death_reason/penetration"
+msgstr "Direktan pogodak"
+
+msgid "hints/follow_pt1"
+msgstr "Levi klik"
+
+msgid "hints/follow_pt2"
+msgstr "za praćenje ovog vozila"
+
+msgid "hints/free_cam/return_previous"
+msgstr "Desni klik za povratak na prethodno vozilo"
+
+msgid "hints/height/label"
+msgstr "Visina"
+
+msgid "hints/height/text"
+msgstr "Podešavanje visine kamere u određenim granicama."
+
+msgid "hints/movement/label"
+msgstr "Kretanje"
+
+msgid "hints/movement/text"
+msgstr "Da bi pomerao kameru, koristi tastere %(forward)s, %(left)s, %(backward)s, %(right)s."
+
+msgid "hints/skip/buttonText"
+msgstr "ESC"
+
+msgid "hints/skip/label"
+msgstr "Preskoči"
+
+msgid "hints/spectatorDown"
+msgstr "SHIFT"
+
+msgid "hints/spectatorUp"
+msgstr "SPACE"
+
+msgid "hints/speed/label"
+msgstr "Brzina"
+
+msgid "hints/speed/text"
+msgstr "Podešavanje brzine kamere"
+
+msgid "hints/spotted_status/spotted"
+msgstr "Uočen"
+
+msgid "hints/spotted_status/unspotted"
+msgstr "Hitac naslepo"
+
+msgid "marker/paramName/angleFailure"
+msgstr "Ugao kod koga nema penetracije"
+
+msgid "marker/paramName/angleImpact"
+msgstr "Ugao penetracije"
+
+msgid "marker/paramName/angleRicochet"
+msgstr "Ugao odbitka"
+
+msgid "marker/paramName/armorNominal"
+msgstr "Nominalni oklop {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/armorRelative"
+msgstr "Oklop {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/damageDistanceModifier"
+msgstr "Modifikator distance {colorTagOpen}(poena){colorTagClose}"
+
+msgid "marker/paramName/deathReason/crew"
+msgstr "Posada je onesposobljena!"
+
+msgid "marker/paramName/deathReason/detonation"
+msgstr "Spremište municije je eksplodiralo!"
+
+msgid "marker/paramName/deathReason/ignition"
+msgstr "Požar!"
+
+msgid "marker/paramName/is2CaliberRuleApplied"
+msgstr "Pravilo 2 klaibra"
+
+msgid "marker/paramName/is3CaliberRuleApplied"
+msgstr "Pravilo 3 klaibra"
+
+msgid "marker/paramName/nonArmored"
+msgstr "Nema oklopa"
+
+msgid "marker/paramName/shellArmorAngleGain"
+msgstr "Oklop dobijen košenjem {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellCaliber"
+msgstr "Kalibar {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBasic"
+msgstr "Prosečna šteta {colorTagOpen}(poena){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBurst"
+msgstr "Potencijalna šteta {colorTagOpen}(poena){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/legacyHE"
+msgstr "Naneta šteta rasprskavanjem {colorTagOpen}(poena){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/modernHE"
+msgstr "Naneta šteta krhotinama {colorTagOpen}(poena){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/nonPenetrationDamage"
+msgstr "Površinska šteta naneta {colorTagOpen}(poena){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/penetration"
+msgstr "Naneta šteta {colorTagOpen}(poena){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossDistance"
+msgstr "Smanjeno na distanci {colorTagOpen}(poena){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionHe"
+msgstr "Blokirano oklopom {colorTagOpen}(poena){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionSpallLiner"
+msgstr "Smanjeno opremom {colorTagOpen}(poena){colorTagClose}"
+
+msgid "marker/paramName/shellDamageRandomizationFactor"
+msgstr "Nasumičnost štete {colorTagOpen}(poena){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationBasic"
+msgstr "Prosečna penetracija {colorTagOpen}(poena){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationEffective"
+msgstr "Penetracija {colorTagOpen}(poena){colorTagClose}"
+
+msgid "marker/paramName/shellVelocityBasic"
+msgstr "Brzina granate {colorTagOpen}(m/s){colorTagClose}"
+
+msgid "marker/paramName/shootDistance"
+msgstr "Distanca {colorTagOpen}(m){colorTagClose}"
+
+msgid "marker/paramName/shootDistanceUnspotted"
+msgstr "Neprijatelj nije uočen"
+
+msgid "marker/value/angle/exact"
+msgstr "%(value)s°"
+
+msgid "marker/value/angle/less"
+msgstr "< %(value)s°"
+
+msgid "marker/value/angle/more"
+msgstr "> %(value)s°"
+
+msgid "marker/value/applied"
+msgstr "Primenjeno"
+
+msgid "marker/value/dashes"
+msgstr "--"
+
+msgid "marker/value/failed"
+msgstr "Ništa"
+
+msgid "marker/value/notAffected"
+msgstr "--"
+
+msgid "marker/value/signNegative"
+msgstr "- %(value)s"
+
+msgid "marker/value/signPositive"
+msgstr "+ %(value)s"
+
+msgid "marker/value/unspotted"
+msgstr "Neuočeno"

@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Приложи за всички {{icon}} {{type}}"
+
+msgid "header/points"
+msgstr "Точки за бойни резерви: {{value}}"
+
+msgid "header/title"
+msgstr "БОЙНИ РЕЗЕРВИ"
+
+msgid "infoPanel/category/firesupport"
+msgstr "Нападателни резерви"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "Разузнавателни резерви"
+
+msgid "infoPanel/category/tactics"
+msgstr "Тактически резерви"
+
+msgid "infoPanel/category/title"
+msgstr "Категория: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "В сценария {{@ colorLegacy 'FFE4C0'}}Обрат на съдбата{{/}} закупуването на Боен резерв ще повиши нивото му с едно и ще предостави възможност за подобряването му до ниво {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "infoPanel/description/unlocked"
+msgstr "В сценария {{@ colorLegacy 'FFE4C0'}}Обрат на съдбата{{/}} шансът за всеки боен резерв, поставен в слота преди предложената битка, се увеличава с {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "infoPanel/level"
+msgstr "Ниво:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}}m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}}%"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}}%/сек"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}}сек"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "Боен резерв не е закупен"
+
+msgid "infoPanel/status/unlocked"
+msgstr "Боен резерв е закупен"

@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Çevirmeni <noreply@wargaming.net>\nLanguage-Team: WoT Takımı <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "Keskinliği yumuşatma"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "İnce çizgiler ve oyun cisimlerinin kenarları için ek işlem derecesini belirler. Basamaklandırma etkisini en aza indirir.\n\n• Yüksek - FXAA\n• Maksimum- Zamansal Süper Örneklemeli Kenar Düzeltme (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "Dinamik Ayarlama"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "Grafik kartı yüküne bağlı olarak 3B çizim çözünürlüğünün otomatik düzenlenmesini açma veya kapama.\n\nBu parametreyi açmak oyun performansını artırabilir. Garajdaki çizim çözünürlüğü her zaman aynı kalır."
+
+msgid "EFFECTS_QUALITY"
+msgstr "Ek efekt kalitesi"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "Sekmelerin kıvılcımları, patlamalar, duman ve diğer görsel efektlerin görüntü kalitesini belirler.\n\nBu parametrenin değerini düşürmek oyun performansını artırabilir."
+
+msgid "FAR_PLANE"
+msgstr "Çizim Mesafesi"
+
+msgid "FAR_PLANE/description"
+msgstr "Kabartıların, binaların, düşman araçlarının ve diğer oyun cisimlerinin görünme uzaklığını belirler."
+
+msgid "FLORA_QUALITY"
+msgstr "Çimen Yoğunluğu"
+
+msgid "FLORA_QUALITY/description"
+msgstr "Arcade ve Keskin Nişancı kiplerinde gösterilen çimen yoğunluğunu belirler."
+
+msgid "HAVOK_ENABLED"
+msgstr "Geliştirilmiş Tahribat Fiziği"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "KAPALI"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "AÇIK"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "Haritalarda cisim tahribatının daha detaylı ve gerçekçi işlenmesini etkinleştirir.\n\nBu parametreyi kapatmak oyun performansını artırabilir."
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "Ayar eğer mevcut savaşta kapalıysa bir sonraki savaşta uygulanacaktır."
+
+msgid "LANGUAGE_CODE"
+msgstr "tr"
+
+msgid "LIGHTING_QUALITY"
+msgstr "Işıklandırma Kalitesi"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "Batan güneş ışığı, ışıklandırma ve optik efektlerin gerçekçiliği.\n\nBu parametrenin değerini artırmak video kartının üzerindeki yükü ciddi oranda artırır."
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "Hareket Bulanıklığı Efekti"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "Araç hareket ettiğinde veya kamera döndüğünde görüntüdeki hareket bulanıklığı efektinin kalitesini belirler."
+
+msgid "MSAA_QUALITY"
+msgstr "Keskinliği yumuşatma"
+
+msgid "MSAA_QUALITY/description"
+msgstr "İnce çizgiler ve oyun cisimlerinin kenarları için ek işleme derecesini belirler. Basamaklanma etkisini en aza indirir.\n\n• Düşük—MSAA 2x\n• Orta—MSAA 4x\n• Yüksek—MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "Obje Detay Seviyesi"
+
+msgid "OBJECT_LOD/description"
+msgstr "Gösterilen cisimlerin sayısını ve kalitesini belirler."
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "Görüntü İşleme"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "Görsel efektlerin ileri görüntü işleme kalitesini belirler: ısı titremesi ve şok dalgası efektleri, renk sapmaları, flulaşma, film greni, vb.\n\nBu parametrenin değerini düşürmek oyun performansını artırabilir."
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "Grafik"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "İyileştirilmiş: en yüksek görüntü kalitesine imkan sağlar.\n\nBasitleştirilmiş: bazı görsel efektleri kapatarak veya basitleştirerek maksimum performansa imkan sağlar."
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "Grafik:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "Bu parametrede yapılan değişiklikler oyunu yeniden başlattıktan sonra etki edecektir."
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "Yeşillik saydamlığı"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "Yakındaki ağaçlar ve otlar için yeşilliğin nasıl gösterildiğini belirler.\n\nBu parametrenin kapatılması yakındaki ağaçların ve otların yeşilliğini tamamen görünmez kılarak oyun performansını artırabilir."
+
+msgid "SHADER_VERSION_CAP"
+msgstr "Tarayıcı versiyonu"
+
+msgid "SHADOWS_QUALITY"
+msgstr "Gölge Kalitesi"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "Tüm çizim mesafesindeki dinamik gölge işleme kalitesini belirler.\n\nBu parametrenin değerini düşürmek oyun performansını büyük oranda artırabilir."
+
+msgid "SMOKE_ENABLED"
+msgstr "Duman"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "Nişancı görüşünde ek efektler"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "Keskin Nişancı kipinde sekmelerin kıvılcımları, patlamalar, duman ve diğer gerçekçi efektlerin görüntü kalitesini belirler.\n\nBu parametrenin değerini düşürmek oyun performansını artırabilir."
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "Nişancı görüşünde çimenleri göster"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "Keskin Nişancı modunda çimen gösterir.\n\nBu parametreyi kapatmak oyun performansını artırabilir."
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "Keskin Nişancı modunda arazi mozaikleme"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Keskin Nişancı modunda aracınızın 50 metre yarıçapındaki alanın arazi kalitesini artırır. Sadece Arazi mozaikleme seçeneği etkinken mevcuttur.\n\nBu parametreyi kapatmak oyun performansını artırabilir."
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "Yeşillik Kalitesi"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "Ağaçların, çalıların ve çimenin çizim kalitesini belirler."
+
+msgid "TERRAIN_QUALITY"
+msgstr "Zemin Kalitesi"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "Harita kabartılarının çizim kalitesini belirler.\n\nMinimum kalite araziyi sadece düşük bilgisayar performansı durumunda kullanın.\n\nBu parametrenin değerini düşürmek arazi gösteriminde istemci ve sunucu arasında senkron bozulmasına yol açabilir."
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "Belirtilen parametreyi uygulamak biraz zaman alabilir."
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "Arazi Mozaikleme"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Örgü detaylandırmasını artırmak için poligon örgüsüne donanımla hızlandırılmış yeni üçgenler ekleme işlemi.\n\nBu özellik sadece şu durumlarda çalışacaktır:\n• İyileştirilmiş Grafikler\n• Yüksek, Maksimum veya Ultra Arazi Kalitesi\n• Kurulu DirectX 11.\n\nAyar değişiklikleri DirectX 11'den daha eski sürümler için geçerli değildir.\n\nBu parametreyi kapatmak oyun performansını artırabilir."
+
+msgid "TEXTURE_QUALITY"
+msgstr "Doku Kalitesi"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "Oyun cisimlerinin yüzeylerinin, özellikle yakından incelerken, kalitesi.\n\nBu parametrenin değerini düşürmek oyun performansını artırabilir."
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "Belirtilen parametreyi uygulamak biraz zaman alabilir."
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "Palet Fiziği"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "Kırık ve çalışır durumdaki paletlerin fizik simülasyonunun kalitesinin yanı sıra palet detaylarını belirler.\n\nBu parametreyi azaltmak veya kapatmak oyun performansını artırabilir."
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "Palet ve tekerlek efektlerini aç"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "Paletlerin ve tekerleklerin arkasında toprak, kar ve su sıçramalarını gösterir.\n\nBu parametreyi kapatmak oyun performansını artırabilir."
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "Palet ve tekerlek izlerini aç"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "Yerde palet ve tekerlek izlerini gösterir.\n\nBasitleştirilmiş Grafikler ve Düşük Çıkartma Kalitesinde geçerli değildi."
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "Keskin Nişancı modunda 3B eklentileri sakla"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "Keskin Nişancı modunda top nişangâhında araçların 3B eklentileri geçici olarak gizler.\n\nGörsel kalabalığı azaltır, nişan alma hassasiyetini iyileştirir."
+
+msgid "WATER_QUALITY"
+msgstr "Su Kalitesi"
+
+msgid "WATER_QUALITY/description"
+msgstr "Su yüzeyleri çizim kalitesini belirler."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "Sadece zayıf zırh"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "Etkinse, Gösterge sadece zayıf hedef zırhını aydınlatır.\n\nYüksek delinme şansı olan zırh tam yeşil ile aydınlatılırken, ortalama delinme şansı olan zırh yarı saydam yeşil ile aydınlatılır. Renkler renk körü modunda farklı olabilir."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "Sadece Zayıf Zırhı Aydınlat"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "Sadece sağlam zırh"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "Etkinse, Gösterge sadece sağlam hedef zırhını aydınlatır.\n\nDüşük veya sıfır delinme şansı olan zırh tam kırmızı ile aydınlatılırken, ortalama delinme şansı olan zırh yarı saydam kırmızı ile aydınlatılır. Renkler renk körü modunda farklı olabilir."
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "Sadece Sağlam Zırhı Aydınlat"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "Tüm zırh"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "Etkinse Gösterge tüm hedef zırhını aydınlatır.\n\nDüşük veya sıfır delinme şansı olan zırh kırmızı ile aydınlatılırken yüksek delinme şansı olan zırh yeşil, ortalama delinme şansı olan zırh ise sarı ile aydınlatılır. Renkler renk körü modunda farklı olabilir."
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "Tüm Zırhı Aydınlat"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "Zırh Aydınlatmaları"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "Savaşın başında etkinleştir"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "Göstergenin savaşın başındaki normal durumu. Göstergeyi istediğiniz anda atanmış kısayol tuşu ile açıp kapatabilirsiniz.\n\nEtkinleştirildiğinde Gösterge sadece Keskin Nişancı modunda işler.\n\nDesteklenen oyun kipleri:\n• Rastgele Savaşlar ve Ekip Eğitimi;\n• Ön Cephe;\n• Oyun Makinesi Savaşları;\n• Hücum;\n• Bazı başka kipler ve etkinlikler.\n\nGelecekte ek modlar ve etkinlikler desteklenebilir."
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "Savaşın Başında Etkinleştir"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "Gösterge Kaplaması"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "Tam"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "Seyrek Desen"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "Yoğun Desen"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "Şeffaflık"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "Performans Uyarısı"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "Yüksek"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "Düşük"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "Orta"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "Gösterge Çözünürlüğü"
+
+msgid "aim/cassette"
+msgstr "Şarjör"
+
+msgid "aim/centralTag"
+msgstr "Merkez İmleç"
+
+msgid "aim/centralTag/type0"
+msgstr "A-şeklinde I"
+
+msgid "aim/centralTag/type1"
+msgstr "A-şeklinde II"
+
+msgid "aim/centralTag/type10"
+msgstr "O-şeklinde I"
+
+msgid "aim/centralTag/type11"
+msgstr "O-şeklinde II"
+
+msgid "aim/centralTag/type12"
+msgstr "A-şeklinde IV"
+
+msgid "aim/centralTag/type13"
+msgstr "A-şeklinde V"
+
+msgid "aim/centralTag/type2"
+msgstr "A-şeklinde III"
+
+msgid "aim/centralTag/type3"
+msgstr "V-şeklinde"
+
+msgid "aim/centralTag/type4"
+msgstr "Artı İmleç I"
+
+msgid "aim/centralTag/type5"
+msgstr "Artı İmleç II"
+
+msgid "aim/centralTag/type6"
+msgstr "T-şeklinde"
+
+msgid "aim/centralTag/type7"
+msgstr "I-şeklinde"
+
+msgid "aim/centralTag/type8"
+msgstr "Nişan noktası I"
+
+msgid "aim/centralTag/type9"
+msgstr "Nişan noktası II"
+
+msgid "aim/condition"
+msgstr "Durum"
+
+msgid "aim/gunTag"
+msgstr "Top İmleci"
+
+msgid "aim/gunTag/type0"
+msgstr "A-şeklinde I (zırh delme göstergesi ile)"
+
+msgid "aim/gunTag/type1"
+msgstr "A-şeklinde II (yükleme göstergesi ile)"
+
+msgid "aim/gunTag/type10"
+msgstr "O-şeklinde II (yükleme göstergesi ile)"
+
+msgid "aim/gunTag/type11"
+msgstr "O-şeklinde III"
+
+msgid "aim/gunTag/type12"
+msgstr "A-şeklinde IV (zırh delme göstergesi ile)"
+
+msgid "aim/gunTag/type13"
+msgstr "A-şeklinde V (yükleme göstergesi ile)"
+
+msgid "aim/gunTag/type14"
+msgstr "A-şeklinde VI"
+
+msgid "aim/gunTag/type2"
+msgstr "A-şeklinde III"
+
+msgid "aim/gunTag/type3"
+msgstr "Artı İmleç I (zırh delme göstergesi ile)"
+
+msgid "aim/gunTag/type4"
+msgstr "Artı İmleç II (yükleme göstergesi ile)"
+
+msgid "aim/gunTag/type5"
+msgstr "Artı İmleç III"
+
+msgid "aim/gunTag/type6"
+msgstr "Nişan Noktası I (zırh delme göstergesi ile)"
+
+msgid "aim/gunTag/type7"
+msgstr "Nişan Noktası II (yükleme göstergesi ile)"
+
+msgid "aim/gunTag/type8"
+msgstr "Nişan Noktası III"
+
+msgid "aim/gunTag/type9"
+msgstr "O-şeklinde I (zırh delme göstergesi ile)"
+
+msgid "aim/mixing"
+msgstr "Nişan Alma"
+
+msgid "aim/mixing/type0"
+msgstr "Çember I (yükleme göstergesi ile) "
+
+msgid "aim/mixing/type1"
+msgstr "Çember II (değişmeli yükleme göstergesi ile)"
+
+msgid "aim/mixing/type2"
+msgstr "Çember III (yükleme göstergesi olmayan)"
+
+msgid "aim/mixing/type3"
+msgstr "Çember IV (yekpare)"
+
+msgid "aim/mixing/type4"
+msgstr "Artı İmleç (değişmeli yükleme göstergesi ile)"
+
+msgid "aim/mixing/type5"
+msgstr "Artı İmleç II"
+
+msgid "aim/mixing/type6"
+msgstr "Test"
+
+msgid "aim/net"
+msgstr "Gösterge"
+
+msgid "aim/net/type0"
+msgstr "Çapraz"
+
+msgid "aim/net/type1"
+msgstr "Yatay"
+
+msgid "aim/net/type2"
+msgstr "Radyal"
+
+msgid "aim/net/type3"
+msgstr "Çizgili"
+
+msgid "aim/reloader"
+msgstr "Yükleme"
+
+msgid "aim/reloaderTimer"
+msgstr "Yükleme Sayacı"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "Topçu Nişan Alımına Geçiş"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "Son kullanımı"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "Üstten bakış"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "Mermi yolu görünümü"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "Otomatik Nişan Alma Modu Değiştirme"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "Fare tekerini kullanırken belirli bir yakınlaştırma değerine ulaşıldığında nişangâh \"üstten bakış\" veya \"mermi yolu görünümüne\" geçer."
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "Otomatik Nişan Alma Modu Değiştirme"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "Kamera yakınlaştırmasını yumuşatma"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "Atış çizgisi göstergelerini aç"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "Seçili merminin nişan alınan noktaya ulaşıp ulaşamayacağını göster/gizle. Ayrıca merminin uçuş süresini de gösterir."
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "Atış Çizgisi Göstergeleri"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "Kamera konumu belirtecini göster"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "Topçu nişan alma kamerasının yakınlaştırma seviyesini belirten göstergeyi göster/gizle."
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "Kamera Konumu Belirteci"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "Kamera Kumandaları"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "Alternatif"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "Standart"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "Standart kamera kumandası modunda kamera yukarı, aşağı, sağa ve sola hareket eder. Alternatif kamera kumandası modunda kamera ileri, geri ve KMT konumunun etrafında hareket eder."
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "Kamera Kumandaları"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "Büyütme Göstergesi"
+
+msgid "alternativeVoices/labels"
+msgstr "Savaşta Sesli Mesajlar"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Savaşta sesli mesajlar"
+
+msgid "apply_button"
+msgstr "Uygula"
+
+msgid "autodetectButton"
+msgstr "Tavsiye Edilen"
+
+msgid "autodetectButton/description"
+msgstr "Bilgisayarınız için en uygun görüntü kalitesini belirler.\n\nBu biraz zaman alabilir."
+
+msgid "battlecomm/enableCommendations"
+msgstr "Savaşta takdirname alın"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "Kişisel komutları göster"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "Ekip panelinde iletişimi belirt"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "Haritada konum işaretlerini göster"
+
+msgid "battlecomm/showMarkers"
+msgstr "Rastgele Savaşlarda üs işaretlerini göster"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "Yapışkan işaretleri göster"
+
+msgid "borderlessSize"
+msgstr "Pencereli (kenarsız)"
+
+msgid "borderlessSize/description"
+msgstr "Pencereli (kenarsız)"
+
+msgid "cancel_button"
+msgstr "İptal"
+
+msgid "chat/censorshipMessages"
+msgstr "Sohbet mesajlarında hakaret içeren kelimeleri sansürle"
+
+msgid "chat/chatContactsListOnly"
+msgstr "Sadece Tanıdıklar listesinden mesaj al"
+
+msgid "chat/disableBattleChat"
+msgstr "Müttefikler ile sohbeti kapat"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "Kamera ve kanal pencerelerinin yerini hatırla"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "Kamera ve diğer pencerelerin yerini hatırla"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "Garajda sadece Arkadaşlar'daki oyunculardan davet kabul et"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "Klan bildirimleri al"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "Arkadaşlık isteğini kabul et"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "Savaşta Takıma davet kabul et"
+
+msgid "chat/removeSpam"
+msgstr "Spami sakla"
+
+msgid "chat/showDateMessage"
+msgstr "Mesajlarda tarihi göster"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "Kullanıcılar bağlanınca ve bağlantı kesince haber ver"
+
+msgid "chat/showTimeMessage"
+msgstr "Mesajlarda zamanı göster"
+
+msgid "colorCorrection"
+msgstr "Renk Ayarı"
+
+msgid "colorCorrectionBtn/label"
+msgstr "Ayarla"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "Özel Ayarlar"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "Parlaklık"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "Kontrast"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "Canlılık"
+
+msgid "colorSettings/tab/default"
+msgstr "Varsayılan"
+
+msgid "colorSettings/tab/filters"
+msgstr "Ön Ayarlı Filtreler"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "Filtre Yoğunluğu"
+
+msgid "colorSettings/view/after"
+msgstr "Sonra"
+
+msgid "colorSettings/view/before"
+msgstr "Önce"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "KAPAT"
+
+msgid "colorSettings/view/description"
+msgstr "Görüntü ayarlama seçeneklerinden birini seçin"
+
+msgid "colorSettings/view/header"
+msgstr "Renk Ayarı"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "Sıfırla"
+
+msgid "colorSettings/view/subTitle"
+msgstr "Görüntü Ayarlama Seçenekleri"
+
+msgid "cursor/ArcadeTitle"
+msgstr "Arcade"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "Zırh Göstergesi"
+
+msgid "cursor/ArtyTitle"
+msgstr "Topçu"
+
+msgid "cursor/ContourTitle"
+msgstr "Çerçeveleme"
+
+msgid "cursor/ServerAim"
+msgstr "Sunucu nişangahını etkinleştir"
+
+msgid "cursor/SnipperTitle"
+msgstr "Nişancı"
+
+msgid "cursor/contour/type0"
+msgstr "Standart"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "Düşman aracına nişan alırken aracın, mermilerin etki edemeyeceği uygulanmış zırh harici ögeler dâhil tüm çerçevesi belirginleşir."
+
+msgid "cursor/contour/type1"
+msgstr "Basitleştirilmiş"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "Düşman aracına nişan alırken sadece mermilerin etki edebileceği zırh ögeleri dâhil olacak şekilde aracın çerçevesinin bir kısmı belirginleşir."
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "Delinemez alan"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "Boş"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "Dolgu"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "Kaplama"
+
+msgid "cursor/contourLabel"
+msgstr "Çerçeveleme Türü"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "Delinebilir alan"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "Boş"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "Dolgu"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "Kaplama"
+
+msgid "cursor/overlapContour"
+msgstr "Engel çizimi"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "Çizimi açmak performansı düşürebilir."
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "Düşman aracına nişan alırken mermi engellerini gösterme.\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "Engel Çizimi"
+
+msgid "cursor/overlapContourLabel"
+msgstr "Engel Çizimi"
+
+msgid "cursorTitle"
+msgstr "Nişangah"
+
+msgid "defaultBtn"
+msgstr "Varsayılan"
+
+msgid "defaultNamePrefix"
+msgstr "Oyuncu"
+
+msgid "dynamicCamera"
+msgstr "Dinamik kamerayı etkinleştir"
+
+msgid "dynamicFov"
+msgstr "Dinamik FoV"
+
+msgid "dynamicFov/description"
+msgstr "Dinamik FoV Arkad nişanında minimum ve maksimum görüş açısını ayarlamanızı sağlar.\n\nMaksimum açı kamera araçtan uzaklaştığında kullanılır.\n\nMinimum açı kamera araca yaklaştığında kullanılır."
+
+msgid "dynamicRenderer"
+msgstr "3B İşleme Çözünürlüğü"
+
+msgid "dynamicRenderer/description"
+msgstr "Oyun alanı kalitesi ve detayları belirler.\n\nSavaş sırasında 3B işlem çözünürlüğü [SağShift + ve SağShift -] ile değiştirilebilir. Arabirimi etkilemez.\n\nBu parametreyi düşürmek kötü video karta sahip bilgisayarlarda oyun performansını artırabilir."
+
+msgid "edgeDetectAA"
+msgstr "Kenar algılama AA"
+
+msgid "feedBack"
+msgstr "Savaş Bildirimleri"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "Harita Sınırı"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "Şokunuzdan Sonra Hasar"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "Üs işgal puanı"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "İşgal puanı sıfırlama"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "Engellenen hasar"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "Düşman aracı yakma"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "Kritik hasar"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "Tespit"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "Tespitiniz sayesinde hasar"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "Atıştan hasar"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "Düşman aracı yok etme"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "Çarpma sonucu hasar"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "Palet yok etme"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "Olay adı"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "Kritik hasar"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "Hasar"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "Savaşta göster"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "Araç bilgisi"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "Darbe sonucu hasar"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "Tüm durumsal yetenekler"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "Savaşta en yakın üç\nolay gösterilir"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "Savaş olayları"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "Bildirimler"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "Olaylar"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "Mürettebat Yetenekleri"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "Alınan hasar"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "Savaş Performansı"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "Alınan hasar"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "Harita sınırını saklamak savaşta yönelim bozukluğuna yol açabilir."
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "Alt tuşuna basıldığında"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "Her zaman vurgulanmış"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "Vurgulamasız"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "Yaklaşırken"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "Ek vurgulama"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "Noktalı çizgi"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "Gösterme"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "Sınır Türü"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "Duvar"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "Ateş Yönü Göstergesi"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "Dost ateşi"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "Hasar miktarı"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "Engellenen isabet"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "Aracınıza\nkritik isabet"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "x3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "Alınan hasar"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "Hasarlı parça"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "Bilgi"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "Animasyonu göster"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "Hasar miktarı"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "Dinamik göstergeler"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "Araç bilgisi"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "Savaşta göster"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "Tümü"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "Dost ateşi"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "Kritik isabetler"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "Kritikler hariç"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "Gelişmiş"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "Standart"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "Tür"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "Kütük"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "Şokunuz sayesinde verilen"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "Zırh tarafından engellenen"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "Tespitiniz sayesinde hasar"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "Tarafınızdan verilen hasar"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "Her zaman göster"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Göstermek için Alt tuşuna basın"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "Gösterme"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "Detaylı hasar"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "Tüm olaylar aşağıda"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "Alınan hasar üstte"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "Olayların konumu"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "Tüm olaylar"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "Olay türü"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "Alınan hasar"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "Savaş Performansı"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "Bu ayarı açmak düşük çözünürlüklü\nekranlar için tavsiye edilmez"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "Özet hasar"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "Detaylı hasar bilgisi için bölüm. Savaştaki etkinliğiniz hakkında tam bilgi verir."
+
+msgid "feedback/tab/eventsInfo"
+msgstr "Savaş olayları"
+
+msgid "feedback/tab/questsProgress"
+msgstr "Savaş Raporu & Görevler"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "Savaş Skoru"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "Görev Detayları"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "Araç simgelerini seviyeye\ngöre göster"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "Ekip CP çubuğunu göster"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "Ekiplerin CP farkını göster"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "Ekip CP'si rakamını göster"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "Tümünü göster"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "Sadece gelişimi göster"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "Alternatif"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "Gösterme"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "Standart"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "Görevleri göster"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "Görüş Açısı (FoV)"
+
+msgid "fov/description"
+msgstr "Oyun kamerasının görüş mesafesi.\n\n95° normal FoV (görüş açısı)dır. FoV ne kadar azalırsa cisimler o kadar yakın görünür ve kenar görüşü azalır.\n\nOyun performansını etkilemez."
+
+msgid "game/anonymizer"
+msgstr "Savaşta rumuzunuzu gizleyin"
+
+msgid "game/battleLoadingInfo"
+msgstr "Savaş yükleme ekranındaki ipuçları"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "Harita"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "Sadece yazı"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "Resimli ipuçları"
+
+msgid "game/battlePanelSettings"
+msgstr "Savaş arabirimi"
+
+msgid "game/carouselType"
+msgstr "Araç paneli"
+
+msgid "game/carouselType/double"
+msgstr "İki seviye"
+
+msgid "game/carouselType/single"
+msgstr "Bir seviye"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "İstatistikleri Garajda yuvanın üzerine gelindiğinde göster"
+
+msgid "game/commanderCamEnabled"
+msgstr "Taktik Bakışını Etkinleştir"
+
+msgid "game/customizationDisplayType"
+msgstr "Savaşta özelleştirme ögelerinin gösterimi"
+
+msgid "game/customizationDisplayType/all"
+msgstr "Tarihsel, tarihsel olmayan ve kurgu ürünü"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "Tarihsel"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "Tarihsel ve tarihsel olmayan"
+
+msgid "game/displayPlatoonMembers"
+msgstr "Garajda Takım üyelerinin araçlarını göster"
+
+msgid "game/doubleCarousel/label"
+msgstr "İki seviyeli araç paneli"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "Uyarlanabilir"
+
+msgid "game/doubleCarouselType/small"
+msgstr "Minimalistik"
+
+msgid "game/dynamicCamera"
+msgstr "Dinamik kamerayı etkinleştir"
+
+msgid "game/enableBattleNotifier"
+msgstr "Önceki savaş sonuçlarını sohbette göster"
+
+msgid "game/enableMortalPostEffect"
+msgstr "Ölüm Sonrası Kipte artçı efektleri aç"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "Keskin Nişancı modunda optik efektleri aç"
+
+msgid "game/enableRepairTimer"
+msgstr "Hasarlı parçaların onarım süresini göster"
+
+msgid "game/enableSpeedometer"
+msgstr "Tekerlekli araçların hız göstergelerinin gösterimi"
+
+msgid "game/enableVoIP"
+msgstr "Sesli Sohbet"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "Savaş İletişimi"
+
+msgid "game/fieldset/headerChat"
+msgstr "Sohbet"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "Harita"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "Araç İşaretleri"
+
+msgid "game/hangarCamCheckbox"
+msgstr "Fare imlecini hareket ettirirken garaj kamera animasyonu"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "Garaj kamera dönüşü için gerekli hareketsizlik süresi"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "Garaj Kamerası Animasyonu"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "Asla"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 saniye"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 saniye"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 saniye"
+
+msgid "game/horStabilizationSnp"
+msgstr "Keskin Nişancı modunda yatay stabilizasyon"
+
+msgid "game/hullLockEnabled"
+msgstr "Nişancı kipinde otomatik gövde kilitlemeyi aç"
+
+msgid "game/increasedZoom/base"
+msgstr "%(zooms)s aç"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " ve "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "Oyun başlatıldığında sunucu seçimini göster"
+
+msgid "game/minimapDrawRange"
+msgstr "Çizim çemberini göster"
+
+msgid "game/minimapGroupTitle"
+msgstr "Mini Harita"
+
+msgid "game/minimapMaxViewRange"
+msgstr "Maksimum görüş menzili çemberini göster"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "Yakınlık tespiti çemberini göster"
+
+msgid "game/minimapViewRange"
+msgstr "Görüş menzili çemberini göster"
+
+msgid "game/newbeeTipsTitle"
+msgstr "Tüyolar"
+
+msgid "game/newbieBattleHints"
+msgstr "Rastgele Savaşlarda yeni başlayanlara tüyoları aç"
+
+msgid "game/newbiePrebattleHints"
+msgstr "Savaş yükleme ekranında yeni başlayanlara tüyoları aç"
+
+msgid "game/optimizeGraphics"
+msgstr "Arabirim grafiklerini optimize et"
+
+msgid "game/playersPanelState/large"
+msgstr "Bütün Panel"
+
+msgid "game/playersPanelState/medium"
+msgstr "Orta Panel"
+
+msgid "game/playersPanelState/none"
+msgstr "Panel Yok"
+
+msgid "game/playersPanelState/short"
+msgstr "Kısa Panel"
+
+msgid "game/postmortemMode"
+msgstr "Ölüm Sonrası Modu"
+
+msgid "game/postmortemMode/analysis"
+msgstr "Aracınızın yok edildiği anı gösterin (detaylı)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "Aracınızı yok eden düşman aracını gösterin"
+
+msgid "game/postmortemMode/self"
+msgstr "Aracınızı gösterin"
+
+msgid "game/postmortemMode/simple"
+msgstr "Aracınızın yok edildiği anı gösterin (kısa)"
+
+msgid "game/ppShowLevels"
+msgstr "Araç seviyesini göster"
+
+msgid "game/ppShowTypes"
+msgstr "Araç tipini göster"
+
+msgid "game/ppStartStateLabel"
+msgstr "Tip"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "Komutan Kamerasını Etkinleştir"
+
+msgid "game/replayEnabled"
+msgstr "Savaş kaydını etkinleştir"
+
+msgid "game/replayEnabled/all"
+msgstr "Tümü"
+
+msgid "game/replayEnabled/last"
+msgstr "Son"
+
+msgid "game/replayEnabled/none"
+msgstr "Hayır"
+
+msgid "game/showArtyHitOnMap"
+msgstr "KMT'lerin vuracağı alanın gösterimi"
+
+msgid "game/showDamageIcon"
+msgstr "Hasar vermeyince bildirim göster"
+
+msgid "game/showDogTag"
+msgstr "Asker Künyesini Göster"
+
+msgid "game/showDogTagToKiller"
+msgstr "Uygulanan Özelleştirilebilir Asker Künyenizi gösterin"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "Yok edilen araçlar bilgisini göster"
+
+msgid "game/showKillersDogTag"
+msgstr "Sizi yok eden oyuncunun Asker Künyesini göster"
+
+msgid "game/showLanguageBar"
+msgstr "Dil Panelini Göster"
+
+msgid "game/showMarksOnGun"
+msgstr "Mükemmellik İşaretlerini Göster"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "Animasyonlu Asker Künyenize bakın"
+
+msgid "game/showSectorOnMap"
+msgstr "KMT için ateş bölgesini göster"
+
+msgid "game/showVectorOnMap"
+msgstr "Kamera yönü ışınını göster"
+
+msgid "game/showVehModelsOnMap"
+msgstr "Genişletilmiş mini harita özelliklerini etkinleştir"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Alt tuşuna basıldığında"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "Her zaman"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "Asla"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "Mini haritada araç CP'sini göster"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Alt tuşuna basıldığında"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "Her zaman"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "Asla"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "Ekip panellerinde araç CP'sini göster"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Alt tuşuna basıldığında"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "Her zaman"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "Asla"
+
+msgid "game/showVehicleIcon"
+msgstr "Araç ikonunu göster"
+
+msgid "game/showVehicleLevel"
+msgstr "Araç seviyesini göster"
+
+msgid "game/showVehiclesCounter"
+msgstr "Savaş Skoru Panelinde araç işaretlerini göster"
+
+msgid "game/showVictimsDogTag"
+msgstr "Yok ettiğin düşmanların Asker Künyelerini göster"
+
+msgid "game/sniperModeByShift"
+msgstr "Keskin Nişancı moduna geçişi Shift tuşu ile sınırla"
+
+msgid "game/sniperZoom"
+msgstr "Tercihli Keskin Nişancı Modu Yakınlaştırma Seviyesi"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "Son Kullanılan"
+
+msgid "game/switchEquipment"
+msgstr "Yükleme ekranında yapılandırma değiştirme"
+
+msgid "game/w2gtEnable"
+msgstr "Mini haritada savaş bölgelerini etkinleştir"
+
+msgid "gameTitle"
+msgstr "Genel"
+
+msgid "gameplay/devMaps"
+msgstr "Rastgele Olayların olduğu haritalarda oynayın"
+
+msgid "gameplay/nations"
+msgstr "Yüzleşme"
+
+msgid "gamma"
+msgstr "Gamma"
+
+msgid "gammaBtn/label"
+msgstr "Yapılandır"
+
+msgid "gammaWizard/apply"
+msgstr "Uygula"
+
+msgid "gammaWizard/cancel"
+msgstr "İptal"
+
+msgid "gammaWizard/closeBtn"
+msgstr "KAPAT"
+
+msgid "gammaWizard/default"
+msgstr "Varsayılan"
+
+msgid "gammaWizard/description"
+msgstr "Arka plan ve logo aynı parlaklığa ulaşana kadar kaydırgacı hareket ettirin. Görsel detaylarını zar zor görünür hale getirmek için gözlerinizi kısmen kapatın veya monitörünüzden uzaklaşın."
+
+msgid "gammaWizard/header"
+msgstr "Gamma"
+
+msgid "gammaWizard/title"
+msgstr "Gamma Ayarları"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "Ekranda en iyi görüntü kalitesine ulaşmak için parlaklığın oyun içerisinden\nayarlanmasına imkân sağlar. Bu seçeneğin amacı\nekran kartı sürücülerinizin ve oyunun görsel kalitesini etkileyen görüntü\nayarlarının etkilerini telafi etmektir."
+
+msgid "gammaWizard/tooltip/header"
+msgstr "Gamma"
+
+msgid "graficTitle"
+msgstr "Grafik"
+
+msgid "graphics/block/effects"
+msgstr "Efektler"
+
+msgid "graphics/block/greenery"
+msgstr "Bitki örtüsü"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "Arazi ve su"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "Işıklandırma ve art işleme"
+
+msgid "graphics/block/main"
+msgstr "Ana"
+
+msgid "graphics/tabAdvanced"
+msgstr "Detaylar"
+
+msgid "graphics/tabScreen"
+msgstr "Ekran"
+
+msgid "graphicsQuality"
+msgstr "Grafik Kalitesi"
+
+msgid "graphicsQuality/description"
+msgstr "Görüntünün genel kalitesini belirler. Detaylar sekmesinin parametrelerini belirler.\n\nGrafik kalitesini düşürmek şu etkilere yol açabilir:\n• Oyun performansını artırabilir.\n• İstemci ve sunucu arasında arazi görünümünün eşlenmesini bozabilir.\n\nMinimum grafik kalitesini sadece düşük bilgisayar performansı durumunda kullanın."
+
+msgid "graphicsQualityHDSD"
+msgstr "İstemci Türleri"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "HD İstemci kuruldu"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "Standart (SD) İstemci yüklü"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "Standart İstemci—maksimum kalite kaplamaları olmayan tam oyun.\n\nHD İstemci—maksimum kalite kaplamaları içeren tam oyun. Sabit diskte Standart İstemciye oranla daha fazla yere ihtiyaç duyar."
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "İstemci Türleri"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "HD İstemci—maksimum kalite kaplamalar da içeren tam oyun. Standart İstemciye oranla daha fazla sabit disk alanı ihtiyacı duyar.\n\nStandart İstemci (SD)—maksimum kalite kaplamalar olmadan tam oyun."
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "Maksimum (SD) ve Ultra (SD) grafik kalitesi Kaplama Kalitesi parametresi için en yüksek değeri sağlamaz. Maksimum grafik kalitesi için oyun başlatıcıdan HD İstemciye geçin."
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "Eşyönsüz 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "Eşyönsüz 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "Eşyönsüz 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "Eşyönsüz 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "Çift doğrusal"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "Özelleştirilmiş"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "1940lar sine film"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "Kontrast"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "İyileştirilmiş"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "Uzak"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "Standart"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "Yüksek"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "Düşük"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "Çok Düşük"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "Maksimum"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "Maksimum (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "Orta"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "Minimum"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "Sessiz"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "Yakın"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "Kapalı"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "Kapalı"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "AÇIK"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "Basitleştirilmiş"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "İyileştirilmiş"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "Nokta"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "Fotokromatik"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "Rastgele"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "Standart"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "Derin"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "Yumuşak renkler"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "Üç doğrusal"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "Ultra"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "Ultra (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "Çok Yüksek"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "Çok Yüksek"
+
+msgid "igbHardwareAcceleration"
+msgstr "Tarayıcıda Donanımsal Hızlandırma"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "Bu ayar etkinleştirildiğinde web içeriği ana işlemci yerine grafik işlemcisi kullanılarak oluşturulacaktır.\n\nBazı pencerelerin içeriği gösterilirken sorunlarla karşılaşıyorsanız bu özelliği kapatın.\n\nDeğişiklik, oyunu yeniden başlattığınızda uygulanacaktır."
+
+msgid "interfaceScale"
+msgstr "Arabirim Ölçeklendirmesi"
+
+msgid "interfaceScale/attention"
+msgstr "Özellik test ediliyor;\noyun performansını etkilemez."
+
+msgid "interfaceScale/body"
+msgstr "Oyun ekran/penceresi büyütüldüğünde\narabirim öğelerinin otomatik ölçeklenmesi."
+
+msgid "interfaceScale/description"
+msgstr "Oyun ekran/penceresi büyütüldüğünde arabirim öğelerinin otomatik ölçeklenmesi."
+
+msgid "interfaceScale/header"
+msgstr "Arabirim Ölçeklendirmesi"
+
+msgid "interfaceScale/warning"
+msgstr "Özellik test ediliyor; oyun performansını etkilemez."
+
+msgid "interfaceScaleDisabled"
+msgstr "Arabirim Ölçeklendirmesi"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "Sadece 4K ekranlar için geçerlidir."
+
+msgid "interfaceScaleDisabled/body"
+msgstr "Oyun ekran/penceresini büyütürken\narabirim elemanlarının otomatik ölçeklendirilmesi."
+
+msgid "interfaceScaleDisabled/description"
+msgstr "Oyun ekran/penceresini büyütürken arabirim elemanlarının otomatik ölçeklendirilmesi."
+
+msgid "interfaceScaleDisabled/header"
+msgstr "Arabirim Ölçeklendirmesi"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "Sadece 4K ekranlar için geçerlidir."
+
+msgid "isColorBlind"
+msgstr "Renk körü modu"
+
+msgid "isColorBlind/description"
+msgstr "Renk paletinin renk körlüğü olan kişiler için uyarlanması"
+
+msgid "keyboard/backDraftInvert"
+msgstr "Döndürmeyi ters çevir"
+
+msgid "keyboard/keyboard"
+msgstr "Klavye"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "Tamam!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "Nişangah Değiştir"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "Gövdeyi Kilitle / Kip Değiştir"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "Geri"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "Geri"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "\"El freni\""
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "Aşağı"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "Sol"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "Sağ"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "Yukarı"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "Salvo Atışı Yap"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "Geri çekilin!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "Ateş"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "İleri"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "İleri"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "Aracı Terk Et (Ön Cephede)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "Yardım edin!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "Konumu belirt"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "Aktif hedefi belirt"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "Sarf Malzemesi 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "Sarf Malzemesi 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "Sarf Malzemesi 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "Sarf Malzemesi 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "Sarf Malzemesi 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "Sarf Malzemesi 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "Sarf Malzemesi 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "Sarf Malzemesi 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "Sarf Malzemesi 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "Sarf Malzemesi 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "Sol"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "Otomatik Nişan"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "Otomatik Nişanı Devreden Kaldır"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "Olumsuz!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "Bas-Konuş"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "Şarjörü yükle"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "Yüklüyor!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "Sağ"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "Savaş arayüzünü gizle"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "Kişisel Yedekler Aktivasyonu"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "Kişisel Görevler için gelişim"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "Komuta Menüsünü Göster / Komutu onayla"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "Boyut küçült"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "Boyut büyüt"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "Özel Yetenek"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "Dur ve Ateş Et"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "Teşekkür ederim!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "Zırh Göstergesi Düğmesi"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "Mermi Yolu Görünümü"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "Korna çal"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "Sakla / Göster"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "Dinamik Takımlarda sesli sohbeti aç/kapa"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "Kamera"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "Seyir Kontrolü"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "Sarf Malzemeleri"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "Ateş"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "Harita"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "Hareket et"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "Mesajlar"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "Ekip İletişimi"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "Diğer"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "Sesli Sohbet"
+
+msgid "keyboard/mouse"
+msgstr "Fare"
+
+msgid "keyboardTitle"
+msgstr "Kontroller"
+
+msgid "limitedUI/desc"
+msgstr "Garajda gizli arayüz ögelerinin yavaş yavaş ortaya çıkışı"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "Kapat"
+
+msgid "marker/AllyTitle"
+msgstr "Bizim Ekibimiz"
+
+msgid "marker/DeadTitle"
+msgstr "Yok edilmiş"
+
+msgid "marker/EnemyTitle"
+msgstr "Düşman Ekibi"
+
+msgid "marker/aimMarker2D"
+msgstr "Otomatik Nişan Alma Göstergesi"
+
+msgid "marker/alt"
+msgstr "Alternatif"
+
+msgid "marker/base"
+msgstr "Normal"
+
+msgid "marker/damage"
+msgstr "Alınan hasar"
+
+msgid "marker/dead"
+msgstr "İmha edilenler için göster"
+
+msgid "marker/hp"
+msgstr "Araç Canı"
+
+msgid "marker/hp/type0"
+msgstr "Yüzde %"
+
+msgid "marker/hp/type1"
+msgstr "Kalan / toplam CP"
+
+msgid "marker/hp/type2"
+msgstr "Kalan CP"
+
+msgid "marker/hp/type3"
+msgstr "Sakla"
+
+msgid "marker/hpIndicator"
+msgstr "Can göstergesi"
+
+msgid "marker/icon"
+msgstr "Araç işareti"
+
+msgid "marker/level"
+msgstr "Araç seviyesi"
+
+msgid "marker/level/tooltip/body"
+msgstr "Bu ayar açıldığında aracın üzerinde bir seviye gösterilecek.\n\nÇelik Avıcısı'nda mevcut yükseltme seviyesi gösterilecek."
+
+msgid "marker/level/tooltip/header"
+msgstr "Araç seviyesi"
+
+msgid "marker/name"
+msgstr "Araç ismi"
+
+msgid "marker/name/type2"
+msgstr "Sakla"
+
+msgid "marker/nickname"
+msgstr "Oyuncunu Adı"
+
+msgid "markerTitle"
+msgstr "İşaret"
+
+msgid "minimap/labels/alpha"
+msgstr "Mini Harita Şeffaflığı"
+
+msgid "minimap/labels/size"
+msgstr "Maksimum büyüklük"
+
+msgid "monitor"
+msgstr "Monitör"
+
+msgid "monitor/description"
+msgstr "Oyun için birincil monitörü seçin"
+
+msgid "mouse/sensitivity/art"
+msgstr "Topçu nişanı"
+
+msgid "mouse/sensitivity/art2"
+msgstr "Mermi yolu görünümü"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "Serbest Kamera"
+
+msgid "mouse/sensitivity/header"
+msgstr "Hassasiyet"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "Yatay döndürme"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "Dikey döndürme"
+
+msgid "mouse/sensitivity/main"
+msgstr "Arcade nişanı"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "Keskin Nişancı nişanı"
+
+msgid "mouse/startDist"
+msgstr "Kamera pozisyonu"
+
+msgid "ok_button"
+msgstr "Tamam"
+
+msgid "otherSettings/fieldset/header"
+msgstr "Ses Ortam Ögeleri"
+
+msgid "otherSettings/labels/bulb"
+msgstr "Altıncı His Aktivasyon Sesi"
+
+msgid "otherTitle"
+msgstr "Diğer"
+
+msgid "physicsQuality"
+msgstr "Ses Fiziği Kalitesi"
+
+msgid "refreshRate"
+msgstr "Ekran Tarama Hızı"
+
+msgid "refreshRate/default"
+msgstr "Varsayılan"
+
+msgid "refreshRate/description"
+msgstr "Oyundaki ekran tarama hızı. \n\nEkran tarama hızı ile uyumsuzluk yanıp sönün ekran etkisi yaratabilir.\n\nOyun performansını etkilemez."
+
+msgid "resolution"
+msgstr "Ekran çözünürlüğü"
+
+msgid "resolution/description"
+msgstr "Tam ekran kipinde atay ve düşey ekran çözünürlüğü. Daha yüksek çözünürlük görüntü kalitesini artırır. Tam ekran kipinde belirlenen çözünürlüğün ekran çözünürlüğü ile uyumsuzluğu görüntüyü bozabilir.\n\nBu parametrenin artırılması ekran kartındaki yükü artırır ve oyun performansını düşürebilir.\n\nEkran kartının yükü 3B işleme çözünürlüğü düşürülerek azaltılabilir."
+
+msgid "restartNewbieBattleHints"
+msgstr "Yeni Başlayanlara Tüyoları Sıfırla"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "Daha önce size gösterilmiş tüyoları tekrar görmek için yeni başlayanlara tüyolar tarihçesini sıfırlayın."
+
+msgid "screenMode"
+msgstr "Oyun kipi"
+
+msgid "screenMode/borderless"
+msgstr "Pencereli (kenarsız)"
+
+msgid "screenMode/description"
+msgstr "Tam ekran, pencereli ve pencereli (kenarsız) oyun kipleri arasında geçiş. Pencereli oyun kipi oyun performansını düşürecektir."
+
+msgid "screenMode/fullscreen"
+msgstr "Tam ekran"
+
+msgid "screenMode/label"
+msgstr "Kip:"
+
+msgid "screenMode/windowed"
+msgstr "Pencereli"
+
+msgid "smoothing/description"
+msgstr "İnce çizgilerin ve oyun alanındaki oyun cisimlerinin kenarlarının ek işlenme derecesini belirler. Örtüşme etkisini en aza indirir. Cisimlerin kenarları daha doğal görünür."
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "Standart"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "Kullanıcı sesi"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "Varyant 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "Varyant 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "Kullanıcı sesi"
+
+msgid "sound/dynamicRange/label"
+msgstr "Dinamik aralık"
+
+msgid "sound/fieldset/header"
+msgstr "Ses"
+
+msgid "sound/players_notifications"
+msgstr "Diğer oyunculardan gelen uyarılar"
+
+msgid "sound/presets/title"
+msgstr "Ön Ayarlar"
+
+msgid "sound/soundModes/U01"
+msgstr "Kullanıcı 1"
+
+msgid "sound/soundModes/U02"
+msgstr "Kullanıcı 2"
+
+msgid "sound/soundModes/U03"
+msgstr "Kullanıcı 3"
+
+msgid "sound/soundModes/U04"
+msgstr "Kullanıcı 4"
+
+msgid "sound/soundModes/default"
+msgstr "Standart"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "Komutan"
+
+msgid "sound/special/field/set"
+msgstr "Oyun olayı ses seviyesi"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "Aygıtları Yinele"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "Testi Bitir"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "Teste Başla"
+
+msgid "sound/vivox/fade_volume"
+msgstr "Sohbet Sırasında Genel Ortam Seviyesi"
+
+msgid "sound/vivox/master_volume"
+msgstr "Sesli sohbet ses düzeyi"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "Mikrofon hassasiyeti"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Vivox testi"
+
+msgid "soundTitle"
+msgstr "Ses"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "Otomatik seçim"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "2.0/2.1 sistem"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "5.1 sistem"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "7.1 sistem"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "kulaklıklar"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "Orta"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "Sol"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "Sol arka"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "Sol ön"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "Sol yan"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "Sağ"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "Sağ arka"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "Sağ ön"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "Sağ yan"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "Subwoofer"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "dizüstü"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "Ses testi:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "Sesi deneyin"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "Sesli mesajlar aracın ülkesine ve komutanın cinsiyetine bağlıdır"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "Ulusal"
+
+msgid "sounds/altVoice/default/body"
+msgstr "Oyun istemcisinin dilinde erkek seslendirme"
+
+msgid "sounds/altVoice/default/header"
+msgstr "Standart"
+
+msgid "sounds/ambient"
+msgstr "Ortam sesi"
+
+msgid "sounds/arena"
+msgstr "Savaşta Müzik"
+
+msgid "sounds/artyBulbVoices"
+msgstr "Ses Tespiti"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "Ses Tespiti aktivasyon sesi için varyantlardan birini seçin. Kendi sesinizi kullanmak için .mp3 dosyanızı soundExploring olarak adlandırın ve res/audioww klasörüne kopyalayın."
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "Ses Tespiti Aktivasyon Sesi"
+
+msgid "sounds/bassBoost"
+msgstr "Düşük frekans geliştirmesi"
+
+msgid "sounds/bassBoost/description"
+msgstr "Oyunda, genel ses seviyesini aynı tutarak düşük frekansları geliştirir. Kip uygulaması seçili ses sistemine (hoparlör, kulaklık veya dizüstü) bağlı olarak farklılık gösterebilir."
+
+msgid "sounds/bulbVoices"
+msgstr "Altıncı His"
+
+msgid "sounds/bulbVoices/description"
+msgstr "Altıncı His aktivasyon sesi için varyantlardan birini seçin. Kendi sesinizi kullanmak için .mp3 dosyanızı sixthSense olarak adlandırın ve res/audioww dizinine kopyalayın."
+
+msgid "sounds/effects"
+msgstr "Efektler"
+
+msgid "sounds/gui"
+msgstr "Arabirim"
+
+msgid "sounds/hangar"
+msgstr "Garajda Müzik"
+
+msgid "sounds/masterVolume"
+msgstr "Genel Ses Seviyesi"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "Sesi etkinleştir"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "Oyun ses efektlerini kapatmak genel oyun performansını iyileştirebilir. Değişikliklerin uygulanması için oyun istemcisini yeniden başlatmanız gerekecek."
+
+msgid "sounds/nightMode"
+msgstr "Gece kipi"
+
+msgid "sounds/nightMode/description"
+msgstr "Ses farklarını dengeler, keskin sesleri azaltır ve oyundaki düşük frekansları en aza indirerek gece geç vakit oyun oynama için rahat ve yumuşak bir ses ortamı sağlar."
+
+msgid "sounds/physicsQuality/attention"
+msgstr "Bu özelliği açmak performansı etkileyebilir."
+
+msgid "sounds/physicsQuality/body"
+msgstr "Ses fiziğinin kalitesini ayarlar.\n\nSesin engellerin etrafında nasıl kıvrıldığını ve harita yüzeylerinden nasıl geçtiğini simüle eder.\n\nHarita geometrisini kullanarak yakındaki nesnelerden yansıyan tank seslerinin erken yansımalarını oluşturur.\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "Ses Fiziği Kalitesi"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "Kapalı"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "Yüksek"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "Düşük"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "Orta"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "Tavsiye Edilen"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "Bilgisayarınız için optimum ses fiziği kalitesini belirler.\n\nBu işlem biraz zaman alabilir."
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "Tavsiye Edilen"
+
+msgid "sounds/sixthSense/body"
+msgstr "Özel ses. sixthSense.mp3 dosyasını res/audioww dizinine taşıyın."
+
+msgid "sounds/sixthSense/header"
+msgstr "Özel"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "2.0/2.1 Ses"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "Oyun içi sesleri harici eşli full range hoparlörler (2.0) veya eşli yüksek frekans hoparlörler + bir düşük frekans hoparlör (2.1) için ayarlar."
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "2.0/2.1 Ses"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "5.1 Sistem"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "Çok kanallı 5.1 sistemde dış hoparlörler ve subwoofer için oyun içi seslerin konumlandırmasını düzenleyin."
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "5.1 Sistem"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "7.1 Sistem"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "Çok kanallı 7.1 sistemde dış hoparlörler ve subwoofer için oyun içi seslerin konumlandırmasını düzenleyin."
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "7.1 Sistem"
+
+msgid "sounds/soundDevice/auto"
+msgstr "Otomatik seçim"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "İşletim sisteminde belirtilen ses yapılandırma ayarlarını otomatik olarak belirler."
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "Otomatik seçim"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "Kulaklık"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "Oyun içi sesleri kulaklık için ayarlar."
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "Kulaklık"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "Dizüstü"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "2.0/2.1 Ses ön ayarının konumlandırma prensibini kullanır ancak oyun içi sesleri olabilecek en yüksek kalitede küçük dizüstü bilgisayar hoparlörlerinde çalınacak şekilde ayarlar."
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "Dizüstü"
+
+msgid "sounds/soundQuality"
+msgstr "Düşük kalite"
+
+msgid "sounds/soundQuality/description"
+msgstr "Düşük güçteki bilgisayarlarda ses kalitesini düşürmek genel oyun performansını artırabilir. Bu kipi açmak aynı anda işlenen ses sayısını önemli ölçüde düşürür."
+
+msgid "sounds/speakers/back/body"
+msgstr "Sağ/sol arka hoparlörlerde ses testi"
+
+msgid "sounds/speakers/back/header"
+msgstr "Sağ/sol arka hoparlörler"
+
+msgid "sounds/speakers/center/body"
+msgstr "Orta hoparlörde ses testi"
+
+msgid "sounds/speakers/center/header"
+msgstr "Orta hoparlör"
+
+msgid "sounds/speakers/front/body"
+msgstr "Sağ/sol ön hoparlörlerde ses testi"
+
+msgid "sounds/speakers/front/header"
+msgstr "Sağ/sol ön hoparlörler"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "2.0/2.1 sistemde subwoofer seçimlik bir cihazdır. Hoparlör olmadan test edilemez."
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "Seçimlik subwoofer"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "Sağ/sol yan hoparlörlerde ses testi."
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "Sağ/sol yan hoparlörler"
+
+msgid "sounds/speakers/sides/body"
+msgstr "Sağ/sol hoparlörlerde ses testi"
+
+msgid "sounds/speakers/sides/header"
+msgstr "Sağ/sol hoparlörler"
+
+msgid "sounds/speakers/sub/body"
+msgstr "Subwooferda ses testi"
+
+msgid "sounds/speakers/sub/header"
+msgstr "Subwoofer"
+
+msgid "sounds/subtitles"
+msgstr "Altyazılar"
+
+msgid "sounds/tabCommon"
+msgstr "Ana Ses"
+
+msgid "sounds/tabSpecial"
+msgstr "Oyunda Olay"
+
+msgid "sounds/tabVivox"
+msgstr "Sesli Sohbet"
+
+msgid "sounds/vehicles"
+msgstr "Araçlar"
+
+msgid "sounds/voiceNotification"
+msgstr "Sesli Bildirimler"
+
+msgid "title"
+msgstr "Ayarlar"
+
+msgid "tripleBuffered"
+msgstr "Üçlü Arabellekleme"
+
+msgid "tripleBuffered/description"
+msgstr "Resim karesi değişimindeki yırtılmayı azaltır (sadece düşey senkronizasyon açıldığında etkindir)."
+
+msgid "vertSync"
+msgstr "Dikey senkronizasyon"
+
+msgid "vertSync/Off"
+msgstr "Kapalı"
+
+msgid "vertSync/On"
+msgstr "AÇIK"
+
+msgid "vertSync/description"
+msgstr "Resim karesi hızının monitörün tarama hızına eşlenmesi. \n\nResim karesi hızı saniyede 60 resimdir. Sallanan görüntü durumlarında veya ekranın altındaki görüntünün üstteki görüntüye göre geç kalması durumlarında kullanılabilir."
+
+msgid "voice_chat/PTT"
+msgstr "Bas-Konuş"
+
+msgid "voice_chat/fieldset/header"
+msgstr "Ses Seviyesi"
+
+msgid "voice_chat/header/common"
+msgstr "Genel"
+
+msgid "voice_chat/header/microphone"
+msgstr "Mikrofon"
+
+msgid "voice_chat/header/speakers"
+msgstr "Kulaklık"
+
+msgid "voice_chat/microphone"
+msgstr "Mikrofon"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "Mikrofon"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "Mikrofon aç"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "Sesli Sohbet aç"
+
+msgid "windowSize"
+msgstr "Pencere Büyüklüğü"
+
+msgid "windowSize/description"
+msgstr "Oyun istemcisi penceresinin yatay ve düşey ekran çözünürlüğü. Tam ekran kipine geçildiğinde ayar \"Ekran Çözünürlüğü\"ne dönüşür."
+
+msgid "windowTitle"
+msgstr "WoT İstemcisi"

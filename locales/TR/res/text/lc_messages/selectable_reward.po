@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "error/button"
+msgstr "Olumlu!"
+
+msgid "error/description"
+msgstr "Geçici olarak bilgi veremiyoruz. Verdiğimiz rahatsızlıktan dolayı özür dileriz. Lütfen daha sonra tekrar deneyin."
+
+msgid "error/title"
+msgstr "Ödül Seçimi Açılamıyor"
+
+msgid "footer/closeBtn/label"
+msgstr "Daha Sonra Seç"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "Sunulan kategorilerden ödül seçin."
+msgstr[1] "Sunulan kategorilerden ödül seçin."
+msgstr[2] "Sunulan kategorilerden ödül seçin."
+
+msgid "footer/okBtn/label"
+msgstr "Al"
+
+msgid "footer/rewardsSelected"
+msgstr "Seçilen ödüller:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "Sunulan kategoriden ödül seçin."
+msgstr[1] "Sunulan kategoriden ödüller seçin."
+msgstr[2] "Sunulan kategoriden ödüller seçin."
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "Sınıra ulaşıldı"
+
+msgid "reward/state_received"
+msgstr "Zaten alındı"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "Bu kategoriden seçilebilir ürün sınırına ulaşıldı. Başka bir ürün eklemek için seçtiğiniz bir ürünü iptal edebilirsiniz."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "Sınıra Ulaşıldı"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "Donanım\nyönergeleri"
+
+msgid "tabs/items/battle_booster"
+msgstr "Donanım Yönergeleri"
+
+msgid "tabs/items/blueprint"
+msgstr "Taslak Kesitleri"
+
+msgid "tabs/items/brochure"
+msgstr "Eğitim Broşürü"
+
+msgid "tabs/items/crewbook"
+msgstr "Eğitim Kılavuzu"
+
+msgid "tabs/items/deluxe"
+msgstr "İyileştirilmiş Donanım"
+
+msgid "tabs/items/expequipments"
+msgstr "Deneysel\nDonanım"
+
+msgid "tabs/items/guide"
+msgstr "Eğitim El Kitabı"
+
+msgid "tabs/items/modernized_device"
+msgstr "Deneysel Donanım"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "Deneysel Donanım Seviye 1"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "Deneysel Donanım Seviye 2"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "Deneysel Donanım Seviye 3"
+
+msgid "tabs/items/new_device"
+msgstr "Standart Donanım"
+
+msgid "tabs/items/trophy"
+msgstr "Kayra Donanım"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "Seçtiğiniz ödülleri almak için Al tuşuna tıklayın."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "Seçilen ödüller: %(white_open)s%(count)s%(white_close)s"

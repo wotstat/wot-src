@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "Onaylamak için transfer için seçili mürettebat üyesinin DP miktarını girin."
+
+msgid "assignmentDialog/price"
+msgstr "Fiyatı:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Mürettebat üyeleri arasında tüm Mürettebat DP'sini aktarın"
+
+msgid "assignmentDialog/title"
+msgstr "Akıl Hocalığı Kursunu Onaylayın"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Bu mürettebat üyesi, kurtarma imkânı olmadan\nhesabınızdan kaldırılacak."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} ekstra DP kaybedilecek."
+
+msgid "dialogue/description"
+msgstr "Aynı ülkenin mürettebat üyeleri arasında tüm Mürettebat DP'sini aktarmanızı sağlayan bir sarf malzemesi."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}Ekstra DP kaybedilecek:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "SEÇ"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Toplam DP:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Akıl Hocalığı Ruhsat(lar)ı:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Uygun mürettebat üyesi yok"
+
+msgid "mentorAssigment/tips/info"
+msgstr "DP'sini {cream_Open}%(name)s{cream_Close} üzerine aktaracak\n ve sonrasında hesabınızdan kaldırılacak mürettebat üyesini seçin."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "Mürettebat DP'si aktarıldıktan sonra {cream_Open}%(name)s{cream_Close} yetenek sınırına ulaşacak ve sınırın üstündeki tüm DP kaybolacak."
+
+msgid "mentorAssigment/title"
+msgstr "AKIL HOCASINI SEÇİN"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close} yetenek sınırına ulaştı ve DP aktarımı için seçilemez."
+
+msgid "multipleUserName"
+msgstr "Akıl Hocalığı Ruhsatları"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Kullanılan Akıl Hocalığı Ruhsatı: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "Aktarılan Mürettebat DP'si: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "Akıl Hocalığı Kursu"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>Kaybolan ekstra Mürettebat DP'si: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Aynı ülkenin mürettebat üyeleri arasında\nMürettebat DP'sini aktarmanızı sağlar."
+
+msgid "storage/userName"
+msgstr "Akıl Hocalığı Ruhsatı"
+
+msgid "userName"
+msgstr "Akıl Hocalığı Ruhsatı"

@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "Om Stridspass"
+
+msgid "about/position/header"
+msgstr "Fördelning av Stridspasspoäng"
+
+msgid "about/position/text"
+msgstr "Efter varje strid får du ett antal Stridspasspoäng baserat på din placering. Du får extra Stridspasspoäng om du ökar din Frontklass."
+
+msgid "about/scores/header"
+msgstr "Stridspasspoäng"
+
+msgid "about/scores/text"
+msgstr "En speciell stridspassvaluta som kan erhållas i slumpvis matchade strider och frontstrider. Stridspasspoäng delas ut för uppnådda frontklasser och för placering i stridsresultatet. Frontstridsvagnar är inte begränsade i antalet poäng de kan tjäna."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Förlust"
+
+msgid "about/scoresTable/topCell"
+msgstr "Topp {{top}} som tjänat mest erf."
+
+msgid "about/scoresTable/winHeader"
+msgstr "Seger"
+
+msgid "about/text"
+msgstr "Stridspass är ett långvarigt evenemang där spelare slutför olika delmoment genom att samla Stridspasspoäng. Varje slutfört delmoment ger värdefulla belöningar. Efter att ha slutfört vissa delmoment tilldelas spelaren Stridspassmarker—en specialvaluta som kan användas för att köpa unika vagnar och andra värdefulla belöningar i affären."
+
+msgid "addons/cellRent/header"
+msgstr "Vagnshyra"
+
+msgid "addons/cellRent/text_10"
+msgstr "Det finns flera olika vagnar klass {{vehiclesLevel}} att hyra för krediter. Besättningsmedlemmar från vagnar av samma typ och nationalitet kan överföras utan negativa effekter eller omskolning."
+
+msgid "addons/cellRent/text_9"
+msgstr "Det finns flera olika vagnar klass {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} att hyra för krediter. Besättningsmedlemmar från vagnar av samma typ och nationalitet kan överföras utan negativa effekter eller omskolning."
+
+msgid "addons/cellSpectator/header"
+msgstr "Åskådarläge"
+
+msgid "addons/cellSpectator/text"
+msgstr "När du väntar på en ny insats kan du gå till åskådarläget för att studera slagfältet och planera din taktik."
+
+msgid "addons/cellTime/header"
+msgstr "Tilläggstid"
+
+msgid "addons/cellTime/text"
+msgstr "Om en bas håller på att erövras när striden tar slut får ditt lag extra tid. Om det försvarande laget avbryter erövringen av sin bas går tilläggstiden tillbaka till noll."
+
+msgid "addons/header"
+msgstr "Ytterligare information"
+
+msgid "levelUp/sectionHeader"
+msgstr "Vagnar klass {{level}}"
+
+msgid "levelUp/text"
+msgstr "Som tidigare kan du från start bara ta vagnar klass {{vehiclesLevelFrom}} i strid, men du kan förbereda vagnar klass {{vehiclesLevelTo}} i garaget. Så snart någon bas i andra linjen (D, E, F) erövrats kommer båda lagen ha möjlighet att använda sina vagnar klass {{vehiclesLevelTo}}."
+
+msgid "main/cellDuration/header"
+msgstr "Varaktighet"
+
+msgid "main/cellDuration/text"
+msgstr "Frontstriderna pågår under {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}} dagar. Nästa startdatum meddelas separat."
+
+msgid "main/cellFrontline/header"
+msgstr "Frontstrider"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Massiva strider 30v30 i vagnar klass {{vehiclesLevel}} på kartorna {{@ colorLegacy 'FFE4C0'}}Normandie, Kraftwerk{{/}} och {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Det anfallande laget måste förstöra 3 av 5 pjäser i det tunga batteriet, medan försvararna måste skydda dem."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Massiva strider 30v30 i vagnar klass {{vehiclesLevelFrom}}-{{vehiclesLevelTo}} på kartorna {{@ colorLegacy 'FFE4C0'}}Normandie, Kraftwerk{{/}} och {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Det anfallande laget måste förstöra 3 av 5 pjäser i det tunga batteriet, medan försvararna måste skydda dem."
+
+msgid "main/cellLevel9/header"
+msgstr "Vagnar klass {{vehiclesLevel}}"
+
+msgid "main/cellLevel9/text"
+msgstr "När en av baserna i andra linjen (D, E eller F) erövras kommer du kunna gå i strid i vagnar klass {{vehiclesLevel}}."
+
+msgid "main/cellLevels/header"
+msgstr "Vagnar klass {{vehiclesLevel}}"
+
+msgid "main/cellLevels/text_8"
+msgstr "Striderna är endast tillgängliga för vagnar klass {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}}."
+
+msgid "main/cellLevels/text_9"
+msgstr "Endast vagnar klass {{vehiclesLevel}} kan delta i strid."
+
+msgid "main/cellPass/header"
+msgstr "Stridspass"
+
+msgid "main/cellPass/text"
+msgstr "Frontstrider är ett fantastiskt tillfälle att tjäna Stridspasspoäng när du deltar i strider och når nya frontstridsklasser."
+
+msgid "main/cellReserves/header"
+msgstr "Kategorier för stridsreserver"
+
+msgid "main/cellReserves/text"
+msgstr "Det finns tre kategorier av stridsreserver, var och en med sin egen plats. I vilken ordning de låses upp och förbättras beror på vagnstyp."
+
+msgid "main/cellScenarios/header"
+msgstr "Scenarion"
+
+msgid "main/cellScenarios/text"
+msgstr "Frontstrider i ett av följande scenarion: {{@ colorLegacy 'FFE4C0'}}Standardstrid{{/}}, {{@ colorLegacy 'FFE4C0'}}Operativt Stöd{{/}} eller {{@ colorLegacy 'FFE4C0'}}Ödets Nyck{{/}}. Information om aktuellt scenario visas när striden laddas, under nedräkningen innan striden och när du trycker på Tab-tangenten under striden."
+
+msgid "main/sectionHeader"
+msgstr "Allmän information"
+
+msgid "page/backBtn"
+msgstr "TILLBAKA"
+
+msgid "page/headerUpper"
+msgstr "FRONTSTRID"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "Beroende på vilken grad du uppnår får du fronterfarenhet och stridserfarenhet. Fronterfarenhet höjer din frontklass. Totalt finns det {{@ colorLegacy 'FFE4C0'}}20 klasser{{/}}."
+
+msgid "progression/levelsSection/header"
+msgstr "Frontklasser"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Frontklasser{{/}} belönas med Stridspasspoäng, stridsreservpoäng, obligationer, anvisningar, omskolningsorder, mentorslicenser och läromedel."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Frontklasser{{/}} belönas med stridsreservpoäng, obligationer, anvisningar, omskolningsorder och läromedel."
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Grader{{/}} visar inte bara din effektivitet i en strid utan ger dig även en stridserfarenhetsbonus. Bonusen läggs på den totala baserfarenheten för var och en av vagnarna du använde under striden. När du eller någon av dina allierade når graden General ger höjer det hela lagets besättningsprestanda (nivån på huvudutbildningen för varje besättning) med mellan {{@ colorLegacy 'FFE4C0'}}1,5%{{/}} och {{@ colorLegacy 'FFE4C0'}}15%{{/}}."
+
+msgid "progression/ranksSection/header"
+msgstr "Grader"
+
+msgid "progression/ranksSection/text"
+msgstr "Striderna har ett sexgradigt system där spelare går från Menig till General. Du befordras för effektivitet i striden (baserövring/försvar, förstöra huvudmål) och intjänad erfarenhet. Total intjänad erfarenhet i alla vagnar du stridit i räknas."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Extra stridserfarenhet"
+
+msgid "progression/ranksTable/captain"
+msgstr "Kapten"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Ökad besättningseffektivitet"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Frontstridserfarenhet"
+
+msgid "progression/ranksTable/general"
+msgstr "General"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Löjtnant"
+
+msgid "progression/ranksTable/major"
+msgstr "Major"
+
+msgid "progression/ranksTable/private"
+msgstr "Menig"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Sergeant"
+
+msgid "progression/sectionHeader"
+msgstr "Frontstridsframsteg"
+
+msgid "progression/text"
+msgstr "Under dina strider på fronten kommer du gå upp i grad, göra framsteg och tjäna belöningar."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Sekundära"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Reservplats 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Reservplats 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Reservplats 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Primära"
+
+msgid "reserveCategories/categories/support"
+msgstr "Extra"
+
+msgid "reserveCategories/config/footerText"
+msgstr "Under scenariot {{@ colorLegacy 'FFE4C0'}}Ödets Nyck{{/}} beror inte ordningen för upplåsning av stridsreserver på vagnstypen."
+
+msgid "reserveCategories/config/header"
+msgstr "Reservuppsättningar efter vagnstyp"
+
+msgid "reserveCategories/config/text"
+msgstr "Under scenariona {{@ colorLegacy 'FFE4C0'}}Standardstrid{{/}} och {{@ colorLegacy 'FFE4C0'}}Operativt Stöd{{/}} är alla tre platser för stridsreserver tillgängliga för alla vagnstyper. Vagnstypen avgör dock i vilken ordning de låses upp."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "Pansarvärnskanonvagnar"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Tunga stridsvagnar"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Lätta stridsvagnar"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Medeltunga stridsvagnar"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "Artillerivagnar"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* Bara stridsreserver som {{@ colorLegacy 'FFE4C0'}}köpts{{/}} kan höjas till den här nivån under scenariot {{@ colorLegacy 'FFE4C0'}}Ödets Nyck{{/}}."
+
+msgid "reserveCategories/levels/header"
+msgstr "Lås upp platser och förbättra stridsreserver"
+
+msgid "reserveCategories/levels/text"
+msgstr "En stridsreserv är tillgänglig från början. Fler låses upp när du når graderna sergeant och löjtnant. Alla tre reserver förbättras när du når graderna kapten och major."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "nivå {{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} eller {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}}"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Kapten"
+
+msgid "reserveCategories/ranks/general"
+msgstr "General"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Löjtnant"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Major"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Sergeant"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Menig"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Ödets Nyck"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "Under striden kan spelarna välja mellan slumpade reserver och dessa är tillgängliga för alla vagnstyper. Om en reserv placeras på en plats innan striden ökar chansen att få tillgång till den under striden med {{@ colorLegacy 'FFE4C0'}}10%{{/}}. Om en reserv köps höjs dess nivå till {{@ colorLegacy 'FFE4C0'}}II{{/}} och ger möjlighet att höja den till nivå {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Frontscenarion"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Standardstrid"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Standardregler för frontstrider gäller. Reglerna för stridsreserver är oförändrade."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Operativt Stöd"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "När du låser upp en reserv: {{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "När du återvänder till strid: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Ett scenario med högre stridstempo och snabbare nedkylning av stridsreserver:"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Frontstrider i ett av följande scenarion: {{@ colorLegacy 'FFE4C0'}}Standardstrid{{/}}, {{@ colorLegacy 'FFE4C0'}}Operativt Stöd{{/}} eller {{@ colorLegacy 'FFE4C0'}}Ödets Nyck{{/}}. Scenarion ändrar hur stridsreserver erhålls och aktiveras under striden. Information om aktuellt scenario visas när striden laddas, under nedräkningen innan striden och när du trycker på Tab-tangenten under striden."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Kategorier för stridsreserver"
+
+msgid "reserveCategories/text"
+msgstr "Stridsreserver är uppdelade i tre kategorier med tre reserver i varje. När du går i strid kan du placera en reserv från varje kategori på respektive plats."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Anfallsreserver"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Spaningsreserver"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Taktiska reserver"
+
+msgid "reserves/sectionHeader"
+msgstr "Snabbreserver"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Snabbstart"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Tiden för att förbereda stridsreserver i början av striden minskas med 50%."
+
+msgid "reserves/sectionReload/header"
+msgstr "Omedelbar tillgång"
+
+msgid "reserves/sectionReload/text"
+msgstr "Stridsreserver är redo att användas så snart de blir upplåsta."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Andra andningen"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Tiden för att förbereda en stridsreserv minskas med 70% när du återvänder till striden i en ny vagn."
+
+msgid "rules/backToFight/header"
+msgstr "Återvänd till strid"
+
+msgid "rules/backToFight/text"
+msgstr "Om din vagn förstörs kan du välja en av de andra tillgängliga vagnarna och återvända till slagfältet i en ny insats för att ta hem segern. Du måste välja någon av de tillgängliga utgångspunkterna på flankerna och i bakre linjen att påbörja din insats från, vilken även hjälper dig bestämma din strategi. Försvarande spelare har ett större urval av utgångspunkter långt bakom frontlinjen vilket betyder att de kan kraftsamla i försvar av kanonbatterierna i händelse av ett fientligt genombrott. Systemet varnar om spelare väljer att påbörja sin insats från en utgångspunkt som bedöms vara farlig."
+
+msgid "rules/base/header"
+msgstr "Baserövring"
+
+msgid "rules/base/textBottom"
+msgstr "Att skada en vagn (eller dess moduler) när man erövrar en bas återställer inte erövringen, utan stoppar den bara tillfälligt. För att återställa erövringen måste försvararna förstöra alla fiendevagnar i bascirkeln eller tvinga dem att lämna bascirkeln. Det försvarande laget kan inte erövra en bas när den intagits av anfallarna."
+
+msgid "rules/base/textTop"
+msgstr "Det {FFE4C0_Start}anfallande laget{FFE4C0_End} måste erövra baser i följd för att uppnå huvudmålen. En erövrad bas lägger till 2 minuter till stridens längd. Att erövra den sista basen lägger till 4 minuter."
+
+msgid "rules/sectionHeader"
+msgstr "Allmänna regler"
+
+msgid "rules/service/header"
+msgstr "Omladdningscirklar"
+
+msgid "rules/service/text"
+msgstr "Omladdningscirklar återställer vagns träffpoäng, läker alla skadade besättningsmedlemmar och laddar om din ammunition. {FFE4C0_Start}Underhållstiden är enligt följande: 100 träffpoäng / en besättningsmedlem / 10%{FFE4C0_End} av ammunitionen per sekund."
+
+msgid "rules/weapons/header"
+msgstr "Mål: 3 av 5 tunga pansartorn"
+
+msgid "rules/weapons/list/back"
+msgstr "Bakpansar: {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Inga granater kan slå igenom{{/}} tak- och frontpansar."
+
+msgid "rules/weapons/list/sides"
+msgstr "Sidopansar: {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Sidopansar: {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Svaga punkter: {{@ colorLegacy 'FFE4C0'}}dörr (70 mm) och ventiler (25 mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Det finns fem tunga pansartorn långt bakom fiendens linjer och de är huvudmålen för slaget. Det anfallande laget måste förstöra 3 torn, samtidigt som försvarare måste skydda dem till varje pris."
+
+msgid "subTitle/differentMonth"
+msgstr "från {{@ colorLegacy 'FFE4C0'}}{{from}} {{startMonth}}{{/}} till {{@ colorLegacy 'FFE4C0'}}{{to}} {{endMonth}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "från {{@ colorLegacy 'FFE4C0'}}{{from}} {{startMonth}} {{startYear}}{{/}} till {{@ colorLegacy 'FFE4C0'}}{{to}} {{endMonth}} {{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "från {{@ colorLegacy 'FFE4C0'}}{{from}} {{/}} till {{@ colorLegacy 'FFE4C0'}}{{to}} {{endMonth}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "Sektorerna A, B och C {{@ colorLegacy 'FFE4C0'}}på den första linjen{{/}} representerar utgångspunkterna för båda lagen."
+
+msgid "winStrategy/header"
+msgstr "Vinnande strategi"
+
+msgid "winStrategy/mapZones"
+msgstr "Kartan för striderna har tre horisontala försvarslinjer:"
+
+msgid "winStrategy/secondLine"
+msgstr "När sektorerna på den första linjen erövras fortsätter striden i sektor D, E, och F {{@ colorLegacy 'FFE4C0'}}på den andra linjen{{/}}."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Den tredje linjen{{/}} är inte indelad i sektorer eftersom det är där sista fasen av striden äger rum. Här finns det tunga pansartornen som det anfallande laget måste förstöra för att vinna. För att få tillgång till huvudmålet måste anfallarna erövra minst en sektor i den andra linjen. När en sektor förloras, har de försvarande spelarna 1 på sig att lämna sektorn innan den bombarderas. Alla försvarare som fortfarande befinner sig i sektorn förstörs i ett flyganfall. Alla anfallare som försöker nå sektorerna i andra eller tredje linjen, utan att erövra den föregående sektorn, förstörs också av attackflyg."

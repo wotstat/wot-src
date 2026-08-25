@@ -1,0 +1,467 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "addVehPopover/btnAdd"
+msgstr "Hinzufügen (%(count)d)"
+
+msgid "addVehPopover/btnCancel"
+msgstr "Abbrechen"
+
+msgid "addVehPopover/header"
+msgstr "Wählen Sie Fahrzeug für den Vergleich"
+
+msgid "addVehPopover/showOnlyMyVahicles"
+msgstr "Fahrzeuge der Garage anzeigen"
+
+msgid "addVehPopover/tooltips/addToCompare/body"
+msgstr "Gewähltes Fahrzeug zum Vergleich hinzufügen"
+
+msgid "addVehPopover/tooltips/addToCompare/header"
+msgstr "Hinzufügen"
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/body"
+msgstr "Ein weiteres Fahrzeug können Sie erst vergleichen, wenn Sie Fahrzeuge von der Vergleichsliste nehmen."
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/header"
+msgstr "Hinzufügen nicht möglich"
+
+msgid "addVehPopover/tooltips/inHangar/body"
+msgstr "Nach Fahrzeugen in Garage sortieren."
+
+msgid "addVehPopover/tooltips/inHangar/header"
+msgstr "Fahrzeuge in Garage"
+
+msgid "addVehPopover/tooltips/level/body"
+msgstr "Nach Fahrzeugstufe sortieren."
+
+msgid "addVehPopover/tooltips/level/header"
+msgstr "Fahrzeuge"
+
+msgid "addVehPopover/tooltips/nation/body"
+msgstr "Nach Nationen sortieren."
+
+msgid "addVehPopover/tooltips/nation/header"
+msgstr "Nation"
+
+msgid "addVehPopover/tooltips/selectVehicle/body"
+msgstr "Nach gewählten Fahrzeugen sortieren."
+
+msgid "addVehPopover/tooltips/selectVehicle/header"
+msgstr "Gewählte Fahrzeuge"
+
+msgid "addVehPopover/tooltips/title/body"
+msgstr "Nach Fahrzeugnamen sortieren."
+
+msgid "addVehPopover/tooltips/title/header"
+msgstr "Name"
+
+msgid "addVehPopover/tooltips/type/body"
+msgstr "Nach Fahrzeugtyp sortieren."
+
+msgid "addVehPopover/tooltips/type/header"
+msgstr "Typ"
+
+msgid "addVehPopover/vehicleName"
+msgstr "Name"
+
+msgid "cartPopover/configurationType/basic"
+msgstr "Standard"
+
+msgid "cartPopover/configurationType/current"
+msgstr "Aktuell"
+
+msgid "cartPopover/configurationType/custom"
+msgstr "Konfiguriert"
+
+msgid "cartPopover/configurationType/premium"
+msgstr "Premium"
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/attention"
+msgstr "Ein weiteres Fahrzeug können Sie erst vergleichen, wenn Sie Fahrzeuge von der Vergleichsliste nehmen."
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/header"
+msgstr "Hinzufügen nicht möglich"
+
+msgid "cartPopover/gotoCompareBtn/label"
+msgstr "(%(value)s) vergleichen"
+
+msgid "cartPopover/openCmpBtn/tooltip/body"
+msgstr "Zum Vergleich der gewählten Fahrzeuge gehen."
+
+msgid "cartPopover/openCmpBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeAllBtn/label"
+msgstr "Liste löschen"
+
+msgid "cartPopover/removeAllBtn/tooltip/body"
+msgstr "Alle Fahrzeuge von der Vergleichsliste entfernen."
+
+msgid "cartPopover/removeAllBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtn/tooltip/body"
+msgstr "Klicken, um das Fahrzeug von der Vergleichsliste zu nehmen."
+
+msgid "cartPopover/removeBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtnLocked/tooltip/body"
+msgstr "Die Fahrzeuge können nicht von der Vergleichsliste entfernt werden, solange das Konfigurationsfenster geöffnet ist."
+
+msgid "cartPopover/removeBtnLocked/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeLockedBtn/tooltip/body"
+msgstr "Das Fahrzeug kann nicht von der Vergleichsliste entfernt werden, solange das Konfigurationsfenster offen ist."
+
+msgid "cartPopover/removeLockedBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/sorting/nation/body"
+msgstr "Zeigt die Nationen der gewählten Fahrzeuge an."
+
+msgid "cartPopover/sorting/nation/header"
+msgstr "Nation"
+
+msgid "cartPopover/sorting/vehLvl/body"
+msgstr "Zeigt die Stufen der gewählten Fahrzeuge an."
+
+msgid "cartPopover/sorting/vehLvl/header"
+msgstr "Stufe"
+
+msgid "cartPopover/sorting/vehName"
+msgstr "Name"
+
+msgid "cartPopover/sorting/vehName/tooltip/body"
+msgstr "Zeigt die Namen der gewählten Fahrzeuge an."
+
+msgid "cartPopover/sorting/vehName/tooltip/header"
+msgstr "Name"
+
+msgid "cartPopover/sorting/vehType/body"
+msgstr "Zeigt die Typen der gewählten Fahrzeuge an."
+
+msgid "cartPopover/sorting/vehType/header"
+msgstr "Typ"
+
+msgid "cartPopover/title"
+msgstr "Vergleichsliste"
+
+msgid "compareVehicleBtn/tooltips/disabledOnServer/attention"
+msgstr "Dieser Vorgang ist derzeit nicht verfügbar."
+
+msgid "header/closeBtn/label"
+msgstr "SCHLIESSEN"
+
+msgid "menu/cloneForCompare"
+msgstr "Zum Vergleich kopieren"
+
+msgid "modulesView/closeBtnLabel"
+msgstr "Abbrechen"
+
+msgid "modulesView/closeBtnLabel/tooltip/body"
+msgstr "Klicken, um die aktuelle Modulauswahl abzubrechen und zurück zur Fahrzeugkonfiguration zu gehen."
+
+msgid "modulesView/closeBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/compareBtnLabel"
+msgstr "Annehmen"
+
+msgid "modulesView/compareBtnLabel/tooltip/body"
+msgstr "Klicken, um die angepasste Konfiguration für dieses Fahrzeug zu speichern."
+
+msgid "modulesView/compareBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/resetBtnLabel"
+msgstr "Zurücksetzen"
+
+msgid "modulesView/resetBtnLabel/tooltip/body"
+msgstr "Klicken, um die das Fahrzeug auf den Ausgangszustand zurückzusetzen."
+
+msgid "modulesView/resetBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/title"
+msgstr "Modulkonfiguration für %(vehName)s"
+
+msgid "modulesView/vehicleStatus/inHangar"
+msgstr "In der Garage"
+
+msgid "modulesView/vehicleStatus/readyToBuy"
+msgstr "Nicht gekauft"
+
+msgid "modulesView/vehicleStatus/readyToResearch"
+msgstr "Nicht erforscht"
+
+msgid "skillSelect/bonusSkills"
+msgstr "Bonusvorteile"
+
+msgid "skillSelect/button/addToCompare"
+msgstr "Zum Vergleich hinzufügen"
+
+msgid "skillSelect/button/cancel"
+msgstr "Abbrechen"
+
+msgid "skillSelect/button/restore"
+msgstr "Wiederherstellen"
+
+msgid "skillSelect/majorSkills"
+msgstr "Vorteile der Hauptspezialisierung"
+
+msgid "skillSelect/tooltip/additionalRoles"
+msgstr "Zusätzliche Spezialisierung:"
+
+msgid "skillSelect/tooltip/generalPrinciple"
+msgstr "Allgemeines Prinzip"
+
+msgid "skillSelect/tooltip/generalPrincipleDescription"
+msgstr "In der Fahrzeugkonfiguration wird angezeigt, wie ein Vorteil die entsprechenden Werte beeinflusst, wenn er auf {cream_Open}100 %{cream_Close} ausgebildet ist und die Vorteilseffizienz bei {cream_Open}100 %{cream_Close} liegt."
+
+msgid "skillSelect/tooltip/heading"
+msgstr "Besatzungsvorteile für %(vehicleName)s"
+
+msgid "skillSelect/tooltip/roles"
+msgstr "Spezialisierungen"
+
+msgid "skillSelect/tooltipHint"
+msgstr "*Wenn Sie den Mauszeiger über einen Vorteil bewegen, sehen Sie, wie er die entsprechenden Werte beeinflusst, wenn er auf 100 % ausgebildet ist und die Vorteilseffizienz bei 100 % liegt."
+
+msgid "skillsConf/empty"
+msgstr "Besatzungsvorteile auswählen"
+
+msgid "skillsConf/emptyTooltip/body"
+msgstr "Wählen Sie Vorteile aus, um zu sehen, wie sie die Werte des Fahrzeugs beeinflussen."
+
+msgid "skillsConf/emptyTooltip/header"
+msgstr "Besatzungsvorteile"
+
+msgid "skillsConf/header"
+msgstr "Besatzungsvorteile"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "Vergleichen"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "Sie können dieses Fahrzeug nicht vergleichen."
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/disabled/body"
+msgstr "Ein weiteres Fahrzeug können Sie erst vergleichen, wenn Sie einige Fahrzeuge von der Vergleichsliste nehmen."
+
+msgid "store/compareVehicleBtn/tooltips/disabled/header"
+msgstr "Hinzufügen zum Vergleich nicht möglich"
+
+msgid "techTree/tooltips/addToCompare/body"
+msgstr "Vergleichen"
+
+msgid "techTree/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehConf/applyBtnLabel"
+msgstr "Anwenden"
+
+msgid "vehConf/btnCleanUp"
+msgstr "Löschen"
+
+msgid "vehConf/cancelBtnLabel"
+msgstr "Abbrechen"
+
+msgid "vehConf/cancelBtnLabel/tooltip/body"
+msgstr "Klicken, um die gewählte Konfiguration abzubrechen und zum Vergleich zurückzukehren."
+
+msgid "vehConf/cancelBtnLabel/tooltip/header"
+msgstr "Abbrechen"
+
+msgid "vehConf/compareBtnLabel/tooltip/body"
+msgstr "Klicken, um die ausgewählte Konfiguration zu speichern und zum Vergleich zurückzukehren."
+
+msgid "vehConf/compareBtnLabel/tooltip/header"
+msgstr "Anwenden"
+
+msgid "vehConf/confAvailable"
+msgstr "KONFIGURATION\nVERFÜGBAR"
+
+msgid "vehConf/doesntAffect"
+msgstr "Hat keinen Einfluss auf die vereinfachten technischen Daten"
+
+msgid "vehConf/equipment"
+msgstr "Zubehör und Verbrauchsmaterial"
+
+msgid "vehConf/header"
+msgstr "Konfiguration für %(vehName)s"
+
+msgid "vehConf/modifications/choose"
+msgstr "Modifikationen auswählen"
+
+msgid "vehConf/modifications/title"
+msgstr "Modifikationen"
+
+msgid "vehConf/modules"
+msgstr "Module"
+
+msgid "vehConf/resetBtnLabel"
+msgstr "Zurücksetzen"
+
+msgid "vehConf/resetBtnLabel/tooltip/body"
+msgstr "Klicken, um die Standardkonfiguration des Fahrzeugs wiederherzustellen."
+
+msgid "vehConf/resetBtnLabel/tooltip/header"
+msgstr "Zurücksetzen"
+
+msgid "vehConf/tooltips/btnCleanUp/body"
+msgstr "Klicken, um das gewählte Zubehör aus der Konfiguration zu entfernen."
+
+msgid "vehConf/tooltips/btnCleanUp/header"
+msgstr "Löschen"
+
+msgid "vehConf/tooltips/camoInfo"
+msgstr "Steigert die Tarnung Ihres Fahrzeugs auf Karten des jeweiligen Typs, indem Tarnmuster für Sommer, Winter und Wüste angebracht werden."
+
+msgid "vehConf/tooltips/camoInfoDisabled/body"
+msgstr "Diese Allzwecktarnung ist ein fester Bestandteil des Fahrzeugs. Sie kann weder entfernt noch ersetzt werden."
+
+msgid "vehConf/tooltips/camoInfoDisabled/header"
+msgstr "Allzwecktarnung"
+
+msgid "vehConf/tooltips/camoTitle"
+msgstr "Tarnung"
+
+msgid "vehConf/tooltips/defCamoInfo"
+msgstr "3 Tarnungstypen sind angebracht,\ndie nicht entfernbar sind: Winter, Sommer und Wüste."
+
+msgid "vehConf/tooltips/deviceNotAffectedTTC"
+msgstr "Hat keinen Einfluss auf die technischen Daten des Fahrzeugs"
+
+msgid "vehConf/tooltips/modifications/description"
+msgstr "Wählen Sie Modifikationen aus, die es Ihnen erlauben, Ihr Fahrzeug gemäß seiner Rolle zu konfigurieren und seine Werte anzupassen."
+
+msgid "vehConf/tooltips/modifications/remove"
+msgstr "Alle Modifikationen abbrechen"
+
+msgid "vehConf/tooltips/modifications/title"
+msgstr "Modifikationsfeld"
+
+msgid "vehConf/tooltips/revertBtn/body"
+msgstr "Klicken, um die Standardkonfiguration des Fahrzeugs wiederherzustellen."
+
+msgid "vehConf/tooltips/revertBtn/header"
+msgstr "?empty?"
+
+msgid "vehConf/tooltips/topModulesLabel/body"
+msgstr "Für dieses Fahrzeug sind keine anderen Module verfügbar: die Fahrzeugkonfiguration ist endgültig."
+
+msgid "vehConf/tooltips/topModulesLabel/header"
+msgstr "Beste Konfiguration"
+
+msgid "vehConf/tooltips/topModulesOff/body"
+msgstr "Klicken, um die besten Module für das Fahrzeug auszuwählen."
+
+msgid "vehConf/tooltips/topModulesOff/header"
+msgstr "Beste Konfiguration"
+
+msgid "vehConf/tooltips/topModulesOn/body"
+msgstr "Klicken, um die Auswahl der besten Konfiguration abzubrechen."
+
+msgid "vehConf/tooltips/topModulesOn/header"
+msgstr "Beste Konfiguration"
+
+msgid "vehConf/topModulesBtnLabel"
+msgstr "Beste Konfiguration auswählen"
+
+msgid "vehConf/topModulesLabel"
+msgstr "Beste Konfiguration"
+
+msgid "vehPreview/compareInfo/addToCompare"
+msgstr "Vergleichen –"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "Vergleichen"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "Sie können dieses Fahrzeug nicht vergleichen."
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/body"
+msgstr "Ein weiteres Fahrzeug können Sie erst vergleichen, wenn Sie Fahrzeuge von der Vergleichsliste nehmen."
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/header"
+msgstr "Hinzufügen nicht möglich"
+
+msgid "vehicleCompareView/btnAddVehicles"
+msgstr "Vergleichen"
+
+msgid "vehicleCompareView/configurationType/basic"
+msgstr "Standard"
+
+msgid "vehicleCompareView/configurationType/current"
+msgstr "Aktuell"
+
+msgid "vehicleCompareView/configurationType/custom"
+msgstr "Konfiguriert"
+
+msgid "vehicleCompareView/configure"
+msgstr "Konfigurieren"
+
+msgid "vehicleCompareView/toHangar"
+msgstr "In Garage ansehen"
+
+msgid "vehicleCompareView/toPreview"
+msgstr "Vorschau"
+
+msgid "vehicleCompareView/tooltips/addVehicles/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/addVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/configure/body"
+msgstr "Klicken, um die Parameter auszuwählen, welche die technischen Daten beeinflussen."
+
+msgid "vehicleCompareView/tooltips/configure/header"
+msgstr "Parameter konfigurieren"
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/body"
+msgstr "Klicken, um alle Fahrzeuge von der Vergleichsliste zu nehmen."
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/body"
+msgstr "Vom Vergleich entfernen."
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/topPanel/noVehicle"
+msgstr "Kein Fahrzeug gewählt"
+
+msgid "vehicleCompareView/topPanel/premium"
+msgstr "Premium"
+
+msgid "vehicleCompareView/topPanel/vehiclesCount"
+msgstr "Verglichene Fahrzeuge: %(count)s"

@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "ACQUISTA"
+
+msgid "buttons/cancel"
+msgstr "Annulla"
+
+msgid "buttons/learn"
+msgstr "Studia"
+
+msgid "buttons/postProgression/claim"
+msgstr "RECLAMA"
+
+msgid "buttons/postProgression/hint"
+msgstr "VAI ALLA POST-PROGRESSIONE"
+
+msgid "buttons/postProgression/howTo"
+msgstr "COME OTTENERLA"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Tasso di conversione:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "Si applica al membro dell'equipaggio selezionato.\nAccelera l'addestramento del talento attuale utilizzando Exp tecnica."
+
+msgid "card/freeExp/title"
+msgstr "EXP TECNICA"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Efficienza dei talenti: 100%\n• Specializzazione: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Si applica all'intero equipaggio.\nFornisce %(xp) a ogni membro dell'equipaggio"
+
+msgid "card/nationBook/title/brochure"
+msgstr "OPUSCOLO D'ADDESTRAMENTO (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "MANUALE D'ADDESTRAMENTO (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "GUIDA D'ADDESTRAMENTO (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Si può usare senza limitazioni."
+
+msgid "card/personalBook/mainText"
+msgstr "Si applica al membro dell'equipaggio selezionato.\nGli fornisce %(xp)"
+
+msgid "card/personalBook/title"
+msgstr "MANUALE D'ADDESTRAMENTO PERSONALE"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Efficienza dei talenti: 100%\n• Specializzazione: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Si applica all'intero equipaggio.\nFornisce %(xp) a ogni membro dell'equipaggio"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "MANUALE UNIVERSALE"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "OPUSCOLO UNIVERSALE"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "GUIDA UNIVERSALE"
+
+msgid "confirm/crewLabel"
+msgstr "Ogni membro dell'equipaggio riceverà %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Ogni membro dell'equipaggio riceverà %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) riceverà %(xpValue) in più"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) riceverà %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Alcuni membri dell'equipaggio riceveranno %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Opuscolo d'addestramento (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Opuscolo d'addestramento"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "OPUSCOLO D'ADDESTRAMENTO"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} Exp dell'equipaggio a ogni membro dell'equipaggio."
+
+msgid "items/crewBook/Name"
+msgstr "Manuale d'addestramento (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Manuale d'addestramento"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "MANUALE D'ADDESTRAMENTO"
+
+msgid "items/guide/Name"
+msgstr "Guida d'addestramento (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Guida d'addestramento"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "GUIDA D'ADDESTRAMENTO"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} Exp al membro dell'equipaggio selezionato"
+
+msgid "items/personalBook/Name"
+msgstr "Manuale d'addestramento personale"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} Exp dell'equipaggio a ogni membro dell'equipaggio."
+
+msgid "items/universalBook/Name"
+msgstr "Manuale universale"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} esperienza a ogni membro dell'equipaggio."
+
+msgid "items/universalBrochure/Name"
+msgstr "Opuscolo universale"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} esperienza a ogni membro dell'equipaggio."
+
+msgid "items/universalGuide/Name"
+msgstr "Guida universale"
+
+msgid "page/mentoringLicense/hint"
+msgstr "VAI ALLA LICENZA DI TUTORAGGIO"
+
+msgid "page/mentoringLicense/title"
+msgstr "LICENZA DI TUTORAGGIO"
+
+msgid "page/title"
+msgstr "ADDESTRAMENTO VELOCE"
+
+msgid "tooltip/buyManual"
+msgstr "Acquista Manuale d'addestramento"
+
+msgid "tooltip/mouseWheel"
+msgstr "Scorri con {mouseIcon} per aumentare / ridurre il numero di Libretti per equipaggio."
+
+msgid "tooltip/outOfStock"
+msgstr "Nessun Libretto per equipaggio disponibile"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Nessun Libretto per equipaggio disponibile. Acquistali nella Fabbrica."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Si applica al membro dell'equipaggio selezionato. Gli fornisce %(xp)s esperienza."
+
+msgid "tooltip/postProgression"
+msgstr "Vai alla post-progressione"
+
+msgid "tooltip/sale/header"
+msgstr "Tasso di conversione conveniente"
+
+msgid "tooltip/sale/newRate"
+msgstr "Nuovo tasso di conversione: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Precedente tasso di conversione: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Clicca su %(controlsImg) per aumentare / ridurre il livello di addestramento del talento dell'1%."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Premi %(pgupImg) / %(pgdownImg) per aumentare il livello di addestramento del talento al&nbsp;100% / torna&nbsp;al talento precedente."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Si applica all'intero equipaggio. Fornisce %(xp)s esperienza a ogni membro dell'equipaggio."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Si applica all'intero equipaggio. Fornisce %(xp)s esperienza a ogni membro dell'equipaggio."

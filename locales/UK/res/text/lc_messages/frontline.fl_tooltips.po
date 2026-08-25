@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Комендантська година {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}}–{{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Подія незабаром розпочнеться"
+
+msgid "bannerTooltip/description"
+msgstr "Масштабні битви 30×30 на техніці {{vehicleTier}} рівня на мапах «Нормандія», «Крафтверк» і «Фата-моргана». Мета атакувальників — знищити 3 з 5 великокаліберних гармат, мета захисників — захистити ці об’єкти."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Показуйте себе в напружених битвах, здобувайте славу й цінні нагороди та зростайте у званнях."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Подія завершилася, а у вас залишилися неотримані нагороди за пройдені рівні Лінії фронту."
+
+msgid "bannerTooltip/header"
+msgstr "Лінія фронту"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Лінія фронту | Рівень {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} — ігровий режим. Натисніть для подробиць"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Режим вимогливий до комп'ютера. Мапа може завантажуватися довго, можливі проблеми з графікою та переміщенням техніки в бою. В разі недостатньої продуктивності спробуйте знизити налаштування графіки."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Можливе зниження продуктивності"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Виберіть нагороди за пройдені рівні ({{value}})"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Замало коштів для купівлі."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Зміни буде застосовано до всіх ПТ-САУ."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Зміни буде застосовано до всіх САУ."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Зміни буде застосовано до всіх важких танків."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Зміни буде застосовано до всіх легких танків."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Зміни буде застосовано до всіх середніх танків."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Непридатна машина"
+
+msgid "battleAbilities/points/body"
+msgstr "Зібравши потрібну кількість очок, матимете змогу активувати бойові резерви для «Лінії фронту»."
+
+msgid "battleAbilities/points/header"
+msgstr "Очки бойових резервів"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Дивитись ударні резерви"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Ударні резерви"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Дивитися розвідувальні резерви"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Розвідувальні резерви"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Дивитися тактичні резерви"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Тактичні резерви"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Рівень резерву підвищується після отримання в бою звань «капітан» і «майор». Максимальний рівень визначається сценарієм бою."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Додаткова інформація"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Ударні"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Розвідувальні"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Тактичні"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Постійні характеристики:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Бойовий резерв, розміщений у цьому слоті, збільшує шанс його появи в сценарії {{@ colorLegacy 'FFE4C0'}}«Воля випадку»{{/}} на {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Рівень резерву:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Не придбано!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Подію завершено."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Подія незабаром розпочнеться!"
+
+msgid "infoButton/body"
+msgstr "Натисніть, щоб дізнатися подробиці."
+
+msgid "infoButton/header"
+msgstr "Про подію"
+
+msgid "levelReserves/desc"
+msgstr "Підвищення рівнів бойових резервів відбувається після здобуття нового звання:"
+
+msgid "levelReserves/info"
+msgstr "Купівля бойового резерву в сценарії {{@ colorLegacy 'FFE4C0'}}«Воля випадку»{{/}} підвищить його рівень на 1 і відкриє можливість його посилення до {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}} рівня."
+
+msgid "levelReserves/level"
+msgstr "Зростає за досягнення такого звання: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Доступно з таким званням: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Рівень — {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "Для {{@ colorLegacy 'FFE4C0'}}придбаних бойових резервів{{/}} у сценарії {{@ colorLegacy 'FFE4C0'}}«Воля випадку»{{/}}."
+
+msgid "levelReserves/title"
+msgstr "Рівні резервів"
+
+msgid "playlist/warning/body"
+msgstr "Цей список містить машини, які не підходять для режиму або відсутні в Гаражі."
+
+msgid "playlist/warning/header"
+msgstr "Техніка недоступна (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Характеристики резерву посилено"
+
+msgid "randomReserve/disable"
+msgstr "Слот бойового резерву використано."
+
+msgid "randomReserve/notPurchased"
+msgstr "Бойовий резерв не куплено"
+
+msgid "randomReserve/purchased"
+msgstr "Бойовий резерв куплено"
+
+msgid "skillOrderTooltip/body"
+msgstr "У кожного типу техніки свій порядок відкриття резервів:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Порядок відкриття бойових резервів"
+
+msgid "skillOrderTooltip/info"
+msgstr "Порядок відкриття бойових резервів у сценарії {{@ colorLegacy 'whiteSpanish'}}«Воля випадку»{{/}} не залежить від типу техніки."

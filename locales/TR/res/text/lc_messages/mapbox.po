@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "Tamam!"
+
+msgid "awardsView/subTitle"
+msgstr "YAPILAN SAVAŞLAR: {number}"
+
+msgid "awardsView/title"
+msgstr "KEŞİF GÖREVİ"
+
+msgid "buttonDisable/tooltip"
+msgstr "Geçersiz"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Program"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "Savaşa Girilemiyor"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "Savaşlar sona erdi"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "Savaşa Girilemiyor"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "Bu sunucuda Ateşkes devrededir. Lütfen başka bir sunucu seçin."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "Savaşa sadece %(levelSubStr)s ile girebilirsiniz."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "Uygun Olmayan Araç Seviyesi"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "Seviye %(levels)s araçlar"
+
+msgid "intro/button"
+msgstr "Tamam!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "Geri bildirimleriniz savaş alanlarını iyileştirmemize yardımcı oluyor. Yeni harita mekanizmaları hakkındaki düşüncelerinizi belirtin. En iyi fikirleri oyuna ekleyeceğiz."
+
+msgid "intro/interviewInfoTitle"
+msgstr "Çok Önemli Geri Bildirim"
+
+msgid "intro/modeInfoDescription"
+msgstr "Yeni mekanizmalar içeren haritalarda Seviye VIII-X araçlarla savaşın, anketleri doldurun ve ödüller alın. Bir hafta içinde gelişim sıfırlanacak ve ödül kazanmaya tekrar başlayabileceksiniz."
+
+msgid "intro/modeInfoTitle"
+msgstr "Yeni Mekanizmalar Geliştirmemize Yardım Edin!"
+
+msgid "intro/startEvent"
+msgstr "Etkinliğin başlangıcı: "
+
+msgid "intro/taskInfoDescription"
+msgstr "Keşif Görevinde savaşırken günlük ve Savaş Kartı görevlerini tamamlayabilir ve kademeli çıkartmaların koşullarını gerçekleştirebilirsiniz."
+
+msgid "intro/taskInfoTitle"
+msgstr "Rastgele Savaş Kuralları Çerçevesinde Savaşın"
+
+msgid "intro/time/period/day"
+msgstr "{day} gün"
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} gün {hours} sa."
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} sa. {min} dk."
+
+msgid "intro/time/period/minute"
+msgstr "{min} dk."
+
+msgid "intro/title"
+msgstr "KEŞİF GÖREVİ"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s Keşif Görevinde savaşamaz."
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "Uygun Olmayan Araç Türü"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "Keşif Görevine katılmak için bir %(levelSubStr)s seçin."
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "Uygun Olmayan Araç Seviyesi"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Seviye %(levels)s araç"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s Keşif Görevinde savaşamaz."
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "Uygun Olmayan Araç"
+
+msgid "mapboxTab"
+msgstr "Keşif Görevi"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "%(server)s sunucusundaki Aşama sona erdi"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "%(server)s sunucusu\nSavaşlar %(time)s kadar daha açık olacak"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "%(server)s sunucusu\nSavaşlar %(time)s içinde açılacak"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Tüm sunucularda ateşkes var"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Bu kip %(server)s sunucusunda geçerli değil"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "%(server)s sunucusundaki savaşlar %(time)s daha açık olacak"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Savaşlar %(server)s sunucusunda %(time)s içinde başlayacak"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "Bu kipte savaşlar kapalı: Sezon sona erdi."
+
+msgid "primeTimeView/status/untill"
+msgstr "%(server)s sunucusunda %(startTime)s zamanına kadar ateşkes var"
+
+msgid "primeTimeView/title"
+msgstr "KEŞİF GÖREVİ"
+
+msgid "primeTimes/availableServer"
+msgstr "Geçerli sunucu:"
+
+msgid "primeTimes/availableServers"
+msgstr "Geçerli sunucular:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "Savaşlar sona erdi"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Bu kip %(serverName)s sunucusunda geçerli değil"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "Savaş yapın"
+
+msgid "progression/cardTitle/rating"
+msgstr "Kazanılan DP açısından ilk {rating} oyuncu arasına girin"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "Yangınlı haritalarda kazanılan DP açısından ilk {rating} oyuncu arasına girin"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "Sisli haritalarda kazanılan DP açısından ilk {rating} oyuncu arasına girin"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "Şiddetli yağışlı haritalarda kazanılan DP açısından ilk {rating} oyuncu arasına girin"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "Kum fırtınalı haritalarda kazanılan DP açısından ilk {rating} oyuncu arasına girin"
+
+msgid "progression/changeAnswer"
+msgstr "Cevabı Değiştirin"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Yeni mekanizmalar içeren haritalarda Seviye VIII-X araçlarla savaşın, anketleri doldurun ve ödüller alın."
+
+msgid "progression/info/restart"
+msgstr "Ödüllü gelişim %(leftTime)s içinde sıfırlanacak"
+
+msgid "progression/info/title"
+msgstr "Kazanılan DP açısından ilk %(rating) oyuncu arasına girin: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "ETKİNLİK HAKKINDA"
+
+msgid "progression/map_01_karelia"
+msgstr "KARELIA"
+
+msgid "progression/map_02_malinovka"
+msgstr "MALINOVKA"
+
+msgid "progression/map_05_prohorovka"
+msgstr "PROKHOROVKA"
+
+msgid "progression/map_18_cliff"
+msgstr "WESTFIELD"
+
+msgid "progression/map_all"
+msgstr "OYUN\nMEKANİZMALARI"
+
+msgid "progression/map_fire"
+msgstr "YANGIN"
+
+msgid "progression/map_fog"
+msgstr "SİS"
+
+msgid "progression/map_heavy_rain"
+msgstr "ŞİDDETLİ YAĞIŞ"
+
+msgid "progression/map_sandstorm"
+msgstr "KUM FIRTINASI"
+
+msgid "progression/redirect"
+msgstr "Kipe Git"
+
+msgid "progression/startInterview"
+msgstr "Anketi Doldurun"
+
+msgid "progression/startInterviewTooltip"
+msgstr "Anketi doldurmak için yukarıdaki koşulu tamamlayın."
+
+msgid "progression/startSpecialInterview"
+msgstr "Anketi Doldurun"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "Anketi doldurmak için yukarıdaki koşulu tamamlayın."
+
+msgid "progression/subtitle"
+msgstr "Burada yeni mekanizmalar hakkında bir ankete katılabilirsiniz"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s gün"
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s sa. %(min)s dk."
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 dk."
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s dk."
+
+msgid "progression/title"
+msgstr "KEŞİF GÖREVİ"
+
+msgid "progressionError/description/line1"
+msgstr "Gelişiminiz kaydedildi. Oynamaya devam edebilirsiniz."
+
+msgid "progressionError/description/line2"
+msgstr "Yakında gelişiminizi görüp anketi doldurabilirsiniz."
+
+msgid "progressionError/title"
+msgstr "Keşif Görevi detayları geçici olarak devre dışı"
+
+msgid "questFlag/complete"
+msgstr "Tüm ödüller alındı"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "%(highlightedText)s ile savaşın, anketleri doldurun ve ödüller alın."
+
+msgid "questFlag/frozen/header"
+msgstr "Keşif Görevi Devre Dışı"
+
+msgid "questFlag/frozen/text"
+msgstr "Keşif Görevi savaşları teknik nedenlerden ötürü devre dışı."
+
+msgid "questFlag/highlightedText"
+msgstr "Yeni mekanizmalar içeren haritalarda Seviye VIII-X araçlarla"
+
+msgid "questFlag/incomplete"
+msgstr "Bir sonraki ödülü almak için yapılacak savaşlar: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "Yapılan savaşlar:"
+
+msgid "questFlag/surveysTitle"
+msgstr "Doldurulan anketler: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "Yeni mekanizmaları olan haritaların keşfi %(day)s itibarıyla başlayacak"
+
+msgid "selector/tooltip/body"
+msgstr "Yeni mekanizmaları olan haritaların keşfi %(day)s tarihine kadar sürecek"
+
+msgid "selector/tooltip/title"
+msgstr "Program"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Sezonun bitişi:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Savaş Programı"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Bugün"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Yarın"
+
+msgid "serverAlertMessage/button"
+msgstr "Başka Bir Sunucu Seç"
+
+msgid "survey/backBtn"
+msgstr "Geri dön"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "Tank Avcıları"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "KMT'ler"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "Ağır Tanklar"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "Hafif Tanklar"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "Orta Tanklar"
+
+msgid "survey/fire/question/q1"
+msgstr "Yangın mekanizmalı Murovanka haritasında oynamaktan keyif aldınız mı?"
+
+msgid "survey/fire/question/q2"
+msgstr "Murovanka haritasındaki yangın görsel tasarımı hakkında ne düşünüyorsunuz?"
+
+msgid "survey/fire/question/q3"
+msgstr "Yangının Murovanka haritasındaki oynayışın üzerindeki etkisini değiştirmek ister miydiniz?"
+
+msgid "survey/fire/question/q4"
+msgstr "Yangının Murovanka haritasındaki oynayışın üzerindeki etkisini tam olarak nasıl değiştirmek istersiniz?"
+
+msgid "survey/fire/question/q5"
+msgstr "Murovanka haritasında hangi araç türleriyle oynadınız?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "Murovanka haritasında {value} ile oynayış nasıl değişti?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "Murovanka haritasında {value} ile oynayış nasıl değişti?"
+
+msgid "survey/fire/question/q7"
+msgstr "Rastgele Savaşlar'daki haritalarda yangın görmek ister misiniz?"
+
+msgid "survey/fire/question/q8"
+msgstr "Murovanka haritasındaki yangın mekanizmasında neleri beğenmediniz?"
+
+msgid "survey/fire/question/q9"
+msgstr "Gereken iyileştirmeleri belirtin."
+
+msgid "survey/fire/response/q1_1"
+msgstr "Evet, keyifliydi"
+
+msgid "survey/fire/response/q1_2"
+msgstr "Hayır, beğenmedim"
+
+msgid "survey/fire/response/q1_3"
+msgstr "Emin değilim"
+
+msgid "survey/fire/response/q2_1"
+msgstr "Beğendim"
+
+msgid "survey/fire/response/q2_2"
+msgstr "İdare eder"
+
+msgid "survey/fire/response/q2_3"
+msgstr "Beğenmedim"
+
+msgid "survey/fire/response/q2_4"
+msgstr "Emin değilim"
+
+msgid "survey/fire/response/q3_1"
+msgstr "Evet, isterim"
+
+msgid "survey/fire/response/q3_2"
+msgstr "Hayır, istemem"
+
+msgid "survey/fire/response/q3_3"
+msgstr "Emin değilim"
+
+msgid "survey/fire/response/q4_1"
+msgstr "Daha kuvvetli yapardım"
+
+msgid "survey/fire/response/q4_2"
+msgstr "Daha zayıflatırdım"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "Tank Avcıları"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "KMT'ler"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "Ağır Tanklar"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "Hafif Tanklar"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "Orta Tanklar"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "Hatırlamıyorum"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "Daha iyi oldu"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "Daha kötü oldu"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "Değişmedi"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "Emin değilim"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "Daha iyi oldu"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "Daha kötü oldu"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "Değişmedi"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "Emin değilim"
+
+msgid "survey/fire/response/q7_1"
+msgstr "Evet, isterim"
+
+msgid "survey/fire/response/q7_2"
+msgstr "Hayır, istemem"
+
+msgid "survey/fire/response/q7_3"
+msgstr "Emin değilim"
+
+msgid "survey/fire/response/q8_1"
+msgstr "Yangın, kullanılabilecek konum sayısını ciddi şekilde azalttı"
+
+msgid "survey/fire/response/q8_10"
+msgstr "Ekiplerden biri avantaj elde ediyor"
+
+msgid "survey/fire/response/q8_11"
+msgstr "Teknik sorunlar"
+
+msgid "survey/fire/response/q8_12"
+msgstr "Diğer"
+
+msgid "survey/fire/response/q8_2"
+msgstr "Yangın çok fazla hasar veriyor"
+
+msgid "survey/fire/response/q8_3"
+msgstr "Alanın dışındaki düşmanlar aracımı göremiyor ama ben de onları göremiyorum"
+
+msgid "survey/fire/response/q8_4"
+msgstr "Haritada yangının konumu"
+
+msgid "survey/fire/response/q8_5"
+msgstr "Yangının görünüşü"
+
+msgid "survey/fire/response/q8_6"
+msgstr "Haritanın oynayışında çok fazla etkisi var"
+
+msgid "survey/fire/response/q8_7"
+msgstr "Haritanın oynayışında çok az etkisi var"
+
+msgid "survey/fire/response/q8_8"
+msgstr "Yangın görselleri çatışmayı bozuyor"
+
+msgid "survey/fire/response/q8_9"
+msgstr "Yangın yakın mesafe çatışmasına zorluyor"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "Karakol"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "Fiyortlar"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "Karakol"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "Fiyortlar"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "Karakol"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "Fiyortlar"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "Tank Avcıları"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "KMT'ler"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "Ağır Tanklar"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "Hafif Tanklar"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "Orta Tanklar"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "Tank Avcıları"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "KMT'ler"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "Ağır Tanklar"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "Hafif Tanklar"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "Orta Tanklar"
+
+msgid "survey/fog/question/q1"
+msgstr "Sis mekanizmalı şu haritalarda oynamaktan keyif aldınız mı?"
+
+msgid "survey/fog/question/q10"
+msgstr "Rastgele Savaşlar'daki haritalarda sis görmek ister misiniz?"
+
+msgid "survey/fog/question/q11"
+msgstr "Fiyortlar haritasındaki sis mekanizmasında neleri beğenmediniz?"
+
+msgid "survey/fog/question/q12"
+msgstr "Karakol haritasındaki sis mekanizmasında neleri beğenmediniz?"
+
+msgid "survey/fog/question/q13"
+msgstr "Gereken iyileştirmeleri belirtin."
+
+msgid "survey/fog/question/q2"
+msgstr "Şu haritalardaki sis görsel tasarımı hakkında ne düşünüyorsunuz?"
+
+msgid "survey/fog/question/q3"
+msgstr "Sisin haritadaki oynayışın üzerindeki etkisini değiştirmek ister miydiniz?"
+
+msgid "survey/fog/question/q4"
+msgstr "Sisin Fiyortlar haritasındaki oynayışın üzerindeki etkisini tam olarak nasıl değiştirmek istersiniz?"
+
+msgid "survey/fog/question/q5"
+msgstr "Sisin Karakol haritasındaki oynayışın üzerindeki etkisini tam olarak nasıl değiştirmek istersiniz?"
+
+msgid "survey/fog/question/q6"
+msgstr "Fiyortlar haritasında hangi araç türleriyle oynadınız?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "Fiyortlar haritasında {value} ile oynayış nasıl değişti?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "Fiyortlar haritasında {value} ile oynayış nasıl değişti?"
+
+msgid "survey/fog/question/q8"
+msgstr "Karakol haritasında hangi araç türleriyle oynadınız?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "Karakol haritasında {value} ile oynayış nasıl değişti?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "Karakol haritasında {value} ile oynayış nasıl değişti?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "Evet, isterim"
+
+msgid "survey/fog/response/q10_2"
+msgstr "Hayır, istemem"
+
+msgid "survey/fog/response/q10_3"
+msgstr "Emin değilim"
+
+msgid "survey/fog/response/q11_1"
+msgstr "Alanın dışındaki düşmanlar aracımı göremiyor ama ben de onları göremiyorum"
+
+msgid "survey/fog/response/q11_10"
+msgstr "Diğer"
+
+msgid "survey/fog/response/q11_2"
+msgstr "Haritada sisin konumu"
+
+msgid "survey/fog/response/q11_3"
+msgstr "Sisin görünüşü"
+
+msgid "survey/fog/response/q11_4"
+msgstr "Haritanın oynayışında çok fazla etkisi var"
+
+msgid "survey/fog/response/q11_5"
+msgstr "Haritanın oynayışında çok az etkisi var"
+
+msgid "survey/fog/response/q11_6"
+msgstr "Sis görselleri çatışmayı bozuyor"
+
+msgid "survey/fog/response/q11_7"
+msgstr "Sis yakın mesafe çatışmasına zorluyor"
+
+msgid "survey/fog/response/q11_8"
+msgstr "Ekiplerden biri avantaj elde ediyor"
+
+msgid "survey/fog/response/q11_9"
+msgstr "Teknik sorunlar"
+
+msgid "survey/fog/response/q12_1"
+msgstr "Alanın dışındaki düşmanlar aracımı göremiyor ama ben de onları göremiyorum"
+
+msgid "survey/fog/response/q12_10"
+msgstr "Diğer"
+
+msgid "survey/fog/response/q12_2"
+msgstr "Haritada sisin konumu"
+
+msgid "survey/fog/response/q12_3"
+msgstr "Sisin görünüşü"
+
+msgid "survey/fog/response/q12_4"
+msgstr "Haritanın oynayışında çok fazla etkisi var"
+
+msgid "survey/fog/response/q12_5"
+msgstr "Haritanın oynayışında çok az etkisi var"
+
+msgid "survey/fog/response/q12_6"
+msgstr "Sis görselleri çatışmayı bozuyor"
+
+msgid "survey/fog/response/q12_7"
+msgstr "Sis yakın mesafe çatışmasına zorluyor"
+
+msgid "survey/fog/response/q12_8"
+msgstr "Ekiplerden biri avantaj elde ediyor"
+
+msgid "survey/fog/response/q12_9"
+msgstr "Teknik sorunlar"
+
+msgid "survey/fog/response/q1_1"
+msgstr "Evet, keyifliydi"
+
+msgid "survey/fog/response/q1_2"
+msgstr "Hayır, beğenmedim"
+
+msgid "survey/fog/response/q1_3"
+msgstr "Emin değilim"
+
+msgid "survey/fog/response/q2_1"
+msgstr "Beğendim"
+
+msgid "survey/fog/response/q2_2"
+msgstr "İdare eder"
+
+msgid "survey/fog/response/q2_3"
+msgstr "Beğenmedim"
+
+msgid "survey/fog/response/q2_4"
+msgstr "Emin değilim"
+
+msgid "survey/fog/response/q3_1"
+msgstr "Evet, isterim"
+
+msgid "survey/fog/response/q3_2"
+msgstr "Hayır, istemem"
+
+msgid "survey/fog/response/q3_3"
+msgstr "Emin değilim"
+
+msgid "survey/fog/response/q4_1"
+msgstr "Daha kuvvetli yapardım"
+
+msgid "survey/fog/response/q4_2"
+msgstr "Daha zayıflatırdım"
+
+msgid "survey/fog/response/q5_1"
+msgstr "Daha kuvvetli yapardım"
+
+msgid "survey/fog/response/q5_2"
+msgstr "Daha zayıflatırdım"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "Tank Avcıları"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "KMT'ler"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "Ağır Tanklar"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "Hafif Tanklar"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "Orta Tanklar"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "Hatırlamıyorum"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "Daha iyi oldu"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "Daha kötü oldu"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "Değişmedi"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "Emin değilim"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "Daha iyi oldu"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "Daha kötü oldu"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "Değişmedi"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "Emin değilim"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "Tank Avcıları"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "KMT'ler"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "Ağır Tanklar"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "Hafif Tanklar"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "Orta Tanklar"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "Hatırlamıyorum"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "Daha iyi oldu"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "Daha kötü oldu"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "Değişmedi"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "Emin değilim"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "Daha iyi oldu"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "Daha kötü oldu"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "Değişmedi"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "Emin değilim"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "Balıkçı Koyu"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "Balıkçı Koyu"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "Balıkçı Koyu"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "Tank Avcıları"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "KMT'ler"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "Ağır Tanklar"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "Hafif Tanklar"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "Orta Tanklar"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "Tank Avcıları"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "KMT'ler"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "Ağır Tanklar"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "Hafif Tanklar"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "Orta Tanklar"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "Şiddetli yağış mekanizmalı şu haritalarda oynamaktan keyif aldınız mı?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "Rastgele Savaşlar'daki haritalarda şiddetli yağış görmek ister misiniz?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "Westfield haritasındaki şiddetli yağış mekanizmasında neleri beğenmediniz?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "Balıkçı Koyu haritasındaki şiddetli yağış mekanizmasında neleri beğenmediniz?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "Gereken iyileştirmeleri belirtin."
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "Şu haritalardaki şiddetli yağış görsel tasarımı hakkında ne düşünüyorsunuz?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "Şiddetli yağışın haritadaki oynayışın üzerindeki etkisini değiştirmek ister miydiniz?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "Şiddetli yağışın Westfield haritasındaki oynayışın üzerindeki etkisini tam olarak nasıl değiştirmek istersiniz?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "Şiddetli yağışın Balıkçı Koyu haritasındaki oynayışın üzerindeki etkisini tam olarak nasıl değiştirmek istersiniz?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "Westfield haritasında hangi araç türleriyle oynadınız?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "Westfield haritasında {value} ile oynayış nasıl değişti?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "Westfield haritasında {value} ile oynayış nasıl değişti?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "Balıkçı Koyu haritasında hangi araç türleriyle oynadınız?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "Balıkçı Koyu haritasında {value} ile oynayış nasıl değişti?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "Balıkçı Koyu haritasında {value} ile oynayış nasıl değişti?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "Evet, isterim"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "Hayır, istemem"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "Emin değilim"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "Şiddetli yağış alanında zemin çok kaygan"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "Teknik sorunlar"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "Diğer"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "Alanın dışındaki düşmanlar aracımı göremiyor ama ben de onları göremiyorum"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "Haritada şiddetli yağışın konumu"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "Şiddetli yağışın görünüşü"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "Haritanın oynayışında çok fazla etkisi var"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "Haritanın oynayışında çok az etkisi var"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "Şiddetli yağış görselleri çatışmayı bozuyor"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "Şiddetli yağış yakın mesafe çatışmasına zorluyor"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "Ekiplerden biri avantaj elde ediyor"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "Şiddetli yağış alanında zemin çok kaygan"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "Teknik sorunlar"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "Diğer"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "Alanın dışındaki düşmanlar aracımı göremiyor ama ben de onları göremiyorum"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "Haritada şiddetli yağışın konumu"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "Şiddetli yağışın görünüşü"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "Haritanın oynayışında çok fazla etkisi var"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "Haritanın oynayışında çok az etkisi var"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "Şiddetli yağış görselleri çatışmayı bozuyor"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "Şiddetli yağış yakın mesafe çatışmasına zorluyor"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "Ekiplerden biri avantaj elde ediyor"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "Evet, keyifliydi"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "Hayır, beğenmedim"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "Emin değilim"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "Beğendim"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "İdare eder"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "Beğenmedim"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "Emin değilim"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "Evet, isterim"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "Hayır, istemem"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "Emin değilim"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "Daha kuvvetli yapardım"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "Daha zayıflatırdım"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "Daha kuvvetli yapardım"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "Daha zayıflatırdım"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "Tank Avcıları"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "KMT'ler"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "Ağır Tanklar"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "Hafif Tanklar"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "Orta Tanklar"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "Hatırlamıyorum"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "Daha iyi oldu"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "Daha kötü oldu"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "Değişmedi"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "Emin değilim"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "Daha iyi oldu"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "Daha kötü oldu"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "Değişmedi"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "Emin değilim"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "Tank Avcıları"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "KMT'ler"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "Ağır Tanklar"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "Hafif Tanklar"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "Orta Tanklar"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "Hatırlamıyorum"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "Daha iyi oldu"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "Daha kötü oldu"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "Değişmedi"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "Emin değilim"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "Daha iyi oldu"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "Daha kötü oldu"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "Değişmedi"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "Emin değilim"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "Sonraki"
+
+msgid "survey/percentage"
+msgstr "%%(percent)s"
+
+msgid "survey/readyBtn"
+msgstr "Olumlu!"
+
+msgid "survey/required"
+msgstr "Devam etmek için soruya cevap verin."
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "Tank Avcıları"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "KMT'ler"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "Ağır Tanklar"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "Hafif Tanklar"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "Orta Tanklar"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "Kum fırtınası mekanizmalı Kum Nehri haritasında oynamaktan keyif aldınız mı?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "Kum Nehri haritasındaki kum fırtınası görsel tasarımı hakkında ne düşünüyorsunuz?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "Kum fırtınasının Kum Nehri haritasındaki oynayışın üzerindeki etkisini değiştirmek ister miydiniz?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "Kum fırtınasının Kum Nehri haritasındaki oynayışın üzerindeki etkisini tam olarak nasıl değiştirmek istersiniz?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "Kum Nehri haritasında hangi araç türleriyle oynadınız?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "Kum Nehri haritasında {value} ile oynayış nasıl değişti?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "Kum Nehri haritasında {value} ile oynayış nasıl değişti?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "Rastgele Savaşlar'daki haritalarda kum fırtınası görmek ister misiniz?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "Kum Nehri haritasındaki kum fırtınası mekanizmasında neleri beğenmediniz?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "Gereken iyileştirmeleri belirtin."
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "Evet, keyifliydi"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "Hayır, beğenmedim"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "Emin değilim"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "Beğendim"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "İdare eder"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "Beğenmedim"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "Emin değilim"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "Evet, isterim"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "Hayır, istemem"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "Emin değilim"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "Daha kuvvetli yapardım"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "Daha zayıflatırdım"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "Tank Avcıları"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "KMT'ler"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "Ağır Tanklar"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "Hafif Tanklar"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "Orta Tanklar"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "Hatırlamıyorum"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "Daha iyi oldu"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "Daha kötü oldu"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "Değişmedi"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "Emin değilim"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "Daha iyi oldu"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "Daha kötü oldu"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "Değişmedi"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "Emin değilim"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "Evet, isterim"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "Hayır, istemem"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "Emin değilim"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "Alanın dışındaki düşmanlar aracımı göremiyor ama ben de onları göremiyorum"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "Diğer"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "Haritada kum fırtınasının konumu"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "Kum fırtınasının görünüşü"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "Haritanın oynayışında çok fazla etkisi var"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "Haritanın oynayışında çok az etkisi var"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "Kum fırtınası görselleri çatışmayı bozuyor"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "Kum fırtınası yakın mesafe çatışmasına zorluyor"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "Ekiplerden biri avantaj elde ediyor"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "Teknik sorunlar"
+
+msgid "survey/subTitle"
+msgstr "Bu ankete katıldığınız için teşekkür ederiz! Yaklaşık iki dakika sürecek. Cevaplarınız sadece bu anketin değerlendirilmesinde kullanılacak ve tüm kişisel bilgileriniz Gizlilik Politikamız çerçevesinde silinecek."
+
+msgid "survey/template/final/title"
+msgstr "Bu ankete katıldığınız için teşekkür ederiz!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "BİR KONUM SEÇMEK İÇİN HARİTAYA TIKLAYIN"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "HARİTADA ÜÇ ADEDE KADAR KONUM SEÇEBİLİRSİNİZ"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "Detaylı açıklama (%(maxLength)s karaktere kadar)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "Konum"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "Konumu kaldır"
+
+msgid "survey/template/opened/description"
+msgstr "Sorunun detaylı açıklaması (%(maxLength)s karaktere kadar)"
+
+msgid "survey/title/common"
+msgstr "Lütfen yeni özellikleri değerlendirin"
+
+msgid "survey/title/map"
+msgstr "%(map)s Haritasının Değerlendirmesi"

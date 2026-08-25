@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "KUP"
+
+msgid "buttons/cancel"
+msgstr "Anuluj"
+
+msgid "buttons/learn"
+msgstr "Czytaj"
+
+msgid "buttons/postProgression/claim"
+msgstr "ODBIERZ"
+
+msgid "buttons/postProgression/hint"
+msgstr "DO POST-POSTĘPÓW"
+
+msgid "buttons/postProgression/howTo"
+msgstr "JAK ZDOBYĆ"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Kurs wymiany:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "Dotyczy wybranego członka załogi.\nPrzyspiesza szkolenie bieżącego atutu za wolne PD."
+
+msgid "card/freeExp/title"
+msgstr "WOLNE DOŚWIADCZENIE"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Skuteczność atutów: 100%\n• Specjalizacja: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Dotyczy całej załogi.\nZapewnia każdemu członkowi załogi %(xp)"
+
+msgid "card/nationBook/title/brochure"
+msgstr "KSIĄŻECZKA SZKOLENIOWA (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "PODRĘCZNIK SZKOLENIOWY (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "PRZEWODNIK SZKOLENIOWY (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Stosuje się go bez obostrzeń."
+
+msgid "card/personalBook/mainText"
+msgstr "Dotyczy wybranego członka załogi.\nZapewnia temu członkowi załogi %(xp)"
+
+msgid "card/personalBook/title"
+msgstr "OSOBISTY PODRĘCZNIK SZKOLENIOWY"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Skuteczność atutów: 100%\n• Specjalizacja: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Dotyczy całej załogi.\nZapewnia każdemu członkowi załogi %(xp)"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "PODRĘCZNIK UNIWERSALNY"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "KSIĄŻECZKA UNIWERSALNA"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "PRZEWODNIK UNIWERSALNY"
+
+msgid "confirm/crewLabel"
+msgstr "Każdy członek załogi otrzyma %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Każdy członek załogi otrzyma %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) otrzyma dodatkowo %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) otrzyma %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Niektórzy członkowie załogi otrzymają %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Książeczka szkoleniowa (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Książeczka szkoleniowa"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "KSIĄŻECZKA SZKOLENIOWA"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} PD załogi dla każdego członka załogi."
+
+msgid "items/crewBook/Name"
+msgstr "Podręcznik szkoleniowy (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Podręcznik szkoleniowy"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "PODRĘCZNIK SZKOLENIOWY"
+
+msgid "items/guide/Name"
+msgstr "Przewodnik szkoleniowy (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Przewodnik szkoleniowy"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "PRZEWODNIK SZKOLENIOWY"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} doświadczenia dla wybranego członka załogi"
+
+msgid "items/personalBook/Name"
+msgstr "Osobisty podręcznik szkoleniowy"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} PD załogi dla każdego członka załogi."
+
+msgid "items/universalBook/Name"
+msgstr "Podręcznik uniwersalny"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} doświadczenia dla każdego członka załogi."
+
+msgid "items/universalBrochure/Name"
+msgstr "Książeczka uniwersalna"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} doświadczenia dla każdego członka załogi."
+
+msgid "items/universalGuide/Name"
+msgstr "Przewodnik uniwersalny"
+
+msgid "page/mentoringLicense/hint"
+msgstr "PRZEJDŹ DO LICENCJI MENTORA"
+
+msgid "page/mentoringLicense/title"
+msgstr "LICENCJA MENTORA"
+
+msgid "page/title"
+msgstr "SZYBKI TRENING"
+
+msgid "tooltip/buyManual"
+msgstr "Kup podręcznik szkoleniowy"
+
+msgid "tooltip/mouseWheel"
+msgstr "Przewiń {mouseIcon}, aby zwiększyć / zmniejszyć liczbę podręczników dla załogi."
+
+msgid "tooltip/outOfStock"
+msgstr "Brak podręczników dla załogi"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Brak podręczników dla załogi. Kup je w Sklepie."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Dotyczy wybranego członka załogi. Zapewnia temu członkowi załogi %(xp)s doświadczenia."
+
+msgid "tooltip/postProgression"
+msgstr "Do post-postępów"
+
+msgid "tooltip/sale/header"
+msgstr "Korzystny kurs wymiany"
+
+msgid "tooltip/sale/newRate"
+msgstr "Nowy kurs wymiany: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Poprzedni kurs wymiany: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Kliknij %(controlsImg), aby zwiększyć/zmniejszyć poziom wyszkolenia atutu o 1%."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Naciśnij %(pgupImg) / %(pgdownImg), aby zwiększyć poziom wyszkolenia atutu do&nbsp;100% / wrócić&nbsp;do poprzedniego atutu."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Dotyczy całej załogi. Zapewnia każdemu członkowi załogi %(xp)s doświadczenia."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Dotyczy całej załogi. Zapewnia każdemu członkowi załogi %(xp)s doświadczenia."

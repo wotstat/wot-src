@@ -1,0 +1,1124 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "comparison/fullUpgrades/title"
+msgstr "Cercetat complet"
+
+msgid "comparison/partialUpgrades/title"
+msgstr "Curent"
+
+msgid "comparison/title"
+msgstr "Îmbunătățiri"
+
+msgid "comparison/tooltip/body"
+msgstr "Ecranul de configurare afișează modul în care îmbunătățirile afectează caracteristicile vehiculului. Selectează „Cercetat complet” pentru a afișa întregul efect al tuturor îmbunătățirilor disponibile."
+
+msgid "comparison/tooltip/header"
+msgstr "Îmbunătățiri"
+
+msgid "comparison/zeroUpgrades/title"
+msgstr "Necercetate"
+
+msgid "dialog/altConfiguration/description"
+msgstr "menține activate aceste opțiuni pentru a putea schimba configurațiile înaintea luptei."
+
+msgid "dialog/altConfiguration/info"
+msgstr "Poți schimba în orice moment aceste setări."
+
+msgid "dialog/altConfiguration/optDevBoostersSwitch"
+msgstr "Configurația auxiliară"
+
+msgid "dialog/altConfiguration/shellsConsumablesSwitch"
+msgstr "Configurația esențială"
+
+msgid "dialog/altConfiguration/title"
+msgstr "Configurația alternativă"
+
+msgid "dialog/common/accept"
+msgstr "Confirmă"
+
+msgid "dialog/confirmation/researchPerks"
+msgid_plural "plural/dialog/confirmation/researchPerks"
+msgstr[0] "%(perks)s"
+msgstr[1] "%(perks)s noduri"
+msgstr[2] "%(perks)s noduri"
+
+msgid "footer/button/label"
+msgstr "Cercetare"
+
+msgid "footer/description/text/allResearched"
+msgstr "Toate nodurile au fost cercetate. Acum poți accesa sistemul de Recompense elită."
+
+msgid "footer/description/text/emergencyModeEnabled"
+msgstr "Portofelul WG este momentan indisponibil. Oferim scuze pentru deranj."
+
+msgid "footer/description/text/inBattle"
+msgstr "Nod indisponibil. Vehiculul se află în luptă."
+
+msgid "footer/description/text/inFormation"
+msgstr "Nod indisponibil. Vehiculul este într-o unitate tactică."
+
+msgid "footer/description/text/needsRepair"
+msgstr "Nod indisponibil. Vehiculul necesită reparații."
+
+msgid "footer/description/text/notInInventory"
+msgstr "Trebuie să deții vehiculul pentru a-i putea cerceta nodurile"
+
+msgid "footer/description/text/researchAvailable"
+msgstr "Alege un nod sau o ramură de noduri pentru cercetare"
+
+msgid "footer/text/amountItems"
+msgstr "{{amount}} noduri"
+
+msgid "footer/text/selectedItem"
+msgstr "Selectate: {{selectedItem}}"
+
+msgid "footer/tooltip/body/emergencyModeEnabled"
+msgstr "Portofelul WG este momentan indisponibil. Oferim scuze pentru deranj."
+
+msgid "footer/tooltip/body/inBattle"
+msgstr "Nod indisponibil. Vehiculul se află în luptă."
+
+msgid "footer/tooltip/body/inFormation"
+msgstr "Nod indisponibil. Vehiculul este într-o unitate tactică."
+
+msgid "footer/tooltip/body/needsRepair"
+msgstr "Nod indisponibil. Vehiculul necesită reparații."
+
+msgid "footer/tooltip/body/notEnoughExp"
+msgstr "Insuficientă EXP pentru a cerceta nodurile selectate."
+
+msgid "footer/tooltip/body/researchInProgress"
+msgstr "Cercetare în curs, te rugăm să aștepți..."
+
+msgid "footer/tooltip/header/emergencyModeEnabled"
+msgstr "Indisponibil"
+
+msgid "footer/tooltip/header/info"
+msgstr "Noduri selectate"
+
+msgid "footer/tooltip/listSelectedPerks"
+msgid_plural "plural/footer/tooltip/listSelectedPerks"
+msgstr[0] "• {{selectedPerks}},"
+msgstr[1] "• {{selectedPerks}}."
+msgstr[2] "• {{selectedPerks}}."
+
+msgid "intro/button"
+msgstr "Recepționat!"
+
+msgid "intro/button/tooltip"
+msgstr "Despre îmbunătățiri"
+
+msgid "intro/improvements/description"
+msgstr "Obține EXP de luptă pentru a debloca noduri care îmbunătățesc caracteristicile vehiculului. Caracteristicile finale pot fi în cele din urmă mai mari sau mai mici decât valorile indicate, din cauza modificatorilor aditivi și multiplicativi aplicați după bonusurile nodurilor."
+
+msgid "intro/improvements/title"
+msgstr "Cum funcționează"
+
+msgid "intro/progression/description"
+msgstr "Disponibile exclusiv pentru vehiculele din generația XI, îmbunătățirile îți permit să crești mai departe caracteristicile vehiculelor."
+
+msgid "intro/progression/title"
+msgstr "Îmbunătățiri"
+
+msgid "intro/vanity/description"
+msgstr "După cercetarea tuturor nodurilor, vei obține acces la recompensele elită, pe care le poți revendica la atingerea anumitor niveluri Elită. Recompensele conțin un stil volumetric unic, Monitorul de statistici și un manșon termic!"
+
+msgid "intro/vanity/title"
+msgstr "Recompensele Elită"
+
+msgid "kpi/bonus/valueTypes/cnt"
+msgstr " articol(e)"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/gps"
+msgstr " g/s"
+
+msgid "kpi/bonus/valueTypes/grads"
+msgstr " g"
+
+msgid "kpi/bonus/valueTypes/m"
+msgstr " m"
+
+msgid "kpi/bonus/valueTypes/mm"
+msgstr " mm"
+
+msgid "kpi/bonus/valueTypes/mph"
+msgstr " km/h"
+
+msgid "kpi/bonus/valueTypes/mps"
+msgstr " m/s"
+
+msgid "kpi/bonus/valueTypes/p"
+msgstr " CP"
+
+msgid "kpi/bonus/valueTypes/s"
+msgstr " s"
+
+msgid "kpi/bonus/valueTypes/val"
+msgstr " HP"
+
+msgid "notifications/perkAvailable/disabledButtonTooltip"
+msgstr "Funcționalitatea e momentan indisponibilă"
+
+msgid "notifications/perkAvailable/goToProgression"
+msgstr "Spre îmbunătățiri"
+
+msgid "notifications/perkAvailable/title"
+msgstr "Ai suficientă EXP pentru a-ți îmbunătăți vehiculul!"
+
+msgid "rewardScreen/button/accept"
+msgstr "Recepționat"
+
+msgid "rewardScreen/button/check"
+msgstr "Afișează în Exterior"
+
+msgid "rewardScreen/rewardName"
+msgstr "{{rarity}} {{rewardName}}"
+
+msgid "rewardScreen/subtitle"
+msgstr "Pentru atingerea nivelului {{prestigeLevel}} elită cu {{level}} {{type}} {{name}}"
+
+msgid "rewardScreen/title"
+msgstr "RECOMPENSA ELITĂ"
+
+msgid "tooltips/backToMainProgressionEntryPoint/text"
+msgstr "Disponibile exclusiv pentru vehiculele din generația XI, îmbunătățirile îți permit să crești mai departe caracteristicile vehiculelor."
+
+msgid "tooltips/backToMainProgressionEntryPoint/title"
+msgstr "Îmbunătățiri"
+
+msgid "tooltips/common/cost"
+msgstr "Preț: {{amount}}"
+
+msgid "tooltips/description/HEDamageAbsorption"
+msgstr "Îmbunătățește capacitatea vehiculului tău de a absorbi daunele prin coliziune și de la proiectile HE."
+
+msgid "tooltips/description/HEShellDamage"
+msgstr "Crește daunele provocate de proiectilele HE."
+
+msgid "tooltips/description/HEshellVelocity"
+msgstr "Crește viteza proiectilelor HE."
+
+msgid "tooltips/description/a179_mechanic_0"
+msgstr "Reduce cu {colorTagOpen}{value}%{colorTagClose} dispersia celei de-a doua lovituri în modul Salvă."
+
+msgid "tooltips/description/a179_mechanic_1"
+msgstr "Reduce cu {colorTagOpen}{value}{colorTagClose} timpul de pregătire după focul în modul Salvă."
+
+msgid "tooltips/description/a182_mechanic_0"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} bonusul la viteza de reîncărcare per nivel de eficiență."
+
+msgid "tooltips/description/a182_mechanic_1"
+msgstr "Extinde cu {colorTagOpen}{value} s{colorTagClose} durata nivelurilor de eficiență a reîncărcării."
+
+msgid "tooltips/description/a182_mechanic_2"
+msgstr "Extinde cu {colorTagOpen}{value} s{colorTagClose} durata nivelurilor de eficiență a reîncărcării."
+
+msgid "tooltips/description/a182_mechanic_3"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} bonusul la viteza de reîncărcare per nivel de eficiență."
+
+msgid "tooltips/description/a183_mechanic_0"
+msgstr "Reduce cu {colorTagOpen}{value}{colorTagClose} timpul de pregătire până la reutilizarea mecanicii."
+
+msgid "tooltips/description/a183_mechanic_1"
+msgstr "Reduce cu {colorTagOpen}{value}{colorTagClose} timpul de pregătire până la reutilizarea mecanicii."
+
+msgid "tooltips/description/a183_mechanic_2"
+msgstr "Extinde cu {colorTagOpen}{value} s{colorTagClose} durata mecanicii."
+
+msgid "tooltips/description/a183_mechanic_3"
+msgstr "Extinde cu {colorTagOpen}{value} s{colorTagClose} durata mecanicii."
+
+msgid "tooltips/description/a195_mechanic_1"
+msgstr "Descrește cu {colorTagOpen}{value}%{colorTagClose} dispersia loviturilor cu încărcare parțială la 100 m."
+
+msgid "tooltips/description/a195_mechanic_2"
+msgstr "Crește cu {colorTagOpen}{value} HP{colorTagClose} daunele provocate de lovituri cu încărcare parțială ale proiectilelor standard și speciale."
+
+msgid "tooltips/description/a195_mechanic_3"
+msgstr "Crește cu {colorTagOpen}{value} m/s{colorTagClose} viteza proiectilelor cu încărcare parțială."
+
+msgid "tooltips/description/a195_mechanic_4"
+msgstr "Reduce cu {colorTagOpen}{value}%{colorTagClose} timpul de încărcare a focurilor cu încărcare parțială."
+
+msgid "tooltips/description/advancedChassisProtection"
+msgstr "Crește punctele de integritate ale suspensiei și viteza reparațiilor."
+
+msgid "tooltips/description/advancedModuleAndCrewProtection"
+msgstr "Reduce penalizarea la avarierea compartimentului muniției sau motorului și reduce riscul de rănire a echipajului la avarierea vehiculului."
+
+msgid "tooltips/description/aimingCircleSize"
+msgstr "Reduce dimensiunea cercului de țintire după foc."
+
+msgid "tooltips/description/aimingTime"
+msgstr "Reduce timpul de țintire al vehiculului."
+
+msgid "tooltips/description/aimingTimeSalvo"
+msgstr "Reduce timpul de țintire al vehiculului în modul foc cu foc."
+
+msgid "tooltips/description/allShellDamage"
+msgstr "Crește daunele provocate de toate tipurile de proiectile."
+
+msgid "tooltips/description/allShellsVelocity"
+msgstr "Crește viteza tuturor proiectilelor."
+
+msgid "tooltips/description/ammoRackHP"
+msgstr "Crește cantitatea de daune care poate fi suferită de compartimentul muniției înainte ca acesta să fie distrus."
+
+msgid "tooltips/description/ammoRackPenalty"
+msgstr "Reduce penalizarea la avarierea compartimentului muniției."
+
+msgid "tooltips/description/basicShellDamage"
+msgstr "Crește daunele provocate de proiectilele standard."
+
+msgid "tooltips/description/ch67_mechanic_0"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} viteza de rotație atunci când acceleratoarele sunt active."
+
+msgid "tooltips/description/ch67_mechanic_1"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} viteza maximă atunci când acceleratoarele sunt active."
+
+msgid "tooltips/description/ch67_mechanic_2"
+msgstr "Reduce cu {colorTagOpen}{value}{colorTagClose} timpul de pregătire până la reîncărcarea completă a acceleratoarelor."
+
+msgid "tooltips/description/ch67_mechanic_3"
+msgstr "Extinde cu {colorTagOpen}{value} s{colorTagClose} durata maximă a acceleratoarelor."
+
+msgid "tooltips/description/ch70_mechanic_0"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} bonusul de putere conferit de acceleratoare."
+
+msgid "tooltips/description/ch70_mechanic_1"
+msgstr "Reduce cu {colorTagOpen}{value}{colorTagClose} timpul de pregătire până la reutilizarea acceleratoarelor."
+
+msgid "tooltips/description/ch70_mechanic_2"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} bonusul de putere conferit de acceleratoare."
+
+msgid "tooltips/description/ch70_mechanic_3"
+msgstr "Crește cu {colorTagOpen}{value}{colorTagClose} cantitatea maximă de utilizări într-o luptă a acceleratoarelor."
+
+msgid "tooltips/description/crewProtection"
+msgstr "Reduce riscul de rănire a echipajului la avarierea vehiculului."
+
+msgid "tooltips/description/damagedGunDispersion"
+msgstr "Reduce dispersia tunului atunci când acesta este avariat."
+
+msgid "tooltips/description/driveModeForwardSpeed"
+msgstr "Crește viteza de înaintare a vehiculului în modul Marș."
+
+msgid "tooltips/description/driveModeReverseSpeed"
+msgstr "Crește viteza de marșarier a vehiculului în modul Marș."
+
+msgid "tooltips/description/enginePenalty"
+msgstr "Reduce penalizarea la avarierea motorului."
+
+msgid "tooltips/description/enginePower"
+msgstr "Crește puterea motorului, permițându-i vehiculului să accelereze și să se deplaseze mai rapid în rampă."
+
+msgid "tooltips/description/f135_mechanic_0"
+msgstr "Reduce cu {colorTagOpen}{value}%{colorTagClose} timpul până la startul reîncărcării."
+
+msgid "tooltips/description/f135_mechanic_1"
+msgstr "Reduce cu {colorTagOpen}{value}%{colorTagClose} întârzierea de dinaintea focului, după ce reîncărcarea e întreruptă."
+
+msgid "tooltips/description/f136_mechanic_0"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} penalizarea la durata reîncărcării după tragerea ultimului proiectil din casetă."
+
+msgid "tooltips/description/f143_mechanic_0"
+msgstr "Reduce cu {colorTagOpen}{value0}%{colorTagClose} penalizarea dispersiei la 100 m și cu {colorTagOpen}{value1}%{colorTagClose} penalizarea la timpul de țintire a tunului, atunci când limita este depășită."
+
+msgid "tooltips/description/f143_mechanic_1"
+msgstr "Crește cu {colorTagOpen}{value}%/s{colorTagClose} viteza de acumulare a încărcăturii."
+
+msgid "tooltips/description/f143_mechanic_2"
+msgstr "Reduce cu {colorTagOpen}{value}%{colorTagClose} cantitatea de încărcătură pierdută după foc."
+
+msgid "tooltips/description/f143_mechanic_3"
+msgstr "Crește cu {colorTagOpen}{value0} HP{colorTagClose} îmbunătățirea daunelor și cu {colorTagOpen}{value1}%{colorTagClose} bonusul maxim al daunelor post-limită."
+
+msgid "tooltips/description/forwardSpeed"
+msgstr "Crește viteza vehiculului la înaintare."
+
+msgid "tooltips/description/g185_mechanic_0"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} bonusul dispersiei per nivelul de precizie."
+
+msgid "tooltips/description/g185_mechanic_1"
+msgstr "Crește cu {colorTagOpen}{value} km/h{colorTagClose} viteza maximă cu care se pot obține niveluri de precizie."
+
+msgid "tooltips/description/g185_mechanic_2"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} durata necesară pentru atingerea următorului nivel de precizie."
+
+msgid "tooltips/description/g185_mechanic_3"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} bonusul stabilizării la nivelul maxim de precizie."
+
+msgid "tooltips/description/g187_mechanic_0"
+msgstr "Reduce cu {colorTagOpen}{value}%{colorTagClose} timpul de încărcare al armamentului auxiliar."
+
+msgid "tooltips/description/g187_mechanic_1"
+msgstr "Reduce cu {colorTagOpen}{value}%{colorTagClose} timpul de încărcare al armamentului auxiliar."
+
+msgid "tooltips/description/g188_mechanic_0"
+msgstr "Crește cu {colorTagOpen}{value} s{colorTagClose} perioada în care un vehicul inamic marcat rămâne descoperit."
+
+msgid "tooltips/description/g188_mechanic_1"
+msgstr "Reduce cu {colorTagOpen}{value}{colorTagClose} timpul de pregătire până la reutilizarea mecanicii."
+
+msgid "tooltips/description/g188_mechanic_2"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} timpul de pregătire inițial până la utilizarea mecanicii."
+
+msgid "tooltips/description/g188_mechanic_3"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} daunele suplimentare provocate de proiectilele aliate vehiculelor inamice marcate."
+
+msgid "tooltips/description/g189_mechanic_0"
+msgstr "Crește cu {colorTagOpen}{value} km/h{colorTagClose} viteza maximă la care se poate genera preîncălzirea."
+
+msgid "tooltips/description/g189_mechanic_1"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} bonusul maxim la dispersie conferit de preîncălzire."
+
+msgid "tooltips/description/g189_mechanic_2"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} bonusul maxim la daune conferit de preîncălzire."
+
+msgid "tooltips/description/g189_mechanic_3"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} durata necesară pentru atingerea nivelului maxim de preîncălzire."
+
+msgid "tooltips/description/gb147_mechanic_0"
+msgstr "Reduce cu {colorTagOpen}{value} metri{colorTagClose} dispersia tunului în modul Foc în salvă."
+
+msgid "tooltips/description/gb147_mechanic_1"
+msgstr "Crește cu {colorTagOpen}{value} grade/s{colorTagClose} viteza de rotație a turelei în modul Foc în salvă."
+
+msgid "tooltips/description/gb147_mechanic_2"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} timpul de țintire în modul Foc în salvă."
+
+msgid "tooltips/description/gb147_mechanic_3"
+msgstr "Crește cu {colorTagOpen}{value} grade/s{colorTagClose} viteza maximă de înaintare în modul Foc în salvă."
+
+msgid "tooltips/description/gb152_mechanic_0"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} durata necesară pentru a intra în modul Transmisie directă."
+
+msgid "tooltips/description/gb152_mechanic_1"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} durata necesară pentru a atinge performanța maximă în modul Transmisie directă."
+
+msgid "tooltips/description/gb152_mechanic_2"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} puterea motorului în modul Transmisie directă."
+
+msgid "tooltips/description/gb152_mechanic_3"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} viteza de înaintare în modul Transmisie directă."
+
+msgid "tooltips/description/gb158_mechanic_0"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} îmbunătățirea puterii motorului conferită de Asistența Turbocompresorului."
+
+msgid "tooltips/description/gb158_mechanic_1"
+msgstr "Crește cu {colorTagOpen}{value}km/h{colorTagClose} viteza maximă de marșarier atunci când Asistența Turbocompresorului este activă."
+
+msgid "tooltips/description/gb158_mechanic_2"
+msgstr "Crește cu {colorTagOpen}{value} s{colorTagClose} durata Asistenței Turbocompresorului."
+
+msgid "tooltips/description/gb158_mechanic_3"
+msgstr "Reduce cu {colorTagOpen}{value}{colorTagClose} timpul de pregătire până la reutilizarea Asistenței Turbocompresorului."
+
+msgid "tooltips/description/gunDepression"
+msgstr "Crește unghiul de declinație a tunului."
+
+msgid "tooltips/description/gunDispersion"
+msgstr "Îmbunătățește gruparea proiectilelor în interiorul cercului de țintire."
+
+msgid "tooltips/description/gunDispersionSalvo"
+msgstr "Îmbunătățește gruparea proiectilelor în interiorul cercului de țintire în modul foc cu foc."
+
+msgid "tooltips/description/gunStabilization"
+msgstr "Îmbunătățește stabilizarea tunului în toate situațiile."
+
+msgid "tooltips/description/gunStabilizationFromHull"
+msgstr "Îmbunătățește stabilizarea tunului la deplasarea și rotația carenei."
+
+msgid "tooltips/description/gunStabilizationFromHullMovement"
+msgstr "Îmbunătățește stabilizarea tunului la deplasarea carenei."
+
+msgid "tooltips/description/gunStabilizationFromHullRotation"
+msgstr "Îmbunătățește stabilizarea tunului la rotația carenei."
+
+msgid "tooltips/description/gunStabilizationFromHullSalvo"
+msgstr "Îmbunătățește stabilizarea tunului la deplasarea și rotația carenei în modul foc cu foc."
+
+msgid "tooltips/description/gunStabilizationFromTurret"
+msgstr "Îmbunătățește stabilizarea tunului la rotația turelei."
+
+msgid "tooltips/description/gunStabilizationFromTurretSalvo"
+msgstr "Îmbunătățește stabilizarea tunului la rotația turelei în modul foc cu foc."
+
+msgid "tooltips/description/gunTraverse"
+msgstr "Crește unghiurile orizontale maxime de rotație a tunului."
+
+msgid "tooltips/description/hitPoints"
+msgstr "Crește rata de supraviețuire a vehiculului, permițându-i să sufere mai multe daune înainte de a fi distrus."
+
+msgid "tooltips/description/innerClipReloadTime"
+msgstr "Reduce timpul de încărcare dintre proiectile din caseta tunului."
+
+msgid "tooltips/description/invisibilityWhenShooting"
+msgstr "Reduce riscul de a fi descoperit de vehiculele inamice în timpul focului."
+
+msgid "tooltips/description/j52_mechanic_0"
+msgstr "Reduce cu {colorTagOpen}{value}{colorTagClose} perioada până la începerea răcirii tunului."
+
+msgid "tooltips/description/j52_mechanic_1"
+msgstr "Reduce cu {colorTagOpen}{value}%{colorTagClose} cantitatea de căldură generată de tun per lovitură."
+
+msgid "tooltips/description/j52_mechanic_2"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} viteza de răcire a tunului."
+
+msgid "tooltips/description/nonHEShellDamage"
+msgstr "Crește daunele provocate de proiectilele non-HE."
+
+msgid "tooltips/description/opt_dev_boosters_switch"
+msgstr "Permite crearea unei configurații alternative a echipamentului și directivelor."
+
+msgid "tooltips/description/overheat_coolingDelay"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} perioada până la începerea răcirii tunului."
+
+msgid "tooltips/description/overheat_coolingPerSec"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} viteza de răcire a unui tun încălzit sau supraîncălzit."
+
+msgid "tooltips/description/overheat_heatingPerShot"
+msgstr "Reduce cu {colorTagOpen}{value}%{colorTagClose} cantitatea de căldură generată de tun per lovitură."
+
+msgid "tooltips/description/overheat_overheatedCoolingPerSec"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} viteza de răcire a unui tun supraîncălzit."
+
+msgid "tooltips/description/pl37_mechanic_0"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} durata necesară pentru a schimba modurile."
+
+msgid "tooltips/description/pl37_mechanic_1"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} cantitatea de energie generată pasiv per secundă în modul Turbo."
+
+msgid "tooltips/description/pl37_mechanic_2"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} cantitatea de energie generată pasiv per secundă în modul de angajament."
+
+msgid "tooltips/description/pl37_mechanic_3"
+msgstr "Extinde cu {colorTagOpen}{value}{colorTagClose} durata efectului atât în modul Turbo, cât și în modul de angajament."
+
+msgid "tooltips/description/r228_mechanic_0"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} daunele provocate prin coliziune vehiculelor inamice."
+
+msgid "tooltips/description/r228_mechanic_1"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} daunele provocate prin coliziune suspensiei vehiculelor inamice."
+
+msgid "tooltips/description/r228_mechanic_2"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} daunele provocate prin coliziune vehiculelor inamice."
+
+msgid "tooltips/description/r228_mechanic_3"
+msgstr "Crește cu {colorTagOpen}{value}%{colorTagClose} daunele provocate prin coliziune vehiculelor inamice."
+
+msgid "tooltips/description/r230_mechanic_0"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} durata până la următorul foc după supraîncălzirea încărcăturii."
+
+msgid "tooltips/description/r230_mechanic_1"
+msgstr "Crește cu {colorTagOpen}{value} s{colorTagClose} timpul disponibil pentru foc la nivelul maxim de încălzire."
+
+msgid "tooltips/description/r230_mechanic_2"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} durata până la următorul foc după supraîncălzirea încărcăturii."
+
+msgid "tooltips/description/r230_mechanic_3"
+msgstr "Crește cu {colorTagOpen}{value0}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value1}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value2}%{colorTagClose} bonusul daunelor per nivelul de încălzire."
+
+msgid "tooltips/description/reducedRammingDamage"
+msgstr "Reduce daunele suferite în urma atacurilor inamice prin coliziune."
+
+msgid "tooltips/description/reloadTimeTwinGun"
+msgstr "Reduce perioada de reîncărcare a tunului în modurile Foc în salvă și foc cu foc."
+
+msgid "tooltips/description/reverseSpeed"
+msgstr "Crește viteza de marșarier a vehiculului."
+
+msgid "tooltips/description/roleSlot"
+msgstr "Alocă o categorie celui de-al doilea locaș al echipamentului."
+
+msgid "tooltips/description/s36_mechanic_0"
+msgstr "Îmbunătățește cu {colorTagOpen}{value}%{colorTagClose} vitezele de rotație a carenei și ridicare a tunului în modul Buncăr."
+
+msgid "tooltips/description/s36_mechanic_1"
+msgstr "Reduce cu {colorTagOpen}{value} s{colorTagClose} durata necesară pentru a ieși din modul Buncăr."
+
+msgid "tooltips/description/s36_mechanic_2"
+msgstr "Reduce cu {colorTagOpen}{value}%{colorTagClose} dispersia tunului în modul Buncăr."
+
+msgid "tooltips/description/s36_mechanic_3"
+msgstr "Reduce cu {colorTagOpen}{value}%{colorTagClose} timpul de reîncărcare a tunului în modul Buncăr."
+
+msgid "tooltips/description/selectiveModuleHPBoost"
+msgstr "Crește punctele de integritate ale modulelor motorului și rezervorului de combustibil."
+
+msgid "tooltips/description/selectiveModuleProtection"
+msgstr "Reduce penalizarea compartimentului muniției și motorului după avariere."
+
+msgid "tooltips/description/shellModuleDamage"
+msgstr "Crește daunele provocate de proiectilele tale asupra modulelor vehiculelor inamice."
+
+msgid "tooltips/description/shells_consumables_switch"
+msgstr "Permite crearea unei configurații alternative a muniției și consumabilelor."
+
+msgid "tooltips/description/specialShellDamage"
+msgstr "Crește daunele provocate de proiectilele speciale."
+
+msgid "tooltips/description/specialShellPenetration"
+msgstr "Crește puterea de penetrare a proiectilelor speciale."
+
+msgid "tooltips/description/specialShellVelocity"
+msgstr "Crește viteza proiectilelor speciale."
+
+msgid "tooltips/description/spottingBonusFoliage"
+msgstr "Reduce camuflarea vehiculelor inamice ascunse de frunziș."
+
+msgid "tooltips/description/spottingBonusMovement"
+msgstr "Reduce camuflarea vehiculelor inamice aflate în mișcare."
+
+msgid "tooltips/description/standardShellDamage"
+msgstr "Crește daunele provocate de proiectilele standard."
+
+msgid "tooltips/description/standardShellPenetration"
+msgstr "Crește puterea de penetrare a proiectilelor standard."
+
+msgid "tooltips/description/standardShellVelocity"
+msgstr "Crește viteza proiectilelor standard."
+
+msgid "tooltips/description/stunDuration"
+msgstr "Reduce perioada de șoc provocată vehiculului tău de loviturile inamice."
+
+msgid "tooltips/description/turretTraverse"
+msgstr "Crește unghiurile orizontale maxime de rotație a turelei."
+
+msgid "tooltips/description/turretTraverseStability"
+msgstr "Reduce dispersia tunului la rotația turelei în modul de angajament."
+
+msgid "tooltips/description/vehicleSpeed"
+msgstr "Crește viteza vehiculului la înaintare și marșarier."
+
+msgid "tooltips/description/viewRange"
+msgstr "Îți permite să descoperi inamicii de la distanțe mai mari."
+
+msgid "tooltips/large/eliteStatus"
+msgstr "Conferă vehiculului statutul Elită"
+
+msgid "tooltips/large/perksResearchRequired"
+msgstr "Cercetează toate celelalte noduri pentru a putea cerceta acest nod."
+
+msgid "tooltips/paramNameWithUnit"
+msgstr "{paramName} ({unit})"
+
+msgid "tooltips/perk/category/concealment"
+msgstr "Categorie: Camuflaj"
+
+msgid "tooltips/perk/category/firepower"
+msgstr "Categorie: Putere de foc"
+
+msgid "tooltips/perk/category/mechanics"
+msgstr "Îmbunătățirea mecanicii"
+
+msgid "tooltips/perk/category/mobility"
+msgstr "Categorie: Mobilitate"
+
+msgid "tooltips/perk/category/special"
+msgstr "Îmbunătățire specială"
+
+msgid "tooltips/perk/category/spotting"
+msgstr "Categorie: Observare"
+
+msgid "tooltips/perk/category/survivability"
+msgstr "Categorie: Supraviețuire"
+
+msgid "tooltips/special/tapToModify"
+msgstr "Clic pentru a modifica după cercetarea nodului."
+
+msgid "tooltips/title/HEDamageAbsorption"
+msgstr "Absorbția daunelor HE"
+
+msgid "tooltips/title/HEShellDamage"
+msgstr "Daunele proiectilelor HE"
+
+msgid "tooltips/title/HEShellPenetration"
+msgstr "Penetrarea proiectilelor HE"
+
+msgid "tooltips/title/HEshellVelocity"
+msgstr "Viteza proiectilelor HE"
+
+msgid "tooltips/title/a179_mechanic_0"
+msgstr "Amortizor semi-activ"
+
+msgid "tooltips/title/a179_mechanic_1"
+msgstr "Încărcător îmbunătățit pe lanț"
+
+msgid "tooltips/title/a182_mechanic_0"
+msgstr "Extractor cu torsiune semiautomat"
+
+msgid "tooltips/title/a182_mechanic_1"
+msgstr "Filtru avansat pentru compartimentul de luptă "
+
+msgid "tooltips/title/a182_mechanic_2"
+msgstr "Ventilator centrifugal de presiune"
+
+msgid "tooltips/title/a182_mechanic_3"
+msgstr "Cleme de muniție modificate"
+
+msgid "tooltips/title/a183_mechanic_0"
+msgstr "Compresor de mare capacitate"
+
+msgid "tooltips/title/a183_mechanic_1"
+msgstr "Piston compresor 6.000 PSI"
+
+msgid "tooltips/title/a183_mechanic_2"
+msgstr "Sistem pneumatic 6.000 PSI"
+
+msgid "tooltips/title/a183_mechanic_3"
+msgstr "Cilindru de mare presiune suplimentar"
+
+msgid "tooltips/title/a195_mechanic_1"
+msgstr "Îmbunătățirea consistenței balistice"
+
+msgid "tooltips/title/a195_mechanic_2"
+msgstr "Încărcare parțială mărită"
+
+msgid "tooltips/title/a195_mechanic_3"
+msgstr "Încărcare parțială accelerată"
+
+msgid "tooltips/title/a195_mechanic_4"
+msgstr "Separator ușor de încărcătură"
+
+msgid "tooltips/title/additionalShellAmmoCapacity"
+msgstr "Capacitate suplimentară a muniției"
+
+msgid "tooltips/title/advancedChassisProtection"
+msgstr "Protecție avansată a suspensiei"
+
+msgid "tooltips/title/advancedModuleAndCrewProtection"
+msgstr "Protecție avansată a modulelor și echipajului"
+
+msgid "tooltips/title/aimingCircleSize"
+msgstr "Dimensiunea cercului de țintire"
+
+msgid "tooltips/title/aimingTime"
+msgstr "Timp de țintire"
+
+msgid "tooltips/title/aimingTimeSalvo"
+msgstr "Timp de țintire"
+
+msgid "tooltips/title/allShellDamage"
+msgstr "Daunele tuturor proiectilelor"
+
+msgid "tooltips/title/allShellsVelocity"
+msgstr "Viteza proiectilelor"
+
+msgid "tooltips/title/ammoRackHP"
+msgstr "HP-ul compartimentului muniției"
+
+msgid "tooltips/title/ammoRackPenalty"
+msgstr "Penalizarea compartimentului muniției"
+
+msgid "tooltips/title/basicShellDamage"
+msgstr "Daunele proiectilelor standard"
+
+msgid "tooltips/title/ch67_mechanic_0"
+msgstr "Vectorizator de forță"
+
+msgid "tooltips/title/ch67_mechanic_1"
+msgstr "Pompă de combustibil de mare capacitate"
+
+msgid "tooltips/title/ch67_mechanic_2"
+msgstr "Răcire prin evaporare"
+
+msgid "tooltips/title/ch67_mechanic_3"
+msgstr "Duze răcite prin permeație"
+
+msgid "tooltips/title/ch70_mechanic_0"
+msgstr "Combustibil de energie înaltă"
+
+msgid "tooltips/title/ch70_mechanic_1"
+msgstr "Extractor de accelerare semiautomat"
+
+msgid "tooltips/title/ch70_mechanic_2"
+msgstr "Optimizarea formei miezului"
+
+msgid "tooltips/title/ch70_mechanic_3"
+msgstr "Stocare extinsă a acceleratorului"
+
+msgid "tooltips/title/chassisHP"
+msgstr "HP-ul suspensiei"
+
+msgid "tooltips/title/chassisRepairSpeed"
+msgstr "Viteza de reparare a suspensiei"
+
+msgid "tooltips/title/crewProtection"
+msgstr "Protecția echipajului"
+
+msgid "tooltips/title/damagedGunDispersion"
+msgstr "Dispersia situațională a tunului"
+
+msgid "tooltips/title/driveModeForwardSpeed"
+msgstr "Viteza de înaintare în modul Marș"
+
+msgid "tooltips/title/driveModeReverseSpeed"
+msgstr "Viteza de marșarier în modul Marș"
+
+msgid "tooltips/title/engineFireChance"
+msgstr "Riscul de incendiu la motor"
+
+msgid "tooltips/title/engineHP"
+msgstr "HP-ul motorului"
+
+msgid "tooltips/title/enginePenalty"
+msgstr "Penalizarea motorului"
+
+msgid "tooltips/title/enginePower"
+msgstr "Puterea motorului"
+
+msgid "tooltips/title/f135_mechanic_0"
+msgstr "Optimizarea furtunului hidraulic"
+
+msgid "tooltips/title/f135_mechanic_1"
+msgstr "Optimizarea secvenței de încărcare"
+
+msgid "tooltips/title/f136_mechanic_0"
+msgstr "Sistem de încărcare îmbunătățit"
+
+msgid "tooltips/title/f143_mechanic_0"
+msgstr "Izolarea termică a țevii"
+
+msgid "tooltips/title/f143_mechanic_1"
+msgstr "Alternator de mare putere"
+
+msgid "tooltips/title/f143_mechanic_2"
+msgstr "Cablaj cu rezistivitate redusă"
+
+msgid "tooltips/title/f143_mechanic_3"
+msgstr "Limitator de ieșire modificat"
+
+msgid "tooltips/title/forwardSpeed"
+msgstr "Viteza de înaintare"
+
+msgid "tooltips/title/fuelTankHP"
+msgstr "HP-ul rezervorului de combustibil"
+
+msgid "tooltips/title/g185_mechanic_0"
+msgstr "Senzor de forță Coriolis"
+
+msgid "tooltips/title/g185_mechanic_1"
+msgstr "Senzor giroscopic de înclinare"
+
+msgid "tooltips/title/g185_mechanic_2"
+msgstr "Terminal de date îmbunătățit"
+
+msgid "tooltips/title/g185_mechanic_3"
+msgstr "Senzor de rotație de înaltă precizie"
+
+msgid "tooltips/title/g187_mechanic_0"
+msgstr "Depozitare auxiliară îmbunătățită pentru proiectile"
+
+msgid "tooltips/title/g187_mechanic_1"
+msgstr "Încărcător de tun auxiliar"
+
+msgid "tooltips/title/g188_mechanic_0"
+msgstr "Mecanism avansat de urmărire"
+
+msgid "tooltips/title/g188_mechanic_1"
+msgstr "Radiator de înaltă eficiență"
+
+msgid "tooltips/title/g188_mechanic_2"
+msgstr "Generator de amperaj mare"
+
+msgid "tooltips/title/g188_mechanic_3"
+msgstr "Laser cu rubin cu dispersie redusă"
+
+msgid "tooltips/title/g189_mechanic_0"
+msgstr "Starter de putere modificat"
+
+msgid "tooltips/title/g189_mechanic_1"
+msgstr "Senzor dublu de control termic"
+
+msgid "tooltips/title/g189_mechanic_2"
+msgstr "Control termic precis"
+
+msgid "tooltips/title/g189_mechanic_3"
+msgstr "Alternator de mare putere"
+
+msgid "tooltips/title/gb147_mechanic_0"
+msgstr "Suporți de tun pretensionați"
+
+msgid "tooltips/title/gb147_mechanic_1"
+msgstr "Sistem de rotație avansat"
+
+msgid "tooltips/title/gb147_mechanic_2"
+msgstr "Sistem de control al înclinării"
+
+msgid "tooltips/title/gb147_mechanic_3"
+msgstr "Limitator de cuplu"
+
+msgid "tooltips/title/gb152_mechanic_0"
+msgstr "Ajustarea raportului de transmisie"
+
+msgid "tooltips/title/gb152_mechanic_1"
+msgstr "Optimizarea geometriei turbinei"
+
+msgid "tooltips/title/gb152_mechanic_2"
+msgstr "Optimizarea tobei tubulare"
+
+msgid "tooltips/title/gb152_mechanic_3"
+msgstr "Limitator de turație modificat"
+
+msgid "tooltips/title/gb158_mechanic_0"
+msgstr "Regulator de ajustare a presiunii"
+
+msgid "tooltips/title/gb158_mechanic_1"
+msgstr "Sistem de evacuare modernizat"
+
+msgid "tooltips/title/gb158_mechanic_2"
+msgstr "Rezervor de aer cu capacitate ridicată"
+
+msgid "tooltips/title/gb158_mechanic_3"
+msgstr "Compresor de înaltă eficiență"
+
+msgid "tooltips/title/gunDepression"
+msgstr "Declinația tunului"
+
+msgid "tooltips/title/gunDispersion"
+msgstr "Dispersia tunului"
+
+msgid "tooltips/title/gunDispersionSalvo"
+msgstr "Dispersia tunului"
+
+msgid "tooltips/title/gunElevation"
+msgstr "Unghiul de ridicare a tunului"
+
+msgid "tooltips/title/gunStabilization"
+msgstr "Stabilizarea totală a tunului"
+
+msgid "tooltips/title/gunStabilizationFromHull"
+msgstr "Stabilizarea parțială a tunului"
+
+msgid "tooltips/title/gunStabilizationFromHullMovement"
+msgstr "Stabilizarea în deplasare"
+
+msgid "tooltips/title/gunStabilizationFromHullRotation"
+msgstr "Stabilizarea la rotație"
+
+msgid "tooltips/title/gunStabilizationFromHullSalvo"
+msgstr "Stabilizarea parțială a tunului"
+
+msgid "tooltips/title/gunStabilizationFromTurret"
+msgstr "Stabilizarea parțială a tunului"
+
+msgid "tooltips/title/gunStabilizationFromTurretSalvo"
+msgstr "Stabilizarea parțială a tunului"
+
+msgid "tooltips/title/gunTraverse"
+msgstr "Rotație îmbunătățită a tunului"
+
+msgid "tooltips/title/hitPoints"
+msgstr "Puncte de integritate (HP)"
+
+msgid "tooltips/title/hullElevationSpeed"
+msgstr "Viteza de ridicare a carenei"
+
+msgid "tooltips/title/hullTraverseSpeed"
+msgstr "Viteza de rotație a carenei"
+
+msgid "tooltips/title/innerClipReloadTime"
+msgstr "Timpul de reîncărcare în interiorul casetei"
+
+msgid "tooltips/title/invisibilityWhenShooting"
+msgstr "Camuflajul după foc"
+
+msgid "tooltips/title/j52_mechanic_0"
+msgstr "Fluid de răcire de temperatură scăzută"
+
+msgid "tooltips/title/j52_mechanic_1"
+msgstr "Element de răcire de înaltă conductivitate"
+
+msgid "tooltips/title/j52_mechanic_2"
+msgstr "Optimizarea conductelor de răcire"
+
+msgid "tooltips/title/nonHEShellDamage"
+msgstr "Daunele proiectilelor non-HE"
+
+msgid "tooltips/title/opt_dev_boosters_switch"
+msgstr "Configurația echipamentului și directivelor"
+
+msgid "tooltips/title/overheat_coolingDelay"
+msgstr "Țevi cromate"
+
+msgid "tooltips/title/overheat_coolingPerSec"
+msgstr "Țeavă de tun de conductivitate înaltă"
+
+msgid "tooltips/title/overheat_heatingPerShot"
+msgstr "Combustibil accelerator cu temperatură redusă"
+
+msgid "tooltips/title/overheat_overheatedCoolingPerSec"
+msgstr "Sistem de ventilare forțată"
+
+msgid "tooltips/title/pl37_mechanic_0"
+msgstr "Rotor de turbină de greutate redusă"
+
+msgid "tooltips/title/pl37_mechanic_1"
+msgstr "Alternator auxiliar de mare putere"
+
+msgid "tooltips/title/pl37_mechanic_2"
+msgstr "Control avansat al rectificării"
+
+msgid "tooltips/title/pl37_mechanic_3"
+msgstr "Matrice hibridă de capacitori"
+
+msgid "tooltips/title/r228_mechanic_0"
+msgstr "Consolidare locală a muchiei"
+
+msgid "tooltips/title/r228_mechanic_1"
+msgstr "Șenile de oțel din aliaj înalt"
+
+msgid "tooltips/title/r228_mechanic_2"
+msgstr "Carburarea intensă locală"
+
+msgid "tooltips/title/r228_mechanic_3"
+msgstr "Carburarea locală a suprafeței"
+
+msgid "tooltips/title/r230_mechanic_0"
+msgstr "Senzor termic de înaltă precizie"
+
+msgid "tooltips/title/r230_mechanic_1"
+msgstr "Încălzitoare de țeavă cu inerție redusă"
+
+msgid "tooltips/title/r230_mechanic_2"
+msgstr "Tavă de încărcare mecanizată"
+
+msgid "tooltips/title/r230_mechanic_3"
+msgstr "Supraîncărcarea controlului termic"
+
+msgid "tooltips/title/reducedRammingDamage"
+msgstr "Daune prin coliziune reduse"
+
+msgid "tooltips/title/reloadTime"
+msgstr "Timpul de reîncărcare"
+
+msgid "tooltips/title/reloadTimeTwinGun"
+msgstr "Timpul de reîncărcare"
+
+msgid "tooltips/title/reverseSpeed"
+msgstr "Viteza de marșarier"
+
+msgid "tooltips/title/roleSlot"
+msgstr "Categoria celui de-al doilea locaș"
+
+msgid "tooltips/title/s36_mechanic_0"
+msgstr "Pompă hidraulică cu piston axial"
+
+msgid "tooltips/title/s36_mechanic_1"
+msgstr "Sincronizator conic al transmisiei"
+
+msgid "tooltips/title/s36_mechanic_2"
+msgstr "Rotor de înaltă precizie"
+
+msgid "tooltips/title/s36_mechanic_3"
+msgstr "Încărcător de tun hidraulic"
+
+msgid "tooltips/title/selectiveModuleHPBoost"
+msgstr "Accelerator selectiv de HP al modulelor"
+
+msgid "tooltips/title/selectiveModuleProtection"
+msgstr "Protecție selectivă a modulelor"
+
+msgid "tooltips/title/shellModuleDamage"
+msgstr "Daunele proiectilelor asupra modulelor"
+
+msgid "tooltips/title/shells_consumables_switch"
+msgstr "Configurația muniției și consumabilelor"
+
+msgid "tooltips/title/specialShellDamage"
+msgstr "Daunele proiectilelor speciale"
+
+msgid "tooltips/title/specialShellPenetration"
+msgstr "Penetrarea proiectilelor speciale"
+
+msgid "tooltips/title/specialShellVelocity"
+msgstr "Viteza proiectilelor speciale"
+
+msgid "tooltips/title/spottingBonusFoliage"
+msgstr "Bonus la observație: frunziș"
+
+msgid "tooltips/title/spottingBonusMovement"
+msgstr "Bonus la observație: deplasare"
+
+msgid "tooltips/title/standardShellDamage"
+msgstr "Daunele proiectilelor standard"
+
+msgid "tooltips/title/standardShellPenetration"
+msgstr "Penetrarea proiectilelor standard"
+
+msgid "tooltips/title/standardShellVelocity"
+msgstr "Viteza proiectilelor standard"
+
+msgid "tooltips/title/stunDuration"
+msgstr "Durata șocului"
+
+msgid "tooltips/title/turretTraverse"
+msgstr "Rotație îmbunătățită a turelei"
+
+msgid "tooltips/title/turretTraverseSpeed"
+msgstr "Viteza de rotație a turelei"
+
+msgid "tooltips/title/turretTraverseStability"
+msgstr "Stabilizarea la rotirea turelei"
+
+msgid "tooltips/title/vehicleSpeed"
+msgstr "Viteza vehiculului"
+
+msgid "tooltips/title/viewRange"
+msgstr "Raza vizuală crescută"
+
+msgid "tooltips/vanityEntryPoint/statusInfo"
+msgstr "Cercetează nodul final pentru a debloca"
+
+msgid "tooltips/vanityEntryPoint/text"
+msgstr "Obține recompense exclusive pentru vehiculele de generația XI, inclusiv un stil volumetric, un monitor de statistici și un manșon termic."
+
+msgid "tooltips/vanityEntryPoint/title"
+msgstr "Recompensele Elită"
+
+msgid "vanity/available/subtitle"
+msgstr "Obține recompense pentru nivelul Elită al vehiculului"
+
+msgid "vanity/available/tooltip"
+msgstr "Nivelul Elită actual"
+
+msgid "vanity/completed/subtitle"
+msgstr "Felicitări S-au obținut toate recompensele."
+
+msgid "vanity/completed/tooltip"
+msgstr "Nivelul Elită actual"
+
+msgid "vanity/disabled/subtitle"
+msgstr "Se poate obține după cercetarea nodului final"
+
+msgid "vanity/disabled/tooltip"
+msgstr "Vehiculul nu are un statut Elită"
+
+msgid "vanity/reward/level/tooltip"
+msgstr "Nivelul Elită necesar pentru recompensă"
+
+msgid "vanity/rewardType/description/attachment"
+msgstr "Un manșon termic exclusiv care îți va evidenția instantaneu vehiculul pe câmpul de luptă."
+
+msgid "vanity/rewardType/description/stattracker"
+msgstr "Un element de personalizare nou și unic care afișează câte vehicule ai distrus."
+
+msgid "vanity/rewardType/description/style"
+msgstr "Un stil 2D special cu efect vizual unic care îi conferă o înfățișare 3D, disponibil exclusiv pentru vehiculele din generația XI."
+
+msgid "vanity/rewardType/title/attachment"
+msgstr "Atașament 3D: manșon termic"
+
+msgid "vanity/rewardType/title/stattracker"
+msgstr "Monitor statistici"
+
+msgid "vanity/rewardType/title/style"
+msgstr "Stil volumetric"
+
+msgid "vanity/title"
+msgstr "RECOMPENSELE ELITĂ"

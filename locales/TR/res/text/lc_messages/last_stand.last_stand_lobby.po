@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Yine de Savaşa Gir"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Donat!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Taktik Cihazlar Eksik"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "Seçtiğiniz aracın bir veya daha fazla Taktik Cihazı eksik. Bu, savaş performansınızı oldukça etkileyebilir. Yine de savaşa girecek misiniz?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Mermi ve Taktik Cihazlar için varsayılan kısayol atamalarını özelleştirebilirsiniz.\nBu değişiklik sadece etkinlik savaşları için geçerli olur ve diğer kipleri etkilemez.\nKısayol tuşlarını Menü - Ayarlar - Kumandalar (Sarf Malzemeleri altında) yoluyla değiştirebilirsiniz."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Sarf Malzemesi Kısayol Atamaları Değişikliği"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Bu görevi tamamlayarak özgün Son Direniş: Pandora Operasyonu brövesini alın:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Destansı Başarı Görevi"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Araştırıldığında, tüm Taktik Cihazların {EDCB9E_Start}Mirium maliyeti{EDCB9E_End}'ni {EDCB9E_Start}%%(ability_cost_add_percent)s%{EDCB9E_End} azaltır."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Mirium Verimliliği"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Araştırıldığında, {EDCB9E_Start}Taktik Cihazların etki süresini{EDCB9E_End} {EDCB9E_Start}%%(ability_duration_add_percent)s%{EDCB9E_End} artırır."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Cihaz Etki Süresi"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Araştırıldığında, {EDCB9E_Start}Taktik Cihazlar'ın etki yarıçapını{EDCB9E_End} {EDCB9E_Start}%%(ability_radius_add_percent)s%{EDCB9E_End} artırır."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Cihaz Etki Yarıçapı"
+
+msgid "booster/booster_heal/description"
+msgstr "Araştırıldığında, araca uygulanan tüm {EDCB9E_Start}iyileştirme etkilerini{EDCB9E_End} {EDCB9E_Start}%%(heal_add_percent)s%{EDCB9E_End} artırır."
+
+msgid "booster/booster_heal/name"
+msgstr "İyileştirme Etkileri"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Araştırıldığında, {EDCB9E_Start}Dikilitaşlardan düşman araçlarına aktarılan hasar{EDCB9E_End} miktarını {EDCB9E_Start}%%(obelisk_translated_damage_add_percent)s%{EDCB9E_End} oranında artırır."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Aktarılan Dikilitaş Hasarı"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Araştırıldığında, düşmanlardan {EDCB9E_Start}Mirium toplama yarıçapını{EDCB9E_End} {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End} artırır."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Mirium Toplama Yarıçapı"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Araştırıldığında, yok edilmiş araçlardan {EDCB9E_Start}toplanan Mirium miktarını{EDCB9E_End} {EDCB9E_Start}%%(pick_up_souls_add_percent)s%{EDCB9E_End} artırır."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Mirium Toplama"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Araştırıldığında, bir dalgayı yok etmenin karşılığında verilen {EDCB9E_Start}Mirium miktarını{EDCB9E_End} {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End} artırır."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Dalga Başına Mirium"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Araştırıldığında, yeniden doğmada geri kazanılan {EDCB9E_Start}Mirium miktarını{EDCB9E_End} {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End} artırır."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Yeniden Doğuşta Mirium"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Araştırıldığında, {EDCB9E_Start}aracın maksimum Mirium kapasitesini{EDCB9E_End} {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End} artırır."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Mirium Kapasitesi"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "SAVUNUCU PAKETİ"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Anahtar satın alındı"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Herhangi bir araçta günün ikinci zaferinden başlayarak ×5 DP kazanma seçeneği."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Savaşta ×5 DP kazanma görevi"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Araçların gösterimini türlerine, ülkelerine ve diğer parametrelere göre düzenleyin."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Parametrelere Göre Süz"
+
+msgid "common/back"
+msgstr "GERİ DÖN"
+
+msgid "common/close"
+msgstr "KAPAT"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "ETKİNLİĞE GİDİN"
+
+msgid "common/toRewardPath"
+msgstr "GELİŞİME GİDİN"
+
+msgid "common/yes"
+msgstr "Olumlu!"
+
+msgid "difficult/daily"
+msgstr "GÜNLÜK ANAHTAR GÖREVİ AÇILDI"
+
+msgid "difficult/disabled/body"
+msgstr "Bir Takımdasınız. Zorluk seviyesini sadece Komutan değiştirebilir."
+
+msgid "difficult/disabled/header"
+msgstr "Zorluk Değiştirme Kapalı"
+
+msgid "difficult/level_1"
+msgstr "Normal"
+
+msgid "difficult/level_2"
+msgstr "İleri"
+
+msgid "difficult/level_3"
+msgstr "Vahşi"
+
+msgid "difficult/new"
+msgstr "YENİ"
+
+msgid "difficult/searching/body"
+msgstr "Arama sırasında devre dışı."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Düşmanların dayanıklılığı daha düşüktür ve zırhları daha zayıftır. Savaş başına standart veri miktarı."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Düşmanların zırhları daha güçlüdür. Savaş başına Veri {{modifier}} artırılmıştır."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Daha güçlü zırha sahip daha fazla düşman vardır. Savaş başına Veri {{modifier}} artırılmıştır."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Son dalgayı ilk kez yok etmenin ödülleri:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Normal Zorluk"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "İleri Zorluk"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Vahşi Zorluk Seviyesi"
+
+msgid "difficult/tooltip/locked"
+msgstr "Zorluk Seviyesi Kilitli"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Bu zorluk seviyesini açmak için Normal zorluk seviyesini tamamlayın."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Bu zorluk seviyesini açmak için İleri zorluk seviyesini tamamlayın."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Zorluk Seviyesi Açık"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Zorluk Seviyesi Seçildi"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Yok edilen dalgalar: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "NORMAL"
+
+msgid "difficult/uppercase/level_2"
+msgstr "İLERİ"
+
+msgid "difficult/uppercase/level_3"
+msgstr "VAHŞİ"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Düşmanların zırhları daha güçlüdür. Savaş başına daha fazla kredi ve ×{{modifier}} veri."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Daha güçlü zırha sahip daha fazla düşman vardır. Savaş başına daha fazla kredi ve ×{{modifier}} veri."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Savaşın ve düşman dalgalarını yenin, Skor Tahtasının tepesine ulaşarak ustalığınızı gösterin. Özgün ödüller ve çok daha fazlası sizi bekliyor."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "İLERİ ZORLUK SEVİYESİ"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "VAHŞİ ZORLUK SEVİYESİ"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "SON DİRENİŞ MODU"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "İLERİ"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "VAHŞİ"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "'SON DİRENİŞ'"
+
+msgid "difficultyWindow/rewards"
+msgstr "Tamamlama Ödülleri:"
+
+msgid "difficultyWindow/title"
+msgstr "AÇIK"
+
+msgid "hangar/exit"
+msgstr "ETKİNLİKTEN AYRIL"
+
+msgid "hangar/narration"
+msgstr "Hikaye"
+
+msgid "hangar/tooltip/about"
+msgstr "Son Direniş: Terra Nord etkinliği hakkında daha fazla bilgi edinin."
+
+msgid "hangar/tooltip/narration"
+msgstr "Etkinliğin hikayesi hakkında daha fazla bilgi edinin."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "TAKTİK CİHAZLAR"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "SAVAŞ YÜKÜ"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Son Direniş"
+
+msgid "iconButton/comparison/default"
+msgstr "Araç karşılaştırması"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Araç karşılaştırma devre dışı"
+
+msgid "iconButton/preview/default"
+msgstr "Aracı önizle"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Araç önizleme devre dışı"
+
+msgid "keyCard/name"
+msgstr "Deşifre Anahtarları"
+
+msgid "meta/btn/decrypt"
+msgstr "DEŞİFRE EDİN"
+
+msgid "meta/btn/skip"
+msgstr "ATLAYIN"
+
+msgid "meta/btn/view"
+msgstr "İZLEYİN"
+
+msgid "meta/receive/description"
+msgstr "Bu Kaydı deşifre etmek için\n %(keys) / %(decrypt) %(icon) toplayın"
+
+msgid "metaIntro/description/fight"
+msgstr "Gelişimde ilerlemek için etkinlik savaşlarında oynayarak veri kazanın."
+
+msgid "metaIntro/description/progress"
+msgstr "Araç yükseltmelerini araştırmak ve daha büyük zorluklarla başa çıkmak için veri toplayın."
+
+msgid "metaIntro/description/reward"
+msgstr "Özel etkinlik ödülleri almak için Gelişim Aşamalarını tamamlayın. Daha fazla ayrıntı için Ödül Yoluna bakın."
+
+msgid "metaIntro/header/fight"
+msgstr "Etkinlik Savaşları"
+
+msgid "metaIntro/header/progress"
+msgstr "Yükseltmeler"
+
+msgid "metaIntro/header/reward"
+msgstr "Özgün Ödüller"
+
+msgid "metaIntro/title"
+msgstr "GELİŞİM"
+
+msgid "missionWidget/complete"
+msgstr "Görev tamamlandı.\nYarın tekrar gelin."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Ödülü almak için her 24 saatte bir sunulan mevcut Günlük Görevi tamamlayın. Bugünün görevi:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Günlük Görev"
+
+msgid "narration/actions/voiceover"
+msgstr "Seslendirme"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}ÇOK GİZLİ{{/}}{{titleParagraph}}{{@ class $highlightText}}SEKTÖR: N-07 (\"Aurora\" Çevresi){{/}}{{pargraphStart}}Tahminimiz doğru çıktı. İstasyon gözlemcileri, olaydan 11 gün önce anomalinin yaklaşışını kaydetti. İlk kez onu gelirken gördük.{{pargraphStart}}Fırtına öncesi sükunet sırasında, ATLAS komplekslerinin üretimi standartlaştırıldı. Yeni modüller daha hızlı monte ediliyor ve daha hassas bir şekilde kalibre ediliyor. Eğitimler yaptık, düzenleri prova ettik ve yedek mangalar hazırladık. Tam alarm durumundayız.{{pargraphStart}}Ancak anomalinin kendi planları vardı.{{pargraphStart}}Huni, tahmin edilen sektörde açılmadı. Burada, konuşlandırılmış altyapıdan uzak, kuzeydeki ücra bir bölgede ortaya çıktı. Bu konumun neden seçildiği belli değil. Modellerde bu bölgeye işaret eden hiçbir şey yoktu. Acil konuşlandırma derhal başlatıldı ama arazi ve mesafe lehimize değil. Bazı araçlar ve mangalar geç varacak.{{pargraphStart}}Ulaştırmayı başardığımız her ATLAS kompleksi artık vazgeçilmez önemde.{{pargraphStart}}Bu sefer, savaşa hazırdık. Ancak farklı bir yerde yapılacak bir savaşa.{{pargraphStart}}İMZA: KÜRATÖR (M PROJESİ)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Analitik Not 27/C \"İSTİLA YERİ SEÇİMİ\"{{/}}{{titleParagraph}}Dahilî kullanıma özel. \"Sınırlı Erişim\" damgası.{{pargraphStart}}Cevap vermek zorunda olduğum ama veremediğim bir soru soruyorum: Neden burası?{{pargraphStart}}Bu bölge, Huni için stratejik bir değere sahip değil. Burada hiçbir şey yok. Altyapı yok, yerleşim yerleri yok. Adada sadece faal olmayan bir askeri üs var. Yankı tankları denizi geçemez. Öyleyse neden saldırmak için kullanamayacakları bir yeri ele geçirsinler? {{pargraphStart}}Bölgenin tam operasyon geçmişini talep ettim. Cevap büyük ölçüde sansürlenmişti. Koca bölümler silinmişti. İkinci bir talep, \"erişim, {{@ class $highlightSecondaryText}}[VERİ SİLİNMİŞ] {{/}} emriyle sınırlandırılmış\" notuyla geri gönderildi. Bu sektörün savunma stratejisini belirleyen önerilerde bulunan araştırma departmanı başkanı olarak, bu bölgeyle ilgili bilgilere erişimim engelleniyor!{{pargraphStart}}Saha verilerinden şu sonuca varabiliyorum: Huninin davranışları, R-22 sektöründe gözlemlediklerimizle uyuşmuyor. Daha önce karşılaşmadığımız yeni tip yankı tankları ortaya çıktı. İşlev olarak uzun menzilli tank avcılarımıza benziyorlar ve bu tür arazide son derece etkili. Düşman, taktiklerimizden ders çıkarmış ve önlemler almış. Şimdi uyum sağlama sırası bizde.{{pargraphStart}}Belki de buraya ihtiyacı vardır. Ya da belki de altında yatan şeye.{{pargraphStart}}Bilmiyorum. Birilerinin bunu bildiği halde söylememesi beni endişelendiriyor.{{pargraphStart}}İMZA: KÜRATÖR (M PROJESİ)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}KÜRATÖRÜN KİŞİSEL KAYDI{{/}}{{pargraphStart}}Kendi hipotezlerimi gözden geçirdim. Üçünü de.{{pargraphStart}}  1. Anomali bizi yok etmeye çalışıyor. {{pargraphStart}}  2. Anomali deneyler yapıyor. Taktiklerimizi araştırıyor, tepkilerimizi inceliyor, kendini ayarlıyor ve öğreniyor.{{pargraphStart}}  3. Anomali eğitim yapıyor. Her dalga, yeni taktiklerinin bir tatbikatı; her savaş, saha koşullarında bir eğitim. {{pargraphStart}}Bu üç hipotezin hepsi, bu istilanın hedefinin biz olduğumuz varsayımını paylaşıyor.{{pargraphStart}}Peki ya değilsek?{{pargraphStart}}Ya anomali başka bir şey yapıyorsa ve biz sadece yolunda engelsek? Tıpkı yol inşa edilirken su basmış bir karınca yuvası gibi. İnşaatçı karıncalarla savaşmaz. Onları fark etmez bile.{{pargraphStart}}Sizi yok etmek isteyen bir düşmanı durdurabilirsiniz. Onlarla pazarlık yapabilirsiniz. Ama varlığınızı fark etmeyen bir şeyi korkutamazsınız; onu alt edemezsiniz. Durdurulamaz. Çünkü onun hesaplamalarının bir parçası olmadınız.{{pargraphStart}}Bence yanlış soruyu soruyoruz. Neden bize saldırdığını değil, bizi fark edip etmediğini sormalıyız.{{pargraphStart}}İMZA: KÜRATÖR (M PROJESİ)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}SON RAPOR{{/}}{{titleParagraph}}{{@ class $highlightText}}DURUM: GİZLİLİK KALDIRILDI (KISMEN){{/}}{{pargraphStart}}Saat 03.47'de Huni çöktü. Anomalinin faaliyeti durdu. Sektör temizlendi.{{pargraphStart}}Çöküşün son saniyelerinde, ATLAS ölçüm cihazları daha önce kaydedilen tüm değerleri aşan bir enerji dalgası kaydetti. Ekipler, anomali merkezinde 12 saniyeden fazla sürmeyen kısa süreli bir fiziksel tezahür gözlemledi. Bundan sonra, Huni kapandı. {{pargraphStart}}Resmi açıklama: Olay sona erdi. Bölge başarıyla savunuldu. Sektördeki karantina kaldırıldı.{{pargraphStart}}{{@ class $highlightText}}KÜRATÖRÜN KİŞİSEL NOTU (Sadece özel yedekler için){{/}}{{pargraphStart}}Kazanmadık. Sona erdi.{{pargraphStart}}Bu bir istila değildi. Bir kamuflajdı. Çöküşünden saniyeler önce Huninin merkezinde ortaya çıkan şeyin etrafındaki koruyucu bir çevre.{{pargraphStart}}Onlarca Dikilitaş aynı anda ortaya çıktı. Hâlâ ne yaptıklarını bilmiyoruz. ATLAS tüm parametreleri kaydetti ancak bunları yorumlamak zaman alacak. Neredeyse kesin olarak bildiğimiz tek bir şey var: Anomali bir tür süreci tamamladı.{{pargraphStart}}Her ne yapıyorduysa bir sonraki saldırıya hazırlanmalıyız. Artık yeterli veriye sahibiz. Mühendislerimiz kayıtları inceliyorlar ve dürüst olmak gerekirse onları hiç bu kadar heyecanlı görmemiştim. Araçlarımızı ciddi şekilde güçlendirebileceğimizi düşünüyorlar. Huni geri dönmeden bunu yapmamız gerekiyor. {{pargraphStart}}Aklımdan bir şeyi çıkaramıyorum: Eğer bu olay burada gerçekleştiyse ve bu kadar kısa sürdüyse, daha önce kaç kez gerçekleşmiştir? ATLAS'ın olmadığı, bunu gören kimsenin olmadığı yerlerde...{{pargraphStart}}İMZA: KÜRATÖR (M PROJESİ)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Hazırdık"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Neden Burası?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. Yanlış Soru"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Sona erdi"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Bir sonraki Hikaye bölümüne geçmek için Normal zorluk seviyesini tamamlayın."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Bir sonraki Hikaye bölümüne geçmek için İleri zorluk seviyesini tamamlayın."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Son Hikaye bölümüne geçmek için Vahşi zorluk seviyesini tamamlayın."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Sonraki Hikaye"
+
+msgid "preBattle/leave"
+msgstr "Savaştan Çıkın"
+
+msgid "preBattle/searching"
+msgstr "MÜTTEFİK ARANIYOR..."
+
+msgid "preBattle/tip"
+msgstr "Operasyonel Kuvvet bulmak çok uzun mu sürüyor? Zorluk seviyesini değiştirerek deneyin."
+
+msgid "preBattle/uppercase/leave"
+msgstr "SAVAŞTAN ÇIKIN"
+
+msgid "promoWindow/header"
+msgstr "SON DİRENİŞ'TE OYNAYIN"
+
+msgid "promoWindow/subheader"
+msgstr "{dateRange} tarihinden itibaren Son Direniş PvE oyun kipindeki yeni bölümü keşfedin.\nBir temalı {cream_open}3B eklenti{cream_close} seti, Deneysel Donanım ve seçkin ödüller kazanın."
+
+msgid "questCard/allCompleted"
+msgstr "Tüm günlük görevler tamamlandı"
+
+msgid "questCard/completed"
+msgstr "Günlük görev tamamlandı.\nYarın tekrar gelin."
+
+msgid "reward/rest"
+msgstr "Ve %(count)s tane daha"
+
+msgid "rewardPath/about"
+msgstr "HEDEFLER HAKKINDA"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Etkinlik Gelişimi hakkında daha fazla bilgi edinin."
+
+msgid "rewardPath/boostTitle"
+msgstr "Gelişiminizi hızlandırın ve daha fazla veri {icon} kazanın"
+
+msgid "rewardPath/btn/shop"
+msgstr "Dükkân'da Bakın"
+
+msgid "rewardPath/completed"
+msgstr "Tüm veriler ve ödüller alındı"
+
+msgid "rewardPath/completedTitle"
+msgstr "Özgün temalı özelleştirme ögeleri için Dükkânı ziyaret edin"
+
+msgid "rewardPath/intro"
+msgstr "GİRİŞ"
+
+msgid "rewardPath/introTooltip"
+msgstr "Tanıtım videosunu izleyin."
+
+msgid "rewardPath/progress"
+msgstr "{artefactIndex}. AŞAMADA alınan Veri: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "GELİŞİM"
+
+msgid "rewardPathCard/completed"
+msgstr "Tamamlandı"
+
+msgid "rewardPathCard/name"
+msgstr "Ödül Yolu"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Etkinlik Paketleri"
+
+msgid "squad/goToAnother/cancel"
+msgstr "İptal"
+
+msgid "squad/goToAnother/message"
+msgstr "Takım dağıtılacak."
+
+msgid "squad/goToAnother/submit"
+msgstr "Ayrıl"
+
+msgid "squad/goToAnother/title"
+msgstr "Son Direniş: Terra Nord etkinliğinden çıkılsın mı?"
+
+msgid "squad/leave/cancel"
+msgstr "İptal"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Takım dağıtılacak."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Olumlu!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Son Direniş: Terra Nord etkinliği sona erdi."
+
+msgid "squad/leave/message"
+msgstr "Takım dağıtılacak."
+
+msgid "squad/leave/submit"
+msgstr "Ayrıl"
+
+msgid "squad/leave/title"
+msgstr "Son Direniş: Terra Nord Takımından çıkılsın mı?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Devam Et"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Bir Takımdasınız ve savaşa hazırsınız."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Takımdan ayrılamazsınız!"
+
+msgid "stageReward/rewards/received"
+msgstr "Ayrıca alınanlar:"
+
+msgid "stageReward/special/header"
+msgstr "VAHŞİ ZORLUK SEVİYESİ TAMAMLANDI!"
+
+msgid "stageReward/special/subheader"
+msgstr "Özel ödül alındı"
+
+msgid "stageReward/stage/header"
+msgstr "ALINAN ÖDÜLLER"
+
+msgid "stageReward/stage/subheader"
+msgstr "Son Direniş: {{number}}. Aşaması tamamlandı"
+
+msgid "stageReward/stageFinal/header"
+msgstr "TÜM ÖDÜLLER ALINDI"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Son Direniş: Son Aşama tamamlandı"

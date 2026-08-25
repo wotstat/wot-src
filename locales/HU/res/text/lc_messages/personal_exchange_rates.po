@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Korlátozott átváltási arány"
+msgstr[1] "Korlátozott átváltási arány %(index)s"
+msgstr[2] "Korlátozott átváltási arány %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "Legalább egy határértéket túlléptél. A fizetés egy része a következő arányban történik."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Alap átváltási arány"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "A következő alkalmazható arány"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Az aktív korlátozott átváltási arány száma: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "A korlátozott átváltási arány teljes mennyisége: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "Átváltás után:"
+
+msgid "common/cancel"
+msgstr "Mégse"
+
+msgid "common/combinedDiscount"
+msgstr "Kombinált kedvezmény"
+
+msgid "common/exchange"
+msgstr "Átváltás"
+
+msgid "common/exchangeRate"
+msgstr "Átváltási arány"
+
+msgid "common/limitExceeded"
+msgstr "Túllépted a határértéket. Az átváltás kombinált kedvezménnyel történik."
+
+msgid "common/limitOverExceeded"
+msgstr "Túllépted a határértéket: Kombinált kedvezmény lesz alkalmazva."
+
+msgid "common/limitRestrictions"
+msgstr "TOVÁBBI RÉSZLETEK"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Alap átváltási arány: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Általános átváltási arány: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "Sikeresen átváltottál %(gold)s aranyat. Kapott kredit: %(res)s."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Személyes átváltási arány: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Személyes átváltási arány: %(rateFrom)s = %(rateTo)s. Túllépted a határértéket"
+
+msgid "exchangeXP/information"
+msgstr "Sikeresen átváltottál %(res)s XP-t szabad XP-re. Elköltött arany: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "Elérhető XP:"
+
+msgid "experienceExchange/paid"
+msgstr "Elköltve"
+
+msgid "experienceExchange/received"
+msgstr "Megszerezve:"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Rendezés a járművek szintje szerint"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Rendezés a harctéri módosítás szintje szerint"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Rendezés a járművek neve szerint"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Rendezés nemzetek szerint"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Rendezés a járművek típusa szerint"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Rendezés a kiválasztott járművek szerint"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Rendezés a szerzett XP alapján"
+
+msgid "goldExchange/paid"
+msgstr "Erről"
+
+msgid "goldExchange/received"
+msgstr "Erre"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s arany = %(resourceRate)s kredit"
+
+msgid "notification/discountDescription/message"
+msgstr "Személyes átváltási arány"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "Az átváltáshoz"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Új átváltási arány érhető el!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Alap átváltási arány"
+
+msgid "tooltip/common/generalRate"
+msgstr "Általános átváltási arány"
+
+msgid "tooltip/common/personalRate"
+msgstr "Személyes átváltási arány"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Kedvező átváltási arány"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Ideiglenes átváltási arány"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "A mennyiséget csak az arany megvásárlása után lehet meghatározni."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Az arany mennyisége átváltás után"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s arany = %(resourceRate)s szabad XP"

@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "For å bekrefte, skriv inn antall erfaringspoeng til overføring for det valgte besetningsmedlemmet."
+
+msgid "assignmentDialog/price"
+msgstr "Pris:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Overfør all besetningserfaring mellom besetningsmedlemmer"
+
+msgid "assignmentDialog/title"
+msgstr "Bekreft mentorkurs"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Dette besetningsmedlemmet blir fjernet fra\nkontoen din uten mulighet for gjenopprettelse."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} ekstra erfaringspoeng går tapt."
+
+msgid "dialogue/description"
+msgstr "En enhet med forbruksmateriell som lar deg overføre all besetningserfaring mellom besetningsmedlemmer fra samme nasjon."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}Ekstra erfaringspoeng går tapt:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "VELG"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Totalt antall erfaringspoeng:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Mentorlisens(er):{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Ingen passende besetningsmedlemmer"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Velg det besetningsmedlemmet som skal overføre sine erfaringspoeng\ntil {cream_Open}%(name)s{cream_Close} og bli fjernet fra kontoen din."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "Etter at besetningserfaring er overført, vil {cream_Open}%(name)s{cream_Close} nå fordelsgrensen og all overskytende erfaring går tapt."
+
+msgid "mentorAssigment/title"
+msgstr "VELG MENTOR"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close}, har nådd fordelsgrensen og kan ikke velges til overføring av erfaring."
+
+msgid "multipleUserName"
+msgstr "Mentorlisenser"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Mentorlisens(er) benyttet: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "Overført besetningserfaring: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "Mentorkurs"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>Ekstra besetningserfaring som går tapt: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Lar deg overføre besetningserfaring mellom besetningsmedlemmer\nfra samme nasjon."
+
+msgid "storage/userName"
+msgstr "MENTORLISENS"
+
+msgid "userName"
+msgstr "MENTORLISENS"

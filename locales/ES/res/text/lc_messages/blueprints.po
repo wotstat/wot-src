@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Plano ensamblado"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Plano  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Plano {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "A Compra"
+
+msgid "blueprintScreen/button/research"
+msgstr "A Desarrollo"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Ver en el garaje"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Al ensamblar un plano recibes un descuento en el desarrollo del vehículo que quieres. Sin embargo, debes desarrollar los vehículos anteriores\nde la rama para poder usarlo."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "¡Afirmativo!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "No se puede desarrollar"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "Para crear un fragmento de plano, necesitas:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "elige:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "CREAR FRAGMENTO:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Crear fragmentos"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Convertir\nfragmento"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Conversión\nindisponible"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "INDISPONIBLE:\nRecursos\ninsuficientes"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Ir a Vehículo"
+
+msgid "blueprintScreen/or"
+msgstr "o"
+
+msgid "blueprintScreen/research"
+msgstr "DESARROLLAR"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Desarrollo gratuito del vehículo"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "No se puede desarrollar"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Descuento en el desarrollo:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Este vehículo se ha desarrollado y está a la venta"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Este vehículo se ha desarrollado y comprado"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "En el depósito:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Puedes desarrollar el {vehicleName} con un descuento del 100 % tras desarrollar el vehículo que le precede en la rama."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Plano ensamblado"
+
+msgid "blueprintScreen/unlocked"
+msgstr "VEHÍCULO\nDESARROLLADO"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "La Coalición:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "El Bloque:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "La Alianza:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "La Unión:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Universales:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "la Coalición"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "el Bloque"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "la Alianza"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "la Unión"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Francia, Checoslovaquia, Suecia e Italia)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Alemania y Japón)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(Estados Unidos, el Reino Unido y Polonia)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(URSS y China)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Elige el número de fragmentos nacionales para crear fragmentos de planos de un vehículo.\nFragmentos nacionales disponibles de %(allianceIcon)%(allianceName) %(allianceNations)."
+
+msgid "conversionView/topMessage/single"
+msgstr "Elige fragmentos de una de las naciones para crear un fragmento de plano de un vehículo.\nFragmentos nacionales disponibles de %(allianceIcon)%(allianceName) %(allianceNations)."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Coste total:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Coste del fragmento de plano:"
+
+msgid "nations/china"
+msgstr "China"
+
+msgid "nations/czech"
+msgstr "Checoeslovaquia"
+
+msgid "nations/france"
+msgstr "Francia"
+
+msgid "nations/germany"
+msgstr "Alemania"
+
+msgid "nations/italy"
+msgstr "Italia"
+
+msgid "nations/japan"
+msgstr "Japón"
+
+msgid "nations/poland"
+msgstr "Polonia"
+
+msgid "nations/sweden"
+msgstr "Suecia"
+
+msgid "nations/uk"
+msgstr "El Reino Unido"
+
+msgid "nations/usa"
+msgstr "Estados Unidos"
+
+msgid "nations/ussr"
+msgstr "URSS"

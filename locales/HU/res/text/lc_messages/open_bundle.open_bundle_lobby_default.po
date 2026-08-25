@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Értettem!"
+
+msgid "attachments_preview/description"
+msgstr "3D-kiegészítő készlet"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Mesés 3D-kiegészítő"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Legendás 3D-kiegészítő"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Ritka 3D-kiegészítő"
+
+msgid "bundle/name"
+msgstr "Rejtélyes piac"
+
+msgid "bundle/name_uppercased"
+msgstr "REJTÉLYES PIAC"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Mégse"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Vásárlás"
+
+msgid "confirmation/description"
+msgstr "Erősítsd meg, hogy megkapd a kötvényeket és egy új cella jutalmát!"
+
+msgid "confirmation/purchase"
+msgstr "Megvásárolod {{price}} áron?"
+
+msgid "entryPoint/button"
+msgstr "Az eseményhez"
+
+msgid "entryPoint/title"
+msgstr "Megérkezett a(z) {{eventName}}. Lesd meg!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Ha a(z) {{eventName}} során kötvényeket vásárolsz, bónusz ajándékként kapsz egy jutalmat az egyik még ki nem nyitott cellából. A cellák értékes játékbeli tárgyakat tartalmaznak – többek között az esemény fő jutalmát: egy prémium járművet."
+
+msgid "intro/cards/description/c_2"
+msgstr "A jutalmakat véletlenszerű sorrendben kapod meg. Minden még ki nem nyitott cella kiválasztásának külön valószínűsége van, amelyek összesen mindig 100%-ot tesznek ki. Ha kinyitottál egy cellát, azt nem nyithatod ki újra, és nő a megmaradt jutalmak megszerzésének esélye."
+
+msgid "intro/cards/description/c_3"
+msgstr "Minden lépcsőfok meghatározott mennyiségű aranyba kerül. A kapott kötvények száma és a lépcsőfokok ára változik, ahogy haladsz előre."
+
+msgid "intro/cards/link"
+msgstr "Az egyes lépcsőfokok feltételeit és árait megtekintheted a {{@ class 'linkPart'}}portálon.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Kötvények vásárlása"
+
+msgid "intro/cards/title/c_2"
+msgstr "Cellák és valószínűségek"
+
+msgid "intro/cards/title/c_3"
+msgstr "Lépcsőfokok árai"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "VÁR A JUTALMAD"
+
+msgid "main/alt/description"
+msgstr "Valószínűségek megtekintése"
+
+msgid "main/alt/tooltip/body"
+msgstr "Nyomd meg az Alt billentyűt az egyes cellák megszerzési valószínűségének megtekintéséhez."
+
+msgid "main/alt/tooltip/header"
+msgstr "Valószínűségek megjelenítése"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "GRATULÁLUNK!\n MEGSZEREZTED AZ ÖSSZES JUTALMAT"
+
+msgid "main/footer/button"
+msgstr "Vásárlás"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}Jutalom egy cellából"
+
+msgid "main/footer/receive"
+msgstr "Ezt kapod: {{item}}"
+
+msgid "main/header/description"
+msgstr "Vegyél részt az eseményen {{startDate}} és {{endDate}} között, és zsebeld be a jutalmakat!"
+
+msgid "main/multi"
+msgstr "{{count}}x"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "{{count}}x"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Tovább a testreszabáshoz"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Tovább a stílushoz"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Tovább a járműhöz"
+
+msgid "notifications/specialReward/title"
+msgstr "A {{eventName}} fő jutalma a tiéd!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "További jutalmak:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Megszerezve:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Technikai okokból kifolyólag ez a művelet átmenetileg nem érhető el. Kérjük, próbáld újra később."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Az eseményhez"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "A %(eventName)s hamarosan véget ér!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Az esemény eddig érhető el: %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "%(eventName)s cella kinyitva"
+
+msgid "tooltips/entry/description"
+msgstr "Vár a jutalmad! Minden kötvényvásárlás után egy véletlenszerű jutalmat kapsz ajándékba az egyik cellából. Minden alkalommal egy új cellát nyitsz ki, mivel a már kinyitott cellákat nem nyithatod ki újra."
+
+msgid "tooltips/entry/timer"
+msgstr "Az esemény eddig érhető el: {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "Az eseményről"
+
+msgid "tooltips/steps/description"
+msgstr "Minden vásárlásért több {{currency}} jár. A kapott mennyiség növekszik bizonyos lépcsőfokok megvásárlásakor."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} minden vásárlásért"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Lépcsőfokok:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} – {{end}}"

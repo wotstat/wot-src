@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Blauwdruk samengesteld"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Blauwdruk  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Blauwdruk {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "Naar kopen"
+
+msgid "blueprintScreen/button/research"
+msgstr "Naar onderzoek"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Bekijken in de garage"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Je kunt een blauwdruk samenstellen om een korting toe te passen op het onderzoeken van een gewild voertuig. Je moet echter wel het voorgaande voertuig in de tak onderzoeken\nom de korting te kunnen gebruiken."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Positief!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Niet in staat te onderzoeken"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "Om een blauwdrukfragment te creëren, heb je nodig:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "selecteer:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "FRAGMENT CREËREN:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Creëer fragmenten"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Fragment\nomzetten"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Omzetting\nonbeschikbaar"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "ONBESCHIKBAAR:\nNiet genoeg\nmiddelen"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Naar het voertuig"
+
+msgid "blueprintScreen/or"
+msgstr "of"
+
+msgid "blueprintScreen/research"
+msgstr "ONDERZOEK"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Het voertuig gratis onderzoeken"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Niet in staat te onderzoeken"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Korting op het onderzoeken:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Dit voertuig is onderzocht en beschikbaar voor aankoop"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Dit voertuig is onderzocht en gekocht"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "In het depot:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Je kunt een 100% korting gebruiken op het onderzoeken van de {vehicleName} nadat je het voorgaande voertuig in de tak onderzocht hebt."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Blauwdruk samengesteld"
+
+msgid "blueprintScreen/unlocked"
+msgstr "VOERTUIG\nONDERZOCHT"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Coalitie:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Blok:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Alliantie:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Unie:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Universeel:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Coalitie"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Blok"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Alliantie"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Unie"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Frankrijk, Tsjecho-Slowakije, Zweden, Italië)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Duitsland, Japan)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(V.S., V.K., Polen)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(Sovjet-Unie, China)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Selecteer het aantal nationale fragmenten om blauwdrukfragmenten van een voertuig te creëren.\n%(allianceIcon)%(allianceName)%(allianceNations) nationale fragmenten beschikbaar."
+
+msgid "conversionView/topMessage/single"
+msgstr "Selecteer fragmenten van een van de naties om een blauwdrukfragment van een voertuig te creëren.\n%(allianceIcon)%(allianceName)%(allianceNations) nationale fragmenten beschikbaar."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Uiteindelijke kosten:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Blauwdrukfragment kosten:"
+
+msgid "nations/china"
+msgstr "China"
+
+msgid "nations/czech"
+msgstr "Tsjecho-Slowakije"
+
+msgid "nations/france"
+msgstr "Frankrijk"
+
+msgid "nations/germany"
+msgstr "Duitsland"
+
+msgid "nations/italy"
+msgstr "Italië"
+
+msgid "nations/japan"
+msgstr "Japan"
+
+msgid "nations/poland"
+msgstr "Polen"
+
+msgid "nations/sweden"
+msgstr "Zweden"
+
+msgid "nations/uk"
+msgstr "V.K."
+
+msgid "nations/usa"
+msgstr "V.S."
+
+msgid "nations/ussr"
+msgstr "SOVJET-UNIE"

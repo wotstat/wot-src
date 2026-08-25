@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "Приймаю"
+
+msgid "EULA/labels/agree"
+msgstr "Я приймаю"
+
+msgid "EULA/title"
+msgstr "Ліцензійна угода"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "До вашого акаунта вже було прив’язано пошту."
+
+msgid "accountCompletion/activate/button"
+msgstr "Вислати код / змінити email"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "Вислати код повторно чи змінити email через %(timer) с"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "Ввести email ще раз"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "Код застарів. Введіть ваш email ще раз."
+
+msgid "accountCompletion/activate/keyError"
+msgstr "Хибний код"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "Якщо ви не можете знайти лист, спробуйте змінити email, можливо у вас описка."
+
+msgid "accountCompletion/activate/text"
+msgstr "На email {whiteSpanish_Open}%(email){whiteSpanish_Close} надіслано листа від Wargaming.net із кодом підтвердження. Введіть 4-значний код, щоб підтвердити email та доповнити акаунт."
+
+msgid "accountCompletion/activate/title"
+msgstr "Підтвердьте email"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "Ви занадто часто вводили невірний код."
+
+msgid "accountCompletion/add"
+msgstr "Додати"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "До вашого акаунта вже прив’язано email."
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "Email уже прив’язано"
+
+msgid "accountCompletion/cancel"
+msgstr "Не зараз"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "Ваш email"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "Email"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "Додайте свій email, щоб отримати нагороду та повний доступ до всіх ігрових подій."
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "ОТРИМАЙТЕ ПОВНИЙ ДОСТУП ДО ГРИ"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "Додайте та підтвердьте email, щоб отримати нагороду й відкрити нові можливості. %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "Доповніть акаунт"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "На цей email уже зареєстровано акаунт."
+
+msgid "accountCompletion/emailForbidden"
+msgstr "Цей email заборонений."
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "Email може містити щонайбільше %(amount)s символів."
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "Email може містити щонайменше %(amount)s символів."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "Ваш email уже підтверджено."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "Email підтверджено"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "Перевищено кількість запитів. Змінити email або відправити лист повторно можна через %(timer)"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "Цей поштовий сервіс заблокований на території вашої країни."
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "Цей поштовий сервіс заборонений у вашій країні."
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "Неможливо прив’язати email"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "Email може містити лише латинські літери, цифри, символ @, крапку та підкреслення."
+
+msgid "accountCompletion/later"
+msgstr "Пізніше"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "Нагорода за підтвердження пошти"
+
+msgid "accountCompletion/submit"
+msgstr "Підтвердити"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "Очікуємо в черзі на сервері.\nЦе може тривати деякий час."
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) Сервіс тимчасово недоступний. Спробуйте пізніше."
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) Сервіс тимчасово недоступний.\nСпробуйте ще раз за %(time)s."
+
+msgid "barracksExpand/cancel"
+msgstr "Скасувати"
+
+msgid "barracksExpand/message"
+msgstr "Збільшити Казарму за %(price)s, додавши ліжок: %(count)s?"
+
+msgid "barracksExpand/submit"
+msgstr "Збільшити"
+
+msgid "barracksExpand/title"
+msgstr "Збільшити Казарму"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "Гаразд"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "Недостатньо золота."
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "Гаразд"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "Збільшити Казарму"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "Скасувати"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "Не всі гравці готові до бою або їхня кількість менша за необхідну."
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "Почати бій"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "Неповний склад"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "Активувати бонус %(newBoosterName)s"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "Підтвердити"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "Підтвердити активацію"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "У разі активації особистого резерву %(newBoosterName)s буде скасований та зникне той що діє %(curBoosterName)s."
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "Підтвердити"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "Підтвердити активацію"
+
+msgid "buyConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "buyConfirmation/message"
+msgstr "Купити %(product)s за %(price)s?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "Купити «{%name}» {%count} шт.?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "Купити обладнання «%(equipment)s»?"
+
+msgid "buyConfirmation/submit"
+msgstr "Купити"
+
+msgid "buyConfirmation/title"
+msgstr "Підтвердити купівлю"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "несумісністю"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " зі встановлюваним модулем."
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "Спорядження «%(conflicted)s» буде переміщено на Склад через "
+
+msgid "buyInstallConfirmation/message"
+msgstr "Купити та встановити %(kind)s «%(name)s» на вибрану машину за %(price)s%(creditsIcon)s? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "Купити та встановити %(kind)s «%(name)s» на вибрану машину за %(price)s кредитів?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "Купити"
+
+msgid "buyInstallConfirmation/title"
+msgstr "Підтвердити купівлю"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "Купити преміум акаунт на %(days)s дб за %(gold)s золота?\n %(alertIcon)s %(alertColorTagOpen)s Через технічні негаразди додатковий досвід і кредити не додаватимуть. Ви можете вибрати інший бій або купити преміум акаунт стандартним способом.%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "Купити"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "Підтвердити купівлю"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "Слот у Гаражі"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "buySlotConfirmation/message"
+msgstr "Купити додатковий слот в Гаражі за %(goldCost)s?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "Купити"
+
+msgid "buySlotConfirmation/title"
+msgstr "Підтвердити купівлю"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "Гаразд"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "Недостатньо кредитів для купівлі додаткового слоту в Гаражі."
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "Гаразд"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "Недостатньо кредитів"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "Гаразд"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "Недостатньо золота для купівлі додаткового слоту в Гаражі."
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "Гаразд"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "Недостатньо золота"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "Немає вільних слотів у Гаражі. Купити додатковий слот за {%d} кредитів?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "Купити"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "Підтвердити купівлю"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "Завантажити базовий боєзапас"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "Скасувати"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "У машині вже є екіпаж."
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "На термін прокату техніки ви отримуєте безкоштовний слот."
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "Неможливо завантажити боєзапас: обрана машина вже має повний боєзапас."
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "Неможливо завантажити боєзапас: обрана машина ще має боєзапас."
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "Вартість %(vehiclename)s:"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "Купити додатковий слот"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "Купити"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "Купівля"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "Обмін"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "Купити машину без екіпажу"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "Підготування екіпажу:"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "Членів екіпажу: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "Купівля %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "Разом:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "Ви ввели неправильну інформацію!"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "Введіть суму золота із графи «ЗАГАЛЬНИЙ ПІДСУМОК»"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "Підтвердити операцію:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "У вас немає придатної\nтехніки на обмін"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "Машину оцінено у %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "Навчити екіпаж: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "Загальний підсумок:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "Вибрати машину"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "Виберіть доступну на обмін\nпреміум машину"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "Скасувати"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "Доплатити, щоб отримати %(vehiclename)s:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "Обміняти"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "Купити машину без екіпажу"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "Обмін %(vehiclename)s"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "Натиснувши «Обміняти», ви втратите можливість отримати компенсацію золотом за куплене обладнання і спорядження. Уважно все перевірте."
+
+msgid "buyVehicleWindow/warning"
+msgstr "Натиснувши «Купити», ви втратите можливість отримати компенсацію золотом за куплене обладнання і спорядження. Уважно все перевірте."
+
+msgid "challenge_missions/activation/cancel"
+msgstr "Скасувати"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "Активувати"
+
+msgid "challenge_missions/activation/description"
+msgstr "Після активації низку завдань Горнила можна {{@ style (color #FFE4C0)}}виконати, провалити чи покинути{{/}}. Якщо провалите завдання в серії, то втратите один щит."
+
+msgid "challenge_missions/activation/title"
+msgstr "Активувати Горнило: {{challengeName}}?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "Скасувати"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "Перезапустити"
+
+msgid "challenge_missions/restart/description"
+msgstr "Ваш прогрес завдань скинеться, щити буде відновлено, а нагороди можна буде здобути знову. Низка завдань стане активною одразу після перезапуску."
+
+msgid "challenge_missions/restart/free/title"
+msgstr "Перезапустити Горнило: {{challengeName}} безкоштовно?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "Перезапустити Горнило: {{challengeName}} за {{cost}}?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "Скасувати"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "Покинути"
+
+msgid "challenge_missions/surrender/description"
+msgstr "Це завершить низку завдань Горнила й скине увесь прогрес і щити. Ви зможете перезапустити її будь-коли."
+
+msgid "challenge_missions/surrender/title"
+msgstr "Покинути Горнило: {{challengeName}}?"
+
+msgid "changeGraphics/cancel"
+msgstr "Скасувати"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s У цьому оновленні графіка була суттєво перероблена. Ви можете автовизначити налаштування графіки або ж скасувати автовизначення та змінити їх вручну."
+
+msgid "changeGraphics/submit"
+msgstr "Автовизначити"
+
+msgid "changeGraphics/title"
+msgstr "Автовизначення налаштувань графіки"
+
+msgid "changePeriphery/cancel"
+msgstr "Скасувати"
+
+msgid "changePeriphery/message"
+msgstr "Ви дійсно хочете перейти на інший сервер?"
+
+msgid "changePeriphery/submit"
+msgstr "Перейти"
+
+msgid "changePeriphery/title"
+msgstr "Підтвердження переходу"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "Скасувати"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "Налаштування сервера збережено. Ви можете ввімкнути чи вимкнути автоматичний вхід у налаштуваннях гри."
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "Перейти"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "Перейти на інший сервер?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "Скасувати"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "Ви дійсно хочете перейти на іноземний сервер?\n\nПісля зміни регіону діятимуть такі обмеження:\n\t• недоступна деяка техніка;\n\t• не відтворюються емблеми і написи;\n\t• недоступні «Бойові завдання», особисті резерви і режим «Навчальний бій».\n\nМожливі помилки і проблеми з якістю з’єднання. З повагою ставтеся до гравців з інших регіонів."
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "Перейти"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "Підтвердження переходу"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "Скасувати"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "Ви дійсно хочете перейти на іноземний сервер?\n\nПісля зміни регіону діятимуть такі обмеження:\n\t• недоступна деяка техніка;\n\t• не відтворюються емблеми та написи;\n\t• недоступні бойові завдання, особисті резерви та режим «Навчальний бій».\n\nМожливі помилки та проблеми з якістю з’єднання. З повагою ставтеся до гравців з інших регіонів.\n\n\nНалаштування сервера буде збережено.\nПерейдіть до налаштувань гри, щоб вимкнути чи ввімкнути автоматичний вхід."
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "Перейти"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "Підтвердження переходу"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "Скасувати"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sВи збираєтеся вступити до клану:\n%(clanName)s\n\nПідтверджуючи вступ, ви автоматично приймаєте правила поведінки у клані й погоджуєтеся на участь у його житті та розвитку.\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "Якщо ви вийдете з клану, діятиме тимчасове обмеження на вступ до нового."
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "Підтвердити"
+
+msgid "clanConfirmJoining/title"
+msgstr "Підтвердження вступу до клану"
+
+msgid "clan_data_not_available/cancel"
+msgstr "Закрити"
+
+msgid "clan_data_not_available/message"
+msgstr "Профіль клану цього гравця тимчасово недоступний. Спробуйте пізніше."
+
+msgid "clan_data_not_available/title"
+msgstr "Увага!"
+
+msgid "common/cancel"
+msgstr "Скасувати"
+
+msgid "common/confirm/cancel"
+msgstr "Ні"
+
+msgid "common/confirm/submit"
+msgstr "Так"
+
+msgid "common/cost"
+msgstr "Вартість:"
+
+msgid "common/error/cancel"
+msgstr "Закрити"
+
+msgid "common/submit"
+msgstr "Продовжити"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "Скасувати"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "Купити"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "Купити та встановити настанови"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "Скасувати"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "Увага! У вас відсутнє обладнання %(devices)s. Настанова %(font_tag_open)sНЕ ПРАЦЮВАТИМЕ.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "Встановити"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "Встановити настанову"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "Скасувати"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "Увага! У вас відсутнє обладнання, сумісне з вибраною настановою. Настанова %(font_tag_open)sНЕ ПРАЦЮВАТИМЕ.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "Встановити"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "Встановити настанову"
+
+msgid "confirmBuy/title"
+msgstr "Купити «%(moduleName)s»?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "Скасувати"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "Модуль буде відправлено на Склад."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "Щоб купити, не вистачає:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "Здобудьте кредити в бою, продайте надлишки зі Складу чи обміняйте золото."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "Недостатньо кредитів"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "Вартість модуля:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "Продати замінний модуль «%(previousModuleName)» за: %(previousModulePrice)"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "Цей модуль поєднаний із:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "Ви можете продати модуль зараз або помістити його на Склад, де пізніше зможете продати чи встановити назад."
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "Купити"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "Купити та встановити «%(moduleName)s»?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "Купити та встановити обладнання «%(equipment)s»?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "Встановити"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "Скасувати"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "Обмін для купівлі не потрібен.\nУ вас достатньо кредитів."
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "Обмін для купівлі неможливий.\nЩоб обміняти, потрібно %(gold)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "Обміняти %(gold)s на кредити, яких бракує?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "Потрібно кредитів:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "Для купівлі не вистачає: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "Обміняти"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "Підтвердження обміну для купівлі"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "Скасувати"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "Конвертувати досвід для дослідження не потрібно.\nУ вас достатньо досвіду."
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "Конвертація для дослідження неможлива.\nЩоб конвертувати, потрібно %(gold)s"
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "Конвертувати бракуючий досвіду за %(gold)s?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "Потрібно досвіду:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "На дослідження не вистачає: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "Вибрати техніку"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "Підтвердження конвертації для дослідження"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "Разом:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "Скасувати"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "Обмінювати, щоб відновити, не потрібно.\nУ вас достатньо кредитів."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "Обміняти, щоб відновити, неможливо.\nЩоб обміняти, потрібно %(gold)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "Обміняти %(gold)s на кредити, яких бракує?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "Потрібно кредитів:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "Щоб відновити, не вистачає: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "Обміняти"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "Підтвердити обмін для відновлення"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "Кількість:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "Кількість"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "Разом"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "Вартість:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "Вартість"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "Разом:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "Разом"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "Разом:"
+
+msgid "confirmUnlock/cancel"
+msgstr "Ні"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} (включно з {{freeXP}})?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "Дослідити {{items}} за"
+
+msgid "confirmUnlock/item/message"
+msgstr "Ви дійсно хочете дослідити %(typeString)s %(userString)s за %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (з них %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "confirmUnlock/submit"
+msgstr "Так"
+
+msgid "confirmUnlock/title"
+msgstr "Підтвердження дослідження"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "Дослідити %(userString)s за %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (з них %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "Скасувати"
+
+msgid "controlsWrongNotification/message"
+msgstr "Деяким діям не призначені клавіші. Зберегти налаштування керування?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "Зберегти"
+
+msgid "controlsWrongNotification/title"
+msgstr "Помилка"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "Скасувати"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "Файли вибраного голосу повідомлень пошкоджені або відсутні, буде призначений голос повідомлень за замовчуванням.\nДеяким діям не призначено клавіші. Зберегти налаштування?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "Зберегти"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "Помилка"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "createOrderConfirmation/submit"
+msgstr "Підтвердити"
+
+msgid "createOrderConfirmation/title"
+msgstr "Підтвердження підготування резерву"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "Замало коштів для купівлі."
+
+msgid "crewBookPurchase/description/crew"
+msgstr "Застосовують для всього екіпажу. Після вивчення %(book)s додає %(exp)s досвіду для кожного члена екіпажу."
+
+msgid "crewBookPurchase/description/personal"
+msgstr "Застосовують до обраного члена екіпажу. Після вивчення %(book)s додає йому %(exp)s досвіду."
+
+msgid "crewBookPurchase/purchase"
+msgstr "Купити"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "Придбати %(book)s?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "Скасувати"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "Усі встановлені деколі {season} мапах буде {removed} з машини,\nбо цей слот недоступний для {this}"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "Підтвердити"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "цих мап."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "цієї мапи."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "Встановити цю деколь у цей слот для всіх мап?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "Після купівлі елементи нанесуть на вибрану машину, а помічені зірочкою елементи стануть недоступними для іншої техніки."
+
+msgid "customization/buy_install_bound/title"
+msgstr "Підтвердження купівлі елементів"
+
+msgid "customization/change_install_bound/message"
+msgstr "Після застосування елементи нанесуть на вибрану машину, а помічені зірочкою елементи стануть недоступними для іншої техніки."
+
+msgid "customization/change_install_bound/title"
+msgstr "Підтвердження зміни елементів"
+
+msgid "customization/close/cancel"
+msgstr "Скасувати"
+
+msgid "customization/close/submit"
+msgstr "Вийти"
+
+msgid "customization/close/title"
+msgstr "Вийти в Гараж не зберігаючи зміни?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "Скасувати"
+
+msgid "customization/exitToShop/submit"
+msgstr "Перейти"
+
+msgid "customization/exitToShop/title"
+msgstr "Перейти в Магазин, не зберігши зміни?"
+
+msgid "customization/filter/cancel"
+msgstr "Скасувати"
+
+msgid "customization/filter/message"
+msgstr "Всі елементи знімуть. Продовжити?"
+
+msgid "customization/filter/submit"
+msgstr "Зняти все"
+
+msgid "customization/filter/title"
+msgstr "Знаття елементів"
+
+msgid "customization/install_bound/cancel"
+msgstr "Скасувати"
+
+msgid "customization/install_bound/submit"
+msgstr "Продовжити"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "Скасувати"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "Увага! Після нанесення елемента (%(cTypeName)s %(itemName)s) на вибрану машину кількість можливих нанесень на іншу техніку дорівнюватиме %(numberLeft)s. Нанести елемент?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "Нанести"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "Нанесення елемента"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "Скасувати"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "Увага! Після нанесення елемента (%(cTypeName)s %(itemName)s) на вибрану машину ви не матимете можливості нанести його на іншу техніку. Нанести елемент?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "Нанести"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "Нанесення елемента"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "Скасувати"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "Увага! Після нанесення елемента (%(cTypeName)s %(itemName)s) на вибрану машину ви не матимете можливості нанести його на іншу техніку. Знятий елемент %(willBeDeleted)s. Нанести елемент?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "Нанести"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "Нанесення елемента"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "буде видалено"
+
+msgid "customization/remove_element/cancel"
+msgstr "Скасувати"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "Зняти"
+
+msgid "customization/remove_element/title"
+msgstr "Знаття елемента"
+
+msgid "customizationConfirmSell/message"
+msgstr "Продати «%(name)s» за %(price)s%(creditsIcon)s?"
+
+msgid "customizationConfirmSell/title"
+msgstr "Підтвердити продаж"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "кожні %(days)s д"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "кожні %(days)s д %(hours)s год"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "кожні %(hours)s год"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "кожні %(hours)s год %(mins)s хв"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "кожні %(mins)s хв"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "Заміна завдання доступна {timeLimitMsg}"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "Замінити"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "Замінити завдання?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} Деякі машини перебувають у бою. Заміна цього завдання призведе до втрати прогресу. Заміна завдання доступна {timeLimitMsg}"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "Замінити"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "Замінити завдання?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "Увага!"
+
+msgid "dedication/headline"
+msgstr "Отримано нагороду «Герой нашого часу»"
+
+msgid "dedication/sub-headline"
+msgstr "За {battlesNum} зіграних боїв"
+
+msgid "dialogTemplates/cancel"
+msgstr "Скасувати"
+
+msgid "dialogTemplates/confirm"
+msgstr "Підтвердити"
+
+msgid "dialogTemplates/ok"
+msgstr "Так!"
+
+msgid "disconnect/cancel"
+msgstr "Ні"
+
+msgid "disconnect/message"
+msgstr "Від’єднатися від сервера?"
+
+msgid "disconnect/submit"
+msgstr "Так"
+
+msgid "disconnect/title"
+msgstr "Від’єднання від сервера"
+
+msgid "disconnected/cancel"
+msgstr "Гаразд"
+
+msgid "disconnected/message"
+msgstr "Зв’язок з сервером втрачено. Натисніть кнопку Гаразд, щоб знову пприєднатися до сервера."
+
+msgid "disconnected/messageBan"
+msgstr "Ваш акаунт заблоковано.%(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "Ваш акаунт заблоковано до %(expiryTime)s.%(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "Зв’язок з сервером втрачено.%(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \nПричина: %s"
+
+msgid "disconnected/title"
+msgstr "Втрата зв’язку"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "Демобілізувати"
+
+msgid "dismissTankman/description/perk"
+msgstr "Для здійснення операції введіть рівень навички: {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "Щоби здійснити операцію, введіть рівень володіння останньою вивченою навичкою ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "Вибраного члена екіпажу буде демобілізовано. Ви можете повернути його до лав протягом {whiteOrange_Open}%(time)s д{whiteOrange_Close}."
+
+msgid "dismissTankman/header"
+msgstr "Демобілізація члена екіпажу"
+
+msgid "dismissTankman/limited"
+msgstr "Досягнуто ліміту демобілізованих. Демобілізований член екіпажу замінить %(name)s (%(role)s, %(vehicle)s)."
+
+msgid "dismissTankman/noRecovery"
+msgstr "Без можливості відновити"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "Скасувати"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "Увага! Демобілізований %(dismissedName)s замінить %(deletedStr)s. Підтвердити заміну?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "Підтвердити"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "Підтвердити заміну"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "Скасувати"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "Увага! Демобілізований екіпаж замінить %(deletedStr)s і ще %(extraCount)s. Підтвердити заміну?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "Підтвердити"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "Буфер демобілізованих заповнено"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "Замінити"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "Ім’я"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "Прізвище"
+
+msgid "documentChangeDialog/title"
+msgstr "Змінити ім'я та зовнішність?"
+
+msgid "dropSkill/cancel"
+msgstr "Скасувати"
+
+msgid "dropSkill/message"
+msgstr "Скинути всі навички?"
+
+msgid "dropSkill/submit"
+msgstr "Скинути"
+
+msgid "dropSkill/title"
+msgstr "Підтвердження скидання"
+
+msgid "elementType/chassis"
+msgstr "шасі"
+
+msgid "elementType/engine"
+msgstr "двигун"
+
+msgid "elementType/gun"
+msgstr "гармату"
+
+msgid "elementType/radiostation"
+msgstr "радіостанцію"
+
+msgid "elementType/turret"
+msgstr "башту"
+
+msgid "elenDisabled/cancel"
+msgstr "Закрити"
+
+msgid "elenDisabled/message"
+msgstr "Змагання тимчасово недоступні: виконують профілактичні роботи."
+
+msgid "elenDisabled/title"
+msgstr "Увага!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "Скасувати"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "Більше не показувати це попередження"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "В цьому режимі ви побачите малий рівень FPS або графічні спотворення через конфігурацію вашого комп’ютера. Завантаження бою триватиме довгий час і може завершитися аварійним закриттям клієнта гри. Вступити у бій?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "До бою!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "Попередження про продуктивність"
+
+msgid "equipmentBuyInstall/price"
+msgstr "Вартість купівлі:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "Розібрати обладнання «%(equipment)s»?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "Скасувати"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "Розібрати й налагодити"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "Розібрати"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "Після демонтажу це обладнання буде {white_Open}знищено{white_Close}.\nВи можете безпечно демонтувати його за бони."
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "Після демонтажу це обладнання буде {white_Open}знищено{white_Close}.\nВи можете безпечно демонтувати його за золото чи за допомогою набору для демонтажу."
+
+msgid "equipmentDestroy/conformation"
+msgstr "Знищити обладнання «%(equipment)s»?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "Встановити обладнання «%(equipment)s»?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "Продати обладнання «%(equipment)s»?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "Скасувати"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "Налагодити"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "Перейти до розбирання"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "Немає доступного експериментального обладнання для розбирання."
+
+msgid "eula/p1"
+msgstr "Ознайомтеся з умовами <BR/><A HREF='event:%(eulaURL)s'><U>Ліцензійної угоди</U></A>, перш ніж продовжити."
+
+msgid "eula/p2"
+msgstr "НАТИСКАЮЧИ КНОПКУ «ПРИЙМАЮ», ВИ ПІДТВЕРДЖУЄТЕ, ЩО УВАЖНО ПРОЧИТАЛИ, ЗРОЗУМІЛИ ТА ПОВНІСТЮ ЗГОДНІ З УМОВАМИ ЛІЦЕНЗІЙНОЇ УГОДИ, ЗОБОВ’ЯЗУЄТЕСЯ ЇХ ДОТРИМУВАТИСЯ І НЕСТИ ВІДПОВІДАЛЬНІСТЬ ЗА ЇХ ПОРУШЕННЯ. УМОВИ ЛІЦЕНЗІЙНОЇ УГОДИ ТА ДОПОВНЕННЯ ДО НЕЇ Є ВАЖЛИВИМИ ТА ОБОВ’ЯЗКОВИМИ ДЛЯ ВСІХ УЧАСНИКІВ ПРОЕКТУ."
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "Обміняти %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s на %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "Обміняти"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "Обмін золота"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "Знижка на безкоштовну конвертацію до %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s одиниць досвіду буде використана, і наступного разу конвертація буде за золото."
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "Конвертувати %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s одиниць досвіду у вільний досвід за %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "Конвертувати"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "Конвертація у вільний досвід"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "Немає бойового досвіду для конвертації"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "Немає бойового досвіду для конвертації"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "Скасувати"
+
+msgid "fillAllPerks/button/fill"
+msgstr "Автовизначити"
+
+msgid "fillAllPerks/checkbox"
+msgstr "Автоматично вибрати навички для екіпажів у Казармі"
+
+msgid "fillAllPerks/description"
+msgstr "Для члена екіпажу з вільними слотами навичок алгоритм обирає першу навичку з нижченаведеної таблиці залежно від спеціальності. Якщо член екіпажу вже має першу навичку, алгоритм обере другу, доки всі порожні слоти не буде заповнено. Операція може зайняти деякий час."
+
+msgid "fillAllPerks/subTitle"
+msgstr "Навички буде вибрано автоматично тільки для екіпажу в машині."
+
+msgid "fillAllPerks/title"
+msgstr "Вибрати невивчені навички для всіх членів екіпажу автоматично?"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "Скасувати"
+
+msgid "finance_dialog/header"
+msgstr "Підтвердити операцію"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "Введіть ваш фінансовий пароль, щоб підтвердити операцію."
+
+msgid "finance_dialog/results/invalid"
+msgstr "Пароль неправильний."
+
+msgid "finance_dialog/results/limit"
+msgstr "Ви перевищили допустиму кількість спроб введення пароля. Спробуйте за 24 години. <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Забули пароль?</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "Пароль може містити щонайменше 6 символів, символи латинської абетки, цифри та знак підкреслення."
+
+msgid "finance_dialog/submitBtn"
+msgstr "Підтвердити"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "Отримати %(product)s за %(price)s?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "Отримати"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "Підтвердження"
+
+msgid "fortDisabled/cancel"
+msgstr "Закрити"
+
+msgid "fortDisabled/message"
+msgstr "Інформація про клани тимчасово недоступна. Виконують профілактичні роботи."
+
+msgid "fortDisabled/title"
+msgstr "Увага!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "Гаразд"
+
+msgid "fortTurnedOff/message"
+msgstr "Укріпрайон тимчасово недоступний. Спробуйте пізніше."
+
+msgid "fortTurnedOff/title"
+msgstr "Увага!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "Ні"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "Так"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "Скасувати"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "Ви вийдете зі складу гарнізону вибраної будівлі %(oldBuilding)s і будете закріплені за будівлею %(newBuilding)s."
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "Підтвердити"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "Закріпитися за будівлею"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "freeObtainConfirmation/message"
+msgstr "Отримати %(product)s за %(price)s?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "Отримати"
+
+msgid "freeObtainConfirmation/title"
+msgstr "Підтвердження"
+
+msgid "freeSkillsLearning/message"
+msgstr "«Нульову» навичку не потрібно вивчати за досвід. Вона значно знижує кількість досвіду, необхідного для подальшого навчання членів екіпажу."
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "Обрати «%(skillName)s» в якості «нульової» навички?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "Перевивчити «%(skillName)s» в якості «нульової» навички?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "freeSlotConfirmation/message"
+msgstr "Додати безкоштовний слот у Гаражі, використовуючи доступну 100%-у знижку?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "Додати"
+
+msgid "freeSlotConfirmation/title"
+msgstr "Додання слота"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "Закрити"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "Ви витратили ліміт на придбання безкоштовної техніки. Спробуйте завтра."
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "Закрити"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "Обмеження купівлі"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)sДосвід%(orangeText_close)s%(simpleText_open)s — ігровий ресурс, який здобувають у боях.\n\nМістить:%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)sБойовий досвід%(orangeText_close)s%(simpleText_open)s використовують для дослідження нових модулів певної машини та подальшого розвитку в тому проєкті ігрового всесвіту Wargaming, у якому його здобули.%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sВільний досвід%(orangeText_close)s%(simpleText_open)s використовують для дослідження доступних модулів і техніки, а також для пришвидшення навчання екіпажу. Витрачайте вільний досвід раціонально.%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "Продовжити"
+
+msgid "freeXPInfo/title"
+msgstr "Досвід у грі"
+
+msgid "gammaDialog/cancel"
+msgstr "Почати"
+
+msgid "gammaDialog/message/description"
+msgstr "Бійцю! Налаштуйте свій монітор, щоб відрегулювати колірну гаму та покращити зображення на екрані.\n\n "
+
+msgid "gammaDialog/message/header"
+msgstr "Налаштуйте свій монітор саме зараз!"
+
+msgid "gammaDialog/title"
+msgstr "Налаштування гами"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "Після конвертації:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "Наявний баланс:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "Скасувати"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "Конвертувати"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "До конвертації:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "Екіпаж"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "Машина"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "Досвід"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "Вся техніка"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "Упорядкувати за вибраною технікою."
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "Упорядкувати за назвою техніки."
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "Техніка"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "Упорядкувати за кількістю отриманого досвіду."
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "Досвід"
+
+msgid "gatheringXPForm/title"
+msgstr "Конвертація у вільний досвід"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "Конвертувати досвіду:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "Пришвидшене навчання екіпажу увімкнено."
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "Пришвидшене навчання екіпажу вимкнено."
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "Разом:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "Разом:"
+
+msgid "graphics/message/alert"
+msgstr "Увага!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "Режим екрана змінений. Повернення до попередніх налаштувань через %(time)s секунд. Зберегти вибрані налаштування?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "Зберегти"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "Збереження налаштувань режиму екрана"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "Ні"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "Увага! Зміни налаштувань будуть втрачені. Продовжити?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "Так"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "Автовизначення якості графіки"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "Ні"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "Увага! Зміна деяких налаштувань може тривати довгий час. Продовжити?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "Так"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "Зміна налаштувань"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "Закрити"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "Неможливо встановити максимальні значення налаштувань. Буде встановлена користувацька якість графіки."
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "Увага"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "Закрити"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "Висока якість текстур доступна лише на 64-бітних системах."
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "Якість текстур недоступна."
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "Відкласти"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "Зміни деяких налаштувань набудуть чинності після перезавантаження клієнта гри."
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "Перезавантажити"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "Зміна налаштувань"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "Гаразд"
+
+msgid "haveNoEmptySlots/message"
+msgstr "В Гаражі немає вільного слота для нової машини. Купіть додатковий слот або продайте одну з машин."
+
+msgid "haveNoEmptySlots/submit"
+msgstr "Гаразд"
+
+msgid "haveNoEmptySlots/title"
+msgstr "Помилка"
+
+msgid "hof/excludeRating/cancel"
+msgstr "Скасувати"
+
+msgid "hof/excludeRating/message"
+msgstr "Ваші досягнення не бачитимуть інші гравці, але ви зможете увімкнути їх показ на головній сторінці Залу слави."
+
+msgid "hof/excludeRating/submit"
+msgstr "Приховати результати"
+
+msgid "hof/excludeRating/title"
+msgstr "Показ результатів у рейтингу"
+
+msgid "hofDisabled/cancel"
+msgstr "Закрити"
+
+msgid "hofDisabled/message"
+msgstr "Зал слави тимчасово недоступний. Спробуйте пізніше."
+
+msgid "hofDisabled/title"
+msgstr "Увага!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "Скасувати"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}Неповний екіпаж{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}Один або більше членів екіпажу не відповідають вимогам{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "Вибрана машина не відповідає одній або декільком умовам:"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "Тільки один екіпаж може отримати бонус. Екіпаж можна пересадити з"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "на"
+
+msgid "idleCrewBonus/submit"
+msgstr "Підтвердити"
+
+msgid "idleCrewBonus/title"
+msgstr "Увімкнути «Курс підготовки екіпажу»?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "Спробуйте вимкнути апаратне прискорення браузера в налаштуваннях гри (розділ «Графіка»)."
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "Помилка завантаження"
+
+msgid "interviewQuit/cancel"
+msgstr "Назад"
+
+msgid "interviewQuit/message"
+msgstr "Зараз ви можете відмовитися від опитування та повернутися до нього пізніше, відкривши повідомлення із запрошенням у Центрі повідомлень. Повідомлення активне у межах поточного сеансу гри."
+
+msgid "interviewQuit/submit"
+msgstr "Відмовитися"
+
+msgid "interviewQuit/title"
+msgstr "Відмовитися від опитування"
+
+msgid "koreaParentNotification/cancel"
+msgstr "Так!"
+
+msgid "koreaParentNotification/message"
+msgstr "Щоб запобігти виникненню ігрової залежності у неповнолітніх користувачів, вступати в бій після %(preBlockTime)s заборонено. О %(blockTime)s вас буде від’єднано від сервера."
+
+msgid "koreaParentNotification/submit"
+msgstr "Так!"
+
+msgid "koreaParentNotification/title"
+msgstr "Закінчення ігрового часу"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "Так!"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "Ваш ігровий час закінчується. Вступити в новий бій неможливо."
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "Так!"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "Батьківський контроль"
+
+msgid "leaveEvent/cancel"
+msgstr "Скасувати"
+
+msgid "leaveEvent/message"
+msgstr "Результати ваших боїв у змаганні анулюють після оновлення рейтингів. Ви не зможете потрапити до рейтингу та отримати нагороду.\n\nПокинувши змагання, %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "ВИ НЕ ЗМОЖЕТЕ ПОНОВИТИ УЧАСТЬ."
+
+msgid "leaveEvent/submit"
+msgstr "Покинути змагання"
+
+msgid "leaveEvent/title"
+msgstr "Покинути змагання"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "Скасувати"
+
+msgid "leaveStartedEvent/message"
+msgstr "Результати ваших боїв не враховуватимуть у цьому змаганні. Ви не зможете потрапити до рейтингу та отримати нагороду.\n\nПокинувши змагання, %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "Покинути змагання"
+
+msgid "leaveStartedEvent/title"
+msgstr "Покинути змагання"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "Скасувати"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "Ви вже перебуваєте в передбойовій кімнаті. Хочете вийти та прийняти запрошення?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "Гаразд"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "Запрошення"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "Скасувати"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "Ви вже в складі взводу. Хочете покинути взвод та прийняти запрошення?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "Гаразд"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "Запрошення"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "Скасувати"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "Ви вже перебуваєте у передбойовій кімнаті тренувального бою. Хочете вийти з неї та прийняти запрошення?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "Гаразд"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "Запрошення"
+
+msgid "legalInfoWindow/title"
+msgstr "Юридична інформація"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "Скасувати"
+
+msgid "limitedUIOffNotification/message"
+msgstr "Ви впевнені, що хочете вимкнути поступову появу прихованих інтерфейсів у Гаражі?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "Після вимкнення цього налаштування ви не зможете увімкнути його назад."
+
+msgid "limitedUIOffNotification/submit"
+msgstr "Вимкнути"
+
+msgid "limitedUIOffNotification/title"
+msgstr "Зміна налаштувань"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "Скасувати"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "Налаштування сервера збережено. Ви можете ввімкнути чи вимкнути автоматичний вхід у налаштуваннях гри."
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "Перейти"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "Зберегти налаштування сервера?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "У боєзапасі альтернативної комплектації бракує снарядів. Підтвердити вступ у бій?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "Неповний боєзапас"
+
+msgid "lowAmmo/cancel"
+msgstr "Скасувати"
+
+msgid "lowAmmo/message"
+msgstr "У боєзапасі вибраної машини недостатньо снарядів. Перед боєм боєзапас поповнять автоматично."
+
+msgid "lowAmmo/submit"
+msgstr "Поповнити"
+
+msgid "lowAmmo/title"
+msgstr "Автопоповнення боєзапасу"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "Скасувати"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "У боєзапасі вибраної машини недостатньо снарядів. Вступити у бій?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "До бою!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "Неповний боєзапас"
+
+msgid "lowFpsWarning/cancel"
+msgstr "Ні"
+
+msgid "lowFpsWarning/message"
+msgstr "Помічено недостатню швидкодію гри з теперішнім налаштуванням графіки. Зменшити якість графіки?"
+
+msgid "lowFpsWarning/submit"
+msgstr "Так"
+
+msgid "lowFpsWarning/title"
+msgstr "Низька швидкодія гри"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "Гаразд"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "Інформація користувача %(userName)s заблокована."
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "Гаразд"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "Інформація заблокована"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "Гаразд"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "Інформація користувача %(userName)s тимчасово недоступна."
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "Гаразд"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "Інформація тимчасово недоступна"
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "Скасувати"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s Увімкнення цього налаштування зменшить продуктивність у бою."
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "Увага!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "Увімкнути"
+
+msgid "minimapAlphaNotification/title"
+msgstr "Прозорість міні-мапи"
+
+msgid "moduleSale/conformation/header"
+msgstr "Продати %(moduleType)s «%(moduleName)s»?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "Скасувати"
+
+msgid "moneyTransfer/labelClan"
+msgstr "Клан:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "кредити"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "золото"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "Комісія:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "Сума переказу:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "Звичайний:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "кредити"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "золото"
+
+msgid "moneyTransfer/labelTo"
+msgstr "Кому:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "Разом:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(поза кланом)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "Надіслати"
+
+msgid "moneyTransfer/title"
+msgstr "Переказ золота"
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "Переказати {gold} <img src='icon_gold' /> на рахунок гравця {player}, комісія становитиме {fee} <img src='icon_gold' />?"
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "Переказати"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "Підтвердження переказу"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Встановити фінансовий пароль</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "Гаразд"
+
+msgid "moneyTransferRestriction/message"
+msgstr "Переказ золота заборонений. Причина: %s."
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "Термін дії: %s."
+
+msgid "moneyTransferRestriction/submit"
+msgstr "Гаразд"
+
+msgid "moneyTransferRestriction/title"
+msgstr "Переказ золота заборонений."
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "Ні"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "Зміни деяких налаштувань набудуть чинності з наступного бою. Продовжити?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "Так"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "Зміна налаштувань"
+
+msgid "perkLearnConfirm/desc"
+msgstr "Рівень навички після вивчення: {yellow_Open}%(level)s%%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "Вивчити"
+
+msgid "perkLearnConfirm/title"
+msgstr "Вивчити навичку %(skillName)s?"
+
+msgid "perksReset/after"
+msgstr "Після скидання:"
+
+msgid "perksReset/before"
+msgstr "До скидання:"
+
+msgid "perksReset/cancel"
+msgstr "Скасувати"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "Ця можливість недоступна, оскільки ви вже маєте 100%-у знижку на скидання навичок у Танковій академії."
+
+msgid "perksReset/discountTooltip/header"
+msgstr "Недоступно"
+
+msgid "perksReset/free/description"
+msgstr "Навички, рівень вивчення яких не перевищує {yellow_Open}1%{yellow_Close}, можна скинути безкоштовно."
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "Для цього члена екіпажу діє безкоштовне скидання першої навички"
+
+msgid "perksReset/graceLabel"
+msgstr "Безкоштовне скидання навичок доступно протягом:"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "Загальний обсяг досвіду навичок знизиться. Менша кількість навичок буде доступною для вивчення."
+
+msgid "perksReset/noNewPerks"
+msgstr "Весь досвід із вивчених навичок піде на підвищення рівня володіння основною спеціальністю."
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "від загального досвіду навичок"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "Полкова школа"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "від загального досвіду навичок"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "Пришвидшені курси"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "Скинути навички\n без втрати досвіду"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "Використовуйте кредити, щоб скинути навички без втрати досвіду"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "Танкова академія"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "Скинути навички\n без втрати досвіду"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "Скинути"
+
+msgid "perksReset/title"
+msgstr "Скинути всі навички члена екіпажу?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "Скасувати"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "Вибране налаштування якості фізики звуку відрізняється від автоматично визначеного клієнтом гри. Увімкнення цього налаштування може вплинути на продуктивність. Рекомендуємо перевірити продуктивність перед підтвердженням. Застосувати зміни?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "Підтвердити"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "Різні налаштування якості фізики звуку"
+
+msgid "postmortem/cancel"
+msgstr "Вийти"
+
+msgid "postmortem/message"
+msgstr "Машину знищено. Залишитися на полі бою чи вийти в Гараж?"
+
+msgid "postmortem/submit"
+msgstr "Залишитися"
+
+msgid "postmortem/title"
+msgstr "Машина знищена"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "Купити преміум акаунт на %(days)s дб за %(gold)s золота?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "Купити"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "Підтвердити купівлю"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "Продовжити преміум акаунт на %(days)s дб за %(gold)s?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "Продовжити"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "Підтвердження продовження"
+
+msgid "priceCard/credits/title"
+msgstr "Полкова школа"
+
+msgid "priceCard/free/title"
+msgstr "Пришвидшені курси"
+
+msgid "priceCard/gold/title"
+msgstr "Танкова академія"
+
+msgid "priceCard/price/free"
+msgstr "Безкоштовно"
+
+msgid "priceCard/recertification/title"
+msgstr "Бланки перепідготовки"
+
+msgid "punishmentWindow/cancel"
+msgstr "Ознайомлений"
+
+msgid "punishmentWindow/header/ban"
+msgstr "Вас заблоковано на %(time)s"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "Вас оштрафовано"
+
+msgid "punishmentWindow/header/warning"
+msgstr "Неспортивна поведінка"
+
+msgid "punishmentWindow/info"
+msgstr "Якщо у вашому випадку це сталося через проблеми зі з'єднанням чи інші технічні неполадки,\n зверніться до Центру підтримки користувачів."
+
+msgid "punishmentWindow/message/ban"
+msgstr "Ви порушили Правила гри на мапі {whiteSpanish_Open}«%(arenaName)s»{whiteSpanish_Close} о {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nВас тимчасово відсторонено від боїв у режимі {whiteSpanish_Open}«%(mode)s»{whiteSpanish_Close}."
+
+msgid "punishmentWindow/message/penalty"
+msgstr "Ви порушили Правила гри на мапі {whiteSpanish_Open}«%(arenaName)s»{whiteSpanish_Close} о {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nЗдобуті вами кредити, досвід і нагороди списано."
+
+msgid "punishmentWindow/message/warning"
+msgstr "Ви порушили Правила гри на мапі {whiteSpanish_Open}«%(arenaName)s»{whiteSpanish_Close} о {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nУ разі повторного порушення вас буде позбавлено всіх здобутих у бою кредитів, досвіду й нагород."
+
+msgid "punishmentWindow/reason/afk"
+msgstr "Бездіяльність в бою"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "Вихід з бою до його закінчення або до знищення власної машини"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "Бездіяльність у бою/достроковий вихід із бою"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "Навмисне знищення власної машини"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s д %(hour)s год"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s год %(min)s хв"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 хв"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s хв"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "Скасувати"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "Більше не запитувати"
+
+msgid "questsConfirmDialog/message"
+msgstr "У разі вибору бойового завдання «%(newQuest)s» завдання «%(oldQuest)s» буде скасоване."
+
+msgid "questsConfirmDialog/submit"
+msgstr "Підтвердити"
+
+msgid "questsConfirmDialog/title"
+msgstr "Підтвердження вибору завдання"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "Скасувати"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "Весь прогрес бойового завдання «%(curQuest)s» буде скасовано.\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "Увага! Весь прогрес активного бойового завдання буде скасовано."
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "Підтвердити"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "Скинути прогрес"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "Скасувати"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "У разі вибору бойового завдання «%(newQuest)s» прогрес завдання «%(oldQuest)s» буде скасовано.\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "Увага! Весь прогрес активного бойового завдання буде скасовано."
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "Підтвердити"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "Підтвердження вибору завдання"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "Скасувати"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "Бойове завдання «%(quest)s» буде скасоване.\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "Увага! Весь прогрес активного бойового завдання буде скасовано."
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "Підтвердити"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "Підтвердження відмови від завдання"
+
+msgid "quit/cancel"
+msgstr "Залишитися"
+
+msgid "quit/submit"
+msgstr "Вийти"
+
+msgid "quit/title"
+msgstr "Вийти з гри?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "Скасувати"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "Ви потрібні команді! Вихід із бою до його закінчення чи до знищення власної машини розцінюється як дезертирство й може потягнути за собою штраф, а також позбавлення всіх бонусів від гри в IGR для цього бою."
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "Утекти"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "Бігти з поля бою?"
+
+msgid "quitBattle/cancel"
+msgstr "Скасувати"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Скасувати"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Ви потрібні команді! Вихід із бою до знищення власної машини розцінюється як дезертирство й може потягнути за собою штраф."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Утекти"
+
+msgid "quitBattle/leaver/title"
+msgstr "Бігти з поля бою?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "Скасувати"
+
+msgid "quitBattle/replay/submit"
+msgstr "Перервати"
+
+msgid "quitBattle/replay/title"
+msgstr "Перервати перегляд бою?"
+
+msgid "quitBattle/submit"
+msgstr "Покинути"
+
+msgid "quitBattle/title"
+msgstr "Покинути бій?"
+
+msgid "quitPreBattle/cancel"
+msgstr "Ні"
+
+msgid "quitPreBattle/message"
+msgstr "Ви хочете вийти з режиму очікування бою?"
+
+msgid "quitPreBattle/submit"
+msgstr "Так"
+
+msgid "quitPreBattle/title"
+msgstr "Вихід з режиму очікування бою"
+
+msgid "rally/autoSearch/cancel"
+msgstr "Ні"
+
+msgid "rally/autoSearch/message"
+msgstr "Хочете запустити автопошук для вільних слотів?"
+
+msgid "rally/autoSearch/submit"
+msgstr "Так"
+
+msgid "rally/autoSearch/title"
+msgstr "Автопошук"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "Скасувати"
+
+msgid "rally/changePeriphery/message"
+msgstr "Ви будете автоматично переміщені на інший сервер (%(host)s). Продовжити?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "Перейти"
+
+msgid "rally/changePeriphery/title"
+msgstr "Перехід на інший сервер"
+
+msgid "rally/goToAnother/cancel"
+msgstr "Скасувати"
+
+msgid "rally/goToAnother/message"
+msgstr "У разі переходу в інший режим бою ви будете автоматично вилучені зі складу формування."
+
+msgid "rally/goToAnother/submit"
+msgstr "Перейти"
+
+msgid "rally/goToAnother/title"
+msgstr "Перехід в інший режим"
+
+msgid "rally/goToIntro/cancel"
+msgstr "Скасувати"
+
+msgid "rally/goToIntro/message"
+msgstr "Ви дійсно хочете вийти з формування?"
+
+msgid "rally/goToIntro/submit"
+msgstr "Підтвердити"
+
+msgid "rally/goToIntro/title"
+msgstr "Підтвердити вихід"
+
+msgid "rally/goToSquad/cancel"
+msgstr "Скасувати"
+
+msgid "rally/goToSquad/message"
+msgstr "Якщо сформуєте взвод, ви автоматично покинете теперішній режим бою."
+
+msgid "rally/goToSquad/submit"
+msgstr "Сформувати"
+
+msgid "rally/goToSquad/title"
+msgstr "Формування взводу"
+
+msgid "rally/leave/cancel"
+msgstr "Скасувати"
+
+msgid "rally/leave/message"
+msgstr "Ви дійсно хочете покинути режим та вийти з формування?"
+
+msgid "rally/leave/submit"
+msgstr "Підтвердити"
+
+msgid "rally/leave/title"
+msgstr "Підтвердити вихід"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "Продовжити"
+
+msgid "rally/leaveDisabled/message"
+msgstr "Вийти з режиму неможливо. Ви в основному складі і готові до бою."
+
+msgid "rally/leaveDisabled/title"
+msgstr "Увага"
+
+msgid "rally/startBattle/cancel"
+msgstr "Ні"
+
+msgid "rally/startBattle/message"
+msgstr "Хочете запустити пошук супротивника?"
+
+msgid "rally/startBattle/submit"
+msgstr "Так"
+
+msgid "rally/startBattle/title"
+msgstr "Пошук супротивника"
+
+msgid "recruit/cancel"
+msgstr "Скасувати"
+
+msgid "recruit/submit"
+msgstr "Рекрутувати"
+
+msgid "recruit/title"
+msgstr "Рекрутувати нового %(role)s для %(vehicleName)s?"
+
+msgid "recruit/voiceoverText"
+msgstr "Унікальне озвучення членів екіпажу працює лише за спеціальності командира."
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "Членів екіпажу не потрібно рекрутувати на преміум техніку. Ви можете пересадити екіпаж на преміум машину того самого типу без штрафів."
+
+msgid "recruit/warning/slotChanged"
+msgstr "Цього члена екіпажу не можна рекрутувати на вибрану машину. Його буде відправлено в Казарму."
+
+msgid "recruitConversionConfirm/warning"
+msgstr "Член екіпажу має застарілі навички, які буде автоматично скинуто без втрати досвіду."
+
+msgid "recruitDialog/name/title"
+msgstr "Рекрутувати новобранця (%(name)s)?"
+
+msgid "recruitDialog/title"
+msgstr "Рекрутувати новобранця?"
+
+msgid "recruitWindow/cancel"
+msgstr "Скасувати"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "Не вибрано"
+
+msgid "recruitWindow/nation"
+msgstr "Нація"
+
+msgid "recruitWindow/specialization"
+msgstr "Спеціальність"
+
+msgid "recruitWindow/submit"
+msgstr "Рекрутувати"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "Тип техніки"
+
+msgid "recruitWindow/vehicleType"
+msgstr "Машина"
+
+msgid "referralReward/cancel"
+msgstr "Скасувати"
+
+msgid "referralReward/message"
+msgstr "Отримати %(product)s?"
+
+msgid "referralReward/submit"
+msgstr "Підтвердити"
+
+msgid "referralReward/title"
+msgstr "Підтвердження отримання"
+
+msgid "refuseTraining/cancel"
+msgstr "Ні"
+
+msgid "refuseTraining/message"
+msgstr "Перервати навчання?"
+
+msgid "refuseTraining/submit"
+msgstr "Так"
+
+msgid "refuseTraining/title"
+msgstr "Підтвердження"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "Знищити"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "Скасувати"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "Спорядження «%(name)s» буде переміщено на Склад через %(reason)s встановлюваного модуля."
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "несумісність"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "Демонтувати"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "Підтвердження зняття"
+
+msgid "rentConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "rentConfirmation/event"
+msgstr "для режиму «%(eventName)s»"
+
+msgid "rentConfirmation/message"
+msgstr "Узяти машину напрокат %(name)s %(event)s за %(price)s?"
+
+msgid "rentConfirmation/submit"
+msgstr "Підтвердити"
+
+msgid "rentConfirmation/title"
+msgstr "Підтвердження прокату"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "Скасувати"
+
+msgid "rentConfirmationRenew/message"
+msgstr "Продовжити прокат %(name)s %(event)s за %(price)s?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "Підтвердити"
+
+msgid "rentConfirmationRenew/title"
+msgstr "Підтвердження прокату"
+
+msgid "replacePassport/unique/cancel"
+msgstr "Скасувати"
+
+msgid "replacePassport/unique/message"
+msgstr "Це унікальний член екіпажу і ви не зможете повернути його початкові персональні дані. Ви дійсно хочете змінити документи за %(gold)s?"
+
+msgid "replacePassport/unique/submit"
+msgstr "Змінити"
+
+msgid "replacePassport/unique/title"
+msgstr "Підтвердження зміни"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "replacePassportConfirmation/message"
+msgstr "Змінити документи члена екіпажу за %(gold)s?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "Змінити"
+
+msgid "replacePassportConfirmation/title"
+msgstr "Зміна документів"
+
+msgid "replayNotification/cancel"
+msgstr "Ні"
+
+msgid "replayNotification/message"
+msgstr "Ця версія World of Tanks не збігається з версією, для якої записаний бій. Можуть виникнути проблеми відтворення. Ігнорувати різницю у версіях і відтворити бій?"
+
+msgid "replayNotification/submit"
+msgstr "Так"
+
+msgid "replayNotification/title"
+msgstr "Попередження"
+
+msgid "replayStopped/cancel"
+msgstr "Скасувати"
+
+msgid "replayStopped/message"
+msgstr "Відтворення запису бою закінчено. Натисніть «Закінчити», щоб закрити клієнт гри."
+
+msgid "replayStopped/submit"
+msgstr "Закінчити"
+
+msgid "replayStopped/title"
+msgstr "Відтворення запису бою закінчено"
+
+msgid "reportBug/cancel"
+msgstr "Скасувати"
+
+msgid "reportBug/message"
+msgstr "Натиснувши тут, ви зможете перейти на вебсайт підтримки гравців і повідомити про помилку. Продовжити?"
+
+msgid "reportBug/submit"
+msgstr "Продовжити"
+
+msgid "reportBug/title"
+msgstr "Перейти до Центру підтримки"
+
+msgid "resetAllPerks/cancel"
+msgstr "Скасувати"
+
+msgid "resetAllPerks/submit"
+msgstr "Скинути"
+
+msgid "resetAllPerks/title"
+msgstr "Скинути всі навички всіх членів екіпажу?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}Усі навички буде скинуто для всіх членів екіпажу на акаунті.{orangeEnd}\n{orangeStart}Скасувати операцію не можна.{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "Продовжити"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s Автоматично встановлено графічні налаштування, які забезпечують оптимальну якість зображення.\nЯкщо потрібно збільшити швидкодію, виберіть більш низьку якість графіки в «Налаштуваннях»."
+
+msgid "resetGraphics/submit"
+msgstr "Налаштування"
+
+msgid "resetGraphics/title"
+msgstr "Зміна графічних налаштувань"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "Відновити"
+
+msgid "restoreTankman/description"
+msgstr "%(name)s буде відновлений (-на)."
+
+msgid "restoreTankman/free"
+msgstr "Вартість: безкоштовно"
+
+msgid "restoreTankman/header"
+msgstr "Відновити цього члена екіпажу?"
+
+msgid "restoreTankman/price"
+msgstr "Вартість:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "Скасувати"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "Відновити %(vehiclename)s"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "Відновити"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "Без екіпажу"
+
+msgid "restoreVehicleDialog/title"
+msgstr "Відновлення %(vehiclename)s"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "Ви не зможете обміняти куплене обладнання та спорядження на золото після того, як натиснете «Відновити». Робіть це уважно."
+
+msgid "retrain/cancel"
+msgstr "Скасувати"
+
+msgid "retrain/changeRole"
+msgstr "Змінити спеціальність"
+
+msgid "retrain/discountLabel"
+msgstr "Знижка доступна, оскільки першу навичку не вивчено на 100%."
+
+msgid "retrain/discountTooltip/body"
+msgstr "Можливість недоступна, оскільки ви вже маєте 100%-у знижку на перенавчання в Танковій академії."
+
+msgid "retrain/discountTooltip/header"
+msgstr "Недоступно"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "Буде перенавчено членів екіпажу: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "Членів екіпажу не потрібно навчати на преміум техніку.\nВи можете пересадити екіпаж на преміум машину того ж типу без штрафу."
+
+msgid "retrain/price"
+msgstr "Вартість:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "Ефективність навичок\nпісля перенавчання: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "Полкова школа"
+
+msgid "retrain/priceCard/free/description"
+msgstr "Ефективність навичок\nпісля перенавчання: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "Пришвидшені курси"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "Ефективність навичок\nпісля перенавчання: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "Танкова академія"
+
+msgid "retrain/submit"
+msgstr "Перенавчити"
+
+msgid "retrain/title/massive"
+msgstr "Перенавчити екіпаж на %(vehicleName)s&zwnbsp;?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "Перенавчити на %(vehicleName)s\n і змінити спеціальність на: %(role)?"
+
+msgid "retrain/title/single/simple"
+msgstr "Перенавчити на %(vehicleName)s?"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "Навички невідповідної спеціальності буде вимкнено. Скиньте їх вручну."
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "Екіпаж можна пересадити на преміум техніку того ж типу без перенавчання або штрафів, проте невідповідні навички має бути скинуто вручну."
+
+msgid "rudyInfo/message"
+msgstr "Безсмертна класика вже у грі! «Чотири танкісти і пес» (пол. Czterej pancerni i pies) — польський чорно-білий телевізійний серіал, знятий за однойменною повістю Януша Пшимановського. Кінострічка розповідає про бойові будні екіпажу танка Т-34-85 на прізвисько Rudy («Рудий») і пса на прізвисько Шарик під час Другої світової війни. Прем’єра картини відбулася 9 травня 1966."
+
+msgid "rudyInfo/submit"
+msgstr "Так!"
+
+msgid "rudyInfo/title"
+msgstr "Чотири танкісти і пес"
+
+msgid "selectVehicle/counter"
+msgstr "Показані машини:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "Виберіть атакувальну машину"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "Вибрати цю машину"
+
+msgid "sellConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "sellConfirmation/submit"
+msgstr "Продати"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "Продати"
+
+msgid "sellModuleConfirmation/title"
+msgstr "Підтвердити продаж"
+
+msgid "sellShellConfirmation/submit"
+msgstr "Продати снаряд «%(shellName)s»?"
+
+msgid "sendInvites/common/title"
+msgstr "Запросити у формування"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "Скасувати"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "До автоматичного анулювання статистики сеансу залишилося{}"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "Скинути"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s год %(minutes)s хв"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "Скинути статистику сеансу?"
+
+msgid "shopSyncError/cancel"
+msgstr "Продовжити"
+
+msgid "shopSyncError/message"
+msgstr "Оновіть клієнт гри. У разі повторення помилки оновіть сервер."
+
+msgid "shopSyncError/title"
+msgstr "Розсинхронізація"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "Скасувати"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "Вивчити навичку(-и)?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "Вивчити"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "Застосувати"
+
+msgid "soundModeInvalid/cancel"
+msgstr "Скасувати"
+
+msgid "soundModeInvalid/message"
+msgstr "Файли вибраного голосу повідомлень пошкоджені або відсутні, буде призначений голос повідомлень за замовчуванням."
+
+msgid "soundModeInvalid/submit"
+msgstr "Зберегти"
+
+msgid "soundModeInvalid/title"
+msgstr "Помилка"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "Скасувати"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "Вибраний тип акустики відрізняється від автоматично визначеного грою. Частина звуків може бути відсутня, тому пропонуємо випробувати зміни звучання. Підтвердити зміни?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "Підтвердити"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "Невідповідний тип акустики"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "Ні"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "Вибраний тип акустики відрізняється від автоматично визначеного грою. Частина звуків може бути відсутня. Призначити оптимальні налаштування звуку?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "Так"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "Невідповідний тип акустики"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "Так!"
+
+msgid "squad/eventDisabled/message"
+msgstr "Подія недоступна. Взвод буде розформовано."
+
+msgid "squad/eventDisabled/title"
+msgstr "Подію завершено"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Скасувати"
+
+msgid "squad/goToAnother/message"
+msgstr "Ви перебуваєте у взводі. Після переходу в інший режим вас буде вилучено зі взводу."
+
+msgid "squad/goToAnother/submit"
+msgstr "Перейти"
+
+msgid "squad/goToAnother/title"
+msgstr "Перехід в інший режим"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "Скасувати"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "У разі зміни режиму гри поточний взвод буде розформовано. Змінити тип бою?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "Підтвердити"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "Зміна режиму гри"
+
+msgid "squad/goToSquad/cancel"
+msgstr "Скасувати"
+
+msgid "squad/goToSquad/message"
+msgstr "Покинути теперішнє формування і сформувати взвод з гравцем?"
+
+msgid "squad/goToSquad/submit"
+msgstr "Сформувати"
+
+msgid "squad/goToSquad/title"
+msgstr "Формування взводу"
+
+msgid "squad/leave/cancel"
+msgstr "Скасувати"
+
+msgid "squad/leave/message"
+msgstr "Ви дійсно хочете покинути взвод?"
+
+msgid "squad/leave/submit"
+msgstr "Підтвердити"
+
+msgid "squad/leave/title"
+msgstr "Підтвердити вихід"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Продовжити"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Покинути взвод неможливо: ви в основному складі і готові до бою."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Увага"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "Скасувати"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "Взвод сформовано не повністю. Гравця якого бракує буде добрано автоматично. Вступити у бій?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "До бою!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "Взвод не готовий"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "Скасувати"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "Склад взводу не сформовано. Вступити у бій неповним складом?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "До бою!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "Взвод не готовий"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "Скасувати"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "Склад взводу не сформовано. Вступити у бій з гравцями, яких буде добрано автоматично?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "До бою!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "Взвод не готовий"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "Скасувати"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "Один з гравців взводу не готовий. Вступити у бій неповним складом?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "До бою!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "Взвод не готовий"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "Скасувати"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "Гравець, що не підтвердив готовність, буде вилучений з формування. Склад доукомплектується автоматично. Вступити у бій?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "До бою!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "Взвод не готовий"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "Скасувати"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "Обидва гравці взводу не готові. Вступити у бій неповним складом?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "До бою!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "Взвод не готовий"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "Скасувати"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "Склад взводу не сформовано. Гравців, що не підтвердили готовність, буде вилучено з формування. Вступити у бій з гравцями, яких буде добрано автоматично?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "До бою!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "Взвод не готовий"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "Неможливо розпочати новий бій, не всі гравці повернулися. Дочекайтеся закінчення цього бою."
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "Так!"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "Взвод не готовий"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "Гаразд"
+
+msgid "squadPremiumNeeded/message"
+msgstr "Формування взводів доступне лише гравцям з преміум акаунтом.\nГравець, який сформував взвод, може запросити будь-якого гравця незалежно від типу його акаунта."
+
+msgid "squadPremiumNeeded/title"
+msgstr "Лише для преміум акаунта"
+
+msgid "steamStartNeeded/cancel"
+msgstr "Закрити гру"
+
+msgid "steamStartNeeded/message"
+msgstr "Для коректної авторизації потрібно запустити гру через Steam."
+
+msgid "steamStartNeeded/title"
+msgstr "Помилка авторизації"
+
+msgid "stronghold/leave/cancel"
+msgstr "Скасувати"
+
+msgid "stronghold/leave/message"
+msgstr "Ви дійсно хочете покинути загін?"
+
+msgid "stronghold/leave/submit"
+msgstr "Підтвердити"
+
+msgid "stronghold/leave/title"
+msgstr "Підтвердити вихід"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "Після того, як ви покинете загін, його буде розформовано.\nКлан отримає штраф за неявку на бій.\nВи дійсно хочете покинути загін?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "Підтвердити вихід"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "Скасувати"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "Перейти"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "Перехід на інший сервер"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "tradeInConfirmation/message"
+msgstr "Машину %(vehName)s буде здано та неможливо відновити.%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " Додатково, %(operations)s."
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "екіпаж буде висаджено в Казарму"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "спорядження буде вивантажено на Склад"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "обладнання буде безкоштовно демонтовано"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "усі проведені парні модифікації будуть скасовані, але прогрес базових модифікацій збережеться"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "боєзапас буде вивантажено на Склад"
+
+msgid "tradeInConfirmation/submit"
+msgstr "Обміняти"
+
+msgid "tradeInConfirmation/title"
+msgstr "Обмін машини"
+
+msgid "tradeInPopover/descr"
+msgstr "Доступна преміум техніка в Гаражі"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "Показує нації вибраних машин."
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "Нація"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "Показує економію на обміні вибраних машин"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "Оцінка\nмашини"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "Оцінка машини"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "Показує рівні вибраних машин."
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "Рівень"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "Показує назви вибраних машин."
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "Назва"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "Показує типи вибраних машин."
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "Тип"
+
+msgid "tradeInPopover/title"
+msgstr "Вибрати машину на обмін"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "Вибрати машину"
+
+msgid "updateNeeded/cancel"
+msgstr "Відкласти"
+
+msgid "updateNeeded/message"
+msgstr "Потрібне оновлення програми."
+
+msgid "updateNeeded/submit"
+msgstr "Оновити"
+
+msgid "updateNeeded/title"
+msgstr "Потрібне оновлення"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "Навчити члена екіпажу за {%d} золота?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "Навчити"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "Підтвердження навчання"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "Гаразд"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "Недостатньо золота для навчання члена екіпажу."
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "Гаразд"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "Недостатньо золота"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "Скасувати"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "Навчити члена екіпажу за {%d} кредитів?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "Навчити"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "Підтвердження навчання"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "Гаразд"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "Недостатньо кредитів для навчання члена екіпажу."
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "Гаразд"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "Недостатньо кредитів."
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "Скасувати"
+
+msgid "vehConf/exitDialog/message"
+msgstr "Зроблені зміни не буде збережено. Покинути меню налаштування машини?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "Підтвердити"
+
+msgid "vehConf/exitDialog/title"
+msgstr "Скасувати зміни"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "Прибрати з Гаража %(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "Скасувати"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "Увага! Це спеціальна машина, після продажу ви зможете її відновити лише через %(cooldown)s дб. Підтвердити продаж?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "Підтвердити"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "Підтвердити продаж"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "Скасувати"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "Увага! Це спеціальна машина, але після продажу ви зможете її відновити. Підтвердити продаж?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "Підтвердити"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "Підтвердити продаж"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "Скасувати"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "Скасувати"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "УВАГА! Цей танк унікальний і не підлягає відновленню. Екіпаж також демобілізують безповоротно."
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "Підтвердити"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "Підтвердити продаж"
+
+msgid "vehicleSell/unique/message"
+msgstr "Увага! Це спеціальна машина, і ви не зможете знову купити її в Магазині. Підтвердити продаж?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "Підтвердити"
+
+msgid "vehicleSell/unique/title"
+msgstr "Підтвердити продаж"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "ПІДТВЕРДИТИ ПРОДАЖ"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "Щоб підтвердити, введіть вартість продажу з графи «ЗАГАЛЬНИЙ ПІДСУМОК» (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "Ви ввели неправильну інформацію!"
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "БОЄЗАПАС:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "НАСТАНОВИ:"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "Скасувати"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "ЗАГАЛЬНИЙ ПІДСУМОК:"
+
+msgid "vehicleSellDialog/count"
+msgstr "од."
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "Демобілізувати"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "В Казарму"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "ЕКІПАЖ:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "ВИГЛЯД ЗОВНІ:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "Розібрати"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "СПОРЯДЖЕННЯ:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "Докладно"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "СКЛАД:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "Витрачено:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "Включаючи всі національні комплектації машини!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "Модулі"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "ОБЛАДНАННЯ:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "Після продажу техніки поточний рівень Польової модернізації збережеться, але всі проведені парні модифікації будуть скасовані."
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "Отримано:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "Прибрати"
+
+msgid "vehicleSellDialog/submit"
+msgstr "Продати"
+
+msgid "vehicleSellDialog/title"
+msgstr "Продаж %(name)s"
+
+msgid "vehicleSellDialog/unload"
+msgstr "На Склад"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "Елітний"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "Вартість"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "Рівень. "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "Роль: "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "САУ"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "Важкий танк"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "Легкий танк"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "Середній танк"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "Так!"
+
+msgid "voiceChatInitFailed/message"
+msgstr "Помилка ініціалізації голосового зв’язку: сервіс тимчасово недоступний."
+
+msgid "voiceChatInitFailed/title"
+msgstr "Ініціалізація голосового зв’язку"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "Гаразд"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "Голосовий зв’язок ініціалізований."
+
+msgid "voiceChatInitSucceded/title"
+msgstr "Ініціалізація голосового зв’язку"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "Закрити"
+
+msgid "waterQualityNotPossible/message"
+msgstr "Висока якість води доступна, якщо увімкнено додаткове подальше оброблення."
+
+msgid "waterQualityNotPossible/title"
+msgstr "Якість води недоступна"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "Скасувати"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "Перевірте наявність техніки в Гаражі"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "Вартість: %(price)s %(icon)s (доступно: %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "Гравець: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "Вибрані машини: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "Повернути в стрій"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "Повернути в стрій?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "Помічник"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "Нагороди за відвідування"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "Бойовий бонус"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "Бойова перепустка «Плюс»"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "Вилучена мапа"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "Ексклюзивна техніка"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "Ексклюзивна техніка"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "Безкоштовний демонтаж обладнання"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "Сховище золота"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "Курс підготовки екіпажу"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "Керований множник досвіду"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "Підсилення Pro"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "Налаштування вікна досягнень"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "Банер танкіста"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "WOT PLUS АКТИВОВАНО"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "Усе готово!"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "Буде подовжено {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "WOT PLUS CORE АКТИВОВАНО"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "Докладніше"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "360 днів"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "180 днів"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}, буде подовжено {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "WOT PLUS PRO АКТИВОВАНО"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "Активувати"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}Ви не зможете підсилити іншу машину протягом {{@ style (color #fff)}}{{boostInterval}} годин{{/}}.{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "Активація підсилення Pro збільшує {{@ style (color #fff)}}заробіток кредитів і досвіду на {{bonusPercent}}{{/}} на цій машині. Діє лише для однієї машини."
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "Активувати підсилення Pro для {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "Перемкнутися"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}Лише одна машина може отримати підсилення. Ви не зможете підсилити іншу машину протягом {{@ style (color #fff)}}{{boostInterval}} годин{{/}}.{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "Активація підсилення Pro збільшує {{@ style (color #fff)}}заробіток кредитів і досвіду на {{bonusPercent}}{{/}} на цій машині. Діє лише для однієї машини."
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "Перемкнути підсилення Pro на {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "Скасувати"
+
+msgid "wotPlusRental/description"
+msgstr "Прокат техніки буде можливий {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "Узяти напрокат"
+
+msgid "wotPlusRental/title"
+msgstr "Узяти напрокат {cream_Open}%s{cream_Close}?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "Зберегти"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "Зберегти налаштування вікна досягнень?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "Скасувати"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "Увесь здобутий на машині досвід буде використаний для навчання екіпажу. Найменш досвідчений член екіпажу буде навчатися вдвічі швидше."
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "Увімк."
+
+msgid "xpToTmenCheckbox/title"
+msgstr "Пришвидшити навчання екіпажу?"

@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "abilities/adaptationHealthRestore"
+msgstr "Adaptivni oklop"
+
+msgid "abilities/adaptationHealthRestoreDescription"
+msgstr "Trenutačno obnavlja dio HP vašeg vozila. Tijekom trajanja Sposobnosti, sva dolazna šteta od granata i Borbenih sposobnosti bit će akumulirana i pretvorena u HP, plus dodatni bonus HP-a jednak dijelu ukupne primljene štete nakon što sposobnost istekne. Oporavak pretvorenog HP-a također utječe na saveznička vozila unutar malog dometa."
+
+msgid "abilities/airstrike"
+msgstr "Zračni udar"
+
+msgid "abilities/airstrikeDescription"
+msgstr "Ošamućuje neprijateljska vozila i nanosi štetu eksplozijama bombe u odabranom području."
+
+msgid "abilities/berserk"
+msgstr "Mahniti"
+
+msgid "abilities/berserkDescription"
+msgstr "Značajno pojačava karakteristike vašeg vozila i probojnost, ali na određeno vrijeme oduzima HP vašeg vozila."
+
+msgid "abilities/brander"
+msgstr "Vatrena kugla"
+
+msgid "abilities/branderDescription"
+msgstr "Postavlja samohodnu minu koja juri najbližeg neprijatelja i nanosi štetu unutar malog polumjera nakon detonacije. Neprijatelji mogu uništiti vašu Vatrenu kuglu pucanjem ili sudaranjem. Vatrena kugla nanosi dodatnu štetu sudaranja kada stigne metu."
+
+msgid "abilities/clingBrander"
+msgstr "Robot bojišnice"
+
+msgid "abilities/clingBranderDescription"
+msgstr "Zove autonomni tenk opremljen sustavom Identifikacije (ne)prijatelja (IFF) koji ganja i napada najbližeg neprijatelja. Ovaj tank se može uništiti."
+
+msgid "abilities/corrodingShot"
+msgstr "Kisela granata"
+
+msgid "abilities/corrodingShotDescription"
+msgstr "Zove autonomni tenk opremljen sustavom Identifikacije (ne)prijatelja (IFF) koji ganja i napada najbližeg neprijatelja. Ovaj tank se može uništiti."
+
+msgid "abilities/extremeConcentration"
+msgstr "Praćenje mete"
+
+msgid "abilities/extremeConcentrationDescription"
+msgstr "Privremeno smanjuje rasipanje topa i vrijeme ciljanja te poboljšava stabilizaciju topa i brzinu paljbe. Ne utječe na vrijeme između ispaljivanja granate i punjenja sljedeće granate u spremnik, top ili kontejner."
+
+msgid "abilities/fireCircle"
+msgstr "Vatreni prsten"
+
+msgid "abilities/fireCircleDescription"
+msgstr "Obavija neprijateljsko vozilo s vatrenom aurom koja nanosi štetu i smanjuje pokretljivost unutar područja djelovanja sposobnosti."
+
+msgid "abilities/minefield"
+msgstr "Minsko polje"
+
+msgid "abilities/minefieldDescription"
+msgstr "Postavlja aktivno minsko polje u odabranom području na određeno vrijeme. Neprijateljsko vozilo koje dođe u kontakt s minama će biti ošamućeno i pretrpjeti eksplozivnu štetu. Mine se mogu uništiti pucanjem na njih. Mine postavljene ispod neprijateljskih vozila NEĆE eksplodirati."
+
+msgid "abilities/nitro"
+msgstr "Turbopunjač"
+
+msgid "abilities/nitroDescription"
+msgstr "Privremeno povećava snagu motora, najveću brzinu i brzinu zakretanja vozila."
+
+msgid "abilities/recoveryDot"
+msgstr "Zona popravka"
+
+msgid "abilities/recoveryDotDescription"
+msgstr "Stvara privremeno statično područje koje popravlja sve oštećene module, uklanja SVE negativne učinke i obnavlja HP. Saveznička vozila unutar područja djelovanja također obnavljaju HP."
+
+msgid "abilities/recoveryKit"
+msgstr "Oporavak"
+
+msgid "abilities/recoveryKitDescription"
+msgstr "Obnavlja HP oštećenih vozila."
+
+msgid "abilities/recoveryZone"
+msgstr "Zona oporavka"
+
+msgid "abilities/recoveryZoneDescription"
+msgstr "Stvara područje oko vašeg vozila. Unutar njega i igrač i članovi voda obnavljaju određeni postotak HP vozila svake sekunde."
+
+msgid "abilities/repairKit"
+msgstr "Alat za popravke"
+
+msgid "abilities/repairKitDescription"
+msgstr "Popravlja module i uklanja negativne učinke."
+
+msgid "abilities/rustCloud"
+msgstr "Nagrizajuća izmaglica"
+
+msgid "abilities/rustCloudDescription"
+msgstr "Dodaje bonus prikrivanja svim vozilima u dometu potrošnog materijala. Također oštećuje SVA vozila u svom dometu. Ne prekida prikupljanje plijena niti uništava vozila, ostavljajući im barem 1 HP."
+
+msgid "abilities/shotPassion"
+msgstr "Rastući zanos"
+
+msgid "abilities/shotPassionDescription"
+msgstr "Kako se ciljanje i stabilizacija smanjuju na određeni period, svaki probojni hitac ili pogodak električnim izbojem povećava štetu nanešenu neprijateljskim vozilima. Šteta se može povećati do pet puta. Pogoci bez štete i promašaji poništavaju parametar vrijednosti na osnovnu vrijednost."
+
+msgid "abilities/thunderStrike"
+msgstr "Električni izboj"
+
+msgid "abilities/thunderStrikeDescription"
+msgstr "Stvara zonu u kojoj niz električnih pražnjenja udara visokom frekvencijom. Svako pražnjenje uzrokuje štetu i privremeno smanjuje pokretljivost svakog neprijateljskog vozila unutar područja djelovanja sposobnosti. Postoji kašnjenje između aktivacije sposobnosti i prvog pražnjenja. Njegov negativni učinak može se ukloniti alatom za popravke."
+
+msgid "abilities/trap"
+msgstr "Zamka"
+
+msgid "abilities/trapDescription"
+msgstr "Stvara područje koje umanjuje dinamičke karakteristike neprijateljskih vozila."
+
+msgid "tanks/britain/description"
+msgstr "Britanski inžinjeri nastavljaju prikazivati kako izrađuju savršena vozila koja privlače iskusne zapovjednike i zastrašuju neprijatelja. Ni ovaj lovac nije iznimka. Njegov legendarni britanski čelik je spreman još jednom pokazati svoju nadmoć na bojišnici."
+
+msgid "tanks/britain/title"
+msgstr "Harbinger Mk. IV"
+
+msgid "tanks/china/description"
+msgstr "Kinez se odlikuje profinjenim skupom agenata koji pomažu u usvajanju najnovije prakse izgradnje tenkova. A prilika za ispitivanje novog hardvera u ekstremnim uvjetima Čeličnog lovca je prava poslastica za njihove inžinjere."
+
+msgid "tanks/china/title"
+msgstr "Bái Láng"
+
+msgid "tanks/france/description"
+msgstr "Lakoća, pravilni oblici i otmjenost su tri stupa koja određuju francusku izgradnju tenkova. Niti posuđeni dizajni niti tehnologije dobijene industrijskom špijunažom nisu osnova ovog vozila. Odlikuje se samo izvornim, učinkovitim zamislima i rješenjima."
+
+msgid "tanks/france/title"
+msgstr "Harlekin"
+
+msgid "tanks/germany/description"
+msgstr "Nijemci su stari znalci kada je u pitanju metalurško inžinjerstvo i visokokvalitetno sastavljanje. Ovo vozilo je savršeni vuk samotnjak-neovisan, svestran i lako se prilagođuje bilo kojoj borbenoj situaciji kako bi preživio."
+
+msgid "tanks/germany/title"
+msgstr "Valkira"
+
+msgid "tanks/poland/description"
+msgstr "Poljski inžinjeri znaju da prenaglašavanje jedne jake strane vozila automatski znači oslabljivanje druge karakteristike. Zato su dobro promislilio naoružanju vozila i borbenim sposobnostima kako bi spriječili neprijatelja u traženju slabih točaka. Kao što je vrijeme i pokazalo, to je bila ispravna odluka."
+
+msgid "tanks/poland/title"
+msgstr "Huragan"
+
+msgid "tanks/sweden/description"
+msgstr "Šveđani nikad nisu previdjetli nove trendove u izgradnji tenkova i pridruživanje Čeličnom lovcu je dalo potpunu slobodu njihovim inžinjerima. Ovo vozilo spaja najgenijalnije i najriskantnije zamisli. Može i zadati i primati teške udarce i izgleda da to prolazi sasvim u redu."
+
+msgid "tanks/sweden/title"
+msgstr "Beowulf"
+
+msgid "tanks/usa/description"
+msgstr "Ovo vozilo savršeno uravnotežuje moderno i klasično. Dokazane tehnologije u kombinaciji s najnovijim napretcima su osnova ovog tenka kojeg je pravo zadovoljstvo voziti. Sve dok vam ne smeta hrđavi metal, naravno."
+
+msgid "tanks/usa/title"
+msgstr "Gavran"
+
+msgid "tanks/ussr/description"
+msgstr "Ovaj tenk, sastavljen od otpisanih dijelova i komponenti iz raznih tvornica tenkova, je ozbiljna prijetnja bilo kojem neprijateljskom vozilu. Može se napraviti pravo čudovište izravno na bojišnici bacanjem nacrta i tehničke dokumentacije u vjetar."
+
+msgid "tanks/ussr/title"
+msgstr "Varjag"

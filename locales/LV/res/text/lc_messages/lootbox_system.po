@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "Apkalpe un Trenēšana"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "Pielāgošana"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "Iekārtas un Direktīvas"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "Citi"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "Tanki"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "Sapratu!"
+
+msgid "autoOpenView/title"
+msgstr "SAŅEMTĀS ATLĪDZĪBAS"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Sapratu!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "Direktīva"
+
+msgid "bonuses/description/booster"
+msgstr "Personālā Rezerve"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Apkalpes skins"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standarta iekārtas"
+
+msgid "bonuses/description/style"
+msgstr "2D stils"
+
+msgid "bonuses/description/style3D"
+msgstr "3D stils"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "Rasējuma Fragments (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "Universāls Rasējuma Fragments"
+
+msgid "bonuses/label/bpcoin"
+msgstr "Kaujas Caurlaides Tokens"
+
+msgid "boxTooltip/description/text/default"
+msgstr "Atverot, tas var izlaist tankus, ekonomiskos resursus un citus vērtīgus priekšmetus.\n Kastes ir pieejamas spēles veikalā."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "atlikušās atvēršanas līdz garantētajai balvai, ja tā neizkrīt agrāk."
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "Kastes ir pieejamas spēles veikalā."
+
+msgid "common/backButton"
+msgstr "ATPAKAĻ"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "Taktiskā Kaste"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "TAKTISKĀ KASTE"
+
+msgid "common/closeButton"
+msgstr "AIZVĒRT"
+
+msgid "common/footer/checkbox"
+msgstr "Atvēršanas Animācija"
+
+msgid "common/getButton/lowerCase"
+msgstr "Iegūstiet vairāk"
+
+msgid "common/getButton/upperCase"
+msgstr "IEGŪSTIET VAIRĀK"
+
+msgid "common/infoButton"
+msgstr "Kas ir iekšā?"
+
+msgid "common/loader"
+msgstr "Kastes atvēršana..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) gab."
+msgstr[1] "%(count) gab."
+msgstr[2] "%(count) gab."
+
+msgid "common/rewards/multiplier"
+msgstr "x{count}"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "diena"
+msgstr[1] "dienas"
+msgstr[2] "dienas"
+
+msgid "common/selectTooltip"
+msgstr "Nepietiek kastu, lai atvērtu {{count}} vienlaikus"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Atveriet kastes, lai skatītu statistiku."
+
+msgid "common/statistics/header"
+msgstr "Atvērtas kastes: %(count)"
+
+msgid "common/statsButton"
+msgstr "Statistika"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "Atcelt"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Jūsu atlīdzības vēsture tiks dzēsta."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "Atiestatīt"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "Atiestatīt statistiku?"
+
+msgid "entryPoint/boxes"
+msgstr "UZ KASTĒM"
+
+msgid "entryPoint/count"
+msgstr "×%(count)"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "×999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Tās ir speciālās kastes, kas satur jaunus un unikālus priekšmetus. Tās var iegūt no spēles Veikala."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Pasākums beigsies pēc"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Mēs saskārāmies ar tehnisku problēmu un uz laiku esam apturējuši pasākumu, kamēr to novēršam."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Īslaicīgi nav pieejams"
+
+msgid "eventName/lowerCase"
+msgstr "Kaujas Lauka Piegādes"
+
+msgid "eventName/upperCase"
+msgstr "KAUJAS LAUKA PIEGĀDES"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "katra %(count) atvēršana"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "tanks"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "%(item) ir garantēts pēc %(count). Skaitītājs tiek atiestatīts, ja viens izkrīt agrāk."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Ja visi tanki jau ir īpašumā, jūs saņemat zeltu."
+
+msgid "guaranteedTitle/text"
+msgstr "%(name) %(count) atvērumos"
+
+msgid "guaranteedTitle/textName"
+msgstr "Garantēta Balva"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "Atvērt"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "Pasākums beigsies pēc %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ja neatveriet visas kastes pirms pasākuma beigām, tās tiks vēlāk atvērtas automātiski."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ja jums jau pieder visi tanki no iespējamā kastes satura saraksta, tad visi turpmāk saņemtie tanki no kastēm tiks kompensēti ar zeltu, kas vienāds ar to pilno vērtību."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Katras %(guaranteed0)s kastes garantē VIII–X līmeņa tanku. Ja neiegūsti tanku atvēršanas laikā, VIII–X līmeņa tanks, kurš tev vēl nepieder, izkritīs, atverot %(guaranteed0)s&zwnbsp;. kasti (atkarībā no kastes veida). Pēc tam skaitītājs tiek atiestatīts."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Automātiskā Atvēršana"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Kompensācija"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Garantēta Balva"
+
+msgid "infoPage/header/lootListLink"
+msgstr "Skatiet pilno priekšmetu sarakstu spēles portālā"
+
+msgid "infoPage/header/probability/description"
+msgstr "Izkrišanas varbūtība"
+
+msgid "infoPage/header/probability/title"
+msgstr "Grupa"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Vienai grupai var tikt piešķirta ne vairāk kā viena balva."
+
+msgid "infoPage/header/rewards/title"
+msgstr "Balvas"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "Atvērt vairāk"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "No %(name) (%(boxesCount) kastes atvērtas)"
+
+msgid "multipleRewardView/header/title/"
+msgstr "SAŅEMTĀS ATLĪDZĪBAS"
+
+msgid "noBoxesView/description/"
+msgstr "Kastes ir pieejamas spēles Veikalā."
+
+msgid "noBoxesView/getBoxes/"
+msgstr "Uz Veikalu"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Pieejamām kastēm"
+
+msgid "preview/backLabel"
+msgstr "UZ KASTĒM"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Pieejams: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Vairs nav kastes"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "Turpināt"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "par %(vehicleInfo)"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "%(style) 3D stils"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "\"%(eventName)s\" pasākums ir beidzies"
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "Visas atlikušās kastes tiks atvērtas. To saturs tiks pievienots jūsu kontam."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Skatīt Balvas"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Balvas Saņemtas"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Mēs pievienojām jūsu nesaņemtos priekšmetus pasākuma laikā."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "Pasākums īslaicīgi nav pieejams uzturēšanas dēļ."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "Pasākums atkal ir pieejams. Atvainojamies par sagādātajām neērtībām."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s gab.)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "Balvas saņemtas:"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "Kļūda"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "Lūdzu uzgaidiet līdz izpildās iepriekšējā darbība."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "Darbība īslaicīgi nav pieejama. Mēģiniet vēlāk."
+
+msgid "serviceChannelMessages/start/button"
+msgstr "Iet uz Pasākumu"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "\"%(eventName)s\" pasākums ir sācies"
+
+msgid "serviceChannelMessages/start/text"
+msgstr "Tikai līdz %(date)s: Premium tanki un vērtīgas spēles lietas!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "Neizdevās atiestatīt statistiku. Lūdzu mēģiniet vēlāk."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "Un arī"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "Atvērt vairāk"
+
+msgid "singleRewardView/header/title/"
+msgstr "SAŅEMTĀS ATLĪDZĪBAS"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "Unikāls apkalpes loceklis"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "3D Pielikumi"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "Misijas priekš x5 Pieredzes katrā kaujā"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "Direktīvas"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "Rasējumu Fragmenti"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "Brošūras"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "Apmācību brošūras"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "Palīgmateriāli"
+
+msgid "statisticsRewards/label/credits"
+msgstr "Kredīti"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "Rokasgrāmatas"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "Apmācību rokasgrāmatas"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "Misijas priekš x3 Apkalpes Pieredzes"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "Bonas"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "Pielāgošana"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "Uzlabotas Iekārtas"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "Komponentes"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "Eksperimentālas Iekārtas"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "Brīvā Pieredze"
+
+msgid "statisticsRewards/label/gold"
+msgstr "Zeltu"
+
+msgid "statisticsRewards/label/guide"
+msgstr "Ceļveži"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "Treniņa Gidi"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "Mācību Licence"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "Standarta Iekārtas"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "Personālās Rezerves"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "WoT Premium Konts"
+
+msgid "statisticsRewards/label/rations"
+msgstr "Devas"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "Pārtrenēšanas Pavēles"
+
+msgid "statisticsRewards/label/style"
+msgstr "2D Stili"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "3D Stili"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "Apkalpes Locekļi"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "Balvu Iekārtas"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "Tanki"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "Atiestatīt statistiku"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "Noklikšķiniet, lai atiestatītu visu statistiku."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "Un vēl %(count) balva."
+msgstr[1] "Un vēl %(count) balvas."
+msgstr[2] "Un vēl %(count) balvas."
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "\"%(label)\""
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "x%(count)"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "Nacionāls Rasējuma Fragments"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). \"%(label)\" priekš %(vehicleInfo)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "Kompensēti stili: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "Kompensēti tanki: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "Kompensācija par tanku, kas ir jau jūsu Garāžā."

@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "Akce je dostupná %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) – herní režim. Prozkoumejte kliknutím"
+
+msgid "bannerTooltip/description"
+msgstr "Speciální PvE režim, ve kterém se postavíte vlnám nepřátelských sil. Vyberte si své oblíbené vozidlo, zničte echo tanky a odrazte útok. Čekají na vás exkluzivní odměny a mnoho dalšího!"
+
+msgid "bannerTooltip/header"
+msgstr "Poslední vzdor: Terra Nord"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Výkon vašeho počítače není pro tento herní režim dostačující. Můžete mít potíže s grafikou a pohybem vozidla. Pravděpodobné jsou také pády herního klienta."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Tento herní režim vyžaduje vysoký výpočetní výkon. Budete mít potíže s načítáním mapy, grafikou a pohybem vozidla. V případě nedostatečného výkonu zkuste v nastavení snížit kvalitu grafiky."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Nízký výkon"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Možný omezený výkon"
+
+msgid "battlePass/playGame"
+msgstr "Postupem akcí získávejte body v Posledním vzdoru (jsou vyžadována vozidla VIII. úrovně)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Už jste přátelé."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Čekání na potvrzení žádosti o přátelství."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Odstranit hráče z vaší černé listiny."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Přidat do seznamu přátel."
+
+msgid "battleResult/interaction/menu"
+msgstr "Klikněte pro otevření menu interakce s tímto hráčem."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Přidat do čety."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Hráč už je v četě."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Pozvánka už byla odeslána."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Pouze velitel čety může posílat hráčům pozvánky k přidání do čety."
+
+msgid "booster/activated"
+msgstr "Aktivován"
+
+msgid "booster/howItWorks"
+msgstr "Jak to funguje"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Doba obnovení: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Cena v Miriu: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "Zbývající čas pro splnění denní mise"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "Čas do další denní mise"
+
+msgid "dailyQuests/completed"
+msgstr "Dokončeno"
+
+msgid "dailyQuests/completedAll"
+msgstr "Splnili jste všechny denní mise této akce."
+
+msgid "dailyQuests/completedDescr"
+msgstr "Splnili jste tuto denní misi. Zítra bude dostupná nová."
+
+msgid "dailyQuests/rewards"
+msgstr "Odměny:"
+
+msgid "dailyQuests/status"
+msgstr "Nová denní mise za %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "Akce je dostupná %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Pro vstup do bitvy vyberte dostupné vozidlo."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Není k dispozici"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Bitvy ve vybrané obtížnost/režimu jsou z technických důvodů dočasně nedostupné."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Není k dispozici"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Pro vstup do nové bitvy počkejte, až se četa vrátí z předchozí bitvy."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Není k dispozici"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Nekompatibilní úroveň obtížnosti pro četu."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Není k dispozici"
+
+msgid "points/accrued"
+msgstr "Získáno"
+
+msgid "points/battles"
+msgstr "• Bojujte v bitvách akce"
+
+msgid "points/body"
+msgstr "Data slouží k postupu Posledním vzdorem a k získání cenných zdrojů. Získat je lze bojováním v bitvách akce, plněním denních misí nebo zakoupením balíčku „{{bundle_name}}“."
+
+msgid "points/bottom"
+msgstr "Akce končí (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• Každý den plňte nové denní mise"
+
+msgid "points/effective"
+msgstr "• Efektivita v bitvě:"
+
+msgid "points/gold"
+msgstr "• Kupte si v obchodě balíček „{{bundle_name}}“"
+
+msgid "points/header"
+msgstr "Data"
+
+msgid "points/howToEarn"
+msgstr "Jak je získat"
+
+msgid "points/missionDaily"
+msgstr "• Splněno denních misí:"
+
+msgid "points/obelisk"
+msgstr "• Obelisk zničen:"
+
+msgid "points/vehicleDaily"
+msgstr "• Získán denní bonus vozidla:"
+
+msgid "rewardPath/info/first"
+msgstr "Další data můžete získat plněním denních misí, které se během akce každý den aktualizují."
+
+msgid "rewardPath/info/header"
+msgstr "Další data"
+
+msgid "rewardPath/info/second"
+msgstr "Speciální balíček akce, který je dostupný v obchodě, také obsahuje data k urychlení vašeho postupu."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "Bonus vozidla:"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "Další odměny:"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}Bonus vozidla{EDCB9E_End} – {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "Všechna data a odměny získány"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "Získáno dat {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "Sbírejte v bitvě data a postupujte Posledním vzdorem. V každé fázi získáte cenné předměty a bonus vozidla, které vám pomohou porazit silnější nepřátele."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "Poslední fáze"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "Stávající fáze"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "Akce je dostupná ještě {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "Postup"
+
+msgid "shopWidget/body"
+msgstr "Klikněte pro otevření speciální sekce herního obchodu s exkluzivními předměty akce."
+
+msgid "shopWidget/header"
+msgstr "Balíčky akce"
+
+msgid "teamList/actions/body"
+msgstr "Rychlé akce pro vytvoření čety a přidání/odstranění přátel."
+
+msgid "teamList/actions/header"
+msgstr "Rychlé akce"
+
+msgid "teamList/damage/body"
+msgstr "Řadit podle způsobeného poškození."
+
+msgid "teamList/damage/header"
+msgstr "Způsobené poškození"
+
+msgid "teamList/keys/body"
+msgstr "Řadit podle získaných dat. Zobrazená hodnota nezahrnuje data navíc získaná za plnění denních misí a z denních bonusů vozidel."
+
+msgid "teamList/keys/header"
+msgstr "Data"
+
+msgid "teamList/kills/body"
+msgstr "Řadit podle zničených nepřátelských vozidel."
+
+msgid "teamList/kills/header"
+msgstr "Zničená nepřátelská vozidla"
+
+msgid "teamList/name/header"
+msgstr "Jméno hráče"
+
+msgid "teamList/place/body"
+msgstr "Řadit podle pozice v týmu."
+
+msgid "teamList/place/header"
+msgstr "Pozice v týmu"
+
+msgid "teamList/squad/header"
+msgstr "Četa je taktická jednotka pro hráče pro spolupráci v bitvách."
+
+msgid "teamList/vehicle/body"
+msgstr "Řadit podle typu a názvu vozidla."
+
+msgid "teamList/vehicle/header"
+msgstr "Vozidla"
+
+msgid "teamList/warned/body"
+msgstr "Tento hráč byl potrestán za nečinnost/dezerci a za tuto bitvu nezískal žádné odměny."
+
+msgid "teamList/warned/header"
+msgstr "Varování"
+
+msgid "teamList/warned/self/body"
+msgstr "Byli jste penalizováni za nečinnost/dezerci a za tuto bitvu jste nezískali žádné odměny."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Nízká efektivita posádky"
+
+msgid "vehicle/rentState"
+msgstr "Uzamčeno"
+
+msgid "vehicleDaily/header"
+msgstr "Denní bonus vozidla"

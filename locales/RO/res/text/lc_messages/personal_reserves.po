@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Activare"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Cumpărare și activare"
+
+msgid "activation/activateBonus"
+msgstr "Activare rezerve: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Activează rezerva"
+
+msgid "activation/activateButtonClan"
+msgstr "Spre Fort"
+
+msgid "activation/battleXPDescription"
+msgstr "Bonus la EXP de luptă timp de 1 h"
+
+msgid "activation/battleXPTitle"
+msgstr "EXP de luptă"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Cumperi și activezi rezerva personală îmbunătățită care conferă %(boosterBonus)s la %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Achiziție aur"
+
+msgid "activation/buyGoldTitle"
+msgstr "Cumperi aurul necesar pentru rezerva personală îmbunătățită care conferă %(boosterBonus)s la %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Aur necesar pentru a cumpăra rezerva personală îmbunătățită:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Credite și EXP de luptă"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "EXP de echipaj și EXP liberă"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Rezerve clan"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Activează rezerva în Fort"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Afișează în Fort"
+
+msgid "activation/comboXPDescription"
+msgstr "Bonus la EXP liberă și de echipaj timp de 1 h"
+
+msgid "activation/comboXPTitle"
+msgstr "EXP liberă & echipaj"
+
+msgid "activation/creditsDescription"
+msgstr "Bonus la credite timp de 1 h"
+
+msgid "activation/creditsTitle"
+msgstr "Credite"
+
+msgid "activation/footer"
+msgstr "Rezervele expirabile trebuie să fie activate: %(expirableAmount) în %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Bonus la EXP de Front timp de 1 h"
+
+msgid "activation/frontLineXPTitle"
+msgstr "EXP Front"
+
+msgid "activation/informationButton"
+msgstr "INFORMAȚII"
+
+msgid "activation/price"
+msgstr "Cost:"
+
+msgid "activation/subFooter/depot"
+msgstr "Depozit"
+
+msgid "activation/subFooter/main"
+msgstr "Rezervele cu expirarea cea mai apropiată sunt activate primele. Poți afișa toate rezervele disponibile în %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Activează {whiteSpanish_Open}până la 3 rezerve personale{whiteSpanish_Close} pentru a obține mai multe credite și experiență în lupte. Cumpără mai multe rezerve personale din %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "Magazin"
+
+msgid "activation/terms/booster_credits"
+msgstr "creditele"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "EXP Front"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "EXP liberă & echipaj"
+
+msgid "activation/terms/booster_xp"
+msgstr "EXP de luptă"
+
+msgid "activation/title"
+msgstr "REZERVE PERSONALE"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Rezerva personală standard activată care conferă %(previousBoosterBonus)s la %(previousBoosterTerm)s va fi consumată.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Vrei să activezi rezerva personală îmbunătățită care conferă %(boosterBonus)s la %(boosterTerm)s în loc de rezerva personală standard activată?"
+
+msgid "battleView/notice"
+msgstr "Rezervele personale pot fi activate în orice moment în lupte. Vei obține bonusurile chiar dacă rezerva expiră pe parcursul luptei."
+
+msgid "battleView/title"
+msgstr "Activarea rezervelor personale"
+
+msgid "depot/buyButton"
+msgstr "Spre achiziție"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Altă Rezervă de acest tip este deja activată."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Această rezervă personală a expirat în cursul luptei. Bonusul rezervei personale se aplică totuși acestei lupte."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)min"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Rezervele personale activate nu se aplică acestui mod."
+
+msgid "intro/buttons/close"
+msgstr "Recepționat!"
+
+msgid "intro/buttons/details"
+msgstr "Detalii"
+
+msgid "intro/description"
+msgstr "Rezervele personale expirabile sunt disponibile o perioadă limitată de timp după obținerea lor. Dacă acestea nu sunt activate în acea perioadă, se vor pierde. Rezervele personale non-expirabile nu pot fi utilizate atâta timp cât deții rezerve personale expirabile de același tip."
+
+msgid "intro/title"
+msgstr "REZERVELE PERSONALE EXPIRABILE"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Nu ai în depozit rezerve personale de acest tip. Le poți cumpăra mai târziu sau să le activezi în Garaj."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Finalizează misiuni și participă la evenimente în joc pentru a obține rezerve personale."
+
+msgid "noReserveTooltip/text"
+msgstr "Nu ai în depozit rezerve personale de acest tip."

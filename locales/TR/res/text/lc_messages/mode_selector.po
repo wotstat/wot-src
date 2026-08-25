@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "button/progression"
+msgstr "Gelişimi Göster"
+
+msgid "button/select"
+msgstr "Yapılandır"
+
+msgid "event/battlePass/name"
+msgstr "Savaş Kartı Sezon %(seasonNum)s"
+
+msgid "event/finished"
+msgstr "%(eventName)s\nbitti"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\n%(date)s tarihinde başlayacak"
+
+msgid "event/paused"
+msgstr "%(eventName)s\ngeçici olarak devre dışı"
+
+msgid "event/ranked/name"
+msgstr "Sezon %(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "GELİŞİM KİPİNDE GÖSTER"
+
+msgid "mode/epicBattle/condition"
+msgstr "30v30 &nbsp;{par_open}I{par_close}&nbsp;Seviyeler&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30v30&nbsp;{par_open}I{par_close}&nbsp;Seviye&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "Etkinlik\n%(date)s tarihinde başlayacak"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Bu kip\nyakında başlayacak"
+
+msgid "mode/epicBattle/description"
+msgstr "Gelişimli ve ödüllü kip."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "Etkinlik sona erdi"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "{whiteSpanish_open}Ön Cephede{whiteSpanish_close} Seviye VIII araçlarla savaşarak Savaş Kartı Gelişiminde ilerlemenizi sağlayacak Puan kazanırsınız."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Savaş Kartı Puanı"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "{whiteSpanish_open}Keşif Görevinde{whiteSpanish_close} Seviye VIII-X araçlarla savaşarak Savaş Kartı Gelişiminde ilerlemenizi sağlayacak Puan kazanırsınız."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Savaş Kartı Puanı"
+
+msgid "mode/mapbox/condition"
+msgstr "15'e 15 %(parSecondary_open)sI%(parSecondary_close)s Seviye&nbsp;VIII–X"
+
+msgid "mode/mapbox/description"
+msgstr "Yeni harita mekanizmaları."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Hava durumu görsel efektleri genel grafik ayarlarınıza bağlıdır. Düşük grafik ayarlarında görsel kalıntılar ve sorunlar oluşabilir. Bilgisayarınızın özellikleri gereksinimleri karşılıyorsa en iyi deneyim için en yüksek grafik ayarını seçmenizi öneririz. Kip, yüksek bilgisayar performansı gerektirir. FPS hızı yoğun çatışmalar sırasında düşebilir."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "En yüksek grafik ayarı önerilir"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) En yüksek grafik ayarı önerilir"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Haritaları öğrenin"
+
+msgid "mode/mapsTraining/description"
+msgstr "Haritaları öğrenin"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "{whiteSpanish_open}Rastgele Savaşlarda{whiteSpanish_close} Seviye IV-XI araçlarla savaşarak Savaş Kartı Gelişiminde ilerlemenizi sağlayacak Puan kazanırsınız."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Savaş Kartı Puanı"
+
+msgid "mode/random/condition"
+msgstr "15x15 %(parSecondary_open)s|%(parSecondary_close)s Seviye&nbsp;I-XI"
+
+msgid "mode/random/description"
+msgstr "Otomatik maç eşleştirmeli savaşlar."
+
+msgid "mode/random/setup"
+msgstr "Yapılandır"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "{whiteSpanish_open}Sıralamalı Savaşlarda{whiteSpanish_close} Seviye X araçlarla savaşarak Savaş Kartı Gelişiminde ilerlemenizi sağlayacak Puan kazanırsınız."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Savaş Kartı Puanı"
+
+msgid "mode/ranked/condition"
+msgstr "10v10 %(parSecondary_open)s|%(parSecondary_close)s Seviye&nbsp;X"
+
+msgid "mode/ranked/description"
+msgstr "Gelişimli ve ödüllü kip."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Turnuvaya başvurun"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Sonraki savaş: %(date)s tarihinde %(time)s itibarıyla"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1v1 - 15v15 %(parSecondary_open)s|%(parSecondary_close)s Seviye&nbsp;I-X"
+
+msgid "mode/specBattlesList/description"
+msgstr "Dünya Haritası ve turnuvalar."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Lejyoner olarak savaşın"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Bir klanda savaşın"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7v7 - 15v15 %(parSecondary_open)s|%(parSecondary_close)s Seviye &nbsp;VI-X"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Endüstriyel Kaynak için Klan Savaşları."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Eğitim odaları: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1v1 - 15v15 %(parSecondary_open)s|%(parSecondary_close)s Seviye&nbsp;I-X"
+
+msgid "mode/trainingsList/description"
+msgstr "Tanıtım savaşları."
+
+msgid "novelty"
+msgstr "YENİ"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Elemelerde Savaşlar: %(current) %(par_open)s / %(max) %(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "Bu kipte oynayarak özgün 3B ekler alabilirsiniz."
+
+msgid "reward/attachment/name"
+msgstr "3B Ekler"
+
+msgid "reward/bones/description"
+msgstr "Ödül, savaş performansınıza göre belirlenir."
+
+msgid "reward/bones/name"
+msgstr "Tahviller"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Bu kipte oynayarak %(name)s alabilirsiniz."
+
+msgid "reward/bountyEquipment/name"
+msgstr "Özel Donanım"
+
+msgid "reward/credits/description"
+msgstr "Ödül, savaş performansınıza göre belirlenir."
+
+msgid "reward/credits/name"
+msgstr "Kredi"
+
+msgid "reward/crew/description"
+msgstr "Bu kipte oynayarak özgün mürettebat üyeleri alabilirsiniz."
+
+msgid "reward/crew/name"
+msgstr "Mürettebat Üyeleri"
+
+msgid "reward/experience/description"
+msgstr "Ödül, savaş performansınıza göre belirlenir."
+
+msgid "reward/experience/name"
+msgstr "Deneyim"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "Kipte oynayarak farklı Deneysel Donanım parçaları alabilirsiniz."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Özel Donanım"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Bu kipte oynayarak %(name)s alabilirsiniz."
+
+msgid "reward/improvedEquipment/name"
+msgstr "Özel Donanım"
+
+msgid "reward/lootBoxes/description"
+msgstr "Bu kipte oynayarak ganimet kutuları alabilirsiniz."
+
+msgid "reward/lootBoxes/name"
+msgstr "Özel Ganimet Kutuları"
+
+msgid "reward/other/description"
+msgstr "Bu kipte oynayarak bir sürü faydalı ödül alabilirsiniz."
+
+msgid "reward/other/name"
+msgstr "Özel Ödül"
+
+msgid "reward/progressionStyle/description"
+msgstr "Bu kipte oynayarak özel bir kademeli stil alabilirsiniz."
+
+msgid "reward/progressionStyle/name"
+msgstr "Kademeli Stil"
+
+msgid "reward/random/description"
+msgstr "Bu kipte oynayarak bir sürü faydalı ödül alabilirsiniz."
+
+msgid "reward/random/name"
+msgstr "Rastgele Ödül"
+
+msgid "reward/style/description"
+msgstr "Bu kipte oynayarak %(name)s için özel bir 3B stil alabilirsiniz."
+
+msgid "reward/style/name"
+msgstr "3B Stil"
+
+msgid "reward/vehicle/description"
+msgstr "Bu kipte oynayarak %(name)s alabilirsiniz."
+
+msgid "reward/vehicle/name"
+msgstr "Ödül Araçlar"
+
+msgid "selectMap"
+msgstr "Rastgele Savaşlar İçin Ön Ayarlar"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s gün"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s sa."
+
+msgid "status/timeLeft/lessMin"
+msgstr "bir dakikadan az sürede"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s dk."
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "SAVAŞ KİPİ SEÇİN"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Dünya Haritası"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Bölgeleri ele geçirin ve dünya hakimiyeti için savaşın. Bu kip sadece klan üyelerine açıktır."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Klana Katılın"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Dünya Haritasında Savaşlar"
+
+msgid "window/battleSession/title"
+msgstr "ÖZEL SAVAŞ"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Turnuva Listesi"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Bu özellik şu anda devre dışı ancak gelecekte açılacak. Lütfen bekleyin."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Kendi başınıza veya bir ekip içinde savaşın, neler yapabileceğinizi gösterin ve değerli ödüller alın."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Turnuvalar"

@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Hasar almak CP geri kazanımını durdurur.\n\nCP geri kazanım hızı ve maksimum geri kazanım sınırı, aracın tüm değiştiriciler uygulandıktan sonraki toplam CP'sine bağlıdır."
+
+msgid "armorPatching/alt/info"
+msgstr "Grup yetenekleri için tüm mürettebat üyelerindeki ortalama eğitim seviyesi dikkate alınır. En az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitim devam ettikçe etkinliği artar."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Tamir Çantası kullanmak, savaş başına maksimum %20 olacak şekilde aracın {yellow_Start}CP{yellow_End}'sinin %(hpRecover)s kadarını 5 sn. içinde geri kazandırır. Kritik hasar olmadan Tamir Çantası kullanımına imkan sağlar."
+
+msgid "armorPatching/hudDescription"
+msgstr "Can puanı geri kazanıldı."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Tüm mürettebat üyeleri için eğitildiğinde Tamir Çantası kullanıldığında savaş başına maksimum %20 olacak şekilde aracın {yellow_Start}CP{yellow_End}'sinin %(hpRecover)s kadarını 5 sn. içinde geri kazandırır. Kritik hasar olmadan Tamir Çantası kullanımına imkan sağlar."
+
+msgid "armorPatching/name"
+msgstr "Zırh Yaması"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Aracın temel gizliliğini artırır."
+
+msgid "brotherhood/alt/description"
+msgstr "Mürettebat etkinlik bonusu, mürettebat üyesinin savaştaki etkinliğinin yanı sıra bunun haricindeki tüm öğrenilmiş yeteneklerinin etkinliğini iyileştirir. Bu parametre, benzer etkiye sahip donanım veya sarf malzemeleri takarak veya Tahliye Temizliği yönergesi kullanılarak daha da artırılabilir. Komutanın Acil Durum yeteneğinin yanı sıra Telsiz Operatörünün Omuz Omuza ve Haberleşme Uzmanı yetenekleri de parametreyi artırabilir."
+
+msgid "brotherhood/alt/info"
+msgstr "Grup yetenekleri için tüm mürettebat üyelerindeki ortalama eğitim seviyesi dikkate alınır. En az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitim devam ettikçe etkinliği artar."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "Tüm mürettebatın {greenBright_Start}mürettebat etkinlik bonusu{greenBright_End} %(crewLevelIncrease)s artar&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Tüm mürettebat üyeleri tam olarak eğitildiğinde tüm mürettebatın {greenBright_Start}mürettebat etkinlik bonusunu{greenBright_End} %(crewLevelIncrease)s artırır&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Silah Arkadaşlığı"
+
+msgid "brotherhood/shortDescription"
+msgstr "Genel mürettebat performansını artırır."
+
+msgid "camouflage/alt/description"
+msgstr "Bu yetenek aracın gizliliğine etkiler. Doğal Kılıf yönergesi ile daha da iyileştirilebilir.\n\nAyrıca araç gizliliği bir kamuflaj deseni veya bir stil uygulamanın yanı sıra benzer etkilere sahip donanım takarak da artırılabilir."
+
+msgid "camouflage/alt/info"
+msgstr "Grup yetenekleri için tüm mürettebat üyelerindeki ortalama eğitim seviyesi dikkate alınır. En az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitim devam ettikçe etkinliği artar."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "Aracın {greenBright_Start}gizliliği{greenBright_End} %(maskingFactor)s artırıldı&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Tüm mürettebat üyeleri tam olarak eğitildiğinde araç {greenBright_Start}gizliliğini{greenBright_End} %(maskingFactor)s artırır&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Gizlenme"
+
+msgid "camouflage/shortDescription"
+msgstr "Aracın temel gizliliğini artırır."
+
+msgid "commander_coordination/alt/description"
+msgstr "Etkisi her düşman aracı tespitinde aktive olur ancak çok sayıda araç tespit edilmesi durumunda toplanmaz.\n\nNişan alma hızı Nişancının Hızlı Nişan Alma yeteneğini eğiterek veya benzer etkisi olan donanım takarak daha da artırılabilir."
+
+msgid "commander_coordination/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hâle gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir. "
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "{yellow_Start}Nişan alma hızı{yellow_End} bir düşman aracı tespit ettiğinizde 15 sn. boyunca %(vehicleGunAimSpeed)s artar."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Nişan alma hızı arttı."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde bir düşman aracı tespit etmeniz durumunda 15 sn. boyunca {yellow_Start}nişan alma hızını{yellow_End} %(vehicleGunAimSpeed)s artırır.\t"
+
+msgid "commander_coordination/name"
+msgstr "Koordinasyon"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Nişan alma hızı arttı."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Görüş mesafesi Telsiz Operatörünün Durumsal Farkındalık yeteneğini eğitilerek veya benzer bir etkiye sahip donanım takarak daha da artırılabilir. Optik Kalibrasyon yönergesi kullanmak etkisini iyileştirir."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}Görüş mesafesi{greenBright_End} %(circularVisionRadius)s artırıldı&zwnbsp;. {greenBright_Start}Hasarlı gözetleme cihazlarına gelen ceza{greenBright_End} %(penaltyToDamagedSurveyingDevice)s azaldı&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Hasarlı gözetleme cihazlarına gelen ceza azaldı."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {greenBright_Start}görüş mesafesini{greenBright_End} %(circularVisionRadius)s artırır&zwnbsp; ve {greenBright_Start}hasarlı gözetleme cihazlarına gelen cezayı{greenBright_End} %(penaltyToDamagedSurveyingDevice)s azaltır&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Keşif"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Özellikle gözetleme cihazları hasar aldığında görüş mesafesini artırır."
+
+msgid "commander_emergency/alt/description"
+msgstr "Düşmandan tekrarlı hasar alındığında etkisi birikmez. Mürettebat etkinlik bonusu mürettebat üyesinin savaştaki etkinliğini iyileştirir. Bu parametre, benzer etkisi olan donanım veya sarf malzemeleri takarak veya Tahliye Temizliği yönergesi kullanarak daha da artırılabilir. Silah Arkadaşlığı grup yeteneğinin yanı sıra Telsiz Operatörünün Omuz Omuza ve Haberleşme Uzmanı yetenekleri de parametreyi artırabilir."
+
+msgid "commander_emergency/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hâle gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir. "
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "Düşmandan hasar aldıktan sonra 15 sn. boyunca {yellow_Start}mürettebat etkinlik bonusu{yellow_End} %(crewLevelIncrease)s artırılacak."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Mürettebat etkinlik bonusu arttı."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde bir düşmandan hasar aldıktan sonra 15 sn. boyunca {yellow_Start}mürettebat etkinlik bonusunu{yellow_End} %(crewLevelIncrease)s artırır."
+
+msgid "commander_emergency/name"
+msgstr "Acil Durum"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Mürettebat etkinlik bonusu arttı."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Düşman KMT ateşi hakkında bir uyarı, biraz gecikme ile etkinleşir.\n\nYetenek Artırılmış Teyakkuz yönergesi ile iyileştirilebilir."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hâle gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir. "
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "{yellow_Start}Düşman KMT ateşi hakkında bir uyarı{yellow_End} ve atışın yönü %(artNotificationDelayFactor)s gecikme ile gösterilir. {greenBright_Start}Şokun olumsuz etkileri{greenBright_End} %(stunResistanceEffectFactor)s azalır&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {yellow_Start}düşman KMT ateşi hakkında bir uyarıyı{yellow_End} %(artNotificationDelayFactor)s gecikme ile belirtir ve atışın yönünü gösterir. {greenBright_Start}Şokun olumsuz etkisini{greenBright_End} %(stunResistanceEffectFactor)s azaltır&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Ses Tespiti"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Düşman KMT'si ateşini gösterir."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Mürettebat verimlilik bonusu, savaşta mürettebat üyesinin etkinliğini iyileştirir.\n\nBu parametre benzer etkisi olan donanım veya sarf malzemeleri takarak veya Tahliye Temizliği yönergesi kullanarak daha da artırılabilir. Çeşitli başka mürettebat yetenekleri de parametreyi artırabilir."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hale gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir. "
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "{yellow_Start}Mürettebat verimlilik bonusu{yellow_End} düşman ekibinin savaşta sizinkinden en az üç araç fazla olması durumunda %(crewLevelIncrease)s artacaktır&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Mürettebat verimlilik bonusu artırıldı (düşman sayısal üstünlüğü)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {yellow_Start}mürettebat verimlilik bonusunu{yellow_End} düşman ekibinin savaşta sizinkinden en az üç araç fazla olması durumunda %(crewLevelIncrease)s artırır&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Hattı Savunun"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Mürettebat verimlilik bonusunu artırır"
+
+msgid "commander_practical/alt/description"
+msgstr "Yetenek aracınıza takılı her türlü sarf malzemesi çalışır.\n\nEtkisi Kapsamlı Hazırlık yönergesi kullanılarak daha da artırılabilir."
+
+msgid "commander_practical/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}Sarf malzemesi soğuma süresi{greenBright_End} %(equipmentPreparationTime)s azalır&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {greenBright_Start}sarf malzemesi soğuma süresini{greenBright_End} %(equipmentPreparationTime)s kısaltır&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Pratiklik"
+
+msgid "commander_practical/shortDescription"
+msgstr "Sarf malzemesi soğuma süresini kısaltır."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Altıncı His, Komutan yaralandığında devre dışı kalır. Etkinleşme süresi Telsiz Operatörünün Sinyal Dinleme yeteneği ile kısaltılabilir."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Eğitim gerektirmeyen ve Komutana normal olarak açık olan özel bir Komutan niteliğidir."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Komutanın aracın düşman tarafından tespit edilip edilmediğini anlamasını sağlar. Araç tespit edildikten %(delay)s sonra devreye girer."
+
+msgid "commander_sixthSense/name"
+msgstr "Altıncı His"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Komutanın aracının düşman tarafından tespit edilip edilmediğini anlamasını sağlar."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Mürettebat verimlilik bonusu, savaşta mürettebat üyesinin etkinliğini iyileştirir.\n\nBu parametre benzer etkisi olan donanım veya sarf malzemeleri takarak veya Tahliye Temizliği yönergesi kullanarak daha da artırılabilir. Çeşitli başka mürettebat yetenekleri de parametreyi artırabilir."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hale gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir. "
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "İlk Yardım Çantası kullanıldıktan sonraki 15&nbsp;sn. boyunca {yellow_Start}mürettebat verimlilik bonusu{yellow_End} %(crewLevelIncrease)s artar. İlk Yardım Çantasının yaralı mürettebat üyesi olmasa bile kullanılmasına imkan sağlar&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Mürettebat verimlilik bonus arttı (İlk Yardım Çantası kullanıldı)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde İlk Yardım Çantası kullanıldıktan sonraki 15 sn. boyunca {yellow_Start}mürettebat verimlilik bonusu{yellow_End} %(crewLevelIncrease)s artar. İlk Yardım Çantasının yaralı mürettebat üyesi olmasa bile kullanılmasına imkan sağlar&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Tetikte Ol"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Mürettebat verimlilik bonusunu artırır"
+
+msgid "commander_tutor/alt/description"
+msgstr "Yaralı bir Komutan başka bir mürettebat üyesinin yerine geçemez. Bonus sadece savaşta kazanılan temel Mürettebat DP'si miktarına uygulanır.\n\nMürettebat Kitapları kullanarak veya Serbest DP'yi Mürettebat DP'sine dönüştürerek ek Mürettebat DP'si alınabilir."
+
+msgid "commander_tutor/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Tüm mürettebat üyelerinin kazandığı {greenBright_Start}DP{greenBright_End} miktarı %(xpBonusFactorPerLevel)s arttı. Komutan %(woundedCrewEfficiency)s etkinlikle {greenBright_Start}devre dışı kalmış üyelerin yerine geçebilir{greenBright_End}."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Komutan, devre dışı kalmış mürettebat üyelerinin yerine geçer."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde tüm mürettebat üyelerinin kazandığı {greenBright_Start}DP{greenBright_End} miktarını %(xpBonusFactorPerLevel)s artırır. Komutanın %(woundedCrewEfficiency)s etkinlikle {greenBright_Start}devre dışı kalmış üyelerin yerine geçmesini{greenBright_End} sağlar."
+
+msgid "commander_tutor/name"
+msgstr "Öğretmen"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Komutan, devre dışı kalmış mürettebat üyelerinin yerine geçer."
+
+msgid "commander_universalist/alt/description"
+msgstr "Komutan sadece devre dışı kalan mürettebat üyesinin ana uzmanlığını üstlenebilir. Üstlenme etkisi devre dışı kalan her mürettebat üyesi ile azalır."
+
+msgid "commander_universalist/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar. Eğitim geliştikçe etkisi artar."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Komutan {greenBright_Start}devre dışı kalmış{greenBright_End} mürettebat üyelerinin yerine %(woundedCrewEfficiency)s etkinlikle geçebilir."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Komutan devre dışı kalan mürettebat üyesinin rolünü üstleniyor."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde Komutanın {greenBright_Start}devre dışı kalmış{greenBright_End} mürettebat üyelerinin yerine %(woundedCrewEfficiency)s etkinlikle geçebilmesini sağlar."
+
+msgid "commander_universalist/name"
+msgstr "Her Derde Deva"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Komutanın devre dışı kalmış mürettebat üyelerinin yerine geçebilmesini sağlar."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Orta yumuşaklıkta zeminde giderken aracın manevra kabiliyeti ve ivmelenmesine gelen cezaları azaltır. Yumuşak zeminde giderken bu cezaları büyük ölçüde azaltarak orta yumuşaklıkta zemin değerlerine getirir.\nOrta yumuşaklıkta ve yumuşak zeminde manevra kabiliyeti, sert zemindeki manevra kabiliyetini aşamaz."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}Orta yumuşaklıktaki zeminde hız kaybı{greenBright_End} %(mediumGroundFactor)s azaldı&zwnbsp;, {greenBright_Start}yumuşak zemindeki hız kaybı{greenBright_End} orta yumuşaklıktaki zemindeki yeni değerin %(softGroundFactor)s kadarına indi."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {greenBright_Start}orta yumuşaklıktaki zeminde hız kaybını{greenBright_End} %(mediumGroundFactor)s azaltır&zwnbsp;, {greenBright_Start}yumuşak zemindeki hız kaybını{greenBright_End} orta yumuşaklıktaki zemindeki yeni değerin %(softGroundFactor)s kadarına azaltır."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Arazi Sürüşü"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Mürettebat verimlilik bonusu, savaşta mürettebat üyesinin etkinliğini iyileştirir.\n\nBu parametre benzer etkisi olan donanım veya sarf malzemeleri takarak veya Tahliye Temizliği yönergesi kullanarak daha da artırılabilir. Çeşitli başka mürettebat yetenekleri de parametreyi artırabilir."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hale gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir. "
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "Engellediğiniz hasar aracınızın başlangıçtaki can puanını aşarsa {yellow_Start}mürettebat verimlilik bonusu{yellow_End} %(crewLevelIncrease)s artacak."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Mürettebat verimlilik bonus arttı (yeterli hasar engellendi)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde engellediğiniz hasar aracınızın başlangıçtaki can puanını aşarsa {yellow_Start}mürettebat verimlilik bonusunu{yellow_End} %(crewLevelIncrease)s artırır."
+
+msgid "driver_bulletproof/name"
+msgstr "Kurşun Geçirmez"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Benzer etkiye sahip donanım takarak aracınızın azami hızını daha da artırabilir, hasarlı motordan kaynaklanan cezayı daha da azaltabilirsiniz."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "Aracınızın {greenBright_Start}ileri hızı{greenBright_End} ve {greenBright_Start}geri hızı{greenBright_End} %(vehicleForwardMaxSpeed)s arttı. {greenBright_Start}Hasarlı bir motora gelen ceza{greenBright_End} %(vehPenaltyForDamagedEngine)s azaldı&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Hasarlı motora gelen ceza azaldı."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde aracınızın {greenBright_Start}ileri hızını{greenBright_End} ve {greenBright_Start}geri hızını{greenBright_End} %(vehicleForwardMaxSpeed)s artırır. {greenBright_Start}Hasarlı bir motora gelen cezayı{greenBright_End} %(vehPenaltyForDamagedEngine)s azaltır&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Mühendis"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Hasarlı motora gelen ceza azaldı."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Yetenek, iki müttefik araç çarpıştığında etkili değildir.\n\nAracınızın alacağı çarpma hasarı, benzer etkisi olan donanım takarak daha da azaltılabilir."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}Düşman araçlarına verilecek çarpma hasarı{greenBright_End} %(damageEnemiesByRamming)s arttı&zwnbsp;. {greenBright_Start}Aracınızın alacağını çarpma hasarı{greenBright_End} %(vehicleRamDamageResistance)s&zwnbsp; ve {greenBright_Start}süspansiyonunuzun{greenBright_End} alacağı hasar %(vehicleRamChassisDamageResistance)s azaldı&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {greenBright_Start}düşman araçlarına verilen çarpma hasarını{greenBright_End} %(damageEnemiesByRamming)s artırır&zwnbsp;. {greenBright_Start}Aracınızın alacağını çarpma hasarını{greenBright_End} %(vehicleRamDamageResistance)s&zwnbsp; ve {greenBright_Start}süspansiyonunuzun{greenBright_End} alacağı hasarı %(vehicleRamChassisDamageResistance)s azaltır&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Kontrollü Çarpışma"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Aracınızdaki çarpma hasarını azaltır ve düşman araçlarındaki çarpma hasarını artırır."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "HE mermilerden alınacak hasar benzer etkiye sahip donanım takılarak daha da azaltılabilir."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}HE mermi hasarı soğurulması{greenBright_End} %(vehicleHEShellDamageResistance)s artırıldı&zwnbsp;. {greenBright_Start}Motorda&nbsp;yangın çıkma olasılığı{greenBright_End} %(vehicleFireChance)s, {greenBright_Start}süspansiyonun alacağı hasar{greenBright_End} %(suspensionDamageReduction)s azaltıldı&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {greenBright_Start}HE mermi hasarı soğurulmasını{greenBright_End} %(vehicleHEShellDamageResistance)s artırır&zwnbsp;. {greenBright_Start}Motorda yangın çıkma olasılığını{greenBright_End} %(vehicleFireChance)s ve {greenBright_Start}süspansiyonun alacağı hasarı{greenBright_End} %(suspensionDamageReduction)s azaltır&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Güvenilir Konumlanma"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Sabit bir aracın isabetliliğini ve gövde dönüşü sırasındaki isabetliliği etkilemez.\n\nYetenek, Vites Hakimiyeti yönergesi kullanarak iyileştirilebilir. Hareket hâlindeyken atış isabetliliği, benzer etkisi olan donanım takarak veya Stabilizasyon Yağlama yönergesi kullanarak daha da artırılabilir."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "Hareket hâlinde ateş ederken {greenBright_Start}top dağılımı{greenBright_End} %(vehicleGunShotDispersionChassisMovement)s azaldı&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde hareket hâlinde ateş ederken {greenBright_Start}top dağılımını{greenBright_End} %(vehicleGunShotDispersionChassisMovement)s azaltır&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Konforlu Yolculuk"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Hareket halinde ateş ederken isabetliliği artırır."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Bu yetenek bir müttefik aracın 50 m yakınındayken süspansiyonun kırmızı durumdan sarı duruma onarım hızını etkiler."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hale gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir. "
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "{yellow_Start}Süspansiyon onarım hızı{yellow_End} bir müttefik araca 50 m'den daha yakın mesafelerde %(suspensionRepairSpeed)s artar."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Süspansiyon onarım hızı arttı (yakında müttefik var)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {yellow_Start}süspansiyon onarım hızını{yellow_End} bir müttefik araca 50 m'den daha yakın mesafelerde %(suspensionRepairSpeed)s artırır."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Saha Desteği"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Aracın yangına dayanıklılığı benzer etkilere sahip donanım ve sarf malzemeleri takarak daha da artırılabilir. Yangın Söndürme yeteneği yangın çıkması durumunda söndürmeyi hızlandırır."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar. Eğitim geliştikçe etkisi artar."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "{greenBright_Start}Motorda yangın çıkma olasılığı{greenBright_End} %(vehicleFireChance)s azaltıldı&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {greenBright_Start}motorda yangın çıkma olasılığını{greenBright_End} %(vehicleFireChance)s azaltır&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Önleyici Bakım"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Motorda yangın çıkma olasılığını azaltır."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Gövde dönüş hızı benzer etkisi olan donanım veya sarf malzemeleri takarak daha da artırılabilir."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}Gövde dönüş hızı{greenBright_End} %(vehicleAllGroundRotationSpeed)s arttı&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {greenBright_Start}gövde dönüş hızını{greenBright_End} %(vehicleAllGroundRotationSpeed)s artırır."
+
+msgid "driver_virtuoso/name"
+msgstr "Acil Fren"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Gövde dönüş hızını artırır."
+
+msgid "fireFighting/alt/description"
+msgstr "Bu yetenek yangından alınan hasarı ve yangının süresini etkiler.\n\nİki Telsiz Operatörü bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır.\n\nYetenek, Deneyimli İtfaiyeci yönergesi ile iyileştirilebilir."
+
+msgid "fireFighting/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}Yangın söndürme hızı{greenBright_End} %(fireExtinguishingRate)s arttı&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {greenBright_Start}yangın söndürme hızını{greenBright_End} %(fireExtinguishingRate)s artırır&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Yangın Söndürme"
+
+msgid "fireFighting/shortDescription"
+msgstr "Yangın söndürme hünerini geliştirir."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Normal olarak potansiyel hasar ve delme gücü aralığı temel değerlerin ±%25'idir. Örneğin bir mermi 100 mm'ye kadar zırh delebilip 100 CP hasar verebiliyorsa bir hedefe isabet ettiğinde bu tek atışın gerçek delme gücü 75 ila 125 mm arasında olabilir, vereceği gerçek hasar 75 CP ila 125 CP arasında olabilir. Bu değiştiricinin azalması daha öngörülebilir atış sonuçları sağlar.\n\nİki Nişancı bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "{greenBright_Start}Potansiyel hasar{greenBright_End} ve {greenBright_Start}potansiyel delme gücü{greenBright_End} değer aralıkları {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s azaldı. {greenBright_Start}Top dağılımı{greenBright_End} %(shotDispersionAngle)s azaldı&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {greenBright_Start}potansiyel hasar{greenBright_End} ve {greenBright_Start}potansiyel delme gücü{greenBright_End} değer aralıklarını {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s azaltır. {greenBright_Start}Top dağılımını{greenBright_End} %(shotDispersionAngle)s azaltır&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Silahtar"
+
+msgid "gunner_focus/alt/description"
+msgstr "Etki, araç durduktan 3 sn. sonra başlar ve hareket edince sıfırlanır.\n\nİki Nişancı bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır."
+
+msgid "gunner_focus/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hâle gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir. "
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "Sabit duran bir aracın {yellow_Start}top dağılımı{yellow_End} %(shotDispersionAngle)s azalır.&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Top dağılımı azaldı."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde sabit bir aracın {yellow_Start}top dağılımını{yellow_End} %(shotDispersionAngle)s azaltır&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Konsantrasyon"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Sabit bir aracın top dağılımını azaltır."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Top dağılımı ve nişan alma hızı, benzer etki sağlayan mürettebat yetenekleri eğiterek veya donanım takarak daha da iyileştirilebilir.\n\nİki Nişancı bu yeteneğe sahipse, eğitim seviyelerinin ortalama değeri uygulanır."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hale gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir. "
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "300 m yarıçapı içinde hiç müttefik araç yoksa {yellow_Start}top dağılımı{yellow_End} %(vehicleGunAimSpeed)s azalacak ve {yellow_Start}nişan alma hızı{yellow_End} %(vehicleGunAimSpeed)s artacak."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Top dağılımı ve nişan alma hızı iyileştirildi (yakında müttefik yok)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde, 300 m yarıçapı içinde hiç müttefik araç yoksa %(vehicleGunAimSpeed)s oranında {yellow_Start}top dağılımını{yellow_End} azaltır ve {yellow_Start}nişan alma hızını{yellow_End} artırır."
+
+msgid "gunner_loneWolf/name"
+msgstr "Yalnız Kurt"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Top dağılımı azaldı. Nişan alma hızı arttı."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Normalde potansiyel maksimum delme gücü, temel değerin +%25'i kadardır. Örneğin, bir mermi 100 mm'ye kadar zırhı delebiliyorsa, bu tek merminin bir hedefe isabet ettiğinde alabileceği maksimum delme gücü değeri 125 mm'dir. Bu değiştiriciyi artırmak daha etkili delme sonuçları sağlar.\n\nİki Nişancı bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hale gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "50 m'den daha yakın mesafedeki düşman araçlarına ateş ederken mermilerinizin {yellow_Start}maksimum potansiyel delme gücü{yellow_End} %(piercingHEShellsDistributionUpperBound)s artacak."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde 50 m'den daha yakın mesafedeki düşman araçlarına ateş ederken mermilerinizin {yellow_Start}maksimum potansiyel delme gücünü{yellow_End} %(piercingHEShellsDistributionUpperBound)s artırır."
+
+msgid "gunner_pointBlast/name"
+msgstr "Yakından Atış"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Mermilerinizin maksimum potansiyel delme gücünü artırır"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "İki Nişancı bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır.\n\nNişan alma hızı Komutanın Koordinasyon yeteneğini eğiterek veya benzer etkisi olan donanım takarak daha da artırılabilir.\n\nKule dönüş hızı benzer etkisi olan donanım veya sarf malzemeleri takarak daha da artırılabilir."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}Nişan alma hızı{greenBright_End} ve {greenBright_Start}kule dönüş hızı{greenBright_End} %(vehicleGunAimSpeed)s arttı&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {greenBright_Start}nişan alma hızını{greenBright_End} ve {greenBright_Start}kule dönüş hızını{greenBright_End} %(vehicleGunAimSpeed)s artırır&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Hızlı Nişan Alma"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Nişan alma hızı arttı."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Hem dolaylı hem doğrudan ateş modlarında Nişancının görüş mesafesinde hedeflenmiş araçlardaki kritik hasar almış parçaları tespit eder.\nNişancının görüş alanı aracın topunun önündeki ±10° sektör (toplam 20°) ve görüş mesafesi tarafından belirlenir.\nİki Nişancı bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır.\nYetenek, Hedefe Odaklanma yönergesi ile daha da iyileştirilebilir. İyileştirilmiş Telsiz Seti kullanmak düşman aracının görünmez hâle gelmesine kadar olan süreyi artırır."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "Nişancının görüş alanındaki düşman {greenBright_Start}aracının artık görünmez hâle geleceği{greenBright_End} zamana olan {greenBright_Start}süre{greenBright_End} %(vehicleEnemySpottingTime)s arttı. {yellow_Start}Hasarlı parçaları tespit etme{yellow_End} süresi %(damageMonitoringDelay)s azaldı&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde Nişancının görüş alanı içindeki bir düşman {greenBright_Start}aracının görünmez hâle gelmesine{greenBright_End} olan {greenBright_Start}süreyi{greenBright_End} %(vehicleEnemySpottingTime)s artırır. %(damageMonitoringDelay)s gecikme ile {yellow_Start}hasarlı parçaların tespit edilebilmesini{yellow_End} sağlar."
+
+msgid "gunner_rancorous/name"
+msgstr "Belirlenmiş Hedef"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Nişancının görüş alanı içindeki bir düşman aracının artık görülemez hâle gelmesine kadar olan süreyi artırır. Hasarlı parçaların tespit edilebilmesini sağlar."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "İki Nişancı bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır.\n\nYetenek, Eline Hakim yönergesi ile iyileştirilebilir. Kule dönüşü sırasındaki dağılım benzer etkiye sahip donanım takılarak ya da Stabilizasyon Yağlama yönergesi kullanarak daha da azaltılabilir."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "Kule dönüşü sırasında {greenBright_Start}top dağılımı{greenBright_End} %(turretAimingDispersion)s azaldı&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde kule dönüşü sırasında {greenBright_Start}top dağılımı{greenBright_End} %(turretAimingDispersion)s azaltır&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Anlık Atış"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Kule dönüşü sırasında top dağılımını azaltır."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Etkisi, otomatik topu olan araçlar hariç tüm mermi türleri için geçerlidir.\n\nİki Nişancı bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "Her türlü mermi ile düşman {greenBright_Start}aracının parçalarına{greenBright_End} {greenBright_Start}kritik hasar verme olasılığı{greenBright_End} ve düşman {greenBright_Start}mürettebat üyelerini{greenBright_End} yaralama olasılığı %(enemyModulesCrewCritChance)s arttı&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde her türlü mermi ile düşman {greenBright_Start}aracının parçalarına{greenBright_End} {greenBright_Start}kritik hasar verme olasılığını{greenBright_End} ve düşman {greenBright_Start}mürettebat üyelerini{greenBright_End} yaralama olasılığını %(enemyModulesCrewCritChance)s artırır&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Tam İsabet"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Normal olarak potansiyel minimum hasar ve delme gücü aralığı temel değerlerin ±%25'idir. Örneğin bir mermi 100 mm'ye kadar zırh delebilip 100 CP hasar verebiliyorsa, bir hedefe isabet ettiğinde bu tek atışın minimum olası delme değeri 75 mm olabilir, vereceği minimum olası hasar 75 CP olabilir. Bu değiştiricinin artması daha etkili atış sonuçları sağlar.\n\nİki Yükleyici bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "{greenBright_Start}Minimum potansiyel hasar{greenBright_End} ve {greenBright_Start}minimum potansiyel delme gücü{greenBright_End} %(damageAndPiercingDistributionLowerBound)s artırıldı&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {greenBright_Start}minimum potansiyel hasarı{greenBright_End} ve {greenBright_Start}minimum potansiyel delme gücünü{greenBright_End} %(damageAndPiercingDistributionLowerBound)s artırır&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Mühimmat Ayarı"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Ortalama hasar ve delme değerlerini artırır."
+
+msgid "loader_desperado/alt/description"
+msgstr "İki Yükleyici bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır.\n\nTop yükleme süresi Yükleyicinin Yakın Çatışma yeteneğini öğreterek veya benzer etkisi olan donanım takarak daha da azaltılabilir. Düzenli Cephanelik yönergesi kullanmak etkiyi iyileştirir."
+
+msgid "loader_desperado/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hâle gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir. "
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "Aracın kalan can puanı %25'in altındaysa {yellow_Start}topun yükleme süresi{yellow_End} %(vehicleGunReloadTime)s kısalacak."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Top yükleme süresi kısaldı (düşük araç dayanıklılığı)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde aracın kalan can puanı %25'in altındaysa {yellow_Start}topun yükleme süresini{yellow_End} %(vehicleGunReloadTime)s kısaltır."
+
+msgid "loader_desperado/name"
+msgstr "Adrenalin Hücumu"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Aracın kalan can puanı %25'ten az ise topun yüklenmesini hızlandırır."
+
+msgid "loader_intuition/alt/description"
+msgstr "Bu yeteneği etkinleştirmek için topun, iki topun veya magazinin tam olarak dolu olması gerekir. Mermi türü değiştirmek için minimum süre standart toplarda 1 saniye, çift namlulu toplar ve magazinli toplarda 2,5 sn.dir.\n\nİki Yükleyici bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır."
+
+msgid "loader_intuition/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "Yüklü bir topun {greenBright_Start}mermi türünü değiştirme süresi{greenBright_End} %(vehicleReloadTimeAfterShellChange)s azaldı&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Yüklü bir topta mermi türünü değiştirme süresini azaldı.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde yüklü bir topun {greenBright_Start}mermi türünü değiştirme süresini{greenBright_End} %(vehicleReloadTimeAfterShellChange)s azaltır&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "İçgüdü"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Yüklü bir topta mermi türünü değiştirme hızını oldukça hızlandırır."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Bu yetenek sadece magazinli topların yükleme süresini kısaltır ve diğer top sistemlerini etkilemez.\n\nİki Yükleyici bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "Magazin {greenBright_Start}yükleme süresi{greenBright_End} %(magazineGunReloadSpeed)s kısalır."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde magazin {greenBright_Start}yükleme süresini{greenBright_End} %(magazineGunReloadSpeed)s kısaltır."
+
+msgid "loader_magMastery/name"
+msgstr "Magazin Ustalığı"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Magazinlerinizin yükleme süresini kısaltır"
+
+msgid "loader_melee/alt/description"
+msgstr "İki Yükleyici bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır.\n\nTop yükleme süresi Yükleyicinin Adrenalin Hücumu yeteneğini eğiterek veya benzer etkisi olan donanım takarak daha da azaltılabilir. Düzenli Cephanelik yönergesi kullanmak etkiyi iyileştirir."
+
+msgid "loader_melee/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hâle gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir. "
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "Düşman aracına 50 m'den kısa mesafelerde {yellow_Start}topun yükleme süresi{yellow_End} %(vehicleGunReloadTime)s azalacak."
+
+msgid "loader_melee/hudDescription"
+msgstr "Top yükleme süresi kısaldı (düşman yakında).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde düşman aracına 50 m'den kısa mesafelerde {yellow_Start}topun yükleme süresini{yellow_End} %(vehicleGunReloadTime)s azaltır."
+
+msgid "loader_melee/name"
+msgstr "Yakın Dövüş"
+
+msgid "loader_melee/shortDescription"
+msgstr "Yakın dövüşte topun yüklenmesini hızlandırır."
+
+msgid "loader_pedant/alt/description"
+msgstr "Yaralı bir Yükleyici yeteneğin etkinliğini değiştirmez.\n\nİki Yükleyici bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır.\n\nYetenek, Mermi Düzenleyici yönergesi kullanarak iyileştirilebilir. Cephaneliğin dayanıklılığı benzer bir etkisi olan donanım takarak daha da artırılabilir."
+
+msgid "loader_pedant/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}Cephanelik dayanıklılığı{greenBright_End} %(vehicleAmmoBayStrength)s arttı&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {greenBright_Start}cephaneliğin dayanıklılığını{greenBright_End} %(vehicleAmmoBayStrength)s artırır&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Güvenli Depolama"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Cephaneliğin dayanıklılığını artırır."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Etkisi her türlü mermide geçerlidir.\n\nYaralı bir Yükleyici yeteneğin etkinliğini değiştirmez.\n\nİki Yükleyici bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}Mermi hızı{greenBright_End} %(shellVelocity)s arttı&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {greenBright_Start}mermi hızını{greenBright_End} %(shellVelocity)s artırır&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Mükemmel Barut Hakkı"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Bu yeteneğin magazin veya otomatik toplar üzerinde etkisi yoktur ve çift toplarda toplanmaz.\n\nSeçimli yükleme sistemli toplarda iki namlu da ateşlenirse ve ikisi de hasar veremezse top yükleme süresi indirimi iki namluya da uygulanır.\n\nİki Yükleyici bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır.\n\nTop yükleme süresi, Yükleyici için Adrenalin Hücumu veya Yakın Dövüş yetenekleri eğitilerek veya benzer etkisi olan donanım takılarak daha da kısaltılabilir. Düzenli Cephanelik yönergesi kullanmak etkiyi artırır."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hale gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "Önceki atış bir düşman aracına hasar vermediyse bir sonraki merminin {yellow_Start}top yükleme süresi{yellow_End} %(vehicleGunReloadTime)s kısaltılacak."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Top yükleme süresi kısaldı (ıskalayan atış)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde önceki atış bir düşman aracına hasar vermediyse bir sonraki merminin {yellow_Start}top yükleme süresini{yellow_End} %(vehicleGunReloadTime)s kısaltır."
+
+msgid "loader_secondChance/name"
+msgstr "İkinci Fırsat"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Top yükleme süresini kısaltır "
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/sa."
+
+msgid "measureType/percents"
+msgstr "%%%s"
+
+msgid "measureType/seconds"
+msgstr "%s sn."
+
+msgid "offspring_brotherhood/name"
+msgstr "Kardeşler Grubu"
+
+msgid "perkRole/commander"
+msgstr "Komutan"
+
+msgid "perkRole/common"
+msgstr "Grup"
+
+msgid "perkRole/driver"
+msgstr "Sürücü"
+
+msgid "perkRole/gunner"
+msgstr "Nişancı"
+
+msgid "perkRole/loader"
+msgstr "Yükleyici"
+
+msgid "perkRole/radioman"
+msgstr "Telsiz Operatörü"
+
+msgid "popularity/tooltip/common"
+msgstr "tüm oyuncularda"
+
+msgid "popularity/tooltip/header"
+msgstr "Bu araç için tercih oranı "
+
+msgid "popularity/tooltip/legendary"
+msgstr "WTR Efsane oyuncularında"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "İki Telsiz Operatörü bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır.\n\nEtkisi Komutanın Ses Tespiti yeteneği ile daha da iyileştirilebilir."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Aracın mürettebatı her şoka girdiğinde {greenBright_Start}şokun olumsuz etkisi{greenBright_End} maksimum %30'a kadar %(stunResistanceEffectFactor)s azalır.ç"
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde aracın mürettebatı her şoka girdiğinde {greenBright_Start}şokun olumsuz etkisini{greenBright_End}, maksimum %30'a kadar %(stunResistanceEffectFactor)s&nbsp;azaltır."
+
+msgid "radioman_battleTempered/name"
+msgstr "Savaşta Pişmiş"
+
+msgid "radioman_expert/alt/description"
+msgstr "Mürettebat etkinlik bonusu, mürettebat üyesinin savaştaki etkinliğini iyileştirir. İki Telsiz Operatörü bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır. Bu parametre, benzer etkiye sahip donanım veya sarf malzemeleri takarak veya Tahliye Temizliği yönergesi kullanarak daha da artırılabilir. Silah Arkadaşlığı grup yeteneğinin yanı sıra Komutanın Acil Durum veya Telsiz Operatörünün Omuz Omuza yetenekleri de parametreyi artırabilir."
+
+msgid "radioman_expert/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hâle gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir. "
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "Destek olduğunuz hasar aracınızın başlangıçtaki can puanını aşarsa {yellow_Start}mürettebat etkinlik bonusunu{yellow_End} %(crewLevelIncrease)s artacak&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Mürettebat etkinlik bonus arttı (yeterli keşif verisi iletildi)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde destek olduğunuz hasar aracınızın başlangıçtaki can puanını aşarsa {yellow_Start}mürettebat etkinlik bonusunu{yellow_End} %(crewLevelIncrease)s artırır&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Haberleşme Uzmanı"
+
+msgid "radioman_expert/shortDescription"
+msgstr "İyileştirilmiş mürettebat performansı."
+
+msgid "radioman_finder/alt/description"
+msgstr "İki Telsiz Operatörü bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır.\n\nGörüş mesafesi Keşif yeteneği eğitilerek veya benzer etkisi olan donanım takılarak daha da artırılabilir. Optik Kalibrasyon yönergesi kullanmak etkisini iyileştirir."
+
+msgid "radioman_finder/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}Görüş mesafesi{greenBright_End} %(vehicleCircularVisionRadius)s arttı&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde {greenBright_Start}görüş mesafesini{greenBright_End} %(vehicleCircularVisionRadius)s artırır&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Durumsal Farkındalık"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Görüş mesafesini artırır."
+
+msgid "radioman_interference/alt/description"
+msgstr "İki Telsiz Operatörü bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır.\n\nAracınızın tespit edilmiş olarak kalacağı süre benzer etkisi olan donanım takılarak daha da azaltılabilir."
+
+msgid "radioman_interference/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "Düşmanın {greenBright_Start}aracınızı görünür hâlde tutma süresi{greenBright_End} %(vehicleOwnSpottingTime)s azaldı&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde düşmanın {greenBright_Start}aracınızı görünür hâlde tutma süresini{greenBright_End} %(vehicleOwnSpottingTime)s azaltır&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Sinyal Bozma"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Aracınızın düşman tarafından görülebilir olduğu süreyi kısaltır."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "İki Telsiz Operatörü de bu yeteneğe sahipse sadece daha yüksek olan değer uygulanır. Etkisi ancak araç yok edildiğinde Telsiz Operatörü yaralı değilse aktif olur.\n\nYetenek, Görev Önce Gelir yönergesi ile daha da iyileştirilebilir."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hale gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Telsiz Operatörü, aracınız yok edildikten sonra %(radiomanDurationPerLevel)s daha {yellow_Start}düşman konumlarını bildirebilir{yellow_End}."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Konum bildiriliyor."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde aracınız yok edildikten sonra %(radiomanDurationPerLevel)s daha {yellow_Start}düşman konumlarını bildirmenizi{yellow_End} sağlar."
+
+msgid "radioman_lastEffort/name"
+msgstr "İntikam Çağrısı"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Aracınız yok edildikten sonra kısa bir süreliğine düşman konumlarını bildirir."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Mürettebat etkinlik bonusu, mürettebat üyesinin savaştaki etkinliğini iyileştirir. İki Telsiz Operatörü bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır. Bu parametre, benzer etkiye sahip donanım veya sarf malzemeleri takarak veya Tahliye Temizliği yönergesi kullanarak daha da artırılabilir. Silah Arkadaşlığı grup yeteneğinin yanı sıra Komutanın Acil Durum veya Telsiz Operatörünün Haberleşme Uzmanı yetenekleri de parametreyi artırabilir."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hâle gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir. "
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "Aynı türde bir müttefik araçtan 50 m'den az mesafelerde {yellow_Start}mürettebat etkinlik bonusu{yellow_End} %(crewLevelIncrease)s artacak&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Mürettebat etkinlik bonusu arttı (yakında aynı türden müttefik var)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde aynı türde bir müttefik araçtan 50 m'den az mesafelerde {yellow_Start}mürettebat etkinlik bonusunu{yellow_End} %(crewLevelIncrease)s artırır&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Omuz Omuza"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "İyileştirilmiş mürettebat performansı."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Etkisi Komutanın özel Altıncı His özelliğini iyileştirerek aktivasyonunu hızlandırır.\n\nİki Telsiz Operatörü bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Yetenek en az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitimi ilerledikçe etkisini artırır."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "Düşmanın {greenBright_Start}aracınızı tespit ettiğini{greenBright_End} {greenBright_Start}belirleme süresi{greenBright_End} %(commanderLampDelay)s azaldı."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde düşmanın {greenBright_Start}aracınızı tespit ettiğini{greenBright_End} {greenBright_Start}belirleme süresini{greenBright_End} %(commanderLampDelay)s azaltır."
+
+msgid "radioman_signalInterception/name"
+msgstr "Sinyal Dinleme"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Bu yetenek Altıncı His uyarısı aracınızın tespit edildiğini belirttiğinde devreye girer.\n\nİki Telsiz Operatörü bu yeteneğe sahipse eğitim seviyelerinin ortalama değeri uygulanır.\n\nGörüş mesafesi Keşif veya Durumsal Farkındalık yeteneklerini eğiterek veya benzer etkisi olan donanım takarak daha da artırılabilir. Optik Kalibrasyon yönergesi kullanmak etkisini artırır."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Durumsal etkisi olan bir yetenek en az %1 seviyesine eğitildiğinde etkin hale gelir. Eğitim geliştikçe etkinliği artar. Durumsal etki savaşta bazı koşullar gerçekleştiğinde tetiklenir."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "{yellow_Start}Görüş mesafesi{yellow_End}, Altıncı His uyarısını aldıktan sonra 5 sn. boyunca %(vehicleCircularVisionRadius)s artırılacak."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Görüş mesafesi artırıldı."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Tam olarak eğitildiğinde, Altıncı His uyarısını aldıktan sonra 5 sn. boyunca {yellow_Start}görüş mesafesini{yellow_End} %(vehicleCircularVisionRadius)s artırır."
+
+msgid "radioman_threatSearch/name"
+msgstr "Tehdit Arama"
+
+msgid "repair/alt/description"
+msgstr "Bu yetenek iç ve dış parça onarımlarının \"kırmızı\" durumdan \"sarı\" duruma geçme hızını etkiler.\n\nBu parametre, benzer etkiye sahip donanım veya sarf malzemeleri takarak daha da artırılabilir."
+
+msgid "repair/alt/info"
+msgstr "Grup yetenekleri için tüm mürettebat üyelerindeki ortalama eğitim seviyesi dikkate alınır. En az %1 seviyesinde eğitildiğinde etkisini göstermeye başlar ve eğitim devam ettikçe etkinliği artar."
+
+msgid "repair/currentLvlDescription"
+msgstr "Aracın hasarlı parçalarının {greenBright_Start}tamir hızı{greenBright_End} %(vehicleRepairSpeed)s arttı&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Tüm mürettebat üyeleri tam olarak eğitildiğinde aracın hasarlı parçalarının {greenBright_Start}tamir hızını{greenBright_End} %(vehicleRepairSpeed)s artırır&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Tamir"
+
+msgid "repair/shortDescription"
+msgstr "Hasarlı parçaların onarım hızını artırır."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Kardeşler Grubu"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Popüler"
+
+msgid "sorting/fallback"
+msgstr "Standart"
+
+msgid "sorting/legendary"
+msgstr "Efsanevi"
+
+msgid "sorting/title"
+msgstr "Sıralama:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPopüler.%(whiteSpanish_Close)s Tüm World of Tanks oyuncuları arasındaki güncel yetenek trendlerine göre."
+
+msgid "sorting/tooltip/header"
+msgstr "WoT Plus Avantajı"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Milyonlarca oyundan toplanan, isabetli mürettebat yetenek verileri alın, her savaştan en iyi şekilde faydalanın."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sEfsanevi.%(whiteSpanish_Close)s Efsane WTR seviyesindeki oyuncuların hâlihazırda tercih ettiği yeteneklere göre."
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Yeteneğe göre sıralama kapalı"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Veri mevcut değil"
+
+msgid "sorting/tooltip/title"
+msgstr "Mürettebat Yardımcısı"
+
+msgid "sorting/tooltip/types"
+msgstr "Yetenek sıralama türleri"
+
+msgid "sorting/tooltip/warning"
+msgstr "Yetenek sıralama geçerli değil"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Bu araç için tam yetenek verileri mevcut değil o yüzden Standart yetenek sıralaması uygulandı."
+
+msgid "witches_brotherhood/name"
+msgstr "Cadılar Toplantısı"
+
+msgid "yha_brotherhood/name"
+msgstr "Tavşan Kardeşliği"

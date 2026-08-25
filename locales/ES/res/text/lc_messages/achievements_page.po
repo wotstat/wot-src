@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Puntos que aumentan la puntuación total de logros."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Puntos de logro"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Has completado todos los pasos de este logro y recibido las recompensas disponibles."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Pulsa %(escIcon)s para volver al nivel anterior del CATÁLOGO."
+
+msgid "catalog/rootLink"
+msgstr "CATÁLOGO"
+
+msgid "category/achievementsScore/title"
+msgstr "PUNTUACIÓN DE LOGROS"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "El principal indicador de progreso de la colección de logros. Todos los logros nuevos (excepto los trofeos) aumentan la puntuación total de logros."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Puntuación total de logros: %(value)s/%(maxValue)s"
+
+msgid "category/received/title"
+msgstr "LOGROS\nRECIENTES"
+
+msgid "category/title"
+msgstr "COLECCIÓN DEL JUGADOR"
+
+msgid "category/upcoming/title"
+msgstr "LOGROS\nPOR VENIR"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s y más"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "¡Logro desbloqueado!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "¡%(count)s logros desbloqueados!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s y más"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "¡Nuevo trofeo obtenido!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "¡%(count)s trofeos obtenidos!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "La disposición automática ordena por valor los logros de todas las categorías para que aparezcan en la cinta de logros valiosos. Se desactiva si reorganizas los logros manualmente."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "La disposición automática ordena por valor los logros de todas las categorías para que aparezcan en la cinta de logros valiosos. Cuando se activa este ajuste, la organización manual se reinicia."
+
+msgid "editConfirm/description/error"
+msgstr "Estamos investigando el problema. Vuelve a realizar el cambio más tarde. Mientras, se te dirigirá al Resumen."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Guardar"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Cancelar"
+
+msgid "editConfirm/footer/button/error"
+msgstr "¡Afirmativo!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Disposición automática desactivada"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Disposición automática activada"
+
+msgid "editConfirm/title/error"
+msgstr "Se ha producido un error"
+
+msgid "editConfirm/title/normal"
+msgstr "¿Aplicar los cambios a la cinta de logros valiosos?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Cancelar cambios"
+
+msgid "editView/footer/button/save"
+msgstr "Aplicar y salir"
+
+msgid "editView/header/checkbox"
+msgstr "Disposición automática"
+
+msgid "editView/header/close"
+msgstr "CERRAR"
+
+msgid "editView/header/title/idle"
+msgstr "Elige los logros que quieres ver en la cinta"
+
+msgid "editView/header/title/selecting"
+msgstr "Elige el logro para sustituir"
+
+msgid "editView/header/title/tutorial"
+msgstr "Elige el espacio de logro"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Cancelar"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Sustituir"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "TUS LOGROS\nESTÁN AQUÍ"
+
+msgid "hint/profile"
+msgstr "TUS LOGROS\nESTÁN AQUÍ"
+
+msgid "hint/summary/customizationButton"
+msgstr "Edición disponible"
+
+msgid "notifications/editingEnabled/button"
+msgstr "A la cinta"
+
+msgid "notifications/editingEnabled/title"
+msgstr "Edición de la cinta de logros valiosos disponible"
+
+msgid "notifications/firstEntry/button"
+msgstr "A la hoja de servicio"
+
+msgid "notifications/firstEntry/text"
+msgstr "Clasificación de World of Tanks,\nedición de logros."
+
+msgid "notifications/firstEntry/title"
+msgstr "Actualizando hoja de servicio"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "A la hoja de servicio"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Edición de logros\ny diseño visual."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Actualizando hoja de servicio"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "A la hoja de servicio"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Tu nivel: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "¡Tu clasificación se ha calculado!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "A la hoja de servicio"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "Tu clasificación de World of Tanks (WTR) ha cambiado. Encontrarás los detalles en la sección «Hoja de servicio»."
+
+msgid "notifications/ratingUp/button"
+msgstr "A la hoja de servicio"
+
+msgid "notifications/ratingUp/text"
+msgstr "Has alcanzado el siguiente nivel: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "¡Tu clasificación ha aumentado!"
+
+msgid "playerInfo/clan/button"
+msgstr "Perfil del clan"
+
+msgid "playerInfo/clan/date"
+msgstr "Fecha de ingreso:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "El jugador no tiene unidades tácticas permanentes"
+
+msgid "playerInfo/clan/post"
+msgstr "Posición:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "Chapa de identificación personal\nno disponible temporalmente"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "La clasificación del jugador no se ha calculado: se han librado menos de %(amount)s batallas."
+
+msgid "ratingWidget/status/initial"
+msgstr "Libra %(amount)s batallas para calcular tu clasificación de World of Tanks."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "Aún no se ha calculado la clasificación del jugador"
+
+msgid "ratingWidget/status/progress"
+msgstr "Calculando tu clasificación de World of Tanks. Batallas restantes: %(amount)s."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Sal a luchar y calcularemos tu clasificación."
+
+msgid "rewardView/button/achievements"
+msgstr "A los logros"
+
+msgid "rewardView/button/dogTag"
+msgstr "A la chapa de identificación"
+
+msgid "rewardView/button/dogTags"
+msgstr "A las chapas de identificación"
+
+msgid "rewardView/button/moreRewards"
+msgstr "Ver %(value)s más"
+
+msgid "rewardView/reward/dogTag"
+msgstr "Chapa de identificación «%(value)s»"
+
+msgid "rewardView/title/multi"
+msgstr "RECOMPENSAS DE LOGRO RECIBIDAS"
+
+msgid "rewardView/title/single"
+msgstr "RECOMPENSA DE LOGRO RECIBIDA"
+
+msgid "section/action"
+msgstr "Especiales"
+
+msgid "section/battle"
+msgstr "Héroes de batalla"
+
+msgid "section/class"
+msgstr "Logros por etapas"
+
+msgid "section/epic"
+msgstr "Medallas épicas"
+
+msgid "section/group"
+msgstr "Logros en grupo"
+
+msgid "section/memorial"
+msgstr "Recuerdos conmemorativos"
+
+msgid "section/special"
+msgstr "Grados honorarios"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "A LOS LOGROS"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Última batalla: %(lastVisitDate)s a las %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Cuenta creada: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Fondo"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Estándar"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Incendio"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Oro"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Legendario"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Retro"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Explosivo"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Cancelar cambios"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Cinta"
+
+msgid "summary/achievements/customization/save"
+msgstr "Aplicar y salir"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "La personalización de la pantalla «Hoja de servicio» no está disponible en este momento, estamos trabajando para arreglarla. Actualiza la pantalla o vuelve más tarde."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Personalización no disponibles en este momento"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Logros valiosos"
+
+msgid "summary/achievements/total"
+msgstr "Total: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Únicos: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Media: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Victorias: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Media: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Media: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Récord: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Media: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Sal a luchar mientras preparamos tus datos."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Información temporalmente no disponible."
+
+msgid "summary/disabled/title"
+msgstr "Más información disponible pronto"
+
+msgid "summary/main/assistance"
+msgstr "RÉCORD\nDE ASISTENCIA"
+
+msgid "summary/main/battles"
+msgstr "BATALLAS\nLIBRADAS"
+
+msgid "summary/main/blocked"
+msgstr "MÁXIMO\nBLOQUEADO"
+
+msgid "summary/main/damage"
+msgstr "RÉCORD\nDE DAÑO"
+
+msgid "summary/main/destroyed"
+msgstr "VEHÍCULOS\nDESTRUIDOS"
+
+msgid "summary/main/experience"
+msgstr "RÉCORD\nDE EXPERIENCIA"
+
+msgid "summary/statistic/title"
+msgstr "Clasificación de World of Tanks"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Clasificación personal"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Daño máximo causado con tu asistencia."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Daño máximo causado con tu asistencia luchando con el %(tankName)s."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Récord de asistencia: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Tasa de daño total causado a vehículos enemigos con tu asistencia por el número total de batallas libradas. Se tiene en cuenta:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Daño a vehículos que has detectado\n• Daño cuando destruyes una oruga e inmovilizas el vehículo enemigo."
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Media de asistencia: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Tasa del número total de victorias por el número de batallas libradas."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Incluyendo:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Victorias: %(wins)s\n• Derrotas: %(loses)s\n• Empates: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Tasa de victorias: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Batallas libradas: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Daño máximo bloqueado."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Daño máximo bloqueado luchando con el %(tankName)s."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Máximo bloqueado: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Tasa de daño total bloqueado por el blindaje (golpes no penetrantes y rebotes de proyectiles AP, AEAC y APCR) por el número de batallas libradas."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Daño medio bloqueado: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Daño máximo causado."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Daño máximo causado luchando con el %(tankName)s."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Récord de daño: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Tasa de daño total causado por número de batallas libradas."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Daño medio: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Número máximo de vehículos destruidos."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "Número máximo de vehículos enemigos destruidos luchando con el %(tankName)s."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Máximo de destruidos: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Número total de vehículos enemigos destruidos en todas las batallas."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Vehículos destruidos: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Cantidad máxima de experiencia ganada."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "Cantidad máxima de experiencia ganada luchando con el %(tankName)s."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Récord de experiencia: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Tasa de experiencia total ganada por el número de batallas libradas."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Experiencia media: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "La victoria y la derrota no afectan al cálculo de tu clasificación de World of Tanks."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Juega con varios vehículos para determinar tus blindados más eficaces con los siguientes parámetros de rendimiento:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "La WTR (Clasificación de World of Tanks) es un sistema que calcula la calificación individual de cada vehículo y la emplea para determinar el rendimiento general del jugador. El sistema reacciona muy bien a los cambios de estrategia de batalla y compara las estadísticas del jugador con la media del servidor."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Daño causado"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Daño causado con tu asistencia"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Número de vehículos enemigos destruidos"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Daño bloqueado y tasa de supervivencia"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "Aumento de WTR"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "Clasificación de World of Tanks"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Batallas que faltan para calcular la clasificación: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Nivel: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "¡Límite alcanzado!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Puntos que faltan para subir de nivel: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "Bronce %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "Plata %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "Oro %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "As %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "Leyenda %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Nivel"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Número de puntos"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "Clasificación de World of Tanks"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "Cuando actives este ajuste, el orden que has establecido %(whiteSpanish_Open)sse reiniciará%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "Cuando desactives este ajuste o lo establezcas en manual, los logros de la cinta %(whiteSpanish_Open)sdejarán de%(whiteSpanish_Close)s %(whiteSpanish_Open)sactualizarse%(whiteSpanish_Close)s %(whiteSpanish_Open)sautomáticamente%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "Ordena automáticamente por valor los logros %(whiteSpanish_Open)sde todas las categorías%(whiteSpanish_Close)s para que aparezcan en la cinta de logros valiosos."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Disposición automática"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "La edición de la cinta de logros valiosos no está disponible temporalmente. Vuelve a intentarlo más tarde."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Aún no tienes logros para colocar aquí. Los recibirás %(whiteSpanish_Open)sen batalla%(whiteSpanish_Close)s o %(whiteSpanish_Open)spor participar en%(whiteSpanish_Close)s %(whiteSpanish_Open)seventos del juego.%(whiteSpanish_Close)s"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "La edición de la cinta de logros valiosos estará disponible tras recibir %(whiteSpanish_Open)s%(amount)s o más logros%(whiteSpanish_Close)s de cualquier categoría."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Ningún logro que colocar."
+
+msgid "tooltips/mastery/body"
+msgstr "Placas de maestría «As» recibidas en todos los modos de batalla relevantes / Número de vehículos que han luchado en al menos una batalla aleatoria"
+
+msgid "tooltips/mastery/header"
+msgstr "Placas de As"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "La clasificación personal es una forma de medir las habilidades y la experiencia de un jugador según los siguientes criterios:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "La clasificación personal se actualiza con cada batalla librada."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Victorias\n• Daño causado con tu asistencia\n• Daño medio por batalla\n• Experiencia media por batalla\n• Batallas sobrevividas"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Clasificación personal"

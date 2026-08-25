@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "KÖP"
+
+msgid "buttons/cancel"
+msgstr "Avbryt"
+
+msgid "buttons/learn"
+msgstr "Studier"
+
+msgid "buttons/postProgression/claim"
+msgstr "TA EMOT"
+
+msgid "buttons/postProgression/hint"
+msgstr "GÅ TILL EFTERSPEL"
+
+msgid "buttons/postProgression/howTo"
+msgstr "HUR DU ERHÅLLER"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Växelkurs:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "Används av en utvald besättningsmedlem.\nÖkar träningen av den aktuella förmågan med Fri erfarenhet."
+
+msgid "card/freeExp/title"
+msgstr "FRI ERFARENHET"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Effektgrad för förmågor: 100%\n• Specialisering: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Används av hela besättningen.\nGer varje besättningsmedlem %(xp)"
+
+msgid "card/nationBook/title/brochure"
+msgstr "UTBILDNINGSHÄFTE (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "UTBILDNINGSHÄFTE (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "UTBILDNINGSHÄFTE (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Inga restriktioner."
+
+msgid "card/personalBook/mainText"
+msgstr "Används av en utvald besättningsmedlem.\nGer besättningsmedlemmen %(xp)"
+
+msgid "card/personalBook/title"
+msgstr "PERSONLIG LÄROPLAN"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Effektgrad för förmågor: 100%\n• Specialisering: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Används av hela besättningen.\nGer varje besättningsmedlem %(xp)"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "ALLMÄN LÄROBOK"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "ALLMÄNT UTBILDNINGSHÄFTE"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "ALLMÄN LÄROPLAN"
+
+msgid "confirm/crewLabel"
+msgstr "Varje besättningsmedlem får %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Varje besättningsmedlem får %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) får ytterligare %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) får %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Vissa besättningsmedlemmar får %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Utbildningshäfte (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Utbildningshäfte"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "UTBILDNINGSHÄFTE"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} besättningserfarenhet till varje besättningsmedlem."
+
+msgid "items/crewBook/Name"
+msgstr "Lärobok (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Lärobok"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "LÄROBOK"
+
+msgid "items/guide/Name"
+msgstr "Läroplan (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Läroplan"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "LÄROPLAN"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} erfarenhet för en utvald besättningsmedlem"
+
+msgid "items/personalBook/Name"
+msgstr "Personlig läroplan"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} besättningserfarenhet till varje besättningsmedlem."
+
+msgid "items/universalBook/Name"
+msgstr "Allmän lärobok"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} erfarenhet till varje besättningsmedlem."
+
+msgid "items/universalBrochure/Name"
+msgstr "Allmänt utbildningshäfte"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} erfarenhet till varje besättningsmedlem."
+
+msgid "items/universalGuide/Name"
+msgstr "Allmän läroplan"
+
+msgid "page/mentoringLicense/hint"
+msgstr "GÅ TILL MENTORSLICENS"
+
+msgid "page/mentoringLicense/title"
+msgstr "MENTORSLICENS"
+
+msgid "page/title"
+msgstr "SNABBTRÄNING"
+
+msgid "tooltip/buyManual"
+msgstr "Köp lärobok"
+
+msgid "tooltip/mouseWheel"
+msgstr "Scrolla {mouseIcon} för att öka / minska antalet läromedel."
+
+msgid "tooltip/outOfStock"
+msgstr "Inga läromedel återstår"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Inga läromedel återstår. Du kan köpa läromedel i affären."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Används av en utvald besättningsmedlem. Ger besättningsmedlemmen %(xp)s erf."
+
+msgid "tooltip/postProgression"
+msgstr "Gå till efterspel"
+
+msgid "tooltip/sale/header"
+msgstr "Fördelaktig växelkurs"
+
+msgid "tooltip/sale/newRate"
+msgstr "Ny växelkurs: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Tidigare växekurs: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Klicka %(controlsImg) för att öka / minska träningsnivån för förmågan med 1%."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Tryck %(pgupImg) / %(pgdownImg) för att öka träningsnivån för förmågan till&nbsp;100% / gå&nbsp;tillbaka till föregående förmåga."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Används av hela besättningen. Ger varje besättningsmedlem %(xp)s erf."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Används av hela besättningen. Ger varje besättningsmedlem %(xp)s erf."

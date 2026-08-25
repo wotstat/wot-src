@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Gauta mašina"
+
+msgid "awardView/end"
+msgstr "RENGINYS BAIGĖSI"
+
+msgid "awardView/info"
+msgstr "Stiliaus numeris"
+
+msgid "awardView/toHangar"
+msgstr "Peržiūrėti garaže"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) su numeruotu stiliumi"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "GAUTA MAŠINA"
+
+msgid "awardView/vehicleTitle"
+msgstr "GAUTA MAŠINA"
+
+msgid "commonTexts/aboutButton"
+msgstr "APIE RENGINĮ"
+
+msgid "commonTexts/closeBtn"
+msgstr "UŽDARYTI"
+
+msgid "commonTexts/eventTitle"
+msgstr "SURINKIMO PUNKTAS"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Atšaukti"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Išleisti"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Nebeliko mašinų su numeruotu stiliumi. Jūs gausite %(vehicleName)s be numerio.\nAr tikrai norite išleisti resursus?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "Jūs gausite %(vehicleName)s be numerio"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Atgal į Garažą"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Visi jūsų įdėti resursai bus netrukus sugrąžinti į jūsų paskyrą."
+
+msgid "confirm/NoVehicles/title"
+msgstr "Deja, mašinų nebeliko"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Atšaukti"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Išleisti"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Progresas po įdėjimo: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Įdėti resursus?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Susigrąžinti resursus"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Visi įdėti resursai bus sugrąžinti į jūsų paskyrą ir surinkimo procesas bus apnulintas. Kol vyks renginys, jūs galėsite iš naujo dėti resursus, tam kad gautumėte mašiną."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Sugrąžinti visus įdėtus resursus?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Visi išnaudoti resursai bus sugrąžinami jums, o surinkimo punktas bus atstatytas į pradinę būseną. Bus pasirinktas %(vehicleName) ir jam gauti galėsite naudoti resursus."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Susigrąžinti išleistus resursus ir pasirinkti %(vehicleName)?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Mašinos pasirinkimas"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "Renginio metu galite įsigyti abi mašinas."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "Renginio metu galėsite nusipirkti rinkinį, kuriame bus mašina su numeruotu 3D stiliumi."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "Pirmieji %(styleTanksCount) žaidėjų gaus mašinų su numeruotu 3D stiliumi, {{@ class $br}}{{/}}tada dar %(withoutStyleTanksCount) mašinų bus pristatyta be numeruotų 3D stilių."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "RENGINYS BAIGĖSI"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "MAŠINOS GAUTOS"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "MAŠINA GAUTA"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Liko mašinų"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Ši mašina jau jūsų garaže"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Mašina gauta"
+
+msgid "eventInfo/tanksOver"
+msgstr "DAUGIAU NEBĖRA"
+
+msgid "eventInfo/top/styleText"
+msgstr "Su numeriu"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Liko mašinų su numeriais"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "%(regularRewardVehiclesCount) pristatymas su standartine komplektacija prasidės tada,\n kai nebeliks mašinų su numeruotais stiliais."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "Standartinė komplektacija"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Liko mašinų"
+
+msgid "mainView/affirmative/button"
+msgstr "Tikrai taip"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "Į resursų sugrąžinimą"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Surinkta resursų:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Surinkta resursų dėl:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Atgal į Garažą"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Pasirinkite resursus"
+
+msgid "mainView/footer/description/text"
+msgstr "Jeigu nebeliks jokių mašinų, visi įdėti resursai bus sugrąžinti."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "Jūsų paskyros tipas negali dalyvauti renginyje."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Jūs negalite dalyvauti"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Nusipirkti galite abi mašinas, bet investuoti resursus galite tik kiekvienai mašinai atskirai."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Pasirinkite mašiną ir suinvestuokite jos surinkimui reikalingus resursus — tačiau paskubėkite!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Paskubėkite įdėti resursus, kurių reikia norint surinkti ir gauti %(vehicleName)!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Visi jūsų įdėti resursai bus netrukus sugrąžinti į jūsų paskyrą."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "Deja, mašinų nebeliko"
+
+msgid "mainView/navbar/backBtn"
+msgstr "Į SURINKIMO PUNKTĄ"
+
+msgid "mainView/navbar/title"
+msgstr "SURINKIMO PUNKTAS"
+
+msgid "mainView/preview/label"
+msgstr "Peržiūra"
+
+msgid "mainView/timer/lastUntil"
+msgstr "Iki"
+
+msgid "mainView/timer/leftTime"
+msgstr "Liko laiko:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Uždaryti"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Įdėti resursus"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Informacija laikinai nepasiekiama"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Neliko mašinų"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Liko mašinų su numeriais: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Liko mašinų: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Universalūs"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Resursų maksimumas %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "Maksimumas %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Surinkti resursai %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Brėžinių fragmentai"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Valiutos"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "RESURSŲ RINKIMAS"
+
+msgid "tankPreview/button"
+msgstr "Pasirinkite resursus"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "Renginio metu galėsite nusipirkti rinkinį, kuriame bus mašina su numeruotu 3D stiliumi."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "Pirmieji %(topPlayers) žaidėjų gaus mašiną su numeruotu 3D stiliumi,\n tada bus pristatyta dar %(basePlayers) mašinų be numeruoto 3D stiliaus."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "Renginio metu galite įsigyti abi mašinas."
+
+msgid "tankPreview/title"
+msgstr "Surinkite ir išleiskite 100% reikiamų resursų ir gaukite %(vehicleInfo)!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Jūs galite išleisti resursus bet kada ir, jei reikia, juos susigrąžinti paspaudę mygtuką Grąžinti resursus.\nJūsų surinkimo punkto progresas bus atstatytas, tačiau vėl galėsite išleisti tuos ar kitus resursus dėl mašinos."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Resursų sugrąžinimas"
+
+msgid "tooltips/counter/error/text"
+msgstr "Duomenys laikinai nepasiekiami.\nMes bandome sutvarkyti šią problemą."
+
+msgid "tooltips/counter/warning/text"
+msgstr "Rodomas skaičius su vėlavimu ir gali skirtis nuo realaus mašinų skaičiaus."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Naudokite resursus ir gaukite %(vehicleName1) ir %(vehicleName2). Mašinų kiekis ribotas."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Naudokite resursus ir gaukite %(vehicleName) su numeruotu 3D stiliumi. Mašinų kiekis ribotas."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Bus pasiekiama: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s - %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Pasiekiama dar %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Pasiekiama po:%(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "Surinkimo punktas"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Paspaudę sužinosite daugiau apie renginį"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Pasirinkite mašiną, į kurią norite investuoti resursus.\nJei resursai jau suinvestuoti į kitą mašiną, jie bus sugrąžinti jums."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Liko laiko: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "Norėdami surinkti mašiną, įdėkite 100% reikiamų resursų. Skirtingų resursų santykis gali būti keičiamas."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "Jeigu nebeliks jokių mašinų, visi įdėti resursai bus sugrąžinti."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Pasirinkta"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Įdėta"
+
+msgid "tooltips/progressbar/title"
+msgstr "Resursų rinkimas"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "Resursų įdėjimas laikinai negalimas. Pabandykite vėliau."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Universalūs ir nacionaliniai fragmentai."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Brėžinių fragmentai"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Gaunama už aktyvius veiksmus mūšyje. Taip pat galima nusipirkti už realius pinigus."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Valiutos"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Įdėta:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "Maksimalus šio resurso kiekis, kurį galima įdėti: %(maxAmount)d."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Jūs surinkote reikiamą resursų kiekį mašinai. Jūs galite pašalinti vieno tipo resursus ir pasirinkti kitus."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Surinkti resursai"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "Tai unikali mašina su savo numeriu ir specialia vizualine modifikacija."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "Numeris rodomas abiejose ginklo pusėse bei korpuso gale. Numeriai ant identiškų mašinų nesikartoja ir jų kiekis ribotas."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "Šis išskirtinis jūsų mašinos atributas gali būti paslepiamas. Pašalinti numeruotą 3D stilių galite Išvaizdos lange."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Mašina su numeriu"

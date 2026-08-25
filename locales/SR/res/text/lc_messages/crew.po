@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Povećaj"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Povuci neobučene"
+
+msgid "barracks/bunks/title"
+msgstr "Ležaja:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Preciziraj broj ležaja za kupovinu. Ležaji su dostupni u baraci: %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Cena sa popustom"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Nova cena %(currency)s po %(bunksCount)s ležaju"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Prethodna cena %(currency)s po %(bunksCount)s ležaju"
+
+msgid "barracks/enlarge/header"
+msgstr "Povećaj baraku?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Neobučeni članovi posade u tvojim barakama koji imaju manje od {whiteSpanish_Open}210 060{whiteSpanish_Close}{icon} iskustva potrebnog za treniranje njihove prve veštine posade na {whiteSpanish_Open}100%{whiteSpanish_Close} može biti povučen."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Neobučeni članovi posade"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Nemaš neobučenih članova posade"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Nećeš dobiti nikakvu kompenzaciju za povlačenje neobučenih članova posade. Jednom povučeni, ne mogu biti povraćeni i svo njihovo iskustvo biće izgubljeno."
+
+msgid "barracks/title"
+msgstr "BARAKE"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Klik za povećanje barake."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Povećaj barake"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Lokacija"
+
+msgid "common/imageNotAvailable"
+msgstr "Slika nije dostupna"
+
+msgid "common/inBarracks"
+msgstr "U barakama"
+
+msgid "common/inBattle"
+msgstr "U borbi"
+
+msgid "common/inPrebattle"
+msgstr "U taktičkoj jedinici"
+
+msgid "common/navigation/aboutCrew"
+msgstr "O POSADI"
+
+msgid "common/navigation/toBarracks"
+msgstr "NA BARAKE"
+
+msgid "common/navigation/toGarage"
+msgstr "U GARAŽU"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "NA PROFIL"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Razumem!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Tvoji članovi posade su konvertovani u knjige posade."
+
+msgid "conversionAwards/title"
+msgstr "KONVERZIJA JE USPEŠNA"
+
+msgid "conversionAwards/underTitle"
+msgstr "Sledeće stvari su dodate na tvoj nalog."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Otkaži"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Povuci"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Broj članova posade za povlačenje: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Povuci neobučene članove posade?"
+
+msgid "conversionConfirm/warning"
+msgstr "Nećeš dobiti nikakvu kompenzaciju za povlačenje neobučenih članova posade. Jednom povučeni, ne mogu biti povraćeni i svo njihovo iskustvo biće izgubljeno."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Automatski odaberi veštine"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Nema članova posade sa neistreniranim veštinama."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Automatski odabir veština nije moguć"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Sve neistrenirane veštine označene plus znacima će biti zamenjene automatski odabranim veštinama sa specijalnom logikom za sve posade."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Automatski odabrane neistrenirane veštine za sve"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Poništi veštine za sve"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Nema članova posade sa istreniranim veštinama."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Nije moguće resetovati veštine"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Sve veštine će biti poništene za sve članove posade na tvom nalogu. Ova operacija ne može biti poništena."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Poništi veštine za sve"
+
+msgid "crewBanner/infoText"
+msgstr "Besplatno poništavanje ili automatski odabir neistreniranih veština za sve članove posade na tvom nalogu"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Ubrzava trening posade kada je uključeno"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Bonus efikasnosti: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Efikasnost odlike"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Odlike su nedostupne jer član posade nije obučen za ovo vozilo."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Specijalizacija:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Veštine nisu dostupne"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Bonus veštine:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Veštine glavne kvalifikacije:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(Kina)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Čehoslovačka)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Francuska)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Nemačka)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Italija)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japan)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Poljska)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Švedska)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(Velika Britanija)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(S.A.D.)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(S.S.S.R.)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Svi premijum lovci tenkova\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Sve Premium artiljerije {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Svi Premium teški tenkovi {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Svi Premium laki tenkovi {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Svi premijum srednji tenkovi\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Detalji"
+
+msgid "filter/group/details/title"
+msgstr "Detalji"
+
+msgid "filter/group/nation/title"
+msgstr "Nacija"
+
+msgid "filter/group/other/title"
+msgstr "Ostalo"
+
+msgid "filter/group/special/title"
+msgstr "Specijal"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Kvalifikacija"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Nivo"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Nivo"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specijalizacija"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Tip vozila"
+
+msgid "filter/popup/button/title"
+msgstr "Filter"
+
+msgid "filter/popup/default/title"
+msgstr "Filter"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Filtriranje po naciji"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Filter po vozilima"
+
+msgid "filter/reset"
+msgstr "Resetuj filter"
+
+msgid "filter/search/placeholder"
+msgstr "Pretraži po imenu"
+
+msgid "filter/search/tooltip/header"
+msgstr "Potraži po imenu"
+
+msgid "filter/title"
+msgstr "Prikazano:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Prikaži/sakrij vozila sa svim dostupnim modulima i istraženim tehničkim granama."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Elitna vozila"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Prikaži/sakrij članove posada trenirane za Premium vozila."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Premium vozila"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Prikaži/sakrij članove posada u primarnim vozilima."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Primarna vozila"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Prikaži/sakrij članove posada za ovaj tip vozila."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Prikaži/sakrij članove posada ove nacije."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Prikaži/sakrij skinove ove nacije"
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Prikaži/sakrij vozila ove nacije."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Prikaži/sakrij povučene."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Povučen"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Prikaži regrute."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Regruti"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Prikaži članove posade."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Članovi posade"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Prikaži/sakrij članove posada ove kvalifikacije."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Prikaži/sakrij Premium vozila."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Premium vozila"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Prikaži/sakrij vozila ovog tipa."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Lovci tenkova"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Artiljerije"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Teški tenkovi"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Laki tenkovi"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Srednji tenkovi"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nema vozila koja odgovaraju\nkriterijumu pretrage"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sortiraj prema nazivu vozila."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Ime"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sortiraj prema nivou vozila."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Nivo"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sortiraj po tipovima vozila."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Tip"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Ime"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Klikni da poništiš filter."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Reset svih filtera"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Razumem!"
+
+msgid "junkTankmen/description"
+msgstr "Ovi članovi posade imaju manje od {bond_Open}210 060{bond_Close}{icon} iskustva potrebnog za treniranje njihove prve veštine posade na {whiteSpanish_Open}100%{whiteSpanish_Close}.\nOni će biti uklonjeni sa tvog naloga."
+
+msgid "junkTankmen/title"
+msgstr "Povuci neobučene članove posade?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Postoji limit od {whiteSpanish_Open}tri{whiteSpanish_Close} veštine za svaku dodatnu kvalifikaciju. Pristup novim bonus veštinama će se otvoriti nakon dostizanja {whiteSpanish_Open}prve{whiteSpanish_Close}, {whiteSpanish_Open}treće{whiteSpanish_Close} i {whiteSpanish_Open}pete{whiteSpanish_Close} veštine glavne kvalifikacije."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Bonus veštine"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Priliko pretreniravanja člana posade za drugo vozilo sa različitim kompletom kvalifikacija, moći ćeš da izabereš veštine za njihovu novu dodatnu kvalifikaciju ponovo."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Bonus veštine se uče dvaput sporije od veština glavne kvalifikacije."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Iskustvo nije potrebno da se nauče bonus veštine."
+
+msgid "matrix/freeResetButton"
+msgstr "Besplatno poništavanje"
+
+msgid "matrix/increaseButton"
+msgstr "Ubrzani trening"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Član posade je dostigao limit treninga."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Ubrzani trening nije moguć"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Izuči odlike koristeći slobodno iskustvo i knjige posade."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Ubrzani trening"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Nekompatibilne kvalifikacije"
+
+msgid "matrix/qualification/1"
+msgstr "Glavna kvalifikacija"
+
+msgid "matrix/qualification/2"
+msgstr "Druga kvalifikacija"
+
+msgid "matrix/qualification/3"
+msgstr "Treća kvalifikacija"
+
+msgid "matrix/qualification/4"
+msgstr "Četvrta kvalifikacija"
+
+msgid "matrix/qualification/5"
+msgstr "Peta kvalifikacija"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Nulta veština nije dostupna za drugu kvalifikaciju"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Nulta veština nije dostupna za treću kvalifikaciju"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Nulta veština nije dostupna za četvrtu kvalifikaciju"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Druga kvalifikacija je nedostupna za ovo vozilo"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Treća kvalifikacija je nedostupna za ovo vozilo"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Četvrta kvalifikacija je nedostupna za ovo vozilo"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Peta kvalifikacija je nedostupna za ovo vozilo"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Postoji limit od {whiteSpanish_Open}tri{whiteSpanish_Close} bonus veštine za svaku dodatnu kvalifikaciju. Samo veštine specifične za ovu kvalifikaciju mogu biti odabrane kao bonus veštine."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Postoji limit od {whiteSpanish_Open}šest{whiteSpanish_Close} veština glavnih kvalifikacija (uključujući nulte veštine)."
+
+msgid "matrix/resetButton"
+msgstr "Resetuj"
+
+msgid "matrix/resetButtonHint"
+msgstr "KLIK ZA RESET VEŠTINA"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Nemaš trenirane veštine."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Nije moguće resetovati veštine"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Klikni da poništiš veštine."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Reset veština"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Bonus veština dostupna za trening"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Iskustvo posade nije potrebno za treniranje novih bonus veština."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Nedostupno"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Otključava se prilikom treniranja treće veštine glavne kvalifikacije. Ne zahteva iskustvo."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Otključava se prilikom treniranja pete veštine glavne kvalifikacije. Ne zahteva iskustvo."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Nivo treninga"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "Ukupna količina potrebnog iskustva je umanjena jer član posade ima jednu nultu veštinu."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "Ukupna količina potrebnog iskustva je umanjena jer član posade ima dve nulte veštine."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Veština dostupna za trening"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Nedostupno"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Prethodna veština mora biti istrenirana na 100%"
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Nulta veština je dostupna za trening"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Nulte veštine su uvek istrenirane prve, čak i ako je nekoliko veština odabrano odjednom. Iskustvo posade nije potrebno za njihovo treniranje."
+
+msgid "matrix/skills/allSkills"
+msgstr "Sve dodatne veštine trenirane za ovo vozilo"
+
+msgid "matrix/skills/available"
+msgstr "Veštine dostupne za trening:"
+
+msgid "matrix/skills/bonus"
+msgstr "Bonus veštine"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Odlike nisu dostupne"
+
+msgid "matrix/skills/locked"
+msgstr "Odlike nisu dostupne"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Sve veštine su isključene za ovo vozilo"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Veštine glavne kvalifikacije"
+
+msgid "matrix/skills/reduced"
+msgstr "Efikasnost odlika je smanjena"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Veštine komandanta"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Veštine vozača"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Veštine komandanta"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Veštine vozača"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Veštine nišandžije"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Veštine punioca"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Veštine radio operatera"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Veštine nišandžije"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Veštine punioca"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Veštine radio operatera"
+
+msgid "matrix/skills/training"
+msgstr "Treniranje veštine"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Nulta veština dostupna za trening:"
+
+msgid "memberChange/action/recruit"
+msgstr "Regrut {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount}% POPUSTA NA PROMENU KVALIFIKACIJE"
+
+msgid "memberChange/title"
+msgstr "IZABERI {role}: {vehicle}."
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}U depoa{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Nakon potvrde, član posade koji prebaci svoje iskustvo će biti uklonjen sa tvog naloga."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Mentorska licenca ti dozvoljava premeštaj iskustva posade sa jednog člana posade na drugog člana posade iste nacije."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Mentorska licenca"
+
+msgid "personalData/card/edit"
+msgstr "Uredi"
+
+msgid "personalData/card/remove"
+msgstr "Ukloni"
+
+msgid "personalData/card/restrictions"
+msgstr "Ograničenja: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Klik da promeneš ime i izgled člana posade."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Izgled"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Ovaj član posade već ima jedinstveno ime i izgled."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Nije moguće menjati ime i izgled"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Ništa nije pronađeno. Promeni podešavanja ili poništi filter."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Konfiguriši prikaz skinova po naciji."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Filter po parametrima"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Prikaži dokumente."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Dokumenta"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Prikaži pogodne skinove."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Odgovarajući skinovi"
+
+msgid "personalData/filter/type/title"
+msgstr "Tip"
+
+msgid "personalData/title"
+msgstr "ZAMENI IME I IZGLED"
+
+msgid "personalFile/changeVehicle"
+msgstr "Izmeni"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Nije moguće trenirati ovog člana posade za drugo vozilo."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Operacija nedostupna"
+
+msgid "personalFile/discount/full"
+msgstr "Dostupan je popust na retrening"
+
+msgid "personalFile/discount/short"
+msgstr "Popust dostupan"
+
+msgid "personalFile/inVehicle"
+msgstr "U vozilu: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Povećaj"
+
+msgid "personalFile/isUntrained"
+msgstr "Nije obučen za ovo vozilo"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Sva {icon} premijum vozila"
+
+msgid "personalFile/retrain"
+msgstr "Retrening"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Efikasnost odlike:"
+
+msgid "personalFile/specialization"
+msgstr "Specijalizacija:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Specijalizacija"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Klikni da poslušaš uzorak glasa komandanta."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Jedinstveni glasovi"
+
+msgid "postProgression/button/claim"
+msgstr "Preuzmi nagradu"
+
+msgid "postProgression/description"
+msgstr "Svi članovi posade koji imaju svih šest veština glavne kvalifikacije istrenirane dobijaju pristup zajedničkom post napredku. Za svakih 100.000 iskustva zarađenih u post napretku, dobićeš univerzalni vodič koji može biti upotrebljen za treniranje drugih posada."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "Post napredak se sastoji od ujedinjenog merača za sve članove posade sa šest potpuno istreniranih veština glavne kvalifikacije na nalogu igrača."
+
+msgid "postProgression/tips/2"
+msgstr "Samo se borbeno iskustvo računa za post napredak. Pola borbenog iskustva zarađenog u borbi od strane člana posade je podeljeno ukupnim brojem članova posade u vozilu i dodato u merač post napretka."
+
+msgid "postProgression/tips/3"
+msgstr "Gubitak iskustva od veština ili efikasnosti ne utiče na post napredak."
+
+msgid "postProgression/title"
+msgstr "POST NAPREDAK POSADE"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Svi članovi posade koji imaju pristup post napretku imaju malu efikasnost veštine."
+
+msgid "postProgression/warning/retire"
+msgstr "Svi članovi posade koji imaju pristup post napretku su povučeni ili su izgubili iskustvo sa svojih poslednjih veština."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Sve premijum lovci tenkova"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Sva premijum artiljerija"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Premijum lovci tenkova"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Premijum artiljerije"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Premijum teški tenkovi"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Premijum laki tenkovi"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Premijum srednji tenkovi"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Svi premijum teški tenkovi"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Svi premijum laki tenkovi"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Svi premijum srednji tenkovi"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "NAGRADE"
+
+msgid "serviceRecord/averageXP"
+msgstr "Srednje iskustvo po borbi"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Borbi vođeno"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Nema dostignuća ili nagrada iz borbe"
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Odnos ukupnih poena iskustva i broja odigranih borbi u ovom vozilu, kojem je član posade dodeljen."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Srednje iskustvo po borbi"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Rang člana posade u zavisnosti od iskustva i broja veština."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Rang"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Član posade je naučio sve veštine za ovo vozilo"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Veštine dostupne za trening"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Sve veštine su isključene za ovo vozilo"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Iskustvo nije potrebno za treniranje veština dodatnih kvalifikacija, koje se treniraju dva puta sporije nego veštine glavne kvalifikacije."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Otkaži"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Treniraj"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "BONUS KVALIFIKACIJE"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "GLAVNE KVALIFIKACIJE"
+
+msgid "tankChange/title"
+msgstr "TRENIRAJ ZA VOZILO"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Prikaži vozila u garaži."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "U Garaži"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Podesi prikaz vozila po njihovom tipu i nivou."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Filter po parametrima"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Ne moraš da treniraš članove posade za Premium vozila. Možeš ih prebaciti u Premium vozilo istog tipa bez kazni."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Premium vozilo"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Ime vozila mora imati do %(maxLength)s znakova."
+
+msgid "tankman/action/dismiss/title"
+msgstr "POVUCI"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Povuci ovog člana posade."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Nije moguće povući ovog člana posade."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Operacija nedostupna"
+
+msgid "tankman/action/recruit/title"
+msgstr "REGRUT"
+
+msgid "tankman/action/restore/title"
+msgstr "POVRATI"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Povrati ovog člana posade."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Klikni da poslušaš uzorak glasa komandanta."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Jedinstveni glasovi"
+
+msgid "tankman/recruit"
+msgstr "Regrutuj"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Izgled"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profil"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Dosije službe"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Regrutuj"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Resetuj filter"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Ništa nije pronađeno. Promeni podešavanja ili poništi filter."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Ništa nije pronađeno. Regrutuj člana posade."
+
+msgid "tankmanList/filter/title"
+msgstr "Članovi posade:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Nemate dovoljno ležajeva u barakama."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Prikaži/sakrij samo povučene članove posade."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Povučen"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Prikaži članove posade u barakama."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "U barakama"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Prikaži članove posade u vozilima."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "U vozilima"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Prikaži/sakrij skinove ove nacije"
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Konfiguriši prikaz članova posade po kvalifikacijama, specijalizaciji i drugim parametrima."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Filter po parametrima"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Regrutuj novog člana posade."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Ime mora imati do %(maxLength)s znakova."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Držanje kurzora iznad veštine prikazuje kako utiče na odgovarajuće karakteristike kada je istrenirana 100% sa trenutnim nivoom efikasnosti odlike."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Razumem!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Uvedene su dve nove veštine za svaku kvalifikaciju, Pouzdana zamena je prerađena i nova opcija ti dozvoljava da sakriješ veštine sa borbenog ekrana."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Zgodna nova operacija ti dozvoljava da povučeš neobučene članove posade jednim klikom."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Veštine sada mogu biti poništene upotrebom samo kredita, bez gubljenja iskustva."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Nove veštine i opcije su dodate, a postojeće veštine su ažurirane."
+
+msgid "welcomeScreen/title"
+msgstr "NOVINE POSADE"

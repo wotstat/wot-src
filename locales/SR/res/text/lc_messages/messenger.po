@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT prevodilac <<noreply@wargaming.net>\nLanguage-Team: WoT tim <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "Proveriti nove poruke"
+
+msgid "battle/history/header"
+msgstr "Neprijatelj"
+
+msgid "battle/history/latestMessage"
+msgstr "Proveriti poslednju poruku"
+
+msgid "battle/history/title"
+msgstr "Istorija čata:"
+
+msgid "battle/history/upMessage"
+msgstr "Proveriti stare poruke"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)sČAT ISKLJUČEN%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "Borbeni čet nije dostupan igračima iz tvoje zemlje."
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "Borbeni čet nije dostupan za tvoj nalog."
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "Borbeni čat je zabranjen roditeljskom kontrolom."
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "Čat u borbi može biti omogućen u podešavanjima igre."
+
+msgid "battle/receivers/common"
+msgstr "KA SVIMA"
+
+msgid "battle/receivers/squad"
+msgstr "KA VODU"
+
+msgid "battle/receivers/team"
+msgstr "KA TIMU"
+
+msgid "battle/toolTips/cancel"
+msgstr "otkaži"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "promena destinacije"
+
+msgid "battle/toolTips/default"
+msgstr "sa prethodnim primaocem"
+
+msgid "battle/toolTips/duringChat"
+msgstr "Tokom četa:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "Možeš blokirati poruke izabranog igrača klikom na dugme pored igračevih poruka u četu."
+
+msgid "battle/toolTips/send"
+msgstr "poslati"
+
+msgid "battle/toolTips/startChat"
+msgstr "Počni čet:"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "Možeš prijaviti poruku klikom na nju i biranjem razloga za popunu prijave. Ova opcija ti takodje dozvoljava da isključiš čet ili ga postaviš samo na saveznike. Čet voda će biti uvek dostupan."
+
+msgid "battle/toolTips/usingChat"
+msgstr "Čet"
+
+msgid "battle/toolTips/withSquad"
+msgstr "sa svojim vodom"
+
+msgid "battle/unknown/ally"
+msgstr "Saveznik"
+
+msgid "battle/unknown/enemy"
+msgstr "Neprijatelj"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "Veza sa serverom će ti biti prekinuta u %(curfewTime)s. Sesija će se završiti za %(timeLeft)s min."
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "Dostigao si dnevni limit igračkog vremena. Tvoja sesija će se završiti za %(timeLeft)s min."
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "Dostigao si nedeljni limit igračkog vremena. Tvoja sesija će se završiti za %(timeLeft)s min."
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "Dostigao si limit vremena igre. Tvoja sesija će se završiti za %(timeLeft)s min."
+
+msgid "chat/personalMessage/warningBody"
+msgstr "Poruke od nepoznatih igrača mogu da sadrže maliciozne linkove. Nemoj ih otvarat i nemoj davati svoju lozinku nikome."
+
+msgid "chat/personalMessage/warningHead"
+msgstr "Pažnja!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "Borbeni rezultati"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "Poruke od %(playerName)s su blokirane."
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "Pošalji poruku"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "Pošalji poruku"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "Pretraga igrača"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "Podešavanja glasovnog čata"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "samog sebe ne možete banovati."
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "Greška u izvršavanju \"%(actionName)s\"."
+
+msgid "chat_error/IS_BUSY"
+msgstr "Server je zauzet."
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "nedovoljno ovlašćenja za izvršenje operacije."
+
+msgid "chat_error/NOT_READY"
+msgstr "Akcija \"%(actionName)s\" je nedostupna."
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "nepostojeći korisnik."
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "pogrešan parametar."
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "Glasovni čet isključen. Da komuniciraš sa drugovima iz svog voda, uključi glasovne poruke pritiskom na %(keyName)s."
+
+msgid "client/COMP7/disableVOIP"
+msgstr "Glasovni čet isključen. Da komuniciraš sa članovima svog voda, uključi glasovne poruke (%(keyName)s)."
+
+msgid "client/commendations/comms_mutual"
+msgstr "Ti i %(player)s ste pohvalili jedan drugoga."
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)s te je pohvalio."
+
+msgid "client/commendations/comms_sent"
+msgstr "%(player)s je pohvaljen."
+
+msgid "client/dynSquad/created/allies"
+msgstr "Tvoji saveznici su napravili vod %(squadNum)s."
+
+msgid "client/dynSquad/created/enemies"
+msgstr "Vod %(squadNum)s je kreiran od strane neprijateljskog tima."
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "Vod %(squadNum)s kreiran. Čet i glasovne poruke u vodu su sada dostupne. Za isključivanje glasovnih poruka, pritisni %(keyName)s."
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "Vod %(squadNum)s kreiran. Čet i glasovne poruke u vodu su sada dostupne. Za uključivanje glasovnih poruka, pritisni %(keyName)s."
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "Vod %(squadNum)s kreiran. Čet i glasovne poruke u vodu su sada dostupne. Dodeli taster za uključivanje / isključivanje glasovnih poruka."
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "Vod %(squadNum)s je kreiran. Vod čet je sada na raspolaganju."
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "Pridružio si se vodu %(squadNum)s. Čet i glasovne poruke u vodu su sada dostupne. Za isključivanje glasovnih poruka, pritisni %(keyName)s."
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "Pridružio si se vodu %(squadNum)s. Čet i glasovne poruke u vodu su sada dostupne. Za uključivanje glasovnih poruka, pritisni %(keyName)s."
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "Pridruzio si se vodu %(squadNum)s. Cet i glasovne poruke u vodu su sada dostupne. Dodeli taster za uključivanje / isključivanje glasovnih poruka."
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "Pridružio si se vodu %(squadNum)s. Vod čet je sada na raspoloaganju."
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "Glasovni čet isključen. Da komuniciraš sa članovima svog voda, uključi glasovne poruke pritiskom na %(keyName)s."
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "Glasovne poruke uključene."
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "Pridružio si se vodu %(squadNum)s. Čet i glasovne poruke u vodu su sada dostupne. Za isključivanje glasovnih poruka, pritisni %(keyName)s."
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "Pridružio si se vodu %(squadNum)s. Čet i glasovne poruke u vodu su sada dostupne. Za uključivanje glasovnih poruka, pritisni %(keyName)s."
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "Pridruzio si se vodu %(squadNum)s. Cet i glasovne poruke u vodu su sada dostupne. Dodeli taster za uključivanje / isključivanje glasovnih poruka."
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "Pridružio si se vodu %(squadNum)s. Vod čet je sada na raspoloaganju."
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s se priključio vodu %(squadNum)s."
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s te poziva u vod."
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)s te je pozvao u vod.\nPažnja! Tvoj pravi nadimak i tag klana će bit prikazani članovima voda."
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s je pozvan u vod."
+
+msgid "client/error/broadcastInCooldown"
+msgstr "Ne možete da pošaljete poruku još %s sekundi."
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "Komanda \"%s\" je zamrznuta na %s sek."
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "Komanda %s je zamrznuta."
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "Poruka suspendovana. Molimo sačekaj %s s."
+
+msgid "client/information/addToFriends/message"
+msgstr "Zahtev da dodaš igrača %s na svoju listu prijatelja je sačuvan."
+
+msgid "client/information/addToIgnored/message"
+msgstr "Zahtev za dodavanje igrača %s na tvoju crnu listu je sačuvan. Razgovor sa igračem je blokiran i poruke igrača su sakrivene."
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "Čet sa %s je blokiran; igračeve poruke su skrivene."
+
+msgid "client/information/emptySearchResult/message"
+msgstr "Nema Rezultata."
+
+msgid "client/information/removeFromFriends/message"
+msgstr "Zahtev za uklanjanje igrača %s sa svoje liste prijatelja je sačuvan."
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "Zahtev za uklanjanje igrača %s sa tvoje crne liste je sačuvan. Razgovor sa igračem je potpuno obnovljen."
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "Čet sa %s je ponovo dostupan."
+
+msgid "client/information/setMuted/message"
+msgstr "%s nije dozvoljeno slanje glasovnih poruka."
+
+msgid "client/information/unsetMuted/message"
+msgstr "%s je dozvoljeno slanje glasovnih poruka."
+
+msgid "client/warning/AFKWarning/message"
+msgstr "Neaktivnost će biti kažnjena!\nZa pobedu je potreban timski rad!"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "Prazan upit"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "Pretraži korisnike"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "Nepravilna dužina ili nedozvoljeni karakter u pretrazi. Dozvoljen broj karaktera je od %d do %d."
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "Pretraži korisnike"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "Dodaj igrača na listu prijatelja"
+
+msgid "client_action/ADD_GROUP"
+msgstr "Kreiraj grupu"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "Dodaj ovog igrača na \"crnu listu\""
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "Potvrdi zahtev za prijateljstvo"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "Otkaži zahtev za prijateljstvo"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "Izmeni grupu"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "Kreiraj kanal igrača"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "Pretraga igrača"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "Spoji se na kanal igrača"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "Napusti kanal igrača"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "Ukloni igrača sa liste prijatelja"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "Ukloni igrača sa tvoje \"crne liste\""
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "Izbriši belešku"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "Pošalji zahtev za prijateljstvo"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "Pregledaj prethodne poruke"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "Pretraži kanale igrača"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "Pošalji poruku"
+
+msgid "client_action/SET_MUTE"
+msgstr "Isključi glasovne poruke"
+
+msgid "client_action/SET_NOTE"
+msgstr "Kreiraj/izmeni belešku"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "Uključi glasovne poruke"
+
+msgid "client_error/action/in_cooldown"
+msgstr "Akcija \"%(actionName)s\" je suspendovana na %(floatArg1)s s."
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "Akcija \"%(actionName)s\" je trenutno nedostupna. Pokušaj kasnije ponovo."
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "Prešao si maksimalan broj dozvoljenih kanala. Molimo zatvori nepotrebne kanale i pokušaj ponovo."
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "Kanal \"%(strArg1)s\" već postoji."
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "Ime kanala nije zadato."
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "Nepravilno ime kanala \"%(strArg1)s\"."
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "Potvrda šifre se ne slaže sa unetom šifrom."
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "Šifra kanala nije uneta."
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "Netačna šifra kanala."
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "Potvrda šifre nije uneta."
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "Netačna potvrda šifre."
+
+msgid "client_error/command/generic_error"
+msgstr "Greška pri izvršenju komande \"%(strArg1)s\"."
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "komanda je zamrznuta na %(floatArg1)s."
+
+msgid "client_error/command/not_supported"
+msgstr "komanda %(strArg1)s nije podržana od strane klijenta."
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "pogrešno vreme trajanja bana %(int64Arg1)s."
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "pogrešan tip bana %(int32Arg1)s."
+
+msgid "client_error/command/wrong_player_name"
+msgstr "pogrešno ime igrača %(strArg1)s."
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "Igrač \"%(strArg1)s\" je na tvojoj \"crnoj listi\"."
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "Igrač \"%(strArg1)s\" nije navašoj crnoj listi."
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "Igrač nije pronađen."
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "Već si potvrdio zahtev za prijateljstvo od \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "Već si odbio zahtev za prijateljstvo od \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "Tvoj odgovor na zahtev za prijateljstvo od igrača \"%(strArg1)s\" se obrađuje."
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "Ime grupe nije navedeno."
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "Grupa \"%(strArg1)s\" već postoji."
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "Nepravilno ime grupe \"%(strArg1)s\""
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "Grupa \"%(strArg1)s\" nije pronađena."
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "Glasovne poruke su uključene za igrača\"%(strArg1)s\"."
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "Nije naveden nikakav tekst."
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "Nema beleški za igrača \"%(strArg1)s\""
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "Igrač \"%(strArg1)s\" je tvoj prijatelj."
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "Igrač \"%(strArg1)s\" nije pronađen u tvojoj listi prijatelja."
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "Ime kanala mora sadržati %(int32Arg1)s–%(int32Arg2)s karaktera."
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "Ime grupe ne sme da pređe %(int32Arg2)s simbola."
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "Maksimalan broj igrača na \"crnoj listi\" %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "Maksimalan broj kreiranih grupa %(int32Arg2)s."
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "Nažalost ne možeš imati više od %(int32Arg2)s igrača u svojoj listi prijatelja. Ukloni igrače sa kojima se ne igraš."
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "Tekst u belešci ne sme da pređe %(int32Arg2)s simbola."
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "Šifra kanala mora sadržati %(int32Arg1)s–%(int32Arg2)s karaktera."
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "Nepravilan ID igrača"
+
+msgid "client_error/shared/GENERIC"
+msgstr "Greška u izvršavanju \"%(actionName)s\"."
+
+msgid "client_error/shared/LOCKED"
+msgstr "Akcija \"%(actionName)s\" je trenutno nedostupna. Pokušaj ponovo kasnije."
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "Ime igrača nije navedeno."
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "Nepravilno ime igrača %(strArg1)s"
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "Povezivanje na čet server je nemoguće. Pokušaj kasnije ponovo."
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "Akcija\"%(actionName)s\" nije podržana od strane klijenta igre."
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "Došlo je do greške, pokušaj ponovo kasnije."
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "Neke funkcije su isključene dok traje odbrojavanje."
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "Naznačeni su nepravilni podaci."
+
+msgid "command/acceptInvite"
+msgstr "Prihvati poziv"
+
+msgid "command/addFriend"
+msgstr "Dodati igrača u grupu \"Prijatelji\""
+
+msgid "command/addIgnored"
+msgstr "Dodaj ovog igrača na \"crnu listu\""
+
+msgid "command/broadcast"
+msgstr "Pošalji poruku"
+
+msgid "command/createChatChannel"
+msgstr "Kreiraj kanal"
+
+msgid "command/createInvite"
+msgstr "Napravi pozivnicu"
+
+msgid "command/createPrivate"
+msgstr "Kreiraj privatni kanal"
+
+msgid "command/findChatChannels"
+msgstr "Pretraži kanale"
+
+msgid "command/findUser"
+msgstr "Pretraga igrača"
+
+msgid "command/getActiveInvites"
+msgstr "Zahtevaj listu poziva"
+
+msgid "command/getArchiveInvites"
+msgstr "Zahtevaj listu arhiviranih poziva"
+
+msgid "command/getMembersCount"
+msgstr "Zahtevaj broj igrača u kanalu"
+
+msgid "command/leaveChatChannel"
+msgstr "Napusti kanal"
+
+msgid "command/rejectInvite"
+msgstr "Odbij poziv"
+
+msgid "command/removeFriend"
+msgstr "Izbaciti igrača iz grupe \"Prijatelji\""
+
+msgid "command/removeIgnored"
+msgstr "Ukloni igrača sa tvoje \"crne liste\""
+
+msgid "command/requestChatChannelMembers"
+msgstr "Zahtevaj listu članova klana"
+
+msgid "command/requestSystemChatChannels"
+msgstr "Zahtevaj listu sistemskih kanala"
+
+msgid "command/setMuted"
+msgstr "Isključi glasovne poruke"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s je banovan."
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s nije više banovan."
+
+msgid "command/unsetMuted"
+msgstr "Uključi glasovne poruke"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "Klikni da sačuvaš napravljenu grupu kontakata."
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "Kreiraj"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "Klik za prekid kreiranja i povratak na listu kontakata."
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "Zatvori"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "Klikni da izbrišeš svoju grupu kontakata."
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "Obriši"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "Klikni da otkažeš brisanje i vratiš se na svoju listu kontakata."
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "Otkaži"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "Klikni da sačuvaš grupu kontakata pod novim imenom."
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "Sačuvaj"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "Klik za prekid izmena i povratak na listu kotakata."
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "Zatvori"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "Ime ne bi trebalo da ima više od %(maxChars)s znakova."
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "Klikni da dodaš igrača na svoju listu prijatelja."
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "Dodaj"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "Klikni da otkažeš pretragu igrača i vratiš se na svoju listu kontakata."
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "Zatvori"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "Klikni za pretragu igrača po imenu."
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "Pretraži"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "Ime mora sadržati od %(minChars)s do %(maxChars)s karaktera ili brojki."
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "Zbog prečestog slanja upita pretraga je suspendovana na %(time)s"
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "Klikni da sačuvaš podešavanja."
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "Primeni"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "Klikni da otkažeš promene i vratiš se na svoju kontakt listu."
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "Otkaži"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "Klikni da kreiraš grupu."
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "Kreiraj grupu"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "Klikni za pretragu igrača, koji nisu na tvojoj kontakt listi, po imenu."
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "Pretraži van liste kontakata"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "Klikni da pronađeš i dodaš igrača u svoju kontakt listu."
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "Pretraga igrača"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "Klkni da izmeniš podešavanja kontakt liste."
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "Podešavanja"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "Ime mora sadržati do %(maxChars)s karaktera."
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "Pošalji komandu"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "Isključiti iz tima"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "Zatvori"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "Kreiraj kanal"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "Pretraži i pridruži se"
+
+msgid "dialogs/channels/title"
+msgstr "Kanali"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "Zatvori"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "Pridruži se"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "Šifra mora imati od 3 do 12 simbola"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "Nepravilna šifra"
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "Pokušavaš da se pridružiš zaštićenom kanalu %s."
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "Unesi šifru:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "Upozorenje"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "Priključivanje kanalu"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "Pozovi u klan"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "Dodaj u listu Prijatelji"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "Dodaj na \"crnu listu\""
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "Kopiraj na klipbord"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "Kreiraj privatni kanal"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "Prebaci Zlato"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "Ukloni iz liste Prijatelji"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "Ukloni sa \"crne liste\""
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "Detalji"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "Sortiraj po imenu."
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "Sortiraj po statusu."
+
+msgid "dialogs/contacts/title"
+msgstr "Lista kontakata"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "Klan"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "Prijatelji"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "Zahtev za prijateljstvo"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "Crna lista"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "Glasovne poruke onemogućene"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "Zatvori"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "Kreiraj"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "Biće automatski kreiran"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "Unesi šifru"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "Ime kanala"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "Šifra"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "Potvrdi šifru"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "Potrebna je šifra"
+
+msgid "dialogs/createChannel/title"
+msgstr "Kreiraj kanal"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "Izaberi %(vehName)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "Izaberi vozilo %(level)s nivoa"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "Izaberi vozila"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "Izaberi vozilo %(level)s nivoa"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "Vozilo: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "Zatvori"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "Pridruži se"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "Pretraži"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "Rezultati pretrage (prvih %d):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "Pretraga"
+
+msgid "dialogs/searchChannel/title"
+msgstr "Pretraži kanale"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "U prijatelje"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "\"Crna lista\""
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "Zatvori"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "Pretraži"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "Informacije"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "Rezultati pretrage:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "Pretraga"
+
+msgid "dialogs/searchContact/title"
+msgstr "Nađi kontakte"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "Službeni kanal"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "Izaberi vozilo VIII nivoa"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "Glavni cilj je da se bude poslednji preživeli vod."
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "Režim \"Linija fronta\" je dostupan \nsamo za vozila VIII nivoa."
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ događaj +++\n+++ događaj +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "Dodatno iskustvo po borbi\nza vozila nivoa IV ili iznad"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "Igraj u vozilima istog nivoa\npočevši od nivoa IV i dobijte dodatno iskustvo"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "Kada igrači jednom prihvate poziv tvoj pravi nadimak i tag klana će im biti prikazan tokom trajanja borbe."
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "Čet kanal"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "Eksperimentalni moduli montirani na vozila: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "Status: Pravi pauzu"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "Status: U borbi"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "Status: Nije spreman"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "Status: Nije povezan na server"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "Status: Spreman"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "Raspusti"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "Pozovi"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "kriv zbog"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "osumnjičen"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "Ubistvo saborca: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "Isključi glasovne poruke"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "Dodaj u prijatelje"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "Dodaj na \"crnu listu\""
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "Zatvori"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "Kreiraj privatni kanal"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "Uključivanje glasovne komunikacije"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "Ukupno"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "Kreiran"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "Poslednji put bio u borbi"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "Status:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s - Detalji o igraču"
+
+msgid "events/enterChannel"
+msgstr "[%s] priključio se kanalu"
+
+msgid "events/leaveChannel"
+msgstr "[%s] napustio kanal"
+
+msgid "keyboardChat"
+msgstr "Čet"
+
+msgid "listView/emptyList/info"
+msgstr "notifikacije"
+
+msgid "listView/emptyList/invite"
+msgstr "pozivi"
+
+msgid "listView/emptyList/offer"
+msgstr "specijali"
+
+msgid "listView/emptyList/template"
+msgstr "Još nema %(listType)s."
+
+msgid "listView/news/checkNewsBtn"
+msgstr "Ka vestima"
+
+msgid "listView/news/header"
+msgstr "ŠTA JE NOVO?"
+
+msgid "listView/title"
+msgstr "Centar za obaveštenja"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "Vreme bitke: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "Pošalji"
+
+msgid "lobby/buttons/channels"
+msgstr "Kanali"
+
+msgid "lobby/buttons/contacts"
+msgstr "Kontakti"
+
+msgid "lobby/buttons/send"
+msgstr "Pošalji"
+
+msgid "lobby/channels/actions/remove"
+msgstr "Zatvori kanal"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "Prikaži datum u poruci"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "Prikaži vreme u poruci"
+
+msgid "lobby/faq/close"
+msgstr "Zatvori"
+
+msgid "lobby/faq/title"
+msgstr "ČPP"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "Dodaj igrača na listu prijatelja"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "Dodaj ovog igrača na \"crnu listu\""
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "Kopiraj na klipbord"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "Kreiraj privatni kanal"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "Prikaži detalje igrača"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "Pretraži van liste kontakata"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "Otkaži"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "Izmeni grupu"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "Obriši iz grupe"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "Obriši grupu"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "Klik za prekid kreiranja i povratak na listu kontakata."
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "Zatvori"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "Klik za čuvanje kreirane igračevu belešku."
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "Kreiraj"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "Prevuci kontakt ovde"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "Klik za prekid izmena i povratak na listu kotakata."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "Zatvori"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "Klik za čuvanje izmena igračeve beleške."
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "Sačuvaj"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "Nema podudarnosti sa tvojim upitom."
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "Trajne taktičke jedinice"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "Prijatelji"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "Ostali"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "Crna lista"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "Zahtev za prijateljstvo"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "Pronađi igrača na listi"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "Nema dodatih igrača još uvek."
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "Lista kontakata je prazna"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "Trenutno na sreveru nema kontakata"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "Pokušaj pretragu van liste kontakata."
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "Nema rezultata"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "Unesi ime igrača."
+
+msgid "messenger/contacts/title"
+msgstr "Kontakti"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "Zatvori"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "Dodaj"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "Grupa već postoji"
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "Pretraga igrača"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "Zatvori"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "Kreiraj"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "Kreiraj belešku"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "Zatvori"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "Sačuvaj"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "Ime ne bi trebalo da ima više od %(maxChars)s znakova."
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "Izmeni belešku"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "za "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "Zatvori"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "Kreiraj"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "Kreiraj grupu"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "Enesi ime (do %(symbols)s simbola)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "uključi kontakte u okviru grupe"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "Otkaži"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "Obriši"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "Obriši grupu"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "Zatvori"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "Sačuvaj"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "Izmeni grupu"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "Enesi ime (do %(symbols)s simbola)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "Izmeni opis (do %(symbols)s symbols)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "Opis ne bi trebalo da ima više od %(maxChars)s znakova."
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "Pretraga igrača"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "Prihvati kao grupu u jednom prozoru"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "Prikaži igrače koji nisu na serveru"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "Pokaži kategoriju \"Ostali\""
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "Poruke od igrača koji nisu na tvojoj listi kontakata:"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "Prihvati u odvojenom prozoru"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "Otkaži"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "Primeni"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "Podešavanja"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "Komponenta dodata"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "Poeni Borbene propusnice su uklonjeni"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "Čipovi su uklonjeni"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "Žetoni manevara su uklonjeni"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "Komponente uklonjene"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "Uklonjeno ličnih poena slave"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "Slobodnog iskustva naplaćeno"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "Poeni dužnosti su uklonjeni"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "Tokeni za godine službe uklonjeni"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "Poeni Borbene propusnice su dodati"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "Čipovi su dodati"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "Žetoni manevara su dodati"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "Komponente dodate"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "Dodato ličnih poena slave"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "Primljeno slobodnog iskustva"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "Poeni dužnosti su dodati"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "Tokeni za godine službe dodati"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "Dodaj sve kontakte na listu primalaca."
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "Dodaj obeleženi kontakt."
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "Izbriši sve kontakte iz liste primalaca."
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "Izbriši obeleženi kontakt sa liste primalaca."
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "Akcija %(action)s je suspendovana za %(cooldownPeriod)s sekundi."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "Greška u četu"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "Dostigli ste granicu otvorenih kanala. Molim ugasite kanale koje ne koristite."
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "Greška"
+
+msgid "server/errors/addFriendError/message"
+msgstr "Greška pri dodavanju igrača u prijatelje"
+
+msgid "server/errors/addFriendError/title"
+msgstr "Greška"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "Greška pri dodavanju igrača na tvoju crnu listu."
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "Greška"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "Kanal sa tim imenom već postoji"
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "Greška pri kreiranju kanala"
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "Kanal je uklonjen"
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "Greška pri pridruživanju na kanal"
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "Greška u četu"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "Greška pri izvršavanju čet komande: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "Greška u četu"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "Komanda %(command)s je blokirana za %(cooldownPeriod)s sek."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "Greška u četu"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "Poruka suspendovana. Previše poruka."
+
+msgid "server/errors/connectTimeout/message"
+msgstr "Veza sa kanalom je istekla"
+
+msgid "server/errors/connectTimeout/title"
+msgstr "Greška u četu"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "Privatni kanal ne može biti kreiran: korisnik trenutno nije na serveru."
+
+msgid "server/errors/createPrivateError/title"
+msgstr "Greška u četu"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "Nevažeći simbol"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "Greška"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "Pogrešan parametar %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "Greška"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "Pogrešna šifra za zaštićen kanal"
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "Greška pri pridruživanju na kanal"
+
+msgid "server/errors/initializationFailure/message"
+msgstr "Inicijalizacija četa nije uspela"
+
+msgid "server/errors/initializationFailure/title"
+msgstr "Greška u četu"
+
+msgid "server/errors/internalError/message"
+msgstr "Interna greška, pokušaj kasnije ponovo"
+
+msgid "server/errors/internalError/title"
+msgstr "Greška pri kreiranju kanala"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "Nevažeće ime kanala"
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "Greška u četu"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "Greška prilikom izvršavanja poziva."
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "Greška"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "Korisnik %(user)s je već banovan"
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "Greška u četu"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "Korisnik %(user)s je već moderator kanala"
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "Greška u četu"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "Greška u četu"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "Korisnik je isključen sa servera"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "Greška u četu"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "Korisnik %(user)s nije moderator kanala"
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "Greška u četu"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "Broj korisnika za ovaj kanal je dostigao maksimum"
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "Greška pri povezivanju na kanal"
+
+msgid "server/errors/notAllowed/message"
+msgstr "Nemate dozvolu za ovu operaciju"
+
+msgid "server/errors/notAllowed/title"
+msgstr "Greška u četu"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "Unesite šifru za pristup zaštićenom kanalu"
+
+msgid "server/errors/passwordRequired/title"
+msgstr "Greška pri pridruživanju na kanal"
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "Menjanje ovog podešavanja je trenutno nedostupno."
+
+msgid "server/errors/sqlError/message"
+msgstr "Greška pri pozivu DB"
+
+msgid "server/errors/sqlError/title"
+msgstr "Greška"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "Ovaj korisnik te je dodao na svoju \"crnu listu\"."
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "Greška"
+
+msgid "server/errors/userNotExists/message"
+msgstr "Korisnik ne postoji"
+
+msgid "server/errors/userNotExists/title"
+msgstr "Greška"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "Dostigli ste maksimalan broj korisnika u listi kontakata"
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "Greška"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "Prešao si maksimalno dozvoljen broj kanala."
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "Prešao si maksimalan dozvoljen broj karaktera za ime kanala."
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "Prešao si maksimalan dozvoljen broj za šifru kanala."
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "Kanal \"%(strArg1)s\" već postoji."
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "Nepravilni karakteri u imenu kanala."
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "Nedozvoljene reči u imenu kanala."
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "Čelični lovac"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "Ovo su specijalna vozila za režim Čelični lovac. Udji u ovaj režim da saznaš šta sve ova vozila mogu."
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "Vozilo uništeno"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "Nivo dostignut"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "Poena zaradjeno"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "Pobeda"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "Dodato"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "Razumem!"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "Idi na operaciju"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "Dosije službe"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "Akcija"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "Specijal se završio."
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "WoT plus upravljivi množitelj iskustva je dostupan"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "WoT plus upravljivi množitelj iskustva je nedostupan"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "Neuspešna dopuna potrošne robe na %s. Svo vaše zlato će biti dostupno nakon što se funkcionalnost WG novčanika povrati automatski."
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "Popuna direktiva za %s nije uspela. Operacija je trenutno nedostupna zbog održavanja."
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "Ponovno snabdevanje %s direktivom nije uspelo. Nedovoljno sredstava."
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "Automatsko ponovno snabdevanje %s direktivom nije uspelo. Molim, pokušaj ručno."
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "Direktive za %s su dopunjene uspešno. Potrošio si "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Neuspešno dodavanje potrošnog materijala na %s. Razmislite o kupovini potrošnog materijala za zlato."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Neuspelo dodavanje potrošnih materijala na vozilo %s. Nemate dovoljno kredita."
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "Neuspešna dopuna potrošne robe na %s. Svo vaše zlato će biti dostupno nakon što se funkcionalnost WG novčanika povrati automatski."
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "Neuspešna automatska dopuna potrošne robe na vozilo %s. Dopunite potrošnu robu ručno."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Potrošni materijal je uspešno dodat na vozilo %s. Potrošo si "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "Neuspešno dodavanje municije na %s. Razmislite o kupovini granata za zlato."
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "Neuspelo dodavanje municije na vozilo %s. Nemate dovoljno kredita."
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "Neuspešna dopuna municije na %s. Svo vaše zlato će biti dostupno nakon što se funkcionalnost WG novčanika povrati automatski."
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "Neuspešna automatska dopuna municije na vozilo %s. Dopunite municiju ručno."
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "Municija je uspešno dodata na vozilo %s. Potrošili ste "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "Produživanje iznajmljivanja stila za %s nije uspelo. Kupi stil za zlato."
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "Produživanje iznajmljivanja stila za %s nije uspelo. Nedovoljni fondovi."
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "Produživanje iznajmljivanja stila za %s nije uspelo. Svo tvoje zlato će biti dostupno kada WG novčanik nastavi sa funkcionisanjem automatski."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "Produži period rente"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "Iznajmljeni stil %s primenjen na vozilo %s će da istekne: preostale su 3 borbe."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "Iznajmljivanje stila %s za %s će biti automatski produženo za %s borbi nakon 3 borbe."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "Ka eksterijeru"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "Rentiran stil %s primenjen na vozilo %s je istekao. Možeš produžiti stil rente na ekranu Eksterijera."
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "Automatsko produživanje iznajmljivanja stila za %s nije uspelo. Kupi stil ručno."
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "Iznajmljivanje stila za %s je uspešno produženo. Potrošeno "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "Neuspešna opravka vozila %s."
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "Neuspela popravka vozila %s. Nemate dovoljno kredita."
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "Neuspešna opravka %s. Svo vaše zlato će biti dostupno nakon što se funkcionalnost WG novčanika povrati automatski."
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "Neuspešna automatska opravka vozila %s. Popravite vozilo ručno."
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "Vozilo %s je uspešno popravljeno. Potrošili ste "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "WoT plus zastava tenkiste je dostupna"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "WoT plus zastava tenkiste je nedostupna"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "Znački dodato"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "WoT plus borbeni bonus je dostupan"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "WoT plus borbeni bonus je nedostupan"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "Misija je završena: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "Završio si seriju misija Oklopne akademije."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "Žetoni mogu biti razmenjeni za bilo koje izučivo vozilo VI nivoa."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "Ka izboru vozila"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "Čestitamo!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "Završene misije Oklopne akademije: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "Primljene nagrade:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "Žeton akademije je upotrebljen."
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "Primljene nagrade:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "Mesta u garaži: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "Iznajmljenih vozila: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "Zaradi vozila i korisne resurse završavajući trening misije."
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "Ka tenkovskoj akademiji"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "SVE ŠTO TI TREBA\nDA POČNEŠ"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "Žeton akademije"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "Nepotrošeni poeni su upotrebljeni"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "Nepotrošeni poeni upotrebljeni nakon aktiviranja elitnog kola: %(points)s."
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "Nepotrošenih poena upotrebljeno: %(points)s za %(chapter)s poglavlje."
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "Standardna oprema za izbor"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "Elitno kolo je aktivirano"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "Elitno kolo je pauzirano."
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "Limit poena dostignut"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "Zaradio si maksimalan broj poena u %(vehName)s.\nNagrada za dostizanje limita poena: %(bonusPoints)s.\nBori se u drugim vozilima da nastaviš da zaradjuješ poene."
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "Čestitamo!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "%(name)s stil je primljen. Može biti primenjen na vozilo odmah i poboljšavan tokom napredka kroz Borbenu propusnicu."
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "Izdašna oprema za izbor"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "Detalji"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "Detalji"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "Završio si %(chapter)s poglavlje Borbene propusnice\nNagrade uključuju:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "Završio si %(chapter)s poglavlje Borbene propusnice\nNagrade uključuju:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "Završio si %(newLevel)s etapu progresa.\n\nPrimljena nagrada:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "Etape dodate u %(chapter)s poglavlju: %(levelCount)s\nDostigao si etapu %(currentLevel)s\nNagrade uključuju:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "Primio si nagrade za prethodno završene etape Borbene propusnice:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "Sada ćeš dobiti nagrade sa obe trake, osnovne i poboljšane."
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "Dobio si nagrade za završetak etapa koristeći nepotrošene poene:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "Završio si %(chapter)s poglavlje.\nPrimljena nagrada:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "Nastavi sa borbama i zarađivanjem poena!"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "Završio si sva poglavlja %(season)s Borbene propusnice.\nPrimljene nagrade:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "Završio si etapu napretka %(newLevel)s %(chapter)s poglavlja.\nPrimljene nagrade:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "Detalji"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "Potrošeno slobodno iskustvo:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "Utrošeno zlata:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "Kupio si poboljšanuz propusnicu i sve etape za %(chapter)s poglavlje.\nPrimljene nagrade za sve etape poglavlja:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "Dobio si bonus za kupovinu poboljšanih propusnica:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "Sada ćeš dobite i osnovne i poboljšane nagrade za sva poglavlja sezone."
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "Etape dodate u %(chapter)s poglavlju: %(levelCount)s\nDostigao si etapu %(currentLevel)s.\nDobijene nagrade:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "Dobio si bonus za kupovinu poboljšane propusnice:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "Ova poboljšana propusnica je primenjiva samo na %(chapter)s poglavlje."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "Primio si nagrade za prethodno završene etape borbene dozvole:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "Ova poboljšana propusnica radi samo u %(chapter)s poglavlju."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "Sada ćeš dobiti medalje sa obe nagradne staze, osnovne i poboljšane, u %(chapter)s poglavlju."
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "Podrazumevana nagrada dodata:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "Poboljšana dozvola kupljena"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "Poboljšana propusnica je kupljena"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "Etape kupljene"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "Čestitamo!"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "Dobijene nagrade"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "Etapa elitnog kola je završena.\nDobijene nagrade:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "Završene etape elitnog kola: %(amount)s\nDobijene nagrade:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "Član posade:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "Dostignuća u borbi"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "Primljeno %s za specijal '%s'"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "Primljeno %s za specijal '%s'"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s žetona"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s kredita"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s obveznica"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "%s novčića godišnjice"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s Besplatnog Iskustva"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s zlata"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "Bitka"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "Primljeni poeni Borbene propusnice: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "Žetona primljeno"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "Detalji"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "kompenzacija za štetu koju su naneli saborci: %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "Zarađeni krediti: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "Primeljno obveznica"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "Poraz"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "x%d za prvu pobedu svakog dana"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "Nerešeno"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "Bitka je gotova"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "Poeni borbenih rezervi"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "Komponente primljene"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "Primljeno novčića godišnjice"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "Primljeno iskustvo: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "Napad"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "Struktura"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "Industrijskih resursa zaradjeno"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "po klanu"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "po igraču"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "Primljeno slobodnog iskustva"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "Zarađeno zlato"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "Za pridruživanje rangovima %(campaignName)s, nagrađen si medaljom %(nameMedal)s"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "Čestitamo!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "Za uspešno završavanje 45 misija u %(categoryName)s seriji u %(campaignName)s kampanji, dodeljena ti je %(nameMedal)s medalja."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "Za uspešno završavanje 30 misija u %(categoryName)s seriji u %(campaignName)s kampanji, dodeljena ti je %(nameMedal)s medalja."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "Za uspešno završavanje 15 misija u %(categoryName)s seriji u %(campaignName)s kampanji, dodeljena ti je %(nameMedal)s medalja."
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "kazna za štetu nanetu saveznicima: %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "Čestitamo!\nZa uspešan završetak ličnih misija dobićeš sledeće nagrade"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "Čestitamo!\nZa uspešan završetak ličnih misija kampanje \"Dugo očekivana podrška\" dobićeš sledeće nagrade"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "Čestitamo!\nZa uspešan završetak kampanje drugog fronta ličnih misija dobićeš sledeće nagrade"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "Čestitamo!\nZa uspešan završetak ličnih misija obe kampanje dobićeš sledeće nagrade"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "Dodaj na rezervu kredita"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Misija je završena! Nagrada"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "Dosije službe"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "Primljeni poeni Borbene propusnice: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "Ležaja dodato u barake"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "Žetona dodato"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "Kredita dodato"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "Obveznice dodate"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "Komponente dodate"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "Dodato novčića godišnjice"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "Dodato slobodnog iskustva"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "Dodato zlata"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "Dodato"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "Campaign Points: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "Ljubimci su primljeni"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "Dana Wargaming premijum naloga dodato"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "Dana WoT premijum naloga dodato"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "Dodato bonus borbi: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "%(count)s dnevnih"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "%(count)s standardnih"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "Slotova dodato"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "Bonus bobrbe su dodate"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \nStandardne za tvoje peformanse u završenim fazama: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \nZa završavanje misija: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \nDnevne, za broj ševrona dobijenih u kvalifikacijama: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \nStandardne, za broj ševrona dobijenih u kvalifikacijama: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "Promene u rangovima"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \nPrimljeno ševrona"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \nPrimljeno ševrona"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \nPrelazak na diviziju: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \nPrelazak na lige"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \nŠevrona zadržano"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \nDobio si rang %(rankName)s(%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \nIzgubio si rang %(rankName)s(%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \nŠtit ranga je oslabljen"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \nBez promena"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \nŠtit ranga je slomljen"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \nŠevrona zadržano"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \nŠevron je primljen"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \nŠevron je izgubljen"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \nPrimljeno ševrona"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "Poeni rejtinga"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "Dobio si sledeće nagrade za godine službe"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "Čestitamo!"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "Regrutuj"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "Vozila"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "Ženski član posade"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "Tehnički poraz"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "Tehnička pobeda"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "Pobeda"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "Jedan slot za isključene mape je uklonjen. %(mapName)s mapa je vraćena u rotaciju."
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "%(mapNames)s mapa je uklonjena iz igre. Možeš isključiti novu mapu."
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "Jedan slot za isključene mape je uklonjen. %(mapNames)s mapa je vraćena u rotaciju."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "Specijal je počeo!\nSamo u narednih 10 dana, razmeni svoje nacrte za druge vredne stvari."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "Detalji"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "Specijal je završen"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "Razmeni svoje nacrte"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "Razmena nacrta je isključena zbog održavanja."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "Razmena nacrta je povraćena."
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "Ne zaboravi da preuzmeš svoju nagradu!"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "Idi na izbor"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "Bonusi od aktivnih borbi nisu uključeni."
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "Lična rezerva \"%(boosterName)s\" je onemogućena zbog tehničkih razloga."
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: lična rezerva je potpuno iskorišćene"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "Izgubljene rezerve:"
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "Rezerve su istekle"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "krediti"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "Slobodno iskustvo"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "Iskustvo posade"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "Borbeno iskustvo"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "Ukupan bonus na %(resourceName)s:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "Zatvori"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "Napustio si ili si isključen iz klana:"
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "%(element_name)s dodata"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "\"%(element_name)s\" medalja dodata"
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "\"%(element_name)s\" traka dodata"
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "Primljena nagrada"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "Primljene nagradne liste"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "Tagovi uživo nisu dostupni"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "Tagovi uživo su dostupni u borbi"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "Pohvale su trenutno nedostupne"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "Pohvale su dostupne u borbi"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "Poklonjeno vam je %(gold)s zlata i %(credits)s kredita"
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "Poklonjeno vam je%(credits)s kredita"
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "Asistent posade je dostupan"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "Asistent posade je nedostupan"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "Rezerve kredita i zlata su otvorene!"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "Aukcija"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "Borbena propusnica"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "Datum"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "Žetona uklonjeno"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "Oduzeto kredita"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "Obveznice su uklonjene"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "Komponente uklonjene"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "Uklonjeno novčića godišnjice"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "Slobodnog iskustva naplaćeno"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "Zlata skinuto sa naloga"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "Finansijska transakcija"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "Aukcija"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "Žetona primljeno"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "Primljeno kredita"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "Primeljno obveznica"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "Komponente primljene"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "Primljeno novčića godišnjice"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "Primljeno slobodnog iskustva"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "Primljeno Zlata"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "Heroj našeg vremena nagrada"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "%(medalName)s Medalja primljena za %(battlesCount)s borbi\nDekal primljen za %(battlesCount)s borbi (x%(decalsCount)s)"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "Operacije sa priborom za demontiranje su trenutno nedostupne zbog održavanja."
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "Operacije sa priborom za montiranje su dostupne ponovo. Izvinjavamo se zbog neprijatnosti."
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "Pozadine pločice je otključana: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "Urezivanje pločice je otključano: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "%(name)s Pločica"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "dostignut nivo"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "Novi nivo"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "Otključano"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "Pozadina"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "Urezivanje"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "Wargaming Premium nalog ističe %(expiryTime)s."
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "Potvrdi email"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "Email nije potvrđen"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "Eksperimantalni modul upotrebljen"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "Svi eksperimentalni moduli su uklonjeni"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "Eksperimentalni moduli demontirani sa sledećih vozila"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "Scenario"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• Direktive opreme za izbor"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• Poeni borbene propusnice"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• Univerzalna knjižica"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• Bonovi"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• Poeni borbenih rezervi"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• Eksperimentalna oprema za izbor"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• Mentorska licenca"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• Retrening naređenja"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• Univerzalno uputstvo"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "Dodeljeno ti je novčića godišnjice: %(eventCoin)s."
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "Dodatni slot sa isključene mape je otključan"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "Nemoguće je isključiti mape uz WoT plus"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "Razlog"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "Busteroid pretplata je završena."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "Pretplata je završena."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "Vozilo je onesposobljeno"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "Vozilo"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "Vozilo je dostupno"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "Vozilo"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "Poništavanje napredka"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "Idi u misiju"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "Pažnja! Napredak misije %(missionShortName)s je poništen. Ispunjenje uslova je poništeno."
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "Misija: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "Operacija: %(operation)s"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s, %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "Detalji"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "Privremeno si blokiran iz borbi u %(mode)s režimu. Blok će biti uklonjen %(date)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "Tvoj privremeni blok je uklonjen. Sada možeš ponovo da igraš u %(mode)s režimu."
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "Tvoji krediti, iskustvo i nagrade zarađeni u borbi su uklonjeni zbog %(reason)s u režimu %(mode)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "Dobio si upozorenje zbog %(reason)s u %(mode)s režimu."
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "Blok"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "Kraj bloka"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "Kažnjen si"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "Nesportsko ponašanje"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "Klanu %(clan)s je objavljen rat!\nNapad počinje %(date)s u %(time)s."
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "Odbrana preplavljena!\nSvi napadi obustavljeni. Popunite liniju otpornosti komandnog centra da bi utvrđenje funkcionisalo."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "Zakazana borba sa klanom %(clan)s je otkazana."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "Napad zakazan za%(time)s dana %(date)s protiv %(clan)s klana je otkazan: razlika izmedju nivoa utvrdjenja je veća od 1 nivoa."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "Struktura %(building)s je oštećena! Popunite liniju izdržljivosti da bi struktura funkcionisala."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "Komandni centar je oštećen! Popunite liniju otpornosti da bi Utvrđenje funkcionisalo. Ako vaš komandni centar primi još štete, odbrana će biti preplavljena."
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "Klan %(clan)s vam je objavio rat!\nNapad počinje %(date)s u %(time)s."
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "Period odbrane podešen: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "Period odbrane je pomeren. Novi period odbrane: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "Odbrana vašeg utvrđenja je isključena. Nivo svih struktura i rezervi je smanjen na IV nivo."
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "Čestitamo! Razvio si svoje Utvrdjenje na nico VIII."
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "Čestitamo! Utvrđenje je potpuno spremno, na dobrobit klana."
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "Prekid vatre je pomeren. Novi dan prekida vatre nije podešen."
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "Dan prekida vatre je promenjen. Novi dan prekida vatre: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "Nivo strukture %(building)s je povećan.\nRezerve %(order)s koje su pripremljene su pretvorene u industrijske resurse i dodate u skladište strukture."
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "Rezerva %(orderTypeName)s je nadoknađena i spremna za aktiviranje."
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "Domaći server promenjen na %(peripheryName)s."
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "Industrijskih resursa dodato: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "Industrijskih resursa oduzeto: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "Dodeljeni ste strukturi %(building)s"
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "Dodate rezerve: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "Oduzete rezerve: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "Rezerva %(order)s je aktivirana. Preostalo vreme: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "Rezerva aktivirana"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "Rezerva %(order)s je potpuno potrošena."
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "Priprema %(count)s rezervi %(order)s je kompletirana."
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "Evakuacija rezerve je istekla.\n\n%(additional)s\nUkupno za naš klan: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "Neprijatelj je aktivirao razervu reaktivacije i dodatno opljačkao %(resDec)s\nSosatno sačuvano od strane klana: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "Rekvizicija rezerve je istekla.\n\n%(additional)s\nUkupno za naš klan: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "Neprijatelj je uključio evakuaciju rezerve i dodatno sačuvao %(resDec)s\nDodatno opljačkano od strane napeg klana: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "Skladište strukture %(building)s je puno.\nIskoristite industrijske resurse da biste pripremili rezerve ili transportujte ga do druge strukture."
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "Neutralni period za vaše utvrđenje je isteklo.\nOstali klanovi vas mogu napasti sada - budite spremni!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "Vaše utvrđenje je proglasilo neutralnost.\nSada vas drugi klanovi ne mogu napasti. Period neutralnosti završava se: %(finish)s."
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "%(defResCount)s jedinica industrijskih resursa je dodato u skladište komandnog centra."
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "Idi na događaj"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "Na progres"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "Poklonjeno vam je %(gold)s zlata"
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "Aukcija: Tvoja ponuda je manja od aktuelne ponude."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "Tvoje šanse da osvojiš trenutnu aukciju su smanjene: Tvoja ponuda je manja od aktuelne ponude."
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "Na događaj"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "Tvoja ponuda je izgubila. Za povraćaj:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "Drugi igrači su ponudili više. Tvoja ponuda će ubrzo biti vraćena na tvoj nalog."
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "Greška"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "Greška ponude. Nema uklonjene sume. Pokušaj ponovo kasnije."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "Postavljanje ponuda se završava."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "Požuri i postavi ponudu!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "Požuri i postavi ponudu. Količine su ograničene."
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "Postavljanje ponuda za nove lotove je počelo!"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "Ležajeva dodato u barake"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "Ležajeva uklonjeno iz baraka"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "Lične rezerve"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "Lične rezerve su uklonjene"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "Žetona dodato"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "Žetona uklonjeno"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "Kompenzacija za"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "sa žetonima"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "Kamuflaža"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "kredita"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "obveznicama"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "Amblem"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "sa novčićima godišnjice"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "zlata"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "Natpis"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "Efekat"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "Boja"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "Jednocifreni broj"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "Dvocifreni broj"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "Trocifreni broj"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "Nalepnica"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "Stil"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "Kredita dodato"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "Kredita skinuto sa naloga"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "Knjige posade su dodate"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "posada poslata u baraku"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "posada %d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "Izgledi posada su dodati"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "Izgledi posada su uklonjeni"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "posada %d%% poslata u baraku"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "posada uklonjena"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "Primljene obveznice"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "Obveznice su uklonjene"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "Lični popusti"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "Dodate nagrade"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "Uklonjene nagrade"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "Eksperimentalni moduli dodati"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "Eksperimentalni moduli uklonjeni"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "Dodato"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "Uklonjeno"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "Komponente dodate"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "Komponente uklonjene"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "Potrošni materijal"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "Potrošna roba uklonjena"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "Dodato novčića godišnjice"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "Uklonjeno novčića godišnjice"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "Lične rezerve koje ističu"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "Naredjenja primljena"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "Naredjenja ukinuta"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "Slobodno iskustvo"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "Slobodnog iskustva dodato"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "Slobodnog iskustva naplaćeno"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "Zlata dodato"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "Zlata skinuto sa naloga"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "Univerzalni fragmenti su dodati"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "Univerzalni fragmenti su uklonjeni"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "Račun"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "Dodato u depo"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "Potrošna roba uklonjena"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "Na vozilima"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "Fragmenti nacrta za vozila %(nationName)s nacije su dodati"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "Fragmenti nacrta za vozila %(nationName)s nacije su uklonjeni"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "Dodato"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "Uklonjeno"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "kom."
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "Dana Wargaming premijum naloga dodato"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "Dana Wargaming Premium naloga oduzeto"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "Wargaming Premium nalog"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "%(vehicleName)s je dobio %(xpCount)s elitnih poena."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "%(vehicleName)s je dobio elitni nivo %(level)s i %(xpCount)s elitnih poena."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "%(vehicleName)s je dobio %(level)s elitni nivo."
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "Stvari od"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "Steam DLC"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Steam inventar"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "Bonus bobrbe su dodate"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "Bonus borbe su uklonjene"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "dana najama"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "Slotova dodato"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "Mesta u garaži uklonjeno"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "WoT Premium nalog"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "Dana WoT premijum naloga dodato"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "Dana WoT Premium naloga oduzeto"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "Regruti"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "Dodato nepodeljeno iskustvo za članove posade"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "Uklonjeno nepodeljeno iskustvo za članove posade"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "Otpušten"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "svi moduli su izučeni"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "Fragmenti nacrta za %(vehicleName)s su dodati"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "Fragmenti nacrta za %(vehicleName)s su uklonjeni"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "Vozila dodato"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "Vozila uklonjena"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "Iznajmljena vozila su dodata"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "Dodeljen ti je potrošni materijal: %(typeName)s \"%(itemName)s\" - %(amount)d komad(a)."
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "Na kutije"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "Klikni na dugme da pogledaš sadržaj."
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "Dobio si paket:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Pogledaj"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "Aktivirano kapija: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "Aktiviranje kapija"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "Stvaro primljeno:\n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "Aktivirali smo sve tvoje kapije i dodali njihov sadržaj na tvoj nalog:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Dobijene nagrade"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Otvorili smo sve tvoje kutije i dodali nagrade za Praznične operacije"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "Dobijene nagrade"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "Dodate nalepnice: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "Dodata nalepnica: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "Na anketu"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "Čestitamo!"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "Misija izviđanja se završila. Hvala ti na doprinosu u razvoju novih mapa!"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "Misija izviđanja se završila.\n\nHvala na doprinosu u razvoju novih mapa!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "Misija izviđanja je počela.\n\nBori se na mapama u razvoju u vozilima nivoa VIII-X, podeli svoje mišljenje u anketama i dobij nagrade!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "Konačna nagrada:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "Borio si se u %(battles)s borbi u misiji izviđanja."
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "Primljene nagrade:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "Možeš da popuniš anketu koja se odnosi na mehaniku režima u misiji izviđanja."
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "Anketa je dostupna"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "Možeš da popuniš anketu za %(mapName)s mapu u misiji izviđanja."
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "Idi na Barake"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "Članova posade uklonjeno: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "Zalihe domaćeg fronta"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "Asistent opreme je dostupan"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "Asistent opreme je nedostupan"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "Imaš nove rezerve:"
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "Obaveštenje"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "Rezerve koje ističu:"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "Rezerve koje ističu će uskoro biti izgubljene"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "Primljeno kredita: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "Datum: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "Finansijska transakcija:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "Dodaj u depo: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "Račun"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "Novi ciklus akumulacije je počeo."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "Novi ciklus akumulacije je započeo. Da bi zaradio kredite aktiviraj WoT premijum nalog."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "Novi ciklus akumulacije je započeo. Da bi zaradio zlato pretplati se na WoT plus."
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "Sakupljanje kredita u kreditnu rezervu je suspendovano."
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "Kreditne rezerve su otvorene"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "Preuzmi nagradu"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "Post napredak je završen!"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "Na progres"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "Post napredak"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "Dobio si pristup specijalnoj nagradi."
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "Bitka klana"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "Rezultati borbe"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "Turnir"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "Poraz"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "Nerešeno"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "Rezultati nisu definisani"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "Pobeda!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "Obrisano od strane vlasnika"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "Tehnička greška"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "Isključen si"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "Tehnički poraz"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "Tehnički nerešeno"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "Rezultati nisu definisani"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "Tehnička pobeda!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "Vreme je isteklo"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "Završeno"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(bitka %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "Delimičan rezultat"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "Rezultat"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "Wargaming Premium nalog je primljen. Ističe:%(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "Wargaming premijum nalog je promenjen. Ističe %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "Wargaming Premium Nalog istekao."
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "Wargaming Premium nalog je produžen. Ističe:%(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "WoT Premium nalog je primljen. Ističe:%(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "WoT premijum nalog je promenjen. Ističe %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "Wot Premium Nalog istekao."
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "WoT Premium nalog je produžen. Ističe:%(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "Poklonjen ti je Wargaming Premium nalog za %(days)d dana."
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "Na elitni sistem"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "Elitni nivoi i Elitne oznake primljene."
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "Elitni sistem"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "Na vozila"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "Elitni nivo primljen"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "Došlo je do greške prilikom preuzimanja Elitne nagrade."
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "%(rewardName)s %(typeReward)s za dostizanje elitnog nivoa %(lvl)s."
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "Elitna nagrada je primljena"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "Pažnja!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "Detalji"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "Kamuflaža"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "nalepnica"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "amblem"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "Natpis"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(level)s%(name)s %(typeName)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "I još %(count)s"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr "Nivo %(level)s "
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "boja"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "nalepnica"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "Primljeno:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "%(name)s stil"
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "Čestitamo!"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "Detalji"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "Nagrada za zasluge"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "Bori se u borbama i dobij nagrade. Što više pobeđuješ to si bliži nagradama."
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "Napredna nagrada primljena:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "Detalji"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "%(surplusPoints)s žetona ranga je pretvoreno u %(count)s bonova."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "Čestitamo!"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "Maksimalna nagrada primljena:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "Standardna nagrada primljena:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "Mala nagrada primljena:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "Zaradio si %(points)s token(a) ranga tokom 2021-2022."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "Godišnja nagrada"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "Pojačanje je stiglo!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "Dobio si posadu za %(event)s."
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "Imaš ne regrutovanih članova posade: %(count)s. Biće uklonjeni %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "Imaš ne regrutovane članove posade: %(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "Uklonjene značke"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "Kompenzacija"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "Dodati krediti za neutrošeno vreme rente %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "Dodato zlato za neutrošeno vreme rente %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "Period iznajmljivanja %(vehicleName)s se završio."
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "Fragmenti nacrta: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "Krediti: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "Bonovi: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "Detalji"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "Slobodno iskustvo: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "Zlato: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "univerzalni fragmenti"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "Trenutni napredak: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "Resursi potrošeni na projektu radionice:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "Potrošeni resursi"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "Potrošeni resursi"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "Resursi vraćeni iz radionice:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "Vraćanje resursa"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "Trening knjižice po izboru"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "Trening vodiči po izboru"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "Kamuflaža"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "Operacija %s je produžena zbog radova na održavanju."
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "Amblem"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "Natpisi"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "Wargaming premijum nalog"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "WoT premijum nalog"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "Renta"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "Server će biti isključen u %(date)s."
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "Isključenje servera je odloženo, isključenje je planirano u %(date)s."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "Prilagođavanje dosijea službe je dostupno"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "Ova mogućnost je suspendovana."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "Prilagođavanje dosijea službe je trenutno nedostupno"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "Univerzalni fragment (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "Nacionalni fragment (%(nationName)s) (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "Specijalna nagrada"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "Fragment nacrta za %(vehicleName)s (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "Nagrada za potvrđivanje emaila:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "Čestitamo!"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "Dobijena kompenzacija za fragmente nacrta već izučenih vozila:"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "Kamuflaža promenjena"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "Primljeno kredita: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "Oduzeto kredita: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "Obveznice: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "Obveznice: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "Elementi eksterijera su promenjeni."
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "Elementi prilagođavanja su promenjeni. Kupljeni elementi: %(count)s. Potrošio si %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "Amblemi izmenjeni"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "Novčića godišnjice dodato: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "Novčića godišnjice uklonjeno: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "Primljeno slobodnog iskustva: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "Oduzeto slobodnog iskustva: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "Dobijeno zlata: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "Zlata oduzeto: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "Promene Natpisa"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "Univerzalni fragmenti"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "Fragmenti %(nationName)s nacije"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "Nakon nadogradnje, svi dekali su uklonjeni i poslati u Depo, u sekciju Eksterijera."
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "Slotova dodato: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "Slotova obrisano: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "Pažnja!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "Vozila dodata: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "Vozila uklonjeno: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "Kupljeni su sledeći elementi prilagođavanja:\n%(items)s\nPotrošeno %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "%(itemType)s \"%(itemName)s\" je uspešno kupljen.\nPotošeno %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "%(name)s stil %(level)s nivoa je uspešno kupljen.\n%(money)s potrošeno."
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "Elementi prilagođavanja vozila su promenjeni."
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "%(itemType)s \"%(itemName)s\" (%(count)s kom.)"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "Stil %(styleName)s, %(level)s nivo"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "Elementi prilagođavanja su uklonjeni sa vozila."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "Čestitamo!\nNapredne nalepnice ti dozvoljavaju da podesiš unapred definisane stilove za %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "Čestitamo!\nDobio si nalepnicu I nivoa \"%(itemName)s\" za %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "Čestitamo!\nDobio si nalepnicu I nivoa \"%(itemName)s\"."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "Nalepnica %(level)s nivoa \"%(itemName)s\" za %(vehicleName)s je dostignuta."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "Ka eksterijeru"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "Nalepnica %(level)s nivoa \"%(itemName)s\" je dostignuta."
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Utrošeno: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "Pustinjska mapa: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "Letnja mapa: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "Zimska mapa: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Primljeno: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "Oprema rastavljena"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "Ka Eksterijeru"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "Zbog promene modula, sledeći elementi prilagodjavanja su uklonjeni sa %(vehicle)s."
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "Prilagođavanje:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "Oprema rastavljena"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "Demontirano:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "Greška:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "Finansijska transakcija:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "Prodaja stvari iz depoa:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "Način plaćanja \"%(method)s\" je dodat"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "Način plaćanja \"%(method)s\" je uklonjen"
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "Izučeno:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "Kupljeno:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "Uklanjanje iz garaže:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "Popravke:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "Povraćeno:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "Prodato:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "Nadogradnja opreme"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "Poklonjen ti je WoT Premium nalog za %(days)d dana."
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "Ka rezervama"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "Kamuflaža na vozilu %(vehicleName)s je istekla."
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "Amblem na vozilu %(vehicleName)s je istekao."
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "Natpis na vozilu %(vehicleName)s je istekao."
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "Kolekcija je dostupna"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "Čestitamo!\nIzučio si vozilo %(nation)s nacije, %(level)s nivoa. Sada možeš da kupiš kolekcionarska vozila istog nivoa i nacije u prodavnici."
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "Vozilo je uništeno. %(vehicleName)s nedostupno za klanske borbe do %(expireTime)s."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "Otključan. %(vehicleName)s dostupan za klanske borbe."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Sve dvostruke modifikacije za %(vehicle)s su otkazane."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "Modifikacija je otkazana"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "onemogućeno"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "omogućeno"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "Promena između kompleta opreme i direktiva tokom odbrojavanja pred borbu za %(tankName)s je %(state)s."
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "Promena između kompleta municije i potrošnog materijala tokom odbrojavanja pred borbu za %(tankName)s je %(state)s."
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "Dobili ste premijum vozilo: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "Iznajmljivanje nije moguće. Nedovoljno kredita."
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "Vozilo %(vehicleName)s je iznajmljeno. Renta traje do: %(expiryTime)s."
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "Blokada je uklonjena. Vozila su otključana i na raspolaganju za klansku borbu."
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "Igrač %(srcName)s vam je poslao %(srcWares)s zlata na vaš nalog."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s zlata poslato igraču %(dstName)s. Provizija: %(fee)s."
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "Popust na vozilo %(level)s nivoa"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "Nagrada za završavanje napredka \"Nazad u akciju\" je primljen:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "Izaberi nagradu"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "Popust na vozilo %(level)s nivoa"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% i %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "Dodati popusti na kupovinu i izučavanje: "
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "Čestitamo!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "Vozilo %(level)s nivoa"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "Izaberi nagrade iz dostupnih kategorija."
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "Izaberi"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "Nagrada je primljena!"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "Prednosti Borbene propusnice plus su suspendovane."
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "Borbena propusnica plus je nedostupna"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "Borbena propusnica plus je dostupna"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "Nastavi da se prijavljuješ u igru za više nagrada!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "Specijalna nagrada za pohađanje je primljena!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "Ciklus je završen"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "Prijavi se u igru i dobij nagrade."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "CIklus je započeo"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "Nagrada za pohađanje"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "Vrati se sledećeg dana po novu nagradu!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "Pohađanje je notirano!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "Opcija nagrada za pohađanje je suspendovana."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "Nagrada pohađanja je nedostupna"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "Nagrada pohađanja je dostupna"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "Ekskluzivan <font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s je dostupan"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "<font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s, ekskluzivno za WoT Plus je trenutno nije dostupno."
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "WoT plus osnovni je istekla %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "Besplatno demontiranje opreme je nedostupno"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "Produži WoT plus da dobiješ sve prednosti ponovo."
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "WoT plus ističe %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "WoT plus pro je istekao %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "Sakupljanje zlata je suspendovano."
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "Zlatne rezerve su trenutno nedostupne"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "Zlatne rezerve su dostupne"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "Zlatne rezerve su pune: Ne možeš da sakupiš više zlata"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "Zlatne rezerve su otvorene!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "Sve prednosti su sada dostupne.\nProdužava se: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "Produžava se ponovo: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "Tvoj 180-dnevni plan je sada aktivan. Uživaj!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "Tvoj 360-dnevni plan je sada aktivan. Uživaj!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "Tvoj 180-dnevni plan je sada aktivan. Uživaj!\nProdužuje se: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "Tvoj 360-dnevni plan je sada aktivan. Uživaj!\nProdužuje se: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "Intenzivni režim posade je prestao da radi za <font color='#E9E2BF'>%(vehicleName)s</font>. Proveri posadu vozila."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "Jedan ili više članova posade iz <font color='#E9E2BF'>%(vehicleName)s</font> nije kvalifikovan za intenzivni režim posade i ne sakuplja iskustvo posade."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "Intenzivan režim posade"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "Intenzivni režim posade je omogućen za %(vehicleName)s člana posade."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "Intenzivni režim posade je onemogućen za %(vehicleName)s člana posade."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "Sakupljanje iskustva posade je suspendovano."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "Intenzivni režim posade je trenutno nedostupan"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "Intenzivni režim posade je dostupan"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "Izaberi vozilo da bi dobio besplatan bonus na iskustvo posade."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "Intenzivni režim posade je premešten sa <font color='#E9E2BF'>%(oldVehName)s</font> na <font color='#E9E2BF'>%(newVehName)s</font>. Posada iz <font color='#E9E2BF'>%(oldVehName)s</font> je prestala da sakuplja iskustvo."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "Intenzivni režim posade je premešten"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "Bonus iskustva posade ne može biti primenjen na jednog ili više članova posade."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "Propuštaš vredno iskustvo posade!"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "Možeš da promeniš svoj izbor ponovo za %(cooldown)s sati."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "Pro bust je aktiviran za %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "Možeš da pojačaš drugo vozilo umesto ovog."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "Pro bust je isključen za %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "Pro bust zarada je suspendovana."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "Pro bust je trenutno nedostupan"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "Pro bust je dostupan"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)s više nije pojačan. Možeš da promeniš svoj izbor ponovo za %(cooldown)s sata."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "Pro bust je prebačen na %(vehicleNameTo)s"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "Datum produžetka WoT plus je promenjen"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "Izaberi vozilo sa liste za iznajmljivanje."
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "Nema izabranog vozila za iznajmljivanje"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "%(vehicle)s će uskoro biti dodato na tvoj nalog."
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "Iznajmljeno!"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "Ove prednosti su isključene."
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "WoT plus je nedostupan"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "WOT PLUS OSNOVNI JE AKTIVIRAN"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "Besplatno demontiranje opreme je dostupno"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "WoT plus je aktiviran"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT plus pro"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "WoT plus je unapređen u pro!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "Produži"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "Dobili ste %(freeXP)s slobodnog iskustva"
+
+msgid "status/offline"
+msgstr "Isključen"
+
+msgid "status/online"
+msgstr "Na mreži"
+
+msgid "xmpp_error/action"
+msgstr "Izvršavanje \"%(actionName)s\" nije moguće. Pokušaj ponovo kasnije."
+
+msgid "xmpp_error/simple"
+msgstr "Pokušaj ponovo kasnije."
+
+msgid "xmpp_error/user_room_creation"
+msgstr "Nije moguće kreirati kanal \"%(strArg1)s\"."

@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Застосувати до всіх {{icon}} {{type}}"
+
+msgid "header/points"
+msgstr "Очки бойових резервів: {{value}}"
+
+msgid "header/title"
+msgstr "БОЙОВІ РЕЗЕРВИ"
+
+msgid "infoPanel/category/firesupport"
+msgstr "Ударні"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "Розвідувальні"
+
+msgid "infoPanel/category/tactics"
+msgstr "Тактичні"
+
+msgid "infoPanel/category/title"
+msgstr "Категорія: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "Купівля бойового резерву в сценарії {{@ colorLegacy 'FFE4C0'}}«Воля випадку»{{/}} підвищить його рівень на 1 і відкриє можливість його посилення до {{@ colorLegacy 'FFE4C0'}}IV{{/}} рівня."
+
+msgid "infoPanel/description/unlocked"
+msgstr "У сценарії {{@ colorLegacy 'FFE4C0'}}«Воля випадку»{{/}} ймовірність видачі кожного резерву, встановленого перед боєм, зростає на {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "infoPanel/level"
+msgstr "Рівень:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}} м"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}}%"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}}%/с"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}} с"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "Бойовий резерв не придбано"
+
+msgid "infoPanel/status/unlocked"
+msgstr "Бойовий резерв придбано"

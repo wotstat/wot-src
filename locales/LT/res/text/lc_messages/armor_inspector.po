@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Pagrindiniai šarvai"
+
+msgid "armorValues/title/no_damage"
+msgstr "Jokios žalos"
+
+msgid "armorValues/title/other"
+msgstr "Kita"
+
+msgid "armorValues/title/penetration"
+msgstr "Tikimybė pramušti"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Rikošetas"
+
+msgid "armorValues/title/spaced"
+msgstr "Šarvų ekranais"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Puolančiojo konfigūracija"
+
+msgid "attackerTooltip/body"
+msgstr "Paspaudę galėsite pakeisti puolančią mašiną"
+
+msgid "attackerTooltip/header"
+msgstr "Puolanti mašina"
+
+msgid "menu/header"
+msgstr "Perdengimo tipas"
+
+msgid "menu/no_armor"
+msgstr "Jokio perdengimo"
+
+msgid "menu/nominal"
+msgstr "Nominalūs šarvai"
+
+msgid "menu/penetration"
+msgstr "Tikimybė pramušti"
+
+msgid "modules/current"
+msgstr "Dabartinė konfigūracija"
+
+msgid "modules/custom"
+msgstr "Pasirinkta konfigūracija"
+
+msgid "modules/standard"
+msgstr "Standartinė konfigūracija"
+
+msgid "modules/title"
+msgstr "Mašinos moduliai"
+
+msgid "modules/top"
+msgstr "Geriausia konfigūracija"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Važiuoklė"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Pabūklas"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Pabūklo plokštė"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Korpusas"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Ekranas"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Stebėjimo prietaisas"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Bokštelis"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Ratai"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Jokios žalos"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Pramušimas"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Rikošetas"
+
+msgid "tooltip/minor/angle/description"
+msgstr "Kampas tarp sviedinio trajektorijos ir linijos statmenai šarvų plokštės paviršiaus.\n\nSviedinio trajektorija yra apskaičiuojama tarsi sviedinys skirstų tiesia linija ekrano centre."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Smūgio kampas"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Tikimybė pramušti priešo šarvus ir padaryti žalos."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Tikimybė pramušti"
+
+msgid "tooltip/minor/effective/description"
+msgstr "Vieno sluoksnio šarvams efektyvūs šarvai yra nominalūs šarvai pakoreguoti dėl smūgio kampo ir sviedinio ypatumų.\n\nJei smūgio vietoje yra keli šarvų sluoksniai, rezultatas yra visų šarvų efektyvumo suma."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Efektyvūs šarvai"
+
+msgid "tooltip/minor/header"
+msgstr "Legenda"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Pramušę šarvų ekraną nepadarysite žalos mašinai, nebent sviedinys po to pramuš ir pagrindinį šarvą."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Jokios žalos"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Tikrasis pagrindinio ar papildomo šarvo plokštės(-ių) storis."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Nominalūs šarvai"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Tolydžiu kampu į šarvus pataikę sviediniai rikošetuos. Tačiau šie sviediniai vis tiek gali pataikyti į kitą ar net tą pačią mašiną."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Rikošetas"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Paveikia efektyvių šarvų ir pramušimo tikimybės skaičiavimus.\n\nSkaičiavimams naudojamas 100 m atstumas (šarvamušiai ir šarvamušiai pokalibriniai sviediniai dideliu atstumu netenka galios).\n\nĮgulos gebėjimai ir puolančios mašinos patobulinimai skaičiavimų nepaveikia."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Puolančiojo konfigūracija"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Tikimybė pramušti priešo šarvus ir padaryti žalos mašinai.\n\nPramušę šarvų ekraną nepadarysite žalos mašinai, nebent sviedinys po to pramuš ir pagrindinį šarvą."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Tikimybė pramušti"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Mašinai padaroma žalos tik tada, kai pramušami jos pagrindiniai šarvai. Kumuliatyviniai sviediniai gali padaryti šiek tiek žalos mašinai nepramušę šarvų, tačiau jie vis tiek turi pasiekti pagrindinį šarvą."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Pagrindiniai šarvai"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Pramušę šarvų ekraną nepadarysite žalos mašinai, nebent sviedinys po to pramuš ir pagrindinį šarvą.\n\nPataikę į ar pramušę išorinius modulius žalos padarysite patiems moduliams: pataikę į vikšrą sustabdysite mašiną, šūvis į pabūklą neleis priešui šauti atgal, o apgadinę stebėjimo įrangą sumažinsite aptikimo atstumą."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Jokios žalos"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "Rikošeto kampas šarvamušiams ir pokalibriniams sviediniams yra 70 laipsnių, o fugasiniams 85 laipsniai.\n\nKumuliatyviniai sviediniai neatsimuša rikošetu, o šarvamušiai ir pokalibriniai sviediniai atšokę netenka 25% savo galios.\n\nRikošetai negali įvykti, jei sviedinio kalibras yra tris kartus didesni, nei nominalūs šarvai smūgio vietoje (tai taikoma tik šarvamušiams ir pokalibriniams sviediniams)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Rikošetas"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Pramušę šarvų ekraną nepadarysite žalos mašinai, nebent sviedinys po to pramuš ir pagrindinį šarvą.\n\nPataikę į ar pramušę išorinius modulius žalos padarysite patiems moduliams: pataikę į vikšrą sustabdysite mašiną, šūvis į pabūklą neleis priešui šauti atgal, o apgadinę stebėjimo įrangą sumažinsite aptikimo atstumą.\n\nPataikymo kampas neskaičiuojamas, kai pataikoma į išorinį modulį (pavyzdžiui vikšrus ar pabūklą) — čia efektyvūs šarvai yra lygūs nominaliems."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Šarvų ekranai"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Pažiūrėkite vaizdo įrašą apie šarvų pramušimo funkcionalumą"

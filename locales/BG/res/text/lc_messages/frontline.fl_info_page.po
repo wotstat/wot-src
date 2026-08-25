@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "За Боен пропуск"
+
+msgid "about/position/header"
+msgstr "Разпределение на точки за Боен пропуск"
+
+msgid "about/position/text"
+msgstr "След всяка битка получавате точки за Боен пропуск, съответстващи на вашата позиция. Ще получите допълнителни точки за Боен пропуск, ако повишите нивото си във \"Фронтова линия\"."
+
+msgid "about/scores/header"
+msgstr "Точки за Боен пропуск"
+
+msgid "about/scores/text"
+msgstr "Специална валута за Боен пропуск, която може да се печели в Случайни битки и в режим \"Фронтова линия\". Точките за Боен пропуск се дават за достигане на нива във \"Фронтова линия\" и за вашата позиция в резултатите от битка. Машините за \"Фронтова линия\" нямат лимит на количеството точки, които могат да спечелят."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Загуба"
+
+msgid "about/scoresTable/topCell"
+msgstr "Топ {{top}} по спечелен опит"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Победа"
+
+msgid "about/text"
+msgstr "Боен пропуск е дълготрайно събитие, в което играчите напредват етап по етап като печелят точки за Боен пропуск. Всеки завършен етап им носи ценни награди. При завършване на определени етапи, играчите могат да получат жетони за Боен пропуск — специална валута, която може да се използва за покупка на уникални машини и други ценни награди от съответния раздел в Магазина."
+
+msgid "addons/cellRent/header"
+msgstr "Наем на машини"
+
+msgid "addons/cellRent/text_10"
+msgstr "Има няколко различни машини ниво {{vehiclesLevel}}, достъпни за наемане за кредити. Членовете на екипажа от машини от същия вид и нация могат да бъдат прехвърляни без наказания или нужда от преобучение."
+
+msgid "addons/cellRent/text_9"
+msgstr "Има няколко различни машини ниво {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}}, достъпни за наемане за кредити. Членовете на екипажа от машини от същия вид и нация могат да бъдат прехвърляни без наказания или нужда от преобучение."
+
+msgid "addons/cellSpectator/header"
+msgstr "Режим на зрител"
+
+msgid "addons/cellSpectator/text"
+msgstr "Когато трябва да чакате за връщане в битка, може да влезете в режим на зрител, за да проучите бойното поле и да съставите боен план."
+
+msgid "addons/cellTime/header"
+msgstr "Допълнително време"
+
+msgid "addons/cellTime/text"
+msgstr "Ако времето на битката изтече, когато все още завладявате база, вашият отбор ще получи допълнително време. Ако отбраняващият се отбор прекъсне завладяването на базата си, допълнителното време спада до нула."
+
+msgid "addons/header"
+msgstr "Допълнителна информация"
+
+msgid "levelUp/sectionHeader"
+msgstr "Машини ниво {{level}}"
+
+msgid "levelUp/text"
+msgstr "Както и преди, първоначално в битка влизате само с машини ниво {{vehiclesLevelFrom}}, но в Парка си можете да подготвяте и машини ниво {{vehiclesLevelTo}}. След завладяването на която и да е база от втората линия (D, E, F), и двата отбора ще могат да влизат в битка със своите машини ниво {{vehiclesLevelTo}}."
+
+msgid "main/cellDuration/header"
+msgstr "Срок на действие"
+
+msgid "main/cellDuration/text"
+msgstr "\"Фронтова линия\" ще продължи {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}}. Датата на следващото пускане ще бъде съобщена отделно."
+
+msgid "main/cellFrontline/header"
+msgstr "Фронтова линия"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Масивни сражения 30 на 30 с машини ниво {{vehiclesLevel}} на картите {{@ colorLegacy 'FFE4C0'}}Нормандия, Крафтверк{{/}} и {{@ colorLegacy 'FFE4C0'}}Фата Моргана{{/}}. Атакуващите трябва да унищожат 3 от 5 тежкокалибрени оръдия, а защитниците - да ги отбраняват."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Масивни сражения 30 на 30 с машини ниво {{vehiclesLevelFrom}}-{{vehiclesLevelTo}} на картите {{@ colorLegacy 'FFE4C0'}}Нормандия, Крафтверк{{/}} и {{@ colorLegacy 'FFE4C0'}}Фата Моргана{{/}}. Атакуващите трябва да унищожат 3 от 5 тежкокалибрени оръдия, а защитниците - да ги отбраняват."
+
+msgid "main/cellLevel9/header"
+msgstr "Машини ниво {{vehiclesLevel}}"
+
+msgid "main/cellLevel9/text"
+msgstr "След завладяване на една от базите от втората линия (D, E или F) ще можете да влезете в битка с машина ниво {{vehiclesLevel}}."
+
+msgid "main/cellLevels/header"
+msgstr "Машини ниво {{vehiclesLevel}}"
+
+msgid "main/cellLevels/text_8"
+msgstr "В този режим са достъпни само машини ниво {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}}."
+
+msgid "main/cellLevels/text_9"
+msgstr "Само машини ниво {{vehiclesLevel}} могат да влязат в битката."
+
+msgid "main/cellPass/header"
+msgstr "Боен пропуск"
+
+msgid "main/cellPass/text"
+msgstr "\"Фронтова линия\" е отлична възможност да печелите точки за Боен пропуск за участие в битки и достигане на нови нива във \"Фронтова линия\"."
+
+msgid "main/cellReserves/header"
+msgstr "Категории бойни резерви"
+
+msgid "main/cellReserves/text"
+msgstr "Има три категории бойни резерви, всеки свързана с определен слот. Редът на тяхното отключване и подобряване зависи от вида на машината."
+
+msgid "main/cellScenarios/header"
+msgstr "Сценарии"
+
+msgid "main/cellScenarios/text"
+msgstr "Битките в режим Фронтова линия използват един от следните сценарии: {{@ colorLegacy 'FFE4C0'}}Стандартна битка{{/}}, {{@ colorLegacy 'FFE4C0'}}Оперативна поддръжка{{/}} или {{@ colorLegacy 'FFE4C0'}}Обрат на съдбата{{/}}. Информацията за сценария на текущата битка се показва на екрана за зареждане, по време на обратното броене преди битката или при натискане на клавиша Tab."
+
+msgid "main/sectionHeader"
+msgstr "Обща информация"
+
+msgid "page/backBtn"
+msgstr "НАЗАД"
+
+msgid "page/headerUpper"
+msgstr "ФРОНТОВА ЛИНИЯ"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "В зависимост от достигнатия ранг ще получите опит за \"Фронтова линия\", както и боен опит. Опитът за \"Фронтова линия\" се използва за повишаване на вашето ниво във \"Фронтова линия\". Има всичко на всичко {{@ colorLegacy 'FFE4C0'}}20 нива{{/}}."
+
+msgid "progression/levelsSection/header"
+msgstr "Нива във \"Фронтова линия\""
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Нивата във \"Фронтова линия\"{{/}} ви носят точки за Боен пропуск, точки за бойни резерви, бонове, директиви, заповеди за преобучение, лиценз за менторство и книги за екипажа."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Нивата във \"Фронтова линия\"{{/}} ви носят точки за бойни резерви, бонове, директиви, заповеди за преподготовка и книги за екипажа."
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Ранговете{{/}} не само отразяват вашата ефективност в конкретна битка, но също така осигуряват бонус боен опит като резултат. Този бонус се прилага към общия базов опит, спечелен за всички ваши машини, които са участвали в битка. Когато вие или вашите съюзници достигнете ранг генерал, целият екип получава бонус към представянето на екипажа (основно ниво на квалификация) от {{@ colorLegacy 'FFE4C0'}}1,5%{{/}} до {{@ colorLegacy 'FFE4C0'}}15%{{/}}."
+
+msgid "progression/ranksSection/header"
+msgstr "Рангове"
+
+msgid "progression/ranksSection/text"
+msgstr "В режима действа система със шест ранга, в която играчите напредват от ранг редник до генерал. Ще получавате нов ранг за ефективни действия в битка (завладяване или защита на бази; унищожаване на главни цели) и печелене на опит. Отчита се сумарният опит, спечелен с всички ваши машини, участвали в битка."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Бонус към бойния опит"
+
+msgid "progression/ranksTable/captain"
+msgstr "Капитан"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Бонус към ефективността на екипажа"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Опит във \"Фронтова линия\""
+
+msgid "progression/ranksTable/general"
+msgstr "Генерал"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Лейтенант"
+
+msgid "progression/ranksTable/major"
+msgstr "Майор"
+
+msgid "progression/ranksTable/private"
+msgstr "Редник"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Сержант"
+
+msgid "progression/sectionHeader"
+msgstr "Напредък във \"Фронтова линия\""
+
+msgid "progression/text"
+msgstr "Когато играете в този режим, ще получавате нови рангове, ще напредвате във \"Фронтова линия\" и ще печелите награди."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Допълнителен"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Слот за резерв 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Слот за резерв 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Слот за резерв 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Основен"
+
+msgid "reserveCategories/categories/support"
+msgstr "Спомагателен"
+
+msgid "reserveCategories/config/footerText"
+msgstr "В сценария {{@ colorLegacy 'FFE4C0'}}Обрат на съдбата{{/}} редът, в който се отключват бойните резерви, не зависи от типа машина."
+
+msgid "reserveCategories/config/header"
+msgstr "Конфигурации на резерви по видове машини"
+
+msgid "reserveCategories/config/text"
+msgstr "В сценариите {{@ colorLegacy 'FFE4C0'}}Стандартна битка{{/}} и {{@ colorLegacy 'FFE4C0'}}Оперативна поддръжка{{/}} и трите слота за боен резерв са налични за всички типове машини. Въпреки това, редът, в който се отключват, зависи от типа машина."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "ПТ-САУ"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Тежки танкове"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Леки танкове"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Средни танкове"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "САУ"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* Подобряването до това ниво е достъпно само за {{@ colorLegacy 'FFE4C0'}}закупени{{/}} бойни резерви в сценария {{@ colorLegacy 'FFE4C0'}}Обрат на съдбата{{/}}."
+
+msgid "reserveCategories/levels/header"
+msgstr "Как да отключите слотове и да подобрите бойните резерви"
+
+msgid "reserveCategories/levels/text"
+msgstr "По подразбиране ви е наличен един боен резерв. Други се отключват при достигане на сержант и лейтенант. И трите резерва ще бъдат подобрени след достигане на ранговете капитан и майор."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "Ниво {{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} или {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}}"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Капитан"
+
+msgid "reserveCategories/ranks/general"
+msgstr "Генерал"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Лейтенант"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Майор"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Сержант"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Редник"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Обрат на съдбата"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "По време на битка играчите могат да избират от произволни резерви, които са налични за всички типове машини. Поставянето на резерв в слот преди битка увеличава шанса да го получите в битка с {{@ colorLegacy 'FFE4C0'}}10%{{/}}. Закупуването на резерв ще повиши неговото ниво до {{@ colorLegacy 'FFE4C0'}}II{{/}} и ще предостави възможност за подобряването му до ниво {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Сценарии на Фронтова линия"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Стандартна битка"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Прилагат се стандартните правила на Фронтова линия. Условията за използване на бойните резерви остават непроменени."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Оперативна поддръжка"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "При отключване на резерв: {{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "При завръщане в битка: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "По-бърз сценарий с намалена подготовка на бойния резерв:"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Битките в режим Фронтова линия използват един от следните сценарии: {{@ colorLegacy 'FFE4C0'}}Стандартна битка{{/}}, {{@ colorLegacy 'FFE4C0'}}Оперативна поддръжка{{/}} или {{@ colorLegacy 'FFE4C0'}}Обрат на съдбата{{/}}. Сценариите променят условията за използване на бойни резерви в битка. Информацията за сценария на текущата битка се показва на екрана за зареждане, по време на обратното броене преди битката или при натискане на клавиша Tab."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Категории бойни резерви"
+
+msgid "reserveCategories/text"
+msgstr "Бойните резерви са разделени на три категории с по три резерва във всяка. Когато влизате в битка, можете да сложите само по един резерв от категория в съответния слот."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Нападателни резерви"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Разузнавателни резерви"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Тактически резерви"
+
+msgid "reserves/sectionHeader"
+msgstr "Бързи резерви"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Бърз старт"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Времето за подготовка на бойни резерви в началото на битка е съкратено с 50%."
+
+msgid "reserves/sectionReload/header"
+msgstr "Незабавна готовност"
+
+msgid "reserves/sectionReload/text"
+msgstr "Бойните резерви ще бъдат готови за използване веднага след като бъдат отключени."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Второ дихание"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Времето за подготовка на бойните резерви е съкратено със 70% при връщане в битка с нова машина."
+
+msgid "rules/backToFight/header"
+msgstr "Връщане в битка"
+
+msgid "rules/backToFight/text"
+msgstr "Ако машината ви бъде унищожена, изберете която и да е друга достъпна машина и се върнете на бойното поле, за да продължите да се сражавате за победа. Можете да изберете една от няколко области (точки на съживяване) по фланговете, както и в тила, което ще ви помогне да планиране по-нататъшните си действия в битката. Отбраняващите се играчи имат по-широк избор от точки на съживяване дълбоко в тила, което означава, че могат да се мобилизират за отбрана на тежкокалибрените оръдия в случай на внезапен пробив. Системата включва и специален индикатор, който предупреждава играчите, ако избраната зона не е безопасна."
+
+msgid "rules/base/header"
+msgstr "Завладяване на база"
+
+msgid "rules/base/textBottom"
+msgstr "Пораженията по машина (или нейните модули), която завладява база, не нулира напредъка по завладяване, а само временно го спира. За да нулират завладяването на базата, защитниците трябва да унищожат вражеските машини в кръга на базата или да ги принудят да напуснат кръга на базата. Защитниците не могат да завладеят обратно база, която е била завладяна от атакуващите."
+
+msgid "rules/base/textTop"
+msgstr "{FFE4C0_Start}Атакуващият отбор{FFE4C0_End} трябва последователно да завладява бази, за да достигне основните цели. Завладяна база добавя 2 минути към времето на битката. Завладяването на последната база добавя 4 минути."
+
+msgid "rules/sectionHeader"
+msgstr "Общи правила"
+
+msgid "rules/service/header"
+msgstr "Зони за обслужване"
+
+msgid "rules/service/text"
+msgstr "Зоните за обслужване възстановяват точки живот, лекуват всички ранени членове на екипажа и попълват боекомплекта. {FFE4C0_Start}Скоростта на обслужване е както следва: 100 точки живот / един член на екипажа / 10%{FFE4C0_End} боеприпаси в секунда."
+
+msgid "rules/weapons/header"
+msgstr "Цел: 3 от 5 тежкокалибрени оръдия"
+
+msgid "rules/weapons/list/back"
+msgstr "Задна броня: {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "Плочата на бронята на покрива и челната броня {{@ colorLegacy 'FFE4C0'}}не могат да бъдат пробити{{/}} от снаряди."
+
+msgid "rules/weapons/list/sides"
+msgstr "Странична броня: {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Странична броня: {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Уязвими точки: {{@ colorLegacy 'FFE4C0'}}врата (70 mm) и вентилация (25 mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "В тила на отбраняващия се отбор са разположени пет оръдейни кули, те са основната цел в битката. Атакуващият отбор трябва да унищожи 3 кули, а защитниците трябва да ги пазят на всяка цена."
+
+msgid "subTitle/differentMonth"
+msgstr "от {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}{{/}} до {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "от {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}, {{startYear}},{{/}} до {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}, {{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "от {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{from}}{{/}} до {{@ colorLegacy 'FFE4C0'}}{{to}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "Сектори A, B и C {{@ colorLegacy 'FFE4C0'}}от първата линия{{/}} представляват стартовите точки за двата отбора."
+
+msgid "winStrategy/header"
+msgstr "Успешна стратегия"
+
+msgid "winStrategy/mapZones"
+msgstr "Картата за режима е разделена на три хоризонтални линии на отбраната:"
+
+msgid "winStrategy/secondLine"
+msgstr "След като секторите от първата линия бъдат завладени, битката се прехвърля в сектори D, E и F {{@ colorLegacy 'FFE4C0'}}на втората линия{{/}}."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Третата линия{{/}} не е разделена на сектори. В тази зона се провежда последният етап от битката. В нея се намират тежкокалибрените оръдия. Тяхното унищожаване носи победата на атакуващия отбор. Атакуващите получават достъп до основните цели, само след като успеят да завладеят поне един сектор от втората линия. Щом някой сектор бъде загубен, защитниците имат 1 минута да напуснат, преди тази зона да бъде бомбардирана. Въздушен удар ще засегне всички защитници, останали в този сектор. Всички атакуващи, които опитат да стигнат до сектори от втора или трета линия без завладяване на предходния сектор, също ще бъдат унищожени от въздушен удар."

@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "Atcelt Meklēšanu"
+
+msgid "buttons/cancelSearch/description"
+msgstr "Nospiediet, lai atceltu Vada locekļu meklēšanu."
+
+msgid "buttons/createPlatoon/caption"
+msgstr "Jauns Vads"
+
+msgid "buttons/createPlatoon/description"
+msgstr "Izveidojiet Vadu, lai uzaicinātu draugus spēlēt kopā."
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "Jauns Super Vads"
+
+msgid "buttons/findPlayers/caption"
+msgstr "Atrast Spēlētājus"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "Atrodies spēlētājus ar līdzīgu meistarību un tankiem izmantojot meklēšanas filtru."
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "Visi uzaicinājumi draugiem tiks atcelti, ja jūs sāksiet meklēt spēlētājus tiešsaistē."
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "Atrast Spēlētājus"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "Jūs nevariet meklēt spēlētājus: pārāk daudz Vadi serverī."
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "Jūs nevariet meklēt spēlētājus Vadam: nav piemērotu tanku."
+
+msgid "buttons/invite/player/caption"
+msgstr "Uzaicināt Spēlētāju"
+
+msgid "buttons/invite/player/description"
+msgstr "Nospiediet, lai uzaicinātu spēlētāju Vadam."
+
+msgid "buttons/invite/players/caption"
+msgstr "Uzaicināt Spēlētājus"
+
+msgid "buttons/invite/players/description"
+msgstr "Noklikšķiniet, lai uzaicinātu spēlētājus uz Vadu."
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "Pamest Vadu"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "Uzspiediet, lai pamestu Vadu."
+
+msgid "buttons/mute/caption"
+msgstr "Izslēgt Vada Balss Čatu"
+
+msgid "buttons/mute/description"
+msgstr "Nospiediet, lai izslēgtu Vada balss čatu."
+
+msgid "buttons/notReady/caption"
+msgstr "Neesmu Gatavs"
+
+msgid "buttons/notReady/description"
+msgstr "Uzspiediet, ja neesiet gatavi doties kaujā."
+
+msgid "buttons/ready/caption"
+msgstr "Gatavs!"
+
+msgid "buttons/ready/description"
+msgstr "Uzspiediet, ja esat gatavi doties kaujā."
+
+msgid "buttons/reset/caption"
+msgstr "Atiestatīt Meklēšanas Vēlmes"
+
+msgid "buttons/reset/description"
+msgstr "Noklikšķiniet, lai atiestatītu meklēšanas preferences uz noklusējumu."
+
+msgid "buttons/settings/caption"
+msgstr "Iestatīt Meklēšanas Vēlmes"
+
+msgid "buttons/settings/description"
+msgstr "Meklējiet spēlētājus, kas atbilst jūsu vēlmēm. Jo ilgāk netiek atrasti spēlētāji, jo vairāk tiks izvērsta meklēšana."
+
+msgid "buttons/unMute/caption"
+msgstr "Ieslēgt Vada Balss Komunikāciju"
+
+msgid "buttons/unMute/description"
+msgstr "Nospiediet, lai ieslēgtu Vada balss čatu."
+
+msgid "headerButton/inSquad"
+msgstr "Vadā"
+
+msgid "headerButton/onboarding"
+msgstr "JŪS TAGAD VARIET MEKLĒT SPĒLĒTĀJUS\nLAI IZVEIDOTU VADU"
+
+msgid "headerButton/searching"
+msgstr "Meklē..."
+
+msgid "headerButton/squad"
+msgstr "Izveidot Vadu"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "Kaujies vadā kopā ar draugu. Spēlē kā komanda pret deviņiem ienaidnieka vadiem."
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "Vads"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "Nevar izveidot vai pievienoties Vadam, jo šis režīms tev īslaicīgi nav pieejams."
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "Nevarēsi izveidot vai pievienoties vadam, ja tev Garāžā nav vismaz viena %(level)s līmeņa piemērota transportlīdzekļa."
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "Vada izveide īslaicīgi nav pieejama."
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "Vadi nav pieejami"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "Vari izveidot vai pievienoties esošam vadam. Režīmā “Vieglais uzbrukums” vadu sastāvā var būt 2 vai 7 spēlētāji."
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "Vads"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "Nevar izveidot vai pievienoties vadam, jo Garāžā nav piemērota %(level)s līmeņa tanka."
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "Pēc Kvalifikācijas pabeigšanas būs pieejami 2 un 7 spēlētāju Vadi."
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "Neizdevās izveidot Vadu."
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "Vadi nav pieejami"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "Izveido Vadu vai pievienojies esošajam. Uzbrukuma režīmā Vads var sastāvēt no 2 vai 7 spēlētājiem."
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "Vads"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "Izveidojiet taktisko vienību no 2 vai 3 spēlētājiem kopīgai sadarbībai.\n• Kauju režīmi: Plosīšanās.\n• Kauju veidi: Tērauda Medības, Dominēšana."
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "Vads"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "Izveidojiet taktisko vienību no 2 vai 3 spēlētājiem, lai piedalītos Lielajās Sacīkstēs."
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "Lielās Sacīkstes Vads"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "Uzspiediet, lai atvērtu Vada Izvēlni."
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "Izlūkošanas Misija: Vads"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "Uzspiediet, lai atvērtu Vada Izvēlni."
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "Vads"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "Izveidojiet 2 vai 3 spēlētāju Vadu, lai piedalītos Izlūkošanas Misijā."
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "Izlūkošanas Misija: Vads"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "Taktiskās vienības netiek atļautas Ranga Kaujās."
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "Izveidot Vadu"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "Meklē spēlētājus..."
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "Meklē"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Izveido taktisko vienību no 2 vai 3 spēlētājiem izlases kaujām un “Frontes līnijai” (kad pieejama)"
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Vads"
+
+msgid "members/card/connectionLost"
+msgstr "Savienojums pārtraukts"
+
+msgid "members/card/disabled"
+msgstr "Šis režīms atbalsta tikai divu spēlētāju Vadus"
+
+msgid "members/card/disabledVertical"
+msgstr "Nav pieejams šim režīmam"
+
+msgid "members/card/empty"
+msgstr "Tukša Vieta"
+
+msgid "members/card/inBattle"
+msgstr "Kaujā"
+
+msgid "members/card/muted/caption"
+msgstr "Spēlētājs nomutēts"
+
+msgid "members/card/muted/description"
+msgstr "Nospiediet labo taustiņu, lai atmutētu šo spēlētāju."
+
+msgid "members/card/notReady"
+msgstr "Neesmu Gatavs"
+
+msgid "members/card/searching"
+msgstr "Meklē spēlētāju..."
+
+msgid "members/card/selectVehicle"
+msgstr "Izvēlieties %(level)s Līmeņa tanku"
+
+msgid "members/chat/chatName"
+msgstr "Čata kanāls:"
+
+msgid "members/chat/sendMessage/body"
+msgstr "Uzspiediet, lai nosūtītu ziņu uz čata kanālu."
+
+msgid "members/chat/sendMessage/header"
+msgstr "Aizsūtīt Ziņojumu"
+
+msgid "members/footer/comp7Invite"
+msgstr "Uzaicināt"
+
+msgid "members/footer/comp7Limitations"
+msgstr "Top ranga ierobežojumi"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "Top Vada spēlētāja rangs"
+
+msgid "members/footer/getNotReady"
+msgstr "Uzspiediet, lai atceltu gatavību."
+
+msgid "members/footer/getReady"
+msgstr "Apstipriniet gatavību doties kaujā."
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "Nesaderīgs Līmenis"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "Pieredzes sods par neatbilstošu Vada sastāvu!"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "Sasniegts tanku limits"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "Vads ir sasniedzis maksimālo pieļaujamo tanku iznīcinātāju skaitu"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "Vads ir sasniedzis maksimālo pieļaujamo artilēriju skaitu"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "Vads ir sasniedzis maksimālo pieļaujamo smago tanku skaitu"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "Vads ir sasniedzis maksimālo pieļaujamo vidējo tanku skaitu"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "Vads ir sasniedzis maksimālo pieļaujamo vieglo tanku skaitu"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "Vads ir sasniedzis maksimālo pieļaujamo riteņu tanku skaitu"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "Vads ir sasniedzis maksimālo pieļaujamo vieglo tanku skaitu"
+
+msgid "members/header/battle_royal"
+msgstr ": Tērauda Mednieks"
+
+msgid "members/header/epic"
+msgstr ": Frontes Līnija"
+
+msgid "members/header/event"
+msgstr ": Waffenträger: Projekts Hiperions"
+
+msgid "members/header/mapbox"
+msgstr ": Izlūkošanas Misija"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP HEADER PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr ": Nejauša Kauja"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "Frontes Līnija ir pieejama\ntikai VIII Līmeņa tankiem."
+
+msgid "members/header/tooltip/epic/header"
+msgstr "Vadu Formēšanas Noteikumi"
+
+msgid "members/header/tooltip/event/body"
+msgstr "Vadā jābūt trīs īpašiem režīma tankiem."
+
+msgid "members/header/tooltip/event/header"
+msgstr "Vadu Formēšanas Noteikumi"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "Vadam jāsastāv no vienāda līmeņa tankiem."
+
+msgid "members/header/tooltip/standard/header"
+msgstr "Vadu Formēšanas Noteikumi"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Spēlētāji Vadā"
+
+msgid "searching/estimated/caption"
+msgstr "Paredzamais Laiks"
+
+msgid "searching/estimated/lessThan"
+msgstr "mazāk kā %(seconds)d s"
+
+msgid "searching/estimated/moreThan"
+msgstr "vairāk kā %(seconds)d s"
+
+msgid "searching/expanded/body"
+msgstr "Nav spēlētāju, kas atbilda oriģinālajām vēlmēm.\nMeklēšana tika paplašināta, lai iekļautu citus tanku līmeņus."
+
+msgid "searching/expanded/header"
+msgstr "Meklēšanas Vēlmes Paplašinātas"
+
+msgid "searching/lookingFor"
+msgstr "Meklē:"
+
+msgid "searching/playersInQueue"
+msgstr "Spēlētāji Rindā"
+
+msgid "searching/state"
+msgstr "Meklē:"
+
+msgid "settings/tiers"
+msgstr "Vēlamais Tanka Līmenis"
+
+msgid "settings/voice"
+msgstr "Dot priekšroku spēlētājiem ar balss čatu"
+
+msgid "squad"
+msgstr "Vads"

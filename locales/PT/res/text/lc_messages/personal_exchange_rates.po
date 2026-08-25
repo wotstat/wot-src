@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Taxa limitada"
+msgstr[1] "Taxa limitada %(index)s"
+msgstr[2] "Taxa limitada %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "Pelo menos, um limite foi excedido. Parte do pagamento será feito à taxa seguinte."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Taxa de troca base"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "A próxima taxa aplicável"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Número de taxas limitadas ativas: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Montante total da taxa limitada: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "Após a troca:"
+
+msgid "common/cancel"
+msgstr "Cancelar"
+
+msgid "common/combinedDiscount"
+msgstr "Desconto Combinado"
+
+msgid "common/exchange"
+msgstr "Trocar"
+
+msgid "common/exchangeRate"
+msgstr "Taxa de troca"
+
+msgid "common/limitExceeded"
+msgstr "Limite excedido. A troca será realizada com o desconto combinado."
+
+msgid "common/limitOverExceeded"
+msgstr "Limite excedido: Será utilizado um desconto combinado."
+
+msgid "common/limitRestrictions"
+msgstr "SAIBA MAIS"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Taxa de troca base: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Taxa de troca geral: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "%(gold)s ouro trocados com sucesso. Créditos recebidos: %(res)s."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Taxa de troca pessoal: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Taxa de troca pessoal: %(rateFrom)s = %(rateTo)s. Limite excedido"
+
+msgid "exchangeXP/information"
+msgstr "%(res)s EXP trocado com sucesso em EXP Livre. Ouro gasto: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "EXP Disponível:"
+
+msgid "experienceExchange/paid"
+msgstr "Gasto"
+
+msgid "experienceExchange/received"
+msgstr "Recebido"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Ordenar por nível do veículo"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Ordenar por nível de Modificação de Campo"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Ordenar por nome do veículo"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Ordenar por nação"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Ordenar por tipo de veículo"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Ordenar por veículo selecionado"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Ordenar por EXP recebida"
+
+msgid "goldExchange/paid"
+msgstr "A partir de"
+
+msgid "goldExchange/received"
+msgstr "Até"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s ouro = %(resourceRate)s créditos"
+
+msgid "notification/discountDescription/message"
+msgstr "Taxa de troca pessoal"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "Para a Troca"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Nova taxa de troca disponível!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Taxa de troca base"
+
+msgid "tooltip/common/generalRate"
+msgstr "Taxa de troca geral"
+
+msgid "tooltip/common/personalRate"
+msgstr "Taxa de troca pessoal"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Taxa de troca favorável"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Taxa de troca temporária"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "O montante só pode ser determinado após adquirir ouro."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Montante de ouro após a troca"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s ouro = %(resourceRate)s EXP Livre"

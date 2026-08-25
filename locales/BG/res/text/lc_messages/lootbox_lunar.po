@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Назад към съкровищата"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "Пламтящо съкровище"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "ПЛАМТЯЩО СЪКРОВИЩЕ"
+
+msgid "common/getButton/lowerCase"
+msgstr "Вземи съкровища"
+
+msgid "common/getButton/upperCase"
+msgstr "ВЗЕМИ СЪКРОВИЩА"
+
+msgid "common/loader"
+msgstr "Отваряне на пламтящо съкровище..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Отворете съкровища, за да видите статистика."
+
+msgid "common/statistics/header"
+msgstr "Отворени пламтящи съкровища: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Цялата информация за отворените пкламтящи съкровища ще бъде изтрита."
+
+msgid "entryPoint/boxes"
+msgstr "КЪМ СЪКРОВИЩА"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Това са специални кутии, съдържащи нови и уникални предмети, включително Премиум машини, двуизмерни стилове и други. Можете да ги получите от Магазина в играта."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "В момента пламтящите съкровища не могат да бъдат отворени или закупени поради технически причини. Извиняваме се за временното неудобство."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Пламтящите съкровища са временно недостъпни"
+
+msgid "eventName/lowerCase"
+msgstr "Лунна плячка"
+
+msgid "eventName/upperCase"
+msgstr "ЛУННА ПЛЯЧКА"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Гарантирана награда в следващото съкровище!"
+
+msgid "guaranteedTitle/text"
+msgstr "Максимум пламтящи съкровища до гарантирана награда: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ако не отворите пламтящите съкровища преди края на събитието, те ще бъдат отворени автоматично."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ако вече притежавате всички машини от списъка с възможно съдържание на пламтящите съкровища, тогава всички следващи машини, които получавате от пламтящи съкровища, ще бъдат компенсирани в злато, равно на пълната им стойност."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Всеки %(guaranteed0)s пламтящи съкровища гарантирано съдържат машина ниво VIII–IX. Ако ги отворите без да се падне такава машина, тогава машина ниво VIII–IX, която още не притежавате, ще се падне, когато отворите %(guaranteed0)s&zwnbsp;-ото пламтящо съкровище. Когато това се случи, броячът се нулира."
+
+msgid "infoPage/header/description"
+msgstr "Отваряйте пламтящи съкровища за шанс да получите ценни предмети в играта! Вижте повече подробности по-долу."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "От %(name) (%(boxesCount) отворени пламтящи съкровища)"
+
+msgid "noBoxesView/description/"
+msgstr "Нямате пламтящи съкровища.\nМожете да ги вземете в Магазина в играта."
+
+msgid "preview/backLabel"
+msgstr "КЪМ СЪКРОВИЩА"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Налични съкровища: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Няма налични съкровища"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Ако вече притежавате всички машини от списъка с възможно съдържание на пламтящите съкровища, тогава всички следващи машини, които получавате от пламтящи съкровища, ще бъдат компенсирани в злато."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) пламтящо съкровище"
+msgstr[1] "%(remainingCount) пламтящи съкровища"
+msgstr[2] "%(remainingCount) пламтящи съкровища"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Гарантираната награда е машина от списъка с възможно съдържание на пламтящо съкровище.\nАко отворите %(remainingCount), без да се падне такава машина, то ще се падне, когато отворите %(count)-ото пламтящо съкровище. Когато това стане, броячът се нулира."

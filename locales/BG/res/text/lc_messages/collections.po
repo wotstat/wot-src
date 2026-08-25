@@ -1,0 +1,152 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "collection/error/description"
+msgstr "Избърсваме праха от вашата колекция. Междувременно се впуснете в битка."
+
+msgid "collection/error/title"
+msgstr "Колекция в процес на реставрация"
+
+msgid "collection/tooltip/completed"
+msgstr "Колекция \"%(name)s, %(season)s / %(year)s\" завършена."
+
+msgid "collection/tooltip/progress"
+msgstr "Брой събрани елементи на колекцията \"%(name)s, %(season)s / %(year)s\"."
+
+msgid "footer/buttonText"
+msgstr "Към колекцията"
+
+msgid "footer/collectionCompleted"
+msgstr "Колекцията е събрана!"
+
+msgid "footer/progressbar/activeState/receivedElements/text"
+msgstr "Събрани елементи: %(received)s / %(total)s"
+
+msgid "footer/progressbar/tooltip/body"
+msgstr "Увеличете напредъка на колекцията си, като получите съответните елементи по време или след събитието, ако е възможно. Задръжте курсора върху елемент от колекция, за да научите как да го получите."
+
+msgid "footer/progressbar/tooltip/note"
+msgstr "Колекцията може да съдържа елементи, които се дават като награди за събиране на елементи от тази колекция. Те не се добавят към брояча на елементите и не увеличават прогреса на колекцията, но разкриват подробности от историята."
+
+msgid "footer/progressbar/tooltip/title"
+msgstr "Събиране на елементи от колекцията"
+
+msgid "header/overhead"
+msgstr "КОЛЕКЦИЯ"
+
+msgid "header/seasonText/defaultConfig"
+msgstr "ИМЕ НА СЕЗОНА"
+
+msgid "header/subtitle"
+msgstr "КОЛЕКЦИЯТА Е СЪБРАНА!"
+
+msgid "header/title/defaultConfig"
+msgstr "КОЛЕКЦИЯ ШАБЛОНИ"
+
+msgid "intro/buttonClose/text"
+msgstr "Към колекциите"
+
+msgid "intro/content/description/text"
+msgstr "Колекциите са набори от уникални елементи, които могат да бъдат получени в различни събития. Елементите са ексклузивни стилове, декали и други елементи, които не могат да бъдат получени в стандартния геймплей."
+
+msgid "intro/header/text"
+msgstr "Колекции на World of Tanks"
+
+msgid "main/backText"
+msgstr "КЪМ КОЛЕКЦИИТЕ"
+
+msgid "mainLayout/header/title"
+msgstr "Колекции на World of Tanks"
+
+msgid "mainLayout/header/tooltip/body"
+msgstr "Колекциите са набори от уникални елементи, които могат да бъдат получени в различни събития. Елементите са ексклузивни стилове, декали и други елементи, които не могат да бъдат получени в стандартния геймплей."
+
+msgid "mainLayout/header/tooltip/header"
+msgstr "Колекции на World of Tanks"
+
+msgid "navigation/pageCounter"
+msgstr " / %(pageCount)s"
+
+msgid "notifications/button/goToCollection"
+msgstr "Към колекцията"
+
+msgid "notifications/button/goToCollections"
+msgstr "Към колекциите"
+
+msgid "notifications/button/goToReward"
+msgstr "Към наградата"
+
+msgid "notifications/eventDisabled/text"
+msgstr "Колекциите са временно недостъпни."
+
+msgid "notifications/eventEnabled/text"
+msgstr "Колекциите са отново налични. Извиняваме се за причиненото неудобство."
+
+msgid "notifications/eventStart/text"
+msgstr "Командири, подготвихме нещо ново за вас! Съберете елементи от колекцията \"%(feature)s\", за да получите уникални награди."
+
+msgid "notifications/eventStart/title"
+msgstr "Налична е колекция \"%(feature)s\"!"
+
+msgid "notifications/feature/battle_pass_10"
+msgstr "БОЕН ПРОПУСК"
+
+msgid "notifications/feature/battle_pass_11"
+msgstr "БОЕН ПРОПУСК"
+
+msgid "notifications/feature/battle_pass_12"
+msgstr "БОЕН ПРОПУСК"
+
+msgid "notifications/finalReceived/text"
+msgstr "Събрахте колекцията \"%(feature)s: %(season)s\""
+
+msgid "notifications/newItemsReceived/text"
+msgstr "Получени са нови елементи от колекция:\n\n%(items)s"
+
+msgid "notifications/newRewardsReceived/text"
+msgstr "Получена е награда за събиране на елементи от колекция:\n\n%(items)s"
+
+msgid "notifications/renew/text"
+msgstr "Колекцията е достъпна"
+
+msgid "notifications/renew/title"
+msgstr "%(feature)s, %(season)s"
+
+msgid "notifications/season/battle_pass_10"
+msgstr "СЕЗОН X"
+
+msgid "notifications/season/battle_pass_11"
+msgstr "СЕЗОН XI"
+
+msgid "notifications/season/battle_pass_12"
+msgstr "СЕЗОН XII"
+
+msgid "notifications/title/collectionName"
+msgstr "Колекция \"%(feature)s: %(season)s\""
+
+msgid "notifications/title/congratulation"
+msgstr "Поздравления!"
+
+msgid "notifications/updatedEntry/text"
+msgstr "Колекции на World of Tanks"
+
+msgid "notifications/updatedEntry/title"
+msgstr "Актуализация на личното досие"
+
+msgid "overlays/preview/previewButton/text"
+msgstr "Преглед"
+
+msgid "overlays/preview/style/title/text"
+msgstr "%(styleName)s за %(vehicleInfo)"
+
+msgid "tooltips/item/achievement"
+msgstr "Медал \"%(name)s\""
+
+msgid "tooltips/receivedStatus"
+msgstr "Получен"
+
+msgid "tooltips/title"
+msgstr "Елемент от колекция"
+
+msgid "tooltips/unreceivedStatus"
+msgstr "Неполучен"

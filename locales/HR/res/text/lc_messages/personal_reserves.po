@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Aktiviraj"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Kupi i aktiviraj"
+
+msgid "activation/activateBonus"
+msgstr "Aktivirati pričuve: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Aktiviraj pričuve"
+
+msgid "activation/activateButtonClan"
+msgstr "Na Utvrđenje"
+
+msgid "activation/battleXPDescription"
+msgstr "Bonus na borbeno iskustvo na 1 h"
+
+msgid "activation/battleXPTitle"
+msgstr "Borbeno iskustvo"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Kupiti i aktivirati poboljšane osobne pričuve koje daju %(boosterBonus)s na %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Kupi zlato"
+
+msgid "activation/buyGoldTitle"
+msgstr "Kupiti zlato za poboljšane osobne pričuve koje daju %(boosterBonus)s na %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Zlato potrebno za kupnju poboljšanih osobnih pričuva: {orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Krediti i borbeno iskustvo"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "Iskustvo posade i slobodno iskustvo"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Pričuve klana"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Aktiviraj pričuve u Utvrđenju"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Pregledaj u Utvrđenju"
+
+msgid "activation/comboXPDescription"
+msgstr "Bonus na slobodno i iskustvo posade na 1 h"
+
+msgid "activation/comboXPTitle"
+msgstr "Kombinirano iskustvo"
+
+msgid "activation/creditsDescription"
+msgstr "Bonus na kredite na 1 h"
+
+msgid "activation/creditsTitle"
+msgstr "Krediti"
+
+msgid "activation/footer"
+msgstr "Pričuve s rokom trajanja trebaju biti aktivirane: %(expirableAmount) za %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Bonus na iskustvo Bojišnice na 1 h"
+
+msgid "activation/frontLineXPTitle"
+msgstr "Iskustvo Bojišnice"
+
+msgid "activation/informationButton"
+msgstr "INFORMACIJE"
+
+msgid "activation/price"
+msgstr "Cijena:"
+
+msgid "activation/subFooter/depot"
+msgstr "Skladište"
+
+msgid "activation/subFooter/main"
+msgstr "Prvo se aktiviraju pričuve najbliže isteku roka trajanja. Možete vidjeti sve svoje pričuve u %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Aktiviraj {whiteSpanish_Open}do 3 osobne pričuve{whiteSpanish_Close} za zarađivanje više kredita i iskustva u bitkama. Kupi više osobnih pričuva u %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "Prodavaonica"
+
+msgid "activation/terms/booster_credits"
+msgstr "kredita"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "Iskustvo Bojišnice"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "Kombinirano iskustvo"
+
+msgid "activation/terms/booster_xp"
+msgstr "Borbeno iskustvo"
+
+msgid "activation/title"
+msgstr "OSOBNE PRIČUVE"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Aktivirane standardne osobne pričuve koje daju %(previousBoosterBonus)s na %(previousBoosterTerm)s će biti izgubljene.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Želite li aktivirati poboljšane osobne pričuve koje daju %(boosterBonus)s na %(boosterTerm)sumjesto aktiviranih standardnih osobnih pričuva?"
+
+msgid "battleView/notice"
+msgstr "Osobne pričuve se mogu aktivirati u bilo koje vrijeme u bitci. Dobit ćete bonus čak i ako pričuva istekne tijekom bitke."
+
+msgid "battleView/title"
+msgstr "Aktiviranje osobnih pričuva"
+
+msgid "depot/buyButton"
+msgstr "Na kupnju"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Druga pričuva ovog tipa je već aktivirana."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Ova osobna pričuva je istekla tijekom bitke. Bonus iz osobnih pričuva i dalje vrijedi za ovu bitku."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)min"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Aktivirane osobne pričuve ne vrijede za ovaj režim."
+
+msgid "intro/buttons/close"
+msgstr "Razumijem!"
+
+msgid "intro/buttons/details"
+msgstr "Detalji"
+
+msgid "intro/description"
+msgstr "Osobne pričuve s rokom trajanja su dostupne na ograničeno vrijeme nakon što ih primite. Ako nisu uključene u tom periodu, biti će izgubljene. Osobne pričuve koje nemaju rok trajanja se ne mogu koristiti dok su dostupne osobne pričuve s rokom trajanja istog tipa."
+
+msgid "intro/title"
+msgstr "OSOBNE PRUČUVE S ROKOM TRAJANJA"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Nema osobnih pričuva ovog tipa u skladištu. Možete ih kupiti kasnije ili aktivirati u Garaži."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Izvršite zadatke i sudjelujte u akcijama igre kako bi zaradili osobne pričuve."
+
+msgid "noReserveTooltip/text"
+msgstr "Nema osobnih pričuva ovog tipa u skladištu."

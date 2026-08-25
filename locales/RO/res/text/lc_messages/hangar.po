@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "Cumpără"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "următoarele consumabile vor fi încărcate: %(consumables)s."
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "Cumpără consumabile"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s membri de echipaj"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Ai deja echipaj pentru acest vehicul"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s membri de echipaj."
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "Recrutează membri de echipaj noi"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "aici."
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Wargaming utilizează combinația alfanumerică T-34 în mod comun pentru a indica tancuri reale, ceea ce nu are nicio legătură cu deținătorii de copyright ale mărcilor cu aceeași denumire. Află mai multe {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "Încarcă muniția"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "Încarcă consumabile"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "Loc în Garaj"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "Schimb"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "Gratuit"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "Recrutează %(count)s membri de echipaj"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "Închiriat"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "Închiriere"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "Închiriază timp de 30 de zile"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "Închiriază timp de 3 zile"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "Închiriază timp de 7 zile"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "Închiriere timp de %(days)s zile"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "Etapa Frontului"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "Sezon Front"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "Etapă de Lupte de clasament"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "Sezon de Lupte de clasament"
+
+msgid "buyVehicleWindow/restore"
+msgstr "Recuperează"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "Nelimitat"
+
+msgid "buyVehicleWindow/title"
+msgstr "Configuraţie"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "Recuperare"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "Cumpără"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "Schimb"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "Schimb"
+
+msgid "carousel/filters/allVehicle"
+msgstr "Toate vehiculele mele"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "Echipaj"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "Caracteristici"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} luptă"
+msgstr[1] "{{count}} lupte"
+msgstr[2] "{{count}} lupte"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} zi"
+msgstr[1] "{{count}} zile"
+msgstr[2] "{{count}} zile"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} oră"
+msgstr[1] "{{count}} ore"
+msgstr[2] "{{count}} ore"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} victorie"
+msgstr[1] "{{count}} victorii"
+msgstr[2] "{{count}} victorii"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "Clic pentru a merge la listele de vehicule"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "Vehiculele mele"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "Antrenarea, recalificarea și gestionarea echipajelor."
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "Gestionarea echipajelor"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "Personalizarea vehiculelor: aplicarea stilurilor 2D/3D și a altor elemente."
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "Personalizare"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "Apasă pentru a deschide"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "Informații, cercetare, comparare și reparații ale vehiculelor."
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "Gestionarea vehiculelor"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "DESPRE VEHICUL"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "BLINDAJ"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "COMPARĂ"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "AUTO REVENIRE"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "READU ECHIPAJUL"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "TRIMITE ÎN CAZARMĂ"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "RECALIFICĂ ECHIPAJUL"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "SERVICE RAPID"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "MODIFICĂRILE DE TEREN"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "SCHIMBĂ NAȚIUNEA"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "ACTIV"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "ACCELERAREA PRO {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "ANTRENAMENT RAPID"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "REPARAȚII"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "CERCETARE"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "ÎMBUNĂTĂȚIRI"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "Poți să-ți schimbi oricând alegerea."
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "Accelerarea Pro activă pentru acest vehicul"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "Poți accelera vehicule doar în modurile Luptă standard, Violență, Fort, Harta Globală și turnee."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "Mod incompatibil pentru Accelerarea Pro"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "Poți accelera doar vehicule cercetabile și de colecție din generațiile I-X."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "Vehicul incompatibil pentru Accelerarea Pro"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "Accelerarea Pro este activă pentru {{vehicle}}. Poți să îți schimbi alegerea în {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "Revino mai târziu!"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "Poți să-ți schimbi alegerea în {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "Accelerarea Pro activă pentru acest vehicul"

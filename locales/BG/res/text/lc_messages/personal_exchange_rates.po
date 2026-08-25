@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Ограничен курс"
+msgstr[1] "Ограничен курс %(index)s"
+msgstr[2] "Ограничен курс %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "Поне едно ограничение е надвишено. Част от плащането ще бъде извършено по следващия курс."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Основен обменен курс"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "Следващ приложим курс"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Брой активни ограничени курсове: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Обща сума за ограничен курс: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "След обмен:"
+
+msgid "common/cancel"
+msgstr "Отмени"
+
+msgid "common/combinedDiscount"
+msgstr "Комбинирана отстъпка"
+
+msgid "common/exchange"
+msgstr "Обмени"
+
+msgid "common/exchangeRate"
+msgstr "Обменен курс"
+
+msgid "common/limitExceeded"
+msgstr "Лимитът е надвишен. Обменът ще се извърши с комбинирана отстъпка."
+
+msgid "common/limitOverExceeded"
+msgstr "Лимитът е надвишен: Ще се използва комбинирана отстъпка."
+
+msgid "common/limitRestrictions"
+msgstr "НАУЧЕТЕ ПОВЕЧЕ"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Основен обменен курс: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Общ обменен курс: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "%(gold)s златото е обменено успешно. Получени кредити: %(res)s."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Личен обменен курс: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Личен обменен курс: %(rateFrom)s = %(rateTo)s. Лимитът е надвишен"
+
+msgid "exchangeXP/information"
+msgstr "%(res)s Опитът е обменен успешно за свободен опит. Изразходвано злато: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "Наличен опит:"
+
+msgid "experienceExchange/paid"
+msgstr "Вложени"
+
+msgid "experienceExchange/received"
+msgstr "Получено"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Сортирай по ниво на машина"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Сортирай по ниво на полева модификация"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Сортирай по имената на машините"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Сортирай по нации"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Сортирай по вид машина"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Сортирай по избрана машина"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Сортирай по спечелен опит"
+
+msgid "goldExchange/paid"
+msgstr "От"
+
+msgid "goldExchange/received"
+msgstr "До"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s злато = %(resourceRate)s кредити"
+
+msgid "notification/discountDescription/message"
+msgstr "Личен обменен курс"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "За обмен"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Наличен е нов обменен курс!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Основен обменен курс"
+
+msgid "tooltip/common/generalRate"
+msgstr "Общ обменен курс"
+
+msgid "tooltip/common/personalRate"
+msgstr "Личен обменен курс"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Изгоден обменен курс"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Временен обменен курс"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "Количеството може да се определи само след покупка на злато."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Количество злато след обмен"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s злато = %(resourceRate)s свободен опит"

@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} i klanen"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "TIL KONTOSTATUS"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "TILBAGE"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Du vil kunne udskifte et kort om {}."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Vis/skjul kort af denne type."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Ørkenkort"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Sommerkort"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Vinterkort"
+
+msgid "mapsBlacklist/header"
+msgstr "Udelukkede kort"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Udeluk et uønsket kort fra din spilrotation. Udeluk yderligere et kort med WoT premium og %(mapCount)s flere med WoT Plus. Hvis et af abonnementerne udløber, vil udelukkede kort vende tilbage i rotation, startende fra højre."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Udelukkede kort"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Disse kort er kun udelukket i standard kampe."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Du kan udskifte et udelukket kort hver %(maxCooldownTimeStr)s."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Denne egenskab er tilgængelig for køretøjer på niveau IV og højere."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "I delinger er det kun kort, som delingskommandøren har valgt, der er udelukkede."
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Kort vist: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Kort vist: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Korttyper:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Afbryd"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Luk"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "Det valgte kort vil blive udskiftet med {mapNameStr} kortet. Du kan ændre dit valg om {cooldownStr}."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Hvilket kort vil du udskifte?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Udeluk"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Vælg et kort du vil udskifte"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Afbryd"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Luk"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Du kan ændre dit valg om {cooldownStr}."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Udeluk {mapNameStr}-kortet i standard kampe?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Udeluk"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Udeluk"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Udeluk {mapNameStr} kortet?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Inkluder"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Inkluder {mapNameStr} kortet i standard kampe?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Du kan udskifte dette kort om {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Udskiftning af kort utilgængeligt"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Du kan udskifte dette kort om {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Udskiftning af kort utilgængeligt"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Ikke valgt"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Klik for at vælge et kort at udelukke fra standard kampe."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Kort ikke valgt"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "Det udelukkede {mapName} kort kan udskiftes med et andet."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Udskiftning af kort tilgængelig"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Du kan udskifte {mapName} kortet om {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Udskiftning af kort utilgængeligt"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "En yderligere plads er kun tilgængelig med en aktiv WoT premium konto."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Plads utilgængelig"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Vælg et kort fra listen nedenfor, for at udelukke det fra standard kampe."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Kort ikke valgt"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Vælg et kort fra listen nedenfor, for at udelukke det fra standard kampe."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Udskiftning af kort tilgængelig"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Du kan udskifte dette kort om {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Udskiftning af kort utilgængeligt"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "En plads til at udelukke yderligere et kort er kun tilgængelig med en aktiv WoT premium konto."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Plads utilgængelig"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Afbryd"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Du kan ændre dit valg om {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Erstat"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Udeluk"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Udeluk %(mapName)s-kortet i standard kampe?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "Det valgte kort vil blive udskiftet med {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}-kortet. Du kan ændre dit valg om %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Hvilket kort vil du udskifte?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Kortet vil blive udskiftet med {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}-kortet. Du kan ændre dit valg om %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Vil du gerne udskifte dette kort?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Forældrekontrol er blevet aktiveret på denne konto.\nDu kan lære mere om restriktionerne ved forældrekontrol {link}."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Forældrekontrol"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "på spilportalen"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Credit-reserve"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s min"

@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "categories/body/firepower"
+msgstr "Se parametara koji pokazuje efektivnost uništenja neprijatelja. Ovaj filter pokazuje/skriva opremu sa ovog seta parametara."
+
+msgid "categories/body/mobility"
+msgstr "Set parametara koji pokazuje kako brzo vozilo može da promeni položaj na bojištu. Ovaj filter pokazuje/skriva opremu sa ovog seta parametara."
+
+msgid "categories/body/stealth"
+msgstr "Set parametara koji pokazuje efektivnost skrivanja vozila i sposobnost uočavanja neprijatelja. Ovaj filter pokazuje/skriva opremu sa ovog seta parametara."
+
+msgid "categories/body/survivability"
+msgstr "Set parametara koji pokazuje otpornost vozila na štetu. Ovaj filter pokazuje/skriva opremu sa ovog seta parametara."
+
+msgid "categories/empty"
+msgstr "Kategorija drugog slota"
+
+msgid "categories/firepower"
+msgstr "Vatrena moć"
+
+msgid "categories/mobility"
+msgstr "Pokretljivost"
+
+msgid "categories/slotEffect/empty"
+msgstr "Prilika za dodelu kategorije za drugi slot opreme za ovo vozilo."
+
+msgid "categories/slotEffect/firepower"
+msgstr "Standardna oprema iz kategorije Vatrena moć će biti efektivnija ako se montira u ovaj slot."
+
+msgid "categories/slotEffect/mobility"
+msgstr "Standardna oprema iz kategorije Pokretljivost će biti efektivnija ako se montira u ovaj slot."
+
+msgid "categories/slotEffect/stealth"
+msgstr "Standardna oprema iz kategorije Izvidjanje će biti efektivnija ako se montira u ovaj slot."
+
+msgid "categories/slotEffect/survivability"
+msgstr "Standardna oprema iz kategorije Izdržljivost će biti efektivnija ako se montira u ovaj slot."
+
+msgid "categories/stealth"
+msgstr "Izviđanje"
+
+msgid "categories/survivability"
+msgstr "Izdržljivost"
+
+msgid "categories/universal"
+msgstr "Nema kategorije"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "Izaberi jednu direktivu sa liste."
+
+msgid "compare/section/description/consumables"
+msgstr "Izaberi jednu potrošnu robu sa liste."
+
+msgid "compare/section/description/optDevices"
+msgstr "Izaberi jednu opremu sa liste."
+
+msgid "compare/section/title/battleBoosters"
+msgstr "Direktive za {name}"
+
+msgid "compare/section/title/consumables"
+msgstr "Potrošna roba za {name}"
+
+msgid "compare/section/title/optDevices"
+msgstr "Oprema za {name}"
+
+msgid "dealPanel/autoRenew"
+msgstr "Auto-snabdevanje"
+
+msgid "dealPanel/button/apply"
+msgstr "Primeni"
+
+msgid "dealPanel/button/applyType"
+msgstr "Primeni na tip"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "Primeni na vozilo"
+
+msgid "dealPanel/button/cancel"
+msgstr "Otkaži"
+
+msgid "dealPanel/button/purchase"
+msgstr "Kupi"
+
+msgid "dealPanel/fromStorage"
+msgstr "Sa Depoa:"
+
+msgid "dealPanel/fromVehicle"
+msgstr "Montirano:"
+
+msgid "dealPanel/repair"
+msgstr "Potrebna je popravka"
+
+msgid "dealPanel/toBePaid"
+msgstr "Ukupno:"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "U depou"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "Montirano na vozilo"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "Nema dovoljno novca za kupovinu"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "Biće kupljeno kreditima"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "Biće kupljeno bonovima"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "Biće montirano iz depoa"
+
+msgid "deconstructionDeviceView/available"
+msgstr "Dostupno:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "Otkaži"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "Nastavi"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "Sa Depoa:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "Sa vozila:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "( %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s %(red_Open)sjoš potrebno za nadogradnju%(red_Close)s )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "Biće dobijeno:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "AKTIVNA VOZILA"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "U DEPOU: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "NA VOZILIMA: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "Izaberi opremu koju želiš da rastaviš u %(whiteSpanish_Open)skomponente%(whiteSpanish_Close)s%(icon)s. Primljene komponente se mogu koristiti da se nadogradi Eksperimentalna oprema."
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s Da dobiješ još komponenti, rastavi nekorišćenu Eksperimentalnu opremu."
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "RADNI STO"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "Nedovoljno komponenti za nadogradnju\n%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "Da nastaviš rastavi nekorištenu opremu u komponente."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "Da nastaviš, nabavi potreban broj komponenti."
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "Otkaži izmene"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "Otkaži"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "Otkaži"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "Otkaži"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "Otkaži izmene"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "Sačuvaj"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "Kupi"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "Kupi i montiraj"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "Montiraj"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "Možeš ukloniti opremu za %(price)s da je pošalješ u depo, ili možeš da je uništiš."
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "Možeš da ukloniš opremu za %(price)s ili {whiteSpanish_Open}besplatno{whiteSpanish_Close} uz WoT plus da je pošalješ u depo ili možeš da je uništiš."
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "Možeš da ukloniš opremu za %(demountKit)s, %(price)s, ili {whiteSpanish_Open}besplatno{whiteSpanish_Close} uz WoT plus da je pošalješ u depo ili možeš da je uništiš."
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "Možeš da ukloniš opremu {whiteSpanish_Open}besplatno{whiteSpanish_Close} uz WoT plus da je pošalješ u depo."
+
+msgid "dialogs/confirm/demount/items"
+msgstr "Možeš ukloniti opremu da je pošalješ na Depo."
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "NEĆE RADITI"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "direktiva"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "Prilikom kupovine ove dvostruke modifikacije, druga će biti otkazana."
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "potrošna roba"
+
+msgid "dialogs/confirm/item/module"
+msgstr "modul"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "oprema"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "Dvostruka modifikacija"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "direktive"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "potrošna roba"
+
+msgid "dialogs/confirm/items/module"
+msgstr "moduli"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "oprema"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " i "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "Sačuvaj izmene za slot direktiva?"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "Sačuvaj izmene za slot potrošne robe?"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "Sačuvaj izmene za slot opreme?"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "Kupi %(name)s {type}?"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "Kupi i montiraj %(name)s {type}?"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "Montiraj %(name)s {type}?"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "Uključi %(name)s {type} za sva %(vehicle)s?"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "Kupi {type}?"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "Kupi i montiraj {type}?"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "Montiraj {type}?"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "Uključi {type} za sva %(vehicle)s?"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "lovci tenkova"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "artiljerije"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "teški tenkovi"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "laki tenkovi"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "srednji tenkovi"
+
+msgid "dialogs/confirm/warning"
+msgstr "Pažnja! %(devices)s nije opremljen. Direktiva %(doesNotWork)s."
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "Pažnja! Nakon rastavljanja, nećeš imati Eksperimentalnu opremu!"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "Otkaži"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "Rastavi"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "Rastavi"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "Ukupno se dobija:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "Biće rastavljeno za 1 stvar:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "Rastavi\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "Rastavi\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "Zapamti: Nakon uklanjanja, nećeš moći da vratiš ili kupiš ovu opremu."
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "Otkaži"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "Rastavi"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "Rastavi sledeću opremu u komponente?"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "Rastavi sledeću opremu i nadogradi\n%(deviceName)s?"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "Biće rastavljeno sa Depoa: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "Biće rastavljeno sa vozila: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "Po rastavljanju, dobićeš: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "Ukupno se dobija:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "Cena nadogradnje:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "Pažnja! Nakon rastavljanja, nećeš imati Eksperimentalnu opremu!"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "Pažnja! Eksperimentalna oprema sa vozila biće rastavljena."
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "Razmena"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "oprema"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "Još %(credits)s potrebno za nadogradnju %(name)s"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "oprema"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "Još %(credits)s potrebno za nadogradnju opreme"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "Nije moguće nadograditi opremu. Moraš izmenuti %(gold)s za kredite."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "Imaš dovoljno kredita da nadogradiš opremu."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "Razmena nije potrebna"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "Nemaš eksperimentalne opreme za rastavljanje."
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "Da dobiješ još komponenti, rastavi Eksperimentalnu opremu."
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "Nadogradi\n%(name)s?"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "Potrebno:%(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "Cena:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "ka kupovini"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "ka kupovini"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "Razmena"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "Kurs: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "Još %(credits)s je potrebno za brzi servis"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "direktiva"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "potrošna roba"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "modul"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "oprema"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "Dvostruka modifikacija"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "Još %(credits)s je potrebno {action} %(name)s {type}"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "direktive"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "potrošna roba"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "moduli"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "oprema"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "Još %(credits)s je potrebno {action} {type}"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "Još %(credits)s je potrebno za opravku"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "Kupovina nije moguća: razmena nije uspela. %(gold)s je još potrebno za razmenu."
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "za kupovinu"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "za modifikaciju"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "Razmena nije potrebna - imaš dovoljno kredita."
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "Dovoljno kredita {action}"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "Još %(credits)s je potrebno za dopunu municije"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "Automatska popravka"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "Popravi"
+
+msgid "dialogs/needRepair/durability"
+msgstr "Otpornost:"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s%"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "Vozilo je popravljeno automatski i besplatno"
+
+msgid "dialogs/needRepair/price"
+msgstr "Cena opravke:"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "Nedovoljno novca za opravke"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "Potvrdno!"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "Opravke nisu potrebne"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "Dopuni"
+
+msgid "dialogs/refillShells/price"
+msgstr "Cena dopune:"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "Dopuni municiju?"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "Sačuvaj izmene za municiju?"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "Zapamti: Prodaješ poboljšanu opremu."
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "Zapamti: Nakon uklanjanja, nećeš moći da vratiš ili kupiš ovu opremu."
+
+msgid "dialogs/sell/button/cancel"
+msgstr "Otkaži"
+
+msgid "dialogs/sell/button/sell"
+msgstr "Prodaj"
+
+msgid "dialogs/sell/header"
+msgstr "Prodaj sledeću opremu?\n%(equipmentName)s"
+
+msgid "dialogs/sell/text"
+msgstr "Prodajna cena za 1 kom:"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "Nema dovoljno resursa za demontiranje."
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "Preporuke su nedostupne za ovo vozilo"
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "Montiranje je nemoguće."
+
+msgid "easyTankEquipView/applied"
+msgstr "Na vozilu"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "Prošireno"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "Poboljšana"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "Standarda"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "POTROŠNI MATERIJAL"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "Nema dovoljno kreveta za transfer i promenu posade. Dodaj još kreveta u barake."
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "x{{count}}"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "Iskusna posada"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "Nova posada"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "{{count}}\nNovi član posade će biti regrutovan"
+msgstr[1] "{{count}}\nNovih člana posade će biti regrutovano"
+msgstr[2] "{{count}}\nNovih članova posade će biti regrutovano"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "POSADA"
+
+msgid "easyTankEquipView/discount"
+msgstr "-{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "Prošireno"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "Standarda"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "OPREMA"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "Prošireno"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "Standarda"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "MUNICIJA"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "Već imaš primenjen stil"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "{{battlesCount}} borbi za {{price}}"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "GOTOVI STILOVI"
+
+msgid "easyTankEquipView/title"
+msgstr "BRZI SERVIS"
+
+msgid "effects/name"
+msgstr "Efekat"
+
+msgid "effects/template"
+msgstr "%(icon)s %(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "Vreme hlađenja je %(cooldown)s&nbsp;s."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "Uzmi komponente"
+
+msgid "filters/shown"
+msgstr "Prikazano: "
+
+msgid "hints/dragAndDrop/section"
+msgstr "PREVUCI I SPUSTI\nOPREMA"
+
+msgid "hints/filters/specialization"
+msgstr "DODATNI\nBONUS NA KATEGORIJU"
+
+msgid "hints/tabs/equipment"
+msgstr "NOVI TIP\nOPREME"
+
+msgid "introduction/currency/deluxe"
+msgstr "bonovi"
+
+msgid "introduction/currency/modernized"
+msgstr "komponente"
+
+msgid "introduction/message/deluxe"
+msgstr "Ovaj tip opreme je dostupan za %(currencyName)s(%(currencyIcon)s). Takođe se može dobiti kao nagrada za određena dostignuća u igri i tokom specijalnih događaja."
+
+msgid "introduction/message/modernized"
+msgstr "Specijalizovana vrsta opreme sa tri nivoa nadogradnje koja se nagrađuje za ispunjavanje misija i tokom određenih događaja u igri. Ova oprema se ne može kupiti ili prodati, ali se može rastaviti da bi se dobili posebni delovi - %(currencyName)s (%(currencyIcon)s). Primljene komponente se mogu koristiti za nadogradnju bilo koje eksperimentalne opreme."
+
+msgid "introduction/message/trophy"
+msgstr "Specijalni tip opreme koja, nakon dobijanja, ima parametre standardne opreme ali se može nadograditi za kredite. Ne možeš kupiti nagradnu opremu valutom u igri ali možeš je dobiti kao nagradu tokom specijalnih događaja."
+
+msgid "introduction/showButton"
+msgstr "Prikaži opremu"
+
+msgid "introduction/slide/1/description"
+msgstr "Nova oprema je dodata. Uz to, %(repairBox)s, %(wetAmmo)s, %(CO2Cistern)s i %(cycloneFilter)s su kombinovani u %(changedConfiguration)s opremu. Analog %(forcedChassis)s je zamenjen sa %(forcedMetal)s. Svi stari i novi bonusi su dodati."
+
+msgid "introduction/slide/1/title"
+msgstr "NOVA OPREMA"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr "- Vatrena moć"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr "- Mobilnost"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr "- Izviđanje"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr "- Izdržljivost"
+
+msgid "introduction/slide/2/description"
+msgstr "Ako je oprema montirana u slot iste kategorije, biće efektivnija. U suprotnom pruža standardni bonus."
+
+msgid "introduction/slide/2/subtitle"
+msgstr "PODUDARANJE KATEGORIJA"
+
+msgid "introduction/slide/2/title"
+msgstr "KATEGORIJE OPREME"
+
+msgid "introduction/slide/3/description/left"
+msgstr "Cena većine opreme ne prelazi 50.000 za nivoe II - IV, 300.000 kredita za nivoe V - VII i 600.000 za nivoe VIII - XI."
+
+msgid "introduction/slide/3/description/right"
+msgstr "Neka nova oprema ima tri klase. Čak i ako je klasa različita, oprema pruža isti efekat. Što je veća klasa, veća je cena opreme. Svaka klasa opreme odgovara odredjenoj klasi vozila."
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "IZMENE OPREME"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "NOVA OPREMA"
+
+msgid "introduction/slide/3/title"
+msgstr "CENA OPREME"
+
+msgid "introduction/slide/4/description"
+msgstr "Oprema je nedostupna za vozila I nivoa. Na vozila II nivoa moižeš da montiraš samo jednu opremu, dve stvari na vozila III nivoa i tri stvari na vozila IV-XI nivoa. Oprema montirana u uklonjenim slotovima je demontirana i poslata u depo."
+
+msgid "introduction/slide/4/title"
+msgstr "SLOTOVI OPREME"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "Napuni rezervoar sa CO2"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "Modifikovana konfiguracija"
+
+msgid "introduction/slide/confirm"
+msgstr "Potvrdno!"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "Ciklon filter"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "Pojačano vešanje"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "Poboljšana čvrstoća"
+
+msgid "introduction/slide/repairBox"
+msgstr "Kutija Alata"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "\"Mokro\" spremište za municiju"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "Poboljšana oprema"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "Eksperimentalna oprema"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "Obilna oprema"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "Nemaš odgovarajuću Eksperimentalnu opremu"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "Nemaš odgovarajuću obilnu opremu"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "na kašnjenje pre nego što komandir identifikuje da li je tvoje vozilo uočeno od strane neprijatelja"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "na dodatno vreme ošamućenja ako je vozilo već ošamućeno"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "na skrivanje od neprijateljskih vozila iza rastinja (u pokretu i mirovanju)"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "na brzinu granate za sve tipove granata"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "na kaznu za brzinu punjenja topa kada su moduli oštećeni"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "na gubitak snage motora kada su moduli oštećeni"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "na prikrivenost nepokretnog ili pokretnog vozila"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "na povećanje skrivanja, bez obzira da li je vozilo pokretno ili ne (efikasnost zavisi od tipa vozila)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "na štetu trupa izazvanu štetom vešanja od udara"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "na domet vidokruga (do 445m) - povećanje parametra preko 445m dozvoljava efikasnije uočavanje neprijatelja"
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "na štetu primljenu nakon udara"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "na rasipanje tokom kretanja i okretanja vozila kao i tokom okretanja topa i nakon pucanja"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "na štetu fugasne granate absorbovane oklopom"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "na trajanje kada je vozilo vidljivo"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "na održavanje brzine\nprelaskom preko bilo kog tipa terena"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "na prikrivenost stacionarnog vozila 3 s nakon zaustavljanja"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "na prikrivenost stacionarnog vozila\n1,5 s nakon zaustavljanja"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "na prikrivenost stacionarnog vozila 3 s nakon zaustavljanja (efikasnost zavisi od tipa vozila)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "na prikrivenost stacionarnog vozila 1,5 s nakon zaustavljanja (efikasnost zavisi od tipa vozila)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "na domet vidokruga stacionarnog vozila 3 s nakon zaustavljanja (do 445m) - povećanje parametra preko 445m dozvoljava efikasnije uočavanje neprijatelja"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "na domet vidokruga stacionarnog vozila 1,5 s nakon zaustavljanja (do 445m) - povećanje parametra preko 445m dozvoljava efikasnije uočavanje neprijatelja"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "na poene izdržljivosti vozila (zaokruženo)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "na brzinu okretanja kupole ili topa za vozila sa stacionarnim kabinama"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "na kašnjenje pre nego što komandir identifikuje da li je tvoje vozilo uočeno od strane neprijateljana"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "na dodatno vreme ošamućenja ako je vozilo već ošamućeno"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "na prikrivenost pokretnog i nepokretnog neprijateljskog vozila iza rastinja"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "na brzinu granate za sve tipove granata"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "na kaznu za brzinu punjenja topa kada su moduli oštećeni"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "na gubitak snage motora kada su moduli oštećeni"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "na skrivanje nepokretnog ili pokretnog vozila"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "na povećanje skrivenosti bez obzira da li je vozilo u pokretu ili ne (efikasnost zavisi od tipa vozila)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "na štetu trupa izazvanu štetom vešanja od udara"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "na videokrug (do 445 m). Povećanje parametra na preko 445 m dozvoljava efektivnije uočavanje neprijatelja."
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "na štetu primljenu nakon udara"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "na rasipanje tokom kretanja i okretanja vozila kao i tokom okretanja topa i nakon pucanja"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "Na štetu fugasne granate absorbovane oklopom"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "na trajanje kada je vozilo vidljivo"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "na održavanje brzine\nprelaskom preko bilo kog tipa terena"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "na skrivanje nepokretnog vozila 3s nakon zaustavljanja"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "na prikrivenost stacionarnog vozila\n1,5 s nakon zaustavljanja"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "na prikrivenost stacionarnog vozila 3 s nakon zaustavljanja (efikasnost zavisi od tipa vozila)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "na prikrivenost stacionarnog vozila 1,5 s nakon zaustavljanja (efikasnost zavisi od tipa vozila)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "na videokrug nepokretnog vozila 3s nakon zaustavljanja (do 445 m). Povećanje parametra na preko 445 m dozvoljava efektivnije uočavanje neprijatelja."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "na domet vidokruga stacionarnog vozila 1,5 s nakon zaustavljanja (do 445m). Povećanje parametra preko 445m dozvoljava efikasnije uočavanje neprijatelja"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "na poene zdravlja vozila (zaokruženo)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "na brzinu okretanja kupole ili topa za vozila sa stacionarnim kabinama"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "kašnjenje pre aktivacije\nDetekcije zvuka"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "na kašnjenje obaveštenja da si uočen"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "na brzinu hlađenja topa"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "na zaštitu posade od povreda."
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "na bonus efikasnosti posade"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "na dodatno vreme ošamućenja"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "na vreme ošamućenja"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "na minimalnu potencijalnu štetu\ni vrednosti penetracije"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "na maksimalnu potencijalnu štetu\ni vrednosti penetracije"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "na nanetu štetu udaranjem"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "kašnjenje pre kritične štete\nna prikaz vozila u nišanu"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "na skrivanje neprijateljskih vozila iza rastinja"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "na skrivanje pokretnih neprijateljskih vozila"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "na šansu za oštećenje neprijateljskih modula\ni članova posade"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "na vreme hlađenja potrošne robe"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "na brzinu gašenja požara"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "na skrivanje iza rastinja"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "na obnovljenu izdržljivost kompletom za popravku"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "na održavanje brzine\nna srednje mekom terenu"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "na kaznu za vidokrug kada su osmatrački\nuređaji onesposobljeni"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "na maksimalnu potencijalnu penetraciju"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "na vreme prenosa\nneprijateljskih pozicija\nnakon uništenja vozila"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "na zaštitu komandanta\nod povreda"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "na brzinu granate"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "na održavanje brzine\nna mekom terenu"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "na negativne efekte\nod šoka posade"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "na nadolazeću štetu vešanja"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "na brzinu popravke vešanja"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "na brzinu punjenja"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "na kaznu oštećenog motora"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "na brzinu okretanja trupa"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "na izdržljivost unutrašnjih modula"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "na izdržljivost police za municiju"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "na maksimalnu brzinu unazad"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "na skrivanje"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "na povećanje prikrivenosti"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "na štetu od udara"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "na brzinu popravke vešanja"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "na izdržljivost vešanja"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "na domet vidokruga"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "na trajanje kada je\nneprijateljsko vozilo vidljivo"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "na snagu motora"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "na štetu od udara"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "na šansu za požar motora"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "na maksimalnu brzinu napred"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "na šansu za kritičnu štetu\nrezervoarima"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "na brzinu nišanjenja"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "na vreme punjenja"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "na disperziju tokom kretanja i okretanja vozila"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "na veličinu kruga nišana nakon pucanja"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "na rasipanje tokom kretanja"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "na rasipanje tokom okretanja trupa"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "na rasipanje tokom okretanja topa"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "na rasipanje oštećenog topa"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "na veličinu nišana"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "na štetu od fugasnih granata"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "na prikrivenost nakon pucanja"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "na trajanje kada je vozilo vidljivo"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "na primljenu štetu\nod udaraca vešanja"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "na primljenu štetu od udaraca"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "na brzinu promene tipova granate\nu napunjenom topu"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "na brzinu popravke"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "na održavanje brzine preko svih tipova terena"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "na skrivanje nepokretnog vozila"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "na skrivanje nepokretnog vozila"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "na povećanje prikrivenosti nepokretnog vozila"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "na povećanje prikrivenosti nepokretnog vozila"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "na domet vidokruga nepokretnog vozila"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "na domet vidokruga nepokretnog vozila"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "na poene izdržljivosti vozila"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "na brzinu okretanja kupole ili topa za vozila sa stacionarnim kabinama"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "na brzinu okretanja kupole"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "na brzinu okretanja točkova"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "na penal kada je član posade\npovređen, osim komandanta"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "kašnjenje pre aktivacije\nDetekcije zvuka"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "kašnjenje pre kritične štete\nna prikaz vozila u nišanu"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "trajanje uočavanja neprijatelja\nnakon uništenja"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "na štetu od fugasnih granata"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "na penetraciju od fugasnih granata"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "na brzinu fugasnih granata"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "na kapacitet municije"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "na štetu od svih granata"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "na brzinu granate za sve tipove granata"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "kašnjenje pre aktivacije\nDetekcije zvuka"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "na standardnu štetu granate"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "na kašnjenje obaveštenja da si uočen"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "na brzinu hlađenja topa"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "na zaštitu posade od povreda"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "na bonus efikasnosti posade"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "na dodatno vreme ošamućenja"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "na vreme ošamućenja"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "na minimalnu potencijalnu štetu i vrednosti penetracije"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "na maksimalnu potencijalnu štetu\ni vrednosti penetracije"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "na nanetu štetu udaranjem"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "kašnjenje pre kritične štete\nna prikaz vozila u nišanu"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "na skrivanje neprijateljskih vozila iza rastinja"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "na skrivanje pokretnih neprijateljskih vozila"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "na šansu za oštećenje neprijateljskih modula\ni članova posade"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "na poene zdravlja motora"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "na vreme hlađenja potrošne robe"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "na brzinu gašenja požara"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "na skrivanje iza rastinja"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "na poene zdravlja rezervoara"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "na depresiju topa"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "na elevaciju topa"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "na stabilizaciju topa"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "na limite kretanja topa"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "na obnovljenu izdržljivost kompletom za popravku"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "na brzinu elevacije trupa"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "na održavanje brzine\nna srednje mekom terenu"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "na štetu od ne-fugasnih granata"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "na kaznu za vidokrug kada su osmatrački\nuređaji onesposobljeni"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "na maksimalnu potencijalnu penetraciju"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "na vreme prenosa\nneprijateljskih pozicija\nnakon uništenja vozila"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "na zaštitu komandanta\nod povreda"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "za punjenje šanžera"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "za punjenje (režim salve)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "na vreme punjenja (režim jednog pogotka)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "na štetu granate neprijateljskim modulima"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "na brzinu granate"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "na održavanje brzine\nna mekom terenu"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "na štetu specijalne granate"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "na penetraciju od specijalnih granata"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "na brzinu specijalnih granata"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "na standardnu štetu granate "
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "na penetraciju standardnih granata"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "na brzinu standarnih granata"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "na negativne efekte od šoka posade"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "na nadolazeću štetu vešanja"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "na brzinu popravke vešanja"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "na limite kretanja kupole"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "na brzinu punjenja"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "na kaznu oštećenog motora"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "na brzinu okretanja trupa"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "na izdržljivost unutrašnjih modula"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "na izdržljivost police za municiju"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "na maksimalnu brzinu unazad"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "na skrivanje"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "na povećanje prikrivenosti"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "na štetu nakon udara"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "na brzinu popravke vešanja"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "na izdržljivost vešanja"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "na vidokrug (do 445 m)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "na trajanje kada je\nneprijateljsko vozilo vidljivo"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "na snagu motora"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "na štetu od udara"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "na šansu za požar motora"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "na maksimalnu brzinu napred"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "na šansu za kritičnu štetu\nrezervoarima"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "na brzinu nišanjenja"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "na vreme punjenja"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "na rasipanje tokom kretanja i okretanja vozila"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "na veličinu kruga nišana nakon pucanja"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "na rasipanje tokom kretanja"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "na rasipanje tokom okretanja trupa"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "na rasipanje tokom okretanja topa"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "na rasipanje oštećenog topa"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "na veličinu kruga nišana"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "na štetu od fugasnih granata"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "na prikrivenost nakon pucanja"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "na trajanje kada je vozilo vidljivo"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "na primljenu štetu\nod udaraca vešanja"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "na primljenu štetu od udaraca"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "na brzinu promene tipova granate\nu napunjenom topu"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "na brzinu popravke"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "na maksimalnu brzinu napred / unazad"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "na održavanje brzine preko svih tipova terena"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "na skrivanje nepokretnog vozila"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "na skrivanje nepokretnog vozila"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "na povećanje prikrivenosti nepokretnog vozila"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "na povećanje prikrivenosti nepokretnog vozila"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "na vidokrug nepokretnog vozila (do 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "na vidokrug nepokretnog vozila (do 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "na poene zdravlja vozila"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "na brzinu okretanja kupole ili topa za vozila sa stacionarnim kabinama"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "na brzinu okretanja kupole"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "na brzinu okretanja točkova"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "na penal kada je član posade\npovređen, osim komandanta"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "na kašnjenje obaveštenja da si uočen"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "na zaštitu posade\nod povreda"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "na bonus efikasnosti posade"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "na dodatno vreme ošamućenja"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "na vreme ošamućenja"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "na nanetu štetu udaranjem"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "kašnjenje pre kritične štete\nna prikaz vozila u nišanu"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "na skrivanje neprijateljskih vozila\niza rastinja"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "na skrivanje pokretnih\nneprijateljskih vozila"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "na obnovljenu izdržljivost kompletom za popravku"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "na vreme punjenja šaržera"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "na maksimalnu potencijalnu penetraciju"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "na zaštitu radio operatera od povreda"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "na brzinu granate za sve tipove granata"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "na rasipanje topa"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "na brzinu popravke vešanja"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "na disperziju tokom okretanja topa"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "na brzinu punjenja"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "na izgubljenu snagu motora\nnakon štete"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "na brzinu okretanja vozila"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "na izdržljivost unutrašnjih modula"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "na izdržljivost police za municiju"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "na maksimalnu brzinu unazad"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "na skrivanje"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "na štetu od udara"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "na brzinu popravke vešanja"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "na izdržljivost vešanja"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "na domet vidokruga"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "na trajanje kada je\nneprijateljsko vozilo vidljivo"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "na snagu motora"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "na štetu od udara"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "na šansu za požar motora"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "na maksimalnu brzinu napred"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "na brzinu nišanjenja"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "na vreme punjenja"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "na disperziju tokom kretanja i\nokretanja vozila"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "na veličinu kruga nišana nakon\npucanja"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "na rasipanje tokom kretanja"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "na rasipanje tokom okretanja trupa"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "na rasipanje tokom\nokretanja topa "
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "na rasipanje oštećenog topa"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "na veličinu nišana"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "na štetu od fugasnih granata"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "na prikrivenost nakon pucanja"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "na trajanje kada je vozilo vidljivo"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "na primljenu štetu od udaraca"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "na brzinu promene tipova granate"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "na brzinu popravke"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "na održavanje brzine"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "na prikrivenost nepokretnog\nvozila"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "na prikrivenost nepokretnog\nvozila"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "na domet vidokruga"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "na domet vidokruga"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "na poene zdravlja vozila"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "na brzinu okretanja topa"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "na brzinu okretanja kupole"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "na penal kada je član posade\npovređen, osim komandanta"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "na kašnjenje obaveštenja da si uočen"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "na zaštitu posade\nod povreda"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "na bonus efikasnosti posade"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "na bonus efikasnosti posade"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "na dodatno vreme ošamućenja"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "na vreme ošamućenja"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "na minimalnu potencijalnu štetu\ni vrednosti penetracije"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "na nanetu štetu udaranjem"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "na skrivanje neprijateljskih vozila\niza rastinja"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "na skrivanje pokretnih\nneprijateljskih vozila"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "na šansu za oštećenje neprijateljskih modula\ni članova posade"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "na brzinu gašenja požara"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "na obnovljenu izdržljivost kompletom za popravku"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "na vreme punjenja šaržera"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "na skrivanje vozila"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "na održavanje brzine\nna srednje mekom terenu"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "na maksimalnu potencijalnu penetraciju"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "na domet radio signala"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "na zaštitu radio operatera od povreda"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "na brzinu granate za sve tipove granata"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "na održavanje brzine\nna mekom terenu"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "na brzinu popravke vešanja"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "na domet signala savezničkih komunikacija unutar dometa signala vozila"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "na brzinu punjenja"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "na izgubljenu snagu motora\nnakon štete"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "na brzinu okretanja vozila"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "na izdržljivost unutrašnjih modula"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "na izdržljivost police za municiju"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "na maksimalnu brzinu unazad"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "na skrivanje"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "na štetu nakon udara"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "na brzinu popravke vešanja"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "na izdržljivost vešanja"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "na videokrug\n(do 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "na trajanje kada je\nneprijateljsko vozilo vidljivo"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "na snagu motora"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "na štetu od udara"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "na šansu za požar motora"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "na maksimalnu brzinu napred"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "na brzinu nišanjenja"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "na vreme punjenja"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "na rasipanje tokom kretanja i\nokretanja vozila"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "na veličinu kruga nišana nakon\npucanja"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "na rasipanje tokom kretanja"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "na rasipanje tokom okretanja trupa"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "na rasipanje tokom \nokretanja topa"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "na rasipanje oštećenog topa"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "na veličinu kruga nišana"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "na štetu od fugasnih granata"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "na prikrivenost nakon pucanja"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "na trajanje kada je vozilo vidljivo"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "na primljenu štetu od udaraca"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "na brzinu promene tipova granate"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "na brzinu popravke"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "na održavanje brzine"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "na skrivanje nepokretnog vozila"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "na skrivanje nepokretnog vozila"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "na videokrug nepokretnog vozila\n(do 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "na videokrug nepokretnog vozila\n(do 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "na poene zdravlja vozila"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "na brzinu okretanja topa"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "na brzinu okretanja kupole"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "na iskustvo posade zarađeno u borbi"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "s"
+
+msgid "popularLoadouts/common"
+msgstr "Popularno"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "Često korišćeno"
+
+msgid "popularLoadouts/legendary"
+msgstr "Legendarni"
+
+msgid "popularLoadouts/noData"
+msgstr "Nema dostupnih podataka"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "Nema dostupnih podataka"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)sPopularno.%(whiteSpanish_Close)s Zasnovano na trenutnim trendovima opreme među igračima World of Tanks"
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "Sakupljanje podataka"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "Ako podaci iz trenutne sezone Juriša nisu još dostupni, koriste se podaci iz prethodne sezone"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "Asistent je dostupan za %(whiteSpanish_Open)snasumične borbe%(whiteSpanish_Close)s i %(whiteSpanish_Open)sJuriš%(whiteSpanish_Close)s"
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "Podaci iz svih tipova opreme se sakupljaju"
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "WoT plus prednosti"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "Dobij precizne podatke o opremi zasnovane na milionima igara i izvuci maksimum iz svake borbe."
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "Asistent opreme"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendarno.%(whiteSpanish_Close)s Zasnovano na opremi koja je trenutno popularna među igračima Legenda WTR nivoa"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "Tipovi opremanja"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "Predloženo opremanje je zasnovano na opremanjima koja su popularna za vozila sa sličnim stilom igranja"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "Podaci za vozilo ispod sa sličnim stilom igranja su prikazani:"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "Podaci o opremanju su nedostupni"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "Odabrano vozilo je nedostupno za ovaj režim igre"
+
+msgid "section/battleAbilities"
+msgstr "BORBENE REZERVE"
+
+msgid "section/battleBoosters"
+msgstr "DIREKTIVE"
+
+msgid "section/consumables"
+msgstr "POTROŠNI MATERIJAL"
+
+msgid "section/modules"
+msgstr "MODULI"
+
+msgid "section/optDevices"
+msgstr "OPREMA"
+
+msgid "section/shells"
+msgstr "MUNICIJA"
+
+msgid "section/toggleCamouflage"
+msgstr "KAMUFLAŽA"
+
+msgid "section/toggleShells"
+msgstr "MUNICIJA"
+
+msgid "shells/ammunitionFull"
+msgstr "Puna municija"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "Nedovoljno municije"
+
+msgid "shells/autoFillOff"
+msgstr "Auto-snabdevanje isključeno"
+
+msgid "shells/autofillOn"
+msgstr "Auto-snabdevanje uključeno"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "U depou:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "U spremištu municije:"
+
+msgid "shells/shortSpecification/price"
+msgstr "Kupi:"
+
+msgid "shells/specification/inStorage"
+msgstr "U depou"
+
+msgid "shells/specification/inVehicle"
+msgstr "U spremištu municije"
+
+msgid "shells/specification/price"
+msgstr "Kupi"
+
+msgid "shells/title"
+msgstr "Municija"
+
+msgid "shells/type/base"
+msgstr "STANDARDNE (AP)"
+
+msgid "shells/type/special"
+msgstr "SPECIJALNE (HE)"
+
+msgid "shells/type/tactical"
+msgstr "TAKTIČNE (APCR)"
+
+msgid "tabs/crew"
+msgstr "Za posadu"
+
+msgid "tabs/deluxe"
+msgstr "Poboljšana"
+
+msgid "tabs/modernized"
+msgstr "Eksperimentalna"
+
+msgid "tabs/optDevice"
+msgstr "Za opremu"
+
+msgid "tabs/simple"
+msgstr "Standarda"
+
+msgid "tabs/trophy"
+msgstr "Obilna"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "Direktiva će se obnoviti automatski nakon što vozilo izadje iz borbe. Biće uzeta sa depoa (ako već imaš direktivu) ili kupljena za valutu u igri."
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "Potrošna robe će biti automatski dopunjena, ako je potrebno, nakon što vozilo napusti bitku."
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "Popravke će biti obavljene automatski, ako je potrebno, nakon što vozilo napusti borbu."
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "Municija će biti automatski dopunjena, ako je potrebno, nakon što vozilo napusti bitku."
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "Dopuni automatski"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "Automatska popravka"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "Biće rastavljeno sa Depoa: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "Biće rastavljeno sa vozila: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr ", "
+
+msgid "tooltips/action/description/add_one"
+msgstr "Klikni da kupiš dodatne stvari za ovaj slot."
+
+msgid "tooltips/action/description/demount"
+msgstr "Klikni da ukloniš opremu iz ovog slota."
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "Klikni da ukloniš opremu iz ovog slota."
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "Klikni da ukloniš opremu iz svih konfiguracija."
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "Klikni da ukloniš opremu iz ovog slota besplatno sa tvojom aktivnom WoT plus pretplatom."
+
+msgid "tooltips/action/description/destroy"
+msgstr "Klikni da uništiš opremu u ovom slotu ili ako imaš aktivnu WoT plus pretplatu da je ukloniš besplatno."
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "Klik da rastaviš opremu u komponente."
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "Klikni da uništiš opremu u ovom slotu."
+
+msgid "tooltips/action/description/swap"
+msgstr "Klikni da prebaciš stvari izmedju slotova."
+
+msgid "tooltips/action/description/upgrade"
+msgstr "Nadogradnja opreme poboljšava karateristike."
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "Nadogradnja opreme poboljšava karakteristike."
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "Nadogradnja opreme poboljšava karakteristike."
+
+msgid "tooltips/action/title/add_one"
+msgstr "Kupi"
+
+msgid "tooltips/action/title/cancel"
+msgstr "Pošalji na depo"
+
+msgid "tooltips/action/title/demount"
+msgstr "Demontiraj"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "Demontiraj"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "Demontiraj sa svih konfiguracija"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "Ukloni besplatno"
+
+msgid "tooltips/action/title/destroy"
+msgstr "Uništi"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "Rastavi"
+
+msgid "tooltips/action/title/swap"
+msgstr "Promeni redosled"
+
+msgid "tooltips/action/title/undo"
+msgstr "Ukloni sa slota"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "Nadogradi"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "Nadogradi"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "Nadogradi"
+
+msgid "tooltips/additional"
+msgstr "Dodatne informacije."
+
+msgid "tooltips/categories/list"
+msgstr "Klikni da vidiš listu modula."
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "Ova kategorija slota može biti promenjena u meniju poljskih modifikacija na ekranu odabira opreme."
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "Promenjiva kategorija"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "Klikni da promeniš kategoriju slota."
+
+msgid "tooltips/equipmentList"
+msgstr "Klikni da vidiš listu dostupne opreme."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "Nije moguće rastaviti Eksperimentalnu opremu u komponente: Nemaš opremu ovog tipa."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "Klik da nastaviš sa rastavljanjem opreme u komponente."
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "Kada se montira, ova oprema pruža standardni bonus jer samo lovci tenkova i artiljerija imaju kategoriju vatrena moć i ova oprema se ne montira u slot kategorije vatrena moć."
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "Tvoje vozilo dobija povećane bonuse na karakteristike."
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "Da povećaš bonus na karakteristike, montiraj ovu opremu u slot sa jednom od sledećih kategorija: %(category)s."
+
+msgid "tooltips/howToIncrease/single"
+msgstr "Da povećaš bonus na karakteristike, montiraj ovu opremu u slot sa sledećom kategorijom: %(category)s."
+
+msgid "tooltips/placeEquipment"
+msgstr "Slot za opremu"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "Možeš da omogućiš ili onemogućiš opciju da biraš komplete municije i potrošnog materijala tokom odbrojavanja pred borbu u interfejsu poljskih modifikacija."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "Možeš da omogućiš ili onemogućiš opciju da biraš komplete opreme i direktiva tokom odbrojavanja pred borbu u interfejsu poljskih modifikacija."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "Možeš da omogućiš ili onemogućiš opciju da biraš komplete municije i potrošnog materijala tokom odbrojavanja pred borbu u interfejsu poljskih modifikacija."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "Možeš da omogućiš/onemogućiš opciju da biraš komplete municije i potrošnog materijala tokom odbrojavanja pred borbu u interfejsu poboljšanja."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "Možeš da omogućiš/onemogućiš opciju da biraš komplete opreme i direktiva tokom odbrojavanja pred borbu u interfejsu poljskih modifikacija."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "Možeš da omogućiš/onemogućiš opciju da biraš komplete opreme i direktiva tokom odbrojavanja pred borbu u interfejsu poljskih modifikacija."
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "Menjanje između kompleta je onemogućeno"
+
+msgid "tooltips/separator/last"
+msgstr " i "
+
+msgid "tooltips/separator/other"
+msgstr ", "
+
+msgid "tooltips/specializationDesc"
+msgstr "Standardna oprema iz %(spec)s kategorije će biti efektivnija ako se postavi u ovaj slot. Opreme iz drugih kategorija će samo pružiti standardni bonus."
+
+msgid "tooltips/specializationName"
+msgstr "Kategorija:"
+
+msgid "tooltips/specializationType"
+msgstr "Vatrena moć"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "Vredan tip opreme koji ima bolje karakteristike od ostalih tipova opreme."
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "Specijalna oprema koja ima tri nivoa nadogradnje."
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "Oprema poboljšava karakteristike vozila."
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "Tip opreme koja ima parametre standardne opreme ali se može nadograditi."
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "Poboljšana oprema"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "Eksperimentalna oprema"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "Standardna oprema"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "Obilna oprema"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "Ovaj tip opreme je dostupan za %(whiteSpanish_Open)sbonove%(whiteSpanish_Close)s. Takođe se može dobiti kao nagrada za određena dostignuća u igri i tokom specijalnih događaja."
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "Ovaj tip opreme može se dobiti kao nagrada tokom specijalnih događaja u igri."
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "Ovaj tip opreme je dostupan za kupovinu za valutu u igri. Takođe se može dobiti kao nagrada za određena dostignuća u igri i tokom specijalnih događaja. Karakteristike standardne opreme se mogu poboljšati postavljanjem u odgovarajuć slot."
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "Ovaj tip opreme može se dobiti kao nagrada tokom specijalnih događaja u igri."
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "Metod sticanja"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "Metod sticanja"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "Slotovi za opremu"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "Obilna oprema ne može se kupiti"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "Možeš nadograditi karakteristike eksperimentalne opreme koristeći %(whiteSpanish_Open)skomponente%(whiteSpanish_Close)s koje se mogu dobiti rastavljanjem ovog tipa opreme."
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "Možeš nadograditi obilnu opremu koristeći valutu u igri."
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "Nadogradnja Eksperimentalne opreme"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "Nadogradnja obilne opreme"

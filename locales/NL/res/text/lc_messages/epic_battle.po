@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "Beheer reserves"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "Klik om een beschikbare gevechtsreserve te selecteren."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "Bommen"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "Impactgebied"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "Verdoof"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "Inzetten"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "Aantal mijnen"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "Mijnenveldduur"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "Verdoof"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "Straal van schade"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "Duur"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "Granaten"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "Cooldown"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "Inzetten"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "Werkingsduur"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "Aantal herstelde levenspunten"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "Hoeveelheid direct levenspuntenherstel bij activatie"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "Verminderde ontvangen schade van mijnen"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "Extra herstelsnelheid van levenspunten binnen een herbevoorradingscirkel"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "Bemanningsprestatie"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "Duur"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "Duur na verlaten van gebied"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "Effectieve straal"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "Bemanningsprestatie van je voertuig"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "Verbeterde bescherming"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "Veroveringsbonus"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "Verversing herbevoorradingscirkel"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "Munitie herbevoorradingssnelheid"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "Aankomsttijd"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "Impactgebied"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750 m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "Verkenningsduur"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "Verminderde bemanningsprestatie"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "Rookgranaten"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "Impactgebied"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "Duur"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "Verminderd zichtbereik van vijandelijke voertuigen"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "Verborgenheidsvermindering van vijandelijke voertuigen achter begroeiing"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "Verborgenheidsvermindering van bewegende vijandelijke voertuigen"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "Werkingsduur"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "Bonus voor verborgenheid van een stilstaand voertuig"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "Passieve bonus voor zichtbereik"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "Reserveniveau"
+
+msgid "abilityInfo/properties/static"
+msgstr "Permanente eigenschappen"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "s"
+
+msgid "advance_message_txt"
+msgstr "Oprukken naar Frontlinie"
+
+msgid "advance_mission_txt"
+msgstr "Oprukken naar Frontlinie"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "SCENARIODETAILS"
+
+msgid "awards/acceptButton"
+msgstr "Begrepen!"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "BELONINGEN ONTVANGEN"
+
+msgid "awards/subTitle2"
+msgstr "BELONING ONTVANGEN"
+
+msgid "awards/title"
+msgstr "FRONTLINIE"
+
+msgid "base/contested_atk"
+msgstr "Bevochten"
+
+msgid "base/contested_def"
+msgstr "Onder aanval"
+
+msgid "battleResults/armor"
+msgstr "Gebruik van bepantsering"
+
+msgid "battleResults/assistance"
+msgstr "Assistentie"
+
+msgid "battleResults/crits"
+msgstr "Kritische schade"
+
+msgid "battleResults/damage"
+msgstr "Beschadiging"
+
+msgid "battleResults/kill"
+msgstr "Vernietigd"
+
+msgid "battleResults/spotting"
+msgstr "Verkend"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "1 persoonlijke reserve: %(effectValue)s Bemanningservaring voor %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "1 persoonlijke reserve: %(effectValue)s Vrije ervaring voor %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "1 persoonlijke reserve: %(effectValue)s Gevechtservaring voor %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Val doel %(int32Arg1)s aan"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Verdedig doel %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Aandacht op locatie!"
+
+msgid "command_shortcut/title"
+msgstr "Beveelt"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "Front geblokkeerd — spelerslimiet bereikt"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "Gevaarlijke zone"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "Front geblokkeerd — voertuigtypelimiet bereikt"
+
+msgid "dialogs/quotedName"
+msgstr "\"%(name)s\""
+
+msgid "dialogs/title/buy/item"
+msgstr "De %(name)s %(type)s kopen?"
+
+msgid "dialogs/title/buy/items"
+msgstr "%(type)s kopen?"
+
+msgid "dialogs/title/install/item"
+msgstr "De %(name)s %(type)s activeren?"
+
+msgid "dialogs/title/install/items"
+msgstr "%(type)s activeren?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "Verzamel het benodigde aantal punten en activeer de Frontliniegevechtsreserves."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "Verzamel het benodigde aantal punten en activeer de Frontliniegevechtsreserves."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "Gevechtsreservepunten"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "%(level)s voertuigen worden ontgrendeld na het veroveren/verliezen van een punt in de tweede linie (D, E of F)."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "Niveau %(lvl)s"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "Selecteer een niveau VIII voertuig voor de Frontliniemodus."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "Ongeschikt voertuig"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "Verkrijgen"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "Maximaal"
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "Gevechtsreserves"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "Niveau commandant"
+
+msgid "epictraining/info/otherLabel"
+msgstr "Niet ingedeelde spelers: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "Aanvallers ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "Verdedigers ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "Alle vijandelijke voertuigen vernietigd"
+
+msgid "game/all_hqs_destroyed"
+msgstr "Alle doelen vernietigd"
+
+msgid "game/all_tanks_defeated"
+msgstr "Alle geallieerde voertuigen vernietigd"
+
+msgid "game/defeat"
+msgstr "Nederlaag!"
+
+msgid "game/draw"
+msgstr "Gelijkspel!"
+
+msgid "game/time_over"
+msgstr "Doelen hebben overleefd"
+
+msgid "game/victory"
+msgstr "Victorie!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "Vernietig doelen!"
+
+msgid "global_msg/atk/time_short"
+msgstr "Verover een zone!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "Verdedig doelen!"
+
+msgid "global_msg/def/time_short"
+msgstr "Verdedig de zones!"
+
+msgid "global_msg/lane/center_short"
+msgstr "Versterk zone %(strArg1)s!"
+
+msgid "global_msg/lane/east_short"
+msgstr "Versterk zone %(strArg1)s!"
+
+msgid "global_msg/lane/west_short"
+msgstr "Versterk zone %(strArg1)s!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "Spaar je tanks!"
+
+msgid "help_window/communication"
+msgstr "Communicatiegebied"
+
+msgid "help_window/communication/description"
+msgstr "Je kunt alleen bevelen ontvangen van geallieerden die zich in jouw zichtbare minimap-gebied bevinden of wanneer het doelwit van het bevel in dat gebied ligt."
+
+msgid "help_window/overview_map"
+msgstr "Overzichtskaart"
+
+msgid "help_window/overview_map/description"
+msgstr "De overzichtskaart wordt gebruikt om een tactisch en strategisch overzicht te bieden over het gehele slagveld. Wanneer deze kaart geopend wordt, kan communicatie van het hele team ontvangen worden en kunnen berichten worden verstuurd."
+
+msgid "help_window/recovery"
+msgstr "Herstel"
+
+msgid "help_window/recovery/description"
+msgstr "Herstel is geïntroduceerd om een voertuig dat vastzit op het terrein te zelfvernietigen. Dit mechanisme is nodig omdat de verlengde gevechtsduur en de mogelijkheid tot herspawn om permanente toewijding van de speler vragen."
+
+msgid "help_window/reserves"
+msgstr "Voertuigreserves"
+
+msgid "help_window/reserves/description"
+msgstr "Om de paar minuten wordt een voertuig toegevoegd aan je reserve. De reserve kan maximaal twee voertuigen bevatten. Indien er geen voertuigen beschikbaar zijn, kun je niet toetreden en dien je te wachten tot een nieuw voertuig geleverd wordt."
+
+msgid "hq/under_attack_atk"
+msgstr "Onder aanval"
+
+msgid "hq/under_attack_def"
+msgstr "Onder aanval"
+
+msgid "in_game_rank/experience_text"
+msgstr "XP"
+
+msgid "lane_central_name"
+msgstr "Centrum"
+
+msgid "lane_east_name"
+msgstr "Oost"
+
+msgid "lane_west_name"
+msgstr "West"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "Level %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "Verkrijgen onbeschikbaar: je hebt geen gevechtsreservepunten."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "De gevechtsreserve heeft het maximale niveau bereikt."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "Upgrade onbeschikbaar: je hebt geen gevechtsreservepunten."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "Gevechtsreserve niet gekocht"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "Het gevechtsreserveniveau wordt verhoogd nadat de kapitein en majoor rangen in het gevecht zijn bereikt. Het maximale niveau hangt af van het gevechtsscenario."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "Aanschafprijs: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "Hoofddoel"
+
+msgid "mission/title"
+msgstr "Missie"
+
+msgid "mission/zone_closing_atk"
+msgstr "Zone opent over: "
+
+msgid "mission/zone_closing_def"
+msgstr "Vijandelijk bombardement over: "
+
+msgid "missions/primary/atk/base"
+msgstr "Verover de zone"
+
+msgid "missions/primary/atk/hq"
+msgstr "Vernietig het doel"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s van %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "Doelen vernietigd:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "Verover zones om de hoofddoelen te bereiken. Vernietig de hoofddoelen."
+
+msgid "missions/primary/def/base"
+msgstr "Verdedig de zone"
+
+msgid "missions/primary/def/hq"
+msgstr "Verdedig het doel"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s van %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "Doelen verloren:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "Verdedig de hoofddoelen totdat de tijd verstreken is of vernietig alle aanvallers."
+
+msgid "missions/unlockTankLevel"
+msgstr "Niveau IX voertuigen beschikbaar"
+
+msgid "overtime/label"
+msgstr "EXTRA TIJD"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "Er kunnen geen twee identieke reserves worden geactiveerd"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "Kan geen mijnenveld leggen. Mijnenvelden overlappen."
+
+msgid "primeTime/applyBtn"
+msgstr "Doorgaan"
+
+msgid "primeTime/cancelBtn"
+msgstr "Annuleren"
+
+msgid "primeTime/continueBtn"
+msgstr "Doorgaan"
+
+msgid "primeTime/endOfCycle"
+msgstr "De modus op de %(server)s-server is afgelopen."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "Beschikbare servers:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "Beschikbare server: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "Gevechten op %(server)s zullen nog %(time)s beschikbaar zijn"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "Volgende gevechten op %(server)s over %(time)s"
+
+msgid "primeTime/serverTooltip"
+msgstr "Server %(server)s\nGevechten zullen nog %(time)s beschikbaar zijn"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Gevechten komen beschikbaar over %(time)s"
+
+msgid "primeTime/servers"
+msgstr "Beschikbare servers: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Gevechten op de %(server)s-server zijn afgelopen"
+
+msgid "primeTime/status/disable"
+msgstr "Je kunt schakelen naar een Frontlinieserver om door te gaan met gevechtsvoorbereidingen."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "Deze modus is onbeschikbaar op de %(server)s-server"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "Er is tot %(startTime)s een staakt-het-vuren op de %(server)s-server"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "Er is een staakt-het-vuren op alle servers"
+
+msgid "primeTime/status/thisEnable"
+msgstr "Op de %(server)s-server zal Frontlinie nog %(time)s beschikbaar zijn."
+
+msgid "primeTime/steelhunter/title"
+msgstr "STAALJAGER"
+
+msgid "primeTime/title"
+msgstr "FRONTLINIE"
+
+msgid "primeTime/titleWelcome"
+msgstr "WELKOM\nBIJ FRONTLINIE"
+
+msgid "progress_timers/active"
+msgstr "Gestart"
+
+msgid "progress_timers/fully_equipped"
+msgstr "Volledig uitgerust"
+
+msgid "progress_timers/resupply"
+msgstr "Herbevoorradingscirkel"
+
+msgid "progress_timers/unavailable"
+msgstr "Onbeschikbaar"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "Frontliniemissies"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "minder dan 1 d"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "bereik niveau %(level)s"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "Nieuwe missies komen over %(time)s beschikbaar"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "Staaljagermissies"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "Frontlinie eindigt over: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "Niet beschikbaar: %(reason)s."
+
+msgid "rank/allReserveUpgraded"
+msgstr "Alle gevechtsreserveniveaus zijn toegenomen"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "Teambonus bij bemanningsprestatie toegenomen naar +%(percent)s%%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "Maximale bemanningsprestatie bereikt: +%(percent)s%%"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "Teambonus bij bemanningsprestatie: +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "Speler"
+
+msgid "rank/promotion"
+msgstr "gepromoveerd tot %(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "Soldaat"
+
+msgid "rank/rank2"
+msgstr "Sergeant"
+
+msgid "rank/rank3"
+msgstr "Luitenant"
+
+msgid "rank/rank4"
+msgstr "Kapitein"
+
+msgid "rank/rank5"
+msgstr "Majoor"
+
+msgid "rank/rank6"
+msgstr "Generaal"
+
+msgid "rank/recerveUnlocked"
+msgstr "%(reserveName)s gevechtsreserve ontgrendeld"
+
+msgid "rank/reserveUpgraded"
+msgstr "%(reserveName)s gevechtsreserve verbeterd"
+
+msgid "rank/slotUnlocked"
+msgstr "De %(slotNumber)s gevechtsreserve is ontgrendeld"
+
+msgid "rank/slot_2"
+msgstr "2de"
+
+msgid "rank/slot_3"
+msgstr "3de"
+
+msgid "recovery/Blocked"
+msgstr "Tijdelijk\ngeblokkeerd"
+
+msgid "recovery/disabled"
+msgstr "Herstel onbeschikbaar"
+
+msgid "recovery_panel/base_text"
+msgstr "Druk op J\nom te herstellen"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "Beweeg of schiet om te annuleren."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "Herstel\ngeannuleerd"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "Herstel\naangevraagd"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "Verover de volgende basis"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "Versterkingen over "
+
+msgid "reinforcement/unavailable"
+msgstr "Versterkingen onbeschikbaar"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s s tot automatisch inzetten."
+
+msgid "respawn/deploy_button"
+msgstr "Vecht!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "Verbeterde verbruiksartikelen kunnen niet tijdens een gevecht worden gekocht."
+
+msgid "respawn/shop_title"
+msgstr "Onderhoud"
+
+msgid "respawn/tanks_left"
+msgstr "voertuigen resterend"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "Kies een voertuig en beginzone"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "Het is gevaarlijk om in deze zone te beginnen."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s seconden"
+
+msgid "retreat_message_txt"
+msgstr "Trek je terug"
+
+msgid "retreat_mission_txt"
+msgstr "Trek je terug naar de volgende zone"
+
+msgid "rewardSelection/subTitle"
+msgstr "SELECTEER JE BELONING"
+
+msgid "rewardSelection/title"
+msgstr "FRONTLINIE"
+
+msgid "scorePanel/stage1"
+msgstr "Stadium 1"
+
+msgid "scorePanel/stage2"
+msgstr "Stadium 2"
+
+msgid "scorePanel/stage3"
+msgstr "Stadium 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "De prestatie van jouw computer is onvoldoende voor deze modus. Je kunt problemen ervaren met graphics en voertuigbeweging. Het crashen van de spelclient is ook waarschijnlijk."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "Lage prestatie"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "Bij een ontoereikende prestatie kun je lagere grafische instellingen uitproberen."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "Deze modus vereist een hoge computerprestatie"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "Deze modus vereist een hoge computerprestatie. Je kunt problemen ervaren met de graphics, voertuigbeweging en het laden van de kaart. In het geval van een onvoldoende prestatie, kun je in je instellingen de graphics verlagen."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "Lage prestatie"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "30v30 gevechten in %(bodyVehicleLevel)s. Maak gebruik van de mogelijkheid om te herspawnen, gevechtsreserves en herbevoorradingscirkels."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "niveau %(level)s voertuigen"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "30v30 gevechten in %(bodyVehicleLevel)s. Maak gebruik van gevechtsreserves en de mogelijkheid om tijdens het gevecht te repareren en herspawnen."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "De modus is tijdelijk onbeschikbaar vanwege technische problemen."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "Frontlinie"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "Gevechten beginnen over: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "Gevechten eindigen over: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "Gevechtsrooster"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "Vandaag"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "Morgen"
+
+msgid "skill/category/firesupport"
+msgstr "Aanvalsreserves"
+
+msgid "skill/category/reconnaissance"
+msgstr "Verkenningsreserves"
+
+msgid "skill/category/tactics"
+msgstr "Tactische reserves"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "Toeschouwermodus-camera"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "Roteer de camera met je muis."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "Gebruik W,A,S,D om de camera over de kaart te bewegen."
+
+msgid "spectator_mode/follow_text"
+msgstr "Linkermuisknop om te beginnen met volgen."
+
+msgid "spectator_mode/follow_title"
+msgstr "Volgen"
+
+msgid "spectator_mode/msg_text"
+msgstr "Voertuig arriveert over:"
+
+msgid "spectator_mode/msg_title"
+msgstr "Alle voertuigen vernietigd!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "Klik opnieuw om te stoppen met volgen."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "Stop het volgen"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s u"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "Geblokkeerd"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Verlaat de zone!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Levenspunten worden hersteld"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Levenspunten worden hersteld"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Inspirerend"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "Inspirerend"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Herbevoorradingscirkel"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "In de rook: verborgen."
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "In de rook. Zicht en bemanningsprestatie zijn verminderd."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "Effect na verlaten van gebied. Zicht en bemanningsprestatie zijn verminderd."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "Sentinel geactiveerd"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "Activeert %(activationDelay)s s nadat het voertuig is gestopt"
+
+msgid "super_platoon_panel/title"
+msgstr "Peloton"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr " – totale teambonus bij bemanningsprestatie vanwege de aanwezigheid van een generaal."
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "Alle fronten"
+
+msgid "tab_screen/show_my_lane"
+msgstr "Mijn front"
+
+msgid "team1Name"
+msgstr "Aanvallers"
+
+msgid "team2Name"
+msgstr "Verdedigers"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "Selecteer beloningen voor voltooide Frontlinieniveaus (%(number)s)."
+
+msgid "tooltips/common/disabled"
+msgstr "Modus onbeschikbaar"
+
+msgid "tooltips/common/title"
+msgstr "Frontlinie"
+
+msgid "tooltips/end"
+msgstr "Het evenement is afgelopen"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "de volgorde van ontgrendeling van gevechtsreserves hangt af van het voertuigtype. Vanaf het begin is er één gevechtsreserve beschikbaar, terwijl andere worden ontgrendeld bij het bereiken van respectievelijk de sergeant en luitenant rangen."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "Ontgrendelen: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "In het <font color='#E9E2BF'>Wending van het lot</font> scenario, verhoogt het kopen van een gevechtsreserve het niveau ervan met één, en geeft dat je de mogelijkheid om de reserve naar niveau <font color='#E9E2BF'>IV</font> te verbeteren."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "Als je in deze plek een gevechtsreserve plaatst, dan wordt de kans dat die reserve in het <font color='#E9E2BF'>Wending van het lot</font> scenario wordt aangeboden, met <font color='#E9E2BF'>10%</font> verhoogd."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "Reserves ontgrendelen en verbeteren in het gevecht"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "Gevechtsreserves worden in het gevecht ontgrendeld en verbeterd, afhankelijk van je voertuigtype en de rang die je bereikt."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "Reserveconfiguraties voor tankjagers"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "Reserveconfiguraties voor artillerie"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "Reserveconfiguraties voor zware tanks"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "Reserveconfiguraties voor lichte tanks"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "Reserveconfiguraties voor medium tanks"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "na ontgrendeling van alle gevechtsreserves door het bereiken van nieuwe rangen, zullen deze gevechtsreserves worden verbeterd. De eerst ontgrendelde gevechtsreserve kan tot level III worden verbeterd, en de tweede ontgrendelde gevechtsreserve tot level II."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "Verbeteren: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "De plek wordt ontgrendeld bij het bereiken van de \"%(rank)s\" rang."
+
+msgid "tooltips/timeToEnd"
+msgstr "Modus beschikbaar: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "Gevechten beginnen over: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "Het evenement is afgelopen"
+
+msgid "tooltips/widget/level"
+msgstr "Niveau %(level)s"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "Maximaal niveau bereikt."
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "GEVECHTSRESERVES"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Er is een staakt-het-vuren op alle servers. Gevechten komen over %(time)s beschikbaar."
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "Gevechten zijn bezig"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Selecteer een andere server"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "Details"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "De Frontliniemodus is afgelopen."
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "Frontliniescenario's"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Er is een staakt-het-vuren op deze server. Gevechten komen over %(time)s beschikbaar."
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Er is een staakt-het-vuren op %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "Gevechten beginnen over: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "Klik om meer te weten te komen over de Frontlinie-\nscenario's en de verschillen ertussen."
+
+msgid "zone/arrived_text"
+msgstr "Gearriveerd!"
+
+msgid "zone/capture_text"
+msgstr "Verover"
+
+msgid "zone/captured_text"
+msgstr "Veroverd"
+
+msgid "zone/defend_text"
+msgstr "Verdedig"
+
+msgid "zone/destroy_text"
+msgstr "Vernietig"
+
+msgid "zone/destroyed_text"
+msgstr "Vernietigd"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "Vijandelijke versterkingen"
+
+msgid "zone/headquarters_text"
+msgstr "Doelen"
+
+msgid "zone/leave_zone"
+msgstr "Verlaat de zone!"
+
+msgid "zone/lost_text"
+msgstr "Verloren"
+
+msgid "zone/reached_text"
+msgstr "Bereikt"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "Vijandelijke versterkingen:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "Versterkingen:"
+
+msgid "zone/reinforcements_text"
+msgstr "Versterkingen"
+
+msgid "zone/time_added"
+msgstr "Minuten toegevoegd: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "%(minutes)s minuten resterend"
+
+msgid "zone/zone_text"
+msgstr "Zone"

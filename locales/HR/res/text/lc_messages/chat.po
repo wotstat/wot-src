@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: Wot prevoditelj <noreply@wargaming.net>\nLanguage-Team: WoT tim <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Općenito"
+
+msgid "channels/battle/team"
+msgstr "Tim"
+
+msgid "channels/clan"
+msgstr "Klan"
+
+msgid "channels/common"
+msgstr "Generalni kanal"
+
+msgid "channels/epic_training"
+msgstr "Obuka-Bojišnica"
+
+msgid "channels/nubs"
+msgstr "Novaci"
+
+msgid "channels/prebattle"
+msgstr "Prije bitke"
+
+msgid "channels/special_battles"
+msgstr "Posebna bitka"
+
+msgid "channels/squad"
+msgstr "Vod"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Vod je stvoren. Molim, pričekajte spremnost igrača."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Vod"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Vod je stvoren. Svi igrači su premni."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Vod"
+
+msgid "channels/system"
+msgstr "Sustav"
+
+msgid "channels/tournament"
+msgstr "Turnir"
+
+msgid "channels/trading"
+msgstr "Trgovina"
+
+msgid "channels/training"
+msgstr "Obuka"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Chat administrator je i moderator kanala"
+
+msgid "errors/addmoderatorowner"
+msgstr "Vlasnik kanala je i moderator kanala"
+
+msgid "errors/banchannelowner"
+msgstr "Vlasnik kanala ne može biti baniran"
+
+msgid "errors/banchatadmin"
+msgstr "Chat administrator ne može biti baniran"
+
+msgid "errors/banned"
+msgstr "Banirani ste od strane korisnika %(banOwnerNick)s do %(banEndTime)s. Razlog: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Banirani ste od strane korisnika %(banOwnerNick)s. Razlog: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Banirani ste do %(banEndTime)s. Razlog: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Banirani ste. Razlog: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Naredba %(command)s je blokirana za %(cooldownPeriod)s sek."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Moderatorska prava ne mogu se oduzeti chat administratoru"
+
+msgid "errors/delmoderatorowner"
+msgstr "Moderatorska prava ne mogu se oduzeti vlasniku kanala"
+
+msgid "errors/timeincorrect"
+msgstr "Parametar 'vrijeme' mora biti pozitivna vrijednost u minutama [1-1440] ili 'stalan'"
+
+msgid "errors/toomanyargs"
+msgstr "Previše parametra"
+
+msgid "errors/toosmallargs"
+msgstr "Nedovoljno parametra"
+
+msgid "errors/userbanhimself"
+msgstr "Ne možeš banirati sam sebe"
+
+msgid "messages/userbanned"
+msgstr "Korisnik %(banedUser)s je baniran od strane korisnika %(banOwnerNick)s do %(banEndTime)s. Razlog: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "Korisnik %(banedUser)s je baniran od strane korisnika %(banOwnerNick)s. Razlog: %(banReason)s"

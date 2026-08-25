@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Główny pancerz"
+
+msgid "armorValues/title/no_damage"
+msgstr "Brak uszkodzeń"
+
+msgid "armorValues/title/other"
+msgstr "Inne"
+
+msgid "armorValues/title/penetration"
+msgstr "Szansa na przebicie"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Rykoszet"
+
+msgid "armorValues/title/spaced"
+msgstr "Pancerz przeciwkumulacyjny"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Konfiguracja atakującego"
+
+msgid "attackerTooltip/body"
+msgstr "Kliknij, aby zmienić atakujący pojazd"
+
+msgid "attackerTooltip/header"
+msgstr "Atakujący pojazd"
+
+msgid "menu/header"
+msgstr "Typ nakładki"
+
+msgid "menu/no_armor"
+msgstr "Bez nakładki"
+
+msgid "menu/nominal"
+msgstr "Pancerz nominalny"
+
+msgid "menu/penetration"
+msgstr "Szansa na przebicie"
+
+msgid "modules/current"
+msgstr "Bieżąca konfiguracja"
+
+msgid "modules/custom"
+msgstr "Niestandardowa konfiguracja"
+
+msgid "modules/standard"
+msgstr "Standardowa konfiguracja"
+
+msgid "modules/title"
+msgstr "Moduły pojazdu"
+
+msgid "modules/top"
+msgstr "Najlepsza konfiguracja"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Podwozie"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Działo"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Jarzmo działa"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Kadłub"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Ekran"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Urządzenia obserwacyjne"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Wieża"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Koła"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Brak uszkodzeń"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Penetracja"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Rykoszet"
+
+msgid "tooltip/minor/angle/description"
+msgstr "Kąt między trajektorią pocisku a linią prostopadłą do płyty pancerza.\n\nTrajektoria pocisku jest obliczana tak, jakby pocisk poruszał się po linii prostej prowadzącej przez środek ekranu."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Kąt trafienia"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Szansa na przebicia pancerza przeciwnika i zadanie uszkodzeń pojazdowi."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Szansa na przebicie"
+
+msgid "tooltip/minor/effective/description"
+msgstr "W przypadku pojedynczej warstwy pancerza skuteczność pancerza jest wartością nominalną zmodyfikowaną przez kąt uderzenia i normalizację pocisku.\n\nJeśli w miejscu uderzenia znajduje się wiele warstw pancerza, wynik jest sumą wartości skutecznych dla każdej warstwy."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Pancerz skuteczny"
+
+msgid "tooltip/minor/header"
+msgstr "Legenda"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Trafienie w pancerz przeciwkumulacyjny nie powoduje uszkodzenia pojazdu, chyba że pocisk trafi w niego, a następnie przebije główny pancerz."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Brak uszkodzeń"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Faktyczna grubość płyt(y) pancerza głównego lub przeciwkumulacyjnego."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Pancerz nominalny"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Pociski, które trafią w pancerz przeciwnika pod niewielkim kątem, zrykoszetują od niego. Mogą jednak trafić w inny lub nawet ten sam pojazd."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Rykoszet"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Wpływa na obliczenia pancerza skutecznego i szansy na przebicie.\n\nWe wszystkich obliczeniach jest używana odległość 100 m (pociski PP i APCR tracą moc penetracji wraz z odległością).\n\nAtuty załogi i ulepszenia atakującego pojazdu nie wpływają na obliczenia."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Konfiguracja atakującego"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Szansa na przebicie pancerza przeciwnika i zadanie uszkodzeń pojazdowi.\n\nTrafienie w pancerz przeciwkumulacyjny nie uszkadza pojazdu, chyba że pocisk następnie trafi i przebije główny pancerz."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Szansa na przebicie"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Pojazd zostaje uszkodzony tylko wtedy, gdy jego główny pancerz zostanie trafiony i przebity. Pociski OB mogą zadać pojazdowi zmniejszone uszkodzenia nawet bez przebicia, ale muszą one nadal trafić w główny pancerz."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Główny pancerz"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Trafienie w pancerz przeciwkumulacyjny nie uszkadza pojazdu, chyba że pocisk następnie trafi i przebije główny pancerz.\n\nTrafienie i przebicie zewnętrznych modułów bezpośrednio niszczy te moduły: trafienie gąsienicy unieruchamia pojazd, trafienie w działo wyłącza je z użycia, a trafienie w urządzenie obserwacyjne zmniejsza zasięg widzenia pojazdu."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Brak uszkodzeń"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "Kąt rykoszetu wynosi 70 stopni dla pocisków przeciwpancernych i APCR, a 85 stopni dla pocisków kumulacyjnych.\n\nPociski odłamkowo-burzące nie rykoszetują, natomiast pociski PP i APCR po rykoszecie tracą 25% swojej mocy penetracji.\n\nRykoszet nie nastąpi, jeśli kaliber pocisku jest co najmniej trzykrotnie większy niż nominalna grubość pancerza w punkcie trafienia (dotyczy to tylko pocisków przeciwpancernych i APCR)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Rykoszet"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Trafienie w pancerz przeciwkumulacyjny nie uszkadza pojazdu, chyba że pocisk następnie trafi i przebije główny pancerz.\n\nTrafienie i przebicie zewnętrznych modułów bezpośrednio niszczy te moduły: trafienie gąsienicy unieruchamia pojazd, trafienie w działo wyłącza je z użycia, a trafienie w urządzenie obserwacyjne zmniejsza zasięg widzenia pojazdu.\n\nKąt uderzenia nie ma zastosowania do modułów zewnętrznych (takich jak gąsienice i działo) – w tym przypadku pancerz skuteczny jest równy nominalnemu."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Pancerz przeciwkumulacyjny"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Obejrzyj film o mechanice penetracji pancerza"

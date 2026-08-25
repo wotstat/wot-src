@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Retour aux coffres"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Coffre en émeraude"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "COFFRE EN ÉMERAUDE"
+
+msgid "common/getButton/lowerCase"
+msgstr "Obtenir des coffres"
+
+msgid "common/getButton/upperCase"
+msgstr "OBTENIR DES COFFRES"
+
+msgid "common/loader"
+msgstr "Ouverture du coffre…"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Ouvrez des coffres pour voir les statistiques."
+
+msgid "common/statistics/header"
+msgstr "Coffres ouverts : %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Toutes les informations portant sur les coffres ouverts seront supprimées."
+
+msgid "entryPoint/boxes"
+msgstr "AUX COFFRES"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Il s'agit de coffres spéciaux renfermant des véhicules premium, des accessoires 3D, des crédits et d'autres objets du jeu précieux.\nVous pouvez les obtenir dans le Magasin en jeu."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Ces coffres ne peuvent pas être ouverts ni achetés actuellement pour des raisons techniques. Nous nous excusons pour cette gêne temporaire."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Les coffres sont temporairement indisponibles"
+
+msgid "eventName/lowerCase"
+msgstr "Glorieux en vert"
+
+msgid "eventName/upperCase"
+msgstr "GLORIEUX EN VERT"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Récompense garantie dans le prochain coffre !"
+
+msgid "guaranteedTitle/text"
+msgstr "Maximum de coffres avant une Récompense garantie : %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Si vous n'ouvrez pas les coffres avant la fin de l'évènement, ils s'ouvriront automatiquement."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Si vous possédez déjà tous les véhicules de la liste du contenu possible du coffre, alors tous les véhicules suivants reçus dans les coffres feront l'objet d'une compensation en pièces d'or à hauteur de leur valeur totale."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Chaque %(guaranteed0)se coffre contient assurément un véhicule de rangs VIII à IX. Si vous en ouvrez un qui ne contient pas un tel véhicule, alors un véhicule de rangs VIII à IX que vous ne possédez pas encore sera obtenu en ouvrant le %(guaranteed0)s&zwnbsp;e coffre. Lorsque cela se produit, le compteur est réinitialisé."
+
+msgid "infoPage/header/description"
+msgstr "Ouvrez le coffre pour tenter de recevoir de précieux objets du jeu ! Retrouvez plus de détails ci-dessous."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Dans le %(name) (%(boxesCount) coffres ouverts)"
+
+msgid "noBoxesView/description/"
+msgstr "Vous ne possédez aucun coffre. \nVous pouvez en obtenir dans le Magasin en jeu."
+
+msgid "preview/backLabel"
+msgstr "AUX COFFRES"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Coffres disponibles : %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Aucun coffre disponible"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Si vous possédez déjà tous les véhicules de la liste du contenu possible du coffre, alors tous les véhicules suivants reçus dans les coffres feront l'objet d'une compensation en pièces d'or."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) coffre"
+msgstr[1] "%(remainingCount) coffres"
+msgstr[2] "%(remainingCount) coffres"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "La Récompense garantie est un véhicule de la liste du contenu possible du coffre.\nSi vous en ouvrez %(remainingCount) sans obtenir un tel véhicule, il sera acquis en ouvrant le %(count)e coffre. Quand cela se produit, le compteur est remis à zéro."

@@ -1,0 +1,1532 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "allVehicles"
+msgstr "Alla"
+
+msgid "battleRating/tooltip/better/body"
+msgstr "Den här striden var mer tillfredsställande, balanserad eller roligare än vanligt."
+
+msgid "battleRating/tooltip/better/header"
+msgstr "Bättre än vanligt"
+
+msgid "battleRating/tooltip/usual/body"
+msgstr "En vanlig strid – inget ovanligt inträffade."
+
+msgid "battleRating/tooltip/usual/header"
+msgstr "Vanlig"
+
+msgid "battleRating/tooltip/worse/body"
+msgstr "Den här striden var mer frustrerande, obalanserad eller orättvis än vanligt."
+
+msgid "battleRating/tooltip/worse/header"
+msgstr "Sämre än vanligt"
+
+msgid "battleResult/battleRating/better/header"
+msgstr "BÄTTRE ÄN VANLIGT"
+
+msgid "battleResult/battleRating/none/header"
+msgstr "bedöm din strid:"
+
+msgid "battleResult/battleRating/usual/header"
+msgstr "VANLIG"
+
+msgid "battleResult/battleRating/worse/header"
+msgstr "SÄMRE ÄN VANLIGT"
+
+msgid "battleResult/comp7Light/team/prestigePoints/body"
+msgstr "Sortera efter Prestigepoäng."
+
+msgid "battleResult/comp7Light/team/prestigePoints/header"
+msgstr "Prestigepoäng"
+
+msgid "battleResult/navigation/battleResults"
+msgstr "Översikt"
+
+msgid "battleResult/navigation/financialReport"
+msgstr "Finansiell rapport"
+
+msgid "battleResult/navigation/missionsProgress"
+msgstr "Uppdragsframsteg"
+
+msgid "battleResult/navigation/teamEfficiency"
+msgstr "Lagpoäng"
+
+msgid "battleResult/team/prestigePoints/body"
+msgstr "Sortera efter Prestigepoäng. Prestigepoäng påverkar antalet Gradpoäng du tjänar eller förlorar i strid."
+
+msgid "battleResult/team/prestigePoints/header"
+msgstr "Prestigepoäng"
+
+msgid "common/arena/fullName"
+msgstr "{0} – {1}"
+
+msgid "common/arena/nameAndMode"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/battleEfficiency/allies"
+msgstr "Allierade:"
+
+msgid "common/battleEfficiency/allyBase"
+msgstr "Basförsvar"
+
+msgid "common/battleEfficiency/baseCapture"
+msgstr "Baserövring:"
+
+msgid "common/battleEfficiency/bases"
+msgstr "Baser"
+
+msgid "common/battleEfficiency/enemyBase"
+msgstr "Baserövring"
+
+msgid "common/battleEfficiency/neutralBase"
+msgstr "Neutral bas"
+
+msgid "common/battleEfficiency/noEfficiency"
+msgstr "Du utförde inget under den här striden."
+
+msgid "common/battleEfficiency/none"
+msgstr "Inga vagnar utslagna eller upptäckta."
+
+msgid "common/battleEfficiency/technique"
+msgstr "Vagnar"
+
+msgid "common/battleEfficiency/title"
+msgstr "Stridsprestation"
+
+msgid "common/battleEfficiency/uppercased_title"
+msgstr "STRIDSPRESTATION"
+
+msgid "common/battleEfficiencyWithSkills/title"
+msgstr "Stridsprestationer (inklusive använda färdigheter)"
+
+msgid "common/battleEfficiencyWithoutOreders/title"
+msgstr "Stridsprestation (exklusive Stridsreserver)"
+
+msgid "common/battleType/sortie"
+msgstr "Skärmytsling mot klan"
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "common/crewMember/description"
+msgstr "%(role)s, %(name)s"
+
+msgid "common/crewMember/newSkill"
+msgstr "Ny förmåga"
+
+msgid "common/details/buyPremiumBtn"
+msgstr "Köp Premiumkonto"
+
+msgid "common/details/creditsTitle"
+msgstr "Krediter"
+
+msgid "common/details/crystal"
+msgstr "Obligationer"
+
+msgid "common/details/getPremBtn"
+msgstr "Avancerat"
+
+msgid "common/details/noPremTitle"
+msgstr "Standardkonto"
+
+msgid "common/details/premTitle"
+msgstr "WoT-Premium"
+
+msgid "common/details/premiumAdvertising/bonus"
+msgstr "{{@ split}}Med WoT-Premiumkonto kan du välja att få {{multiplier}}× erfarenhetsbonus på en utvald seger.{{/}}"
+
+msgid "common/details/premiumAdvertising/credits"
+msgstr "{{@ split}}Med WoT-Premiumkonto får du upp till {{bonusCredits}} varje {{@ style}}{{durationInDays}} d{{/}}.{{/}}"
+
+msgid "common/details/premiumPlus/bonus"
+msgstr "Använd x%(multiplier)d erfarenhetsbonus för den valda segern med WoT-Premiumkonto."
+
+msgid "common/details/premiumPlus/credits"
+msgstr "Få upp till %(bonusCredits)s varje %(durationInDays)d d med WoT-Premiumkonto."
+
+msgid "common/details/premiumPlus/premium"
+msgstr "Extra erfarenhet, krediter, Premiumuppdrag och plutonsbonusar med WoT-Premiumkonto."
+
+msgid "common/details/premiumPlus/quests"
+msgstr "Lås upp specialuppdrag med WoT-Premiumkonto."
+
+msgid "common/details/premiumPlus/squad"
+msgstr "Tjäna extra krediter när du spelar i pluton med WoT-Premiumkonto."
+
+msgid "common/details/xpTitle"
+msgstr "Erfarenhet"
+
+msgid "common/details/xpTitleSquad"
+msgstr "Erfarenhet %(img)s"
+
+msgid "common/fitting/purchase"
+msgstr "Köp av modul"
+
+msgid "common/fitting/research"
+msgstr "Forskning på modul"
+
+msgid "common/mainFinishReasonTitle"
+msgstr "Huvudstridsfas:"
+
+msgid "common/missions/noProgress/button"
+msgstr "Till uppdrag"
+
+msgid "common/missions/noProgress/description"
+msgstr "Visa framsteg för aktuellt uppdrag"
+
+msgid "common/missions/noProgress/header"
+msgstr "Inga framsteg i uppdrag eller vagnsforskning."
+
+msgid "common/newSkillPrediction"
+msgstr "Strider kvar (uppskattat): %(battles)s"
+
+msgid "common/noIncome/alert/text"
+msgstr "När du deltagit i 10 strider kommer du inte längre tjäna krediter, Erfarenhet eller utmärkelser i detta stridsläget och dina resultat kommer inte längre räknas med i statistiken."
+
+msgid "common/noIncome/alert/title"
+msgstr "Obs!"
+
+msgid "common/noProgress"
+msgstr "Inga framsteg i uppdraget, forskning på vagn eller besättningsträning."
+
+msgid "common/overtimeFinishReasonTitle"
+msgstr "Övertid:"
+
+msgid "common/player/nameWithClan"
+msgstr "{{name}} [{{clan}}]"
+
+msgid "common/plusBonus/bonusLeftAdditionalText"
+msgstr "Lås upp fler med"
+
+msgid "common/plusBonus/earnedMessage"
+msgstr "Idag har du tjänat:"
+
+msgid "common/plusBonus/earningsInformation"
+msgstr "Du har tjänar %(count)s erf. idag"
+
+msgid "common/plusBonus/premiumPlusAdd"
+msgstr "Lås upp med WoT Plus eller WoT Premium"
+
+msgid "common/plusBonus/wotPlus"
+msgstr "WoT Plus"
+
+msgid "common/plusBonus/wotPremium"
+msgstr "WoT-Premium"
+
+msgid "common/plusBonus/youRock"
+msgstr "Du rockar!"
+
+msgid "common/premiumBonus"
+msgstr "Vill du tjäna mer?"
+
+msgid "common/premiumBonus/appliedBonus"
+msgstr "Bonus använd"
+
+msgid "common/premiumBonus/applyBonusBtn"
+msgstr "Använd"
+
+msgid "common/premiumBonus/bonusLeft"
+msgstr "Kvar idag: %(count)s"
+
+msgid "common/premiumBonus/bonusMultiplier"
+msgstr "{{value}}×"
+
+msgid "common/premiumBonus/description"
+msgstr "Manuell erfarenhetsbonus"
+
+msgid "common/premiumBonus/earnMore"
+msgstr "Vill du tjäna mer?"
+
+msgid "common/premiumBonus/expiredBattleResult"
+msgstr "Kan bara användas på den senaste segern för varje vagn."
+
+msgid "common/premiumBonus/isXPToTmenDisabled"
+msgstr "Bonusen kan inte användas: ökad besättningsträning ej aktiverad."
+
+msgid "common/premiumBonus/isXPToTmenDisabledWithInfo"
+msgstr "{{@ split}}Bonusen kan inte användas: ökad besättningsträning {{@ style}}ej aktiverad.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/isXPToTmenEnabled"
+msgstr "Bonusen kan inte användas: ökad besättningsträning aktiverad."
+
+msgid "common/premiumBonus/isXPToTmenEnabledWithInfo"
+msgstr "{{@ split}}Bonusen kan inte användas: ökad besättningsträning {{@ style}}aktiverad.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/rule"
+msgstr "Erfarenhetsbonusen kan bara användas på segrar. Bättre lycka nästa gång!"
+
+msgid "common/premiumBonus/tankStateChanged"
+msgstr "Manuell bonus kan inte användas: vagnen hittades inte."
+
+msgid "common/premiumBonus/tankStateChangedWithInfo"
+msgstr "{{@ split}}Manuell bonus kan inte användas: vagnen {{@ style}}hittades inte.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/tankmenStateChanged"
+msgstr "Manuell bonus kan inte användas: besättningen hittades inte."
+
+msgid "common/premiumBonus/tankmenStateChangedWithInfo"
+msgstr "{{@ split}}Manuell bonus kan inte användas: besättningen {{@ style}}hittades inte.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/unavailable"
+msgstr "Erfarenhetsbonusen kan inte användas för den här stridstypen."
+
+msgid "common/progressTitle"
+msgstr "Vagnsforskning- och uppdragsframsteg"
+
+msgid "common/quests/noprogress"
+msgstr "Inga händelser i uppdrag."
+
+msgid "common/researchPrediction"
+msgstr "Strider kvar (uppskattat): %(battles)s"
+
+msgid "common/resultsShareBtn"
+msgstr "Begär länk"
+
+msgid "common/startTime"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/tooltip/armor/description"
+msgstr "Räknas:\n• Rikoschetterande fiendeskott\n• Icke-penetrerande träffas\n\nTräffar av spräng- (HE) och sprängpansargranater (HESH) räknas ej."
+
+msgid "common/tooltip/armor/header"
+msgstr "Blockerad skada"
+
+msgid "common/tooltip/armor/part1"
+msgstr "Rikoschetter"
+
+msgid "common/tooltip/armor/part2"
+msgstr "Icke-penetrerande träffar"
+
+msgid "common/tooltip/armor/part3"
+msgstr "Skada blockerad av pansar. %(vals)s"
+
+msgid "common/tooltip/assist/description"
+msgstr "Följande typer av skada åsamkad fiendevagnar av allierade räknas:\n• Skada åsamkad fienden under din observation\n• Skada åsamkad då du förstört ett band och immobiliserat fienden"
+
+msgid "common/tooltip/assist/header"
+msgstr "Skada med din assistans"
+
+msgid "common/tooltip/assist/part1"
+msgstr "Skada orsakad under din observation %(vals)s"
+
+msgid "common/tooltip/assist/part2"
+msgstr "Skada åsamkad då du förstört ett band och immobiliserat fienden %(vals)s"
+
+msgid "common/tooltip/assist/total"
+msgstr "Total skada åsamkad av allierade på fiendevagn %(vals)s"
+
+msgid "common/tooltip/capture/description"
+msgstr "Räknad:\n• Erövringspoäng för fiendebas\n• Erövringspoäng för neutral bas"
+
+msgid "common/tooltip/capture/header"
+msgstr "Baserövring"
+
+msgid "common/tooltip/capture/totalPoints"
+msgstr "Total mängd baserövringspoäng"
+
+msgid "common/tooltip/counter"
+msgstr "Totalt antal förtjänsttecken mottagna i striden: %(count)s"
+
+msgid "common/tooltip/counter/forEnemy"
+msgstr "Totalt antal förtjänsttecken mottagna för denna fiendevagn: %(count)s"
+
+msgid "common/tooltip/counter/noItems"
+msgstr "Förtjänsttecknet mottogs inte i striden."
+
+msgid "common/tooltip/crits/critDamage"
+msgstr "Skadade:"
+
+msgid "common/tooltip/crits/critDestruction"
+msgstr "Utslagna:"
+
+msgid "common/tooltip/crits/critWound"
+msgstr "Skadade:"
+
+msgid "common/tooltip/crits/description"
+msgstr "Räknas:\n• Skadade externa och interna moduler på fiendevagnen\n• Förstörda externa och interna moduler på fiendevagnen\n• Skadade besättningsmedlemmar i fiendevagnen."
+
+msgid "common/tooltip/crits/header"
+msgstr "Kritisk skada"
+
+msgid "common/tooltip/crits/total"
+msgstr "Totalt:"
+
+msgid "common/tooltip/damage/description"
+msgstr "Räknas:\n• Skada åsamkad av granatträffar\n• Skada åsamkad av rammning\n• Skada åsamkad av brand\n• Skada åsamkad av kollision"
+
+msgid "common/tooltip/damage/header"
+msgstr "Skada"
+
+msgid "common/tooltip/damage/part1"
+msgstr "Total skada %(vals)s"
+
+msgid "common/tooltip/damage/part2"
+msgstr "Totalt antal penetrerande träffar"
+
+msgid "common/tooltip/defence/description"
+msgstr "Räknas:\n• Basförsvarspoäng för egen bas\n• Basförsvarspoäng för neutral bas"
+
+msgid "common/tooltip/defence/header"
+msgstr "Basförsvar"
+
+msgid "common/tooltip/defence/totalPoints"
+msgstr "Totalt antal basförsvarspoäng"
+
+msgid "common/tooltip/kill/header"
+msgstr "Fiende utslagen"
+
+msgid "common/tooltip/kill0/description"
+msgstr "Fiendevagn utslagen av ett skott"
+
+msgid "common/tooltip/kill1/description"
+msgstr "Fiendevagn förstörd av brand"
+
+msgid "common/tooltip/kill2/description"
+msgstr "Fiendevagn förstörd av kollision"
+
+msgid "common/tooltip/kill3/description"
+msgstr "Fiendevagn kraschade"
+
+msgid "common/tooltip/kill4/description"
+msgstr "Fiendevagn förstörd av dödszon"
+
+msgid "common/tooltip/kill5/description"
+msgstr "Fiendevagn drunknade"
+
+msgid "common/tooltip/kill6/description"
+msgstr "Förstörd av eldstorm"
+
+msgid "common/tooltip/kill7/description"
+msgstr "Fiendevagn välte"
+
+msgid "common/tooltip/killCommon/description"
+msgstr "Räknas:\n• Förstörelse genom granatträff\n• Förstörelse genom brand\n• Förstörelse genom rammning\n• Förstörelse genom dränkning\n• Förstörelse genom att knuffa fienden över en kant\n• Förstörelse genom vältning."
+
+msgid "common/tooltip/params/val"
+msgstr "(TP)"
+
+msgid "common/tooltip/params/val/seconds"
+msgstr "(s)"
+
+msgid "common/tooltip/spotted/description"
+msgstr "Första upptäckandet av fienden räknas."
+
+msgid "common/tooltip/spotted/header"
+msgstr "Spaning"
+
+msgid "common/tooltip/stun/description"
+msgstr "Skada som räknas:\n• Skada allierade åsamkar fiendevagnar du chockat."
+
+msgid "common/tooltip/stun/header"
+msgstr "Chock"
+
+msgid "common/tooltip/stun/part1"
+msgstr "Total skada %(vals)s"
+
+msgid "common/tooltip/stun/part2"
+msgstr "Antal chocker"
+
+msgid "common/tooltip/stun/part3"
+msgstr "Total tid åsamkad chock: %(vals)s"
+
+msgid "common/tooltip/teamKill-1/description"
+msgstr "Allierad vagn utslagen"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "Team-kill"
+
+msgid "common/tooltip/teamKill0/description"
+msgstr "Allierad vagn utslagen av ett skott"
+
+msgid "common/tooltip/teamKill1/description"
+msgstr "Allierad vagn förstörd av brand"
+
+msgid "common/tooltip/teamKill2/description"
+msgstr "Allierad vagn förstörd av kollision"
+
+msgid "common/tooltip/teamKill3/description"
+msgstr "Allierad vagn kraschade"
+
+msgid "common/tooltip/teamKill4/description"
+msgstr "Allierad vagn förstörd av dödszon"
+
+msgid "common/tooltip/teamKill5/description"
+msgstr "Allierad vagn drunknade"
+
+msgid "common/tooltip/xpTitleSquad"
+msgstr "Du har fått extra erfarenhet för att du var medlem i en pluton under denna strid."
+
+msgid "common/totalTooltip/armor/part1"
+msgstr "Rikoschetter"
+
+msgid "common/totalTooltip/armor/part2"
+msgstr "Icke-penetrerande träffar"
+
+msgid "common/totalTooltip/armor/part3"
+msgstr "Skada blockerad av pansar"
+
+msgid "common/totalTooltip/assist/part1"
+msgstr "Skada under observation"
+
+msgid "common/totalTooltip/assist/part2"
+msgstr "Skada åsamkad då du förstört ett band och immobiliserat fienden"
+
+msgid "common/totalTooltip/assist/total"
+msgstr "Total skada åsamkad fiendevagn av allierade"
+
+msgid "common/totalTooltip/damage/part1"
+msgstr "Total skada"
+
+msgid "common/totalTooltip/damage/part2"
+msgstr "Totalt antal penetrerande träffar"
+
+msgid "common/totalTooltip/stun/part1"
+msgstr "Total skada"
+
+msgid "common/totalTooltip/stun/part2"
+msgstr "Antal chocker"
+
+msgid "common/totalTooltip/stun/part3"
+msgstr "Total åsamkad chocktid"
+
+msgid "common/vehicle/details"
+msgstr "%(vehicle)s, %(type)s"
+
+msgid "common/vehicle/purchase"
+msgstr "Köp av vagn"
+
+msgid "common/vehicle/research"
+msgstr "Forskning på vagn"
+
+msgid "common/vehicleState/alive"
+msgstr "Överlevde"
+
+msgid "common/vehicleState/dead0"
+msgstr "Utslagen av ett skott"
+
+msgid "common/vehicleState/dead0_with_killername"
+msgstr "Förstörd av ett skott ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead0_with_killername_and_clan"
+msgstr "Förstörd av ett skott ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead1"
+msgstr "Förstörd av brand"
+
+msgid "common/vehicleState/dead12"
+msgstr "Själförstörd"
+
+msgid "common/vehicleState/dead13"
+msgstr "Förstörda av spelarfärdigheter"
+
+msgid "common/vehicleState/dead1_with_killername"
+msgstr "Förstörd av brand ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead1_with_killername_and_clan"
+msgstr "Förstörd av brand ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead2"
+msgstr "Förstörd av kollision"
+
+msgid "common/vehicleState/dead27"
+msgstr "Förstörd av Artillerianfall"
+
+msgid "common/vehicleState/dead29"
+msgstr "Kraschade"
+
+msgid "common/vehicleState/dead2_with_killername"
+msgstr "Förstörd av rammning ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead2_with_killername_and_clan"
+msgstr "Förstörd av rammning ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead3"
+msgstr "Kraschade"
+
+msgid "common/vehicleState/dead30"
+msgstr "Utslagen av ett skott"
+
+msgid "common/vehicleState/dead30_with_killername"
+msgstr "Förstörd av ett skott ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead30_with_killername_and_clan"
+msgstr "Förstörd av ett skott ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead35"
+msgstr "Kraschade"
+
+msgid "common/vehicleState/dead3_with_killername"
+msgstr "Kraschade ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead3_with_killername_and_clan"
+msgstr "Kraschade ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead4"
+msgstr "Förstörd av dödszon"
+
+msgid "common/vehicleState/dead5"
+msgstr "Drunknade"
+
+msgid "common/vehicleState/dead5_with_killername"
+msgstr "Vagnen drunknade ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead5_with_killername_and_clan"
+msgstr "Vagnen drunknade ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead6"
+msgstr "Förstörd av eldstorm"
+
+msgid "common/vehicleState/dead7"
+msgstr "Förstörd genom vältning"
+
+msgid "common/vehicleState/dead7_with_killername"
+msgstr "Förstörd genom vältning ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead7_with_killername_and_clan"
+msgstr "Förstörd genom vältning ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/prematureLeave"
+msgstr "Lämna striden innan den är över"
+
+msgid "common/vehicleState/victory"
+msgstr "Seger!"
+
+msgid "common/wotPlusBonus/bonusLeft"
+msgstr "Kvar idag: %(count)s"
+
+msgid "common/xpMultiplierSign"
+msgstr "x"
+
+msgid "comms/likes/pbs/text/01"
+msgstr "Uppskattningar i den här striden"
+
+msgid "comms/likes/pbs/tooltip/body"
+msgstr "{{var}} lagkamrater uppskattade dig i den här striden."
+
+msgid "comms/likes/pbs/tooltip/bodySingle"
+msgstr "{{var}} lagkamrat uppskattade dig i den här striden."
+
+msgid "comms/likes/pbs/tooltip/header"
+msgstr "Mottagna uppskattningar"
+
+msgid "conditions/type/and"
+msgstr "OCH"
+
+msgid "conditions/type/or"
+msgstr "ELLER"
+
+msgid "customizationProgress/award/newLevel"
+msgstr "Du har uppnått dekal nivå %(level)s \"%(name)s\"."
+
+msgid "customizationProgress/award/received"
+msgstr "Dekalen \"%(name)s\" mottagen %(count)s."
+
+msgid "customizationProgress/descr"
+msgstr "Dekalen \"%(name)s\" nivå %(level)s"
+
+msgid "cyberSport/btnToTeamProfile"
+msgstr "Lagprofil"
+
+msgid "cyberSport/points"
+msgstr "Poäng:"
+
+msgid "cyberSport/status/lose"
+msgstr "Förlust"
+
+msgid "cyberSport/status/tie"
+msgstr "Oavgjort"
+
+msgid "cyberSport/status/win"
+msgstr "Seger!"
+
+msgid "details/calculations/additionalBonus"
+msgstr "Manuell erfarenhetsbonus"
+
+msgid "details/calculations/aogasFactor"
+msgstr "Reduktionskoefficient (AOGAS)"
+
+msgid "details/calculations/autoBoosters"
+msgstr "Automatisk ersättning av anvisningar"
+
+msgid "details/calculations/autoEquip"
+msgstr "Automatisk påfyllning förnödenheter"
+
+msgid "details/calculations/autoLoad"
+msgstr "Automatisk påfyllning ammunition"
+
+msgid "details/calculations/autoRepair"
+msgstr "Automatisk reparation"
+
+msgid "details/calculations/autoResupply"
+msgstr "Fyll på automatiskt"
+
+msgid "details/calculations/base"
+msgstr "Intjänat i striden"
+
+msgid "details/calculations/battlePayments"
+msgstr "Stridsutbetalning"
+
+msgid "details/calculations/boosters"
+msgstr "Bonus för personliga reserver"
+
+msgid "details/calculations/crystal/events"
+msgstr "För slutförande av uppdrag"
+
+msgid "details/calculations/crystal/total"
+msgstr "För vagnens specialförmåga"
+
+msgid "details/calculations/event"
+msgstr "Belöningar för uppdrag och evenemang"
+
+msgid "details/calculations/fairPlayViolation/afk"
+msgstr "Böter för inaktivitet i strid"
+
+msgid "details/calculations/fairPlayViolation/comp7_deserter"
+msgstr "Böter för desertering"
+
+msgid "details/calculations/fairPlayViolation/comp7_light_deserter"
+msgstr "Böter för desertering"
+
+msgid "details/calculations/fairPlayViolation/deserter"
+msgstr "Böter för desertering"
+
+msgid "details/calculations/fairPlayViolation/epic_deserter"
+msgstr "Böter för desertering"
+
+msgid "details/calculations/fairPlayViolation/event_afk"
+msgstr "Böter för inaktivitet i strid"
+
+msgid "details/calculations/fairPlayViolation/event_deserter"
+msgstr "Böter för desertering"
+
+msgid "details/calculations/fairPlayViolation/suicide"
+msgstr "Böter för självförstörelse"
+
+msgid "details/calculations/firstWin"
+msgstr "Belöning för första vinsten varje dag"
+
+msgid "details/calculations/fortOrder"
+msgstr "Bonus för använda reserver"
+
+msgid "details/calculations/friendlyFireCompensation"
+msgstr "Kompensation för skada orsakad av allierad"
+
+msgid "details/calculations/friendlyFirePenalty"
+msgstr "Böter för skada åsamkad allierad"
+
+msgid "details/calculations/friendlyFireRankedXpPenalty"
+msgstr "Böter för chock eller skada åsamkad allierade"
+
+msgid "details/calculations/heavyTrucks"
+msgstr "Högkapacitetstransport"
+
+msgid "details/calculations/igrBonus"
+msgstr "Belöning för att spela på %(igrIcon)s"
+
+msgid "details/calculations/igrBonus/simpleLabel"
+msgstr "IGR-bonus"
+
+msgid "details/calculations/intermediateTotal"
+msgstr "Totalt för striden:"
+
+msgid "details/calculations/manageableXpBonus"
+msgstr "Manuell erfarenhetsbonus"
+
+msgid "details/calculations/maximum"
+msgstr "max"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "För militärmanövrer"
+
+msgid "details/calculations/multiplierInfo/body"
+msgstr "Ökad erfarenhet för första segern varje dag för följande vagnar:"
+
+msgid "details/calculations/multiplierInfo/header"
+msgstr "Belöning för första vinsten varje dag"
+
+msgid "details/calculations/multiplierInfo/vehicleSeparator"
+msgstr "• "
+
+msgid "details/calculations/noPenalty"
+msgstr "För tappert motstånd"
+
+msgid "details/calculations/petCredits/fullLabel"
+msgstr "Husdjursbonus (%(bonusFactor)d%)"
+
+msgid "details/calculations/petCredits/simpleLabel"
+msgstr "Husdjursbonus"
+
+msgid "details/calculations/piggyBankInfo"
+msgstr "Tillagt i reservkassor"
+
+msgid "details/calculations/playerRankXP"
+msgstr "Gradbonus"
+
+msgid "details/calculations/premiumVehicleXP"
+msgstr "Bonus för premiumvagn"
+
+msgid "details/calculations/referralBonus"
+msgstr "Rekryteringsbonus (%(bonusFactor)d%%)"
+
+msgid "details/calculations/referralBonus/fullLabel"
+msgstr "Rekryteringsbonus (%(bonusFactor)d%)"
+
+msgid "details/calculations/referralBonus/simpleLabel"
+msgstr "Rekryteringsbonus"
+
+msgid "details/calculations/squad/restrictions/title"
+msgstr "För plutonsspel "
+
+msgid "details/calculations/squadBonus"
+msgstr "Bonus för plutonsspel"
+
+msgid "details/calculations/squadXP"
+msgstr "För plutonsspel"
+
+msgid "details/calculations/squadXPPenalty"
+msgstr "Avdrag för olämplig plutonssammansättning"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "För taktisk träning"
+
+msgid "details/calculations/title/base"
+msgstr "Intjänat i striden"
+
+msgid "details/calculations/title/expenses"
+msgstr "Utgifter"
+
+msgid "details/calculations/title/total"
+msgstr "Totalt"
+
+msgid "details/calculations/total"
+msgstr "Totalt:"
+
+msgid "details/calculations/wotPlus"
+msgstr "Stridsbonus för WoT Plus"
+
+msgid "details/calculations/wotPlusBonus"
+msgstr "Stridsbonus för WoT Plus"
+
+msgid "details/calculations/wotPlusProBoost"
+msgstr "WoT Plus Pro-boost"
+
+msgid "details/calculations/xpRecord"
+msgstr "Mottaget (%(color_tag_open)s maximum %(color_tag_close)s)"
+
+msgid "details/calculations/xpRecordSimple"
+msgstr "Mottaget (%(maximum)s)"
+
+msgid "details/credits"
+msgstr "Krediter"
+
+msgid "details/crystal"
+msgstr "Obligationer"
+
+msgid "details/noPrem"
+msgstr "Standardkonto"
+
+msgid "details/prem"
+msgstr "Wargaming-Premium"
+
+msgid "details/premPlus"
+msgstr "WoT-Premium"
+
+msgid "details/resource"
+msgstr "Industriresurser"
+
+msgid "details/stats"
+msgstr "Statistik"
+
+msgid "details/time"
+msgstr "Tid"
+
+msgid "details/time/lbl_arenaCreateTimeOnlyStr"
+msgstr "Starttid"
+
+msgid "details/time/lbl_basesCaptured"
+msgstr "Erövrade zoner"
+
+msgid "details/time/lbl_duration"
+msgstr "Stridens längd"
+
+msgid "details/time/lbl_objectivesDestroyed"
+msgstr "Förstörda mål"
+
+msgid "details/time/lbl_objectivesReached"
+msgstr "Nådda mål"
+
+msgid "details/time/lbl_playerKilled"
+msgstr "Utslagningstid"
+
+msgid "details/time/val_no"
+msgstr "Nej"
+
+msgid "details/time/val_yes"
+msgstr "Ja"
+
+msgid "details/time/value"
+msgstr "%(min)s min %(sec)s s"
+
+msgid "details/time_epic"
+msgstr "Strid"
+
+msgid "details/xp"
+msgstr "Erfarenhet"
+
+msgid "details/xp_abbr"
+msgstr "erf."
+
+msgid "exterminationVictory/allies"
+msgstr "Ditt lag förstörde alla fiendevagnar"
+
+msgid "exterminationVictory/enemies"
+msgstr "Fienden förstörde alla vagnar i ditt lag"
+
+msgid "fallout/classic/lose/cap"
+msgstr "Fienden tjänade fler vinstpoäng än ditt lag"
+
+msgid "fallout/classic/lose/extermination"
+msgstr "Fienden förstörde alla vagnar i ditt lag"
+
+msgid "fallout/classic/lose/points"
+msgstr "Fienden tjänade fler vinstpoäng än ditt lag"
+
+msgid "fallout/classic/tie"
+msgstr "Båda lagen tjänade lika många vinstpoäng"
+
+msgid "fallout/classic/win/cap"
+msgstr "Ditt lag tjänade fler vinstpoäng än fienden"
+
+msgid "fallout/classic/win/extermination"
+msgstr "Ditt lag förstörde alla fiendevagnar"
+
+msgid "fallout/classic/win/points"
+msgstr "Ditt lag tjänade fler vinstpoäng än fienden"
+
+msgid "fallout/multiteam/ended"
+msgstr "Målet ej uppnått"
+
+msgid "fallout/multiteam/noPlayerSelected"
+msgstr "För att se spelarinformation,\nvälj en spelare i listan."
+
+msgid "fallout/multiteam/win/cap"
+msgstr "Ditt lag tjänade fler vinstpoäng än fienden"
+
+msgid "fallout/multiteam/win/extermination"
+msgstr "Alla fiendelag förstörda"
+
+msgid "fallout/multiteam/win/points"
+msgstr "Ditt lag tjänade fler vinstpoäng än fienden"
+
+msgid "finish/clanBattle_reason_attack/1lose"
+msgstr "Byggnad %(buildingName)s inte erövrad"
+
+msgid "finish/clanBattle_reason_attack/1tie"
+msgstr "Byggnad %(buildingName)s erövrad"
+
+msgid "finish/clanBattle_reason_attack/1win"
+msgstr "Byggnad erövrad: %(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1lose"
+msgstr "Byggnad %(buildingName)s erövrad av fienden"
+
+msgid "finish/clanBattle_reason_def/1tie"
+msgstr "Byggnad %(buildingName)s inte erövrad"
+
+msgid "finish/clanBattle_reason_def/1win"
+msgstr "Byggnad försvarad: %(buildingName)s"
+
+msgid "finish/clarification/finishAllPlayersLeft"
+msgstr "Resultatet beräknas utifrån återstående information om lagen"
+
+msgid "finish/overtime/lose"
+msgstr "Fienden ej förstörd"
+
+msgid "finish/overtime/win"
+msgstr "Fienden förstörd"
+
+msgid "finish/playerTank/separator"
+msgstr "–"
+
+msgid "finish/reason/0"
+msgstr "Orsak okänd"
+
+msgid "finish/reason/10lose"
+msgstr "Mål har överlevt"
+
+msgid "finish/reason/10win"
+msgstr "Mål har förstörts"
+
+msgid "finish/reason/1lose"
+msgstr "Alla allierade vagnar utslagna"
+
+msgid "finish/reason/1tie"
+msgstr "Alla vagnar utslagna"
+
+msgid "finish/reason/1win"
+msgstr "Alla fiendevagnar utslagna"
+
+msgid "finish/reason/2"
+msgstr "Baserövring"
+
+msgid "finish/reason/3"
+msgstr "Tiden för striden har gått ut"
+
+msgid "finish/reason/4"
+msgstr "Striden avslutat på grund av systemfel"
+
+msgid "finish/reason/5"
+msgstr "Teknisk förlust"
+
+msgid "finish/reason/8"
+msgstr "Allierad vagn förstörd"
+
+msgid "finish/reason/9"
+msgstr "Vagnen förstörd"
+
+msgid "garage/uniqueDamage"
+msgstr "Endast unika kritiska träffar räknas."
+
+msgid "getPremiumPopover/actionBtn/label"
+msgstr "Välj period"
+
+msgid "getPremiumPopover/award"
+msgstr "50% mer krediter och erfarenhet"
+
+msgid "getPremiumPopover/descriptionText"
+msgstr "Köp %(prem)s och tjäna %(award)s i alla strider du utkämpar."
+
+msgid "getPremiumPopover/headerText"
+msgstr "I denna strid kan du tjäna:"
+
+msgid "getPremiumPopover/prem"
+msgstr "Premiumkonto"
+
+msgid "missionsProgress/aboutVehicle/button"
+msgstr "Till forskning"
+
+msgid "missionsProgress/aboutVehicle/description"
+msgstr "Tillgänglig för forskning"
+
+msgid "missionsProgress/aboutVehicle/prediction"
+msgstr "Strider kvar (uppskattningsvis): {{prediction}}"
+
+msgid "missionsProgress/aboutVehicle/title"
+msgstr "OM VAGNEN"
+
+msgid "missionsProgress/battleMatters/doneInfo"
+msgstr "Uppdrag #{{name}} slutfört."
+
+msgid "missionsProgress/battleMatters/title"
+msgstr "STRIDSVAGNSSKOLAN"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/module"
+msgstr "NY MODUL UPPLÅST!"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/vehicle"
+msgstr "NY VAGN UPPLÅST!"
+
+msgid "missionsProgress/notificationsTabs/battleMatters"
+msgstr "SKOLUPPDRAG SLUTFÖRT!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/chapterComplete"
+msgstr "KAPITEL SLUTFÖRT!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/stageComplete"
+msgstr "DELMOMENT SLUTFÖRT!"
+
+msgid "missionsProgress/notificationsTabs/challenge"
+msgstr "SMÄLTUGNSUPPDRAG SLUTFÖRT!"
+
+msgid "missionsProgress/notificationsTabs/common"
+msgstr "UPPDRAG SLUTFÖRT!"
+
+msgid "missionsProgress/notificationsTabs/daily"
+msgstr "DAGLIGT UPPDRAG SLUTFÖRT!"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/maxLevel"
+msgstr "HÖGSTA ELITNIVÅ"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/newLevel"
+msgstr "NY ELITNIVÅ"
+
+msgid "missionsProgress/notificationsTabs/epic"
+msgstr "EPISKT UPPDRAG SLUTFÖRT!"
+
+msgid "missionsProgress/notificationsTabs/personalMissions/operation_mission_complete"
+msgstr "OPERATIONSUPPDRAG SLUTFÖRT!"
+
+msgid "missionsProgress/notificationsTabs/premium"
+msgstr "PREMIUMUPPDRAG SLUTFÖRT!"
+
+msgid "missionsProgress/notificationsTabs/weekly"
+msgstr "VECKOUPPDRAG SLUTFÖRT!"
+
+msgid "noData"
+msgstr "Stridsresultat otillgängliga."
+
+msgid "personalQuest/bonus/descr"
+msgstr "dina framsteg mot huvudmålet i denna strid multiplicerades med en faktor av %(value)s."
+
+msgid "personalQuest/bonus/multiplier"
+msgstr "inkomstfaktor x%(value)s:"
+
+msgid "personalQuest/failed/attention"
+msgstr "Obs!"
+
+msgid "personalQuest/failed/descr"
+msgstr "Dina framsteg i uppdraget återställdes. Slutförandet av uppdraget startas om."
+
+msgid "players/enemy/unknown"
+msgstr "Fiende"
+
+msgid "players/teammate/unknown"
+msgstr "Spelare"
+
+msgid "prestige/common/description"
+msgstr "Elitpoäng intjänade:"
+
+msgid "prestige/max/description"
+msgstr "Högsta uppnådda elitnivå."
+
+msgid "prestige/maxLevelReached/description"
+msgstr "Högsta elitnivå uppnådd"
+
+msgid "prestige/newLevelAchieved/description"
+msgstr "Ny elitnivå uppnådd"
+
+msgid "prestige/title"
+msgstr "Elitsystem"
+
+msgid "progression/completed"
+msgstr "Slutfört"
+
+msgid "progression/completedPointsFrom/withLabel"
+msgstr "{{@class $labelClass}}Slutförda:{{/}} {{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/completedPointsFrom/withoutLabel"
+msgstr "{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/linkBtn/info"
+msgstr "Klicka för att se detaljerad information."
+
+msgid "progression/missionsCompleteCounter"
+msgstr "{{@class $labelClass}}Slutförda:{{/}} {{completed}}"
+
+msgid "progression/progressUnavailable"
+msgstr "Ej tillgänglig för närvarande. Försök igen senare."
+
+msgid "progression/totalEarned"
+msgstr "Totalt intjänat: {{value}}"
+
+msgid "progressiveReward/descr"
+msgstr "Utkämpa strider och få belöningar. Ju mer du kämpar desto närmare kommer belöningarna."
+
+msgid "selectVehicle"
+msgstr "Välj vagn"
+
+msgid "status/lose"
+msgstr "FÖRLUST"
+
+msgid "status/tie"
+msgstr "OAVGJORT"
+
+msgid "status/win"
+msgstr "SEGER"
+
+msgid "tankSelector/next"
+msgstr "Nästa vagn med"
+
+msgid "team/damageAndConsumablesHeader/body"
+msgstr "Sortera efter åsamkad skada,\ninklusive skada från Stridsreserver."
+
+msgid "team/damageAndConsumablesHeader/header"
+msgstr "Åsamkad skada"
+
+msgid "team/damageHeader/body"
+msgstr "Sortera efter skada åsamkad fiendevagnar."
+
+msgid "team/damageHeader/header"
+msgstr "Åsamkad skada"
+
+msgid "team/damageHeaderNoSort/header"
+msgstr "Åsamkad skada"
+
+msgid "team/deaths/body"
+msgstr "Sortera efter antal fiendevagnar spelaren förstörde under striden."
+
+msgid "team/deaths/header"
+msgstr "Förstörda vagnar"
+
+msgid "team/deathsNoSort/header"
+msgstr "Förstörda vagnar"
+
+msgid "team/epicRankHeader/body"
+msgstr "Sortera efter uppnådd rang i striden."
+
+msgid "team/epicRankHeader/header"
+msgstr "Grad"
+
+msgid "team/epicRespawnHeader/body"
+msgstr "Sortera efter antalet nya vagnar i striden."
+
+msgid "team/epicRespawnHeader/header"
+msgstr "Antal vagnar"
+
+msgid "team/falloutFragHeader/body"
+msgstr "Sortera efter förstörda fiendevagnar,\ninklusive skada från Stridsreserver."
+
+msgid "team/falloutFragHeader/header"
+msgstr "Förstörda fiendevagnar"
+
+msgid "team/falloutResourcePoints/body"
+msgstr "Sortera efter intjänade resurser."
+
+msgid "team/falloutResourcePoints/header"
+msgstr "Resurser"
+
+msgid "team/flags/body"
+msgstr "Sortera efter antal levererade flaggor."
+
+msgid "team/flags/header"
+msgstr "Levererade flaggor"
+
+msgid "team/flagsNoSort/header"
+msgstr "Levererade flaggor"
+
+msgid "team/fragHeader/body"
+msgstr "Sortera efter antal utslagna fiendevagnar."
+
+msgid "team/fragHeader/header"
+msgstr "Förstörda fiendevagnar"
+
+msgid "team/fragHeaderNoSort/header"
+msgstr "Förstörda fiendevagnar"
+
+msgid "team/healthHeader/body"
+msgstr "Sortera efter återstående träffpoäng."
+
+msgid "team/healthHeader/header"
+msgstr "Träffpoäng"
+
+msgid "team/medalHeader/body"
+msgstr "Sortera efter antal mottagna utmärkelser."
+
+msgid "team/medalHeader/header"
+msgstr "Utmärkelser"
+
+msgid "team/playerHeader/body"
+msgstr "Sortera efter spelarnamn."
+
+msgid "team/playerHeader/header"
+msgstr "Spelarnamn"
+
+msgid "team/playerHeaderNoSort/header"
+msgstr "Namn"
+
+msgid "team/playerNumber/body"
+msgstr "Sortera efter spelarnummer i laget."
+
+msgid "team/playerNumber/header"
+msgstr "Nummer"
+
+msgid "team/rankHeader/body"
+msgstr "Sortera efter rankning."
+
+msgid "team/rankHeader/header"
+msgstr "Grad"
+
+msgid "team/resourceHeader/body"
+msgstr "Sortera efter intjänade industriresurser."
+
+msgid "team/resourceHeader/header"
+msgstr "Industriresurser"
+
+msgid "team/squadHeader/body"
+msgstr "Sortera efter pluton."
+
+msgid "team/squadHeader/header"
+msgstr "Pluton"
+
+msgid "team/squadHeaderNoSort/header"
+msgstr "Pluton"
+
+msgid "team/stats/allies"
+msgstr "Allierade"
+
+msgid "team/stats/close"
+msgstr "Stäng"
+
+msgid "team/stats/enemies"
+msgstr "Fiender"
+
+msgid "team/stats/enemyTeam"
+msgstr "Fiendelag"
+
+msgid "team/stats/infotip_xpForAssist/body"
+msgstr "Räknas som assistans:\n• Skada, åsamkad av allierade under din observation, förstörande av band (immobilisering) på- eller chockande av fiendevagnar.\n• Baserövring\n• Första upptäckande av fiendevagn."
+
+msgid "team/stats/infotip_xpForAssist/header"
+msgstr "För assistans"
+
+msgid "team/stats/infotip_xpForAttack/body"
+msgstr "Räknas som eget bidrag:\n• Skada åsamkad av dig\n• Vagnar förstörda av dig\n• Skada åsamkad moduler\n• Bonus för skada åsamkad av laget.\n• Böter för chock eller skada åsamkad allierade."
+
+msgid "team/stats/infotip_xpForAttack/header"
+msgstr "För åsamkad skada och förstörda vagnar"
+
+msgid "team/stats/infotip_xpOther/body"
+msgstr "Ytterligare bonusar för effektiv strid som inte angetts i föregående sektioner."
+
+msgid "team/stats/infotip_xpOther/header"
+msgstr "För uppfyllande av vagnens stridsroll"
+
+msgid "team/stats/labels_artilleryFortEquipDamageDealt"
+msgstr "\tav Artilleriattack"
+
+msgid "team/stats/labels_atkObjectives"
+msgstr "Erövrade zoner / förstörda mål"
+
+msgid "team/stats/labels_capturePointsVal"
+msgstr "Baserövring/försvarspoäng"
+
+msgid "team/stats/labels_capturedPointsOfInterest"
+msgstr "Erövrade nyckelpunkter"
+
+msgid "team/stats/labels_damageAssisted"
+msgstr "Skada med spelarens assistans"
+
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "Skada åsamkad med din assistans"
+
+msgid "team/stats/labels_damageAssistedStun"
+msgstr "Skada åsamkad fiendevagnar chockade av spelaren"
+
+msgid "team/stats/labels_damageAssistedStunSelf"
+msgstr "Skada åsamkad fiendevagnar chockade av dig"
+
+msgid "team/stats/labels_damageBlockedByArmor"
+msgstr "Skada blockerad av pansar"
+
+msgid "team/stats/labels_damageDealt"
+msgstr "Total skada:"
+
+msgid "team/stats/labels_damageDealtByOrder"
+msgstr "\tInklusive skada från Stridsreserver"
+
+msgid "team/stats/labels_damageDealtBySkills"
+msgstr "\tinklusive använda färdigheter"
+
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\tskada åsamkad fiendelaget"
+
+msgid "team/stats/labels_damagedKilled"
+msgstr "Skadade/förstörda fiendevagnar"
+
+msgid "team/stats/labels_deaths"
+msgstr "Antalet vagnar förstörda i strid"
+
+msgid "team/stats/labels_defObjectives"
+msgstr "Försvarade zoner / målområden"
+
+msgid "team/stats/labels_destroyRecoveryRatio"
+msgstr "Antal egna vagnar förstörda / återställda"
+
+msgid "team/stats/labels_destructiblesDamageDealt"
+msgstr "\tpå mål"
+
+msgid "team/stats/labels_directHits"
+msgstr "\tdirektträffar"
+
+msgid "team/stats/labels_directHitsReceived"
+msgstr "Mottagna träffar"
+
+msgid "team/stats/labels_equipmentDamageAssisted"
+msgstr "\tmed hjälp av effekter från stridsreserver"
+
+msgid "team/stats/labels_equipmentDamageDealt"
+msgstr "\tmed hjälp av stridsreserver"
+
+msgid "team/stats/labels_explosionHits"
+msgstr "\tskada orsakad av spränggranat (HE)"
+
+msgid "team/stats/labels_explosionHitsReceived"
+msgstr "Explosionsskada orsakad av tryckvåg"
+
+msgid "team/stats/labels_flags"
+msgstr "Levererade flaggor"
+
+msgid "team/stats/labels_healed"
+msgstr "Återställda träffpoäng (egna/allierades)"
+
+msgid "team/stats/labels_hits"
+msgstr "\tdirektträffar/penetrerande träffar"
+
+msgid "team/stats/labels_killed"
+msgstr "Förstörda fiendevagnar"
+
+msgid "team/stats/labels_killsByOrder"
+msgstr "\tInklusive skada från Stridsreserver"
+
+msgid "team/stats/labels_mileage"
+msgstr "Tillryggalagd sträcka"
+
+msgid "team/stats/labels_noDamageDirectHitsReceived"
+msgstr "\ticke-penetrerande träffar"
+
+msgid "team/stats/labels_piercingHits"
+msgstr "\tpenetrationer"
+
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\tpenetrationer"
+
+msgid "team/stats/labels_roleSkillUsed"
+msgstr "Använda rollfärdigheter"
+
+msgid "team/stats/labels_shots"
+msgstr "Avfyrade skott"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\tfrån över 300 meter"
+
+msgid "team/stats/labels_spotted"
+msgstr "Upptäckta fiendevagnar"
+
+msgid "team/stats/labels_stunDuration"
+msgstr "Total tid åsamkad chock, s"
+
+msgid "team/stats/labels_stunNum"
+msgstr "Chockade fiender"
+
+msgid "team/stats/labels_teamHitsDamage"
+msgstr "Skada orsakad allierad (utslagna/TP)"
+
+msgid "team/stats/labels_timesDestroyed"
+msgstr "Antal förstörda vagnar"
+
+msgid "team/stats/labels_xp"
+msgstr "Total intjänad erfarenhet"
+
+msgid "team/stats/labels_xpForAssist"
+msgstr "\tför assistans"
+
+msgid "team/stats/labels_xpForAttack"
+msgstr "\tför skadade och förstörda fiendevagnar"
+
+msgid "team/stats/labels_xpOther"
+msgstr "\tFör uppfyllande av vagnens stridsroll"
+
+msgid "team/stats/mileage"
+msgstr "?empty?"
+
+msgid "team/stats/ownTeam"
+msgstr "Eget lag"
+
+msgid "team/stats/parameter/artilleryFortEquipDamageDealt"
+msgstr "av Artilleriattack"
+
+msgid "team/stats/parameter/capturePointsVal"
+msgstr "Baserövring/försvarspoäng"
+
+msgid "team/stats/parameter/damageAssisted"
+msgstr "Skada med spelarens assistans"
+
+msgid "team/stats/parameter/damageAssistedSelf"
+msgstr "Skada åsamkad med din assistans"
+
+msgid "team/stats/parameter/damageAssistedStun"
+msgstr "Skada åsamkad fiendevagnar chockade av spelaren"
+
+msgid "team/stats/parameter/damageAssistedStunSelf"
+msgstr "Skada åsamkad fiendevagnar chockade av dig"
+
+msgid "team/stats/parameter/damageBlockedByArmor"
+msgstr "Skada blockerad av pansar"
+
+msgid "team/stats/parameter/damageDealt"
+msgstr "Total skada"
+
+msgid "team/stats/parameter/damagedKilled"
+msgstr "Skadade/förstörda fiendevagnar"
+
+msgid "team/stats/parameter/directHitsReceived"
+msgstr "Mottagna träffar"
+
+msgid "team/stats/parameter/explosionHits"
+msgstr "sprängskada"
+
+msgid "team/stats/parameter/explosionHitsReceived"
+msgstr "Explosionsskada orsakad av tryckvåg"
+
+msgid "team/stats/parameter/hits"
+msgstr "direktträffar/penetrerande träffar"
+
+msgid "team/stats/parameter/mileage"
+msgstr "Tillryggalagd sträcka"
+
+msgid "team/stats/parameter/noDamageDirectHitsReceived"
+msgstr "icke-penetrerande"
+
+msgid "team/stats/parameter/piercingsReceived"
+msgstr "penetrerande träffar"
+
+msgid "team/stats/parameter/shots"
+msgstr "Avfyrade skott"
+
+msgid "team/stats/parameter/sniperDamageDealt"
+msgstr "från över 300 meter"
+
+msgid "team/stats/parameter/spotted"
+msgstr "Upptäckta fiendevagnar"
+
+msgid "team/stats/parameter/stunDuration"
+msgstr "Total tid åsamkad chock, s"
+
+msgid "team/stats/parameter/stunNum"
+msgstr "Chockade fiender"
+
+msgid "team/stats/parameter/teamHitsDamage"
+msgstr "Skada orsakad allierad (utslagna/TP)"
+
+msgid "team/tankHeader/body"
+msgstr "Sortera efter position i en lagpanel."
+
+msgid "team/tankHeader/header"
+msgstr "Vagnar"
+
+msgid "team/teamInfluenceTotal"
+msgstr "Inflytande intjänad av laget: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamResourceTotal"
+msgstr "Intjänade resurser efter lag: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamScore/body"
+msgstr "Sortera efter antalet intjänade vinstpoäng."
+
+msgid "team/teamScore/header"
+msgstr "Lagets vinstpoäng"
+
+msgid "team/victoryScore/body"
+msgstr "Sortera efter antalet intjänade vinstpoäng."
+
+msgid "team/victoryScore/header"
+msgstr "Spelarens vinstpoäng"
+
+msgid "team/victoryScoreNoSort/header"
+msgstr "Spelarens vinstpoäng"
+
+msgid "team/xpHeader/body"
+msgstr "Sortera efter erf."
+
+msgid "team/xpHeader/header"
+msgstr "Erfarenhet"
+
+msgid "team/xpHeaderNoSort/header"
+msgstr "Erfarenhet"
+
+msgid "tooltips/stats/footer/text"
+msgstr "%(label)s&nbsp;%(type)s"
+
+msgid "victoryScore"
+msgstr "Intjänade vinstpoäng"

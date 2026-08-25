@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Taistelut palvelimilla tulevat saataville %(primeDelta)s"
+
+msgid "alertMessage/allNotSet"
+msgstr "Tämä pelimuoto ei ole saatavilla millään palvelimella"
+
+msgid "alertMessage/ban"
+msgstr "Sinut on väliaikaisesti estetty tästä pelimuodosta. Aikaa jäljellä: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Vaihda palvelin"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Lisätiedot"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Tämä pelimuoto ei ole saatavilla nykyisellä palvelimellasi %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Tämä pelimuoto ei ole saatavilla millään palvelimella."
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "Sinulla tulee olla vähintään %(count)s pelimuotoon soveltuvaa vaunua. Tutustu Rynnistyksestä -sivuun saadaksesi lisätietoja."
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "Ei riittävästi soveltuvia vaunuja"
+
+msgid "alertMessage/modeOffline"
+msgstr "Tietokantavirhe. Pelimuoto ei ole saatavilla."
+
+msgid "alertMessage/noVehicles"
+msgstr "Ei soveltuvaa tason %(levels)s vaunua tallissa %(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "Taistelut eivät ole saatavilla palvelimella %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Taistelut eivät ole saatavilla palvelimella %(serverName)s"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "Ei riittävästi soveltuvia vaunuja %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "Tämä pelimuoto ei ole saatavilla palvelimella %(serverName)s"
+
+msgid "alertMessage/preannounce/first"
+msgstr "Taivaansinisen lohikäärmeen kausi alkaa: %(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "Verenpunaisen lohikäärmeen kausi alkaa: %(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "Jadenvihreän lohikäärmeen kausi alkaa: %(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "Odota karsintojen tuloksia saadaksesi luokituksesi"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "Taivaansinisen lohikäärmeen kausi on päättynyt"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "Verenpunaisen lohikäärmeen kausi on päättynyt"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "Jadenvihreän lohikäärmeen kausi on päättynyt"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Taistelut tällä palvelimella tulevat saataville %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Tämä pelimuoto ei ole saatavilla palvelimella %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s p"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Ei soveltuvaa tason %(levels)s vaunua tallissa"
+
+msgid "awardsWidget/description/award"
+msgstr "Klikkaa valitaksesi ja ottaaksesi vastaan palkintosi."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Loppupalkinnot eivät ole väliaikaisesti saatavilla. Pahoittelemme sen aiheuttamaa häiriötä."
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "OTA VASTAAN\nPALKINTO"
+msgstr[1] "OTA VASTAAN\nPALKINNOT"
+msgstr[2] "OTA VASTAAN\nPALKINNOT"
+
+msgid "banView/actionButtons/confirm"
+msgstr "Äänestä"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "Olet jo äänestänyt %(vehicleName)s vaunua"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "Älä estä"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "Ehdota estettävää vaunua"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "Voit äänestää vain\nestoäänestysvaiheen aikana"
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "Olet ehdottamassa:\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "Joku joukkueessasi\non valinnut vaunun, jonka haluat estää"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "Odota estoäänestysvaiheen päättymistä"
+
+msgid "banView/button/back"
+msgstr "TAKAISIN"
+
+msgid "banView/button/ban"
+msgstr "Eston valintaan"
+
+msgid "banView/button/description"
+msgstr "VAUNUN VALINTAAN"
+
+msgid "banView/description/prepick"
+msgstr "Valitse tälle kartalle ja joukkueesi kokoonpanoon parhaiten soveltuva vaunu"
+
+msgid "banView/description/voting"
+msgstr "Valitse vaunu, jota et halua mukaan tähän taisteluun"
+
+msgid "banView/factory/candidate"
+msgstr "Ehdokas estettäväksi: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "Estoehdokkaat"
+
+msgid "banView/factory/noCandidates"
+msgstr "Ei ehdokasta estettäväksi"
+
+msgid "banView/factory/pick"
+msgstr "Ehdokkaasi: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "Älä estä"
+
+msgid "banView/title/prepick"
+msgstr "Vaunujen esivalintavaihe"
+
+msgid "banView/title/voting"
+msgstr "Estoäänestysvaihe"
+
+msgid "banView/tooltip/confirmed"
+msgstr "Ääni vahvistettu"
+
+msgid "banView/tooltip/noAction"
+msgstr "Ei tehtyä toimea"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "Tämä pelaaja ei ole ehdottanut vielä estettävää vaunua."
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "Ehdotettu"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "PST-vaunut"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "Raskaat vaunut"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "Kevyet vaunut"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "Keskiraskaat vaunut"
+
+msgid "banView/withoutBan"
+msgstr "Älä estä"
+
+msgid "banWidget/allies"
+msgstr "Liittolaisten äänet"
+
+msgid "banWidget/enemies"
+msgstr "Vihollisten äänet"
+
+msgid "banWidget/tooltip"
+msgstr "Joukkue ei saanut sovittua estettävää vaunua, joten eniten ääniä saaneista vaunuista valittiin estetty vaunu satunnaisesti."
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "Muokkaa vaununäyttöä tyypin, roolin ja kansakunnan mukaan."
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "Suodata param. mukaan"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "Täällä näytetään vain vainut, joita voi käyttää pelimuodossa."
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "Yksikään vaunu ei osu valittuihin parametrejä"
+
+msgid "battleMessages/enableVOIP"
+msgstr "Joukkue koottu. Valitse vaunusi ja lähde taisteluun!\nLiity mukaan äänikeskusteluun (%(keyName)s)"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "Joukkue koottu. Valitse vaunusi ja lähde taisteluun!\nMääritä pikanäppäin nopealle äänikeskusteluun liittymiselle."
+
+msgid "battleMessages/withoutVOIP"
+msgstr "Joukkue koottu. Valitse vaunusi ja lähde taisteluun!\nLiittyäksesi mukaan äänikeskusteluun sinun tulee ottaa toiminto käyttöön pelisi asetuksista."
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "Pelimuodon yksityiskohdat (F1)"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "Vaunun näkökyky parantunut"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "Miehistön ominaisuudet parantuneet"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "Kestopisteitä palautetaan"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "Kestopisteitä palautetaan"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "Miehistön ominaisuudet parantuneet"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "Miehistön ominaisuudet parantuneet"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "Tykin latausnopeus parantunut"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "Vaunun ominaisuudet parantuneet"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "Kestopisteitä palautetaan"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "Vaunun ominaisuudet parantuneet"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "Vaunun ominaisuudet parantuneet"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "Liikkuvuus parantunut"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "Kestopisteitä palautetaan"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "Tykin hajonta pienentynyt"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "Vaunun ominaisuudet parantuneet"
+
+msgid "battleResult/header/deserter"
+msgstr "Olet saanut rangaistuksen luokituspisteisiin"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "Olet saanut rangaistuksen. Suoritettuasi karsinnat luokitustasi heikennetään."
+
+msgid "battleResult/label/deserter"
+msgstr "Karkuruus"
+
+msgid "battleResult/message/deserter"
+msgstr "Olet saanut rangaistuksen.\nLuokituspisteitä menetetty: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "Olet karannut taistelukentältä.\nSuoritettuasi karsinnat luokitustasi heikennetään."
+
+msgid "battleResult/message/header/deserter"
+msgstr "Epäurheilijamainen käytös"
+
+msgid "battleResult/personal/label"
+msgstr "Luokituspisteet"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "Kuvastaa pelaajan tämän hetkistä edistystä luokitusjärjestelmässä. Luokituspisteitä voi ansaita tai menettää pelimuodossa menetymisen perusteella."
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• Tappiot/tasapelit pelimuodon taisteluissa\n• Rangaistukset\n• Toimettomuus luokituksissa"
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "Luokituspisteiden menettämisen syyt:"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "Luokituspisteet"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "Karsintataistelu"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s — %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "Karsinnat"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "Luokituspisteitä saatu. Puolustaaksesi legendan luokitustasi sinun tulee pysyä %(topPercentage)d%% parhaista pelaajista joukossa tuloslistalla."
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "Luokituspisteitä saatu. Saavuttaaksesi legendan luokituksen sinun tulee pysyä %(topPercentage)d%% parhaista pelaajista joukossa tuloslistalla."
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "Luokituspisteitä saatu"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "Luokituspisteitä menetetty. Puolustaaksesi legendan luokitustasi sinun tulee pysyä %(topPercentage)d%% parhaista pelaajista joukossa tuloslistalla."
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "Luokituspisteitä menetetty. Saavuttaaksesi legendan luokituksen sinun tulee pysyä %(topPercentage)d%% parhaista pelaajista joukossa tuloslistalla."
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "Luokituspisteitä menetetty"
+
+msgid "battleResult/subTask/rating"
+msgstr "Luokituspisteet: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "Sinut on alennettu: %(division)s. %(rank)s"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "%(rank)s. %(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "Sinut on ylennetty: %(division)s. %(rank)s!"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "Taisteluita käyty (päivä) %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "Sisältäen:"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "Taisteluita käyty (kausi): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "Yksin/osastossa: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "Superosastossa: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "Taivaansinisen lohikäärmeen kausi kestää %(days)d päivän"
+msgstr[1] "Taivaansinisen lohikäärmeen kausi kestää %(days)d päivää"
+msgstr[2] "Taivaansinisen lohikäärmeen kausi kestää %(days)d päivää"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "Verenpunaisen lohikäärmeen kausi kestää %(days)d päivän"
+msgstr[1] "Verenpunaisen lohikäärmeen kausi kestää %(days)d päivää"
+msgstr[2] "Verenpunaisen lohikäärmeen kausi kestää %(days)d päivää"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "Jadenvihreän lohikäärmeen kausi kestää %(days)d päivän"
+msgstr[1] "Jadenvihreän lohikäärmeen kausi kestää %(days)d päivää"
+msgstr[2] "Jadenvihreän lohikäärmeen kausi kestää %(days)d päivää"
+
+msgid "calendarDay/title"
+msgstr "Aikataulu"
+
+msgid "carousel/banned"
+msgstr "Estetty"
+
+msgid "claimRewards/button"
+msgstr "Ota vastaan palkinto"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "Tämä toiminto ei ole teknisten seikkojen takia väliaikaisesti saatavilla. Työskentelemme parhaillaan korjataksemme ongelman."
+
+msgid "closeButtonLabel"
+msgstr "SULJE"
+
+msgid "controls/compare"
+msgstr "Lisää vertailuun"
+
+msgid "controls/preview"
+msgstr "Esikatselu"
+
+msgid "countDown/text"
+msgstr "Tapahtuman alkamiseen:\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1 min"
+
+msgid "crewMembersTooltip/description"
+msgstr "Tämä erikoismiehistö koostuu miehistön jäsenistä ympäri maailman, jotka ovat tulleet yhteen komentajansa alaisuuteen. Kaikilla heistä on \"Aseveljet\" -nollapätevyys ja riittävästi miehistökokemusta kahden muun pätevyyden kouluttamiseen, jotta he voivat parantaa vaunun suorituskykyä – sekä tuoda oman mausteensa taistelukentälle."
+
+msgid "crewMembersTooltip/perks"
+msgstr "Pätevyydet"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "Rynnistys. Lohikäärmeen vuosi"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "Nollapätevyydet"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "Keskimääräinen vahinko (päivä): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "Aiheutetun vahingon kokonaismäärän suhde pelattujen taisteluiden määrään."
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "Keskimääräinen vahinko (kausi): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "Päivittäinen vahinkoennätys: %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "Vahinkoa aiheutettu enimmillään taistellessasi %(vehicleName)s vaunulla."
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "Kausittainen vahinkoennätys: %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "—"
+
+msgid "dataError/description"
+msgstr "Olemme pahoillamme väliaikaisesta häiriöstä. Ole hyvä ja koeta ladata sivu myöhemmin uudelleen."
+
+msgid "dataError/title"
+msgstr "Virhe ladattaessa tietoja"
+
+msgid "dayTooltip/day"
+msgstr "Päivä %(index)s"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "Päivä %(index)s: Ei käytyjä taisteluita."
+
+msgid "dayTooltip/noBattles"
+msgstr "Si vis pacem, para bellum"
+
+msgid "dayTooltip/rankInactivity"
+msgstr "Luokitustoimettomuus: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)s luokituspiste"
+msgstr[1] "%(pointsCount)s luokituspistettä"
+msgstr[2] "%(pointsCount)s luokituspistettä"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "Luokituspisteiden muutos: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "Päivä %(index)s (tänään)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "Päivä %(index)s: Ei käytyjä taisteluita tänään."
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "Divisioona"
+
+msgid "division/text"
+msgstr "Divisioona %(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "Tämä divisioona on pelaajille, joiden&nbsp;luokituspisteet ovat välillä {eeede9e6_Open}%(fromScore)&nbsp;–&nbsp;%(toScore){eeede9e6_Close}."
+
+msgid "divisionTooltip/heading"
+msgstr "Divisioona %(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "Luokituspisteet"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "Käydyt taistelut"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)sTuloksia tulossa..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)sTuloksia tulossa"
+
+msgid "entryPointTooltip/description"
+msgstr "Kilpailullinen pelimuoto, jossa käydään 7v7 taisteluita tason %(levels)s vaunuilla. Kiipeä läpi luokitusten ansaitaksesi ainutlaatuisia muokkauselementtejä, vaunuja, arvopapereita ja muita arvokkaita palkintoja."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MODE"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s – Pelimuoto. Klikkaa tutkiaksesi"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Saatavilla %(timer)s ajan"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Tulitauko%(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "Tulee saataville:\n%(timer)s"
+
+msgid "featureName"
+msgstr "Rynnistys"
+
+msgid "featureNameCapitalized"
+msgstr "RYNNISTYS"
+
+msgid "fifthRankTooltip/description"
+msgstr "{eeede9e6_Open}Mestarin{eeede9e6_Close} luokitus myönnetään pelaajille, jotka ovat ansainneet vähintään {eeede9e6_Open}%(fromScore){eeede9e6_Close} luokituspistettä."
+
+msgid "forVehicle"
+msgstr "%(vehicleName)s vaunulle"
+
+msgid "generalRankTooltip/body/first"
+msgstr "{eeede9e6_Open}Rautainen{eeede9e6_Close} luokitus myönnetään pelaajille, jotka ovat ansainneet {eeede9e6_Open}%(fromScore)–%(toScore){eeede9e6_Close} luokituspistettä."
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "{eeede9e6_Open}Kultainen{eeede9e6_Close} luokitus myönnetään pelaajille, jotka ovat ansainneet {eeede9e6_Open}%(fromScore)–%(toScore){eeede9e6_Close} luokituspistettä."
+
+msgid "generalRankTooltip/body/second"
+msgstr "{eeede9e6_Open}Pronssinen{eeede9e6_Close} luokitus myönnetään pelaajille, jotka ovat ansainneet {eeede9e6_Open}%(fromScore)–%(toScore){eeede9e6_Close} luokituspistettä."
+
+msgid "generalRankTooltip/body/third"
+msgstr "{eeede9e6_Open}Hopeinen{eeede9e6_Close} luokitus myönnetään pelaajille, jotka ovat ansainneet {eeede9e6_Open}%(fromScore)–%(toScore){eeede9e6_Close} luokituspistettä."
+
+msgid "generalRankTooltip/subheading"
+msgstr "Sisältää divisioonat: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "TAPAHTUMASTA"
+
+msgid "intro/confirmButton"
+msgstr "Selvä!"
+
+msgid "intro/description/banPhase"
+msgstr "Kumpikin joukkue voi estää vaunun kokonaan taistelusta. Koordinoi äänet liittolaistesi kanssa estääksenne kaikkein pelätyin sotakone tai valmistellaksenne yllättävän kokoonpanon vihollisillenne. Jos vaunusi estetään, voit valita vaunun sen tilalle useista esivalmistelluista vuokravaunuista."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Pelimuodossa on muuttujia, jotka vaihtavat vaunun tiettyjä parametrejä, kuten kestopisteitä, kulutustarvikkeiden jäähtymisaikaa, vaunun näkyvissä pysymisen aikaa ja paljon muuta."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Vallattuasi tiettyjä kartan alueita voit käyttää taktisia taitoja. On olemassa kahden tyyppisiä kohdealueita: tykistöpäämaja antaa mahdollisuuden ohjata tykistön iskemään tiettyyn asemaan ja viestintäkokeskus havaitsee kaikki vihollisvaunut. Näiden kohdealueiden olemassa olo ja sijainti voivat vaihdella kartasta riippuen."
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "Taistele %(count)s karsintataistelu määrittääksesi taitotasosi ja luokituksesi. Karsintojen valmistuttua saat palkintoja saavuttamastasi luokituksesta ja kaikista edeltävistä luokituksista.\n\nKarkuruus tai tasapeli karsinnoissa lasketaan tappioksi."
+msgstr[1] "Taistele %(count)s karsintataistelua määrittääksesi taitotasosi ja luokituksesi. Karsintojen valmistuttua saat palkintoja saavuttamastasi luokituksesta ja kaikista edeltävistä luokituksista.\n\nKarkuruus tai tasapeli karsinnoissa lasketaan tappioksi."
+msgstr[2] "Taistele %(count)s karsintataistelua määrittääksesi taitotasosi ja luokituksesi. Karsintojen valmistuttua saat palkintoja saavuttamastasi luokituksesta ja kaikista edeltävistä luokituksista.\n\nKarkuruus tai tasapeli karsinnoissa lasketaan tappioksi."
+
+msgid "intro/description/ranks"
+msgstr "Järjestelmä, joka kuvastaa pelaajan taitoa. Etene läpi luokitusten rautaisesta legendaan ja ansaitse arvokkaita palkintoja. Taistele läpi lohikäärmeen vuoden saadaksesi ainutlaatuisia vuosipalkintoja."
+
+msgid "intro/description/roleSkills"
+msgstr "Kullakin vaunulla on oma erikoistaitonsa roolista riippuen kolmella eri lataustasolla. Mitä korkeampi lataustaso taitoa aktivoitaessa sitä vahvempi vaikutus. Lataustaso riippuu arovaltapisteitä, joita voidaan ansaita vaikuttavasta taistelussa suoriutumisesta, kohdealueiden valtauksesta, taktisten taitojen käytöstä jne.\n\nTutustu pelimuodon sääntöihin saadaksesi lisää tietoa erilaisista tavoista, joilla voit ansaita arvovaltapisteitä."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Voit taistella tason %(levels)s tutkittavilla vaunuilla (telatykit pois lukien) sekä keräilijöiden vaunuilla ja joillain erikoisvaunuilla. Valmistele vaunusi tallissa, valitse sen jälkeen paras annetun kartan ominaisuuksien perusteella mentyäsi taisteluun. Vaunua valitessasi ota myös huomioon liittolaistesi valinnat."
+
+msgid "intro/title/banPhase"
+msgstr "VAUNUJEN ESTOT"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "RYNNISTYKSEN MUUTTUJAT"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "KOHDEALUEET"
+
+msgid "intro/title/qualification"
+msgstr "KARSINNAT"
+
+msgid "intro/title/ranks"
+msgstr "LUOKITUSJÄRJESTELMÄ"
+
+msgid "intro/title/roleSkills"
+msgstr "ROOLITAIDOT"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "VALITSE VAUNU TIETYLLE KARTALLE"
+
+msgid "lastUpdateNote/info"
+msgstr "Päivitetty: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "Legendan luokituksen heikoimman pelaajan luokituspisteet\npäivitetään %(count)s min välein."
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "Päivitetään tietoja…"
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "Tuloslista päivitetään %(count)s minuutin välein."
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "Päivitetty viimeksi: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "Oma sijoitukseni"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "Saavut mestarin tai legendan luokitus päästäksesi tuloslistalle."
+
+msgid "leaderboard/error/buttonText"
+msgstr "Päivitä"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "Mestarin ja legendan luokituksissa kiinni olevat pelaajat esiintyvät tuloslistalla. Ansaitse {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close} luokituspistettä ja kiipeä listan huipulle!"
+
+msgid "leaderboard/noRecords/title"
+msgstr "Kuluvalla kaudella ei ole tällä hetkellä yhtään pelaajaa tuloslistalla"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "Taistelut"
+
+msgid "leaderboard/table/header/order"
+msgstr "#"
+
+msgid "leaderboard/table/header/player"
+msgstr "Pelaajan nimi"
+
+msgid "leaderboard/table/header/score"
+msgstr "Luokituspisteet"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "Pelaajan \"Rynnistys\" -pelimuodossa kuluvan kauden aikana käymien taisteluiden määrä."
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "Taistelut"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "Pelaajan sijoitus luokituksessa."
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "Sijoitus"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "Tuloslistan sijoitusta hallussaan pitävän pelaajan nimi."
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "Pelaajan nimi"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "Kuluvalla kaudella ansaittujen luokituspisteiden määrä."
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "Luokituspisteet"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Osaston pelaajat"
+
+msgid "noVehicles/howTo/premium"
+msgstr "Käytä WoT Premium-tiliä"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktivoi henkilökohtaisia reservejä"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Suorita tehtäviä"
+
+msgid "noVehicles/howTo/title"
+msgstr "Mikä on nopein tapa hankkia tason %(levels)s vaunuja?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Osallistuaksesi Rynnistykseen tarvitset talliisi vähintään yhden tason %(levels)s vaunun, joka sopii pelimuotoon.\nSinulla on tutkittu tason %(levels)s vaunu, jota et ole vielä hankkinut."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Osallistuaksesi Rynnistykseen tarvitset talliisi vähintään yhden tason %(levels)s vaunun, joka sopii pelimuotoon.\nSinulla on tason %(levels)s vaunu, jonka voit palauttaa."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Osallistuaksesi Rynnistykseen tarvitset talliisi vähintään yhden tason %(levels)s vaunun, joka sopii pelimuotoon"
+
+msgid "noVehicles/title"
+msgstr "Tallissasi ei ole soveltuvia vaunuja."
+
+msgid "page/heading/leaderboard"
+msgstr "TULOSLISTA"
+
+msgid "page/heading/progression"
+msgstr "LUOKITUSJÄRJESTELMÄ"
+
+msgid "page/heading/qualification"
+msgstr "KARSINNAT"
+
+msgid "page/heading/rankRewards"
+msgstr "PALKINTOJA LUOKITUKSISTA"
+
+msgid "page/heading/shop"
+msgstr "RYNNISTYKSEN KAUPPA"
+
+msgid "page/heading/weeklyQuests"
+msgstr "VIIKOITTAISET TEHTÄVÄT"
+
+msgid "page/heading/yearlyRewards"
+msgstr "VUOSIPALKINNOT"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "VUODEN TILASTOT"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "Eteenpäin"
+
+msgid "pagination/prev"
+msgstr "Takaisin"
+
+msgid "pbs/bans/title"
+msgstr "ESTETYT VAUNUT"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "RYNNISTYKSEN KAKSIULOTTEINEN TYYLI"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "KAKSIULOTTEISEN TYYLIN TEHTÄVÄ SUORITETTU!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "VIIKOTTAINEN TEHTÄVÄ #%(count)s SUORITETTU!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "VIIKOTTAINEN TEHTÄVÄ SUORITETTU!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "RYNNISTYKSEN VIIKOTTAINEN"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "TAPPIO, KOSKA"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "TASAPELI, KOSKA"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "VOITTO, MUTTA"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "Ylennettiin: %(rank)s"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "Alennettiin: %(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "Ylennettiin: %(rank)s, %(division)s"
+
+msgid "pbs/overview/qualification/description"
+msgstr "Käydyt taistelut"
+
+msgid "pbs/overview/qualification/title"
+msgstr "Karsinnat"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "Olet saanut kurinpidollisen rangaistuksen: rangaistus luokituspisteisiin"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "Olet saanut kurinpidollisen rangaistuksen: suoritettuasi karsinnat luokitustasi heikennetään."
+
+msgid "pbs/rankDescription/fifth"
+msgstr "Päästäksesi legendan luokitukseen sinun tulee olla tuloslistan {ede6d9e5_Open}%(topPercentage) parhaan%{ede6d9e5_Close} pelaajan joukossa."
+
+msgid "pbs/rankDescription/sixth"
+msgstr "Pysäksesi legendan luokituksessa sinun tulee olla tuloslistan {ede6d9e5_Open}%(topPercentage) parhaan%{ede6d9e5_Close} pelaajan joukossa."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Tutustu Rynnistyksestä -sivuun saadaksesi lisätietoja."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Arvovaltapisteet"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Vahingon aiheuttaminen\nHavaitsemalla avustus\nTelojen tuhoaminen\nKriittisten osumien aiheuttaminen\nVihollisvaunujen tuhoaminen\nJa muuta"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Tämä erikoisresurssi vaikuttaa taisteluissa ansaittujen ja menetettyjen arvovaltapisteiden määrään. Arvovaltapisteitä voi ansaita suorittamalla taistelutoimia, kuten:"
+
+msgid "percentage"
+msgstr "%(percentageValue)s%"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "Arvovaltapisteitä keskimäärin (päivä): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "Kaikkiaan ansaittujen arvovaltapisteiden suhde pelattujen taisteluiden määrään."
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "Arvovaltapisteitä keskimäärin (kausi): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "Päivittäinen arvovaltapisteiden ennätys: %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "Arvovaltapisteitä ansaittu enimmillään taistellessasi %(vehicleName)s vaunulla."
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "Kausittainen arvovaltapisteiden ennätys: %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Taivaansinisen lohikäärmeen kausi on päättynyt %(server)s palvelimella."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Verenpunaisen lohikäärmeen kausi on päättynyt %(server)s palvelimella."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Jadenvihreän lohikäärmeen kausi on päättynyt %(server)s palvelimella."
+
+msgid "products/actions/buy"
+msgstr "Osta"
+
+msgid "products/actions/restore"
+msgstr "Varastoon"
+
+msgid "products/actions/toCustomization"
+msgstr "Tyyliin"
+
+msgid "products/actions/toHangar"
+msgstr "Näytä tallissa"
+
+msgid "products/customizationUnavailable/body"
+msgstr "Tyyliin meno ei onnistu. Mahdolliset syyt: et vielä omista tätä vaunua, vaunu on jossain osastossa, vaunu on taistelussa tai vaatii korjauksia."
+
+msgid "products/customizationUnavailable/title"
+msgstr "Ei saatavilla"
+
+msgid "products/discount"
+msgstr "-%(discountPercentage)s%"
+
+msgid "products/discountDescription"
+msgstr "Seuraavan kauden alkuun asti sinulla on pääsy tavaroihin ja alennuksiin, jotka riippuvat {eeede9e6_Open}korkeimmasta{eeede9e6_Close} {eeede9e6_Open}saavutetusta{eeede9e6_Close} {eeede9e6_Open}sijoituksesta{eeede9e6_Close}."
+
+msgid "products/discountSectionName"
+msgstr "PÄÄSYN EHDOT JA ALENNUKSET"
+
+msgid "products/inProgress"
+msgstr "Ole hyvä ja odota, ostostasi käsitellään..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "Saatavilla ostettavaksi per kausi: %(count)s"
+
+msgid "products/message/notEnough"
+msgstr "Riittämättömästi varoja ostamiseen."
+
+msgid "products/message/rankAccess"
+msgstr "Ostamisen vaatimus\n%(rank)s"
+
+msgid "products/newLabel"
+msgstr "UUTTA"
+
+msgid "products/priceSectionName"
+msgstr "HINTA"
+
+msgid "products/productAccess"
+msgstr "Pääsyn\nsijoitusluokka"
+
+msgid "products/purchased"
+msgstr "Ostettu"
+
+msgid "products/rankAccess"
+msgstr "Pääsyn sijoitusluokka %(rank)s"
+
+msgid "products/readyToRestore"
+msgstr "Palauttaminen saatavilla"
+
+msgid "products/readyToRestoreDescription"
+msgstr "Saatavilla palautettavaksi varastossa"
+
+msgid "products/style3d"
+msgstr "Kolmiulotteinen %(name)s -tyyli"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "TAKAISIN KAUDEN TILASTOIHIN"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "KAUDEN TILASTOT"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "PÄIVÄN %(day)s TILASTOT"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "TÄMÄN PÄIVÄN TILASTOT"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "Kukin sarake näyttää tiedot jaksosta valitun päivän peliajan ja seuraavan päivän peliajan väliltä. Joissain tapauksissa se saattaa sisältää taisteluita kahdelta kalenteripäivältä."
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "Kukin sarake näyttää tiedot jaksosta valitun päivän peliajan ja seuraavan päivän peliajan väliltä. Joissain tapauksissa se saattaa sisältää taisteluita kahdelta kalenteripäivältä."
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "Tämä osio päivittyy vain, kun uutta dataa on saatavilla. Voit pyytää päivitystä painamalla \"Päivitä\" -nappia."
+
+msgid "progressionPage/chartHeader/update"
+msgstr "Päivitetty: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "Onneksi olkoon!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "Olet suorittanut kaikki kaksiulotteisen tyylin tehtävät."
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s / %(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "Tehtäväsarja avaamaan uusia elementtejä kuluvan kauden edistyvään kaksiulotteiseen tyyliin."
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "2D TYYLIN TEHTÄVÄ: %(taskNumber)s"
+msgstr[1] "2D TYYLIN TEHTÄVÄT: %(taskNumber)s"
+msgstr[2] "2D TYYLIN TEHTÄVÄT: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "2D TYYLIN TEHTÄVÄT"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "Tyyliin"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "Kaikki tyylit tällä hetkellä asennettu vaunuihin, jotka eivät ole saatavilla"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "Ei saatavilla olevia vaunuja, joihin asentaa tyyli"
+
+msgid "progressionPage/error/refresh"
+msgstr "Päivitä"
+
+msgid "progressionPage/error/refreshing"
+msgstr "Päivitetään..."
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "Vahinkoa keskimäärin"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "Keskim. arvovaltap."
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "Luokituksen muutos %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "Ennätys tehty: %(seasonRecordDescriptionDay)s"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "päivä %(day)s"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "Kaikkiin tilastoihin"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "Sisältää:\n• Havaitsemiisi kohteisiin tehdyn vahingon (mukaan lukien taitojen avulla tehdyn vahingon)\n • Vahingon kohteisiin, joiden telat olet tuhonnut ja jotka olet tehnyt liikuntakyvyttömiksi (mukaan lukien taitojen avulla tehdyn vahingon)\n • Liittolaisten taitojesi avulla aiheuttaman vahingon\n• Liittolaisten lamautettuun viholliseen tekemän vahingon (mukaan lukien taitojesi aiheuttamat lamautukset)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "Käytyjen taisteluiden määrä yhteensä"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "Aiheutetun vahingon ja taisteluiden suhde"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "Tuhottujen vihollisvaunujen suhde pelaajan vaunun tuhoutumisiin"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "Aiheutetun vahingon suhde kärsittyyn vahinkoon"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "Kaikkiaan ansaittujen arvovaltapisteiden suhde pelattujen taisteluiden määrään"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "Vaunut, joilla on pelattu eniten taisteluita"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "Voittosuhde"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "Vahinkoa keskimäärin aiheutettu avustuksellasi"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "Taistelut"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "Keskimäärin aiheutettu vahinko"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "Tuhoamissuhde"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "Vahinkosuhde"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "Keskimäärin arvovaltapisteitä per taistelu"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "Vaunun nimi"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "Voittoja"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "VAUNUN TILASTOT"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s–%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "Päiviä luokituksen heikentymiseen: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "\"Rynnistys\" -pelimuodossa taistelematta jättäminen maksaa sinulle {eeede9e6_Open}%(count)s{eeede9e6_Close} luokituspisteen"
+msgstr[1] "\"Rynnistys\" -pelimuodossa taistelematta jättäminen maksaa sinulle {eeede9e6_Open}%(count)s{eeede9e6_Close} luokituspistettä."
+msgstr[2] "\"Rynnistys\" -pelimuodossa taistelematta jättäminen maksaa sinulle {eeede9e6_Open}%(count)s{eeede9e6_Close} luokituspistettä."
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(1&nbsp;taistelu&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktiivisuuspiste)"
+msgstr[1] "(1&nbsp;taistelu&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktiivisuuspistettä)"
+msgstr[2] "(1&nbsp;taistelu&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktiivisuuspistettä)"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "Et menetä luokituspisteitä pelaamattomuudesta pelimuodossa nykyisellä sijoitusluokallasi, mutta saatat menettää, jos saavutat seuraavat luokitukset: %(rankList)s"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "Toimettomuus vaikuttaa luokitukseesi"
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "Toimettomuus ei vaikuta luokitukseesi"
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "Sijoitusluokka"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "Tuloslistan pelaajien paras %(topPercentage)s%"
+
+msgid "progressionTooltip/division"
+msgstr "Divisioona: %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "Tämä divisioona on pelaajille, joiden luokituspisteet ovat välillä {eeede9e6_Open}%(fromScore)–%(toScore){eeede9e6_Close}."
+
+msgid "progressionTooltip/info/fifth"
+msgstr "Mestarin luokitus myönnetään pelaajille, jotka ansaitsivat vähintään {eeede9e6_Open}%(fromScore){eeede9e6_Close} luokituspistettä."
+
+msgid "progressionTooltip/info/sixth"
+msgstr "Legendan luokituksen saavat tuloslistan {eeede9e6_Open}%(topPercentage) parhasta%{eeede9e6_Close} pelaajaa."
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "Taistele %(maxBattlesCount)s taistelu pelimuodossa määrittääksesi taitotasosi ja luokituksesi."
+msgstr[1] "Taistele %(maxBattlesCount)s taistelua pelimuodossa määrittääksesi taitotasosi ja luokituksesi."
+msgstr[2] "Taistele %(maxBattlesCount)s taistelua pelimuodossa määrittääksesi taitotasosi ja luokituksesi."
+
+msgid "progressionTooltip/qualificationName"
+msgstr "Karsinnat"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "Päiviä luokituksen heikentymiseen: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "\"Rynnistys\" -pelimuodossa taistelematta jättäminen maksaa sinulle {eeede9e6_Open}%(count)s{eeede9e6_Close} luokituspisteen."
+msgstr[1] "\"Rynnistys\" -pelimuodossa taistelematta jättäminen maksaa sinulle {eeede9e6_Open}%(count)s{eeede9e6_Close} luokituspistettä."
+msgstr[2] "\"Rynnistys\" -pelimuodossa taistelematta jättäminen maksaa sinulle {eeede9e6_Open}%(count)s{eeede9e6_Close} luokituspistettä."
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s Luokitustoimettomuus vaikuttaa luokitukseesi."
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "Pelaa päivän loppuun mennessä säilyttääksesi luokituksesi."
+
+msgid "progressionTooltip/ratingScore"
+msgstr "Luokituspisteet"
+
+msgid "purchase/affirmative"
+msgstr "Selvä!"
+
+msgid "purchase/cancelButton"
+msgstr "Takaisin"
+
+msgid "purchase/confirmButton"
+msgstr "Osta"
+
+msgid "purchase/error/description"
+msgstr "Ostamisen suorittaminen loppuun ei onnistu. Yritä myöhemmin uudestaan."
+
+msgid "purchase/error/title"
+msgstr "Virhe"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)sSinulla ei ole tälle tyylille soveltuvaa vaunua tallissasi"
+
+msgid "purchase/price"
+msgstr "Ostohinta:"
+
+msgid "purchase/success/heading"
+msgstr "Kiitos ostoksesta!"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)sOstos toimitetaan pelitilillesi lähitulevaisuudessa."
+
+msgid "purchase/success/style3d"
+msgstr "Kolmiulotteinen %(name)s -tyyli %(vehicleName)s vaunulle"
+
+msgid "purchase/title/style3d"
+msgstr "Osta kolmiulotteinen %(name)s -tyyli?"
+
+msgid "purchase/title/vehicle"
+msgstr "Osta %(name)s?"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "Taistele {eeede9_Open}%(maxBattlesCount)s taistelu{eeede9_Close} pelimuodossa määrittääksesi taitotasosi ja luokituksesi."
+msgstr[1] "Taistele {eeede9_Open}%(maxBattlesCount)s taistelua{eeede9_Close} pelimuodossa määrittääksesi taitotasosi ja luokituksesi."
+msgstr[2] "Taistele {eeede9_Open}%(maxBattlesCount)s taistelua{eeede9_Close} pelimuodossa määrittääksesi taitotasosi ja luokituksesi."
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "Karsinnan suorittamiseksi sinun tulee taistella %(maxBattlesCount)s taistelu ja odottaa luokituksen laskemista. Taistelusuorituksesi karsintojen aikana vaikuttaa lopulliseen luokitukseesi, jonka saat.\nKarkuruus karsinnoissa johtaa raskaintakin tappiota huonompaan tulokseen."
+msgstr[1] "Karsinnan suorittamiseksi sinun tulee taistella %(maxBattlesCount)s taistelua ja odottaa luokituksen laskemista. Taistelusuorituksesi karsintojen aikana vaikuttaa lopulliseen luokitukseesi, jonka saat.\nKarkuruus karsinnoissa johtaa raskaintakin tappiota huonompaan tulokseen."
+msgstr[2] "Karsinnan suorittamiseksi sinun tulee taistella %(maxBattlesCount)s taistelua ja odottaa luokituksen laskemista. Taistelusuorituksesi karsintojen aikana vaikuttaa lopulliseen luokitukseesi, jonka saat.\nKarkuruus karsinnoissa johtaa raskaintakin tappiota huonompaan tulokseen."
+
+msgid "qualification/conditionTooltip/header"
+msgstr "Karsintojen säännöt"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "Käydyt taistelut"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s Odotetaan karsintojen tuloksia luokituksesi saamiseksi"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "Luokituksesi laskemiseen karsintojen perusteella voi mennä jopa viisi minuuttia. Sen jälkeen saat luokituksesi ja voit jatkaa Rynnistyksen pelaamista."
+
+msgid "qualification/rewardsButton"
+msgstr "Palkintoihin"
+
+msgid "qualification/rewardsDescription"
+msgstr "Karsintojen valmistuessa saat palkinnot saavuttamastasi luokituksesta ja kaikista sitä edeltävistä luokituksista."
+
+msgid "quotesWrapper"
+msgstr "\"%(name)s\""
+
+msgid "rank/achieved"
+msgstr "Saavutettu"
+
+msgid "rank/current"
+msgstr "Nykyinen"
+
+msgid "rank/fifth"
+msgstr "Mestari"
+
+msgid "rank/first"
+msgstr "Rauta"
+
+msgid "rank/fourth"
+msgstr "Kulta"
+
+msgid "rank/qualification"
+msgstr "Karsinnat"
+
+msgid "rank/second"
+msgstr "Pronssi"
+
+msgid "rank/sixth"
+msgstr "Legenda"
+
+msgid "rank/text"
+msgstr "%(rank)s -luokitus"
+
+msgid "rank/third"
+msgstr "Hopea"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "Pelaajan luokitus"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "Osastotover(e)i(de)n luokitus"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "Osastot voivat koostua vain pelaajista, joilla on samankaltainen luokitus."
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "Luokitusrajoitukset %(count)s pelaajan osastoille"
+
+msgid "rankInactivityTooltip/description"
+msgstr "Jos et pelaa pelimuotoa, menetät luokituspisteitä."
+
+msgid "rankInactivityTooltip/heading"
+msgstr "Luokitustoimettomuus"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "Päiviä ennen kuin luokituksesi putoaa: %(count)s"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "Päivittäinen luokitus"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "Luokituspisteiden muutos: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "Ero luokituspisteissä valitun päivän ja sitä edeltävän päivän välillä."
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "Päivittäinen luokitusennätys: %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "Valittuna päivänä saavutettu suurin luokitus."
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "%(day)s. päivänä"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "Kausittainen luokitusennätys, joka on tehty %(dayOfRecord)s"
+
+msgid "rankInfo/current/fifth"
+msgstr "Mestarin luokitus myönnetään pelaajille, jotka ansaitsivat vähintään {eeede9e6_Open}%(fromScore){eeede9e6_Close} luokituspistettä."
+
+msgid "rankInfo/current/sixth"
+msgstr "Legendan luokituksen saavat tuloslistan {eeede9e6_Open}%(topPercentage) parhasta%{eeede9e6_Close} pelaajaa."
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "Päästäksesi legendan luokitukseen sinun tulee olla tuloslistan {eeede9e6_Open}%(topPercentage) parhaan%{eeede9e6_Close} pelaajan joukossa luokituspisteiden mukaan tarkasteltuna."
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "Puolustaaksesi legendan luokitustasi sinun tulee pysyä {eeede9e6_Open}%(topPercentage) parhaan%{eeede9e6_Close} pelaajan joukossa luokituspisteiden mukaan tarkasteltuna."
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "Päästäksesi legendan luokitukseen sinun tulee olla tuloslistan {eeede9e6_Open}%(topPercentage) parhaan%{eeede9e6_Close} pelaajan joukossa luokituspisteiden mukaan tarkasteltuna. Heikoimman &nbsp;legendan&nbsp; luokituksen ansainneen pelaajan luokituspisteet: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "Puolustaaksesi legendan luokitustasi sinun tulee pysyä {eeede9e6_Open}%(topPercentage) parhaan%{eeede9e6_Close} pelaajan joukossa luokituspisteiden mukaan tarkasteltuna.Heikoimman &nbsp;legendan&nbsp; luokituksen ansainneen pelaajan luokituspisteet: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankUpper/fifth"
+msgstr "MESTARI"
+
+msgid "rankUpper/first"
+msgstr "RAUTA"
+
+msgid "rankUpper/fourth"
+msgstr "KULTA"
+
+msgid "rankUpper/second"
+msgstr "PRONSSI"
+
+msgid "rankUpper/sixth"
+msgstr "LEGENDA"
+
+msgid "rankUpper/text"
+msgstr "%(rank)s LUOKITUS"
+
+msgid "rankUpper/third"
+msgstr "HOPEA"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "Voit valita yhden parannellun varusteen alla olevalta listalta\n\n:• Pakokaasun piilotusyksikkö\n• Innovatiivinen tähtäys\n• Paranneltu voimansiirto\n• Paranneltu kompressori\n• Vahvempi iskunkestävyys\n• Paranneltu kokoonpano\n• Kokeelliset optiikat\n• Kekseliäs latausjärjestelmä\n• Ilmanpoistojärjestelmä\n• Kulutuskestävä tykin moottori\n• Vakautusjärjestelmä\n• Teleskooppinen tarkkailujärjestelmä\n• Taktinen naamioverkko"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "Voit valita yhden kokeellisen varusteen alla olevalta listalta:\n\n• Tulenjohtojärjestelmä T3\n• Selviytyvyyden kehityspaketti T3\n• Liikkuvuuden parannusjärjestelmä T3\n• Tarkkuuden parannusjärjestelmä T3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "\"%(name)s\" -maastokuvio"
+
+msgid "rewards/preview"
+msgstr "Esikatselu"
+
+msgid "rewards/status/achieved"
+msgstr "Palkinto noudettu"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}Tason %(vehicleLevel)s vaunuille{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}\"%(progressionStyleName)s\" -tyylille{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "Taso %(vehicleLevel)s"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "Sait myös:"
+
+msgid "rewardsScreen/button"
+msgstr "Selvä!"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "Palkintoihin"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "Valitse palkinto"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "Mene ostamaan"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "RYNNISTYS. KASRINNAT SUORITETTU"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "RYNNISTYS. TAIVAANSINISEN LOHIKÄÄRMEEN KAUSI"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "RYNNISTYS. VERENPUNAISEN LOHIKÄÄRMEEN KAUSI"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "RYNNISTYS. JADENVIHREÄN LOHIKÄÄRMEEN KAUSI"
+
+msgid "rewardsScreen/description/year"
+msgstr "RYNNISTYS. LOHIKÄÄRMEEN VUOSI"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "Missä on Ashbringer vaununi?!"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "Ei luokitusta"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "Saavutettuasi tämän luokituksen voit menettää luokituspisteitä, mikäli lopetat \"Rynnistys\" -pelimuodon pelaamisen."
+
+msgid "rewardsScreen/notice/title"
+msgstr "Luokitustoimettomuus"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "Rynnistys-lippuja\nyhteensä"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "Valitse varuste"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "Valitse palkinnot"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "Uusia tarjouksia saatavilla Rynnistyksen kaupassa!"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "Uusia tavaroita saatavilla Rynnistyksen kaupassa!"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "Seuraavan kauden alkuun asti sinulla on pääsy tavaroihin ja alennuksiin, jotka riippuvat korkeimmasta saavutetusta sijoituksesta."
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "Seuraavan kauden alkuun asti sinulla on pääsy tavaroihin ja alennuksiin, jotka riippuvat korkeimmasta saavutetusta sijoituksesta."
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}%(rank)s luokitus{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "Karsintojen tulosten perusteella olet saanut palkinnot seuraavista luokituksista: {ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr ", "
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "Olet saanut palkintoja ylennyksestäsi {ffe4c0_Open}%(rank)s{ffe4c0_Close} -luokitukseen"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "Palkinto {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} viikottaisen tehtävän suorittamisesta"
+msgstr[1] "Palkinto {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} viikottaisen tehtävän suorittamisesta"
+msgstr[2] "Palkinto {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} viikottaisen tehtävän suorittamisesta"
+
+msgid "rewardsScreen/title/division"
+msgstr "DIVISIOONA %(division)s SAAVUTETTU"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close} LUOKITUS SAAVUTETTU"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "PALKINTO SAAVUTETUISTA LUOKITUKSISTA"
+
+msgid "rewardsScreen/title/rank"
+msgstr "{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close} LUOKITUS SAAVUTETTU"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "PALKINTO UUDESTA LUOKITUKSESTASI"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "PALKINTO SAATU"
+msgstr[1] "PALKINTOJA SAATU"
+msgstr[2] "PALKINTOJA SAATU"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "VIIKOTTAISEN TEHTÄVÄN PALKINNOT"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "VUOSIPALKINNOT"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "Mukana saat:"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "RYNNISTYS"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "VALITSE PALKINTO"
+msgstr[1] "VALITSE PALKINNOT"
+msgstr[2] "VALITSE PALKINNOT"
+
+msgid "scoreTooltip/body"
+msgstr "Ansaitsemasi luokituspisteet määrittävät luokituksesi ja divisioonasi \"Rynnistys\" -pelimuodossa. Voita taisteluita tullaksesi parhaaksi!"
+
+msgid "scoreTooltip/header"
+msgstr "Luokituspisteet"
+
+msgid "season/daysLeft"
+msgstr "Päättymiseen %(totalDays)s p"
+
+msgid "season/hoursLeft"
+msgstr "Päättymiseen %(hours)s t"
+
+msgid "season/minutesLeft"
+msgstr "Päättymiseen %(minutes)s min"
+
+msgid "season/over"
+msgstr "%(seasonName)s on päättynyt"
+
+msgid "season/range"
+msgstr "%(startDate)s–%(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "Päättymiseen %(seconds)s s"
+
+msgid "seasonName/first"
+msgstr "Taivaansinisen lohikäärmeen kausi"
+
+msgid "seasonName/second"
+msgstr "Verenpunaisen lohikäärmeen kausi"
+
+msgid "seasonName/third"
+msgstr "Jadenvihreän lohikäärmeen kausi"
+
+msgid "seasonPointTooltip/header"
+msgstr "Rynnistys-liput"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "Saatu"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "Ei saatu"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "Olet kisaamassa Rynnistys-lippujen saamisesta"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "Käyttämättömät Rynnistys-liput muunnetaan arvopapereiksi tällä suhteella: {bond_Open}1 Rynnistys-lippu{bond_Close} : {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "Kunkin kauden päättyessä saat Rynnistys-lippuja saavutettuun luokitukseesi perustuen."
+
+msgid "seasonPointTooltip/text/year"
+msgstr "Jokainen kolme Rynnistys-lippua parantaa vuoden lopussa saatavan palkinnon laatua."
+
+msgid "seasonStatistics/button/fifth"
+msgstr "Missä on palkintoni?!"
+
+msgid "seasonStatistics/button/first"
+msgstr "Tämä on hyvä"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "Aarre!"
+
+msgid "seasonStatistics/button/second"
+msgstr "Selvä!"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "Legendaarista!"
+
+msgid "seasonStatistics/button/third"
+msgstr "Minä palaan"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "Lopullinen kauden luokitus"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "Sijoitus tuloslistalla: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "RYNNISTYS. %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "Saatiin %(points)s Rynnistys-lippu"
+msgstr[1] "Saatiin %(points)s Rynnistys-lippua"
+msgstr[2] "Saatiin %(points)s Rynnistys-lippua"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "KAUSI I. TAIVAANSININEN LOHIKÄÄRME"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "KAUSI II. VERENPUNAINEN LOHIKÄÄRME"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "KAUSI III. JADENVIHREÄ LOHIKÄÄRME"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "Voitot: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "Taisteluita\nkäyty"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "Keskimäärin: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "Vahinko-\nennätys"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "Tapposuhde: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "Tuhoamisennätys\ntaistelussa"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "Keskimäärin: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "Arvovaltapiste-\nennätys"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "KAUDEN TILASTOT"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "Superosastossa: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "Voittoputki\n(yksin/osastossa)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "Taistelut"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "—"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "Ei vaunuja"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "ENSISIJAISET VAUNUT"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "Voitot"
+
+msgid "seasonStatistics/title"
+msgstr "\"%(name)s\" -KAUDEN TILASTOT"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "Kauden päättymiseen:"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "—"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s–%(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "Pelien aikataulu"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "Tänään"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "Huomenna"
+
+msgid "selectorTooltip/desc"
+msgstr "Kilpailullinen pelimuoto. 7v7 | Taso X"
+
+msgid "selectorTooltip/title"
+msgstr "Rynnistys"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Seuraa uusimpia uutisia pelin portaalissa pysyäksi ajan hermoilla uuden kauden alkamisesta."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Tämä pelimuoto ei väliaikaisesti ole saatavilla teknisten syiden tähden."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Tämä pelimuoto tulee saatavilla %(time)s"
+
+msgid "shortSeasonName/first"
+msgstr "Taivaansininen lohikäärme"
+
+msgid "shortSeasonName/second"
+msgstr "Verenpunainen lohikäärme"
+
+msgid "shortSeasonName/third"
+msgstr "Jadenvihreä lohikäärme"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "Tämä osio sisältää tietoa kuluvan \"Rynnistys\" -pelimuodon kauden parhaista pelaajista."
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Tämä osio sisältää tietoja karsinnoista sekä luokituksestasi, divisioonastasi ja luokituspisteistäsi niiden päättymisen jälkeen."
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "Tämä osio sisältää tietoa palkinnoista, joita voi saada korkeampien luokitusten saavuttamisesta \"Rynnistys\" -pelimuodossa."
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "Tämä osio sisältää tietoa tavaroista, joita on saatavilla Rynnistyksen kaupassa"
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "Tämä osio sisältää tietoa Rynnistys -pelimuodon viikoittaisista tehtävistä."
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "Tämä osio sisältää tietoja vuosipalkinnoista, joita voit saada ansaitsemalla Rynnistys-lippuja."
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "Tämä osio sisältää tietoa saavutuksistasi kullakin nykyisen Rynnistyksen vuoden kaudella."
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "Tuloslista"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Luokitusjärjestelmä"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "Palkinnot sijoitusluokista"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "Rynnistyksen kauppa"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "Viikoittaiset tehtävät"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "Vuotuiset palkinnot"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "Vuoden tilastot"
+
+msgid "sixthRankTooltip/description"
+msgstr "{eeede9e6_Open}Legendan{eeede9e6_Close} luokitus myönnetään {eeede9e6_Open}%(topPercentage) parhaalle%{eeede9e6_Close} tuloslistan pelaajalle luokituspisteiden perusteella."
+
+msgid "style3dTooltip/954"
+msgstr "Hopeapiikit"
+
+msgid "style3dTooltip/955"
+msgstr "Kultaiset kynnet"
+
+msgid "style3dTooltip/956"
+msgstr "Mestarin siivet"
+
+msgid "style3dTooltip/957"
+msgstr "Legendaarinen olento"
+
+msgid "style3dTooltip/description"
+msgstr "Vahva kuin leijona, hurja kuin lohikäärme ja kuolettava kuin skorpioni; tämä peto on metallinen versio olennosta, jota on pelätty antiikin ajoista asti."
+
+msgid "style3dTooltip/howToReceive"
+msgstr "Kuinka saada"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "Myönnetään vähintään yhdeksän Rynnistys-lipun keräämisestä Manticoran vuoden aikana Rynnistys -pelimuodossa."
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "Myönnetään vähintään 12 Rynnistys-lipun keräämisestä Manticoran vuoden aikana Rynnistys -pelimuodossa. Korvaa edellisen tyylin."
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "Myönnetään vähintään 15 Rynnistys-lipun keräämisestä Manticoran vuoden aikana Rynnistys -pelimuodossa. Korvaa edellisen tyylin."
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "Myönnetään vähintään 18 Rynnistys-lipun keräämisestä Manticoran vuoden aikana Rynnistys -pelimuodossa. Korvaa edellisen tyylin."
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "Sopii vaunuille"
+
+msgid "system_messages/periodicReward/body"
+msgstr "Olet saanut päivittäisen palkintosi %(rank)s -luokituksen säilyttämisestä.\n%(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "Päivittäinen palkinto"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Tulitauko voimassa. Rynnistyksen taistelut eivät väliaikaisesti ole saatavilla."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Tulitauko"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Tulitauko ohi. Rynnistyksen taistelut ovat jälleen saatavilla."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Tulitauko"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "Onneksi olkoon! Olet saavuttanut luokituksen: %(maxRank)s\nOlet saanut palkinnot seuraavista luokituksista: %(ranks)s:\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "Karsinnat suoritettu"
+
+msgid "system_messages/regularReward/body"
+msgstr "Päivämäärä: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "Kuitti"
+
+msgid "system_messages/shop/offer/button"
+msgstr "Mene kauppaan"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "Uusia tarjouksia saatavilla Rynnistyksen kaupassa!"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "Alennus kasvoi"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "Uusia tavaroita on nyt saatavilla Rynnistyksen kaupassa!"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "Uusia tavaroita saatavilla"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "Maksuvirhe. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "Päivämäärä: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "Palkinnot viikottaisten tehtävien suorittamisesta"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "Päivämäärä: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "Palkinto viikoittaisesta tehtävästä"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Rynnistyksestä"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "Kausipäivitykset"
+
+msgid "tournament/LBFinals"
+msgstr "AK FINAALIT"
+
+msgid "tournament/LBRound1"
+msgstr "AK KIERROS 1"
+
+msgid "tournament/LBRound2"
+msgstr "AK KIERROS 2"
+
+msgid "tournament/LBSemifinals"
+msgstr "AK VÄLIERÄT"
+
+msgid "tournament/UBFinals"
+msgstr "YK FINAALIT"
+
+msgid "tournament/UBSemifinals"
+msgstr "YK VÄLIERÄT"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "Luokituspisteitä ei voi ansaita tai menettää turnauksessa."
+
+msgid "tournament/bestOf"
+msgstr "PARAS %(number)s PELISTÄ"
+
+msgid "tournament/cny"
+msgstr "%(amount)s CNY"
+
+msgid "tournament/cnySign"
+msgstr "¥%(amount)s"
+
+msgid "tournament/comeBack"
+msgstr "Ole hyvä ja yritä myöhemmin uudelleen"
+
+msgid "tournament/comingSoon"
+msgstr "TULOSSA PIAN %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "AJAT VOIVAT VAIHDELLA PELIEN PITUUDESTA RIIPPUEN"
+
+msgid "tournament/completed"
+msgstr "VALMIS"
+
+msgid "tournament/douyin"
+msgstr "Katso Doiyinissa"
+
+msgid "tournament/drops/huya"
+msgstr "Katso Huayassa ja ansaitse eksklusiivisia\nHuya-pudotuksia!"
+
+msgid "tournament/drops/twitch"
+msgstr "Katso Twitchissä ja ansaitse eksklusiivisia\nTwitch-pudotuksia!"
+
+msgid "tournament/dropsShort/huya"
+msgstr "Ja ansaitse eksklusiivisia Huya-pudotuksia!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "Ja ansaitse eksklusiivisia Twitch-pudotuksia!"
+
+msgid "tournament/error"
+msgstr "VIRHE LADATESSA TIETOJA"
+
+msgid "tournament/eur"
+msgstr "%(amount)s EUR"
+
+msgid "tournament/euroSign"
+msgstr "%(amount)s€"
+
+msgid "tournament/finalResult"
+msgstr "VOITTAJA"
+
+msgid "tournament/fundDistribution"
+msgstr "PALKINTOPOTIN JAKO"
+
+msgid "tournament/grandFinals"
+msgstr "SUURFINAALI"
+
+msgid "tournament/huya"
+msgstr "Katso Hyuassa"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "Palkintopotti muodostuu pelaajien pakettiostoksista. Päivitetty viimeksi: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "EI ENEMPÄÄ AIKATAULUTETTUJA PELEJÄ"
+
+msgid "tournament/ols/roundRobin"
+msgstr "VAIHE %(phase)s KIERROS %(round)s"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s – %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "PALKINTOPOTTI %(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "JA TILAISUUS ANSAITA IKUISTA KUNNIAA"
+
+msgid "tournament/refresh"
+msgstr "Päivitä"
+
+msgid "tournament/refreshing"
+msgstr "Päivitetään..."
+
+msgid "tournament/roundOf"
+msgstr "KIERROS %(number)s"
+
+msgid "tournament/separator"
+msgstr "TAI"
+
+msgid "tournament/tab/overview"
+msgstr "YLEISKATSAUS"
+
+msgid "tournament/tab/schedule"
+msgstr "AIKATAULU"
+
+msgid "tournament/teamPlaceholder"
+msgstr "TULOSSA"
+
+msgid "tournament/toShop"
+msgstr "Vieraile Kaupassa"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "Vaihda"
+
+msgid "tournament/tokenStore/ols"
+msgstr "OLS-POLETIT"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "Saatavilla:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "Turnauksesta"
+
+msgid "tournament/twitch"
+msgstr "Katso Twitchissä"
+
+msgid "tournament/viewFull"
+msgstr "Näytä kaikki"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "Tue Onslaught Legends Seriesiä samalla, kun kasvatat palkintopottia turnauspaketeilla!"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "Näytä rakkauttasi esportsiin eksklusiivisilla, teemaan tehdyillä muokkauselementeillä ja ainutlaatuisilla vaunuilla!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "KASVATA PALKINTOPOTTIA"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "WCI-PAKETIT"
+
+msgid "tournament/vsBestOf"
+msgstr "VS\nPARAS %(number)s PELISTÄ"
+
+msgid "tournament/wci/roundRobin"
+msgstr "RISTIINPELUU"
+
+msgid "tournament/winner"
+msgstr "Voittaja"
+
+msgid "tournament/youtube"
+msgstr "Katso Youtubesta"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "Parhaat eurooppalaiset joukkueet taistelevat Onslaught Legends Seriesin mestaruudesta! Katso jännittäviä 7v7 Rynnistys-pelejä, ansaitse Twitch-pudotuksia ja tue suosikkijoukkueitasi kasvattamalla palkintopottia ostamalla eksklusiivisia muokkauselementtien paketteja."
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "Suzhoussa Kiinassa on alkamaisillaan eeppinen yhteenotto maailman hurjimpien joukkueiden välillä Rynnistyksen säännöillä ja he kaikki tavoittelevat arvostettua maailmanmestarin titteliä. Koe jännitys, kun legendat syntyvät taistelukentällä!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "OLS Kausi 6"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI'25"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "Livestriimit tulevat saataville %(timer)s kuluttua"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "Lisää pelejä %(timer)s kuluttua"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "Luokituspisteitä ei voi ansaita Rynnistyksen harjoituksissa."
+
+msgid "unit/message/modeOffline"
+msgstr "Taisteluun liittyminen ei onnistu: Tietokantavirhe."
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "Luokituseron raja ylitetty"
+
+msgid "voiceChat/active"
+msgstr "Poistu äänikeskustelusta"
+
+msgid "voiceChat/inactive"
+msgstr "Liity äänikeskusteluun"
+
+msgid "waitingSpinner/message"
+msgstr "Ladataan sisältöä..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "Rynnistyksen tehtävät suoritettu"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "Hienosti tehty! Olet suorittanut kaikki viikoittaiset tehtävät. Älä unohda lunastaa palkintoasi ja nähdään ensi kaudella!"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "Saat ylimääräisiä palkintoja suorittamalla {eeede9e5_Open}%(questsList)s{eeede9e5_Close} ja {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close} tehtäviä"
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "Rynnistyksen viikoittainen tehtävä"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "Suoritettu: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s uuden tehtävän avautumiseen:"
+msgstr[1] "%(value)s uuden tehtävän avautumiseen:"
+msgstr[2] "%(value)s uuden tehtävän avautumiseen:"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "Palkinto:"
+msgstr[1] "Palkinnot:"
+msgstr[2] "Palkinnot:"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)s UUDEN TEHTÄVÄN AVAUTUMISEEN %(countdown)s"
+msgstr[1] "%(value)s UUDEN TEHTÄVÄN AVAUTUMISEEN %(countdown)s"
+msgstr[2] "%(value)s UUDEN TEHTÄVÄN AVAUTUMISEEN %(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "UUSIA TEHTÄVIÄ ENSI KAUDELLA!"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "Tehtäviä suoritettu: %(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "Saat %(value)s uuden tehtävän joka viikko. Kukin suoritettu tehtävä lasketaan palkintoosi!"
+msgstr[1] "Saat %(value)s uutta tehtävää joka viikko. Kukin suoritettu tehtävä lasketaan palkintoosi!"
+msgstr[2] "Saat %(value)s uutta tehtävää joka viikko. Kukin suoritettu tehtävä lasketaan palkintoosi!"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "Meneillään"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "Suoritettu"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "Ei saatavilla"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "Ei saatavilla suoritettavaksi: pelimuoto ei ole aktiivinen."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "Avataksesi tutki ja osta tason X vaunu."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "Suorita edellinen tehtävä avataksesi tämä."
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "Tehtävä ei saatavilla"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "Ota vastaan palkintosi!"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "Suoritettu: %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "Tehtävä %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s uuden tehtävän avautumiseen:"
+msgstr[1] "%(value)s uuden tehtävän avautumiseen:"
+msgstr[2] "%(value)s uuden tehtävän avautumiseen:"
+
+msgid "whatsNewButtonLabel"
+msgstr "KAUSIPÄIVITYKSET"
+
+msgid "whatsNewView/banner/description"
+msgstr "Tämä kausi on viimeinen tilaisuutesi lunastaa arvokkaita palkintoja, joiden joukossa on eksklusiivinen tason X raskas Ashbringer vaunu kaikilla ainutlaatuisilla kolmiulotteisilla tyyleillä, jotka olet ansainnut sille, ja pelottomalla miehistöllä, jolla on \"Aseveljet\" -nollapätevyys. Lisäksi tarjolla on valittavaksi paranneltuja ja kokeellisia varusteita, katseen vangitseva kaksiulotteinen tyyli ja paljon muuta. Älä jätä välistä – voittosi odottavat sinua taistelukentällä!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "Tartu lohikäärmeen vuoden viimeisiin hetkiin!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "JADENVIHREÄN LOHIKÄÄRMEEN KAUSI"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "RYNNISTYS. MITÄ UUTTA?"
+
+msgid "whatsNewView/button/ok"
+msgstr "Se-le-vä!"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "Paranneltu taistelun jälkeinen ruutu päivityksen 2.0 designilla antaa sinulle enemmän pelimuotoon liittyvää tietoa jokaisen taistelun jälkeen."
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "Yksityiskohtaiset taistelun tulokset"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "Ei hätää, vaikka suosikkivaunusi estettäisiin. Vuokravaunut tulevat nyt valmiiksi laitetun miehistön, varusteiden, ammusten ja kulutustarvikkeiden kera."
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "Taisteluvalmiit vuokravaunut %(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "Tällä kaudella kumpikin joukkue voi estää tyystin yhden vaunun taistelusta. Koordinoikaa äänenne liittolaisten kanssa estääksenne kaikkein pelätyimmän sotakoneen tai valmistellaksenne yllätyksen vihollisille."
+
+msgid "whatsNewView/intro/heading"
+msgstr "Estetyt vaunut %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "Kartat"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "Uusia vaunuja saatavilla Rynnistyksessä"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "VUOKRAVAUNUT"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "Hiljattain julkaistu amerikkalainen tason X keskiraskas Ares 90 on nyt saatavilla pelimuodossa sille säädetyllä roolitaidolla."
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "Roolitaidon päivitys %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "114 SP 2 on nyt ostettavissa hopeisella arvolla Rynnistyksen kaupassa."
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "Kaupan päivityksiä %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "POISTETTU"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "UUDELLEENKEHITETTÄVÄNÄ"
+
+msgid "whatsNewView/tag/attention"
+msgstr "Huomio"
+
+msgid "whatsNewView/tag/changed"
+msgstr "Muutettu"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "Kokeellinen"
+
+msgid "whatsNewView/tag/new"
+msgstr "Uusi"
+
+msgid "whatsNewView/tag/returned"
+msgstr "Palannut"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "Uudistettu"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "Kausipäivitys"
+
+msgid "whatsNewView/watchVideo"
+msgstr "Katso video"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "Voittosuhde (päivä) %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "Tappiot: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "Tasapelit: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "Voittosuhde (kausi) %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "Kaikkien voittojen määrän suhde pelattujen taisteluiden määrään.\nTaistelut tuloksien mukaan:"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "Voitot: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "Palkinnot toimitetaan kolmannen kauden päättyessä."
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "Palkinnot toimitetaan pian. Ole hyvä ja odota."
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "Vuosipalkinto saatu. Nähdään ensi vuonna!"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "Sinulla on varuste valittavaksi"
+
+msgid "yearlyRewards/claim"
+msgstr "Ota vastaan"
+
+msgid "yearlyRewards/claimReward"
+msgstr "Ota vastaan palkinto"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "Sait 1 %(seasonPointIcon)s kustakin sijoitusluokasta kauden päättyessä."
+
+msgid "yearlyRewards/description/current"
+msgstr "Saat 1 %(seasonPointIcon)s kustakin sijoitusluokasta kauden päättyessä."
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\nainutlaatuisilla 3D-tyyleillä"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "VUOSIPALKINTOIHIN"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "Esikatsele kaksiulotteinen tyyli"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "Esikatsele kolmiulotteinen tyyli"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "Sijoitusluokka saavutettu: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "Nykyinen luokitus: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "Neljä ainutlaatuista miehistön jäsentä"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "Palkinto vastaanotettu"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "Palkinto taattu"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "Ansaitse yhteensä %(count)s lippua saadaksesi vaihepalkintoja"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "Mahdollinen palkinto"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "Saat taatusti tämän palkinnon vuoden päättyessä."
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "Ansaitse vaadittu määrä Rynnistys-lippuja saadaksesi palkintosi vuoden lopussa."
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "Saat tämän palkinnon vuoden lopussa, jos pidät nykyisen luokituksesi tai parannat sitä ennen kauden loppumista."
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "Aktiivinen vaihe"
+
+msgid "yearlyStatistics/battles"
+msgstr "Taistelut (yksin/osasto)"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "Lasketaan kauden tilastoja..."
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)sKauden tilastoihin"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "Ei luokitusta"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "%(rank)s -luokitus"
+
+msgid "yearlyStatistics/rating"
+msgstr "Luokituspisteet"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "Syksy 2025"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "Talvi 2026"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "Kevät 2026"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s–%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "KAUSI I. TAIVAANSININEN LOHIKÄÄRME"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "KAUSI II. VERENPUNAINEN LOHIKÄÄRME"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "KAUSI III. JADENVIHREÄ LOHIKÄÄRME"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "Nykyinen"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "Valmis"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "Taistelut (superosasto)"
+
+msgid "yearlyStatistics/wins"
+msgstr "Voittoprosentti"

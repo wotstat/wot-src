@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "button/progression"
+msgstr "Покажи напредъка"
+
+msgid "button/select"
+msgstr "Конфигурирай"
+
+msgid "event/battlePass/name"
+msgstr "Боен пропуск сезон %(seasonNum)s"
+
+msgid "event/finished"
+msgstr "%(eventName)s\nзавърши"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\nще започне на %(date)s"
+
+msgid "event/paused"
+msgstr "%(eventName)s\nе временно недостъпно"
+
+msgid "event/ranked/name"
+msgstr "Сезон %(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "ВИЖ В РЕЖИМ НА НАПРЕДЪК"
+
+msgid "mode/epicBattle/condition"
+msgstr "30х30 &nbsp;{par_open}I{par_close}&nbsp;нива&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30х30&nbsp;{par_open}I{par_close}&nbsp;ниво&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "Събитието\nще започне на %(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Този режим\nще стартира скоро"
+
+msgid "mode/epicBattle/description"
+msgstr "Режим с напредък и награди."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "Събитието завърши"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "Сражавайки се с машини ниво VIII във {whiteSpanish_open}Фронтова линия{whiteSpanish_close}, печелите точки, които ви позволяват да вървите напред в напредъка за Боен пропуск."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Точки за Боен пропуск"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "Сражавайки се с машини ниво VIII–X l {whiteSpanish_open}Разузнавателна мисия{whiteSpanish_close}, печелите точки, които ви позволяват да вървите напред в напредъка за Боен пропуск."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Точки за Боен пропуск"
+
+msgid "mode/mapbox/condition"
+msgstr "15х15 %(parSecondary_open)sI%(parSecondary_close)s ниво&nbsp;VIII–X"
+
+msgid "mode/mapbox/description"
+msgstr "Нови механики на картите."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Визуалните ефекти за времето зависят от общите ви графични настройки. При ниски графични настройки може да възникнат визуални недоразумения и проблеми. Препоръчваме да изберете най-високата графична настройка за възможно най-добро изживяване, при условие че спецификациите на вашия компютър отговарят на изискванията. Режимът изисква висока производителност на компютъра. Скоростта на FPS може да намалее по време на интензивни битки."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "Препоръчват се най-високите графични настройки"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Препоръчват се най-високите графични настройки"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Научете картите"
+
+msgid "mode/mapsTraining/description"
+msgstr "Научете картите"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "Сражавайки се с машини ниво IV–XI в {whiteSpanish_open}Случайни битки{whiteSpanish_close}, ще печелите точки, които ви позволяват да продължите в напредъка на Боен пропуск."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Точки за Боен пропуск"
+
+msgid "mode/random/condition"
+msgstr "15х15 %(parSecondary_open)sI%(parSecondary_close)s нива&nbsp;I–XI"
+
+msgid "mode/random/description"
+msgstr "Битки с автоматично поставяне в битка."
+
+msgid "mode/random/setup"
+msgstr "Конфигурирай"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "Сражавайки се с машини ниво Х в {whiteSpanish_open}Битки за Класацията{whiteSpanish_close}, печелите точки, които ви позволяват да вървите напред в напредъка за Боен пропуск."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Точки за Боен пропуск"
+
+msgid "mode/ranked/condition"
+msgstr "10х10 %(parSecondary_open)sI%(parSecondary_close)s ниво&nbsp;X"
+
+msgid "mode/ranked/description"
+msgstr "Режим с напредък и награди."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Запиши се за турнир"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Следваща битка: %(date)s в %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1х1–15х15 %(parSecondary_open)sI%(parSecondary_close)s ниво&nbsp;I–X"
+
+msgid "mode/specBattlesList/description"
+msgstr "Глобална карта и турнири."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Сражавай се като легионер"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Сражавай се в клан"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7х7–15х15 %(parSecondary_open)sI%(parSecondary_close)s ниво&nbsp;VI–X"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Кланови битки да производствени ресурси."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Тренировъчни стаи: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1х1–15х15 %(parSecondary_open)sI%(parSecondary_close)s ниво&nbsp;I–X"
+
+msgid "mode/trainingsList/description"
+msgstr "Въвеждащи битки."
+
+msgid "novelty"
+msgstr "НОВО"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Битки в квалификация: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "Можете да получите уникални триизмерни приставки за игра в режима."
+
+msgid "reward/attachment/name"
+msgstr "Триизмерни приставки"
+
+msgid "reward/bones/description"
+msgstr "Наградата се определя в зависимост от ефективността ви в битка."
+
+msgid "reward/bones/name"
+msgstr "Бонове"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Можете да получите %(name)s за игра в режима."
+
+msgid "reward/bountyEquipment/name"
+msgstr "Специално оборудване"
+
+msgid "reward/credits/description"
+msgstr "Наградата се определя в зависимост от ефективността ви в битка."
+
+msgid "reward/credits/name"
+msgstr "Кредити"
+
+msgid "reward/crew/description"
+msgstr "Можете да получите уникални членове на екипажа за игра в режима."
+
+msgid "reward/crew/name"
+msgstr "Членове на екипажа"
+
+msgid "reward/experience/description"
+msgstr "Наградата се определя в зависимост от ефективността ви в битка."
+
+msgid "reward/experience/name"
+msgstr "Опит"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "Можете да получите различно експериментално оборудване за игра в режима."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Специално оборудване"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Можете да получите %(name)s за игра в режима."
+
+msgid "reward/improvedEquipment/name"
+msgstr "Специално оборудване"
+
+msgid "reward/lootBoxes/description"
+msgstr "Можете да получите кутии за игра в режима."
+
+msgid "reward/lootBoxes/name"
+msgstr "Специални кутии"
+
+msgid "reward/other/description"
+msgstr "Можете да получите множество полезни награди за игра в режима."
+
+msgid "reward/other/name"
+msgstr "Специална награда"
+
+msgid "reward/progressionStyle/description"
+msgstr "Можете да получите специален прогресивен стил за игра в този режим."
+
+msgid "reward/progressionStyle/name"
+msgstr "Прогресивен стил"
+
+msgid "reward/random/description"
+msgstr "Можете да получите множество полезни награди за игра в режима."
+
+msgid "reward/random/name"
+msgstr "Случайна награда"
+
+msgid "reward/style/description"
+msgstr "Можете да получите специален триизмерен стил за %(name)s за игра в режима."
+
+msgid "reward/style/name"
+msgstr "Триизмерен стил"
+
+msgid "reward/vehicle/description"
+msgstr "Можете да получите %(name)s за игра в режима."
+
+msgid "reward/vehicle/name"
+msgstr "Наградни машини"
+
+msgid "selectMap"
+msgstr "Предварителни настройки за Случайни битки"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s д."
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s ч."
+
+msgid "status/timeLeft/lessMin"
+msgstr "под минута"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s мин."
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "ИЗБЕРЕТЕ РЕЖИМ НА БИТКА"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Глобална карта"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Завладявайте провинции и се сражавайте за глобално господство. Този режим е достъпен само за членове на кланове."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Влезте в клан"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Битки на Глобалната карта"
+
+msgid "window/battleSession/title"
+msgstr "СПЕЦИАЛНА БИТКА"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Списък с турнири"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Тази функционалност е недостъпна в момента, но ще бъде достъпна в бъдеще.Моля изчакайте."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Сражавайте се сами или в отбор, покажете какво можете и получете ценни награди."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Турнири"

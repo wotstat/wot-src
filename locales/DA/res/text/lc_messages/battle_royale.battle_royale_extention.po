@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To:\nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "battleQuestAwards/button"
+msgstr "Bekræftet!"
+
+msgid "battleQuestAwards/stPatrick/subTitle"
+msgstr "STÅLJÆGER: TREKLØVER-SHOWDOWN"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "STÅLJÆGER"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "ENDELIGT STADIE FULDFØRT!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "STADIE %(level)s FULDFØRT!"
+
+msgid "dailyBonus/description"
+msgstr "%(dailyBonus)s Bonus til lykkesegl for at være i top %(soloTopPlaces)s blandt spillerne i solokampe, eller i top %(squadTopPlaces)s i kampe i en deling. Bonussen kan aktiveres én gang om dagen for hvert eventkøretøj."
+
+msgid "eventShop"
+msgstr "Event-butik"
+
+msgid "leaveBattleView/confirmation/cancel"
+msgstr "Bliv"
+
+msgid "leaveBattleView/confirmation/submit"
+msgstr "Deserter"
+
+msgid "leaveBattleView/description"
+msgstr "Dine køretøjer kan stadig kæmpe. Hvis du forlader kampen nu, vil du ikke modtage belønninger for den. Er du sikker på du vil forlade kampen?"
+
+msgid "leaveBattleView/title"
+msgstr "Desertering fra slagmarken"
+
+msgid "leaveBattleView/warning"
+msgstr "Du vil ikke modtage belønninger!"
+
+msgid "progress/counter"
+msgstr "{{current}}{{divider}}{{total}}"
+
+msgid "progressionComplete"
+msgstr "Primært fremskridt fuldført!"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s eller %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/questsTotal/text"
+msgstr "Fuldførte missioner: "
+
+msgid "progressionView/battleQuests/timer/eventResetTime/text"
+msgstr "Event slutter om:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Missioner vil opdateres om"
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/seasonRange"
+msgstr "%(startDate)s – %(endDate)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Fremskridt fuldført. Spil videre i Ståljæger for at optjene flere belønninger."
+
+msgid "progressionView/subTitle/endEvent"
+msgstr "Eventet er slut. Missioner og fremskridt er ikke længere tilgængelige."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Fuldfør missioner for at optjene fremskridtspoint.\nAntallet af point du optjener afhænger også af din placering i kampen. %(infotip)s"
+
+msgid "proxy_currency_tooltip/earn/description/brcoin"
+msgstr "Modtag stålsegl for en effektiv kamppræstation, hvor du når en høj placering i kampresultaterne, og fuldfører kamptypens missioner."
+
+msgid "proxy_currency_tooltip/earn/description/stpcoin"
+msgstr "Modtag lykkesegl for at opsamle krigsbytte i kamp, fuldføre fremskridtsstadier og indtage topplaceringerne i Ståljæger."
+
+msgid "proxy_currency_tooltip/earn/title/brcoin"
+msgstr "Sådan optjenes segl"
+
+msgid "proxy_currency_tooltip/earn/title/stpcoin"
+msgstr "Sådan optjenes segl"
+
+msgid "proxy_currency_tooltip/spend/description/brcoin"
+msgstr "Brug de optjente stålsegl til at købe Ståljæger-stile."
+
+msgid "proxy_currency_tooltip/spend/description/stpcoin"
+msgstr "Veksl dine optjente lykkesegl til værdifulde belønninger i Trekløver-butikken."
+
+msgid "proxy_currency_tooltip/spend/title/brcoin"
+msgstr "Hvad du kan bruge segl til"
+
+msgid "proxy_currency_tooltip/spend/title/stpcoin"
+msgstr "Hvad du kan bruge segl til"
+
+msgid "proxy_currency_tooltip/title/brcoin"
+msgstr "Stålsegl"
+
+msgid "proxy_currency_tooltip/title/stpcoin"
+msgstr "Lykkesegl"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Tildelt for at fuldføre særlige missioner i Ståljæger. De lader dig avancere i fremskridtet."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Ståljæger-fremskridtspoint"
+
+msgid "rewardCurrencyTooltip/body/battlePassPoints"
+msgstr "Point kan optjenes ved at deltage i kampe og fuldføre særlige missioner. De tilføjes automatisk til Battle Pass-fremskridtet."
+
+msgid "rewardCurrencyTooltip/body/brProgressionToken"
+msgstr "Tildelt for at fuldføre Ståljæger-missioner og for gode kampresultater. De giver dig mulighed for at avancere gennem fremskridtet."
+
+msgid "rewardCurrencyTooltip/body/brcoin"
+msgstr "Stålsegl kan modtages for en effektiv kamppræstation, hvor du når en høj placering i kampresultaterne og fuldfører særlige missioner."
+
+msgid "rewardCurrencyTooltip/body/credits"
+msgstr "Den primære in-game valuta. Optjent i kampe eller købt for guld."
+
+msgid "rewardCurrencyTooltip/body/crystal"
+msgstr "En sjælden særlig valuta brugt til at købe unikke genstande, som er utilgængelige på andre måder."
+
+msgid "rewardCurrencyTooltip/body/stpcoin"
+msgstr "Valuta, der kan optjenes i Ståljæger-kampe. Segl kan veksles til unikke belønninger i Trekløver-butikken. Når du spiller i en deling, bliver segl fordelt ligeligt mellem delingsmedlemmerne. Det angivne antal er din del af den samlede indtjening."
+
+msgid "rewardCurrencyTooltip/body/xp"
+msgstr "Xp optjent i særlige køretøjer kan konverteres til fri xp."
+
+msgid "rewardCurrencyTooltip/dailyBonus/stpcoin"
+msgstr "Bonus anvendt! Antallet af segl modtaget i kamp forøges %(count)s gange."
+
+msgid "rewardCurrencyTooltip/header/battlePassPoints"
+msgstr "Battle Pass-point"
+
+msgid "rewardCurrencyTooltip/header/brProgressionToken"
+msgstr "Ståljæger-fremskridtspoint"
+
+msgid "rewardCurrencyTooltip/header/brcoin"
+msgstr "Stålsegl"
+
+msgid "rewardCurrencyTooltip/header/credits"
+msgstr "Credits"
+
+msgid "rewardCurrencyTooltip/header/crystal"
+msgstr "Obligationer"
+
+msgid "rewardCurrencyTooltip/header/stpcoin"
+msgstr "Lykkesegl"
+
+msgid "rewardCurrencyTooltip/header/xp"
+msgstr "Kamp xp"
+
+msgid "rewardCurrencyTooltip/premiumBonus/brcoin"
+msgstr "WoT premium konto øger den optjente mængde af denne valuta med 50%."
+
+msgid "rewardCurrencyTooltip/premiumBonus/credits"
+msgstr "WoT premium konto øger den optjente mængde af denne valuta med 50%."
+
+msgid "rewardCurrencyTooltip/premiumBonus/xp"
+msgstr "WoT premium konto øger den optjente mængde af kamp xp med 50%."
+
+msgid "serviceChannelMessages/awards"
+msgstr "Belønning modtaget:"
+
+msgid "serviceChannelMessages/body"
+msgstr "Du har fuldført fremskridtsstadie %(stage)s i %(progressionName)s-kamptypen."
+
+msgid "serviceChannelMessages/header"
+msgstr "Tillykke!"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Detaljer"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "STÅLJÆGER"
+
+msgid "tab/label/platoon"
+msgstr "DELING"
+
+msgid "tab/label/solo"
+msgstr "SOLO"
+
+msgid "tab/label/team"
+msgstr "MED VEN"
+
+msgid "tooltip/banner/description"
+msgstr "Dynamisk sidste-mand-i-live battle royale i en postapokalyptisk verden. Kæmp i otte særlige køretøjer, der kan blive opgraderet, når du kæmper, og bliver stærkere for hvert niveau. Eksklusive belønninger og meget mere venter dig!"
+
+msgid "tooltip/banner/mode/description"
+msgstr "— Kamptype. Klik for at udforske"
+
+msgid "tooltip/banner/mode/label"
+msgstr "TYPE"
+
+msgid "tooltip/banner/performanceRisk/description/high"
+msgstr "Din computers ydeevne er ikke tilstrækkelig til denne kamptype. Du vil måske opleve problemer med grafikken og køretøjets bevægelser. Det er også sandsynligt at klienten vil crashe."
+
+msgid "tooltip/banner/performanceRisk/description/medium"
+msgstr "Denne kamptype kræver høj ydelse af computeren. Du vil opleve problemer med kortindlæsning, grafik og køretøjsbevægelser. I tilfælde af utilstrækkelig ydeevne, prøv en lavere grafikindstilling i indstillingerne."
+
+msgid "tooltip/banner/performanceRisk/title/high"
+msgstr "Lav ydeevne"
+
+msgid "tooltip/banner/performanceRisk/title/medium"
+msgstr "Mulig reduceret ydeevne"
+
+msgid "tooltip/banner/stPatrickDescription"
+msgstr "Dynamisk sidste-mand-i-live battle royale med en snært af grøn magi. Kæmp i otte særlige køretøjer, der kan blive opgraderet, når du kæmper, og bliver stærkere for hvert niveau. Eksklusive belønninger og meget mere venter dig!"
+
+msgid "tooltip/banner/stPatrickTitle"
+msgstr "Trekløver-showdown"
+
+msgid "tooltip/banner/timer/text/accent"
+msgstr "Event tilgængelig i %(timer)s"
+
+msgid "tooltip/banner/timer/text/cooldown"
+msgstr "Våbenhvile %(timer)s"
+
+msgid "tooltip/banner/title"
+msgstr "Ståljæger"
+
+msgid "tooltip/daily_quests/header"
+msgstr "Fuldført"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Nye Ståljæger-missioner om {{timeLeft}}"
+
+msgid "tooltip/daily_quests/reward"
+msgid_plural "plural/tooltip/daily_quests/reward"
+msgstr[0] "Belønning:"
+msgstr[1] "Belønninger:"
+msgstr[2] "Belønninger:"
+
+msgid "tooltip/daily_quests/text"
+msgstr "Alle missioner fuldført!"
+
+msgid "tooltip/progressionWidget/description/completed"
+msgstr "Godt arbejde, kommandør. Bliv ved!"
+
+msgid "tooltip/progressionWidget/description/header"
+msgstr "Primært fremskridt fuldført!"
+
+msgid "tooltip/progressionWidget/description/inProgress"
+msgstr "For at avancere i fremskridtet, fuldfør missioner og nå topplaceringerne i Ståljæger-kampe."
+
+msgid "tooltip/progressionWidget/subTitle"
+msgstr "Kamptypen slutter om %(value)s"
+
+msgid "tooltip/progressionWidget/title"
+msgstr "Ståljæger"
+
+msgid "tooltip/quest/header"
+msgstr "Ståljæger-mission"
+
+msgid "tooltip/shop/stPatrick/subtitle"
+msgstr "Veksl dine {ede6d9_Open}lykkesegl{ede6d9_Close} til særlige belønninger."
+
+msgid "tooltip/shop/stPatrick/text"
+msgstr "Modtag lykkesegl for at opsamle krigsbytte i kamp, fuldføre fremskridtsstadier og indtage topplaceringerne i battle royale."
+
+msgid "tooltip/shop/stPatrick/title"
+msgstr "Trekløver-butik"
+
+msgid "tooltip/shop/subtitle"
+msgstr "Veksl dine {ede6d9_Open}stålsegl{ede6d9_Close} til særlige belønninger."
+
+msgid "tooltip/shop/text"
+msgstr "Optjen stålsegl ved at gøre en god indsats i kamp, opnå en god placering i resultaterne efter kamp, og for at fuldføre missioner."
+
+msgid "tooltip/shop/title"
+msgstr "Ståljæger-butik"
+
+msgid "upgrades/description"
+msgstr "Uddel skade til fjendtlige køretøjer og indsaml krigsbytte på kortet, for at modtage xp og rykke frem gennem niveauerne. Hvert opnået niveau gør det muligt at opgradere et modul fra opgraderingsmenuen, og derved markant forbedre dit køretøjs karakteristika"
+
+msgid "upgrades/footer"
+msgstr "Moduler kan kun opgraderes i kamp."
+
+msgid "upgrades/subtitle"
+msgstr "Du går i kamp i et niveau I køretøj."
+
+msgid "upgrades/title"
+msgstr "Køretøjsopgraderinger i kamp"

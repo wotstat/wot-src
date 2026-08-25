@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Nazad na blaga"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "PLAMTEĆE BLAGO"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "PLAMTEĆE BLAGO"
+
+msgid "common/getButton/lowerCase"
+msgstr "Uzmite blaga"
+
+msgid "common/getButton/upperCase"
+msgstr "UZMITE BLAGA"
+
+msgid "common/loader"
+msgstr "Otvaranje Plamtećih blaga..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Otvorite blaga za pregled statistike."
+
+msgid "common/statistics/header"
+msgstr "Otvoreno Plamtećih blaga: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Sve informacije o otvorenim Plamtećim blazima će biti izbrisane."
+
+msgid "entryPoint/boxes"
+msgstr "NA BLAGA"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Ovo su posebne kutije koje sadrže nove i jedinstvene predmete, uključujući premium vozila, 2D stilove i više. Možete ih uzeti u prodavaonici u igri."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Plamteća blaga se trenutno ne mogu otvoriti niti kupiti iz tehničkih razloga. Ispričavamo se zbog privremenih neugodnosti."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Plamteća blaga su privremeno nedostupna"
+
+msgid "eventName/lowerCase"
+msgstr "Lunarna nagrada"
+
+msgid "eventName/upperCase"
+msgstr "LUNARNA NAGRADA"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Zajamčena nagrada u sljedećem blagu!"
+
+msgid "guaranteedTitle/text"
+msgstr "Najviše PLamtećih blaga prije zajamčene nagrade: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ako ne otvorite Plamteća blaga prije kraja akcije, oni će biti automatski otvoreni."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ako već imate sva vozila sa spiska mogućeg sadržaja Plamtećih blaga, sva slijedeća vozila koja dobijete iz Plamtećih blaga će biti kompenzirana zlatom jednakom njihovoj vrijednosti."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Svako %(guaranteed0)s Plamteće blago jamačno sadrži vozilo razine VIII-IX. Ako ih otvorite bez primitka takvog vozila, tada će vozilo razine VIII-IX koje još nemate biti primljeno kada otvorite %(guaranteed0)s&zwnbsp;. Plamteće blago. Kada primite, brojač se poništava."
+
+msgid "infoPage/header/description"
+msgstr "Otvorite Plamteća blaga za priliku primitka vrijednih predmeta u igri! Pogledajte više detalja ispod."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Od %(name) (otvoreno %(boxesCount) Plamtećih blaga)"
+
+msgid "noBoxesView/description/"
+msgstr "Nemate nijedno Plamteće blago.\nMožete ih uzeti u prodavaonici u igri."
+
+msgid "preview/backLabel"
+msgstr "NA BLAGA"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Blaga dostupno: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nema dostupnih blaga"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Ako već imate sva vozila sa spiska mogućeg sadržaja Plamtećih blaga, sva slijedeća vozila koja dobijete iz Plamtećih blaga će biti kompenzirana zlatom."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) Plamteće blago"
+msgstr[1] "%(remainingCount) Plamteća blaga"
+msgstr[2] "%(remainingCount) Plamteća blaga"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Zajamčena nagrada je vozilo sa spiska mogućeg sadržaja Plamtećih blaga.\nAko otvorite %(remainingCount) bez primitka takvog vozila, dobit ćete ga kada otvorite %(count) Plamtećih blaga. Kada ga dobijete, brojač se poništava."

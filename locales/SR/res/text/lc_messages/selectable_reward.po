@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "error/button"
+msgstr "Razumem!"
+
+msgid "error/description"
+msgstr "Informacija je trenutno nedostupna. Izvinjavamo se zbog neprijatnosti. Molimo pokušaj kasnije."
+
+msgid "error/title"
+msgstr "Otvaranje sekcije sa nagradama nije uspelo"
+
+msgid "footer/closeBtn/label"
+msgstr "Izaberi kasnije"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "Odaberi nagradu iz obezbeđenog kataloga."
+msgstr[1] "Izaberi nagrade od ponuđenih kategorija."
+msgstr[2] "Izaberi nagrade od ponuđenih kategorija."
+
+msgid "footer/okBtn/label"
+msgstr "Preuzmi"
+
+msgid "footer/rewardsSelected"
+msgstr "Odabrane nagrade:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "Odaberi nagradu iz obezbeđene kategorije."
+msgstr[1] "Odaberi nagrada iz obezbeđene kategorije."
+msgstr[2] "Odaberi nagrada iz obezbeđene kategorije."
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "Limit je dostignut"
+
+msgid "reward/state_received"
+msgstr "Već postignuto"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "Dostignut jer limit izabranih stvari u ovoj kategoriji. Možeš da otkažeš odabir jedne stvari da bi dodao drugu."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "Limit je dostignut"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "Direktive\nza opremu"
+
+msgid "tabs/items/battle_booster"
+msgstr "Direktive opreme"
+
+msgid "tabs/items/blueprint"
+msgstr "Fragmenti nacrta"
+
+msgid "tabs/items/brochure"
+msgstr "Knjižica za trening"
+
+msgid "tabs/items/crewbook"
+msgstr "Uputstvo za trening"
+
+msgid "tabs/items/deluxe"
+msgstr "Poboljšana oprema"
+
+msgid "tabs/items/expequipments"
+msgstr "Eksperimentalna\noprema"
+
+msgid "tabs/items/guide"
+msgstr "Vodič za trening"
+
+msgid "tabs/items/modernized_device"
+msgstr "Eksperimentalna oprema"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "Eksperimentalna oprema nivo 1"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "Eksperimentalna oprema nivo 2"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "Eksperimentalna oprema nivo 3"
+
+msgid "tabs/items/new_device"
+msgstr "Standardna oprema"
+
+msgid "tabs/items/trophy"
+msgstr "Nagradna oprema"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "Klikni na dugme za preuzimanje odabranih nagrada."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "Odabrane nagrade: %(white_open)s%(count)s%(white_close)s"

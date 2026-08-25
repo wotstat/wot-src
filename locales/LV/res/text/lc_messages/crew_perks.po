@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Bojājumu saņemšana pārtrauc HP atjaunošanu.\n\nHP atjaunošanas ātrums un maksimālais atjaunošanas limits tiek aprēķināti, pamatojoties uz tanka kopējo HP, ieskaitot visus piemērotos modifikatorus."
+
+msgid "armorPatching/alt/info"
+msgstr "Priekš grupas iemaņām, tiek ņemts vērā vidējais treniņa līmenis starp visiem apkalpes locekļiem. Tas stājas spēkā, ja trenētas vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Izmantojot remonta komplektu, tas atjauno %(hpRecover)s tanka {yellow_Start}HP{yellow_End} 5 sekunžu laikā, līdz maksimāli 20% katrā kaujā. Ļauj izmantot remonta komplektu bez kritiskiem bojājumiem."
+
+msgid "armorPatching/hudDescription"
+msgstr "Dzīvības punkti ir atjaunoti."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Kad visi apkalpes locekļi ir pilnībā apmācīti, atjauno %(hpRecover)s tanka {yellow_Start}HP{yellow_End} 5 sekunžu laikā pēc Remonta komplekta izmantošanas, līdz maksimāli 20% vienā kaujā. Ļauj izmantot Remonta komplektu bez kritiskiem bojājumiem."
+
+msgid "armorPatching/name"
+msgstr "Bruņas labošana"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Palielina tanka bāzes maskēšanos."
+
+msgid "brotherhood/alt/description"
+msgstr "Apkalpes efektivitātes bonuss uzlabo apkalpes locekļu efektivitāti kaujā, kā arī visu to iemācīto iemaņu efektivitāti, izņemot šo. Šo parametru var tālāk paaugstināt uzstādot iekārtas vai palīgmateriālus ar līdzīgu efektu, vai izmantojot Ventilācijas Tīrīšana direktīvu. Komandiera Ārkārtas Situācijas iemaņa, kā arī Radio Operatora Blakus un Komunikāciju Eksperts iemaņas arī var palielināt parametru."
+
+msgid "brotherhood/alt/info"
+msgstr "Priekš grupas iemaņām, tiek ņemts vērā vidējais treniņa līmenis starp visiem apkalpes locekļiem. Tas stājas spēkā, ja trenētas vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "Palielināts {greenBright_Start}apkalpes efektivitātes bonuss{greenBright_End} visai apkalpei par %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Esot pilnībā trenēta visiem apkalpes locekļiem, palielina {greenBright_Start}apkalpes efektivitātes bonusu{greenBright_End} visai apkalpei par %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Kaujas Brāļi"
+
+msgid "brotherhood/shortDescription"
+msgstr "Palielina vispārējo apkalpes sniegumu."
+
+msgid "camouflage/alt/description"
+msgstr "Šī iemaņa ietekmē tanka maskēšanos. To var tālāk uzlabot ar Dabīgs Aizsegs direktīvu.\n\nPapildus, tanka maskēšanos var palielināt piemērojot kamuflāžas rakstu vai stilu, kā arī uzstādot iekārtas ar līdzīgu efektu."
+
+msgid "camouflage/alt/info"
+msgstr "Priekš grupas iemaņām, tiek ņemts vērā vidējais treniņa līmenis starp visiem apkalpes locekļiem. Tas stājas spēkā, ja trenētas vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "Palielināta tanka {greenBright_Start}maskēšanās{greenBright_End} par %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Esot pilnībā trenēta visiem apkalpes locekļiem, palielina tanka {greenBright_Start}maskēšanos{greenBright_End} par %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Maskēšanās"
+
+msgid "camouflage/shortDescription"
+msgstr "Palielina pamata tanka maskēšanos."
+
+msgid "commander_coordination/alt/description"
+msgstr "Efekts aktivizējas katru reizi, kad pretinieka tanks tiek pamanīts un neiet kopā, kad tiek pamanīti vairāki tanki.\n\nTēmēšanas laiks var tālāk tikt palielināts trenējot Šāvēja Ātrā Tēmēšana iemaņu vai uzstādot iekārtas ar līdzīgu efektu."
+
+msgid "commander_coordination/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "{yellow_Start}Tēmēšanas ātrums{yellow_End} tiks palielināts par %(vehicleGunAimSpeed)s uz 15 s pēc tam, kad pamaniet pretinieku tanku."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Tēmēšanas ātrums ir palielināts."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, palielina {yellow_Start}tēmēšanas ātrumu{yellow_End} par %(vehicleGunAimSpeed)s uz 15 s pēc tam, kad pamaniet pretinieku tanku.\t"
+
+msgid "commander_coordination/name"
+msgstr "Koordinācija"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Tēmēšanas ātrums ir palielināts."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Redzamību var tālāk palielināt trenējot Radio Operatora Radiopārtveršana iemaņu vai uzstādot iekārtu ar līdzīgu efektu. Optiskā Kalibrācija direktīvas izmantošana uzlabo efektu."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}Redzamība{greenBright_End} ir palielināta par %(circularVisionRadius)s&zwnbsp;. {greenBright_Start}Sods bojātām novērošanas iekārtām {greenBright_End} ir samazināts par %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Sods bojātām novērošanas iekārtām ir samazināts."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, palielina {greenBright_Start}redzamību{greenBright_End} par %(circularVisionRadius)s&zwnbsp; un samazina {greenBright_Start}sodu bojātām novērošanas iekārtām{greenBright_End} par %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Izlūkošana"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Palielina redzamību, it īpaši, ja novērošanas iekārtas ir bojātas."
+
+msgid "commander_emergency/alt/description"
+msgstr "Atkārtoti saņemot bojājumus no pretinieka, efekts neapvienojas. Apkalpes efektivitātes bonuss uzlabo apkalpes locekļu efektivitāti kaujā. Šo parametru var tālāk palielināt uzstādot iekārtas vai palīgmateriālus ar līdzīgu efektu, vai izmantojot Ventilācijas Tīrīšana direktīvu. Grupas iemaņa Kaujas Brāļi, kā arī Radio Operatora Blakus un Komunikāciju Eksperts iemaņas arī var palielināt parametru."
+
+msgid "commander_emergency/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "{yellow_Start}Apkalpes efektivitātes bonuss{yellow_End} tiks palielināts par %(crewLevelIncrease)s uz 15 s pēc tam, kad saņemiet bojājumus no pretinieka."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Apkalpes efektivitātes bonuss ir palielināts."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, palielina {yellow_Start}apkalpes efektivitātes bonusu{yellow_End} par %(crewLevelIncrease)s uz 15 s pēc tam, kad saņemiet bojājumus no pretinieka."
+
+msgid "commander_emergency/name"
+msgstr "Ārkārtas Situācija"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Apkalpes efektivitātes bonuss ir palielināts."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Brīdinājums par pretinieku Artilērijas uguni tiek aktivizēts šāviena brīdī, bet ar nelielu aizturi.\n\nIemaņu var uzlabot ar Paaugstināta Modrība direktīvu."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "{yellow_Start}Brīdinājums par pretinieku Artilērijas uguni{yellow_End} un tās šāviena virzienu tiks parādīts ar %(artNotificationDelayFactor)s aizturi. {greenBright_Start}Apdullināšanas negatīvai efekts{greenBright_End} ir samazināts par %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, izdod {yellow_Start}brīdinājumu par pretinieku Atilērtijas uguni{yellow_End} ar %(artNotificationDelayFactor)s aizturi un identificē šāviena virzienu. Samazina {greenBright_Start}apdullināšanas negatīvo efektu{greenBright_End} par %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Skaņas Noteikšana"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Norāda pretinieka Artilērijas šāvienu."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Ekipāžas efektivitātes bonuss uzlabo ekipāžas locekļa efektivitāti kaujā.\n\n Šo parametru var vēl vairāk palielināt, uzstādot aprīkojumu vai patēriņa preces ar līdzīgu efektu vai izmantojot Vent Purge direktīvu. Dažādas citas ekipāžas priekšrocības var arī palielināt šo parametru."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "{yellow_Start}Ekipāžas efektivitātes bonuss{yellow_End} tiks palielināts par %(crewLevelIncrease)s, kamēr pretinieku komandai kaujā ir vismaz par trim tankiem vairāk nekā tavējai&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Ekipāžas efektivitātes bonuss tiek palielināts (ienaidnieka vairākums)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Pilnībā apmācot, palielina {yellow_Start}ekipāžas efektivitātes bonusu{yellow_End} par %(crewLevelIncrease)s, kamēr pretinieku komandai kaujā ir vismaz par trim tankiem vairāk nekā tavējai&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Turiet Līniju"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Palielina apkalpes efektivitātes bonusu"
+
+msgid "commander_practical/alt/description"
+msgstr "Iemaņa strādā visiem palīgmateriālu veidiem, kas uzstādīti jūsu tankam.\n\nTā efekts var tālāk tikt palielināts izmantojot Rūpīga Sagatavošanās direktīvu."
+
+msgid "commander_practical/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}Palīgmateriālu atjaunošanās laiks{greenBright_End} ir samazināts par %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Esot pilnībā trenēta, samazina {greenBright_Start}palīgmateriālu atjaunošanās laiku{greenBright_End} par %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Praktiskums"
+
+msgid "commander_practical/shortDescription"
+msgstr "Samazina palīgmateriālu atjaunošanās laiku."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Sestā Sajūta ir atspējota, kamēr Komandieris ir ievainots. Tās aktivizāciju var paātrināt ar Radio Operatora Signāla Pārtveršana iemaņu."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Tā ir īpaša Komandiera funkcija, kam nav vajadzīga trenēšana un ir pieejama Komandierim pēc noklusējuma."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Ļauj komandierim identificēt, vai tanku pamanīja pretinieks. Aktivizējas %(delay)s pēc jūsu tanka pamanīšanas."
+
+msgid "commander_sixthSense/name"
+msgstr "Sestā Maņa"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Ļauj komandierim zināt, vai viņa tanku ir atklājuši pretinieki."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Ekipāžas efektivitātes bonuss uzlabo ekipāžas locekļa efektivitāti kaujā.\n\n Šo parametru var vēl vairāk palielināt, uzstādot aprīkojumu vai patēriņa preces ar līdzīgu efektu vai izmantojot Vent Purge direktīvu. Dažādas citas ekipāžas priekšrocības var arī palielināt šo parametru."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "{yellow_Start}Ekipāžas efektivitātes bonuss{yellow_End} tiks palielināts par %(crewLevelIncrease)s uz 15&nbsp;s pēc pirmās palīdzības komplekta izmantošanas. Ļauj izmantot pirmās Palīdzības komplektu, pat ja neviens ekipāžas loceklis nav ievainots&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Ekipāžas efektivitātes bonuss ir palielināts (tika izmantots Pirmās palīdzības komplekts)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Kad pilnībā apmācīts, palielina {yellow_Start}apkalpes efektivitātes bonusu{yellow_End} par %(crewLevelIncrease)s uz 15 s pēc Pirmās palīdzības komplekta izmantošanas. Ļauj izmantot Pirmās palīdzības komplektu pat tad, ja neviens apkalpes loceklis nav ievainots&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Esi modrs"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Palielina apkalpes efektivitātes bonusu"
+
+msgid "commander_tutor/alt/description"
+msgstr "Savainots komandieris nevar aizvietot citu apkalpes locekli. Bonuss tiek piemērots tikai par kaujā iegūto pamatapkalpes pieredzi.\n\nPapildu apkalpes pieredzi var iegūt, izmantojot Apkalpes rokasgrāmatas vai pārveidojot Brīvo pieredzi apkalpes pieredzē."
+
+msgid "commander_tutor/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Nopelnītais {greenBright_Start}Pieredzes{greenBright_End} daudzums ir palielināts par %(xpBonusFactorPerLevel)s visiem apkalpes locekļiem. Komandieris var {greenBright_Start}aizvietot izsistus locekļus{greenBright_End} ar %(woundedCrewEfficiency)s efektivitāti."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Izsists apkalpes loceklis tiek aizvietots ar komandieri."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, palielina nopelnītās {greenBright_Start}Pieredzes{greenBright_End} daudzumu par %(xpBonusFactorPerLevel)s visiem apkalpes locekļiem. Ļauj Komandierim {greenBright_Start}aizvietot izsistus locekļus{greenBright_End} ar %(woundedCrewEfficiency)s efektivitāti."
+
+msgid "commander_tutor/name"
+msgstr "Padomdevējs"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Izsists apkalpes loceklis tiek aizvietots ar komandieri."
+
+msgid "commander_universalist/alt/description"
+msgstr "Komandieris var aizstāt tikai nokautā apkalpes locekļa galveno kvalifikāciju. Aizstājēja efekts samazinās ar katru nokauto apkalpes locekli."
+
+msgid "commander_universalist/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz 1%. Tās efektivitāte aug ar tālāku treniņu."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Komandieris var {greenBright_Start}aizvietot izsistus{greenBright_End} apkalpes locekļus ar %(woundedCrewEfficiency)s efektivitāti."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Komandieris veic nokautā apkalpes locekļa lomu."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Pilnībā trenēta, ļauj Komandierim {greenBright_Start}aizvietot izsistus{greenBright_End} apkalpes locekļus ar %(woundedCrewEfficiency)s efektivitāti."
+
+msgid "commander_universalist/name"
+msgstr "Visu Iemaņu Pratējs"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Ļauj Komandierim aizvietot izsistus apkalpes locekļus."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Samazina sodu tanka manevrētspējai un paātrinājumam braucot pa vidēji mīkstu reljefu. Ievērojami samazina šos sodus, braucot pa mīkstu reljefu, saskaņojot tos ar mēreni mīkstu reljefu.\nManevrētspēja vidēji mīkstā un mīkstā reljefā nevar pārsniegt manevrētspēju cietā reljefā."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}Ātruma zudums pa mēreni mīkstu reljefu{greenBright_End} tiek samazināts par %(mediumGroundFactor)s&zwnbsp;, {greenBright_Start}ātruma zudums pa mīkstu reljefu{greenBright_End} tiek samazināts līdz %(softGroundFactor)s no mēreni mīksta reljefa rezultējošās vērtības."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, samazina {greenBright_Start}ātruma zudumu pa mēreni mīkstu reljefu{greenBright_End} par %(mediumGroundFactor)s&zwnbsp;, samazina {greenBright_Start}ātruma zudumu pa mīkstu reljefu{greenBright_End} līdz %(softGroundFactor)s no mēreni mīksta reljefa rezultējošās vērtības."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Bezceļu Braukšana"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Ekipāžas efektivitātes bonuss uzlabo ekipāžas locekļa efektivitāti kaujā.\n\n Šo parametru var vēl vairāk palielināt, uzstādot aprīkojumu vai patēriņa preces ar līdzīgu efektu vai izmantojot Vent Purge direktīvu. Dažādas citas ekipāžas priekšrocības var arī palielināt šo parametru."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "{yellow_Start}Ekipāžas efektivitātes bonuss{yellow_End} tiks palielināts par %(crewLevelIncrease)s, ja bloķētā bojājuma apjoms pārsniedz jūsu tanka sākotnējos dzīvības punktus."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Ekipāžas efektivitātes bonuss ir palielināts (ir bloķēts pietiekami daudz bojājumu)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Kad pilnībā apmācīts, palielina {yellow_Start}apkalpes efektivitātes bonusu{yellow_End} par %(crewLevelIncrease)s, ja bloķētā bojājuma apjoms pārsniedz jūsu tanka sākotnējos dzīvības punktus."
+
+msgid "driver_bulletproof/name"
+msgstr "Neiznīcināms"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Jūs tanka maksimālais ātrums var tālāk tikt palielināts un sods bojātam dzinējam var tālāk tikt samazināts uzstādot iekārtas ar līdzīgu efektu."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "{greenBright_Start}Maksimālais priekšgaitas{greenBright_End} un {greenBright_Start}atpakaļgaitas ātrums{greenBright_End} jūsu tankam ir palielināts par %(vehicleForwardMaxSpeed)s. {greenBright_Start}Sods bojātam dzinējam{greenBright_End} ir samazināts par %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Sods bojātam dzinējam ir samazināts."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, palielina {greenBright_Start}maksimālo priekšgaitas{greenBright_End} un {greenBright_Start}atpakaļgaitas ātrumu{greenBright_End} jūsu tankam par %(vehicleForwardMaxSpeed)s. Samazina {greenBright_Start}sodu bojātam dzinējam{greenBright_End} par %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Inženieris"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Sods bojātam dzinējam ir samazināts."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Priekšrocība ir neefektīva, kad divi sabiedroto transportlīdzekļi saduras.\n\nSadursmes bojājumus jūsu transportlīdzeklim var vēl vairāk samazināt, uzstādot aprīkojumu ar līdzīgu efektu."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}Taranēšanas bojājumi pretinieku tankiem{greenBright_End} ir palielināti par %(damageEnemiesByRamming)s&zwnbsp;. {greenBright_Start}Taranēšanas bojājumi jūsu tankam{greenBright_End} ir samazināti par %(vehicleRamDamageResistance)s&zwnbsp; un {greenBright_Start}jūsu balstiekārtai{greenBright_End} par %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, palielina {greenBright_Start}taranēšanas bojājumus pretinieku tankiem{greenBright_End} par %(damageEnemiesByRamming)s&zwnbsp;. Samazina {greenBright_Start}taranēšanas bojājumus jūsu tankam{greenBright_End} par %(vehicleRamDamageResistance)s&zwnbsp;, un {greenBright_Start}jūsu balstiekārtai{greenBright_End} par %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Kontrolēts Trieciens"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Samazina bojājumus no taranēšanas paša tankam un palielina taranēšanas bojājumus pretinieku tankiem."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Bojājumi saņemti no HE čaulītēm var tālāk tikt samazināti uzstādot iekārtas ar līdzīgu efektu."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}HE šāviņa bojājumu absorbcija{greenBright_End} ir palielināta par %(vehicleHEShellDamageResistance)s&zwnbsp;. &nbsp;{greenBright_Start}Dzinēja aizdegšanās iespēja{greenBright_End} ir samazināta par %(vehicleFireChance)s un {greenBright_Start}bojājumi jūsu piekarei{greenBright_End} par %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Kad pilnībā apmācīts, palielina {greenBright_Start}HE šāviņu bojājumu absorbciju{greenBright_End} par %(vehicleHEShellDamageResistance)s&zwnbsp;. Samazina {greenBright_Start}dzinēja aizdegšanās iespēju{greenBright_End} par %(vehicleFireChance)s un {greenBright_Start}bojājumus piekarei{greenBright_End} par %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Uzticams Izvietojums"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Neietekmē stacionāra tanka precizitāti, un precizitāti korpusa griešanās laikā.\n\nIemaņu var uzlabot izmantojot Ātrumkārbas Sarežģītība direktīvu. Precizitāte šaujot kustībā var tālāk tikt palielināta uzstādot iekārtas ar līdzīgu efektu vai izmantojot Stabilizatora Ieeļļošana direktīvu."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "{greenBright_Start}Ieroča izkliede{greenBright_End} šaujot kustībā ir samazināta par%(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, samazina {greenBright_Start}ieroča izkliedi{greenBright_End} šaujot kustībā par %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Gluds Brauciens"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Uzlabo precizitāti šaujot kustībā."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Šī prasme ietekmē balstiekārtas remonta ātrumu no sarkanā uz dzelteno stāvokli 50 m rādiusā ap sabiedroto tanku."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "{yellow_Start}Balstiekārtas remonta ātrums{yellow_End} tiks palielināts par %(suspensionRepairSpeed)s attālumos, kas mazāki par 50 m no sabiedrotā tanka."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Piekarojuma remonta ātrums tiek palielināts (sabiedrotais ir tuvumā)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Kad pilnībā apmācīts, palielina {yellow_Start}balstiekārtas remonta ātrumu{yellow_End} par %(suspensionRepairSpeed)s attālumos, kas ir mazāki par 50 m no sabiedrotā tanka."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Lauka atbalsts"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Tanka uguns pretestība var tālāk tikt uzlabota uzstādot iekārtas un palīgmateriālus ar līdzīgiem efektiem. Ugunsdzēšana iemaņa paātrinās uguns nodzēšanu, ja tāda uzrodas."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz 1%. Tās efektivitāte aug ar tālāku treniņu."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "Samazina {greenBright_Start}dzinēja aizdegšanās iespēju{greenBright_End} par %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Pilnībā trenēta, samazina {greenBright_Start}dzinēja aizdegšanās iespēju{greenBright_End} par %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Tehniskā Apkope"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Samazina dzinēja aizdegšanās iespēju."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Korpusa griešanās ātrumu var tālāk palielināt uzstādot iekārtas vai palīgmateriālus ar līdzīgu efektu."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}Korpusa griešanās ātrums{greenBright_End} ir palielināts par %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Esot pilnībā trenēts palielina {greenBright_Start}korpusa griešanās ātrumu{greenBright_End} par %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Sajūga Bremzēšana"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Palielina korpusa griešanās ārumu."
+
+msgid "fireFighting/alt/description"
+msgstr "Šī iemaņa ietekmē saņemtos bojājumus no uguns un tās ilgumu.\n\nJa diviem Radio Operatoriem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība.\n\nIemaņu var uzlabot ar Pieredzējis Ugunsdzēsējs direktīvu."
+
+msgid "fireFighting/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}Uguns nodzēšanas ātrums{greenBright_End} ir palielināts par %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, palielina {greenBright_Start}uguns nodzēšanas ātrumu{greenBright_End} par %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Ugunsdzēšana"
+
+msgid "fireFighting/shortDescription"
+msgstr "Uzlabo ugunsdzēšanas spējas."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Pēc noklusējuma iespējamais bojājumu un cauršaušanas diapazons ir ±25% no pamata vērtībām. Piemēram, ja šāviņš cauršauj bruņas līdz 100 mm un rada 100 dzīvības punktu bojājumus trāpot mērķim, šī viena šāviena faktiskā cauršaušana var svārstīties no 75 līdz 125 mm, un faktiskais bojājums var svārstīties no 75 līdz 125 dzīvības punktiem. Samazinot šo modifikatoru, šaušanas rezultāti būs paredzamāki.\n\nJa diviem Šāvējiem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "{greenBright_Start}Potenciālo bojājumu{greenBright_End} un {greenBright_Start}potenciālās cauršaušanas{greenBright_End} diapazoni ir samazināti par {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. {greenBright_Start}Ieroča izkliede{greenBright_End} ir samazināta par %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, samazina {greenBright_Start}potenciālo bojājumu{greenBright_End} un {greenBright_Start}potenciālās cauršaušanas{greenBright_End} diapazonus par {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. Samazina {greenBright_Start}ieroča izkliedi{greenBright_End} par %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Ieroču Pārzinis"
+
+msgid "gunner_focus/alt/description"
+msgstr "Efekts sākas 3 s pēc tanka apstāšanās un atiestatās pēc kustības.\n\nJa diviem Šāvējiem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība."
+
+msgid "gunner_focus/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "{yellow_Start}Ieroča izkliede{yellow_End} nekustīgam tankam tiks samazināta par %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Ieroča izkliede ir samazināta."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, samazina tanka {yellow_Start}ieroča izkliedi{yellow_End} nekustīgam tankam par %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Koncentrācija"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Samazina ieroča izkliedi stacionāram tankam."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Ieroča izkliede un mērķēšanas ātrums var tikt vēl vairāk uzlaboti, apmācot apkalpes prasmju priekšrocības vai uzstādot aprīkojumu ar līdzīgu efektu.\n\n Ja diviem šāvējiem ir šī priekšrocība, tiek piemērota tās apmācības līmeņa vidējā vērtība."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "{yellow_Start}Ieroča izkliede{yellow_End} tiks samazināta par %(vehicleGunAimSpeed)s un {yellow_Start}mērķēšanas ātrums{yellow_End} tiks palielināts par %(vehicleGunAimSpeed)s, ja 300 m rādiusā nav sabiedroto tanku."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Ieroču izkliede un mērķēšanas ātrums tiek uzlaboti (nav sabiedroto tuvumā)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Kad pilnībā apmācīts, samazina {yellow_Start}ieroča izkliedi{yellow_End} un palielina {yellow_Start}mērķēšanas ātrumu{yellow_End} par %(vehicleGunAimSpeed)s, ja 300 m rādiusā nav sabiedroto tanku."
+
+msgid "gunner_loneWolf/name"
+msgstr "Vientuļais Vilks"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Ieroča izkliede ir samazināta. Mērķēšanas ātrums ir palielināts."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Pēc noklusējuma potenciālais maksimālais caursišanas pieaugums ir +25% no pamata vērtības. Piemēram, ja šāviņš caursit bruņas līdz 100 mm, trāpot mērķim, maksimālā iespējamā caursišanas vērtība šim vienam šāvienam var būt 125 mm. Šī modifikatora palielināšana noved pie efektīvākiem caursišanas rezultātiem.\n\n Ja diviem šāvējiem ir šī priekšrocība, tiek piemērota tā vidējā apmācības līmeņa vērtība."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "Jūsu šāviņu {yellow_Start}maksimālais potenciālais caursišanas spēks{yellow_End} palielināsies par %(piercingHEShellsDistributionUpperBound)s, ja šausiet uz ienaidnieka tankiem, kas atrodas mazāk nekā 50 m attālumā."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Kad pilnībā apmācīts, palielina {yellow_Start}maksimālo potenciālo caursišanas spēju{yellow_End} par %(piercingHEShellsDistributionUpperBound)s, šaujot uz ienaidnieka tankiem, kas atrodas mazāk nekā 50 m attālumā."
+
+msgid "gunner_pointBlast/name"
+msgstr "Tieši mērķī"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Palielina jūsu šāviņu maksimālo potenciālo caursišanas spēju"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Ja diviem Šāvējiem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība.\n\nTēmēšanas ātrumu var tālāk palielināt trenējot Komandiera Koordinācija iemaņu vai uzstādot iekārtas ar līdzīgu efektu.\n\nTorņa griešanās ātrumu var tālāk palielināt uzstādot iekārtas vai palīgmateriālus ar līdzīgu efektu."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}Tēmēšanas ātrums{greenBright_End} un {greenBright_Start}torņa griešanās ātrums{greenBright_End} ir palielināts par %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, palielina {greenBright_Start}tēmēšanas ātrumu{greenBright_End} un {greenBright_Start}torņa griešanās ātrumu{greenBright_End} par %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Ātrā Tēmēšana"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Tēmēšanas ātrums ir palielināts."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Identificē kritiski bojātus moduļus uz mērķa tankiem, kas atrodas Šāvēja skata diapazonā gan netiešās, gan tiešās uguns režīmos.\nŠāvēja skata laukumu nosaka ±10° sektors (kopā 20°) tanka ieroča un tā skata priekšā.\nJa diviem Šāvējiem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība.\nIemaņu var tālāk uzlabot, izmantojot direktīvu Fokuss uz Mērķi direktīvu. Izmantojot Uzlabots Radio Komplekts, vēl vairāk palielināsies laiks, līdz pretinieka tanks vairs nebūs redzams."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "{greenBright_Start}Laiks{greenBright_End} pirms pretinieka {greenBright_Start}tanks vairs nav redzams{greenBright_End}Šāvēja skata diapazonā ir palielināts par %(vehicleEnemySpottingTime)s. Laiks lai {yellow_Start}identificētu bojātos moduļus{yellow_End} ir samazināts līdz %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, palielina {greenBright_Start}laiku{greenBright_End} pirms pretinieka {greenBright_Start}tanks vairs nav redzams{greenBright_End} Šāvēja skata diapazonā par %(vehicleEnemySpottingTime)s. Ļauj {yellow_Start}identificēt bojātos moduļus{yellow_End} ar %(damageMonitoringDelay)s aizturi."
+
+msgid "gunner_rancorous/name"
+msgstr "Izraudzītais Mērķis"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Palielina laiku pirms pretinieku tanks vairs nav redzams Šāvēja skata diapazonā. Ļauj identificēt bojātos moduļus."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Ja diviem Šāvējiem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība.\n\nIemaņu var uzlabot ar Stabila Roka direktīvu. Izkliede torņa griešanās laikā var tālāk tikt samazināta uzstādot iekārtas ar līdzīgu efektu vai izmantojot Stabilizatora Ieeļļošana direktīvu."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "{greenBright_Start}Ieroča izkliede{greenBright_End} torņa griešanās laikā ir samazināta par %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, samazina {greenBright_Start}ieroča izkliedi{greenBright_End} torņa griešanās laikā par %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Ātrs Šāviens"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Samazina ieroča izkliedi torņa griešanās laikā."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Efekts strādā visiem čaulīšu veidiem, izņemot tankiem ar automātiskajiem lielgabaliem.\n\nJa diviem Šāvējiem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "{greenBright_Start}Iespēja kritiski bojāt{greenBright_End} pretinieku {greenBright_Start}tanka moduļus{greenBright_End} un ievainot pretinieku {greenBright_Start}apkalpes locekļus{greenBright_End} ar visu veidu čaulītēm ir palielināta par %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, palielina {greenBright_Start}iespēju kritiski bojāt{greenBright_End} pretinieku {greenBright_Start}tanka moduļus{greenBright_End} un ievainot pretinieku {greenBright_Start}apkalpes locekļus{greenBright_End} ar visu veidu čaulītēm par %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Acīgais"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Pēc noklusējuma iespējamais minimālais bojājumu un cauršaušanas diapazons ir -25% no pamata vērtībām. Piemēram, ja šāviņš cauršauj bruņas līdz 100 mm un rada 100 dzīvības punktu bojājumus, trāpot mērķim, minimālā iespējamā cauršaušanas vērtība šim vienam šāvienam var būt 75 mm, un minimālā iespējamā bojājuma vērtība var būt 75 dzīvības punkti. Šī modifikatora palielināšana nodrošina efektīvākus šaušanas rezultātus.\n\nJa diviem Lādētājiem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "{greenBright_Start}Minimālie potenciālie bojājumi{greenBright_End} un {greenBright_Start}minimālā potenciālā cauršaušana{greenBright_End} ir palielināta par %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, palielina {greenBright_Start}minimālos potenciālos bojājumus{greenBright_End} un {greenBright_Start}minimālo potenciālo cauršaušanu{greenBright_End} par %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Munīcijas Pieskaņošana"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Palielina vidējos bojājumus un cauršaušanas vērtības."
+
+msgid "loader_desperado/alt/description"
+msgstr "Ja diviem Lādētājiem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība.\n\nIeroča ielādes laiku var tālāk samazināt trenējot Lādētāja Tuvcīņa iemaņu vai uzstādot iekārtas ar līdzīgu efektu. Kārtīgs Munīcijas Plaukts direktīvas izmantošana uzlabo efektu."
+
+msgid "loader_desperado/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "{yellow_Start}Ieroča lādēšanas laiks{yellow_End} tiks samazināts par %(vehicleGunReloadTime)s, ja jūsu tankam ir palicis mazāk nekā 25% no tā dzīvības punktiem."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Ieroča lādēšanas laiks ir samazināts (zema tanka izturība)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, samazina {yellow_Start}ieroča lādēšanas laiku{yellow_End} par %(vehicleGunReloadTime)s, ja jūsu tankam ir palicis mazāk nekā 25% no tā dzīvības punktiem."
+
+msgid "loader_desperado/name"
+msgstr "Adrenalīna Pieplūdums"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Paātrina ieroča lādēšanu, ja tankam ir palicis mazāk nekā 25% no tā dzīvības punktiem."
+
+msgid "loader_intuition/alt/description"
+msgstr "Lai aktivizētu iemaņu, ierocis, abiem ieročiem un magazīnai jābūt pilnībā pielādētiem. Minimālais laiks čaulīšu veida maiņai standarta ieročiem ir 1 s; dubulta stobra ieročiem un magazīna ieročiem tas ir 2.5 s.\n\nJa diviem Lādētājiem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība."
+
+msgid "loader_intuition/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "{greenBright_Start}Čaulīšu veida maiņas laiks{greenBright_End} ielādētā ierocī ir samazināts par %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Čaulīšu veida maiņas laiks ielādētā ierocī ir samazināts.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, samazina {greenBright_Start}čaulīšu veidu maiņas ātrumu{greenBright_End} ielādētā ierocī par %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Intuīcija"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Ievērojami palielina čaulīšu veida maiņas ātrumu ielādētā ierocī."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Šī priekšrocība samazina pārlādēšanas laiku tikai žurnāla ieročiem un neietekmē citas ieroču sistēmas.\n\n Ja diviem Iekrāvējiem ir šī priekšrocība, tiek piemērota to apmācības līmeņa vidējā vērtība."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "Žurnāla {greenBright_Start}pārlādēšanas laiks{greenBright_End} tiek samazināts par %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Kad pilnībā apmācīts, samazina žurnāla {greenBright_Start}pārlādes laiku{greenBright_End} par %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "Burvju meistarība"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Samazina jūsu žurnālu pārlādēšanas laiku"
+
+msgid "loader_melee/alt/description"
+msgstr "Ja diviem Lādētājiem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība.\n\nIeroča ielādes laiku var tālāk samazināt trenējot Lādētāja Adrenalīns iemaņu vai uzstādot iekārtas ar līdzīgu efektu. Kārtīgs Munīcijas Plaukts direktīvas izmantošana uzlabo efektu."
+
+msgid "loader_melee/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "{yellow_Start}Ieroča ielādes laiks{yellow_End} tiks samazināts par %(vehicleGunReloadTime)s attālumos, kas mazāki par 50 m no pretinieka tanka."
+
+msgid "loader_melee/hudDescription"
+msgstr "Ieroča ielādes laiks ir samazināts (pretinieks ir netālu).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, samazina {yellow_Start}ieroča ielādes laiku{yellow_End} par %(vehicleGunReloadTime)s attālumos, kas mazāki par 50 m no pretinieka tanka."
+
+msgid "loader_melee/name"
+msgstr "Tuvcīņa"
+
+msgid "loader_melee/shortDescription"
+msgstr "Paātrina ieroča lādēšanu tuvcīņā."
+
+msgid "loader_pedant/alt/description"
+msgstr "Ievainots Lādētājs neietekmē iemaņas efektivitāti.\n\nJa diviem Lādētājiem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība.\n\nIemaņu var uzlabot izmantojot Čaulīšu Organizators direktīvu. Munīcijas plaukta izturību var tālāk palielināt uzstādot iekārtas ar līdzīgu efektu."
+
+msgid "loader_pedant/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}Munīcijas plaukta izturība{greenBright_End} ir palielināta par %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Esot pilnībā trenēta, palielina {greenBright_Start}munīcijas plaukta izturību{greenBright_End} par %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Droša Novietošana"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Palielina munīcijas plaukta izturību."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Efekts strādā visiem čaulīšu veidiem.\n\nIevainots Lādētājs neietekmē iemaņas efektivitāti.\n\nJa diviem Lādētājiem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}Čaulīšu ātrums{greenBright_End} ir palielināts par %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, palielina {greenBright_Start}čaulīšu ātrumu{greenBright_End} par %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Perfekts Lādiņš"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Šī priekšrocība neietekmē žurnāla vai automātiskos lielgabalus un nedarbojas diviem lielgabaliem.\n\n Lielgabaliem ar selektīvo ielādes sistēmu, ja abi stobri tiek izšauti un neviens nerada bojājumus, ieroča ielādes laika samazinājums attiecas uz abiem stobriem. \n\nJa diviem ielādētājiem ir šī priekšrocība, tiek piemērota to apmācības līmeņa vidējā vērtība.\n\n Ieroča ielādes laiku var vēl vairāk samazināt, apmācot ielādētāja Adrenalīna pieplūduma vai Tuvcīņas priekšrocības vai uzstādot aprīkojumu ar līdzīgu efektu. Izmantojot direktīvu \"Kārtīgā munīcijas plaukts\", tiek uzlabots efekts."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "{yellow_Start}Ieroča pārlādēšanas laiks{yellow_End} tiks samazināts par %(vehicleGunReloadTime)s nākamajam šāviņam, ja iepriekšējais šāviens neradīja bojājumus ienaidnieka tankam."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Ieroča pārlādēšanas laiks ir samazināts (netrāpīts šāviens)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Kad pilnībā apmācīts, samazina {yellow_Start}ieroča pārlādes laiku{yellow_End} par %(vehicleGunReloadTime)s nākamajam šāviņam, ja iepriekšējais šāviens nenodarīja kaitējumu ienaidnieka tankam."
+
+msgid "loader_secondChance/name"
+msgstr "Otrā iespēja"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Samazina ieroča ielādes laiku"
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Brāļu Grupa"
+
+msgid "perkRole/commander"
+msgstr "Komandieris"
+
+msgid "perkRole/common"
+msgstr "Grupa"
+
+msgid "perkRole/driver"
+msgstr "Braucējs"
+
+msgid "perkRole/gunner"
+msgstr "Šāvējs"
+
+msgid "perkRole/loader"
+msgstr "Lādētājs"
+
+msgid "perkRole/radioman"
+msgstr "Radio Operators"
+
+msgid "popularity/tooltip/common"
+msgstr "no visiem spēlētājiem"
+
+msgid "popularity/tooltip/header"
+msgstr "Šim tankam, kuram dod priekšroku"
+
+msgid "popularity/tooltip/legendary"
+msgstr "no WTR Leģendu spēlētājiem"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Ja diviem radio operatoriem ir šī prasme, tiek piemērota tās apmācības līmeņa vidējā vērtība.\n\nEfektu var vēl vairāk uzlabot ar komandiera Skaņas noteikšanas prasmi."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Katru reizi, kad tanka apkalpe ir apdullināta, {greenBright_Start}apdullināšanas negatīvā ietekme{greenBright_End} tiks samazināta par %(stunResistanceEffectFactor)s, līdz maksimāli 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Kad tanka apkalpe ir pilnībā apmācīta, katru reizi, kad tā tiek apdullināta, samazinās {greenBright_Start}apdullināšanas negatīvā ietekme{greenBright_End} par %(stunResistanceEffectFactor)s&nbsp;, līdz maksimāli 30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Kaujās rūdīts"
+
+msgid "radioman_expert/alt/description"
+msgstr "Apkalpes efektivitātes bonuss uzlabo apkalpes locekļu efektivitāti kaujā. Ja diviem Radio Operatoriem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība. Šo parametru var tālāk palielināt uzstādot iekārtas vai palīgmateriālus ar līdzīgu efektu, vai izmantojot Ventilācijas Tīrīšana direktīvu. Grupas iemaņa Kaujas Brāļi, kā arī Komandiera Ārkārtas Situācijas vai Radio Operatora Blakus iemaņas arī var palielināt parametru."
+
+msgid "radioman_expert/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "{yellow_Start}Apkalpes efektivitātes bonuss{yellow_End} tiks palielināts par %(crewLevelIncrease)s, ja jūsu sniegtā palīdzība pārsniedz jūsu tanka sākotnējos dzīvības punktus&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Apkalpes efektivitātes bonuss ir palielināts (ir pārraidīti pietiekami daudz izlūkošanas dati)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, palielina {yellow_Start}apkalpes efektivitātes bonusu{yellow_End} par %(crewLevelIncrease)s, ja jūsu sniegtā palīdzība pārsniedz jūsu tanka sākotnējos dzīvības punktus&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Komunikāciju Eksperts"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Uzlabots apkalpes sniegums."
+
+msgid "radioman_finder/alt/description"
+msgstr "Ja diviem Radio Operatoriem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība.\n\nRedzamība var tālāk tikt uzlabota trenējot Izlūkošana iemaņu vai uzstādot iekārtas ar līdzīgu efektu. Optiskā Kalibrācija direktīvas izmantošana uzlabo efektu."
+
+msgid "radioman_finder/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}Redzamība{greenBright_End} ir palielināta par %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Esot pilnībā trenēta, palielina {greenBright_Start}redzamību{greenBright_End} par %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Radiopārtveršana"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Palielina redzamību."
+
+msgid "radioman_interference/alt/description"
+msgstr "Ja diviem Radio Operatoriem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība.\n\nLaiks, kad jūsu tanks paliek pamanīts, var tālāk tikt samazināts uzstādot iekārtas ar līdzīgu efektu."
+
+msgid "radioman_interference/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "{greenBright_Start}Laiks, kad jūsu tanks paliek pamanīts{greenBright_End} pretiniekam ir samazināts par %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, samazina {greenBright_Start}laiku, kad jūsu tanks paliek pamanīts{greenBright_End} pretiniekam par %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Traucējumi"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Samazina laiku, kad jūsu tanks ir redzams pretiniekam."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Ja diviem Radio Operatoriem ir iemaņa, tikai augstākā vērtība tiek piemērota. Efekts ir aktīvs tikai tad, ja Radio Operators nav ievainots, kad tiek iznīcināts tanks.\n\nIemaņu var tālāk uzlabot ar Pienākums Vispirms direktīvu."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz 1%. Tās efektivitāte aug ar tālāku treniņu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Radio Operators var {yellow_Start}ziņot pretinieku pozīcijas{yellow_End} vēl %(radiomanDurationPerLevel)s pēc jūsu tanka iznīcināšanas."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Pozīciju Ziņošana"
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Pilnībā trenēta, ļauj {yellow_Start}ziņot pretinieku pozīcijas{yellow_End} vēl %(radiomanDurationPerLevel)s pēc jūsu tanka iznīcināšanas."
+
+msgid "radioman_lastEffort/name"
+msgstr "Atriebība"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Uz īsu laiku pēc jūsu tanka iznīcināšanas, ziņo par pretinieku pozīcijām."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Apkalpes efektivitātes bonuss uzlabo apkalpes locekļu efektivitāti kaujā. Ja diviem Radio Operatoriem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība. Šo parametru var tālāk palielināt uzstādot iekārtas vai palīgmateriālus ar līdzīgu efektu, vai izmantojot Ventilācijas Tīrīšana direktīvu. Grupas iemaņa Kaujas Brāļi, kā arī Komandiera Ārkārtas Situācijas vai Radio Operatora Komunikāciju Eksperts iemaņas arī var palielināt parametru."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "{yellow_Start}Apkalpes efektivitātes bonuss{yellow_End} tiks palielināts par %(crewLevelIncrease)s attālumos, kas ir mazāki par 50 m no tāda paša veida sabiedroto tanka&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Apkalpes efektivitātes bonuss ir palielināts (tāda paša veida sabiedrotais ir netālu)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, palielina {yellow_Start}apkalpes efektivitātes bonusu{yellow_End} par %(crewLevelIncrease)s attālumos, kas ir mazāki par 50 m no tāda paša veida sabiedroto tanka&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Blakus"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Uzlabots apkalpes sniegums."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Efekts uzlabo Komandiera īpašo Sestās Maņas funkciju, paātrinot tās aktivizāciju.\n\nJa diviem Radio Operatoriem ir šī iemaņa, tiek piemērota to trenētā līmeņa vidējā vērtība."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Iemaņa stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "{greenBright_Start}Laiks, lai noteiktu{greenBright_End} vai {greenBright_Start}jūsu tanks tiks pamanīts{greenBright_End} pretiniekam ir samazināts par %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Esot pilnībā trenēts, samazina {greenBright_Start}laiku, lai noteiktu{greenBright_End} vai {greenBright_Start}jūsu tanks tika pamanīts{greenBright_End} pretiniekam par %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Signāla Pārtveršana"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Šī priekšrocība aktivizējas, kad Sestās maņas brīdinājums norāda, ka jūsu tanks ir pamanīts.\n\n Ja diviem radio operatoriem ir šī priekšrocība, tiek piemērota to apmācības līmeņa vidējā vērtība.\n\n Redzamības diapazonu var vēl vairāk palielināt, apmācot Izlūkošanas vai Situācijas izpratnes priekšrocības vai uzstādot aprīkojumu ar līdzīgu efektu. Optiskās kalibrācijas direktīvas izmantošana uzlabo efektu."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Iemaņa ar situācijas efektu stājas spēkā esot trenēta vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu. Situācijas efekts stājas spēkā, kad tiek sasniegti noteikti nosacījumi kaujā."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "{yellow_Start}Redzeslauks{yellow_End} tiks palielināts par %(vehicleCircularVisionRadius)s uz 5 s pēc Sestās maņas brīdinājuma saņemšanas."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Skata diapazons ir palielināts."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Kad pilnībā apmācīts, palielina {yellow_Start}redzes diapazonu{yellow_End} par %(vehicleCircularVisionRadius)s uz 5 sekundēm pēc Sestās maņas brīdinājuma saņemšanas."
+
+msgid "radioman_threatSearch/name"
+msgstr "Draudu meklēšana"
+
+msgid "repair/alt/description"
+msgstr "Šī iemaņa ietekmē iekšējo un ārējo moduļu remonta ātrumu no \"sarkanā\" uz \"dzelteno\" stāvokli.\n\nŠis parametrs var tālāk tikt palielināts uzstādot iekārtas vai palīgmateriālus ar līdzīgu efektu."
+
+msgid "repair/alt/info"
+msgstr "Priekš grupas iemaņām, tiek ņemts vērā vidējais treniņa līmenis starp visiem apkalpes locekļiem. Tas stājas spēkā, ja trenētas vismaz līdz 1% un palielina tās efektivitāti ar tālāku trenēšanu."
+
+msgid "repair/currentLvlDescription"
+msgstr "{greenBright_Start}Remonta ātrums{greenBright_End} tanka bojātiem moduļiem ir palielināts par %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Esot pilnībā trenēts visiem apkalpes locekļiem, palielina {greenBright_Start}remonta ātrumu{greenBright_End} tanka bojātiem moduļiem par %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Remonts"
+
+msgid "repair/shortDescription"
+msgstr "Palielina bojātu moduļu remonta ātrumu."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Brāļu Grupa"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Populārs"
+
+msgid "sorting/fallback"
+msgstr "Noklusējuma"
+
+msgid "sorting/legendary"
+msgstr "Leģendārs"
+
+msgid "sorting/title"
+msgstr "Kārtot pēc:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPopulārs.%(whiteSpanish_Close)s Pamatojoties uz pašreizējām iemaņu tendencēm starp visiem World of Tanks spēlētājiem"
+
+msgid "sorting/tooltip/header"
+msgstr "WoT Plus Priekšrocības"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Saņemiet precīzus apkalpes iemaņu datus, pamatojoties uz miljoniem spēļu, un izmantojiet visas kaujas."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLeģendārs.%(whiteSpanish_Close)s Balstīts uz iemaņām, ko šobrīd iecienījuši Leģenda WTR līmeņa spēlētāji"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Iemaņu kārtošana izslēgta"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Nav pieejami dati"
+
+msgid "sorting/tooltip/title"
+msgstr "Apkalpes Asistents"
+
+msgid "sorting/tooltip/types"
+msgstr "Iemaņu kārtošanas veidi"
+
+msgid "sorting/tooltip/warning"
+msgstr "Iemaņu kārtošana nav pieejama"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Pilnīgi iemaņu dati nav pieejami šim transportlīdzeklim, tāpēc tiek izmantota Noklusējuma iemaņu kārtošana."
+
+msgid "witches_brotherhood/name"
+msgstr "Saiets"
+
+msgid "yha_brotherhood/name"
+msgstr "Zaķu Brālība"

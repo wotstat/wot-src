@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "Eveniment disponibil timp de %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) - mod de joc. Clic pentru a explora"
+
+msgid "bannerTooltip/description"
+msgstr "Un mod PvE special în care adversarii tăi sunt valuri de forțe inamice. Alege-ți vehiculul preferat, distruge tancurile ecou și rezistă asalturilor. Te așteaptă recompense exclusive și multe altele!"
+
+msgid "bannerTooltip/header"
+msgstr "Ultima Redută: Terra Nord"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Performanțele computerului tău sunt insuficiente pentru acest mod. Poți avea probleme de grafică și cu mișcarea vehiculului. Sunt posibile și erori ale clientului de joc."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Acest mod cere un computer foarte performant. Vei avea probleme cu încărcarea hărții, grafica și mișcarea vehiculului. Poți încerca să reduci calitatea grafică în Setări pentru a spori performanțele jocului."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Performanță scăzută"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Risc de performanță redusă"
+
+msgid "battlePass/playGame"
+msgstr "Obține puncte în Ultima Redută progresând în eveniment (sunt necesare vehicule din generația VIII)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Sunteți deja prieteni."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Se așteaptă confirmarea cererii de prietenie."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Elimină jucătorul din Lista neagră."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Adaugă în lista de prieteni."
+
+msgid "battleResult/interaction/menu"
+msgstr "Clic pentru a deschide meniul interactiv al acestui jucător."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Adaugă în pluton."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Jucătorul este deja în pluton."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Invitația a fost deja trimisă."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Doar comandantul de pluton poate invita jucători în pluton."
+
+msgid "booster/activated"
+msgstr "Activat"
+
+msgid "booster/howItWorks"
+msgstr "Cum funcționează"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Refacere: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Cost în Mirium: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "Timp rămas pentru finalizarea misiunii zilnice"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "Timp până la următoarea misiune zilnică"
+
+msgid "dailyQuests/completed"
+msgstr "Finalizată"
+
+msgid "dailyQuests/completedAll"
+msgstr "Ai finalizat toate misiunile zilnice ale evenimentului."
+
+msgid "dailyQuests/completedDescr"
+msgstr "Ai finalizat misiunea zilnică. O misiune nouă va fi disponibilă mâine."
+
+msgid "dailyQuests/rewards"
+msgstr "Recompense:"
+
+msgid "dailyQuests/status"
+msgstr "Misiune zilnică nouă în %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "Eveniment disponibil timp de %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Selectează un vehicul disponibil pentru a intra în luptă."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Indisponibil"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Luptele în modul/dificultatea selectate sunt temporar indisponibile din motive tehnice."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Indisponibil"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Așteaptă ca plutonul să revină din lupta anterioară pentru a intra într-o nouă luptă."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Indisponibil"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Nivel de dificultate incompatibil pentru pluton."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Indisponibil"
+
+msgid "points/accrued"
+msgstr "Obținută"
+
+msgid "points/battles"
+msgstr "• Participă la lupte de eveniment"
+
+msgid "points/body"
+msgstr "Datele sunt utilizate pentru a progresa în Ultima Redută și a obține resurse valoroase. Acestea pot fi obținute participând la lupte de eveniment, finalizând misiuni zilnice sau cumpărând „{{bundle_name}}”."
+
+msgid "points/bottom"
+msgstr "Evenimentul se încheie: (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• Finalizează în fiecare zi misiuni zilnice noi"
+
+msgid "points/effective"
+msgstr "• Eficiența în luptă:"
+
+msgid "points/gold"
+msgstr "• Cumpără \"{{bundle_name}}\" din Magazin"
+
+msgid "points/header"
+msgstr "Date"
+
+msgid "points/howToEarn"
+msgstr "Modalitate de obţinere"
+
+msgid "points/missionDaily"
+msgstr "• Misiuni zilnice finalizate:"
+
+msgid "points/obelisk"
+msgstr "• Obelisk distrus:"
+
+msgid "points/vehicleDaily"
+msgstr "• Bonus zilnic pentru vehicul obținut:"
+
+msgid "rewardPath/info/first"
+msgstr "Poți obține mai multe date finalizând misiuni zilnice, care sunt actualizate în fiecare zi, pe perioada evenimentului."
+
+msgid "rewardPath/info/header"
+msgstr "Date suplimentare"
+
+msgid "rewardPath/info/second"
+msgstr "Un pachet special al evenimentului, disponibil în Magazin, care conține, de asemenea, date pentru a-ți accelera progresul."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "Bonusul vehiculului:"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "Alte recompense:"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}Bonusul vehiculului{EDCB9E_End}: {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "Ai obținut toate datele și recompensele"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "Date obținute {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "Strânge date din lupte și avansează în Ultima Redută. Fiecare etapă te recompensează cu articole valoroase și un vehicul bonus pentru a te ajuta să înfrângi inamici mai formidabili."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "Etapa finală"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "Etapa curentă"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "Eveniment disponibil timp de {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "Progresul"
+
+msgid "shopWidget/body"
+msgstr "Clic pentru a deschide o secțiune specială a Magazinului din joc cu articole exclusive ale evenimentului."
+
+msgid "shopWidget/header"
+msgstr "Pachete de eveniment"
+
+msgid "teamList/actions/body"
+msgstr "Acțiuni rapide pentru a crea un pluton și adăugarea/eliminarea de prieteni."
+
+msgid "teamList/actions/header"
+msgstr "Acțiuni rapide"
+
+msgid "teamList/damage/body"
+msgstr "Sortează după daune provocate."
+
+msgid "teamList/damage/header"
+msgstr "Daune provocate"
+
+msgid "teamList/keys/body"
+msgstr "Sortează după datele obținute. Valoarea afișată nu ia în considerare datele suplimentare obținute prin finalizarea de misiuni zilnice sau din bonusurile zilnice ale vehiculelor."
+
+msgid "teamList/keys/header"
+msgstr "Date"
+
+msgid "teamList/kills/body"
+msgstr "Sortează după vehiculele inamice distruse."
+
+msgid "teamList/kills/header"
+msgstr "Vehicule inamice distruse"
+
+msgid "teamList/name/header"
+msgstr "Numele jucătorului"
+
+msgid "teamList/place/body"
+msgstr "Sortează după poziția din echipă."
+
+msgid "teamList/place/header"
+msgstr "Poziția în echipă"
+
+msgid "teamList/squad/header"
+msgstr "Un pluton este o unitate tactică în care jucătorii colaborează în lupte."
+
+msgid "teamList/vehicle/body"
+msgstr "Sortare după tipul și numele vehiculelor"
+
+msgid "teamList/vehicle/header"
+msgstr "Vehicule"
+
+msgid "teamList/warned/body"
+msgstr "Acest jucător a fost penalizat pentru inacțiune/dezertare și nu a obținut nicio recompensă în această luptă."
+
+msgid "teamList/warned/header"
+msgstr "Atenţie"
+
+msgid "teamList/warned/self/body"
+msgstr "Ai fost penalizat pentru inacțiune/dezertare și nu ai obținut nicio recompensă în această luptă."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Eficiență scăzută a echipajului"
+
+msgid "vehicle/rentState"
+msgstr "Blocată"
+
+msgid "vehicleDaily/header"
+msgstr "Bonusul zilnic al vehiculului"

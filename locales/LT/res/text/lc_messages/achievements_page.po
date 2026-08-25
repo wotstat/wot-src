@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Taškai, kurie padidina Bendrą pasiekimų įvertinimą."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Pasiekimų taškai"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Jūs įvykdėte visus pasiekimui reikiamus žingsnius ir gavote visus galimus prizus."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Paspaudę %(escIcon)s grįšite į ankstesnį KATALOGO lygį."
+
+msgid "catalog/rootLink"
+msgstr "KATALOGAS"
+
+msgid "category/achievementsScore/title"
+msgstr "PASIEKIMŲ TAŠKAI"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "Pagrindinis pasiekimų rodiklis. Kiekvienas naujas pasiekimas padidina jūsų Bendrą pasiekimų įvertinimą, išskyrus trofėjus."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Bendras pasiekimų įvertinimas: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "NAUJAUSI\nPASIEKIMAI"
+
+msgid "category/title"
+msgstr "ŽAIDĖJO KOLEKCIJA"
+
+msgid "category/upcoming/title"
+msgstr "BŪSIMI\nPASIEKIMAI"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s ir daugiau"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Atrakintas pasiekimas!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "Atrakinti %(count)s pasiekimai!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s ir daugiau"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Gautas naujas trofėjus!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "Gauti %(count)s trofėjai!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "Automatinis rikiavimas išdėlioja visų kategorijų apdovanojimus pagal vertę ir vertingiausius pateikia juostoje. Ši funkcija neveikia, jei pertvarkote apdovanojimus patys."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "Automatinis rikiavimas išdėlioja visų kategorijų apdovanojimus pagal vertę ir vertingiausius pateikia juostoje. Įjungus šią funkciją jau nustatyta tvarka pakeičiama."
+
+msgid "editConfirm/description/error"
+msgstr "Mes bandome rasti šios problemos sprendimą. Pabandykite sugrįžti vėliau. Dabar jus nukreipsime į Ataskaitą."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Išsaugoti"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Atšaukti"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Tikrai taip!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Automatinis rikiavimas išjungtas"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Automatinis rikiavimas įjungtas"
+
+msgid "editConfirm/title/error"
+msgstr "Įvyko klaida"
+
+msgid "editConfirm/title/normal"
+msgstr "Pritaikyti apdovanojimų juostos pakeitimus?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Atšaukti pakeitimus"
+
+msgid "editView/footer/button/save"
+msgstr "Patvirtinti ir išeiti"
+
+msgid "editView/header/checkbox"
+msgstr "Automatinis rikiavimas"
+
+msgid "editView/header/close"
+msgstr "UŽDARYTI"
+
+msgid "editView/header/title/idle"
+msgstr "Pasirinkite apdovanojimus juostai"
+
+msgid "editView/header/title/selecting"
+msgstr "Pasirinkite, kurį apdovanojimą pakeisite"
+
+msgid "editView/header/title/tutorial"
+msgstr "Pasirinkite apdovanojimo vietą"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Atšaukti"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Pakeisti"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "JŪSŲ PASIEKIMAI\nYRA ČIA"
+
+msgid "hint/profile"
+msgstr "JŪSŲ PASIEKIMAI\nYRA ČIA"
+
+msgid "hint/summary/customizationButton"
+msgstr "Galima redaguoti"
+
+msgid "notifications/editingEnabled/button"
+msgstr "Į juostą"
+
+msgid "notifications/editingEnabled/title"
+msgstr "Galima pakeisti vertingų apdovanojimų juostą"
+
+msgid "notifications/firstEntry/button"
+msgstr "Į Pasiekimus"
+
+msgid "notifications/firstEntry/text"
+msgstr "World of Tanks reitingas,\napdovanojimų redagavimas."
+
+msgid "notifications/firstEntry/title"
+msgstr "Atnaujinami Pasiekimai"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "Į Pasiekimus"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Apdovanojimų redagavimas\nir vizualinis dizainas."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Atnaujinami Pasiekimai"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "Į Pasiekimus"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Jūsų lygis: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Jūsų reitingas apskaičiuotas!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "Į Pasiekimus"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "Jūsų World of Tanks reitingas pasikeitė. Eikite į Pasiekimus, kur rasite daugiau informacijos."
+
+msgid "notifications/ratingUp/button"
+msgstr "Į Pasiekimus"
+
+msgid "notifications/ratingUp/text"
+msgstr "Jūs pasiekėte šį lygį: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Jūsų reitingas padidėjo!"
+
+msgid "playerInfo/clan/button"
+msgstr "Klano profilis"
+
+msgid "playerInfo/clan/date"
+msgstr "Prisijungimo data:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "Žaidėjas nėra pastovių formuočių narys"
+
+msgid "playerInfo/clan/post"
+msgstr "Vieta:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "Asmeninis kariškas žetonas\nšiuo metu nepasiekiamas"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "Žaidėjo reitingas dar neapskaičiuotas: sužaista mažiau nei %(amount)s mūšių."
+
+msgid "ratingWidget/status/initial"
+msgstr "Apskaičiuosime jūsų World of Tanks reitingą po %(amount)s sužaistų mūšių."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "Žaidėjo reitingas dar neapskaičiuotas"
+
+msgid "ratingWidget/status/progress"
+msgstr "Apskaičiuojamas jūsų World of Tanks reitingas. Liko mūšių: %(amount)s."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Jūs kovokite, o mes apskaičiuosime jūsų reitingą."
+
+msgid "rewardView/button/achievements"
+msgstr "Į Pasiekimus"
+
+msgid "rewardView/button/dogTag"
+msgstr "Į Karišką žetoną"
+
+msgid "rewardView/button/dogTags"
+msgstr "Į Kariškus žetonus"
+
+msgid "rewardView/button/moreRewards"
+msgstr "Pamatykite dar %(value)s"
+
+msgid "rewardView/reward/dogTag"
+msgstr "Kariškas žetonas %(value)s"
+
+msgid "rewardView/title/multi"
+msgstr "GAUTI PASIEKIMŲ APDOVANOJIMAI"
+
+msgid "rewardView/title/single"
+msgstr "GAUTAS PASIEKIMŲ APDOVANOJIMAS"
+
+msgid "section/action"
+msgstr "Specialūs"
+
+msgid "section/battle"
+msgstr "Mūšio herojai"
+
+msgid "section/class"
+msgstr "Etapų apdovanojimai"
+
+msgid "section/epic"
+msgstr "Epiniai medaliai"
+
+msgid "section/group"
+msgstr "Grupiniai apdovanojimai"
+
+msgid "section/memorial"
+msgstr "Atminimo ženklai"
+
+msgid "section/special"
+msgstr "Garbės vardai"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "Į PASIEKIMUS"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr "Paskutinis mūšis: %(lastVisitDate)s %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Paskyra sukurta: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Fonas"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Bazinis"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Ugnis"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Auksas"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Legendinis"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Retro"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Sprogstantis"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Atšaukti pakeitimus"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Juosta"
+
+msgid "summary/achievements/customization/save"
+msgstr "Patvirtinti ir išeiti"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "Dėl techninių nesklandumų šiuo metu negalite koreguoti, kaip bus rodomi jūsų pasiekimai. Mes bandome rasti sprendimą. Atnaujinkite langą arba sugrįžkite vėliau."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Koregavimas šiuo metu nepasiekiamas"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Vertingi apdovanojimai"
+
+msgid "summary/achievements/total"
+msgstr "Iš viso: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Unikalus: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Vidutinis: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Pergalės: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Vidutinis: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Vidutinis: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Rekordas: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Vidutinis: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Dalyvaukite mūšyje, kol mes ruošiame jūsų duomenis."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Informacija laikinai nepasiekiama."
+
+msgid "summary/disabled/title"
+msgstr "Daugiau informacijos rasite vėliau"
+
+msgid "summary/main/assistance"
+msgstr "REKORDINĖ\nPAGALBA"
+
+msgid "summary/main/battles"
+msgstr "SUŽAISTA\nMŪŠIŲ"
+
+msgid "summary/main/blocked"
+msgstr "DAUGIAUSIA\nUŽBLOKUOTA"
+
+msgid "summary/main/damage"
+msgstr "REKORDINĖ\nŽALA"
+
+msgid "summary/main/destroyed"
+msgstr "SUNAIKINTA\nMAŠINŲ"
+
+msgid "summary/main/experience"
+msgstr "REKORDINĖ\nPATIRTIS"
+
+msgid "summary/statistic/title"
+msgstr "World of Tanks reitingas"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Asmeninis reitingas"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Daugiausiai padaryta žalos su jūsų pagalba."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Daugiausiai padaryta žalos su jūsų pagalba mūšyje su %(tankName)s."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Rekordinė pagalba: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Visos padarytos žalos su jūsų pagalba ir sužaistų mūšių santykis. Pagalbine žala laikoma:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Žala aptinkant\n• Žala sunaikinus vikšrą ir sustabdžius mašinos judėjimą"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Vidutinė pagalba: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Iš viso laimėtų ir sužaistų mūšių skaičiaus santykis."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Įtraukiama:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Pergalės: %(wins)s\n• Pralaimėjimai: %(loses)s\n• Lygiosios: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Pergalių santykis: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Sužaista mūšių: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Didžiausia užblokuota žala."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Didžiausia užblokuota žala mūšyje su %(tankName)s."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Daugiausiai užblokuota: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Šarvais užblokuotos žalos iš rikošetų ir nepramušusių šūvių su šarvamušiais, pokalibriniais bei kumuliatyviniais sviediniais ir sužaistų mūšių santykis."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Vidutinė užblokuota žala: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Didžiausia padaryta žala."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Didžiausia padaryta žala mūšyje su %(tankName)s."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Rekordinė žala: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Iš viso padarytos žalos ir sužaistų mūšių skaičiaus santykis."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Vidutinė žala: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Didžiausias sunaikintų mašinų skaičius."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "Didžiausias sunaikintų mašinų skaičius mūšyje su %(tankName)s."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Daugiausia sunaikinta: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Iš viso sunaikintų mašinų skaičius."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Sunaikinta mašinų: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Didžiausias surinktos patirties kiekis."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "Didžiausias surinktos patirties kiekis su %(tankName)s."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Rekordinė patirtis: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Visos surinktos patirties ir sužaistų mūšių santykis."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Vidutinė patirtis: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Nei pergalės, nei pralaimėjimai nepakeičia jūsų World of Tanks reitingo apskaičiavimo."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Žaiskite įvairiomis mašinomis ir nustatykite, su kuriomis mašinomis efektyviausiai žaidžiate pagal šiuos parametrus:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "WTR yra reitingo sistema, kuri apskaičiuoja individualų kiekvienos mašinos reitingą ir pagal tai nustato bendrus žaidėjo įgūdžius. Sistema lanksčiai reaguoja į žaidėjo strategijos pokyčius ir palygina žaidėjo rezultatą su serverio vidurkiu."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Padaryta žala"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Žala su jūsų pagalba"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Sunaikintų priešo mašinų skaičius"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Užblokuota žala ir išgyvenamumas"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "Padidinamas WTR"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "World of Tanks reitingas"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Reitingui apskaičiuoti liko mūšių: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Lygis: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Pasiektas limitas!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Iki kito lygio likę taškai: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "Bronza %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "Sidabras %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "Auksas %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "Asas %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "Legenda %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Lygis"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Taškų skaičius"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "World of Tanks reitingas"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "Įjungus šį nustatymą jūsų nustatyta tvarka %(whiteSpanish_Open)sbus pakeista%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "Išjungus šį nustatymą, arba nustačius apdovanojimus rankiniu būdu, juosta %(whiteSpanish_Open)snebebus%(whiteSpanish_Close)s %(whiteSpanish_Open)satnaujinama%(whiteSpanish_Close)s %(whiteSpanish_Open)sautomatiškai%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "Automatiškai surūšiuoja %(whiteSpanish_Open)svisų kategorijų%(whiteSpanish_Close)s apdovanojimus pagal vertę ir pateikia apdovanojimų juostoje."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Automatinis rikiavimas"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "Vertingų apdovanojimų juostos laikinai negalima redaguoti. Pabadykite vėliau."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Jūs neturite šiai vietai tinkamų apdovanojimų. Gaukite juos %(whiteSpanish_Open)smūšiuose%(whiteSpanish_Close)s arba %(whiteSpanish_Open)sdalyvaudami%(whiteSpanish_Close)s %(whiteSpanish_Open)sžaidimo renginiuose.%(whiteSpanish_Close)s"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "Vertingų apdovanojimų juostą galėsite koreguoti tik gavę %(whiteSpanish_Open)s%(amount)s ar daugiau%(whiteSpanish_Close)s bet kurios kategorijos apdovanojimų."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Nėra tinkamų apdovanojimų."
+
+msgid "tooltips/mastery/body"
+msgstr "Gauti meistriškumo ženkleliai visuose galimuose mūšių režimuose / Tankų skaičius, su kuriais žaistas nors vienas Atsitiktinis mūšis"
+
+msgid "tooltips/mastery/header"
+msgstr "Meistriškumo ženkleliai: Meistras"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "Asmeninis reitingas parodo žaidėjo įgūdžius ir žaidimo patirtį, jis nustatomas pagal šiuos duomenis:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "Asmeninis reitingas atnaujinamas po kiekvieno sužaisto mūšio."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Pergales\n• Padarytą žalą su jūsų pagalba\n• Vidutinę žalą mūšyje\n• Vidutinę patirtį mūšyje\n• Išgyventus mūšius"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Asmeninis reitingas"

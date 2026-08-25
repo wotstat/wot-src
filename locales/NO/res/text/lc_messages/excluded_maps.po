@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "backButton/label"
+msgstr "TILBAKE"
+
+msgid "backButton/to"
+msgstr "TIL KONTOSTATUS"
+
+msgid "filteredMapsDisplayed"
+msgstr "Kart som vises: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Vis/skjul kart av denne typen."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Ørkenkart"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Sommerkart"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Vinterkart"
+
+msgid "header/cooldown"
+msgstr "Du kan bytte ut et kart igjen om %(cooldownEndTime)."
+
+msgid "header/title"
+msgstr "Ekskluderte kart"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Du kan bytte ut dette kartet igjen etter at nedkjølingstiden er ute."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Å bytte ut kart er ikke tilgjengelig"
+
+msgid "mapTile/hoverExclude"
+msgstr "Ekskludere %(mapName) kartet?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Ekskluder"
+
+msgid "mapTile/hoverInclude"
+msgstr "Inkludere %(mapName) kartet i tilfeldige kamper?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Inkluder"
+
+msgid "mapsFilterLabel"
+msgstr "Typer kart:"
+
+msgid "notSelected"
+msgstr "Ikke valgt"
+
+msgid "premium"
+msgstr "WoT premium"
+
+msgid "slot/disabledTooltipBody"
+msgstr "Ytterligere en plassholder er tilgjengelig kun med en aktiv WoT premium konto eller WoT Plus abonnement."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "Åpne med en WoT premiumkonto."
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Åpne den med et aktivert WoT Plus abonnement."
+
+msgid "slot/replaceTooltipBody"
+msgstr "Velg et kart fra listen under for å bytte det ut og ekskludere det fra tilfeldige kamper."
+
+msgid "slot/selectTooltipBody"
+msgstr "Velg et kart fra listen under for å ekskludere det fra tilfeldige kamper."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Tilgjengelig plassholder"
+
+msgid "totalMapsDisplayed"
+msgstr "Kart som vises: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "Ekskluder enda 1 kart med %(linkPremium) og ytterligere %(mapCount)s til med %(linkWotPlus)."
+msgstr[1] "Ekskluder enda 1 kart med %(linkPremium) og ytterligere %(mapCount)s til med %(linkWotPlus)."
+
+msgid "unlock/premium"
+msgstr "Ekskluder 1 kart til med %(linkPremium)."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "Ekskluder ytterligere %(mapCount)s kart til med %(linkWotPlus)."
+msgstr[1] "Ekskluder ytterligere %(mapCount)s kart til med %(linkWotPlus)."
+
+msgid "wotplus"
+msgstr "WOT Plus"

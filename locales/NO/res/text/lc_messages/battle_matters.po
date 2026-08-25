@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Tegning"
+
+msgid "animations/crew_close"
+msgstr "LUKK"
+
+msgid "animations/shop"
+msgstr "Gå til Kjøp"
+
+msgid "battleMattersTab"
+msgstr "Krigsskolen"
+
+msgid "battleResults/descr"
+msgstr "Krigsskolen: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Til krigsskoleoppdrag"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Fremgang i denne kampen"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Avbryt"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "LUKK"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Bekreft"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Du får {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} med en besetning og en garasjeplass."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Veksle din krigsskollepollett for %(vehicleName)s?"
+
+msgid "entryPoint/hint"
+msgstr "EN SERIE MED\nTRENINGSOPPDRAG"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Fullførte oppdrag: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Krigsskolen"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Belønning for fullførelse:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Oppdrag er for tiden utilgjengelig av tekniske årsaker. Din fremgang på det fullførte oppdraget blir lagret."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Alle oppdrag fullført"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Oppdrag er midlertidig utilgjengelig"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Vilkår:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Veksle en pollett for et hvilket som helst utviklingsbart kjøretøy på nivå 6."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "TILBAKE"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "TIL KRIGSSKOLEOPPDRAG"
+
+msgid "mainRewardsScreen/done"
+msgstr "I garasje"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Forhåndsvisning"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Dager med leie: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Fullfør en serie med treningsoppdrag for å få tre premiumkjøretøy på nivå 8 i leie i {cream_Open}14 dager{cream_Close} som hovedbelønning."
+
+msgid "mainRewardsScreen/title"
+msgstr "KRIGSSKOLEN"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Velg"
+
+msgid "mainScreen/infoButton"
+msgstr "VEILEDNING FOR NYBEGYNNERE"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "VEILEDNING"
+
+msgid "mainScreen/list/arrow"
+msgstr "Klikk for å gå til det nåværende oppdraget."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Hovedbelønningen mottatt"
+
+msgid "mainScreen/progress"
+msgstr "Fullførte oppdrag: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Hvordan fullføre"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Fullfør det forrige oppdraget"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Ikke tilgjengelig"
+
+msgid "mainScreen/showMainReward"
+msgstr "Se hovedbelønning"
+
+msgid "mainScreen/target"
+msgstr "Fullfør alle oppdragene og få tre kjøretøy på nivå 8 i leie."
+
+msgid "mainScreen/title"
+msgstr "KRIGSSKOLEN"
+
+msgid "pausedScreen/buttonText"
+msgstr "Til garasjen"
+
+msgid "pausedScreen/description"
+msgstr "Krigsskolen er midlertidig utilgjengelig av tekniske årsaker. All fremgang blir lagret. Vi beklager ulempen."
+
+msgid "pausedScreen/title"
+msgstr "Midlertidig utilgjengelig"
+
+msgid "rewards/additionalTitle"
+msgstr "Du fikk også:"
+
+msgid "rewards/footer/confirm"
+msgstr "Bekreftet!"
+
+msgid "rewards/footer/more"
+msgstr "Mer: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Til det neste oppdraget"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Vis i garasjen"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Oppdragsvilkårene har blitt fullført tidligere"
+
+msgid "rewards/rent"
+msgstr "Dager med leie: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "SISTE OPPDRAG FULLFØRT"
+
+msgid "rewards/subTitle/regular"
+msgstr "%(questNumber)s OPPDRAG FULLFØRT"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "MOTTATT KJØRETØY FOR KRIGSSKOLEPOLLETT"
+
+msgid "rewards/title"
+msgstr "KRIGSSKOLEN"
+
+msgid "rewards/token/action"
+msgstr "Velg kjøretøy"
+
+msgid "rewards/token/description"
+msgstr "Bruk en pollett for å få et hvilket som helst kjøretøy på nivå 6 nå."
+
+msgid "rewards/token/title"
+msgstr "Veksle en krigsskolepollett for et kjøretøy"
+
+msgid "tokenTooltip/condition"
+msgstr "Polletter gis i belønning for fullførelse av en serie med treningsoppdrag og oppdrag samt for å fullføre nødvendig fremgang på krigsskolen."
+
+msgid "tokenTooltip/description"
+msgstr "Polletter kan veksles til et hvilket som helst utviklingsbart kjøretøy på nivå 6. Kjøretøyet blir levert med en besetning og en garasjeplass."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Pollett tilgjengelig: {cream_open}%(days)s d{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Pollett tilgjengelig frem til: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Pollett tilgjengelig: {cream_open}%(hours)s t{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Pollett tilgjengelig: {cream_open}%(minutes)s min{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Krigsskolepollett"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Du vil få en {cream_Open}%(crewIcon)s besetning{cream_Close} og en {cream_Open}%(hangarIcon)s garasjeplass{cream_Close} {cream_Open}{cream_Close} i tillegg til kjøretøyet ditt."
+
+msgid "vehicleSelection/back"
+msgstr "TILBAKE"
+
+msgid "vehicleSelection/backTo"
+msgstr "TIL KRIGSSKOLEOPPDRAG"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Legg til sammenlikning"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Konfigurér visning av kjøretøy etter type og nasjon."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Parameterfilter"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Klikk for å nullstille filtreringsinnstillingene."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Sett til standard"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Nasjon"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Parameterfilter"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Type kjøretøy"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Ingenting ble funnet. Endre filterinnstillingene eller nullstill dem."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Nullstill filter"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Du har utviklet alle kjøretøy på nivå 6 som kan bli vekslet inn for en krigsskolepollett."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Ingen kjøretøy å velge"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Søk på navn"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "Navnet på kjøretøyet kan ikke inneholde mer enn %(maxLength)s tegn."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Søk på navn"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Vist:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Veksle en pollett til et hvilket som helst utviklingsbart kjøretøy på nivå 6. Kjøretøyet blir levert med\nen besetning og en garasjeplass."
+
+msgid "vehicleSelection/title"
+msgstr "Velg et hvilket som helst utviklingsbart kjøretøy på nivå 6"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Panserjager"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "SPG"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Tung tanks"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Lett tanks"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Medium tanks"

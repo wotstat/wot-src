@@ -1,0 +1,602 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleControls/casseteReload"
+msgstr "Lövedék tartó újratöltése"
+
+msgid "battleControls/closeBtnLabel"
+msgstr "BEZÁRÁS"
+
+msgid "battleControls/cruiseCtrlBackward"
+msgstr "Mozgás előre Tempomatban"
+
+msgid "battleControls/cruiseCtrlForward"
+msgstr "Mozgás hátra Tempomatban"
+
+msgid "battleControls/disableLockTarget"
+msgstr "Automata célzás kikapcsolása"
+
+msgid "battleControls/fire"
+msgstr "Tüzelés"
+
+msgid "battleControls/hideInterface"
+msgstr "Interfész mutatása/elrejtése"
+
+msgid "battleControls/hideMinimap"
+msgstr "Térkép mutatása/elrejtése"
+
+msgid "battleControls/makeScreenshort"
+msgstr "Képernyőkép mentése könyvtárba"
+
+msgid "battleControls/movementBackward"
+msgstr "Mozgás előre"
+
+msgid "battleControls/movementForward"
+msgstr "Mozgás hátra"
+
+msgid "battleControls/movementLeft"
+msgstr "Fordul/Mozgás balra"
+
+msgid "battleControls/movementRight"
+msgstr "Fordul/Mozgás jobbra"
+
+msgid "battleControls/pageTitle"
+msgstr "ÁLTALÁNOS INFORMÁCIÓ"
+
+msgid "battleControls/showCursor"
+msgstr "Kurzor kijelzése"
+
+msgid "battleControls/showCursor/ext"
+msgstr "(térképnek, játékosok listája, stb.)"
+
+msgid "battleControls/showExPlayerInfo"
+msgstr "Más jelző megjelenítése"
+
+msgid "battleControls/stopFire"
+msgstr "Állj és Lőj"
+
+msgid "battleControls/switchAutorotation"
+msgstr "Páncéltest rögzítése / Mód váltás"
+
+msgid "battleControls/title"
+msgstr "Csata Mód"
+
+msgid "battleControls/toggleAFL"
+msgstr "Páncélzatjelző be-/kikapcsolása"
+
+msgid "battleControls/toggleAFL/ext"
+msgstr "csak mesterlövész módban érhető el"
+
+msgid "battleControls/toggleLockTarget"
+msgstr "Automata be-kikapcsolása"
+
+msgid "battleControls/toggleLockTarget/ext"
+msgstr "(célkereszt a célponton)"
+
+msgid "battleControls/togglePlayerPanelModes"
+msgstr "Játékos lista megmutatása/elrejtése"
+
+msgid "battleControls/togglePlayerPanelModes/ext"
+msgstr "vagy az elismerés viszonzása"
+
+msgid "battleControls/toggleSniperMode"
+msgstr "Lövész, vagy Tüzérségi mód be-kikapcsolása"
+
+msgid "battleControls/toggleSniperMode/ext"
+msgstr "Tüzérségi Mód"
+
+msgid "battleControls/voiceChatMute"
+msgstr "Hang kommunikáció engedélyezése"
+
+msgid "chatControls/change"
+msgstr "Csapatnak / Szakasznak"
+
+msgid "chatControls/enterToChatMode"
+msgstr "Belépés a Chatbe"
+
+msgid "chatControls/exitFromChatMode"
+msgstr "Kilépés a Chatből"
+
+msgid "chatControls/send"
+msgstr "Üzenet küldése"
+
+msgid "chatControls/title"
+msgstr "Chat Mód"
+
+msgid "crosshairControls/ammoNumber"
+msgstr "Lőszer mennyiség"
+
+msgid "crosshairControls/damageIndicator"
+msgstr "Találati Irány"
+
+msgid "crosshairControls/dispercion"
+msgstr "Szórás"
+
+msgid "crosshairControls/example/damage"
+msgstr "-248"
+
+msgid "crosshairControls/example/hp"
+msgstr "375/720"
+
+msgid "crosshairControls/example/name"
+msgstr "T-34-85"
+
+msgid "crosshairControls/gunMarker"
+msgstr "Löveg Pozíciója"
+
+msgid "crosshairControls/healthPlayer"
+msgstr "Játékos életereje"
+
+msgid "crosshairControls/hpIndicator"
+msgstr "Tartósság jelző"
+
+msgid "crosshairControls/hpValues"
+msgstr "Célpont életereje (%/HP maradt/összesen)"
+
+msgid "crosshairControls/marker"
+msgstr "Célpont"
+
+msgid "crosshairControls/reloadIndicator"
+msgstr "Löveg töltés"
+
+msgid "crosshairControls/reloadTimer"
+msgstr "Löveg újratöltési ideje, másodpercben"
+
+msgid "crosshairControls/targetClass"
+msgstr "Jármű típus jelző"
+
+msgid "crosshairControls/targetDistance"
+msgstr "Távolság a Célpontig"
+
+msgid "crosshairControls/targetIcon"
+msgstr "Jármű ikonja"
+
+msgid "crosshairControls/targetLevel"
+msgstr "Szint"
+
+msgid "crosshairControls/targetName"
+msgstr "Jármű neve / Játékos neve"
+
+msgid "crosshairControls/title"
+msgstr "Löveg és Célkereszt Jelzők"
+
+msgid "detailsHelp/default/title"
+msgstr "Segítség"
+
+msgid "detailsHelp/devMaps/headerTitle"
+msgstr "A pálya jellemzői"
+
+msgid "detailsHelp/devMaps/markers/description"
+msgstr "A véletlenszerű eseményeket\nfüst jelöli a pályán és egy jelölő a kistérképen.\nA véletlenszerű eseményekkel rendelkező pályákat kikapcsolhatod a beállítások Játék fülén."
+
+msgid "detailsHelp/devMaps/title"
+msgstr "Pályák véletlenszerű eseményekkel"
+
+msgid "detailsHelp/devMaps/zone/description"
+msgstr "A járműved megsemmisülhet a véletlenszerű események területén (például egy repülőgép lezuhanásakor).\nA véletlenszerű eseményekkel rendelkező pályákat kikapcsolhatod a beállítások Játék fülén."
+
+msgid "detailsHelp/dualGun/quick_fire"
+msgstr "Ezen tüzelési rendszerrel felszerelt járművek tüzeléskor löveget váltanak. A legutóbb használt löveg automatikusan újratöltődik, miközben a már betöltött második lövegnek várnia kell egy kicsit."
+
+msgid "detailsHelp/dualGun/quick_fire/title"
+msgstr "Gyorstüzelő"
+
+msgid "detailsHelp/dualGun/volley_fire"
+msgstr "A duplacsövű lövegrendszerrel rendelkező járműveknek különleges sorozattűz tüzelési mechanikája van, amit a hozzárendelt billentyű nyomva tartásával lehet aktiválni. A kilőtt lövedékek egymással párhuzamosan repülnek. A tüzelésre szolgáló gombot a beállításokban lehet megváltoztatni."
+
+msgid "detailsHelp/dualGun/volley_fire/title"
+msgstr "Sorozattűz"
+
+msgid "detailsHelp/engineMode/engineModePage1"
+msgstr "Válthatsz a motor módok között a taktikai szituációnak megfelelően. A motor módok közötti váltáshoz teljesen meg kell állni és bizonyos időre van szükség hozzá, ami független a modul állapotától."
+
+msgid "detailsHelp/engineMode/engineModePage1/title"
+msgstr "Új mozgási mechanizmusok"
+
+msgid "detailsHelp/engineMode/engineModePage2"
+msgstr "A turbótöltő mód növeli a motor teljesítményét, a sebességet és a tolatási sebességet. Ez a mód azonban feltűnőbbé teszi a járművedet, csökkenti a löveg stabilitását és növeli a célzási időt."
+
+msgid "detailsHelp/engineMode/engineModePage2/title"
+msgstr "Előnyök és hátrányok"
+
+msgid "detailsHelp/mapbox/headerTitle"
+msgstr "A pálya jellemzői"
+
+msgid "detailsHelp/mapbox/localWeather/description"
+msgstr "A helyi időjárási zónában tartózkodó járművek nem tudják felderíteni a zónán kívüli járműveket és ez fordítva is igaz. Nem tudnak továbbá információt cserélni a zónán kívüli ellenséges járművek helyzetéről. A tűz sérülést okoz a járműveknek."
+
+msgid "detailsHelp/mapbox/localWeather/title"
+msgstr "Helyi időjárás"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/description"
+msgstr "Ha mozdulatlan maradsz, vagy nem haladsz gyorsabban egy bizonyos sebességnél, a járműved képes kalibrálni az Analóg ballisztikai számítógépet, és növeli a pontossági szinteket.\nMinden szint javítja a következő lövésed pontosságát, de a lövés leadása után elveszti hatását."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/title"
+msgstr "Analóg ballisztikai számítási eszköz"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/description"
+msgstr "Teljes kalibráció esetén járműved eléri a legmagasabb pontossági szintet, és a lövegstabilizálása remek lesz, csökkentett szórással mozgás vagy a torony/járműtest forgatása közben.\nA hatás tüzeléskor megszűnik."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/title"
+msgstr "Teljes kalibráció"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/description"
+msgstr "Automata lövegtípus rendkívül magas tűzgyorsasággal. A tüzelés hatékonyságát a célzókörben látható jelző mutatja."
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/title"
+msgstr "Automata löveg"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/description"
+msgstr "Ez a löveg képes folyamatosan tüzelni újratöltés nélkül. Minden egyes lövés hőt termel, és a folyamatos tüzelés túlhevíti a löveget, ami megakadályozza a további tüzelést, amíg vissza nem hűl."
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
+msgstr "Túlmelegedés-szabályozott gépágyú"
+
+msgid "detailsHelp/mechanics/battleFury/page1/description"
+msgstr "Minden alkalommal, amikor eltalálsz egy ellenséges járművet egy lövedékkel, újratöltési hatékonysági szintet szerzel, amely átmenetileg megnöveli a löveged újratöltési sebességét. A szintek minden egyes találattal gyarapodnak.\nHa megsemmisítesz egy ellenséges járművet egy lövéssel, akkor további újratöltési hatékonysági szinteket kapsz."
+
+msgid "detailsHelp/mechanics/battleFury/page1/title"
+msgstr "Félautomata lőszerrekesz"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/description"
+msgstr "Ha a löveged be van töltve, elkezdheted előmelegíteni a következő lövésedet. Minél magasabb hőfokot érsz el, annál nagyobb lesz az átlagos sebzésre kapott bónusz.\nA felmelegítési folyamat elindításához nyomd meg:"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/title"
+msgstr "Termoballisztikus túltöltés"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/description"
+msgstr "A maximális hőfok elérésekor elkezdődik egy visszaszámlálás. Ha nem tüzelsz, mielőtt ez letelik, néhány másodpercig nem tudsz majd lőni."
+
+msgid "detailsHelp/mechanics/chargeShot/page2/title"
+msgstr "A töltet túlmelegítése"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/description"
+msgstr "Két, az ellenséges járművek páncélját átütő találattal aktiválod a Rövid sorozat módot. Ekkor a járműved egy sorozatlövő kazettát tölt be, amellyel a következő lövéseddel két lövedéket lőhetsz ki gyors egymásutánban."
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
+msgstr "Rövid sorozat mód"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/description"
+msgstr "A pneumatikus girostabilizátor rövid időre maximális stabilizációt biztosít a járműtest és a torony forgatása közben, lehetővé téve a pontosabb tüzelést menet közben és a hirtelen fenyegetésekre való gyors reagálást.\nAz aktiválásához nyomd meg a gyorsbillentyűt:"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/title"
+msgstr "Pneumatikus girostabilizátor"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/description"
+msgstr "Ha a löveg kellőképpen lehűlt a tüzelés után, akkor csökken a szórása. Egy második, kisebb átmérőjű célzókör jelenik meg, amely meghatározza a lövedék becsapódási területét. Ez a hatás a következő lövés leadásáig tart."
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/title"
+msgstr "Kettős célzás"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/description"
+msgstr "A rendszer automatikusan elkezd betölteni egy új kazettát, ha az aktuális kazettában egy lőszer marad.\nHa kilövöd az utolsó lőszert az új kazetta betöltése közben, az néhány másodperccel meghosszabbítja a hátralévő újratöltési időt."
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/title"
+msgstr "Kazettás töltőrendszer"
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/description"
+msgstr "A rendszer lehűti a löveget, rendkívül pontos tüzelést biztosítva. A löveg tüzeléskor felhevül, de újratöltés közben elkezd lehűlni, és visszatér a jobb paraméterekhez. Minél magasabb a löveg hőmérséklete, annál nagyobb mértékben változnak az egyes paraméterei."
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/title"
+msgstr "Aktív löveghűtés"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/description"
+msgstr "Ezt a járművet kifejezetten az ütközéses támadásokra konfigurálták, egy sor olyan módosítással, amelyek segítségével több sebzést tud okozni."
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/title"
+msgstr "Ütközési konfiguráció"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/description"
+msgstr "A jármű lövege korábban tud tüzelni: az újratöltés közben leadott egyszeri töltésű lövések csökkentett hatékonyságúak, míg az újratöltés után leadott, teljes töltésű lövések optimális ballisztikai paraméterekkel rendelkeznek."
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/title"
+msgstr "Többcsomagos töltési rendszer"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/description"
+msgstr "Ha mozdulatlan maradsz, vagy nem haladsz gyorsabban egy bizonyos sebességnél, előmelegítés termelődik, amely növeli a következő lövésed átlagos sebzését és pontosságát.\nHa átléped a sebességhatárt, a bónusz fokozatosan csökken, a tüzelés pedig azonnal lenullázza azt."
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/title"
+msgstr "Hajtóanyag-hőszabályozó rendszer"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/description"
+msgstr "Ha maximális előmelegítési szinten átütöd egy olyan ellenséges jármű páncélzatát, amely kevesebb életerővel rendelkezik, mint az átlagsebzésed – az előmelegítési bónusszal együtt –, akkor felrobban a lőszerrekesz, és a jármű azonnal megsemmisül."
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/title"
+msgstr "Végzetes sebzés"
+
+msgid "detailsHelp/mechanics/powerMode/page1/description"
+msgstr "A közvetlen meghajtás mód jelentősen növeli a motorteljesítményt és a végsebességet. Minél tovább mész előre, annál nagyobb sebességet érhetsz el, így könnyedén végigszáguldhatsz a csatatéren."
+
+msgid "detailsHelp/mechanics/powerMode/page1/title"
+msgstr "Közvetlen meghajtás"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/description"
+msgstr "Idővel a rendszer automatikusan felhalmoz egy töltést, amelyet tüzeléskor részben felhasznál a sebzés növelése érdekében. Minél nagyobb a töltés, annál nagyobb a bónuszsebzés."
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/title"
+msgstr "Indukciós hajtóanyag-utánégető"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/description"
+msgstr "Alapértelmezés szerint a rendszer csak egy bizonyos határig tudja eltárolni a töltést. A korlátozó kikapcsolásával még nagyobb töltést halmozhatsz fel, ami sokkal nagyobb sebzésbónuszt biztosít, de rontja a löveg kezelhetőségét. A korlátozó be- és kikapcsolásához nyomd meg ezt a gombot:"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/title"
+msgstr "Korlátozó"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/description"
+msgstr "A folyékony üzemanyagú hajtóművek egy motorteljesítmény-löketet biztosítanak, amellyel pozíciós előnyre tehetsz szert a csatatéren – de limitálja a jármű hátrameneti és forgási sebességét. A hajtóműveket bármikor ki- és bekapcsolhatod, kivéve, ha elérték a kritikus hőmérsékleti szintet.\nA bekapcsolásukhoz nyomd meg vagy tartsd lenyomva a következő gombot:"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/title"
+msgstr "Folyékony üzemanyagú hajtóművek"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/description"
+msgstr "A hajtóművek használat közben folyamatosan melegednek, amíg el nem érik a kritikus hőhatárt. Ekkor inaktívvá válnak, és csak lehűlés után lehet őket újra bekapcsolni. Tervezd meg lépéseidet körültekintően, hogy ne érjen meglepetés."
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/title"
+msgstr "Kritikus hőmérsékleti szint"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/description"
+msgstr "A sugárhajtóművek használata növeli a jármű mobilitását. Lehetővé teszi, hogy előnyös pozíciókat foglalj el, vagy gyorsabban átkelj a veszélyes területeken. A sugárhajtóműveket egy bizonyos időre, és csatánként korlátozott számú alkalommal aktiválhatod. Nem lehet őket se kikapcsolni, se megsemmisíteni."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/title"
+msgstr "Sugárhajtóművek"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/description"
+msgstr "Aktiváláskor a sugárhajtóművek növelik a motor teljesítményét és a végsebességet. A jármű azonban ilyenkor kevésbé manőverezhető, és veszít a tolatási sebességéből."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
+msgstr "Előnyök és hátrányok"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
+msgstr "Szilárd üzemanyaggal működő hajtóművek, amelyek néhány másodpercre növelik a gyorsulást, a mobilitást és a manőverezhetőséget. A bal és jobb oldali hajtóművek egymástól függetlenül működtethetők a járműtest gyorsabb forgatásához, és nem korlátozzák a tolatási képességet."
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/title"
+msgstr "Szekvenciális rakétahajtómű"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/description"
+msgstr "Ez a jármű két üzemmóddal rendelkezik – Turbó és Harci –, amelyek között bármikor válthatsz. A Taktikai erőcsomag az aktív üzemmód számára halmoz fel energiát.\nAz üzemmódváltáshoz nyomd meg a következő gombot:"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/title"
+msgstr "Két mód"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/description"
+msgstr "Amint a Taktikai erőcsomag teljesen feltöltődött, egy üzemmód-specifikus képesség válik elérhetővé. Ha aktiválod, az elfogyasztja az összes felhalmozott energiát, cserébe azonban rövid ideig jelentős bónuszokhoz jutsz.\nAz egyedi üzemmódképesség használatához nyomd meg a következő gombot:"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/title"
+msgstr "Módképességek"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/description"
+msgstr "A külső lőszerellátó modullal megszakíthatod az újratöltést, és bármikor tüzelhetsz, amíg legalább egy lőszer be van töltve. Az újratöltési folyamat megszakításához, illetve folytatásához nyomd meg a következő gyorsbillentyűt:"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/title"
+msgstr "Külső lőszerellátó modul"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/description"
+msgstr "Az újratöltés alatt a modul zárolja a jármű tornyát és a külső lőszertárolóit, és ideiglenesen megakadályozza a célzást és a tüzelést, hacsak meg nem szakítod azt."
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/title"
+msgstr "Külső lőszerellátó modul"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/description"
+msgstr "A jármű egy sor kiegészítő fegyverrel van felszerelve, amelyek saját, a fő lövegtől független újratöltési ciklussal rendelkeznek, és amelyekkel extra sebzést okozhatsz a kulcsfontosságú pillanatokban. A kiegészítő fegyverzet aktiválásához nyomd meg a következő gyorsbillentyűt:"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/title"
+msgstr "Kiegészítő fegyverzet"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/description"
+msgstr "A Lézeres célmegjelölő egyedi hatással ruházza fel a következő lövésedet, amely minden eltalált ellenfélre hat. A hatás attól függ, hogy az ellenfél fel volt-e derítve a találat pillanatában.\nA Lézeres célmegjelölő aktiválásához nyomd meg a következő gombot:"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/title"
+msgstr "Lézeres célmegjelölő"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/description"
+msgstr "Ha egy felderített ellenséges járművet találsz el, megjelölöd azt, ami meghosszabbítja a felderítettségi idejét, és növeli a járműnek lövéssel okozott sebzést.\nHa egy felderítetlen ellenséges járművet találsz el, akkor egy különleges jelölő felfedi a helyzetét."
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/title"
+msgstr "Célmegjelölő"
+
+msgid "detailsHelp/mechanics/twinGun/page1/description"
+msgstr "A csatatéren a kialakult taktikai helyzettől függően megváltoztathatod a tüzelési módot egylövetű módról sortűzre."
+
+msgid "detailsHelp/mechanics/twinGun/page1/title"
+msgstr "Tüzelésimódváltó-mechanika"
+
+msgid "detailsHelp/mechanics/twinGun/page2/description"
+msgstr "A sortűz mód megduplázza a sebzést és az újratöltési időt, továbbá csökken a járműved szórása 100 méteren*."
+
+msgid "detailsHelp/mechanics/twinGun/page2/title"
+msgstr "Előnyök és hátrányok"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/description"
+msgstr "Ez a mechanikai módosítás rövid időre jelentősen növeli a jármű gyorsulását előre- és hátramenetben, a motorteljesítményét, valamint a vég- és tolatási sebességét. A magas sebesség fenntartása csökkenti a visszatöltési időt."
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/title"
+msgstr "Nagynyomású turbótöltő-rásegítés"
+
+msgid "detailsHelp/noKeysWarning"
+msgstr "Az alap gombok hozzárendelése hiányos. Végezd el a hozzárendelést a játék beállításokban."
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1"
+msgstr "Ebben a módban a löveg pontossága, az újratöltési sebesség és a lövegkitérítési szögek drasztikusan megnövekednek, de a mobilitás (előremeneti / tolatási sebesség és döntési / forgási sebesség) erősen korlátozott. A mód aktiválásához %(pressAndHold)s a gyorsbillentyűt:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/pressAndHold"
+msgstr "nyomd le és tartsd lenyomva"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/title"
+msgstr "Bunker mód"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2"
+msgstr "Ebben a módban a löveg pontossága, a célzási sebesség és a lövegkitérítési szögek megnövekednek, de a mobilitás (vég- és tolatási sebesség) csökken. A mód aktiválásához nyomd meg a következő gyorsbillentyűt:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2/title"
+msgstr "Ostrom mód"
+
+msgid "detailsHelp/role/description"
+msgstr "Szerezz bónusz tapasztalatot szerep feladatok teljesítésével:"
+
+msgid "detailsHelp/role/title"
+msgstr "Jármű szerepe csatában"
+
+msgid "detailsHelp/trackWithinTrack/description"
+msgstr "Lehetővé teszi a mozgás részleges fenntartását, ha a fő lánctalp megsemmisül."
+
+msgid "detailsHelp/trackWithinTrack/title"
+msgstr "Tartalék lánctalp"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique"
+msgstr "A francia, kerekekkel rendelkező könnyű járművek nagy sebességgel és jó dinamikával büszkélkedhetnek, de mindemellett csak közepes látótávolsággal. Az álló jármű nem képes fordulni."
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique/title"
+msgstr "Összes"
+
+msgid "detailsHelp/wheeledVeh/burnout"
+msgstr "Tartsd nyomva a(z) %(key2)s és %(key1)s gombokat egyszerre. Az erőjelző állása meghatározza a gyorsító erejét. Engedd el a(z) %(key1)s gombot a gyorsító aktiválásához vagy a(z) %(key2)s gombot a megszakításához. A gyorsító nagy gyorsulást biztosít rajtaütésekhez és elterelő manőverekhez. Figyelem! A gyorsítót csak akkor lehet használni, miután már teljesen megállt a jármű. A gyorsító aktiválása károsítja járműved motorját."
+
+msgid "detailsHelp/wheeledVeh/burnout/title"
+msgstr "Gyorsító"
+
+msgid "detailsHelp/wheeledVeh/stableChassis"
+msgstr "A kerekekkel rendelkező járművek csökkentett sérülést szenvednek el, ha a kerekükre érkeznek. A kerekes járművek nem állnak meg egy kerék kilövésekor. Ahogy több kerék megsemmisül, úgy lesz egyre kisebb a jármű sebessége és irányíthatósága. A kerekekkel rendelkező járműveket nehezebb mozgásképtelenné tenni—a kilőtt kerék teljesen megjavul egy idő után."
+
+msgid "detailsHelp/wheeledVeh/stableChassis/title"
+msgstr "Tartós felfüggesztés"
+
+msgid "detailsHelp/wheeledVeh/twoModes"
+msgstr "Nyomd meg a %(key1)s gombot a módváltáshoz. A járművek sebessége, dinamikája és irányítása módonként eltér."
+
+msgid "detailsHelp/wheeledVeh/twoModes/title"
+msgstr "Két mozgás üzemmód"
+
+msgid "markerColors/enemy"
+msgstr "Ellenség"
+
+msgid "markerColors/friend"
+msgstr "Csapattárs"
+
+msgid "markerColors/squadPlayer"
+msgstr "Csapattárs"
+
+msgid "markerColors/teamKiller"
+msgstr "Csapatgyilkos"
+
+msgid "markerColors/title"
+msgstr "Ikon színek:"
+
+msgid "markerMarks/attack"
+msgstr "Támadás"
+
+msgid "markerMarks/follow"
+msgstr "Kövessetek!"
+
+msgid "markerMarks/help"
+msgstr "Segítség!"
+
+msgid "markerMarks/target/sau"
+msgstr "Tüzérség célpontja"
+
+msgid "markerMarks/target/tank"
+msgstr "Jármű célpontja"
+
+msgid "markerMarks/title"
+msgstr "Jelölések a térképen:"
+
+msgid "radialMenu/ally_hq_defend_command"
+msgstr "Védekezz!"
+
+msgid "radialMenu/ally_hq_defend_commit"
+msgstr "Védem!"
+
+msgid "radialMenu/attackAreaSPG"
+msgstr "Ide célzok!"
+
+msgid "radialMenu/attack_enemy"
+msgstr "Támogatásra van szükségem!"
+
+msgid "radialMenu/attack_enemy_with_SPG"
+msgstr "Támadom a célpontot!"
+
+msgid "radialMenu/attacking_base"
+msgstr "Elfoglalom!"
+
+msgid "radialMenu/attacking_enemy"
+msgstr "Támadom a célpontot!"
+
+msgid "radialMenu/attention_to_base_atk"
+msgstr "Foglalj!"
+
+msgid "radialMenu/attention_to_base_def"
+msgstr "Védekezz!"
+
+msgid "radialMenu/attention_to_position"
+msgstr "Figyelem erre a pozícióra!"
+
+msgid "radialMenu/cancel_reply"
+msgstr "Megtagadva"
+
+msgid "radialMenu/defending_base"
+msgstr "Megvédem!"
+
+msgid "radialMenu/enemy_hq_attack_command"
+msgstr "Támadás!"
+
+msgid "radialMenu/enemy_hq_attack_commit"
+msgstr "Támadok!"
+
+msgid "radialMenu/going_there"
+msgstr "Erre a pozícióra tartok!"
+
+msgid "radialMenu/helpMe"
+msgstr "Segítség!"
+
+msgid "radialMenu/helpMeEx"
+msgstr "Segítségre van szükségem!"
+
+msgid "radialMenu/overheated_gun"
+msgstr "Túlmelegedett!"
+
+msgid "radialMenu/positive"
+msgstr "Értettem!"
+
+msgid "radialMenu/reloadingGun"
+msgstr "Újratöltés!"
+
+msgid "radialMenu/reply_to_player"
+msgstr "Megerősítve!"
+
+msgid "radialMenu/supporting_ally"
+msgstr "Segítek neked!"
+
+msgid "radialMenu/thanks"
+msgstr "Köszönöm!"
+
+msgid "radialMenu/turn_back"
+msgstr "Visszavonulás!"
+
+msgid "returnToGame"
+msgstr "Esc—Vissza a csatába"
+
+msgid "roleDescription/msg"
+msgstr "Szerezz bónusz tapasztalatot szerep feladatok teljesítésével:"
+
+msgid "settings/button"
+msgstr "Beállítások"
+
+msgid "settings/help"
+msgstr "Hogy megtekintsd és testreszabd a játék irányítását, kattints a Beállításokra."
+
+msgid "teamComm/highlightAsActiveTarget"
+msgstr "Aktív célpont megjelölése"
+
+msgid "teamComm/highlightLocation"
+msgstr "Pozíció megjelölése"
+
+msgid "teamComm/show"
+msgstr "Parancs menü megjelenítése"
+
+msgid "teamComm/show/ext"
+msgstr "(a parancsok listája a célponttól függ)"
+
+msgid "teamComm/title"
+msgstr "Csapat kommunikáció"
+
+msgid "vehicleTypes/title"
+msgstr "Jármű típus jelölők"

@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Получение урона прерывает восстановление очков прочности.\n\nСкорость и лимиты восстановления зависят от суммарной прочности машины, включая все бонусы."
+
+msgid "armorPatching/alt/info"
+msgstr "Для групповых навыков учитывается средний уровень их изучения всеми членами экипажа. Они начинают действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "При использовании ремкомплекта машина восстанавливает %(hpRecover)s {yellow_Start}очков прочности{yellow_End} в течение 5 с (максимум 20% от суммарного запаса прочности). Ремкомплект можно использовать без повреждённых модулей."
+
+msgid "armorPatching/hudDescription"
+msgstr "Восстановлены очки прочности."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "При полном изучении всеми членами экипажа использование ремкомплекта восстанавливает %(hpRecover)s {yellow_Start}очков прочности{yellow_End} машины в течение 5 с (максимум 20% от суммарного запаса прочности). Ремкомплект можно использовать без повреждённых модулей."
+
+msgid "armorPatching/name"
+msgstr "Восстановление"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Повышает базовую незаметность машины."
+
+msgid "brotherhood/alt/description"
+msgstr "Бонус к эффективности экипажа повышает результативность танкистов в бою, а также уровень изученных ими навыков, кроме «Боевого братства». Параметр можно дополнительно улучшить, установив оборудование или снаряжение со схожим эффектом, а также с помощью инструкции «Продувка воздуховодов». Навык командира «Крайние меры» и навыки радиста «Спина к спине» и «Связной» также улучшают этот параметр."
+
+msgid "brotherhood/alt/info"
+msgstr "Для групповых навыков учитывается средний уровень их изучения всеми членами экипажа. Они начинают действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "{greenBright_Start}Бонус к эффективности экипажа{greenBright_End} увеличен на %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Полное изучение всеми членами экипажа увеличит {greenBright_Start}бонус к эффективности экипажа{greenBright_End} на %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Боевое братство"
+
+msgid "brotherhood/shortDescription"
+msgstr "Повышает общую эффективность экипажа."
+
+msgid "camouflage/alt/description"
+msgstr "Навык влияет на незаметность машины. Его можно дополнительно усилить при помощи инструкции «Укрытия на местности».\n\nТакже незаметность машины повышается с нанесением камуфляжа или стиля, а также оборудования со схожим эффектом."
+
+msgid "camouflage/alt/info"
+msgstr "Для групповых навыков учитывается средний уровень их изучения всеми членами экипажа. Они начинают действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "{greenBright_Start}Незаметность{greenBright_End} машины повышена на %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Полное изучение всеми членами экипажа повысит {greenBright_Start}незаметность{greenBright_End} машины на %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Маскировка"
+
+msgid "camouflage/shortDescription"
+msgstr "Повышает базовую незаметность машины."
+
+msgid "commander_coordination/alt/description"
+msgstr "Эффект срабатывает каждый раз при обнаружении машины противника, но не усиливается при обнаружении нескольких машин.\n\nСкорость сведения можно дополнительно увеличить, установив оборудование со схожим эффектом или изучив навык наводчика «Быстрое сведение»."
+
+msgid "commander_coordination/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее. Ситуативный эффект срабатывает при определённых условиях в бою."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "{yellow_Start}Скорость сведения{yellow_End} увеличивается на %(vehicleGunAimSpeed)s в течение 15 с после обнаружения машины противника."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Скорость сведения увеличена."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Полное изучение увеличит {yellow_Start}скорость сведения{yellow_End} на %(vehicleGunAimSpeed)s в течение 15 с после обнаружения машины противника."
+
+msgid "commander_coordination/name"
+msgstr "Координация"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Скорость сведения увеличена."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Дальность обзора можно дополнительно увеличить, изучив навык «Радиоперехват» или установив оборудование со схожим эффектом. Использование инструкции «Калибровка оптики» усиливает эффект."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}Дальность обзора{greenBright_End} увеличена на %(circularVisionRadius)s&zwnbsp;. {greenBright_Start}Штраф при неисправных приборах наблюдения{greenBright_End} снижен на %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Штраф при неисправных приборах наблюдения снижен."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Полное изучение увеличит {greenBright_Start}дальность обзора{greenBright_End} на %(circularVisionRadius)s&zwnbsp; и снизит {greenBright_Start}штраф при неисправных приборах наблюдения{greenBright_End} на %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Орлиный глаз"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Улучшает обзор, особенно при неисправности приборов наблюдения."
+
+msgid "commander_emergency/alt/description"
+msgstr "Эффект не усиливается при повторном получении урона от противника. Бонус к эффективности экипажа повышает результативность танкистов в бою, а также уровень изученных ими навыков, кроме «Боевого братства». Параметр можно дополнительно улучшить, установив оборудование или снаряжение со схожим эффектом, а также с помощью инструкции «Продувка воздуховодов». Навык командира «Крайние меры» и навыки радиста «Спина к спине» и «Связной» также улучшают этот параметр."
+
+msgid "commander_emergency/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее. Ситуативный эффект срабатывает при определённых условиях в бою."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "{yellow_Start}Бонус к эффективности экипажа{yellow_End} увеличивается на %(crewLevelIncrease)s в течение 15 с после получения урона от противника."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Бонус к эффективности экипажа увеличен."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Полное изучение увеличит {yellow_Start}бонус к эффективности экипажа{yellow_End} на %(crewLevelIncrease)s в течение 15 с после получения урона от противника."
+
+msgid "commander_emergency/name"
+msgstr "Крайние меры"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Бонус к эффективности экипажа увеличен."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Предупреждение о выстреле САУ противника по вашей машине срабатывает с определённой задержкой.\n\nНавык можно усилить, установив инструкцию «Повышенная бдительность»."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее. Ситуативный эффект срабатывает при определённых условиях в бою."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "{yellow_Start}Предупреждение о выстреле САУ противника{yellow_End} и определение направления этого выстрела происходит с задержкой %(artNotificationDelayFactor)s. {greenBright_Start}Негативный эффект от оглушения{greenBright_End} снижен на %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Полное изучение позволит получать {yellow_Start}предупреждение о выстреле САУ противника{yellow_End} с задержкой %(artNotificationDelayFactor)s и определять направление этого выстрела. Снизит {greenBright_Start}негативный эффект от оглушения{greenBright_End} на %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Звуковая разведка"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Предупреждает о выстреле САУ противника."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Бонус к эффективности экипажа повышает результативность танкистов в бою.\n\nПараметр можно дополнительно улучшить, установив оборудование или снаряжение со схожим эффектом, а также с помощью инструкции «Продувка воздуховодов»."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее. Ситуативный эффект срабатывает при определённых условиях в бою."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "{yellow_Start}Бонус к эффективности экипажа{yellow_End} будет увеличен на %(crewLevelIncrease)s, если в команде противника как минимум на три машины больше, чем в вашей&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Бонус к эффективности экипажа увеличен (игра в меньшинстве)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Полное изучение увеличивает {yellow_Start}бонус к эффективности экипажа{yellow_End} на %(crewLevelIncrease)s, если в команде противника как минимум на три машины больше, чем в вашей&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Держать строй"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Увеличивает бонус к эффективности экипажа"
+
+msgid "commander_practical/alt/description"
+msgstr "Навык действует для всех установленных типов снаряжения.\n\nЭффект можно дополнительно усилить, установив инструкцию «Тщательная подготовка»."
+
+msgid "commander_practical/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}Время подготовки снаряжения{greenBright_End} снижено на %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Полное изучение снизит {greenBright_Start}время подготовки снаряжения{greenBright_End}, установленного на вашей машине, на %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Практичность"
+
+msgid "commander_practical/shortDescription"
+msgstr "Снижает время подготовки снаряжения."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Ранение командира отключает особенность «Шестое чувство». Время её срабатывания можно ускорить, изучив навык радиста «Перехват сигнала»."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Особенность командира не требует изучения и доступна ему по умолчанию."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Позволяет командиру определить, обнаружена ли его машина противником. Начинает действовать через %(delay)s после обнаружения."
+
+msgid "commander_sixthSense/name"
+msgstr "Шестое чувство"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Позволяет командиру определить, обнаружена ли его машина противником."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Бонус к эффективности экипажа повышает результативность танкистов в бою.\n\nПараметр можно дополнительно улучшить, установив оборудование или снаряжение со схожим эффектом, а также с помощью инструкции «Продувка воздуховодов»."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее. Ситуативный эффект срабатывает при определённых условиях в бою."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "{yellow_Start}Бонус к эффективности экипажа{yellow_End} будет увеличен на %(crewLevelIncrease)s в течение 15&nbsp;с после использования аптечки. Позволяет использовать аптечку, если не ранен ни один член экипажа&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Бонус к эффективности экипажа увеличен (использована аптечка)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Полное изучение увеличивает {yellow_Start}бонус к эффективности экипажа{yellow_End} на %(crewLevelIncrease)s в течение 15 с после использования аптечки. Позволяет использовать аптечку, если не ранен ни один член экипажа&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Стимуляторы"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Увеличивает бонус к эффективности экипажа"
+
+msgid "commander_tutor/alt/description"
+msgstr "Раненный командир не может заменить другого члена экипажа. Надбавка применяется только к базовому количеству опыта экипажа, полученному им по итогам боя.\n\nДополнительно опыт экипажа можно быстро получить, используя учебные материалы или при переводе свободного опыта в опыт экипажа."
+
+msgid "commander_tutor/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Количество заработанного {greenBright_Start}опыта{greenBright_End} увеличено на %(xpBonusFactorPerLevel)s для всего экипажа. Навык позволяет командиру {greenBright_Start}заменять раненых членов экипажа{greenBright_End} с эффективностью %(woundedCrewEfficiency)s."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Командир может заменить раненого члена экипажа."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Полное изучение увеличит количество заработанного {greenBright_Start}опыта{greenBright_End} на %(xpBonusFactorPerLevel)s для всего экипажа, а также позволит командиру {greenBright_Start}заменять раненых членов экипажа{greenBright_End} с эффективностью %(woundedCrewEfficiency)s."
+
+msgid "commander_tutor/name"
+msgstr "Наставник"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Командир может заменить раненого члена экипажа."
+
+msgid "commander_universalist/alt/description"
+msgstr "Командир может заменить только основную специальность раненного члена экипажа. С увеличением количества раненных эффективность замены снижается."
+
+msgid "commander_universalist/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, увеличивая свою эффективность по мере изучения."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Командир может {greenBright_Start}заменить раненного{greenBright_End} члена экипажа с эффективностью в %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Обязанности раненного члена экипажа выполняет командир."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Полное изучение позволит командиру {greenBright_Start}заменять раненного{greenBright_End} члена экипажа с эффективностью в %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/name"
+msgstr "Мастер на все руки"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Позволяет командиру заменять в бою раненных членов экипажа."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Снижает штраф к манёвренности и динамике разгона машины при движении по средним грунтам. При движении по вязким грунтам штраф снижается ещё больше и приравнивается к штрафу при движении по средним грунтам.\nМанёвренность при движении по средним и вязким грунтам не может быть выше, чем при движении по твёрдым."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}При движении по средним грунтам потеря скорости{greenBright_End} снижается на %(mediumGroundFactor)s&zwnbsp;. {greenBright_Start}При движении по вязким грунтам{greenBright_End} потеря скорости снижается до %(softGroundFactor)s и приравнивается к штрафу при движении по средним грунтам."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Полное изучение снизит {greenBright_Start}потерю скорости при движении по средним грунтам{greenBright_End} на %(mediumGroundFactor)s&zwnbsp;. {greenBright_Start}При движении по вязким грунтам{greenBright_End} потеря скорости снизится до уровня средних грунтов в %(softGroundFactor)s."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Король бездорожья"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Бонус к эффективности экипажа повышает результативность танкистов в бою.\n\nПараметр можно дополнительно улучшить, установив оборудование или снаряжение со схожим эффектом, а также с помощью инструкции «Продувка воздуховодов»."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее. Ситуативный эффект срабатывает при определённых условиях в бою."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "{yellow_Start}Бонус к эффективности экипажа{yellow_End} увеличивается на %(crewLevelIncrease)s, если заблокированный урон превышает прочность вашей машины."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Бонус к эффективности экипажа увеличен (заблокировано достаточно урона)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Полное изучение увеличит {yellow_Start}бонус к эффективности экипажа{yellow_End} на %(crewLevelIncrease)s, если заблокированный урон превысит прочность вашей машины."
+
+msgid "driver_bulletproof/name"
+msgstr "Непробиваемый"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Дополнительно повысить скорость движения и уменьшить штраф за повреждённый двигатель можно, установив оборудование со схожим эффектом."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "Максимальная скорость {greenBright_Start}вперёд{greenBright_End} и {greenBright_Start}назад{greenBright_End} увеличена на %(vehicleForwardMaxSpeed)s. {greenBright_Start}Штраф за повреждённый двигатель{greenBright_End} снижен на %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Штраф за повреждённый двигатель снижен."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Полное изучение увеличит максимальною скорость {greenBright_Start}вперёд{greenBright_End} и {greenBright_Start}назад{greenBright_End} на %(vehicleForwardMaxSpeed)s, а также снизит {greenBright_Start}штраф за повреждённый двигатель{greenBright_End} на %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Инженер"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Штраф за повреждённый двигатель снижен."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Не учитывает столкновения с союзниками.\n\nДополнительно снизить повреждения вашей машины при таране можно при установке оборудования со схожим эффектом."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}Урон противнику тараном{greenBright_End} увеличен на %(damageEnemiesByRamming)s&zwnbsp;, при этом {greenBright_Start}урон вашей машине{greenBright_End} снижен на %(vehicleRamDamageResistance)s&zwnbsp;, а {greenBright_Start}урон подвеске{greenBright_End} — на %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Полное изучение повысит {greenBright_Start}урон противнику тараном{greenBright_End} на %(damageEnemiesByRamming)s&zwnbsp;, а также снизит {greenBright_Start}урон вашей машине{greenBright_End} на %(vehicleRamDamageResistance)s&zwnbsp; и {greenBright_Start}урон подвеске{greenBright_End} — на %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Мастер тарана"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Уменьшает повреждения собственной техники и увеличивает повреждения машины противника при таране."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Урон, получаемый от осколочно-фугасных снарядов, можно дополнительно уменьшить, установив оборудование со схожим эффектом."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}Количество урона от осколочно-фугасных снарядов, поглощаемого бронёй{greenBright_End}, увеличено на %(vehicleHEShellDamageResistance)s&zwnbsp;. Снижает {greenBright_Start}вероятность возгорания двигателя{greenBright_End} на&nbsp;%(vehicleFireChance)s и {greenBright_Start}урон, получаемый вашей ходовой{greenBright_End}, на %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Полное изучение увеличивает {greenBright_Start}количество урона от осколочно-фугасных снарядов, поглощаемого бронёй,{greenBright_End} на %(vehicleHEShellDamageResistance)s&zwnbsp;. Снижает {greenBright_Start}вероятность возгорания двигателя{greenBright_End} на %(vehicleFireChance)s и {greenBright_Start}урон, получаемый вашей ходовой{greenBright_End}, на %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Наладка агрегатов"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Не влияет на разброс орудия неподвижной машины и при повороте корпуса.\n\nНавык можно улучшить при помощи инструкции «Тонкости работы КПП». Разброс при стрельбе на ходу можно дополнительно уменьшить, установив оборудование со схожим эффектом. Использование инструкции «Смазка стабилизаторов» усилит этот эффект."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "{greenBright_Start}Разброс{greenBright_End} при стрельбе на ходу снижен на %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Полное изучение снизит {greenBright_Start}разброс{greenBright_End} при стрельбе на ходу на %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Плавный ход"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Снижает разброс при стрельбе на ходу."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Этот навык влияет на скорость ремонта ходовой из «красного» состояния в «жёлтое», если в радиусе 50 м есть союзник."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее. Ситуативный эффект срабатывает при определённых условиях в бою."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "{yellow_Start}Скорость ремонта ходовой{yellow_End} увеличится на %(suspensionRepairSpeed)s, если в радиусе 50 м будет союзник."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Увеличена скорость ремонта ходовой (рядом союзник)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Полное изучение увеличивает {yellow_Start}скорость ремонта ходовой{yellow_End} на %(suspensionRepairSpeed)s, если в радиусе 50 м есть союзник."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Поддержка в бою"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Дополнительно пожаростойкость машины можно повысить при установке оборудования и снаряжения со схожим эффектом. Навык «Пожаротушение» увеличит скорость тушения пожара при его возникновении."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, увеличивая свою эффективность по мере изучения."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "{greenBright_Start}Вероятность возгорания двигателя{greenBright_End} снижена на %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Полное изучение снизит {greenBright_Start}вероятность возгорания двигателя{greenBright_End} на %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Чистота и порядок"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Снижает шанс возгорания двигателя."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Дополнительно скорость поворота машины можно повысить при установке оборудования со схожим эффектом, а также используя снаряжение, повышающее мощность двигателя."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}Скорость поворота ходовой{greenBright_End} увеличена на %(vehicleAllGroundRotationSpeed)s&zwnbsp;."
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Полное изучение повысит {greenBright_Start}скорость поворота ходовой{greenBright_End} на %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Виртуоз"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Повышает скорость поворота машины."
+
+msgid "fireFighting/alt/description"
+msgstr "Навык влияет на урон, получаемый от пожара, и время горения.\n\nЕсли навык изучен двумя радистами, учитывается средний уровень его изучения.\n\nНавык можно усилить, установив инструкцию «Искусство сбивать пламя»."
+
+msgid "fireFighting/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}Скорость тушения пожара{greenBright_End} увеличена на %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Полное изучение ускорит {greenBright_Start}тушение пожара{greenBright_End} на %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Пожаротушение"
+
+msgid "fireFighting/shortDescription"
+msgstr "Ускоряет тушение пожара."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Разброс базовых значений урона и бронепробития по умолчанию составляет ±25%. Например, если снаряд пробивает до 100 мм брони и наносит 100 ед. урона, то при попадании в цель он может пробить от 75 до 125 мм брони и нанести от 75 до 125 ед. урона. Снижение значений разброса урона и бронепробития даёт более предсказуемые результаты стрельбы.\n\nЕсли навык изучен двумя наводчиками, учитывается средний уровень его изучения."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Разброс {greenBright_Start}урона{greenBright_End} и {greenBright_Start}бронепробития{greenBright_End} уменьшен на {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s&zwnbsp;. {greenBright_Start}Разброс орудия{greenBright_End} снижен на %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Полное изучение уменьшит разброс {greenBright_Start}урона{greenBright_End} и {greenBright_Start}бронепробития{greenBright_End} на {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. {greenBright_Start}Разброс орудия{greenBright_End} снизится на %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Мастер-оружейник"
+
+msgid "gunner_focus/alt/description"
+msgstr "Начинает действовать через 3 с после остановки машины и сбрасывается с началом движения.\n\nЕсли навык изучен двумя наводчиками, учитывается средний уровень его изучения."
+
+msgid "gunner_focus/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее. Ситуативный эффект срабатывает при определённых условиях в бою."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "{yellow_Start}Разброс орудия{yellow_End} неподвижной машины уменьшен на %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Разброс орудия уменьшен."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Полное изучение уменьшит {yellow_Start}разброс орудия{yellow_End} неподвижной машины на %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Концентрация"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Снижает разброс орудия неподвижно стоящей машины."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Разброс орудия и скорость сведения могут быть дополнительно улучшены с помощью навыков экипажа или оборудования с похожим эффектом.\n\nЕсли навык изучен двумя наводчиками, учитывается средний уровень его изучения."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее. Ситуативный эффект срабатывает при определённых условиях в бою."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "{yellow_Start}Разброс орудия{yellow_End} уменьшится на %(vehicleGunAimSpeed)s, а {yellow_Start}время сведения{yellow_End} — на %(vehicleGunAimSpeed)s, если в радиусе 300 м не будет союзников."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Разброс орудия и время сведения уменьшены (рядом нет союзников)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Полное изучение уменьшает {yellow_Start}разброс орудия{yellow_End} и {yellow_Start}время сведения{yellow_End} на %(vehicleGunAimSpeed)s, если в радиусе 300 м нет союзников."
+
+msgid "gunner_loneWolf/name"
+msgstr "Одинокий волк"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Разброс орудия уменьшен. Скорость сведения увеличена."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "По умолчанию максимальное потенциальное бронепробитие может достигать +25% от среднего значения. Например, если снаряд пробивает 100 мм, то при попадании максимально возможное бронепробитие составит 125 мм. Улучшение этого модификатора повышает эффективность пробития брони.\n\nЕсли навык изучен двумя наводчиками, учитывается средний уровень его изучения."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее. Ситуативный эффект срабатывает при определённых условиях в бою."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "{yellow_Start}Максимальное потенциальное бронепробитие{yellow_End} ваших снарядов увеличивается на %(piercingHEShellsDistributionUpperBound)s при стрельбе по противнику в пределах 50 м."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Полное изучение увеличивает {yellow_Start}максимальное потенциальное бронепробитие{yellow_End} ваших снарядов на %(piercingHEShellsDistributionUpperBound)s при стрельбе по противнику в пределах 50 м."
+
+msgid "gunner_pointBlast/name"
+msgstr "Дуэлянт"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Увеличивает максимальное потенциальное бронепробитие ваших снарядов."
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Если навык изучен двумя наводчиками, учитывается средний уровень его изучения.\n\nСкорость сведения можно дополнительно увеличить, изучив навык командира «Координация» или установив оборудование со схожим эффектом.\n\nСкорость вращения башни можно дополнительно увеличить, установив оборудование или снаряжение со схожим эффектом."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}Скорость сведения{greenBright_End} и {greenBright_Start}скорость вращения башни{greenBright_End} увеличены на %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Полное изучение увеличит {greenBright_Start}скорость сведения{greenBright_End} и {greenBright_Start}скорость вращения башни{greenBright_End} на %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Быстрое сведение"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Скорость сведения увеличена."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Наводчик определяет повреждённые и вышедшие из строя модули цели в поле зрения. Действует в обоих режимах прицеливания.\nЗону видимости наводчика определяет сектор в ±10 град (суммарно 20 град) относительно орудия машины с учётом дальности обзора.\nЕсли навык изучен двумя наводчиками, учитывается средний уровень его изучения.\nНавык можно усилить, установив инструкцию «Концентрация на цели». Дополнительно можно увеличить время до исчезновения машины противника из зоны видимости, установив «Улучшенное радиооборудование»."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "{greenBright_Start}Время{greenBright_End} до {greenBright_Start}исчезновения машины противника{greenBright_End} из зоны видимости наводчика увеличено на %(vehicleEnemySpottingTime)s. Время на {yellow_Start}определение повреждённых модулей{yellow_End} цели снижено на %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Полное изучение увеличит {greenBright_Start}время{greenBright_End} до {greenBright_Start}исчезновения машины противника{greenBright_End} из зоны видимости наводчика на %(vehicleEnemySpottingTime)s. Позволит наводчику {yellow_Start}определять повреждённые модули{yellow_End} цели с задержкой %(damageMonitoringDelay)s."
+
+msgid "gunner_rancorous/name"
+msgstr "Злопамятный"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Увеличивает время до исчезновения машины противника из зоны видимости наводчика и позволяет ему определять повреждённые модули цели."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Если навык изучен двумя наводчиками, учитывается средний уровень его изучения.\n\nНавык можно усилить, установив инструкцию «Без резких движений». Дополнительно можно уменьшить разброс при вращении башни, установив оборудование со схожим эффектом или с помощью инструкции «Смазка стабилизаторов»."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "{greenBright_Start}Разброс орудия{greenBright_End} при вращении башни снижен на %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Полное изучение снизит {greenBright_Start}разброс орудия{greenBright_End} при вращении башни на %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Плавный поворот башни"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Снижает разброс при повороте башни."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Эффект применяется ко всем типам снарядов, за исключением автопушек.\n\nЕсли навык изучен двумя наводчиками, учитывается средний уровень его изучения."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "{greenBright_Start}Шанс поражения{greenBright_End} {greenBright_Start}модулей{greenBright_End} и {greenBright_Start}членов экипажа{greenBright_End} противника увеличен на %(enemyModulesCrewCritChance)s для всех типов снарядов&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Полное изучение увеличит {greenBright_Start}шанс поражения{greenBright_End} {greenBright_Start}модулей{greenBright_End} и {greenBright_Start}членов экипажа{greenBright_End} противника на %(enemyModulesCrewCritChance)s для всех типов снарядов&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Снайпер"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Нижний порог разброса урона и бронепробития по умолчанию составляет –25% от базовых значений. Например, если снаряд пробивает до 100 мм брони и наносит 100 ед. урона, то при попадании в цель минимальное бронепробитие составит 75 мм, а минимальный урон — 75 ед. Увеличение нижнего порога разброса урона и бронепробития повышает эффективность стрельбы.\n\nЕсли навык изучен двумя заряжающими, учитывается средний уровень его изучения."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "{greenBright_Start}Нижний порог разброса урона{greenBright_End} и {greenBright_Start}бронепробития{greenBright_End} увеличен на %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Полное изучение увеличит {greenBright_Start}нижний порог разброса урона{greenBright_End} и {greenBright_Start}бронепробития{greenBright_End} на %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Улучшенные боеприпасы"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Повышает показатели среднего урона и бронепробития."
+
+msgid "loader_desperado/alt/description"
+msgstr "Если навык изучен двумя заряжающими, учитывается средний уровень его изучения.\n\nПерезарядку орудия можно дополнительно ускорить, изучив навык наводчика «Ближний бой», установив оборудование со схожим эффектом или с помощью инструкции «Рациональная боеукладка»."
+
+msgid "loader_desperado/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее. Ситуативный эффект срабатывает при определённых условиях в бою."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "{yellow_Start}Перезарядка орудия{yellow_End} ускоряется на %(vehicleGunReloadTime)s, если у машины остаётся менее 25% прочности."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Перезарядка ускоряется при низком запасе прочности."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Полное изучение ускорит {yellow_Start}перезарядку орудия{yellow_End} на %(vehicleGunReloadTime)s&zwnbsp;, если у машины останется менее 25% прочности."
+
+msgid "loader_desperado/name"
+msgstr "Отчаянный"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Ускоряет перезарядку орудия, если у машины остаётся менее 25% прочности."
+
+msgid "loader_intuition/alt/description"
+msgstr "Для активации навыка орудие, оба орудия или магазин должны быть заряжены полностью. Минимальное время смены снаряда для цикличных (стандартных) орудий — 1 с, для спаренных орудийных установок и магазинов заряжания — 2,5 с.\n\nЕсли навык изучен двумя заряжающими, учитывается средний уровень его изучения."
+
+msgid "loader_intuition/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "{greenBright_Start}Смена типа снаряда{greenBright_End} в уже заряженном орудии ускорена на %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Cмена типа снаряда в уже заряженном орудии ускорена."
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Полное изучение ускорит {greenBright_Start}смену типа снаряда{greenBright_End} в уже заряженном орудии на %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Интуиция"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Значительно повышает скорость смены типа снаряда в заряженном орудии."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Этот навык уменьшает время перезарядки только орудий с магазинами заряжания и не влияет на другие типы орудий.\n\nЕсли навык изучен двумя наводчиками, учитывается средний уровень его изучения."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "{greenBright_Start}Время перезарядки{greenBright_End} магазинов заряжания уменьшено на %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Полное изучение уменьшает {greenBright_Start}время перезарядки{greenBright_End} магазинов заряжания на %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "Знание механизмов"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Уменьшает время перезарядки магазинов"
+
+msgid "loader_melee/alt/description"
+msgstr "Если навык изучен двумя заряжающими, учитывается средний уровень его изучения.\n\nПерезарядку орудия можно дополнительно ускорить, изучив навык заряжающего «Отчаянный», установив оборудование со схожим эффектом или с помощью инструкции «Рациональная боеукладка»."
+
+msgid "loader_melee/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее. Ситуативный эффект срабатывает при определённых условиях в бою."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "{yellow_Start}Скорость перезарядки орудия{yellow_End} увеличивается на %(vehicleGunReloadTime)s, если в радиусе 50 м есть машина противника."
+
+msgid "loader_melee/hudDescription"
+msgstr "Скорость перезарядки увеличивается, если противник близко."
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Полное изучение увеличит {yellow_Start}скорость перезарядки орудия{yellow_End} на %(vehicleGunReloadTime)s, если в радиусе 50 м будет машина противника."
+
+msgid "loader_melee/name"
+msgstr "Ближний бой"
+
+msgid "loader_melee/shortDescription"
+msgstr "Ускоряет перезарядку орудия в ближнем бою."
+
+msgid "loader_pedant/alt/description"
+msgstr "Ранение заряжающего не влияет на эффективность навыка.\n\nЕсли навык изучен двумя заряжающими, учитывается средний уровень его изучения.\n\nНавык можно усилить, установив инструкцию «Разложить снаряды». Прочность боеукладки можно увеличить, установив оборудование со схожим эффектом."
+
+msgid "loader_pedant/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}Прочность боеукладки{greenBright_End} увеличена на %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Полное изучение повысит {greenBright_Start}прочность боеукладки{greenBright_End} на %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Бесконтактная боеукладка"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Увеличивает прочность боеукладки."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Эффект применяется ко всем типам снарядов.\n\nРанение заряжающего не влияет на эффективность навыка.\n\nЕсли навык изучен двумя заряжающими, учитывается средний уровень его изучения."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}Скорость полёта снаряда{greenBright_End} увеличена на %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Полное изучение увеличит {greenBright_Start}скорость полёта снаряда{greenBright_End} на %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Идеальный выстрел"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Этот навык не влияет на магазины заряжания и автопушки, а также не суммируется для спаренных орудий.\n\nНа орудиях с переключаемой системой заряжания, если оба выстрела в залпе не нанесли урона, уменьшается время перезарядки обоих орудий.\n\nЕсли навык изучен двумя заряжающими, учитывается средний уровень его изучения.\n\nВремя перезарядки может быть улучшено изучением навыков «Отчаянный» или «Ближний бой», а также с помощью оборудования с похожим эффектом. Использование инструкции «Рациональная боеукладка» усилит этот эффект."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее. Ситуативный эффект срабатывает при определённых условиях в бою."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "{yellow_Start}Время перезарядки орудия{yellow_End} уменьшается на %(vehicleGunReloadTime)s для следующего снаряда, если предыдущий не нанёс урона противнику."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Время перезарядки уменьшено (выстрел без урона)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Полное изучение уменьшает {yellow_Start}время перезарядки орудия{yellow_End} на %(vehicleGunReloadTime)s для следующего снаряда, если предыдущий не нанёс урона противнику."
+
+msgid "loader_secondChance/name"
+msgstr "Второй шанс"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Уменьшает время перезарядки орудия"
+
+msgid "measureType/meters"
+msgstr "%s м"
+
+msgid "measureType/mph"
+msgstr "%s км/ч"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s с"
+
+msgid "offspring_brotherhood/name"
+msgstr "Одной крови"
+
+msgid "perkRole/commander"
+msgstr "Командир"
+
+msgid "perkRole/common"
+msgstr "Группа"
+
+msgid "perkRole/driver"
+msgstr "Механик-водитель"
+
+msgid "perkRole/gunner"
+msgstr "Наводчик"
+
+msgid "perkRole/loader"
+msgstr "Заряжающий"
+
+msgid "perkRole/radioman"
+msgstr "Радист"
+
+msgid "popularity/tooltip/common"
+msgstr "всех игроков"
+
+msgid "popularity/tooltip/header"
+msgstr "Для этой машины, предпочитают:"
+
+msgid "popularity/tooltip/legendary"
+msgstr "игроков в ранге «Легенда»"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Если навык изучен двумя радистами, учитывается средний уровень его изучения.\n\nЭффект может быть дополнительно улучшен с помощью навыка командира «Звуковая разведка»."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "При каждом последующем оглушении экипажа {greenBright_Start}негативный эффект оглушения{greenBright_End} снижается на %(stunResistanceEffectFactor)s до максимума в 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Полное изучение снижает {greenBright_Start}негативный эффект оглушения{greenBright_End} при каждом последующем оглушении экипажа на %(stunResistanceEffectFactor)s&nbsp;до максимума в 30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Боевая закалка"
+
+msgid "radioman_expert/alt/description"
+msgstr "Бонус к эффективности экипажа повышает результативность танкистов в бою. Если навык изучен двумя радистами, учитывается средний уровень его изучения. Параметр можно дополнительно улучшить, установив оборудование или снаряжение со схожим эффектом, а также с помощью инструкции «Продувка воздуховодов». Групповой навык «Боевое братство», навык командира «Крайние меры» или навык радиста «Спина к спине» также улучшают этот параметр."
+
+msgid "radioman_expert/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее. Ситуативный эффект срабатывает при определённых условиях в бою."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "{yellow_Start}Бонус к эффективности экипажа{yellow_End} увеличивается на %(crewLevelIncrease)s, если урон, нанесённый с вашей помощью, превышает прочность вашей машины&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Бонус к эффективности экипажа увеличен (переданы данные для нанесения урона)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Полное изучение увеличит {yellow_Start}бонус к эффективности экипажа{yellow_End} на %(crewLevelIncrease)s, если урон, нанесённый с вашей помощью, превысит прочность вашей машины&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Связной"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Повышает эффективность экипажа."
+
+msgid "radioman_finder/alt/description"
+msgstr "Если навык изучен двумя радистами, учитывается средний уровень его изучения.\n\nДальность обзора можно дополнительно увеличить, изучив навык «Орлиный глаз», установив оборудование со схожим эффектом или с помощью инструкции «Калибровка оптики»."
+
+msgid "radioman_finder/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}Дальность обзора{greenBright_End} увеличена на %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Полное изучение увеличит {greenBright_Start}дальность обзора{greenBright_End} на %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Радиоперехват"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Улучшает обзор."
+
+msgid "radioman_interference/alt/description"
+msgstr "Если навык изучен двумя радистами, учитывается средний уровень его изучения.\n\nВремя вашей видимости можно дополнительно сократить, установив оборудование со схожим эффектом."
+
+msgid "radioman_interference/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "{greenBright_Start}Время вашей видимости{greenBright_End} сокращено на %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Полное изучение сократит {greenBright_Start}время вашей видимости{greenBright_End} на %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Постановка помех"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Уменьшает время до исчезновения машины из зоны видимости противника."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Если навык приобретён двумя радистами, применяется эффект максимально изученного. Активируется, если на момент уничтожения машины радист не был ранен.\n\nНавык можно дополнительно усилить с помощью предбоевой инструкции «Долг превыше всего»."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, увеличивая свою эффективность по мере изучения. Ситуативный эффект срабатывает в бою при определённых условиях."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Радист может {yellow_Start}передавать разведданные{yellow_End} ещё %(radiomanDurationPerLevel)s после уничтожения вашей машины."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Передаются разведданные."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Полное изучение позволит {yellow_Start}передавать разведданные{yellow_End} ещё %(radiomanDurationPerLevel)s после уничтожения вашей машины."
+
+msgid "radioman_lastEffort/name"
+msgstr "Из последних сил"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Ненадолго позволяет передавать разведданные после уничтожения вашей машины."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Бонус к эффективности экипажа повышает результативность танкистов в бою. Если навык изучен двумя радистами, учитывается средний уровень его изучения. Параметр можно дополнительно улучшить, установив оборудование или снаряжение со схожим эффектом, а также с помощью инструкции «Продувка воздуховодов». Групповой навык «Боевое братство», навык командира «Крайние меры» или навык радиста «Связной» также улучшают этот параметр."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее. Ситуативный эффект срабатывает при определённых условиях в бою."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "{yellow_Start}Бонус к эффективности экипажа{yellow_End} увеличивается на %(crewLevelIncrease)s, если в радиусе 50 м есть союзная машина того же типа&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Бонус к эффективности экипажа увеличен (рядом союзная машина того же типа)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Полное изучение увеличит {yellow_Start}бонус к эффективности экипажа{yellow_End} на %(crewLevelIncrease)s, если в радиусе 50 м будет союзная машина того же типа&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Спина к спине"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Повышает эффективность экипажа."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Эффект усиливает особенность командира «Шестое чувство», уменьшая время её срабатывания.\n\nЕсли навык изучен двумя радистами, учитывается средний уровень его изучения."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Навык начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "{greenBright_Start}Время срабатывания{greenBright_End} особенности «Шестое чувство», позволяющей определять, {greenBright_Start}обнаружена ли машина противником{greenBright_End}, снижено на %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Полное изучение снизит {greenBright_Start}время срабатывания{greenBright_End} особенности «Шестое чувство», позволяющей определять, {greenBright_Start}обнаружена ли машина противником{greenBright_End}, на %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Перехват сигнала"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Этот навык активируется при обнаружении вашей машины и отображении индикатора «Шестого чувства».\n\nЕсли навык изучен двумя радистами, учитывается средний уровень его изучения.\n\nДополнительно дальность обзора можно повысить, изучив навык «Орлиный глаз» или «Радиоперехват», или установив оборудование со схожим эффектом. Использование инструкции «Калибровка оптики» усиливает эффект."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Навык с ситуативным эффектом начинает действовать при изучении хотя бы на 1%, постепенно становясь эффективнее. Ситуативный эффект срабатывает при определённых условиях в бою."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "{yellow_Start}Дальность обзора{yellow_End} увеличится на %(vehicleCircularVisionRadius)s в течение 5 с после срабатывания навыка «Шестое чувство»."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Дальность обзора увеличена."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Полное изучение увеличивает {yellow_Start}дальность обзора{yellow_End} на %(vehicleCircularVisionRadius)s в течение 5 с после срабатывания навыка «Шестое чувство»."
+
+msgid "radioman_threatSearch/name"
+msgstr "Поиск угрозы"
+
+msgid "repair/alt/description"
+msgstr "Навык влияет на скорость ремонта модулей машины от «красного» состояния до «жёлтого».\n\nСкорость ремонта можно дополнительно повысить, установив оборудование или снаряжение со схожим эффектом."
+
+msgid "repair/alt/info"
+msgstr "Для групповых навыков учитывается средний уровень их изучения всеми членами экипажа. Они начинают действовать при изучении хотя бы на 1%, постепенно становясь эффективнее."
+
+msgid "repair/currentLvlDescription"
+msgstr "{greenBright_Start}Скорость ремонта{greenBright_End} модулей машины повышена на %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Полное изучение всеми членами экипажа повысит {greenBright_Start}скорость ремонта{greenBright_End} модулей машины на %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Ремонт"
+
+msgid "repair/shortDescription"
+msgstr "Ускоряет ремонт повреждённых модулей."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Одной крови"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Популярные"
+
+msgid "sorting/fallback"
+msgstr "Базовые"
+
+msgid "sorting/legendary"
+msgstr "Легендарные"
+
+msgid "sorting/title"
+msgstr "Сортировать:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sПопулярные.%(whiteSpanish_Close)s Подобраны на основе текущих предпочтений в навыках среди всех игроков World of Tanks."
+
+msgid "sorting/tooltip/header"
+msgstr "Бонус подписки WoT Plus"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Получайте точную информацию о навыках, основанную на миллионах проведённых сражений, и выкладывайтесь на полную в каждом бою."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sЛегендарные.%(whiteSpanish_Close)s Подобраны на основе текущих предпочтений в навыках среди игроков, достигших уровня «Легенда» в рейтинге WTR."
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Сортировка навыков отключена"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Нет данных"
+
+msgid "sorting/tooltip/title"
+msgstr "Знаток экипажа"
+
+msgid "sorting/tooltip/types"
+msgstr "Варианты сортировки навыков"
+
+msgid "sorting/tooltip/warning"
+msgstr "Сортировка навыков недоступна"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Полная информация по навыкам недоступна для данной машины, поэтому выбрана сортировка по базовым навыкам."
+
+msgid "witches_brotherhood/name"
+msgstr "Шабаш"
+
+msgid "yha_brotherhood/name"
+msgstr "Братство зайцев"

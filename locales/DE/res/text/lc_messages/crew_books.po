@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "KAUFEN"
+
+msgid "buttons/cancel"
+msgstr "Abbrechen"
+
+msgid "buttons/learn"
+msgstr "Studieren"
+
+msgid "buttons/postProgression/claim"
+msgstr "ABHOLEN"
+
+msgid "buttons/postProgression/hint"
+msgstr "ZUM NACHFORTSCHRITT"
+
+msgid "buttons/postProgression/howTo"
+msgstr "MÖGLICHKEITEN DES ERHALTS"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Wechselkurs:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount) %"
+
+msgid "card/freeExp/mainText"
+msgstr "Wird auf das ausgewählte Besatzungsmitglied angewandt und beschleunigt die Ausbildung für den aktuellen Vorteil mit Freien EP"
+
+msgid "card/freeExp/title"
+msgstr "FREIE ERFAHRUNG"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Vorteilseffizienz: 100 %\n• Qualifikation: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Gilt für die gesamte Besatzung.\nGibt jedem Besatzungsmitglied %(xp)."
+
+msgid "card/nationBook/title/brochure"
+msgstr "AUSBILDUNGSBROSCHÜRE (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "AUSBILDUNGSHANDBUCH (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "AUSBILDUNGSRATGEBER (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Uneingeschränkt nutzbar."
+
+msgid "card/personalBook/mainText"
+msgstr "Gilt für das gewählte Besatzungsmitglied.\nGibt diesem Besatzungsmitglied %(xp)."
+
+msgid "card/personalBook/title"
+msgstr "PERSONALISIERTES AUSBILDUNGSHANDBUCH"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Vorteilseffizienz: 100 %\n• Qualifikation: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Gilt für die gesamte Besatzung.\nGibt jedem Besatzungsmitglied %(xp)."
+
+msgid "card/universalBook/title/universalBook"
+msgstr "UNIVERSELLES HANDBUCH"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "UNIVERSELLE BROSCHÜRE"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "UNIVERSELLER RATGEBER"
+
+msgid "confirm/crewLabel"
+msgstr "Jedes Besatzungsmitglied erhält %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Jedes Besatzungsmitglied erhält %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) erhält zusätzlich %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) erhält %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Einige Besatzungsmitglieder erhalten %(xpValue)."
+
+msgid "items/brochure/Name"
+msgstr "Ausbildungsbroschüre (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Ausbildungsbroschüre"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "AUSBILDUNGSBROSCHÜRE"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} Besatzungs-EP für jedes Besatzungsmitglied."
+
+msgid "items/crewBook/Name"
+msgstr "Ausbildungshandbuch (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Ausbildungshandbuch"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "AUSBILDUNGSHANDBUCH"
+
+msgid "items/guide/Name"
+msgstr "Ausbildungsratgeber (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Ausbildungsratgeber"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "AUSBILDUNGSRATGEBER"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} Erfahrung für das gewählte Besatzungsmitglied"
+
+msgid "items/personalBook/Name"
+msgstr "Personalisiertes Ausbildungshandbuch"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} Besatzungs-EP für jedes Besatzungsmitglied."
+
+msgid "items/universalBook/Name"
+msgstr "Universelles Handbuch"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} Erfahrung für jedes Besatzungsmitglied."
+
+msgid "items/universalBrochure/Name"
+msgstr "Universelle Broschüre"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} Erfahrung für jedes Besatzungsmitglied."
+
+msgid "items/universalGuide/Name"
+msgstr "Universeller Ratgeber"
+
+msgid "page/mentoringLicense/hint"
+msgstr "ZUR MENTORLIZENZ"
+
+msgid "page/mentoringLicense/title"
+msgstr "MENTORLIZENZ"
+
+msgid "page/title"
+msgstr "SOFORTAUSBILDUNG"
+
+msgid "tooltip/buyManual"
+msgstr "Ausbildungshandbuch kaufen"
+
+msgid "tooltip/mouseWheel"
+msgstr "Scrollen Sie {mouseIcon}, um die Anzahl der Besatzungsbücher zu erhöhen/senken."
+
+msgid "tooltip/outOfStock"
+msgstr "Keine Besatzungsbücher verbleibend"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Keine Besatzungsbücher verbleibend. Kaufen Sie Besatzungsbücher im Nachschub."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Gilt für das gewählte Besatzungsmitglied. Gibt diesem Besatzungsmitglied %(xp)s Erfahrung."
+
+msgid "tooltip/postProgression"
+msgstr "Zum Nachfortschritt"
+
+msgid "tooltip/sale/header"
+msgstr "Ergiebiger Wechselkurs"
+
+msgid "tooltip/sale/newRate"
+msgstr "Neuer Wechselkurs: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Vorheriger Wechselkurs: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Klicken Sie auf %(controlsImg), um die Ausbildungsstufe des Vorteils um 1 % zu steigern/senken."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Drücken Sie %(pgupImg) / %(pgdownImg), um die Ausbildungsstufe des Vorteils auf 100&nbsp;% zu erhöhen&nbsp;/ zum vorherigen Vorteil zurückzukehren."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Gilt für die gesamte Besatzung. Gibt jedem Besatzungsmitglied %(xp)s Erfahrung."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Gilt für die gesamte Besatzung. Gibt jedem Besatzungsmitglied %(xp)s Erfahrung."

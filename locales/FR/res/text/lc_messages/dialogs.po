@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: Équipe WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "Accepter"
+
+msgid "EULA/labels/agree"
+msgstr "J'accepte"
+
+msgid "EULA/title"
+msgstr "Contrat de Licence d'Utilisateur Final"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "Cette adresse électronique n'est pas liée à votre compte."
+
+msgid "accountCompletion/activate/button"
+msgstr "Envoyer le code/changer d'adresse électronique"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "Renvoyer le code ou changer votre adresse électronique dans %(timer) s"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "Saisissez à nouveau votre adresse électronique"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "Le code a expiré. Saisissez à nouveau votre adresse électronique."
+
+msgid "accountCompletion/activate/keyError"
+msgstr "Code incorrect"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "Si vous ne pouvez pas trouver cet email, veuillez vérifier que votre adresse électronique ne contienne pas de faute."
+
+msgid "accountCompletion/activate/text"
+msgstr "Un email contenant le code de confirmation a été envoyé à l'adresse {whiteSpanish_Open}%(email){whiteSpanish_Close} de la part de Wargaming.net. Saisissez ce code à 4 chiffres pour confirmer votre adresse électronique et terminer votre compte."
+
+msgid "accountCompletion/activate/title"
+msgstr "Confirmez l’adresse électronique"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "Vous avez saisi un code incorrect à de trop nombreuses reprises."
+
+msgid "accountCompletion/add"
+msgstr "Ajouter"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "Cette adresse électronique n'est pas liée à votre compte."
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "Adresse électronique déjà liée"
+
+msgid "accountCompletion/cancel"
+msgstr "Plus tard"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "Votre adresse électronique"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "Adresse électronique"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "Ajoutez votre adresse électronique pour recevoir la récompense et accéder pleinement à tous les évènements du jeu."
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "OBTENEZ L'ACCÈS COMPLET AU JEU"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "Ajoutez et confirmez votre adresse électronique pour recevoir une récompense et déverrouiller de nouvelles fonctionnalités. %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "Terminer le compte"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "Un compte avec cette adresse électronique a déjà été inscrit."
+
+msgid "accountCompletion/emailForbidden"
+msgstr "Cette adresse électronique est interdite."
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "L'adresse électronique ne doit pas comporter plus de %(amount)s caractères."
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "L'adresse électronique doit comporter au moins %(amount)s caractères."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "Votre adresse électronique a déjà été confirmée."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "Adresse électronique confirmée"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "Vous avez dépassé la limite de tentatives. Vous pourrez changer votre adresse électronique ou renvoyer un email dans %(timer)"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "Ce service de messagerie électronique est bloqué dans votre pays."
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "Ce service de messagerie électronique est interdit dans votre pays."
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "Impossible de lier l'adresse électronique"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "L'adresse électronique ne peut contenir que des caractères latins, des chiffres, le symbole @, des points et des tirets du bas."
+
+msgid "accountCompletion/later"
+msgstr "Plus tard"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "Récompense pour confirmation de l'adresse électronique"
+
+msgid "accountCompletion/submit"
+msgstr "Confirmer"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "Dans la file d'attente du serveur.\nCela peut prendre un certain temps."
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) Le service est temporairement indisponible. Veuillez réessayer plus tard."
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) Le service est temporairement indisponible.\nVeuillez réessayer dans %(time)s."
+
+msgid "barracksExpand/cancel"
+msgstr "Annuler"
+
+msgid "barracksExpand/message"
+msgstr "Agrandir la caserne pour %(price)s pièces d'or en ajoutant %(count)s lit(s) ?"
+
+msgid "barracksExpand/submit"
+msgstr "Agrandir"
+
+msgid "barracksExpand/title"
+msgstr "Agrandir la caserne"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "Vous n'avez pas assez d'or."
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "Agrandir la caserne"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "Annuler"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "Tous les joueurs ne sont pas prêts à combattre ou leur nombre est inférieur à celui nécessaire."
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "Combattre"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "Incomplète"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "Activer le bonus %(newBoosterName)s"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "Confirmer"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "Confirmer l'activation"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "Si la Réserve personnelle %(newBoosterName)s est activée, la Réserve personnelle actuellement active %(curBoosterName)s sera annulée et détruite."
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "Oui"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "Confirmer l'activation"
+
+msgid "buyConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "buyConfirmation/message"
+msgstr "Acheter %(product)s pour %(price)s ?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "Acheter {%count} « {%name} » objet(s) ?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "Acheter l'équipement « %(equipment)s » ?"
+
+msgid "buyConfirmation/submit"
+msgstr "Acheter"
+
+msgid "buyConfirmation/title"
+msgstr "Confirmer l'achat"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "incompatibilité"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " avec l'élément actuel."
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "Le consommable « %(conflicted)s » sera envoyé au dépôt en raison de "
+
+msgid "buyInstallConfirmation/message"
+msgstr "Acheter et installer %(kind)s « %(name)s » sur le véhicule actuel pour %(price)s%(creditsIcon)s ? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "Acheter et installer %(kind)s « %(name)s » sur le véhicule actuel pour %(price)s crédits ?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "Acheter"
+
+msgid "buyInstallConfirmation/title"
+msgstr "Confirmer l'achat"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "Acheter %(days)s de compte premium contre %(gold)s ?\n %(alertIcon)s %(alertColorTagOpen)s En raison de problèmes techniques, vous ne recevrez pas de crédits ni d'expérience supplémentaires. Essayez de sélectionner une bataille différente ou achetez du temps de compte premium via le menu Acheter compte premium.%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "Acheter"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "Confirmer l'achat"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "Place de garage"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "buySlotConfirmation/message"
+msgstr "Acheter une place de garage supplémentaire contre %(goldCost)s ?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "Acheter"
+
+msgid "buySlotConfirmation/title"
+msgstr "Confirmer l'achat"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "Vous n'avez pas assez de crédits pour acheter une place."
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "Pas assez de crédits"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "Vous n'avez pas assez d'or pour acheter une place."
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "Pas assez d'or"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "Aucune place n'est disponible dans le garage. Acheter une place supplémentaire pour {%d} crédits ?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "Acheter"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "Confirmer l'achat"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "Charger des munitions standard"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "Annuler"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Vous possédez déjà un équipage pour ce véhicule."
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "Vous disposez gratuitement d'une place libre supplémentaire pour la durée de la location d'un véhicule."
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "Impossible de charger les munitions : le véhicule sélectionné possède toutes ses munitions."
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "Impossible de charger les munitions : le véhicule sélectionné possède encore des munitions."
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "Coût : %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "Acheter une autre place dans le garage"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "Acheter"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "Acheter"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "Échange"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "Acheter sans équipage"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "Entraînement de l'équipage"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "Membres d'équipage : %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "Acheter %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "Total :"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "Vous avez entré une information incorrecte."
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "Saisissez le nombre de pièces d'or indiqué dans la colonne « Total »"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "Confirmez l'opération :"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "Vous n'avez pas de véhicule approprié\nà échanger"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "La valeur est estimée est de %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "Entraîner l'équipage : %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "Total :"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "Choix du véhicule"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "Sélectionnez un véhicule premium\npouvant être échangé"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "Annuler"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "Coût supplémentaire pour le %(vehiclename)s :"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "Échanger"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "Acheter sans équipage"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "Échanger le %(vehiclename)s"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "L'équipement et les consommables achetés seront remboursés avec des pièces d'or après avoir cliqué sur le bouton Échanger ci-dessous. Veuillez vérifier soigneusement tous les détails."
+
+msgid "buyVehicleWindow/warning"
+msgstr "Les objets achetés ne seront pas remboursés en or après avoir cliqué sur le bouton \"Acheter\" ci-dessous. Veuillez vérifier les objets soigneusement."
+
+msgid "challenge_missions/activation/cancel"
+msgstr "Annuler"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "Activer"
+
+msgid "challenge_missions/activation/description"
+msgstr "Une fois activée, une série de missions du Creuset peut être {{@ style (color #FFE4C0)}}accomplie, échouée ou abandonnée{{/}}. Si vous échouez à une mission de la série, vous perdrez un bouclier."
+
+msgid "challenge_missions/activation/title"
+msgstr "Activer le Creuset : {{challengeName}} ?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "Annuler"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "Redémarrer"
+
+msgid "challenge_missions/restart/description"
+msgstr "La progression de votre mission sera réinitialisée, vos boucliers seront restaurés et vous pourrez gagner à nouveau ces récompenses. La série de missions sera active immédiatement après son redémarrage."
+
+msgid "challenge_missions/restart/free/title"
+msgstr "Redémarrer le Creuset : {{challengeName}} gratuitement ?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "Redémarrer le Creuset : {{challengeName}} contre {{cost}} ?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "Annuler"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "Abandonner"
+
+msgid "challenge_missions/surrender/description"
+msgstr "L'abandon mettra fin à cette série de missions du Creuset et réinitialisera toute la progression ainsi que les boucliers. Vous pouvez la redémarrer à tout moment."
+
+msgid "challenge_missions/surrender/title"
+msgstr "Abandonner le Creuset : {{challengeName}} ?"
+
+msgid "changeGraphics/cancel"
+msgstr "Annuler"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s Les graphismes ont été considérablement retravaillés lors de cette mise à jour. Vous pouvez choisir la sélection automatique des graphismes ou l'annuler et changer manuellement les paramètres."
+
+msgid "changeGraphics/submit"
+msgstr "Sélection auto."
+
+msgid "changeGraphics/title"
+msgstr "Choix auto. des options graphiques"
+
+msgid "changePeriphery/cancel"
+msgstr "Annuler"
+
+msgid "changePeriphery/message"
+msgstr "Passer sur un autre serveur ?"
+
+msgid "changePeriphery/submit"
+msgstr "Transfert"
+
+msgid "changePeriphery/title"
+msgstr "Confirmer le transfert"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "Annuler"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "Les changements de serveur seront à présent conservés. Vous pouvez activer ou désactiver la connexion automatique dans les Paramètres."
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "Continuer"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "Changer pour un autre serveur ?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "Annuler"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "Passer tout de même sur un autre serveur ?\n\nSi vous changez de serveur, vous aurez les limites suivantes :\n\t• Certains véhicules seront indisponibles.\n\t• Les emblèmes et les inscriptions ne seront pas affichés.\n\t• Les missions, les Réserves personnelles et le mode Terrain d'essai seront indisponibles.\n\nVous pourrez rencontrer des erreurs et des problèmes liés à la qualité de la connexion. Veuillez respecter les joueurs des autres régions."
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "Transfert"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "Confirmer le transfert"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "Annuler"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "Passer tout de même sur un autre serveur ?\n\nSi vous changez de serveur, vous aurez les limites suivantes :\n\t• Certains véhicules seront indisponibles.\n\t• Les emblèmes et les inscriptions ne seront pas affichés.\n\t• Les missions, les Réserves personnelles et le mode Terrain d'essai seront indisponibles.\n\nVous pourrez rencontrer des erreurs et des problèmes liés à la qualité de la connexion. Veuillez respecter les joueurs des autres régions.\n\n\nLes changements de serveur seront conservés.\nAllez dans les Paramètres pour désactiver ou activer la connexion automatique."
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "Continuer"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "Confirmer le transfert"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "Annuler"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sVous êtes sur le point de rejoindre le clan :\n%(clanName)s\n\nEn confirmant votre intention de rejoindre le clan, vous acceptez automatiquement son règlement et confirmez que vous participerez activement aux activités et au développement de ce clan.\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "Après avoir quitté le clan, vous subirez une période de carence temporaire avant de pouvoir rejoindre un autre clan."
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "Confirmer"
+
+msgid "clanConfirmJoining/title"
+msgstr "Confirmer l'entrée dans le clan"
+
+msgid "clan_data_not_available/cancel"
+msgstr "Fermer"
+
+msgid "clan_data_not_available/message"
+msgstr "Le profil du clan de ce joueur est temporairement indisponible. Réessayez plus tard."
+
+msgid "clan_data_not_available/title"
+msgstr "Attention !"
+
+msgid "common/cancel"
+msgstr "Annuler"
+
+msgid "common/confirm/cancel"
+msgstr "Non"
+
+msgid "common/confirm/submit"
+msgstr "Oui"
+
+msgid "common/cost"
+msgstr "Coût :"
+
+msgid "common/error/cancel"
+msgstr "Fermer"
+
+msgid "common/submit"
+msgstr "Continuer"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "Annuler"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "Acheter"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "Acheter et équiper des directives"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "Annuler"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "Attention ! %(devices)s n'est pas équipé. La directive %(font_tag_open)sNE FONCTIONNERA PAS.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "Installer"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "Équiper une directive"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "Annuler"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "Attention ! Vous n'avez pas d'équipement compatible avec la directive sélectionnée. La directive %(font_tag_open)sNE FONCTIONNERA PAS.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "Installer"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "Équiper une directive"
+
+msgid "confirmBuy/title"
+msgstr "Acheter %(moduleName)s ?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "Annuler"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "L'élément sera envoyé au dépôt."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "Quantité nécessaire pour l'achat :"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "Gagnez des crédits en bataille, vendez les objets en surplus de votre dépôt ou échangez des pièces d'or pour en obtenir plus."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "Pas assez de crédits"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "Coût de l'élément :"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "Vendre l'élément remplacé %(previousModuleName) contre %(previousModulePrice)"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "Cet élément est compatible avec :"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "Vous pouvez vendre l'élément maintenant ou il sera envoyé au dépôt, où vous pourrez ensuite le vendre ou le réinstaller."
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "Acheter"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "Acheter et installer %(moduleName)s ?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "Acheter et installer l'équipement « %(equipment)s » ?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "Installer"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "Annuler"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "La conversion n'est pas nécessaire.\nVous disposez de suffisamment de crédits."
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "Impossible d'acheter : l'échange a échoué.\n%(gold)s supplémentaires sont nécessaires pour l'échange."
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "Échanger %(gold)s contre la quantité de crédits demandée ?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "Crédits nécessaires :"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "Quantité nécessaire pour l'achat : %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "Échanger"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "Confirmation de l'échange pour achat"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "Annuler"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "La conversion n'est pas nécessaire.\nVous disposez de suffisamment de points d'expérience."
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "Impossible de rechercher : la conversion a échoué.\n%(gold)s supplémentaires sont nécessaires pour la conversion."
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "Convertir l'expérience requise pour %(gold)s ?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "Expérience nécessaire :"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "Quantité nécessaire pour la recherche : %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "Sélectionnez un véhicule"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "Confirmer l'échange pour la recherche"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "Total :"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "Annuler"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "L'échange n'est pas requis pour la récupération.\nVous avez suffisamment de crédits."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "Échange impossible pour la récupération.\n%(gold)s sont nécessaires pour l'échange."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "Échanger %(gold)s contre la quantité de crédits manquants ?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "Crédits nécessaires :"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "Quantité nécessaire pour la récupération : %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "Échanger"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "Confirmation de l'échange pour la récupération"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "Total :"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "Nombre"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "Total"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "Coût :"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "Coût"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "Total :"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "Total"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "Total :"
+
+msgid "confirmUnlock/cancel"
+msgstr "Non"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} (dont {{freeXP}}) ?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "Rechercher {{items}} contre"
+
+msgid "confirmUnlock/item/message"
+msgstr "Rechercher %(typeString)s %(userString)s pour %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (dont %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s) ?"
+
+msgid "confirmUnlock/submit"
+msgstr "Oui"
+
+msgid "confirmUnlock/title"
+msgstr "Confirmer"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "Rechercher %(userString)s pour %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (dont %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s) ?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "Annuler"
+
+msgid "controlsWrongNotification/message"
+msgstr "Une ou plusieurs touches n'ont pas été attribuées. Voulez-vous vraiment sauvegarder les contrôles ?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "Enregistrer"
+
+msgid "controlsWrongNotification/title"
+msgstr "Erreur"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "Annuler"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "Les fichiers pour les notifications vocales sélectionnés sont endommagés ou manquants, la notification par défaut a été choisie.\nUne ou plusieurs touches ne sont pas assignées. Enregistrer les paramètres ?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "Enregistrer"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "Erreur"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "createOrderConfirmation/submit"
+msgstr "Confirmer"
+
+msgid "createOrderConfirmation/title"
+msgstr "Confirmer la préparation de la réserve"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "Fonds insuffisants pour effectuer cet achat."
+
+msgid "crewBookPurchase/description/crew"
+msgstr "Appliqué à l'ensemble de l'équipage. Une fois étudié, le %(book)s apporte %(exp)s à chaque membre d'équipage."
+
+msgid "crewBookPurchase/description/personal"
+msgstr "Appliqué au membre d'équipage sélectionné. Une fois étudié, le %(book)s apporte %(exp)s à ce membre d'équipage."
+
+msgid "crewBookPurchase/purchase"
+msgstr "Acheter"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "Acheter %(book)s ?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "Annuler"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "Tous les pochoirs des cartes {season} appliqués seront {removed} de votre véhicule,\ncar cet emplacement est indisponible pour {this}"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "Confirmer"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "ces cartes."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "cette carte."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "Appliquer ce pochoir dans cet emplacement pour toutes les cartes ?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "Une fois achetés, ces éléments seront appliqués sur le véhicule actuel. Les éléments marqués d'un astérisque seront indisponibles pour les autres véhicules."
+
+msgid "customization/buy_install_bound/title"
+msgstr "Confirmation de l'achat d'éléments"
+
+msgid "customization/change_install_bound/message"
+msgstr "Une fois sélectionnés, ces éléments seront appliqués sur le véhicule actuel. Les éléments marqués d'un astérisque seront indisponibles pour les autres véhicules."
+
+msgid "customization/change_install_bound/title"
+msgstr "Confirmation du changement d'éléments"
+
+msgid "customization/close/cancel"
+msgstr "Annuler"
+
+msgid "customization/close/submit"
+msgstr "Quitter"
+
+msgid "customization/close/title"
+msgstr "Quitter vers le garage sans enregistrer les changements ?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "Annuler"
+
+msgid "customization/exitToShop/submit"
+msgstr "Continuer"
+
+msgid "customization/exitToShop/title"
+msgstr "Aller au Magasin sans enregistrer les changements ?"
+
+msgid "customization/filter/cancel"
+msgstr "Annuler"
+
+msgid "customization/filter/message"
+msgstr "Tous les éléments seront retirés. Continuer ?"
+
+msgid "customization/filter/submit"
+msgstr "Tout retirer"
+
+msgid "customization/filter/title"
+msgstr "Retirer des éléments"
+
+msgid "customization/install_bound/cancel"
+msgstr "Annuler"
+
+msgid "customization/install_bound/submit"
+msgstr "Continuer"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "Annuler"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "Attention ! Après avoir appliqué l'élément (%(cTypeName)s %(itemName)s) au véhicule actuel, vous ne pourrez appliquer cet élément que sur %(numberLeft)s autres véhicules. Appliquer l'élément ?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "Appliquer"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "Appliquer l'élément"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "Annuler"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "Attention ! Après avoir appliqué l'élément (%(cTypeName)s %(itemName)s) au véhicule actuel, vous ne pourrez pas l'appliquer sur d'autres véhicules. Appliquer l'élément ?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "Appliquer"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "Appliquer l'élément"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "Annuler"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "Attention ! Après avoir appliqué l'élément (%(cTypeName)s %(itemName)s) au véhicule actuel, vous ne pourrez plus l'appliquer à n'importe quel autre. L'élément %(willBeDeleted)s s'il est retiré. Appliquer l'élément ?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "Appliquer"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "Appliquer l'élément"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "sera supprimé"
+
+msgid "customization/remove_element/cancel"
+msgstr "Annuler"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "Retirer"
+
+msgid "customization/remove_element/title"
+msgstr "Retirer l'élément"
+
+msgid "customizationConfirmSell/message"
+msgstr "Vendre %(name)s pour %(price)s%(creditsIcon)s ?"
+
+msgid "customizationConfirmSell/title"
+msgstr "Confirmer la vente"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "tous les %(days)s j"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "tous les %(days)s j %(hours)s h"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "toutes les %(hours)s h"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "toutes les %(hours)s h %(mins)s min"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "toutes les %(mins)s min"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "Le repiochage de mission est disponible {timeLimitMsg}"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "Repiocher"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "Repiocher une mission ?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} Certains de vos véhicules sont en bataille. Vous perdrez votre progression après avoir repioché une mission. Le repiochage de mission est disponible {timeLimitMsg}"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "Repiocher"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "Repiocher une mission ?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "Attention !"
+
+msgid "dedication/headline"
+msgstr "Distinction Héros de notre époque reçue"
+
+msgid "dedication/sub-headline"
+msgstr "Pour {battlesNum} batailles disputées"
+
+msgid "dialogTemplates/cancel"
+msgstr "Annuler"
+
+msgid "dialogTemplates/confirm"
+msgstr "Confirmer"
+
+msgid "dialogTemplates/ok"
+msgstr "Affirmatif !"
+
+msgid "disconnect/cancel"
+msgstr "Non"
+
+msgid "disconnect/message"
+msgstr "Voulez-vous vraiment vous déconnecter du serveur ?"
+
+msgid "disconnect/submit"
+msgstr "Oui"
+
+msgid "disconnect/title"
+msgstr "Se déconnecter du serveur"
+
+msgid "disconnected/cancel"
+msgstr "OK"
+
+msgid "disconnected/message"
+msgstr "Connexion au serveur interrompue. Appuyez sur OK pour vous reconnecter."
+
+msgid "disconnected/messageBan"
+msgstr "Votre compte a été suspendu.%(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "Votre compte a été suspendu jusqu'au %(expiryTime)s.%(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "Connexion au serveur interrompue.%(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \nMotif : %s"
+
+msgid "disconnected/title"
+msgstr "Connexion interrompue"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "Congédier"
+
+msgid "dismissTankman/description/perk"
+msgstr "Pour cette opération, saisissez le niveau d'entraînement de l'aptitude : {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "Pour cette opération, saisissez le niveau d'entraînement de l'aptitude entraînée le plus récemment ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "Les membres d'équipage sélectionnés seront congédiés. Vous pouvez les récupérer dans {whiteOrange_Open}%(time)s j{whiteOrange_Close}."
+
+msgid "dismissTankman/header"
+msgstr "Congédier un membre d'équipage"
+
+msgid "dismissTankman/limited"
+msgstr "La limite pour congédier a été atteinte. Le membre d'équipage congédié remplacera %(name)s (%(role)s, %(vehicle)s)."
+
+msgid "dismissTankman/noRecovery"
+msgstr "La récupération ne sera pas possible"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "Annuler"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "Attention ! En congédiant %(dismissedName)s, il remplacera %(deletedStr)s. Confirmez-vous le changement ?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "Confirmer"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "Confirmer le changement"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "Annuler"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "Attention ! En congédiant l'équipage, il remplacera %(deletedStr)s et %(extraCount)s membres d'équipage. Confirmez-vous le changement ?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "Confirmer"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "Le tampon des membres d'équipage congédiés est plein"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "Remplacer"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "Prénom"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "Nom de famille"
+
+msgid "documentChangeDialog/title"
+msgstr "Remplacer le nom et l'apparence ?"
+
+msgid "dropSkill/cancel"
+msgstr "Annuler"
+
+msgid "dropSkill/message"
+msgstr "Réinitialiser toutes les aptitudes ?"
+
+msgid "dropSkill/submit"
+msgstr "Réinitialision"
+
+msgid "dropSkill/title"
+msgstr "Confirmer la réinitialisation"
+
+msgid "elementType/chassis"
+msgstr "la suspension"
+
+msgid "elementType/engine"
+msgstr "le moteur"
+
+msgid "elementType/gun"
+msgstr "le canon"
+
+msgid "elementType/radiostation"
+msgstr "la radio"
+
+msgid "elementType/turret"
+msgstr "la tourelle"
+
+msgid "elenDisabled/cancel"
+msgstr "Fermer"
+
+msgid "elenDisabled/message"
+msgstr "Les compétitions sont temporairement indisponibles en raison d'une maintenance programmée."
+
+msgid "elenDisabled/title"
+msgstr "Attention !"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "Annuler"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "Ne plus afficher cet avertissement"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "Vous allez subir un faible taux d'images par seconde et des distorsions graphiques dans ce mode en raison de votre configuration matérielle. Le chargement de la bataille prendra plus de temps et pourra entraîner un plantage du client. Voulez-vous entrer en bataille malgré tout ?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "Combattre !"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "Avertissement de performances"
+
+msgid "equipmentBuyInstall/price"
+msgstr "Prix d'achat :"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "Démanteler %(equipment)s ?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "Annuler"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "Démanteler et améliorer"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "Démanteler"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "Retirer cet équipement le {white_Open}détruira{white_Close}.\nL'objet peut néanmoins être retiré en toute sécurité contre des obligations."
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "Retirer cet équipement le {white_Open}détruira{white_Close}.\nL'objet peut néanmoins être retiré en toute sécurité contre des pièces d'or ou avec un Kit de démantèlement."
+
+msgid "equipmentDestroy/conformation"
+msgstr "Détruire l'équipement « %(equipment)s » ?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "Installer l'équipement « %(equipment)s » ?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "Vendre l'équipement « %(equipment)s » ?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "Annuler"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "Améliorer"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "Au démantèlement"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "Aucune pièce d'Équipement expérimental à démanteler."
+
+msgid "eula/p1"
+msgstr "Veuillez lire le <BR/><A HREF='event:%(eulaURL)s'><U>Contrat de Licence d'Utilisateur Final</U></A> avant de continuer."
+
+msgid "eula/p2"
+msgstr "EN CLIQUANT SUR « ACCEPTER », VOUS RECONNAISSEZ AVOIR LU, COMPRIS, ET ACCEPTÉ D'ÊTRE LIÉ PAR, ET DE VOUS CONFORMER, AUX TERMES DU CONTRAT DE LICENCE D'UTILISATEUR FINAL ET SEREZ RESPONSABLE DE TOUTE INFRACTION DE CELUI-CI. LE CLUF ET TOUT AMMENDEMENT DE CELUI-CI SONT PERTINENTS À ET LIENT TOUS LES MEMBRES DU PROJET."
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "Échanger %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s contre %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s ?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "Échanger"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "Échanger de l'or"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "La promotion sur la conversion pouvant atteindre %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s points d'expérience contre de l'expérience libre est maintenant terminée. La prochaine fois, l'expérience sera convertie contre des pièces d'or."
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "Convertir %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s EXP. en expérience libre pour %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s ?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "Convertir"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "Convertir en expérience libre"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "Expérience de bataille insuffisante pour convertir"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "Expérience de bataille insuffisante pour convertir"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "Annuler"
+
+msgid "fillAllPerks/button/fill"
+msgstr "Sélection auto."
+
+msgid "fillAllPerks/checkbox"
+msgstr "Sélectionner automatiquement les aptitudes pour les équipages de la caserne"
+
+msgid "fillAllPerks/description"
+msgstr "Selon la qualification du membre d'équipage avec des emplacements d'aptitudes ouverts, un algorithme sélectionne la première aptitude du tableau ci-dessous. Si ce membre d'équipage possède cette première aptitude, alors l'algorithme sélectionne la deuxième à la place, continuant ainsi jusqu'à ce que tous les emplacements d'aptitudes soient remplis. Cette opération peut prendre un certain temps."
+
+msgid "fillAllPerks/subTitle"
+msgstr "Les aptitudes ne seront sélectionnées automatiquement que pour les membres d'équipage à bord d'un véhicule."
+
+msgid "fillAllPerks/title"
+msgstr "Sélectionner automatiquement les aptitudes non maîtrisées pour tous les membres d'équipage ?"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "Annuler"
+
+msgid "finance_dialog/header"
+msgstr "Confirmer"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "Entrez votre mot de passe de transaction pour confirmer les transactions financières."
+
+msgid "finance_dialog/results/invalid"
+msgstr "Mot de passe incorrect."
+
+msgid "finance_dialog/results/limit"
+msgstr "Vous avez entré un mauvais mot de passe trop de fois. Veuillez réessayer dans 24 heures. <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Mot de passe oublié ?</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "Le mot de passe doit contenir au moins 6 caractères et comporter des lettres latines, des chiffres, ou \"_\"."
+
+msgid "finance_dialog/submitBtn"
+msgstr "Confirmer"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "Obtenir %(product)s pour %(price)s ?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "Obtenir"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "Confirmer"
+
+msgid "fortDisabled/cancel"
+msgstr "Fermer"
+
+msgid "fortDisabled/message"
+msgstr "Les informations sur les clans sont actuellement indisponibles en raison d'une maintenance programmée."
+
+msgid "fortDisabled/title"
+msgstr "Attention !"
+
+msgid "fortTurnedOff/cancel"
+msgstr "OK"
+
+msgid "fortTurnedOff/message"
+msgstr "Le Bastion est temporairement indisponible. Réessayez plus tard."
+
+msgid "fortTurnedOff/title"
+msgstr "Attention !"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "Non"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "Oui"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "Annuler"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "Vous quitterez la garnison de la structure actuelle %(oldBuilding)s. Vous serez attaché à la structure %(newBuilding)s."
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "Confirmer"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "Attacher à la structure"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "freeObtainConfirmation/message"
+msgstr "Obtenir %(product)s pour %(price)s ?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "Obtenir"
+
+msgid "freeObtainConfirmation/title"
+msgstr "Confirmer"
+
+msgid "freeSkillsLearning/message"
+msgstr "Une aptitude zéro n'utilise pas d'EXP. pour être entraînée. Elle octroie un avantage en réduisant grandement la quantité d'EXP. requise pour poursuivre l'entraînement du membre d'équipage."
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "Sélectionner %(skillName)s comme compétence zéro ?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "Réentraîner %(skillName)s comme compétence zéro ?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "freeSlotConfirmation/message"
+msgstr "Utiliser la réduction de 100 % pour ajouter gratuitement une place dans le garage ?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "Ajouter"
+
+msgid "freeSlotConfirmation/title"
+msgstr "Ajouter une place"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "Fermer"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "Vous avez atteint votre limite d'achat de véhicules gratuits. Réessayez demain."
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "Fermer"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "Limite d'achat"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)sL'expérience%(orangeText_close)s%(simpleText_open)s est une ressource du jeu gagnée lors des batailles.\n\nElle inclut :%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)sL'expérience de bataille%(orangeText_close)s%(simpleText_open)s qui est utilisée pour rechercher de nouveaux éléments sur certains véhicules, ainsi que pour les avancées plus poussées dans le jeu de l'univers de Wargaming dans lequel elle a été gagnée.%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sL'expérience libre%(orangeText_close)s%(simpleText_open)s qui est utilisée pour rechercher tout élément ou véhicule, ainsi que pour l'accélération de l'entraînement de l'équipage. Veuillez dépenser l'expérience libre avec soin.%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "Continuer"
+
+msgid "freeXPInfo/title"
+msgstr "Expérience"
+
+msgid "gammaDialog/cancel"
+msgstr "Commencer"
+
+msgid "gammaDialog/message/description"
+msgstr "Commandant ! Configurez votre moniteur pour corriger le contraste des couleurs et améliorer la qualité de l'image sur votre écran.\n\n "
+
+msgid "gammaDialog/message/header"
+msgstr "Configurez votre moniteur dès à présent !"
+
+msgid "gammaDialog/title"
+msgstr "Paramètres gamma"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "Après conversion :"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "Avant conversion :"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "Annuler"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "Convertir"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "Total :"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "Équipage"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "Véhicule"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "Expérience"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "Tous les véhicules"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "Classer par véhicules sélectionnés."
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "Classer par nom des véhicules."
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "Véhicules"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "Classer par EXP. reçue."
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "Expérience"
+
+msgid "gatheringXPForm/title"
+msgstr "Convertir en expérience libre"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "Convertir de l'EXP. :"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "La formation de l'équipage est accélérée."
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "La formation de l'équipage est normale."
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "Total :"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "Total :"
+
+msgid "graphics/message/alert"
+msgstr "Attention !"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "Le mode d'écran a été changé. Retour aux paramètres précédents dans %(time)s secondes. Voulez-vous enregistrer les paramètres choisis ?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "Enregistrer"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "Garder ces paramètres du mode d'écran"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "Non"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "Attention ! Toutes les modifications seront perdues. Voulez-vous néanmoins continuer ?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "Oui"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "Détecter automatiquement la qualité graphique"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "Non"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "Attention ! Changer certains paramètres graphiques peut prendre un certain temps. Voulez-vous continuer ?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "Oui"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "Modifier les paramètres"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "Fermer"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "Impossible de définir les paramètres au maximum. La qualité des graphismes définie par l'utilisateur sera utilisée à la place."
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "Attention"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "Fermer"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "Les textures de haute qualité sont disponibles uniquement pour les systèmes 64 bits."
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "Qualité de texture non disponible"
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "Plus tard"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "Le changement de certains paramètres sera appliqué lors du redémarrage du jeu."
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "Redémarrer"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "Modifier les paramètres"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/message"
+msgstr "Il n'y a plus de place disponible dans le garage. Songez à acheter une place ou à vendre un véhicule pour libérer de la place pour celui que vous voulez acheter."
+
+msgid "haveNoEmptySlots/submit"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/title"
+msgstr "Erreur"
+
+msgid "hof/excludeRating/cancel"
+msgstr "Annuler"
+
+msgid "hof/excludeRating/message"
+msgstr "Les autres joueurs ne verront plus vos faits d'armes, mais vous pouvez les rendre visibles sur la page principale du Panthéon."
+
+msgid "hof/excludeRating/submit"
+msgstr "Masquer les résultats"
+
+msgid "hof/excludeRating/title"
+msgstr "Afficher les résultats dans le classement"
+
+msgid "hofDisabled/cancel"
+msgstr "Fermer"
+
+msgid "hofDisabled/message"
+msgstr "Le Panthéon est temporairement indisponible. Veuillez réessayer plus tard."
+
+msgid "hofDisabled/title"
+msgstr "Attention !"
+
+msgid "idleCrewBonus/cancel"
+msgstr "Annuler"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}Équipage incomplet{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}Un membre d'équipage ou plus n'est pas approprié{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "Le véhicule sélectionné n'est pas approprié pour l'une des raisons suivantes :"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "Seul un équipage peut recevoir le bonus. Il sera transféré du véhicule"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "vers le véhicule"
+
+msgid "idleCrewBonus/submit"
+msgstr "Confirmer"
+
+msgid "idleCrewBonus/title"
+msgstr "Activer le Régime d'équipage intensif ?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "Essayez de désactiver l'Accélération matérielle du navigateur dans les paramètres (onglet Vidéo)."
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "Erreur lors du chargement"
+
+msgid "interviewQuit/cancel"
+msgstr "Retour"
+
+msgid "interviewQuit/message"
+msgstr "Vous pouvez refuser le sondage maintenant et y prendre part plus tard en ouvrant le message contenant l'invitation dans le Centre de notifications. Le message reste actif pour une seule session de jeu."
+
+msgid "interviewQuit/submit"
+msgstr "Refuser"
+
+msgid "interviewQuit/title"
+msgstr "Refuser le sondage"
+
+msgid "koreaParentNotification/cancel"
+msgstr "Affirmatif !"
+
+msgid "koreaParentNotification/message"
+msgstr "Afin d'empêcher l'addiction des enfants et des adolescents, l'entrée en bataille après %(preBlockTime)s est suspendue. Vous allez être déconnecté du serveur à %(blockTime)s."
+
+msgid "koreaParentNotification/submit"
+msgstr "Affirmatif !"
+
+msgid "koreaParentNotification/title"
+msgstr "Limitation de jeu"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "Affirmatif !"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "Expiration du temps imparti. Vous ne pouvez pas rejoindre une nouvelle bataille."
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "Affirmatif !"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "Contrôle parental"
+
+msgid "leaveEvent/cancel"
+msgstr "Annuler"
+
+msgid "leaveEvent/message"
+msgstr "Les résultats de vos batailles dans la compétition seront réinitialisés après la mise à jour des classements. Vous ne serez donc pas en mesure de vous placer dans les classements ou de recevoir la récompense.\n\nAprès avoir quitté la compétition %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "VOUS NE POUVEZ PAS LA REJOINDRE À NOUVEAU."
+
+msgid "leaveEvent/submit"
+msgstr "Quitter la compétition"
+
+msgid "leaveEvent/title"
+msgstr "Quitter la compétition"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "Annuler"
+
+msgid "leaveStartedEvent/message"
+msgstr "Les résultats de vos batailles ne seront pas pris en compte dans cette compétition. Vous ne serez pas en mesure de vous placer dans les classements ou de recevoir la récompense.\n\nAprès avoir quitté la compétition %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "Quitter la compétition"
+
+msgid "leaveStartedEvent/title"
+msgstr "Quitter la compétition"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "Annuler"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "Vous êtes déjà en attente de bataille. Êtes-vous sûr de vouloir en sortir pour accepter l'invitation ?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "Invitation"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "Annuler"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "Vous êtes déjà dans un peloton. Êtes-vous sûr de vouloir le quitter pour accepter l'invitation ?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "Invitation"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "Annuler"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "Vous êtes déjà dans la salle d'entraînement. Êtes-vous sûr de vouloir en sortir pour accepter l'invitation ?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "Invitation"
+
+msgid "legalInfoWindow/title"
+msgstr "Informations juridiques"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "Annuler"
+
+msgid "limitedUIOffNotification/message"
+msgstr "Êtes-vous certain de vouloir désactiver l'apparition progressive des éléments cachés de l'interface dans le garage ?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "Après avoir désactivé cette option, vous ne pourrez plus la réactiver."
+
+msgid "limitedUIOffNotification/submit"
+msgstr "Désactiver"
+
+msgid "limitedUIOffNotification/title"
+msgstr "Modifier les paramètres"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "Annuler"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "Les changements de serveur seront à présent conservés. Vous pouvez activer ou désactiver la connexion automatique dans les Paramètres."
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "Continuer"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "Enregistrer le changement de serveur ?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "Obus insuffisants dans les munitions de la Configuration alternative. Entrer en bataille malgré tout ?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "Munitions insuffisantes"
+
+msgid "lowAmmo/cancel"
+msgstr "Annuler"
+
+msgid "lowAmmo/message"
+msgstr "Vous n'avez pas suffisamment de munitions dans le véhicule sélectionné. Vous serez automatiquement réapprovisionné en munitions avant le début de la bataille."
+
+msgid "lowAmmo/submit"
+msgstr "Réapprovisionner"
+
+msgid "lowAmmo/title"
+msgstr "Rechargement auto. des munitions"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "Annuler"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "Obus insuffisants dans les munitions du véhicule sélectionné. Entrer en bataille malgré tout ?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "Combattre !"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "Munitions insuffisantes"
+
+msgid "lowFpsWarning/cancel"
+msgstr "Non"
+
+msgid "lowFpsWarning/message"
+msgstr "Les paramètres de jeu actuel provoquent de faibles performances du jeu. Voulez-vous baisser la qualité des graphismes ?"
+
+msgid "lowFpsWarning/submit"
+msgstr "Oui"
+
+msgid "lowFpsWarning/title"
+msgstr "Faibles performances du jeu"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "Les détails du joueur %(userName)s sont verrouillés."
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "Détails du joueur verrouillés"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "Les données de l'utilisateur %(userName)s sont actuellement indisponibles."
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "Données actuellement indisponibles"
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "Annuler"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s Activer ce paramètre réduira les performances de l'ordinateur en bataille."
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "Attention !"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "Activer"
+
+msgid "minimapAlphaNotification/title"
+msgstr "Transparence de la minicarte"
+
+msgid "moduleSale/conformation/header"
+msgstr "Vendre %(moduleType)s « %(moduleName)s » ?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "Annuler"
+
+msgid "moneyTransfer/labelClan"
+msgstr "Clan :"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "crédits"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "or"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "Frais :"
+
+msgid "moneyTransfer/labelGold"
+msgstr "Transférer :"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "Normal :"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "crédits"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "or"
+
+msgid "moneyTransfer/labelTo"
+msgstr "À :"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "Total :"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(non membre du clan)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "Envoyer"
+
+msgid "moneyTransfer/title"
+msgstr "Transférer de l'or"
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "Vous serez débité de {fee} <img src='icon_gold' /> de frais. Voulez-vous vraiment transférer {gold} <img src='icon_gold' /> au joueur {player} ?"
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "Convertir"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "Confirmer le transfert"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Définir le mot de passe de transaction</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/message"
+msgstr "Le transfert d'or n'est pas autorisé. Raison : %s."
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "Les restrictions de transfert se terminent dans %s."
+
+msgid "moneyTransferRestriction/submit"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/title"
+msgstr "Le transfert d'or n'est pas autorisé."
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "Non"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "Certains changements des paramètres seront appliqués à la prochaine bataille. Voulez-vous continuer ?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "Oui"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "Modifier les paramètres"
+
+msgid "perkLearnConfirm/desc"
+msgstr "Niveau d'aptitude après entraînement : {yellow_Open}%(level)s %%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "Entraîner"
+
+msgid "perkLearnConfirm/title"
+msgstr "Entraîner l'aptitude %(skillName)s ?"
+
+msgid "perksReset/after"
+msgstr "Après réinitialisation :"
+
+msgid "perksReset/before"
+msgstr "Avant réinitialisation :"
+
+msgid "perksReset/cancel"
+msgstr "Annuler"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "Cette option n'est pas disponible, car vous possédez déjà une réduction de 100 % sur la réinitialisation des aptitudes à l'Académie des blindés."
+
+msgid "perksReset/discountTooltip/header"
+msgstr "Indisponible"
+
+msgid "perksReset/free/description"
+msgstr "Jusqu'à {yellow_Open}1%{yellow_Close} aptitude peut être réinitialisée gratuitement."
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "Ce membre d'équipage possède une première réinitialisation gratuite des aptitudes"
+
+msgid "perksReset/graceLabel"
+msgstr "La réinitialisation gratuite des aptitudes sera disponible pendant :"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "La quantité totale de l'EXP. des aptitudes sera réduite. Moins d'aptitudes pourront être entraînées."
+
+msgid "perksReset/noNewPerks"
+msgstr "Toute l'expérience des aptitudes entraînées sera ajoutée au niveau de qualification principale."
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "de l'EXP. totale des aptitudes"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "École militaire"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "de l'EXP. totale des aptitudes"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "Formation rapide"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "Réinitialiser les aptitudes\n sans perdre d'EXP."
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "Utiliser des crédits pour réinitialiser les aptitudes sans perdre d'EXP."
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "Académie des blindés"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "Réinitialiser les aptitudes\n sans perdre d'EXP."
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "Réinitialiser"
+
+msgid "perksReset/title"
+msgstr "Réinitialiser toutes les aptitudes du membre d'équipage ?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "Annuler"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "La Qualité de l'acoustique physique diffère du paramètre détecté automatiquement par le client du jeu. Activer cette option peut affecter les performances. Nous vous recommandons de tester les performances avant de continuer. Voulez-vous appliquer ces changements ?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "Confirmer"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "Discordance de l’acoustique physique"
+
+msgid "postmortem/cancel"
+msgstr "Quitter"
+
+msgid "postmortem/message"
+msgstr "Véhicule détruit. Voulez-vous rester en combat ou quitter vers le garage ?"
+
+msgid "postmortem/submit"
+msgstr "Rester"
+
+msgid "postmortem/title"
+msgstr "Véhicule détruit"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "Acheter le statut premium de %(days)s jours pour %(gold)s or ?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "Acheter"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "Confirmer l'achat"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "Prolonger le compte premium de %(days)s jour(s) pour %(gold)s pièces d'or ?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "Prolonger"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "Confirmer"
+
+msgid "priceCard/credits/title"
+msgstr "École militaire"
+
+msgid "priceCard/free/title"
+msgstr "Formation rapide"
+
+msgid "priceCard/gold/title"
+msgstr "Académie des blindés"
+
+msgid "priceCard/price/free"
+msgstr "Gratuit"
+
+msgid "priceCard/recertification/title"
+msgstr "Ordre de requalification"
+
+msgid "punishmentWindow/cancel"
+msgstr "Compris"
+
+msgid "punishmentWindow/header/ban"
+msgstr "Vous avez été suspendu pour %(time)s"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "Vous avez été sanctionné"
+
+msgid "punishmentWindow/header/warning"
+msgstr "Conduite antisportive"
+
+msgid "punishmentWindow/info"
+msgstr "Si votre problème était causé par des problèmes de connexion ou d'autres problèmes techniques,\nveuillez contacter l'Aide aux joueurs."
+
+msgid "punishmentWindow/message/ban"
+msgstr "Vous avez enfreint le règlement du jeu sur la carte {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} à {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nVous avez été temporairement suspendu des batailles en mode {whiteSpanish_Open}%(mode)s{whiteSpanish_Close}."
+
+msgid "punishmentWindow/message/penalty"
+msgstr "Vous avez enfreint le règlement du jeu sur la carte {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} à {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nVos crédits, EXP. et récompenses durant la bataille ont été retirés."
+
+msgid "punishmentWindow/message/warning"
+msgstr "Vous avez enfreint le règlement du jeu sur la carte {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} à {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nEn cas d'infraction répétée, vos gains en crédits, expérience et récompenses durant la bataille seront retirés."
+
+msgid "punishmentWindow/reason/afk"
+msgstr "Inaction en bataille"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "Avoir quitté la bataille avant la fin de celle-ci ou avant la destruction du véhicule"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "Inaction en bataille/sortie prématurée de la bataille"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "Autodestruction intentionnelle"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s j %(hour)s h"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 min"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s min"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "Annuler"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "Ne plus me demander"
+
+msgid "questsConfirmDialog/message"
+msgstr "Si vous sélectionnez la mission « %(newQuest)s », la mission « %(oldQuest)s » sera annulée."
+
+msgid "questsConfirmDialog/submit"
+msgstr "Confirmer"
+
+msgid "questsConfirmDialog/title"
+msgstr "Confirmer la sélection de la mission"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "Annuler"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "Toute la progression de la mission %(curQuest)s sera réinitialisée.\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "Attention ! Toute la progression de la mission actuelle sera perdue."
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "Confirmer"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "Réinitialiser la progression"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "Annuler"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "Si vous sélectionnez la mission %(newQuest)s, votre progression de la mission %(oldQuest)s sera réinitialisée.\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "Attention ! Toute la progression de la mission actuelle sera perdue."
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "Oui"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "Confirmer la sélection de la mission"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "Annuler"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "La mission %(quest)s sera annulée.\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "Attention ! Toute la progression de la mission actuelle sera perdue."
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "Oui"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "Confirmer l'annulation de la mission"
+
+msgid "quit/cancel"
+msgstr "Rester"
+
+msgid "quit/submit"
+msgstr "Quitter"
+
+msgid "quit/title"
+msgstr "Quitter le jeu ?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "Annuler"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "Votre équipe a besoin de vous ! Quitter une bataille avant qu'elle se termine ou avant que votre véhicule ne soit détruit est considéré comme une désertion. Cela peut entraîner l'imposition d'une sanction et une perte de tous les bonus pour les batailles jouées dans l'IGR."
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "Déserter"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "Déserter le champ de bataille ?"
+
+msgid "quitBattle/cancel"
+msgstr "Annuler"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Annuler"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Votre équipe a besoin de vous ! Quitter une bataille avant qu'elle se termine ou avant que votre véhicule ne soit détruit est considéré comme une désertion. Cela peut entraîner l'imposition d'une sanction."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Déserter"
+
+msgid "quitBattle/leaver/title"
+msgstr "Déserter le champ de bataille ?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "Annuler"
+
+msgid "quitBattle/replay/submit"
+msgstr "Quitter"
+
+msgid "quitBattle/replay/title"
+msgstr "Voulez-vous quitter le mode spectateur ?"
+
+msgid "quitBattle/submit"
+msgstr "Quitter"
+
+msgid "quitBattle/title"
+msgstr "Quitter la bataille ?"
+
+msgid "quitPreBattle/cancel"
+msgstr "Non"
+
+msgid "quitPreBattle/message"
+msgstr "Êtes-vous sûr de vouloir quitter la salle d'attente de bataille ?"
+
+msgid "quitPreBattle/submit"
+msgstr "Oui"
+
+msgid "quitPreBattle/title"
+msgstr "Quitter la salle d'attente de bataille"
+
+msgid "rally/autoSearch/cancel"
+msgstr "Non"
+
+msgid "rally/autoSearch/message"
+msgstr "Chercher automatiquement des places disponibles ?"
+
+msgid "rally/autoSearch/submit"
+msgstr "Oui"
+
+msgid "rally/autoSearch/title"
+msgstr "Recherche auto."
+
+msgid "rally/changePeriphery/cancel"
+msgstr "Annuler"
+
+msgid "rally/changePeriphery/message"
+msgstr "Vous serez automatiquement transféré sur un autre serveur (%(host)s). Continuer malgré tout ?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "Transfert"
+
+msgid "rally/changePeriphery/title"
+msgstr "Passer sur un autre serveur"
+
+msgid "rally/goToAnother/cancel"
+msgstr "Annuler"
+
+msgid "rally/goToAnother/message"
+msgstr "Si vous changez le mode de bataille, vous serez automatiquement exclu de l'unité tactique."
+
+msgid "rally/goToAnother/submit"
+msgstr "Transfert"
+
+msgid "rally/goToAnother/title"
+msgstr "Changer de mode"
+
+msgid "rally/goToIntro/cancel"
+msgstr "Annuler"
+
+msgid "rally/goToIntro/message"
+msgstr "Êtes-vous sûr de vouloir quitter l'unité tactique ?"
+
+msgid "rally/goToIntro/submit"
+msgstr "Confirmer"
+
+msgid "rally/goToIntro/title"
+msgstr "Confirmer la sortie"
+
+msgid "rally/goToSquad/cancel"
+msgstr "Annuler"
+
+msgid "rally/goToSquad/message"
+msgstr "Si vous créez un peloton, vous quitterez automatiquement votre mode actuel."
+
+msgid "rally/goToSquad/submit"
+msgstr "Créer"
+
+msgid "rally/goToSquad/title"
+msgstr "Créer un peloton"
+
+msgid "rally/leave/cancel"
+msgstr "Annuler"
+
+msgid "rally/leave/message"
+msgstr "Êtes-vous sûr de vouloir quitter l'unité tactique ainsi que le mode ?"
+
+msgid "rally/leave/submit"
+msgstr "Confirmer"
+
+msgid "rally/leave/title"
+msgstr "Confirmer la sortie"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "Continuer"
+
+msgid "rally/leaveDisabled/message"
+msgstr "Impossible de quitter le mode. Votre véhicule est dans une place et prêt pour la bataille."
+
+msgid "rally/leaveDisabled/title"
+msgstr "Attention"
+
+msgid "rally/startBattle/cancel"
+msgstr "Non"
+
+msgid "rally/startBattle/message"
+msgstr "Chercher un adversaire ?"
+
+msgid "rally/startBattle/submit"
+msgstr "Oui"
+
+msgid "rally/startBattle/title"
+msgstr "Chercher un ennemi"
+
+msgid "recruit/cancel"
+msgstr "Annuler"
+
+msgid "recruit/submit"
+msgstr "Recruter"
+
+msgid "recruit/title"
+msgstr "Recruter un nouveau %(role)s pour le véhicule %(vehicleName)s ?"
+
+msgid "recruit/voiceoverText"
+msgstr "Le doublage unique de ce membre d'équipage ne fonctionne que pour le poste de chef de char."
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "Vous n'avez pas besoin de recruter des membres d'équipage pour les véhicules premium. Vous pouvez transférer un équipage vers un véhicule premium de même type sans pénalité."
+
+msgid "recruit/warning/slotChanged"
+msgstr "Ce membre d'équipage ne peut pas être recruté pour le véhicule sélectionné et il sera envoyé à la caserne."
+
+msgid "recruitConversionConfirm/warning"
+msgstr "Le membre d'équipage possède des aptitudes obsolètes qui seront automatiquement réinitialisées sans perte d'EXP."
+
+msgid "recruitDialog/name/title"
+msgstr "Recruter un nouveau membre d'équipage (%(name)s) ?"
+
+msgid "recruitDialog/title"
+msgstr "Recruter un nouveau membre d'équipage ?"
+
+msgid "recruitWindow/cancel"
+msgstr "Annuler"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "Non selectionné"
+
+msgid "recruitWindow/nation"
+msgstr "Nation"
+
+msgid "recruitWindow/specialization"
+msgstr "Qualification"
+
+msgid "recruitWindow/submit"
+msgstr "Recruter"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "Type de véhicule"
+
+msgid "recruitWindow/vehicleType"
+msgstr "Véhicule"
+
+msgid "referralReward/cancel"
+msgstr "Annuler"
+
+msgid "referralReward/message"
+msgstr "Récolter %(product)s ?"
+
+msgid "referralReward/submit"
+msgstr "Confirmer"
+
+msgid "referralReward/title"
+msgstr "Accusé de réception"
+
+msgid "refuseTraining/cancel"
+msgstr "Non"
+
+msgid "refuseTraining/message"
+msgstr "Quitter l'entraînement ?"
+
+msgid "refuseTraining/submit"
+msgstr "Oui"
+
+msgid "refuseTraining/title"
+msgstr "Confirmer"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "Détruire"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "Annuler"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "Le consommable « %(name)s » sera envoyé au Dépôt en raison d'une %(reason)s avec l'élément actuel."
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "incompatibilité"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "Retirer"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "Confirmez le démontage"
+
+msgid "rentConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "rentConfirmation/event"
+msgstr "pour le mode %(eventName)s"
+
+msgid "rentConfirmation/message"
+msgstr "Louer le %(name)s %(event)s pour %(price)s ?"
+
+msgid "rentConfirmation/submit"
+msgstr "Confirmer"
+
+msgid "rentConfirmation/title"
+msgstr "Confirmer la location"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "Annuler"
+
+msgid "rentConfirmationRenew/message"
+msgstr "Prolonger la période de location du %(name)s %(event)s pour %(price)s ?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "Confirmer"
+
+msgid "rentConfirmationRenew/title"
+msgstr "Confirmer la location"
+
+msgid "replacePassport/unique/cancel"
+msgstr "Annuler"
+
+msgid "replacePassport/unique/message"
+msgstr "Ceci est un membre d'équipage unique et son dossier personnel ne pourra pas être réinitialisé par la suite. Êtes-vous sûr de vouloir remplacer le dossier personnel pour %(gold)s ?"
+
+msgid "replacePassport/unique/submit"
+msgstr "Remplacer"
+
+msgid "replacePassport/unique/title"
+msgstr "Confirmer le remplacement"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "replacePassportConfirmation/message"
+msgstr "Remplacer le dossier personnel de ce membre d'équipage pour %(gold)s ?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "Remplacer"
+
+msgid "replacePassportConfirmation/title"
+msgstr "Modifier le dossier personnel"
+
+msgid "replayNotification/cancel"
+msgstr "Non"
+
+msgid "replayNotification/message"
+msgstr "La version actuelle de World of Tanks est incompatible avec l'enregistrement de bataille. Cela peut poser des problèmes dans le replay. Voulez-vous ignorer la différence et tout de même lancer le replay ?"
+
+msgid "replayNotification/submit"
+msgstr "Oui"
+
+msgid "replayNotification/title"
+msgstr "Attention"
+
+msgid "replayStopped/cancel"
+msgstr "Annuler"
+
+msgid "replayStopped/message"
+msgstr "Cliquez sur Terminer pour quitter le jeu."
+
+msgid "replayStopped/submit"
+msgstr "Terminer"
+
+msgid "replayStopped/title"
+msgstr "Replay terminé"
+
+msgid "reportBug/cancel"
+msgstr "Annuler"
+
+msgid "reportBug/message"
+msgstr "Cliquer ici ouvrira votre navigateur par défaut pour vous envoyer sur le site de l'Aide aux joueurs de World of Tanks afin de signaler un problème. Voulez-vous continuer ?"
+
+msgid "reportBug/submit"
+msgstr "Continuer"
+
+msgid "reportBug/title"
+msgstr "Aller sur l'Aide aux joueurs"
+
+msgid "resetAllPerks/cancel"
+msgstr "Annuler"
+
+msgid "resetAllPerks/submit"
+msgstr "Réinitialiser"
+
+msgid "resetAllPerks/title"
+msgstr "Réinitialiser toutes les aptitudes pour tous les membres d'équipage ?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}Toutes les aptitudes seront réinitialisées pour tous les membres d'équipage de votre compte.{orangeEnd}\n{orangeStart}Cette opération ne peut pas être annulée.{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "Continuer"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s Les paramètres graphiques ont été choisis automatiquement pour assurer une qualité optimale de l'image.\nPour améliorer les performances, choisissez la qualité graphique minimale dans les paramètres."
+
+msgid "resetGraphics/submit"
+msgstr "Paramètres"
+
+msgid "resetGraphics/title"
+msgstr "Changer les paramètres graphiques"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "Récupérer"
+
+msgid "restoreTankman/description"
+msgstr "%(name)s sera récupéré."
+
+msgid "restoreTankman/free"
+msgstr "Prix : gratuit"
+
+msgid "restoreTankman/header"
+msgstr "Récupérer ce membre d'équipage ?"
+
+msgid "restoreTankman/price"
+msgstr "Prix :"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "Annuler"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "Récupérer le %(vehiclename)s"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "Récupérer"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "Sans équipage"
+
+msgid "restoreVehicleDialog/title"
+msgstr "Récupérer le %(vehiclename)s"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "Après avoir cliqué sur Rétablir, vous ne pourrez plus échanger l'équipement et les consommables achetés contre des pièces d'or. Veuillez vérifier tous les détails avec soin."
+
+msgid "retrain/cancel"
+msgstr "Annuler"
+
+msgid "retrain/changeRole"
+msgstr "Requalifier"
+
+msgid "retrain/discountLabel"
+msgstr "Cette réduction est disponible car la première aptitude n'est pas maîtrisée à 100 %."
+
+msgid "retrain/discountTooltip/body"
+msgstr "Cette option n'est pas disponible, car vous possédez déjà une réduction de 100 % sur le réentraînement à l'Académie des blindés."
+
+msgid "retrain/discountTooltip/header"
+msgstr "Indisponible"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "Membres d'équipage à réentraîner : {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "Vous n'avez pas besoin d'entraîner les membres d'équipage pour les véhicules premium.\nVous pouvez transférer un équipage vers un véhicule premium de même type sans pénalité."
+
+msgid "retrain/price"
+msgstr "Prix :"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "Efficacité des aptitudes\naprès réentraînement : %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "École militaire"
+
+msgid "retrain/priceCard/free/description"
+msgstr "Efficacité des aptitudes\naprès réentraînement : %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "Formation rapide"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "Efficacité des aptitudes\naprès réentraînement : %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "Académie des blindés"
+
+msgid "retrain/submit"
+msgstr "Réentraîner"
+
+msgid "retrain/title/massive"
+msgstr "Réentraîner l'équipage pour le véhicule %(vehicleName)s&zwnbsp; ?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s ?"
+
+msgid "retrain/title/single/complex"
+msgstr "Réentraîner pour le véhicule %(vehicleName)s\net requalifier en %(role) ?"
+
+msgid "retrain/title/single/simple"
+msgstr "Réentraîner pour le véhicule %(vehicleName)s"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "Les aptitudes d'une qualification non appropriée seront désactivées. Réinitialisez-les manuellement."
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "L'équipage peut être déplacé vers un véhicule premium du même type sans entraînement ni pénalité, mais les aptitudes non appropriées doivent être réinitialisées manuellement."
+
+msgid "rudyInfo/message"
+msgstr "Ce grand classique est déjà dans le jeu ! « Quatre tankistes et un chien » (« Czterej pancerni i pies » en polonais) était une série télévisée polonaise en noir et blanc basée sur une nouvelle du même nom écrite par Janusz Przymanowski. La série télévisée, diffusée pour la première fois le 9 mai 1966, décrit les aventures de l'équipage d'un char T-34-85, surnommé Rudy (roux), et de leur chien Szarik au cours de la Seconde Guerre mondiale."
+
+msgid "rudyInfo/submit"
+msgstr "Affirmatif !"
+
+msgid "rudyInfo/title"
+msgstr "Quatre tankistes et un chien"
+
+msgid "selectVehicle/counter"
+msgstr "Véhicules affichés :"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "Sélectionner le véhicule agresseur"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "Sélectionner ce véhicule"
+
+msgid "sellConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "sellConfirmation/submit"
+msgstr "Vendre"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "Vendre"
+
+msgid "sellModuleConfirmation/title"
+msgstr "Confirmer la vente"
+
+msgid "sellShellConfirmation/submit"
+msgstr "Vendre les obus « %(shellName)s » ?"
+
+msgid "sendInvites/common/title"
+msgstr "Inviter dans l'unité tactique"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "Annuler"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "Les statistiques de session seront automatiquement réinitialisées dans {}"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "Réinitialisation"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s h %(minutes)s min"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "Réinitialiser les statistiques de session ?"
+
+msgid "shopSyncError/cancel"
+msgstr "Continuer"
+
+msgid "shopSyncError/message"
+msgstr "Mettez à jour l'application. Si l'erreur se reproduit, mettez à jour le serveur."
+
+msgid "shopSyncError/title"
+msgstr "Désynchronisation"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "Annuler"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "Entraîner la ou les aptitudes sélectionnées ?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "Entraîner"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "Appliquer"
+
+msgid "soundModeInvalid/cancel"
+msgstr "Annuler"
+
+msgid "soundModeInvalid/message"
+msgstr "Les fichiers pour les notifications vocales sélectionnés sont endommagés ou manquants, la notification par défaut a été choisie."
+
+msgid "soundModeInvalid/submit"
+msgstr "Enregistrer"
+
+msgid "soundModeInvalid/title"
+msgstr "Erreur"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "Annuler"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "Le système audio sélectionné est différent de celui défini automatiquement par le client du jeu. Certains sons pourraient ne pas être disponibles. Nous vous recommandons de tester la différence sonore. Voulez-vous confirmer les changements ?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "Confirmer"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "Différence du système audio"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "Non"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "Le système audio sélectionné est différent de celui défini automatiquement par le client du jeu. Certains sons pourraient ne pas être disponibles. Voulez-vous appliquer les paramètres audio optimaux ?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "Oui"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "Différence du système audio"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "Affirmatif !"
+
+msgid "squad/eventDisabled/message"
+msgstr "L'évènement est indisponible. Le peloton va être dissous."
+
+msgid "squad/eventDisabled/title"
+msgstr "Évènement terminé"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Annuler"
+
+msgid "squad/goToAnother/message"
+msgstr "Vous êtes dans un peloton. Si vous changez de mode, vous serez exclu du peloton."
+
+msgid "squad/goToAnother/submit"
+msgstr "Transfert"
+
+msgid "squad/goToAnother/title"
+msgstr "Changer de mode"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "Annuler"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "En changeant de mode de jeu, votre peloton actuel sera dissous. Voulez-vous vraiment changer le type de bataille ?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "Confirmer"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "Changement de mode de jeu"
+
+msgid "squad/goToSquad/cancel"
+msgstr "Annuler"
+
+msgid "squad/goToSquad/message"
+msgstr "Quitter l'unité tactique et créer un peloton avec le joueur ?"
+
+msgid "squad/goToSquad/submit"
+msgstr "Créer"
+
+msgid "squad/goToSquad/title"
+msgstr "Créer un peloton"
+
+msgid "squad/leave/cancel"
+msgstr "Annuler"
+
+msgid "squad/leave/message"
+msgstr "Êtes-vous sûr de vouloir quitter le peloton ?"
+
+msgid "squad/leave/submit"
+msgstr "Confirmer"
+
+msgid "squad/leave/title"
+msgstr "Confirmer la sortie"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Continuer"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Vous ne pouvez pas quitter le peloton. Vous êtes membre du peloton et prêt au combat."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Attention"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "Annuler"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "Le peloton est incomplet. Un joueur supplémentaire sera ajouté automatiquement. Rejoindre la bataille ?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "Combattre !"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "Le peloton n'est pas prêt"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "Annuler"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "Le peloton n'est pas complet. Rejoindre la bataille malgré tout ?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "Combattre !"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "Le peloton n'est pas prêt"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "Annuler"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "Le peloton est incomplet. Ajouter automatiquement des joueurs et rejoindre la bataille ?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "Combattre !"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "Le peloton n'est pas prêt"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "Annuler"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "Un des membres du peloton n'est pas prêt. Rejoindre la bataille malgré tout ?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "Combattre !"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "Le peloton n'est pas prêt"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "Annuler"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "Le joueur n'ayant pas confirmé qu'il était prêt sera exclu de l'unité tactique. Un joueur supplémentaire sera ajouté automatiquement. Rejoindre la bataille ?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "Combattre !"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "Le peloton n'est pas prêt"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "Annuler"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "Aucun des membres du peloton n'est prêt. Rejoindre la bataille malgré tout ?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "Combattre !"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "Le peloton n'est pas prêt"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "Annuler"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "Le peloton est incomplet. Les joueurs qui n'ont pas confirmé être prêts seront automatiquement exclus de l'unité tactique. Ajouter des joueurs automatiquement et rejoindre la bataille ?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "Combattre !"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "Le peloton n'est pas prêt"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "Impossible de rejoindre la nouvelle bataille : plusieurs joueurs ne sont pas encore revenus. Attendez que la bataille en cours se termine."
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "Affirmatif !"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "Le peloton n'est pas prêt"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "OK"
+
+msgid "squadPremiumNeeded/message"
+msgstr "Seuls les utilisateurs d'un compte premium peuvent créer un peloton.\nL'utilisateur qui a créé un peloton peut inviter un joueur ayant tout type de compte."
+
+msgid "squadPremiumNeeded/title"
+msgstr "Comptes premium uniquement"
+
+msgid "steamStartNeeded/cancel"
+msgstr "Fermer le jeu"
+
+msgid "steamStartNeeded/message"
+msgstr "Le jeu doit être relancé par Steam pour bien vous connecter."
+
+msgid "steamStartNeeded/title"
+msgstr "Impossible de vous connecter"
+
+msgid "stronghold/leave/cancel"
+msgstr "Annuler"
+
+msgid "stronghold/leave/message"
+msgstr "Êtes-vous sûr de vouloir quitter le détachement ?"
+
+msgid "stronghold/leave/submit"
+msgstr "Confirmer"
+
+msgid "stronghold/leave/title"
+msgstr "Confirmer la sortie"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "Après avoir quitté, le détachement sera dissous.\nLe clan sera pénalisé pour ne pas avoir rejoint la bataille.\nÊtes-vous sûr de vouloir quitter le détachement ?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "Confirmer la sortie"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "Annuler"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "Transfert"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "Passer sur un autre serveur"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "tradeInConfirmation/message"
+msgstr "Le %(vehName)s sera remis et ne pourra pas être récupéré.%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " En plus, %(operations)s."
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "l'équipage sera envoyé dans la caserne"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "les consommables seront envoyés au dépôt"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "l'équipement sera retiré gratuitement"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "toutes les Modifications doubles seront annulées, mais la progression de la Modification standard sera conservée"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "les munitions seront envoyées au dépôt"
+
+msgid "tradeInConfirmation/submit"
+msgstr "Échanger"
+
+msgid "tradeInConfirmation/title"
+msgstr "Échanger de véhicule"
+
+msgid "tradeInPopover/descr"
+msgstr "Véhicules premium disponibles dans le garage"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "Affiche la nation des véhicules sélectionnés."
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "Nation"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "Affiche l'économie réalisée lors de l'échange des véhicules sélectionnés"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "Estimation\ndu véhicule"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "Estimation du véhicule"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "Affiche le rang des véhicules sélectionnés."
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "Rang"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "Affiche le nom des véhicules sélectionnés."
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "Nom"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "Affiche le type des véhicules sélectionnés."
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "Type"
+
+msgid "tradeInPopover/title"
+msgstr "Sélectionnez le véhicule à échanger"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "Choix du véhicule"
+
+msgid "updateNeeded/cancel"
+msgstr "Plus tard"
+
+msgid "updateNeeded/message"
+msgstr "Veuillez mettre à jour votre application."
+
+msgid "updateNeeded/submit"
+msgstr "Recharger"
+
+msgid "updateNeeded/title"
+msgstr "Mise à jour requise"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "Entraîner le membre d'équipage pour {%d} pièces d'or ?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "Entraîner"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "Confirmer l'entraînement"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "Pas assez d'or pour l’entraînement."
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "Pas assez d'or"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "Annuler"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "Entraîner le membre d'équipage pour {%d} crédits ?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "Entraîner"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "Confirmer l'entraînement"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "Pas assez de crédits pour l’entraînement."
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "Pas assez de crédits"
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "Annuler"
+
+msgid "vehConf/exitDialog/message"
+msgstr "Les modifications ne seront pas sauvegardées. Quitter le menu de configuration du véhicule ?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "Confirmer"
+
+msgid "vehConf/exitDialog/title"
+msgstr "Annuler les changements"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "Supprimer du garage %(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "Annuler"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "Attention ! Ceci est un véhicule spécial. Si vous le vendez, vous devrez attendre %(cooldown)s j avant de pouvoir le rétablir. Voulez-vous vendre ce véhicule ?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "Confirmer"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "Confirmer la vente"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "Annuler"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "Attention ! Ceci est un véhicule spécial. Toutefois, si vous le vendez, vous serez en mesure de le rétablir. Voulez-vous vendre ce véhicule ?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "Confirmer"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "Confirmer la vente"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "Annuler"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "Annuler"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "ATTENTION ! Ce char est unique et ne peut pas être récupéré. L'équipage sera également congédié pour toujours."
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "Confirmer"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "Confirmer la vente"
+
+msgid "vehicleSell/unique/message"
+msgstr "Attention ! Ceci est un véhicule spécial. Il n'est pas disponible à l'achat dans le magasin. Voulez-vous continuer ?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "Oui"
+
+msgid "vehicleSell/unique/title"
+msgstr "Confirmer la vente"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "Confirmer la vente"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "Pour confirmer, entrez le prix de vente dans la colonne \"Total\" (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "Vous avez entré une information incorrecte."
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "MUNITIONS :"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "DIRECTIVES :"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "Annuler"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "TOTAL :"
+
+msgid "vehicleSellDialog/count"
+msgstr "objet(s)"
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "Congédier"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "Envoyer à la caserne"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "ÉQUIPAGE :"
+
+msgid "vehicleSellDialog/customization"
+msgstr "APPARENCE :"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "Démanteler"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "CONSOMABLES :"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "Détails"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "DÉPÔT :"
+
+msgid "vehicleSellDialog/loss"
+msgstr "Dépensé :"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "Inclut toutes les configurations nationales du véhicule !"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "Éléments"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "ÉQUIPEMENT :"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "Après la vente du véhicule, le niveau de l'Amélioration de terrain actuel sera conservé, mais toutes les Modifications doubles seront annulées."
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "Reçu :"
+
+msgid "vehicleSellDialog/remove"
+msgstr "Retirer"
+
+msgid "vehicleSellDialog/submit"
+msgstr "Vendre"
+
+msgid "vehicleSellDialog/title"
+msgstr "Vendre %(name)s"
+
+msgid "vehicleSellDialog/unload"
+msgstr "Env. au dépôt"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "Élite"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "Coût"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "Rang. "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "Rôle : "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "Chass. de chars"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "Canons AM"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "Char lourd"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "Char léger"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "Char moyen"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "Affirmatif !"
+
+msgid "voiceChatInitFailed/message"
+msgstr "Erreur lors de l'initialisation du chat vocal : ce service est actuellement indisponible."
+
+msgid "voiceChatInitFailed/title"
+msgstr "Initialisation du chat vocal"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "OK"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "Le chat vocal a bien été initialisé."
+
+msgid "voiceChatInitSucceded/title"
+msgstr "Initialisation du chat vocal"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "Fermer"
+
+msgid "waterQualityNotPossible/message"
+msgstr "La qualité de l'eau élevée est disponible uniquement si l'option 'post-traitement' est activée."
+
+msgid "waterQualityNotPossible/title"
+msgstr "La qualité de l'eau n'est pas disponible."
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "Annuler"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "Vérifiez que les véhicules sont disponibles dans le garage"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "Prix : %(price)s %(icon)s (disponible : %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "Joueur : %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "Véhicules sélectionnés : %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "Restaurer en service"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "Restaurer en service ?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "Assistant"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "Récompenses d'activité"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "Bonus de bataille"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "Passe de combat Plus"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "Exclusion de cartes"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "Véhicule exclusif"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "Véhicules exclusifs"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "Démontage d'équipement gratuit"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "Réserve de pièces d'or"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "Régime d'équipage intensif"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "Multiplicateur flexible d'EXP."
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "Boost Pro"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "Personnalisation des États de service"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "Bannière de tankiste"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "WOT PLUS ACTIVÉ"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "Tout est prêt !"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "Prolongé le {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "WOT PLUS CORE ACTIVÉ"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "Détails"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "Abonnement sur 360 jours"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "Abonnement sur 180 jours"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}, prolongé le {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "WOT PLUS PRO ACTIVÉ"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "Activer"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}Vous ne pourrez pas booster un autre véhicule avant {{@ style (color #fff)}}{{boostInterval}} heures{{/}}.{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "L'activation du Boost Pro permet à ce véhicule de remporter {{@ style (color #fff)}}{{bonusPercent}} de crédits et d'EXP. en plus{{/}}. Applicable à un seul véhicule."
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "Activer le Boost Pro pour le véhicule {{vehicle}} ?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "Changer"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}Un seul véhicule peut bénéficier du boost. Vous ne pourrez pas booster un autre véhicule avant {{@ style (color #fff)}}{{boostInterval}} heures{{/}}.{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "L'activation du Boost Pro permet à ce véhicule de remporter {{@ style (color #fff)}}{{bonusPercent}} de crédits et d'EXP. en plus{{/}}. Applicable à un seul véhicule."
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "Passer le Boost Pro au véhicule {{vehicle}} ?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "Annuler"
+
+msgid "wotPlusRental/description"
+msgstr "Le prochain véhicule de location sera disponible le {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "Louer"
+
+msgid "wotPlusRental/title"
+msgstr "Louer {cream_Open}%s{cream_Close} ?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "Enregistrer"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "Voulez-vous enregistrer votre personnalisation des États de service ?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "Annuler"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "Dépense toute l'expérience gagnée sur ce véhicule en entraînement de l'équipage. Le membre d'équipage le moins expérimenté est entraîné deux fois plus vite."
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "ACTIVER"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "Accélérer l'entraînement de l'équipage ?"

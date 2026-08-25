@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Gå i strid ändå"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Använd!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Taktiska verktyg saknas"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "Vagnen du valt saknar ett eller fler taktiska verktyg. Detta kan avsevärt påverka din stridsprestanda. Gå i strid ändå?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Du kan anpassa evenemangets förinställda snabbtangenter för granater och taktiska verktyg.\nFörändringen gäller bara evenemangsstrider och inga andra strider.\nDu kan fortfarande anpassa individuella snabbtangenter under Meny–inställningar–kontroller (under förnödenheter)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Ändra förinställda snabbtangenter för förnödenheter"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Slutför aktuellt uppdrag för att få det unika märket Sista striden: Operation Pandora:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Uppdrag för episk prestation"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Minskar {EDCB9E_Start}mirium-kostnaden{EDCB9E_End} för alla taktiska verktyg med {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Miriumeffekt"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Minskar {EDCB9E_Start}varaktigheten för taktiska verktyg{EDCB9E_End} med {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Verktygsvaraktighet"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Ökar {EDCB9E_Start} verkansradien för taktiska verktyg{EDCB9E_End} med {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Verkansradie"
+
+msgid "booster/booster_heal/description"
+msgstr "Ökar alla {EDCB9E_Start}helande effekter{EDCB9E_End} för vagnen med {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Helande effekter"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Ökar {EDCB9E_Start}skadan som överförs från obelisker{EDCB9E_End} till fiendevagnar med {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Överförd skadeverkan från obelisker"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Ökar {EDCB9E_Start}avståndet för insamling av mirium{EDCB9E_End} från fiender med {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Avstånd för insamling av mirium"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Ökar {EDCB9E_Start}mängden mirium insamlad{EDCB9E_End} från förstörda fiender med {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Miriuminsamling"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Ökar {EDCB9E_Start}mängden mirium{EDCB9E_End} som utdelas för en förstörd fiendevåg med {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Mirium per våg"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Ökar {EDCB9E_Start}mängden mirium{EDCB9E_End} återställd vid återvändning med {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Mirium vid återvändning"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Ökar {EDCB9E_Start}vagnens maximala miriumkapacitet{EDCB9E_End} med {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Miriumkapacitet"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "FÖRSVARSPAKET"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Nycklar köpta"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Möjligheten att tjäna 5× erfarenhet, från och med andra segern varje dag i vilken vagn som helst."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Uppdrag för 5× besättningserfarenhet i en strid"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Ställ in visning av vagnar efter typ, nation och andra parametrar."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Filtrera efter parameter"
+
+msgid "common/back"
+msgstr "TILLBAKA"
+
+msgid "common/close"
+msgstr "STÄNG"
+
+msgid "common/modifierInline"
+msgstr "{value}x"
+
+msgid "common/modifierInlineTimes"
+msgstr "{value}×"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "TILL EVENEMANGET"
+
+msgid "common/toRewardPath"
+msgstr "TILL FRAMSTEG"
+
+msgid "common/yes"
+msgstr "Svar: Ja!"
+
+msgid "difficult/daily"
+msgstr "DAGLIGT NYCKELUPPDRAG UPPLÅST"
+
+msgid "difficult/disabled/body"
+msgstr "Du är medlem i en pluton. Endast plutonens befälhavare kan ändra svårighetsgrad."
+
+msgid "difficult/disabled/header"
+msgstr "Du kan inte ändra svårighetsgrad"
+
+msgid "difficult/level_1"
+msgstr "Normal"
+
+msgid "difficult/level_2"
+msgstr "Avancerad"
+
+msgid "difficult/level_3"
+msgstr "Brutal"
+
+msgid "difficult/new"
+msgstr "NY"
+
+msgid "difficult/searching/body"
+msgstr "Ej tillgänglig under sökning."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Fienden klenare pansar och tål mindre skada. Ger normal mängd data per strid."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Fienden har kraftigare pansar. Datamängden ökas med {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Fler fiender med kraftigare pansar. Datamängden ökas med {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Belöning för att förstöra sista vågen för första gången:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Normal svårighetsgrad"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Avancerad svårighetsgrad"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Brutal svårighet"
+
+msgid "difficult/tooltip/locked"
+msgstr "Svårighetsgrad låst"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Slutför Normal svårighetsgrad för att låsa upp den här svårighetsgraden."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Slutför Avancerad svårighetsgrad för att låsa upp den här svårighetsgraden."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Svårighetsgrad tillgänglig"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Vald svårighetsgrad"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Förstörda vågor: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "NORMAL"
+
+msgid "difficult/uppercase/level_2"
+msgstr "AVANCERAD"
+
+msgid "difficult/uppercase/level_3"
+msgstr "BRUTAL"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Fienden har kraftigare pansar. Mer krediter och {{modifier}}× data per strid."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Fler fiender med kraftigare pansar. Mer krediter och {{modifier}}× data per strid."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Kämpa mot vågor av fiender och visa vad du går för genom att nå toppen av tabellen. Du har unika belöningar och mycket mer att vinna."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "AVANCERAD SVÅRIGHETSGRAD"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "SVÅRIGHETSGRAD BRUTAL"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "SISTA STRIDEN"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "AVANCERAD"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "BRUTAL"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "SISTA STRIDEN"
+
+msgid "difficultyWindow/rewards"
+msgstr "Belöningar för slutförande:"
+
+msgid "difficultyWindow/title"
+msgstr "TILLGÄNGLIG"
+
+msgid "hangar/exit"
+msgstr "LÄMNA EVENEMANGET"
+
+msgid "hangar/narration"
+msgstr "Berättelse"
+
+msgid "hangar/tooltip/about"
+msgstr "Läs mer om Sista striden: Terra nord."
+
+msgid "hangar/tooltip/narration"
+msgstr "Läs mer om evenemangets berättelse."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "TAKTISKA VERKTYG"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "STRIDSLAST"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Sista striden"
+
+msgid "iconButton/comparison/default"
+msgstr "VAGNSJÄMFÖRELSE"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Vagnsjämförelse ej tillgänglig"
+
+msgid "iconButton/preview/default"
+msgstr "Förhandsvisa vagn"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Förhandsvisning ej tillgänglig"
+
+msgid "keyCard/name"
+msgstr "KODNYCKLAR"
+
+msgid "meta/btn/decrypt"
+msgstr "DEKRYPTERA"
+
+msgid "meta/btn/skip"
+msgstr "HOPPA ÖVER"
+
+msgid "meta/btn/view"
+msgstr "VISA"
+
+msgid "meta/receive/description"
+msgstr "Samla %(keys) / %(decrypt) %(icon) \nför att avkoda den här handlingen"
+
+msgid "metaIntro/description/fight"
+msgstr "Utkämpa strider i evenemanget för att få data och slutföra delmomenten."
+
+msgid "metaIntro/description/progress"
+msgstr "Samla data för att forska fram uppgraderingar och anta större utmaningar."
+
+msgid "metaIntro/description/reward"
+msgstr "Slutför delmomenten för att få evenemangsbelöningar. Se belöningsspåren för mer information."
+
+msgid "metaIntro/header/fight"
+msgstr "Evenemangsstrider"
+
+msgid "metaIntro/header/progress"
+msgstr "Uppgraderingar"
+
+msgid "metaIntro/header/reward"
+msgstr "Unika belöningar"
+
+msgid "metaIntro/title"
+msgstr "FRAMSTEG"
+
+msgid "missionWidget/complete"
+msgstr "Uppdraget slutfört.\nKom tillbaka imorgon."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Slutför ett nytt uppdrag varje dygn för att få belöningen. Dagens uppdrag:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Dagligt uppdrag"
+
+msgid "narration/actions/voiceover"
+msgstr "Röst"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}TOPPHEMLIGT{{/}}{{titleParagraph}}{{@ class $highlightText}}SEKTOR: N-07 (Skyddsområde Aurora){{/}}{{pargraphStart}}Vår prognos stämde. Stationens observatörer noterade anomalin 11 dygn före ankomst. För första gången kunde vi se den komma.{{pargraphStart}}Under lugnet före stormen standardiserade vi tillverkningen av ATLAS-aggregaten. Nya moduler monteras snabbare och kalibreras säkrare. Vi tränade, övade formationer och inrättade reservstyrkor. Full beredskap.{{pargraphStart}}Men anomalin hade egna planer.{{pargraphStart}}Malströmmen öppnades inte i den förutspådda sektorn. Den dök upp här istället, i ett avlägset hörn i norr, långt från våra förberedda försvarsanläggningar. Varför det här området valdes är oklart. Inget i prognosen indikerade den här sektorn. Vi omgrupperar så snabbt det går, men avstånd och terräng är inte till vår fördel. En del av styrkan väntas bli avsevärt försenad.{{pargraphStart}}Varje ATLAS-aggregat vi har till förfogande är nu absolut oumbärlig.{{pargraphStart}}Vi är just nu redo för strid, men på fel ställe.{{pargraphStart}}UNDERTECKNAT: KURATOR (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Analysmemorandum 27/C FRÅGAN OM INVASIONSOMRÅDE{{/}}{{titleParagraph}}Endast intern cirkulation. Hemligstämplat.{{pargraphStart}}Jag har en fråga jag förväntas besvara, men inte kan: Varför här?{{pargraphStart}}Det här området har inget strategiskt värde för malströmmen. Det finns inget här. Ingen infrastruktur, ingen bebyggelse. Ön har bara en nedlagd militärbas. Spökvagnar kan inte korsa havet, så varför ta ett område de inte kan anfalla ifrån?{{pargraphStart}}Jag begärde ut en full rapport om basens historia. Den var kraftigt censurerad. Långa stycken saknades helt. En andra begäran besvarades med \"begränsad behörighet på order av {{@ class $highlightSecondaryText}}[HEMLIGSTÄMPLAT]{{/}}.\" Hur kan jag, forskningschefen vars rekommendationer hela försvarsområdets strategi baseras på, nekas information om området i fråga!{{pargraphStart}}Utifrån de uppgifter vi har från fältet kan jag dock dra följande slutsats: Malstömmen beter sig inte som den tidigare observerade i sektor R-22. Vi har observerat nya typer av spökvagnar vi aldrig sett förut. De fyller liknande funktion som våra understödskanonvagnar och är extremt effektiva i den här typen av terräng. Fienden har lärt sig av vår taktik och vidtagit motåtgärder. Nu måste vi anpassa oss.{{pargraphStart}}Den kanske bara behöver den är platsen. Eller kanske något under den.{{pargraphStart}}Jag har ingen aning, men det oroar mig att någon har det, men inte vill berätta.{{pargraphStart}}UNDERTECKNAT: KURATOR (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}KURATORNS PERSONLIGA DAGANTECKNINGAR{{/}}{{pargraphStart}}Jag har reviderat mina personliga hypoteser. Alla tre.{{pargraphStart}} 1. Anomalin vill förgöra oss. {{pargraphStart}} 2. Anomalin experimenterar. Den undersöker vår taktik, observerar vår respons, anpassar och lär sig.{{pargraphStart}} 3. Anomalin övar sin taktik. Varje våg är en ny övning under skarpa förhållanden.{{pargraphStart}}Alla tre hypoteser utgår ifrån att vi är målet för invasionen.{{pargraphStart}}Men tänk om vi inte är det?{{pargraphStart}}Tänk om anomalin har helt andra avsikter och vi bara råkar vara i vägen? Som en myrstack som krossas under ett vägbygge. Vägbyggarna för inte krig mot myrorna, de tänker inte ens på att de är där.{{pargraphStart}}Du kan stoppa en fiende som vill utplåna dig. Du kan förhandla med dem. Men du kan inte skrämma någon som inte ens vet att du existerar, du kan inte överlista dem. Du kan inte stoppa dem, för du finns inte ens i deras tankar.{{pargraphStart}}Jag tror vi ställer fel frågor. Vi borde inte fråga oss varför de anfaller oss, utan om de ens har märkt att vi finns.{{pargraphStart}}UNDERTECKNAT: KURATOR (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}SLUTRAPPORT{{/}}{{titleParagraph}}{{@ class $highlightText}}DELVIS OFFENTLIG{{/}}{{pargraphStart}}Kl. 03:47 kollapsade malströmmen. All aktivitet upphörde i anomalin. Sektorn är säkrad.{{pargraphStart}}Under de sista sekunderna innan kollapsen registrerade mätarna i ATLAS en energipuls som översteg alla tidigare observerade värden. Besättningarna observerade en kortlivad, under 12 sek, fysisk manifestation i mitten av anomalin. Därefter stängdes malströmmen.{{pargraphStart}}Offentligt uttalande: Incidenten är över. Området har försvarats framgångsrikt. Karantänen av sektorn är lättad.{{pargraphStart}}{{@ class $highlightText}}PERSONLIG KOMMENTAR FRÅN KURATORN (Endast för arkivet){{/}}{{pargraphStart}}Vi segrade inte. Den blev klar och avslutade.{{pargraphStart}}Det här var inte en invasion. Det var en täckmantel. Ett skydd för vad som visade sig i malströmmen precis innan den kollapsade.{{pargraphStart}}Dussintals obelisker uppenbarade sig samtidigt. Vi vet fortfarande inte vad de höll på med. ATLAS registrerade alla värden, men det kommer ta tid att analysera datan. En sak är vi nästan säkra på: anomalin genomförde någon form av process.{{pargraphStart}}Vad än det var den höll på med så måste vi förbereda för nästa anfall. Vi har nog med data nu. Våra ingenjörer tittar på informationen nu och, om jag ska vara ärlig, så har jag aldrig sett dem så uppspelta. Det verkar som att vi kan förstärka våra vagnar avsevärt med detta. Vi måste sätta igång innan malströmmen är tillbaka.{{pargraphStart}}Jag kan inte sluta tänka på en sak: om det hände här och varade under så kort til, hur många gånger har det då inte hänt förut? Där det inte finns någon ATLAS, ingen som sett det hända...{{pargraphStart}}UNDERTECKNAT: KURATOR (PROJEKT M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Vi var redo"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Varför här?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. Fel fråga"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Det är avslutat"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Slutför Normal svårighetsgrad för att komma vidare till nästa del i berättelsen."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Slutför Avancerad svårighetsgrad för att komma vidare till nästa del i berättelsen."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Slutför svårighetsgrad Brutal för att komma vidare till sista delen av berättelsen."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Nästa berättelse"
+
+msgid "preBattle/leave"
+msgstr "Lämna striden"
+
+msgid "preBattle/searching"
+msgstr "SÖKER EFTER ALLIERADE..."
+
+msgid "preBattle/tip"
+msgstr "Tar det för lång tid att hitta en enhet? Pröva att sänka svårighetsgraden."
+
+msgid "preBattle/uppercase/leave"
+msgstr "Lämna striden"
+
+msgid "promoWindow/header"
+msgstr "SPELA SISTA STRIDEN"
+
+msgid "promoWindow/subheader"
+msgstr "Upptäck ett nytt kapitel i PvE-läget Sista striden från {dateRange}.\nFörtjäna en uppsättning {cream_open}3D-tillbehör{cream_close}, experimentell utrustning och ännu mer exklusiva belöningar."
+
+msgid "questCard/allCompleted"
+msgstr "Alla dagliga uppdrag slutförda"
+
+msgid "questCard/completed"
+msgstr "Dagligt uppdrag slutfört.\nKom tillbaka imorgon."
+
+msgid "reward/rest"
+msgstr "Och ytterligare %(count)s"
+
+msgid "rewardPath/about"
+msgstr "OM UPPDRAGSMÅL"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Läs mer om evenemangets framstegsspår."
+
+msgid "rewardPath/boostTitle"
+msgstr "Snabba på dina framsteg och inhämta mer data {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Visa i affären"
+
+msgid "rewardPath/completed"
+msgstr "All data och belöningar mottagna"
+
+msgid "rewardPath/completedTitle"
+msgstr "Besök affären för unika utseendeelement"
+
+msgid "rewardPath/intro"
+msgstr "INTRODUKTION"
+
+msgid "rewardPath/introTooltip"
+msgstr "Titta på introduktionsvideon."
+
+msgid "rewardPath/progress"
+msgstr "Data inhämtad i DELMOMENT {artefactIndex}: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "FRAMSTEG"
+
+msgid "rewardPathCard/completed"
+msgstr "Slutfört"
+
+msgid "rewardPathCard/name"
+msgstr "Belöningsspår"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Evenemangspaket"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Avbryt"
+
+msgid "squad/goToAnother/message"
+msgstr "Plutonen upplöses."
+
+msgid "squad/goToAnother/submit"
+msgstr "Lämna"
+
+msgid "squad/goToAnother/title"
+msgstr "Vill du lämna Sista striden: Terra nord?"
+
+msgid "squad/leave/cancel"
+msgstr "Avbryt"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Plutonen upplöses."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Uppfattat!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Sista striden: Terra nord har avslutats"
+
+msgid "squad/leave/message"
+msgstr "Plutonen upplöses."
+
+msgid "squad/leave/submit"
+msgstr "Lämna"
+
+msgid "squad/leave/title"
+msgstr "Vill du lämna pluton för Sista striden: Terra nord?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Fortsätt"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Du är i en pluton och redo för strid."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Du kan inte lämna plutonen!"
+
+msgid "stageReward/rewards/received"
+msgstr "Övrigt mottaget:"
+
+msgid "stageReward/special/header"
+msgstr "SVÅRIGHETSGRAD BRUTAL SLUTFÖRD!"
+
+msgid "stageReward/special/subheader"
+msgstr "Specialbelöning mottagen"
+
+msgid "stageReward/stage/header"
+msgstr "BELÖNINGAR MOTTAGNA"
+
+msgid "stageReward/stage/subheader"
+msgstr "Sista striden: Delmoment {{number}} slutfört"
+
+msgid "stageReward/stageFinal/header"
+msgstr "ALLA BELÖNINGAR MOTTAGNA"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Sista striden: Sista delmomentet slutfört"

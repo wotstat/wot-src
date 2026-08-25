@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, süre: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "Normal Zorluk"
+
+msgid "info/difficult/2"
+msgstr "İleri Zorluk"
+
+msgid "info/difficult/3"
+msgstr "Vahşi Zorluk Seviyesi"
+
+msgid "info/mapName"
+msgstr "Son Direniş • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "Yeniden doğma süreleri: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "Tüm müttefik araçlar yok edildi."
+
+msgid "ls_finish/reason/10/lose"
+msgstr "Zero'yu durduramadınız."
+
+msgid "ls_finish/reason/3/lose"
+msgstr "Süre bitti."
+
+msgid "ls_finish/reason/5/lose"
+msgstr "Tüm müttefikler savaştan çıktı."
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "Çok iyi! Daha zor bir göreve hazır mısınız?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "Normal zorluktaki tüm düşmanlar ortadan kaldırıldı."
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "Olağanüstü performans! Çok az kişi bu seviyeye ulaşabiliyor."
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "Vahşi Zorluk Seviyesinde tüm düşmanlar ortadan kaldırıldı."
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "Etkileyici! Şimdi gerçek sınamaya geçme zamanı."
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "İleri zorluktaki tüm düşmanlar ortadan kaldırıldı."
+
+msgid "ribbon/ban"
+msgstr "Kabul edilemez performans: Faaliyetsizlik/firar.\nÖdül alınmadı."
+
+msgid "ribbon/banRecord"
+msgstr "Kabul edilemez performans: Faaliyetsizlik/firar.\nÖdül alınmadı. Dalga imha kaydınız güncellenmedi."
+
+msgid "ribbon/noReward"
+msgstr "Ekibiniz ilk dalgayı durdurmayı başaramadı.\nÖdül alınmadı."
+
+msgid "status/lose"
+msgstr "SAVAŞ SONA ERDİ"
+
+msgid "status/win"
+msgstr "ZAFER"
+
+msgid "subtitle/lose"
+msgstr "Taarruz durdurulamadı"
+
+msgid "subtitle/win"
+msgstr "İyi iş! Yeni veri toplandı."
+
+msgid "teamList/actions"
+msgstr "Hızlı İşlemler"
+
+msgid "teamList/teammates"
+msgstr "Müttefikler"
+
+msgid "time/record"
+msgstr "YENİ\nREKOR!"
+
+msgid "title/lose/noWaves"
+msgstr "SAVAŞ SONA ERDİ"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "%(phaseNumber)s DALGA TAMAMLANDI"
+msgstr[1] "%(phaseNumber)s DALGA TAMAMLANDI"
+msgstr[2] "%(phaseNumber)s DALGA TAMAMLANDI"
+
+msgid "title/win"
+msgstr "TÜM DALGALAR TAMAMLANDI"
+
+msgid "tooltip/ban"
+msgstr "Kabul edilemez performans: Faaliyetsizlik/firar. Kişisel dalga imha kaydınız güncellenmedi."

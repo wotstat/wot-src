@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Vahingon kärsiminen keskeyttää kestopisteiden palauttamisen.\n\nKestopisteiden palauttamisen nopeus ja palautumisen maksimimäärä perustuvat vaunun kokonaiskestopisteisiin kaikki muuttujat huomioiden."
+
+msgid "armorPatching/alt/info"
+msgstr "Ryhmäpätevyyksissä huomioidaan kaikkien miehistön jäsenten keskimääräinen koulutustaso. Sen vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Korjaussarjan käyttäminen palauttaa %(hpRecover)s vaunun {yellow_Start}kestopisteistä{yellow_End} 5 s ajan, korkeintaan 20% per taistelu. Mahdollistaa korjaussarjan käytön, vaikkei kriittistä vahinkoa olisi kärsitty."
+
+msgid "armorPatching/hudDescription"
+msgstr "Kestopisteitä palautetaan."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Täysin koulutettuna kaikille miehistön jäsenille palauttaa %(hpRecover)s vaunun {yellow_Start}kestopisteistä{yellow_End} 5 s ajan korjaussarjan käyttämisestä, korkeintaan 20% per taistelu. Mahdollistaa korjaussarjan käytön, vaikkei kriittistä vahinkoa olisi kärsitty."
+
+msgid "armorPatching/name"
+msgstr "Panssarin paikkaus"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Parantaaa vaunun naamioinnin perustasoa."
+
+msgid "brotherhood/alt/description"
+msgstr "Miehistön tehokkuusbonus parantaa miehistön jäsenen tehokkuutta taistelussa sekä kaikkien heidän kouluttamiensa pätevyyksien tehokkuutta tämä pätevyys pois lukien. Tätä parametria voi parantaa entisestään ottamalla käyttöön saman vaikutuksen antavan varusteen tai kulutustarvikkeen tai käyttämällä \"Venttiilien puhdistus\" -direktiiviä. Komentajan \"Hätätila\" -pätevyys sekä radio-operaattorin \"Rinnakkain\" ja \"Viestintäasiantuntija\" -pätevyydet voivat myös parantaa tätä parametria."
+
+msgid "brotherhood/alt/info"
+msgstr "Ryhmäpätevyyksissä huomioidaan kaikkien miehistön jäsenten keskimääräinen koulutustaso. Sen vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja se parantaa tehokkuuttaan koulutuksen edetessä."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "Koko miehistön {greenBright_Start}tehokkuusbonus{greenBright_End} on parantunut %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Kaikille miehistön jäsenille täysin koulutettuna parantaa koko miehistön {greenBright_Start}tehokkuusbonusta{greenBright_End} %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Aseveljet"
+
+msgid "brotherhood/shortDescription"
+msgstr "Parantaa miehistön yleistä suorituskykyä."
+
+msgid "camouflage/alt/description"
+msgstr "Tämä pätevyys vaikuttaa vaunun naamiointiin. Sitä voi parantaa entisestään \"Luonnollinen suoja\" -direktiivillä.\n\nLisäksi vaunun naamioitumista voi parantaa ottamalla käyttöön maastokuvion tai tyylin sekä käyttämällä varusteita, joilla on sama vaikutus."
+
+msgid "camouflage/alt/info"
+msgstr "Ryhmäpätevyyksissä huomioidaan kaikkien miehistön jäsenten keskimääräinen koulutustaso. Sen vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja se parantaa tehokkuuttaan koulutuksen edetessä."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "Vaunun {greenBright_Start}naamioituminen{greenBright_End} on parantunut %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Täysin koulutettuna kaikilla miehistön jäsenillä parantaa vaunun {greenBright_Start}naamioitumista{greenBright_End} %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Naamiointi"
+
+msgid "camouflage/shortDescription"
+msgstr "Parantaaa vaunun naamioinnin perustasoa."
+
+msgid "commander_coordination/alt/description"
+msgstr "Vaikutus aktivoituu joka kerta, kun vihollisvaunu havaitaan, eikä kasaudu, kun useita vaunuja havaitaan.\n\nTähtäysnopeutta voi parantaa entisestään kouluttamalla ampujan \"Vikkelä tähtäys\" -pätevyyden tai käyttämällä varusteita, jolla on sama vaikutus."
+
+msgid "commander_coordination/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "{yellow_Start}Tähtäysnopeus{yellow_End} paranee %(vehicleGunAimSpeed)s 15 sekunnin ajaksi, kun havaitset vihollisvaunun."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Tähtäysnopeus on parantunut."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Täysin koulutettuna parantaa {yellow_Start}tähtäysnopeutta{yellow_End} %(vehicleGunAimSpeed)s 15 s ajan havaittuasi vihollisvaunun.\t"
+
+msgid "commander_coordination/name"
+msgstr "Koordinaatio"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Tähtäysnopeus on parantunut."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Näkökykyä voi parantaa entisestään kouluttamalla radio-operaattorin \"Tilannetietoisuus\" -pätevyyttä tai käyttämällä varusteita, joilla on sama vaikutus. \"Optinen kalibrointi\" -direktiivi parantaa vaikutusta."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}Näköetäisyys{greenBright_End} paranee %(circularVisionRadius)s&zwnbsp;.{greenBright_Start}Haitta vahingoittuneista näkölaitteista{greenBright_End} pienenee %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Haitta vahingoittuneista näkölaitteista on pienentynyt."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Täysin koulutettuna parantaa {greenBright_Start}näköetäisyyttä{greenBright_End} %(circularVisionRadius)s&zwnbsp; ja pienentää {greenBright_Start}vahingoittuneista näkölaitteista tulevaa rangaistusta{greenBright_End} %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Tiedustelija"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Parantaa näkökykyä – erityisen tehokkaasti, jos tarkkailulaitteet ovat vahingoittuneet."
+
+msgid "commander_emergency/alt/description"
+msgstr "Vaikutus ei kasaudu kärsittäessä vahinkoa viholliselta toistuvasti. Miehistön tehokkuusbonus parantaa miehistön jäsenen tehokkuutta taistelussa. Tätä parametria voi parantaa entisestään käyttämällä varustetta tai kulutustarviketta, jolla on sama vaikutus tai käyttämällä \"Venttiilien puhdistus\" -direktiiviä. \"Aseveljet\" -ryhmäpätevyys sekä radio-operaattorin \"Rinnakkain\" ja \"Viestintäasiantuntija\" -pätevyydet voivat myös parantaa tätä parametria."
+
+msgid "commander_emergency/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "{yellow_Start}Miehistön tehokkuusbonus{yellow_End} paranee %(crewLevelIncrease)s 15 s ajaksi vihollisen aiheuttaessa vahinkoa."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Miehistön tehokkuusbonus on parantunut."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Täysin koulutettuna parantaa {yellow_Start}miehistön tehokkuusbonusta{yellow_End} %(crewLevelIncrease)s 15 s ajaksi vihollisen aiheuttaessa vahinkoa."
+
+msgid "commander_emergency/name"
+msgstr "Hätätila"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Miehistön tehokkuusbonus on parantunut."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Varoitus vihollisen telatykin tulituksesta aktivoituu pienellä viiveellä ampumisen hetkestä.\n\nPätevyyttä voi parantaa \"Korkeampi valppaus\" -direktiivillä."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "{yellow_Start}Varoitus vihollisen telatykin tulituksesta{yellow_End} ja laukauksen suunnasta annetaan %(artNotificationDelayFactor)s viiveellä. {greenBright_Start}Lamautumisen negatiivinen vaikutus{greenBright_End} vähenee %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Täysin koulutettuna antaa {yellow_Start}varoituksen vihollisen telatykin tulesta{yellow_End} %(artNotificationDelayFactor)s viiveellä ja määrittää laukauksen suunnan. Pienentää {greenBright_Start}lamautumisen negatiivista vaikutusta{greenBright_End} %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Äänipeilaus"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Osoittaa vihollisen telatykin laukauksen."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Miehistön tehokkuusbonus parantaa miehistön jäsenten tehokkuutta taistelussa.\n\nTätä parametria voi parantaa entisestään ottamalla käyttöön saman vaikutuksen antavan varusteen tai kulutustarvikkeen tai käyttämällä \"Venttiilien puhdistus\" -direktiiviä. Useat muut miehistöpätevyydet voivat myös parantaa tätä parametriä."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "{yellow_Start}Miehistön tehokkuusbonus{yellow_End} paranee %(crewLevelIncrease)s, kun vihollisjoukkueella on vähintään kolme vaunua enemmän taistelussa kuin sinun joukkueellasi&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Miehistön tehokkuusbonus paranee (vihollisen ylivoima)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Täysin koulutettuna parantaa {yellow_Start}miehistön tehokkuusbonusta{yellow_End} %(crewLevelIncrease)s, kun vihollisjoukkueella on vähintään kolme vaunua enemmän taistelussa kuin sinun joukkueellasi&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Pidä linja"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Parantaa miehistön tehokkuusbonusta"
+
+msgid "commander_practical/alt/description"
+msgstr "Pätevyys toimii kaiken tyyppisille vaunuusi asennetuille kulutustarvikkeille.\n\nSen tehokkuutta voi parantaa entisestään \"Perinpohjainen valmistautuminen\" -direktiivillä."
+
+msgid "commander_practical/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}Kulutustarvikkeen jäähtymisaika{greenBright_End} lyhenee %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Täysin koulutettuna lyhentää {greenBright_Start}kulutustarvikkeiden jäähtymisaikaa{greenBright_End} %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Käytännöllisyys"
+
+msgid "commander_practical/shortDescription"
+msgstr "Lyhentää kulutustarvikkeiden jäähtymisaikaa."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "\"Kuudes aisti\" ei ole käytössä, jos komentaja on loukkaantunut. Sen aktivoitumisaikaa voi lyhentää radistin \"Signaalikaappaus\" -pätevyydellä."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Se on erityinen komentajan ominaisuus, joka ei vaadi koulutusta ja on saatavilla komentajalle oletusarvoisesti."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Antaa komentajalle kyvyn tunnistaa onko vaunu vihollisen havaitsema. Aktivoituu %(delay)s sen jälkeen, kun vaunusi on havaittu."
+
+msgid "commander_sixthSense/name"
+msgstr "Kuudes aisti"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Antaa komentajalle kyvyn tunnistaa havaitseeko vihollinen heidän vaunuaan."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Miehistön tehokkuusbonus parantaa miehistön jäsenten tehokkuutta taistelussa.\n\nTätä parametria voi parantaa entisestään ottamalla käyttöön saman vaikutuksen antavan varusteen tai kulutustarvikkeen tai käyttämällä \"Venttiilien puhdistus\" -direktiiviä. Useat muut miehistöpätevyydet voivat myös parantaa tätä parametriä."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "{yellow_Start}Miehistön tehokkuusbonus{yellow_End} paranee %(crewLevelIncrease)s 15&nbsp;s ajan ensiapupakkauksen käyttämisestä. Mahdollistaa ensiapupakkauksen käytön, vaikka yksikään miehistön jäsen ei olisi loukkaantunut&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Miehistön tehokkuusbonus paranee (ensiapupakkaus käytettiin)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Täysin koulutettuna parantaa {yellow_Start}miehistön tehokkuusbonusta{yellow_End} %(crewLevelIncrease)s 15 s ajan ensiapupakkauksen käyttämisestä. Mahdollistaa ensiapupakkauksen käytön, vaikka yksikään miehistön jäsen ei olisi loukkaantunut&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Pysy terävänä"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Parantaa miehistön tehokkuusbonusta"
+
+msgid "commander_tutor/alt/description"
+msgstr "Haavoittunut komentaja ei voi korvata toista miehistön jäsentä. Bonus kohdentuu vain taistelussa ansaitun miehistökokemusken tavanomaiseen määrään.\n\nEnemmän miehistökokemusta voi saada käyttämällä miehistökirjoja tai muuntamalla vapaata kokemusta miehistökokemukseksi."
+
+msgid "commander_tutor/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Ansaitun {greenBright_Start}kokemuksen{greenBright_End} määrä kasvaa %(xpBonusFactorPerLevel)s kaikille miehistön jäsenille. Komentaja voi {greenBright_Start}korvata loukkaantuneet miehistön jäsenet{greenBright_End} %(woundedCrewEfficiency)s tehokkuudella."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Komentaja on korvannut loukkaantuneen miehistön jäsenen."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Täysin koulutettuna kasvattaa ansaitun {greenBright_Start}kokemuksen{greenBright_End} määrä %(xpBonusFactorPerLevel)s kaikille miehistön jäsenille. Antaa komentajalle kyvyn {greenBright_Start}korvata loukkaantuneet miehistön jäsenet{greenBright_End} %(woundedCrewEfficiency)s tehokkuudella."
+
+msgid "commander_tutor/name"
+msgstr "Kouluttaja"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Komentaja on korvannut loukkaantuneen miehistön jäsenen."
+
+msgid "commander_universalist/alt/description"
+msgstr "Komentaja voi korvata toimintakyvyttömän miehistön jäsenen päätaidon. Korvauksen tehokkuus heikkenee jokaisen toimintakyvyttömän miehistön jäsenen myötä."
+
+msgid "commander_universalist/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1%. Sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Komentaja voi {greenBright_Start}korvata tyrmätyt{greenBright_End} miehistön jäsenet %(woundedCrewEfficiency)s tehokkuudella."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Komentaja hoitaa toimintakyvyttömän miehistön jäsenen roolin."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Täysin koulutettuna antaa komentajalle kyvyn {greenBright_Start}korvata tyrmätyt{greenBright_End} miehistön jäsenet %(woundedCrewEfficiency)s tehokkuudella."
+
+msgid "commander_universalist/name"
+msgstr "Jokapaikanhöylä"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Antaa komentajalle kyvyn korvata tyrmätyt miehistön jäsenet."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Pienentää vaunun ohjattavuuteen ja kiihtyvyyteen keskipehmeässä maastossa ajamisesta tulevaa haittaa. Pienentää tätä haittaa merkittävästi pehmeässä maastossa ajettaessa tuoden ne samalle tasolle keskipehmeän maaston kanssa.\nOhjattavuus keskipehmeässä ja pehmeässä maastossa ei voi olla parempi kuin kovassa maastossa."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}Nopeuden menetys keskipehmeässä maastossa{greenBright_End} pienenee %(mediumGroundFactor)s&zwnbsp;, {greenBright_Start}nopeuden menetys pehmeässä maastossa{greenBright_End} pienee %(softGroundFactor)s keskipehmeän maaston arvosta."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Täysin koulutettuna pienentää {greenBright_Start}nopeuden menetystä keskipehmeässä maastossa{greenBright_End} %(mediumGroundFactor)s&zwnbsp;,{greenBright_Start}nopeuden menetys pehmeässä maastossa{greenBright_End} pienee %(softGroundFactor)s keskipehmeän maaston arvosta."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Maastoajo"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Miehistön tehokkuusbonus parantaa miehistön jäsenten tehokkuutta taistelussa.\n\nTätä parametria voi parantaa entisestään ottamalla käyttöön saman vaikutuksen antavan varusteen tai kulutustarvikkeen tai käyttämällä \"Venttiilien puhdistus\" -direktiiviä. Useat muut miehistöpätevyydet voivat myös parantaa tätä parametriä."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "{yellow_Start}Miehistön tehokkuusbonus{yellow_End} paranee %(crewLevelIncrease)s, jos torjumasi vahingon määrä ylittää vaunusi alkuperäisten kestopisteiden määrän."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Miehistön tehokkuusbonus on parantunut (riittävästi vahinkoa on torjuttu)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Täysin koulutettuna parantaa {yellow_Start}miehistön tehokkuusbonusta{yellow_End} %(crewLevelIncrease)s, jos torjumasi vahingon määrä ylittää vaunusi alkuperäisten kestopisteiden määrän."
+
+msgid "driver_bulletproof/name"
+msgstr "Luodinkestävä"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Vaunusi huippunopeutta voi entisestään parantaa ja vahingoittuneen moottorin aiheuttamaa haittaa pienentää ottamalla käyttöön varusteita, joilla on samankaltainen vaikutus."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "Vaunusi {greenBright_Start}huippunopeus eteenpäin{greenBright_End} ja {greenBright_Start}huippunopeus peruuttaessa{greenBright_End} kasvavat %(vehicleForwardMaxSpeed)s. {greenBright_Start}Vahingoittuneen moottorin haitta{greenBright_End} pienenee %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Vahingoittuneen moottorin haitta on pienentynyt."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Täysin koulutettuna kasvattaa vaunusi {greenBright_Start}huippunopeutta eteenpäin{greenBright_End} ja {greenBright_Start}huippunopeutta peruuttaessa{greenBright_End} %(vehicleForwardMaxSpeed)s. Pienentää {greenBright_Start}vahingoittuneen moottorin haitta{greenBright_End} %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Insinööri"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Vahingoittuneen moottorin haitta on pienentynyt."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Pätevyys ei toimi kahden liittolaisvaunun törmätessä.\n\nVaunusi kärsimää törmäysvahinkoa voidaan entisestään vähentää asentamalla samanlaisen vaikutuksen antavia varusteita."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}Törmäysvahinko vihollisvaunuihin{greenBright_End} kasvaa %(damageEnemiesByRamming)s&zwnbsp;. {greenBright_Start}Törmäysvahinko omaan vaunuusi{greenBright_End} pienenee %(vehicleRamDamageResistance)s&zwnbsp; ja vahinko {greenBright_Start}telakoneistoosi{greenBright_End} %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Täysin koulutettuna kasvattaa {greenBright_Start}törmäysvahinkoa vihollisvaunuihin{greenBright_End} %(damageEnemiesByRamming)s&zwnbsp;. {greenBright_Start}Pienentää törmäysvahinkoa omaan vaunuusi{greenBright_End} %(vehicleRamDamageResistance)s&zwnbsp; ja{greenBright_Start}telakoneistoosi{greenBright_End} %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Hallittu törmäys"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Vähentää oman vaunun ja kasvattaa vihollisvaunujen kärsimää törmäysvahinkoa."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Sirpalekranaateista saatua vahinkoa voi pienentää entisestään käyttämällä varustetta, jolla on samankaltainen vaikutus."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}Sirpalekranaattien vahingon sietäminen{greenBright_End} paranee %(vehicleHEShellDamageResistance)s&zwnbsp;.&nbsp;{greenBright_Start}Moottorin tulipalon mahdollisuus{greenBright_End} pienenee %(vehicleFireChance)s ja {greenBright_Start}telakoneistosi kärsimää vahinko{greenBright_End} %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Täysin koulutettuna parantaa {greenBright_Start}sirpalekranaattien vahingon sietämistä{greenBright_End} %(vehicleHEShellDamageResistance)s&zwnbsp;. Pienentää {greenBright_Start}moottorin tulipalon mahdollisuutta{greenBright_End} %(vehicleFireChance)s ja {greenBright_Start}telakoneistosi kärsimää vahinkoa{greenBright_End} %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Luotettava sijoittelu"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Ei vaikuta paikallaan olevan vaunun tarkkuuteen tai tarkkuuteen runkoa käännettäessä.\n\nPätevyyttä voi parantaa käyttämällä \"Vaihdelaatikon salat\" -direktiiviä. Tarkkuutta liikkeestä ammuttaessa voidaan parantaa entisestään käyttämällä varustetta, joka vaikuttaa samoin tavoin, tai käyttämällä \"Vakaajan rasvaus\" -direktiiviä."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "{greenBright_Start}Tykin hajonta{greenBright_End} liikkeestä ammuttaessa pienenee %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Täysin koulutettuna pienentää {greenBright_Start}tykin hajontaa{greenBright_End} liikkeestä ammuttaessa %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Pehmeä ajo"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Parantaa tykin tarkkuutta liikkeessä."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Tämä pätevyys vaikuttaa telakoneiston korjausnopeuteen punaisesta tilasta keltaiseen tilaan liittolaisvaunun ollessa 50 säteellä."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "{yellow_Start}Telakoneiston korjausnopeus{yellow_End} paranee %(suspensionRepairSpeed)s etäisyyden liittolaisvaunuun ollessa korkeintaan 50 m."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Telakoneiston korjausnopeus parantunut (liittolainen on lähellä)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Täysin koulutettuna parantaa {yellow_Start}telakoneiston korjausnopeutta{yellow_End} %(suspensionRepairSpeed)s etäisyyden liittolaisvaunuun ollessa korkeintaan 50 m."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Kenttätuki"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Vaunun tulen kestävyyttä voidaan parantaa entisestään käyttämällä varusteita ja kulutustarvikkeita, jotka vaikuttavat samoin. \"Tulentorjunta\" -pätevyys nopeuttaa tulipalon sammuttamista, mikäli sellainen syttyy."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1%. Sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "%(vehicleFireChance)s pienentynyt {greenBright_Start}moottorin syttymisen todennäköisyys{greenBright_End}&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Täysin koulutettuna pienentää {greenBright_Start}moottorin syttymisen todennäköisyyttä{greenBright_End} %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Ennakkoiva huolto"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Pienentää moottorin syttymisen todennäköisyyttä."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Rungon kääntönopeutta voi parantaa entisestään käyttämällä varusteita tai kulutustarvikkeita, joilla on sama vaikutus."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}Rungon kääntönopeus{greenBright_End} on parantunut %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Täysin koulutettuna parantaa {greenBright_Start}rungon kääntönopeutta{greenBright_End} %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Kytkinjarrutus"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Parantaa rungon kääntönopeutta."
+
+msgid "fireFighting/alt/description"
+msgstr "Tämä pätevyys vaikuttaa tulipalosta saatuun vahinkoon ja sen kestoon.\n\nJos kahdella radio-operaattorilla on tämä pätevyys, käytetään sen koulutustasojen keskiarvoa.\n\nPätevyyttä voi parantaa \"Kokeneet tulentorjujat\" -direktiivillä."
+
+msgid "fireFighting/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}Tulipalon sammutusnopeus{greenBright_End} on parantunut %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Täysin koulutettua parantaa {greenBright_Start}tulipalon sammutusnopeutta{greenBright_End} %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Tulentorjunta"
+
+msgid "fireFighting/shortDescription"
+msgstr "Parantaa kykyä sammuttaa ja estää tulipaloja."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Oletuksena mahdollisen vahingon ja läpäisyn jakauma on ±25% perusarvoista. Jos ammus esimerkiksi läpäisee panssaria 100 mm ja aiheuttaa 100 pistettä vahinkoa osuessaan kohteeseen, tosiasiassa yksittäisen laukauksen läpäisy voi vaihdella 75–125 mm välillä ja todellinen vahinko 75–125 pisteen välillä. Tämän muuttujan pienentäminen antaa ennustettavampia lopputuloksia.\n\nJos kahdella ampujalla on tämä pätevyys, käytetään sen koulutustasojen keskiarvoa."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "{greenBright_Start}Mahdollisen vahingon{greenBright_End} ja {greenBright_Start}mahdollisen läpäisyn{greenBright_End} jakaumat kapenevat {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. {greenBright_Start}Tykin hajonta{greenBright_End} pienenee %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Täysin koulutettuna kaventaa {greenBright_Start}mahdollisen vahingon{greenBright_End} ja {greenBright_Start}mahdollisen läpäisyn{greenBright_End} jakaumia {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. Pienentää {greenBright_Start}tykin hajontaa{greenBright_End} %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Aseseppä"
+
+msgid "gunner_focus/alt/description"
+msgstr "Vaikutus alkaa 3 s kuluttua vaunun pysähtymisestä ja nollautuu liikuttaessa.\n\nJos kahdella ampujalla on tämä pätevyys, käytetään sen koulutustasojen keskiarvoa."
+
+msgid "gunner_focus/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "Paikallaan olevan vaunun {yellow_Start}tykin hajonta{yellow_End} pienenee %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Tykin hajonta on pienentynyt."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Täysin koulutettuna pienentää paikallaan olevan vaunun {yellow_Start}tykin hajontaa{yellow_End} %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Keskittyminen"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Pienentää paikallaan olevan vaunun tykin hajontaa."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Tykin hajontaa ja tähtäysnopeutta voi parantaa entisestään kouluttamalla miehistöpätevyyksiä tai ottamalla käyttöön varusteita, joilla on samankaltainen vaikutus.\n\nMikäli kahdella ampujalla on tämä pätevyys, käytetään sen koulutustasojen keskiarvoa."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "{yellow_Start}Tykin hajonta{yellow_End} pienenee %(vehicleGunAimSpeed)s ja {yellow_Start}tähtäysnopeus{yellow_End} paranee %(vehicleGunAimSpeed)s, kun liittolaisvaunuja ei ole 300 m säteellä."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Tykin hajonta ja tähtäysnopeus ovat parantuneet (ei liittolaisia lähellä)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Täysin koulutettuna pienentää {yellow_Start}tykin hajontaa{yellow_End} ja parantaa {yellow_Start}tähtäysnopeutta{yellow_End} %(vehicleGunAimSpeed)s, kun liittolaisvaunuja ei ole 300 m säteellä."
+
+msgid "gunner_loneWolf/name"
+msgstr "Yksinäinen susi"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Tykin hajonta on pienentynyt. Tähtäysnopeus on parantunut."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Oletuksena potentiaalinen maksimiläpäisy on +25% perusarvosta. Jos ammus esimerkiksi läpäisee panssaria 100 mm osuessaan kohteeseen, suurin mahdollinen läpäisyarvo tälle laukaukselle voi olla 125 mm. Tämän muuttujan kasvattaminen johtaa tehokkaampiin läpäisytuloksiin.\n\nMikäli kahdella ampujalla on tämä pätevyys, käytetään sen koulutustasojen keskiarvoa."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "Ammustesi {yellow_Start}suurin mahdollinen läpäisy{yellow_End} kasvaa %(piercingHEShellsDistributionUpperBound)s ampuessasi korkeintaan 50 m päässä olevia vihollisvaunuja."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Täysin koulutettuna kasvattaa {yellow_Start}suurinta mahdollista läpäisyä{yellow_End} %(piercingHEShellsDistributionUpperBound)s ampuessasi korkeintaan 50 m päässä olevia vihollisvaunuja."
+
+msgid "gunner_pointBlast/name"
+msgstr "Lähietäisyys"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Parantaa ammustesi suurinta mahdollista läpäisyä"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Jos kahdella ampujalla on tämä pätevyys, käytetään sen koulutustasojen keskiarvoa.\n\nTähtäysnopeutta voi entisestään parantaa kouluttamalla komentajan \"Koordinaatio\" -pätevyyden tai käyttämällä varusteita, joilla on samankaltainen vaikutus.\n\nTornin kääntönopeutta voi parantaa entisestään käyttämällä varusteita tai kulutustarvikkeita, joilla on samankaltainen vaikutus."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}Tähtäysnopeus{greenBright_End} ja {greenBright_Start}tornin kääntönopeus{greenBright_End} paranevat %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Täysin koulutettuna parantaa {greenBright_Start}tähtäysnopeutta{greenBright_End} ja {greenBright_Start}tornin kääntönopeutta{greenBright_End} %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Vikkelä tähtäys"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Tähtäysnopeus on parantunut."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Tunnistaa ampujan näkökentässä kohteena olevien vaunujen kriittisesti vahingoittuneet moduulit sekä suoraa että epäsuoraa tulta ammuttaessa.\nAmpujan näkökentäksi määritetään ±10° sektori (yhteensä 20°) vaunun tykin edessä ja sen näköetäisyydellä.\nJos kahdella ampujalla on tämä pätevyys, käytetään sen koulutustasojen keskiarvoa.\nPätevyyttä voi entisestään parantaa \"Kohteeseen keskittyminen\" -direktiivillä. Parannellun radiolaitteiston käyttäminen pidentää entisestään aikaa, jonka puitteissa vihollisvaunu pysyy näkyvissä."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "{greenBright_Start}Aika{greenBright_End}, jonka jälkeen ampujan näkökentässä oleva {greenBright_Start}vihollisvaunu katoaa näkyvistä{greenBright_End} pitenee %(vehicleEnemySpottingTime)s. Aika {yellow_Start}vahingoittuneiden moduulien tunnistamiseen{yellow_End} lyhenee ja on %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Täysin koulutettuna pidentää {greenBright_Start}aikaa{greenBright_End}, jonka jälkeen ampujan näkökentässä oleva {greenBright_Start}vihollisvaunu katoaa näkyvistä{greenBright_End} %(vehicleEnemySpottingTime)s. Mahdollistaa {yellow_Start}vahingoittuneiden moduulien tunnistamisen{yellow_End} %(damageMonitoringDelay)s viiveellä."
+
+msgid "gunner_rancorous/name"
+msgstr "Merkitty kohde"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Pidentää aikaa, jonka jälkeen ampujan näkökentässä oleva vihollisvaunu katoaa näkyvistä. Mahdollistaa vahingoittuneiden moduulien tunnistamisen."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Jos kahdella ampujalla on tämä pätevyys, käytetään niiden koulutustasojen keskiarvoa.\n\nPätevyyttä voi parantaa \"Vakaa käsi\" -direktiivillä. Hajontaa tornia käännettäessä voi pienentää entisestään käyttämällä varustetta, jolla on samankaltainen vaikutus tai \"Vakaajan rasvaus\" -direktiiviä."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "{greenBright_Start}Tykin hajonta{greenBright_End} tornin liikkuessa pienenee %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Täysin koulutettuna pienentää {greenBright_Start}tykin hajontaa{greenBright_End} tornia käännettäessä %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Vakaa tykkitorni"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Pienentää tykin hajontaa tornia käännettäessä."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Vaikuttaa kaiken tyyppisillä ammuksilla pois lukien vaunut, joilla on konetykit.\n\nJos kahdella ampujalla on tämä pätevyys, käytetään sen koulutustasojen keskiarvoa."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "{greenBright_Start}Mahdollisuus vahingoittaa kriittisesti{greenBright_End} {greenBright_Start}vihollisvaunun moduuleja{greenBright_End} ja haavoittaa vihollisen {greenBright_Start}miehistön jäseniä{greenBright_End} kaiken tyyppisillä ammuksilla kasvaa %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Täysin koulutettuna kasvattaa {greenBright_Start}mahdollisuutta vahingoittaa kriittisesti{greenBright_End} {greenBright_Start}vihollisvaunun moduuleja{greenBright_End} ja haavoittaa vihollisen {greenBright_Start}miehistön jäseniä{greenBright_End} kaiken tyyppisillä ammuksilla %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Napakymppi"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Oletuksena pienin vahinko ja läpäisy on -25% perusarvoista. Jos ammus esimerkiksi läpäisee panssaria 100 mm ja aiheuttaa 100 pistettä vahinkoa osuessaan kohteeseen, pienin yksittäisen laukauksen läpäisyn arvo voi olla 75 mm välillä ja pienin vahinko 75 pistettä. Tämän muuttujan kasvattaminen johtaa tehokkaampaan ampumiseen.\n\nJos kahdella lataajalla on tämä pätevyys, käytetään sen koulutustasojen keskiarvoa."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "{greenBright_Start}Pienin mahdollinen vahinko{greenBright_End} ja {greenBright_Start}pienin mahdollinen läpäisy{greenBright_End} paranevat %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Täysin koulutettuna parantaa {greenBright_Start}pienintä mahdollista vahinkoa{greenBright_End} ja {greenBright_Start}pienintä mahdollista läpäisyä{greenBright_End} %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Ammusten viritys"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Parantaa keskimääräistä vahinkoa ja läpäisyä."
+
+msgid "loader_desperado/alt/description"
+msgstr "Jos kahdella lataajalla on tämä pätevyys, käytetään sen koulutustasojen keskiarvoa.\n\nTykin latausaikaa voi entisestään lyhentää kouluttamalla lataajan \"Lähitaistelu\" -pätevyyden tai käyttämällä varustetta, jolla on samankaltainen vaikutus. \"Järjestelmällinen ammusteline\" -direktiivi parantaa vaikutusta."
+
+msgid "loader_desperado/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "{yellow_Start}Tykin latausaika{yellow_End} lyhenee %(vehicleGunReloadTime)s, jos vaunullasi on alle 25% kestopisteistään jäljellä."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Tykin latausaika on lyhentynyt. (vaunu on vähissä kestopisteissä)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Täysin koulutettuna lyhentää {yellow_Start}tykin latausaikaa{yellow_End} %(vehicleGunReloadTime)s, jos vaunulla on jäljellä alle 25% sen kestopisteistä."
+
+msgid "loader_desperado/name"
+msgstr "Epätoivoinen"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Nopeuttaa tykin latausta, mikäli vaunulla on alle 25% kestopisteistään jäljellä."
+
+msgid "loader_intuition/alt/description"
+msgstr "Pätevyyden aktivoitumiseksi tykin, molempien tykkien tai lippaan tulee olla täysin ladattu. Miniaika ammustyyppien vaihtamiselle on tavallisille tykeille 1 s, kaksipiippuisille ja lippaallisille tykeille 2,5 s.\n\nJos kahdella lataajalla on tämä pätevyys, käytetään sen koulutustasojen keskiarvoa."
+
+msgid "loader_intuition/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "Ladatun tykin {greenBright_Start}ammustyyppien vaihtamiseen kuluva aika{greenBright_End} lyhenee %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Ladatun tykin ammustyyppien vaihtamiseen kuluva aika on lyhentynyt.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Täysin koulutettuna lyhentää {greenBright_Start}ammustyyppien vaihtamiseen kuluvaa aikaa{greenBright_End} ladatuilla tykeillä %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Aavistus"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Nopeuttaa merkittävästi ammustyyppien vaihtamista ladatulla tykillä."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Tämä pätevyys lyhentää latausaikaa vain lipasta käyttäville tykeille eikä se vaikuta muihin tykkijärjestelmiin.\n\nMikäli kahdella lataajalla on tämä pätevyys, käytetään sen koulutustasojen keskiarvoa."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "Lippaan {greenBright_Start}latausaika{greenBright_End} lyhenee %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Täysin koulutettuna lyhentää lippaan {greenBright_Start}latausaikaa{greenBright_End} %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "Lippaan taito"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Lyhentää lippaidesi latausaikaa"
+
+msgid "loader_melee/alt/description"
+msgstr "Jos kahdella lataajalla on tämä pätevyys, käytetään sen koulutustasojen keskiarvoa.\n\nTykin latausaikaa voi entisestään lyhentää kouluttamalla lataajan \"Epätoivoinen\" -pätevyyden tai käyttämällä varustetta, jolla on samankaltainen vaikutus. \"Järjestelmällinen ammusteline\" -direktiivi parantaa vaikutusta."
+
+msgid "loader_melee/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "{yellow_Start}Tykin latausaika{yellow_End} lyhenee %(vehicleGunReloadTime)s, kun etäisyys vihollisvaunusta on alle 50 m."
+
+msgid "loader_melee/hudDescription"
+msgstr "Tykin latausaika on lyhentynyt (vihollinen on lähellä).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Täysin koulutettuna lyhentää {yellow_Start}tykin latausaikaa{yellow_End} %(vehicleGunReloadTime)s, kun vihollisvaunu on alle 50 m päässä vihollisesta."
+
+msgid "loader_melee/name"
+msgstr "Lähitaistelu"
+
+msgid "loader_melee/shortDescription"
+msgstr "Nopeuttaa tykin lataamista lähitaistelussa."
+
+msgid "loader_pedant/alt/description"
+msgstr "Haavoittunut lataaja ei vaikuta pätevyyden tehokkuuteen.\n\n Jos kahdella lataajalla on pätevyys, käytetään koulutustasojen keskiarvoa.\n\nPätevyyttä voi parantaa käyttämällä \"Ammusten järjestelijä\" -direktiiviä. Ammustelineen kestävyyttä voi parantaa entisestään käyttämällä varusteita, joilla on sama vaikutus."
+
+msgid "loader_pedant/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}Ammustelineen kestävyys{greenBright_End} paranee %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Täysin koulutettuna parantaa {greenBright_Start}ammustelineen kestävyyttä{greenBright_End} %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Varma säilö"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Parantaa ammustelineen kestävyyttä."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Toimii kaikilla ammustyypeillä.\n\nLataajan loukkaantuminen ei vaikuta pätevyyden tehoon.\n\nJos kahdella lataajalla on tämä pätevyys, käytetään koulutustasojen keskiarvoa."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}Ammuksen lentonopeus{greenBright_End} kasvaa %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Täysin koulutettuna kasvattaa {greenBright_Start}ammuksen lentonopeutta{greenBright_End} %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Täydellinen panos"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Tällä pätevyydellä ei ole vaikutusta lippaallisiin tai konetykkeihin eikä sitä lasketa kaksoistykkien päälle.\n\nTykeillä, joilla on valittava latausjärjestelmä, jos molemmilla piipuilla ammutaan eikä kumpikaan aiheuta vahinkoa, tykin latausajan lyhennys koskee molempia piippuja. \n\nMikäli kahdella lataajalla on tämä pätevyys, käytetään sen koulutustasojen keskiarvoa.\n\nTykin latausaikaa voi lyhentää entisestään kouluttamalla lataajalle \"Epätoivoinen\" tai \"Lähitaistelu\" -pätevyydet tai ottamalla käyttöön varusteita, joilla on samankaltainen vaikutus. \"Järjestelmällinen ammusteline\" -direktiivin käyttö parantaa vaikutusta."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "{yellow_Start}Tykin latausaika{yellow_End} lyhenee %(vehicleGunReloadTime)s seuraavalle ammukselle, mikäli edellinen laukaus ei aiheuttanut vahinkoa vihollisvaunulle."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Tykin latausaika on lyhentynyt (ohi ammuttu laukaus)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Täysin koulutettuna lyhentää {yellow_Start}tykin latausaikaa{yellow_End} %(vehicleGunReloadTime)s seuraavalle ammukselle, mikäli edellinen laukaus ei aiheuttanut vahinkoa vihollisvaunulle."
+
+msgid "loader_secondChance/name"
+msgstr "Toinen mahdollisuus"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Lyhentää tykin latausaikaa "
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/t"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Taistelutoverit"
+
+msgid "perkRole/commander"
+msgstr "Komentaja"
+
+msgid "perkRole/common"
+msgstr "Ryhmä"
+
+msgid "perkRole/driver"
+msgstr "Ajaja"
+
+msgid "perkRole/gunner"
+msgstr "Ampuja"
+
+msgid "perkRole/loader"
+msgstr "Lataaja"
+
+msgid "perkRole/radioman"
+msgstr "Radisti"
+
+msgid "popularity/tooltip/common"
+msgstr "kaikki pelaajat"
+
+msgid "popularity/tooltip/header"
+msgstr "Tälle vaunulle. Suosijat:"
+
+msgid "popularity/tooltip/legendary"
+msgstr "WTR-legendatason pelaajat"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Mikäli kahdella radistilla on tämä pätevyys, käytetään sen koulutustasojen keskiarvoa.\n\nVaikutusta voi parantaa entisestään komentajan \"Äänipeilaus\" -pätevyydellä."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Joka kerta, kun vaunun miehistö lamautuu, {greenBright_Start}lamautuksen negatiivinen vaikutus{greenBright_End} pienenee %(stunResistanceEffectFactor)s; vaikutus on korkeintaan 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Täysin koulutettuna pienentää vaunun miehistö lamautuessa {greenBright_Start}lamautuksen negatiivista vaikutusta{greenBright_End} %(stunResistanceEffectFactor)s&nbsp;; vaikutus on korkeintaan 30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Taistelun karaisema"
+
+msgid "radioman_expert/alt/description"
+msgstr "Miehistön tehokkuusbonus parantaa tämän miehistön jäsenen tehokkuutta taistelussa. Jos kahdella radio-operaattorilla on tämä pätevyys, käytetään koulutustasojen keskiarvoa. Tätä parametria voi parantaa entisestään käyttämällä varustetta tai kulutustarviketta, jolla on samankaltainen vaikutus tai käyttämällä \"Venttiilien puhdistus\" -direktiiviä. \"Aseveljet\" -ryhmäpätevyys sekä komentajan \"Hätätila\" tai radio-operaattorin \"Rinnakkain\" -pätevyydet voivat parantaa tätä parametria."
+
+msgid "radioman_expert/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "{yellow_Start}Miehistön tehokkuusbonus{yellow_End} paranee %(crewLevelIncrease)s, jos avustamasi vahingon määrä ylittää vaunusi alkuperäisten kestopisteiden määrän&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Miehistön tehokkuusbonus on parantunut (riittävästi tiedustelutietoa on kerätty)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Täysin koulutettuna parantaa {yellow_Start}miehistön tehokkuusbonusta{yellow_End} %(crewLevelIncrease)s, jos avustamasi vahingon määrä ylittää vaunusi alkuperäisten kestopisteiden määrän&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Viestintäasiantuntija"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Parantunut miehistön suorituskyky."
+
+msgid "radioman_finder/alt/description"
+msgstr "Jos kahdella radio-operaattorilla on tämä pätevyys, käytetään koulutustasojen keskiarvoa.\n\nNäkökykyä voi parantaa entisestään kouluttamalla \"Tiedustelu\" -pätevyyden tai käyttämällä varusteita, joilla on sama vaikutus. \"Optinen kalibrointi\" -direktiivin käyttö parantaa vaikutusta."
+
+msgid "radioman_finder/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}Nököetäisys{greenBright_End} on parantunut %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Täysin koulutettuna kasvattaa {greenBright_Start}näkökykyä{greenBright_End} %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Tilannetietoisuus"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Kasvattaa näkökykyä."
+
+msgid "radioman_interference/alt/description"
+msgstr "Jos kahdella radio-operaattorilla on tämä pätevyys, käytetään koulutustasojen keskiarvoa.\n\nAikaa, jonka vaunusi pysyy näkyvissä, voi entisestään lyhentää käyttämällä varustetta, jolla on samankaltainen vaikutus."
+
+msgid "radioman_interference/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "{greenBright_Start}Aika, jonka vaunusi pysyy havaittuna{greenBright_End} vihollisen toimesta lyhenee %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Täysin koulutettuna lyhentää {greenBright_Start}aikaa, jonka vaunusi pysyy havaittuna{greenBright_End} vihollisen toimesta lyhenee %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Radiohäirintä"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Lyhentää aikaa, jonka vaunusi on näkyvissä vihollisille."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Jos kahdella radistilla on pätevyys, käytetään vain korkeampaa arvoa. Vaikutus on aktiivinen vain, jos radisti ei ole loukkaantunut vaunun tuhoutuessa.\n\nPätevyyttä voi parantaa entisestään \"Velvollisuus ennen muuta\" -direktiivillä."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1%. Sen tehokkuus paranee koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Radisti voi {yellow_Start}raportoida vihollisen asemia{yellow_End} vielä %(radiomanDurationPerLevel)s ajan vaunusi tuhoutumisen jälkeen."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Asemien raportointi."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Täysin koulutettuna mahdollistaa {yellow_Start}vihollisen asemien raportoimisen{yellow_End} vielä %(radiomanDurationPerLevel)s ajan vaunusi tuhoutumisen jälkeen."
+
+msgid "radioman_lastEffort/name"
+msgstr "Kostokutsu"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Raportoi vihollisasemista hetken aikaa vaunusi tuhoutumisen jälkeen."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Miehistön tehokkuusbonus parantaa tämän miehistön jäsenen tehokkuutta taistelussa. Jos kahdella radio-operaattorilla on tämä pätevyys, käytetään koulutustasojen keskiarvoa. Tätä parametria voi parantaa entisestään käyttämällä varustetta tai kulutustarviketta, jolla on samankaltainen vaikutus tai käyttämällä \"Venttiilien puhdistus\" -direktiiviä. \"Aseveljet\" -ryhmäpätevyys sekä komentajan \"Hätätila\" tai radio-operaattorin \"Viestintäasiantuntija\" -pätevyydet voivat parantaa tätä parametria."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "{yellow_Start}Miehistön tehokkuusbonus{yellow_End} paranee %(crewLevelIncrease)s vaunun ollessa alle 50 m päässä liittolaisten saman tyyppisestä vaunusta&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Miehistön tehokkuusbonus on kasvanut (saman tyyppinen liittolainen on lähellä)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Täysin koulutettuna parantaa {yellow_Start}miehistön tehokkuusbonusta{yellow_End} %(crewLevelIncrease)s vaunun ollessa alle 50 m päässä liittolaisten saman tyyppisestä vaunusta&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Rinnakkain"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Parantunut miehistön suorituskyky."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Vaikutus parantaa komentajan erityistä \"Kuudes aisti\" -ominaisuutta vauhdittaen sen aktivoitumista.\n\nJos kahdella radio-operaattorilla on tämä pätevyys, käytetään koulutustasojen keskiarvoa."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Pätevyyden vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja sen tehokkuus paranee koulutuksen edetessä."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "{greenBright_Start}Aika sen määrittämiseen{greenBright_End}, onko {greenBright_Start}vaunusi havaittu{greenBright_End} lyhenee %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Täysin koulutettuna lyhentää {greenBright_Start}aikaa sen määrittämiseen{greenBright_End}, onko {greenBright_Start}vaunusi havaittu{greenBright_End} %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Signaalikaappaus"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Tämä pätevyys aktivoituu, kun \"Kuudes aisti\" hälyttää, että vaunusi on havaittu.\n\nMikäli kahdella radistilla on tämä pätevyys, käytetään sen koulutustasojen keskiarvoa.\n\nNäkökykyä voi parantaa entisestään kouluttamalla \"Tiedustelu\" tai \"Tilannetietoisuus\" -pätevyydet tai ottamalla käyttöön varusteen, jolla on samankaltainen vaikutus. \"Optinen kalibraatio\" -direktiivin käyttäminen parantaa tätä vaikutusta."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Tilannekohtaisella vaikutuksella oleva pätevyys alkaa vaikuttaa, kun se sitä on koulutettu vähintään 1% ja parantaa tehokkuuttaan koulutuksen edetessä. Tilannekohtaiset vaikutukset aktivoituvat, kun tietyt ehdot täyttyvät taistelussa."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "{yellow_Start}Näkökyky{yellow_End} parantuu %(vehicleCircularVisionRadius)s 5 s ajan kuudennen aistin hälytyksen saamisesta."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Näköetäisyys on parantunut."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Täysin koulutettuna parantaa {yellow_Start}näkökykyä{yellow_End} %(vehicleCircularVisionRadius)s 5 s ajan kuudennen aistin hälytyksen saamisesta."
+
+msgid "radioman_threatSearch/name"
+msgstr "Uhan etsintä"
+
+msgid "repair/alt/description"
+msgstr "Tämä pätevyys vaikuttaa sisäisten ja ulkoisten moduulien korjaamiseen \"punaisesta\" \"keltaiseen\" tilaan.\n\nTätä parametria voi parantaa entisestään käyttämällä varusteita tai kulutustarvikkeita, joilla on sama vaikutus."
+
+msgid "repair/alt/info"
+msgstr "Ryhmäpätevyyksissä huomioidaan kaikkien miehistön jäsenten keskimääräinen koulutustaso. Sen vaikutus alkaa, kun se sitä on koulutettu vähintään 1% ja se parantaa tehokkuuttaan koulutuksen edetessä."
+
+msgid "repair/currentLvlDescription"
+msgstr "Vaunun vahingoittuneiden moduulien {greenBright_Start}korjausnopeus{greenBright_End} on kavanut %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Täysin kaikille miehistön jäsenille koulutettuna nopeuttaa vaunun vahingoittuneiden moduulien {greenBright_Start}korjausnopeutta{greenBright_End} %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Korjaukset"
+
+msgid "repair/shortDescription"
+msgstr "Nopeuttaa vahingoittuneiden moduulien korjausnopeutta."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Taistelutoverit"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Suositut"
+
+msgid "sorting/fallback"
+msgstr "Oletus"
+
+msgid "sorting/legendary"
+msgstr "Legendaarinen"
+
+msgid "sorting/title"
+msgstr "Lajitteluperuste"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sSuosittu.%(whiteSpanish_Close)s Perustuu tämän hetkisiin pätevyystrendeihin kaikkien World of Tanksin pelaajien kesken"
+
+msgid "sorting/tooltip/header"
+msgstr "WoT Plussan etu"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Saat tarkkaa tietoa pätevyyksistä miljoonien pelien pohjalta ja saat kaiken irti jo taistelusta."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendaarinen.%(whiteSpanish_Close)s Perustuu pätevyyksiin, joita tällä hetkellä suosivat pelaajat, joilla on legendan WTR-taso"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Pätevyyksien lajittelu pois käytöstä"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Tietoja ei saatavilla"
+
+msgid "sorting/tooltip/title"
+msgstr "Miehistöapuri"
+
+msgid "sorting/tooltip/types"
+msgstr "Pätevyyksien lajittelun tyypit"
+
+msgid "sorting/tooltip/warning"
+msgstr "Pätevyyksien lajittelu ei ole saatavilla"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Tälle vaunulle ei ole saatavissa täysiä pätevyystietoja, joten pätevyydet on lajiteltu oletusasetuksia käyttäen."
+
+msgid "witches_brotherhood/name"
+msgstr "Noitapiiri"
+
+msgid "yha_brotherhood/name"
+msgstr "Jänisten veljeskunta"

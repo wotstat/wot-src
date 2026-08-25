@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Server wechseln"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Details"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Der Modus ist auf diesem Server nicht verfügbar. %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Der Modus ist auf allen Servern nicht verfügbar."
+
+msgid "alertMessage/modeOffline"
+msgstr "Datenbankfehler. Spielmodus nicht verfügbar."
+
+msgid "alertMessage/noVehicles"
+msgstr "Keine geeigneten Fahrzeuge in der Garage. %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Verstanden!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "ANSTURM LIGHT"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "LETZTER ABSCHNITT ABGESCHLOSSEN!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "ABSCHNITT %(level)s ABGESCHLOSSEN!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Alle Aufträge abgeschlossen!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Abgeschlossen"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Läuft ab in: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Auftrag für Ansturm Light"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Neuer Auftrag für Ansturm Light in: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Belohnung:"
+msgstr[1] "Belohnungen:"
+msgstr[2] "Belohnungen:"
+
+msgid "battleResult/header/deserter"
+msgstr "Sie haben eine Strafe erhalten."
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "FORTSCHRITT FÜR ANSTURM LIGHT"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Ansturm Light dauert %(days)d Tag."
+msgstr[1] "Ansturm Light dauert %(days)d Tage."
+msgstr[2] "Ansturm Light dauert %(days)d Tage."
+
+msgid "calendarDay/title"
+msgstr "Zeitplan"
+
+msgid "closeButtonLabel"
+msgstr "SCHLIESSEN"
+
+msgid "countDown/text"
+msgstr "Event beginnt in:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Ein tempogeladener Modus mit 7v7-Gefechten in Fahrzeugen der Stufe %(levels)s. Genießen Sie die Spielweise des ursprünglichen Modus „Ansturm“, ohne sich Gedanken um Qualifikation, Rangpunkte oder Erfolge machen zu müssen, und verdienen Sie sich Belohnungen in Tagesaufträgen."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MODUS"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s – Spielmodus. Zum Erforschen klicken."
+
+msgid "entryPointTooltip/modeName"
+msgstr "Ansturm Light"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Verfügbarkeit des Modus: %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Waffenruhe in %(timer)s"
+
+msgid "featureName"
+msgstr "Ansturm Light"
+
+msgid "featureNameCapitalized"
+msgstr "ANSTURM LIGHT"
+
+msgid "intro/confirmButton"
+msgstr "Verstanden!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Genießen Sie die Spielweise des ursprünglichen Modus „Ansturm“, ohne sich Gedanken um Qualifikation, Rangpunkte oder Erfolge machen zu müssen."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "In diesem Modus gibt es Modifikatoren, die bestimmte Werte des Fahrzeugs ändern, darunter die Strukturpunkte des Fahrzeugs, die Abklingzeit für Verbrauchsmaterial, die Zeit, die das Fahrzeug sichtbar bleibt und mehr."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Auf der Karte finden Sie bestimmte Bereiche, die Ihnen bei Einnahme taktische Fertigkeiten verleihen. Es gibt zwei Arten Sonderziele: Die Artilleriezentrale erlaubt es Ihnen, einen Artillerieschlag auf eine bestimmte Position zu befehlen. Die Kommunikationszentrale klärt alle gegnerischen Fahrzeuge auf. Je nach Karte können diese Sonderziele vorhanden sein oder nicht, und sich an unterschiedlicher Stelle befinden."
+
+msgid "intro/description/roleSkills"
+msgstr "Jedes Fahrzeug besitzt eine seiner Rolle entsprechende besondere Fertigkeit mit drei Ladungsstufen. Je höher die Ladungsstufe bei Aktivierung der Fertigkeit ist, desto stärker wird der Effekt sein. Die Ladungsstufe hängt von der Anzahl Prestigepunkte ab. Diese können für beeindruckende Leistung im Gefecht erhalten werden, für das Einnehmen von Sonderzielen, für den Einsatz von taktischen Fertigkeiten und dergleichen mehr.\n\nLesen Sie sich die Bestimmungen des Modus durch, um mehr über die verschiedenen Wege zu erfahren, über die Sie Prestigepunkte verdienen können."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "In diesem Modus können Sie nur Fahrzeuge der %(levels)s nutzen (SFL und einige andere Panzer sind nicht verfügbar). Bereiten Sie die Fahrzeuge in der Garage vor und wählen Sie entsprechend der jeweiligen Karte das passende Fahrzeug aus, sobald Sie ins Gefecht ziehen. Bedenken Sie bei der Auswahl Ihres Fahrzeugs auch, welche Fahrzeuge Ihre Verbündeten gewählt haben."
+
+msgid "intro/title/lightGameplay"
+msgstr "IMMER MIT DER RUHE, KOMMANDANT"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "ANSTURM-MODIFIKATOREN"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "SONDERZIELE"
+
+msgid "intro/title/roleSkills"
+msgstr "ROLLENFERTIGKEITEN"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "WÄHLEN SIE EIN FAHRZEUG FÜR EINE BESTIMMTE KARTE"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Sieg"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Niederlage/Unentschieden"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Gute Arbeit, Kommandant, weiter so!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Schließen Sie Aufträge ab und erreichen Sie die höchsten Platzierungen in Gefechten für „Ansturm Light“, um Ihre Fortschrittsstufe zu steigern."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Die Anzahl der verdienten Fortschrittspunkte hängt von dem Rang ab, den Sie nach verdienten Prestigepunkten einnehmen."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Der Modus endet in: %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Hauptfortschritt abgeschlossen"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Ansturm Light"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Beste 2 nach Prestigepunkten"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Beste 5 nach Prestigepunkten"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Beste 7 nach Prestigepunkten"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "WoT-Premiumkonto nutzen"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Persönliche Reserven aktivieren"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Aufträge abschließen"
+
+msgid "noVehicles/howTo/title"
+msgstr "Wie geht es am schnellsten zu Fahrzeugen der Stufe %(levels)s?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Um bei „Ansturm Light“ teilzunehmen, müssen Sie mindestens ein Fahrzeug der Stufe %(levels)s in der Garage haben, das für den Modus geeignet ist.\nSie können Premiumfahrzeuge der Stufe %(levels)s über den Forschungsbaum oder den Nachschub kaufen."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Um bei „Ansturm Light“ teilzunehmen, müssen Sie mindestens ein Fahrzeug der Stufe %(levels)s in der Garage haben, das für den Modus geeignet ist.\nSie haben ein Fahrzeug der Stufe %(levels)s, das wiederhergestellt werden kann."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Um bei „Ansturm Light“ teilzunehmen, müssen Sie mindestens ein Fahrzeug der Stufe %(levels)s in der Garage haben, das für den Modus geeignet ist."
+
+msgid "noVehicles/title"
+msgstr "Keine geeigneten Fahrzeuge in der Garage"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Details finden Sie auf der Seite „Über Ansturm Light“."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Prestigepunkte"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Schaden verursachen\nUnterstützung durch Aufklärung\nKetten zerstören\nKritische Treffer verursachen\nGegnerfahrzeuge zerstören\nUnd mehr"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Prestigepunkte erhalten Sie für Aktionen im Gefecht, darunter:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Die Saison auf dem Server %(server)s ist beendet."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Die Saison auf dem Server %(server)s ist beendet."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Die Saison auf dem Server %(server)s ist beendet."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Hauptfortschritt abgeschlossen!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Abschnitt %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s oder %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Neuer Auftrag in:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Event endet in:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Aufträge werden aktualisiert in:"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Alle Tagesaufträge abgeschlossen."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Fortschritt abgeschlossen. Spielen Sie „Ansturm Light“ für weitere Belohnungen."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Schließen Sie Aufträge ab und erreichen Sie die höchsten Platzierungen\nin Gefechten von „Ansturm Light“, um Ihre Fortschrittsstufe zu steigern. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Verliehen für den Abschluss von Spezialaufträgen und das Bestreiten von Gefechten in „Ansturm Light“. Sie tragen zum Fortschritt bei."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Fortschrittspunkte für Ansturm Light"
+
+msgid "selectorTooltip/desc"
+msgstr "Nicht gewerteter Modus. 7v7 | Stufe %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Ansturm Light"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Folgen Sie den aktuellen Neuigkeiten auf dem Spielportal, um auf dem neusten Stand hinsichtlich der Termine für die neue Saison zu bleiben."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Der Modus ist aus technischen Gründen vorübergehend nicht verfügbar."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Der Modus ist ab dem %(time)s verfügbar."
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Erhaltene Fortschrittspunkte"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Details"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Ansturm Light"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Belohnungen erhalten:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Sie haben Abschnitt %(stage)s des Fortschritts im Modus „%(progressionName)s“ abgeschlossen."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Glückwunsch!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Es herrscht Waffenruhe. Gefechte im Modus „Ansturm Light“ sind vorübergehend nicht verfügbar."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Waffenruhe"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Waffenruhe beendet. Gefechte im Modus „Ansturm Light“ sind wieder verfügbar."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Waffenruhe"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Über Ansturm Light"

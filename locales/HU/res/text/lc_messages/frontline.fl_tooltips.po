@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Kijárási tilalom {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Az esemény elérhetővé válik:"
+
+msgid "bannerTooltip/description"
+msgstr "Hatalmas 30v30-csaták {{vehicleTier}}. szintű járművekkel a Normandie, a Kraftwerk és a Fata Morgana pályákon. A támadóknak meg kell semmisíteniük hármat az öt nagy kaliberű lövegből, a védőknek pedig meg kell védeniük ezeket."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Bizonyítsd a rátermettségedet kiélezett csatákban, hogy hírnevet szerezz magadnak, begyűjtsd az értékes jutalmakat, és feljebb lépj a ranglétrán!"
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Az esemény véget ért, és még nem vetted át a teljesített Frontvonal-szintekért járó jutalmaidat."
+
+msgid "bannerTooltip/header"
+msgstr "Frontvonal"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Frontvonal | {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}. szint"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} – Játékmód. Kattints a felfedezéséhez"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Ez a játékmód nagy teljesítményű számítógépet igényel. Problémákat tapasztalhatsz a pálya betöltésekor, a grafika és a jármű mozgása kapcsán. Ha nem megfelelő a teljesítmény, próbáld meg csökkenteni a grafika minőségét a Beállítások között."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Csökkentett teljesítmény lehetséges"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Válassz jutalmakat a teljesített szintekért ({{value}})"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Nincs elegendő fedezeted a vásárláshoz."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "A változtatások minden páncélvadászra érvényesek."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "A változtatások minden önjáró lövegre érvényesek."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "A változtatások minden nehéz harckocsira érvényesek."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "A változtatások minden könnyű harckocsira érvényesek."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "A változtatások minden közepes harckocsira érvényesek."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Inkompatibilis jármű"
+
+msgid "battleAbilities/points/body"
+msgstr "Gyűjtsd össze a szükséges mennyiségű pontot, és aktiváld a Frontvonal harci tartalékait."
+
+msgid "battleAbilities/points/header"
+msgstr "Harcitartalék-pontok"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Támadó tartalékok megtekintése"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Támadó tartalékok"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Felderítő tartalékok megtekintése"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Felderítő tartalékok"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Taktikai tartalékok megtekintése"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Taktikai tartalékok"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "A harci tartalék szintje megnő, miután elérted a századosi és az őrnagyi rangot a csatában. A maximális szintet a csatahelyzet határozza meg."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "További információ"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Támadó tartalékok"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Felderítő tartalékok"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Taktikai tartalékok"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Állandó tulajdonságok:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Ha egy harci tartalékot helyezel ebbe a férőhelybe, az a {{@ colorLegacy 'FFE4C0'}}Sorsfordulat{{/}} csatahelyzet esetében {{@ colorLegacy 'FFE4C0'}}10%{{/}}-kal növeli az adott tartalék megszerzési esélyét."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Tartalék szintje:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Nincs megvásárolva!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Az esemény véget ért."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Az esemény hamarosan elkezdődik!"
+
+msgid "infoButton/body"
+msgstr "Kattints a további részletekért."
+
+msgid "infoButton/header"
+msgstr "Az eseményről"
+
+msgid "levelReserves/desc"
+msgstr "A harci tartalékok szintje új rang elérésekor nő:"
+
+msgid "levelReserves/info"
+msgstr "A {{@ colorLegacy 'FFE4C0'}}Sorsfordulat{{/}} csatahelyzetben a harci tartalék megvásárlásával a szintje eggyel nő, így lehetőséged nyílik {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}. szintre fejleszteni azt."
+
+msgid "levelReserves/level"
+msgstr "Megnő, amikor eléred a következő rangot: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "A következő rangon érhető el: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Szint - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "A {{@ colorLegacy 'FFE4C0'}}megvásárolt harci tartalékokhoz{{/}} a {{@ colorLegacy 'FFE4C0'}}Sorsfordulat{{/}} csatahelyzetben."
+
+msgid "levelReserves/title"
+msgstr "Harcitartalék-szintek"
+
+msgid "playlist/warning/body"
+msgstr "Ez a lista olyan járműveket tartalmaz, amelyek nem felelnek meg ehhez a játékmódhoz, vagy nincsenek a Garázsodban."
+
+msgid "playlist/warning/header"
+msgstr "Nem elérhető járművek (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Javított harcitartalék-tulajdonságok"
+
+msgid "randomReserve/disable"
+msgstr "A harci tartalék férőhely használatban van."
+
+msgid "randomReserve/notPurchased"
+msgstr "A harci tartalék nincs megvásárolva"
+
+msgid "randomReserve/purchased"
+msgstr "A harci tartalék megvásárolva"
+
+msgid "skillOrderTooltip/body"
+msgstr "Minden járműtípus saját sorrendben oldja fel a tartalékokat:"
+
+msgid "skillOrderTooltip/header"
+msgstr "A harci tartalékok feloldásának sorrendje"
+
+msgid "skillOrderTooltip/info"
+msgstr "A {{@ colorLegacy 'whiteSpanish'}}Sorsfordulat{{/}} csatahelyzetben a harci tartalékok feloldásának sorrendje nem függ a járműtípustól."

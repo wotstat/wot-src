@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "Kraftgranat redo att aktiveras."
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "Vampyrgranat redo att aktiveras."
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "Bedövningsgranat redo att aktiveras."
+
+msgid "LS_damageShieldReady"
+msgstr "Kraftsköld redo att aktiveras."
+
+msgid "LS_doubleDamageReady"
+msgstr "Dubbelskada redo att aktiveras."
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "Gynnsam skada är redo."
+
+msgid "LS_fastReloadReady"
+msgstr "Snabbladdning redo att aktiveras."
+
+msgid "LS_healSituationalReady"
+msgstr "Gynnsam reparation är redo."
+
+msgid "LS_invisibilityReady"
+msgstr "Skuggreparation redo att aktiveras."
+
+msgid "LS_nitroReady"
+msgstr "Turbo redo att aktiveras."
+
+msgid "LS_pickupSouls"
+msgstr "Du har samlat in %(souls)s mirium"
+
+msgid "LS_selfRepairReady"
+msgstr "Nödreparationer redo att aktiveras."
+
+msgid "LS_situationalNitroReady"
+msgstr "Gynnsam rörlighet är redo."
+
+msgid "LS_teamRepairKitReady"
+msgstr "Gruppreparation redo att aktiveras."
+
+msgid "LS_teamRepairKitUsed"
+msgstr "%(player)s aktiverade Gruppreparation."
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "Gruppreparation aktiverad."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "Uppmärksamhet på zon: %(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "Försvara ATLAS!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "Försvara ATLAS"
+
+msgid "arena/marker/move_to_camp"
+msgstr "Omgrupperar till övergångszonen!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "Försvarar ATLAS"
+
+msgid "arena/phase"
+msgstr "Stridsfas %(current)s av %(total)s"
+
+msgid "arena/wave"
+msgstr "Våg %(current)s av %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Inkommande&nbsp;igelkottar!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Inkommande&nbsp;Igelkott Alfa!"
+
+msgid "battleHint/clearTheArea"
+msgstr "Rensa området!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "Skynda! Nollpunkten är nära&nbsp;ATLAS!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "Nollpunkten förstörd!\nFiender kvar: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "Fiender att nedkämpa: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "data, %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "vagnar reparerade"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "sköld genererad"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "fiender chockade"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "%(name)s-obelisk förstörd!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Regen"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "Barriär"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "Avvikelse"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "Insatspunkter identifierade! Fienden kommer!"
+
+msgid "battleHint/hunter"
+msgstr "Inkommande&nbsp;jägare!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "Våg nedkämpad!"
+
+msgid "battleHint/leftToDestroy"
+msgstr "Fiender kvar att nedkämpa:"
+
+msgid "battleHint/missing_squad"
+msgstr "Den förlorade plutonen kommer!"
+
+msgid "battleHint/newWave"
+msgstr "Våg {current} av {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "En obelisk har dykt upp!"
+
+msgid "battleHint/stopConvoy"
+msgstr "Stoppa Nollpunkten!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "Stoppa Nollpunkten\ninnan den når ATLAS!"
+
+msgid "battleHint/trapper"
+msgstr "Förstör Snärjaren för att&nbsp;hindra dödszoner från att skapas."
+
+msgid "battleHint/turret"
+msgstr "Myggor har vaknat!"
+
+msgid "battleHint/waveFinished"
+msgstr "Våg nedkämpad!\nOmgruppera och var beredd!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "Omgruppera och var beredd!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "Fiendens förstärkningar&nbsp;har anlänt!"
+
+msgid "common/close"
+msgstr "STÄNG"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "Varaktighet: %(time)s s"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Skada av farozon"
+
+msgid "damageLog/static_death_zone"
+msgstr "Skada av farozon"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "Bränder orsakade med Pyrokinesi"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "Skada med Energistöt"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "Skada genom explosion"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "Skada med livsstöld"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "Gynnsam skada aktiverad"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "Gynnsam reparation aktiverad"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "Skada med Kraftgranat"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "Skada med Vampyrgranat"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "Skada med Bedövningsgranat"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "Modulskydd"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "Gynnsam rörlighet aktiverad"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "Återställare"
+
+msgid "efficiencyRibbons/repair"
+msgstr "Vagnen reparerad"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "Vagnen reparerad av"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "Vagn reparerad av allierad"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "Reparerade allierade"
+
+msgid "eventStats/activeWave"
+msgstr "Våg %(num)s"
+
+msgid "eventStats/difficulty"
+msgstr "Svårighetsgrad: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "Sista striden: Terra nord"
+
+msgid "eventStats/globalTask"
+msgstr "Uppdragsmål: Förstör alla anfallsvågor"
+
+msgid "eventStats/mission"
+msgstr "Förstör alla anfallsvågor"
+
+msgid "eventStats/tableCaption"
+msgstr "Plutonsmedlemmar"
+
+msgid "help/description_0"
+msgstr "Förstör alla anfallsvågor för att vinna.\nFienden blir starkare för varje anfallsvåg."
+
+msgid "help/description_1"
+msgstr "Rätt kombination av taktiska verktyg kan vara extremt kraftfull.\nKom håg: anvisningar och all ammunition är gratis i Sista striden."
+
+msgid "help/description_2"
+msgstr "När en obelisk skadas överförs en del av skadan till fiendevagnar. När den förstörs ger den en slumpvis bonus."
+
+msgid "help/description_3"
+msgstr "Skydda ATLAS från den sista spökvagnen, Nollpunkten, till varje pris. Om den når och kan förstöra ATLAS är striden förlorad."
+
+msgid "help/title"
+msgstr "SISTA STRIDEN: TERRA NORD"
+
+msgid "help/title_0"
+msgstr "FIENTLIGA ANFALLSVÅGOR"
+
+msgid "help/title_1"
+msgstr "ÖVERLEVNADSTIPS"
+
+msgid "help/title_2"
+msgstr "ANVÄND OBELISKER I STRID"
+
+msgid "help/title_3"
+msgstr "FÖRSVARA ATLAS"
+
+msgid "helpScreen/hint/description"
+msgstr "för att se stridsreglerna"
+
+msgid "helpScreen/hint/press"
+msgstr "Tryck"
+
+msgid "hitMarker/useless"
+msgstr "Ingen verkan!"
+
+msgid "loading/description_0"
+msgstr "Förstör alla anfallsvågor för att vinna.\nFienden blir starkare för varje anfallsvåg."
+
+msgid "loading/description_1"
+msgstr "Rätt kombination av taktiska verktyg kan vara extremt kraftfull.\nKom håg: anvisningar och all ammunition är gratis i Sista striden."
+
+msgid "loading/description_2"
+msgstr "När en obelisk skadas överförs en del av skadan till fiendevagnar. När den förstörs ger den en slumpvis bonus."
+
+msgid "loading/description_3"
+msgstr "Skydda ATLAS från den sista spökvagnen, Nollpunkten, till varje pris. Om den når och kan förstöra ATLAS är striden förlorad."
+
+msgid "loading/title"
+msgstr "Laddar..."
+
+msgid "loading/title_0"
+msgstr "FIENTLIGA ANFALLSVÅGOR"
+
+msgid "loading/title_1"
+msgstr "ÖVERLEVNADSTIPS"
+
+msgid "loading/title_2"
+msgstr "ANVÄND OBELISKER I STRID"
+
+msgid "loading/title_3"
+msgstr "FÖRSVARA ATLAS"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "[%(name)s] kan inte användas: motorn förstörd."
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "[%(name)s] kan inte användas: kanonen är skadad."
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "Kanonen laddad."
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "[%(name)s] kan inte användas: mirium saknas för att aktivera verktyget."
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "Vagnen är inte skadad."
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "[%(name)s] kan inte användas: vagnen drunknar."
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "[%(name)s] kan inte användas: vagnen brinner."
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "[%(name)s] kan inte användas: vagnen har vält."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "%(target)s (allierad) förstörd av explosion (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "%(target)s (allierad) kraschade."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "%(target)s (allierad) förstörd av dödszonen."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "%(target)s (allierad) förstörd."
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "Om plutonen lyckas nedkämpa den här vågen."
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "DU ÅTERVÄNDER TILL STRIDEN"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "Er strid är över.\nNi har lyckats!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Vagnen förstörd av dödszonen"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "Vagnen förstörd av Energistöt"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "Vagnen förstörd av Pyrokinesi"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "Vagnen förstörd av Livsstöld"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "Vagnen förstörd av en explosion"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "Vagnen kraschade"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modulen [%(device)s] sprängdes av ett skott från spelaren"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "Vagnen förstörd av brand"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Vagnen förstörd. Tiden är ute."
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "Vagnen förstörd av ett skott från en fiende"
+
+msgid "prebattle/description/message"
+msgstr "Uppdragsmål: Förstör alla anfallsvågor"
+
+msgid "prebattle/description/title"
+msgstr "Sista striden: Svårighetsgrad %(difficulty)s"
+
+msgid "prebattle/difficulty/107"
+msgstr "Normal"
+
+msgid "prebattle/difficulty/108"
+msgstr "Avancerad"
+
+msgid "prebattle/difficulty/109"
+msgstr "Brutal"
+
+msgid "prebattle/waiting/title"
+msgstr "Väntar på spelare..."
+
+msgid "radialMenu/attention_here"
+msgstr "Understöd här"
+
+msgid "radialMenu/cancel"
+msgstr "Avbryt"
+
+msgid "radialMenu/confirm"
+msgstr "Uppfattat!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "Omgrupperar till övergångszonen!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "Försvarar"
+
+msgid "radialMenu/obelisk"
+msgstr "Jag tar obelisken!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "Förstör obelisken!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "Kraftsköld"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "Tillbaka på banan..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "Lämna\nfarozonen!"
+
+msgid "teamList/teammates"
+msgstr "Allierade"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "Stäng av röstchatt"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "Aktivera röstchatt"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "Tryck för att tala"

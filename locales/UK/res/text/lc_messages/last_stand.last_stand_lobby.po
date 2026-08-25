@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Однаково увійти в бій"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Спорядити!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Набір тактичних пристроїв неповний"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "Вибраній машині бракує одного чи кількох тактичних пристроїв. Це може суттєво вплинути на вашу ефективність. Однаково увійти в бій?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Ви можете налаштувати стандартні гарячі клавіші події для снарядів і тактичних пристроїв.\nЦя зміна буде застосована лише до боїв події та не вплине на жодні інші режими.\nУтім, ви можете задати власні гарячі клавіші в Меню — Налаштування — Керування (під «Спорядженням»)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Зміна налаштувань гарячих клавіш для спорядження"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s К"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Виконайте це завдання, щоб отримати унікальну нашивку «Останній рубіж: операція \"Пандора\"»:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Завдання на епічне досягнення"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Після дослідження зменшує {EDCB9E_Start}вартість у миріумі{EDCB9E_End} для всіх тактичних пристроїв на {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Ефективність миріуму"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Після дослідження збільшує {EDCB9E_Start}тривалість ефектів тактичних пристроїв{EDCB9E_End} на {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Тривалість ефекту пристроїв"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Після дослідження збільшує {EDCB9E_Start}радіус дії тактичних пристроїв{EDCB9E_End} на {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Радіус дії пристроїв"
+
+msgid "booster/booster_heal/description"
+msgstr "Після дослідження збільшує всі застосовувані до машини {EDCB9E_Start}ефекти зцілення{EDCB9E_End} на {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Ефекти зцілення"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Після дослідження збільшує {EDCB9E_Start}шкоду, яку передають Обеліски{EDCB9E_End} машинам супротивника, на {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Шкода від Обелісків"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Після дослідження збільшує {EDCB9E_Start}радіус підбору миріуму{EDCB9E_End} з машин супротивників на {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Радіус підбору миріуму"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Після дослідження збільшує {EDCB9E_Start}кількість миріуму{EDCB9E_End}, що збирається зі знищених машин, на {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Збір миріуму"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Після дослідження збільшує {EDCB9E_Start}кількість миріуму{EDCB9E_End}, отримуваного за відбиття хвилі, на {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Миріум за хвилю"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Після дослідження збільшує {EDCB9E_Start}кількість миріуму,{EDCB9E_End} що відновлюється після відродження, на {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Миріум після відродження"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Після дослідження збільшує {EDCB9E_Start}максимальний запас миріуму машини{EDCB9E_End} на {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Запас миріуму"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "НАБІР ЗАХИСНИКА"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Ключів придбано"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Можливість отримати в п’ять разів більше досвіду на будь-якій машині, починаючи з другої перемоги на день."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Завдання на ×5 досвіду в бою"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Налаштувати показ техніки з урахуванням нації, типу й інших параметрів."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Фільтр за параметрами"
+
+msgid "common/back"
+msgstr "НАЗАД"
+
+msgid "common/close"
+msgstr "ЗАКРИТИ"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "ДО ПОДІЇ"
+
+msgid "common/toRewardPath"
+msgstr "ДО ПРОГРЕСІЇ"
+
+msgid "common/yes"
+msgstr "Так!"
+
+msgid "difficult/daily"
+msgstr "ЩОДЕННЕ ЗАВДАННЯ НА КЛЮЧІ РОЗБЛОКОВАНО"
+
+msgid "difficult/disabled/body"
+msgstr "Ви у взводі. Тільки командир може змінити рівень складності."
+
+msgid "difficult/disabled/header"
+msgstr "Зміна складності неможлива"
+
+msgid "difficult/level_1"
+msgstr "Звичайна"
+
+msgid "difficult/level_2"
+msgstr "Просунута"
+
+msgid "difficult/level_3"
+msgstr "Люта"
+
+msgid "difficult/new"
+msgstr "НОВЕ"
+
+msgid "difficult/searching/body"
+msgstr "Недоступно під час пошуку."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Супротивники мають нижчу міцність і слабшу броню. Стандартна кількість даних за бій."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Супротивники мають міцнішу броню. Кількість даних за бій збільшено на {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Більше супротивників із міцнішою бронею. Кількість даних за бій збільшено на {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Нагороди за знищення останньої хвилі вперше:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Звичайна складність"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Просунута складність"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Люта складність"
+
+msgid "difficult/tooltip/locked"
+msgstr "Складність заблокована"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Щоб розблокувати, пройдіть звичайну складність."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Щоб розблокувати, пройдіть просунуту складність."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Доступна складність"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Складність вибрано"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Знищено хвиль: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "ЗВИЧАЙНА"
+
+msgid "difficult/uppercase/level_2"
+msgstr "ПРОСУНУТА"
+
+msgid "difficult/uppercase/level_3"
+msgstr "ЛЮТА"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Супротивники мають міцнішу броню. Більше кредитів і ×{{modifier}} даних за бій."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Більше супротивників із міцнішою бронею. Більше кредитів і ×{{modifier}} даних за бій."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Бийтеся й долайте хвилі суперників, змагаючись за місце на вершині таблиці лідерів. На вас чекають унікальні нагороди й не тільки."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "ПРОСУНУТА СКЛАДНІСТЬ"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "ЛЮТА СКЛАДНІСТЬ"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "РЕЖИМ «ОСТАННІЙ РУБІЖ»"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "ПРОСУНУТА"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "ЛЮТА"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "ОСТАННІЙ РУБІЖ"
+
+msgid "difficultyWindow/rewards"
+msgstr "Нагороди за проходження:"
+
+msgid "difficultyWindow/title"
+msgstr "ДОСТУПНО"
+
+msgid "hangar/exit"
+msgstr "ЗАЛИШИТИ ПОДІЮ"
+
+msgid "hangar/narration"
+msgstr "Історія"
+
+msgid "hangar/tooltip/about"
+msgstr "Дізнайтеся більше про подію «Останній рубіж: Терра Норд»."
+
+msgid "hangar/tooltip/narration"
+msgstr "Дізнайтеся більше про сюжет події."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "ТАКТИЧНІ ПРИСТРОЇ"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "ОСНАЩЕННЯ"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Останній рубіж"
+
+msgid "iconButton/comparison/default"
+msgstr "Порівняння техніки"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Порівняння техніки недоступне"
+
+msgid "iconButton/preview/default"
+msgstr "Попередній перегляд машини"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Попередній перегляд машини недоступний"
+
+msgid "keyCard/name"
+msgstr "Ключі дешифрування"
+
+msgid "meta/btn/decrypt"
+msgstr "РОЗШИФРУВАТИ"
+
+msgid "meta/btn/skip"
+msgstr "ПРОПУСТИТИ"
+
+msgid "meta/btn/view"
+msgstr "ДИВИТИСЯ"
+
+msgid "meta/receive/description"
+msgstr "Зберіть %(keys) / %(decrypt) %(icon) \nдля дешифрування запису"
+
+msgid "metaIntro/description/fight"
+msgstr "Беріть участь у боях події та здобувайте дані для просування прогресією."
+
+msgid "metaIntro/description/progress"
+msgstr "Збирайте дані, щоб поліпшувати техніку та приймати складніші виклики."
+
+msgid "metaIntro/description/reward"
+msgstr "Завершуйте етапи прогресії, щоб отримувати особливі нагороди події. Подробиці дивіться на шляху нагород."
+
+msgid "metaIntro/header/fight"
+msgstr "Бої події"
+
+msgid "metaIntro/header/progress"
+msgstr "Поліпшення"
+
+msgid "metaIntro/header/reward"
+msgstr "Унікальні нагороди"
+
+msgid "metaIntro/title"
+msgstr "ПРОГРЕСІЯ"
+
+msgid "missionWidget/complete"
+msgstr "Завдання виконано.\nПриходьте завтра за новим."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Щоб отримати нагороду, виконайте щоденне завдання, доступне кожні 24 години. Завдання на сьогодні:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Щоденне завдання"
+
+msgid "narration/actions/voiceover"
+msgstr "Озвучення"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}ЦІЛКОМ ТАЄМНО{{/}}{{titleParagraph}}{{@ class $highlightText}}СЕКТОР: N-07 (периметр «Аврора»){{/}}{{pargraphStart}}Наші прогнози справдилися. Станції спостереження зафіксували наближення аномалії за одинадцять днів до події. Уперше нам було відомо про це заздалегідь.{{pargraphStart}}Під час затишшя виробництво комплексів «АТЛАС» було стандартизовано: нові модулі збирають швидше й калібрують точніше. Ми провели навчання, випробували тактичні схеми й підготували резервні підрозділи. Повна бойова готовність.{{pargraphStart}}Однак аномалія внесла свої корективи.{{pargraphStart}}Вир відкрився не в тому секторі, який був у розрахунках. Він з'явився тут: у віддаленому північному районі, далеко від нашої інфраструктури. Нам незрозуміло, чому було вибрано саме цю точку. У моделях ніщо не вказувало на цей регіон. Екстрена передислокація була розпочата негайно, але особливості рельєфу й відстань нам перешкоджають. Частина техніки й підрозділів прибуде із запізненням.{{pargraphStart}}Кожен комплекс «АТЛАС», який ми встигли доставити, тепер є незамінним.{{pargraphStart}}Цього разу ми підготувалися до бою. Але в іншій локації.{{pargraphStart}}ПІДПИС: КУРАТОР (ПРОЄКТ «М»)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Аналітична записка 27/C «ВИБІР МІСЦЯ ВТОРГНЕННЯ»{{/}}{{titleParagraph}}Для внутрішнього користування. Гриф: обмежений доступ.{{pargraphStart}}Ставлю собі запитання, на яке мушу відповісти, але не можу: чому саме тут?{{pargraphStart}}Цей район не має стратегічного значення для Виру. Тут нема геть нічого: ані інфраструктури, ані населених пунктів. Лише закинута військова база на острові. Ехо-танки не здатні перетинати море. Тож який сенс захоплювати точку, з якої наступ неможливий?{{pargraphStart}}Я надіслав запит на повну оперативну історію регіону. Відповідь була сильно відредагована. Цілі розділи викреслено. Повторний запит повернуто з міткою «доступ обмежено рішенням {{@ class $highlightSecondaryText}}[ДАНІ ВИЛУЧЕНО]{{/}}». Мені, керівнику наукового відділу, чиї рекомендації визначають стратегію оборони сектора, відмовляють в інформації про цю територію!{{pargraphStart}}Ось яких висновків я дійшов відповідно до польових даних: поведінка Виру не відповідає тому, що ми спостерігали в секторі R-22. З'явилися нові типи ехо-танків, які ми ще не бачили. За функціями вони ідентичні нашим далекобійним ПТ-САУ й надзвичайно ефективні в умовах такого рельєфу. Супротивник вивчив нашу тактику та вжив заходів. Тепер наша черга адаптуватися.{{pargraphStart}}Можливо, йому потрібно це місце. А можливо, потрібно те, що під ним.{{pargraphStart}}Не знаю. І мене турбує, що знає хтось інший, але мовчить.{{pargraphStart}}ПІДПИС: КУРАТОР (ПРОЄКТ «М»)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}ОСОБИСТА ЗАПИСКА КУРАТОРА{{/}}{{pargraphStart}}Я переглянув власні гіпотези. Усі три.{{pargraphStart}}  1. Аномалія прагне нас знищити. {{pargraphStart}}  2. Аномалія експериментує. Вивчає нашу тактику, нашу відповідь, підлаштовується й навчається.{{pargraphStart}}  3. Аномалія тренується. Кожна хвиля — відпрацювання нової тактики, а кожен бій — навчання в польових умовах.{{pargraphStart}}Усі три гіпотези об'єднує припущення, що ми — ціль цього вторгнення.{{pargraphStart}}А що як ні?{{pargraphStart}}Що як аномалія прагне досягти зовсім інакшої цілі, а ми лише перешкода на шляху? Немов мурашник, затоплений під час будівництва дороги. Будівельник не воює з мурахами. Він їх просто не помічає.{{pargraphStart}}Ворога, який хоче тебе знищити, можна здолати. З ним можна домовитися. Але такого ворога, що не визнає твого існування, неможливо залякати, та й перемудрувати. Його не зупинити. Тому що він і не брав тебе до уваги.{{pargraphStart}}Я думаю, ми ставили не те запитання. Потрібно запитувати, не навіщо воно нас атакує, а чи помічає нас узагалі.{{pargraphStart}}ПІДПИС: КУРАТОР (ПРОЄКТ «М»)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}ПІДСУМКОВИЙ РАПОРТ{{/}}{{titleParagraph}}{{@ class $highlightText}}СТАТУС: РОЗСЕКРЕЧЕНО (ЧАСТКОВО){{/}}{{pargraphStart}}О 03:47 Вир закрився. Аномальна активність не спостерігається. Сектор зачищено.{{pargraphStart}}В останні секунди перед колапсом датчикам «АТЛАС» удалося зафіксувати енергетичний викид, що перевищував всі попередні показники. Екіпажі спостерігали короткочасні фізичні прояви в центрі аномалії, які тривали не довше дванадцяти секунд. Після цього Вир закрився.{{pargraphStart}}Офіційний висновок: інцидент вичерпано. Оборона території успішна. Карантин із сектора знято.{{pargraphStart}}{{@ class $highlightText}}ОСОБИСТА ПРИМІТКА КУРАТОРА (лише для спецрезерву){{/}}{{pargraphStart}}Ми не перемогли. Це воно скінчило.{{pargraphStart}}Це не було вторгненням — лише прикриттям. Захисним периметром навколо того, що з'явилося в центрі Виру за секунди до закриття.{{pargraphStart}}Помічено десятки Обелісків водночас. Що саме вони робили, досі невідомо. «АТЛАС» зафіксував усі параметри, але на інтерпретацію піде час. Одне ми знаємо точно: аномалія завершила якийсь процес.{{pargraphStart}}Але хай би що вона робила, варто готуватися до нової атаки. Даних у нас тепер достатньо. Наші вчені вже розбирають усі записи, і скажу відверто, давно не бачив їх такими заповзятими. Вони вважають, що нам вдасться значно посилити наші машини. Необхідно встигнути, перш ніж Вир повернеться. {{pargraphStart}}Мене цікавить лише одне: якщо таке відбулося тут і тривало недовго, скільки разів це ставалося раніше? У місцях, куди не сягав «АТЛАС», де нікому було спостерігати...{{pargraphStart}}ПІДПИС: КУРАТОР (ПРОЄКТ «М»)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Ми були готові"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Чому тут?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. Неправильне запитання"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Воно скінчило"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Пройдіть звичайний рівень складності, щоб перейти до наступної частини сюжету."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Пройдіть просунутий рівень складності, щоб перейти до наступної частини сюжету."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Пройдіть лютий рівень складності, щоб перейти до фінальної частини сюжету."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Наступна частина сюжету"
+
+msgid "preBattle/leave"
+msgstr "Вийти з бою"
+
+msgid "preBattle/searching"
+msgstr "ПОШУК СОЮЗНИКІВ…"
+
+msgid "preBattle/tip"
+msgstr "Пошук оперативного загону триває надто довго? Спробуйте змінити рівень складності."
+
+msgid "preBattle/uppercase/leave"
+msgstr "ВИЙТИ З БОЮ"
+
+msgid "promoWindow/header"
+msgstr "ЗІГРАЙТЕ В «ОСТАННІЙ РУБІЖ»"
+
+msgid "promoWindow/subheader"
+msgstr "З {dateRange} пориньте в нову главу ігрового PvE-режиму «Останній рубіж».\nЗдобудьте набір тематичних {cream_open}3D-обвісів{cream_close}, експериментальне обладнання й інші ексклюзивні нагороди події."
+
+msgid "questCard/allCompleted"
+msgstr "Усі щоденні завдання виконано"
+
+msgid "questCard/completed"
+msgstr "Щоденне завдання виконано.\nПовертайтеся завтра."
+
+msgid "reward/rest"
+msgstr "І %(count)s ще"
+
+msgid "rewardPath/about"
+msgstr "ПРО ЦІЛІ"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Дізнайтеся більше про прогресію події."
+
+msgid "rewardPath/boostTitle"
+msgstr "Прискорте своє просування прогресією та отримуйте більше даних {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Дивитися в Магазині"
+
+msgid "rewardPath/completed"
+msgstr "Усі дані й нагороди отримано"
+
+msgid "rewardPath/completedTitle"
+msgstr "Завітайте до Магазину за унікальними тематичними елементами зовнішнього вигляду"
+
+msgid "rewardPath/intro"
+msgstr "ВСТУП"
+
+msgid "rewardPath/introTooltip"
+msgstr "Подивіться вступне відео."
+
+msgid "rewardPath/progress"
+msgstr "Дані отримано на ЕТАПІ {artefactIndex}: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "ПРОГРЕСІЯ"
+
+msgid "rewardPathCard/completed"
+msgstr "Виконано"
+
+msgid "rewardPathCard/name"
+msgstr "Шлях нагород"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Набори події"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Скасувати"
+
+msgid "squad/goToAnother/message"
+msgstr "Взвод буде розформовано."
+
+msgid "squad/goToAnother/submit"
+msgstr "Вийти"
+
+msgid "squad/goToAnother/title"
+msgstr "Залишити подію «Останній рубіж: Терра Норд»?"
+
+msgid "squad/leave/cancel"
+msgstr "Скасувати"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Взвод буде розформовано."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Так!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Подію «Останній рубіж: Терра Норд» завершено"
+
+msgid "squad/leave/message"
+msgstr "Взвод буде розформовано."
+
+msgid "squad/leave/submit"
+msgstr "Вийти"
+
+msgid "squad/leave/title"
+msgstr "Залишити взвод події «Останній рубіж: Терра Норд»?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Продовжити"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Ви у взводі й готові до бою."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Ви не можете вийти зі взводу!"
+
+msgid "stageReward/rewards/received"
+msgstr "Також отримано:"
+
+msgid "stageReward/special/header"
+msgstr "ЛЮТУ СКЛАДНІСТЬ ПРОЙДЕНО!"
+
+msgid "stageReward/special/subheader"
+msgstr "Отримано особливу нагороду"
+
+msgid "stageReward/stage/header"
+msgstr "ОТРИМАНО НАГОРОДИ"
+
+msgid "stageReward/stage/subheader"
+msgstr "Останній рубіж: етап {{number}} завершено"
+
+msgid "stageReward/stageFinal/header"
+msgstr "УСІ НАГОРОДИ ОТРИМАНО"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Останній рубіж: фінальний етап завершено"

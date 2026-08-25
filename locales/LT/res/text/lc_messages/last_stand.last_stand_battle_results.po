@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, trukmė: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "Įprastas sudėtingumas"
+
+msgid "info/difficult/2"
+msgstr "Pasunkintas sudėtingumas"
+
+msgid "info/difficult/3"
+msgstr "Brutalus sudėtingumo lygis"
+
+msgid "info/mapName"
+msgstr "Paskutinis mūšis • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "Sugrįžimų į mūšį skaičius: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "Visos komandos mašinos sunaikintos."
+
+msgid "ls_finish/reason/10/lose"
+msgstr "Jums nepavyko sustabdyti Nulio."
+
+msgid "ls_finish/reason/3/lose"
+msgstr "Laikas baigėsi."
+
+msgid "ls_finish/reason/5/lose"
+msgstr "Visi komandos nariai paliko mūšį."
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "Puikiai padirbėta! Esate pasiruošę sunkesnei misijai?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "Visi įprasto sudėtingumo lygio priešai sunaikinti."
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "Nuostabiai pasirodėte! Jūsų lygį pasiekia tik vienetai."
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "Visi brutalaus sudėtingumo lygio priešai sunaikinti."
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "Jūs neįtikėtini! Dabar laikas tikram iššūkiui."
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "Visi pasunkinto sudėtingumo lygio priešai sunaikinti."
+
+msgid "ribbon/ban"
+msgstr "Nepriimtina veikla: neaktyvumas/dezertyravimas.\nPrizas nesuteikiamas."
+
+msgid "ribbon/banRecord"
+msgstr "Nepriimtinas žaidimas: neaktyvumas/dezertyravimas.\nApdovanojimai nesuteikti. Jūsų sunaikintų bangų rekordas nepagerintas."
+
+msgid "ribbon/noReward"
+msgstr "Jūsų komandai nepavyko atlaikyti pirmosios priešų bangos.\nPrizas nesuteikiamas."
+
+msgid "status/lose"
+msgstr "MŪŠIS BAIGĖSI"
+
+msgid "status/win"
+msgstr "PERGALĖ"
+
+msgid "subtitle/lose"
+msgstr "Išpuolis neatlaikytas"
+
+msgid "subtitle/win"
+msgstr "Puikiai padirbėta! Surinkome naujos informacijos."
+
+msgid "teamList/actions"
+msgstr "Greiti veiksmai"
+
+msgid "teamList/teammates"
+msgstr "Saviškiai"
+
+msgid "time/record"
+msgstr "NAUJAS\nREKORDAS!"
+
+msgid "title/lose/noWaves"
+msgstr "MŪŠIS BAIGĖSI"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "ĮVEIKTA %(phaseNumber)s BANGA"
+msgstr[1] "ĮVEIKTOS %(phaseNumber)s BANGOS"
+msgstr[2] "ĮVEIKTA %(phaseNumber)s BANGŲ"
+
+msgid "title/win"
+msgstr "VISOS BANGOS ĮVEIKTOS"
+
+msgid "tooltip/ban"
+msgstr "Nepriimtinas žaidimas: neaktyvumas/dezertyravimas. Jūsų asmeninis sunaikintų bangų rekordas nepagerintas."

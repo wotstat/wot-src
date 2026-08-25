@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "Купи"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "Ще бъде заредено следното снаряжение: %(consumables)s."
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "Купи снаряжение"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s члена на екипажа"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Вече имате екипаж за тази машина"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s члена на екипажа."
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "Набор на нови членове на екипажа"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "тук."
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Wargaming използва буквено-цифреното съчетание T-34 в общия му смисъл за обозначаване на истински танкове и по никакъв начин не е свързано с никакви притежатели на търговски марки със същото наименование. Научете повече {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "Зареди боекомплекта"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "Зареди снаряжение"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "Слот в Парка"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "Размяна"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "Безплатно"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "Набиране на %(count)s члена на екипажа"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "Под наем"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "Наеми"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "Наем за 30 дни"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "Наем за 3 дни"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "Наем за 7 дни"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "Наеми за %(days)s дни"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "Етап от \"Фронтова линия\""
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "Сезон на \"Фронтова линия\""
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "Етап на Битките за Класацията"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "Сезон на Битките за Класацията"
+
+msgid "buyVehicleWindow/restore"
+msgstr "Възстанови"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "постоянно"
+
+msgid "buyVehicleWindow/title"
+msgstr "Конфигурация"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "Възстановяване"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "Купи"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "Размяна"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "Размяна"
+
+msgid "carousel/filters/allVehicle"
+msgstr "Всички мои машини"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "Екипаж"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "Характеристики"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} битка"
+msgstr[1] "{{count}} битки"
+msgstr[2] "{{count}} битки"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} ден"
+msgstr[1] "{{count}} дни"
+msgstr[2] "{{count}} дни"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} час"
+msgstr[1] "{{count}} часа"
+msgstr[2] "{{count}} часа"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} победа"
+msgstr[1] "{{count}} победи"
+msgstr[2] "{{count}} победи"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "Щракнете, за да отидете на плейлистите с машините ви"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "Моите машини"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "Обучение, преквалификация и управление на екипажа."
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "Управление на екипажа"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "Персонализация на машини: прилагане на 2D/3D стилове и други елементи."
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "Персонализация"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "Натиснете, за да отворите"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "Информация за машини, изследване, сравнение и ремонт."
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "Управление на машини"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "ЗА МАШИНАТА"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "БРОНЯ"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "СРАВНЕНИЕ"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "АВТОМАТИЧНО ВРЪЩАНЕ"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "ВЪРНИ ЕКИПАЖ"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "ИЗПРАТИ В КАЗАРМАТА"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "ПРЕОБУЧЕНИЕ НА ЕКИПАЖА"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "УСКОРЕНО ОБСЛУЖВАНЕ"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "ПОЛЕВА МОДИФИКАЦИЯ"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "СМЕНИ НАЦИЯ"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "АКТИВЕН"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "ПРО БУСТЕР {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "УСКОРЕНО ОБУЧЕНИЕ"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "РЕМОНТ"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "ИЗСЛЕДВАЙ"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "ПОДОБРЕНИЯ"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "Можете да промените този избор по всяко време."
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "Про Бустерът е активен за тази машина"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "Можете да буствате машини само в режими \"Случайни битки\", \"Атака\", \"Укрепление\", \"Глобална карта\" и турнири."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "Несъвместим режим за Про Бустер"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "Можете да буствате само изследваеми и колекционерски машини ниво I–X."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "Несъвместима машина за Про Бустер"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "Вашият Про Бустер в момента е активен за {{vehicle}}. Можете да промените този избор след {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "Върнете се по-късно."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "Можете да промените този избор след {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "Про Бустерът е активен за тази машина"

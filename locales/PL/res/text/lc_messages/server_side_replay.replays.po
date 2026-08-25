@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "closeButtonLabel"
+msgstr "ZAMKNIJ"
+
+msgid "featureName"
+msgstr "POWTÓRKI"
+
+msgid "filter/apply"
+msgstr "Zastosuj filtr"
+
+msgid "filter/group/nation/title"
+msgstr "Kraj"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Poziom"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Poziom"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specjalizacja"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Typ pojazdu"
+
+msgid "filter/reset"
+msgstr "Zresetuj filtr"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Pokaż/ukryj członków załogi tego kraju."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Pokaż/ukryj skórki załogi tego kraju."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Pokaż/ukryj pojazdy tego kraju."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Pokaż/ukryj pojazdy tego typu."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Niszczyciele czołgów"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Działa samobieżne"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Czołgi ciężkie"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Czołgi lekkie"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Czołgi średnie"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nie znaleziono pojazdów spełniających\nkryteria wyszukiwania"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sortuj wg nazw pojazdów."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Nazwa"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sortuj wg poziomu pojazdów."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Poziom"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sortuj wg typu pojazdów."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Typ"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Nazwa"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Kliknij, aby zastosować ustawienia filtra."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Zastosuj wybrane filtry"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Kliknij, aby wyczyścić ustawienia filtra."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Wyczyść wszystkie filtry"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Pokaż tylko powtórki z okna czasowego"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "Ostatni %(count)s dzień"
+msgstr[1] "Ostatnie %(count)s dni"
+msgstr[2] "Ostatnie %(count)s dni"
+
+msgid "filterPopover/title"
+msgstr "Filtr powtórek"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Skonfiguruj filtr powtórek wg typu pojazdu, poziomu, kraju itd."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Filtruj wg parametrów"
+
+msgid "findReplay/buttonText/find"
+msgstr "Znajdź powtórkę"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Wyczyść wejście"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Obejrzyj powtórkę!"
+
+msgid "findReplay/errorMessage"
+msgstr "Nic nie odnaleziono. Zmień zapytanie"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Wpisz tutaj ARENA_ID..."
+
+msgid "findReplay/successMessage"
+msgstr "SI odnalazła powtórkę, która Cię interesuje! Miłego oglądania"
+
+msgid "page/heading/bestReplays"
+msgstr "NAJLEPSZE POWTÓRKI"
+
+msgid "page/heading/findReplay"
+msgstr "ZNAJDŹ POWTÓRKĘ (DLA DEWELOPERÓW)"
+
+msgid "page/heading/myReplays"
+msgstr "MOJE POWTÓRKI"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Ten dział zawiera informacje o najlepszych powtórkach od wszystkich graczy WoT"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Ten dział służy do wyszukiwania powtórek według określonego parametru"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Ten dział zawiera informacje o TWOICH najlepszych powtórkach"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "Najlepsze powtórki"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Znajdź powtórkę"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "Moje powtórki"
+
+msgid "statsParam/damageAssisted"
+msgstr "Najlepszy w Pomocy w zniszczeniu"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Najlepszy w Zablokowanych uszkodzeniach"
+
+msgid "statsParam/damageDealt"
+msgstr "Najlepszy w Zadanych uszkodzeniach"
+
+msgid "statsParam/earnedXp"
+msgstr "Najlepszy w Zdobytym doświadczeniu"
+
+msgid "statsParam/kills"
+msgstr "Najlepszy w Zniszczonych pojazdach"
+
+msgid "table/error/buttonText"
+msgstr "Odśwież"
+
+msgid "table/error/description"
+msgstr "Przepraszamy za chwilowe niedogodności. Odśwież stronę za chwilę."
+
+msgid "table/error/title"
+msgstr "Błąd wczytywania danych"
+
+msgid "table/header/damageAssisted"
+msgstr "Asysta"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Zablokowane uszkodzenia"
+
+msgid "table/header/damageDealt"
+msgstr "Uszkodzenia"
+
+msgid "table/header/date"
+msgstr "Data"
+
+msgid "table/header/earnedXp"
+msgstr "Zdobyte PD"
+
+msgid "table/header/kills"
+msgstr "Liczba zniszczeń pojazdów"
+
+msgid "table/header/map"
+msgstr "Mapa"
+
+msgid "table/header/marksOfMastery"
+msgstr "Odznaki mistrzowskie"
+
+msgid "table/header/player"
+msgstr "Nazwa gracza"
+
+msgid "table/header/vehicle"
+msgstr "Pojazd"
+
+msgid "table/noRecords/buttonText"
+msgstr "Zresetuj filtr"
+
+msgid "table/noRecords/title"
+msgstr "Nic nie znaleziono. Zmień ustawienia lub wyczyść filtry"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Kliknij, aby wyczyścić ustawienia filtra."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Wyczyść wszystkie filtry"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Wysokość asysty w uszkodzeniach gracza z tej powtórki."
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Asysta w uszkodzeniach"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Wysokość uszkodzeń zablokowanych przez gracza z tej powtórki."
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Uszkodzenia zablokowane przez pancerz"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Wysokość uszkodzeń zadanych przez gracza z tej powtórki."
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Zadane uszkodzenia"
+
+msgid "table/tooltip/date/body"
+msgstr "Data nagrania powtórki."
+
+msgid "table/tooltip/date/header"
+msgstr "Data powtórki"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Liczba PD zdobytych przez gracza z tej powtórki."
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Zdobyte PD"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Medale epickie zdobyte przez gracza z tej powtórki."
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Medale epickie"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Kliknij, aby dodać tę powtórkę do Ulubionych powtórek."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Ulubione"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Kliknij, aby usunąć tę powtórkę z Ulubionych powtórek."
+
+msgid "table/tooltip/kills/body"
+msgstr "Liczba pojazdów zniszczonych przez gracza z tej powtórki."
+
+msgid "table/tooltip/kills/header"
+msgstr "Zniszczenia"
+
+msgid "table/tooltip/map/body"
+msgstr "Mapa powtórki."
+
+msgid "table/tooltip/map/header"
+msgstr "Mapa"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Ważne odznaki zdobyte przez gracza z tej powtórki."
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Odznaki mistrzowskie"
+
+msgid "table/tooltip/player/body"
+msgstr "Nazwa gracza z powtórki."
+
+msgid "table/tooltip/player/header"
+msgstr "Nazwa gracza"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Pojazd gracza, w którym nagrano powtórkę."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Pojazd"
+
+msgid "tableInfo/amount"
+msgstr "Wyświetlone powtórki: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Filtr"
+
+msgid "waitingSpinner/message"
+msgstr "Ładowanie zawartości..."

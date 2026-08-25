@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_light_aggressive_detection/descr/active"
+msgstr "Il raggio visivo aumenterà del {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose} per {colorTagOpen}%(duration)s s{colorTagClose}.\n\nIl timer si azzera quando un veicolo nemico viene distrutto su tuo avvistamento."
+
+msgid "comp7_light_aggressive_detection/name"
+msgstr "Ricognizione attiva"
+
+msgid "comp7_light_ally_support/descr/active"
+msgstr "Per {colorTagOpen}%(duration)s s{colorTagClose}, il tuo equipaggio riceve un bonus del {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} all'efficienza per ogni veicolo nella tua squadra con un ruolo differente.\n\nIl tuo veicolo sarà sempre incluso nel calcolo di questo bonus."
+
+msgid "comp7_light_ally_support/name"
+msgstr "Uno per tutti"
+
+msgid "comp7_light_aoe_heal/descr/active"
+msgstr "Per {colorTagOpen}%(duration)s s{colorTagClose}, viene creata un'area con raggio di {colorTagOpen}%(radius)s m{colorTagClose} attorno al tuo veicolo che ripristina {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} punti integrità al tuo veicolo e a quelli alleati."
+
+msgid "comp7_light_aoe_heal/name"
+msgstr "Riparazioni sul campo"
+
+msgid "comp7_light_aoe_inspire/descr/active"
+msgstr "Per {colorTagOpen}%(duration)s s{colorTagClose}, il tuo equipaggio e quelli alleati ricevono un bonus del {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} all'efficienza."
+
+msgid "comp7_light_aoe_inspire/name"
+msgstr "Ispirazione"
+
+msgid "comp7_light_berserk/descr/active"
+msgstr "Per {colorTagOpen}%(duration)s s{colorTagClose}, il tempo di ricarica del cannone è ridotto del {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}. Inoltre, la dispersione dopo aver fatto fuoco, durante il movimento e durante la rotazione di scafo e torretta è ridotta del {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nIl timer si azzera causando danni tramite speronamento o facendo fuoco da una distanza inferiore a {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_light_berserk/name"
+msgstr "Furia"
+
+msgid "comp7_light_concentration/descr/active"
+msgstr "Per {colorTagOpen}%(duration)s s{colorTagClose}, il tempo di puntamento e la dispersione del cannone durante il movimento e durante la rotazione di scafo e torretta si riducono del {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nMentre questa Abilità di ruolo è attiva, il tempo di ricarica tra i colpi si riduce di {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s s{colorTagClose}."
+
+msgid "comp7_light_concentration/name"
+msgstr "Concentrazione sul bersaglio"
+
+msgid "comp7_light_fast_recharge/descr/active"
+msgstr "• Per un sistema di ricarica con caricatore:\nIl tempo di ricarica rimanente del caricatore si riduce del: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n• Per un sistema con autoricaricatore:\nTutti i colpi sparati nel ciclo attuale saranno ricaricati più velocemente del: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\nQuest'abilità può essere attivata soltanto durante il processo di ricarica.\n\n• Per cannoni automatici con controllo del surriscaldamento:\nIl surriscaldamento del cannone si riduce del {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose} del suo possibile massimo.\n\nQuesta abilità può essere attivata solo se il cannone è surriscaldato."
+
+msgid "comp7_light_fast_recharge/name"
+msgstr "Rapidità di mano"
+
+msgid "comp7_light_hunter/descr/active"
+msgstr "Azzera il numero di veicoli nemici danneggiati con proiettili.\n\nPer {colorTagOpen}%(duration)s s{colorTagClose}, il tuo veicolo recupererà {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} HP per ogni veicolo nemico danneggiato da un colpo al momento dell'attivazione."
+
+msgid "comp7_light_hunter/descr/passive"
+msgstr "Il tempo di ricarica del cannone si riduce del {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose} per ogni veicolo nemico danneggiato con un proiettile."
+
+msgid "comp7_light_hunter/name"
+msgstr "Cacciatore di taglie"
+
+msgid "comp7_light_juggernaut/descr/active"
+msgstr "Per {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}:\n• Il danno subito è ridotto del {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• La velocità massima in avanti è aumentata di {colorTagOpen}%(fwMaxSpeedBonus)s km/h{colorTagClose}\n• La velocità massima in retromarcia è aumentata di {colorTagOpen}%(bkMaxSpeedBonus)s km/h{colorTagClose}\n• La potenza del motore è aumentata del {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• Il danno da speronamento a veicoli nemici è aumentato del {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\nQuando questa Abilità di ruolo è attiva, i tuoi cingoli saranno distrutti da un singolo colpo."
+
+msgid "comp7_light_juggernaut/name"
+msgstr "Colosso"
+
+msgid "comp7_light_march/descr/active"
+msgstr "Per {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}, la potenza del motore del tuo veicolo aumenterà del {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, la sua velocità massima in avanti aumenterà di {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h e il suo valore di mimetismo aumenterà del {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}."
+
+msgid "comp7_light_march/name"
+msgstr "Marcia forzata"
+
+msgid "comp7_light_recon/descr/active"
+msgstr "Un aereo da ricognizione volerà sopra l'area selezionata entro {colorTagOpen}%(delay)s s{colorTagClose}. I veicoli nemici individuati in un raggio di {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} rimarranno avvistati per {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;s{colorTagClose}. Un'icona separata sarà mostrata per un giocatore individuato tramite questa abilità con un ritardo di {colorTagOpen}%(lampDelay)s s{colorTagClose}.\n\nQuesta abilità diventa disponibile per l'uso {colorTagOpen}%(startupDelay)s s{colorTagClose} dopo l'inizio della battaglia."
+
+msgid "comp7_light_recon/name"
+msgstr "Volo di ricognizione"
+
+msgid "comp7_light_redline/descr/active"
+msgstr "L'aera selezionata sarà bombardata da un attacco d'artiglieria dopo {colorTagOpen}%(delay)s s{colorTagClose}.\n\nI bersagli colpiti in un raggio di {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} riceveranno {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} HP di danno e rimarranno storditi per {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s s{colorTagClose}."
+
+msgid "comp7_light_redline/name"
+msgstr "Fuoco di copertura"
+
+msgid "comp7_light_risky_attack/descr/active"
+msgstr "Accelerazione\n\nPer {colorTagOpen}%(duration)s s{colorTagClose}, la potenza del motore aumenta del {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, la velocità massima in avanti aumenta di {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h e la velocità massima in retromarcia aumenta di {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/h.\n\nRipristino\n\nPer {colorTagOpen}%(healDuration)s s{colorTagClose}, il tuo veicolo recupera {colorTagOpen}%(baseHeal)s{colorTagClose} HP {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose} dell'integrità persa mentre Accelerazione è attiva."
+
+msgid "comp7_light_risky_attack/name"
+msgstr "Nuova energia"
+
+msgid "comp7_light_role_skill/descr/startLevel"
+msgstr " \n\nAll'inizio di una battaglia, il livello di carica dell'Abilità di ruolo è{colorTagOpen} %(startLevel)s{colorTagClose}."
+
+msgid "comp7_light_sniper/descr/active"
+msgstr "Per {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}, la dispersione a 100 m è pari a {colorTagOpen}%(dispersionFactor)s m{colorTagClose}.\n\nSe il tuo veicolo non è visibile al momento dello sparo, il danno causato dal proiettile aumenta del {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}. \n\nIl timer si azzera causando danni da una distanza di oltre {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_light_sniper/name"
+msgstr "Centro perfetto"
+
+msgid "comp7_light_sure_shot/descr/active"
+msgstr "Per {colorTagOpen}%(duration)s s{colorTagClose}, la dispersione del cannone durante il movimento e durante la rotazione di scafo e torretta si riduce del {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nMentre quest'abilità è attiva, causare danni sparando riduce il tempo di ricarica del cannone del {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose} della percentuale d'integrità sottratta al veicolo nemico.\n\nDistruggere un veicolo nemico riduce il tempo di ricarica del cannone del {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}."
+
+msgid "comp7_light_sure_shot/name"
+msgstr "Colpo pulito"

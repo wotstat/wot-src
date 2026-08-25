@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "Az energialövés használatra kész."
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "A vámpírlövés használatra kész."
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "A kábítólövés használatra kész."
+
+msgid "LS_damageShieldReady"
+msgstr "Az energiapajzs használatra kész."
+
+msgid "LS_doubleDamageReady"
+msgstr "A dupla sebzés használatra kész."
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "A Helyzetfüggő sebzés készen áll."
+
+msgid "LS_fastReloadReady"
+msgstr "A gyors újratöltés használatra kész."
+
+msgid "LS_healSituationalReady"
+msgstr "A Helyzetfüggő javítás készen áll."
+
+msgid "LS_invisibilityReady"
+msgstr "Az árnyékgyógyítás használatra kész."
+
+msgid "LS_nitroReady"
+msgstr "A turbótöltő használatra kész."
+
+msgid "LS_pickupSouls"
+msgstr "Összegyűjtöttél %(souls)s miriumot"
+
+msgid "LS_selfRepairReady"
+msgstr "A vészhelyzeti javítás használatra kész."
+
+msgid "LS_situationalNitroReady"
+msgstr "A Helyzetfüggő mobilitás készen áll."
+
+msgid "LS_teamRepairKitReady"
+msgstr "A csoportos javítás használatra kész."
+
+msgid "LS_teamRepairKitUsed"
+msgstr "%(player)s aktiválta a csoportos javítást."
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "Csoportos javítás aktiválva."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "Figyelj erre a zónára: %(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "Védd meg az ATLAS-t!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "VÉDD MEG AZ ATLAST"
+
+msgid "arena/marker/move_to_camp"
+msgstr "Megyek a zónába!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "Az ATLAS védelme"
+
+msgid "arena/phase"
+msgstr "Fázis: %(total)s / %(current)s"
+
+msgid "arena/wave"
+msgstr "Hullám: %(current)s / %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Sündisznók&nbsp;közelednek!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Alfa sündisznó&nbsp;közeledik!"
+
+msgid "battleHint/clearTheArea"
+msgstr "Tisztítsd meg a területet"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "Siess! A Zero már közel jár az&nbsp;ATLAS-hoz!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "A Zero megsemmisült!\nMaradék ellenség: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "Megsemmisítendő ellenségek: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "adat, %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Jármű megjavítva"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "Pajzs biztosítva"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "Ellenség elkábítva"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "%(name)s obeliszk megsemmisítve!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Regenerálás"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "Barikád"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "Zavar"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "Átjárókat észleltünk! Ellenség érkezik!"
+
+msgid "battleHint/hunter"
+msgstr "Vadászok&nbsp;közelednek!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "Hullám megsemmisítve!"
+
+msgid "battleHint/leftToDestroy"
+msgstr "Megsemmisítendő ellenségek:"
+
+msgid "battleHint/missing_squad"
+msgstr "Közeledik az Elveszett szakasz!"
+
+msgid "battleHint/newWave"
+msgstr "Hullám: {current} / {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "Megjelent egy obeliszk!"
+
+msgid "battleHint/stopConvoy"
+msgstr "Állítsd meg a Zerót!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "Állítsd meg a Zerót,\nmielőtt eléri az ATLAS-t!"
+
+msgid "battleHint/trapper"
+msgstr "Semmisítsd meg a Prémvadászt, hogy&nbsp;megakadályozd a megsemmisülési zónák megjelenését."
+
+msgid "battleHint/turret"
+msgstr "A moszkitók felébredtek!"
+
+msgid "battleHint/waveFinished"
+msgstr "Hullám megsemmisítve!\nSzerveződjetek újra, és készüljetek fel!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "Szerveződjetek újra, és készüljetek fel!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "Az ellenséges utánpótlás&nbsp;megérkezett!"
+
+msgid "common/close"
+msgstr "BEZÁRÁS"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "Időtartam: %(time)s mp"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Zóna általi sebzés"
+
+msgid "damageLog/static_death_zone"
+msgstr "Zóna általi sebzés"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "Lángra lobbantva pirokinézissel"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "Energiacsapásos sebzés"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "Robbanásos sebzés"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "Életlopásos sebzés"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "Helyzetfüggő sebzés aktiválva"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "Helyzetfüggő javítás aktiválva"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "Energialövéses sebzés"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "Vámpírlövéses sebzés"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "Kábítólövéses sebzés"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "Sebezhetetlen modulok"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "Helyzetfüggő mobilitás aktiválva"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "Visszaállítás"
+
+msgid "efficiencyRibbons/repair"
+msgstr "Megjavított jármű"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "Jármű megjavítva a következő által:"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "Csapattárs által megjavított jármű"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "Megjavított csapattársak"
+
+msgid "eventStats/activeWave"
+msgstr "%(num)s. hullám"
+
+msgid "eventStats/difficulty"
+msgstr "Nehézség: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "Túlélő: Terra Nord"
+
+msgid "eventStats/globalTask"
+msgstr "Feladat: Semmisítsd meg az összes ellenséges hullámot"
+
+msgid "eventStats/mission"
+msgstr "Semmisítsd meg az összes ellenséges hullámot"
+
+msgid "eventStats/tableCaption"
+msgstr "Az osztag tagjai"
+
+msgid "help/description_0"
+msgstr "Semmisítsd meg az összes ellenséges hullámot a győzelemhez.\nAz ellenség minden egymást követő hullámmal egyre erősebbé válik."
+
+msgid "help/description_1"
+msgstr "A taktikai eszközök megfelelő kombinációja hihetetlenül erős lehet.\nNe feledd: a direktívák és az összes lőszertípus ingyenesen használható a Túlélő módban."
+
+msgid "help/description_2"
+msgstr "Az obeliszk megsebzése a sebzés egy részét az ellenséges járművekre hárítja át, míg a megsemmisítése véletlenszerű bónuszt biztosít."
+
+msgid "help/description_3"
+msgstr "Védd meg minden áron az ATLAS-t az echo-tankok legjobbjától, a Zerótól. Ha eléri az ATLAS-t, elpusztítja azt, és elveszíted a csatát."
+
+msgid "help/title"
+msgstr "TÚLÉLŐ: TERRA NORD"
+
+msgid "help/title_0"
+msgstr "AZ ELLENSÉGES TÁMADÁS HULLÁMAI"
+
+msgid "help/title_1"
+msgstr "TÚLÉLÉSI TIPPEK"
+
+msgid "help/title_2"
+msgstr "HASZNÁLD AZ OBELISZKEKET A CSATÁBAN"
+
+msgid "help/title_3"
+msgstr "VÉDD MEG AZ ATLAST"
+
+msgid "helpScreen/hint/description"
+msgstr "a játékmód szabályainak megtekintéséhez"
+
+msgid "helpScreen/hint/press"
+msgstr "Nyomd meg"
+
+msgid "hitMarker/useless"
+msgstr "Hatástalan!"
+
+msgid "loading/description_0"
+msgstr "Semmisítsd meg az összes ellenséges hullámot a győzelemhez.\nAz ellenség minden egymást követő hullámmal egyre erősebbé válik."
+
+msgid "loading/description_1"
+msgstr "A taktikai eszközök megfelelő kombinációja hihetetlenül erős lehet.\nNe feledd: a direktívák és az összes lőszertípus ingyenesen használható a Túlélő módban."
+
+msgid "loading/description_2"
+msgstr "Az obeliszk megsebzése a sebzés egy részét az ellenséges járművekre hárítja át, míg a megsemmisítése véletlenszerű bónuszt biztosít."
+
+msgid "loading/description_3"
+msgstr "Védd meg minden áron az ATLAS-t az echo-tankok legjobbjától, a Zerótól. Ha eléri az ATLAS-t, elpusztítja azt, és elveszíted a csatát."
+
+msgid "loading/title"
+msgstr "Betöltés..."
+
+msgid "loading/title_0"
+msgstr "AZ ELLENSÉGES TÁMADÁS HULLÁMAI"
+
+msgid "loading/title_1"
+msgstr "TÚLÉLÉSI TIPPEK"
+
+msgid "loading/title_2"
+msgstr "HASZNÁLD AZ OBELISZKEKET A CSATÁBAN"
+
+msgid "loading/title_3"
+msgstr "VÉDD MEG AZ ATLAST"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "A(z) [%(name)s] nem használható: a motor tönkrement."
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "A(z) [%(name)s] nem használható: a löveg megsérült."
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "A löveg töltve van."
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "A(z) [%(name)s] nem használható: nincs elég mirium az eszköz aktiválásához."
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "A jármű nem sérült."
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "A(z) [%(name)s] nem használható: a jármű elsüllyedt."
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "A(z) [%(name)s] nem használható: a jármű kigyulladt."
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "A(z) [%(name)s] nem használható: a jármű felborult."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "%(target)s csapattársat %(attacker)s semmisítette meg robbanással."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "%(target)s csapattárs összeroncsolódott."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "%(target)s csapattársat megsemmisítette a megsemmisülési zóna."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "%(target)s csapattárs megsemmisült."
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "Ha az osztagodnak sikerül megsemmisítenie ezt a hullámot."
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "ÚJRAÉLEDSZ"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "A csatád véget ért.\nJól teljesítettél!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "A megsemmisülési zóna semmisítette meg a járművet"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "Energiacsapás semmisítette meg a járművet"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "Pirokinézis semmisítette meg a járművet"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "Életlopás semmisítette meg a járművet"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "Robbanás semmisítette meg a járművet"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "A jármű összeroncsolódott"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "[%(device)s] modul felrobbant egy játékos lövése nyomán"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "A jármű tűzben semmisült meg"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "A jármű megsemmisült. Az idő lejárt."
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "A jármű egy ellenség lövése által semmisült meg"
+
+msgid "prebattle/description/message"
+msgstr "Feladat: Semmisítsd meg az összes ellenséges hullámot"
+
+msgid "prebattle/description/title"
+msgstr "Túlélő: %(difficulty)s nehézség"
+
+msgid "prebattle/difficulty/107"
+msgstr "Normál"
+
+msgid "prebattle/difficulty/108"
+msgstr "Haladó"
+
+msgid "prebattle/difficulty/109"
+msgstr "Brutális"
+
+msgid "prebattle/waiting/title"
+msgstr "Várakozás a játékosokra..."
+
+msgid "radialMenu/attention_here"
+msgstr "Védekezés kérése"
+
+msgid "radialMenu/cancel"
+msgstr "Mégse"
+
+msgid "radialMenu/confirm"
+msgstr "Értettem!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "Megyek a zónába!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "Védekezés"
+
+msgid "radialMenu/obelisk"
+msgstr "Támadom az obeliszket!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "Semmisítsd meg az obeliszket!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "Energiapajzs"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "Újra talpon..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "Hagyd el\na veszélyzónát!"
+
+msgid "teamList/teammates"
+msgstr "Csapattársak"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "Hangkommunikáció kikapcsolása"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "Hangkommunikáció bekapcsolása"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "Nyomd meg a beszédhez"

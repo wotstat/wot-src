@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Begränsad växelkurs"
+msgstr[1] "Begränsad växelkurs %(index)s"
+msgstr[2] "Begränsad växelkurs %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "Minst en gräns överskriden. En del av betalningen görs med nästa växelkurs."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Grundväxelkurs"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "Nästa tillämpliga växelkurs"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Antal aktiva begränsade växelkurser: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Totalvärde för växelkursen: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "Efter växling:"
+
+msgid "common/cancel"
+msgstr "Avbryt"
+
+msgid "common/combinedDiscount"
+msgstr "Kombinerad rabatt"
+
+msgid "common/exchange"
+msgstr "Växla"
+
+msgid "common/exchangeRate"
+msgstr "Växelkurs"
+
+msgid "common/limitExceeded"
+msgstr "Gränsen nådd. Växlingen genomförs med kombinerad rabatt."
+
+msgid "common/limitOverExceeded"
+msgstr "Gränsen nådd: Kombinerad rabatt används."
+
+msgid "common/limitRestrictions"
+msgstr "LÄS MER"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Grundväxelkurs: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Allmän växelkurs: %(rateFrom)s = %(rateTo)s"
+
+msgid "exchange/information"
+msgstr "%(gold)s guld inväxlat. Mottagna krediter: %(res)s."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Personlig växelkurs: %(rateFrom)s = %(rateTo)s"
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Personlig växelkurs: %(rateFrom)s = %(rateTo)s. Gränsen nådd"
+
+msgid "exchangeXP/information"
+msgstr "%(res)s erfarenhet konverterad till fri erfarenhet. Guld spenderat: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "Tillgänglig erfarenhet:"
+
+msgid "experienceExchange/paid"
+msgstr "Spenderat"
+
+msgid "experienceExchange/received"
+msgstr "Mottaget"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Sortera efter klass"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Sortera efter fältanpassningsnivå"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Sortera efter vagnsnamn"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Sortera efter nation"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Sortera efter vagnstyp"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Sortera efter vald vagn"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Sortera efter intjänad erfarenhet"
+
+msgid "goldExchange/paid"
+msgstr "Från"
+
+msgid "goldExchange/received"
+msgstr "Till"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s guld = %(resourceRate)s krediter"
+
+msgid "notification/discountDescription/message"
+msgstr "Personlig växelkurs"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "Till växling"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Ny växelkurs tillgänglig!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Grundväxelkurs"
+
+msgid "tooltip/common/generalRate"
+msgstr "Allmän växelkurs"
+
+msgid "tooltip/common/personalRate"
+msgstr "Personlig växelkurs"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Fördelaktig växelkurs"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Tillfällig växelkurs"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "Mängden kan endast beräknas efter du köpt guld."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Guldsaldo efter växling"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s guld = %(resourceRate)s fri erfarenhet"

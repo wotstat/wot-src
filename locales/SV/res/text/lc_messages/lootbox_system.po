@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "Besättning och träning"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "Utseenden"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "Utrustning och anvisningar"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "Övrigt"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "Vagnar"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "Uppfattat!"
+
+msgid "autoOpenView/title"
+msgstr "MOTTAGNA BELÖNINGAR"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Uppfattat!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "Anvisning"
+
+msgid "bonuses/description/booster"
+msgstr "Personlig reserv"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Besättningsutseende"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standardutrustning"
+
+msgid "bonuses/description/style"
+msgstr "2D-stil"
+
+msgid "bonuses/description/style3D"
+msgstr "3D-stil"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "Ritningsfragment (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "Allmänt ritningsfragment"
+
+msgid "bonuses/label/bpcoin"
+msgstr "Stridspassmarker"
+
+msgid "boxTooltip/description/text/default"
+msgstr "Kan innehålla vagnar, ekonomiska resurser och annat värdefullt.\nLådor är tillgängliga i affären i spelet."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "öppningar kvar till garanterad belöning, om du inte får den tidigare."
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "Lådor är tillgängliga i affären i spelet."
+
+msgid "common/backButton"
+msgstr "TILLBAKA"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "Taktisk låda"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "TAKTISK LÅDA"
+
+msgid "common/closeButton"
+msgstr "STÄNG"
+
+msgid "common/footer/checkbox"
+msgstr "Öppningsanimation"
+
+msgid "common/getButton/lowerCase"
+msgstr "Skaffa fler"
+
+msgid "common/getButton/upperCase"
+msgstr "SKAFFA FLER"
+
+msgid "common/infoButton"
+msgstr "Innehåll"
+
+msgid "common/loader"
+msgstr "Lådöppnande..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) st."
+msgstr[1] "%(count) st."
+msgstr[2] "%(count) st."
+
+msgid "common/rewards/multiplier"
+msgstr "{count} st"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "dag"
+msgstr[1] "dagar"
+msgstr[2] "dagar"
+
+msgid "common/selectTooltip"
+msgstr "Lådor saknas för att kunna öppna {{count}} samtidigt"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Öppna lådor för att se statistik."
+
+msgid "common/statistics/header"
+msgstr "Öppnade lådor: %(count)"
+
+msgid "common/statsButton"
+msgstr "Statistik"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "Avbryt"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Din belöningshistorik raderas."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "Återställ"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "Återställ statistik?"
+
+msgid "entryPoint/boxes"
+msgstr "TILL LÅDOR"
+
+msgid "entryPoint/count"
+msgstr "%(count) st"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "999+ st"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Det här är speciallådor med nytt och unikt innehåll. De kan erhållas i affären i spelet."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Evenemanget avslutas om"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Vi har fått tekniska problem och har pausat evenemanget medan vi löser det."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Ej tillgänglig för tillfället"
+
+msgid "eventName/lowerCase"
+msgstr "Fältunderhåll"
+
+msgid "eventName/upperCase"
+msgstr "FÄLTUNDERHÅLL"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count):a"
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count):e"
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count):a"
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count):e"
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "var %(count) öppnande"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "vagn"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "Du är garanterad en %(item) %(count). Räknaren nollställs om du får en tidigare."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Om du redan äger alla vagnar får du guld istället."
+
+msgid "guaranteedTitle/text"
+msgstr "%(name) inom %(count) öppningar"
+
+msgid "guaranteedTitle/textName"
+msgstr "Garanterad belöning"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "Öppna"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "Evenemanget avslutas om %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Om du inte öppnar alla lådor innan evenemanget avslutas kommer de öppnas automatiskt."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Om du redan äger alla vagnar i listan över möjligt innehåll kommer alla vagnar du får kompenseras med respektive värde i guld."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Du är garanterad en Premiumvagn klass VIII–X för varje %(guaranteed0)s lådor du öppnar. Om du öppnar så många lådor utan att få en vagn så kommer den %(guaranteed0)s:e&zwnbsp;lådan (beroende på typ av låda) innehålla en Premiumvagn klass VIII–X du inte redan äger. Därefter nollställs räkningen."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Öppna automatiskt"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Kompensation"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Garanterad belöning"
+
+msgid "infoPage/header/lootListLink"
+msgstr "Se en lista över möjligt innehåll på spelportalen"
+
+msgid "infoPage/header/probability/description"
+msgstr "Vinstplan"
+
+msgid "infoPage/header/probability/title"
+msgstr "Grupp"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Kan inte ge mer än en belöning från varje grupp"
+
+msgid "infoPage/header/rewards/title"
+msgstr "Belöningar"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "Öppna fler"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Från %(name) (%(boxesCount) lådor öppnade)"
+
+msgid "multipleRewardView/header/title/"
+msgstr "MOTTAGNA BELÖNINGAR"
+
+msgid "noBoxesView/description/"
+msgstr "Lådor är tillgängliga i affären i spelet"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "Till affären"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Till tillgängliga lådor"
+
+msgid "preview/backLabel"
+msgstr "TILL LÅDOR"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Tillgängliga: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Inga lådor tillgängliga"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "Fortsätt"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "för %(vehicleInfo)"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "3D-stilen %(style)"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "Evenemanget %(eventName)s har avslutats."
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "Alla kvarvarande lådor kommer öppnas. Innehållet kommer läggas till ditt konto."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Visa belöningar"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Belöningar mottagna"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Vi har lagt till innehåll du inte tog emot under evenemanget."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "Evenemanget är för tillfället ej tillgänglig på grund av underhåll."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "Evenemanget åter tillgängligt. Vi ber om ursäkt för besväret."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s st)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "Fel"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "Vänta tills föregående funktion slutförts."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "Funktionen ej tillgänglig för närvarande. Försök senare."
+
+msgid "serviceChannelMessages/start/button"
+msgstr "Gå till evenemanget"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "Evenemanget %(eventName)s har börjat."
+
+msgid "serviceChannelMessages/start/text"
+msgstr "Bara till %(date)s: Premiumvagnar och annat värdefullt spelinnehåll!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "Kan inte återställa statistik. Försök igen senare."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "Samt"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "Öppna fler"
+
+msgid "singleRewardView/header/title/"
+msgstr "MOTTAGNA BELÖNINGAR"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "Unik besättningsmedlem"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "3D-tillbehör"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "Uppdrag för 5× erf. per strid"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "Anvisningar"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "Ritningsfragment"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "Häften"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "Utbildningshäften"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "Förnödenheter"
+
+msgid "statisticsRewards/label/credits"
+msgstr "Krediter"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "Läroböcker"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "Lärobok"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "Uppdrag för 3× besättningserfarenhet"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "Obligationer"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "Utseenden"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "Förbättrad utrustning"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "Komponenter"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "Experimentell utrustning"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "Fri erfarenhet"
+
+msgid "statisticsRewards/label/gold"
+msgstr "Guld"
+
+msgid "statisticsRewards/label/guide"
+msgstr "Läroplaner"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "Läroplaner"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "Mentorslicens"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "Standardutrustning"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "Personliga reserver"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "WoT-Premiumkonto"
+
+msgid "statisticsRewards/label/rations"
+msgstr "Fältransoner"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "Omskolningsorder"
+
+msgid "statisticsRewards/label/style"
+msgstr "2D-stilar"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "3D-stilar"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "Besättningsmedlemmar"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "Erövrad utrustning"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "Vagnar"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "Återställ statistik"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "Klicka för att återställa all statistik."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "Och ytterligare %(count) belöning."
+msgstr[1] "Och ytterligare %(count) belöningar."
+msgstr[2] "Och ytterligare %(count) belöningar."
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "%(label)"
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "%(count) st"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "Nationellt ritningsfragment"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). %(label) för %(vehicleInfo)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "Kompenserade stilar: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "Kompenserade vagnar: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "Kompensation för vagnar redan i ditt garage."

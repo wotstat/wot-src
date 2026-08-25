@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_aggressive_detection/descr/active"
+msgstr "Το εύρος ορατότητας αυξάνεται κατά {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose} για {colorTagOpen}%(duration)s sec{colorTagClose}.\n\nΤο χρονόμετρο θα ξεκινά ξανά κάθε φορά που ένα εχθρικό όχημα καταστρέφεται με συνεισφορά από δικό σας εντοπισμό."
+
+msgid "comp7_aggressive_detection/name"
+msgstr "Ενεργός Εντοπισμός"
+
+msgid "comp7_ally_support/descr/active"
+msgstr "Για {colorTagOpen}%(duration)s sec{colorTagClose}, το πλήρωμά σας θα λάβει {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} στο μπόνους επιδόσεων του πληρώματος για κάθε όχημα της ομάδας σας που έχει διαφορετικό ρόλο στη μάχη.\n\nΤο δικό σας όχημα πάντα θα προσμετράται στο μπόνους."
+
+msgid "comp7_ally_support/name"
+msgstr "Ένας Για Όλους"
+
+msgid "comp7_aoe_heal/descr/active"
+msgstr "Για {colorTagOpen}%(duration)s sec{colorTagClose}, μία περιοχή ακτίνας {colorTagOpen}%(radius)s m{colorTagClose} δημιουργείται γύρω από το όχημά σας, μέσα στην οποία το όχημά σας και τα άλλα οχήματα της ομάδας σας αποκαθιστούν {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} hit points."
+
+msgid "comp7_aoe_heal/name"
+msgstr "Επισκευές Στη Μάχη"
+
+msgid "comp7_aoe_inspire/descr/active"
+msgstr "Για {colorTagOpen}%(duration)s sec{colorTagClose}, το πλήρωμά σας και τα πληρώματα των άλλων οχημάτων της ομάδας σας θα λάβουν μπόνους {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} στο μπόνους επιδόσεων του πληρώματος."
+
+msgid "comp7_aoe_inspire/name"
+msgstr "Έμπνευση"
+
+msgid "comp7_berserk/descr/active"
+msgstr "Για {colorTagOpen}%(duration)s sec{colorTagClose}, ο χρόνος γέμισης του πυροβόλου θα μειωθεί κατά {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}. Επίσης, η ευστοχία του πυροβόλου μετά από βολή, κατά τη διάρκεια κίνησης και κατά την περιστροφή του σκάφους ή του πυργίσκου, θα αυξηθεί κατά {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nΤο χρονόμετρο θα ξεκινά ξανά κάθε φορά που προκαλείτε φθορά με πυρά ή εμβολισμό σε εχθρικό όχημα από απόσταση μικρότερη των {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_berserk/name"
+msgstr "Φρενίτιδα"
+
+msgid "comp7_concentration/descr/active"
+msgstr "Για {colorTagOpen}%(duration)s sec{colorTagClose}, η ευστοχία και η ταχύτητα στόχευσης του πυροβόλου, κατά τη διάρκεια κίνησης και κατά την περιστροφή του σκάφους ή του πυργίσκου, θα αυξάνονται κατά {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nΌσο η συγκεκριμένη Ικανότητα Ρόλου είναι ενεργή, ο χρόνος γέμισης του πυροβόλου θα μειώνεται κατά {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s sec{colorTagClose}."
+
+msgid "comp7_concentration/name"
+msgstr "Εστίαση Στον Στόχο"
+
+msgid "comp7_fast_recharge/descr/active"
+msgstr "• Για τα πυροβόλα με αυτόματη γέμιση:\nΟ χρόνος που απομένει για την ολική γέμιση μειώνεται κατά {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}.\n\n• Για τα πυροβόλα με αυτόματη επαναγέμιση:\nΌλες οι βολές του τρέχοντα κύκλου γέμισης θα γίνουν γρηγορότερα διαθέσιμες κατά {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\nΗ συγκεκριμένη ικανότητα μπορεί να ενεργοποιηθεί μόνο κατά τη διαδικασία της γέμισης του πυροβόλου.\n\n• Για αυτόματα πυροβόλα με μηχανισμό υπερθέρμανσης:\nΗ μέγιστη θέρμανση του πυροβόλου μειώνεται κατά {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose}.\n\nΗ συγκεκριμένη ικανότητα μπορεί να ενεργοποιηθεί μόνο όταν το πυροβόλο έχει θερμανθεί."
+
+msgid "comp7_fast_recharge/name"
+msgstr "Έμπειρο Χέρι"
+
+msgid "comp7_hunter/descr/active"
+msgstr "Μηδενίζει το πλήθος των εχθρικών οχημάτων που έχουν δεχθεί φθορά από πυρά μέχρι τώρα.\n\nΓια {colorTagOpen}%(duration)s sec{colorTagClose}, το όχημά σας θα αποκαθιστά {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} των hit points του, για κάθε εχθρικό που δέχεται φθορά από πυρά, από τη στιγμή της ενεργοποίησης και μετά."
+
+msgid "comp7_hunter/descr/passive"
+msgstr "Ο χρόνος γέμισης του πυροβόλου μειώνεται κατά {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose} για κάθε εχθρικό όχημα που έχει δεχθεί φθορά από πυρά."
+
+msgid "comp7_hunter/name"
+msgstr "Κυνηγός Επικηρυγμένων"
+
+msgid "comp7_juggernaut/descr/active"
+msgstr "Για {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s sec{colorTagClose}:\n• Η προσλαμβανόμενη φθορά μειώνεται κατά {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• Η τελική ταχύτητα αυξάνεται κατά {colorTagOpen}%(fwMaxSpeedBonus)s km/h{colorTagClose}\n• Η μέγιστη ταχύτητα οπισθοπορείας αυξάνεται κατά {colorTagOpen}%(bkMaxSpeedBonus)s km/h{colorTagClose}\n• Η ισχύς του κινητήρα αυξάνεται κατά {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• Η φθορά στα εχθρικά οχήματα από εμβολισμό αυξάνεται κατά {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\nΌταν αυτή η Ικανότητα Ρόλου είναι ενεργή, οι ερπύστριές σας θα καταστρέφονται από μία και μόνη βολή."
+
+msgid "comp7_juggernaut/name"
+msgstr "Οδοστρωτήρας"
+
+msgid "comp7_march/descr/active"
+msgstr "Για {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s sec{colorTagClose}, η ισχύς του κινητήρα σας αυξάνεται κατά {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, η τελική ταχύτητα του οχήματός σας αυξάνεται κατά {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h και οι συντελεστές κάλυψης αυξάνονται κατά {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}."
+
+msgid "comp7_march/name"
+msgstr "Πορεία"
+
+msgid "comp7_recon/descr/active"
+msgstr "Ένα αναγνωριστικό αεροσκάφος θα πετά πάνω από την επιλεγμένη περιοχή μέσα σε {colorTagOpen}%(delay)s sec{colorTagClose}. Τα εχθρικά οχήματα σε ακτίνα {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} θα παραμένουν εντοπισμένα για {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;sec{colorTagClose}. Ένα ειδικό εικονίδιο θα εμφανίζεται για όποιον παίκτη εντοπίστηκε από αυτήν την ικανότητα, με καθυστέρηση {colorTagOpen}%(lampDelay)s sec{colorTagClose}.\n\nΗ συγκεκριμένη ικανότητα γίνεται διαθέσιμη {colorTagOpen}%(startupDelay)s sec{colorTagClose} μετά την έναρξη της μάχης."
+
+msgid "comp7_recon/name"
+msgstr "Αναγνωριστική Πτήση"
+
+msgid "comp7_redline/descr/active"
+msgstr "Η επιλεγμένη περιοχή θα δέχεται μπαράζ πυροβολικού μέσα σε {colorTagOpen}%(delay)s sec{colorTagClose}.\n\nΟι στόχοι που βρίσκονται σε ακτίνα {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} θα δέχονται {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} HP φθοράς και σοκ διάρκειας {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s sec{colorTagClose}."
+
+msgid "comp7_redline/name"
+msgstr "Πυρά Κάλυψης"
+
+msgid "comp7_risky_attack/descr/active"
+msgstr "Επιτάχυνση\n\nΓια {colorTagOpen}%(duration)s sec{colorTagClose}, η ισχύς του κινητήρα σας αυξάνεται κατά {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, η τελική ταχύτητα του οχήματός σας αυξάνεται κατά {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h και η ταχύτητα οπισθοπορείας αυξάνεται κατά {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/h.\n\nΑποκατάσταση\n\nΓια {colorTagOpen}%(healDuration)s sec{colorTagClose}, το όχημά σας θα αποκαθιστά {colorTagOpen}%(baseHeal)s{colorTagClose} hit points {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose} των hit points που έχασε κατά τη διάρκεια της Επιτάχυνσης."
+
+msgid "comp7_risky_attack/name"
+msgstr "Δεύτερο Κύμα"
+
+msgid "comp7_role_skill/descr/startLevel"
+msgstr " \n\nΚατά την έναρξη της μάχης, το επίπεδο της Ικανότητας Ρόλου είναι {colorTagOpen}%(startLevel)s{colorTagClose}."
+
+msgid "comp7_sniper/descr/active"
+msgstr "Για {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s sec{colorTagClose}, η διασπορά των πυρών στα 100 m θα ισούται με {colorTagOpen}%(dispersionFactor)s m{colorTagClose}.\n\nΕάν το όχημά σας δεν εντοπιστεί τη στιγμή του πυροβολισμού, η φθορά που θα προκαλεί η βολή σας θα είναι αυξημένη κατά {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}. \n\nΤο χρονόμετρο θα ξεκινά ξανά κάθε φορά που προκαλείτε φθορά με πυρά από απόσταση μεγαλύτερη των {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_sniper/name"
+msgstr "Στο Κέντρο Του Στόχου"
+
+msgid "comp7_sure_shot/descr/active"
+msgstr "Για {colorTagOpen}%(duration)s sec{colorTagClose}, η ευστοχία του πυροβόλου, κατά τη διάρκεια κίνησης και κατά την περιστροφή του σκάφους ή του πυργίσκου, θα αυξάνεται κατά {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nΌταν η συγκεκριμένη ικανότητα είναι ενεργοποιημένη, οι βολές που προκαλούν φθορά μειώνουν τον χρόνο γέμισης του πυροβόλου κατά {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose} των hit points που έχασαν τα εχθρικά οχήματα.\n\nΗ καταστροφή κάθε εχθρικού οχήματος μειώνει τον χρόνο γέμισης του πυροβόλου κατά {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}."
+
+msgid "comp7_sure_shot/name"
+msgstr "Εύστοχη Βολή"

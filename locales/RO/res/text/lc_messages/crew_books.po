@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "CUMPĂRĂ"
+
+msgid "buttons/cancel"
+msgstr "Anulează"
+
+msgid "buttons/learn"
+msgstr "Studiază"
+
+msgid "buttons/postProgression/claim"
+msgstr "REVENDICĂ"
+
+msgid "buttons/postProgression/hint"
+msgstr "SPRE PROGRESUL ULTERIOR"
+
+msgid "buttons/postProgression/howTo"
+msgstr "MODALITATEA DE OBȚINERE"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Rata de schimb:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "Se aplică membrului de echipaj selectat.\nAccelerează antrenamentul talentului actual contra EXP liberă."
+
+msgid "card/freeExp/title"
+msgstr "EXPERIENȚĂ LIBERĂ"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Eficiența talentului: 100%\n• Specializare: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Se aplică întregului echipaj.\nConferă %(xp) fiecărui membru de echipaj"
+
+msgid "card/nationBook/title/brochure"
+msgstr "BROȘURĂ DE ANTRENAMENT (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "MANUAL DE ANTRENAMENT (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "GHID DE ANTRENAMENT (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Aplicat fără restricții."
+
+msgid "card/personalBook/mainText"
+msgstr "Se aplică membrului de echipaj selectat.\nConferă %(xp) acestui membru de echipaj"
+
+msgid "card/personalBook/title"
+msgstr "MANUAL PERSONAL DE ANTRENAMENT"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Eficiența talentului: 100%\n• Specializare: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Se aplică întregului echipaj.\nConferă %(xp) fiecărui membru de echipaj"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "MANUAL UNIVERSAL"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "BROȘURĂ UNIVERSALĂ"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "GHID UNIVERSAL"
+
+msgid "confirm/crewLabel"
+msgstr "Fiecare membru de echipaj va primi %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Fiecare membru de echipaj va primi %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) va primi încă %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) va primi %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Unii membri de echipaj vor obține %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Broșură de antrenament (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Broșură de antrenament"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "BROȘURĂ DE ANTRENAMENT"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} EXP de echipaj fiecărui membru de echipaj."
+
+msgid "items/crewBook/Name"
+msgstr "Manual de antrenament (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Manual de antrenament"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "MANUAL DE ANTRENAMENT"
+
+msgid "items/guide/Name"
+msgstr "Ghid de antrenament (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Ghid de antrenament"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "GHID DE ANTRENAMENT"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} experiență membrului de echipaj selectat"
+
+msgid "items/personalBook/Name"
+msgstr "Manual personal de antrenament"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} EXP de echipaj fiecărui membru de echipaj."
+
+msgid "items/universalBook/Name"
+msgstr "Manual universal"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} experiență fiecărui membru de echipaj."
+
+msgid "items/universalBrochure/Name"
+msgstr "Broșură universală"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} experiență fiecărui membru de echipaj."
+
+msgid "items/universalGuide/Name"
+msgstr "Ghid universal"
+
+msgid "page/mentoringLicense/hint"
+msgstr "SPRE LICENȚA DE MENTOR"
+
+msgid "page/mentoringLicense/title"
+msgstr "LICENȚA DE MENTOR"
+
+msgid "page/title"
+msgstr "ANTRENAMENT RAPID"
+
+msgid "tooltip/buyManual"
+msgstr "Cumpără manual de antrenament"
+
+msgid "tooltip/mouseWheel"
+msgstr "Scroll {mouseIcon} pentru a mări / micșora numărul de cărți de echipaj."
+
+msgid "tooltip/outOfStock"
+msgstr "Nu mai sunt cărți de echipaj"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Nu mai sunt cărți de echipaj. Cumpără-le din Magazin."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Se aplică membrului de echipaj selectat. Conferă %(xp)s experiență acestui membru de echipaj."
+
+msgid "tooltip/postProgression"
+msgstr "Spre Progresul ulterior"
+
+msgid "tooltip/sale/header"
+msgstr "Rată de schimb profitabilă"
+
+msgid "tooltip/sale/newRate"
+msgstr "Noua rată de schimb: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Rata de schimb anterioară: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Clic %(controlsImg) pentru a crește / descrește nivelul antrenamentului talentului cu 1%."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Apasă %(pgupImg) / %(pgdownImg) pentru a crește nivelul de antrenament al talentului la&nbsp;100% (fără cărți de echipaj) / a&nbsp;reveni la talentul anterior."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Se aplică întregului echipaj. Conferă %(xp)s experiență fiecărui membru de echipaj."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Se aplică întregului echipaj. Conferă %(xp)s experiență fiecărui membru de echipaj."

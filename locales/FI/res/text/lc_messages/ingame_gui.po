@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "Tykistöisku"
+
+msgid "attackReason/artillery_sector"
+msgstr "Tykistöisku"
+
+msgid "attackReason/bombers"
+msgstr "Ilmaisku"
+
+msgid "battleCommunication/hint/description"
+msgstr "osoittaaksesi sijaintia tai sijoittaaksesi merkin"
+
+msgid "battleCommunication/hint/press"
+msgstr "Paina"
+
+msgid "battleEndWarning/text"
+msgstr "Taistelu loppuu:"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "Teksti- ja ääniviestit tältä pelaajalta piilotetaan tässä taistelussa."
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "Estä viestit pelaajalta"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "Viestit mustan listan pelaajalta on estetty."
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "Toiminto ei saatavilla"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "Teksti- ja ääniviestit tältä pelaajalta\novat jälleen saatavilla."
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "Poista viestiesto pelaajalta"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "Tekninen ongelma noudettaessa taistelualuetietoja."
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "Taistelualuetietoja tälle vaunulle ei ole saatavilla tälle kartalle."
+
+msgid "battleProgress/hint/description"
+msgstr "Katsomaan henkilökohtaisia tehtäviä"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "Tärkeimpiä näppäimiä ei ole määritetty"
+
+msgid "battleProgress/hint/press"
+msgstr "Paina"
+
+msgid "battle_notifier/lose"
+msgstr "Tappio!"
+
+msgid "battle_notifier/tie"
+msgstr "Tasapeli!"
+
+msgid "battle_notifier/win"
+msgstr "Voitto!"
+
+msgid "bot/boss"
+msgstr "Pomo"
+
+msgid "bot/elite"
+msgstr "Eliitti"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "VAHINKOVAROITUS"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "MOOTTORI VAHINGOITTUNUT"
+
+msgid "chat_example/affirmative"
+msgstr "Selvä!"
+
+msgid "chat_example/attack_enemy"
+msgstr "Tarvitsen tulitukea vihollista <Enemy Name> vastaan!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "Hyökkään vihollisen <Enemy Name> kimppuun!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "Vallatkaa tukikohta!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "Puolustakaa tukikohtaa!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "Huomio <sektori pienoiskartalla>!"
+
+msgid "chat_example/attention_to_position"
+msgstr "Huomio sijaintiin!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "Tuhoa kohteet"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "Säästäkää vaunujanne!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "Valtaa alue"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "Puolusta kohteita"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "Säästäkää vaunujanne!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "Puolusta alueita"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "Täydennysjoukkoja alueelle"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "Täydennysjoukkoja alueelle"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "Täydennysjoukkoja alueelle"
+
+msgid "chat_example/going_there"
+msgstr "Ajan tänne!"
+
+msgid "chat_example/help_me"
+msgstr "Apua!"
+
+msgid "chat_example/help_me_ex"
+msgstr "<Liittolaisen nimi>, auttakaa!"
+
+msgid "chat_example/negative"
+msgstr "Ei!"
+
+msgid "chat_example/overheated_gun"
+msgstr "Tykki ylikuumeni! Ampuminen ei ole mahdollista <Reload Time> s ajan"
+
+msgid "chat_example/positive"
+msgstr "Selvä!"
+
+msgid "chat_example/reloading_cassette"
+msgstr "Valmiina ampumaan <latausaika> s kuluttua, ammuksia lippaassa: <ammusten määrä> kpl."
+
+msgid "chat_example/reloading_gun"
+msgstr "Lataan! <latausaika> s jäljellä!"
+
+msgid "chat_example/reloading_ready"
+msgstr "Valmiina ampumaan!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "Valmiina ampumaan! Ammuksia lippaassa: <ammusten määrä> kpl."
+
+msgid "chat_example/reloading_unavailable"
+msgstr "Ammukset ovat loppu."
+
+msgid "chat_example/spg_aim_area"
+msgstr "Tähtään <sektori kartalla>!"
+
+msgid "chat_example/supporting_ally"
+msgstr "Autan sinua <Ally Name>!"
+
+msgid "chat_example/thanks"
+msgstr "Kiitos <Ally Name>!"
+
+msgid "chat_example/turn_back"
+msgstr "<Liittolaisen nimi>, palatkaa takaisin!"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "Selvä!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "Tarvitsen tulitukea kohdetta %(target)s vastaan!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "Valmiina ampumaan! Hyökkään vihollisen %(target)s kimppuun!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "Ammusvarasto on tyhjä! Pyydetään tulta kohteeseen %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "Hyökkään %(target)s! Lataan, vielä %(reloadTime)d s jäljellä!"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "Valtaan tukikohdan!"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "Valtaan tukikohtaa %(strArg1)s!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "Hyökkään vihollisen %(target)s kimppuun!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "Vallatkaa tukikohta!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "Valtaa tukikohta %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "Puolustakaa tukikohtaa!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "Puolusta tukikohtaa %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "Huomio %(cellName)s!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Tuhoa kohde %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "Hyökkään kohteeseen %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Puolusta kohdetta %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "Puolustan kohdetta %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Huomio sijaintiin!"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "Huomio sijaintiin %(gridId)s"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "Puolustan tukikohtaa!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "Puolustan tukikohtaa %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "Tuhoa kohteet!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "Meillä on riittävästi aikaa, säästäkää vaunujanne!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "Aika alkaa loppua, vallatkaa alue hinnalla millä hyvänsä!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "Puolustakaa kohteita!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "Meidän täytyy kestää, säästäkää vaunujanne!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "Aika alkaa loppua, puolustakaa alueita hinnalla millä hyvänsä!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "Alue %(strArg1)s tarvitsee apua, lähettäkää täydennysjoukkoja!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "Alue %(strArg1)s tarvitsee apua, lähettäkää täydennysjoukkoja!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "Alue %(strArg1)s tarvitsee apua, lähettäkää täydennysjoukkoja!"
+
+msgid "chat_shortcuts/going_there"
+msgstr "Ajan sijaintiin!"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "Liikun sijaintiin %(gridId)s"
+
+msgid "chat_shortcuts/help_me"
+msgstr "Apua!"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s, auttakaa!"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "Liiku kohteeseen: %(target)s"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "Liikun kohteeseen: %(target)s!"
+
+msgid "chat_shortcuts/negative"
+msgstr "Ei!"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "Tykki ylikuumeni! Ampuminen ei ole mahdollista %(floatArg1)d s ajan"
+
+msgid "chat_shortcuts/positive"
+msgstr "Selvä %(target)s!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "Valmiina ampumaan %(floatArg1)d s kuluttua; ammuksia lippaassa: %(int32Arg1)s kpl."
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "Lataan! %(floatArg1)d s jäljellä!"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "Valmiina ampumaan!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "Valmiina ampumaan! Ammuksia lippaassa: %(int32Arg1)s kpl."
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "Ammukset ovat loppu!"
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "Tähtään sijaintiin. Valmiina ampumaan!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "Tarkkailen aluetta %(gridId)s! Ammukset loppuneet!"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "Tähtään sijaintiin %(gridId)s. Valmiina ampumaan!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "Tähtään sijaintiin. Lataan, vielä %(reloadTime)d s jäljellä!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "Tähtään sijaintiin %(gridId)s. Lataan, vielä %(reloadTime)d s jäljellä!"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "Autan sinua %(target)s!"
+
+msgid "chat_shortcuts/thanks"
+msgstr "Kiitos %(target)s!"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s, palatkaa takaisin!"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "Mene asetuksiin"
+
+msgid "commanderCam/hint/description"
+msgstr "Zoomaa ulos päästäksesi taktiseen näkymään"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "Jäähtymisaika: %(cooldownSeconds)s s"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "Kulutustarvikkeen paikka"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "km/t"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "AP"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "APCR"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "HEAT"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "Komentaja on haavoittunut. Tekniset ominaisuudet heikentyneet."
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "Komentaja"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "Ajaja on haavoittunut. Liike- ja kääntönopeus heikentyneet."
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "Ajaja"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "Ampuja on haavoittunut. Tarkkuus heikentynyt."
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "Ampuja"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "Ampuja 2 on haavoittunut. Tarkkuus heikentynyt."
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "Ampuja 2"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "Lataaja on haavoittunut. Latausnopeus hidastunut."
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "Lataaja"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "Lataaja 2 on haavoittunut. Latausnopeus hidastunut."
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "Lataaja 2"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "Radisti on haavoittunut. Signaalikantama heikentynyt."
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "Radisti"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "Radisti 2 on haavoittunut. Signaalikantama heikentynyt."
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "Radisti 2"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "Ammusteline on vaurioitunut. Latausnopeus hidastunut."
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "Ammusteline räjähti."
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "Ammusteline on ehjä."
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "Telakoneisto vaurioitunut."
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "Liikuntakyvytön: telakoneisto tuhoutui."
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "Telakoneisto on ehjä."
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "Moottori on vaurioitunut. Tehot ovat laskeneet."
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "Liikuntakyvytön: moottori on tuhoutunut."
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "Moottori on ehjä."
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "Polttoainetankki on vaurioitunut."
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "Polttoainetankki on tuhoutunut."
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "Polttoainetankki on ehjä."
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "Tykki on vaurioitunut. Tarkkuus on pienentynyt."
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "Tykki on tuhoutunut. Ampuminen ei ole mahdollista."
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "Tykki on ehjä."
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "Radio on vaurioitunut."
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "Radio on tuhoutunut. Signaalikantama heikentynyt."
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "Radio on ehjä."
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "Havainnointilaite on vaurioitunut."
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "Havainnointilaite on tuhoutunut. Näkökyky on heikentynyt."
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "Havainnointilaite on ehjä."
+
+msgid "damage_panel/devices/track/critical"
+msgstr "Telakoneisto vaurioitunut."
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "Liikuntakyvytön: telakoneisto on tuhoutunut."
+
+msgid "damage_panel/devices/track/normal"
+msgstr "Telakoneisto on ehjä."
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "Tykkitorni on vaurioitunut. Kääntönopeus on laskenut."
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "Ei voida kääntää: tykkitorni on tuhoutunut."
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "Tykkitorni on ehjä."
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "Jousitus vaurioitunut."
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "Liikuntakyvytön: jousitus on tuhoutunut."
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "Jousitus on ehjä."
+
+msgid "danger_zone/indicator"
+msgstr "Vaunusi voi tuhoutua – poistu vaara-alueelta!"
+
+msgid "destroyTimer/liftOver"
+msgstr "Takaisin teloilla..."
+
+msgid "devMaps/hint/description"
+msgstr "nähdäksesi kartan ominaisuudet"
+
+msgid "devMaps/hint/press"
+msgstr "Paina"
+
+msgid "devMaps/mapInfo/info"
+msgstr "Tällä kartalla voi tapahtua satunnaistapahtumia. Sellaiset kartat voi poistaa kierrosta pelin asetuksista."
+
+msgid "devMaps/mapInfo/text"
+msgstr "Kartta satunnaistapahtumilla"
+
+msgid "devices/ammo_bay"
+msgstr "Ammusteline"
+
+msgid "devices/chassis"
+msgstr "Telakoneisto"
+
+msgid "devices/engine"
+msgstr "Moottori"
+
+msgid "devices/fuel_tank"
+msgstr "Polttoainetankki"
+
+msgid "devices/gun"
+msgstr "Tykki"
+
+msgid "devices/left_track"
+msgstr "Vasen telaketju"
+
+msgid "devices/radio"
+msgstr "Radio"
+
+msgid "devices/right_track"
+msgstr "Oikea telaketju"
+
+msgid "devices/surveing_device"
+msgstr "Havainnointilaite"
+
+msgid "devices/track"
+msgstr "%(type)stela"
+
+msgid "devices/track/left"
+msgstr "Vasen "
+
+msgid "devices/track/main"
+msgstr "Vara"
+
+msgid "devices/track/outer"
+msgstr "Pää"
+
+msgid "devices/track/right"
+msgstr "Oikea "
+
+msgid "devices/turret_rotator"
+msgstr "Tykkitornin kääntö"
+
+msgid "devices/wheel"
+msgstr "Pyörä"
+
+msgid "distance/meters"
+msgstr "%(meters)d m"
+
+msgid "dynamicSquad/ally/add"
+msgstr "Klikkaa kutsuaksesi pelaajan liittymään osastoon.\nPelaaja voi joko hyväksyä kutsun taistelun aikana tai taistelun päättymisen jälkeen.%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\nHuomio! Varsinainen pelinimesi ja klaanitunnuksesi näytetään osaston jäsenille."
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\nHuomio! Varsinainen pelinimesi näytetään osaston jäsenille."
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "Ei voida kutsua kyseistä liittolaista liittymään osastoon."
+
+msgid "dynamicSquad/ally/received"
+msgstr "Klikkaa hyväksyäksesi kutsun liittyä osastoon.\nOsasto luodaan taistelun aikana."
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "Kutsu lähetettiin pelaajalle.\nJos hän hyväksyy sen, hän liittyy osastoosi taistelun aikana tai taistelun päättymisen jälkeen."
+
+msgid "dynamicSquad/enemy/add"
+msgstr "Klikkaa kutsuaksesi pelaajan liittymään osastoon.\nPelaaja voi joko hyväksyä kutsun taistelun aikana tai taistelun päättymisen jälkeen.%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "Ei voida kutsua vihollista liittymään osastoon."
+
+msgid "dynamicSquad/enemy/received"
+msgstr "Klikkaa hyväksyäksesi kutsun liittyä osastoon.\nOsasto luodaan vasta taistelun päättymisen jälkeen."
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "Kutsu lähetettiin pelaajalle.\nJos hän hyväksyy sen, hän liittyy osastoosi taistelun päättymisen jälkeen."
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "Paina"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "ottaaksesi äänikeskustelun käyttöön"
+
+msgid "dynamicSquad/invite"
+msgstr "Kutsu liittyä osastoon"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "Ilmaiskun vahinko"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "Tykistöiskun vahinko"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "Pääkohteen vahinko"
+
+msgid "efficiencyRibbons/armor"
+msgstr "Vahinkoa torjuttu"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "Avustettu taistelureserveillä"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "Vahinkoa havaitsemiisi kohteisiin"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "Vahinkoa lamautuksesi jälkeen"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "Tela tuhottu"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "Vahinkoa berserkkeristä"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "Roolikokemus"
+
+msgid "efficiencyRibbons/burn"
+msgstr "Sytytä tuleen"
+
+msgid "efficiencyRibbons/capture"
+msgstr "Vallattu vihollistukikohtaa"
+
+msgid "efficiencyRibbons/crits"
+msgstr "Kriittinen osuma"
+
+msgid "efficiencyRibbons/damage"
+msgstr "Aiheutettu vahinkoa"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "Taistelulaivan tykistöiskun vahinko"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "U.S.S. Frankfordin vahinko"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "Vahinkoa miinoista"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "Vahinko taistelurobotilla"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "Vahinkoa happoammuksella"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "Vahinko tulikehällä"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "Vahinko sähköpurkauksella"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "Alueen tekemä vahinko"
+
+msgid "efficiencyRibbons/defence"
+msgstr "Vähennetty valtauspisteitä"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "Alue puolustettu"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "Aiheutettu vahinko"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "Kohde tuhottu"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "Kohde puolustettu"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "Alue vallattu"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "Vahinko tulialueesta"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "Vaunu korjattu"
+
+msgid "efficiencyRibbons/kill"
+msgstr "Tuhottu"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "Miinakentän vahinko"
+
+msgid "efficiencyRibbons/ram"
+msgstr "Törmääminen"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "Vahinkoa tulesta"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "Vahinko taistelurobotilla"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "Vahinkoa happoammuksella"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "Vahinko tulikehällä"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "Vahinkoa miinoista"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "Vahinkoa syövyttävästä usvasta"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "Vahinko sähköpurkauksella"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "Kriittiset vahingot"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "Vahinkoa osumista"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "Vahinkoa tulipallosta"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "Vahikoa törmäyksistä"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "Vahinkoa putoamisesta"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "Vahinkoa tulipallosta"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "Havaittu"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "Vahinko tuhoalueesta"
+
+msgid "efficiencyRibbons/stun"
+msgstr "Lamautus"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "Vaunu hylätty"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "Vahinkoa törmäyksestä"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "Lumimyrsky"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "Tulipalo"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "Sumu"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "Rankkasade"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "Hiekkamyrsky"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "Savu"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "Tornado"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "Piilota joukkuepaneelit"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "Ei paneelia"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Paina Ctrl + Tab vaihtaaksesi eri tilojen välillä)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "Näytä pelaajien nimet, tappojen määrä sekä vaunuikonit"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "Paneeli 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Paina Ctrl + Tab vaihtaaksesi eri tilojen välillä)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "Näytä pelaajan tappojen määrä, nimi ja pelaajan vaunun ikoni."
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "Paneeli 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Paina Ctrl + Tab vaihtaaksesi eri tilojen välillä)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "Näytä pelaajien tapot ja vaunuikonit"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "Suppea paneeli"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Paina Ctrl + Tab vaihtaaksesi eri tilojen välillä)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "Vaihda näkymää oman tai kaikkien kolmen aloitusryhmän välillä."
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "Vaihda sarakkeita"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Paina Ctrl + Tab vaihtaaksesi eri tilojen välillä)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "Sinä tuhosit lipun!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "Lippu ryöstetty!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "Lipput toimitettu."
+
+msgid "flagNotification/flagInbase"
+msgstr "Toimita lippu päämajaan."
+
+msgid "flags/timer"
+msgstr "%(time)s s..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "s..."
+
+msgid "grille/status/reload"
+msgstr "LADATAAN..."
+
+msgid "grille/status/speedlimit"
+msgstr "NOPEUSRAJOITUS"
+
+msgid "helpScreen/hint/description"
+msgstr "näyttääksesi vaunun ominaisuudet"
+
+msgid "helpScreen/hint/press"
+msgstr "Paina"
+
+msgid "helpScreen/mapbox/description"
+msgstr "nähdäksesi kartan ominaisuudet"
+
+msgid "helpScreen/mapbox/press"
+msgstr "Paina"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "aktivoidaksesi piiritys-/<font color='#F4B12C'><b>bunkkeri</b></font>tilan"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "aktivoidaksesi piiritys-/<font color='#F4B12C'><b>matkustus</b></font>tilan"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "aktivoidaksesi matkustus-/<font color='#F4B12C'><b>bunkkeri</b></font>tilan"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "Tilan vaihtamisen näppäintä ei ole määritetty"
+
+msgid "helpScreen/pillbox/press"
+msgstr "Paina/<font color='#F4B12C'><b>pidä pohjassa</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "Tärkeimpiä näppäimiä ei ole määritetty"
+
+msgid "hitMarker/blocked"
+msgstr "Panssaria ei läpäisty"
+
+msgid "hitMarker/critical"
+msgstr "Kriittinen osuma"
+
+msgid "hitMarker/missArmor"
+msgstr "Panssariin ei osuttu"
+
+msgid "hitMarker/ricochet"
+msgstr "Kimmoke"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "Lisäsuojaa ei läpäisty"
+
+msgid "hitMarker/trackBlocked"
+msgstr "Telaa ei läpäisty"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "Pyörää ei läpäisty"
+
+msgid "levelProgress/maxLevel"
+msgstr "VAUNUN MAKSIMITASO"
+
+msgid "marker/meters"
+msgstr "m"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "%(device)s esti ammustelineen räjähtämisen"
+
+msgid "optDeviceResurrection/engine"
+msgstr "%(device)s esti moottorin tuhoutumisen"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "%(device)s esti tulipalon"
+
+msgid "penetration/high"
+msgstr "Korkea"
+
+msgid "penetration/low"
+msgstr "Helppo"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "Toissijainen ehto:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "Ensisijainen ehto:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "Ei aktiivisia tehtäviä tässä taistelumuodossa."
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "Ei aloitettuja tehtäviä tälle vaunutyypille."
+
+msgid "personal_reserves/hint/description"
+msgstr "aktivoidaksesi henkilökohtaisia reservejä"
+
+msgid "personal_reserves/hint/press"
+msgstr "Paina"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "Liikuntakyvytön: telakoneisto on vaurioitunut."
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "Liikuntakyvytön: miehistö toimintakyvytön."
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "Liikuntakyvytön: moottori on vaurioitunut."
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "Liikuntakyvytön: vaunu tuhoutunut."
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "Ei voida laukaista: miehistö on tuhoutunut."
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "Ei voida laukaista: tykki on vaurioitunut."
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "Ampuminen ei onnistu."
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "Ampuminen ei onnistu: tykki ylikuumeni."
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "Ladataan tykkiä."
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "Suoritetaan lataamista loppuun."
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "Ei voida ampua: ammukset lopussa."
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "Ei voida laukaista: vaunu on tuhoutunut."
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "Vaihtaminen ei ole saatavilla: moottori on tuhoutunut."
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "Vaihtaminen ei mahdollista: tykki on tuhoutunut"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "Vaihtaminen ei mahdollista: vain yksi ammus jäljellä"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] on jo aktiivinen."
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "Kulutustarvike [%(name)s] ei ole aktiivinen: ei tulipaloa."
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] ei ole saatavilla jäähtymisen aikana."
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "Lääkintäapua ei tarvita: ei haavoittuneita."
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] ei tarvitse lääkintää."
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "Reservi ei ole vielä valmis."
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "Valtaa %(name)s aktivoidaksesi taktinen taito."
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "Moduuleilla ja komentajalla on nyt täydet kestopisteet. Korjauksia tai parantamista ei tarvita."
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "Korjauksia ei vaadita: kaikki laitteet ovat ehjiä."
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] on täysin toimintakykyinen, korjausta ei tarvita."
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "Koaksiaalisen aseen aktivointi ei onnistu."
+
+msgid "player_messages/ALLY_HIT"
+msgstr "Osuit liittolaiseen %(entity)s!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s] on valmis käytettäväksi."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "Tykistöpatteri sijoitettu ja valmiina ampumaan."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "Lentokoneet ovat tulossa ja valmiina pommitukseen."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "Miehistömme on valmiina motivoimaan muita ympärillämme."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "Miinakenttä on valmis sijoitettavaksi."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "Lentokone matkalla ja valmis tiedusteluun."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "Kenttäkorjaukset ovat valmiina käytettäväksi."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "Savunheitin valmiina ampumaan savua."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "Vartija on valmis käytettäväksi."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "Pelaajan %(player)s tykistöpatteri ampuu."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "Pelaajan %(player)s pommikoneet ovat tulossa."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s luo palautumisalueen."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s aktivoi motivoinnin."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s miinoitti alueen."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "Pelaajan %(player)s tiedustelulento on matkalla."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s käytti kenttäkorjaukset."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s luo savuverhon."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s aktivoi vartijan."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s tuhoutui tykistöiskussa."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s tuhoutui tykistöiskussa."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s tuhoutui tykistöiskussa."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s tuhoutui tykistöiskussa."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s tuhoutui tykistöiskussa."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s tuhoutui tykistöiskussa."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Vaunu tuhoutui tykistöiskusta."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s tuhoutui tykistöiskussa."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s tuhoutui tykistöiskussa."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s tuhoutui ilmaiskulla."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s tuhoutui ilmaiskulla."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "Liittolaisen %(target)s tuhosi liittolainen %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(attacker)s tuhosi %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vaunun tuhosi liittolainen %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Alue tuhosi liittolaispelaajan (%(target)s)."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(attacker)s tuhosi %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "Vihollinen %(attacker)s tuhosi vihollisen %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vaunun tuhosi %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s tuhoutui alueen toimesta."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "Liittolainen %(target)s tuhoutui."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s tuhoutui."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vaunu tuhottu."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Laite [%(device)s] räjähti tulipalossa."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Laite [%(device)s] tuhoutui %(entity)s osumasta."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "Liittolainen %(attacker)s hukutti liittolaisen %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(attacker)s hukutti %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vaunun hukutti liittolainen %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "Liittolainen %(target)s hukkui."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(attacker)s hukutti %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "Vihollinen %(attacker)s hukutti vihollisen %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vaunun hukutti %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "Vihollinen %(target)s hukkui."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "Liittolainen %(target)s hukutettiin."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "%(target)s hukutettiin."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vaunu hukkui."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "Liittolaisen %(target)s tuhosi liittolainen %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(attacker)s tuhosi %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Vaunun tuhosi liittolainen %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(attacker)s tuhosi %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "Vihollinen %(attacker)s tuhosi vihollisen %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Vaunun tuhosi %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "Liittolainen %(target)s tuhoutui."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s tuhoutui."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "Miehistö on toimintakyvytön."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Miehistö haavoittui %(entity)s osumasta."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Liittolaisen %(target)s miehistön tuhosi liittolainen %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(target)s miehistön tuhosi %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Miehistön tuhosi liittolainen %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Liittolainen %(target)s tuhosi miehistönsä."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(target)s miehistön tuhosi %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Vihollisen %(target)s miehistön tuhosi vihollinen %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Miehistön tuhosi %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Vihollinen %(target)s tuhosi miehistönsä."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "Liittolaisen %(target)s miehistö tuhottu."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s miehistö tuhottu."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Miehistö on tuhoutunut."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Liittolainen %(target)s tuhoutui miinakenttään."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s tuhoutui."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(attacker)s tuhosi %(target)s miinoilla."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(attacker)s tuhosi %(target)s miinoilla."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s tuhoutui miinoilla."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "Liittolainen %(attacker)s kaatoi liittolaisen %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s kaatoi %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Liittolainen %(attacker)s kaatoi vaunun"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "Liittolainen %(target)s kaatoi vaununsa"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s kaatoi %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "Vihollinen %(attacker)s kaatoi vihollisen %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "%(attacker)s käänsi ja tuhosi vaunun"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "%(target)s kaatoi vaununsa"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "Liittolainen %(target)s kaadettu"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s kaadettu"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vaunu kaatui ja tuhoutui"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "Liittolainen %(attacker)s tuhosi liittolaisen %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(attacker)s tuhosi %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Vaunun tuhosi liittolainen %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "Liittolainen %(target)s romuttui."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(attacker)s tuhosi %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "Vihollinen %(attacker)s tuhosi vihollisen %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Vaunun tuhosi %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "Vihollinen %(target)s romuttui."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "Liittolainen %(target)s tuhoutui."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s tuhoutui."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vaunu tuhottu."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s hylkäsi vaununsa."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s hylkäsi vaununsa."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Vaunu tuhoutui alueen pommituksesta."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s tuhoutui alueen pommituksen aikana."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s tuhoutui alueen pommituksen aikana."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Vaunu tuhoutui tykistöiskusta."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s tuhoutui tykistöiskussa."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s tuhoutui tykistöiskussa."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "Liittolainen %(attacker)s tuhosi %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "Liittolainen %(attacker)s tuhosi %(target)s tykistöiskulla."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "Liittolainen %(attacker)s tuhosi %(target)s pommituksella."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s tuhosi %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s tuhosi %(target)s tykistöiskulla."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(attacker)s tuhosi %(target)s ilmaiskulla."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s tuhosi %(target)s (suojatuli)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s tuhosi %(target)s (tykistöisku)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "Liittolainen %(target)s katosi taistelusta."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "Liittolainen %(target)s katosi taistelusta tykistöiskun jälkeen."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "Liittolainen %(target)s katosi taistelusta pommituksen jälkeen."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s tuhosi %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(attacker)s tuhosi %(target)s tykistöiskulla."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(attacker)s tuhosi %(target)s ilmaiskulla."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s tuhosi %(target)s (suojatuli)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s tuhosi %(target)s (tykistöisku)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "Vihollinen %(attacker)s tuhosi vihollisen %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "Vihollinen %(attacker)s tuhosi vihollisen %(target)s tykistöiskulla."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "Vihollinen %(attacker)s tuhosi vihollisen %(target)s pommituksella."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "Vihollinen %(target)s katosi taistelusta."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "Vihollinen %(target)s katosi taistelusta tykistöiskun jälkeen."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "Vihollinen %(target)s katosi taistelusta pommituksen jälkeen."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "Liittolainen %(target)s tuhoutui."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "Liittolainen %(target)s tuhoutui tykistöiskussa."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "Liittolainen %(target)s tuhoutui pommituksessa."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s tuhoutui."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s tuhoutui tykistöiskussa."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s tuhoutui ilmaiskusta."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s tuhoutui"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s tuhoutui"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "Vihollinen (tuntematon) tuhosi liittolaisen: %(target)s."
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Tuhoalue tuhosi liittolaispelaajan (%(target)s)."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Liittolainen %(attacker)s romutti liittolaisen %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s romutti %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vaunun romutti liittolainen %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Liittolainen %(target)s romuttui."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s romutti %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Vihollinen %(attacker)s romutti vihollisen %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vaunun romutti %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Vihollinen %(target)s romuttui."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "Liittolainen %(target)s romutettiin."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s romutettiin."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vaunu romuttui."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s tuhosi kohteen %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s tuhosi kohteen %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "Tuhosit kohteen %(target)s."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "Laite [%(device)s] on vaurioitunut tulipalossa."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "%(entity)s osuma vaurioitti [%(device)s]."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "Laite [%(device)s] on tuhoutunut tulipalossa."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "Laitteen [%(device)s] tuhosi %(entity)s."
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "Laite [%(device)s] on korjattu."
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "Laite [%(device)s] on toimintavalmis."
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "Laitteen [%(device)s] sytytti tuleen %(entity)s osuma."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "Tehostin vahingoitti laitetta [%(device)s]."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "Laite [%(device)s] vaurioitui nopeudenrajoittimen poistamisen vuoksi."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "Tehostin tuhosi laitteen [%(device)s]."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "Laite [%(device)s] tuhoutui nopeudenrajoittimen poistamisen vuoksi."
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "Tulipalo on sammutettu."
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "%(entity)s osuma haavoitti [%(device)s]."
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] on jälleen käytössä."
+
+msgid "player_messages/allied_team_name"
+msgstr "Oma joukkue"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "Omaa tukikohtaa%s vallattu (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "Oma tukikohta%s vallattu!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "Tukikohdan valtaus pysäytetty"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "Vallataan tukikohtaa%s (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "Tukikohta%s vallattu!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "Vihollisen tukikohtaa%s vallattu (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "Vihollisen tukikohta%s vallattu!"
+
+msgid "player_messages/enemy_team_name"
+msgstr "Vihollisjoukkue"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "Liittolaisesi %(name)s käytti taktisen \"%(equipment)s\" -taidon"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "Vihollinen käytti taktisen \"%(equipment)s\" -taidon"
+
+msgid "player_messages/postmortem_caption"
+msgstr "Pelaaja %(name)s (%(type)s); Osumapisteitä: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "Pelaaja: %(name)s; Osumapisteitä: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "(%(type)s) vaunusi tuhoutui"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "Ei voida ampua: ammukset lopussa."
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "Toiston näppäimet:"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "Hiiren VP: vaihda eri kameratilojen välillä\nVälilyönti: tauko"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "Nuoli vasemmalle: kelaa 20 sek. taaksepäin (Ctrl alaspainettuna: 40 sek.)\nNuoli oikealle: kelaa 20 sek. eteenpäin (Ctrl alaspainettuna: 40 sek.)\nHome/End: hyppää alkuun/loppuun\nNuoli ylöspäin/alaspäin: +/- toistonopeus"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "Vapaa kamera aktivoitu."
+
+msgid "player_messages/replayPaused"
+msgstr "Tauko"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "Kiinteä kamera aktivoitu."
+
+msgid "player_messages/replaySpeedChange"
+msgstr "Toistonopeus: %(speed)sx"
+
+msgid "player_messages/tank_in_fire"
+msgstr "Vaunu on tulessa!"
+
+msgid "players_panel/state/large/body"
+msgstr "Näytä pelaajien nimet, tuhotut kohteet ja vaunujen nimet ja ikonit"
+
+msgid "players_panel/state/large/header"
+msgstr "Täysi paneeli"
+
+msgid "players_panel/state/large/note"
+msgstr "(Paina 'Ctrl' + 'Tab' vaihtaaksesi tilojen välillä)"
+
+msgid "players_panel/state/medium/body"
+msgstr "Näytä pelaajien nimet, tuhotut kohteet ja vaunujen ikonit"
+
+msgid "players_panel/state/medium/header"
+msgstr "Normaali"
+
+msgid "players_panel/state/medium/note"
+msgstr "(Paina 'Ctrl' + 'Tab' vaihtaaksesi tilojen välillä)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "Näytä pelaajan tuhoamat vaunut, pelaajan vaunun nimi ja ikoni."
+
+msgid "players_panel/state/medium2/header"
+msgstr "Normaali 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(Paina 'Ctrl' + 'Tab' vaihtaaksesi tilojen välillä)"
+
+msgid "players_panel/state/none/body"
+msgstr "Piilota joukkuepaneelit"
+
+msgid "players_panel/state/none/header"
+msgstr "Ei paneelia"
+
+msgid "players_panel/state/none/note"
+msgstr "(Paina 'Ctrl' + 'Tab' vaihtaaksesi tilojen välillä)"
+
+msgid "players_panel/state/short/body"
+msgstr "Näytä tuhotut kohteet ja vaunujen ikonit"
+
+msgid "players_panel/state/short/header"
+msgstr "Lyhyt paneeli"
+
+msgid "players_panel/state/short/note"
+msgstr "(Paina 'Ctrl' + 'Tab' vaihtaaksesi tilojen välillä)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "Vihollinen"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "Esc > Palaa talliin."
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "Liity taisteluun toisella vaunulla."
+
+msgid "postmortem/tips/freecam/button"
+msgstr "VÄLILYÖNTI"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "Vapaa kamera"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "Aktivoi vapaa kamera."
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "Vapaa kamera ei ole saatavilla"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "Vapaan kameran aktivointi ei onnistu tässä pelimuodossa."
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "Tarkkailijatila"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "Vaihda liittolaisten välillä."
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "Seuraa vaunua"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "Osoita kursorilla liittolaisvaunua ja klikkaa vasenta nappia seurataksesi sitä."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "Vaunu tuhoutui pääkohteen toimesta"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Vaunu tuhoutui tykistöiskusta."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "Vaunu tuhoutui pääkohteen toimesta"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "Vaunu tuhoutui ilmaiskulla"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "Vaunu tuhoutui ryövärin toimesta."
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "Vaunu tuhoutui taistelurobotin toimesta."
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "Vaunu tuhoutui happoammukseen."
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Liittolainen tuhosi vaunun kielletyllä alueella"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vaunu tuhoutui kielletyllä alueella"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Et onnistunut poistumaan vaara-alueelta"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Moduuli [%(device)s] tuhoutui tulipalossa"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Moduuli [%(device)s] räjähti pelaajan osumasta"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Liittolainen hukutti vaunun"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vaunu hukkui"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vaunu hukkui"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "Vaunun sytytti tuleen pelaaja"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "Vaunu tuhoutui tulikehään."
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Pelaajan osuma tyrmäsi miehistön"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Voimakas törmäys liittolaisvaunun kanssa tyrmäsi miehistön"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Voimakas isku tyrmäsi miehistön"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Voimakas isku tyrmäsi miehistön"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "Vaunu tuhoutui tulipallolla."
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Vaunu tuhoutui miinakentälle"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "Vaunu tuhoutui miinoihin"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Liittolainen kaatoi vaunun"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Vihollinen kaatoi vaunun"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vaunun tuhoutui kaatumalla"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Vaunu tuhoutui liittolaisen törmäyksessä"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Vaunu tuhoutui törmäyksessä"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vaunu tuhoutui törmäyksessä"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "Vaunusi tuhoutui"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Vaunu tuhoutui alueen pommituksesta."
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Vaunu tuhoutui tykistöiskusta."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "Vaunu tuhoutui pelaajan osumasta"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "Vaunu tuhoutui ilmaiskulla."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "Vaunu tuhoutui ilmaiskulla."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Vaunu tuhoutui tykistöiskusta"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Vaunu tuhoutui ilmaiskulla"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vaunu tuhoutui tuhoalueen toimesta"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "Vaunu tuhoutui sähköpurkaukseen."
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Liittolainen romutti vaunun"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vihollinen romutti vaunun"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vaunu romuttui"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "Vaunusi tuhoutui"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "Taistelussa käytetään valittua kokoonpanoa:"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "Valitse taistelussa käytettävä kokoonpano ennen laskurin päättymistä."
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "Valitse kokoonpano"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "Kokoonpanon valinta: {seconds} s"
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "Kokoonpanon valinta:"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "Rotko"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "Tarkkailu"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "Metsä"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "Polku"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "Katu"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "Rauniot"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "Silta"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "Rautatie"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "Kaupunki"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "Kylä"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "Aukio"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "Tehdas"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "Kukkula"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "Majakka"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "Keskusta"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "Linna"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "Tuulimylly"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "Vuoret"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "Reitti A"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "Reitti B"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "Reitti C"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "Reitti D"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "Reitti E"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "Laakso"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "Jäätikkö"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "Kiertotie"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "Kukkulat"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "Tie"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "Vuori"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "Bunkkeri"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "Bulevardi"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "Muuri"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "Lohkareet"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "Konepajat"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "Pelto"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "Talli"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "Hiili"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "Laivat"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "Lentotukialus"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "Juoksuhaudat"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "Mutkatie"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "Pohjoinen"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "Etelä"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "Länsi"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "Itä"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "Harju"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "Zeppeliini"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "Varastot"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "Rannikko"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "Joki"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "Järvi"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "Suo"
+
+msgid "quickReply/hint/press"
+msgstr "Paina"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "vahvistaaksesi"
+
+msgid "quickReply/hint/toCommend"
+msgstr "kehuaksesi takaisin"
+
+msgid "quickReply/hint/toHelp"
+msgstr "avustaaksesi"
+
+msgid "quickReply/hint/toThank"
+msgstr "kiittääksesi"
+
+msgid "recovery/cooldown"
+msgstr "Vaunu voidaan hylätä %(cooldown)s sekunnin kuluttua"
+
+msgid "recovery/hint1"
+msgstr "Pidä pohjassa"
+
+msgid "recovery/hint2"
+msgstr "hylätäksesi vaunun"
+
+msgid "repairPoint/title"
+msgstr "Korjaukset"
+
+msgid "repairPoint/unavailable"
+msgstr "Ei saatavilla"
+
+msgid "respawnView/additionalTip"
+msgstr "Valitse vaunu, jolla jatkat. Jos kaikki vaunut ovat korjauksessa, jatkat taistelua ensimmäisellä saatavilla olevalla vaunulla."
+
+msgid "respawnView/additionalTipLimited"
+msgstr "Valitse vaunu jatkaaksesi. Tuhoutunutta vaunua ei voida korjata ennen taistelun päättymistä."
+
+msgid "respawnView/classNotAvailable"
+msgstr "Kiintiö rintamalla\ntäynnä"
+
+msgid "respawnView/cooldownLbl"
+msgstr "Korjauksessa %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "Tuhoutunut"
+
+msgid "respawnView/disabledLbl"
+msgstr "Vaunu ei saatavilla"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "Sopivaa vaunua ei ole valittu"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "Tason X vaunua ei ole ryhmässä."
+
+msgid "respawnView/nextVehicleName"
+msgstr "Taistelu jatkuu "
+
+msgid "respawnView/title"
+msgstr "Valitse vaunu"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "KYLLÄ, SIR!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "Kiitos osallistumisestasi World of Tanksin kehitystyöhön! Arvostamme suuresti henkilökohtaista panostasi!"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "Kiitoskirje"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "Sinut on palkittu!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "Onneksi olkoon!"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "Selvä!"
+
+msgid "rewardWindow/base/descText"
+msgstr "Palkinto saatu"
+
+msgid "rewardWindow/base/headerText"
+msgstr "Onneksi olkoon"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "Palkinto saatu"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "Tarvikepakkaus India"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "Tarvikepakkaus Juliett"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "Paketteihin"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "Olet saanut suuria paketteja täynnä arvokkaita palkintoja."
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "Olet saanut paketteja!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "Olet saanut tehtävien suorittamisesta pieniä paketteja täynnä arvokkaita palkintoja."
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "On aika ottaa selville, mitä paketista löytyy!"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "Selvä!"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "Krediittien kertyminen keskeytetty. Pidennä WoT Premium-tilin kestoa jatkaaksesi krediittivaraston kerryttämistä."
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "Krediitit saatu"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "Krediittivarasto on auki"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "Onneksi olkoon!"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "KYLLÄ HERRA!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "Onneksi olkoon, olet saanut erityisen tarvikepudotuksen, jonka sait Prime Gamingin mukana. Nyt on aika ottaa se hyvään käyttöön taistelukentällä."
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "Tarvikepakkaus Delta"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "Sinut on palkittu!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "VÄRVÄÄ"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "Onneksi olkoon, olet saanut erityisen alokkaan, jonka sait Prime Gamingin mukana."
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "Tarvikepakkaus Alpha"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "Sinut on palkittu!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "KYLLÄ HERRA!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "Tarvikepakkauksen taistelupassi"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "KYLLÄ HERRA!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "Kosminen tarvikepakkaus"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "KYLLÄ HERRA!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "Tarvikepakkaus Tähtiyö"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "Lisää"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "Tarvikepakkaus Kesäkuu"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "Tarvikepakkaus Heinäkuu"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "Lisää"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "Tarvikepakkaus Lantti"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "World of Tanks: Starlight-paketti"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "Queen Maeve -paketti"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "Mistelinippu -kokoelma"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "Lisää"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "Suursaalis -kokoelma"
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "KYLLÄ HERRA!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "Onneksi olkoon, olet saanut erityisen tarvikepudotuksen, jonka sait Prime Gamingin mukana. Nyt on aika ottaa se hyvään käyttöön taistelukentällä."
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "Tarvikepakkaus Charlie"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "Sinut on palkittu!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "\"G.I. JOE: Duke\" -paketti"
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "\"G.I. JOE: Cobra\" -paketti"
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "Lisää"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "Rokkaa menemään! -paketti"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "Hiljainen metsästäjätär -paketti"
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "Lisää"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "\"Tuore lookki\" -paketti"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "Lisää"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "\"Kesäfiilis\" -paketti"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "Korkeajännite -paketti"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "Lisää"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "Kammottavan todellista -paketti"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "Viikingit joukossamme"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "Lisää"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "\"Tuore alku\" -paketti"
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "Tarvikepaketti Echo"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "Lisää"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "Aaltoliike"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "Adepta Sororitas"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "Pyssymies"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "Sait ainutlaatuisen palkinnon tilauksesta: Prime Gaming"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "e-Camo"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "Taisteluvalmis"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "Vauhtia, ajokoirat!"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "Tikari"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Sait ainutlaatuisen palkinnon tilauksesta: Prime Gaming"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "Noituus"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "Noitien hetki"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "Tulit väärään naapurustoon"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "Pure minua!"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "Sait ainutlaatuisen palkinnon tilauksesta: Prime Gaming"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "Aloitusvihellys"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "Voittomaali"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "Kaikkien aikojen klassikko"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Olet saanut ainutlaatuisen palkinnon ohjelmasta: Prime Gaming"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "Loma-asu"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "Hurmaava lahja"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "Painava lahja"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "Tuplajuhlat"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "Valitse palkinnot"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Sait ainutlaatuisen palkinnon tilauksesta: Prime Gaming"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "Uljas uusi maailma"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "Tarkkaileva silmä"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "Kyborgin anatomia"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "Sinut on havaittu"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "Tarvikepaketti Foxtrot"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "Tarvikepakkaus Golf"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "Tarvikepakkaus Hotel"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "Tarvikepakkaus Kilo"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "Tarvikepakkaus Lima"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "Värvää"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "Onneksi olkoon! Olet saanut erityisen tarvikepudotuksen Prime Gamingin mukana. Nyt on aika ottaa siitä ilo irti."
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "Tarvikepakkaus Mike"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "Palkintoja saatu"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "Selvä!"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "Klaanisi jäsenet luottavat, että osallistut jatkossakin\nkenttäkomennuksen suorittamiseen."
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "Palkkio saatu!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "Kenttäkomennukseen"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "Kenttäkomennus"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "Selvä!"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "Klaanisi jäsenet luottavat, että osallistut jatkossakin\nkenttäkomennuksen suorittamiseen."
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "Palkkio saatu!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "Kenttäkomennukseen"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "Kenttäkomennus"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "Onneksi olkoon!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "Meidän osasto"
+
+msgid "scorePanel/playerScore"
+msgstr "Panoksesi:"
+
+msgid "scorePanel/squadLbl"
+msgstr "Osasto %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s mm panssariammus %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s mm alikaliiperiammus %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s mm panssarikranaatti %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s mm sirpalekranaatti %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s mm ontelokranaatti %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "Keskimääräinen vahinko: %(value)s kestopistettä"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "Vahinkoa per sekuntti: %(value)s pistettä/s"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "Vahingosäde: %(value)s m"
+
+msgid "shells_kinds/params/header"
+msgstr "Täysi / yksittäinen viritys"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "Keskimääräinen läpäisy: %(value)s mm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "Ammuksen nopeus: %(value)s m/s"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "Lamautuksen kesto: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "vaihtaaksesi piiritystilaan"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "vaihtaaksesi matkustustilaan"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "Tärkeimpiä näppäimiä ei ole määritetty"
+
+msgid "siegeMode/hint/press"
+msgstr "Paina"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "nestemäisen polttoaineen suihkumoottorien aktivoimiseksi"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "aktivoidaksesi suihkumoottorit"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "aktivoidaksesi peräkkäiset rakettimoottorit"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "Osu vihollisvaunuun saadaksesi lisävaikutus kohteen laserosoittimesta"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "vaihtaaksesi moottorin tilaa"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "vaihtaaksesi ampumatilaa"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "liikkumistavan valintaan"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "aktivoidaksesi turboahtimen tehostimen"
+
+msgid "spotted/indicator"
+msgstr "Havaittuna olon aika ja kärsityt vahinko kasvavat"
+
+msgid "spotted/seconds"
+msgstr "s"
+
+msgid "statistics/exit"
+msgstr "Paina 'Esc' -näppäintä palataksesi talliin..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "Tuhonnut: %s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "Tukikohtaa vallattu: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "Vaurioitetut:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "Osumia kohteeseen: %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "Osumia otettu: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "Tukikohtaa puolustettu: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "Tuhotut:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(kuoleman jälkeinen)"
+
+msgid "statistics/final/personal/shots"
+msgstr "Laukauksia: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "Havaitut:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "Kaikki omat vaunut on tuhottu."
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "Kaikki vaunut tuhottu!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "Kaikki vihollisen vaunut on tuhottu."
+
+msgid "statistics/final/reasons/reason2"
+msgstr "Tukikohta vallattu!"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "Taisteluaika umpeutui!"
+
+msgid "statistics/final/stats/credits"
+msgstr "Krediittejä:"
+
+msgid "statistics/final/stats/experience"
+msgstr "Kokemusta:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "Kokemusta (x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "Korjauksiin:"
+
+msgid "statistics/final/status/lose"
+msgstr "Tappio! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "Tasapeli! %s"
+
+msgid "statistics/final/status/win"
+msgstr "Voitto! %s"
+
+msgid "statistics/header"
+msgstr "Taistelutilastot"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "Pelaaja"
+
+msgid "statistics/headers/header2"
+msgstr "Vaunu"
+
+msgid "statistics/headers/header3"
+msgstr "Kunto"
+
+msgid "statistics/headers/header4"
+msgstr "Tuhottu"
+
+msgid "statistics/playerState/0"
+msgstr "Tuhoutunut"
+
+msgid "statistics/playerState/1"
+msgstr "Poissa taistelusta"
+
+msgid "statistics/playerState/2"
+msgstr "Tuhoutunut"
+
+msgid "statistics/playerState/3"
+msgstr "Taistelussa"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "Kokoonpano"
+
+msgid "statistics/tab/line_up/title"
+msgstr "Joukkueen kokoonpano"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "Henkilökohtaiset reservit"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "Henkilökohtaisten reservien aktivointi"
+
+msgid "statistics/tab/quests/header"
+msgstr "Tehtävät"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "Henkilökohtaiset tehtävät eivät ole saatavilla tässä pelimuodossa"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "Mene Kampanja-välilehteen tallissa valitaksesi tehtävän"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "Sinulla ei ole tälle vaunulle aktiivisia tehtäviä"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "Ensisijainen ehto täytetty"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "Kaikki tehtävät suoritettu"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "Aktiivinen"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "Tuloksen parannus"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "Tauolla"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "Tehtävän edistymisen näyttäminen ei ole saatavilla"
+
+msgid "statistics/tabs/group"
+msgstr "Joukkueen saavutukset"
+
+msgid "statistics/tabs/heroes"
+msgstr "Taistelusankarit"
+
+msgid "statistics/tabs/personal"
+msgstr "Henkilökohtaiset saavutukset"
+
+msgid "statistics/team1title"
+msgstr "Oma joukkue"
+
+msgid "statistics/team2title"
+msgstr "Vihollisjoukkue"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "Poistu\ntuhoalueelta!"
+
+msgid "stun/indicator"
+msgstr "Miehistö lamautunut"
+
+msgid "stun/seconds"
+msgstr "s"
+
+msgid "tabStatsHint"
+msgstr "— Tilastot"
+
+msgid "tankmen/commander"
+msgstr "Komentaja"
+
+msgid "tankmen/driver"
+msgstr "Ajaja"
+
+msgid "tankmen/gunner"
+msgstr "Ampuja"
+
+msgid "tankmen/loader"
+msgstr "Lataaja"
+
+msgid "tankmen/radioman"
+msgstr "Radisti"
+
+msgid "timer/battlePeriod"
+msgstr "Taistelu loppuu:"
+
+msgid "timer/started"
+msgstr "Taistelu alkaa!"
+
+msgid "timer/starting"
+msgstr "Taistelu alkaa:"
+
+msgid "timer/waiting"
+msgstr "Odotetaan pelaajia..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "Paina"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "vaihtaaksesi tähtäystilaa"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "Tärkeimpiä näppäimiä ei ole määritetty"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vaunun tuhosi liittolainen %(entity)s kuoleman vyöhykkeellä."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vaunun tuhosi %(entity)s kuoleman vyöhykkeellä."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vaunu tuhoutui vaara-alueen toimesta."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vaunun hukutti liittolainen %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vaunun hukutti %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vaunu hukkui."
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "Vaunu on tuhoutunut tulipalossa."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Vaunun tuhosi liittolainen %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Vaunun tuhosi %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Miehistö tuhoutui liittolaisen %(entity)s törmäyksestä."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Miehistö tuhoutui %(entity)s törmäyksestä."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Miehistö on toimintakyvytön törmäyksen takia."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Liittolainen %(entity)s kaatoi vaunun"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Vihollinen %(entity)s kaatoi vaunun"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vaunun tuhoutui kaatumalla"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Liittolainen %(entity)s tuhosi vaunun törmäämällä."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "%(entity)s tuhosi vaunun törmäämällä."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vaunu tuhoutui törmäyksessä."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "Vaunu tuhoutui %(entity)s osumasta."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "%(entity)s tuhosi vaunun tykistöiskulla."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "%(entity)s tuhosi vaunun pommituksella."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vaunun romutti liittolainen %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vaunun romutti vihollinen %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vaunu romuttui."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "Liittolainen %(entity)s vaurioitti laitetta [%(device)s] törmäämällä."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "Liittolainen %(entity)s vaurioitti laitetta [%(device)s] törmäämällä."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Laite [%(device)s] vaurioitui törmäyksessä."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "Vihollinen %(entity)s vaurioitti laitetta [%(device)s] törmäämällä."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "Vihollinen %(entity)s vaurioitti laitetta [%(device)s] törmäämällä."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "Laite [%(device)s] vaurioitui törmäyksessä."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Liittolaisen %(entity)s törmäys vaurioitti laitetta [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Liittolaisen %(entity)s törmäys vaurioitti laitetta [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Laite [%(device)s] on vaurioitunut iskusta."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Vihollisen %(entity)s törmäys vaurioitti laitetta [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vihollisen %(entity)s törmäys vaurioitti laitetta [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Laite [%(device)s] on vaurioitunut iskusta."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Laite [%(device)s] tuhoutui miinakentällä."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Laite [%(device)s] tuhoutui miinakentällä."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "Liittolainen %(entity)s tuhosi laitteen [%(device)s] törmäämällä."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "Liittolainen %(entity)s tuhosi laitteen [%(device)s] törmäämällä."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Laite [%(device)s] tuhoutui törmäyksessä."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "Vihollinen %(entity)s tuhosi laitteen [%(device)s] törmäämällä."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "Vihollinen %(entity)s tuhosi laitteen [%(device)s] törmäämällä."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "Laite [%(device)s] tuhoutui törmäyksessä."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Liittolaisen %(entity)s törmäys tuhosi laitteen [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Liittolaisen %(entity)s törmäys tuhosi laitteen [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Laite [%(device)s] tuhoutui iskussa."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Vihollisen %(entity)s törmäys tuhosi laitteen [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vihollisen %(entity)s törmäys tuhosi laitteen [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Laite [%(device)s] tuhoutui iskussa."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "Laite [%(device)s] syttyi palamaan liittolaisen %(entity)s törmäyksestä."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "Laite [%(device)s] syttyi palamaan liittolaisen %(entity)s törmäyksestä."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Laite [%(device)s] syttyi tuleen törmäyksen takia."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "Laite [%(device)s] syttyi palamaan vihollisen %(entity)s törmäyksestä."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "Laite [%(device)s] syttyi palamaan vihollisen %(entity)s törmäyksestä."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "Laite [%(device)s] syttyi tuleen törmäyksen takia."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] haavoittui liittolaisen %(entity)s törmäyksestä."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] haavoittui liittolaisen %(entity)s törmäyksestä."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] vahingoittui iskusta."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] haavoittui vihollisen %(entity)s törmäyksestä."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] haavoittui vihollisen %(entity)s törmäyksestä."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] vahingoittui iskusta."
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "Taktinen \"%(equipment)s\" -taito on aktivoitu!"
+
+msgid "warning_zone/indicator"
+msgstr "Varo! Olet lähellä vaara-aluetta."

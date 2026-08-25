@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Poäng som ökar prestationens totalresultat."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Prestationspoäng"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Du har slutfört alla steg i prestationen och tagit emot alla tillgängliga belöningar."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Tryck %(escIcon)s för att återgå till föregående katalognivå."
+
+msgid "catalog/rootLink"
+msgstr "KATALOG"
+
+msgid "category/achievementsScore/title"
+msgstr "PRESTATIONSRESULTAT"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "Visar dina framsteg i prestationssamlingen. Varje ny prestation, förutom troféer, ökar din totala prestationspoäng."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Prestationsresultat: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "SENASTE\nPRESTATIONER"
+
+msgid "category/title"
+msgstr "SPELARSAMLING"
+
+msgid "category/upcoming/title"
+msgstr "NÄRA\nPRESTATIONER"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s m.fl"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Prestation upplåst!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "%(count)s prestationer upplåsta!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s m.fl"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Ny trofé mottagen!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "%(count)s troféer mottagna!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "Automatisk visning sorterar alla utmärkelser i alla kategorier efter deras värde för att visas på ditt släpspänne. Det avaktiveras om du ändrar ordningen manuellt."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "Automatisk visning sorterar alla utmärkelser i alla kategorier efter deras värde för att visas på ditt släpspänne. När du aktiverar inställningen försvinner ev. manuell sortering."
+
+msgid "editConfirm/description/error"
+msgstr "Vi undersöker problemet. Vänligen försök ändra igen senare. Under tiden överförs du till sammanfattningen."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Spara"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Avbryt"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Uppfattat!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Automatisk visning avstängd"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Automatisk visning aktiverad"
+
+msgid "editConfirm/title/error"
+msgstr "Ett fel påträffades"
+
+msgid "editConfirm/title/normal"
+msgstr "Använd ändringarna för släpspännet?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Avbryt ändringar"
+
+msgid "editView/footer/button/save"
+msgstr "Använd och avsluta"
+
+msgid "editView/header/checkbox"
+msgstr "Automatisk visning"
+
+msgid "editView/header/close"
+msgstr "STÄNG"
+
+msgid "editView/header/title/idle"
+msgstr "Välj utmärkelser att visa på släpspännet"
+
+msgid "editView/header/title/selecting"
+msgstr "Välj utmärkelse att byta ut"
+
+msgid "editView/header/title/tutorial"
+msgstr "Väl plats för utmärkelsen"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Avbryt"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Byt ut"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "DINA PRESTATIONER\nFINNS HÄR"
+
+msgid "hint/profile"
+msgstr "DINA PRESTATIONER\nFINNS HÄR"
+
+msgid "hint/summary/customizationButton"
+msgstr "Ändringar tillgängliga"
+
+msgid "notifications/editingEnabled/button"
+msgstr "Till släpspännet"
+
+msgid "notifications/editingEnabled/title"
+msgstr "Du kan ändra ditt släpspänne"
+
+msgid "notifications/firstEntry/button"
+msgstr "Till tjänstgöringsintyg"
+
+msgid "notifications/firstEntry/text"
+msgstr "World of Tanks-rankning,\nändra utmärkelser."
+
+msgid "notifications/firstEntry/title"
+msgstr "Uppdaterar tjänstgöringsintyg"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "Till tjänstgöringsintyg"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Ändring av utmärkelser\noch visuell design."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Uppdaterar tjänstgöringsintyg"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "Till tjänstgöringsintyg"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Din nivå: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Din rankning har beräknats!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "Till tjänstgöringsintyg"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "Din World of Tanks-rankning har ändrats. Gå till tjänstgöringsintyget för mer information."
+
+msgid "notifications/ratingUp/button"
+msgstr "Till tjänstgöringsintyg"
+
+msgid "notifications/ratingUp/text"
+msgstr "Du har nått följande nivå: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Din rankning har ökat!"
+
+msgid "playerInfo/clan/button"
+msgstr "Klanprofil"
+
+msgid "playerInfo/clan/date"
+msgstr "Startdatum:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "Spelaren tillhör inga permanenta taktiska enheter"
+
+msgid "playerInfo/clan/post"
+msgstr "Placering:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "Din personliga ID-bricka\när för tillfället inte tillgänglig"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "Spelarens rankning har inte beräknats: Färre än %(amount)s strider har utkämpats."
+
+msgid "ratingWidget/status/initial"
+msgstr "Utkämpa %(amount)s strider för att beräkna din World of Tanks-rankning."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "Spelarens rankning har inte beräknats än"
+
+msgid "ratingWidget/status/progress"
+msgstr "Beräknar din World of Tanks-rankning. Strider kvar: %(amount)s."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Utkämpa strider så räknar vi ut din rankning."
+
+msgid "rewardView/button/achievements"
+msgstr "Till prestationer"
+
+msgid "rewardView/button/dogTag"
+msgstr "Till ID-bricka"
+
+msgid "rewardView/button/dogTags"
+msgstr "Till ID-brickor"
+
+msgid "rewardView/button/moreRewards"
+msgstr "Visa ytterligare %(value)s"
+
+msgid "rewardView/reward/dogTag"
+msgstr "ID-bricka %(value)s"
+
+msgid "rewardView/title/multi"
+msgstr "BELÖNING FÖR PRESTATION MOTTAGEN"
+
+msgid "rewardView/title/single"
+msgstr "BELÖNING FÖR PRESTATION MOTTAGEN"
+
+msgid "section/action"
+msgstr "Special"
+
+msgid "section/battle"
+msgstr "Stridshjältar"
+
+msgid "section/class"
+msgstr "Nivåmedaljer"
+
+msgid "section/epic"
+msgstr "Episka medaljer"
+
+msgid "section/group"
+msgstr "Gruppmedaljer"
+
+msgid "section/memorial"
+msgstr "Minnesutmärkelser"
+
+msgid "section/special"
+msgstr "Hedersgrader"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "TILL PRESTATIONER"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Senaste strid: %(lastVisitDate)s kl. %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Konto skapat: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Bakgrund"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Standard"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Brand"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Guld"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Legendarisk"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Retro"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Explosiv"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Avbryt ändringar"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Band"
+
+msgid "summary/achievements/customization/save"
+msgstr "Använd och avsluta"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "Anpassning av tjänstgöringsintyg är inte tillgängligt för tillfället på grund av tekniska problem. Vi arbetar med att lösa det. Försök igen eller kom tillbaka senare."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Anpassning ej tillgänglig för tillfället"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Värdefulla utmärkelser"
+
+msgid "summary/achievements/total"
+msgstr "Totalt: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Unika: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Genomsnitt: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Segrar: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Genomsnitt: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Genomsnitt: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Rekord: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Genomsnitt: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Utkämpa strider medan vi samlar in data."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Informationen är ej tillgänglig för tillfället."
+
+msgid "summary/disabled/title"
+msgstr "Mer information tillgänglig senare"
+
+msgid "summary/main/assistance"
+msgstr "ASSISTANS\nREKORD"
+
+msgid "summary/main/battles"
+msgstr "UTKÄMPADE\nSTRIDER"
+
+msgid "summary/main/blocked"
+msgstr "MAX\nBLOCKERAD"
+
+msgid "summary/main/damage"
+msgstr "SKADA\nREKORD"
+
+msgid "summary/main/destroyed"
+msgstr "FÖRSTÖRDA\nVAGNAR"
+
+msgid "summary/main/experience"
+msgstr "ERFARENHET\nREKORD"
+
+msgid "summary/statistic/title"
+msgstr "World of Tanks-rankning"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Personbetyg"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Maximal skada åsamkad med din assistans."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Maximal skada åsamkad med din assistans under strider i %(tankName)s."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Assistans - rekord: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Förhållandet mellan total skada åsamka åsamkad fiender med din assistans och det totala antalet utkämpade strider. Följande räknas som assistans:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Skada åsamkad under din observation\n• Skada åsamkad fiende du immobiliserat genom att förstöra dess band"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Genomsnittlig assistans: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Förhållandet mellan antalet segrar och antalet utkämpade strider."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Inkluderar:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Segrar: %(wins)s\n• Förluster: %(loses)s\n• Oavgjorda: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Sergerförhållande: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Utkämpade strider: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Högsta mängd blockerad skada."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Högsta mängd blockerad skada under strider i %(tankName)s."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Högsta mängd blockerad skada: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Förhållandet mellan total mängd blockerad skada från icke-penetrerande träffar samt rikoschetter av pansarprojektil (AP), pansarspränggranater (HEAT) och tungstensprojektil (APCR) och antalet utkämpade strider."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Genomsnittlig blockerad skada: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Maximal åsamkad skada."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Maximal åsamkad skada under strider i %(tankName)s."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Skada - rekord: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Förhållandet mellan total åsamkad skada och antalet utkämpade strider."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Genomsnittlig skada: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Högsta antal förstörda vagnar."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "Högsta antal fiendevagnar förstörda under strider i %(tankName)s."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Max förstörda: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Totalt antal förstörda fiendevagnar under alla strider."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Förstörda vagnar: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Högsta mängd intjänad erfarenhet."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "Högsta mängd intjänad erfarenhet under strider i %(tankName)s."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Erfarenhet - rekord: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Förhållandet mellan total mängd intjänad erfarenhet och antalet utkämpade strider."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Genomsnittlig erfarenhet: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Varken segrar eller förluster påverkar beräkningen av din World of Tanks-rankning."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Spela i olika vagnar för att avgöra vilka vagnar du är mest effektiv i, enligt följande prestandavärden:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "WTR är ett rankningssystem som räknar ut en individuell rankning för varje vagn och använder sen det för att avgöra spelarens övergripande förmåga. Systemet reagerar flexibelt på taktikförändringar och jämför spelarens statistik mot genomsnittet på servern."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Skada åsamkad fienden"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Skada åsamkad med din assistans"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Antal förstörda fiendevagnar"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Blockerad skada och överlevnad"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "Höja WTR"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "World of Tanks-rankning"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Strider som återstår innan vi kan beräkna din rankning: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Nivå: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Gräns uppnådd!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Poäng som återstår för att öka nivå: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "Brons %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "Silver %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "Guld %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "Äss %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "Legend %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Nivå"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Antal poäng"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "World of Tanks-rankning"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "När du aktiverar inställningen kommer ordningen du skapat %(whiteSpanish_Open)stas bort%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "När du aktiverar inställningen, eller ändrar ordningen manuellt, kommer utmärkelserna på släpspännet %(whiteSpanish_Open)ssluta%(whiteSpanish_Close)s %(whiteSpanish_Open)suppdateras%(whiteSpanish_Close)s %(whiteSpanish_Open)sautomatiskt%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "Sorterar automatiskt utmärkelser %(whiteSpanish_Open)sfrån alla kategorier%(whiteSpanish_Close)s efter deras värde för att visas på släpspännet."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Automatisk visning"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "Du kan för tillfället inte ändra ditt släpspänne. Vänligen försök igen senare."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Du har inga utmärkelser att visa här än. Du kan förtjäna dem i %(whiteSpanish_Open)sstrid%(whiteSpanish_Close)s eller %(whiteSpanish_Open)sgenom att delta i%(whiteSpanish_Close)s %(whiteSpanish_Open)sspelevenemang%(whiteSpanish_Close)s."
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "Du kan ändra ordningen på sitt släpspänne när du tilldelats %(whiteSpanish_Open)s%(amount)s eller fler%(whiteSpanish_Close)s utmärkelser, oavsett kategori."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Inga utmärkelser att placera här."
+
+msgid "tooltips/mastery/body"
+msgstr "Mottagna förtjänsttecken Stridsvagnsäss i relevanta strider / Antalet vagnar som deltagit i minst en slumpvis matchad strid"
+
+msgid "tooltips/mastery/header"
+msgstr "Förtjänsttecken: Stridsvagnsess"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "Personbetyg är ett mått på spelarens förmåga och erfarenhet och baseras på följande:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "Personbetyget uppdateras för varje strid som utkämpas."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Segrar\n• Skada åsamkad med din assistans\n• Genomsnittlig skada per strid\n• Genomsnittlig erfarenhet per strid\n• Strider du överlevt"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Personbetyg"

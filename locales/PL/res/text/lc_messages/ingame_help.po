@@ -1,0 +1,602 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleControls/casseteReload"
+msgstr "Uzupełnij zasobnik amunicyjny"
+
+msgid "battleControls/closeBtnLabel"
+msgstr "ZAMKNIJ"
+
+msgid "battleControls/cruiseCtrlBackward"
+msgstr "Ruch do tyłu w trybie tempomatu"
+
+msgid "battleControls/cruiseCtrlForward"
+msgstr "Ruch do przodu w trybie tempomatu"
+
+msgid "battleControls/disableLockTarget"
+msgstr "Wyłącz autocelowanie"
+
+msgid "battleControls/fire"
+msgstr "Strzał"
+
+msgid "battleControls/hideInterface"
+msgstr "Pokaż/Ukryj interfejs"
+
+msgid "battleControls/hideMinimap"
+msgstr "Pokaż/Ukryj minimapę"
+
+msgid "battleControls/makeScreenshort"
+msgstr "Zachowaj obraz ekranu do folderu"
+
+msgid "battleControls/movementBackward"
+msgstr "Ruch do tyłu"
+
+msgid "battleControls/movementForward"
+msgstr "Ruch do przodu"
+
+msgid "battleControls/movementLeft"
+msgstr "Obrót/Ruch w lewo"
+
+msgid "battleControls/movementRight"
+msgstr "Obrót/Ruch w prawo"
+
+msgid "battleControls/pageTitle"
+msgstr "INFORMACJE OGÓLNE"
+
+msgid "battleControls/showCursor"
+msgstr "Pokaż kursor"
+
+msgid "battleControls/showCursor/ext"
+msgstr "(dla minimapy, listy graczy, itd.)"
+
+msgid "battleControls/showExPlayerInfo"
+msgstr "Wyświetl alternatywne znaczniki"
+
+msgid "battleControls/stopFire"
+msgstr "Zatrzymanie i strzał"
+
+msgid "battleControls/switchAutorotation"
+msgstr "Zablokuj kadłub / przełącz tryb"
+
+msgid "battleControls/title"
+msgstr "Tryb bitwy"
+
+msgid "battleControls/toggleAFL"
+msgstr "Włącz/wyłącz podświetlenie pancerza"
+
+msgid "battleControls/toggleAFL/ext"
+msgstr "dostępne tylko w trybie snajperskim"
+
+msgid "battleControls/toggleLockTarget"
+msgstr "Włącz/wyłącz autocelowanie"
+
+msgid "battleControls/toggleLockTarget/ext"
+msgstr "(z celownikiem na celu)"
+
+msgid "battleControls/togglePlayerPanelModes"
+msgstr "Pokaż/ukryj listy drużyn"
+
+msgid "battleControls/togglePlayerPanelModes/ext"
+msgstr "lub odwzajemnij pochwałę"
+
+msgid "battleControls/toggleSniperMode"
+msgstr "Włącz/wyłącz tryb snajperski"
+
+msgid "battleControls/toggleSniperMode/ext"
+msgstr "lub trybie haubicy"
+
+msgid "battleControls/voiceChatMute"
+msgstr "Włącz czat głosowy"
+
+msgid "chatControls/change"
+msgstr "Do drużyny/Do plutonu"
+
+msgid "chatControls/enterToChatMode"
+msgstr "Wejście do trybu czatu"
+
+msgid "chatControls/exitFromChatMode"
+msgstr "Wyjście z trybu czatu"
+
+msgid "chatControls/send"
+msgstr "Wyślij wiadomość"
+
+msgid "chatControls/title"
+msgstr "Tryb czatu"
+
+msgid "crosshairControls/ammoNumber"
+msgstr "Liczba pocisków"
+
+msgid "crosshairControls/damageIndicator"
+msgstr "Kierunek ostrzału"
+
+msgid "crosshairControls/dispercion"
+msgstr "Rozrzut działa"
+
+msgid "crosshairControls/example/damage"
+msgstr "-248"
+
+msgid "crosshairControls/example/hp"
+msgstr "375/720"
+
+msgid "crosshairControls/example/name"
+msgstr "T-34-85"
+
+msgid "crosshairControls/gunMarker"
+msgstr "Marker pozycji działa"
+
+msgid "crosshairControls/healthPlayer"
+msgstr "Wytrzymałość"
+
+msgid "crosshairControls/hpIndicator"
+msgstr "Wskaźnik wytrzymałości"
+
+msgid "crosshairControls/hpValues"
+msgstr "Wytrzymałość celu (%/PW pozostało/ogółem)"
+
+msgid "crosshairControls/marker"
+msgstr "Celownik"
+
+msgid "crosshairControls/reloadIndicator"
+msgstr "Przeładowanie działa"
+
+msgid "crosshairControls/reloadTimer"
+msgstr "Czas przeładowania działa w sekundach"
+
+msgid "crosshairControls/targetClass"
+msgstr "Wskaźnik typu pojazdu"
+
+msgid "crosshairControls/targetDistance"
+msgstr "Odległość do celu"
+
+msgid "crosshairControls/targetIcon"
+msgstr "Ikona pojazdu"
+
+msgid "crosshairControls/targetLevel"
+msgstr "Poziom pojazdu"
+
+msgid "crosshairControls/targetName"
+msgstr "Pojazd / Nazwa gracza"
+
+msgid "crosshairControls/title"
+msgstr "Celowniki i znaczniki działa"
+
+msgid "detailsHelp/default/title"
+msgstr "Pomoc"
+
+msgid "detailsHelp/devMaps/headerTitle"
+msgstr "Cechy mapy"
+
+msgid "detailsHelp/devMaps/markers/description"
+msgstr "Lokalizacja wydarzenia losowego zostanie oznaczona przez\ndym na mapie i znacznik na minimapie.\nMapy z wydarzeniami losowymi można wyłączyć w ustawieniach w zakładce Gra."
+
+msgid "detailsHelp/devMaps/title"
+msgstr "Mapy z wydarzeniami losowymi"
+
+msgid "detailsHelp/devMaps/zone/description"
+msgstr "Twój pojazd może zostać zniszczony w obszarze wydarzenia losowego (na przykład podczas katastrofy samolotu).\nMapy z wydarzeniami losowymi można wyłączyć w ustawieniach w zakładce Gra."
+
+msgid "detailsHelp/dualGun/quick_fire"
+msgstr "Pojazdy z tym systemem ogniowym zmieniają działa po strzale. Działo, które strzelało, automatycznie rozpoczyna przeładowanie, a drugie naładowane działo będzie musiało trochę poczekać."
+
+msgid "detailsHelp/dualGun/quick_fire/title"
+msgstr "Szybki ogień"
+
+msgid "detailsHelp/dualGun/volley_fire"
+msgstr "Pojazdy z dwulufowym systemem działa mają specjalną mechanikę ognia salwą, którą aktywuje się, przytrzymując przypisany klawisz. Wystrzelone pociski lecą równolegle do siebie. Klawisz kontrolujący strzelanie można zmienić w Ustawieniach."
+
+msgid "detailsHelp/dualGun/volley_fire/title"
+msgstr "Ogień salwą"
+
+msgid "detailsHelp/engineMode/engineModePage1"
+msgstr "Możesz przełączać tryby silnika, aby dostosować się do danej sytuacji taktycznej. Zmiana trybu silnika wymaga całkowitego zatrzymania i zajmuje określony czas, który nie zależy od stanu modułu."
+
+msgid "detailsHelp/engineMode/engineModePage1/title"
+msgstr "Nowa mechanika ruchu"
+
+msgid "detailsHelp/engineMode/engineModePage2"
+msgstr "Włączona turbina zwiększa moc silnika, prędkość jazdy do przodu i do tyłu. Ale ten tryb zwiększa widoczność Twojego pojazdu, zmniejsza stabilizację działa i zwiększa czas celowania."
+
+msgid "detailsHelp/engineMode/engineModePage2/title"
+msgstr "Wady i zalety"
+
+msgid "detailsHelp/mapbox/headerTitle"
+msgstr "Cechy mapy"
+
+msgid "detailsHelp/mapbox/localWeather/description"
+msgstr "Pojazdy w strefie pogody lokalnej nie mogą wykrywać pojazdów poza tą strefą i na odwrót ani wymieniać informacji na temat pozycji pojazdów przeciwnika poza tą strefą. Pożar uszkadza pojazdy."
+
+msgid "detailsHelp/mapbox/localWeather/title"
+msgstr "Pogoda lokalna"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/description"
+msgstr "Pozostawanie w bezruchu lub poruszanie się poniżej określonej prędkości umożliwia Twojemu pojazdowi skalibrowanie Analogowego balistycznego urządzenia obliczeniowego i wygenerowanie poziomów celności.\nKażdy poziom zwiększa celność Twojego kolejnego strzału i jest usuwany po wystrzale."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/title"
+msgstr "Analogowe balistyczne urządzenie obliczeniowe"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/description"
+msgstr "Przy pełnej kalibracji Twój pojazd osiąga najwyższy poziom celności i zyskuje przyzwoitą stabilizację działa ze zmniejszonym rozrzutem podczas ruchu lub obrotu wieży/kadłuba.\nEfekt jest usuwany po strzale."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/title"
+msgstr "Pełna kalibracja"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/description"
+msgstr "Rodzaj automatycznej broni palnej o bardzo dużej szybkostrzelności. Skuteczność ostrzału jest wyświetlana przez wskaźnik w okręgu celowania."
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/title"
+msgstr "Działo automatyczne"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/description"
+msgstr "Działo może strzelać ciągle, bez potrzeby przeładowania. Każdy strzał generuje ciepło, a prowadzenie ognia ciągłego spowoduje przegrzanie się działa, co uniemożliwi dalszy ostrzał aż do schłodzenia działa."
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
+msgstr "Działko automatyczne z kontrolą przegrzania"
+
+msgid "detailsHelp/mechanics/battleFury/page1/description"
+msgstr "Za każdym razem, kiedy trafisz przeciwnika pociskiem, zyskujesz poziom skuteczności przeładowania, który tymczasowo zwiększa szybkość przeładowania działa. Poziomy kumulują się z każdym trafieniem.\nZniszczenie pojazdu przeciwnika pociskiem zapewnia dodatkowe poziomy skuteczności przeładowania."
+
+msgid "detailsHelp/mechanics/battleFury/page1/title"
+msgstr "Półautomatyczny magazyn amunicji"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/description"
+msgstr "Jeśli Twoje działo jest załadowane, możesz zacząć rozgrzewać swój kolejny strzał. Im wyższy poziom rozgrzania osiągniesz, tym większy będzie bonus do średnich uszkodzeń.\nAby zacząć proces rozgrzewania, naciśnij:"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/title"
+msgstr "Przeciążenie termobalistyczne"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/description"
+msgstr "Po osiągnięciu maksymalnego poziomu rozpocznie się odliczanie. Jeśli nie oddasz strzału przed jego zakończeniem, nie będziesz mógł strzelać ani zmieniać pocisków przez kilka sekund."
+
+msgid "detailsHelp/mechanics/chargeShot/page2/title"
+msgstr "Przegrzanie ładowania"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/description"
+msgstr "Dwukrotne trafienie pojazdów przeciwnika z przebiciem aktywuje tryb serii i ładuje kasetę do ognia serią, która przy następnym strzale pozwala na wystrzelenie dwóch pocisków w krótkich odstępach czasu."
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
+msgstr "Tryb serii"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/description"
+msgstr "Pneumatyczny stabilizator żyroskopowy na krótki czas zapewnia maksymalną stabilizację podczas obrotu kadłuba i wieży, umożliwiając celniejszy ostrzał w ruchu i szybszą reakcję na nagłe zagrożenia.\nAby go aktywować, naciśnij klawisz skrótu:"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/title"
+msgstr "Pneumatyczny stabilizator żyroskopowy"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/description"
+msgstr "Jeśli działo wystarczająco przestygło po wystrzale, jego rozrzut zostanie zmniejszony. Pojawi się drugi okrąg celowania o mniejszej średnicy określający obszar uderzenia pocisku. Efekt trwa do momentu oddania kolejnego strzału."
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/title"
+msgstr "Podwójne celowanie"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/description"
+msgstr "System automatycznie rozpocznie ładowanie nowej kasety, gdy w bieżącej pozostanie jeden pocisk.\nWystrzelenie ostatniego pocisku, podczas ładowania nowej kasety dodaje kilka sekund do pozostałego czasu przeładowania."
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/title"
+msgstr "Kasetowy system ładowania"
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/description"
+msgstr "System schładza działo, pozwalając na precyzyjne strzelanie. Działo grzeje się przy strzale, ale podczas przeładowania zaczyna się schładzać i powracają jego ulepszone parametry. Im wyższa temperatura, tym większe zmiany niektórych parametrów."
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/title"
+msgstr "Aktywne chłodzenie działa"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/description"
+msgstr "Ten pojazd jest specjalnie skonfigurowany do ataków taranujących dzięki szeregowi modyfikacji konstrukcyjnych, które pomagają mu zadawać więcej uszkodzeń przy taranowaniu."
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/title"
+msgstr "Konfiguracja do taranowania"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/description"
+msgstr "Działo tego pojazdu może strzelać wcześniej: strzały z pojedynczym doładowaniem wystrzeliwane podczas przeładowania mają zmniejszoną skuteczność, natomiast standardowe strzały z pełnym doładowaniem wystrzeliwane po przeładowaniu mają optymalne parametry balistyczne."
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/title"
+msgstr "Wieloetapowy system doładowania"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/description"
+msgstr "Pozostawanie w bezruchu lub poruszanie się z prędkością poniżej określonego ograniczenia generuje rozgrzanie, które zwiększa średnie uszkodzenia i celność Twojego kolejnego strzału.\nPrzekroczenie ograniczenia prędkości stopniowo zmniejsza bonus, a wystrzelenie lub zmiana pocisków natychmiast go resetuje."
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/title"
+msgstr "System kontroli termicznej materiału pędnego"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/description"
+msgstr "Przy maksymalnym poziomie rozgrzania trafienie z przebiciem w pojazd przeciwnika, który ma mniej punktów wytrzymałości niż Twoje średnie uszkodzenia – wliczając w to skumulowany bonus od rozgrzania – spowoduje wybuch magazynu amunicji, natychmiast niszcząc ten pojazd."
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/title"
+msgstr "Decydujące uszkodzenia"
+
+msgid "detailsHelp/mechanics/powerMode/page1/description"
+msgstr "Tryb napędu bezpośredniego zapewnia znaczne zwiększenie mocy silnika i maksymalnej prędkości jazdy do przodu. Im dłużej jedziesz do przodu, tym większa jest prędkość, co pozwala z łatwością przemierzać pole bitwy."
+
+msgid "detailsHelp/mechanics/powerMode/page1/title"
+msgstr "Napęd bezpośredni"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/description"
+msgstr "Z upływem czasu system automatycznie gromadzi ładunek, który jest częściowo zużywany w celu zwiększenia uszkodzeń podczas ostrzału. Im wyższy poziom ładunku, tym większa premia do uszkodzeń."
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/title"
+msgstr "Indukcyjny dopalacz materiału pędnego"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/description"
+msgstr "Domyślnie system gromadzi ładunek tylko do określonego limitu. Wyłączenie ogranicznika pozwala na zgromadzenie jeszcze większego ładunku, zapewniając większą premię do uszkodzeń, ale pogarszając prowadzenie działa. Aby włączyć lub wyłączyć ogranicznik, naciśnij:"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/title"
+msgstr "Ogranicznik"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/description"
+msgstr "Dopalacze na paliwo ciekłe zapewniają większą moc silnika, umożliwiając szybkie przemieszczanie się po polu bitwy, ale ograniczając prędkość cofania i prędkość obrotu. Można je włączyć lub wyłączyć w dowolnym momencie z wyjątkiem krytycznego poziomu rozgrzania.\nAby zwiększyć moc, naciśnij lub przytrzymaj:"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/title"
+msgstr "Dopalacze na paliwo ciekłe"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/description"
+msgstr "Dopalacze przegrzewają się, kiedy są aktywne, aż do momentu osiągnięcia krytycznego limitu rozgrzania, przy którym stają się niedostępne do ponownej aktywacji, dopóki nie zostaną schłodzone. Starannie planuj swoje ruchy, aby nie dać się zaskoczyć."
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/title"
+msgstr "Krytyczny poziom rozgrzania"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/description"
+msgstr "Użycie dopalaczy odrzutowych zwiększa mobilność pojazdu. Pozwala zająć korzystne pozycje lub szybciej przekraczać niebezpieczne obszary. Można je aktywować na określony czas i ograniczoną liczbę razy w bitwie. Nie można ich dezaktywować ani zniszczyć."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/title"
+msgstr "Dopalacze odrzutowe"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/description"
+msgstr "Przy aktywacji dopalacze odrzutowe podnoszą moc silnika i prędkość maksymalną. W zamian za to pojazd ma mniejszą manewrowość i wolniej jedzie w tył."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
+msgstr "Wady i zalety"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
+msgstr "Dopalacze na paliwo stałe, które na kilka sekund poprawiają przyspieszenie, mobilność i zwrotność. Prawy i lewy dopalacz mogą działać niezależnie od siebie, wspomagając obrót kadłuba, i nie ograniczają możliwości jazdy w tył."
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/title"
+msgstr "Sekwencyjne dopalacze rakietowe"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/description"
+msgstr "Ten pojazd ma dwa tryby – turbo i starcie – które można przełączać w dowolnym momencie. Taktyczny zestaw energetyczny gromadzi energię dla aktywnego trybu.\nAby przełączyć się pomiędzy trybami, naciśnij:"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/title"
+msgstr "Dwa tryby"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/description"
+msgstr "Gdy Taktyczny zestaw energetyczny jest w pełni naładowany, dostępna jest zdolność specyficzna dla danego trybu. Aktywacja tej zdolności zużywa całą zgromadzoną energię i zapewnia potężne premie na krótki czas.\nAby aktywować unikalną zdolność, naciśnij:"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/title"
+msgstr "Zdolności trybu"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/description"
+msgstr "Amunicja zewnętrzna Moduł zaopatrzenia pozwala przerwać przeładowanie i rozpocząć ostrzał w dowolnym momencie, o ile nadal masz załadowany jeden pocisk. Aby przerwać lub wznowić proces ładowania, naciśnij klawisz skrótu: "
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/title"
+msgstr "Zewnętrzny moduł zaopatrzenia w amunicję"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/description"
+msgstr "Podczas przeładowania moduł blokuje wieżę pojazdu i zewnętrzne zasobniki z amunicją, tymczasowo uniemożliwiając celowanie i ostrzał, chyba że przerwiesz przeładowanie."
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/title"
+msgstr "Zewnętrzny moduł zaopatrzenia w amunicję"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/description"
+msgstr "Ten pojazd jest wyposażony w zestaw uzbrojenia pomocniczego, którego cykl przeładowania jest niezależny od głównego działa, co pozwala zadawać dodatkowe uszkodzenia w kluczowych momentach. Aby aktywować uzbrojenie pomocnicze, naciśnij klawisz skrótu:"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/title"
+msgstr "Uzbrojenie pomocnicze"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/description"
+msgstr "Laserowy wskaźnik celu dodaje do Twojego następnego strzału specjalny efekt stosowany do trafionego przeciwnika. Efekt różni się w zależności od tego, czy przeciwnik był wykryty w momencie trafienia.\nAby aktywować Laserowy wskaźnik celu, naciśnij:"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/title"
+msgstr "Laserowy wskaźnik celu"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/description"
+msgstr "Trafienie wykrytego przeciwnika oznaczy go, wydłużając czas jego wykrycia i zwiększając uszkodzenia otrzymywane przez niego od pocisków.\nTrafienie niewykrytego pojazdu przeciwnika spowoduje podświetlenie jego lokalizacji specjalnym znacznikiem."
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/title"
+msgstr "Oznaczenie celu"
+
+msgid "detailsHelp/mechanics/twinGun/page1/description"
+msgstr "Możesz przełączać tryb ostrzału z trybu ognia pojedynczego na tryb ognia salwą w zależności od sytuacji taktycznej na polu bitwy."
+
+msgid "detailsHelp/mechanics/twinGun/page1/title"
+msgstr "Mechanika przełączania trybu ostrzału"
+
+msgid "detailsHelp/mechanics/twinGun/page2/description"
+msgstr "Tryb ognia salwą podwaja zarówno uszkodzenia, jak i czas przeładowania, a Twój pojazd ma gorszy rozrzut na 100 m*."
+
+msgid "detailsHelp/mechanics/twinGun/page2/title"
+msgstr "Wady i zalety"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/description"
+msgstr "Ta modyfikacja mechaniczna znacznie zwiększa na krótki czas przyspieszenie pojazdu podczas jazdy do przodu i do tyłu, moc silnika oraz prędkość maksymalną do przodu i do tyłu. Utrzymanie wysokiej prędkości skraca czas przygotowania."
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/title"
+msgstr "Wysokociśnieniowe serwo turbosprężarki"
+
+msgid "detailsHelp/noKeysWarning"
+msgstr "Główne klawisze nie zostały przypisane. Przypisz je w ustawieniach gry."
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1"
+msgstr "W tym trybie celność działa, prędkość przeładowania oraz kąty podniesienia i opuszczenia lufy są drastycznie zwiększane, ale mobilność (prędkość do przodu/do tyłu i pionowa/pozioma prędkość obrotu) jest bardzo ograniczona. Aby aktywować tryb, %(pressAndHold)s klawisz skrótu:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/pressAndHold"
+msgstr "naciśnij i przytrzymaj"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/title"
+msgstr "Tryb bunkra"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2"
+msgstr "W tym trybie celność działa, prędkość przeładowania oraz kąty podniesienia i opuszczenia lufy są zwiększane, ale mobilność (prędkość do przodu/do tyłu) jest ograniczona. Aby aktywować tryb, naciśnij klawisz skrótu:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2/title"
+msgstr "Tryb ostrzału"
+
+msgid "detailsHelp/role/description"
+msgstr "Otrzymaj premię do doświadczenia, wykonując działania typowe dla roli:"
+
+msgid "detailsHelp/role/title"
+msgstr "Rola pojazdu w bitwie"
+
+msgid "detailsHelp/trackWithinTrack/description"
+msgstr "Pozwala częściowo utrzymać mobilność, gdy główna gąsienica jest zniszczona."
+
+msgid "detailsHelp/trackWithinTrack/title"
+msgstr "Gąsienica rezerwowa"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique"
+msgstr "Francuskie pojazdy kołowe dysponują największą prędkością i dynamiką, ale mają dość przeciętny zasięg widzenia. Nieruchomy pojazd kołowy nie może się obrócić."
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique/title"
+msgstr "Łącznie"
+
+msgid "detailsHelp/wheeledVeh/burnout"
+msgstr "Naciśnij i przytrzymaj jednocześnie %(key2)s i %(key1)s. Wskaźnik poziomu mocy wpływa na siłę doładowania. Zwolnij przycisk %(key1)s, by aktywować doładowanie, lub zwolnij %(key2)s, by je anulować. Doładowanie daje szybkie przyspieszenie, które można wykorzystać do zaskakujących ataków i zwodniczych manewrów. Uwaga! Doładowanie można wykorzystać tylko po całkowitym zatrzymaniu pojazdu. Aktywowanie doładowania uszkadza silnik."
+
+msgid "detailsHelp/wheeledVeh/burnout/title"
+msgstr "Doładowanie"
+
+msgid "detailsHelp/wheeledVeh/stableChassis"
+msgstr "Pojazdy kołowe doznają zmniejszonych uszkodzeń przy lądowaniu na kołach. Pojazd kołowy nie zatrzymuje się po zniszczeniu jednego koła. Gdy zniszczeniu ulegnie więcej kół, prędkość i prowadzenie pojazdu ulegają pogorszeniu. Pojazdy kołowe trudniej jest unieruchomić – zniszczone koła po określonym czasie zostają całkowicie naprawione."
+
+msgid "detailsHelp/wheeledVeh/stableChassis/title"
+msgstr "Wytrzymałe zawieszenie"
+
+msgid "detailsHelp/wheeledVeh/twoModes"
+msgstr "Naciśnij %(key1)s, aby zmienić tryb. Pojazdy mają inną prędkość, dynamikę i sterowność w każdym z trybów."
+
+msgid "detailsHelp/wheeledVeh/twoModes/title"
+msgstr "Dwa tryby poruszania się"
+
+msgid "markerColors/enemy"
+msgstr "Przeciwnik"
+
+msgid "markerColors/friend"
+msgstr "Sojusznik"
+
+msgid "markerColors/squadPlayer"
+msgstr "Towarzysz z plutonu"
+
+msgid "markerColors/teamKiller"
+msgstr "Podstępny zabójca"
+
+msgid "markerColors/title"
+msgstr "Kolory znacznika:"
+
+msgid "markerMarks/attack"
+msgstr "Atakujący"
+
+msgid "markerMarks/follow"
+msgstr "Za mną!"
+
+msgid "markerMarks/help"
+msgstr "Pomocy!"
+
+msgid "markerMarks/target/sau"
+msgstr "Cel działa samobieżnego"
+
+msgid "markerMarks/target/tank"
+msgstr "Cel pojazdu"
+
+msgid "markerMarks/title"
+msgstr "Skróty na minimapie:"
+
+msgid "radialMenu/ally_hq_defend_command"
+msgstr "Bronić!"
+
+msgid "radialMenu/ally_hq_defend_commit"
+msgstr "Bronię!"
+
+msgid "radialMenu/attackAreaSPG"
+msgstr "Celuję tutaj!"
+
+msgid "radialMenu/attack_enemy"
+msgstr "Potrzebne wsparcie!"
+
+msgid "radialMenu/attack_enemy_with_SPG"
+msgstr "Atakuję cel!"
+
+msgid "radialMenu/attacking_base"
+msgstr "Będę zajmować!"
+
+msgid "radialMenu/attacking_enemy"
+msgstr "Atakuję cel!"
+
+msgid "radialMenu/attention_to_base_atk"
+msgstr "Zajmować!"
+
+msgid "radialMenu/attention_to_base_def"
+msgstr "Bronić!"
+
+msgid "radialMenu/attention_to_position"
+msgstr "Uwaga na pozycję!"
+
+msgid "radialMenu/cancel_reply"
+msgstr "Odmawiam"
+
+msgid "radialMenu/defending_base"
+msgstr "Będę bronić!"
+
+msgid "radialMenu/enemy_hq_attack_command"
+msgstr "Do ataku!"
+
+msgid "radialMenu/enemy_hq_attack_commit"
+msgstr "Atakuję!"
+
+msgid "radialMenu/going_there"
+msgstr "Jadę na pozycję!"
+
+msgid "radialMenu/helpMe"
+msgstr "Pomocy!"
+
+msgid "radialMenu/helpMeEx"
+msgstr "Potrzebuję pomocy!"
+
+msgid "radialMenu/overheated_gun"
+msgstr "Przegrzane!"
+
+msgid "radialMenu/positive"
+msgstr "Tak jest!"
+
+msgid "radialMenu/reloadingGun"
+msgstr "Przeładowuję!"
+
+msgid "radialMenu/reply_to_player"
+msgstr "Potwierdzone!"
+
+msgid "radialMenu/supporting_ally"
+msgstr "Pomogę Ci!"
+
+msgid "radialMenu/thanks"
+msgstr "Dziękuję!"
+
+msgid "radialMenu/turn_back"
+msgstr "Odwrót"
+
+msgid "returnToGame"
+msgstr "Esc - wróć do bitwy"
+
+msgid "roleDescription/msg"
+msgstr "Otrzymaj premię do doświadczenia, wykonując działania typowe dla roli:"
+
+msgid "settings/button"
+msgstr "Ustawienia"
+
+msgid "settings/help"
+msgstr "Aby wyświetlić i dostosować ustawienia kontroli, kliknij przycisk Ustawienia."
+
+msgid "teamComm/highlightAsActiveTarget"
+msgstr "Wskaż aktywny cel"
+
+msgid "teamComm/highlightLocation"
+msgstr "Wskaż pozycję"
+
+msgid "teamComm/show"
+msgstr "Wyświetl menu poleceń"
+
+msgid "teamComm/show/ext"
+msgstr "(lista komend uzależniona jest od celu)"
+
+msgid "teamComm/title"
+msgstr "Komunikacja w drużynie"
+
+msgid "vehicleTypes/title"
+msgstr "Znaczniki typu pojazdu"

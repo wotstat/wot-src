@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Sapratu!"
+
+msgid "attachments_preview/description"
+msgstr "3D piederumu komplekts"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Episkā 3D piederums"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Leģendārais 3D piederums"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Retais 3D piederums"
+
+msgid "bundle/name"
+msgstr "Noslēpumainais Tirgus"
+
+msgid "bundle/name_uppercased"
+msgstr "NOSLĒPUMAINAIS TIRGUS"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Atcelt"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Pirkt"
+
+msgid "confirmation/description"
+msgstr "Apstiprini, lai saņemtu bonas un jaunu šūnas atlīdzību."
+
+msgid "confirmation/purchase"
+msgstr "Iegādāties par {{price}}?"
+
+msgid "entryPoint/button"
+msgstr "Iet uz Pasākumu"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} ir klāt. Ieskaties!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Kad tu iegādājies bonas pasākuma {{eventName}} laikā, tu saņemsi atlīdzību no vienas no neatvērtajām šūnām kā bonusa dāvanu. Šūnas satur vērtīgus spēles priekšmetus, tostarp galveno balvu: Premium transportlīdzekli."
+
+msgid "intro/cards/description/c_2"
+msgstr "Atlīdzības tiek piešķirtas nejaušā secībā. Katra neatvērtā šūna ir ar savu atlases varbūtību, un kopējā varbūtība vienmēr ir 100%. Kad šūna ir atvērta, to vairs nevar atvērt, un iespējamība iegūt atlikušās atlīdzības palielinās."
+
+msgid "intro/cards/description/c_3"
+msgstr "Katrs solis maksā noteiktu daudzumu zelta. Gan saņemto bonu skaits, gan soļa cena mainās atkarībā no progresa."
+
+msgid "intro/cards/link"
+msgstr "Skatiet nosacījumus un cenas katram solim {{@ class 'linkPart'}}portālā.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Bonu iegāde"
+
+msgid "intro/cards/title/c_2"
+msgstr "Šūnas un varbūtība"
+
+msgid "intro/cards/title/c_3"
+msgstr "Soļu cenas"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "TAVA BALVA JAU GAIDA."
+
+msgid "main/alt/description"
+msgstr "Skatīt varbūtību"
+
+msgid "main/alt/tooltip/body"
+msgstr "Nospied taustiņu Alt, lai redzētu katras šūnas saņemšanas varbūtību."
+
+msgid "main/alt/tooltip/header"
+msgstr "Varbūtības attēlojums"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "APSVEICAM! \n JŪS SAŅĒMĀT VISAS ATLĪDZĪBAS"
+
+msgid "main/footer/button"
+msgstr "Pirkt"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}Atlīdzība no šūnas"
+
+msgid "main/footer/receive"
+msgstr "Tu saņemsi: {{item}}"
+
+msgid "main/header/description"
+msgstr "Piedalies notikumā no {{startDate}} līdz {{endDate}} un saņem atlīdzības!"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Dodieties uz “Pielāgošanu”"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Iet uz Stilu"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Iet uz tanku"
+
+msgid "notifications/specialReward/title"
+msgstr "Galvenā {{eventName}} balva ir tava!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Papildu balvas:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Saņemts:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Šī darbība pagaidām nav pieejama tehnisku iemeslu dēļ. Lūdzu, mēģini vēlāk vēlreiz."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Uz Pasākumu"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s drīz beigsies!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Notikums būs pieejams līdz: %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "%(eventName)s šūna atvērta"
+
+msgid "tooltips/entry/description"
+msgstr "Tava balva gaida! Katrs bonu pirkums tev piešķir nejaušu balvu no vienas šūnas kā dāvanu. Katru reizi tiek atvērta jauna šūna, un jau atvērtās tiek izslēgtas."
+
+msgid "tooltips/entry/timer"
+msgstr "Pasākums būs pieejams vēl {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "Par pasākumu"
+
+msgid "tooltips/steps/description"
+msgstr "Par katru pirkumu tu saņemsi vairāk {{currency}}. Saņemtā summa pieaug noteiktos pirkumu posmos."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} par katru pirkumu"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Posmi:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} — {{end}}"

@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Blaupause"
+
+msgid "animations/crew_close"
+msgstr "SCHLIESSEN"
+
+msgid "animations/shop"
+msgstr "Zum Kauf"
+
+msgid "battleMattersTab"
+msgstr "Panzerakademie"
+
+msgid "battleResults/descr"
+msgstr "Panzerakademie: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Zu Aufträgen der Panzerakademie"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Fortschritt in diesem Gefecht"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Abbrechen"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "SCHLIESSEN"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Bestätigen"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Sie erhalten das Fahrzeug {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} mit einer Besatzung und einem Garagenstellplatz."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "%(vehicleName)s gegen Akademiemarke eintauschen?"
+
+msgid "entryPoint/hint"
+msgstr "EINE REIHE\nÜBUNGSAUFTRÄGE"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Abgeschlossene Aufträge: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Panzerakademie"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Abschlussbelohnung:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Aufträge sind vorübergehend aus technischen Gründen nicht verfügbar. Ihr Fortschritt für die abgeschlossenen Aufträge wird gespeichert."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Alle Aufträge erfüllt"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Aufträge sind vorübergehend nicht verfügbar"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Bedingungen:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Tauschen Sie eine Marke gegen ein beliebiges erforschbares Fahrzeug der Stufe VI ein."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "ZURÜCK"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "ZU AUFTRÄGEN DER PANZERAKADEMIE"
+
+msgid "mainRewardsScreen/done"
+msgstr "In Garage"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Vorschau"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Miettage: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Schließen Sie eine Reihe Übungsaufträge ab, um als Hauptbelohnung drei Premiumfahrzeuge der Stufe VIII für {cream_Open}14 Tage{cream_Close} zur Miete zu erhalten."
+
+msgid "mainRewardsScreen/title"
+msgstr "PANZERAKADEMIE"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Auswählen"
+
+msgid "mainScreen/infoButton"
+msgstr "RATGEBER FÜR NEUEINSTEIGER"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "RATGEBER"
+
+msgid "mainScreen/list/arrow"
+msgstr "Klicken Sie hier, um zum aktuellen Auftrag zu gehen."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Hauptbelohnung erhalten"
+
+msgid "mainScreen/progress"
+msgstr "Abgeschlossene Aufträge: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Über den Abschluss"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Schließen Sie den vorhergehenden Auftrag ab"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Nicht verfügbar"
+
+msgid "mainScreen/showMainReward"
+msgstr "Hauptbelohnung ansehen"
+
+msgid "mainScreen/target"
+msgstr "Schließen Sie alle Aufträge ab, dann erhalten Sie drei Fahrzeuge der Stufe VIII zur Miete."
+
+msgid "mainScreen/title"
+msgstr "PANZERAKADEMIE"
+
+msgid "pausedScreen/buttonText"
+msgstr "Zur Garage"
+
+msgid "pausedScreen/description"
+msgstr "Die Panzerakademie ist aus technischen Gründen vorübergehend nicht verfügbar. Sämtliche Fortschritte werden gespeichert. Wir entschuldigen uns für die Unannehmlichkeiten."
+
+msgid "pausedScreen/title"
+msgstr "Vorübergehend nicht verfügbar"
+
+msgid "rewards/additionalTitle"
+msgstr "Sie erhielten außerdem:"
+
+msgid "rewards/footer/confirm"
+msgstr "Verstanden!"
+
+msgid "rewards/footer/more"
+msgstr "Mehr: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Zum nächsten Auftrag"
+
+msgid "rewards/footer/showVehicle"
+msgstr "In Garage ansehen"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Die Auftragsbedingungen wurden bereits vorher erfüllt."
+
+msgid "rewards/rent"
+msgstr "Miettage: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "LETZTER AUFTRAG ABGESCHLOSSEN"
+
+msgid "rewards/subTitle/regular"
+msgstr "AUFTRAG %(questNumber)s ABGESCHLOSSEN"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "FAHRZEUG FÜR AKADEMIEMARKE ERHALTEN"
+
+msgid "rewards/title"
+msgstr "PANZERAKADEMIE"
+
+msgid "rewards/token/action"
+msgstr "Fahrzeug auswählen"
+
+msgid "rewards/token/description"
+msgstr "Nutzen Sie eine Marke, um sofort ein beliebiges Fahrzeug der Stufe VI zu erhalten."
+
+msgid "rewards/token/title"
+msgstr "Akademiemarke gegen Fahrzeug eintauschen"
+
+msgid "tokenTooltip/condition"
+msgstr "Für den erfolgreichen Abschluss einer Reihe Übungsaufträge und den notwendigen Fortschritt in der Panzerakademie werden Marken verliehen."
+
+msgid "tokenTooltip/description"
+msgstr "Marken können gegen ein beliebiges erforschbares Fahrzeug der Stufe VI mit Besatzung und Garagenstellplatz eingetauscht werden."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Marke verfügbar: {cream_open}%(days)s T.{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Marke verfügbar bis: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Marke verfügbar: {cream_open}%(hours)s Std.{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Marke verfügbar: {cream_open}%(minutes)s Min.{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Akademiemarke"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Zusätzlich zu Ihrem Fahrzeug erhalten Sie eine {cream_Open}%(crewIcon)s Besatzung{cream_Close} und einen {cream_Open}%(hangarIcon)s{cream_Close}{cream_Open} Garagenstellplatz{cream_Close}."
+
+msgid "vehicleSelection/back"
+msgstr "ZURÜCK"
+
+msgid "vehicleSelection/backTo"
+msgstr "ZU AUFTRÄGEN DER PANZERAKADEMIE"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Zum Vergleich hinzufügen"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Konfigurieren Sie die Anzeige der Fahrzeuge nach Typ und Nation."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Nach Parametern filtern"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Klicken Sie hier, um die Filtereinstellungen zurückzusetzen."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Voreingestellt"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Nation"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Nach Parametern filtern"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Fahrzeugtyp"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Nichts gefunden. Ändern Sie die Filtereinstellungen oder setzen Sie diese auf die Standardwerte zurück."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Filter zurücksetzen"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Sie haben alle Fahrzeuge der Stufe VI erforscht, die für Akademiemarken erhalten werden können."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Keine auswählbaren Fahrzeuge"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Nach Namen suchen"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "Der Fahrzeugname darf nicht mehr als %(maxLength)s Zeichen umfassen."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Nach Namen suchen"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Angezeigt:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Tauschen Sie eine Marke gegen ein beliebiges erforschbares Fahrzeug der Stufe VI\nmit Besatzung und Garagenstellplatz ein."
+
+msgid "vehicleSelection/title"
+msgstr "Erforschbares Stufe-VI-Fahrzeug auswählen"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "SFL"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Schwerer Panzer"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Leichter Panzer"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Mittlerer Panzer"

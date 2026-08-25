@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Aktiviraj"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Kupi i aktiviraj"
+
+msgid "activation/activateBonus"
+msgstr "Aktiviraj rezervu: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Aktiviraj rezervu"
+
+msgid "activation/activateButtonClan"
+msgstr "Na Utvrđenje"
+
+msgid "activation/battleXPDescription"
+msgstr "Bonus na borbeno iskustvo tokom 1 h"
+
+msgid "activation/battleXPTitle"
+msgstr "Borbeno iskustvo"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Kupi i aktiviraj poboljšanu ličnu rezervu koja daje %(boosterBonus)s na%(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Kupi zlato"
+
+msgid "activation/buyGoldTitle"
+msgstr "Kupi zlato potrebno za poboljšanu ličnu rezervu koja daje %(boosterBonus)s na%(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open} zlata je potrebno za kupovinu poboljšane lične rezerve:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Krediti i borbeno iskustvo"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "Iskustvo posade i slobodno iskustvo"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Klanske rezerve"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Aktiviraj rezerve u utvrđenju"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Pogled u utvređenje"
+
+msgid "activation/comboXPDescription"
+msgstr "Bonus na slobodno i iskustvo posade tokom 1 h"
+
+msgid "activation/comboXPTitle"
+msgstr "Slob. & isk. posade"
+
+msgid "activation/creditsDescription"
+msgstr "Bonus na kredite tokom 1 h"
+
+msgid "activation/creditsTitle"
+msgstr "Krediti"
+
+msgid "activation/footer"
+msgstr "Rezerve koje ističu ne moraju da se aktiviraju: %(expirableAmount) za %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Bonus na iskustvo Linije fronta tokom 1 h"
+
+msgid "activation/frontLineXPTitle"
+msgstr "Iskustvo Linije fronta"
+
+msgid "activation/informationButton"
+msgstr "INFORMACIJE"
+
+msgid "activation/price"
+msgstr "Cena:"
+
+msgid "activation/subFooter/depot"
+msgstr "depou"
+
+msgid "activation/subFooter/main"
+msgstr "Rezerve najbliže isticanju se aktiviraju prve. Možeš da pogledaš sve svoje dostupne rezerve u %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Aktiviraj {whiteSpanish_Open}do 3 lične rezerve{whiteSpanish_Close} da zaradiš više kredita i iskustva u borbama. Kupi još ličnih rezervi u %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "Prodavnica"
+
+msgid "activation/terms/booster_credits"
+msgstr "kredite"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "iskustvo Linije fronta"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "slobodno & iskustvo posade"
+
+msgid "activation/terms/booster_xp"
+msgstr "borbeno iskustvo"
+
+msgid "activation/title"
+msgstr "LIČNE REZERVE"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Aktivirana standardna lična rezerva koja daje %(previousBoosterBonus)s na %(previousBoosterTerm)s će biti izgubljena.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Da li želiš da aktiviraš poboljšanu ličnu rezervu koja daje %(boosterBonus)s na %(boosterTerm)s umesto aktivirane standardne lične rezerve?"
+
+msgid "battleView/notice"
+msgstr "Lične rezerve mogu biti aktivirane bilo kada u borbi. Dobićeš bonus čak i ako rezerva istekne tokom borbe."
+
+msgid "battleView/title"
+msgstr "Aktiviranje ličnih rezervi"
+
+msgid "depot/buyButton"
+msgstr "Na kupovinu"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Druga rezerva ovog tipa je aktivirana."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Ova lična rezerva je istekla tokom borbe. Bonus od lične rezerve se i dalje primenjuje na ovu borbu."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)min"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Aktivirana lična rezerva se ne primenjuje u ovom režimu."
+
+msgid "intro/buttons/close"
+msgstr "Razumem!"
+
+msgid "intro/buttons/details"
+msgstr "Detalji"
+
+msgid "intro/description"
+msgstr "Rezerve koje ističu su dostupne na ograničeno vreme nakon dobijanja. Ako nisu aktivirane tokom ovog vremena biće izgubljene. Rezerve koje ne ističu ne mogu biti upotrebljene dok imaš lične rezerve koje ističu istog tipa."
+
+msgid "intro/title"
+msgstr "LIČNE REZERVE KOJE ISTIČU"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Nema ličnih rezervi ovog tipa u depou. Možeš da ih kupiš kasnije ili da ih aktiviraš u garaži."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Završi misije i učestvuj u događajima u igri da bi zaradio lične rezerve."
+
+msgid "noReserveTooltip/text"
+msgstr "Nema ličnih rezervi ovog tipa u depou."

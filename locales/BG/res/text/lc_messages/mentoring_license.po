@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "За да потвърдите, въведете количеството опит на избрания за прехвърляне член на екипажа."
+
+msgid "assignmentDialog/price"
+msgstr "Цена:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Прехвърлете целия опит на екипажа между членовете на екипажа"
+
+msgid "assignmentDialog/title"
+msgstr "Потвърди Менторски курс"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Този член на екипажа ще бъде премахнат от\nвашия акаунт без възстановяване."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} допълнителен опит ще бъде изгубен."
+
+msgid "dialogue/description"
+msgstr "Снаряжение, което ви позволява да прехвърляте целия опит на екипажа между членове на екипажа от една и съща нация."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}Допълнителен опит ще бъде изгубен:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "ИЗБЕРИ"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Общо опит:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Лиценз/и за менторство:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Няма подходящи членове на екипажа"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Изберете члена на екипажа, който ще прехвърли своя опит\nна {cream_Open}%(name)s{cream_Close} и ще бъде премахнат от вашия акаунт."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "След прехвърляне на опита на екипажа, {cream_Open}%(name)s{cream_Close} ще достигне лимита на уменията и целият опит над лимита ще бъде загубен."
+
+msgid "mentorAssigment/title"
+msgstr "ИЗБЕРИ МЕНТОР"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close} достигна лимита на уменията и не може да бъде избран за прехвърляне на опит."
+
+msgid "multipleUserName"
+msgstr "Лицензи за менторство"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Използвани лицензи за менторство: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "Прехвърлен опит на екипажа: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "Менторски курс"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>Изгубен допълнителен опит на екипажа: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Позволява ви да прехвърляте опит на екипажа между членове\nна екипажа от една и съща нация."
+
+msgid "storage/userName"
+msgstr "Лиценз за менторство"
+
+msgid "userName"
+msgstr "Лиценз за менторство"

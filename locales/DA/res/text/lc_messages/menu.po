@@ -1,0 +1,7445 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "PromoPremiumIgrWindow/applyButtonLabel"
+msgstr "Bekræftet!"
+
+msgid "PromoPremiumIgrWindow/text"
+msgstr "Ved at spille i %(iconIgr)s, kan du leje et stort antal forskellige køretøjer og kæmpe med dem, uden at skulle købe køretøjet først. Når særtilbuddet slutter, vil ingen af de lejede køretøjer forsvinde fra din garage og du vil være i stand til sikkert at afmontere al udstyr, fjerne forbrugsvarer og sende mandskabet til barakken."
+
+msgid "PromoPremiumIgrWindow/title"
+msgstr "Unikt særtilbud!"
+
+msgid "PromoPremiumIgrWindow/windowTitle"
+msgstr "Særlige køretøjer i IGR"
+
+msgid "Time/timeLeftShort/days"
+msgstr "%(day)s d"
+
+msgid "Time/timeLeftShort/hours"
+msgstr "%(hour)s t"
+
+msgid "Time/timeLeftShort/lessMin"
+msgstr "mindre end et minut"
+
+msgid "Time/timeLeftShort/min"
+msgstr "%(min)s min"
+
+msgid "Time/timeValue/days"
+msgstr "%(day)s d %(hour)s t %(min)s min"
+
+msgid "Time/timeValue/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "Time/timeValue/lessMin"
+msgstr "et minut"
+
+msgid "Time/timeValue/min"
+msgstr "%(min)s min"
+
+msgid "Time/timeValueShort/days"
+msgstr "%(day)s d %(hour)s t"
+
+msgid "Time/timeValueShort/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "Time/timeValueShort/lessMin"
+msgstr "01 min"
+
+msgid "Time/timeValueShort/min"
+msgstr "%(min)s min"
+
+msgid "Time/timeValueShort/noLeadingZeroes/days"
+msgstr "%(day)s d %(hour)s t"
+
+msgid "Time/timeValueShort/noLeadingZeroes/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "Time/timeValueShort/noLeadingZeroes/lessMin"
+msgstr "1 min"
+
+msgid "Time/timeValueShort/noLeadingZeroes/min"
+msgstr "%(min)s min"
+
+msgid "Time/timeValueWithSecs/days"
+msgstr "%(day)s d %(hour)s t"
+
+msgid "Time/timeValueWithSecs/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "Time/timeValueWithSecs/lessMin"
+msgstr "%(sec)s s"
+
+msgid "Time/timeValueWithSecs/min"
+msgstr "%(min)s min %(sec)s s"
+
+msgid "account/profile/emptyBattleList"
+msgstr "Har aldrig været i kamp"
+
+msgid "accountInfo/credits"
+msgstr "Credits:"
+
+msgid "accountInfo/crystal"
+msgstr "Obligationer:"
+
+msgid "accountInfo/eventCoin"
+msgstr "Jubilæumsmønter:"
+
+msgid "accountInfo/experience"
+msgstr "Samlet xp:"
+
+msgid "accountInfo/gold"
+msgstr "Guld:"
+
+msgid "accountTypes/base"
+msgstr "Standard Konto"
+
+msgid "accountTypes/demo"
+msgstr "Testkonto"
+
+msgid "accountTypes/free"
+msgstr "Gratis Konto"
+
+msgid "accountTypes/guest"
+msgstr "Gæstekonto"
+
+msgid "accountTypes/premium"
+msgstr "Wargaming premium"
+
+msgid "accountTypes/premiumPlus"
+msgstr "WoT premium"
+
+msgid "accountTypes/premiumPlusShort"
+msgstr "WoT"
+
+msgid "accountTypes/premiumShort"
+msgstr "Wargaming"
+
+msgid "accountTypes/subscription"
+msgstr "Premium abonnement"
+
+msgid "ammoReload/additionBuy"
+msgstr "Køb"
+
+msgid "ammoReload/ammunition"
+msgstr "Ammunition:"
+
+msgid "ammoReload/autoFill"
+msgstr "Auto-genforsyn"
+
+msgid "ammoReload/cancel"
+msgstr "Fortryd"
+
+msgid "ammoReload/clearAmmunition"
+msgstr "Ryd ammunition"
+
+msgid "ammoReload/damage/title"
+msgstr "Skade:"
+
+msgid "ammoReload/damage/units"
+msgstr "?empty?"
+
+msgid "ammoReload/fill"
+msgstr "Genforsyn"
+
+msgid "ammoReload/inTank"
+msgstr "Ladet"
+
+msgid "ammoReload/onInventory"
+msgstr "I depot"
+
+msgid "ammoReload/piercingPower/title"
+msgstr "Gennembrydning: op til"
+
+msgid "ammoReload/piercingPower/units"
+msgstr "mm"
+
+msgid "ammoReload/reloadTitle"
+msgstr "Ammunition til"
+
+msgid "ammoReload/title"
+msgstr "Genforsyn Ammunition"
+
+msgid "ammoReload/totalcost"
+msgstr "Totalt:"
+
+msgid "awardWindow/boosterAward/activateBtn/label"
+msgstr "Se personlige reserver"
+
+msgid "awardWindow/boosterAward/additional"
+msgstr "For fuldførelse af denne mission, har du nu personlig reserve til rådighed. Du kan aktivere personlig reserve i det tilhørende vindue i kontekstmenuen på spillerens navn."
+
+msgid "awardWindow/boosterAward/description/tillTime"
+msgstr "Varighed: "
+
+msgid "awardWindow/boosterAward/description/timeValue/defined"
+msgstr "%(effectTime)s (brug indtil %(tillTime)s)"
+
+msgid "awardWindow/boosterAward/description/timeValue/undefined"
+msgstr "%(effectTime)s (udløber ikke)"
+
+msgid "awardWindow/boosterAward/header"
+msgstr "Personlig reserve modtaget: %(boosterName)s"
+
+msgid "awardWindow/closeButton"
+msgstr "Luk"
+
+msgid "awardWindow/mission/additionalComplete"
+msgstr "Sekundær betingelse opfyldt."
+
+msgid "awardWindow/mission/additionalNotComplete"
+msgstr "Sekundær betingelse ikke opfyldt."
+
+msgid "awardWindow/mission/available"
+msgstr "Missioner tilgængelige: %(count)s"
+
+msgid "awardWindow/mission/complete"
+msgstr "Mission fuldført!"
+
+msgid "awardWindow/mission/conditionComplete"
+msgstr "Betingelse opfyldt!"
+
+msgid "awardWindow/mission/mainConditionComplete"
+msgstr "Primær betingelse opfyldt!"
+
+msgid "awardWindow/mission/nextButton"
+msgstr "Til missioner"
+
+msgid "awardWindow/mission/nextButton/tooltip/body"
+msgstr "Klik for at se tilgængelige missioner der kan fuldføres."
+
+msgid "awardWindow/mission/nextButton/tooltip/header"
+msgstr "Til missioner"
+
+msgid "awardWindow/okButton"
+msgstr "Bekræftet!"
+
+msgid "awardWindow/personalDiscountAward/activateBtn/label"
+msgstr "Vis missioner"
+
+msgid "awardWindow/personalDiscountAward/additional/experience/rent"
+msgstr "Hvis du kan lide dette køretøj, kan du købe det så du kan bruge det uden restriktioner."
+
+msgid "awardWindow/personalDiscountAward/additional/slot"
+msgstr "Jo højere niveau på det køretøj du bruger i kamp, jo flere credits vil du tjene i kampen. Spillets kompleksitet vil dog også forøges."
+
+msgid "awardWindow/personalDiscountAward/award/experience"
+msgstr "en 100% rabat på konvertering af fri xp (op til 2.000 xp)"
+
+msgid "awardWindow/personalDiscountAward/award/slot"
+msgstr "en 100% rabat på køb af plads"
+
+msgid "awardWindow/personalDiscountAward/award/training"
+msgstr "en 100% rabat på Kampvognsakademi træning for nyt mandskab"
+
+msgid "awardWindow/personalDiscountAward/description/experience"
+msgstr "Du har deltaget i det krævede antal kampe i køretøjet."
+
+msgid "awardWindow/personalDiscountAward/description/experience/rent"
+msgstr "Du har deltaget i det krævede antal kampe i det lejede køretøj."
+
+msgid "awardWindow/personalDiscountAward/description/slot"
+msgstr "Du har købt et køretøj af højere niveau."
+
+msgid "awardWindow/personalDiscountAward/description/training"
+msgstr "Du har lært hvordan du konverterer kamp xp til fri xp."
+
+msgid "awardWindow/personalDiscountAward/header"
+msgstr "Tillykke!"
+
+msgid "awardWindow/personalDiscountAward/rewardText"
+msgstr "Belønning \nfor fuldførelse"
+
+msgid "awardWindow/personalDiscountAward/title"
+msgstr "Tillykke"
+
+msgid "awardWindow/personalMission/alreadyCompleted"
+msgstr " (Allerede fuldført)"
+
+msgid "awardWindow/personalMission/available"
+msgstr "Den næste mission er tilgængelig"
+
+msgid "awardWindow/personalMission/complete"
+msgstr "Mission fuldført!"
+
+msgid "awardWindow/personalMission/completeWithHonors"
+msgstr "Mission fuldført\nmed udmærkelse!"
+
+msgid "awardWindow/personalMission/mainConditionCompleted"
+msgstr "Primær betingelse opfyldt!"
+
+msgid "awardWindow/personalMission/nextButton"
+msgstr "Vis mission"
+
+msgid "awardWindow/personalMission/nextButton/tooltip/body"
+msgstr "Klik for at se betingelser på den næste mission og respektive belønninger."
+
+msgid "awardWindow/personalMission/nextButton/tooltip/header"
+msgstr "Vis mission"
+
+msgid "awardWindow/personalMission/nextButtonAward"
+msgstr "Rekrutter kvindeligt mandskab"
+
+msgid "awardWindow/personalMission/nextButtonAward/tooltip/body"
+msgstr "Klik for at rekruttere kvindeligt mandskab for at fuldføre de primære betingelser i den sidste mission i sættet."
+
+msgid "awardWindow/personalMission/nextButtonAward/tooltip/header"
+msgstr "Rekrutter"
+
+msgid "awardWindow/personalMission/sideConditionCompleted"
+msgstr "Sekundær betingelse opfyldt!"
+
+msgid "awardWindow/personalMission/sideConditionNotCompleted"
+msgstr "Sekundær betingelse ikke opfyldt"
+
+msgid "awardWindow/quests/medals/header"
+msgstr "Du er blevet belønnet!"
+
+msgid "awardWindow/quests/taskComplete/additional"
+msgstr "Belønning for fuldførelse af sekundære betingelser: %(award)s"
+
+msgid "awardWindow/quests/taskComplete/additionalNotComplete"
+msgstr "Sekundær betingelse ikke opfyldt."
+
+msgid "awardWindow/quests/taskComplete/awardForComlete"
+msgstr "Belønning\nfor fuldførelse"
+
+msgid "awardWindow/quests/taskComplete/awardRecieved"
+msgstr "Belønning for at have opfyldt de primære betingelser er allerede modtaget."
+
+msgid "awardWindow/quests/taskComplete/description"
+msgstr "For fuldførelse af missionen, udtrykker øverstekommandoen sin taknemmelighed og giver dig en værdifuld belønning."
+
+msgid "awardWindow/quests/taskComplete/header"
+msgstr "Mission \"%(taskName)s\" fuldført!"
+
+msgid "awardWindow/quests/taskComplete/nextTaskAutoChoice"
+msgstr "Mission \"%(taskName)s\" påbegyndt."
+
+msgid "awardWindow/quests/vehicle/description"
+msgstr "For fuldførelse af alle missioner i operationen, udtrykker øverstekommandoen sin taknemmelighed og belønner dig med et unikt køretøj."
+
+msgid "awardWindow/quests/vehicle/header"
+msgstr "Din belønning %(vehicleName)s venter i garagen!"
+
+msgid "awardWindow/recruitButton"
+msgstr "Rekruttér"
+
+msgid "awardWindow/recruiterAward/description"
+msgstr "Du opfylder alle betingelserne for at blive en kommandør og invitere venner til at spille med dig."
+
+msgid "awardWindow/recruiterAward/header"
+msgstr "Betingelser opfyldt!"
+
+msgid "awardWindow/recruiterAward/okButton"
+msgstr "Fortsæt"
+
+msgid "awardWindow/recruiterAward/title"
+msgstr "Henvisningsprogram"
+
+msgid "awardWindow/takeNextButton"
+msgstr "Se missionsbetingelserne"
+
+msgid "awardWindow/telecomAward/button/label/default"
+msgstr "Vis i garagen"
+
+msgid "awardWindow/telecomAward/description/full/Twitchprime"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming:\n%(vehicles)s\n• En ekstra garageplads"
+
+msgid "awardWindow/telecomAward/description/full/default"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Igrovoy-perioden:\n%(vehicles)s\n• %(prem)s i periodens varighed.\n• En ekstra garageplads."
+
+msgid "awardWindow/telecomAward/description/prem/default"
+msgstr "WoT premium konto"
+
+msgid "awardWindow/telecomAward/description/withBrotherhood/Twitchprime"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming:\n%(vehicles)s\n• Mandskab med våbenbrødre-evnen.\n• En ekstra garageplads."
+
+msgid "awardWindow/telecomAward/description/withBrotherhood/default"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Igrovoy-perioden:\n%(vehicles)s\n• Mandskab med våbenbrødre-evnen.\n• %(prem)s i periodens varighed.\n• En ekstra garageplads."
+
+msgid "awardWindow/telecomAward/description/withoutCrew/Twitchprime"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Prime Gaming:\n%(vehicles)s\n• En ekstra garageplads."
+
+msgid "awardWindow/telecomAward/description/withoutCrew/default"
+msgstr "Tillykke! Du har modtaget en særlig forsyningslevering med Igrovoy-perioden:\n%(vehicles)s\n• %(prem)s i periodens varighed.\n• En ekstra garageplads."
+
+msgid "awardWindow/telecomAward/header/default"
+msgstr "Du er blevet belønnet!"
+
+msgid "awardWindow/telecomAward/subdescription/default"
+msgstr "Bemærk venligst, at du ikke kan sælge eller slette dette køretøj."
+
+msgid "awardWindow/telecomAward/title/default"
+msgstr "Bulletin"
+
+msgid "awardWindow/telecomAward/vehicles/Twitchprime"
+msgstr "• %(nation)s niveau %(level)s %(vehicle)s %(type)s med en unik stil."
+
+msgid "awardWindow/telecomAward/vehicles/default"
+msgstr "• %(nation)s niveau %(level)s %(vehicle)s %(type)s med en eksklusiv sløring."
+
+msgid "awardWindow/title/boosterAward"
+msgstr "Tillykke med fuldførelsen"
+
+msgid "awardWindow/title/credits"
+msgstr "Lommepenge"
+
+msgid "awardWindow/title/newMedals"
+msgstr "Anbefaling"
+
+msgid "awardWindow/title/newTankman"
+msgstr "Nyt mandskab i barakken"
+
+msgid "awardWindow/title/newVehicle"
+msgstr "Nyt køretøj i garagen"
+
+msgid "awardWindow/title/taskComplete"
+msgstr "Tillykke med fuldførelsen"
+
+msgid "awardWindow/title/tokens"
+msgstr "Anbefaling"
+
+msgid "awardWindow/vehicleCollector/description"
+msgstr "Tillykke! For at have skaffet alle %(nation)s samlerkøretøjer, har du modtaget en mindesmedalje."
+
+msgid "awardWindow/vehicleCollector/header"
+msgstr "Samling fuldført"
+
+msgid "awardWindow/vehicleCollector/okButton"
+msgstr "Bekræftet!"
+
+msgid "awardWindow/vehicleCollector/title"
+msgstr "%(nation)s samlerkøretøjer"
+
+msgid "awardWindow/vehicleCollectorOfEverything/description"
+msgstr "Tillykke! For at have skaffet samlerkøretøjerne fra alle nationer, har du modtaget en mindesmedalje."
+
+msgid "awardWindow/vehicleCollectorOfEverything/header"
+msgstr "Belønning optjent!"
+
+msgid "awardWindow/vehicleCollectorOfEverything/okButton"
+msgstr "Bekræftet!"
+
+msgid "awardWindow/vehicleCollectorOfEverything/title"
+msgstr "Samlerkøretøjer"
+
+msgid "badge/confirm"
+msgstr "Bekræftet!"
+
+msgid "badge/new"
+msgstr "BELØNNING MODTAGET"
+
+msgid "badgePage/tutorial/newSuffixBadge"
+msgstr "BANNER TILGÆNGELIGT"
+
+msgid "barracks/btnDissmiss"
+msgstr "Afskedig"
+
+msgid "barracks/btnUnload"
+msgstr "Send til barakken"
+
+msgid "barracks/notRecruitedActivateBefore"
+msgstr "Op til %(date)s"
+
+msgid "battleAbility/title"
+msgstr "Kampreserver"
+
+msgid "blueprints/conversionView/btnCancel"
+msgstr "Fortryd"
+
+msgid "blueprints/conversionView/btnConvert"
+msgstr "Opret"
+
+msgid "blueprints/conversionView/multiConversion/description"
+msgstr "De manglende fragmenter, der skal oprettes: {fragCount}"
+
+msgid "blueprints/conversionView/multiConversion/title"
+msgstr "Opret plantegningsfragmenter til {vehName}"
+
+msgid "blueprints/conversionView/title"
+msgstr "Opret et plantegningsfragment til {vehName}"
+
+msgid "bonusType/0"
+msgstr "Ukendt"
+
+msgid "bonusType/1"
+msgstr "Standard kamp"
+
+msgid "bonusType/10"
+msgstr "Træfninger"
+
+msgid "bonusType/11"
+msgstr "Fremrykninger"
+
+msgid "bonusType/12"
+msgstr "Holdkamp: Rangeret"
+
+msgid "bonusType/13"
+msgstr "Globalt kort"
+
+msgid "bonusType/16"
+msgstr "Testområde"
+
+msgid "bonusType/18"
+msgstr "Dominans"
+
+msgid "bonusType/19"
+msgstr "Ståljagt"
+
+msgid "bonusType/2"
+msgstr "Holdtræning"
+
+msgid "bonusType/20"
+msgstr "Træfning"
+
+msgid "bonusType/21"
+msgstr "Fremrykning"
+
+msgid "bonusType/22"
+msgstr "Rangeret kamp"
+
+msgid "bonusType/24"
+msgstr "Grand Battle"
+
+msgid "bonusType/27"
+msgstr "Frontlinje"
+
+msgid "bonusType/29"
+msgstr "\"Ståljæger\""
+
+msgid "bonusType/37"
+msgstr "Recon Mission"
+
+msgid "bonusType/38"
+msgstr "Topografi"
+
+msgid "bonusType/4"
+msgstr "Særlig kamp"
+
+msgid "bonusType/42"
+msgstr "\"%(modeName)s\""
+
+msgid "bonusType/43"
+msgstr "Onslaught"
+
+msgid "bonusType/44"
+msgstr "Opvarmning"
+
+msgid "bonusType/49"
+msgstr "Onslaught Light"
+
+msgid "bonusType/5"
+msgstr "Særlig kamp"
+
+msgid "bonusType/6"
+msgstr "Kamptræning"
+
+msgid "bonusType/7"
+msgstr "Holdkamp"
+
+msgid "bonusType/8"
+msgstr "Historisk kamp"
+
+msgid "bonusType/9"
+msgstr "Særlig kamptype"
+
+msgid "booster/bonus/booster_credits"
+msgstr "%(effectValue)s bonus i %(effectHours)s til credits optjent i kamp"
+
+msgid "booster/bonus/booster_crew_xp"
+msgstr "%(effectValue)s bonus i %(effectHours)s til mandskabs xp optjent i kamp"
+
+msgid "booster/bonus/booster_fl_xp"
+msgstr "%(effectValue)s bonus i %(effectHours)s til frontlinje xp optjent i kamp"
+
+msgid "booster/bonus/booster_free_xp"
+msgstr "%(effectValue)s bonus i %(effectHours)s til fri xp optjent i kamp"
+
+msgid "booster/bonus/booster_free_xp_and_crew_xp"
+msgstr "%(effectValue)s til fri xp og mandskabs xp i %(effectHours)s"
+
+msgid "booster/bonus/booster_xp"
+msgstr "%(effectValue)s bonus i %(effectHours)s til xp optjent i kamp"
+
+msgid "booster/description/bonusValueTime/booster_credits"
+msgstr "%(effectValue)s bonus til credits optjent i kamp for %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "%(effectValue)s bonus til mandskabs xp optjent i kamp for %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_fl_xp"
+msgstr "%(effectValue)s bonus til frontlinje xp optjent i kamp for %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "%(effectValue)s bonus til fri xp optjent i kamp for %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp_and_crew_xp"
+msgstr "%(effectValue)s til fri xp og mandskabs xp i %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "%(effectValue)s bonus til xp optjent i kamp for %(effectTime)s"
+
+msgid "booster/description/booster_credits"
+msgstr "%(effectValue)s til credits optjent i kamp"
+
+msgid "booster/description/booster_crew_xp"
+msgstr "%(effectValue)s til mandskabs xp optjent i kamp"
+
+msgid "booster/description/booster_fl_xp"
+msgstr "%(effectValue)s til frontlinje xp optjent i kamp"
+
+msgid "booster/description/booster_free_xp"
+msgstr "%(effectValue)s til fri xp optjent i kamp"
+
+msgid "booster/description/booster_free_xp_and_crew_xp"
+msgstr "%(effectValue)s til fri xp og mandskabs xp optjent i kamp"
+
+msgid "booster/description/booster_repair"
+msgstr "%(effectValue)s reparationspris"
+
+msgid "booster/description/booster_xp"
+msgstr "%(effectValue)s til xp optjent i kamp"
+
+msgid "booster/description/effectTime"
+msgstr " i %(effectTime)s"
+
+msgid "booster/description/effectValueTime"
+msgstr "%(effectValue)s for %(effectTime)s"
+
+msgid "booster/influence/booster_credits"
+msgstr "til credits optjent i kamp"
+
+msgid "booster/influence/booster_crew_xp"
+msgstr "til mandskabs xp optjent i kamp"
+
+msgid "booster/influence/booster_fl_xp"
+msgstr "til frontlinje xp optjent i kamp"
+
+msgid "booster/influence/booster_free_xp"
+msgstr "til fri xp optjent i kamp"
+
+msgid "booster/influence/booster_free_xp_and_crew_xp"
+msgstr "til fri xp og mandskabs xp optjent i kamp"
+
+msgid "booster/influence/booster_xp"
+msgstr "til xp optjent i kamp"
+
+msgid "booster/label/booster_credits"
+msgstr "%(effectValue)s til credits"
+
+msgid "booster/label/booster_crew_xp"
+msgstr "%(effectValue)s til mandskabs xp"
+
+msgid "booster/label/booster_free_xp"
+msgstr "%(effectValue)s til fri xp"
+
+msgid "booster/label/booster_free_xp_and_crew_xp"
+msgstr "%(effectValue)s til fri xp og mandskabs xp"
+
+msgid "booster/label/booster_xp"
+msgstr "%(effectValue)s til kamp xp"
+
+msgid "booster/limit/booster_fl_xp"
+msgstr "Til frontlinje kamptypen"
+
+msgid "booster/quality/big"
+msgstr "(Stor)"
+
+msgid "booster/quality/medium"
+msgstr "(Medium)"
+
+msgid "booster/quality/small"
+msgstr "(Lille)"
+
+msgid "booster/userName/booster_credits"
+msgstr "Yderligere credits per kamp"
+
+msgid "booster/userName/booster_crew_xp"
+msgstr "Yderligere mandskabs xp per kamp"
+
+msgid "booster/userName/booster_fl_xp"
+msgstr "Yderligere frontlinje xp per kamp"
+
+msgid "booster/userName/booster_free_xp"
+msgstr "Yderligere fri xp per kamp"
+
+msgid "booster/userName/booster_free_xp_and_crew_xp"
+msgstr "Yderligere fri xp og mandskabs xp optjent i kamp"
+
+msgid "booster/userName/booster_repair"
+msgstr "Rabat på reparation af køretøjer"
+
+msgid "booster/userName/booster_xp"
+msgstr "Yderligere xp per kamp"
+
+msgid "boosterBuyWindow/buyButtonLabel"
+msgstr "Køb"
+
+msgid "boosterBuyWindow/cancelButtonLabel"
+msgstr "Fortryd"
+
+msgid "boosterBuyWindow/pricePerItem"
+msgstr "Købspris for 1 ting:"
+
+msgid "boosterBuyWindow/rearmCheckboxLabel"
+msgstr "Auto-genforsyn direktiver"
+
+msgid "boosterBuyWindow/title"
+msgstr "Køb direktiver \"{name}\"?"
+
+msgid "boosterInfo/closeBtn"
+msgstr "Luk"
+
+msgid "boosterSelectPopover/rearmCheckBoxLabel"
+msgstr "Auto-genforsyn direktiver"
+
+msgid "boosterSellWindow/pricePerItem"
+msgstr "Salgspris for 1 ting:"
+
+msgid "boosterSellWindow/title"
+msgstr "Sælg direktiver \"{name}\"?"
+
+msgid "boosters/common/effect_time"
+msgstr "Varighed"
+
+msgid "boosters/common/effect_value"
+msgstr "Bonusværdi"
+
+msgid "boosters/common/name"
+msgstr "Personlig reserve"
+
+msgid "boosters/timeLeft/days"
+msgstr "%(day)s d %(hour)s t"
+
+msgid "boosters/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "boosters/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "boosters/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "boostersWindow/activeBoosters"
+msgstr "Nu aktiv: %(activeNo)s/%(allNo)s"
+
+msgid "boostersWindow/boostersTable/noInfo/empty/message"
+msgstr "Intet at vise"
+
+msgid "boostersWindow/boostersTable/noInfo/notFound/message"
+msgstr "Afkryds filtrene for aktive personlige reserver (hvis nogen)."
+
+msgid "boostersWindow/boostersTable/noInfo/notFound/title"
+msgstr "Intet fundet"
+
+msgid "boostersWindow/boostersTableRenderer/activateBtnLabel"
+msgstr "Aktiver"
+
+msgid "boostersWindow/boostersTableRenderer/buyBtnLabel"
+msgstr "Køb"
+
+msgid "boostersWindow/boostersTableRenderer/goToQuestBtnLabel"
+msgstr "Gå til mission"
+
+msgid "boostersWindow/boostersTableRenderer/questForOpen"
+msgstr "For at modtage personlig reserve, fuldfør %(questName)s"
+
+msgid "boostersWindow/boostersTableRenderer/time"
+msgstr "Udløber om %(tillTime)s"
+
+msgid "boostersWindow/boostersTableRenderer/undefineTime"
+msgstr "Udløber ikke"
+
+msgid "boostersWindow/closeBtn/label"
+msgstr "Luk"
+
+msgid "boostersWindow/levelFilters/label"
+msgstr "Størrelse:"
+
+msgid "boostersWindow/returnBtn/label"
+msgstr "Tilbage til liste"
+
+msgid "boostersWindow/tabs/availableLabel"
+msgstr "Aktiver (%(count)s)"
+
+msgid "boostersWindow/tabs/buyLabel"
+msgstr "Køb (%(count)s)"
+
+msgid "boostersWindow/tabs/notAvailableLabel"
+msgstr "Optjen (%(count)s)"
+
+msgid "boostersWindow/title"
+msgstr "Personlige reserver"
+
+msgid "boostersWindow/typeFilters/label"
+msgstr "Type:"
+
+msgid "browser/customTitle/fort/congratulation"
+msgstr "Tillykke"
+
+msgid "browser/customTitle/fort/offensiveResult"
+msgstr "Resultater af fremrykning"
+
+msgid "browser/dataUnavailable/description"
+msgstr "Information er midlertidigt utilgængelig."
+
+msgid "browser/dataUnavailable/header"
+msgstr "Bemærk!"
+
+msgid "browser/window/title"
+msgstr "Browser"
+
+msgid "carouselFilter/igr"
+msgstr "IGR"
+
+msgid "carousel_tank_filter/AT-SPG"
+msgstr "Kampvognsjægere"
+
+msgid "carousel_tank_filter/SPG"
+msgstr "SPG"
+
+msgid "carousel_tank_filter/all"
+msgstr "Alle"
+
+msgid "carousel_tank_filter/assault"
+msgstr "Angreb"
+
+msgid "carousel_tank_filter/break"
+msgstr "Gennembrud"
+
+msgid "carousel_tank_filter/canInstallAttachments"
+msgstr "3D-tilbehør"
+
+msgid "carousel_tank_filter/heavyTank"
+msgstr "Tunge kampvogne"
+
+msgid "carousel_tank_filter/lightTank"
+msgstr "Lette kampvogne"
+
+msgid "carousel_tank_filter/mediumTank"
+msgstr "Med. kampvogn"
+
+msgid "carousel_tank_filter/own3DStyle"
+msgstr "3D-stile"
+
+msgid "carousel_tank_filter/ready"
+msgstr "Klar"
+
+msgid "carousel_tank_filter/sniper"
+msgstr "Snigskytte"
+
+msgid "carousel_tank_filter/support"
+msgstr "Støtte"
+
+msgid "carousel_tank_filter/universal"
+msgstr "Alsidig"
+
+msgid "carousel_tank_filter/wheeled"
+msgstr "Hjul"
+
+msgid "centerIsAvailable"
+msgstr "Alle servere er tilgængelige igen."
+
+msgid "centerIsUnAvailable"
+msgstr "Spiltjenester er midlertidigt utilgængelige."
+
+msgid "classes/AT-SPG"
+msgstr "Kampvognsjægere"
+
+msgid "classes/SPG"
+msgstr "SPG"
+
+msgid "classes/anyType"
+msgstr "Alle typer"
+
+msgid "classes/heavyTank"
+msgstr "Tunge kampvogne"
+
+msgid "classes/lightTank"
+msgstr "Lette kampvogne"
+
+msgid "classes/mediumTank"
+msgstr "Medium kampvogne"
+
+msgid "classes/short/AT-SPG"
+msgstr "Kampvognsjæger"
+
+msgid "classes/short/Alliance-France"
+msgstr "Koalition (Frankrig, Tjekkoslovakiet, Sverige og Italien)"
+
+msgid "classes/short/Alliance-Germany"
+msgstr "Blok (Tyskland og Japan)"
+
+msgid "classes/short/Alliance-USA"
+msgstr "Alliance (USA, Storbritannien og Polen)"
+
+msgid "classes/short/Alliance-USSR"
+msgstr "Union (Sovjetunionen og Kina)"
+
+msgid "classes/short/SPG"
+msgstr "SPG"
+
+msgid "classes/short/heavyTank"
+msgstr "TK"
+
+msgid "classes/short/lightTank"
+msgstr "LK"
+
+msgid "classes/short/mediumTank"
+msgstr "MK"
+
+msgid "common/premiumBuy"
+msgstr "Opgrader"
+
+msgid "common/premiumContinue"
+msgstr "Forlæng premium"
+
+msgid "contextMenu/acceptInvitationToSquad"
+msgstr "Accepter invitation til delingen"
+
+msgid "contextMenu/addToFriends"
+msgstr "Tilføj til vennelisten"
+
+msgid "contextMenu/addToIgnored"
+msgstr "Tilføj til den sorte liste"
+
+msgid "contextMenu/appeal"
+msgstr "Klag"
+
+msgid "contextMenu/assignOfficer"
+msgstr "Forfrem"
+
+msgid "contextMenu/assignPrivate"
+msgstr "Degrader"
+
+msgid "contextMenu/bot"
+msgstr "Inaktiv/Bot"
+
+msgid "contextMenu/botNoActions"
+msgstr "Ingen tilgængelige handlinger"
+
+msgid "contextMenu/buy"
+msgstr "Køb"
+
+msgid "contextMenu/buyAndEquip"
+msgstr "Køb og montér"
+
+msgid "contextMenu/buyOrTradeIn"
+msgstr "Køb eller byt"
+
+msgid "contextMenu/cancelBuy"
+msgstr "Annuller køb"
+
+msgid "contextMenu/clanInfo"
+msgstr "Spillerklan profil"
+
+msgid "contextMenu/commendBack"
+msgstr "Send ros tilbage!"
+
+msgid "contextMenu/commendFirst"
+msgstr "Ros!"
+
+msgid "contextMenu/compare"
+msgstr "Tilføj til sammenligning"
+
+msgid "contextMenu/copyClanName"
+msgstr "Kopier klan navn"
+
+msgid "contextMenu/copyToClipBoard"
+msgstr "Kopier til udklipsholderen"
+
+msgid "contextMenu/createBattleRoyaleSquad"
+msgstr "Opret en ståljæger deling"
+
+msgid "contextMenu/createComp7LightSquad"
+msgstr "Opret Onslaught Light-deling"
+
+msgid "contextMenu/createComp7Squad"
+msgstr "Opret Onslaught-deling"
+
+msgid "contextMenu/createContactNote"
+msgstr "Opret note"
+
+msgid "contextMenu/createEventSquad"
+msgstr "Opret eventdeling"
+
+msgid "contextMenu/createMapboxSquad"
+msgstr "Recon Mission: Opret deling"
+
+msgid "contextMenu/createPlaylist"
+msgstr "Opret playliste"
+
+msgid "contextMenu/createPrivateChannel"
+msgstr "Send besked"
+
+msgid "contextMenu/createSquad"
+msgstr "Opret deling"
+
+msgid "contextMenu/crewWidgetChangeCrewMember"
+msgstr "Udskift mandskabsmedlem"
+
+msgid "contextMenu/crewWidgetChangeSpecialization"
+msgstr "Træn til køretøj"
+
+msgid "contextMenu/crewWidgetDismiss"
+msgstr "Afskedig"
+
+msgid "contextMenu/crewWidgetPersonalFile"
+msgstr "Profil"
+
+msgid "contextMenu/crewWidgetQuickTraining"
+msgstr "Hurtig træning"
+
+msgid "contextMenu/crewWidgetRetrain"
+msgstr "Omskol"
+
+msgid "contextMenu/crewWidgetSendToToBarracks"
+msgstr "Send til barakken"
+
+msgid "contextMenu/disableCommunications"
+msgstr "Bloker i denne kamp"
+
+msgid "contextMenu/dismiss"
+msgstr "Afskedig"
+
+msgid "contextMenu/editContactNote"
+msgstr "Ret note"
+
+msgid "contextMenu/enableCommunications"
+msgstr "Fjern blokering"
+
+msgid "contextMenu/equip"
+msgstr "Monter"
+
+msgid "contextMenu/exchange"
+msgstr "Veksl"
+
+msgid "contextMenu/excludedFromSquad"
+msgstr "Udeluk fra deling"
+
+msgid "contextMenu/forbiddenNick"
+msgstr "Stødende kaldenavn eller klannavn"
+
+msgid "contextMenu/giveArtilleryEquipmentCommander"
+msgstr "Giv artilleribeskydning"
+
+msgid "contextMenu/giveInspireEquipmentCommander"
+msgstr "Giv inspiration"
+
+msgid "contextMenu/giveLeadership"
+msgstr "Overfør kommandørens beføjelser"
+
+msgid "contextMenu/goToBlueprint"
+msgstr "Gå til plantegning"
+
+msgid "contextMenu/goToCollection"
+msgstr "Gå til samling"
+
+msgid "contextMenu/goToNationTree"
+msgstr "Teknologitræ"
+
+msgid "contextMenu/goToNextVehicle"
+msgstr "Udforsk moduler"
+
+msgid "contextMenu/inSquad"
+msgstr "Spiller i deling"
+
+msgid "contextMenu/incorrectBehavior"
+msgstr "Upassende opførsel i chat"
+
+msgid "contextMenu/invite"
+msgstr "Inviter til taktisk enhed"
+
+msgid "contextMenu/kickPlayerFromPrebattle"
+msgstr "Udeluk fra taktisk enhed"
+
+msgid "contextMenu/kickPlayerFromUnit"
+msgstr "Udeluk fra taktisk enhed"
+
+msgid "contextMenu/leaveSquad"
+msgstr "Forlad deling"
+
+msgid "contextMenu/lockSlot"
+msgstr "Lås pladsen."
+
+msgid "contextMenu/managePlaylists"
+msgstr "Playlister"
+
+msgid "contextMenu/mentorAssignment"
+msgstr "MENTORKLASSE"
+
+msgid "contextMenu/messenger/closeAllExceptCurrent"
+msgstr "Luk alle på nær nuværende"
+
+msgid "contextMenu/messenger/closeCurrent"
+msgstr "Luk nuværende kanal"
+
+msgid "contextMenu/messenger/minimizeAll"
+msgstr "Minimer alle kanaler"
+
+msgid "contextMenu/moduleInfo"
+msgstr "Karakteristika"
+
+msgid "contextMenu/moneyTransfer"
+msgstr "Overfør guld"
+
+msgid "contextMenu/mutualCommendation"
+msgstr "Ros begge veje"
+
+msgid "contextMenu/nationChange"
+msgstr "Skift nation"
+
+msgid "contextMenu/notFairPlay"
+msgstr "Unfair opførsel"
+
+msgid "contextMenu/outgoingCommendation"
+msgstr "Rost"
+
+msgid "contextMenu/personalCase/statsBlockTitle"
+msgstr "I PREMIUM KØRETØJ"
+
+msgid "contextMenu/profileVehicleCompare"
+msgstr "Tilføj til sammenligning"
+
+msgid "contextMenu/rejectFriendship"
+msgstr "Afvis en venneanmodning"
+
+msgid "contextMenu/rejectInvitationToSquad"
+msgstr "Afvis invitation til delingen"
+
+msgid "contextMenu/removeContactNote"
+msgstr "Slet note"
+
+msgid "contextMenu/removeFromFriends"
+msgstr "Slet fra din venneliste"
+
+msgid "contextMenu/removeFromIgnored"
+msgstr "Fjern fra den sorte liste"
+
+msgid "contextMenu/requestFriendship"
+msgstr "Send en venneanmodning igen"
+
+msgid "contextMenu/restore"
+msgstr "Genopret"
+
+msgid "contextMenu/selectVehicleInHangar"
+msgstr "Vælg et køretøj i garagen"
+
+msgid "contextMenu/sell"
+msgstr "Sælg"
+
+msgid "contextMenu/sellFromInventory"
+msgstr "Sælg fra depot"
+
+msgid "contextMenu/sendClanInvite"
+msgstr "Inviter til klan"
+
+msgid "contextMenu/sendInvitationToSquad"
+msgstr "Inviter til deling"
+
+msgid "contextMenu/setMuted"
+msgstr "Deaktiver stemmebeskeder"
+
+msgid "contextMenu/showVehiclePreview"
+msgstr "Gennemse køretøj"
+
+msgid "contextMenu/showVehicleStatistics"
+msgstr "Statistik"
+
+msgid "contextMenu/takeArtilleryEquipmentCommander"
+msgstr "Tag artilleribeskydning"
+
+msgid "contextMenu/takeInspireEquipmentCommander"
+msgstr "Tag inspiration"
+
+msgid "contextMenu/takeLeadership"
+msgstr "Tag kommandørens tilladelser"
+
+msgid "contextMenu/telecomRent"
+msgstr "Vis lejekøretøjer"
+
+msgid "contextMenu/unequip"
+msgstr "Deaktiver"
+
+msgid "contextMenu/unload"
+msgstr "Send til depotet"
+
+msgid "contextMenu/unlock"
+msgstr "Forskning"
+
+msgid "contextMenu/unlockSlot"
+msgstr "Lås pladsen op."
+
+msgid "contextMenu/unsetMuted"
+msgstr "Aktiver stemmebeskeder"
+
+msgid "contextMenu/userInfo"
+msgstr "Spillerens tjenesteblad"
+
+msgid "contextMenu/userVehicleCompare"
+msgstr "Tilføj til sammenligning"
+
+msgid "contextMenu/vehSkillTree"
+msgstr "Til opgraderinger"
+
+msgid "contextMenu/vehicleBuy"
+msgstr "Til køb"
+
+msgid "contextMenu/vehicleCheck"
+msgstr "Sæt som primær"
+
+msgid "contextMenu/vehicleInfo"
+msgstr "Om køretøj"
+
+msgid "contextMenu/vehicleInfoEx"
+msgstr "Om køretøj"
+
+msgid "contextMenu/vehiclePostProgression"
+msgstr "Til feltmodifikation"
+
+msgid "contextMenu/vehiclePreview"
+msgstr "Gennemse køretøj"
+
+msgid "contextMenu/vehicleRemove"
+msgstr "Fjern"
+
+msgid "contextMenu/vehicleResearch"
+msgstr "Forskning"
+
+msgid "contextMenu/vehicleRestore"
+msgstr "Til genopretning"
+
+msgid "contextMenu/vehicleSell"
+msgstr "Sælg"
+
+msgid "contextMenu/vehicleUncheck"
+msgstr "Fjern flueben i Primær"
+
+msgid "contextMenu/viewClanProfile"
+msgstr "Klan profil"
+
+msgid "contextMenu/withdrawInvitationToSquad"
+msgstr "Træk invitation til deling tilbage"
+
+msgid "copy"
+msgstr "© 2009–2026 Wargaming.net. Alle rettigheder forbeholdt."
+
+msgid "counter/newCounter"
+msgstr "NY"
+
+msgid "crystals/info/tab/earn/events/description"
+msgstr "Obligationer kan optjenes på andre måder:\n%(types)"
+
+msgid "crystals/info/tab/earn/events/descriptionContent"
+msgstr "under særlige spilevents, for fuldførelse af daglige missioner,\nfor deltagelse i visse kampagner etc."
+
+msgid "crystals/info/tab/earn/events/title"
+msgstr "OBLIGATIONER TIL EVENTS"
+
+msgid "crystals/info/tab/earn/level/description"
+msgstr "Obligationer optjenes i %(level10And11) køretøjer, der kan udforskes, og %(level9) premium køretøjer\nmed en aktiv indikator i den følgende kamptype:"
+
+msgid "crystals/info/tab/earn/level/descriptionContent/level10And11"
+msgstr "niveau X-XI"
+
+msgid "crystals/info/tab/earn/level/descriptionContent/level9"
+msgstr "Niveau IX"
+
+msgid "crystals/info/tab/earn/level/mod/0"
+msgstr "Standard\nkamp"
+
+msgid "crystals/info/tab/earn/level/title"
+msgstr "KØRETØJSNIVEAU"
+
+msgid "crystals/info/tab/earn/marker/description/1"
+msgstr "Hvert køretøj har en grænse på indtjening af %(week)."
+
+msgid "crystals/info/tab/earn/marker/description/2"
+msgstr "Køretøjer, der kan optjene obligationer, er markeret med\nen lilla markør på det nederste panel i garagen."
+
+msgid "crystals/info/tab/earn/marker/description/3"
+msgstr "Denne grænse nulstilles hver uge."
+
+msgid "crystals/info/tab/earn/marker/descriptionContent/week"
+msgstr "obligationer per uge"
+
+msgid "crystals/info/tab/earn/marker/title"
+msgstr "MARKØR FOR INDTJENING AF OBLIGATIONER"
+
+msgid "crystals/info/tab/earnTab"
+msgstr "Sådan optjener du"
+
+msgid "crystals/info/tab/get/card/condition"
+msgstr "Betingelse"
+
+msgid "crystals/info/tab/get/card/defeat"
+msgstr "Nederlag / uafgjort"
+
+msgid "crystals/info/tab/get/card/description"
+msgstr "Top %(position)s efter xp"
+
+msgid "crystals/info/tab/get/card/win"
+msgstr "Sejr"
+
+msgid "crystals/info/tab/get/description"
+msgstr "Deltag i standard kampe i køretøjer med en aktiv markør for at optjene obligationer. Jo højere placering i kampresultaterne efter optjent base xp, jo flere obligationer modtager du for kampen."
+
+msgid "crystals/info/tab/get/random"
+msgstr "STANDARD KAMP"
+
+msgid "crystals/info/tab/getTab"
+msgstr "Betingelser for modtagelse"
+
+msgid "crystals/info/tab/spend/card/instructions/description"
+msgstr "Forbedr effekten af monteret udstyr."
+
+msgid "crystals/info/tab/spend/card/instructions/title"
+msgstr "Direktiver"
+
+msgid "crystals/info/tab/spend/card/price"
+msgstr "fra  %(price)s"
+
+msgid "crystals/info/tab/spend/card/specialEquipment/description"
+msgstr "Forbedrer køretøjets karakteristika. Giver en stærkere effekt end standard udstyr."
+
+msgid "crystals/info/tab/spend/card/specialEquipment/title"
+msgstr "Forbedret\nudstyr"
+
+msgid "crystals/info/tab/spend/card/specialTanks/description"
+msgstr "Særlige køretøjer kun tilgængelige for obligationer."
+
+msgid "crystals/info/tab/spend/card/specialTanks/title"
+msgstr "Køretøjer for obligationer"
+
+msgid "crystals/info/tab/spend/card/toShop"
+msgstr "Til butik"
+
+msgid "crystals/info/tab/spend/description"
+msgstr "Obligationer kan bruges på særlige køretøjer, direktiver for udstyr og forbedret udstyr, der markant forbedrer køretøjers karakteristika."
+
+msgid "crystals/info/tab/spendTab"
+msgstr "Sådan bruges de"
+
+msgid "crystals/info/title"
+msgstr "OBLIGATIONER"
+
+msgid "crystals/promoWindow/title"
+msgstr "Obligationer"
+
+msgid "cst_item_ctx_menu/activate"
+msgstr "Aktiver"
+
+msgid "cst_item_ctx_menu/addToCompare"
+msgstr "Tilføj til sammenligning"
+
+msgid "cst_item_ctx_menu/allowSale"
+msgstr "Vælg"
+
+msgid "cst_item_ctx_menu/autoprolongationOff"
+msgstr "Afbryd automatisk forlængelse"
+
+msgid "cst_item_ctx_menu/autoprolongationOn"
+msgstr "Forlæng lejeperiode"
+
+msgid "cst_item_ctx_menu/baseStyle"
+msgstr "Sæt til standard"
+
+msgid "cst_item_ctx_menu/buy"
+msgstr "Køb"
+
+msgid "cst_item_ctx_menu/buyMore"
+msgstr "Køb"
+
+msgid "cst_item_ctx_menu/convertBlueprint"
+msgstr "Opret et fragment"
+
+msgid "cst_item_ctx_menu/convertBlueprintMax"
+msgstr "Opret fragmenter"
+
+msgid "cst_item_ctx_menu/convertBlueprintMaxCount"
+msgstr "Opret fragmenter (%(count)d)"
+
+msgid "cst_item_ctx_menu/deconstruct"
+msgstr "Adskil"
+
+msgid "cst_item_ctx_menu/demount"
+msgstr "Afmonter til depotet"
+
+msgid "cst_item_ctx_menu/demountFromSetup"
+msgstr "Afmonter fra denne plads"
+
+msgid "cst_item_ctx_menu/demountFromSetups"
+msgstr "Afmonter fra alle konfigurationer"
+
+msgid "cst_item_ctx_menu/destroy"
+msgstr "Ødelæg"
+
+msgid "cst_item_ctx_menu/editStyle"
+msgstr "Skift"
+
+msgid "cst_item_ctx_menu/exchange"
+msgstr "Veksl"
+
+msgid "cst_item_ctx_menu/goToCollection"
+msgstr "Gå til samling"
+
+msgid "cst_item_ctx_menu/information"
+msgstr "Detaljer"
+
+msgid "cst_item_ctx_menu/nationChange"
+msgstr "Skift nation"
+
+msgid "cst_item_ctx_menu/preview"
+msgstr "Køretøjsinspektion"
+
+msgid "cst_item_ctx_menu/previewCustomization"
+msgstr "Preview"
+
+msgid "cst_item_ctx_menu/prohibitSale"
+msgstr "Fortryd valg"
+
+msgid "cst_item_ctx_menu/putOnFirst"
+msgstr "Tilføj til plads 1"
+
+msgid "cst_item_ctx_menu/putOnSecond"
+msgstr "Tilføj til plads 2"
+
+msgid "cst_item_ctx_menu/putOnThird"
+msgstr "Tilføj til plads 3"
+
+msgid "cst_item_ctx_menu/remove"
+msgstr "Fjern"
+
+msgid "cst_item_ctx_menu/removeFromTank"
+msgstr "Fjern fra nuværende køretøj"
+
+msgid "cst_item_ctx_menu/removeFromTank/desert"
+msgstr "Fjern for ørkenkort"
+
+msgid "cst_item_ctx_menu/removeFromTank/summer"
+msgstr "Fjern for sommerkort"
+
+msgid "cst_item_ctx_menu/removeFromTank/winter"
+msgstr "Fjern for vinterkort"
+
+msgid "cst_item_ctx_menu/rentRenew"
+msgstr "Forlæng lejeperiode"
+
+msgid "cst_item_ctx_menu/restore"
+msgstr "Genopret"
+
+msgid "cst_item_ctx_menu/select"
+msgstr "Tilføj til plads"
+
+msgid "cst_item_ctx_menu/sell"
+msgstr "Sælg"
+
+msgid "cst_item_ctx_menu/showBlueprint"
+msgstr "Til plantegning"
+
+msgid "cst_item_ctx_menu/showInHangar"
+msgstr "Vis i garagen"
+
+msgid "cst_item_ctx_menu/showVehicleStatistics"
+msgstr "Statistik"
+
+msgid "cst_item_ctx_menu/styleInfo"
+msgstr "Stildetaljer"
+
+msgid "cst_item_ctx_menu/takeOff"
+msgstr "Fjern fra plads"
+
+msgid "cst_item_ctx_menu/unload"
+msgstr "Afmonter og send til depot"
+
+msgid "cst_item_ctx_menu/upgrade"
+msgstr "Opgrader"
+
+msgid "currentVehicleStatus/ammoNotFull"
+msgstr "Ammunition mangelfuld"
+
+msgid "currentVehicleStatus/ammoNotFullEvents"
+msgstr "Ammunition mangelfuld"
+
+msgid "currentVehicleStatus/battle"
+msgstr "I kamp"
+
+msgid "currentVehicleStatus/clanLocked"
+msgstr "?empty?"
+
+msgid "currentVehicleStatus/crewNotFull"
+msgstr "Mandskab ikke komplet"
+
+msgid "currentVehicleStatus/damaged"
+msgstr "Reparation nødvendig"
+
+msgid "currentVehicleStatus/dealIsOver"
+msgstr "Utilgængelig"
+
+msgid "currentVehicleStatus/destroyed"
+msgstr "Reparation nødvendig"
+
+msgid "currentVehicleStatus/disabled"
+msgstr "Utilgængelig"
+
+msgid "currentVehicleStatus/exploded"
+msgstr "Reparation nødvendig"
+
+msgid "currentVehicleStatus/fallout_broken"
+msgstr "Gruppe ikke klar"
+
+msgid "currentVehicleStatus/fallout_max"
+msgstr "Gruppe ikke klar"
+
+msgid "currentVehicleStatus/fallout_min"
+msgstr "Gruppe ikke klar"
+
+msgid "currentVehicleStatus/fallout_only"
+msgstr "Ikke egnet"
+
+msgid "currentVehicleStatus/fallout_required"
+msgstr "Gruppe ikke klar"
+
+msgid "currentVehicleStatus/group_is_not_ready"
+msgstr "Gruppe ikke klar"
+
+msgid "currentVehicleStatus/igrRentalIsOver"
+msgstr "Event afsluttet"
+
+msgid "currentVehicleStatus/inPrebattle"
+msgstr "I taktisk enhed"
+
+msgid "currentVehicleStatus/inPremiumIgrOnly"
+msgstr "Kun tilgængelig i %(icon)s. Særtilbuddet slutter om: %(time)s"
+
+msgid "currentVehicleStatus/isRentable"
+msgstr "Køretøjsleje tilgængelig"
+
+msgid "currentVehicleStatus/locked"
+msgstr "?empty?"
+
+msgid "currentVehicleStatus/notValidVehicle"
+msgstr "Inkompatible køretøjer"
+
+msgid "currentVehicleStatus/notpresent"
+msgstr "Du skal\nkøbe et køretøj"
+
+msgid "currentVehicleStatus/rentable"
+msgstr "Køretøjsleje tilgængelig"
+
+msgid "currentVehicleStatus/rentableAgain"
+msgstr "Forlæng leje"
+
+msgid "currentVehicleStatus/rentalIsOver"
+msgstr "Lejeperiode udløbet"
+
+msgid "currentVehicleStatus/rotationGroupLocked"
+msgstr "Utilgængelig"
+
+msgid "currentVehicleStatus/rotationGroupUnlocked"
+msgstr "Klar til kamp!"
+
+msgid "currentVehicleStatus/serverRestriction"
+msgstr "Servergrænse"
+
+msgid "currentVehicleStatus/subscription_suspended"
+msgstr "WoT Plus-abonnement suspenderet"
+
+msgid "currentVehicleStatus/undamaged"
+msgstr "Klar til kamp!"
+
+msgid "currentVehicleStatus/unsuitableToQueue"
+msgstr "Ikke egnet"
+
+msgid "currentVehicleStatus/unsuitableToUnit"
+msgstr "Ikke egnet"
+
+msgid "currentVehicleStatus/waitingPlayer"
+msgstr "Behøver en spiller mere"
+
+msgid "currentVehicleStatus/willBeUnlockedInBattle"
+msgstr "Åbnet i kamp"
+
+msgid "currentVehicleStatus/wot_plus_exclusive_vehicle_disabled"
+msgstr "WoT Plus eksklusivt køretøj utilgængeligt"
+
+msgid "customization/title"
+msgstr "Udvendigt"
+
+msgid "dateTime/fromToWithYear"
+msgstr "fra {fromDay} {fromMonth} til {toDay} {toMonth}, {toYear}"
+
+msgid "dateTime/months/1"
+msgstr "januar"
+
+msgid "dateTime/months/10"
+msgstr "oktober"
+
+msgid "dateTime/months/11"
+msgstr "november"
+
+msgid "dateTime/months/12"
+msgstr "december"
+
+msgid "dateTime/months/2"
+msgstr "februar"
+
+msgid "dateTime/months/3"
+msgstr "marts"
+
+msgid "dateTime/months/4"
+msgstr "april"
+
+msgid "dateTime/months/5"
+msgstr "maj"
+
+msgid "dateTime/months/6"
+msgstr "juni"
+
+msgid "dateTime/months/7"
+msgstr "juli"
+
+msgid "dateTime/months/8"
+msgstr "august"
+
+msgid "dateTime/months/9"
+msgstr "september"
+
+msgid "dateTime/months/full/1"
+msgstr "Januar"
+
+msgid "dateTime/months/full/10"
+msgstr "Oktober"
+
+msgid "dateTime/months/full/11"
+msgstr "November"
+
+msgid "dateTime/months/full/12"
+msgstr "December"
+
+msgid "dateTime/months/full/2"
+msgstr "Februar"
+
+msgid "dateTime/months/full/3"
+msgstr "Marts"
+
+msgid "dateTime/months/full/4"
+msgstr "April"
+
+msgid "dateTime/months/full/5"
+msgstr "Maj"
+
+msgid "dateTime/months/full/6"
+msgstr "Juni"
+
+msgid "dateTime/months/full/7"
+msgstr "Juli"
+
+msgid "dateTime/months/full/8"
+msgstr "August"
+
+msgid "dateTime/months/full/9"
+msgstr "September"
+
+msgid "dateTime/months/fullSmall/1"
+msgstr "januar"
+
+msgid "dateTime/months/fullSmall/10"
+msgstr "oktober"
+
+msgid "dateTime/months/fullSmall/11"
+msgstr "november"
+
+msgid "dateTime/months/fullSmall/12"
+msgstr "december"
+
+msgid "dateTime/months/fullSmall/2"
+msgstr "februar"
+
+msgid "dateTime/months/fullSmall/3"
+msgstr "marts"
+
+msgid "dateTime/months/fullSmall/4"
+msgstr "april"
+
+msgid "dateTime/months/fullSmall/5"
+msgstr "maj"
+
+msgid "dateTime/months/fullSmall/6"
+msgstr "juni"
+
+msgid "dateTime/months/fullSmall/7"
+msgstr "juli"
+
+msgid "dateTime/months/fullSmall/8"
+msgstr "august"
+
+msgid "dateTime/months/fullSmall/9"
+msgstr "september"
+
+msgid "dateTime/months/short/1"
+msgstr "Jan"
+
+msgid "dateTime/months/short/10"
+msgstr "Okt"
+
+msgid "dateTime/months/short/11"
+msgstr "Nov"
+
+msgid "dateTime/months/short/12"
+msgstr "Dec"
+
+msgid "dateTime/months/short/2"
+msgstr "Feb"
+
+msgid "dateTime/months/short/3"
+msgstr "Mar"
+
+msgid "dateTime/months/short/4"
+msgstr "Apr"
+
+msgid "dateTime/months/short/5"
+msgstr "Maj"
+
+msgid "dateTime/months/short/6"
+msgstr "Jun"
+
+msgid "dateTime/months/short/7"
+msgstr "Jul"
+
+msgid "dateTime/months/short/8"
+msgstr "Aug"
+
+msgid "dateTime/months/short/9"
+msgstr "Sep"
+
+msgid "dateTime/months/shortSmall/1"
+msgstr "jan"
+
+msgid "dateTime/months/shortSmall/10"
+msgstr "okt"
+
+msgid "dateTime/months/shortSmall/11"
+msgstr "nov"
+
+msgid "dateTime/months/shortSmall/12"
+msgstr "dec"
+
+msgid "dateTime/months/shortSmall/2"
+msgstr "feb"
+
+msgid "dateTime/months/shortSmall/3"
+msgstr "mar"
+
+msgid "dateTime/months/shortSmall/4"
+msgstr "apr"
+
+msgid "dateTime/months/shortSmall/5"
+msgstr "maj"
+
+msgid "dateTime/months/shortSmall/6"
+msgstr "jun"
+
+msgid "dateTime/months/shortSmall/7"
+msgstr "jul"
+
+msgid "dateTime/months/shortSmall/8"
+msgstr "aug"
+
+msgid "dateTime/months/shortSmall/9"
+msgstr "sep"
+
+msgid "dateTime/order"
+msgstr "%(day)s %(month)s %(year)s"
+
+msgid "dateTime/shortDateFormatWithoutYear"
+msgstr "%(weekDay)s, %(month)s, %(monthDay)d"
+
+msgid "dateTime/trade_in/undefined"
+msgstr "Kan ikke vise tid"
+
+msgid "dateTime/unlimited"
+msgstr "ikke defineret."
+
+msgid "dateTime/weekDays/full/1"
+msgstr "Mandag"
+
+msgid "dateTime/weekDays/full/2"
+msgstr "Tirsdag"
+
+msgid "dateTime/weekDays/full/3"
+msgstr "Onsdag"
+
+msgid "dateTime/weekDays/full/4"
+msgstr "Torsdag"
+
+msgid "dateTime/weekDays/full/5"
+msgstr "Fredag"
+
+msgid "dateTime/weekDays/full/6"
+msgstr "Lørdag"
+
+msgid "dateTime/weekDays/full/7"
+msgstr "Søndag"
+
+msgid "dateTime/weekDays/short/1"
+msgstr "Man"
+
+msgid "dateTime/weekDays/short/2"
+msgstr "Tirs"
+
+msgid "dateTime/weekDays/short/3"
+msgstr "Ons"
+
+msgid "dateTime/weekDays/short/4"
+msgstr "Tors"
+
+msgid "dateTime/weekDays/short/5"
+msgstr "Fre"
+
+msgid "dateTime/weekDays/short/6"
+msgstr "Lør"
+
+msgid "dateTime/weekDays/short/7"
+msgstr "Søn"
+
+msgid "demonstrator/map/disabled"
+msgstr "Kortet er utilgængeligt\nfor det valgte køretøj"
+
+msgid "demonstrator/maps/label"
+msgstr "Kort"
+
+msgid "demonstrator/window/any"
+msgstr "Tilfældig"
+
+msgid "demonstrator/window/button"
+msgstr "Find kamp"
+
+msgid "demonstrator/window/lvl"
+msgstr "Søg efter kampe efter køretøjsniveau:"
+
+msgid "demonstrator/window/spawn/green"
+msgstr "Grøn"
+
+msgid "demonstrator/window/spawn/red"
+msgstr "Rød"
+
+msgid "demonstrator/window/spawnLabel"
+msgstr "Valg af base"
+
+msgid "demonstrator/window/title"
+msgstr "Forudindstillinger for standard kampe"
+
+msgid "denunciation/1"
+msgstr "Unfair opførsel"
+
+msgid "denunciation/2"
+msgstr "Stødende kaldenavn eller klannavn"
+
+msgid "denunciation/3"
+msgstr "Inaktiv/Bot"
+
+msgid "denunciation/7"
+msgstr "Upassende opførsel i chat"
+
+msgid "descriptions/mutableDamageShell"
+msgstr "Gennemsnitlig skade: %(avgMutableDamage)s"
+
+msgid "descriptions/mutableDamageShellFull"
+msgstr "Gennembrydning: %(avgPiercingPower)s mm\nGennemsnitlig skade: %(avgMutableDamage)s"
+
+msgid "descriptions/shell"
+msgstr "Gennemsnitlig skade: %(avgDamage)s"
+
+msgid "descriptions/shellFull"
+msgstr "Gennembrydning: %(avgPiercingPower)s mm\nGennemsnitlig skade: %(avgDamage)s"
+
+msgid "descriptions/vehicle"
+msgstr "%(weight)s t; Panser: op til %(hullArmor)s mm; Kanon %(caliber)s mm"
+
+msgid "descriptions/vehicleChassis"
+msgstr "Drejehastighed: op til %(rotationSpeed)s grader/s"
+
+msgid "descriptions/vehicleEngine"
+msgstr "Motorkraft: %(enginePower)s hk.\nRisiko for ild ved anslag: %(fireStartingChance)s"
+
+msgid "descriptions/vehicleGun"
+msgstr "%(reloadTime)s granater/minut; Gennemsnitlig skade: %(avgDamageList)s\nGennemsnitlig gennemtrængning: %(avgPiercingPower)s mm"
+
+msgid "descriptions/vehicleGun/autoReload"
+msgstr "Ladetid %(autoReloadTime)s s; Gennemsnitlig skade: %(avgDamageList)s\nGennemsnitlig gennembrydning: %(avgPiercingPower)s mm"
+
+msgid "descriptions/vehicleGun/autoShoot"
+msgstr "%(continuousShotsPerMinute)s skud/minut; Gennemsnitlig skade: %(avgDamageList)s\nGennemsnitlig gennemtrængning: %(avgPiercingPower)s mm"
+
+msgid "descriptions/vehicleGun/dualGun"
+msgstr "Ladetid på kanonen: %(reloadTimeSecs)s s; Gennemsnitlig skade: %(avgDamageList)s\nGennemsnitlig gennembrydning: %(avgPiercingPower)s mm"
+
+msgid "descriptions/vehicleGun/twinGun"
+msgstr "Ladetid på kanonen: %(reloadTimeSingleGun)s/%(reloadTimeTwinGun)s s; Gennemsnitlig skade: %(avgDamageList)s\nGennemsnitlig gennembrydning: %(avgPiercingPower)s mm"
+
+msgid "descriptions/vehicleRadio"
+msgstr "Signalrækkevidde: op til %(radioDistance)s m"
+
+msgid "descriptions/vehicleTurret"
+msgstr "Armering: %(armor)s mm; Travers: %(rotationSpeed)s grader/sek\nSynsvidde: omtrent %(circularVisionRadius)s m"
+
+msgid "descriptions/vehicleWheeledChassis"
+msgstr "Maksimal drejevinkel på hjul: op til %(maxSteeringLockAngle)s grader"
+
+msgid "disconnect/codes/0"
+msgstr "<?empty?>"
+
+msgid "disconnect/codes/1001"
+msgstr "usynkroniserer komponenter relateret til \"Køretøjer\" (1001)"
+
+msgid "disconnect/codes/1002"
+msgstr "usynkroniserer komponenter relateret til \"Affjedring\" (1002)"
+
+msgid "disconnect/codes/1003"
+msgstr "usynkroniserer komponenter relateret til \"Tårn\" (1003)"
+
+msgid "disconnect/codes/1004"
+msgstr "usynkroniserer komponenter relateret til \"Kanon\" (1004)"
+
+msgid "disconnect/codes/1005"
+msgstr "usynkroniserer komponenter relateret til \"Motor\" (1005)"
+
+msgid "disconnect/codes/1006"
+msgstr "usynkroniserer komponenter relateret til \"Brændstoftanke\" (1006)"
+
+msgid "disconnect/codes/1007"
+msgstr "usynkroniserer komponenter relateret til \"Radio\" (1007)"
+
+msgid "disconnect/codes/1008"
+msgstr "usynkroniserer komponenter relateret til \"Mandskab\" (1008)"
+
+msgid "disconnect/codes/1009"
+msgstr "usynkroniserer komponenter relateret til \"Udstyr\" (1009)"
+
+msgid "disconnect/codes/1010"
+msgstr "usynkroniserer komponenter relateret til \"Ammunition\" (1010)"
+
+msgid "disconnect/codes/1011"
+msgstr "usynkroniserer komponenter relateret til \"Forbrugsvarer\" (1011)"
+
+msgid "disconnect/codes/1012"
+msgstr "desynkronisering af komponenter relateret til \"Mandskab\" (1012)"
+
+msgid "disconnect/codes/1013"
+msgstr "desynkronisering af komponenter relateret til \"Tilpasning\" (1013)"
+
+msgid "disconnect/codes/1014"
+msgstr "opdeler udforskede komponenter (1014)"
+
+msgid "discount/description/pet"
+msgstr "%(effectValue)s rabat på køb af kæledyr"
+
+msgid "discount/description/vehicle"
+msgstr "a %(effectValue)s rabat ved køb af %(targetName)s"
+
+msgid "discount/userName/vehicle"
+msgstr "Personlig rabat ved køb af køretøjer"
+
+msgid "epicTraining/title"
+msgstr "Holdtræning i frontlinje kamptypen"
+
+msgid "epic_training/create/title"
+msgstr "Opret et træningsrum til frontlinje kamptypen"
+
+msgid "epic_training/info/settings/title"
+msgstr "Modificer træningsrummets indstillinger til frontlinje kamptypen"
+
+msgid "exchange/cancel"
+msgstr "Fortryd"
+
+msgid "exchange/no_gold"
+msgstr "Ikke nok guld til træning."
+
+msgid "exchange/onhand"
+msgstr "Nuværende saldo:"
+
+msgid "exchange/rate"
+msgstr "Vekselkurs:"
+
+msgid "exchange/result"
+msgstr "Resterende saldo:"
+
+msgid "exchange/submit"
+msgstr "Veksling"
+
+msgid "exchange/title"
+msgstr "Veksel guld"
+
+msgid "exchange/toexchange"
+msgstr "Byt:"
+
+msgid "exchangeXP/available"
+msgstr "Tilgængelig Erfaring:"
+
+msgid "exchangeXP/available/forFree/label"
+msgstr "  gratis indtil "
+
+msgid "exchangeXP/available/forFree/value"
+msgstr "%(icon)s%(forFree)s"
+
+msgid "exchangeXP/cancel"
+msgstr "Fortryd"
+
+msgid "exchangeXP/change"
+msgstr "Konverter ({%d} for {%d}):"
+
+msgid "exchangeXP/pay"
+msgstr "Samlet:"
+
+msgid "exchangeXP/submit"
+msgstr "Konverter"
+
+msgid "exchangeXP/title"
+msgstr "Konverter til fri xp"
+
+msgid "extraParams/desc"
+msgstr "En parameter, der ikke direkte påvirker effektiviteten i at ødelægge fjendtlige køretøjer."
+
+msgid "extraParams/header"
+msgstr "Bonus %(paramName)s"
+
+msgid "extraParams/multiDesc"
+msgstr "Den samlede bonus udregnes ved at bruge både additive og multiplikative modifikationer, så den kan både være højere eller lavere end værdierne, der vises her."
+
+msgid "extraParams/name/artNotificationDelayFactor"
+msgstr "Denne parameter viser tiden mellem SPG-skuddet og modtagelse af advarslen."
+
+msgid "extraParams/name/commanderLampDelay"
+msgstr "Denne parameter viser forsinkelsen hvormed en kommandør identificerer om dit køretøj er blevet opdaget af fjenden. Jo højere værdi, jo mindre forsinkelse."
+
+msgid "extraParams/name/crewHitChance"
+msgstr "Denne parameter viser chancen for at undgå skader til dit mandskab."
+
+msgid "extraParams/name/crewRepeatedStunDuration"
+msgstr "Denne parameter viser varigheden af yderligere fortumling på et allerede fortumlet køretøj."
+
+msgid "extraParams/name/crewStunDuration"
+msgstr "Denne parameter viser varigheden på den modtagne fortumling."
+
+msgid "extraParams/name/damageAndPiercingDistributionLowerBound"
+msgstr "Denne parameter viser ændringen af den minimale potentielle skade og potentielle gennembrydning, sammenlignet med standardværdien (-25%)."
+
+msgid "extraParams/name/damageAndPiercingDistributionUpperBound"
+msgstr "Denne parameter viser ændringen af den maksimale potentielle skade og potentielle gennembrydning, sammenlignet med standardværdien (+25%)."
+
+msgid "extraParams/name/damageEnemiesByRamming"
+msgstr "Denne parameter viser mængden af skade uddelt ved påkørsler. Når køretøjer støder sammen, ser systemet på tykkelsen af panseret ved skadestedet, forskellen på køretøjernes vægt, samt deres respektive hastighed."
+
+msgid "extraParams/name/damagedModulesDetectionTime"
+msgstr "Denne parameter viser forsinkelsen til kommandøren opdager kritisk skade på det fjendtlige køretøj i dit sigtekorn."
+
+msgid "extraParams/name/demaskFoliageFactor"
+msgstr "Denne parameter viser hvor blotlagte fjender er, der er fuldt ud skjult bag bevoksning (både enkelt og grupperet bevoksning). Gælder stationære køretøjer og køretøjer i bevægelse."
+
+msgid "extraParams/name/demaskMovingFactor"
+msgstr "Denne parameter viser hvor blotlagte fjendtlige køretøjer i bevægelse er. Jo højere værdi, jo højere chance for at opdage dem."
+
+msgid "extraParams/name/enemyModulesCrewCritChance"
+msgstr "Denne parameter viser ændringerne til chancen for at uddele kritisk skade til fjendtligt mandskab og moduler. Effekten virker med alle typer granater, undtagen i køretøjer med maskinkanoner."
+
+msgid "extraParams/name/equipmentPreparationTime"
+msgstr "Denne parameter viser cooldown-tiden på forbrugsvarer."
+
+msgid "extraParams/name/fireExtinguishingRate"
+msgstr "Denne parameter afgør reduceringen af en brands varighed og mængden af skade den uddeler."
+
+msgid "extraParams/name/foliageMaskingFactor"
+msgstr "Denne parameter viser effekten af sløring bag buskads."
+
+msgid "extraParams/name/hpRecover"
+msgstr "Denne parameter viser forøgelsen i gendannede hp, når der bruges et reparationssæt. Jo højere værdi, jo flere hp vil blive gendannet."
+
+msgid "extraParams/name/mediumGroundFactor"
+msgstr "Denne parameter viser krydsningsevne på moderat blødt terræn. Jo højere værdi, jo mindre tid kræver det at opnå lineær hastighed."
+
+msgid "extraParams/name/penaltyToDamagedSurveyingDevice"
+msgstr "Denne parameter viser reduktionen i straffen til den maksimale synsrækkevidde, når observationsudstyr er ødelagt. Jo lavere værdi, jo bedre synsrækkevidde."
+
+msgid "extraParams/name/piercingHEShellsDistributionUpperBound"
+msgstr "Denne parameter viser forøgelsen i maksimal gennembrydning for granater på en afstand af mindre end 50 m. Jo højere værdi, jo bedre gennembrydning."
+
+msgid "extraParams/name/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "Denne parameter viser den yderligere oplysningstid om fjendtlige positioner, efter dit køretøj er blevet ødelagt."
+
+msgid "extraParams/name/radiomanHitChance"
+msgstr "Denne parameter viser chancen for at undgå skader til din radiooperatør."
+
+msgid "extraParams/name/shellVelocity"
+msgstr "Denne parameter viser forøgelsen i skudhastighed for alle typer granater. Jo højere værdi, jo højere skudhastighed."
+
+msgid "extraParams/name/softGroundFactor"
+msgstr "Denne parameter viser krydsningsevne på blødt terræn. Jo højere værdi, jo mindre tid kræver det at opnå lineær hastighed."
+
+msgid "extraParams/name/stunResistanceEffectFactor"
+msgstr "Denne parameter viser graden af negative effekter fra fortumlet mandskab."
+
+msgid "extraParams/name/suspensionDamageReduction"
+msgstr "Denne parameter viser reduktionen i modtaget skade på affjedringen. Jo højere værdi, jo mindre skade vil blive modtaget."
+
+msgid "extraParams/name/vehPenaltyForDamagedAmmorack"
+msgstr "Denne parameter viser reduktionen i straffen til kanonens ladetid, når ammunitionsstativet er skadet. Jo højere værdi, jo kortere ladetid."
+
+msgid "extraParams/name/vehPenaltyForDamagedEngine"
+msgstr "Denne parameter viser reduktionen i motorkraft, når motoren er skadet. Jo højere værdi, jo mindre motorkraft vil gå tabt."
+
+msgid "extraParams/name/vehicleAmmoBayEngineFuelStrength"
+msgstr "Denne parameter viser holdbarheden af ammunitionsstativet, brændstoftanke og motor. Jo højere værdi, jo mere holdbare er dine moduler."
+
+msgid "extraParams/name/vehicleAmmoBayStrength"
+msgstr "Denne parameter viser holdbarheden af ammunitionsstativet. Jo højere værdi, jo mere holdbar er dit ammunitionsstativ."
+
+msgid "extraParams/name/vehicleChassisFallDamage"
+msgstr "Denne parameter viser skaden forårsaget af skade på affjedringen ved påkørsel. Den påvirker ikke skaden uddelt til siden eller toppen af tårnet ved påkørsel."
+
+msgid "extraParams/name/vehicleChassisRepairSpeed"
+msgstr "Denne parameter viser reparationshastigheden på affjedringen. Jo højere værdi, jo højere reparationshastighed."
+
+msgid "extraParams/name/vehicleChassisStrength"
+msgstr "Denne parameter viser affjedringens holdbarhed. Jo højere værdi, jo mere holdbar er din affjedring overfor både granater og påkørsel."
+
+msgid "extraParams/name/vehicleEnemySpottingTime"
+msgstr "Denne parameter viser varigheden hvori fjendtlige køretøjer er synlige, efter de forlader din synsrækkevidde. Standardværdien er 10 sekunder."
+
+msgid "extraParams/name/vehicleFallingDamageResistance"
+msgstr "Denne parameter viser reduktionen i skade modtaget af et køretøj efter fald. Jo højere værdi, jo mindre skade vil blive modtaget."
+
+msgid "extraParams/name/vehicleFireChance"
+msgstr "Denne parameter viser risikoen for motorbrand, når den bliver skadet."
+
+msgid "extraParams/name/vehicleFuelTankLesionChance"
+msgstr "Denne parameter viser holdbarheden på brændstoftanke mod kritisk skade. Når de bliver ødelagt, vil brændstoftanke altid bryde i brand."
+
+msgid "extraParams/name/vehicleGunShotDispersion"
+msgstr "Denne parameter viser reduktionen i kanonens præcision ved bevægelse, samt rotation af skrog eller tårn. Jo lavere værdi, jo mindre spredning er der indenfor sigtecirklen."
+
+msgid "extraParams/name/vehicleGunShotDispersionAfterShot"
+msgstr "Denne parameter viser størrelsen på sigtecirklen efter skydning."
+
+msgid "extraParams/name/vehicleGunShotDispersionChassisMovement"
+msgstr "Denne parameter viser spredning i bevægelse. Jo lavere værdi, jo mere præcis er kanonen."
+
+msgid "extraParams/name/vehicleGunShotDispersionChassisRotation"
+msgstr "Denne parameter viser spredningen ved rotation af skroget. Jo lavere værdi, jo mere præcis er kanonen."
+
+msgid "extraParams/name/vehicleGunShotDispersionTurretRotation"
+msgstr "Denne parameter viser spredningen ved bevægelse af kanonen. Jo lavere værdi, jo mere præcis er kanonen."
+
+msgid "extraParams/name/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "Denne parameter viser spredningen med en beskadiget kanon. Jo højere værdi, jo lavere spredning."
+
+msgid "extraParams/name/vehicleHEShellDamageResistance"
+msgstr "Denne parameter viser skaden modtaget fra HE-granater. Jo mere panser i det ramte område, jo højere effekt."
+
+msgid "extraParams/name/vehicleInvisibilityAfterShot"
+msgstr "Denne parameter viser sløringen efter skydning."
+
+msgid "extraParams/name/vehicleOwnSpottingTime"
+msgstr "Denne parameter viser varigheden hvori dit køretøj forbliver synligt for fjender, efter du forlader deres synsrækkevidde. Standardværdien er 10 s."
+
+msgid "extraParams/name/vehicleRamChassisDamageResistance"
+msgstr "Denne parameter viser mængden af skade til affjedringen ved påkørsler. Når køretøjer støder sammen, ser systemet på tykkelsen af panseret ved skadestedet, forskellen på køretøjernes vægt, samt deres respektive hastighed."
+
+msgid "extraParams/name/vehicleRamDamageResistance"
+msgstr "Denne parameter viser mængden af skade modtaget ved påkørsler. Når køretøjer støder sammen, ser systemet på tykkelsen af panseret ved skadestedet, forskellen på køretøjernes vægt, samt deres respektive hastighed."
+
+msgid "extraParams/name/vehicleReloadTimeAfterShellChange"
+msgstr "Denne parameter viser hastighed på at skifte mellem granattyper i en ladet kanon."
+
+msgid "extraParams/name/vehicleRepairSpeed"
+msgstr "Denne parameter viser reparationshastighed på interne og eksterne moduler fra \"rød\" tilstand til \"gul\" tilstand. Jo højere værdi, jo hurtigere reparation."
+
+msgid "extraParams/name/vehicleSpeedGain"
+msgstr "Denne parameter viser krydsningsevne på affjedringen. Jo højere værdi, jo mindre tid kræver det at opnå lineær hastighed."
+
+msgid "extraParams/name/wheelsRotationSpeed"
+msgstr "Denne parameter viser hastigheden på at skifte retning i et hjulkøretøj."
+
+msgid "extraParams/name/woundedCrewEfficiency"
+msgstr "Denne parameter viser reduktionen af straf til den primære kvalifikation for ethvert mandskabsmedlem, når de er såret (undtagen kommandøren)."
+
+msgid "finalStatistic/commonStats/resultlabel/ended"
+msgstr "Kamp sluttet"
+
+msgid "finalStatistic/commonStats/resultlabel/lose"
+msgstr "Nederlag"
+
+msgid "finalStatistic/commonStats/resultlabel/techWin"
+msgstr "Teknisk sejr"
+
+msgid "finalStatistic/commonStats/resultlabel/tie"
+msgstr "Uafgjort"
+
+msgid "finalStatistic/commonStats/resultlabel/win"
+msgstr "Sejr!"
+
+msgid "finalStatistic/tabs/commonStats"
+msgstr "Personlig score"
+
+msgid "finalStatistic/tabs/detailsStats"
+msgstr "Detaljeret rapport"
+
+msgid "finalStatistic/tabs/epicStats"
+msgstr "Personlig score"
+
+msgid "finalStatistic/tabs/teamStats"
+msgstr "Hold score"
+
+msgid "finalStatistic/window/title"
+msgstr "Kampresultater"
+
+msgid "fittingListItemRenderer/replace"
+msgstr "Skift rækkefølge"
+
+msgid "fittingListItemRenderer/unload"
+msgstr "Send til depotet"
+
+msgid "fittingPopover/manageAbilities"
+msgstr "Varetag reserver"
+
+msgid "fittingSelectPopover/descText"
+msgstr "Dette udstyr er tilgængeligt til køb for %(currencyName)s. Du kan købe det via fanen, forbedret."
+
+msgid "fittingSelectPopover/descText/crystal"
+msgstr "obligationer"
+
+msgid "fortification/installName"
+msgstr "Aktiveret"
+
+msgid "fortification/unloadName"
+msgstr "Deaktiver"
+
+msgid "fortificationCtx/assignedPlayers"
+msgstr "Spillere tilknyttet"
+
+msgid "fortificationCtx/clanDescription/clanCrew"
+msgstr "Klanmedlemmer"
+
+msgid "fortificationCtx/clanDescription/clanStatistics"
+msgstr "Klan statistik"
+
+msgid "fortificationCtx/clanDescription/openClanCard"
+msgstr "Opret klanprofil"
+
+msgid "fortificationCtx/prepareOrder"
+msgstr "Klargør reserve"
+
+msgid "hangar/ammunitionPanel/easyTankEquipBtn"
+msgstr "Kvik-service"
+
+msgid "hangar/ammunitionPanel/maitenanceBtn"
+msgstr "Reparationer"
+
+msgid "hangar/ammunitionPanel/nationChangeBtn"
+msgstr "Nationsskift"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/checkboxAuto"
+msgstr "Automatisk genopfyldning"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/label"
+msgstr "Ammunition"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/list/buy"
+msgstr "Køb"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/list/inventory"
+msgstr "I depot"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/list/price"
+msgstr "Pris"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/not_ready"
+msgstr "For at gå med i kampen, genopfyld din ammunition."
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/ammo"
+msgstr "Genforsyn"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/apply"
+msgstr "Accepter"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/close"
+msgstr "Luk"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/equipment"
+msgstr "Genforsyn"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/labelTotal"
+msgstr "Totalt:"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/repair"
+msgstr "Reparér"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/checkboxAuto"
+msgstr "Automatisk genopfyldning"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/label"
+msgstr "Forbrugsvarer"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/list/buy"
+msgstr "Køb"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/list/inventory"
+msgstr "I depot"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/list/price"
+msgstr "Pris"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipmentDisabled"
+msgstr "Ændring af forbrugsvarer er utilgængeligt for dette køretøj"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/repair/checkboxAuto"
+msgstr "Reparer automatisk."
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/repair/label"
+msgstr "Reparationer"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/title"
+msgstr "Service"
+
+msgid "hangar/ammunitionPanel/tuningBtn"
+msgstr "Udvendigt"
+
+msgid "hangar/crew/rody/dog/moreInfoLabel"
+msgstr "Detaljer"
+
+msgid "hangar/crew/rody/dog/poland/name"
+msgstr "Szarik"
+
+msgid "hangar/crew/rody/dog/ussr/name"
+msgstr "Szarik"
+
+msgid "hangar/crew/tooltip/drop_skill"
+msgstr "Klik for at slette en evne."
+
+msgid "hangar/crew/tooltip/new_skill"
+msgstr "Klik for at udforske en evne."
+
+msgid "hangar/vehicle_locked"
+msgstr "Køretøj låst"
+
+msgid "hangar/xpToTmenCheckbox/tooltip"
+msgstr "Brug al xp optjent på dette køretøj på mandskabstræning. Det mindst erfarne medlem vil træne dobbelt så hurtigt."
+
+msgid "hangar_header/battle_quests_label/active"
+msgstr "%(total)s"
+
+msgid "hangar_header/battle_quests_label/inactive"
+msgstr "?empty?"
+
+msgid "hangar_header/mapbox_progression_label/active"
+msgstr "%(total)s"
+
+msgid "hangar_header/mapbox_progression_label/inactive"
+msgstr "?empty?"
+
+msgid "hangar_header/million"
+msgstr "%(value)s M"
+
+msgid "hangar_header/personal_quests_label/active"
+msgstr "#%(current)s"
+
+msgid "hangar_header/personal_quests_label/all_done"
+msgstr "%(icon)s"
+
+msgid "hangar_header/personal_quests_label/empty"
+msgstr "- -"
+
+msgid "hangar_header/personal_quests_label/inactive"
+msgstr "?empty?"
+
+msgid "header/account/popover/achieves/battles"
+msgstr "Kampe"
+
+msgid "header/account/popover/achieves/rating"
+msgstr "Personlig rating"
+
+msgid "header/account/popover/achieves/wins"
+msgstr "Sejre"
+
+msgid "header/account/popover/boosters/blockTitle"
+msgstr "Personlige reserver"
+
+msgid "header/account/popover/clan/clanInvite"
+msgstr "Klan invitationer"
+
+msgid "header/account/popover/clan/enabled/btnLabel"
+msgstr "Klan profil"
+
+msgid "header/account/popover/clan/header"
+msgstr "Klan"
+
+msgid "header/account/popover/clan/not_enabled/btnLabel"
+msgstr "Klan statistik"
+
+msgid "header/account/popover/clan/position/commander"
+msgstr "Kampofficer"
+
+msgid "header/account/popover/clan/position/diplomat"
+msgstr "Efterretningsofficer"
+
+msgid "header/account/popover/clan/position/junior"
+msgstr "Juniorofficer"
+
+msgid "header/account/popover/clan/position/leader"
+msgstr "Kommandør"
+
+msgid "header/account/popover/clan/position/private"
+msgstr "Menig"
+
+msgid "header/account/popover/clan/position/recruit"
+msgstr "Rekrut"
+
+msgid "header/account/popover/clan/position/recruiter"
+msgstr "Rekrutteringsofficer"
+
+msgid "header/account/popover/clan/position/reservist"
+msgstr "Reservist"
+
+msgid "header/account/popover/clan/position/staff"
+msgstr "Personnelofficer"
+
+msgid "header/account/popover/clan/position/treasurer"
+msgstr "Kvartermester"
+
+msgid "header/account/popover/clan/position/vice_leader"
+msgstr "Ledende officer"
+
+msgid "header/account/popover/clan/searchClan1"
+msgstr "Søg efter en klan"
+
+msgid "header/account/popover/clan/searchClan2"
+msgstr "Klan søgning"
+
+msgid "header/account/popover/crew/btnLabel"
+msgstr "Holdprofil"
+
+msgid "header/account/popover/crew/header"
+msgstr "Hold"
+
+msgid "header/account/popover/crew/position/commander"
+msgstr "Kampofficer"
+
+msgid "header/account/popover/crew/position/diplomat"
+msgstr "Efterretningsofficer"
+
+msgid "header/account/popover/crew/position/leader"
+msgstr "Kommandør"
+
+msgid "header/account/popover/crew/position/private"
+msgstr "Menig"
+
+msgid "header/account/popover/crew/position/recruit"
+msgstr "Rekrut"
+
+msgid "header/account/popover/crew/position/recruiter"
+msgstr "Rekrutteringsofficer"
+
+msgid "header/account/popover/crew/position/treasurer"
+msgstr "Kvartermester"
+
+msgid "header/account/popover/crew/position/vice_leader"
+msgstr "Ledende officer"
+
+msgid "header/account/popover/crewButton/disabledTooltip"
+msgstr "Holdprofilen vil være tilgængelig efter download af det fulde spil."
+
+msgid "header/account/popover/stats/fights"
+msgstr "Kampe"
+
+msgid "header/account/popover/stats/rating"
+msgstr "Personlig rating"
+
+msgid "header/account/popover/stats/ratio"
+msgstr "Sejre"
+
+msgid "header/account/popover/toAllProgress"
+msgstr "Tjenesteblad"
+
+msgid "header/account/popover/tutorial/newBadge"
+msgstr "MÆRKE TILGÆNGELIGT"
+
+msgid "header/account/popover/tutorial/newSuffixBadge"
+msgstr "BANNER TILGÆNGELIGT"
+
+msgid "header/account/premium/days"
+msgstr "d"
+
+msgid "header/account/premium/hours"
+msgstr "t"
+
+msgid "header/customization/season/desert"
+msgstr "ØRKEN"
+
+msgid "header/customization/season/summer"
+msgstr "SOMMER"
+
+msgid "header/customization/season/winter"
+msgstr "VINTER"
+
+msgid "header/demonstration/btnLabel"
+msgstr "Konfigurer"
+
+msgid "header/demonstration/info"
+msgstr "Forudindstillinger for standard kampe"
+
+msgid "header/level"
+msgstr "Niveau %(vTypeName)s"
+
+msgid "header/level/1"
+msgstr "I"
+
+msgid "header/level/10"
+msgstr "X"
+
+msgid "header/level/11"
+msgstr "XI"
+
+msgid "header/level/2"
+msgstr "II"
+
+msgid "header/level/3"
+msgstr "III"
+
+msgid "header/level/4"
+msgstr "IV"
+
+msgid "header/level/5"
+msgstr "V"
+
+msgid "header/level/6"
+msgstr "VI"
+
+msgid "header/level/7"
+msgstr "VII"
+
+msgid "header/level/8"
+msgstr "VIII"
+
+msgid "header/level/9"
+msgstr "IX"
+
+msgid "header/notificationSign"
+msgstr "!"
+
+msgid "header/serverInfo"
+msgstr "Server"
+
+msgid "header/vehicleType/AT-SPG"
+msgstr "Kampvognsjæger"
+
+msgid "header/vehicleType/Alliance-France"
+msgstr "Frankrig, Tjekkoslovakiet, Sverige, Italien"
+
+msgid "header/vehicleType/Alliance-Germany"
+msgstr "Tyskland, Japan"
+
+msgid "header/vehicleType/Alliance-USA"
+msgstr "USA, Storbritannien, Polen"
+
+msgid "header/vehicleType/Alliance-USSR"
+msgstr "Sovjetunionen, Kina"
+
+msgid "header/vehicleType/SPG"
+msgstr "SPG"
+
+msgid "header/vehicleType/elite/AT-SPG"
+msgstr "Elite kampvognsjæger"
+
+msgid "header/vehicleType/elite/SPG"
+msgstr "Elite SPG"
+
+msgid "header/vehicleType/elite/heavyTank"
+msgstr "Elite tung kampvogn"
+
+msgid "header/vehicleType/elite/lightTank"
+msgstr "Elite let kampvogn"
+
+msgid "header/vehicleType/elite/mediumTank"
+msgstr "Elite medium kampvogn"
+
+msgid "header/vehicleType/heavyTank"
+msgstr "Tung kampvogn"
+
+msgid "header/vehicleType/lightTank"
+msgstr "Let kampvogn"
+
+msgid "header/vehicleType/mediumTank"
+msgstr "Medium kampvogn"
+
+msgid "header/wotPlusExclusiveVehicleType/AT-SPG"
+msgstr "Kampvognsjæger"
+
+msgid "header/wotPlusExclusiveVehicleType/Alliance-France"
+msgstr "Frankrig, Tjekkoslovakiet, Sverige, Italien"
+
+msgid "header/wotPlusExclusiveVehicleType/Alliance-Germany"
+msgstr "Tyskland, Japan"
+
+msgid "header/wotPlusExclusiveVehicleType/Alliance-USA"
+msgstr "USA, Storbritannien, Polen"
+
+msgid "header/wotPlusExclusiveVehicleType/Alliance-USSR"
+msgstr "Sovjetunionen, Kina"
+
+msgid "header/wotPlusExclusiveVehicleType/SPG"
+msgstr "SPG"
+
+msgid "header/wotPlusExclusiveVehicleType/heavyTank"
+msgstr "Tung kampvogn"
+
+msgid "header/wotPlusExclusiveVehicleType/lightTank"
+msgstr "Let kampvogn"
+
+msgid "header/wotPlusExclusiveVehicleType/mediumTank"
+msgstr "Medium kampvogn"
+
+msgid "headerButtons/account/accountRefill"
+msgstr "Køb guld"
+
+msgid "headerButtons/account/expGathering"
+msgstr "Konverter xp"
+
+msgid "headerButtons/account/goldExchange"
+msgstr "Veksel guld"
+
+msgid "headerButtons/account/premium"
+msgstr "Forlæng"
+
+msgid "headerButtons/barracks"
+msgstr "Barakker"
+
+msgid "headerButtons/battle/availableSince"
+msgstr "Fra %(datetime)s"
+
+msgid "headerButtons/battle/availableSinceSoon"
+msgstr "Tilgængelig om %(time)s"
+
+msgid "headerButtons/battle/availableUntil"
+msgstr "Til %(datetime)s"
+
+msgid "headerButtons/battle/availableUntilSoon"
+msgstr "Sluttid %(time)s"
+
+msgid "headerButtons/battle/button/battle"
+msgstr "Kamp!"
+
+msgid "headerButtons/battle/menu/attention/lowPerformance"
+msgstr "Lav ydeevne"
+
+msgid "headerButtons/battle/menu/attention/reducedPerformance"
+msgstr "Lav ydeevne"
+
+msgid "headerButtons/battle/menu/battle_session"
+msgstr "Særlig kamp"
+
+msgid "headerButtons/battle/menu/epicBattle"
+msgstr "Frontlinje"
+
+msgid "headerButtons/battle/menu/event"
+msgstr "Konvoj"
+
+msgid "headerButtons/battle/menu/fallout"
+msgstr "Raseri"
+
+msgid "headerButtons/battle/menu/fallout/14"
+msgstr "Dominans"
+
+msgid "headerButtons/battle/menu/fallout/15"
+msgstr "Ståljagt"
+
+msgid "headerButtons/battle/menu/historical"
+msgstr "Historisk kamp"
+
+msgid "headerButtons/battle/menu/squad"
+msgstr "Deling"
+
+msgid "headerButtons/battle/menu/standart"
+msgstr "Standard kamp"
+
+msgid "headerButtons/battle/menu/training"
+msgstr "Holdtræning"
+
+msgid "headerButtons/battle/menu/unit"
+msgstr "Holdkamp"
+
+msgid "headerButtons/battle/modeInfo"
+msgstr "{{mode}}"
+
+msgid "headerButtons/battle/types/battleRoyale"
+msgstr "Ståljæger"
+
+msgid "headerButtons/battle/types/battleRoyale/extra/currentCycle"
+msgstr "Sæson %(season)s, episode %(cycle)s"
+
+msgid "headerButtons/battle/types/battleRoyale/extra/finished"
+msgstr "Sæsonen sluttede"
+
+msgid "headerButtons/battle/types/battleRoyale/extra/frozen"
+msgstr "Type midlertidigt utilgængelig"
+
+msgid "headerButtons/battle/types/battleRoyale/extra/startsAt"
+msgstr "%(time)s"
+
+msgid "headerButtons/battle/types/battleRoyaleSquad"
+msgstr "Jæger deling"
+
+msgid "headerButtons/battle/types/battleRoyaleSquad/description"
+msgstr "Opret en deling på 2 spillere"
+
+msgid "headerButtons/battle/types/comp7LightSquad"
+msgstr "Opret Onslaught Light-deling"
+
+msgid "headerButtons/battle/types/comp7Squad"
+msgstr "Opret Onslaught-deling"
+
+msgid "headerButtons/battle/types/epic"
+msgstr "Frontlinje"
+
+msgid "headerButtons/battle/types/epic/descr"
+msgstr "Kamptype med automatisk matchning af allierede og fjender."
+
+msgid "headerButtons/battle/types/epic/extra/frozen"
+msgstr "Kamptype utilgængelig"
+
+msgid "headerButtons/battle/types/epic/extra/startsAt"
+msgstr "Fra %(time)s"
+
+msgid "headerButtons/battle/types/epicBattle"
+msgstr "Frontlinje lobby"
+
+msgid "headerButtons/battle/types/epicBattle/descr"
+msgstr "Frontlinje—Indgå via lobby"
+
+msgid "headerButtons/battle/types/epicTraining"
+msgstr "Holdtræning"
+
+msgid "headerButtons/battle/types/epicTraining/descr"
+msgstr "Frontlinje"
+
+msgid "headerButtons/battle/types/event"
+msgstr "Eventkamp"
+
+msgid "headerButtons/battle/types/eventSquad"
+msgstr "Eventdeling"
+
+msgid "headerButtons/battle/types/fallout"
+msgstr "Raseri"
+
+msgid "headerButtons/battle/types/fort"
+msgstr "Befæstning: Kampe"
+
+msgid "headerButtons/battle/types/fortLeave"
+msgstr "Befæstning: Kampe"
+
+msgid "headerButtons/battle/types/historicalBattles"
+msgstr "Historisk kamp"
+
+msgid "headerButtons/battle/types/historicalBattles/descr"
+msgstr "Rekonstruktion af betydningsfulde tankkampe."
+
+msgid "headerButtons/battle/types/historicalBattlesLeave"
+msgstr "Historisk kamp"
+
+msgid "headerButtons/battle/types/historicalBattlesLeave/descr"
+msgstr "Klik for at forlade tilstand."
+
+msgid "headerButtons/battle/types/leaveFort/descr"
+msgstr "Klik for at forlade tilstand."
+
+msgid "headerButtons/battle/types/leaveSpec/descr"
+msgstr "Klik for at forlade tilstand."
+
+msgid "headerButtons/battle/types/leaveTraining/descr"
+msgstr "Klik for at forlade tilstand."
+
+msgid "headerButtons/battle/types/leaveUnit/descr"
+msgstr "Klik for at forlade tilstand."
+
+msgid "headerButtons/battle/types/mapbox"
+msgstr "Recon Mission"
+
+msgid "headerButtons/battle/types/mapbox/availability/days"
+msgstr "%(day)s d"
+
+msgid "headerButtons/battle/types/mapbox/availability/hours"
+msgstr "%(hour)s t"
+
+msgid "headerButtons/battle/types/mapbox/availability/lessThanHour"
+msgstr "mindre end 1 t"
+
+msgid "headerButtons/battle/types/mapbox/extra/endsIn"
+msgstr "Event slutter om %(timeLeft)s"
+
+msgid "headerButtons/battle/types/mapbox/extra/finished"
+msgstr "Event slut"
+
+msgid "headerButtons/battle/types/mapbox/extra/frozen"
+msgstr "Type midlertidigt utilgængelig"
+
+msgid "headerButtons/battle/types/mapbox/extra/startsAt"
+msgstr "Fra %(time)s"
+
+msgid "headerButtons/battle/types/mapboxSquad"
+msgstr "Opret deling"
+
+msgid "headerButtons/battle/types/mapsTraining"
+msgstr "Topografi"
+
+msgid "headerButtons/battle/types/ranked"
+msgstr "Rangeret kamp"
+
+msgid "headerButtons/battle/types/ranked/availability"
+msgstr "Type tilgængelighed: "
+
+msgid "headerButtons/battle/types/ranked/availability/days"
+msgstr "%(day)s d"
+
+msgid "headerButtons/battle/types/ranked/availability/ended"
+msgstr "Sæson sluttede"
+
+msgid "headerButtons/battle/types/ranked/availability/frozen"
+msgstr "Type midlertidigt utilgængelig"
+
+msgid "headerButtons/battle/types/ranked/availability/hours"
+msgstr "%(hour)s t"
+
+msgid "headerButtons/battle/types/ranked/availability/lessMin"
+msgstr "mindre end et minut"
+
+msgid "headerButtons/battle/types/ranked/availability/min"
+msgstr "%(min)s min"
+
+msgid "headerButtons/battle/types/ranked/availability/notSet"
+msgstr "Kampe utilgængelige"
+
+msgid "headerButtons/battle/types/ranked/availability/season"
+msgstr "Sæson %(season)s"
+
+msgid "headerButtons/battle/types/ranked/availability/until"
+msgstr "Fra den %(date)s %(time)s."
+
+msgid "headerButtons/battle/types/ranked/availability/yearEnded"
+msgstr "Sæson sluttede"
+
+msgid "headerButtons/battle/types/ranked/descr"
+msgstr "Kampe for at komme højere på ranglisten hvor du modtager range og belønninger.\n• Kamptyper: Standard kampe.\n• Passende køretøjer: Kun niveau X (køretøjer der kan udforskes og samlerkøretøjer)."
+
+msgid "headerButtons/battle/types/rankedLeave/descr"
+msgstr "Forlad kampen"
+
+msgid "headerButtons/battle/types/rts"
+msgstr "Strategiens kunst"
+
+msgid "headerButtons/battle/types/rts/availability/afterCycle"
+msgstr "Event slut"
+
+msgid "headerButtons/battle/types/rts/availability/beforeCycle"
+msgstr "Fra den %(rightCycleDate)s %(rightCycleTime)s"
+
+msgid "headerButtons/battle/types/rts/availability/betweenCycles"
+msgstr "Fra den %(rightCycleDate)s %(rightCycleTime)s"
+
+msgid "headerButtons/battle/types/rts/availability/default"
+msgstr "Event tilgængelig"
+
+msgid "headerButtons/battle/types/rts/availability/frozen"
+msgstr "Event utilgængelig"
+
+msgid "headerButtons/battle/types/simpleSquad"
+msgstr "Deling"
+
+msgid "headerButtons/battle/types/spec"
+msgstr "Særlig kamp"
+
+msgid "headerButtons/battle/types/spec/descr"
+msgstr "Deltagelse i mesterskaber, turneringer og Clan Wars."
+
+msgid "headerButtons/battle/types/specLeave"
+msgstr "Særlig kamp"
+
+msgid "headerButtons/battle/types/squad"
+msgstr "Deling"
+
+msgid "headerButtons/battle/types/squad/description"
+msgstr "Spil i en deling på 3 spillere"
+
+msgid "headerButtons/battle/types/standart"
+msgstr "Standard kamp"
+
+msgid "headerButtons/battle/types/standart/descr"
+msgstr "Kamp med automatisk matchning af allierede og fjender."
+
+msgid "headerButtons/battle/types/standartLeave/descr"
+msgstr "Forlad kampen"
+
+msgid "headerButtons/battle/types/strongholds"
+msgstr "Befæstning: Kampe"
+
+msgid "headerButtons/battle/types/training"
+msgstr "Holdtræning"
+
+msgid "headerButtons/battle/types/training/descr"
+msgstr "Træningskamp med manuel matchning af alllierede og fjender."
+
+msgid "headerButtons/battle/types/trainingLeave"
+msgstr "Holdtræning"
+
+msgid "headerButtons/battle/types/trainingLeaveOwner"
+msgstr "Holdtræning"
+
+msgid "headerButtons/battle/types/unit"
+msgstr "Holdkamp"
+
+msgid "headerButtons/battle/types/unit/descr"
+msgstr "Kamp mellem jævnbyrdige hold."
+
+msgid "headerButtons/battle/types/unitLeave"
+msgstr "Holdkamp"
+
+msgid "headerButtons/battle/types/winback"
+msgstr "Standard kamp: Opvarmning"
+
+msgid "headerButtons/battle/vehicleInfo"
+msgstr "Deltag i {{mode}} med {{level}}{{type}}{{name}}"
+
+msgid "headerButtons/browser"
+msgstr "Browser"
+
+msgid "headerButtons/btnLabel/credits"
+msgstr "Veksling"
+
+msgid "headerButtons/btnLabel/crystal"
+msgstr "Optjen"
+
+msgid "headerButtons/btnLabel/freeXP"
+msgstr "Konverter"
+
+msgid "headerButtons/btnLabel/gold"
+msgstr "Køb"
+
+msgid "headerButtons/btnLabel/premShop"
+msgstr "Premium butik"
+
+msgid "headerButtons/btnLabel/premium"
+msgstr "Premium"
+
+msgid "headerButtons/clan"
+msgstr "Klan"
+
+msgid "headerButtons/clans"
+msgstr "Klaner"
+
+msgid "headerButtons/defaultCounter"
+msgstr "!"
+
+msgid "headerButtons/fightBtn/tooltip/battleRoyaleDisabled/body"
+msgstr "Våbenhvile er aktiv på denne server."
+
+msgid "headerButtons/fightBtn/tooltip/battleRoyaleDisabled/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/comp7BanIsSet/body"
+msgstr "Du er midlertidigt blokeret fra denne kamptype."
+
+msgid "headerButtons/fightBtn/tooltip/comp7BanIsSet/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/comp7BattleOnly/body"
+msgstr "Køretøjet du har valgt kan kun bruges i Onslaught-kamptypen."
+
+msgid "headerButtons/fightBtn/tooltip/comp7BattleOnly/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Disabled/body"
+msgstr "Kampe er utilgængelige mens våbenhvilen er aktiv."
+
+msgid "headerButtons/fightBtn/tooltip/comp7Disabled/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightDisabled/body"
+msgstr "Våbenhvile er aktiv på denne server. Vælg venligst en anden server."
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightDisabled/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightNotSet/body"
+msgstr "Denne kamptype er utilgængelig på den valgte server"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightNotSet/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightVehLevel/body"
+msgstr "Ingen passende niveau %(levels)s køretøjer i garagen"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightVehLevel/delimiter"
+msgstr ", "
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightVehLevel/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/comp7NotEnoughSuitableVehicles/body"
+msgstr "Du skal have mindst %(minVehiclesRequired)s passende køretøjer til kamptypen. Se Om Onslaught-siden for flere detaljer."
+
+msgid "headerButtons/fightBtn/tooltip/comp7NotEnoughSuitableVehicles/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/comp7NotSet/body"
+msgstr "Denne kamptype er ikke tilgængelig på den valgte server, men du kan spille på en anden."
+
+msgid "headerButtons/fightBtn/tooltip/comp7NotSet/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Offline/body"
+msgstr "Denne kamptype er utilgængelig på grund af en databasefejl."
+
+msgid "headerButtons/fightBtn/tooltip/comp7Offline/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Preannounce/body"
+msgstr "Sæson er ikke startet."
+
+msgid "headerButtons/fightBtn/tooltip/comp7Preannounce/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/comp7QualificationCalculation/body"
+msgstr "Det kan tage op til fem minutter at udregne din rangering baseret på resultatet fra kvalifikationen. Efter at have modtaget en rang kan du fortsætte med at spille i Onslaught."
+
+msgid "headerButtons/fightBtn/tooltip/comp7QualificationCalculation/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/comp7SeasonEnd/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/comp7UnsuitableVehicle/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/comp7VehLevel/body"
+msgstr "Ingen passende niveau %(levels)s køretøjer i garagen"
+
+msgid "headerButtons/fightBtn/tooltip/comp7VehLevel/delimiter"
+msgstr ", "
+
+msgid "headerButtons/fightBtn/tooltip/comp7VehLevel/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/crewNotFull/body"
+msgstr "Fraværende: <b>%(crewList)s</b>."
+
+msgid "headerButtons/fightBtn/tooltip/crewNotFull/header"
+msgstr "Mandskab ikke komplet"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleSituationalVehicle/body"
+msgstr "Du skal bruge %(forStartBattle)s til at gå i kamp.\n%(willBeUnlocked)s køretøjer vil blive åbnet i kamp efter at have erobret/tabt et punkt i den anden linje (D, E eller F)."
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleSituationalVehicle/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleSituationalVehicle/levels/forStartBattle"
+msgstr "niveau %(levels)s køretøjer"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleSituationalVehicle/levels/willBeUnlocked"
+msgstr "Niveau %(levels)s"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleVehLevel/body"
+msgstr "Du skal bruge %(requirements)s for at gå i kamp."
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleVehLevel/header"
+msgstr "Inkompatibelt køretøj"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleVehLevel/requirements"
+msgstr "Niveau %(level)s køretøj"
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotEnoughPlayer/body"
+msgstr "For at gå med i kampen, skal kommandøren og mindst ét medlem af delingen bekræfte at de er klar."
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotEnoughPlayer/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotReady/body"
+msgstr "Vælg køretøjer: Du kan kun gå med i kampen med en fuld gruppe."
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotReady/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotSelected/body"
+msgstr "For at deltage i raseri tilstanden, vælg kamptypen."
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotSelected/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/falloutOnly/body"
+msgstr "Det valgte køretøj er kun passende til raseri kamptypen."
+
+msgid "headerButtons/fightBtn/tooltip/falloutOnly/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/falloutVehLevelRequired/body"
+msgstr "Vælg et niveau %(level)s køretøj"
+
+msgid "headerButtons/fightBtn/tooltip/falloutVehLevelRequired/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/falloutVehMin/body"
+msgstr "Vælg et niveau %(level)s køretøj"
+
+msgid "headerButtons/fightBtn/tooltip/falloutVehMin/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/inPremiumIgrOnly/body"
+msgstr "Vælg et andet køretøj."
+
+msgid "headerButtons/fightBtn/tooltip/inPremiumIgrOnly/header"
+msgstr "Køretøjet er kun til %(icon)s"
+
+msgid "headerButtons/fightBtn/tooltip/noVehicle/body"
+msgstr "Køb et køretøj, der overholder kravene."
+
+msgid "headerButtons/fightBtn/tooltip/noVehicle/header"
+msgstr "Ingen køretøjer i garagen"
+
+msgid "headerButtons/fightBtn/tooltip/notSupported/body"
+msgstr "Skift kamptypen, eller vælg et køretøj, der overholder kravene."
+
+msgid "headerButtons/fightBtn/tooltip/notSupported/header"
+msgstr "Køretøj ikke egnet til kamptypen"
+
+msgid "headerButtons/fightBtn/tooltip/rankedDisabled/body"
+msgstr "Spærretid er aktiv på denne server."
+
+msgid "headerButtons/fightBtn/tooltip/rankedDisabled/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/rankedNotSet/body"
+msgstr "Denne kamptype er utilgængelig på den valgte server."
+
+msgid "headerButtons/fightBtn/tooltip/rankedNotSet/header"
+msgstr "Kan ikke gå med i kamp"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehClass/body"
+msgstr "%(forbiddenClass)s kan ikke deltage i rangerede kampe."
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehClass/header"
+msgstr "Inkompatibel køretøjstype"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehLevel/body"
+msgstr "Du skal bruge et %(levelSubStr)s for at gå i kamp."
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehLevel/header"
+msgstr "Inkompatibelt køretøjsniveau"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehLevel/levelSubStr"
+msgstr "niveau %(levels)s køretøj"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehType/body"
+msgstr "%(forbiddenType)s kan ikke deltage i rangerede kampe."
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehType/header"
+msgstr "Inkompatibelt køretøj"
+
+msgid "headerButtons/fightBtn/tooltip/rentalIsOver/body"
+msgstr "Vælg et andet køretøj."
+
+msgid "headerButtons/fightBtn/tooltip/rentalIsOver/header"
+msgstr "Køretøjs lejeperiode udløbet"
+
+msgid "headerButtons/fightBtn/tooltip/telecomRentalIsOver/body"
+msgstr "Vælg et andet køretøj."
+
+msgid "headerButtons/fightBtn/tooltip/telecomRentalIsOver/header"
+msgstr "Køretøj utilgængeligt"
+
+msgid "headerButtons/fightBtn/tooltip/unsutableToBattleRoyale/body"
+msgstr "Du kan kun gå i kamp i særlige køretøjer til Ståljæger."
+
+msgid "headerButtons/fightBtn/tooltip/unsutableToBattleRoyale/header"
+msgstr "Inkompatibelt køretøj"
+
+msgid "headerButtons/fightBtn/tooltip/vehicleIsBroken/body"
+msgstr "Reparer dit køretøj."
+
+msgid "headerButtons/fightBtn/tooltip/vehicleIsBroken/header"
+msgstr "Køretøj beskadiget"
+
+msgid "headerButtons/fightBtn/tooltip/wotPlusExclusiveUnavailable/body"
+msgstr "Vælg et andet køretøj."
+
+msgid "headerButtons/fightBtn/tooltip/wotPlusExclusiveUnavailable/header"
+msgstr "Eksklusivt køretøj utilgængeligt"
+
+msgid "headerButtons/hangar"
+msgstr "Garage"
+
+msgid "headerButtons/menu"
+msgstr "Menu"
+
+msgid "headerButtons/missions"
+msgstr "Missioner"
+
+msgid "headerButtons/modeSelector"
+msgstr "Kamptyper"
+
+msgid "headerButtons/navigation/back"
+msgstr "Tilbage"
+
+msgid "headerButtons/notReady"
+msgstr "Ikke klar"
+
+msgid "headerButtons/personalMissions"
+msgstr "Kampagner"
+
+msgid "headerButtons/profile"
+msgstr "Tjenesteblad"
+
+msgid "headerButtons/rating"
+msgstr "Rangering"
+
+msgid "headerButtons/ready"
+msgstr "Klar"
+
+msgid "headerButtons/shop"
+msgstr "Butik"
+
+msgid "headerButtons/storage"
+msgstr "Depot"
+
+msgid "headerButtons/techtree"
+msgstr "Teknologitræ"
+
+msgid "headerButtons/tournament"
+msgstr "Turneringer"
+
+msgid "headerButtons/wiki"
+msgstr "Træningscenter"
+
+msgid "igr/info"
+msgstr "You are playing at %(igrIcon)s."
+
+msgid "infinitySymbol"
+msgstr "∞"
+
+msgid "ingame_menu/buttons/back"
+msgstr "Tilbage til kampen"
+
+msgid "ingame_menu/buttons/help"
+msgstr "Hjælp"
+
+msgid "ingame_menu/buttons/logoff"
+msgstr "Tilbage til garagen"
+
+msgid "ingame_menu/buttons/replayExit"
+msgstr "Forlad"
+
+msgid "ingame_menu/buttons/settings"
+msgstr "Indstillinger"
+
+msgid "ingame_menu/links/report_bug"
+msgstr "Rapporter en fejl"
+
+msgid "ingame_menu/serverStats/server"
+msgstr "Server:"
+
+msgid "ingame_menu/title"
+msgstr "MENU"
+
+msgid "internet_provider/BeelineKZ/name"
+msgstr "Beeline Казахстан"
+
+msgid "internet_provider/BeelineKZ/tariff"
+msgstr "Игровой"
+
+msgid "internet_provider/Kazakhtelecom/name"
+msgstr "Казахтелеком"
+
+msgid "internet_provider/Kazakhtelecom/tariff"
+msgstr "Игровой"
+
+msgid "internet_provider/LocalPartner2/name"
+msgstr "LocalPartner2"
+
+msgid "internet_provider/LocalPartner2/tariff"
+msgstr "Igrovoy"
+
+msgid "internet_provider/LocalPartner3/name"
+msgstr "LocalPartner3"
+
+msgid "internet_provider/LocalPartner3/tariff"
+msgstr "Igrovoy"
+
+msgid "internet_provider/LocalPartner4/name"
+msgstr "LocalPartner4"
+
+msgid "internet_provider/LocalPartner4/tariff"
+msgstr "Igrovoy"
+
+msgid "inventory/device/errors/not_removable"
+msgstr " "
+
+msgid "inventory/device/errors/reserved"
+msgstr " "
+
+msgid "inventory/errors/reserved"
+msgstr " "
+
+msgid "inventory/header/equipment/myVehicle"
+msgstr "Forbrugsvarer til %(vehicle)s:"
+
+msgid "inventory/header/equipment/myVehicles"
+msgstr "Forbrugsvarer til mine køretøjer%(nation)s:"
+
+msgid "inventory/header/equipment/otherVehicles"
+msgstr "Forbrugsvarer, ikke-kompatible%(nation)s:"
+
+msgid "inventory/header/module/myVehicle"
+msgstr "%(type)s til %(vehicle)s:"
+
+msgid "inventory/header/module/myVehicles"
+msgstr "%(type)s for mine køretøjer%(nation)s:"
+
+msgid "inventory/header/module/otherVehicles"
+msgstr "%(type)s, ikke-kompatibelt%(nation)s:"
+
+msgid "inventory/header/optionalDevice/myVehicle"
+msgstr "Udstyr til %(vehicle)s:"
+
+msgid "inventory/header/optionalDevice/myVehicles"
+msgstr "Udstyr til mine køretøjer%(nation)s:"
+
+msgid "inventory/header/optionalDevice/otherVehicles"
+msgstr "Udstyr, ikke-kompatibelt%(nation)s:"
+
+msgid "inventory/header/shell/myInventoryGuns"
+msgstr "Granater til mine kanoner i Depot%(nation)s:"
+
+msgid "inventory/header/shell/myVehicleGun"
+msgstr "Granater til den nuværende kanon på %(vehicle)s:"
+
+msgid "inventory/header/shell/myVehiclesInventoryGuns"
+msgstr "Granater til alle mine kanoner%(nation)s:"
+
+msgid "inventory/header/shell/otherGuns"
+msgstr "Granater ikke kompatible med kanoner%(nation)s:"
+
+msgid "inventory/header/vehicle"
+msgstr "Alle mine %(type)s%(nation)s:"
+
+msgid "inventory/menu/battleBooster/name"
+msgstr "Direktiver"
+
+msgid "inventory/menu/battleBooster/targetType/allKind/name"
+msgstr "Alle"
+
+msgid "inventory/menu/battleBooster/targetType/forCrew/name"
+msgstr "For mandskab"
+
+msgid "inventory/menu/battleBooster/targetType/forEquipment/name"
+msgstr "For udstyr"
+
+msgid "inventory/menu/equipment/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "inventory/menu/equipment/fits/myVehicles/name"
+msgstr "Mine køretøjer"
+
+msgid "inventory/menu/equipment/fits/name"
+msgstr "Kompatibel med"
+
+msgid "inventory/menu/equipment/fits/otherVehicles/name"
+msgstr "Ikke med mine køretøjer"
+
+msgid "inventory/menu/equipment/name"
+msgstr "Forbrugsvarer"
+
+msgid "inventory/menu/module/extra/name"
+msgstr "Vis"
+
+msgid "inventory/menu/module/extra/onVehicle/name"
+msgstr "På køretøjer"
+
+msgid "inventory/menu/module/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "inventory/menu/module/fits/myVehicles/name"
+msgstr "Mine køretøjer"
+
+msgid "inventory/menu/module/fits/name"
+msgstr "Kompatibel med:"
+
+msgid "inventory/menu/module/fits/otherVehicles/name"
+msgstr "Ikke til mine køretøjer"
+
+msgid "inventory/menu/module/name"
+msgstr "Moduler"
+
+msgid "inventory/menu/module/types/name"
+msgstr "Modultyper:"
+
+msgid "inventory/menu/module/types/vehicleChassis/name"
+msgstr "Affjedring"
+
+msgid "inventory/menu/module/types/vehicleEngine/name"
+msgstr "Motor"
+
+msgid "inventory/menu/module/types/vehicleGun/name"
+msgstr "Kanon"
+
+msgid "inventory/menu/module/types/vehicleRadio/name"
+msgstr "Radio"
+
+msgid "inventory/menu/module/types/vehicleTurret/name"
+msgstr "Tårn"
+
+msgid "inventory/menu/optionalDevice/extra/name"
+msgstr "Vis"
+
+msgid "inventory/menu/optionalDevice/extra/onVehicle/name"
+msgstr "På køretøjer"
+
+msgid "inventory/menu/optionalDevice/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "inventory/menu/optionalDevice/fits/myVehicles/name"
+msgstr "Mine køretøjer"
+
+msgid "inventory/menu/optionalDevice/fits/name"
+msgstr "Kompatibel med"
+
+msgid "inventory/menu/optionalDevice/fits/otherVehicles/name"
+msgstr "Ikke med mine køretøjer"
+
+msgid "inventory/menu/optionalDevice/name"
+msgstr "Udstyr"
+
+msgid "inventory/menu/shell/fits/myInventoryGuns/name"
+msgstr "Kanoner i depotet"
+
+msgid "inventory/menu/shell/fits/myVehicleGun/name"
+msgstr "Nuværende kanon på"
+
+msgid "inventory/menu/shell/fits/myVehiclesInventoryGuns/name"
+msgstr "Alle mine kanoner"
+
+msgid "inventory/menu/shell/fits/name"
+msgstr "Kompatibel med"
+
+msgid "inventory/menu/shell/fits/otherGuns/name"
+msgstr "Ikke til mine kanoner"
+
+msgid "inventory/menu/shell/kinds/ARMOR_PIERCING/name"
+msgstr "Panserbrydende"
+
+msgid "inventory/menu/shell/kinds/ARMOR_PIERCING_CR/name"
+msgstr "Panserbrydende Komposit Rigid"
+
+msgid "inventory/menu/shell/kinds/ARMOR_PIERCING_HE/name"
+msgstr "Panserbrydende Høj-Eksplosiv"
+
+msgid "inventory/menu/shell/kinds/HIGH_EXPLOSIVE/name"
+msgstr "Høj-eksplosiv"
+
+msgid "inventory/menu/shell/kinds/HOLLOW_CHARGE/name"
+msgstr "Høj-eksplosiv anti-tank"
+
+msgid "inventory/menu/shell/kinds/name"
+msgstr "Granattyper"
+
+msgid "inventory/menu/shell/name"
+msgstr "Granater"
+
+msgid "inventory/menu/vehicle/extra/brocken/name"
+msgstr "Beskadigede køretøjer"
+
+msgid "inventory/menu/vehicle/extra/locked/name"
+msgstr "Køretøjer i kamp"
+
+msgid "inventory/menu/vehicle/extra/name"
+msgstr "Vis"
+
+msgid "inventory/menu/vehicle/extra/premiumIGR/name"
+msgstr "Køretøjer %(icon)s"
+
+msgid "inventory/menu/vehicle/extra/rentals/name"
+msgstr "Lejede køretøjer"
+
+msgid "inventory/menu/vehicle/name"
+msgstr "Køretøjer"
+
+msgid "inventory/menu/vehicle/tags/all/name"
+msgstr "Alle typer"
+
+msgid "inventory/menu/vehicle/tags/at-spg/name"
+msgstr "Kampvognsjægere"
+
+msgid "inventory/menu/vehicle/tags/heavyTank/name"
+msgstr "Tunge kampvogne"
+
+msgid "inventory/menu/vehicle/tags/lightTank/name"
+msgstr "Lette kampvogne"
+
+msgid "inventory/menu/vehicle/tags/mediumTank/name"
+msgstr "Medium kampvogne"
+
+msgid "inventory/menu/vehicle/tags/name"
+msgstr "Køretøjstype"
+
+msgid "inventory/menu/vehicle/tags/spg/name"
+msgstr "SPG"
+
+msgid "inventory/table/buttonSell"
+msgstr "Sælg"
+
+msgid "inventory/table/header/count"
+msgstr "Nummer"
+
+msgid "inventory/table/header/price"
+msgstr "Pris"
+
+msgid "legal"
+msgstr "Juridisk information"
+
+msgid "legalInfo/closeBtn"
+msgstr "Luk"
+
+msgid "levels/1"
+msgstr "Niveau I"
+
+msgid "levels/10"
+msgstr "Niveau X"
+
+msgid "levels/11"
+msgstr "Niveau XI"
+
+msgid "levels/2"
+msgstr "Niveau II"
+
+msgid "levels/3"
+msgstr "Niveau III"
+
+msgid "levels/4"
+msgstr "Niveau IV"
+
+msgid "levels/5"
+msgstr "Niveau V"
+
+msgid "levels/6"
+msgstr "Niveau VI"
+
+msgid "levels/7"
+msgstr "Niveau VII"
+
+msgid "levels/8"
+msgstr "Niveau VIII"
+
+msgid "levels/9"
+msgstr "Niveau IX"
+
+msgid "levels/all"
+msgstr "Alle niveauer"
+
+msgid "levels/roman/1"
+msgstr "Niveau I"
+
+msgid "levels/roman/10"
+msgstr "Niveau X"
+
+msgid "levels/roman/11"
+msgstr "Niveau XI"
+
+msgid "levels/roman/2"
+msgstr "Niveau II"
+
+msgid "levels/roman/3"
+msgstr "Niveau III"
+
+msgid "levels/roman/4"
+msgstr "Niveau IV"
+
+msgid "levels/roman/5"
+msgstr "Niveau V"
+
+msgid "levels/roman/6"
+msgstr "Niveau VI"
+
+msgid "levels/roman/7"
+msgstr "Niveau VII"
+
+msgid "levels/roman/8"
+msgstr "Niveau VIII"
+
+msgid "levels/roman/9"
+msgstr "Niveau IX"
+
+msgid "loading/battleTypes/0"
+msgstr "Særlig kamp"
+
+msgid "loading/battleTypes/1"
+msgstr "Standard kamp"
+
+msgid "loading/battleTypes/10"
+msgstr "Holdkamp: Rangeret"
+
+msgid "loading/battleTypes/11"
+msgstr "Testområde"
+
+msgid "loading/battleTypes/12"
+msgstr "Testområde"
+
+msgid "loading/battleTypes/13"
+msgstr "Dominans"
+
+msgid "loading/battleTypes/14"
+msgstr "Ståljagt"
+
+msgid "loading/battleTypes/15"
+msgstr "Træfning"
+
+msgid "loading/battleTypes/16"
+msgstr "Fremrykning"
+
+msgid "loading/battleTypes/17"
+msgstr "Rangeret kamp"
+
+msgid "loading/battleTypes/19"
+msgstr "Standard kamp"
+
+msgid "loading/battleTypes/2"
+msgstr "Holdtræning"
+
+msgid "loading/battleTypes/20"
+msgstr "Holdtræning"
+
+msgid "loading/battleTypes/21"
+msgstr "Frontlinje"
+
+msgid "loading/battleTypes/22"
+msgstr "Frontlinje"
+
+msgid "loading/battleTypes/23"
+msgstr "Ståljæger"
+
+msgid "loading/battleTypes/24"
+msgstr "Recon Mission"
+
+msgid "loading/battleTypes/25"
+msgstr "Korttræning"
+
+msgid "loading/battleTypes/26"
+msgstr "Strategiens kunst"
+
+msgid "loading/battleTypes/28"
+msgstr "Strateg-træning"
+
+msgid "loading/battleTypes/29"
+msgstr "%(modeName)s"
+
+msgid "loading/battleTypes/30"
+msgstr "Onslaught"
+
+msgid "loading/battleTypes/31"
+msgstr "Opvarmning"
+
+msgid "loading/battleTypes/33"
+msgstr "Onslaught"
+
+msgid "loading/battleTypes/34"
+msgstr "Onslaught-træning"
+
+msgid "loading/battleTypes/35"
+msgstr "Onslaught Light"
+
+msgid "loading/battleTypes/4"
+msgstr "Kamptræning"
+
+msgid "loading/battleTypes/5"
+msgstr "Holdkamp"
+
+msgid "loading/battleTypes/6"
+msgstr "Historisk kamp"
+
+msgid "loading/battleTypes/7"
+msgstr "WAFFENTRÄGER: PROJEKT HYPERION"
+
+msgid "loading/battleTypes/8"
+msgstr "Træfninger"
+
+msgid "loading/battleTypes/9"
+msgstr "Kamp mod klan"
+
+msgid "loading/battleTypes/desc/0"
+msgstr " "
+
+msgid "loading/battleTypes/desc/1"
+msgstr " "
+
+msgid "loading/battleTypes/desc/10"
+msgstr " "
+
+msgid "loading/battleTypes/desc/11"
+msgstr " "
+
+msgid "loading/battleTypes/desc/12"
+msgstr " "
+
+msgid "loading/battleTypes/desc/13"
+msgstr " "
+
+msgid "loading/battleTypes/desc/14"
+msgstr " "
+
+msgid "loading/battleTypes/desc/15"
+msgstr "Mission: Indtag fjendens base eller ødelæg alle fjendtlige køretøjer."
+
+msgid "loading/battleTypes/desc/16"
+msgstr "Mission: Indtag fjendens base eller ødelæg alle fjendtlige køretøjer."
+
+msgid "loading/battleTypes/desc/17"
+msgstr " "
+
+msgid "loading/battleTypes/desc/19"
+msgstr " "
+
+msgid "loading/battleTypes/desc/2"
+msgstr "Skærp dine kampfærdigheder sammen med\ndine soldaterkamerater. Ingen erfaring\nbliver optjent i disse kampe."
+
+msgid "loading/battleTypes/desc/20"
+msgstr " "
+
+msgid "loading/battleTypes/desc/21"
+msgstr " "
+
+msgid "loading/battleTypes/desc/22"
+msgstr " "
+
+msgid "loading/battleTypes/desc/23"
+msgstr " "
+
+msgid "loading/battleTypes/desc/24"
+msgstr " "
+
+msgid "loading/battleTypes/desc/25"
+msgstr " "
+
+msgid "loading/battleTypes/desc/26"
+msgstr " "
+
+msgid "loading/battleTypes/desc/28"
+msgstr " "
+
+msgid "loading/battleTypes/desc/29"
+msgstr " "
+
+msgid "loading/battleTypes/desc/30"
+msgstr " "
+
+msgid "loading/battleTypes/desc/31"
+msgstr " "
+
+msgid "loading/battleTypes/desc/33"
+msgstr " "
+
+msgid "loading/battleTypes/desc/34"
+msgstr " "
+
+msgid "loading/battleTypes/desc/35"
+msgstr " "
+
+msgid "loading/battleTypes/desc/4"
+msgstr " "
+
+msgid "loading/battleTypes/desc/5"
+msgstr " "
+
+msgid "loading/battleTypes/desc/6"
+msgstr " "
+
+msgid "loading/battleTypes/desc/7"
+msgstr "?empty?"
+
+msgid "loading/battleTypes/desc/8"
+msgstr " "
+
+msgid "loading/battleTypes/desc/9"
+msgstr " "
+
+msgid "loading/battleTypes/subTitle/23"
+msgstr "Trekløver-showdown"
+
+msgid "loading/helpTip"
+msgstr "For hjælp i slaget, tryk F1."
+
+msgid "loading/team1"
+msgstr "Vores hold"
+
+msgid "loading/team2"
+msgstr "Fjendtligt hold"
+
+msgid "loading/teams/allies"
+msgstr "Allierede"
+
+msgid "loading/teams/enemies"
+msgstr "Fjender"
+
+msgid "lobby_menu/buttons/back"
+msgstr "Tilbage til spillet"
+
+msgid "lobby_menu/buttons/exit"
+msgstr "Forlad spillet"
+
+msgid "lobby_menu/buttons/logoff"
+msgstr "Afbryd forbindelsen"
+
+msgid "lobby_menu/buttons/post"
+msgstr "Kampefterretning"
+
+msgid "lobby_menu/buttons/refuse-training"
+msgstr "Afbryd træningen"
+
+msgid "lobby_menu/buttons/restart-training"
+msgstr "Genoptag træningen"
+
+msgid "lobby_menu/buttons/settings"
+msgstr "Indstillinger"
+
+msgid "lobby_menu/manyServers/title"
+msgstr "Server og ping (ms):"
+
+msgid "lobby_menu/oneServer/title"
+msgstr "Server: %(sName)s"
+
+msgid "lobby_menu/title"
+msgstr "MENU"
+
+msgid "login/account"
+msgstr "Konto:"
+
+msgid "login/auto"
+msgstr "Auto"
+
+msgid "login/caps"
+msgstr "Caps"
+
+msgid "login/changeAaccount"
+msgstr "Skift konto"
+
+msgid "login/fastEnter"
+msgstr "Hurtig login:"
+
+msgid "login/healthNotice"
+msgstr "?empty?"
+
+msgid "login/licenses/header_1"
+msgstr "Portions of this software include the following copyrighted material, the use of which is hereby acknowledged:"
+
+msgid "login/licenses/header_2"
+msgstr "Portions of this software are copyright:"
+
+msgid "login/login"
+msgstr "Email:"
+
+msgid "login/ok"
+msgstr "Forbind!"
+
+msgid "login/password"
+msgstr "Adgangskode:"
+
+msgid "login/quitFromAutoLogin"
+msgstr "Forlad kø"
+
+msgid "login/recoveryLink"
+msgstr "Ikke i stand til at logge ind?"
+
+msgid "login/registrationLink"
+msgstr "Opret konto"
+
+msgid "login/rememberPassword"
+msgstr "Husk mig"
+
+msgid "login/rememberPasswordIgr"
+msgstr "Gem email og password (usikkert)"
+
+msgid "login/rememberPasswordIgrWarning"
+msgstr "Det er usikkert at bruge denne mulighed på offentlige pc'ere."
+
+msgid "login/rss/readMore"
+msgstr "Detaljer"
+
+msgid "login/server"
+msgstr "Server og ping (ms):"
+
+msgid "login/social/status/SYSTEM_ERROR"
+msgstr "Fejl i autorisation via et socialt netværk eller Wargaming.net ID. Prøv at logge på ved brug af standardmetoden, ved at bruge dit login og password."
+
+msgid "login/social/status/WGC_ERROR"
+msgstr "Godkendelsesfejl. Indtast venligst din email og dit password."
+
+msgid "login/social/warning/SOCIAL_NETWORK_LOGOUT"
+msgstr "Du er logget ud af kontoen %(userName)s. Af sikkerhedsgrunde, log også ud af din %(socialNetworkLink)s konto."
+
+msgid "login/social/warning/SOCIAL_NETWORK_LOGOUT_BOTH"
+msgstr "Du er logget ud af kontoen %(userName)s. Af sikkerhedsgrunde, log også ud af din %(socialNetworkLink)s og %(wargamingNetLink)s konto."
+
+msgid "login/status/ALREADY_ONLINE_LOCALLY"
+msgstr "Klienten er allerede online lokalt (søger plads offline)."
+
+msgid "login/status/CANCELLED"
+msgstr "Forbindelse til serveren blev afbrudt af brugeren."
+
+msgid "login/status/CLIENT_SERVER_VERSIONS_ARE_DIFFERENT"
+msgstr "Serveren er midlertidigt utilgængelig. Opdater venligst din klient eller vent til en planlagt opdatering."
+
+msgid "login/status/CONNECTION_FAILED"
+msgstr "Kunne ikke forbinde til netværket."
+
+msgid "login/status/DNS_LOOKUP_FAILED"
+msgstr "Kunne ikke få forbindelse til serveren.\nServeren kan være utilgængelig eller indstillingerne på dit netværk kan være forkerte."
+
+msgid "login/status/LOGIN_BAD_PROTOCOL_VERSION"
+msgstr "Opdater venligst din klient."
+
+msgid "login/status/LOGIN_CUSTOM_DEFINED_ERROR"
+msgstr "Serveren er ikke tilgængelig. Begrundelse: %(reason)s."
+
+msgid "login/status/LOGIN_MALFORMED_REQUEST"
+msgstr "Det er ikke muligt at logge på server. Din forespørgsel er formentlig forældet eller har korrupte data."
+
+msgid "login/status/LOGIN_REJECTED_ACTIVATING"
+msgstr "Opretter konto..."
+
+msgid "login/status/LOGIN_REJECTED_ALREADY_LOGGED_IN"
+msgstr "En spiller med samme navn er allerede i spillet."
+
+msgid "login/status/LOGIN_REJECTED_BAD_DIGEST"
+msgstr "Opdater venligst din klient."
+
+msgid "login/status/LOGIN_REJECTED_BAN"
+msgstr "Din konto er blevet læst indtil kl. %(time)s. Årsag: %(reason)s."
+
+msgid "login/status/LOGIN_REJECTED_BAN_UNLIMITED"
+msgstr "Din konto er blevet suspenderet. Årsag: %(reason)s."
+
+msgid "login/status/LOGIN_REJECTED_BASEAPPMGR_TIMEOUT"
+msgstr "Serverfejl (BASEAPPMGR_TIMEOUT)"
+
+msgid "login/status/LOGIN_REJECTED_BASEAPP_OVERLOAD"
+msgstr "Server optaget. Prøv venligst igen senere."
+
+msgid "login/status/LOGIN_REJECTED_BASEAPP_TIMEOUT"
+msgstr "Serverfejl (BASEAPP_TIMEOUT)"
+
+msgid "login/status/LOGIN_REJECTED_CELLAPP_OVERLOAD"
+msgstr "Server optaget. Prøv venligst igen senere."
+
+msgid "login/status/LOGIN_REJECTED_DBMGR_OVERLOAD"
+msgstr "Server optaget. Prøv venligst igen senere."
+
+msgid "login/status/LOGIN_REJECTED_DB_GENERAL_FAILURE"
+msgstr "Serverfejl (DB_GENERAL_FAILURE)"
+
+msgid "login/status/LOGIN_REJECTED_DB_NOT_READY"
+msgstr "Serverfejl (DB_NOT_READY)"
+
+msgid "login/status/LOGIN_REJECTED_ILLEGAL_CHARACTERS"
+msgstr "Kaldenavn eller kodeord indeholder ugyldige tegn."
+
+msgid "login/status/LOGIN_REJECTED_INACCESSIBLE_REALM"
+msgstr "Valgt server er midlertidigt utilgængelig."
+
+msgid "login/status/LOGIN_REJECTED_INVALID_PASSWORD"
+msgstr "Forkert password eller email. <a href='event:passwordRecovery'>Recover password</a>"
+
+msgid "login/status/LOGIN_REJECTED_IP_ADDRESS_BAN"
+msgstr "Forbindelsesfejl: adgang til spillet via din ip adresse er midlertidigt begrænset."
+
+msgid "login/status/LOGIN_REJECTED_LOGINS_NOT_ALLOWED"
+msgstr "Serveren er midlertidigt utilgængelig på grund af planlagt vedligeholdelse."
+
+msgid "login/status/LOGIN_REJECTED_LOGIN_QUEUE"
+msgstr "Server optaget. Venter på forbindelse. Dit kø nummer: %d."
+
+msgid "login/status/LOGIN_REJECTED_NICKNAME_ALREADY_EXIST"
+msgstr "Dette kaldenavn er allerede taget i brug af en anden. Prøv et andet kaldenavn."
+
+msgid "login/status/LOGIN_REJECTED_NO_BASEAPPS"
+msgstr "Serverfejl (NO_BASEAPPS)"
+
+msgid "login/status/LOGIN_REJECTED_NO_BASEAPP_RESPONSE"
+msgstr "Serveren svarede ikke. Prøv igen senere."
+
+msgid "login/status/LOGIN_REJECTED_NO_LOGINAPP"
+msgstr "Kunne ikke få forbindelse til serveren.\nServeren er muligvis ikke til rådighed eller din netværksforbindelse kan være forkert."
+
+msgid "login/status/LOGIN_REJECTED_NO_LOGINAPP_RESPONSE"
+msgstr "Kunne ikke få forbindelse til serveren.\nServeren er muligvis ikke til rådighed eller din netværksforbindelse kan være forkert."
+
+msgid "login/status/LOGIN_REJECTED_NO_SUCH_USER"
+msgstr "Forkert email eller kodeord."
+
+msgid "login/status/LOGIN_REJECTED_RATE_LIMITED"
+msgstr "Server optaget. Venter på serverforbindelse."
+
+msgid "login/status/LOGIN_REJECTED_REGISTRATION_NOT_ALLOWED"
+msgstr "Kontooprettelse er midlertidigt ikke tilladt."
+
+msgid "login/status/LOGIN_REJECTED_REGISTRATION_NOT_CONFIRMED"
+msgstr "Kan ikke logge ind. Søg venligst i dine email for at bekræfte kontooprettelse."
+
+msgid "login/status/LOGIN_REJECTED_SERVER_NOT_READY"
+msgstr "Server er ikke klar. Prøv venligst igen senere."
+
+msgid "login/status/LOGIN_REJECTED_UNABLE_TO_PARSE_JSON"
+msgstr "Dette kaldenavn indeholder ugyldige tegn. Prøv et andet kaldenavn."
+
+msgid "login/status/LOGIN_REJECTED_USERS_LIMIT"
+msgstr "Serveren er optaget. Vælg en anden server eller prøv igen senere."
+
+msgid "login/status/NOT_SET"
+msgstr "Du har afbrudt forbindelse med serveren."
+
+msgid "login/status/PUBLIC_KEY_LOOKUP_FAILED"
+msgstr "Kan ikke finde klientens offentlige nøgle."
+
+msgid "login/status/SESSION_END"
+msgstr "Autologin er udløbet, indtast venligst password igen."
+
+msgid "login/status/SOCIAL_SESSION_END"
+msgstr "Autorisationsfejl. For at logge ind i spillet, klik Log ind."
+
+msgid "login/status/UNKNOWN_ERROR"
+msgstr "Ukendt fejl er indtruffet."
+
+msgid "login/status/WGC_LOGOUT"
+msgstr "Du har logget ud af kontoen %(userName)s. For at logge ind, indtast din email og dit password."
+
+msgid "login/status/accessForbiddenToPeriphery"
+msgstr "Den valgte server er utilgængelig for din konto. Tilgængelige servere: %(peripheries)s."
+
+msgid "login/status/accountNotReady"
+msgstr "Kontoen er ikke klar. Prøv igen senere."
+
+msgid "login/status/another_periphery"
+msgstr "Du er stadig tilsluttet en anden server."
+
+msgid "login/status/centerRestart"
+msgstr "Serveren er midlertidigt utilgængelig. Vent venligst indtil serverne er genstartet."
+
+msgid "login/status/checkout_error"
+msgstr "Fejl i modtagelse af spiller detaljer. Prøv venligst igen."
+
+msgid "login/status/connecting"
+msgstr "?empty?"
+
+msgid "login/status/empty_login"
+msgstr "Indtast venligst din email."
+
+msgid "login/status/empty_password"
+msgstr "Indtast venligst dit kodeord."
+
+msgid "login/status/empty_server"
+msgstr "Vælg venligst en server."
+
+msgid "login/status/invalid_login"
+msgstr "Brug venligst din emailadresse til at kogge ind med."
+
+msgid "login/status/invalid_login_length"
+msgstr "Minimum antal tegn til kaldenavn: %(count)d"
+
+msgid "login/status/invalid_nickname"
+msgstr "Kaldenavn kan indeholde latinske bogstaver, tal og '_'."
+
+msgid "login/status/launchernotfound"
+msgstr "Filen WOTLauncher.exe blev ikke fundet. Kør venligst applikationen igen."
+
+msgid "login/status/unavailable"
+msgstr "Serveren er ikke tilgængelig."
+
+msgid "login/status/versionMismatch"
+msgstr "Denne region er midlertidigt utilgængelig. Vent venligst til en planlagt opdatering."
+
+msgid "login/submitBySocial"
+msgstr "Log ind"
+
+msgid "login/updateURLAvaialbleAt"
+msgstr "Opdater venligst klientapplikationen (%s)."
+
+msgid "login/version"
+msgstr "World of Tanks"
+
+msgid "mapBlackList/timeLeftShort/days"
+msgstr "%(day)s d"
+
+msgid "mapBlackList/timeLeftShort/hours"
+msgstr "%(hour)s t"
+
+msgid "mapBlackList/timeLeftShort/lessMin"
+msgstr "1 min"
+
+msgid "mapBlackList/timeLeftShort/min"
+msgstr "%(min)s min"
+
+msgid "moduleFits/already_installed"
+msgstr "?empty?"
+
+msgid "moduleFits/center_unavailable"
+msgstr "Midlertidigt utilgængelig"
+
+msgid "moduleFits/credits_error"
+msgstr "?empty?"
+
+msgid "moduleFits/crystal_error"
+msgstr "?empty?"
+
+msgid "moduleFits/destroyBtn/tooltip/body"
+msgstr "Ødelæg udstyr"
+
+msgid "moduleFits/destroyBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "moduleFits/destroyDescr"
+msgstr "Ødelæg udstyr, der ikke kan afmonteres,\nså der er plads til nyt udstyr."
+
+msgid "moduleFits/destroyEquipment"
+msgstr "Ødelæg udstyr \"%(equipment)s\"?"
+
+msgid "moduleFits/gold_error"
+msgstr "?empty?"
+
+msgid "moduleFits/need_gun"
+msgstr "Inkompatibel kanon"
+
+msgid "moduleFits/need_turret"
+msgstr "Inkompatibelt tårn"
+
+msgid "moduleFits/not_for_current_vehicle"
+msgstr "Ikke kompatibelt med den nuværende konfiguration."
+
+msgid "moduleFits/not_for_this_vehicle_type"
+msgstr "Inkompatibel kanon"
+
+msgid "moduleFits/not_with_installed_equipment"
+msgstr "Ikke kompatibelt"
+
+msgid "moduleFits/removeDescr"
+msgstr "Afmonter udstyr og send det til depotet"
+
+msgid "moduleFits/removeName"
+msgstr "Afmonter"
+
+msgid "moduleFits/removeToolTip"
+msgstr " "
+
+msgid "moduleFits/similar_device_already_installed"
+msgstr "?empty?"
+
+msgid "moduleFits/title"
+msgstr "%(moduleName)s til %(vehicleName)s"
+
+msgid "moduleFits/unlock_error"
+msgstr "Forskning"
+
+msgid "moduleFits/upgradeBtn/tooltip/body"
+msgstr "Opgradering af udstyr forbedrer dets karakteristika."
+
+msgid "moduleFits/wrong_slot"
+msgstr "?empty?"
+
+msgid "moduleInfo/additionalInfo"
+msgstr "Granatens karakteristika afhænger af kanonen."
+
+msgid "moduleInfo/autoLoaderGun"
+msgstr "Autolader kanon"
+
+msgid "moduleInfo/autoLoaderGunBoost"
+msgstr "Forbedret system med autogenlader:\nReducerer standardtiden for at autogenlade granater."
+
+msgid "moduleInfo/autoShootGun"
+msgstr "Kanon med et vedvarende affyringssystem"
+
+msgid "moduleInfo/closeBtn"
+msgstr "Luk"
+
+msgid "moduleInfo/compatible/clipVehicles"
+msgstr "Udstyret med magasinladesystem på køretøjerne:"
+
+msgid "moduleInfo/compatible/guns"
+msgstr "Kompatible kanoner:"
+
+msgid "moduleInfo/compatible/shellGuns"
+msgstr "Kompatible kanoner:"
+
+msgid "moduleInfo/compatible/shells"
+msgstr "Kompatible granater:"
+
+msgid "moduleInfo/compatible/turrets"
+msgstr "Kompatible tårne:"
+
+msgid "moduleInfo/compatible/uniChargedVehicles"
+msgstr "Brugt som enkeltskudskanon på køretøjerne:"
+
+msgid "moduleInfo/compatible/vehicles"
+msgstr "Kompatible køretøjer:"
+
+msgid "moduleInfo/damageMutable"
+msgstr "Et dybt-riflet kanonløb. Kan affyre stjerneprojektiler."
+
+msgid "moduleInfo/dualAccuracy"
+msgstr "Dobbeltsigtesystem"
+
+msgid "moduleInfo/dualGun"
+msgstr "Dobbeltløbet kanonsystem"
+
+msgid "moduleInfo/heatingZonesGun"
+msgstr "Kanon med aktivt kølingssystem"
+
+msgid "moduleInfo/hydraulicChassis"
+msgstr "Hydropneumatisk affjedring: gør køretøjet i stand til at skifte mellem belejrings- og rejsetilstand"
+
+msgid "moduleInfo/hydraulicWheeledChassis"
+msgstr "Teleskopisk hydropneumatisk drev: gør det muligt for køretøjet at skifte position på yderligere hjul."
+
+msgid "moduleInfo/hydroAutoSiegeChassis"
+msgstr "Hydropneumatisk affjedring: gør det muligt for køretøjet at vinkle skroget"
+
+msgid "moduleInfo/lowChargeShot"
+msgstr "En særlig skudmekanisme, der gør det muligt at afgive tidlige skud på bekostning af effektiviteten."
+
+msgid "moduleInfo/magazineGun"
+msgstr "Magasinladesystem"
+
+msgid "moduleInfo/nonPiercingDamageLabel"
+msgstr "Kan uddele mindre skade, selv uden at gennembryde fjendens panser"
+
+msgid "moduleInfo/overheatGun"
+msgstr "Termisk varmestyret maskinkanon"
+
+msgid "moduleInfo/parametersClipGunLabel"
+msgstr "<img src='%s' vspace='-4'/> For kanoner med magasinladesystem:"
+
+msgid "moduleInfo/parametersLabel"
+msgstr "Karakteristika:"
+
+msgid "moduleInfo/params/aimingTime"
+msgstr "Sigtetid"
+
+msgid "moduleInfo/params/areaRadius"
+msgstr "Skadeområde radius"
+
+msgid "moduleInfo/params/areaSquare"
+msgstr "Skadeområde"
+
+msgid "moduleInfo/params/armor"
+msgstr "Panser"
+
+msgid "moduleInfo/params/artDelayRange"
+msgstr "Forberedelsestid til beskydning"
+
+msgid "moduleInfo/params/autoReloadTime"
+msgstr "Tid for at autogenlade en granat"
+
+msgid "moduleInfo/params/autoReloadTime/boost"
+msgstr "Standardtid for at autogenlade en granat"
+
+msgid "moduleInfo/params/avgDamage"
+msgstr "Gennemsnitlig skade"
+
+msgid "moduleInfo/params/avgDamageList"
+msgstr "Gennemsnitlig skade"
+
+msgid "moduleInfo/params/avgDamagePerMinute"
+msgstr "Gennemsnitlig skade per minut"
+
+msgid "moduleInfo/params/avgDamagePerSecond"
+msgstr "Skade per sekund"
+
+msgid "moduleInfo/params/avgMutableDamage"
+msgstr "Gennemsnitlig skade"
+
+msgid "moduleInfo/params/avgPiercingPower"
+msgstr "Gennemsnitlig gennembrydning"
+
+msgid "moduleInfo/params/bombDamage"
+msgstr "Skade per bombe"
+
+msgid "moduleInfo/params/bombsNumberRange"
+msgstr "Bomber per angreb"
+
+msgid "moduleInfo/params/burstCount"
+msgstr "Antal hylstre i magasinet"
+
+msgid "moduleInfo/params/burstFireRate"
+msgstr "Granathylster"
+
+msgid "moduleInfo/params/burstSize"
+msgstr "Antal granater i hylsteret"
+
+msgid "moduleInfo/params/burstTimeInterval"
+msgstr "Ladetid mellem granater i hylsteret"
+
+msgid "moduleInfo/params/caliber"
+msgstr "Kaliber"
+
+msgid "moduleInfo/params/chargeTime"
+msgstr "Salveforberedelse"
+
+msgid "moduleInfo/params/chassisRepairTime"
+msgstr "Reparationstid på affjedringen"
+
+msgid "moduleInfo/params/chassisRepairTimeYoh"
+msgstr "Reparationstid på affjedringen"
+
+msgid "moduleInfo/params/circularVisionRadius"
+msgstr "Synsrækkevidde"
+
+msgid "moduleInfo/params/commonAreaRadius"
+msgstr "Effektradius"
+
+msgid "moduleInfo/params/commonDelay"
+msgstr "Indsættelsestid"
+
+msgid "moduleInfo/params/continuousDamagePerSecond"
+msgstr "Skade per sekund"
+
+msgid "moduleInfo/params/continuousShotsPerMinute"
+msgstr "Skudkadence på vedvarende skud"
+
+msgid "moduleInfo/params/cooldownSeconds"
+msgstr "Cooldown"
+
+msgid "moduleInfo/params/crewRolesFactor"
+msgstr "til primære kvalifikationer og mandskabsevner"
+
+msgid "moduleInfo/params/damage"
+msgstr "Skade"
+
+msgid "moduleInfo/params/dispertionRadius"
+msgstr "Spredning ved 100 m"
+
+msgid "moduleInfo/params/drivingControl"
+msgstr "Til manøvredygtighed i bevægelse"
+
+msgid "moduleInfo/params/dualAccuracyCoolingDelay"
+msgstr "Kanonens nedkølingstid efter skud"
+
+msgid "moduleInfo/params/duration"
+msgstr "Varighed"
+
+msgid "moduleInfo/params/enginePower"
+msgstr "Motorkraft"
+
+msgid "moduleInfo/params/enginePowerPerTon"
+msgstr "Til specifik kraft (hk/t) "
+
+msgid "moduleInfo/params/explosionRadius"
+msgstr "Skaderadius"
+
+msgid "moduleInfo/params/fireStartingChance"
+msgstr "Risiko for brand ved træffer"
+
+msgid "moduleInfo/params/flyDelayRange"
+msgstr "Flyvetid"
+
+msgid "moduleInfo/params/forwardMaxSpeed"
+msgstr "Tophastighed"
+
+msgid "moduleInfo/params/guaranteedDamage/footnote"
+msgstr "Uddeler altid skade, hvis det primære panser er ramt"
+
+msgid "moduleInfo/params/hullAndChassisWeight"
+msgstr "Vægt"
+
+msgid "moduleInfo/params/hullArmor"
+msgstr "Skrogpanser"
+
+msgid "moduleInfo/params/hullWeight"
+msgstr "Skrogvægt"
+
+msgid "moduleInfo/params/inactivationDelay"
+msgstr "Nedkølingstid"
+
+msgid "moduleInfo/params/level_lbl"
+msgstr "Niveau %(level)s Kampreserve"
+
+msgid "moduleInfo/params/maxAvgMutableDamageList"
+msgstr "Gennemsnitlig skade ved 50 m"
+
+msgid "moduleInfo/params/maxDamage"
+msgstr "Maksimal skade"
+
+msgid "moduleInfo/params/maxHealth"
+msgstr "Hp"
+
+msgid "moduleInfo/params/maxHullHealth"
+msgstr "Hp"
+
+msgid "moduleInfo/params/maxShotDistance"
+msgstr "Skudlængde"
+
+msgid "moduleInfo/params/maxShotDistance/footnote"
+msgstr "* maksimal længde på granatens flyvelængde for denne kanon"
+
+msgid "moduleInfo/params/maxSteeringLockAngle"
+msgstr "Maksimal drejevinkel på hjul"
+
+msgid "moduleInfo/params/minAvgMutableDamageList"
+msgstr "Gennemsnitlig skade ved %(dist)s m"
+
+msgid "moduleInfo/params/noPiercingDistance/footnote"
+msgstr " afhænger ikke af afstanden for denne type granat"
+
+msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
+msgstr ", maksimal flyvelængde—400m"
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "Normaliseringsvinkel"
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "Gennembrydningstab"
+
+msgid "moduleInfo/params/penetrationLoss/footnote"
+msgstr " Denne granattype vil miste gennembrydning over afstand, når den har passeret den første skærm"
+
+msgid "moduleInfo/params/piercingDistance"
+msgstr "%(dist)s m"
+
+msgid "moduleInfo/params/piercingDistance/footnote"
+msgstr " afhænger af afstanden: %(minDist)s–%(maxDist)s m"
+
+msgid "moduleInfo/params/piercingDistanceHeader"
+msgstr "Gennemsnitlig gennembrydning (mm)—afstand"
+
+msgid "moduleInfo/params/piercingPower"
+msgstr "Gennembrydning"
+
+msgid "moduleInfo/params/radarCooldown"
+msgstr "Cooldown på radioopdagelse"
+
+msgid "moduleInfo/params/radarRadius"
+msgstr "Opdagelsesrækkevidde"
+
+msgid "moduleInfo/params/radioDistance"
+msgstr "Signalrækkevidde"
+
+msgid "moduleInfo/params/rateTime"
+msgstr "Tid mellem et skud og skifte til den ladede kanon"
+
+msgid "moduleInfo/params/reloadCooldownSeconds"
+msgstr "Cooldown"
+
+msgid "moduleInfo/params/reloadMagazineTime"
+msgstr "Tid for komplet ladning"
+
+msgid "moduleInfo/params/reloadTime"
+msgstr "Skudhastighed"
+
+msgid "moduleInfo/params/reloadTimeSecs"
+msgstr "Kanonens ladning"
+
+msgid "moduleInfo/params/reloadTimeSingleGun"
+msgstr "Ladning af kanon ved enkeltskud"
+
+msgid "moduleInfo/params/reloadTimeTwinGun"
+msgstr "Ladning af kanon ved salveskydning"
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "Vinkel med rikochet"
+
+msgid "moduleInfo/params/rocketAccelerationEnginePower"
+msgstr "Motorkraft (med boostere)"
+
+msgid "moduleInfo/params/rotationSpeed"
+msgstr "Drejehastighed"
+
+msgid "moduleInfo/params/screensArmorMultiplier"
+msgstr "Multiplikator for lagdelt panser"
+
+msgid "moduleInfo/params/screensArmorMultiplier/footnote"
+msgstr " Denne granattype gennembryder skærme som normalt, men taber derefter gennembrydningskraft lig med tre gange tykkelsen på skærmpanseret"
+
+msgid "moduleInfo/params/screensArmorMultiplier/value"
+msgstr "x%(multiplier)s"
+
+msgid "moduleInfo/params/shellLoadingTime"
+msgstr "Ladning af ammunitionsbælte"
+
+msgid "moduleInfo/params/shellReloadingTime"
+msgstr "Ladetid mellem skud"
+
+msgid "moduleInfo/params/shellsCount"
+msgstr "Granater i magasinet"
+
+msgid "moduleInfo/params/short/crewRolesFactor"
+msgstr "Til primære kvalifikationer"
+
+msgid "moduleInfo/params/shotSpeed"
+msgstr "Mundingshastighed"
+
+msgid "moduleInfo/params/shotsNumberRange"
+msgstr "Granater per beskydning"
+
+msgid "moduleInfo/params/stunDurationList"
+msgstr "Fortumlet periode"
+
+msgid "moduleInfo/params/stunMaxDuration"
+msgstr "Maksimal fortumlet periode"
+
+msgid "moduleInfo/params/stunMaxDurationList"
+msgstr "Maksimal fortumlet periode"
+
+msgid "moduleInfo/params/stunMinDuration"
+msgstr "Minimum fortumlet periode"
+
+msgid "moduleInfo/params/stunMinDurationList"
+msgstr "Minimum fortumlet periode"
+
+msgid "moduleInfo/params/turboshaftEnginePower"
+msgstr "Motorkraft (turbo)"
+
+msgid "moduleInfo/params/weight"
+msgstr "Vægt"
+
+msgid "moduleInfo/propellantAfterburnerGun"
+msgstr "Induktionsefterbrænder på drivladning, der forøger gennemsnitlig skade"
+
+msgid "moduleInfo/rocketAcceleration"
+msgstr "Jet-boostere øger køretøjets mobilitet"
+
+msgid "moduleInfo/stagedJetBoosters"
+msgstr "Raket-boostere med fast brændstof, der øger acceleration, mobilitet og manøvredygtighed"
+
+msgid "moduleInfo/title"
+msgstr " "
+
+msgid "moduleInfo/trackWithinTrack"
+msgstr "Reservebælte: Gør det muligt delvist at bevare mobiliteten, når det primære bælte er ødelagt."
+
+msgid "moduleInfo/turboshaftEngine"
+msgstr "Gasturbinemotor:\ngør det muligt for køretøjet at opnå højere hastighed."
+
+msgid "moduleInfo/twinGun"
+msgstr "System til valg af skudtilstand"
+
+msgid "moduleInfo/wheeledDash"
+msgstr "Køretøjets særlige mekanisme booster markant dets acceleration, motorkraft og tophastighed i begge retninger i en kort periode."
+
+msgid "nation_tree/blueprint_title/china"
+msgstr "Plantegninger til kinesiske køretøjer"
+
+msgid "nation_tree/blueprint_title/czech"
+msgstr "Plantegninger til tjekkoslovakiske køretøjer"
+
+msgid "nation_tree/blueprint_title/france"
+msgstr "Plantegninger til franske køretøjer"
+
+msgid "nation_tree/blueprint_title/germany"
+msgstr "Plantegninger til tyske køretøjer"
+
+msgid "nation_tree/blueprint_title/italy"
+msgstr "Plantegninger til italienske køretøjer"
+
+msgid "nation_tree/blueprint_title/japan"
+msgstr "Plantegninger til japanske køretøjer"
+
+msgid "nation_tree/blueprint_title/poland"
+msgstr "Plantegninger til polske køretøjer"
+
+msgid "nation_tree/blueprint_title/sweden"
+msgstr "Plantegninger til svenske køretøjer"
+
+msgid "nation_tree/blueprint_title/uk"
+msgstr "Plantegninger til britiske køretøjer"
+
+msgid "nation_tree/blueprint_title/usa"
+msgstr "Plantegninger til amerikanske køretøjer"
+
+msgid "nation_tree/blueprint_title/ussr"
+msgstr "Plantegninger til sovjetiske køretøjer"
+
+msgid "nation_tree/title/china"
+msgstr "Kina"
+
+msgid "nation_tree/title/czech"
+msgstr "Tjekkoslovakiet"
+
+msgid "nation_tree/title/france"
+msgstr "Frankrig"
+
+msgid "nation_tree/title/germany"
+msgstr "Tyskland"
+
+msgid "nation_tree/title/italy"
+msgstr "Italien"
+
+msgid "nation_tree/title/japan"
+msgstr "Japan"
+
+msgid "nation_tree/title/poland"
+msgstr "Polen"
+
+msgid "nation_tree/title/sweden"
+msgstr "Sverige"
+
+msgid "nation_tree/title/uk"
+msgstr "Storbritannien"
+
+msgid "nation_tree/title/usa"
+msgstr "USA"
+
+msgid "nation_tree/title/ussr"
+msgstr "Sovjetunionen"
+
+msgid "nations/all"
+msgstr "Alle nationer"
+
+msgid "nations/china"
+msgstr "Kina"
+
+msgid "nations/czech"
+msgstr "Tjekkoslovakiet"
+
+msgid "nations/france"
+msgstr "Frankrig"
+
+msgid "nations/germany"
+msgstr "Tyskland"
+
+msgid "nations/italy"
+msgstr "Italien"
+
+msgid "nations/japan"
+msgstr "Japan"
+
+msgid "nations/poland"
+msgstr "Polen"
+
+msgid "nations/sweden"
+msgstr "Sverige"
+
+msgid "nations/title"
+msgstr "Nation"
+
+msgid "nations/uk"
+msgstr "Storbritannien"
+
+msgid "nations/usa"
+msgstr "USA"
+
+msgid "nations/ussr"
+msgstr "Sovjetunionen"
+
+msgid "onlineCounter/delimiter"
+msgstr " / "
+
+msgid "onlineCounter/total"
+msgstr "I alt"
+
+msgid "onlineCounter/unavailable"
+msgstr "- -"
+
+msgid "opponents"
+msgstr "%(firstOpponent)s vs. %(secondOpponent)s"
+
+msgid "optionalDeviceFits/title"
+msgstr "Vælg udstyr"
+
+msgid "prebattle/CompaniesTitle/ABSOLUTE"
+msgstr "Absolut"
+
+msgid "prebattle/CompaniesTitle/CHAMPION"
+msgstr "Mester"
+
+msgid "prebattle/CompaniesTitle/EVENT"
+msgstr "Ståljagt 15x15"
+
+msgid "prebattle/CompaniesTitle/EVENT_10x10"
+msgstr "Ståljagt 10x10"
+
+msgid "prebattle/CompaniesTitle/JUNIOR"
+msgstr "Junior"
+
+msgid "prebattle/CompaniesTitle/MIDDLE"
+msgstr "Medium"
+
+msgid "prebattle/already_in_awaiting_battle"
+msgstr "Du venter allerede på en kamp."
+
+msgid "prebattle/battleReady"
+msgstr "Kampklar!"
+
+msgid "prebattle/battleRoyale/solo"
+msgstr "For at spille solo"
+
+msgid "prebattle/battleRoyale/squad"
+msgstr "For at spille i en deling"
+
+msgid "prebattle/description"
+msgstr "prebattle/description"
+
+msgid "prebattle/exitButton"
+msgstr "Forlad kampen"
+
+msgid "prebattle/groupsLabel"
+msgstr "Hold i kø:"
+
+msgid "prebattle/invitations/buttons/cancel"
+msgstr "Luk"
+
+msgid "prebattle/invitations/buttons/search"
+msgstr "Søg"
+
+msgid "prebattle/invitations/buttons/send"
+msgstr "Invitér"
+
+msgid "prebattle/invitations/errors/addIgnoredUser"
+msgstr "Du kan ikke tilføje en spiller som er på din sorte liste."
+
+msgid "prebattle/invitations/errors/existsInReceiveList"
+msgstr "Brugeren er allerede på invitationslisten."
+
+msgid "prebattle/invitations/errors/notFoundUsers"
+msgstr "Spillere som er online, eller ikke på din sorte liste, blev ikke fundet."
+
+msgid "prebattle/invitations/errors/receiverListEmpty"
+msgstr "Invitationslisten er tom."
+
+msgid "prebattle/invitations/errors/selectUserToAdd"
+msgstr "Vælg en spiller at tilføje til invitationslisten."
+
+msgid "prebattle/invitations/errors/selectUserToRemove"
+msgstr "Vælg en spiller at fjerne fra invitationslisten."
+
+msgid "prebattle/invitations/errors/userListEmpty"
+msgstr "Listen af spillere er tom."
+
+msgid "prebattle/invitations/errors/userOffline"
+msgstr "Brugeren skal være online."
+
+msgid "prebattle/invitations/labels/defaultInviteText"
+msgstr "Invitationstekst"
+
+msgid "prebattle/invitations/labels/defaultInviteText/tooltip"
+msgstr "Teksten må ikke indeholde mere end %(maxChars)s karakterer."
+
+msgid "prebattle/invitations/labels/isOnline"
+msgstr "Skjul spillere som er offline"
+
+msgid "prebattle/invitations/labels/mailingList"
+msgstr "Inviter spillere"
+
+msgid "prebattle/playersLabel"
+msgstr "Spillere i kø:"
+
+msgid "prebattle/rts/tankLabel"
+msgstr "Din rolle:"
+
+msgid "prebattle/searchPlayers"
+msgstr "Søg efter spillere"
+
+msgid "prebattle/sideA"
+msgstr "Side A:"
+
+msgid "prebattle/sideB"
+msgstr "Side B:"
+
+msgid "prebattle/startButton"
+msgstr "Start kampen"
+
+msgid "prebattle/startingTankLabel"
+msgstr "Dit startkøretøj: "
+
+msgid "prebattle/tankLabel"
+msgstr "Du valgte:"
+
+msgid "prebattle/timerLabel"
+msgstr "Tid gået:"
+
+msgid "prebattle/title"
+msgstr "Standard kamp"
+
+msgid "prebattle/waitingTimeWarning"
+msgstr "*Det tager muligvis længere tid at finde en kamp for en SPG end andre køretøjstyper. Vær tålmodig."
+
+msgid "premium/bonus"
+msgstr "Credits og xp\nper kamp"
+
+msgid "premium/buyMessage"
+msgstr "Køb premiumkonto"
+
+msgid "premium/buyTitle"
+msgstr "Køb Premiumkonto"
+
+msgid "premium/cancel"
+msgstr "Fortryd"
+
+msgid "premium/continueMessage"
+msgstr "Forlæng Premiumkonto"
+
+msgid "premium/continueTitle"
+msgstr "Forlæng Premiumkonto"
+
+msgid "premium/gold"
+msgstr "guld"
+
+msgid "premium/ofCreditsAndExperience"
+msgstr "credits og xp"
+
+msgid "premium/packet/days1"
+msgstr "1 dag"
+
+msgid "premium/packet/days14"
+msgstr "14 dage"
+
+msgid "premium/packet/days180"
+msgstr "180 dage"
+
+msgid "premium/packet/days3"
+msgstr "3 dage "
+
+msgid "premium/packet/days30"
+msgstr "30 dage"
+
+msgid "premium/packet/days360"
+msgstr "360 dage"
+
+msgid "premium/packet/days7"
+msgstr "7 dage"
+
+msgid "premium/packet/days90"
+msgstr "90 dage"
+
+msgid "premium/packet/longDescriptionSpecial"
+msgstr "Premium konto giver mulighed for hurtigere fremskridt i spillet, da der gives yderligere credits og xp i kampe. Premium konto fungerer på tværs af World of Tanks, World of Warships og World of Warplanes, så hvis du køber det til ét af spillene, har du det automatisk til de øvrige."
+
+msgid "premium/packet/shortDescriptionSpecial"
+msgstr "+50% til xp, credits og mandskabs xp i kampe"
+
+msgid "premium/perEverButtle"
+msgstr "per kamp"
+
+msgid "premium/percentFactor"
+msgstr "+50%"
+
+msgid "premium/periods/days1"
+msgstr "I en dag (24 timer)"
+
+msgid "premium/periods/days14"
+msgstr "I 2 uger (14 dage)"
+
+msgid "premium/periods/days180"
+msgstr "I 6 måneder (180 dage)"
+
+msgid "premium/periods/days3"
+msgstr "I 3 dage (72 timer)"
+
+msgid "premium/periods/days30"
+msgstr "I en måned (30 dage)"
+
+msgid "premium/periods/days360"
+msgstr "I 12 måneder (360 dage)"
+
+msgid "premium/periods/days7"
+msgstr "I en uge (7 dage)"
+
+msgid "premium/periods/days90"
+msgstr "I 3 måneder (90 dage)"
+
+msgid "premium/promoMessage"
+msgstr "Giver 50% mere i credits og xp per slag."
+
+msgid "premium/submitBuy"
+msgstr "Køb"
+
+msgid "premium/submitContinue"
+msgstr "Forlæng"
+
+msgid "premium/tariffs/duration"
+msgstr "%d dage:"
+
+msgid "premium/tariffs/header"
+msgstr "Vælg varighed"
+
+msgid "price/bpbit"
+msgstr "Battle Pass-point"
+
+msgid "price/bpcoin"
+msgstr "Battle Pass-tokens"
+
+msgid "price/credits"
+msgstr "credits"
+
+msgid "price/crystal"
+msgstr "obligation"
+
+msgid "price/equipCoin"
+msgstr "komponenter"
+
+msgid "price/eventCoin"
+msgstr "jubilæumsmønter"
+
+msgid "price/gold"
+msgstr "guld"
+
+msgid "price/received"
+msgstr "Du har modtaget %s"
+
+msgid "price/spent"
+msgstr "Du har brugt %s"
+
+msgid "primeTime/server"
+msgstr "Tilgængelig server: %(server)s."
+
+msgid "primeTime/servers"
+msgstr "Tilgængelige servere:"
+
+msgid "profile/clan/label"
+msgstr "Klan:"
+
+msgid "profile/creationTime"
+msgstr "Oprettet:"
+
+msgid "profile/credits"
+msgstr "Credits:"
+
+msgid "profile/crystal"
+msgstr "Obligationer:"
+
+msgid "profile/eventCoin"
+msgstr "Jubilæumsmønter:"
+
+msgid "profile/exchange"
+msgstr "Veksling"
+
+msgid "profile/gold"
+msgstr "Guld:"
+
+msgid "profile/header/clan/joinDate"
+msgstr "Gik med dato: %s"
+
+msgid "profile/header/clan/position"
+msgstr "Position: %s"
+
+msgid "profile/header/clan/position/commander"
+msgstr "Kampofficer"
+
+msgid "profile/header/clan/position/diplomat"
+msgstr "Efterretningsofficer"
+
+msgid "profile/header/clan/position/junior"
+msgstr "Juniorofficer"
+
+msgid "profile/header/clan/position/leader"
+msgstr "Kommandør"
+
+msgid "profile/header/clan/position/private"
+msgstr "Menig"
+
+msgid "profile/header/clan/position/recruit"
+msgstr "Rekrut"
+
+msgid "profile/header/clan/position/recruiter"
+msgstr "Rekrutteringsofficer"
+
+msgid "profile/header/clan/position/reservist"
+msgstr "Reservist"
+
+msgid "profile/header/clan/position/staff"
+msgstr "Personnelofficer"
+
+msgid "profile/header/clan/position/treasurer"
+msgstr "Kvartermester"
+
+msgid "profile/header/clan/position/vice_leader"
+msgstr "Ledende officer"
+
+msgid "profile/header/fights"
+msgstr "Kampe"
+
+msgid "profile/header/lastBattleDateTitle"
+msgstr "Sidste kamp:"
+
+msgid "profile/header/registrationDateTitle"
+msgstr "Oprettet:"
+
+msgid "profile/header/wins"
+msgstr "Sejre"
+
+msgid "profile/list/descr"
+msgstr "Resultater for %s"
+
+msgid "profile/list/totalName"
+msgstr "Overordnede resultater"
+
+msgid "profile/premiumBuy"
+msgstr "Køb Premium konto"
+
+msgid "profile/premiumContinue"
+msgstr "Forlæng Premiumkonto"
+
+msgid "profile/premiunExpirationDate"
+msgstr "Udløber %s"
+
+msgid "profile/stats/blocks/battleeffect"
+msgstr "Kamppræstation"
+
+msgid "profile/stats/blocks/common"
+msgstr "Kamp xp"
+
+msgid "profile/stats/blocks/credits"
+msgstr "Xp"
+
+msgid "profile/stats/blocks/studying"
+msgstr "Træning"
+
+msgid "profile/stats/items/avgExperience"
+msgstr "Gennemsnitlig xp per kamp"
+
+msgid "profile/stats/items/battlesCount"
+msgstr "Kampe deltaget i"
+
+msgid "profile/stats/items/damageDealt"
+msgstr "Skade forårsaget"
+
+msgid "profile/stats/items/defender"
+msgstr "Forsvarer:"
+
+msgid "profile/stats/items/effectiveShots"
+msgstr "Træfrate"
+
+msgid "profile/stats/items/empty"
+msgstr "--"
+
+msgid "profile/stats/items/frags"
+msgstr "Ødelagt"
+
+msgid "profile/stats/items/fragsBeast"
+msgstr "Maksimum ødelagt per kamp"
+
+msgid "profile/stats/items/heroes"
+msgstr "Krigshelt:"
+
+msgid "profile/stats/items/invader"
+msgstr "Angriber:"
+
+msgid "profile/stats/items/lastBattleTime"
+msgstr "Sidste kamp:"
+
+msgid "profile/stats/items/losses"
+msgstr "Nederlag"
+
+msgid "profile/stats/items/maxFrags"
+msgstr "Maksimum ødelagt per kamp"
+
+msgid "profile/stats/items/maxXP"
+msgstr "Maksimal xp per kamp"
+
+msgid "profile/stats/items/medalKay"
+msgstr "Kays medalje:"
+
+msgid "profile/stats/items/nextSkillBattlesLeft"
+msgstr "Kampe tilbage (cirka)"
+
+msgid "profile/stats/items/nextSkillXPLeft"
+msgstr "Xp påkrævet til at øge evnen"
+
+msgid "profile/stats/items/ready"
+msgstr "Evnen er tilgængelig."
+
+msgid "profile/stats/items/readyToLearn"
+msgstr "Evner tilgængelige:"
+
+msgid "profile/stats/items/scout"
+msgstr "Spejder:"
+
+msgid "profile/stats/items/sniper"
+msgstr "Skarpskytte:"
+
+msgid "profile/stats/items/steelwall"
+msgstr "Stålmur:"
+
+msgid "profile/stats/items/supporter"
+msgstr "Support:"
+
+msgid "profile/stats/items/survivedBattles"
+msgstr "Slag overlevet"
+
+msgid "profile/stats/items/timeUntilNextLevel"
+msgstr "Tid tilbage (intensiveret mandskabstræning)"
+
+msgid "profile/stats/items/unknown"
+msgstr "Ukendt"
+
+msgid "profile/stats/items/warrior"
+msgstr "Kriger:"
+
+msgid "profile/stats/items/wins"
+msgstr "Sejre"
+
+msgid "profile/stats/items/xp"
+msgstr "Samlet xp"
+
+msgid "progressiveReward/widget/desc"
+msgstr "Deltag i kampe og modtag en meritpræmie med plantegninger på køretøjer der kan udforskes, og andre værdifulde ting."
+
+msgid "progressiveReward/widget/title"
+msgstr "Meritpræmie"
+
+msgid "promo/teaser/title"
+msgstr "Kampefterretning"
+
+msgid "promo/teaserTimeFormat/days"
+msgstr "%(day)sd:%(hour)s:%(min)s:%(sec)s"
+
+msgid "promo/teaserTimeFormat/hours"
+msgstr "%(hour)s:%(min)s:%(sec)s"
+
+msgid "promo/teaserTimeFormat/lessMin"
+msgstr "%(hour)s:%(min)s:%(sec)s"
+
+msgid "promo/teaserTimeFormat/min"
+msgstr "%(hour)s:%(min)s:%(sec)s"
+
+msgid "quote"
+msgstr "%(string)s"
+
+msgid "rangeDelimiter"
+msgstr "—"
+
+msgid "rating/messages/addToFriends"
+msgstr "Tilføj denne spiller til vennelisten"
+
+msgid "rating/messages/addToIgnor"
+msgstr "Tilføj spiller til din sorte liste"
+
+msgid "rating/messages/createPrivate"
+msgstr "Opret privat kanal"
+
+msgid "rating/messages/dropFromFriends"
+msgstr "Fjern denne spiller fra Vennelisten"
+
+msgid "rating/messages/dropFromIgnor"
+msgstr "Fjern spiller fra den sorte liste"
+
+msgid "rating/messages/userInfo"
+msgstr "Vis spillerens detaljer"
+
+msgid "rating/table/headers/c1"
+msgstr "Nr."
+
+msgid "rating/table/headers/c2"
+msgstr "Spillernavn"
+
+msgid "rating/table/headers/c3"
+msgstr "Kampe deltaget i"
+
+msgid "rating/table/headers/c4"
+msgstr "Xp"
+
+msgid "rating/table/headers/c5"
+msgstr "Køretøjer tilintetgjort"
+
+msgid "rating/table/headers/c6"
+msgstr "Ødelagt"
+
+msgid "rating/title"
+msgstr "Rangering"
+
+msgid "repair/button"
+msgstr "Reparér"
+
+msgid "repair/curiency"
+msgstr "credits"
+
+msgid "repair/repairstatus"
+msgstr "Reparationer:"
+
+msgid "report_content"
+msgstr "Rapporter indhold"
+
+msgid "research/labels/button/addToCompare"
+msgstr "Tilføj til sammenligning"
+
+msgid "research/labels/button/buy"
+msgstr "Køb"
+
+msgid "research/labels/button/nationChange"
+msgstr "Skift nation"
+
+msgid "research/labels/button/rent"
+msgstr "Leje fra"
+
+msgid "research/labels/button/restore"
+msgstr "Genopret"
+
+msgid "research/labels/button/showInHangar"
+msgstr "Vis i garagen"
+
+msgid "research/labels/button/toCollection"
+msgstr "Til samling"
+
+msgid "research/labels/button/trade-in"
+msgstr "Bytte"
+
+msgid "research/labels/button/vehiclePreview"
+msgstr "Preview"
+
+msgid "research/labels/freeXP"
+msgstr "Fri xp"
+
+msgid "research/labels/totalXP"
+msgstr "Samlet xp"
+
+msgid "research/labels/vehXP"
+msgstr "Kamp xp"
+
+msgid "research/premium/benefits/first"
+msgstr "Flere credits for hver kamp"
+
+msgid "research/premium/benefits/fourth"
+msgstr "Konvertering af kamp xp til fri xp fra den første kamp"
+
+msgid "research/premium/benefits/second"
+msgstr "Mere kamp xp og mandskabs xp for hver kamp"
+
+msgid "research/premium/benefits/third"
+msgstr "Accelereret mandskabstræning og overførsel af mandskab uden straf"
+
+msgid "research/premium/discount"
+msgstr "Rabat på køb:"
+
+msgid "research/restore/commmonInfo"
+msgstr "Genopretning tilgængelig"
+
+msgid "research/restore/dueDate"
+msgstr "indtil %(date)s"
+
+msgid "research/status/historicalModules"
+msgstr "Køretøjet har historisk bestykning."
+
+msgid "research/status/rentLeft"
+msgstr "Leje indtil"
+
+msgid "research/status/tradeIn"
+msgstr "Tilgængelig for bytte"
+
+msgid "roleExp/action/blockAndTakeDamage"
+msgstr "Udveksl hp og bloker skade."
+
+msgid "roleExp/action/blockDamage"
+msgstr "Bloker skade."
+
+msgid "roleExp/action/doFarDamage"
+msgstr "Uddel skade fra distancen."
+
+msgid "roleExp/action/doGroupStun"
+msgstr "Gør to eller flere fjendtlige køretøjer fortumlet i ét skud."
+
+msgid "roleExp/action/doInvisAssist"
+msgstr "Opdag fjendtlige køretøjer og forbliv uopdaget."
+
+msgid "roleExp/action/doNearDamage"
+msgstr "Uddel skade fra tæt hold."
+
+msgid "roleExp/action/doNearDamageSq"
+msgstr "Uddel skade fra tæt hold til mellemdistancen."
+
+msgid "roleExp/action/doOwnDamage"
+msgstr "Uddel skade ved egen opdagelse."
+
+msgid "roleExp/action/doSpgDamage"
+msgstr "Uddel skade til SPG'er."
+
+msgid "roleExp/action/doStun"
+msgstr "Hjælp med at uddele skade ved at gøre fjendtlige køretøjer fortumlede."
+
+msgid "roleExp/action/fragAssist"
+msgstr "Hjælp med at ødelægge fjendtlige køretøjer."
+
+msgid "roleExp/action/searchEnemy"
+msgstr "Opdag fjendtlige køretøjer."
+
+msgid "roleExp/roleDescr/role_ATSPG_assault"
+msgstr "Køretøjer med lav mobilitet, men pålideligt frontpanser. De udviser stor ydeevne, når de kæmper på frontlinjen."
+
+msgid "roleExp/roleDescr/role_ATSPG_sniper"
+msgstr "Køretøjer med svagt panser, men udmærkede kanoner, der bedst bruges i baghold under de fleste kampsituationer."
+
+msgid "roleExp/roleDescr/role_ATSPG_support"
+msgstr "Køretøjer med perfekte kanoner, der kræver opfyldelse af visse betingelser for at kunne bruges på effektiv vis. De kan uddele en stor mængde skade på kort tid."
+
+msgid "roleExp/roleDescr/role_ATSPG_universal"
+msgstr "Kampvognsjægere med gennemsnitlig karakteristika, der er lige effektive på alle afstande."
+
+msgid "roleExp/roleDescr/role_HT_assault"
+msgstr "Tungt pansrede køretøjer, der effektivt kan udveksle hp og stoppe fjendens fremrykning ved at blive tæt på fronten."
+
+msgid "roleExp/roleDescr/role_HT_break"
+msgstr "Køretøjer med god mobilitet og pålideligt panser, der gør dem effektive både i første angrebsbølge i positionskampe på tæt hold, og under flankeringsmanøvrer."
+
+msgid "roleExp/roleDescr/role_HT_support"
+msgstr "Køretøjer med perfekte kanoner, der kræver opfyldelse af visse betingelser for at kunne bruges på effektiv vis. De kan uddele en stor mængde skade på kort tid."
+
+msgid "roleExp/roleDescr/role_HT_universal"
+msgstr "Multirolle-kampvogne, der nemt kan tilpasse sig enhver kampsituation."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Hurtige og manøvredygtige køretøjer, der både kan observere og uddele skade under flankeringsmanøvrer."
+
+msgid "roleExp/roleDescr/role_LT_wheeled"
+msgstr "Køretøjer med fremragende dynamiske karakteristika, hvis effektive brug afhænger af kortet eller den taktiske situation."
+
+msgid "roleExp/roleDescr/role_MT_assault"
+msgstr "Køretøjer med udmærket panser, der gør dem bedst egnet til nærkampe og forsvar mod fjendtlige tunge kampvogne."
+
+msgid "roleExp/roleDescr/role_MT_sniper"
+msgstr "Køretøjer med fremragende kanoner og svagt panser, der er mest effektive på distancen."
+
+msgid "roleExp/roleDescr/role_MT_support"
+msgstr "Køretøjer med perfekte kanoner, der kræver opfyldelse af visse betingelser for at kunne bruges på effektiv vis. De kan uddele en stor mængde skade på kort tid."
+
+msgid "roleExp/roleDescr/role_MT_universal"
+msgstr "Velbalancerede køretøjer, der er i stand til at udføre en bred vifte af kamproller. De kan nemt tilpasse sig det specifikke kort og den taktiske situation."
+
+msgid "roleExp/roleDescr/role_SPG"
+msgstr "Et køretøj, der kan støtte allierede angreb fra distancen. Støttekøretøjers effektivitet afhænger som regel af kampsituationen og holdets handlinger."
+
+msgid "roleExp/roleGroupName/role_ATSPG_assault"
+msgstr "Kampvognsjæger til fremstød"
+
+msgid "roleExp/roleGroupName/role_ATSPG_sniper"
+msgstr "Skarpskytte-kampvognsjæger"
+
+msgid "roleExp/roleGroupName/role_ATSPG_support"
+msgstr "Støtte-kampvognsjæger"
+
+msgid "roleExp/roleGroupName/role_ATSPG_universal"
+msgstr "Fleksibel kampvognsjæger"
+
+msgid "roleExp/roleGroupName/role_HT_assault"
+msgstr "Tung angrebskampvogn"
+
+msgid "roleExp/roleGroupName/role_HT_break"
+msgstr "Tung gennembrudskampvogn"
+
+msgid "roleExp/roleGroupName/role_HT_support"
+msgstr "Tung støttekampvogn"
+
+msgid "roleExp/roleGroupName/role_HT_universal"
+msgstr "Fleksibel tung kampvogn"
+
+msgid "roleExp/roleGroupName/role_LT_universal"
+msgstr "Fleksibel let kampvogn"
+
+msgid "roleExp/roleGroupName/role_LT_wheeled"
+msgstr "Let hjulkøretøj"
+
+msgid "roleExp/roleGroupName/role_MT_assault"
+msgstr "Medium angrebskampvogn"
+
+msgid "roleExp/roleGroupName/role_MT_sniper"
+msgstr "Medium skarpskyttekampvogn"
+
+msgid "roleExp/roleGroupName/role_MT_support"
+msgstr "Medium støttekampvogn"
+
+msgid "roleExp/roleGroupName/role_MT_universal"
+msgstr "Fleksibel medium kampvogn"
+
+msgid "roleExp/roleGroupName/role_SPG"
+msgstr " "
+
+msgid "roleExp/roleLabel"
+msgstr "Rolle:"
+
+msgid "roleExp/roleName/role_ATSPG_assault"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_ATSPG_sniper"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_ATSPG_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_ATSPG_universal"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_HT_assault"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_HT_break"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_HT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_HT_universal"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_wheeled"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_MT_assault"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_MT_sniper"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_MT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_MT_universal"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_SPG"
+msgstr "SPG %(groupName)s"
+
+msgid "screenshot/save"
+msgstr "Screenshot gemt i folderen %(path)s"
+
+msgid "serverStats/arenasCount"
+msgstr "Slag:"
+
+msgid "serverStats/playersCount"
+msgstr "Spillere:"
+
+msgid "serverStats/playersInArenaCount"
+msgstr "I kamp:"
+
+msgid "shell/caliber/units"
+msgstr "mm"
+
+msgid "shop/actions/filter/label"
+msgstr "Vis alle særtilbud"
+
+msgid "shop/errors/centerIsDown"
+msgstr "Midlertidigt utilgængelig"
+
+msgid "shop/errors/inHangar"
+msgstr "I garagen"
+
+msgid "shop/errors/lockedNation"
+msgstr "Utilgængelig"
+
+msgid "shop/errors/unlockNeeded"
+msgstr "Ikke udforsket"
+
+msgid "shop/header/equipment/myVehicle"
+msgstr "Forbrugsvarer til %(vehicle)s:"
+
+msgid "shop/header/equipment/myVehicles"
+msgstr "Forbrugsvarer til mine køretøjer%(nation)s:"
+
+msgid "shop/header/equipment/otherVehicles"
+msgstr "Forbrugsvarer%(nation)s:"
+
+msgid "shop/header/module/myVehicle"
+msgstr "%(type)s til %(vehicle)s:"
+
+msgid "shop/header/module/myVehicles"
+msgstr "%(type)s for mine køretøjer%(nation)s:"
+
+msgid "shop/header/module/otherVehicles"
+msgstr "%(type)s%(nation)s:"
+
+msgid "shop/header/optionalDevice/myVehicle"
+msgstr "Udstyr til %(vehicle)s:"
+
+msgid "shop/header/optionalDevice/myVehicles"
+msgstr "Udstyr til mine køretøjer%(nation)s:"
+
+msgid "shop/header/optionalDevice/otherVehicles"
+msgstr "Udstyr%(nation)s:"
+
+msgid "shop/header/shell/myInventoryGuns"
+msgstr "Granater til mine kanoner i Depot%(nation)s:"
+
+msgid "shop/header/shell/myVehicleGun"
+msgstr "Granater til den nuværende kanon på %(vehicle)s:"
+
+msgid "shop/header/shell/myVehiclesInventoryGuns"
+msgstr "Granater til alle mine kanoner%(nation)s:"
+
+msgid "shop/header/shell/otherGuns"
+msgstr "Granater til alle guns%(nation)s:"
+
+msgid "shop/header/vehicle"
+msgstr "Alle %(type)s%(nation)s:"
+
+msgid "shop/menu/battleBooster/name"
+msgstr "Direktiver"
+
+msgid "shop/menu/battleBooster/targetType/allKind/name"
+msgstr "Alle"
+
+msgid "shop/menu/battleBooster/targetType/forCrew/name"
+msgstr "For mandskab"
+
+msgid "shop/menu/battleBooster/targetType/forEquipment/name"
+msgstr "For udstyr"
+
+msgid "shop/menu/equipment/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "shop/menu/equipment/fits/myVehicles/name"
+msgstr "Mine køretøjer"
+
+msgid "shop/menu/equipment/fits/name"
+msgstr "Kompatibel med"
+
+msgid "shop/menu/equipment/fits/otherVehicles/name"
+msgstr "Alle køretøjer"
+
+msgid "shop/menu/equipment/name"
+msgstr "Forbrugsvarer"
+
+msgid "shop/menu/module/extra/inHangar/name"
+msgstr "I depot"
+
+msgid "shop/menu/module/extra/locked/name"
+msgstr "Endnu ikke forsket"
+
+msgid "shop/menu/module/extra/name"
+msgstr "Vis"
+
+msgid "shop/menu/module/extra/onVehicle/name"
+msgstr "På køretøjer"
+
+msgid "shop/menu/module/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "shop/menu/module/fits/myVehicles/name"
+msgstr "Mine køretøjer"
+
+msgid "shop/menu/module/fits/name"
+msgstr "Kompatibel med"
+
+msgid "shop/menu/module/fits/otherVehicles/name"
+msgstr "Alle køretøjer"
+
+msgid "shop/menu/module/name"
+msgstr "Moduler"
+
+msgid "shop/menu/module/types/vehicleChassis/name"
+msgstr "Affjedring"
+
+msgid "shop/menu/module/types/vehicleEngine/name"
+msgstr "Motor"
+
+msgid "shop/menu/module/types/vehicleGun/name"
+msgstr "Kanon"
+
+msgid "shop/menu/module/types/vehicleRadio/name"
+msgstr "Radio"
+
+msgid "shop/menu/module/types/vehicleTurret/name"
+msgstr "Tårn"
+
+msgid "shop/menu/optionalDevice/extra/name"
+msgstr "Vis"
+
+msgid "shop/menu/optionalDevice/extra/onVehicle/name"
+msgstr "På køretøjer"
+
+msgid "shop/menu/optionalDevice/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "shop/menu/optionalDevice/fits/myVehicles/name"
+msgstr "Mine køretøjer"
+
+msgid "shop/menu/optionalDevice/fits/name"
+msgstr "Kompatibel med"
+
+msgid "shop/menu/optionalDevice/fits/otherVehicles/name"
+msgstr "Alle køretøjer"
+
+msgid "shop/menu/optionalDevice/name"
+msgstr "Udstyr"
+
+msgid "shop/menu/shell/fits/myInventoryGuns/name"
+msgstr "Kanoner i depotet"
+
+msgid "shop/menu/shell/fits/myVehicleGun/name"
+msgstr "Nuværende kanon på"
+
+msgid "shop/menu/shell/fits/myVehiclesInventoryGuns/name"
+msgstr "Alle mine kanoner"
+
+msgid "shop/menu/shell/fits/name"
+msgstr "Kompatibel med"
+
+msgid "shop/menu/shell/fits/otherGuns/name"
+msgstr "Alle kanoner"
+
+msgid "shop/menu/shell/kinds/ARMOR_PIERCING/name"
+msgstr "Panserbrydende"
+
+msgid "shop/menu/shell/kinds/ARMOR_PIERCING_CR/name"
+msgstr "Panserbrydende Komposit Rigid"
+
+msgid "shop/menu/shell/kinds/ARMOR_PIERCING_HE/name"
+msgstr "Panserbrydende Høj-Eksplosiv"
+
+msgid "shop/menu/shell/kinds/HIGH_EXPLOSIVE/name"
+msgstr "Høj-eksplosiv"
+
+msgid "shop/menu/shell/kinds/HOLLOW_CHARGE/name"
+msgstr "Høj-eksplosiv anti-tank"
+
+msgid "shop/menu/shell/kinds/name"
+msgstr "Granattyper"
+
+msgid "shop/menu/shell/name"
+msgstr "Granater"
+
+msgid "shop/menu/vehicle/extra/inHangar/name"
+msgstr "Køretøjer i garage"
+
+msgid "shop/menu/vehicle/extra/locked/name"
+msgstr "Endnu ikke forskede køretøjer"
+
+msgid "shop/menu/vehicle/extra/name"
+msgstr "Vis"
+
+msgid "shop/menu/vehicle/extra/rentals/name"
+msgstr "Lejede køretøjer"
+
+msgid "shop/menu/vehicle/levels/header"
+msgstr "Niveau"
+
+msgid "shop/menu/vehicle/name"
+msgstr "Køretøjer"
+
+msgid "shop/menu/vehicle/obtainingType/restoreVehicle/name"
+msgstr "Genopret med credits"
+
+msgid "shop/menu/vehicle/obtainingType/tradeInVehicle/name"
+msgstr "Køretøjsbytte"
+
+msgid "shop/menu/vehicle/obtainingType/vehicle/name"
+msgstr "Køb"
+
+msgid "shop/menu/vehicle/rent/available"
+msgstr "Tilgængelig til leje fra %(price)s."
+
+msgid "shop/menu/vehicle/rent/cycle"
+msgstr "Stadie %(cycle)d af %(seasonType)d"
+
+msgid "shop/menu/vehicle/rent/days"
+msgstr "for dage: %(days)d"
+
+msgid "shop/menu/vehicle/rent/discount"
+msgstr "Rabatter op til %(discount)s"
+
+msgid "shop/menu/vehicle/rent/forever"
+msgstr "ubegrænset"
+
+msgid "shop/menu/vehicle/rent/season"
+msgstr "Sæson %(season)d af %(seasonType)d"
+
+msgid "shop/menu/vehicle/restore"
+msgstr "genopret"
+
+msgid "shop/menu/vehicle/tradeInVehicle/price"
+msgstr "Op til %(discountValue)s"
+
+msgid "shop/menu/vehicle/tradeInVehicle/saving"
+msgstr "Du sparer"
+
+msgid "shop/menu/vehicle/tradeInVehicle/vehForTrade"
+msgstr "Tilgængelig for bytte"
+
+msgid "shop/menu/vehicle/type/header"
+msgstr "Køretøjstype"
+
+msgid "shop/table/buttonBuy"
+msgstr "Køb"
+
+msgid "shop/table/buyActionOr"
+msgstr "eller"
+
+msgid "shop/table/find"
+msgstr "Fundet:"
+
+msgid "shop/table/header/compare"
+msgstr "Sammenlign"
+
+msgid "shop/table/header/count/battleBooster"
+msgstr "På køretøj/I depot"
+
+msgid "shop/table/header/count/equipment"
+msgstr "På køretøj/I depot"
+
+msgid "shop/table/header/count/module"
+msgstr "På køretøj/I depot"
+
+msgid "shop/table/header/count/optionalDevice"
+msgstr "På køretøj/I depot"
+
+msgid "shop/table/header/count/shell"
+msgstr "I depot"
+
+msgid "shop/table/header/count/vehicle"
+msgstr "?empty?"
+
+msgid "shop/table/header/price"
+msgstr "Pris"
+
+msgid "shop/table/header/sale"
+msgstr "Rabat"
+
+msgid "shop/table/notForSale"
+msgstr "Ikke til salg"
+
+msgid "specPrebetles/listTitle"
+msgstr "Hold rum"
+
+msgid "specPrebetles/ownerTitle"
+msgstr "Holdets kommandør"
+
+msgid "specPrebetles/playersTitle"
+msgstr "Spillere"
+
+msgid "specPrebetles/title"
+msgstr "Holdkampe"
+
+msgid "steam/cancel"
+msgstr "Fortryd"
+
+msgid "steam/goldPacketSelect"
+msgstr "Vælg guld:"
+
+msgid "steam/otherMethods"
+msgstr "andre betalingsmetoder"
+
+msgid "steam/submit"
+msgstr "Accepter"
+
+msgid "steam/title"
+msgstr "Betal via Steam"
+
+msgid "store/backButton/description"
+msgstr "TIL SÆRTILBUD"
+
+msgid "store/backButton/label"
+msgstr "TILBAGE"
+
+msgid "store/menu/noItems"
+msgstr "Intet fundet.\nTjek venligst de valgte søgefiltre."
+
+msgid "store/vehicleStates/ammoNotFull"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/ammoNotFullEvents"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/battle"
+msgstr "I kamp"
+
+msgid "store/vehicleStates/buySlot"
+msgstr "Køb en plads"
+
+msgid "store/vehicleStates/buyTank"
+msgstr "Køb et køretøj"
+
+msgid "store/vehicleStates/buyTankEmptyCount"
+msgstr "Ledige pladser:"
+
+msgid "store/vehicleStates/clanLocked"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/crewNotFull"
+msgstr "Mandskab ikke komplet"
+
+msgid "store/vehicleStates/damaged"
+msgstr "Reparation nødvendig"
+
+msgid "store/vehicleStates/dealIsOver"
+msgstr "Utilgængelig"
+
+msgid "store/vehicleStates/destroyed"
+msgstr "Reparation nødvendig"
+
+msgid "store/vehicleStates/disabled"
+msgstr "Køretøj låst"
+
+msgid "store/vehicleStates/exploded"
+msgstr "Reparation nødvendig"
+
+msgid "store/vehicleStates/fallout_broken"
+msgstr "Gruppe ikke klar"
+
+msgid "store/vehicleStates/fallout_max"
+msgstr "Gruppe ikke klar"
+
+msgid "store/vehicleStates/fallout_min"
+msgstr "Gruppe ikke klar"
+
+msgid "store/vehicleStates/fallout_only"
+msgstr " "
+
+msgid "store/vehicleStates/fallout_required"
+msgstr "Gruppe ikke klar"
+
+msgid "store/vehicleStates/group_is_not_ready"
+msgstr "Gruppe ikke klar"
+
+msgid "store/vehicleStates/igrRentalIsOver"
+msgstr "Event afsluttet"
+
+msgid "store/vehicleStates/inPrebattle"
+msgstr "I taktisk enhed"
+
+msgid "store/vehicleStates/inPremiumIgrOnly"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/locked"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/notpresent"
+msgstr "Du skal\nkøbe et køretøj"
+
+msgid "store/vehicleStates/rentable"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/rentable/epic"
+msgstr "Kun til frontlinje kamptypen"
+
+msgid "store/vehicleStates/rentable/ranked"
+msgstr "Kun til rangerede kampe kamptypen"
+
+msgid "store/vehicleStates/rentableAgain"
+msgstr "Forlæng leje"
+
+msgid "store/vehicleStates/rentableAgain/epic"
+msgstr "Forlæng leje"
+
+msgid "store/vehicleStates/rentableAgain/ranked"
+msgstr "Forlæng leje"
+
+msgid "store/vehicleStates/rentalIsOver"
+msgstr "Lejeperiode udløbet"
+
+msgid "store/vehicleStates/rented/epic"
+msgstr "Leje for stadie %(cycles)s"
+
+msgid "store/vehicleStates/rotationGroupLocked"
+msgstr "Utilgængelig"
+
+msgid "store/vehicleStates/serverRestriction"
+msgstr "Servergrænse"
+
+msgid "store/vehicleStates/undamaged"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/unsuitableToQueue"
+msgstr "Ikke egnet"
+
+msgid "store/vehicleStates/willBeUnlockedInBattle"
+msgstr "?empty?"
+
+msgid "storeTab/actions"
+msgstr "Særtilbud"
+
+msgid "storeTab/inventory"
+msgstr "Depot"
+
+msgid "storeTab/shop"
+msgstr "Butik"
+
+msgid "tankCarousel/statsStatus/unavailable"
+msgstr "Ingen data"
+
+msgid "tankCarousel/vehicleStates/ammoNotFull"
+msgstr "Ammunition mangelfuld"
+
+msgid "tankCarousel/vehicleStates/ammoNotFullEvents"
+msgstr "Ammunition mangelfuld"
+
+msgid "tankCarousel/vehicleStates/battle"
+msgstr "I kamp"
+
+msgid "tankCarousel/vehicleStates/buySlot"
+msgstr "Køb en plads"
+
+msgid "tankCarousel/vehicleStates/buyTank"
+msgstr "Køb køretøj"
+
+msgid "tankCarousel/vehicleStates/buyTankEmptyCount"
+msgstr "Ledige pladser: %(count)d"
+
+msgid "tankCarousel/vehicleStates/clanLocked"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/crewNotFull"
+msgstr "Mandskab ikke komplet"
+
+msgid "tankCarousel/vehicleStates/damaged"
+msgstr "Reparation nødvendig"
+
+msgid "tankCarousel/vehicleStates/dealIsOver"
+msgstr "Utilgængelig"
+
+msgid "tankCarousel/vehicleStates/destroyed"
+msgstr "Reparation nødvendig"
+
+msgid "tankCarousel/vehicleStates/disabled"
+msgstr "Køretøj låst"
+
+msgid "tankCarousel/vehicleStates/exploded"
+msgstr "Reparation nødvendig"
+
+msgid "tankCarousel/vehicleStates/fallout_broken"
+msgstr "Gruppe ikke klar"
+
+msgid "tankCarousel/vehicleStates/fallout_max"
+msgstr "Gruppe ikke klar"
+
+msgid "tankCarousel/vehicleStates/fallout_min"
+msgstr "Gruppe ikke klar"
+
+msgid "tankCarousel/vehicleStates/fallout_only"
+msgstr "Ikke egnet"
+
+msgid "tankCarousel/vehicleStates/fallout_required"
+msgstr "Gruppe ikke klar"
+
+msgid "tankCarousel/vehicleStates/group_is_not_ready"
+msgstr "Gruppe ikke klar"
+
+msgid "tankCarousel/vehicleStates/igrRentalIsOver"
+msgstr "Event afsluttet"
+
+msgid "tankCarousel/vehicleStates/inPrebattle"
+msgstr "I taktisk enhed"
+
+msgid "tankCarousel/vehicleStates/inPremiumIgrOnly"
+msgstr "Kun tilgængelig i %(icon)s"
+
+msgid "tankCarousel/vehicleStates/locked"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/notpresent"
+msgstr "Ikke i garagen"
+
+msgid "tankCarousel/vehicleStates/rentable"
+msgstr "Køretøjsleje tilgængelig"
+
+msgid "tankCarousel/vehicleStates/rentable/epic"
+msgstr "Kun til frontlinje kamptypen"
+
+msgid "tankCarousel/vehicleStates/rentable/hover"
+msgstr "Lej"
+
+msgid "tankCarousel/vehicleStates/rentable/ranked"
+msgstr "Kun til rangerede kampe kamptypen"
+
+msgid "tankCarousel/vehicleStates/rentableAgain/epic"
+msgstr "Forlæng leje"
+
+msgid "tankCarousel/vehicleStates/rentableAgain/ranked"
+msgstr "Forlæng leje"
+
+msgid "tankCarousel/vehicleStates/rentalIsOver"
+msgstr "Lejeperiode udløbet"
+
+msgid "tankCarousel/vehicleStates/restoreTank"
+msgstr "Genopret køretøj"
+
+msgid "tankCarousel/vehicleStates/restoreTankCount"
+msgstr "Tilgængelig: %(count)d"
+
+msgid "tankCarousel/vehicleStates/rotationGroupLocked"
+msgstr "Utilgængelig"
+
+msgid "tankCarousel/vehicleStates/rotationGroupUnlocked"
+msgstr "Tilgængelige kampe: %(battlesLeft)s"
+
+msgid "tankCarousel/vehicleStates/serverRestriction"
+msgstr "Servergrænse"
+
+msgid "tankCarousel/vehicleStates/subscription_suspended"
+msgstr "Suspenderet"
+
+msgid "tankCarousel/vehicleStates/unavailable"
+msgstr "Utilgængelig"
+
+msgid "tankCarousel/vehicleStates/undamaged"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/unsuitableToQueue"
+msgstr "Uegnet kamptype"
+
+msgid "tankCarousel/vehicleStates/unsuitableToUnit"
+msgstr "Ikke egnet til delingen"
+
+msgid "tankCarousel/vehicleStates/willBeUnlockedInBattle"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/wot_plus_exclusive_vehicle_disabled"
+msgstr "Suspenderet"
+
+msgid "tankCarousel/vehicleStates/xpMultReceived"
+msgstr "Modtag x%(factor)s"
+
+msgid "tankCarousel/vehicleStates/xpMultReceived/not"
+msgstr "x%(factor)s afhentet"
+
+msgid "tankCarousel/wotPlusSelectionAvailable"
+msgstr "Lej et køretøj"
+
+msgid "tankCarousel/wotPlusSelectionPending"
+msgstr "Leje afventer"
+
+msgid "tank_params/accuracyDispersionCap"
+msgstr "Spredning ved maksimalt præcisionsniveau"
+
+msgid "tank_params/accuracyDispersionPerLevel"
+msgstr "Spredning ved 100 m per præcisionsniveau"
+
+msgid "tank_params/accuracyLevelGainTime"
+msgstr "Tid til at opnå præcisionsniveau"
+
+msgid "tank_params/accuracySpeedLimit"
+msgstr "Hastighedsgrænse"
+
+msgid "tank_params/accuracyWhileMovingDispersionCap"
+msgstr "Spredning ved bevægelse/rotation ved maksimalt præcisionsniveau"
+
+msgid "tank_params/activeCoincideceShootingCharge"
+msgstr "Elektromekanisk sammenfaldssigte, ladning (% per træffer) (kamptilstand, aktivt)"
+
+msgid "tank_params/aimingTime"
+msgstr "Sigtetid"
+
+msgid "tank_params/aimingTimeCoincidenceElectromechanicalSight"
+msgstr "Sigtetid (s) (elektromekanisk sammenfaldssigte)"
+
+msgid "tank_params/aimingTimeTurbo"
+msgstr "Sigtetid (s) (turbo-tilstand)"
+
+msgid "tank_params/attainableSpeed"
+msgstr "Hastighed efter 5 sekunders acceleration"
+
+msgid "tank_params/autoReloadTime"
+msgstr "Tid for at autogenlade en granat"
+
+msgid "tank_params/autoShootClipFireRate"
+msgstr "Lad"
+
+msgid "tank_params/autoShootClipSec"
+msgstr "(magasin/kvantitet)"
+
+msgid "tank_params/avgDamage"
+msgstr "Gennemsnitlig skade"
+
+msgid "tank_params/avgDamagePerMinute"
+msgstr "Gennemsnitlig skade per minut"
+
+msgid "tank_params/avgDamagePerSecond"
+msgstr "Skade per sekund"
+
+msgid "tank_params/avgPiercingPower"
+msgstr "Gennemsnitlig gennembrydning"
+
+msgid "tank_params/boosterCoolingTime"
+msgstr "Booster, nedkølingstid"
+
+msgid "tank_params/boosterDuration"
+msgstr "Booster, varighed"
+
+msgid "tank_params/burstFireRate"
+msgstr "Granathylster"
+
+msgid "tank_params/burstSec"
+msgstr "(s/antal/antal)"
+
+msgid "tank_params/chargeTime"
+msgstr "Salveforberedelse"
+
+msgid "tank_params/chargeableBurstDispersion"
+msgstr "Andet skuds spredning ved 100 m"
+
+msgid "tank_params/chargeableBurstPenetrationCount"
+msgstr "Gennembrydninger til at aktivere tilstanden"
+
+msgid "tank_params/chargeableBurstReload"
+msgstr "Ladning af burst-tilstand"
+
+msgid "tank_params/chargeableBurstSize"
+msgstr "Granater i kassette"
+
+msgid "tank_params/chassisModuleRotationSpeed"
+msgstr "Drejehastighed"
+
+msgid "tank_params/chassisRepairTime"
+msgstr "Reparationstid på affjedringen"
+
+msgid "tank_params/chassisRepairTimeYoh"
+msgstr "Reparationstid på affjedringen"
+
+msgid "tank_params/chassisRotationSpeed"
+msgstr "Drejehastighed"
+
+msgid "tank_params/circularVisionRadius"
+msgstr "Synsrækkevidde"
+
+msgid "tank_params/clipFireRate"
+msgstr "Lad"
+
+msgid "tank_params/clipSec"
+msgstr "(magasin/granat eller hylster/kvantitet)"
+
+msgid "tank_params/cnt"
+msgstr "(enhed(er))"
+
+msgid "tank_params/coincidenceElectromechanicalSightDuration"
+msgstr "Elektromekanisk sammenfaldssigte, varighed"
+
+msgid "tank_params/concentrationModeCooldown"
+msgstr "Cooldown"
+
+msgid "tank_params/concentrationModeDuration"
+msgstr "Varighed"
+
+msgid "tank_params/continuousShotsPerMinute"
+msgstr "Skudkadence på vedvarende skud"
+
+msgid "tank_params/coolingDelay"
+msgstr "Kølingsforsinkelse"
+
+msgid "tank_params/coolingTime"
+msgstr "Nedkølingstid ved fuld opvarmning"
+
+msgid "tank_params/damage"
+msgstr "Standard skade per granat"
+
+msgid "tank_params/designatorCooldownS"
+msgstr "Cooldown"
+
+msgid "tank_params/designatorInitialCooldownS"
+msgstr "Første cooldown"
+
+msgid "tank_params/designatorMarkDurationS"
+msgstr "Markering, varighed"
+
+msgid "tank_params/designatorMarkedEnemiesAdditionalDamage"
+msgstr "Yderligere skade til markerede fjender"
+
+msgid "tank_params/dispersionAt100mCoincidenceElectromechanicalSight"
+msgstr "Spredning ved 100 m (%) (elektromekanisk sammenfaldssigte)"
+
+msgid "tank_params/dualAccuracyCoolingDelay"
+msgstr "Kanonens nedkølingstid"
+
+msgid "tank_params/enginePower"
+msgstr "Motorkraft"
+
+msgid "tank_params/enginePowerPerTon"
+msgstr "Specifik kraft"
+
+msgid "tank_params/enginePowerWithBoosters"
+msgstr "Motorkraft (med boostere)"
+
+msgid "tank_params/engineTurboPowerCap"
+msgstr "Motorkraft (hk) (turbo-tilstand)"
+
+msgid "tank_params/explosionRadius"
+msgstr "Skaderadius"
+
+msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
+msgstr "Kanonens nedkølingstid efter skud"
+
+msgid "tank_params/extraRepairSpeed"
+msgstr "til reparationshastighed"
+
+msgid "tank_params/extraShotClipReloadTime"
+msgstr "Straf til ladetid"
+
+msgid "tank_params/faceFrontBoardInMM"
+msgstr "(front/side/bag mm)"
+
+msgid "tank_params/factor"
+msgstr "(%)"
+
+msgid "tank_params/forwardMaxSpeed"
+msgstr "Tophastighed"
+
+msgid "tank_params/furyMaxReloadEffAvgDpm"
+msgstr "Gennemsnitligt DPM ved maksimalt lade-effektivitetsniveau"
+
+msgid "tank_params/furyMaxReloadEfficiencyLevel"
+msgstr "Maksimalt lade-effektivitetsniveau"
+
+msgid "tank_params/furyReloadEfficiencyLevelDuration"
+msgstr "Varighed af lade-effektivitetsniveau"
+
+msgid "tank_params/furyReloadEfficiencyLevelPerDestruction"
+msgstr "Lade-effektivitetsniveau per ødelagt køretøj"
+
+msgid "tank_params/furyReloadEfficiencyLevelPerHit"
+msgstr "Lade-effektivitetsniveau per træffer"
+
+msgid "tank_params/furyReloadSpeedBonusPerEfficiencyLevel"
+msgstr "Ladebonus per effektivitetsniveau"
+
+msgid "tank_params/gps"
+msgstr "(grader/s)"
+
+msgid "tank_params/grads"
+msgstr "(grad)"
+
+msgid "tank_params/gunModuleAvgDamageList"
+msgstr "Gennemsnitlig skade"
+
+msgid "tank_params/gunTraverseDispersionTurbo"
+msgstr "Spredning ved bevægelse af kanonen (%) (turbo-tilstand)"
+
+msgid "tank_params/gunYawLimits"
+msgstr "Kanonens drejegrænser"
+
+msgid "tank_params/h"
+msgstr "(skud)"
+
+msgid "tank_params/heatAvgDmgPerLvl"
+msgstr "Gennemsnitlig skade per varme-niveau"
+
+msgid "tank_params/heatChargeOverheatDuration"
+msgstr "Ladningens overophedning, varighed"
+
+msgid "tank_params/heatTimeBeforeOverheat"
+msgstr "Tid før ladningen overopheder"
+
+msgid "tank_params/heatTimeToReachLevel"
+msgstr "Tid til at nå varme-niveau"
+
+msgid "tank_params/heatingPerShot"
+msgstr "Varme per skud"
+
+msgid "tank_params/hullArmor"
+msgstr "Pansring på skroget"
+
+msgid "tank_params/hullTraverseDispersionTurbo"
+msgstr "Spredning ved rotation af skroget (%) (turbo-tilstand)"
+
+msgid "tank_params/improvedDamageEnemiesByRamming"
+msgstr "Uddelt skade ved påkørsel"
+
+msgid "tank_params/improvedDamageEnemiesChassisByRamming"
+msgstr "Uddelt skade til affjedring ved påkørsel"
+
+msgid "tank_params/increaseHealth"
+msgstr "Øget holdbarhed"
+
+msgid "tank_params/invisibilityMovingFactor"
+msgstr "Køretøj i bevægelse (%)"
+
+msgid "tank_params/invisibilityStillFactor"
+msgstr "Stationært køretøj (%)"
+
+msgid "tank_params/ionAfterburnerActiveTurboCharge"
+msgstr "Ion-udladning ved efterbrænding, ladning (% per s) (turbo-tilstand, aktiv)"
+
+msgid "tank_params/ionAfterburnerDuration"
+msgstr "Ion-udladning ved efterbrænding, varighed"
+
+msgid "tank_params/ionAfterburnerDurationEnginePower"
+msgstr "Motorkraft (hk) (ion-udladning ved efterbrænding)"
+
+msgid "tank_params/ionAfterburnerDurationSpeedCap"
+msgstr "Tophastighed/Bakhastighed (km/t) (ion-udladning ved efterbrænding)"
+
+msgid "tank_params/ionAfterburnerPassiveTurboCharge"
+msgstr "Ion-udladning ved efterbrænding, ladning (% per s) (turbo-tilstand, passiv)"
+
+msgid "tank_params/kg"
+msgstr "(kg)"
+
+msgid "tank_params/lowChargeShotAvgDamage"
+msgstr "Gennemsnitlig skade (hp)"
+
+msgid "tank_params/lowChargeShotBlockDuration"
+msgstr "Varighed af skudlåsning (s)"
+
+msgid "tank_params/lowChargeShotDispertion"
+msgstr "Spredning ved 100 m (m)"
+
+msgid "tank_params/lowChargeShotPenetration"
+msgstr "Gennemsnitlig gennembrydning (mm)"
+
+msgid "tank_params/lowChargeShotRateOfFire"
+msgstr "Skudkadence (skud/min)"
+
+msgid "tank_params/lowChargeShotVelocity"
+msgstr "Mundingshastighed (m/s)"
+
+msgid "tank_params/m"
+msgstr "(m)"
+
+msgid "tank_params/maxAccuracyLevel"
+msgstr "Maksimalt præcisionsniveau"
+
+msgid "tank_params/maxAmmo"
+msgstr "Ammunition"
+
+msgid "tank_params/maxHealth"
+msgstr "Hp"
+
+msgid "tank_params/maxSteeringLockAngle"
+msgstr "Maksimal drejevinkel på hjul"
+
+msgid "tank_params/mm"
+msgstr "(mm)"
+
+msgid "tank_params/movementTraverseDispersionTurbo"
+msgstr "Spredning ved bevægelse (%) (turbo-tilstand)"
+
+msgid "tank_params/mph"
+msgstr "(km/t)"
+
+msgid "tank_params/mps"
+msgstr "(m/s)"
+
+msgid "tank_params/no_brackets/kg"
+msgstr "kg"
+
+msgid "tank_params/no_brackets/mm"
+msgstr "mm"
+
+msgid "tank_params/no_brackets/s"
+msgstr "s"
+
+msgid "tank_params/overheatDuration"
+msgstr "Nedkølingstid ved overophedning"
+
+msgid "tank_params/p"
+msgstr "(hp)"
+
+msgid "tank_params/param12"
+msgstr "Evne til at krydse terræn"
+
+msgid "tank_params/passiveCoincideceShootingCharge"
+msgstr "Elektromekanisk sammenfaldssigte, ladning (% per s) (kamptilstand, passiv)"
+
+msgid "tank_params/penetrationLoss"
+msgstr "(%/100 mm)"
+
+msgid "tank_params/perActivation"
+msgstr "(per aktivering)"
+
+msgid "tank_params/percent"
+msgstr " "
+
+msgid "tank_params/percent_per_s"
+msgstr "(%/s)"
+
+msgid "tank_params/piercingPower"
+msgstr "Standard gennembrydning per granat"
+
+msgid "tank_params/pillboxHorizontalRotationSpeed"
+msgstr "Horisontal drejehastighed"
+
+msgid "tank_params/pillboxSwitchOffTime"
+msgstr "Skifter til rejsetilstand"
+
+msgid "tank_params/pillboxSwitchOnTime"
+msgstr "Skifter til bunkertilstand"
+
+msgid "tank_params/pillboxVerticalRotationSpeed"
+msgstr "Vertikal rotationshastighed"
+
+msgid "tank_params/pitchLimits"
+msgstr "Kanonens depression/elevations vinkel"
+
+msgid "tank_params/powerModeDuration"
+msgstr "Maksimal præstation"
+
+msgid "tank_params/powerModeThreshold"
+msgstr "Tilstand aktiveret"
+
+msgid "tank_params/preheatDispersionCap"
+msgstr "Spredning ved fuld forvarme"
+
+msgid "tank_params/preheatDmgCap"
+msgstr "Gennemsnitlig skade ved fuld forvarme"
+
+msgid "tank_params/preheatSpeedLimit"
+msgstr "Hastighedsgrænse"
+
+msgid "tank_params/preheatTimeToFull"
+msgstr "Tid til fuld forvarme"
+
+msgid "tank_params/preheatTimeToZero"
+msgstr "Tid til ingen forvarme"
+
+msgid "tank_params/preheatTransitionDelay"
+msgstr "Overgangsforsinkelse ved forvarme"
+
+msgid "tank_params/propellantChargeLimit"
+msgstr "Ladningsgrænse"
+
+msgid "tank_params/propellantChargeSpendingAfterShot"
+msgstr "Ladning brugt per skud"
+
+msgid "tank_params/propellantChargingPerSec"
+msgstr "Akkumulationshastighed af ladning"
+
+msgid "tank_params/propellantDischargingPerSec"
+msgstr "Tabshastighed af ladning"
+
+msgid "tank_params/propellantOverchargeSwitchCooldown"
+msgstr "Cooldown på aktivering af begrænser"
+
+msgid "tank_params/propellantPostLimitAimingTime"
+msgstr "Sigtetid over grænsen"
+
+msgid "tank_params/propellantPostLimitDamageBonus"
+msgstr "Maksimal skadebonus over grænsen"
+
+msgid "tank_params/propellantPostLimitDamageSpike"
+msgstr "Skadeboost over grænsen"
+
+msgid "tank_params/propellantPostLimitDispersion"
+msgstr "Spredning over grænsen ved 100 m"
+
+msgid "tank_params/propellantPreLimitDamageBonus"
+msgstr "Maksimal skadebonus under grænsen"
+
+msgid "tank_params/pt"
+msgstr "(hk/t)"
+
+msgid "tank_params/qpt"
+msgstr "(antal/varighed)"
+
+msgid "tank_params/quantity"
+msgstr "(kvantitet)"
+
+msgid "tank_params/radarCooldown"
+msgstr "Cooldown på radioopdagelse"
+
+msgid "tank_params/radarRadius"
+msgstr "Opdagelsesrækkevidde"
+
+msgid "tank_params/radioDistance"
+msgstr "Signalrækkevidde"
+
+msgid "tank_params/reactivationDelay"
+msgstr "Forsinkelse ved reaktivering"
+
+msgid "tank_params/reactivationLimit"
+msgstr "Grænse for reaktivering"
+
+msgid "tank_params/relativeArmor"
+msgstr "Overlevelsesevne"
+
+msgid "tank_params/relativeCamouflage"
+msgstr "Sløring"
+
+msgid "tank_params/relativeMobility"
+msgstr "Mobilitet"
+
+msgid "tank_params/relativePower"
+msgstr "Ildkraft"
+
+msgid "tank_params/relativeVisibility"
+msgstr "Observerer"
+
+msgid "tank_params/reloadTime"
+msgstr "Skudhastighed"
+
+msgid "tank_params/reloadTimeCoincidence"
+msgstr "Ladetid (%) (elektromekanisk sammenfaldssigte)"
+
+msgid "tank_params/reloadTimeSecs"
+msgstr "Kanonens ladning"
+
+msgid "tank_params/reverseSpeedReductionWithBoosters"
+msgstr "Bakhastighedsreduktion (med boostere)"
+
+msgid "tank_params/rocketAccelerationEnginePower"
+msgstr "Motorkraft (med boostere)"
+
+msgid "tank_params/rocketAccelerationReuseAndDuration"
+msgstr "Jet-boostere"
+
+msgid "tank_params/rocketAccelerationSpeedLimits"
+msgstr "Tophastighed / Bakhastighed (med boostere)"
+
+msgid "tank_params/s"
+msgstr "(s)"
+
+msgid "tank_params/secondaryAvgDamage"
+msgstr "Gennemsnitlig skade per granat"
+
+msgid "tank_params/secondaryAvgPiercingPower"
+msgstr "Gennemsnitlig gennembrydning"
+
+msgid "tank_params/secondaryReloadTimeSecs"
+msgstr "Ladning af sekundær bevæbning"
+
+msgid "tank_params/secondaryTotalBurstSize"
+msgstr "Granater til sekundær bevæbning"
+
+msgid "tank_params/shellLoadingTime"
+msgstr "Ladning af ammunitionsbælte"
+
+msgid "tank_params/shortened/avgPiercingPower"
+msgstr "Gennembrydning:"
+
+msgid "tank_params/shotDispersionAngle"
+msgstr "Spredning ved 100 m"
+
+msgid "tank_params/shotSpeed"
+msgstr "Mundingshastighed"
+
+msgid "tank_params/speedLimits"
+msgstr "Tophastighed/Bakhastighed"
+
+msgid "tank_params/spm"
+msgstr "(skud/min)"
+
+msgid "tank_params/sqm"
+msgstr "(m²)"
+
+msgid "tank_params/stagedJetBoostersChargeDuration"
+msgstr "Boostvarighed (s)"
+
+msgid "tank_params/stagedJetBoostersChargesCount"
+msgstr "Antal boost tilgængelige"
+
+msgid "tank_params/stagedJetBoostersCooldownTime"
+msgstr "Nedkøling af raket-booster (s)"
+
+msgid "tank_params/stagedJetBoostersEnginePower"
+msgstr "Motorkraft (med boostere) (hk)"
+
+msgid "tank_params/stagedJetBoostersRotationSpeed"
+msgstr "Drejehastighed (med boostere) (grader/s)"
+
+msgid "tank_params/stagedJetBoostersSpeedLimits"
+msgstr "Bakhastighed (med boostere) (km/t)"
+
+msgid "tank_params/stagedJetBoostersTopSpeed"
+msgstr "Tophastighed (med boostere) (km/t)"
+
+msgid "tank_params/stationaryReloadSwitchOffTime"
+msgstr "Afbrydelse af ladning"
+
+msgid "tank_params/stationaryReloadSwitchOnTime"
+msgstr "Aktivering af ladning"
+
+msgid "tank_params/stunDurationList"
+msgstr "Fortumlet periode"
+
+msgid "tank_params/stunMaxDuration"
+msgstr "Maksimal fortumlet periode"
+
+msgid "tank_params/stunMinDuration"
+msgstr "Minimum fortumlet periode"
+
+msgid "tank_params/switchEngineModeBothModes"
+msgstr "Tid for at skifte motortilstand"
+
+msgid "tank_params/switchOffTime"
+msgstr "Skifter til rejsetilstand"
+
+msgid "tank_params/switchOnTime"
+msgstr "Skifter til belejringstilstand"
+
+msgid "tank_params/switchTime"
+msgstr "Skifter til belejrings / rejsetilstand"
+
+msgid "tank_params/t"
+msgstr "(t)"
+
+msgid "tank_params/temperatureAvgDamagePerMinute"
+msgstr "Gennemsnitlig skade per minut"
+
+msgid "tank_params/temperatureReloadTime"
+msgstr "Skudkadence"
+
+msgid "tank_params/timeOfReaching"
+msgstr "Tid for at bevæge sig 100m"
+
+msgid "tank_params/timeToOverheat"
+msgstr "Vedvarende skydning før overophedning"
+
+msgid "tank_params/topSpeedWithBoosters"
+msgstr "Tophastighed (med boostere)"
+
+msgid "tank_params/traverseSpeedReductionWithBoosters"
+msgstr "Drejehastighedsreduktion (med boostere)"
+
+msgid "tank_params/turboSpeedCap"
+msgstr "Tophastighed/Bakhastighed (km/t) (turbo-tilstand)"
+
+msgid "tank_params/turboshaftBurstFireRate"
+msgstr "Granathylster (turbo)"
+
+msgid "tank_params/turboshaftEnginePower"
+msgstr "Motorkraft (turbo)"
+
+msgid "tank_params/turboshaftInvisibilityMovingFactor"
+msgstr "Køretøj i bevægelse (turbo) (%)"
+
+msgid "tank_params/turboshaftInvisibilityStillFactor"
+msgstr "Stationært køretøj (turbo) (%)"
+
+msgid "tank_params/turboshaftSpeedModeSpeed"
+msgstr "Tophastighed/Bakhastighed (turbo)"
+
+msgid "tank_params/turboshaftSwitchTime"
+msgstr "Tid for at skifte motortilstand"
+
+msgid "tank_params/turretArmor"
+msgstr "Tårnpanser"
+
+msgid "tank_params/turretModuleRotationSpeed"
+msgstr "Tårnets drejehastighed"
+
+msgid "tank_params/turretRotationSpeed"
+msgstr "Kanonens drejehastighed"
+
+msgid "tank_params/turretYawLimits"
+msgstr "Tårnets drejevinkler"
+
+msgid "tank_params/twinGunReloadTime"
+msgstr "Ladning af kanon (enkeltskud/salveskydning)"
+
+msgid "tank_params/twinGunSwitchFireModeTime"
+msgstr "Tid til skift af skudtilstand"
+
+msgid "tank_params/twinGunTopSpeed"
+msgstr "Tophastighed/bakhastighed (salveskydning)"
+
+msgid "tank_params/val"
+msgstr "(hp)"
+
+msgid "tank_params/values/param10/value0"
+msgstr "perfekt"
+
+msgid "tank_params/values/param10/value1"
+msgstr "god"
+
+msgid "tank_params/values/param10/value2"
+msgstr "okay"
+
+msgid "tank_params/values/param10/value3"
+msgstr "dårlig"
+
+msgid "tank_params/values/param11/value0"
+msgstr "perfekt"
+
+msgid "tank_params/values/param11/value1"
+msgstr "god"
+
+msgid "tank_params/values/param11/value2"
+msgstr "okay"
+
+msgid "tank_params/values/param11/value3"
+msgstr "dårlig"
+
+msgid "tank_params/values/param12/value0"
+msgstr "perfekt"
+
+msgid "tank_params/values/param12/value1"
+msgstr "god"
+
+msgid "tank_params/values/param12/value2"
+msgstr "okay"
+
+msgid "tank_params/values/param12/value3"
+msgstr "dårlig"
+
+msgid "tank_params/vehicleWeight"
+msgstr "Vægt"
+
+msgid "tank_params/vpm"
+msgstr "(HP/min)"
+
+msgid "tank_params/vps"
+msgstr "(hp/s)"
+
+msgid "tank_params/wheeledDashAbilityDuration"
+msgstr "Varighed (s)"
+
+msgid "tank_params/wheeledDashAbilityReloadTime"
+msgstr "Cooldown (s)"
+
+msgid "tank_params/wheeledDashAbilityReloadTimeBonus"
+msgstr "Cooldown-bonus (%)"
+
+msgid "tank_params/wheeledDashEnginePower"
+msgstr "Motorkraft (%)"
+
+msgid "tank_params/wheeledDashReverseSpeed"
+msgstr "Bakhastighed (%)"
+
+msgid "tank_params/wheeledDashSpeedLimits"
+msgstr "Cooldown-bonus på hastighedsgrænse (km/t)"
+
+msgid "tank_params/wheeledDashTopSpeed"
+msgstr "Tophastighed (%)"
+
+msgid "tank_params/wheeledSpeedModeSpeed"
+msgstr "Tophastighed/Bakhastighed (hurtig)"
+
+msgid "tank_params/wheeledSwitchOffTime"
+msgstr "Skifter til stabil tilstand"
+
+msgid "tank_params/wheeledSwitchOnTime"
+msgstr "Skifter til hurtig tilstand"
+
+msgid "tank_params/wheeledSwitchTime"
+msgstr "Skifter til hurtig/stabil tilstand"
+
+msgid "tank_params/yoh_s_s"
+msgstr "(primær/res. i s)"
+
+msgid "tankmanRecruitRenderer/commander"
+msgstr "Rekrutter kommandør"
+
+msgid "tankmanRecruitRenderer/descr"
+msgstr "Rekrutter mandskab"
+
+msgid "tankmanRecruitRenderer/driver"
+msgstr "Rekrutter chauffør"
+
+msgid "tankmanRecruitRenderer/gunner"
+msgstr "Rekrutter skytte"
+
+msgid "tankmanRecruitRenderer/loader"
+msgstr "Rekrutter lader"
+
+msgid "tankmanRecruitRenderer/personalCase"
+msgstr "Åbn profil"
+
+msgid "tankmanRecruitRenderer/radioman"
+msgstr "Rekrutter radiooperatør"
+
+msgid "tankmanRecruitRenderer/unload"
+msgstr "Send til barakken"
+
+msgid "tankmanRetrainingBtn/free"
+msgstr "Gratis"
+
+msgid "tankmanTrainingButton2/retrainingTo"
+msgstr "Gentræn til niveau:"
+
+msgid "tankmanTrainingButton2/trainingTo"
+msgstr "Træn til niveau:"
+
+msgid "tankmanTrainingWindow/academy"
+msgstr "Kampvognsakademi"
+
+msgid "tankmanTrainingWindow/blank"
+msgstr "Omskoling"
+
+msgid "tankmanTrainingWindow/closeBtn"
+msgstr "Fortryd"
+
+msgid "tankmanTrainingWindow/free"
+msgstr "Hurtige kurser"
+
+msgid "tankmanTrainingWindow/free/price"
+msgstr "Gratis"
+
+msgid "tankmanTrainingWindow/scool"
+msgstr "Regimentsskoler"
+
+msgid "tankmanTrainingWindow/title"
+msgstr "Træning af mandskab"
+
+msgid "tankmanTrainingWindow/trainingTo"
+msgstr "Træningsniveau:"
+
+msgid "tankmen/AT-SPG"
+msgstr "Kampvognsjæger"
+
+msgid "tankmen/SPG"
+msgstr "SPG"
+
+msgid "tankmen/heavyTank"
+msgstr "Tung kampvogn"
+
+msgid "tankmen/lightTank"
+msgstr "Let kampvogn"
+
+msgid "tankmen/lockReason/broken"
+msgstr "(Køretøj beskadiget)"
+
+msgid "tankmen/lockReason/disabled"
+msgstr "(Utilgængelig)"
+
+msgid "tankmen/lockReason/inbattle"
+msgstr "(I kamp)"
+
+msgid "tankmen/lockReason/prebattle"
+msgstr "(Afventer kamp)"
+
+msgid "tankmen/mediumTank"
+msgstr "Medium kampvogn"
+
+msgid "timeLeft/full/day"
+msgstr "{day} d {hour} t"
+
+msgid "timeLeft/full/hour"
+msgstr "{hour} t {min} min"
+
+msgid "timeLeft/full/lessMin"
+msgstr "1 min"
+
+msgid "timeLeft/full/min"
+msgstr "{min} min"
+
+msgid "timeLeft/short/day"
+msgstr "{day} d"
+
+msgid "timeLeft/short/hour"
+msgstr "{hour} t"
+
+msgid "timeLeft/short/lessMin"
+msgstr "1 min"
+
+msgid "timeLeft/short/min"
+msgstr "{min} min"
+
+msgid "trade/in"
+msgstr "Tilgængelig for bytte"
+
+msgid "training/additionalInfo/freeSuppliesComp7"
+msgstr "Ammunition, forbrugsvarer og direktiver kan nu gratis bruges på Onslaught-kort"
+
+msgid "training/additionalInfo/vehicleRequired3"
+msgstr "Du skal have mindst 3 passende køretøjer til kamptypen. Se Om Onslaught-siden for flere detaljer."
+
+msgid "training/create/battleTime"
+msgstr "Længde af kamp:"
+
+msgid "training/create/battleTime/disabled/body"
+msgstr "Længden af denne kamptype kan ikke ændres."
+
+msgid "training/create/closeButton"
+msgstr "Luk"
+
+msgid "training/create/createButton"
+msgstr "Opret"
+
+msgid "training/create/description"
+msgstr "Beskrivelse:"
+
+msgid "training/create/mapSelect"
+msgstr "Vælg kort:"
+
+msgid "training/create/maxPlayers"
+msgstr "Spillerbegrænsning:"
+
+msgid "training/create/privacy"
+msgstr "Efter invitation"
+
+msgid "training/create/title"
+msgstr "Opret et træningsrum"
+
+msgid "training/createButton"
+msgstr "Opret rum"
+
+msgid "training/description"
+msgstr "I holdtræning vil du hverken optjene credits eller xp. Reparationer og alt på nær granater, udstyr og direktiver er gratis."
+
+msgid "training/info/deleteButton"
+msgstr "Slet rum"
+
+msgid "training/info/exitButton"
+msgstr "Forlad rum"
+
+msgid "training/info/inviteButton"
+msgstr "Inviter..."
+
+msgid "training/info/map"
+msgstr "{%s}:"
+
+msgid "training/info/maxPlayers"
+msgstr "Spillere:"
+
+msgid "training/info/notUseChat"
+msgstr "nej"
+
+msgid "training/info/observer"
+msgstr "Observatør"
+
+msgid "training/info/otherLabel"
+msgstr "Ufordelte spillere: %(total)s"
+
+msgid "training/info/owner"
+msgstr "Kommandør:"
+
+msgid "training/info/settings/okButton"
+msgstr "Skift"
+
+msgid "training/info/settings/title"
+msgstr "Træningsrumindstillinger"
+
+msgid "training/info/settingsButton"
+msgstr "Modificer rum"
+
+msgid "training/info/startButton"
+msgstr "Start kampen"
+
+msgid "training/info/states/state0"
+msgstr "?empty?"
+
+msgid "training/info/states/state1"
+msgstr "forlod"
+
+msgid "training/info/states/state17"
+msgstr "offline"
+
+msgid "training/info/states/state2"
+msgstr "forlod"
+
+msgid "training/info/states/state20"
+msgstr "offline"
+
+msgid "training/info/states/state24"
+msgstr "offline"
+
+msgid "training/info/states/state4"
+msgstr "?empty?"
+
+msgid "training/info/states/state8"
+msgstr "I slaget"
+
+msgid "training/info/team1Label"
+msgstr "Hold 1 [%(total)s]"
+
+msgid "training/info/team2Label"
+msgstr "Hold 2 [%(total)s]"
+
+msgid "training/info/timeout/label"
+msgstr "Kampens varighed:"
+
+msgid "training/info/timeout/value"
+msgstr "%(roundLength)s minutter"
+
+msgid "training/info/title"
+msgstr "Træningsrum (%(arenaName)s)"
+
+msgid "training/info/useCommonVoiceChat"
+msgstr "Generel"
+
+msgid "training/info/useSeparateVoipChat"
+msgstr "Hold"
+
+msgid "training/info/voiceChat"
+msgstr "Voice chat:"
+
+msgid "training/invitations/title"
+msgstr "Send invitationer"
+
+msgid "training/joinButton"
+msgstr "Gå med"
+
+msgid "training/leaveButton"
+msgstr "Forlad modus"
+
+msgid "training/listTitle"
+msgstr "Træningsrum"
+
+msgid "training/notificationText/freeSupplies"
+msgstr "Gratis forbrugsvarer"
+
+msgid "training/notificationText/onlyTierX"
+msgstr "Kun i niveau X køretøjer"
+
+msgid "training/notificationText/vehicleRequired3"
+msgstr "Flere køretøjer krævet"
+
+msgid "training/ownerTitle"
+msgstr "Kommandør"
+
+msgid "training/playersLabel"
+msgstr "Spillere: %(playersTotal)s"
+
+msgid "training/playersTitle"
+msgstr "Spillere"
+
+msgid "training/roomsLabel"
+msgstr "Træningsrum: %(roomsTotal)s"
+
+msgid "training/title"
+msgstr "Træningsslag"
+
+msgid "unlocks/exchangeButton"
+msgstr "Konverter"
+
+msgid "unlocks/unlockButton"
+msgstr "Forskning"
+
+msgid "unlocks/xpToTmenCheckbox"
+msgstr "Accellerer besætningstræning"
+
+msgid "validation/publicInfo/abbrev/invalid"
+msgstr "Ukorrekte / for mange tegn indtastet!\nTilladt: Latinske bogstaver, tal 0-9, \"-\" og \"_\" tegnene.\nSom eksempel: \"[WG-A]\"."
+
+msgid "validation/publicInfo/abbrev/invalid/CN"
+msgstr "Ukorrekt / for mange tegn indtastet!\nTilladt: Latinske bogstaver, koreanske og kinesiske tegn, tal 0-9, \"-\" og \"_\" tegnene.\nSom eksempel: \"[WG-A]\"."
+
+msgid "validation/publicInfo/abbrev/invalid/KR"
+msgstr "Ukorrekt / for mange tegn indtastet!\nTilladt: Latinske bogstaver, tegn specifikt tilhørende dit sprog, tal 0-9, \"-\" og \"_\" tegnene.\nSom eksempel: \"[WG-A]\"."
+
+msgid "validation/publicInfo/abbrev/ours"
+msgstr "Du indtastede din klans tag. "
+
+msgid "vehParams/armor"
+msgstr "Overlevelsesevne"
+
+msgid "vehParams/firepower"
+msgstr "Ildkraft"
+
+msgid "vehParams/mobility"
+msgstr "Mobilitet"
+
+msgid "vehParams/reconnaissance"
+msgstr "Observerer"
+
+msgid "vehicle/igrRentLeft/days"
+msgstr "dage: %(days)s"
+
+msgid "vehicle/igrRentLeft/hours"
+msgstr "timer: %(hours)s"
+
+msgid "vehicle/rentLeft/battles"
+msgstr "Kampe tilbage: %(battles)s"
+
+msgid "vehicle/rentLeft/days"
+msgstr "Lejedage tilbage: %(days)s"
+
+msgid "vehicle/rentLeft/epic/base"
+msgstr "Leje til FL"
+
+msgid "vehicle/rentLeft/epic/days"
+msgstr "Leje i %(days)s d"
+
+msgid "vehicle/rentLeft/epic/season"
+msgstr "Sæson %(season)s"
+
+msgid "vehicle/rentLeft/hours"
+msgstr "Lejetimer tilbage: %(hours)s"
+
+msgid "vehicle/rentLeft/wins"
+msgstr "Resterende sejre: %(wins)s"
+
+msgid "vehicle/restoreCooldownLeft/days"
+msgstr "Genopretning vil være tilgængelig om %(time)s d"
+
+msgid "vehicle/restoreCooldownLeft/hours"
+msgstr "Genopretning vil være tilgængelig om %(time)s timer"
+
+msgid "vehicle/restoreLeft/days"
+msgstr "Kan genoprettes i yderligere %(time)s d"
+
+msgid "vehicle/restoreLeft/disabledByRent"
+msgstr "Ikke tilgængelig indtil lejeperiodes udløb"
+
+msgid "vehicle/restoreLeft/hours"
+msgstr "Kan genoprettes i yderligere %(time)s t"
+
+msgid "vehicle/restoreLeft/unlim"
+msgstr "Genopretning tilgængelig"
+
+msgid "vehicleIgr/days"
+msgstr "Særlige køretøjer %(igrIcon)s tilgængelige i, dage: %(days)s"
+
+msgid "vehicleIgr/hours"
+msgstr "Særlige køretøjer %(igrIcon)s tilgængelige i, timer: %(hours)s"
+
+msgid "vehicleInfo/closeBtn"
+msgstr "Luk"
+
+msgid "vehicleInfo/compareBtn/label"
+msgstr "Tilføj til sammenligning"
+
+msgid "vehicleInfo/compareBtn/tooltip/body"
+msgstr "For at tilføje et køretøj til sammenligning, fjern da irrelevante køretøjer fra sammenligningslisten."
+
+msgid "vehicleInfo/compareBtn/tooltip/header"
+msgstr "Kan ikke tilføje"
+
+msgid "vehicleInfo/nationChangeBtn/label"
+msgstr "Skift nation"
+
+msgid "vehicleInfo/params/aimingTime"
+msgstr "Sigtetid (s)"
+
+msgid "vehicleInfo/params/autoReloadTime"
+msgstr "Tid for at autogenlade en granat (s)"
+
+msgid "vehicleInfo/params/autoReloadTimeBoost"
+msgstr "Standardtid for at autogenlade en granat (s)"
+
+msgid "vehicleInfo/params/autoShootClipFireRate"
+msgstr "Lad (magasin/kvantitet)"
+
+msgid "vehicleInfo/params/avgDamage"
+msgstr "Gennemsnitlig skade per skud"
+
+msgid "vehicleInfo/params/avgDamagePerMinute"
+msgstr "Gennemsnitlig skade per minut"
+
+msgid "vehicleInfo/params/avgDamagePerSecond"
+msgstr "Skade per sekund (hp/s)"
+
+msgid "vehicleInfo/params/avgPiercingPower"
+msgstr "Gennemsnitlig gennembrydning"
+
+msgid "vehicleInfo/params/burstFireRate"
+msgstr "Granathylster (s/antal/antal)"
+
+msgid "vehicleInfo/params/chargeTime"
+msgstr "Salveforberedelse (s)"
+
+msgid "vehicleInfo/params/chassisRepairTime"
+msgstr "Reparationstid på affjedringen (s)"
+
+msgid "vehicleInfo/params/chassisRepairTimeYoh"
+msgstr "Reparationstid på affjedringen (primær/res. i s)"
+
+msgid "vehicleInfo/params/chassisRotationSpeed"
+msgstr "Drejehastighed (grader/sek)"
+
+msgid "vehicleInfo/params/circularVisionRadius"
+msgstr "Synsrækkevidde (m)"
+
+msgid "vehicleInfo/params/clipFireRate"
+msgstr "Ladning (magasin/granat eller hylster/kvantitet)"
+
+msgid "vehicleInfo/params/continuousShotsPerMinute"
+msgstr "Skudkadence på vedvarende skud (skud/min)"
+
+msgid "vehicleInfo/params/dualAccuracyCoolingDelay"
+msgstr "Kanonens nedkølingstid efter skud (s)"
+
+msgid "vehicleInfo/params/enginePower"
+msgstr "Motorkraft (hk)"
+
+msgid "vehicleInfo/params/enginePowerPerTon"
+msgstr "Specifik kraft (hk/t)"
+
+msgid "vehicleInfo/params/gunYawLimits"
+msgstr "Kanonens drejegrænser (grader)"
+
+msgid "vehicleInfo/params/hullArmor"
+msgstr "Pansring på skroget (front/side/bag, mm)"
+
+msgid "vehicleInfo/params/invisibility"
+msgstr "Sløring af et køretøj i bevægelse/stationært køretøj (%)"
+
+msgid "vehicleInfo/params/invisibilityMovingFactor"
+msgstr "Sløring af et køretøj i bevægelse (%)"
+
+msgid "vehicleInfo/params/invisibilityStillFactor"
+msgstr "Sløring af et stationært køretøj (%)"
+
+msgid "vehicleInfo/params/maxHealth"
+msgstr "Hit points (hp)"
+
+msgid "vehicleInfo/params/maxSteeringLockAngle"
+msgstr "Maksimal drejevinkel på hjul (grader)"
+
+msgid "vehicleInfo/params/piercingPower"
+msgstr "Gennemsnitlig gennembrydning (mm)"
+
+msgid "vehicleInfo/params/pitchLimits"
+msgstr "Kanonens depression/elevations vinkel (grader)"
+
+msgid "vehicleInfo/params/radioDistance"
+msgstr "Signalrækkevidde (m)"
+
+msgid "vehicleInfo/params/rateTime"
+msgstr "Tid mellem et skud og skifte til den ladede kanon (s)"
+
+msgid "vehicleInfo/params/reloadTime"
+msgstr "Skudhastighed (skud/min)"
+
+msgid "vehicleInfo/params/reloadTimeSecs"
+msgstr "Kanonens ladning (s)"
+
+msgid "vehicleInfo/params/rocketAccelerationEnginePower"
+msgstr "Motorkraft (med boostere) (hk)"
+
+msgid "vehicleInfo/params/rocketAccelerationReuseAndDuration"
+msgstr "Jet-boostere (antal/varighed)"
+
+msgid "vehicleInfo/params/rocketAccelerationSpeedLimits"
+msgstr "Tophastighed/bakhastighed (med boostere) (km/t)"
+
+msgid "vehicleInfo/params/shotDispersionAngle"
+msgstr "Spredning ved 100 m (m)"
+
+msgid "vehicleInfo/params/shotSpeed"
+msgstr "Flyvehastighed"
+
+msgid "vehicleInfo/params/speedLimits"
+msgstr "Tophastighed/bakhastighed (km/t)"
+
+msgid "vehicleInfo/params/stunMaxDuration"
+msgstr "Maksimal fortumlet periode (s)"
+
+msgid "vehicleInfo/params/stunMinDuration"
+msgstr "Minimum fortumlet periode (s)"
+
+msgid "vehicleInfo/params/switchOffTime"
+msgstr "Skifter til rejsetilstand (s)"
+
+msgid "vehicleInfo/params/switchOnTime"
+msgstr "Skifter til belejringstilstand (s)"
+
+msgid "vehicleInfo/params/switchTime"
+msgstr "Skifter til belejrings / rejsetilstand (s)"
+
+msgid "vehicleInfo/params/temperatureAvgDamagePerMinute"
+msgstr "Gennemsnitlig skade per minut"
+
+msgid "vehicleInfo/params/temperatureReloadTime"
+msgstr "Skudkadence (skud/min)"
+
+msgid "vehicleInfo/params/turboshaftBurstFireRate"
+msgstr "Granathylster (turbo) (s/antal/antal)"
+
+msgid "vehicleInfo/params/turboshaftEnginePower"
+msgstr "Motorkraft (turbo) (hk)"
+
+msgid "vehicleInfo/params/turboshaftInvisibilityMovingFactor"
+msgstr "Sløring af køretøj i bevægelse (turbo) (%)"
+
+msgid "vehicleInfo/params/turboshaftInvisibilityStillFactor"
+msgstr "Sløring af stationært køretøj (turbo) (%)"
+
+msgid "vehicleInfo/params/turboshaftSpeedModeSpeed"
+msgstr "Tophastighed/Bakhastighed (turbo) (km/t)"
+
+msgid "vehicleInfo/params/turboshaftSwitchTime"
+msgstr "Tid for at skifte motortilstand (til turbo/til standard) (s)"
+
+msgid "vehicleInfo/params/turretArmor"
+msgstr "Tårnpanser (front/side/bag, mm)"
+
+msgid "vehicleInfo/params/turretRotationSpeed"
+msgstr "Kanonens drejehastighed (grader/sek)"
+
+msgid "vehicleInfo/params/turretYawLimits"
+msgstr "Tårnets drejevinkler (grader)"
+
+msgid "vehicleInfo/params/twinGunReloadTime"
+msgstr "Ladning af kanon (enkeltskud/salveskydning) (s)"
+
+msgid "vehicleInfo/params/twinGunSwitchFireModeTime"
+msgstr "Tid til skift af skudtilstand (s)"
+
+msgid "vehicleInfo/params/twinGunTopSpeed"
+msgstr "Tophastighed/bakhastighed (enkeltskud/salveskydning) (km/t)"
+
+msgid "vehicleInfo/params/vehicleWeight"
+msgstr "Vægt (t)"
+
+msgid "vehicleInfo/params/wheeledSpeedModeSpeed"
+msgstr "Tophastighed / Bakhastighed (hurtig, km/t)"
+
+msgid "vehicleInfo/params/wheeledSwitchOffTime"
+msgstr "Skifter til stabil tilstand (s)"
+
+msgid "vehicleInfo/params/wheeledSwitchOnTime"
+msgstr "Skifter til hurtig tilstand (s)"
+
+msgid "vehicleInfo/params/wheeledSwitchTime"
+msgstr "Skifter til hurtig/stabil tilstand (s)"
+
+msgid "vehicleInfo/stats/avgExperience"
+msgstr "Gennemsnitlig xp per kamp"
+
+msgid "vehicleInfo/stats/battlesCount"
+msgstr "Kampe deltaget i"
+
+msgid "vehicleInfo/stats/damageDealt"
+msgstr "Skade uddelt"
+
+msgid "vehicleInfo/stats/defender"
+msgstr "Forsvarer"
+
+msgid "vehicleInfo/stats/frags"
+msgstr "Ødelagt"
+
+msgid "vehicleInfo/stats/heroes"
+msgstr "Krigshelt"
+
+msgid "vehicleInfo/stats/hits"
+msgstr "Træffere"
+
+msgid "vehicleInfo/stats/invader"
+msgstr "Angriber"
+
+msgid "vehicleInfo/stats/lastBattleTime"
+msgstr "Sidste kamp"
+
+msgid "vehicleInfo/stats/losses"
+msgstr "Nederlag"
+
+msgid "vehicleInfo/stats/medalKay"
+msgstr "Kays klasse medaljen"
+
+msgid "vehicleInfo/stats/scout"
+msgstr "Spejder"
+
+msgid "vehicleInfo/stats/shots"
+msgstr "Skud"
+
+msgid "vehicleInfo/stats/sniper"
+msgstr "Snigskytte"
+
+msgid "vehicleInfo/stats/steelwall"
+msgstr "Stålmur"
+
+msgid "vehicleInfo/stats/supporter"
+msgstr "Forbundsfælle"
+
+msgid "vehicleInfo/stats/survivedBattles"
+msgstr "Kampe overlevet"
+
+msgid "vehicleInfo/stats/warrior"
+msgstr "Top Gun"
+
+msgid "vehicleInfo/stats/wins"
+msgstr "Sejre"
+
+msgid "vehicleInfo/stats/xp"
+msgstr "Samlet xp"
+
+msgid "vehicleInfo/tabs/base"
+msgstr "Konfiguration"
+
+msgid "vehicleInfo/tabs/crew"
+msgstr "Mandskab"
+
+msgid "vehicleInfo/tabs/properties"
+msgstr "Karakteristika"
+
+msgid "vehicleInfo/tabs/statistic"
+msgstr "Tjenesteblad"
+
+msgid "vehicleInfo/title"
+msgstr "- Karakteristika"
+
+msgid "vehiclePreview/endTime"
+msgstr "Tilbud udløbet"
+
+msgid "vehiclePreview/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "vehiclePreview/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "vehiclePreview/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "vehiclePreview/timeLeftShort/hours"
+msgstr "%(hour)s t"
+
+msgid "vehiclePreview/timeLeftShort/lessMin"
+msgstr "01 min"
+
+msgid "vehiclePreview/timeLeftShort/min"
+msgstr "%(min)s min"
+
+msgid "vehicleRestore/timeLeftShort/days"
+msgstr "%(day)sd"
+
+msgid "vehicleRestore/timeLeftShort/hours"
+msgstr "%(hour)st %(min)smin"
+
+msgid "vehicleRestore/timeLeftShort/lessMin"
+msgstr "01min"
+
+msgid "vehicleRestore/timeLeftShort/min"
+msgstr "%(min)smin"
+
+msgid "vehiclesCarousel/contextMenu/vehicleCheck"
+msgstr "Sæt som primær"
+
+msgid "vehiclesCarousel/contextMenu/vehicleInfo"
+msgstr "Se detaljer"
+
+msgid "vehiclesCarousel/contextMenu/vehicleResearch"
+msgstr "Teknologitræ"
+
+msgid "vehiclesCarousel/contextMenu/vehicleSell"
+msgstr "Sælg"
+
+msgid "vehiclesCarousel/contextMenu/vehicleUncheck"
+msgstr "Fjern flueben i Primær"
+
+msgid "viewHeader/aboutBtn/label"
+msgstr "OM EVENTET"
+
+msgid "viewHeader/backBtn/descrLabel/battleMatters"
+msgstr "TIL KAMPVOGNSAKADEMI"
+
+msgid "viewHeader/backBtn/descrLabel/hangar"
+msgstr "TIL GARAGE"
+
+msgid "viewHeader/backBtn/descrLabel/preview"
+msgstr "TIL PREVIEW"
+
+msgid "viewHeader/backBtn/descrLabel/research"
+msgstr "Til %(tankName)s"
+
+msgid "viewHeader/backBtn/descrLabel/storage"
+msgstr "TIL DEPOT"
+
+msgid "viewHeader/backBtn/descrLabel/techtree"
+msgstr "TIL TEKNOLOGITRÆ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/china"
+msgstr "TIL KINESISK TEKNOLOGITRÆ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/czech"
+msgstr "TIL TJEKKOSLOVAKISK TEKNOLOGITRÆ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/france"
+msgstr "TIL FRANSK TEKNOLOGITRÆ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/germany"
+msgstr "TIL TYSK TEKNOLOGITRÆ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/italy"
+msgstr "TIL ITALIENSK TEKNOLOGITRÆ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/japan"
+msgstr "TIL JAPANSK TEKNOLOGITRÆ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/poland"
+msgstr "TIL POLSK TEKNOLOGITRÆ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/sweden"
+msgstr "TIL SVENSK TEKNOLOGITRÆ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/uk"
+msgstr "TIL BRITISK TEKNOLOGITRÆ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/usa"
+msgstr "TIL AMERIKANSK TEKNOLOGITRÆ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/ussr"
+msgstr "TIL SOVJETISK TEKNOLOGITRÆ"
+
+msgid "viewHeader/backBtn/label"
+msgstr "TILBAGE"
+
+msgid "viewHeader/closeBtn/label"
+msgstr "LUK"
+
+msgid "viewHeader/infoBtn/label"
+msgstr "INFORMATION"

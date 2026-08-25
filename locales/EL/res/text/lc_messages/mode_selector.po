@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "button/progression"
+msgstr "Προβολή Προόδου"
+
+msgid "button/select"
+msgstr "Διαμόρφωση"
+
+msgid "event/battlePass/name"
+msgstr "Battle Pass Περίοδος %(seasonNum)s"
+
+msgid "event/finished"
+msgstr "Η %(eventName)s\nτελείωσε"
+
+msgid "event/notStarted"
+msgstr "Η %(eventName)s\nθα ξεκινήσει στις %(date)s"
+
+msgid "event/paused"
+msgstr "Η %(eventName)s\nείναι προσωρινά μη διαθέσιμη"
+
+msgid "event/ranked/name"
+msgstr "Περίοδος %(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "ΠΡΟΒΟΛΗ ΠΡΟΟΔΟΥ"
+
+msgid "mode/epicBattle/condition"
+msgstr "30v30 &nbsp;{par_open}I{par_close}&nbsp;Βαθμίδες&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30v30&nbsp;{par_open}I{par_close}&nbsp;Βαθμίδα&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "Η διοργάνωση\nθα ξεκινήσει στις %(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Οι μάχες αυτές\nθα ξεκινήσουν προσεχώς"
+
+msgid "mode/epicBattle/description"
+msgstr "Μάχες με πρόοδο και έπαθλα."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "Η διοργάνωση τελείωσε"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "Λαμβάνοντας μέρος στην {whiteSpanish_open}Πρώτη Γραμμή{whiteSpanish_close} με οχήματα των Βαθμίδων VIII κερδίζετε Πόντους και αυξάνετε την πρόοδό σας στο Battle Pass."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Πόντοι Battle Pass"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "Λαμβάνοντας μέρος στην {whiteSpanish_open}Αποστολή Ανίχνευσης{whiteSpanish_close} με οχήματα των Βαθμίδων VIII–X κερδίζετε Πόντους και αυξάνετε την πρόοδό σας στο Battle Pass."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Πόντοι Battle Pass"
+
+msgid "mode/mapbox/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s Βαθμίδες&nbsp;VIII–X"
+
+msgid "mode/mapbox/description"
+msgstr "Νέοι μηχανισμοί μάχης στους χάρτες."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Τα οπτικά εφέ των καιρικών φαινομένων εξαρτώνται από τις γενικές ρυθμίσεις γραφικών σας. Σε χαμηλές ρυθμίσεις γραφικών, ενδέχεται να προκύψουν οπτικά προβλήματα. Συνιστούμε να επιλέξετε την υψηλότερη ρύθμιση γραφικών για το καλύτερο δυνατό αποτέλεσμα, υπό την προϋπόθεση ότι ο υπολογιστής σας πληροί τις απαιτούμενες προδιαγραφές. Η λειτουργία αυτή απαιτεί υψηλή απόδοση υπολογιστή. Τα FPS μπορεί να μειωθούν κατά τη διάρκεια σφοδρών μαχών."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "Προτείνεται η επιλογή γραφικών υψηλής ποιότητας"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Προτείνεται η επιλογή γραφικών υψηλής ποιότητας"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Μάθετε τους χάρτες"
+
+msgid "mode/mapsTraining/description"
+msgstr "Μάθετε τους χάρτες"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "Λαμβάνοντας μέρος σε {whiteSpanish_open}Τυχαίες Μάχες{whiteSpanish_close} με οχήματα Βαθμίδας IV–XI κερδίζετε Πόντους και αυξάνετε την πρόοδό σας στο Battle Pass."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Πόντοι Battle Pass"
+
+msgid "mode/random/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s Βαθμίδες&nbsp;I–XI"
+
+msgid "mode/random/description"
+msgstr "Μάχες με αυτόματη συγκρότηση ομάδων."
+
+msgid "mode/random/setup"
+msgstr "Διαμόρφωση"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "Λαμβάνοντας μέρος σε {whiteSpanish_open}Μάχες Κατάταξης{whiteSpanish_close} με οχήματα της Βαθμίδας X κερδίζετε Πόντους και αυξάνετε την πρόοδό σας στο Battle Pass."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Πόντοι Battle Pass"
+
+msgid "mode/ranked/condition"
+msgstr "10v10 %(parSecondary_open)sI%(parSecondary_close)s Βαθμίδα&nbsp;X"
+
+msgid "mode/ranked/description"
+msgstr "Μάχες με πρόοδο και έπαθλα."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Εγγραφείτε για τουρνουά"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Επόμενη μάχη: %(date)s στις %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s Βαθμίδες&nbsp;I–X"
+
+msgid "mode/specBattlesList/description"
+msgstr "Παγκόσμιος Χάρτης και τουρνουά."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Στη μάχη ως μισθοφόρος"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Μάχες με clan"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7v7–15v15 %(parSecondary_open)sI%(parSecondary_close)s Βαθμίδες&nbsp;VI–X"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Μάχες των Clan για Βιομηχανικούς Πόρους."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Χώροι εκπαίδευσης: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s Βαθμίδες&nbsp;I–X"
+
+msgid "mode/trainingsList/description"
+msgstr "Εκπαιδευτικές μάχες."
+
+msgid "novelty"
+msgstr "ΝΕΟ ΕΙΔΟΣ ΜΑΧΗΣ"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Μάχες στα Προκριματικά: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "Μπορείτε να κερδίσετε μοναδικά προσαρτήματα 3D από αυτές τις μάχες."
+
+msgid "reward/attachment/name"
+msgstr "Προσαρτήματα 3D"
+
+msgid "reward/bones/description"
+msgstr "Το έπαθλο καθορίζετε με βάση τις επιδόσεις σας στις μάχες."
+
+msgid "reward/bones/name"
+msgstr "Bonds"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Μπορείτε να κερδίσετε τον εξοπλισμό %(name)s από αυτές τις μάχες."
+
+msgid "reward/bountyEquipment/name"
+msgstr "Ειδικός Εξοπλισμός"
+
+msgid "reward/credits/description"
+msgstr "Το έπαθλο καθορίζετε με βάση τις επιδόσεις σας στις μάχες."
+
+msgid "reward/credits/name"
+msgstr "Credits"
+
+msgid "reward/crew/description"
+msgstr "Μπορείτε να κερδίσετε μοναδικά μέλη πληρώματος από αυτές τις μάχες."
+
+msgid "reward/crew/name"
+msgstr "Μέλη Πληρώματος"
+
+msgid "reward/experience/description"
+msgstr "Το έπαθλο καθορίζετε με βάση τις επιδόσεις σας στις μάχες."
+
+msgid "reward/experience/name"
+msgstr "Experience"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "Μπορείτε να κερδίσετε διάφορα στοιχεία Πειραματικού Εξοπλισμού στις μάχες αυτές."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Ειδικός Εξοπλισμός"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Μπορείτε να κερδίσετε τον εξοπλισμό %(name)s από αυτές τις μάχες."
+
+msgid "reward/improvedEquipment/name"
+msgstr "Ειδικός Εξοπλισμός"
+
+msgid "reward/lootBoxes/description"
+msgstr "Μπορείτε να κερδίσετε κοντέινερ στις μάχες αυτές."
+
+msgid "reward/lootBoxes/name"
+msgstr "Ειδικά Κοντέινερ"
+
+msgid "reward/other/description"
+msgstr "Μπορείτε να κερδίσετε πολλά χρήσιμα έπαθλα από αυτές τις μάχες."
+
+msgid "reward/other/name"
+msgstr "Ειδικό Έπαθλο"
+
+msgid "reward/progressionStyle/description"
+msgstr "Μπορείτε να κερδίσετε μία προοδευτική τεχνοτροπία καμουφλάζ από αυτές τις μάχες."
+
+msgid "reward/progressionStyle/name"
+msgstr "Προοδευτική Τεχνοτροπία"
+
+msgid "reward/random/description"
+msgstr "Μπορείτε να κερδίσετε πολλά χρήσιμα έπαθλα από αυτές τις μάχες."
+
+msgid "reward/random/name"
+msgstr "Τυχαίο Έπαθλο"
+
+msgid "reward/style/description"
+msgstr "Μπορείτε να κερδίσετε μία αποκλειστική τεχνοτροπία 3D για το %(name)s από αυτές τις μάχες."
+
+msgid "reward/style/name"
+msgstr "Τεχνοτροπία 3D"
+
+msgid "reward/vehicle/description"
+msgstr "Μπορείτε να κερδίσετε το %(name)s από αυτές τις μάχες."
+
+msgid "reward/vehicle/name"
+msgstr "Οχήματα Eπιβράβευσης"
+
+msgid "selectMap"
+msgstr "Προκαθορισμός για Τυχαίες Μάχες"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "status/timeLeft/lessMin"
+msgstr "λιγότερο από λεπτό"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "ΕΠΙΛΕΞΤΕ ΕΙΔΟΣ ΜΑΧΗΣ"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Παγκόσμιος Χάρτης"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Καταλάβετε επαρχίες και πολεμήστε για την παγκόσμια κυριαρχία. Οι μάχες αυτές είναι διαθέσιμες μόνο για μέλη clan."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Ενταχθείτε σε Clan"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Μάχες στον Παγκόσμιο Χάρτη"
+
+msgid "window/battleSession/title"
+msgstr "ΕΙΔΙΚΗ ΜΑΧΗ"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Λίστα Τουρνουά"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Δεν υπάρχει διαθεσιμότητα προσωρινά. Θα υπάρξει όμως στο προσεχές μέλλον. Παρακαλούμε για την υπομονή σας."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Λάβετε μέρος ως ανεξάρτητος παίκτης ή ως μέλος μιας ομάδας, δείξτε την αξία σας και κερδίστε πολύτιμα έπαθλα."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Τουρνουά"

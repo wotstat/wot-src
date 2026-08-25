@@ -1,0 +1,383 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "label/assist"
+msgstr "Ortalama destek"
+
+msgid "label/averageDamage"
+msgstr "Ortalama hasar"
+
+msgid "label/averageFrags"
+msgstr "Ortalama Yok Edilen Araç Sayısı"
+
+msgid "label/averageVehiclesLevel"
+msgstr "Ortalama Araç Seviyesi"
+
+msgid "label/averageXP"
+msgstr "Ortalama deneyim"
+
+msgid "label/battleEfficiency"
+msgstr "Savaş Performansı"
+
+msgid "label/blockedDamage"
+msgstr "Engellenen ortalama hasar"
+
+msgid "label/damaged"
+msgstr "Verilen/alınan hasar"
+
+msgid "label/destroyed"
+msgstr "Yok edilen düşman/Oyuncunun kaybı"
+
+msgid "label/freeXp"
+msgstr "Serbest DP"
+
+msgid "label/gamingXp"
+msgstr "Savaş DP'si"
+
+msgid "label/playBattle"
+msgstr "Bir savaş oynayın"
+
+msgid "label/spotted"
+msgstr "Tespit Edilen Ortalama Araç Sayısı"
+
+msgid "label/survivedRate"
+msgstr "Sağ Kalınan Savaşlar"
+
+msgid "label/tabBattle"
+msgstr "Savaşlara göre"
+
+msgid "label/tabVehicle"
+msgstr "Araçlara göre"
+
+msgid "label/totalCredits"
+msgstr "Toplam kredi"
+
+msgid "label/totalCrystal"
+msgstr "Toplam tahvil"
+
+msgid "label/totalXp"
+msgstr "Toplam DP"
+
+msgid "label/victory"
+msgstr "Zaferler"
+
+msgid "label/winRate"
+msgstr "Zafer Oranı"
+
+msgid "label/wtr"
+msgstr "WTR Reytingi"
+
+msgid "moreBtn/label"
+msgstr "Şeref Salonuna"
+
+msgid "propertyInfo/current"
+msgstr "Oturumda"
+
+msgid "propertyInfo/dynamic"
+msgstr "Dinamikler"
+
+msgid "propertyInfo/prop/descr/averageDamage"
+msgstr "Oturumda verilen toplam hasarın yapılan savaş sayısına oranı. Delta mevcut oyun oturumunun toplam parametre üzerindeki etkisini gösterir."
+
+msgid "propertyInfo/prop/descr/averageFrags"
+msgstr "Yok edilen araçların yapılan savaş sayısına oranı."
+
+msgid "propertyInfo/prop/descr/averageVehiclesLevel"
+msgstr "Oyun oturumu için kullandığınız araçların ortalama Seviyesi."
+
+msgid "propertyInfo/prop/descr/averageXp"
+msgstr "Oturumda toplam deneyimin yapılan savaş sayısına oranı. Delta mevcut oyun oturumunun toplam parametre üzerindeki etkisini gösterir."
+
+msgid "propertyInfo/prop/descr/blockedDamage"
+msgstr "Oturumda engellenen toplam hasarın yapılan savaş sayısına oranı. Delta mevcut oyun oturumunun toplam parametre üzerindeki etkisini gösterir."
+
+msgid "propertyInfo/prop/descr/helpDamage"
+msgstr "Oturumda tespitiniz sayesinde verilen hasarın ve palet yok edip hareketsiz bırakmanız veya şoka sokmanız sayesinde müttefiklerin verdiği hasarın yapılan savaş sayısına oranı. Delta, mevcut oyun oturumunun toplam parametre üzerindeki etkisini gösterir."
+
+msgid "propertyInfo/prop/descr/ratioDamage"
+msgstr "\"Verilen hasar\" ile \"Alınan hasar\" parametrelerinin oranı. Delta mevcut oyun oturumunun toplam parametre üzerindeki etkisini gösterir."
+
+msgid "propertyInfo/prop/descr/ratioKill"
+msgstr "Yok edilen düşman araçlarının oyuncunun aracının yok edilme sayısına oranı. Delta mevcut oyun oturumunun toplam parametre üzerindeki etkisini gösterir."
+
+msgid "propertyInfo/prop/descr/spotted"
+msgstr "Oturum için tespit edilen düşman araçlarının yapılan savaş sayısına oranı."
+
+msgid "propertyInfo/prop/descr/survivedRate"
+msgstr "Oyuncunun aracının yok edilmediği toplam savaş yüzdesi."
+
+msgid "propertyInfo/prop/descr/winRate"
+msgstr "Bir oturumdaki Rastgele Savaş zaferlerinin yüzdesi. Delta, mevcut oyun oturumunun toplam parametre üzerindeki etkisini gösterir."
+
+msgid "propertyInfo/prop/descr/wins"
+msgstr "Bir oturumdaki Rastgele Savaş zaferlerinin sayısı. Delta mevcut oyun oturumunun toplam parametre üzerindeki etkisini gösterir."
+
+msgid "propertyInfo/prop/descr/wtr"
+msgstr "Tüm oturum için ortalama değerlere göre WTR. Delta mevcut oyun oturumunun toplam parametre üzerindeki etkisini gösterir."
+
+msgid "propertyInfo/prop/label/averageDamage"
+msgstr "Ortalama Hasar"
+
+msgid "propertyInfo/prop/label/averageFrags"
+msgstr "Ortalama Yok Edilen Araç Sayısı"
+
+msgid "propertyInfo/prop/label/averageVehiclesLevel"
+msgstr "Ortalama Araç Seviyesi"
+
+msgid "propertyInfo/prop/label/averageXp"
+msgstr "Ortalama Deneyim"
+
+msgid "propertyInfo/prop/label/blockedDamage"
+msgstr "Engellenen Ortalama Hasar"
+
+msgid "propertyInfo/prop/label/helpDamage"
+msgstr "Ortalama Destek"
+
+msgid "propertyInfo/prop/label/ratioDamage"
+msgstr "Verilen/Alınan Hasar"
+
+msgid "propertyInfo/prop/label/ratioKill"
+msgstr "Yok Edilen Düşman/Saf Dışı Bırakılan Oyuncu"
+
+msgid "propertyInfo/prop/label/spotted"
+msgstr "Tespit Edilen Ortalama Araç Sayısı"
+
+msgid "propertyInfo/prop/label/survivedRate"
+msgstr "Sağ Kalınan Savaşlar"
+
+msgid "propertyInfo/prop/label/winRate"
+msgstr "Zafer Oranı"
+
+msgid "propertyInfo/prop/label/wins"
+msgstr "Zaferler"
+
+msgid "propertyInfo/prop/label/wtr"
+msgstr "WTR Reytingi"
+
+msgid "propertyInfo/total"
+msgstr "Toplam"
+
+msgid "propertyInfo/total/descr"
+msgstr "Sadece mevcut değerleri olan parametreler gösterilir."
+
+msgid "propertyInfo/total/label/achievement"
+msgstr "Ödül alma karşılığında"
+
+msgid "propertyInfo/total/label/afk"
+msgstr "Savaşta eylemsizlik cezası"
+
+msgid "propertyInfo/total/label/aogasFactor"
+msgstr "İndirgeme katsayısı (AOGAS)"
+
+msgid "propertyInfo/total/label/autoEquip"
+msgstr "Otomatik yüklenen sarf malzemeleri"
+
+msgid "propertyInfo/total/label/autoLoad"
+msgstr "Otomatik yüklenen mühimmat"
+
+msgid "propertyInfo/total/label/autoRepair"
+msgstr "Aracın otomatik tamiri"
+
+msgid "propertyInfo/total/label/base"
+msgstr "Savaşlar için kazanılan"
+
+msgid "propertyInfo/total/label/battlePayments"
+msgstr "Savaş ödemeleri"
+
+msgid "propertyInfo/total/label/boosters"
+msgstr "Kişisel Yedekler bonusu"
+
+msgid "propertyInfo/total/label/deserter"
+msgstr "Savaş alanından firar cezası"
+
+msgid "propertyInfo/total/label/event"
+msgstr "Görev ve etkinlikleri tamamlama ödülü"
+
+msgid "propertyInfo/total/label/friendlyFireCompensation"
+msgstr "Müttefiklerden gelen hasar için tazminat"
+
+msgid "propertyInfo/total/label/friendlyFirePenalty"
+msgstr "Müttefiklere hasar verme cezası"
+
+msgid "propertyInfo/total/label/netCredits"
+msgstr "Toplam kredi"
+
+msgid "propertyInfo/total/label/netCrystal"
+msgstr "Toplam tahvil"
+
+msgid "propertyInfo/total/label/noPenalty"
+msgstr "Cesur direnme için"
+
+msgid "propertyInfo/total/label/squadBonus"
+msgstr "Takımda oynama için"
+
+msgid "propertyInfo/total/label/suicide"
+msgstr "Kendini yok etme cezası"
+
+msgid "propertyInfo/total/total"
+msgstr "Sonuç"
+
+msgid "ratio/inverse"
+msgstr "%(open)s%(numerator)s%(close)s / %(denominator)s"
+
+msgid "ratio/normal"
+msgstr "%(numerator)s / %(open)s%(denominator)s%(close)s"
+
+msgid "resetBtn/label"
+msgstr "Sıfırla"
+
+msgid "settings/commonSettings/header"
+msgstr "Genel Ayarlar"
+
+msgid "settings/commonSettings/isNotNeededResetStatsEveryDay"
+msgstr "İstatistikleri günlük olarak sıfırlama"
+
+msgid "settings/commonSettings/saveCurrentTab"
+msgstr "Seçili sekmeden devam edin"
+
+msgid "settings/controls/applyBtn"
+msgstr "Uygula"
+
+msgid "settings/controls/backBtn"
+msgstr "Geri"
+
+msgid "settings/economicBlock/header"
+msgstr "Oturum Ekonomisi"
+
+msgid "settings/economicBlock/withSpending"
+msgstr "Bonuslar ve harcamalarla"
+
+msgid "settings/economicBlock/withoutSpending"
+msgstr "Bonuslarla"
+
+msgid "settings/efficiencyBlock/error"
+msgstr "Sadece %(max)s adede kadar parametre"
+
+msgid "settings/efficiencyBlock/header"
+msgstr "Savaş Performansı"
+
+msgid "settings/efficiencyBlock/subheader"
+msgstr "%(selected)s / %(max)s Göster"
+
+msgid "settings/header"
+msgstr "Ayarlar"
+
+msgid "tankInfo/battleEfficiency/title"
+msgstr "Savaş Performansı"
+
+msgid "tankInfo/level"
+msgstr "Seviye"
+
+msgid "tankInfo/main"
+msgstr "Ana"
+
+msgid "tankInfo/markOnGun"
+msgstr "Mükemmellik İşareti: %(progress)s"
+
+msgid "tankInfo/markOnGun/warning"
+msgstr "Alınmamış Mükemmellik İşaretleri: %(progress)s"
+
+msgid "tankInfo/status/total"
+msgstr "Oturumdaki savaşlar: %(total)s"
+
+msgid "tankInfo/status/warning"
+msgstr "Bir savaş oynayın"
+
+msgid "tooltip/battleType/hasBattles/body"
+msgstr "Yapılan savaşlar: %(value)s. İstatistikler her savaştan sonra güncellenir ve otomatik olarak sıfırlanmaz."
+
+msgid "tooltip/battleType/hasBattles/daily/body"
+msgstr "Yapılan savaşlar: %(value)s. İstatistikler her savaştan sonra güncellenir. Değerler her 24 saatte bir otomatik olarak sıfırlanır."
+
+msgid "tooltip/battleType/header"
+msgstr "%(battleType)s kipinde oturum istatistikleri"
+
+msgid "tooltip/battleType/noBattles/body"
+msgstr "İstatistikler yapılan ilk savaştan sonra gösterilir. İstatistikler her savaştan sonra güncellenir ve otomatik olarak sıfırlanmaz. Otomatik sıfırlama sıklığı ayarlardan değiştirilebilir. Değerler ayrıca elle de sıfırlanabilir."
+
+msgid "tooltip/battleType/noBattles/daily/body"
+msgstr "İstatistikler yapılan ilk savaştan sonra gösterilir ve sonraki her savaştan sonra güncellenir. Değerler her 24 saatte bir otomatik olarak sıfırlanır."
+
+msgid "tooltip/clearButton/available/body"
+msgstr "Oturum istatistiklerinin mevcut değerlerini sıfırlamak için tıklayın."
+
+msgid "tooltip/clearButton/available/daily/body"
+msgstr "Oturum istatistiklerinin mevcut değerini sıfırlamak için tıklayın. Oturum istatistikleri şu süre içinde otomatik olarak sıfırlanacak: %(time)s"
+
+msgid "tooltip/clearButton/header"
+msgstr "Sıfırla"
+
+msgid "tooltip/clearButton/unavailable/body"
+msgstr "Oturum istatistiklerini sıfırlama şu anda devre dışı."
+
+msgid "tooltip/clearButton/unavailable/daily/body"
+msgstr "Oturum istatistiklerinin sıfırlanması şu anda devre dışı. Değerler günün sonunda otomatik olarak sıfırlanacak."
+
+msgid "tooltip/header/avgDamage"
+msgstr "Ortalama hasar"
+
+msgid "tooltip/header/battleCount"
+msgstr "Yapılan Savaşlar"
+
+msgid "tooltip/header/wtr"
+msgstr "World of Tanks Reytingi"
+
+msgid "tooltip/mainBtn/body/disabled"
+msgstr "Oturum istatistikleri seçili kipte geçerli değildir."
+
+msgid "tooltip/mainBtn/body/enabled"
+msgstr "Bir savaştaki performans özelliklerinizin yanı sıra oyun içi para türleri bakiyeleriniz."
+
+msgid "tooltip/mainBtn/body/winback"
+msgstr "Isınmada Oturum İstatistikleri bulunmamaktadır."
+
+msgid "tooltip/mainBtn/header"
+msgstr "Oturum İstatistikleri"
+
+msgid "tooltip/moreBtn/available/body"
+msgstr "Oturum istatistiklerini Şeref Salonuna aktarmak için tıklayın."
+
+msgid "tooltip/moreBtn/header"
+msgstr "Şeref Salonuna"
+
+msgid "tooltip/moreBtn/unavailable/body"
+msgstr "Aktarılamıyor: Şeref Salonu şu anda devre dışı. Lütfen daha sonra tekrar deneyin."
+
+msgid "tooltip/settings/commonSettings/isNotNeededResetStatsEveryDay/body"
+msgstr "Bu ayar etkinleştirildiğinde oturum istatistikleri her 24 saatte bir otomatik olarak sıfırlanmaz. Tüm gelişim elle sıfırlanana kadar kaydedilir. Bu ayarın etkinleştirilmesiyle 24 saatten daha uzun bir süre için biriken tüm istatistiklerin Şeref Salonundakilerden farklı olacağını aklınızda bulundurun."
+
+msgid "tooltip/settings/commonSettings/saveCurrentTab/body"
+msgstr "Bu ayar etkinleştirildiğinde oturum istatistikleri arayüzü sekmede bıraktığınız yerde gösterilecektir."
+
+msgid "tooltip/settings/resetBtn/body"
+msgstr "Oturum istatistikleri ayarlarını sıfırlamak için tıklayın."
+
+msgid "tooltip/settings/resetBtn/header"
+msgstr "Oturum İstatistikleri Ayarlarını Sıfırlayın"
+
+msgid "tooltip/settingsBtn/body"
+msgstr "Oturum istatistiklerinde gösterilecek parametreleri seçin."
+
+msgid "tooltip/settingsBtn/header"
+msgstr "Ayarlar"
+
+msgid "tooltip/statValue/credits/body"
+msgstr "Oturumda kazanılan toplam kredi: %(total)s"
+
+msgid "tooltip/statValue/crystals/body"
+msgstr "Oturumda kazanılan toplam tahvil: %(total)s"
+
+msgid "tooltip/statValue/freeXp/body"
+msgstr "Oturumda kazanılan toplam Serbest Deneyim: %(total)s"
+
+msgid "tooltip/statValue/xp/body"
+msgstr "Oturumda kazanılan toplam Savaş Deneyimi: %(total)s"
+
+msgid "tooltip/tabBattle"
+msgstr "Savaşlara göre"
+
+msgid "tooltip/tabVehicle"
+msgstr "Araçlara göre"
+
+msgid "tooltip/totalValue"
+msgstr "Oturumdaki toplam değer: %(total)s."

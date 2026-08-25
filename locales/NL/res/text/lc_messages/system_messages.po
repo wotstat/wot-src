@@ -1,0 +1,4475 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT-team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "Je account is succesvol teruggehaald"
+
+msgid "achievements/server_error"
+msgstr "De wijzigingen aan het lint met waardevolle onderscheidingen zijn niet opgeslagen."
+
+msgid "actionAchievement/title"
+msgstr "Medaille voor evenementen"
+
+msgid "actionAchievements/title"
+msgstr "Medailles voor evenementen"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "Fout bij het trainen van een specialisatie. Verkeerde voertuig."
+
+msgid "add_tankman_skill/server_error"
+msgstr "Nieuwe specialisatie kan niet worden getraind.\nServer onbeschikbaar. Probeer het later nog eens."
+
+msgid "add_tankman_skill/success"
+msgstr "Nieuwe specialisatie getraind: %(skill)s"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "Fout bij het trainen van een specialisatie. Het voertuig is vergrendeld."
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "Fout bij het trainen van een specialisatie. Repareer je voertuig."
+
+msgid "add_tankman_skills/server_error"
+msgstr "Nieuwe specialisaties kunnen niet worden getraind.\nServer onbeschikbaar. Probeer het later nog eens."
+
+msgid "add_tankman_skills/success"
+msgstr "Nieuwe specialisaties getraind: %(skill)s"
+
+msgid "another_periphery"
+msgstr "Je bent nog ingelogd op een andere server."
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "Fout tijdens meedoen gevecht: je zit al in het team."
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "Fout bij het starten van het gevecht: verkeerd teamnummer."
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "Participatie fout. De handeling is tijdelijk opgeschort. Probeer het later nog eens."
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "Dit evenement is momenteel niet beschikbaar. Volg het laatste nieuws op de spelwebsite."
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "Fout tijdens meedoen gevecht: de uitnodiging is verlopen."
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "Participatie fout, onvoldoende permissies."
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "Het gevecht kan niet worden betreden. De wachtrij is op dit moment onbeschikbaar. Probeer het alsjeblieft later opnieuw."
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "Handeling onbeschikbaar. De wachtrij is op dit moment vol. Probeer het alsjeblieft later opnieuw."
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "Fout tijdens meedoen gevecht: het team bestaat al."
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "Fout tijdens meedoen gevecht: verbinding geeft geen reactie."
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "Participatie fout, niet beschikbaar voor dit Accounttype."
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "Fout bij aanmelden gevecht."
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "Participatie fout, WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "Deelname fout: geselecteerd Historisch gevecht is niet beschikbaar."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "Fout met verbinden. Selecteer alsjeblieft server %s."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "Fout met verbinding. Selecteer alsjeblieft een andere server."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "Fout tijdens meedoen gevecht: het huidige voertuig is niet gereed."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "Fout: voertuigen van dit niveau kunnen niet vechten in deze gevechtsmodus."
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "Meedoen aan het gevecht is niet mogelijk: het voertuig is niet gereed."
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "Koop een voertuig om aan de strijd mee te doen."
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "Fout bij deelnemen aan gevecht (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "Fout bij deelnemen aan gevecht (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "Fout bij deelnemen aan gevecht (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "Fout bij deelnemen aan gevecht (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "Fout bij deelnemen aan gevecht (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "Fout bij deelnemen aan gevecht (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "Fout bij deelnemen aan gevecht (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "Fout bij deelnemen aan gevecht (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "Fout bij deelnemen aan gevecht (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "Fout bij deelnemen aan gevecht (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "Fout bij deelnemen aan gevecht (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "De maximale wachttijd voor een gevecht is overschreden. Selecteer een ander voertuig of probeer later opnieuw."
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" past niet bij dit voertuig."
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "Verkeerd voertuig. %(kind)s \"%(name)s\" niet gemonteerd."
+
+msgid "artefact_apply/money_success"
+msgstr "%(kind)s \"%(name)s\" is van het voertuig gedemonteerd. Je hebt %(money)s uitgegeven."
+
+msgid "artefact_apply/server_error"
+msgstr "Serverfout bij het monteren van %(kind)s \"%(name)s\". Probeer het later opnieuw."
+
+msgid "artefact_apply/success"
+msgstr "%(kind)s \"%(name)s\" gemonteerd op het voertuig."
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "Voertuig vergrendeld. %(kind)s \"%(name)s\" niet gemonteerd."
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "Voertuig beschadigd. %(kind)s \"%(name)s\" niet gemonteerd. Repareer je voertuig en probeer het opnieuw."
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" past niet bij dit voertuig."
+
+msgid "artefact_buy/invalid_module"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" aan te schaffen. Verkeerde module."
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "Verkeerd voertuig. Het is niet mogelijk om %(kind)s \"%(name)s\" te kopen en monteren."
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" aan te schaffen. Onvoldoende credits."
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" aan te schaffen. Onvoldoende obligaties."
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" aan te schaffen. Onvoldoende verjaardagsmunten."
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" aan te schaffen. Onvoldoende goud."
+
+msgid "artefact_buy/server_error"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" aan te schaffen. Probeer het later opnieuw."
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" aan te schaffen. De server is tijdelijk onbeschikbaar."
+
+msgid "artefact_buy/success"
+msgstr "%(kind)s \"%(name)s\" succesvol aangeschaft (%(count)s item(s)). Uitgegeven %(money)s."
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "Voertuig vergrendeld. Het is niet mogelijk om %(kind)s \"%(name)s\" te kopen en monteren."
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" te kopen en monteren. Repareer je voertuig en probeer het opnieuw."
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "%(name)s kan niet worden ontmanteld. Verkeerde module."
+
+msgid "artefact_deconstructing/server_error"
+msgstr "%(name)s kan niet worden ontmanteld. Probeer het later nog eens."
+
+msgid "artefact_deconstructing/success"
+msgstr "Uitrusting ontmanteld: %(name)s (x%(count)s). Je hebt %(money)s ontvangen."
+
+msgid "artefact_deconstructingMult/success"
+msgstr "Uitrusting ontmanteld: %(names)s. Je hebt %(money)s ontvangen."
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "'%(equipment)s' niet gedemonteerd. Onvoldoende middelen."
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "Verkeerd voertuig. %(kind)s \"%(name)s\" niet vernietigd."
+
+msgid "artefact_destroy/server_error"
+msgstr "Serverfout bij het vernietigen van %(kind)s \"%(name)s\". Probeer het later opnieuw."
+
+msgid "artefact_destroy/success"
+msgstr "%(kind)s \"%(name)s\" vernietigd door demontage."
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "Voertuig vergrendeld. %(kind)s \"%(name)s\" niet vernietigd."
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "Voertuig beschadigd. %(kind)s \"%(name)s\" niet vernietigd. Repareer je voertuig en probeer het opnieuw."
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "%(kind)s \"%(name)s\" van het voertuig gedemonteerd. Hiervoor werd een demontagekit gebruikt."
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "Verbruiksartikel \"%s\" is naar het depot gestuurd vanwege incompatibiliteit met de huidige module."
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "Verkeerd voertuig. %(kind)s \"%(name)s\" niet gedemonteerd."
+
+msgid "artefact_remove/money_success"
+msgstr "%(kind)s \"%(name)s\" is van het voertuig gedemonteerd. Je hebt %(money)s uitgegeven."
+
+msgid "artefact_remove/server_error"
+msgstr "Serverfout bij het demonteren van %(kind)s \"%(name)s\". Probeer het later opnieuw."
+
+msgid "artefact_remove/success"
+msgstr "%(kind)s \"%(name)s\" van het voertuig gedemonteerd."
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "Voertuig vergrendeld. %(kind)s \"%(name)s\" niet gedemonteerd."
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "Voertuig beschadigd. %(kind)s \"%(name)s\" niet gedemonteerd. Repareer je voertuig en probeer het opnieuw."
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "%(kind)s \"%(name)s\" is gratis van het voertuig gedemonteerd omdat je een actief WoT Plus-abonnement hebt."
+
+msgid "artefact_sell/invalid_module"
+msgstr "Kan %(kind)s \"%(name)s\" niet verkopen. Verkeerde module."
+
+msgid "artefact_sell/server_error"
+msgstr "Kan %(kind)s \"%(name)s\" niet verkopen. Probeer het later opnieuw."
+
+msgid "artefact_sell/success"
+msgstr "%(kind)s \"%(name)s\" (%(count)s artikel(en)). Ontvangen: %(money)s."
+
+msgid "artefact_upgrade/server_error"
+msgstr "Fout bij het upgraden van de uitrusting. Probeer het later alsjeblieft opnieuw."
+
+msgid "artefact_upgrade/success"
+msgstr "%(kind)s \"%(name)s\" succesvol geüpgraded. Eigenschappen verbeterd. Uitgegeven: %(money)s."
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "De %(name)s %(kind)s is succesvol geüpgraded en de eigenschappen zijn verbeterd. %(money)s uitgegeven.\n\nVergelijkbare uitrusting van de alternatieve set is naar het depot gestuurd."
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "Voertuig beschadigd. %(kind)s \"%(name)s\" niet geüpgraded. Repareer je voertuig en probeer het opnieuw."
+
+msgid "badges/select/server_error"
+msgstr "Serverfout"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "Actie niet beschikbaar. Wacht aub totdat de huidige handeling voltooid is."
+
+msgid "battle/request/SEND_INVITES"
+msgstr "Uitnodigingen sturen"
+
+msgid "battleAbilities_apply/error"
+msgstr "Fout met gevechtsreserves. Probeer het later alsjeblieft opnieuw."
+
+msgid "battleBooster_buy/credits_error"
+msgstr "Aanschaf van %(kind)s \"%(name)s\" mislukt. Onvoldoende credits."
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "Aanschaf van %(kind)s \"%(name)s\" mislukt. Onvoldoende obligaties."
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" past niet bij dit voertuig."
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" aan te schaffen. Onvoldoende verjaardagsmunten."
+
+msgid "battleBooster_buy/gold_error"
+msgstr "Aanschaf van %(kind)s \"%(name)s\" mislukt. Onvoldoende goud."
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "Aanschaf van %(kind)s \"%(name)s\" mislukt. Verkeerde module."
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "Aanschaf en monteren van %(kind)s \"%(name)s\" mislukt. Verkeerd voertuig."
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "Aanschaf van %(kind)s \"%(name)s\" mislukt. Onvoldoende credits."
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "Aanschaf van %(kind)s \"%(name)s\" mislukt. Onvoldoende obligaties."
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" aan te schaffen. Onvoldoende verjaardagsmunten."
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "Aanschaf van %(kind)s \"%(name)s\" mislukt. Onvoldoende goud."
+
+msgid "battleBooster_buy/server_error"
+msgstr "Acties met gevechtsbevelen zijn wegens onderhoud tijdelijk onbeschikbaar."
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "Aanschaf van %(kind)s \"%(name)s\" mislukt. De server is tijdelijk onbeschikbaar."
+
+msgid "battleBooster_buy/success"
+msgstr "%(kind)s \"%(name)s\" is succesvol aangeschaft (%(count)s artikel(en)). Je hebt %(money)s uitgegeven."
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "Het voertuig is vergrendeld. Aanschaf en monteren van %(kind)s \"%(name)s\" mislukt."
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "Aanschaf en monteren van %(kind)s \"%(name)s\" mislukt. Repareer het voertuig en probeer het opnieuw."
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "battleBooster_sell/server_error"
+msgstr "Acties met gevechtsbevelen zijn wegens onderhoud tijdelijk onbeschikbaar."
+
+msgid "battleBooster_sell/success"
+msgstr "%(kind)s \"%(name)s\" verkocht (%(count)s artikel(en)). Ontvangen: %(money)s."
+
+msgid "battleBoosters_apply/error"
+msgstr "Fout met gevechtsbevelen. Probeer het later alsjeblieft opnieuw."
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "Fout met gevechtsbevelen. Onvoldoende middelen voor de aankoop."
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "Actie onbeschikbaar. Je goud zal weer beschikbaar zijn nadat WG Wallet is hersteld."
+
+msgid "battlePass/activateChapter/success"
+msgstr "\"%(chapter)s\" hoofdstuk geactiveerd"
+
+msgid "battlePass/extraFinish/body"
+msgstr "Het %(name)s-evenement is afgelopen. Bedankt dat je eraan hebt deelgenomen!"
+
+msgid "battlePass/extraFinish/header"
+msgstr "Vechtpas: \"%(name)s\" hoofdstuk"
+
+msgid "battlePass/extraStarted/body"
+msgstr "Commandant! In Vechtpas is het %(name)s evenement begonnen. Tijdens dit evenement kun je een speciale beloning ontvangen!"
+
+msgid "battlePass/extraStarted/header"
+msgstr "Vechtpas: er is een nieuw hoofdstuk beschikbaar!"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "Commandant! Je hebt niet heel lang meer totdat het \"%(name)s\" hoofdstuk is afgelopen. Schiet op!"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "Vechtpas: \"%(name)s\" hoofdstuk"
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "Commandanten! Vergeet niet dat je in Klassementsgevechten Vechtpaspunten kunt verdienen!"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "Commandanten! Vergeet niet dat je in Frontlinie Vechtpaspunten kunt verdienen!"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "Commandanten! Vergeet niet dat je in Verkenningsmissie Vechtpaspunten kunt verdienen!"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "Commandanten! Vergeet niet dat je in Bestorming Vechtpaspunten kunt verdienen!"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "Vechtpas seizoen %(seasonNum)d"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "Fout bij het kiezen van de beloningen. Probeer het alsjeblieft opnieuw."
+
+msgid "battlePass/seasonEnd/text"
+msgstr "Het Vechtpasseizoen is afgelopen. Alle beloningen die je tijdens het seizoen niet hebt gekozen, zijn standaard aan je uitgereikt:"
+
+msgid "battlePass/switchChapter/error"
+msgstr "Fout bij het kiezen van een hoofdstuk. Probeer het alsjeblieft opnieuw."
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "Kies een hoofdstuk. Je kunt op ieder moment van hoofdstuk switchen."
+
+msgid "battlePass/switchChapter/success"
+msgstr "Je bent van hoofdstuk geswitcht. Nu is het \"%(chapter)s\" hoofdstuk actief."
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "Vechtpas is wegens onderhoud tijdelijk onbeschikbaar in Staaljager. Onze excuses voor het ongemak."
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "Wegens onderhoud is het op dit moment niet mogelijk om in de Bestorming-modus Vechtpaspunten te verdienen."
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "Wegens onderhoud is het op dit moment niet mogelijk om in de Bestorming Light-modus Vechtpaspunten te verdienen."
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "Vechtpas is wegens onderhoud tijdelijk onbeschikbaar in Frontlinie."
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "Vechtpas is wegens onderhoud tijdelijk onbeschikbaar in Klassementsgevechten."
+
+msgid "battlePass/switch_enabled/body"
+msgstr "Vechtpas is weer beschikbaar. Onze excuses voor het ongemak.\nSeizoen verlengd tot %(expiryTime)s."
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "Het is weer mogelijk om Vechtpaspunten te verdienen in de Bestorming-modus. Onze excuses voor het ongemak."
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "Het is weer mogelijk om Vechtpaspunten te verdienen in de Bestorming Light-modus. Onze excuses voor het ongemak."
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "Vechtpas is weer beschikbaar in Frontlinie. Onze excuses voor het ongemak."
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "Vechtpas is weer beschikbaar in Klassementsgevechten. Onze excuses voor het ongemak."
+
+msgid "battlePass/switch_pause/body"
+msgstr "Vechtpas is wegens onderhoud tijdelijk onbeschikbaar."
+
+msgid "battlePass/switch_started/body"
+msgstr "Commandanten! Het is weer tijd om de strijd aan te gaan voor unieke Vechtpasbeloningen!"
+
+msgid "battlePass/switch_started/title"
+msgstr "Vechtpas seizoen %(seasonNum)d"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "Vechtpas: %(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "Vechtpas is afgelopen. Alle beloningen die je niet hebt uitgekozen, zijn standaard aan je uitgereikt:"
+
+msgid "battlePassH/switch_disable/body"
+msgstr "Het hoofdstuk is afgelopen. Tot de volgende keer!"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "Vechtpas: %(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "Vechtpas is weer beschikbaar. Onze excuses voor het ongemak."
+
+msgid "battlePassH/switch_started/body"
+msgstr "Commandant! Je zult er snel achter komen dat dit een bijzondere Vechtpas is.\n\nBij voltooiing van de progressie ontvang je een Premium voertuig gekleed in een unieke 3D-stijl, aanpassingselementen, en nog veel meer beloningen!"
+
+msgid "battlePassH/switch_started/title"
+msgstr "Vechtpas: %(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "Fout bij het kopen van progressiestadia. Probeer het alsjeblieft opnieuw."
+
+msgid "battlePass_buy/server_error"
+msgstr "Fout bij het kopen van de verbeterde pas. Probeer het alsjeblieft opnieuw."
+
+msgid "battleResults/sharing/success"
+msgstr "Link is gekopieerd naar klembord. Je kan het zowel plakken in de chat door op Ctrl+V te drukken of buiten de spelclient gebruiken."
+
+msgid "battleSession/kickedFromQueue"
+msgstr "Niet in staat opponenten voor huidige tankcompagnie te vinden. Overweeg je team te reorganiseren."
+
+msgid "battleSession/memberJoined"
+msgstr "%s versterkt het team."
+
+msgid "battleSession/memberLeave"
+msgstr "%s heeft het team verlaten."
+
+msgid "battleSession/memberNotReady"
+msgstr "%s kan nog niet met het team meedoen."
+
+msgid "battleSession/memberOffline"
+msgstr "Verbinding verbroken met %s."
+
+msgid "battleSession/memberReady"
+msgstr "%s kan met het team meedoen."
+
+msgid "battlesession/error/AddObserver"
+msgstr "Maximum aantal toeschouwers in een team: %(numPlayers)s."
+
+msgid "battlesession/error/AddPlayer"
+msgstr "Maximum aantal spelers in een team: %(numPlayers)s."
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "Niet genoeg rechten om andere spelers te verplaatsen."
+
+msgid "battlesession/error/Limits"
+msgstr "Maximum aantal spelers in een team is overschreden."
+
+msgid "blueprints/conversion/disable"
+msgstr "Niet genoeg fragmenten om om te zetten."
+
+msgid "blueprints/conversion/error"
+msgstr "Ontslaan niet mogelijk: server onbeschikbaar. Probeer het later alsjeblieft opnieuw."
+
+msgid "blueprints/switch_off"
+msgstr "Voertuigblauwdrukken: deze mogelijkheid is tijdelijk uitgeschakeld. Onze excuses voor het ongemak."
+
+msgid "blueprints/switch_on"
+msgstr "Voertuigblauwdrukken zijn weer beschikbaar."
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "Actie niet beschikbaar. Persoonlijke reserve is al in gebruik."
+
+msgid "booster_activate/DISABLED"
+msgstr "Het is niet mogelijk de persoonlijke reserve te activeren. Actie onbeschikbaar."
+
+msgid "booster_activate/EXCEPTION"
+msgstr "Het is niet mogelijk de persoonlijke reserve te activeren. Actie onbeschikbaar."
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "Actie niet beschikbaar. Persoonlijke reserve niet beschikbaar of niet geselecteerd."
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "Het is niet mogelijk de persoonlijke reserve te activeren. Actie onbeschikbaar."
+
+msgid "booster_activate/server_error"
+msgstr "Het is niet mogelijk de persoonlijke reserve te activeren. Probeer het later opnieuw."
+
+msgid "booster_activate/success"
+msgstr "Persoonlijke reserve \"%(boosterName)s\" is geactiveerd. Tijd over: %(time)s."
+
+msgid "booster_buy/not_enough_credits"
+msgstr "Kan persoonlijke reserve \"%(boosterName)s\" niet aanschaffen. Niet genoeg credits."
+
+msgid "booster_buy/not_enough_gold"
+msgstr "Kan persoonlijke reserve \"%(boosterName)s\" niet aanschaffen. Niet genoeg goud."
+
+msgid "booster_buy/server_error"
+msgstr "Kan persoonlijke reserve \"%(boosterName)s\" niet aanschaffen."
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "Kan persoonlijke reserve \"%(boosterName)s\" niet aanschaffen. Server is tijdelijk onbeschikbaar."
+
+msgid "booster_buy/success"
+msgstr "Persoonlijke reserve \"%(boosterName)s\" succesvol aangeschaft (%(count)s stuk(s)). %(money)s uitgegeven."
+
+msgid "booster_buy/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "booster_sell/server_error"
+msgstr "Kan persoonlijke reserve \"%(boosterName)s\" niet verkopen. Probeer het later opnieuw."
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "Kan persoonlijke reserve \"%(boosterName)s\" niet verkopen. Probeer het later opnieuw."
+
+msgid "booster_sell/success"
+msgstr "Persoonlijke reserve \"%(boosterName)s\" succesvol verkocht (%(count)s stuk(s)). %(money)s ontvangen."
+
+msgid "buttons/goToPoll"
+msgstr "Ga door naar de Poll"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "Kan het bemanningslid niet rekruteren en overzetten: de tank heeft een unieke permanente bemanning."
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "Je hebt je limiet voor gratis bemanningsleden bereikt voor vandaag."
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "Niet in staat bemanningslid te rekruteren en over te zetten. Verkeerd voertuig."
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "Niet in staat bemanningslid te rekruteren en over te zetten. Niet voldoende credits."
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "Niet in staat bemanningslid te rekruteren en over te zetten. Niet voldoende goud."
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "Niet in staat bemanningslid te rekruteren en over te zetten. Probeer later opnieuw."
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "Niet in staat bemanningslid te rekruteren en over te zetten. Het voertuig is vergrendeld."
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "Kan het bemanningslid niet rekruteren en overzetten: de tank heeft een unieke permanente bemanning."
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "Je hebt je limiet voor gratis bemanningsleden bereikt voor vandaag."
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "Niet in staat bemanningslid te rekruteren en te vervangen. Verkeerd voertuig."
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "Niet in staat een bemanningslid te rekruteren en te vervangen. Niet voldoende credits."
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "Niet in staat een bemanningslid te rekruteren en te vervangen. Niet voldoende goud."
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "Niet in staat om een bemanningslid te rekruteren en te vervangen. Om een bemanningslid te rekruteren heb je een vrij bed nodig. Maak alstublieft een bed vrij of koop extra bedden in de barakken."
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "Niet in staat een bemanningslid te rekruteren en te vervangen. Probeer later opnieuw."
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "Niet in staat een bemanningslid te rekruteren en te vervangen. Het voertuig is vergrendeld."
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "Je hebt de limiet om gratis voertuigen te kopen bereikt. Probeer het morgen opnieuw."
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "Fout bij uitbreiding barakken. Onvoldoende credits."
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "Fout bij uitbreiding barakken. Onvoldoende goud."
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "De barakken kunnen niet worden uitgebreid. Probeer het later opnieuw."
+
+msgid "buy_tankmen_berths/success"
+msgstr "Barakken uitgebreid.\nGoud uitgegeven %(money)s."
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "buy_vehicle_slot_error"
+msgstr "Het aanschaffen van de %s is niet mogelijk. Onvoldoende plek in de garage. Verkoop een voertuig of koop een nieuwe plek."
+
+msgid "buy_vehicle_slot_error2"
+msgstr "Het aanschaffen van de %s is niet mogelijk. Onvoldoende plek in de garage. Maak alsjeblieft een plek vrij."
+
+msgid "challenges/activate/serverError"
+msgstr "Smeltkroes-missies activeren niet mogelijk. Probeer het later opnieuw."
+
+msgid "challenges/activate/success/text"
+msgstr "De eerste missie van deze reeks kan worden voltooid. Trek ten strijde en ga de uitdaging aan!"
+
+msgid "challenges/activate/success/title"
+msgstr "Smeltkroes: %(challengeName)s geactiveerd!"
+
+msgid "challenges/challengeEnd/button"
+msgstr "Naar Smeltkroes"
+
+msgid "challenges/challengeEnd/text"
+msgstr "Voltooi hem nu en ontvang je beloningen."
+
+msgid "challenges/challengeEnd/title"
+msgstr "Smeltkroes-missies eindigen snel!"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "Gefeliciteerd!"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "Je hebt Smeltkroes: %(challengeName)s voltooid! Ontvangen beloningen:"
+
+msgid "challenges/formatter/spent/credits"
+msgstr "Credits uitgegeven:"
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "Obligaties uitgegeven:"
+
+msgid "challenges/formatter/spent/gold"
+msgstr "Goud uitgegeven:"
+
+msgid "challenges/restart/free/text"
+msgstr "Er is één gratis herstart gebruikt en de missievoortgang is gereset."
+
+msgid "challenges/restart/free/title"
+msgstr "Smeltkroes: %(challengeName)s gratis herstart"
+
+msgid "challenges/restart/paid/title"
+msgstr "Smeltkroes: %(challengeName)s herstart"
+
+msgid "challenges/restart/serverError"
+msgstr "Smeltkroes-missies herstarten niet mogelijk. Probeer het later opnieuw."
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "Actie onbeschikbaar. Wacht alsjeblieft tot de huidige handeling is voltooid."
+
+msgid "challenges/surrender/serverError"
+msgstr "Smeltkroes-missies afbreken niet mogelijk. Probeer het later opnieuw."
+
+msgid "challenges/surrender/success/text"
+msgstr "Je hebt Smeltkroes: %(challengeName)s afgebroken. De reeks missies is gefaald."
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "Kan de kwalificatie van het bemanningslid niet veranderen: de tank heeft een unieke permanente bemanning."
+
+msgid "change_tankman_role/invalid_role"
+msgstr "Niet in staat kwalificatie aan te passen. Probeer later opnieuw."
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "Niet in staat kwalificatie aan te passen. Verkeerd voertuig."
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "Voertuig is niet in de garage. De geherkwalificeerde bemanningsleden zullen naar de barakken worden gestuurd."
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "Niet in staat bemanningslidkwalificatie aan te passen. Niet genoeg credits."
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "Niet in staat bemanningslidkwalificatie aan te passen. Niet genoeg goud."
+
+msgid "change_tankman_role/server_error"
+msgstr "Kwalificatie kan niet worden veranderd.\nProbeer het later opnieuw."
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "Er is al een %(role)s in %(vehicle)s. De geherkwalificeerde bemaningsleden zullen naar de barakken worden gestuurd."
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "Niet in staat kwalificatie aan te passen. Probeer later opnieuw."
+
+msgid "charge/credits_error"
+msgstr "%s credits en %s goud nodig. Munitie handmatig laden."
+
+msgid "charge/credits_error_credits"
+msgstr "%s credits tekort. Munitie handmatig laden."
+
+msgid "charge/credits_error_gold"
+msgstr "%s goud tekort. Munitie handmatig laden."
+
+msgid "charge/inventory_error"
+msgstr "Munitie voor de %(vehicle)s is niet geladen. Laad de munitie handmatig."
+
+msgid "charge/money_spent"
+msgstr "%s uitgegeven aan munitie."
+
+msgid "charge/server_error"
+msgstr "Fout bij laden munitie. Probeer het later opnieuw."
+
+msgid "charge/server_error_save"
+msgstr "Fout bij opslaan munitie. Probeer het later opnieuw."
+
+msgid "charge/success"
+msgstr "Munitie geladen."
+
+msgid "charge/success_save"
+msgstr "Munitie opgeslagen."
+
+msgid "checkout_error"
+msgstr "Fout tijdens ontvangen gebruikersinformatie. Probeer het nog eens."
+
+msgid "clans/isClanProfileDisabled"
+msgstr "Actie niet beschikbaar. Probeer later opnieuw."
+
+msgid "clans/notifications/accept"
+msgstr "Akkoord"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "Clanuitnodiging is reeds naar %(userName)s verstuurd."
+
+msgid "clans/notifications/decline"
+msgstr "Afwijzen"
+
+msgid "clans/notifications/from"
+msgstr "Van %(user)s"
+
+msgid "clans/notifications/info"
+msgstr "Bekijk clandetails"
+
+msgid "clans/notifications/invite"
+msgstr "Uitnodiging tot een clan"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "Clanuitnodiging aanvaard."
+
+msgid "clans/notifications/invite/declined"
+msgstr "Clanuitnodiging afgewezen."
+
+msgid "clans/notifications/invite/expired"
+msgstr "Clanuitnodiging is ongeldig."
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s heeft de clanuitnodiging geaccepteerd."
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s heeft de clanuitnodiging afgewezen."
+
+msgid "clans/notifications/inviteSendError"
+msgstr "Kan geen clanuitnodiging versturen naar %(userName)s."
+
+msgid "clans/notifications/inviteSent"
+msgstr "Clanuitnodiging verstuurd naar %(userName)s."
+
+msgid "clans/notifications/invites"
+msgstr "Clanuitnodigingen: %(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "Schakel kennisgevingen uit"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "Uitnodigingen bekijken"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "Clanuitnodigingen zijn niet verstuurd naar %(userCount)d spelers."
+
+msgid "clans/notifications/invitesSent"
+msgstr "Uitnodigingen zijn verstuurd naar %(userCount)d spelers."
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "Je bent toegelaten tot de clan\n%(nameStartTag)s%(name)s%(nameEndTag)s."
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "Je aanvraag voor de clan\n%(nameStartTag)s%(name)s%(nameEndTag)s is afgewezen."
+
+msgid "clans/notifications/request"
+msgstr "Aanvraag voor clan"
+
+msgid "clans/notifications/request/accepted"
+msgstr "Aanvraag geaccepteerd."
+
+msgid "clans/notifications/request/declined"
+msgstr "Aanvraag afgewezen."
+
+msgid "clans/notifications/requestSent"
+msgstr "Aanvraag ingediend bij clan:\n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "Uitnodigingen van spelers: %(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "Aanvragen bekijken"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "%(userName)s is al uitgenodigd voor jouw clan."
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "Actie niet beschikbaar. De speler voldoet niet aan de rekruteringsvereisten."
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "De eendaagse sanctie voor het verlaten van je vorige clan is nog niet verlopen."
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "Actie niet beschikbaar. Onjuist account."
+
+msgid "clans/request/errors/Account is banned"
+msgstr "Actie niet beschikbaar. Account is gebanned."
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "Deze speler is al lid van een clan."
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "Actie niet beschikbaar. De speler is geen clanlid."
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "Actie niet beschikbaar: De aanvraag bestaat niet."
+
+msgid "clans/request/errors/Application is not active"
+msgstr "Actie niet beschikbaar. De aanvraag is verlopen."
+
+msgid "clans/request/errors/Bad request"
+msgstr "Actie niet beschikbaar. Probeer later opnieuw."
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "Niet genoeg rechten om een aanvraag bij een clan te doen."
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "Clanrekrutering gesloten."
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "Clan is vol."
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "Actie niet beschikbaar. Clan bestaat niet."
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "Actie niet beschikbaar. Clan is vol."
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "Actie niet beschikbaar. Clan is ontbonden."
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "Actie niet beschikbaar. Clan is niet actief."
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "Actie niet beschikbaar. Probeer later opnieuw."
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "Actie niet beschikbaar. Probeer later opnieuw."
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "Aktie is niet beschikbaar voor dit type account."
+
+msgid "clans/request/errors/Forbidden"
+msgstr "Actie niet beschikbaar. Je hebt onvoldoende rechten."
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "Actie niet beschikbaar. Probeer later opnieuw."
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "Actie niet beschikbaar. Uitnodiging bestaat niet."
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "Actie niet beschikbaar. Uitnodiging is verlopen."
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "Actie niet beschikbaar. Probeer later opnieuw."
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "Actie niet beschikbaar. Probeer later opnieuw."
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "Actie niet beschikbaar. Vestiging is niet beschikbaar."
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "Actie niet beschikbaar: Maximum aantal aanvragen ingediend."
+
+msgid "clans/request/errors/Too many invites"
+msgstr "Actie niet beschikbaar. Maximaal aantal uitnodigingen verstuurd."
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "Actie niet beschikbaar. Probeer later opnieuw."
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "Actie niet beschikbaar. Probeer later opnieuw."
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "Actie niet beschikbaar. Probeer later opnieuw."
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "Actie niet beschikbaar. Probeer later opnieuw."
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "%(userName)s is al een lid van een clan."
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s \"%s\" is niet geschikt voor dit voertuig."
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s \"%s\" past niet op deze koepel. Vervang de koepel."
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s \"%s\" is van het verkeerde type."
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s \"%s\" is van de verkeerde natie."
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s \"%s\" is niet geschikt voor dit voertuig."
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s \"%s\" is van het verkeerde type."
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s \"%s\" is van de verkeerde natie."
+
+msgid "client_inactive"
+msgstr "Client inactief"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "Collectief zijn wegens wegens onderhoud tijdelijk onbeschikbaar."
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "Collecties onbeschikbaar"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "De problemen met de collecties zijn opgelost. Onze excuses voor het ongemak."
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "Collecties zijn weer beschikbaar"
+
+msgid "connected"
+msgstr "Welkom op de World of Tanks-server %s!"
+
+msgid "consumables_apply/error"
+msgstr "Fout met verbruiksartikelen. Probeer het later alsjeblieft opnieuw."
+
+msgid "consumables_apply/not_enough_money"
+msgstr "Fout met verbruiksartikelen. Onvoldoende middelen voor de aankoop."
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "Actie onbeschikbaar. Je goud zal weer beschikbaar zijn nadat WG Wallet is hersteld."
+
+msgid "conversion/error"
+msgstr "Ontslaan niet mogelijk: server onbeschikbaar. Probeer het later alsjeblieft opnieuw."
+
+msgid "conversion/header"
+msgstr "Datum: %(at)s\nToegevoegd:"
+
+msgid "conversion/success"
+msgstr "Ondertrainde bemanningsleden ontslagen: %(number)s"
+
+msgid "conversion/title"
+msgstr "Ontvangstbewijs"
+
+msgid "conversionPerks/header"
+msgstr "Datum: %(at)s\nXP omzetten van bemanningsspecialisaties boven de limiet. Ontvangen: "
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "Privéberichten zijn onbeschikbaar voor spelers uit jouw land."
+
+msgid "crewBooks/failed"
+msgstr "Niet in staat om deze bemanning te trainen.\nProbeer het later opnieuw."
+
+msgid "crewBooks/server_error"
+msgstr "Trainen van de bemanning is wegens een serverfout mislukt. Probeer het later opnieuw."
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s."
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "crewBooksNotification/success"
+msgstr "Bemanning getraind.\nUitgegeven:"
+
+msgid "crewBooks_buy/server_error"
+msgstr "Het bemanningsboek kan wegens een serverfout niet worden gekocht. Probeer het later opnieuw."
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s (%(count)s artikel(en)).\nCredits uitgegeven: %(money)s."
+
+msgid "crewBooks_sell/server_error"
+msgstr "Het bemanningsboek kan wegens een serverfout niet worden gekocht. Probeer het later opnieuw."
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s (%(count)s artikel(en)).\nCredits ontvangen: %(money)s."
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "Bemanningsskin gewijzigd."
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "Bemanningsskins toegevoegd: %(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "Het huidige voertuig is vervangen door de %s."
+
+msgid "customization/added/attachment"
+msgstr "%s 3D-attachment toegevoegd"
+
+msgid "customization/added/attachmentValue"
+msgstr "%s 3D-attachment toegevoegd: (x%s)"
+
+msgid "customization/added/camouflage"
+msgstr "%s camouflage toegevoegd"
+
+msgid "customization/added/camouflageValue"
+msgstr "%s camouflage toegevoegd: (x%s)"
+
+msgid "customization/added/decal"
+msgstr "%s sticker toegevoegd"
+
+msgid "customization/added/decalValue"
+msgstr "%s sticker toegevoegd: (x%s)"
+
+msgid "customization/added/emblem"
+msgstr "%s embleem toegevoegd"
+
+msgid "customization/added/emblemValue"
+msgstr "%s embleem toegevoegd: (x%s)"
+
+msgid "customization/added/inscription"
+msgstr "%s leus toegevoegd"
+
+msgid "customization/added/inscriptionValue"
+msgstr "%s leus toegevoegd: (x%s)"
+
+msgid "customization/added/modification"
+msgstr "%s effect toegevoegd"
+
+msgid "customization/added/modificationValue"
+msgstr "%s effect toegevoegd: (x%s)"
+
+msgid "customization/added/paint"
+msgstr "%s verf toegevoegd"
+
+msgid "customization/added/paintValue"
+msgstr "%s verf toegevoegd: (x%s)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "%s getal van één cijfer toegevoegd"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "%s getal van één cijfer toegevoegd: (x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "%s getal van twee cijfers toegevoegd"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "%s getal van twee cijfers toegevoegd: (x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "%s getal van drie cijfers toegevoegd"
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "%s getal van drie cijfers toegevoegd: (x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "%s sticker toegevoegd"
+
+msgid "customization/added/projectionDecalValue"
+msgstr "%s sticker toegevoegd: (x%s)"
+
+msgid "customization/added/statTracker"
+msgstr "Statistiekentracker: %s toegevoegd"
+
+msgid "customization/added/statTrackerValue"
+msgstr "Statistiekentrackers: %s toegevoegd: (x%s)"
+
+msgid "customization/added/style"
+msgstr "%s stijl toegevoegd"
+
+msgid "customization/added/styleValue"
+msgstr "%s stijl toegevoegd: (x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "Niet in staat aan te passen. Onvoldoende credits en goud."
+
+msgid "customization/credits_not_enough"
+msgstr "Niet in staat aan te passen. Onvoldoende credits."
+
+msgid "customization/currency_not_enough"
+msgstr "Niet genoeg valuta om het artikel te kopen."
+
+msgid "customization/gold_not_enough"
+msgstr "Niet in staat aan te passen. Onvoldoende goud."
+
+msgid "customization/igr_type_changed_error"
+msgstr "IGR status verandert. Huidige bewerking geannuleerd."
+
+msgid "customization/invalidVehicle"
+msgstr "Kan niet worden aangebracht: ongeschikt voertuig"
+
+msgid "customization/personal_number_prohibited"
+msgstr "Het getal %(value)s is onbeschikbaar.\nHet %(itemType)s, %(itemName)s, is voor de %(seasonName)skaart verwijderd."
+
+msgid "customization/progression/down/style"
+msgstr "%s stijl gedowngraded naar level %s"
+
+msgid "customization/progression/up/style"
+msgstr "%s stijl geüpgraded naar level %s"
+
+msgid "customization/prohibited"
+msgstr "Kan niet toepassen: %(itemName)s is niet in de inventaris."
+
+msgid "customization/removed/attachment"
+msgstr "%s 3D-attachment verwijderd"
+
+msgid "customization/removed/attachmentValue"
+msgstr "%s 3D-attachment verwijderd: (x%s)"
+
+msgid "customization/removed/camouflage"
+msgstr "%s camouflage verwijderd"
+
+msgid "customization/removed/camouflageValue"
+msgstr "%s camouflage verwijderd: (x%s)"
+
+msgid "customization/removed/decal"
+msgstr "%s sticker verwijderd"
+
+msgid "customization/removed/decalValue"
+msgstr "%s sticker verwijderd: (x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "%s embleem verwijderd"
+
+msgid "customization/removed/emblemValue"
+msgstr "%s embleem verwijderd: (x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "%s leus verwijderd"
+
+msgid "customization/removed/inscriptionValue"
+msgstr "%s leus verwijderd: (x%s)"
+
+msgid "customization/removed/modification"
+msgstr "%s effect verwijderd"
+
+msgid "customization/removed/modificationValue"
+msgstr "%s effect verwijderd: (x%s)"
+
+msgid "customization/removed/paint"
+msgstr "%s verf verwijderd"
+
+msgid "customization/removed/paintValue"
+msgstr "%s verf verwijderd: (x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "%s getal van één cijfer verwijderd"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "%s getal van één cijfer verwijderd: (x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "%s getal van twee cijfers verwijderd"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "%s getal van twee cijfers verwijderd: (x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "%s getal van drie cijfers verwijderd"
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "%s getal van drie cijfers verwijderd: (x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "%s sticker verwijderd"
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "%s sticker verwijderd: (x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "Statistiekentracker: %s verwijderd"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "Statistiekentrackers: %s verwijderd: (x%s)"
+
+msgid "customization/removed/style"
+msgstr "%s stijl verwijderd"
+
+msgid "customization/removed/styleValue"
+msgstr "%s stijl verwijderd: (x%s)"
+
+msgid "customization/server_error"
+msgstr "Kan niet aanpassen."
+
+msgid "customization/unavailable"
+msgstr "Aanpassingsfunctionaliteit voor voertuigen is tijdelijk uitgeschakeld vanwege technische redenen."
+
+msgid "customization/vehicle_damaged"
+msgstr "Niet in staat aan te passen. Voertuig beschadigd. Reparaties benodigd."
+
+msgid "customization/vehicle_destroyed"
+msgstr "Niet in staat aan te passen. Voertuig uitgeschakeld. Reparaties benodigd."
+
+msgid "customization/vehicle_exploded"
+msgstr "Niet in staat aan te passen. Voertuig vernietigd. Reparaties benodigd."
+
+msgid "customization/vehicle_locked"
+msgstr "Niet in staat aan te passen. Voertuig vergrendeld."
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "Kan de standaard missie niet vervangen: de missie is reeds voltooid."
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "Kan de standaard missie niet vervangen: actie geblokkeerd."
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "Kan de standaard missie niet vervangen: cooldown actief."
+
+msgid "daily_quests/reroll/success"
+msgstr "Standaard missie succesvol vervangen."
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "Kan de standaard missie niet vervangen. Probeer het later opnieuw."
+
+msgid "daily_quests/switch_off/body"
+msgstr "Deze functionaliteit is wegens technische redenen tijdelijk niet beschikbaar.\nOnze excuses voor het ongemak."
+
+msgid "daily_quests/switch_off/title"
+msgstr "Standaard missies zijn tijdelijk onbeschikbaar"
+
+msgid "daily_quests/switch_on/body"
+msgstr "De technische problemen zijn opgelost. Onze excuses voor het ongemak."
+
+msgid "daily_quests/switch_on/title"
+msgstr "Standaard missies zijn weer beschikbaar"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "Deze functionaliteit is wegens technische redenen tijdelijk onbeschikbaar.\nOnze excuses voor enig ongemak."
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "Beheerbare bonus voor ervaring is tijdelijk onbeschikbaar"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "De technische problemen zijn opgelost. Onze excuses voor enig ongemak."
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "Beheerbare bonus voor ervaring is weer beschikbaar"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "Het gebruik van demontagekits is wegens onderhoud tijdelijk onbeschikbaar."
+
+msgid "demountKit_restored/switchedOn"
+msgstr "Het gebruik van demontagekits is weer beschikbaar. Onze excuses voor enig ongemak."
+
+msgid "denunciation/success"
+msgstr "Klacht over %(name)s betreffende \"%(topic)s\" geaccepteerd."
+
+msgid "disconnected"
+msgstr "Client-serververbinding is verbroken."
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "Kan het bemanningslid niet ontslaan: de tank heeft een unieke permanente bemanning."
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "Fout bij ontslag bemanningslid. Verkeerd voertuig."
+
+msgid "dismiss_tankman/server_error"
+msgstr "Niet in staat om dit bemanningslid te ontslaan.\nProbeer het later opnieuw."
+
+msgid "dismiss_tankman/success"
+msgstr "Bemanningslid ontslagen."
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "Fout bij ontslag bemanningslid. Het voertuig is vergrendeld."
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "Fout bij ontslag bemanningslid. Repareer je voertuig."
+
+msgid "dog_tags/switch_off/body"
+msgstr "Deze functionaliteit is wegens technische redenen tijdelijk niet beschikbaar.\nOnze excuses voor het ongemak."
+
+msgid "dog_tags/switch_off/title"
+msgstr "Dog tags zijn tijdelijk onbeschikbaar"
+
+msgid "dog_tags/switch_on/body"
+msgstr "De technische problemen zijn opgelost. Onze excuses voor het ongemak."
+
+msgid "dog_tags/switch_on/title"
+msgstr "Dog tags zijn weer beschikbaar"
+
+msgid "dossiers_unavailable"
+msgstr "Account is niet gereed (DOSSIERS_niet beschikbaar)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "Alle specialisaties zijn gereset.\nCredits uitgegeven: %(money)s."
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "Alle specialisaties zijn gereset.\nGoud uitgegeven: %(money)s."
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "Fout bij het resetten van specialisaties. Verkeerde voertuig."
+
+msgid "drop_tankman_skill/server_error"
+msgstr "Specialisaties resetten niet mogelijk. Probeer het later nog eens."
+
+msgid "drop_tankman_skill/success"
+msgstr "Alle specialisaties zijn gereset."
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "Fout bij het resetten van specialisaties. Het voertuig is vergrendeld."
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "Fout bij het resetten van specialisaties. Repareer je voertuig."
+
+msgid "drr_scale/step_down"
+msgstr "Dynamische resolutie is verlaagd tot %(scale)d%%."
+
+msgid "drr_scale/step_up"
+msgstr "Dynamische resolutie is verhoogd tot %(scale)d%%."
+
+msgid "earning/button/multiple"
+msgstr "Naar onderscheidingen"
+
+msgid "earning/button/single"
+msgstr "Naar onderscheiding"
+
+msgid "earning/common/multiple"
+msgstr "%(value)s onderscheidingen ontgrendeld!"
+
+msgid "earning/common/single"
+msgstr "%(value)s onderscheiding ontgrendeld!"
+
+msgid "earning/title"
+msgstr "Gefeliciteerd!"
+
+msgid "earning/trophy/multiple"
+msgstr "%(value)s trofeeën verdiend!"
+
+msgid "earning/trophy/single"
+msgstr "%(value)s trofee verdiend!"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "Snel onderhoud is weer beschikbaar. Onze excuses voor enig ongemak."
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "Snel onderhoud is wegens onderhoud tijdelijk onbeschikbaar."
+
+msgid "easyTankEquip_apply/error"
+msgstr "Fout bij het toepassen van de Snel onderhoud-configuratie. Probeer het later alsjeblieft opnieuw."
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "Fout bij het toepassen van de Snel onderhoud-configuratie. Onvoldoende middelen voor de aankoop."
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "Snel onderhoud-handeling onbeschikbaar. Je goud zal weer beschikbaar zijn nadat WG Wallet is hersteld."
+
+msgid "epicBattles/levelUp/awards"
+msgstr "Beloning ontvangen:"
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "Je hebt niveau <font color='#E9E2BF'>%(tier)s</font> van de Frontlinieprogressie bereikt."
+
+msgid "epicBattles/levelUp/title"
+msgstr "Gefeliciteerd!"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "Frontlinie is onbeschikbaar. Volg de updates op het spelportaal."
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "Fout bij het kiezen van beloningen. Probeer het alsjeblieft nog eens."
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "%(name)s ontvangen"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "Gevechtsbevelen voor uitrusting ontvangen: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "Experimentele uitrusting ontvangen: %(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "Het Frontlinieseizoen is afgelopen.<br/>Alle beloningen die je tijdens het seizoen niet hebt gekozen, zijn standaard aan je uitgereikt:"
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "Frontlinie"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "Kan het bemanningslid niet overzetten: de tank heeft een unieke permanente bemanning."
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "Fout bij het verplaatsen van een bemanningslid naar het voertuig. Verkeerd voertuig."
+
+msgid "equip_tankman/not_enough_space"
+msgstr "Bemanningsleden kunnen niet naar de barakken worden gestuurd. Niet genoeg bedden in de barakken."
+
+msgid "equip_tankman/server_error"
+msgstr "Verplaatsen van bemanningsleden naar voertuig mislukt. Probeer het later opnieuw."
+
+msgid "equip_tankman/success"
+msgstr "Bemanningslid overgeplaatst naar de %(vehName)s."
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "Fout bij het verplaatsen van een bemanningslid naar het voertuig. Het voertuig is vergrendeld."
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "Fout bij het verplaatsen van een bemanningslid. Repareer het voertuig."
+
+msgid "exchange/not_enough_gold"
+msgstr "Niet genoeg goud om te wisselen."
+
+msgid "exchange/server_error"
+msgstr "Fout bij omzetten %(gold)s goud. Probeer het later opnieuw."
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "Niet genoeg goud voor %(xp)s XP omzetting."
+
+msgid "exchangeXP/server_error"
+msgstr "Fout bij omzetten %(xp)s XP. Probeer het later opnieuw."
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "filling_untrained_perks/server_error"
+msgstr "Nieuwe specialisaties kunnen niet worden getraind.\nServer onbeschikbaar. Probeer het later nog eens."
+
+msgid "filling_untrained_perks/success"
+msgstr "Nieuwe specialisaties voor alle bemanningsleden getraind."
+
+msgid "fortification/addOrder"
+msgstr "Voorbereidingen van %(count)s Reserve(s) gestart: Tijd resterend: %(time)s"
+
+msgid "fortification/buildingProcess"
+msgstr "Bouwen van bouwwerk %(buildingName)s gestart. Transporteer de vereiste hoeveelheid industriële grondstoffen om voor een ononderbroken bouw te zorgen."
+
+msgid "fortification/created"
+msgstr "Gefeliciteerd!\nVesting succesvol gecreëerd."
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "Verdediging van jouw Vesting wordt uitgeschakeld over 48 uur. Tijdens deze tijd kan je de verdediging in de vestinginstellingen opnieuw inschakelen."
+
+msgid "fortification/defenceHourSet"
+msgstr "Verdedigingsperiode wordt aangepast binnen 14 dagen. Nieuwe verdedigingsperiode: %(defenceHour)s."
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "Staakt-het-vuren dag zal binnen 14 dagen worden aangepast. Nieuwe staakt-het-vuren dag—niet bepaald."
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "Staakt-het-vuren dag zal binnen 14 dagen worden aangepast. Nieuwe staakt-het-vuren dag—%(offDay)s."
+
+msgid "fortification/demountBuilding"
+msgstr "Bouwwerk %(buildingName)s vernietigd."
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "Actie niet beschikbaar. Je bent al gekoppeld aan dit bouwwerk."
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "Actie niet beschikbaar. Vesting al gecreëerd."
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "Actie niet beschikbaar. Clan staat al in de markeringslijst."
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "Actie niet beschikbaar. Je kunt niet meer dan één aanval op dezelfde clan plannen."
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "Actie niet beschikbaar. Aanvalsgegevens zijn niet geladen."
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "Actie niet beschikbaar. Eén week moet voorbij gaan na de laatste aanval op deze clan."
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "Actie niet beschikbaar. Een andere afdeling beheerst het bruggenhoofd."
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "Actie niet beschikbaar. Aanval is niet gepland."
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "Actie onbeschikbaar. Een aanval moet minimaal 15 minuten van tevoren worden gepland."
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "Het is niet mogelijk een aanval te plannen op de geselecteerde dag."
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "Actie niet beschikbaar. Incorrect clan ID."
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "Actie niet beschikbaar. Incorrecte waarde voor de staakt-het-vuren dag."
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "Actie niet beschikbaar. Incorrecte datum."
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "Actie niet beschikbaar. Incorrect ID van Offensief."
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "Actie niet beschikbaar. Incorrecte waarde voor verdedigingsperiode."
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "Kan de geselecteerde clan niet aanvallen: het verschil in vestingniveau is groter dan een. Selecteer een andere clan."
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "Actie niet beschikbaar. Incorrect aantal reserves."
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "Actie niet beschikbaar. Ongeldige hoeveelheid industriële grondstoffen overgedragen."
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "Actie niet beschikbaar. Incorrecte opdeling."
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "Actie niet beschikbaar. Details over Schermutseling niet ontvangen."
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "Gevechten zijn momenteel beperkt op deze server."
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "Actie niet beschikbaar. Ongeldige neutraliteits-periode."
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "Actie niet beschikbaar. Verkeerde datum voor neutraliteit."
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "Actie niet beschikbaar. Repareer het commandocentrum."
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "Actie niet beschikbaar. commandocentrum is vernietigd."
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "Actie niet beschikbaar. commandocentrum is niet beschadigd."
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "Actie niet beschikbaar. Gevecht bestaat niet."
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "Excuses, gevechtsstatistieken niet beschikbaar."
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "Onmogelijk te verwijderen. Vesting bevat bouwwerken."
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "Actie niet beschikbaar. Bouwwerk is beschadigd."
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "Actie niet beschikbaar. Bouwwerk niet gebouwd."
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "Actie niet beschikbaar. Kan clandetails niet ophalen."
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "Actie niet beschikbaar. Kan clan niet vinden."
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "Actie niet beschikbaar. Transport niet beschikbaar."
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "Actie niet beschikbaar. Onmogelijk bouwwerk te moderniseren."
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "Operatie afgewezen. De server is tijdelijk niet beschikbaar."
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "Actie niet beschikbaar. Clan heeft staakt-het-vuren dag geactiveerd."
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "Actie niet beschikbaar. Clan heeft neutraliteit geactiveerd."
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "Actie niet beschikbaar. Niet in staat de verdedigingsperiode op de aangewezen tijd te zetten."
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "Actie niet beschikbaar. Een andere afdeling beheerst het bruggenhoofd."
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "Actie niet beschikbaar. Verdediging is niet gepland."
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "Actie niet beschikbaar. Ongeldige data."
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "Actie niet beschikbaar. Verdediging niet ingeschakeld."
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "Vesting is tijdelijk niet beschikbaar."
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "Actie niet beschikbaar. Bouwwerk al gebouwd."
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "Actie niet beschikbaar. Wacht aub totdat de huidige handeling voltooid is."
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "Actie niet beschikbaar. Je valt op dat tijdstip een andere clan aan."
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "Het is niet mogelijk een aanval te plannen op deze clan op het opgegeven tijdstip."
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "Fout. Vesting is tijdelijk niet beschikbaar."
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "Actie niet beschikbaar. Vestingsniveau te laag."
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "Actie niet beschikbaar. Bouwen van alle bouwwerken is gepauzeerd."
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "Actie niet beschikbaar. Niet bevoegd."
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "Actie niet beschikbaar. Niet in staat bij tactische eenheid te gaan."
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "Actie is tijdelijk niet beschikbaar."
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "Actie niet beschikbaar. Tijd is niet gesynchroniseerd."
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "Actie niet beschikbaar. Je bent niet gekoppeld aan het bouwwerk."
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "Actie niet beschikbaar. De speler is geen clanlid."
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "Actie niet beschikbaar. Niet genoeg spelers in de clan."
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "Actie niet beschikbaar. Niet genoeg industriële grondstoffen in de opslag van het gebouw."
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "Actie niet beschikbaar. Clan staat niet op de markeringslijst."
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "Actie niet beschikbaar. Bouwwerk niet gebouwd."
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "Actie niet beschikbaar. Je bent geen lid van een clan."
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "Actie niet beschikbaar. De reserve kan momenteel niet geactiveerd worden."
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "Actie niet beschikbaar. Verkeerd bouwwerk."
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "Actie niet beschikbaar. Reserve niet beschikbaar of niet geselecteerd."
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "Actie niet beschikbaar. Verkeerde reserve."
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "Actie niet beschikbaar. Verkeerde reserve."
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "Actie niet beschikbaar. Bouwwerk wordt al gebouwd."
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "Actie niet beschikbaar. Aanval bestaat niet."
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "Actie niet beschikbaar. Reserve al in gebruik."
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "Actie niet beschikbaar. Reserve wordt al bereid gemaakt."
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "Actie niet beschikbaar. Bouwen is al gepauzeerd."
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "Actie niet beschikbaar. Reserve is niet beschikbaar."
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "Actie niet beschikbaar. Bouwen is niet gepauzeerd."
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "Actie niet beschikbaar. Server is offline."
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "Actie niet beschikbaar. Plaats is al bezet."
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "Actie niet beschikbaar. Verdediging is al uitgeschakeld."
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "Actie niet beschikbaar. Verdediging is nog niet uitgeschakeld."
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "Actie niet beschikbaar. Training niet compleet."
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "Actie niet beschikbaar. Depot is vol."
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "Actie niet beschikbaar. Verdediging is al gepland voor deze dag."
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "De limiet van gemarkeerde clans is bereikt."
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "Actie niet beschikbaar. Maximale hoeveelheid bereide reserves bereikt."
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "Actie niet beschikbaar. Garnizoen bouwwerk is al vol."
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "Actie niet beschikbaar. Schermutselingtijd overschreden."
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "Actie niet beschikbaar. Transport tijdelijk niet beschikbaar."
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "Actie niet beschikbaar. Transportlimiet overschreden."
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "Actie niet beschikbaar. Speler is niet klaar."
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "Actie niet beschikbaar. Onmogelijk om commandocentrum te vernietigen."
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "Actie niet beschikbaar. Incorrecte clan."
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "Actie niet beschikbaar. Incorrecte server."
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "Actie niet beschikbaar. Onmogelijk om een bouwwerk te bouwen in deze regio."
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "Je bent gekoppeld aan bouwwerk %(buildingName)s."
+
+msgid "fortification/fortBattleFinished"
+msgstr "Offensief geforceerd gestopt door technische problemen op de server."
+
+msgid "fortification/modernizationBuilding"
+msgstr "Modernisering succesvol afgerond. Niveau van bouwwerk %(buildingName)s verhoogt tot %(buildingLevel)s."
+
+msgid "fortification/notification/turnedOff"
+msgstr "Vesting is tijdelijk niet beschikbaar. Probeer het later opnieuw."
+
+msgid "fortification/notification/turnedOn"
+msgstr "De Vesting: Gevechten modus is tijdelijk niet beschikbaar."
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "Activeer reserve"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "Bouw bouwwerk"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "Markeer clan"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "Voeg reserve toe"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "Voeg speler toe aan garnizoen"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "Verdedigingsperiode opnieuw inschakelen"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "Verdedigingsperiode aanpassen"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "Staakt-het-vuren aanpassen"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "Verander server"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "Verander instellingen"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "Neutraliteit aanpassen"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "Creëer Vesting"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "Creëer afdeling"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "Verwijder bouwwerk"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "Verwijder Vesting"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "Aanval plannen"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "Verwijder gemarkeerde clan"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "Bekijk clandetails"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "Bekijk details van clans"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "Vraag afdelingsdetails aan"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "Verdedigingsperiode uitschakelen"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "Transport"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "Modernisering bouwwerk"
+
+msgid "fortification/transport"
+msgstr "Transport succesvol afgerond. %(res)s industriële grondstoffen getransporteerd van bouwwerk %(fromBuilding)s naar bouwwerk %(toBuilding)s."
+
+msgid "fortification/vacationSet"
+msgstr "Vesting behoudt de neutraliteit %(vacationPeriod)s."
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "Operatie is niet beschikbaar."
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "Fout tijdens training bemanningslid. Onvoldoende Vrije ervaring."
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "Fout tijdens training bemanningslid. Dit bemanningslid bestaat niet."
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "Fout tijdens training bemanningslid. Probeer later opnieuw."
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "Fout tijdens training bemanningslid. Probeer later opnieuw."
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "Niet in staat om bemanningslid met Vrije XP te trainen.\nProbeer het later opnieuw."
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "Bemanningslid getraind.\nVrije XP uitgegeven: %(money)s."
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "Om spelverslaving bij kinderen en tieners te voorkomen, zal het betreden van een gevecht verboden zijn. Je verbinding met de server zal om %(blockTime)s worden verbroken."
+
+msgid "gameSessionControl/korea/note"
+msgstr "Excessive video game playing may interfere with your daily life."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "Resterende speeltijd: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "De tijdslimiet is voorbij, en om die reden kun je niet een nieuw gevecht betreden. Je verbinding met de server zal om %s worden verbroken."
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "Duur spelsessie: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "Tijd tot middernacht: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "Je speeltijd is op, en om die reden kun je niet een nieuw gevecht betreden. Je verbinding met de server zal om %(kickTime)s worden verbroken."
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "De speeltijdlimiet is van je account verwijderd"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "De instellingen voor ouderlijk toezicht zijn gewijzigd."
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "Je zult om %(timeLimit)s uit het spel worden uitgelogd."
+
+msgid "graficsOptionsFail"
+msgstr "Videokaart niet geschikt. Het toepassen van de volgende instellingen is mislukt: %s."
+
+msgid "graficsPresetFail"
+msgstr "Videokaart niet geschikt. Toepassen van grafische instellingen mislukt."
+
+msgid "igr/customization/begin"
+msgstr "Gratis camouflage, leuzen en emblemen zijn beschikbaar in %(igrIcon)s."
+
+msgid "igr/customization/end"
+msgstr "%(igrIcon)s is verlopen. Gratis camouflage, leuzen en emblemen zullen verwijderd worden van je voertuig."
+
+msgid "info/noAvailable"
+msgstr "Gedetaileerde informatie is niet beschikbaar."
+
+msgid "install_component"
+msgstr "%s \"%s\" op het voertuig geïnstalleerd."
+
+msgid "install_vehicle_broken"
+msgstr "Het voertuig is beschadigd: %s \"%s\" kan niet worden geïnstalleerd. Repareer het voertuig en probeer het opnieuw."
+
+msgid "install_vehicle_locked"
+msgstr "Het voertuig is vergrendeld: %s \"%s\" kan niet worden geïnstalleerd."
+
+msgid "inventory/item/already_exists"
+msgstr "Module %(typeString)s \"%(userString)s\" is al aanwezig in het depot."
+
+msgid "inventory/item/equip_in_processing"
+msgstr "Verzoek om uitrusting te monteren verstuurd. Wachten op antwoord van server."
+
+msgid "inventory/item/not_found"
+msgstr "Module %(typeString)s \"%(userString)s\" is niet gevonden in het depot."
+
+msgid "inventory/vehicle/already_exists"
+msgstr "Voertuig %(userString)s is al aanwezig in het depot."
+
+msgid "inventory/vehicle/not_found"
+msgstr "Voertuig %(userString)s is niet gevonden in het depot."
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "Uitnodiging aan legionnair %(name)s kan niet verstuurd worden."
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "Uitnodiging aan speler %(name)s kan niet verstuurd worden: verkeerde clan."
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "Servicefout \"%(vehName)s\". Het is niet mogelijk om verbruiksartikelen aan te vullen. Probeer het later opnieuw."
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "Servicefout \"%(vehName)s\". Het is niet mogelijk om verbruiksartikelen aan te vullen. Probeer het later opnieuw."
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "Servicefout \"%(vehName)s\". Het is niet mogelijk om verbruiksartikelen aan te vullen. Probeer het later opnieuw."
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "Servicefout \"%(vehName)s\". Het is niet mogelijk om granaten aan te vullen. Probeer het later opnieuw."
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "Servicefout \"%(vehName)s\". Het is niet mogelijk om granaten aan te vullen. Maximaal aantal granaten geladen."
+
+msgid "layout_apply/Component is not in shop"
+msgstr "Servicefout \"%(vehName)s\". Het is niet mogelijk om verbruiksartikelen aan te vullen. Probeer het later opnieuw."
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "Servicefout \"%(vehName)s\". Niet genoeg credits om verbruiksartikelen te kopen. Probeer het later opnieuw."
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "Servicefout \"%(vehName)s\". Niet genoeg obligaties om verbruiksartikelen te kopen. Probeer het later opnieuw."
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "Servicefout \"%(vehName)s\". Niet genoeg goud om verbruiksartikelen te kopen. Probeer het later opnieuw."
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "Servicefout \"%(vehName)s\". Het is niet mogelijk om verbruiksartikelen aan te vullen. Probeer het later opnieuw."
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "Servicefout \"%(vehName)s\". Verkeerd voertuig."
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "Servicefout \"%(vehName)s\". Niet genoeg credits om granaten te kopen."
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "Servicefout \"%(vehName)s\". Niet genoeg goud om granaten te kopen."
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "Servicefout \"%(vehName)s\". Het voertuig is vergrendeld."
+
+msgid "layout_apply/error"
+msgstr "Servicefout \"%(vehName)s\". Probeer het later opnieuw."
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "Servicefout \"%(vehName)s\". Verkeerd voertuig."
+
+msgid "layout_apply/success_money_spent"
+msgstr "Totaal uitgegeven aan munitie %(money)s."
+
+msgid "layout_apply/vehicle_locked"
+msgstr "Servicefout \"%(vehName)s\". Het voertuig is vergrendeld."
+
+msgid "layout_apply/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "limitedUI/switchOff"
+msgstr "Geleidelijke verschijning van verborgen interface-elementen is tijdelijk uitgezet."
+
+msgid "limitedUI/switchOn"
+msgstr "Geleidelijke verschijning van verborgen interface-elementen is weer aangezet. Je kunt het in de instellingen uitzetten."
+
+msgid "locked_vehicle_error"
+msgstr "Deze handeling is niet mogelijk voor vooraf geconfigureerde voertuigen."
+
+msgid "login_to_other_game_unknown"
+msgstr "huidige spelsessie is onderbroken. Je Wargaming.net&nbsp;ID is gebruikt om bij een ander spel in te loggen"
+
+msgid "login_to_other_game_web"
+msgstr "huidige spelsessie was onderbroken. De verbinding met de server is verbroken via het portaal van het spel."
+
+msgid "login_to_other_game_wot"
+msgstr "huidige spelsessie is onderbroken. Je Wargaming.net&nbsp;ID is gebruikt om in te loggen bij World&nbsp;of&nbsp;Tanks"
+
+msgid "login_to_other_game_wotb"
+msgstr "huidige spelsessie is onderbroken. Je Wargaming.net&nbsp;ID is gebruikt om in te loggen bij World&nbsp;of&nbsp;Tanks&nbsp;Blitz"
+
+msgid "login_to_other_game_wotg"
+msgstr "huidige spelsessie is onderbroken. Je Wargaming.net&nbsp;ID is gebruikt om in te loggen bij World&nbsp;of&nbsp;Tanks&nbsp;Generals"
+
+msgid "login_to_other_game_wowp"
+msgstr "huidige spelsessie is onderbroken. Je Wargaming.net&nbsp;ID is gebruikt om in te loggen bij World&nbsp;of&nbsp;Warplanes"
+
+msgid "login_to_other_game_wows"
+msgstr "huidige spelsessie is onderbroken. Je Wargaming.net&nbsp;ID is gebruikt om in te loggen bij World&nbsp;of&nbsp;Warships"
+
+msgid "lootboxes/open/server_error"
+msgstr "Fout bij het ontvangen van geschenk: serverfout."
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "Fout bij het ontvangen van geschenk. Wacht alsjeblieft tot de vorige handeling is afgerond."
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "Handeling tijdelijk onbeschikbaar. Probeer het later nog eens."
+
+msgid "mapbox/notification/primeTime"
+msgstr "Verkenningsmissie is tot het einde van het staakt-het-vuren onbeschikbaar."
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "Staakt-het-vuren"
+
+msgid "maps_black_list/select/server_error"
+msgstr "Serverfout"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "Actie niet beschikbaar. Wacht aub totdat de huidige handeling voltooid is."
+
+msgid "maps_black_list/select/success"
+msgstr "De %(mapName)s kaart is uitgesloten van Willekeurige gevechten. Je kunt je keus over %(time)s wijzigen."
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "De %(mapName)s kaart is uitgesloten van Willekeurige gevechten. Je kunt je keus over %(time)s wijzigen, of je kunt een extra plek ontgrendelen door WoT Premium account te activeren of je op WoT Plus te abonneren."
+
+msgid "maps_black_list/select/success/premium"
+msgstr "De %(mapName)s kaart is uitgesloten van Willekeurige gevechten. Je kunt je keus over %(time)s wijzigen, of je kunt een extra plek ontgrendelen door je op WoT Plus te abonneren."
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "De %(mapName)s kaart is uitgesloten van Willekeurige gevechten. Je kunt je keus over %(time)s wijzigen, of je kunt een extra plek ontgrendelen door WoT Premium account te activeren."
+
+msgid "maps_black_list/switch_off/body"
+msgstr "Deze functionaliteit is wegens technische redenen tijdelijk onbeschikbaar.\nOnze excuses voor enig ongemak."
+
+msgid "maps_black_list/switch_off/title"
+msgstr "Kaartuitsluiting is tijdelijk onbeschikbaar"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "De technische problemen zijn opgelost. Onze excuses voor enig ongemak."
+
+msgid "maps_black_list/switch_on/title"
+msgstr "Kaartuitsluiting is weer beschikbaar"
+
+msgid "maps_training/switch/title"
+msgstr "Topografie"
+
+msgid "maps_training/switch_off/body"
+msgstr "Deze modus is niet beschikbaar."
+
+msgid "maps_training/switch_on/body"
+msgstr "Deze modus is beschikbaar."
+
+msgid "memberRosterChangedMain"
+msgstr "%s heeft %s overgedragen naar het reguliere team."
+
+msgid "memberRosterChangedSecond"
+msgstr "%s heeft %s overgedragen naar het reserveteam."
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "Onvoldoende geheugen. Herstart het spel."
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "Onvoldoende geheugen. Lage textuurkwaliteit."
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "Onvoldoende geheugen. Medium textuurkwaliteit."
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "Niet genoeg werkgeheugen. Grafische instellingen zijn aangepast. Herstart het spel."
+
+msgid "missingEvents/button"
+msgstr "Openen"
+
+msgid "missingEvents/header"
+msgstr "Evenementen"
+
+msgid "missingEvents/text"
+msgstr "Belangrijke evenementen die je hebt gemist: "
+
+msgid "module_apply/error_is_current"
+msgstr "Module %(kind)s \"%(name)s\" is al gemonteerd."
+
+msgid "module_apply/error_need_gun"
+msgstr "Kan %(kind)s \"%(name)s\" niet op het voertuig met het huidige kanon monteren."
+
+msgid "module_apply/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" is incompatibel met de huidige koepel. Vervang de koepel."
+
+msgid "module_apply/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" is niet gemonteerd. Geen compatibel kanon in het depot."
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" is incompatibel met de huidige koepel. Vervang de koepel."
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" past niet bij dit voertuig."
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "Module %(kind)s \"%(name)s\" is incompatibel met verbruiksartikelen \"%s\"."
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" is van het verkeerde type."
+
+msgid "module_apply/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" is van de verkeerde natie."
+
+msgid "module_apply/incompatibleEqs"
+msgstr "Verbruiksartikel \"%(items)s\" is naar het depot gestuurd vanwege incompabiliteit met de huidige module."
+
+msgid "module_apply/invalid_vehicle"
+msgstr "Verkeerd voertuig. Kan module %(kind)s \"%(name)s\" niet monteren."
+
+msgid "module_apply/server_error"
+msgstr "Serverfout bij het monteren van module %(kind)s \"%(name)s\". Probeer het later opnieuw."
+
+msgid "module_apply/success"
+msgstr "%(kind)s \"%(name)s\" gemonteerd op het voertuig."
+
+msgid "module_apply/success_gun_change"
+msgstr "%(kind)s \"%(name)s\" gemonteerd op voertuig met het kanon \"%(gun)s\"."
+
+msgid "module_apply/vehicle_locked"
+msgstr "Het voertuig is vergrendeld. Kan module %(kind)s \"%(name)s\" niet monteren."
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "Kan module %(kind)s \"%(name)s\" niet monteren: het voertuig is beschadigd. Repareer je voertuig en probeer het opnieuw."
+
+msgid "module_buy/error_is_current"
+msgstr "De module %(kind)s \"%(name)s\" is al gemonteerd."
+
+msgid "module_buy/error_need_gun"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" op het voertuig met het huidige kanon te monteren."
+
+msgid "module_buy/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" is incompatibel met de huidige koepel. Vervang de koepel."
+
+msgid "module_buy/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" is niet gemonteerd. Geen compatibel kanon in het depot."
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" past niet op deze koepel. Vervang de koepel."
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" past niet bij dit voertuig."
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "Module %(kind)s \"%(name)s\" is incompatibel met verbruiksartikelen \"%s\"."
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" is van het verkeerde type."
+
+msgid "module_buy/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" is van de verkeerde natie."
+
+msgid "module_buy/invalid_module"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" aan te schaffen. Verkeerde module."
+
+msgid "module_buy/invalid_vehicle"
+msgstr "Verkeerd voertuig. Het is niet mogelijk om %(kind)s \"%(name)s\" te kopen en monteren."
+
+msgid "module_buy/not_enough_credits"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" aan te schaffen. Onvoldoende credits."
+
+msgid "module_buy/not_enough_gold"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" aan te schaffen. Onvoldoende goud."
+
+msgid "module_buy/server_error"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" aan te schaffen. Probeer het later opnieuw."
+
+msgid "module_buy/server_error_centerDown"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" aan te schaffen. De server is tijdelijk onbeschikbaar."
+
+msgid "module_buy/success"
+msgstr "Module %(kind)s \"%(name)s\" succesvol aangeschaft (%(count)s item(s)). Uitgegeven: %(money)s."
+
+msgid "module_buy/vehicle_locked"
+msgstr "Voertuig vergrendeld. Het is niet mogelijk om %(kind)s \"%(name)s\" te kopen en monteren."
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "Het is niet mogelijk om %(kind)s \"%(name)s\" te kopen en monteren. Repareer je voertuig en probeer het opnieuw."
+
+msgid "module_buy/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "module_sell/invalid_module"
+msgstr "Kan %(kind)s \"%(name)s\" niet verkopen. Verkeerde module."
+
+msgid "module_sell/server_error"
+msgstr "Kan %(kind)s \"%(name)s\" niet verkopen. Probeer het later opnieuw."
+
+msgid "module_sell/success"
+msgstr "Module %(kind)s \"%(name)s\" (%(count)s artikel(en)). Ontvangen: %(money)s."
+
+msgid "multipleSelling/success"
+msgstr "Verkregen: %(money)s"
+
+msgid "nation_change/FAILED"
+msgstr "Fout bij configuratie overschakelen"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "Fout bij configuratie overschakelen"
+
+msgid "nation_change/error"
+msgstr "Fout bij configuratie overschakelen"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: nationale configuratie overgeschakeld"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "Dagelijkse missies om technische redenen geüpdatet. Missievoortgang is opgeslagen."
+
+msgid "notrecruit_window/success"
+msgstr "Bemanningslid gerekruteerd.\n%(colorTagOpen)s%(rank)s %(fullName)s\n(%(role)s, %(vehicleName)s)%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "Actie is tijdelijk niet beschikbaar. Probeer het later opnieuw."
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "Fout bij het ontvangen van het geschenk: serverfout"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "Fout bij het ontvangen van het cadeau: sommige van de beloningen zijn vertraagd – probeer ze later opnieuw te claimen."
+
+msgid "offers/switch_off/body"
+msgstr "De Thuisfrontspullen-dienst is tijdelijk onbeschikbaar."
+
+msgid "offers/unavailable_many"
+msgstr "Onbeschikbare acties: %(count)s items."
+
+msgid "offers/unavailable_one"
+msgstr "Actie onbeschikbaar."
+
+msgid "optionalDevices_apply/error"
+msgstr "Fout met uitrusting. Probeer het later alsjeblieft opnieuw."
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "Fout met uitrusting. Onvoldoende middelen voor de aankoop."
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "Actie onbeschikbaar. Je goud zal weer beschikbaar zijn nadat WG Wallet is hersteld."
+
+msgid "optionalDevices_remove/error"
+msgstr "Fout met uitrusting. Probeer het later alsjeblieft opnieuw."
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "Privéberichten versturen aan spelers die niet in je contactenlijst staan is voor jouw account onbeschikbaar."
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "Privéberichten zijn voor jouw account onbeschikbaar."
+
+msgid "parentControl/linkText"
+msgstr "Voer datum in"
+
+msgid "parentControl/mainText"
+msgstr "Voer alsjeblieft je geboortedatum in."
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "Privéberichten versturen aan spelers die niet in je contactenlijst staan is verboden vanwege ouderlijk toezicht."
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "Privéberichten zijn verboden door ouderlijk toezicht."
+
+msgid "parentControl/title"
+msgstr "Leeftijdsbevestiging"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "Transfer is niet beschikbaar. Niet in staat de server te definiëren."
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "Ontvangen beloning:"
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "Ga naar operatie"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "Missie voltooid"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "Wissel van voertuig om door te gaan met het voltooien van de missie."
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "Operatie: %(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "Voltooid: %(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "%(campaignName)s campagne met eer voltooid!"
+
+msgid "personalMission/operationComplete/title"
+msgstr "%(operationName)s operatie voltooid!"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "%(operationName)s operatie met eer voltooid!"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "Campagnes zijn wegens wegens onderhoud tijdelijk onbeschikbaar."
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "Campagnes zijn weer beschikbaar. Onze excuses voor het ongemak."
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "De %(campaignName)s campagne is wegens onderhoud tijdelijk onbeschikbaar."
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "De %(campaignName)s campagne is weer beschikbaar. Onze excuses voor het ongemak."
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "De %(missionName)s missie van de %(operationName)s operatie is wegens onderhoud tijdelijk onbeschikbaar."
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "De %(missionName)s missie van de %(operationName)s operatie is weer beschikbaar. Onze excuses voor het ongemak."
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "De %(campaignName)s operatie van de %(operationName)s campagne is wegens onderhoud tijdelijk onbeschikbaar."
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "De %(campaignName)s operatie van de %(operationName)s campagne is weer beschikbaar. Onze excuses voor het ongemak."
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "Fout bij het wisselen van campagne. Probeer het later alsjeblieft opnieuw."
+
+msgid "personalMissions/badge"
+msgstr "Badge %(name)s ontvangen."
+
+msgid "personalMissions/camouflageGiven"
+msgstr "Unieke camouflage voor %(vehicleName)s ontvangen."
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "Unieke camouflage voor %(vehicleName)s is beschikbaar voor alle voertuigen van natie: %(nation)s."
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "Alle operatievoortgang is opgeslagen. Je kunt de campagnes op elk moment hervatten."
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "%(campaignName1)s en %(campaignName2)s campagnes gepauzeerd"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "Gepauzeerde operaties en hun missies zijn hervat."
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "%(campaignName1)s en %(campaignName2)s campagnes hervat"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "Alle operatievoortgang is opgeslagen. Je kunt de campagne op elk moment hervatten."
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "%(campaignName)s campagne gepauzeerd"
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "Gepauzeerde operaties zijn hervat."
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "%(campaignName)s campagne hervat"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "De %(detailName)s is succesvol gemonteerd."
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "Operatie: %(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "Kan de missie niet resetten. Probeer het later opnieuw."
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "Actie niet beschikbaar. Missies tijdelijk uitgeschakeld."
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "Kan de missie momenteel niet resetten. Probeer het later opnieuw."
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Kan de missie momenteel niet resetten. Wacht alsjeblieft tot het voertuig van dit type niet langer in gevecht is."
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Kan de missie momenteel niet resetten. Wacht alsjeblieft tot de groep voertuigen niet langer in gevecht is."
+
+msgid "personalMissions/discard/success"
+msgstr "De %(quest)s missie is succesvol gereset."
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "Bevelen ontvangen: %(count)s"
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "Bevelen geretourneerd: %(count)s.\nZij kunnen opnieuw worden gebruikt."
+
+msgid "personalMissions/operationActivation/body"
+msgstr "De eerste missie van elke reeks is geactiveerd."
+
+msgid "personalMissions/operationActivation/title"
+msgstr "%(operationName)s operatie geactiveerd!"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "Ontvangen beloning: \n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "%(name)s operatie voltooid!"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "Alle missievoortgang is opgeslagen. Je kunt de operatie op elk moment hervatten."
+
+msgid "personalMissions/operationPaused/title"
+msgstr "%(operationName)s operatie gepauzeerd"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "Gepauzeerde missies zijn hervat."
+
+msgid "personalMissions/operationResumed/title"
+msgstr "%(operationName)s operatie hervat"
+
+msgid "personalMissions/pause/server_error"
+msgstr "De missie is niet gepauzeerd. Probeer het later opnieuw."
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "Actie niet beschikbaar. Missies tijdelijk uitgeschakeld."
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "Kan de missie momenteel niet pauzeren. Probeer het later opnieuw."
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Kan de missie momenteel niet pauzeren. Wacht alsjeblieft tot het voertuig van dit type niet langer in gevecht is."
+
+msgid "personalMissions/pause/success_pause"
+msgstr "De %(quest)s missie is succesvol gepauzeerd."
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "De voltooiing van de %(quest)s missie is succesvol hervat."
+
+msgid "personalMissions/pawn/server_error"
+msgstr "Fout. Kan een bevel op dit moment niet uitvoeren."
+
+msgid "personalMissions/pawn/success"
+msgstr "Bevelen ingezet voor de %(questName)s missie: %(count)s"
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "Fout bij het ontvangen van beloningen. Probeer het later alsjeblieft opnieuw."
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "De %(detail_name)s is succesvol gemonteerd."
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "Niet in staat beloning op te eisen. Probeer later opnieuw alsjeblieft."
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "Actie niet beschikbaar. Missies tijdelijk uitgeschakeld."
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "Niet in staat beloning op te eisen. Beloning niet beschikbaar."
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "Niet in staat beloning op te eisen. Beloning niet beschikbaar."
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "Niet in staat beloning op te eisen. Incorrecte gegevens."
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "Niet in staat beloning op te eisen. Probeer later opnieuw alsjeblieft."
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "Actie niet beschikbaar. Missies tijdelijk uitgeschakeld."
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "Niet in staat beloning op te eisen. Beloning niet beschikbaar."
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "Niet in staat beloning op te eisen. Beloning niet beschikbaar."
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "Niet in staat beloning op te eisen. Incorrecte gegevens."
+
+msgid "personalMissions/select/server_error"
+msgstr "Missies niet geselecteerd: %(questNames)s. Probeer later opnieuw alsjeblieft."
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "Actie niet beschikbaar. Missies tijdelijk uitgeschakeld."
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "Missies niet geselecteerd: %(questNames)s. Probeer het later alsjeblieft opnieuw."
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Let op! Om van missie te veranderen, moet je wachten tot alle voertuigen waarvoor deze missie actief is naar de garage zijn teruggekeerd."
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "Missies niet geselecteerd: %(questNames)s. Voltooi de voorgaande operatie."
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "Missies niet geselecteerd: %(questNames)s. Niet genoeg ruimte."
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "Missies niet geselecteerd: %(questNames)s. Eis alsjeblieft beloning op."
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "Missies niet geselecteerd: %(questNames)s. Missie niet beschikbaar."
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "Missies niet geselecteerd: %(questNames)s. Missie al voltooid."
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "Missies niet geselecteerd: %(questNames)s."
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "Missies niet geselecteerd: %(questNames)s. Missie in deze reeks al geselecteerd."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "Missies niet geselecteerd: %(questNames)s. Incorrecte gegevens."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "Missies niet geselecteerd: %(questNames)s. Incorrecte gegevens."
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Kan de missie momenteel niet selecteren. Wacht alsjeblieft tot de groep voertuigen niet in gevecht is."
+
+msgid "personalMissions/select/success"
+msgstr "Missies succesvol geselecteerd. Huidige geselecteerde missies: %(questNames)s."
+
+msgid "personalMissions/tankmenGain"
+msgstr "Toegevoegd: vrouwelijk bemanningslid"
+
+msgid "personalMissions30/select/server_error"
+msgstr "Fout bij het activeren van de operatie. Probeer het later alsjeblieft opnieuw."
+
+msgid "piggyBank/piggyBankFull"
+msgstr "De creditreserve zit vol, en zal worden geopend over %(timeValue)s"
+
+msgid "piggybank/switch_off/body"
+msgstr "Deze functionaliteit is wegens technische redenen tijdelijk onbeschikbaar.\nOnze excuses voor enig ongemak."
+
+msgid "piggybank/switch_off/title"
+msgstr "De creditreserve is tijdelijk onbeschikbaar"
+
+msgid "piggybank/switch_on/body"
+msgstr "De technische problemen zijn opgelost. Onze excuses voor enig ongemak."
+
+msgid "piggybank/switch_on/title"
+msgstr "De creditreserve is weer beschikbaar"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "Deze functionaliteit is wegens technische redenen tijdelijk niet beschikbaar.\nOnze excuses voor het ongemak."
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "Spelersabonnementen zijn niet meer beschikbaar!"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "De technische problemen zijn opgelost. Onze excuses voor het ongemak."
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "Spelersabonnementen zijn nu beschikbaar"
+
+msgid "post_progression/server_error"
+msgstr "Beloning voor bemanning post-progressie\nis al ontvangen"
+
+msgid "post_progression/success"
+msgstr "Datum: %(at)s\nToegevoegd aan depot: %(book_name)s (x%(amount)s).\nPost-progressie-XP ingewisseld."
+
+msgid "post_progression/success/title"
+msgstr "Ontvangstbewijs"
+
+msgid "prebattle/hasLockedState"
+msgstr "Niet mogelijk om de uitnodiging te accepteren omdat je al op een gevecht wacht. Verlaat de gevechtslobby of maak het gevecht af en probeer het overnieuw."
+
+msgid "prebattle/invites/sendInvite"
+msgstr "Uitnodiging naar speler verstuurd."
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "Uitnodiging naar speler %(name)s verstuurd."
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "Fout ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "Fout AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "Fout BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "Fout CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "De commandant heeft het team verlaten."
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "Het team is ontbonden."
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "Modus is tijdelijk niet beschikbaar."
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "Demobilisatie."
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "Fout PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "Tijd verstreken."
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "Onbekende fout."
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "Fout VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "Je bent uit het peloton gezet."
+
+msgid "prebattle/kick/type/unknown"
+msgstr "Je bent uit het team gezet."
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "Je moet minstens drie geschikte voertuigen voor de modus hebben. Bekijk de 'Over Bestorming' pagina voor meer details."
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "Automatisch zoeken"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "Verander voice-chat"
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "Divisie wijzigen"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "Modusselectie"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "Submoduswissel"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "Modusselectie"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "Verander instellingen"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "Bewerk team"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "Verander toeschouwermodus"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "Sluit plaats"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "Zoeken"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "Uitnodigen voor team"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "Bevestig gereedheid"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "Bevestig gereedheid van het team"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "Selecteer voertuigen"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "Verander teams"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "Zoeken"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "Alleen teams met minimum aantal voertuigen kunnen aan gevechten deelnemen: %(minCount)d."
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "Alleen teams met een totaalniveau tussen %(minTotalLevel)d en %(maxTotalLevel)d kunnen aan gevechten deelnemen."
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "Alleen voertuigen met niveau %(minLevel)d tot %(maxLevel)d zijn toegestaan."
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "Dit voertuig is niet geschikt voor dit gevecht."
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "Niet alle teamleden kunnen toeschouwer zijn."
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "Het geselecteerde voertuig is alleen geschikt voor de Frontliniemodus."
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "Het geselecteerde voertuig is alleen geschikt voor de Razernij-modus."
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "Granaten en verbruiksartikelen geladen op het geselecteerde voertuig komen niet overeen met de voorwaarden voor het gevecht."
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "Verkeerd voertuigniveau voor dit gevecht. Minimum niveau voor dit type: %s. Maximum voertuigniveau voor deze klasse: %s."
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "Verkeerd voertuigtype voor dit gevecht. Toegestane types: %s."
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "Onderdelen gemonteerd op het geselecteerde voertuig komen niet overeen met de voorwaarden van het gevecht."
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "Verkeerd voertuigniveau voor dit gevecht. Minimum voertuigniveau: %s. Maximum voertuigniveau: %s."
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "Voertuigen van dit land kunnen niet deelnemen aan dit gevecht. Landen toegestaan: %s."
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "Incompatibel voertuig"
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "Geladen granaten op het geselecteerde voertuig komen niet overeen met de voorwaarden van het gevecht."
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "Incompatibel voertuig"
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "Verkeerd voertuig voor dit gevecht."
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "Het gekozen voertuig is niet gereed."
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "Handeling niet mogelijk. Selecteer eerst een voertuig."
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "Kan niet deelnemen aan het team."
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "Incompatibel voertuig"
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "Het geselecteerde voertuig zal tijdens het gevecht worden ontgrendeld."
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "Niet in staat opponenten te vinden voor huidig team. Overweeg je team te reorganiseren."
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "Geen rivalen gevonden voor het huidige peloton. Deel je team anders in."
+
+msgid "premium/buyingSuccess"
+msgstr "Premium account is gekocht voor %(period)d dag(en). %(money)s uitgegeven."
+
+msgid "premium/continueSuccess"
+msgstr "Premium account is verlengd voor %(period)d dag(en). %(money)s uitgegeven."
+
+msgid "premium/not_enough_gold"
+msgstr "Onvoldoende goud om een Premium account te kopen voor %(period)d dag(en)."
+
+msgid "premium/post_battle_premium"
+msgstr "Voor het kopen van een Premiumaccount verdien je %(xpDiff)d XP en %(creditDiff)d credits."
+
+msgid "premium/server_error"
+msgstr "Het is niet mogelijk om een Premiumaccount te kopen voor %(period)d dag(en). Probeer later opnieuw."
+
+msgid "premium/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "Handeling niet beschikbaar. Probeer het later nog eens."
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "Actie niet beschikbaar. Wacht aub totdat de huidige handeling voltooid is."
+
+msgid "premium_quests/switch_off/body"
+msgstr "Deze functionaliteit is wegens technische redenen tijdelijk onbeschikbaar.\nOnze excuses voor enig ongemak."
+
+msgid "premium_quests/switch_off/title"
+msgstr "Premium missies zijn tijdelijk onbeschikbaar"
+
+msgid "premium_quests/switch_on/body"
+msgstr "De technische problemen zijn opgelost. Onze excuses voor enig ongemak."
+
+msgid "premium_quests/switch_on/title"
+msgstr "Premium missies zijn weer beschikbaar"
+
+msgid "progressiveReward/error"
+msgstr "Handeling momenteel onbeschikbaar. Probeer het later opnieuw."
+
+msgid "progressiveReward/switch_off"
+msgstr "Beloningen voor verdienste: deze mogelijkheid is tijdelijk uitgeschakeld. Onze excuses voor het ongemak."
+
+msgid "progressiveReward/switch_on"
+msgstr "Beloningen voor verdienste zijn weer beschikbaar."
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "Missie verlopen. Gedetailleerde beschrijving niet beschikbaar."
+
+msgid "queue/isInQueue"
+msgstr "Handeling momenteel onbeschikbaar. Probeer het later opnieuw."
+
+msgid "rally/leaveDisabled"
+msgstr "Actie niet beschikbaar.\nJe kan deze modus niet verlaten. Je bent lid van een tactische eenheid en klaar voor het gevecht."
+
+msgid "ranked/notification/available"
+msgstr "Einde van het staakt-het-vuren: Klassementsgevechten zijn nu weer beschikbaar."
+
+msgid "ranked/notification/available/title"
+msgstr "Klassementsgevechten beschikbaar"
+
+msgid "ranked/notification/congratulations"
+msgstr "Gefeliciteerd!"
+
+msgid "ranked/notification/notAvailable"
+msgstr "Klassementsgevechten zijn niet beschikbaar. Volg de updates op het spelportaal."
+
+msgid "ranked/notification/notSet"
+msgstr "Deze modus is op de geselecteerde server niet beschikbaar."
+
+msgid "ranked/notification/notSet/title"
+msgstr "Klassementsgevechten onbeschikbaar"
+
+msgid "ranked/notification/primeTime"
+msgstr "Klassementsgevechten zijn onbeschikbaar tot het einde van het staakt-het-vuren."
+
+msgid "ranked/notification/primeTime/title"
+msgstr "Staakt-het-vuren"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "Je hebt uitstekend gepresteerd in de seizoenen van Klassementsgevechten 2020/2021, waardoor je een positie tussen de topspelers hebt verdiend!"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "Gefeliciteerd!"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "Je hebt uitstekend gepresteerd in de seizoenen van Klassementsgevechten 2020/2021, waardoor je positie %(playerPosition)s tussen de topspelers hebt verdiend!"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "Gefeliciteerd!"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "Badge ontvangen:"
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "Badges ontvangen:"
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "Credits verdiend:"
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "Obligaties ontvangen:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "Verjaardagsmunten ontvangen:"
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "Goud ontvangen:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "Toegevoegde verbeterde uitrusting om uit te kiezen: %(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "Stijl ontvangen:"
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "Stijlen ontvangen:"
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "Rangtokens ontvangen: %(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "Dagen Wargaming Premium account"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "Dagen Wargaming Premium account (x%(daysCount)s)"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "Dag WoT Premium account"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "Dagen WoT Premium account (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "Stadium %(number)s resultaten"
+
+msgid "ranked/notifications/league"
+msgstr "Competitie: %(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "gouden"
+
+msgid "ranked/notifications/league2"
+msgstr "zilveren"
+
+msgid "ranked/notifications/league3"
+msgstr "bronzen"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "Rangtokens voor de gouden competitie ontvangen: %(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "Maximale rang: %(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s, %(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "Positie in het klassement: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "Je hebt de kwalificatie voltooid"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "Rangtokens voor het seizoen ontvangen: %(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "Resultaten van Klassementsgevechten, seizoen %(seasonNumber)s"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "Je hebt rang %(rankName)s (%(divisionName)s) bereikt"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "Sprinterteken ontvangen. Beloningen verbeterd."
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "Sprinterteken ontvangen"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "Kan het bemanningslid niet rekruteren: de tank heeft een unieke permanente bemanning."
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "Kan geen nieuw bemanningslid rekruteren. De dienst is tijdelijk niet beschikbaar."
+
+msgid "recruit_window/financial_success"
+msgstr "Bemanningslid voor de %(vehName)s gerekruteerd. Credits uitgegeven: %(credits)s."
+
+msgid "recruit_window/financial_success_credits"
+msgstr "Bemanningslid voor de %(vehName)s gerekruteerd.\nCredits uitgegeven: %(price)s."
+
+msgid "recruit_window/financial_success_gold"
+msgstr "Bemanningslid voor de %(vehName)s gerekruteerd.\nGoud uitgegeven: %(price)s."
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "Je hebt je limiet voor gratis bemanningsleden bereikt voor vandaag."
+
+msgid "recruit_window/not_enough_credits"
+msgstr "Fout bij het rekruteren van een bemanningslid. Onvoldoende credits."
+
+msgid "recruit_window/not_enough_gold"
+msgstr "Fout bij het rekruteren van een bemanningslid. Onvoldoende goud."
+
+msgid "recruit_window/not_enough_space"
+msgstr "Fout bij het rekruteren en verplaatsen van een bemanningslid naar een voertuig. Onvoldoende bedden in de barakken. Maak een bed vrij of koop extra bedden in de barakken."
+
+msgid "recruit_window/server_error"
+msgstr "Bemanningslid rekruteren niet mogelijk. Probeer het later opnieuw."
+
+msgid "recruit_window/success"
+msgstr "Bemanningslid voor de %(vehName)s gratis gerekruteerd."
+
+msgid "recruit_window/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "Kan het bemanningslid niet overzetten: de tank heeft een unieke permanente bemanning."
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "Fout bij het vervangen van een bemanningslid. Verkeerd voertuig."
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "Bemanningsleden kunnen niet naar de barakken worden gestuurd. Niet genoeg bedden in de barakken."
+
+msgid "reequip_tankman/server_error"
+msgstr "Fout bij het vervangen van een bemanningslid. Probeer later opnieuw."
+
+msgid "reequip_tankman/success"
+msgstr "Bemanningslid vervangen."
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "Fout bij het vervangen van een bemanningslid. Het voertuig is vergrendeld."
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "Fout bij het vervangen van een bemanningslid. Repareer je voertuig."
+
+msgid "remove_component"
+msgstr "%s \"%s\" van het voertuig gedemonteerd."
+
+msgid "remove_vehicle_broken"
+msgstr "Het voertuig is beschadigd: %s \"%s\" kan niet worden geïnstalleerd. Repareer het voertuig en probeer het opnieuw."
+
+msgid "remove_vehicle_locked"
+msgstr "Het voertuig is vergrendeld: %s \"%s\" kan niet worden verwijderd."
+
+msgid "repair/credits_error"
+msgstr "%s credits tekort om tank '%s' te repareren."
+
+msgid "repair/server_error"
+msgstr "Fout bij het repareren van de %s. Probeer het later opnieuw."
+
+msgid "repair/success"
+msgstr "%s gerepareerd. Je hebt %s uitgegeven."
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "Kan de persoonlijke gegevens van je bemanningslid niet vervangen: de tank heeft een unieke permanente bemanning."
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "Fout bij wijzigen persoonlijke gegevens. Verkeerd voertuig."
+
+msgid "replace_tankman/not_enough_money"
+msgstr "Fout bij wijzigen identiteit. Onvoldoende credits."
+
+msgid "replace_tankman/server_error"
+msgstr "Identiteit wijzigen mislukt. Probeer later opnieuw."
+
+msgid "replace_tankman/success"
+msgstr "Uiterlijk succesvol vervangen."
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "Fout bij wijzigen identiteit. Het voertuig is vergrendeld."
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "Fout bij wijzigen identiteit. Repareer het voertuig."
+
+msgid "request/isInCoolDown"
+msgstr "Operatie \"%(request)s\" is geblokkeerd voor %(coolDown)s s."
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "Specialisaties kunnen niet worden gereset.\nServer onbeschikbaar. Probeer het later nog eens."
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "Alle specialisaties van alle bemanningsleden\nzijn gratis gereset."
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "Fout bij het uitgeven van middelen. Probeer het alsjeblieft opnieuw."
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "Er is iets misgegaan bij het teruggeven van middelen. Probeer het alsjeblieft opnieuw."
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "Je hebt voertuigen beschikbaar om terug te brengen. Ga naar de winkel om corresponderende voertuigen terug naar de garage te sturen."
+
+msgid "restore_tankman/DISABLED"
+msgstr "Terugbrengen van het bemanningslid is tijdelijk niet beschikbaar. Probeer het later opnieuw."
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "Kan bemanningslid niet terugbrengen."
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "Niet genoeg goud om het bemanningslid terug te brengen."
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "Kan bemanningslid niet terugbrengen. Tijd voor deze handeling is verlopen."
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "Kan bemanningslid niet terugbrengen. Probeer het later opnieuw."
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "Kan bemanningslid niet terugbrengen. Het terugbrengen van bemanningsleden is tijdelijk niet beschikbaar."
+
+msgid "restore_tankman/error"
+msgstr "%(tankman)s kan niet meer worden teruggebracht."
+
+msgid "restore_tankman/financial_success"
+msgstr "Bemanningslid teruggebracht.\nCredits uitgegeven: %(money)s."
+
+msgid "restore_tankman/not_enough_space"
+msgstr "Kan bemanningslid niet terugbrengen. Niet genoeg bedden in de barakken."
+
+msgid "restore_tankman/server_error"
+msgstr "Dit bemanningslid kan niet worden teruggebracht. Probeer het later opnieuw."
+
+msgid "restore_tankman/success"
+msgstr "Bemanningslid teruggebracht."
+
+msgid "retraining_change_tankman_role/success"
+msgstr "Kwalificatie van bemanningslid veranderd."
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "Kan je bemanning niet hertrainen: de tank heeft een unieke permanente bemanning."
+
+msgid "retraining_crew/empty_list"
+msgstr "Fout bij het hertrainen van de bemanning. Bemanningsleden zijn niet geselecteerd."
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "Credits uitgegeven: %(money)s."
+
+msgid "retraining_crew/financial_success_free"
+msgstr "Bemanning gratis hertraind voor de %(vehName)s."
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "Goud uitgegeven: %(money)s."
+
+msgid "retraining_crew/invalid_operation"
+msgstr "Fout hertrainen bemanning. Actie is niet beschikbaar."
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "Fout bij hertrainen bemanning. Verkeerd voertuig."
+
+msgid "retraining_crew/server_error"
+msgstr "Bemanning hertrainen niet mogelijk. Probeer het later opnieuw."
+
+msgid "retraining_crew/success"
+msgstr "Bemanning hertraind voor de %(vehName)s."
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "Fout bij hertrainen bemanning. Het voertuig is vergrendeld."
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "Fout bij hertrainen bemanning. Repareer je voertuig."
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "Kan je bemanningslid niet hertrainen: de tank heeft een unieke permanente bemanning."
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "Credits uitgegeven: %(money)s."
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "Bemanningslid gratis hertraind voor de %(vehName)s."
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "Goud uitgegeven: %(money)s."
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "Fout bij het hertrainen van een bemanningslid. Handeling is niet beschikbaar."
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "Fout bij hertrainen bemanningslid. Verkeerd voertuig."
+
+msgid "retraining_tankman/server_error"
+msgstr "Bemanningslid kan niet worden hertraind.\nProbeer het later opnieuw."
+
+msgid "retraining_tankman/success"
+msgstr "Bemanningslid hertraind voor de %(vehName)s."
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "Fout bij opnieuw trainen bemanningslid. Het voertuig is vergrendeld."
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "Fout bij opnieuw trainen bemanningslid. Repareer het voertuig."
+
+msgid "return_crew/FORBIDDEN"
+msgstr "Kan de bemanning niet terugbrengen: de tank heeft een unieke permanente bemanning."
+
+msgid "return_crew/invalid_vehicle"
+msgstr "Fout bij het terugzetten van de bemanning. Verkeerd voertuig."
+
+msgid "return_crew/not_enough_space"
+msgstr "Het is niet mogelijk om een bemanningslid naar de barakken te sturen. Niet genoeg bedden in de barakken."
+
+msgid "return_crew/return_unavailable"
+msgstr "Sommige bemanningsleden kunnen niet naar het voertuig terugkeren."
+
+msgid "return_crew/server_error"
+msgstr "Niet mogelijk om de bemanning terug te plaatsen. Probeer later opnieuw."
+
+msgid "return_crew/success"
+msgstr "Bemanning is succesvol overgezet."
+
+msgid "return_crew/vehicle_locked"
+msgstr "Fout bij terugzetten bemanning. Het voertuig is vergrendeld."
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "Fout bij terugzetten bemanning. Repareer je voertuig."
+
+msgid "rotation/lock"
+msgstr "De volgende groepen zijn vergrendeld en niet langer beschikbaar voor gevechten: %(groupNum)s."
+
+msgid "rotation/unlock"
+msgstr "De volgende groepen zijn ontgrendeld en nu beschikbaar voor gevechten: %(groupNum)s."
+
+msgid "rotation/vehicleIsLocked"
+msgstr "Het voertuig is vergrendeld en onbeschikbaar voor gevechten."
+
+msgid "royale/notification/congratulations"
+msgstr "Gefeliciteerd!"
+
+msgid "royale/notification/primeTime"
+msgstr "Staaljagergevechten zijn onbeschikbaar tot het einde van het staakt-het-vuren. Bekijk het rooster in de kalender."
+
+msgid "royale/notification/primeTime/title"
+msgstr "Staakt-het-vuren"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "Level bereikt: %(level)s"
+
+msgid "rts/notification/available"
+msgstr "Gevechten van 'De kunst van strategie' zijn weer beschikbaar op deze server."
+
+msgid "rts/notification/available/title"
+msgstr "Gevechten beschikbaar"
+
+msgid "rts/notification/notAvailable"
+msgstr "Het 'De kunst van strategie' evenement is onbeschikbaar. Houd het nieuws op de website in de gaten."
+
+msgid "rts/notification/notSet"
+msgstr "Gevechten van 'De kunst van strategie' zijn op de geselecteerde server niet beschikbaar."
+
+msgid "rts/notification/notSet/title"
+msgstr "Gevechten onbeschikbaar"
+
+msgid "rts/notification/primeTime"
+msgstr "Er is een staakt-het-vuren. Gevechten van 'De kunst van strategie' zijn tijdelijk onbeschikbaar."
+
+msgid "rts/notification/primeTime/title"
+msgstr "Staakt-het-vuren"
+
+msgid "securityMessage/bad_email"
+msgstr "U hebt uw emailadres geregistreerd van een verdachte server. Gelieve uw email veranderen wegens veiligheidsdoeleinden. %(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "Verander veiligheidsinstellingen"
+
+msgid "securityMessage/no_phone"
+msgstr "Voor veiligheidsredenen gelieve een telefoonnummer aan uw account toevoegen. %(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "Voor een wachtwoordreset, gelieve een veiligheidsvraag instellen in uw Accountmanagement. %(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "U hebt uw wachtwoord 30 dagen niet veranderd. Gelieve uw wachtwoord te veranderen wegens veiligheidsdoeleinden. %(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "Het ingegeven paswoord tijdens het aanmaken van het account is niet sterk genoeg. Pas het paswoord aan AUB. %(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "Het voertuig is beschadigd: \"%s\" kan niet worden verkocht. Repareer het voertuig en probeer het opnieuw."
+
+msgid "sell_vehicle_locked"
+msgstr "De %s kan niet worden verkocht: het voertuig is vergrendeld."
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "Het welverdiende beloning evenement is hervat. Onze excuses voor het ongemak."
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "Het welverdiende beloning evenement is wegens onderhoud tijdelijk onbeschikbaar."
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "Fout bij het ontvangen van beloningen. De handeling is tijdelijk niet beschikbaar."
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "Fout bij het ontvangen van de beloning. Neem alsjeblieft contact op met Player Support."
+
+msgid "seniority_awards/selection_timeout"
+msgstr "De beloningen voor je dienstjaren zijn laat. Probeer het later nog eens."
+
+msgid "serverInstallError"
+msgstr "Serverfout bij het installeren van module %s \"%s\". Probeer het later opnieuw."
+
+msgid "serverRemoveError"
+msgstr "Fout bij het verwijderen van module %s \"%s\". Probeer het later opnieuw."
+
+msgid "server_shut_down"
+msgstr "De spelserver wordt opnieuw opgestart."
+
+msgid "session_tracker_kick"
+msgstr "Je Wargaming.net&nbsp;ID is gebruikt om in te loggen in een ander spel. Huidige speelsessie is onderbroken."
+
+msgid "shell_buy/invalid_module"
+msgstr "Niet in staat %(name)s aan te schaffen. Verkeerde granaat."
+
+msgid "shell_buy/not_enough_credits"
+msgstr "Niet in staat aan te schaffen %(name)s. Onvoldoende credits."
+
+msgid "shell_buy/not_enough_gold"
+msgstr "Niet in staat aan te schaffen %(name)s. Onvoldoende goud."
+
+msgid "shell_buy/server_error"
+msgstr "Niet in staat aan te schaffen %(name)s. Probeer later opnieuw."
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "Niet in staat aan te schaffen %(name)s granaten. De server is tijdelijk niet beschikbaar."
+
+msgid "shell_buy/success"
+msgstr "Granaten %(name)s succesvol aangeschaft (%(count)s items). Uitgegeven %(money)s."
+
+msgid "shell_buy/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "shell_sell/invalid_module"
+msgstr "Kan \"%(name)s\" niet verkopen. Verkeerde granaat."
+
+msgid "shell_sell/server_error"
+msgstr "Kan \"%(name)s\" niet verkopen. Probeer het later opnieuw."
+
+msgid "shell_sell/success"
+msgstr "Granaat \"%(name)s\" (%(count)s artikel(en)). Ontvangen: %(money)s."
+
+msgid "shells_apply/error"
+msgstr "Fout met munitie. Probeer het later alsjeblieft opnieuw."
+
+msgid "shells_apply/not_enough_money"
+msgstr "Fout met munitie. Onvoldoende middelen voor de aankoop."
+
+msgid "shells_apply/success_money_spent"
+msgstr "Totaal uitgegeven aan munitie %(money)s."
+
+msgid "shells_apply/wallet_not_available"
+msgstr "Actie onbeschikbaar. Je goud zal weer beschikbaar zijn nadat WG Wallet is hersteld."
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "Verzoek tot module kopen en monteren is verzonden. Wacht op antwoord."
+
+msgid "shop/item/buy_server_error"
+msgstr "Het is niet mogelijk om %(typeString)s \"%(userString)s\" aan te schaffen. Probeer het later opnieuw."
+
+msgid "shop/item/buy_success"
+msgstr "Module %(typeString)s \"%(userString)s\" succesvol aangeschaft (%(count)d). Uitgegeven: %(price)s."
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "Operatie nu niet beschikbaar."
+
+msgid "shop/item/not_enough_money"
+msgstr "Om %(typeString)s \"%(userString)s\" te kopen heb je %(price)s meer nodig."
+
+msgid "shop/item/not_found"
+msgstr "Module %(typeString)s \"%(userString)s\" is niet in de winkel gevonden. Probeer het later opnieuw."
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "Operatie is tijdelijk niet beschikbaar."
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "Om %(userString)s te kopen heb je %(price)s meer nodig."
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "Om %(userString)s te huren, heb je %(price)s meer nodig."
+
+msgid "shop/vehicle/not_found"
+msgstr "Voertuig %(userString)s is niet gevonden in de winkel. Probeer later nog eens."
+
+msgid "shop_resync"
+msgstr "Interface geupdate op %(date)s om %(time)s vanwege server aanpassingen."
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "<font color='#E9E2BF'>\"{oldName}\"</font> ({amount}) is omgezet in <font color='#E9E2BF'>\"{newName}\"</font> ({amount})"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "Datum: %(date)s\nGevechtsbevelen omgezet: %(items)s."
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "Ontvangstbewijs"
+
+msgid "squad/createError"
+msgstr "Een Premiumaccount is nodig voor het oprichten van een peloton."
+
+msgid "squad/kickedFromQueue"
+msgstr "Geen rivalen gevonden voor het huidige peloton. Deel je team anders in."
+
+msgid "squad/leaveDisabled"
+msgstr "Actie niet beschikbaar.\nJe kan het peloton niet verlaten. Je bent een pelotonlid en klaar voor het gevecht."
+
+msgid "squad/memberJoined"
+msgstr "%s doet mee bij de tactische eenheid."
+
+msgid "squad/memberLeave"
+msgstr "%s heeft de tactische eenheid verlaten."
+
+msgid "squad/memberNotReady"
+msgstr "%s is niet klaar."
+
+msgid "squad/memberOffline"
+msgstr "Verbinding verbroken met %s."
+
+msgid "squad/memberReady"
+msgstr "%s is klaar."
+
+msgid "squad/notSetReadyStatus"
+msgstr "Kan niet met het peloton deelnemen aan het gevecht."
+
+msgid "squad/notValidDeleted"
+msgstr "De %(vehName)s is uitgezonderd van het peloton omdat zijn niveau niet overeenkomt met het niveau van het voertuig van de commandant. Selecteer een voertuig van hetzelfde niveau."
+
+msgid "squad/notValidDeletedFilter"
+msgstr "De %(vehName)s is uit het peloton gezet omdat de commandant de vereisten heeft gewijzigd."
+
+msgid "squad/notValidEnqueueData"
+msgstr "Je bent uit het peloton verwijderd omdat de commandant de eisen heeft veranderd, of je kunt niet meedoen omdat je voertuig niet aan de eisen voldoet. Selecteer alsjeblieft een ander voertuig."
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "De %(vehName)s is verwijderd vanwege het aantal van deze voertuigen dat per peloton is toegestaan. Selecteer een ander voertuig."
+
+msgid "squad_bonus/switch_off/body"
+msgstr "Deze functionaliteit is wegens technische redenen tijdelijk onbeschikbaar.\nOnze excuses voor enig ongemak."
+
+msgid "squad_bonus/switch_off/title"
+msgstr "De pelotonbonus is tijdelijk onbeschikbaar"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "De technische problemen zijn opgelost. Onze excuses voor enig ongemak."
+
+msgid "squad_bonus/switch_on/title"
+msgstr "De pelotonbonus is weer beschikbaar"
+
+msgid "ssr/unavailable"
+msgstr "De replay kan niet worden gedownload"
+
+msgid "steam_login_not_allowed"
+msgstr "Je kunt deze applicatie niet gebruiken om te spelen: je Steam-account is al aan een Wargaming.net-account gelinkt. Meer informatie is beschikbaar via Player Support."
+
+msgid "tankman/tankmanToRemove"
+msgstr "Bemanningslid ontslagen."
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s d"
+
+msgid "techtree/action/header"
+msgstr "Actie \"%(actionName)s\""
+
+msgid "techtree/action/text"
+msgstr "Actie eindigt over "
+
+msgid "techtree/action/text/closest"
+msgstr "De volgende actie eindigt over: "
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "Reden: dit voertuig is alleen beschikbaar voor Prime Gaming-leden. Controleer alsjeblieft de status van je Prime Gaming-abonnement."
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "Voertuig onbeschikbaar"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "Datum: %(datetime)s\nVoertuigen toegevoegd: %(vehicles)s\nToegevoegd: een plek in de garage,%(crew)s 3D-stijl."
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "Datum: %(datetime)s\nVoertuigen toegevoegd: %(vehicles)s\nToegevoegd: een plek in de garage,%(crew)s en een exclusieve camouflage."
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr " een 100%% bemanning%(skills)s,"
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "Voertuigen toegevoegd"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "Datum: %(datetime)s\nVerwijderd: %(vehicles)s, een plek in de garage."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "Reden: dit voertuig is alleen beschikbaar voor Prime Gaming-leden. Controleer alsjeblieft de status van je Prime Gaming-abonnement."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "Voertuigen verwijderd"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "Het voertuig is weer beschikbaar"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "De T-44-100 Igrovoy tank is toegevoegd. Verwijderd: %(tanks)s."
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "Missies kunnen nu worden voltooid in de T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " en "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)s credits"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "Alle bemanningsleden van de %(tanks)s zijn hertraind naar de T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "Uitrusting gedemonteerd en naar het depot verzonden.\nAanpassingselementen naar het depot verzonden.\nGranaten en gevechtsbevelen naar het depot verzonden."
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "Materieel, aanpassingselementen, Gevechtservaring, statistieken en onderscheidingen overgezet van de %(mergedTank)s naar de T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)s Vrije ervaring"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr ", "
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "Compensatie voor Veldmodificatie-ervaring: %(compensation)s toegevoegd."
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "Compensatie voor gekochte progressieve stickers: %(value)s toegevoegd."
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "Spelstatistieken en onderscheidingen overgezet van de %(mergedTank)s naar de T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "Gevechtservaring opgesomd en overgezet naar de T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "Veel succes op het slagveld!"
+
+msgid "telecomMergeResults/title"
+msgstr "Wijzigingen aan het \"Igrovoy\" tarief"
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "Voertuigselectie en -huur zijn opgeschort."
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "Voertuighuur is momenteel onbeschikbaar"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "Voertuighuur is beschikbaar"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "Gefeliciteerd! Je hebt %(count)s token(s) ontvangen."
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "Overdragen van goud mislukt. De ontvangende partij heeft de overdracht afgewezen."
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "Goud overdracht is niet beschikbaar."
+
+msgid "tradingError/NO_WARES"
+msgstr "Overdracht goud niet mogelijk. Niet genoeg goud."
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "Limiet overdrachten bereikt. Probeer het morgen opnieuw."
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "Overdracht goud mislukt. Probeer het later opnieuw."
+
+msgid "training/error/AddPlayer"
+msgstr "Trainingsruimte fout. Maximum aantal spelers in een team is overschreden."
+
+msgid "training/error/doAction"
+msgstr "Fout trainingsruimte. Probeer het later overnieuw."
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "Trainingsruimtefout. Maximale teamgrootte in de Bestorming-modus: %(numPlayers)s."
+
+msgid "training/error/selectObserver"
+msgstr "Trainingsruimte fout. Maximum aantal spelers in een team: %(numPlayers)s."
+
+msgid "training/error/swapTeams"
+msgstr "Serverfout bij wisselen van de teams. Probeer het later nog eens."
+
+msgid "transferXP/server_error"
+msgstr "Handeling onbeschikbaar. Probeer het later alsjeblieft opnieuw."
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "Handeling onbeschikbaar: Onvoldoende rechten."
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "Actie niet beschikbaar. Je bent geen lid van een clan."
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "Fout: het geselecteerde voertuig kan niet in dienst worden gesteld."
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "Fout: niet genoeg reparatieonderdelen om het voertuig weer in dienst te laten treden."
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "Fout: de kosten van indiensttreding van het voertuig zijn gewijzigd."
+
+msgid "unit/error/wgshEvent/common"
+msgstr "Fout: handeling kan niet worden verricht."
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "Peloton betreden onmogelijk: je toegang tot deze spelmodus is tijdelijk geblokkeerd."
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "Actie niet beschikbaar. Account is hersteld."
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "De speler kan niet deelnemen het team."
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "Actie niet beschikbaar. Plaats al bezet."
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "Speler neemt al deel aan het team."
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "Kan de permissies van de commandant niet overdragen."
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "Actie niet beschikbaar. Verkeerd accounttype."
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "Actie niet beschikbaar. Verkeerde clan."
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "Kan niet deelnemen aan het team."
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "Totaalniveau van voertuigen is overschreden."
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "Actie niet beschikbaar. Verkeerde lijst met afdelingsleden."
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "Onjuist plaatsnummer"
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "Actie onbeschikbaar. Verkeerde voertuigtype om in een peloton te vechten."
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "Fout bij het toetreden bij het team. Verkeerd voertuigniveau."
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "Van divisie veranderen is onbeschikbaar op de gespecificeerde tijd."
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "Kan geen geschikt team vinden."
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "Kan geen uitnodiging versturen."
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "Fout bij betreden van het peloton: spelen in een peloton is onbeschikbaar totdat de kwalificatie is voltooid."
+
+msgid "unit/errors/COOLDOWN"
+msgstr "Operatie is tijdelijk niet beschikbaar."
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "Laatste operatie met het team is mislukt."
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "Voertuig is niet gereed voor het gevecht of er is geen voertuig in de garage."
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "Kan voertuig niet in de plaats zetten."
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "Actie niet beschikbaar. Sommige van leden van de afdeling zijn nog in gevecht."
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "Geen toestemming voor deze operatie."
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "Account geblokkeerd."
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "Team staat in de wachtrij of zoekresultaten."
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "Kan niet deelnemen aan het team. Toegang geweigerd."
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "Team staat niet in de wachtrij."
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "Team staat niet in de zoekresultaten."
+
+msgid "unit/errors/NOT_READY"
+msgstr "Team is niet gereed."
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "Peloton betreden onmogelijk: je hebt geen geschikt voertuig voor de geselecteerde spelmodus."
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "Kan de speler niet aan teamleden toevoegen."
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "Actie niet beschikbaar. Speler niet gevonden."
+
+msgid "unit/errors/NO_UNIT"
+msgstr "Team is niet gevonden."
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "Team bestaat niet."
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "Actie niet beschikbaar. Fout tijdens het tonen van de voertuiglijst."
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "Actie niet beschikbaar. Speler is offline."
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "Je bent toegevoegd aan de zwarte lijst van de commandant."
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "Actie niet beschikbaar. Het voorgaande gevecht is nog niet afgelopen."
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "Kan speler niet uit het team zetten."
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "Actie niet beschikbaar. Een of meerdere spelers hebben de uitnodiging nog niet geaccepteerd."
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "Actie niet beschikbaar voor legionairs."
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "Actie niet beschikbaar. Plaats niet gesloten."
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "Actie niet beschikbaar. Plaats al bezet."
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "Actie niet beschikbaar voor deze plaats."
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "Schermutselingen zullen niet toegestaan zijn op de gespecificeerde tijd."
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "Kan niet naar een andere spelmodus schakelen. De limiet van het aantal pelotonleden is overschreden."
+
+msgid "unit/errors/TIMEOUT"
+msgstr "Actie niet beschikbaar. Tijd is op."
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "Actie niet beschikbaar. Maximale hoeveelheid plaatsen gesloten."
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "Actie niet beschikbaar. Maximale hoeveelheid legionairs."
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "Kan geen team creëren of deelnemen aan een team."
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "Kan geen team creëren."
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "Actie niet beschikbaar. Afdeling is hersteld."
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "Actie niet beschikbaar. Voertuig voldoet niet aan de eisen."
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "Actie niet beschikbaar. Selecteer eerst een voertuig."
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "Team bestaat niet."
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "Actie onbeschikbaar. Voertuig is niet beschikbaar of voldoet niet aan de eisen."
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Je hebt de controle verkregen over gevechtsreserves."
+
+msgid "unit/notification/changeDivision"
+msgstr "De commandant %(name)s selecteerde de %(division)s divisie."
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "Absoluut"
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "Kampioen"
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "Medium"
+
+msgid "unit/notification/giveLeadership"
+msgstr "%(userName)s is aangewezen als de teamcommandant."
+
+msgid "unit/notification/playerAdded"
+msgstr "%(userName)s is bij de afdeling gekomen."
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "%(userName)s zit nu in het peloton om met een niveau %(tierRange)s voertuig te vechten."
+
+msgid "unit/notification/playerOffline"
+msgstr "Connectie met %(userName)s is verloren gegaan."
+
+msgid "unit/notification/playerOnline"
+msgstr "Connectie met %(userName)s is hersteld."
+
+msgid "unit/notification/playerRemoved"
+msgstr "%(userName)s heeft de afdeling verlaten."
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "Uitnodiging is al verzonden."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "Commandantsrechten zijn overgedragen aan een andere speler."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Commandantsrechten en controle over gevechtsreserves zijn aan een andere speler overgedragen."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Controle over gevechtsreserves werd overgedragen aan een andere speler."
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "Je bent uitgesloten van de afdeling: afdeling ontbonden."
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "Je bent buitengesloten van de afdeling. Clan aangepast."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "Je speeltijd is op, en om die reden kun je geen nieuw gevecht betreden. Je verbinding met de server zal om %(expiredTime)s worden verbroken."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "Een van de spelers heeft niet genoeg speeltijd over om het gevecht af te ronden. Het peloton zit nu in de voorbereidingsstand."
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "Het samenbrengen van legionairs is opgeschort."
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "Actie niet beschikbaar. Wachttijd voorbij."
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "Fout bij teamaanmelding. Je bent uitgesloten uit het team."
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "Je bent automatisch uit het team met vrijwilligers gezet."
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "Je bent uitgesloten door de commandant."
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "Je bent uitgesloten van de afdeling: afdeling ontbonden."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "Je bent nu een afdelingscommandant."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Je bent nu een afdelingscommandant.\nJe hebt de controle over gevechtsreserves."
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "Een ander bruggenhoofd is geselecteerd voor het Offensief."
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "Een ander gevechtstype is geselecteerd."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "Zoeken tijdelijk uitgeschakeld: teveel pelotons op de server."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "Het is wegens een serverfout niet mogelijk om spelers te vinden. Probeer het later opnieuw."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "Zoeken geannuleerd: minstens één pelotonlid heeft geen geschikt voertuig voor de geselecteerde spelmodus."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "Zoektijd verstreken. Vereiste spelers niet gevonden."
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "Het betreden van spelers is in voortgang. Wacht alsjeblieft."
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "In dienst gesteld voertuig: %(vehicleName)s"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "Kan gereedheid niet bevestigen om tot het team toe te treden."
+
+msgid "unload/button"
+msgstr "Naar de barakken"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "Kan de bemanning niet naar de barakken sturen: de tank heeft een unieke permanente bemanning."
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "Fout bij het zenden van de bemanning naar de barakken. Verkeerd voertuig."
+
+msgid "unload_crew/server_error"
+msgstr "Zenden van de bemanning naar de barakken mislukt. Probeer het later opnieuw."
+
+msgid "unload_crew/success"
+msgstr "Bemanning is naar de barakken gestuurd."
+
+msgid "unload_crew/vehicle_locked"
+msgstr "Fout bij het zenden van de bemanning naar de barakken. Het voertuig is vergrendeld."
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "Fout bij het zenden van de bemanning naar de barakken. Repareer het voertuig."
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "Kan het bemanningslid niet naar de barakken sturen: de tank heeft een unieke permanente bemanning."
+
+msgid "unload_tankman/button"
+msgstr "Naar de barakken"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "Fout bij het verplaatsen van een bemanningslid naar de barakken. Verkeerd voertuig."
+
+msgid "unload_tankman/not_enough_space"
+msgstr "Dit bemanningslid kan niet naar de barakken worden gestuurd. Niet genoeg bedden in de barakken."
+
+msgid "unload_tankman/server_error"
+msgstr "Bemanningslid kan niet naar de barakken worden gestuurd. Probeer het later opnieuw."
+
+msgid "unload_tankman/success"
+msgstr "Bemanningslid is naar de barakken gestuurd."
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "Fout bij het verplaatsen van een bemanningslid naar de barakken. Het voertuig is vergrendeld."
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "Fout bij het verplaatsen van een bemanningslid naar de barakken. Repareer je voertuig."
+
+msgid "unlocks/drawFailed"
+msgstr "Foute instelling. Technologieboom is geblokkeerd."
+
+msgid "unlocks/item/already_unlocked"
+msgstr "Module %(typeString)s \"%(userString)s\" is onderzocht."
+
+msgid "unlocks/item/in_processing"
+msgstr "Onderzoek aangevraagd. Wachten op serverreactie."
+
+msgid "unlocks/item/server_error"
+msgstr "Serverfout bij het onderzoeken van module %(typeString)s \"%(userString)s\". Probeer het later opnieuw."
+
+msgid "unlocks/item/unlock_success"
+msgstr "Module %(typeString)s \"%(userString)s\" is onderzocht. Ongebruikte ervaring verbruikt: %(vehXP)s. Vrije ervaring verbruikt: %(freeXP)s."
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "Voertuig %(userString)s is onderzocht."
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "Onderzoek aangevraagd. Wachten op serverreactie."
+
+msgid "unlocks/vehicle/server_error"
+msgstr "Serverfout bij het onderzoeken van voertuig %(userString)s. Probeer het later nog eens."
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "Voertuig %(userString)s is onderzocht. Ongebruikte ervaring gebruikt %(vehXP)s. Verbruikte Vrije ervaring: %(freeXP)s."
+
+msgid "upgradeTankman/server_error"
+msgstr "Fout tijdens training bemanningslid. Probeer later opnieuw."
+
+msgid "upgradeTankman/success"
+msgstr "Training geslaagd."
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "Het upgraden van bounty-uitrusting is wegens technische redenen tijdelijk onbeschikbaar. Probeer het later alsjeblieft opnieuw."
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "Het upgraden van bounty-uitrusting is weer beschikbaar. Onze excuses voor enig ongemak."
+
+msgid "vehicle/restore/finished"
+msgstr "De %(vehicleName)s is niet beschikbaar voor terugbrengen: de tijd voor de actie is verlopen."
+
+msgid "vehicle/restoreDuration/days"
+msgstr "Je kunt dit voertuig terugbrengen vanuit de winkel voor %(time)s d."
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "Je kunt dit voertuig terugbrengen vanuit de winkel voor %(time)s u."
+
+msgid "vehicleCompare/disabled"
+msgstr "Actie is tijdelijk niet beschikbaar. Probeer het later opnieuw."
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "%(vehicle)s voorvertoning zal alleen beschikbaar zijn als de volledige client is gedownload."
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "Verzoek om uitrusting te monteren verstuurd. Wacht voor antwoord van server."
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "Het is niet mogelijk om %(typeString)s \"%(userString)s\" aan te schaffen. Probeer het later opnieuw."
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "Module %(typeString)s \"%(userString)s\" succesvol aangeschaft (%(count)d). Uitgegeven: %(price)s."
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "Module %(typeString)s \"%(userString)s\" is al aanwezig in het depot."
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "Module %(typeString)s \"%(userString)s\" is onderzocht."
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "Om %(typeString)s \"%(userString)s\" te kopen heb je %(price)s meer nodig."
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "Module %(typeString)s \"%(userString)s\" is niet gevonden in het depot."
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "Module %(typeString)s \"%(userString)s\" is niet in de winkel gevonden. Probeer het later opnieuw."
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "%(typeString)s \"%(userString)s\" is onderzocht. Ongebruikte ervaring verbruikt: %(unspentXP)s. Vrije ervaring verbruikt: %(freeXP)s."
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "Onderzoek aanvraag verstuurd. Wachten op serverreactie."
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "Voertuig %(userString)s is al aanwezig in het depot."
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "Voertuig %(userString)s is onderzocht."
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "Om %(userString)s te kopen heb je %(price)s meer nodig."
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "Voertuig %(userString)s is niet gevonden in het depot."
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "Voertuig %(userString)s is niet gevonden in de winkel. Probeer later nog eens."
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "%(userString)s onderzocht. Ongebruikte ervaring uitgegeven: %(unspentXP)s. Vrije ervaring uitgegeven: %(freeXP)s."
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "Het elite beloningssysteem is nu beschikbaar voor de %(vehicle)s"
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "Elite beloningen"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "De %(modification)s modificatie voor de %(vehicle)s is met succes aangeschaft."
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "Modificatie aangeschaft"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "De %(category)s categorie voor de tweede plek van de %(vehicle)s is met succes toegekend."
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "Plekcategorie toekenning"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "Credits uitgegeven: %(value)s."
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Alle dual modificaties voor de %(vehicle)s zijn geannuleerd."
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "De %(modification)s modificatie voor de %(vehicle)s is geannuleerd."
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "Modificatie geannuleerd"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "De %(modifications)s modificaties voor de %(vehicle)s zijn geannuleerd."
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "Gevechtservaring uitgegeven: %(value)s."
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "Vrije ervaring uitgegeven: %(value)s."
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "Fout met de modificatieboom. Probeer het later alsjeblieft opnieuw."
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "Fout"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "Standaard modificatielevel %(level)s voor de %(vehicle)s met succes onderzocht en gekocht."
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "Standaard modificatielevels %(levels)s voor de %(vehicle)s met succes onderzocht en gekocht."
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "Modificatie onderzocht"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "De %(category)s categorie voor de tweede plek van de %(vehicle)s is met succes toegekend."
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "Plekcategorie toekenning"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "Hulpmaterieel is nu beschikbaar voor de %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "Hulpmaterieel"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "Categorietoekenning voor de tweede plek is nu beschikbaar voor de %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "Plekcategorie beschikbaarheid"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "Kernmaterieel is nu beschikbaar voor de %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "Kernmaterieel"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "De modificatieboom is nu beschikbaar voor de %(vehicle)s."
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "Veldmodificatie"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "Voertuigmodificatieboom beschikbaar. Je kunt je voertuigen op basis van hun rol configureren en hun eigenschappen door middel van diverse modificaties wijzigen."
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "Fout bij het upgraden. Probeer het later alsjeblieft opnieuw."
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "Fout"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "\"%(perk)s\" node succesvol onderzocht voor de %(vehicle)s."
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "Node onderzocht"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "%(perk)s nodes succesvol onderzocht voor de %(vehicle)s."
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "Nodes onderzocht"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "Handeling onbeschikbaar. Probeer het later alsjeblieft opnieuw."
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "De %(vehName)s kan niet worden gekocht. Verkeerd voertuig."
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "De %(vehName)s kan niet worden gekocht. Niet genoeg credits."
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "De %(vehName)s kan niet worden gekocht. Niet genoeg goud."
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "Handeling niet mogelijk. Voertuigen van deze natie zijn niet onderzocht."
+
+msgid "vehicle_buy/server_error"
+msgstr "De %(vehName)s kan wegens een serverfout niet worden gekocht. Probeer het later opnieuw."
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "De %(vehName)s kan niet worden gekocht. De server is tijdelijk onbeschikbaar."
+
+msgid "vehicle_buy/success"
+msgstr "%(vehName)s succesvol aangeschaft. Uitgegeven: %(price)s."
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "De %(vehName)s kan niet worden verwijderd. Probeer het later opnieuw."
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "De %(vehName)s kan niet worden verwijderd. Verkeerd voertuig."
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "De %(vehName)s kan niet worden verwijderd. Niet genoeg credits."
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "De %(vehName)s kan niet worden verwijderd. Niet genoeg goud."
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "De %(vehName)s kan niet worden verwijderd. Niet genoeg bedden in de barakken."
+
+msgid "vehicle_remove/server_error"
+msgstr "De %(vehName)s kan niet worden verkocht. Zorg er alsjeblieft voor dat het voertuig niet in een tactische eenheid zit of probeer het later opnieuw."
+
+msgid "vehicle_remove/success/default"
+msgstr "De %(vehName)s is succesvol verwijderd.\n%(money)s."
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "De %(vehName)s is succesvol verwijderd."
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "De %(vehName)s is succesvol verwijderd.\n%(gainMoney)s.\n%(spendMoney)s."
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "De %(vehName)s kan niet worden verwijderd. Het voertuig zal automatisch worden verwijderd."
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "De %(vehName)s kan niet worden verwijderd. Het voertuig is geblokkeerd."
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "De %(vehName)s kan niet worden verwijderd. Het voertuig moet worden gerepareerd."
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "De %(vehName)s kan niet worden verwijderd. Je hebt voor vandaag de limiet voor voertuigen bereikt."
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "vehicle_rent/buyOption"
+msgstr "Let op! Mocht je het voertuig later willen kopen, dan is het voor jou beschikbaar met korting."
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "De %(vehName)s kan niet worden gehuurd. Verkeerd voertuig."
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "De %(vehName)s kan niet worden gehuurd. Niet genoeg credits."
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "De %(vehName)s kan niet worden gehuurd. Niet genoeg goud."
+
+msgid "vehicle_rent/server_error"
+msgstr "De %(vehName)s kan wegens een serverfout niet worden gehuurd. Probeer het later opnieuw."
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "De %(vehName)s kan niet worden gehuurd. Het huren van voertuigen is tijdelijk onbeschikbaar."
+
+msgid "vehicle_rent/success"
+msgstr "Je hebt de %(vehName)s %(rentPackageName)s gehuurd. Je hebt uitgegeven: %(price)s. %(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "voor %(days)d d"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "vehicle_repair/credits_error"
+msgstr "%(needed)s nodig om de %(vehName)s te repareren."
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "%(needed)s nodig om de %(vehName)s te repareren."
+
+msgid "vehicle_repair/server_error"
+msgstr "Fout bij het repareren van de %(vehName)s. Probeer het later opnieuw."
+
+msgid "vehicle_repair/success"
+msgstr "%(vehName)s gerepareerd. Je hebt uitgegeven: %(money)s."
+
+msgid "vehicle_restore/DISABLED"
+msgstr "Terugbrengen van het voertuig is tijdelijk niet beschikbaar. Probeer het later opnieuw."
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "Het is niet mogelijk om de %(vehName)s terug te brengen. Het terugbrengen is tijdelijk onbeschikbaar."
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "Het is niet mogelijk om de %(vehName)s terug te brengen. Verkeerd voertuig."
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "Het is niet mogelijk om de %(vehName)s terug te brengen. Niet genoeg credits."
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "Het is niet mogelijk om de %(vehName)s terug te brengen. Niet genoeg goud."
+
+msgid "vehicle_restore/server_error"
+msgstr "Het is wegens een serverfout niet mogelijk om de %(vehName)s terug te brengen. Probeer het later opnieuw."
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "Het is niet mogelijk om de %(vehName)s terug te brengen. Het terugbrengen is tijdelijk onbeschikbaar."
+
+msgid "vehicle_restore/success"
+msgstr "De %(vehName)s is succesvol teruggebracht. Uitgegeven: %(price)s."
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "Demontagekit gebruikt (x%(countDK)s)"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "De %(vehName)s kan niet worden verkocht. Probeer het later opnieuw."
+
+msgid "vehicle_sell/disabledService"
+msgstr "De %(vehName)s kan niet worden verkocht. Probeer het later opnieuw."
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "De %(vehName)s kan niet worden verkocht. Niet genoeg componenten om de uitrusting te demonteren."
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "De %(vehName)s kan niet worden verkocht. Verkeerd voertuig."
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "De %(vehName)s kan niet worden verkocht. Niet genoeg credits."
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "De %(vehName)s kan niet worden verkocht. Niet genoeg goud."
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "De %(vehName)s kan niet worden verkocht. Niet genoeg bedden in de barakken."
+
+msgid "vehicle_sell/server_error"
+msgstr "De %(vehName)s kan niet worden verkocht. Zorg er alsjeblieft voor dat het voertuig niet in een tactische eenheid zit of probeer het later opnieuw."
+
+msgid "vehicle_sell/success"
+msgstr "De %(vehName)s is succesvol verkocht.\n%(money)s.\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "De %(vehName)s is succesvol verkocht.\n%(gainMoney)s.\n%(spendMoney)s.\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "De %(vehName)s kan niet worden verkocht. Het voertuig zal automatisch worden verwijderd."
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "De %(vehName)s kan niet worden verkocht. Het voertuig is vergrendeld."
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "De %(vehName)s kan niet worden verkocht. Repareer eerst je voertuig."
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "De %(vehName)s kan niet worden verkocht. Je hebt voor vandaag de limiet voor voertuigen bereikt."
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "Fout bij het kopen van een plek. Niet genoeg credits."
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "Fout bij aanschaf plek. Niet genoeg goud."
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "Fout tijdens aanschaf ruimte. Probeer het later opnieuw."
+
+msgid "vehicle_slot_buy/success"
+msgstr "Extra plek in de garage is aangeschaft. Uitgegeven %(money)s."
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "Fout bij het aanpassen van de versnelde bemanningstraining voor de %(vehName)s. Verkeerd voertuig."
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "Versnelde bemanningstraining voor de %(vehName)s kan niet worden veranderd. Probeer het later opnieuw."
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "Versnelde bemanningstraining voor de %(vehName)s staat uit."
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "Versnelde bemanningstraining voor de %(vehName)s staat aan."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "Fout bij het aanpassen van de versnelde bemanningstraining voor de %(vehName)s. Het voertuig is vergrendeld."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "Fout bij het aanpassen van de versnelde bemanningstraining voor de %(vehName)s. Repareer eerst het voertuig."
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "Niet gelukt om in te ruilen voor de %(vehName)s. Onjuist voertuig geselecteerd."
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "Kan niet voor de %(vehName)s worden ingeruild. Niet genoeg credits."
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "Kan niet voor de %(vehName)s worden ingeruild. Niet genoeg goud."
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "Kan niet voor de %(tradeOffVehName)s worden ingeruild. Niet genoeg bedden in de barakken."
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "Inruilen is nu beschikbaar!"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "Inruilen is niet meer beschikbaar!"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "Niet gelukt om in te ruilen voor de %(vehName)s. Serverfout. Probeer het later alsjeblieft opnieuw."
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "Niet gelukt om in te ruilen voor de %(vehName)s. De aankoop-/inruiloptie is tijdelijk niet beschikbaar."
+
+msgid "vehicle_trade_in/success"
+msgstr "De %(tradeOffVehName)s is verwijderd. De %(vehName)s is voor %(price)s gekocht."
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "Niet gelukt om de %(tradeOffVehName)s in te ruilen. Het voertuig zal automatisch worden verwijderd."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "Niet gelukt om in te ruilen voor de %(vehName)s. Het voertuig kan niet met inruil worden verkregen."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "De %(tradeOffVehName)s kan niet worden ingeruild. Het voertuig heeft geen inruilmogelijkheid."
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "De %(tradeOffVehName)s kan niet worden ingeruild. Het voertuig is onbeschikbaar."
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "De %(tradeOffVehName)s kan niet worden ingeruild. Repareer eerst het voertuig."
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "De %(tradeOffVehName)s kan niet worden ingeruild. Het voertuig bevindt zich niet in het depot."
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "Operatie niet beschikbaar. Al je goud zal beschikbaar zijn nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "video/error"
+msgstr "Fout bij afspelen video. Fout code: %(code)s."
+
+msgid "w2gt/switchOff/description"
+msgstr "Minimap-gevechtszones zijn tijdelijk niet beschikbaar."
+
+msgid "w2gt/switchOff/header"
+msgstr "Technische problemen"
+
+msgid "w2gt/switchOn/description"
+msgstr "Minimap-gevechtszones zijn nu beschikbaar. Vecht door!"
+
+msgid "w2gt/switchOn/header"
+msgstr "Functionaliteit hersteld"
+
+msgid "wallet/available"
+msgstr "WG Wallet succesvol gesynchroniseerd. Al je goud, obligaties, credits en Vrije ervaring zijn nu beschikbaar."
+
+msgid "wallet/available_freexp"
+msgstr "WG Wallet succesvol gesynchroniseerd. Al je Vrije ervaring is nu beschikbaar."
+
+msgid "wallet/available_gold"
+msgstr "WG Wallet succesvol gesynchroniseerd. Al je goud is nu beschikbaar."
+
+msgid "wallet/not_available"
+msgstr "Verwerking van balansdata is in voortgang. Al je goud, obligaties, credits en Vrije ervaring zullen binnenkort beschikbaar zijn."
+
+msgid "wallet/not_available_freexp"
+msgstr "Verwerking van balans data is bezig. Al je Vrije ervaring zal binnenkort beschikbaar zijn."
+
+msgid "wallet/not_available_gold"
+msgstr "Verwerking van balans data is bezig. Al je goud zal binnenkort beschikbaar zijn."
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "Kan de wekelijkse missie niet vervangen: handeling geblokkeerd."
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "Kan de wekelijkse missie niet vervangen: ongeldige missie."
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "Kan de wekelijkse missie niet vervangen: de missie is reeds voltooid."
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "Kan de wekelijkse missie niet vervangen: handeling opgeschort."
+
+msgid "weekly_quests/reroll/success"
+msgstr "Wekelijkse missie succesvol vervangen."
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "Kan de wekelijkse missie niet vervangen. Probeer het later opnieuw."
+
+msgid "weekly_quests/switch_off/body"
+msgstr "Wekelijkse missies zijn tijdelijk onbeschikbaar. Onze excuses voor het ongemak."
+
+msgid "weekly_quests/switch_on/body"
+msgstr "Wekelijkse missies zijn weer beschikbaar. Onze excuses voor het ongemak."
+
+msgid "winback/turnOffBattlesError"
+msgstr "Warming-up kan niet worden verlaten. Probeer het later alsjeblieft nog eens."
+
+msgid "window/buttons/close"
+msgstr "Sluiten"
+
+msgid "wrong_slot"
+msgstr "%s \"%s\" komt niet overeen met plek %s."

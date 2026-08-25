@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "Posádka a výcvik"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "Úprava vzhledu"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "Vybavení a směrnice"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "Ostatní"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "Vozidla"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "Potvrzuji!"
+
+msgid "autoOpenView/title"
+msgstr "ZÍSKANÉ ODMĚNY"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Potvrzuji!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "Směrnice"
+
+msgid "bonuses/description/booster"
+msgstr "Osobní záloha"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Vzhled posádky"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standardní vybavení"
+
+msgid "bonuses/description/style"
+msgstr "2D styl"
+
+msgid "bonuses/description/style3D"
+msgstr "3D styl"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "Fragment plánu (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "Univerzální fragment plánu"
+
+msgid "bonuses/label/bpcoin"
+msgstr "Žeton Battle Passu"
+
+msgid "boxTooltip/description/text/default"
+msgstr "Po otevření mohou z bedny vypadnout vozidla, ekonomické zdroje a další cenné předměty.\nBedny jsou dostupné v herním obchodě."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "zbývajících otevření do zaručené odměny, pokud k tomu nedojde dříve."
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "Bedny jsou dostupné v herním obchodě."
+
+msgid "common/backButton"
+msgstr "ZPĚT"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "Taktická bedna"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "TAKTICKÁ BEDNA"
+
+msgid "common/closeButton"
+msgstr "ZAVŘÍT"
+
+msgid "common/footer/checkbox"
+msgstr "Animace otevírání"
+
+msgid "common/getButton/lowerCase"
+msgstr "Získat více"
+
+msgid "common/getButton/upperCase"
+msgstr "ZÍSKAT VÍCE"
+
+msgid "common/infoButton"
+msgstr "Co je uvnitř?"
+
+msgid "common/loader"
+msgstr "Otevírání bedny..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) ks"
+msgstr[1] "%(count) ks"
+msgstr[2] "%(count) ks"
+
+msgid "common/rewards/multiplier"
+msgstr "{count}×"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "den"
+msgstr[1] "dny"
+msgstr[2] "dní"
+
+msgid "common/selectTooltip"
+msgstr "Nedostatek beden pro otevření {{count}} najednou"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Otevřete bedny a prohlédněte si statistiky."
+
+msgid "common/statistics/header"
+msgstr "Beden otevřeno: %(count)"
+
+msgid "common/statsButton"
+msgstr "Statistiky"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "Zrušit"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Vaše historie odměn bude vymazána."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "Vynulovat"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "Vynulovat statistiky?"
+
+msgid "entryPoint/boxes"
+msgstr "NA BEDNY"
+
+msgid "entryPoint/count"
+msgstr "%(count)×"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "×999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Jedná se o speciální bedny obsahující nové a jedinečné předměty. Lze je získat v herním obchodě."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Akce skončí za"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Narazili jsme na technický problém, a proto jsme akci dočasně pozastavili, dokud jej nevyřešíme."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Dočasně nedostupné"
+
+msgid "eventName/lowerCase"
+msgstr "Bitevní zásoby"
+
+msgid "eventName/upperCase"
+msgstr "BITEVNÍ ZÁSOBY"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "Každé %(count). otevření"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "vozidlo"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "%(count) zaručuje %(item). Pokud vozidlo vypadne dříve, počítadlo se vynuluje."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Pokud již vlastníte všechna vozidla, obdržíte místo toho zlaťáky."
+
+msgid "guaranteedTitle/text"
+msgstr "%(name) při %(count). otevření"
+
+msgid "guaranteedTitle/textName"
+msgstr "Zaručená odměna"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "Otevřít"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "Akce skončí za %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Pokud neotevřete všechny bedny před koncem akce, budou později otevřeny automaticky."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Pokud již vlastníte všechna vozidla ze seznamu možného obsahu bedny, pak všechna následující vozidla, která z beden získáte, budou kompenzována ve zlaťácích v hodnotě jejich plné ceny."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Každá %(guaranteed0)s. bedna zaručeně obsahuje vozidlo VIII.–X. úrovně. Pokud daný počet beden otevřete, aniž by vám takové vozidlo padlo, pak při otevření %(guaranteed0)s.&zwnbsp;bedny padne v závislosti na typu bedny vozidlo VIII.–X. úrovně, které ještě nevlastníte. Až k tomu dojde, počítadlo se vynuluje."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Otevřít automaticky"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Kompenzace"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Zaručená odměna"
+
+msgid "infoPage/header/lootListLink"
+msgstr "Zobrazit seznam předmětů na portálu"
+
+msgid "infoPage/header/probability/description"
+msgstr "Pravděpodobnost padnutí"
+
+msgid "infoPage/header/probability/title"
+msgstr "Skupina"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Z každé skupiny může padnout nanejvýš jedna odměna"
+
+msgid "infoPage/header/rewards/title"
+msgstr "Odměny"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "Otevřít další"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Z %(name) (otevřeno %(boxesCount) beden)"
+
+msgid "multipleRewardView/header/title/"
+msgstr "ZÍSKANÉ ODMĚNY"
+
+msgid "noBoxesView/description/"
+msgstr "Bedny jsou dostupné v herním obchodě"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "Do obchodu"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Na dostupné bedny"
+
+msgid "preview/backLabel"
+msgstr "NA BEDNY"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Dostupné: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Žádné další bedny"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "Pokračovat"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "pro %(vehicleInfo)"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "3D styl „%(style)“"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "Akce „%(eventName)s“ skončila"
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "Všechny zbývající bedny budou otevřeny. Jejich obsah bude připsán na váš účet."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Ukázat odměny"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Odměny získány"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Přidali jsme předměty, které jste během akce nezískali."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "Akce je z důvodu údržby dočasně nedostupná."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "Akce je opět k dispozici. Omlouváme se za nepříjemnosti."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s ks)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "Získané odměny:"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "Chyba"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "Počkejte prosím na dokončení předchozí operace."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "Akce je dočasně nedostupná. Zkuste to později."
+
+msgid "serviceChannelMessages/start/button"
+msgstr "Přejít na akci"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "Začala akce „%(eventName)s“"
+
+msgid "serviceChannelMessages/start/text"
+msgstr "Jen do %(date)s: Prémiová vozidla a hodnotné herní zdroje!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "Nelze vynulovat statistiky. Zkuste to prosím později."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "A také"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "Otevřít další"
+
+msgid "singleRewardView/header/title/"
+msgstr "ZÍSKANÉ ODMĚNY"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "Jedinečný člen posádky"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "3D doplňky"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "Mise na 5x ZK za bitvu"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "Směrnice"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "Fragmenty plánů"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "Brožury"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "Výcvikové brožury"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "Spotřební doplňky"
+
+msgid "statisticsRewards/label/credits"
+msgstr "Kredity"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "Manuály"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "Výcvikové manuály"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "Mise na 3x ZK posádky"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "Bony"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "Úprava vzhledu"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "Vylepšené vybavení"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "Součásti"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "Experimentální vybavení"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "Volné ZK"
+
+msgid "statisticsRewards/label/gold"
+msgstr "Zlaťáky"
+
+msgid "statisticsRewards/label/guide"
+msgstr "Průvodce"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "Průvodci výcvikem"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "Školící oprávnění"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "Standardní vybavení"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "Osobní zálohy"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "Prémiový účet WoT"
+
+msgid "statisticsRewards/label/rations"
+msgstr "Příděly"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "Příkazy k přeškolení"
+
+msgid "statisticsRewards/label/style"
+msgstr "2D styly"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "3D styly"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "Členové posádky"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "Trofejní vybavení"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "Vozidla"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "Vynulovat statistiky"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "Kliknutím vynulujete všechny statistiky."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "A %(count) další odměna."
+msgstr[1] "A %(count) další odměny."
+msgstr[2] "A %(count) dalších odměn."
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "„%(label)“"
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "%(count)×"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "Fragment národního plánu"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). „%(label)“ pro %(vehicleInfo)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "Kompenzované styly: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "Kompenzovaná vozidla: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "Kompenzace za vozidlo, které je již ve vaší garáži."

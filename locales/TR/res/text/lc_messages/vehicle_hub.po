@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Magazinden bir seri merminin birer birer ateş edilmesini sağlar, her mermi zamanla otomatik olarak yüklenir."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Magazinden bir seri merminin birer birer ateş edilmesini sağlar, her mermi zamanla otomatik olarak yüklenir. Yükleme sırasında bir sonraki merminin yüklenme hızına bonus sağlar."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Hızlı mermi salvoları atarak kısa sürede yüksek hasar verir, karşılığında delme gücü ve isabetliliği zayıftır. En çok kısa mesafe çatışmalarında etkilidir."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Yıldız mermiler atar, 50 m içerisinde maksimum hasarı verir. Mesafe ile mermilerin hasarı düşer, bu nedenle en çok yakın mesafe çatışmalarında etkilidir."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Çifte nişan alma sağlayan özgün bir soğutma sistemi: Yükledikten sonra beklemek, topun daha isabetli atış yapmasını sağlar. İyileştirilmiş isabetlilik daha küçük ikinci bir nişan alma çemberi ile gösterilir."
+
+msgid "abilities/common/description/dualGun"
+msgstr "İki toplu sistem. Namlular ayrı ayrı veya aynı anda ateşlenebilir. Çifte atışlar çok yüksek ani hasar verebilir ancak daha uzun yükleme süresine yol açar."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Aracın gövdesinin yükseklik açılarını değiştirmesini sağlayarak savaşta daha fazla konumdan ateş etme imkanı sunar. Etkinleştirme çeşitli koşullara bağlıdır."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "Ek tekerleklerin konumunu değiştirerek hızda büyük artış sağlar ancak manevra kabiliyeti düşer. En iyi kullanımı uzun mesafeleri katetmek ve akın taarruzlarıdır."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Tam yükleme gerektirmeden önce magazinden bir dizi merminin ateşlenmesine izin verir. Yüksek seri hasar verir, ancak yükleme sırasında aracı savunmasız bırakır. Bir kerede tüm magazini yüklemesi gerekir."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "Top, yükleme ihtiyacı duymadan sürekli ateş edebilir. Her atış ısı üretir: Sıcaklığı ne kadar yüksekse bazı parametreleri o kadar değişir. Sürekli ateş etmek topun aşırı ısınmasına yol açar, soğuyana kadar ateş etmeyi engeller."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Savaş alanında hızlı hareket edebilmek için motor gücünü ve azami hızı artırır. Jet takviyeleri, etkinleştirildiğinde manevra kabiliyetini düşürür ve elle kapatılamaz."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "Bu özel mod etkinleştirildiğinde belirli savaş parametrelerini artırır ve/veya değiştirir. Etkinleştirmek için en iyi zaman, uygun mevzideyken ve düşmana saldırmaya hazırkendir."
+
+msgid "abilities/common/description/stun"
+msgstr "Belirli bir patlama yarıçapı içinde, doğrudan isabet olmasa bile düşman araçlarını şoka sokar; hareket kabiliyetlerini, isabetliliklerini ve yükleme sürelerini kısa bir süreliğine kötüleştirir. Şoktaki düşmanlar şokta belirteci ile işaretlenir."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Ana palet hasar gördüğünde aracın daha düşük hızda harekete devam etmesini sağlar. Ek bir dış palet daha kaybı, hareket kabiliyetini daha da düşürür ancak araç yine de dönebilir ve hareket edebilir."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "Aracın oldukça daha hızlı hareket edebilmesini sağlar ancak top kullanım parametreleri büyük ölçüde düşer."
+
+msgid "abilities/common/description/twinGun"
+msgstr "Bu özel mod etkinleştirildiğinde iki kat hasar verir, belirli savaş parametrelerini artırır ve/veya değiştirir. En iyi kullanım yeri yakın mesafe çatışmalarıdır."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Otomatik Yeniden Yükleyici"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "İyileştirilmiş Otomatik Yeniden Yükleyici"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Otomatik Top"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Derin Yivli Top"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Top Soğutma"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Çifte Top"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Hidropnömatik Süspansiyon"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Sürat Modu"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Otomatik Yükleyici"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Termal Aşırı Isınma Kontrollü Otomatik Top"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Jet Takviyeler"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Kuşatma Modu"
+
+msgid "abilities/common/name/stun"
+msgstr "Şoka Sokma"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Yedek Palet"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Turbo Modu"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Salvo Atış Modu"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "Sabit kalarak veya yavaş hareket ederek isabetlilik seviyeleri kazanıp bir sonraki atışınızın hassasiyetini artırırsınız.\nEn yüksek isabetlilik seviyesinde iyi top kullanımına ulaşırsınız, hareket veya kule/gövde dönüşünde dağılım azalır."
+
+msgid "abilities/special/description/battleFury"
+msgstr "Düşmanı mermiyle her vuruşunuzda yükleme verimliliği seviyesi kazanır, topunuzun yükleme hızını geçici olarak takviye edersiniz. Seviyeler her isabet ile birikir. \nBir düşmanını bir mermiyle yok ettiğiniz ek yükleme verimlilik seviyeleri kazanırsınız."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Topunuz yüklüyse, daha yüksek hasar için bir sonraki atışınızı ısıtmaya başlayabilirsiniz. Isı seviyesi ne kadar yüksekse etkisi o kadar büyük olur.\nMaksimum seviyede ateş etmek için birkaç saniyeniz olacak. Ateş etmezseniz geçici olarak ateş edemez hale geleceksiniz."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Düşman araçlarına iki zırh delen isabet kaydettiğinizde Seri Atış modu tetiklenir, bir sonraki atışınızda iki mermiyi hızla art arda atarak devasa hasar vermenizi sağlayan bir seri atış kartuşu yükler."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "Pnömatik Jiroskopik Stabilizasyon; hareket, gövde dönüşü ve kule dönüşü sırasında maksimum stabilizasyon sağlayarak daha isabetli atış yapmanıza, ani tehditlere çabuk tepki verebilmenize ve siper arkasından etkili çatışabilmenize imkan sağlar."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "Sistem, mevcut kartuşta bir mermi kaldığında otomatik olarak yeni bir kartuş yüklemeye başlar, sizi çatışmaya girmeye hazır halde tutar. Bu süreç sırasında son mermiyi yine de ateşleyebilirsiniz ancak bunu yapmak, kalan yükleme süresine birkaç saniye ekler."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "Sistem topu soğuk tutarak yüksek isabetlilikle atış yapmanızı sağlar. Top ateş ettiğinde ısınır ama yükleme sırasında soğumaya başlar ve iyileştirilmiş parametrelerine döner. Topun ısısı ne kadar yüksekse bazı parametreleri o kadar çok değişir."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "Önceki modellerin tasarım deneyiminden faydalanan bu araç, öldürücü çarpma saldırıları için özel olarak yapılandırılmıştır. Yapısal güçlendirmeler düşman araçlarına çarparken daha fazla hasar verebilmesine imkan tanıyarak yakın mesafe çatışmalarında üstünlük sağlıyor."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "Bu aracın topu erken ateş edebilir: Yükleme sırasında atılan tek barut haklı atışların etkinliği düşüktür ancak yükleme bittikten sonra yapılan normal tam barut haklı atışlar optimal balistik parametrelere sahiptir."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "Top, yükleme ihtiyacı duymadan sürekli ateş edebilir. Her atış ısı üretir: Sıcaklığı ne kadar yüksekse bazı parametreleri o kadar değişir. Sürekli ateş etmek topun aşırı ısınmasına yol açar, soğuyana kadar ateş etmeyi engeller."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Sabit kalarak veya yavaş hareket ederek ön ısıtma biriktirin, böylece bir sonraki atışınızın hasarını ve isabetliliğini artırın. Maksimum ön ısıtmada ortalama hasarınızdan daha az CP'si olan bir düşmanı deldiğinizde cephaneliği patlar ve aracı yok eder."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Bu mod, aracınızı tahkim edilmiş bir top platformuna dönüştürür, üstün isabetlilik ve hızlı yükleme süresi sağlar. Bu gelişmiş ateş gücünün karşılığında aracın hareket kabiliyeti (ileri/geri hız ve dikey/yatay dönüş) son derece sınırlıdır."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Bu mod, motor gücüne ve azami ileri hıza çok büyük bir takviye sağlar. Ne kadar uzun süre ileri sürerseniz hız o kadar artar, böylece savaş alanından yıldırım hızıyla geçip büyük mesafeleri kolaylıkla katedebilirsiniz."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "Sistem zamanla şarj biriktirir; şarj seviyesi ne kadar yüksekse, o kadar fazla bonus hasar verir. Şarj seviyesi bir sınırlayıcı tarafından kısıtlanır; bu sınırlayıcı devre dışı bırakıldığında, silahın kullanım kolaylığı azalmakla birlikte daha da yüksek bir hasar bonusu elde edilebilir."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "İstediğiniz anda Sıvı Yakıt Takviyelerini etkinleştirerek en ihtiyaç duyduğunuz anda ani hız kazanın. Takviye ısınır ve tekrar kullanılabilir hale gelmek için soğuması gerekir. Kritik ısı limitini aşarsanız geçici olarak tamamen devreden çıkar."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Birkaç saniye boyunca ivmelenmeyi, hareket ve manevra kabiliyetini artıran katı yakıt iticileri. Sol ve sağ iticiler birbirinden bağımsız olarak çalışarak daha hızlı gövde dönüşü sağlar ve geri gitme kabiliyetini sınırlamaz."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "Araç, aktif moda ve şarj seviyesine bağlı olarak iki yetenekten birini etkinleştirebilir: \nİyon Boşalımlı Art Yakıcı: Motor gücünü ve hızı artırır. \n İntibaklı Elektromekanik Nişangâh: Dağılımı ve yükleme süresini azaltır, isabetliliği iyileştirir."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Bu parça en az bir mermi yüklü olduğu sürece istediğiniz anda yüklemeyi aksatarak savaşa devam etmenizi sağlar. Kısayol tuşuna basarak yüklemeyi durdurun, kısa bir gecikmeden sonra atışınızı yapın sonra manuel olarak yüklemeye devam edin veya şarjörün boşaldığı zaman otomatik olarak yüklenmesini bekleyin."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Aktivasyon tuşuna bastığınızda aracınızın yardımcı silahlarıyla hedefe ateş eder. Bu ek ateş gücü, ana toptan bağımsız, kendi yükleme döngüsüne sahiptir."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "Bir sonraki atışınız, düşmanın tespit durumuna bağlı olarak bir etki uygular. Tespit edilmiş bir düşmanı vurmak onu işaretler, böylece daha uzun süre tespit edilmiş kalırlar ve daha çok hasar alırlar. Tespit edilmemiş bir düşmanı vurmak konumlarını özel bir işaret ile gösterir."
+
+msgid "abilities/special/description/twinGun"
+msgstr "İki kat hasar ve iyileştirilmiş stabilizasyon sağlar; hareket kabiliyetini, isabetliliği, kule dönüş hızını ve nişan alma süresini kötüleştirir. En iyi yakın mesafe çatışmalarında kullanılır."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Bu mekanik modifikasyon, kısa bir süreliğine aracın ivmelenmesini, motor gücünü ve azami ileri-geri hızını önemli ölçüde artırarak düşman saldırılarına hızlı tepki vermenizi ve dinamik manevralarla rakiplerinizi gafil avlamanızı sağlar."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Analog Balistik Hesaplama Cihazı"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Yarı Otomatik Cephanelik"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Termobalistik Aşırı Şarj"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Seri Atış Modu"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Pnömatik Cayro İstikrar Düzeni"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Kartuş Yükleme Sistemi"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Aktif Top Soğutma"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Çarpma Yapılandırması"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "Çoklu Barut Hakkı Sistemi"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Termal Aşırı Isınma Kontrollü Otomatik Top"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "Sevk Barutu Isı Kumanda Sistemi"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Korugan Modu"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Doğrudan Sürüş"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "İndüklemeli Sevk Barutu Son Yakıcı"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Sıvı Yakıt Takviyeleri"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "Ardışık İtici Roketler"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Taktik Güç Ünitesi"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Harici Mühimmat İkmal Parçası"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Yardımcı Silahlar"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Lazer Hedef Belirleyici"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Salvo Atış Modu"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Yüksek Basınçlı Turboşarj Takviyesi"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Bir sonraki atışınızın isabetliliğini artırır, tam kalibrasyonda iyi stabilizasyon sağlar."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Düşman aracına her isabet, sınırlı süre ile top yükleme süresini takviye eder."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Isı seviyeleri biriktirerek bir sonraki atışınızda düşman araçlarına daha fazla hasar verin."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "Art arda hızla iki mermi atmanızı sağlayan seri atış kartuşu."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Daha isabetli atışlar için hareket ve dönüş sırasında stabilizasyonu maksimuma çıkarır."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Son mermide otomatik olarak yüklemeye başlar, son mermi yükleme sırasında ateşlenebilir."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "Top soğudukça isabetliliği iyileştiren aktif top soğutma sistemi."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Düşman araçlarına verilen çarpma hasarını artırır."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "Atış etkinliğinden ödün vererek daha erken ateş etmeyi sağlayan özel bir top mekaniği."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "Sistem, yükleme gerekmeden sürekli ateş etmeye imkan sağlar ve ateş ederken topun nasıl ısı üreteceğine kumanda eder."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "Sabit durmak veya yavaş hareket etmek bir sonraki atışın hasarını ve isabetliliğini artırır."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Topun isabetliliğini ve yükleme hızını büyük ölçüde artırır ama hareket kabiliyetini ciddi bir şekilde sınırlar."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Motor gücüne takviye sağlar, aracın hareket etme süresi ile birlikte azami hızı artırır."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "Sistem, hasarı artırmak için şarj olur. Şarj ne kadar yüksekse, hasar da o kadar fazla olur."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "Takviyeler istenildiği an etkinleştirilerek ani hız artışı sağlanabilir."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "İvmelenmeyi, hareket ve manevra kabiliyetini artıran katı yakıt iticileris.s"
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Bir veya iki özgün yeteneği şarj eder, hızı artırır veya topun isabetliliğini artırır."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "Kritik anlarda yüklemeyi duraksatıp atış yapmanıza imkan sağlar."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Ana topun yanında daha fazla ateş gücü sağlamak için bazı ek silahlar."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Düşmanların tespit edilmiş kalma sürelerini ve aldıkları hasarı artırır veya onları özel bir işaretle belirler."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Daha uzun yükleme süresi karşılığında iki topu birlikte ateş etmeye imkan sağlar."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "Motor gücünü, ivmelenmeyi ve azami hızı kısa bir süreliğine artıran özel bir mekanik."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Hareketsiz kalmak veya belirli bir hızın altında hareket etmek, aracınızın Analog Balistik Hesaplama Cihazı kalibre etmesine ve isabet seviyelerini yükseltmesine olanak tanır; bu da bir sonraki atışınızın isabetini artırır. Hız sınırını aşarsanız, hızınızı düşürene kadar isabet seviyelerini yükseltme süreciniz duraklatılır. En yüksek isabet seviyesinde, aracınızın makul top stabilizasyonuna sahiptir, hareket veya kule/gövde dönüşünden kaynaklanan dağılım azalır. Bu etki, ateş edildiğinde ortadan kalkar."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "Görünür bir düşmana mermiyle her isabet kaydettiğinizde yükleme etkinliği seviyesi kazanırsınız ve bu da topunuzun yükleme hızını geçici olarak artırır. Seviyeler her isabetle birikir; bir düşman aracını mermiyle imha ettiğinizde ise ek yükleme etkinliği seviyeleri kazanırsınız."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Topunuz yüklüyse bir sonraki atışınızı ısıtmaya başlayabilirsiniz. Ulaştığınız ısı seviyesi ne kadar yüksek olursa ortalama hasara eklenecek bonus da o kadar fazla olur. Isıtma süreci sırasında mermi değiştiremezsiniz. Maksimum ısı seviyesine ulaştığınızda bir geri sayım başlar. Geri sayım bitmeden ateş etmezseniz birkaç saniye boyunca ateş edemezsiniz."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Düşman araçlarına kaydedeceğiniz iki zırh delici isabet ile Salvo modu devreye girer ve bir sonraki atışta iki merminin arka arkaya hızlı bir şekilde ateşlenmesini sağlayan bir salvo atış kartuşu yüklenir."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "Pnömatik Cayro İstikrar Düzeni, kısa bir süre için gövde ve kule dönüşü sırasında azami stabilizasyon sağlayarak hareket halinde daha isabetli atış imkanı ve ani tehditlere çabuk tepki verebilmeyi sağlar."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "Sistem mevcut kartuşta bir mermi kaldığında otomatik olarak yenisini yüklemeye başlar. Yeni kartuş yüklenirken son mermiyi ateşlemek, kalan yükleme süresine birkaç saniye ekler. Şarjörü Yükle kısa yol tuşuna basmak sonuncusu hariç kalan tüm mermileri atar. Tam dolu bir kartuşu sıfırlamak için kısayol tuşuna iki kere basın."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "Sistem topu soğuk tutarak yüksek isabetlilikle atış yapmanızı sağlar. Top ateş ettiğinde ısınır ama yükleme sırasında soğumaya başlar ve iyileştirilmiş parametrelerine döner. Topun ısısı ne kadar yüksekse bazı parametreleri o kadar çok değişir."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Bu araç, çarpma saldırıları için özel olarak yapılandırılmıştır. Düşman araçlarına çarpma sırasında daha fazla hasar vermesini sağlayan bir dizi tasarım değişikliği bulunmaktadır."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "Bu aracın topu erken ateş edebilir: Yükleme sırasında atılan tek barut haklı atışların etkinliği düşüktür ancak yükleme bittikten sonra yapılan normal tam barut haklı atışlar optimal balistik parametrelere sahiptir."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "Top, yükleme ihtiyacı duymadan sürekli ateş edebilir. Her atış ısı üretir: Sıcaklığı ne kadar yüksekse bazı parametreleri o kadar değişir. Sürekli ateş etmek topun aşırı ısınmasına yol açar, soğuyana kadar ateş etmeyi engeller."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "Sabit kalmak veya belirli bir hızın altında hareket etmek, ön ısıtma sağlar, bu da bir sonraki atışınızın ortalama hasarını ve isabetliliğini artırır. Hız limitini aşmak bonusu yavaş yavaş azaltır. Ateş etmek veya mermi değiştirmek ise anında sıfırlar. Maksimum ön ısıtma seviyesinde birikmiş ön ısıtma bonusunuz da dâhil ortalama hasarınızdan daha az can puanı olan bir düşman aracının zırhını delmek, düşmanın cephaneliğinin patlamasına ve o aracın anında imha olmasına yol açar."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "Bu modda topun isabetliliği, yükleme hızı ve yükseltme/eğim açıları önemli ölçüde artar ancak hareket kabiliyeti (ileri/geri hızı ile dikey/yatay dönüş hızı) ciddi şekilde kısıtlanır. Yüzde değerleri, Kuşatma modu ile karşılaştırma amacıyla verilmiştir."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "Doğrudan Sürüş modu, motor gücüne ve azami ileri hıza çok büyük bir takviye sağlar. Ne kadar uzun süre ileri sürerseniz hız o kadar artar, böylece savaş alanını kolayca geçebilirsiniz."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "Sistem zamanla otomatik olarak şarj biriktirir, ateş ederken hasarı yükseltmek için kısmen tüketilir. Şarj ne kadar çoksa bonus hasar o kadar büyük olur. Normalde sistem yalnızca belirli bir sınıra kadar şarj depolar. Sınırı devre dışı bırakmak, çok daha yüksek bir şarj birikmesine imkan vererek çok daha büyük bir hasar bonusu sağlar ancak topun kullanımını azaltır."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "Sıvı Yakıt Takviyeleri ani motor gücü sağlayarak savaş alanında konumsal avantaj kazanmanızın yolunu açar ancak aracınızın geri ve dönüş hızlarını büyük ölçüde sınırlar. Yeniden aktivasyon sınırı hariç istediğiniz zaman açıp kapatabilirsiniz. Takviyeler aktifken ısınır ve soğuyana kadar kullanılamaz hale gelir, yani durmaksızın kullanılamaz. Kritik ısı seviyesini aşmak takviyelerin geçici olarak tamamen devre dışı kalmasına yol açar. Hazırlıksız yakalanmamak için hareketlerinizi dikkatle planlayın."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "Birkaç saniye boyunca aracın ivmelenmesini, hareket ve manevra kabiliyetini iyileştiren katı yakıt iticileri. Normal jet takviyelerden farklı olarak sol ve sağ iticiler birbirinden bağımsız olarak çalışarak daha hızlı gövde dönüşü sağlar ve geri gitme kabiliyetini sınırlamaz. Savaş başına çok defa kullanılabilir ancak tekrar etkinleştirmeden önce soğuması gerekir."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "Araç, aktif moda ve şarj seviyesine bağlı olarak iki yetenekten birini etkinleştirebilir: İyon Boşalımlı Art Yakıcı veya İntibaklı Elektromekanik Nişangâh.\nİyon Boşalımlı Art Yakıcı geçici olarak motor gücünü, azami ileri hızı ve geri hızı artırır. İntibaklı Elektromekanik Nişangâh geçici olarak isabetliliği iyileştirir ve yükleme süresini kısaltır."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "Harici Mühimmat İkmal Parçası, yüklü en az bir merminiz olduğu sürece istediğiniz anda yüklemeyi aksatıp ateş etmeye başlamanızı sağlar. Yükleme sırasında parça aracın kulesini ve harici cephanelik kapsüllerini kilitleyerek yüklemeyi aksatmadığınız sürece nişan almanızı veya ateş etmenizi geçici olarak engeller."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "Bu araç, yükleme döngüsü ana silahtan ayrı olan ve önemli anlarda ek hasar vermenizi sağlayan bir dizi yardımcı silahla donatılmıştır."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "Lazer Hedef Belirleyici bir sonraki atışınıza özel bir etki ekler, vuracağınız herhangi bir düşmana uygular. Etki, darbe anında düşmanın tespit edilmiş veya edilmemiş olmasına göre değişir. Tespit edilmiş bir aracı vurmak, aracı işaretler, tespit edilmiş olarak kalacağı süreyi uzatır, mermilerden alacağı hasarı artırır. Tespit edilmemiş bir düşman aracını vurmak, konumunu özel bir işaretle belirler."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "İki kat hasar ve iyileştirilmiş stabilizasyon sağlar; hareket kabiliyetini, isabetliliği, kule dönüş hızını ve nişan alma süresini kötüleştirir. En iyi yakın mesafe çatışmalarında kullanılır."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Bu mekanik modifikasyon, kısa bir süreliğine aracın ivmelenmesini, motor gücünü ve azami ileri-geri hızını önemli ölçüde artırarak düşman saldırılarına hızlı tepki vermenizi ve dinamik manevralarla rakiplerinizi gafil avlamanızı sağlar. Yüksek hareket hızını korumak, mekaniğin soğumasını hızlandırır."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Gösterilen tüm değerler araç için olabilecek en yüksek değerlerdir. Donanım, yönergeler ve sarf malzemeleri bu değerleri değiştirebilir ancak bu değişiklikler burada yansıtılmamıştır."
+
+msgid "characteristics/templates/upTo"
+msgstr "En fazla %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Satın Al ve Tak"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Saha Geliştirmeleri"
+
+msgid "modules/controls/button/mount"
+msgstr "Tak"
+
+msgid "modules/controls/button/research"
+msgstr "Araştır"
+
+msgid "modules/controls/button/sell"
+msgstr "Depodan Sat"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Bu araç savaşta. Parçalarını savaş bittikten sonra değiştirebilirsiniz."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Bu araç hasarlı. Parçalarını değiştirebilmek için onarın."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Parça takılamıyor. Uyumsuz {{module}}."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Bu araç bir taktik birimde."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "Bu aracın parçalarını değiştirebilmek için önce satın alın."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "Bu parçayı araştırabilmek için önceki parçaları araştırın."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "Bu aracın parçalarını araştırabilmek için önce aracı araştırın."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Tüm parçalar araştırıldı."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Bu parça zaten takılı."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Araştırılacak bir parça veya araç seçin."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Bu araç savaşta. Parçalarını savaş bittikten sonra değiştirebilirsiniz."
+
+msgid "modules/controls/name"
+msgstr "Seçilen: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Gövde"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Motor"
+
+msgid "modules/name/vehicleGun"
+msgstr "Top"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Telsiz"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Kule"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Tekerlekler"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Koleksiyon Araçları"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Kazanma imkanı"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "kredi, her savaşta"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "cezasız mürettebat aktarma"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "Savaş Deneyimi ve Mürettebat Deneyimi"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Tahviller"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Daha fazla"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Ücretsiz"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Daha fazla"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Tahvil kazanın"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Daha çok kredi"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Ücretsiz transfer"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Daha çok deneyim"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Ücretsiz Tamir Çantası"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Kazanma imkanı"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "kredi, her savaşta"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "herhangi bir araç sınıfından cezasız mürettebat aktarma"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "Savaş Deneyimi ve Mürettebat Deneyimi"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "Tahviller"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Daha fazla"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Ücretsiz"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Daha fazla"
+
+msgid "overview/crew/name"
+msgstr "Mürettebat {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Mekanizmaya bakın"
+
+msgid "overview/title/generalDescription"
+msgstr "Araç Tanımı"
+
+msgid "overview/title/historicalReference"
+msgstr "Tarihsel Atıf"
+
+msgid "researchPurchase/discountTimer"
+msgstr "{{date}} tarihine kadar"
+
+msgid "researchPurchase/recover"
+msgstr "{{date}} tarihine kadar kurtarılabilir"
+
+msgid "tabs/armor"
+msgstr "Zırh"
+
+msgid "tabs/modules"
+msgstr "Parçalar"
+
+msgid "tabs/overview"
+msgstr "Genel Bakış"
+
+msgid "tabs/stats"
+msgstr "Nitelikler"
+
+msgid "tabs/vehSkillTree"
+msgstr "Yükseltmeler"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "Kiralama süresi bitti"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Abonelik Donduruldu"

@@ -1,0 +1,1124 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "comparison/fullUpgrades/title"
+msgstr "Teljesen kifejlesztve"
+
+msgid "comparison/partialUpgrades/title"
+msgstr "Jelenlegi"
+
+msgid "comparison/title"
+msgstr "Fejlesztések"
+
+msgid "comparison/tooltip/body"
+msgstr "A konfigurációs képernyőn láthatod, hogy a fejlesztések hogyan befolyásolják a jármű jellemzőit. Válaszd a Teljesen kifejlesztve opciót, hogy lásd az összes elérhető fejlesztés teljes hatását."
+
+msgid "comparison/tooltip/header"
+msgstr "Fejlesztések"
+
+msgid "comparison/zeroUpgrades/title"
+msgstr "Nincs kifejlesztve"
+
+msgid "dialog/altConfiguration/description"
+msgstr "Hagyd bekapcsolva ezeket az opciókat, hogy a csata előtt váltani tudj az összeállítások között."
+
+msgid "dialog/altConfiguration/info"
+msgstr "Ezeket a beállításokat bármikor megváltoztathatod."
+
+msgid "dialog/altConfiguration/optDevBoostersSwitch"
+msgstr "Kiegészítő összeállítás"
+
+msgid "dialog/altConfiguration/shellsConsumablesSwitch"
+msgstr "Alapvető összeállítás"
+
+msgid "dialog/altConfiguration/title"
+msgstr "Alternatív konfiguráció"
+
+msgid "dialog/common/accept"
+msgstr "Megerősít"
+
+msgid "dialog/confirmation/researchPerks"
+msgid_plural "plural/dialog/confirmation/researchPerks"
+msgstr[0] "%(perks)s"
+msgstr[1] "%(perks)s nóduszokat"
+msgstr[2] "%(perks)s nóduszokat"
+
+msgid "footer/button/label"
+msgstr "Fejlesztés"
+
+msgid "footer/description/text/allResearched"
+msgstr "Az összes nóduszt kifejlesztetted. Mostantól hozzáférsz az elit jutalmak rendszeréhez."
+
+msgid "footer/description/text/emergencyModeEnabled"
+msgstr "A WG Wallet átmenetileg nem érhető el. Elnézést kérünk a kellemetlenségért."
+
+msgid "footer/description/text/inBattle"
+msgstr "A nódusz nem érhető el. A jármű csatában van."
+
+msgid "footer/description/text/inFormation"
+msgstr "A nódusz nem érhető el. A jármű egy taktikai egységben van."
+
+msgid "footer/description/text/needsRepair"
+msgstr "A nódusz nem érhető el. A jármű javításra szorul."
+
+msgid "footer/description/text/notInInventory"
+msgstr "Ahhoz, hogy kifejleszthesd a jármű nóduszait, rendelkezned kell ezzel a járművel"
+
+msgid "footer/description/text/researchAvailable"
+msgstr "Válassz ki egy nóduszt vagy a nóduszok egyik ágát a kifejlesztéshez"
+
+msgid "footer/text/amountItems"
+msgstr "{{amount}} nódusz"
+
+msgid "footer/text/selectedItem"
+msgstr "Kiválasztva: {{selectedItem}}"
+
+msgid "footer/tooltip/body/emergencyModeEnabled"
+msgstr "A WG Wallet átmenetileg nem érhető el. Elnézést kérünk a kellemetlenségért."
+
+msgid "footer/tooltip/body/inBattle"
+msgstr "A nódusz nem érhető el. A jármű csatában van."
+
+msgid "footer/tooltip/body/inFormation"
+msgstr "A nódusz nem érhető el. A jármű egy taktikai egységben van."
+
+msgid "footer/tooltip/body/needsRepair"
+msgstr "A nódusz nem érhető el. A jármű javításra szorul."
+
+msgid "footer/tooltip/body/notEnoughExp"
+msgstr "Nincs elegendő XP-d a kiválasztott nóduszok kifejlesztéséhez."
+
+msgid "footer/tooltip/body/researchInProgress"
+msgstr "A fejlesztés folyamatban van, kérlek, várj..."
+
+msgid "footer/tooltip/header/emergencyModeEnabled"
+msgstr "Nem érhető el"
+
+msgid "footer/tooltip/header/info"
+msgstr "Kiválasztott nóduszok"
+
+msgid "footer/tooltip/listSelectedPerks"
+msgid_plural "plural/footer/tooltip/listSelectedPerks"
+msgstr[0] "• {{selectedPerks}},"
+msgstr[1] "• {{selectedPerks}}."
+msgstr[2] "• {{selectedPerks}}."
+
+msgid "intro/button"
+msgstr "Értettem!"
+
+msgid "intro/button/tooltip"
+msgstr "A fejlesztésekről"
+
+msgid "intro/improvements/description"
+msgstr "Gyűjts harci XP-t a nóduszok feloldásához, amelyek javítják a járműved tulajdonságait. A nóduszbónuszok után alkalmazott további összeadódó és szorzós módosítók miatt a végleges tulajdonságok magasabbak vagy alacsonyabbak lehetnek a feltüntetett értékeknél."
+
+msgid "intro/improvements/title"
+msgstr "Hogyan működik?"
+
+msgid "intro/progression/description"
+msgstr "A fejlesztések kizárólag a XI-es szintű járművekhez érhetők el, és a segítségükkel még tovább javíthatod járműveid tulajdonságait."
+
+msgid "intro/progression/title"
+msgstr "Fejlesztések"
+
+msgid "intro/vanity/description"
+msgstr "Miután kifejlesztetted mindegyik nóduszt, hozzáférést kapsz az elit jutalmakhoz, amelyeket bizonyos elit szintek elérésével szerezhetsz meg. A jutalmak között egy egyedi volumetrikus stílust, Stat nyomkövetőt és lövegköpenyt találsz!"
+
+msgid "intro/vanity/title"
+msgstr "Elit jutalmak"
+
+msgid "kpi/bonus/valueTypes/cnt"
+msgstr " tárgy(ak)"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/gps"
+msgstr " fok/mp"
+
+msgid "kpi/bonus/valueTypes/grads"
+msgstr " fok"
+
+msgid "kpi/bonus/valueTypes/m"
+msgstr " m"
+
+msgid "kpi/bonus/valueTypes/mm"
+msgstr " mm"
+
+msgid "kpi/bonus/valueTypes/mph"
+msgstr " km/h"
+
+msgid "kpi/bonus/valueTypes/mps"
+msgstr " m/s"
+
+msgid "kpi/bonus/valueTypes/p"
+msgstr " LE"
+
+msgid "kpi/bonus/valueTypes/s"
+msgstr " mp"
+
+msgid "kpi/bonus/valueTypes/val"
+msgstr " életerő"
+
+msgid "notifications/perkAvailable/disabledButtonTooltip"
+msgstr "Ez a funkció jelenleg nem elérhető"
+
+msgid "notifications/perkAvailable/goToProgression"
+msgstr "Tovább a fejlesztésekhez"
+
+msgid "notifications/perkAvailable/title"
+msgstr "Elegendő XP-d van, hogy fejleszd a járművedet!"
+
+msgid "rewardScreen/button/accept"
+msgstr "Értettem"
+
+msgid "rewardScreen/button/check"
+msgstr "Megtekintés a külsőben"
+
+msgid "rewardScreen/rewardName"
+msgstr "{{rarity}} {{rewardName}}"
+
+msgid "rewardScreen/subtitle"
+msgstr "A(z) {{prestigeLevel}}. elit szint eléréséért ezzel: {{level}} {{type}} {{name}}"
+
+msgid "rewardScreen/title"
+msgstr "ELIT JUTALOM"
+
+msgid "tooltips/backToMainProgressionEntryPoint/text"
+msgstr "A fejlesztések kizárólag a XI-es szintű járművekhez érhetők el, és a segítségükkel még tovább javíthatod járműveid tulajdonságait."
+
+msgid "tooltips/backToMainProgressionEntryPoint/title"
+msgstr "Fejlesztések"
+
+msgid "tooltips/common/cost"
+msgstr "Ár: {{amount}}"
+
+msgid "tooltips/description/HEDamageAbsorption"
+msgstr "Javítja a járműved sebzéselnyelési képességét a R.RO lövedékekkel és az ütközésekkel szemben."
+
+msgid "tooltips/description/HEShellDamage"
+msgstr "Növeli a R.RO lövedékekkel okozott sebzést."
+
+msgid "tooltips/description/HEshellVelocity"
+msgstr "Növeli a R.RO lövedékek sebességét."
+
+msgid "tooltips/description/a179_mechanic_0"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-rel csökkenti a második lövés szórását Rövid sorozat módban."
+
+msgid "tooltips/description/a179_mechanic_1"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a tüzelés visszatöltését Rövid sorozat módban."
+
+msgid "tooltips/description/a182_mechanic_0"
+msgstr "Hatékonysági szintenként {colorTagOpen}{value}%{colorTagClose}-kal növeli az újratöltési sebességre járó bónuszt."
+
+msgid "tooltips/description/a182_mechanic_1"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel növeli az újratöltési hatékonysági szintek időtartamát."
+
+msgid "tooltips/description/a182_mechanic_2"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel növeli az újratöltési hatékonysági szintek időtartamát."
+
+msgid "tooltips/description/a182_mechanic_3"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli az újratöltési sebességre kapott bónuszt hatékonysági szintenként."
+
+msgid "tooltips/description/a183_mechanic_0"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a mechanika visszatöltési idejét."
+
+msgid "tooltips/description/a183_mechanic_1"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a mechanika visszatöltési idejét."
+
+msgid "tooltips/description/a183_mechanic_2"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel növeli a mechanika időtartamát."
+
+msgid "tooltips/description/a183_mechanic_3"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel növeli a mechanika időtartamát."
+
+msgid "tooltips/description/a195_mechanic_1"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal csökkenti az egyszeri töltésű lövések szórását 100 méteren."
+
+msgid "tooltips/description/a195_mechanic_2"
+msgstr "{colorTagOpen}{value} HP-val{colorTagClose} növeli az egyszeri töltésű lövések sebzését normál és különleges lőszerekkel."
+
+msgid "tooltips/description/a195_mechanic_3"
+msgstr "{colorTagOpen}{value} m/s{colorTagClose}-mal növeli a lövedéksebességet az egyszeri töltésű lövések esetében."
+
+msgid "tooltips/description/a195_mechanic_4"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal csökkenti az egyszeri töltésű lövések újratöltési idejét."
+
+msgid "tooltips/description/advancedChassisProtection"
+msgstr "Növeli a felfüggesztés életerejét és a javítási sebességet."
+
+msgid "tooltips/description/advancedModuleAndCrewProtection"
+msgstr "Csökkenti a lőszerrekesz és a motor sérüléséért kapott büntetést, és csökkenti a legénység sérülésének esélyét a jármű sérülésekor."
+
+msgid "tooltips/description/aimingCircleSize"
+msgstr "Csökkenti a célzóköröd méretét tüzelés után."
+
+msgid "tooltips/description/aimingTime"
+msgstr "Csökkenti a járműved célzási idejét."
+
+msgid "tooltips/description/aimingTimeSalvo"
+msgstr "Csökkenti a járműved célzási idejét Egylövetű módban."
+
+msgid "tooltips/description/allShellDamage"
+msgstr "Növeli az összes lőszertípus által okozott sebzést."
+
+msgid "tooltips/description/allShellsVelocity"
+msgstr "Növeli az összes lőszer lövedéksebességét."
+
+msgid "tooltips/description/ammoRackHP"
+msgstr "Növeli a lőszerrekesz által elszenvedhető sebzést, mielőtt az megsemmisülne."
+
+msgid "tooltips/description/ammoRackPenalty"
+msgstr "Csökkenti a sérült lőszerrekeszért járó büntetést."
+
+msgid "tooltips/description/basicShellDamage"
+msgstr "Növeli a normál lőszer okozta sebzést."
+
+msgid "tooltips/description/ch67_mechanic_0"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a forgási sebességet aktív hajtóművek mellett."
+
+msgid "tooltips/description/ch67_mechanic_1"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-val növeli a végsebességet aktív hajtóművek mellett."
+
+msgid "tooltips/description/ch67_mechanic_2"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a hajtóművek teljes újratöltéséhez szükséges visszatöltési időt."
+
+msgid "tooltips/description/ch67_mechanic_3"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel növeli a hajtóművek maximális időtartamát."
+
+msgid "tooltips/description/ch70_mechanic_0"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a sugárhajtóművek által biztosított motorteljesítmény-növekedést."
+
+msgid "tooltips/description/ch70_mechanic_1"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a sugárhajtóművek visszatöltési idejét."
+
+msgid "tooltips/description/ch70_mechanic_2"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a sugárhajtóművek által biztosított motorteljesítmény-növekedést."
+
+msgid "tooltips/description/ch70_mechanic_3"
+msgstr "Megnöveli a sugárhajtóművek egy csatában történő maximális használatának számát ennyivel: {colorTagOpen}{value}{colorTagClose}."
+
+msgid "tooltips/description/crewProtection"
+msgstr "Csökkenti a legénység sérülésének esélyét a jármű sérülésekor."
+
+msgid "tooltips/description/damagedGunDispersion"
+msgstr "Csökkenti a sérült löveg szórását."
+
+msgid "tooltips/description/driveModeForwardSpeed"
+msgstr "Növeli a jármű előremeneti sebességét Utazó módban."
+
+msgid "tooltips/description/driveModeReverseSpeed"
+msgstr "Növeli a jármű tolatási sebességét Utazó módban."
+
+msgid "tooltips/description/enginePenalty"
+msgstr "Csökkenti a sérült motorért járó büntetést."
+
+msgid "tooltips/description/enginePower"
+msgstr "Növeli a motor teljesítményét, így a jármű jobban gyorsul és gyorsabban halad felfelé az emelkedőkön."
+
+msgid "tooltips/description/f135_mechanic_0"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal csökkenti az újratöltés elkezdéséhez szükséges időt."
+
+msgid "tooltips/description/f135_mechanic_1"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal csökkenti a tüzelés előtti késleltetést az újratöltés megszakítása után."
+
+msgid "tooltips/description/f136_mechanic_0"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti az újratöltési büntetést a kazetta utolsó lőszerének kilövése után."
+
+msgid "tooltips/description/f143_mechanic_0"
+msgstr "{colorTagOpen}{value0}%{colorTagClose}-kal csökkenti a 100 méteren mért szórásra kapott büntetést és {colorTagOpen}{value1}%{colorTagClose}-kal a löveg célzási idejére kapott büntetést a korlát túllépésekor."
+
+msgid "tooltips/description/f143_mechanic_1"
+msgstr "{colorTagOpen}{value}%/mp{colorTagClose}-cel növeli a töltésgyűjtés sebességét."
+
+msgid "tooltips/description/f143_mechanic_2"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal csökkenti a töltésvesztést tüzeléskor."
+
+msgid "tooltips/description/f143_mechanic_3"
+msgstr "{colorTagOpen}{value0} HP-val{colorTagClose} növeli a korláttúllépés utáni sebzésnövekedést, valamint {colorTagOpen}{value1}%{colorTagClose}-kal növeli a korláttúllépés utáni maximális sebzésbónuszt."
+
+msgid "tooltips/description/forwardSpeed"
+msgstr "Növeli a jármű sebességét előremenetben."
+
+msgid "tooltips/description/g185_mechanic_0"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a pontossági szintenként kapott szórási bónuszt."
+
+msgid "tooltips/description/g185_mechanic_1"
+msgstr "{colorTagOpen}{value} km/h{colorTagClose}-val növeli a maximális sebességet, amely mellett pontossági szinteket szerezhetsz."
+
+msgid "tooltips/description/g185_mechanic_2"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a következő pontossági szint eléréséhez szükséges időt."
+
+msgid "tooltips/description/g185_mechanic_3"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a maximális pontossági szinten kapott stabilizációs bónuszt."
+
+msgid "tooltips/description/g187_mechanic_0"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal csökkenti a kiegészítő fegyverzet újratöltési idejét."
+
+msgid "tooltips/description/g187_mechanic_1"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal csökkenti a kiegészítő fegyverzet újratöltési idejét."
+
+msgid "tooltips/description/g188_mechanic_0"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel növeli a megjelölt ellenséges jármű felderítettségi idejét."
+
+msgid "tooltips/description/g188_mechanic_1"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a mechanika visszatöltési idejét."
+
+msgid "tooltips/description/g188_mechanic_2"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a mechanika újbóli használata előtti kezdeti visszatöltési időt."
+
+msgid "tooltips/description/g188_mechanic_3"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a szövetségeseid lövései által a megjelölt ellenséges járműveknek okozott extra sebzést."
+
+msgid "tooltips/description/g189_mechanic_0"
+msgstr "{colorTagOpen}{value} km/h{colorTagClose}-val növeli a maximális sebességet, amely mellett előmelegítés termelődik."
+
+msgid "tooltips/description/g189_mechanic_1"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli az előmelegítés maximális szórási bónuszát."
+
+msgid "tooltips/description/g189_mechanic_2"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli az előmelegítés maximális sebzési bónuszát."
+
+msgid "tooltips/description/g189_mechanic_3"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a maximális előmelegítési szint eléréséhez szükséges időt."
+
+msgid "tooltips/description/gb147_mechanic_0"
+msgstr "{colorTagOpen}{value} méter{colorTagClose}rel csökkenti a löveg szórását Sortűz módban."
+
+msgid "tooltips/description/gb147_mechanic_1"
+msgstr "{colorTagOpen}{value} fok/mp{colorTagClose}-cel növeli a torony forgási sebességét Sortűz módban."
+
+msgid "tooltips/description/gb147_mechanic_2"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a célzási időt Sortűz módban."
+
+msgid "tooltips/description/gb147_mechanic_3"
+msgstr "{colorTagOpen}{value} km/h{colorTagClose}-val növeli a végsebességet Sortűz módban."
+
+msgid "tooltips/description/gb152_mechanic_0"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a Közvetlen meghajtás módba való belépéshez szükséges időt."
+
+msgid "tooltips/description/gb152_mechanic_1"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a maximális teljesítmény eléréshez szükséges időt Közvetlen meghajtás módban."
+
+msgid "tooltips/description/gb152_mechanic_2"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a motorteljesítményt Közvetlen meghajtás módban."
+
+msgid "tooltips/description/gb152_mechanic_3"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-val növeli az előremeneti sebességet Közvetlen meghajtás módban."
+
+msgid "tooltips/description/gb158_mechanic_0"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a Turbótöltő-rásegítésből kapott motorteljesítmény-növekedést."
+
+msgid "tooltips/description/gb158_mechanic_1"
+msgstr "{colorTagOpen}{value} km/h{colorTagClose}-val növeli a maximális tolatási sebességet, amikor a Turbótöltő-rásegítés aktív."
+
+msgid "tooltips/description/gb158_mechanic_2"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel növeli a Turbótöltő-rásegítés időtartamát."
+
+msgid "tooltips/description/gb158_mechanic_3"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a Turbótöltő-rásegítés újbóli használata előtt szükséges visszatöltési időt."
+
+msgid "tooltips/description/gunDepression"
+msgstr "Növeli a löveg süllyedési szögét."
+
+msgid "tooltips/description/gunDispersion"
+msgstr "Javítja a lövedékek csoportosítását a célzókörön belül."
+
+msgid "tooltips/description/gunDispersionSalvo"
+msgstr "Javítja a lövedékek csoportosítását a célzókörön belül Egylövetű módban."
+
+msgid "tooltips/description/gunStabilization"
+msgstr "Javítja a löveg stabilizációját minden helyzetben."
+
+msgid "tooltips/description/gunStabilizationFromHull"
+msgstr "Javítja a löveg stabilizációját mozgás és a járműtest forgatása közben."
+
+msgid "tooltips/description/gunStabilizationFromHullMovement"
+msgstr "Javítja a löveg stabilizációját a járműtest mozgása közben."
+
+msgid "tooltips/description/gunStabilizationFromHullRotation"
+msgstr "Javítja a löveg stabilizációját a járműtest forgatása közben."
+
+msgid "tooltips/description/gunStabilizationFromHullSalvo"
+msgstr "Javítja a löveg stabilizációját mozgás és a járműtest forgatása közben Egylövetű módban."
+
+msgid "tooltips/description/gunStabilizationFromTurret"
+msgstr "Javítja a löveg stabilizációját a torony forgatása közben."
+
+msgid "tooltips/description/gunStabilizationFromTurretSalvo"
+msgstr "Javítja a löveg stabilizációját a torony forgatása közben Egylövetű módban."
+
+msgid "tooltips/description/gunTraverse"
+msgstr "Növeli a vízszintes lövegmozgatási szögeket."
+
+msgid "tooltips/description/hitPoints"
+msgstr "Növeli a jármű túlélőképességét, lehetővé téve, hogy az több sebzést szenvedhessen el, mielőtt megsemmisülne."
+
+msgid "tooltips/description/innerClipReloadTime"
+msgstr "Csökkenti a löveged tárában lévő lőszerek közötti újratöltési időt."
+
+msgid "tooltips/description/invisibilityWhenShooting"
+msgstr "Csökkenti az esélyét, hogy az ellenség felderítsen tüzeléskor."
+
+msgid "tooltips/description/j52_mechanic_0"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a löveg lehűlésének késleltetési idejét."
+
+msgid "tooltips/description/j52_mechanic_1"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal csökkenti a löveg által lövésenként generált hő mennyiségét."
+
+msgid "tooltips/description/j52_mechanic_2"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a felhevült löveg lehűlési sebességét."
+
+msgid "tooltips/description/nonHEShellDamage"
+msgstr "Növeli a nem R.RO lövedékekkel okozott sebzést."
+
+msgid "tooltips/description/opt_dev_boosters_switch"
+msgstr "Lehetővé teszi számodra, hogy összeállíts egy alternatív összeállítást felszerelésekből és direktívákból."
+
+msgid "tooltips/description/overheat_coolingDelay"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a löveg lehűlésének késleltetési idejét."
+
+msgid "tooltips/description/overheat_coolingPerSec"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a felhevült és túlhevült löveg lehűlési sebességét."
+
+msgid "tooltips/description/overheat_heatingPerShot"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal csökkenti a löveg által lövésenként generált hő mennyiségét."
+
+msgid "tooltips/description/overheat_overheatedCoolingPerSec"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a túlhevült löveg lehűlési sebességét."
+
+msgid "tooltips/description/pl37_mechanic_0"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a módok közötti váltáshoz szükséges időt."
+
+msgid "tooltips/description/pl37_mechanic_1"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a másodpercenként passzívan termelődő energiát Turbó módban."
+
+msgid "tooltips/description/pl37_mechanic_2"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli a másodpercenként passzívan termelődő energiát Harci módban."
+
+msgid "tooltips/description/pl37_mechanic_3"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel növeli a hatás időtartamát Turbó és Harci módban egyaránt."
+
+msgid "tooltips/description/r228_mechanic_0"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli az ellenséges járműveknek ütközés által okozott sebzést."
+
+msgid "tooltips/description/r228_mechanic_1"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli az ellenséges járművek felfüggesztésének ütközés által okozott sebzést."
+
+msgid "tooltips/description/r228_mechanic_2"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli az ellenséges járműveknek ütközés által okozott sebzést."
+
+msgid "tooltips/description/r228_mechanic_3"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal növeli az ellenséges járműveknek ütközés által okozott sebzést."
+
+msgid "tooltips/description/r230_mechanic_0"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti az újbóli tüzeléshez szükséges időt a töltet túlmelegedése után."
+
+msgid "tooltips/description/r230_mechanic_1"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel növeli a tüzeléshez rendelkezésre álló időt maximális hőszint mellett."
+
+msgid "tooltips/description/r230_mechanic_2"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti az újbóli tüzeléshez szükséges időt a töltet túlmelegedése után."
+
+msgid "tooltips/description/r230_mechanic_3"
+msgstr "{colorTagOpen}{value0}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value1}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value2}%{colorTagClose}.-kal növeli a hőszintenkénti bónuszsebzést."
+
+msgid "tooltips/description/reducedRammingDamage"
+msgstr "Csökkenti az ellenséges ütközésekből elszenvedett sebzést."
+
+msgid "tooltips/description/reloadTimeTwinGun"
+msgstr "Csökkenti a löveg újratöltési idejét Sortűz és Egylövetű módban egyaránt."
+
+msgid "tooltips/description/reverseSpeed"
+msgstr "Növeli a jármű tolatási sebességét."
+
+msgid "tooltips/description/roleSlot"
+msgstr "Rendelj hozzá kategóriát a második felszerelés helyéhez."
+
+msgid "tooltips/description/s36_mechanic_0"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal javítja a járműtest forgási és a löveg emelési sebességét Bunker módban."
+
+msgid "tooltips/description/s36_mechanic_1"
+msgstr "{colorTagOpen}{value} mp{colorTagClose}-cel csökkenti a Bunker módból való kilépési időt."
+
+msgid "tooltips/description/s36_mechanic_2"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal csökkenti a löveg szórását Bunker módban."
+
+msgid "tooltips/description/s36_mechanic_3"
+msgstr "{colorTagOpen}{value}%{colorTagClose}-kal csökkenti a löveg újratöltési idejét Bunker módban."
+
+msgid "tooltips/description/selectiveModuleHPBoost"
+msgstr "Növeli a járműved üzemanyagtartályának és motorjának életerejét."
+
+msgid "tooltips/description/selectiveModuleProtection"
+msgstr "Csökkenti a sérült lőszerrekesz és motor büntetését."
+
+msgid "tooltips/description/shellModuleDamage"
+msgstr "Növeli a lövedékeid által az ellenséges járművek moduljainak okozott sebzést."
+
+msgid "tooltips/description/shells_consumables_switch"
+msgstr "Lehetővé teszi számodra, hogy összeállíts egy alternatív összeállítást lőszerekből és fogyócikkekből."
+
+msgid "tooltips/description/specialShellDamage"
+msgstr "Növeli a speciális lőszer okozta sebzést."
+
+msgid "tooltips/description/specialShellPenetration"
+msgstr "Növeli a különleges lőszerek páncélátütési erejét."
+
+msgid "tooltips/description/specialShellVelocity"
+msgstr "Növeli a különleges lőszerek lövedéksebességét."
+
+msgid "tooltips/description/spottingBonusFoliage"
+msgstr "Csökkenti a növényzet mögött álló ellenséges járművek álcázását."
+
+msgid "tooltips/description/spottingBonusMovement"
+msgstr "Csökkenti a mozgó ellenséges járművek álcázását."
+
+msgid "tooltips/description/standardShellDamage"
+msgstr "Növeli a normál lőszer okozta sebzést."
+
+msgid "tooltips/description/standardShellPenetration"
+msgstr "Növeli a normál lőszerek páncélátütési erejét."
+
+msgid "tooltips/description/standardShellVelocity"
+msgstr "Növeli a normál lőszerek lövedéksebességét."
+
+msgid "tooltips/description/stunDuration"
+msgstr "Csökkenti az ellenséges lövések által a járművednek okozott kábítás időtartamát."
+
+msgid "tooltips/description/turretTraverse"
+msgstr "Növeli a vízszintes toronyforgási szögeket."
+
+msgid "tooltips/description/turretTraverseStability"
+msgstr "Csökkenti a löveg szórását a torony forgatása közben Harci módban."
+
+msgid "tooltips/description/vehicleSpeed"
+msgstr "Növeli a jármű sebességét előremenetben és tolatva."
+
+msgid "tooltips/description/viewRange"
+msgstr "Lehetővé teszi számodra, hogy nagyobb távolságból deríthesd fel az ellenséges járműveket."
+
+msgid "tooltips/large/eliteStatus"
+msgstr "Elit státuszt biztosít a jármű számára"
+
+msgid "tooltips/large/perksResearchRequired"
+msgstr "Fejleszd ki az összes többi nóduszt, hogy kifejleszthesd ezt a nóduszt."
+
+msgid "tooltips/paramNameWithUnit"
+msgstr "{paramName} ({unit})"
+
+msgid "tooltips/perk/category/concealment"
+msgstr "Kategória: Álcázás"
+
+msgid "tooltips/perk/category/firepower"
+msgstr "Kategória: Tűzerő"
+
+msgid "tooltips/perk/category/mechanics"
+msgstr "Mechanikus fejlesztés"
+
+msgid "tooltips/perk/category/mobility"
+msgstr "Kategória: Mobilitás"
+
+msgid "tooltips/perk/category/special"
+msgstr "Különleges fejlesztés"
+
+msgid "tooltips/perk/category/spotting"
+msgstr "Kategória: Felderítés"
+
+msgid "tooltips/perk/category/survivability"
+msgstr "Kategória: Túlélőképesség"
+
+msgid "tooltips/special/tapToModify"
+msgstr "Kattints a módosításhoz a nódusz kifejlesztése után!"
+
+msgid "tooltips/title/HEDamageAbsorption"
+msgstr "R.RO sebzéselnyelés"
+
+msgid "tooltips/title/HEShellDamage"
+msgstr "R.RO lőszer sebzés"
+
+msgid "tooltips/title/HEShellPenetration"
+msgstr "R.RO lőszer páncélátütés"
+
+msgid "tooltips/title/HEshellVelocity"
+msgstr "R.RO lövedéksebesség"
+
+msgid "tooltips/title/a179_mechanic_0"
+msgstr "Fél-aktív tömegcsillapító"
+
+msgid "tooltips/title/a179_mechanic_1"
+msgstr "Láncmeghajtású ütközőfejlesztés"
+
+msgid "tooltips/title/a182_mechanic_0"
+msgstr "Félautomata torziós extraktor"
+
+msgid "tooltips/title/a182_mechanic_1"
+msgstr "Fejlett küzdőtérlégszűrés"
+
+msgid "tooltips/title/a182_mechanic_2"
+msgstr "Centrifugális túlnyomásos ventilátor"
+
+msgid "tooltips/title/a182_mechanic_3"
+msgstr "Módosított lőszerkapcsok"
+
+msgid "tooltips/title/a183_mechanic_0"
+msgstr "Nagy teljesítményű kompresszor"
+
+msgid "tooltips/title/a183_mechanic_1"
+msgstr "6000 PSI nyomású kompresszordugattyú"
+
+msgid "tooltips/title/a183_mechanic_2"
+msgstr "6000 PSI nyomású pneumatikus rendszer"
+
+msgid "tooltips/title/a183_mechanic_3"
+msgstr "Kiegészítő nagy nyomású henger"
+
+msgid "tooltips/title/a195_mechanic_1"
+msgstr "Ballisztikai konzisztencia javítása"
+
+msgid "tooltips/title/a195_mechanic_2"
+msgstr "Megnövelt egyszeri töltés"
+
+msgid "tooltips/title/a195_mechanic_3"
+msgstr "Ütközéses egyszeri töltés"
+
+msgid "tooltips/title/a195_mechanic_4"
+msgstr "Könnyű töltésszeparátor"
+
+msgid "tooltips/title/additionalShellAmmoCapacity"
+msgstr "Kiegészítő lőszerkészlet"
+
+msgid "tooltips/title/advancedChassisProtection"
+msgstr "Fejlett felfüggesztésvédelem"
+
+msgid "tooltips/title/advancedModuleAndCrewProtection"
+msgstr "Fejlett modul- és legénységvédelem"
+
+msgid "tooltips/title/aimingCircleSize"
+msgstr "A célzókör mérete"
+
+msgid "tooltips/title/aimingTime"
+msgstr "Célzási idő"
+
+msgid "tooltips/title/aimingTimeSalvo"
+msgstr "Célzási idő"
+
+msgid "tooltips/title/allShellDamage"
+msgstr "Az összes lőszer sebzése"
+
+msgid "tooltips/title/allShellsVelocity"
+msgstr "Lövedéksebesség"
+
+msgid "tooltips/title/ammoRackHP"
+msgstr "A lőszerrekesz életereje"
+
+msgid "tooltips/title/ammoRackPenalty"
+msgstr "Lőszerrekesz büntetés"
+
+msgid "tooltips/title/basicShellDamage"
+msgstr "Normál lőszer sebzése"
+
+msgid "tooltips/title/ch67_mechanic_0"
+msgstr "Tolóerő-vektorálás"
+
+msgid "tooltips/title/ch67_mechanic_1"
+msgstr "Nagy áramlású hajtóanyag-szivattyú"
+
+msgid "tooltips/title/ch67_mechanic_2"
+msgstr "Párologtatásos hűtés"
+
+msgid "tooltips/title/ch67_mechanic_3"
+msgstr "Transzpirációs hűtésű fúvókák"
+
+msgid "tooltips/title/ch70_mechanic_0"
+msgstr "Nagy energiájú hajtóanyag"
+
+msgid "tooltips/title/ch70_mechanic_1"
+msgstr "Félautomata sugárhajtómű-extraktor"
+
+msgid "tooltips/title/ch70_mechanic_2"
+msgstr "Magforma-optimalizálás"
+
+msgid "tooltips/title/ch70_mechanic_3"
+msgstr "Megnövelt sugárhajtómű-tároló"
+
+msgid "tooltips/title/chassisHP"
+msgstr "A felfüggesztés életereje"
+
+msgid "tooltips/title/chassisRepairSpeed"
+msgstr "A felfüggesztés javítási sebessége"
+
+msgid "tooltips/title/crewProtection"
+msgstr "Legénységvédelem"
+
+msgid "tooltips/title/damagedGunDispersion"
+msgstr "Szituációs lövegszórás"
+
+msgid "tooltips/title/driveModeForwardSpeed"
+msgstr "Utazó mód előremeneti sebesség"
+
+msgid "tooltips/title/driveModeReverseSpeed"
+msgstr "Utazó mód hátrameneti sebesség"
+
+msgid "tooltips/title/engineFireChance"
+msgstr "A motortűz esélye"
+
+msgid "tooltips/title/engineHP"
+msgstr "A motor életereje"
+
+msgid "tooltips/title/enginePenalty"
+msgstr "Motor büntetés"
+
+msgid "tooltips/title/enginePower"
+msgstr "Motorteljesítmény"
+
+msgid "tooltips/title/f135_mechanic_0"
+msgstr "Optimalizált hidraulikus tömlő"
+
+msgid "tooltips/title/f135_mechanic_1"
+msgstr "Optimalizált töltési folyamat"
+
+msgid "tooltips/title/f136_mechanic_0"
+msgstr "Fejlesztett töltési mechanizmus"
+
+msgid "tooltips/title/f143_mechanic_0"
+msgstr "Lövegcső-hőszigetelés"
+
+msgid "tooltips/title/f143_mechanic_1"
+msgstr "Nagy teljesítményű váltóáramú generátor"
+
+msgid "tooltips/title/f143_mechanic_2"
+msgstr "Alacsony ellenállású kábelezés"
+
+msgid "tooltips/title/f143_mechanic_3"
+msgstr "Módosított kimeneti korlátozó"
+
+msgid "tooltips/title/forwardSpeed"
+msgstr "Előremeneti sebesség"
+
+msgid "tooltips/title/fuelTankHP"
+msgstr "Az üzemanyagtartály életereje"
+
+msgid "tooltips/title/g185_mechanic_0"
+msgstr "Coriolis-erőérzékelő"
+
+msgid "tooltips/title/g185_mechanic_1"
+msgstr "Giroszkópos dőlésszög-érzékelő"
+
+msgid "tooltips/title/g185_mechanic_2"
+msgstr "Továbbfejlesztett beviteli terminál"
+
+msgid "tooltips/title/g185_mechanic_3"
+msgstr "Nagy precizitású forgásérzékelő"
+
+msgid "tooltips/title/g187_mechanic_0"
+msgstr "Továbbfejlesztett kiegészítő lőszertároló"
+
+msgid "tooltips/title/g187_mechanic_1"
+msgstr "Kiegészítő töltésgyorsító"
+
+msgid "tooltips/title/g188_mechanic_0"
+msgstr "Fejlett nyomkövető mechanizmus"
+
+msgid "tooltips/title/g188_mechanic_1"
+msgstr "Nagy hatékonyságú hűtőborda"
+
+msgid "tooltips/title/g188_mechanic_2"
+msgstr "Nagy teljesítményű generátor"
+
+msgid "tooltips/title/g188_mechanic_3"
+msgstr "Alacsony szórású rubinlézer"
+
+msgid "tooltips/title/g189_mechanic_0"
+msgstr "Módosított teljesítményleadás"
+
+msgid "tooltips/title/g189_mechanic_1"
+msgstr "Kettős hőszabályzó érzékelő"
+
+msgid "tooltips/title/g189_mechanic_2"
+msgstr "Pontos hőszabályzás"
+
+msgid "tooltips/title/g189_mechanic_3"
+msgstr "Nagy teljesítményű váltóáramú generátor"
+
+msgid "tooltips/title/gb147_mechanic_0"
+msgstr "Előre betöltött fegyvertartók"
+
+msgid "tooltips/title/gb147_mechanic_1"
+msgstr "Fejlett forgási rendszer"
+
+msgid "tooltips/title/gb147_mechanic_2"
+msgstr "Dőlésszög-szabályozó rendszer"
+
+msgid "tooltips/title/gb147_mechanic_3"
+msgstr "Leadott nyomatékszabályozó"
+
+msgid "tooltips/title/gb152_mechanic_0"
+msgstr "Sebességfokozat-beállítás"
+
+msgid "tooltips/title/gb152_mechanic_1"
+msgstr "Optimalizált turbinageometria"
+
+msgid "tooltips/title/gb152_mechanic_2"
+msgstr "Optimalizált csővezetékes elosztórendszer"
+
+msgid "tooltips/title/gb152_mechanic_3"
+msgstr "Módosított fordulatszám-korlátozó"
+
+msgid "tooltips/title/gb158_mechanic_0"
+msgstr "Állítható nyomásszabályozó"
+
+msgid "tooltips/title/gb158_mechanic_1"
+msgstr "Modernizált kipufogócsonk"
+
+msgid "tooltips/title/gb158_mechanic_2"
+msgstr "Megnövelt űrtartalmú légtartály"
+
+msgid "tooltips/title/gb158_mechanic_3"
+msgstr "Nagy teljesítményű légkompresszor"
+
+msgid "tooltips/title/gunDepression"
+msgstr "Lövegsüllyedés"
+
+msgid "tooltips/title/gunDispersion"
+msgstr "Lövegszórás"
+
+msgid "tooltips/title/gunDispersionSalvo"
+msgstr "Lövegszórás"
+
+msgid "tooltips/title/gunElevation"
+msgstr "Lövegemelés"
+
+msgid "tooltips/title/gunStabilization"
+msgstr "Teljes lövegstabilizáció"
+
+msgid "tooltips/title/gunStabilizationFromHull"
+msgstr "Részleges lövegstabilizáció"
+
+msgid "tooltips/title/gunStabilizationFromHullMovement"
+msgstr "Mozgási stabilizáció"
+
+msgid "tooltips/title/gunStabilizationFromHullRotation"
+msgstr "Forgási stabilizáció"
+
+msgid "tooltips/title/gunStabilizationFromHullSalvo"
+msgstr "Részleges lövegstabilizáció"
+
+msgid "tooltips/title/gunStabilizationFromTurret"
+msgstr "Részleges lövegstabilizáció"
+
+msgid "tooltips/title/gunStabilizationFromTurretSalvo"
+msgstr "Részleges lövegstabilizáció"
+
+msgid "tooltips/title/gunTraverse"
+msgstr "Fejlesztett lövegmozgatás"
+
+msgid "tooltips/title/hitPoints"
+msgstr "Életerő (HP)"
+
+msgid "tooltips/title/hullElevationSpeed"
+msgstr "A járműtest dőlési sebessége"
+
+msgid "tooltips/title/hullTraverseSpeed"
+msgstr "A járműtest forgási sebessége"
+
+msgid "tooltips/title/innerClipReloadTime"
+msgstr "A táron belüli újratöltési idő"
+
+msgid "tooltips/title/invisibilityWhenShooting"
+msgstr "A tüzelés utáni álcázás"
+
+msgid "tooltips/title/j52_mechanic_0"
+msgstr "Alacsony hőmérsékletű hőátvivő folyadék"
+
+msgid "tooltips/title/j52_mechanic_1"
+msgstr "Nagy hővezető-képességű hűtőház"
+
+msgid "tooltips/title/j52_mechanic_2"
+msgstr "Hővezetőcső-optimalizálás"
+
+msgid "tooltips/title/nonHEShellDamage"
+msgstr "A nem R.RO lőszerek sebzése"
+
+msgid "tooltips/title/opt_dev_boosters_switch"
+msgstr "Felszerelés- és direktíva-összeállítás"
+
+msgid "tooltips/title/overheat_coolingDelay"
+msgstr "Króm bevonatú bélés"
+
+msgid "tooltips/title/overheat_coolingPerSec"
+msgstr "Nagy hővezető-képességű lövegcső"
+
+msgid "tooltips/title/overheat_heatingPerShot"
+msgstr "Alacsonyabb lánghőmérsékletű hajtóanyag"
+
+msgid "tooltips/title/overheat_overheatedCoolingPerSec"
+msgstr "Gépi szellőztető rendszer"
+
+msgid "tooltips/title/pl37_mechanic_0"
+msgstr "Könnyű súlyú turbinarotor"
+
+msgid "tooltips/title/pl37_mechanic_1"
+msgstr "Nagy teljesítményű váltóáramú segédgenerátor"
+
+msgid "tooltips/title/pl37_mechanic_2"
+msgstr "Fejlett egyenirányítás-vezérlés"
+
+msgid "tooltips/title/pl37_mechanic_3"
+msgstr "Hibrid kondenzátor elrendezés"
+
+msgid "tooltips/title/r228_mechanic_0"
+msgstr "Helyi éledzés"
+
+msgid "tooltips/title/r228_mechanic_1"
+msgstr "Magas ötvözetű acél lánctalpak"
+
+msgid "tooltips/title/r228_mechanic_2"
+msgstr "Lokális mélycementálás"
+
+msgid "tooltips/title/r228_mechanic_3"
+msgstr "Lokális felületi cementálás"
+
+msgid "tooltips/title/r230_mechanic_0"
+msgstr "Nagy pontosságú hőérzékelő"
+
+msgid "tooltips/title/r230_mechanic_1"
+msgstr "Kis tehetetlenségű zárfűtő berendezés"
+
+msgid "tooltips/title/r230_mechanic_2"
+msgstr "Mechanizált töltőtálca"
+
+msgid "tooltips/title/r230_mechanic_3"
+msgstr "Hőszabályozó-túlterhelés"
+
+msgid "tooltips/title/reducedRammingDamage"
+msgstr "Csökkentett ütközési sebzés"
+
+msgid "tooltips/title/reloadTime"
+msgstr "Újratöltési idő"
+
+msgid "tooltips/title/reloadTimeTwinGun"
+msgstr "Újratöltési idő"
+
+msgid "tooltips/title/reverseSpeed"
+msgstr "Tolatási sebesség"
+
+msgid "tooltips/title/roleSlot"
+msgstr "Második férőhely kategória"
+
+msgid "tooltips/title/s36_mechanic_0"
+msgstr "Axiáldugattyús hidraulikaszivattyú"
+
+msgid "tooltips/title/s36_mechanic_1"
+msgstr "Többtárcsás erőforrás-szinkronizáló egység"
+
+msgid "tooltips/title/s36_mechanic_2"
+msgstr "Precíziós egyensúlyozású rotor"
+
+msgid "tooltips/title/s36_mechanic_3"
+msgstr "Hidraulikus meghajtású ütköző"
+
+msgid "tooltips/title/selectiveModuleHPBoost"
+msgstr "Szelektív moduléleterő-növelés"
+
+msgid "tooltips/title/selectiveModuleProtection"
+msgstr "Szelektív modulvédelem"
+
+msgid "tooltips/title/shellModuleDamage"
+msgstr "Lőszer modulsebzés"
+
+msgid "tooltips/title/shells_consumables_switch"
+msgstr "Lőszer- és fogyócikk-összeállítás"
+
+msgid "tooltips/title/specialShellDamage"
+msgstr "Különleges lőszer sebzése"
+
+msgid "tooltips/title/specialShellPenetration"
+msgstr "Különleges lőszer páncélátütés"
+
+msgid "tooltips/title/specialShellVelocity"
+msgstr "A különleges lőszer sebessége"
+
+msgid "tooltips/title/spottingBonusFoliage"
+msgstr "Felderítési bónusz: Növényzet"
+
+msgid "tooltips/title/spottingBonusMovement"
+msgstr "Felderítési bónusz: Mozgás"
+
+msgid "tooltips/title/standardShellDamage"
+msgstr "Normál lőszer sebzése"
+
+msgid "tooltips/title/standardShellPenetration"
+msgstr "A normál lőszer páncélátütése"
+
+msgid "tooltips/title/standardShellVelocity"
+msgstr "A normál lőszer sebessége"
+
+msgid "tooltips/title/stunDuration"
+msgstr "Kábítási idő"
+
+msgid "tooltips/title/turretTraverse"
+msgstr "Fejlesztett toronyforgatás"
+
+msgid "tooltips/title/turretTraverseSpeed"
+msgstr "A torony forgási sebessége"
+
+msgid "tooltips/title/turretTraverseStability"
+msgstr "Toronyforgási stabilizáció"
+
+msgid "tooltips/title/vehicleSpeed"
+msgstr "Járműsebesség"
+
+msgid "tooltips/title/viewRange"
+msgstr "Megnövelt látótávolság"
+
+msgid "tooltips/vanityEntryPoint/statusInfo"
+msgstr "Fejleszd ki a végső nóduszt a feloldásához"
+
+msgid "tooltips/vanityEntryPoint/text"
+msgstr "Szerezz exkluzív jutalmakat a XI-es szintű járművekhez, köztük egy volumetrikus stílust, Stat nyomkövetőt és lövegköpenyt!"
+
+msgid "tooltips/vanityEntryPoint/title"
+msgstr "Elit jutalmak"
+
+msgid "vanity/available/subtitle"
+msgstr "Szerezz jutalmakat a járműveid elit szintjéért"
+
+msgid "vanity/available/tooltip"
+msgstr "Jelenlegi elit szint"
+
+msgid "vanity/completed/subtitle"
+msgstr "Gratulálunk! Az összes jutalmat megszerezted."
+
+msgid "vanity/completed/tooltip"
+msgstr "Jelenlegi elit szint"
+
+msgid "vanity/disabled/subtitle"
+msgstr "A végső nódusz kifejlesztése után kaphatod meg"
+
+msgid "vanity/disabled/tooltip"
+msgstr "A jármű nem elit státuszú"
+
+msgid "vanity/reward/level/tooltip"
+msgstr "A jutalomhoz szükséges elit szint"
+
+msgid "vanity/rewardType/description/attachment"
+msgstr "Egy exkluzív lövegköpeny, amellyel a járműved kitűnhet a csatatéren."
+
+msgid "vanity/rewardType/description/stattracker"
+msgstr "Egy egyedi, új testreszabási elem, amely megmutatja, hogy mennyi járművet semmisítettél meg."
+
+msgid "vanity/rewardType/description/style"
+msgstr "Egy különleges 2D-stílus egyedi vizuális effekttel, amely 3D-megjelenést kölcsönöz neki. Kizárólag XI-es szintű járművekhez érhető el."
+
+msgid "vanity/rewardType/title/attachment"
+msgstr "Lövegköpeny 3D-kiegészítő"
+
+msgid "vanity/rewardType/title/stattracker"
+msgstr "Stat nyomkövető"
+
+msgid "vanity/rewardType/title/style"
+msgstr "Volumetrikus stílus"
+
+msgid "vanity/title"
+msgstr "ELIT JUTALMAK"

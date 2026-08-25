@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT prevodilac <noreply@wargaming.net>\nLanguage-Team: WoT tim <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sVezi%(linkEndTag)s detalii jucător"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sCerere de intrare în clanul%(titleEndTag)s\nde la %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Vezi cererile"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sAnulează%(linkEndTag)s notificările"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sCereri de la jucători: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sVezi%(linkEndTag)s detalii clan"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sInvitație în clanul%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Vezi invitațiile"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sInvitații în clan: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "Jucătorul a fost acceptat în clan."
+
+msgid "clans/state/app/declined"
+msgstr "Cerere respinsă."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "Penalizarea jucătorului de o zi pentru părăsirea prețiosului său clan încă nu a expirat."
+
+msgid "clans/state/invite/accepted"
+msgstr "Ai fost acceptat în clan."
+
+msgid "clans/state/invite/declined"
+msgstr "Invitație refuzată."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Penalizarea de o zi pentru părăsirea prețiosului tău clan încă nu a expirat."
+
+msgid "errors/creationNotAllowed"
+msgstr "Drepturi insuficiente pentru a face o invitaţie."
+
+msgid "errors/invalid"
+msgstr "Invitaţie invalidă."
+
+msgid "errors/inviteNotSupported"
+msgstr "Acest tip de invitaţie este indisponibil momentan. Încearcă mai târziu."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "Destinatarul invitaţiei te are adăugat pe lista de Lista neagră."
+
+msgid "errors/selfinvite"
+msgstr "Nu te poţi autoinvita."
+
+msgid "errors/unknownuser"
+msgstr "Jucătorul încă nu s-a înregistrat."
+
+msgid "errors/useroffline"
+msgstr "Jucătorul este deconectat."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "Vehiculul din Garaj este avariat sau blocat. Selectează alt vehicul."
+
+msgid "friendship/note/approved"
+msgstr "Jucător adăugat la Prieteni"
+
+msgid "friendship/note/canceled"
+msgstr "Cerere respinsă"
+
+msgid "friendship/note/maxRoster"
+msgstr "Număr maxim de contacte permise: %(rosterMaxCount)s. Pentru a adăuga acest jucător la Prieteni, șterge mai întâi un contact existent."
+
+msgid "friendship/note/notConnected"
+msgstr "Conectare la server eșuată. Te rugăm să aștepti."
+
+msgid "friendship/note/process"
+msgstr "Se așteaptă răspunsul serverului"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sCerere prietenie%(titleEndTag)s\nde la %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Confirmare"
+
+msgid "gui/buttons/cancel"
+msgstr "Anulare"
+
+msgid "gui/buttons/reject"
+msgstr "Refuz"
+
+msgid "gui/buttons/send"
+msgstr "Trimite"
+
+msgid "gui/labels/additionalText"
+msgstr "Informaţii suplimentare:"
+
+msgid "gui/labels/inviteText"
+msgstr "Conţinutul invitaţiei:"
+
+msgid "gui/labels/receiver"
+msgstr "Destinatar:"
+
+msgid "gui/titles/barter"
+msgstr "Invitaţie la tranzacţii"
+
+msgid "gui/titles/clan"
+msgstr "Invitaţie în clan"
+
+msgid "gui/titles/invite"
+msgstr "Invitaţie"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Invitaţii"
+
+msgid "invites/comment"
+msgstr "«%(comment)s»"
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din unitatea tactică şi vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din unitatea tactică şi vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "În momentul în care accepţi invitaţia, vei fi exclus automat din luptele de pe harta globală şi vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din unitatea tactică şi vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din unitatea tactică şi vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din unitatea tactică şi vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "După ce accepți invitația, vei fi automat scos din antrenamentul echipei în modul Front și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din unitatea tactică şi vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "În momentul în care accepţi invitaţia, vei ieşi din modul \"Luptă pe echipe\" şi vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din pluton şi vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "O dată ce accepți invitația, vei părăsi modul Lupte de Fort și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "După ce accepți invitația, vei părăsi modul de Ofensive și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din Misiunea de recunoaștere şi vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "După ce accepţi invitaţia, vei fi scos automat din lupta de antrenament şi vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "O dată ce accepți invitația, vei părăsi modul Lupte de Fort și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din pluton şi vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "După ce accepți invitația, vei părăsi detaşamentul curent și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "În momentul în care accepţi invitaţia, vei fi exclus automat din turneu şi vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "După ce accepţi invitaţia, vei fi scos automat din lupta de antrenament şi vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "După ce accepți invitația, vei fi automat scos din antrenamentul echipei în modul Violență și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "În momentul în care accepţi invitaţia, vei ieşi din modul \"Luptă pe echipe\" şi vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "O dată ce accepți invitația, vei părăsi modul Vânătorul de Oțel și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "O dată ce accepți invitația, vei părăsi modul Marea Vânătoare și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "O dată ce accepți invitația, vei părăsi modul Violență și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "O dată ce accepți invitația, vei părăsi modul Violență Simplificată și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "O dată ce accepți invitația, vei părăsi modul Lupte de Front și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "O dată ce accepți invitația, vei părăsi modul +++Event battle+++ și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "O dată ce accepți invitația, vei părăsi modul Misiune de recunoaștere și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "O dată ce accepți invitația, vei părăsi modul Topografie și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "O dată ce accepți invitația, vei părăsi modul Lupte Standard și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "O dată ce accepți invitația, vei părăsi modul Lupte de clasament și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "O dată ce accepți invitația, vei părăsi modul Încălzire și vei fi transferat pe serverul %(host)s."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "O dată ce accepți invitația, vei părăsi modul Încălzire și vei fi transferat pe serverul %(host)s. Nu-l vei putea porni pe acesta din nou."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din unitatea tactică."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din unitatea tactică."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "În momentul în care accepţi invitaţia, vei fi exclus automat din luptele de pe harta globală."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din unitatea tactică."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din unitatea tactică."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din unitatea tactică."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "După ce accepția invitația, vei fi automat scos din antrenamentul echipei în modul Front."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din unitatea tactică."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "În momentul în care accepţi invitaţia, vei ieşi din modul \"Luptă pe echipe\"."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din pluton."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "O dată ce accepți invitația, vei părăsi modul Lupte de Fort."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "După ce accepți invitația, vei părăsi modul Ofensivă."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din plutonul Misiune de recunoaștere."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "În momentul în care accepţi invitaţia, vei fi scos automat din lupta de antrenament."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "O dată ce accepți invitația, vei părăsi modul Lupte de Fort."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "O dată ce accepţi invitaţia, vei fi exclus automat din pluton."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "După ce accepți invitația, vei părăsi detaşamentul curent."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "În momentul în care accepţi invitaţia, vei fi exclus automat din turneu."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "În momentul în care accepţi invitaţia, vei fi scos automat din lupta de antrenament."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "După ce accepția invitația, vei fi automat scos din antrenamentul echipei în modul Violență."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "În momentul în care accepţi invitaţia, vei ieşi din modul \"Luptă pe echipe\"."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "O dată ce accepți invitația, vei părăsi modul Vânătorul de Oțel."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "O dată ce accepți invitația, vei părăsi modul Marea Vânătoare."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "O dată ce accepți invitația, vei părăsi modul Violență."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "O dată ce accepți invitația, vei părăsi modul Violență Simplificată."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "O dată ce accepți invitația, vei părăsi modul Front."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "O dată ce accepți invitația, vei părăsi modul +++Event battle+++."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "Dacă accepți invitația, vei ieși din modul Misiune de recunoaștere."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "O dată ce accepți invitația, vei părăsi modul Topografie."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "O dată ce accepți invitația, vei părăsi modul Lupte Standard."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "O dată ce accepți invitația, vei părăsi modul Lupte de clasament."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "O dată ce accepți invitația, vei părăsi modul Încălzire."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "O dată ce accepți invitația, vei părăsi modul Încălzire. Nu-l vei putea porni pe acesta din nou."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Schimbările de server vor fi salvate acum."
+
+msgid "invites/note/server_change"
+msgstr "Vei fi automat transferat pe serverul %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Nu poţi accepta invitaţia. Pentru a accepta invitaţia, te rugăm să selectezi serverul %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Nu poţi accepta invitaţia. Pentru a accepta invitaţia, te rugăm să selectezi alt server."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Ai intrat deja în pluton."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Ai intrat deja în luptă pe Harta globală."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Ai intrat deja în lupta de antrenament."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Ai intrat deja în pluton."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Ai intrat deja în pluton."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Ai intrat deja în detaşament."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Ai intrat deja în pluton."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Ai intrat deja în turneu."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Ai intrat deja în lupta de antrenament."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Ai intrat deja în lupta de antrenament."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Ai intrat deja în echipă."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Invitaţie acceptată."
+
+msgid "invites/state/DECLINED"
+msgstr "Invitație refuzată."
+
+msgid "invites/state/ERROR"
+msgstr "Invitaţie invalidă."
+
+msgid "invites/state/EXPIRED"
+msgstr "Invitaţie expirată."
+
+msgid "invites/state/REVOKED"
+msgstr "Invitaţie retrasă."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Invitație de intrare în plutonul Vânătorul de Oțel"
+
+msgid "invites/text/COMP7"
+msgstr "Invitație de a intra în plutonul Violență"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Invitație de a intra în plutonul Violență Simplificată"
+
+msgid "invites/text/EPIC"
+msgstr "Invitație de a intra în plutonul Front"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Invitație de intrare în Antrenamentul de echipă în modul Front"
+
+msgid "invites/text/EVENT"
+msgstr "Invitație în pluton"
+
+msgid "invites/text/FALLOUT"
+msgstr "Invitație de intrare în pluton pentru %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Dominare"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Vânătoarea oţelului"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Invitație la luptă"
+
+msgid "invites/text/MAPBOX"
+msgstr "Invitație de intrare în pluton pentru Misiunea de Recunoaștere"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Invitație de explorare a hărților"
+
+msgid "invites/text/SORTIE"
+msgstr "Invitație de intrare în detașament"
+
+msgid "invites/text/SQUAD"
+msgstr "Invitație în pluton"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Invitație de intrare în detașament"
+
+msgid "invites/text/TRAINING"
+msgstr "Invitație de intrare în Antrenamentul de echipă"
+
+msgid "invites/text/UNIT"
+msgstr "Invitație de intrare în echipă"
+
+msgid "invites/text/creatorName"
+msgstr "de la %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Perioadă Defensivă"
+
+msgid "invites/text/fort/direction"
+msgstr "Cap de pod"
+
+msgid "invites/text/fort/offence"
+msgstr "Atac asupra"
+
+msgid "invites/warning/anonymized"
+msgstr "Când accepți invitația, porecla ta actuală și eticheta clanului tău vor fi afișate membrilor unității tactice pe timpul luptei."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Invitaţie trimisă lui %(name)s."

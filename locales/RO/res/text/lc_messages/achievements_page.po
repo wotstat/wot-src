@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Puncte care cresc scorul total al realizărilor."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Puncte de realizări"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Ai finalizat toți pașii acestei realizări și ai primit toate recompensele disponibile."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Apasă %(escIcon)s pentru a reveni la următorul nivel din CATALOG."
+
+msgid "catalog/rootLink"
+msgstr "CATALOG"
+
+msgid "category/achievementsScore/title"
+msgstr "SCORUL REALIZĂRILOR"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "Indicatorul principal al progresului din colecția de realizări. Fiecare realizare nouă crește scorul total al realizărilor, cu excepția trofeelor."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Scorul total al realizărilor: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "REALIZĂRILE\nRECENTE"
+
+msgid "category/title"
+msgstr "COLECȚIA JUCĂTORULUI"
+
+msgid "category/upcoming/title"
+msgstr "REALIZĂRI\nVIITOARE"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s și multe altele"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Realizare deblocată!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "%(count)s realizări deblocate!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s și multe altele"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Trofeu nou obținut!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "%(count)s trofee obținute!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "Afișarea automată sortează premiile din toate categoriile după valoarea de afișat pe panglica de premii valoroase. Se dezactivează dacă aranjezi premiile manual."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "Afișarea automată sortează premiile din toate categoriile după valoarea de afișat pe panglica de premii valoroase. La activarea setării, ordinea manuală se resetează."
+
+msgid "editConfirm/description/error"
+msgstr "Investigăm problema. Încearcă să editezi mai târziu. Între timp, vei fi redirecționat către Cuprins."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Salvează"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Anulează"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Recepționat!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Afișarea automată dezactivată"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Afișarea automată activată"
+
+msgid "editConfirm/title/error"
+msgstr "A apărut o eroare"
+
+msgid "editConfirm/title/normal"
+msgstr "Aplici schimbările panglicii cu premii valoroase?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Anulare schimbări"
+
+msgid "editView/footer/button/save"
+msgstr "Aplică și ieși"
+
+msgid "editView/header/checkbox"
+msgstr "Afișarea automată"
+
+msgid "editView/header/close"
+msgstr "ÎNCHIDE"
+
+msgid "editView/header/title/idle"
+msgstr "Alege premiile afișate pe panglică"
+
+msgid "editView/header/title/selecting"
+msgstr "Alege premiul de înlocuit"
+
+msgid "editView/header/title/tutorial"
+msgstr "Alege locașul premiului"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Anulează"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Înlocuiește"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "REALIZĂRILE TALE\nSUNT AICI"
+
+msgid "hint/profile"
+msgstr "REALIZĂRILE TALE\nSUNT AICI"
+
+msgid "hint/summary/customizationButton"
+msgstr "Editare disponibilă"
+
+msgid "notifications/editingEnabled/button"
+msgstr "Spre panglică"
+
+msgid "notifications/editingEnabled/title"
+msgstr "Editare disponibilă a panglicii cu premii valoroase"
+
+msgid "notifications/firstEntry/button"
+msgstr "Spre Dosarul de serviciu"
+
+msgid "notifications/firstEntry/text"
+msgstr "Scorul personal World of Tanks,\neditarea premiilor."
+
+msgid "notifications/firstEntry/title"
+msgstr "Se actualizează Dosarul de serviciu"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "Spre Dosarul de serviciu"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Editarea premiilor\nși a design-ului vizual."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Se actualizează Dosarul de serviciu"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "Spre Dosarul de serviciu"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Nivelul tău: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Scorul tău personal a fost calculat!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "Spre Dosarul de serviciu"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "Scorul tău personal World of Tanks s-a schimbat. Mergi în secțiunea Dosar de serviciu pentru a afla toate detaliile."
+
+msgid "notifications/ratingUp/button"
+msgstr "Spre Dosarul de serviciu"
+
+msgid "notifications/ratingUp/text"
+msgstr "Ai atins următorul nivel: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Scorul tău personal a crescut!"
+
+msgid "playerInfo/clan/button"
+msgstr "Profilul clanului"
+
+msgid "playerInfo/clan/date"
+msgstr "Data înregistrării:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "Jucătorul nu are unități tactice permanente"
+
+msgid "playerInfo/clan/post"
+msgstr "Poziție:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "Plăcuța de identificare personală este\nmomentan indisponibilă"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "Scorul jucătorului nu a fost calculat: Ai participat la mai puțin de %(amount)s lupte."
+
+msgid "ratingWidget/status/initial"
+msgstr "Participă la %(amount)s lupte pentru calcularea scorului tău personal World of Tanks."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "Scorul personal al jucătorului nu a fost calculat încă"
+
+msgid "ratingWidget/status/progress"
+msgstr "Se calculează scorul tău personal World of Tanks. lupte rămase: %(amount)s."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Intră în luptă și îți vom calcula scorul tău personal."
+
+msgid "rewardView/button/achievements"
+msgstr "Spre Realizări"
+
+msgid "rewardView/button/dogTag"
+msgstr "Spre plăcuța de identificare"
+
+msgid "rewardView/button/dogTags"
+msgstr "Spre plăcuțele de identificare"
+
+msgid "rewardView/button/moreRewards"
+msgstr "Afișează încă %(value)s"
+
+msgid "rewardView/reward/dogTag"
+msgstr "Plăcuța de identificare %(value)s"
+
+msgid "rewardView/title/multi"
+msgstr "RECOMPENSELE REALIZĂRILOR OBȚINUTE"
+
+msgid "rewardView/title/single"
+msgstr "RECOMPENSA REALIZĂRILOR OBȚINUTĂ"
+
+msgid "section/action"
+msgstr "Special"
+
+msgid "section/battle"
+msgstr "Eroi ai luptei"
+
+msgid "section/class"
+msgstr "Medalii pe clase"
+
+msgid "section/epic"
+msgstr "Medalii eroice"
+
+msgid "section/group"
+msgstr "Distincţii de grup"
+
+msgid "section/memorial"
+msgstr "Însemne comemorative"
+
+msgid "section/special"
+msgstr "Grade onorifice"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "SPRE REALIZĂRI"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Ultima luptă: %(lastVisitDate)s la %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Cont creat: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Fundal"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Standard"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Foc"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Aur"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Legendar"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Retro"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Exploziv"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Anulare schimbări"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Panglică"
+
+msgid "summary/achievements/customization/save"
+msgstr "Aplică și ieși"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "Din motive tehnice, personalizarea ecranului Dosarului de serviciu este momentan indisponibilă. Lucrăm la rezolvarea problemei. Reîmprospătează ecranul sau revino mai târziu."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Personalizarea momentan indisponibilă"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Distincţii deosebite"
+
+msgid "summary/achievements/total"
+msgstr "Total: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Unice: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Medie: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Victorii: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Medie: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Medie: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Record: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Medie: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Intră în luptă în timp ce îți pregătim datele."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Informație momentan indisponibilă."
+
+msgid "summary/disabled/title"
+msgstr "Mai multe informații vor fi disponibile mai târziu"
+
+msgid "summary/main/assistance"
+msgstr "RECORD\nASISTENȚĂ"
+
+msgid "summary/main/battles"
+msgstr "LUPTE\nPURTATE"
+
+msgid "summary/main/blocked"
+msgstr "MAXIM\nBLOCATE"
+
+msgid "summary/main/damage"
+msgstr "RECORD\nDAUNE"
+
+msgid "summary/main/destroyed"
+msgstr "VEHICULE\nDISTRUSE"
+
+msgid "summary/main/experience"
+msgstr "RECORD\nEXPERIENȚĂ"
+
+msgid "summary/statistic/title"
+msgstr "Scor personal World of Tanks"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Scor personal"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Maximul de daune provocate cu ajutorul tău."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Maximul de daune provocate cu ajutorul tău în luptă cu %(tankName)s."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Record asistență: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Rata dintre totalul daunelor provocate vehiculelor inamice și totalul luptelor purtate. Se consideră drept contribuție:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Daune în urma descoperiri de către tine;\n• Daune în urma distrugerii de către tine unei şenile și a imobilizării vehiculului inamic"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Medie asistență: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Rata dintre numărul total de victorii și totalul luptelor purtate."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Incluzând:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Victorii: %(wins)s\n• înfrângeri: %(loses)s\n• Egalități: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Rata victoriilor: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Lupte purtate: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Maximul daunelor blocate."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Maximul daunelor blocate în lupte cu %(tankName)s."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Maxim blocate: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Rata dintre totalul daunelor blocate de blindaj în urma loviturilor non-penetrante și ricoșeurilor proiectilelor AP, HEAT și APCR, față de numărul de lupte purtate."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Medie daune blocate: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Maximul daunelor provocate."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Maximul daunelor provocate în lupte cu %(tankName)s."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Record daune: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Rata dintre totalul de daune provocate și numărul de lupte purtate."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Medie daune: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Numărul maxim de vehicule distruse."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "Numărul maxim de vehicule inamice distruse în lupte cu %(tankName)s."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Mexim distruse: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Numărul total de vehicule inamice distruse în toate luptele."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Vehicule distruse: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Cantitatea maximă de experiență obținută."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "Cantitatea maximă de experiență obținută în lupte cu %(tankName)s."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Record experiență: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Rata dintre totalul experienței obținute și numărul de lupte purtate."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Medie experiență: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Nici victorile, nici înfrângerile nu afectează calculul scorului tău personal World of Tanks."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Joacă cu diverse vehicule pentru a le determina pe cele mai eficiente conform următorilor parametri de performanță:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "WTR este un sistem de scor care calculează scorul personal pentru fiecare vehicul, apoi le combină pentru a determina performanța generală a jucătorului. Sistemul reacționează flexibil la schimbările în strategia de luptă și compară statisticile jucătorului cu media serverului."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Daune provocate"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Daune provocate cu ajutorul tău"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Numărul de vehicule inamice distruse"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Daune blocate și rata de supraviețuire"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "Creșterea WTR"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "Scor personal World of Tanks"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Lupte rămase până la calculul scorului: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Nivelul: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Limită atinsă!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Puncte rămase până la creșterea nivelului: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "Bronz %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "Argint %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "Aur %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "As %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "Legendă %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Nivelul"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Numărul de puncte"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "Scor personal World of Tanks"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "La activarea acestei setări, ordonarea configurată de tine %(whiteSpanish_Open)sva fi resetată%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "La dezactivarea acestei setări sau configurarea manuală, premiile de pe panglică %(whiteSpanish_Open)snu se vor mai%(whiteSpanish_Close)s %(whiteSpanish_Open)sactualiza%(whiteSpanish_Close)s %(whiteSpanish_Open)sautomat%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "Sortează automat premiile %(whiteSpanish_Open)sdin toate categoriile%(whiteSpanish_Close)s în funcție de valoare pentru afișare pe panglica de premii valoroase."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Afișarea automată"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "Editarea panglicii cu premii valoroase este momentan indisponibilă. Încearcă mai târziu."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Încă nu ai premii care pot fi afișate aici. Obține-le %(whiteSpanish_Open)sîn lupte%(whiteSpanish_Close)s sau %(whiteSpanish_Open)sprin participarea la evenimente în joc.%(whiteSpanish_Close)s"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "Editarea panglicii cu premii valoroase va fi disponibilă după obținerea de %(whiteSpanish_Open)s%(amount)s sau mai multe premii%(whiteSpanish_Close)s din orice categorie."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Nu există premii de afișat aici."
+
+msgid "tooltips/mastery/body"
+msgstr "Numărul de insigne de merit «As» primite în toate modurile de luptă relevante / Numărul de vehicule care au participat la cel puţin o Luptă standard"
+
+msgid "tooltips/mastery/header"
+msgstr "Insigna de merit «As»"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "Scorul personal este o exprimare a experienței și abilităților jucătorului și este determinat de următoarele:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "Scorul personal se actualizează după fiecare luptă purtată."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Victorii\n• Daune provocate cu ajutorul tău\n• Media daunelor per luptă\n• media experienței per luptă\n• Lupte finalizate ca supraviețuitor"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Scor personal"

@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Affirmatif !"
+
+msgid "attachments_preview/description"
+msgstr "Ensemble d'accessoires 3D"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Accessoire 3D épique"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Accessoire 3D légendaire"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Accessoire 3D rare"
+
+msgid "bundle/name"
+msgstr "Marché mystérieux"
+
+msgid "bundle/name_uppercased"
+msgstr "MARCHÉ MYSTÉRIEUX"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Annuler"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Acheter"
+
+msgid "confirmation/description"
+msgstr "Confirmez pour recevoir des obligations et une nouvelle récompense de case."
+
+msgid "confirmation/purchase"
+msgstr "Acheter contre {{price}} ?"
+
+msgid "entryPoint/button"
+msgstr "À l’évènement"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} est là. En avant !"
+
+msgid "intro/cards/description/c_1"
+msgstr "En achetant des obligations durant le {{eventName}}, vous recevrez une récompense de l'une des cases non ouvertes en cadeau bonus. Les cases contiennent des objets précieux du jeu, y compris la récompense principale de l'évènement : un véhicule premium."
+
+msgid "intro/cards/description/c_2"
+msgstr "Les récompenses sont octroyées de façon aléatoire. Chaque case non ouverte possède sa propre probabilité d'être sélectionnée, et toutes les probabilités cumulées atteignent toujours un total de 100 %. Lorsqu'une case est ouverte, il est impossible de l'ouvrir à nouveau et la probabilité de recevoir les récompenses restantes augmente."
+
+msgid "intro/cards/description/c_3"
+msgstr "Chaque étape coûte une quantité de pièces d'or définie. Le nombre d'obligations reçues et le prix de l'étape varient en progressant."
+
+msgid "intro/cards/link"
+msgstr "Consultez les conditions et les prix de chaque étape sur le {{@ class 'linkPart'}}portail.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Achat d'obligations"
+
+msgid "intro/cards/title/c_2"
+msgstr "Cases et probabilités"
+
+msgid "intro/cards/title/c_3"
+msgstr "Prix des étapes"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "VOTRE RÉCOMPENSE VOUS ATTEND"
+
+msgid "main/alt/description"
+msgstr "Voir la probabilité"
+
+msgid "main/alt/tooltip/body"
+msgstr "Appuyez sur la touche Alt pour voir la probabilité de recevoir chaque case."
+
+msgid "main/alt/tooltip/header"
+msgstr "Affichage de la probabilité"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "FÉLICITATIONS ! \n VOUS AVEZ REÇU TOUTES LES RÉCOMPENSES"
+
+msgid "main/footer/button"
+msgstr "Acheter"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}récompense d'une case"
+
+msgid "main/footer/receive"
+msgstr "Vous recevez : {{item}}"
+
+msgid "main/header/description"
+msgstr "Participez à l'évènement du {{startDate}} au {{endDate}} et récupérez des récompenses !"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "À la personnalisation"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Aller au style"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Aller au véhicule"
+
+msgid "notifications/specialReward/title"
+msgstr "La récompense principale du {{eventName}} est à vous !"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Récompenses supplémentaires :"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Reçu :"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Cette opération est temporairement indisponible en raison de problèmes techniques. Veuillez réessayer plus tard."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Vers l'évènement"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s prendra bientôt fin !"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "L'évènement est disponible jusqu'au : %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "Case du %(eventName)s ouverte"
+
+msgid "tooltips/entry/description"
+msgstr "Votre récompense vous attend ! Chaque achat d'obligations vous octroie une récompense aléatoire de l'une des cases en cadeau. Vous ouvrez une nouvelle case à chaque fois et celles déjà ouvertes ne peuvent pas l'être à nouveau."
+
+msgid "tooltips/entry/timer"
+msgstr "L'évènement sera disponible pendant {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "À propos de l'évènement"
+
+msgid "tooltips/steps/description"
+msgstr "Pour chaque achat, vous obtenez plus de {{currency}}. La quantité que vous recevez augmente à certains paliers d'achat."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} pour chaque achat"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Étapes :"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} — {{end}}"

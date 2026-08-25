@@ -1,0 +1,1652 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "awardsWidget/description/award"
+msgstr "Paspauskite norėdami pasirinkti ir pasiimti savo prizus."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Apdovanojimai laikinai nepasiekiami. Atsiprašome už nepatogumus."
+
+msgid "awardsWidget/description/coin"
+msgstr "Paspauskite norėdami peržiūrėti vertingus daiktus, kuriuos galite įsigyti už Kovinio leidimo žetonus."
+
+msgid "awardsWidget/description/collection"
+msgstr "Paspauskite norėdami pamatyti Kovinio leidimo kolekciją."
+
+msgid "awardsWidget/description/collectionCompleted"
+msgstr "Sveikiname! Jūs surinkote visus Kovinio leidimo kolekcijos elementus."
+
+msgid "awardsWidget/description/commander"
+msgstr "Paspaudę pamatysite visus renginių įgulos narius."
+
+msgid "awardsWidget/description/taler"
+msgstr "Paspaudę pamatysite daiktus iš ankstesnių Kovinio leidimo sezonų, kuriuos galite pirkti už žetonus ar auksą."
+
+msgid "awardsWidget/description/ticket"
+msgstr "Paspaudę nutrinkite bilietus ir gaukite prizų."
+
+msgid "awardsWidget/title/awardMultiple"
+msgstr "PASIIMTI\nPRIZUS"
+
+msgid "awardsWidget/title/awardSingle"
+msgstr "PASIIMTI\nPRIZĄ"
+
+msgid "awardsWidget/title/coin"
+msgstr "PREKĖS UŽ ŽETONUS"
+
+msgid "awardsWidget/title/collection"
+msgstr "KOLEKCIJA"
+
+msgid "awardsWidget/title/commander"
+msgstr "ĮGULOS NARIAI"
+
+msgid "awardsWidget/title/taler"
+msgstr "SAUGYKLA"
+
+msgid "awardsWidget/title/ticket"
+msgstr "NUTRINKITE\nBILIETUS"
+
+msgid "battleBonusX5"
+msgstr "×5 patirties misijos"
+
+msgid "battlePassAwardsView/additionalRewards/bpBuyLevelAwardsText"
+msgstr "Jūs gavote Pagerintą apdovanojimą už įvykdytą Pagrindinės sekos etapą. Rinkite taškus toliau norėdami gauti daugiau prizų."
+
+msgid "battlePassAwardsView/additionalRewards/bpRemainLevelsAwardsText"
+msgstr "dar %(remainingAwardsCount)s"
+
+msgid "battlePassAwardsView/additionalRewards/button"
+msgstr "Taip tikrai!"
+
+msgid "battlePassAwardsView/additionalRewards/seeMoreButtonText"
+msgstr "Peržiūrėti apdovanojimus"
+
+msgid "battlePassAwardsView/additionalRewards/subText"
+msgstr "Jūs dar gavote:"
+
+msgid "battlePassAwardsView/footer/acceptButton"
+msgstr "Taip tikrai!"
+
+msgid "battlePassAwardsView/footer/allChaptersText"
+msgstr "Jūs atrakinote visus Pagerinto leidimo apdovanojimus trijuose skyriuose."
+
+msgid "battlePassAwardsView/footer/boughtChapterText"
+msgstr "Jums pasiekiami visi nusipirktų etapų apdovanojimai."
+
+msgid "battlePassAwardsView/footer/bpButtonTitle"
+msgstr "Pirkti pagerintą leidimą"
+
+msgid "battlePassAwardsView/footer/bpDescriptionGotStyle"
+msgstr "Kiekvieno skyriaus pradžioje gausite stilių, kurį galėsite tobulinti įveikdami skyriaus etapus. Nepilnai užbaigtus stilius galėsite patobulinti pasibaigus dabartiniam Kovinio leidimo sezonui."
+
+msgid "battlePassAwardsView/footer/bpInProgressTitle"
+msgstr "Pirkite Pagerintą leidimą šiam skyriui ir gaukite Pagerintus apdovanojimus už jau įvykdytus etapus. Jūs gausite Pagerintus apdovanojimus ir už toliau vykdomus etapus."
+
+msgid "battlePassAwardsView/footer/bpLastStagesTitle"
+msgstr "Pirkite Pagerintą leidimą šiam skyriui ir iš karto gaukite Pagerintus apdovanojimus už jau įvykdytus etapus."
+
+msgid "battlePassAwardsView/footer/bpMoreTitle"
+msgstr "DAR TURITE ŠANSŲ!"
+
+msgid "battlePassAwardsView/footer/bpTitle"
+msgstr "PAGERINTAS LEIDIMAS"
+
+msgid "battlePassAwardsView/footer/getRewardsButton"
+msgstr "Gauti apdovanojimus"
+
+msgid "battlePassAwardsView/footer/postProgressionButton"
+msgstr "Į Elitinę grandinę"
+
+msgid "battlePassAwardsView/footer/postProgressionText"
+msgstr "Dabar galite atsidaryti Elitinę grandinę"
+
+msgid "battlePassAwardsView/header/bpAllChapters"
+msgstr "Visi skyriai"
+
+msgid "battlePassAwardsView/header/bpBoughtText"
+msgstr "PAGERINTAS LEIDIMAS NUPIRKTAS!"
+
+msgid "battlePassAwardsView/header/bpFinalLevelText"
+msgstr "ĮVYKDYTAS FINALINIS ETAPAS!"
+
+msgid "battlePassAwardsView/header/bpLevelReceivedText"
+msgstr "%(currentLevel)s ETAPAS UŽBAIGTAS!"
+
+msgid "battlePassAwardsView/header/bpLevelsText"
+msgstr "GAUTI APDOVANOJIMAI"
+
+msgid "battlePassAwardsView/header/bpRewardText"
+msgstr "GAUTAS APDOVANOJIMAS"
+
+msgid "battlePassAwardsView/header/bpTitle"
+msgstr "KOVINIS LEIDIMAS: SKYRIUS %(chapter)s"
+
+msgid "battlePassAwardsView/header/bpTitleWithoutChapter"
+msgstr "KOVINIS LEIDIMAS"
+
+msgid "battlePassAwardsView/header/styleReceivedText"
+msgstr "GAUTAS STILIUS"
+
+msgid "battlePassAwardsView/header/styleUpgradedText"
+msgstr "STILIUS PATOBULINTAS"
+
+msgid "battlePassAwardsView/mainReward/battlePassNewDeviceGiftToken"
+msgstr "Standartinė įranga išsirinkimui"
+
+msgid "battlePassAwardsView/mainReward/battlePassTrophyGiftToken"
+msgstr "Trofėjinė įranga išsirinkimui"
+
+msgid "battlePassAwardsView/mainReward/bpBuyAwardsCaption"
+msgstr "Jūs atrakinote visus Pagerinto leidimo apdovanojimus %(chapter)s skyriuje."
+
+msgid "battlePassAwardsView/mainReward/bpBuyWithLevels"
+msgstr "Jūs gavote visus skyriaus %(chapter)s apdovanojimus."
+
+msgid "battlePassAwardsView/mainReward/commander"
+msgstr "Įgulos narys: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonText"
+msgstr "Eiti išsirinkti"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonTitle"
+msgstr "Namų fronto atsargų skiltyje sandėlyje"
+
+msgid "battlePassAwardsView/mainReward/reward"
+msgstr "Medalis: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/style"
+msgstr "3D stilius: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/styleLevel1"
+msgstr "Pirmas stiliaus %(styleName)s lygis"
+
+msgid "battlePassAwardsView/mainReward/styleLevel2"
+msgstr "Naujas stiliaus %(styleName)s lygis"
+
+msgid "battlePassAwardsView/mainReward/styleLevel3"
+msgstr "Maksimalus stiliaus %(styleName)s lygis"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonText"
+msgstr "Eiti išsirinkti"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonTitle"
+msgstr "Namų fronto atsargų skiltyje sandėlyje"
+
+msgid "battlePassBuyLevels/chapter"
+msgstr "Skyrius %(name)s"
+
+msgid "battlePassBuyLevels/levelsSelected"
+msgid_plural "plural/battlePassBuyLevels/levelsSelected"
+msgstr[0] "%(count)s etapas už"
+msgstr[1] "%(count)s etapai už"
+msgstr[2] "%(count)s etapų už"
+
+msgid "battlePassBuyView/btnCancel"
+msgstr "Atšaukti"
+
+msgid "battlePassBuyView/btnRewards"
+msgstr "Peržiūrėti visus\n%(count)s apdovanojimus"
+
+msgid "battlePassBuyView/confirm/btnBuy"
+msgstr "Pirkti"
+
+msgid "battlePassBuyView/confirm/checkbox/stage"
+msgid_plural "plural/battlePassBuyView/confirm/checkbox/stage"
+msgstr[0] "Kartu su %(stagesNumber)s likusiu etapu"
+msgstr[1] "Kartu su %(stagesNumber)s likusiais etapais"
+msgstr[2] "Kartu su %(stagesNumber)s likusių etapų"
+
+msgid "battlePassBuyView/confirm/description"
+msgstr "Pagerintas leidimas atrakina:"
+
+msgid "battlePassBuyView/confirm/descriptionCheckboxChecked"
+msgstr "Iš karto gausite visus skyriaus apdovanojimus:"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/buy"
+msgstr "Pamatyti pasiūlymus"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/description"
+msgstr "Šis pasiūlymas galioja tol, kol\nnepagerintas nė vienas kitas etapas."
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/headline"
+msgstr "%(count)s viename"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/packsAmount"
+msgstr "x%(amount)s"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/title"
+msgstr "Pagerintas leidimas\nvisiems sezono skyriams"
+
+msgid "battlePassBuyView/confirm/starterPack/description"
+msgstr "Bonusas %(purchaseText)s"
+
+msgid "battlePassBuyView/confirm/starterPack/purchaseText"
+msgstr "perkant:"
+
+msgid "battlePassBuyView/descr"
+msgstr "Nusipirkę sekos etapą iš karto atrakinsite ir gausite to etapo apdovanojimus."
+
+msgid "battlePassBuyView/reward/descriptionFutureRewards"
+msgstr "Šiuos apdovanojimus gausite įvykdę ateinančius etapus."
+
+msgid "battlePassBuyView/reward/descriptionNowRewards"
+msgstr "Šie apdovanojimai jums atiteks už %(steps)s etapus"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
+msgstr "Iš karto gausite šiuos apdovanojimus"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
+msgstr "Šie apdovanojimai jums atiteks už %(steps)s etapą"
+
+msgid "battlePassBuyView/reward/titleFutureRewards"
+msgstr "BUS ATRAKINTI"
+
+msgid "battlePassBuyView/reward/titleNowRewards"
+msgstr "BUS GAUTI IŠ KARTO"
+
+msgid "battlePassStatus/activateChapter"
+msgstr "Aktyvuoti Kovinio leidimo skyrių"
+
+msgid "battlePassStatus/improve"
+msgstr "Vis dar galite nusipirkti Pagerintą leidimą"
+
+msgid "battlePassVehicleAwardView/button"
+msgstr "Taip tikrai!"
+
+msgid "battlePassVehicleAwardView/content/description"
+msgstr "PASIEKTAS TAŠKŲ LIMITAS"
+
+msgid "battlePassVehicleAwardView/content/postTitle"
+msgstr "KOVINIO LEIDIMO ELITINĖ SEKA"
+
+msgid "battlePassVehicleAwardView/content/subTitle"
+msgstr "Jūs gavote apdovanojimų:"
+
+msgid "battlePassVehicleAwardView/content/title"
+msgstr "KOVINIS LEIDIMAS"
+
+msgid "battlepassTab"
+msgstr "Kovinis leidimas"
+
+msgid "chapter/fullName/10021"
+msgstr "Carmen de Bisonte"
+
+msgid "chapter/fullName/1114"
+msgstr "Carmen de Bisonte"
+
+msgid "chapter/fullName/200"
+msgstr "Elitinė grandinė"
+
+msgid "chapter/fullName/201"
+msgstr "Užpustytas laikas"
+
+msgid "chapter/fullName/202"
+msgstr "C'est Notre Destin"
+
+msgid "chapter/fullName/203"
+msgstr "Dykumos vadas"
+
+msgid "chapter/fullName/205"
+msgstr "Far Cry"
+
+msgid "chapter/fullNameUppercased/10021"
+msgstr "CARMEN DE BISONTE"
+
+msgid "chapter/fullNameUppercased/1114"
+msgstr "CARMEN DE BISONTE"
+
+msgid "chapter/fullNameUppercased/201"
+msgstr "UŽPUSTYTAS LAIKAS"
+
+msgid "chapter/fullNameUppercased/202"
+msgstr "C'EST NOTRE DESTIN"
+
+msgid "chapter/fullNameUppercased/203"
+msgstr "DYKUMOS VADAS"
+
+msgid "chapter/fullNameUppercased/205"
+msgstr "FAR CRY"
+
+msgid "chapter/title"
+msgstr "%(chapter)s SKYRIUS"
+
+msgid "chapterChoice/about"
+msgstr "APIE KOVINĮ LEIDIMĄ"
+
+msgid "chapterChoice/activeChapter/postprogression/text"
+msgstr "Pradėta"
+
+msgid "chapterChoice/activeChapter/text"
+msgstr "Aktyvus skyrius"
+
+msgid "chapterChoice/chapterCompleted"
+msgstr "Skyrius užbaigtas"
+
+msgid "chapterChoice/chapterInfo/buttons/toChapter"
+msgstr "Į skyrių"
+
+msgid "chapterChoice/chapterInfo/buttons/toCrewMembers"
+msgstr "Pamatyti įgulos narius"
+
+msgid "chapterChoice/chapterInfo/buttons/toPostProgression"
+msgstr "Į seką"
+
+msgid "chapterChoice/chapterInfo/deadline/date"
+msgstr "Tęsis iki %(endDate)s"
+
+msgid "chapterChoice/chapterInfo/deadline/time"
+msgstr "Iki pabaigos liko %(endTime)s"
+
+msgid "chapterChoice/confirmation/button/cancel"
+msgstr "Atšaukti"
+
+msgid "chapterChoice/confirmation/button/submit"
+msgstr "Aktyvuoti"
+
+msgid "chapterChoice/confirmation/button/switch"
+msgstr "Persijungti"
+
+msgid "chapterChoice/confirmation/description/select"
+msgstr "Jūs bet kada galite persijungti į kitą skyrių."
+
+msgid "chapterChoice/confirmation/description/switch"
+msgstr "Jūs jau esate aktyvavę skyrių \"%(chName)s.\" Jis pus pristabdytas."
+
+msgid "chapterChoice/confirmation/extraChapterDescription/highlightText"
+msgstr "nebus pasiekiama"
+
+msgid "chapterChoice/confirmation/extraChapterDescription/text"
+msgstr "%(icon)Aktyvavus specialų skyrių, Elitinė grandinė %(highlightText) iki kol neužbaigsite jo sekos arba iki kol skyrius neužsidarys."
+
+msgid "chapterChoice/confirmation/title/select"
+msgstr "Aktyvuoti skyrių \"%(chName)s\"?"
+
+msgid "chapterChoice/confirmation/title/switch"
+msgstr "Persijungti į skyrių \"%(chName)s\"?"
+
+msgid "chapterChoice/crewMember/reward"
+msgstr "Įgulos nariai"
+
+msgid "chapterChoice/crewMember/reward/subTitle"
+msgstr "ir kiti įgulos nariai viduje"
+
+msgid "chapterChoice/eliteCircuit/reward/subTitle"
+msgstr "yra ciklinėje sekoje"
+
+msgid "chapterChoice/eliteCircuit/reward/title"
+msgstr "Bonų, žetonų ir bilietų"
+
+msgid "chapterChoice/extraChapter/reward"
+msgstr "Premium mašina"
+
+msgid "chapterChoice/freePoints/text"
+msgstr "Nepanaudoti taškai"
+
+msgid "chapterChoice/freePoints/tooltip/body"
+msgstr "Taškai yra kaupiami, jei vykdote Kovinio leidimo užduotis, bet nesate aktyvavę jokio skyriaus. Kai aktyvuosite skyrių, sukaupti taškai bus jame išleisti."
+
+msgid "chapterChoice/freePoints/tooltip/header"
+msgstr "Neišleisti Kovinio leidimo taškai"
+
+msgid "chapterChoice/postprogression/locked"
+msgstr "Atrakinsite užbaigę visus\n{{count}} sezono skyrius"
+
+msgid "chapterChoice/postprogression/name"
+msgstr "Elitinė grandinė"
+
+msgid "chapterChoice/postprogression/unlocked/cycle"
+msgstr "Ciklas %(cycle)s"
+
+msgid "chapterChoice/stages/additional"
+msgstr " / %(level)s etapai"
+
+msgid "chapterChoice/stages/complete/improved"
+msgstr "Įvykdytas ir pagerintas"
+
+msgid "chapterChoice/stages/complete/unimproved"
+msgstr "viduje dar %(count)s apdovanojimų"
+
+msgid "chapterChoice/stylePreview/reward/subTitle"
+msgstr "skirtas %(vehicleName)s"
+
+msgid "chapterChoice/stylePreview/reward/title"
+msgstr "3D stilius %(styleName)s,"
+
+msgid "chapterChoice/vehicle/reward/subTitle"
+msgstr "%(vehicleName)s"
+
+msgid "chapterChoice/vehicle/reward/title"
+msgstr "Premium mašina"
+
+msgid "chapterChoice/vehicleStyle/reward/subTitle"
+msgstr "ir 3D stilius %(styleName)s"
+
+msgid "chapterChoice/vehicleStyle/reward/title"
+msgstr "%(vehicleName)s"
+
+msgid "chapterStatus/notSelected"
+msgstr "Skyrius nepasirinktas"
+
+msgid "chosenBonuses/bonus/battle_booster_gift"
+msgstr "Pasirenkamos instrukcijos"
+
+msgid "chosenBonuses/bonus/blueprint_gift"
+msgstr "Nacionaliniai brėžinių fragmentai išsirinkimui"
+
+msgid "chosenBonuses/bonus/brochure_gift"
+msgstr "Treniruočių lankstinukai išsirinkimui"
+
+msgid "chosenBonuses/bonus/crewbook_gift"
+msgstr "Treniruočių instrukcijos išsirinkimui"
+
+msgid "chosenBonuses/bonus/guide_gift"
+msgstr "Treniruočių gidai išsirinkimui"
+
+msgid "chosenBonuses/bonus/modernized_device_gift"
+msgstr "Eksperimentinė įranga išsirinkimui"
+
+msgid "chosenBonuses/bonus/new_device_gift"
+msgstr "Standartinė įranga išsirinkimui"
+
+msgid "chosenBonuses/bonus/trophy_gift"
+msgstr "Trofėjinė įranga išsirinkimui"
+
+msgid "common/collectionText"
+msgstr "(Kolekcijos elementas)"
+
+msgid "common/comma"
+msgstr ", "
+
+msgid "common/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "commonProgression/body/ended"
+msgstr "Kovinio leidimo sezonas baigėsi"
+
+msgid "crewBonusX3"
+msgstr "×3 įgulos patirties misija"
+
+msgid "equipCoinBonus"
+msgstr "Komponentai: %(count)s"
+
+msgid "finalReward/tankman/roles/commander"
+msgstr "vadas"
+
+msgid "finalReward/tankman/roles/driver"
+msgstr "vairuotojas"
+
+msgid "finalReward/tankman/roles/gunner"
+msgstr "šaulys"
+
+msgid "finalReward/tankman/roles/loader"
+msgstr "užtaisytojas"
+
+msgid "finalReward/tankman/roles/radioman"
+msgstr "radistas"
+
+msgid "holidayFinalScreen/buyState/buyButton"
+msgstr "Pirkti pagerintą leidimą"
+
+msgid "holidayFinalScreen/buyState/description"
+msgstr "Nusipirkę pagerintą leidimą iš karto gausite Premium mašiną su unikaliu 3D stiliumi ir visus Pagerinto leidimo apdovanojimus."
+
+msgid "holidayFinalScreen/buyState/moreRewards"
+msgstr "Kiti apdovanojimai: %(count)s"
+
+msgid "holidayFinalScreen/buyState/title"
+msgstr "Gaukite Pagerinto leidimo apdovanojimus"
+
+msgid "holidayFinalScreen/chapter"
+msgstr "%(chapterName)s"
+
+msgid "holidayFinalScreen/completed"
+msgstr "SKYRIUS UŽBAIGTAS"
+
+msgid "holidayFinalScreen/finalState/button/showHangar"
+msgstr "Atgal į Garažą"
+
+msgid "holidayFinalScreen/finalState/button/showVehicle"
+msgstr "Peržiūrėti garaže"
+
+msgid "holidayFinalScreen/finalState/label"
+msgstr "Gauti visi renginio apdovanojimai"
+
+msgid "holidayFinalScreen/selectableRewardsState/button"
+msgstr "Gauti apdovanojimus"
+
+msgid "holidayFinalScreen/selectableRewardsState/label"
+msgstr "Jūs vis dar galite išsirinkti prizų."
+
+msgid "holidayFinalScreen/tankmenState/description"
+msgstr "Šio renginio metu parduotuvėje galite rasti rinkinių su unikaliais įgulos nariais."
+
+msgid "holidayFinalScreen/tankmenState/tankmenButton"
+msgstr "Išklausyti įgarsinimų"
+
+msgid "holidayFinalScreen/tankmenState/title"
+msgstr "Surinkite visus įgulos narius!"
+
+msgid "howToEarnPoints/battleRoyal/platoon"
+msgstr "Būryje"
+
+msgid "howToEarnPoints/battleRoyal/solo"
+msgstr "Solo"
+
+msgid "howToEarnPoints/battleTypeTitle/1"
+msgstr "Atsitiktinis mūšis"
+
+msgid "howToEarnPoints/battleTypeTitle/27"
+msgstr "Fronto linija"
+
+msgid "howToEarnPoints/battleTypeTitle/29"
+msgstr "Plieninis medžiotojas"
+
+msgid "howToEarnPoints/battleTypeTitle/43"
+msgstr "Prasiveržimas"
+
+msgid "howToEarnPoints/battleTypeTitle/49"
+msgstr "Prasiveržimo šviesa"
+
+msgid "howToEarnPoints/bonus"
+msgstr "+%(bonus)s"
+
+msgid "howToEarnPoints/card/battle/linkText"
+msgstr "Pereiti į misijas"
+
+msgid "howToEarnPoints/card/battle/text"
+msgstr "Vykdykite misijas režime Plieninis medžiotojas ir gaukite papildomų taškų."
+
+msgid "howToEarnPoints/card/battle/title"
+msgstr "Kasdienės misijos"
+
+msgid "howToEarnPoints/card/comp7/text"
+msgstr "Vykdykite misijas režime Prasiveržimas ir gaukite papildomų taškų."
+
+msgid "howToEarnPoints/card/comp7/title"
+msgstr "Kasdienės misijos"
+
+msgid "howToEarnPoints/card/comp7Light/text"
+msgstr "Vykdykite misijas režime Prasiveržimo šviesa ir gaukite papildomų taškų."
+
+msgid "howToEarnPoints/card/comp7Light/title"
+msgstr "Kasdienės misijos"
+
+msgid "howToEarnPoints/card/daily/linkText"
+msgstr "Pamatyti misijas"
+
+msgid "howToEarnPoints/card/daily/text"
+msgstr "Uždirbkite dar daugiau vykdydami kasdienes misijas."
+
+msgid "howToEarnPoints/card/daily/title"
+msgstr "Kasdienės misijos"
+
+msgid "howToEarnPoints/card/epicBattlePoints/text"
+msgstr "Už pasiektus Fronto linijos lygius gausite papildomų Kovinio leidimo taškų."
+
+msgid "howToEarnPoints/card/epicBattlePoints/title"
+msgstr "Apdovanojimas už Fronto linijos lygius"
+
+msgid "howToEarnPoints/card/limitPoints/text"
+msgstr "Kiekviena mašina turi taškų limitą. Pasiekę šį limitą gausite papildomų taškų."
+
+msgid "howToEarnPoints/card/limitPoints/title"
+msgstr "Taškų limito apdovanojimas"
+
+msgid "howToEarnPoints/card/specialVehicle/text"
+msgstr "Dalyvaudami kovose su pagrindinėmis mašinomis uždirbsite papildomų taškų."
+
+msgid "howToEarnPoints/card/specialVehicle/title"
+msgstr "Pagrindinės sezono mašinos"
+
+msgid "howToEarnPoints/condition/43"
+msgstr "Pagal prestižo taškus"
+
+msgid "howToEarnPoints/condition/49"
+msgstr "Pagal prestižo taškus"
+
+msgid "howToEarnPoints/condition/default"
+msgstr "Rezultatas pagal patirtį"
+
+msgid "howToEarnPoints/conditions"
+msgstr "Gavimo sąlygos"
+
+msgid "howToEarnPoints/description"
+msgstr "Vykdysite skyrius ir uždirbsite apdovanojimų įvairiuose režimuose uždirbdami Kovinio leidimo taškų:"
+
+msgid "howToEarnPoints/earned"
+msgstr "{{icon}}"
+
+msgid "howToEarnPoints/extraPoints"
+msgstr "Papildomi taškai"
+
+msgid "howToEarnPoints/lose/1"
+msgstr "Pralaimėjimas / Lygiosios"
+
+msgid "howToEarnPoints/lose/27"
+msgstr "Pralaimėjimas"
+
+msgid "howToEarnPoints/lose/43"
+msgstr "Pralaimėjimas / Lygiosios"
+
+msgid "howToEarnPoints/lose/49"
+msgstr "Pralaimėjimas / Lygiosios"
+
+msgid "howToEarnPoints/plusBanner/line1"
+msgstr "Su %(link)s visuose reguliariuose skyriuose"
+
+msgid "howToEarnPoints/plusBanner/line2"
+msgstr "uždirbsite daugiau taškų."
+
+msgid "howToEarnPoints/plusBanner/link"
+msgstr "WoT Plus Pro"
+
+msgid "howToEarnPoints/points"
+msgstr "Taškai"
+
+msgid "howToEarnPoints/rangeLevels/29"
+msgstr "%(startLevel)d–%(endLevel)d vietos"
+
+msgid "howToEarnPoints/rating"
+msgstr "Top %(place)d"
+
+msgid "howToEarnPoints/rating/1"
+msgstr "Top %(level)d pagal patirtį"
+
+msgid "howToEarnPoints/rating/27"
+msgstr "Top %(level)d pagal patirtį"
+
+msgid "howToEarnPoints/rating/29"
+msgstr "Top %(level)d pagal patirtį"
+
+msgid "howToEarnPoints/rating/43"
+msgstr "Top %(level)d pagal prestižo taškus"
+
+msgid "howToEarnPoints/rating/49"
+msgstr "Top %(level)d pagal prestižo taškus"
+
+msgid "howToEarnPoints/singleLevel/29"
+msgstr "%(level)d vieta"
+
+msgid "howToEarnPoints/solo/29"
+msgstr "Solo žaidimas"
+
+msgid "howToEarnPoints/squad/29"
+msgstr "Žaidimas būryje"
+
+msgid "howToEarnPoints/text/1"
+msgstr "%(startLevel)s–%(endLevel)s lygiai"
+
+msgid "howToEarnPoints/text/27"
+msgstr "%(level)s lygis"
+
+msgid "howToEarnPoints/text/29"
+msgstr "Specialios mašinos"
+
+msgid "howToEarnPoints/text/43"
+msgstr "%(level)s lygis"
+
+msgid "howToEarnPoints/text/49"
+msgstr "%(level)s lygis"
+
+msgid "howToEarnPoints/title"
+msgstr "Kaip uždirbti taškų"
+
+msgid "howToEarnPoints/vehicle"
+msgstr "Mašina"
+
+msgid "howToEarnPoints/vehicles"
+msgstr "Specialios mašinos"
+
+msgid "howToEarnPoints/win/1"
+msgstr "Pergalė"
+
+msgid "howToEarnPoints/win/27"
+msgstr "Pergalė"
+
+msgid "howToEarnPoints/win/43"
+msgstr "Pergalė"
+
+msgid "howToEarnPoints/win/49"
+msgstr "Pergalė"
+
+msgid "intro/affirmative/button"
+msgstr "Tikrai taip!"
+
+msgid "intro/next/button"
+msgstr "Toliau"
+
+msgid "intro/seasonDescription/text"
+msgstr "XVIII sezono Koviniame leidime galėsite gauti išskirtinių 3D stilių pagrindinėms sezono mašinoms: Maus, IS-7 ir AMX&nbsp;50&nbsp; B."
+
+msgid "intro/seasonDescription/title"
+msgstr "Nauji teminiai 3D stiliai"
+
+msgid "intro/title"
+msgstr "XVIII SEZONAS: KELIAS Į TOBULYBĘ"
+
+msgid "lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "navigation/buyLevels"
+msgstr "ETAPAS NUPIRKTAS"
+
+msgid "navigation/buyLevelsRewards"
+msgstr "ETAPO PRIZAI"
+
+msgid "navigation/buyPass"
+msgstr "PAGERINTO LEIDIMO PIRKIMAS"
+
+msgid "navigation/buyPassConfirm"
+msgstr "PAGERINTO LEIDIMO PIRKIMAS"
+
+msgid "navigation/buyPassRewards"
+msgstr "PAGERINTO LEIDIMO APDOVANOJIMAI"
+
+msgid "navigation/chapterChoice"
+msgstr "KOVINIO LEIDIMO %(seasonNum)s SEZONAS"
+
+msgid "navigation/holidayFinal"
+msgstr "KOVINIS LEIDIMAS"
+
+msgid "navigation/intro"
+msgstr "KOVINIO LEIDIMO %(seasonNum)s SEZONAS"
+
+msgid "navigation/postProgression"
+msgstr "KOVINIO LEIDIMO ELITINĖ GRANDINĖ"
+
+msgid "navigation/progression"
+msgstr "KOVINIO LEIDIMO SKYRIUS"
+
+msgid "navigation/tankmenScreen"
+msgstr "UNIKALŪS ĮGULOS NARIAI"
+
+msgid "points/top"
+msgstr "%(vehicle): %(bonus) už %(top) pagal patirtį."
+
+msgid "points/topCount"
+msgstr "top %(top)s"
+
+msgid "points/transfer"
+msgstr "Suteikta laisvųjų taškų:"
+
+msgid "postProgressionView/footer/button/text"
+msgstr "Į skyrius"
+
+msgid "postProgressionView/footer/description/text"
+msgstr "Pasiekiama, jei užbaigiami visi skyriai. Užbaigti skyriai: %(completedChapters)/%(chaptersAmount)"
+
+msgid "postProgressionView/footer/extraChapter/description/text"
+msgstr "Pasiimkite Premium mašiną ir pritaikomųjų elementų."
+
+msgid "postProgressionView/footer/extraChapter/title/text"
+msgstr "Kovinis leidimas: Far Cry jau čia!"
+
+msgid "postProgressionView/footer/purchaseIP/banner/text"
+msgstr "Su Pagerintu leidimu gaukite daugiau!"
+
+msgid "postProgressionView/footer/purchaseIP/button/text"
+msgstr "Pirkti"
+
+msgid "postProgressionView/header/description/active"
+msgstr "Uždirbkite taškų mūšyje, už kuriuos galite gauti bonų ir bilietų"
+
+msgid "postProgressionView/header/description/onPause/highlight"
+msgstr "PRISTABDYTAS."
+
+msgid "postProgressionView/header/description/onPause/regular"
+msgstr "Galėsite toliau vykdyti užbaigę specialaus skyriaus seką."
+
+msgid "postProgressionView/header/headline/deadline"
+msgstr "Tęsis iki %(endDate)s"
+
+msgid "postProgressionView/header/headline/unlocked"
+msgstr "Visi skyriai užbaigti"
+
+msgid "postProgressionView/header/title"
+msgstr "ELITINĖ GRANDINĖ"
+
+msgid "postProgressionView/progression/currentStep"
+msgstr "Dabartinis etapas"
+
+msgid "postProgressionView/progression/cyclesCompleted"
+msgstr "Užbaigti ciklai:"
+
+msgid "postProgressionView/progression/cyclicalProgression"
+msgstr "Cikliška seka"
+
+msgid "postProgressionView/toolbar/aboutBattlePass"
+msgstr "APIE KOVINĮ LEIDIMĄ"
+
+msgid "postProgressionView/toolbar/howToEarnPoints"
+msgstr "KAIP UŽDIRBTI TAŠKUS"
+
+msgid "prestige/top"
+msgstr "%(vehicle): %(bonus) už patekimą tarp %(top) geriausių žaidėjų pagal prestižo taškus."
+
+msgid "progression/about"
+msgstr "APIE KOVINĮ LEIDIMĄ"
+
+msgid "progression/aboutExtra"
+msgstr "APIE RENGINĮ"
+
+msgid "progression/activateChapter"
+msgstr "Aktyvuoti skyrių"
+
+msgid "progression/activateChapterDescr"
+msgstr "Jūs gausite Kovinio leidimo taškus ir kitus prizus už aktyvaus skyriaus užbaigimą."
+
+msgid "progression/activateExtraChapterDescr"
+msgstr "Jūs gausite Kovinio leidimo taškus ir kitus prizus už aktyvaus skyriaus užbaigimą."
+
+msgid "progression/activatePausedExtraChapterDescr"
+msgstr "Jūs gausite Kovinio leidimo taškus ir prizus už aktyvaus skyriaus užbaigimą."
+
+msgid "progression/backToCurrentStageArrow/descr"
+msgstr "Paspauskite norėdami pereiti į dabartinį etapą."
+
+msgid "progression/backToPotentialStageArrow/descr"
+msgstr "Paspauskite norėdami pereiti į atrakinamą etapą."
+
+msgid "progression/baseProgressionDescr"
+msgstr "BAZINIAI APDOVANOJIMAI"
+
+msgid "progression/battlePassBuyBtn"
+msgstr "Pirkti pagerintą leidimą"
+
+msgid "progression/battlePassBuyDescr"
+msgstr "Pagerintas leidimas atrakina Pagerintų apdovanojimų takelį dabartiniame skyriuje."
+
+msgid "progression/battlePassBuyDescrStarterPack"
+msgstr "Atrakinkite Pagerintą leidimą\nir kartu gaukite dovaną"
+
+msgid "progression/battlePassBuyHolidayDescr"
+msgstr "Pagerintas leidimas atrakina Pagerintų apdovanojimų takelį."
+
+msgid "progression/battlePassNextChapterBuyDescr"
+msgstr "Užbaikite ankstesnį skyrių, norėdami nusipirkti Pagerintą leidimą šiam skyriui."
+
+msgid "progression/battlePassNextChapterEpisodesDescr"
+msgstr "Užbaikite ankstesnį skyrių, norėdami nusipirkti etapus šiame skyriuje."
+
+msgid "progression/btnExtras"
+msgstr "PAPILDOMA\nMEDŽIAGA"
+
+msgid "progression/btnExtrasTooltip"
+msgstr "Užbaikite etapus ir atrakinkite naują medžiagą. Atrakinta medžiaga: %(opened) / %(total)."
+
+msgid "progression/btnNoExtrasTooltip"
+msgstr "Užbaikite etapus ir atrakinkite naują medžiagą."
+
+msgid "progression/btnRewardSelect"
+msgstr "GAUTI APDOVANOJIMĄ"
+
+msgid "progression/btnRewardSelectTooltip"
+msgstr "Paspauskite norėdami pasirinkti ir pasiimti savo prizus."
+
+msgid "progression/btnRewardsSelect"
+msgstr "GAUTI APDOVANOJIMUS"
+
+msgid "progression/btnRewardsUnavailable"
+msgstr "Ši operacija laikinai negalima dėl techninių priežasčių. Mes šiuo metu šią problemą sprendžiame."
+
+msgid "progression/btnTokensStore"
+msgstr "PREKĖS\nUŽ ŽETONUS"
+
+msgid "progression/btnTokensStoreTooltip"
+msgstr "Paspauskite norėdami peržiūrėti vertingus daiktus, kuriuos galite įsigyti už Kovinio leidimo žetonus.\nTurimi žetonai:%(bpcoinCount)."
+
+msgid "progression/chapterText"
+msgstr "%(chapter)s SKYRIUS: %(chapterName)s"
+
+msgid "progression/currentStep"
+msgstr "Dabartinis etapas"
+
+msgid "progression/currentStepLocked"
+msgstr "PAGERINTAS APDOVANOJIMAS"
+
+msgid "progression/episodeBuyBtn"
+msgstr "Pirkti etapus"
+
+msgid "progression/episodeBuyDescr"
+msgstr "Apdovanojimus gausite už kiekvieną nusipirktą etapą."
+
+msgid "progression/episodeBuyDisableDescr"
+msgstr "Jūs galite nusipirkti bet kokį etapų kiekį per %(day)"
+
+msgid "progression/error"
+msgstr "Kovinis leidimas laikinai nepasiekiamas dėl techninių priežasčių.\nVisas progresas bus išsaugotas. Atsiprašome už nepatogumus."
+
+msgid "progression/errorBtn"
+msgstr "Į garažą"
+
+msgid "progression/extraChapterWidget/commanderVoices"
+msgstr "Į kitus"
+
+msgid "progression/extraChapterWidget/forLabel"
+msgstr "Skirtas %(vehicleName)s"
+
+msgid "progression/extraChapterWidget/inHangarTooltip"
+msgstr "Garaže"
+
+msgid "progression/extraChapterWidget/labelWithBP"
+msgstr "Su Pagerintu leidimu"
+
+msgid "progression/extraChapterWidget/style3DTitle"
+msgstr "3D stilius"
+
+msgid "progression/extraChapterWidget/styleName"
+msgstr "%(styleName)s"
+
+msgid "progression/extraChapterWidget/styleRemark"
+msgstr "Su Pagerintu leidimu"
+
+msgid "progression/extraChapterWidget/styleSubTitle"
+msgstr "ir misija, skirta %(vehicleName)s"
+
+msgid "progression/extraChapterWidget/styleTitle"
+msgstr "Stilius"
+
+msgid "progression/extraChapterWidget/tank"
+msgstr "Premium mašina"
+
+msgid "progression/extraChapterWidget/tank/description/14"
+msgstr "Jau praėjo 80 metų\nnuo D dienos"
+
+msgid "progression/extraChapterWidget/tankName"
+msgstr "%(vehicleName)s"
+
+msgid "progression/extraChapterWidget/tankman"
+msgstr "Įgulos narys"
+
+msgid "progression/extraChapterWidget/timer"
+msgstr "Iki Kovinio leidimo skyriaus pabaigos likęs laikas"
+
+msgid "progression/extraChapterWidget/vehicleCaption"
+msgstr "Premium mašina"
+
+msgid "progression/extraChapterWidget/vehicleSubTitle"
+msgstr "ir 3D stilius %(styleName)s"
+
+msgid "progression/extraChapterWidget/voiceoverTooltip"
+msgstr "Paspauskite ir išklausykite įgulos nario įgarsinimo."
+
+msgid "progression/footer/starter_pack/equal"
+msgstr "="
+
+msgid "progression/footer/status/inactive"
+msgstr "Skyrius neaktyvus"
+
+msgid "progression/footer/status/paused"
+msgstr "Skyrius pristabdytas."
+
+msgid "progression/freePointsDescr"
+msgstr "Neišleisti Kovinio leidimo taškai: "
+
+msgid "progression/header/chapter/status"
+msgstr "Skyrius %(chapterName)s"
+
+msgid "progression/header/inactive"
+msgstr "neaktyvus"
+
+msgid "progression/header/paused"
+msgstr "pristabdytas"
+
+msgid "progression/howToEarnPoints/title"
+msgstr "KAIP UŽDIRBTI TAŠKŲ"
+
+msgid "progression/pausedStep"
+msgstr "Etapas"
+
+msgid "progression/postProgressionDescr"
+msgstr "ELITINĖ SEKA"
+
+msgid "progression/premiumProgressionDescr"
+msgstr "PAGERINTI APDOVANOJIMAI"
+
+msgid "progression/progressionArrow"
+msgstr "PERŽIŪRĖTI\nVISUS ETAPUS"
+
+msgid "progression/progressionChapterArrow"
+msgstr "%(chapter) SKYRIUS"
+
+msgid "progression/progressionChapterGoTo"
+msgstr "PEREITI"
+
+msgid "progression/season/end/normal"
+msgstr "%(seasonNum)s sezonas: %(seasonName)s tęsis iki %(endDate)s"
+
+msgid "progression/season/end/special"
+msgstr "Tęsis iki: %(endTime)s"
+
+msgid "progression/seasonEndingDescr"
+msgstr "Renginys baigsis po "
+
+msgid "progression/seasonEndingTooltip"
+msgstr "Iki pabaigos: {day} d."
+
+msgid "progression/takeReward"
+msgstr "Gauti apdovanojimą"
+
+msgid "progression/universalCommander"
+msgstr "Unikalus įgulos narys"
+
+msgid "progression/widget3dStyle/currentStyle"
+msgstr "Stilius %(name)"
+
+msgid "progression/widget3dStyle/forVehicle"
+msgstr "Skirtas tik "
+
+msgid "progression/widget3dStyle/titleForClosedChapter"
+msgstr "Užbaikite ankstesnį skyrių norėdami\npasirinkti stilių"
+
+msgid "progression/widget3dStyle/titleForLastChapter"
+msgstr "Pasirinkite skyriaus stilių.\nJį iš karto galėsite užsidėti"
+
+msgid "progression/widget3dStyle/titleNoChapterSelected"
+msgstr "Aktyvuokite skyrių, norėdami gauti 3D stilių"
+
+msgid "progression/widget3dStyle/viewStyles"
+msgstr "Peržiūrėti visus stilius"
+
+msgid "questChainBonus"
+msgstr "Misijų serija"
+
+msgid "randomQuestBonus"
+msgstr "Misija, skirta %(vehicle)s"
+
+msgid "reward/postBattle/comp7/progress"
+msgstr "Taškai už patekimą tarp geriausių žaidėjų pagal prestižo taškus:"
+
+msgid "reward/postBattle/comp7/progress/tooltip"
+msgstr "Taškai už patekimą tarp geriausių žaidėjų pagal uždirbtus prestižo taškus: %(points)d"
+
+msgid "reward/postBattle/progress"
+msgstr "Skyriaus progresija:"
+
+msgid "reward/postBattle/progress/battle/tooltip"
+msgstr "Už patekimą tarp geriausių žaidėjų"
+
+msgid "reward/postBattle/progress/bonus/tooltip"
+msgstr "Už pasiektą mašinos taškų limitą"
+
+msgid "reward/postBattle/progress/points"
+msgstr "Kovinis leidimas. Taškų rinkimas"
+
+msgid "reward/postBattle/progress/points/battle"
+msgstr "Už patekimą tarp geriausių žaidėjų:"
+
+msgid "reward/postBattle/progress/points/bonus"
+msgstr "Už pasiektą mašinos taškų limitą:"
+
+msgid "reward/postBattle/progress/points/quest"
+msgstr "Už misijų įvykdymą:"
+
+msgid "reward/postBattle/progress/points/wotPlusCore"
+msgstr "WoT Plus Pro bonusas:"
+
+msgid "reward/postBattle/progress/points/wotPlusPro"
+msgstr "WoT Plus Pro bonusas:"
+
+msgid "reward/postBattle/progress/pointsAux"
+msgstr "Uždirbta taškų:"
+
+msgid "reward/postBattle/progress/pointsAux/tooltip"
+msgstr "Pridėta laisvųjų taškų"
+
+msgid "reward/postBattle/progress/quests/tooltip"
+msgstr "Už misijų įvykdymą"
+
+msgid "reward/postBattle/progress/tooltip"
+msgstr "Skyriaus progresija"
+
+msgid "reward/postBattle/title"
+msgstr "Skyriaus %(chapter)s %(level)d etapas"
+
+msgid "reward/postBattle/title/free"
+msgstr "Kovinis leidimas: Laisvųjų taškų rinkimas"
+
+msgid "reward/postBattle/title/postProgression"
+msgstr "Elitinės grandinės %(level)d etapas"
+
+msgid "rewardChoice/crewBook/rewardDescription"
+msgstr "patirties kiekvienam pasirinktos %(nation)s mašinos įgulos nariui"
+
+msgid "rewardChoice/subTitle"
+msgstr "PASIRINKITE SAVO APDOVANOJIMĄ"
+
+msgid "rewardChoice/title"
+msgstr "KOVINIS LEIDIMAS"
+
+msgid "rewardChoice/titleChapter"
+msgstr "KOVINIS LEIDIMAS: SKYRIUS %(chapter)s"
+
+msgid "rewardChoice/titleChapterLevel"
+msgstr "KOVINIS LEIDIMAS: SKYRIUS %(chapter)s, %(level)s ETAPAS"
+
+msgid "season/fullName/1002"
+msgstr "Carmen de Bisonte"
+
+msgid "season/fullName/20"
+msgstr "Paieškos smėlynuose"
+
+msgid "season/fullNameUppercased/1002"
+msgstr "CARMEN DE BISONTE"
+
+msgid "season/fullNameUppercased/20"
+msgstr "PAIEŠKOS SMĖLYNUOSE"
+
+msgid "selectBonus/battle_booster_gift"
+msgstr "Pasirenkamos instrukcijos"
+
+msgid "selectBonus/blueprint_gift"
+msgstr "Brėžinių fragmentai išsirinkimui"
+
+msgid "selectBonus/brochure_gift"
+msgstr "Treniruočių lankstinukai išsirinkimui"
+
+msgid "selectBonus/crewbook_gift"
+msgstr "Treniruočių instrukcijos išsirinkimui"
+
+msgid "selectBonus/guide_gift"
+msgstr "Treniruočių gidai išsirinkimui"
+
+msgid "selectBonus/modernized_device_gift"
+msgstr "Eksperimentinė įranga išsirinkimui"
+
+msgid "selectBonus/new_device_gift"
+msgstr "Standartinė įranga išsirinkimui"
+
+msgid "selectBonus/trophy_gift"
+msgstr "Trofėjinė įranga išsirinkimui"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d."
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s val."
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min."
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min."
+
+msgid "styleProgressBonus"
+msgstr "Stiliaus %(styleName)s patobulinimas iki %(level)s lygio"
+
+msgid "styleProgression/finalLevel"
+msgstr "Maksimalus stiliaus %(styleName)s lygis"
+
+msgid "styleProgression/newLevel"
+msgstr "Naujas stiliaus %(styleName)s lygis"
+
+msgid "styleProgression/newStyle"
+msgstr "Pirmas stiliaus %(styleName)s lygis"
+
+msgid "tankmenVoiceover/chapterButton"
+msgstr "Į skyrių"
+
+msgid "tankmenVoiceover/inShop"
+msgstr "Specialiame rinkinyje"
+
+msgid "tankmenVoiceover/listen"
+msgstr "Paklausyti"
+
+msgid "tankmenVoiceover/notFull"
+msgstr "Galima %(availableCount)s iš %(count)s"
+
+msgid "tankmenVoiceover/progression"
+msgstr "%(progressionLevel)s-ame sekos etape"
+
+msgid "tankmenVoiceover/received"
+msgstr "Gauta"
+
+msgid "tankmenVoiceover/shopButton"
+msgstr "Į parduotuvę"
+
+msgid "tankmenVoiceover/title"
+msgstr "UNIKALŪS ĮGULOS NARIAI"
+
+msgid "tankmenVoiceover/unavailable"
+msgstr "Nepasiekiama"
+
+msgid "title/earningPoints"
+msgstr "Taškų rinkimas"
+
+msgid "title/freePoints"
+msgstr "Laisvieji taškai"
+
+msgid "title/stage"
+msgstr "Etapas {{level}}"
+
+msgid "tooltip/cardButton/disabled/body"
+msgstr "Veiksmas dabar negalimas. Pabandykite vėliau."
+
+msgid "tooltip/freePoints/body"
+msgstr "Laisvieji taškai renkami automatiškai ir suteikiami jums iš karto aktyvavus naują Kovinio leidimo skyrių."
+
+msgid "tooltip/freePoints/header"
+msgstr "Laisvieji taškai"
+
+msgid "tooltip/lock"
+msgstr "Apdovanojimai nepasiekiami. Juos gausite nusipirkę Pagerintą leidimą."
+
+msgid "tooltips/RandomQuestTooltip/condition"
+msgstr "Sąlyga: %(condition)"
+
+msgid "tooltips/RandomQuestTooltip/expireTime"
+msgstr "Misija pasiekiama %(whiteSpanish_Open)siki %(month)s %(day)s%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/consumables"
+msgstr "%(whiteSpanish_Open)sEkipuotė:%(whiteSpanish_Close)s vaistinėlės, remonto komplektai ir gesintuvai"
+
+msgid "tooltips/RandomQuestTooltip/rewards/directives"
+msgstr "%(whiteSpanish_Open)sInstrukcijos%(whiteSpanish_Close)s įrangai"
+
+msgid "tooltips/RandomQuestTooltip/rewards/money"
+msgstr "%(whiteSpanish_Open)sKreditai, bonai ir laisvoji patirtis%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/personal_reserves"
+msgstr "%(whiteSpanish_Open)sAsmeninis rezervas%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/premium"
+msgstr "%(whiteSpanish_Open)sWoT Premium paskyros dienos%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/standardEquipment"
+msgstr "%(whiteSpanish_Open)sStandartinė įranga%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewardsTitle"
+msgstr "Kas dieną įvykdę misiją galite gauti vieną iš šių prizų:"
+
+msgid "tooltips/RandomQuestTooltip/title"
+msgstr "Misija, skirta %(vehicleName)"
+
+msgid "tooltips/battlePassCoins/secondaryText"
+msgstr "Žetonai bus suteikiami visus metus trijuose Kovinio leidimo sezonuose. Naudokite žetonus protingai."
+
+msgid "tooltips/battlePassCoins/text"
+msgstr "Vertinga žaidimo valiuta, suteikiama įvykdžius Kovinio leidimo etapus. Žetonus galima iškeisti į specialius prizus parduotuvės skyriuje Prekės už žetonus."
+
+msgid "tooltips/battlePassCoins/title"
+msgstr "Kovinio leidimo žetonas"
+
+msgid "tooltips/battlePassPoints/completed"
+msgstr "Visi Kovinio leidimo skyriai ir sekos etapai baigti."
+
+msgid "tooltips/battlePassPoints/description"
+msgstr "Automatiškai pridedami į Kovinio leidimo seką."
+
+msgid "tooltips/battlePassPoints/title"
+msgstr "Kovinio leidimo taškai"
+
+msgid "tooltips/battlePassQuestsChain/secondaryText"
+msgstr "Misijas galima įvykdyti Atsitiktiniuose ir Didžiuosiuose mūšiuose."
+
+msgid "tooltips/battlePassQuestsChain/text"
+msgstr "Atrakina misijų serijas, kurias įvykdę gausite papildomų žaidimo dalykų: "
+
+msgid "tooltips/battlePassQuestsChain/title"
+msgstr "Prieiga prie misijų serijų"
+
+msgid "tooltips/battlePassTaler/secondaryText"
+msgstr "Uždirbkite žetonų vykdydami Kovinio leidimo seką"
+
+msgid "tooltips/battlePassTaler/text"
+msgstr "Už žetonus galite nusipirkti ankstesnių sezonų pritaikomuosius elementus, įgulos narius, ekonominius resursus ir daugiau Kovinio leidimo saugykloje."
+
+msgid "tooltips/battlePassTaler/title"
+msgstr "Žetonai"
+
+msgid "tooltips/claimRewards/0"
+msgstr "Gauti Baziniai apdovanojimai"
+
+msgid "tooltips/claimRewards/1"
+msgstr "Pasirinkite apdovanojimus už įveiktą etapą"
+
+msgid "tooltips/claimRewards/multiple"
+msgstr "Pasirinkite apdovanojimus už įveiktus etapus"
+
+msgid "tooltips/commanders/chose"
+msgstr "ARBA"
+
+msgid "tooltips/commanders/descr"
+msgstr "Užbaikite paskutinį etapą ir gaukite vieną iš unikalių įgulos narių kaip apdovanojimą."
+
+msgid "tooltips/commanders/title"
+msgstr "Vienas iš dviejų įgulos narių"
+
+msgid "tooltips/completed/claimRewards"
+msgstr "Gauti visi apdovanojimai"
+
+msgid "tooltips/completed/finalLevel"
+msgstr "Visi skyriai ir sekos etapai baigti"
+
+msgid "tooltips/completed/got"
+msgstr "Apdovanojimas gautas"
+
+msgid "tooltips/completed/message"
+msgstr "Dabar galite išleisti sukauptus Kovinio leidimo taškus žaidimo parduotuvės skiltyje Prekės už taškus."
+
+msgid "tooltips/completed/oneChapterSubTitle"
+msgstr "SKYRIUS UŽBAIGTAS"
+
+msgid "tooltips/completed/rewardsObtained"
+msgstr "Gauti Baziniai apdovanojimai"
+
+msgid "tooltips/completed/subTitle"
+msgstr "VISI SKYRIAI UŽBAIGTI"
+
+msgid "tooltips/completed/tankmenNotRecieved"
+msgstr "Rinkiniai su unikaliais įgulos nariais laukia parduotuvėje."
+
+msgid "tooltips/completed/title"
+msgstr "Kovinis leidimas"
+
+msgid "tooltips/entryPoint/disabled/body"
+msgstr "Kovinis leidimas laikinai nepasiekiamas dėl techninių priežasčių.\nVisas progresas bus išsaugotas. Atsiprašome už nepatogumus."
+
+msgid "tooltips/entryPoint/disabled/header"
+msgstr "Kovinis leidimas laikinai nepasiekiamas"
+
+msgid "tooltips/entryPoint/disabled/mapbox"
+msgstr "Kovinis leidimas laikinai nepasiekiamas Žvalgybinėje misijoje dėl techninių priežasčių.\nVisas progresas bus išsaugotas. Atsiprašome už nepatogumus."
+
+msgid "tooltips/extra/daysAndHours"
+msgstr "%(D)s d. %(H)s val."
+
+msgid "tooltips/extra/min"
+msgstr "%(m)s min."
+
+msgid "tooltips/footerBuyBtn/activateChapter/descr"
+msgstr "Jūs gausite Kovinio leidimo taškus ir kitus prizus už aktyvaus skyriaus užbaigimą."
+
+msgid "tooltips/footerBuyBtn/battlePass/descr"
+msgstr "Jūs galite nusipirkti Pagerintą leidimą bet kuriuo metu. Jis akimirksniu suteiks visus dabartinio skyriaus Pagerintus apdovanojimus už jau įveiktus etapus. Jūs gausite tiek Bazinius, tiek ir Pagerintus apdovanojimus už visus etapus, kuriuos įveiksite šiame skyriuje."
+
+msgid "tooltips/footerBuyBtn/battlePass/nextChapter"
+msgstr "Užbaikite ankstesnį skyrių, norėdami nusipirkti etapus šiame skyriuje."
+
+msgid "tooltips/footerBuyBtn/episode/descr"
+msgstr "Nusipirkę etapus, jūs iš karto gausite šių etapų Bazinius ir Pagerintus apdovanojimus. Etapai perkami atskirai kiekviename skyriuje."
+
+msgid "tooltips/footerBuyBtn/episode/holidayDescr"
+msgstr "Nusipirkę etapus jūs akimirksniu gausite jų Bazinius ir Pagerintus apdovanojimus."
+
+msgid "tooltips/goldMission/description"
+msgstr "%(highlight)s Už praleistas dienas aukso negausite."
+
+msgid "tooltips/goldMission/highlightedDescription"
+msgstr "Dėmesio:"
+
+msgid "tooltips/goldMission/text"
+msgstr "%(duration)s jūs galite uždirbti po %(count)s %(icon)s aukso kiekvieną dieną sužaisdami Atsitiktinį mūšį."
+
+msgid "tooltips/goldMission/textDuration"
+msgstr "%(days)s dienų"
+
+msgid "tooltips/goldMission/title"
+msgstr "Kasdienis auksas"
+
+msgid "tooltips/iconLock/descr1"
+msgstr "Jūs gausite daugiau apdovanojimų jeigu nusipirksite Pagerintą leidimą. Jis perkamas atskirai kiekviename skyriuje ir galioja tik jame. Su Pagerintu leidimu jūs gausite tiek Bazinius, tiek ir Pagerintus apdovanojimus už kiekvieną pasiektą etapą."
+
+msgid "tooltips/iconLock/descr2"
+msgstr "Jūs galite nusipirkti Pagerintą leidimą bet kuriuo metu. Jis akimirksniu suteiks visus Pagerintus apdovanojimus už jau įvykdytus etapus tame skyriuje, kuriame jį nusipirkote. Jūs galite pagerinti savo apdovanojimus Kovinio leidimo pagrindiniame lange paspaudę mygtuką \"Pirkti Pagerintą leidimą\"."
+
+msgid "tooltips/iconLock/holidayDescr1"
+msgstr "Jūs galite padidinti etapų apdovanojimų sąrašą nusipirkę Pagerintą leidimą. Įsigiję Pagerintą leidimą gausite ir Bazinius, ir Pagerintus apdovanojimus už kiekvieną įvykdomą etapą."
+
+msgid "tooltips/iconLock/holidayDescr2"
+msgstr "Jūs galite nusipirkti Pagerintą leidimą bet kuriuo metu. Jis akimirksniu suteiks visus Pagerintus apdovanojimus už jau įvykdytus etapus. Jūs galite pagerinti savo apdovanojimus Kovinio leidimo pagrindiniame lange paspaudę mygtuką \"Pirkti Pagerintą leidimą\"."
+
+msgid "tooltips/iconLock/title"
+msgstr "Pagerintas Kovinio leidimo apdovanojimas"
+
+msgid "tooltips/inProgress/baseReward"
+msgstr "Bazinis apdovanojimas"
+
+msgid "tooltips/inProgress/battleRoyale"
+msgstr "\"Plieninis medžiotojas\""
+
+msgid "tooltips/inProgress/chapter"
+msgstr "Skyrius \"%(name)\""
+
+msgid "tooltips/inProgress/epic"
+msgstr "Fronto linija"
+
+msgid "tooltips/inProgress/getPointsFrom"
+msgstr "Taškų rinkimo taisyklės režime %(battleType)s."
+
+msgid "tooltips/inProgress/hurryUp"
+msgstr "Nusipirkite Pagerintą leidimą ir gaukite visus Pagerintus apdovanojimus už įvykdytus etapus!"
+
+msgid "tooltips/inProgress/improvedReward"
+msgstr "Pagerintas apdovanojimas"
+
+msgid "tooltips/inProgress/level"
+msgstr "Dabartinis etapas"
+
+msgid "tooltips/inProgress/playGame/comp7"
+msgstr "Taškų rinkimo su X lygio mašinomis taisyklės %(bond_Open)sPrasiveržime%(bond_Close)s."
+
+msgid "tooltips/inProgress/playGame/comp7_light"
+msgstr "Taškų su VIII lygio mašinomis rinkimo taisyklės %(bond_Open)sPrasiveržimo šviesoje%(bond_Close)s."
+
+msgid "tooltips/inProgress/playGame/mapbox"
+msgstr "Kovinio leidimo taškų rinkimo %(bond_Open)sŽvalgybinėje misijoje%(bond_Close)s su VIII–X lygio mašinomis taisyklės."
+
+msgid "tooltips/inProgress/playGame/randoms"
+msgstr "Taškų rinkimo taisyklės %(bond_Open)sAtsitiktiniuose mūšiuose%(bond_Close)s su IV–XI lygio mašinomis."
+
+msgid "tooltips/inProgress/playGame/ranked"
+msgstr "Taškų rinkimo taisyklės su X lygio mašinomis Reitinguojamuose mūšiuose."
+
+msgid "tooltips/inProgress/playGame/winback"
+msgstr "Taškų rinkimo taisyklės %(bond_Open)sAtsitiktiniuose mūšiuose: Apšilime%(bond_Close)s su IV–XI lygio mašinomis."
+
+msgid "tooltips/inProgress/postProgression/header"
+msgstr "Elitinė grandinė"
+
+msgid "tooltips/inProgress/timeLeft"
+msgstr "Koviniam leidimui liko"
+
+msgid "tooltips/inProgress/wotPlusProFooter"
+msgstr "Uždarbis su WoT Plus Pro"
+
+msgid "tooltips/notChosen/description"
+msgstr "Jums reikia pasirinkti skyrių, norint kilti toliau sekoje ir gauti vertingus prizus."
+
+msgid "tooltips/notChosen/points"
+msgstr "Neišleisti Kovinio leidimo taškai: %(points)"
+
+msgid "tooltips/notChosen/subTitle"
+msgstr "PASIRINKITE SKYRIŲ"
+
+msgid "tooltips/notChosen/title"
+msgstr "Kovinis leidimas"
+
+msgid "tooltips/notStarted/date"
+msgstr "%(month)s %(day)s"
+
+msgid "tooltips/plusBanner/text"
+msgstr "{{@ style (color $color1)}}Kovinis leidimas Plus:{{/}} Pasiekiamas su {{@ style (color $color2)}}WoT Plus Pro{{/}}. Uždirbkite daugiau Kovinio leidimo taškų (išskyrus specialiuose skyriuose)."
+
+msgid "tooltips/points/footer"
+msgstr "Jūs galite sužinoti daugiau apie taškų rinkimo taisykles skirtinguose žaidimo režimuose pasirinkę meniu punktą Kaip uždirbti taškus."
+
+msgid "tooltips/points/rules"
+msgstr "Jūs gaunate taškus Atsitiktiniuose mūšiuose taip:"
+
+msgid "tooltips/points/specialVehicles"
+msgstr "Sezono pagrindinės mašinos gauna daugiau taškų:"
+
+msgid "tooltips/points/subtitle"
+msgstr "Kovinio leidimo taškai leidžia keliauti tolyn sekoje. Jūs galite uždirbti taškus kovodami su IV–XI lygio mašinomis Atsitiktiniuose mūšiuose ir kituose žaidimo režimuose, vykdydami specialias misijas ar pasiekdami mašinos taškų limitą."
+
+msgid "tooltips/points/title"
+msgstr "Kovinio leidimo taškai"
+
+msgid "tooltips/pointsTable/header"
+msgstr "Gavimo sąlygos"
+
+msgid "tooltips/pointsTable/lose"
+msgstr "Pralaimėjimas ir lygiosios"
+
+msgid "tooltips/pointsTable/loseWithoutDraw"
+msgstr "Pralaimėjimas"
+
+msgid "tooltips/pointsTable/place"
+msgstr "%(place) vieta"
+
+msgid "tooltips/pointsTable/places"
+msgstr "%(place) vietos"
+
+msgid "tooltips/pointsTable/solo"
+msgstr "Solo"
+
+msgid "tooltips/pointsTable/squad"
+msgstr "Būrys"
+
+msgid "tooltips/pointsTable/topPlace"
+msgstr "Top %(place) pagal uždirbtą patirtį"
+
+msgid "tooltips/pointsTable/win"
+msgstr "Pergalė"
+
+msgid "tooltips/postProgress/body"
+msgstr "Elitinė seka prasideda užbaigus Pagrindinės sekos %(maxLevelBase) etapą. ji suteikia progą uždirbti vertingos žaidimo valiutos. Elitinei sekai nereikia turėti Pagerinto leidimo."
+
+msgid "tooltips/postProgress/header"
+msgstr "Elitinė seka"
+
+msgid "tooltips/prestigePoints/lose"
+msgstr "Pralaimėjimas ir lygiosios"
+
+msgid "tooltips/prestigePoints/loseWithoutDraw"
+msgstr "Pralaimėjimas"
+
+msgid "tooltips/prestigePoints/topPlace"
+msgstr "Top %(place) pagal Prestižo taškus"
+
+msgid "tooltips/prestigePoints/win"
+msgstr "Pergalė"
+
+msgid "tooltips/progression/freePoints/body"
+msgstr "Jeigu nepasirinkote jokio skyriaus, jus kaupsite nepanaudotus taškus, kuriuos vėliau galėsite panaudoti bet kuriame aktyvuotame skyriuje nesibaigus Kovinio leidimo sezonui. Vėliau visi taškai bus pašalinti."
+
+msgid "tooltips/progression/freePoints/bodyExceptExtra"
+msgstr "Jeigu nepasirinkote jokio skyriaus, jus kaupsite nepanaudotus taškus, kuriuos vėliau galėsite panaudoti bet kuriame aktyvuotame skyriuje (išskyrus papildomą skyrių) nesibaigus Kovinio leidimo sezonui. Vėliau visi taškai bus pašalinti."
+
+msgid "tooltips/progression/freePoints/header"
+msgstr "Neišleisti Kovinio leidimo taškai"
+
+msgid "tooltips/rewardCompensation/description/credits"
+msgstr "Pagrindinė žaidimo valiuta.\nUždirbama mūšiuose arba perkama už auksą."
+
+msgid "tooltips/rewardCompensation/description/gold"
+msgstr "Vertinga žaidimo valiuta. Naudojama perkant WoT Premium paskyrą, techniką, konvertuojant patirtį ir panašiai."
+
+msgid "tooltips/rewardCompensation/footer"
+msgstr "Kompensacija už daiktus, kuriuos jau turite."
+
+msgid "tooltips/styleUpgrade/chosen/levelWord"
+msgstr "lygio"
+
+msgid "tooltips/styleUpgrade/chosen/subtitle"
+msgstr "Tinka mašinoms"
+
+msgid "tooltips/styleUpgrade/chosen/text"
+msgstr "Patobulina skyriaus stilių iki %(level) %(levelWord)"
+
+msgid "tooltips/styleUpgrade/chosen/title"
+msgstr "Stiliaus %(styleName) patobulinimas"
+
+msgid "tooltips/styleUpgrade/notChosen/text"
+msgstr "Norėdami pasirinkti stilių, paspauskite mygtuką Pasirinkti stilių Kovinio leidimo skyriaus pradžioje."
+
+msgid "tooltips/styleUpgrade/notChosen/title"
+msgstr "Skyriaus progresinio stiliaus tobulinimas"
+
+msgid "tooltips/styleUpgrade/notChosen/warning"
+msgstr "Skyriaus stilius nepasirinktas."
+
+msgid "tooltips/styleUpgrade/paragraphBottom"
+msgstr "Jeigu jūs Kovinio leidimo metu negalite patobulinti stiliaus iki maksimalaus lygio, jūs galėsite jį patobulinti Išvaizdos lange garaže, pasibaigus dabartiniam sezonui."
+
+msgid "tooltips/styleUpgrade/paragraphTop"
+msgstr "Pasirinktas skyriaus stilius bus automatiškai pakeltas vienu lygiu užbaigus šį etapą."
+
+msgid "tooltips/styles/descr"
+msgstr "Įvykdę paskutinį etapą galėsite pasirinkti vieną iš prizinių stilių."
+
+msgid "tooltips/styles/footer"
+msgstr "Nusipirkę Pagerintą leidimą ir pasirinkę finalinį apdovanojimą gausite abu stilius."
+
+msgid "tooltips/styles/name"
+msgstr "Tinka %(name)"
+
+msgid "tooltips/styles/style"
+msgstr "Stilius %(name)"
+
+msgid "tooltips/styles/title"
+msgstr "Vienas iš dviejų 3D stilių"
+
+msgid "tooltips/unlockBattlePass"
+msgstr "Nusipirkite Pagerintą leidimą ir atrakinsite Pagerintų apdovanojimų takelį."
+
+msgid "tooltips/unlockBattlePassForPostProgression"
+msgstr "Nusipirkite Pagerintą leidimą iš kiekvieno skyriaus ir gaukite daugiau."
+
+msgid "tooltips/vehiclePoints/award"
+msgstr "Apdovanojimas už pasiektą taškų limitą"
+
+msgid "tooltips/vehiclePoints/comp7"
+msgstr "Kovokite Prasiveržimo mūšiuose, rinkite taškus už efektyvų žaidimą, vykdykite Kovinio leidimo sekos etapus ir gaukite prizus."
+
+msgid "tooltips/vehiclePoints/comp7_light"
+msgstr "Rinkite taškus už efektyvius veiksmus Prasiveržimo šviesos mūšiuose, norėdami progresuoti Koviniame leidime ir gauti apdovanojimų."
+
+msgid "tooltips/vehiclePoints/continuePlaying"
+msgstr "Kovokite su kitomis mašinomis norėdami toliau vykdyti etapus."
+
+msgid "tooltips/vehiclePoints/descr"
+msgstr "Kovokite Atsitiktiniuose mūšiuose, rinkite taškus už efektyvų žaidimą, vykdykite Kovinio leidimo sekos etapus ir gaukite prizus."
+
+msgid "tooltips/vehiclePoints/mapbox"
+msgstr "Kovokite Žvalgybinėje misijoje, rinkite taškus už efektyvų žaidimą, vykdykite Kovinio leidimo sekos etapus ir gaukite prizus."
+
+msgid "tooltips/vehiclePoints/pointsObtained"
+msgstr "Pasiektas taškų limitas"
+
+msgid "tooltips/vehiclePoints/ranked"
+msgstr "Kovokite Reitinguojamuose mūšiuose, rinkite taškus už efektyvų žaidimą, vykdykite Kovinio leidimo sekos etapus ir gaukite prizus."
+
+msgid "tooltips/vehiclePoints/special/descr"
+msgstr "Dalyvaudami kovose su pagrindinėmis mašinomis uždirbsite daugiau sekos taškų."
+
+msgid "tooltips/vehiclePoints/title"
+msgstr "Kovinio leidimo taškai"
+
+msgid "trophyDeviceUpgradeConfim/cancel"
+msgstr "Atšaukti"
+
+msgid "trophyDeviceUpgradeConfim/message"
+msgstr "Charakteristikos pasikeis:"
+
+msgid "trophyDeviceUpgradeConfim/submit"
+msgstr "Tobulinimas"
+
+msgid "trophyDeviceUpgradeConfim/submitTooltip"
+msgstr "Trūksta kreditų tobulinimui"
+
+msgid "trophyDeviceUpgradeConfim/title"
+msgstr "Patobulinti įrangą\n{deviceName}?"
+
+msgid "trophyDeviceUpgradeConfim/title/template"
+msgstr "{deviceName}"
+
+msgid "universalTankmanBonus"
+msgstr "Universalus įgulos narys: %(name)s"

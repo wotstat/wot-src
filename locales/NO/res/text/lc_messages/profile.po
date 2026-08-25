@@ -1,0 +1,1712 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "profile/dropdown/battlesType"
+msgstr "Kampmodus:"
+
+msgid "profile/dropdown/existence"
+msgstr "Tilgjengelig:"
+
+msgid "profile/dropdown/labels/all"
+msgstr "Tilfeldig, kompanikamp"
+
+msgid "profile/dropdown/labels/battleRoyaleSolo"
+msgstr "Steel Hunter, solo"
+
+msgid "profile/dropdown/labels/battleRoyaleSquad"
+msgstr "Steel Hunter, tropp"
+
+msgid "profile/dropdown/labels/clan"
+msgstr "Globalt kart"
+
+msgid "profile/dropdown/labels/comp7"
+msgstr "Onslaught"
+
+msgid "profile/dropdown/labels/comp7_archive_Griffin"
+msgstr "Year of the Griffin"
+
+msgid "profile/dropdown/labels/comp7_archive_Manticore"
+msgstr "Year of the Manticore"
+
+msgid "profile/dropdown/labels/comp7_archive_Pegasus"
+msgstr "Year of the Pegasus"
+
+msgid "profile/dropdown/labels/comp7_season_1"
+msgstr "Season of the Azure Dragon"
+
+msgid "profile/dropdown/labels/comp7_season_2"
+msgstr "Season of the Crimson Dragon"
+
+msgid "profile/dropdown/labels/comp7_season_3"
+msgstr "Season of the Jade Dragon"
+
+msgid "profile/dropdown/labels/epicRandom"
+msgstr "Storkamp"
+
+msgid "profile/dropdown/labels/fallout"
+msgstr "Ødeleggelse"
+
+msgid "profile/dropdown/labels/fortifications"
+msgstr "Forsvarsverk: Kamper"
+
+msgid "profile/dropdown/labels/fortifications/battles"
+msgstr "Fremrykking"
+
+msgid "profile/dropdown/labels/fortifications/sorties"
+msgstr "Trefninger"
+
+msgid "profile/dropdown/labels/historical"
+msgstr "Historisk"
+
+msgid "profile/dropdown/labels/random"
+msgstr "Tilfeldig kamp"
+
+msgid "profile/dropdown/labels/ranked"
+msgstr "Rangert kamp 15 mot 15"
+
+msgid "profile/dropdown/labels/ranked_10x10"
+msgstr "Rangert kamp"
+
+msgid "profile/dropdown/labels/staticTeam"
+msgstr "Kamp: Rangert"
+
+msgid "profile/dropdown/labels/staticTeam/season"
+msgstr "Lag: Rangerte kamper"
+
+msgid "profile/dropdown/labels/team"
+msgstr "Lag: Urangerte kamper"
+
+msgid "profile/params/tooltip/achievementsCount/body"
+msgstr "Utmerkelser mottatt i Battlefield-kategorien"
+
+msgid "profile/params/tooltip/achievementsCount/header"
+msgstr "Merker"
+
+msgid "profile/params/tooltip/armorUsing/body"
+msgstr "Grad av skade blokkert av pansring, ikke-penetrerende treff, rikosjetter fra AP, HEAT og APCR granater i forhold til skaden mottatt fra disse typene granater. Potensiell skade fra HE og HESH granater teller ikke med.\n• Gjennomsnittlig blokkert skade av pansring mot disse typene granater: %(value_0)s"
+
+msgid "profile/params/tooltip/armorUsing/header"
+msgstr "Pansringseffekt"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/body"
+msgstr "Total mengde skade påført et sjokket fiendtlig kjøretøy"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/header"
+msgstr "Skade på fiendtlige kjøretøy sjokket av spiller"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/body"
+msgstr "Total mengde skade påført et sjokket fiendtlig kjøretøy"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/header"
+msgstr "Skade på fiendtlige kjøretøy sjokket av deg"
+
+msgid "profile/params/tooltip/avgAssistedDamage/body"
+msgstr "Inkludert:\n• Skade etter din oppdagelse\n• Skade etter at du har ødelagt et belte og immobilisert det fiendtlige kjøretøyet."
+
+msgid "profile/params/tooltip/avgAssistedDamage/header"
+msgstr "Gjennomsnittlig skade etterfulgt av din assistanse"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/body"
+msgstr "Inkludert:\n• Skade etter spillers oppdagelse\n• Skade etter at du har ødelagt et belte og immobilisert det fiendtlige kjøretøyet."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/header"
+msgstr "Skade forårsaket med spillers assistanse"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/body"
+msgstr "Inkludert:\n• Skade etter din oppdagelse\n• Skade etter at du har ødelagt et belte og immobilisert det fiendtlige kjøretøyet."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/body"
+msgstr "Inkluderer:\n• Skade etter din oppdagelse (inkludert skade ved hjelp av ferdigheter)\n• Skade etter din ødeleggelse av et belte og immobilisering av et fiendtlig kjøretøy (inkludert skade ved hjelp av ferdigheter)\n• Skade forårsaket av allierte ved hjelp av dine ferdigheter."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/header"
+msgstr "Skade forårsaket med din assistanse"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/header"
+msgstr "Skade forårsaket med din assistanse"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/body"
+msgstr "Raten mellom den totale skaden forårsaket på en sjokket fiende (inkludert sjokk ved hjelp av ferdigheter) og antallet spilte kamper"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/header"
+msgstr "Skade på fiendtlige kjøretøy sjokket av spiller"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/body"
+msgstr "Raten mellom den totale skaden forårsaket på en sjokket fiende (inkludert sjokk ved hjelp av ferdigheter) og antallet spilte kamper"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/header"
+msgstr "Skade på fiendtlige kjøretøy sjokket av deg"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/body"
+msgstr "Forholdet mellom mengde skade påført sjokkede fiendtlige kjøretøy og antall kamper kjempet"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/header"
+msgstr "Skade på fiendtlige kjøretøy sjokket av spiller"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/body"
+msgstr "Forholdet mellom mengde skade påført sjokkede fiendtlige kjøretøy og antall kamper kjempet"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/header"
+msgstr "Skade på fiendtlige kjøretøy sjokket av deg"
+
+msgid "profile/params/tooltip/avgDamage/body"
+msgstr "Forholdet mellom den totale skaden påført fiender og antall kamper kjempet"
+
+msgid "profile/params/tooltip/avgDamage/header"
+msgstr "Gj.snittlig skade per kamp"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/body"
+msgstr "Antall fiendtlige kjøretøy bekjempet i forhold til antall kamper spilt"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/body"
+msgstr "Raten mellom det totale antallet bekjempede fiendtlige kjøretøy (inkludert kjøretøy som er bekjempet ved hjelp av ferdigheter) og antall spilte kamper"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/header"
+msgstr "Fiendtlige kjøretøy bekjempet"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/header"
+msgstr "Fiendtlige kjøretøy bekjempet"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/body"
+msgstr "Antall fiendtlige kjøretøy oppdaget i forhold til antall kamper spilt"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/body"
+msgstr "Raten mellom det totale antallet oppdagede fiendtlige kjøretøy (inkludert kjøretøy oppdaget ved hjelp av ferdigheter) og antallet spilte kamper"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/header"
+msgstr "Fiendtlige kjøretøy oppdaget"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/header"
+msgstr "Fiendekjøretøy oppdaget"
+
+msgid "profile/params/tooltip/avgDmg/short/body"
+msgstr "Forholdet mellom den totale skaden påført fiender og antall kamper kjempet"
+
+msgid "profile/params/tooltip/avgDmg/short/header"
+msgstr "Skade forårsaket"
+
+msgid "profile/params/tooltip/avgEx/short/body"
+msgstr "Forholdet mellom totalt inntjente erfaringspoeng og antall kamper kjempet"
+
+msgid "profile/params/tooltip/avgEx/short/header"
+msgstr "Erfaring"
+
+msgid "profile/params/tooltip/avgExp/body"
+msgstr "Forholdet mellom totalt inntjente erfaringspoeng og antall kamper kjempet"
+
+msgid "profile/params/tooltip/avgExp/header"
+msgstr "Gj.snittlig erfaring pr. kamp"
+
+msgid "profile/params/tooltip/avgHealthRepair/body"
+msgstr "Raten mellom det totale antallet gjenopprettede helsepoeng og antallet spilte kamper"
+
+msgid "profile/params/tooltip/avgHealthRepair/header"
+msgstr "Gjenopprettede helsepoeng"
+
+msgid "profile/params/tooltip/avgPoiCaptured/body"
+msgstr "Raten mellom antall erobrede interessepunkter og antall spilte kamper"
+
+msgid "profile/params/tooltip/avgPoiCaptured/header"
+msgstr "Erobrede interessepunkter"
+
+msgid "profile/params/tooltip/avgPrestigePoints/body"
+msgstr "Raten mellom det totale antallet tjente prestisjepoeng og antall spilte kamper"
+
+msgid "profile/params/tooltip/avgPrestigePoints/header"
+msgstr "Gjennomsnittlig antall prestisjepoeng per kamp"
+
+msgid "profile/params/tooltip/avgReceivedDamage/body"
+msgstr "Mengde skade mottatt i forhold til antall kamper spilt"
+
+msgid "profile/params/tooltip/avgReceivedDamage/header"
+msgstr "Skade mottatt"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/body"
+msgstr "Raten mellom det totale antallet benyttede rolleferdigheter og antall spilte kamper"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/header"
+msgstr "Rolleferdigheter benyttet"
+
+msgid "profile/params/tooltip/avgStunNumber/body"
+msgstr "Forholdet mellom antall treff som sjokket fiendens besetninger og antall kamper kjempet"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/body"
+msgstr "Raten mellom det totale antall treff (inkludert treff ved hjelp av ferdigheter) med sjokk på fiendtlig besetning og antallet spilte kamper"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/header"
+msgstr "Antall sjokk"
+
+msgid "profile/params/tooltip/avgStunNumber/header"
+msgstr "Antall sjokk"
+
+msgid "profile/params/tooltip/avgVictoryPoints/body"
+msgstr "Grad av totalt antall seierspoeng tjent i forhold til antall kamper kjempet"
+
+msgid "profile/params/tooltip/avgVictoryPoints/header"
+msgstr "Gj.snittlig antall seierspoeng"
+
+msgid "profile/params/tooltip/battlesCount/body"
+msgstr "Det totale antallet kamper kjempet, inkludert:\n• Seiere: %(value_0)s\n• Tap: %(value_1)s\n• Uavgjort: %(value_2)s"
+
+msgid "profile/params/tooltip/battlesCount/header"
+msgstr "Kamper"
+
+msgid "profile/params/tooltip/brAverageLevel/body"
+msgstr "Raten for summen av alle nådde nivåer i forhold til antall kamper utkjempet."
+
+msgid "profile/params/tooltip/brAverageLevel/header"
+msgstr "Gjennomsnittlig nivå"
+
+msgid "profile/params/tooltip/brAverageRank/body"
+msgstr "Raten for summen av alle resultatrangeringene i forhold til antall kamper utkjempet."
+
+msgid "profile/params/tooltip/brAverageRank/header"
+msgstr "Gjennomsnittlig oppnådd plass"
+
+msgid "profile/params/tooltip/brAvgDamage/body"
+msgstr "Raten for total skade forårsaket i forhold til antall kamper kjempet."
+
+msgid "profile/params/tooltip/brAvgDamage/header"
+msgstr "Forårsaket skade"
+
+msgid "profile/params/tooltip/brBattlesCount/body"
+msgstr "Det totale antallet kamper kjempet."
+
+msgid "profile/params/tooltip/brBattlesCount/header"
+msgstr "Kamper"
+
+msgid "profile/params/tooltip/brMaxDamage/body"
+msgstr "Den maksimale mengden skade påført fiendtlige kjøretøy i en kamp.\nRekord oppnådd med %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxDamage/header"
+msgstr "Maksimal skade i kamp"
+
+msgid "profile/params/tooltip/brMaxExp/body"
+msgstr "Den maksimale mengden erfaring tjent i en kamp med WoT premium konto.\nRekord oppnådd med %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxExp/header"
+msgstr "Maksimal erfaring i kamp"
+
+msgid "profile/params/tooltip/brMaxFrags/body"
+msgstr "Maksimalt antall fiendtlige kjøretøy personlig bekjempet i en kamp.\nRekord oppnådd med %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxFrags/header"
+msgstr "Maksimalt antall bekjempet i kamp"
+
+msgid "profile/params/tooltip/brWins/body"
+msgstr "Det totale antallet seiere"
+
+msgid "profile/params/tooltip/brWins/header"
+msgstr "Seiere"
+
+msgid "profile/params/tooltip/capturePoints/body"
+msgstr "Antall poeng tjent for okkupasjon av fiendens base"
+
+msgid "profile/params/tooltip/capturePoints/header"
+msgstr "Baseokkupasjonspoeng"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/body"
+msgstr "Rate for \"Skade forårsaket\" i forhold til \"Skade mottatt\" for alle kampnivåene når vi ser at:\n• Skade forårsaket: %(value_0)s\n• Skade mottatt: %(value_1)s"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/header"
+msgstr "Gjennomsnittlig skaderate"
+
+msgid "profile/params/tooltip/damageCoeff/body"
+msgstr "Forholdet mellom \"Skade påført\" og \"Skade mottatt\" når man ser at:\n• Skade påført: %(value_0)s\n• Skade mottatt: %(value_1)s"
+
+msgid "profile/params/tooltip/damageCoeff/header"
+msgstr "Skaderate"
+
+msgid "profile/params/tooltip/destroyCoeff/body"
+msgstr "Forholdet mellom bekjempede kjøretøy og antall ganger spilleren selv ble bekjempet, når man ser at:\n• Fiendtlige kjøretøy bekjempet: %(value_0)s\n• Spillerens kjøretøy bekjempet: %(value_1)s"
+
+msgid "profile/params/tooltip/destroyCoeff/header"
+msgstr "Bekjempelsesrate"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/body"
+msgstr "Grad av blokkert skade i forhold til skade mottatt fra ikke-penetrerende treff og rikosjetter fra AP, HEAT og APCR granater. Skade fra kampreserver, HE og HESH granater teller ikke med. \n• Gj.snittlig skade blokkert av pansring fra disse typene granater: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/header"
+msgstr "Pansringseffekt"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/body"
+msgstr "Grad av total skade forårsaket (inkludert kampreserver) i forhold til antall kamper kjempet."
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/header"
+msgstr "Gj.snittlig skade per kamp"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body"
+msgstr "Grad av totalt antall fiendtlige kjøretøy bekjempet (inkludert kampreserver) i forhold til antall kamper kjempet"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header"
+msgstr "Fiendtlige kjøretøy bekjempet"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body"
+msgstr "Grad av totalt antall fiendtlige kjøretøy bekjempet (ikke inkludert kampreserver) i forhold til antall kamper kjempet"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header"
+msgstr "Fiendtlige kjøretøy bekjempet"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/body"
+msgstr "Grad av total skade forårsaket (inkludert kampreserver) i forhold til antall kamper kjempet"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/header"
+msgstr "Skade forårsaket"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body"
+msgstr "Grad av total skade forårsaket (ikke inkludert kampreserver) i forhold til antall kamper kjempet"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header"
+msgstr "Skade forårsaket"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/body"
+msgstr "Grad av total skade mottatt (inkludert kampreserver) i forhold til antall kamper kjempet"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/header"
+msgstr "Skade mottatt"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/body"
+msgstr "Totalt antall kamper kjempet, inkludert: \n• Seiere: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/header"
+msgstr "Kamper"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/body"
+msgstr "Grad av \"Skade forårsaket\" i forhold til \"Skade mottatt\" (inkludert kampreserver), basert på: \n• Skade forårsaket av ditt kjøretøy: %(value_0)s\n• Skade forårsaket av kampreserver: %(value_2)s\n• Skade mottatt fra fiendtlige kjøretøy og kampreserver: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/header"
+msgstr "Skaderate"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body"
+msgstr "Grad av \"Skade forårsaket\" i forhold til \"Skade mottatt\" (ikke inkludert kampreserver), basert på: \n• Skade forårsaket: %(value_0)s\n• Skade mottatt: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header"
+msgstr "Skaderate"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/body"
+msgstr "Grad av antall fiendtlige kjøretøy bekjempet i forhold til antall ganger spillerens kjøretøy ble bekjempet (inkludert kampreserver), basert på:\n• Fiendtlige kjøretøy bekjempet av ditt kjøretøy: %(value_0)s\n• Fiendtlige kjøretøy bekjempet av kampreserver: %(value_2)s\n• Spillers eget kjøretøy bekjempet av fiendtlige kjøretøy og kampreserver: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/header"
+msgstr "Bekjempelsesrate"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body"
+msgstr "Grad av antall ganger fiendtlige kjøretøy ble bekjempet i forhold til antall ganger spillerens eget kjøretøy ble bekjempet (inkludert kampreserver), basert på:\n• Fiendtlige kjøretøy bekjempet: %(value_0)s\n• Spillers eget kjøretøy bekjempet: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header"
+msgstr "Bekjempelsesrate"
+
+msgid "profile/params/tooltip/dif/fallout/hits/body"
+msgstr "Presisjonen for skudd mot fiendtlige kjøretøy (ikke inkludert kampreserver)"
+
+msgid "profile/params/tooltip/dif/fallout/hits/header"
+msgstr "Treff"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/body"
+msgstr "Den oppnådde rekorden inkluderer kampreservene."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/header"
+msgstr "Maks skade i én kamp"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/body"
+msgstr "Den oppnådde rekorden inkluderer ikke kampreservene."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/header"
+msgstr "Maks skade i én kamp"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/body"
+msgstr "Den oppnådde rekorden inkluderer kampreservene."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/header"
+msgstr "Flest kjøretøy bekjempet per kamp"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body"
+msgstr "Den oppnådde rekorden inkluderer ikke kampreservene."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header"
+msgstr "Flest kjøretøy bekjempet per kamp"
+
+msgid "profile/params/tooltip/dif/fallout/wins/body"
+msgstr "Totalt antall seiere"
+
+msgid "profile/params/tooltip/dif/fallout/wins/header"
+msgstr "Seire"
+
+msgid "profile/params/tooltip/droppedCapturePoints/body"
+msgstr "Antall baseforsvarspoeng mottatt"
+
+msgid "profile/params/tooltip/droppedCapturePoints/header"
+msgstr "Baseforsvarspoeng"
+
+msgid "profile/params/tooltip/flagsAbsorbed/body"
+msgstr "Totalt antall flagg ødelagt"
+
+msgid "profile/params/tooltip/flagsAbsorbed/header"
+msgstr "Flagg ødelagt"
+
+msgid "profile/params/tooltip/flagsDelivered/body"
+msgstr "Antall flagg levert til din base"
+
+msgid "profile/params/tooltip/flagsDelivered/header"
+msgstr "Flagg levert"
+
+msgid "profile/params/tooltip/fort/battles/body"
+msgstr "Totalt antall fremrykkinger, hvorav:\n• Seiere: %(value_0)s\n• Tap: %(value_1)s\n• Uavgjort: %(value_2)s."
+
+msgid "profile/params/tooltip/fort/battles/header"
+msgstr "Fremrykkinger"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/body"
+msgstr "Seiersrate i fremrykkinger"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/header"
+msgstr "Seiere i fremrykkinger"
+
+msgid "profile/params/tooltip/fort/looting/body"
+msgstr "Totalt antall fiendtlige forsvarsverk som er plyndret"
+
+msgid "profile/params/tooltip/fort/looting/header"
+msgstr "Plyndringer"
+
+msgid "profile/params/tooltip/fort/resource/body"
+msgstr "Graden av industrielle ressurser tjent i forhold til antall trefninger"
+
+msgid "profile/params/tooltip/fort/resource/header"
+msgstr "Gj.snittlig plyndret per trefning"
+
+msgid "profile/params/tooltip/fort/sortie/body"
+msgstr "Totalt antall Trefninger, inkludert:\n• Seiere: %(value_0)s\n• Tap: %(value_1)s\n• Uavgjort: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/sortie/header"
+msgstr "Trefninger"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/body"
+msgstr "Total seiersrate i fremrykkinger"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/header"
+msgstr "Seiere i fremrykkinger"
+
+msgid "profile/params/tooltip/fortBattles/attacks/body"
+msgstr "Totalt antall angrep på fiendtlige forsvarsverk.\nTeller bare hvis du kjempet minst ett slag i løpet av angrepet."
+
+msgid "profile/params/tooltip/fortBattles/attacks/header"
+msgstr "Angrep"
+
+msgid "profile/params/tooltip/fortBattles/defences/body"
+msgstr "Totalt antall defensive tiltak i ditt forsvarsverk.\nTeller bare hvis du kjempet minst ett slag i løpet av forsvarsperioden."
+
+msgid "profile/params/tooltip/fortBattles/defences/header"
+msgstr "Defensive tiltak"
+
+msgid "profile/params/tooltip/fortBattlesWins/body"
+msgstr "Seiersrate i fremrykkinger"
+
+msgid "profile/params/tooltip/fortBattlesWins/header"
+msgstr "Seiere i fremrykkinger"
+
+msgid "profile/params/tooltip/fortSortieWins/body"
+msgstr "Seiersrate i trefninger"
+
+msgid "profile/params/tooltip/fortSortieWins/header"
+msgstr "Seiere i Trefninger"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/body"
+msgstr "Graden av industrielle ressurser tjent i forhold til antall trefninger"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/header"
+msgstr "Gj.snittlig plyndret per trefning"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/body"
+msgstr "Total mengde Industrielle ressurser tjent på alle Trefningene"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/header"
+msgstr "Totalt plyndret i alle trefninger"
+
+msgid "profile/params/tooltip/hits/body"
+msgstr "Nøyaktighet på avfyrte skudd mot fienden"
+
+msgid "profile/params/tooltip/hits/header"
+msgstr "Treff"
+
+msgid "profile/params/tooltip/kdr/body"
+msgstr "Grad av antall ganger fiendtlige kjøretøy ble bekjempet i forhold til antall ganger spillerens eget kjøretøy ble bekjempet (inkludert kampreserver), basert på:\n• Fiendtlige kjøretøy bekjempet av ditt kjøretøy: %(value_0)s\n• Fiendtlige kjøretøy bekjempet av kampreserver: %(value_2)s\n• Spillers eget kjøretøy bekjempet av fiendtlige kjøretøy og kampreserver: %(value_1)s"
+
+msgid "profile/params/tooltip/kdr/header"
+msgstr "Bekjempelsesrate"
+
+msgid "profile/params/tooltip/markOfMastery/body"
+msgstr "Ace Tanker mestringsmerke mottatt i alle relevante kampmodi / antall kjøretøy som har kjempet i minst én tilfeldig kamp"
+
+msgid "profile/params/tooltip/markOfMastery/header"
+msgstr "Mastery Badge: Ace Tanker"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/body"
+msgstr "Mestringsutmerkelser blir ikke tildelt i denne kampmodusen."
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/header"
+msgstr "Mastery Badge: Ace Tanker"
+
+msgid "profile/params/tooltip/maxDamage/body"
+msgstr "Rekord oppnådd på %(value_0)s"
+
+msgid "profile/params/tooltip/maxDamage/header"
+msgstr "Maks skade i én kamp"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/body"
+msgstr "Mest skade påført fiendtlige kjøretøy i én kamp."
+
+msgid "profile/params/tooltip/maxDamage/vehicle/header"
+msgstr "Maks skade i én kamp"
+
+msgid "profile/params/tooltip/maxDestroyed/body"
+msgstr "Rekord oppnådd på %(value_0)s"
+
+msgid "profile/params/tooltip/maxDestroyed/header"
+msgstr "Max ødelagt i kamp"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/body"
+msgstr "Flest fiendtlige kjøretøy bekjempet i én kamp."
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/header"
+msgstr "Flest bekjempede kjøretøy"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/body"
+msgstr "Den maksimale skaden forårsaket både av rolleferdigheter og taktiske ferdigheter i en kamp."
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/header"
+msgstr "Maksimal skade forårsaket av ferdigheter per kamp"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/body"
+msgstr "Skade forårsaket av både rolleferdigheter og taktiske ferdigheter er inkludert.\nVerdien er i %(value_0)s"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/header"
+msgstr "Maksimal skade forårsaket av ferdigheter per kamp"
+
+msgid "profile/params/tooltip/maxExp/body"
+msgstr "Rekord oppnådd på %(value_0)s"
+
+msgid "profile/params/tooltip/maxExp/header"
+msgstr "Maks erfaring per kamp"
+
+msgid "profile/params/tooltip/maxExp/vehicle/body"
+msgstr "Mest erfaring tjent i én kamp, inkludert premiumkonto."
+
+msgid "profile/params/tooltip/maxExp/vehicle/header"
+msgstr "Mest erfaring"
+
+msgid "profile/params/tooltip/maxExpDisabled/body"
+msgstr "Maksimum erfaring blir ikke vist i denne kampmodusen."
+
+msgid "profile/params/tooltip/maxExpDisabled/header"
+msgstr "Maks erfaring per kamp"
+
+msgid "profile/params/tooltip/maxHealthRepair/body"
+msgstr "Det maksimale antallet helsepoeng gjenopprettet for ditt kjøretøy og allierte kjøretøy i én kamp."
+
+msgid "profile/params/tooltip/maxHealthRepair/header"
+msgstr "Maksimalt antall gjenopprettede helsepoeng per kamp"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/body"
+msgstr "Det maksimale antallet helsepoeng gjenopprettet for ditt kjøretøy og allierte kjøretøy i én kamp.\nVerdien er i %(value_0)s"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/header"
+msgstr "Maksimalt antall gjenopprettede helsepoeng per kamp"
+
+msgid "profile/params/tooltip/maxPrestigePoints/body"
+msgstr "Det maksimale antallet prestisjepoeng tjent i én kamp."
+
+msgid "profile/params/tooltip/maxPrestigePoints/header"
+msgstr "Det maksimale antallet prestisjepoeng per kamp"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/body"
+msgstr "Verdien er i %(value_0)s"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/header"
+msgstr "Det maksimale antallet prestisjepoeng per kamp"
+
+msgid "profile/params/tooltip/maxVictoryPoints/body"
+msgstr "Flest seierspoeng tjent per kamp for alle kampene"
+
+msgid "profile/params/tooltip/maxVictoryPoints/header"
+msgstr "Flest seierspoeng tjent per kamp"
+
+msgid "profile/params/tooltip/maxWinPoints/body"
+msgstr "Flest seierspoeng tjent per kamp for alle kampene"
+
+msgid "profile/params/tooltip/maxWinPoints/header"
+msgstr "Flest seierspoeng tjent per kamp"
+
+msgid "profile/params/tooltip/maxWinSeries/body"
+msgstr "Flest antall påfølgende seiere oppnådd i modusen solo og i en tropp/tropp med 7 spillere."
+
+msgid "profile/params/tooltip/maxWinSeries/header"
+msgstr "Flest antall påfølgende seiere (solo og tropp/supertropp)"
+
+msgid "profile/params/tooltip/poiCaptured/body"
+msgstr "Antall erobrede interessepunkter"
+
+msgid "profile/params/tooltip/poiCaptured/header"
+msgstr "Erobrede interessepunkter"
+
+msgid "profile/params/tooltip/ranked/avgFrags/body"
+msgstr "Gjennomsnitllig antall fiendtlige kjøretøy bekjempet i én kamp"
+
+msgid "profile/params/tooltip/ranked/avgFrags/header"
+msgstr "Gjennomsnittlig antall kjøretøy bekjempet"
+
+msgid "profile/params/tooltip/ranked/avgPoints/body"
+msgstr "Prosentrate for antall striper mottatt i forhold til det totale antall kamper kjempet i rangerte kamper modusen.\n• Totalt antall striper: %(value_0)s\n• Totalt antall kamper: %(value_1)s"
+
+msgid "profile/params/tooltip/ranked/avgPoints/header"
+msgstr "Effektivitet i rangerte kamper"
+
+msgid "profile/params/tooltip/ranked/points/body"
+msgstr "Totalt antall poeng tjent"
+
+msgid "profile/params/tooltip/ranked/points/header"
+msgstr "Poeng for rang"
+
+msgid "profile/params/tooltip/stunNumber/body"
+msgstr "Antall treff som sjokket fiendens besetninger"
+
+msgid "profile/params/tooltip/stunNumber/header"
+msgstr "Antall sjokk"
+
+msgid "profile/params/tooltip/survival/body"
+msgstr "Prosent kamper der spillerens kjøretøy ikke ble bekjempet"
+
+msgid "profile/params/tooltip/survival/header"
+msgstr "Kamper overlevd"
+
+msgid "profile/params/tooltip/totalVehs/body"
+msgstr "Totalt antall forskjellige kjøretøy benyttet"
+
+msgid "profile/params/tooltip/totalVehs/header"
+msgstr "Kjøretøy brukt"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/body"
+msgstr "Totalt antall fremrykkinger.\n\nParameteren er ikke tilgjengelig i denne versjonen av spillet."
+
+msgid "profile/params/tooltip/unavailable/fort/battles/header"
+msgstr "Fremrykkinger"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/body"
+msgstr "Total prosent seiere i fremrykkinger.\n\nParameteren er ikke tilgjengelig i denne versjonen av spillet."
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/header"
+msgstr "Seiere i fremrykkinger"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/body"
+msgstr "Ingen kamper siden parameteren ble introdusert"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/header"
+msgstr "Data ikke tilgjengelig"
+
+msgid "profile/params/tooltip/usedTechnics/body"
+msgstr "Kjøretøy som har kjempet i minst én historisk kamp."
+
+msgid "profile/params/tooltip/usedTechnics/header"
+msgstr "Benyttede kjøretøy"
+
+msgid "profile/params/tooltip/wins/body"
+msgstr "Seiersrate"
+
+msgid "profile/params/tooltip/wins/header"
+msgstr "Seire"
+
+msgid "profile/ranked/seasonsdropdown/1"
+msgstr "1. sesong, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/2"
+msgstr "2. sesong, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/3"
+msgstr "3. sesong, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/archive"
+msgstr "Arkiverte data"
+
+msgid "profile/seasonsdropdown/all"
+msgstr "Alle sesonger"
+
+msgid "profile/seasonsdropdown/current"
+msgstr "Denne sesongen"
+
+msgid "profile/seasonsdropdown/specific"
+msgstr "Sesong %(date1)s – %(date2)s"
+
+msgid "profile/section/statistics/scores/maxHealthRepair"
+msgstr "Maksimalt antall gjenopprettede helsepoeng per kamp"
+
+msgid "profile/summary/clan/btnLabel"
+msgstr "Klanprofil"
+
+msgid "profile/summary/clan/joinDate"
+msgstr "Ble medlem den:"
+
+msgid "profile/summary/clan/post"
+msgstr "Posisjon:"
+
+msgid "profile/summary/club/btnLabel"
+msgstr "Lagprofil"
+
+msgid "profile/summary/club/ladder"
+msgstr "Måltavle:"
+
+msgid "profile/summary/club/ladderInfo"
+msgstr "Stige %(league)s, Avdeling %(division)s"
+
+msgid "profile/summary/club/post"
+msgstr "Posisjon:"
+
+msgid "profile/summary/nextAwards/tooltip/body"
+msgstr "Kommende utmerkelser er festet til båndet."
+
+msgid "profile/summary/nextAwards/tooltip/header"
+msgstr "Neste utmerkelsene"
+
+msgid "profile/summary/noGroups"
+msgstr "Spilleren har ingen permanente taktiske avdelinger."
+
+msgid "profile/summary/significantAwards/tooltip/body"
+msgstr "Spillerens mest verdifulle utmerkelser er festet til båndet."
+
+msgid "profile/summary/significantAwards/tooltip/header"
+msgstr "Verdifulle utmerkelser"
+
+msgid "profile/tabs/tooltip/advancedAchievements/body"
+msgstr "Se katalogen for utmerkelser."
+
+msgid "profile/tabs/tooltip/advancedAchievements/header"
+msgstr "Utmerkelser"
+
+msgid "profile/tabs/tooltip/awards/body"
+msgstr "Se utmerkelser med beskrivelse"
+
+msgid "profile/tabs/tooltip/awards/header"
+msgstr "Merker"
+
+msgid "profile/tabs/tooltip/collections/body"
+msgstr "Se samlinger"
+
+msgid "profile/tabs/tooltip/collections/header"
+msgstr "Samlinger"
+
+msgid "profile/tabs/tooltip/formations/body"
+msgstr "Se detaljer om de taktiske enhetene der du var medlem."
+
+msgid "profile/tabs/tooltip/formations/header"
+msgstr "Taktisk enhet"
+
+msgid "profile/tabs/tooltip/hof/body"
+msgstr "Se rangeringer i Hall of Fame"
+
+msgid "profile/tabs/tooltip/hof/header"
+msgstr "Hall of Fame"
+
+msgid "profile/tabs/tooltip/hofDisabled/body"
+msgstr "Hall of Fame er midlertidig utilgjengelig. Vennligst prøv igjen senere."
+
+msgid "profile/tabs/tooltip/hofDisabled/header"
+msgstr "Til info"
+
+msgid "profile/tabs/tooltip/statistics/body"
+msgstr "Se kampstatistikker på alle kjøretøyene"
+
+msgid "profile/tabs/tooltip/statistics/header"
+msgstr "Statistikk"
+
+msgid "profile/tabs/tooltip/summary/body"
+msgstr "Se kampytelse"
+
+msgid "profile/tabs/tooltip/summary/header"
+msgstr "Sum"
+
+msgid "profile/tabs/tooltip/technique/body"
+msgstr "Se kampstatistikker på alle kjøretøyene"
+
+msgid "profile/tabs/tooltip/technique/header"
+msgstr "Kjøretøy"
+
+msgid "profile/title"
+msgstr "Spillerstatistikk %s"
+
+msgid "seasons/comp7_dropdown_label"
+msgstr "År/sesong:"
+
+msgid "seasons/dropdown_label"
+msgstr "Sesong:"
+
+msgid "section/advancedAchievements/title"
+msgstr "Utmerkelser"
+
+msgid "section/awards/dropdown/labels/all"
+msgstr "Alle"
+
+msgid "section/awards/dropdown/labels/inProcess"
+msgstr "Mottatt"
+
+msgid "section/awards/dropdown/labels/none"
+msgstr "Ikke mottatt"
+
+msgid "section/awards/dropdown/tooltip/body"
+msgstr "Filtrér om du vil se enten alle utmerkelsene mottatt, eller utmerkelser ikke mottatt"
+
+msgid "section/awards/dropdown/tooltip/header"
+msgstr "Tildelingssortering"
+
+msgid "section/awards/labels/battleHeroes"
+msgstr "Kampens helter"
+
+msgid "section/awards/labels/epic"
+msgstr "Episke medaljer"
+
+msgid "section/awards/labels/group"
+msgstr "Gruppeutmerkelser"
+
+msgid "section/awards/labels/honorary"
+msgstr "Hederlig omtale"
+
+msgid "section/awards/labels/marksOnGun"
+msgstr "Marks of Excellence"
+
+msgid "section/awards/labels/memory"
+msgstr "Minnemynter"
+
+msgid "section/awards/labels/special"
+msgstr "Spesial"
+
+msgid "section/awards/labels/stage"
+msgstr "Nivåutmerkelser"
+
+msgid "section/awards/title"
+msgstr "Merker"
+
+msgid "section/collections/title"
+msgstr "Samlinger"
+
+msgid "section/formations/clan/none"
+msgstr "Du er ikke medlem i en klan"
+
+msgid "section/formations/clan/none/thirdperson"
+msgstr "Spilleren er ikke medlem i noen klan."
+
+msgid "section/formations/clan/type"
+msgstr "Klan"
+
+msgid "section/formations/fort/battles"
+msgstr "Fremrykkinger"
+
+msgid "section/formations/fort/create"
+msgstr "Opprett forsvarsverk"
+
+msgid "section/formations/fort/level"
+msgstr "Forsvarsverknivå: %s"
+
+msgid "section/formations/fort/link"
+msgstr "Forsvarsverk oppnådd"
+
+msgid "section/formations/fort/none"
+msgstr "Forsvarsverk ikke opprettet"
+
+msgid "section/formations/fort/none/thirdperson"
+msgstr "Spillerens klan har ikke noe forsvarsverk."
+
+msgid "section/formations/fort/resourceRating"
+msgstr "Ressurssanker rangering"
+
+msgid "section/formations/fort/sorties"
+msgstr "Trefninger"
+
+msgid "section/formations/history/battles"
+msgstr "Kamper som medlem"
+
+msgid "section/formations/history/dates"
+msgstr "Ble med/forlot dato"
+
+msgid "section/formations/history/datesPattern"
+msgstr "%(date1)s–%(date2)s"
+
+msgid "section/formations/history/team"
+msgstr "Lag"
+
+msgid "section/formations/history/title"
+msgstr "Spillers laglogg"
+
+msgid "section/formations/joinDate"
+msgstr "Påmeldingsdato: %s"
+
+msgid "section/formations/rank"
+msgstr "Spillers plass: %s"
+
+msgid "section/formations/team/completedSeason"
+msgstr "Sesong %s (avsluttet)"
+
+msgid "section/formations/team/find"
+msgstr "Gå til søk etter permanente lag"
+
+msgid "section/formations/team/league"
+msgstr "Stige: %(league)s. Divisjon: %(division)s. Plass: %(position)s."
+
+msgid "section/formations/team/none"
+msgstr "Du har ingen permanente lag."
+
+msgid "section/formations/team/none/thirdperson"
+msgstr "Spilleren har ingen permanente lag."
+
+msgid "section/formations/team/season"
+msgstr "Sesong %s"
+
+msgid "section/formations/team/seasonBattles"
+msgstr "Rangerte kamper"
+
+msgid "section/formations/team/seasonWinRate"
+msgstr "Seire i sesongen"
+
+msgid "section/formations/team/title"
+msgstr "Lag \"%s\""
+
+msgid "section/formations/team/type"
+msgstr "Lag"
+
+msgid "section/formations/title"
+msgstr "Taktisk enhet"
+
+msgid "section/formations/tooltip/fort/battles/body"
+msgstr "Totalt antall fremrykkinger, inkludert:\n• Seire: %(wins)s\n• Tap: %(losses)s\n• Uavgjort: %(draws)s"
+
+msgid "section/formations/tooltip/fort/battles/header"
+msgstr "Fremrykkinger"
+
+msgid "section/formations/tooltip/fort/level/body"
+msgstr "Nivået på Forsvarsverk er det samme som nivået på kommandosentralen."
+
+msgid "section/formations/tooltip/fort/level/header"
+msgstr "Forsvarsverkets nivå"
+
+msgid "section/formations/tooltip/fort/link/body"
+msgstr "Klikk for å se klanens meritter i forsvarsverk."
+
+msgid "section/formations/tooltip/fort/link/header"
+msgstr "Forsvarsverk oppnådd"
+
+msgid "section/formations/tooltip/fort/resourceRating/body"
+msgstr "Din plassering"
+
+msgid "section/formations/tooltip/fort/resourceRating/header"
+msgstr "Ressurssanker rangering"
+
+msgid "section/formations/tooltip/fort/sorties/body"
+msgstr "Totalt antall trefninger utført, inkludert:\n• Seire: %(wins)s\n• Tap: %(losses)s\n• Uavgjort: %(draws)s"
+
+msgid "section/formations/tooltip/fort/sorties/header"
+msgstr "Trefninger"
+
+msgid "section/formations/tooltip/team/link/body"
+msgstr "Klikk for å se lagets profil."
+
+msgid "section/formations/tooltip/team/link/header"
+msgstr "Lagets profil"
+
+msgid "section/formations/tooltip/team/seasonBattles/body"
+msgstr "Totalt antall rangerte kamper kjempet som medlem av dette laget, inkludert:\n• Seire: %(wins)s\n• Tap: %(losses)s\n• Uavgjort: %(draws)s"
+
+msgid "section/formations/tooltip/team/seasonBattles/header"
+msgstr "Rangerte kamper"
+
+msgid "section/formations/tooltip/team/seasonWinRate/body"
+msgstr "Totalt antall seire i Rangerte kamper"
+
+msgid "section/formations/tooltip/team/seasonWinRate/header"
+msgstr "Seire"
+
+msgid "section/hof/BrowserView/closeBtn"
+msgstr "LUKK"
+
+msgid "section/hof/achievementsRatingsBtn"
+msgstr "Gå til rangering"
+
+msgid "section/hof/achievementsRatingsTitle"
+msgstr "Rangering etter utmerkelser\ni tilfeldige kamper"
+
+msgid "section/hof/betaBtn"
+msgstr "BETA"
+
+msgid "section/hof/betaTooltip"
+msgstr "Hall of Fame og World of Tanks rangering\ner i BETA testing"
+
+msgid "section/hof/mainDescription"
+msgstr "Se din kampytelse og posisjoner i rangeringer blant andre spillere for den valgte perioden."
+
+msgid "section/hof/mainTitle"
+msgstr "Hall of Fame"
+
+msgid "section/hof/notAvailable/tooltip/body"
+msgstr "Hall of Fame er midlertidig utilgjengelig. Vennligst prøv igjen senere."
+
+msgid "section/hof/notAvailable/tooltip/header"
+msgstr "Til info"
+
+msgid "section/hof/statusBtn/hideResults"
+msgstr "Vis resultater"
+
+msgid "section/hof/statusBtn/showResults"
+msgstr "Skjul resultater"
+
+msgid "section/hof/statusDescription/exclusion"
+msgstr "Søknaden om å skjule dine resultater i rangeringene har blitt sendt og vil bli prosessert i løpet av den neste resultatoppdateringen."
+
+msgid "section/hof/statusDescription/hideResults"
+msgstr "Dine rangeringsresultater blir nå skjult for andre spillere."
+
+msgid "section/hof/statusDescription/inclusion"
+msgstr "Søknaden har blitt sendt og vil bli prosessert i løpet av den neste resultatoppdateringen for rangeringer. Dine rangeringsresultater vises nå til andre spillere."
+
+msgid "section/hof/statusDescription/showResults"
+msgstr "Dine rangeringsresultater vises til alle spillere, venner og klanmedlemmer."
+
+msgid "section/hof/title"
+msgstr "Hall of Fame"
+
+msgid "section/hof/vehiclesRatingsBtn"
+msgstr "Gå til rangering"
+
+msgid "section/hof/vehiclesRatingsTitle"
+msgstr "Rangering etter kjøretøy\ni tilfeldige kamper"
+
+msgid "section/statistics/bodyBar/label/charts"
+msgstr "Infografikk"
+
+msgid "section/statistics/bodyBar/label/clan10"
+msgstr "Nivå 10"
+
+msgid "section/statistics/bodyBar/label/clan6"
+msgstr "Nivå 6"
+
+msgid "section/statistics/bodyBar/label/clan8"
+msgstr "Nivå 8"
+
+msgid "section/statistics/bodyBar/label/detailed"
+msgstr "Statistikk"
+
+msgid "section/statistics/bodyBar/label/fortBattles"
+msgstr "Detaljer på fremrykkinger"
+
+msgid "section/statistics/bodyBar/label/fortSortie"
+msgstr "Detaljer på Trefninger"
+
+msgid "section/statistics/bodyBar/label/specific"
+msgstr "Spesial"
+
+msgid "section/statistics/bodyParams/label/average"
+msgstr "Gj.snittlig poeng per kamp"
+
+msgid "section/statistics/bodyParams/label/common"
+msgstr "Generelle parametre"
+
+msgid "section/statistics/bodyParams/label/fortBattles"
+msgstr "Fremrykkinger"
+
+msgid "section/statistics/bodyParams/label/fortSortie"
+msgstr "Trefninger"
+
+msgid "section/statistics/bodyParams/label/record"
+msgstr "Rekordpoeng"
+
+msgid "section/statistics/bodyParams/label/resource"
+msgstr "Industriell ressurs"
+
+msgid "section/statistics/chart/class/tooltip/body"
+msgstr "Det totale antallet kamper i kjøretøy i denne klassen"
+
+msgid "section/statistics/chart/class/tooltip/header"
+msgstr "Kjøretøyklasse: %(value)s"
+
+msgid "section/statistics/chart/level/tooltip/body"
+msgstr "Antall kamper i kjøretøy på dette nivået"
+
+msgid "section/statistics/chart/level/tooltip/header"
+msgstr "Kjøretøysnivå: %(value)s"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/body"
+msgstr "Bare kjøretøy fra nivå 6-8 kan kjempe i denne kampmodusen."
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/header"
+msgstr "Kjøretøysnivå: %(value)s"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/body"
+msgstr "Bare nivå 8-10 kjøretøy kan kjempe i denne kampmodusen."
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/header"
+msgstr "Kjøretøysnivå: %(value)s"
+
+msgid "section/statistics/chart/nation/tooltip/body"
+msgstr "Antall kamper i kjøretøy på dette nivået"
+
+msgid "section/statistics/chart/nation/tooltip/header"
+msgstr "Kjøretøyets nasjonalitet: %(value)s"
+
+msgid "section/statistics/chart/place/tooltip/body"
+msgstr "Det totale antall kamper med denne rangeringen"
+
+msgid "section/statistics/chart/place/tooltip/header"
+msgstr "Oppnådd plass: %(value)s"
+
+msgid "section/statistics/chart/type/tooltip/body"
+msgstr "Antall kamper i kjøretøy på dette nivået"
+
+msgid "section/statistics/chart/type/tooltip/header"
+msgstr "Type kjøretøy: %(value)s"
+
+msgid "section/statistics/charts/byClassLabel"
+msgstr "Etter classe"
+
+msgid "section/statistics/charts/byLevelLabel"
+msgstr "Etter nivå"
+
+msgid "section/statistics/charts/byNationLabel"
+msgstr "Etter nasjon"
+
+msgid "section/statistics/charts/byPlaceLabel"
+msgstr "Etter oppnådd plass"
+
+msgid "section/statistics/charts/byTypeLabel"
+msgstr "Etter type"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortOther"
+msgstr "Skade på fiendtlige kjøretøy sjokket av spiller"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortSelf"
+msgstr "Skade på fiendtlige kjøretøy sjokket av deg"
+
+msgid "section/statistics/detailed/avgDamage"
+msgstr "Skade forårsaket"
+
+msgid "section/statistics/detailed/avgDestroyedVehicles"
+msgstr "Fiendtlige kjøretøy bekjempet"
+
+msgid "section/statistics/detailed/avgDetectedEnemies"
+msgstr "Fiendekjøretøy oppdaget"
+
+msgid "section/statistics/detailed/avgHealthRepaired"
+msgstr "Gjenopprettede helsepoeng"
+
+msgid "section/statistics/detailed/avgPoiCaptured"
+msgstr "Erobrede interessepunkter"
+
+msgid "section/statistics/detailed/avgPrestigePoints"
+msgstr "Prestisjepoeng"
+
+msgid "section/statistics/detailed/avgReceivedDamage"
+msgstr "Skade mottatt"
+
+msgid "section/statistics/detailed/avgRoleSkillUsed"
+msgstr "Rolleferdigheter benyttet"
+
+msgid "section/statistics/detailed/damageCoefficient"
+msgstr "Skaderate"
+
+msgid "section/statistics/detailed/dealOutDamage"
+msgstr "Skade"
+
+msgid "section/statistics/detailed/destroyed"
+msgstr "Bekjempet"
+
+msgid "section/statistics/detailed/destructionCoefficient"
+msgstr "Bekjempelsesrate"
+
+msgid "section/statistics/detailed/killed"
+msgstr "Fiender bekjempet"
+
+msgid "section/statistics/detailed/maxDestroyedVehicles"
+msgstr "Maks bekjempet i én kamp"
+
+msgid "section/statistics/detailed/receivedDamage"
+msgstr "Skade mottatt"
+
+msgid "section/statistics/detailed/stunNumber"
+msgstr "Antall sjokk"
+
+msgid "section/statistics/headerText/all"
+msgstr "Tilfeldige- og kompanikamper"
+
+msgid "section/statistics/headerText/battleRoyaleSolo"
+msgstr "Steel Hunter"
+
+msgid "section/statistics/headerText/battleRoyaleSquad"
+msgstr "Steel Hunter"
+
+msgid "section/statistics/headerText/clan"
+msgstr "Globalt kart"
+
+msgid "section/statistics/headerText/comp7"
+msgstr "Onslaught"
+
+msgid "section/statistics/headerText/epicRandom"
+msgstr "Storkamp"
+
+msgid "section/statistics/headerText/fallout"
+msgstr "Ødeleggelse"
+
+msgid "section/statistics/headerText/fortifications"
+msgstr "Forsvarsverk: Kamper"
+
+msgid "section/statistics/headerText/historical"
+msgstr "Historiske kamper"
+
+msgid "section/statistics/headerText/ranked_10x10"
+msgstr "Rangert kamp"
+
+msgid "section/statistics/headerText/ranked_15x15"
+msgstr "Rangert kamp 15 mot 15"
+
+msgid "section/statistics/headerText/staticTeam"
+msgstr "Lag: Rangerte kamper"
+
+msgid "section/statistics/headerText/team"
+msgstr "Lag: Ikke-rangerte kamper"
+
+msgid "section/statistics/labels/battlesOnTech"
+msgstr "Kamper kjempet"
+
+msgid "section/statistics/scores/achievementsCount"
+msgstr "Merker"
+
+msgid "section/statistics/scores/armorUsing"
+msgstr "Pansringseffekt"
+
+msgid "section/statistics/scores/avgAssistedDamage"
+msgstr "Gjennomsnittlig skade etterfulgt av din assistanse"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortOther"
+msgstr "Skade forårsaket med spillers assistanse"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortSelf"
+msgstr "Skade forårsaket med din assistanse"
+
+msgid "section/statistics/scores/avgDamage"
+msgstr "Gj.snittlig skade per kamp"
+
+msgid "section/statistics/scores/avgExperience"
+msgstr "Gj.snittlig erfaring pr. kamp"
+
+msgid "section/statistics/scores/avgExperience/short"
+msgstr "Erfaring"
+
+msgid "section/statistics/scores/avgPrestigePoints"
+msgstr "Gjennomsnittlig antall prestisjepoeng per kamp"
+
+msgid "section/statistics/scores/avgVictoryPoints"
+msgstr "Gj.snittlig antall seierspoeng"
+
+msgid "section/statistics/scores/capturePoints"
+msgstr "Erobringspoeng"
+
+msgid "section/statistics/scores/clan/summaryDamageCoefficient"
+msgstr "Gjennomsnittlig skaderate"
+
+msgid "section/statistics/scores/coolSigns"
+msgstr "Mastery Badges: Ace Tanker"
+
+msgid "section/statistics/scores/droppedCapturePoints"
+msgstr "Baseforsvarspoeng"
+
+msgid "section/statistics/scores/flagsAbsorbed"
+msgstr "Flagg ødelagt"
+
+msgid "section/statistics/scores/flagsDelivered"
+msgstr "Flagg levert"
+
+msgid "section/statistics/scores/fort/battles"
+msgstr "Fremrykkinger"
+
+msgid "section/statistics/scores/fort/battlesWinsEfficiency"
+msgstr "Seire"
+
+msgid "section/statistics/scores/fort/resource"
+msgstr "Gj.snittlig plyndret per trefning"
+
+msgid "section/statistics/scores/fort/sortie"
+msgstr "Trefninger"
+
+msgid "section/statistics/scores/fort/sortieWinsEfficiency"
+msgstr "Seiere i Trefninger"
+
+msgid "section/statistics/scores/fortBattles/attacks"
+msgstr "Angrep"
+
+msgid "section/statistics/scores/fortBattles/defences"
+msgstr "Defensive tiltak"
+
+msgid "section/statistics/scores/fortBattlesTotalWins"
+msgstr "Seiere i fremrykkinger"
+
+msgid "section/statistics/scores/fortSortie"
+msgstr "Trefninger"
+
+msgid "section/statistics/scores/fortSortieTotalWins"
+msgstr "Seiere i Trefninger"
+
+msgid "section/statistics/scores/fortSorties/AvgResources"
+msgstr "Gj.snittlig plyndret per trefning"
+
+msgid "section/statistics/scores/fortSorties/totalResources"
+msgstr "Totalt plyndret i alle trefninger"
+
+msgid "section/statistics/scores/fortTotalBattles"
+msgstr "Fremrykkinger"
+
+msgid "section/statistics/scores/hits"
+msgstr "Treff"
+
+msgid "section/statistics/scores/killDeathRatio"
+msgstr "Bekjempelsesrate"
+
+msgid "section/statistics/scores/looting"
+msgstr "Plyndringer"
+
+msgid "section/statistics/scores/maxDamage"
+msgstr "Maks skade i én kamp"
+
+msgid "section/statistics/scores/maxEquipmentDamageDealt"
+msgstr "Maksimal skade forårsaket av ferdigheter per kamp"
+
+msgid "section/statistics/scores/maxExperience"
+msgstr "Maks erfaring per kamp"
+
+msgid "section/statistics/scores/maxPrestigePoints"
+msgstr "Det maksimale antallet prestisjepoeng per kamp"
+
+msgid "section/statistics/scores/maxVictoryPoints"
+msgstr "Flest seierspoeng tjent i en kamp"
+
+msgid "section/statistics/scores/maxWinSeries"
+msgstr "Flest antall påfølgende seiere (solo og tropp/supertropp)"
+
+msgid "section/statistics/scores/poiCaptured"
+msgstr "Erobrede interessepunkter"
+
+msgid "section/statistics/scores/ranked/avgFrags"
+msgstr "Gjennomsnittlig antall kjøretøy bekjempet"
+
+msgid "section/statistics/scores/ranked/avgPoints"
+msgstr "Effektivitet i rangerte kamper"
+
+msgid "section/statistics/scores/ranked/points"
+msgstr "Poeng for rang"
+
+msgid "section/statistics/scores/survival"
+msgstr "Kamper overlevd"
+
+msgid "section/statistics/scores/totalBattles"
+msgstr "Kamper"
+
+msgid "section/statistics/scores/totalVehs"
+msgstr "Kjøretøy"
+
+msgid "section/statistics/scores/totalWins"
+msgstr "Seire"
+
+msgid "section/statistics/scores/usedTechnics"
+msgstr "Benyttede kjøretøy"
+
+msgid "section/statistics/title"
+msgstr "Statistikk"
+
+msgid "section/summary/errorText/nextAwards"
+msgstr "Ingen flere utmerkelser"
+
+msgid "section/summary/errorText/significantAwards"
+msgstr "Ingen verdifulle utmerkelser"
+
+msgid "section/summary/labels/nextAwards"
+msgstr "Neste utmerkelsene"
+
+msgid "section/summary/labels/significantAwards"
+msgstr "Verdifulle utmerkelser"
+
+msgid "section/summary/scores/averageLevel"
+msgstr "Gjennomsnittlig nivå"
+
+msgid "section/summary/scores/averageRank"
+msgstr "Gjennomsnittlig oppnådd plass"
+
+msgid "section/summary/scores/avgDamage"
+msgstr "Gj.snittlig skade per kamp"
+
+msgid "section/summary/scores/avgExperience"
+msgstr "Gj.snittlig erfaring pr. kamp"
+
+msgid "section/summary/scores/coolSigns"
+msgstr "Mastery Badges: Ace Tanker"
+
+msgid "section/summary/scores/damageDealt"
+msgstr "Forårsaket skade"
+
+msgid "section/summary/scores/hits"
+msgstr "Treff"
+
+msgid "section/summary/scores/maxDestroyed"
+msgstr "Maks bekjempet i én kamp"
+
+msgid "section/summary/scores/maxExperience"
+msgstr "Maks erfaring per kamp"
+
+msgid "section/summary/scores/personalScore"
+msgstr "Personlig rangering"
+
+msgid "section/summary/scores/totalBattles"
+msgstr "Kamper"
+
+msgid "section/summary/scores/totalWins"
+msgstr "Seire"
+
+msgid "section/summary/title"
+msgstr "Sum"
+
+msgid "section/technique/awards/noAchievements"
+msgstr "Ingen utmerkelser mottatt ennå"
+
+msgid "section/technique/buttonBar/avgExperience"
+msgstr "Gj.snitt XP\nper kamp"
+
+msgid "section/technique/buttonBar/classiness"
+msgstr "Mastery"
+
+msgid "section/technique/buttonBar/totalBattles"
+msgstr "Kamper"
+
+msgid "section/technique/buttonBar/totalWins"
+msgstr "Seire"
+
+msgid "section/technique/buttonBar/vehicleName"
+msgstr "Navn"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/body"
+msgstr "Se kjøretøy i garasjen"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/header"
+msgstr "Står i garasjen"
+
+msgid "section/technique/emptyScreenLabel/battleType/all"
+msgstr "Ingen kjøretøy i garasjen som har kjempet i tilfeldige- og kompanikamper."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSolo"
+msgstr "Ingen kjøretøy i garasjen som har kjempet i Steel Hunter."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSquad"
+msgstr "Ingen kjøretøy i garasjen som har kjempet i Steel Hunter."
+
+msgid "section/technique/emptyScreenLabel/battleType/comp7"
+msgstr "Det er ingen kjøretøy som har kjempet i Onslaught modusen."
+
+msgid "section/technique/emptyScreenLabel/battleType/epicRandom"
+msgstr "Ingen kjøretøy i garasjen har kjempet i storkampmodusen"
+
+msgid "section/technique/emptyScreenLabel/battleType/fallout"
+msgstr "Ingen kjøretøy i din garasje har kjempet i ødeleggelsesmodusen."
+
+msgid "section/technique/emptyScreenLabel/battleType/fortBattles"
+msgstr "Ingen kjøretøy i garasjen som har kjempet i fremrykkinger"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortSorties"
+msgstr "Ingen kjøretøy i garasjen som har deltatt i Trefninger"
+
+msgid "section/technique/emptyScreenLabel/battleType/globalMap"
+msgstr "Ingen kjøretøy i garasjen som har kjempet på det globale kartet."
+
+msgid "section/technique/emptyScreenLabel/battleType/historical"
+msgstr "Ingen kjøretøy i garasjen som har kjempet i historiske kamper."
+
+msgid "section/technique/emptyScreenLabel/battleType/ranked"
+msgstr "Ingen kjøretøy i garasjen har kjempet i rangerte kamper"
+
+msgid "section/technique/emptyScreenLabel/battleType/staticTeam"
+msgstr "Ingen kjøretøy i garasjen som har kjempet i Rangerte kamper."
+
+msgid "section/technique/emptyScreenLabel/battleType/team"
+msgstr "Ingen kjøretøy i garasjen som kjempet i lagkamper."
+
+msgid "section/technique/sort/tooltip/avgDamage/body"
+msgstr "Sorter etter gj.snittlig skade per kamp."
+
+msgid "section/technique/sort/tooltip/avgDamage/header"
+msgstr "Gj.snittlig skade"
+
+msgid "section/technique/sort/tooltip/avgFrags/body"
+msgstr "Sorter etter antall fiendtlige kjøretøy bekjempet i én kamp."
+
+msgid "section/technique/sort/tooltip/avgFrags/header"
+msgstr "Fiendtlige kjøretøy bekjempet"
+
+msgid "section/technique/sort/tooltip/avgexp/body"
+msgstr "Sortér etter gj.snittlig erfaring per kamp."
+
+msgid "section/technique/sort/tooltip/avgexp/header"
+msgstr "Gj.snittlig erfaring"
+
+msgid "section/technique/sort/tooltip/battlesCount/body"
+msgstr "Sortér etter antall kamper."
+
+msgid "section/technique/sort/tooltip/battlesCount/header"
+msgstr "Kamper"
+
+msgid "section/technique/sort/tooltip/class/body"
+msgstr "Sortér etter kjøretøyklasse"
+
+msgid "section/technique/sort/tooltip/class/header"
+msgstr "Klasse"
+
+msgid "section/technique/sort/tooltip/lvl/body"
+msgstr "Sortér etter kjøretøyenes nivå."
+
+msgid "section/technique/sort/tooltip/lvl/header"
+msgstr "Nivå"
+
+msgid "section/technique/sort/tooltip/marksofmastery/body"
+msgstr "Sortér etter mastery badges."
+
+msgid "section/technique/sort/tooltip/marksofmastery/header"
+msgstr "Mastery"
+
+msgid "section/technique/sort/tooltip/name/body"
+msgstr "Sortér etter kjøretøyenes navn."
+
+msgid "section/technique/sort/tooltip/name/header"
+msgstr "Navn"
+
+msgid "section/technique/sort/tooltip/nation/body"
+msgstr "Sortér etter nasjonalitet."
+
+msgid "section/technique/sort/tooltip/nation/header"
+msgstr "Nasjon"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/body"
+msgstr "Sorter etter elitenivå"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/header"
+msgstr "Elitesystem"
+
+msgid "section/technique/sort/tooltip/prestigePoints/body"
+msgstr "Sorter etter gjennonsnittlig antall prestisjepoeng per kamp"
+
+msgid "section/technique/sort/tooltip/prestigePoints/header"
+msgstr "Gjennomsnittlig antall prestisjepoeng per kamp"
+
+msgid "section/technique/sort/tooltip/technique/body"
+msgstr "Sortér etter type kjøretøy."
+
+msgid "section/technique/sort/tooltip/technique/header"
+msgstr "Type"
+
+msgid "section/technique/sort/tooltip/winRate/body"
+msgstr "Sortér etter seiersrate"
+
+msgid "section/technique/sort/tooltip/winRate/header"
+msgstr "Seire"
+
+msgid "section/technique/sort/tooltip/wins/body"
+msgstr "Sortér etter antall seire."
+
+msgid "section/technique/sort/tooltip/wins/header"
+msgstr "Seire"
+
+msgid "section/technique/statistics/accuracy"
+msgstr "Treff"
+
+msgid "section/technique/statistics/assistedStunDamage/shortOther"
+msgstr "Skade på fiendtlige kjøretøy sjokket av spiller"
+
+msgid "section/technique/statistics/assistedStunDamage/shortSelf"
+msgstr "Skade på fiendtlige kjøretøy sjokket av deg"
+
+msgid "section/technique/statistics/avgAssistedStunDamage"
+msgstr "Skade på fiendtlige kjøretøy sjokket av deg"
+
+msgid "section/technique/statistics/avgDamage"
+msgstr "Skade forårsaket"
+
+msgid "section/technique/statistics/avgDestroyedVehicles"
+msgstr "Fiendtlige kjøretøy bekjempet"
+
+msgid "section/technique/statistics/avgDetectedEnemies"
+msgstr "Fiendtlige kjøretøy oppdaget"
+
+msgid "section/technique/statistics/avgExperience"
+msgstr "Erfaring"
+
+msgid "section/technique/statistics/avgReceivedDamage"
+msgstr "Skade mottatt"
+
+msgid "section/technique/statistics/avgScoutingDamage"
+msgstr "Skade forårsaket med spillers assistanse"
+
+msgid "section/technique/statistics/avgStats"
+msgstr "Gj.snittlig poeng per kamp"
+
+msgid "section/technique/statistics/avgStunNumber"
+msgstr "Antall sjokk"
+
+msgid "section/technique/statistics/common"
+msgstr "Generelle parametre"
+
+msgid "section/technique/statistics/damageCoefficient"
+msgstr "Skaderate"
+
+msgid "section/technique/statistics/destructionCoefficient"
+msgstr "Bekjempelsesrate"
+
+msgid "section/technique/statistics/maxDamage"
+msgstr "Maks skade i én kamp"
+
+msgid "section/technique/statistics/maxDestroyedVehicles"
+msgstr "Maks bekjempet i én kamp"
+
+msgid "section/technique/statistics/maxExperience"
+msgstr "Maks erfaring per kamp"
+
+msgid "section/technique/statistics/records"
+msgstr "Rekordpoeng"
+
+msgid "section/technique/statistics/stunNumber"
+msgstr "Antall sjokk"
+
+msgid "section/technique/statistics/survival"
+msgstr "Kamper overlevd"
+
+msgid "section/technique/statistics/tankingCoefficient"
+msgstr "Pansringseffekt"
+
+msgid "section/technique/statistics/totalBattles"
+msgstr "Kamper"
+
+msgid "section/technique/statistics/totalWins"
+msgstr "Seire"
+
+msgid "section/technique/tabBtn/achievements"
+msgstr "Merker"
+
+msgid "section/technique/tabBtn/awards/tooltip/body"
+msgstr "Se utmerkelser for valgte kjøretøy"
+
+msgid "section/technique/tabBtn/awards/tooltip/header"
+msgstr "Merker"
+
+msgid "section/technique/tabBtn/statistic"
+msgstr "Statistikk"
+
+msgid "section/technique/tabBtn/statistic/tooltip/body"
+msgstr "Se statistikk for valgte kjøretøy"
+
+msgid "section/technique/tabBtn/statistic/tooltip/header"
+msgstr "Statistikk"
+
+msgid "section/technique/title"
+msgstr "Kjøretøy"
+
+msgid "section/technique/window/hangarVehiclesLabel"
+msgstr "Står i garasjen"
+
+msgid "tooltip/dropdown/battleType/body"
+msgstr "Sett på filter for å se statistikk for kampmodusene."
+
+msgid "tooltip/dropdown/battleType/header"
+msgstr "Sortér etter kampmodi"

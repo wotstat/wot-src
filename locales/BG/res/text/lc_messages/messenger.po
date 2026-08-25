@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Преводач <<noreply@wargaming.net>\nLanguage-Team: WoT Екип <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "Виж новите съобщения"
+
+msgid "battle/history/header"
+msgstr "Враг"
+
+msgid "battle/history/latestMessage"
+msgstr "Виж последното съобщение"
+
+msgid "battle/history/title"
+msgstr "История на чата:"
+
+msgid "battle/history/upMessage"
+msgstr "Виж старите съобщения"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)sЧАТЪТ Е ИЗКЛЮЧЕН%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "Бойният чат не е достъпен за играчи от вашата страна."
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "Бойният чат не е наличен за вашия акаунт."
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "Бойният чат е забранен от родителския контрол."
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "Бойният чат може да бъде включен от настройките на играта."
+
+msgid "battle/receivers/common"
+msgstr "ВСИЧКИ"
+
+msgid "battle/receivers/squad"
+msgstr "ДО ВЗВОДА"
+
+msgid "battle/receivers/team"
+msgstr "ДО ОТБОРА"
+
+msgid "battle/toolTips/cancel"
+msgstr "отмени"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "промяна на получател"
+
+msgid "battle/toolTips/default"
+msgstr "с предишния получател"
+
+msgid "battle/toolTips/duringChat"
+msgstr "По време на чат:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "Можете да блокирате съобщенията от избрания играч като натиснете бутона близо до съобщението на играча в чата."
+
+msgid "battle/toolTips/send"
+msgstr "изпрати"
+
+msgid "battle/toolTips/startChat"
+msgstr "Стартиране на чат:"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "Можете да докладвате съобщение като го натиснете и изберете причината за подаване на оплакване. Тази опция ви позволява и да изключите чата или да оставите само чата със съюзинците. Взводният чат ще продължи да бъде достъпен по всяко време."
+
+msgid "battle/toolTips/usingChat"
+msgstr "Чат"
+
+msgid "battle/toolTips/withSquad"
+msgstr "с вашия взвод"
+
+msgid "battle/unknown/ally"
+msgstr "Съюзник"
+
+msgid "battle/unknown/enemy"
+msgstr "Враг"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "Ще бъдете извадени от сървъра в %(curfewTime)s. Сесията ще приключи след %(timeLeft)s мин."
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "Достигнахте дневния лимит на игрово време. Сесията ви ще приключи след %(timeLeft)s мин."
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "Достигнахте седмичния лимит на игрово време. Сесията ви ще приключи след %(timeLeft)s мин."
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "Достигнахте ограничението за време за игра. Вашата сесия ще завърши след %(timeLeft)s мин."
+
+msgid "chat/personalMessage/warningBody"
+msgstr "Съобщенията от непознати играчи могат да съдържат зловредни връзки. Не отваряйте връзките и не споделяйте паролата си с никого."
+
+msgid "chat/personalMessage/warningHead"
+msgstr "Внимание!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "Резултати от битка"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "Съобщението от %(playerName)s е блокирано."
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "Изпрати съобщение"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "Изпрати съобщение"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "Търсене на играчи"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "Настройки на гласовия чат"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "не можете да баннете себе си."
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "Грешка при изпълнение на \"%(actionName)s\"."
+
+msgid "chat_error/IS_BUSY"
+msgstr "Сървърът е зает."
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "нямате достатъчно права за изпълнение на действието."
+
+msgid "chat_error/NOT_READY"
+msgstr "Действие \"%(actionName)s\" е недостъпно."
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "потребителят не съществува."
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "грешен параметър."
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "Гласовият чат е изключен. За да комуникирате с вашия взвод, включете гласовия чат с натискане на %(keyName)s."
+
+msgid "client/COMP7/disableVOIP"
+msgstr "Гласовият чат е изключен. За да комуникирате с вашия взвод, включете гласовия чат (%(keyName)s)."
+
+msgid "client/commendations/comms_mutual"
+msgstr "Вие и %(player)s се похвалихте взаимно."
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)s ви похвали."
+
+msgid "client/commendations/comms_sent"
+msgstr "%(player)s е похвален."
+
+msgid "client/dynSquad/created/allies"
+msgstr "Съюзниците ви сформираха взвод %(squadNum)s."
+
+msgid "client/dynSquad/created/enemies"
+msgstr "Вражеският отбор сформира взвод %(squadNum)s."
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "Сформиран е взвод %(squadNum)s. Достъпен е взводен чат и гласов чат. За да изключите гласовия чат, натиснете %(keyName)s)."
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "Сформиран е взвод %(squadNum)s. Достъпен е взводен чат и гласов чат. За да изключите гласовия чат, натиснете %(keyName)s)."
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "Сформиран е взвод %(squadNum)s. Достъпен е взводен чат и гласов чат. Определете клавиш за включване/изключване на гласовия чат."
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "Сформиран е взвод %(squadNum)s. Достъпен е взводен чат."
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "Присъединихте се към взвод %(squadNum)s. Достъпен е взводен чат и гласов чат. За да изключите гласовия чат, натиснете %(keyName)s)."
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "Присъединихте се към взвод %(squadNum)s. Достъпен е взводен чат и гласов чат. За да включите гласовия чат, натиснете %(keyName)s)."
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "Присъединихте се към взвод %(squadNum)s. Достъпен е взводен чат и гласов чат. Определете клавиш за включване/изключване на гласовия чат."
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "Влязохте във взвод %(squadNum)s. Достъпен е взводен чат."
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "Гласовият чат е изключен. За да комуникирате с вашия взвод, включете гласовия чат с натискане на %(keyName)s)."
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "Гласовият чат е включен."
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "Присъединихте се към взвод %(squadNum)s. Достъпен е взводен чат и гласов чат. За да изключите гласовия чат, натиснете %(keyName)s)."
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "Присъединихте се към взвод %(squadNum)s. Достъпен е взводен чат и гласов чат. За да включите гласовия чат, натиснете %(keyName)s)."
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "Присъединихте се към взвод %(squadNum)s. Достъпен е взводен чат и гласов чат. Определете клавиш за включване/изключване на гласовия чат."
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "Влязохте във взвод %(squadNum)s. Достъпен е взводен чат."
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s влезе във взвод %(squadNum)s."
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s ви покани във взвод."
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)s ви покани във взвод.\nВнимание! Членовете на взвода ще видят истинското ви игрово име и кланов таг."
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s е поканен във взвод."
+
+msgid "client/error/broadcastInCooldown"
+msgstr "Изпращането на съобщения е спряно за %s сек."
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "Команда \"%s\" е спряна за %s сек."
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "Команда \"%s\" е спряна."
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "Съобщението е замразено за %s сек."
+
+msgid "client/information/addToFriends/message"
+msgstr "Заявката за добавяне на играч %s към вашия списък с приятели е запазено."
+
+msgid "client/information/addToIgnored/message"
+msgstr "Заявката за добавяне на играч %s към черния ви списък е запазена. Чатът с играча е блокиран и съобщенията на играча са скрити."
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "Чатът с %s е блокиран, съобщенията на играча са скрити."
+
+msgid "client/information/emptySearchResult/message"
+msgstr "Няма резултати от търсенето."
+
+msgid "client/information/removeFromFriends/message"
+msgstr "Заявката за премахване на играч %s от вашия списък с приятели е запазено."
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "Заявката за премахване на играч %s от черния ви списък е запазена. Чатът с играча е напълно възстановен."
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "Чатът с %s е достъпен отново."
+
+msgid "client/information/setMuted/message"
+msgstr "%s не може да ви изпраща гласови съобщения."
+
+msgid "client/information/unsetMuted/message"
+msgstr "%s може да ви изпраща гласови съобщения."
+
+msgid "client/warning/AFKWarning/message"
+msgstr "Бездействието ще се наказва!\nЗа победа е необходима работа в екип!"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "Празно поле за търсене"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "Търсене на потребители"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "Грешна дължина или неправилни знаци в полето за търсене. Допустимият брой знаци е от %d до %d."
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "Търсене на потребители"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "Добави играча към \"Приятели\""
+
+msgid "client_action/ADD_GROUP"
+msgstr "Създай група"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "Добави играча към \"Игнорирани\""
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "Потвърди покана за приятелство"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "Отхвърли покана за приятелство"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "Промени група"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "Създай потребителски канал"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "Търсене на играчи"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "Влез в потребителски канал"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "Напусни потребителски канал"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "Премахни играча от \"Приятели\""
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "Премахни играча от \"Игнорирани\""
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "Изтрий бележка"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "Изпрати покана за приятелство"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "Виж предишните съобщения"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "Търси потребителски канали"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "Изпрати съобщение"
+
+msgid "client_action/SET_MUTE"
+msgstr "Изключи гласовите съобщения"
+
+msgid "client_action/SET_NOTE"
+msgstr "Създай/промени бележка"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "Включи гласовите съобщения"
+
+msgid "client_error/action/in_cooldown"
+msgstr "Действие \"%(actionName)s\" е замразено за %(floatArg1)s s."
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "Действие \"%(actionName)s\" е временно недостъпно. Опитайте пак по-късно."
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "Надвишихте максималния брой позволени канали. Моля затворете ненужните канали и опитайте отново."
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "Канал \"%(strArg1)s\" вече съществува."
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "Не е посочено име на канал."
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "Грешно име на канал \"%(strArg1)s\"."
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "Потвърждението на паролата не съвпада с въведената парола."
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "Не е посочена парола за канала."
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "Грешна парола за канала."
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "Не е посочено потвърждение на паролата."
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "Грешно потвърждение на паролата."
+
+msgid "client_error/command/generic_error"
+msgstr "Грешка при изпълнение на команда \"%(strArg1)s\"."
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "командата е замразена за %(floatArg1)s."
+
+msgid "client_error/command/not_supported"
+msgstr "командата %(strArg1)s не се поддържа от клиента."
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "грешна продължителност на бан %(int64Arg1)s."
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "грешен вид бан %(int32Arg1)s."
+
+msgid "client_error/command/wrong_player_name"
+msgstr "грешно име на играч %(strArg1)s."
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "Играч \"%(strArg1)s\" е във вашия списък \"Игнорирани\"."
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "Играч \"%(strArg1)s\" не е във вашия списък \"Игнорирани\"."
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "Играчът не е намерен."
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "Вече сте потвърдили покана за приятелство от \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "Вече сте отхвърлили покана за приятелство от \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "Отговорът ви на поканата за приятелство от \"%(strArg1)s\" се обработва."
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "Не е посочено име на група."
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "Група \"%(strArg1)s\" вече съществува."
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "Невалидно име на група \"%(strArg1)s\""
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "Група \"%(strArg1)s\" не е намерена."
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "Гласовите съобщения за играч \"%(strArg1)s\" са изключени."
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "Няма текст на бележка."
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "Няма бележки за играч \"%(strArg1)s\""
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "Играч \"%(strArg1)s\" е ваш приятел."
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "Играч \"%(strArg1)s\" не е намерен в списъка ви \"Приятели\"."
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "Името на канала трябва да съдържа %(int32Arg1)s–%(int32Arg2)s символа."
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "Името на група не трябва да надвишава %(int32Arg2)s символа."
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "Максимален брой играчи в списък \"Игнорирани\" %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "Максимален брой създадени групи %(int32Arg2)s."
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "За съжаление не може да имате повече от %(int32Arg2)s играча в списък \"Приятели\". Премахнете играчи, с които не играете."
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "Текстът в бележката не трябва да надхвърля %(int32Arg2)s символа."
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "Паролата трябва да съдържа %(int32Arg1)s–%(int32Arg2)s символа."
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "Грешен идентификатор на играч"
+
+msgid "client_error/shared/GENERIC"
+msgstr "Грешка при изпълнение на \"%(actionName)s\"."
+
+msgid "client_error/shared/LOCKED"
+msgstr "Действие \"%(actionName)s\" е временно недостъпно. Опитайте пак по-късно."
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "Не е посочено име на играч."
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "Грешно име на играч %(strArg1)s"
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "Неуспешно свързване с чат сървъра. Опитайте пак по-късно."
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "Действие \"%(actionName)s\" не се поддържа от игровия клиент."
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "Възникна грешка, опитайте отново по-късно."
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "Някои функции са изключени до началото на отброяването."
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "Зададени са грешни данни."
+
+msgid "command/acceptInvite"
+msgstr "Приеми поканата"
+
+msgid "command/addFriend"
+msgstr "Добави играч към списъка с приятели"
+
+msgid "command/addIgnored"
+msgstr "Добави играча към \"Игнорирани\""
+
+msgid "command/broadcast"
+msgstr "Изпрати съобщение"
+
+msgid "command/createChatChannel"
+msgstr "Създай канал"
+
+msgid "command/createInvite"
+msgstr "Създай покана"
+
+msgid "command/createPrivate"
+msgstr "Създай личен канал"
+
+msgid "command/findChatChannels"
+msgstr "Търси канали"
+
+msgid "command/findUser"
+msgstr "Търсене на играчи"
+
+msgid "command/getActiveInvites"
+msgstr "Получи списък с покани"
+
+msgid "command/getArchiveInvites"
+msgstr "Получи архивен списък с покани"
+
+msgid "command/getMembersCount"
+msgstr "Получи броя на играчите в канала"
+
+msgid "command/leaveChatChannel"
+msgstr "Напусни канала"
+
+msgid "command/rejectInvite"
+msgstr "Отхвърли поканата"
+
+msgid "command/removeFriend"
+msgstr "Премахни този играч от списъка с приятели"
+
+msgid "command/removeIgnored"
+msgstr "Премахни играча от списъка \"Игнорирани\""
+
+msgid "command/requestChatChannelMembers"
+msgstr "Получи списък на членовете на канала"
+
+msgid "command/requestSystemChatChannels"
+msgstr "Получи списък на системните канали"
+
+msgid "command/setMuted"
+msgstr "Изключи гласовите съобщения"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s е баннат."
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s вече не е банат."
+
+msgid "command/unsetMuted"
+msgstr "Включи гласовите съобщения"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "Натиснете, за да запазите създадената група от контакти."
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "Създай"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "Натиснете, за да отмените създаването и да се върнете към списъка ви с контакти."
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "Затвори"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "Натиснете, за да изтриете вашата група от контакти."
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "Изтрий"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "Натиснете, за да отмените изтриването и да се върнете към списъка ви с контакти."
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "Отмени"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "Натиснете, за да запазите групата от контакти с ново име."
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "Запази"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "Натиснете, за да отмените редактирането и да се върнете към списъка ви с контакти."
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "Затвори"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "Името не трябва да надвишава %(maxChars)s символа."
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "Натиснете, за да добавите играч към списъка ви \"Приятели\"."
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "Добави"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "Натиснете, за да отмените търсенето на играчи и да се върнете към списъка ви с контакти."
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "Затвори"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "Натиснете, за да търсите играч по име."
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "Търси"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "Името трябва да съдържа от %(minChars)s до %(maxChars)s букви или цифри."
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "Търсенето е спряно за %(time)s секунди поради прекалено често изпращане на заявки."
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "Натиснете, за да запазите избраните настройки."
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "Приложи"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "Натиснете, за да отмените промените и да се върнете към списъка ви с контакти."
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "Отмени"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "Натиснете, за да създадете група."
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "Създай група"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "Натиснете, за да търсите играч по име, което не е в списъка ви с контакти."
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "Търси извън контактите"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "Натиснете, за да намерите и добавите играч към списъка ви с контакти."
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "Търсене на играчи"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "Натиснете, за да промените настройките на списъка с контакти."
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "Настройки"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "Името трябва да съдържа до %(maxChars)s символа."
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "Изпрати команда"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "Изключи от отбора"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "Затвори"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "Създай канал"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "Търсене и влизане"
+
+msgid "dialogs/channels/title"
+msgstr "Канали"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "Затвори"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "Присъедини се"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "Паролата трябва да съдържа от 3 до 12 символа."
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "Грешна парола."
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "Опитвате се да влезете в защитен канал %s."
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "Въведете парола:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "Внимание"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "Свързване към канала"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "Покани в клана"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "Добави към \"Приятели\""
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "Добави в \"Игнорирани\""
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "Копиране на името"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "Създай личен канал"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "Прехвърли злато"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "Премахни от \"Приятели\""
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "Премахни от \"Игнорирани\""
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "Покажи информация"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "Сортирай по име."
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "Сортирай по статус."
+
+msgid "dialogs/contacts/title"
+msgstr "Списък с контакти"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "Клан"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "Приятели"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "Покани за приятелство"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "Игнорирани"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "Гласовите съобщения изключени"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "Затвори"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "Създай"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "Ще се създаде автоматично"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "Въведете парола"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "Име на канала"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "Парола"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "Потвърдете паролата"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "Необходима е парола"
+
+msgid "dialogs/createChannel/title"
+msgstr "Създай канал"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "Изберете %(vehName)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "Изберете машина ниво %(level)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "Изберете машини"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "Изберете машина ниво %(level)s"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "Машина: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "Затвори"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "Присъедини се"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "Търси"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "Резултати от търсенето (първи %d):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "Търсене"
+
+msgid "dialogs/searchChannel/title"
+msgstr "Търсене на канал"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "В приятели"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "Игнорирай"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "Затвори"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "Търси"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "Информация"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "Резултати от търсенето:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "Търсене"
+
+msgid "dialogs/searchContact/title"
+msgstr "Намери контакти"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "Служебен канал"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "Изберете машина ниво VIII"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "Основната цел е да бъдете последния оцелял взвод."
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "Режимът \"Фронтова линия\" е достъпен\nсамо за машини ниво VIII."
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ събитие +++\n+++ събитие +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "Допълнителен опит на битка\nза машини ниво IV или по-високо"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "Играйте с машини от едно и също ниво,\nзапочвайки от ниво IV, и печелете допълнителен опит"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "След като играчите приемат поканата, истинското ви игрово име и кланов таг ще се показват на членовете на взвода по време на битката."
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "Чат канал"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "Експериментални модули, монтирани на машини: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "Статус: Излязъл в почивка"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "Статус: В битка"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "Статус: Не е готов"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "Статус: Извън линия"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "Статус: Готов"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "Разпусни"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "Покани"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "виновен"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "заподозрян"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "Убийство на съотборник: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "Изключи гласовите съобщения"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "Добави в приятели"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "Добави в \"Игнорирани\""
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "Затвори"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "Създай личен канал"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "Включи гласовите съобщения"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "Общо"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "Създаден на"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "Последна битка"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "Статус:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s - Информация за играча"
+
+msgid "events/enterChannel"
+msgstr "[%s] влезе в канала"
+
+msgid "events/leaveChannel"
+msgstr "[%s] напусна канала"
+
+msgid "keyboardChat"
+msgstr "Чат"
+
+msgid "listView/emptyList/info"
+msgstr "уведомления"
+
+msgid "listView/emptyList/invite"
+msgstr "покани"
+
+msgid "listView/emptyList/offer"
+msgstr "специални"
+
+msgid "listView/emptyList/template"
+msgstr "Все още няма %(listType)s."
+
+msgid "listView/news/checkNewsBtn"
+msgstr "Към новини"
+
+msgid "listView/news/header"
+msgstr "КАКВО НОВО?"
+
+msgid "listView/title"
+msgstr "Център за уведомления"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "Продължителност: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "Изпрати"
+
+msgid "lobby/buttons/channels"
+msgstr "Канали"
+
+msgid "lobby/buttons/contacts"
+msgstr "Контакти"
+
+msgid "lobby/buttons/send"
+msgstr "Изпрати"
+
+msgid "lobby/channels/actions/remove"
+msgstr "Затвори канал"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "Показвай дати в съобщенията"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "Показвай часа в съобщенията"
+
+msgid "lobby/faq/close"
+msgstr "Затвори"
+
+msgid "lobby/faq/title"
+msgstr "FAQ"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "Добави играча към \"Приятели\""
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "Добави играча към \"Игнорирани\""
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "Копиране на името"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "Създай личен канал"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "Покажи информация за играча"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "Търси извън контактите"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "Отмени"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "Редактирай група"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "Изтрий от група"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "Изтрий група"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "Натиснете, за да отмените създаването и да се върнете към списъка ви с контакти."
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "Затвори"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "Натиснете, за да запазите създадената бележка за играча."
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "Създай"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "Влачете контакти тук."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "Натиснете, за да отмените редактирането и да се върнете към списъка ви с контакти."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "Затвори"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "Натиснете, за да запазите промените в бележката за играча."
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "Запази"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "Нищо не е открито по вашата заявка."
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "Постоянни формирования"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "Приятели"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "Други"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "Игнорирани"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "Покани за приятелство"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "Намери играч в списъка"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "Все още няма добавени играчи."
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "Списъкът с контакти е празен"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "В момента няма контакти на линия"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "Опитайте да търсите извън списъка с контакти."
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "Няма съвпадения"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "Въведи име на играч"
+
+msgid "messenger/contacts/title"
+msgstr "Контакти"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "Затвори"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "Добави"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "Групата вече съществува."
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "Търсене на играчи"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "Затвори"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "Създай"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "Създай бележка"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "Затвори"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "Запази"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "Името не трябва да надвишава %(maxChars)s символа."
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "Редактирай бележка"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "за "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "Затвори"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "Създай"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "Създай група"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "Въведи име (до %(symbols)s символа)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "Включително контакти в групата"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "Отмени"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "Изтрий"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "Изтрий група"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "Затвори"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "Запази"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "Промени група"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "Въведи име (до %(symbols)s символа)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "Въведи описание (до %(symbols)s символа)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "Описанието не може да надвишава %(maxChars)s символа."
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "Търсене на играчи"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "Приеми като група в един прозорец"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "Показвай играчи извън линия"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "Показвай категория \"Други\""
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "Съобщения от играчи извън списъка ви с контакти:"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "Приеми в отделен прозорец"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "Отмени"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "Приложи"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "Настройки"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "Добавен е компонент"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "Премахнати са точки за Боен пропуск"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "Премахнати монети"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "Премахнати жетони за Маневри"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "Премахнати компоненти"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "Личните точки за слава са премахнати"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "Платен е свободен опит"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "Премахнати са точки за поход."
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "Извадени са жетони за години служба"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "Прибавени са точки за Боен пропуск"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "Добавени монети"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "Добавени жетони за Маневри"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "Добавени компоненти"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "Личните точки за слава са добавени"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "Получен свободен опит"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "Добавени са точки за поход."
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "Добавени са жетони за години служба"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "Добави всички контакти към списъка с получатели."
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "Добави избрания контакт."
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "Изтрий всички контакти от списъка с получатели."
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "Изтрий избрания контакт от списъка с получатели."
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "Действие %(action)s е спряно за %(cooldownPeriod)s сек."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "Грешка в чата"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "Достигнахте максималния брой възможни отворени чат канали. Моля затворете неизползваните канали."
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "Грешка"
+
+msgid "server/errors/addFriendError/message"
+msgstr "Грешка при добавянето на потребител към приятели."
+
+msgid "server/errors/addFriendError/title"
+msgstr "Грешка"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "Грешка при добавянето на потребител към \"Игнорирани\"."
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "Грешка"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "Вече съществува канал с такова име."
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "Грешка при създаването на канал"
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "Каналът е изтрит."
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "Грешка при присъединяване към канал."
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "Грешка в чата"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "Грешка при чат команда: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "Грешка в чата"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "Команда %(command)s е спряна за %(cooldownPeriod)s сек."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "Грешка в чата"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "Съобщението е замразено. Твърде много съобщения."
+
+msgid "server/errors/connectTimeout/message"
+msgstr "Връзката с чат канала изтече."
+
+msgid "server/errors/connectTimeout/title"
+msgstr "Грешка в чата"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "Неуспешно създаване на личен канал: потребителят не е на линия."
+
+msgid "server/errors/createPrivateError/title"
+msgstr "Грешка в чата"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "Невалиден символ"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "Грешка"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "Грешен параметър %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "Грешка"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "Грешна парола за защитения канал."
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "Грешка при присъединяване към канал."
+
+msgid "server/errors/initializationFailure/message"
+msgstr "Грешка при инициализирането на канала."
+
+msgid "server/errors/initializationFailure/title"
+msgstr "Грешка в чата"
+
+msgid "server/errors/internalError/message"
+msgstr "Вътрешна грешка, опитайте отново по-късно."
+
+msgid "server/errors/internalError/title"
+msgstr "Грешка при създаването на канал"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "Невалидно име на канал."
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "Грешка в чата"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "Грешка при изпълнението на командата за покана."
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "Грешка"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "Потребител %(user)s вече беше баннат."
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "Грешка в чата"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "Потребител %(user)s вече е модератор на канала."
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "Грешка в чата"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "Грешка в чата"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "Потребителят прекъсна връзката"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "Грешка в чата"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "Потребител %(user)s не е модератор на канала."
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "Грешка в чата"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "Достигнат е лимитът на потребители в канала."
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "Грешка при свързването с канала"
+
+msgid "server/errors/notAllowed/message"
+msgstr "Нямате достатъчно права за това действие."
+
+msgid "server/errors/notAllowed/title"
+msgstr "Грешка в чата"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "Въведете парола, за да влезете в защитения канал."
+
+msgid "server/errors/passwordRequired/title"
+msgstr "Грешка при присъединяване към канал."
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "Промяната на тази настройка в момента е недостъпна."
+
+msgid "server/errors/sqlError/message"
+msgstr "Грешка при връзката с БД."
+
+msgid "server/errors/sqlError/title"
+msgstr "Грешка"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "Потребителят ви е добавил в списъка \"Игнорирани\"."
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "Грешка"
+
+msgid "server/errors/userNotExists/message"
+msgstr "Потребителят не съществува."
+
+msgid "server/errors/userNotExists/title"
+msgstr "Грешка"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "Достигнахте лимита на потребители в контакти."
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "Грешка"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "Надвишихте максималния брой позволени канали."
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "Надвишихте максималния брой позволени символи за име на канала."
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "Надвишихте максималния брой позволени символи за парола."
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "Канал \"%(strArg1)s\" вече съществува."
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "Грешни символи в името на канала."
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "Обидни думи в името на канала."
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "Стоманен ловец"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "Това са специални машини за \"Стоманен ловец\". Влезте в \"Стоманен ловец\", за да видите на какво са способни тези машини."
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "Машината е унищожена"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "Достигнато е ниво"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "Получени са точки"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "Победа"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "Добавено"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "Тъй вярно!"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "Към Операция"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "Лично досие"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "Събитие"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "Намалението свърши"
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "Наличен е управляем множител на опита за WoT Плюс"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "Управляем множител на опита за WoT Плюс е недостъпен"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "Неуспешно попълване на снаряжението на %s. Всичкото ви злато ще бъде достъпно, след като функционирането на WG портфейл бъде възстановено."
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "Неуспешно попълване на директиви за %s. Действието е временно недостъпно поради профилактика."
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "Неуспешно попълване на директивата на %s. Недостатъчно средства."
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "Неуспешно автоматично попълване на директивата на %s. Моля сложете я ръчно."
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "Директивата за %s беше попълнена успешно. Похарчихте "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Неуспешно попълване на снаряжението на %s. Купете снаряжение за злато."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Неуспешно попълване на снаряжението на танк %s. Недостатъчни кредити."
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "Неуспешно попълване на снаряжението на %s. Всичкото ви злато ще бъде достъпно, след като функционирането на WG портфейл бъде възстановено."
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "Снаряжението на %s не е попълнено автоматично. Попълнете снаряжението ръчно."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Снаряжението на %s беше попълнено успешно. Похарчихте "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "Неуспешно попълване на боекомплекта на %s. Купете снаряди за злато."
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "Неуспешно попълване на боекомплекта на танк %s. Недостатъчни кредити."
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "Неуспешно попълване на амунициите на %s. Всичкото ви злато ще бъде достъпно, след като функционирането на WG портфейл бъде възстановено."
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "Боекомплектът на %s не е попълнен. Попълнете боекомплекта ръчно."
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "Боекомплектът на танк %s беше попълнен успешно. Похарчихте "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "Неуспешно удължаване на наема на стил за %s. Купете стила за злато."
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "Неуспешно удължаване на наема на стил за %s. Недостатъчно средства."
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "Неуспешно удължаване на наема на стил за %s. Всичкото ви злато ще бъде достъпно след автоматичното възстановяване на работата на WG Wallet."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "Удължи наема"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "Наетият стил %s, нанесен на машина %s изтича скоро: остават 3 битки."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "На машина %s автоматично ще бъде удължен наемът на стил \"%s\" за още %s битки след 3 битки."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "Към външния вид"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "Стилът под наем %s, нанесен на машина %s, изтече. Можете да продължите наема на стила от екрана \"Външен вид\"."
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "Неуспешно автоматично удължаване на наема на стил за %s. Купете стила ръчно."
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "Наемът на стил за %s е удължен успешно. Похарчено "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "Неуспешен ремонт на танк %s."
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "Неуспешен ремонт на танк %s. Недостатъчни кредити."
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "Неуспешен ремонт на %s. Всичкото ви злато ще бъде достъпно, след като функционирането на WG портфейл бъде възстановено."
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "Неуспешен автоматичен ремонт на %s. Ремонтирайте вашата машина ръчно."
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "Танк %s е ремонтиран успешно. Похарчихте "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "Наличен е банер на танкиста за WoT Плюс"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "Банер на танкиста за WoT Плюс е недостъпен"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "Добавени са нашивки"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "Налична е бонус битка за WoT Плюс"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "Бонус битка за WoT Плюс е недостъпна"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "Мисията изпълнена: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "Изпълнихте поредица от мисии от Танкова академия."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "Жетоните могат да бъдат обменени за която и да е машина ниво VI за изследване."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "Към избора на машина"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "Поздравления!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "Изпълнени мисии от Танкова академия: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "Получена награда:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "Жетонът от Академията е използван."
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "Получена награда:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "Слотове в Парка: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "Машини под наем: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "Печелете машини и полезни ресурси като изпълнявате обучителни мисии."
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "Към Танкова академия"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "ВСИЧКО, КОЕТО ВИ ТРЯБВА,\nЗА ДА ЗАПОЧНЕТЕ"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "Жетон от Академията"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "Използвани са неразпределени точки"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "Неизразходвани точки, използвани при активиране на Елитната верига: %(points)s."
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "Използвани неразпределени точки: %(points)s за глава %(chapter)s."
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "Стандартно оборудване, от което да избирате"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "Активирана е Елитна верига"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "Елитната верига е на пауза."
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "Достигнато е ограничение по точки"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "Спечелихте максималния брой точки с %(vehName)s.\nНаграда за достигане на ограничението по точки: %(bonusPoints)s.\nСражавайте се с друга машина, за да продължите да печелите точки."
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "Поздравления!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "Получен е стил \"%(name)s\". Той може да бъде нанесен на машината веднага и подобряван по време на напредъка по Боен пропуск."
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "Наградно оборудване, от което да избирате"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "Подробности"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "Подробности"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "Завършихте глава %(chapter)s от Боен пропуск!\nПолучени награди:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "Завършихте глава %(chapter)s от Боен пропуск!\nПолучени награди:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "Завършихте етап от напредъка на Боен пропуск %(newLevel)s\n\nПолучена награда:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "Добавени етапи в глава %(chapter)s: %(levelCount)s\nДостигнахте етап %(currentLevel)s\nПолучени награди:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "Получихте награди за предходните завършени етапи на Боен пропуск:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "Вече ще получавате награди както от базовия, така и от подобрения път за награди."
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "Получихте награди за завършените етапи, използвайки неразпределени точки:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "Завършихте глава %(chapter)s.\nПолучена награда:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "Продължавайте да се сражавате и да печелите точки!"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "Завършихте всички основни глави на Боен пропуск %(season)s.\nПолучени награди:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "Завършихте етап от напредъка %(newLevel)s за глава %(chapter)s.\nПолучена награда:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "Подробности"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "Изразходван свободен опит:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "Похарчено злато:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "Купихте Подобрен пропуск и всички етапи за глава %(chapter)s.\nНагради, получени за всички етапи на главата:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "Получихте бонус за закупуване на Подобрените пропуски:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "Вече ще получавате както базовите, така и подобрените награди за всички глави от сезона."
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "Добавени етапи в глава %(chapter)s: %(levelCount)s\nДостигнахте етап %(currentLevel)s.\nПолучени награди:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "Получихте бонус за закупуване на Подобрения пропуск:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "Този подобрен пропуск важи само за глава %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "Получихте награди за предходните завършени етапи на Боен пропуск:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "Този Подобрен пропуск работи само за глава %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "Вече ще получавате награди както от базовия, така и от подобрения път за награди в глава %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "Добавени награди по подразбиране:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "Купен е подобрен пропуск"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "Купен е подобрен пропуск"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "Купени са етапи"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "Поздравления!"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "Дадена е награда"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "Елитната верига е завършена.\nПолучени награди:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "Елитната верига е завършена: %(amount)s\nПолучена награда:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "Член на екипажа:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "Постижения в битка"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "Получени %s при намаление '%s'"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "Получени %s при намаления '%s'"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s жетона"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s кредита"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s бона"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "%s юбилейни монети"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s Свободен опит"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s злато"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "Битка"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "Получени точки за Боен пропуск: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "Получени жетони"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "Подробности"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "компенсация за поражения, нанесени от съюзници: %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "Спечелени кредити: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "Получени бонове"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "Загуба"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "x%d за първата победа за всеки ден"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "Реми"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "Битката свърши"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "Точки за бойни резерви"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "Получени компоненти"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "Получени са юбилейни монети"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "Получен опит: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "Настъпление"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "Сграда"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "Спечелен производствен ресурс"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "от клан"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "от играч"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "Получен свободен опит"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "Спечелено злато"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "За присъединяването си към редиците на %(campaignName)s, ви беше присъден медалът %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "Поздравления!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "За успешното изпълнение на 45 мисии от поредица %(categoryName)s в кампания %(campaignName)s ви е присъден медал %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "За успешното изпълнение на 30 мисии от поредица %(categoryName)s в кампания %(campaignName)s ви е присъден медал %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "За успешното изпълнение на 15 мисии от поредица %(categoryName)s в кампания %(campaignName)s ви е присъден медал %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "глоба за поражения по съюзници: %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "Поздравления!\nЗа успешно изпълнение на лични мисии получавате следните награди"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "Поздравления!\nЗа успешно изпълнение на личните мисии от кампанията \"Дългоочакваното подкрепление\" получавате следните награди"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "Поздравления!\nЗа успешно изпълнение на личните мисии от кампанията \"Втори фронт\" получавате следните награди"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "Поздравления!\nЗа успешно изпълнение на личните мисии от двете кампании получавате следните награди"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "Добавено към Хранилището за кредити"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Мисията изпълнена! Награда"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "Лично досие"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "Получени точки за Боен пропуск: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "Легла, добавени в Казармата"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "Добавени жетони"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "Добавени кредити"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "Добавени бонове"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "Добавени компоненти"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "Добавени са юбилейни монети"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "Добавен Свободен опит"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "Добавено злато"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "Добавено"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "Точки за кампанията: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "Получен е домашен любимец"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "Добавени дни Общ Премиум акаунт"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "Добавени дни Танков премиум акаунт"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "Добавени призови битки: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "%(count)s дневни"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "%(count)s стандартни"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "Добавени слотове"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "Добавени призови битки"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \nСтандартни, за вашата ефективност в завършения етап: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \nЗа изпълнение на мисии: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \nДневни, за количеството шеврони, получени в квалификацията: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \nСтандартни, за количеството шеврони, получени в квалификацията: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "Промени в ранговете"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \nПолучени шеврони"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \nПолучени шеврони"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \nПреминаване в дивизион: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \nПреминаване в лиги"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \nШевронът е защитен"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \nПолучихте ранг %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \nИзгубихте ранг %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \nЩитът на ранг е отслабен"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \nБез промени"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \nЩитът на ранг е разбит"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \nШевронът е защитен"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \nПолучен е шеврон"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \nИзгубен е шеврон"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \nПолучени шеврони"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "Рейтингови точки"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "Получихте следните награди за вашите години служба"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "Поздравления!"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "Набор"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "Машини"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "Жена член на екипаж"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "Техническа загуба"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "Техническа победа"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "Победа"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "Премахнат е един слот за изключени карти. Картата \"%(mapName)s\" е върната в ротацията."
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "Изключената карта \"%(mapNames)s\" беше премахната от играта. Можете да изключите нова карта."
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "Един слот за изключени карти беше премахнат. Картата \"%(mapNames)s\" е върната в ротацията."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "Акцията започна!\nСамо в продължение на 10 дни можете да обменяте чертежите си за други ценни предмети."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "Подробности"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "Акцията завърши"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "Обменете чертежите си"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "Обмяната на чертежи е спряна поради профилактика."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "Обмяната на чертежи е възстановена."
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "Не забравяйте да вземете наградата си!"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "Отиди на избора"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "Бонусите от текущите битки не са включени."
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "Личен резерв \"%(boosterName)s\" е изключен по технически причини."
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: личният резерв е напълно изчерпан"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "Загубени резерви:"
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "Резервите са изтекли"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "кредитите"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "свободния опит"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "опита на екипажа"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "бойния опит"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "Общ бонус към %(resourceName)s:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "Затвори"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "Напуснахте или бяхте изключен от клана:"
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "Добавени %(element_name)s"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "Добавен медал \"%(element_name)s\""
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "Добавен банер \"%(element_name)s\""
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "Наградата е получена"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "Получени похвали"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "Лайв таговете са временно недостъпни"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "Лайв таговете са налични в битка"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "Похвалите са временно недостъпни"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "Похвалите са налични в битка"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "Дава Ви се %(gold)s злато, %(credits)s кредита."
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "Дават Ви се %(credits)s кредита."
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "Наличен е Асистент за екипажа"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "Асистентът за екипажа е недостъпен"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "Кредитните и златните резерви са отворени!"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "Аукцион"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "Боен пропуск"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "Дата"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "Отписани жетони"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "Извадени кредити"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "Премахнати бонове"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "Премахнати компоненти"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "Премахнати са юбилейни монети"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "Платен е свободен опит"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "Извадено злато"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "Финансова транзакция"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "Аукцион"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "Получени жетони"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "Получени кредити"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "Получени бонове"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "Получени компоненти"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "Получени са юбилейни монети"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "Получен свободен опит"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "Получено злато"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "Награда \"Герой на нашето време\""
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "Медал \"%(medalName)s\", получен за %(battlesCount)s изиграни битки\nДекали, получени за %(battlesCount)s изиграи битки (x%(decalsCount)s)"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "Операциите с комплекти за демонтиране са временно недостъпни поради профилактика."
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "Комплектите за демонтиране отново са достъпни. Извиняваме се за неудобството."
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "Отключен е фон за плочка: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "Отключена е гравюра за плочка: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "Плочка %(name)s"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "достигна ниво"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "Ново ниво"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "Отключено"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "Фон"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "Гравюра"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "Общият Премиум акаунт изтича на %(expiryTime)s."
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "Потвърди имейл"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "Имейлът не е потвърден"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "Експерименталният модул е използван"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "Всички експериментални модули са премахнати"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "Експериментални модули, демонтирани от следните машини"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "Сценарий"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• Директиви за оборудване, от които да избирате"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• Точки за Боен пропуск"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• Универсална брошура"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• Бонове"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• Точки за бойни резерви"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• Експериментално оборудване по избор"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• Лиценз за менторство"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• Заповеди за преобучение"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• Универсална инструкция"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "Бяха ви дадени юбилейни монети: %(eventCoin)s."
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "Отключен е допълнителен слот за изключване на карти"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "Не могат да се изключат карти с WoT Плюс"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "Причина"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "Абонаментът за Boosteroid приключи."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "Абонаментът приключи."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "Машината е деактивирана"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "Машина"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "Машината е достъпна"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "Машина"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "Напредъкът е нулиран"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "Отиди на мисия"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "Внимание! Напредъкът по мисията \"%(missionShortName)s\" беше нулиран. Изпълнението на условията ще започне наново."
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "Мисия: \"%(missionName)s\""
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "Операция: \"%(operation)s\""
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s, %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "Подробности"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "Бяхте временно блокирани от битки в режим %(mode)s. Блокирането ще бъде премахнато на %(date)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "Временното ви блокиране е отстранено. Можете отново да играете в режим %(mode)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "Вашите кредити, опит и награди, спечелени в битка, са премахнати поради %(reason)s в режим %(mode)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "Получихте предупреждение за %(reason)s в режим %(mode)s."
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "Блокиране"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "Край на блокирането"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "Наказани сте"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "Неспортсменско поведение"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "Обявена е война на клан %(clan)s!\nНастъплението започва на %(date)s в %(time)s."
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "Отбраната е смазана!\nВсички нападения са отменени. Попълнете скалата за издръжливост на Командния център, за да функционира Укреплението."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "Насрочената битка с клан %(clan)s е отменена."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "Настъплението от %(time)s на %(date)s срещу клан %(clan)s е отменено: разликата между нивата на Укрепленията е повече от 1 ниво."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "Сграда %(building)s е частично разрушена! Попълнете скалата за издръжливост, за да функционира сградата."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "Командният център е частично разрушен! Запълнете скалата за издръжливост, за да функционира Укреплението. Ако вашият Команден център понесе още поражения, вашата отбрана ще бъде смазана."
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "Клан %(clan)s ви обяви война!\nНастъплението започва на %(date)s в %(time)s."
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "Зададен Период на отбрана: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "Периодът на отбрана е променен. Нов Период на отбрана: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "Отбраната на вашето Укрепление е изключена. Нивото на всички сгради и резерви е намалено до ниво IV."
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "Поздравления! Развихте Укреплението си до ниво VIII."
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "Поздравления! Укреплението е напълно готово за благото на клана."
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "Денят на примирие е променен. Не е зададен нов ден на примирие."
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "Денят на примирие е зададен: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "Нивото на сграда %(building)s беше повишено.\nПодготвяният резерв %(order)s беше преобразуван в производствен ресурс и добавен към склада на сградата."
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "Резерв %(orderTypeName)s е компенсиран и готов за активиране."
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "Домашният сървър е променен на %(peripheryName)s."
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "Добавен производствен ресурс: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "Отписан производствен ресурс: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "Вие сте прикрепен към сграда %(building)s."
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "Добавени резерви: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "Отписани резерви: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "Резерв %(order)s е активиран. Оставащо време: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "Резервът е активиран"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "Резерв %(order)s е напълно използван."
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "Подготовката на %(count)s резерв(и) %(order)s е завършена."
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "Резервът \"Евакуация\" изтече.\n\n%(additional)s\nОбщо за нашия клан: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "Допълнително запазено от нашия клан: %(resInc)s\nВрагът активира резерв \"Реквизиция\" и заграби допълнително: %(resDec)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "Резервът \"Реквизиция\" изтече.\n\n%(additional)s\nОбщо за нашия клан: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "Допълнително заграбено от нашия клан: %(resInc)s\nВрагът активира резерв \"Евакуация\" и запази допълнително: %(resDec)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "Складът на сграда %(building)s е пълен.\nИзползвайте производствен ресурс, за да подготвите резерви или го транспортирайте в друга сграда."
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "Периодът на неутралитет за вашето Укрепление изтече.\nСега другите кланове могат да ви нападат - бъдете готови!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "Укреплението ви спазва неутралитет.\nСега други кланове не могат да ви нападат. Периодът на неутралитет изтича след %(finish)s."
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "%(defResCount)s единици производствен ресурс са добавени към склада на Командния център."
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "Отиди на събитието"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "Към напредъка"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "Дава Ви се %(gold)s злато."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "Аукцион: Вашето наддаване е по-ниско от конкурентното наддаване."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "Шансовете ви да спечелите текущия аукцион намаляха: в момента вашето наддаване е по-ниско от конкурентното наддаване."
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "Към събитието"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "Вашето наддаване загуби. За връщане:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "Други играчи наддадоха над вас. Вашето наддаване скоро ще бъде върнато в акаунта ви."
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "Грешка"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "Грешка при наддаване. Не се извадени средства. Моля опитайте отново."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "Наддаването скоро приключва."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "Побързайте и направете наддаване!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "Побързайте и направете наддаване. Предметите са ограничени."
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "Наддаването за новия лот започна!"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "Легла, добавени в Казармата"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "Легла, премахнати от Казармата"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "Лични резерви"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "Премахнати са лични резерви"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "Добавени жетони"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "Отписани жетони"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "Компенсация за"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "с жетони"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "Камуфлаж"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "кредити"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "с бонове"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "Емблема"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "с юбилейни монети"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "злато"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "Надпис"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "Ефект"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "Боя"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "Едноцифрен номер"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "Двуцифрен номер"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "Трицифрено число"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "Декал"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "Стил"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "Добавени кредити"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "От сметката ви бяха извадени кредити"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "Добавени книги за екипажа"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "екипажът е изпратен в Казармата"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "екипаж %d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "Добавени са облици на екипажа"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "Премахнати са облици на екипажа"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "екипажът на %d%% е изпратен в Казармата"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "екипажът е освободен"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "Получени бонове"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "Премахнати бонове"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "Лични отстъпки"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "Добавени награди"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "Отнети награди"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "Добавени експериментални модули"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "Премахнати експериментални модули"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "Добавени"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "Премахнати"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "Добавени компоненти"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "Премахнати компоненти"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "Снаряжение"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "Отнето снаряжение"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "Добавени са юбилейни монети"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "Премахнати са юбилейни монети"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "Изтичащи лични резерви"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "Добавени са заповеди"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "Отписани са заповеди"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "Свободен опит"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "Добавен е свободен опит"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "Платен е свободен опит"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "Добавено злато"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "Извадено злато"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "Добавени са универсални фрагменти"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "Премахнати са универсални фрагменти"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "Квитанция"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "Добавено в Склада"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "Отнето снаряжение"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "На машините"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "Добавени са фрагменти от чертеж за машини %(nationName)s"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "Премахнати са фрагменти от чертеж за машини %(nationName)s"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "Добавени"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "Премахнато"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "бр."
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "Добавени дни Общ Премиум акаунт"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "Отнети са дни Общ Премиум акаунт"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "Общ Премиум акаунт"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "%(vehicleName)s получи %(xpCount)s елитни точки."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "%(vehicleName)s получи Елитно ниво %(level)s и %(xpCount)s елитни точки."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "%(vehicleName)s получи Елитно ниво %(level)s."
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "Предмети от"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "Steam добавка"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Steam инвентар"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "Добавени призови битки"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "Премахнати призови битки"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "дни наем: "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "Добавени слотове"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "Премахнати слотове"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "Танков премиум акаунт"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "Добавени дни Танков премиум акаунт"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "Отнети са дни Танков премиум акаунт"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "Новобранци"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "Добавен е неразпределен опит към членовете на клана"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "Премахнат е неразпределен опит от членовете на клана"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "Освободени"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "всички модули са изследвани"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "Добавени са фрагменти от чертеж за %(vehicleName)s"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "Премахнати са фрагменти от чертеж за %(vehicleName)s"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "Добавени машини"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "Премахнати танкове"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "Добавени наети машини"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "Дава ви се снаряжение: %(typeName)s \"%(itemName)s\" - %(amount)d бр."
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "Към кутиите"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "Натиснете бутона, за да видите съдържанието."
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "Получихте пратка:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Виж"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "Отворени портали: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "Отваряне на портали"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "Получени предмети:\n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "Отворихме всички ваши портали и добавихме съдържанието им към акаунта ви:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Наградата е получена"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Отворихме всички ваши кутии и добавихме наградите за \"Новогодишно настъпление\""
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "Получени награди"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "Добавени декали: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "Добавен декал: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "Към анкетата"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "Поздравления!"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "Разузнавателната мисия завърши. Благодарим ви за приноса към развитието на нови карти!"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "Разузнавателната мисия завърши.\n\nБлагодарим ви за приноса към развитието на нови карти!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "Разузнавателната мисия започна.\n\nСражавайте се на карти в разработка с машини ниво VIII–X, споделете мнението си в анкетите и получете награди!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "Финална награда:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "Изиграхте %(battles)s битки в Разузнавателна мисия."
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "Получена награда:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "Можете да участвате в проучването за новите механики на режима в Разузнавателна мисия."
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "Достъпна е анкета"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "Можете да попълните анкетата за карта %(mapName)s в Разузнавателна мисия."
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "Към Казармата"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "Премахнати членове на екипажа: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "Припаси от тила"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "Наличен е Помощник за оборудване"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "Помощникът за оборудване е недостъпен"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "Имате нови резерви:"
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "Известие за новост"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "Изтичащи резерви:"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "Изтичащите резерви ще бъдат загубени"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "Получени кредити: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "Дата: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "Финансова транзакция:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "Добавено в Склада: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "Квитанция"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "Започна нов цикъл на натрупване."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "Стартира нов цикъл на натрупване. За да спечелите кредити, активирайте Танков премиум акаунт."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "Стартира нов цикъл на натрупване. За да спечелите злато, абонирайте се за WoT Плюс."
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "Натрупването на кредити в Хранилището за кредити беше спряно."
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "Кредитният резерв е отворен!"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "Получи награда"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "Пост-напредъкът е завършен!"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "Към напредъка"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "Пост-напредък"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "Получихте достъп до специална награда."
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "Кланова битка"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "Резултати от битката"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "Турнир"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "Загуба"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "Реми"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "Резултатите не са определени"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "Победа!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "Изтрито от създателя"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "Технически проблем"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "Бяхте изключен(а)"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "Техническа загуба"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "Техническо реми"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "Резултатите не са определени"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "Техническа победа!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "Таймаутът изтече"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "Завършено"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(битка %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "Временни резултати"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "Резултат"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "Получен е Общ Премиум акаунт. Изтича на %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "Общият Премиум акаунт е променен. Изтича на %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "Общият Премиум акаунт изтече."
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "Общият Премиум акаунт е удължен. Изтича на %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "Получен е Танков премиум акаунт. Изтича на %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "Танковият премиум акаунт е променен. Изтича на %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "Танковият премиум акаунт изтече."
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "Танковият премиум акаунт е удължен. Изтича на %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "Даден Ви е Общ Премиум акаунт за %(days)d дена."
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "Към Елитна система"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "Получени елитни нива и елитни знаци."
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "Елитна система"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "Към машините"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "Получено е Елитно ниво"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "Възникна грешка при получаване на елитната награда."
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "%(rewardName)s %(typeReward)s получена за достигане на елитно ниво %(lvl)s."
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "Получена е елитна награда."
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "Внимание!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "Подробности"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "Камуфлаж"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "декал"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "емблема"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "Надпис"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(name)s%(level)s %(typeName)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "И още %(count)s"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr " ниво %(level)s"
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "боя"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "декал"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "Получено:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "Стил \"%(name)s\""
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "Поздравления!"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "Подробности"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "Награда за заслуга"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "Участвайте в битки и печелете награди. Колкото повече се сражавате, толкова по-близо са наградите."
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "Получена е повишена награда:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "Подробности"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "%(surplusPoints)s жетон(а) за ранг са прехвърлени в %(count)s бона."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "Поздравления!"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "Получена е максимална награда:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "Получена е стандартна награда:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "Получена е малка награда:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "През 2021–2022 спечелихте %(points)s жетон(а) за ранг."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "Годишна награда"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "Подкрепленията пристигнаха!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "Получихте екипаж за %(event)s."
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "Имате членове на екипажа за набиране: %(count)s. Следващо премахване на %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "Имате членове на екипажа за набиране: %(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "Премахнати нашивки"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "Компенсация"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "Добавени кредити за неизползвано време на наем на %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "Добавено злато за неизползвано време на наем на %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "Наемът на %(vehicleName)s изтече."
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "Фрагменти от чертежи: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "Кредити: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "Бонове: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "Подробности"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "Свободен опит: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "Злато: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "универсални фрагменти"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "Текущ напредък: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "Ресурси, вложени в проекта Конструкторско бюро:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "Вложени ресурси"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "Вложи ресурси"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "Ресурси, върнати от Конструкторското бюро:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "Връщане на ресурси"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "Обучителни брошури, от които да избирате"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "Обучителни съветници, от който да избирате"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "Камуфлаж"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "Действието на %s е удължено поради техническа поддръжка."
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "Емблеми"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "Надписи"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "Общ Премиум акаунт"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "Танков премиум акаунт"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "Наем"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "Игровият сървър ще бъде изключен на %(date)s."
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "Изключването на игровия сървър е отменено, планирано е за %(date)s."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "Налична е персонализация на лично досие"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "Тази функция е спряна."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "Персонализацията на лични досиета в момента не е налична"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "Универсален фрагмент (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "Национален фрагмент (%(nationName)s) (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "Специална награда"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "Фрагмент от чертеж за %(vehicleName)s (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "Получена награда за потвърждаване на имейла:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "Поздравления!"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "Получена компенсация за фрагменти от чертежи за вече изследвани машини:"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "Камуфлажът е променен"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "Получени кредити: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "Извадени кредити: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "Бонове: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "Бонове: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "Променени са елементи на външния вид."
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "Променени са елементи на външния вид. Купени елементи: %(count)s. Похарчихте %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "Емблемите са променени"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "Добавени юбилейни монети: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "Премахнати юбилейни монети: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "Получен свободен опит: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "Изваден свободен опит: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "Получено злато: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "Извадено злато: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "Надписите са променени"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "Универсални фрагменти"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "Фрагменти %(nationName)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "След обновлението всички декали бяха премахнати от машините и сложени в Склада, в раздел \"Външен вид\"."
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "Добавени слотове: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "Премахнати слотове: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "Внимание!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "Добавени машини: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "Премахнати машини: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "Бяха купени следните елементи за външния вид:\n%(items)s\nПохарчихте %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "Елемент \"%(itemName)s\" %(itemType)s е купен успешно.\nПохарчихте %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "Успешна покупка на ниво %(level)s на стил \"%(name)s\".\nПохарчихте %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "Елементите на външния вид на машината бяха променени."
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "%(itemType)s \"%(itemName)s\" (%(count)s бр.)"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "Стил %(styleName)s ниво %(level)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "Елементи за външния вид бяха премахнати от машината."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "Поздравления!\nЕтапните декали ви позволяват да изменяте готовите стилове за %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "Поздравления!\nПолучихте декал \"%(itemName)s\" ниво I за %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "Поздравления!\nПолучихте декал \"%(itemName)s\" ниво I."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "Достигнат е декал \"%(itemName)s\" ниво %(level)s за %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "Към външния вид"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "Достигнат е декал \"%(itemName)s\" ниво %(level)s."
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Похарчено: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "Пустинна карта: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "Лятна карта: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "Зимна карта: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Получено: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "Разглобено оборудване"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "Към външния вид"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "Поради смяна на модули следните елементи на външния вид бяха премахнати от %(vehicle)s."
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "Персонализация:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "Разглобено оборудване"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "Демонтирано:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "Грешка:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "Финансова транзакция:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "Продажба на предмети от Склада:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "Начин на плащане \"%(method)s\" е добавен"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "Начин на плащане \"%(method)s\" е премахнат"
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "Изследвано:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "Купено:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "Премахване от Парка:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "Ремонт:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "Възстановено:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "Продадено:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "Подобряване на оборудване"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "Даден Ви е Танков премиум акаунт за %(days)d дена."
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "Към резервите"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "Камуфлажът на танк %(vehicleName)s изтече."
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "Емблемата на танк %(vehicleName)s изтече."
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "Надписът на танк %(vehicleName)s изтече."
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "Колекцията е достъпна"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "Поздравления!\nИзследвахте машина ниво %(level)s %(nation)s. Сега можете да купите колекционерски машини от същото ниво и нация в Магазина."
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "Машината е унищожена. %(vehicleName)s недостъпна за кланови битки до %(expireTime)s."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "Отключен. %(vehicleName)s е достъпен за кланови битки."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Всички двойни модификации за %(vehicle)s са отменени."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "Модификацията е отменена"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "изключено"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "включено"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "Превключването между набори с оборудване и директиви по време на отброяването преди битка за %(tankName)s е %(state)s."
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "Превключването между набори със снаряди и снаряжение по време на отброяването преди битка за %(tankName)s е %(state)s."
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "Дадена Ви е Премиум машина: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "Неуспешно наемане. Недостатъчни средства."
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "Машина %(vehicleName)s е наета. Наемът изтича на: %(expiryTime)s."
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "Заключването завърши. Машините са достъпни за кланова битка."
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "Играч %(srcName)s преведе %(srcWares)s злато във вашия акаунт."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)sзлато преведено на играч %(dstName)s. Такса: %(fee)s."
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "Отстъпка за машина ниво %(level)s"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "Получени са награди за завършване на напредъка „Отново в действие“:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "Изберете награда"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "Отстъпка за машина ниво %(level)s"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% и %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "Добавени отстъпки при закупуване и изследване: "
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "Поздравления!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "Машина ниво %(level)s"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "Изберете награди от наличните категории."
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "Избери"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "Получени награди!"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "Предимствата на Боен пропуск Плюс са спрени."
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "Боен пропуск Плюс в момента е недостъпен"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "Боен пропуск Плюс е наличен."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "Продължете да влизате в играта, за да получите още награди!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "Специална награда за присъствие!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "Цикълът е завършен"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "Влизайте в играта и получавайте награди."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "Цикълът започна!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "Награда за присъствие"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "Върнете се друг ден за нова награда!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "Присъствието е зачетено!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "Функцията Награди за присъствие е спряна."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "Наградите за присъствие не са налични"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "Наградите за присъствие са налични"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "Ексклузивният <font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s е наличен."
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "<font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s, ексклузивен за WoT Плюс временно не е наличен."
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "WoT Плюс Основен изтече на %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "Безплатен демонтаж на оборудването не е наличен"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "Удължете WoT Плюс, за да получите всички предимства отново."
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "WoT Плюс изтече на %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "WoT Плюс Про изтече на %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "Натрупването на злато е спряно."
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "Златният резерв в момента не е наличен"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "Златен резерв е наличен"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "Златният резерв е пълен: Не можете да трупате повече злато"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "Златният резерв е отворен!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "Всички предимства са вече налични.\nУдължава се на: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "Удължава се отново на: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "Вашият 180-дневен план вече е активен. Насладете се!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "Вашият 360-дневен план вече е активен. Насладете се!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "Вашият 180-дневен план вече е активен. Насладете се!\nУдължава се на: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "Вашият 360-дневен план вече е активен. Насладете се!\nУдължава се на: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "Интензивен режим на екипажа спря да работи за <font color='#E9E2BF'>%(vehicleName)s</font>. Проверете екипажа на машината."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "Един или повече членове на екипажа на <font color='#E9E2BF'>%(vehicleName)s</font> не са квалифицирани за интензивен режим на екипажа и не натрупват опит на екипажа."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "Интензивен режим на екипажа"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "Интензивен режим на екипажа е активиран за членовете на екипажа %(vehicleName)s."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "Интензивен режим на екипажа е деактивиран за членовете на екипажа %(vehicleName)s."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "Натрупването на опит на екипажа е спряно."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "Интензивен режим на екипажа в момента не е наличен"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "Наличен е интензивен режим на екипажа"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "Изберете машина, за да получите безплатен бонус към опита на екипажа."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "Екипажът на интензивен режим беше прехвърлен от <font color='#E9E2BF'>%(oldVehName)s</font> на <font color='#E9E2BF'>%(newVehName)s</font>. Екипажът от <font color='#E9E2BF'>%(oldVehName)s</font> спря да трупа опит."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "Екипажът на интензивен режим е преместен"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "Бонус опитът на екипажа не може да бъде приложен към един или повече членове на екипажа."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "Пропускате ценен опит на екипажа!"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "Можете да промените избора си отново след %(cooldown)s часа."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "Про Бустерът е активиран за %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "Можете да бустнете друга машина, вместо тази."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "Про Бустерът е деактивиран за %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "Печалбите от Про Бустера са спрени."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "Про Бустерът в момента е недостъпен"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "Про Бустерът е наличен"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)s вече не е бустнат. Можете да промените избора си след %(cooldown)s часа."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "Про Бустерът е преместен на %(vehicleNameTo)s"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "Сменена е датата за удължаване на WoT Plus"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "Изберете машина от списъка за наемане."
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "Не е избрана машина за наемане"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "%(vehicle)s скоро ще бъде добавен към акаунта ви."
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "Нает!"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "Тези предимства за деактивирани."
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "WoT Плюс не е наличен"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "Активиран е WoT Плюс Основен"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "Безплатен демонтаж на оборудването е наличен"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "Активиран е WoT Плюс"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT Плюс Про"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "WoT Плюс е надграден до Про!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "Удължи"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "Даден Ви е %(freeXP)s свободен опит."
+
+msgid "status/offline"
+msgstr "Извън линия"
+
+msgid "status/online"
+msgstr "На линия"
+
+msgid "xmpp_error/action"
+msgstr "Неуспешно изпълнение на \"%(actionName)s\". Опитайте отново по-късно."
+
+msgid "xmpp_error/simple"
+msgstr "Опитайте отново по-късно."
+
+msgid "xmpp_error/user_room_creation"
+msgstr "Неуспешно създаване на потребителски канал \"%(strArg1)s\"."

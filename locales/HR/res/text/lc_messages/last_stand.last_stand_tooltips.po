@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "Akcija dostupna za %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) - režim igre. Kliknite za istraživanje"
+
+msgid "bannerTooltip/description"
+msgstr "Posebni PvE režim koji vas stavlja protiv valova neprijateljskih sila. Odaberite omiljeno vozilo, uništite eho tenkove i odbijte juriš. Ekskluzivne nagrade i još toga vas čeka!"
+
+msgid "bannerTooltip/header"
+msgstr "Posljednje uporište: Terra Nord"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Performanse vašeg računala su nedovoljne za ovaj režim. Možete imati poteškoća s grafikom i kretanjem vozila. Moguće je i rušenje klijenta igre."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Ovaj režim zahtjeva visoke performanse računala. Imat ćete poteškoća s učitavanjem mape, grafikom i kretanjem vozila. U slučaju nedovoljnih performansi, pokušajte s nižom kvalitetom grafike u postavkama."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Niske performanse"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Moguće umanjene performanse"
+
+msgid "battlePass/playGame"
+msgstr "Osvojite bodove u Posljednjem uporištu napredovanjem kroz akciju (potrebna su vozila razine VIII)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Već ste prijatelji."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Čekam potvrdu zahtjeva za prijatelja."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Ukloni igrača s tvoje Crne liste."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Dodaj na listu prijatelja."
+
+msgid "battleResult/interaction/menu"
+msgstr "Kliknite za otvaranje izbornika interakcije s ovim igračem."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Dodaj u vod."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Igrač je već u vodu."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Poziv je već poslan."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Samo zapovjednik voda može pozvati igrače u vod"
+
+msgid "booster/activated"
+msgstr "Aktiviran"
+
+msgid "booster/howItWorks"
+msgstr "Kako funkcionira"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Hlađenje: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Trošak miriuma: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "Preostalo vrijeme za izvršenje dnevnog zadatka"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "Vremena do slijedećeg dnevnog zadatka"
+
+msgid "dailyQuests/completed"
+msgstr "Izvršeno"
+
+msgid "dailyQuests/completedAll"
+msgstr "Izvršili ste sve dnevne zadatke ove akcije."
+
+msgid "dailyQuests/completedDescr"
+msgstr "Izvršili ste ovaj dnevni zadatak. Novi će biti dostupan sutra."
+
+msgid "dailyQuests/rewards"
+msgstr "Nagrade:"
+
+msgid "dailyQuests/status"
+msgstr "Novi dnevni zadatak za %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "Akcija dostupna za %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Odaberite dostupno vozilo za ulazak u bitku."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Nedostupno"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Bitke u odabranoj težini/režimu su privremeno nedostupne zbog tehničkih razloga."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Nedostupno"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Pričekajte za povratak voda iz prethodne bitke za ulazak u novu bitku."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Nedostupno"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Nekompatibilna razina težine za vod."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Nedostupno"
+
+msgid "points/accrued"
+msgstr "Primljen"
+
+msgid "points/battles"
+msgstr "• Borite se u bitkama akcije"
+
+msgid "points/body"
+msgstr "Podaci se koriste za napredovanje kroz Posljednje uporište i stjecanje vrijednih resursa. Može se zaraditi borbama u bitkama akcije, izvršenjem dnevnih zadataka ili kupnjom \"{{bundle_name}}\"."
+
+msgid "points/bottom"
+msgstr "Akcija završava: (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• Izvršite nove dnevne zadatke svaki dan"
+
+msgid "points/effective"
+msgstr "• Učinkovitost u bitci:"
+
+msgid "points/gold"
+msgstr "• Kupi \"{{bundle_name}}\" u prodavaonici"
+
+msgid "points/header"
+msgstr "Podaci"
+
+msgid "points/howToEarn"
+msgstr "Kako zaraditi"
+
+msgid "points/missionDaily"
+msgstr "• Izvršen dnevni zadatak"
+
+msgid "points/obelisk"
+msgstr "• Uništeno obeliska:"
+
+msgid "points/vehicleDaily"
+msgstr "• Primljen dnevni bonus vozila:"
+
+msgid "rewardPath/info/first"
+msgstr "Možete zaraditi više podataka izvršavanjem dnevnih zadataka koji se osvježavaju svaki dan tijekom akcije."
+
+msgid "rewardPath/info/header"
+msgstr "Dodatni podaci"
+
+msgid "rewardPath/info/second"
+msgstr "Posebni paket akcije, dostupan u prodavaonici, koji sadrži i podatke za pojačanje vašeg napretka."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "Bonus vozila:"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "Ostale nagrade:"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}Bonus vozila{EDCB9E_End} — {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "Svi podaci i nagrade primljeni"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "Primljeno podataka {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "Skupljajte podatke u bitci i napredujte kroz Posljednje uporište. Svaka etapa vas nagrađuje s vrijednim predmetima i bonusom vozila koji će vam pomoći da porazite teže neprijatelje."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "Konačna etapa"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "Trenutna etapa"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "Akcija dostupna za {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "Napredak"
+
+msgid "shopWidget/body"
+msgstr "Kliknite za otvaranje posebnog odjeljka u prodavaonici u igri s ekskluzivnim predmetima akcije."
+
+msgid "shopWidget/header"
+msgstr "Paketi akcije"
+
+msgid "teamList/actions/body"
+msgstr "Brze akcije za stvaranje voda i dodavanje/uklanjanje prijatelja."
+
+msgid "teamList/actions/header"
+msgstr "Brze akcije"
+
+msgid "teamList/damage/body"
+msgstr "Poredaj po nanešenoj šteti."
+
+msgid "teamList/damage/header"
+msgstr "Nanešena šteta"
+
+msgid "teamList/keys/body"
+msgstr "Poredaj po zarađenim podacima. Prikazana vrijednost ne računa dodatne podatke primljene za izvršenje dnevnih zadataka ili iz dnevnih bonusa vozila."
+
+msgid "teamList/keys/header"
+msgstr "Podaci"
+
+msgid "teamList/kills/body"
+msgstr "Poredaj po uništenim neprijateljskim vozilima."
+
+msgid "teamList/kills/header"
+msgstr "Uništeno neprijateljskih vozila"
+
+msgid "teamList/name/header"
+msgstr "Igrač"
+
+msgid "teamList/place/body"
+msgstr "Poredaj po položaju u timu."
+
+msgid "teamList/place/header"
+msgstr "Položaj u timu"
+
+msgid "teamList/squad/header"
+msgstr "Vod je taktička jedinica za suradnju igrača u bitkama."
+
+msgid "teamList/vehicle/body"
+msgstr "Poredaj po tipu i imenu vozila"
+
+msgid "teamList/vehicle/header"
+msgstr "Vozila"
+
+msgid "teamList/warned/body"
+msgstr "Ovaj igrač je kažnjen zbog neaktivnosti/dezertiranja i nije primio nikakve nagrade za ovu bitku."
+
+msgid "teamList/warned/header"
+msgstr "Upozorenje"
+
+msgid "teamList/warned/self/body"
+msgstr "Kažnjeni ste zbog neaktivnosti/dezertiranja i niste primili nikakve nagrade za ovu bitku."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Niska učinkovitost posade"
+
+msgid "vehicle/rentState"
+msgstr "Vozilo zaključano"
+
+msgid "vehicleDaily/header"
+msgstr "Dnevni bonus vozila"

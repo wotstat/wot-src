@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Aktivoi"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Osta ja aktivoi"
+
+msgid "activation/activateBonus"
+msgstr "Aktivoi reservi: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Aktivoi reservi"
+
+msgid "activation/activateButtonClan"
+msgstr "Linnakkeeseen"
+
+msgid "activation/battleXPDescription"
+msgstr "Bonus taistelukokemuksen 1 t ajan"
+
+msgid "activation/battleXPTitle"
+msgstr "Taistelukokemus"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Osta ja aktivoi paranneltu henkilökohtainen reservi, joka tarjoaa %(boosterBonus)sbonuksen %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Osta kultaa"
+
+msgid "activation/buyGoldTitle"
+msgstr "Osta kultaa, joka vaaditaan paranneltuun henkilökohtaiseen reserviin, joka tarjoaa %(boosterBonus)s bonuksen %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Kultaa, jota vaaditaan parannellun henkilökohtaisen reservin ostamiseen:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Krediitit ja taistelukokemus"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "Miehistökokemus ja vapaa kokemus"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Klaanireservit"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Aktivoi reservi linnakkeessa"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Katsele linnakkeessa"
+
+msgid "activation/comboXPDescription"
+msgstr "Bonus vapaaseen ja miehistökokemukseen 1 t ajan"
+
+msgid "activation/comboXPTitle"
+msgstr "Yhdistetty kokemus"
+
+msgid "activation/creditsDescription"
+msgstr "Bonus krediitteihin 1 t ajan"
+
+msgid "activation/creditsTitle"
+msgstr "Krediitit"
+
+msgid "activation/footer"
+msgstr "Vanhenevat reservit, jotka tulee aktivoda: %(expirableAmount) %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Bonus etulinjan kokemukseen 1 t ajan"
+
+msgid "activation/frontLineXPTitle"
+msgstr "Etulinjan kokemus"
+
+msgid "activation/informationButton"
+msgstr "TIEDOT"
+
+msgid "activation/price"
+msgstr "Hinta:"
+
+msgid "activation/subFooter/depot"
+msgstr "Varikko"
+
+msgid "activation/subFooter/main"
+msgstr "Lähinnä vanhenemisaikaansa olevat reservit aktivoidaan ensin. Voit nähdä kaikki saatavilla olevat reservisi: %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Aktivoi {whiteSpanish_Open}korkeintaan 3 henkilökohtaista reserviä{whiteSpanish_Close} ansaitaksesi krediittejä ja kokemusta taisteluissa. Osta lisää henkilökohtaisia reservejä %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "Kaupasta"
+
+msgid "activation/terms/booster_credits"
+msgstr "krediitteihin"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "Etulinjan kokemukseen"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "yhdistettyyn kokemukseen"
+
+msgid "activation/terms/booster_xp"
+msgstr "taistelukokemukseen"
+
+msgid "activation/title"
+msgstr "HENKILÖKOHTAISET RESERVIT"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Aktivoitu henkilökohtainen reservi, joka tarjoaa %(previousBoosterBonus)s bonuksen%(previousBoosterTerm)s menetetään.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Haluatko aktivoida parannellun henkilökohtaisen reservin, joka tarjoaa %(boosterBonus)s bonuksen %(boosterTerm)s aktivoidun tavallisen henkilökohtaisen reservin sijaan?"
+
+msgid "battleView/notice"
+msgstr "Henkilökohtaiset reservit voi aktivoida mihin hyvänsä aikaan taistelussa. Saat bonuksen, vaikka reservi päättyisi taistelun aikana."
+
+msgid "battleView/title"
+msgstr "Henkilökohtaisten reservien aktivointi"
+
+msgid "depot/buyButton"
+msgstr "Ostamiseen"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Toinen tämäntyyppinen reservi on jo aktivoitu."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Tämän henkilökohtaisen reservin aika päättyi taistelun aikana. Henkilökohtaisen reservin bonus koskee silti tätä taistelua."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)min"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Aktivoidut henkilökohtaiset reservit eivät vaikuta tähän pelimuotoon."
+
+msgid "intro/buttons/close"
+msgstr "Selvä!"
+
+msgid "intro/buttons/details"
+msgstr "Lisätiedot"
+
+msgid "intro/description"
+msgstr "Vanhenevat henkilökohtaiset reservit ovat saatavilla rajatun ajan niiden saamisen jälkeen. Mikäli niitä ei aktivoida tänä aikana, ne menetetään. Henkilökohtaisia reservejä, jotka eivät vanhene, ei voida käyttää, kun sinulla on saman tyyppisiä vanhenevia reservejä saatavilla."
+
+msgid "intro/title"
+msgstr "VANHENEVAT HENKILÖKOHTAISET RESERVIT"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Ei tämän tyyppisiä henkilökohtaisia reservejä varastossa. Voit ostaa niitä myöhemmin tai aktivoida niitä tallissa."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Suorita tehtäviä ja osallistu pelitapahtumiin ansaitaksesi henkilökohtaisia reservejä."
+
+msgid "noReserveTooltip/text"
+msgstr "Ei tämän tyyppisiä henkilökohtaisia reservejä varastossa."

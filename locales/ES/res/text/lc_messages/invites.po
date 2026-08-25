@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: Traductor de WoT <noreply@wargaming.net>\nLanguage-Team: Equipo WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sVer%(linkEndTag)s los detalles del jugador"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sSolicitud al clan%(titleEndTag)s\nde %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Ver solicitudes"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sDesactivar%(linkEndTag)s notificaciones"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sSolicitudes de jugadores: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sVer%(linkEndTag)s detalles del clan"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sInvitación de clan%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Ver invitaciones"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sInvitaciones de clan: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "El jugador fue aceptado en el clan."
+
+msgid "clans/state/app/declined"
+msgstr "Solicitud rechazada."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "La sanción de un día del jugador por dejar el clan anterior aún no ha terminado."
+
+msgid "clans/state/invite/accepted"
+msgstr "Fuiste aceptado en el clan."
+
+msgid "clans/state/invite/declined"
+msgstr "Invitación rechazada."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Tu sanción de un día por dejar el clan anterior aún no ha terminado."
+
+msgid "errors/creationNotAllowed"
+msgstr "No tienes suficientes permisos para crear una invitación."
+
+msgid "errors/invalid"
+msgstr "Invitación no válida"
+
+msgid "errors/inviteNotSupported"
+msgstr "Este tipo de invitación no está disponible en este momento. Inténtalo de nuevo más tarde."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "El destinatario de la invitación te añadió a su lista negra."
+
+msgid "errors/selfinvite"
+msgstr "No puedes invitarte a tí mismo."
+
+msgid "errors/unknownuser"
+msgstr "Este usuario no se encuentra registrado aún en el sistema."
+
+msgid "errors/useroffline"
+msgstr "El usuario está inactivo."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "El vehículo en el garaje está dañado o bloqueado. Seleccione otro vehículo."
+
+msgid "friendship/note/approved"
+msgstr "Jugador añadido a la lista de amigos"
+
+msgid "friendship/note/canceled"
+msgstr "Petición rechazada"
+
+msgid "friendship/note/maxRoster"
+msgstr "Número máximo de contactos en la lista: %(rosterMaxCount)s. Para añadir a este jugador a tu lista de amigos, elimina a alguien de la lista primero."
+
+msgid "friendship/note/notConnected"
+msgstr "No se puede conectar al servidor. Por favor, espera."
+
+msgid "friendship/note/process"
+msgstr "Esperando respuesta del servidor"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sSolicitud de amistad%(titleEndTag)s\nde %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Aceptar"
+
+msgid "gui/buttons/cancel"
+msgstr "Cancelar"
+
+msgid "gui/buttons/reject"
+msgstr "Rechazar"
+
+msgid "gui/buttons/send"
+msgstr "Enviar"
+
+msgid "gui/labels/additionalText"
+msgstr "Texto adicional de la invitación:"
+
+msgid "gui/labels/inviteText"
+msgstr "Texto de la invitación:"
+
+msgid "gui/labels/receiver"
+msgstr "Destinatario:"
+
+msgid "gui/titles/barter"
+msgstr "Invitación de transacción"
+
+msgid "gui/titles/clan"
+msgstr "Invitación de clan"
+
+msgid "gui/titles/invite"
+msgstr "Invitación"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Invitaciones"
+
+msgid "invites/comment"
+msgstr "«%(comment)s»"
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Una vez aceptes la invitación, dejarás la unidad táctica automáticamente y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Una vez aceptes la invitación, dejarás la unidad táctica automáticamente y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "Una vez que aceptes la invitación, se te excluirá automáticamente de la batalla en el mapa global y serás transferido al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "Una vez aceptes la invitación, dejarás la unidad táctica automáticamente y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Una vez aceptes la invitación, dejarás la unidad táctica automáticamente y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "Una vez aceptes la invitación, dejarás la unidad táctica automáticamente y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Cuando aceptes la invitación, se te excluirá automáticamente del entrenamiento en equipo del modo Línea del frente y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "Una vez aceptes la invitación, dejarás la unidad táctica automáticamente y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Una vez que aceptas la invitación, saldrás del modo Batalla en equipo y serás transferido al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "Cuando aceptes la invitación, dejarás el pelotón automáticamente y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "Cuando aceptes la invitación, dejarás Fortalezas: batallas y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "Una vez aceptes la invitación, abandonarás el modo Avances y serás transferido al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "Cuando aceptes la invitación, dejarás el pelotón de Misión de reconocimiento automáticamente y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "Una vez que aceptes la invitación, serás excluido de la sala de entrenamiento y transferido al servidor %(host)s automáticamente."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "Cuando aceptes la invitación, dejarás Fortalezas: batallas y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "Cuando aceptes la invitación, dejarás el pelotón automáticamente y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "Una vez aceptes la invitación, abandonarás el destacamento actual y serás transferido al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Una vez que aceptes la invitación, serás automáticamente excluido del torneo y transferido al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "Una vez que aceptes la invitación, serás automáticamente excluido de la sala de entrenamiento y transferido al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Cuando aceptes la invitación, se te excluirá automáticamente del entrenamiento en equipo del modo Asedio y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Una vez que aceptas la invitación, saldrás del modo Batalla en equipo y serás transferido al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "Cuando aceptes la invitación, dejarás Cazador de acero y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Una vez aceptes la invitación, dejarás el modo Gran cacería y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "Una vez aceptes la invitación, dejarás Asedio y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "Una vez aceptes la invitación, saldrás de Asedio ligero y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "Cuando aceptes la invitación, dejarás Línea del frente y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "Cuando aceptes la invitación, abandonarás +++Batalla de evento+++ y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "Cuando aceptes la invitación, dejarás Misión de reconocimiento y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "Cuando aceptes la invitación, dejarás Topografía y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "Cuando aceptes la invitación, dejarás las Batallas aleatorias y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "Después de aceptar la invitación, saldrás del modo Batallas de clasificación y se te transferirá al servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "Una vez que aceptes la invitación, saldrás de Calentamiento y se te enviará al servidor %(host)s."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "Una vez que aceptes la invitación, saldrás de Calentamiento y se te enviará al servidor %(host)s. No podrás empezarlo de nuevo."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Una vez aceptes la invitación, dejarás la unidad táctica automáticamente."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Una vez aceptes la invitación, dejarás la unidad táctica automáticamente."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "Una vez que aceptes la invitación, automáticamente se te excluirá de la batalla en el mapa global."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "Una vez aceptes la invitación, dejarás la unidad táctica automáticamente."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Una vez aceptes la invitación, dejarás la unidad táctica automáticamente."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "Una vez aceptes la invitación, dejarás la unidad táctica automáticamente."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Cuando aceptes la invitación, se te excluirá automáticamente del entrenamiento en equipo del modo Línea del frente."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "Cuando aceptes la invitación, dejarás la unidad táctica automáticamente."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Una vez que aceptas la invitación, saldrás del modo Batalla en equipo."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "Cuando aceptes la invitación, dejarás el pelotón automáticamente."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "Cuando aceptes la invitación, dejarás Fortalezas: batallas."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "Una vez aceptes la invitación, abandonarás el modo de Avances."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "Cuando aceptes la invitación, dejarás automáticamente el pelotón de Misión de reconocimiento."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "Una vez que aceptes la invitación, serás excluido de la sala de entrenamiento automáticamente."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "Cuando aceptes la invitación, dejarás Fortalezas: batallas."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "Cuando aceptes la invitación, dejarás el pelotón automáticamente."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "Una vez aceptes la invitación, abandonarás el destacamento actual."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "Una vez que aceptes la invitación, serás automáticamente excluido del torneo."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "Una vez que aceptes la invitación, serás automáticamente excluido de la sala de entrenamiento."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Cuando aceptes la invitación, se te excluirá automáticamente del entrenamiento en equipo del modo Asedio."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Una vez que aceptas la invitación, saldrás del modo Batalla en equipo."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "Cuando aceptes la invitación, dejarás Cazador de acero."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Una vez aceptes la invitación, dejarás el modo Gran cacería."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "Una vez aceptes la invitación, dejarás Asedio."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "Una vez aceptes la invitación, saldrás de Asedio ligero."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "Cuando aceptes la invitación, dejarás Línea del frente."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "Cuando aceptes la invitación, abandonarás +++Batalla del evento+++."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "Cuando aceptes la invitación, dejarás Misión de reconocimiento."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "Cuando aceptes la invitación, dejarás Topografía."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "Cuando aceptes la invitación, dejarás las Batallas aleatorias."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "Una vez aceptada la invitación, saldrás del modo Batalla de clasificación."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "Una vez que aceptes la invitación, saldrás de Calentamiento."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "Una vez que aceptes la invitación, saldrás de Calentamiento. No podrás empezarlo de nuevo."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Ahora se ha guardado el cambio de servidor."
+
+msgid "invites/note/server_change"
+msgstr "Serás transferido automáticamente al servidor %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "No puedes aceptar la invitación. Para aceptar la invitación, elige el servidor %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "No puedes aceptar la invitación. Para aceptar la invitación, por favor selecciona otro servidor."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Ya te has unido al pelotón."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Ya has ingresado en batalla en el mapa global."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Ya has ingresado en la sala de entrenamiento."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Ya te has unido al pelotón."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Ya te has unido al pelotón."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Ya has ingresado en el destacamento."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Ya te has unido al pelotón."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Ya te has unido al torneo."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Ya has ingresado en la sala de entrenamiento."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Ya te has unido a la sala de entrenamiento."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Ya te has unido al equipo."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Invitación aceptada."
+
+msgid "invites/state/DECLINED"
+msgstr "Invitación rechazada."
+
+msgid "invites/state/ERROR"
+msgstr "Invitación no válida."
+
+msgid "invites/state/EXPIRED"
+msgstr "Invitación no válida."
+
+msgid "invites/state/REVOKED"
+msgstr "Retirar invitación."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Invitación para unirse al pelotón de Cazador de acero"
+
+msgid "invites/text/COMP7"
+msgstr "Invitación para unirte al pelotón de Asedio"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Invitación para unirte al pelotón de Asedio ligero"
+
+msgid "invites/text/EPIC"
+msgstr "Invitación para unirte al pelotón de Línea del frente"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Invitación para unirse a un equipo de entrenamiento de Línea del frente"
+
+msgid "invites/text/EVENT"
+msgstr "Invitación al pelotón"
+
+msgid "invites/text/FALLOUT"
+msgstr "Invitación para unirse al pelotón de %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Dominación"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Caza de acero"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Invitación a la batalla"
+
+msgid "invites/text/MAPBOX"
+msgstr "Invitación para unirse al pelotón de Misión de reconocimiento"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Invitación para explorar mapas"
+
+msgid "invites/text/SORTIE"
+msgstr "Invitación para unirse al destacamento"
+
+msgid "invites/text/SQUAD"
+msgstr "Invitación al pelotón"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Invitación para unirse al destacamento"
+
+msgid "invites/text/TRAINING"
+msgstr "Invitación para unirse a Entrenamiento en equipo"
+
+msgid "invites/text/UNIT"
+msgstr "Invitación para unirse al equipo"
+
+msgid "invites/text/creatorName"
+msgstr "de %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Período de defensa"
+
+msgid "invites/text/fort/direction"
+msgstr "Cabeza de puente"
+
+msgid "invites/text/fort/offence"
+msgstr "Ataque sobre"
+
+msgid "invites/warning/anonymized"
+msgstr "Si aceptas la invitación, los miembros de tu unidad táctica verán tu nombre de usuario real y la etiqueta de tu clan durante la batalla."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Invitación enviada al %(name)s."

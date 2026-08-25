@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Μηχανισμός Μάχης"
+
+msgid "open_artefact/server_error"
+msgstr "Λειτουργία προσωρινά μη διαθέσιμη. Προσπαθήστε ξανά αργότερα."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Αποτυχία στον ανεφοδιασμό Μηχανισμών Μάχης στο %s. Τεχνικό πρόβλημα."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Αποτυχία στον ανεφοδιασμό Μηχανισμών Μάχης στο %s. Ανεπαρκείς πόροι."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Ο ανεφοδιασμός Μηχανισμών Μάχης στο %s ήταν επιτυχής. Κόστος: "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Αρχεία προς αποκρυπτογράφηση"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Μάχες: «Last Stand: Terra Nord»"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Last Stand: Terra Nord (Κανονική)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Last Stand: Terra Nord (Μεγάλη)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Last Stand: Terra Nord (Μέγιστη)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Δυσκολία"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Κανονική"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Μεγάλη"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Μέγιστη"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Data"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Αντικειμενικός Στόχος επετεύχθη!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Οι Αντικειμενικοί Στόχοι επετεύχθησαν!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Όχημα"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Κύματα επίθεσης: %(curPhase)s από %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Κόστος: %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Οικονομική Συναλλαγή"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Μπορείτε να επιλέξετε επίπεδο δυσκολίας από το αντίστοιχο πάνελ της διοργάνωσης Last Stand."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Επίπεδο Μεγάλης Δυσκολίας Διαθέσιμο"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Μπορείτε να επιλέξετε επίπεδο δυσκολίας από το αντίστοιχο πάνελ της διοργάνωσης Last Stand."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Επίπεδο Μέγιστης Δυσκολίας Διαθέσιμο"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Μπορείτε να επιλέξετε επίπεδο δυσκολίας από το αντίστοιχο πάνελ της διοργάνωσης «Last Stand: Operation Pandora» στο Γκαράζ."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Ξεκλειδώσατε Την Τελική Αναμέτρηση"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Κερδισμένα Κλειδιά Αποκρυπτογράφησης: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Απόδειξη Παραλαβής"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Αφαίρεση Κλειδιών: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Επιτυχής Αποκρυπτογράφηση"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Η διοργάνωση Last Stand είναι προσωρινά μη διαθέσιμη.\nΠροσπαθήστε ξανά αργότερα."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Η %(difficulty)s δυσκολία είναι προσωρινά μη διαθέσιμη. Προσπαθήστε ξανά αργότερα."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Η διοργάνωση Last Stand είναι προσωρινά μη διαθέσιμη. Τσεκάρετε το portal του παιχνιδιού για νέα και ενημερώσεις."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Ο αρχηγός του Ουλαμού άλλαξε τη δυσκολία σε: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Ο παίκτης %(userName)s δεν έχει ξεκλειδώσει κάποιο επίπεδο δυσκολίας."

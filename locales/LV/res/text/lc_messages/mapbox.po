@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "Tieši tā!"
+
+msgid "awardsView/subTitle"
+msgstr "KAUJAS AIZVADĪTAS: {number}"
+
+msgid "awardsView/title"
+msgstr "IZLŪKOŠANAS MISIJA"
+
+msgid "buttonDisable/tooltip"
+msgstr "Nav pieejams"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Grafiks"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "Došanās Kaujā Nav Pieejama"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "Kaujas ir beigušās"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "Došanās Kaujā Nav Pieejama"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "Šajā serverī ir spēkā Pamiers. Lūdzu izvēlieties citu serveri."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "Jūs variet doties kaujā tikai %(levelSubStr)s."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "Nesaderīgs Tanku Līmenis"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "%(levels)s Līmeņa tankos"
+
+msgid "intro/button"
+msgstr "Tieši tā!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "Jūsu atsauksmes palīdz mums uzlabot kaujas laukus. Atstājiet savas domas par jauno karšu mehāniku, un mēs spēlei pievienosim labākās idejas."
+
+msgid "intro/interviewInfoTitle"
+msgstr "Būtiskas Atsauksmes"
+
+msgid "intro/modeInfoDescription"
+msgstr "Cīnieties VIII-X Līmeņa tankos kartēs ar jaunajām mehānikām, aizpildiet aptaujas un saņemsiet balvas. Pēc nedēļas, progresija tiks atiestatīta, un jūs variet atkal sākt pelnīt balvas."
+
+msgid "intro/modeInfoTitle"
+msgstr "Palīdziet Mums Izstrādāt Jaunas Mehānikas!"
+
+msgid "intro/startEvent"
+msgstr "Pasākums sākas pēc: "
+
+msgid "intro/taskInfoDescription"
+msgstr "Cīnoties Izlūkošanas Misijā, jūs variet izpildīt ikdienas un Kaujas Caurlaides misijas, un izpildīt progresīvu dekalu nosacījumus."
+
+msgid "intro/taskInfoTitle"
+msgstr "Cīnieties Zem Nejaušo Kauju Noteikumiem"
+
+msgid "intro/time/period/day"
+msgstr "{day} d"
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} d {hours} h"
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} h {min} min"
+
+msgid "intro/time/period/minute"
+msgstr "{min} min"
+
+msgid "intro/title"
+msgstr "IZLŪKOŠANAS MISIJA"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s nevar cīnīties Izlūkošanas Misijā."
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "Nesaderīgs Tanku Tips"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "Izvēlieties %(levelSubStr)s, lai piedalītos Izlūkošanas Misijā."
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "Nesaderīgs Tanku Līmenis"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "%(levels)s līmeņa tanks"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s nevar cīnīties Izlūkošanas Misijā."
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "Nesaderīgs Tanks"
+
+msgid "mapboxTab"
+msgstr "Izlūkošanas Misija"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Stadija %(server)s serverī ir beigusies"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "%(server)s servera\nKaujas būs pieejamas vēl %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "%(server)s servera\nKaujas būs pieejamas pēc %(time)s"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Pamiers ir spēkā visos serveros"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Šis režīms nav pieejams %(server)s serverī"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Kaujas %(server)s serverī būs pieejamas vēl %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Kaujas sāksies %(server)s serverī pēc %(time)s"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "Kaujas šajā režīmā nav pieejamas: Sezona ir beigusies."
+
+msgid "primeTimeView/status/untill"
+msgstr "%(server)s serverī ir spēkā Pamiera līdz %(startTime)s"
+
+msgid "primeTimeView/title"
+msgstr "IZLŪKOŠANAS MISIJA"
+
+msgid "primeTimes/availableServer"
+msgstr "Pieejams serveris:"
+
+msgid "primeTimes/availableServers"
+msgstr "Pieejami serveri:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "Kaujas ir beigušās"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Šis režīms nav pieejams %(serverName)s serverī"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "Cīnieties kaujās"
+
+msgid "progression/cardTitle/rating"
+msgstr "Esiet starp top {rating} spēlētājiem pēc nopelnītām Pieredzes"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "Esiet starp top {rating} spēlētājiem pēc nopelnītās Pieredzes kartē ar uguni"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "Esiet starp top {rating} spēlētājiem pēc nopelnītās Pieredzes kartēs ar miglu"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "Esiet starp top {rating} spēlētājiem pēc nopelnītās Pieredzes kartēs ar stipru lietu"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "Esiet starp top {rating} spēlētājiem pēc nopelnītās Pieredzes kartē ar smilšu vētrām"
+
+msgid "progression/changeAnswer"
+msgstr "Mainīt Atbildi"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Cīnieties VIII–X Līmeņa tankos kartēs ar jaunām mehānikām, aizpildiet aptaujas un saņemiet balvas."
+
+msgid "progression/info/restart"
+msgstr "Progress ar balvām tiks atiestatīts pēc %(leftTime)s"
+
+msgid "progression/info/title"
+msgstr "Esiet starp top %(rating) spēlētājiem pēc nopelnītās Pieredzes: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "PAR PASĀKUMU"
+
+msgid "progression/map_01_karelia"
+msgstr "KARELIA"
+
+msgid "progression/map_02_malinovka"
+msgstr "MALINOVKA"
+
+msgid "progression/map_05_prohorovka"
+msgstr "PROKHOROVKA"
+
+msgid "progression/map_18_cliff"
+msgstr "VESTFĪLDA"
+
+msgid "progression/map_all"
+msgstr "SPĒLES\nMEHĀNIKAS"
+
+msgid "progression/map_fire"
+msgstr "UGUNS"
+
+msgid "progression/map_fog"
+msgstr "MIGLA"
+
+msgid "progression/map_heavy_rain"
+msgstr "STIPRS LIETUS"
+
+msgid "progression/map_sandstorm"
+msgstr "SMILŠU VĒTRA"
+
+msgid "progression/redirect"
+msgstr "Iet uz Režīmu"
+
+msgid "progression/startInterview"
+msgstr "Piedalīties Aptaujā"
+
+msgid "progression/startInterviewTooltip"
+msgstr "Piepildiet augstāk esošo nosacījumu, lai piedalītos aptaujā."
+
+msgid "progression/startSpecialInterview"
+msgstr "Piedalīties Aptaujā"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "Piepildiet augstāk esošo nosacījumu, lai piedalītos aptaujā."
+
+msgid "progression/subtitle"
+msgstr "Šeit jūs variet veikt aptauju par jaunām mehānikām"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "progression/title"
+msgstr "IZLŪKOŠANAS MISIJA"
+
+msgid "progressionError/description/line1"
+msgstr "Jūsu progress ir saglabāts. Jūs variet turpināt spēlēt."
+
+msgid "progressionError/description/line2"
+msgstr "Jūs drīz varēsiet redzēt jūsu progresu un piedalīties aptaujā."
+
+msgid "progressionError/title"
+msgstr "Izlūkošanas Misijas detaļas īslaicīgi nav pieejamas"
+
+msgid "questFlag/complete"
+msgstr "Visas atlīdzības saņemtas"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "Cīnieties %(highlightedText)s, pabeidziet aptaujas un saņemiet balvas."
+
+msgid "questFlag/frozen/header"
+msgstr "Izlūkošanas Misija Nav Pieejama"
+
+msgid "questFlag/frozen/text"
+msgstr "Izlūkošanas Misijas kaujas nav pieejamas tehnisku iemeslu dēļ."
+
+msgid "questFlag/highlightedText"
+msgstr "VIII-X Līmeņa tanki kartēs ar jaunām mehānikām"
+
+msgid "questFlag/incomplete"
+msgstr "Kaujas, kas jāaizvada, lai saņemtu nākamo balvu: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "Aizvadītas kaujas:"
+
+msgid "questFlag/surveysTitle"
+msgstr "Aptaujas aizpildītas: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "Karšu izpēte ar jaunām mehānikām sāksies %(day)s"
+
+msgid "selector/tooltip/body"
+msgstr "Karšu izpēte ar jaunām mehānikām ilgs līdz %(day)s"
+
+msgid "selector/tooltip/title"
+msgstr "Grafiks"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Sezona beidzas pēc:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Kauju Grafiks"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Šodien"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Rīt"
+
+msgid "serverAlertMessage/button"
+msgstr "Izvēlieties Citu Serveri"
+
+msgid "survey/backBtn"
+msgstr "Atpakaļ"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "TI"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "ART."
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "Sm.T"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "Vie.T"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "Vid.T"
+
+msgid "survey/fire/question/q1"
+msgstr "Vai jums patika spēlēt Murovanka kartē ar uguns mehāniku?"
+
+msgid "survey/fire/question/q2"
+msgstr "Kāds ir jūsu viedoklis par uguns vizuālo noformējumu Murovanka kartē?"
+
+msgid "survey/fire/question/q3"
+msgstr "Vai vēlaties pielāgot uguns ietekmi uz Murovanka kartes spēli?"
+
+msgid "survey/fire/question/q4"
+msgstr "Kā tieši jūs vēlētos pielāgot uguns ietekmi uz Murovanka kartes spēli?"
+
+msgid "survey/fire/question/q5"
+msgstr "Kāda veida transportlīdzekļus spēlējāt Murovanka kartē?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "Kā {value} spēlēšana mainījās Murovanka kartē?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "Kā {value} spēlēšana mainījās Murovanka kartē?"
+
+msgid "survey/fire/question/q7"
+msgstr "Vai jūs vēlētos redzēt uguni kartēs Nejaušajās Kaujās?"
+
+msgid "survey/fire/question/q8"
+msgstr "Kas jums nepatika par uguns mehāniku Murovanka kartē?"
+
+msgid "survey/fire/question/q9"
+msgstr "Precizējiet jebkurus nepieciešamos uzlabojumus."
+
+msgid "survey/fire/response/q1_1"
+msgstr "Jā"
+
+msgid "survey/fire/response/q1_2"
+msgstr "Nē"
+
+msgid "survey/fire/response/q1_3"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/fire/response/q2_1"
+msgstr "Man tas patika"
+
+msgid "survey/fire/response/q2_2"
+msgstr "Tas ir normāli"
+
+msgid "survey/fire/response/q2_3"
+msgstr "Man tas nepatika"
+
+msgid "survey/fire/response/q2_4"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/fire/response/q3_1"
+msgstr "Jā, es vēlētos"
+
+msgid "survey/fire/response/q3_2"
+msgstr "Nē, es nevēlētos"
+
+msgid "survey/fire/response/q3_3"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/fire/response/q4_1"
+msgstr "Padarīt to stiprāku"
+
+msgid "survey/fire/response/q4_2"
+msgstr "Padarīt to vājāku"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "TI"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "ART."
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "Sm.T"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "Vie.T"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "Vid.T"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "Nevaru atcerēties"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "Tas kļuva labāks"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "Tas kļuva sliktāks"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "Tas nemainījās"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "Tas kļuva labāks"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "Tas kļuva sliktāks"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "Tas nemainījās"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/fire/response/q7_1"
+msgstr "Jā, es vēlētos"
+
+msgid "survey/fire/response/q7_2"
+msgstr "Nē, es nevēlētos"
+
+msgid "survey/fire/response/q7_3"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/fire/response/q8_1"
+msgstr "Uguns ievērojami samazina pieejamo pozīciju skaitu"
+
+msgid "survey/fire/response/q8_10"
+msgstr "Viena no komandām iegūst pārākumu"
+
+msgid "survey/fire/response/q8_11"
+msgstr "Tehniskas problēmas"
+
+msgid "survey/fire/response/q8_12"
+msgstr "Cits"
+
+msgid "survey/fire/response/q8_2"
+msgstr "Uguns izdara pārāk daudz bojājumus"
+
+msgid "survey/fire/response/q8_3"
+msgstr "Pretinieki ārpus zonas nevar redzēt manu transportlīdzekli, bet es arī neredzu viņu"
+
+msgid "survey/fire/response/q8_4"
+msgstr "Uguns vieta kartē"
+
+msgid "survey/fire/response/q8_5"
+msgstr "Kā izskatās uguns"
+
+msgid "survey/fire/response/q8_6"
+msgstr "Pārāk liela ietekme uz kartes spēli"
+
+msgid "survey/fire/response/q8_7"
+msgstr "Pārāk maza ietekme uz kartes spēli"
+
+msgid "survey/fire/response/q8_8"
+msgstr "Uguns vizuālie attēli traucē cīņā"
+
+msgid "survey/fire/response/q8_9"
+msgstr "Uguns piespiež spēlēt tuvcīņā"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "Priekšpostenis"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "Fjordi"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "Priekšpostenis"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "Fjordi"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "Priekšpostenis"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "Fjordi"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "TI"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "ART."
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "Sm.T"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "Vie.T"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "Vid.T"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "TI"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "ART."
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "Sm.T"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "Vie.T"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "Vid.T"
+
+msgid "survey/fog/question/q1"
+msgstr "Vai jums patika spēlēt sekojošajās kartēs ar miglas mehāniku?"
+
+msgid "survey/fog/question/q10"
+msgstr "Vai jūs vēlētos redzēt miglu kartēs Nejaušajās Kaujās?"
+
+msgid "survey/fog/question/q11"
+msgstr "Kas jums nepatika par miglas mehāniku Fjordi kartē?"
+
+msgid "survey/fog/question/q12"
+msgstr "Kas jums nepatika par miglas mehāniku Priekšpostenis kartē?"
+
+msgid "survey/fog/question/q13"
+msgstr "Precizējiet jebkurus nepieciešamos uzlabojumus."
+
+msgid "survey/fog/question/q2"
+msgstr "Kāds ir jūsu viedoklis par miglas vizuālo noformējumu sekojošajās kartēs?"
+
+msgid "survey/fog/question/q3"
+msgstr "Vai vēlaties pielāgot miglas ietekmi uz kartes spēli?"
+
+msgid "survey/fog/question/q4"
+msgstr "Kā tieši jūs vēlētos pielāgot miglas ietekmi uz Fjordi kartes spēli?"
+
+msgid "survey/fog/question/q5"
+msgstr "Kā tieši jūs vēlētos pielāgot miglas ietekmi uz Priekšpostenis kartes spēli?"
+
+msgid "survey/fog/question/q6"
+msgstr "Kāda veida transportlīdzekļus spēlējāt Fjordi kartē?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "Kā {value} spēlēšana mainījās Fjordi kartē?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "Kā {value} spēlēšana mainījās Fjordi kartē?"
+
+msgid "survey/fog/question/q8"
+msgstr "Kāda veida transportlīdzekļus spēlējāt Priekšpostenis kartē?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "Kā {value} spēlēšana mainījās Priekšpostenis kartē?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "Kā {value} spēlēšana mainījās Priekšpostenis kartē?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "Jā, es vēlētos"
+
+msgid "survey/fog/response/q10_2"
+msgstr "Nē, es nevēlētos"
+
+msgid "survey/fog/response/q10_3"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/fog/response/q11_1"
+msgstr "Pretinieki ārpus zonas nevar redzēt manu transportlīdzekli, bet es arī neredzu viņu"
+
+msgid "survey/fog/response/q11_10"
+msgstr "Cits"
+
+msgid "survey/fog/response/q11_2"
+msgstr "Miglas vieta kartē"
+
+msgid "survey/fog/response/q11_3"
+msgstr "Kā izskatās migla"
+
+msgid "survey/fog/response/q11_4"
+msgstr "Pārāk liela ietekme uz kartes spēli"
+
+msgid "survey/fog/response/q11_5"
+msgstr "Pārāk maza ietekme uz kartes spēli"
+
+msgid "survey/fog/response/q11_6"
+msgstr "Miglas vizuālie attēli traucē cīņā"
+
+msgid "survey/fog/response/q11_7"
+msgstr "Migla piespiež spēlēt tuvcīņā"
+
+msgid "survey/fog/response/q11_8"
+msgstr "Viena no komandām iegūst pārākumu"
+
+msgid "survey/fog/response/q11_9"
+msgstr "Tehniskas problēmas"
+
+msgid "survey/fog/response/q12_1"
+msgstr "Pretinieki ārpus zonas nevar redzēt manu transportlīdzekli, bet es arī neredzu viņu"
+
+msgid "survey/fog/response/q12_10"
+msgstr "Cits"
+
+msgid "survey/fog/response/q12_2"
+msgstr "Miglas vieta kartē"
+
+msgid "survey/fog/response/q12_3"
+msgstr "Kā izskatās migla"
+
+msgid "survey/fog/response/q12_4"
+msgstr "Pārāk liela ietekme uz kartes spēli"
+
+msgid "survey/fog/response/q12_5"
+msgstr "Pārāk maza ietekme uz kartes spēli"
+
+msgid "survey/fog/response/q12_6"
+msgstr "Miglas vizuālie attēli traucē cīņā"
+
+msgid "survey/fog/response/q12_7"
+msgstr "Migla piespiež spēlēt tuvcīņā"
+
+msgid "survey/fog/response/q12_8"
+msgstr "Viena no komandām iegūst pārākumu"
+
+msgid "survey/fog/response/q12_9"
+msgstr "Tehniskas problēmas"
+
+msgid "survey/fog/response/q1_1"
+msgstr "Jā"
+
+msgid "survey/fog/response/q1_2"
+msgstr "Nē"
+
+msgid "survey/fog/response/q1_3"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/fog/response/q2_1"
+msgstr "Man tas patika"
+
+msgid "survey/fog/response/q2_2"
+msgstr "Tas ir normāli"
+
+msgid "survey/fog/response/q2_3"
+msgstr "Man tas nepatika"
+
+msgid "survey/fog/response/q2_4"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/fog/response/q3_1"
+msgstr "Jā, es vēlētos"
+
+msgid "survey/fog/response/q3_2"
+msgstr "Nē, es nevēlētos"
+
+msgid "survey/fog/response/q3_3"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/fog/response/q4_1"
+msgstr "Padarīt to stiprāku"
+
+msgid "survey/fog/response/q4_2"
+msgstr "Padarīt to vājāku"
+
+msgid "survey/fog/response/q5_1"
+msgstr "Padarīt to stiprāku"
+
+msgid "survey/fog/response/q5_2"
+msgstr "Padarīt to vājāku"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "TI"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "ART."
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "Sm.T"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "Vie.T"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "Vid.T"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "Nevaru atcerēties"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "Tas kļuva labāks"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "Tas kļuva sliktāks"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "Tas nemainījās"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "Tas kļuva labāks"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "Tas kļuva sliktāks"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "Tas nemainījās"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "TI"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "ART."
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "Sm.T"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "Vie.T"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "Vid.T"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "Nevaru atcerēties"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "Tas kļuva labāks"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "Tas kļuva sliktāks"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "Tas nemainījās"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "Tas kļuva labāks"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "Tas kļuva sliktāks"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "Tas nemainījās"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "Vestfīlda"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "Zvejnieku Līcis"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "Vestfīlda"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "Zvejnieku Līcis"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "Vestfīlda"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "Zvejnieku Līcis"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "TI"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "ART."
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "Sm.T"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "Vie.T"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "Vid.T"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "TI"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "ART."
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "Sm.T"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "Vie.T"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "Vid.T"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "Vai jums patika spēlēt sekojošajās kartēs ar stipra lietus mehāniku?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "Vai jūs vēlētos redzēt stipru lietu kartēs Nejaušajās Kaujās?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "Kas jums nepatika par stipra lietus mehāniku Vestfīlda kartē?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "Kas jums nepatika par stipra lietus mehāniku Zvejnieku Līcis kartē?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "Precizējiet jebkurus nepieciešamos uzlabojumus."
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "Kāds ir jūsu viedoklis par stipra lietus vizuālo noformējumu sekojošajās kartēs?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "Vai vēlaties pielāgot stipra lietus ietekmi uz kartes spēli?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "Kā tieši jūs vēlētos pielāgot stipra lietus ietekmi uz Vestfīlda kartes spēli?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "Kā tieši jūs vēlētos pielāgot stipra lietus ietekmi uz Zvejnieku Līcis kartes spēli?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "Kāda veida transportlīdzekļus spēlējāt Vestfīlda kartē?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "Kā {value} spēlēšana mainījās Vestīlda kartē?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "Kā {value} spēlēšana mainījās Vestīlda kartē?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "Kāda veida transportlīdzekļus spēlējāt Zvejnieku Līcis kartē?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "Kā {value} spēlēšana mainījās Zvejnieku Līcis kartē?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "Kā {value} spēlēšana mainījās Zvejnieku Līcis kartē?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "Jā, es vēlētos"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "Nē, es nevēlētos"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "Stipra lietus zonā ir pārāk slidens"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "Tehniskas problēmas"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "Cits"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "Pretinieki ārpus zonas nevar redzēt manu transportlīdzekli, bet es arī neredzu viņu"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "Stipra lietus vieta kartē"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "Kā izskatās stiprs lietus"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "Pārāk liela ietekme uz kartes spēli"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "Pārāk maza ietekme uz kartes spēli"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "Stipra lietus vizuālie attēli traucē cīņā"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "Stiprs lietus piespiež spēlēt tuvcīņā"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "Viena no komandām iegūst pārākumu"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "Stipra lietus zonā ir pārāk slidens"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "Tehniskas problēmas"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "Cits"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "Pretinieki ārpus zonas nevar redzēt manu transportlīdzekli, bet es arī neredzu viņu"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "Stipra lietus vieta kartē"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "Kā izskatās stiprs lietus"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "Pārāk liela ietekme uz kartes spēli"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "Pārāk maza ietekme uz kartes spēli"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "Stipra lietus vizuālie attēli traucē cīņā"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "Stiprs lietus piespiež spēlēt tuvcīņā"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "Viena no komandām iegūst pārākumu"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "Jā"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "Nē"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "Man tas patika"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "Tas ir normāli"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "Man tas nepatika"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "Jā, es vēlētos"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "Nē, es nevēlētos"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "Padarīt to stiprāku"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "Padarīt to vājāku"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "Padarīt to stiprāku"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "Padarīt to vājāku"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "TI"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "ART."
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "Sm.T"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "Vie.T"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "Vid.T"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "Nevaru atcerēties"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "Tas kļuva labāks"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "Tas kļuva sliktāks"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "Tas nemainījās"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "Tas kļuva labāks"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "Tas kļuva sliktāks"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "Tas nemainījās"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "TI"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "ART."
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "Sm.T"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "Vie.T"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "Vid.T"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "Nevaru atcerēties"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "Tas kļuva labāks"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "Tas kļuva sliktāks"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "Tas nemainījās"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "Tas kļuva labāks"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "Tas kļuva sliktāks"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "Tas nemainījās"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "Nākamais"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "Sapratu!"
+
+msgid "survey/required"
+msgstr "Atbildiet uz jautājumu, lai turpinātu."
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "TI"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "ART."
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "Sm.T"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "Vie.T"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "Vid.T"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "Vai jums patika spēlēt Smilšu Upe kartē ar smilšu vētras mehāniku?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "Kāds ir jūsu viedoklis par smilšu vētras vizuālo noformējumu Smilšu Upe kartē?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "Vai vēlaties pielāgot smilšu vētras ietekmi uz Smilšu Upe kartes spēli?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "Kā tieši jūs vēlaties pielāgot smilšu vētras ietekmi uz Smilšu Upe kartes spēli?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "Kāda veida transportlīdzekļus spēlējāt Smilšu Upe kartē?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "Kā {value} spēlēšana mainījās Smilšu Upe kartē?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "Kā {value} spēlēšana mainījās Smilšu Upe kartē?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "Vai jūs vēlētos redzēt smilšu vētras kartēs Nejaušajās Kaujās?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "Kas jums nepatika par smilšu vētras mehāniku Smilšu Upe kartē?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "Precizējiet jebkurus nepieciešamos uzlabojumus."
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "Jā"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "Nē"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "Man tas patika"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "Tas ir normāli"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "Man tas nepatika"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "Jā, es vēlētos"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "Nē, es nevēlētos"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "Padarīt to stiprāku"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "Padarīt to vājāku"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "TI"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "ART."
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "Sm.T"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "Vie.T"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "Vid.T"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "Nevaru atcerēties"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "Tas kļuva labāks"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "Tas kļuva sliktāks"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "Tas nemainījās"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "Tas kļuva labāks"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "Tas kļuva sliktāks"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "Tas nemainījās"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "Jā, es vēlētos"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "Nē, es nevēlētos"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "Neesmu pārliecināts"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "Pretinieki ārpus zonas nevar redzēt manu transportlīdzekli, bet es arī neredzu viņu"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "Cits"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "Smilšu vētras vieta kartē"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "Kā izskatās smilšu vētra"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "Pārāk liela ietekme uz kartes spēli"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "Pārāk maza ietekme uz kartes spēli"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "Smilšu vētras vizuālie attēli traucē cīņā"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "Smilšu vētra piespiež spēlēt tuvcīņā"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "Viena no komandām iegūst pārākumu"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "Tehniskas problēmas"
+
+msgid "survey/subTitle"
+msgstr "Paldies, ka veltījāt laiku, lai piedalītos šajā aptaujā! Tas prasīs apmēram divas minūtes. Jūsu atbildes tiks apstrādātas tikai šīs aptaujas veikšanas nolūkos, un visi personas dati tiks dzēsti saskaņā ar mūsu Privātuma Politiku."
+
+msgid "survey/template/final/title"
+msgstr "Paldies, ka veltījāt laiku, lai piedalītos šajā aptaujā!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "NOSPIEDIET UZ KARTES, LAI IZVĒLĒTOS POZĪCIJU"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "JŪS VARIET IZVĒLĒTIES LĪDZ TRĪS POZĪCIJĀM KARTĒ"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "Detalizēts apraksts (līdz %(maxLength)s rakstzīmēm)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "Pozīcija"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "Noņemt pozīciju"
+
+msgid "survey/template/opened/description"
+msgstr "Detalizēts problēmas apraksts(līdz %(maxLength)s rakstzīmēm)"
+
+msgid "survey/title/common"
+msgstr "Lūdzu novērtējiet jaunās funkcijas"
+
+msgid "survey/title/map"
+msgstr "%(map)s Kartes Novērtējums"

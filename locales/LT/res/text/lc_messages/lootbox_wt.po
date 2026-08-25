@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "%(count) likęs modulis"
+msgstr[1] "%(count) likę moduliai"
+msgstr[2] "%(count) likusių modulių"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Atgal prie modulių"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "Atidarydami juos gausite Premium mašinų, žaidimo valiutų ir kitų vertingų prizų."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "Paradoksmodulių galite rasti žaidimo ar Premium parduotuvėse."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Paradoksmodulis"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "PARADOKSMODULIS"
+
+msgid "common/getButton/lowerCase"
+msgstr "Gauti modulių"
+
+msgid "common/getButton/upperCase"
+msgstr "GAUTI MODULIŲ"
+
+msgid "common/loader"
+msgstr "Atidaromas modulis"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Statistiką pamatysite atidarę modulius."
+
+msgid "common/statistics/header"
+msgstr "Atidaryta modulių: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Visa informacija apie atidarytus modulius bus ištrinta."
+
+msgid "entryPoint/boxes"
+msgstr "Į MODULIUS"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Tai yra specialūs moduliai, kuriuose galima rasti naujų ir unikalių daiktų, tarp kurių yra Premium mašinų, pritaikomųjų elementų, žaidimo valiutų ir kitų vertingų daiktų.\nModulių galite gauti žaidimo arba Premium parduotuvėse."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Šiuo metu negalima atidaryti ar gauti modulių dėl techninių nesklandumų. Mes atsiprašome už laikinus sutrikimus."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Moduliai laikinai nepasiekiami"
+
+msgid "eventName/lowerCase"
+msgstr "Nutraukite paradoksą"
+
+msgid "eventName/upperCase"
+msgstr "NUTRAUKITE PARADOKSĄ"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garantuotas prizas kitame modulyje!"
+
+msgid "guaranteedTitle/text"
+msgstr "Daugiausia modulių iki garantuoto prizo: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Jei iki renginio pabaigos neatidarysite visų modulių, tai jie bus atidaryti automatiškai."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Jei jau turite visas mašinas, kurias galite gauti iš modulių, tai toliau gaunamų mašinų vertė bus pilnai kompensuojama auksu."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Kas %(guaranteed0)s modulių garantuotai gausite Premium mašiną. Jei atidarinėdami modulius negaunate tokios mašinos, tai Premium mašiną, kurios dar neturite, būtinai gausite atidarę %(guaranteed0)s-tą modulį. Gavus mašiną moduliai bus skaičiuojami iš naujo."
+
+msgid "infoPage/header/description"
+msgstr "Modulių viduje gali būti vertingų žaidimo daiktų! Sužinokite daugiau žemiau."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Iš %(name) (atidaryta modulių: %(boxesCount))"
+
+msgid "noBoxesView/description/"
+msgstr "Jūs neturite modulių. Jų galite gauti\nžaidimo parduotuvėje arba Premium parduotuvėje."
+
+msgid "preview/backLabel"
+msgstr "Į MODULIUS"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Pasiekiama modulių: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nėra pasiekiamų modulių"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Jei jau turite visas mašinas, kurias galite gauti iš modulių, tai toliau gaunamų mašinų vertė bus pilnai kompensuojama auksu."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) modulis"
+msgstr[1] "%(remainingCount) moduliai"
+msgstr[2] "%(remainingCount) modulių"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Garantuotas prizas yra mašina iš prizų sąrašo.\nJei atidarėte %(remainingCount) ir mašinos dar negavote, tai gausite ją atidarę %(count) modulį. Kai ją gausite, skaičiuoklis pradės skaičiuoti iš naujo."

@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "Διαχείριση Εφεδρειών"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "Κάντε κλικ για να επιλέξετε μία διαθέσιμη Εφεδρεία."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "Βόμβες"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "Περιοχή Προσβολής"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "Σοκ"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "Ανάπτυξη"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "Πλήθος ναρκών"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "Διάρκεια ναρκοπέδιου"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "Σοκ"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "Ακτίνα διασποράς"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "Διάρκεια"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "Βλήματα"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "Επαναφόρτιση"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "Ανάπτυξη"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "Διάρκεια"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "Hit points που επαναφέρονται"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "Hit points που επαναφέρονται άμεσα με την ενεργοποίηση"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "Πρόσθετη φθορά από νάρκες"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "Μεγαλύτερη ταχύτητα επαναφοράς hit points μέσα στον Κύκλο Ανεφοδιασμού"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "Επιδόσεις Πληρώματος"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "Διάρκεια"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "Πρόσθετος χρόνος αποκατάστασης"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "Ακτίνα Επίδρασης"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "Επιδόσεις πληρώματος του οχήματός σας"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "Αυξημένη προστασία"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "Μπόνους Κατάληψης"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "Επαναφορά Κύκλου Ανεφοδιασμού"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "Ταχύτητα ανεφοδιασμού πυρομαχικών"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "Χρόνος άφιξης"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "Περιοχή Προσβολής"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750 m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "Διάρκεια εντοπισμού"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "Μειωμένες επιδόσεις πληρώματος"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "Οβίδες Καπνού"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "Περιοχή Προσβολής"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "Διάρκεια"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "Μειωμένο εύρος ορατότητας εχθρικών οχημάτων"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "Μείωση συντελεστή κάλυψης εχθρικών οχημάτων πίσω από φυλλώματα"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "Μείωση συντελεστή κάλυψης κινούμενων εχθρικών οχημάτων"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "Διάρκεια"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "Μπόνους στον συντελεστή κάλυψης ακίνητου οχήματος"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "Μόνιμο μπόνους στο εύρος ορατότητας"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "Επίπεδο Αποθέματος"
+
+msgid "abilityInfo/properties/static"
+msgstr "Χαρακτηριστικά παραμέτρου"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "sec"
+
+msgid "advance_message_txt"
+msgstr "Προώθηση στην Πρώτη Γραμμή"
+
+msgid "advance_mission_txt"
+msgstr "Προώθηση στην Πρώτη Γραμμή"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "ΛΕΠΤΟΜΕΡΕΙΕΣ ΣΕΝΑΡΙΟΥ"
+
+msgid "awards/acceptButton"
+msgstr "Θετικόν!"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "ΠΑΡΑΛΑΒΗ ΕΠΑΘΛΩΝ"
+
+msgid "awards/subTitle2"
+msgstr "ΤΟ ΕΠΑΘΛΟ ΑΠΟΝΕΜΗΘΗΚΕ"
+
+msgid "awards/title"
+msgstr "ΠΡΏΤΗ ΓΡΑΜΜΉ"
+
+msgid "base/contested_atk"
+msgstr "Υπό Διεκδίκηση"
+
+msgid "base/contested_def"
+msgstr "Δέχεται Επίθεση"
+
+msgid "battleResults/armor"
+msgstr "Θωράκιση"
+
+msgid "battleResults/assistance"
+msgstr "Συνεισφορά"
+
+msgid "battleResults/crits"
+msgstr "Κρίσιμη Φθορά"
+
+msgid "battleResults/damage"
+msgstr "Φθορά"
+
+msgid "battleResults/kill"
+msgstr "Καταστροφές"
+
+msgid "battleResults/spotting"
+msgstr "Εντοπισμός"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "1 Προσωπικό Απόθεμα: %(effectValue)s στο Crew Experience για %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "1 Προσωπικό Απόθεμα: %(effectValue)s στο Free Experience για %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "1 Προσωπικό Απόθεμα: %(effectValue)s στο Combat Experience για %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Επίθεση στον Κύριο Στόχο %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Υπεράσπιση του Κύριου Στόχου %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Προσοχή στην περιοχή!"
+
+msgid "command_shortcut/title"
+msgstr "Εντολές"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "Μέτωπο μπλοκαρισμένο—όριο παικτών"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "Περιοχή Κινδύνου"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "Μέτωπο μπλοκαρισμένο—όριο τύπου οχημάτων"
+
+msgid "dialogs/quotedName"
+msgstr "\"%(name)s\""
+
+msgid "dialogs/title/buy/item"
+msgstr "Αγορά του στοιχείου %(type)s %(name)s?"
+
+msgid "dialogs/title/buy/items"
+msgstr "Αγορά του στοιχείου %(type)s?"
+
+msgid "dialogs/title/install/item"
+msgstr "Ενεργοποίηση του στοιχείου %(type)s %(name)s?"
+
+msgid "dialogs/title/install/items"
+msgstr "Ενεργοποίηση του στοιχείου %(type)s?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "Μαζέψτε τους απαιτούμενους Πόντους και ενεργοποιήστε τις Εφεδρείες της Πρώτης Γραμμής."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "Μαζέψτε τους απαιτούμενους Πόντους και ενεργοποιήστε τις Εφεδρείες της Πρώτης Γραμμής."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "Πόντοι Εφεδρείας"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "Οχήματα %(level)s θα γίνουν διαθέσιμα αφότου καταληφθεί/χαθεί κάποιο σημείο στη δεύτερη γραμμή (D, E ή F)."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "Βαθμίδας %(lvl)s"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "Επιλέξτε όχημα Βαθμίδας VIII για την Πρώτη Γραμμή."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "Ασύμβατο Όχημα"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "Απόκτηση"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "Μέγιστη"
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "Εφεδρείες"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "Επίπεδο Αρχηγού"
+
+msgid "epictraining/info/otherLabel"
+msgstr "Μη κατανεμημένοι παίκτες: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "Επιτιθέμενοι ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "Αμυνόμενοι ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "Όλα τα εχθρικά οχήματα καταστράφηκαν"
+
+msgid "game/all_hqs_destroyed"
+msgstr "Όλοι οι κύριοι στόχοι καταστράφηκαν"
+
+msgid "game/all_tanks_defeated"
+msgstr "Όλα τα συμμαχικά οχήματα καταστράφηκαν"
+
+msgid "game/defeat"
+msgstr "Ήττα!"
+
+msgid "game/draw"
+msgstr "Ισοπαλία!"
+
+msgid "game/time_over"
+msgstr "Οι κύριοι στόχοι δεν καταστράφηκαν"
+
+msgid "game/victory"
+msgstr "Νίκη!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "Καταστρέψτε τους κύριους στόχους!"
+
+msgid "global_msg/atk/time_short"
+msgstr "Καταλάβετε μία ζώνη!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "Υπερασπιστείτε κύριους στόχους!"
+
+msgid "global_msg/def/time_short"
+msgstr "Υπερασπιστείτε τις ζώνες!"
+
+msgid "global_msg/lane/center_short"
+msgstr "Ενισχύστε τη ζώνη %(strArg1)s!"
+
+msgid "global_msg/lane/east_short"
+msgstr "Ενισχύστε τη ζώνη %(strArg1)s!"
+
+msgid "global_msg/lane/west_short"
+msgstr "Ενισχύστε τη ζώνη %(strArg1)s!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "Σώστε τα τεθωρακισμένα σας!"
+
+msgid "help_window/communication"
+msgstr "Περιοχή Επικοινωνιών"
+
+msgid "help_window/communication/description"
+msgstr "Μπορείτε να δεχθείτε εντολές μόνο από συμπαίκτες που βρίσκονται στην ορατή σε σας περιοχή του χάρτη ή όταν το αντικείμενο της εντολής βρίσκεται μέσα σε αυτήν την περιοχή."
+
+msgid "help_window/overview_map"
+msgstr "Κάτοψη Χάρτη"
+
+msgid "help_window/overview_map/description"
+msgstr "Η κάτοψη του χάρτη σας βοηθά να έχετε μία στρατηγική άποψη για το συνολικό πεδίο της μάχης. Όταν ανοίγετε την κάτοψη, μπορείτε να επικοινωνήσετε με όλη την ομάδα και να στείλετε μηνύματα σε αυτήν."
+
+msgid "help_window/recovery"
+msgstr "Ανάκτηση"
+
+msgid "help_window/recovery/description"
+msgstr "Με την Ανάκτηση μπορεί να γίνει αυτοκαταστροφή ενός οχήματος που έχει κολλήσει σε κάποιο σημείο. Ο μηχανισμός αυτός είναι απαραίτητος εξαιτίας της αυξημένης διάρκειας της μάχης και η δυνατότητα επανεκκίνησης υποχρεώνει τους παίκτες σε συνεχή κινητοποίηση."
+
+msgid "help_window/reserves"
+msgstr "Εφεδρικά Οχήματα"
+
+msgid "help_window/reserves/description"
+msgstr "Κάθε λίγα λεπτά, ένα νέο όχημα προστίθεται στα εφεδρικά σας οχήματα, τα οποία μπορεί να είναι μέχρι και 2. Όταν δεν υπάρχει κάποιο εφεδρικό όχημα, δεν μπορείτε να μπείτε στη μάχη και θα πρέπει να περιμένετε μέχρι να προστεθεί κάποιο νέο όχημα."
+
+msgid "hq/under_attack_atk"
+msgstr "Δέχεται Επίθεση"
+
+msgid "hq/under_attack_def"
+msgstr "Δέχεται Επίθεση"
+
+msgid "in_game_rank/experience_text"
+msgstr "XP"
+
+msgid "lane_central_name"
+msgstr "Κεντρικά"
+
+msgid "lane_east_name"
+msgstr "Ανατολικά"
+
+msgid "lane_west_name"
+msgstr "Δυτικά"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "Επίπεδο %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "Απόκτηση μη διαθέσιμη: δεν έχετε Πόντους Εφεδρείας."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "Η Εφεδρεία έφτασε στο μέγιστο επίπεδο."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "Αναβάθμιση μη διαθέσιμη: δεν έχετε Πόντους Εφεδρείας."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "Δεν αγοράσθηκαν Εφεδρείες"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "Η Εφεδρεία αναβαθμίζεται αφότου φτάσετε στον βαθμό του Λοχαγού και του Ταγματάρχη μέσα στη μάχη. Το μέγιστο επίπεδο καθορίζεται από το σενάριο μάχης."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "Κόστος αγοράς: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "Κύριος Στόχος"
+
+msgid "mission/title"
+msgstr "Αποστολή"
+
+msgid "mission/zone_closing_atk"
+msgstr "Η ζώνη ανοίγει σε: "
+
+msgid "mission/zone_closing_def"
+msgstr "Εχθρικός βομβαρδισμός σε: "
+
+msgid "missions/primary/atk/base"
+msgstr "ΚΑΤΑΛΗΨΗ ΖΩΝΗΣ"
+
+msgid "missions/primary/atk/hq"
+msgstr "ΚΑΤΑΣΤΡΟΦΗ ΚΥΡΙΩΝ ΣΤΟΧΩΝ"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s από %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "Καταστροφές κύριων στόχων:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "Καταλάβετε ζώνες για να προσεγγίσετε και να καταστρέψετε τους κύριους στόχους."
+
+msgid "missions/primary/def/base"
+msgstr "ΥΠΕΡΑΣΠΙΣΗ ΖΩΝΩΝ"
+
+msgid "missions/primary/def/hq"
+msgstr "ΥΠΕΡΑΣΠΙΣΗ ΚΥΡΙΩΝ ΣΤΟΧΩΝ"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s από %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "Κατεστραμμένοι κύριοι στόχοι:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "Υπερασπιστείτε τους κύριους στόχους μέχρι τη λήξη του χρόνου ή καταστρέψτε όλους τους επιτιθέμενους."
+
+msgid "missions/unlockTankLevel"
+msgstr "Οχήματα Βαθμίδας IX διαθέσιμα"
+
+msgid "overtime/label"
+msgstr "ΠΑΡΑΤΑΣΗ"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "Αδύνατη η ενεργοποίηση 2 ταυτόσημων Εφεδρειών"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "Αδύνατη η τοποθέτηση ναρκοπέδιου. Τα ναρκοπέδια επικαλύπτονται."
+
+msgid "primeTime/applyBtn"
+msgstr "Μεταφορά"
+
+msgid "primeTime/cancelBtn"
+msgstr "Ακύρωση"
+
+msgid "primeTime/continueBtn"
+msgstr "Συνέχεια"
+
+msgid "primeTime/endOfCycle"
+msgstr "Οι μάχες αυτές στον server %(server)s τελείωσαν."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "Διαθέσιμοι servers:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "Διαθέσιμος server: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "Οι μάχες στον server %(server)s θα είναι διαθέσιμες για ακόμη %(time)s"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "Επόμενες μάχες στον server %(server)s σε %(time)s"
+
+msgid "primeTime/serverTooltip"
+msgstr "Server %(server)s\nΟι μάχες θα είναι διαθέσιμες για ακόμη %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Οι μάχες θα είναι διαθέσιμες σε %(time)s"
+
+msgid "primeTime/servers"
+msgstr "Διαθέσιμοι servers: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Οι μάχες στον server %(server)s τελείωσαν"
+
+msgid "primeTime/status/disable"
+msgstr "Μπορείτε να συνδεθείτε σε server με μάχες Πρώτης Γραμμής για να συνεχίσετε τις προετοιμασίες για τη μάχη."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "Οι μάχες δεν είναι διαθέσιμες στον server %(server)s"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "Υπάρχει Εκεχειρία στον server %(server)s μέχρι τις %(startTime)s"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "Υπάρχει Εκεχειρία σε όλους τους servers"
+
+msgid "primeTime/status/thisEnable"
+msgstr "Οι μάχες Πρώτης Γραμμής στον server %(server)s θα είναι διαθέσιμες για ακόμη %(time)s."
+
+msgid "primeTime/steelhunter/title"
+msgstr "STEEL HUNTER"
+
+msgid "primeTime/title"
+msgstr "ΠΡΏΤΗ ΓΡΑΜΜΉ"
+
+msgid "primeTime/titleWelcome"
+msgstr "ΚΑΛΩΣ ΗΛΘΑΤΕ\nΣΤΗΝ ΠΡΩΤΗ ΓΡΑΜΜΗ"
+
+msgid "progress_timers/active"
+msgstr "Ξεκίνησε"
+
+msgid "progress_timers/fully_equipped"
+msgstr "Με πλήρη εξοπλισμό"
+
+msgid "progress_timers/resupply"
+msgstr "Κύκλος Ανεφοδιασμού"
+
+msgid "progress_timers/unavailable"
+msgstr "Μη Διαθέσιμη"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "Αποστολές Πρώτης Γραμμής"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "λιγότερο από 1 ημέρα"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "φτάστε στη Βαθμίδα %(level)s"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "Νέες αποστολές θα είναι διαθέσιμες σε %(time)s"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "Αποστολές Μαχών Καταδίωξης"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "Λήξη Πρώτης Γραμμής σε: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "Μη Διαθεσιμότητα: %(reason)s."
+
+msgid "rank/allReserveUpgraded"
+msgstr "Αυξήθηκε το Επίπεδο όλων των Εφεδρειών"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "Το ομαδικό μπόνους στις επιδόσεις των πληρωμάτων αυξήθηκε στο +%(percent)s%%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "Το μέγιστο μπόνους στις επιδόσεις των πληρωμάτων έφτασε στο +%(percent)s%%"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "Ομαδικό μπόνους στις επιδόσεις των πληρωμάτων +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "Παίκτης"
+
+msgid "rank/promotion"
+msgstr "προήχθη στον βαθμό %(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "Στρατιώτης"
+
+msgid "rank/rank2"
+msgstr "Λοχίας"
+
+msgid "rank/rank3"
+msgstr "Υπολοχαγός"
+
+msgid "rank/rank4"
+msgstr "Λοχαγός"
+
+msgid "rank/rank5"
+msgstr "Ταγματάρχης"
+
+msgid "rank/rank6"
+msgstr "Στρατηγός"
+
+msgid "rank/recerveUnlocked"
+msgstr "Εφεδρεία %(reserveName)s διαθέσιμη"
+
+msgid "rank/reserveUpgraded"
+msgstr "Η Εφεδρεία %(reserveName)s αναβαθμίστηκε"
+
+msgid "rank/slotUnlocked"
+msgstr "Η %(slotNumber)s Εφεδρεία είναι διαθέσιμη"
+
+msgid "rank/slot_2"
+msgstr "2η"
+
+msgid "rank/slot_3"
+msgstr "3η"
+
+msgid "recovery/Blocked"
+msgstr "Παρεμποδίζεται\nπροσωρινά"
+
+msgid "recovery/disabled"
+msgstr "Ανάκτηση μη διαθέσιμη"
+
+msgid "recovery_panel/base_text"
+msgstr "Πιέστε το J\nγια ανάκτηση"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "Κινηθείτε ή πυροβολήστε για ακύρωση."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "Ακύρωση\nανάκτησης"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "Αίτημα για\nανάκτηση"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "ΚΑΤΑΛΗΨΗ ΕΠΟΜΕΝΗΣ ΒΑΣΗΣ"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "Ενισχύσεις σε "
+
+msgid "reinforcement/unavailable"
+msgstr "Ενισχύσεις μη διαθέσιμες"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s sec μέχρι την αυτόματη ανάπτυξη."
+
+msgid "respawn/deploy_button"
+msgstr "Μάχη!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "Δεν μπορούν να αγοραστούν βελτιωμένα αναλώσιμα μέσα στη μάχη."
+
+msgid "respawn/shop_title"
+msgstr "Συντήρηση"
+
+msgid "respawn/tanks_left"
+msgstr "εναπομείναντα οχήματα"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "Επιλέξτε Όχημα και Περιοχή Εκκίνησης"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "Η εκκίνηση από αυτήν την περιοχή είναι επικίνδυνη."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s sec"
+
+msgid "retreat_message_txt"
+msgstr "ΥΠΟΧΩΡΗΣΗ"
+
+msgid "retreat_mission_txt"
+msgstr "ΥΠΟΧΩΡΗΣΗ ΣΤΗ ΔΙΠΛΑΝΗ ΖΩΝΗ"
+
+msgid "rewardSelection/subTitle"
+msgstr "ΕΠΙΛΕΞΤΕ ΕΠΑΘΛΟ"
+
+msgid "rewardSelection/title"
+msgstr "ΠΡΏΤΗ ΓΡΑΜΜΉ"
+
+msgid "scorePanel/stage1"
+msgstr "Φάση 1"
+
+msgid "scorePanel/stage2"
+msgstr "Φάση 2"
+
+msgid "scorePanel/stage3"
+msgstr "Φάση 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "Οι επιδόσεις του υπολογιστή σας δεν επαρκούν γι αυτήν τη λειτουργία. Θα έχετε προβλήματα με τα γραφικά και με την κίνηση των οχημάτων. Είναι πιθανό να κλείσει εντελώς ο client."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "Χαμηλές Επιδόσεις"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "Σε περίπτωση χαμηλής απόδοσης, δοκιμάστε να χαμηλώσετε την ποιότητα των γραφικών από τις Ρυθμίσεις."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "Αυτό το είδος μάχης απαιτεί υπολογιστή υψηλών επιδόσεων"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "Αυτές οι μάχες απαιτούν υπολογιστή υψηλών επιδόσεων, αλλιώς θα έχετε προβλήματα με τη φόρτωση του χάρτη, τα γραφικά και την κίνηση των οχημάτων. Σε περίπτωση ανεπάρκειας, χαμηλώστε την ποιότητα των γραφικών από τις Ρυθμίσεις."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "Χαμηλές Επιδόσεις"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "Μάχες 30v30 με %(bodyVehicleLevel)s. Αξιοποιήστε τον μηχανισμό Επανεκκίνησης, τις Εφεδρείες και τους Κύκλους Ανεφοδιασμού."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "οχήματα Βαθμίδας %(level)s"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "Μάχες 30v30 με %(bodyVehicleLevel)s. Αξιοποιήστε τον μηχανισμό Επανεκκίνησης, τις Εφεδρείες και τη δυνατότητα επισκευών μέσα στη μάχη."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "Οι συγκεκριμένες μάχες είναι προσωρινά μη διαθέσιμες λόγω τεχνικών προβλημάτων."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "Πρώτη Γραμμή"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "Έναρξη μαχών σε: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "Λήξη μαχών σε: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "Πρόγραμμα Μαχών"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "Σήμερα"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "Αύριο"
+
+msgid "skill/category/firesupport"
+msgstr "Εφεδρείες Επίθεσης"
+
+msgid "skill/category/reconnaissance"
+msgstr "Εφεδρείες Ανίχνευσης"
+
+msgid "skill/category/tactics"
+msgstr "Στρατηγικά Αποθέματα"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "Κάμερα Θεατή"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "Περιστρέψτε την κάμερα με το ποντίκι σας."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "Χρησιμοποιήστε τα πλήκτρα W,A,S,D για να κουνήσετε την κάμερα."
+
+msgid "spectator_mode/follow_text"
+msgstr "Κλικ στο αριστερό κουμπί του ποντικιού για παρακολούθηση."
+
+msgid "spectator_mode/follow_title"
+msgstr "Παρακολούθηση"
+
+msgid "spectator_mode/msg_text"
+msgstr "Άφιξη οχήματος σε:"
+
+msgid "spectator_mode/msg_title"
+msgstr "Όλα τα οχήματα καταστράφηκαν!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "Κλικ ξανά για ακύρωση της παρακολούθησης."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "Ακύρωση παρακολούθησης"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "Παρεμπόδιση"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Αποχώρηση από τη ζώνη!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Αποκατάσταση hit points"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Αποκατάσταση hit points"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Δίνει Έμπνευση"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "Με Έμπνευση"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Κύκλος Ανεφοδιασμού"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Μέσα στον καπνό: απόκρυξη."
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "Μέσα σε καπνό. Μείωση εύρους ορατότητας & επιδόσεων πληρώματος."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "Αποκατάσταση. Μείωση εύρους ορατότητας & επιδόσεων πληρώματος."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "Η Φρουρά ενεργοποιήθηκε"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "Ενεργοποιείται %(activationDelay)s sec αφότου σταματήσει το όχημα"
+
+msgid "super_platoon_panel/title"
+msgstr "Ουλαμός"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "—ομαδικό μπόνους στις επιδόσεις των πληρωμάτων από την παρουσία Στρατηγού."
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "ΟΛΑ ΤΑ ΜΕΤΩΠΑ"
+
+msgid "tab_screen/show_my_lane"
+msgstr "ΤΟ ΜΕΤΩΠΟ ΜΟΥ"
+
+msgid "team1Name"
+msgstr "Επιτιθέμενοι"
+
+msgid "team2Name"
+msgstr "Αμυνόμενοι"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "Επιλέξτε έπαθλα για τις ολοκληρωμένες Βαθμίδες Πρώτης Γραμμής (%(number)s)."
+
+msgid "tooltips/common/disabled"
+msgstr "Μάχες Μη Διαθέσιμες"
+
+msgid "tooltips/common/title"
+msgstr "Πρώτη Γραμμή"
+
+msgid "tooltips/end"
+msgstr "Η διοργάνωση τελείωσε"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "η σειρά με την οποία ξεκλειδώνονται οι Εφεδρείες εξαρτάται από τον τύπο του οχήματος. Εξ αρχής είναι διαθέσιμη 1 Εφεδρεία, ενώ οι άλλες ξεκλειδώνονται στους βαθμούς του Λοχία και του Υπολοχαγού αντιστοίχως."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "Διαθεσιμότητα: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "Στο σενάριο <font color='#E9E2BF'>Twist of Fate</font>, αγοράζοντας μία Εφεδρεία, θα αυξάνεται το επίπεδό της κατά 1, ενώ θα παρέχεται η δυνατότητα να αναβαθμιστεί στο Επίπεδο <font color='#E9E2BF'>IV</font>."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "Η τοποθέτηση μιας Εφεδρείας στη θέση αυτή αυξάνει την πιθανότητά της για το σενάριο <font color='#E9E2BF'>Twist of Fate</font> κατά <font color='#E9E2BF'>10%</font>."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "Ξεκλείδωμα και Αναβάθμιση Εφεδρειών στη Μάχη"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "Οι Εφεδρείες ξεκλειδώνονται και αναβαθμίζονται στη μάχη, σε σχέση με τον τύπο του οχήματος και τον βαθμό στον οποίο φτάνετε."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "Εφεδρείες για Αντιαρματικά"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "Εφεδρείες για Α/Κ Πυροβόλα"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "Εφεδρείες για Βαρέα Άρματα"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "Εφεδρείες για Ελαφρά Άρματα"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "Εφεδρείες για Μέσα Άρματα"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "αφότου ξεκλειδώσετε όλες τις Εφεδρείες, μπορείτε να τις βελτιώσετε. Η αρχική Εφεδρεία μπορεί να αναβαθμιστεί μέχρι το Επίπεδο III, ενώ η επόμενη μπορεί να αναβαθμιστεί μέχρι το Επίπεδο II."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "Αναβάθμιση: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "Θα ξεκλειδώσετε τη θέση όταν φτάσετε στον βαθμό %(rank)s."
+
+msgid "tooltips/timeToEnd"
+msgstr "Διαθεσιμότητα μαχών: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "Οι μάχες θα ξεκινήσουν σε: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "Η διοργάνωση τελείωσε"
+
+msgid "tooltips/widget/level"
+msgstr "Βαθμίδα %(level)s"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "Φτάσατε στη μέγιστη βαθμίδα."
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "ΕΦΕΔΡΕΙΕΣ"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Η Εκεχειρία ισχύει για όλους τους servers. Οι μάχες θα είναι διαθέσιμες σε %(time)s"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "Οι μάχες αυτές πλησιάζουν"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Επιλέξτε Άλλον Server"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "Λεπτομέρειες"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "Οι μάχες στην Πρώτη Γραμμή τελείωσαν."
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "Σενάρια Πρώτης Γραμμής"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Εκεχειρία στον συγκεκριμένο server. Οι μάχες θα είναι διαθέσιμες σε %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Εκεχειρία στον server %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "Οι μάχες θα ξεκινήσουν σε: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "Κάντε κλικ για να μάθετε περισσότερα σχετικά με\nτα σενάρια της Πρώτης Γραμμής και τις διαφορές αυτών."
+
+msgid "zone/arrived_text"
+msgstr "Άφιξη!"
+
+msgid "zone/capture_text"
+msgstr "Κατάληψη"
+
+msgid "zone/captured_text"
+msgstr "Κατελήφθη"
+
+msgid "zone/defend_text"
+msgstr "Υπεράσπιση"
+
+msgid "zone/destroy_text"
+msgstr "Καταστροφή"
+
+msgid "zone/destroyed_text"
+msgstr "Καταστράφηκε"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "Εχθρικές ενισχύσεις"
+
+msgid "zone/headquarters_text"
+msgstr "Κύριοι Στόχοι"
+
+msgid "zone/leave_zone"
+msgstr "Εγκατάλειψη Ζώνης!"
+
+msgid "zone/lost_text"
+msgstr "Χάθηκε"
+
+msgid "zone/reached_text"
+msgstr "Προσεγγίστηκε"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "Εχθρικές ενισχύσεις:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "Ενισχύσεις:"
+
+msgid "zone/reinforcements_text"
+msgstr "Ενισχύσεις"
+
+msgid "zone/time_added"
+msgstr "Προσθήκη λεπτών: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "%(minutes)s λεπτά απομένουν"
+
+msgid "zone/zone_text"
+msgstr "Ζώνη"

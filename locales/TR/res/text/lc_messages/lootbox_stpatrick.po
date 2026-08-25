@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Sandıklara Dön"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Zümrüt Sandık"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "ZÜMRÜT SANDIK"
+
+msgid "common/getButton/lowerCase"
+msgstr "Sandık Al"
+
+msgid "common/getButton/upperCase"
+msgstr "SANDIK AL"
+
+msgid "common/loader"
+msgstr "Sandık açılıyor..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "İstatistiklere bakmak için sandıkları açın."
+
+msgid "common/statistics/header"
+msgstr "Açılan sandıklar: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Açılan sandıklar hakkında tüm bilgiler silinecek."
+
+msgid "entryPoint/boxes"
+msgstr "SANDIKLARA GİT"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Bunlar; Premium araçlar, 3B eklentiler, kredi ve başka değerli oyun içi ürünler içeren özel sandıklardır.\nBunları oyun içi Dükkândan alabilirsiniz."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Sandıklar teknik nedenlerle şu anda açılamaz veya satın alınamaz. Verdiğimiz geçici rahatsızlık nedeniyle özür dileriz."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Sandıklar Geçici Olarak Devre Dışı"
+
+msgid "eventName/lowerCase"
+msgstr "Yeşille Muhteşem"
+
+msgid "eventName/upperCase"
+msgstr "YEŞİLLE MUHTEŞEM"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Bir sonraki sandıkta Garantili Ödül var!"
+
+msgid "guaranteedTitle/text"
+msgstr "Garantili Ödüle kalan maksimum sandık: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Etkinlik bitmeden sandıkları açmazsanız otomatik olarak açılacaklar."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Olası sandık içeriği listesindeki tüm araçlara zaten sahipseniz sandıklardan alacağınız sonraki tüm araçlar tam değerleri karşılığı altın ile telafi edilecek."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Her %(guaranteed0)s sandıkta bir Seviye VIII-IX araç bulunması garantilidir. Bu sandıkları açtığınızda böyle bir araç çıkmazsa açacağınız %(guaranteed0)s&zwnbsp;. sandıktan sahip olmadığınız bir Seviye VIII-IX araç çıkacaktır. Araç çıktığında sayaç sıfırlanır."
+
+msgid "infoPage/header/description"
+msgstr "Değerli oyun içi ürünler alma şansı için sandığı açın! Detayları aşağıda bulabilirsiniz."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "%(name) içinden (%(boxesCount) sandık açıldı)"
+
+msgid "noBoxesView/description/"
+msgstr "Hiç sandığınız yok.\nBunları oyun içi Dükkândan alabilirsiniz."
+
+msgid "preview/backLabel"
+msgstr "SANDIKLARA GİT"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Mevcut sandıklar: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Hiç sandık yok"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Olası sandık içeriği listesindeki tüm araçlara zaten sahipseniz sandıklardan alacağınız sonraki tüm araçlar altın ile telafi edilecek."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) sandık"
+msgstr[1] "%(remainingCount) sandık"
+msgstr[2] "%(remainingCount) sandık"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Garantili Ödül, olası sandık içeriği listesinden bir araçtır.\n%(remainingCount) sandık açtığınız halde böyle bir araç çıkmazsa açacağınız %(count). sandıktan çıkacaktır. Araç çıktığında sayaç sıfırlanır."

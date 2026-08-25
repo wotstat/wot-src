@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "Πλήρωμα & Εκπαίδευση"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "Στοιχεία Προσαρμογής"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "Εξοπλισμός & Οδηγίες"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "Λοιπά"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "Οχήματα"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "Θετικόν!"
+
+msgid "autoOpenView/title"
+msgstr "ΚΕΡΔΙΣΜΕΝΑ ΕΠΑΘΛΑ"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Θετικόν!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "Οδηγία"
+
+msgid "bonuses/description/booster"
+msgstr "Προσωπικό Απόθεμα"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Πρόσωπο Πληρώματος"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Κανονικός εξοπλισμός"
+
+msgid "bonuses/description/style"
+msgstr "Τεχνοτροπία 2D"
+
+msgid "bonuses/description/style3D"
+msgstr "Τεχνοτροπία 3D"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "Τμήμα Μηχανολογικού Σχεδίου (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "Τμήμα Σχεδίου Γενικής Χρήσης"
+
+msgid "bonuses/label/bpcoin"
+msgstr "Battle Pass Token"
+
+msgid "boxTooltip/description/text/default"
+msgstr "Μπορεί να βρείτε σε αυτό οχήματα, νομίσματα και άλλα πολύτιμα αγαθά του παιχνιδιού.\nΤα κοντέινερ μπορείτε να τα αποκτήσετε από τον Εφοδιασμό του παιχνιδιού."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "ακόμη κοντέινερ μέχρι να βρείτε το εγγυημένο έπαθλο, εάν αυτό δεν σας τύχει νωρίτερα."
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "Τα κοντέινερ θα τα βρείτε στον Εφοδιασμό του παιχνιδιού."
+
+msgid "common/backButton"
+msgstr "ΠΙΣΩ"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "Κοντέινερ Tactical"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "ΚΟΝΤΕΙΝΕΡ TACTICAL"
+
+msgid "common/closeButton"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "common/footer/checkbox"
+msgstr "Κινούμενη Προβολή Ανοίγματος"
+
+msgid "common/getButton/lowerCase"
+msgstr "Αποκτήστε Περισσότερα"
+
+msgid "common/getButton/upperCase"
+msgstr "ΑΠΟΚΤΗΣΤΕ ΠΕΡΙΣΣΟΤΕΡΑ"
+
+msgid "common/infoButton"
+msgstr "Περιεχόμενα"
+
+msgid "common/loader"
+msgstr "Άνοιγμα κοντέινερ..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) τμχ"
+msgstr[1] "%(count) τμχ"
+msgstr[2] "%(count) τμχ"
+
+msgid "common/rewards/multiplier"
+msgstr "x{count}"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "ημέρα"
+msgstr[1] "ημέρες"
+msgstr[2] "ημέρες"
+
+msgid "common/selectTooltip"
+msgstr "Όχι αρκετά κοντέινερ για να ανοίξετε {{count}} μονομιάς"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Ανοίξτε κοντέινερ για να δείτε στατιστικά."
+
+msgid "common/statistics/header"
+msgstr "Κοντέινερ που ανοίχθηκαν: %(count)"
+
+msgid "common/statsButton"
+msgstr "Στατιστικά"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "Άκυρο"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Το ιστορικό των επάθλων σας θα διαγραφεί."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "Μηδενισμός"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "Μηδενισμός στατιστικών?"
+
+msgid "entryPoint/boxes"
+msgstr "ΣΤΑ ΚΟΝΤΕΙΝΕΡ"
+
+msgid "entryPoint/count"
+msgstr "×%(count)"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "×999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Σε αυτά τα ειδικά κοντέινερ μπορείτε να βρείτε νέα και μοναδικά αντικείμενα του παιχνιδιού. Μπορείτε να τα αποκτήσετε από τον Εφοδιασμό του παιχνιδιού."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Λήξη διοργάνωσης σε"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Εξαιτίας τεχνικών προβλημάτων και μέχρι την επίλυσή τους, η διοργάνωση είναι προσωρινά μη διαθέσιμη."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Προσωρινή μη διαθεσιμότητα"
+
+msgid "eventName/lowerCase"
+msgstr "Προμήθειες Μάχης"
+
+msgid "eventName/upperCase"
+msgstr "ΠΡΟΜΗΘΕΙΕΣ ΜΑΧΗΣ"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)ο"
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)ο"
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)ο"
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)ο"
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "κάθε %(count) κοντέινερ"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "όχημα"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "Θα βρείτε εγγυημένα ένα %(item) σε %(count). Όταν βρείτε κάποιο όχημα, τότε η αντίστροφη μέτρηση ξεκινά και πάλι από την αρχή."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Εάν έχετε ήδη στην κατοχή σας όλα οχήματα, θα λάβετε ως αντιστάθμισμα την αξία του κάθε οχήματος σε gold."
+
+msgid "guaranteedTitle/text"
+msgstr "%(name) σε %(count) κοντέινερ"
+
+msgid "guaranteedTitle/textName"
+msgstr "Εγγυημένο Έπαθλο"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "Άνοιγμα"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "Λήξη διοργάνωσης σε %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Εάν δεν ανοίξετε όλα τα κοντέινερ έως το τέλος της διοργάνωσης, θα ανοιχτούν αυτόματα."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Εάν έχετε ήδη στην κατοχή σας όλα τα οχήματα από τη λίστα με τα πιθανά έπαθλα, θα λάβετε ως αντιστάθμισμα την πλήρη αξία σε gold όσων οχημάτων βρείτε στα κοντέινερ."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Σε κάθε %(guaranteed0)s κοντέινερ, θα βρείτε εγγυημένα ένα όχημα των Βαθμίδων VIII–X. Αλλά αν δεν βρείτε κάποιο τέτοιο όχημα, τότε με το άνοιγμα του %(guaranteed0)s&zwnbsp;ου κοντέινερ (ανάλογα με τον τύπο του κοντέινερ) θα λάβετε εγγυημένα ένα όχημα των Βαθμίδων VIII–IX που δεν έχετε ήδη στην κατοχή σας. Όταν βρείτε κάποιο τέτοιο όχημα, τότε η αντίστροφη μέτρηση ξεκινά και πάλι από την αρχή."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Αυτόματο Άνοιγμα"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Αντιστάθμισμα"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Εγγυημένο Έπαθλο"
+
+msgid "infoPage/header/lootListLink"
+msgstr "Δείτε την πλήρη λίστα των επάθλων στο portal του παιχνιδιού"
+
+msgid "infoPage/header/probability/description"
+msgstr "Πιθανότητα εύρεσης"
+
+msgid "infoPage/header/probability/title"
+msgstr "Γκρουπ"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Μπορείτε να βρείτε μόνο ένα έπαθλο από το κάθε γκρουπ"
+
+msgid "infoPage/header/rewards/title"
+msgstr "Έπαθλα"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "Άνοιγμα Περισσότερων"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Περιεχόμενα %(name) (Ανοίξατε %(boxesCount) κοντέινερ)"
+
+msgid "multipleRewardView/header/title/"
+msgstr "ΚΕΡΔΙΣΜΕΝΑ ΕΠΑΘΛΑ"
+
+msgid "noBoxesView/description/"
+msgstr "Τα κοντέινερ θα τα βρείτε στον Εφοδιασμό του παιχνιδιού"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "Στον Εφοδιασμό"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Διαθέσιμα Κοντέινερ"
+
+msgid "preview/backLabel"
+msgstr "ΣΤΑ ΚΟΝΤΕΙΝΕΡ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Διαθέσιμα: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Κανένα διαθέσιμο κοντέινερ"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "Συνέχεια"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "για %(vehicleInfo)"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "3D τεχνοτροπία %(style)"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "Η διοργάνωση «%(eventName)s» έληξε"
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "Όλα τα κιβώτια που σας έχουν απομείνει θα ανοιχτούν και το περιεχόμενό τους θα προστεθεί στον λογαριασμό σας."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Προβολή Επάθλων"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Παραλαβή Επάθλων"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Σας απονεμήθηκαν τα αντικείμενα που δεν διεκδικήσατε κατά τη διάρκεια της διοργάνωσης."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "Η διοργάνωση είναι προσωρινά μη διαθέσιμη εξαιτίας εργασιών συντήρησης."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "Η διοργάνωση είναι και πάλι διαθέσιμη. Μας συγχωρείτε για την ταλαιπωρία."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s τεμάχια)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "Κερδίσατε τα έπαθλα:"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "Σφάλμα"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "Περιμένετε μέχρι να ολοκληρωθεί η προηγούμενη λειτουργία."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "Ενέργεια προσωρινά μη διαθέσιμη. Προσπαθήστε ξανά αργότερα."
+
+msgid "serviceChannelMessages/start/button"
+msgstr "Στη Διοργάνωση"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "Η διοργάνωση «%(eventName)s» ξεκίνησε"
+
+msgid "serviceChannelMessages/start/text"
+msgstr "Μόνο μέχρι τις %(date)s: Προνομιακά οχήματα και άλλα πολύτιμα αγαθά του παιχνιδιού!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "Αδύνατη η επαναφορά των στατιστικών. Προσπαθήστε ξανά αργότερα."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "Και ακόμη"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "Άνοιγμα Περισσότερων"
+
+msgid "singleRewardView/header/title/"
+msgstr "ΚΕΡΔΙΣΜΕΝΑ ΕΠΑΘΛΑ"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "Μοναδικό μέλος πληρώματος"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "Προσαρτήματα 3D"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "Αποστολές για x5 XP ανά μάχη"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "Οδηγίες"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "Τμήματα Μηχανολογικών Σχεδίων"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "Φυλλάδια"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "Φυλλάδια Εκπαίδευσης"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "Αναλώσιμα"
+
+msgid "statisticsRewards/label/credits"
+msgstr "Credits"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "Εγχειρίδια"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "Εγχειρίδια Εκπαίδευσης"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "Αποστολές για x3 Crew XP"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "Bonds"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "Στοιχεία Προσαρμογής"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "Βελτιωμένος Εξοπλισμός"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "Components"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "Πειραματικός Εξοπλισμός"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "Free XP"
+
+msgid "statisticsRewards/label/gold"
+msgstr "Gold"
+
+msgid "statisticsRewards/label/guide"
+msgstr "Οδηγοί"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "Οδηγοί Εκπαίδευσης"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "Άδεια Καθοδήγησης"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "Κανονικός Εξοπλισμός"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "Προσωπικά Αποθέματα"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "Προνομιακός Λογαριασμός WoT"
+
+msgid "statisticsRewards/label/rations"
+msgstr "Φαγητά"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "Εντολές Επανεκπαίδευσης"
+
+msgid "statisticsRewards/label/style"
+msgstr "Τεχνοτροπίες 2D"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "Τεχνοτροπίες 3D"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "Μέλη Πληρώματος"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "Αναβαθμίσιμος Εξοπλισμός"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "Οχήματα"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "Μηδενισμός Στατιστικών"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "Κλικ για μηδενισμό όλων των στατιστικών."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "Και %(count) ακόμη έπαθλο."
+msgstr[1] "Και %(count) ακόμη έπαθλα."
+msgstr[2] "Και %(count) ακόμη έπαθλα."
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "«%(label)»"
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "x%(count)"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "Εθνικό Τμήμα Σχεδίου"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). «%(label)» για το %(vehicleInfo)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "Για %(count) τεχνοτροπίες λάβατε αντιστάθμισμα"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "Για %(count) οχήματα λάβατε αντιστάθμισμα"
+
+msgid "tooltip/compensation/notification"
+msgstr "Αντιστάθμισμα για το όχημα που ήδη έχετε στην κατοχή σας."

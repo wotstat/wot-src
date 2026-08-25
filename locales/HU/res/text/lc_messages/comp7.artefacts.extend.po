@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_aggressive_detection/descr/active"
+msgstr "{colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%-kal%{colorTagClose} növeli a látótávolságot {colorTagOpen}%(duration)s mp-re{colorTagClose}.\n\nA számláló visszaáll alaphelyzetbe, amikor megsemmisítenek egy általad felderített ellenséges járművet."
+
+msgid "comp7_aggressive_detection/name"
+msgstr "Aktív felderítő"
+
+msgid "comp7_ally_support/descr/active"
+msgstr "{colorTagOpen}%(duration)s mp-re{colorTagClose} {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%-os%{colorTagClose} bónuszt ad a legénységed hatékonyságára minden, a csapatodban lévő, különböző szerepet betöltő jármű után.\n\nA járművedet mindig figyelembe vesszük a bónusz kiszámításakor."
+
+msgid "comp7_ally_support/name"
+msgstr "Egy mindenkiért"
+
+msgid "comp7_aoe_heal/descr/active"
+msgstr "{colorTagOpen}%(duration)s mp-re{colorTagClose} egy {colorTagOpen}%(radius)s m{colorTagClose} sugarú területet hoz létre a járműved körül, amely {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} életerőt állít vissza a saját és a szövetséges járműveknek."
+
+msgid "comp7_aoe_heal/name"
+msgstr "Harctéri javítás"
+
+msgid "comp7_aoe_inspire/descr/active"
+msgstr "{colorTagOpen}%(duration)s mp-re{colorTagClose} {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%-os%{colorTagClose} bónuszt ad a legénységed hatékonyságára."
+
+msgid "comp7_aoe_inspire/name"
+msgstr "Ösztönzés"
+
+msgid "comp7_berserk/descr/active"
+msgstr "{colorTagOpen}%(duration)s mp-re{colorTagClose} {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%-kal%{colorTagClose} csökkenti a löveg újratöltési idejét. Továbbá {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%-kal%{colorTagClose} csökkenti a löveg tüzelés utáni, mozgás, illetve torony- és járműtestforgás közbeni szórását.\n\nA számláló újraindul, amikor sebzést okozol ütközéssel vagy {colorTagOpen}%(damageDistance)s méternél{colorTagClose} közelebbről leadott lövéssel."
+
+msgid "comp7_berserk/name"
+msgstr "Harag"
+
+msgid "comp7_concentration/descr/active"
+msgstr "{colorTagOpen}%(duration)s mp-re{colorTagClose} {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%-kal%{colorTagClose} csökkenti célzási időt, valamint a löveg tüzelés utáni, mozgás, illetve torony- és járműtestforgás közbeni szórását.\n\nMialatt ez a szerepképesség aktív, {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s mp-cel{colorTagClose} csökkenti a lövések közötti újratöltési időt."
+
+msgid "comp7_concentration/name"
+msgstr "Összpontosítás a célpontra"
+
+msgid "comp7_fast_recharge/descr/active"
+msgstr "• Tártöltő rendszer esetén:\nA fennmaradó tárújratöltési idő ennyivel csökken: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n• Automatikus újratöltő rendszer esetén:\nAz aktuális ciklus összes kilőtt lövedéke ennyivel gyorsabban töltődik be: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\nEz a képesség csak az újratöltési folyamat alatt aktiválható.\n\n• Túlmelegedés-szabályozott gépágyú esetén:\nAz ágyú hőmérséklete a lehetséges maximum {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%-ával%{colorTagClose} csökken.\n\nA képesség csak felmelegedett ágyúnál aktiválható."
+
+msgid "comp7_fast_recharge/name"
+msgstr "Kézügyesség"
+
+msgid "comp7_hunter/descr/active"
+msgstr "Visszaállítja a lövéssel megsebzett ellenséges járművek számát.\n\n{colorTagOpen}%(duration)s mp-ig{colorTagClose} a járműved {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} életerőt állít vissza minden, az aktiválás pillanatáig lövéssel megsebzett ellenséges jármű után."
+
+msgid "comp7_hunter/descr/passive"
+msgstr "{colorTagOpen}%(gunReloadTimeBuff)s%-kal%{colorTagClose} csökkenti a löveg újratöltési idejét minden lövéssel megsebzett ellenséges jármű után."
+
+msgid "comp7_hunter/name"
+msgstr "Fejvadász"
+
+msgid "comp7_juggernaut/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s mp-ig{colorTagClose}:\n• {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%-kal%{colorTagClose} csökkenti az elszenvedett sebzést\n• {colorTagOpen}%(fwMaxSpeedBonus)s km/h-val{colorTagClose} növeli a végsebességet\n• {colorTagOpen}%(bkMaxSpeedBonus)s km/h-val{colorTagClose} növeli a tolatási sebességet\n• {colorTagOpen}%(enginePowerBuff)s%-kal%{colorTagClose} növeli a motor teljesítményét\n• {colorTagOpen}%(rammingDamageBuff)s%-kal%{colorTagClose} növeli az ellenséges járműveknek ütközéssel okozott sebzést\n\nAmikor ez a szerepképesség aktív, a lánctalpaid egyetlen lövéstől megsemmisülnek."
+
+msgid "comp7_juggernaut/name"
+msgstr "Juggernaut"
+
+msgid "comp7_march/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s mp-ig{colorTagClose} {colorTagOpen}%(enginePowerBuff)s%-kal%{colorTagClose} megnöveli a járműved motorjának teljesítményét, {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h-val növeli a végsebességet és {colorTagOpen}%(invisibilityFactor)s%-kal%{colorTagClose} növeli a jármű álcázási értékét."
+
+msgid "comp7_march/name"
+msgstr "Erőltetett menet"
+
+msgid "comp7_recon/descr/active"
+msgstr "{colorTagOpen}%(delay)s mp-en{colorTagClose} belül egy felderítő repülőgép repül át a kiválasztott terület fölött. {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} sugarú területen a felderített ellenséges járművek {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;mp-ig{colorTagClose} láthatóak maradnak. {colorTagOpen}%(lampDelay)s mp-es{colorTagClose} késleltetéssel egy külön ikon jelenik meg a képességgel felderített játékosoknak.\n\nEz a képesség a csata kezdete után {colorTagOpen}%(startupDelay)s mp-el{colorTagClose} válik elérhetővé."
+
+msgid "comp7_recon/name"
+msgstr "Felderítő repülés"
+
+msgid "comp7_redline/descr/active"
+msgstr "{colorTagOpen}%(delay)s mp-en{colorTagClose} belül tüzérségi csapást mérnek a kiválasztott területre.\n\n {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} sugarú területen belül az eltalált célpontok {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} életerő sebzést szenvednek el, és {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s mp-re{colorTagClose} elkábulnak."
+
+msgid "comp7_redline/name"
+msgstr "Tűzfedezet"
+
+msgid "comp7_risky_attack/descr/active"
+msgstr "Gyorsítás\n\n{colorTagOpen}%(duration)s mp-re{colorTagClose} {colorTagOpen}%(enginePowerBuff)s%-kal%{colorTagClose} megnöveli a motor teljesítményét, {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h-val a végsebességet és {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/h-val a tolatási sebességet.\n\nVisszaállítás\n\n{colorTagOpen}%(healDuration)s mp-ig{colorTagClose} a járműved visszaállít {colorTagOpen}%(baseHeal)s{colorTagClose} életerőt {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%-át%{colorTagClose} az aktív Gyorsítás alatt elveszített életerőnek."
+
+msgid "comp7_risky_attack/name"
+msgstr "Megújulás"
+
+msgid "comp7_role_skill/descr/startLevel"
+msgstr " \n\nA csata kezdetén a szerepképesség töltési szintje{colorTagOpen} %(startLevel)s{colorTagClose}."
+
+msgid "comp7_sniper/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s mp-ig{colorTagClose}a 100 méteren mért szórásod {colorTagOpen}%(dispersionFactor)s m{colorTagClose} lesz.\n\nHa a járműved nincs felderítve a lövés pillanatában, a lövedéked által okozott sebzés {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%-kal%{colorTagClose} nő. \n\nA számláló visszaáll alaphelyzetbe, ha sebzést okozol egy több mint {colorTagOpen}%(damageDistance)s m{colorTagClose} távolságból leadott lövéssel."
+
+msgid "comp7_sniper/name"
+msgstr "Telitalálat"
+
+msgid "comp7_sure_shot/descr/active"
+msgstr "{colorTagOpen}%(duration)s mp-re{colorTagClose} {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%-kal%{colorTagClose} csökkenti a löveg mozgás, illetve torony- és járműtestforgás közbeni szórását.\n\nAmíg ez a képesség aktív, a lövéssel okozott sebzés az ellenséges járműnek okozott százalékos sebzés {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%-ával%{colorTagClose} csökkenti a löveg újratöltési idejét.\n\nHa megsemmisítesz egy járművet, az {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%-kal%{colorTagClose} csökkenti a löveg újratöltési idejét."
+
+msgid "comp7_sure_shot/name"
+msgstr "Tiszta lövés"

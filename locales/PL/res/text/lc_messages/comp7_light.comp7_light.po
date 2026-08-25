@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Zmień serwer"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Szczegóły"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Tryb jest niedostępny na tym serwerze %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Tryb jest niedostępny na wszystkich serwerach"
+
+msgid "alertMessage/modeOffline"
+msgstr "Błąd bazy danych. Tryb gry niedostępny."
+
+msgid "alertMessage/noVehicles"
+msgstr "W garażu nie ma odpowiednich pojazdów %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Tak jest!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "NATARCIE LIGHT"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "UKOŃCZONO OSTATNI ETAP!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "ETAP %(level)s UKOŃCZONY!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Ukończono wszystkie misje!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Ukończono"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Wygasa za: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Misja Natarcia light"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Nowa misja Natarcia light za: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Nagroda:"
+msgstr[1] "Nagrody:"
+msgstr[2] "Nagrody:"
+
+msgid "battleResult/header/deserter"
+msgstr "Otrzymałeś karę"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "POSTĘPY NATARCIA LIGHT"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s – %(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Natarcie light potrwa %(days)d dzień"
+msgstr[1] "Natarcie light potrwa %(days)d dni"
+msgstr[2] "Natarcie light potrwa %(days)d dni"
+
+msgid "calendarDay/title"
+msgstr "Harmonogram"
+
+msgid "closeButtonLabel"
+msgstr "ZAMKNIJ"
+
+msgid "countDown/text"
+msgstr "Początek wydarzenia za:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Szybki tryb obejmujący bitwy 7 na 7 w pojazdach %(levels)s poziomu. Ciesz się rozgrywką oryginalnego trybu Natarcie bez kwalifikacji, stopni oraz przebiegu służby i zdobywaj nagrody w misjach dziennych."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "TRYB"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s – tryb gry. Kliknij, aby dowiedzieć się więcej"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Natarcie light"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Tryb jest dostępny przez %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Zawieszenie broni%(timer)s"
+
+msgid "featureName"
+msgstr "Natarcie light"
+
+msgid "featureNameCapitalized"
+msgstr "NATARCIE LIGHT"
+
+msgid "intro/confirmButton"
+msgstr "Tak jest!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Ciesz się rozgrywką oryginalnego trybu Natarcie bez kwalifikacji, stopni i przebiegu służby."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Tryb ma modyfikatory, które zmieniają określone parametry pojazdu, takie jak: jego wytrzymałość, czas przygotowania materiałów eksploatacyjnych, czas pozostawania widocznym i inne."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Po zajęciu określonych obszarów mapy będziesz mieć możliwość wykorzystania umiejętności taktycznych. Istnieją dwa rodzaje punktów docelowych: Sztab artylerii pozwala kierować uderzenie artyleryjskie na określoną pozycję, a Centrum komunikacji wykrywa wszystkie pojazdy przeciwnika. Obecność i rozmieszczenie tych punktów docelowych zmienia się w zależności od mapy."
+
+msgid "intro/description/roleSkills"
+msgstr "W zależności od roli każdy pojazd ma specjalną umiejętność z trzema poziomami naładowania. Im wyższy poziom, przy którym umiejętność zostaje aktywowana, tym mocniejszy jej efekt. Poziom naładowania zależy od liczby punktów prestiżu, które można zdobyć za imponującą skuteczność w bitwie, zdobywanie punktów docelowych, wykorzystanie umiejętności taktycznych itd.\n\nWięcej informacji o różnych sposobach zdobywania punktów prestiżu znajduje się w przepisach trybu."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "W tym trybie można używać tylko pojazdów %(levels)s (działa samobieżne i niektóre czołgi nie są dostępne). Przygotujcie swoje pojazdy w garażu, a po wejściu do bitwy wybierzcie najlepszy z nich pod względem cech danej mapy. Wybierając pojazd, weźcie też pod uwagę, jakie pojazdy wybrali sojusznicy."
+
+msgid "intro/title/lightGameplay"
+msgstr "DOWÓDCO, WRZUĆ NA LUZ"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "MODYFIKATORY NATARCIA"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "PUNKTY DOCELOWE"
+
+msgid "intro/title/roleSkills"
+msgstr "UMIEJĘTNOŚCI ROLI"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "WYBIERZ POJAZD DLA KONKRETNEJ MAPY"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Zwycięstwo"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Porażka/Remis"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Dobra robota, Dowódco, oby tak dalej!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Wypełniaj misje i zajmuj najwyższe miejsca w bitwach Natarcia light, aby podnieść swój poziom postępów."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Liczba zdobywanych punktów postępu zależy od miejsca, które zajmiesz w bitwie pod względem zdobytych punktów prestiżu."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Koniec trybu za %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Ukończono główne postępy"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Natarcie light"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Najlepsza 2 według punktów prestiżu"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Najlepsza 5 według punktów prestiżu"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Najlepsza 7 według punktów prestiżu"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Użyj konta premium WoT"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktywuj rezerwy osobiste"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Wypełniaj misje"
+
+msgid "noVehicles/howTo/title"
+msgstr "Jaki jest najszybszy sposób na zdobycie pojazdów %(levels)s poziomu?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Aby brać udział w Natarciu light, trzeba mieć w garażu przynajmniej jeden pojazd %(levels)s poziomu odpowiedni dla tego trybu.\nMożesz kupić pojazdy premium %(levels)s poziomu w drzewie technologicznym lub w Sklepie w grze."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Aby brać udział w Natarciu light, trzeba mieć w garażu przynajmniej jeden pojazd %(levels)s poziomu odpowiedni dla tego trybu.\nMasz pojazd %(levels)s poziomu możliwy do odzyskania."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Aby brać udział w Natarciu light, trzeba mieć w garażu przynajmniej jeden pojazd %(levels)s poziomu odpowiedni dla tego trybu."
+
+msgid "noVehicles/title"
+msgstr "W garażu nie ma odpowiednich pojazdów"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Szczegóły znajdziesz na stronie O Natarciu light."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Punkty prestiżu"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Zadawanie uszkodzeń\nAsystowanie wykrywaniem\nNiszczenie gąsienic\nZadawanie trafień krytycznych\nNiszczenie pojazdów przeciwnika\nI nie tylko"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Punkty prestiżu można zdobyć, wykonując działania bojowe, takie jak:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Sezon na serwerze %(server)s skończył się."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Sezon na serwerze %(server)s skończył się."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Sezon na serwerze %(server)s skończył się."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Ukończono główne postępy!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Etap %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s lub %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Nowa misja za:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Wydarzenie kończy się za:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Misje zostaną zaktualizowane za"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Ukończono wszystkie misje dzienne."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Ukończono postępy. Graj w Natarciu light, aby zdobyć więcej nagród."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Wypełniaj misje i zajmuj najwyższe miejsca w bitwach Natarcia light,\n aby podnieść swój poziom postępów. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Przyznawane za wypełnione misje specjalne i stoczone bitwy w Natarciu light. Pozwalają na awans w postępach."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Punkty postępów Natarcia light"
+
+msgid "selectorTooltip/desc"
+msgstr "Tryb bez stopni. 7 na 7 | Poziom %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Natarcie light"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Śledź najnowsze informacje na portalu gry, aby być na bieżąco na początku nowego sezonu."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Ten tryb jest tymczasowo niedostępny z przyczyn technicznych."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Tryb będzie dostępny %(time)s."
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Zdobyte punkty postępu"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Szczegóły"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Natarcie light"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Otrzymane nagrody:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Ukończyłeś %(stage)s etap postępu w trybie %(progressionName)s."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Gratulacje!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Trwa zawieszenie broni. Bitwy Natarcia light są tymczasowo niedostępne."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Zawieszenie broni"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Zawieszenie broni skończyło się. Bitwy Natarcia light są ponownie dostępne."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Zawieszenie broni"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "O Natarciu light"

@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Erweitern"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Unzureichend ausgebildete Besatzungsmitglieder entlassen"
+
+msgid "barracks/bunks/title"
+msgstr "Betten:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Geben Sie an, wie viele Betten Sie kaufen wollen. In der Kaserne verfügbare Betten: %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Rabattpreis"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Neue Kosten: %(currency)s für %(bunksCount)s Betten"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Vorherige Kosten: %(currency)s für %(bunksCount)s Betten"
+
+msgid "barracks/enlarge/header"
+msgstr "Kaserne erweitern?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Unzureichend ausgebildete Besatzungsmitglieder in der Kaserne, die weniger als die zur Ausbildung des ersten Vorteils auf {whiteSpanish_Open}100 %{whiteSpanish_Close} erforderlichen {whiteSpanish_Open}210 060{whiteSpanish_Close}{icon} EP besitzen, können entlassen werden."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Unzureichend ausgebildete Besatzungsmitglieder"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Sie haben keine unzureichend ausgebildeten Besatzungsmitglieder."
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Wenn Sie unzureichend ausgebildete Besatzungsmitglieder entlassen, erhalten Sie dafür keine Vergütung. Nachdem die Besatzungsmitglieder entlassen wurden, können sie nicht wiederhergestellt werden, ihre EP verfallen."
+
+msgid "barracks/title"
+msgstr "KASERNE"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Klicken, um die Kaserne zu erweitern."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Kaserne erweitern"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Ort"
+
+msgid "common/imageNotAvailable"
+msgstr "Bild nicht verfügbar"
+
+msgid "common/inBarracks"
+msgstr "In der Kaserne"
+
+msgid "common/inBattle"
+msgstr "Im Gefecht"
+
+msgid "common/inPrebattle"
+msgstr "In taktischer Einheit"
+
+msgid "common/navigation/aboutCrew"
+msgstr "ÜBER DIE BESATZUNG"
+
+msgid "common/navigation/toBarracks"
+msgstr "ZUR KASERNE"
+
+msgid "common/navigation/toGarage"
+msgstr "ZUR GARAGE"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "ZUM PROFIL"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s %"
+
+msgid "conversionAwards/button/submit"
+msgstr "Verstanden!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Ihre Besatzungsmitglieder wurden in Besatzungsbücher umgewandelt."
+
+msgid "conversionAwards/title"
+msgstr "UMWANDLUNG ERFOLGREICH"
+
+msgid "conversionAwards/underTitle"
+msgstr "Die folgenden Gegenstände wurden Ihrem Konto hinzugefügt."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Abbrechen"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Entlassen"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Zu entlassende Besatzungsmitglieder: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Unzureichend ausgebildete Besatzungsmitglieder entlassen?"
+
+msgid "conversionConfirm/warning"
+msgstr "Wenn Sie unzureichend ausgebildete Besatzungsmitglieder entlassen, erhalten Sie dafür keine Vergütung. Nachdem die Besatzungsmitglieder entlassen wurden, können sie nicht wiederhergestellt werden, ihre EP verfallen."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Vorteile automatisch auswählen"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Es gibt keine Besatzungsmitglieder mit noch nicht ausgebildeten Vorteilen."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Vorteile können nicht automatisch ausgewählt werden"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Bei allen Besatzungen werden alle nicht ausgebildeten Vorteile, die mit einem Plus-Zeichen versehen sind, durch einen nach einer bestimmten Logik automatisch ausgewählten Vorteil ersetzt."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Nicht ausgebildete Vorteile für alle automatisch auswählen"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Vorteile für alle zurücksetzen"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Es gibt keine Besatzungsmitglieder mit ausgebildeten Vorteilen."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Vorteile können nicht zurückgesetzt werden"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Alle Vorteile aller Besatzungsmitglieder auf Ihrem Konto werden zurückgesetzt. Dieser Vorgang kann nicht rückgängig gemacht werden."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Vorteile für alle zurücksetzen"
+
+msgid "crewBanner/infoText"
+msgstr "Kostenloses Zurücksetzen von Vorteilen oder automatische Auswahl nicht ausgebildeter Vorteile für alle Besatzungsmitglieder auf Ihrem Konto"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Schnellausbildung ist aktiviert"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Effizienzbonus: {{@ style (color $color)}}+{{value}} %{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Vorteilseffizienz"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Die Vorteile sind nicht verfügbar, da das Besatzungsmitglied nicht für dieses Fahrzeug ausgebildet ist."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Qualifikation:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Vorteile nicht verfügbar"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Bonusvorteile:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Vorteile der Hauptspezialisierung:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(China)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Tschechoslowakei)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Frankreich)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Deutschland)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Italien)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japan)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Polen)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Schweden)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(GB)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(USA)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(UdSSR)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Alle Premium-Jagdpanzer {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Alle Premium-Selbstfahrlafetten {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Alle schweren Premiumpanzer {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Alle leichten Premiumpanzer {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Alle mittleren Premiumpanzer\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Details"
+
+msgid "filter/group/details/title"
+msgstr "Details"
+
+msgid "filter/group/nation/title"
+msgstr "Nation"
+
+msgid "filter/group/other/title"
+msgstr "Sonstiges"
+
+msgid "filter/group/special/title"
+msgstr "Spezial"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Spezialisierung"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Stufe"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Stufe"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Einweisung"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Fahrzeugtyp"
+
+msgid "filter/popup/button/title"
+msgstr "Filter"
+
+msgid "filter/popup/default/title"
+msgstr "Filter"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Nach Nation filtern"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Nach Fahrzeugen filtern"
+
+msgid "filter/reset"
+msgstr "Filter zurücksetzen"
+
+msgid "filter/search/placeholder"
+msgstr "Nach Namen suchen"
+
+msgid "filter/search/tooltip/header"
+msgstr "Nach Namen suchen"
+
+msgid "filter/title"
+msgstr "Angezeigt:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Besatzungsmitglieder in Fahrzeugen, bei denen alle verfügbaren Module und technischen Zweige erforscht sind, anzeigen/ausblenden"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Elitefahrzeuge"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Besatzungsmitglieder anzeigen/ausblenden, die für Premiumfahrzeuge ausgebildet wurden"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Premiumfahrzeuge"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Besatzungsmitglieder in Primärfahrzeugen anzeigen/ausblenden"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Primärfahrzeuge"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Besatzungsmitglieder dieses Fahrzeugtyps anzeigen/ausblenden"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Besatzungsmitglieder dieser Nation anzeigen/ausblenden"
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Skins dieser Nation anzeigen/ausblenden"
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Fahrzeuge dieser Nation anzeigen/ausblenden"
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Entlassene Besatzungsmitglieder anzeigen/ausblenden"
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Entlassen"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Rekruten anzeigen."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Rekruten"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Besatzungsmitglieder anzeigen."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Besatzungsmitglieder"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Besatzungsmitglieder dieser Spezialisierung anzeigen/ausblenden"
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Premiumfahrzeuge anzeigen/ausblenden"
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Premiumfahrzeuge"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Fahrzeuge dieses Typs anzeigen/ausblenden"
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Selbstfahrlafetten"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Schwere Panzer"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Leichte Panzer"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Mittlere Panzer"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Keine Fahrzeuge, die\ndie Suchkriterien erfüllen"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Nach Fahrzeugnamen sortieren."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Name"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Nach Fahrzeugstufe sortieren."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Stufe"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Nach Fahrzeugtyp sortieren."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Typ"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Name"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Klicken Sie hier, um die Filtereinstellungen zurückzusetzen."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Alle Filter zurücksetzen"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Verstanden!"
+
+msgid "junkTankmen/description"
+msgstr "Diese Besatzungsmitglieder besitzen weniger als die zur Ausbildung des ersten Vorteils auf {whiteSpanish_Open}100 %{whiteSpanish_Close} erforderlichen {bond_Open}210 060{bond_Close}{icon} EP.\nSie werden von Ihrem Konto entfernt."
+
+msgid "junkTankmen/title"
+msgstr "Unzureichend ausgebildete Besatzungsmitglieder entlassen?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Jede zusätzliche Spezialisierung ist auf {whiteSpanish_Open}drei{whiteSpanish_Close} Vorteile beschränkt. Der Zugang zu einem neuen Bonusvorteil wird freigeschaltet, sobald der {whiteSpanish_Open}erste{whiteSpanish_Close}, {whiteSpanish_Open}dritte{whiteSpanish_Close} und {whiteSpanish_Open}fünfte{whiteSpanish_Close} Vorteil der Hauptspezialisierung erreicht wurde."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Bonusvorteile"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Wenn Sie Besatzungsmitglieder für andere Fahrzeuge mit anderen Spezialisierungen umschulen, können Sie die Vorteile für die neue zusätzliche Spezialisierung erneut wählen."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Bonusvorteile werden nur halb so schnell ausgebildet wie die Vorteile der Hauptspezialisierung."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Zur Ausbildung von Bonusvorteilen sind keine EP erforderlich."
+
+msgid "matrix/freeResetButton"
+msgstr "Kostenlos zurücksetzen"
+
+msgid "matrix/increaseButton"
+msgstr "Schnellausbildung"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Das Besatzungsmitglied hat das Ausbildungslimit erreicht."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Schnellausbildung nicht möglich"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Vorteile mit Freien EP und Besatzungsbüchern ausbilden."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Sofortausbildung"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Spezialisierung nicht kompatibel"
+
+msgid "matrix/qualification/1"
+msgstr "Hauptspezialisierung"
+
+msgid "matrix/qualification/2"
+msgstr "Zweite Spezialisierung"
+
+msgid "matrix/qualification/3"
+msgstr "Dritte Spezialisierung"
+
+msgid "matrix/qualification/4"
+msgstr "Vierte Spezialisierung"
+
+msgid "matrix/qualification/5"
+msgstr "Fünfte Spezialisierung"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Null-Vorteile für zweite Spezialisierung nicht verfügbar"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Null-Vorteile für dritte Spezialisierung nicht verfügbar"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Null-Vorteile für vierte Spezialisierung nicht verfügbar"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Die zweite Spezialisierung ist für dieses Fahrzeug nicht verfügbar."
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Die dritte Spezialisierung ist für dieses Fahrzeug nicht verfügbar."
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Die vierte Spezialisierung ist für dieses Fahrzeug nicht verfügbar."
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Die fünfte Spezialisierung ist für dieses Fahrzeug nicht verfügbar."
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Jede zusätzliche Spezialisierung ist auf {whiteSpanish_Open}drei{whiteSpanish_Close} Bonusvorteile beschränkt. Als Bonusvorteil können nur Vorteile dieser Spezialisierung ausgewählt werden."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Die Hauptspezialisierung ist auf {whiteSpanish_Open}sechs{whiteSpanish_Close} Vorteile beschränkt (einschließlich Null-Vorteile)."
+
+msgid "matrix/resetButton"
+msgstr "Zurücksetzen"
+
+msgid "matrix/resetButtonHint"
+msgstr "KLICKEN, UM DIE VORTEILE ZURÜCKZUSETZEN"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Sie haben keine Vorteile ausgebildet."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Vorteile können nicht zurückgesetzt werden"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Klicken, um die Vorteile zurückzusetzen."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Vorteile zurücksetzen"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Bonusvorteil zur Ausbildung verfügbar"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Zur Ausbildung von Bonusvorteilen sind keine Besatzungs-EP erforderlich."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Nicht verfügbar"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Wird freigeschaltet, sobald der dritte Vorteil der Hauptspezialisierung ausgebildet wird. Erfordert keine EP."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Wird freigeschaltet, sobald der fünfte Vorteil der Hauptspezialisierung ausgebildet wird. Erfordert keine EP."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Ausbildungsstufe"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "Die Gesamtmenge der erforderlichen EP wird reduziert, weil das Besatzungsmitglied einen Null-Vorteil hat."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "Die Gesamtmenge der erforderlichen EP wird reduziert, weil das Besatzungsmitglied zwei Null-Vorteile hat."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Vorteil zur Ausbildung verfügbar"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Nicht verfügbar"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Der vorangehende Vorteil muss auf 100 % ausgebildet sein."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Null-Vorteil zur Ausbildung verfügbar"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Null-Vorteile werden immer zuerst ausgebildet, auch wenn mehrere Vorteile gleichzeitig ausgewählt wurden. Zur Ausbildung sind keine Besatzungs-EP erforderlich."
+
+msgid "matrix/skills/allSkills"
+msgstr "Alle für dieses Fahrzeug ausgebildeten zusätzlichen Vorteile"
+
+msgid "matrix/skills/available"
+msgstr "Zum Ausbilden verfügbare Vorteile:"
+
+msgid "matrix/skills/bonus"
+msgstr "Bonusvorteile"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Vorteile sind nicht verfügbar."
+
+msgid "matrix/skills/locked"
+msgstr "Vorteile sind nicht verfügbar."
+
+msgid "matrix/skills/main/disabled"
+msgstr "Alle Vorteile für dieses Fahrzeug sind deaktiviert."
+
+msgid "matrix/skills/main/enabled"
+msgstr "Vorteile der Hauptspezialisierung"
+
+msgid "matrix/skills/reduced"
+msgstr "Vorteilseffizienz reduziert"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Vorteile des Kommandanten"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Vorteile des Fahrers"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Vorteile des Kommandanten"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Vorteile des Fahrers"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Vorteile des Richtschützen"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Vorteile des Ladeschützen"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Vorteile des Funkers"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Vorteile des Richtschützen"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Vorteile des Ladeschützen"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Vorteile des Funkers"
+
+msgid "matrix/skills/training"
+msgstr "Ausbildung von Vorteilen"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Zum Ausbilden verfügbare Null-Vorteile:"
+
+msgid "memberChange/action/recruit"
+msgstr "{role} rekrutieren"
+
+msgid "memberChange/discount"
+msgstr "RABATT VON {discountAmount} % AUF DEN SPEZIALISIERUNGSWECHSEL"
+
+msgid "memberChange/title"
+msgstr "{role} AUSWÄHLEN: {vehicle} "
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}Im Lager{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Nach der Bestätigung wird das Besatzungsmitglied, von dem die EP übertragen werden, vom Konto entfernt."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Mit der Mentorlizenz können Sie Besatzungs-EP von einem Besatzungsmitglied auf ein anderes Besatzungsmitglied derselben Nation übertragen."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Mentorlizenz"
+
+msgid "personalData/card/edit"
+msgstr "Bearbeiten"
+
+msgid "personalData/card/remove"
+msgstr "Entfernen"
+
+msgid "personalData/card/restrictions"
+msgstr "Einschränkungen: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Klicken Sie, um Namen und Aussehen eines Besatzungsmitglieds zu ersetzen."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Aussehen"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Name und Aussehen dieses Besatzungsmitglieds sind bereits einzigartig."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Name und Aussehen können nicht ersetzt werden"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Nichts gefunden. Ändern Sie die Einstellungen oder setzen Sie den Filter zurück."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Konfigurieren Sie die Anzeige der Skins nach ihrer Nation."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Nach Parametern filtern"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Dokumente anzeigen."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Dokumente"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Geeignete Skins anzeigen."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Geeignete Skins"
+
+msgid "personalData/filter/type/title"
+msgstr "Typ"
+
+msgid "personalData/title"
+msgstr "NAMEN UND AUSSEHEN ERSETZEN"
+
+msgid "personalFile/changeVehicle"
+msgstr "Ändern"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Dieses Besatzungsmitglied konnte nicht für ein anderes Fahrzeug ausgebildet werden."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Operation nicht verfügbar"
+
+msgid "personalFile/discount/full"
+msgstr "Rabatt auf Umschulung der Besatzung verfügbar"
+
+msgid "personalFile/discount/short"
+msgstr "Rabatt verfügbar"
+
+msgid "personalFile/inVehicle"
+msgstr "Im Fahrzeug: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Beschleunigen"
+
+msgid "personalFile/isUntrained"
+msgstr "Nicht für dieses Fahrzeug ausgebildet"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Alle {icon} Premiumfahrzeuge"
+
+msgid "personalFile/retrain"
+msgstr "Umschulen"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Vorteilseffizienz:"
+
+msgid "personalFile/specialization"
+msgstr "Einweisung:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Einweisung"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Klicken Sie, um ein Beispiel für die Sprachausgabe dieses Kommandanten zu hören."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Einzigartige Sprachausgabe"
+
+msgid "postProgression/button/claim"
+msgstr "Belohnung abholen"
+
+msgid "postProgression/description"
+msgstr "Alle Besatzungsmitglieder, die bereits sechs Vorteile für ihre Hauptspezialisierung ausgebildet haben, kommen in den Nachfortschritt. Für jeweils 100 000 EP, die sie im Nachfortschritt verdienen, erhalten Sie einen universellen Ratgeber, den Sie nutzen können, um andere Besatzungsmitglieder auszubilden."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "Der Nachfortschritt besteht aus einem einheitlichen Balken für alle Besatzungsmitglieder auf dem Konto, die bereits sechs Vorteile ihrer Hauptspezialisierung komplett ausgebildet haben."
+
+msgid "postProgression/tips/2"
+msgstr "Nur Gefechts-EP zählen für den Nachfortschritt. Die Hälfte der von einem Besatzungsmitglied im Gefecht verdienten Gefechts-EP wird durch die Gesamtzahl der Besatzungsmitglieder im Fahrzeug geteilt und dem Nachfortschritt hinzugefügt."
+
+msgid "postProgression/tips/3"
+msgstr "Wenn EP durch Vorteile oder Effizienzpools verloren gehen, hat dies keinen Einfluss auf den Nachfortschritt."
+
+msgid "postProgression/title"
+msgstr "NACHFORTSCHRITT DER BESATZUNG"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Alle Besatzungsmitglieder, die Zugang zum Nachfortschritt hatten, haben geringe Vorteilseffizienz."
+
+msgid "postProgression/warning/retire"
+msgstr "Alle Besatzungsmitglieder, die Zugang zum Nachfortschritt hatten, wurden entlassen oder haben EP von ihrem letzten Vorteil oder ihren letzten Vorteilen verloren."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Alle Premium-Jagdpanzer"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Alle Premium-Selbstfahrlafetten"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Premium-Jagdpanzer"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Premium-Selbstfahrlafetten"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "schwere Premiumpanzer"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "leichte Premiumpanzer"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "mittlere Premiumpanzer"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Alle schweren Premiumpanzer"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Alle leichten Premiumpanzer"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Alle mittleren Premiumpanzer"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "AUSZEICHNUNGEN"
+
+msgid "serviceRecord/averageXP"
+msgstr "Mittlere Erfahrung je Gefecht"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Gespielte Gefechte"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Keine Erfolge oder Auszeichnungen in Gefechten erhalten"
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Verhältnis der gesamten verdienten EP zur Anzahl der bestrittenen Gefechte in dem Fahrzeug, dem das Besatzungsmitglied zugewiesen ist."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Mittlere Erfahrung je Gefecht"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Der Rang eines Besatzungsmitglieds hängt von seiner Erfahrung und den ausgebildeten Vorteilen ab."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Rang"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Das Besatzungsmitglied hat alle Vorteile für dieses Fahrzeug ausgebildet."
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Zum Ausbilden verfügbare Vorteile"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Alle Vorteile für dieses Fahrzeug deaktiviert"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Zur Ausbildung von Vorteilen zusätzlicher Spezialisierungen sind keine EP erforderlich, diese werden nur halb so schnell ausgebildet wie die Vorteile der Hauptspezialisierung."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Abbrechen"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Ausbilden"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "BONUSSPEZIALISIERUNG"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "HAUPTSPEZIALISIERUNG"
+
+msgid "tankChange/title"
+msgstr "AUSBILDEN AUF FAHRZEUG"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Fahrzeuge in der Garage anzeigen."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "In Garage"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Konfigurieren Sie die Anzeige der Fahrzeuge nach Typ und Stufe."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Nach Parametern filtern"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Besatzungsmitglieder müssen für Premiumfahrzeuge nicht ausgebildet werden, sie können ohne Abzug von einem anderen Premiumfahrzeug desselben Typs verlegt werden."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Premiumfahrzeug"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Der Fahrzeugname darf nicht mehr als %(maxLength)s Zeichen enthalten."
+
+msgid "tankman/action/dismiss/title"
+msgstr "ENTLASSEN"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Dieses Besatzungsmitglied entlassen"
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Dieses Besatzungsmitglied kann nicht entlassen werden."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Operation nicht verfügbar"
+
+msgid "tankman/action/recruit/title"
+msgstr "REKRUTIEREN"
+
+msgid "tankman/action/restore/title"
+msgstr "WIEDERHERSTELLEN"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Dieses Besatzungsmitglied wiederherstellen"
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Klicken Sie, um ein Beispiel für die Sprachausgabe dieses Kommandanten zu hören."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Einzigartige Sprachausgabe"
+
+msgid "tankman/recruit"
+msgstr "Rekrut"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Aussehen"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profil"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Wehrpass"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Rekrut"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Filter zurücksetzen"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Nichts gefunden. Ändern Sie die Einstellungen oder setzen Sie den Filter zurück."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Keine Treffer gefunden. Rekrutieren Sie ein Besatzungsmitglied."
+
+msgid "tankmanList/filter/title"
+msgstr "Besatzungsmitglieder:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Nicht genug Betten in der Kaserne."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Nur entlassene Besatzungsmitglieder anzeigen/ausblenden"
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Entlassen"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Besatzungsmitglieder in der Kaserne anzeigen."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "In der Kaserne"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Besatzungsmitglieder in Fahrzeugen anzeigen."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "In Fahrzeugen"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Skins dieser Nation anzeigen/ausblenden"
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Konfigurieren Sie die Anzeige der Besatzungsmitglieder nach Spezialisierung, Einweisung und anderen Werten."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Nach Parametern filtern"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Ein neues Besatzungsmitglied rekrutieren."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Der Name darf nicht mehr als %(maxLength)s Zeichen enthalten."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Wenn Sie mit dem Mauszeiger über einen Vorteil fahren, sehen Sie seinen Einfluss auf die entsprechenden Werte, den er bei einem Ausbildungsgrad von 100 % mit der aktuellen Vorteilseffizienz hat."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Verstanden!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Für jede Spezialisierung wurden zwei neue Vorteile eingeführt, der Vorteil „Verlässliche Positionierung“ wurde überarbeitet und eine neue Option wurde hinzugefügt, mit der Sie die Vorteile in der Gefechtsoberfläche verbergen können."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Über eine praktische neue Option können Sie unzureichend ausgebildete Besatzungsmitglieder mit einem Klick entlassen."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Vorteile können jetzt über Kreditpunkte zurückgesetzt werden, ohne EP zu verlieren."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Neue Vorteile und Funktionen wurden hinzugefügt und ein bestehender Vorteil wurde überarbeitet."
+
+msgid "welcomeScreen/title"
+msgstr "AKTUALISIERUNGEN DER BESATZUNG"

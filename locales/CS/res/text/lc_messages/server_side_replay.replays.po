@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "closeButtonLabel"
+msgstr "ZAVŘÍT"
+
+msgid "featureName"
+msgstr "ZÁZNAMY"
+
+msgid "filter/apply"
+msgstr "Použít filtr"
+
+msgid "filter/group/nation/title"
+msgstr "Národ"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Úroveň"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Úroveň"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specializace"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Typ vozidla"
+
+msgid "filter/reset"
+msgstr "Vynulovat filtr"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Ukázat/skrýt členy posádky tohoto národa."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Ukázat/skrýt vzhledy tohoto národa."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Ukázat/skrýt vozidla tohoto národa."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Ukázat/skrýt vozidla tohoto typu."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Stíhače tanků"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Dělostřelectvo"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Těžké tanky"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Lehké tanky"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Střední tanky"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nebyla nalezena žádná vozidla\nsplňující kritéria hledání"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Řadit podle názvu vozidla."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Název"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Řadit podle úrovně vozidla."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Úroveň"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Řadit podle typu vozidla."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Typ"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Název"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Kliknutím použijete nastavení filtru."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Použít vybrané filtry"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Kliknutím vynulujete nastavení filtru."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Vynulovat všechny filtry"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Zobrazit pouze záznamy z hlavního času"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "Poslední %(count)s den"
+msgstr[1] "Poslední %(count)s dny"
+msgstr[2] "Posledních %(count)s dní"
+
+msgid "filterPopover/title"
+msgstr "Filtr záznamů"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Nastavení filtru záznamů podle typu vozidla, úrovně, národa atd."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Filtrovat podle parametrů"
+
+msgid "findReplay/buttonText/find"
+msgstr "Najít záznam"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Vymazat vstup"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Sledovat záznam!"
+
+msgid "findReplay/errorMessage"
+msgstr "Nic nebylo nalezeno. Změňte prosím požadavek"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Zde prosím napište ARENA_ID..."
+
+msgid "findReplay/successMessage"
+msgstr "AI našla záznam, který vás zajímá! Užijte si sledování"
+
+msgid "page/heading/bestReplays"
+msgstr "NEJLEPŠÍ ZÁZNAMY"
+
+msgid "page/heading/findReplay"
+msgstr "NAJÍT ZÁZNAM (PRO VÝVOJÁŘE)"
+
+msgid "page/heading/myReplays"
+msgstr "MOJE ZÁZNAMY"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Tato sekce obsahuje informace o sérii Nejlepší záznamy od všech hráčů WoT"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Tato sekce je určena pro vyhledávání záznamu podle parametru"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Tato část obsahuje informace o VAŠICH nejlepších záznamech"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "Nejlepší záznamy"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Najít záznam"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "Moje záznamy"
+
+msgid "statsParam/damageAssisted"
+msgstr "Nejlepší podle asistovaného poškození"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Nejlepší podle zablokovaného poškození"
+
+msgid "statsParam/damageDealt"
+msgstr "Nejlepší podle způsobeného poškození"
+
+msgid "statsParam/earnedXp"
+msgstr "Nejlepší podle získaných zkušeností"
+
+msgid "statsParam/kills"
+msgstr "Nejlepší podle počtu zničených vozidel"
+
+msgid "table/error/buttonText"
+msgstr "Aktualizovat"
+
+msgid "table/error/description"
+msgstr "Omlouváme se za dočasné nepříjemnosti. Zkuste prosím aktualizovat stánku později."
+
+msgid "table/error/title"
+msgstr "Chyba při načítání údajů"
+
+msgid "table/header/damageAssisted"
+msgstr "Asistence"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Poškození zastavené pancířem"
+
+msgid "table/header/damageDealt"
+msgstr "Poškození"
+
+msgid "table/header/date"
+msgstr "Datum"
+
+msgid "table/header/earnedXp"
+msgstr "Získané ZK"
+
+msgid "table/header/kills"
+msgstr "Počet zničených vozidel"
+
+msgid "table/header/map"
+msgstr "Mapa"
+
+msgid "table/header/marksOfMastery"
+msgstr "Ocenění „Vzorný tankista“"
+
+msgid "table/header/player"
+msgstr "Jméno hráče"
+
+msgid "table/header/vehicle"
+msgstr "Vozidlo"
+
+msgid "table/noRecords/buttonText"
+msgstr "Vynulovat filtr"
+
+msgid "table/noRecords/title"
+msgstr "Nic nebylo nalezeno. Změňte prosím nastavení, nebo vynulujte filtr"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Kliknutím vynulujete nastavení filtru."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Vynulovat všechny filtry"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Výše asistovaného poškození způsobeného hráčem v tomto záznamu"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Asistované poškození"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Výše zablokovaného poškození hráčem v tomto záznamu"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Poškození zablokované pancířem"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Výše způsobeného poškození hráčem v tomto záznamu"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Způsobené poškození"
+
+msgid "table/tooltip/date/body"
+msgstr "Datum, kdy byl záznam pořízen."
+
+msgid "table/tooltip/date/header"
+msgstr "Datum záznamu"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Výše získaných ZK hráčem v tomto záznamu"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Získané ZK"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Epické medaile získané hráčem v tomto záznamu"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Epické medaile"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Kliknutím přidáte tento záznam do oblíbených záznamů."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Oblíbené"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Kliknutím odstraníte tento záznam z oblíbených záznamů."
+
+msgid "table/tooltip/kills/body"
+msgstr "Počet vozidel zničených hráčem v tomto záznamu"
+
+msgid "table/tooltip/kills/header"
+msgstr "Počet zničení"
+
+msgid "table/tooltip/map/body"
+msgstr "Mapa, na které byl záznam pořízen."
+
+msgid "table/tooltip/map/header"
+msgstr "Mapa"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Důležitá ocenění získaná hráčem v tomto záznamu"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Ocenění „Vzorný tankista“"
+
+msgid "table/tooltip/player/body"
+msgstr "Jméno hráče ze záznamu."
+
+msgid "table/tooltip/player/header"
+msgstr "Jméno hráče"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Vozidlo hráče, se kterým byl záznam pořízen."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Vozidlo"
+
+msgid "tableInfo/amount"
+msgstr "Zobrazeno záznamů: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Filtr"
+
+msgid "waitingSpinner/message"
+msgstr "Načítání obsahu..."

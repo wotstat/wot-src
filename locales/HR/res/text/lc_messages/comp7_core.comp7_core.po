@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "Odaberite vozilo koje želite isključiti iz ove bitke"
+
+msgid "prebattleTimer/ban/header"
+msgstr "Faza glasanja zabrane"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "Potvrdi odabir"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "Nakon potvrde više nećete moći odabrati drugo vozilo."
+
+msgid "prebattleTimer/pick/header"
+msgstr "Faza potvrde"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "Odaberite najpogodnije vozilo za ovu mapu i sastav vašeg tima"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "Faza predodabira vozila"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "Odaberite najbolje vozilo za trenutnu mapu i vaš tim."
+
+msgid "prebattleTimer/wait/header"
+msgstr "Čekam igrače..."
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "Odaberi vozilo"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Etapa na serveru %(server)s je završila"
+
+msgid "primeTimeView/server"
+msgstr "Dostupan server: %(server)s."
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Server %(server)s\nBitke će biti dostupne još %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Server %(server)s\nBitke će biti dostupne za %(time)s"
+
+msgid "primeTimeView/servers"
+msgstr "Dostupni serveri:"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Bitke su nedostupne na svim serverima"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Ovaj režim je nedostupan na serveru %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Bitke na serveru %(server)s će biti dostupne još %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Bitke će početi na serveru %(server)s za %(time)s"
+
+msgid "primeTimeView/status/untill"
+msgstr "Bitke neće biti dostupne do %(startTime)s na serveru %(server)s"

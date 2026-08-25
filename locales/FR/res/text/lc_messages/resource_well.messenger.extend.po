@@ -1,0 +1,50 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "serviceChannelMessages/resourceWell/enabled/text"
+msgstr "L'Atelier d'assemblage est à nouveau ouvert !"
+
+msgid "serviceChannelMessages/resourceWell/end/text"
+msgstr "Nous commençons à travailler sur le projet suivant. Nous vous informerons quand le développement sera terminé. À bientôt !"
+
+msgid "serviceChannelMessages/resourceWell/end/title"
+msgstr "L'Atelier d'assemblage ferme ses portes"
+
+msgid "serviceChannelMessages/resourceWell/noSerialVehicles/text"
+msgstr "La livraison de véhicules avec des numéros est terminée. Nous commençons à assembler le %(vehicle)s dans sa configuration standard. Dépêchez-vous, le nombre de véhicules est limité !"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/text"
+msgstr "L'assemblage des véhicules est terminé. Tous les véhicules ont été livrés à leurs propriétaires."
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/title"
+msgstr "Rapport de l'Atelier d'assemblage"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/twoParallelProducts/text"
+msgstr "Livraison du véhicule %(soldOutVehicle)s terminée. Vous avez encore la possibilité d'acheter le véhicule %(availableVehicle)s. Si vous avez dépensé des ressources, mais vous n'avez pas terminé l'achat à temps, elles seront bientôt renvoyées sur votre compte. Dépêchez-vous, car la quantité de véhicules est limitée !"
+
+msgid "serviceChannelMessages/resourceWell/noVehiclesWithReturn/text"
+msgstr "L'assemblage des véhicules est terminé. Tous les véhicules ont été livrés à leurs propriétaires. Toutes les ressources dépensées seront bientôt renvoyées sur votre compte."
+
+msgid "serviceChannelMessages/resourceWell/oneVehicleStart/text"
+msgstr "Commandant, vous avez la possibilité de devenir le propriétaire du %(vehicle)s avec un style 3D numéroté. Le nombre de véhicules est limité !"
+
+msgid "serviceChannelMessages/resourceWell/pause/text"
+msgstr "L'Atelier d'assemblage est temporairement indisponible en raison d'une maintenance."
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/additionalText"
+msgstr "Numéro du style : %(serialNumber)s"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/text"
+msgstr "Le %(vehicle)s unique vient d'arriver de l'Atelier d'assemblage."
+
+msgid "serviceChannelMessages/resourceWell/reward/title"
+msgstr "%(vehicle)s reçu !"
+
+msgid "serviceChannelMessages/resourceWell/reward/vehicle/text"
+msgstr "Le %(vehicle)s vient d'arriver de l'Atelier d'assemblage."
+
+msgid "serviceChannelMessages/resourceWell/start/title"
+msgstr "L'Atelier d'assemblage ouvre ses portes"
+
+msgid "serviceChannelMessages/resourceWell/twoVehiclesStart/text"
+msgstr "Commandant, c'est l'occasion pour vous d'obtenir les véhicules %(firstVehicle)s et %(secondVehicle)s ! Mais soyez rapide, car les stocks sont limités !"

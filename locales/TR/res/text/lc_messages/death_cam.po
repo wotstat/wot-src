@@ -1,0 +1,194 @@
+msgid "fatal_shell/penetration_range"
+msgstr "%(from)d-%(to)d mm"
+
+msgid "fatal_shell/penetration_value"
+msgstr "%(penetration)d mm"
+
+msgid "hints/camera_flow/buttonText"
+msgstr "BOŞLUK"
+
+msgid "hints/camera_flow/pause"
+msgstr "Gelişmiş Mod (%(duration))"
+
+msgid "hints/camera_flow/pauseSimplified"
+msgstr "Dondur (%(duration))"
+
+msgid "hints/camera_flow/resume"
+msgstr "Devam Et (%(duration))"
+
+msgid "hints/death_reason/destroyed"
+msgstr "Araç yok edildi"
+
+msgid "hints/death_reason/legacyHE"
+msgstr "Sıçrama Hasarı"
+
+msgid "hints/death_reason/modernHE"
+msgstr "Kavlanma Hasarı"
+
+msgid "hints/death_reason/nonPenetrationDamage"
+msgstr "Yüzey Hasarı"
+
+msgid "hints/death_reason/penetration"
+msgstr "Doğrudan İsabet"
+
+msgid "hints/follow_pt1"
+msgstr "Sol tıklayarak"
+
+msgid "hints/follow_pt2"
+msgstr "bu aracı takip edin"
+
+msgid "hints/free_cam/return_previous"
+msgstr "Önceki araca dönmek için sağ tıklayın"
+
+msgid "hints/height/label"
+msgstr "İrtifa"
+
+msgid "hints/height/text"
+msgstr "Belirli bir sınır içinde kameranın irtifasını değiştirin."
+
+msgid "hints/movement/label"
+msgstr "Hareket"
+
+msgid "hints/movement/text"
+msgstr "Kamerayı hareket ettirmek için %(forward)s, %(left)s, %(backward)s, %(right)s tuşlarını kullanın."
+
+msgid "hints/skip/buttonText"
+msgstr "ESC"
+
+msgid "hints/skip/label"
+msgstr "Atla"
+
+msgid "hints/spectatorDown"
+msgstr "SHIFT"
+
+msgid "hints/spectatorUp"
+msgstr "BOŞLUK"
+
+msgid "hints/speed/label"
+msgstr "Hız"
+
+msgid "hints/speed/text"
+msgstr "Kamera hızını değiştirin."
+
+msgid "hints/spotted_status/spotted"
+msgstr "Tespit Edilmiş"
+
+msgid "hints/spotted_status/unspotted"
+msgstr "Kör Atış"
+
+msgid "marker/paramName/angleFailure"
+msgstr "Delemeyen Açı"
+
+msgid "marker/paramName/angleImpact"
+msgstr "Delme Açısı"
+
+msgid "marker/paramName/angleRicochet"
+msgstr "Sekme Açısı"
+
+msgid "marker/paramName/armorNominal"
+msgstr "Nominal Zırh {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/armorRelative"
+msgstr "Zırh {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/damageDistanceModifier"
+msgstr "Mesafe Değiştiricisi {colorTagOpen}(CP){colorTagClose}"
+
+msgid "marker/paramName/deathReason/crew"
+msgstr "Mürettebat Devre Dışı Kaldı!"
+
+msgid "marker/paramName/deathReason/detonation"
+msgstr "Cephanelik Patladı!"
+
+msgid "marker/paramName/deathReason/ignition"
+msgstr "Yangın Çıktı!"
+
+msgid "marker/paramName/is2CaliberRuleApplied"
+msgstr "2 Kalibre Kuralı"
+
+msgid "marker/paramName/is3CaliberRuleApplied"
+msgstr "3 Kalibre Kuralı"
+
+msgid "marker/paramName/nonArmored"
+msgstr "Zırh Yok"
+
+msgid "marker/paramName/shellArmorAngleGain"
+msgstr "Açıdan Zırh Artışı {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellCaliber"
+msgstr "Kalibre {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBasic"
+msgstr "Ortalama Hasar {colorTagOpen}(CP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBurst"
+msgstr "Potansiyel Hasar {colorTagOpen}(CP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/legacyHE"
+msgstr "Verilen Sıçrama Hasarı {colorTagOpen}(CP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/modernHE"
+msgstr "Verilen Kavlanma Hasarı {colorTagOpen}(CP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/nonPenetrationDamage"
+msgstr "Verilen Yüzey Hasarı {colorTagOpen}(CP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/penetration"
+msgstr "Verilen Hasar {colorTagOpen}(CP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossDistance"
+msgstr "Mesafeden Kayıp {colorTagOpen}(CP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionHe"
+msgstr "Zırh Tarafından Engellenen {colorTagOpen}(CP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionSpallLiner"
+msgstr "Donanım Tarafından Azaltılan {colorTagOpen}(CP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageRandomizationFactor"
+msgstr "Hasarın Rastgeleliği {colorTagOpen}(CP){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationBasic"
+msgstr "Ortalama Delme {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationEffective"
+msgstr "Delme {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellVelocityBasic"
+msgstr "Mermi Hızı {colorTagOpen}(m/sn.){colorTagClose}"
+
+msgid "marker/paramName/shootDistance"
+msgstr "Mesafe {colorTagOpen}(m){colorTagClose}"
+
+msgid "marker/paramName/shootDistanceUnspotted"
+msgstr "Düşman Tespit Edilmedi"
+
+msgid "marker/value/angle/exact"
+msgstr "%(value)s°"
+
+msgid "marker/value/angle/less"
+msgstr "< %(value)s°"
+
+msgid "marker/value/angle/more"
+msgstr "> %(value)s°"
+
+msgid "marker/value/applied"
+msgstr "Uygulanmış"
+
+msgid "marker/value/dashes"
+msgstr "--"
+
+msgid "marker/value/failed"
+msgstr "Boş"
+
+msgid "marker/value/notAffected"
+msgstr "--"
+
+msgid "marker/value/signNegative"
+msgstr "- %(value)s"
+
+msgid "marker/value/signPositive"
+msgstr "+ %(value)s"
+
+msgid "marker/value/unspotted"
+msgstr "Tespit Edilmemiş"

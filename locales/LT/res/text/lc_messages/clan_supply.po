@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "main/backText"
+msgstr "Į KLANO INFORMACIJĄ"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "Už įvykdytas misijas gausite Kovinio žygio taškų, kurie leis ištirti naujus regionus."
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "Kovinio žygio taškai"
+
+msgid "main/infoPageButtonLabel"
+msgstr "APIE KOVINĮ ŽYGĮ"
+
+msgid "main/mdash"
+msgstr "—"
+
+msgid "messages/claimRewards/error"
+msgstr "Veiksmas laikinai negalimas. Pabandykite vėliau."
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "Atnaujinti"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "Atsiprašome už laikinus nesklandumus."
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "Klaida užkraunant duomenis"
+
+msgid "progressionPage/header/heading"
+msgstr "KOVINIS ŽYGIS"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "KOVINIS ŽYGIS BAIGĖSI"
+
+msgid "progressionPage/header/subheading"
+msgstr "Gaukite Kovinio žygio taškus vykdydami klano misijas. Kovinio žygio taškai leidžia ištirti naujus regionus ir gauti vertingų prizų. Žygio gale jūsų laukia X lygio mašina."
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "Gauta mašina %(vehicle)s"
+
+msgid "progressionPage/loading"
+msgstr "Inicializuojama..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "Ištirkite ankstesnį gretimą regioną."
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "Regionas jau ištirtas"
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "Gautas apdovanojimas:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "Ištirkite ankstesnį gretimą regioną."
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "Negalima ištirti regiono"
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "Klaida užkraunant duomenis"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "Ištirti regioną"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "Jums reikia dar %(value)s Kovinio žygio taškų šiam regionui ištirti."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "Negalima ištirti regiono"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "Ištirkite ankstesnį gretimą regioną."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "Negalima ištirti regiono"
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "Gauti apdovanojimą"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "Inicializuojama..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "Laukiama atvykstančio apdovanojimo..."
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "Atnaujinti"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "APDOVANOJIMAS UŽ IŠTIRTĄ REGIONĄ:"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "APDOVANOJIMAS GAUTAS:"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "Peržiūra"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "Atnaujinti"
+
+msgid "questsPage/errorScreen/description"
+msgstr "Atsiprašome už laikinus nesklandumus."
+
+msgid "questsPage/errorScreen/heading"
+msgstr "Klaida užkraunant duomenis"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "Gauti apdovanojimą"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "Automatinė klano paieška"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "Prisijunkite į klaną ir vykdydami misijas gaukite apdovanojimą."
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "Misijos progresas sustabdytas. Tęsti galite atsiėmę apdovanojimą: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "ŽYGIO MISIJOS"
+
+msgid "questsPage/header/subheading"
+msgstr "Vykdykite misijas ir gaukite prizų. Antrą ir trečią misijas galite vykdyti tik būdami būryje ar padalinyje su kitu klano nariu."
+
+msgid "questsPage/loading"
+msgstr "Inicializuojama..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "Su VIII–XI lygio mašinomis uždirbkite bent {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} bazinės patirties žaisdami būryje arba laimėkite mūšį būdami padalinyje."
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "Kovodami su VI–XI lygio mašinomis uždirbkite bent {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} bazinės patirties arba laimėkite mūšį būdami padalinyje."
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "Su VIII–XI lygio mašinomis sunaikinkite bent {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} mašinų žaisdami būryje arba laimėkite mūšį būdami padalinyje."
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "Kovodami su VI–XI lygio mašinomis sunaikinkite bent {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} mašinų arba laimėkite mūšį būdami padalinyje."
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "Su VIII–XI lygio mašinomis padarykite bent {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} žalos žaisdami būryje arba laimėkite mūšį būdami padalinyje."
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "Su VI–XI lygio mašinomis padėkite padaryti bent {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} žalos mūšyje arba laimėkite mūšį būdami padalinyje."
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "Pramoniniai ištekliai"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "Kovinio žygio taškai"
+
+msgid "questsPage/questCard/status/available"
+msgstr "Jūs galite atsiimti apdovanojimą"
+
+msgid "questsPage/questCard/status/completed"
+msgstr "Apdovanojimas gautas"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "Nepasiekiama"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "Apdovanojimas bus pridėtas jūsų paskyroje artimiausiu metu."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "Atsiimkite ankstesnių misijų apdovanojimus."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "Įvykdykite ankstesnę misiją."
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "Misija nepasiekiama"
+
+msgid "questsPage/timer/dash"
+msgstr "—"
+
+msgid "questsPage/timer/heading"
+msgstr "Likęs laikas Kovinio žygio taškams susirinkti"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "Už įvykdytas misijas gausite Kovinio žygio taškų, kurie leis ištirti naujus regionus."
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "Kovinio žygio taškai"
+
+msgid "rewardsView/additionalRewards"
+msgstr "Jūs dar gavote:"
+
+msgid "rewardsView/button/close"
+msgstr "UŽDARYTI"
+
+msgid "rewardsView/button/confirm"
+msgstr "Tikrai taip!"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "Peržiūrėti garaže"
+
+msgid "rewardsView/heading"
+msgstr "GAUTI APDOVANOJIMAI"
+
+msgid "rewardsView/style/317"
+msgstr "2D stilius Ugnis"
+
+msgid "rewardsView/style/345"
+msgstr "2D stilius Pranašystė"
+
+msgid "rewardsView/style/435"
+msgstr "2D stilius Atpildas"
+
+msgid "rewardsView/style/436"
+msgstr "2D stilius Mirtis"
+
+msgid "rewardsView/subheading"
+msgstr "KOVINIS ŽYGIS"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Kovinio žygio progresas"
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "Žygio misijų progresas"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Kovinis žygis"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "Žygio misijos"

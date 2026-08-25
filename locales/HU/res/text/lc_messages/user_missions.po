@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "{{level}}. szakasz"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Különleges fejezet"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Teljesítve"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Nézd meg az új előrehaladást"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "A fejezet kiválasztása"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Átmenetileg nem érhető el"
+
+msgid "battle_pass_widget/title"
+msgstr "Battle Pass"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Próbatétel: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} n"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} n {{hours}} ó"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} ó"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} ó {{minutes}} p"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} p"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Bónuszküldetés\nTeljesíts 3 normál küldetést, hogy feloldd"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "A bónuszküldetés teljesítésére hátralévő idő"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Új napi küldetés érkezik ekkor:"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "Egyelőre ennyi. Hamarosan új napi küldetések válnak elérhetővé."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Teljesítsd az előző küldetéseket, hogy feloldd ezt a küldetést!"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "A prémium küldetések átmenetileg nem érhetőek el"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Prémium vásárlása"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "WoT prémium fiók szükséges hozzá"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Prémium küldetések"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "A napi küldetések átmenetileg nem érhetőek el"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Újrapörgetés"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "NAPI"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "A kampányokhoz"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Eredmény javítása"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "A hadművelethez"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Igazi kihívás a tapasztalt harcosok számára, jutalomként egyedi járművekkel."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Teljesítetted ezt a hadműveletet: {{currentOperationName}}! Megpróbálhatsz javítani az eredményeden, hogy kitüntetéssel teljesítsd – vagy akár új kihívások után is nézhetsz a következő hadműveletben: {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Még van mit javítanod az eredményeden itt: {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Kitüntetéssel teljesítetted ezt a hadműveletet: {{currentOperationName}}! Mostantól elérhető a következő hadművelet: {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Kampánypontokat személyes küldetések, napi küldetések és heti küldetések teljesítésével szerezhetsz."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Teljesíts {{totalProgress}} küldetést a hadművelet kitüntetéssel való befejezéséhez és az extra jutalmak megszerzéséhez."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Szereld fel az összes alkatrészt, hogy megkapd a jutalmadat, egy {{vehicleName}} járművet. A járműalkatrészek gyűjtéséhez kampánypontokat kell szerezned személyes küldetések, valamint napi és heti küldetések teljesítésével."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Szereld fel az összes alkatrészt, hogy megkapd a jutalmadat, egy {{vehicleName}} járművet. A járműalkatrészek gyűjtéséhez kampánypontokat kell szerezned személyes küldetések, valamint napi és heti küldetések teljesítésével."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Teljesített küldetések: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "Az új 3. szektor kampány már elérhető!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Hadművelet: {{nextOperationName}} elérhető!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Hadművelet: {{currentOperationName}} kitüntetéssel teljesítve!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Hadművelet: {{nextOperationName}} elérhető!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Hadművelet: {{currentOperationName}} | {{stageNumber}}. szakasz"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "{{currentOperationName}} hadművelet teljesítése kitüntetéssel"
+
+msgid "hub/basic_missions/title"
+msgstr "NORMÁL KÜLDETÉSEK"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "HETI"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Ekkor frissül: {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Aktív küldetés"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "VAGY"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Hamarosan új küldetések érkeznek..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "HARCOS"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "ÁSZ"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ELIT"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "A küldetéseknek három kategóriája van: Harcos, Elit és Ász. Mindegyik kategória egyedi kihívásokat és értékes jutalmakat tartogat."
+
+msgid "hub/challenge_missions/header"
+msgstr "PRÓBATÉTEL"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Aktivál"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Újraindítás ingyen"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Újraindít"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Feladás"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "A küldetésekhez"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) Próbatétel küldetés teljesítve"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "%(count)s×"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "pajzs maradt"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "ingyenes újraindítás"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Teljesítsd az aktív Próbatétel küldetéseket"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Véget ér: %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Nem érhető el: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "VI-os vagy magasabb szintű jármű szükséges"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "AKTÍV"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Teljesítve"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} küldetés"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Kihívásküldetés"
+
+msgid "hub/challenge_missions/new"
+msgstr "ÚJ"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Tovább a Próbatételhez"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Tovább a Próbatételhez"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "PRÓBATÉTEL: {{ challengeName }} TELJESÍTVE!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Tovább a Próbatételhez"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Próbatétel: {{ challenge }} nincs teljesítve. Indítsd újra, és szerezd meg a jutalmakat ismét!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Tovább a Próbatételhez"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "{{ mission }} KÜLDETÉS TELJESÍTVE!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Tovább a Próbatételhez"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "{{ mission }} küldetés sikertelen"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "PAJZS MARADT"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Tovább a Próbatételhez"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Lépj be a Próbatételbe, és vegyél részt kihívásokkal teli küldetéseken, amelyeken értékes jutalmak várnak azokra, akik teljesítik őket."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "ÚJ PRÓBATÉTEL KÜLDETÉSEK ÉRHETŐK EL!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Szerezz magadnak dicsőséget a Próbatételben: vegyél részt kihívásokkal teli küldetéseken, amelyeken értékes jutalmak várnak azokra, akik teljesítik őket."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "LÉPJ BE A PRÓBATÉTELBE"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Teljesítve"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "3D-kiegészítő készlet"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Fejlesztett felszerelés"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "{{count}}×"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "2D-stílus"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Harckocsizó"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Jármű"
+
+msgid "hub/challenge_missions/title"
+msgstr "PRÓBATÉTEL KÜLDETÉSEK"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "Bővebben a Próbatételről"
+
+msgid "hub/common_missions/title"
+msgstr "EXTRA KÜLDETÉSEK"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "A jutalmak átvétele"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "A mesés jutalom átmenetileg nem érhető el"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Minden teljesített normál, prémium vagy bónuszküldetés beleszámít az előrehaladásodba."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Elérhető"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Teljesíts napi küldetéseket, hogy mesés jutalmakat szerezz!"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "A jutalom átvétele"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "A jutalmak átvétele"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Minden teljesített normál, prémium vagy bónuszküldetés beleszámít az előrehaladásodba."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Elérhető"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Teljesíts napi küldetéseket, hogy mesés jutalmakat szerezz: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Ha teljesítesz három normál küldetést, elérhetővé válik egy bónuszküldetés, amely még értékesebb jutalmakat ad. A bónuszküldetéseket a nap végéig teljesítened kell, különben lejárnak."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Bónuszküldetés"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Egyes küldetéseket egyetlen csatában kell teljesíteni, de vannak halmozódó küldetések is, amelyeket bármennyi csata alatt teljesíthetsz. A halmozódó küldetésekhez tartozik egy előrehaladási sáv. A küldetéseket Normál csatákban lehet teljesíteni."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Feltételek"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Lehetőséged van újrapörgetni egy nem kívánt normál küldetést. Ha így teszel, a Küldetés újrapörgetése gomb nem lesz elérhető eddig: {{time}}. A küldetés újrapörgetése az előrehaladásod elvesztésével járhat, ha egy vagy több járműved még csatában van."
+
+msgid "info_page/additional/reroll/title"
+msgstr "A küldetések újrapörgetése"
+
+msgid "info_page/additional/reward/description"
+msgstr "A mesés jutalom egy maratonszerű ciklus, amelyben minden teljesített normál, prémium és bónuszküldetés beleszámít az előrehaladásodba. Ha teljesíted a ciklust, akkor az újraindul és kezdődik elölről. A mesés jutalom ciklusának nincs időkorlátja, és bármikor teljesítheted azt."
+
+msgid "info_page/additional/reward/title"
+msgstr "Mesés jutalom"
+
+msgid "info_page/header"
+msgstr "A KÜLDETÉSEKRŐL"
+
+msgid "info_page/main/premium/description"
+msgstr "WoT prémium fiókkal hozzáférést kapsz három egymást követő prémium küldetéshez. Ezeket Normál csatákban és a Roham módban teljesítheted, és az előrehaladás minden egyes csata után frissül. A játékesemények során a prémium küldetések eseményspecifikus jutalmakat adnak."
+
+msgid "info_page/main/premium/title"
+msgstr "Prémium küldetések"
+
+msgid "info_page/main/standard/description"
+msgstr "A normál küldetések véletlenszerű napi feltételek, amelyek előrehaladása minden csata után frissül. Azt javasoljuk, hogy ezeket még aznap teljesítsd, amikor megkapod őket, mivel a teljesítetlen küldetések átkerülnek a következő napra, és gátolják az új küldetések teljesítését. A normál küldetések teljesítéséért a Battle Pass ideje alatt Battle Pass-pontokat, más játékesemények alatt pedig eseményspecifikus jutalmakat kaphatsz."
+
+msgid "info_page/main/standard/title"
+msgstr "Normál küldetések"
+
+msgid "info_page/main/weekly/description"
+msgstr "A heti küldetések egy sor feladatot jelentenek minden héten. Az előrehaladás minden csata után frissül, és a teljesített küldetések helyébe újak lépnek a következő heti ciklus kezdetekor. A heti küldetéseket Normál csatákban és a Roham módban teljesítheted, hogy további bónuszokat szerezz."
+
+msgid "info_page/main/weekly/title"
+msgstr "Heti küldetések"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Az összes normál küldetést teljesítetted a mai napra"
+
+msgid "quests/daily_quests/completed"
+msgstr "Az összes napi küldetést teljesítetted"
+
+msgid "tooltip/common/timer"
+msgstr "Elérhető {{timeLeft}} múlva"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Az összes normál küldetést teljesítetted! Továbbiakat az Extra küldetések fülön találsz."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Bónuszküldetés"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Teljesítve"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Napi küldetés"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Lejár {{timeLeft}} múlva"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Új napi küldetések érkeznek ekkor: {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Prémium küldetés"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Jutalmak:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Egy nem kívánt küldetést újrapörgethetsz\negy új küldetésre {time} óránként."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "A küldetések újrapörgetése"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Küldetés teljesítve, jutalom megszerezve."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Az előző küldetés teljesítésével nyitható meg ez a küldetés. A sorozatban szereplő összes küldetést egymás után kell teljesíteni."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Kattints a további részletekért!"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "A küldetésekről"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Ez a küldetéssorozat a befejezése után újrajátszható. Az előrehaladásod újraindul, a pajzsok visszaállnak, és újra meg tudod szerezni a jutalmakat."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Küldetések újrajátszása"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Az összes pajzsod elvesztése után újraindíthatsz egy küldetéssorozatot. A küldetések előrehaladása újraindul, a pajzsaid visszaállnak, és újra meg tudod szerezni a jutalmakat."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "További újraindítás ára: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Elérhető ingyenes újraindítás: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Minden újraindítás ennyibe kerül: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Újraindítás"
+
+msgid "tooltip/hub/shields/description"
+msgstr "A pajzsok megvédik az előrehaladásodat. Minden sikertelen küldetés egy pajzsba kerül, és ha az összes pajzs elvész, a küldetéssorozat kudarcot vall. Ha újraindítod a küldetéssorozatot, a pajzsok visszaállnak."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Pajzsok"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Járműkorlátozások:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Heti küldetés"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Ezt a heti küldetést {{time}} időközönként újrapörgetheted."
+
+msgid "welcome/button"
+msgstr "Értettem!"

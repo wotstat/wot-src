@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Eingehender Schaden unterbricht das Wiederherstellen der SP.\n\nDie Rate, zu der SP wiederhergestellt werden und das Höchstlimit der Wiederherstellung basieren auf den gesamten SP des Fahrzeugs mit allen Modifikatoren."
+
+msgid "armorPatching/alt/info"
+msgstr "Bei Gruppenvorteilen wird die mittlere Ausbildungsstufe aller Besatzungsmitglieder für den Effekt herangezogen. Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Bei Einsatz einer Ersatzteilkiste werden über 5 s %(hpRecover)s der {yellow_Start}SP{yellow_End} des Fahrzeugs wiederhergestellt, bis zu einem Maximum von 20 % pro Gefecht. Die Ersatzteilkiste kann auch eingesetzt werden, wenn kein kritischer Schaden vorliegt."
+
+msgid "armorPatching/hudDescription"
+msgstr "Strukturpunkte wurden wiederhergestellt."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Wenn von allen Besatzungsmitgliedern vollständig ausgebildet: Stellt nach Einsatz einer Ersatzteilkiste über 5 s %(hpRecover)s der {yellow_Start}SP{yellow_End} des Fahrzeugs wieder her, bis zu einem Maximum von 20 % pro Gefecht. Die Ersatzteilkiste kann auch eingesetzt werden, wenn kein kritischer Schaden vorliegt."
+
+msgid "armorPatching/name"
+msgstr "Werkzeugmeister"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Erhöht den Grundtarnwert des Fahrzeugs"
+
+msgid "brotherhood/alt/description"
+msgstr "Der Besatzungseffizienzbonus steigert die Leistung des Besatzungsmitglieds im Gefecht und die Effektivität seiner erlernten Vorteile, ausgenommen diesem Vorteil. Dieser Wert kann durch Zubehör oder Verbrauchsmaterial mit vergleichbarem Effekt weiter erhöht werden. Die Direktive „Lüftungsreinigung“ verstärkt den Effekt. Der Vorteil „Notsituation“ des Kommandanten und die Vorteile „Seite an Seite“ und „Kommunikationsexperte“ des Funkers heben diesen Wert ebenfalls an."
+
+msgid "brotherhood/alt/info"
+msgstr "Bei Gruppenvorteilen wird die mittlere Ausbildungsstufe aller Besatzungsmitglieder für den Effekt herangezogen. Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "Der {greenBright_Start}Besatzungseffizienzbonus{greenBright_End} der gesamten Besatzung ist um %(crewLevelIncrease)s erhöht&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Wenn von allen Besatzungsmitgliedern vollständig ausgebildet: Erhöht den {greenBright_Start}Besatzungseffizienzbonus{greenBright_End} der gesamten Besatzung um %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Waffenbrüder"
+
+msgid "brotherhood/shortDescription"
+msgstr "Erhöht die allgemeine Besatzungsleistung."
+
+msgid "camouflage/alt/description"
+msgstr "Dieser Vorteil beeinflusst die Tarnung des Fahrzeugs. Er kann durch die Direktive „Natürliche Deckung“ weiter verstärkt werden.\n\nDazu kann die Fahrzeugtarnung durch Anbringen eines Tarnmusters oder Stils oder von Zubehör mit vergleichbarem Effekt verstärkt werden."
+
+msgid "camouflage/alt/info"
+msgstr "Bei Gruppenvorteilen wird die mittlere Ausbildungsstufe aller Besatzungsmitglieder für den Effekt herangezogen. Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "Die {greenBright_Start}Tarnung{greenBright_End} des Fahrzeugs ist um %(maskingFactor)s erhöht&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Wenn von allen Besatzungsmitgliedern vollständig ausgebildet: Erhöht die {greenBright_Start}Tarnung{greenBright_End} des Fahrzeugs um %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Tarnung"
+
+msgid "camouflage/shortDescription"
+msgstr "Erhöht den Grundtarnwert des Fahrzeugs."
+
+msgid "commander_coordination/alt/description"
+msgstr "Der Effekt wird immer aktiviert, wenn ein gegnerisches Fahrzeug aufgeklärt wird. Der Effekt ist nicht kumulativ, wenn wiederholt gegnerische Fahrzeuge aufgeklärt werden.\n\nDie Zielerfassung kann durch Ausbilden des Vorteils „Schnelles Zielen“ des Richtschützen oder durch Zubehör mit vergleichbarem Effekt weiter beschleunigt werden."
+
+msgid "commander_coordination/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "Erhöht die {yellow_Start}Zielerfassungsgeschwindigkeit{yellow_End} nach dem Aufklären eines gegnerischen Fahrzeugs für 15 s um %(vehicleGunAimSpeed)s."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Die Zielerfassungsgeschwindigkeit ist erhöht."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht die {yellow_Start}Zielerfassungsgeschwindigkeit{yellow_End} nach dem Aufklären eines gegnerischen Fahrzeugs für 15 s um %(vehicleGunAimSpeed)s.\t"
+
+msgid "commander_coordination/name"
+msgstr "Koordination"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Die Zielerfassungsgeschwindigkeit ist erhöht."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Die Sichtweite kann durch Ausbilden des Vorteils „Weitsicht“ des Funkers oder durch Zubehör mit vergleichbarem Effekt weiter erhöht werden. Die Direktive „Kalibrierte Optik“ verstärkt den Effekt."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "Die {greenBright_Start}Sichtweite{greenBright_End} ist um %(circularVisionRadius)s erhöht&zwnbsp;. Der {greenBright_Start}Malus für beschädigte Sichtgeräte{greenBright_End} ist um %(penaltyToDamagedSurveyingDevice)s verringert&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Der Malus für beschädigte Sichtgeräte ist verringert."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht die {greenBright_Start}Sichtweite{greenBright_End} um %(circularVisionRadius)s&zwnbsp; und verringert den {greenBright_Start}Malus für beschädigte Sichtgeräte{greenBright_End} um %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Späher"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Erhöht die Sichtweite, vor allem, wenn die Sichtgeräte beschädigt wurden."
+
+msgid "commander_emergency/alt/description"
+msgstr "Der Effekt ist nicht kumulativ, wenn wiederholt Schaden von einem Gegner genommen wird. Der Besatzungseffizienzbonus steigert die Leistung des Besatzungsmitglieds im Gefecht. Dieser Wert kann durch Zubehör oder Verbrauchsmaterial mit vergleichbarem Effekt weiter erhöht werden. Die Direktive „Lüftungsreinigung“ verstärkt den Effekt. Der Gruppenvorteil „Waffenbrüder“ und die Vorteile „Seite an Seite“ und „Kommunikationsexperte“ des Funkers heben diesen Wert ebenfalls an."
+
+msgid "commander_emergency/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "Der {yellow_Start}Besatzungseffizienzbonus{yellow_End} ist nach dem Erleiden von Schaden durch einen Gegner für 15 s um %(crewLevelIncrease)s erhöht."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Der Besatzungseffizienzbonus ist erhöht."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht den {yellow_Start}Besatzungseffizienzbonus{yellow_End} nach dem Erleiden von Schaden durch einen Gegner für 15 s um %(crewLevelIncrease)s."
+
+msgid "commander_emergency/name"
+msgstr "Notsituation"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Der Besatzungseffizienzbonus ist erhöht."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Mit kurzer Verzögerung wird eine Warnung vor eingehendem Beschuss durch eine gegnerische Selbstfahrlafette ausgegeben.\n\nDer Vorteil kann durch die Direktive „Gesteigerte Wachsamkeit“ verstärkt werden."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "Mit einer Verzögerung von %(artNotificationDelayFactor)s wird eine {yellow_Start}Warnung vor eingehendem Beschuss durch eine gegnerische Selbstfahrlafette{yellow_End} ausgegeben und die Richtung angezeigt, aus der der Schuss kommt. Der {greenBright_Start}negative Effekt der Betäubung{greenBright_End} ist um %(stunResistanceEffectFactor)s verringert&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Gibt mit einer Verzögerung von %(artNotificationDelayFactor)s eine {yellow_Start}Warnung vor eingehendem Beschuss durch eine gegnerische Selbstfahrlafette{yellow_End} aus und zeigt die Richtung, aus der der Schuss kommt. Verringert den {greenBright_Start}negativen Effekt der Betäubung{greenBright_End} um %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Geräuscherkennung"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Zeigt den Schuss einer gegnerischen Selbstfahrlafette an."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Der Besatzungseffizienzbonus steigert die Leistung des Besatzungsmitglieds im Gefecht.\n\nDieser Wert kann durch Zubehör oder Verbrauchsmaterial mit vergleichbarem Effekt weiter erhöht werden. Die Direktive „Lüftungsreinigung“ und diverse andere Besatzungsvorteile verstärken den Effekt."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "Der {yellow_Start}Besatzungseffizienzbonus{yellow_End} ist um %(crewLevelIncrease)s erhöht, wenn das gegnerische Team mindestens drei Fahrzeug mehr im Gefecht hat als Ihr eigenes Team&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Der Besatzungseffizienzbonus ist erhöht (Gegner in Überzahl)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht den {yellow_Start}Besatzungseffizienzbonus{yellow_End} um %(crewLevelIncrease)s, wenn das gegnerische Team mindestens drei Fahrzeug mehr im Gefecht hat als Ihr eigenes Team&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Bollwerk"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Erhöht den Besatzungseffizienzbonus"
+
+msgid "commander_practical/alt/description"
+msgstr "Dieser Vorteil wirkt auf jegliches Verbrauchsmaterial, das für das Fahrzeug eingesetzt wird.\n\nDer Effekt kann weiterhin mit der Direktive „Gewissenhafte Vorbereitung“ gesteigert werden."
+
+msgid "commander_practical/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "Die {greenBright_Start}Abklingzeit für Verbrauchsmaterial{greenBright_End} ist um %(equipmentPreparationTime)s verringert&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Verringert die {greenBright_Start}Abklingzeit von Verbrauchsmaterial{greenBright_End} um %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Praktiker"
+
+msgid "commander_practical/shortDescription"
+msgstr "Verringert die Abklingzeit von Verbrauchsmaterial."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "„Sechster Sinn“ wird bei Verletzung des Kommandanten deaktiviert. Die Aktivierung kann mit dem Vorteil „Signalunterbrechung“ des Funkers beschleunigt werden."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Ein besonderes Kommandantenmerkmal, das nicht ausgebildet werden muss und dem Kommandanten automatisch zur Verfügung steht"
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Erlaubt es dem Kommandanten, zu erkennen, ob das eigene Fahrzeug vom Gegner aufgeklärt wurde. Aktiviert sich %(delay)s nachdem das Fahrzeug aufgeklärt wurde."
+
+msgid "commander_sixthSense/name"
+msgstr "Sechster Sinn"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Ein Kommandant mit diesem Vorteil kann erkennen, ob sein Fahrzeug vom Feind aufgeklärt wurde."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Der Besatzungseffizienzbonus steigert die Leistung des Besatzungsmitglieds im Gefecht.\n\nDieser Wert kann durch Zubehör oder Verbrauchsmaterial mit vergleichbarem Effekt weiter erhöht werden. Die Direktive „Lüftungsreinigung“ und diverse andere Besatzungsvorteile verstärken den Effekt."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "Der {yellow_Start}Besatzungseffizienzbonus{yellow_End} wird für 15&nbsp;s um %(crewLevelIncrease)s erhöht, wenn ein Erste-Hilfe-Kasten eingesetzt wird. Der Erste-Hilfe-Kasten kann auch eingesetzt werden, wenn kein Besatzungsmitglied verletzt ist&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Der Besatzungseffizienzbonus ist erhöht (Erste-Hilfe-Kasten angewandt)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht den {yellow_Start}Besatzungseffizienzbonus{yellow_End} für 15 s um %(crewLevelIncrease)s, wenn ein Erste-Hilfe-Kasten eingesetzt wird. Der Erste-Hilfe-Kasten kann auch eingesetzt werden, wenn kein Besatzungsmitglied verletzt ist&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Wachsamer Geist"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Erhöht den Besatzungseffizienzbonus"
+
+msgid "commander_tutor/alt/description"
+msgstr "Ein verletzter Kommandant kann andere Besatzungsmitglieder nicht mehr ersetzen. Der Bonus wird nur auf den Grundwert der im Gefecht verdienten Besatzungs-EP angewandt.\n\nZusätzliche Besatzungs-EP können durch Besatzungsbücher oder Umwandlung von Freien EP in Besatzungs-EP erhalten werden."
+
+msgid "commander_tutor/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Die verdienten {greenBright_Start}EP{greenBright_End} sind für alle Besatzungsmitglieder um %(xpBonusFactorPerLevel)s erhöht. Der Kommandant kann {greenBright_Start}ausgeschaltete Besatzungsmitglieder{greenBright_End} mit %(woundedCrewEfficiency)s Effektivität ersetzen."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Ein ausgeschaltetes Besatzungsmitglied wird durch den Kommandanten ersetzt."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht für alle Besatzungsmitglieder die verdienten {greenBright_Start}EP{greenBright_End} um %(xpBonusFactorPerLevel)s. Erlaubt es dem Kommandanten, {greenBright_Start}ausgeschaltete Besatzungsmitglieder{greenBright_End} mit %(woundedCrewEfficiency)s Effektivität zu ersetzen."
+
+msgid "commander_tutor/name"
+msgstr "Mentor"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Ein ausgeschaltetes Besatzungsmitglied wird durch den Kommandanten ersetzt."
+
+msgid "commander_universalist/alt/description"
+msgstr "Der Kommandant kann nur die Hauptspezialisierung des ausgefallenen Besatzungsmitglieds übernehmen. Der Ersatzeffekt wird geringer, je mehr Besatzungsmitglieder ausfallen."
+
+msgid "commander_universalist/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Der Kommandant kann {greenBright_Start}ausgefallene Besatzungsmitglieder ersetzen{greenBright_End} und übernimmt die Rolle mit %(woundedCrewEfficiency)s Effizienz."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Der Kommandant übernimmt die Rolle von ausgefallenen Besatzungsmitgliedern."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Der Kommandant kann {greenBright_Start}ausgefallene Besatzungsmitglieder ersetzen{greenBright_End} und übernimmt die Rolle mit %(woundedCrewEfficiency)s Effizienz."
+
+msgid "commander_universalist/name"
+msgstr "Tausendsassa"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Erlaubt es dem Kommandanten, ausgefallene Besatzungsmitglieder zu ersetzen."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Verringert den Malus auf die Bewegung und Beschleunigung des Fahrzeugs auf mittelweichem Boden. Verringert den Malus auf weichem Boden erheblich, indem er auf den Wert für mittelweichen Boden gesetzt wird.\nDie Bewegungswerte auf mittelweichem und weichem Boden können nicht höher sein als die Werte auf festem Boden."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "Der {greenBright_Start}Geschwindigkeitsverlust auf mittelweichem Boden{greenBright_End} ist um %(mediumGroundFactor)s verringert&zwnbsp;, der {greenBright_Start}Geschwindigkeitsverlust auf weichem Boden{greenBright_End} ist verringert, indem er auf %(softGroundFactor)s des resultierenden Wertes für mittelweichen Boden gesetzt wird."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Verringert den {greenBright_Start}Geschwindigkeitsverlust auf mittelweichem Boden{greenBright_End} um %(mediumGroundFactor)s&zwnbsp;, verringert den {greenBright_Start}Geschwindigkeitsverlust auf weichem Boden{greenBright_End}, indem er auf %(softGroundFactor)s des resultierenden Wertes für mittelweichen Boden gesetzt wird."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Geländespezialist"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Der Besatzungseffizienzbonus steigert die Leistung des Besatzungsmitglieds im Gefecht.\n\nDieser Wert kann durch Zubehör oder Verbrauchsmaterial mit vergleichbarem Effekt weiter erhöht werden. Die Direktive „Lüftungsreinigung“ und diverse andere Besatzungsvorteile verstärken den Effekt."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "Der {yellow_Start}Besatzungseffizienzbonus{yellow_End} ist um %(crewLevelIncrease)s erhöht, wenn der von Ihnen abgewehrte Schaden höher ist als der Ausgangswert der Strukturpunkte Ihres Fahrzeugs."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Der Besatzungseffizienzbonus ist erhöht (ausreichend Schaden abgewehrt)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht den {yellow_Start}Besatzungseffizienzbonus{yellow_End} um %(crewLevelIncrease)s, wenn der von Ihnen abgewehrte Schaden höher ist als der Ausgangswert der Strukturpunkte Ihres Fahrzeugs."
+
+msgid "driver_bulletproof/name"
+msgstr "Kugelsicher"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Durch Zubehör mit vergleichbarem Effekt kann die Höchstgeschwindigkeit des Fahrzeugs weiter erhöht und der Malus durch einen beschädigten Motor weiter verringert werden."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "Die {greenBright_Start}Höchstgeschwindigkeit vorwärts{greenBright_End} und {greenBright_Start}rückwärts{greenBright_End} ist um %(vehicleForwardMaxSpeed)s erhöht. Der {greenBright_Start}Malus für einen beschädigten Motor{greenBright_End} ist um %(vehPenaltyForDamagedEngine)s verringert&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Der Malus für einen beschädigten Motor ist verringert."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht die {greenBright_Start}Höchstgeschwindigkeit vorwärts{greenBright_End} und {greenBright_Start}rückwärts{greenBright_End} um %(vehicleForwardMaxSpeed)s. Verringert den {greenBright_Start}Malus für einen beschädigten Motor{greenBright_End} um %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Ingenieur"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Der Malus für einen beschädigten Motor ist verringert."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Dieser Vorteil wirkt nicht, wenn zwei verbündete Fahrzeuge zusammenstoßen.\n\nDer Rammschaden, den Ihr Fahrzeug erleidet, kann durch Zubehör mit vergleichbarem Effekt weiter gesenkt werden."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "Der {greenBright_Start}Rammschaden gegen gegnerische Fahrzeuge{greenBright_End} ist um %(damageEnemiesByRamming)s&zwnbsp; erhöht. Der {greenBright_Start}erlittene Rammschaden{greenBright_End} ist um %(vehicleRamDamageResistance)s verringert&zwnbsp;, am {greenBright_Start}Fahrwerk{greenBright_End} um %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht den {greenBright_Start}Rammschaden gegen gegnerische Fahrzeuge{greenBright_End} um %(damageEnemiesByRamming)s&zwnbsp;. Verringert den {greenBright_Start}erlittenen Rammschaden{greenBright_End} um %(vehicleRamDamageResistance)s&zwnbsp;, am {greenBright_Start}Fahrwerk{greenBright_End} um %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Rammbock"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Verringert den Rammschaden am eigenen Fahrzeug und erhöht den Rammschaden am gegnerischen Fahrzeug."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Der durch HE-Granaten erlittene Schaden kann durch Zubehör mit vergleichbarem Effekt weiter verringert werden."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "Die {greenBright_Start}Schadensabsorption bei HE-Granaten{greenBright_End} ist um %(vehicleHEShellDamageResistance)s erhöht&zwnbsp;. Das&nbsp;{greenBright_Start}Risiko eines Motorbrands{greenBright_End} ist um %(vehicleFireChance)s reduziert, der {greenBright_Start}Schaden am Fahrwerk{greenBright_End} um %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht die {greenBright_Start}Schadensabsorption bei HE-Granaten{greenBright_End} um %(vehicleHEShellDamageResistance)s&zwnbsp;. Reduziert das {greenBright_Start}Risiko eines Motorbrands{greenBright_End} um %(vehicleFireChance)s sowie den {greenBright_Start}Schaden am Fahrwerk{greenBright_End} um %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Verlässliche Positionierung"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Beeinflusst weder die Genauigkeit stationärer Fahrzeuge noch die Genauigkeit bei Wannendrehung.\n\nDer Vorteil kann durch die Direktive „Kunstvolles Schalten“ verstärkt werden. Die Genauigkeit bei Schüssen aus der Bewegung kann durch Zubehör mit vergleichbarem Effekt oder die Direktive „Stabilisatorschmierung“ weiter erhöht werden."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "Die {greenBright_Start}Geschützstreuung{greenBright_End} beim Feuern in Bewegung ist um %(vehicleGunShotDispersionChassisMovement)s verringert&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Verringert die {greenBright_Start}Geschützstreuung{greenBright_End} beim Feuern in Bewegung um %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Fahren wie auf Schienen"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Verbessert die Genauigkeit beim Fahren."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Dieser Vorteil beeinflusst die Reparaturgeschwindigkeit des Fahrwerks vom roten in den gelben Bereich, wenn sich ein verbündetes Fahrzeug im Umkreis von 50 m befindet."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "Die {yellow_Start}Reparaturgeschwindigkeit des Fahrwerks{yellow_End} ist um %(suspensionRepairSpeed)s erhöht, wenn sich ein verbündetes Fahrzeug im Umkreis von weniger als 50 m befindet."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Reparaturgeschwindigkeit des Fahrwerks ist erhöht (Verbündeter in der Nähe)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht die {yellow_Start}Reparaturgeschwindigkeit des Fahrwerks{yellow_End} um %(suspensionRepairSpeed)s, wenn sich ein verbündetes Fahrzeug im Umkreis von weniger als 50 m befindet."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Feldunterstützung"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Der Brandwiderstand des Fahrzeugs kann durch Zubehör und Verbrauchsmaterial mit vergleichbarem Effekt weiter verstärkt werden. Der Vorteil „Brandbekämpfung“ wird Brände schneller löschen, wenn vorhanden."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "Verringert die {greenBright_Start}Wahrscheinlichkeit eines Motorbrandes{greenBright_End} um %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Verringert die {greenBright_Start}Wahrscheinlichkeit eines Motorbrandes{greenBright_End} um %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Ordnungsfanatiker"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Verringert die Wahrscheinlichkeit eines Motorbrandes."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Die Wannendrehgeschwindigkeit kann durch Zubehör oder Verbrauchsmaterial mit vergleichbarem Effekt weiter verstärkt werden."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "Die {greenBright_Start}Wendegeschwindigkeit der Wanne{greenBright_End} ist um %(vehicleAllGroundRotationSpeed)s erhöht&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht die {greenBright_Start}Wendegeschwindigkeit der Wanne{greenBright_End} um %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Meister am Bremshebel"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Erhöht die Wendegeschwindigkeit der Wanne."
+
+msgid "fireFighting/alt/description"
+msgstr "Dieser Vorteil beeinflusst den durch Brände erlittenen Schaden und die Dauer von Bränden.\n\nWenn zwei Funker diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt.\n\nDer Vorteil kann durch die Direktive „Erfahrene Brandbekämpfer“ verstärkt werden."
+
+msgid "fireFighting/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "Die {greenBright_Start}Geschwindigkeit der Brandbekämpfung{greenBright_End} ist um %(fireExtinguishingRate)s erhöht&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht die {greenBright_Start}Geschwindigkeit der Brandbekämpfung{greenBright_End} um %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Brandbekämpfung"
+
+msgid "fireFighting/shortDescription"
+msgstr "Verbessert die Brandbekämpfungsfähigkeit."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Der Standardbereich für potenziellen Schaden und Durchschlag liegt bei ±25 % der Grundwerte. Beispiel: Wenn eine Granate bis zu 100 mm Panzerung durchschlägt und bei einem Treffer bis zu 100 Schadenspunkte verursacht, liegt der tatsächliche Wert für die Durchschlagskraft dieses einen Schusses bei 75 bis 125 mm und der tatsächliche Schaden bei 75 bis 125 SP. Wenn dieser Wert gesenkt wird, werden die Ergebnisse der Schüsse damit berechenbarer.\n\nWenn zwei Richtschützen diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Der Bereich {greenBright_Start}potenziellen Schadens{greenBright_End} und {greenBright_Start}potenziellen Durchschlags{greenBright_End} ist um {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s verringert. Die {greenBright_Start}Geschützstreuung{greenBright_End} ist um %(shotDispersionAngle)s verringert&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Verringert den Bereich {greenBright_Start}potenziellen Schadens{greenBright_End} und {greenBright_Start}potenziellen Durchschlags{greenBright_End} um {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. Verringert die {greenBright_Start}Geschützstreuung{greenBright_End} um %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Büchsenmacher"
+
+msgid "gunner_focus/alt/description"
+msgstr "Der Effekt beginnt 3 s nachdem das Fahrzeug angehalten hat und wird bei Bewegung zurückgesetzt.\n\nWenn zwei Richtschützen diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt."
+
+msgid "gunner_focus/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "Die {yellow_Start}Geschützstreuung{yellow_End} eines stationären Fahrzeugs ist um %(shotDispersionAngle)s verringert&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Die Geschützstreuung ist verringert."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Verringert die {yellow_Start}Geschützstreuung{yellow_End} eines stationären Fahrzeugs um %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Konzentration"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Verringert die Geschützstreuung eines stationären Fahrzeugs."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Geschützstreuung und Zielführung können durch Besatzungsvorteile oder Zubehör mit vergleichbarem Effekt weiter verstärkt werden.\n\nWenn zwei Richtschützen diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "Die {yellow_Start}Geschützstreuung{yellow_End} wird um %(vehicleGunAimSpeed)s gesenkt und die {yellow_Start}Zielerfassungsgeschwindigkeit{yellow_End} um %(vehicleGunAimSpeed)s erhöht, wenn sich keine verbündeten Fahrzeuge im Umkreis von 300 m befinden."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Geschützstreuung und Zielferfassung sind verbessert (kein Verbündeter in der Nähe)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Senkt die {yellow_Start}Geschützstreuung{yellow_End} und erhöht die {yellow_Start}Zielerfassungsgeschwindigkeit{yellow_End} um %(vehicleGunAimSpeed)s, wenn sich keine verbündeten Fahrzeuge im Umkreis von 300 m befinden."
+
+msgid "gunner_loneWolf/name"
+msgstr "Einsamer Wolf"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Senkt die Geschützstreuung und erhöht die Zielerfassung"
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Die maximale potenzielle Durchschlagskraft liegt standardmäßig bei +25 % des Grundwerts. Als Beispiel: Wenn eine Granate bei einem Treffer bis zu 100 mm Panzerung durchschlägt, beträgt die maximale potenzielle Durchschlagskraft für diesen Schuss bis zu 125 mm. Wenn dieser Modifikator angehoben wird, führt dies zu mehr effektiv durchschlagenden Schüssen.\n\nWenn zwei Richtschützen diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "Die {yellow_Start}maximale potenzielle Durchschlagskraft{yellow_End} der Granaten ist um %(piercingHEShellsDistributionUpperBound)s erhöht, wenn das beschossene gegnerische Fahrzeug weniger als 50 m entfernt ist."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht die {yellow_Start}maximale potenzielle Durchschlagskraft{yellow_End} um %(piercingHEShellsDistributionUpperBound)s, wenn das beschossene gegnerische Fahrzeug weniger als 50 m entfernt ist."
+
+msgid "gunner_pointBlast/name"
+msgstr "Kernschussexperte"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Erhöht die maximale potenzielle Durchschlagskraft der Granaten"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Wenn zwei Richtschützen diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt.\n\nDie Zielerfassungsgeschwindigkeit kann durch Ausbilden des Vorteils „Koordination“ des Kommandanten oder durch Zubehör mit vergleichbarem Effekt weiter erhöht werden.\n\nDie Turmdrehgeschwindigkeit kann durch Zubehör oder Verbrauchsmaterial mit vergleichbarem Effekt weiter erhöht werden."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "Die {greenBright_Start}Zielerfassungsgeschwindigkeit{greenBright_End} und {greenBright_Start}Turmdrehgeschwindigkeit{greenBright_End} sind um %(vehicleGunAimSpeed)s erhöht&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht {greenBright_Start}Zielerfassungsgeschwindigkeit{greenBright_End} und {greenBright_Start}Turmdrehgeschwindigkeit{greenBright_End} um %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Schnelles Zielen"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Die Zielerfassungsgeschwindigkeit ist erhöht."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Zeigt kritisch beschädigte Module auf anvisierten Fahrzeugen in der Sichtweite des Richtschützen an, sowohl im direkten als auch indirekten Feuermodus.\nDer Sichtbereich des Richtschützen ist durch den Bereich ±10° (insgesamt 20°) vor dem Geschütz des Fahrzeugs und seine Sichtweite bestimmt.\nWenn zwei Richtschützen diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt.\nDer Vorteil kann durch die Direktive „Zielfokus“ weiter verstärkt werden. „Verbessertes Funkgerät“ verlängert die Zeit, ehe das gegnerische Fahrzeug nicht mehr sichtbar ist."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "Die {greenBright_Start}Zeit{greenBright_End}, die ein gegnerisches Fahrzeug im Sichtbereich des Richtschützen {greenBright_Start}sichtbar bleibt{greenBright_End}, ist um %(vehicleEnemySpottingTime)s erhöht. Die Zeit, um {yellow_Start}beschädigte Module zu bestimmen{yellow_End}, ist auf %(damageMonitoringDelay)s gesenkt&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht die {greenBright_Start}Zeit{greenBright_End}, die ein gegnerisches Fahrzeug im Sichtbereich des Richtschützen {greenBright_Start}sichtbar bleibt{greenBright_End} um %(vehicleEnemySpottingTime)s. Erlaubt es, mit einer Verzögerung von %(damageMonitoringDelay)s {yellow_Start}beschädigte Module zu bestimmen{yellow_End}."
+
+msgid "gunner_rancorous/name"
+msgstr "Angesetztes Ziel"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Erhöht die Zeit, die ein gegnerisches Fahrzeug im Sichtbereich des Richtschützen sichtbar bleibt. Erlaubt es, beschädigte Module zu bestimmen."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Wenn zwei Richtschützen diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt.\n\nDer Vorteil kann durch die Direktive „Schnappschuss“ verstärkt werden. Die Streuung bei Turmdrehung kann durch Zubehör mit vergleichbarem Effekt oder die Direktive „Stabilisatorschmierung“ weiter verringert werden."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "Die {greenBright_Start}Geschützstreuung{greenBright_End} bei Turmdrehung ist um %(turretAimingDispersion)s verringert&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Verringert die {greenBright_Start}Geschützstreuung{greenBright_End} bei Turmdrehung um %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Ruhige Hand"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Verringert die Geschützstreuung bei Turmdrehung."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Dieser Effekt funktioniert für alle Arten von Granaten außer in Fahrzeugen mit Maschinenkanonen.\n\nWenn zwei Richtschützen über diesen Vorteil verfügen, wird der Durchschnittswert der Ausbildungsstufen angewendet."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "Die {greenBright_Start}Chance auf kritischen Schaden{greenBright_End} an gegnerischen {greenBright_Start}Fahrzeugmodulen{greenBright_End} und auf Verletzung von gegnerischen {greenBright_Start}Besatzungsmitgliedern{greenBright_End} ist mit allen Granatentypen um %(enemyModulesCrewCritChance)s erhöht&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht die {greenBright_Start}Chance auf kritischen Schaden{greenBright_End} an gegnerischen {greenBright_Start}Fahrzeugmodulen{greenBright_End} und auf Verletzung von gegnerischen {greenBright_Start}Besatzungsmitgliedern{greenBright_End} mit allen Granatentypen um %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Scharfschütze"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Der Standardbereich für den minimalen potenziellen Schaden und Durchschlag liegt bei -25 % der Grundwerte. Beispiel: Wenn eine Granate bis zu 100 mm Panzerung durchschlägt und bei einem Treffer bis zu 100 Schadenspunkte verursacht, liegt der minimal mögliche Wert für die Durchschlagskraft dieses einen Schusses bei 75 mm und der minimal mögliche Schaden bei 75 SP. Wenn dieser Wert gesteigert wird, werden die Schüsse damit effektiver.\n\nWenn zwei Ladeschütze diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "Der {greenBright_Start}minimale potenzielle Schaden{greenBright_End} und der {greenBright_Start}minimale potenzielle Durchschlagswert{greenBright_End} sind um %(damageAndPiercingDistributionLowerBound)s erhöht&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht den {greenBright_Start}minimalen potenziellen Schaden{greenBright_End} und {greenBright_Start}minimalen potenziellen Durchschlag{greenBright_End} um %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Munitionsanpassung"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Erhöht die durchschnittlichen Werte für Schaden und Durchschlag."
+
+msgid "loader_desperado/alt/description"
+msgstr "Wenn zwei Ladeschützen diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt.\n\nDie Nachladezeit kann durch den Vorteil „Nahkampf“ des Ladeschützen oder durch Zubehör mit vergleichbarem Effekt weiter verringert werden. Die Direktive „Ordentliches Munitionslager“ verstärkt den Effekt."
+
+msgid "loader_desperado/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "Wenn dem Fahrzeug weniger als 25 % seiner Strukturpunkte verbleiben, ist die {yellow_Start}Nachladezeit{yellow_End} um %(vehicleGunReloadTime)s verringert."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Die Nachladezeit ist verringert (geringe Robustheit des Fahrzeugs)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Verringert die {yellow_Start}Nachladezeit{yellow_End} um %(vehicleGunReloadTime)s, wenn dem Fahrzeug weniger als 25 % seiner Strukturpunkte verbleiben."
+
+msgid "loader_desperado/name"
+msgstr "Adrenalinrausch"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Beschleunigt die Nachladegeschwindigkeit, wenn dem Fahrzeug weniger als 25 % seiner Strukturpunkte verbleiben."
+
+msgid "loader_intuition/alt/description"
+msgstr "Um den Vorteil zu aktivieren, müssen das Geschütz, die Geschütze oder das Magazin vollständig geladen sein. Die Mindestzeit zum Wechsel des Granatentyps beträgt 1 s bei Standardgeschützen und 2,5 s bei Doppelgeschützen und Magazinsystemen.\n\nWenn zwei Ladeschützen diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt."
+
+msgid "loader_intuition/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "Die {greenBright_Start}Dauer für den Wechsel des Granatentyps{greenBright_End} bei geladenem Geschütz ist um %(vehicleReloadTimeAfterShellChange)s verringert&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Die Dauer für den Wechsel des Granatentyps in einem geladenen Geschütz ist verringert.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Verringert die {greenBright_Start}Dauer für den Wechsel des Granatentyps{greenBright_End} bei geladenem Geschütz um %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Vorahnung"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Steigert die Geschwindigkeit für den Wechsel des Granatentyps bei geladenem Geschütz signifikant."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Dieser Vorteil reduziert nur die Nachladezeit für Geschütze mit Magazinsystem, auf andere Geschützsysteme hat er keine Wirkung.\n\nWenn zwei Ladeschützen diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "Die {greenBright_Start}Nachladezeit{greenBright_End} des Magazins wird um %(magazineGunReloadSpeed)s gesenkt."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Senkt die {greenBright_Start}Nachladezeit des Magazins{greenBright_End} um %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "Magazinmeister"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Senkt die Nachladezeit der Magazine"
+
+msgid "loader_melee/alt/description"
+msgstr "Wenn zwei Ladeschützen diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt.\n\nDie Nachladezeit kann durch den Vorteil „Adrenalinrausch“ des Ladeschützen oder durch Zubehör mit vergleichbarem Effekt weiter verringert werden. Die Direktive „Ordentliches Munitionslager“ verstärkt den Effekt."
+
+msgid "loader_melee/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "Die {yellow_Start}Nachladezeit{yellow_End} ist bei einer Distanz von weniger als 50 m vom gegnerischen Fahrzeug um %(vehicleGunReloadTime)s verringert."
+
+msgid "loader_melee/hudDescription"
+msgstr "Die Nachladezeit ist verringert (Gegner in der Nähe).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Verringert die {yellow_Start}Nachladezeit{yellow_End} bei einer Distanz von weniger als 50 m vom gegnerischen Fahrzeug um %(vehicleGunReloadTime)s."
+
+msgid "loader_melee/name"
+msgstr "Nahkampf"
+
+msgid "loader_melee/shortDescription"
+msgstr "Beschleunigt die Nachladegeschwindigkeit im Nahkampf."
+
+msgid "loader_pedant/alt/description"
+msgstr "Eine Verletzung des Ladeschützen beeinflusst den Effekt des Vorteils nicht.\n\nWenn zwei Ladeschützen diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt.\n\nDer Vorteil kann durch die Direktive „Granatensortierer“ verbessert werden. Die Robustheit des Munitionslagers kann durch Zubehör mit vergleichbarem Effekt weiter erhöht werden."
+
+msgid "loader_pedant/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "Die {greenBright_Start}Robustheit des Munitionslagers {greenBright_End} ist um %(vehicleAmmoBayStrength)s erhöht&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht die {greenBright_Start}Robustheit des Munitionslagers{greenBright_End} um %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Sichere Lagerung"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Steigert die Robustheit des Munitionslagers."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Der Effekt wirkt für alle Granatentypen.\n\nEine Verletzung des Ladeschützen beeinflusst den Effekt des Vorteils nicht.\n\nWenn zwei Ladeschützen diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "Die {greenBright_Start}Mündungsgeschwindigkeit{greenBright_End} ist um %(shellVelocity)s erhöht&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht die {greenBright_Start}Mündungsgeschwindigkeit{greenBright_End} um %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Perfekter Ansturm"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Dieser Vorteil wirkt nicht auf Geschütze mit Magazinladesystem oder Maschinenkanonen und wird für Doppelgeschütze nicht verdoppelt.\n\nWenn Geschütze mit wählbarem Ladesystem aus beiden Läufen feuern und mit beiden Schüssen keinen Schaden verursachen, wird die Nachladezeit für beide Geschützläufe gesenkt. \n\nWenn zwei Ladeschützen diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt.\n\nDie Nachladegeschwindigkeit kann durch die Vorteile „Adrenalinrausch“ und „Nahkampf“ des Ladeschützen oder Zubehör mit vergleichbarem Effekt weiter verstärkt werden. Die Direktive „Ordentliches Munitionslager“ verstärkt den Effekt."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "Die {yellow_Start}Nachladezeit des Geschützes{yellow_End} wird für den nächsten Schuss um %(vehicleGunReloadTime)s gesenkt, wenn der vorherige Schuss keinen Schaden an einem gegnerischen Fahrzeug verursacht hat."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Nachladezeit ist verringert (Schuss verfehlt)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Senkt die {yellow_Start}Nachladezeit des Geschützes{yellow_End} für den nächsten Schuss um %(vehicleGunReloadTime)s, wenn der vorherige Schuss keinen Schaden am gegnerischen Fahrzeug verursacht hat."
+
+msgid "loader_secondChance/name"
+msgstr "Zweite Chance"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Senkt die Nachladezeit des Geschützes"
+
+msgid "measureType/meters"
+msgstr "%s Min."
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s %%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Bruderbund"
+
+msgid "perkRole/commander"
+msgstr "Kommandant"
+
+msgid "perkRole/common"
+msgstr "Gruppe"
+
+msgid "perkRole/driver"
+msgstr "Fahrer"
+
+msgid "perkRole/gunner"
+msgstr "Richtschütze"
+
+msgid "perkRole/loader"
+msgstr "Ladeschütze"
+
+msgid "perkRole/radioman"
+msgstr "Funker"
+
+msgid "popularity/tooltip/common"
+msgstr "aller Spieler"
+
+msgid "popularity/tooltip/header"
+msgstr "Für dieses Fahrzeug, gesammelt durch die Vorlieben"
+
+msgid "popularity/tooltip/legendary"
+msgstr "von Spielern mit legendärer WTR-Wertung"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Wenn zwei Funker diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt.\n\nDer Effekt kann durch den Vorteil „Geräuscherkennung“ des Kommandanten weiter verstärkt werden."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Immer wenn ein Besatzungsmitglied betäubt wird, senkt sich der {greenBright_Start}negative Effekt der Betäubung{greenBright_End} um %(stunResistanceEffectFactor)s, bis zu einem Maximum von 30 %."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Immer wenn ein Besatzungsmitglied betäubt wird, senkt sich der {greenBright_Start}negative Effekt der Betäubung{greenBright_End} um %(stunResistanceEffectFactor)s&nbsp;, bis zu einem Maximum von 30 %."
+
+msgid "radioman_battleTempered/name"
+msgstr "Gefechtserfahren"
+
+msgid "radioman_expert/alt/description"
+msgstr "Der Besatzungseffizienzbonus steigert die Leistung des Besatzungsmitglieds im Gefecht. Wenn zwei Funker diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt. Dieser Wert kann durch Zubehör oder Verbrauchsmaterial mit vergleichbarem Effekt weiter erhöht werden. Die Direktive „Lüftungsreinigung“ verstärkt den Effekt. Der Gruppenvorteil „Waffenbrüder“, der Vorteil „Notsituation“ des Kommandanten und der Vorteil „Seite an Seite“ des Funkers heben diesen Wert ebenfalls an."
+
+msgid "radioman_expert/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "Der {yellow_Start}Besatzungseffizienzbonus{yellow_End} ist um %(crewLevelIncrease)s erhöht, wenn der durch Ihre Unterstützung ermöglichte Schaden höher ist als der Ausgangswert der Strukturpunkte Ihres Fahrzeugs&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Der Besatzungseffizienzbonus ist erhöht (ausreichend Aufklärungsdaten übermittelt)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht den {yellow_Start}Besatzungseffizienzbonus{yellow_End} um %(crewLevelIncrease)s, wenn der durch Ihre Unterstützung ermöglichte Schaden höher ist als der Ausgangswert der Strukturpunkte Ihres Fahrzeugs&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Kommunikationsexperte"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Die Besatzungsleistung ist erhöht."
+
+msgid "radioman_finder/alt/description"
+msgstr "Wenn zwei Funker diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt.\n\nDie Sichtweite kann durch Ausbilden des Vorteils „Späher“ oder Einbauen von Zubehör mit vergleichbarem Effekt weiter erhöht werden. Die Direktive „Kalibrierte Optik“ verstärkt den Effekt."
+
+msgid "radioman_finder/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "Die {greenBright_Start}Sichtweite{greenBright_End} ist um %(vehicleCircularVisionRadius)s erhöht&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht die {greenBright_Start}Sichtweite{greenBright_End} um %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Weitsicht"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Steigert die Sichtweite."
+
+msgid "radioman_interference/alt/description"
+msgstr "Wenn zwei Richtschützen diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt.\n\nDie Zeit, die das eigene Fahrzeug aufgeklärt bleibt, kann durch Zubehör mit vergleichbarem Effekt weiter verringert werden."
+
+msgid "radioman_interference/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "Verringert die {greenBright_Start}Zeit, die das eigene Fahrzeug aufgeklärt bleibt{greenBright_End}, um %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Verringert die {greenBright_Start}Zeit, die das eigene Fahrzeug aufgeklärt bleibt{greenBright_End}, um %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Funkstörung"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Verringert die Dauer der Sichtbarkeit des eigenen Fahrzeugs für die Gegner."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Wenn zwei Funker diesen Vorteil haben, wird nur der höhere Wert angewandt. Der Effekt ist nur aktiv, wenn der Funker bei Zerstörung des Fahrzeugs nicht verletzt ist.\n\nDer Vorteil kann durch die Direktive „Die Pflicht zuerst“ verbessert werden."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Der Funker kann {yellow_Start}gegnerische Positionen{yellow_End} noch %(radiomanDurationPerLevel)s lang melden, nachdem Ihr Fahrzeug zerstört wurde."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Meldet Positionen."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erlaubt es {yellow_Start}gegnerische Positionen{yellow_End} noch %(radiomanDurationPerLevel)s lang zu melden, nachdem Ihr Fahrzeug zerstört wurde."
+
+msgid "radioman_lastEffort/name"
+msgstr "Ruf nach Vergeltung"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Meldet die Positionen der Gegner für einen kurzen Zeitraum, nachdem das eigene Fahrzeug zerstört wurde."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Der Besatzungseffizienzbonus steigert die Leistung des Besatzungsmitglieds im Gefecht. Wenn zwei Funker diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt. Dieser Wert kann durch Zubehör oder Verbrauchsmaterial mit vergleichbarem Effekt weiter erhöht werden. Die Direktive „Lüftungsreinigung“ verstärkt den Effekt. Der Gruppenvorteil „Waffenbrüder“, der Vorteil „Notsituation“ des Kommandanten und der Vorteil „Kommunikationsexperte“ des Funkers heben diesen Wert ebenfalls an."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "Der {yellow_Start}Besatzungseffizienzbonus{yellow_End} ist um %(crewLevelIncrease)s erhöht, wenn ein verbündetes Fahrzeug desselben Typs weniger als 50 m entfernt ist&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Der Besatzungseffizienzbonus ist gesteigert (Verbündeter desselben Typs in der Nähe)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht den {yellow_Start}Besatzungseffizienzbonus{yellow_End} um %(crewLevelIncrease)s, wenn ein verbündetes Fahrzeug desselben Typs weniger als 50 m entfernt ist&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Seite an Seite"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Die Besatzungsleistung ist erhöht."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Der Effekt verbessert das spezielle Kommandantenmerkmal „Sechster Sinn“ und beschleunigt die Aktivierung.\n\nWenn zwei Funker diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "Die {greenBright_Start}Zeit zum Bestimmen{greenBright_End}, ob {greenBright_Start}das eigene Fahrzeug vom Gegner aufgeklärt wurde{greenBright_End}, ist um %(commanderLampDelay)s verringert."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Verringert die {greenBright_Start}Zeit zum Bestimmen{greenBright_End}, ob {greenBright_Start}das eigene Fahrzeug vom Gegner aufgeklärt wurde{greenBright_End}, um %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Signalunterbrechung"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Dieser Vorteil aktiviert sich, wenn die Warnung von „Sechster Sinn“ anzeigt, dass Ihr Fahrzeug aufgeklärt wurde.\n\nWenn zwei Funker diesen Vorteil haben, wird der Durchschnittswert der Ausbildungsstufen angewandt.\n\nDie Sichtweite kann durch die Vorteile „Späher“ und „Weitsicht“ oder Zubehör mit vergleichbarem Effekt weiter verstärkt werden. Die Direktive „Kalibrierte Optik“ verstärkt den Effekt."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Ein Vorteil mit situativem Effekt wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu. Der situative Effekt wird ausgelöst, wenn im Gefecht bestimmte Bedingungen erfüllt werden."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "Die {yellow_Start}Sichtweite{yellow_End} wird für 5 s um %(vehicleCircularVisionRadius)s erhöht, nachdem eine Warnung durch „Sechster Sinn“ angezeigt wurde."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Sichtweite ist erhöht."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Wenn vollständig ausgebildet: Erhöht die {yellow_Start}Sichtweite{yellow_End} für 5 s um %(vehicleCircularVisionRadius)s, nachdem eine Warnung durch „Sechster Sinn“ eingegangen ist."
+
+msgid "radioman_threatSearch/name"
+msgstr "Gefahrensucher"
+
+msgid "repair/alt/description"
+msgstr "Dieser Vorteil beeinflusst die Reparaturgeschwindigkeit von Zustand „rot“ auf „gelb“ für interne und externe Module.\n\nDieser Wert kann durch Zubehör oder Verbrauchsmaterial mit vergleichbarem Effekt weiter verstärkt werden."
+
+msgid "repair/alt/info"
+msgstr "Bei Gruppenvorteilen wird die mittlere Ausbildungsstufe aller Besatzungsmitglieder für den Effekt herangezogen. Ein Vorteil wirkt, wenn er mindestens auf 1 % ausgebildet wurde. Der Effekt nimmt mit steigendem Ausbildungsgrad zu."
+
+msgid "repair/currentLvlDescription"
+msgstr "Die {greenBright_Start}Reparaturgeschwindigkeit{greenBright_End} für Fahrzeugmodule ist um %(vehicleRepairSpeed)s erhöht&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Wenn von allen Besatzungsmitgliedern vollständig ausgebildet: Erhöht die {greenBright_Start}Reparaturgeschwindigkeit{greenBright_End} für beschädigte Fahrzeugmodule um %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Reparatur"
+
+msgid "repair/shortDescription"
+msgstr "Erhöht die Reparaturgeschwindigkeit beschädigter Module."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Bruderbund"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Beliebt"
+
+msgid "sorting/fallback"
+msgstr "Standard"
+
+msgid "sorting/legendary"
+msgstr "Legendär"
+
+msgid "sorting/title"
+msgstr "Sortiert nach:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sBeliebt.%(whiteSpanish_Close)s Entspricht den aktuellen Trends für Vorteile unter allen Spielern von World of Tanks"
+
+msgid "sorting/tooltip/header"
+msgstr "Vorteil von WoT Plus"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Sie erhalten präzise Daten zu Besatzungsvorteilen, basierend auf Millionen Spielen, um jedes Gefecht ideal zu bestreiten."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendär.%(whiteSpanish_Close)s Entspricht den Vorteilen, die von Spielern mit einer legendären WTR-Wertung derzeit genutzt werden"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Sortieren nach Vorteil deaktiviert"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Keine Daten verfügbar"
+
+msgid "sorting/tooltip/title"
+msgstr "Besatzungsassistent"
+
+msgid "sorting/tooltip/types"
+msgstr "Sortieren nach Vorteilstyp"
+
+msgid "sorting/tooltip/warning"
+msgstr "Sortieren nach Vorteil nicht verfügbar"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Für dieses Fahrzeug sind keine vollständigen Daten zu Vorteilen verfügbar, daher wurde die Standardsortierung angewandt."
+
+msgid "witches_brotherhood/name"
+msgstr "Hexenzirkel"
+
+msgid "yha_brotherhood/name"
+msgstr "Hasenbrüder"

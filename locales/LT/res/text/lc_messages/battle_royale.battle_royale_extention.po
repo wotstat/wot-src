@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To:\nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "battleQuestAwards/button"
+msgstr "Tikrai taip!"
+
+msgid "battleQuestAwards/stPatrick/subTitle"
+msgstr "PLIENINIS MEDŽIOTOJAS: TRILAPIO KAUTYNĖS"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "PLIENINIS MEDŽIOTOJAS"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "ĮVYKDYTAS FINALINIS ETAPAS!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "%(level)s ETAPAS UŽBAIGTAS!"
+
+msgid "dailyBonus/description"
+msgstr "%(dailyBonus)s bonusas Sėkmingos spynoms už tai, kad patekote tarp %(soloTopPlaces)s geriausių žaidėjų žaisdami solo arba tarp %(squadTopPlaces)s geriausių žaisdami būryje. Bonusą galite gauti po vieną kartą per dieną su kiekviena renginio mašina."
+
+msgid "eventShop"
+msgstr "Renginio parduotuvė"
+
+msgid "leaveBattleView/confirmation/cancel"
+msgstr "Pasilikti"
+
+msgid "leaveBattleView/confirmation/submit"
+msgstr "Dezertyruoti"
+
+msgid "leaveBattleView/description"
+msgstr "Jūsų mašina vis dar gali kovoti. Jei paliksite mūšį dabar, už jį negausite jokių apdovanojimų. Ar tikrai norite palikti mūšį?"
+
+msgid "leaveBattleView/title"
+msgstr "Dezertyravimas iš mūšio"
+
+msgid "leaveBattleView/warning"
+msgstr "Jūs negausite apdovanojimų!"
+
+msgid "progress/counter"
+msgstr "{{current}}{{divider}}{{total}}"
+
+msgid "progressionComplete"
+msgstr "Pagrindinė seka užbaigta!"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s arba %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/questsTotal/text"
+msgstr "Įvykdytos misijos:"
+
+msgid "progressionView/battleQuests/timer/eventResetTime/text"
+msgstr "Renginys baigsis po:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Misijos bus atnaujintos po"
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/seasonRange"
+msgstr "%(startDate)s – %(endDate)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Seka įvykdyta. Toliau žaiskite Plieninį medžiotoją ir uždirbkite daugiau apdovanojimų."
+
+msgid "progressionView/subTitle/endEvent"
+msgstr "Renginys pasibaigė. Misijos ir seka nebepasiekiami."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Vykdykite misijas ir rinkite sekos taškus.\nSurinktas taškų skaičius taip pat priklauso nuo jūsų pozicijos mūšyje. %(infotip)s"
+
+msgid "proxy_currency_tooltip/earn/description/brcoin"
+msgstr "Gaukite plienines spynas už efektyvų pasirodymą mūšyje, pasiekę aukštą poziciją mūšio rezultatų lange bei įvykdę režimo misijas."
+
+msgid "proxy_currency_tooltip/earn/description/stpcoin"
+msgstr "Sėkmingų spynų gausite surinkę Karo grobį mūšyje, įvykdę sekos etapus ir užėmę aukštą vietą Plieninio medžiotojo mūšiuose."
+
+msgid "proxy_currency_tooltip/earn/title/brcoin"
+msgstr "Kaip uždirbti spynas"
+
+msgid "proxy_currency_tooltip/earn/title/stpcoin"
+msgstr "Kaip uždirbti spynas"
+
+msgid "proxy_currency_tooltip/spend/description/brcoin"
+msgstr "Už uždirbtas plienines spynas pirkite Plieninio medžiotojo stilius."
+
+msgid "proxy_currency_tooltip/spend/description/stpcoin"
+msgstr "Iškeiskite Sėkmingas spynas į vertingus prizus Trilapio parduotuvėje."
+
+msgid "proxy_currency_tooltip/spend/title/brcoin"
+msgstr "Kur išleisti spynas"
+
+msgid "proxy_currency_tooltip/spend/title/stpcoin"
+msgstr "Kur išleisti spynas"
+
+msgid "proxy_currency_tooltip/title/brcoin"
+msgstr "Plieninės spynos"
+
+msgid "proxy_currency_tooltip/title/stpcoin"
+msgstr "Sėkmingos spynos"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Suteikiami įvykdžius specialias Plieninio medžiotojo misijas. Leidžia progresuoti sekoje."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Plieninio medžiotojo sekos taškai"
+
+msgid "rewardCurrencyTooltip/body/battlePassPoints"
+msgstr "Taškus galima uždirbti kovojant mūšiuose ir vykdant specialias misijas. Jie automatiškai pridedami prie Kovinio leidimo sekos."
+
+msgid "rewardCurrencyTooltip/body/brProgressionToken"
+msgstr "Suteikiama už įvykdytas Plieninio medžiotojo misijas ir gerus rezultatus mūšyje. Jie leidžia jums judėti progresijoje."
+
+msgid "rewardCurrencyTooltip/body/brcoin"
+msgstr "Plienines spynas galima gauti už efektyvų pasirodymą mūšyje, pasiekus aukštą poziciją mūšio rezultatų lange ir įvykdžius specialias misijas."
+
+msgid "rewardCurrencyTooltip/body/credits"
+msgstr "Pagrindinė žaidimo valiuta. Uždirbama mūšiuose arba perkama už auksą."
+
+msgid "rewardCurrencyTooltip/body/crystal"
+msgstr "Reta, speciali valiuta naudojama unikalių daiktų pirkimui, kurių kitaip įsigyti negalima."
+
+msgid "rewardCurrencyTooltip/body/stpcoin"
+msgstr "Valiuta, kurią galite uždirbti Plieninio medžiotojo mūšiuose. Spynas galite iškeisti į unikalius prizus Trilapio parduotuvėje. Būryje kiekvienas narys gaus po vienodą spynų skaičių. Šis skaičius priklauso nuo bendro surinktų spynų skaičiaus."
+
+msgid "rewardCurrencyTooltip/body/xp"
+msgstr "Patirtis, uždirbta su specialiomis mašinomis, gali būti konvertuojama į laisvąją patirtį."
+
+msgid "rewardCurrencyTooltip/dailyBonus/stpcoin"
+msgstr "Bonusas suteiktas! Iš šio mūšio gavote %(count)s kartus daugiau spynų."
+
+msgid "rewardCurrencyTooltip/header/battlePassPoints"
+msgstr "Kovinio leidimo taškai"
+
+msgid "rewardCurrencyTooltip/header/brProgressionToken"
+msgstr "Plieninio medžiotojo sekos taškai"
+
+msgid "rewardCurrencyTooltip/header/brcoin"
+msgstr "Plieninės spynos"
+
+msgid "rewardCurrencyTooltip/header/credits"
+msgstr "Kreditai"
+
+msgid "rewardCurrencyTooltip/header/crystal"
+msgstr "Bonai"
+
+msgid "rewardCurrencyTooltip/header/stpcoin"
+msgstr "Sėkmingos spynos"
+
+msgid "rewardCurrencyTooltip/header/xp"
+msgstr "Kovinė patirtis"
+
+msgid "rewardCurrencyTooltip/premiumBonus/brcoin"
+msgstr "WoT Premium paskyra padidina šios valiutos uždarbį 50%."
+
+msgid "rewardCurrencyTooltip/premiumBonus/credits"
+msgstr "WoT Premium paskyra padidina šios valiutos uždarbį 50%."
+
+msgid "rewardCurrencyTooltip/premiumBonus/xp"
+msgstr "WoT Premium paskyra padidina kovinės patirties uždarbį 50%."
+
+msgid "serviceChannelMessages/awards"
+msgstr "Gautas apdovanojimas:"
+
+msgid "serviceChannelMessages/body"
+msgstr "Jūs įvykdėte %(stage)s sekos etapą režime \"%(progressionName)s\"."
+
+msgid "serviceChannelMessages/header"
+msgstr "Sveikiname!"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Detaliau"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Plieninis medžiotojas"
+
+msgid "tab/label/platoon"
+msgstr "BŪRYS"
+
+msgid "tab/label/solo"
+msgstr "SOLO"
+
+msgid "tab/label/team"
+msgstr "SU DRAUGU"
+
+msgid "tooltip/banner/description"
+msgstr "Dinamiški mūšiai iki kol išlieka gyvas tik vienas post-apokaliptiniame pasaulyje. Kovokite su aštuoniomis specialiomis mašinomis, kurias galite tobulinti mūšio metu, taip stiprėdami su kiekvienu lygiu. Ypatingi apdovanojimai ir daug daugiau laukia jūsų!"
+
+msgid "tooltip/banner/mode/description"
+msgstr "— Režimas. Sužinokite daugiau paspaudę"
+
+msgid "tooltip/banner/mode/label"
+msgstr "MODE"
+
+msgid "tooltip/banner/performanceRisk/description/high"
+msgstr "Jūsų kompiuterio galingumo šiam režimui nepakanka. Jus galite pamatyti grafikos iškraipymus bei patirti nesklandumų judant mašinai. Gali nulūžti žaidimo klientas."
+
+msgid "tooltip/banner/performanceRisk/description/medium"
+msgstr "Šis režimas reikalauja daug kompiuterio resursų. Jūs galite turėti problemų užkraunant žemėlapį, išvysti grafikos iškraipymus ir patirti nesklandumų judant mašinai. Jeigu žaidimas veikia lėtai, pabandykite sumažinti grafikos kokybę nustatymuose."
+
+msgid "tooltip/banner/performanceRisk/title/high"
+msgstr "Žema greitaveika"
+
+msgid "tooltip/banner/performanceRisk/title/medium"
+msgstr "Galimai sumažinta greitaveika"
+
+msgid "tooltip/banner/stPatrickDescription"
+msgstr "Dinamiški mūšiai iki kol išlieka gyvas tik vienas, papuošti žalia magija. Kovokite su aštuoniomis specialiomis mašinomis, kurias galite tobulinti mūšio metu, taip stiprėdami su kiekvienu lygiu. Ypatingi apdovanojimai ir daug daugiau laukia jūsų!"
+
+msgid "tooltip/banner/stPatrickTitle"
+msgstr "Trilapio kautynės"
+
+msgid "tooltip/banner/timer/text/accent"
+msgstr "Renginys pasiekiamas dar %(timer)s"
+
+msgid "tooltip/banner/timer/text/cooldown"
+msgstr "Paliaubos %(timer)s"
+
+msgid "tooltip/banner/title"
+msgstr "Plieninis medžiotojas"
+
+msgid "tooltip/daily_quests/header"
+msgstr "Įvykdyta"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Naujos Plieninio medžiotojo misijos už {{timeLeft}}"
+
+msgid "tooltip/daily_quests/reward"
+msgid_plural "plural/tooltip/daily_quests/reward"
+msgstr[0] "Apdovanojimas:"
+msgstr[1] "Apdovanojimai:"
+msgstr[2] "Apdovanojimai:"
+
+msgid "tooltip/daily_quests/text"
+msgstr "Visos misijos įvykdytos!"
+
+msgid "tooltip/progressionWidget/description/completed"
+msgstr "Puikiai padirbėjote, vade. Taip ir toliau!"
+
+msgid "tooltip/progressionWidget/description/header"
+msgstr "Pagrindinė seka užbaigta!"
+
+msgid "tooltip/progressionWidget/description/inProgress"
+msgstr "Seka vykdoma atliekant misijas ir užimant aukštas pozicijas Plieninio medžiotojo mūšiuose."
+
+msgid "tooltip/progressionWidget/subTitle"
+msgstr "Iki režimo pabaigos liko %(value)s"
+
+msgid "tooltip/progressionWidget/title"
+msgstr "Plieninis medžiotojas"
+
+msgid "tooltip/quest/header"
+msgstr "Plieninio medžiotojo misija"
+
+msgid "tooltip/shop/stPatrick/subtitle"
+msgstr "Iškeiskite savo {ede6d9_Open}sėkmingas spynas{ede6d9_Close} į ypatingus daiktus."
+
+msgid "tooltip/shop/stPatrick/text"
+msgstr "Sėkmingų spynų gausite surinkę Karo grobį mūšyje, įvykdę sekos etapus ir užėmę aukštą vietą karališkoje kovoje."
+
+msgid "tooltip/shop/stPatrick/title"
+msgstr "Trilapio parduotuvėje"
+
+msgid "tooltip/shop/subtitle"
+msgstr "Iškeiskite savo {ede6d9_Open}plienines spynas{ede6d9_Close} į ypatingus daiktus."
+
+msgid "tooltip/shop/text"
+msgstr "Uždirbkite plieninių spynų puikiai pasirodę mūšyje, užėmę aukštą poziciją ir vykdydami misijas."
+
+msgid "tooltip/shop/title"
+msgstr "Plieninio medžiotojo parduotuvė"
+
+msgid "upgrades/description"
+msgstr "Darydami žalos priešų mašinoms ir rinkdami žemėlapyje išbarstytą karo grobį gausite patirties ir pasieksite naujus lygius. Kiekvienas lygis leidžia patobulinti savo mašinos modulius atsidarius Tobulinimų meniu, kas ženkliai pagerins jūsų mašinos charakteristikas."
+
+msgid "upgrades/footer"
+msgstr "Modulius patobulinti galima tik mūšyje."
+
+msgid "upgrades/subtitle"
+msgstr "Jūs pradedate mūšį su I lygio mašina."
+
+msgid "upgrades/title"
+msgstr "Mūšio eigoje mašina yra tobulinama"

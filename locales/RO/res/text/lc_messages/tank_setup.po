@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "categories/body/firepower"
+msgstr "Un set de parametri care indică eficiența în distrugerea de vehicule inamice. Filtrul arată/ascunde echipamentele cu acest set de parametri."
+
+msgid "categories/body/mobility"
+msgstr "Un set de parametri care indică viteza cu care un vehicul își poate schimba poziția pe câmpul de luptă. Filtrul arată/ascunde echipamentele cu acest set de parametri."
+
+msgid "categories/body/stealth"
+msgstr "Un set de parametri care indică eficiența camuflării vehiculului și abilitatea de a observa vehicule inamice. Filtrul arată/ascunde echipamentele cu acest set de parametri."
+
+msgid "categories/body/survivability"
+msgstr "Un set de parametri care indică rezistența vehiculului la daune. Filtrul arată/ascunde echipamentele cu acest set de parametri."
+
+msgid "categories/empty"
+msgstr "Categoria celui de-al doilea locaș"
+
+msgid "categories/firepower"
+msgstr "Putere de foc"
+
+msgid "categories/mobility"
+msgstr "Mobilitate"
+
+msgid "categories/slotEffect/empty"
+msgstr "Ocazia de a aloca o categorie celui de-al doilea locaș de echipament al acestui vehicul."
+
+msgid "categories/slotEffect/firepower"
+msgstr "Echipamentul standard din categoria Putere de foc va fi mai eficient dacă este montat în acest locaș."
+
+msgid "categories/slotEffect/mobility"
+msgstr "Echipamentul standard din categoria Mobilitate va fi mai eficient dacă este montat în acest locaș."
+
+msgid "categories/slotEffect/stealth"
+msgstr "Echipamentul standard din categoria Cercetare va fi mai eficient dacă este montat în acest locaș."
+
+msgid "categories/slotEffect/survivability"
+msgstr "Echipamentul standard din categoria Supraviețuire va fi mai eficient dacă este montat în acest locaș."
+
+msgid "categories/stealth"
+msgstr "Cercetare"
+
+msgid "categories/survivability"
+msgstr "Supraviețuire"
+
+msgid "categories/universal"
+msgstr "Nicio categorie"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "Selectează o directivă utilizabilă din listă."
+
+msgid "compare/section/description/consumables"
+msgstr "Selectează un consumabil utilizabil din listă."
+
+msgid "compare/section/description/optDevices"
+msgstr "Selectează un echipament utilizabil din listă."
+
+msgid "compare/section/title/battleBoosters"
+msgstr "Directive pentru {name}"
+
+msgid "compare/section/title/consumables"
+msgstr "Consumabile pentru {name}"
+
+msgid "compare/section/title/optDevices"
+msgstr "Echipament pentru {name}"
+
+msgid "dealPanel/autoRenew"
+msgstr "Realimentare automată"
+
+msgid "dealPanel/button/apply"
+msgstr "Aplică"
+
+msgid "dealPanel/button/applyType"
+msgstr "Aplică tipului"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "Aplică vehiculului"
+
+msgid "dealPanel/button/cancel"
+msgstr "Anulează"
+
+msgid "dealPanel/button/purchase"
+msgstr "Cumpără"
+
+msgid "dealPanel/fromStorage"
+msgstr "Din depozit:"
+
+msgid "dealPanel/fromVehicle"
+msgstr "Instalat:"
+
+msgid "dealPanel/repair"
+msgstr "Sunt necesare reparații"
+
+msgid "dealPanel/toBePaid"
+msgstr "Total:"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "În Depozit"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "Instalat pe vehicul"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "Fonduri insuficiente pentru a face achiziția"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "Va fi cumpărat contra credite"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "Va fi cumpărat contra bonduri"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "Se va instala din Depozit"
+
+msgid "deconstructionDeviceView/available"
+msgstr "Disponibile:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "Anulează"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "Continuă"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "Din depozit:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "De pe vehicule:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "( Se necesită încă %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s %(red_Open)s pentru a îmbunătăți %(red_Close)s )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "Se vor obține:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "VEHICULUL ACTIV"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "ÎN DEPOZIT: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "PE VEHICULE: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "Selectează echipamentul pe care vrei să-l dezasamblezi în %(whiteSpanish_Open)scomponente%(whiteSpanish_Close)s %(icon)s. Componentele primite pot fi utilizate pentru a îmbunătăți echipamentul experimental."
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s pentru a primi mai multe componente, dezasamblează echipamentul experimental neutilizat."
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "BANCUL DE LUCRU"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "Insuficiente componente pentru a îmbunătăți\n%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "Pentru a continua, dezasamblează echipamentul neutilizat în componente."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "Pentru a continua, obține numărul necesar de componente."
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "Anulare schimbări"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "Anulează"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "Anulează"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "Anulează"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "Anulare schimbări"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "Salvează"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "Cumpără"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "Cumpără şi montează"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "Montează"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "Poți demonta echipamentul contra %(price)s pentru a-l trimite în Depozit sau îl poți distruge."
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "Poți demonta echipamentul contra %(price)s sau {whiteSpanish_Open}gratuit{whiteSpanish_Close} cu WoT Plus, apoi îl poți trimite în Depozit, sau îl poți distruge."
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "Poți demonta echipamentul contra %(demountKit)s, %(price)s sau {whiteSpanish_Open}gratuit{whiteSpanish_Close} cu abonament WoT Plus pentru a-l trimite în Depozit sau îl poți distruge."
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "Poți demonta echipamentul {whiteSpanish_Open}gratuit{whiteSpanish_Close} cu WoT Plus pentru a-l trimite în Depozit."
+
+msgid "dialogs/confirm/demount/items"
+msgstr "Poți demonta echipamentul pentru a-l trimite în Depozit."
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "NU VA FUNCȚIONA"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "directivă"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "La cumpărarea acestei modificări duble, cealaltă va fi anulată."
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "consumabil"
+
+msgid "dialogs/confirm/item/module"
+msgstr "componentă"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "echipament"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "Modificare dublă"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "directive"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "consumabile"
+
+msgid "dialogs/confirm/items/module"
+msgstr "componente"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "echipament"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " și "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "Salvezi schimbările la locașurile pentru directive?"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "Salvezi schimbările la locașurile pentru consumabile?"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "Salvezi schimbările la locașurile pentru echipament?"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "Cumperi %(name)s {type}?"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "Cumperi și instalezi %(name)s {type}?"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "Instalezi %(name)s {type}?"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "Activezi %(name)s {type} pentru toate %(vehicle)s?"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "Cumperi {type}?"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "Cumperi și montezi {type}?"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "Montezi {type}?"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "Activezi {type} pentru toate %(vehicle)s?"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "antitancurile"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "Artileriile"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "tancurile grele"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "tancurile ușoare"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "tancurile medii"
+
+msgid "dialogs/confirm/warning"
+msgstr "Atenție! %(devices)s nu este echipat. Directiva %(doesNotWork)s."
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "Atenție! După dezasamblare, nu vei mai deține echipament experimental!"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "Anulează"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "Dezasamblează"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "Dezasamblează"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "Total de obținut:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "Se vor primi pentru 1 articol:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "Dezasamblezi\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "Dezasamblezi\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "Reține: După dezasamblare, nu vei mai putea restaura sau cumpăra acest echipament."
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "Anulează"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "Dezasamblează"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "Dezasamblezi în componente următorul echipament?"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "Dezasamblezi următorul echipament și îmbunătățești \n%(deviceName)s?"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "Se vor dezasambla din Depozit: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "Se vor dezasambla de pe vehicule: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "După dezasamblare, vei primi %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "Total de obținut:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "Cost îmbunătățire:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "Atenție! După dezasamblare, nu vei mai deține echipament experimental!"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "Atenție! Echipamentul experimental de pe vehicule va fi dezasamblat."
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "Conversie"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "echipament"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "Mai e nevoie de %(credits)s pentru a îmbunătăți %(name)s"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "echipament"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "Mai e nevoie de %(credits)s pentru a îmbunătăți echipamentul"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "Nu s-a putut îmbunătăți echipamentul. Trebuie să convertești %(gold)s în credite."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "Ai suficiente credite pentru a îmbunătăți echipamentul."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "Nu este nevoie de conversie"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "Nu deții echipament experimental pentru dezasamblat."
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "Pentru a primi mai multe componente, dezasamblează echipament experimental."
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "Îmbunătățești\n%(name)s?"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "Necesar: %(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "Preț:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "pentru a cumpăra"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "pentru a cumpăra"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "Conversie"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "Rata de schimb: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "Încă %(credits)s necesare pentru Service-ul rapid"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "directivă"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "consumabil"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "componentă"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "echipament"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "Modificare dublă"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "Mai este nevoie de %(credits)s {action} %(name)s {type}"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "directive"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "consumabile"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "componente"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "echipament"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "Mai este nevoie de %(credits)s {action} {type}"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "Mai e nevoie de %(credits)s pentru reparații"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "Achiziția nu a fost posibilă, conversie eșuată. Mai ai nevoie de %(gold)s pentru conversie."
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "pentru a cumpăra"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "pentru modificare"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "Nu este nevoie de conversie: ai suficiente credite."
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "Credite suficiente {action}"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "Mai e nevoie de %(credits)s pentru a realimenta cu muniție"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "Reparaţii automate"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "Repară"
+
+msgid "dialogs/needRepair/durability"
+msgstr "Rezistență:"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s%"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "Vehiculul este reparat automat și gratuit"
+
+msgid "dialogs/needRepair/price"
+msgstr "Cost reparații:"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "Fonduri insuficiente pentru reparații"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "De acord!"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "Reparațiile nu sunt necesare"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "Realimentare"
+
+msgid "dialogs/refillShells/price"
+msgstr "Cost realimentare:"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "Realimentare cu muniţie?"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "Salvezi schimbările la muniție?"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "Reține: Vinzi echipament îmbunătățit."
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "Reține: După vânzare, nu vei mai putea restaura sau cumpăra acest echipament."
+
+msgid "dialogs/sell/button/cancel"
+msgstr "Anulează"
+
+msgid "dialogs/sell/button/sell"
+msgstr "Vând"
+
+msgid "dialogs/sell/header"
+msgstr "Vinzi următorul echipament?\n%(equipmentName)s"
+
+msgid "dialogs/sell/text"
+msgstr "Preț de vânzare pentru 1 articol:"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "Resurse insuficiente pentru demontare."
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "Recomandări indisponibile pentru acest vehicul"
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "Nu se poate instala."
+
+msgid "easyTankEquipView/applied"
+msgstr "Aplicat"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "Avansat"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "Îmbunătăţit"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "Standard"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "CONSUMABILE"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "Insuficiente paturi pentru transfer și schimbarea echipajului. Adaugă mai multe paturi în Cazarmă."
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "{{count}}x"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "Echipaj experimentat"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "Echipaj nou"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "{{count}}\nVa fi recrutat un nou membru de echipaj"
+msgstr[1] "{{count}}\nVor fi recrutați membri noi de echipaj"
+msgstr[2] "{{count}}\nVor fi recrutați membri noi de echipaj"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "ECHIPAJ"
+
+msgid "easyTankEquipView/discount"
+msgstr "-{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "Avansat"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "Standard"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "ECHIPAMENTE"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "Avansat"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "Standard"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "MUNIȚIE"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "Deja ai un stil aplicat"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "{{battlesCount}} lupte contra {{price}}"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "STILURI PRESETATE"
+
+msgid "easyTankEquipView/title"
+msgstr "SERVICE RAPID"
+
+msgid "effects/name"
+msgstr "Efect"
+
+msgid "effects/template"
+msgstr "%(icon)s %(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "Timpul de refacere este de %(cooldown)s&nbsp;s."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "Obține componente"
+
+msgid "filters/shown"
+msgstr "Afișat: "
+
+msgid "hints/dragAndDrop/section"
+msgstr "ECHIPAMENT\nDRAG AND DROP"
+
+msgid "hints/filters/specialization"
+msgstr "BONUS\nADIȚIONAL LA CATEGORIE"
+
+msgid "hints/tabs/equipment"
+msgstr "TIP NOU DE\nECHIPAMENT"
+
+msgid "introduction/currency/deluxe"
+msgstr "bonduri"
+
+msgid "introduction/currency/modernized"
+msgstr "componente"
+
+msgid "introduction/message/deluxe"
+msgstr "Acest tip de echipament este disponibil contra %(currencyName)s (%(currencyIcon)s). Poate fi obținut și drept recompensă pentru anumite realizări în joc și pe perioada evenimentelor speciale din joc."
+
+msgid "introduction/message/modernized"
+msgstr "Un tip specializat de echipament cu trei niveluri de îmbunătățire care este acordat pentru finalizarea de misiuni și pe perioada anumitor evenimente în joc. Acest echipament nu poate fi distrus sau vândut, dar poate fi dezasamblat pentru a obține componente speciale: %(currencyName)s (%(currencyIcon)s). Componentele obținute pot fi utilizate pentru a îmbunătăți orice echipament experimental."
+
+msgid "introduction/message/trophy"
+msgstr "Un tip special de echipament care are, la obținere, parametrii echipamentului standard dar poate fi îmbunătățit contra credite. Nu poți cumpăra echipament recompensă cu moneda de joc, dar îl poți primi ca recompensă pe parcursul anumitor evenimente din joc."
+
+msgid "introduction/showButton"
+msgstr "Arată echipament"
+
+msgid "introduction/slide/1/description"
+msgstr "A fost adăugat un nou echipament. În plus, %(repairBox)s, %(wetAmmo)s, %(CO2Cistern)s și %(cycloneFilter)s au fost combinate în echipamentul %(changedConfiguration)s. Echivalentele %(forcedChassis)s au fost înlocuite cu %(forcedMetal)s. Toate vechile bonusuri rămân și altele noi au fost adăugate."
+
+msgid "introduction/slide/1/title"
+msgstr "ECHIPAMENT NOU"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr "—Putere de foc"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr "—Mobilitate"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr "—Cercetare"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr "—Supraviețuire"
+
+msgid "introduction/slide/2/description"
+msgstr "Dacă echipamentul este montat într-un locaș al categoriei sale, va fi mai eficient. Altfel va conferi doar un bonus standard."
+
+msgid "introduction/slide/2/subtitle"
+msgstr "POTRIVIRE CATEGORIE"
+
+msgid "introduction/slide/2/title"
+msgstr "CATEGORII ECHIPAMENT"
+
+msgid "introduction/slide/3/description/left"
+msgstr "Costul majorității echipamentelor nu va trece de 50.000 pentru vehicule de generația II-IV, 300.000 pentru vehiculele de generația V-VII și 600.000 pentru vehiculele de generația VIII-XI."
+
+msgid "introduction/slide/3/description/right"
+msgstr "Unele dintre noile piese de echipament au trei clase. Chiar dacă este diferită clasa, echipamentul conferă același efect. Cu cât este mai mare clasa, crește costul echipamentului. Fiecare clasă de echipament corespunde propriei secvențe de generații de vehicule."
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "SCHIMBĂRI LA ECHIPAMENTE"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "ECHIPAMENT NOU"
+
+msgid "introduction/slide/3/title"
+msgstr "COST ECHIPAMENT"
+
+msgid "introduction/slide/4/description"
+msgstr "Pentru vehiculele de generația I nu sunt disponibile echipamente. Pe vehiculele de generația II se pot monta doar o piesă de echipament, două pe vehiculele de generația III și trei pe vehiculele de generația IV-XI. Echipamentul montat în locașurile eliminate a fost demontat și trimis în Depozit."
+
+msgid "introduction/slide/4/title"
+msgstr "LOCAȘURI DE ECHIPAMENT"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "Umple rezervoarele cu CO2"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "Configurație modificată"
+
+msgid "introduction/slide/confirm"
+msgstr "De acord!"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "Filtru ciclon"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "Suspensie îmbunătățită"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "Consolidare îmbunătățită"
+
+msgid "introduction/slide/repairBox"
+msgstr "Trusă de scule"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "Compartiment muniție imersat"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "Echipament îmbunătățit"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "Echipament experimental"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "Echipament recompensă"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "Nu deții echipament experimental potrivit"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "Nu deții echipament recompensă potrivit"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "la timpul scurs până la identificarea de către comandant a descoperirii vehiculului de către inamic"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "la durata adițională a șocului dacă vehiculul este deja în șoc"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "la camuflarea vehiculelor inamice acoperite de frunziș (în mișcare și staționare)"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "la viteza tuturor tipurilor de proiectile"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "la penalizarea vitezei de încărcare atunci când modulele sunt avariate"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "la pierderea de putere a motorului când modulele sunt avariate"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "la camuflarea unui vehicul staționar sau în mișcare"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "la creșterea camuflajului, indiferent dacă vehiculul e staționar sau în mișcare (eficiența depinde de tipul vehiculului)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "la daunele la carenă provocate de avariile la suspensie la impact"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "la raza vizuală (până la 445 m): creșterea parametrului peste 445 m permite observarea mai eficientă a inamicilor."
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "la daunele suferite prin coliziune"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "la dispersia la mișcare și rotire a unui vehicul, precum și la rotirea tunului și după foc"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "la daunele absorbite de blindaj ale proiectilelor HE"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "la durata cât vehiculul tău este vizibil"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "la păstrarea vitezei\nla deplasarea pe orice tip de teren"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "la camuflarea unui vehicul staționar la 3 s după oprire"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "la camuflajul unui vehicul staționar la\n1.5 s după oprire"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "la creșterea camuflajului unui vehicul staționar la 3 s după oprire (eficiența depinde de tipul vehiculului)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "la creșterea camuflajului unui vehicul staționar la 1.5 s după oprire (eficiența depinde de tipul vehiculului)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "la raza vizuală a unui vehicul staționar la 3 s după oprire (până la 445 m): creșterea parametrului peste 445 m permite observarea mai eficientă a inamicilor."
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "la raza vizuală a unui vehicul staționar la 1.5 s după oprire (până la 445 m): creșterea parametrului peste 445 m permite observarea mai eficientă a inamicilor."
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "la punctele de integritate ale vehiculului (rotunjite în sus)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "la viteza de rotație a turelei sau a tunului pentru vehicule cu cabine fixe"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "la timpul scurs până la identificarea de către comandant a descoperirii vehiculului de către inamic"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "la durata adițională a șocului dacă vehiculul este deja în șoc"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "la camuflajul vehiculelor inamice staționare sau în mișcare în spatele frunzișului"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "la viteza tuturor tipurilor de proiectile"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "la penalizarea vitezei de încărcare atunci când modulele sunt avariate"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "la pierderea de putere a motorului când modulele sunt avariate"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "la camuflarea unui vehicul staționar sau în mișcare"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "la creșterea camuflajului, indiferent dacă vehiculul e staționar sau în mișcare (eficiența depinde de tipul vehiculului)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "la daunele la carenă provocate de avariile la suspensie la impact"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "la raza vizuală (până la 445 m). Creșterea parametrului peste 445 m permite observarea mai eficientă a inamicilor."
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "la daunele suferite prin coliziune"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "la dispersia la mișcare și rotire a unui vehicul, precum și la rotirea tunului și după foc"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "la daunele absorbite de blindaj ale proiectilelor HE"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "la durata cât vehiculul tău este vizibil"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "la păstrarea vitezei\nla deplasarea pe orice tip de teren"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "la camuflarea unui vehicul staționar la 3 s după oprire"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "la camuflajul unui vehicul staționar la\n1.5 s după oprire"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "la camuflajul unui vehicul staționar la 3 s după oprire (eficiența depinde de tipul vehiculului)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "la camuflajul unui vehicul staționar la 1.5 s după oprire (eficiența depinde de tipul vehiculului)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "la raza vizuală a unui vehicul staționar la 3 s după oprire (până la 445 m). Creșterea parametrului peste 445 m permite observarea mai eficientă a inamicilor."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "la raza vizuală a unui vehicul staționar la 1.5 s după oprire (până la 445 m). Creșterea parametrului peste 445 m permite observarea mai eficientă a inamicilor."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "la punctele de integritate ale vehiculului (rotunjite în sus)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "la viteza de rotație a turelei sau a tunului pentru vehicule cu cabine fixe"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "întârziere până la activarea\nDetecției sonore"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "la întârzierea notificării de vehicul propriu descoperit"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "la viteza de răcire a tunului"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "la protecția echipajului împotriva rănilor"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "la bonusul de eficiență a echipajului"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "la durata adițională a șocului"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "la durata șocului"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "la daunele potențiale minime\nși valoarea penetrării"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "la daunele potențiale maxime\nși valoarea penetrării"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "la daunele provocate prin coliziune"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "întârziere înainte de afișarea daunelor critice\nîn reticulul vehiculului"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "la camuflarea vehiculelor inamice acoperite de frunziș"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "la camuflarea vehiculelor inamice în mișcare"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "la șansa de avariere a modulelor vehiculului\nși rănire a membrilor de echipaj inamici"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "la timpul de resetare al consumabilelor"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "la viteza stingerii incendiului"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "la camuflajul de după frunziș"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "la HP refăcut de setul de piese de schimb"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "la menținerea vitezei\npe teren moderat-moale"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "la penalizarea razei vizuale când aparatura\nde observare e dezactivată"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "la penetrarea potențială maximă"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "la perioada de transmitere\na pozițiilor inamicilor\ndupă distrugere"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "la protecția transmisionistului\nîmpotriva rănilor"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "la viteza proiectilelor"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "la menținerea vitezei\npe teren moale"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "la efectele negative\nale șocului echipajului"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "la daunele suferite de suspensie"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "la viteza de reparație a suspensiei"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "la penalizarea vitezei de încărcare"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "la penalizarea motorului avariat"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "la viteza de rotație a carenei"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "la durabilitatea modulelor interne"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "la durabilitatea compartimentului de muniție"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "la viteza maximă"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "la camuflare"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "la creșterea camuflării"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "la daunele prin impact"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "la viteza de reparație a suspensiei"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "la rezistența suspensiei"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "la raza vizuală"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "la durata vizibilității\ninamicilor față de tine"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "la puterea motorului"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "la daunele prin impact"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "la șansa de incendiu la motor"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "la viteza maximă de înaintare"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "la șansa de daune critice\nsuferite de rezervor"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "la viteza de țintire"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "la viteza de reîncărcare"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "la dispersia la mișcarea și rotirea vehiculului"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "la mărimea cercului colimatorului după foc"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "la dispersia în mișcare"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "la dispersia în timpul rotirii carenei"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "la dispersia în timpul rotirii tunului"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "la dispersia unui tun avariat"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "la mărimea cercului colimatorului"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "la daunele cu proiectile HE"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "la camuflajul după foc"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "la durata cât vehiculul tău este vizibil"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "la daunele suferite prin coliziune\nde către suspensie"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "la daunele suferite prin coliziune"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "la viteza de schimbare a tipurilor de proiectile\ndintr-un tun încărcat"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "la viteza reparațiilor"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "la menținerea vitezei la traversarea tuturor tipurilor de teren"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "la camuflarea unui vehicul staționar"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "la camuflajul unui vehicul staționar"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "la creșterea camuflării unui vehicul staționar"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "la creșterea camuflării unui vehicul staționar"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "la raza vizuală a unui vehicul staționar"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "la raza vizuală a unui vehicul staționar"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "la punctele de integritate ale vehiculului"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "la viteza de rotație a turelei sau a tunului pentru vehicule cu cabine fixe"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "la viteza de rotație a turelei"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "la viteza de rotire a roților"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "la penalizarea la rănirea unui\nmembru de echipaj, exceptând comandantul"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "întârziere până la activarea\nDetecției sonore"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "întârziere înainte de afișarea daunelor critice\nîn reticulul vehiculului"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "durata de vizibilitate a inamicilor\ndupă distrugerea vehiculului"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "la daunele cu proiectile HE"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "la penetrarea cu proiectile HE"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "la viteza proiectilelor HE"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "la capacitatea muniției"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "la daunele tuturor proiectilelor"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "la viteza tuturor tipurilor de proiectile"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "întârziere până la activarea\nDetecției sonore"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "la daunele proiectilelor standard"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "la întârzierea notificării de vehicul propriu descoperit"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "la viteza de răcire a tunului"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "la protecția echipajului împotriva rănilor"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "la bonusul de eficiență a echipajului"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "la durata adițională a șocului"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "la durata șocului"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "la daunele potențiale minime și valoarea penetrării"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "la daunele potențiale maxime\nși valoarea penetrării"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "la daunele provocate prin coliziune"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "întârziere înainte de afișarea daunelor critice\nîn reticulul vehiculului"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "la camuflarea vehiculelor inamice acoperite de frunziș"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "la camuflarea vehiculelor inamice în mișcare"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "la șansa de avariere a modulelor vehiculului\nși rănire a membrilor de echipaj inamici"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "la HP-ul motorului"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "la timpul de resetare al consumabilelor"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "la viteza stingerii incendiului"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "la camuflajul de după frunziș"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "La HP-ul rezervorului de combustibil"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "la declinația tunului"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "la unghiul de ridicare al tunului"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "la stabilizarea tunului"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "la limitele de rotație ale tunului"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "la HP refăcut de setul de piese de schimb"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "la viteza de ridicare a tunului"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "la menținerea vitezei\npe teren moderat-moale"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "la daunele proiectilelor non-HE"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "la penalizarea razei vizuale când aparatura\nde observare e dezactivată"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "la penetrarea potențială maximă"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "la perioada de transmitere\na pozițiilor inamicilor\ndupă distrugere"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "la protecția transmisionistului\nîmpotriva rănilor"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "la durata reîncărcării în casetă"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "la timpul de reîncărcare (modul de Foc în salvă)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "la timpul de reîncărcare (modul foc cu foc)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "la daunele proiectilelor asupra modulelor inamice"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "la viteza proiectilelor"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "la menținerea vitezei\npe teren moale"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "la daunele proiectilelor speciale"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "la penetrarea proiectilelor speciale"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "la viteza proiectilelor speciale"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "la daunele proiectilelor standard "
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "la penetrarea proiectilelor standard"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "la viteza proiectilelor standard"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "la efectele negative ale șocului echipajului"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "la daunele suferite de suspensie"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "la viteza de reparație a suspensiei"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "la limitele de rotație a turelei"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "la penalizarea vitezei de încărcare"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "la penalizarea motorului avariat"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "la viteza de rotație a carenei"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "la durabilitatea modulelor interne"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "la rezistența compartimentului de muniție"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "la viteza maximă"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "la camuflare"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "la creșterea camuflării"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "la daunele prin coliziune"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "la viteza de reparație a suspensiei"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "la rezistența suspensiei"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "la raza vizuală (până la 445 m)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "la durata vizibilității\ninamicilor față de tine"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "la puterea motorului"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "la daunele prin impact"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "la șansa de incendiu la motor"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "la viteza maximă de înaintare"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "la șansa de daune critice\nsuferite de rezervor"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "la viteza de țintire"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "la viteza de reîncărcare"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "la dispersia la mișcarea și rotirea vehiculului"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "la mărimea cercului colimatorului după foc"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "la dispersia în mișcare"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "la dispersia în timpul rotirii carenei"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "la dispersia în timpul rotirii tunului"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "la dispersia unui tun avariat"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "la mărimea cercului colimatorului"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "la daunele cu proiectile HE"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "la camuflajul după foc"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "la durata cât vehiculul tău este vizibil"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "la daunele suferite prin coliziune\nde către suspensie"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "la daunele suferite prin coliziune"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "la viteza de schimbare a tipurilor de proiectile\ndintr-un tun încărcat"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "la viteza reparațiilor"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "la viteza maximă de înaintare/marșarier"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "la menținerea vitezei la traversarea tuturor tipurilor de teren"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "la camuflarea unui vehicul staționar"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "la camuflajul unui vehicul staționar"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "la creșterea camuflării unui vehicul staționar"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "la creșterea camuflării unui vehicul staționar"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "la raza vizuală a unui vehicul staționar (până la 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "la raza vizuală a unui vehicul staționar (până la 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "la punctele de integritate ale vehiculului"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "la viteza de rotație a turelei sau a tunului pentru vehicule cu cabine fixe"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "la viteza de rotație a turelei"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "la viteza de rotire a roților"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "la penalizarea la rănirea unui membru\nde echipaj, exceptând comandantul"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "la întârzierea notificării de vehicul propriu descoperit"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "la protecția echipajului\nîmpotriva rănilor"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "la bonusul de eficiență a echipajului"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "la durata adițională a șocului"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "la durata șocului"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "la daunele provocate prin coliziune"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "întârziere înainte de afișarea daunelor critice\nîn reticulul vehiculului"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "la camuflarea vehiculelor inamice\nacoperite de frunziș"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "la camuflarea vehiculelor inamice\nîn mișcare"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "la HP refăcut de setul de piese de schimb"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "la viteza de reîncărcare a casetei"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "la penetrarea potențială maximă"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "la protecția transmisionistului împotriva rănilor"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "la viteza tuturor tipurilor de proiectile"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "la dispersia tunului"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "la viteza de reparație a suspensiei"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "la dispersia în timpul rotirii tunului"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "la penalizarea vitezei de încărcare"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "la pierderea de putere a motorului\navariat"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "la viteza de rotație a vehiculului"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "la durabilitatea modulelor interne"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "la durabilitatea compartimentului de muniție"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "la viteza maximă"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "la camuflare"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "la daunele prin impact"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "la viteza de reparație a suspensiei"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "la rezistența suspensiei"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "la raza vizuală"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "la durata vizibilității\ninamicilor față de tine"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "la puterea motorului"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "la daunele prin impact"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "la șansa de incendiu la motor"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "la viteza maximă de înaintare"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "la viteza de țintire"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "la viteza de reîncărcare"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "la dispersia la mișcarea și rotirea vehiculului"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "la mărimea cercului colimatorului\ndupă foc"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "la dispersia în mișcare"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "la dispersia în timpul rotirii carenei"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "la dispersia din timpul\nrotației tunului "
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "la dispersia unui tun avariat"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "la mărimea cercului colimatorului"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "la daunele cu proiectile HE"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "la camuflajul după foc"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "la durata cât vehiculul tău este vizibil"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "la daunele suferite prin coliziune"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "la viteza de schimbare\na tipurilor de proiectile."
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "la viteza reparațiilor"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "la menținerea vitezei"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "la camuflarea unui vehicul\nstaționar"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "la camuflarea unui vehicul\nstaționar"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "la raza vizuală"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "la raza vizuală"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "la punctele de integritate ale vehiculului"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "la viteza de rotație a tunului"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "la viteza de rotație a turelei"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "la penalizarea la rănirea unui membru \nde echipaj, exceptând comandantul"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "la întârzierea notificării de vehicul propriu descoperit"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "la protecția echipajului\nîmpotriva rănilor"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "la bonusul de eficiență a echipajului"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "la bonusul de eficiență a echipajului"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "la durata adițională a șocului"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "la durata șocului"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "la daunele potențiale minime\nși valoarea penetrării"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "la daunele provocate prin coliziune"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "la camuflarea vehiculelor inamice\nacoperite de frunziș"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "la camuflarea vehiculelor inamice\nîn mișcare"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "la șansa de avariere a modulelor vehiculului și rănire a\nmembrilor de echipaj"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "la viteza stingerii incendiului"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "la HP refăcut de setul de piese de schimb"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "la viteza de reîncărcare a casetei"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "la camuflajul vehiculului"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "la menținerea vitezei\npe teren moderat-moale"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "la penetrarea potențială maximă"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "la raza de semnal radio"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "la protecția transmisionistului împotriva rănilor"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "la viteza tuturor tipurilor de proiectile"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "la menținerea vitezei\npe teren moale"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "la viteza de reparație a suspensiei"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "la raza radio a comunicațiilor aliate din raza radio a vehiculului"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "la penalizarea vitezei de încărcare"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "la pierderea de putere a motorului\navariat"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "la viteza de rotație a vehiculului"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "la durabilitatea modulelor interne"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "la rezistența compartimentului de muniție"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "la viteza maximă"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "la camuflare"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "la daunele prin coliziune"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "la viteza de reparație a suspensiei"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "la rezistența suspensiei"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "la raza vizuală\n(până la 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "la durata vizibilității\ninamicilor față de tine"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "la puterea motorului"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "la daunele prin impact"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "la șansa de incendiu la motor"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "la viteza maximă de înaintare"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "la viteza de țintire"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "la viteza de reîncărcare"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "la dispersia la mișcarea\nși rotirea vehiculului"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "la mărimea cercului colimatorului\ndupă foc"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "la dispersia în mișcare"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "la dispersia în timpul rotirii carenei"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "la dispersia din timpul\nrotației tunului"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "la dispersia unui tun avariat"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "la mărimea cercului colimatorului"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "la daunele cu proiectile HE"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "la camuflajul după foc"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "la durata cât vehiculul tău este vizibil"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "la daunele suferite prin coliziune"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "la viteza de schimbare\na tipurilor de proiectile."
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "la viteza reparațiilor"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "la menținerea vitezei"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "la camuflarea unui vehicul staționar"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "la camuflajul unui vehicul staționar"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "la raza vizuală a unui vehicul staționar\n(până la 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "la raza vizuală a unui vehicul staționar\n(până la 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "la punctele de integritate ale vehiculului"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "la viteza de rotație a tunului"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "la viteza de rotație a turelei"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "la Experiența de echipaj câștigată în luptă"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "s"
+
+msgid "popularLoadouts/common"
+msgstr "Popular"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "Utilizare comună"
+
+msgid "popularLoadouts/legendary"
+msgstr "Legendar"
+
+msgid "popularLoadouts/noData"
+msgstr "Lipsă date"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "Lipsă date"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)sPopular.%(whiteSpanish_Close)s Bazat pe tendințele actuale de echipament ale jucătorilor World of Tanks"
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "Colecționarea de date"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "Dacă sezonul actual Violență nu este încă disponibil, se utilizează datele sezonului anterior"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "Asistentul este disponibil pentru %(whiteSpanish_Open)slupte standard%(whiteSpanish_Close)s și %(whiteSpanish_Open)sViolență%(whiteSpanish_Close)s"
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "Sunt agregate datele pentru toate tipurile de echipament"
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "Beneficiu al WoT Plus"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "Obține date precise legate de echipament, colectate din milioane de lupte și eficientizează-ți la maxim luptele."
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "Asistentul pentru echipament"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendar.%(whiteSpanish_Close)s Bazat pe echipamentul preferat la moment de jucătorii din nivelul WTR „Legendă”"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "Tipuri de configurații"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "Configurațiile propuse se bazează pe cele populare ale vehiculelor cu stil de joc similar"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "Sunt afișate datele vehiculului de mai jos, cu stil de joc similar:"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "Datele configurației nu sunt disponibile"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "Vehiculul selectat este indisponibil pentru acest mod de joc"
+
+msgid "section/battleAbilities"
+msgstr "REZERVE DE LUPTĂ"
+
+msgid "section/battleBoosters"
+msgstr "DIRECTIVE"
+
+msgid "section/consumables"
+msgstr "CONSUMABILE"
+
+msgid "section/modules"
+msgstr "COMPONENTE"
+
+msgid "section/optDevices"
+msgstr "ECHIPAMENTE"
+
+msgid "section/shells"
+msgstr "MUNIȚIE"
+
+msgid "section/toggleCamouflage"
+msgstr "CAMUFLAJ"
+
+msgid "section/toggleShells"
+msgstr "MUNIȚIE"
+
+msgid "shells/ammunitionFull"
+msgstr "Muniție completă"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "Muniție incompletă"
+
+msgid "shells/autoFillOff"
+msgstr "Realimentare automată dezactivată"
+
+msgid "shells/autofillOn"
+msgstr "Realimentare automată activată"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "În Depozit:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "În compartimentul de muniție:"
+
+msgid "shells/shortSpecification/price"
+msgstr "Achiziție:"
+
+msgid "shells/specification/inStorage"
+msgstr "În Depozit"
+
+msgid "shells/specification/inVehicle"
+msgstr "În compartimentul de muniție"
+
+msgid "shells/specification/price"
+msgstr "Cumpără"
+
+msgid "shells/title"
+msgstr "Muniţie"
+
+msgid "shells/type/base"
+msgstr "STANDARD (AP)"
+
+msgid "shells/type/special"
+msgstr "SPECIAL (HE)"
+
+msgid "shells/type/tactical"
+msgstr "TACTIC (APCR)"
+
+msgid "tabs/crew"
+msgstr "Pentru echipaj"
+
+msgid "tabs/deluxe"
+msgstr "Îmbunătăţit"
+
+msgid "tabs/modernized"
+msgstr "Experimental"
+
+msgid "tabs/optDevice"
+msgstr "Pentru echipament"
+
+msgid "tabs/simple"
+msgstr "Standard"
+
+msgid "tabs/trophy"
+msgstr "Recompensă"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "Directiva va fi realimentată automat după ce vehiculul iese din luptă. Va fi luată fie din Depozit (dacă ai un stoc cu această directivă) sau achiziționată cu monedă de joc."
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "Consumabilele vor fi realimentate automat, dacă e necesar, după ce vehiculul iese din luptă."
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "Reparaţiile se vor face automat, dacă e necesar, după ce vehiculul iese din luptă."
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "Muniţia va fi automat realimentată, dacă e necesar, după ce vehiculul iese din luptă."
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "Realimentare automată"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "Reparaţii automate"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "Se vor dezasambla din Depozit: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "Se vor dezasambla de pe vehicule: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr ", "
+
+msgid "tooltips/action/description/add_one"
+msgstr "Fă clic pentru a achiziționa obiecte adiționale pentru acest locaș."
+
+msgid "tooltips/action/description/demount"
+msgstr "Fă clic pentru a demonta echipamentul din acest locaș."
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "Fă clic pentru a demonta echipamentul din acest locaș."
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "Fă clic pentru a demonta echipamentul din toate configurațiile."
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "Clic pentru a demonta gratuit echipament din acest locaș cu abonamentul activ WoT Plus."
+
+msgid "tooltips/action/description/destroy"
+msgstr "Clic pentru a distruge echipamentul din acest locaș, sau, dacă ai un abonament WoT Plus activ, a-l demonta gratuit."
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "Clic pentru a dezasambla echipamentul în componente."
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "Fă clic pentru a distruge echipamentul din acest locaș."
+
+msgid "tooltips/action/description/swap"
+msgstr "Fă clic pentru a schimba obiectele între locașe."
+
+msgid "tooltips/action/description/upgrade"
+msgstr "Îmbunătățirea echipamentului îi crește caracteristicile."
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "Îmbunătățirea echipamentului îi crește caracteristicile."
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "Îmbunătățirea echipamentului îi crește caracteristicile."
+
+msgid "tooltips/action/title/add_one"
+msgstr "Cumpără"
+
+msgid "tooltips/action/title/cancel"
+msgstr "Trimite în Depozit"
+
+msgid "tooltips/action/title/demount"
+msgstr "Demontare"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "Demontare"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "Demontează de pe toate configurațiile"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "Demontează gratuit"
+
+msgid "tooltips/action/title/destroy"
+msgstr "Distruge"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "Dezasamblează"
+
+msgid "tooltips/action/title/swap"
+msgstr "Schimbă ordinea"
+
+msgid "tooltips/action/title/undo"
+msgstr "Elimină din locaș"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "Îmbunătățește"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "Modernizează"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "Modernizează"
+
+msgid "tooltips/additional"
+msgstr "Informații adiționale."
+
+msgid "tooltips/categories/list"
+msgstr "Clic pentru a vedea lista componentelor."
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "Această categorie de locaș poate fi realocată în meniul Modificărilor de teren sau în ecranul de selectare a echipamentului."
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "Categorie realocabilă"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "Clic pentru a realoca categoria locașului."
+
+msgid "tooltips/equipmentList"
+msgstr "Clic pentru a vedea lista echipamentelor disponibile."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "Nu pot dezasambla echipamentul experimental în componente: Nu deții echipament de acest tip."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "Clic pentru a continua cu dezasamblarea echipamentului în componente."
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "Când este montat, acest echipament conferă un bonus standard, deoarece doar anti-tancurile și artileriile au categoria Putere de foc, iar acest echipament nu este montat într-un local din categoria Putere de foc."
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "Vehiculul tău primește bonusuri sporite datorită caracteristicilor sale."
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "Pentru a spori bonusul la caracteristicile sale, montează acest echipament într-un locaș din categoriile următoare: %(category)s."
+
+msgid "tooltips/howToIncrease/single"
+msgstr "Pentru a spori bonusul la caracteristicile sale, montează acest echipament într-un locaș din categoria următoare: %(category)s."
+
+msgid "tooltips/placeEquipment"
+msgstr "Locaș pentru echipament"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "Poți activa/dezactiva opțiunea de a alege seturi de proiectile și consumabile în perioada numărătorii inverse din interfața Modificărilor de teren."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "Poți activa/dezactiva opțiunea de a alege seturi de echipament și directive în perioada numărătorii inverse din interfața Modificărilor de teren."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "Poți activa/dezactiva opțiunea de a alege seturi de proiectile și consumabile în perioada numărătorii inverse din interfața Modificărilor de teren."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "Poți activa/dezactiva opțiunea de a alege seturi de proiectile și consumabile în perioada numărătorii inverse din interfața îmbunătățirilor."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "Poți activa/dezactiva opțiunea de a alege seturi de echipament și directive în perioada numărătorii inverse din interfața Modificărilor de teren."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "Poți activa/dezactiva opțiunea de a alege seturi de echipament și directive în perioada numărătorii inverse din interfața îmbunătățirilor."
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "Schimbarea între seturi dezactivată"
+
+msgid "tooltips/separator/last"
+msgstr " și "
+
+msgid "tooltips/separator/other"
+msgstr ", "
+
+msgid "tooltips/specializationDesc"
+msgstr "Echipamentul standard din categoria %(spec)s va fi mai eficient dacă este montat în acest locaș. Echipamentul din alte categorii va conferi doar un bonus standard."
+
+msgid "tooltips/specializationName"
+msgstr "Categorie:"
+
+msgid "tooltips/specializationType"
+msgstr "Putere de foc"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "Un tip valoros de echipament care are caracteristici mai bune decât alte tipuri de echipament."
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "Echipament special cu trei niveluri de îmbunătățiri."
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "Echipamentul îmbunătățește caracteristicile vehiculului tău."
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "Un tip de echipament care are parametrii echipamentului standard, dar poate fi îmbunătățit."
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "Echipament îmbunătățit"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "Echipament experimental"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "Echipament standard"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "Echipament recompensă"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "Acest tip de echipament este disponibil contra %(whiteSpanish_Open)sbonduri%(whiteSpanish_Close)s. Poate fi obținut și drept recompensă pentru anumite realizări în joc și pe perioada evenimentelor speciale din joc."
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "Acest tip de echipament poate fi obținut ca recompensă în anumite evenimente din joc."
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "Acest tip de echipament este disponibil pentru cumpărare contra monedă în joc. Mai poate fi obținut drept recompensă pentru anumite realizări în joc și pe perioada evenimentelor speciale din joc. Caracteristicile standard ale echipamentului pot fi îmbunătățite prin amplasarea acestuia în locașul corespunzător."
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "Acest tip de echipament poate fi obținut ca recompensă în anumite evenimente din joc."
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "Metodă de obţinere"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "Metodă de obţinere"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "Locașurile echipamentului"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "Echipamentul recompensă nu poate fi cumpărat"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "Poți îmbunătăți caracteristicile echipamentului experimental utilizând %(whiteSpanish_Open)scomponente%(whiteSpanish_Close)s care pot fi obținute dezasamblând acest tip de echipament."
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "Poți îmbunătăți caracteristicile echipamentului recompensă folosind monedă din joc."
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "Îmbunătățirea echipamentului experimental"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "Îmbunătățirea echipamentului recompensă"

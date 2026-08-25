@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Powrót do skarbów"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "Ognisty skarb"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "OGNISTY SKARB"
+
+msgid "common/getButton/lowerCase"
+msgstr "Zdobądź skarby"
+
+msgid "common/getButton/upperCase"
+msgstr "ZDOBĄDŹ SKARBY"
+
+msgid "common/loader"
+msgstr "Otwieranie ognistego skarbu…"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Otwórz skarby, aby zobaczyć statystyki."
+
+msgid "common/statistics/header"
+msgstr "Otwarte ogniste skarby: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Wszystkie informacje dotyczące otwartych ognistych skarbów zostaną usunięte."
+
+msgid "entryPoint/boxes"
+msgstr "DO SKARBÓW"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Są to specjalne pudełka zawierające nowe i unikalne przedmioty, w tym pojazdy premium, style 2D i inne. Można je zdobyć w Sklepie w grze."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Ze względów technicznych w tej chwili nie można otwierać ani kupować ognistych skarbów. Przepraszamy za chwilowe trudności."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Ogniste skarby są chwilowo niedostępne"
+
+msgid "eventName/lowerCase"
+msgstr "Księżycowy łup"
+
+msgid "eventName/upperCase"
+msgstr "KSIĘŻYCOWY ŁUP"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Nagroda gwarantowana w następnym skarbie!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maksymalna liczba ognistych skarbów przed gwarantowaną nagrodą: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Jeśli nie otworzysz ognistych skarbów przed końcem wydarzenia, zostaną otwarte automatycznie."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Jeśli masz już wszystkie pojazdy z listy możliwej zawartości ognistych skarbów, to za wszystkie kolejne pojazdy otrzymane z ognistych skarbów otrzymasz rekompensatę w złocie w wysokości ich pełnej wartości."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Każde %(guaranteed0)s ognistych skarbów na pewno zawiera pojazd poziomu VIII–IX. Jeśli otworzysz je, a pojazd się nie pojawi, to pojazd poziomu VIII–IX, którego jeszcze nie masz, pojawi się przy otwarciu %(guaranteed0)s.&zwnbsp;ognistego skarbu. Wtedy licznik zostanie zresetowany."
+
+msgid "infoPage/header/description"
+msgstr "Otwieraj ogniste skarby, aby mieć szansę na cenne przedmioty w grze! Więcej szczegółów poniżej."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Z %(name) (%(boxesCount) ognistych skarbów otwartych)"
+
+msgid "noBoxesView/description/"
+msgstr "Nie masz żadnych ognistych skarbów.\nMożesz je zdobyć w Sklepie w grze."
+
+msgid "preview/backLabel"
+msgstr "DO SKARBÓW"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Dostępne skarby: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Brak dostępnych skarbów"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Jeśli masz już wszystkie pojazdy z listy możliwej zawartości ognistych skarbów, to za wszystkie kolejne pojazdy pochodzące z ognistych skarbów otrzymasz rekompensatę w złocie."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) ognisty skarb"
+msgstr[1] "%(remainingCount) ognistych skarbów"
+msgstr[2] "%(remainingCount) ognistych skarbów"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Gwarantowana nagroda to pojazd z listy możliwej zawartości ognistych skarbów.\nJeśli otworzysz %(remainingCount) bez wylosowania takiego pojazdu, to wylosujesz pojazd, gdy otworzysz %(count). ognisty skarb. Kiedy to nastąpi, licznik zostanie wyzerowany."

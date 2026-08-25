@@ -1,0 +1,1712 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "profile/dropdown/battlesType"
+msgstr "Moduri de luptă:"
+
+msgid "profile/dropdown/existence"
+msgstr "Disponibile:"
+
+msgid "profile/dropdown/labels/all"
+msgstr "Lupte standard, Lupte pe companii"
+
+msgid "profile/dropdown/labels/battleRoyaleSolo"
+msgstr "Vânătorul de oţel, solo"
+
+msgid "profile/dropdown/labels/battleRoyaleSquad"
+msgstr "Vânătorul de oţel, pluton"
+
+msgid "profile/dropdown/labels/clan"
+msgstr "Harta globală"
+
+msgid "profile/dropdown/labels/comp7"
+msgstr "Violență"
+
+msgid "profile/dropdown/labels/comp7_archive_Griffin"
+msgstr "Anul Grifonului"
+
+msgid "profile/dropdown/labels/comp7_archive_Manticore"
+msgstr "Anul Manticorei"
+
+msgid "profile/dropdown/labels/comp7_archive_Pegasus"
+msgstr "Anul Pegasului"
+
+msgid "profile/dropdown/labels/comp7_season_1"
+msgstr "Sezonul Dragonului de Azur"
+
+msgid "profile/dropdown/labels/comp7_season_2"
+msgstr "Sezonul Dragonului Purpuriu"
+
+msgid "profile/dropdown/labels/comp7_season_3"
+msgstr "Sezonul Dragonului de Jad"
+
+msgid "profile/dropdown/labels/epicRandom"
+msgstr "Luptă Epică"
+
+msgid "profile/dropdown/labels/fallout"
+msgstr "Exterminare"
+
+msgid "profile/dropdown/labels/fortifications"
+msgstr "Ofensivă"
+
+msgid "profile/dropdown/labels/fortifications/battles"
+msgstr "Ofensivă"
+
+msgid "profile/dropdown/labels/fortifications/sorties"
+msgstr "Raiduri"
+
+msgid "profile/dropdown/labels/historical"
+msgstr "Luptă istorică"
+
+msgid "profile/dropdown/labels/random"
+msgstr "Luptă standard"
+
+msgid "profile/dropdown/labels/ranked"
+msgstr "Luptă de clasament 15v15"
+
+msgid "profile/dropdown/labels/ranked_10x10"
+msgstr "Luptă de clasament"
+
+msgid "profile/dropdown/labels/staticTeam"
+msgstr "Echipă: lupte de clasament"
+
+msgid "profile/dropdown/labels/staticTeam/season"
+msgstr "Echipă: lupte de clasament"
+
+msgid "profile/dropdown/labels/team"
+msgstr "Echipă: lupte fără clasament"
+
+msgid "profile/params/tooltip/achievementsCount/body"
+msgstr "Distincţii primite în categoria \"Câmp de luptă\""
+
+msgid "profile/params/tooltip/achievementsCount/header"
+msgstr "Distincţii"
+
+msgid "profile/params/tooltip/armorUsing/body"
+msgstr "Raportul dintre distrugerea blocată de blindaj prin ricoşeuri şi lovituri fără penetrare cu proiectile AP, HEAT şi APCR şi distrugerea primită de la aceste tipuri de proiectile. Daunele potențiale ale proiectilelor HE și HESH nu se iau în considerare.\n• Distrugerea medie blocată de blindaj pentru aceste tipuri de proiectile: %(value_0)s"
+
+msgid "profile/params/tooltip/armorUsing/header"
+msgstr "Eficienţa utilizării blindajului"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/body"
+msgstr "Daunele totale provocate vehiculelor inamice aflate în stare de șoc"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/header"
+msgstr "Daune la vehiculele inamice afectate de șocul provocat de jucător"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/body"
+msgstr "Daunele totale provocate vehiculelor inamice aflate în stare de șoc"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/header"
+msgstr "Daune la vehiculele inamice afectate de șocul provocat de tine"
+
+msgid "profile/params/tooltip/avgAssistedDamage/body"
+msgstr "Incluzând\n• Daune în urma descoperiri de către tine;\n• Daune în urma distrugerii de către tine unei şenile și a imobilizării vehiculului inamic."
+
+msgid "profile/params/tooltip/avgAssistedDamage/header"
+msgstr "Distrugere medie produsă cu ajutorul tău"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/body"
+msgstr "Incluzând\n• Daune în urma descoperirii de către jucător;\n• Daune în urma distrugerii de către tine unei şenile și a imobilizării vehiculului inamic."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/header"
+msgstr "Daune provocate cu ajutorul jucătorului"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/body"
+msgstr "Incluzând\n• Daune în urma descoperiri de către tine;\n• Daune în urma distrugerii de către tine unei şenile și a imobilizării vehiculului inamic."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/body"
+msgstr "Include:\n• Daunele în urma descoperirii de către tine (include daunele cu ajutorul abilităților)\n• Daunele în urma distrugerii de către tine a unei șenile și a imobilizării unui vehicul inamic (inclusiv daunele prin abilități)\n• Daunele provocate de aliați cu ajutorul abilităților tale."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/header"
+msgstr "Daune provocate cu ajutorul tău"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/header"
+msgstr "Daune provocate cu ajutorul tău"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/body"
+msgstr "Rația dintre daunele totale provocate unui inamic aflat sub șoc (incluzând șocul via abilități) și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/header"
+msgstr "Daune la vehiculele inamice afectate de șocul provocat de jucător"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/body"
+msgstr "Rația dintre daunele totale provocate unui inamic aflat sub șoc (incluzând șocul via abilități) și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/header"
+msgstr "Daune la vehiculele inamice afectate de șocul provocat de tine"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/body"
+msgstr "Rația dintre totalul daunelor provocate vehiculelor inamice în stare de șoc și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/header"
+msgstr "Daune la vehiculele inamice afectate de șocul provocat de jucător"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/body"
+msgstr "Rația dintre totalul daunelor provocate vehiculelor inamice în stare de șoc și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/header"
+msgstr "Daune la vehiculele inamice afectate de șocul provocat de tine"
+
+msgid "profile/params/tooltip/avgDamage/body"
+msgstr "Raportul dintre daunele totale provocate şi numărul total de lupte"
+
+msgid "profile/params/tooltip/avgDamage/header"
+msgstr "Distrugere medie pe luptă"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/body"
+msgstr "Raportul dintre numărul total de vehicule inamice distruse şi numărul total de lupte"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/body"
+msgstr "Rația dintre numărul total de vehicule inamice distruse (inclusiv cele distruse via abilități) și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/header"
+msgstr "Vehicule inamice distruse"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/header"
+msgstr "Vehicule inamice distruse"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/body"
+msgstr "Raportul dintre numărul total de vehicule inamice detectate şi numărul total de lupte"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/body"
+msgstr "Rația dintre numărul total de vehicule inamice descoperite (inclusiv cele descoperite via abilități) și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/header"
+msgstr "Vehicule inamice descoperite"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/header"
+msgstr "Vehicule inamice detectate"
+
+msgid "profile/params/tooltip/avgDmg/short/body"
+msgstr "Raportul dintre daunele totale provocate şi numărul total de lupte"
+
+msgid "profile/params/tooltip/avgDmg/short/header"
+msgstr "Daune provocate"
+
+msgid "profile/params/tooltip/avgEx/short/body"
+msgstr "Raportul dintre experienţa totală primită şi numărul total de lupte"
+
+msgid "profile/params/tooltip/avgEx/short/header"
+msgstr "Experienţă"
+
+msgid "profile/params/tooltip/avgExp/body"
+msgstr "Raportul dintre experienţa totală primită şi numărul total de lupte"
+
+msgid "profile/params/tooltip/avgExp/header"
+msgstr "Experienţă medie pe luptă"
+
+msgid "profile/params/tooltip/avgHealthRepair/body"
+msgstr "Rația dintre numărul total de puncte de integritate restaurate și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/avgHealthRepair/header"
+msgstr "Puncte de integritate restaurate"
+
+msgid "profile/params/tooltip/avgPoiCaptured/body"
+msgstr "Rația dintre numărul total de puncte de interes capturate și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/avgPoiCaptured/header"
+msgstr "Puncte de interes capturate"
+
+msgid "profile/params/tooltip/avgPrestigePoints/body"
+msgstr "Rația dintre numărul total de puncte de prestigiu obținute și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/avgPrestigePoints/header"
+msgstr "Media Punctelor de prestigiu per luptă"
+
+msgid "profile/params/tooltip/avgReceivedDamage/body"
+msgstr "Raportul dintre daunele totale suferite şi numărul total de lupte"
+
+msgid "profile/params/tooltip/avgReceivedDamage/header"
+msgstr "Daune primite"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/body"
+msgstr "Rația dintre numărul total de abilități de rol utilizate și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/header"
+msgstr "Abilități de rol utilizate"
+
+msgid "profile/params/tooltip/avgStunNumber/body"
+msgstr "Rația dintre totalul loviturilor asupra vehiculelor inamice care au provocat șoc și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/body"
+msgstr "Rația dintre numărul total de lovituri (inclusiv cele via abilități) cu șoc provocat echipajelor inamice și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/header"
+msgstr "Număr de șocuri"
+
+msgid "profile/params/tooltip/avgStunNumber/header"
+msgstr "Număr de șocuri"
+
+msgid "profile/params/tooltip/avgVictoryPoints/body"
+msgstr "Raportul dintre numărul total de puncte de victorie adunate și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/avgVictoryPoints/header"
+msgstr "Media numărului de puncte de victorie"
+
+msgid "profile/params/tooltip/battlesCount/body"
+msgstr "Numărul total de lupte, ce include:\n• victorii: %(value_0)s\n• înfrângeri: %(value_1)s\n• egaluri: %(value_2)s"
+
+msgid "profile/params/tooltip/battlesCount/header"
+msgstr "Lupte"
+
+msgid "profile/params/tooltip/brAverageLevel/body"
+msgstr "Rația sumei tuturor nivelurilor atinse, împărțită la numărul de lupte purtate."
+
+msgid "profile/params/tooltip/brAverageLevel/header"
+msgstr "Nivelul mediu"
+
+msgid "profile/params/tooltip/brAverageRank/body"
+msgstr "Rația sumei tuturor pozițiilor atinse, împărțită la numărul de lupte purtate."
+
+msgid "profile/params/tooltip/brAverageRank/header"
+msgstr "Poziția medie"
+
+msgid "profile/params/tooltip/brAvgDamage/body"
+msgstr "Rația dintre totalul de daune provocate și numărul de Lupte purtate."
+
+msgid "profile/params/tooltip/brAvgDamage/header"
+msgstr "Daune provocate"
+
+msgid "profile/params/tooltip/brBattlesCount/body"
+msgstr "Numărul total de lupte purtate."
+
+msgid "profile/params/tooltip/brBattlesCount/header"
+msgstr "Lupte"
+
+msgid "profile/params/tooltip/brMaxDamage/body"
+msgstr "Daunele maxime provocate vehiculelor inamice într-o luptă.\nRecord atins cu %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxDamage/header"
+msgstr "Daune maxime în luptă"
+
+msgid "profile/params/tooltip/brMaxExp/body"
+msgstr "Experiența maximă obținută într-o luptă cu cont premium WoT.\nRecord atins cu %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxExp/header"
+msgstr "Experiență maximă într-o luptă"
+
+msgid "profile/params/tooltip/brMaxFrags/body"
+msgstr "Numărul maxim de vehicule distruse personal într-o luptă.\nrecord atins cu %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxFrags/header"
+msgstr "Maximum distruse în luptă"
+
+msgid "profile/params/tooltip/brWins/body"
+msgstr "Numărul total de victorii."
+
+msgid "profile/params/tooltip/brWins/header"
+msgstr "Victorii"
+
+msgid "profile/params/tooltip/capturePoints/body"
+msgstr "Numărul de puncte de cucerire a bazei obţinute"
+
+msgid "profile/params/tooltip/capturePoints/header"
+msgstr "Puncte de cucerire a bazei"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/body"
+msgstr "Raportul dintre \"Daune cauzate\" și \"Daune primite\" pentru toate nivelele de luptă, considerând:\n• Daune provocate: %(value_0)s\n• Daune primite: %(value_1)s"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/header"
+msgstr "Raportul mediu de daune"
+
+msgid "profile/params/tooltip/damageCoeff/body"
+msgstr "Raportul dintre daunele provocate şi suferite, ţinând cont de:\n• Daune provocate: %(value_0)s\n• Daune suferite: %(value_1)s"
+
+msgid "profile/params/tooltip/damageCoeff/header"
+msgstr "Raport distrugere"
+
+msgid "profile/params/tooltip/destroyCoeff/body"
+msgstr "Raportul dintre numărul de vehicule inamice distruse şi numărul de ori când vehiculul propriu a fost distrus, ţinând cont de:\n• Vehicule inamice distruse: %(value_0)s\n• Vehicul propriu distrus: %(value_1)s"
+
+msgid "profile/params/tooltip/destroyCoeff/header"
+msgstr "Raport vehicule distruse"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/body"
+msgstr "Raportul dintre daunele blocate de blindaj și daunele suferite, de la lovituri non-penetrante și ricoșeuri de proiectile AP, HEAT și APCR. Daunele de la Rezervele de luptă, proiectile HE și HEAT nu sunt luate în considerație.\n• Media daunelor blocate de blindaj de la următoarele tipuri de proiectile: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/header"
+msgstr "Eficienţa utilizării blindajului"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/body"
+msgstr "Raportul dintre daunele totale provocate (inclusiv Rezervele de luptă) și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/header"
+msgstr "Medie daune per luptă"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body"
+msgstr "Raportul dintre numărul total de vehicule inamice distruse (inclusiv Rezervele de luptă) și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header"
+msgstr "Vehicule inamice distruse"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body"
+msgstr "Raportul dintre numărul total de vehicule inamice distruse (fără Rezervele de luptă) și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header"
+msgstr "Vehicule inamice distruse"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/body"
+msgstr "Raportul dintre daunele totale provocate (inclusiv Rezervele de luptă) și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/header"
+msgstr "Daune provocate"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body"
+msgstr "Raportul dintre daunele totale provocate (fără Rezervele de luptă) și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header"
+msgstr "Daune provocate"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/body"
+msgstr "Raportul dintre daunele totale suferite (inclusiv Rezervele personale) și numărul de lupte purtate"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/header"
+msgstr "Daune primite"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/body"
+msgstr "Număr total de lupte purtate, inclusiv:\n• Victorii: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/header"
+msgstr "Lupte"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/body"
+msgstr "Raportul dintre ”Daune provocate” și ”Daune suferite” (inclusiv Rezervele de luptă), în următoarele condiții:\n• Daune provocate de vehiculele tale: %(value_0)s\n• Daune provocate de Rezervele de luptă: %(value_2)s\n• Daune suferite din partea vehiculelor și Rezervelor de luptă inamice: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/header"
+msgstr "Raport daune"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body"
+msgstr "Raportul dintre ”Daune provocate” și ”Daune suferite” (fără Rezervele de luptă), în următoarele condiții:\n• Daune provocate: %(value_0)s\n• Daune suferite: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header"
+msgstr "Raport daune"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/body"
+msgstr "Raportul dintre vehiculele inamice distruse și numărul de distrugeri ale vehiculului jucătorului (inclusiv Rezervele de luptă), în următoarele condiții:\n• Vehicule inamice distruse de vehiculele tale: %(value_0)s\n• Vehicule inamice distruse de Rezervele de luptă: %(value_2)s\n• Vehicule ale jucătorului distruse de vehicule și Rezerve de luptă inamice: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/header"
+msgstr "Raport vehicule distruse"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body"
+msgstr "Raportul dintre vehiculele inamice distruse și numărul de distrugeri ale vehiculului jucătorului (fără Rezervele de luptă), în următoarele condiții:\n• Vehicule inamice distruse: %(value_0)s\n• Vehicule ale jucătorului distruse: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header"
+msgstr "Raport vehicule distruse"
+
+msgid "profile/params/tooltip/dif/fallout/hits/body"
+msgstr "Precizia focului asupra vehiculelor inamice (nu include Rezervele de luptă)"
+
+msgid "profile/params/tooltip/dif/fallout/hits/header"
+msgstr "Lovituri"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/body"
+msgstr "Recordul stabiliti include Rezervele de luptă."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/header"
+msgstr "Daune maxime într-o luptă"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/body"
+msgstr "Recordul stabiliti nu include Rezervele de luptă."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/header"
+msgstr "Daune maxime într-o luptă"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/body"
+msgstr "Recordul stabiliti include Rezervele de luptă."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/header"
+msgstr "Maxim de vehicule distruse"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body"
+msgstr "Recordul stabiliti nu include Rezervele de luptă."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header"
+msgstr "Maxim de vehicule distruse"
+
+msgid "profile/params/tooltip/dif/fallout/wins/body"
+msgstr "Total victorii"
+
+msgid "profile/params/tooltip/dif/fallout/wins/header"
+msgstr "Victorii"
+
+msgid "profile/params/tooltip/droppedCapturePoints/body"
+msgstr "Numărul de puncte de apărare a bazei obţinute"
+
+msgid "profile/params/tooltip/droppedCapturePoints/header"
+msgstr "Puncte de apărare a bazei"
+
+msgid "profile/params/tooltip/flagsAbsorbed/body"
+msgstr "Total steaguri distruse"
+
+msgid "profile/params/tooltip/flagsAbsorbed/header"
+msgstr "Steaguri distruse"
+
+msgid "profile/params/tooltip/flagsDelivered/body"
+msgstr "Steaguri livrate în propria bază"
+
+msgid "profile/params/tooltip/flagsDelivered/header"
+msgstr "Steaguri livrate"
+
+msgid "profile/params/tooltip/fort/battles/body"
+msgstr "Total Ofensive, incluzând:\n• Victorii: %(value_0)s\n• Înfrângeri: %(value_1)s\n• Egaluri: %(value_2)s."
+
+msgid "profile/params/tooltip/fort/battles/header"
+msgstr "Ofensive"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/body"
+msgstr "Rata totală victorii în Ofensive"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/header"
+msgstr "Procentul de victorii în Ofensive"
+
+msgid "profile/params/tooltip/fort/looting/body"
+msgstr "Numărul total de Forturi inamice jefuite cu succes"
+
+msgid "profile/params/tooltip/fort/looting/header"
+msgstr "Jafuri"
+
+msgid "profile/params/tooltip/fort/resource/body"
+msgstr "Raportul dintre totalul resurselor industriale obţinute şi numărul de raiduri efectuate"
+
+msgid "profile/params/tooltip/fort/resource/header"
+msgstr "Valoarea medie a capturii pe raid"
+
+msgid "profile/params/tooltip/fort/sortie/body"
+msgstr "Numărul total de raiduri efectuate, ce include:\n• victorii: %(value_0)s\n• înfrângeri: %(value_1)s\n• egaluri: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/sortie/header"
+msgstr "Raiduri"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/body"
+msgstr "Procentul total de victorii în Raiduri"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/header"
+msgstr "Victorii în Raiduri"
+
+msgid "profile/params/tooltip/fortBattles/attacks/body"
+msgstr "Numărul total de atacuri asupra Forturilor inamice.\nSe numără doar dacă ai luptat în cel puţin o confruntare din timpul atacului."
+
+msgid "profile/params/tooltip/fortBattles/attacks/header"
+msgstr "Atacuri"
+
+msgid "profile/params/tooltip/fortBattles/defences/body"
+msgstr "Numărul total de acţiuni de apărare a Fortului tău.\nSe numără doar dacă ai luptat în cel puţin o confruntare din timpul perioadei de apărare."
+
+msgid "profile/params/tooltip/fortBattles/defences/header"
+msgstr "Acţiuni de apărare"
+
+msgid "profile/params/tooltip/fortBattlesWins/body"
+msgstr "Rata totală victorii în Ofensive"
+
+msgid "profile/params/tooltip/fortBattlesWins/header"
+msgstr "Procentul de victorii în Ofensive"
+
+msgid "profile/params/tooltip/fortSortieWins/body"
+msgstr "Procentul total de victorii în Raiduri"
+
+msgid "profile/params/tooltip/fortSortieWins/header"
+msgstr "Victorii în Raiduri"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/body"
+msgstr "Raportul dintre totalul resurselor industriale obţinute şi numărul de raiduri efectuate"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/header"
+msgstr "Valoarea medie a capturii pe raid"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/body"
+msgstr "Cantitatea totală de resurse industriale câştigate în toate raidurile"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/header"
+msgstr "Valoarea totală a capturii în toate Raidurile"
+
+msgid "profile/params/tooltip/hits/body"
+msgstr "Acurateţea tragerilor în vehiculele inamice"
+
+msgid "profile/params/tooltip/hits/header"
+msgstr "Acurateţea loviturilor"
+
+msgid "profile/params/tooltip/kdr/body"
+msgstr "Raportul dintre vehiculele inamice distruse și numărul de distrugeri ale vehiculului jucătorului (inclusiv Rezervele de luptă), în următoarele condiții:\n• Vehicule inamice distruse de vehiculele tale: %(value_0)s\n• Vehicule inamice distruse de Rezervele de luptă: %(value_1)s\n• Vehicule ale jucătorului distruse de vehicule și Rezerve de luptă inamice: %(value_2)s"
+
+msgid "profile/params/tooltip/kdr/header"
+msgstr "Raport vehicule distruse"
+
+msgid "profile/params/tooltip/markOfMastery/body"
+msgstr "Numărul de insigne de merit «As» primite în toate modurile de luptă relevante / Numărul de vehicule care au participat la cel puţin o Luptă standard"
+
+msgid "profile/params/tooltip/markOfMastery/header"
+msgstr "Insigna de merit «As»"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/body"
+msgstr "Insignele de merit nu se acordă în acest mod de luptă."
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/header"
+msgstr "Insigna de merit «As»"
+
+msgid "profile/params/tooltip/maxDamage/body"
+msgstr "Record obţinut în %(value_0)s"
+
+msgid "profile/params/tooltip/maxDamage/header"
+msgstr "Daune maxime într-o luptă"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/body"
+msgstr "Cele mai multe daune provocate vehiculelor inamice într-o luptă."
+
+msgid "profile/params/tooltip/maxDamage/vehicle/header"
+msgstr "Daune maxime într-o luptă"
+
+msgid "profile/params/tooltip/maxDestroyed/body"
+msgstr "Record obţinut în %(value_0)s"
+
+msgid "profile/params/tooltip/maxDestroyed/header"
+msgstr "Maxim de vehicule distruse"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/body"
+msgstr "Cele mai multe vehicule inamice distruse într-o luptă."
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/header"
+msgstr "Maxim de vehicule distruse"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/body"
+msgstr "Daunele maxime provocate de abilități de rol și tactice într-o luptă."
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/header"
+msgstr "Daune maxime via abilități per luptă"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/body"
+msgstr "Se includ daunele provocate de abilitățile de rol și tactice.\nRecordul este %(value_0)s"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/header"
+msgstr "Daune maxime via abilități per luptă"
+
+msgid "profile/params/tooltip/maxExp/body"
+msgstr "Record obţinut în %(value_0)s"
+
+msgid "profile/params/tooltip/maxExp/header"
+msgstr "Experiență maximă într-o luptă"
+
+msgid "profile/params/tooltip/maxExp/vehicle/body"
+msgstr "Cea mai mare experiență adunată într-o luptă, inclusiv bonusul de cont Premium."
+
+msgid "profile/params/tooltip/maxExp/vehicle/header"
+msgstr "Experiență maximă"
+
+msgid "profile/params/tooltip/maxExpDisabled/body"
+msgstr "Experienţa maximă nu este afişată în acest mod de luptă."
+
+msgid "profile/params/tooltip/maxExpDisabled/header"
+msgstr "Experiență maximă într-o luptă"
+
+msgid "profile/params/tooltip/maxHealthRepair/body"
+msgstr "Numărul maxim de Puncte de integritate restaurate pentru vehiculul tău și cele aliate într-o luptă."
+
+msgid "profile/params/tooltip/maxHealthRepair/header"
+msgstr "Numărul maxim de Puncte de integritate restaurate per luptă"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/body"
+msgstr "Numărul maxim de Puncte de integritate restaurate pentru vehiculul tău și cele aliate într-o luptă.\nRecordul este cu %(value_0)s"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/header"
+msgstr "Numărul maxim de Puncte de integritate restaurate per luptă"
+
+msgid "profile/params/tooltip/maxPrestigePoints/body"
+msgstr "Numărul maxim de puncte de prestigiu obținute într-o luptă."
+
+msgid "profile/params/tooltip/maxPrestigePoints/header"
+msgstr "Numărul maxim de puncte de prestigiu per luptă"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/body"
+msgstr "Recordul este cu %(value_0)s"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/header"
+msgstr "Numărul maxim de puncte de prestigiu per luptă"
+
+msgid "profile/params/tooltip/maxVictoryPoints/body"
+msgstr "Maxim puncte de victorie adunate per luptă în toate luptele duse"
+
+msgid "profile/params/tooltip/maxVictoryPoints/header"
+msgstr "Maxim puncte de victorie adunate într-o luptă"
+
+msgid "profile/params/tooltip/maxWinPoints/body"
+msgstr "Maxim puncte de victorie adunate per luptă în toate luptele duse"
+
+msgid "profile/params/tooltip/maxWinPoints/header"
+msgstr "Maxim puncte de victorie adunate într-o luptă"
+
+msgid "profile/params/tooltip/maxWinSeries/body"
+msgstr "Seria cea mai lungă de victorii obținute în modul solo și în pluton/pluton cu 7 jucători."
+
+msgid "profile/params/tooltip/maxWinSeries/header"
+msgstr "Maxim victorii consecutive (Solo și pluton/super pluton)"
+
+msgid "profile/params/tooltip/poiCaptured/body"
+msgstr "Numărul de Puncte de interes capturate"
+
+msgid "profile/params/tooltip/poiCaptured/header"
+msgstr "Puncte de interes capturate"
+
+msgid "profile/params/tooltip/ranked/avgFrags/body"
+msgstr "Număr mediu de vehicule inamice distruse într-o luptă"
+
+msgid "profile/params/tooltip/ranked/avgFrags/header"
+msgstr "Număr mediu de vehicule distruse"
+
+msgid "profile/params/tooltip/ranked/avgPoints/body"
+msgstr "Rata în procente de galoane obținute față de numărul total de lupte purtate în modul de Lupte pentru clasament.\n• Total galoane: %(value_0)s\n• Total lupte: %(value_1)s"
+
+msgid "profile/params/tooltip/ranked/avgPoints/header"
+msgstr "Eficiența în lupte de clasament"
+
+msgid "profile/params/tooltip/ranked/points/body"
+msgstr "Totalul punctelor câștigate"
+
+msgid "profile/params/tooltip/ranked/points/header"
+msgstr "Puncte grad"
+
+msgid "profile/params/tooltip/stunNumber/body"
+msgstr "Numărul total de lovituri care au provocat șoc echipajelor inamice"
+
+msgid "profile/params/tooltip/stunNumber/header"
+msgstr "Număr de șocuri"
+
+msgid "profile/params/tooltip/survival/body"
+msgstr "Procentajul de lupte în care vehiculul propriu nu a fost distrus."
+
+msgid "profile/params/tooltip/survival/header"
+msgstr "Lupte finalizate în acţiune"
+
+msgid "profile/params/tooltip/totalVehs/body"
+msgstr "Număr total de vehicule diferite folosite"
+
+msgid "profile/params/tooltip/totalVehs/header"
+msgstr "Vehicule"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/body"
+msgstr "Număr total de Ofensive.\n\nParametru indisponibil în versiunea curentă."
+
+msgid "profile/params/tooltip/unavailable/fort/battles/header"
+msgstr "Ofensive"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/body"
+msgstr "Număr total victorii în Ofensive.\n\nParametru indisponibil în versiunea curentă."
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/header"
+msgstr "Procentul de victorii în Ofensive"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/body"
+msgstr "Nicio luptă de la introducerea acestui parametru"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/header"
+msgstr "Date indisponibile"
+
+msgid "profile/params/tooltip/usedTechnics/body"
+msgstr "Vehicule utilizate în cel puţin o luptă istorică."
+
+msgid "profile/params/tooltip/usedTechnics/header"
+msgstr "Vehicule folosite"
+
+msgid "profile/params/tooltip/wins/body"
+msgstr "Procentajul total de victorii"
+
+msgid "profile/params/tooltip/wins/header"
+msgstr "Victorii"
+
+msgid "profile/ranked/seasonsdropdown/1"
+msgstr "Sezonul 1, 2021-2022"
+
+msgid "profile/ranked/seasonsdropdown/2"
+msgstr "Sezonul 2, 2021-2022"
+
+msgid "profile/ranked/seasonsdropdown/3"
+msgstr "Sezonul 3, 2021-2022"
+
+msgid "profile/ranked/seasonsdropdown/archive"
+msgstr "Date arhivă"
+
+msgid "profile/seasonsdropdown/all"
+msgstr "Toate sezoanele"
+
+msgid "profile/seasonsdropdown/current"
+msgstr "Sezonul curent"
+
+msgid "profile/seasonsdropdown/specific"
+msgstr "Sezonul %(date1)s – %(date2)s"
+
+msgid "profile/section/statistics/scores/maxHealthRepair"
+msgstr "Numărul maxim de Puncte de integritate restaurate per luptă"
+
+msgid "profile/summary/clan/btnLabel"
+msgstr "Profilul clanului"
+
+msgid "profile/summary/clan/joinDate"
+msgstr "Data înscrierii:"
+
+msgid "profile/summary/clan/post"
+msgstr "Funcție:"
+
+msgid "profile/summary/club/btnLabel"
+msgstr "Profil echipă"
+
+msgid "profile/summary/club/ladder"
+msgstr "Clasament:"
+
+msgid "profile/summary/club/ladderInfo"
+msgstr "Liga %(league)s, Divizia %(division)s"
+
+msgid "profile/summary/club/post"
+msgstr "Funcție:"
+
+msgid "profile/summary/nextAwards/tooltip/body"
+msgstr "Distincţiile viitoare vor fi afişate pe panglică."
+
+msgid "profile/summary/nextAwards/tooltip/header"
+msgstr "Următoarele distincţii"
+
+msgid "profile/summary/noGroups"
+msgstr "Jucătorul nu are unități tactice permanente."
+
+msgid "profile/summary/significantAwards/tooltip/body"
+msgstr "Distincţiile cele mai semnificative sunt afişate pe panglică."
+
+msgid "profile/summary/significantAwards/tooltip/header"
+msgstr "Distincţii deosebite"
+
+msgid "profile/tabs/tooltip/advancedAchievements/body"
+msgstr "Afișează catalogul cu Realizări."
+
+msgid "profile/tabs/tooltip/advancedAchievements/header"
+msgstr "Realizări"
+
+msgid "profile/tabs/tooltip/awards/body"
+msgstr "Distincţiile primite şi descrierea acestora"
+
+msgid "profile/tabs/tooltip/awards/header"
+msgstr "Distincţii"
+
+msgid "profile/tabs/tooltip/collections/body"
+msgstr "Afișează colecțiile"
+
+msgid "profile/tabs/tooltip/collections/header"
+msgstr "Colecțiile"
+
+msgid "profile/tabs/tooltip/formations/body"
+msgstr "Vezi detalii despre unităţile tactice din care faci parte."
+
+msgid "profile/tabs/tooltip/formations/header"
+msgstr "Unităţi tactice"
+
+msgid "profile/tabs/tooltip/hof/body"
+msgstr "Afişează clasamentul în Hall of Fame"
+
+msgid "profile/tabs/tooltip/hof/header"
+msgstr "Hall of Fame"
+
+msgid "profile/tabs/tooltip/hofDisabled/body"
+msgstr "Hall of Fame nu este momentan disponibilă. Încearcă mai târziu."
+
+msgid "profile/tabs/tooltip/hofDisabled/header"
+msgstr "Atenție"
+
+msgid "profile/tabs/tooltip/statistics/body"
+msgstr "Statisticile vehiculelor de toate tipurile"
+
+msgid "profile/tabs/tooltip/statistics/header"
+msgstr "Statistici"
+
+msgid "profile/tabs/tooltip/summary/body"
+msgstr "Performanţa în luptă"
+
+msgid "profile/tabs/tooltip/summary/header"
+msgstr "Sumar"
+
+msgid "profile/tabs/tooltip/technique/body"
+msgstr "Statisticile vehiculelor de toate tipurile"
+
+msgid "profile/tabs/tooltip/technique/header"
+msgstr "Vehicule"
+
+msgid "profile/title"
+msgstr "Statistica jucătorului %s"
+
+msgid "seasons/comp7_dropdown_label"
+msgstr "An/Sezon:"
+
+msgid "seasons/dropdown_label"
+msgstr "Sezonul:"
+
+msgid "section/advancedAchievements/title"
+msgstr "Realizări"
+
+msgid "section/awards/dropdown/labels/all"
+msgstr "Toate"
+
+msgid "section/awards/dropdown/labels/inProcess"
+msgstr "Primite"
+
+msgid "section/awards/dropdown/labels/none"
+msgstr "Neacordate"
+
+msgid "section/awards/dropdown/tooltip/body"
+msgstr "Activează filtrul pentru a vedea toate distincţiile sau distincţiile primite ori cele neacordate"
+
+msgid "section/awards/dropdown/tooltip/header"
+msgstr "Sortarea distincţiilor"
+
+msgid "section/awards/labels/battleHeroes"
+msgstr "Eroii luptei"
+
+msgid "section/awards/labels/epic"
+msgstr "Medalii eroice"
+
+msgid "section/awards/labels/group"
+msgstr "Distincţii de grup"
+
+msgid "section/awards/labels/honorary"
+msgstr "Grade onorifice"
+
+msgid "section/awards/labels/marksOnGun"
+msgstr "Însemne de Excelenţă"
+
+msgid "section/awards/labels/memory"
+msgstr "Însemne comemorative"
+
+msgid "section/awards/labels/special"
+msgstr "Special"
+
+msgid "section/awards/labels/stage"
+msgstr "Medalii pe clase"
+
+msgid "section/awards/title"
+msgstr "Distincţii"
+
+msgid "section/collections/title"
+msgstr "Colecțiile"
+
+msgid "section/formations/clan/none"
+msgstr "Nu eşti membru al unui clan."
+
+msgid "section/formations/clan/none/thirdperson"
+msgstr "Jucătorul nu e membru al unui clan."
+
+msgid "section/formations/clan/type"
+msgstr "Clan"
+
+msgid "section/formations/fort/battles"
+msgstr "Ofensive"
+
+msgid "section/formations/fort/create"
+msgstr "Creează Fort"
+
+msgid "section/formations/fort/level"
+msgstr "Nivelul Fortului: %s"
+
+msgid "section/formations/fort/link"
+msgstr "Realizări în Ofensivă"
+
+msgid "section/formations/fort/none"
+msgstr "Fortul nu a fost creat"
+
+msgid "section/formations/fort/none/thirdperson"
+msgstr "Clanul jucătorului nu deţine un Fort"
+
+msgid "section/formations/fort/resourceRating"
+msgstr "Clasamentul vânător de resurse"
+
+msgid "section/formations/fort/sorties"
+msgstr "Raiduri"
+
+msgid "section/formations/history/battles"
+msgstr "Lupte ca membru"
+
+msgid "section/formations/history/dates"
+msgstr "Data înscrierii/plecării"
+
+msgid "section/formations/history/datesPattern"
+msgstr "%(date1)s–%(date2)s"
+
+msgid "section/formations/history/team"
+msgstr "Echipă"
+
+msgid "section/formations/history/title"
+msgstr "Jurnalul echipei jucătorului"
+
+msgid "section/formations/joinDate"
+msgstr "Data înscrierii: %s"
+
+msgid "section/formations/rank"
+msgstr "Poziţia jucătorului: %s"
+
+msgid "section/formations/team/completedSeason"
+msgstr "Sezonul %s (încheiat)"
+
+msgid "section/formations/team/find"
+msgstr "Mergi la căutarea de Echipe permanente"
+
+msgid "section/formations/team/league"
+msgstr "Ligă: %(league)s. Divizie: %(division)s. Loc: %(position)s."
+
+msgid "section/formations/team/none"
+msgstr "Nu ai Echipe permanente."
+
+msgid "section/formations/team/none/thirdperson"
+msgstr "Jucătorul nu are Echipei permanente."
+
+msgid "section/formations/team/season"
+msgstr "Sezonul %s"
+
+msgid "section/formations/team/seasonBattles"
+msgstr "Lupte de clasament"
+
+msgid "section/formations/team/seasonWinRate"
+msgstr "Victorii în sezon"
+
+msgid "section/formations/team/title"
+msgstr "Echipa \"%s\""
+
+msgid "section/formations/team/type"
+msgstr "Echipă"
+
+msgid "section/formations/title"
+msgstr "Unităţi tactice"
+
+msgid "section/formations/tooltip/fort/battles/body"
+msgstr "Numărul total de Ofensive, incluzând:\n• Victorii: %(wins)s\n• Înfrângeri: %(losses)s\n• Egaluri: %(draws)s"
+
+msgid "section/formations/tooltip/fort/battles/header"
+msgstr "Ofensive"
+
+msgid "section/formations/tooltip/fort/level/body"
+msgstr "Nivelul Fortului este egal cu nivelul centrului său de comandă."
+
+msgid "section/formations/tooltip/fort/level/header"
+msgstr "Nivelul Fortului"
+
+msgid "section/formations/tooltip/fort/link/body"
+msgstr "Clic pentru a vedea realizările în Ofensivă."
+
+msgid "section/formations/tooltip/fort/link/header"
+msgstr "Realizări în Ofensivă"
+
+msgid "section/formations/tooltip/fort/resourceRating/body"
+msgstr "Locul tău"
+
+msgid "section/formations/tooltip/fort/resourceRating/header"
+msgstr "Clasamentul vânător de resurse"
+
+msgid "section/formations/tooltip/fort/sorties/body"
+msgstr "Numărul total de raidur purtate, incluzând:\n• Victorii: %(wins)s\n• Înfrângeri: %(losses)s\n• Egaluri: %(draws)s"
+
+msgid "section/formations/tooltip/fort/sorties/header"
+msgstr "Raiduri"
+
+msgid "section/formations/tooltip/team/link/body"
+msgstr "Clic pentru a vedea profilul echipei"
+
+msgid "section/formations/tooltip/team/link/header"
+msgstr "Profilul echipei"
+
+msgid "section/formations/tooltip/team/seasonBattles/body"
+msgstr "Numărul total de lupte de clasament purtate ca membru al acestei echipe, incluzând:\n• Victorii: %(wins)s\n• Înfrângeri: %(losses)s\n• Egaluri: %(draws)s"
+
+msgid "section/formations/tooltip/team/seasonBattles/header"
+msgstr "Lupte de clasament"
+
+msgid "section/formations/tooltip/team/seasonWinRate/body"
+msgstr "Procentajul victoriilor în lupte de clasament"
+
+msgid "section/formations/tooltip/team/seasonWinRate/header"
+msgstr "Victorii"
+
+msgid "section/hof/BrowserView/closeBtn"
+msgstr "ÎNCHIDE"
+
+msgid "section/hof/achievementsRatingsBtn"
+msgstr "Mergi la Clasament"
+
+msgid "section/hof/achievementsRatingsTitle"
+msgstr "Clasament după Realizări\nîn Lupte standard"
+
+msgid "section/hof/betaBtn"
+msgstr "BETA"
+
+msgid "section/hof/betaTooltip"
+msgstr "Hall of Fame şi Clasamentul World of Tanks\nsunt în stadiul BETA"
+
+msgid "section/hof/mainDescription"
+msgstr "Afişează performanţele tale în lupte şi poziţia în clasament faţă de ceilalţi jucători pe perioadele selectate."
+
+msgid "section/hof/mainTitle"
+msgstr "Hall of Fame"
+
+msgid "section/hof/notAvailable/tooltip/body"
+msgstr "Hall of Fame nu este momentan disponibilă. Încearcă mai târziu."
+
+msgid "section/hof/notAvailable/tooltip/header"
+msgstr "Atenție"
+
+msgid "section/hof/statusBtn/hideResults"
+msgstr "Afişează rezultate"
+
+msgid "section/hof/statusBtn/showResults"
+msgstr "Ascunde rezultate"
+
+msgid "section/hof/statusDescription/exclusion"
+msgstr "Aplicaţia pentru ascunderea rezultatelor tale din clasament a fost trimisă şi va fi procesată la următoarea calculare a rezultatelor."
+
+msgid "section/hof/statusDescription/hideResults"
+msgstr "Rezultatele tale din clasament sunt acum ascunse faţă de ceilalţi jucători."
+
+msgid "section/hof/statusDescription/inclusion"
+msgstr "Aplicaţia ta a fost trimisă şi va fi procesată la următoarea calculare a rezultatelor. Rezultatele tale din clasament sunt acum vizibile celorlalţi jucători."
+
+msgid "section/hof/statusDescription/showResults"
+msgstr "Rezultatele tale din clasament sunt vizibile tuturor jucătorilor, prietenilor şi membrilor de clan."
+
+msgid "section/hof/title"
+msgstr "Hall of Fame"
+
+msgid "section/hof/vehiclesRatingsBtn"
+msgstr "Mergi la Clasament"
+
+msgid "section/hof/vehiclesRatingsTitle"
+msgstr "Clasament după Vehicule\nîn Lupte standard"
+
+msgid "section/statistics/bodyBar/label/charts"
+msgstr "Grafice"
+
+msgid "section/statistics/bodyBar/label/clan10"
+msgstr "Generația X"
+
+msgid "section/statistics/bodyBar/label/clan6"
+msgstr "Generația VI"
+
+msgid "section/statistics/bodyBar/label/clan8"
+msgstr "Generația VIII"
+
+msgid "section/statistics/bodyBar/label/detailed"
+msgstr "Statistici"
+
+msgid "section/statistics/bodyBar/label/fortBattles"
+msgstr "Detalii despre Ofensive"
+
+msgid "section/statistics/bodyBar/label/fortSortie"
+msgstr "Detalii despre raiduri"
+
+msgid "section/statistics/bodyBar/label/specific"
+msgstr "Special"
+
+msgid "section/statistics/bodyParams/label/average"
+msgstr "Scor mediu pe luptă"
+
+msgid "section/statistics/bodyParams/label/common"
+msgstr "Parametri generali"
+
+msgid "section/statistics/bodyParams/label/fortBattles"
+msgstr "Ofensive"
+
+msgid "section/statistics/bodyParams/label/fortSortie"
+msgstr "Raiduri"
+
+msgid "section/statistics/bodyParams/label/record"
+msgstr "Scor record"
+
+msgid "section/statistics/bodyParams/label/resource"
+msgstr "Resurse industriale"
+
+msgid "section/statistics/chart/class/tooltip/body"
+msgstr "Numărul total de lupte cu vehicule din această clasă"
+
+msgid "section/statistics/chart/class/tooltip/header"
+msgstr "Clasa vehiculului: %(value)s"
+
+msgid "section/statistics/chart/level/tooltip/body"
+msgstr "Numărul de lupte în vehicule de această generaţie"
+
+msgid "section/statistics/chart/level/tooltip/header"
+msgstr "Generaţia vehiculelor: %(value)s"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/body"
+msgstr "Doar vehicule de generaţiile VI-VIII pot lupta în acest mod de joc."
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/header"
+msgstr "Generaţia vehiculelor: %(value)s"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/body"
+msgstr "Doar vehiculele din generațiile VIII-X pot intra în acest mod de luptă."
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/header"
+msgstr "Generaţia vehiculelor: %(value)s"
+
+msgid "section/statistics/chart/nation/tooltip/body"
+msgstr "Numărul de lupte în vehicule din această ţară"
+
+msgid "section/statistics/chart/nation/tooltip/header"
+msgstr "Ţara vehiculelor: %(value)s"
+
+msgid "section/statistics/chart/place/tooltip/body"
+msgstr "Numărul total de lupte cu acest loc obținut"
+
+msgid "section/statistics/chart/place/tooltip/header"
+msgstr "Loc obținut: %(value)s"
+
+msgid "section/statistics/chart/type/tooltip/body"
+msgstr "Numărul de lupte în vehicule de acest tip"
+
+msgid "section/statistics/chart/type/tooltip/header"
+msgstr "Tipul vehiculelor: %(value)s"
+
+msgid "section/statistics/charts/byClassLabel"
+msgstr "Per clasă"
+
+msgid "section/statistics/charts/byLevelLabel"
+msgstr "Pe generaţii"
+
+msgid "section/statistics/charts/byNationLabel"
+msgstr "Pe ţări"
+
+msgid "section/statistics/charts/byPlaceLabel"
+msgstr "Per loc obținut"
+
+msgid "section/statistics/charts/byTypeLabel"
+msgstr "Pe tipuri"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortOther"
+msgstr "Daune la vehiculele inamice afectate de șocul provocat de jucător"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortSelf"
+msgstr "Daune la vehiculele inamice afectate de șocul provocat de tine"
+
+msgid "section/statistics/detailed/avgDamage"
+msgstr "Daune provocate"
+
+msgid "section/statistics/detailed/avgDestroyedVehicles"
+msgstr "Vehicule inamice distruse"
+
+msgid "section/statistics/detailed/avgDetectedEnemies"
+msgstr "Vehicule inamice detectate"
+
+msgid "section/statistics/detailed/avgHealthRepaired"
+msgstr "Puncte de integritate restaurate"
+
+msgid "section/statistics/detailed/avgPoiCaptured"
+msgstr "Puncte de interes capturate"
+
+msgid "section/statistics/detailed/avgPrestigePoints"
+msgstr "Puncte de Prestigiu"
+
+msgid "section/statistics/detailed/avgReceivedDamage"
+msgstr "Daune primite"
+
+msgid "section/statistics/detailed/avgRoleSkillUsed"
+msgstr "Abilități de rol utilizate"
+
+msgid "section/statistics/detailed/damageCoefficient"
+msgstr "Raport distrugere"
+
+msgid "section/statistics/detailed/dealOutDamage"
+msgstr "Daune produse"
+
+msgid "section/statistics/detailed/destroyed"
+msgstr "Vehicul propriu distrus"
+
+msgid "section/statistics/detailed/destructionCoefficient"
+msgstr "Raport vehicule distruse"
+
+msgid "section/statistics/detailed/killed"
+msgstr "Inamici distruşi"
+
+msgid "section/statistics/detailed/maxDestroyedVehicles"
+msgstr "Maxim de vehicule distruse"
+
+msgid "section/statistics/detailed/receivedDamage"
+msgstr "Distrugere primită"
+
+msgid "section/statistics/detailed/stunNumber"
+msgstr "Număr de șocuri"
+
+msgid "section/statistics/headerText/all"
+msgstr "Lupte standard şi Lupte pe companii"
+
+msgid "section/statistics/headerText/battleRoyaleSolo"
+msgstr "Vânătorul de oţel"
+
+msgid "section/statistics/headerText/battleRoyaleSquad"
+msgstr "Vânătorul de oţel"
+
+msgid "section/statistics/headerText/clan"
+msgstr "Harta globală"
+
+msgid "section/statistics/headerText/comp7"
+msgstr "Violență"
+
+msgid "section/statistics/headerText/epicRandom"
+msgstr "Luptă Epică"
+
+msgid "section/statistics/headerText/fallout"
+msgstr "Exterminare"
+
+msgid "section/statistics/headerText/fortifications"
+msgstr "Ofensivă"
+
+msgid "section/statistics/headerText/historical"
+msgstr "Lupte istorice"
+
+msgid "section/statistics/headerText/ranked_10x10"
+msgstr "Luptă de clasament"
+
+msgid "section/statistics/headerText/ranked_15x15"
+msgstr "Luptă de clasament 15v15"
+
+msgid "section/statistics/headerText/staticTeam"
+msgstr "Echipă: lupte de clasament"
+
+msgid "section/statistics/headerText/team"
+msgstr "Echipă: lupte fără clasament"
+
+msgid "section/statistics/labels/battlesOnTech"
+msgstr "Lupte în vehicule"
+
+msgid "section/statistics/scores/achievementsCount"
+msgstr "Distincţii"
+
+msgid "section/statistics/scores/armorUsing"
+msgstr "Eficienţa utilizării blindajului"
+
+msgid "section/statistics/scores/avgAssistedDamage"
+msgstr "Distrugere medie produsă cu ajutorul tău"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortOther"
+msgstr "Daune provocate cu ajutorul jucătorului"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortSelf"
+msgstr "Daune provocate cu ajutorul tău"
+
+msgid "section/statistics/scores/avgDamage"
+msgstr "Distrugere medie pe luptă"
+
+msgid "section/statistics/scores/avgExperience"
+msgstr "Experienţă medie pe luptă"
+
+msgid "section/statistics/scores/avgExperience/short"
+msgstr "Experienţă"
+
+msgid "section/statistics/scores/avgPrestigePoints"
+msgstr "Media Punctelor de prestigiu per luptă"
+
+msgid "section/statistics/scores/avgVictoryPoints"
+msgstr "Medie puncte de victorie"
+
+msgid "section/statistics/scores/capturePoints"
+msgstr "Puncte de cucerire a bazei"
+
+msgid "section/statistics/scores/clan/summaryDamageCoefficient"
+msgstr "Raportul mediu de daune"
+
+msgid "section/statistics/scores/coolSigns"
+msgstr "Insigna de merit «As»"
+
+msgid "section/statistics/scores/droppedCapturePoints"
+msgstr "Puncte de apărare a bazei"
+
+msgid "section/statistics/scores/flagsAbsorbed"
+msgstr "Steaguri distruse"
+
+msgid "section/statistics/scores/flagsDelivered"
+msgstr "Steaguri livrate"
+
+msgid "section/statistics/scores/fort/battles"
+msgstr "Ofensive"
+
+msgid "section/statistics/scores/fort/battlesWinsEfficiency"
+msgstr "Victorii"
+
+msgid "section/statistics/scores/fort/resource"
+msgstr "Valoarea medie a capturii pe raid"
+
+msgid "section/statistics/scores/fort/sortie"
+msgstr "Raiduri"
+
+msgid "section/statistics/scores/fort/sortieWinsEfficiency"
+msgstr "Victorii în Raiduri"
+
+msgid "section/statistics/scores/fortBattles/attacks"
+msgstr "Atacuri"
+
+msgid "section/statistics/scores/fortBattles/defences"
+msgstr "Acţiuni de apărare"
+
+msgid "section/statistics/scores/fortBattlesTotalWins"
+msgstr "Procentul de victorii în Ofensive"
+
+msgid "section/statistics/scores/fortSortie"
+msgstr "Raiduri"
+
+msgid "section/statistics/scores/fortSortieTotalWins"
+msgstr "Victorii în Raiduri"
+
+msgid "section/statistics/scores/fortSorties/AvgResources"
+msgstr "Valoarea medie a capturii pe raid"
+
+msgid "section/statistics/scores/fortSorties/totalResources"
+msgstr "Valoarea totală a capturii în toate Raidurile"
+
+msgid "section/statistics/scores/fortTotalBattles"
+msgstr "Ofensive"
+
+msgid "section/statistics/scores/hits"
+msgstr "Lovituri"
+
+msgid "section/statistics/scores/killDeathRatio"
+msgstr "Raport vehicule distruse"
+
+msgid "section/statistics/scores/looting"
+msgstr "Jafuri"
+
+msgid "section/statistics/scores/maxDamage"
+msgstr "Daune maxime într-o luptă"
+
+msgid "section/statistics/scores/maxEquipmentDamageDealt"
+msgstr "Daune maxime via abilități per luptă"
+
+msgid "section/statistics/scores/maxExperience"
+msgstr "Experiență maximă într-o luptă"
+
+msgid "section/statistics/scores/maxPrestigePoints"
+msgstr "Numărul maxim de puncte de prestigiu per luptă"
+
+msgid "section/statistics/scores/maxVictoryPoints"
+msgstr "Maxim puncte de victorie adunate într-o luptă"
+
+msgid "section/statistics/scores/maxWinSeries"
+msgstr "Maxim victorii consecutive (Solo și pluton/super pluton)"
+
+msgid "section/statistics/scores/poiCaptured"
+msgstr "Puncte de interes capturate"
+
+msgid "section/statistics/scores/ranked/avgFrags"
+msgstr "Număr mediu de vehicule distruse"
+
+msgid "section/statistics/scores/ranked/avgPoints"
+msgstr "Eficiența în lupte de clasament"
+
+msgid "section/statistics/scores/ranked/points"
+msgstr "Puncte grad"
+
+msgid "section/statistics/scores/survival"
+msgstr "Lupte finalizate în acţiune"
+
+msgid "section/statistics/scores/totalBattles"
+msgstr "Lupte"
+
+msgid "section/statistics/scores/totalVehs"
+msgstr "Vehicule"
+
+msgid "section/statistics/scores/totalWins"
+msgstr "Victorii"
+
+msgid "section/statistics/scores/usedTechnics"
+msgstr "Vehicule folosite"
+
+msgid "section/statistics/title"
+msgstr "Statistici"
+
+msgid "section/summary/errorText/nextAwards"
+msgstr "Nu mai există alte distincţii"
+
+msgid "section/summary/errorText/significantAwards"
+msgstr "Nu mai există distincţii deosebite"
+
+msgid "section/summary/labels/nextAwards"
+msgstr "Următoarele distincţii"
+
+msgid "section/summary/labels/significantAwards"
+msgstr "Distincţii deosebite"
+
+msgid "section/summary/scores/averageLevel"
+msgstr "Nivelul mediu"
+
+msgid "section/summary/scores/averageRank"
+msgstr "Poziția medie"
+
+msgid "section/summary/scores/avgDamage"
+msgstr "Distrugere medie pe luptă"
+
+msgid "section/summary/scores/avgExperience"
+msgstr "Experienţă medie pe luptă"
+
+msgid "section/summary/scores/coolSigns"
+msgstr "Insigna de merit «As»"
+
+msgid "section/summary/scores/damageDealt"
+msgstr "Daune provocate"
+
+msgid "section/summary/scores/hits"
+msgstr "Acurateţea loviturilor"
+
+msgid "section/summary/scores/maxDestroyed"
+msgstr "Maxim de vehicule distruse"
+
+msgid "section/summary/scores/maxExperience"
+msgstr "Experiență maximă într-o luptă"
+
+msgid "section/summary/scores/personalScore"
+msgstr "Scor personal"
+
+msgid "section/summary/scores/totalBattles"
+msgstr "Lupte"
+
+msgid "section/summary/scores/totalWins"
+msgstr "Victorii"
+
+msgid "section/summary/title"
+msgstr "Sumar"
+
+msgid "section/technique/awards/noAchievements"
+msgstr "Fără distincţii primite"
+
+msgid "section/technique/buttonBar/avgExperience"
+msgstr "Exp. medie\npe luptă"
+
+msgid "section/technique/buttonBar/classiness"
+msgstr "Insigne de merit"
+
+msgid "section/technique/buttonBar/totalBattles"
+msgstr "Lupte"
+
+msgid "section/technique/buttonBar/totalWins"
+msgstr "Victorii"
+
+msgid "section/technique/buttonBar/vehicleName"
+msgstr "Nume"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/body"
+msgstr "Afişează vehiculele din garaj"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/header"
+msgstr "Vehicule în garaj"
+
+msgid "section/technique/emptyScreenLabel/battleType/all"
+msgstr "Nu există în Garaj vehicule care să fi participat în Lupte standard şi Lupte pe companii."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSolo"
+msgstr "Nu există în garaj vehicule care să fi participat în Vânătorul de Oțel."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSquad"
+msgstr "Nu există în garaj vehicule care să fi participat în Vânătorul de Oțel."
+
+msgid "section/technique/emptyScreenLabel/battleType/comp7"
+msgstr "Nu ai vehicule care au luptat în modul Violență."
+
+msgid "section/technique/emptyScreenLabel/battleType/epicRandom"
+msgstr "Niciun vehicul din garaj nu a participat în modul Luptă Epică"
+
+msgid "section/technique/emptyScreenLabel/battleType/fallout"
+msgstr "Niciun vehicul din Garajul tău nu a fost folosit în modul Exterminare."
+
+msgid "section/technique/emptyScreenLabel/battleType/fortBattles"
+msgstr "Nu există în garaj vehicule care să fi participat în Ofensive"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortSorties"
+msgstr "Nu există în garaj vehicule care să fi participat în raiduri."
+
+msgid "section/technique/emptyScreenLabel/battleType/globalMap"
+msgstr "Niciun vehicul din Garaj nu a luat parte la lupte pe Harta globală."
+
+msgid "section/technique/emptyScreenLabel/battleType/historical"
+msgstr "Nu există vehicule care să fi participat în lupte istorice."
+
+msgid "section/technique/emptyScreenLabel/battleType/ranked"
+msgstr "Niciun vehicul în Garaj care a participat în Lupte de clasament"
+
+msgid "section/technique/emptyScreenLabel/battleType/staticTeam"
+msgstr "Nu ai vehicule în garaj care au participat la lupte de clasament."
+
+msgid "section/technique/emptyScreenLabel/battleType/team"
+msgstr "Nu există vehicule care să fi participat în lupte pe echipe."
+
+msgid "section/technique/sort/tooltip/avgDamage/body"
+msgstr "Sortare după daunele medii pe luptă."
+
+msgid "section/technique/sort/tooltip/avgDamage/header"
+msgstr "Medie daune"
+
+msgid "section/technique/sort/tooltip/avgFrags/body"
+msgstr "Sortează după numărul de vehicule inamice distruse în luptă."
+
+msgid "section/technique/sort/tooltip/avgFrags/header"
+msgstr "Vehicule inamice distruse"
+
+msgid "section/technique/sort/tooltip/avgexp/body"
+msgstr "Sortare după experienţa medie pe luptă."
+
+msgid "section/technique/sort/tooltip/avgexp/header"
+msgstr "Experienţă medie"
+
+msgid "section/technique/sort/tooltip/battlesCount/body"
+msgstr "Sortare după numărul de lupte."
+
+msgid "section/technique/sort/tooltip/battlesCount/header"
+msgstr "Lupte"
+
+msgid "section/technique/sort/tooltip/class/body"
+msgstr "Sortare după clasa vehiculelor"
+
+msgid "section/technique/sort/tooltip/class/header"
+msgstr "Clasa"
+
+msgid "section/technique/sort/tooltip/lvl/body"
+msgstr "Sortare după generaţia vehiculelor."
+
+msgid "section/technique/sort/tooltip/lvl/header"
+msgstr "Generaţie"
+
+msgid "section/technique/sort/tooltip/marksofmastery/body"
+msgstr "Sortare după insignele de merit"
+
+msgid "section/technique/sort/tooltip/marksofmastery/header"
+msgstr "Insigne de merit"
+
+msgid "section/technique/sort/tooltip/name/body"
+msgstr "Sortare după numele vehiculelor."
+
+msgid "section/technique/sort/tooltip/name/header"
+msgstr "Nume"
+
+msgid "section/technique/sort/tooltip/nation/body"
+msgstr "Sortare după ţara vehiculelor."
+
+msgid "section/technique/sort/tooltip/nation/header"
+msgstr "Ţara"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/body"
+msgstr "Sortează după nivelul Elită"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/header"
+msgstr "Sistemul Elită"
+
+msgid "section/technique/sort/tooltip/prestigePoints/body"
+msgstr "Sortează după media Punctelor de prestigiu per luptă"
+
+msgid "section/technique/sort/tooltip/prestigePoints/header"
+msgstr "Media Punctelor de prestigiu per luptă"
+
+msgid "section/technique/sort/tooltip/technique/body"
+msgstr "Sortare după tipul vehiculelor."
+
+msgid "section/technique/sort/tooltip/technique/header"
+msgstr "Tip"
+
+msgid "section/technique/sort/tooltip/winRate/body"
+msgstr "Sortare după procentul de victorii."
+
+msgid "section/technique/sort/tooltip/winRate/header"
+msgstr "Victorii"
+
+msgid "section/technique/sort/tooltip/wins/body"
+msgstr "Sortare după numărul de victorii."
+
+msgid "section/technique/sort/tooltip/wins/header"
+msgstr "Victorii"
+
+msgid "section/technique/statistics/accuracy"
+msgstr "Lovituri"
+
+msgid "section/technique/statistics/assistedStunDamage/shortOther"
+msgstr "Daune la vehiculele inamice afectate de șocul provocat de jucător"
+
+msgid "section/technique/statistics/assistedStunDamage/shortSelf"
+msgstr "Daune la vehiculele inamice afectate de șocul provocat de tine"
+
+msgid "section/technique/statistics/avgAssistedStunDamage"
+msgstr "Daune la vehiculele inamice afectate de șocul provocat de tine"
+
+msgid "section/technique/statistics/avgDamage"
+msgstr "Daune provocate"
+
+msgid "section/technique/statistics/avgDestroyedVehicles"
+msgstr "Vehicule inamice distruse"
+
+msgid "section/technique/statistics/avgDetectedEnemies"
+msgstr "Vehicule inamice detectate"
+
+msgid "section/technique/statistics/avgExperience"
+msgstr "Experienţă"
+
+msgid "section/technique/statistics/avgReceivedDamage"
+msgstr "Daune primite"
+
+msgid "section/technique/statistics/avgScoutingDamage"
+msgstr "Daune provocate cu ajutorul jucătorului"
+
+msgid "section/technique/statistics/avgStats"
+msgstr "Scor mediu pe luptă"
+
+msgid "section/technique/statistics/avgStunNumber"
+msgstr "Număr de șocuri"
+
+msgid "section/technique/statistics/common"
+msgstr "Parametri generali"
+
+msgid "section/technique/statistics/damageCoefficient"
+msgstr "Raport distrugere"
+
+msgid "section/technique/statistics/destructionCoefficient"
+msgstr "Raport vehicule distruse"
+
+msgid "section/technique/statistics/maxDamage"
+msgstr "Daune maxime într-o luptă"
+
+msgid "section/technique/statistics/maxDestroyedVehicles"
+msgstr "Maxim de vehicule distruse"
+
+msgid "section/technique/statistics/maxExperience"
+msgstr "Experiență maximă într-o luptă"
+
+msgid "section/technique/statistics/records"
+msgstr "Scor record"
+
+msgid "section/technique/statistics/stunNumber"
+msgstr "Număr de șocuri"
+
+msgid "section/technique/statistics/survival"
+msgstr "Lupte finalizate în acţiune"
+
+msgid "section/technique/statistics/tankingCoefficient"
+msgstr "Eficienţa utilizării blindajului"
+
+msgid "section/technique/statistics/totalBattles"
+msgstr "Lupte"
+
+msgid "section/technique/statistics/totalWins"
+msgstr "Victorii"
+
+msgid "section/technique/tabBtn/achievements"
+msgstr "Distincţii"
+
+msgid "section/technique/tabBtn/awards/tooltip/body"
+msgstr "Afişează distincţiile pentru vehiculul selectat."
+
+msgid "section/technique/tabBtn/awards/tooltip/header"
+msgstr "Distincţii"
+
+msgid "section/technique/tabBtn/statistic"
+msgstr "Statistici"
+
+msgid "section/technique/tabBtn/statistic/tooltip/body"
+msgstr "Afişează statisticile pentru vehiculul selectat."
+
+msgid "section/technique/tabBtn/statistic/tooltip/header"
+msgstr "Statistici"
+
+msgid "section/technique/title"
+msgstr "Vehicule"
+
+msgid "section/technique/window/hangarVehiclesLabel"
+msgstr "Vehicule în garaj"
+
+msgid "tooltip/dropdown/battleType/body"
+msgstr "Activează filtrarea pentru a vedea statisticile pe moduri de lupte."
+
+msgid "tooltip/dropdown/battleType/header"
+msgstr "Sortare după modurile de lupte"

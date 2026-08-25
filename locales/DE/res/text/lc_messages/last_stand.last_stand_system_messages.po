@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Taktisches Gerät"
+
+msgid "open_artefact/server_error"
+msgstr "Der Vorgang ist vorübergehend nicht verfügbar. Versuchen Sie es später erneut."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Taktische Geräte für Fahrzeug %s konnten nicht aufgefüllt werden – Technischer Fehler."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Taktische Geräte für Fahrzeug %s konnten nicht aufgefüllt werden – Unzureichendes Guthaben."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Taktische Geräte für Fahrzeug %s wurden aufgefüllt. Kosten: "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Aufzeichnungen zum Dechiffrieren verfügbar"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Modus: Letztes Gefecht: Terra Nord"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Letztes Gefecht: Terra Nord (Standard)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Letztes Gefecht: Terra Nord (Schwer)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Letztes Gefecht: Terra Nord (Brutal)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Schwierigkeit"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Standard"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Schwer"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Brutal"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Daten"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Ziel abgeschlossen!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Ziele abgeschlossen!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Fahrzeug"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Abgeschlossene Wellen: %(curPhase)s von %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Ausgegeben: %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Finanztransaktion"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Sie können den Schwierigkeitsgrad im Schwierigkeitsfeld in der Garage für „Letztes Gefecht“ einstellen."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Schwierigkeit „Schwer“ freigeschaltet"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Sie können den Schwierigkeitsgrad im Schwierigkeitsfeld in der Garage für „Letztes Gefecht“ einstellen."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Schwierigkeit „Brutal“ freigeschaltet"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Sie können den Modus im Schwierigkeitsfeld in der Garage für „Letztes Gefecht: Operation Pandora“ einstellen."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Modus „Letztes Gefecht“ freigeschaltet"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Erhaltene Dechiffrierungsschlüssel: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Quittung"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Schlüssel entfernt: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Erfolgreich dechiffriert"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Gefechte für „Letztes Gefecht“ sind vorübergehend nicht verfügbar.\nVersuchen Sie es später noch einmal."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Gefechte auf Schwierigkeit %(difficulty)s sind vorübergehend nicht verfügbar. Versuchen Sie es bitte später erneut."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "„Letztes Gefecht“ ist derzeit nicht verfügbar. Mehr Informationen finden Sie auf dem Portal."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Der Zugkommandant hat die Schwierigkeit geändert: %(level)s"
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Spieler %(userName)s hat einen der Schwierigkeitsgrade noch nicht freigeschaltet."

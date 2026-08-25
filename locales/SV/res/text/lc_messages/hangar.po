@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "Köp"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "Följande förnödenhet fylls på: %(consumables)s."
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "Köp förnödenheter"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s besättningsmedlemmar"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Du har redan en besättning för denna vagn"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s besättningsmedlemmar."
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "Rekrytera nya besättningsmedlemmar"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "här."
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Wargaming använder den alfanumeriska kombinationen T-34 med dess allmänt vedertagna betydelse som refererar till verkliga stridsvagnar och har ingen relation med någon upphovsrättsinnehavare av varumärken med samma namn. Läs mer {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "Ammunition"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "Fyll på förnödenheter"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "Garageplats"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "Inbyte"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "Gratis"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "Rekrytera %(count)s besättningsmedlemmar"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "Hyrvagn"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "Hyr"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "Hyr i 30 dagar"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "Hyr i 3 dagar"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "Hyr i 7 dagar"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "Hyr i %(days)s dagar"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "Frontstridsmoment"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "Säsong av frontstrider"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "Moment av rankade strider"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "Säsong av rankade strider"
+
+msgid "buyVehicleWindow/restore"
+msgstr "Återställ"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "Obegränsat"
+
+msgid "buyVehicleWindow/title"
+msgstr "Konfiguration"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "Återställning"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "Köp"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "Inbyte"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "Inbyte"
+
+msgid "carousel/filters/allVehicle"
+msgstr "Alla mina vagnar"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "Besättning"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "Egenskaper"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} strid"
+msgstr[1] "{{count}} strider"
+msgstr[2] "{{count}} strider"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} dag"
+msgstr[1] "{{count}} dagar"
+msgstr[2] "{{count}} dagar"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} timme"
+msgstr[1] "{{count}} timmar"
+msgstr[2] "{{count}} timmar"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} seger"
+msgstr[1] "{{count}} segrar"
+msgstr[2] "{{count}} segrar"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "Klicka för att gå till din vagnsspellista"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "Mina vagnar"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "Besättningsträning, omskolning och hantering."
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "Besättningshantering"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "Vagnsutseenden: 2D/3D-stilar och andra element."
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "Utseenden"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "Tryck för att öppna"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "Vagnsinformation, forskning, jämförelser och reparation."
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "Vagnshantering"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "OM VAGNEN"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "PANSAR"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "JÄMFÖR"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "AUTO-ÅTERSTÄLLNING"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "SKICKA TILLBAKA BESÄTTNINGEN"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "SKICKA TILL LOGEMENTET"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "OMSKOLA BESÄTTNING"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "SNABBSERVICE"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "FÄLTANPASSNING"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "BYT NATION"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "AKTIV"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "PRO-BOOST {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "SNABBTRÄNING"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "REPARATIONER"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "FORSKNING"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "UPPGRADERINGAR"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "Du kan ändra ditt val när du vill."
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "Pro-boost aktiv för den här vagnen"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "Du kan bara boosta vagnar i slumpvis matchade strider, strider i Pansarstorm, Frontstrider, strider på världskartan samt turneringar."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "Striderna ej kompatibla med Pro-boost"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "Du kan bara boosta forskningsbara- och samlarvagnar klass I-X."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "Vagnen ej kompatibel med Pro-boost"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "Pro-boost aktiv för {{vehicle}}. Du kan ändra ditt val om {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "Kom tillbaka senare!"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "Du kan ändra ditt val om {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "Pro-boost aktiv för den här vagnen"

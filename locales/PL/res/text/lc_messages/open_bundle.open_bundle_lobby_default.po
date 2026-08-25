@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Tak jest!"
+
+msgid "attachments_preview/description"
+msgstr "Zestaw dodatków 3D"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Epicki dodatek 3D"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Legendarny dodatek 3D"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Rzadki dodatek 3D"
+
+msgid "bundle/name"
+msgstr "Tajemniczy targ"
+
+msgid "bundle/name_uppercased"
+msgstr "TAJEMNICZY TARG"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Anuluj"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Kup"
+
+msgid "confirmation/description"
+msgstr "Potwierdź, aby otrzymać obligacje i nową nagrodę z komórki."
+
+msgid "confirmation/purchase"
+msgstr "Kupić za {{price}}?"
+
+msgid "entryPoint/button"
+msgstr "Do wydarzenia"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} już jest. Zobacz sam!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Kupując obligacje podczas {{eventName}}, otrzymasz nagrodę z jednej z nieotwartych komórek jako prezent bonusowy. Komórki zawierają cenne przedmioty w grze – w tym główną nagrodę wydarzenia: pojazd premium."
+
+msgid "intro/cards/description/c_2"
+msgstr "Nagrody są przyznawane w kolejności losowej. Każda nieotwarta komórka ma swoje prawdopodobieństwo wyboru, a wszystkie prawdopodobieństwa zawsze sumują się do 100%. Gdy komórka jest otwarta, nie może zostać otwarta ponownie, a szanse na otrzymanie pozostałych nagród rosną."
+
+msgid "intro/cards/description/c_3"
+msgstr "Każdy krok kosztuje określoną ilość złota. Liczba otrzymywanych obligacji i koszt kroku zmieniają się w miarę postępów."
+
+msgid "intro/cards/link"
+msgstr "Warunki i ceny za każdy krok znajdziesz na {{@ class 'linkPart'}}portalu.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Kupowanie obligacji"
+
+msgid "intro/cards/title/c_2"
+msgstr "Komórki i prawdopodobieństwo"
+
+msgid "intro/cards/title/c_3"
+msgstr "Ceny krokowe"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "TWOJA NAGRODA CZEKA"
+
+msgid "main/alt/description"
+msgstr "Zobacz prawdopodobieństwo"
+
+msgid "main/alt/tooltip/body"
+msgstr "Naciśnij klawisz Alt, aby zobaczyć prawdopodobieństwo otrzymania każdej komórki."
+
+msgid "main/alt/tooltip/header"
+msgstr "Wyświetlanie prawdopodobieństwa"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "GRATULACJE! \n OTRZYMAŁEŚ WSZYSTKIE NAGRODY"
+
+msgid "main/footer/button"
+msgstr "Kup"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}Nagroda z komórki"
+
+msgid "main/footer/receive"
+msgstr "Otrzymujesz: {{item}}"
+
+msgid "main/header/description"
+msgstr "Weź udział w wydarzeniu między {{startDate}} a {{endDate}} i zgarnij nagrody!"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Do personalizacji"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Przejdź do stylu"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Przejdź do pojazdu"
+
+msgid "notifications/specialReward/title"
+msgstr "Główna nagroda wydarzenia {{eventName}} jest Twoja!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Dodatkowe nagrody:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Otrzymano:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Ta operacja jest tymczasowo niedostępna z powodów technicznych. Spróbuj ponownie później."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Do wydarzenia"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s wkrótce się skończy!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Wydarzenie jest dostępne do: %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "Komórka %(eventName)s otwarta"
+
+msgid "tooltips/entry/description"
+msgstr "Twoja nagroda czeka! Każdy zakup obligacji daje Ci losową nagrodę z jednej z komórek. Za każdym razem otwierasz inną komórkę, bo te, które zostały już otwarte, są eliminowane."
+
+msgid "tooltips/entry/timer"
+msgstr "Wydarzenie będzie dostępne przez {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "O wydarzeniu"
+
+msgid "tooltips/steps/description"
+msgstr "Za każdy zakup otrzymujesz więcej {{currency}}. Ilość, jaką dostajesz, zwiększa się przy niektórych krokach zakupów."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} za każdy zakup"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Kroki:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} — {{end}}"

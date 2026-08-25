@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Η πρόκληση φθοράς στο όχημα διακόπτει την αποκατάσταση των HP.\n\nΟ ρυθμός αποκατάστασης των HP και το μέγιστο όριο αποκατάστασης εξαρτώνται από τα συνολικά HP του οχήματος, συμπεριλαμβανομένων και όλων των συντελεστών που έχουν ενεργοποιηθεί."
+
+msgid "armorPatching/alt/info"
+msgstr "Για τις ομαδικές ικανότητες υπολογίζεται το μέσο επίπεδο εκπαίδευσης όλων των μελών του πληρώματος. Η επίδραση ξεκινά όταν η εκπαίδευση φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Η χρήση ενός Κουτιού Επισκευών αποκαθιστά πλέον %(hpRecover)s των {yellow_Start}HP{yellow_End} του οχήματος μέσα σε 5 sec, αθροιστικά έως και 20% των HP ανά μάχη. Κάνει δυνατή τη χρήση των Κουτιών Επισκευών χωρίς να υπάρχουν κρίσιμες φθορές στο όχημα."
+
+msgid "armorPatching/hudDescription"
+msgstr "Αποκαθιστά τα HP του οχήματος."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100% σε όλα τα μέλη του πληρώματος, θα αποκαθιστά %(hpRecover)s των {yellow_Start}HP{yellow_End} του οχήματος μέσα σε 5 sec, αθροιστικά έως και 20% των HP ανά μάχη. Κάνει δυνατή τη χρήση των Κουτιών Επισκευών χωρίς να υπάρχουν κρίσιμες φθορές στο όχημα."
+
+msgid "armorPatching/name"
+msgstr "Αποκατάσταση Θωράκισης"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Αυξάνει τους βασικούς συντελεστές κάλυψης του οχήματος."
+
+msgid "brotherhood/alt/description"
+msgstr "Το μπόνους επιδόσεων του πληρώματος βελτιώνει τις γενικές επιδόσεις του πληρώματός σας και τις ικανότητες που αυτό κατέχει, εκτός από αυτήν. Εξοπλισμός και αναλώσιμα που έχουν παρόμοια επίδραση, η χρήση της οδηγίας Καθαρισμός Εξαερισμού, η ικανότητα Έκτακτη Ανάγκη του Αρχηγού, καθώς και οι ικανότητες Πλευρό Με Πλευρό και Ειδικός Διαβιβάσεων του Ασυρματιστή, μπορούν να αυξήσουν περαιτέρω την επίδραση της συγκεκριμένης παραμέτρου."
+
+msgid "brotherhood/alt/info"
+msgstr "Για τις ομαδικές ικανότητες υπολογίζεται το μέσο επίπεδο εκπαίδευσης όλων των μελών του πληρώματος. Η επίδραση ξεκινά όταν η εκπαίδευση φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "Αυξάνει το {greenBright_Start}μπόνους επιδόσεων{greenBright_End} όλων των μελών του πληρώματος κατά %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100% σε όλα τα μέλη του πληρώματος, θα αυξήσει το {greenBright_Start}μπόνους επιδόσεων{greenBright_End} του πληρώματος κατά %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Αδέρφια στη Μάχη"
+
+msgid "brotherhood/shortDescription"
+msgstr "Αυξάνει τις επιδόσεις του πληρώματος."
+
+msgid "camouflage/alt/description"
+msgstr "Η ικανότητα αυτή αυξάνει τους συντελεστές κάλυψης του οχήματος. Η επίδρασή της αυξάνεται με τη χρήση της οδηγίας Φυσική Επικάλυψη.\n\nΟι συντελεστές κάλυψης του οχήματος μπορούν να αυξηθούν περαιτέρω με τη χρήση καμουφλάζ ή τεχνοτροπίας, καθώς και με την τοποθέτηση εξοπλισμού που έχει παρόμοια επίδραση."
+
+msgid "camouflage/alt/info"
+msgstr "Για τις ομαδικές ικανότητες υπολογίζεται το μέσο επίπεδο εκπαίδευσης όλων των μελών του πληρώματος. Η επίδραση ξεκινά όταν η εκπαίδευση φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "Αυξάνει τους {greenBright_Start}συντελεστές κάλυψης{greenBright_End} του οχήματος κατά %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100% σε όλα τα μέλη του πληρώματος, θα αυξήσει τους {greenBright_Start}συντελεστές κάλυψης{greenBright_End} του οχήματος κατά %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Κάλυψη"
+
+msgid "camouflage/shortDescription"
+msgstr "Αυξάνει τους βασικούς συντελεστές κάλυψης του οχήματος."
+
+msgid "commander_coordination/alt/description"
+msgstr "Ενεργοποιείται κάθε φορά που εντοπίζετε κάποιο εχθρικό όχημα και δεν αυξάνεται εάν εντοπίσετε πολλαπλά εχθρικά οχήματα.\n\nΠεραιτέρω αύξηση της επίδρασης μπορεί να επιτευχθεί με την τοποθέτηση εξοπλισμού και αναλώσιμων που έχουν παρόμοια επίδραση ή την εκπαίδευση της ικανότητας Γρήγορη Στόχευση του Πυροβολητή."
+
+msgid "commander_coordination/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "Αυξάνει την {yellow_Start}ταχύτητα στόχευσης{yellow_End} κατά %(vehicleGunAimSpeed)s για 15 sec, κάθε φορά που εντοπίζετε κάποιο εχθρικό όχημα."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Αυξάνεται η ταχύτητα στόχευσης."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει την {yellow_Start}ταχύτητα στόχευσης{yellow_End} κατά %(vehicleGunAimSpeed)s για 15 sec, κάθε φορά που εντοπίζετε κάποιο εχθρικό όχημα.\t"
+
+msgid "commander_coordination/name"
+msgstr "Συντονισμός"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Αυξάνεται η ταχύτητα στόχευσης."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Το εύρος ορατότητας μπορεί να αυξηθεί με την ικανότητα Επίγνωση Της Κατάστασης του Ασυρματιστή, με την τοποθέτηση κατάλληλου εξοπλισμού και με τη χρήση της οδηγίας Βαθμονόμηση Οπτικών."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "Αυξάνει το {greenBright_Start}εύρος ορατότητας{greenBright_End} κατά %(circularVisionRadius)s&zwnbsp;. Η {greenBright_Start}ποινή στις χαλασμένες συσκευές διόπτευσης{greenBright_End} μειώνεται κατά %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Μειώνεται η ποινή στις χαλασμένες συσκευές διόπτευσης."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει το {greenBright_Start}εύρος ορατότητας{greenBright_End} κατά %(circularVisionRadius)s&zwnbsp; και θα μειώσει την {greenBright_Start}ποινή στις χαλασμένες συσκευές διόπτευσης{greenBright_End} κατά %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Αναγνώριση"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Αυξάνει το εύρος ορατότητας, ιδίως με χαλασμένες συσκευές διόπτευσης."
+
+msgid "commander_emergency/alt/description"
+msgstr "Όταν δέχεστε επανειλημμένως φθορά από κάποιον αντίπαλο, η επίδραση δεν αυξάνεται περαιτέρω. Το μπόνους επιδόσεων του πληρώματος βελτιώνει τις γενικές επιδόσεις του πληρώματός σας. Εξοπλισμός και αναλώσιμα που έχουν παρόμοια επίδραση, η χρήση της οδηγίας Καθαρισμός Εξαερισμού, η ομαδική ικανότητα Αδέρφια Στη Μάχη, καθώς και οι ικανότητες Πλευρό Με Πλευρό και Ειδικός Διαβιβάσεων του Ασυρματιστή, μπορούν να αυξήσουν περαιτέρω την επίδραση της συγκεκριμένης παραμέτρου."
+
+msgid "commander_emergency/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "Αυξάνει το {yellow_Start}μπόνους επιδόσεων{yellow_End} του πληρώματος κατά %(crewLevelIncrease)s για 15 sec αφότου προκληθεί φθορά στο όχημα από κάποιον αντίπαλο."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Αυξάνεται το μπόνους επιδόσεων του πληρώματος."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει το {yellow_Start}μπόνους επιδόσεων{yellow_End} του πληρώματος κατά %(crewLevelIncrease)s για 15 sec αφότου προκληθεί φθορά στο όχημα από κάποιον αντίπαλο."
+
+msgid "commander_emergency/name"
+msgstr "Έκτακτη Ανάγκη"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Αυξάνεται το μπόνους επιδόσεων του πληρώματος."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Προειδοποιεί με κάποια καθυστέρηση για βολή εχθρικού Α/Κ Πυροβόλου.\n\nΗ επίδραση της ικανότητας βελτιώνεται περαιτέρω με τη χρήση της οδηγίας Προσδοκώμενη Εκδίκηση."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "Δίνει {yellow_Start}σήμα κινδύνου για βολή εχθρικού πυροβολικού{yellow_End} και δείχνει την κατεύθυνση της βολής με καθυστέρηση %(artNotificationDelayFactor)s. Μειώνει την {greenBright_Start}αρνητική επίδραση του σοκ{greenBright_End} κατά %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα δώσει {yellow_Start}σήμα κινδύνου για βολή εχθρικού πυροβολικού{yellow_End} που δείχνει την κατεύθυνση της βολής με καθυστέρηση %(artNotificationDelayFactor)s. Επίσης, θα μειώσει την {greenBright_Start}αρνητική επίδραση του σοκ{greenBright_End} κατά %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Ηχητικός Εντοπισμός"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Προειδοποιεί για βολή εχθρικού Α.Κ Πυροβόλου."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Το μπόνους επιδόσεων του πληρώματος βελτιώνει τις επιδόσεις του πληρώματός σας στη μάχη.\n\nΗ επίδραση της συγκεκριμένης παραμέτρου μπορεί να αυξηθεί περαιτέρω με την τοποθέτηση εξοπλισμού και αναλώσιμων που έχουν παρόμοια επίδραση, με χρήση της οδηγίας Καθαρισμός Εξαερισμού, καθώς και με την επιλογή άλλων ικανοτήτων πληρώματος."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "Το {yellow_Start}μπόνους επιδόσεων{yellow_End} του πληρώματος θα αυξηθεί κατά %(crewLevelIncrease)s όσο η αντίπαλη ομάδα διαθέτει στη μάχη τουλάχιστον 3 οχήματα περισσότερα από τη δική σας ομάδα&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Αυξάνεται το μπόνους επιδόσεων του πληρώματος (με υπεροπλία των αντιπάλων)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει το {yellow_Start}μπόνους επιδόσεων{yellow_End} του πληρώματος κατά %(crewLevelIncrease)s όσο η αντίπαλη ομάδα διαθέτει στη μάχη τουλάχιστον 3 οχήματα περισσότερα από τη δική σας ομάδα&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Ανασύνταξη Δυνάμεων"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Αυξάνεται το μπόνους επιδόσεων του πληρώματος"
+
+msgid "commander_practical/alt/description"
+msgstr "Η ικανότητα επιδρά μαζί με οποιονδήποτε τύπο αναλώσιμου.\n\nΗ επίδραση της ικανότητας βελτιώνεται περαιτέρω με τη χρήση της οδηγίας Διεξοδικές Προετοιμασίες."
+
+msgid "commander_practical/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "Μειώνει τον {greenBright_Start}χρόνο επαναφοράς των αναλώσιμων{greenBright_End} κατά %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα μειώσει τον {greenBright_Start}χρόνο επαναφοράς των αναλώσιμων{greenBright_End} κατά %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Πρακτικότητα"
+
+msgid "commander_practical/shortDescription"
+msgstr "Μειώνει τον χρόνο επαναφοράς των αναλώσιμων."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Η ικανότητα Έκτη Αίσθηση ακυρώνεται όταν τραυματιστεί ο Αρχηγός του πληρώματος. Η ενεργοποίησή της μπορεί να επιταχυνθεί με την ικανότητα Υποκλοπή Σήματος του Ασυρματιστή."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Είναι μία μοναδική ιδιότητα του Αρχηγού. η οποία δεν απαιτεί εκπαίδευση και είναι διαθέσιμη εξ αρχής."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Κάνει τον Αρχηγό Πληρώματος ικανό να αντιλαμβάνεται πότε το όχημά του έχει εντοπιστεί από τους αντιπάλους. Ενεργοποιείται %(delay)s από τον εντοπισμό του οχήματος."
+
+msgid "commander_sixthSense/name"
+msgstr "Έκτη Αίσθηση"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Κάνει τον Αρχηγό Πληρώματος ικανό να αντιλαμβάνεται πότε το όχημά του έχει εντοπιστεί από τους αντιπάλους."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Το μπόνους επιδόσεων του πληρώματος βελτιώνει τις επιδόσεις του πληρώματός σας στη μάχη.\n\nΗ επίδραση της συγκεκριμένης παραμέτρου μπορεί να αυξηθεί περαιτέρω με την τοποθέτηση εξοπλισμού και αναλώσιμων που έχουν παρόμοια επίδραση, με χρήση της οδηγίας Καθαρισμός Εξαερισμού, καθώς και με την επιλογή άλλων ικανοτήτων πληρώματος."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "Η χρήση ενός Κουτιού Πρώτων Βοηθειών θα αυξάνει πλέον το {yellow_Start}μπόνους επιδόσεων{yellow_End} του πληρώματος κατά %(crewLevelIncrease)sγια 15&nbsp;sec. Κάνει δυνατή τη χρήση των Κουτιών Πρώτων Βοηθειών χωρίς να υπάρχουν τραυματισμένα μέλη πληρώματος&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Αυξάνεται το μπόνους επιδόσεων του πληρώματος (με χρήση Κουτιών Πρώτων Βοηθειών)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, η χρήση ενός Κουτιού Πρώτων Βοηθειών θα αυξήσει το {yellow_Start}μπόνους επιδόσεων{yellow_End} του πληρώματος κατά %(crewLevelIncrease)sγια 15sec. Κάνει δυνατή τη χρήση των Κουτιών Πρώτων Βοηθειών χωρίς να υπάρχουν τραυματισμένα μέλη πληρώματος&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Εγρήγορση"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Αυξάνεται το μπόνους επιδόσεων του πληρώματος"
+
+msgid "commander_tutor/alt/description"
+msgstr "Τραυματισμένος Αρχηγός δεν δεν μπορεί να αντικαταστήσει κάποιο άλλο μέλος πληρώματος. Το μπόνους υπολογίζεται με βάση τα βασικά Crew XP που κερδίσατε στη μάχη.\n\nΠερισσότερα Crew XP μπορείτε να κερδίσετε από τη χρήση Τόμων Πληρώματος ή από τη μετατροπή Free XP σε Crew XP."
+
+msgid "commander_tutor/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Αυξάνει τα κερδισμένα {greenBright_Start}XP{greenBright_End} για όλα τα μέλη του πληρώματος κατά %(xpBonusFactorPerLevel)s. Ο Αρχηγός {greenBright_Start}αντικαθιστά τα τραυματισμένα μέλη του πληρώματος{greenBright_End} κατά %(woundedCrewEfficiency)s."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Αντικαθίστανται τα τραυματισμένα μέλη του πληρώματος."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει τα κερδισμένα {greenBright_Start}XP{greenBright_End} για όλα τα μέλη του πληρώματος κατά %(xpBonusFactorPerLevel)s. Ο Αρχηγός {greenBright_Start}θα αντικαθιστά τα τραυματισμένα μέλη του πληρώματος{greenBright_End} κατά %(woundedCrewEfficiency)s."
+
+msgid "commander_tutor/name"
+msgstr "Μέντορας"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Αντικαθίστανται τα τραυματισμένα μέλη του πληρώματος."
+
+msgid "commander_universalist/alt/description"
+msgstr "Ο Αρχηγός αντικαθιστά μόνο την κύρια ειδικότητα του τραυματισμένου μέλους του πληρώματος. Η επίδραση μειώνεται με κάθε πρόσθετο τραυματισμένο μέλος."
+
+msgid "commander_universalist/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Ο Αρχηγός {greenBright_Start}αντικαθιστά τα τραυματισμένα μέλη του πληρώματος{greenBright_End} κατά %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Ο Αρχηγός αντικαθιστά τα τραυματισμένα μέλη του πληρώματος."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, ο Αρχηγός {greenBright_Start}θα αντικαθιστά τα τραυματισμένα μέλη του πληρώματος{greenBright_End} κατά %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/name"
+msgstr "Γνώστης Όλων Των Λειτουργιών"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Ο Αρχηγός αντικαθιστά τα τραυματισμένα μέλη του πληρώματος."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Μειώνει την απώλεια ταχύτητας όταν το όχημα κινείται σε μαλακό έδαφος. Μειώνει σημαντικά την απώλεια ταχύτητας όταν το όχημα κινείται σε λασπώδες έδαφος και το κάνει να κινείται σαν να βρίσκεται σε μαλακό έδαφος.\nΗ ευκινησία σε μαλακό ή σε λασπώδες έδαφος δεν μπορεί να είναι μεγαλύτερη από την ευκινησία σε σκληρό έδαφος."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "Μειώνει {greenBright_Start}την απώλεια ταχύτητας όταν το όχημα κινείται σε μαλακό έδαφος{greenBright_End} κατά %(mediumGroundFactor)s&zwnbsp;, ενώ {greenBright_Start}η απώλεια ταχύτητας όταν το όχημα κινείται σε λασπώδες έδαφος{greenBright_End} μειώνεται στο %(softGroundFactor)s της παραμέτρου που ισχύει για το μαλακό έδαφος."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα μειώσει {greenBright_Start}την απώλεια ταχύτητας όταν το όχημα κινείται σε μαλακό έδαφος{greenBright_End} κατά %(mediumGroundFactor)s&zwnbsp;, ενώ {greenBright_Start}η απώλεια ταχύτητας όταν το όχημα κινείται σε λασπώδες έδαφος{greenBright_End} θα μειωθεί στο %(softGroundFactor)s της παραμέτρου που ισχύει για το μαλακό έδαφος."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Οδήγηση Εκτός-Δρόμου"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Το μπόνους επιδόσεων του πληρώματος βελτιώνει τις επιδόσεις του πληρώματός σας στη μάχη.\n\nΗ επίδραση της συγκεκριμένης παραμέτρου μπορεί να αυξηθεί περαιτέρω με την τοποθέτηση εξοπλισμού και αναλώσιμων που έχουν παρόμοια επίδραση, με χρήση της οδηγίας Καθαρισμός Εξαερισμού, καθώς και με την επιλογή άλλων ικανοτήτων πληρώματος."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "Αυξάνει το {yellow_Start}μπόνους επιδόσεων{yellow_End} του πληρώματος κατά %(crewLevelIncrease)s όταν η φθορά που αποκρούει η θωράκιση υπερβαίνει τα αρχικά hit points του οχήματός σας."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Αυξάνεται το μπόνους επιδόσεων του πληρώματος (από απόκρουση φθοράς)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει το {yellow_Start}μπόνους επιδόσεων{yellow_End} του πληρώματος κατά %(crewLevelIncrease)s όταν η φθορά που αποκρούει η θωράκιση υπερβαίνει τα αρχικά hit points του οχήματός σας."
+
+msgid "driver_bulletproof/name"
+msgstr "Αλεξίσφαιρος"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Η μέγιστη ταχύτητα του οχήματός σας μπορεί να αυξηθεί και η απώλεια ταχύτητας από χαλασμένο κινητήρα μπορεί να μειωθεί με την τοποθέτηση κατάλληλου εξοπλισμού."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "Αυξάνει τη {greenBright_Start}μέγιστη ταχύτητα{greenBright_End} και την {greenBright_Start}ταχύτητα οπισθοπορείας{greenBright_End} του οχήματός σας κατά %(vehicleForwardMaxSpeed)s. Μειώνει την {greenBright_Start}απώλεια ταχύτητας από χαλασμένο κινητήρα{greenBright_End} κατά %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Μειώνεται η απώλεια ταχύτητας από χαλασμένο κινητήρα."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει τη {greenBright_Start}μέγιστη ταχύτητα{greenBright_End} και την {greenBright_Start}ταχύτητα οπισθοπορείας{greenBright_End} του οχήματός σας κατά %(vehicleForwardMaxSpeed)s, ενώ θα μειώσει την {greenBright_Start}απώλεια ταχύτητας από χαλασμένο κινητήρα{greenBright_End} κατά %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Μηχανικός"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Μειώνεται η απώλεια ταχύτητας από χαλασμένο κινητήρα."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Η ικανότητα αυτή είναι ανενεργή όταν συγκρούονται δύο συμμαχικά οχήματα.\n\nΗ φθορά από εμβολισμό στο όχημά σας μπορεί να μειωθεί περαιτέρω με την τοποθέτηση κατάλληλου εξοπλισμού."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "Αυξάνει την {greenBright_Start}προσλαμβανόμενη φθορά από εμβολισμό για τα εχθρικά οχήματα{greenBright_End} κατά %(damageEnemiesByRamming)s&zwnbsp; και μειώνει την {greenBright_Start}προσλαμβανόμενη φθορά από εμβολισμό για το όχημά σας{greenBright_End} κατά %(vehicleRamDamageResistance)s&zwnbsp; και {greenBright_Start}για την ανάρτησή σας{greenBright_End} κατά %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει την {greenBright_Start}προσλαμβανόμενη φθορά από εμβολισμό για τα εχθρικά οχήματα{greenBright_End} κατά %(damageEnemiesByRamming)s&zwnbsp; και θα μειώσει την {greenBright_Start}προσλαμβανόμενη φθορά από εμβολισμό για το όχημά σας{greenBright_End} κατά %(vehicleRamDamageResistance)s&zwnbsp; και {greenBright_Start}για την ανάρτησή σας{greenBright_End} κατά %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Ελεγχόμενη Σύγκρουση"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Μειώνει την προσλαμβανόμενη φθορά από εμβολισμό για το όχημά σας και αυξάνει την προσλαμβανόμενη φθορά από εμβολισμό για τα εχθρικά οχήματα."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Η φθορά από βλήματα HE στο όχημά σας μπορεί να μειωθεί περαιτέρω με την τοποθέτηση κατάλληλου εξοπλισμού."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "Μειώνει την {greenBright_Start}προσλαμβανόμενη φθορά από βλήματα HE{greenBright_End} κατά %(vehicleHEShellDamageResistance)s&zwnbsp;. Μειώνεται επίσης η&nbsp;{greenBright_Start}πιθανότητα φωτιάς στον κινητήρα{greenBright_End} κατά %(vehicleFireChance)s και η {greenBright_Start}προσλαμβανόμενη φθορά στις ερπύστριες{greenBright_End} κατά %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα μειώσει την {greenBright_Start}προσλαμβανόμενη φθορά από βλήματα HE{greenBright_End} κατά %(vehicleHEShellDamageResistance)s&zwnbsp;. Θα μειωθεί επίσης η {greenBright_Start}πιθανότητα φωτιάς στον κινητήρα{greenBright_End} κατά %(vehicleFireChance)s και η {greenBright_Start}προσλαμβανόμενη φθορά στις ερπύστριες{greenBright_End} κατά %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Προσεκτική Τοποθέτηση"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Δεν επηρεάζει την ευστοχία ακίνητου οχήματος και την ευστοχία του οχήματος κατά την περιστροφή του σκάφους.\n\nΗ επίδραση της ικανότητας μπορεί να βελτιωθεί με χρήση της οδηγίας Περίπλοκο Κιβώτιο Ταχυτήτων. Η ευστοχία εν κινήσει μπορεί να αυξηθεί περαιτέρω με την τοποθέτηση κατάλληλου εξοπλισμο, καθώς και με χρήση της οδηγίας Λίπανση Σταθεροποιητή."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "Αυξάνει την {greenBright_Start}ευστοχία των πυρών{greenBright_End} εν κινήσει κατά %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει την {greenBright_Start}ευστοχία των πυρών{greenBright_End} εν κινήσει κατά %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Ομαλή Πορεία"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Βελτιώνει την ευστοχία κατά τη ρίψη πυρών εν κινήσει."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Η ικανότητα αυτή επηρεάζει την ταχύτητα επισκευής της ερπύστριας από το κόκκινο στο κίτρινο επίπεδο, μέσα σε ακτίνα 50m από άλλο όχημα της ίδιας ομάδας."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "Η {yellow_Start}ταχύτητα επισκευής της ερπύστριας{yellow_End} θα αυξάνεται κατά %(suspensionRepairSpeed)s μέσα σε ακτίνα 50 μέτρων από άλλο όχημα της ίδιας ομάδας."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Αυξάνεται η ταχύτητα επισκευής της ερπύστριας (κοντά σε συμπαίκτη)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει την {yellow_Start}ταχύτητα επισκευής της ερπύστριας{yellow_End} κατά %(suspensionRepairSpeed)s μέσα σε ακτίνα 50 μέτρων από άλλο όχημα της ίδιας ομάδας."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Υποστήριξη Μάχης"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Η πιθανότητα φωτιάς στο όχημα μπορεί να μειωθεί περαιτέρω με τοποθέτηση εξοπλισμού και αναλώσιμων που έχουν παρόμοια επίδραση. Η ικανότητα Πυρόσβεση θα επιταχύνει την πυρόσβεση σε περίπτωση φωτιάς."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "Μειώνει την {greenBright_Start}πιθανότητα φωτιάς στον κινητήρα{greenBright_End} κατά %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα μειώσει την {greenBright_Start}πιθανότητα φωτιάς στον κινητήρα{greenBright_End} κατά %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Προληπτική Συντήρηση"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Μειώνει την πιθανότητα φωτιάς στον κινητήρα."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Η ταχύτητα περιστροφής του σκάφους μπορεί να αυξηθεί περαιτέρω με τοποθέτηση εξοπλισμού και αναλώσιμων που έχουν παρόμοια επίδραση."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "Αυξάνει την {greenBright_Start}ταχύτητα περιστροφής του σκάφους{greenBright_End} κατά %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει την {greenBright_Start}ταχύτητα περιστροφής του σκάφους{greenBright_End} κατά %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Επιτυχές Φρενάρισμα"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Αυξάνει την ταχύτητα περιστροφής του σκάφους."
+
+msgid "fireFighting/alt/description"
+msgstr "Η συγκεκριμένη ικανότητα επηρεάζει τη διάρκεια της φωτιάς και την προσλαμβανόμενη φθορά από αυτήν.\n\nΕάν 2 Ασυρματιστές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας.\n\nΗ επίδραση της ικανότητας μπορεί να βελτιωθεί με χρήση της οδηγίας Έμπειροι Πυροσβέστες."
+
+msgid "fireFighting/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "Αυξάνει την {greenBright_Start}ταχύτητα πυρόσβεσης{greenBright_End} κατά %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει την {greenBright_Start}ταχύτητα πυρόσβεσης{greenBright_End} κατά %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Πυρόσβεση"
+
+msgid "fireFighting/shortDescription"
+msgstr "Βελτιώνει τη δυνατότητα πυρόσβεσης."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Το προκαθορισμένο εύρος διάτρησης και πρόκλησης φθοράς είναι ±25% από τις βασικές τιμές. Για παράδειγμα, εάν στα χαρτιά ένα βλήμα έχει διατρητικότητα 100 mm και προκαλεί 100 HP φθοράς, οι πραγματικές τιμές της κάθε παραμέτρου μπορεί να κυμανθούν από 75 έως 125 mm για τη διατρητικότητα και από 75 έως 125 HP για την πρόκληση φθοράς. Η μείωση του πιθανού εύρους τιμών θα κάνει πιο προβλέψιμο το αποτέλεσμα των βολών σας.\n\nΕάν 2 Πυροβολητές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Μειώνει το εύρος για την {greenBright_Start}πιθανή φθορά{greenBright_End} και την {greenBright_Start}πιθανή διατρητικότητα{greenBright_End} κατά {greenBright_Start}±&zwnbsp;{greenBright_End}&zwnbsp;%(damageAndPiercingDistributionLowerBound)s&zwnbsp;, ενώ μειώνει και τη {greenBright_Start}διασπορά των πυρών{greenBright_End} κατά %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα μειώσει το εύρος για την {greenBright_Start}πιθανή φθορά{greenBright_End} και την {greenBright_Start}πιθανή διατρητικότητα{greenBright_End} κατά {greenBright_Start}±&zwnbsp;{greenBright_End}&zwnbsp;%(damageAndPiercingDistributionLowerBound)s&zwnbsp;, ενώ θα μειώσει και τη {greenBright_Start}διασπορά των πυρών{greenBright_End} κατά %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Οπλουργός"
+
+msgid "gunner_focus/alt/description"
+msgstr "Η επίδραση ξεκινά 3 sec αφότου σταματήσει να κινείται το όχημα, ενώ ακυρώνεται όταν το όχημα κινηθεί και πάλι.\n\nΕάν 2 Πυροβολητές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας."
+
+msgid "gunner_focus/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "Μειώνει τη {yellow_Start}διασπορά των πυρών{yellow_End} σε ακίνητο όχημα κατά %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Μειώνεται η διασπορά των πυρών."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα μειώσει τη {yellow_Start}διασπορά των πυρών{yellow_End} σε ακίνητο όχημα κατά %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Συγκέντρωση"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Μειώνει τη διασπορά των πυρών ενός στατικού οχήματος."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Η ευστοχία του πυροβόλου και η ταχύτητα στόχευσης μπορούν να αυξηθούν περαιτέρω με την τοποθέτηση εξοπλισμού που έχει παρόμοια επίδραση και με την επιλογή κατάλληλων ικανοτήτων πληρώματος.\n\nΕάν 2 Πυροβολητές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "Η {yellow_Start}διασπορά των πυρών{yellow_End} θα μειωθεί κατά %(vehicleGunAimSpeed)s ενώ η {yellow_Start}ταχύτητα στόχευσης{yellow_End} θα αυξηθεί κατά %(vehicleGunAimSpeed)s όταν δεν υπάρχει όχημα της ίδιας ομάδας σε ακτίνα 300 μέτρων."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Αυξάνεται η ευστοχία του πυροβόλου και η ταχύτητα στόχευσης (μακριά από συμπαίκτες)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα μειώσει την {yellow_Start}διασπορά των πυρών{yellow_End} και θα αυξήσει την {yellow_Start}ταχύτητα στόχευσης{yellow_End} κατά %(vehicleGunAimSpeed)s όταν δεν υπάρχει όχημα της ίδιας ομάδας σε ακτίνα 300 μέτρων."
+
+msgid "gunner_loneWolf/name"
+msgstr "Μοναχικός Λύκος"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Αυξάνεται η ευστοχία του πυροβόλου και η ταχύτητα στόχευσης."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Η μέγιστη διατρητικότητα μπορεί να φτάσει το +25% από τη βασική τιμή. Για παράδειγμα, εάν ένα βλήμα έχει διατρητικότητα 100 mm, η μέγιστη τιμή της διατρητικότητας μπορεί να φτάσει τα 125 mm. Η αύξηση αυτής της παραμέτρου θα κάνει πιο πιθανή τη διάτρηση της θωράκισης των αντιπάλων.\n\nΕάν 2 Πυροβολητές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "Αυξάνει τη {yellow_Start}μέγιστη δυνατή διατρητικότητα{yellow_End} των βλημάτων κατά %(piercingHEShellsDistributionUpperBound)s όταν ο στόχος βρίσκεται μέσα σε ακτίνα 50 μέτρων."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει τη {yellow_Start}μέγιστη δυνατή διατρητικότητα{yellow_End} των βλημάτων κατά %(piercingHEShellsDistributionUpperBound)s όταν ο στόχος βρίσκεται μέσα σε ακτίνα 50 μέτρων."
+
+msgid "gunner_pointBlast/name"
+msgstr "Εξ Επαφής"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Αυξάνει τη μέγιστη δυνατή διατρητικότητα των βλημάτων"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Εάν 2 Πυροβολητές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας.\n\nΗ ταχύτητα στόχευσης μπορεί να αυξηθεί περαιτέρω από την ικανότητα Συντονισμός του Αρχηγού και από την τοποθέτηση κατάλληλου εξοπλισμού.\n\nΗ ταχύτητα περιστροφής του πυργίσκου μπορεί να αυξηθεί περαιτέρω με τοποθέτηση εξοπλισμού και αναλώσιμων που έχουν παρόμοια επίδραση."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "Αυξάνει την {greenBright_Start}ταχύτητα στόχευσης{greenBright_End} και την {greenBright_Start}ταχύτητα περιστροφής του πυργίσκου{greenBright_End} κατά %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει την {greenBright_Start}ταχύτητα στόχευσης{greenBright_End} και την {greenBright_Start}ταχύτητα περιστροφής του πυργίσκου{greenBright_End} κατά %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Γρήγορη Στόχευση"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Αυξάνεται η ταχύτητα στόχευσης."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Ο Πυροβολητής αναγνωρίζει τα εξαρτήματα των στόχων που έχουν υποστεί κρίσιμα χτυπήματα μέσα στο πεδίο της ορατότητάς του, σε άμεση και έμμεση λειτουργία πυρός.\nΤο πεδίο ορατότητας του Πυροβολητή είναι μία περιοχή ±10° (συνολικά 20°) μπροστά από το πυροβόλο του οχήματος, ενώ καθορίζεται και με βάση το εύρος ορατότητας του οχήματος.\nΕάν 2 Πυροβολητές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας.\nΗ επίδραση της ικανότητας μπορεί να βελτιωθεί περαιτέρω με χρήση της οδηγίας Εστίαση Στον Στόχο. Ο εξοπλισμός Βελτιωμένο Σύστημα Ασυρμάτου θα αυξήσει περαιτέρω τον χρόνο κατά τον οποίο το εχθρικό όχημα παραμένει ορατό."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "Αυξάνει τον {greenBright_Start}χρόνο{greenBright_End} κατά τον οποίο {greenBright_Start}το εχθρικό όχημα παραμένει ορατό{greenBright_End} μέσα στο πεδίο ορατότητας του Πυροβολητή κατά %(vehicleEnemySpottingTime)s, ενώ μειώνει τον χρόνο που απαιτείται για την {yellow_Start}αναγνώριση χαλασμένων εξαρτημάτων{yellow_End} σε %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει τον {greenBright_Start}χρόνο{greenBright_End} κατά τον οποίο {greenBright_Start}το εχθρικό όχημα παραμένει ορατό{greenBright_End} μέσα στο πεδίο ορατότητας του Πυροβολητή κατά %(vehicleEnemySpottingTime)s, ενώ θα μειώσει τον χρόνο που απαιτείται για την {yellow_Start}αναγνώριση χαλασμένων εξαρτημάτων{yellow_End} σε %(damageMonitoringDelay)s."
+
+msgid "gunner_rancorous/name"
+msgstr "Καθορισμός Στόχου"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Αυξάνει τον χρόνο κατά τον οποίο το εχθρικό όχημα παραμένει ορατό μέσα στο πεδίο ορατότητας του Πυροβολητή και κάνει δυνατή την αναγνώριση χαλασμένων εξαρτημάτων."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Εάν 2 Πυροβολητές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας.\n\nΗ επίδραση της ικανότητας μπορεί να βελτιωθεί με χρήση της οδηγίας Σταθερό Χέρι. Η διασπορά των πυρών κατά την περιστροφή του πυργίσκου μπορεί να μειωθεί περαιτέρω με την τοποθέτηση κατάλληλου εξοπλισμού, καθώς και με χρήση της οδηγίας Λίπανση Σταθεροποιητή."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "Μειώνει τη {greenBright_Start}διασπορά των πυρών{greenBright_End} όταν περιστρέφεται ο πυργίσκος κατά %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα μειώσει τη {greenBright_Start}διασπορά των πυρών{greenBright_End} όταν περιστρέφεται ο πυργίσκος κατά %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Αστραπιαία Βολή"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Μειώνει τη διασπορά των πυρών όταν περιστρέφεται ο πυργίσκος."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Η επίδραση ισχύει για όλους τους τύπους βλημάτων, με εξαίρεση τα οχήματα που έχουν αυτόματα πυροβόλα.\n\nΕάν 2 Πυροβολητές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "Αυξάνει την πιθανότητα {greenBright_Start}να προκληθεί κρίσιμη φθορά{greenBright_End} {greenBright_Start}σε εξαρτήματα εχθρικών οχημάτων{greenBright_End} και {greenBright_Start}να τραυματιστούν μέλη των εχθρικών πληρωμάτων{greenBright_End} κατά %(enemyModulesCrewCritChance)s για όλους τους τύπους βλημάτων&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει την πιθανότητα {greenBright_Start}να προκληθεί κρίσιμη φθορά{greenBright_End} {greenBright_Start}σε εξαρτήματα εχθρικών οχημάτων{greenBright_End} και {greenBright_Start}να τραυματιστούν μέλη των εχθρικών πληρωμάτων{greenBright_End} κατά %(enemyModulesCrewCritChance)s για όλους τους τύπους βλημάτων&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Σκοπευτής"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Η προκαθορισμένη ελάχιστη διατρητικότητα και πιθανή φθορά είναι -25% από τις βασικές τιμές. Για παράδειγμα, εάν στα χαρτιά ένα βλήμα έχει διατρητικότητα 100 mm και προκαλεί 100 HP φθοράς, οι πραγματικές ελάχιστες τιμές της κάθε παραμέτρου μπορεί να φτάσουν τα 75 mm για τη διατρητικότητα και τα 75 HP για την πρόκληση φθοράς. Η μείωση του ελάχιστων τιμών θα κάνει πιο αποτελεσματικές τις βολές σας.\n\nΕάν 2 Γεμιστές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "Αυξάνει την {greenBright_Start}ελάχιστη πιθανή φθορά{greenBright_End} και την {greenBright_Start}ελάχιστη πιθανή διατρητικότητα{greenBright_End} κατά %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει την {greenBright_Start}ελάχιστη πιθανή φθορά{greenBright_End} και την {greenBright_Start}ελάχιστη πιθανή διατρητικότητα{greenBright_End} κατά %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Ρύθμιση Πυρομαχικών"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Αυξάνει την ελάχιστη πιθανή φθορά και την ελάχιστη πιθανή διατρητικότητα."
+
+msgid "loader_desperado/alt/description"
+msgstr "Εάν 2 Γεμιστές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας.\n\nΗ ταχύτητα γέμισης μπορεί να βελτιωθεί περαιτέρω από την ικανότητα Μάχη Εκ Του Σύνεγγυς του Γεμιστή, με την τοποθέτηση κατάλληλου εξοπλισμού, καθώς και με χρήση της οδηγίας Τακτοποιημένα Πυρομαχικά."
+
+msgid "loader_desperado/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "Αυξάνει την {yellow_Start}ταχύτητα γέμισης του πυροβόλου{yellow_End} κατά %(vehicleGunReloadTime)s όταν το όχημα έχει μείνει με λιγότερα από το 25% των hit points του."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Αυξάνεται η ταχύτητα γέμισης (με χαμηλή αντοχή)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει την {yellow_Start}ταχύτητα γέμισης του πυροβόλου{yellow_End} κατά %(vehicleGunReloadTime)s όταν το όχημα έχει μείνει με λιγότερα από το 25% των hit points του."
+
+msgid "loader_desperado/name"
+msgstr "Έκρηξη Αδρεναλίνης"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Επιταχύνει τη γέμιση του πυροβόλου εάν το όχημα έχει μείνει με λιγότερα από το 25% των hit points του."
+
+msgid "loader_intuition/alt/description"
+msgstr "Για την ενεργοποίηση της επιδεξιότητας θα πρέπει να έχει γίνει πλήρης γέμιση του πυροβόλου ή του διπλού πυροβόλου ή του γεμιστήρα. Ο ελάχιστος χρόνος αλλαγής βλήματος είναι το 1 sec για κανονικά πυροβόλα και τα 2,5 sec για διπλά πυροβόλα και γεμιστήρες.\n\nΕάν 2 Γεμιστές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας."
+
+msgid "loader_intuition/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "Μειώνει τον {greenBright_Start}χρόνο αλλαγής βλημάτων{greenBright_End} σε ήδη γεμισμένο πυροβόλο κατά %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Αυξάνεται η ταχύτητα αλλαγής βλημάτων σε ήδη γεμισμένο πυροβόλο.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα μειώσει τον {greenBright_Start}χρόνο αλλαγής βλημάτων{greenBright_End} σε ήδη γεμισμένο πυροβόλο κατά %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Διαίσθηση"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Επιταχύνει σημαντικά την αλλαγή βλημάτων σε ήδη γεμισμένο πυροβόλο."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Η ικανότητα αυτή μειώνει τον χρόνο γέμισης μόνο στα πυροβόλα με γεμιστήρα και δεν επηρεάζει τα υπόλοιπα πυροβόλα.\n\nΕάν 2 Γεμιστές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "Μειώνει τον {greenBright_Start}χρόνο γέμισης{greenBright_End} του γεμιστήρα κατά %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα μειώσει τον {greenBright_Start}χρόνο γέμισης{greenBright_End} του γεμιστήρα κατά %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "Επιτάχυνση Γεμιστήρα"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Μειώνει τον χρόνο γέμισης του γεμιστήρα"
+
+msgid "loader_melee/alt/description"
+msgstr "Εάν 2 Γεμιστές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας.\n\nΗ ταχύτητα γέμισης μπορεί να βελτιωθεί περαιτέρω από την ικανότητα Έκρηξη Αδρεναλίνης του Γεμιστή, με την τοποθέτηση κατάλληλου εξοπλισμού, καθώς και με χρήση της οδηγίας Τακτοποιημένα Πυρομαχικά."
+
+msgid "loader_melee/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "Αυξάνει την {yellow_Start}ταχύτητα γέμισης του πυροβόλου{yellow_End} κατά %(vehicleGunReloadTime)s όταν το όχημά σας βρίσκεται σε απόσταση μικρότερη των 50 μέτρων από εχθρικό όχημα."
+
+msgid "loader_melee/hudDescription"
+msgstr "Αυξάνεται η ταχύτητα γέμισης του πυροβόλου (κοντά σε εχθρό).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει την {yellow_Start}ταχύτητα γέμισης του πυροβόλου{yellow_End} κατά %(vehicleGunReloadTime)s όταν το όχημά σας βρίσκεται σε απόσταση μικρότερη των 50 μέτρων από εχθρικό όχημα."
+
+msgid "loader_melee/name"
+msgstr "Μάχη Εκ Του Σύνεγγυς"
+
+msgid "loader_melee/shortDescription"
+msgstr "Επιταχύνει τη γέμιση του πυροβόλου κοντά σε εχθρικό όχημα."
+
+msgid "loader_pedant/alt/description"
+msgstr "Τυχόν τραυματισμός ενός Γεμιστή δεν μειώνει την επίδραση της ικανότητας.\n\nΕάν 2 Γεμιστές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας.\n\nΗ επίδραση της ικανότητας μπορεί να βελτιωθεί με χρήση της οδηγίας Οργάνωση Βλημάτων. Η αντοχή των πυρομαχικών μπορεί να αυξηθεί περαιτέρω με την τοποθέτηση κατάλληλου εξοπλισμού."
+
+msgid "loader_pedant/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "Αυξάνει την {greenBright_Start}αντοχή των πυρομαχικών{greenBright_End} κατά %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει την {greenBright_Start}αντοχή των πυρομαχικών{greenBright_End} κατά %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Ασφαλής Αποθήκευση"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Αυξάνει την αντοχή των πυρομαχικών."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Η επίδραση ισχύει για όλους τους τύπους βλημάτων.\n\nΤυχόν τραυματισμός ενός Γεμιστή δεν μειώνει την επίδραση της ικανότητας.\n\nΕάν 2 Γεμιστές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "Αυξάνει την {greenBright_Start}ταχύτητα των βλημάτων{greenBright_End} κατά %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει την {greenBright_Start}ταχύτητα των βλημάτων{greenBright_End} κατά %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Ιδανικά Πυρομαχικά"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Η ικανότητα αυτή δεν επηρεάζει τα πυροβόλα με γεμιστήρα ή τα αυτόματα πυροβόλα, ενώ δεν δρα πολλαπλασιαστικά στα διπλά πυροβόλα.\n\nΓια πυροβόλα με επιλεκτικό σύστημα γέμισης, εάν σε περίπτωση ομοβροντίας καμία κάνη δεν προκαλέσει φθορά, τότε ο χρόνος γέμισης μειώνεται και για τις 2 κάνες.\n\nΕάν 2 Γεμιστές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας.\n\nΟ χρόνος γέμισης του πυροβόλου μπορεί να μειωθεί περαιτέρω με την εκπαίδευση των ικανοτήτων Έκρηξη Αδρεναλίνης και Μάχη Εκ Του Σύνεγγυς, με την τοποθέτηση κατάλληλου εξοπλισμού, καθώς και με χρήση της οδηγίας Τακτοποιημένα Πυρομαχικά."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "Μειώνει τον {yellow_Start}χρόνο γέμισης{yellow_End} του επόμενου βλήματος κατά %(vehicleGunReloadTime)s εφόσον η προηγούμενη βολή δεν προκάλεσε φθορά στον στόχο."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Μειώνει τον χρόνο γέμισης του πυροβόλου (σε περίπτωση αστοχίας)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα μειώσει τον {yellow_Start}χρόνο γέμισης{yellow_End} του επόμενου βλήματος κατά %(vehicleGunReloadTime)s εφόσον η προηγούμενη βολή δεν προκάλεσε φθορά στον στόχο."
+
+msgid "loader_secondChance/name"
+msgstr "Δεύτερη Ευκαιρία"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Μειώνει τον χρόνο γέμισης του πυροβόλου"
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s sec"
+
+msgid "offspring_brotherhood/name"
+msgstr "Αδελφότητα"
+
+msgid "perkRole/commander"
+msgstr "Αρχηγός"
+
+msgid "perkRole/common"
+msgstr "Ομαδικές"
+
+msgid "perkRole/driver"
+msgstr "Οδηγός"
+
+msgid "perkRole/gunner"
+msgstr "Πυροβολητής"
+
+msgid "perkRole/loader"
+msgstr "Γεμιστής"
+
+msgid "perkRole/radioman"
+msgstr "Ασυρματιστής"
+
+msgid "popularity/tooltip/common"
+msgstr "όλων των παικτών"
+
+msgid "popularity/tooltip/header"
+msgstr "Για το συγκεκριμένο όχημα, από το"
+
+msgid "popularity/tooltip/legendary"
+msgstr "των παικτών επιπέδου WTR Legend"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Εάν 2 Ασυρματιστές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας.\n\nΗ επίδραση της ικανότητας μπορεί να αυξηθεί σε συνδυασμό με την ικανότητα Ηχητικός Εντοπισμός του Αρχηγού."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Κάθε φορά που προκαλείται σοκ στο όχημα, η {greenBright_Start}αρνητική επίδραση του σοκ{greenBright_End} μειώνεται κατά %(stunResistanceEffectFactor)s, έως και 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, κάθε φορά που θα προκαλείται σοκ στο όχημα, η {greenBright_Start}αρνητική επίδραση του σοκ{greenBright_End} θα μειώνεται κατά %(stunResistanceEffectFactor)s&nbsp;, έως και 30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Σκληραγώγηση"
+
+msgid "radioman_expert/alt/description"
+msgstr "Το μπόνους επιδόσεων του πληρώματος βελτιώνει τις επιδόσεις του πληρώματός σας στη μάχη. Εάν 2 Ασυρματιστές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας. Εξοπλισμός και αναλώσιμα που έχουν παρόμοια επίδραση, η χρήση της οδηγίας Καθαρισμός Εξαερισμού, η ομαδική ικανότητα Αδέρφια Στη Μάχη, η ικανότητα Έκτακτη Ανάγκη του Αρχηγού, καθώς και η ικανότητα Πλευρό Με Πλευρό του Ασυρματιστή, μπορούν να αυξήσουν περαιτέρω την επίδραση της συγκεκριμένης παραμέτρου."
+
+msgid "radioman_expert/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "Αυξάνει το {yellow_Start}μπόνους επιδόσεων{yellow_End} του πληρώματος κατά %(crewLevelIncrease)s όταν η φθορά από συνεισφορά σας υπερβαίνει τα αρχικά hit points του οχήματός σας&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Αυξάνεται το μπόνους επιδόσεων του πληρώματος (από μεγάλη συνεισφορά)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει το {yellow_Start}μπόνους επιδόσεων{yellow_End} του πληρώματος κατά %(crewLevelIncrease)s όταν η φθορά από συνεισφορά σας υπερβαίνει τα αρχικά hit points του οχήματός σας&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Ειδικός Διαβιβάσεων"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Βελτιώνει τις επιδόσεις του πληρώματος."
+
+msgid "radioman_finder/alt/description"
+msgstr "Εάν 2 Ασυρματιστές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας.\n\nΤο εύρος ορατότητας μπορεί να βελτιωθεί περαιτέρω με την εκπαίδευση της ικανότητας Αναγνώριση, με την τοποθέτηση κατάλληλου εξοπλισμού, καθώς και με χρήση της οδηγίας Βαθμονόμηση Οπτικών."
+
+msgid "radioman_finder/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "Αυξάνει το {greenBright_Start}εύρος ορατότητας{greenBright_End} κατά %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει το {greenBright_Start}εύρος ορατότητας{greenBright_End} κατά %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Επίγνωση Της Κατάστασης"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Αυξάνει το εύρος ορατότητας."
+
+msgid "radioman_interference/alt/description"
+msgstr "Εάν 2 Ασυρματιστές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας.\n\nΟ χρόνος κατά τον οποίον το όχημά σας παραμένει εντοπισμένο μπορεί να μειωθεί περαιτέρω με την τοποθέτηση κατάλληλου εξοπλισμού."
+
+msgid "radioman_interference/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "Μειώνει τη {greenBright_Start}διάρκεια εντοπισμού του οχήματός σας{greenBright_End} από τους αντιπάλους κατά %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα μειώσει τη {greenBright_Start}διάρκεια εντοπισμού του οχήματός σας{greenBright_End} από τους αντιπάλους κατά %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Παρεμβολή Σήματος"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Μειώνει τον χρόνο στον οποίο το όχημά σας είναι ορατό στους αντιπάλους."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Εάν δύο Ασυρματιστές έχουν την ίδια ικανότητα, επιδρά μόνο αυτή που είναι στον υψηλότερο βαθμό. Η επίδραση ισχύει μόνο όταν ο Ασυρματιστής δεν τραυματιστεί κατά την καταστροφή του οχήματος.\n\nΗ επίδραση της ικανότητας μπορεί να βελτιωθεί με χρήση της οδηγίας Πρώτα Το Καθήκον."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Ο Ασυρματιστής συνεχίζει την {yellow_Start}αναφορά των εχθρικών θέσεων{yellow_End} για ακόμη %(radiomanDurationPerLevel)s μετά την καταστροφή του οχήματός σας."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Αναφέρει τις θέσεις των αντιπάλων."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, ο Ασυρματιστής θα συνεχίζει την {yellow_Start}αναφορά των εχθρικών θέσεων{yellow_End} για ακόμη %(radiomanDurationPerLevel)s μετά την καταστροφή του οχήματός σας."
+
+msgid "radioman_lastEffort/name"
+msgstr "Η Ώρα Της Εκδίκησης"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Συνεχίζεται η αναφορά των εχθρικών θέσεων μετά την καταστροφή του οχήματός σας."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Το μπόνους επιδόσεων του πληρώματος βελτιώνει τις επιδόσεις του πληρώματός σας στη μάχη. Εάν 2 Ασυρματιστές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας. Εξοπλισμός και αναλώσιμα που έχουν παρόμοια επίδραση, η χρήση της οδηγίας Καθαρισμός Εξαερισμού, η ομαδική ικανότητα Αδέρφια Στη Μάχη, η ικανότητα Έκτακτη Ανάγκη του Αρχηγού, καθώς και η ικανότητα Ειδικός Διαβιβάσεων του Ασυρματιστή, μπορούν να αυξήσουν περαιτέρω την επίδραση της συγκεκριμένης παραμέτρου."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "Αυξάνει το {yellow_Start}μπόνους επιδόσεων{yellow_End} του πληρώματος κατά %(crewLevelIncrease)s όταν το όχημά σας βρίσκεται σε απόσταση μικρότερη των 50 μέτρων από όχημα της ομάδας σας του ίδιου τύπου&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Αυξάνεται το μπόνους επιδόσεων του πληρώματος (με ίδιο σύμμαχο κοντά)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει το {yellow_Start}μπόνους επιδόσεων{yellow_End} του πληρώματος κατά %(crewLevelIncrease)s όταν το όχημά σας βρίσκεται σε απόσταση μικρότερη των 50 μέτρων από όχημα της ομάδας σας του ίδιου τύπου&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Πλευρό Με Πλευρό"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Βελτιώνει τις επιδόσεις του πληρώματος."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Η συγκεκριμένη ικανότητα επιταχύνει και την ενεργοποίηση της ιδιότητας Έκτη Αίσθηση του Αρχηγού.\n\nΕάν 2 Ασυρματιστές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Η επίδραση μιας ικανότητας ξεκινά όταν αυτή φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "Μειώνει τον {greenBright_Start}χρόνο ειδοποίησης{greenBright_End} όταν {greenBright_Start}εντοπίζεται το όχημά σας{greenBright_End} από τους αντιπάλους κατά %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα μειώσει τον {greenBright_Start}χρόνο ειδοποίησης{greenBright_End} όταν {greenBright_Start}εντοπίζεται το όχημά σας{greenBright_End} από τους αντιπάλους κατά %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Υποκλοπή Σήματος"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Η ικανότητα αυτή ενεργοποιείται όταν ενεργοποιείται και η ιδιότητα Έκτη Αίσθηση του Αρχηγού.\n\nΕάν 2 Ασυρματιστές κατέχουν τη συγκεκριμένη ικανότητα, η επίδραση υπολογίζεται με βάση τον μέσο όρο του επιπέδου εκπαίδευσης της ικανότητας.\n\nΤο εύρος ορατότητας μπορεί να αυξηθεί περαιτέρω με την εκπαίδευση των ικανοτήτων Αναγνώριση και Επίγνωση Της Κατάστασης, με την τοποθέτηση κατάλληλου εξοπλισμού, καθώς και με χρήση της οδηγίας Βαθμονόμηση Οπτικών."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Ικανότητα με περιστασιακή επίδραση στη μάχη. Ξεκινά να λειτουργεί όταν φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης. Ενεργοποιείται κάτω από συγκεκριμένες προϋποθέσεις στη μάχη."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "Αυξάνει το {yellow_Start}εύρος ορατότητας{yellow_End} κατά %(vehicleCircularVisionRadius)s για 5 sec από την ενεργοποίηση της Έκτης Αίσθησης."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Αυξάνεται το εύρος ορατότητας."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100%, θα αυξήσει το {yellow_Start}εύρος ορατότητας{yellow_End} κατά %(vehicleCircularVisionRadius)s για 5 sec από την ενεργοποίηση της Έκτης Αίσθησης."
+
+msgid "radioman_threatSearch/name"
+msgstr "Ανίχνευση Απειλής"
+
+msgid "repair/alt/description"
+msgstr "Η ικανότητα αυτή επηρεάζει την ταχύτητα επισκευής εξωτερικών και εσωτερικών εξαρτημάτων, από «κόκκινη» σε «κίτρινη» κατάσταση.\n\nΠεραιτέρω αύξηση της επίδρασης μπορεί να επιτευχθεί με την τοποθέτηση κατάλληλου εξοπλισμού και αναλώσιμων που έχουν παρόμοια επίδραση."
+
+msgid "repair/alt/info"
+msgstr "Για τις ομαδικές ικανότητες υπολογίζεται το μέσο επίπεδο εκπαίδευσης όλων των μελών του πληρώματος. Η επίδραση ξεκινά όταν η εκπαίδευση φτάσει τουλάχιστον στο 1%. Περαιτέρω αύξηση της επίδρασης επιτυγχάνεται με αύξηση του επιπέδου της εκπαίδευσης."
+
+msgid "repair/currentLvlDescription"
+msgstr "Αυξάνει την {greenBright_Start}ταχύτητα επισκευής{greenBright_End} των χαλασμένων εξαρτημάτων του οχήματος κατά %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Όταν φτάσει στο 100% σε όλα τα μέλη του πληρώματος, θα αυξήσει την {greenBright_Start}ταχύτητα επισκευής{greenBright_End} των χαλασμένων εξαρτημάτων του οχήματος κατά %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Επισκευές"
+
+msgid "repair/shortDescription"
+msgstr "Αυξάνει την ταχύτητα επισκευής των εξαρτημάτων του οχήματος."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Αδελφότητα"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Δημοφιλής"
+
+msgid "sorting/fallback"
+msgstr "Προεπιλογή"
+
+msgid "sorting/legendary"
+msgstr "Θρυλικός"
+
+msgid "sorting/title"
+msgstr "Ταξινόμηση:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sΔημοφιλής Εξοπλισμός.%(whiteSpanish_Close)s Με βάση τις ικανότητες πληρώματος που προτιμούν οι περισσότεροι παίκτες του World of Tanks"
+
+msgid "sorting/tooltip/header"
+msgstr "Πλεονεκτήματα WoT Plus"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Ακριβή δεδομένα ικανοτήτων πληρώματος με βάση εκατομμύρια μάχες και το βέλτιστο αποτέλεσμα σε αυτές."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sΘρυλικός Εξοπλισμός.%(whiteSpanish_Close)s Με βάση τις ικανότητες πληρώματος που προτιμούν οι παίκτες του επιπέδου Legend WTR"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Απενεργοποιημένη ταξινόμηση"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Δεν υπάρχουν δεδομένα"
+
+msgid "sorting/tooltip/title"
+msgstr "Οδηγός Πληρώματος"
+
+msgid "sorting/tooltip/types"
+msgstr "Τύποι ταξινόμησης"
+
+msgid "sorting/tooltip/warning"
+msgstr "Ταξινόμηση μη διαθέσιμη"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Επαρκή δεδομένα για το επιλεγμένο όχημα δεν είναι διαθέσιμα. Επιλέχθηκαν οι προεπιλεγμένες ικανότητες."
+
+msgid "witches_brotherhood/name"
+msgstr "Σύναξη"
+
+msgid "yha_brotherhood/name"
+msgstr "Αδελφότητα Των Λαγών"

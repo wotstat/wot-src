@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Nacrt je sastavljen"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Nacrt  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Nacrt {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "Na kupovinu"
+
+msgid "blueprintScreen/button/research"
+msgstr "Na izučavanje"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Pogledaj u garaži"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Možeš da sastaviš nacrt da bi primenio popust na izučavanje željenog vozila. Međutim, moraš da izučiš sva prethodna vozila\nu grani da bi upotrebio popust."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Razumem!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Izučavanje je nemoguće"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "Da bi kreirao fragment nacrta treba ti:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "odaberi:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "KREIRAJ FRAGMENT:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Kreiraj fragmente"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Konvertuj\nfragment"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Konverzija\nje nedostupna"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "NEDOSTUPNO:\nNema dovoljno\nresursa"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Idi na vozilo"
+
+msgid "blueprintScreen/or"
+msgstr "ili"
+
+msgid "blueprintScreen/research"
+msgstr "IZUČAVANJE"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Izučavanje vozila besplatno"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Izučavanje je nemoguće"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Popust na izučavanje:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Ovo vozilo je izučeno i dostupno je za kupovinu"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Ovo vozilo je izučeno i kupljeno"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "U depou:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Možeš da upotrebiš popust od 100% na izučavanje {vehicleName} nakon što si izučio sva prethodna vozila u grani."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Nacrt je sastavljen"
+
+msgid "blueprintScreen/unlocked"
+msgstr "VOZILO\nJE IZUČENO"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Koalicija:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Blok:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Alijansa:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Unija:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon}{allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon)%(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Univerzalni:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Koalicija"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Blok"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Alijansa"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Unija"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Francuska, Čehoslovačka, Švedska, Italija)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Nemačka, Japan)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(SAD, VB, Poljska)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(SSSR, Kina)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Izaberi broj nacionalnih fragmenata za kreiranje fragmenata nacrta vozila.\n%(allianceIcon)%(allianceName) %(allianceNations) dostupnih nacionalnih fragmenata."
+
+msgid "conversionView/topMessage/single"
+msgstr "Izaberi fragmente jedne od nacija za kreiranje fragment nacrta vozila.\n%(allianceIcon)%(allianceName) %(allianceNations) dostupnih nacionalnih fragmenata."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Ukupna cena:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Cena fragmenta nacrta:"
+
+msgid "nations/china"
+msgstr "Kina"
+
+msgid "nations/czech"
+msgstr "Čehoslovačka"
+
+msgid "nations/france"
+msgstr "Francuska"
+
+msgid "nations/germany"
+msgstr "Nemačka"
+
+msgid "nations/italy"
+msgstr "Italija"
+
+msgid "nations/japan"
+msgstr "Japan"
+
+msgid "nations/poland"
+msgstr "Poljska"
+
+msgid "nations/sweden"
+msgstr "Švedska"
+
+msgid "nations/uk"
+msgstr "Velika Britanija"
+
+msgid "nations/usa"
+msgstr "SAD"
+
+msgid "nations/ussr"
+msgstr "SSSR"

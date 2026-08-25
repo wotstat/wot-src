@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Ritning sammanfogad"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Ritning  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Ritning {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "Till köp"
+
+msgid "blueprintScreen/button/research"
+msgstr "Till forskning"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Visa i garaget"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Du kan samla en ritning för att få rabatt på forskning av vagnen. Du måste dock först forska fram föregående vagn i\nträdet för att använda rabatten."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Svar: Ja!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Kan ej forska"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "För att skapa ett ritningsfragment behöver du:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "välj:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "SKAPA FRAGMENT:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Skapa fragment"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Konvertera\nfragment"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Konvertering\nej tillgänglig"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "EJ TILLGÄNGLIG:\nTillgångar\nsaknas"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Gå till vagn"
+
+msgid "blueprintScreen/or"
+msgstr "eller"
+
+msgid "blueprintScreen/research"
+msgstr "FORSKNING"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Forskar fram vagnen gratis"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Kan ej forska"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Rabatt på forskning:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Vagnen är framforskad och kan köpas"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Vagnen är framforskad och inköpt"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "I förrådet:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Du kan använda 100% rabatt för att forska fram {vehicleName} när du forskat fram föregående vagn i trädet."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Ritning sammanfogad"
+
+msgid "blueprintScreen/unlocked"
+msgstr "VAGN\nFRAMFORSKAD"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Koalitionen:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Pakten:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Alliansen:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Unionen:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Allmänt:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Koalitionen"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Pakten"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Alliansen"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Unionen"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Frankrike, Tjeckoslovakien, Sverige, Italien)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Tyskland, Japan)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(USA, Storbritannien, Polen)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(Sovjetunionen, Kina)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Välj antal nationella fragment för att skapa ritningsfragment.\n%(allianceIcon)%(allianceName) %(allianceNations) nationella fragment tillgängliga."
+
+msgid "conversionView/topMessage/single"
+msgstr "Välj fragment från en nation för att skapa ritningsfragment.\n%(allianceIcon)%(allianceName) %(allianceNations) nationella fragment tillgängliga."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Slutkostnad:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Kostnad för ritningsfragment:"
+
+msgid "nations/china"
+msgstr "Kina"
+
+msgid "nations/czech"
+msgstr "Tjeckoslovakien"
+
+msgid "nations/france"
+msgstr "Frankrike"
+
+msgid "nations/germany"
+msgstr "Tyskland"
+
+msgid "nations/italy"
+msgstr "Italien"
+
+msgid "nations/japan"
+msgstr "Japan"
+
+msgid "nations/poland"
+msgstr "Polen"
+
+msgid "nations/sweden"
+msgstr "Sverige"
+
+msgid "nations/uk"
+msgstr "Storbritannien"
+
+msgid "nations/usa"
+msgstr "USA"
+
+msgid "nations/ussr"
+msgstr "Sovjetunionen"

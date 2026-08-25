@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "%(count) modül kaldı"
+msgstr[1] "%(count) modül kaldı"
+msgstr[2] "%(count) modül kaldı"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Mödüllere Geri Dön"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "Bu modülleri açtığınızda Premium araçlar, oyun içi paralar ve başka değerli ürünler çıkabilir."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "Paradoxmodulları oyun içi Dükkândan veya Premium Dükkân'dan satın alabilirsiniz."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Paradoxmodul"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "PARADOXMODUL"
+
+msgid "common/getButton/lowerCase"
+msgstr "Modüller Alın"
+
+msgid "common/getButton/upperCase"
+msgstr "MODÜLLER ALIN"
+
+msgid "common/loader"
+msgstr "Modül açılıyor..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "İstatistiklere bakmak için modülleri açın."
+
+msgid "common/statistics/header"
+msgstr "Açılan modüller: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Açılan modüller hakkında tüm bilgiler silinecek."
+
+msgid "entryPoint/boxes"
+msgstr "MODÜLLERE GİDİN"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Bunlar Premium araçlar, özelleştirme ögeleri, oyun içi paralar ve başka değerli ödüller gibi yeni ve özgün ürünler içeren özel modüllerdir.\nModülleri oyun içi Dükkândan veya Premium Dükkân'dan elde edebilirsiniz."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Modüller teknik nedenlerle şu anda açılamaz veya elde edilemez. Verdiğimiz geçici rahatsızlık nedeniyle özür dileriz."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Modüller Geçici Olarak Devre Dışı"
+
+msgid "eventName/lowerCase"
+msgstr "Paradoksu Kırın"
+
+msgid "eventName/upperCase"
+msgstr "PARADOKSU KIRIN"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Bir sonraki modülde Garantili Ödül!"
+
+msgid "guaranteedTitle/text"
+msgstr "Garantili Ödüle kalan maksimum modül: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Etkinlik bitmeden modülleri açmazsanız otomatik olarak açılacaklar."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Olası modül içeriği listesindeki tüm araçlara zaten sahipseniz modüllerden alacağınız sonraki tüm araçlar tam değerleri karşılığı altın ile telafi edilecek."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Her %(guaranteed0)s modülde bir Premium araç bulunması garantilidir. Bu modülleri açtığınızda böyle bir araç çıkmazsa açacağınız %(guaranteed0)s. modülden sahip olmadığınız bir Premium araç çıkacaktır. Araç çıktığında sayaç sıfırlanır."
+
+msgid "infoPage/header/description"
+msgstr "Değerli oyun içi ürünler alma şansı için modülü açın! Detayları aşağıda bulabilirsiniz."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "%(name) içinden (%(boxesCount) modül açıldı)"
+
+msgid "noBoxesView/description/"
+msgstr "Hiç modülünüz yok. Modülleri oyun içi Dükkân'dan\nveya Premium Dükkân'dan alabilirsiniz."
+
+msgid "preview/backLabel"
+msgstr "MODÜLLERE GİDİN"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Mevcut modüller: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Hiç modül yok"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Olası modül içeriği listesindeki tüm araçlara zaten sahipseniz modüllerden alacağınız sonraki tüm araçlar altın ile telafi edilecek."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) modül"
+msgstr[1] "%(remainingCount) modül"
+msgstr[2] "%(remainingCount) modül"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Garantili Ödül, olası modül içeriği listesinden bir araçtır.\n%(remainingCount) açtığınız halde böyle bir araç çıkmazsa açacağınız %(count). modülden çıkacaktır. Araç çıktığında sayaç sıfırlanır."

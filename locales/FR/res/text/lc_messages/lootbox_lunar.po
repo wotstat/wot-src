@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Retour aux Trésors"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "Trésor flamboyant"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "TRÉSOR FLAMBOYANT"
+
+msgid "common/getButton/lowerCase"
+msgstr "Obtenir des Trésors"
+
+msgid "common/getButton/upperCase"
+msgstr "OBTENIR DES TRÉSORS"
+
+msgid "common/loader"
+msgstr "Ouverture du Trésor flamboyant..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Ouvrez des Trésors pour voir les statistiques."
+
+msgid "common/statistics/header"
+msgstr "Trésors flamboyants ouverts : %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Toutes les informations portant sur les Trésors flamboyants ouverts seront supprimées."
+
+msgid "entryPoint/boxes"
+msgstr "AUX TRÉSORS"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Il s'agit de boîtes spéciales contenant des objets nouveaux et uniques, y compris des véhicules premium, des styles 2D et plus encore. Vous pouvez les obtenir dans le Magasin en jeu."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Les Trésors flamboyants ne peuvent pas être ouverts ni achetés actuellement pour des raisons techniques. Nous nous excusons pour cette gêne temporaire."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Les Trésors flamboyants sont temporairement indisponibles"
+
+msgid "eventName/lowerCase"
+msgstr "Prime lunaire"
+
+msgid "eventName/upperCase"
+msgstr "PRIME LUNAIRE"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Récompense garantie dans le prochain Trésor !"
+
+msgid "guaranteedTitle/text"
+msgstr "Maximum de Trésors flamboyants avant une Récompense garantie : %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Si vous n'ouvrez pas les Trésors flamboyants avant la fin de l'évènement, ils s'ouvriront automatiquement."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Si vous possédez déjà tous les véhicules de la liste du contenu possible du Trésor flamboyant, alors tous les véhicules suivants reçus dans les Trésors flamboyants feront l'objet d'une compensation en pièces d'or à hauteur de leur valeur totale."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Chaque %(guaranteed0)se Trésor flamboyant contient assurément un véhicule de rangs VIII à IX. Si vous en ouvrez un qui ne contient pas un tel véhicule, alors un véhicule de rangs VIII à IX que vous ne possédez pas encore sera obtenu en ouvrant le %(guaranteed0)s&zwnbsp;e Trésor flamboyant. Lorsque cela se produit, le compteur est réinitialisé."
+
+msgid "infoPage/header/description"
+msgstr "Ouvrez des Trésors flamboyants pour tenter de recevoir de précieux objets du jeu ! Retrouvez plus de détails ci-dessous."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Dans le %(name) (%(boxesCount) Trésors flamboyants ouverts)"
+
+msgid "noBoxesView/description/"
+msgstr "Vous ne possédez aucun Trésor flamboyant.\nVous pouvez en obtenir dans le Magasin en jeu."
+
+msgid "preview/backLabel"
+msgstr "AUX TRÉSORS"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Trésors disponibles : %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Aucun Trésor disponible"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Si vous possédez déjà tous les véhicules de la liste du contenu possible du Trésor flamboyant, alors tous les véhicules suivants reçus dans les Trésors flamboyants feront l'objet d'une compensation en pièces d'or."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) Trésor flamboyant"
+msgstr[1] "%(remainingCount) Trésors flamboyants"
+msgstr[2] "%(remainingCount) Trésors flamboyants"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "La Récompense garantie est un véhicule de la liste du contenu possible du Trésor flamboyant.\nSi vous en ouvrez %(remainingCount) sans obtenir un tel véhicule, il sera acquis en ouvrant le %(count)e Trésor flamboyant. Quand cela se produit, le compteur est remis à zéro."

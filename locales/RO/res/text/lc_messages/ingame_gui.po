@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT tim <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "Lovitură de artilerie"
+
+msgid "attackReason/artillery_sector"
+msgstr "Lovitură de artilerie"
+
+msgid "attackReason/bombers"
+msgstr "Lovitură aeriană"
+
+msgid "battleCommunication/hint/description"
+msgstr "pentru a indica o poziție sau a pune un marcaj"
+
+msgid "battleCommunication/hint/press"
+msgstr "Apasă"
+
+msgid "battleEndWarning/text"
+msgstr "Finalul luptei:"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "Mesajele text şi vocale ale acestui jucător vor fi ascunse pe timpul luptei."
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "Blochează mesajele de la acest jucător"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "Mesajele de la un jucător ignorat sunt blocate."
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "Acţiune indisponibilă"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "Mesajele text şi vocale de la acest jucător\nvor fi disponibile din nou."
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "Deblochează mesajele de la jucător"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "Probleme tehnice la obținerea datelor din zona de luptă."
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "Datele din zona de luptă pentru acest vehicul nu sunt disponibile pe această hartă."
+
+msgid "battleProgress/hint/description"
+msgstr "pentru a vedea misiunile personale"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "Tastele de bază nu sunt asignate"
+
+msgid "battleProgress/hint/press"
+msgstr "Apasă"
+
+msgid "battle_notifier/lose"
+msgstr "Înfrângere!"
+
+msgid "battle_notifier/tie"
+msgstr "Remiză!"
+
+msgid "battle_notifier/win"
+msgstr "Victorie!"
+
+msgid "bot/boss"
+msgstr "Boss"
+
+msgid "bot/elite"
+msgstr "Elită"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "AVERTIZARE DAUNE"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "MOTOR AVARIAT"
+
+msgid "chat_example/affirmative"
+msgstr "Recepționat!"
+
+msgid "chat_example/attack_enemy"
+msgstr "Trageți în <Enemy Name>!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "Îl atac pe <Enemy Name>!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "Capturați baza!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "Apăraţi baza!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "Atenție la <Sector pe Mini-hartă>!"
+
+msgid "chat_example/attention_to_position"
+msgstr "Atenție la această locație!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "Distrugeți obiectivele"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "Salvați-vă tancurile!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "Capturați zona"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "Apărați obiectivele"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "Salvați-vă tancurile!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "Apărați zonele"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "Ajutați zona"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "Ajutați zona"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "Ajutați zona"
+
+msgid "chat_example/going_there"
+msgstr "Conduc aici!"
+
+msgid "chat_example/help_me"
+msgstr "Ajutor!"
+
+msgid "chat_example/help_me_ex"
+msgstr "<Nume Aliat>, ajutor!"
+
+msgid "chat_example/negative"
+msgstr "Negativ!"
+
+msgid "chat_example/overheated_gun"
+msgstr "Tun supraîncălzit! Nu pot trage timp de <Reload Time> s"
+
+msgid "chat_example/positive"
+msgstr "Recepționat!"
+
+msgid "chat_example/reloading_cassette"
+msgstr "Pregătit de tragere în <Timp Încărcare> s, proiectile în casetă: <Număr de proiectile> bucăți."
+
+msgid "chat_example/reloading_gun"
+msgstr "Reîncarc! <Timp Încărcare> s rămase!"
+
+msgid "chat_example/reloading_ready"
+msgstr "Gata de tragere!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "Pregătit de tragere! Proiectile în casetă: <Număr proiectile> bucăți."
+
+msgid "chat_example/reloading_unavailable"
+msgstr "Nu mai există muniţie."
+
+msgid "chat_example/spg_aim_area"
+msgstr "Ținta pe <Sector pe Minihartă>!"
+
+msgid "chat_example/supporting_ally"
+msgstr "<Ally Name>, te voi ajuta!"
+
+msgid "chat_example/thanks"
+msgstr "<Ally Name>, mulțumesc!"
+
+msgid "chat_example/turn_back"
+msgstr "<Nume Aliat>, înapoi!"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "Recepționat!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "Trageți în %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "Gata de tragere! Atac %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "Nu am muniție! Cer foc asupra %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "Îl atac pe %(target)s! Reîncarc, gata în %(reloadTime)d s !"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "Voi captura baza!"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "Capturez baza %(strArg1)s!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "Îl atac pe %(target)s!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "Capturați baza!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "Capturați baza %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "Apăraţi baza!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "Apărați baza %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "Atenţie la %(cellName)s!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Distruge obiectivul %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "Atac obiectivul %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Apărați obiectivul %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "Apăr obiectivul %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Atenție la locație!"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "Atenție la %(gridId)s"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "Voi apăra baza!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "Apăr baza %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "Distrugeți obiectivele!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "Avem suficient timp, salvați-vă tancurile!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "Timpul aproape a expirat, capturați o zonă cu tot ce aveți!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "Apărați obiectivelel!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "Trebuie să rezistăm, salvați-vă tancurile!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "Timpul aproape a expirat, apărați zonele cu tot ce aveți!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "Zona %(strArg1)s are nevoie de ajutor, trimiteți ajutoare!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "Zona %(strArg1)s are nevoie de ajutor, trimiteți ajutoare!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "Zona %(strArg1)s are nevoie de ajutor, trimiteți ajutoare!"
+
+msgid "chat_shortcuts/going_there"
+msgstr "Conduc spre locație!"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "În drum spre %(gridId)s"
+
+msgid "chat_shortcuts/help_me"
+msgstr "Ajutor!"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s, ajutor!"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "Deplasare spre țintă: %(target)s"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "Mă deplasez spre țintă: %(target)s!"
+
+msgid "chat_shortcuts/negative"
+msgstr "Negativ!"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "Tun supraîncălzit! Nu pot trage timp de %(floatArg1)d s"
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s, recepționat!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "Gata de tragere în %(floatArg1)d s; proiectile în casetă: %(int32Arg1)s buc."
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "Reîncarc! Durează încă %(floatArg1)d secunde!"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "Gata de tragere!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "Gata de tragere! Proiectile în casetă: %(int32Arg1)s bucăți."
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "Nu mai există muniţie."
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "Țintesc locația. Gata de tragere!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "Supraveghez %(gridId)s! Nu am muniție!"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "Ținta pe %(gridId)s. Gata de tragere!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "Țintesc locația. Reîncarc, %(reloadTime)d s rămase!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "Ținta pe %(gridId)s. Reîncarc, gata în %(reloadTime)ds!"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s, te voi ajuta!"
+
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s, mulțumesc!"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s, înapoi!"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "Mergi la Setări"
+
+msgid "commanderCam/hint/description"
+msgstr "Redum zoom-ul pentru a intra în modul tactic"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "Refacere: %(cooldownSeconds)s s"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "Poziţie pentru consumabile"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "km/h"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "AP"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "APCR"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "HEAT"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "Comandantul este rănit. Caracteristicile tehnice sunt reduse."
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "Comandant"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "Şoferul este rănit. Deplasarea și rotația tunului și carenei sunt reduse."
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "Șofer"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "Tunarul este rănit. Acuratețea este redusă."
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "Tunar"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "Tunarul 2 este rănit. Acuratețea este redusă."
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "Tunar 2"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "Servantul este rănit. Viteza de încărcare este redusă."
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "Servant"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "Servantul 2 este rănit. Viteza de încărcare este redusă."
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "Servant 2"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "Transmisionistul este rănit. Raza semnalului este redusă."
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "Transmisionist"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "Transmisionistul 2 este rănit. Raza semnalului este redusă."
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "Transmisionist 2"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "Compartimentul muniţiei este avariat. Viteza de încărcare este redusă."
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "Compartimentul muniţiei a explodat."
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "Compartimentul muniţiei este intact."
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "Suspensia este avariată."
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "Imobilizat: suspensia este distrusă."
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "Suspensia este funcţională."
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "Motor avariat. Putere redusă."
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "Imobilizat: motorul este distrus."
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "Motorul este funcţional."
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "Rezervorul de combustibil este avariat."
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "Rezervorul de combustibil este distrus."
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "Rezervorul de combustibil este intact."
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "Tunul este avariat. Precizie redusă."
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "Tunul este distrus. Nu se poate trage."
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "Tunul este funcţional."
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "Radioul este avariat."
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "Radioul este distrus. Raza semnalului este scăzută."
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "Radioul este funcţional."
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "Dispozitivul de observare este avariat."
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "Dispozitivul de observare este distrus. Raza vizuală este redusă."
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "Dispozitivul de vizualizare este intact."
+
+msgid "damage_panel/devices/track/critical"
+msgstr "Suspensia este avariată."
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "Imobilizat: suspensia este distrusă."
+
+msgid "damage_panel/devices/track/normal"
+msgstr "Suspensia este funcţională."
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "Turela este avariată. Viteza de rotaţie este scăzută."
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "Rotire imposibilă: turela este distrusă."
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "Turela este funcţională."
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "Suspensia este avariată."
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "Imobilizat: suspensia este distrusă."
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "Suspensia este intactă."
+
+msgid "danger_zone/indicator"
+msgstr "Vehiculul poate fi distrus: părăsește zona de pericol!"
+
+msgid "destroyTimer/liftOver"
+msgstr "Înapoi pe șenile..."
+
+msgid "devMaps/hint/description"
+msgstr "pentru a afișa caracteristicile hărții"
+
+msgid "devMaps/hint/press"
+msgstr "Apasă"
+
+msgid "devMaps/mapInfo/info"
+msgstr "Pe această hartă pot avea loc evenimente aleatorii. Astfel de hărți pot fi dezactivate în setările jocului."
+
+msgid "devMaps/mapInfo/text"
+msgstr "Hartă cu evenimente aleatorii"
+
+msgid "devices/ammo_bay"
+msgstr "compartimentul muniţiei"
+
+msgid "devices/chassis"
+msgstr "suspensia"
+
+msgid "devices/engine"
+msgstr "motorul"
+
+msgid "devices/fuel_tank"
+msgstr "rezervorul de combustibil"
+
+msgid "devices/gun"
+msgstr "tunul"
+
+msgid "devices/left_track"
+msgstr "şenila stângă"
+
+msgid "devices/radio"
+msgstr "radioul"
+
+msgid "devices/right_track"
+msgstr "şenila dreaptă"
+
+msgid "devices/surveing_device"
+msgstr "dispozitivul de vizare"
+
+msgid "devices/track"
+msgstr "Șenilă %(type)s"
+
+msgid "devices/track/left"
+msgstr "stânga"
+
+msgid "devices/track/main"
+msgstr "de rezervă"
+
+msgid "devices/track/outer"
+msgstr "principală"
+
+msgid "devices/track/right"
+msgstr "dreapta"
+
+msgid "devices/turret_rotator"
+msgstr "mecanismul de rotire a turelei"
+
+msgid "devices/wheel"
+msgstr "Roată"
+
+msgid "distance/meters"
+msgstr "%(meters)d m"
+
+msgid "dynamicSquad/ally/add"
+msgstr "Clic pentru a invita jucătorul în pluton.\nJucătorul poate accepta invitaţia în timpul luptei sau după ce aceasta se încheie.%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\nAtenție! Porecla ta actuală și eticheta clanului tău vor fi afișate membrilor de pluton."
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\nAtenție! Porecla ta actuală va fi afișată membrilor de pluton."
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "Acel aliat nu poate fi invitat în pluton."
+
+msgid "dynamicSquad/ally/received"
+msgstr "Clic pentru a accepta invitaţia în pluton.\nPlutonul va fi creat în timpul luptei."
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "O invitaţie a fost trimisă jucătorului.\nDacă o acceptă, vor intra în plutonul tău în timpul luptei sau după ce aceasta se încheie."
+
+msgid "dynamicSquad/enemy/add"
+msgstr "Clic pentru a invita jucătorul în pluton.\nJucătorul poate accepta invitaţia în timpul luptei sau după ce aceasta se încheie.%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "Nu poți invita inamicul în pluton."
+
+msgid "dynamicSquad/enemy/received"
+msgstr "Clic pentru a accepta invitaţia în pluton.\nPlutonul va fi creat doar după încheierea luptei."
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "O invitaţie a fost trimisă jucătorului.\nDacă o acceptă, vor intra în plutonul tău după ce lupta se încheie."
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "Apasă"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "pentru a activa chat-ul vocal"
+
+msgid "dynamicSquad/invite"
+msgstr "Invitaţie în pluton"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "Daune din lovitură aeriană"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "Daune din lovitură de artilerie"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "Daunele obiectivului principal"
+
+msgid "efficiencyRibbons/armor"
+msgstr "Daune blocate"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "Asistență cu Rezervele de luptă"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "Daune după descoperire"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "Daune în urma șocului tău"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "Şenilă distrusă"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "Daune cu Luptător furios"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "Experiența în rol"
+
+msgid "efficiencyRibbons/burn"
+msgstr "Pune foc"
+
+msgid "efficiencyRibbons/capture"
+msgstr "Puncte cucerire bază"
+
+msgid "efficiencyRibbons/crits"
+msgstr "Daune critice"
+
+msgid "efficiencyRibbons/damage"
+msgstr "Daune provocate"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "Daunele salvei cuirasatului"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "Daunele U.S.S. Frankford"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "Daune cu mine"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "Daune ale Robotului de luptă"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "Daune ale Proiectilului acid"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "Daune ale Cercului de foc"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "Daune ale Descărcării electrice"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "Daune după zonă"
+
+msgid "efficiencyRibbons/defence"
+msgstr "Puncte de captură reduse"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "Zonă apărată"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "Daune provocate"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "Obiective distruse"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "Obiective apărate"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "Zonă capturată"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "Daune de la zona de foc"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "Vehicul reparat"
+
+msgid "efficiencyRibbons/kill"
+msgstr "Distrus"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "Daunele câmpului de mine"
+
+msgid "efficiencyRibbons/ram"
+msgstr "Coliziune"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "Daune prin incendiere"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "Daune ale Robotului de luptă"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "Daune ale Proiectilului acid"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "Daune ale Cercului de foc"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "Daune cu mine"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "Daune cu ceața corozivă"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "Daune ale Descărcării electrice"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "Daune critice"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "Daune cu proiectile"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "Daune cu mingea de foc"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "Daune prin lovire"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "Daune prin coliziune"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "Daune cu mingea de foc"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "Descoperit"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "Daune de la Zona de distrugere"
+
+msgid "efficiencyRibbons/stun"
+msgstr "Șoc"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "Vehicul abandonat"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "Daune prin coliziune"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "Viscol"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "Foc"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "Ceața"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "Ploaia grea"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "Furtuna de nisip"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "Fumul"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "Tornada"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "Ascunde panelurile jucătorilor"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "Fără Paneluri"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Apasă Ctrl+Tab pentru a schimba între moduri)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "Arată numele jucătorilor, ţintele distruse şi iconiţele vehiculelor"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "Panel Mediu 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Apasă Ctrl+Tab pentru a schimba între moduri)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "Arată vehiculele distruse de jucător, numele şi iconiţele vehiculelor."
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "Panel Mediu 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Apasă Ctrl+Tab pentru a schimba între moduri)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "Arată ţintele distruse şi iconiţele vehiculelor"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "Panel Scurt"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Apasă Ctrl+Tab pentru a schimba între moduri)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "Schimbă între afişarea grupului propriu şi a tuturor celor trei grupuri."
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "Schimbă coloane"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Apasă Ctrl+Tab pentru a schimba între moduri)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "Ai distrus steagul!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "Steag capturat!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "Steag adus."
+
+msgid "flagNotification/flagInbase"
+msgstr "Adu steagul la bază."
+
+msgid "flags/timer"
+msgstr "%(time)s..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "s..."
+
+msgid "grille/status/reload"
+msgstr "REÎNCĂRCARE..."
+
+msgid "grille/status/speedlimit"
+msgstr "LIMITA DE VITEZĂ"
+
+msgid "helpScreen/hint/description"
+msgstr "pentru a vedea caracteristicile vehiculului"
+
+msgid "helpScreen/hint/press"
+msgstr "Apasă"
+
+msgid "helpScreen/mapbox/description"
+msgstr "pentru a afișa caracteristicile hărții"
+
+msgid "helpScreen/mapbox/press"
+msgstr "Apasă"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "pentru a activa modul de Asalt/<font color='#F4B12C'><b>Buncăr</b></font>"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "pentru a activa modul de Asalt/<font color='#F4B12C'><b>Marș</b></font>"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "pentru a activa modul de Marș/<font color='#F4B12C'><b>Buncăr</b></font>"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "Tasta de schimbare a modului nu e asignată"
+
+msgid "helpScreen/pillbox/press"
+msgstr "Apasă/<font color='#F4B12C'><b>Menține</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "Tastele de bază nu sunt asignate"
+
+msgid "hitMarker/blocked"
+msgstr "Nu s-a penetrat blindajul"
+
+msgid "hitMarker/critical"
+msgstr "Daune critice"
+
+msgid "hitMarker/missArmor"
+msgstr "Blindajul nu e lovit"
+
+msgid "hitMarker/ricochet"
+msgstr "Ricoșeu"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "Nu s-a penetrat ecranul"
+
+msgid "hitMarker/trackBlocked"
+msgstr "Nu s-a penetrat șenila"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "Nu s-a penetrat roata"
+
+msgid "levelProgress/maxLevel"
+msgstr "VEHICUL DE GENERAȚIA MAXIMĂ"
+
+msgid "marker/meters"
+msgstr "m"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "Explozia compartimentului de muniție a fost prevenită de echipamentul %(device)s"
+
+msgid "optDeviceResurrection/engine"
+msgstr "Distrugerea motorului a fost prevenită de echipamentul %(device)s"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "Incendiul a fost prevenit de echipamentul %(device)s"
+
+msgid "penetration/high"
+msgstr "Mare"
+
+msgid "penetration/low"
+msgstr "Mică"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "Criteriu secundar:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "Criteriu principal:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "Nu sunt misiuni active pentru acest mod de luptă."
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "Nu sunt misiuni active pentru acest vehicul."
+
+msgid "personal_reserves/hint/description"
+msgstr "pentru a activa rezerve personale"
+
+msgid "personal_reserves/hint/press"
+msgstr "Apasă"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "Imobilizat: suspensia este avariată."
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "Imobilizat: echipajul este scos din luptă."
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "Imobilizat: motorul este avariat."
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "Imobilizat: Vehicul distrus."
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "Nu se mai poate trage: echipajul este scos din luptă."
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "Nu se mai poate trage: tunul este avariat."
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "Nu pot trage."
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "Nu pot trage: tun supraîncălzit."
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "Tunul se încarcă."
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "Se finalizează încărcarea."
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "Nu se mai poate trage: lipsă muniţie."
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "Nu se mai poate trage: tancul este distrus."
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "Schimbare indisponibilă: motorul este distrus."
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "Schimbare indisponibilă: tun distrus"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "Schimbare indisponibilă: Un singur proiectil rămas"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] este deja activ."
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "[%(name)s] este inactiv: nu e incendiu la bord."
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] este indisponibil pe timpul pregătirii."
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "Ajutorul medical nu este necesar, nu există răniţi."
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] nu necesită ajutor medical."
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "Rezerva nu este încă gata."
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "Capturează %(name)s pentru a activa abilitatea tactică."
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "Modulele și comandantul au punctele maxime de integritate. Nu sunt necesare reparații sau vindecare."
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "Reparaţiile nu sunt necesare, nu există componente avariate."
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] nu necesită reparaţii."
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "Nu pot activa armamentul coaxial."
+
+msgid "player_messages/ALLY_HIT"
+msgstr "Ai lovit coechipierul %(entity)s!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s] e gata pentru utilizare."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "Bateria de artilerie instalată și gata de foc."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "Avioane în aer și gata de bombardament."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "Echipajul nostru este gata să inspire pe cei din jurul lor."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "Câmpul de mine e gata pentru desfășurare."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "Avionul este pe drum și gata de recunoaștere."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "Reparațiile de teren sunt gata de utilizare."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "Lansatoarele de fumigene amplasate și gata de tragere."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "Santinela e gata de utilizare."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "Bateria de artilerie a lui %(player)s a deschis focul."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "Bombardierele lui %(player)s se apropie."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s creează o zonă de recuperare."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s a activat Inspiră."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s a pus un câmp de mine."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "%(player)s a chemat un Zbor de recunoaștere."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s a folosit reparațiile de teren."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s a desfășurat un Ecran de fum."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s a activat Santinela."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s a fost distrus de o Lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s a fost distrus de o Lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s a fost distrus de o Lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s a fost distrus de o Lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s a fost distrus de o Lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s a fost distrus de o Lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Vehicul distrus de tirul artileriei."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s a fost distrus de o Lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s a fost distrus de o Lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s a fost distrus de un Atac aerian."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s a fost distrus de un Atac aerian."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "Coechipierul %(target)s a fost distrus de către copechipierul %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(attacker)s l-a distrus pe %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vehiculul a fost distrus de către coechipierul %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Aliatul %(target)s distrus de zonă."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(attacker)s l-a distrus pe %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "Inamicul %(attacker)s l-a distrus pe inamicul %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vehiculul a fost distrus de către %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s a fost distrus de zonă."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "Aliatul %(target)s distrus."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s este distrus."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vehicul distrus."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "[%(device)s] a explodat."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "[%(device)s] a fost distrus(ă) de lovitura lui %(entity)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "Coechipierul %(attacker)s l-a scufundat pe coechipierul %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(attacker)s l-a scufundat pe %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vehiculul a fost scufundat de către coechipierul %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "Coechipierul %(target)s s-a scufundat."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(attacker)s l-a scufundat pe %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "Inamicul %(attacker)s l-a scufundat pe inamicul %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vehiculul a fost scufundat de către %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "Inamicul %(target)s s-a scufundat."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "Coechipierul %(target)s s-a scufundat."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "%(target)s s-a scufundat."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vehicul scufundat."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "Coechipierul %(target)s a fost distrus de către copechipierul %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(attacker)s l-a distrus pe %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Vehiculul a fost distrus de către coechipierul %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(attacker)s l-a distrus pe %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "Inamicul %(attacker)s l-a distrus pe inamicul %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Tancul a fost distrus de %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "Aliatul %(target)s distrus."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s distrus."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "Echipajul este scos din luptă."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Echipajul a fost scos din luptă de lovitura lui %(entity)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Echipajul coechipierului %(target)s a fost scos din luptă de către coechipierul %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "Echipajul lui %(target)s a fost scos din luptă de către %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Echipajul a fost scos din luptă de către coechipierul %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Coechipierul %(target)s şi-a scos din luptă echipajul."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Echipajul lui %(target)s a fost scos din luptă de către %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Echipajul inamicului %(target)s a fost scos din luptă de către inamicul %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Echipajul a fost scos din luptă de către inamicul %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Inamicul %(target)s şi-a scos din luptă echipajul."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "Echipajul coechipierului %(target)s este scos din luptă."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "Echipajul lui %(target)s este scos din luptă."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Echipaj scos din luptă."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Aliatul %(target)s a fost distrus de câmpul de mine."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s este distrus."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(attacker)s l-a distrus pe %(target)s cu mine."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(attacker)s l-a distrus pe %(target)s cu mine."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s a fost distrus de mine."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "Aliatul %(attacker)s a răsturnat aliatul %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "Aliatul %(attacker)s a răsturnat %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Vehicul răsturnat de aliatul %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "Aliatul %(target)s şi-a răsturnat vehiculul"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "Aliatul %(attacker)s a răsturnat %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "Inamicul %(attacker)s a răsturnat inamicul %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Vehicul răsturnat şi distrus de %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "Inamicul %(target)s şi-a răsturnat vehiculul"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "Aliatul %(target)s răsturnat"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s răsturnat"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vehicul răsturnat şli distrus"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "Coechipierul %(attacker)s l-a distrus pe coechipierul %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(attacker)s l-a distrus pe %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Vehiculul a fost distrus de către coechipierul %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "Coechipierul %(target)s a fost distrus de coliziune."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(attacker)s l-a distrus pe %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "Inamicul %(attacker)s l-a distrus pe inamicul %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Vehiculul a fost distrus de către inamicul %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "Inamicul %(target)s a fost distrus de coliziune."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "Aliatul %(target)s distrus."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s este distrus."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vehicul distrus."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s și-a abandonat vehiculul."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s și-a abandonat vehiculul."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Vehicul distrus de bombardamentul zonei."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s a fost distrus în timpul unui bombardament al zonei."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s a fost distrus în timpul unui bombardament al zonei."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Vehicul distrus de tirul artileriei."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s a fost distrus de o Lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s a fost distrus de o Lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "Aliatul %(attacker)s l-a distrus pe %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "Aliatul %(attacker)s l-a distrus pe %(target)s cu o lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "Aliatul %(attacker)s l-a distrus pe %(target)s prin bombardament."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s l-a distrus pe %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s l-a distrus pe %(target)s cu lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(attacker)s l-a distrus pe %(target)s cu lovitură aeriană."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s l-a distrus pe %(target)s (Foc de acoperire)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s l-a distrus pe %(target)s (Lovitură de artilerie)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "Coechipierul %(target)s s-a autodistrus."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "Aliatul %(target)s a fost distrus în luptă de o lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "Aliatul %(target)s a fost distrus în luptă de un bombardament."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s l-a distrus pe %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(attacker)s l-a distrus pe %(target)s cu lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(attacker)s l-a distrus pe %(target)s cu lovitură aeriană."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s l-a distrus pe %(target)s (Foc de acoperire)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s l-a distrus pe %(target)s (Lovitură de artilerie)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "Inamicul %(attacker)s l-a distrus pe inamicul %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "Inamicul %(attacker)s l-a distrus pe inamicul %(target)s cu o lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "Inamicul %(attacker)s l-a distrus pe inamicul %(target)s cu un bombardament."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "Inamicul %(target)s s-a autodistrus."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "Inamicul %(target)s a fost distrus în luptă de o lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "Inamicul %(target)s a fost distrus în luptă de un bombardament."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "Aliatul %(target)s distrus."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "Aliatul %(target)s a fost distrus în luptă de o lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "Aliatul %(target)s a fost distrus în luptă de un bombardament."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s este distrus!"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s a fost distrus în luptă de o lovitură de artilerie."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s distrus de lovitură aeriană."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s a fost distrus"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s a fost distrus"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "Inamic (necunoscut) distrus %(target)s."
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Aliatul %(target)s distrus de zona de distrugere."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Coechipierul %(attacker)s l-a distrus prin coliziune pe coechipierul %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s l-a distrus prin coliziune pe %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vehiculul a fost distrus prin coliziune de către coechipierul %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Coechipierul %(target)s a fost distrus de coliziune."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s l-a distrus prin coliziune %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Inamicul %(attacker)s l-a distrus prin coliziune pe inamicul %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vehiculul a fost distrus prin coliziune de către inamicul %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Inamicul %(target)s a fost distrus de coliziune."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "Coechipierul %(target)s a fost distrus prin coliziune."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s a fost distrus prin coliziune."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vehicul distrus prin coliziune."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s au distrus obiectivul %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s au distrus obiectivul %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "Ai distrus obiectivul %(target)s."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "[%(device)s] a fost avariat de incendiu."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "Lovitura de la %(entity)s a avariat [%(device)s]."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "[%(device)s] a fost distrus de incendiu."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "[%(device)s] a fost distrus(ă) de %(entity)s."
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "[%(device)s] este reparat(ă)."
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "[%(device)s] este utilizabil(ă)."
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "[%(device)s] a luat foc din cauza loviturii lui %(entity)s."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "Obiectul [%(device)s] a fost avariat de un forțaj."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "[%(device)s] a fost avariat din cauza demontării limitatorului de turaţie."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "Obiectul [%(device)s] a fost distrus de un forțaj."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "[%(device)s] este distrus din cauza demontării limitatorului de turaţie."
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "Incendiul a fost stins."
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "Lovitura de la %(entity)s a rănit [%(device)s]."
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] şi-a revenit."
+
+msgid "player_messages/allied_team_name"
+msgstr "Aliați"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "Baza%s proprie va fi cucerită (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "Baza proprie %s a fost cucerită!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "Capturarea bazei este blocată"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "Cucerirea bazei%s (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "Baza %s a fost cucerită!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "Baza%s inamică va fi cucerită (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "Baza inamică %s a fost cucerită!"
+
+msgid "player_messages/enemy_team_name"
+msgstr "Inamici"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "Aliatul tău %(name)s a folosit abilitatea tactică %(equipment)s"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "Inamicul a folosit abilitatea tactică %(equipment)s"
+
+msgid "player_messages/postmortem_caption"
+msgstr "Jucătorul %(name)s (%(type)s); HP: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "Jucător: %(name)s; Durabilitate: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "Vehiculul tău (%(type)s) a fost distrus"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "Nu se mai poate trage: lipsă muniţie."
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "Controlul redării se face cu următoarele taste:"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "Butonul stânga al mouse-ului: schimbare între modurile camerei\nSpace: pauză"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "Săgeată stânga: derulare înapoi 20 sec. (cu Ctrl: 40 sec.)\nSăgeată dreapta: derulare înainte 20 sec. (cu Ctrl: 40 sec.)\nHome/End: salt la început/sfârşit\nSăgeată sus/săgeată jos: +/- la viteza redării"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "Modul cameră liberă activat"
+
+msgid "player_messages/replayPaused"
+msgstr "Pauză"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "Modul cameră fixă activat"
+
+msgid "player_messages/replaySpeedChange"
+msgstr "Viteza de redare: %(speed)sx"
+
+msgid "player_messages/tank_in_fire"
+msgstr "Incendiu la bord!"
+
+msgid "players_panel/state/large/body"
+msgstr "Arată numele jucătorilor, numărul de vehicule distruse,\nnumele şi pictogramele vehiculelor"
+
+msgid "players_panel/state/large/header"
+msgstr "Panou complet"
+
+msgid "players_panel/state/large/note"
+msgstr "(apasă Ctrl + Tab pentru a schimba modurile)"
+
+msgid "players_panel/state/medium/body"
+msgstr "Arată numele jucătorilor, numărul de vehicule distruse\nşi pictogramele vehiculelor"
+
+msgid "players_panel/state/medium/header"
+msgstr "Panou mediu"
+
+msgid "players_panel/state/medium/note"
+msgstr "(apasă Ctrl + Tab pentru a schimba modurile)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "Arată numărul de vehicule distruse de jucător,\nnumele şi pictograma vehiculului."
+
+msgid "players_panel/state/medium2/header"
+msgstr "Panou mediu 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(apasă Ctrl + Tab pentru a schimba modurile)"
+
+msgid "players_panel/state/none/body"
+msgstr "Ascunde panourile cu echipele"
+
+msgid "players_panel/state/none/header"
+msgstr "Fară panouri"
+
+msgid "players_panel/state/none/note"
+msgstr "(apasă Ctrl + Tab pentru a schimba modurile)"
+
+msgid "players_panel/state/short/body"
+msgstr "Arată numărul de vehicule distruse\nşi pictogramele vehiculelor"
+
+msgid "players_panel/state/short/header"
+msgstr "Panou minimimal"
+
+msgid "players_panel/state/short/note"
+msgstr "(apasă Ctrl + Tab pentru a schimba modurile)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "Inamici"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "Esc > Înapoi în garaj."
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "Intră în luptă cu alt vehicul."
+
+msgid "postmortem/tips/freecam/button"
+msgstr "SPAȚIU"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "Camera liberă"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "Activează camera liberă."
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "Camera liberă este indisponibilă"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "Nu pot activa camera liberă în acest mod."
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "Mod \"spectator\""
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "Mută camera de la un coechipier\nla altul."
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "Urmărește vehiculul"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "Ațintește cursorul către un vehicul aliat și apasă clic stânga pentru a-l urmări."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "Vehicul distrus de obiectivul principal."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Vehicul distrus de tirul artileriei."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "Vehicul distrus de obiectivul principal."
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "Vehicul distrus de Lovitură Aeriană"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "Vehicul distrus de Marauder."
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "Vehicul distrus de Robotul de luptă."
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "Vehicul distrus de Proiectilul acid."
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vehicul răsturnat de aliat în zonă interzisă"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vehicul răsturnat în zonă interzisă"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Nu ai reușit să ieși din zona periculoasă"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Modulul [%(device)s] distrus de foc"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modulul [%(device)s] a explodat lovit de jucător"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vehicul înecat de aliat"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vehicul înecat"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vehicul înecat"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "Vehicul incendiat de jucător"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "Vehicul distrus de Cercul de foc."
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Echipaj scos din luptă de lovitura jucătorului"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Echipaj scos din luptă după coliziune puternică cu un vehicul aliat"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Echipaj scos din luptă de coliziune puternică"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Echipaj scos din luptă de coliziune puternică"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "Vehicul distrus de Mingea de foc."
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Vehicul distrus pe câmpul de mine."
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "Vehicul distrus de mine"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Vehicul răsturnat de aliat"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Vehicul răsturnat de inamic"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vehicul distrus prin răsturnare"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Vehicul distrus prin coliziunea unui aliat"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Vehicul distrus prin coliziune"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vehicul distrus prin coliziune"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "Vehiculul tău a fost distrus"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Vehicul distrus de bombardamentul zonei."
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Vehicul distrus de tirul artileriei."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "Vehicul distrus de lovitura jucătorului"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "Vehicul distrus de Lovitură Aeriană."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "Vehicul distrus de Lovitură Aeriană."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Vehicul distrus de o lovitură de artilerie."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Vehicul distrus de Lovitură Aeriană"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vehicul distrus de zona de distrugere"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "Vehicul distrus de Descărcarea electrică."
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vehicul zdrobit de aliat"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vehicul zdrobit de inamic"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vehicul zdrobit"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "Vehiculul tău a fost distrus"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "Configurația selectată e folosită în luptă:"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "Selectează o configurație pentru utilizare în luptă, înainte de încheierea numărătorii inverse."
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "Selectează o configurație"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "Selecția configurației: {seconds} s"
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "Selecția configurației:"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "Ravină"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "Observare"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "Pădure"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "Cale"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "Stradă"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "Ruine"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "Pod"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "Cale ferată"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "Oraș"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "Sat"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "Piață"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "Fabrică"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "Deal"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "Far"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "Centru"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "Castel"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "Moară"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "Munți"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "Ruta A"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "Ruta B"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "Ruta C"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "Ruta D"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "Ruta E"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "Vale"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "Ghețar"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "Trecătoare"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "Dealuri"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "Drum"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "Munte"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "Bunker"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "Bulevard"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "Zid"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "Bolovani"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "Ateliere"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "Câmp"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "Garaj"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "Cărbune"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "Nave"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "Portavion"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "Tranșee"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "Serpentină"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "Nord"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "Sud"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "Vest"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "Est"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "Creastă"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "Zepelin"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "Depozite"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "Coastă"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "Râu"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "Lac"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "Mlaștină"
+
+msgid "quickReply/hint/press"
+msgstr "Apasă"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "pentru a confirma"
+
+msgid "quickReply/hint/toCommend"
+msgstr "to commend back"
+
+msgid "quickReply/hint/toHelp"
+msgstr "pentru a ajuta"
+
+msgid "quickReply/hint/toThank"
+msgstr "pentru a mulțumi"
+
+msgid "recovery/cooldown"
+msgstr "Vehiculul poate fi abandonat în %(cooldown)s secunde"
+
+msgid "recovery/hint1"
+msgstr "Apasă"
+
+msgid "recovery/hint2"
+msgstr "pentru a abandona vehiculul"
+
+msgid "repairPoint/title"
+msgstr "Reparaţii"
+
+msgid "repairPoint/unavailable"
+msgstr "Indisponibil"
+
+msgid "respawnView/additionalTip"
+msgstr "Selectează un vehicul cu care să continui. Dacă toate vehiculele sunt la reparații, vei continua lupta în primul vehicul care devine disponibil."
+
+msgid "respawnView/additionalTipLimited"
+msgstr "Selectează un vehicul pentru a continua. Vehiculul distrus nu poate fi reparat înainte de sfârşitul luptei."
+
+msgid "respawnView/classNotAvailable"
+msgstr "Limita frontului\natinsă"
+
+msgid "respawnView/cooldownLbl"
+msgstr "În reparaţii %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "Vehicul propriu distrus"
+
+msgid "respawnView/disabledLbl"
+msgstr "Vehicul indisponibil"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "Nu a fost selectat un vehicul potrivit"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "Grupul tău nu include un vehicul de generația X."
+
+msgid "respawnView/nextVehicleName"
+msgstr "Lupta continuă la "
+
+msgid "respawnView/title"
+msgstr "Selectare vehicule"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "DA, SĂ TRĂIȚI!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "Mulțumim pentru participarea la evoluția World of Tanks! Apreciem în mod deosebit contribuția ta!"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "Scrisoare de apreciere"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "Ai fost recompensat!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "Felicitări!"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "Recepționat!"
+
+msgid "rewardWindow/base/descText"
+msgstr "Recompense obținute"
+
+msgid "rewardWindow/base/headerText"
+msgstr "Felicitări!"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "Recompense obținute"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "Pachetul India"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "Pachetul Juliett"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "Spre cutii"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "Ai primit cutii mari cu recompense prețioase."
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "Ai primit cutii!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "Ai primit cutii mici cu recompense valoroase pentru finalizarea de misiuni."
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "Să vedem ce este în cutie!"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "Recepționat!"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "Acumularea de credite suspendată. Extinde Contul Premium WoT pentru a continua să-ți alimentezi rezerva de credite."
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "Credite primite"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "Rezerva de credite deschisă"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "Felicitări!"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "DA, SĂ TRĂIȚI!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "Felicitări, ai primit un pachet special împreună cu Prime Gaming. Acum, utilizează-l pe câmpul de luptă."
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "Pachetul Delta"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "Ai fost recompensat!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "RECRUTEAZĂ"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "Felicitări, ai primit un recrut special împreună cu Prime Gaming."
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "Pachetul Alpha"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "Ai fost recompensat!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "DA, SĂ TRĂIȚI!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "Pachetul Permis de Luptă"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "DA, SĂ TRĂIȚI!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "Pachetul Cosmic"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "DA, SĂ TRĂIȚI!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "Pachetul Noapte Înstelată"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "Mai mult"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "Pachetul Iunie"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "Pachetul Iulie"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "Mai mult"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "Pachetul ”De Zece”"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "World of Tanks: Kit Starlight"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "Kitul Regina Maeve"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just!"
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "Colecția Vâscului"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "Mai mult"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "Colecția „Peștele cel mare”"
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "DA, SĂ TRĂIȚI!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "Felicitări, ai primit un pachet special împreună cu Prime Gaming. Acum, utilizează-l."
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "Pachetul Charlie"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "Ai fost recompensat!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just!"
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "Pachetul \"G.I. JOE: Duke\""
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just!"
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "Pachetul \"G.I. JOE: Cobra\""
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "Mai mult"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "Pachetul Rock Out!"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "Pachetul Vânătoarea tăcută"
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "Mai mult"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "Pachetul „Înfățișare nouă”"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "Mai mult"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "Pachetul Fiorul Verii"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "Pachetul Voltaj Înalt"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "Mai mult"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "Pachetul „Sperietură”"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "Vikingii printre noi"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "Mai mult"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "Pachetul „Nou început”"
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "Pachetul Echo"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "Mai mult"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "Sintetizator"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "Adepta Sororitas"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "Pistolarul"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "Ai primit o recompensă unică pentru abonament: Prime Gaming"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "e-Camo"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "Gata de luptă"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "Hai Harrier-ii!"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "Pumnal"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Ai primit o recompensă unică pentru abonament: Prime Gaming"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "Vrăjitorie"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "Vremea Sabatului"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "Ai ajuns unde nu trebuie"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "Mușcă-mă!"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "Ai primit o recompensă unică pentru abonament: Prime Gaming"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "Fluier de start"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "Golul câștigător"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "Clasic adevărat"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Ai primit o recompensă unică pentru program: Prime Gaming"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "Haine de sărbătoare"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "Cadou șarmant"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "Cadou cu greutate"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "Sărbătoare dublă"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "Alege recompensele"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Ai primit o recompensă unică pentru abonament: Prime Gaming"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "O lume nouă"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "Ochiul Terminatorului"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "Anatomia Ciborgului"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "Ai fost descoperit"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "Pachetul Foxtrot"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "Pachetul Golf"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "Pachetul Hotel"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "Pachetul Kilo"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "Pachetul Lima"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "Recrutează"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "Felicitări! Ai primit o livrare specială, inclusă cu Prime Gaming. Acum folosește-o just."
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "Pachetul Mike"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "Bunuri primite"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "De acord!"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "Membrii clanului tău se bazează pe participarea ta\nla progresia în Turul datoriei."
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "Recompensă obținută!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "La Turul datoriei"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "Turul datoriei"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "De acord!"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "Membrii clanului tău se bazează pe participarea ta\nla progresia în Turul datoriei."
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "Recompensă obținută!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "La Turul datoriei"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "Turul datoriei"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "Felicitări!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "Plutonul nostru"
+
+msgid "scorePanel/playerScore"
+msgstr "Contribuţia ta:"
+
+msgid "scorePanel/squadLbl"
+msgstr "Pluton %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s mm perforant (AP) %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s mm perforant compozit (APCR) %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s mm perforant exploziv (APHE) %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s mm exploziv (HE) %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s mm exploziv antitanc (HEAT) %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "Daune medii: %(value)s HP"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "Daune pe secundă: %(value)s HP/s"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "Raza daunelor: %(value)s m"
+
+msgid "shells_kinds/params/header"
+msgstr "Încărcare parțială / întreagă"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "Penetrare medie: %(value)s mm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "Viteză a obuzului: %(value)s m/s"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "Durată șoc: %(minValue)s-%(maxValue)s s"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "pentru a trece în modul de asediu"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "pentru a trece în modul de marș"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "Tastele de bază nu sunt asignate"
+
+msgid "siegeMode/hint/press"
+msgstr "Apasă"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "pentru a activa Acceleratoarele cu combustibil lichid"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "pentru a activa racheto-accelerarea"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "pentru a activa Acceleratoarele secvențiale"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "Lovește vehicule inamice pentru efectul suplimentar al Marcatorului laser de țintă"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "pentru a alterna modurile motorului"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "pentru a schimba modul de foc"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "pentru a schimba modul de deplasare"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "pentru a activa asistarea Turbocompresorului"
+
+msgid "spotted/indicator"
+msgstr "Perioada de descoperire și daunele suferite sunt crescute"
+
+msgid "spotted/seconds"
+msgstr "s"
+
+msgid "statistics/exit"
+msgstr "Apasă Esc pentru a reveni în garaj..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "Distrus de: %s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "Cucerirea bazei: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "Avariaţi:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "Lovituri reuşite: %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "Lovituri primite: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "Apărarea bazei: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "Distruşi:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(post-mortem)"
+
+msgid "statistics/final/personal/shots"
+msgstr "Focuri trase: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "Detectaţi:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "Toate vehiculele aliate sunt distruse."
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "Toate vehiculele sunt distruse!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "Toate vehiculele inamice sunt distruse."
+
+msgid "statistics/final/reasons/reason2"
+msgstr "Baza cucerită!"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "Timpul de luptă a expirat!"
+
+msgid "statistics/final/stats/credits"
+msgstr "Credite:"
+
+msgid "statistics/final/stats/experience"
+msgstr "Experienţă:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "Experienţă (x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "Reparaţii:"
+
+msgid "statistics/final/status/lose"
+msgstr "Înfrângere! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "Egalitate! %s"
+
+msgid "statistics/final/status/win"
+msgstr "Victorie! %s"
+
+msgid "statistics/header"
+msgstr "Statistica luptei"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "Jucător"
+
+msgid "statistics/headers/header2"
+msgstr "Vehicule"
+
+msgid "statistics/headers/header3"
+msgstr "Stare"
+
+msgid "statistics/headers/header4"
+msgstr "Distruse"
+
+msgid "statistics/playerState/0"
+msgstr "Distrus"
+
+msgid "statistics/playerState/1"
+msgstr "Scos din luptă"
+
+msgid "statistics/playerState/2"
+msgstr "Distrus"
+
+msgid "statistics/playerState/3"
+msgstr "În luptă"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "Compoziție"
+
+msgid "statistics/tab/line_up/title"
+msgstr "Compoziție echipă"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "Rezerve personale"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "Activarea rezervelor personale"
+
+msgid "statistics/tab/quests/header"
+msgstr "Misiuni"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "Misiunile personale sunt indisponibile în acest tip de luptă"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "Mergi la pagina de Campanie din Garaj pentru a selecta o misiune"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "Nu ai misiuni active pentru acest vehicul"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "Condiție principală îndeplinită"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "Toate misiunile finalizate"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "Activă"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "Îmbunătățire rezultat"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "Pauză"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "Afișarea progresului în misiuni este indisponibilă"
+
+msgid "statistics/tabs/group"
+msgstr "Realizările echipei"
+
+msgid "statistics/tabs/heroes"
+msgstr "Eroii luptei"
+
+msgid "statistics/tabs/personal"
+msgstr "Realizări personale"
+
+msgid "statistics/team1title"
+msgstr "Aliați"
+
+msgid "statistics/team2title"
+msgstr "Inamici"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "Părăsește\nzona de distrugere!"
+
+msgid "stun/indicator"
+msgstr "Echipaj în șoc"
+
+msgid "stun/seconds"
+msgstr "s"
+
+msgid "tabStatsHint"
+msgstr "— Statistici"
+
+msgid "tankmen/commander"
+msgstr "comandantul"
+
+msgid "tankmen/driver"
+msgstr "şoferul"
+
+msgid "tankmen/gunner"
+msgstr "tunarul"
+
+msgid "tankmen/loader"
+msgstr "servantul"
+
+msgid "tankmen/radioman"
+msgstr "transmisionistul"
+
+msgid "timer/battlePeriod"
+msgstr "Finalul luptei:"
+
+msgid "timer/started"
+msgstr "Lupta a început!"
+
+msgid "timer/starting"
+msgstr "Lupta începe în:"
+
+msgid "timer/waiting"
+msgstr "În aşteptarea jucătorilor..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "Apasă"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "pentru a comuta modul de ochire"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "Tastele de bază nu sunt asignate"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vehiculul a fost distrus de către coechipierul %(entity)s într-o zonă interzisă."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vehiculul a fost distrus de către inamicul %(entity)s într-o zonă interzisă."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vehicul distrus de zona periculoasă."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vehiculul a fost scufundat de către coechipierul %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vehiculul a fost scufundat de către %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vehicul scufundat."
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "Vehiculul a fost distrus în incendiu."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Vehicul distrus de aliatul %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Vehicul distrus de %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Echipajul este scos din luptă din cauza coliziunii cu coechipierul %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Echipajul este scos din luptă din cauza coliziunii cu %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Echipajul este scos din luptă din cauza coliziunii."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Vehicul răsturnat de aliatul %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Vehicul răsturnat de inamicul %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vehicul distrus prin răsturnare"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Coechipierul %(entity)s şi-a distrus vehiculul prin coliziune."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "%(entity)s şi-a distrus vehiculul prin coliziune."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vehiculul a fost distrus prin coliziune."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "Vehiculul a fost distrus de lovitura lui %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "%(entity)s a fost distrus în luptă de o lovitură de artilerie."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "%(entity)s a fost distrus în luptă de un bombardament."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vehiculul a fost distrus prin coliziunea cu coechipierul %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vehiculul a fost distrus prin coliziunea cu inamicul %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vehicul distrus prin coliziune."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "Coechipierul %(entity)s a avariat prin coliziune [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "Coechipierul %(entity)s a avariat prin coliziune [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "[%(device)s] a fost avariat(ă) prin coliziune."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "Inamicul %(entity)s a avariat prin coliziune [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "Inamicul %(entity)s a avariat prin coliziune [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "[%(device)s] a fost avariat(ă) prin coliziune."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Impactul cu coechipierul %(entity)s a avariat [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Impactul cu coechipierul %(entity)s a avariat [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] a fost avariat(ă) din cauza coliziunii."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Impactul cu inamicul %(entity)s a avariat [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Impactul cu inamicul %(entity)s a avariat [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] a fost avariat(ă) din cauza impactului."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Obiectul [%(device)s] a fost distrus de câmpul de mine."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Obiectul [%(device)s] a fost distrus de câmpul de mine."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "Coechipierul %(entity)s a distrus [%(device)s] prin coliziune."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "Coechipierul %(entity)s a distrus [%(device)s] prin coliziune."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "[%(device)s] a fost distrus(ă) din cauza coliziunii."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "Inamicul %(entity)s a distrus [%(device)s] prin coliziune."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "Inamicul %(entity)s a distrus [%(device)s] prin coliziune."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "[%(device)s] a fost avariat(ă) din cauza coliziunii."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Impactul cu coechipierul %(entity)s a distrus [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Impactul cu coechipierul %(entity)s a distrus [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] a fost distrus(ă) din cauza impactului."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Impactul cu inamicul %(entity)s a distrus [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Impactul cu inamicul %(entity)s a distrus [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] a fost distrus(ă) din cauza impactului."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "[%(device)s] a luat foc din cauza coliziunii cu coechipierul %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "[%(device)s] a luat foc din cauza coliziunii cu coechipierul %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "[%(device)s] a luat foc din cauza coliziunii."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "[%(device)s] a luat foc din cauza coliziunii cu inamicul %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "[%(device)s] a luat foc din cauza coliziunii cu inamicul %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "[%(device)s] a luat foc din cauza coliziunii."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] a fost scos din luptă de impactul cu coechipierul %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] a fost scos din luptă de impactul cu coechipierul %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] a fost scos din luptă din cauza impactului."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] a fost scos din luptă de impactul cu inamicul %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] a fost scos din luptă de impactul cu inamicul %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] a fost scos din luptă din cauza impactului."
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "Abilitatea tactică %(equipment)s a fost activată!"
+
+msgid "warning_zone/indicator"
+msgstr "Atenție! te afli lângă zona de pericol."

@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT-vertaler <noreply@wargaming.net>\nLanguage-Team: WoT-team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Algemeen"
+
+msgid "channels/battle/team"
+msgstr "Team"
+
+msgid "channels/clan"
+msgstr "Clan"
+
+msgid "channels/common"
+msgstr "Algemeen"
+
+msgid "channels/epic_training"
+msgstr "Training – Frontlinie"
+
+msgid "channels/nubs"
+msgstr "Rekruten"
+
+msgid "channels/prebattle"
+msgstr "Gevechtsvoorbereiding"
+
+msgid "channels/special_battles"
+msgstr "Speciaal gevecht"
+
+msgid "channels/squad"
+msgstr "Peloton"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Peloton is aangemaakt. Wacht totdat de spelers gereed zijn."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Peloton"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Peloton is aangemaakt. Alle spelers zijn gereed."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Peloton"
+
+msgid "channels/system"
+msgstr "Systeem"
+
+msgid "channels/tournament"
+msgstr "Toernooi"
+
+msgid "channels/trading"
+msgstr "Handelen"
+
+msgid "channels/training"
+msgstr "Training"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "De chatbeheerder is ook kanaalmoderator."
+
+msgid "errors/addmoderatorowner"
+msgstr "De kanaaleigenaar is ook kanaalmoderator."
+
+msgid "errors/banchannelowner"
+msgstr "De kanaaleigenaar kan niet worden verbannen."
+
+msgid "errors/banchatadmin"
+msgstr "De chatbeheerder kan niet worden verbannen."
+
+msgid "errors/banned"
+msgstr "Je bent verbannen tot %(banEndTime)s door %(banOwnerNick)s. Reden: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Je bent verbannen door %(banOwnerNick)s. Reden: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Je bent verbannen tot %(banEndTime)s. Reden: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Je bent verbannen. Reden: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Opdracht %(command)s is nog %(cooldownPeriod)s sec geblokkeerd."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Beheerdersrechten kunnen niet worden ingetrokken voor de chatbeheerder."
+
+msgid "errors/delmoderatorowner"
+msgstr "Beheerdersrechten kunnen niet worden ingetrokken voor de kanaaleigenaar."
+
+msgid "errors/timeincorrect"
+msgstr "De tijdswaarde moet 'permanent' of een positief aantal minuten zijn [1-1440]."
+
+msgid "errors/toomanyargs"
+msgstr "Te veel parameters."
+
+msgid "errors/toosmallargs"
+msgstr "Onvoldoende parameters."
+
+msgid "errors/userbanhimself"
+msgstr "Je kunt jezelf niet verbannen."
+
+msgid "messages/userbanned"
+msgstr "%(banedUser)s is verbannen door %(banOwnerNick)s tot %(banEndTime)s. Reden: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "%(banedUser)s is verbannen door %(banOwnerNick)s. Reden: %(banReason)s"

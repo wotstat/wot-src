@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "ildkraft"
+
+msgid "categories/mobility"
+msgstr "mobilitet"
+
+msgid "categories/stealth"
+msgstr "speiding"
+
+msgid "categories/survivability"
+msgstr "overlevelsesevne"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "Bekreftes!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "Negativt!"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "Etter å ha nullstilt modifikasjonene vil du kunne kjøpe dem igjen med credits."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "Etter å ha nullstilt modifikasjonene vil du kunne kjøpe dem igjen."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "Nullstille alle doble modifikasjoner gratis?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "Etter å ha nullstilt modifikasjonen vil du kunne kjøpe den igjen med credits."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "Etter å ha nullstilt modifikasjonen vil du kunne kjøpe den igjen."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "Nullstille %(modification)s doble modifikasjoner gratis?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "KJØP MODIFIKASJONER"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "VELG PLASSKATEGORI"
+
+msgid "hint/entryPoint"
+msgstr "MODIFIKASJONER TILGJENGELIG"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "KLIKK FOR Å BYTTE\nEKSTRA KAPASITET"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "KLIKK FOR Å BYTTE\nPÅKREVET KAPASITET"
+
+msgid "hint/vehiclePreview"
+msgstr "ENDRINGER PÅ KJØRETØYETS KARAKTERISTIKA"
+
+msgid "postProgressionIntro/okButton"
+msgstr "Bekreftes!"
+
+msgid "postProgressionIntro/title"
+msgstr "FELTMODIFIKASJON"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "Spesialmodifikasjon %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "Klikk for å se endringene på kjøretøyets karakteristika etter å ha mottatt nivået og vist de påsatte modifikasjonene."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "Dobbelmodifikasjon %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "Nivå på feltmodifikasjon"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "Tilgjengelig etter kjøp av kjøretøyet"
+
+msgid "researchEntry/status/notResearched"
+msgstr "Tilgjengelig etter å ha fått elitestatus"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "Tilgjengelig etter å ha kjøpt kjøretøyet og fått elitestatus"
+
+msgid "researchEntry/title"
+msgstr "FELTMODIFIKASJON"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "Øk"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "Avbryt"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} og {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "Ekstra kapasitet"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "Plass"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "Påkrevet kapasitet"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "tilgang til spesialmodifikasjoner: {name1} og {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "tilgang til spesialmodifikasjoner: {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "tilgang til spesialmodifikasjon: {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "tilgang til spesialmodifikasjoner: {name1}, {name2} og {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "tilgang til doble modifikasjonsnivåer {numbers}"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "tilgang til dobbelt modifikasjonsnivå {number}"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "Du vil få: {unlockedItems}."
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "Øke standard modifikasjonsnivå til {level}?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "Øke standard modifikasjonsnivå?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "Totalt:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "Tildeling"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "Tilgjengelige kategorier: %(roles)."
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "Valgt kategori: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "En mulighet til å fastsette kategori for den andre utstyrsplassen på dette kjøretøyet."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "Kategoritildeling for den første utstyrsplassen"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "Tildeling (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "Kategori for den andre plassen"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "Tildel"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "Kjøp og tildel på nytt"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "Veksle"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "Avbryt"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "Du kan tildele plasskategorien på nytt for %(price)"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "Den valgte kategorien vil bli tildelt den andre utstyrsplassen. Du kan tildele plasskategorien på nytt for %(price)"
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "Vekslingskurs: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "Veksling feilet: Ytterligere %(gold) påkrevet"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "Tildel en kategori til den andre utstyrsplassen"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "Tildel en kategori til den andre utstyrsplassen på nytt"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "Kan ikke tildele en kategori til den andre utstyrsplassen: Ytterligere %(credits) påkrevet"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "Totalt:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "En mulighet til å utstyre med ytterligere et sett med {cream_Open}utstyr{cream_Close} og {cream_Open}direktiver.{cream_Close}"
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "En mulighet til å utstyre med ytterligere et sett med {cream_Open}granater{cream_Close} og {cream_Open}forbruksmateriell.{cream_Close}"
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "Ekstra kapasitet"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "Påkrevet kapasitet"
+
+msgid "setupTooltipView/tip"
+msgstr "Du kan bytte mellom hovedkonfigurasjon og alternativ konfigurasjon på kjøretøyet i garasjen og i løpet av nedtellingen til kampen."
+
+msgid "setupTooltipView/title"
+msgstr "Alternativ konfigurasjon: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)Ekstra kapasitet%(/accent) er en del av kjøretøyets konfigurasjon som består av %(accent)utstyr og direktiver%(/accent). Etter å ha vært inne på den alternative konfigurasjonen kan du %(accent)bytte mellom konfigurasjoner%(/accent) på den ekstra kapasiteten i løpet av nedtellingen til kampen."
+
+msgid "slides/additionalEquipment/title"
+msgstr "EKSTRA KAPASITET"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "Etter å ha nådd et bestemt nivå på feltmodifikasjon, blir en %(accent)alternativ konfigurasjon%(/accent) tilgjengelig for ditt kjøretøy og du vil kunne forberede %(accent)et ytterligere sett med utstyr, ammunisjon, forbruksmateriell og direktiver%(/accent) i garasjen. Det erstatter ikke hovedmodifikasjonen, men det åpner for nye muligheter. Du kan evaluere kartet og lagets sammensetning mens det telles ned til kamp og %(accent)velge det ene av to%(/accent) kjøretøykonfigurasjoner. Det vil gjøre at du kan stille enda bedre forberedt til ulike kampvilkår."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "ALTERNATIV KJØRETØYKONFIGURASJON"
+
+msgid "slides/baseModifications/description"
+msgstr "%(accent)Standardmodifikasjoner%(/accent) legger til en bonus på %(accent)ett av kjøretøyets karakteristika%(/accent) og åpner for dobbelmodifikasjoner. Disse modifikasjonene er gratis å installere og du trenger erfaringspoeng eller fri erfaring for å utvikle dem."
+
+msgid "slides/baseModifications/title"
+msgstr "STANDARDMODIFIKASJONER"
+
+msgid "slides/extraModification/description"
+msgstr "%(accent)Spesialmodifikasjoner%(/accent) åpner alternativ konfigurasjon for kjøretøyet og åpner for at man kan %(accent)tildele en kategori%(/accent) til den andre utstyrsplassen (for kjøretøy på nivå 8–10). Du kan tildele en ny kategori for den valgte plassen ved å bruke credits."
+
+msgid "slides/extraModification/title"
+msgstr "SPESIALMODIFIKASJONER: ROLLEPLASS"
+
+msgid "slides/fieldModernization/description"
+msgstr "Feltmodifikasjon er evnen til å utføre en mer nyansert konfigurasjon av kjøretøyet i henhold til dens rolle og %(accent)endre dens karakteristika%(/accent) ved å benytte ulike %(accent)modifikasjoner%(/accent). Hver påfølgende modifikasjon åpnes etter å ha utviklet den forrige."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "FELTMODIFIKASJON"
+
+msgid "slides/fieldModernization/title"
+msgstr "ENDRING AV KJØRETØYKARAKTERISTIKA"
+
+msgid "slides/modificationTree/description"
+msgstr "Modifikasjonstreet er tilgjengelig for utviklingsbare og samlerkjøretøy på %(accent)nivå 6–10%(/accent) som har fått %(accent)elitestatus%(/accent). Modifikasjoner for spesial-, premie-, belønnings- og premiumkjøretøy er tilgjengelige etter kjøp."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "UTVIKLING AV MODIFIKASJONER"
+
+msgid "slides/modificationTree/title"
+msgstr "UTVIKLING AV MODIFIKASJONER"
+
+msgid "slides/pairedModifications/description"
+msgstr "%(accent)Doble modifikasjoner forbedrer ett%(/accent) av kjøretøyets karakteristika og %(accent)reduserer en annen%(/accent). Du må ha erfaringspoeng eller fri erfaring for å utvikle modifikasjoner og credits for å installere dem. Du kan %(accent)nullstille (fjerne fra kjøretøyet)%(/accent) modifikasjonen %(accent)gratis%(/accent).\nNår kjøretøyet selges, blir standard- og spesialmodifikasjoner lagret, men dobbelmodifikasjoner blir nullstilt."
+
+msgid "slides/pairedModifications/title"
+msgstr "DOBLE MODIFIKASJONER"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)Påkrevet kapasitet%(/accent) er en del av kjøretøyets konfigurasjon som består av %(accent)ammunisjon og forbruksmateriell%(/accent). Etter å ha vært inne på den alternative konfigurasjonen kan du %(accent)bytte mellom konfigurasjoner%(/accent) på den påkrevede kapasiteten i løpet av nedtellingen til kampen."
+
+msgid "slides/requiredEquipment/title"
+msgstr "PÅKREVET KAPASITET"
+
+msgid "slides/roleInBattle/description"
+msgstr "I motsetning til kjøretøytypen, er kjøretøyets rolle noe som viser et kjøretøys optimale %(accent)kamptaktikk%(/accent) og definerer hvilket %(accent)modifikasjonstre%(/accent) som vil bli tilgjengelig for et bestemt kjøretøy."
+
+msgid "slides/roleInBattle/title"
+msgstr "KJØRETØYETS ROLLE I KAMP"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "Modifikasjoner endrer karakteristika for et kjøretøy, åpner %(accent)tilgang til alternativ konfigurasjon%(/accent) og gjør det mulig å tildele en kategori til den %(accent)andre utstyrsplassen%(/accent)."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "Alternativ konfigurasjon er et andre sett med %(accent)utstyr, ammunisjon, forbruksmateriell og direktivers%(/accent). Du kan bytte mellom konfigurasjonene."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "Evnen til å velge og tildele en kategori for den %(accent)andre utstyrsplassen%(/accent). Påvirker kjøretøyets effektivitet i kamp direkte."
+
+msgid "slides/specialModifications/title"
+msgstr "MODIFIKASJONER, ALTERNATIVE KONFIGURASJONER, PLASSKATEGORI"
+
+msgid "tooltips/entry_point/description"
+msgstr "En evne til ytterligere å endre et kjøretøy's karakteristika."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "Moduler og kjøretøy som er utviklet: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "Moduler utviklet: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "Feltmodifikasjon"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "Tilgjengelig etter kjøp av kjøretøyet."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "Tilgjengelig etter å ha fått elitestatus."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "Tilgjengelig etter å ha kjøpt kjøretøyet og fått elitestatus."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "Vi beklager den midlertidige ubeleiligheten. Vennligst prøv igjen senere."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "Spesialmodifikasjoner ikke tilgjengelig"
+
+msgid "tooltips/feature/subTitle"
+msgstr "Spesialmodifikasjon %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "Tjen dem i kamper, selg overskuddsgjenstander fra depotet ditt eller veksle gull for å få mer."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "Ikke nok credits"
+
+msgid "tooltips/pairModification/demount"
+msgstr "Demonterer"
+
+msgid "tooltips/pairModification/level"
+msgstr "Dobbelmodifikasjon %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "Endringer på tekniske karakteristika:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "Demontering (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "Kjøp (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "Kjøp av"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "Klikk for å se endringene på kjøretøyets tekniske karakteristika etter at denne modifikasjonen er kjøpt."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "Når du nullstiller modifikasjonen vil du kunne kjøpe en hvilken som helst modifikasjon til dette paret med credits."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "Kjøp av denne modifkasjonen vil automatisk fjerne den som allerede er installert fra dette paret."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "Enda en modifikasjon kjøpt"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "Nå feltmodifikasjonsnivå %(level) for å få tilgang til denne modifikasjonen"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "Modifikasjon er ikke tilgjengelig"
+
+msgid "tooltips/priceBlock/free"
+msgstr "Gratis"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "påkrevet:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "Omtrentlig tall. Presise verdier er spesifisert i karakteristika."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "Aktivér"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "Avbryt"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "Nullstill"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "%(title)s Modifikasjoner"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "Legg til sammenlikning"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "Ødelegg alle doble modifikasjoner"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "Klikk for å ødelegge alle doble modifikasjoner."
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "Ødelegg"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "Forhåndsvisning"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "Tildel på nytt"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "Før kampen"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "Velg"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "Aktiver/deaktiver muligheten til å velge sett med utstyr og direktiver i løpet av nedtellingen før en kamp.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "Aktiver/deaktiver muligheten til å velge sett med granater og forbruksmateriell i løpet av nedtellingen før en kamp.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "Når den er deaktivert, blir settene som velges i garasjen benyttet i kamp."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "Bytting før kamp"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "Dette kjøretøyet er i kamp."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "Dette kjøretøyet er låst."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "Dette kjøretøyet krever reparasjoner."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "Dette kjøretøyet er i en taktisk enhet."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "Kan ikke tildele en plasskategori: Kjøretøyet er ikke i garasjen."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "Kjøretøyleien har utløpt."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "Dette kjøretøyet er i kamp."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "Dette kjøretøyet er låst."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "Dette kjøretøyet krever reparasjoner."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "Dette kjøretøyet er i en taktisk enhet."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "Kan ikke kjøpe: Køretøyet er ikke i garasjen."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "Kjøretøyleien har utløpt."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "Klikk for å ødelegge en dobbel modifikasjon."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "Ødelegg"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "eller"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "Maksimalt nivå på feltmodifikasjon"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "Tilgjengelig for kjøretøy på nivå {minAllowedLevel}—{maxAllowedLevel}"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "Tilgjengelig for kjøretøy på nivå {allowedLevel}"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "SKJUL KARAKTERISTIKA"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "Permanente bonuser: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "Permanent bonus: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "Permanente bonuser: %(bonus1) og %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "Øk nivået for å få de permanente bonusene: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "Øk nivået for å få den permanente bonusen: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "Øk nivået for å få de permanente bonusene: %(bonus1) og %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "Øk nivået"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "Øk nivået til %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "Øk nivået for å få:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "Forbedrede karakteristika"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "Spesialmodifikasjoner"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "Spesialmodifikasjon {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "Doble modifikasjoner"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "Dobbelmodifikasjon {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "Til moduler"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "Feltmodifikasjon ikke tilgjengelig. Kjøretøyet er i kamp."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "Feltmodifikasjon ikke tilgjengelig. Kjøretøyet er låst."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "Feltmodifikasjon ikke tilgjengelig. Kjøretøyet må repareres."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "Evnen til ytterligere å endre kjøretøykarakteristika blir tilgjengelig så snart et kjøretøy oppnår elitestatus."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "Feltmodifikasjon ikke tilgjengelig: Kjøretøyet befinner seg i en taktisk enhet."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "Du må ha kjøretøyet i garasjen for å kunne utvikle modifikasjoner og øke nivået på feltmodifikasjoner."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "Feltmodifikasjon er ikke tilgjengelig for leiekjøretøy. Kjøp dette kjøretøyet for å åpne feltmodifikasjon."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "Feltmodifikasjon er ikke tilgjengelig: Leie av kjøretøy er utløpt. Forleng leietiden for å åpne feltmodifikasjon."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "VIS KARAKTERISTIKA"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "Evne til ytterligere å endre kjøretøykarakteristika. Den blir tilgjengelig så snart et kjøretøy oppnår elitestatus."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "Feltmodifikasjon"

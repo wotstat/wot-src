@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT prevodilac <noreply@wargaming.net>\nLanguage-Team: WoT tim <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "actionStub/name"
+msgstr "Modifikacija"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "Momentalno obnavlja %(immediatelyRestore)s poena izdržljivosti vozila. Tokom trajanja sposobnosti od %(duration)s s, sva nadolazeća šteta od granata i borbenih sposobnosti će biti sakupljena i pretvorena u poene izdržljivosti plus dodatnih %(restoringCoefficient)s od ukupne pretrpljene šete kada jednom sposobnost istekne.\n\n*Pretvoreni obnovljeni poeni izdržljivosti takođe utiču na saveznička vozila u okviru malog radijusa."
+
+msgid "adaptationHealthRestore/descr"
+msgstr "Momentalno obnavlja %(immediatelyRestore)s poena izdržljivosti vozila. Tokom trajanja sposobnosti od %(duration)s s, sva nadolazeća šteta od granata i borbenih sposobnosti će biti sakupljena i pretvorena u poene izdržljivosti plus dodatnih %(restoringCoefficient)s od ukupne pretrpljene šete kada jednom sposobnost istekne.\n\n*Pretvoreni obnovljeni poeni izdržljivosti takođe utiču na saveznička vozila u okviru malog radijusa."
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "Momentalno {green_Open}obnavlja%(immediatelyRestore)s{green_Close} poena izdržljivosti vozila. Tokom trajanja sposobnosti od {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close}, sva nadolazeća šteta od granata i borbenih sposobnosti će biti sakupljena i pretvorena u poene izdržljivosti plus {green_Open}dodatnih %(restoringCoefficient)s od ukupne pretrpljene štete{green_Close} kada jednom sposobnost istekne.\n\n*Pretvoreni obnovljeni poeni izdržljivosti takođe utiču na saveznička vozila u okviru malog radijusa."
+
+msgid "adaptationHealthRestore/name"
+msgstr "Prilagodljiv oklop"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "Momentalno {green_Open}obnavlja%(immediatelyRestore)s{green_Close} poena izdržljivosti vozila. Tokom trajanja sposobnosti od {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close}, sva nadolazeća šteta od granata i borbenih sposobnosti će biti sakupljena i pretvorena u poene izdržljivosti plus {green_Open}dodatnih %(restoringCoefficient)s od ukupne pretrpljene štete{green_Close} kada jednom sposobnost istekne.\n\n*Pretvoreni obnovljeni poeni izdržljivosti takođe utiču na saveznička vozila u okviru malog radijusa."
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s na prikrivenost nepokretnog ili pokretnog vozila sa montiranim izduvnim sistemom niske buke (bilo koje klase) ili obilnim izduvnim sistemom."
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "Povećava efekat izduvnog sistema niske buke ili nagradnog izduvnog sistema tokom toka borbe. Direktiva će raditi samo ako imaš montiranu odgovarajuću opremu."
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "Izolacija izduvnika"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "Povećava prikrivenost nepokretnog ili pokretnog vozila"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "Efektivnost zavisi od tipa vozila. Povećava skrivanje nepokretnog ili pokretnog vozila. Korisno za aktivno spotovanje, kao i pasivno spotovanje sa rizične pozicije."
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "Izduvni sistem niske buke"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "Povećava skrivanje nepokretnog ili pokretnog vozila."
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "Izduvni sistem niske buke klasa 1"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "Izduvni sistem niske buke klasa 2"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "Izduvni sistem niske buke klasa 3"
+
+msgid "additional_armor_plates_1/name"
+msgstr "Dodatne oklopne ploče (Tip 1)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "Dodatne oklopne ploče (Tip 2)"
+
+msgid "afterburning/descr"
+msgstr "Pojačava brzinu i ubrzanje tvog vozila na određeno vreme."
+
+msgid "afterburning/name"
+msgstr "Turbo punjač"
+
+msgid "aimingStabilizer/long_special"
+msgstr "Smanjenje rasipanja hitaca iz tvog topa je ključno: što je manje početno rasipanje manji je nišanski krug i manje vremena je potrebno za puno nišanjenje topa. Pored toga nepripremljen hitac (onaj koji je ispaljen bez punog nišanjenja ili u pokretu) sa manjom disperzijom ima veće šanse da pogodi metu."
+
+msgid "aimingStabilizer/name"
+msgstr "Vertikalni stabilizator"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s na rasipanje hica nakon pucanja, tokom pokreta i rotacije kupole sa montiranim vertikalnim stabilizatorom, sistemom opreme za stabilizovanje ili nagradnim stabilizatorom."
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "Poboljšava efekat vertikalnog stabilizatora (bilo koje klase), sistema stabilizujuće opreme i nagradnog stabilizatora tokom toka borbe. Da bi se opremio i da bi aktivirao ovu direktivu, ova oprema bi trebalo da bude montirana na tvoje vozilo."
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "Podmazivanje stabilizatora"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "Povećava efekat stabilizatora"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "Vertikalni stabilizator klasa 1"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "Vertikalni stabilizator klasa 2"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "Vertikalni stabilizator klasa 1"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "Vertikalni stabilizator klasa 2"
+
+msgid "antifragmentationLining/long_special"
+msgstr "Dvostruki oklopi umanjuju štetu, ovo znači da smanjuju oštećenja od udaraca i fugasnih granata. Dvostruki oklopi će biti od koristi teškim tenkovima sa pouzdanim oklopom i velikim udarnim potencijalom koji se bore uglavnom u bliskoj borbi."
+
+msgid "antifragmentationLining/name"
+msgstr "Kompozitna obloga"
+
+msgid "antifragmentationLining/short_special"
+msgstr "Štiti vozila i posadu od HE granata, povreda, ošamućenja i sudaranja"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "Super veliki dvoslojni oklop"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "Veliki dvoslojni oklop"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "Srednji dvoslojni oklop"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "Mali dvoslojni oklop"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "Izduvni sistem"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "Stabilizator"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "Kompozitna obloga"
+
+msgid "archetype/camouflageNet/name"
+msgstr "Maskirna mreža"
+
+msgid "archetype/coatedOptics/name"
+msgstr "Optika"
+
+msgid "archetype/commandersView/name"
+msgstr "Sistem osmatranja"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "Mehanizam topa"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "Čvrstoća"
+
+msgid "archetype/grousers/name"
+msgstr "Kramponi"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "Konfiguracija"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "Radio"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "Mehanizam rotacije"
+
+msgid "archetype/improvedSights/name"
+msgstr "Nišanjenje"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "Ventilacija"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "Sistem upravljanja vatrom"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "Poboljšavanje preživljavanja"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "Sistem poboljšavanja preciznosti"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "Poboljšavanje mobilnosti"
+
+msgid "archetype/stereoscope/name"
+msgstr "Stereoskopski teleskop"
+
+msgid "archetype/tankRammer/name"
+msgstr "Nabijač"
+
+msgid "archetype/template"
+msgstr "\"%(name)s\" kategorija opreme"
+
+msgid "archetype/turbocharger/name"
+msgstr "Turbo punjač"
+
+msgid "artillery/longDescr"
+msgstr "Komanduj artiljeriji da puca na malo područje sa HE granatama. Najviše štete dobijaju vozila u centru udara. Posebno efikasan protiv teško oklopnih vozila."
+
+msgid "artillery/name"
+msgstr "Artiljerijski napad"
+
+msgid "artillery/shortDescr"
+msgstr "Nanosi značajnu štetu neprijateljskim vozilima u malom radijusu."
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s na šansu za požar motora"
+
+msgid "autoExtinguishers/descr"
+msgstr "Automatsko gašenje požara na vozilu."
+
+msgid "autoExtinguishers/long_special"
+msgstr "Automatski gasi vatru i ujedno smanjuje đansu za izbijanje požara na vozilu. Ovaj potrošni materijal odgovara svim vozilima svih nacija."
+
+msgid "autoExtinguishers/name"
+msgstr "Automatski PP aparat"
+
+msgid "autoExtinguishers/onUse"
+msgstr "Automatsko gašenje požara na vozilu. Može da se koristi više puta u toku borbe. Ako je upotrebljen makar jednom, biće uklonjen nakon bitke."
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "Automatski PP aparat"
+
+msgid "berserker/battleDescr"
+msgstr "Povećava probojnost i brzinu vatre %(gunPiercing)s puta, takođe povećavajući efikasnost mehanizma topa i stabilizaciju za %(gunAimingTime)s, ali oduzima %(healthDebuff)s od ukupnog broja poena izdržljivosti tvog vozila tokom trajanja od %(duration)s s.\n\n*Šteta naneta sposobnošću Ludak ne može da uništi tvoje vozilo."
+
+msgid "berserker/descr"
+msgstr "Povećava probojnost i brzinu vatre %(gunPiercing)s puta, takođe povećavajući efikasnost mehanizma topa i stabilizaciju %(gunAimingTime)s puta, ali oduzima %(healthDebuff)s od ukupnog broja poena izdržljivosti tvog vozila tokom trajanja od %(duration)s s.\n\n*Šteta naneta sposobnošću berserker ne može da uništi tvoje vozilo."
+
+msgid "berserker/longDescr"
+msgstr "Povećava probojnost i brzinu vatre {green_Open}%(gunPiercing)s puta{green_Close}, takođe povećavajući efikasnost mehanizma topa i stabilizaciju {green_Open}za%(gunAimingTime)s{green_Close}, ali oduzima {red_Open}%(healthDebuff)s{red_Close} od ukupnog broja poena izdržljivosti tvog vozila tokom trajanja {whiteSpanish_Open}od %(duration)ss {whiteSpanish_Close}.\n\n*Šteta naneta sposobnošću Ludak ne može da uništi tvoje vozilo."
+
+msgid "berserker/name"
+msgstr "Ludak"
+
+msgid "berserker/shortDescr"
+msgstr "Povećava probojnost i brzinu vatre {green_Open}%(gunPiercing)s puta{green_Close}, takođe povećavajući efikasnost mehanizma topa i stabilizaciju {green_Open}za%(gunAimingTime)s{green_Close}, ali oduzima {red_Open}%(healthDebuff)s{red_Close} od ukupnog broja poena izdržljivosti tvog vozila tokom trajanja {whiteSpanish_Open}od %(duration)ss {whiteSpanish_Close}.\n\n*Šteta naneta sposobnošću Ludak ne može da uništi tvoje vozilo."
+
+msgid "blackout_headlights_1/name"
+msgstr "Prigušivanje farova (Tip 1)"
+
+msgid "bomber/longDescr"
+msgstr "Komanduj jurišnom avionu da baca bombe u izabrano područje, uz ošamućivanje i nanošenje štete na neprijateljska vozila. Najviše štete dobijaju vozila u centru udarnog područja. Posebno efikasan protiv lakih i srednjih oklopnih vozila."
+
+msgid "bomber/name"
+msgstr "Vazdušni napad"
+
+msgid "bomber/shortDescr"
+msgstr "Ošamućuje neprijateljska vozila i nanosi srednju štetu u srednjem radijusu."
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "Postepeno obnavlja %(healPerTickDuration)s poena izdržljivosti vozila tokom %(duration)s s. Može biti prekinuta ako se pretrpi šteta."
+
+msgid "brRegenerationKit/descr"
+msgstr "Postepeno obnavlja %(healPerTickDuration)s poena izdržljivosti vozila tokom %(duration)s s. Može biti prekinuta ako se pretrpi šteta."
+
+msgid "brRegenerationKit/long_special"
+msgstr "Postepeno {green_Open}obnavlja %(healPerTickDuration)s{green_Close} poena izdržljivosti vozila {whiteSpanish_Open}tokom %(duration)s s.{whiteSpanish_Close} Može biti prekinuta ako se pretrpi šteta."
+
+msgid "brRegenerationKit/name"
+msgstr "Obnavljanje"
+
+msgid "brRegenerationKit/short_special"
+msgstr "Postepeno {green_Open}obnavlja %(healPerTickDuration)s{green_Close} poena izdržljivosti vozila {whiteSpanish_Open}tokom %(duration)s s.{whiteSpanish_Close} Može biti prekinuta ako se pretrpi šteta."
+
+msgid "brRepairkit/descr"
+msgstr "Popravlja module i uklanja negativne efekte"
+
+msgid "brRepairkit/long_special"
+msgstr "Popravlja module i uklanja negativne efekte"
+
+msgid "brRepairkit/name"
+msgstr "Komplet za popravku"
+
+msgid "brRepairkit/short_special"
+msgstr "Popravlja module i uklanja negativne efekte"
+
+msgid "br_bomber/battleDescr"
+msgstr "Ošamućuje i nanosi od %(minDamage)s do %(maxDamage)s poena izdržljivosti neprijateljskim vozilima. Vozila u centru udara su najviše oštećena.\n\n*Postoji zadrška od %(delay)s s pre udara."
+
+msgid "br_bomber/descr"
+msgstr "Ošamućuje i nanosi od %(minDamage)s do %(maxDamage)s poena štete neprijateljskim vozilima. Vozila u centru udara su najviše oštećena.\n\n*Postoji zadrška od %(delay)s s pre udara."
+
+msgid "br_bomber/longDescr"
+msgstr "Ošamućuje i nanosi {whiteSpanish_Open}od %(minDamage)s do %(maxDamage)s poena izdržljivosti {whiteSpanish_Close} neprijateljskim vozilma. Vozila u centru udara su najviše oštećena.\n\n*Postoji zadrška od %(delay)s s pre udara."
+
+msgid "br_bomber/name"
+msgstr "Vazdušni napad"
+
+msgid "br_bomber/shortDescr"
+msgstr "Ošamućuje i nanosi {whiteSpanish_Open}od %(minDamage)s do %(maxDamage)s poena izdržljivosti {whiteSpanish_Close} neprijateljskim vozilma. Vozila u centru udara su najviše oštećena.\n\n*Postoji zadrška od %(delay)s s pre udara."
+
+msgid "br_minefield/battleDescr"
+msgstr "Postavlja aktivno minsko polje u odabranoj oblasti tokom %(duration)s s. Neprijateljska vozila koja dođu u kontakt sa minama će biti ošamućena i pretrpeće eksplozivnu štetu.\n\n*Mine mogu biti uništene pucanjem. Mine postavljene ispod neprijateljskih vozila NEĆE eksplodirati."
+
+msgid "br_minefield/descr"
+msgstr "Postavlja aktivno minsko polje u odabranoj oblasti tokom %(duration)s s. Neprijateljska vozila koja dođu u kontakt sa minama će biti ošamućena i pretrpeće eksplozivnu štetu.\n\n*Mine mogu biti uništene pucanjem. Mine postavljene ispod neprijateljskih vozila NEĆE eksplodirati."
+
+msgid "br_minefield/longDescr"
+msgstr "Postavlja aktivno minsko polje u odabranoj oblasti {whiteSpanish_Open}tokom %(duration)s s{whiteSpanish_Close}. Neprijateljska vozila koja dođu u kontakt sa minama će biti ošamućena i pretrpeće eksplozivnu štetu.\n\n*Mine mogu biti uništene pucanjem. Mine postavljene ispod neprijateljskih vozila NEĆE eksplodirati."
+
+msgid "br_minefield/name"
+msgstr "Minsko polje"
+
+msgid "br_minefield/shortDescr"
+msgstr "Postavlja aktivno minsko polje u odabranoj oblasti {whiteSpanish_Open}tokom %(duration)s s{whiteSpanish_Close}. Neprijateljska vozila koja dođu u kontakt sa minama će biti ošamućena i pretrpeće eksplozivnu štetu.\n\n*Mine mogu biti uništene pucanjem. Mine postavljene ispod neprijateljskih vozila NEĆE eksplodirati."
+
+msgid "br_respawn/name"
+msgstr "Ponovni početak"
+
+msgid "br_respawn/platoon/descr"
+msgstr "Omogućava ti da se vratiš u bitku nakon što je tvoje vozilo uništeno. Ova mehanika radi u prvih %(duration)s minuta bitke.\n\nDa bi ponovo pokrenuo saveznika, ostani van borbe za %(timeToResurrect)s s. Naknade za ponovno pokretanje dele se između članova voda."
+
+msgid "br_respawn/solo/descr"
+msgstr "Omogućava ti da se vratiš u bitku nakon što je tvoje vozilo uništeno. Ova mehanika radi u okviru prvih %(duration)s min bitke.\n\nJednom uništeno, tvoje vozilo se automatski ponovo pojavljuje."
+
+msgid "br_smoke/battleDescr"
+msgstr "Dodaje %(duration)s -sekundi bonusa na prikrivenost svih vozila u dometu potrošnog materijala."
+
+msgid "br_smoke/descr"
+msgstr "Dodaje bonus na prikrivenost svih vozila u dometu potrošnog materijala."
+
+msgid "br_smoke/longDescr"
+msgstr "Dodaje %(duration)s -sekundi bonusa na prikrivenost svih vozila u dometu potrošnog materijala."
+
+msgid "br_smoke/name"
+msgstr "Dimna zavesa"
+
+msgid "br_smoke/shortDescr"
+msgstr "Dodaje bonus na prikrivenost svih vozila u dometu potrošnog materijala."
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "Dodaje bonus prikrivenosti na sva vozila u dometu potrošnog materijala, istovremeno oštećujući SVA vozila u svom dometu za %(damagePerTick)s od njihovog ukupnog broja poena izdržljivosti po sekundi. Traje %(duration)s s.\n\n*Korozivna magla ne prekida uzimanje plena i ne uništava vozila, ostavljajući ih na najmanje 1 poenu izdržljivosti."
+
+msgid "br_smoke_with_damage/descr"
+msgstr "Dodaje bonus prikrivenosti na sva vozila u dometu potrošnog materijala, istovremeno oštećujući SVA vozila u svom dometu za %(damagePerTick)s od njihovog ukupnog broja poena izdržljivosti po sekundi. Traje %(duration)s s.\n\n*Korozivna magla ne prekida uzimanje plena i ne uništava vozila, ostavljajući ih na najmanje 1 poenu izdržljivosti."
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "Dodaje bonus prikrivenosti na sva vozila u dometu potrošnog materijala, istovremeno oštećujući SVA vozila u svom dometu {whiteSpanish_Open}za %(damagePerTick)s {whiteSpanish_Close}od njihovog ukupnog broja poena izdržljivosti po sekundi. Traje {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}\n\n*Korozivna magla ne prekida uzimanje plena i ne uništava vozila, ostavljajući ih na najmanje 1 poenu izdržljivosti."
+
+msgid "br_smoke_with_damage/name"
+msgstr "Korozivna magla"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "Dodaje bonus prikrivenosti na sva vozila u dometu potrošnog materijala, istovremeno oštećujući SVA vozila u svom dometu {whiteSpanish_Open}za %(damagePerTick)s {whiteSpanish_Close}od njihovog ukupnog broja poena izdržljivosti po sekundi. Traje {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}\n\n*Korozivna magla ne prekida uzimanje plena i ne uništava vozila, ostavljajući ih na najmanje 1 poenu izdržljivosti."
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s na brzinu opravke modula"
+
+msgid "builtinRepairkit/long_special"
+msgstr "Popravlja sve oštećene module u momentu aktiviranja. Pasivni efekat povećava brzinu popravke. Ovaj potrošni materijal je pogodan za određena vozila."
+
+msgid "builtinRepairkit/name"
+msgstr "Standardni Veliki paket za opravku"
+
+msgid "builtinRepairkit/onUse"
+msgstr "Opravlja sve oštećene module. Može se koristiti više puta u borbi. Ne može se potrošiti.\nOvaj potrošni materijal nemože biti uklonjen, ali može biti premešten u drugi slot."
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "Daje dodatnih 10% na prikrivenost vozila"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "Daje svim članovima posade veštinu Prikrivenost istreniranu na 100%"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "Veština prikrivenosti smanjuje vidljivost pokretnog i nepokretnog vozila tokom trajanja borbe. Kada je jednom veština istrenirana na 100% opremljena direktiva povećava njen efekat; Ako nije, direktiva obezbeđuje tvom vozilu efekat kao da je veština istrenirana na 100%."
+
+msgid "camouflageBattleBooster/name"
+msgstr "Prirodni zaklon"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "Daje veštinu Prikrivenost istreniranu na 100% ili povećava njen efekat"
+
+msgid "camouflageNet/battleDescr"
+msgstr "Povećava skrivanje nepokretnog vozila 3s nakon zaustavljanja"
+
+msgid "camouflageNet/long_special"
+msgstr "Efektivnost zavisi od tipa vozila. Od Kamuflažne mreže uglavnom korist imaju skrovita vozila: Artiljerije i Lovci tenkova niske siluete. Povećava efekat veštine skrivanja. Kombinuj ih da pružiš dobar bonus svom vozilu. Kamuflažna mreža se aktivira 3s nakon zaustavljanja vozila."
+
+msgid "camouflageNet/name"
+msgstr "Maskirna mreža"
+
+msgid "camouflageNet/short_special"
+msgstr "Povećava skrivanje nepokretnog vozila"
+
+msgid "camouflageNet_tier2/name"
+msgstr "Kamuflažna mreža klasa 2"
+
+msgid "camouflageNet_tier3/name"
+msgstr "Kamuflažna mreža klasa 3"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} na bonus efikasnosti posade tokom toka borbe."
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} na bonus efikasnosti posade."
+
+msgid "chocolate/long_special"
+msgstr "Automatski se aktivira na početku borbe i obezbeđuje efekat tokom trajanja borbe. Odgovara samo nemačkim vozilima."
+
+msgid "chocolate/name"
+msgstr "Čokolada"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "Pogodno samo za nemačka vozila."
+
+msgid "chocolate/short_special"
+msgstr "Poboljšava performanse nemačkih posada"
+
+msgid "clingBrander/battleDescr"
+msgstr "Poziva autonomni tenk opremljen sistemom identifikacije prijatelj ili neprijatelj koji će goniti i napadati najbližeg neprijatelja i do %(botLifeTime)s s.\n\n*Ovaj tenk može biti uništen."
+
+msgid "clingBrander/descr"
+msgstr "Poziva autonomni tenk opremljen sistemom identifikacije prijatelj ili neprijatelj koji će goniti i napadati najbližeg neprijatelja i do %(botLifeTime)s s.\n\n*Ovaj tenk može biti uništen."
+
+msgid "clingBrander/longDescr"
+msgstr "Poziva autonomni tenk opremljen sistemom identifikacije prijatelj ili neprijatelj koji će goniti i napadati najbližeg neprijatelja {whiteSpanish_Open}i do %(botLifeTime)s s.{whiteSpanish_Close}\n\n*Ovaj tenk može biti uništen."
+
+msgid "clingBrander/name"
+msgstr "Robot bojišta"
+
+msgid "clingBrander/shortDescr"
+msgstr "Poziva autonomni tenk opremljen sistemom identifikacije prijatelj ili neprijatelj koji će goniti i napadati najbližeg neprijatelja {whiteSpanish_Open}i do %(botLifeTime)s s.{whiteSpanish_Close}\n\n*Ovaj tenk može biti uništen."
+
+msgid "clutches_replace_1/name"
+msgstr "Zamena lamela (Tip 1)"
+
+msgid "clutches_replace_2/name"
+msgstr "Zamena lamela (Tip 2)"
+
+msgid "coatedOptics/long_special"
+msgstr "Za razliku od \"Stereoskoskog teleskopa\" oprema \"Obložena optika\" (bilo kog tipa) daje manji ali trajni bonus koji ne nestaje kada se vozilo pomera. Kao rezultat \"Obložena optika\" je veoma korisna za vozila sa aktivnim stilom igre - lake i srednje tenkove."
+
+msgid "coatedOptics/name"
+msgstr "Obložena optika"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s na vidokrug (sve do 445 m) sa montiranom obloženom optikom (bilo koje klase), eksperimentalnom optikom ili nagradnom optikom."
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "Poboljšava efekat obložene optike, eksperimentalne optike ili nagradne optike tokom toka borbe. Da bi se opremio i da bi aktivirao ovu direktivu, ova oprema bi trebalo da bude montirana na tvoje vozilo."
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "Optička kalibracija"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "Poboljšava efekat optike"
+
+msgid "coatedOptics_tier1/name"
+msgstr "Obložena optika klasa 1"
+
+msgid "coatedOptics_tier2/name"
+msgstr "Obložena optika klasa 2"
+
+msgid "coatedOptics_tier3/name"
+msgstr "Obložena optika klasa 3"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} na bonus efikasnosti posade tokom toka borbe."
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} na bonus efikasnosti posade."
+
+msgid "cocacola/long_special"
+msgstr "Automatski se aktivira na početku borbe i obezbeđuje efekat tokom trajanja borbe. Odgovara samo SAD vozilima."
+
+msgid "cocacola/name"
+msgstr "Pakovanje Kole"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "Pogodno samo za američka vozila."
+
+msgid "cocacola/short_special"
+msgstr "Poboljšava performanse SAD posada"
+
+msgid "commandersView/long_special"
+msgstr "Smanjuje skrivanje pokretnih neprijatelja i koeficijenta skrivanja rastinja neprijatelja tokom spotovanja. Ovo dozvoljava da uočiš pokretne neprijatelje sa veće daljine i efektivnije spotuješ neprijatelje koji su skriveni u žbunju i palim stablima."
+
+msgid "commandersView/name"
+msgstr "Komandirov sistem pregleda"
+
+msgid "commandersView/short_special"
+msgstr "Smanjuje skrivanje pokretnih neprijatelja, bilo u pokretu ili iza rastinja"
+
+msgid "corrodingShot/battleDescr"
+msgstr "Dodaje korozivna svojstva granati koja povećavaju njenu probojnost i potencijalnu štetu. Nakon nanošenja štete neprijateljskom vozilu, primenjuje privremeni efekat na njega, oduzimajući do %(damagePerDotEffectDuration)s od poena izdržljivosti neprijateljskog vozila tokom trajanja od %(dotEffectDuration)s s.\n\n*Negativan efekat može biti uklonjen kompletom za popravku."
+
+msgid "corrodingShot/descr"
+msgstr "Dodaje korozivna svojstva granati koja povećavaju njenu probojnost i potencijalnu štetu. Nakon nanošenja štete neprijateljskom vozilu, primenjuje privremeni efekat na njega, oduzimajući do %(damagePerDotEffectDuration)s od poena izdržljivosti neprijateljskog vozila tokom trajanja od %(dotEffectDuration)s s\n\n*Negativan efekat može biti uklonjen kompletom za popravku."
+
+msgid "corrodingShot/longDescr"
+msgstr "Dodaje korozivna svojstva granati koja povećavaju njenu probojnost i potencijalnu štetu. Nakon nanošenja štete neprijateljskom vozilu, primenjuje privremeni efekat na njega, oduzimajući {whiteSpanish_Open}do %(damagePerDotEffectDuration)s{whiteSpanish_Close} od poena izdržljivosti neprijateljskog vozila {whiteSpanish_Open}tokom trajanja od %(dotEffectDuration)s s{whiteSpanish_Close}.\n\n*Negativan efekat može biti uklonjen kompletom za popravku."
+
+msgid "corrodingShot/name"
+msgstr "Granata kiseline"
+
+msgid "corrodingShot/shortDescr"
+msgstr "Dodaje korozivna svojstva granati koja povećavaju njenu probojnost i potencijalnu štetu. Nakon nanošenja štete neprijateljskom vozilu, primenjuje privremeni efekat na njega, oduzimajući {whiteSpanish_Open}do %(damagePerDotEffectDuration)s{whiteSpanish_Close} od poena izdržljivosti neprijateljskog vozila {whiteSpanish_Open}tokom trajanja od %(dotEffectDuration)s s{whiteSpanish_Close}.\n\n*Negativan efekat može biti uklonjen kompletom za popravku."
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "Poboljšava sledeće"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "Opcije komandira"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} \"{name}\""
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "veština:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "Daje sledeće"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "veština:"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "Poboljšana verzija opreme Vertikalni stabilizator ({colorTagOpen}-20%{colorTagClose} na rasipanje hica posle pucanja, tokom pokreta i rotacije kupole) koja daje jači efekat: {colorTagOpen}-27.5%{colorTagClose} na rasipanje hica posle pucanja, tokom pokreta i rotacije kupole. Ova oprema je pogodna za sva vozila svih nacija i određenih tipova. Može biti demontirana samo za bonove."
+
+msgid "deluxAimingStabilizer/name"
+msgstr "Sistem opreme za stabilizaciju"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "Poboljšana verzija opreme Obložene optika ({colorTagOpen}+10%{colorTagClose} na vidokrug) koja daje jači efekat: {colorTagOpen}+13.5%{colorTagClose} na vidokrug. Ova oprema je pogodna za sva vozila svih nacija i tipova. Može biti demontirana samo za bonove."
+
+msgid "deluxCoatedOptics/name"
+msgstr "Eksperimentalna optika"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "Poboljšana verzija opreme Poboljšan mehanizam topa ({colorTagOpen}+10%{colorTagClose} na brzinu nišanjenja) koja daje jači efekat: {colorTagOpen}+13.5%{colorTagClose} na brzinu nišanjenja. Ova oprema je pogodna za sva vozila svih nacija i tipova. Može biti demontirana samo za bonove."
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "Sistem za pomeranje topa otporan na habanje"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "Analog modifikovane konfiguracije koja pruža jači efekat. Ova oprema je pogodna za sva vozila svih nacija i tipova. Može biti demontirana samo za bonove."
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "Poboljšana konfiguracija"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "Ubržava opravke, štiti policu municije, rezervoare i motor"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "Poboljšana verzija Ventilacije ({colorTagOpen}+5%{colorTagClose} na bonus efikasnosti posade) koja obezbeđuje jači efekat: {colorTagOpen}+8,5%{colorTagClose} na efikasnost posade. Ova oprema je pogodna za vozila svih nacija i tipova. Može biti demontirana samo upotrebom bonova."
+
+msgid "deluxImprovedVentilation/name"
+msgstr "Ventilacioni sistem"
+
+msgid "deluxRammer/long_special"
+msgstr "Poboljšana verzija Nabijača ({colorTagOpen}-10%{colorTagClose} na vreme punjenja) koji obezbeđuje jači efekat: {colorTagOpen}-13.5%{colorTagClose} na vreme punjenja. Ova oprema je pogodna za sva vozila svih nacija i tipova. Može biti demontirana samo za bonove."
+
+msgid "deluxRammer/name"
+msgstr "Inovativni sistem punjenja"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "Poboljšana verzija izduvnog sistema niske buke koja obezbeđuje jači efekat: povećava prikrivenost pokretnog ili nepokretnog vozila. Korisna za aktivno izviđanje, kao i za pasivno otkrivanje sa riskantnih pozicija.\nOva oprema je pogodna za vozila svih nacija i tipova ali njena efikasnost zavisi od tipa vozila. Može da se demontira samo upotrebom bonova."
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "Pritajena izduvna jedinicia."
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "Povećava prikrivenost pokretnog ili nepokretnog vozila za {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose}"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "Povećava skrivanje nepokretnog vozila 1.5s nakon zaustavljanja"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "Poboljšana verzija kamuflažne mreže čija efikasnost zavisi od tipa vozila. Mreža taktičke prikrivenosti najviše koristi pritajenim vozilima: artiljeriji i lovcima tenkova sa niskom siluetom. Povećava efekat veštine \"Prikrivenost\". Njihova kombinacija će obezbediti dobar bonus za tvoje vozilo. Mreža tatktičke prikrivenosti se aktivira 1,5 sekundi nakon što vozilo prestane da se kreće."
+
+msgid "deluxeCamouflageNet/name"
+msgstr "Mreža taktičke prikrivenosti"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17,5{colorTagClose}/{colorTagOpen}12,5{colorTagClose}/{colorTagOpen}7,5%{colorTagClose} na prikrivenost stacionarnog vozila"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "Potpuno obnavlja poene izdržljivosti vešanja nakon popravki."
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "Obnavlja vešanje nakon popravki."
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "Poboljšana verzija poboljšane čvrstoće: {colorTagOpen}+12.5%{colorTagClose} na poene izdržljivosti vozila, {colorTagOpen}+75%{colorTagClose}na izdržljivost vešanja, {colorTagOpen}+30%{colorTagClose} na brzinu popravke vešanja, {colorTagOpen}-75%{colorTagClose} na štetu trupa nanetu oštećenjem vešanja tokom udara. Potpuno obnavlja poene izdržljivosti vešanja nakon popravke. Smanjuje šansu uništenja gusenice nakon pretrpljene štete, dozvoljvajući tvom vozilu da ostane u pokretu što je duže moguće. Ova oprema je pogodna za vozila svih nacija i tipova (osim artiljerije). Može biti uklonjena samo upotrebom bonova."
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "Povećana otpornost na granate"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "Povećava otpornost vozila i štiti vešanje"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "Poboljšana verzija Poboljšanog mehanizma rotacije koja daje jači efekat: {colorTagOpen}+17,5% {colorTagClose} na brzinu rotiranja tupa, {colorTagOpen}+17,5% {colorTagClose} na brzinu rotiranja trupa i {colorTagOpen}-17,5% {colorTagClose} na rasipanje tokom pokreta i rotacije kupole. Ova oprema je pogodna za vozila svih nacija i tipova. Može biti demontirana sam upotrebom bonova."
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "Poboljšani finalni pogon"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "Povećava brzinu okretanja i smanjuje rasipanje topa tokom kretanja i rotacije"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "Proširena verzija Poboljšanog nišanjenja koja daje jači efekat: smanjuje veličinu nišanskog kruga topa koji nišani ili koji je već nanišanio za {colorTagOpen}9%{colorTagClose}. Kao rezultat, tvoj top ima veće šanse da pogodi metu. Ova oprema je pogodna za vozila svih nacija i tipova, osim artiljerije. Može biti demontirana samo upotrebom bonova."
+
+msgid "deluxeImprovedSights/name"
+msgstr "Inovativno nišanjenje"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "Smanjuje rasipanje topa"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "Povećava vidokrug stacionarnog vozila nakon 1,5s nakon što stane (do 445 m)"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "Poboljšana verzija stereoskopskog teleskopa. Dobar vidokrug daje solidnu prednost vozilima u borbi. Ovaj tip opreme je koristan za lovce tenkova sa malom siluetom i preciznim topovima. Aktivira se 1,5 sekundi nakon što vozilo prestane da se kreće."
+
+msgid "deluxeStereoscope/name"
+msgstr "Teleskopski osmatrački sistem"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27,5%{colorTagClose} na vidokrug stacionarnog vozila (do 445 m)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "Poboljšana verzija turbo punjača ({colorTagOpen}+7.5%{colorTagClose}na snagu motora, {colorTagOpen}+4 km/h{colorTagClose} na maksimlanu brzinu napred, {colorTagOpen}+2 km/h{colorTagClose} na maksimalnu brzinu unazad): {colorTagOpen}+12.5%{colorTagClose} na snagu motora, {colorTagOpen}+6 km/h{colorTagClose} na maksimlanu brzinu napred, {colorTagOpen}+4 km/h{colorTagClose} na maksimalnu brzinu unazad. Ova oprema je pogodna za vozila svih nacija i tipova (osim vozila sa točkovima). Može biti uklonjena samo upotrebom bonova."
+
+msgid "deluxeTurbocharger/name"
+msgstr "Poboljšani kompresor"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "Povećava snagu motora i maksimalnu brzinu"
+
+msgid "eb_minefield/descr"
+msgstr "Postavlja aktivno minsko polje u izabranoj zoni za određen period vremena."
+
+msgid "eb_minefield/long_descr"
+msgstr "Postavlja aktivno minsko polje u odabranoj oblasti na određeno vreme. Kada se detonira, mine oštećuju i ošamućuju neprijateljska vozila. Neprijatelji mogu otkriti mine iz neposredne blizine ili pomoću Izviđačkog leta ili Sentinel borbenim rezervi. Mine se mogu uništiti pucnjem ili eksplozijom."
+
+msgid "eb_minefield/name"
+msgstr "Minsko polje"
+
+msgid "eb_minefield/short_descr"
+msgstr "Postavlja aktivno minsko polje u izabranoj zoni za određen period vremena."
+
+msgid "eb_regenerationKit/descr"
+msgstr "Postepeno obnavlja određeni procenat poena izdržljivosti tvog vozila."
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "Postepeno vraća određeni procenat poena zdravlja tvog vozila. Povećava brzinu popravke unutar kruga snabdevanja. Kada je aktivan, smanjuje štetu od mina."
+
+msgid "eb_regenerationKit/name"
+msgstr "Popravke na terenu"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "Postepeno obnavlja određeni procenat poena izdržljivosti tvog vozila."
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "Mesto u garaži"
+
+msgid "empty_slot/name"
+msgstr "Mesto u garaži"
+
+msgid "empty_slot/short_descr"
+msgstr "Slot borbenih rezervi je upotrebljen."
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "Povećava efekat veštine Detekcija zvuka 1,5 puta"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "Daje veštinu Detekcija zvuka istreniranu na 100%"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "Veština detekcije zvuka daje alarm o vatri neprijateljske artiljerije i smanjuje negativan efekat šoka. Ako je veština istrenirana na 100%, opremljena direktiva povećava njen efekat; Ako nije direktiva obezbeđuje tvoje vozilo sa veštinom istreniranom na 100%."
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "Povećana opreznost"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "Daje veštinu Detekcija zvuka istreniranu na 100% ili povećava njen efekat"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "Poboljšano nišanjenje smanjuje vreme nišanjenja. Vozilo koje je opremljeno \"Poboljsanim mehanizmom topa\" ima preciznije pucanje (pored toga poboljšava i brzinu vatre jer je punjenje ponekad brže od samog nišanjenja)."
+
+msgid "enhancedAimDrives/name"
+msgstr "Poboljšan mehanizam topa"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s na brzinu nišanjenja sa montiranim poboljšanim sistemom za pomeranje topa(bilo koje klase), sistemom za pomeranje topa otpornim na habanje, nagradnim sistemom za pomeranje topa ili sistemom za kontrolu vatre."
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "Poboljšava efekat nagradnog sistema za pomeranje topa, poboljšanog sistema za pomeranje topa ili sistema za pomeranje topa otpornog na habanje tokom toka borbe. Da bi se opremio i da bi aktivirao ovu direktivu, ova oprema bi trebalo da bude montirana na tvoje vozilo."
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "Podešavanje nišana"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "Poboljšava efekat opreme \"Mehanizam topa\""
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "Poboljšan mehanizam topa klasa 1"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "Poboljšan mehanizam topa klasa 2"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "Poboljšan mehanizam topa klasa 3"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "Poboljšane konusne disk opruge"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "Potpuno obnavlja poene izdržljivosti vešanja nakon popravki."
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Potpuno obnavlja poene izdržljivosti vešanja nakon popravki"
+
+msgid "enhancedLevers/name"
+msgstr "Poboljšana balans štangla"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "Poboljšane torzione opruge"
+
+msgid "enhancedSprings/name"
+msgstr "Poboljšani gibnjevi"
+
+msgid "enhancedTorsions1t/name"
+msgstr "Poboljšane torzione opruge klasa 1 t"
+
+msgid "enhancedTorsions3t/name"
+msgstr "Poboljšane torzione opruge klasa 3 t"
+
+msgid "enhancedTorsions5t/name"
+msgstr "Poboljšane torzione opruge klasa 5 t"
+
+msgid "exampleAbility/descr"
+msgstr "Testiraj veštine za vizuelne skripte"
+
+msgid "exampleAbility/name"
+msgstr "Test veština"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s na snagu motora i brzinu okretanja kupole tokom trajanja borbe."
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} na snagu motora i brzinu otiranja kupole."
+
+msgid "excellentFuel/long_special"
+msgstr "Daje {colorTagOpen}10%{colorTagClose} na snagu motora i brzinu okretanja kupole tokom trajanja borbe. Automatski se aktivira na početku borbe i traje tokom cele borbe."
+
+msgid "excellentFuel/name"
+msgstr "Odlično gorivo"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} na snagu motora i brzinu rotiranja kupole"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "Potpuno obnavlja poene zdravlja vešanja nakon popravki."
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "Obnavlja vešanje nakon popravki."
+
+msgid "extraHealthReserve/long_special"
+msgstr "Poboljšava otpornost vozila i brzinu popravke. Smanjuje štetu trupa nastalu oštećenjem vešanja prilikom udara. Potpuno obnavlja poene zdravlja vešanja nakon popravke. Smanjuje šansu da se gusenica uništi nakon zadobijene štete, što dozvoljava tvom vozilu da ostane u pokretu što je duže moguće."
+
+msgid "extraHealthReserve/name"
+msgstr "Poboljšana čvrstoća"
+
+msgid "extraHealthReserve/short_special"
+msgstr "Povećava otpornost vozila i štiti vešanje"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "Poboljšana čvrstoća klasa 1"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "Poboljšana čvrstoća klasa 2"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "Poboljšana čvrstoća klasa 3"
+
+msgid "fireCircle/battleDescr"
+msgstr "Stvara vatreni krug oko tvog vozila koji smanjuje pokretljivost neprijateljskih vozila u okviru kruga delovanja sposobnosti i oduzima do %(damagePerTickForInterval)s od njihovog ukupnog broja poena izdržljivosti tokom trajanja od %(timer)s s.\n\n*Oblast delovanja vatrenog kruga je stacionarna i neće pratiti kretanje tvog vozila."
+
+msgid "fireCircle/descr"
+msgstr "Stvara vatreni krug oko tvog vozila koji smanjuje pokretljivost neprijateljskih vozila u okviru kruga delovanja sposobnosti i oduzima do %(damagePerTickForInterval)s od njihovog ukupnog broja poena izdržljivosti tokom trajanja od %(timer)s s.\n\n*Oblast delovanja vatrenog kruga je stacionarna i neće pratiti kretanje tvog vozila."
+
+msgid "fireCircle/longDescr"
+msgstr "Stvara vatreni krug oko tvog vozila koji smanjuje pokretljivost neprijateljskih vozila u okviru kruga delovanja sposobnosti i oduzima {whiteSpanish_Open}do %(damagePerTickForInterval)s{whiteSpanish_Close} od njihovog ukupnog broja poena izdržljivosti {whiteSpanish_Open}tokom trajanja od %(timer)s s{whiteSpanish_Close}.\n\n*Oblast delovanja vatrenog kruga je stacionarna i neće pratiti kretanje tvog vozila."
+
+msgid "fireCircle/name"
+msgstr "Prsten vatre"
+
+msgid "fireCircle/shortDescr"
+msgstr "Stvara vatreni krug oko tvog vozila koji smanjuje pokretljivost neprijateljskih vozila u okviru kruga delovanja sposobnosti i oduzima {whiteSpanish_Open}do %(damagePerTickForInterval)s{whiteSpanish_Close} od njihovog ukupnog broja poena izdržljivosti {whiteSpanish_Open}tokom trajanja od %(timer)s s{whiteSpanish_Close}.\n\n*Oblast delovanja vatrenog kruga je stacionarna i neće pratiti kretanje tvog vozila."
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "Povećava efekat veštine Gašenje vatre 1,5 puta"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "Daje veštinu Gašenje vatre istreniranu na 100%"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "Veština \"Gašenje vatre\" povećava vatrogasne sposobnosti tvog vozila tokom trajanja borbe. Kada je veština istrenirana na 100% opremljena direktiva povećava njen efekat; Ako nije, direktiva obezbeđuje tvom vozilu efekat kao da je veština istrenirana na 100%."
+
+msgid "fireFightingBattleBooster/name"
+msgstr "Iskusni vatrogasac"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "Daje veštinu Gašenje vatre istreniranu na 100% ili povećava njen efekat"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "Komanduje artiljeriji da napadne izabranu oblast, oštećujući sva vozila unutar nje."
+
+msgid "fort_aoe_artillery/name"
+msgstr "Artiljerijski napad"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "Komanduje artiljeriji da napadne izabranu oblast, oštećujući sva vozila unutar nje."
+
+msgid "fort_inspire/longDescr"
+msgstr "Daje bonus glavnim kvalifikacijama i svim veštinama cele posade tvog vozila kao i obližnjim savezničkim vozilima."
+
+msgid "fort_inspire/name"
+msgstr "Inspiracija"
+
+msgid "fort_inspire/shortDescr"
+msgstr "Daje bonus glavnim kvalifikacijama i svim veštinama cele posade tvog vozila kao i obližnjim savezničkim vozilima."
+
+msgid "fuel_system_revision_1/name"
+msgstr "Revizija sistema goriva (Tip 1)"
+
+msgid "grousers/long_special"
+msgstr "Povećava brzinu okretanja vozila i održava brzinu prilikom prelaska svih tipova terena. Smatra se efektivnom kada se vozi na mekom ili umereno mekom terenu. Najefektivnija je kada se kombinuje sa Kočenjem kvačilom i Veštinama vožnje van puta."
+
+msgid "grousers/name"
+msgstr "Dodatni kramponi"
+
+msgid "grousers/short_special"
+msgstr "Povećava brzinu okretanja vozila i poboljšava ubrzanje"
+
+msgid "grousers_tier1/name"
+msgstr "Dodatne kaljače na gusenicama klasa 1"
+
+msgid "grousers_tier2/name"
+msgstr "Dodatne kaljače na gusenicama klasa 2"
+
+msgid "grousers_tier3/name"
+msgstr "Dodatne kaljače na gusenicama klasa 3"
+
+msgid "gun_balancing_1/name"
+msgstr "Balansiranje topa (Tip 1)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "Gašenje požara na vozilu."
+
+msgid "handExtinguishers/long_special"
+msgstr "Gasi vatru na tvom vozilu nakon aktiviranja. Ovaj potrošni materijal odgovara svim vozilima svih nacija. Potrošni materijal je uklonjen nakon borbe ako je upotrebljen makar jednom."
+
+msgid "handExtinguishers/name"
+msgstr "Ručni protivpožarni aparat"
+
+msgid "handExtinguishers/onUse"
+msgstr "Gasi požar na tvom vozilu. Može se koristiti više puta u borbi. Potrošna roba se uklanja nakon borbe ako se koristila barem jednom."
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "Gašenje vatre"
+
+msgid "healPoint/battleDescr"
+msgstr "Kreira zonu oko tvog vozila. Unutar ove zone igrač i članovi voda obnavljaju %(healPerTick)s poena izdržljivosti svojih vozila svake sekunde tokom %(duration)s s."
+
+msgid "healPoint/descr"
+msgstr "Kreira zonu oko tvog vozila. Unutar ove zone igrač i članovi voda obnavljaju %(healPerTick)s poena izdržljivosti svojih vozila svake sekunde tokom %(duration)s s."
+
+msgid "healPoint/longDescr"
+msgstr "Kreira zonu oko tvog vozila. Unutar ove zone igrač i članovi voda {green_Open}obnavljaju %(healPerTick)s{green_Close} poena izdržljivosti svojih vozila svake sekunde tokom {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}"
+
+msgid "healPoint/name"
+msgstr "Zona obnavljanja"
+
+msgid "healPoint/shortDescr"
+msgstr "Kreira zonu oko tvog vozila. Unutar ove zone igrač i članovi voda {green_Open}obnavljaju %(healPerTick)s{green_Close} poena izdržljivosti svojih vozila svake sekunde tokom {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}"
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s na bonus efikasnosti posade tokom trajanja borbe."
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} na bonus efikasnosti posade."
+
+msgid "hotCoffee/long_special"
+msgstr "Automatski se aktivira na početku borbe i obezbeđuje efekat tokom trajanja borbe. Odgovara samo francuskim vozilima."
+
+msgid "hotCoffee/name"
+msgstr "Jaka Kafa"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "Pogodno samo za francuska vozila."
+
+msgid "hotCoffee/short_special"
+msgstr "Poboljšava performanse francuskih posada"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "Zaustavlja jedan požar rezervoara, eksploziju police municije i uništenje motora u jednoj borbi nakon uništenja ovih modula."
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "Zaustavlja jedan požar rezervoara, eksploziju police municije i uništenje motora u jednoj borbi nakon uništenja ovih modula."
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "Polica municije je zaštićena od detonacije"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "Detonacija police municije sprečena"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "Motor je zaštićen"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "Uništenje motora sprečeno"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "Rezervoari su zaštićeni od požara"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "Požar rezervoara sprečen"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "Zaustavlja jedan požar rezervoara, eksploziju police municije i uništenje motora u jednoj borbi nakon uništenja ovih modula."
+
+msgid "improvedConfiguration/long_special"
+msgstr "Ubrzava opravke. Povećava otpornost police municije, rezervoara i motora. Smanjuje kaznu na vreme punjenja i gubitak snage motora nakon štete odgovarajućih modula. Smanjuje šansu za požar motora. Zaustavlja jedan požar rezervoara, eksploziju police municije i uništenje motora u borbi nakon uniptenja odgovarajućih modula. Efektivnija je kada se kombinuje sa Opravkama, Bezbednim odlaganjem i Preventivnim održavanjem."
+
+msgid "improvedConfiguration/name"
+msgstr "Modifikovana konfiguracija"
+
+msgid "improvedConfiguration/short_special"
+msgstr "Ubržava opravke, štiti policu municije, rezervoare i motor"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s na brzinu opravke sa Modifikovanom konfiguracijom (bilo koje klase), Poboljšanom konfiguracijom ili Obilnom zaštitnom tehnologijom."
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "Poboljšava efekat modifikovane konfiguracije, poboljšane konfiguracije ili tehnologije nagradne zaštite tokom toka borbe. Da bi se opremio i da bi aktivirao ovu direktivu, ova oprema bi trebalo da bude montirana na tvoje vozilo."
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "Održavanje pre borbe"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "Povećava efekat Modifikovane konfiguracije"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "Modifikovana konfiguracija klasa 1"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "Modifikovana konfiguracija klasa 2"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "Povećava vreme za koje neprijatelj ostaje spotovan nakon napuštanja tvog vidnog polja. Smanjuje vreme za koje si ti spotovan od strane neprijatelja. Naj efektivnija je kada se kombinuje sa Odredjenom metom i Pozivom za osvetu."
+
+msgid "improvedRadioCommunication/name"
+msgstr "Poboljšan radio"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "Povećava vreme za koje neprijatelj ostaje spotovan i smanjuje vreme za koje si ti spotovan"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "Povećava brzinu rotiranja trupa i kupole za vozila sa kupolama. Povećava brzinu rotiranja trupa i topa za vozila sa nepokretnom kabinom. Smanjuje rasipanje hica iz topa tokom pokreta i tokom rotiranja trupa i kupole, kao i nakon pucanja. Efikasniji je ako se kombinuje sa veštinom \"Kočenje kvačilom\"."
+
+msgid "improvedRotationMechanism/name"
+msgstr "Poboljšan mehanizam rotacije"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "Povećava brzinu okretanja i smanjuje rasipanje topa tokom kretanja i rotacije"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "Poboljšan mehanizam rotacije klasa 1"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "Poboljšan mehanizam rotacije klasa 2"
+
+msgid "improvedSights/long_special"
+msgstr "Smanjuje veličinu kruga nišanjenja da poveća preciznost nišanjenja. Kao rezultat, top ima bolje šanse za pogodak."
+
+msgid "improvedSights/name"
+msgstr "Poboljšano nišanjenje"
+
+msgid "improvedSights/short_special"
+msgstr "Smanjuje rasipanje topa"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s na veličinu kruga nišana sa montiranim poboljšanim nišanjenjem (bilo koje klase) ili sistemom poboljšanja preciznosti."
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "Poboljšava efekat poboljšanog nišanjenja ili nagradnog nišanjenja tokom toka borbe. Direktiva će raditi samo ako imaš odgovarajuću opremu montiranu."
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "Polirana sočiva"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "Smanjuje veličinu kruga nišana"
+
+msgid "improvedSights_tier1/name"
+msgstr "Poboljšano nišanjenje klasa 1"
+
+msgid "improvedSights_tier2/name"
+msgstr "Poboljšano nišanjenje klasa 2"
+
+msgid "improvedSights_tier3/name"
+msgstr "Poboljšano nišanjenje klasa 3"
+
+msgid "improvedVentilation/long_special"
+msgstr "Poboljšava brojne karakteristike tvog vozila: vidokrug, brzinu paljbe, vreme nišanjenja, dinamičke karakteristike i druge. Međutim, bonus od ove opreme će biti primetan samo uz kombinaciju sa posadom koja ima veštinu \"Braća po oružju\" istreniranu na 100%."
+
+msgid "improvedVentilation/name"
+msgstr "Poboljšana ventilacija"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s na bonus efikasnosti posade sa montiranom Poboljšanom ventilacijom (bilo koje klase), Ventilacionim sistemom ili Nagradnom ventilacijom."
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "Poboljšava efekat poboljšane ventilacije (bilo koje klase), sistema ventilacije ili nagradne ventilacije tokom toka borbe. Da bi se opremio i da bi aktivirao ovu direktivu, ova oprema bi trebalo da bude montirana na tvoje vozilo."
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "Izduvavanje vazduha"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "Poboljšava efekat ventilacije"
+
+msgid "improvedVentilation_class1/name"
+msgstr "Poboljšana ventilacija klasa 1"
+
+msgid "improvedVentilation_class2/name"
+msgstr "Poboljšana ventilacija klasa 2"
+
+msgid "improvedVentilation_class3/name"
+msgstr "Poboljšana ventilacija klasa 3"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "Poboljšana ventilacija klasa 1"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "Poboljšana ventilacija klasa 2"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "Poboljšana ventilacija klasa 3"
+
+msgid "improved_suspension_1/name"
+msgstr "Poboljšano vešanje (Tip 1)"
+
+msgid "improved_suspension_2/name"
+msgstr "Poboljšano vešanje (Tip 2)"
+
+msgid "inspire/longDescr"
+msgstr "Poboljšava performanse posade vozila i svih saveznika u određenom radijusu dodajući % bonus na glavnu kvalifikaciju svakog člana posade. Igrač koji nanese primiće poboljšani efekat."
+
+msgid "inspire/name"
+msgstr "Inspiracija"
+
+msgid "inspire/shortDescr"
+msgstr "Bonus na glavne kvalifikacije igračeve posade i posada saveznika."
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "Nabijač za artiljerijski top velikog kalibra"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "Nabijač za tenkovski top velikog kalibra"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s na trajanje šoka\n%(crewHitChance)s na zaštitu članova posade od povreda"
+
+msgid "largeMedkit/descr"
+msgstr "Lečenje svih povređenih članova posade i uklanjanje efekta šoka."
+
+msgid "largeMedkit/long_special"
+msgstr "Tretira sve povređene članove posade i uklanja efekat šoka nakon aktiviranja. Pasivni efekat obezbeđuje zaštitu posade od povreda. Ovaj potrošni materijal odgovara svim vozilima svih nacija."
+
+msgid "largeMedkit/name"
+msgstr "Veliki Komplet Prve Pomoći"
+
+msgid "largeMedkit/onUse"
+msgstr "Lečenje svih povredjenih članova posade. Može da se koristi više puta u toku borbe. Ako je upotrebljen makar jednom, biće uklonjen nakon bitke."
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "Leči sve povredjene članove posade i uklanja efekat ošamućivanja. Može se koristiti više puta u borbi. Potrošna roba se uklanja nakon borbe ako se koristila barem jednom."
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "Leči sve povređene članove posade i uklanjanje efekta šoka"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s na brzinu opravke modula"
+
+msgid "largeRepairkit/descr"
+msgstr "Opravka svih oštećenih modula."
+
+msgid "largeRepairkit/long_special"
+msgstr "Popravlja sve oštećene module u momentu aktiviranja. Pasivni efekat povećava brzinu poravke. Ovaj potrošni materijal je odgovarajući za sve tipove vozila svih nacija."
+
+msgid "largeRepairkit/name"
+msgstr "Veliki komplet za Opravku"
+
+msgid "largeRepairkit/onUse"
+msgstr "Popravlja sve oštećene module. Može da se koristi više puta u toku borbe. Ako je upotrebljen makar jednom, biće uklonjen nakon bitke."
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "Popravlja oštećene module"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "Dodatnih 50% na veštinu \"Poziv na osvetu\""
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "Daje veštinu poziv na osvetu istreniranu na 100%"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "Veština \"Poziv na osvetu\" daje šansu da pozicija neprijateljskog vozila bude prijavljena dodatne 2 sekunde nakon uništenja vozila tokom borbe. Ako je veština istrenirana na 100% opremljena direktiva povećava njen efekat za 1 sekund (ukupno 3 sekunde). Ako nije, direktiva obezbeđuje tvom vozilu efekat kao da je veština istrenirana na 100% (standardne 2 sekunde)."
+
+msgid "lastEffortBattleBooster/name"
+msgstr "Dužnost na prvom mestu"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "Obezbeđuje veštinu \"Poziv na osvetu\" istreniranu na 100% ili povećava njen efekat"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "Nabijač za artiljerijski top srednjeg kalibra"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "Nabijač za tenkovski top srednjeg kalibra"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "Sistem upravljanja vatrom T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "Sistem upravljanja vatrom T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "Sistem upravljanja vatrom T1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "Sistem upravljanja vatrom T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "Sistem upravljanja vatrom T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "Sistem upravljanja vatrom T2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "Sistem upravljanja vatrom T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "Sistem upravljanja vatrom T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "Sistem upravljanja vatrom T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "Poboljšavanje preživljavanja T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "Poboljšavanje preživljavanja T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "Poboljšavanje preživljavanja T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "Poboljšavanje preživljavanja T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "Poboljšavanje preživljavanja T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "Poboljšavanje preživljavanja T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "Poboljšavanje preživljavanja T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "Poboljšavanje preživljavanja T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "Poboljšavanje preživljavanja T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "Sistem poboljšavanja preciznosti T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "Sistem poboljšavanja preciznosti T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "Sistem poboljšavanja preciznosti T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "Sistem poboljšavanja preciznosti T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "Sistem poboljšavanja preciznosti T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "Sistem poboljšavanja preciznosti T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "Sistem poboljšavanja preciznosti T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "Sistem poboljšavanja preciznosti T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "Sistem poboljšavanja preciznosti T3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "Sistem poboljšanja mobilnosti T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "Sistem poboljšanja mobilnosti T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "Sistem poboljšanja mobilnosti T1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "Sistem poboljšanja mobilnosti T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "Sistem poboljšanja mobilnosti T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "Sistem poboljšanja mobilnosti T2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "Sistem poboljšanja mobilnosti T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "Sistem poboljšanja mobilnosti T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "Sistem poboljšanja mobilnosti T3"
+
+msgid "nitro/battleDescr"
+msgstr "Privremeno povećava snagu motora tvog vozila za %(enginePowerFactor)s i njegovu maksimalnu brzinu %(maxSpeedFactor)s puta tokom %(consumeSeconds)s s."
+
+msgid "nitro/descr"
+msgstr "Privremeno povećava snagu motora tvog vozila za %(enginePowerFactor)s i njegovu maksimalnu brzinu %(maxSpeedFactor)s puta tokom %(consumeSeconds)s s."
+
+msgid "nitro/long_special"
+msgstr "Privremeno povećava snagu tvog motora {green_Open}za %(enginePowerFactor)s{green_Close} i njegovu maksimalnu brzinu {green_Open}%(maxSpeedFactor)s puta{green_Close} {whiteSpanish_Open}tokom %(consumeSeconds)s s.{whiteSpanish_Close}"
+
+msgid "nitro/name"
+msgstr "Turbo punjač"
+
+msgid "nitro/short_special"
+msgstr "Privremeno povećava snagu tvog motora {green_Open}za %(enginePowerFactor)s{green_Close} i njegovu maksimalnu brzinu {green_Open}%(maxSpeedFactor)s puta{green_Close} {whiteSpanish_Open}tokom %(consumeSeconds)s s.{whiteSpanish_Close}"
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "Druga konfiguracija: Pomoćno punjenje"
+
+msgid "passive_engineering/longDescr"
+msgstr "Pruža bonus za zauzimanje i brzinu snabdevanja. Povećava brzinu ponovnog snabdevanja, smanjujući vreme potrebno za osvežavanje krugova snabdevanja i zauzimanje ili vraćanje kontrole nad ključnim tačkama."
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "Ne možeš da primeniš ove borbene rezerve na artiljeriju."
+
+msgid "passive_engineering/name"
+msgstr "Inžinjerija"
+
+msgid "passive_engineering/shortDescr"
+msgstr "Daje bonus na brzinu zauzimanja, blokiranje zauzimanja i snabdevanje."
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "Nije odgovarajuće za artiljeriju"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "Utrostručuje efekat veštine Bezbedno skladištenje"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "Daje veštinu Bezbedno skladištenje istreniranu na 100%"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "Veština \"Bezbedno skladištenje\" povećava izdržljivost tvog spremišta za municiju do kraja borbe. Kada je jednom veština istrenirana na 100% opremljena direktiva povećava njen efekat. Ako nije, direktiva obezbeđuje tvom vozilu efekat kao da je veština istrenirana na 100%."
+
+msgid "pedantBattleBooster/name"
+msgstr "Organizator granata"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "Daje veštinu Bezbedno skladištenje istreniranu na 100% ili povećava njen efekat"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "U okviru od {colorTagOpen}%(delay)d s{colorTagClose}, odabrana oblast će biti pogođena artiljerijskim udarom. Sve mete oštećene u radijusu od {colorTagOpen}%(radius)d m{colorTagClose} će dobiti{colorTagOpen}%(damage)d{colorTagClose} poena štete i biće ošamućene tokom {colorTagOpen}%(stunDuration)d s{colorTagClose}."
+
+msgid "poi_artillery_aoe/name"
+msgstr "Artiljerijski napad"
+
+msgid "poi_radar/descr"
+msgstr "Kada se aktivira, sva neprijateljska vozila će ostati otkrivena za {colorTagOpen}%(duration)d s{colorTagClose}."
+
+msgid "poi_radar/name"
+msgstr "Radar divizije"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "Duplira efekat veštine Praktičnost"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "Daje veštinu Praktičnost istreniranu na 100%"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "Veština Praktičnost smanjuje period hlađenja potrošnog materijala tokom trajanja borbe. Ako je veština istrenirana na 100%, opremljena direktiva povećava njen efekat; Ako nije direktiva obezbeđuje tvoje vozilo sa veštinom istreniranom na 100%."
+
+msgid "practicalityBattleBooster/name"
+msgstr "Detaljne pripreme"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "Daje veštinu Praktičnost istreniranu na 100% ili povećava njen efekat"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s na snagu motora i brzinu okretanja kupole tokom trajanja borbe."
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5%{colorTagClose} na snagu motora i brzinu rotiranja kupole."
+
+msgid "qualityFuel/long_special"
+msgstr "Daje {colorTagOpen}5%{colorTagClose} na snagu motora i brzinu okretanja kupole tokom trajanja borbe. Automatski se aktivira na početku borbe i traje tokom cele borbe."
+
+msgid "qualityFuel/name"
+msgstr "Kvalitetno gorivo"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "{colorTagOpen}+5%{colorTagClose} na snagu motora i brzinu rotiranja kupole"
+
+msgid "radar/descr"
+msgstr "Otkriva neprijateljska vozila i ratni plen na mini mapi."
+
+msgid "radar/name"
+msgstr "Radio detekcija"
+
+msgid "rammer/long_special"
+msgstr "Brzina paljbe predstavlja najvažniju karakteristiku tvog vozila. Ova oprema je od velike koristi u borbi i terbalo bi da je montirana na tvoja vozila. Nabijači međutim ne mogu biti montirani na vozila sa revolver sistemom punjenja."
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s na vreme punjenja sa montiranim nabijačem (bilo kog tipa i kalibra), inovativnim sistemom punjenja ili nagradnim nabijačem."
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "Poboljšava efekat nabijača ( bilo kog tipa i klaibra), nagradnog nabijača ili inovativnog sistema punjenja tokom toka borbe. Da bi se opremio i da bi aktivirao ovu direktivu, ova oprema bi trebalo da bude montirana na tvoje vozilo."
+
+msgid "rammerBattleBooster/name"
+msgstr "Uredno spremište za municiju"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "Povećava efekat \"Nabijača\""
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "Duplira efekat veštine \"Označena meta\""
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "Daje veštinu Označena meta istreniranu na 100%"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "Označena meta daje dodatne 2 sekunde na vidljivost neprijateljskog vozila, tokom trajanja borbe. Kada je jednom veština istrenirana na 100% opremljena direktiva povećava njen efekat. Ako nije, direktiva obezbeđuje tvom vozilu efekat kao da je veština istrenirana na 100%."
+
+msgid "rancorousBattleBooster/name"
+msgstr "Fokus na metu"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "Obezbeđuje veštinu Označena meta istreniranu na 100% ili povećava njen efekat"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s na bonus efikasnosti posade tokom trajanja borbe."
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} na bonus efikasnosti posade."
+
+msgid "ration/long_special"
+msgstr "Automatski se aktivira na početku borbe i obezbeđuje efekat tokom trajanja borbe. Odgovara samo SSSR vozilima."
+
+msgid "ration/name"
+msgstr "Dodatna borbena sledovanja"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "Pogodno samo za sovjetska vozila."
+
+msgid "ration/short_special"
+msgstr "Poboljšava performanse SSSR posada"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s na bonus efikasnosti posade tokom trajanja borbe."
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} na bonus efikasnosti posade."
+
+msgid "ration_china/long_special"
+msgstr "Automatski se aktivira na početku borbe i obezbeđuje efekat tokom trajanja borbe. Odgovara samo kineskim vozilima."
+
+msgid "ration_china/name"
+msgstr "Poboljšana borbena sledovanja"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "Pogodno samo za kineska vozila."
+
+msgid "ration_china/short_special"
+msgstr "Poboljšava performanse kineskih posada"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s na bonus efikasnosti posade tokom trajanja borbe."
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} na bonus efikasnosti posade."
+
+msgid "ration_czech/long_special"
+msgstr "Automatski se aktivira na početku borbe i obezbeđuje efekat tokom trajanja borbe. Odgovara samo čehoslovačkim vozilima."
+
+msgid "ration_czech/name"
+msgstr "Buchty"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "Pogodno samo za čehoslovačka vozila."
+
+msgid "ration_czech/short_special"
+msgstr "Poboljšava performanse čehoslovačkih posada"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s na bonus efikasnosti posade tokom trajanja borbe."
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} na bonus efikasnosti posade."
+
+msgid "ration_italy/long_special"
+msgstr "Automatski se aktivira na početku borbe i obezbeđuje efekat tokom trajanja borbe. Odgovara samo italijanskim vozilima."
+
+msgid "ration_italy/name"
+msgstr "Špageti sa mesom"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "Pogodno samo za italijanske vozila."
+
+msgid "ration_italy/short_special"
+msgstr "Poboljšava performanse italijanskih posada"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s na bonus efikasnosti posade tokom trajanja borbe."
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} na bonus efikasnosti posade."
+
+msgid "ration_japan/long_special"
+msgstr "Automatski se aktivira na početku borbe i obezbeđuje efekat tokom trajanja borbe. Odgovara samo japanskim vozilima."
+
+msgid "ration_japan/name"
+msgstr "Onigiri"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "Pogodno samo za japanska vozila."
+
+msgid "ration_japan/short_special"
+msgstr "Poboljšava performanse japanskih posada"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s na bonus efikasnosti posade tokom trajanja borbe."
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} na bonus efikasnosti posade."
+
+msgid "ration_poland/long_special"
+msgstr "Automatski se aktivira na početku borbe i obezbeđuje efekat tokom trajanja borbe. Odgovara samo poljskim vozilima."
+
+msgid "ration_poland/name"
+msgstr "Hleb i Mast"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "Pogodno samo za poljska vozila."
+
+msgid "ration_poland/short_special"
+msgstr "Poboljšava performanse poljskih posada"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s na bonus efikasnosti posade tokom trajanja borbe."
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} na bonus efikasnosti posade."
+
+msgid "ration_sweden/long_special"
+msgstr "Automatski se aktivira na početku borbe i obezbeđuje efekat tokom trajanja borbe. Odgovara samo švedskim vozilima."
+
+msgid "ration_sweden/name"
+msgstr "Zemičke sa cimetom i Kafa"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "Pogodno samo za švedska vozila."
+
+msgid "ration_sweden/short_special"
+msgstr "Poboljšava performanse švedskih posada"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s na bonus efikasnosti posade tokom trajanja borbe."
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} na bonus efikasnosti posade."
+
+msgid "ration_uk/long_special"
+msgstr "Automatski se aktivira na početku borbe i obezbeđuje efekat tokom trajanja borbe. Odgovara samo britanksim vozilima."
+
+msgid "ration_uk/name"
+msgstr "Puding i čaj"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "Pogodno samo za britanska vozila."
+
+msgid "ration_uk/short_special"
+msgstr "Poboljšava performanse britanskih posada"
+
+msgid "recon/longDescr"
+msgstr "Naređuje izviđačkom avionu da otkriva neprijateljske jedinice duž linije. Vozila u vidokrugu aviona su otkrivena i ostaju vidljiva na neko vreme. Otkriva minska polja."
+
+msgid "recon/name"
+msgstr "Izviđački let"
+
+msgid "recon/shortDescr"
+msgstr "Otkriva neprijateljska vozila i minska polja."
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} na snagu motora ali oštećuje motor."
+
+msgid "removedRpmLimiter/long_special"
+msgstr "Povećava snagu motora za {colorTagOpen}10%{colorTagClose} ali, dok je aktivan, postepeno smanjuje izdržljivost motora. Može biti uključen ili isključen tokom borbe više puta. Odgovara samo kineskim i SSSR vozilima."
+
+msgid "removedRpmLimiter/name"
+msgstr "Uklonjen regulator broja obrtaja na motoru"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s na snagu motora, ali oštećuje motor. Može se koristiti više puta u borbi."
+
+msgid "removedRpmLimiter/restriction"
+msgstr "Pogodno samo za sovjetska i kineska vozila."
+
+msgid "removedRpmLimiter/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} na snagu motora ali oštećuje motor"
+
+msgid "repairpoint/battleDescr"
+msgstr "Stvara privremenu statičnu zonu koja popravlja sve oštećene module, uklanja SVE negativne efekte i obnavlja %(healPerTick)s poena izdržljivosti tvog vozila po sekundi tokom %(timer)s s.\n\n*Saveznička vozila u okviru zone efekta će takođe obnoviti poene izdržljivosti."
+
+msgid "repairpoint/descr"
+msgstr "Stvara privremenu statičnu zonu koja popravlja sve oštećene module, uklanja SVE negativne efekte i obnavlja %(healPerTick)s poena izdržljivosti tvog vozila po sekundi tokom %(timer)s s.\n\n*Saveznička vozila u okviru zone efekta će takođe obnoviti poene izdržljivosti."
+
+msgid "repairpoint/long_special"
+msgstr "Stvara privremenu statičnu zonu koja popravlja sve oštećene module, uklanja SVE negativne efekte i {green_Open}obnavlja %(healPerTick)s{green_Close} poena izdržljivosti tvog vozila {whiteSpanish_Open} po sekundi tokom %(timer)s s.{whiteSpanish_Close}\n\n*Saveznička vozila u okviru zone efekta će takođe obnoviti poene izdržljivosti."
+
+msgid "repairpoint/name"
+msgstr "Zona opravke"
+
+msgid "repairpoint/short_special"
+msgstr "Stvara privremenu statičnu zonu koja popravlja sve oštećene module, uklanja SVE negativne efekte i {green_Open}obnavlja %(healPerTick)s{green_Close} poena izdržljivosti tvog vozila {whiteSpanish_Open} po sekundi tokom %(timer)s s.{whiteSpanish_Close}\n\n*Saveznička vozila u okviru zone efekta će takođe obnoviti poene izdržljivosti."
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "Čišćenje navoja cevi (Tip 1)"
+
+msgid "roleSlot/name"
+msgstr "Kategorija drugog slota za opremu"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "Pasivni sigurnosni sistem"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "Pasivni\nsigurnosni sistem"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "Prekonfigurisano spremište municije"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "Prekonfigurisano\nspremište municije"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "Popravljive gusenice"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "Popravljive\ngusenice"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "Podešavanje odeljka motora"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "Podešavanje odeljka\nmotora"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "Pojačano vešanje"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "Pojačano\nvešanje"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "Lako vešanje"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "Lako\nvešanje"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "Preklapanje nišanskih zupčanika"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "Preklapanje nišanskih\nzupčanika"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "Paralaksno podešavanje"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "Paralaksno\npodešavanje"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "Podešavanje izbacivača"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "Podešavanje\nizbacivača"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "Pravougaoni periskop"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "Pravougaoni\nperiskop"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "Podešavanje mehanizma punjenja"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "Podešavanje mehanizma\npunjenja"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "Podešavanje mehanizma nišanjenja"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "Podešavanje mehanizma\nnišanjenja"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "Podešavanje kardana"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "Podešavanje\nkardana"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "Električni mehanizam nišanjenja"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "Električni\nmehanizam nišanjenja"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "Novi zupčanici nišanjenja"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "Novi\nzupčanici nišanjenja"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "Podešavanje zatvarača"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "Podešavanje\nzatvarača"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "Opšte smanjivanje težine"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "Opšte smanjivanje\ntežine"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "Opšte povećanje izdržljivosti"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "Opšte povećanje\nizdržljivosti"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "Mat boje"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "Mat\nboje"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "Dodatna brzina unazad"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "Dodatna\nbrzina unazad"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "Motor sa gornjom bregastom osovinom"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "Motor sa gornjom\nbregastom osovinom"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "Poboljšani nabijač topa"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "Poboljšani\nnabijač topa"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "Dodatna izolacija buke"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "Dodatna\nizolacija buke"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "Uklanjanje postave"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "Uklanjanje\npostave"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "Pomoćni sigurnosni sistem"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "Pomoćni sigurnosni\nsistem"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "Lagane tačke montiranja"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "Lagane tačke\nmontiranja"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "Premošteno napajanje (1 verzija)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "Premošteno\nnapajanje (1 verzija)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "Premošteno napajanje (2 verzija)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "Premošteno\nnapajanje (2 verzija)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "Ojačana platforma"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "Ojačana\nplatforma"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "Lagana platforma"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "Lagana\nplatforma"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "Fokus na pokretljivost"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "Fokus na\npokretljivost"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "Fokus na vatrenu moć"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "Fokus na\nvatrenu moć"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "Teški top"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "Teški\ntop"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "Lagani top"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "Lagani\ntop"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "Podešavanje izlazne snage (1 varijanta)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "Podešavanje izlazne\nsnage (1 varijanta)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "Podešavanje izlazne snage (2 varijanta)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "Podešavanje izlazne\nsnage (2 varijanta)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "Ojačani trup"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "Ojačani\ntrup"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "Lagani trup"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "Lagani\ntrup"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Antireflektujuće oblaganje optike"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Antireflektujeće\noblaganje optike"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Spoljni sistem osmatranja"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Spoljni sistem\nosmatranja"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Panoramski periskop"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Panoramski\nperiskop"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Uskougaona osmatračka sprava"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Uskougaouna\nosmatračka sprava"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "Ojačana primarna struktura"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "Ojačana\nprimarna struktura"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "Proširenje prostora kupole"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "Proširenje prostora\nkupole"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "Izviđački komplet"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "Izviđački\nkomplet"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "Jurišni komplet"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "Jurišni\nkomplet"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "Napredno ojačanje izdržljivosti"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "Napredno ojačanje\nizdržljivosti"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "Napredno poboljšanje nišanjenja"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "Napredno poboljšanje\nnišanjenja"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "Dodatne osmatračke sprave"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "Dodatne\nosmatračke sprave"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "Ojačani sastavi"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "Ojačani\nsastavi"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "Podešavanje mehanizma punjenja"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "Podešavanje mehanizma\npunjenja"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "Podešavanje mehanizma nišanjenja"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "Podešavanje mehanizma\nnišanjenja"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "Podešavanje kardana"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "Podešavanje\nkardana"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "Električni mehanizam nišanjenja"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "Električni\nmehanizam nišanjenja"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "Podešavanje zatvarača"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "Podešavanje\nzatvarača"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "Novi zupčanici nišanjenja"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "Novi\nzupčanici nišanjenja"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "Podešavanje sistema ubrizgavanja"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "Podešavanje sistema\nubrizgavanja"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "Podešavanje polja vidokruga"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "Podešavanje polja\nvidokruga"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "Povećanje izdržljivosti modula"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "Povećanje\nizdržljivosti modula"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "Tačke montiranja od lakih legura"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "Tačke montiranja\nod lakih legura"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "Podešavanje zatvarača"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "Podešavanje\nzatvarača"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "Novi zupčanici nišanjenja"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "Novi\nzupčanici nišanjenja"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "Teški izduvnici"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "Teški\nizduvnici"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "Osetljiva optika"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "Osetljiva\noptika"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "Ojačani noseći točkovi"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "Ojačani\nnoseći točkovi"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "Lagani noseći točkovi"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "Lagani\nnoseći točkovi"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "Podešavanje vešanja"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "Podešavanje\nvešanja"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "Podešavanje motora"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "Podešavanje\nmotora"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "Lovac S komplet"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "Lovac S\nkomplet"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "Lovac C komplet"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "Lovac C\nkomplet"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "Podešavanje hidraulike (1 varijanta)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "Podešavanje\nhidraulike (1 varijanta)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "Podešavanje hidraulike (2 varijanta)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "Podešavanje\nhidraulike (2 varijanta)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "Podešavanje mehanizma punjenja"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "Podešavanje mehanizma\npunjenja"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "Podešavanje mehanizma nišanjenja"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "Podešavanje mehanizma\nnišanjenja"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "Povećanje izdržljivosti"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "Povećanje\nizdržljivosti"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "Smanjenje težine"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "Smanjenje\ntežine"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "Vešanje za sve terene"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "Vešanje za sve\nterene"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "Lako vešanje"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "Lako\nvešanje"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "Paralaksno podešavanje"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "Paralaksno\npodešavanje"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "Preklapanje nišanskih zupčanika"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "Preklapanje nišanskih\nzupčanika"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "Zvučna izolacija"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "Zvučna\nizolacija"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "Električni pogon periskopa"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "Električni\npogon periskopa"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "Podešavanje ventila (1 varijanta)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "Podešavanje ventila\n(1 varijanta)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "Podešavanje ventila (2 varijanta)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "Podešavanje ventila\n(2 varijanta)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "Podešavanje mehanizma punjenja"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "Podešavanje mehanizma\npunjenja"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "Podešavanje mehanizma nišanjenja"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "Podešavanje mehanizma\nnišanjenja"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "Ojačana dvoslojna zaštita"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "Ojačana\ndvoslojna zaštita"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "Lagana dvoslojna zaštita"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "Lagana\ndvoslojna zaštita"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "Povećanje izdržljivosti modula"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "Povećanje\nizdržljivosti modula"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "Tačke montiranja od lakih legura"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "Tačke montiranja\nod lakih legura"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "Podešavanje ruke vešanja"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "Podešavanje\nruke vešanja"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "Poboljšani pregled"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "Poboljšani\npregled"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "Podešavanja turbo punjača"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "Podešavanje\nturbo punjača"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "Antireflektujuće oblaganje farova"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "Antireflektujuće\noblaganje farova"
+
+msgid "selfBuff/battleDescr"
+msgstr "Tokom %(duration)s s, smanjuje rasipanje topa i vreme nišanjenja za %(gunAimingTime)s i poboljšava stabilizaciju topa i brzinu vatre.\n\n*Ne utiče na vreme između ispaljivanja granate i punjenja sledeće granate u šaržeru, topu ili kontejneru."
+
+msgid "selfBuff/descr"
+msgstr "Tokom %(duration)s s, smanjuje rasipanje topa i vreme nišanjenja za %(gunAimingTime)s i poboljšava stabilizaciju topa i brzinu vatre.\n\n*Ne utiče na vreme između ispaljivanja granate i punjenja sledeće granate u šaržeru, topu ili kontejneru."
+
+msgid "selfBuff/longDescr"
+msgstr "{whiteSpanish_Open}Tokom %(duration)s s{whiteSpanish_Close}, smanjuje rasipanje topa i {green_Open}vreme nišanjenja za %(gunAimingTime)s{green_Close}i poboljšava stabilizaciju topa i brzinu vatre.\n\n*Ne utiče na vreme između ispaljivanja granate i punjenja sledeće granate u šaržeru, topu ili kontejneru."
+
+msgid "selfBuff/name"
+msgstr "Praćenje mete"
+
+msgid "selfBuff/shortDescr"
+msgstr "{whiteSpanish_Open}Tokom %(duration)s s{whiteSpanish_Close}, smanjuje rasipanje topa i {green_Open}vreme nišanjenja za %(gunAimingTime)s{green_Close}i poboljšava stabilizaciju topa i brzinu vatre.\n\n*Ne utiče na vreme između ispaljivanja granate i punjenja sledeće granate u šaržeru, topu ili kontejneru."
+
+msgid "shells_consumables_switch/name"
+msgstr "Alternativna konfiguracija: Osnovni tovar"
+
+msgid "shotPassion/battleDescr"
+msgstr "Tokom %(duration)s s, smanjuje efikasnost pomeranja tvog topa i stabilizaciju za %(gunAimingTime)s ali svaki pogodak koji probije će povećati tvoju nanetu štetu za %(damageIncreasePerShot)s. Sabira se do 5 puta. Hici koji ne nanesu štetu ili promaše poništavaju zbir bonusa na 0.\n\n*Pogoci električnim pražnjenjem takođe se računaju u zbiru tvog bonusa štete."
+
+msgid "shotPassion/descr"
+msgstr "Tokom %(duration)s s, smanjuje efikasnost pomeranja tvog topa i stabilizaciju za %(gunAimingTime)s ali svaki pogodak koji probije će povećati tvoju nanetu štetu za %(damageIncreasePerShot)s. Sabira se do 5 puta. Hici koji ne nanesu štetu ili promaše poništavaju zbir bonusa na 0.\n\n*Pogoci električnim pražnjenjem takođe se računaju u zbiru tvog bonusa štete."
+
+msgid "shotPassion/longDescr"
+msgstr "{whiteSpanish_Open}Tokom %(duration)s s{whiteSpanish_Close}, smanjuje efikasnost pomeranja tvog topa i stabilizaciju {red_Open}za %(gunAimingTime)s{red_Close}, ali svaki pogodak koji probije će povećati tvoju nanetu štetu {green_Open}za %(damageIncreasePerShot)s. {green_Close}Sabira se {whiteSpanish_Open}do 5 puta{whiteSpanish_Close}. Hici koji ne nasu štetu ili promaše poništavaju zbir bonusa na 0.\n\n*Pogoci električnim pražnjenjem takođe se računaju u zbiru tvog bonusa štete."
+
+msgid "shotPassion/name"
+msgstr "Rastući žar"
+
+msgid "shotPassion/shortDescr"
+msgstr "{whiteSpanish_Open}Tokom %(duration)s s{whiteSpanish_Close}, smanjuje efikasnost pomeranja tvog topa i stabilizaciju {red_Open}za %(gunAimingTime)s{red_Close}, ali svaki pogodak koji probije će povećati tvoju nanetu štetu {green_Open}za %(damageIncreasePerShot)s. {green_Close}Sabira se {whiteSpanish_Open}do 5 puta{whiteSpanish_Close}. Hici koji ne nasu štetu ili promaše poništavaju zbir bonusa na 0.\n\n*Pogoci električnim pražnjenjem takođe se računaju u zbiru tvog bonusa štete."
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "Šesto čulo se aktivira 1 s ranije"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "Veština šesto čulo omogućava komandiru da identifikuje da li je vozilo uočeno od strane neprijatelja. Aktivira se 3 s nakon što je tvoje vozilo uočeno."
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "Veština Šesto čulo dozvoljava komandantu da odredi da li je neprijatelj uočio vozilo tokom borbe. Opremljena direktiva povećava efekat."
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "Povećani fokus"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "Povećava efekat veštine šesto čulo komandira"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "Lečenje svih povređenih članova posade i uklanjanje efekta šoka."
+
+msgid "smallMedkit/long_special"
+msgstr "Tretira sve povređene članove posade i uklanja efekat ošamućenosti nakon aktiviranja. Odgovara svim tipovima vozila svih nacija. Potrošni materijal je uklonjen nakon borbe ako je uptorebljen najmanje jednom."
+
+msgid "smallMedkit/name"
+msgstr "Mali komplet za prvu pomoć"
+
+msgid "smallMedkit/onUse"
+msgstr "Lečenje svih povređenih članova posade i uklanjanje efekta šoka."
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "Lečenje svih povređenih članova posade i uklanjanje efekta šoka."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "Leči sve povređene članove posade i uklanjanje efekta šoka."
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "Popravka svih oštećenih modula."
+
+msgid "smallRepairkit/long_special"
+msgstr "Popravlja sve oštećene module odjednom nakon aktiviranja. Odgovara svim tipovima vozila svih nacija. Potrošni materijal je uklonjen nakon borbe ako je uptorebljen najmanje jednom."
+
+msgid "smallRepairkit/name"
+msgstr "Mali alat za popravke"
+
+msgid "smallRepairkit/onUse"
+msgstr "Popravlja sve uštećene module. Odgovara svim tipovima vozila svih nacija. Potrošni materijal je uklonjen nakon borbe ako je uptorebljen najmanje jednom."
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "Popravlja sve oštećene module."
+
+msgid "smoke/longDescr"
+msgstr "Postavlja dimnu zavesu koja sakriva vozila unutar i iza dima. Neprijateljska vozila unutar dima imaju smanjen vidokrug i performanse posade."
+
+msgid "smoke/name"
+msgstr "Dimna zavesa"
+
+msgid "smoke/shortDescr"
+msgstr "Dim skriva sva vozila u sebi/iza njega. Neprijatelj unutar ima smanjen vidokrug i performanse posade."
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "Duplira efekat veštine \"Mirna vožnja\""
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "Daje veštinu Mirna vožnja istreniranu na 100%"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "Veština \"Mirna vožnja\" povećava preciznost prilikom pucanja u pokretu tokom trajanja borbe. Ako je veština istrenirana na 100% opremljena direktiva povećava njen efekat. Ako nije, direktiva obezbeđuje tvom vozilu efekat kao da je veština istrenirana na 100%."
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "Zanimljivost menjačke kutije"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "Daje veštinu Mirna vožnja istreniranu na 100% ili povećava njen efekat"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "Duplira efekat veštine \"Pogodak\""
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "Daje veštinu Na nišanu istreniranu na 100%"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "Veština \"Na nišanu\" povećava preciznost tokom rotiranja kupole tokom trajanja borbe. Kada je jednom veština istrenirana na 100% opremljena direktiva povećava njen efekat. Ako nije, direktiva obezbeđuje tvom vozilu efekat kao da je veština istrenirana na 100%."
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "Miran ruka"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "Daje veštinu Na nišanu istreniranu na 100% ili povećava njen efekat"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "Izbacuje samohodnu minu koja će juriti najbližeg neprijatelja i do %(botLifeTime)s s i naneti 400 do 600 poena štete na maloj razdaljini nakon detonacije.\n\n*Neprijatelji mogu uništiti tvoju vatrenu loptu pucajući na nju ili udarajući je. Vatrena lopta nanosi dodatnu štetu udarom nakon dostizanja mete."
+
+msgid "spawn_kamikaze/descr"
+msgstr "Izbacuje samohodnu minu koja će juriti najbližeg neprijatelja i do %(botLifeTime)s s i naneti 400 do 600 poena štete na maloj razdaljini nakon detonacije.\n\n*Neprijatelji mogu uništiti tvoju vatrenu loptu pucajući na nju ili udarajući je. Vatrena lopta nanosi dodatnu štetu udarom nakon dostizanja mete."
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "Izbacuje samohodnu minu koja će juriti najbližeg neprijatelja i do {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close} i naneti {whiteSpanish_Open}400 do 600 poena štete{whiteSpanish_Close} na maloj razdaljini nakon detonacije.\n\n*Neprijatelji mogu uništiti tvoju vatrenu loptu pucajući na nju ili udarajući je. Vatrena lopta nanosi dodatnu štetu udarom nakon dostizanja mete."
+
+msgid "spawn_kamikaze/name"
+msgstr "Vatrena lopta"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "Izbacuje samohodnu minu koja će juriti najbližeg neprijatelja i do {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close} i naneti {whiteSpanish_Open}400 do 600 poena štete{whiteSpanish_Close} na maloj razdaljini nakon detonacije.\n\n*Neprijatelji mogu uništiti tvoju vatrenu loptu pucajući na nju ili udarajući je. Vatrena lopta nanosi dodatnu štetu udarom nakon dostizanja mete."
+
+msgid "stealthRadar/descr"
+msgstr "Daje bonus na prikrivenost i vidokrug. Smanjuje prikrivenost neprijateljskih vozila."
+
+msgid "stealthRadar/long_descr"
+msgstr "Povećava parametar skrivanje tvog vozila %(activationDelay)ss nakon zaustavljanja i smanjuje skrivenost neprijateljskih vozila. Pruža pasivni bonus na videokrug i otkriva neprijateljske mine. Ne radi tokom kretanja vozila."
+
+msgid "stealthRadar/name"
+msgstr "Sentinel"
+
+msgid "stealthRadar/short_descr"
+msgstr "Daje bonus na prikrivenost i vidokrug. Smanjuje prikrivenost neprijateljskih vozila."
+
+msgid "stereoscope/battleDescr"
+msgstr "Povećava vidno polje stacionarnog vozila 3s nakon zaustavljanja (do 445 m)"
+
+msgid "stereoscope/long_special"
+msgstr "Dobro vidno polje pruža solidnu prednost vozilu u borbi. Ovaj tip opreme je ključan za lovce tenkova sa malim siluetama i preciznim topovima. Aktivira se 3 sekunde nakon zaustavljanja vozila."
+
+msgid "stereoscope/name"
+msgstr "Stereoskopski teleskop"
+
+msgid "stereoscope_tier1/name"
+msgstr "Stereoskopski teleskop klasa 1"
+
+msgid "stereoscope_tier2/name"
+msgstr "Stereoskopski teleskop klasa 2"
+
+msgid "stereoscope_tier3/name"
+msgstr "Stereoskopski teleskop klasa 3"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "Zamena komponenti vešanja (1 tip)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "Zamena komponenti vešanja (2 tip)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "Preklapanje rotacionog mehanizma (1 tip)"
+
+msgid "tankRammer/name"
+msgstr "Nabijač topa"
+
+msgid "tankRammer_tier1/name"
+msgstr "Nabijač topa klasa 1"
+
+msgid "tankRammer_tier2/name"
+msgstr "Nabijač topa klasa 2"
+
+msgid "thunderStrike/battleDescr"
+msgstr "Stvara zonu gde serija %(thunderCount)s električnih pražnjenja udara sa visokom učestalošću. Svako pražnjenje nanosi %(damage)s poena štete i privremeno smanjuje pokretljivost svakog neprijateljskog vozila u oblasti efekta sposobnosti.\n\n*Postoji kašnjenje od %(delay)s s između aktiviranja sposobnosti i prvog pražnjenja. Negativni efekat može biti uklonjen kompletom za popravku."
+
+msgid "thunderStrike/descr"
+msgstr "Stvara zonu gde serija %(thunderCount)s električnih pražnjenja udara sa visokom učestalošću. Svako pražnjenje nanosi %(damage)s poena štete i privremeno smanjuje pokretljivost svakog neprijateljskog vozila u oblasti efekta sposobnosti.\n\n*Postoji kašnjenje od %(delay)s s između aktiviranja sposobnosti i prvog pražnjenja. Negativan efekat može biti uklonjen kompletom za popravku."
+
+msgid "thunderStrike/longDescr"
+msgstr "Stvara zonu gde serija %(thunderCount)s električnih pražnjenja udara sa visokom učestalošću. Svako pražnjenje nanosi {whiteSpanish_Open}%(damage)s poena štete{whiteSpanish_Close} i privremeno smanjuje pokretljivost svakog neprijateljskog vozila u oblasti efekta sposobnosti.\n\n*Postoji kašnjenje od %(delay)s s između aktiviranja sposobnosti i prvog pražnjenja. Negativni efekat može biti uklonjen kompletom za popravku."
+
+msgid "thunderStrike/name"
+msgstr "Električno pražnjenje"
+
+msgid "thunderStrike/shortDescr"
+msgstr "Stvara zonu gde serija %(thunderCount)s električnih pražnjenja udara sa visokom učestalošću. Svako pražnjenje nanosi {whiteSpanish_Open}%(damage)s poena štete{whiteSpanish_Close} i privremeno smanjuje pokretljivost svakog neprijateljskog vozila u oblasti efekta sposobnosti.\n\n*Postoji kašnjenje od %(delay)s s između aktiviranja sposobnosti i prvog pražnjenja. Negativni efekat može biti uklonjen kompletom za popravku."
+
+msgid "trappoint/battleDescr"
+msgstr "Tokom %(duration)s s, stvara zonu koja smanjuje parametre pokretljivosti za %(vehicleMaxSpeed)s, i povećava vreme punjenja topa i nišanjenja za %(gunReloadTime)s za sva neprijateljska vozila unutar."
+
+msgid "trappoint/descr"
+msgstr "Tokom %(duration)s s, stvara zonu koja smanjuje parametre pokretljivosti za %(vehicleMaxSpeed)s, i vreme punjenja topa i nišanjenja za %(gunReloadTime)s za sva neprijateljska vozila unutar."
+
+msgid "trappoint/long_special"
+msgstr "{whiteSpanish_Open}Tokom%(duration)s s{whiteSpanish_Close}, stvara zonu koja smanjuje paramtera pokretljivosti {whiteSpanish_Open}za %(vehicleMaxSpeed)s{whiteSpanish_Close}, i za {whiteSpanish_Open}%(gunReloadTime)s vreme{whiteSpanish_Close} punjenja i nišanjenja za sva neprijateljska vozila unutar."
+
+msgid "trappoint/name"
+msgstr "Zamka"
+
+msgid "trappoint/short_special"
+msgstr "{whiteSpanish_Open}Tokom%(duration)s s{whiteSpanish_Close}, stvara zonu koja smanjuje parametre pokretljivosti {whiteSpanish_Open}za %(vehicleMaxSpeed)s{whiteSpanish_Close}, i povećava za {whiteSpanish_Open}%(gunReloadTime)s vreme{whiteSpanish_Close} punjenja i nišanjenja za sva neprijateljska vozila unutar."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "Efektivnost zavisi od tipa vozila. Povećava skrivanje nepokretnog ili pokretnog vozila. Korisno za aktivno otkrivanje, kao i pasivno otkrivanje sa rizične pozicije."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "Nagradni izduvni sistem"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "Povećava skrivanje nepokretnog ili pokretnog vozila."
+
+msgid "trophyBasicAimDrives/name"
+msgstr "Poboljšan mehanizam topa"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "Povećava brzinu nišanjenja topa za pucanje preciznih hitaca brže."
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "Nagradni stabilizator"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "Smanjuje rasipanje topa prilikom pucanja u pokretu i tokom okretanja vozila."
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "Poboljšana optika"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "Povećava vidokrug na zaustavljenim i pokretnim vozilima."
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "Potpuno obnavlja poene izdržljivosti vešanja nakon popravki."
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "Obnavlja vešanje nakon popravki."
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "Poboljšava otpornost vozila i brzinu popravke. Smanjuje štetu trupa nastalu oštećenjem vešanja prilikom udara. Potpuno obnavlja poene zdravlja vešanja nakon popravke. Smanjuje šansu da se gusenica uništi nakon zadobijene štete, što dozvoljava tvom vozilu da ostane u pokretu što je duže moguće."
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "Nagradno pojačavanje"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "Povećava otpornost vozila i štiti vešanje"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "Obilna tehnologija zaštite"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "Izdašan mehanizam rotacije"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "Smanjuje veličinu kruga nišanjenja da poveća preciznost nišanjenja. Kao rezultat, tvoj top ima bolje šanse za pogodak u metu."
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "Nagradno nišanjenje"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "Smanjuje rasipanje topa"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "Obilna ventilacija"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "Povećava efikasnost posade što ima pozitivan efekat na većinu karakteristika vozila."
+
+msgid "trophyBasicTankRammer/name"
+msgstr "Poboljšan nabijač topa"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "Ubrzava punjenje topa. Nema ograničenja po klasama."
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "Povećava snagu motora, pruža bolje ubrzavanje, manevrisanje i uspon na padinama. Povećava maksimalne brzine napred i nazad, dozvoljavajući zauzimanje pozicija i povlačenje bržim."
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "Obilan Turbo punjač"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "Povećava snagu motora i maksimalnu brzinu"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} {arrow} na videokrug, do 445 m"
+
+msgid "trophyOptics/name"
+msgstr "Izdašna optika"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "Nagradni izduvni sistem"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "Poboljšan mehanizam topa"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "Nagradni stabilizator"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "Poboljšana optika"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "Potpuno obnavlja poene izdržljivosti vešanja nakon popravki."
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Obnavlja vešanje nakon popravki."
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "Nagradno pojačavanje"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "Obilna tehnologija zaštite"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "Izdašan mehanizam rotacije"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "Nagradno nišanjenje"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "Obilna ventilacija"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "Poboljšan nabijač topa"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "Obilan Turbo punjač"
+
+msgid "turbocharger/long_special"
+msgstr "Povećava snagu motora, pruža bolje ubrzavanje, manevrisanje i uspon na padinama. Povećava maksimalne brzine napred i nazad, dozvoljavajući zauzimanje pozicija i povlačenje bržim."
+
+msgid "turbocharger/name"
+msgstr "Turbo punjač"
+
+msgid "turbocharger/short_special"
+msgstr "Povećava snagu motora i maksimalnu brzinu"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s na snagu motora sa montiranim turbo punjačem (bilo koje klase), obilnim turbo punjačem ili sistemom poboljšanja mobilnosti."
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "Poboljšava efekat turbo punjača, obilnog turbo punjača ili poboljšanog kompresora tokom trajanja jedne borbe. Direktiva će raditi samo ako imaš montiranu odgovarajuću opremu."
+
+msgid "turbochargerBattleBooster/name"
+msgstr "Zamena filtera za gorivo"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "Povećava snagu motora"
+
+msgid "turbocharger_tier1/name"
+msgstr "Turbo punjač klasa 1"
+
+msgid "turbocharger_tier2/name"
+msgstr "Turbo punjač klasa 2"
+
+msgid "turbocharger_tier3/name"
+msgstr "Turbo punjač klasa 3"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "Duplira efekat veštine \"Kočenje kvačilom\""
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "Daje veštinu Kočenje kvačilom istreniranu na 100%"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "Veština \"Kočenje kvačilom\" povećava brzinu skretanja pokretnog i stacionarnog vozila tokom trajanja borbe. Kada je jednom veština istrenirana na 100% opremljena direktiva povećava njen efekat. Ako nije, direktiva obezbeđuje tvom vozilu efekat kao da je veština istrenirana na 100%."
+
+msgid "virtuosoBattleBooster/name"
+msgstr "Staza s preprekama"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "Obezbeđuje veštinu Kočenje kvačilom istreniranu na 100% ili povećava njen efekat"

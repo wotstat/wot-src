@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "button/progression"
+msgstr "Pokaż postępy"
+
+msgid "button/select"
+msgstr "Konfiguruj"
+
+msgid "event/battlePass/name"
+msgstr "Przepustka bitewna, sezon %(seasonNum)s"
+
+msgid "event/finished"
+msgstr "%(eventName)s\nzakończone"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\nrozpocznie się %(date)s"
+
+msgid "event/paused"
+msgstr "%(eventName)s\njest tymczasowo niedostępne"
+
+msgid "event/ranked/name"
+msgstr "Sezon %(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "ZOBACZ W TRYBIE POSTĘPÓW"
+
+msgid "mode/epicBattle/condition"
+msgstr "30 na 30 &nbsp;{par_open}I{par_close}&nbsp;poziomy&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30 na 30&nbsp;{par_open}I{par_close}&nbsp;Poziom&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "Wydarzenie\nrozpocznie się %(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Ten tryb\nwystartuje wkrótce"
+
+msgid "mode/epicBattle/description"
+msgstr "Tryb z postępami i nagrodami."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "Wydarzenie skończyło się"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "Walcząc w {whiteSpanish_open}Linii frontu {whiteSpanish_close} pojazdami poziomu VIII, zdobywasz punkty, które pozwalają na awans w postępach Przepustki bitewnej."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Punkty Przepustki bitewnej"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "Walcząc w {whiteSpanish_open}Misji zwiadowczej{whiteSpanish_close} pojazdami poziomów VIII–X, zdobywasz punkty, które pozwalają na awans w postępach Przepustki bitewnej."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Punkty Przepustki bitewnej"
+
+msgid "mode/mapbox/condition"
+msgstr "15 na 15 %(parSecondary_open)sI%(parSecondary_close)s Poziomy&nbsp;VIII–X"
+
+msgid "mode/mapbox/description"
+msgstr "Nowa mechanika mapy."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Efekty wizualne pogody zależą od ogólnych ustawień grafiki. Przy niskich ustawieniach mogą pojawiać się artefakty i inne problemy. Jeśli specyfikacja komputera spełnia wymagania, zalecamy wybór najwyższych ustawień graficznych, co zapewni najlepsze doświadczenia. Ten tryb wymaga komputerów o dużej wydajności. Podczas zaciętych walk liczba klatek na sekundę może spaść."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "Rekomendowane są najwyższe ustawienia graficzne"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Rekomendowane są najwyższe ustawienia graficzne"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Poznaj mapy"
+
+msgid "mode/mapsTraining/description"
+msgstr "Poznaj mapy"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "Walcząc w {whiteSpanish_open}bitwach losowych {whiteSpanish_close} pojazdami poziomów IV–XI, zdobywasz punkty, które pozwalają na awans w postępach Przepustki bitewnej."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Punkty Przepustki bitewnej"
+
+msgid "mode/random/condition"
+msgstr "15 na 15 %(parSecondary_open)sI%(parSecondary_close)s Poziomy&nbsp;I–XI"
+
+msgid "mode/random/description"
+msgstr "Bitwy z automatycznym doborem."
+
+msgid "mode/random/setup"
+msgstr "Konfiguruj"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "Walcząc w {whiteSpanish_open}bitwach rankingowych {whiteSpanish_close} pojazdami X poziomu, zdobywasz punkty, które pozwalają na awans w postępach Przepustki bitewnej."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Punkty Przepustki bitewnej"
+
+msgid "mode/ranked/condition"
+msgstr "10 na 10 %(parSecondary_open)sI%(parSecondary_close)s Poziom&nbsp;X"
+
+msgid "mode/ranked/description"
+msgstr "Tryb z postępami i nagrodami."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Zgłoś się do turnieju"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Następna bitwa: %(date)s o %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1 na 1 – 15 na 15 %(parSecondary_open)sI%(parSecondary_close)s Poziomy&nbsp;I–X"
+
+msgid "mode/specBattlesList/description"
+msgstr "Mapa globalna i turnieje."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Walcz jako najemnik"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Walcz w klanie"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7 na 7 – 15 na 15 %(parSecondary_open)sI%(parSecondary_close)s Poziomy&nbsp;VI–X"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Bitwy klanowe o surowce przemysłowe."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Pokoje szkoleniowe: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1 na 1 – 15 na 15 %(parSecondary_open)sI%(parSecondary_close)s Poziomy&nbsp;I–X"
+
+msgid "mode/trainingsList/description"
+msgstr "Bitwy wprowadzające."
+
+msgid "novelty"
+msgstr "NOWOŚĆ"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Bitwy w kwalifikacji: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "Za grę w tym trybie możesz otrzymać unikalne dodatki 3D."
+
+msgid "reward/attachment/name"
+msgstr "Dodatki 3D"
+
+msgid "reward/bones/description"
+msgstr "Nagroda jest ustalana zależnie od Twojej skuteczności bojowej."
+
+msgid "reward/bones/name"
+msgstr "Obligacje"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Możesz otrzymać %(name)s za grę w tym trybie."
+
+msgid "reward/bountyEquipment/name"
+msgstr "Specjalne wyposażenie"
+
+msgid "reward/credits/description"
+msgstr "Nagroda jest ustalana zależnie od Twojej skuteczności bojowej."
+
+msgid "reward/credits/name"
+msgstr "Kredyty"
+
+msgid "reward/crew/description"
+msgstr "Możesz otrzymać unikalnych członków załogi za grę w tym trybie."
+
+msgid "reward/crew/name"
+msgstr "Członkowie załogi"
+
+msgid "reward/experience/description"
+msgstr "Nagroda jest ustalana zależnie od Twojej skuteczności bojowej."
+
+msgid "reward/experience/name"
+msgstr "Doświadczenie"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "Za grę w tym trybie możesz otrzymać wyposażenie eksperymentalne."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Specjalne wyposażenie"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Możesz otrzymać %(name)s za grę w tym trybie."
+
+msgid "reward/improvedEquipment/name"
+msgstr "Specjalne wyposażenie"
+
+msgid "reward/lootBoxes/description"
+msgstr "Za grę w tym trybie możesz otrzymać skrzynie z łupami."
+
+msgid "reward/lootBoxes/name"
+msgstr "Specjalne skrzynie z łupami"
+
+msgid "reward/other/description"
+msgstr "Możesz otrzymać wiele przydatnych nagród za grę w tym trybie."
+
+msgid "reward/other/name"
+msgstr "Nagroda specjalna"
+
+msgid "reward/progressionStyle/description"
+msgstr "Za grę w tym trybie możesz zdobyć specjalny styl progresywny."
+
+msgid "reward/progressionStyle/name"
+msgstr "Styl progresywny"
+
+msgid "reward/random/description"
+msgstr "Za grę w tym trybie można otrzymać wiele przydatnych nagród."
+
+msgid "reward/random/name"
+msgstr "Losowa nagroda"
+
+msgid "reward/style/description"
+msgstr "Możesz otrzymać specjalny styl 3D dla %(name)s za grę w tym trybie."
+
+msgid "reward/style/name"
+msgstr "Styl 3D"
+
+msgid "reward/vehicle/description"
+msgstr "Możesz otrzymać %(name)s za grę w tym trybie."
+
+msgid "reward/vehicle/name"
+msgstr "Pojazdy-nagrody"
+
+msgid "selectMap"
+msgstr "Wstępne ustawienia dla bitew losowych"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d."
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s godz."
+
+msgid "status/timeLeft/lessMin"
+msgstr "mniej niż minuta"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "WYBIERZ TRYB BITWY"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Mapa globalna"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Zajmuj prowincje i walcz o globalną dominację. Ten tryb jest dostępny tylko dla członków klanów."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Dołącz do klanu"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Bitwy na mapie globalnej"
+
+msgid "window/battleSession/title"
+msgstr "BITWA SPECJALNA"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Lista turniejów"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Ta funkcja jest aktualnie niedostępna, ale będzie dostępna w przyszłości. Prosimy o cierpliwość."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Walcz w pojedynkę lub w drużynie, pokaż na co Cię stać i zgarniaj cenne nagrody."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Turnieje"

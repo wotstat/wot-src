@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "Gestisci Riserve"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "Clicca per selezionare una Riserva di combattimento disponibile."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "Bombe"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "Area d'impatto"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "Stordimento"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "Schieramento"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "Numero di mine"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "Durata di Campo minato"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "Stordimento"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "Raggio del danno"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "Durata"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "Proiettili"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "Recupero"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "Schieramento"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "Durata"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "Integrità ripristinata"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "Integrità ripristinata istantaneamente all'attivazione"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "Danni ricevuti dalle mine ridotti"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "Bonus alla velocità di recupero dell'integrità all'interno di un Cerchio di rifornimento"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "Prestazioni dell'equipaggio"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "Durata"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "Tempo di recupero"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "Raggio d'efficacia"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "Prestazioni dell'equipaggio del tuo veicolo"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "Protezione aumentata"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "Bonus alla cattura"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "Aggiornamento del Cerchio di rifornimento"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "Velocità di rifornimento delle munizioni"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "Tempo di arrivo"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "Area d'impatto"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750 m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "Durata dell'avvistamento"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "Prestazioni dell'equipaggio ridotte"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "Granate fumogene"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "Area d'impatto"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "Durata"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "Raggio visivo dei veicoli nemici ridotto"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "Riduzione del mimetismo dei veicoli nemici dietro alla vegetazione"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "Riduzione del mimetismo dei veicoli nemici in movimento"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "Durata"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "Bonus al mimetismo di un veicolo stazionario"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "Bonus passivo al raggio visivo"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "Livello Riserva"
+
+msgid "abilityInfo/properties/static"
+msgstr "Caratteristiche permanenti"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "s"
+
+msgid "advance_message_txt"
+msgstr "Avanza in Prima Linea"
+
+msgid "advance_mission_txt"
+msgstr "Avanza in Prima Linea"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "DETTAGLI DELLO SCENARIO"
+
+msgid "awards/acceptButton"
+msgstr "Affermativo!"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "RICOMPENSE RICEVUTE"
+
+msgid "awards/subTitle2"
+msgstr "RICOMPENSA RICEVUTA"
+
+msgid "awards/title"
+msgstr "PRIMA LINEA"
+
+msgid "base/contested_atk"
+msgstr "Contesa"
+
+msgid "base/contested_def"
+msgstr "Sotto attacco"
+
+msgid "battleResults/armor"
+msgstr "Uso della corazza"
+
+msgid "battleResults/assistance"
+msgstr "Assistenza"
+
+msgid "battleResults/crits"
+msgstr "Danni critici"
+
+msgid "battleResults/damage"
+msgstr "Danno"
+
+msgid "battleResults/kill"
+msgstr "Distrutti"
+
+msgid "battleResults/spotting"
+msgstr "Avvistati"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "1 Riserva personale: %(effectValue)s all'Exp dell'equipaggio per %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "1 Riserva personale: %(effectValue)s all'Exp tecnica per %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "1 Riserva personale: %(effectValue)s all'Exp di combattimento per %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Attaccare obiettivo %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Difendere obiettivo %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Attenzione a questa posizione!"
+
+msgid "command_shortcut/title"
+msgstr "Comandi"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "Fronte bloccato: limite di giocatori raggiunto"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "Area pericolosa"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "Fronte bloccato: limite di veicoli per tipo raggiunto"
+
+msgid "dialogs/quotedName"
+msgstr "\"%(name)s\""
+
+msgid "dialogs/title/buy/item"
+msgstr "Acquistare la %(type)s %(name)s?"
+
+msgid "dialogs/title/buy/items"
+msgstr "Acquistare %(type)s?"
+
+msgid "dialogs/title/install/item"
+msgstr "Attivare la %(type)s %(name)s?"
+
+msgid "dialogs/title/install/items"
+msgstr "Attivare %(type)s?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "Accumula il numero di punti richiesto e attiva le Riserve di combattimento di Prima Linea."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "Accumula il numero di punti richiesto e attiva le Riserve di combattimento di Prima Linea."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "Punti Riserve di combattimento"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "I veicoli di %(level)s saranno sbloccati per la battaglia dopo aver catturato/perso qualsiasi punto della seconda linea (D, E o F)."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "livello %(lvl)s"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "Seleziona un veicolo di livello VIII per la modalità Prima Linea."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "Veicolo non compatibile"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "Acquisisci"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "Massimo"
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "Riserve di combattimento"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "Livello del comandante"
+
+msgid "epictraining/info/otherLabel"
+msgstr "Giocatori non distribuiti: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "Attaccanti ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "Difensori ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "Tutti i veicoli nemici sono stati distrutti"
+
+msgid "game/all_hqs_destroyed"
+msgstr "Tutti gli obiettivi sono stati distrutti"
+
+msgid "game/all_tanks_defeated"
+msgstr "Tutti i veicoli alleati sono stati distrutti"
+
+msgid "game/defeat"
+msgstr "Sconfitta!"
+
+msgid "game/draw"
+msgstr "Stallo!"
+
+msgid "game/time_over"
+msgstr "Gli obiettivi sono sopravvissuti"
+
+msgid "game/victory"
+msgstr "Vittoria!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "Distruggi gli obiettivi!"
+
+msgid "global_msg/atk/time_short"
+msgstr "Cattura una zona!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "Difendi gli obiettivi!"
+
+msgid "global_msg/def/time_short"
+msgstr "Difendi le zone!"
+
+msgid "global_msg/lane/center_short"
+msgstr "Rinforza %(strArg1)s!"
+
+msgid "global_msg/lane/east_short"
+msgstr "Rinforza %(strArg1)s!"
+
+msgid "global_msg/lane/west_short"
+msgstr "Rinforza %(strArg1)s!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "Salva i carri!"
+
+msgid "help_window/communication"
+msgstr "Area di comunicazione"
+
+msgid "help_window/communication/description"
+msgstr "Puoi ricevere ordini solo da alleati situati nell'area da te visibile sulla minimappa o quando il bersaglio dell'ordine è in quell'area."
+
+msgid "help_window/overview_map"
+msgstr "Mappa panoramica"
+
+msgid "help_window/overview_map/description"
+msgstr "La mappa panoramica viene usata per disporre di una vista strategica e tattica dell'intero campo di battaglia. Quando la mappa panoramica viene aperta puoi ricevere comunicazioni e inviare messaggi all'intera squadra."
+
+msgid "help_window/recovery"
+msgstr "Recupero"
+
+msgid "help_window/recovery/description"
+msgstr "La meccanica del recupero è stata introdotta per autodistruggere un veicolo bloccato nel terreno. Ciò è stato necessario perché l'aumento della durata delle battaglie e la possibilità di schierarsi nuovamente sul campo richiedono un gioco attivo e costante da parte di ogni giocatore in battaglia."
+
+msgid "help_window/reserves"
+msgstr "Veicoli di riserva"
+
+msgid "help_window/reserves/description"
+msgstr "Verrà aggiunto un nuovo veicolo alla tua riserva a intervalli di qualche minuto. La riserva può contenere al massimo due veicoli. Se non ci sono veicoli disponibili, non sarà possibile schierarne altri, e sarà necessario attendere la successiva consegna alla riserva."
+
+msgid "hq/under_attack_atk"
+msgstr "Sotto attacco"
+
+msgid "hq/under_attack_def"
+msgstr "Sotto attacco"
+
+msgid "in_game_rank/experience_text"
+msgstr "Exp"
+
+msgid "lane_central_name"
+msgstr "Centro"
+
+msgid "lane_east_name"
+msgstr "Est"
+
+msgid "lane_west_name"
+msgstr "Ovest"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "Livello %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "Acquisto non disponibile: non hai Punti Riserve di combattimento."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "La Riserva di combattimento ha raggiunto il livello massimo."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "Potenziamento non disponibile: non hai Punti Riserve di combattimento."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "Riserva di combattimento non acquistata"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "Il livello delle Riserve di combattimento aumenta raggiungendo i ranghi Capitano e Maggiore in battaglia. Il livello massimo è determinato dallo scenario di battaglia."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "Prezzo d'acquisto: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "Obiettivo principale"
+
+msgid "mission/title"
+msgstr "Missione"
+
+msgid "mission/zone_closing_atk"
+msgstr "La zona si apre tra: "
+
+msgid "mission/zone_closing_def"
+msgstr "Bombardamento nemico tra: "
+
+msgid "missions/primary/atk/base"
+msgstr "Cattura la zona"
+
+msgid "missions/primary/atk/hq"
+msgstr "Distruggi l'obiettivo"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s di %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "Obiettivi distrutti:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "Cattura le zone per raggiungere gli obiettivi principali. Distruggi gli obiettivi principali."
+
+msgid "missions/primary/def/base"
+msgstr "Difendi la zona"
+
+msgid "missions/primary/def/hq"
+msgstr "Difendi l'obiettivo"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s di %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "Obiettivi persi:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "Difendi gli obiettivi principali fino allo scadere del tempo o distruggi tutti gli attaccanti."
+
+msgid "missions/unlockTankLevel"
+msgstr "Veicoli di livello IX disponibili"
+
+msgid "overtime/label"
+msgstr "TEMPO SUPPLEMENTARE"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "Impossibile attivare due Riserve identiche"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "Impossibile disporre un campo minato. I campi minati si intersecano."
+
+msgid "primeTime/applyBtn"
+msgstr "Procedi"
+
+msgid "primeTime/cancelBtn"
+msgstr "Annulla"
+
+msgid "primeTime/continueBtn"
+msgstr "Continua"
+
+msgid "primeTime/endOfCycle"
+msgstr "La modalità sul server %(server)s è terminata."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "Server disponibili:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "Server disponibile: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "Le battaglie su %(server)s saranno disponibili ancora per %(time)s"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "Prossime battaglie su %(server)s tra %(time)s"
+
+msgid "primeTime/serverTooltip"
+msgstr "Server %(server)s\nLe battaglie saranno disponibili ancora per %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Le battaglie saranno disponibili tra %(time)s"
+
+msgid "primeTime/servers"
+msgstr "Server disponibili: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Le battaglie sul server %(server)s sono terminate"
+
+msgid "primeTime/status/disable"
+msgstr "Puoi passare a un server di Prima Linea per continuare la preparazione pre-battaglia."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "Questa modalità non è disponibile sul server %(server)s"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "La Tregua è in vigore sul server %(server)s fino a %(startTime)s"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "La Tregua è in vigore su tutti i server"
+
+msgid "primeTime/status/thisEnable"
+msgstr "Sul server %(server)s, Prima Linea è disponibile ancora per %(time)s."
+
+msgid "primeTime/steelhunter/title"
+msgstr "CACCIATORE D'ACCIAIO"
+
+msgid "primeTime/title"
+msgstr "PRIMA LINEA"
+
+msgid "primeTime/titleWelcome"
+msgstr "BENVENUTO\nIN PRIMA LINEA"
+
+msgid "progress_timers/active"
+msgstr "Attivo"
+
+msgid "progress_timers/fully_equipped"
+msgstr "Completamente equipaggiato"
+
+msgid "progress_timers/resupply"
+msgstr "Cerchio di rifornimento"
+
+msgid "progress_timers/unavailable"
+msgstr "Non disponibile"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "Missioni di Prima Linea"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "meno di 1 g."
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "raggiungi il livello %(level)s"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "Nuove missioni saranno disponibili tra %(time)s"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "Missioni Cacciatore d'acciaio"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "Prima Linea termina tra: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "Non disponibile: %(reason)s."
+
+msgid "rank/allReserveUpgraded"
+msgstr "Tutti i livelli della Riserva di combattimento sono aumentati"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "Bonus di squadra alle prestazioni dell'equipaggio aumentato del +%(percent)s%%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "Le prestazioni massime dell'equipaggio sono raggiunte a +%(percent)s%%"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "Bonus di squadra alle prestazioni dell'equipaggio +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "Giocatore"
+
+msgid "rank/promotion"
+msgstr "promosso a %(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "Soldato"
+
+msgid "rank/rank2"
+msgstr "Sergente"
+
+msgid "rank/rank3"
+msgstr "Tenente"
+
+msgid "rank/rank4"
+msgstr "Capitano"
+
+msgid "rank/rank5"
+msgstr "Maggiore"
+
+msgid "rank/rank6"
+msgstr "Generale"
+
+msgid "rank/recerveUnlocked"
+msgstr "Riserva di combattimento %(reserveName)s sbloccata"
+
+msgid "rank/reserveUpgraded"
+msgstr "Riserva di combattimento %(reserveName)s migliorata"
+
+msgid "rank/slotUnlocked"
+msgstr "%(slotNumber)s Riserva di combattimento sbloccata"
+
+msgid "rank/slot_2"
+msgstr "2ª"
+
+msgid "rank/slot_3"
+msgstr "3ª"
+
+msgid "recovery/Blocked"
+msgstr "Temporaneamente\nbloccato"
+
+msgid "recovery/disabled"
+msgstr "Recupero non disponibile"
+
+msgid "recovery_panel/base_text"
+msgstr "Premi J\nper il recupero"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "Muoviti o spara per annullare."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "Recupero\nannullato"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "Recupero\nrichiesto"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "Cattura la prossima base"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "Rinforzi tra "
+
+msgid "reinforcement/unavailable"
+msgstr "Rinforzi non disponibili"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s s allo schieramento automatico."
+
+msgid "respawn/deploy_button"
+msgstr "Battaglia!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "I consumabili migliorati non possono essere acquistati in battaglia."
+
+msgid "respawn/shop_title"
+msgstr "Manutenzione"
+
+msgid "respawn/tanks_left"
+msgstr "veicoli rimanenti"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "Scegli un veicolo e un'area di schieramento"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "Schierarsi in quest'area è pericoloso."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s secondi"
+
+msgid "retreat_message_txt"
+msgstr "Ritirata"
+
+msgid "retreat_mission_txt"
+msgstr "Ritirati alla prossima zona"
+
+msgid "rewardSelection/subTitle"
+msgstr "SELEZIONA LA TUA RICOMPENSA"
+
+msgid "rewardSelection/title"
+msgstr "PRIMA LINEA"
+
+msgid "scorePanel/stage1"
+msgstr "Fase 1"
+
+msgid "scorePanel/stage2"
+msgstr "Fase 2"
+
+msgid "scorePanel/stage3"
+msgstr "Fase 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "Le prestazioni del tuo computer non sono sufficienti per questa modalità. Potresti riscontrare problemi con la grafica e i movimenti del veicolo. Sono possibili anche crash del client."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "Basse prestazioni"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "In caso di prestazioni insufficienti, prova ad abbassare la qualità della grafica nelle impostazioni."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "Questa modalità richiede computer con prestazioni elevate"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "Questa modalità richiede prestazioni del computer elevate. Potresti riscontrare problemi con caricamento delle mappe, grafica e movimento dei veicoli. In caso di prestazioni insufficienti, prova a ridurre la qualità grafica dalle tue Impostazioni."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "Basse prestazioni"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "Battaglie 30 contro 30 con %(bodyVehicleLevel)s. Sfrutta le meccaniche di rischieramento, le Riserve di combattimento e i Cerchi di rifornimento."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "veicoli di livello %(level)s"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "Battaglie 30 contro 30 con %(bodyVehicleLevel)s. Sfrutta le meccaniche di rischieramento, le Riserve di combattimento e le riparazioni in battaglia."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "Questa modalità è momentaneamente indisponibile per motivi tecnici."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "Prima Linea"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "Le battaglie inizieranno tra: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "Le battaglie termineranno tra: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "Programma delle battaglie"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "Oggi"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "Domani"
+
+msgid "skill/category/firesupport"
+msgstr "Riserve Attacco"
+
+msgid "skill/category/reconnaissance"
+msgstr "Riserve Ricognizione"
+
+msgid "skill/category/tactics"
+msgstr "Riserve tattiche"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "Visuale in modalità spettatore"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "Ruota la visuale con il mouse."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "Usa W, A, S e D per spostare la visuale sulla mappa."
+
+msgid "spectator_mode/follow_text"
+msgstr "Clicca con il tasto sinistro per iniziare a seguire."
+
+msgid "spectator_mode/follow_title"
+msgstr "Segui"
+
+msgid "spectator_mode/msg_text"
+msgstr "Il veicolo arriva tra:"
+
+msgid "spectator_mode/msg_title"
+msgstr "Tutti i veicoli sono stati distrutti!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "Clicca nuovamente per smettere di seguire."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "Smetti di seguire"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s g"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "Interrotta"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Abbandona la zona!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Ripristino integrità"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Ripristino integrità"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Ispirazione"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "Ispirazione"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Cerchio di rifornimento"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Dentro il fumo: nascosto."
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "All'interno del fumo. Raggio visivo e prestazioni dell'equipaggio ridotti."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "Tempo di recupero. Raggio visivo e prestazioni dell'equipaggio ridotti."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "Sentinella attivata"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "Si attiva %(activationDelay)s s dopo l'arresto del veicolo"
+
+msgid "super_platoon_panel/title"
+msgstr "Plotone"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "—bonus totale di squadra alle prestazioni dell'equipaggio per la presenza di un Generale."
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "Tutti i fronti"
+
+msgid "tab_screen/show_my_lane"
+msgstr "Il mio fronte"
+
+msgid "team1Name"
+msgstr "Attaccanti"
+
+msgid "team2Name"
+msgstr "Difensori"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "Seleziona le ricompense per i livelli di Prima Linea completati (%(number)s)."
+
+msgid "tooltips/common/disabled"
+msgstr "Modalità indisponibile"
+
+msgid "tooltips/common/title"
+msgstr "Prima Linea"
+
+msgid "tooltips/end"
+msgstr "L'evento è terminato"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "l'ordine di sblocco delle Riserve di combattimento dipende dal tipo di veicolo. Una Riserva di combattimento è disponibile dall'inizio, mentre le altre si sbloccano rispettivamente raggiungendo i ranghi di Sergente e Tenente."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "Sblocco: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "Nello scenario <font color='#E9E2BF'>Scherzo del destino</font>, acquistando una Riserva di combattimento se ne aumenta il livello di uno e si accede alla possibilità di aumentarne ulteriormente il livello fino a <font color='#E9E2BF'>IV</font>."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "Una Riserva di combattimento posizionata in questo spazio ha una probabilità aumentata del <font color='#E9E2BF'>10%</font> che venga offerta nello scenario <font color='#E9E2BF'>Scherzo del destino</font>."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "Sbloccare e migliorare le Riserve in battaglia"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "Le Riserve di combattimento si sbloccano e migliorano in battaglia, in base al tipo di veicolo e al rango raggiunto."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "Configurazione delle Riserve per i cacciacarri"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "Configurazione delle Riserve per le A-SMV"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "Configurazione delle Riserve per i carri pesanti"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "Configurazione delle Riserve per i carri leggeri"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "Configurazione delle Riserve per i carri medi"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "dopo aver sbloccato tutte le Riserve di combattimento, raggiungendo nuovi ranghi queste vengono migliorate. La Riserva di combattimento sbloccata inizialmente può essere migliorata fino al livello III, mentre la seconda Riserva sbloccata può essere migliorata fino al livello II."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "Sblocco: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "Lo spazio verrà sbloccato raggiungendo il rango %(rank)s."
+
+msgid "tooltips/timeToEnd"
+msgstr "Modalità disponibile: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "Le battaglie inizieranno tra: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "L'evento è terminato"
+
+msgid "tooltips/widget/level"
+msgstr "Livello %(level)s"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "Livello massimo raggiunto."
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "RISERVE DI COMBATTIMENTO"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "La Tregua è in vigore su tutti i server. Le battaglie saranno disponibili tra %(time)s"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "Le battaglie sono in corso"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Seleziona un altro server"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "Dettagli"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "La modalità Prima Linea è terminata."
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "Scenari di Prima Linea"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "La Tregua è in vigore su questo server. Le battaglie saranno disponibili tra %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "La Tregua è in vigore sul server %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "Le battaglie inizieranno tra: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "Clicca per scoprire di più sugli scenari\ndi Prima Linea e sulle loro differenze."
+
+msgid "zone/arrived_text"
+msgstr "Arrivato!"
+
+msgid "zone/capture_text"
+msgstr "Cattura"
+
+msgid "zone/captured_text"
+msgstr "Catturata"
+
+msgid "zone/defend_text"
+msgstr "Difendi"
+
+msgid "zone/destroy_text"
+msgstr "Distruggi"
+
+msgid "zone/destroyed_text"
+msgstr "Distrutti"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "Rinforzi nemici"
+
+msgid "zone/headquarters_text"
+msgstr "Obiettivi"
+
+msgid "zone/leave_zone"
+msgstr "Lascia la zona!"
+
+msgid "zone/lost_text"
+msgstr "Persa"
+
+msgid "zone/reached_text"
+msgstr "Raggiunta"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "Rinforzi nemici:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "Rinforzi:"
+
+msgid "zone/reinforcements_text"
+msgstr "Rinforzi"
+
+msgid "zone/time_added"
+msgstr "Minuti aggiunti: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "%(minutes)s minuti rimanenti"
+
+msgid "zone/zone_text"
+msgstr "Zona"

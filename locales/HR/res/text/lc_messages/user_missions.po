@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "Etapa {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Posebno poglavlje"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Završeno"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Pogledajte novi Napredak"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Odaberi Poglavlje"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Privremeno nedostupno"
+
+msgid "battle_pass_widget/title"
+msgstr "Borbena propusnica"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Kušnja: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} d"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} d {{hours}} h"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} h"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} h {{minutes}} m"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} m"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Bonus zadatak\nIzvrši 3 standardna zadatka za otključavanje"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Preostalo vrijeme za izvršenje bonus zadatka"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Novi dnevni zadatak za"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "To je trenutno sve. Novi dnevni zadatak će uskoro biti dostupan."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Izvršite prethodni zadatak za otključavanje ovog zadatka"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Premium zadaci su privremeno nedostupni"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Kupi premium račun"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Zahtjeva WoT premium račun"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Premium zadaci"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Dnevni zadaci su privremeno nedostupni"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Ponavljanje"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "DNEVNI"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Na kampanje"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Poboljšaj rezultat"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "Na operaciju"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Pravi izazov za iskusne igrače s jedinstvenim vozilima kao nagradom."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Završili ste operaciju {{currentOperationName}}! Možete nastaviti poboljšavati rezultat za završenje s počastima ili prihvatiti novi izazov u operaciju {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Još možete poboljšati rezultat u {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Završili ste operaciju {{currentOperationName}} s počastima! Sada je dostupna operacija {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Bodovi kampanje se mogu zaraditi izvršavanjem osobnih zadataka, dnevnih zadataka i tjednih zadataka."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Izvršite svih {{totalProgress}} zadataka za završetak operacije s počastima i osvojite dodatne nagrade."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Montiraj sve dijelove za primitak nagrade {{vehicleName}}. Za skupljanje dijelova vozila osvojite bodove kampanje izvršavanjem osobnih zadataka kao i dnevnih i tjednih zadataka."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Montiraj sve dijelove za primitak nagrade {{vehicleName}}. Za skupljanje dijelova vozila osvojite bodove kampanje izvršavanjem osobnih zadataka kao i dnevnih i tjednih zadataka."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Zadatak izvršen: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "Dostupna je nova kampanja Sektor 3!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Operacija: {{nextOperationName}} dostupna!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Operacija: {{currentOperationName}} završena s počastima!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Operacija: {{nextOperationName}} dostupna!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Operacija: {{currentOperationName}} | Etapa {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Završetak operacije {{currentOperationName}} s počastima"
+
+msgid "hub/basic_missions/title"
+msgstr "REDOVNI ZADACI"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "TJEDNI"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Ažurira se svaki {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Aktivni zadatak"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "ILI"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Novi zadaci dolaze uskoro..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "BORAC"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "AS"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ELITA"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Tri su kategorije zadataka: Borac, Elita i As. Svaka kategorija donosi jedinstvene izazove i vrijedne nagrade."
+
+msgid "hub/challenge_missions/header"
+msgstr "KUŠNJA"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Aktiviraj"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Ponovo pokreni besplatno"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Ponovno pokreni"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Napusti"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Na zadatke"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) Zadaci Kušnje izvršeni"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "preostalo štitova"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "bespatna ponovna pokretanja"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Izvrši aktivne zadatke Kušnje"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Završit će za %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Nedostupno: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Potrebna su vozila razine VI ili viša"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "AKTIVAN"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Izvršeno"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} zadataka"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Zadatak izazova"
+
+msgid "hub/challenge_missions/new"
+msgstr "NOVO"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Na Kušnju"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Na Kušnju"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "KUŠNJA: {{ challengeName }} IZVRŠEN!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Na Kušnju"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Kušnja: {{ challenge }} nije izvršen. Pokrenite ga ponovo i pokušajte opet osvojiti nagrade!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Na Kušnju"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "ZADATAK {{ mission }} IZVRŠEN"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Na Kušnju"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Zadatak {{ mission }} nije uspio"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "PREOSTALO ŠTITOVA"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Na Kušnju"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Uđite u Kušnju i uhvatite se u koštac sa skupom zahtjevnih zadataka s vrijednim nagradama za one koji ih pokore."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "DOSTUPNI SU NOVI ZADACI KUŠNJE!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Iskujte svoj put u Kušnji: uhvatite se u koštac sa skupom zahtjevnih zadataka s vrijednim nagradama za one koji ih pokore."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "UĐITE U KUŠNJU"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Izvršeno"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "Komplet 3D privitaka"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Poboljšana oprema"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "2D stil"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Član posade"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Vozilo"
+
+msgid "hub/challenge_missions/title"
+msgstr "ZADACI KUŠNJE"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "O Kušnji"
+
+msgid "hub/common_missions/title"
+msgstr "DODATNI ZADACI"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Zatraži nagrade"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "Epske nagrade su privremeno nedostupne"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Svaki izvršeni standardni, premium ili bonus zadatak pridonosi vašem napretku."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Dostupno"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Izvršite dnevne zadatke za osvajanje epskih nagrada"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Zatraži nagradu"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Zatraži nagrade"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Svaki izvršeni standardni, premium ili bonus zadatak pridonosi vašem napretku."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Dostupno"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Nazad u akciju! Izvrši dnevne zadatke za epske nagrade: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Nakon izvršenja tri standardna zadatka postaje dostupan dodatni zadatak koji nudi još vrijednije nagrade. Dodatni zadatak se mora izvršiti do kraja dana ili će isteći."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Dodatni zadatak"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Neki zadaci se moraju izvršiti u jednoj bitci dok su drugi kumulativni i mogu se izvršiti u bilo kojem broju bitaka. Kumulativni zadaci imaju traku napretka. Možete izvršiti zadatke u slučajnim bitkama."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Uvjeti"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Možete ponovno zavrtiti neželjeni standardni zadatak kako bi primili nasumični novi. Nakon toga će gumb za ponovnu vrtnju zadatka biti nedostupan {{time}}. Ponovna vrtnja zadatka može uzrokovati gubitak napretka ako je jedno ili više vaših vozila u bitci."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Ponavljanje zadatka"
+
+msgid "info_page/additional/reward/description"
+msgstr "Epska nagrada je maratonski ciklus gdje se svaki izvršeni standarni, premium i bonus zadatak računa ka njegovom napretku. Kada je ciklus završen, poništava se i kreće ispočetka. Ciklus Epske nagrade nema vremensko ograničenje i može se završavati u bilo koje doba."
+
+msgid "info_page/additional/reward/title"
+msgstr "Epska nagrada"
+
+msgid "info_page/header"
+msgstr "O ZADACIMA"
+
+msgid "info_page/main/premium/description"
+msgstr "S WoT premium računom dobijate pristup trima uzastopnima premium zadacima. Oni se mogu izvršiti u nasumičnim bitkama i u Navali, a napredak se ažurira nakon svake bitke. Tijekom akcija u igri premium zadaci mogu podariti nagrade specifične za tu akciju."
+
+msgid "info_page/main/premium/title"
+msgstr "Premium zadaci"
+
+msgid "info_page/main/standard/description"
+msgstr "Standardni zadaci su nasumični dnevni uvjeti čiji se napredak ažurira nakon svake bitke. Preporučujemo da ih izvršite na dan kada ih dobijete jer se neizvršeni zadaci prenose u slijedeći dan i blokiraju nove. Standardni zadaci daju bodove Borbene propusnice tijekom Borbene propusnice i nagrade specifične za akcije tijekom ostalih akcija u igri."
+
+msgid "info_page/main/standard/title"
+msgstr "Standardni zadaci"
+
+msgid "info_page/main/weekly/description"
+msgstr "Tjedni zadaci su skup zadaća dostupnih svaki tjedan. Napredak se ažurira nakon svake bitke, a izvršeni zadaci se nadomještaju s novima kada počinje slijedeći tjedni ciklus. Možete izvršavati tjedne zadatke u slučajnim bitkama i režimu Navale kako bi dobili dodatne bonuse."
+
+msgid "info_page/main/weekly/title"
+msgstr "Tjedni zadaci"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Svi redovni zadaci za danas izvršeni"
+
+msgid "quests/daily_quests/completed"
+msgstr "Svi dnevni zadaci izvršeni"
+
+msgid "tooltip/common/timer"
+msgstr "Dostupno za {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Svi redovni zadaci izvršeni! Možete pronaći više na kartici Dodatni zadaci."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Dodatni zadatak"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Završeno"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Dnevni zadatak"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Istječe za {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Novi dnevni zadaci za {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Premium zadatak"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Nagrade:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Možete ponovno zavrtiti neželjeni zadatak \nza novi svakih {time} sati."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Ponavljanje zadatka"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Zadatak izvršen, nagrada primljena."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Izvršite prethodni zadatak za otključavanje ovoga. Svi zadaci u seriji moraju biti izvršeni uzastopno."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Kliknite za dodatne informacije"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "O zadacima"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Ovaj niz zadataka se može opet igrati nakon izvršenja. Vaš napredak će se poništiti, štitovi će biti povraćeni i moći ćete ponovo osvajati nagrade."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Ponovni zadaci"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Možete ponovno pokrenuti niz zadataka nakon što izgubite sve štitove. Vaš napredak će se poništiti, štitovi će biti povraćeni i moći ćete ponovo osvajati nagrade."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Trošak naknadnih ponovnih pokretanja: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Dostupno besplatnih ponovnih pokretanja: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Troškovi svakog ponovnog pokretanja: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Ponovna pokretanja"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Štitovi čuvaju vaš napredak. Svaki neuspjeli zadatak košta jedan štit i kada su svi štitovi izgubljeni, niz zadataka nije uspio. Ako ga ponovno pokrenete, vaši štitovi će biti obnovljeni."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Štitovi"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Ograničenja vozila:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Tjedni zadatak"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Možete ponoviti ovaj tjedni zadatak svaka {{time}}."
+
+msgid "welcome/button"
+msgstr "Razumijem!"

@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "Syötä siirtoa varten valitun miehistön jäsenen kokemusmäärä vahvistaaksesi."
+
+msgid "assignmentDialog/price"
+msgstr "Hinta:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Siirrä kaikki miehistökokemus miehistön jäsenten välillä"
+
+msgid "assignmentDialog/title"
+msgstr "Vahvista perehdytyskurssi"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Tämä miehistön jäsen poistetaan\ntililtäsi ilman mahdollisuutta palauttaa sitä."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} lisäkokemusta menetetään."
+
+msgid "dialogue/description"
+msgstr "Kulutustarvike, joka mahdollistaa kaiken miehistökokemuksen siirtämisen kahden saman kansakunnan miehistön jäsenen välillä."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}Lisäkokemus menetetään:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "VALITSE"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Kokemus yhteensä: %(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Opetuslup(i)a:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Ei soveltuvia miehistön jäseniä"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Valitse miehistön jäsen, joka siirtää kokemuksensa\ntoiselle miehistön jäsenelle {cream_Open}%(name)s{cream_Close} ja poistetaan tililtäsi."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "Miehistökokemuksen siirron jälkeen {cream_Open}%(name)s{cream_Close} saavuttaa pätevyysrajan ja kaikki yli rajan menevät kokemus menetetään."
+
+msgid "mentorAssigment/title"
+msgstr "VALITSE PEREHDYTTÄJÄ"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close} on saavuttanut pätevyysrajan, eikä voida valita kokemuksen siirtoon."
+
+msgid "multipleUserName"
+msgstr "Opetusluvat"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Opetuslup(i)a käytetty: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "Miehistökokemusta siirretty: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "Perehdytyskurssi"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>Ylimääräistä miehistökokemusta menetetty: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Mahdollistaa miehistökokemuksen siirtämisen\nkahden saman kansakunnan miehistön jäsenen välillä."
+
+msgid "storage/userName"
+msgstr "Opetuslupa"
+
+msgid "userName"
+msgstr "Opetuslupa"

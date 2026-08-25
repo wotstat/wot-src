@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sΠροβολή%(linkEndTag)s στατιστικών του παίκτη"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sΑίτηση στο Clan%(titleEndTag)s\nαπό τον %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Προβολή Αιτήσεων"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sΑπενεργοποίηση%(linkEndTag)s ειδοποιήσεων"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sΑιτήσεις από Παίκτες: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sΠροβολή%(linkEndTag)s στατιστικών του clan"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sΠρόσκληση στο Clan%(titleEndTag)s\nτου %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Προβολή Προσκλήσεων"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sΠροσκλήσεις στο Clan: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "Ο παίκτης έγινε δεκτός στο clan."
+
+msgid "clans/state/app/declined"
+msgstr "Η αίτηση απερρίφθη."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "Η ποινή για 1 ημέρα εξαιτίας της αποχώρησης από το προηγούμενο clan δεν έχει λήξει ακόμα."
+
+msgid "clans/state/invite/accepted"
+msgstr "Γίνατε δεκτός από το clan."
+
+msgid "clans/state/invite/declined"
+msgstr "Η πρόσκληση απερρίφθη."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Η ποινή για 1 ημέρα εξαιτίας της αποχώρησης από το προηγούμενο clan δεν έχει λήξει ακόμα."
+
+msgid "errors/creationNotAllowed"
+msgstr "Δεν έχει δοθεί δικαίωμα για δημιουργία πρόσκλησης."
+
+msgid "errors/invalid"
+msgstr "Μη έγκυρη πρόσκληση."
+
+msgid "errors/inviteNotSupported"
+msgstr "Αυτός ο τύπος πρόσκλησης δεν είναι διαθέσιμος αυτή τη στιγμή. Προσπαθήστε αργότερα."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "Ο παραλήπτης της πρόσκλησης σας πρόσθεσε στη Μαύρη Λίστα του."
+
+msgid "errors/selfinvite"
+msgstr "Δεν μπορείτε να προσκαλέσετε τον εαυτό σας."
+
+msgid "errors/unknownuser"
+msgstr "Αυτός ο χρήστης δεν έχει καταχωρηθεί στο σύστημα ακόμα."
+
+msgid "errors/useroffline"
+msgstr "Ο χρήστης είναι εκτός σύνδεσης."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "Το όχημα στο Γκαράζ δεν έχει επισκευαστεί ή είναι κλειδωμένο. Επιλέξτε ένα άλλο όχημα."
+
+msgid "friendship/note/approved"
+msgstr "Ο παίκτης προστέθηκε στις Επαφές"
+
+msgid "friendship/note/canceled"
+msgstr "Η πρόσκληση απορρίφθηκε"
+
+msgid "friendship/note/maxRoster"
+msgstr "Μέγιστος αριθμός επιτρεπόμενων επαφών: %(rosterMaxCount)s. Για να προσθέσετε αυτόν τον παίκτη στις Επαφές, θα πρέπει να αφαιρέστε κάποιον από τη λίστα."
+
+msgid "friendship/note/notConnected"
+msgstr "Αδύνατη η σύνδεση με τον server. Παρακαλούμε περιμένετε."
+
+msgid "friendship/note/process"
+msgstr "Αναμονή για απόκριση του server"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sΠρόσκληση Επαφής%(titleEndTag)s\nαπό %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Αποδοχή"
+
+msgid "gui/buttons/cancel"
+msgstr "Άκυρο"
+
+msgid "gui/buttons/reject"
+msgstr "Ακύρωση"
+
+msgid "gui/buttons/send"
+msgstr "Αποστολή"
+
+msgid "gui/labels/additionalText"
+msgstr "Πρόσθετο κείμενο πρόσκλησης:"
+
+msgid "gui/labels/inviteText"
+msgstr "Κείμενο πρόσκλησης:"
+
+msgid "gui/labels/receiver"
+msgstr "Παραλήπτης:"
+
+msgid "gui/titles/barter"
+msgstr "Πρόσκληση για Συναλλαγή"
+
+msgid "gui/titles/clan"
+msgstr "Πρόσκληση σε Clan"
+
+msgid "gui/titles/invite"
+msgstr "Πρόσκληση"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Προσκλήσεις"
+
+msgid "invites/comment"
+msgstr "«%(comment)s»"
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από την επιχειρησιακή μονάδα και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από την επιχειρησιακή μονάδα και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από τη μάχη στον Παγκόσμιο Χάρτη και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από την επιχειρησιακή μονάδα και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από την επιχειρησιακή μονάδα και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από την επιχειρησιακή μονάδα και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από την ομαδική εκπαίδευση Πρώτης Γραμμής και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από την επιχειρησιακή μονάδα και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Μόλις αποδεχτείτε την πρόσκληση, θα βγείτε από τις Μάχες με Ομάδα και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από τον Ουλαμό και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από τις Μάχες στα Οχυρά και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "Με την αποδοχή της πρόσκλησης, θα αποχωρήσετε από τις Προωθήσεις και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από τον Ουλαμό Αποστολής Ανίχνευσης και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από το χώρο εκπαίδευσης και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από τις Μάχες στα Οχυρά και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από τον Ουλαμό και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "Με την αποδοχή της πρόσκλησης, θα αποχωρήσετε από το τρέχον απόσπασμα και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από το τουρνουά και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από το χώρο εκπαίδευσης και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από την ομαδική εκπαίδευση των μαχών Επέλασης και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Μόλις αποδεχτείτε την πρόσκληση, θα βγείτε από τις Μάχες με Ομάδα και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από τις μάχες του Steel Hunter και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από τις μάχες του Big Hunt και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από την Επέλαση και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από την Ελαφρά Επέλαση και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από τις μάχες Πρώτης Γραμμής και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από τις μάχες του +++Event battle+++ και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από τις μάχες της Αποστολής Ανίχνευσης και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από την Τοπογραφία και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από τις Τυχαίες Μάχες και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από τις Μάχες Κατάταξης και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από την Προθέρμανση και θα μεταφερθείτε στον server %(host)s."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από την Προθέρμανση και θα μεταφερθείτε στον server %(host)s. Δεν θα μπορείτε να την ξεκινήσετε εκ νέου."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από την επιχειρησιακή μονάδα."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από την επιχειρησιακή μονάδα."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από τη μάχη στον Παγκόσμιο Χάρτη."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από την επιχειρησιακή μονάδα."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από την επιχειρησιακή μονάδα."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από την επιχειρησιακή μονάδα."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από την ομαδική εκπαίδευση Πρώτης Γραμμής."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από την επιχειρησιακή μονάδα."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Μόλις αποδεχτείτε την πρόσκληση, θα βγείτε από τις Μάχες με Ομάδα."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από τον Ουλαμό."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από τις Μάχες στα Οχυρά."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "Με την αποδοχή της πρόσκλησης, θα αποχωρήσετε από τις Προωθήσεις."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από τον Ουλαμό Αποστολής Ανίχνευσης."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από το χώρο εκπαίδευσης."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από τις Μάχες στα Οχυρά."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από τον Ουλαμό."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "Με την αποδοχή της πρόσκλησης, θα αποχωρήσετε από το τρέχον απόσπασμα."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από το τουρνουά."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από το χώρο εκπαίδευσης."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα εξαιρεθείτε αυτόματα από την ομαδική εκπαίδευση των μαχών Επέλασης."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Μόλις αποδεχτείτε την πρόσκληση, θα βγείτε από τις Μάχες με Ομάδα."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "Μόλις αποδεχτείτε την πρόσκληση, θα βγείτε από τις μάχες του Steel Hunter."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από τις μάχες του Big Hunt."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα βγείτε από την Επέλαση."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα βγείτε από την Ελαφρά Επέλαση."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα βγείτε από τις μάχες Πρώτης Γραμμής."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από τις μάχες του +++Event battle+++."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα βγείτε από τις μάχες Αποστολής Ανίχνευσης."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα βγείτε από την Τοπογραφία."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από τις Τυχαίες Μάχες."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από τις Μάχες Κατάταξης."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από την Προθέρμανση."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, θα αποχωρήσετε από την Προθέρμανση. Δεν θα μπορείτε να την ξεκινήσετε εκ νέου."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Οι αλλαγές του server θα αποθηκευτούν."
+
+msgid "invites/note/server_change"
+msgstr "Θα μεταφερθείτε αυτόματα στον server %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Δεν ήταν δυνατό να αποδεχτείτε την πρόσκληση. Για αποδοχή της πρόσκλησης, παρακαλούμε επιλέξτε τον server %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Δεν ήταν δυνατό να αποδεχτείτε την πρόσκληση. Για αποδοχή της πρόσκλησης, παρακαλούμε επιλέξτε άλλον server."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Συμμετέχετε ήδη στον Ουλαμό."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Συμμετέχετε ήδη στη μάχη στον Παγκόσμιο Χάρτη."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Συμμετέχετε ήδη στον χώρο εκπαίδευσης."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Συμμετέχετε ήδη στον Ουλαμό."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Συμμετέχετε ήδη στον Ουλαμό."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Συμμετέχετε ήδη στο Απόσπασμα."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Συμμετέχετε ήδη στον Ουλαμό."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Συμμετέχετε ήδη στο τουρνουά."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Συμμετέχετε ήδη στον χώρο εκπαίδευσης."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Συμμετέχετε ήδη στον χώρο εκπαίδευσης."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Συμμετέχετε ήδη στην ομάδα."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Η πρόσκληση έγινε αποδεκτή."
+
+msgid "invites/state/DECLINED"
+msgstr "Η πρόσκληση δεν έγινε αποδεκτή."
+
+msgid "invites/state/ERROR"
+msgstr "Μη έγκυρη πρόσκληση."
+
+msgid "invites/state/EXPIRED"
+msgstr "Μη έγκυρη πρόσκληση."
+
+msgid "invites/state/REVOKED"
+msgstr "Η πρόσκληση αποσύρθηκε."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Πρόσκληση Ένταξης σε Ουλαμό Καταδίωξης"
+
+msgid "invites/text/COMP7"
+msgstr "Πρόσκληση για συμμετοχή σε Ουλαμό Επέλασης"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Πρόσκληση για συμμετοχή σε Ουλαμό Ελαφράς Επέλασης"
+
+msgid "invites/text/EPIC"
+msgstr "Πρόσκληση για συμμετοχή σε Ουλαμό Πρώτης Γραμμής"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Πρόσκληση Συμμετοχής σε Ομαδική Εκπαίδευση Πρώτης Γραμμής"
+
+msgid "invites/text/EVENT"
+msgstr "Πρόσκληση Ένταξης στον Ουλαμό"
+
+msgid "invites/text/FALLOUT"
+msgstr "Πρόσκληση Ένταξης σε Ουλαμό για %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Κυριαρχία"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Καταδίωξη"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Πρόσκληση σε Μάχη"
+
+msgid "invites/text/MAPBOX"
+msgstr "Πρόσκληση Ένταξης σε Ουλαμό Αποστολής Ανίχνευσης"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Πρόσκληση για Εξερεύνηση Χαρτών"
+
+msgid "invites/text/SORTIE"
+msgstr "Πρόσκληση Ένταξης στο Απόσπασμα"
+
+msgid "invites/text/SQUAD"
+msgstr "Πρόσκληση Ένταξης στον Ουλαμό"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Πρόσκληση Ένταξης στο Απόσπασμα"
+
+msgid "invites/text/TRAINING"
+msgstr "Πρόσκληση Συμμετοχής σε Ομαδική Εκπαίδευση"
+
+msgid "invites/text/UNIT"
+msgstr "Πρόσκληση Ένταξης στην Ομάδα"
+
+msgid "invites/text/creatorName"
+msgstr "από %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Φάση Άμυνας"
+
+msgid "invites/text/fort/direction"
+msgstr "Προγεφύρωμα"
+
+msgid "invites/text/fort/offence"
+msgstr "Επίθεση στους"
+
+msgid "invites/warning/anonymized"
+msgstr "Μόλις αποδεχθείτε την πρόσκληση, το πραγματικό σας όνομα στο παιχνίδι και η ετικέτα του clan θα εμφανίζονται στα μέλη της επιχειρησιακής μονάδας για τη διάρκεια της μάχης."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Η πρόσκληση έχει σταλεί στον %(name)s."

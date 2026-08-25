@@ -1,0 +1,152 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "collection/error/description"
+msgstr "Mes vis dar šluostome dulkes nuo jūsų kolekcijos. Tuo tarpu galite važiuoti į mūšį."
+
+msgid "collection/error/title"
+msgstr "Kolekcija restauruojama"
+
+msgid "collection/tooltip/completed"
+msgstr "\"%(name)s, %(season)s / %(year)s\" kolekcija užbaigta."
+
+msgid "collection/tooltip/progress"
+msgstr "Surinktų elementų \"%(name)s, %(season)s / %(year)s\" kolekcijoje skaičius."
+
+msgid "footer/buttonText"
+msgstr "Į kolekciją"
+
+msgid "footer/collectionCompleted"
+msgstr "Kolekcija surinkta!"
+
+msgid "footer/progressbar/activeState/receivedElements/text"
+msgstr "Surinkti elementai: %(received)s / %(total)s"
+
+msgid "footer/progressbar/tooltip/body"
+msgstr "Praplėskite savo kolekciją rinkdami atitinkamus elementus renginio metu arba po jo, jei įmanoma. Užveskite pelytės žymeklį ant kolekcijos elemento ir sužinokite, kaip jį gauti."
+
+msgid "footer/progressbar/tooltip/note"
+msgstr "Kolekcijoje gali būti elementai, kurie suteikiami už kitų kolekcijos elementų surinkimą. Jie neįtraukiami į elementų skaičiavimą ir nepadidina surinktų elementų skaičiaus, bet jie atskleidžia dalį istorijos."
+
+msgid "footer/progressbar/tooltip/title"
+msgstr "Kolekcijos elementų rinkimas"
+
+msgid "header/overhead"
+msgstr "KOLEKCIJA"
+
+msgid "header/seasonText/defaultConfig"
+msgstr "SEZONO PAVADINIMAS"
+
+msgid "header/subtitle"
+msgstr "KOLEKCIJA SURINKTA!"
+
+msgid "header/title/defaultConfig"
+msgstr "KOLEKCIJOS ŠABLONAS"
+
+msgid "intro/buttonClose/text"
+msgstr "Į kolekcijas"
+
+msgid "intro/content/description/text"
+msgstr "Kolekcijos tai yra unikalių elementų rinkiniai, kuriuos galima gauti įvairių renginių metu. Elementai gali būti stiliai, lipdukai ar kiti daiktai, kurių negalima gauti standartiniu metu."
+
+msgid "intro/header/text"
+msgstr "World of Tanks kolekcijos"
+
+msgid "main/backText"
+msgstr "Į KOLEKCIJAS"
+
+msgid "mainLayout/header/title"
+msgstr "World of Tanks kolekcijos"
+
+msgid "mainLayout/header/tooltip/body"
+msgstr "Kolekcijos tai yra unikalių elementų rinkiniai, kuriuos galima gauti įvairių renginių metu. Elementai gali būti stiliai, lipdukai ar kiti daiktai, kurių negalima gauti standartiniu metu."
+
+msgid "mainLayout/header/tooltip/header"
+msgstr "World of Tanks kolekcijos"
+
+msgid "navigation/pageCounter"
+msgstr " / %(pageCount)s"
+
+msgid "notifications/button/goToCollection"
+msgstr "Į kolekciją"
+
+msgid "notifications/button/goToCollections"
+msgstr "Į kolekcijas"
+
+msgid "notifications/button/goToReward"
+msgstr "Į apdovanojimą"
+
+msgid "notifications/eventDisabled/text"
+msgstr "Kolekcijos laikinai nepasiekiamos."
+
+msgid "notifications/eventEnabled/text"
+msgstr "Kolekcijos vėl pasiekiamos. Atsiprašome už nepatogumus."
+
+msgid "notifications/eventStart/text"
+msgstr "Vadai, mes jums kai ką paruošėme! Rinkite kolekcijos \"%(feature)s\" elementus ir gaukite unikalius prizus."
+
+msgid "notifications/eventStart/title"
+msgstr "Kolekcija \"%(feature)s\" pasiekiama!"
+
+msgid "notifications/feature/battle_pass_10"
+msgstr "KOVINIS LEIDIMAS"
+
+msgid "notifications/feature/battle_pass_11"
+msgstr "KOVINIS LEIDIMAS"
+
+msgid "notifications/feature/battle_pass_12"
+msgstr "KOVINIS LEIDIMAS"
+
+msgid "notifications/finalReceived/text"
+msgstr "Jūs surinkote visą \"%(feature)s: %(season)s\" kolekciją"
+
+msgid "notifications/newItemsReceived/text"
+msgstr "Gauti nauji kolekcijos elementai:\n\n%(items)s"
+
+msgid "notifications/newRewardsReceived/text"
+msgstr "Gauti apdovanojimai už surinktus kolekcijos elementus:\n\n%(items)s"
+
+msgid "notifications/renew/text"
+msgstr "Pasiekiamos kolekcijos"
+
+msgid "notifications/renew/title"
+msgstr "%(feature)s, %(season)s"
+
+msgid "notifications/season/battle_pass_10"
+msgstr "X SEZONAS"
+
+msgid "notifications/season/battle_pass_11"
+msgstr "IX SEZONAS"
+
+msgid "notifications/season/battle_pass_12"
+msgstr "XII SEZONAS"
+
+msgid "notifications/title/collectionName"
+msgstr "Kolekcija \"%(feature)s: %(season)s\""
+
+msgid "notifications/title/congratulation"
+msgstr "Sveikiname!"
+
+msgid "notifications/updatedEntry/text"
+msgstr "World of Tanks kolekcijos"
+
+msgid "notifications/updatedEntry/title"
+msgstr "Atnaujinami Pasiekimai"
+
+msgid "overlays/preview/previewButton/text"
+msgstr "Peržiūra"
+
+msgid "overlays/preview/style/title/text"
+msgstr "%(styleName)s skirtas %(vehicleInfo)"
+
+msgid "tooltips/item/achievement"
+msgstr "%(name)s medalis"
+
+msgid "tooltips/receivedStatus"
+msgstr "Gauta"
+
+msgid "tooltips/title"
+msgstr "Kolekcijos elementas"
+
+msgid "tooltips/unreceivedStatus"
+msgstr "Negautas"

@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "Nazwa"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "Na miesiąc"
+
+msgid "ClanListWindow/table/role"
+msgstr "Miejsce"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "Na tydzień"
+
+msgid "battleQueue/clanPosition"
+msgstr "Miejsce: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "Miejsce:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "Szukanie przeciwnika:"
+
+msgid "battleQueue/waitBattle"
+msgstr "Czekanie na bitwę:"
+
+msgid "battleQueue/yourTeam"
+msgstr "Twój oddział:"
+
+msgid "disconnected/Warning"
+msgstr "Uwaga!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "Twierdza jest tymczasowo niedostępna. Spróbuj ponownie później."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "Twierdza nie jest dostępna w innym regionie. Aby uzyskać dostęp do Twierdzy, przenieś się do swojego regionu."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "Członkowie klanu"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "Najemnicy"
+
+msgid "fortVehPopover/btnSave"
+msgstr "Zapisz wybór (%(count)d)"
+
+msgid "inspire/inspired"
+msgstr "Inspirujący"
+
+msgid "inspire/inspiring"
+msgstr "Inspirujący"
+
+msgid "mainWindow/maintenance/body"
+msgstr "Przepraszamy za niedogodności."
+
+msgid "mainWindow/maintenance/button"
+msgstr "Odśwież"
+
+msgid "mainWindow/maintenance/header"
+msgstr "Błąd wczytywania danych"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "Dodatkowa odprawa"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "Zapłaty za bitwę"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "Manewry wojskowe"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "Szkolenie taktyczne"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "Dodatkowy efekt"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "Rozkazuje artylerii pokrycie ogniem wybranego obszaru w potyczkach i natarciach na jedną bitwę"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "Zapewnia premię Inspiracji do głównych kwalifikacji i wszystkich atutów całej załogi Twojego pojazdu i załóg pobliskich sojuszniczych pojazdów w potyczkach i natarciach na czas jednej bitwy"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "Rezerwę można włączyć przed bitwą"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "Rezerwę można włączyć przed natarciem"
+
+msgid "reserves/tooltip/empty"
+msgstr "Nie masz rezerw do włączenia"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s w magazynie"
+
+msgid "reserves/tooltip/level"
+msgstr "%(level)s poziom"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "Efekt po użyciu"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "Można włączyć"
+
+msgid "reserves/tooltip/selected"
+msgstr "Włączona"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "Kliknij, aby zobaczyć listę rezerw, które możesz włączyć."
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "Rezerwa może być aktywowana tylko przez dowódcę oddziału w stopniu dowódcy, oficera wykonawczego, oficera kadrowego, lub oficera polowego."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "Za mało członków klanu w oddziale: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Bitwa rozpocznie się za %(nextDate)s min"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "Godzina rozpoczęcia bitwy zostanie podana później"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "Bitwa skończy się za %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "Dostępne potyczki"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "Następna bitwa zacznie się o %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Bitwa rozpocznie się za %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "Bitwa rozpocznie się dzisiaj o %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "Bitwa rozpocznie się jutro o %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "Godzina rozpoczęcia bitwy zostanie podana później"
+
+msgid "sortie/introView/title"
+msgstr "Twierdza: bitwy"
+
+msgid "sortie/listView/enterBtn"
+msgstr "Dołącz"
+
+msgid "sortie/listView/enterText"
+msgstr "Możesz dołączyć do drużyny jako ochotnik"
+
+msgid "sortie/listView/notSelected"
+msgstr "Wybierz oddział specjalny z listy po lewej,\naby przeczytać jego szczegółowy opis."
+
+msgid "sortie/listView/teamMembers"
+msgstr "Członkowie drużyny: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "Pojazdy:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "Najemnik"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "Auto-zbieranie"
+
+msgid "sortie/room/candidates"
+msgstr "Ochotnicy"
+
+msgid "sortie/room/chat"
+msgstr "Kanał czatu"
+
+msgid "sortie/room/description"
+msgstr "Stworzony oddział specjalny walczy z losowym klanem na neutralnym terytorium. Poziom pojazdów zależy od wybranej dywizji."
+
+msgid "sortie/room/fight"
+msgstr "Bitwa!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "Zaproś graczy"
+
+msgid "sortie/room/leaveBtn"
+msgstr "PRZEJDŹ DO ZBIERANIA ODDZIAŁU"
+
+msgid "sortie/room/level"
+msgstr "%(level)s poziom"
+
+msgid "sortie/room/members"
+msgstr "Członkowie drużyny: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "Niegotowy"
+
+msgid "sortie/room/ready"
+msgstr "Gotów!"
+
+msgid "sortie/room/title"
+msgstr "Oddział specjalny"
+
+msgid "sortie/slot/emptySlot"
+msgstr "Puste"
+
+msgid "sortie/slot/takePlace"
+msgstr "Zajmij miejsce"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "Wybierz pojazd, w którym weźmiesz udział w bitwie. Maszyny, które nie są jeszcze gotowe, mają czerwony znacznik."
+
+msgid "stronghold/teamHeader"
+msgstr "Członkowie oddziału"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "Wybierz pojazdy dla najemników"
+
+msgid "strongholdPopover/header"
+msgstr "Wybierz pojazdy"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "Wybr. pojazdy:"
+
+msgid "strongholdbuilds/direction"
+msgstr "%(direction)s przyczółek sojuszników"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "Północny"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "Wschodni"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "Południowy"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "Zachodni"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "Przyczółek przeciwnika"
+
+msgid "strongholdbuilds/mapName"
+msgstr "Mapa: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "Mapa zostanie wybrana po rozpoczęciu natarcia"
+
+msgid "strongholdbuilds/point1"
+msgstr "Cytadela"
+
+msgid "strongholdbuilds/point2"
+msgstr "Linia rezerw"
+
+msgid "strongholdbuilds/point3"
+msgstr "Linia frontu"
+
+msgid "strongholdbuilds/point4"
+msgstr "Linia frontu"
+
+msgid "strongholdbuilds/point5"
+msgstr "Linia rezerw"
+
+msgid "strongholdbuilds/point6"
+msgstr "Cytadela"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "x%(reward)s za pierwsze zwycięstwo każdego dnia w natarciach na tym przyczółku"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "Za obronę cytadeli przy utracie obu linii"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "Za obronę linii frontu przy utracie linii rezerw"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "Za obronę obu linii bez zajęcia linii przeciwnika"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "Za zajęcie tylko linii frontu"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "Za zajęcie obu linii bez zajęcia cytadeli"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "Za zajęcie cytadeli przeciwnika"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "z rezerwy Rekwizycja"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "Przyznawany po natarciu"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "Ukryj przed najemnikami"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "Oddział jest widoczny"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "Pokaż najemnikom"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "Oddział jest ukryty"
+
+msgid "strongholddirection/A"
+msgstr "Północny"
+
+msgid "strongholddirection/B"
+msgstr "Wschodni"
+
+msgid "strongholddirection/C"
+msgstr "Południowy"
+
+msgid "strongholddirection/D"
+msgstr "Zachodni"
+
+msgid "strongholdinfo/sortie"
+msgstr "Potyczka w dywizji %(level)s"
+
+msgid "strongholdinfo/stronghold"
+msgstr "Natarcie z przyczółka: %(direction)s"
+
+msgid "strongholdmap/randomMap"
+msgstr "Losowa mapa"
+
+msgid "strongholdreserve/boost"
+msgstr "Inspiracja"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "Transport o dużej pojemności"
+
+msgid "strongholdreserve/requisition"
+msgstr "Rekwizycja"
+
+msgid "strongholdreserve/support"
+msgstr "Ostrzał artyleryjski"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "W potyczkach i natarciach, za 1 bitwę"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "Za wynik natarcia"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "Aktywowana na początku bitwy"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "Aktywowana na początku natarcia"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "Aktywowana, kiedy rezerwa jest użyta w bitwie"
+
+msgid "strongholdtable/rating"
+msgstr "Klasyfikacja"
+
+msgid "strongholdtable/roster"
+msgstr "Skład"
+
+msgid "strongholdtable/tech"
+msgstr "Pojazdy"
+
+msgid "strongholdtitle/sortie"
+msgstr "Potyczka"
+
+msgid "strongholdtitle/stronghold"
+msgstr "Natarcie z przyczółka: %(direction)s"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Granica{/HEADER}{BODY}Terytorium neutralne. Zwycięzca zaatakuje linię przeciwnika w następnej bitwie. Jeśli bitwa zakończy się remisem, atakująca drużyna zostanie wybrana losowo.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "Natarcie z przyczółka: %(direction)s"
+
+msgid "strongholdtooltips/hours"
+msgstr "g"
+
+msgid "strongholdtooltips/minuts"
+msgstr "m"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "Potyczka w dywizji %(level)s"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Typ pojazdu automatycznie przydzielanego najemnikowi po tym, jak klikniesz przycisk Bitwa.\n\nKliknij, aby potwierdzić lub anulować typ pojazdu wybrany dla najemników."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "Najemnicy zostaną automatycznie dodani do nieobsadzonych pozycji"

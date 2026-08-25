@@ -1,0 +1,302 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "autoOpenView/bottomLabel"
+msgstr "Mes atidarėme visas jūsų šventines dėžes."
+
+msgid "autoOpenView/congratsLabel"
+msgstr "Sveikiname!"
+
+msgid "autoOpenView/okBtnLabel"
+msgstr "Tikrai taip!"
+
+msgid "buttonLabel/back"
+msgstr "Atgal į Garažą"
+
+msgid "buttonLabel/buy"
+msgstr "Nupirkti"
+
+msgid "buttonLabel/buyMore"
+msgstr "Pirkti dėžes"
+
+msgid "buttonLabel/close"
+msgstr "Uždaryti"
+
+msgid "buttonLabel/open"
+msgstr "Atidaryti"
+
+msgid "buttonLabel/openBox"
+msgstr "Atidaryti dėžę"
+
+msgid "buttonLabel/quest"
+msgstr "Į misijas"
+
+msgid "buttonLabel/videoOff"
+msgstr "RODYTI ANIMACIJĄ"
+
+msgid "buttonLabel/videoOn"
+msgstr "NERODYTI ANIMACIJOS"
+
+msgid "compensationTooltip/after/header"
+msgstr "Kompensacija:"
+
+msgid "compensationTooltip/before/header"
+msgstr "Dublikatai (x{count}):"
+
+msgid "compensationTooltip/crewSkin/header"
+msgstr "Kompensacija už jau turimą įgulos apvalkalą"
+
+msgid "compensationTooltip/vehicle/bottomText"
+msgstr "Apdovanojimas suteiktas kaip kompensacija už mašiną, kurią jau turite."
+
+msgid "compensationTooltip/vehicle/header"
+msgstr "Kompensacija už mašiną, kuri jau yra jūsų garaže."
+
+msgid "entryDesc/boxesCount"
+msgstr "x{count}"
+
+msgid "entryDesc/buySlot"
+msgstr "Jūs galite nusipirkti didelių dėžių Premium parduotuvėje"
+
+msgid "entryDesc/newYear_premium"
+msgstr "Didelės dėžės"
+
+msgid "entryDesc/newYear_usual"
+msgstr "Mažos dėžės"
+
+msgid "entryDesc/questSlot"
+msgstr "Mažos dėžės gaunamos už įvykdytas misijas."
+
+msgid "entryDesc/restrictedMode"
+msgstr "Šis funkcionalumas laikinai negalimas. Pabandykite vėliau."
+
+msgid "entryPoint/header"
+msgstr "Dėžės"
+
+msgid "entryTooltip/body/h1"
+msgstr "Nusipirkti dideles dėžes:"
+
+msgid "entryTooltip/body/h2"
+msgstr "Uždirbti mažas dėžes:"
+
+msgid "entryTooltip/body/p1"
+msgstr "Pirkite Premium parduotuvėje dėžes su naujametiniais papuošimais sau ir savo draugams."
+
+msgid "entryTooltip/body/p2"
+msgstr "Apdovanojama už Šventinė operacijos misijų įvykdymą."
+
+msgid "entryTooltip/header"
+msgstr "Dėžės"
+
+msgid "entryView/boxesCount"
+msgstr "dar dėžių: {count}"
+
+msgid "entryView/buyLabel"
+msgstr "PIRKTI DĖŽES"
+
+msgid "entryView/ended/newYear_premium"
+msgstr "Jūs neturite didelių dėžių sandėlyje.\nNusipirkite jas Premium parduotuvėje."
+
+msgid "entryView/ended/newYear_usual"
+msgstr "Jūs neturite mažų dėžių.\nUždirbkite jas mūšiuose."
+
+msgid "entryView/lootboxesCount"
+msgstr "x{count}"
+
+msgid "entryView/title"
+msgstr "Šventinė operacija {year}"
+
+msgid "entryView/year"
+msgstr "2019"
+
+msgid "multiOpenView/applyLabel"
+msgstr "Tikrai taip!"
+
+msgid "multiOpenView/boxesInStorage"
+msgstr "Turimos dėžės: {count}"
+
+msgid "multiOpenView/boxesNotAvailable"
+msgstr "Nėra dėžių"
+
+msgid "multiOpenView/openBoxesLabel"
+msgstr "Atidaryti dar {count} dėžes"
+
+msgid "multiOpenView/openedCount"
+msgstr "x{count}"
+
+msgid "multiOpenView/title"
+msgstr "Sveikiname!"
+
+msgid "notification/eventFinish/text"
+msgstr "Visos gautos išteklių dėžės bus atidarytos. Jų turinys bus pridėtas į jūsų paskyrą."
+
+msgid "notification/eventFinish/title"
+msgstr "Šilto pavasario išteklių dėžių renginys baigėsi"
+
+msgid "notification/eventStart/button"
+msgstr "Į renginį"
+
+msgid "notification/eventStart/text"
+msgstr "Tik iki %(date)s: Premium mašinos ir vertingi žaidimo daiktai!"
+
+msgid "notification/eventStart/title"
+msgstr "Šilto pavasario išteklių dėžių renginys prasidėjo"
+
+msgid "notification/header"
+msgstr "Sveikiname!"
+
+msgid "notification/lootBoxesAutoOpen/boxes"
+msgstr "Atidaryta išteklių dėžių: %(boxes)s"
+
+msgid "notification/lootBoxesAutoOpen/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "notification/lootBoxesAutoOpen/rewards"
+msgstr "Jūs gavote:\n%(rewards)s"
+
+msgid "notification/lootBoxesAutoOpen/text"
+msgstr "Renginio pabaigoje mes atidarėme visas jūsų išteklių dėžes ir jų turinį įkėlėme į jūsų paskyrą."
+
+msgid "notification/lootBoxesAutoOpen/title"
+msgstr "Išteklių dėžių atidarymas"
+
+msgid "notification/lootBoxesIsDisabled/text"
+msgstr "Operacijos su išteklių dėžėmis nepasiekiamos dėl profilaktikos."
+
+msgid "notification/lootBoxesIsDisabled/title"
+msgstr "Išteklių dėžių atidarymas"
+
+msgid "notification/lootBoxesIsEnabled/button"
+msgstr "Atidaryti"
+
+msgid "notification/lootBoxesIsEnabled/text"
+msgstr "Operacijos su išteklių dėžėmis vėl pasiekiamos."
+
+msgid "notification/lootBoxesIsEnabled/title"
+msgstr "Išteklių dėžių atidarymas"
+
+msgid "notification/lootBoxesReceived/invoice"
+msgstr "Pridėta"
+
+msgid "notification/ny19man"
+msgstr "Unikalus įgulos narys: %(count)s"
+
+msgid "notification/rewards"
+msgstr "Jūs gaunate šiuos apdovanojimus:"
+
+msgid "restrictedMessage/body"
+msgstr "Operacijos su dėžėmis laikinai nepasiekiamos. Nesijaudinkite ir palaukite."
+
+msgid "restrictedMessage/header"
+msgstr "Dėmesio!"
+
+msgid "rewardView/boxesCount"
+msgstr "Pasiekiamos dėžės: {count}"
+
+msgid "rewardView/closeBtnLabel"
+msgstr "Uždaryti"
+
+msgid "rewardView/congratsBtnLabel/style"
+msgstr "Peržiūrėti stilių"
+
+msgid "rewardView/congratsBtnLabel/tankman"
+msgstr "Rekrutuoti"
+
+msgid "rewardView/congratsBtnLabel/vehicle"
+msgstr "Peržiūrėti garaže"
+
+msgid "rewardView/congratsLabel/style"
+msgstr "Unikalus stilius, skirtas"
+
+msgid "rewardView/congratsLabel/tankman"
+msgstr "Unikalus įgulos narys"
+
+msgid "rewardView/congratsLabel/usual"
+msgstr "Sveikiname!"
+
+msgid "rewardView/congratsLabel/vehicle"
+msgstr "KOKS NETIKĖTUMAS!"
+
+msgid "rewardView/nextOpenBtnLabel"
+msgstr "Atidaryti kitą"
+
+msgid "rewardView/okOpenBtnLabel"
+msgstr "Tikrai taip!"
+
+msgid "rewardView/openBtnLabel"
+msgstr "Tikrai taip!"
+
+msgid "rewardView/rerollBtnLabel"
+msgstr "Dar kartą atidaryti"
+
+msgid "rewardView/zeroBoxes"
+msgstr "Nėra dėžių"
+
+msgid "specialReward/continueBtn"
+msgstr "Pratęsti"
+
+msgid "specialReward/style/goToBtn"
+msgstr "Peržiūrėti stilių"
+
+msgid "specialReward/style/title"
+msgstr "Unikalus stilius, skirtas"
+
+msgid "specialReward/vehicle/goToBtn"
+msgstr "Peržiūrėti garaže"
+
+msgid "tooltip/category/header/Christmas"
+msgstr "Kalėdinės dėžės"
+
+msgid "tooltip/category/header/Fairytale"
+msgstr "Stebuklingos dėžės"
+
+msgid "tooltip/category/header/NewYear"
+msgstr "Naujametinės dėžės"
+
+msgid "tooltip/category/header/Oriental"
+msgstr "Mėnulio dėžės"
+
+msgid "tooltip/category/rewards/Christmas"
+msgstr "Kalėdinė kolekcija"
+
+msgid "tooltip/category/rewards/Fairytale"
+msgstr "Magiška kolekcija"
+
+msgid "tooltip/category/rewards/NewYear"
+msgstr "Naujametinė kolekcija"
+
+msgid "tooltip/category/rewards/Oriental"
+msgstr "Mėnulio kolekcija"
+
+msgid "tooltip/category/rewards/description"
+msgstr "Dėžėse papuošimai iš {category} kategorijos ir kiti vertingi prizai."
+
+msgid "tooltip/category/rewards/header"
+msgstr "Apdovanojimai:"
+
+msgid "tooltip/entryView/buyBoxes"
+msgstr "Nusipirkite papildomų dėžių Premium parduotuvėje."
+
+msgid "tooltip/entryView/openBoxes"
+msgstr "Atidaryti kelias dėžes iš karto."
+
+msgid "tooltip/restrictedMode"
+msgstr "Veiksmas laikinai negalimas. Pabandykite vėliau."
+
+msgid "type/event_premium"
+msgstr "Aušros išteklių dėžė"
+
+msgid "type/newYear_premium"
+msgstr "DIDELĖS DĖŽĖS"
+
+msgid "type/newYear_usual"
+msgstr "MAŽOS DĖŽĖS"
+
+msgid "type/wt_boss"
+msgstr "Inžinieriaus starteris"
+
+msgid "type/wt_hunter"
+msgstr "Skalikų starteris"
+
+msgid "type/wt_special"
+msgstr "Specialios skrynelės"

@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} i klanen"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "TIL KONTOSTATUS"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "TILBAKE"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Du vil kunne erstatte et kart om {}."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Vis/skjul kart av denne typen."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Ørkenkart"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Sommerkart"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Vinterkart"
+
+msgid "mapsBlacklist/header"
+msgstr "Ekskluderte kart"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Eksksluder et uønsket kart fra din spillrotering. Eksksluder enda et kart med WoT Premium og ytterligere %(mapCount)s flere med WoT Plus. Dersom noen av disse abonnementene utløper, kommer ekskluderte kart tilbake til rotasjonen igjen med den lengst til høyre som den første."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Ekskluderte kart"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Disse kartene er kun ekskludert i tilfeldige kamper."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Du kan bytte om på ekskluderte kart hvert %(maxCooldownTimeStr)s."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Denne egenskapen er tilgjengelig for kjøretøy på nivå 4 og høyere."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "I tropper er det kun kart som er valgt av troppskommandør som blir ekskludert."
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Kart som vises: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Kart som vises: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Typer kart:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Avbryt"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Avslutt"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "Det utvalgte kartet blir byttet med {mapNameStr} kartet. Du kan endre utvalget ditt om {cooldownStr}."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Hvilket kart ønsker du å bytte ut?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Ekskludér"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Velg et kart du ønsker å bytte ut"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Avbryt"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Avslutt"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Du kan endre ditt valg om {cooldownStr}."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Vil du ekskludere kartet {mapNameStr} fra tilfeldige kamper?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Ekskludér"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Ekskludér"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Ekskludere {mapNameStr} kartet?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Inkludér"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Inkludere {mapNameStr} kartet i tilfeldige kamper?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Du kan bytte ut dette kartet om {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Å bytte ut kart er ikke tilgjengelig"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Du kan bytte ut dette kartet om {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Å bytte ut kart er ikke tilgjengelig"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Ikke valgt"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Klikk for å velge et kart å ekskludere fra tilfeldige kamper."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Kart ikke valgt"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "Det ekskluderte {mapName} kartet kan byttes ut med et annet."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Bytt ut kart tilgjengelig"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Du kan bytte ut {mapName} kartet om {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Å bytte ut kart er ikke tilgjengelig"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Ytterligere en plass er tilgjengelig kun med en aktiv WoT premium konto."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Plass ikke tilgjengelig"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Velg et kart fra listen under for å ekskludere det fra tilfeldige kamper."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Kart ikke valgt"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Velg et kart fra listen under for å ekskludere det fra tilfeldige kamper."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Bytt ut kart tilgjengelig"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Du kan bytte ut dette kartet om {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Å bytte ut kart er ikke tilgjengelig"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "En plass for ekskludering av ytterligere et kart er kun tilgjengelig med en aktiv WoT premium konto."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Plass ikke tilgjengelig"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Avbryt"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Du kan endre dine valg om {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Erstatte"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Ekskludér"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Vil du ekskludere kartet %(mapName)s fra tilfeldige kamper?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "Det utvalgte kartet blir byttet ut med {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close} kartet. Du kan endre på valget ditt om %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Hvilket kart ønsker du å bytte ut?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Dette kartet blir byttet ut med {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close} kartet. Du kan endre på valget ditt om %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Ønsker du å bytte ut dette kartet?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Foreldrekontroller har blitt aktivert på denne kontoen.\nDu kan lære mer om foreldrekontroll {link}."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Foreldrekontroll"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "på spillets nettsider"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Creditreserve"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s min"

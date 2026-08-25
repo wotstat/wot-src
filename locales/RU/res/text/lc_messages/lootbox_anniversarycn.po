@@ -1,0 +1,71 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "boxTooltip/description/text/bronze"
+msgstr "При открытии коробок вы можете получить технику, внутриигровую валюту и другие ценные награды."
+
+msgid "boxTooltip/description/text/gold"
+msgstr "При открытии коробок вы можете получить технику, внутриигровую валюту, элементы внешнего вида и другие ценные награды."
+
+msgid "boxTooltip/description/text/silver"
+msgstr "При открытии коробок вы можете получить технику, внутриигровую валюту, элементы внешнего вида и другие ценные награды."
+
+msgid "boxTooltip/howGet/text/bronze"
+msgstr "Можно купить во внутриигровом Магазине или получить из коробок любого типа."
+
+msgid "boxTooltip/howGet/text/gold"
+msgstr "Могут быть получены из коробок любого другого типа."
+
+msgid "boxTooltip/howGet/text/silver"
+msgstr "Могут быть получены из коробок любого другого типа."
+
+msgid "common/boxCategory/lowerCase/bronze"
+msgstr "Трофейная коробка"
+
+msgid "common/boxCategory/lowerCase/gold"
+msgstr "Щедрая коробка"
+
+msgid "common/boxCategory/lowerCase/silver"
+msgstr "Одаряющая коробка"
+
+msgid "common/boxCategory/upperCase/bronze"
+msgstr "ТРОФЕЙНАЯ КОРОБКА"
+
+msgid "common/boxCategory/upperCase/gold"
+msgstr "ЩЕДРАЯ КОРОБКА"
+
+msgid "common/boxCategory/upperCase/silver"
+msgstr "ОДАРЯЮЩАЯ КОРОБКА"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Это специальные Коробки, которые содержат новые и уникальные предметы. Их можно получить во внутриигровом Магазине."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Событие продлится до"
+
+msgid "eventName/lowerCase"
+msgstr "Сокровищница шёпота"
+
+msgid "eventName/upperCase"
+msgstr "СОКРОВИЩНИЦА ШЁПОТА"
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Если у вас уже есть все машины, вы получите Щедрую коробку."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Если у вас уже есть вся техника из коробок, вы получите Щедрую коробку в качестве гарантированной награды вместо машины."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Каждые %(guaranteed0)s Трофейных, %(guaranteed1)s Щедрых и %(guaranteed2)s Одаряющих коробок гарантированно содержат машину. Если при их открытии вам не выпадет такая техника, то машина, которой у вас ещё нет, выпадет при открытии %(guaranteed0)s-й/%(guaranteed1)s-й/%(guaranteed2)s-й коробки (в зависимости от типа). При выпадении машины счётчик обнуляется."
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Компенсация"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Гарантированная награда"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Может выпасть не более одной награды из группы"

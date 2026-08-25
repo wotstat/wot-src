@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Πόντοι που αυξάνουν το Συνολικό Σκορ Επιτευγμάτων."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Πόντοι Επιτευγμάτων"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Ολοκληρώσατε όλα τα στάδια του συγκεκριμένου επιτεύγματος και λάβατε όλα τα διαθέσιμα έπαθλα."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Πιέστε %(escIcon)s για να επιστρέψετε στο προηγούμενο επίπεδο του ΚΑΤΑΛΟΓΟΥ."
+
+msgid "catalog/rootLink"
+msgstr "ΚΑΤΑΛΟΓΟΣ"
+
+msgid "category/achievementsScore/title"
+msgstr "ΣΚΟΡ ΕΠΙΤΕΥΓΜΑΤΩΝ"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "Η κύρια ένδειξη προόδου στην επίτευξη επιτευγμάτων. Κάθε νέο επίτευγμα, εκτός από τα τρόπαια, αυξάνει το Συνολικό Σκορ Επιτευγμάτων."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Συνολικό Σκορ Επιτευγμάτων: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "ΠΡΟΣΦΑΤΑ\nΕΠΙΤΕΥΓΜΑΤΑ"
+
+msgid "category/title"
+msgstr "ΣΥΛΛΟΓΗ"
+
+msgid "category/upcoming/title"
+msgstr "ΕΠΕΡΧΟΜΕΝΑ\nΕΠΙΤΕΥΓΜΑΤΑ"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "Το %(name)s και άλλα"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Επίτευγμα ξεκλειδώθηκε!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "%(count)s Επιτεύγματα Ξεκλειδώθηκαν!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "Το %(name)s και άλλα"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Κερδίσατε νέο τρόπαιο!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "Κερδίσατε %(count)s τρόπαια!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "Με την Αυτόματη Προβολή ταξινομείτε τα βραβεία όλων των κατηγοριών με βάση την αξία τους. Θα απενεργοποιηθεί εάν εσείς ορίσετε τα βραβεία που θα εμφανίζονται."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "Με την Αυτόματη Προβολή ταξινομείτε τα βραβεία όλων των κατηγοριών με βάση την αξία τους. Όταν ενεργοποιηθεί, η σειρά που ορίσατε εσείς επανακαθορίζεται."
+
+msgid "editConfirm/description/error"
+msgstr "Ερευνούμε το συγκεκριμένο πρόβλημα. Προσπαθήστε ξανά αργότερα."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Αποθήκευση"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Άκυρο"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Θετικό!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Αυτόματη Προβολή Μη Ενεργή"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Αυτόματη Προβολή Ενεργή"
+
+msgid "editConfirm/title/error"
+msgstr "Ύπαρξη Σφάλματος"
+
+msgid "editConfirm/title/normal"
+msgstr "Εφαρμογή των αλλαγών στη σειρά των πολύτιμων βραβείων?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Ακύρωση Αλλαγών"
+
+msgid "editView/footer/button/save"
+msgstr "Εφαρμογή & Έξοδος"
+
+msgid "editView/header/checkbox"
+msgstr "Αυτόματη Προβολή"
+
+msgid "editView/header/close"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "editView/header/title/idle"
+msgstr "Επιλέξτε Ποια Βραβεία Θα Προβάλλονται"
+
+msgid "editView/header/title/selecting"
+msgstr "Επιλέξτε Βραβείο προς Αντικατάσταση"
+
+msgid "editView/header/title/tutorial"
+msgstr "Επιλέξτε Θέση Βραβείου"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Άκυρο"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Αντικατάσταση"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "ΤΑ ΕΠΙΤΕΥΓΜΑΤΑ ΣΑΣ"
+
+msgid "hint/profile"
+msgstr "ΤΑ ΕΠΙΤΕΥΓΜΑΤΑ ΣΑΣ"
+
+msgid "hint/summary/customizationButton"
+msgstr "Επιλογή Διαθέσιμη"
+
+msgid "notifications/editingEnabled/button"
+msgstr "Σειρά Βραβείων"
+
+msgid "notifications/editingEnabled/title"
+msgstr "Επιλογή Πολύτιμων Βραβείων Διαθέσιμη"
+
+msgid "notifications/firstEntry/button"
+msgstr "Μητρώο Υπηρεσίας"
+
+msgid "notifications/firstEntry/text"
+msgstr "Βαθμολογία World of Tanks\nΕπιλογή βραβείων."
+
+msgid "notifications/firstEntry/title"
+msgstr "Ενημέρωση Μητρώου Υπηρεσίας"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "Μητρώο Υπηρεσίας"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Επιλογή βραβείων\nκαι προβολή."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Ενημέρωση Μητρώου Υπηρεσίας"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "Μητρώο Υπηρεσίας"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Το Επίπεδό Σας: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Έχει Καθοριστεί Η Βαθμολογία Σας!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "Μητρώο Υπηρεσίας"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "Η Βαθμολογία σας στο World of Tanks άλλαξε. Ανοίξτε το Μητρώο Υπηρεσίας για περισσότερες λεπτομέρειες."
+
+msgid "notifications/ratingUp/button"
+msgstr "Μητρώο Υπηρεσίας"
+
+msgid "notifications/ratingUp/text"
+msgstr "Φτάσατε στο επίπεδο: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Η Βαθμολογία Σας Αυξήθηκε!"
+
+msgid "playerInfo/clan/button"
+msgstr "Μητρώο Clan"
+
+msgid "playerInfo/clan/date"
+msgstr "Ημερομηνία ένταξης:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "Ο παίκτης δεν έχει σταθερές επιχειρησιακές μονάδες"
+
+msgid "playerInfo/clan/post"
+msgstr "Θέση:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "Η Προσωπική Μεταλλική Ταυτότητα\nείναι προσωρινά μη διαθέσιμη"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "Η βαθμολογία δεν καθορίστηκε. Λιγότερες από %(amount)s μάχες."
+
+msgid "ratingWidget/status/initial"
+msgstr "Λάβετε μέρος σε %(amount)s για να καθοριστεί η Βαθμολογία σας στο World of Tanks."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "Η βαθμολογία δεν καθορίστηκε"
+
+msgid "ratingWidget/status/progress"
+msgstr "Καθορισμός Βαθμολογία World of Tanks. Απομένουν %(amount)s μάχες."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Λάβετε μέρος σε μάχες για να καθοριστεί η βαθμολογία σας."
+
+msgid "rewardView/button/achievements"
+msgstr "Στα Επιτεύγματα"
+
+msgid "rewardView/button/dogTag"
+msgstr "Ταυτότητα"
+
+msgid "rewardView/button/dogTags"
+msgstr "Ταυτότητες"
+
+msgid "rewardView/button/moreRewards"
+msgstr "Προβολή %(value)s Ακόμη"
+
+msgid "rewardView/reward/dogTag"
+msgstr "Μεταλλική Ταυτότητα %(value)s"
+
+msgid "rewardView/title/multi"
+msgstr "ΠΑΡΑΛΑΒΗ ΕΠΑΘΛΩΝ ΕΠΙΤΕΥΓΜΑΤΩΝ"
+
+msgid "rewardView/title/single"
+msgstr "ΠΑΡΑΛΑΒΗ ΕΠΑΘΛΟΥ ΕΠΙΤΕΥΓΜΑΤΩΝ"
+
+msgid "section/action"
+msgstr "Ειδικά"
+
+msgid "section/battle"
+msgstr "Ηρωικά Επιτεύγματα"
+
+msgid "section/class"
+msgstr "Κλιμακούμενα Βραβεία"
+
+msgid "section/epic"
+msgstr "Επικά Μετάλλια"
+
+msgid "section/group"
+msgstr "Ομαδικά Βραβεία"
+
+msgid "section/memorial"
+msgstr "Αναμνηστικά Tokens"
+
+msgid "section/special"
+msgstr "Τιμητικές Διακρίσεις"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "ΣΤΑ ΕΠΙΤΕΥΓΜΑΤΑ"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Τελευταία μάχη: %(lastVisitDate)s στις %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Δημιουργία λογαριασμού: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Φόντο"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Προεπιλογή"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Fire"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Gold"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Legendary"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Retro"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Explosive"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Ακύρωση Αλλαγών"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Σιρίτι"
+
+msgid "summary/achievements/customization/save"
+msgstr "Εφαρμογή & Έξοδος"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "Εξαιτίας τεχνικών προβλημάτων, η προσαρμογή του Μητρώου Υπηρεσίας είναι προσωρινά μη διαθέσιμη. Εργαζόμαστε για την επίλυση του προβλήματος. Ανανεώστε τη σελίδα ή προσπαθήστε ξανά σε λίγο."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Προσαρμογή Προσωρινά Μη Διαθέσιμη"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Πολύτιμα Βραβεία"
+
+msgid "summary/achievements/total"
+msgstr "Σύνολο: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Μοναδικά: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Μέσος όρος: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Νίκες: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Μέσος όρος: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Μέσος όρος: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Ρεκόρ: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Μέσος όρος: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Μπείτε στη μάχη όσο υπολογίζονται τα δεδομένα σας."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Πληροφορίες προσωρινά μη διαθέσιμες."
+
+msgid "summary/disabled/title"
+msgstr "Περισσότερες Πληροφορίες Προσεχώς"
+
+msgid "summary/main/assistance"
+msgstr "ΡΕΚΟΡ\nΣΥΝΕΙΣΦΟΡΑΣ"
+
+msgid "summary/main/battles"
+msgstr "ΜΑΧΕΣ"
+
+msgid "summary/main/blocked"
+msgstr "ΡΕΚΟΡ\nΑΠΟΚΡΟΥΣΗΣ"
+
+msgid "summary/main/damage"
+msgstr "ΡΕΚΟΡ\nΦΘΟΡΑΣ"
+
+msgid "summary/main/destroyed"
+msgstr "ΚΑΤΑΣΤΡΟΦΕΣ\nΟΧΗΜΑΤΩΝ"
+
+msgid "summary/main/experience"
+msgstr "ΡΕΚΟΡ\nEXPERIENCE"
+
+msgid "summary/statistic/title"
+msgstr "Βαθμολογία World of Tanks"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Προσωπική Βαθμολογία"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Μέγιστη φθορά από δική σας συνεισφορά."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Μέγιστη φθορά από δική σας συνεισφορά με το %(tankName)s."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Ρεκόρ συνεισφοράς: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Η αναλογία της συνολικής φθοράς που προκλήθηκε σε εχθρικά οχήματα από δική σας συνεισφορά προς τις συνολικές μάχες. Ως συνεισφορά υπολογίζεται:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Η φθορά από δικό σας εντοπισμό εχθρικών οχημάτων\n• Η φθορά από ακινητοποίηση εχθρικού οχήματος με καταστροφή των ερπυστριών του"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Μέσος όρος συνεισφοράς: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Η αναλογία των συνολικών νικών προς τις συνολικές μάχες."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Περιλαμβάνονται:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Νίκες: %(wins)s\n• Ήττες: %(loses)s\n• Ισοπαλίες: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Ποσοστό νικών: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Συμμετοχές σε μάχες: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Μέγιστη αποσόβηση φθοράς."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Μέγιστη αποσόβηση φθοράς με το %(tankName)s."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Μέγιστη αποσόβηση φθοράς: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Αναλογία της φθοράς που αποσόβησε η θωράκιση εξαιτίας μη διάτρησης ή εξοστρακισμού βλημάτων AP, HEAT και APCR προς τις συνολικές μάχες."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Μέσος όρος αποσόβησης φθοράς: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Μέγιστη πρόκληση φθοράς."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Μέγιστη πρόκληση φθοράς με το %(tankName)s."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Ρεκόρ φθοράς: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Αναλογία της συνολικής φθοράς σε αντιπάλους προς τις συνολικές μάχες."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Μέσος όρος φθοράς: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Μέγιστος αριθμός καταστροφών εχθρικών οχημάτων."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "Μέγιστος αριθμός καταστροφών εχθρικών οχημάτων με το %(tankName)s."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Μέγιστος αριθμός καταστροφών: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Συνολικές καταστροφές εχθρικών οχημάτων."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Καταστροφές εχθρικών οχημάτων: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Μέγιστη ποσότητα κερδισμένου experience."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "Μέγιστη ποσότητα κερδισμένου experience με το %(tankName)s."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Ρεκόρ κερδισμένου experience: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Αναλογία του συνολικού κερδισμένου experience προς τις συνολικές μάχες."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Μέσος όρος κερδισμένου experience: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Η Βαθμολογία σας στο World of Tanks δεν επηρεάζεται από τις νίκες ή τις ήττες."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Μπείτε στη μάχη με διάφορα οχήματα για να βρείτε τα πιο αποτελεσματικά για σας, με βάση τις ακόλουθες παραμέτρους:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "Η βαθμολογία WTR είναι ένα σύστημα αξιολόγησης που υπολογίζει τις επιδόσεις του κάθε οχήματος ξεχωριστά και στη συνέχεια καθορίζει τη γενική βαθμολογία του παίκτη. Το σύστημα συγκρίνει τα στατιστικά του εκάστοτε παίκτη με τους αντίστοιχους μέσους όρους στον server που παίζει."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Πρόκληση φθοράς"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Φθορά από δική σας συνεισφορά"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Καταστροφές εχθρικών οχημάτων"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Αποσόβηση φθοράς & ποσοστό επιβίωσης"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "Αύξηση WTR"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "Βαθμολογία World of Tanks"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Μάχες που απομένουν για καθορισμό της βαθμολογίας: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Επίπεδο: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Φτάσατε στο ανώτατο όριο!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Πόντοι που απομένουν για αύξηση επιπέδου: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "%(level)s Χάκλινου"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "%(level)s Ασημένιου"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "%(level)s Χρυσού"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "%(level)s Άσσου"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "%(level)s Θρύλου"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Επίπεδο"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Αριθμός Πόντων"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "Βαθμολογία World of Tanks"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "Ενεργοποιώντας της ρύθμιση, η σειρά που επιλέξατε %(whiteSpanish_Open)sθα επανακαθοριστεί%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "Απενεργοποιώντας της ρύθμιση ή επιλέγοντας τη σειρά, η %(whiteSpanish_Open)sαυτόματη%(whiteSpanish_Close)s %(whiteSpanish_Open)sενημέρωση%(whiteSpanish_Close)s των βραβείων που προβάλλονται %(whiteSpanish_Open)sθα σταματήσει%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "Αυτόματη ταξινόμηση των βραβείων που προβάλλονται %(whiteSpanish_Open)sαπό όλες τις κατηγορίες%(whiteSpanish_Close)s με βάση την αξία τους."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Αυτόματη Προβολή"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "Προσωρινά μη διαθέσιμη η επιλογή των πολύτιμων βραβείων. Προσπαθήστε ξανά αργότερα."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Δεν υπάρχουν μέχρι στιγμής βραβεία για να προβληθούν εδώ. Κερδίστε τα στις %(whiteSpanish_Open)sμάχες%(whiteSpanish_Close)s ή στις %(whiteSpanish_Open)sδιοργανώσεις του παιχνιδιού%(whiteSpanish_Close)s"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "Η επιλογή των πολύτιμων βραβείων θα είναι διαθέσιμη αφότου κερδίσετε %(whiteSpanish_Open)s%(amount)s ή περισσότερα βραβεία%(whiteSpanish_Close)s οποιασδήποτε κατηγορίας."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Κανένα βραβείο προς επιλογή."
+
+msgid "tooltips/mastery/body"
+msgstr "Παράσημα Μαεστρίας: «Άσσος» από όλα τα είδη μάχης / Αριθμός οχημάτων που συμμετείχαν σε τουλάχιστον μία Τυχαία Μάχη"
+
+msgid "tooltips/mastery/header"
+msgstr "Παράσημα Μαεστρίας: «Άσσος»"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "Η Προσωπική Βαθμολογία είναι μία μέτρηση της επιδεξιότητας και της εμπειρίας ενός παίκτη, υπολογίζοντας:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "Η Προσωπική Βαθμολογία ενημερώνεται μετά από κάθε μάχη."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Νίκες\n• Φθορά από συνεισφορά του παίκτη\n• Μέσο όρο φθοράς ανά μάχη\n• Μέσο κερδισμένο experience ανά μάχη\n• Επιβίωση στις μάχες"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Προσωπική Βαθμολογία"

@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "demountConfirmation/submit"
+msgstr "Irrota"
+
+msgid "demountKit/gained/count"
+msgstr "Irrotuspakkaus (x%(count)s)"
+
+msgid "demountKit/sell/header"
+msgstr "Myyty:"
+
+msgid "demountKit/sell_success"
+msgstr "Kulutustarvike \"Irrotuspakkaus\" (%(count)s kappale(tta)). Krediittejä saatu: %(count)s."
+
+msgid "demountKit/tooltip/description/common"
+msgstr "Irrottaa yhden kappaleen varusteita."
+
+msgid "dialogue/description/common"
+msgstr "Irrottaa yhden tavallisen tai palkkiovarusteen."
+
+msgid "discounts/tooltips/noSaleProfit"
+msgstr "Myyntihinta on alhaisempi kuin yleensä—voit ostaa sen alennuksella."
+
+msgid "equipmentDemount/confirmation/description"
+msgstr "Irrotettu varuste lähetetään varikolle."
+
+msgid "equipmentDemount/confirmation/descriptionForInappropriateClass"
+msgstr "Huomio! Tämä varuste vaihtoi luokkaansa suhteessa nykyiseen vaunutyyppiin.\nTämän varusteen voi irrottaa ilmaiseksi, mutta jos irroitat sen, {red_Open}et voi{red_Close} asentaa sitä uudestaan tähän vaunuun."
+
+msgid "equipmentDemount/confirmation/title"
+msgstr "Irrota varuste \"%(equipment)s\"?"
+
+msgid "equipmentDemount/confirmationForFitting/title"
+msgstr "Irrota \"%(equipment)s\" asentaaksesi uuden varusteen?"
+
+msgid "equipmentDemount/notEnoughBonds/description"
+msgstr "Ansaitse niitä taisteluissa tai palkinnoksi pelitapahtumissa."
+
+msgid "equipmentDemount/notEnoughBonds/text"
+msgstr "Ei riittävästi arvopapereita"
+
+msgid "equipmentDemount/optionFree"
+msgstr "Ilmainen"
+
+msgid "equipmentDemount/wotPlus"
+msgstr "WoT Plus"
+
+msgid "equipmentDemountFromSlot/confirmation/cancel"
+msgstr "Peruuta"
+
+msgid "equipmentDemountFromSlot/confirmation/description"
+msgstr "Tämä varusteen kopio vaihtoehtoisesta kokoonpanosta voidaan irrottaa ilmaiseksi."
+
+msgid "equipmentDemountFromSlot/confirmation/submit"
+msgstr "Irrota"
+
+msgid "equipmentDemountFromSlot/confirmation/title"
+msgstr "Irrota \"%(equipment)s\" -varuste tästä paikasta?"
+
+msgid "equipmentDemountFromSlot/confirmationForFitting/title"
+msgstr "Irrota nykyinen \"%(equipment)s\" asentaaksesi uuden varusteen?"
+
+msgid "equipmentDemountPrice"
+msgstr "Irrottamisen hinta:"
+
+msgid "equipmentInstall/demount"
+msgstr "%(count)s"
+
+msgid "equipmentInstall/demountNoKitOr"
+msgstr "%(count)s <br /> tai %(wotPlus)s"
+
+msgid "equipmentInstall/demountWithKit"
+msgstr "%(count)s tai %(countDK)s"
+
+msgid "equipmentInstall/demountWithKitOr"
+msgstr "%(count)s, %(countDK)s <br /> tai %(wotPlus)s"
+
+msgid "shop/DemountOptions/bonds"
+msgstr "Voidaan irrottaa myytäväksi tai asennettavaksi toiseen vaunuun maksamalla %(count)s tai tuhota."
+
+msgid "shop/DemountOptions/common"
+msgstr "Voidaan irrottaa myytäväksi tai asennettavaksi toiseen vaunuun maksamalla %(count)s tai %(iconDK)s irrotuspakkauksella tai tuhota."
+
+msgid "storage/description/common"
+msgstr "Irrottaa tavallisen tai palkkiovarusteen. Kuluu käytettäessä."
+
+msgid "storage/userName/common"
+msgstr "Irrotuspakkaus"
+
+msgid "tooltips:vehicle/action_prc"
+msgstr "Alennus: %(actionPrc)s, aikaisempi hinta: %(oldPrice)s"
+
+msgid "userName/common"
+msgstr "Irrotuspakkaus"

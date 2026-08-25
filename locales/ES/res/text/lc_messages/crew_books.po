@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "COMPRAR"
+
+msgid "buttons/cancel"
+msgstr "Cancelar"
+
+msgid "buttons/learn"
+msgstr "Estudiar"
+
+msgid "buttons/postProgression/claim"
+msgstr "OBTENER"
+
+msgid "buttons/postProgression/hint"
+msgstr "A LA POSPROGRESIÓN"
+
+msgid "buttons/postProgression/howTo"
+msgstr "CÓMO SE CONSIGUE"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Tasa de cambio:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount) %"
+
+msgid "card/freeExp/mainText"
+msgstr "Se aplica al tripulante seleccionado.\nAcelera el entrenamiento de la cualificación actual con EXP libre."
+
+msgid "card/freeExp/title"
+msgstr "EXPERIENCIA LIBRE"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Eficacia de las cualificaciones: 100 %\n• Especialización: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Se aplica a toda la tripulación.\nOfrece %(xp) a cada tripulante."
+
+msgid "card/nationBook/title/brochure"
+msgstr "CARTILLA DE ENTRENAMIENTO (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "MANUAL DE ENTRENAMIENTO (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "GUÍA DE ENTRENAMIENTO (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Se aplica sin restricciones."
+
+msgid "card/personalBook/mainText"
+msgstr "Se aplica al tripulante seleccionado.\nOfrece %(xp) al tripulante."
+
+msgid "card/personalBook/title"
+msgstr "MANUAL DE ENTRENAMIENTO PERSONAL"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Eficacia de las cualificaciones: 100 %\n• Especialización: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Se aplica a toda la tripulación.\nOfrece %(xp) a cada tripulante."
+
+msgid "card/universalBook/title/universalBook"
+msgstr "MANUAL UNIVERSAL"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "CARTILLA UNIVERSAL"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "GUÍA UNIVERSAL"
+
+msgid "confirm/crewLabel"
+msgstr "Cada tripulante recibirá %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Cada tripulante recibirá %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) recibirá %(xpValue) más"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) recibirá %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Algunos tripulantes recibirán %(xpValue)."
+
+msgid "items/brochure/Name"
+msgstr "Cartilla de entrenamiento (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Cartilla de entrenamiento"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "CARTILLA DE ENTRENAMIENTO"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} puntos de EXP de la tripulación para cada tripulante."
+
+msgid "items/crewBook/Name"
+msgstr "Manual de entrenamiento (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Manual de entrenamiento"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "MANUAL DE ENTRENAMIENTO"
+
+msgid "items/guide/Name"
+msgstr "Guía de entrenamiento (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Guía de entrenamiento"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "GUÍA DE ENTRENAMIENTO"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} de experiencia para el miembro de la tripulación seleccionado"
+
+msgid "items/personalBook/Name"
+msgstr "Manual de entrenamiento personal"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} puntos de EXP de la tripulación para cada tripulante."
+
+msgid "items/universalBook/Name"
+msgstr "Manual universal"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} puntos de EXP de la tripulación para cada tripulante."
+
+msgid "items/universalBrochure/Name"
+msgstr "Cartilla universal"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} puntos de EXP de la tripulación para cada tripulante."
+
+msgid "items/universalGuide/Name"
+msgstr "Guía universal"
+
+msgid "page/mentoringLicense/hint"
+msgstr "A LA LICENCIA DE ORIENTACIÓN"
+
+msgid "page/mentoringLicense/title"
+msgstr "LICENCIA DE ORIENTACIÓN"
+
+msgid "page/title"
+msgstr "ENTRENAMIENTO ACELERADO"
+
+msgid "tooltip/buyManual"
+msgstr "Comprar manual de entrenamiento"
+
+msgid "tooltip/mouseWheel"
+msgstr "Desliza el {mouseIcon} para aumentar o reducir el número de libros de la tripulación."
+
+msgid "tooltip/outOfStock"
+msgstr "No quedan libros de la tripulación"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "No quedan libros de la tripulación. Puedes comprarlos en la tienda."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Se aplica al tripulante seleccionado. Ofrece %(xp)s puntos de EXP al tripulante."
+
+msgid "tooltip/postProgression"
+msgstr "A la posprogresión"
+
+msgid "tooltip/sale/header"
+msgstr "Tasa de cambio rentable"
+
+msgid "tooltip/sale/newRate"
+msgstr "Nueva tasa de cambio: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Antigua tasa de cambio: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Haz clic en %(controlsImg) para aumentar/disminuir el nivel de entrenamiento de la cualificación en 1 %."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Pulsa %(pgupImg)/%(pgdownImg) para aumentar el nivel de entrenamiento de la tripulación al&nbsp;100&nbsp;%/volver a la cualificación previa."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Se aplica a toda la tripulación. Ofrece %(xp)s puntos de EXP a cada tripulante."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Se aplica a toda la tripulación. Ofrece %(xp)s puntos de EXP a cada tripulante."

@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "main/backText"
+msgstr "KLAANIN YKSITYISKOHTAISIIN TIETOIHIN"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "Ansaitset tehtävien suorittamisesta kenttäkomennuksen pisteitä, joita tarvitaan uusien alueiden tutkimiseen."
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "Kenttäkomennuksen pisteet"
+
+msgid "main/infoPageButtonLabel"
+msgstr "KENTTÄKOMENNUKSESTA"
+
+msgid "main/mdash"
+msgstr "—"
+
+msgid "messages/claimRewards/error"
+msgstr "Toiminto ei ole väliaikaisesti saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "Päivitä"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "Olemme pahoillamme väliaikaisesta häiriöstä."
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "Virhe ladattaessa tietoja"
+
+msgid "progressionPage/header/heading"
+msgstr "KENTTÄKOMENNUS"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "KENTTÄKOMENNUS ON PÄÄTTYNYT"
+
+msgid "progressionPage/header/subheading"
+msgstr "Ansaitse kenttäkomennuksen pisteitä suorittamalla klaanitehtäviä. Kenttäkomennuksen pisteitä käytetään uusien alueiden tutkimiseen ja arvokkaiden palkintojen saamiseen. Komennuksen lopussa voit saada tason X vaunun."
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "%(vehicle)s vaunu saatu"
+
+msgid "progressionPage/loading"
+msgstr "Ladataan sisältöä..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "Tutki edellinen liittyvä alue."
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "Alue jo tutkittu"
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "Ansaittu palkinto:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "Tutki edellinen liittyvä alue."
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "Alueen tutkiminen ei onnistu"
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "Virhe ladattaessa tietoja"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "Tutki alue"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "Alueen tutkimiseen tarvitaan %(value)s kenttäkomennuksen pistettä enemmän."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "Alueen tutkiminen ei onnistu"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "Tutki edellinen liittyvä alue."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "Alueen tutkiminen ei onnistu"
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "Lunasta palkinto"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "Ladataan sisältöä..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "Odotetaan palkinnon lisäystä..."
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "Päivitä"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "PALKINTO ALUEEN TUTKIMISESTA:"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "PALKINTO SAATU:"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "Esikatselu"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "Päivitä"
+
+msgid "questsPage/errorScreen/description"
+msgstr "Olemme pahoillamme väliaikaisesta häiriöstä."
+
+msgid "questsPage/errorScreen/heading"
+msgstr "Virhe ladattaessa tietoja"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "Lunasta palkinto"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "Klaanien autom. hakuun"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "Liity klaaniin suorittaaksesi tehtävät ja saadaksesi palkinnon."
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "Tehtävässä edistyminen on tauolla. Lunasta palkintosi jatkaaksesi: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "KOMENNUKSEN TEHTÄVÄT"
+
+msgid "questsPage/header/subheading"
+msgstr "Tee tehtäviä ja saa palkintoja. Toisen ja kolmannen tehtävän voi suorittaa vain osastossa/erillisosastossa klaanitoverin kanssa."
+
+msgid "questsPage/loading"
+msgstr "Ladataan sisältöä..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "Ansaitse tasojen VIII–XI vaunuilla taisteluissa ainakin {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} peruskokemusta pelatessasi osastossa tai voita taistelu erillisosastossa."
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "Ansaitse tasojen VI–XI vaunuilla taistellessasi taisteluissa ainakin {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} peruskokemusta tai voita taistelu erillisosastossa."
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "Tuhoa tasojen VIII–XI vaunuilla taistelussa ainakin {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} vihollisvaunua pelatessasi osastossa tai voita taistelu erillisosastossa."
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "Tuhoa tasojen VI–XI vaunuilla taistelussa ainakin {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} vihollisvaunua tai voita taistelu erillisosastossa."
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "Aiheuta tasojen VIII–XI vaunuilla taistelussa ainakin {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} pistettä vahinkoa pelatessasi osastossa tai voita taistelu erillisosastossa."
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "Aiheuta tasojen VI–XI vaunuilla taistelussa ainakin {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} pistettä vahinkoa tai voita taistelu erillisosastossa."
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "Teollisuusresurssit"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "Kenttäkomennuksen pisteet"
+
+msgid "questsPage/questCard/status/available"
+msgstr "Voit lunastaa palkinnon"
+
+msgid "questsPage/questCard/status/completed"
+msgstr "Palkinto otettu vastaan"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "Ei saatavilla"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "Palkinto lisätään tilillesi pian."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "Lunasta palkinnot edellisten tehtävien suorittamisesta."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "Suorita edellinen tehtävä."
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "Tehtävä ei saatavilla"
+
+msgid "questsPage/timer/dash"
+msgstr "—"
+
+msgid "questsPage/timer/heading"
+msgstr "Kenttäkomennuksen pisteiden keräämiseen jäljellä oleva aika"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "Ansaitset tehtävien suorittamisesta kenttäkomennuksen pisteitä, joita tarvitaan uusien alueiden tutkimiseen."
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "Kenttäkomennuksen pisteet"
+
+msgid "rewardsView/additionalRewards"
+msgstr "Sait myös:"
+
+msgid "rewardsView/button/close"
+msgstr "SULJE"
+
+msgid "rewardsView/button/confirm"
+msgstr "Selvä!"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "Näytä tallissa"
+
+msgid "rewardsView/heading"
+msgstr "PALKINTOJA SAATU"
+
+msgid "rewardsView/style/317"
+msgstr "Kaksiulotteinen \"Liekki\" -tyyli"
+
+msgid "rewardsView/style/345"
+msgstr "Kaksiulotteinen \"Ennustus\" -tyyli"
+
+msgid "rewardsView/style/435"
+msgstr "Kaksiulotteinen \"Kosto\" -tyyli"
+
+msgid "rewardsView/style/436"
+msgstr "Kaksiulotteinen \"Viikatemies\" -tyyli"
+
+msgid "rewardsView/subheading"
+msgstr "KENTTÄKOMENNUS"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Kenttäkomennuksen edistyminen"
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "Komennustehtävien edistyminen"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Kenttäkomennus"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "Komennustehtävät"

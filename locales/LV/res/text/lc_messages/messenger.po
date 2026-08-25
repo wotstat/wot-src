@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: <language team name> <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "skatīt jaunos ziņojumus"
+
+msgid "battle/history/header"
+msgstr "Pretinieki"
+
+msgid "battle/history/latestMessage"
+msgstr "skatīt pēdējo ziņojumu"
+
+msgid "battle/history/title"
+msgstr "Čata vēsture:"
+
+msgid "battle/history/upMessage"
+msgstr "skatīt vecos ziņojumus"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)sČATS ATSLĒGTS%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "Kaujas čats nav pieejams spēlētājiem no jūsu valsts."
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "Kaujas čats nav pieejams jūsu kontam."
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "Kaujas čatu aizliedz vecāku kontrole."
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "Kaujas čatu var ieslēgt kaujas iestatījumos."
+
+msgid "battle/receivers/common"
+msgstr "VISIEM"
+
+msgid "battle/receivers/squad"
+msgstr "UZ VADU"
+
+msgid "battle/receivers/team"
+msgstr "KOMANDAI"
+
+msgid "battle/toolTips/cancel"
+msgstr "atcelt"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "adresāta nomaiņa"
+
+msgid "battle/toolTips/default"
+msgstr "ar iepriekšējo adresātu"
+
+msgid "battle/toolTips/duringChat"
+msgstr "Sarakstes laikā:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "Jūs varat bloķēt ziņojumus no izvēlētā spēlētāja,\nuzspiežot uz pogas čatā blakus ziņojumam."
+
+msgid "battle/toolTips/send"
+msgstr "sūtīt"
+
+msgid "battle/toolTips/startChat"
+msgstr "Sākt saraksti:"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "Jūs varat sūdzēties par ziņojumu, uzspiežot uz tā un izvēloties iemeslu sūdzības iesniegšanai. Šī iespēja jums ļauj arī izslēgt čatu vai atstāt tikai čatu ar sabiedrotajiem. Vada čats būs pieejams visu laiku."
+
+msgid "battle/toolTips/usingChat"
+msgstr "Čats"
+
+msgid "battle/toolTips/withSquad"
+msgstr "ar savu vadu"
+
+msgid "battle/unknown/ally"
+msgstr "Sabiedrotais"
+
+msgid "battle/unknown/enemy"
+msgstr "Pretinieki"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "Jūs tiksiet atvienots no servera %(curfewTime)s. Sesija beigsies pēc %(timeLeft)s min."
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "Jūs sasniedzāt dienas spēlēšanas laika ierobežojumu. Jūsu sesija beigsies pēc %(timeLeft)s min."
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "Jūs sasniedzāt nedēļas spēlēšanas laika ierobežojumu. Jūsu sesija beigsies pēc %(timeLeft)s min."
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "Esiet sasnieguši jūsu spēlēšanas laika limitu. Jūsu sesija beigsies pēc %(timeLeft)s min."
+
+msgid "chat/personalMessage/warningBody"
+msgstr "Ziņojumi no nepazīstamiem spēlētājiem var iekļaut kaitniecīgas saites. Neveriet tās vaļā un nevienam neatklājiet savu paroli."
+
+msgid "chat/personalMessage/warningHead"
+msgstr "Uzmanību!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "Kaujas rezultāti"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "Ziņojums no %(playerName)s tika bloķēts."
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "Aizsūtīt ziņojumu"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "Aizsūtīt ziņojumu"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "Spēlētāju meklēšana"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "Balss komunikācijas iestatījumi"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "nevar nobanot pašam sevi."
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "Kļūda izpildot „%(actionName)s”."
+
+msgid "chat_error/IS_BUSY"
+msgstr "Serveris ir aizņemts."
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "nepietiek pieeju, lai izpildītu šo darbību."
+
+msgid "chat_error/NOT_READY"
+msgstr "Darbība „%(actionName)s” nav pieejama."
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "lietotājs neeksistē."
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "nepareizs parametrs."
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "Balss komunikācija izslēgta. Lai sazinātos ar Vada biedriem, ieslēdziet balss komunikāciju nospiežot %(keyName)s."
+
+msgid "client/COMP7/disableVOIP"
+msgstr "Balss čats izslēgts. Lai ieslēgtu balss čatu ar jūsu Vada locekļiem, ieslēdziet balss čatu (%(keyName)s)."
+
+msgid "client/commendations/comms_mutual"
+msgstr "Jūs un %(player)s atzināt viens otru."
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)s atzina jūs."
+
+msgid "client/commendations/comms_sent"
+msgstr "%(player)s tika atzīts."
+
+msgid "client/dynSquad/created/allies"
+msgstr "Sabiedrotie apvienojās vadā %(squadNum)s."
+
+msgid "client/dynSquad/created/enemies"
+msgstr "Pretinieku pusē izveidots vads %(squadNum)s."
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "Vads %(squadNum)s izveidots. Tagad ir pieejams vada čats un balss komunikācija. Lai izslēgtu balss komunikāciju, nospiediet %(keyName)s."
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "Vads %(squadNum)s izveidots. Tagad ir pieejams vada čats un balss komunikācija. Lai ieslēgtu balss komunikāciju, nospiediet %(keyName)s."
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "Vads %(squadNum)s izveidots. Tagad ir pieejams vada čats un balss komunikācija. Piešķiriet taustiņu balss komunikācijas ieslēgšanai/izslēgšanai."
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "Izveidots vads %(squadNum)s. Tagad ir pieejams vada čats."
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "Jūs pievienojāties vadam %(squadNum)s. Tagad ir pieejams vada čats un balss komunikācija. Lai izslēgtu balss komunikāciju, nospiediet %(keyName)s."
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "Jūs pievienojāties vadam %(squadNum)s. Tagad ir pieejams vada čats un balss komunikācija. Lai ieslēgtu balss komunikāciju, nospiediet %(keyName)s."
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "Jūs pievienojāties vadam %(squadNum)s. Tagad ir pieejams vada čats un balss komunikācija. Norādiet taustiņu balss komunikācijas ieslēgšanai/izslēgšanai."
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "Jūs pievienojāties vadam %(squadNum)s. Tagad ir pieejams vada čats."
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "Balss komunikācija izslēgta. Lai ieslēgtu balss komunikāciju, nospiediet %(keyName)s."
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "Balss komunikācija ieslēgta."
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "Jūs pievienojāties vadam %(squadNum)s. Tagad ir pieejams vada čats un balss komunikācija. Lai izslēgtu balss komunikāciju, nospiediet %(keyName)s."
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "Jūs pievienojāties vadam %(squadNum)s. Tagad ir pieejams vada čats un balss komunikācija. Lai ieslēgtu balss komunikāciju, nospiediet %(keyName)s."
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "Jūs pievienojāties vadam %(squadNum)s. Tagad ir pieejams vada čats un balss komunikācija. Norādiet taustiņu balss komunikācijas ieslēgšanai/izslēgšanai."
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "Jūs pievienojāties vadam %(squadNum)s. Tagad ir pieejams vada čats."
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s pievienojās vadam %(squadNum)s."
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s ielūdza jūs vadā."
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)s uzaicināja jūs vadā.\nUzmanību! Jūsu īstai segvārds un klana nozīmīte tiks parādīti vada locekļiem."
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s ir ielūgts vadā."
+
+msgid "client/error/broadcastInCooldown"
+msgstr "Ziņu sūtīšana ir iesaldēta uz %s s."
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "Komanda „%s” iesaldēta uz %s s."
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "Komanda „%s” iesaldēta."
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "Ziņojums apturēts. Lūdz gaidiet %s s."
+
+msgid "client/information/addToFriends/message"
+msgstr "Pieprasījums pievienot spēlētāju %s jūsu Draugu sarakstam saglabāts."
+
+msgid "client/information/addToIgnored/message"
+msgstr "Pieprasījums pievienot spēlētāju %s jūsu Melnajam Sarakstam ir saglabāts. Tērzēšana ar spēlētāju ir bloķēta, un spēlētāja ziņojumi ir paslēpti."
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "Čats ar %s ir bloķēts; spēlētāja ziņojumi ir paslēpti."
+
+msgid "client/information/emptySearchResult/message"
+msgstr "Nekas netika atrasts."
+
+msgid "client/information/removeFromFriends/message"
+msgstr "Pieprasījums izņemt spēlētāju %s no jūsu Draugu saraksta saglabāts."
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "Pieprasījums noņemt spēlētāju %s no jūsu Melnā Saraksta ir saglabāts. Tērzēšana ar spēlētāju ir pilnībā atjaunota."
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "Čats ar %s atkal ir pieejams."
+
+msgid "client/information/setMuted/message"
+msgstr "%s nevar jums sūtīt balss ziņojumus."
+
+msgid "client/information/unsetMuted/message"
+msgstr "%s var jums sūtīt balss ziņojumus."
+
+msgid "client/warning/AFKWarning/message"
+msgstr "Bezdarbība tiks sodīta!\nUzvarai ir nepieciešams komandas darbs!"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "Tukšs pieprasījums"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "Lietotāju meklēšana"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "Neatļauts simbols vai simbolu skaits meklēšanas rindā (pieļaujamais simbolu skaits no %d līdz %d)."
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "Lietotāju meklēšana"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "Pievienot spēlētāju draugu sarakstam"
+
+msgid "client_action/ADD_GROUP"
+msgstr "Izveidot grupu"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "Iekļaut spēlētāju melnajā sarakstā"
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "Apstiprināt draudzības uzaicinājumu"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "Noraidīt draudzības uzaicinājumu"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "Rediģēt grupu"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "Izveidot lietotāju kanālu"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "Spēlētāju meklēšana"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "Pievienoties spēlētāju kanālam"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "Pamest spēlētāju kanālu"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "Izdzēst spēlētāju no jūsu draugu saraksta"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "Izdzēst spēlētāju no jūsu melnā saraksta"
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "Izdzēst piezīmi"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "Aizsūtīt draudzības uzaicinājumu"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "Redzēt iepriekšējos ziņojumus"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "Meklēt spēlētāju kanālus"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "Aizsūtīt ziņojumu"
+
+msgid "client_action/SET_MUTE"
+msgstr "Izslēgt balss ziņojumus"
+
+msgid "client_action/SET_NOTE"
+msgstr "Izveidot/rediģēt piezīmi"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "Ieslēgt balss ziņojumus"
+
+msgid "client_error/action/in_cooldown"
+msgstr "Darbība „%(actionName)s” ir iesaldēta uz %(floatArg1)s s."
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "Darbība „%(actionName)s” īslaicīgi nav pieejama. Mēģiniet vēlāk."
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "Pārsniegts maksimālais pieļaujamais kanālu skaits. Lūdzu, aizveriet nevajadzīgos kanālus un mēģiniet vēlreiz."
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "Kanāls „%(strArg1)s” jau pastāv."
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "Nav norādīts kanāla nosaukums."
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "Nepareizs kanāla nosaukums „%(strArg1)s”."
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "Paroles apstiprinājums nesakrīt ar ievadīto paroli."
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "Nav norādīta kanāla parole."
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "Nepareiza kanāla parole."
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "Nav norādīts kanāla paroles apstiprinājums."
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "Nepareizs paroles apstiprinājums."
+
+msgid "client_error/command/generic_error"
+msgstr "Kļūda izpildot komandu „%(strArg1)s”."
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "komanda iesaldēta uz %(floatArg1)s."
+
+msgid "client_error/command/not_supported"
+msgstr "spēles klients neatbalsta komandu %(strArg1)s."
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "nepareizs bana ilgums %(int64Arg1)s."
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "nepareizs bana veids %(int32Arg1)s."
+
+msgid "client_error/command/wrong_player_name"
+msgstr "nepareizs spēlētāja vārds %(strArg1)s."
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "Spēlētājs „%(strArg1)s” ir jūsu melnajā sarakstā."
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "Spēlētājs „%(strArg1)s” nav jūsu melnajā sarakstā."
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "Spēlētājs nav atrasts."
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "Jūs jau apstiprinājāt draudzības uzaicinājumu no „%(strArg1)s”."
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "Jūs jau noraidījāt draudzības uzaicinājumu no „%(strArg1)s”."
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "Jūsu atbilde „%(strArg1)s” draudzības uzaicinājumam tiek apstrādāta."
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "Nav norādīts grupas nosaukums."
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "Grupa „%(strArg1)s” jau pastāv."
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "Nepareizs grupas vārds „%(strArg1)s”."
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "Grupa „%(strArg1)s” nav atrasta."
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "Balss ziņojumi spēlētājam „%(strArg1)s” ir ieslēgti."
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "Nav norādīts piezīmes teksts."
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "Spēlētājam „%(strArg1)s” nav piezīmes."
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "Spēlētājs „%(strArg1)s” ir jūsu draugu sarakstā."
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "Spēlētājs „%(strArg1)s” netika atrasts jūsu draugu sarakstā."
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "Kanāla nosaukumam jābūt %(int32Arg1)s-%(int32Arg2)s simbolus garam."
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "Grupas nosaukumam nevajadzētu pārsniegt %(int32Arg2)s simbolus."
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "Maksimālais spēlētāju skaits melnajā sarakstā %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "Izveidots maksimālais grupu skaits %(int32Arg2)s."
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "Diemžēl jūs nevarat pievienot kontaktu sarakstam vairāk par %(int32Arg2)s spēlētājiem. Caurskatiet kontaktu sarakstu un izdzēsiet spēlētājus, ar kuriem jūs kopā nespēlējat."
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "Piezīmes tekstam nevajadzētu pārsniegt %(int32Arg2)s simbolus."
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "Parolei jābūt %(int32Arg1)s-%(int32Arg2)s simbolus garai."
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "Nepareizs spēlētāja identifikators."
+
+msgid "client_error/shared/GENERIC"
+msgstr "Kļūda izpildot „%(actionName)s”."
+
+msgid "client_error/shared/LOCKED"
+msgstr "Darbība „%(actionName)s” īslaicīgi nav pieejama. Mēģiniet vēlāk."
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "Spēlētāja vārds nav norādīts."
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "Nepareizs spēlētāja vārds %(strArg1)s."
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "Neizdodas pieslēgties čata serverim. Mēģiniet vēlāk."
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "Darbību „%(actionName)s” neatbalsta spēles klients."
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "Notika kļūda, mēģiniet vēlreiz vēlāk."
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "Līdz atskaites sākumam dažas iespējas ir atslēgtas."
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "Norādīti nepareizi dati."
+
+msgid "command/acceptInvite"
+msgstr "Apstiprināt ielūgumu"
+
+msgid "command/addFriend"
+msgstr "Pievienot spēlētāju grupā „Draugi”"
+
+msgid "command/addIgnored"
+msgstr "Iekļaut spēlētāju melnajā sarakstā"
+
+msgid "command/broadcast"
+msgstr "Aizsūtīt ziņojumu"
+
+msgid "command/createChatChannel"
+msgstr "Izveidot kanālu"
+
+msgid "command/createInvite"
+msgstr "Izveidot ielūgumu"
+
+msgid "command/createPrivate"
+msgstr "Izveidot privātu kanālu"
+
+msgid "command/findChatChannels"
+msgstr "Kanālu meklēšana"
+
+msgid "command/findUser"
+msgstr "Spēlētāju meklēšana"
+
+msgid "command/getActiveInvites"
+msgstr "Saņemt ielūgumu sarakstu"
+
+msgid "command/getArchiveInvites"
+msgstr "Saņemt ielūgumu sarakstu arhīvā"
+
+msgid "command/getMembersCount"
+msgstr "Saņemt spēlētāju skaitu kanālā"
+
+msgid "command/leaveChatChannel"
+msgstr "Pamest kanālu"
+
+msgid "command/rejectInvite"
+msgstr "Noraidīt ielūgumu"
+
+msgid "command/removeFriend"
+msgstr "Izdzēst spēlētāju no grupas „Draugi”"
+
+msgid "command/removeIgnored"
+msgstr "Izdzēst spēlētāju no jūsu melnā saraksta"
+
+msgid "command/requestChatChannelMembers"
+msgstr "Saņemt kanāla lietotāju sarakstu"
+
+msgid "command/requestSystemChatChannels"
+msgstr "Saņemt sistēmas kanālu sarakstu"
+
+msgid "command/setMuted"
+msgstr "Izslēgt balss ziņojumus"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s ir nobanots."
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s vairs nav nobanots."
+
+msgid "command/unsetMuted"
+msgstr "Ieslēgt balss ziņojumus"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "Uzspiediet, lai saglabātu izveidoto kontaktu grupu."
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "Izveidot"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "Uzspiediet, lai atceltu izveidi un atgrieztos kontaktu sarakstā."
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "Aizvērt"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "Uzspiediet, lai izdzēstu kontaktu grupu."
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "Izdzēst"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "Uzspiediet, lai atceltu izdzēšanu un atgrieztos kontaktu sarakstā."
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "Atcelt"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "Uzspiediet, lai saglabātu kontaktu grupu zem cita nosaukuma."
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "Saglabāt"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "Uzspiediet, lai atceltu rediģēšanu un atgrieztos kontaktu sarakstā."
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "Aizvērt"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "Vārda garums nevar pārsniegt %(maxChars)s simbolus."
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "Uzspiediet, lai pievienotu spēlētāju savam draugu sarakstam."
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "Pievienot"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "Uzspiediet, lai atceltu spēlētāju meklēšanu un atgrieztos kontaktu sarakstā."
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "Aizvērt"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "Uzspiediet, lai meklētu spēlētāju pēc vārda."
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "Meklēt"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "Vārdam jābūt no %(minChars)s līdz %(maxChars)s simbolus garam."
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "Dēļ pārāk biežas pieprasījumu veikšanas meklēšana iesaldēta uz %(time)s."
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "Uzspiediet, lai saglabātu izvēlētos iestatījumus."
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "Pielietot"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "Uzspiediet, lai atceltu izmaiņas un atgrieztos kontaktu sarakstā."
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "Atcelt"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "Uzspiediet, lai izveidotu grupu."
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "Grupas izveide"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "Uzspiediet, lai meklētu spēlētāju pēc vārda, kurš nav jūsu kontaktu sarakstā."
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "Meklēt ārpus kontaktiem"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "Uzspiediet, lai sameklētu un pievienotu spēlētāju kontaktiem."
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "Spēlētāju meklēšana"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "Uzspiediet, lai izmainītu kontaktu saraksta iestatījumus."
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "Iestatījumi"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "Vārda garums nevar pārsniegt %(maxChars)s simbolus."
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "Aizsūtīt komandu"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "Izslēgt no komandas"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "Aizvērt"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "Izveidot kanālu"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "Meklēt un pievienoties"
+
+msgid "dialogs/channels/title"
+msgstr "Kanāli"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "Aizvērt"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "Pievienoties"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "Parolei jābūt 3-12 simbolus garai."
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "Nepareiza parole."
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "Jūs cenšaties pievienoties aizsargātam kanālam %s."
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "Ievadiet paroli:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "Brīdinājums"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "Pievienošanās pie kanāla"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "Uzaicināt klanā"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "Pievienot draugiem"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "Iekļaut melnajā sarakstā"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "Kopēt vārdu"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "Izveidot privātu kanālu"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "Pārskaitīt zeltu"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "Izdzēst no kontaktiem"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "Izdzēst no melnā saraksta"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "Rādīt informāciju"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "Kārtot pēc vārdiem"
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "Kārtot pēc statusa"
+
+msgid "dialogs/contacts/title"
+msgstr "Kontaktu saraksts"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "Klans"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "Draugi"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "Pieprasījumi pievienot draugu sarakstam"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "Melnais saraksts"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "Izslēgti balss ziņojumi"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "Aizvērt"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "Izveidot"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "Tiks automātiski izveidots"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "Ievadiet paroli"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "Kanāla nosaukums"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "Parole"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "Atkārtojiet paroli"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "Pieslēdzoties pieprasīt paroli"
+
+msgid "dialogs/createChannel/title"
+msgstr "Kanāla izveidošana"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "Izvēlieties %(vehName)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "Izvēlieties %(level)s līmeņa bruņutehniku"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "Izvēlieties bruņutehniku"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "Izvēlieties %(level)s līmeņa bruņutehniku"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "Bruņutehnika: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "Aizvērt"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "Pievienoties"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "Meklēt"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "Meklēšanas rezultāti (pirmie %d):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "Meklēšana"
+
+msgid "dialogs/searchChannel/title"
+msgstr "Kanāla meklēšana"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "Draugos"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "Melnajā sarakstā"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "Aizvērt"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "Meklēt"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "Informācija"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "Meklēšanas rezultāti:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "Meklēšana"
+
+msgid "dialogs/searchContact/title"
+msgstr "Atrast kontaktus"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "Dienesta kanāls"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "Izvēlieties VIII līmeņa tanku"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "Galvenais mērķis ir būt pēdējam stāvošam Vadam."
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "Frontes līnijas režīms ir pieejams\ntikai VIII līmeņa tankiem."
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ pasākums +++\n+++ pasākums +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "Papildus pieredze par kauju\nar IV vai augstāka līmeņa bruņutehniku"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "Spēlējiet ar tāda paša līmeņa bruņutehniku,\nsākot ar IV līmeni, un iegūsties papildus pieredzi"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "Kad spēlētāji pieņem uzaicinājumu, jūsu īstais segvārds un klana nozīmīte tiks parādīti viņiem uz kaujas laiku."
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "Čata kanāls"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "Eksperimentāli moduļi uzstādīti uz tankiem: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "Statuss: Pārtraukumā"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "Statuss: Atrodas kaujā"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "Statuss: Nav gatavs"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "Statuss: Nav tīklā"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "Statuss: Gatavs"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "Izformēt"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "Uzaicināt"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "vainīgs"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "turēts aizdomās"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "Iznīcināja sabiedrotos: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "Izslēgt balss ziņojumus"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "Pievienot draugiem"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "Iekļaut melnajā sarakstā"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "Aizvērt"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "Izveidot privātu kanālu"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "Pieņemt balss ziņojumus"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "Kopējais"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "Reģistrējies"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "Bija kaujā pēdējo reizi"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "Statuss:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s – Informācija par spēlētāju"
+
+msgid "events/enterChannel"
+msgstr "[%s] pievienojās kanālam"
+
+msgid "events/leaveChannel"
+msgstr "[%s] pameta kanālu"
+
+msgid "keyboardChat"
+msgstr "Čats"
+
+msgid "listView/emptyList/info"
+msgstr "Paziņojumi"
+
+msgid "listView/emptyList/invite"
+msgstr "Ielūgumi"
+
+msgid "listView/emptyList/offer"
+msgstr "īpašie"
+
+msgid "listView/emptyList/template"
+msgstr "%(listType)s vēl nav."
+
+msgid "listView/news/checkNewsBtn"
+msgstr "Uz Jaunumiem"
+
+msgid "listView/news/header"
+msgstr "KAS JAUNS?"
+
+msgid "listView/title"
+msgstr "Paziņojumu centrs"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "Kaujas laiks: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "Aizsūtīt"
+
+msgid "lobby/buttons/channels"
+msgstr "Kanāli"
+
+msgid "lobby/buttons/contacts"
+msgstr "Kontakti"
+
+msgid "lobby/buttons/send"
+msgstr "Aizsūtīt"
+
+msgid "lobby/channels/actions/remove"
+msgstr "Aizvērt kanālu"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "Ziņojumos rādīt datumu"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "Ziņojumos rādīt laiku"
+
+msgid "lobby/faq/close"
+msgstr "Aizvērt"
+
+msgid "lobby/faq/title"
+msgstr "BUJ"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "Pievienot spēlētāju draugiem"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "Iekļaut šo spēlētāju melnajā sarakstā"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "Kopēt vārdu"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "Izveidot privātu kanālu"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "Apskatīt informāciju par spēlētāju"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "Meklēt ārpus kontaktiem"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "Atcelt"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "Rediģēt grupu"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "Izdzēst no grupas"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "Izdzēst grupu"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "Uzspiediet, lai atceltu izveidi un atgrieztos kontaktu sarakstā."
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "Aizvērt"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "Uzspiediet, lai saglabātu izveidoto piezīmi par spēlētāju."
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "Izveidot"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "Pārvelciet kontaktus šeit"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "Uzspiediet, lai atceltu rediģēšanu un atgrieztos kontaktu sarakstā."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "Aizvērt"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "Uzspiediet, lai saglabātu izmaiņas piezīmē par spēlētāju."
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "Saglabāt"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "Jūsu pieprasījums nedeva rezultātus."
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "Pastāvīgas taktiskās vienības"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "Draugi"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "Citi"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "Melnais saraksts"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "Draudzības uzaicinājumi"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "Atrast spēlētāju sarakstā"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "Spēlētāji vēl nav pievienoti."
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "Kontaktu saraksts tukšs"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "Neviens no kontaktiem šobrīd tiešsaistē nav"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "Mēģiniet meklēt ārpus kontaktu saraksta."
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "Sakritību nav"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "Ievadiet spēlētāja vārdu"
+
+msgid "messenger/contacts/title"
+msgstr "Kontakti"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "Aizvērt"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "Pievienot"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "Šāda grupa jau pastāv."
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "Spēlētāju meklēšana"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "Aizvērt"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "Izveidot"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "Piezīmes izveidošana"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "Aizvērt"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "Saglabāt"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "Vārda garums nevar pārsniegt %(maxChars)s simbolus."
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "Piezīmes rediģēšana"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "priekš "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "Aizvērt"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "Izveidot"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "Grupas izveide"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "Ievadiet nosaukumu (līdz %(symbols)s simboliem)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "Ieskaitot kontaktus grupā"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "Atcelt"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "Izdzēst"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "Grupas izdzēšana"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "Aizvērt"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "Saglabāt"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "Rediģēt grupu"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "Ievadiet nosaukumu (līdz %(symbols)s simboliem)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "Ievadiet aprakstu (līdz %(symbols)s simboliem)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "Aprakstam nevajadzētu pārsniegt %(maxChars)s simbolus."
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "Spēlētāju meklēšana"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "Saņemt kā grupa vienā logā"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "Rādīt spēlētājus, kas nav tiešsaistē"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "Rādīt kategoriju „Citi”"
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "Ziņojumi no spēlētājiem, kas nav kontaktu sarakstā:"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "Saņemt atsevišķā logā"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "Atcelt"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "Pielietot"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "Iestatījumi"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "Pievienots komponents"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "Kaujas Caurlaides Punkti noņemti"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "Čipi noņemti"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "Manevru Tokeni noņemti"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "Komponentes noņemtas"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "Personālie Slavas Punkti noņemti"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "Norakstīta brīvā pieredze"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "Dežūras Punkti noņemti"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "Tokeni par darbības gadiem noņemti"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "Kaujas Caurlaides Punkti pievienoti"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "Čipi pievienoti"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "Manevru Tokeni pievienoti"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "Komponentes pievienotas"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "Personālie Slavas Punkti pievienoti"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "Saņemta brīvā pieredze"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "Dežūras Punkti pievienoti"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "Tokeni par darbības gadiem pievienoti"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "Pievienot visus kontaktus saņēmēju sarakstam."
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "Pievienot izvēlēto kontaktu."
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "Izņemt visus kontaktus no saņēmēju saraksta."
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "Izņemt izvēlēto kontaktu no saņēmēju saraksta."
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "Darbība %(action)s 'iesaldēta' uz %(cooldownPeriod)s s."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "Čata kļūda"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "Sasniegts atvērto čata kanālu ierobežojums. Lūdzu, aizveriet neizmantotos kanālus."
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "Kļūda"
+
+msgid "server/errors/addFriendError/message"
+msgstr "Kļūda pievienojot lietotāju draugu sarakstam."
+
+msgid "server/errors/addFriendError/title"
+msgstr "Kļūda"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "Kļūda iekļaujot lietotāju melnajā sarakstā."
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "Kļūda"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "Kanāls ar tādu nosaukumu jau eksistē."
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "Kļūda veidojot kanālu."
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "Kanāls ir dzēsts."
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "Kļūda pievienojoties kanālam."
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "Čata kļūda"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "Kļūda pielietojot čata komandu: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "Čata kļūda"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "Komanda %(command)s iesaldēta uz %(cooldownPeriod)s s."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "Čata kļūda"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "Ziņojums apturēts. Pārāk daudz ziņojumu."
+
+msgid "server/errors/connectTimeout/message"
+msgstr "Pieslēgšanās periods kanālam ir beidzies."
+
+msgid "server/errors/connectTimeout/title"
+msgstr "Čata kļūda"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "Nevar izveidot privātu kanālu, jo lietotājs šobrīd nav tīklā."
+
+msgid "server/errors/createPrivateError/title"
+msgstr "Čata kļūda"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "Neatļauts simbols"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "Kļūda"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "Nepareizs parametrs %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "Kļūda"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "Nepareiza aizsargāta kanāla parole."
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "Kļūda pievienojoties kanālam."
+
+msgid "server/errors/initializationFailure/message"
+msgstr "Kļūda čata inicializācijā."
+
+msgid "server/errors/initializationFailure/title"
+msgstr "Čata kļūda"
+
+msgid "server/errors/internalError/message"
+msgstr "Iekšēja kļūda, mēģiniet vēlāk."
+
+msgid "server/errors/internalError/title"
+msgstr "Kļūda veidojot kanālu"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "Nepareizs kanāla nosaukums."
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "Čata kļūda"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "Kļūda izpildot uzaicināšanas komandu."
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "Kļūda"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "Lietotājs %(user)s jau ir nobanots."
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "Čata kļūda"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "Lietotājs %(user)s jau ir kanāla moderators."
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "Čata kļūda"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "Čata kļūda"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "Lietotājs atslēgts"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "Čata kļūda"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "Lietotājs %(user)s nav kanāla moderators."
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "Čata kļūda"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "Sasniegts lietotāju skaita limits kanālā."
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "Kļūda pieslēdzoties kanālam"
+
+msgid "server/errors/notAllowed/message"
+msgstr "Pietrūkst tiesības veikt šo darbību."
+
+msgid "server/errors/notAllowed/title"
+msgstr "Čata kļūda"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "Lai pievienotos aizsargātam kanālam, ievadiet paroli."
+
+msgid "server/errors/passwordRequired/title"
+msgstr "Kļūda pievienojoties kanālam"
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "Šī iestatījuma maiņa pašlaik nav pieejama."
+
+msgid "server/errors/sqlError/message"
+msgstr "Kļūda vēršoties pie DB."
+
+msgid "server/errors/sqlError/title"
+msgstr "Kļūda"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "Šis lietotājs iekļāva jūs savā melnajā sarakstā."
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "Kļūda"
+
+msgid "server/errors/userNotExists/message"
+msgstr "Lietotājs neeksistē."
+
+msgid "server/errors/userNotExists/title"
+msgstr "Kļūda"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "Sasniegts maksimālais lietotāju skaits kontaktu sarakstā."
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "Kļūda"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "Pārsniegts maksimālais pieļaujamais kanālu skaits."
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "Pārsniegts maksimālais pieļaujamais simbolu skaits kanāla nosaukumā."
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "Pārsniegts maksimālais pieļaujamais simbolu skaits parolē."
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "Kanāls „%(strArg1)s” jau pastāv."
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "Neatļauti simboli kanāla nosaukumā."
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "Aizliegts vārds kanāla nosaukumā."
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "Tērauda Mednieks"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "Šie ir īpaši tanki priekš Tērauda Mednieka. Piedalieties Tērauda Medniekā, lai uzzinātu, ko spēj šie tanki."
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "Bruņutehnika iznīcināta"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "Līmenis sasniegts"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "Punkti nopelnīti"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "Uzvara"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "Pievienots"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "Sapratu!"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "Doties uz operāciju"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "Sasniegumi"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "Akcija"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "Akcija beigusies"
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "WoT Plus pārvaldāms Pieredzes reizinātājs ir pieejams"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "WoT Plus pārvaldāms Pieredzes reizinātājs nav pieejams"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "Neizdevās papildināt %s aprīkojumu. Viss jūsu zelts būs pieejams pēc WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "Neizdevās atjaunot direktīvas priekš %s. Operācija īslaicīgi nav pieejama uzturēšanas dēļ."
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "Neizdevās papildināt %s direktīvas. Pietrūkst līdzekļu."
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "Neizdevās automātiski papildināt %s direktīvas. Papildiniet tās pašrocīgi."
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "Direktīva priekš %s tika veiksmīgi atjaunota. Jūs iztērējāt "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Neizdevās papildināt %s aprīkojumu. Iegādājieties aprīkojumu par zeltu."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Neizdevās papildināt %s aprīkojumu. Pietrūkst kredītu."
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "Neizdevās papildināt %s aprīkojumu. Viss jūsu zelts būs pieejams pēc WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "Neizdevās automātiski papildināt %s aprīkojumu. Papildiniet aprīkojumu pašrocīgi."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Palīgmateriāli priekš %s tika veiksmīgi atjaunoti. Jūs iztērējāt "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "Neizdevās papildināt %s munīciju. Apsveriet iespēju iegādāties munīciju par zeltu."
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "Neizdevās papildināt %s munīciju. Pietrūkst kredītu."
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "Neizdevās papildināt %s munīciju. Viss jūsu zelts būs pieejams pēc WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "Neizdodas automātiski papildināt %s munīcijas komplektu. Ielādējiet munīciju pašrocīgi."
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "Bruņutehnikas %s munīcija papildināta veiksmīgi. Iztērēts "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "Neizdevās automātiski pagarināt stila nomāšanu par %s. Iegādājieties stilu par zeltu."
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "Neizdevās automātiski pagarināt stila nomāšanu par %s. Nepietiek līdzekļu."
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "Neizdevās automātiski pagarināt stila nomāšanu par %s. Viss jūsu zelts būs pieejams pēc WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "Pagarināt nomas laiku"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "%s nomas stils pielāgots %s tankam drīz beigsies: 3 kaujas atlikušas."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "%s stila noma priekš %s tiks automātiski pagarināta uz vēl %s kaujām pēc 3 kaujām."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "Pie ārienes"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "%s Tanka nomājamā stila %s daudzums ir izbeidzies. Jūs varat papildināt stila nomāšanas daudzumu ekrānā Ārējais izskats."
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "Neizdevās automātiski pagarināt stila nomāšanu par %s. Iegādāties stilu pašrocīgi."
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "Stila nomāšana uz %s veiksmīgi pagarināta. Iztērēts "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "Neizdevās saremontēt %s."
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "Neizdevās saremontēt %s. Pietrūkst kredītu."
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "Neizdevās saremontēt %s. Viss jūsu zelts būs pieejams pēc WG Wallet funkcionalitātes atjaunošanas."
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "Neizdevās automātiski saremontēt %s. Saremontējiet bruņutehniku pašrocīgi."
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "Bruņutehnika %s veiksmīgi saremontēta. Iztērēts "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "WoT Plus tankista karogs ir pieejams"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "WoT Plus tankista karogs nav pieejams"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "Pievienotas uzšuves"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "WoT Plus kaujas bonuss ir pieejams"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "WoT Plus kaujas bonuss nav pieejams"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "Misija izpildīta: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "Jūs izpildījāt Tanku Akadēmijas misiju sēriju."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "Tokeni var tikt iemainīti pret jebkuru izpētāmu VI Līmeņa tanku."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "Uz Tanku Izvēli"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "Apsveicam!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "Tanku Akadēmijas misijas izpildītas: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "Balva saņemta:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "Akadēmijas Tokens izmantots."
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "Balva saņemta:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "Garāžas vietas: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "Nomas tanki: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "Iegūsti tankus un noderīgus resursus, izpildot mācību uzdevumus"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "Uz Tanku akadēmiju"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "VISS NEPIECIEŠAMAIS\nSĀKUMAM"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "Akadēmijas Tokens"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "Neiztērēti Punkti izmantoti"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "Neiztērētie Punkti izmantoti pēc Elites Ķēdes aktivizācijas: %(points)s."
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "Neiztērēti Punkti izmantoti: %(points)s priekš %(chapter)s Nodaļas."
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "Standarta Iekārtas Izvēlei"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "Elites Ķēde aktivizēta"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "Elites Ķēde apturēta."
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "Punktu Ierobežojums sasniegts"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "Jūs nopelnījāt maksimālo Punktu skaitu iekš %(vehName)s.\nBalva par Punktu Ierobežojuma sasniegšanu:%(bonusPoints)s.\nCīnieties citā tankā, lai turpinātu pelnīt Punktus."
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "Apsveicam!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "%(name)s stils saņemts. To var pielietot uzreiz jebkuram tankam un uzlabot Kaujas Caurlaides progresijas laikā."
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "Balvu Iekārtas Izvēlei"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "Plašāk"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "Plašāk"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "Jūs pabeidzāt Kaujas Caurlaides %(chapter)s Nodaļu!\nBalvas saņemtas:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "Jūs pabeidzāt Kaujas Caurlaides %(chapter)s Nodaļu!\nBalvas saņemtas:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "Jūs izpildījāt Progresa Stadiju %(newLevel)s\n\nBalva saņemta:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "Stadijas pievienotas %(chapter)s Nodaļā: %(levelCount)s\nJūs sasniedzāt %(currentLevel)s Stadiju.\nBalvas saņemtas:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "Jūs saņēmāt balvas par iepriekš izpildītām Kaujas Caurlaides Stadijām:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "Jūs tagad saņemsiet balvas no Pamata un Uzlabotā Balvu Ceļa."
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "Jūs saņēmāt balvas par izpildītām Stadijām izmantojot neiztērētus Punktus:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "Jūs izpildījāt %(chapter)s Nodaļu.\nBalva saņemta:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "Turpiniet cīnīties un pelnīt Punktus!"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "Jūs pabeidzāt visas galvenās Kaujas Caurlaides %(season)s Nodaļas.\nBalva saņemta:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "Jūs izpildījāt Progresijas Stadiju %(newLevel)s no %(chapter)s Nodaļas.\nBalva saņemta:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "Plašāk"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "Brīvā Pieredze iztērēta:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "Zelts iztērēts:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "Jūs nopirkāt Uzlaboto Caurlaidi un visas Stadijas priekš %(chapter)s Nodaļas.\nBalvas saņemtas par visām Nodaļas Stadijām:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "Jūs saņēmāt bonusu par Uzlaboto Kaujas Caurlaižu iegādi:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "Jūs tagad saņemsiet gan Pamata gan Uzlabotās balvas par visām Sezonas Nodaļām."
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "Stadijas pievienotas %(chapter)s Nodaļā: %(levelCount)s\nJūs sasniedzāt %(currentLevel)s Stadiju.\nBalvas saņemtas:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "Jūs saņēmāt bonusu par Uzlabotās Kaujas Caurlaides iegādi:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "Šī Uzlabotā Caurlaide tiek piemērota tikai %(chapter)s Nodaļai."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "Jūs saņēmāt balvas par iepriekš pabeigtām Kaujas Caurlaides Stadijām:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "Šis Uzlabota Kaujas Caurlaide darbojas tikai %(chapter)s nodaļai."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "Jūs tagad saņemsiet atlīdzības gan no Bāzes, gan Uzlabotā atlīdzību ceļa %(chapter)s nodaļā."
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "Noklusējuma Balva Pievienota:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "Uzlabota Caurlaide Nopirkta"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "Uzlabota Caurlaide Nopirkta"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "Stadijas Nopirktas"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "Apsveicam!"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "Balva Piešķirta"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "Elites Ķēdes Stadija pabeigta.\nBalva saņemta:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "Elites Ķēdes Stadijas pabeigtas: %(amount)s\nBalva saņemta:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "Apkalpes loceklis:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "Kaujas sasniegumi"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "Saņemts %s par akciju '%s'"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "Saņemts %s par akcijām '%s'"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s Tokeni"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s kredīti"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s bonds"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "%s Gadadienas Monētas"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s brīvās pieredzes"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s zelta vienības"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "Karte"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "Kaujas Caurlaides Punkti saņemti: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "Tokeni saņemti"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "Plašāk"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "kompensācija par sabiedroto uguns saņemšanu: %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "Kredīti nopelnīti: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "Saņemtas bonas"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "Zaudējums"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "x%d par pirmo dienas uzvaru"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "Neizšķirts"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "Kauja beigusies"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "Kaujas rezerves punkti"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "Komponentes saņemtas"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "Gadadienas Monētas saņemtas"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "Pieredze saņemta: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "Uzbrukums"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "Ēka"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "Nopelnīti industriālie resursi"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "klans"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "spēlētājs"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "Saņemta brīvā pieredze"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "Nopelnīts zelts"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "Par pievienošanos %(campaignName)s rindām tev piešķirta %(nameMedal)s medaļa."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "Apsveicam!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "Par veiksmīgu 45 uzdevumu izpildi %(categoryName)s sērijā %(campaignName)s kampaņā tev piešķirta %(nameMedal)s medaļa."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "Par veiksmīgu 30 uzdevumu izpildi %(categoryName)s sērijā %(campaignName)s kampaņā tev piešķirta %(nameMedal)s medaļa."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "Par veiksmīgu 15 uzdevumu izpildi %(categoryName)s sērijā %(campaignName)s kampaņā tev piešķirta %(nameMedal)s medaļa."
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "sods par bojājumu izdarīšanu sabiedrotajiem: %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "Apsveicam!\nPar veiksmīgu personīgo misiju izpildīšanu jūs saņemat šādas atlīdzības"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "Apsveicam!\nPar veiksmīgu Ilgi Gaidītie Papildspēki kampaņas personālo misiju izpildi jūs saņemsiet sekojošas balvas"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "Apsveicam!\nPar veiksmīgu Otrā Fronte kampaņas personālo misiju izpildi jūs saņemsiet sekojošas balvas"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "Apsveicam!\nPar veiksmīgu abu kampaņu personālo misiju izpildi jūs saņemsiet sekojošas balvas"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "Pievienots Kredītu Rezervei"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Misija izpildīta! Balva"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "Sasniegumi"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "Kaujas Caurlaides Punkti saņemti: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "Pievienotas kojas kazarmās"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "Tokeni pievienoti"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "Kredīti pievienoti"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "Pievienotas bonas"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "Komponentes pievienotas"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "Gadadienas Monētas pievienotas"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "Pievienota brīvā pieredze"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "Pievienots zelts"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "Pievienots"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "Kampaņas Punkti: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "Mājdzīvnieki saņemti"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "Pievienotas Wargaming Premium konta dienas"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "Pievienotas WoT Premium konta dienas"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "Bonuss Kaujas pievienotas: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "%(count)s ikdienas"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "%(count)s standarta"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "Pievienoti sloti"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "Bonuss Kaujas pievienotas"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \nStandarta, par jūsu sniegumu izpildītajā stadijā: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \nPar misiju izpildi: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \nIkdienas, par saņemtajiem ševroniem Kvalifikācijā: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \nStandarta, par saņemtajiem ševroniem Kvalifikācijā: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "Izmaiņas rangos"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \nŠevroni saņemti"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \nŠevroni saņemti"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \nPāriet uz Divīziju: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \nPāriet uz līgām"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \nŠevrons nosargāts"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \nJūs saņēmāt rangu %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \nJūs pazaudējāt rangu %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \nRanga vairogs novājināts"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \nNav izmaiņu"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \nRanga vairogs salauzts"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \nŠevrons nosargāts"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \nŠevrons saņemts"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \nŠevrons zaudēts"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \nŠevroni saņemti"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "Reitinga Punkti"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "Jūs saņēmāt sekojošās balvas par jūsu darbības gadiem"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "Apsveicam!"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "Rekrūtis"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "Bruņutehnika"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "Tankiste"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "Tehniskais zaudējums"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "Tehniskā uzvara"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "Uzvara"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "Viens slots no neiekļautajām kartēm tika noņemts. %(mapName)s karte ir atpakaļ rotācijā."
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "Neiekļautā %(mapNames)s karte tika izņemta no spēles. Jūs variet neiekļaut jaunu karti."
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "Viens slots no neiekļautajām kartēm tika noņemts. %(mapNames)s karte ir atpakaļ rotācijā"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "Piedāvājums ir sācies!\nTikai 10 dienas, iemainiet jūsu rasējumus pret citām vērtīgām lietām."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "Plašāk"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "Piedāvājums beidzies"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "Iemainiet Jūsu Rasējumus"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "Rasējumu konversija ir izslēgta apkopes dēļ."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "Rasējumu konversija ieslēgta."
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "Neaizmirstiet iegūt jūsu balvas!"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "Iet uz Izvēli"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "Bonusi no notiekošajām kaujām nav iekļauti."
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "Personīgā rezerve „%(boosterName)s” ir atslēgta tehnisku iemeslu dēļ."
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: Personālā Rezerve pilnībā izmantota"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "Zaudētās Rezerves:"
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "Rezerves ir beigušās"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "kredītiem"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "Brīvajai pieredzei"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "Apkalpes pieredzei"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "Kaujas pieredze"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "Kopējs bonuss %(resourceName)s:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "Aizvērt"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "Jūs pametāt vai tikāt izslēgti no klana:"
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "%(element_name)s pievienots"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "Pievienota medaļa \"%(element_name)s\""
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "Pievienota \"%(element_name)s\" strīpa"
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "Balva saņemta"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "Saņemti atzinības raksti"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "Dzīvie Tagi pašlaik nav pieejami"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "Dzīvie Tagi ir pieejami kaujā"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "Atzinumi pašlaik nav pieejami"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "Atzinumi ir pieejami kaujā"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "No administrācijas saņemts: zelts – %(gold)s, kredīti – %(credits)s."
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "No administrācijas saņemti %(credits)s kredīti."
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "Apkalpes Asistents ir pieejams"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "Apkalpes Asistents nav pieejams"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "Kredītu un Zelta Rezerves Atvērtas!"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "Izsole"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "Kaujas Caurlaide"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "Datums"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "Tokeni noņemti"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "Norakstīti kredīti"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "Norakstītas bonas"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "Komponentes noņemtas"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "Gadadienas Monētas noņemtas"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "Norakstīta brīvā pieredze"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "Norakstīts zelts"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "Finanšu operācija"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "Izsole"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "Tokeni saņemti"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "Saņemti kredīti"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "Saņemtas bonas"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "Komponentes saņemtas"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "Gadadienas Monētas saņemtas"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "Saņemta brīvā pieredze"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "Saņemts zelts"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "Mūsu Laika Varonis Balva"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "%(medalName)s medaļa saņemta par %(battlesCount)s kaujām aizvadītām\nDekali saņemti par %(battlesCount)s kaujām aizvadītām (x%(decalsCount)s)"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "Operācijas ar Demontēšanas komplektiem īslaicīgi nav pieejamas uzturēšanas dēļ."
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "Operācijas ar Demontēšanas komplektiem atkal ir pieejamas. Mēs atvainojamies par neērtībām."
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "Militārā Žetona Fons atslēgts: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "Militārā Žetona Gravējums atslēgts: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "%(name)s Militārais Žetons"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "sasniedza Līmeni"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "Jauns Līmenis"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "Atslēgts"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "Fons"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "Gravējums"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "Wargaming Premium konts beidzas %(expiryTime)s."
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "Apstiprināt E-pastu"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "E-pasts nav apstiprināts"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "Eksperimentāls modulis izmantots"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "Visi eksperimentāli moduļi noņemti"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "Eksperimentāli moduļi nomontēti no sekojošiem tankiem"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "Scenārijs"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• Iekārtu direktīvas izvelei"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• Kaujas Caurlaides Punkti"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• Universālais Buklets"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• Bonas"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• Kaujas Rezerves Punkti"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• Eksperimentālās Iekārtas no Kurām Izvēlēties"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• Mentora Licence"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• Pārtrenēšanas Pavēles"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• Universālā Rokasgrāmata"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "Jums ir piešķirtas Gadadienas Monētas: %(eventCoin)s."
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "Tika atslēgta papildus vieta karšu neiekļaušanai"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "Nevar neiekļaut kartes ar WoT Plus"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "Iemesls"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "Nepieciešams Boosteroid abonements."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "Nepieciešams abonements."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "Tanks izslēgts"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "Tanks"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "Tanks pieejams"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "Tanks"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "Progress atiestatīts"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "Pāriet pie misijas"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "Uzmanību! %(missionShortName)s misijas progress tika atiestatīts. Izpildes nosacījumi tiks atsākti."
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "Misija: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "Operācija: %(operation)s"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s, %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "Detaļas"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "Jūs tikāt īslaicīgi bloķēts no kaujām %(mode)s režīmā. Bloks tiks noņemts %(date)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "Jūsu pagaidu bloks ir noņemts. Atkal variet spēlēt %(mode)s režīmā."
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "Jūsu kredīti, XP un kaujā nopelnītās balvas ir noņemtas par %(reason)s%(mode)s režīmā."
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "Jūs saņēmāt brīdinājumu par %(reason)s %(mode)s režīmā."
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "Bloks"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "Bloka Beigas"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "Jūs Esiet Sodīts"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "Nesportiska Uzvedība"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "Pieteikts karš klanam %(clan)s!\nUzbrukums sāksies %(date)s pulksten %(time)s."
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "Aizsardzība satriekta!\nVisi uzbrukumi ir atcelti. Piepildiet komandcentra izturības joslu, lai cietoksnis varētu funkcionēt."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "Ieplānotā kauja ar klanu %(clan)s tika atcelta."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "Uzbrukums %(date)s pulksten %(time)s pret klanu %(clan)s ir atcelts: atšķirība starp cietokšņu līmeņiem ir lielāka par 1."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "Ēka %(building)s ir sabojāta! Lai atjaunotu ēkas funkcionalitāti, piepildiet tās izturības joslu."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "Komandcentrs ir bojāts! Piepildiet tā izturības joslu, lai cietoksnis funkcionētu. Tālāki bojājumi komandcentram satrieks aizsardzību."
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "Klans %(clan)s jums pieteica karu!\nUzbrukums sāksies %(date)s pulksten %(time)s."
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "Iestatītais aizsardzības periods: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "Aizsardzības periods ir izmainīts. Jaunais aizsardzības periods: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "Jūsu cietokšņa aizsardzība ir izslēgta. Visu ēku un rezervju līmenis samazināts līdz IV līmenim."
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "Apsveicam! Jūs attīstījāt savu cietoksni līdz VIII līmenim."
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "Apsveicam! Cietoksnis pilnā apmērā darbojas klana labā."
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "Uguns pārtraukšanas diena ir izmainīta. Jauna uguns pārtraukšanas diena nav iestatīta."
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "Iestatīta uguns pārtraukšanas diena: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "Ēkas %(building)s līmenis paaugstināts.\nGatavotā rezerve %(order)s pārveidota industriālā resursā un pievienota ēkas krātuvē."
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "Rezerve %(orderTypeName)s kompensēta un pieejama aktivizēšanai."
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "Mājas serveris nomainīts uz %(peripheryName)s."
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "Pievienoti industriālie resursi: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "Norakstīti industriālie resursi: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "Jūs esat piesaistīts ēkai %(building)s."
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "Pievienotas rezerves: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "Norakstītas rezerves: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "Rezerve %(order)s tiek pielietota. Atlicis laiks: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "Rezerve aktivizēta"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "Rezerve %(order)s pilnībā izmantota."
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "%(count)s %(order)s rezervju sagatavošana pabeigta."
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "Rezerves „Evakuācija” darbības laiks ir beidzies.\n\n%(additional)s\nKopā mūsu klanam: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "Pretinieks aktivizēja rezervi „Rekvizīcija” un papildus nolaupīja: %(resDec)s\nPapildus mūsu klans saglabāja: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "Rezerves „Rekvizīcija” darbības laiks ir beidzies.\n\n%(additional)s\nKopā mūsu klanam: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "Pretinieks aktivizēja rezervi „Evakuācija” un papildus saglabāja: %(resDec)s\nPapildus mūsu klans nolaupīja: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "Ēkas %(building)s krātuve ir pilna.\nIzmantojiet industriālos resursus, lai sagatavotu rezerves, vai transportējiet tos uz citu ēku."
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "Jūsu cietokšņa neitralitātes periods ir beidzies.\nCiti klani var jums uzbrukt – esiet gatavi!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "Jūsu cietoksnis ievēro neitralitāti.\nCiti klani pašlaik jums nevar uzbrukt. Neitralitātes periods beigsies: %(finish)s."
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "Komandcentra krātuvē pievienotas %(defResCount)s industriālo resursu vienības."
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "Iet uz Pasākumu"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "Uz Progresiju"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "No administrācijas saņemts zelts: %(gold)s."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "Izsole: Jūsu likme ir zemāka nekā konkurētspējīgā likme."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "Jūsu izredzes uzvarēt pašreizējo izsoli ir samazinātas: Jūsu likme pašreiz ir zemāka nekā konkurētspējīgā likme."
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "Uz Pasākumu"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "Jūsu likme zaudēja. Jāatgriež:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "Jūsu likmi pārspēja citi spēlētāji. Jūsu likme drīzumā tiks atgriezta jūsu kontam."
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "Kļūda"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "Likmes likšanas kļūda. Netika noņemti līdzekļi. Lūdzu mēģiniet vēlreiz."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "Solīšana drīz beigsies."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "Pasteidzieties un Izdariet Savu Likmi!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "Pasteidzieties un izdariet savu likmi. Priekšmeti ir ierobežoti."
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "Solīšana Jaunajai Partijai Ir Sākusies!"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "Pievienotas kojas kazarmās"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "Norakstītas kojas kazarmās"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "Personīgās rezerves"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "Personālās Rezerves noņemtas"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "Tokeni pievienoti"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "Tokeni noņemti"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "Kompensācija par"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "ar Tokeniem"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "Kamuflāža"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "kredītos"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "ar bonām"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "Emblēma"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "ar Gadadienas Monētām"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "zeltā"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "Uzraksta veids"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "Efekts"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "Krāsa"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "Viencipara skaitlis"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "Divciparu skaitlis"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "Trīsciparu skaitlis"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "Iespiedums"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "Stils"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "Ieskaitīti kredīti"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "No jūsu konta tika norakstīti kredīti"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "Pievienotas Apkalpes Grāmatas"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "apkalpe aizsūtīta uz kazarmām"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "apkalpe %d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "Pievienoti apkalpes skini"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "Noņemti apkalpes skini"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "apkalpe %d%% aizsūtīta uz kazarmām"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "apkalpe norakstīta"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "Saņemtas bonas"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "Norakstītas bonas"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "Personīgās atlaides"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "Iegūti sasniegumi"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "Norakstīti sasniegumi"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "Eksperimentāli moduļi pievienoti"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "Eksperimentāli moduļi noņemti"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "Pievienots"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "Noņemts"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "Komponentes pievienotas"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "Komponentes noņemtas"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "Palīgmateriāli"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "Norakstīts aprīkojums"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "Gadadienas Monētas pievienotas"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "Gadadienas Monētas noņemtas"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "Personālās Rezerves Kas Var Beigties"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "Ieskaitītas rīkojumu veidlapas"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "Norakstīti rīkojumi"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "Brīvā pieredze"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "Ieskaitīta brīvā pieredze"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "Norakstīta brīvā pieredze"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "Ieskaitīts zelts"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "Norakstīts zelts"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "Pievienoti universālie fragmenti"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "Noņemti universālie fragmenti"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "Kvīts"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "Pievienots noliktavai"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "Norakstīts aprīkojums"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "Uz tankiem"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "Pievienoti %(nationName)s tanku plānu fragmenti"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "Noņemti %(nationName)s tanku plānu fragmenti"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "Pievienots"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "Noņemts"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "gab."
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "Pievienotas Wargaming Premium konta dienas"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "Noņemtas Wargaming Premium konta dienas"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "Wargaming Premium konts"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "%(vehicleName)s saņēma %(xpCount)s Elites Punktus."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "%(vehicleName)s saņēma Elites Līmeni %(level)s un %(xpCount)s Elites Punktus."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "%(vehicleName)s saņēma Elites Līmeni %(level)s."
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "Priekšmeti no"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "Steam DLC"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Steam Inventārs"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "Bonuss Kaujas pievienotas"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "Bonuss Kaujas noņemtas"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "nomāšanas dienas: "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "Pievienoti sloti"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "Norakstīti sloti"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "WoT Premium konts"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "Pievienotas WoT Premium konta dienas"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "Noņemtas WoT Premium konta dienas"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "Jauniesauktie"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "Pievienota nesadalītā pieredze apkalpes loceklim"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "Norakstīta nesadalītā pieredze no apkalpes locekļa"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "Atlaists"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "visi moduļi izpētīti"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "Pievienoti %(vehicleName)s plānu fragmenti"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "Noņemti %(vehicleName)s plānu fragmenti"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "Saņemta bruņutehnika"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "Norakstīta bruņutehnika"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "Pievienota nomas bruņutehnika"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "Jums ir piešķirti palīgmateriāli: %(typeName)s \"%(itemName)s\" – %(amount)d gab."
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "Uz Kastēm"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "Noklikšķiniet pogu lai skatītu saturu."
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "Jūs saņēmāt sūtījumu:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Skatīt"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "Vārti aktivizēti: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "Aktivizē Vārtus"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "Priekšmeti saņemti:\n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "Mēs aktivizējām visus jūsu Vārtus un pievienojām to saturu jūsu kontam:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Balvas Saņemtas"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Mēs atvērām visas jūsu kastes un pievienojām balvas par Brīvdienu Operāciju"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "Balvas Saņemtas"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "Dekali pievienoti: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "Dekals pievienots: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "Uz Aptauju"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "Apsveicam!"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "Izlūkošanas Misija ir beigusies. Paldies par jūsu ieguldījumu jaunu karšu izstrādē!"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "Izlūkošanas Misija ir beigusies.\n\nPaldies par jūsu ieguldījumu jaunu karšu izstrādē!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "Izlūkošanas Misija sākusies.\n\nCīnieties kartēs, kas vēl tiek izstrādātas, VIII-X Līmeņa tankos, dalieties ar jūsu viedokli aptaujās un saņemiet balvas!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "Gala balva:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "Jūs esiet aizvadījuši %(battles)s kaujas Izlūkošanas Misijā."
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "Balva saņemta:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "Jūs variet aizpildīt aptauju par režīma mehānikām Izlūkošanas Misijā."
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "Aptauja Pieejama"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "Jūs variet aizpildīt aptauju par %(mapName)s Izlūkošanas Misijā."
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "Uz kazarmām"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "Apkalpes locekļi noņemti: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "Mājas Materiāli"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "Iekārtu Palīgs ir pieejams"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "Iekārtu Palīgs nav pieejams"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "Jums ir jaunas Rezerves:"
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "Izlaiduma Paziņojums"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "Rezerves, kas beigsies:"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "Rezerves, kas var beigties drīz tiks zaudētas"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "Saņemtie kredīti: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "Datums: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "Finanšu operācija:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "Pievienots noliktavai: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "Kvīts"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "Jauns uzkrājumu cikls sācies."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "Jauns uzkrāšanas cikls ir sācies. Lai pelnītu kredītus, aktivizējiet WoT Premium Kontu."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "Jauns uzkrāšanas cikls ir sācies. Lai pelnītu zeltu, abonējiet WoT Plus."
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "Kredītu uzkrāšana Kredītu Rezervē tika apturēta."
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "Kredītu Rezerve Atvērta!"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "Iegūt Balvu"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "Pēc-Progresija Pabeigta!"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "Uz Progresiju"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "Pēc-Progresija"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "Jūs ieguvāt pieeju īpašai balvai."
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "Klanu kauja"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "Kaujas rezultāti"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "Turnīrs"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "Zaudējums"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "Neizšķirts"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "Rezultāti nav noteikti"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "Uzvara!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "Īpašnieks ierakstu izdzēsis"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "Tehniska kļūme"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "Jūs izslēdza"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "Tehniskais zaudējums"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "Tehniskais neizšķirts"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "Rezultāti nav noteikti"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "Tehniskā uzvara!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "Gaidīšanas laiks beidzies"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "Izpildīta"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(kauja %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "Pagaidu rezultāts"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "Rezultāts"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "Wargaming Premium konts saņemts. Beidzas %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "Wargaming Premium Konts mainījies. Beidzas %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "Wargaming Premium konts beidzās."
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "Wargaming Premium konts pagarināts. Beidzas %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "WoT Premium konts saņemts. Beidzas %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "WoT Premium konts mainījies. Beidzas %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "WoT Premium konts beidzās."
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "WoT Premium konts pagarināts. Beidzas %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "Jūs saņēmāt Wargaming Premium kontu uz %(days)d dienu(ām)."
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "Uz Elites Sistēmu"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "Elites Līmeņi un Elites Zīmes saņemtas."
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "Elites Sistēma"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "Uz Tankiem"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "Elites Līmenis Saņemts"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "Radās kļūda, mēģinot saņemt Elites atlīdzību."
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "%(rewardName)s%(typeReward)s saņemtas par Elites līmeņa %(lvl)s sasniegšanu."
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "Elites atlīdzība saņemta"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "Uzmanību!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "Detaļas"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "Kamuflāža"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "dekals"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "emblēma"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "Uzraksta veids"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(level)s%(name)s %(typeName)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "Un %(count)s vairāk"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr "%(level)s Līmenis "
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "krāsa"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "dekals"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "Saņemts:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "%(name)s Stils"
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "Apsveicam!"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "Plašāk"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "Balva par Nopelniem"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "Cīnieties un nopelniet balvas. Jo vairāk jūs cīnieties, jo tuvākas balvas."
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "Uzlabota balva saņemta:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "Plašāk"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "%(surplusPoints)s Rangu Tokens(i) konvertēti par %(count)s bonām."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "Apsveicam!"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "Maksimālā balva saņemta:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "Standarta balva saņemta:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "Mazā balva saņemta:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "Jūs nopelnījāt %(points)s Ranga Tokenu(s) 2021.–2022. gadā."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "Ikgadēja balva"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "Papildspēki Ir Klāt!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "Jūs saņēmāt apkalpi par %(event)s."
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "Jums ir nerekrūtēti apkalpes locekļi: %(count)s. Nākamā noņemšana %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "Jums ir nerekrutēti apkalpes locekļi: %(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "Norakstītas uzšuves"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "Kompensācija"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "Ieskaitīti kredīti par neizmantoto %(vehicleName)s nomas laiku"
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "Ieskaitīts zelts par neizmantoto %(vehicleName)s nomas laiku"
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "%(vehicleName)s nomas periods beidzies."
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "Plānu fragmenti: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "Kredīti: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "Bonas: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "Detaļas"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "Brīvā Pieredze: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "Zelts: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "universāli fragmenti"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "Pašreizējais progress: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "Resursi iztērēti Montāžas Veikala projektam:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "Resursi iztērēti"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "Tērēt Resursus"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "Resursi atgriezti no Montāžas Veikala:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "Atgriežamie Resursi"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "Treniņa Bukleti Izvēlei"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "Treniņa Gidi Izvēlei"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "kamuflāžu"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "Tehnisko darbu dēļ pagarināts %s darbības laiks."
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "emblēmu"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "uzrakstu"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "Wargaming Premium konts"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "WoT Premium konts"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "Noma"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "Spēles serveris tiks atslēgts %(date)s."
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "Spēles servera atslēgšana, kas bija ieplānota %(date)s, ir atlikta."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "Pakalpojumu ierakstu pielāgošana ir pieejama"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "Šī funkcija ir apturēta."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "Pakalpojumu ierakstu pielāgošana pašlaik nav pieejama"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "Universāls fragments (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "Nacionāls fragments (%(nationName)s) (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "Īpaša balva"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "Rasējua fragments priekš %(vehicleName)s (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "Balva saņemta par epasta apstiprināšanu:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "Apsveicam!"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "Kompensācija saņemta par jau izpētītu tanku rasējumu fragmentiem:"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "Kamuflāža nomainīta"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "Saņemti kredīti: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "Norakstīti kredīti: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "Bonas: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "Bonas: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "Ārējā izskata elementi nomainīti."
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "Ārējā izskata elementi nomainīti. Iegādāti elementi: %(count)s. Jūs iztērējāt %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "Emblēmas nomainītas"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "Gadadienas Monētas pievienotas: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "Gadadienas Monētas noņemtas: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "Saņemta brīvā pieredze: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "Norakstīta brīvā pieredze: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "Saņemts zelts: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "Norakstīts zelts: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "Uzraksti nomainīti"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "Universāli fragmenti"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "%(nationName)s nacionāli fragmenti"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "Sekojot atjauninājumam, visi dekali tika noņemto no tankiem un nosūtīti uz noliktavu, Ārējā izskata sekcijā."
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "Pievienoti sloti: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "Norakstīti sloti: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "Uzmanību!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "Saņemta bruņutehnika: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "Norakstīta bruņutehnika: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "Sekojošie pielāgošanas elementi tika nopirkti:\n%(items)s\nIztērēts %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "\"%(itemName)s\" %(itemType)s veiksmīgi nopirkts.\nIztērēts %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "%(name)s stila %(level)s Līmenis veiksmīgi nopirkts.\n%(money)s iztērēts."
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "Tanka pielāgošanas elementi mainīti."
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "%(itemType)s \"%(itemName)s\" (%(count)s gab.)"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "%(level)s Līmeņa %(styleName)s stils"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "Pielāgošanas elementi tika noņemti no tanka."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "Apsveicam!\nProgresīvie dekali ļauj jums pielāgot iepriekš iestatītos stilus priekš %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "Apsveicam!\nJūs sasniedzāt I līmeņa \"%(itemName)s\" dekalu priekš %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "Apsveicam!\nJūs saņēmāt I līmeņa \"%(itemName)s\" dekalu."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "%(level)s līmeņa \"%(itemName)s\" dekals priekš %(vehicleName)s sasniegts."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "Uz Ārējo Izskatu"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "%(level)s līmeņa \"%(itemName)s\" dekals sasniegts."
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s „%(itemName)s” x%(count)s. Iztērēts: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "Tuksnešu karte: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "Vasaras karte: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "Ziemas karte: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s „%(itemName)s” x%(count)s. Saņemts: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "Iekārta izjaukta"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "Uz Ārējo izskatu"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "Moduļu maiņas dēļ, sekojošie pielāgošanas elementi tika noņemti no %(vehicle)s."
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "Pielāgošana:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "Iekārta izjaukta"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "Demontēts:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "Kļūda:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "Finanšu operācija:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "Pārdod priekšmetus no noliktavas:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "Apmaksas metode \"%(method)s\" tika pievienota"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "Apmaksas metode \"%(method)s\" tika noņemta"
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "Izpēte:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "Nopirkts:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "Aizvākšana no angāra:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "Remonts:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "Atgūts:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "Pārdots:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "Iekārtas Uzlabošana"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "Jūs saņēmāt WoT Premium kontu uz %(days)d dienu(ām)."
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "Uz Rezervēm"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "Kamuflāžas darbības laiks uz %(vehicleName)s beidzies."
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "Emblēmas darbības laiks uz %(vehicleName)s beidzies."
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "Uzraksta darbības laiks uz %(vehicleName)s beidzies."
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "Kolekcija pieejama"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "Apsveicam!\nJūs izpētījāt %(level)s līmeņa %(nation)s tanku. Tagad jūs variet nopirkt tāda paša līmeņa un nācijas Kolekcionāru tankus veikalā."
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "Bruņutehnika iznīcināta. %(vehicleName)s nebūs pieejams izmantošanai klanu kaujās līdz %(expireTime)s."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "Atbloķēts. %(vehicleName)s pieejams klanu kaujām."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Visas Dubultās Modifikācijas priekš %(vehicle)s atceltas."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "Modifikācija Atcelta"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "izslēgta"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "ieslēgta"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "Maiņa starp iekārtu un direktīvu komplektiem pirms-kaujas atskaitē priekš %(tankName)s ir %(state)s."
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "Maiņa starp čaulīšu un palīgmateriālu komplektiem pirms-kaujas atskaitē priekš %(tankName)s ir %(state)s."
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "No administrācijas saņemta premium bruņutehnika: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "Nevar nomāt tanku. Nepietiekami līdzekļi."
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "Bruņutehnika %(vehicleName)s paņemta nomā. Nomāšanas periods beigsies %(expiryTime)s."
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "Bloķēšana beigusies. Bruņutehnika ir atbloķēta un pieejama klanu kaujām."
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "No spēlētāja %(srcName)s saņemts zelts: %(srcWares)s."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s zelta pārskaitīts spēlētājam %(dstName)s Nodeva: %(fee)s."
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "Atlaide %(level)s Līmeņa tankam"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "Balvas par Atpakaļ Cīņā Progresijas izpildi saņemtas:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "Izvēlēties Balvu"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "Atlaide %(level)s Līmeņa tankam"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% un %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "Pievienotas atlaides pirkšanai un izpētei: "
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "Apsveicam!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "%(level)s Līmeņa tanks"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "Izvēlieties balvas no pieejamām kategorijām."
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "Izvēlēties"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "Balvas Saņemtas!"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "Kaujas Caurlaides Plus priekšrocības ir apturētas."
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "Kaujas Caurlaide Plus pašlaik nav pieejams"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "Kaujas Caurlaide Plus ir pieejams"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "Turpiniet ielogoties spēlē, lai iegūtu vairāk balvas!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "Īpaša Apmeklējuma Balvas Saņemta!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "Cikls Izpildīts"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "Ielogojieties spēlē un saņemiet balvas."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "Cikls Sākts!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "Apmeklējuma Balva"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "Atgriezieties citu dienu priekš jaunas balvas!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "Apmeklējums Atzīmēts!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "Apmeklējuma Balvas funkcija tika apturēta."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "Apmeklējuma Balvas Nav Pieejamas"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "Apmeklējuma Balvas Pieejamas"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "Ekskluzīvais <font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s ir pieejams."
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "<font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s, ekskluzīvi priekš WoT Plus tagad nav pieejams."
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "WoT Plus Core derīguma termiņš beidzās %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "Bezmaksas iekārtu noņemšana nav pieejama"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "Paplašiniet WoT Plus, lai atkal iegūtu visas priekšrocības."
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "WoT Plus beidzās %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "WoT Plus Pro derīguma termiņš beidzās %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "Zelta uzkrāšana ir apturēta."
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "Zelta Rezerve pašlaik nav pieejama"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "Zelta Rezerve ir pieejama"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "Zelta Rezerve ir pilna: Jūs nevariet uzkrāt vairāk zelta"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "Zelta Rezerve Atvērta!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "Visas priekšrocības tagad ir pieejamas.\nPagarinās: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "Paplašina atkal: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "Jūsu 180 dienu plāns tagad ir aktīvs. Izbaudiet!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "Jūsu 360 dienu plāns tagad ir aktīvs. Izbaudiet!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "Jūsu 180 dienu plāns tagad ir aktīvs. Izbaudiet!\nPagarinās: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "Jūsu 360 dienu plāns tagad ir aktīvs. Izbaudiet!\nPagarinās: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "Intensīvs Apkalpes Režīms ir pārtraucis strādāt priekš <font color='#E9E2BF'>%(vehicleName)s</font>. Pārbaudiet tanka apkalpi."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "Viens vai vairāki <font color='#E9E2BF'>%(vehicleName)s</font> apkalpes locekļi nav kvalificēti Intensīvam Apkalpes Režīmam un nevar uzkrāt Apkalpes Pieredzi."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "Intensīvs Apkalpes Režīms"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "Intensīvs Apkalpes Režīms ieslēgts %(vehicleName)s apkalpes locekļiem."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "Intensīvs Apkalpes Režīms izslēgts %(vehicleName)s apkalpes locekļiem."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "Apkalpes Pieredzes uzkrāšana ir apturēta."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "Intensīvs Apkalpes Režīms pašlaik nav pieejams"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "Intensīvs Apkalpes Režīms ir pieejams"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "Izvēlieties tanku, lai saņemtu bezmaksas bonusu Apkalpes Pieredzei."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "Intensīvs Apkalpes Režīms tika pārvietots no <font color='#E9E2BF'>%(oldVehName)s</font> uz <font color='#E9E2BF'>%(newVehName)s</font>. Apkalpe no <font color='#E9E2BF'>%(oldVehName)s</font> pārstāja uzkrāt Pieredzi."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "Intensīvs Apkalpes Režīms Pārvietots"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "Apkalpes Pieredzes bonusu nevar piemērot vienam vai vairākiem apkalpes locekļiem."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "Jūs laidiet garām vērtīgu Apkalpes Pieredzi!"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "Jūs varat mainīt savu izvēli atkal pēc %(cooldown)s stundām."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "Pro Boost aktivizēts priekš %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "Jūs uzlabot citu tanku."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "Pro Boost atspējots priekš %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "Pro Boost ieņēmumi ir apturēti."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "Pro Boost pašlaik nav pieejams."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "Pro Boost ir pieejams"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)s vairs nav pastiprināts. Jūs varat mainīt savu izvēli atkal pēc %(cooldown)s stundām."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "Pro Boost pārslēdzās uz %(vehicleNameTo)s"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "Mainīts WoT Plus pagarināšanas datums"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "Izvēlieties tanku no saraksta, lai nomātu."
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "Nav izvēlēts nomas tanks"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "%(vehicle)s drīzumā tiks pievienots jūsu kontam."
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "Iznomāts!"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "Šīs priekšrocības ir atspējotas."
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "WoT Plus Nav Pieejams"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "WoT Plus Core aktivizēts"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "Bezmaksas iekārtu noņemšana ir pieejama"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "WoT Plus aktivizēts"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT Plus Pro"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "WoT Plus atjaunināts uz Pro!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "Pagarināt"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "No administrācijas saņemta brīvā pieredze: %(freeXP)s."
+
+msgid "status/offline"
+msgstr "Nav tīklā"
+
+msgid "status/online"
+msgstr "Tiešsaistē"
+
+msgid "xmpp_error/action"
+msgstr "Nevar pārdot izpildīt \"%(actionName)s\". Mēģiniet vēlāk."
+
+msgid "xmpp_error/simple"
+msgstr "Mēģiniet vēlāk."
+
+msgid "xmpp_error/user_room_creation"
+msgstr "Neizdodas izveidot lietotāju kanālu „%(strArg1)s”."

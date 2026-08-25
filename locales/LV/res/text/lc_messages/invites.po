@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: <language team name> <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sApskatīties%(linkEndTag)s informāciju par spēlētāju"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sPieteikums iestāties klanā%(titleEndTag)s\nno %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Apskatīties pieteikumus"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sIzslēgt%(linkEndTag)s paziņojumus"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sPieteikumi no spēlētājiem: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sApskatīties%(linkEndTag)s informāciju par klanu"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sIelūgums iestāties klanā%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Apskatīties ielūgumus"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sIelūgumi klanā: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "Spēlētājs tika pieņemts klanā."
+
+msgid "clans/state/app/declined"
+msgstr "Pieteikums noraidīts."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "Spēlētāja vienas dienas sods par iepriekšējā klana pamešanu vēl nav beidzies."
+
+msgid "clans/state/invite/accepted"
+msgstr "Jūs tikāt pieņemts klanā."
+
+msgid "clans/state/invite/declined"
+msgstr "Ielūgums noraidīts."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Vienas dienas sods par jūsu iepriekšējā klana pamešanu vēl nav beidzies."
+
+msgid "errors/creationNotAllowed"
+msgstr "Jums nav pietiekamas tiesības ielūgumu veidošanai."
+
+msgid "errors/invalid"
+msgstr "Nederīgs ielūgums."
+
+msgid "errors/inviteNotSupported"
+msgstr "Šāda veida ielūgums šobrīd nav pieejams. Pamēģiniet vēlāk."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "Ielūguma saņēmējs iekļāva jūs savā melnajā sarakstā."
+
+msgid "errors/selfinvite"
+msgstr "Nevar ielūgt pats sevi."
+
+msgid "errors/unknownuser"
+msgstr "Lietotājs nav reģistrēts sistēmā."
+
+msgid "errors/useroffline"
+msgstr "Lietotājs nav pieslēdzies."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "Bruņutehnika angārā ir sabojāta vai bloķēta. Izvēlieties citu."
+
+msgid "friendship/note/approved"
+msgstr "Spēlētājs pievienots draugu sarakstam"
+
+msgid "friendship/note/canceled"
+msgstr "Uzaicinājums noraidīts"
+
+msgid "friendship/note/maxRoster"
+msgstr "Maksimālais kontaktpersonu skaits sarakstā: %(rosterMaxCount)s. Lai pievienotu šo spēlētāju draugu sarakstam, vispirms kādu izdzēsiet no saraksta."
+
+msgid "friendship/note/notConnected"
+msgstr "Neizdodas pieslēgties serverim. Lūdzu, uzgaidiet."
+
+msgid "friendship/note/process"
+msgstr "Gaida atbildi no servera"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sDraudzības uzaicinājums%(titleEndTag)s\nno %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Apstiprināt"
+
+msgid "gui/buttons/cancel"
+msgstr "Atcelt"
+
+msgid "gui/buttons/reject"
+msgstr "Noraidīt"
+
+msgid "gui/buttons/send"
+msgstr "Aizsūtīt"
+
+msgid "gui/labels/additionalText"
+msgstr "Papildus teksts ielūgumam:"
+
+msgid "gui/labels/inviteText"
+msgstr "Uzaicinājuma teksts:"
+
+msgid "gui/labels/receiver"
+msgstr "Saņēmējs:"
+
+msgid "gui/titles/barter"
+msgstr "Ielūgums tirgot"
+
+msgid "gui/titles/clan"
+msgstr "Ielūgums pievienoties klanam"
+
+msgid "gui/titles/invite"
+msgstr "Ielūgums"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Ielūgumi"
+
+msgid "invites/comment"
+msgstr "„%(comment)s”"
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no taktiskās vienības un nosūtīts uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no taktiskās vienības un nosūtīts uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no globālās kartes kaujas un nosūtīts uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no taktiskās vienības un nosūtīts uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no taktiskās vienības un nosūtīts uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no taktiskās vienības un nosūtīts uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no treniņa Frontes līnijas režīmā un nosūtīts uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no taktiskās vienības un nosūtīts uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs pametīsiet komandu kauju un tiksiet nosūtīti uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no vada un nosūtīts uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Cietokšņi: Kaujas un tiksiet pārvietots uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "Līdzko apstiprināsiet ielūgumu, jūs pametīsiet režīmu „Uzbrukums” un tiksiet pārvietoti uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no Izlūkošanas Misijas Vada un nosūtīts uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no treniņistabas un nosūtīts uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Cietokšņi: Kaujas un tiksiet pārvietots uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no vada un nosūtīts uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "Līdzko apstiprināsiet ielūgumu, jūs pametīsiet pašreizējo trieciengrupu un tiksiet pārvietoti uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no turnīra un nosūtīts uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no treniņistabas un nosūtīts uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no treniņa Uzbrukuma režīmā un nosūtīts uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs pametīsiet komandu kauju un tiksiet nosūtīti uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Tērauda Mednieka un tiksiet pārvietots uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Lielajām Medībām un tiksiet pārvietots uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Uzbrukuma un tiksiet pārvietots uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "Kad pieņemsi ielūgumu, tu pametīsi Vieglo Uzbrukumu un tiksi pārcelts uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Frontes līnijas un tiksiet pārvietots uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs iziesiet no +++Pasākuma kaujas+++ un tiksiet pārvietots uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs iziesiet no Izlūkošanas Misijas un tiksiet pārvietots uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Topogrāfijas un tiksiet pārvietots uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Nejaušajās Kaujām un tiksiet pārvietots uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Rangotās kaujas režīma un tiksiet pārvietots uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs iziesiet no Iesildīšanās un tiksiet pārvietots uz %(host)s serveri."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs iziesiet no Iesildīšanās un tiksiet pārvietots uz %(host)s serveri. Jūs nevarēsiet to atkal sākt."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs tiksiet automātiski izslēgts no taktiskās vienības."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs tiksiet automātiski izslēgts no taktiskās vienības."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no globālās kartes kaujas."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs tiksiet automātiski izslēgts no taktiskās vienības."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs tiksiet automātiski izslēgts no taktiskās vienības."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs tiksiet automātiski izslēgts no taktiskās vienības."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no treniņa Frontes līnijas režīmā."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs tiksiet automātiski izslēgts no taktiskās vienības."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs pametīsiet komandu kauju."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs tiksiet automātiski izslēgts no Vada."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Cietokšņi: Kaujas."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "Līdzko apstiprināsiet ielūgumu, jūs pametīsiet režīmu „Uzbrukums”."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no Izlūkošanas Misijas Vada."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no treniņistabas."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Cietokšņi: Kaujas."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs tiksiet automātiski izslēgts no Vada."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "Līdzko apstiprināsiet ielūgumu, jūs pametīsiet pašreizējo trieciengrupu."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no turnīra."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no treniņistabas."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs tiksiet automātiski izslēgts no treniņa Uzbrukuma režīmā."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs pametīsiet komandu kauju."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Tērauda Mednieka."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Lielajām Medībām."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Uzbrukuma."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "Kad pieņemsi ielūgumu, tu pametīsi Vieglo Uzbrukumu."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Frontes līnijas."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs iziesiet no +++Pasākuma kaujas+++."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs iziesiet no Izlūkošanas Misijas."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Topogrāfijas."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "Kad jūs akceptējiet uzaicinājumu, jūs iziesiet no Nejaušajām Kaujām."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "Ja akceptēsiet uzaicinājumu, jūs iziesiet no Rangoto Kauju režīma."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs iziesiet no Iesildīšanās."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "Tiklīdz apstiprināsiet ielūgumu, jūs iziesiet no Iesildīšanās. Jūs nevarēsiet to atkal sākt."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Servera izmaiņas tiks saglabātas."
+
+msgid "invites/note/server_change"
+msgstr "Jūs tiksiet automātiski pārvietoti uz %(host)s serveri."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Jūs nevarat apstiprināt ielūgumu. Lai apstiprinātu ielūgumu, lūdzu izvēlieties %(host)s serveri."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Jūs nevarat saņemt ielūgumus. Lai saņemtu ielūgumus, pārejiet uz citu serveri."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Tu jau esi pievienojies vadam."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Jūs jau esat pievienojies globālās kartes kaujai."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Jūs jau esat pievienojies treniņistabai."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Jūs jau esat pievienojies vadam."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Jūs jau esiet pievienojies Vadam."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Jūs jau esat pievienojies trieciengrupai."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Jūs jau esat pievienojies vadam."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Jūs jau esat pievienojies turnīram."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Jūs jau esat pievienojies treniņistabai."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Jūs jau esat pievienojies treniņistabai."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Jūs jau esat pievienojies komandai."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Ielūgums apstiprināts."
+
+msgid "invites/state/DECLINED"
+msgstr "Ielūgums noraidīts."
+
+msgid "invites/state/ERROR"
+msgstr "Nederīgs ielūgums."
+
+msgid "invites/state/EXPIRED"
+msgstr "Nederīgs ielūgums."
+
+msgid "invites/state/REVOKED"
+msgstr "Ielūgums atsaukts."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Uzaicinājums Pievienoties Tērauda Mednieka Vadam"
+
+msgid "invites/text/COMP7"
+msgstr "Ielūgums Pievienoties Uzbrukuma Vadam"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Ielūgums pievienoties Vieglā Uzbrukuma vadam"
+
+msgid "invites/text/EPIC"
+msgstr "Ielūgums Pievienoties Frontes Līnijas Vadam"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Uzaicinājums Pievienoties Komandas Treniņam Frontes Līnijas Režīmā"
+
+msgid "invites/text/EVENT"
+msgstr "Uzaicinājums uz Vadu"
+
+msgid "invites/text/FALLOUT"
+msgstr "Uzaicinājums Pievienoties Vadam priekš %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Dominēšana"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Tērauda medības"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Uzaicinājums uz Kauju"
+
+msgid "invites/text/MAPBOX"
+msgstr "Uzaicinājums Pievienoties Izlūkošanas Misijas Vadam"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Uzaicinājums Izpētīt Kartes"
+
+msgid "invites/text/SORTIE"
+msgstr "Uzaicinājums Pievienoties Nodaļai"
+
+msgid "invites/text/SQUAD"
+msgstr "Uzaicinājums uz Vadu"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Uzaicinājums Pievienoties Nodaļai"
+
+msgid "invites/text/TRAINING"
+msgstr "Uzaicinājums Pievienoties Komandas Treniņam"
+
+msgid "invites/text/UNIT"
+msgstr "Uzaicinājums Pievienoties Komandai"
+
+msgid "invites/text/creatorName"
+msgstr "no %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Aizsardzības periods"
+
+msgid "invites/text/fort/direction"
+msgstr "Placdarms"
+
+msgid "invites/text/fort/offence"
+msgstr "Uzbrukums"
+
+msgid "invites/warning/anonymized"
+msgstr "Kad jūs pieņemiet uzaicinājumu, jūsu īstais segvārds un klana nozīmīte tiks parādīti taktiskām vienības locekļiem uz kaujas laiku."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Ielūgums spēlētājam %(name)s nosūtīts."

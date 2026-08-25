@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "Sélectionnez des récompenses"
+
+msgid "banner/giftsAvailable"
+msgstr "Provisions livrées !"
+
+msgid "banner/giftsForOffer"
+msgstr "Récompenses pour la participation à « %(name)s »."
+
+msgid "banner/selectNowOrLater"
+msgstr "Choisissez vos récompenses maintenant ou plus tard dans le Dépôt."
+
+msgid "banner/title"
+msgstr "Provisions du front intérieur"
+
+msgid "description/rentValue/battles"
+msgstr "pour ce nombre de batailles : %(value)s"
+
+msgid "description/rentValue/days"
+msgstr "pour ce nombre de jours : %(value)s"
+
+msgid "description/rentValue/wins"
+msgstr "pour ce nombre de victoires : %(value)s"
+
+msgid "giftDescription/tank/base"
+msgstr "En plus du véhicule, vous recevrez gratuitement %(items)s."
+
+msgid "giftDescription/tank/withCrew"
+msgstr "un {neutralOpen}équipage{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "un {neutralOpen}équipage{neutralClose} et une {neutralOpen}place de garage{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "une {neutralOpen}place de garage{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "Annuler"
+
+msgid "giftDialog/description/newRent"
+msgstr "Le %(tankName)s sera loué %(rentValue)s"
+
+msgid "giftDialog/description/noRent"
+msgstr "Le %(tankName)s sera envoyé dans le garage"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "La location du %(tankName)s sera prolongée %(rentValue)s"
+
+msgid "giftDialog/submit"
+msgstr "Confirmer"
+
+msgid "giftDialog/title/common"
+msgstr "Confirmation de la réception du\n« %(name)s »"
+
+msgid "giftDialog/title/tank"
+msgstr "Réception du véhicule"
+
+msgid "giftDialog/title/tankRent"
+msgstr "Location du véhicule"
+
+msgid "giftsWindow/availableCount"
+msgstr "Disponible : %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "Disponible jusqu'au : %(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "Récompenses disponibles : %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "Dans le garage"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "Disponible pendant"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "Aperçu"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value) batailles"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value) j"
+
+msgid "giftsWindow/rent/title"
+msgstr "Location pour : %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value) victoires"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "Obtenir"
+
+msgid "giftsWindow/tokens"
+msgstr "Disponible : %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "Jetons disponibles : %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "Indisponible"
+
+msgid "rewardWindow/btnLabel"
+msgstr "Affirmatif !"
+
+msgid "rewardWindow/title"
+msgstr "Récompense reçue"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "Obtenez-le !"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "Location prolongée !"
+
+msgid "tankPreview/description/newRent"
+msgstr "Location gratuite du %(tankName)s %(rentValue)s"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s avec un équipage"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s avec un équipage et une place de garage"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s avec une place de garage"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "Prolonger la location du %(tankName)s %(rentValue)s"

@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Cianografia"
+
+msgid "animations/crew_close"
+msgstr "CHIUDI"
+
+msgid "animations/shop"
+msgstr "Vai all'acquisto"
+
+msgid "battleMattersTab"
+msgstr "Accademia Carristi"
+
+msgid "battleResults/descr"
+msgstr "Accademia Carristi: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Alle missioni dell'Accademia Carristi"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Progressi in questa battaglia"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Annulla"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "CHIUDI"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Conferma"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Riceverai il carro {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} con un equipaggio e uno spazio in Officina."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Vuoi scambiare il tuo Gettone Accademia con %(vehicleName)s?"
+
+msgid "entryPoint/hint"
+msgstr "UNA SERIE DI\nMISSIONI DI ADDESTRAMENTO"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Missioni completate: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Accademia Carristi"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Ricompensa per il completamento:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Al momento le missioni sono indisponibili a causa di problemi tecnici. I tuoi progressi nelle missioni completate saranno salvati."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Tutte le missioni sono state completate"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Missioni momentaneamente indisponibili"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Obiettivi:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Scambia un Gettone con qualsiasi veicolo ricercabile di livello VI."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "INDIETRO"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "ALLE MISSIONI DELL'ACCADEMIA CARRISTI"
+
+msgid "mainRewardsScreen/done"
+msgstr "In Officina"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Anteprima"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Giorni di noleggio: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Completa una serie di missioni d'addestramento per ottenere tre veicoli Premium di livello VIII a noleggio per {cream_Open}14 giorni{cream_Close} come ricompensa principale."
+
+msgid "mainRewardsScreen/title"
+msgstr "ACCADEMIA CARRISTI"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Seleziona"
+
+msgid "mainScreen/infoButton"
+msgstr "GUIDA PER NUOVI GIOCATORI"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "GUIDA"
+
+msgid "mainScreen/list/arrow"
+msgstr "Clicca per andare alla missione attuale."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Ricompensa principale ricevuta"
+
+msgid "mainScreen/progress"
+msgstr "Missioni completate: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Come completare"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Completa la missione precedente"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Indisponibile"
+
+msgid "mainScreen/showMainReward"
+msgstr "Vedi ricompensa principale"
+
+msgid "mainScreen/target"
+msgstr "Completa tutte le missioni per ricevere tre veicoli di livello VIII a noleggio."
+
+msgid "mainScreen/title"
+msgstr "ACCADEMIA CARRISTI"
+
+msgid "pausedScreen/buttonText"
+msgstr "All'Officina"
+
+msgid "pausedScreen/description"
+msgstr "L'Accademia Carristi è momentaneamente indisponibile per motivi tecnici. Tutti i progressi verranno salvati. Ci scusiamo per l'inconveniente."
+
+msgid "pausedScreen/title"
+msgstr "Temporaneamente indisponibile"
+
+msgid "rewards/additionalTitle"
+msgstr "Hai ricevuto anche:"
+
+msgid "rewards/footer/confirm"
+msgstr "Affermativo!"
+
+msgid "rewards/footer/more"
+msgstr "Altro: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Alla prossima missione"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Vedi in Officina"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Le condizioni della missione sono state soddisfatte in anticipo"
+
+msgid "rewards/rent"
+msgstr "Giorni di noleggio: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "MISSIONE FINALE COMPLETATA"
+
+msgid "rewards/subTitle/regular"
+msgstr "MISSIONE %(questNumber)s COMPLETATA"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "VEICOLO IN CAMBIO DEL GETTONE ACCADEMIA RICEVUTO"
+
+msgid "rewards/title"
+msgstr "ACCADEMIA CARRISTI"
+
+msgid "rewards/token/action"
+msgstr "Seleziona veicolo"
+
+msgid "rewards/token/description"
+msgstr "Usa un Gettone per ricevere immediatamente un qualsiasi veicolo di livello VI."
+
+msgid "rewards/token/title"
+msgstr "Scambia un Gettone Accademia con un veicolo"
+
+msgid "tokenTooltip/condition"
+msgstr "I Gettoni vengono conferiti per aver completato con successo una serie di missioni d'addestramento e aver conseguito i progressi necessari nell'Accademia Carristi."
+
+msgid "tokenTooltip/description"
+msgstr "I Gettoni possono essere scambiati con qualsiasi veicolo ricercabile di livello VI. Il veicolo viene fornito con un equipaggio e uno spazio in Officina."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Gettone disponibile: {cream_open}%(days)s g{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Gettone disponibile fino al: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Gettone disponibile: {cream_open}%(hours)s h{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Gettone disponibile: {cream_open}%(minutes)s min{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Gettone Accademia"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Riceverai un {cream_Open}%(crewIcon)s equipaggio{cream_Close} e uno {cream_Open}%(hangarIcon)s spazio{cream_Close} {cream_Open}in Officina{cream_Close} oltre al tuo veicolo."
+
+msgid "vehicleSelection/back"
+msgstr "INDIETRO"
+
+msgid "vehicleSelection/backTo"
+msgstr "ALLE MISSIONI DELL'ACCADEMIA CARRISTI"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Aggiungi al confronto"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Configura la visualizzazione dei veicoli secondo tipo e nazione."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Filtra per parametri"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Clicca per riportare i filtri alle impostazioni predefinite."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Imposta di default"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Nazione"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Filtra per parametri"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Tipo di veicolo"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Nessun risultato corrisponde ai criteri di ricerca. Cambia le impostazioni dei filtri o ripristina quelle predefinite."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Reimposta filtri"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Hai ricercato tutti i veicoli di livello VI che possono essere scambiati con un Gettone Accademia."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Nessun veicolo da selezionare"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Ricerca per nome"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "Il nome del veicolo non può contenere più di %(maxLength)s caratteri."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Ricerca per nome"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Visualizzati:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Scambia un Gettone con un qualsiasi veicolo ricercabile di livello VI. Il veicolo viene fornito con\nun equipaggio e uno spazio in Officina."
+
+msgid "vehicleSelection/title"
+msgstr "Seleziona un qualsiasi veicolo ricercabile di livello VI"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Cacciacarri"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "A-SMV"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Carro pesante"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Carro leggero"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Carro medio"

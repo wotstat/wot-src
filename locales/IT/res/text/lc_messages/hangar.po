@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "Acquista"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "I seguenti consumabili saranno caricati: %(consumables)s."
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "Acquista consumabili"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s membri dell'equipaggio"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Hai già un equipaggio per questo veicolo"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s membri dell'equipaggio."
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "Reclutamento nuovi membri dell'equipaggio"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "qui."
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Wargaming utilizza la combinazione alfanumerica T-34 nel suo uso comune per indicare carri armati reali e non è in alcun modo correlata ad alcun detentore di copyright di marchi con lo stesso nome. Scopri di più {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "Carica munizioni"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "Carica consumabili"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "Spazio in Officina"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "Permuta"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "Gratis"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "Recluta %(count)s membri dell'equipaggio"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "Noleggio"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "Noleggia"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "Noleggia per 30 giorni"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "Noleggia per 3 giorni"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "Noleggia per 7 giorni"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "Noleggia per %(days)s giorni"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "Fase della Prima Linea"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "Stagione di Prima Linea"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "Fase delle Battaglie Classificate"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "Stagione delle Battaglie Classificate"
+
+msgid "buyVehicleWindow/restore"
+msgstr "Recupera"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "Illimitati"
+
+msgid "buyVehicleWindow/title"
+msgstr "Configurazione"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "Recupero"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "Acquista"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "Permuta"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "Permuta"
+
+msgid "carousel/filters/allVehicle"
+msgstr "Tutti i miei veicoli"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "Equipaggio"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "Caratteristiche"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} battaglia"
+msgstr[1] "{{count}} battaglie"
+msgstr[2] "{{count}} battaglie"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} giorno"
+msgstr[1] "{{count}} giorni"
+msgstr[2] "{{count}} giorni"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} ora"
+msgstr[1] "{{count}} ore"
+msgstr[2] "{{count}} ore"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} vittoria"
+msgstr[1] "{{count}} vittorie"
+msgstr[2] "{{count}} vittorie"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "Clicca per andare alla tua playlist di veicoli"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "I miei veicoli"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "Addestramento, riaddestramento e gestione dell'equipaggio."
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "Gestione dell'equipaggio"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "Personalizzazione del veicolo: applicazione di stili 2D/3D e altri elementi."
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "Personalizzazione"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "Premi per aprire"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "Informazioni sul veicolo, ricerca, confronto e riparazioni."
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "Gestione del veicolo"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "INFORMAZIONI SUL VEICOLO"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "CORAZZA"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "CONFRONTA"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "AUTO-REINTEGRA"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "REINTEGRA EQUIPAGGIO"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "INVIA IN CASERMA"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "RIADDESTRA EQUIPAGGIO"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "SERVIZIO RAPIDO"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "POTENZIAMENTO SPECIFICO"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "CAMBIA NAZIONE"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "ATTIVA"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "SPINTA PRO {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "ADDESTRAMENTO VELOCE"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "RIPARAZIONI"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "RICERCA"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "POTENZIAMENTI"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "Puoi modificare questa scelta in qualsiasi momento."
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "Spinta Pro attiva su questo veicolo"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "Puoi attivare la spinta solo su veicoli in Battaglie Casuali, modalità Aggressione, Fortezza, Mappa Globale e tornei."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "Modalità non compatibile per la Spinta Pro"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "Puoi attivare la spinta solo su veicoli ricercabili e da collezione di livello I–X."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "Veicolo non compatibile per la Spinta Pro"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "La tua Spinta Pro è attualmente attiva su {{vehicle}}. Puoi cambiare questa selezione tra {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "Ritorna più tardi!"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "Puoi modificare questa scelta tra {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "Spinta Pro attiva su questo veicolo"

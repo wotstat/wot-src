@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "categories/body/firepower"
+msgstr "Egy sor, ellenséges járművek megsemmisítésének hatékonyságával kapcsolatos paraméter. A szűrő megjeleníti/elrejti a paraméterrel rendelkező felszerelést."
+
+msgid "categories/body/mobility"
+msgstr "Egy sor paraméter, ami megmutatja, milyen gyorsan tud a jármű helyet változtatni a csatában. A szűrő megjeleníti/elrejti a paraméterrel rendelkező felszerelést."
+
+msgid "categories/body/stealth"
+msgstr "Egy sor paraméter, ami megmutatja az álcázás hatékonyságát és az ellenfelek felderítésének képességét. A szűrő megjeleníti/elrejti a paraméterrel rendelkező felszerelést."
+
+msgid "categories/body/survivability"
+msgstr "Egy sor paraméter, ami megmutatja a jármű sérülésekkel szembeni ellenállóságát. A szűrő megjeleníti/elrejti a paraméterrel rendelkező felszerelést."
+
+msgid "categories/empty"
+msgstr "Második férőhely kategória"
+
+msgid "categories/firepower"
+msgstr "Tűzerő"
+
+msgid "categories/mobility"
+msgstr "Mozgékonyság"
+
+msgid "categories/slotEffect/empty"
+msgstr "Lehetőség kategória hozzárendelésére a jármű második felszerelési férőhelyéhez."
+
+msgid "categories/slotEffect/firepower"
+msgstr "A Tűzerő kategóriában szereplő normál felszerelések hatékonyabbak lesznek ebbe a férőhelybe helyezve."
+
+msgid "categories/slotEffect/mobility"
+msgstr "A Mozgékonyság kategóriában szereplő normál felszerelések hatékonyabbak lesznek ebbe a férőhelybe helyezve."
+
+msgid "categories/slotEffect/stealth"
+msgstr "A Felderítés kategóriában szereplő normál felszerelések hatékonyabbak lesznek ebbe a férőhelybe helyezve."
+
+msgid "categories/slotEffect/survivability"
+msgstr "A Túlélési képesség kategóriában szereplő normál felszerelések hatékonyabbak lesznek ebbe a férőhelybe helyezve."
+
+msgid "categories/stealth"
+msgstr "Felderítés"
+
+msgid "categories/survivability"
+msgstr "Túlélési képesség"
+
+msgid "categories/universal"
+msgstr "Nincs kategória"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "Válassz egy felhasználható direktívát a listából."
+
+msgid "compare/section/description/consumables"
+msgstr "Válassz egy felhasználható fogyócikket a listából."
+
+msgid "compare/section/description/optDevices"
+msgstr "Válassz egy felhasználható felszerelést a listából."
+
+msgid "compare/section/title/battleBoosters"
+msgstr "{name} direktívái"
+
+msgid "compare/section/title/consumables"
+msgstr "{name} fogyócikkei"
+
+msgid "compare/section/title/optDevices"
+msgstr "{name} felszerelései"
+
+msgid "dealPanel/autoRenew"
+msgstr "Automata feltöltés"
+
+msgid "dealPanel/button/apply"
+msgstr "Alkalmazás"
+
+msgid "dealPanel/button/applyType"
+msgstr "Alkalmazás típusra"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "Alkalmazás járműre"
+
+msgid "dealPanel/button/cancel"
+msgstr "Mégse"
+
+msgid "dealPanel/button/purchase"
+msgstr "Vásárlás"
+
+msgid "dealPanel/fromStorage"
+msgstr "A depóból:"
+
+msgid "dealPanel/fromVehicle"
+msgstr "Felszerelve:"
+
+msgid "dealPanel/repair"
+msgstr "Javítás szükséges"
+
+msgid "dealPanel/toBePaid"
+msgstr "Összesen:"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "Depóban"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "Felszerelve járműre"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "Nincs fedezet a vásárlásra"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "Kreditért lesz megvásárolva"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "Kötvényekért lesz megvásárolva"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "Felszerelésre kerül a depóból"
+
+msgid "deconstructionDeviceView/available"
+msgstr "Elérhető:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "Mégse"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "Folytatás"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "A depóból:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "Járművekről:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "( %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s %(red_Open)sszükséges a fejlesztéshez%(red_Close)s )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "Kapsz:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "AKTÍV JÁRMŰ"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "A DEPÓBAN: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "JÁRMŰVEKEN: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "Válaszd ki a felszerelést, amit %(whiteSpanish_Open)skomponensekre%(whiteSpanish_Close)s %(icon)s szeretnél szétszerelni. Az így kapott komponenseket felhasználhatod kísérleti felszerelés fejlesztésére."
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s További komponensekért szereld szét a kihasználatlan kísérleti felszerelést."
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "SZERELŐASZTAL"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "Nincs elég komponens a(z)\n%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s fejlesztéséhez."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "A folytatáshoz szereld szét a kihasználatlan felszerelést komponensekre."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "A folytatáshoz szerezd be a szükséges mennyiségű komponenst."
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "Változtatások visszavonása"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "Törlés"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "Mégse"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "Mégse"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "Változtatások visszavonása"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "Mentés"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "Vásárlás"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "Megvesz és felszerel"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "Felszerel"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "A felszerelést %(price)s ellenében szerelheted le, majd a Depóba küldheted vagy megsemmisítheted."
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "A felszerelést %(price)s ellenében vagy – WoT plusz előfizetéssel – {whiteSpanish_Open}ingyen{whiteSpanish_Close} szerelheted le, majd a Depóba küldheted vagy megsemmisítheted."
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "A felszerelést %(demountKit)s segítségével, %(price)s ellenében vagy – WoT plusz előfizetéssel – {whiteSpanish_Open}ingyen{whiteSpanish_Close} szerelheted le, majd a Depóba küldheted vagy megsemmisítheted."
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "A felszerelést WoT plusz előfizetéssel {whiteSpanish_Open}ingyen{whiteSpanish_Close} szerelheted le, hogy aztán a Depóba küldhesd."
+
+msgid "dialogs/confirm/demount/items"
+msgstr "Leszerelheted a felszerelést és a depóba küldheted."
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "NEM FOG MŰKÖDNI"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "direktíva"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "Ennek a kettős módosításnak a megvásárlásakor a másik törölve lesz."
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "fogyócikk"
+
+msgid "dialogs/confirm/item/module"
+msgstr "modul"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "felszerelés"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "Kettős Módosítás"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "direktívák"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "fogyócikkek"
+
+msgid "dialogs/confirm/items/module"
+msgstr "modulok"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "felszerelések"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " és "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "Mented a direktíva hely változtatásait?"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "Mented a fogyócikk hely változtatásait?"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "Mented a felszerelés hely változtatásait?"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "Megvásárolod: %(name)s {type}?"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "Megvásárolod és felszereled: %(name)s {type}?"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "Felszereled: %(name)s {type}?"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "Bekapcsolod a(z) %(name)s {type} minden %(vehicle)s számára?"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "Megvásárolod: {type}?"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "Megveszed és felszereled {type}?"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "Felszereled {type}?"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "Bekapcsolod a(z) {type} minden %(vehicle)s számára?"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "páncélvadász"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "önjáró löveg"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "nehéz tank"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "könnyű tank"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "közepes tank"
+
+msgid "dialogs/confirm/warning"
+msgstr "Figyelem! %(devices)s nincs felszerelve. A direktíva %(doesNotWork)s."
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "Figyelem! A szétszerelést követően nem lesz több kísérleti felszerelésed!"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "Mégse"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "Szétszerel"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "Szétszerel"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "Összesen kapsz:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "1 tárgyért kapsz:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "Szétszereled:\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "Szétszereled:\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "Megjegyzés: Miután szétszerelted, nem tudod majd visszaállítani vagy megvásárolni ezt a felszerelést."
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "Mégse"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "Szétszerel"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "Szétszereled a következő felszerelést komponensekre?"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "Szétszereled a következő felszerelést és fejleszted:\n%(deviceName)s?"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "Szétszerelésre kerül a depóból: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "Szétszerelésre kerül a járművekről: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "A szétszerelést követően kapsz: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "Összesen kapsz:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "Fejlesztési költség:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "Figyelem! A szétszerelést követően nem lesz több kísérleti felszerelésed!"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "Figyelem! A járműveiden lévő kísérleti felszerelés szét lesz szerelve."
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "Átváltás"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "felszerelés"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "További %(credits)s szükséges %(name)s fejlesztéséhez"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "felszerelések"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "További %(credits)s szükséges a felszerelés fejlesztéséhez"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "Nem lehet fejleszteni a felszerelést. Szükséged van további %(gold)s-ra, hogy átválthasd kreditre."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "Elegendő kredited van a felszerelés fejlesztéséhez."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "Átváltás nem szükséges"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "Nincs szétszerelhető kísérleti felszerelésed."
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "További komponensekért szereld szét a kihasználatlan kísérleti felszerelést."
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "Fejleszted:\n%(name)s?"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "Szükséges: %(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "Ár:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "megvásárlásához"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "megvásárlásához"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "Átváltás"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "Átváltási arány: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "Még %(credits)s szükséges a Gyors szervizhez"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "direktíva"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "fogyócikk"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "modul"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "felszerelés"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "Kettős Módosítás"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "Még %(credits)s szükséges a(z) %(name)s {type} {action}"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "direktívák"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "fogyócikkek"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "modulok"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "felszerelések"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "Még %(credits)s szükséges a {type} {action}"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "További %(credits)s szükséges a javításhoz"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "Sikertelen vásárlás: az átváltás nem sikerült. További %(gold)s szükséges az átváltáshoz."
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "a vásárláshoz"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "a módosításra"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "Nem szükséges az átváltás—van elég kredited."
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "Elegendő kredit {action}"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "További %(credits)s szükséges a lőszerkészlet feltöltéséhez"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "Automatikus javítás"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "Javítás"
+
+msgid "dialogs/needRepair/durability"
+msgstr "Tartósság:"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s%"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "A jármű automatikusan és ingyen megjavítva"
+
+msgid "dialogs/needRepair/price"
+msgstr "Javítási költség:"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "Nincs fedezet a javításra"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "Értettem!"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "Javítás nem szükséges"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "Feltöltés"
+
+msgid "dialogs/refillShells/price"
+msgstr "Feltöltés költsége:"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "Lőszerkészlet feltöltése?"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "Mented a lőszer változtatásait?"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "Megjegyzés: Kísérleti felszerelést szeretnél eladni."
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "Megjegyzés: Miután eladtad, nem tudod majd visszaállítani vagy megvásárolni ezt a felszerelést."
+
+msgid "dialogs/sell/button/cancel"
+msgstr "Mégse"
+
+msgid "dialogs/sell/button/sell"
+msgstr "Eladás"
+
+msgid "dialogs/sell/header"
+msgstr "Eladod a következő felszerelést?\n%(equipmentName)s"
+
+msgid "dialogs/sell/text"
+msgstr "1 tárgy eladási ára:"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "Nincs elég nyersanyagod a leszereléshez."
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "Ehhez a járműhöz nem érhetők el ajánlások."
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "Nem lehet felszerelni."
+
+msgid "easyTankEquipView/applied"
+msgstr "Alkalmazva"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "Haladó"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "Fejlesztett"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "Általános"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "FOGYÓCIKKEK"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "Nincs elég férőhelyed az áthelyezéshez és a legénységi változtatásokhoz. Bővítsd a Barakk férőhelyeit."
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "{{count}}x"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "Tapasztalt legénység"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "Új legénység"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "{{count}}\nÚj harckocsizó lesz toborzva"
+msgstr[1] "{{count}}\nÚj harckocsizó lesz toborzva"
+msgstr[2] "{{count}}\nÚj harckocsizó lesz toborzva"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "LEGÉNYSÉG"
+
+msgid "easyTankEquipView/discount"
+msgstr "-{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "Haladó"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "Általános"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "FELSZERELÉS"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "Haladó"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "Általános"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "LŐSZER"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "Már alkalmaztál egy stílust"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "{{battlesCount}} csata {{price}} áron"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "ELŐRE ÖSSZEÁLLÍTOTT STÍLUSOK"
+
+msgid "easyTankEquipView/title"
+msgstr "GYORS SZERVIZ"
+
+msgid "effects/name"
+msgstr "Hatás"
+
+msgid "effects/template"
+msgstr "%(icon)s %(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "A visszatöltési idő %(cooldown)s&nbsp;mp."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "Szerezz komponenseket"
+
+msgid "filters/shown"
+msgstr "Megjelenítve: "
+
+msgid "hints/dragAndDrop/section"
+msgstr "FOGD ÉS VIDD\nFELSZERELÉSEK"
+
+msgid "hints/filters/specialization"
+msgstr "TOVÁBBI\nBÓNUSZ A KATEGÓRIA ALAPJÁN"
+
+msgid "hints/tabs/equipment"
+msgstr "ÚJ FELSZERELÉS\nTÍPUS"
+
+msgid "introduction/currency/deluxe"
+msgstr "kötvények"
+
+msgid "introduction/currency/modernized"
+msgstr "komponensek"
+
+msgid "introduction/message/deluxe"
+msgstr "Ez a típusú felszerelés %(currencyName)sért (%(currencyIcon)s) szerezhető meg. Bizonyos játékbeli eredményekért és különleges játékesemények során jutalomként is megszerezhető."
+
+msgid "introduction/message/modernized"
+msgstr "Egy három frissítési szinttel rendelkező speciális felszereléstípus, amelyet küldetések teljesítéséért és bizonyos játékbeli események során kaphatsz jutalomként. Ezt a felszerelést nem lehet megsemmisíteni vagy eladni, de szét lehet szerelni, hogy különleges alkatrészeket kapj – %(currencyName)s (%(currencyIcon)s). A kapott komponensek bármelyik kísérleti felszerelés fejlesztésére felhasználhatók."
+
+msgid "introduction/message/trophy"
+msgstr "Különleges típusú felszerelések, melyek megszerzésükkor a normál felszerelések értékeivel bírnak, de kreditért fejleszthetőek. Játékbeli fizetőeszközért nem vásárolhatsz jutalom felszerelést, csak jutalomként szerezhetőek meg bizonyos játékbeli események során."
+
+msgid "introduction/showButton"
+msgstr "Felszerelés megjelenítése"
+
+msgid "introduction/slide/1/description"
+msgstr "Új felszerelések kerültek hozzáadásra. Továbbá, a %(repairBox)s, %(wetAmmo)s, %(CO2Cistern)s és %(cycloneFilter)s kombinációjából megszületett a %(changedConfiguration)s felszerelés. A %(forcedChassis)s-t felváltotta a %(forcedMetal)s. Minden régi bónusz megmaradt és újak kerültek hozzáadásra."
+
+msgid "introduction/slide/1/title"
+msgstr "ÚJ FELSZERELÉSEK"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr "—Tűzerő"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr "—Mozgékonyság"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr "—Felderítés"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr "—Túlélési képesség"
+
+msgid "introduction/slide/2/description"
+msgstr "Ha egy felszerelés a vele megegyező kategóriájú helyre kerül felszerelésre, akkor hatékonyabban fog működni. Egyéb esetben csak normál bónuszt ad."
+
+msgid "introduction/slide/2/subtitle"
+msgstr "KATEGÓRIA EGYEZÉS"
+
+msgid "introduction/slide/2/title"
+msgstr "FELSZERELÉS KATEGÓRIÁK"
+
+msgid "introduction/slide/3/description/left"
+msgstr "A legtöbb felszerelés ára nem haladja meg az 50 000 kreditet a II-IV-es szintű járművek esetében, a 300 000 kreditet az V-VII-es szintű járművek esetében és a 600 000 kreditet a VIII-XI-es szintű járművek esetében."
+
+msgid "introduction/slide/3/description/right"
+msgstr "Az új felszerelések némelyike három osztályba sorolható. Ha nem egyezik a felszerelés osztálya, akkor is ugyanazt a hatást biztosítja. Minél nagyobb az osztálya, annál többe kerül a felszerelés. Minden felszerelés osztálya a felszerelhető jármű szintek tartományának megfelelő."
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "VÁLTOZÁSOK A FELSZERELÉSEKBEN"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "ÚJ FELSZERELÉSEK"
+
+msgid "introduction/slide/3/title"
+msgstr "FELSZERELÉSEK KÖLTSÉGE"
+
+msgid "introduction/slide/4/description"
+msgstr "Az I-es szintű járművekhez nem érhetők el felszerelések. A II-es szintű járműveken csak egy, a III-as szintű járműveken kettő, a IV-XI-es szintű járműveken pedig három felszerelést használhatsz. Az eltávolított férőhelyeken található felszereléseket leszereltük, és a Depóba küldtük."
+
+msgid "introduction/slide/4/title"
+msgstr "FELSZERELÉS HELYEK"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "Széndioxiddal tölti meg a tartályokat"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "Módosított konfiguráció"
+
+msgid "introduction/slide/confirm"
+msgstr "Értettem!"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "Ciklon szűrő"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "Feljavított felfüggesztés"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "Fejlesztett edzés"
+
+msgid "introduction/slide/repairBox"
+msgstr "Szerszámosláda"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "„Vizes” lőszerrekesz"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "Fejlesztett felszerelés"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "Kísérleti felszerelés"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "Jutalom felszerelés"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "Nincs megfelelő kísérleti felszerelésed"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "Nincs megfelelő jutalom felszerelésed"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "a késleltetéshez, mielőtt a parancsnok megállapítja, hogy az ellenség felderítette a járművedet"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "a további kábítás idejéből, ha a jármű már el van kábítva"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "az ellenséges (mozgó és álló) járművek álcázásához növényzet mögött"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "az összes lőszertípus lövedéksebességéhez"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "a töltési sebesség büntetéséhez, ha a modulok megsérültek"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "a motorteljesítmény-veszteséghez, ha a modulok megsérültek"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "az álló vagy mozgó jármű álcázásához"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "az álcázás növeléséhez, akár álló, akár mozgó járműnél (a hatékonyság a jármű típusától függ)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "a jármű test felfüggesztés által ütközéskor okozott sérüléséhez"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "a látótávolsághoz (445 méterig)—a paraméter 445 méter fölé való növelésével hatékonyabban derítheted fel az ellenfeleket"
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "az ütközéskor elszenvedett sebzéshez"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "a löveg szórásához a jármű mozgása közben és forduláskor, valamint a löveg mozgatásakor és tüzelés után"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "a páncélzat R.RO sebzéselnyeléséhez"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "az időtartamhoz, ameddig a járműved látható"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "a sebesség megtartásához\nkülönböző talajtípusokon haladva"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "a mozdulatlan jármű álcázásához 3 másodperccel az után, hogy megállt"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "az álló jármű álcázásához\n1,5 másodperccel a megállását követően"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "a mozdulatlan jármű álcázásából, 3 másodperccel azután, hogy megállt (a hatékonyság a jármű típusától függ)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "az álló jármű álcázásának növeléséhez 1,5 másodperccel a megállását követően (a hatékonysága a jármű típusától függ)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "a mozdulatlan jármű látótávolságból 3 másodperccel az után, hogy megállt (445 méterig)—a paraméter 445 méter fölé való növelésével hatékonyabban derítheted fel az ellenfeleket"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "az álló jármű látótávolságához 1,5 másodperccel a megállását követően (445 méterig) – ha 445 méter fölé növeled a paramétert, akkor hatékonyabban derítheted fel az ellenségeket"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "a jármű életerejéhez (kerekítve)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "a torony forgási sebességéhez vagy a löveg mozgatás sebességéhez fix küzdőtérrel rendelkező járműveknél"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "a késleltetéshez, mielőtt a parancsnok megállapítja, hogy az ellenség felderítette a járművedet"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "a további kábítás idejéhez, ha a jármű már el van kábítva"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "a növényzet mögött álló vagy mozgó ellenséges járművek álcázásához"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "az összes lőszertípus lövedéksebességéhez"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "a töltési sebesség büntetéséhez, ha a modulok megsérültek"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "a motorteljesítmény-veszteséghez, ha a modulok megsérültek"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "az álló vagy mozgó jármű álcázásához"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "az álcázás növeléséhez, akár álló, akár mozgó járműnél (a hatékonyság a jármű típusától függ)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "az ütközés során a felfüggesztés sérülése által járműtestnek okozott sebzéshez"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "a látótávolsághoz (445 méterig). A paraméter 445 méter fölé való növelésével hatékonyabban derítheted fel az ellenfeleket."
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "az ütközéskor elszenvedett sebzéshez"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "a löveg szórásához a jármű mozgása közben és forduláskor, valamint a löveg mozgatásakor és tüzelés után"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "a páncélzat R.RO sebzéselnyeléséhez"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "az időtartamhoz, ameddig a járműved látható"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "a sebesség megtartásához\nkülönböző talajtípusokon haladva"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "a mozdulatlan jármű álcázásához 3 másodperccel az után, hogy megállt"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "az álló jármű álcázásához\n1,5 másodperccel a megállását követően"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "a mozdulatlan jármű álcázásához, 3 másodperccel azután, hogy megállt (a hatékonyság a jármű típusától függ)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "az álló jármű álcázásához 1,5 másodperccel a megállását követően (a hatékonyság a jármű típusától függ)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "a mozdulatlan jármű látótávolsághoz 3 másodperccel az után, hogy megállt (445 méterig). A paraméter 445 méter fölé való növelésével hatékonyabban derítheted fel az ellenfeleket."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "az álló jármű látótávolságához 1,5 másodperccel a megállását követően (445 méterig). Ha 445 méter fölé növeled a paramétert, akkor hatékonyabban derítheted fel az ellenségeket."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "a jármű életerejéhez (kerekítve)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "a torony forgási sebességéhez vagy a löveg mozgatás sebességéhez fix küzdőtérrel rendelkező járműveknél"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "késleltetés a Hanglokátor\naktiválása előtt"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "a felderítettségi értesítés előtti késleltetéshez"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "a löveg hűtési sebességéhez"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "a legénység sérülés elleni védelméből"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "a legénység hatékonysági bónuszához"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "a további kábítás idejéhez"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "a kábítás időtartamából"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "a minimális lehetséges sebzési\nés átütési értékekhez"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "a maximális lehetséges sebzési\nés átütési értékekhez"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "az ütközés okozta sérülésből"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "késleltetés, mielőtt a kritikus sérülés\nmegjelenik a célkeresztben lévő járművön"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "az ellenséges járművek álcázásához növényzet mögött"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "a mozgó ellenséges járművek álcázásához"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "a sérülésokozás esélyéhez ellenséges járművek\nmoduljaiban és legénységének"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "a fogyócikkek visszatöltési idejéhez"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "a tűzoltás sebességéhez"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "a növényzet mögötti álcázáshoz"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "a javítókészlet által visszaállított életerőhöz"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "a sebesség megtartásához\nközepesen puha talajon haladva"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "a látótávolság-büntetéshez, ha a megfigyelő\neszközök nem működnek"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "a maximális potenciális átütéshez"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "az ellenséges járművek\npozíciójának továbbítási idejéhez,\nmiután járműved megsemmisült"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "a rádiós sérülés elleni\nvédelméhez"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "a lövedéksebességhez"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "a sebesség megtartásához\npuha talajon haladva"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "a legénység kábításának\nnegatív hatásaihoz"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "a felfüggesztés elszenvedett sérüléséhez"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "a felfüggesztés javítási sebességéhez"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "a töltési sebesség büntetéséhez"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "a sérült motor büntetéséhez"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "a járműtest forgási sebességéből"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "a belső modulok ellenállóságából"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "a lőszerrekesz ellenállóságához"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "a maximális tolatási sebességből"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "az álcázásból"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "az álcázás növeléséből"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "a becsapódás általi sebzéshez"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "a felfüggesztés javítási sebességéből"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "a felfüggesztés ellenállóságából"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "a látótávból"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "az időtartamhoz, ameddig egy\nellenséges jármű látható számodra"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "a motorerőből"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "a becsapódás általi sebzéshez"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "a motortűz esélyéhez"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "a maximális sebességből"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "az üzemanyagtartály kritikus\nsebzésének esélyéhez"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "a célzási sebességből"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "az újratöltési sebességhez"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "a szórásból a jármű mozgása és fordulása közben"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "a célzókör méretéből tüzelés után"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "a mozgás közbeni szóráshoz"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "a járműtest forgása közbeni szóráshoz"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "a löveg mozgása közbeni szóráshoz"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "a sérült löveg szórásához"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "a célzókör méretéhez"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "a R.RO lövedék sebzéséhez"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "a tüzelés utáni álcázáshoz"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "az időtartamhoz, ameddig a járműved látható"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "az ütközés során szerzett\nfelfüggesztés sérüléshez"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "az ütközés során szerzett sérüléshez"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "a lőszertípusok közötti váltás sebességéhez,\nbetöltött löveg esetén"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "a javítás sebességéhez"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "a sebesség megtartásához különböző talajtípusokon haladva"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "a mozdulatlan jármű álcázásához"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "az álló jármű álcázásához"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "az álcázás növekedéséhez mozdulatlan jármű esetén"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "az álcázás növekedéséhez mozdulatlan jármű esetén"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "a látótávhoz mozdulatlan jármű esetén"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "a látótávhoz mozdulatlan jármű esetén"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "a jármű életerejéhez"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "a torony forgási sebességéhez vagy a löveg mozgatás sebességéhez fix küzdőtérrel rendelkező járműveknél"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "a toronyforgatási sebességhez"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "a kerék forgási sebességéhez"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "a sérült legénységért járó büntetéshez\n(a parancsnok kivételével)"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "késleltetés a Hanglokátor\naktiválása előtt"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "késleltetés, mielőtt a kritikus sérülés\nmegjelenik a célkeresztben lévő járművön"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "az ellenséges járművek felderítésének\nidejéhez a jármű megsemmisülése után"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "a R.RO lőszer sebzéséhez"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "a R.RO lőszer páncélátütéséhez"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "a R.RO lövedék sebességéhez"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "a lőszerkapacitáshoz"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "az összes lőszer sebzéséhez"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "az összes lőszertípus lövedéksebességéhez"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "késleltetés a Hanglokátor\naktiválása előtt"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "a normál lőszer sebzéséhez"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "a felderítettségi értesítés előtti késleltetéshez"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "a löveg hűtési sebességéhez"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "a legénység sérülés elleni védelméhez"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "a legénység hatékonysági bónuszához"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "a további kábítás idejéhez"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "a kábítás időtartamához"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "a minimális lehetséges sebzési és átütési értékekhez"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "a maximális lehetséges sebzési\nés átütési értékekhez"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "az ütközés okozta sérüléshez"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "késleltetés, mielőtt a kritikus sérülés\nmegjelenik a célkeresztben lévő járművön"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "az ellenséges járművek álcázásához növényzet mögött"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "a mozgó ellenséges járművek álcázásához"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "a sérülésokozás esélyéhez ellenséges járművek\nmoduljaiban és legénységének"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "a motor életerejéhez"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "a fogyócikkek visszatöltési idejéhez"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "a tűzoltás sebességéhez"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "a növényzet mögötti álcázáshoz"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "az üzemanyagtartály életerejéhez"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "a lövegsüllyedéshez"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "a lövegkitéríthetőséghez"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "a lövegstabilizációhoz"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "a lövegmozgatási tartományhoz"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "a javítókészlet által visszaállított életerőhöz"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "a járműtest emelési sebességéhez"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "a sebesség megtartásához\nközepesen puha talajon haladva"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "a nem R.RO lőszer sebzéséhez"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "a látótávolság-büntetéshez, ha a megfigyelő\neszközök nem működnek"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "a maximális potenciális átütéshez"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "az ellenséges járművek\npozíciójának továbbítási idejéhez,\nmiután járműved megsemmisült"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "a rádiós sérülés elleni\nvédelméhez"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "a táron belüli újratöltési időhöz"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "az újratöltési időhöz (Sortűz mód)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "az újratöltési időhöz (Egylövetű mód)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "a lövedék által az ellenséges moduloknak okozott sebzéshez"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "a lövedéksebességhez"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "a sebesség megtartásához\npuha talajon haladva"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "a különleges lőszer sebzéséhez"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "a különleges lőszer páncélátütéséhez"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "a különleges lőszer lövedéksebességéhez"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "a normál lőszer sebzéséhez "
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "a normál lőszer páncélátütéséhez"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "a normál lőszer lövedéksebességéhez"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "a legénység kábításának negatív hatásaihoz"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "a felfüggesztés elszenvedett sérüléséhez"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "a felfüggesztés javítási sebességéhez"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "a torony forgatási tartományához"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "a töltési sebesség büntetéséhez"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "a sérült motor büntetéséhez"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "a járműtest forgási sebességéhez"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "a belső modulok ellenállóságához"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "a lőszerrekesz ellenállóságához"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "a maximális tolatási sebességhez"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "az álcázáshoz"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "az álcázás növekedéséhez"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "az ütközéskor bekövetkező sérüléshez"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "a felfüggesztés javítási sebességéhez"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "a felfüggesztés ellenállóságához"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "a látótávolsághoz (445 méterig)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "az időtartamhoz, ameddig egy\nellenséges jármű látható számodra"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "a motorerőhöz"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "a becsapódás általi sebzéshez"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "a motortűz esélyéhez"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "a maximális sebességhez"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "az üzemanyagtartály kritikus\nsebzésének esélyéhez"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "a célzási sebességhez"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "az újratöltési sebességhez"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "a szórásból a jármű mozgása és fordulása közben"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "a célzókör méretéhez tüzelés után"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "a mozgás közbeni szóráshoz"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "a járműtest forgása közbeni szóráshoz"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "a löveg mozgása közbeni szóráshoz"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "a sérült löveg szórásához"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "a célzókör méretéhez"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "a R.RO lövedék sebzéséhez"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "a tüzelési utáni álcázáshoz"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "az időtartamhoz, ameddig a járműved látható"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "az ütközés során szerzett\nfelfüggesztés sérüléshez"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "az ütközés során szerzett sérüléshez"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "a lőszertípusok közötti váltás sebességéhez,\nbetöltött löveg esetén"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "a javítás sebességéhez"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "a végsebességhez / tolatási sebességhez"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "a sebesség megtartásához különböző talajtípusokon haladva"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "a mozdulatlan jármű álcázásához"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "az álló jármű álcázásához"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "az álcázás növekedéséhez mozdulatlan jármű esetén"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "az álcázás növekedéséhez mozdulatlan jármű esetén"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "a mozdulatlan jármű látótávolságához (445 méterig)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "a mozdulatlan jármű látótávolságához (445 méterig)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "a jármű életerejéhez"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "a torony forgási sebességéhez vagy a löveg mozgatás sebességéhez fix küzdőtérrel rendelkező járműveknél"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "a toronyforgatási sebességhez"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "a kerék forgási sebességéhez"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "a sérült legénységi tagért járó büntetéshez\n(a parancsnok kivételével)"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "a felderítettségi értesítés előtti késleltetéshez"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "a legénység sérülés elleni\nvédelméhez"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "a legénység hatékonysági bónuszához"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "a további kábítás idejéhez"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "a kábítás időtartamából"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "az ütközés okozta sérüléshez"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "késleltetés, mielőtt a kritikus sérülés\nmegjelenik a célkeresztben lévő járművön"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "az ellenséges járművek álcázásához\nnövényzet mögött"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "a mozgó ellenséges járművek\nálcázásához"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "a javítókészlet által visszaállított életerőhöz"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "a tár újratöltési idejéhez"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "a maximális potenciális átütéshez"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "a rádiós sérülés elleni védelméhez"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "az összes lőszertípus lövedéksebességéhez"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "a löveg szórásához"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "a felfüggesztés javítási sebességéhez"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "a löveg mozgása közbeni szóráshoz"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "a töltési sebesség büntetéséhez"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "a motorerő csökkenéséhez\nannak megsérülésekor"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "a jármű forgási sebességéhez"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "a belső modulok ellenállóságához"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "a lőszerrekesz ellenállóságához"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "a maximális tolatási sebességhez"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "az álcázáshoz"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "a becsapódás általi sebzéshez"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "a felfüggesztés javítási sebességéhez"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "a felfüggesztés ellenállóságához"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "a látótávhoz"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "az időtartamhoz, ameddig egy\nellenséges jármű látható számodra"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "a motorerőhöz"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "a becsapódás általi sebzéshez"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "a motortűz esélyéhez"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "a maximális sebességhez"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "a célzási sebességhez"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "az újratöltési sebességhez"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "a szórásból a jármű mozgása és\nfordulása közben"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "a célzókör méretéhez tüzelés\nután"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "a mozgás közbeni szóráshoz"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "a járműtest mozgása közbeni szóráshoz"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "a szóráshoz a \nlöveg mozgatása közben "
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "a sérült löveg szórásához"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "a célzókör méretéhez"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "a R.RO lövedék sebzéséhez"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "a tüzelési utáni álcázáshoz"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "az időtartamhoz, ameddig a járműved látható"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "az ütközés során szerzett sérüléshez"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "a lőszertípusok közötti váltás sebességéhez"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "a javítás sebességéhez"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "a sebesség megtartásához"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "a mozdulatlan jármű\nálcázásához"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "a mozdulatlan jármű\nálcázásához"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "a látótávhoz"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "a látótávolsághoz"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "a jármű életerejéhez"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "a löveg mozgatási sebességéhez"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "a toronyforgatási sebességhez"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "a sérült harckocsizóért járó büntetéshez,\na parancsnok kivételével"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "a felderítettségi értesítés előtti késleltetéshez"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "a legénység sérülés elleni\nvédelméhez"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "a legénység hatékonysági bónuszához"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "a legénység hatékonysági bónuszához"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "a további kábítás idejéhez"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "a kábítás időtartamához"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "a minimális lehetséges sebzési\nés átütési értékekhez"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "az ütközés okozta sérüléshez"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "az ellenséges járművek álcázásához\nnövényzet mögött"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "a mozgó ellenséges járművek\nálcázásához"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "a sérülésokozás esélyéhez ellenséges járművek\nmoduljaiban és legénységének"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "a tűzoltás sebességéhez"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "a javítókészlet által visszaállított életerőhöz"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "a tár újratöltési idejéhez"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "a jármű álcázásához"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "a sebesség megtartásához\nközepesen puha talajon haladva"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "a maximális potenciális átütéshez"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "a rádió hatótávolságához"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "a rádiós sérülés elleni védelméhez"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "az összes lőszertípus lövedéksebességéhez"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "a sebesség megtartásához\npuha talajon haladva"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "a felfüggesztés javítási sebességéhez"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "a jármű rádiólefedettségén belül tartozkodó csapattársak jelerősségéhez"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "a töltési sebesség büntetéséhez"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "a motorerő csökkenéséhez\nannak megsérülésekor"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "a jármű forgási sebességéhez"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "a belső modulok ellenállóságához"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "a lőszerrekesz ellenállóságához"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "a maximális tolatási sebességhez"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "az álcázáshoz"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "az ütközéskor bekövetkező sérüléshez"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "a felfüggesztés javítási sebességéhez"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "a felfüggesztés ellenállóságához"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "a látótávolsághoz\n(445 méterig)"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "az időtartamhoz, ameddig egy\nellenséges jármű látható számodra"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "a motorerőhöz"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "a becsapódás általi sebzéshez"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "a motortűz esélyéhez"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "a maximális sebességhez"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "a célzási sebességhez"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "az újratöltési sebességhez"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "a szórásból a jármű mozgása és\nfordulása közben"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "a célzókör méretéhez tüzelés\nután"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "a mozgás közbeni szóráshoz"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "a járműtest mozgása közbeni szóráshoz"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "a szóráshoz a \nlöveg mozgatása közben"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "a sérült löveg szórásához"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "a célzókör méretéhez"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "a R.RO lövedék sebzéséhez"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "a tüzelési utáni álcázáshoz"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "az időtartamhoz, ameddig a járműved látható"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "az ütközés során szerzett sérüléshez"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "a lőszertípusok közötti váltás sebességéhez"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "a javítás sebességéhez"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "a sebesség megtartásához"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "a mozdulatlan jármű álcázásához"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "az álló jármű álcázásához"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "a mozdulatlan jármű látótávolságához\n(445 méterig)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "a mozdulatlan jármű látótávolságához\n(445 méterig)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "a jármű életerejéhez"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "a löveg mozgatási sebességéhez"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "a toronyforgatási sebességhez"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "a csatában szerzett legénységi XP-hez"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "mp"
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "mp"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "mp"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "mp"
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "mp"
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "mp"
+
+msgid "popularLoadouts/common"
+msgstr "Népszerű"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "Gyakran használt"
+
+msgid "popularLoadouts/legendary"
+msgstr "Legendás"
+
+msgid "popularLoadouts/noData"
+msgstr "Nem áll rendelkezésre adat"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "Nem áll rendelkezésre adat"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)sNépszerű.%(whiteSpanish_Close)s A World of Tanks összes játékosának jelenlegi felszerelési trendjei alapján"
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "Adatgyűjtés"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "Ha a jelenlegi Roham-szezon adatai még nem állnak rendelkezésre, akkor az előző szezon adatait használjuk"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "A segéd elérhető a %(whiteSpanish_Open)sNormál csatákhoz%(whiteSpanish_Close)s és a %(whiteSpanish_Open)sRoham módhoz%(whiteSpanish_Close)s"
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "Összesítjük az összes felszereléstípus adatait"
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "A WoT plusz előnyei"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "Pontos felszerelési adatokat kaphatsz több millió játék alapján, hogy a legtöbbet hozhasd ki minden csatádból."
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "Felszerelési segéd"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendás.%(whiteSpanish_Close)s A Legenda WTR-értékelésű játékosok által jelenleg preferált felszerelések alapján"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "Az összeállítások típusai"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "A javasolt összeállítások a hasonló játékstílusú járművek népszerű összeállításai alapján készültek"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "Az alábbi, hasonló játékstílusú jármű adatai láthatók:"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "Nem állnak rendelkezésre adatok az összeállításokról"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "A kiválasztott jármű nem érhető el ebben a játékmódban"
+
+msgid "section/battleAbilities"
+msgstr "HARCI TARTALÉKOK"
+
+msgid "section/battleBoosters"
+msgstr "DIREKTÍVÁK"
+
+msgid "section/consumables"
+msgstr "FOGYÓCIKKEK"
+
+msgid "section/modules"
+msgstr "MODULOK"
+
+msgid "section/optDevices"
+msgstr "FELSZERELÉS"
+
+msgid "section/shells"
+msgstr "LŐSZER"
+
+msgid "section/toggleCamouflage"
+msgstr "ÁLFESTÉS"
+
+msgid "section/toggleShells"
+msgstr "LŐSZER"
+
+msgid "shells/ammunitionFull"
+msgstr "Lőszerkészlet teljes"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "Lőszerkészlet hiányos"
+
+msgid "shells/autoFillOff"
+msgstr "Automatikus feltöltés kikapcsolva"
+
+msgid "shells/autofillOn"
+msgstr "Automatikus feltöltés bekapcsolva"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "Depóban:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "Lőszerrekeszben:"
+
+msgid "shells/shortSpecification/price"
+msgstr "Vásárlás:"
+
+msgid "shells/specification/inStorage"
+msgstr "Depóban"
+
+msgid "shells/specification/inVehicle"
+msgstr "Lőszerrekeszben"
+
+msgid "shells/specification/price"
+msgstr "Vásárlás"
+
+msgid "shells/title"
+msgstr "Lőszer"
+
+msgid "shells/type/base"
+msgstr "NORMÁL (PCT)"
+
+msgid "shells/type/special"
+msgstr "KÜLÖNLEGES (R.RO)"
+
+msgid "shells/type/tactical"
+msgstr "TAKTIKAI (KPCT)"
+
+msgid "tabs/crew"
+msgstr "Legénység részére"
+
+msgid "tabs/deluxe"
+msgstr "Fejlesztett"
+
+msgid "tabs/modernized"
+msgstr "Kísérleti"
+
+msgid "tabs/optDevice"
+msgstr "Felszerelésért"
+
+msgid "tabs/simple"
+msgstr "Általános"
+
+msgid "tabs/trophy"
+msgstr "Jutalom"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "A direktíva automatikusan újra lesz töltve miután a jármű elhagyja a csatát. Ez vagy a depóból fog történni (ha van készleten direktívád) vagy játékon belüli fizetőeszközért cserébe."
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "A fogyócikkek automatikusan újra lesznek töltve szükség esetén, miután a jármű elhagyja a csatát."
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "A javítás automatikusan meg fog történni, amennyiben szükséges, miután a jármű elhagyja a csatát."
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "A lőszerkészlet automatikusan újra lesz töltve szükség esetén, miután a jármű elhagyja a csatát."
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "Automatikus feltöltés"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "Automatikus javítás"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "Szétszerelésre kerül a depóból: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "Szétszerelésre kerül a járművekről: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr ", "
+
+msgid "tooltips/action/description/add_one"
+msgstr "Kattints, hogy további elemeket vásárolj ehhez a helyhez."
+
+msgid "tooltips/action/description/demount"
+msgstr "Kattints, hogy eltávolítsd a felszerelést erről a helyről."
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "Kattints, hogy eltávolítsd a felszerelést erről a helyről."
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "Kattints, hogy eltávolítsd a felszerelést minden konfigurációból."
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "Kattints, hogy az aktív WoT plusz előfizetéseddel ingyenesen leszereld a férőhelyen lévő felszerelést."
+
+msgid "tooltips/action/description/destroy"
+msgstr "Kattints, hogy megsemmisítsd a férőhelyen lévő felszerelést, vagy szereld le ingyen aktív WoT plusz előfizetéseddel."
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "Kattints a gombra a felszerelés komponensekre való szétszereléséhez."
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "Kattints, hogy megsemmisítsd a férőhelyen lévő felszerelést."
+
+msgid "tooltips/action/description/swap"
+msgstr "Kattints, hogy felcseréld az elemeket a helyek között."
+
+msgid "tooltips/action/description/upgrade"
+msgstr "A felszerelés fejlesztésével javíthatod a jellemzőit."
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "A felszerelés fejlesztésével javíthatod a jellemzőit."
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "A felszerelés fejlesztésével javíthatod a jellemzőit."
+
+msgid "tooltips/action/title/add_one"
+msgstr "Vásárlás"
+
+msgid "tooltips/action/title/cancel"
+msgstr "Depóba küld"
+
+msgid "tooltips/action/title/demount"
+msgstr "Eltávolítás"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "Eltávolítás"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "Eltávolítás minden konfigurációból"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "Leszerelés ingyen"
+
+msgid "tooltips/action/title/destroy"
+msgstr "Megsemmisítés"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "Szétszerel"
+
+msgid "tooltips/action/title/swap"
+msgstr "Sorrend megváltoztatása"
+
+msgid "tooltips/action/title/undo"
+msgstr "Eltávolítás a férőhelyről"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "Fejlesztés"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "Fejleszt"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "Fejleszt"
+
+msgid "tooltips/additional"
+msgstr "További információk."
+
+msgid "tooltips/categories/list"
+msgstr "Kattints a modulok listájának megtekintéséhez."
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "Ez a férőhely kategória a Harctéri módosítás menüben vagy a felszerelésválasztó képernyőn átrendezhető."
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "Átrendezhető kategória"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "Kattints a férőhely kategória átrendezéséhez."
+
+msgid "tooltips/equipmentList"
+msgstr "Kattints az elérhető felszerelések listájának megtekintéséhez."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "Nem lehet szétszerelni a kísérleti felszerelést komponensekre: Nincs ilyen típusú felszerelésed."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "Kattints a gombra a felszerelés komponensekre történő szétszerelésének folytatásához."
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "Használatakor ez a felszerelés normál bónuszt biztosít, mivel csak a páncélvadászok és az önjáró lövegek rendelkeznek a Tűzerő kategóriával és ez a felszerelés nem arra a helyre van felszerelve."
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "A járműved növelt mennyiségű bónuszt kap a karakterisztikájához."
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "A karakterisztikai bónuszok növeléséhez, szereld fel ezt a felszerelést a következő kategóriájú helyek egyikére: %(category)s."
+
+msgid "tooltips/howToIncrease/single"
+msgstr "A karakterisztikai bónuszok növeléséhez, szereld fel ezt a felszerelést a következő kategóriájú helyre: %(category)s."
+
+msgid "tooltips/placeEquipment"
+msgstr "Felszerelés férőhely"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "A Harctéri módosítás felületen engedélyezheted/letilthatod a lőszer készletek és fogyócikkek kiválasztásának lehetőségét a csata előtti visszaszámláláskor."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "A Harctéri módosítás felületen engedélyezheted/letilthatod a felszerelések és direktívák kiválasztásának lehetőségét a csata előtti visszaszámláláskor."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "Engedélyezheted, illetve letilthatod a lőszerek és fogyócikkek kiválasztásának lehetőségét a csata előtti visszaszámlálás alatt elérhető Harctéri módosítás felületen."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "Engedélyezheted, illetve letilthatod a lőszerek és fogyócikkek kiválasztásának lehetőségét a csata előtti visszaszámlálás alatt elérhető Fejlesztések felületen."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "Engedélyezheted, illetve letilthatod a felszerelések és direktívák kiválasztásának lehetőségét a csata előtti visszaszámlálás alatt elérhető Harctéri módosítás felületen."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "Engedélyezheted, illetve letilthatod a felszerelések és direktívák kiválasztásának lehetőségét a csata előtti visszaszámlálás alatt elérhető Fejlesztések felületen."
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "Váltás letiltott készletek között"
+
+msgid "tooltips/separator/last"
+msgstr " és "
+
+msgid "tooltips/separator/other"
+msgstr ", "
+
+msgid "tooltips/specializationDesc"
+msgstr "%(spec)s kategória normál felszerelései sokkal hatékonyabbak lesznek, ha ezen férőhelyre vannak felszerelve. A többi kategória felszerelései csak normál bónuszt fognak adni."
+
+msgid "tooltips/specializationName"
+msgstr "Kategória:"
+
+msgid "tooltips/specializationType"
+msgstr "Tűzerő"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "Egy értékes felszereléstípus, ami a többi felszereléstípusnál jobb jellemzőkkel rendelkezik."
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "Különleges felszerelés, aminek három fejlesztési szintje van."
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "A felszerelés javítja a járműved tulajdonságait."
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "Egy olyan felszereléstípus, ami a normál felszereléssel megegyező tulajdonságokkal rendelkezik, de fejleszthető."
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "Fejlesztett felszerelés"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "Kísérleti felszerelés"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "Normál felszerelés"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "Jutalom felszerelés"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "Ez a típusú felszerelés %(whiteSpanish_Open)skötvényekért%(whiteSpanish_Close)s szerezhető meg. Bizonyos játékbeli eredményekért és különleges játékesemények során jutalomként is megszerezhető."
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "Ilyen típusú felszerelést bizonyos játékon belüli események jutalmaként szerezhetsz."
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "Ez a felszereléstípus játékon belüli fizetőeszközért vásárolható meg. Emellett a játékban elért eredményeiért és bizonyos játékon belüli események jutalmaként is megszerezheted őket. A normál felszerelés jellemzői javulnak, ha a megfelelő férőhelyre teszed."
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "Ilyen típusú felszerelést bizonyos játékon belüli események jutalmaként szerezhetsz."
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "Beszerzési mód"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "Megszerzés módja"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "Felszerelés férőhelyek"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "A jutalom felszereléseket nem lehet megvásárolni"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "A kísérleti felszerelések jellemzőit %(whiteSpanish_Open)skomponensek%(whiteSpanish_Close)s felhasználásával fejlesztheted, amelyeket az ilyen típusú felszerelések szétszerelésével kaphatsz."
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "Fejlesztheted a jutalom felszerelés karakterisztikáit játékon belüli fizetőeszközért."
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "Kísérleti felszerelés fejlesztése"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "Jutalom felszerelés fejlesztése"

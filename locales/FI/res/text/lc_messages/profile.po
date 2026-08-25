@@ -1,0 +1,1712 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "profile/dropdown/battlesType"
+msgstr "Pelimuoto:"
+
+msgid "profile/dropdown/existence"
+msgstr "Saatavilla:"
+
+msgid "profile/dropdown/labels/all"
+msgstr "Satunnainen, panssarikomppania"
+
+msgid "profile/dropdown/labels/battleRoyaleSolo"
+msgstr "Teräksen metsästäjä, yksin"
+
+msgid "profile/dropdown/labels/battleRoyaleSquad"
+msgstr "Teräksen metsästäjä, osasto"
+
+msgid "profile/dropdown/labels/clan"
+msgstr "Maailmankartta"
+
+msgid "profile/dropdown/labels/comp7"
+msgstr "Rynnistys"
+
+msgid "profile/dropdown/labels/comp7_archive_Griffin"
+msgstr "Aarnikotkan vuosi"
+
+msgid "profile/dropdown/labels/comp7_archive_Manticore"
+msgstr "Manticoran vuosi"
+
+msgid "profile/dropdown/labels/comp7_archive_Pegasus"
+msgstr "Pegasoksen vuosi"
+
+msgid "profile/dropdown/labels/comp7_season_1"
+msgstr "Taivaansinisen lohikäärmeen"
+
+msgid "profile/dropdown/labels/comp7_season_2"
+msgstr "Verenpunaisen lohikäärmeen"
+
+msgid "profile/dropdown/labels/comp7_season_3"
+msgstr "Jadenvihreän lohikäärmeen"
+
+msgid "profile/dropdown/labels/epicRandom"
+msgstr "Suurtaistelu"
+
+msgid "profile/dropdown/labels/fallout"
+msgstr "Teräsmyrsky"
+
+msgid "profile/dropdown/labels/fortifications"
+msgstr "Linnake: taistelut"
+
+msgid "profile/dropdown/labels/fortifications/battles"
+msgstr "Hyökkäysoperaatio"
+
+msgid "profile/dropdown/labels/fortifications/sorties"
+msgstr "Kahakat"
+
+msgid "profile/dropdown/labels/historical"
+msgstr "Historiallinen taistelu"
+
+msgid "profile/dropdown/labels/random"
+msgstr "Satunnaistaistelu"
+
+msgid "profile/dropdown/labels/ranked"
+msgstr "Luokitettu taistelu 15v15"
+
+msgid "profile/dropdown/labels/ranked_10x10"
+msgstr "Luokitettu taistelu"
+
+msgid "profile/dropdown/labels/staticTeam"
+msgstr "Joukkue: Liigataistelut"
+
+msgid "profile/dropdown/labels/staticTeam/season"
+msgstr "Joukkue: Liigataistelut"
+
+msgid "profile/dropdown/labels/team"
+msgstr "Joukkue: Joukkuetaistelut"
+
+msgid "profile/params/tooltip/achievementsCount/body"
+msgstr "Palkintoja saatu \"Taistelukenttä\" kategoriassa"
+
+msgid "profile/params/tooltip/achievementsCount/header"
+msgstr "Palkinnot"
+
+msgid "profile/params/tooltip/armorUsing/body"
+msgstr "Panssarin torjuma vahinko AP, HEAT ja APCR ammusten ei-läpäisevistä osumista ja kimmokkeista suhteessa tämän tyyppisten ammusten tekemään vahinkoon. Potentiaalista vahinkoa HE ja HESH ammuksista ei lasketa.\n• Keskim. vahinkoa, jonka panssari on pysäyttänyt tämän tyyppisistä ammuksista: %(value_0)s"
+
+msgid "profile/params/tooltip/armorUsing/header"
+msgstr "Panssarin käyttötehokkuus"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/body"
+msgstr "Vahinkoa aiheutettu yhteensä lamautettuihin vihollisvaunuihin"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/header"
+msgstr "Vahinkoa pelaajan lamauttamiin vihollisvaunuihin"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/body"
+msgstr "Vahinkoa aiheutettu yhteensä lamautettuihin vihollisvaunuihin"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/header"
+msgstr "Vahinkoa lamauttamiisi vihollisvaunuihin"
+
+msgid "profile/params/tooltip/avgAssistedDamage/body"
+msgstr "Sisältäen:\n• Vahinkoa pelaajan havaitsemiin kohteisiin\n• Vahinkoa telan tuhoutumisen ja vihollisvaunun liikuntakyvyttömäksi tekemisen jälkeen."
+
+msgid "profile/params/tooltip/avgAssistedDamage/header"
+msgstr "Vahinkoa keskimäärin aiheutettu avustuksellasi"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/body"
+msgstr "Sisältäen:\n• Vahinkoa havaitsemiisi kohteisiin\n• Vahinkoa tuhottuasi telan ja tehtyäsi vihollisvaunun liikuntakyvyttömäksi."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/header"
+msgstr "Vahinkoa aiheutettu pelaajan avustuksella"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/body"
+msgstr "Sisältäen:\n• Vahinkoa pelaajan havaitsemiin kohteisiin\n• Vahinkoa telan tuhoutumisen ja vihollisvaunun liikuntakyvyttömäksi tekemisen jälkeen."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/body"
+msgstr "Sisältää:\n• Vahinko havaitsemiisi vaunuihin (sisältäen taitojen avulla tehdyn vahingon)\n• Vahingon vaunuihin, jonka telan olet tuhonnut ja jonka olet tehnyt liikuntakyvyttömäksi (sisältäen taitojen avulla tehdyn vahingon)\n• Liittolaisten taitojesi avulla aiheuttaman vahingon."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/header"
+msgstr "Avustuksellasi aiheutettu vahinko"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/header"
+msgstr "Vahinkoa aiheutettu avustuksellasi"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/body"
+msgstr "Lamautettuihin vihollisiin aiheutetun vahingon (sisältäen taitojen avulla aiheutetut lamautukset) ja pelattujen taisteluiden määrän välinen suhde"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/header"
+msgstr "Vahinkoa pelaajan lamauttamiin vihollisvaunuihin"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/body"
+msgstr "Lamautettuihin vihollisiin aiheutetun vahingon (sisältäen taitojen avulla aiheutetut lamautukset) ja pelattujen taisteluiden määrän välinen suhde"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/header"
+msgstr "Vahinkoa lamauttamiisi vihollisvaunuihin"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/body"
+msgstr "Lamautettuihin vihollisvaunuihin tehdyn vahingon suhde taisteluidesi määrään"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/header"
+msgstr "Vahinkoa pelaajan lamauttamiin vihollisvaunuihin"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/body"
+msgstr "Lamautettuihin vihollisvaunuihin tehdyn vahingon suhde taisteluidesi määrään"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/header"
+msgstr "Vahinkoa lamauttamiisi vihollisvaunuihin"
+
+msgid "profile/params/tooltip/avgDamage/body"
+msgstr "Aiheutetun vahingon ja taisteluiden suhde"
+
+msgid "profile/params/tooltip/avgDamage/header"
+msgstr "Keskimääräinen vahinko per taistelu"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/body"
+msgstr "Tuhottujen vihollisvaunujen ja käytyjen taisteluiden suhde"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/body"
+msgstr "Tuhottujen vihollisvaunujen (sisältäen taitojen avulla tuhotut viholliset) ja pelattujen taisteluiden määrän välinen suhde"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/header"
+msgstr "Vihollisvaunuja tuhottu"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/header"
+msgstr "Vihollisvaunuja tuhottu"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/body"
+msgstr "Havaittujen vihollisvaunujen ja käytyjen taisteluiden suhde"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/body"
+msgstr "Havaittujen vihollisvaunujen (sisältäen taitojen avulla havaitut viholliset) ja pelattujen taisteluiden määrän välinen suhde"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/header"
+msgstr "Vihollisvaunuja havaittu"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/header"
+msgstr "Vihollisvaunuja havaittu"
+
+msgid "profile/params/tooltip/avgDmg/short/body"
+msgstr "Aiheutetun vahingon ja taisteluiden suhde"
+
+msgid "profile/params/tooltip/avgDmg/short/header"
+msgstr "Vahinkoa aiheutettu"
+
+msgid "profile/params/tooltip/avgEx/short/body"
+msgstr "Kokonaiskokemuksen ja taisteluiden suhde"
+
+msgid "profile/params/tooltip/avgEx/short/header"
+msgstr "Kokemusta"
+
+msgid "profile/params/tooltip/avgExp/body"
+msgstr "Kokonaiskokemuksen ja taisteluiden suhde"
+
+msgid "profile/params/tooltip/avgExp/header"
+msgstr "Keskimääräinen kokemus per taistelu"
+
+msgid "profile/params/tooltip/avgHealthRepair/body"
+msgstr "Palautettujen kestopisteiden yhteismäärän ja pelattujen taisteluiden määrän välinen suhde"
+
+msgid "profile/params/tooltip/avgHealthRepair/header"
+msgstr "Kestopisteitä palautettu"
+
+msgid "profile/params/tooltip/avgPoiCaptured/body"
+msgstr "Vallattujen kohdealueiden ja pelattujen taisteluiden määrän välinen suhde"
+
+msgid "profile/params/tooltip/avgPoiCaptured/header"
+msgstr "Kohdealueita vallattu"
+
+msgid "profile/params/tooltip/avgPrestigePoints/body"
+msgstr "Ansaittujen arvovaltapisteiden yhteismäärän ja pelattujen taisteluiden määrän välinen suhde"
+
+msgid "profile/params/tooltip/avgPrestigePoints/header"
+msgstr "Keskimäärin arvovaltapisteitä per taistelu"
+
+msgid "profile/params/tooltip/avgReceivedDamage/body"
+msgstr "Otetun vaurion ja käytyjen taisteluiden suhde"
+
+msgid "profile/params/tooltip/avgReceivedDamage/header"
+msgstr "Vahinkoa otettu"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/body"
+msgstr "Käytettyjen roolitaitojen yhteismäärän ja pelattujen taisteluiden määrän välinen suhde"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/header"
+msgstr "Käytetyt roolitaidot"
+
+msgid "profile/params/tooltip/avgStunNumber/body"
+msgstr "Vihollismiehistön lamauttaneiden osumien suhde taisteluidesi määrään"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/body"
+msgstr "Lamautuksen aiheuttaneiden osumien yhteismäärä (sisältäen osumat taitojen avulla) ja pelattujen taisteluiden määrän välinen suhde"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/header"
+msgstr "Lamautusten määrä"
+
+msgid "profile/params/tooltip/avgStunNumber/header"
+msgstr "Lamautusten määrä"
+
+msgid "profile/params/tooltip/avgVictoryPoints/body"
+msgstr "Kaikkien ansaittujen voittopisteiden suhde taisteluiden määrään."
+
+msgid "profile/params/tooltip/avgVictoryPoints/header"
+msgstr "Voittopisteitä keskimäärin"
+
+msgid "profile/params/tooltip/battlesCount/body"
+msgstr "Taisteluita kaikkiaan, sisältäen:\n• Voittoja: %(value_0)s\n• Tappioita: %(value_1)s\n• Tasapelejä: %(value_2)s"
+
+msgid "profile/params/tooltip/battlesCount/header"
+msgstr "Taisteluita"
+
+msgid "profile/params/tooltip/brAverageLevel/body"
+msgstr "Kaikkien saavutettujen tasojen summan suhde pelattujen taisteluiden määrään."
+
+msgid "profile/params/tooltip/brAverageLevel/header"
+msgstr "Keskimääräinen taso"
+
+msgid "profile/params/tooltip/brAverageRank/body"
+msgstr "Kaikkien taistelutulosten sijoitusten summan suhde pelattujen taisteluiden määrään."
+
+msgid "profile/params/tooltip/brAverageRank/header"
+msgstr "Keskimääräinen sijoitus"
+
+msgid "profile/params/tooltip/brAvgDamage/body"
+msgstr "Aiheutetun vahingon määrä n suhde pelattujen taisteluiden määrään."
+
+msgid "profile/params/tooltip/brAvgDamage/header"
+msgstr "Vahinkoa aiheutettu"
+
+msgid "profile/params/tooltip/brBattlesCount/body"
+msgstr "Käytyjen taisteluiden määrä yhteensä."
+
+msgid "profile/params/tooltip/brBattlesCount/header"
+msgstr "Taistelut"
+
+msgid "profile/params/tooltip/brMaxDamage/body"
+msgstr "Suurin vihollisvaunuihin taistelussa aiheutettu vahinko.\nEnnätys saavutettu %(value_0)s vaunulla."
+
+msgid "profile/params/tooltip/brMaxDamage/header"
+msgstr "Maksimivahinko taistelussa"
+
+msgid "profile/params/tooltip/brMaxExp/body"
+msgstr "Suurin ansaittu kokemusmäärä taistelussa WoT Premium-tilin kanssa.\nEnnätys saavutettu %(value_0)s vaunulla."
+
+msgid "profile/params/tooltip/brMaxExp/header"
+msgstr "Kokemusennätys taistelussa"
+
+msgid "profile/params/tooltip/brMaxFrags/body"
+msgstr "Suurin määrä itse taistelussa tuhottuja vaunuja..\nEnnätys saavutettu %(value_0)s vaunulla."
+
+msgid "profile/params/tooltip/brMaxFrags/header"
+msgstr "Tuhoamisennätys taistelussa"
+
+msgid "profile/params/tooltip/brWins/body"
+msgstr "Voittojen kokonaismäärä."
+
+msgid "profile/params/tooltip/brWins/header"
+msgstr "Voitot"
+
+msgid "profile/params/tooltip/capturePoints/body"
+msgstr "Vihollisen tukikohdan valtauspisteitä"
+
+msgid "profile/params/tooltip/capturePoints/header"
+msgstr "Tukikohdan valtauspisteitä"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/body"
+msgstr "\"Vahinkoa aiheutettu\" ja \"Vahinkoa otettu\" suhde kaikilla taistelutasoilla ottaen huomioon, että:\n• Vahinkoa aiheutettu: %(value_0)s\n• Vahinkoa otettu: %(value_1)s"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/header"
+msgstr "Keskimääräinen vahinkosuhde"
+
+msgid "profile/params/tooltip/damageCoeff/body"
+msgstr "\"Aiheutetun vahingon\" ja \"otetun vahingon\" suhde, ottaen huomioon:\n• Vahinkoa aiheutettu: %(value_0)s\n• Vahinkoa otettu: %(value_1)s"
+
+msgid "profile/params/tooltip/damageCoeff/header"
+msgstr "Vahinkosuhde"
+
+msgid "profile/params/tooltip/destroyCoeff/body"
+msgstr "Tuhottujen vihollisvaunujen ja pelaajan tuhoutumiskertojen suhde, ottaen huomioon:\n• Vihollisvaunuja tuhottu: %(value_0)s\n• Tuhouduttu taistelussa: %(value_1)s"
+
+msgid "profile/params/tooltip/destroyCoeff/header"
+msgstr "Tuhoamissuhde"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/body"
+msgstr "Panssarin torjuman vahingon ja otetun vahingon suhde AP, HEAT ja APCR -ammusten läpäisemättömistä osumista ja kimmokkeista. Vahinkoa taistelureserveistä, HE ja HESH -ammuksista ei lasketa.\n• Panssarin torjumaa vahinkoa tämän tyyppisiltä ammuksilta keskimäärin: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/header"
+msgstr "Panssarin käyttötehokkuus"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/body"
+msgstr "Aiheutettujen kokonaisvahinkojen (mukaan lukien taistelureservit) suhde taisteluiden määrään."
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/header"
+msgstr "Keskimääräinen vahinko per taistelu"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body"
+msgstr "Kaikkien tuhottujen vihollisvaunujen (mukaan lukien taistelureservit) suhde taisteluiden määrään."
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header"
+msgstr "Vihollisvaunuja tuhottu"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body"
+msgstr "Kaikkien tuhottujen vihollisvaunujen (pois lukien taistelureservit) suhde taisteluiden määrään."
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header"
+msgstr "Vihollisvaunuja tuhottu"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/body"
+msgstr "Aiheutettujen kokonaisvahinkojen (mukaan lukien taistelureservit) suhde taisteluiden määrään."
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/header"
+msgstr "Vahinkoa aiheutettu"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body"
+msgstr "Aiheutettujen kokonaisvahinkojen (pois lukien taistelureservit) suhde taisteluiden määrään."
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header"
+msgstr "Vahinkoa aiheutettu"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/body"
+msgstr "Otetun kokonaisvahingon (mukaan lukien taistelureservit) suhde taisteluiden määrään."
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/header"
+msgstr "Vahinkoa otettu"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/body"
+msgstr "Kaikkien taisteluiden määrä, mukaan lukien: \n• Voittoja: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/header"
+msgstr "Taisteluita"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/body"
+msgstr "\"Vahinkoa aiheutettu\" ja \"vahinkoa otettu\" suhde (mukaan lukien taistelureservit), ottaen huomioon:\n• Vaunujesi aiheuttamaa vahinkoa: %(value_0)s\n• Taistelureservien aiheuttamaa vahinkoa: %(value_2)s\n• Vahinkoa otettu vihollisvaunuista ja taistelureserveistä: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/header"
+msgstr "Vahinkosuhde"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body"
+msgstr "\"Vahinkoa aiheutettu\" suhde \"vahinkoa otettu\" (pois lukien taistelureservit), ottaen huomioon:\n• Vahinkoa aiheutettu: %(value_0)s\n• Vahinkoa otettu: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header"
+msgstr "Vahinkosuhde"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/body"
+msgstr "Tuhottujen vihollisvaunujen suhde pelaajan tuhoutuneisiin vaunuihin (mukaan lukien taistelureservit), ottaen huomioon:\n• Vihollisvaunuja tuhottu vaunuillasi: %(value_0)s\n• Vihollisvaunuja tuhottu taistelureserveillä: %(value_2)s\n• Pelaajan vaunuja tuhoutunut vihollisvaunujen ja taistelureservien johdosta: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/header"
+msgstr "Tuhoamissuhde"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body"
+msgstr "Tuhottujen vihollisvaunujen suhde pelaajan tuhoutuneisiin vaunuihin (pois lukien taistelureservit), ottaen huomioon:\n• Vihollisvaunuja tuhottu: %(value_0)s\n• Pelaajan vaunuja tuhottu: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header"
+msgstr "Tuhoamissuhde"
+
+msgid "profile/params/tooltip/dif/fallout/hits/body"
+msgstr "Tarkkuus vihollisvaunuihin ammuttaessa (pois lukien taistelureservit)."
+
+msgid "profile/params/tooltip/dif/fallout/hits/header"
+msgstr "Osumatarkkuus"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/body"
+msgstr "Saavutettu ennätys sisältää taistelureservit."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/header"
+msgstr "Maksimivahinko taistelussa"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/body"
+msgstr "Saavutettu ennätys ei sisällä taistelureservejä."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/header"
+msgstr "Maksimivahinko taistelussa"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/body"
+msgstr "Saavutettu ennätys sisältää taistelureservit."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/header"
+msgstr "Tuhoamisennätys taistelussa"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body"
+msgstr "Saavutettu ennätys ei sisällä taistelureservejä."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header"
+msgstr "Tuhoamisennätys taistelussa"
+
+msgid "profile/params/tooltip/dif/fallout/wins/body"
+msgstr "Voittojen kokonaismäärä"
+
+msgid "profile/params/tooltip/dif/fallout/wins/header"
+msgstr "Voittoja"
+
+msgid "profile/params/tooltip/droppedCapturePoints/body"
+msgstr "Oman tukikohdan puolustamispisteitä"
+
+msgid "profile/params/tooltip/droppedCapturePoints/header"
+msgstr "Tukikohdan puolustuspisteitä"
+
+msgid "profile/params/tooltip/flagsAbsorbed/body"
+msgstr "Tuhottuja lippuja kaikkiaan"
+
+msgid "profile/params/tooltip/flagsAbsorbed/header"
+msgstr "Lippuja tuhottu"
+
+msgid "profile/params/tooltip/flagsDelivered/body"
+msgstr "Tukikohtaasi toimitettujen lippujen määrä."
+
+msgid "profile/params/tooltip/flagsDelivered/header"
+msgstr "Lippuja toimitettu"
+
+msgid "profile/params/tooltip/fort/battles/body"
+msgstr "Hyökkäysoperaatioita kaikkiaan, joista:\n• Voittoja: %(value_0)s\n• Tappioita: %(value_1)s\n• Tasapelejä: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/battles/header"
+msgstr "Hyökkäysoperaatiot"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/body"
+msgstr "Voittosuhde hyökkäysoperaatioissa"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/header"
+msgstr "Voittoja hyökkäysoperaatioissa"
+
+msgid "profile/params/tooltip/fort/looting/body"
+msgstr "Ryövättyjä vihollisen linnakkeita"
+
+msgid "profile/params/tooltip/fort/looting/header"
+msgstr "Ryöväykset"
+
+msgid "profile/params/tooltip/fort/resource/body"
+msgstr "Kaikkien ansaittujen teollisuusresurssien suhde suoritettuihin kahakoihin"
+
+msgid "profile/params/tooltip/fort/resource/header"
+msgstr "Keskimääräinen ryöstösaalis per kahakka"
+
+msgid "profile/params/tooltip/fort/sortie/body"
+msgstr "Kahakoita suoritettu, sisältäen:\n• Voittoja: %(value_0)s\n• Tappioita: %(value_1)s\n• Tasapelejä: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/sortie/header"
+msgstr "Kahakat"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/body"
+msgstr "Voittosuhde kahakoissa"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/header"
+msgstr "Voittoja kahakoissa"
+
+msgid "profile/params/tooltip/fortBattles/attacks/body"
+msgstr "Hyökkäyksiä kaikkiaan vihollisen linnakkeisiin.\nLasketaan vain, jos olet taistellut yhdessä yhteenotossa hyökkäyksen aikana."
+
+msgid "profile/params/tooltip/fortBattles/attacks/header"
+msgstr "Hyökkäykset"
+
+msgid "profile/params/tooltip/fortBattles/defences/body"
+msgstr "Puolustustoimia kaikkiaan linnakkeessasi.\nLasketaan vain, jos olet taistellut yhdessä yhteenotossa hyökkäyksen aikana."
+
+msgid "profile/params/tooltip/fortBattles/defences/header"
+msgstr "Puolustustoimet"
+
+msgid "profile/params/tooltip/fortBattlesWins/body"
+msgstr "Voittosuhde hyökkäysoperaatioissa"
+
+msgid "profile/params/tooltip/fortBattlesWins/header"
+msgstr "Voittoja hyökkäysoperaatioissa"
+
+msgid "profile/params/tooltip/fortSortieWins/body"
+msgstr "Voittosuhde kahakoissa"
+
+msgid "profile/params/tooltip/fortSortieWins/header"
+msgstr "Voittoja kahakoissa"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/body"
+msgstr "Kaikkien ansaittujen teollisuusresurssien suhde suoritettuihin kahakoihin"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/header"
+msgstr "Keskimääräinen ryöstösaalis per kahakka"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/body"
+msgstr "Ansaittujen teollisuusresurssien kokonaismäärä kaikissa kahakoissa"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/header"
+msgstr "Ryöstösaalista ansaittu kahakoissa"
+
+msgid "profile/params/tooltip/hits/body"
+msgstr "Tarkkuus vihollista ammuttaessa"
+
+msgid "profile/params/tooltip/hits/header"
+msgstr "Osumatarkkuus"
+
+msgid "profile/params/tooltip/kdr/body"
+msgstr "Tuhottujen vihollisvaunujen suhde pelaajan tuhoutuneisiin vaunuihin (mukaan lukien taistelureservit), ottaen huomioon:\n• Vihollisvaunuja tuhottu vaunuillasi: %(value_0)s\n• Vihollisvaunuja tuhottu taistelureserveillä: %(value_1)s\n• Pelaajan vaunuja tuhoutunut vihollisvaunujen ja taistelureservien johdosta: %(value_2)s"
+
+msgid "profile/params/tooltip/kdr/header"
+msgstr "Tuhoamissuhde"
+
+msgid "profile/params/tooltip/markOfMastery/body"
+msgstr "Kaikissa asiaankuuluvissa taistelutiloissa saavutettujen Tankkiässä-merkkien määrä / vähintään yhteen satunnaistaisteluun osallistuneiden vaunujen määrä"
+
+msgid "profile/params/tooltip/markOfMastery/header"
+msgstr "Taitomerkki: Tankkiässä"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/body"
+msgstr "Taitomerkkejä ei myönnetä tässä pelimuodossa."
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/header"
+msgstr "Taitomerkki: Tankkiässä"
+
+msgid "profile/params/tooltip/maxDamage/body"
+msgstr "Ennätys saavutettu %(value_0)s vaunulla"
+
+msgid "profile/params/tooltip/maxDamage/header"
+msgstr "Maksimivahinko taistelussa"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/body"
+msgstr "Eniten vihollisvaunuihin aiheutettua vahinkoa yhdessä taistelussa."
+
+msgid "profile/params/tooltip/maxDamage/vehicle/header"
+msgstr "Maksimivahinko"
+
+msgid "profile/params/tooltip/maxDestroyed/body"
+msgstr "Ennätys saavutettu %(value_0)s vaunulla"
+
+msgid "profile/params/tooltip/maxDestroyed/header"
+msgstr "Tuhoamisennätys taistelussa"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/body"
+msgstr "Eniten tuhottuja vihollisvaunuja yhdessä taistelussa."
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/header"
+msgstr "Tuhoamisennätys taistelussa"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/body"
+msgstr "Rooli- sekä taktisilla taidoilla yhdessä taistelussa aiheutetun vahingon maksimimäärä."
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/header"
+msgstr "Maksimivahinkoa taidoilla per taistelu"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/body"
+msgstr "Sekä rooli- että taktisilla taidoilla aiheutettu vahinko lasketaan.\nEnnätys on %(value_0)s vaunulla"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/header"
+msgstr "Maksimivahinkoa taidoilla per taistelu"
+
+msgid "profile/params/tooltip/maxExp/body"
+msgstr "Ennätys saavutettu %(value_0)s vaunulla"
+
+msgid "profile/params/tooltip/maxExp/header"
+msgstr "Kokemusennätys taistelussa"
+
+msgid "profile/params/tooltip/maxExp/vehicle/body"
+msgstr "Suurin yksittäisessä taistelussa ansaittu kokemusmäärä premium-tilin vaikutus huomioon otettuna."
+
+msgid "profile/params/tooltip/maxExp/vehicle/header"
+msgstr "Kokemusennätys taistelussa"
+
+msgid "profile/params/tooltip/maxExpDisabled/body"
+msgstr "Kokemusennätystä ei näytetä tässä pelimuodossa."
+
+msgid "profile/params/tooltip/maxExpDisabled/header"
+msgstr "Kokemusennätys taistelussa"
+
+msgid "profile/params/tooltip/maxHealthRepair/body"
+msgstr "Omalle ja liittolaisvaunuillesi yhdessä taistelussa palautettujen kestopisteiden maksimimäärä."
+
+msgid "profile/params/tooltip/maxHealthRepair/header"
+msgstr "Maksimimäärä kestopisteitä palautettu per taistelu"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/body"
+msgstr "Omalle ja liittolaisvaunuillesi yhdessä taistelussa palautettujen kestopisteiden maksimimäärä. \nEnnätys on %(value_0)s vaunulla"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/header"
+msgstr "Maksimimäärä kestopisteitä palautettu per taistelu"
+
+msgid "profile/params/tooltip/maxPrestigePoints/body"
+msgstr "Maksimimäärä arvovaltapisteitä ansaittu yhdessä taistelussa."
+
+msgid "profile/params/tooltip/maxPrestigePoints/header"
+msgstr "Maksimimäärä arvovaltapisteitä per taistelu"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/body"
+msgstr "Ennätys on %(value_0)s vaunulla"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/header"
+msgstr "Maksimimäärä arvovaltapisteitä per taistelu"
+
+msgid "profile/params/tooltip/maxVictoryPoints/body"
+msgstr "Eniten ansaittuja voittopisteitä per taistelu kaikista taisteluista."
+
+msgid "profile/params/tooltip/maxVictoryPoints/header"
+msgstr "Eniten ansaittuja voittopisteitä per taistelu"
+
+msgid "profile/params/tooltip/maxWinPoints/body"
+msgstr "Eniten ansaittuja voittopisteitä per taistelu kaikista taisteluista."
+
+msgid "profile/params/tooltip/maxWinPoints/header"
+msgstr "Eniten ansaittuja voittopisteitä per taistelu"
+
+msgid "profile/params/tooltip/maxWinSeries/body"
+msgstr "Eniten peräkkäisiä voittoja pelimuodossa yksin ja osastossa/7 pelaajan osastossa."
+
+msgid "profile/params/tooltip/maxWinSeries/header"
+msgstr "Eniten peräkkäisiä voittoja (yksin ja osastossa/superosastossa)"
+
+msgid "profile/params/tooltip/poiCaptured/body"
+msgstr "Vallattujen kohdealueiden määrä"
+
+msgid "profile/params/tooltip/poiCaptured/header"
+msgstr "Kohdealueita vallattu"
+
+msgid "profile/params/tooltip/ranked/avgFrags/body"
+msgstr "Taistelussa tuhottu vihollisvaunuja keskimäärin"
+
+msgid "profile/params/tooltip/ranked/avgFrags/header"
+msgstr "Vihollisvaunuja tuhottu keskimäärin"
+
+msgid "profile/params/tooltip/ranked/avgPoints/body"
+msgstr "Ansaittujen natsojen suhde käytyjen luokitustaisteluiden kokonaismäärään.\n• Natsoja yhteensä: %(value_0)s\n• Taisteluita yhteensä: %(value_1)s"
+
+msgid "profile/params/tooltip/ranked/avgPoints/header"
+msgstr "Suoriutuminen luokitetuissa taisteluissa"
+
+msgid "profile/params/tooltip/ranked/points/body"
+msgstr "Pisteitä ansaittu yhteensä"
+
+msgid "profile/params/tooltip/ranked/points/header"
+msgstr "Luokkapisteet"
+
+msgid "profile/params/tooltip/stunNumber/body"
+msgstr "Vihollismiehistön lamauttaneita osumia yhteensä"
+
+msgid "profile/params/tooltip/stunNumber/header"
+msgstr "Lamautusten määrä"
+
+msgid "profile/params/tooltip/survival/body"
+msgstr "Prosentuaalinen määrä taisteluita missä pelaajan vaunu ei tuhoutunut"
+
+msgid "profile/params/tooltip/survival/header"
+msgstr "Selvittyjä taisteluita"
+
+msgid "profile/params/tooltip/totalVehs/body"
+msgstr "Kaikkien käytettyjen vaunujen kokonaismäärä."
+
+msgid "profile/params/tooltip/totalVehs/header"
+msgstr "Vaunuja käytetty"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/body"
+msgstr "Hyökkäysoperaatioita kaikkiaan.\n\nParametri ei ole käytettävissä nykyisessä päivityksessä."
+
+msgid "profile/params/tooltip/unavailable/fort/battles/header"
+msgstr "Hyökkäysoperaatiot"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/body"
+msgstr "Voittosuhde hyökkäysoperaatioissa.\n\nParametri ei ole saatavilla tämänhetkisessä päivityksessä."
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/header"
+msgstr "Voittoja hyökkäysoperaatioissa"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/body"
+msgstr "Ei taisteluita parametrin käyttöönoton jälkeen"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/header"
+msgstr "Tietoja ei saatavilla"
+
+msgid "profile/params/tooltip/usedTechnics/body"
+msgstr "Vaunut, jotka ovat taistelleet ainakin yhdessä historiallisessa taistelussa."
+
+msgid "profile/params/tooltip/usedTechnics/header"
+msgstr "Vaunuja käytetty"
+
+msgid "profile/params/tooltip/wins/body"
+msgstr "Voittojen kokonaismäärä"
+
+msgid "profile/params/tooltip/wins/header"
+msgstr "Voittoja"
+
+msgid "profile/ranked/seasonsdropdown/1"
+msgstr "Kausi 1, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/2"
+msgstr "Kausi 2, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/3"
+msgstr "Kausi 3, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/archive"
+msgstr "Arkistoidut tiedot"
+
+msgid "profile/seasonsdropdown/all"
+msgstr "Kaikki kaudet"
+
+msgid "profile/seasonsdropdown/current"
+msgstr "Nykyinen kausi"
+
+msgid "profile/seasonsdropdown/specific"
+msgstr "Kausi %(date1)s – %(date2)s"
+
+msgid "profile/section/statistics/scores/maxHealthRepair"
+msgstr "Maksimimäärä kestopisteitä palautettu per taistelu"
+
+msgid "profile/summary/clan/btnLabel"
+msgstr "Klaanin profiili"
+
+msgid "profile/summary/clan/joinDate"
+msgstr "Liittymispäivä:"
+
+msgid "profile/summary/clan/post"
+msgstr "Sijoitus:"
+
+msgid "profile/summary/club/btnLabel"
+msgstr "Joukkueen profiili"
+
+msgid "profile/summary/club/ladder"
+msgstr "Sarjataulukko:"
+
+msgid "profile/summary/club/ladderInfo"
+msgstr "Liiga %(league)s, Divisioona %(division)s"
+
+msgid "profile/summary/club/post"
+msgstr "Sijoitus:"
+
+msgid "profile/summary/nextAwards/tooltip/body"
+msgstr "Jatkossa ansaidut mitalit liitetään palkintonauhaan."
+
+msgid "profile/summary/nextAwards/tooltip/header"
+msgstr "Seuraavat palkinnot"
+
+msgid "profile/summary/noGroups"
+msgstr "Pelaajalla ei ole pysyvää taktista yksikköä."
+
+msgid "profile/summary/significantAwards/tooltip/body"
+msgstr "Pelaajan merkittävimmät mitalit liitetään palkintonauhaan."
+
+msgid "profile/summary/significantAwards/tooltip/header"
+msgstr "Arvokkaat palkinnot"
+
+msgid "profile/tabs/tooltip/advancedAchievements/body"
+msgstr "Näytä saavutuskatalogi."
+
+msgid "profile/tabs/tooltip/advancedAchievements/header"
+msgstr "Saavutukset"
+
+msgid "profile/tabs/tooltip/awards/body"
+msgstr "Näytä palkinnot ja niiden kuvaukset"
+
+msgid "profile/tabs/tooltip/awards/header"
+msgstr "Palkinnot"
+
+msgid "profile/tabs/tooltip/collections/body"
+msgstr "Näytä kokoelmat"
+
+msgid "profile/tabs/tooltip/collections/header"
+msgstr "Kokoelmat"
+
+msgid "profile/tabs/tooltip/formations/body"
+msgstr "Näytä taktisten yksiköiden tiedot, joissa olit jäsenenä."
+
+msgid "profile/tabs/tooltip/formations/header"
+msgstr "Taktiset yksiköt"
+
+msgid "profile/tabs/tooltip/hof/body"
+msgstr "Näytä Hall of Famen tuloslistat"
+
+msgid "profile/tabs/tooltip/hof/header"
+msgstr "Hall of Fame"
+
+msgid "profile/tabs/tooltip/hofDisabled/body"
+msgstr "Hall of Fame ei väliaikaisesti ole saatavilla. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "profile/tabs/tooltip/hofDisabled/header"
+msgstr "Huomio"
+
+msgid "profile/tabs/tooltip/statistics/body"
+msgstr "Näytä taistelutilastoja kaikentyyppisiltä vaunuilta"
+
+msgid "profile/tabs/tooltip/statistics/header"
+msgstr "Tilastot"
+
+msgid "profile/tabs/tooltip/summary/body"
+msgstr "Näytä taistelutehokkuus"
+
+msgid "profile/tabs/tooltip/summary/header"
+msgstr "Yhteenveto"
+
+msgid "profile/tabs/tooltip/technique/body"
+msgstr "Näytä kaikkien vaunujen taistelutilastot"
+
+msgid "profile/tabs/tooltip/technique/header"
+msgstr "Vaunut"
+
+msgid "profile/title"
+msgstr "Pelaajan tilastot %s"
+
+msgid "seasons/comp7_dropdown_label"
+msgstr "Vuosi/kausi:"
+
+msgid "seasons/dropdown_label"
+msgstr "Kausi:"
+
+msgid "section/advancedAchievements/title"
+msgstr "Saavutukset"
+
+msgid "section/awards/dropdown/labels/all"
+msgstr "Kaikki"
+
+msgid "section/awards/dropdown/labels/inProcess"
+msgstr "Saatu"
+
+msgid "section/awards/dropdown/labels/none"
+msgstr "Ei saatu"
+
+msgid "section/awards/dropdown/tooltip/body"
+msgstr "Aktivoi suodatin nähdäksesi joko kaikki palkinnot, saadut palkinnot, tai palkinnot joita ei ole saatu."
+
+msgid "section/awards/dropdown/tooltip/header"
+msgstr "Palkintojen lajittelu"
+
+msgid "section/awards/labels/battleHeroes"
+msgstr "Taistelusankarit"
+
+msgid "section/awards/labels/epic"
+msgstr "Eeppiset mitalit"
+
+msgid "section/awards/labels/group"
+msgstr "Osastopalkinnot"
+
+msgid "section/awards/labels/honorary"
+msgstr "Kunnia-asemat"
+
+msgid "section/awards/labels/marksOnGun"
+msgstr "Merkit erinomaisuudesta"
+
+msgid "section/awards/labels/memory"
+msgstr "Muistomerkit"
+
+msgid "section/awards/labels/special"
+msgstr "Spesiaalit"
+
+msgid "section/awards/labels/stage"
+msgstr "Luokalliset palkinnot"
+
+msgid "section/awards/title"
+msgstr "Palkinnot"
+
+msgid "section/collections/title"
+msgstr "Kokoelmat"
+
+msgid "section/formations/clan/none"
+msgstr "Et ole minkään klaanin jäsen."
+
+msgid "section/formations/clan/none/thirdperson"
+msgstr "Pelaaja ei ole minkään klaanin jäsen."
+
+msgid "section/formations/clan/type"
+msgstr "Klaani"
+
+msgid "section/formations/fort/battles"
+msgstr "Hyökkäysoperaatiot"
+
+msgid "section/formations/fort/create"
+msgstr "Luo linnake"
+
+msgid "section/formations/fort/level"
+msgstr "Linnakkeen taso: %s"
+
+msgid "section/formations/fort/link"
+msgstr "Linnakkeen saavutukset"
+
+msgid "section/formations/fort/none"
+msgstr "Linnaketta ei luotu"
+
+msgid "section/formations/fort/none/thirdperson"
+msgstr "Pelaajan klaanilla ei ole linnaketta."
+
+msgid "section/formations/fort/resourceRating"
+msgstr "Resurssien metsästäjän luokitus"
+
+msgid "section/formations/fort/sorties"
+msgstr "Kahakat"
+
+msgid "section/formations/history/battles"
+msgstr "Taisteluita jäsenenä"
+
+msgid "section/formations/history/dates"
+msgstr "Liittyi / poistui"
+
+msgid "section/formations/history/datesPattern"
+msgstr "%(date1)s–%(date2)s"
+
+msgid "section/formations/history/team"
+msgstr "Joukkue"
+
+msgid "section/formations/history/title"
+msgstr "Pelaajan joukkueiden loki"
+
+msgid "section/formations/joinDate"
+msgstr "Liittymispäivä: %s"
+
+msgid "section/formations/rank"
+msgstr "Pelaajan asema: %s"
+
+msgid "section/formations/team/completedSeason"
+msgstr "Kausi %s (päättynyt)"
+
+msgid "section/formations/team/find"
+msgstr "Mene vakituisen joukkueen hakuun"
+
+msgid "section/formations/team/league"
+msgstr "Liiga: %(league)s. Divisioona: %(division)s. Sijoitus: %(position)s."
+
+msgid "section/formations/team/none"
+msgstr "Sinulla ei ole vakituisia joukkueita."
+
+msgid "section/formations/team/none/thirdperson"
+msgstr "Pelaajalla ei ole vakituisia joukkueita."
+
+msgid "section/formations/team/season"
+msgstr "Kausi %s"
+
+msgid "section/formations/team/seasonBattles"
+msgstr "Liigataistelut"
+
+msgid "section/formations/team/seasonWinRate"
+msgstr "Voittoa kaudessa"
+
+msgid "section/formations/team/title"
+msgstr "Joukkue \"%s\""
+
+msgid "section/formations/team/type"
+msgstr "Joukkue"
+
+msgid "section/formations/title"
+msgstr "Taktiset yksiköt"
+
+msgid "section/formations/tooltip/fort/battles/body"
+msgstr "Hyökkäysoperaatioita kaikkiaan, sisältäen:\n• Voittoja: %(wins)s\n• Tappioita: %(losses)s\n• Tasapelejä: %(draws)s"
+
+msgid "section/formations/tooltip/fort/battles/header"
+msgstr "Hyökkäysoperaatiot"
+
+msgid "section/formations/tooltip/fort/level/body"
+msgstr "Linnakkeen taso on yhtä suuri sen komentokeskuksen tason kanssa."
+
+msgid "section/formations/tooltip/fort/level/header"
+msgstr "Linnakkeen taso"
+
+msgid "section/formations/tooltip/fort/link/body"
+msgstr "Klikkaa nähdäksesi klaanin linnakkeen saavutukset."
+
+msgid "section/formations/tooltip/fort/link/header"
+msgstr "Linnakkeen saavutukset"
+
+msgid "section/formations/tooltip/fort/resourceRating/body"
+msgstr "Sijoituksesi"
+
+msgid "section/formations/tooltip/fort/resourceRating/header"
+msgstr "Resurssien metsästäjän luokitus"
+
+msgid "section/formations/tooltip/fort/sorties/body"
+msgstr "Suoritettuja kahakoita kaikkiaan, sisältäen:\n• Voitot: %(wins)s\n• Tappiot: %(losses)s\n• Tasapelit: %(draws)s"
+
+msgid "section/formations/tooltip/fort/sorties/header"
+msgstr "Kahakat"
+
+msgid "section/formations/tooltip/team/link/body"
+msgstr "Klikkaa nähdäksesi joukkueprofiilin."
+
+msgid "section/formations/tooltip/team/link/header"
+msgstr "Joukkueprofiili"
+
+msgid "section/formations/tooltip/team/seasonBattles/body"
+msgstr "Tämän joukkueen jäsenenä taistellut liigataistelut, sisältäen:\n• Voitot: %(wins)s\n• Tappiot: %(losses)s\n• Tasapelit: %(draws)s"
+
+msgid "section/formations/tooltip/team/seasonBattles/header"
+msgstr "Liigataistelut"
+
+msgid "section/formations/tooltip/team/seasonWinRate/body"
+msgstr "Liigataisteluiden kokonaisvoittoprosentti"
+
+msgid "section/formations/tooltip/team/seasonWinRate/header"
+msgstr "Voitot"
+
+msgid "section/hof/BrowserView/closeBtn"
+msgstr "SULJE"
+
+msgid "section/hof/achievementsRatingsBtn"
+msgstr "Mene tuloslistalle"
+
+msgid "section/hof/achievementsRatingsTitle"
+msgstr "Tuloslista satunnaistaisteluiden\nsaavutusten mukaan"
+
+msgid "section/hof/betaBtn"
+msgstr "BETA"
+
+msgid "section/hof/betaTooltip"
+msgstr "Hall of Fame ja World of Tanks -luokitus\novat beta-testauksessa"
+
+msgid "section/hof/mainDescription"
+msgstr "Tarkastele suoriutumistasi taisteluissa ja sijoitustasi tuloslistoilla suhteessa muihin pelaajiin valitseminasi ajanjaksoina."
+
+msgid "section/hof/mainTitle"
+msgstr "Hall of Fame"
+
+msgid "section/hof/notAvailable/tooltip/body"
+msgstr "Hall of Fame ei väliaikaisesti ole saatavilla. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "section/hof/notAvailable/tooltip/header"
+msgstr "Huomio"
+
+msgid "section/hof/statusBtn/hideResults"
+msgstr "Näytä tulokset"
+
+msgid "section/hof/statusBtn/showResults"
+msgstr "Piilota tulokset"
+
+msgid "section/hof/statusDescription/exclusion"
+msgstr "Hakemus tuloksiesi piilottamiseksi tuloslistoilta on lähetetty ja se käsitellään seuraavan tuloslistojen päivittämisen aikana."
+
+msgid "section/hof/statusDescription/hideResults"
+msgstr "Tuloksesi on nyt piilotettu muilta pelaajilta."
+
+msgid "section/hof/statusDescription/inclusion"
+msgstr "Hakemus on lähetetty ja se käsitellään seuraavan tuloslistojen päivittämisen aikana. Tuloksesi ovat nyt näkyvillä muille pelaajille."
+
+msgid "section/hof/statusDescription/showResults"
+msgstr "Tuloksesi näytetään kaikille pelaajille, kavereille ja klaanin jäsenille."
+
+msgid "section/hof/title"
+msgstr "Hall of Fame"
+
+msgid "section/hof/vehiclesRatingsBtn"
+msgstr "Mene tuloslistalle"
+
+msgid "section/hof/vehiclesRatingsTitle"
+msgstr "Tuloslista satunnaistaisteluiden\nvaunujen mukaan"
+
+msgid "section/statistics/bodyBar/label/charts"
+msgstr "Kaaviot"
+
+msgid "section/statistics/bodyBar/label/clan10"
+msgstr "Taso X"
+
+msgid "section/statistics/bodyBar/label/clan6"
+msgstr "Taso VI"
+
+msgid "section/statistics/bodyBar/label/clan8"
+msgstr "Taso VIII"
+
+msgid "section/statistics/bodyBar/label/detailed"
+msgstr "Tilastot"
+
+msgid "section/statistics/bodyBar/label/fortBattles"
+msgstr "Tietoja hyökkäysoperaatioista"
+
+msgid "section/statistics/bodyBar/label/fortSortie"
+msgstr "Tietoja kahakoista"
+
+msgid "section/statistics/bodyBar/label/specific"
+msgstr "Spesiaali"
+
+msgid "section/statistics/bodyParams/label/average"
+msgstr "Keskimääräiset pisteet taistelusta"
+
+msgid "section/statistics/bodyParams/label/common"
+msgstr "Yleiset tilastot"
+
+msgid "section/statistics/bodyParams/label/fortBattles"
+msgstr "Hyökkäysoperaatiot"
+
+msgid "section/statistics/bodyParams/label/fortSortie"
+msgstr "Kahakat"
+
+msgid "section/statistics/bodyParams/label/record"
+msgstr "Ennätystulos"
+
+msgid "section/statistics/bodyParams/label/resource"
+msgstr "Teollisuusresurssit"
+
+msgid "section/statistics/chart/class/tooltip/body"
+msgstr "Taisteluita tämän luokan vaunuilla yhteensä"
+
+msgid "section/statistics/chart/class/tooltip/header"
+msgstr "Vaunuluokka: %(value)s"
+
+msgid "section/statistics/chart/level/tooltip/body"
+msgstr "Taisteluita tämän tason vaunuilla"
+
+msgid "section/statistics/chart/level/tooltip/header"
+msgstr "Vaunun taso: %(value)s"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/body"
+msgstr "Vain tasojen VI–VIII vaunut voivat taistella tässä pelimuodossa."
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/header"
+msgstr "Vaunun taso: %(value)s"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/body"
+msgstr "Vain tasojen VIII–X vaunut voivat taistella tässä pelimuodossa."
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/header"
+msgstr "Vaunun taso: %(value)s"
+
+msgid "section/statistics/chart/nation/tooltip/body"
+msgstr "Taisteluita tämän kansakunnan vaunuilla"
+
+msgid "section/statistics/chart/nation/tooltip/header"
+msgstr "Vaunun kansakunta: %(value)s"
+
+msgid "section/statistics/chart/place/tooltip/body"
+msgstr "Taistelujen määrä yhteensä, joissa tämä sijoitus on saatu"
+
+msgid "section/statistics/chart/place/tooltip/header"
+msgstr "Sijoitus saatu: %(value)s"
+
+msgid "section/statistics/chart/type/tooltip/body"
+msgstr "Taisteluita tämän tyypin vaunuilla"
+
+msgid "section/statistics/chart/type/tooltip/header"
+msgstr "Vaunun tyyppi: %(value)s"
+
+msgid "section/statistics/charts/byClassLabel"
+msgstr "Luokan mukaan"
+
+msgid "section/statistics/charts/byLevelLabel"
+msgstr "Tason mukaan"
+
+msgid "section/statistics/charts/byNationLabel"
+msgstr "Kansakunnan mukaan"
+
+msgid "section/statistics/charts/byPlaceLabel"
+msgstr "Sijoituksen mukaan"
+
+msgid "section/statistics/charts/byTypeLabel"
+msgstr "Tyypin mukaan"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortOther"
+msgstr "Vahinkoa pelaajan lamauttamiin vihollisvaunuihin"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortSelf"
+msgstr "Vahinkoa lamauttamiisi vihollisvaunuihin"
+
+msgid "section/statistics/detailed/avgDamage"
+msgstr "Vahinkoa aiheutettu vihollisvaunuihin"
+
+msgid "section/statistics/detailed/avgDestroyedVehicles"
+msgstr "Vihollisvaunuja tuhottu"
+
+msgid "section/statistics/detailed/avgDetectedEnemies"
+msgstr "Vihollisvaunuja havaittu"
+
+msgid "section/statistics/detailed/avgHealthRepaired"
+msgstr "Kestopisteitä palautettu"
+
+msgid "section/statistics/detailed/avgPoiCaptured"
+msgstr "Kohdealueita vallattu"
+
+msgid "section/statistics/detailed/avgPrestigePoints"
+msgstr "Arvovaltapisteet"
+
+msgid "section/statistics/detailed/avgReceivedDamage"
+msgstr "Vahinkoa otettu"
+
+msgid "section/statistics/detailed/avgRoleSkillUsed"
+msgstr "Käytetyt roolitaidot"
+
+msgid "section/statistics/detailed/damageCoefficient"
+msgstr "Vahinkosuhde"
+
+msgid "section/statistics/detailed/dealOutDamage"
+msgstr "Vahinkoa aiheutettu"
+
+msgid "section/statistics/detailed/destroyed"
+msgstr "Tuhottu"
+
+msgid "section/statistics/detailed/destructionCoefficient"
+msgstr "Tuhoamissuhde"
+
+msgid "section/statistics/detailed/killed"
+msgstr "Vihollisvaunuja tuhottu"
+
+msgid "section/statistics/detailed/maxDestroyedVehicles"
+msgstr "Tuhoamisennätys taistelussa"
+
+msgid "section/statistics/detailed/receivedDamage"
+msgstr "Vahinkoa otettu"
+
+msgid "section/statistics/detailed/stunNumber"
+msgstr "Lamautusten määrä"
+
+msgid "section/statistics/headerText/all"
+msgstr "Satunnaistaistelut ja panssarikomppaniat"
+
+msgid "section/statistics/headerText/battleRoyaleSolo"
+msgstr "Teräksen metsästäjä"
+
+msgid "section/statistics/headerText/battleRoyaleSquad"
+msgstr "Teräksen metsästäjä"
+
+msgid "section/statistics/headerText/clan"
+msgstr "Maailmankartta"
+
+msgid "section/statistics/headerText/comp7"
+msgstr "Rynnistys"
+
+msgid "section/statistics/headerText/epicRandom"
+msgstr "Suurtaistelu"
+
+msgid "section/statistics/headerText/fallout"
+msgstr "Teräsmyrsky"
+
+msgid "section/statistics/headerText/fortifications"
+msgstr "Linnake: taistelut"
+
+msgid "section/statistics/headerText/historical"
+msgstr "Historialliset taistelut"
+
+msgid "section/statistics/headerText/ranked_10x10"
+msgstr "Luokitettu taistelu"
+
+msgid "section/statistics/headerText/ranked_15x15"
+msgstr "Luokitettu taistelu 15v15"
+
+msgid "section/statistics/headerText/staticTeam"
+msgstr "Joukkue: Liigataistelut"
+
+msgid "section/statistics/headerText/team"
+msgstr "Joukkue: Joukkuetaistelut"
+
+msgid "section/statistics/labels/battlesOnTech"
+msgstr "Vaunuilla käydyt taistelut"
+
+msgid "section/statistics/scores/achievementsCount"
+msgstr "Palkinnot"
+
+msgid "section/statistics/scores/armorUsing"
+msgstr "Panssarin käyttötehokkuus"
+
+msgid "section/statistics/scores/avgAssistedDamage"
+msgstr "Vahinkoa keskimäärin aiheutettu avustuksellasi"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortOther"
+msgstr "Vahinkoa aiheutettu pelaajan avustuksella"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortSelf"
+msgstr "Vahinkoa aiheutettu avustuksellasi"
+
+msgid "section/statistics/scores/avgDamage"
+msgstr "Keskimääräinen vahinko per taistelu"
+
+msgid "section/statistics/scores/avgExperience"
+msgstr "Keskimääräinen kokemus per taistelu"
+
+msgid "section/statistics/scores/avgExperience/short"
+msgstr "Kokemusta"
+
+msgid "section/statistics/scores/avgPrestigePoints"
+msgstr "Keskimäärin arvovaltapisteitä per taistelu"
+
+msgid "section/statistics/scores/avgVictoryPoints"
+msgstr "Keskimääräinen voittopisteiden määrä"
+
+msgid "section/statistics/scores/capturePoints"
+msgstr "Tukikohdan valtauspisteitä"
+
+msgid "section/statistics/scores/clan/summaryDamageCoefficient"
+msgstr "Keskimääräinen vahinkosuhde"
+
+msgid "section/statistics/scores/coolSigns"
+msgstr "Taitomerkki: Tankkiässä"
+
+msgid "section/statistics/scores/droppedCapturePoints"
+msgstr "Tukikohdan puolustuspisteitä"
+
+msgid "section/statistics/scores/flagsAbsorbed"
+msgstr "Lippuja tuhottu"
+
+msgid "section/statistics/scores/flagsDelivered"
+msgstr "Lippuja toimitettu"
+
+msgid "section/statistics/scores/fort/battles"
+msgstr "Hyökkäysoperaatiot"
+
+msgid "section/statistics/scores/fort/battlesWinsEfficiency"
+msgstr "Voittoja"
+
+msgid "section/statistics/scores/fort/resource"
+msgstr "Keskimääräinen ryöstösaalis per kahakka"
+
+msgid "section/statistics/scores/fort/sortie"
+msgstr "Kahakat"
+
+msgid "section/statistics/scores/fort/sortieWinsEfficiency"
+msgstr "Voittoja kahakoissa"
+
+msgid "section/statistics/scores/fortBattles/attacks"
+msgstr "Hyökkäykset"
+
+msgid "section/statistics/scores/fortBattles/defences"
+msgstr "Puolustustoimet"
+
+msgid "section/statistics/scores/fortBattlesTotalWins"
+msgstr "Voittoja hyökkäysoperaatioissa"
+
+msgid "section/statistics/scores/fortSortie"
+msgstr "Kahakat"
+
+msgid "section/statistics/scores/fortSortieTotalWins"
+msgstr "Voittoja kahakoissa"
+
+msgid "section/statistics/scores/fortSorties/AvgResources"
+msgstr "Keskimääräinen ryöstösaalis per kahakka"
+
+msgid "section/statistics/scores/fortSorties/totalResources"
+msgstr "Ryöstösaalista ansaittu kahakoissa"
+
+msgid "section/statistics/scores/fortTotalBattles"
+msgstr "Hyökkäysoperaatiot"
+
+msgid "section/statistics/scores/hits"
+msgstr "Osumatarkkuus"
+
+msgid "section/statistics/scores/killDeathRatio"
+msgstr "Tuhoamissuhde"
+
+msgid "section/statistics/scores/looting"
+msgstr "Ryöväykset"
+
+msgid "section/statistics/scores/maxDamage"
+msgstr "Maksimivahinko taistelussa"
+
+msgid "section/statistics/scores/maxEquipmentDamageDealt"
+msgstr "Maksimivahinkoa taidoilla per taistelu"
+
+msgid "section/statistics/scores/maxExperience"
+msgstr "Kokemusennätys taistelussa"
+
+msgid "section/statistics/scores/maxPrestigePoints"
+msgstr "Maksimimäärä arvovaltapisteitä per taistelu"
+
+msgid "section/statistics/scores/maxVictoryPoints"
+msgstr "Eniten ansaittuja voittopisteitä per taistelu"
+
+msgid "section/statistics/scores/maxWinSeries"
+msgstr "Eniten peräkkäisiä voittoja (yksin ja osastossa/superosastossa)"
+
+msgid "section/statistics/scores/poiCaptured"
+msgstr "Kohdealueita vallattu"
+
+msgid "section/statistics/scores/ranked/avgFrags"
+msgstr "Vihollisvaunuja tuhottu keskimäärin"
+
+msgid "section/statistics/scores/ranked/avgPoints"
+msgstr "Suoriutuminen luokitetuissa taisteluissa"
+
+msgid "section/statistics/scores/ranked/points"
+msgstr "Luokkapisteet"
+
+msgid "section/statistics/scores/survival"
+msgstr "Selvittyjä taisteluita"
+
+msgid "section/statistics/scores/totalBattles"
+msgstr "Taisteluita"
+
+msgid "section/statistics/scores/totalVehs"
+msgstr "Vaunuja käytetty"
+
+msgid "section/statistics/scores/totalWins"
+msgstr "Voittoja"
+
+msgid "section/statistics/scores/usedTechnics"
+msgstr "Vaunuja käytetty"
+
+msgid "section/statistics/title"
+msgstr "Tilastot"
+
+msgid "section/summary/errorText/nextAwards"
+msgstr "Ei seuraavia palkintoja"
+
+msgid "section/summary/errorText/significantAwards"
+msgstr "Ei arvokkaita palkintoja"
+
+msgid "section/summary/labels/nextAwards"
+msgstr "Seuraavat palkinnot"
+
+msgid "section/summary/labels/significantAwards"
+msgstr "Arvokkaat palkinnot"
+
+msgid "section/summary/scores/averageLevel"
+msgstr "Keskimääräinen taso"
+
+msgid "section/summary/scores/averageRank"
+msgstr "Keskimääräinen sijoitus"
+
+msgid "section/summary/scores/avgDamage"
+msgstr "Keskimääräinen vahinko per taistelu"
+
+msgid "section/summary/scores/avgExperience"
+msgstr "Keskimääräinen kokemus per taistelu"
+
+msgid "section/summary/scores/coolSigns"
+msgstr "Taitomerkit: Tankkiässä"
+
+msgid "section/summary/scores/damageDealt"
+msgstr "Vahinkoa aiheutettu"
+
+msgid "section/summary/scores/hits"
+msgstr "Osumatarkkuus"
+
+msgid "section/summary/scores/maxDestroyed"
+msgstr "Tuhoamisennätys taistelussa"
+
+msgid "section/summary/scores/maxExperience"
+msgstr "Kokemusennätys taistelussa"
+
+msgid "section/summary/scores/personalScore"
+msgstr "Henkilökohtainen luokitus"
+
+msgid "section/summary/scores/totalBattles"
+msgstr "Taisteluita"
+
+msgid "section/summary/scores/totalWins"
+msgstr "Voittoja"
+
+msgid "section/summary/title"
+msgstr "Yhteenveto"
+
+msgid "section/technique/awards/noAchievements"
+msgstr "Ei saatuja palkintoja vielä"
+
+msgid "section/technique/buttonBar/avgExperience"
+msgstr "Keskim.\nkokemusta"
+
+msgid "section/technique/buttonBar/classiness"
+msgstr "Taitotaso"
+
+msgid "section/technique/buttonBar/totalBattles"
+msgstr "Taisteluita"
+
+msgid "section/technique/buttonBar/totalWins"
+msgstr "Voittoja"
+
+msgid "section/technique/buttonBar/vehicleName"
+msgstr "Nimi"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/body"
+msgstr "Näytä tallissa olevat vaunut"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/header"
+msgstr "Saatavilla tallissa"
+
+msgid "section/technique/emptyScreenLabel/battleType/all"
+msgstr "Tallissa ei ole satunnaistaisteluissa ja panssarikomppanioissa taistelleita vaunuja."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSolo"
+msgstr "Tallissa ei ole vaunuja, jotka ovat taistelleet Teräksen metsästäjässä."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSquad"
+msgstr "Tallissa ei ole vaunuja, jotka ovat taistelleet Teräksen metsästäjässä."
+
+msgid "section/technique/emptyScreenLabel/battleType/comp7"
+msgstr "Ei ole vaunuja, jotka olisivat taistelleet \"Rynnistys\" -pelimuodossa."
+
+msgid "section/technique/emptyScreenLabel/battleType/epicRandom"
+msgstr "Yksikään vaunu tallissa ei ole osallistunut taisteluihin \"Suurtaistelu\" -pelimuodossa"
+
+msgid "section/technique/emptyScreenLabel/battleType/fallout"
+msgstr "Yksikään vaunu tallissa ei ole osallistunut taisteluihin \"Teräsmyrsky\" -pelimuodossa"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortBattles"
+msgstr "Tallissa ei ole vaunuja, jotka ovat taistelleet hyökkäysoperaatioissa"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortSorties"
+msgstr "Tallissa ei ole vaunuja, jotka ovat ottaneet osaa kahakoihin"
+
+msgid "section/technique/emptyScreenLabel/battleType/globalMap"
+msgstr "Tallissa ei ole vaunuja, jotka ovat taistelleet maailmankartalla."
+
+msgid "section/technique/emptyScreenLabel/battleType/historical"
+msgstr "Tallissa ei ole vaunuja, jotka ovat taistelleet historiallisissa taisteluissa"
+
+msgid "section/technique/emptyScreenLabel/battleType/ranked"
+msgstr "Yksikään tallin vaunu ei ole osallistunut luokitettuihin taisteluihin"
+
+msgid "section/technique/emptyScreenLabel/battleType/staticTeam"
+msgstr "Ei vaunuja tallissa, jotka ovat taistelleet liigataisteluissa."
+
+msgid "section/technique/emptyScreenLabel/battleType/team"
+msgstr "Tallissa ei ole vaunuja, jotka ovat taistelleet joukkuetaisteluissa"
+
+msgid "section/technique/sort/tooltip/avgDamage/body"
+msgstr "Järjestä taistelun keskimääräisen vahingon mukaan."
+
+msgid "section/technique/sort/tooltip/avgDamage/header"
+msgstr "Keskimääräinen vahinko"
+
+msgid "section/technique/sort/tooltip/avgFrags/body"
+msgstr "Järjestä taistelussa tuhottujen vihollisvaunujen määrän mukaan."
+
+msgid "section/technique/sort/tooltip/avgFrags/header"
+msgstr "Vihollisvaunuja tuhottu"
+
+msgid "section/technique/sort/tooltip/avgexp/body"
+msgstr "Järjestä taistelun keskimääräisen kokemuksen mukaan."
+
+msgid "section/technique/sort/tooltip/avgexp/header"
+msgstr "Keskimääräinen kokemus"
+
+msgid "section/technique/sort/tooltip/battlesCount/body"
+msgstr "Järjestä taisteluiden määrän mukaan."
+
+msgid "section/technique/sort/tooltip/battlesCount/header"
+msgstr "Taisteluita"
+
+msgid "section/technique/sort/tooltip/class/body"
+msgstr "Järjestä vaunuluokan mukaan"
+
+msgid "section/technique/sort/tooltip/class/header"
+msgstr "Luokka"
+
+msgid "section/technique/sort/tooltip/lvl/body"
+msgstr "Järjestä vaunun tason mukaan."
+
+msgid "section/technique/sort/tooltip/lvl/header"
+msgstr "Taso"
+
+msgid "section/technique/sort/tooltip/marksofmastery/body"
+msgstr "Järjestä taitomerkkien mukaan."
+
+msgid "section/technique/sort/tooltip/marksofmastery/header"
+msgstr "Taitotaso"
+
+msgid "section/technique/sort/tooltip/name/body"
+msgstr "Järjestä vaunun nimen mukaan."
+
+msgid "section/technique/sort/tooltip/name/header"
+msgstr "Nimi"
+
+msgid "section/technique/sort/tooltip/nation/body"
+msgstr "Järjestä kansakunnan mukaan."
+
+msgid "section/technique/sort/tooltip/nation/header"
+msgstr "Kansakunta"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/body"
+msgstr "Järjestä eliittitason mukaan"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/header"
+msgstr "Eliittijärjestelmä"
+
+msgid "section/technique/sort/tooltip/prestigePoints/body"
+msgstr "Lajittele keskimäärin per taistelu ansaittujen arvovaltapisteiden mukaan"
+
+msgid "section/technique/sort/tooltip/prestigePoints/header"
+msgstr "Keskimäärin arvovaltapisteitä per taistelu"
+
+msgid "section/technique/sort/tooltip/technique/body"
+msgstr "Järjestä vaunutyypin mukaan."
+
+msgid "section/technique/sort/tooltip/technique/header"
+msgstr "Tyyppi"
+
+msgid "section/technique/sort/tooltip/winRate/body"
+msgstr "Järjestä voittosuhteen mukaan."
+
+msgid "section/technique/sort/tooltip/winRate/header"
+msgstr "Voittoja"
+
+msgid "section/technique/sort/tooltip/wins/body"
+msgstr "Järjestä voittojen määrän mukaan."
+
+msgid "section/technique/sort/tooltip/wins/header"
+msgstr "Voittoja"
+
+msgid "section/technique/statistics/accuracy"
+msgstr "Osumatarkkuus"
+
+msgid "section/technique/statistics/assistedStunDamage/shortOther"
+msgstr "Vahinkoa pelaajan lamauttamiin vihollisvaunuihin"
+
+msgid "section/technique/statistics/assistedStunDamage/shortSelf"
+msgstr "Vahinkoa lamauttamiisi vihollisvaunuihin"
+
+msgid "section/technique/statistics/avgAssistedStunDamage"
+msgstr "Vahinkoa lamauttamiisi vihollisvaunuihin"
+
+msgid "section/technique/statistics/avgDamage"
+msgstr "Vahinkoa aiheutettu vihollisvaunuihin"
+
+msgid "section/technique/statistics/avgDestroyedVehicles"
+msgstr "Vihollisvaunuja tuhottu"
+
+msgid "section/technique/statistics/avgDetectedEnemies"
+msgstr "Vihollisvaunuja havaittu"
+
+msgid "section/technique/statistics/avgExperience"
+msgstr "Kokemusta"
+
+msgid "section/technique/statistics/avgReceivedDamage"
+msgstr "Vahinkoa otettu"
+
+msgid "section/technique/statistics/avgScoutingDamage"
+msgstr "Vahinkoa aiheutettu pelaajan avustuksella"
+
+msgid "section/technique/statistics/avgStats"
+msgstr "Keskimääräiset pisteet taistelusta"
+
+msgid "section/technique/statistics/avgStunNumber"
+msgstr "Lamautusten määrä"
+
+msgid "section/technique/statistics/common"
+msgstr "Yleiset tilastot"
+
+msgid "section/technique/statistics/damageCoefficient"
+msgstr "Vahinkosuhde"
+
+msgid "section/technique/statistics/destructionCoefficient"
+msgstr "Tuhoamissuhde"
+
+msgid "section/technique/statistics/maxDamage"
+msgstr "Maksimivahinko taistelussa"
+
+msgid "section/technique/statistics/maxDestroyedVehicles"
+msgstr "Tuhoamisennätys taistelussa"
+
+msgid "section/technique/statistics/maxExperience"
+msgstr "Kokemusennätys taistelussa"
+
+msgid "section/technique/statistics/records"
+msgstr "Ennätystulos"
+
+msgid "section/technique/statistics/stunNumber"
+msgstr "Lamautusten määrä"
+
+msgid "section/technique/statistics/survival"
+msgstr "Selvittyjä taisteluita"
+
+msgid "section/technique/statistics/tankingCoefficient"
+msgstr "Panssarin käyttötehokkuus"
+
+msgid "section/technique/statistics/totalBattles"
+msgstr "Taisteluita"
+
+msgid "section/technique/statistics/totalWins"
+msgstr "Voittoja"
+
+msgid "section/technique/tabBtn/achievements"
+msgstr "Palkinnot"
+
+msgid "section/technique/tabBtn/awards/tooltip/body"
+msgstr "Näytä valitun vaunun palkinnot"
+
+msgid "section/technique/tabBtn/awards/tooltip/header"
+msgstr "Palkinnot"
+
+msgid "section/technique/tabBtn/statistic"
+msgstr "Tilastot"
+
+msgid "section/technique/tabBtn/statistic/tooltip/body"
+msgstr "Näytä valitun vaunun tilastot"
+
+msgid "section/technique/tabBtn/statistic/tooltip/header"
+msgstr "Tilastot"
+
+msgid "section/technique/title"
+msgstr "Vaunut"
+
+msgid "section/technique/window/hangarVehiclesLabel"
+msgstr "Saatavilla tallissa"
+
+msgid "tooltip/dropdown/battleType/body"
+msgstr "Aktivoi suodatin nähdäksesi taistelutilojen tilastot."
+
+msgid "tooltip/dropdown/battleType/header"
+msgstr "Järjestä taistelutilojen mukaan"

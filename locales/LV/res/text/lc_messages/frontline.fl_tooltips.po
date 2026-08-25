@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Komendantstunda {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Notikums būs pieejams no"
+
+msgid "bannerTooltip/description"
+msgstr "Milzīgas 30 pret 30 cīņas ar {{vehicleTier}} līmeņa tankiem kartēs Normandija, Kraftwerk un Fata Morgana. Uzbrucējiem jāiznīcina trīs no pieciem lielkalibra lielgabaliem, bet aizstāvjiem tie jāaizsargā."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Parādi savas prasmes intensīvās cīņās, iegūsti slavu, saņem vērtīgas balvas un kāp pa pakāpēm."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Notikums ir beidzies, un tev ir neizņemtas balvas par pabeigtiem Frontes līnijas līmeņiem."
+
+msgid "bannerTooltip/header"
+msgstr "Frontes līnija"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Frontes līnija | Līmenis {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} — Spēles režīms. Noklikšķiniet, lai izpētītu"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Šis režīms ir prasīgs pret datorsistēmas veiktspēju. Jūs piedzīvosiet problēmas ar karšu ielādi, grafiku, bruņutehnikas pārvietošanos. Nepietiekamas veiktspējas gadījumā pamēģiniet zemākus grafikas iestatījumus."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Iespējama Samazināta Veiktspēja"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Atlasiet atlīdzības pabeigtajām pakāpēm ({{value}})"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Nepietiekami līdzekļi lai veiktu pirkumu."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Izmaiņas tiks piemērotas visiem tanku iznīcinātājiem."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Izmaiņas tiks piemērotas visai artilērijai."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Izmaiņas tiks piemērotas visiem smagajiem tankiem."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Izmaiņas tiks piemērotas visiem vieglajiem tankiem."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Izmaiņas tiks piemērotas visiem vidējiem tankiem."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Neatbilstoša bruņutehnika"
+
+msgid "battleAbilities/points/body"
+msgstr "Uzkrājiet nepieciešamo Punktu skaitu un aktivizējiet Frontes Līnijas Kaujas Rezerves."
+
+msgid "battleAbilities/points/header"
+msgstr "Kaujas Rezerves Punkti"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Skatīt uzbrukuma rezerves"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Uzbrukuma Rezerves"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Skatīt Izlūkošanas Rezerves"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Izlūkošanas Rezerves"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Skatīt Taktiskās Rezerves"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Taktiskās Rezerves"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Kaujas Rezerves Līmenis tiek palielināts pēc Kapteiņa un Majora pakāpju sasniegšanas kaujā. Maksimālo līmeni nosaka kaujas scenārijs."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Papildus informācija"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Uzbrukuma Rezerves"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Izlūkošanas Rezerves"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Taktiskās Rezerves"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Pastāvīgas īpašības:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Kaujas rezerve, kas ievietota šajā vietā, palielina iespēju, ka to piedāvās scenārijā {{@ colorLegacy 'FFE4C0'}}\"Likteņa pavērsiens\"{{/}} par {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Rezerves līmenis:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Nav iegādāts!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Pasākums ir beidzies."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Notikums drīz sāksies!"
+
+msgid "infoButton/body"
+msgstr "Noklikšķiniet, lai iegūtu vairāk informācijas."
+
+msgid "infoButton/header"
+msgstr "Par Pasākumu"
+
+msgid "levelReserves/desc"
+msgstr "Kaujas rezervju līmeņi palielinās, sasniedzot jaunus rangus:"
+
+msgid "levelReserves/info"
+msgstr "Scenārijā {{@ colorLegacy 'FFE4C0'}}\"Likteņa pavērsiens\"{{/}}, iegādājoties kaujas rezerve, tās līmenis tiks paaugstināts par vienu un būs iespēja to uzlabot līdz {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}. līmenim."
+
+msgid "levelReserves/level"
+msgstr "Palielinās, sasniedzot tālāk norādīto rangu: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Pieejams ar šādu rangu: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Līmenis - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "Par {{@ colorLegacy 'FFE4C0'}}iegādātās kaujas rezerves{{/}} scenārijā {{@ colorLegacy 'FFE4C0'}}\"Likteņa pavērsiens\"{{/}}."
+
+msgid "levelReserves/title"
+msgstr "Kaujas Rezerves Līmeņi"
+
+msgid "playlist/warning/body"
+msgstr "Šis atskaņošanas saraksts satur tankus, kas nav piemēroti šim spēles režīmam vai nav jūsu Garāžā."
+
+msgid "playlist/warning/header"
+msgstr "Tanki nav pieejami (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Kaujas Rezerves īpašības uzlabotas"
+
+msgid "randomReserve/disable"
+msgstr "Kaujas Rezerves vieta tika izmantota."
+
+msgid "randomReserve/notPurchased"
+msgstr "Kaujas Rezerve nav nopirkta"
+
+msgid "randomReserve/purchased"
+msgstr "Kaujas Rezerve nopirkta"
+
+msgid "skillOrderTooltip/body"
+msgstr "Katram tanka tipam ir sava Rezervju atslēgšanas secība:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Kaujas Rezerves Atslēgšanas Secība"
+
+msgid "skillOrderTooltip/info"
+msgstr "Scenārijā {{@ colorLegacy 'whiteSpanish'}}\"Likteņa pavērsiens\"{{/}} Kaujas rezervju atbloķēšanas secība nav atkarīga no transportlīdzekļa tipa."

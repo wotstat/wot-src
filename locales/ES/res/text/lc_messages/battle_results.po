@@ -1,0 +1,1532 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "allVehicles"
+msgstr "Todo"
+
+msgid "battleRating/tooltip/better/body"
+msgstr "Esta batalla ha sido más satisfactoria, equilibrada o divertida de lo habitual."
+
+msgid "battleRating/tooltip/better/header"
+msgstr "Mejor de lo habitual"
+
+msgid "battleRating/tooltip/usual/body"
+msgstr "Una batalla normal. No ha ocurrido nada inesperado."
+
+msgid "battleRating/tooltip/usual/header"
+msgstr "Habitual"
+
+msgid "battleRating/tooltip/worse/body"
+msgstr "Esta batalla ha sido más frustrante, desequilibrada o injusta de lo habitual."
+
+msgid "battleRating/tooltip/worse/header"
+msgstr "Peor de lo habitual"
+
+msgid "battleResult/battleRating/better/header"
+msgstr "MEJOR DE LO HABITUAL"
+
+msgid "battleResult/battleRating/none/header"
+msgstr "puntúa tu batalla:"
+
+msgid "battleResult/battleRating/usual/header"
+msgstr "HABITUAL"
+
+msgid "battleResult/battleRating/worse/header"
+msgstr "PEOR DE LO HABITUAL"
+
+msgid "battleResult/comp7Light/team/prestigePoints/body"
+msgstr "Ordenar por puntos de prestigio."
+
+msgid "battleResult/comp7Light/team/prestigePoints/header"
+msgstr "Puntos de prestigio"
+
+msgid "battleResult/navigation/battleResults"
+msgstr "Resumen"
+
+msgid "battleResult/navigation/financialReport"
+msgstr "Informe financiero"
+
+msgid "battleResult/navigation/missionsProgress"
+msgstr "Progreso de la misión"
+
+msgid "battleResult/navigation/teamEfficiency"
+msgstr "Puntuación del equipo"
+
+msgid "battleResult/team/prestigePoints/body"
+msgstr "Ordenar por puntos de prestigio. Los puntos de prestigio afectan al número de puntos de rango ganados y perdidos en batalla."
+
+msgid "battleResult/team/prestigePoints/header"
+msgstr "Puntos de prestigio"
+
+msgid "common/arena/fullName"
+msgstr "{0} – {1}"
+
+msgid "common/arena/nameAndMode"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/battleEfficiency/allies"
+msgstr "Aliados:"
+
+msgid "common/battleEfficiency/allyBase"
+msgstr "Defensa de base"
+
+msgid "common/battleEfficiency/baseCapture"
+msgstr "Captura de base:"
+
+msgid "common/battleEfficiency/bases"
+msgstr "Bases"
+
+msgid "common/battleEfficiency/enemyBase"
+msgstr "Captura de base"
+
+msgid "common/battleEfficiency/neutralBase"
+msgstr "Base neutral"
+
+msgid "common/battleEfficiency/noEfficiency"
+msgstr "No has realizado ninguna acción en esta batalla."
+
+msgid "common/battleEfficiency/none"
+msgstr "No se han detectado ni destruido vehículos enemigos."
+
+msgid "common/battleEfficiency/technique"
+msgstr "Vehículos"
+
+msgid "common/battleEfficiency/title"
+msgstr "Rendimiento en batalla"
+
+msgid "common/battleEfficiency/uppercased_title"
+msgstr "RENDIMIENTO EN BATALLA"
+
+msgid "common/battleEfficiencyWithSkills/title"
+msgstr "Rendimiento en batalla (incluyendo las habilidades usadas)"
+
+msgid "common/battleEfficiencyWithoutOreders/title"
+msgstr "Rendimiento en batalla (sin incluir reservas de combate)"
+
+msgid "common/battleType/sortie"
+msgstr "Escaramuza contra el clan "
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "common/crewMember/description"
+msgstr "%(role)s, %(name)s"
+
+msgid "common/crewMember/newSkill"
+msgstr "Cualificación nueva"
+
+msgid "common/details/buyPremiumBtn"
+msgstr "Comprar premium"
+
+msgid "common/details/creditsTitle"
+msgstr "Créditos"
+
+msgid "common/details/crystal"
+msgstr "Bonos"
+
+msgid "common/details/getPremBtn"
+msgstr "Detalles"
+
+msgid "common/details/noPremTitle"
+msgstr "Cuenta estándar"
+
+msgid "common/details/premTitle"
+msgstr "Premium de WoT"
+
+msgid "common/details/premiumAdvertising/bonus"
+msgstr "{{@ split}}Aplica una bonificación de EXP x{{multiplier}} a las batallas victoriosas con la cuenta premium de WoT.{{/}}"
+
+msgid "common/details/premiumAdvertising/credits"
+msgstr "{{@ split}}Recibe hasta {{bonusCredits}} cada {{@ style}}{{durationInDays}} d{{/}} con la cuenta premium de WoT.{{/}}"
+
+msgid "common/details/premiumPlus/bonus"
+msgstr "Aplica una bonificación de experiencia x%(multiplier)d a las batallas victoriosas con la cuenta premium de WoT."
+
+msgid "common/details/premiumPlus/credits"
+msgstr "Recibe hasta %(bonusCredits)s cada %(durationInDays)d d con la cuenta premium de WoT."
+
+msgid "common/details/premiumPlus/premium"
+msgstr "Más experiencia y créditos, misiones premium y bonificaciones de pelotón con la cuenta premium de WoT."
+
+msgid "common/details/premiumPlus/quests"
+msgstr "Desbloquea misiones especiales con la cuenta premium de WoT."
+
+msgid "common/details/premiumPlus/squad"
+msgstr "Gana más créditos al jugar en pelotón con la cuenta premium de WoT."
+
+msgid "common/details/xpTitle"
+msgstr "Experiencia"
+
+msgid "common/details/xpTitleSquad"
+msgstr "Experiencia %(img)s"
+
+msgid "common/fitting/purchase"
+msgstr "Compra de módulos"
+
+msgid "common/fitting/research"
+msgstr "Desarrollo de módulos"
+
+msgid "common/mainFinishReasonTitle"
+msgstr "Fase de la batalla principal:"
+
+msgid "common/missions/noProgress/button"
+msgstr "A las misiones"
+
+msgid "common/missions/noProgress/description"
+msgstr "Ver progreso de la misión actual"
+
+msgid "common/missions/noProgress/header"
+msgstr "No hay progreso en las misiones ni el desarrollo de vehículos."
+
+msgid "common/newSkillPrediction"
+msgstr "Batallas que quedan (aproximadas): %(battles)s"
+
+msgid "common/noIncome/alert/text"
+msgstr "Tras haber luchado en 10 batallas, no obtendrás más créditos, experiencia o logros en este modo, y tus resultados de batalla no se reflejarán en la hoja de servicio."
+
+msgid "common/noIncome/alert/title"
+msgstr "¡Atención!"
+
+msgid "common/noProgress"
+msgstr "Sin progreso en las misiones, desarrollo de carros o entrenamiento de los tripulantes."
+
+msgid "common/overtimeFinishReasonTitle"
+msgstr "Tiempo añadido:"
+
+msgid "common/player/nameWithClan"
+msgstr "{{name}} [{{clan}}]"
+
+msgid "common/plusBonus/bonusLeftAdditionalText"
+msgstr "Desbloquea más con "
+
+msgid "common/plusBonus/earnedMessage"
+msgstr "Hoy has ganado lo siguiente:"
+
+msgid "common/plusBonus/earningsInformation"
+msgstr "Has ganado %(count)s puntos de EXP hoy"
+
+msgid "common/plusBonus/premiumPlusAdd"
+msgstr "Se desbloquea con WoT Plus o WoT Premium"
+
+msgid "common/plusBonus/wotPlus"
+msgstr "WoT Plus"
+
+msgid "common/plusBonus/wotPremium"
+msgstr "Premium de WoT"
+
+msgid "common/plusBonus/youRock"
+msgstr "¡Qué grande!"
+
+msgid "common/premiumBonus"
+msgstr "¿Quieres ganar más?"
+
+msgid "common/premiumBonus/appliedBonus"
+msgstr "Bonificación aplicada con éxito"
+
+msgid "common/premiumBonus/applyBonusBtn"
+msgstr "Aplicar"
+
+msgid "common/premiumBonus/bonusLeft"
+msgstr "Hoy quedan: %(count)s"
+
+msgid "common/premiumBonus/bonusMultiplier"
+msgstr "×{{value}}"
+
+msgid "common/premiumBonus/description"
+msgstr "Multiplicador de EXP manejable"
+
+msgid "common/premiumBonus/earnMore"
+msgstr "¿Quieres ganar más?"
+
+msgid "common/premiumBonus/expiredBattleResult"
+msgstr "Debe aplicarse a la batalla más reciente en el mismo vehículo."
+
+msgid "common/premiumBonus/isXPToTmenDisabled"
+msgstr "No se puede aplicar la bonificación: el entrenamiento acelerado de la tripulación está desactivado."
+
+msgid "common/premiumBonus/isXPToTmenDisabledWithInfo"
+msgstr "{{@ split}}No se puede aplicar la bonificación: el entrenamiento acelerado de la tripulación está {{@ style}}desactivado.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/isXPToTmenEnabled"
+msgstr "No se puede aplicar la bonificación: el entrenamiento acelerado de la tripulación está activado."
+
+msgid "common/premiumBonus/isXPToTmenEnabledWithInfo"
+msgstr "{{@ split}}No se puede aplicar la bonificación: el entrenamiento acelerado de la tripulación está {{@ style}}activado.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/rule"
+msgstr "Los multiplicadores solo pueden aplicarse a las batallas victoriosas. ¡Más suerte la próxima vez!"
+
+msgid "common/premiumBonus/tankStateChanged"
+msgstr "No se puede aplicar la bonificación manejable: no se ha encontrado el vehículo."
+
+msgid "common/premiumBonus/tankStateChangedWithInfo"
+msgstr "{{@ split}}No se puede aplicar la bonificación manejable: no se ha encontrado {{@ style}}el vehículo.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/tankmenStateChanged"
+msgstr "No se puede aplicar la bonificación manejable: no se ha encontrado la tripulación."
+
+msgid "common/premiumBonus/tankmenStateChangedWithInfo"
+msgstr "{{@ split}}No se puede aplicar la bonificación manejable: no se ha encontrado {{@ style}}la tripulación.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/unavailable"
+msgstr "Los multiplicadores no están disponibles en este modo de juego."
+
+msgid "common/progressTitle"
+msgstr "Progreso en el desarrollo de vehículos y misiones"
+
+msgid "common/quests/noprogress"
+msgstr "No hubo eventos en las misiones"
+
+msgid "common/researchPrediction"
+msgstr "Batallas que quedan (aproximadas): %(battles)s"
+
+msgid "common/resultsShareBtn"
+msgstr "Obtener enlace"
+
+msgid "common/startTime"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/tooltip/armor/description"
+msgstr "Cuentan:\n• Los rebotes de disparos enemigos.\n• Los impactos no penetrantes.\n\nNo cuentan los disparos con proyectiles AE y HESH."
+
+msgid "common/tooltip/armor/header"
+msgstr "Uso del blindaje"
+
+msgid "common/tooltip/armor/part1"
+msgstr "Rebotes"
+
+msgid "common/tooltip/armor/part2"
+msgstr "No penetraciones"
+
+msgid "common/tooltip/armor/part3"
+msgstr "Daño bloqueado por el blindaje %(vals)s"
+
+msgid "common/tooltip/assist/description"
+msgstr "Tiene en cuenta los siguientes tipos de daño causado por aliados a vehículos enemigos:\n• Daño a los vehículos que hayas detectado.\n• Daño a los vehículos cuyas orugas hayas destruido, dejándolos inmovilizados"
+
+msgid "common/tooltip/assist/header"
+msgstr "Daño con tu asistencia"
+
+msgid "common/tooltip/assist/part1"
+msgstr "Daño sobre tus detectados %(vals)s"
+
+msgid "common/tooltip/assist/part2"
+msgstr "Daño al destruir las orugas e inmovilizar un vehículo enemigo %(vals)s"
+
+msgid "common/tooltip/assist/total"
+msgstr "Daño total causado por aliados en el vehículo enemigo %(vals)s"
+
+msgid "common/tooltip/capture/description"
+msgstr "Cuentan:\n• Los puntos de captura de base enemiga.\n• Los puntos de captura de base neutral."
+
+msgid "common/tooltip/capture/header"
+msgstr "Captura de base"
+
+msgid "common/tooltip/capture/totalPoints"
+msgstr "Total de puntos de captura de base"
+
+msgid "common/tooltip/counter"
+msgstr "Insignias totales recibidas en la batalla: %(count)s"
+
+msgid "common/tooltip/counter/forEnemy"
+msgstr "Insignias recibidas en la batalla para ese vehículo enemigo: %(count)s"
+
+msgid "common/tooltip/counter/noItems"
+msgstr "No se recibió la insignia en la batalla."
+
+msgid "common/tooltip/crits/critDamage"
+msgstr "Dañados:"
+
+msgid "common/tooltip/crits/critDestruction"
+msgstr "Fuera de combate:"
+
+msgid "common/tooltip/crits/critWound"
+msgstr "Herido:"
+
+msgid "common/tooltip/crits/description"
+msgstr "Cuenta:\n• El daño en los módulos internos o externos del vehículo enemigo.\n• La destrucción de los módulos internos o externos del vehículo enemigo.\n• Los tripulantes heridos del vehículo enemigo."
+
+msgid "common/tooltip/crits/header"
+msgstr "Impacto crítico"
+
+msgid "common/tooltip/crits/total"
+msgstr "Total:"
+
+msgid "common/tooltip/damage/description"
+msgstr "Cuenta:\n• El daño causado por los disparos.\n• El daño causado por las embestidas.\n• El daño causado por un incendio.\n• El daño causado por un impacto fuerte."
+
+msgid "common/tooltip/damage/header"
+msgstr "Daño"
+
+msgid "common/tooltip/damage/part1"
+msgstr "Daño total %(vals)s"
+
+msgid "common/tooltip/damage/part2"
+msgstr "Número total de penetraciones"
+
+msgid "common/tooltip/defence/description"
+msgstr "Cuentan:\n• Los puntos de defensa de base amiga.\n• Los puntos de defensa de base neutral."
+
+msgid "common/tooltip/defence/header"
+msgstr "Defensa de base"
+
+msgid "common/tooltip/defence/totalPoints"
+msgstr "Total de puntos de defensa de base"
+
+msgid "common/tooltip/kill/header"
+msgstr "Enemigo destruido"
+
+msgid "common/tooltip/kill0/description"
+msgstr "Vehículo enemigo destruido por un disparo"
+
+msgid "common/tooltip/kill1/description"
+msgstr "Vehículo enemigo destruido por el fuego"
+
+msgid "common/tooltip/kill2/description"
+msgstr "Vehículo enemigo destruido tras una embestida"
+
+msgid "common/tooltip/kill3/description"
+msgstr "Vehículo enemigo estrellado"
+
+msgid "common/tooltip/kill4/description"
+msgstr "Vehículo enemigo destruido por una zona muerta"
+
+msgid "common/tooltip/kill5/description"
+msgstr "El vehículo enemigo se ahogó"
+
+msgid "common/tooltip/kill6/description"
+msgstr "Destruido por Tormenta de fuego"
+
+msgid "common/tooltip/kill7/description"
+msgstr "Vehículo enemigo volcado."
+
+msgid "common/tooltip/killCommon/description"
+msgstr "Cuenta:\n• Destrucción por disparo.\n• Destrucción por incendio.\n• Destrucción por embestida.\n• Destrucción por ahogamiento.\n• Destrucción por empujar al enemigo.\n• Destrucción por volcado."
+
+msgid "common/tooltip/params/val"
+msgstr "(PV)"
+
+msgid "common/tooltip/params/val/seconds"
+msgstr "(s)"
+
+msgid "common/tooltip/spotted/description"
+msgstr "Cuenta la primera detección del vehículo enemigo."
+
+msgid "common/tooltip/spotted/header"
+msgstr "Detección"
+
+msgid "common/tooltip/stun/description"
+msgstr "Cuenta:\n• El daño causado por los aliados al vehículo enemigo aturdido por ti."
+
+msgid "common/tooltip/stun/header"
+msgstr "Aturdimiento"
+
+msgid "common/tooltip/stun/part1"
+msgstr "Daño total %(vals)s"
+
+msgid "common/tooltip/stun/part2"
+msgstr "Número de aturdimientos"
+
+msgid "common/tooltip/stun/part3"
+msgstr "Duración total del aturdimiento causado: %(vals)s"
+
+msgid "common/tooltip/teamKill-1/description"
+msgstr "Vehículo aliado destruido"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "Team Kill"
+
+msgid "common/tooltip/teamKill0/description"
+msgstr "Vehículo aliado destruido por un disparo"
+
+msgid "common/tooltip/teamKill1/description"
+msgstr "Vehículo aliado destruido por el fuego"
+
+msgid "common/tooltip/teamKill2/description"
+msgstr "Vehículo aliado destruido tras una embestida"
+
+msgid "common/tooltip/teamKill3/description"
+msgstr "Vehículo aliado estrellado"
+
+msgid "common/tooltip/teamKill4/description"
+msgstr "Vehículo aliado destruido por una zona muerta"
+
+msgid "common/tooltip/teamKill5/description"
+msgstr "El vehículo aliado se ahogó"
+
+msgid "common/tooltip/xpTitleSquad"
+msgstr "Has recibido experiencia adicional por librar esta batalla con un pelotón."
+
+msgid "common/totalTooltip/armor/part1"
+msgstr "Rebotes"
+
+msgid "common/totalTooltip/armor/part2"
+msgstr "No penetraciones"
+
+msgid "common/totalTooltip/armor/part3"
+msgstr "Daño bloqueado por el blindaje"
+
+msgid "common/totalTooltip/assist/part1"
+msgstr "Daño sobre tus detectados"
+
+msgid "common/totalTooltip/assist/part2"
+msgstr "Daño al destruir las orugas e inmovilizar un vehículo enemigo"
+
+msgid "common/totalTooltip/assist/total"
+msgstr "Daño total causado por aliados a vehículo enemigo"
+
+msgid "common/totalTooltip/damage/part1"
+msgstr "Daño total"
+
+msgid "common/totalTooltip/damage/part2"
+msgstr "Número total de penetraciones"
+
+msgid "common/totalTooltip/stun/part1"
+msgstr "Daño total"
+
+msgid "common/totalTooltip/stun/part2"
+msgstr "Número de aturdimientos"
+
+msgid "common/totalTooltip/stun/part3"
+msgstr "Duración total del aturdimiento causado"
+
+msgid "common/vehicle/details"
+msgstr "%(vehicle)s, %(type)s"
+
+msgid "common/vehicle/purchase"
+msgstr "Compra de vehículos"
+
+msgid "common/vehicle/research"
+msgstr "Desarrollo de vehículos"
+
+msgid "common/vehicleState/alive"
+msgstr "Superviviente"
+
+msgid "common/vehicleState/dead0"
+msgstr "Destruido por un disparo"
+
+msgid "common/vehicleState/dead0_with_killername"
+msgstr "Destrucción por disparo ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead0_with_killername_and_clan"
+msgstr "Destrucción por disparo ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead1"
+msgstr "Destruido por el fuego"
+
+msgid "common/vehicleState/dead12"
+msgstr "Autodestruido"
+
+msgid "common/vehicleState/dead13"
+msgstr "Destruido por la habilidad del jugador"
+
+msgid "common/vehicleState/dead1_with_killername"
+msgstr "Destrucción por incendio ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead1_with_killername_and_clan"
+msgstr "Destrucción por incendio ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead2"
+msgstr "Destruido tras una embestida"
+
+msgid "common/vehicleState/dead27"
+msgstr "Destruido por Ataque de artillería"
+
+msgid "common/vehicleState/dead29"
+msgstr "Estrellado"
+
+msgid "common/vehicleState/dead2_with_killername"
+msgstr "Destrucción por embestida ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead2_with_killername_and_clan"
+msgstr "Destrucción por embestida ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead3"
+msgstr "Estrellado"
+
+msgid "common/vehicleState/dead30"
+msgstr "Destruido por un disparo"
+
+msgid "common/vehicleState/dead30_with_killername"
+msgstr "Destrucción por disparo ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead30_with_killername_and_clan"
+msgstr "Destrucción por disparo ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead35"
+msgstr "Estrellado"
+
+msgid "common/vehicleState/dead3_with_killername"
+msgstr "Destrucción por choque ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead3_with_killername_and_clan"
+msgstr "Destrucción por choque ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead4"
+msgstr "Destruido por una zona muerta"
+
+msgid "common/vehicleState/dead5"
+msgstr "Vehículo ahogado"
+
+msgid "common/vehicleState/dead5_with_killername"
+msgstr "Destrucción por ahogamiento ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead5_with_killername_and_clan"
+msgstr "Destrucción por ahogamiento ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead6"
+msgstr "Destruido por Tormenta de fuego"
+
+msgid "common/vehicleState/dead7"
+msgstr "Destruido tras volcar"
+
+msgid "common/vehicleState/dead7_with_killername"
+msgstr "Destrucción por volcado ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead7_with_killername_and_clan"
+msgstr "Destrucción por volcado ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/prematureLeave"
+msgstr "Sal antes del final de la batalla"
+
+msgid "common/vehicleState/victory"
+msgstr "¡Victoria!"
+
+msgid "common/wotPlusBonus/bonusLeft"
+msgstr "Hoy quedan: %(count)s"
+
+msgid "common/xpMultiplierSign"
+msgstr "x"
+
+msgid "comms/likes/pbs/text/01"
+msgstr "Elogios recibidos en esta batalla"
+
+msgid "comms/likes/pbs/tooltip/body"
+msgstr "{{var}} aliados te han elogiado en esta batalla."
+
+msgid "comms/likes/pbs/tooltip/bodySingle"
+msgstr "{{var}} aliado te ha elogiado en esta batalla."
+
+msgid "comms/likes/pbs/tooltip/header"
+msgstr "Elogios recibidos"
+
+msgid "conditions/type/and"
+msgstr "Y"
+
+msgid "conditions/type/or"
+msgstr "O"
+
+msgid "customizationProgress/award/newLevel"
+msgstr "Calco «%(name)s» de nivel %(level)s alcanzado."
+
+msgid "customizationProgress/award/received"
+msgstr "Calco «%(name)s» recibido %(count)s."
+
+msgid "customizationProgress/descr"
+msgstr "Calco «%(name)s» de nivel %(level)s"
+
+msgid "cyberSport/btnToTeamProfile"
+msgstr "Perfil del equipo"
+
+msgid "cyberSport/points"
+msgstr "Puntos:"
+
+msgid "cyberSport/status/lose"
+msgstr "Derrota"
+
+msgid "cyberSport/status/tie"
+msgstr "Empate"
+
+msgid "cyberSport/status/win"
+msgstr "¡Victoria!"
+
+msgid "details/calculations/additionalBonus"
+msgstr "Bonificación manejable de experiencia"
+
+msgid "details/calculations/aogasFactor"
+msgstr "Coeficiente de reducción (AOGAS)"
+
+msgid "details/calculations/autoBoosters"
+msgstr "Autoabastecer directivas"
+
+msgid "details/calculations/autoEquip"
+msgstr "Autoabastecer consumibles"
+
+msgid "details/calculations/autoLoad"
+msgstr "Autoabastecer munición"
+
+msgid "details/calculations/autoRepair"
+msgstr "Autorreparar vehículo"
+
+msgid "details/calculations/autoResupply"
+msgstr "Autoabastecer"
+
+msgid "details/calculations/base"
+msgstr "Recibido por batalla"
+
+msgid "details/calculations/battlePayments"
+msgstr "Pagos de batalla"
+
+msgid "details/calculations/boosters"
+msgstr "Bonificación de reservas personales"
+
+msgid "details/calculations/crystal/events"
+msgstr "Por completar misiones"
+
+msgid "details/calculations/crystal/total"
+msgstr "Por la habilidad especial del vehículo"
+
+msgid "details/calculations/event"
+msgstr "Recompensa por misiones y eventos"
+
+msgid "details/calculations/fairPlayViolation/afk"
+msgstr "Multa por inactividad en batalla"
+
+msgid "details/calculations/fairPlayViolation/comp7_deserter"
+msgstr "Multa por deserción"
+
+msgid "details/calculations/fairPlayViolation/comp7_light_deserter"
+msgstr "Multa por deserción"
+
+msgid "details/calculations/fairPlayViolation/deserter"
+msgstr "Multa por deserción"
+
+msgid "details/calculations/fairPlayViolation/epic_deserter"
+msgstr "Multa por deserción"
+
+msgid "details/calculations/fairPlayViolation/event_afk"
+msgstr "Multa por inactividad en batalla"
+
+msgid "details/calculations/fairPlayViolation/event_deserter"
+msgstr "Multa por deserción"
+
+msgid "details/calculations/fairPlayViolation/suicide"
+msgstr "Multa por autodestrucción intencionada"
+
+msgid "details/calculations/firstWin"
+msgstr "Recompensa por la primera victoria del día"
+
+msgid "details/calculations/fortOrder"
+msgstr "Bonificación por Reservas usadas"
+
+msgid "details/calculations/friendlyFireCompensation"
+msgstr "Compensación por daño causado por aliados"
+
+msgid "details/calculations/friendlyFirePenalty"
+msgstr "Multa por causar daño a aliados"
+
+msgid "details/calculations/friendlyFireRankedXpPenalty"
+msgstr "Multa por aturdir o dañar a aliados"
+
+msgid "details/calculations/heavyTrucks"
+msgstr "Transporte de alta capacidad"
+
+msgid "details/calculations/igrBonus"
+msgstr "Recompensa por jugar a %(igrIcon)s"
+
+msgid "details/calculations/igrBonus/simpleLabel"
+msgstr "Bonificación IGR"
+
+msgid "details/calculations/intermediateTotal"
+msgstr "Cantidad total por batalla:"
+
+msgid "details/calculations/manageableXpBonus"
+msgstr "Bonificación de EXP manejable"
+
+msgid "details/calculations/maximum"
+msgstr "máximo"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "Por las maniobras militares"
+
+msgid "details/calculations/multiplierInfo/body"
+msgstr "Se ha añadido la experiencia aumentada por la primera victoria diaria en los siguientes vehículos:"
+
+msgid "details/calculations/multiplierInfo/header"
+msgstr "Recompensa por la primera victoria del día"
+
+msgid "details/calculations/multiplierInfo/vehicleSeparator"
+msgstr "• "
+
+msgid "details/calculations/noPenalty"
+msgstr "Por una brava resistencia"
+
+msgid "details/calculations/petCredits/fullLabel"
+msgstr "Bonificación de mascota (%(bonusFactor)d %)"
+
+msgid "details/calculations/petCredits/simpleLabel"
+msgstr "Bonificación de mascota"
+
+msgid "details/calculations/piggyBankInfo"
+msgstr "Añadido a las reservas"
+
+msgid "details/calculations/playerRankXP"
+msgstr "Bonificación de rango"
+
+msgid "details/calculations/premiumVehicleXP"
+msgstr "Bonificación por vehículo premium"
+
+msgid "details/calculations/referralBonus"
+msgstr "Bonificación de reclutamiento (%(bonusFactor)d%%)"
+
+msgid "details/calculations/referralBonus/fullLabel"
+msgstr "Bonificación de reclutamiento (%(bonusFactor)d %)"
+
+msgid "details/calculations/referralBonus/simpleLabel"
+msgstr "Bonificación de reclutamiento"
+
+msgid "details/calculations/squad/restrictions/title"
+msgstr "Para jugar en pelotón"
+
+msgid "details/calculations/squadBonus"
+msgstr "Bonificación por jugar en pelotón"
+
+msgid "details/calculations/squadXP"
+msgstr "Por jugar en pelotón"
+
+msgid "details/calculations/squadXPPenalty"
+msgstr "Penalización debido a la composición inapropiada del pelotón"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "Por el entrenamiento táctico"
+
+msgid "details/calculations/title/base"
+msgstr "Recibido por batalla"
+
+msgid "details/calculations/title/expenses"
+msgstr "Gastos"
+
+msgid "details/calculations/title/total"
+msgstr "Total"
+
+msgid "details/calculations/total"
+msgstr "Total:"
+
+msgid "details/calculations/wotPlus"
+msgstr "Bonificación de batalla de WoT Plus"
+
+msgid "details/calculations/wotPlusBonus"
+msgstr "Bonificación de batalla de WoT Plus"
+
+msgid "details/calculations/wotPlusProBoost"
+msgstr "WoT Plus Pro Boost"
+
+msgid "details/calculations/xpRecord"
+msgstr "Recibido (%(color_tag_open)s máximo %(color_tag_close)s)"
+
+msgid "details/calculations/xpRecordSimple"
+msgstr "Recibido (%(maximum)s)"
+
+msgid "details/credits"
+msgstr "Créditos"
+
+msgid "details/crystal"
+msgstr "Bonos"
+
+msgid "details/noPrem"
+msgstr "Cuenta estándar"
+
+msgid "details/prem"
+msgstr "Premium de Wargaming"
+
+msgid "details/premPlus"
+msgstr "Premium de WoT"
+
+msgid "details/resource"
+msgstr "Recursos industriales"
+
+msgid "details/stats"
+msgstr "Estadísticas"
+
+msgid "details/time"
+msgstr "Hora"
+
+msgid "details/time/lbl_arenaCreateTimeOnlyStr"
+msgstr "Hora de inicio"
+
+msgid "details/time/lbl_basesCaptured"
+msgstr "Zonas capturadas"
+
+msgid "details/time/lbl_duration"
+msgstr "Duración de la batalla"
+
+msgid "details/time/lbl_objectivesDestroyed"
+msgstr "Objetivos destruidos"
+
+msgid "details/time/lbl_objectivesReached"
+msgstr "Objetivos alcanzados"
+
+msgid "details/time/lbl_playerKilled"
+msgstr "Momento de la destrucción"
+
+msgid "details/time/val_no"
+msgstr "No"
+
+msgid "details/time/val_yes"
+msgstr "Sí"
+
+msgid "details/time/value"
+msgstr "%(min)s min %(sec)s s"
+
+msgid "details/time_epic"
+msgstr "Batalla"
+
+msgid "details/xp"
+msgstr "Experiencia"
+
+msgid "details/xp_abbr"
+msgstr "exp"
+
+msgid "exterminationVictory/allies"
+msgstr "Tu equipo destruyó todos los vehículos enemigos"
+
+msgid "exterminationVictory/enemies"
+msgstr "El enemigo destruyó todos los vehículos de tu equipo"
+
+msgid "fallout/classic/lose/cap"
+msgstr "El equipo enemigo consiguió más puntos de victoria que tu equipo"
+
+msgid "fallout/classic/lose/extermination"
+msgstr "El enemigo destruyó todos los vehículos de tu equipo"
+
+msgid "fallout/classic/lose/points"
+msgstr "El equipo enemigo consiguió más puntos de victoria que tu equipo"
+
+msgid "fallout/classic/tie"
+msgstr "Ambos equipos consiguieron igual número de puntos de victoria"
+
+msgid "fallout/classic/win/cap"
+msgstr "Tu equipo consiguió más puntos de victoria que el enemigo."
+
+msgid "fallout/classic/win/extermination"
+msgstr "Tu equipo destruyó todos los vehículos enemigos"
+
+msgid "fallout/classic/win/points"
+msgstr "Tu equipo consiguió más puntos de victoria que el enemigo."
+
+msgid "fallout/multiteam/ended"
+msgstr "Objetivo no cumplido"
+
+msgid "fallout/multiteam/noPlayerSelected"
+msgstr "Para ver los detalles,\nselecciona un jugador de la lista."
+
+msgid "fallout/multiteam/win/cap"
+msgstr "Tu equipo consiguió más puntos de victoria que el enemigo."
+
+msgid "fallout/multiteam/win/extermination"
+msgstr "Destruidos todos los destacamentos enemigos"
+
+msgid "fallout/multiteam/win/points"
+msgstr "Tu equipo consiguió más puntos de victoria que el enemigo."
+
+msgid "finish/clanBattle_reason_attack/1lose"
+msgstr "Estructura %(buildingName)s no capturada"
+
+msgid "finish/clanBattle_reason_attack/1tie"
+msgstr "Estructura %(buildingName)s capturada"
+
+msgid "finish/clanBattle_reason_attack/1win"
+msgstr "Estructura capturada: %(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1lose"
+msgstr "Estructura %(buildingName)s capturada por el enemigo"
+
+msgid "finish/clanBattle_reason_def/1tie"
+msgstr "Estructura %(buildingName)s no capturada"
+
+msgid "finish/clanBattle_reason_def/1win"
+msgstr "Estructura defendida: %(buildingName)s"
+
+msgid "finish/clarification/finishAllPlayersLeft"
+msgstr "El resultado se calcula según la información restante de los equipos"
+
+msgid "finish/overtime/lose"
+msgstr "Enemigo no destruido"
+
+msgid "finish/overtime/win"
+msgstr "Enemigo destruido"
+
+msgid "finish/playerTank/separator"
+msgstr "–"
+
+msgid "finish/reason/0"
+msgstr "Razón desconocida"
+
+msgid "finish/reason/10lose"
+msgstr "Objetivos no destruidos"
+
+msgid "finish/reason/10win"
+msgstr "Objetivos destruidos"
+
+msgid "finish/reason/1lose"
+msgstr "Todos los vehículos aliados están destruidos"
+
+msgid "finish/reason/1tie"
+msgstr "Todos los vehículos están destruidos"
+
+msgid "finish/reason/1win"
+msgstr "Todos los vehículos enemigos están destruidos"
+
+msgid "finish/reason/2"
+msgstr "Base capturada"
+
+msgid "finish/reason/3"
+msgstr "Tiempo de batalla agotado"
+
+msgid "finish/reason/4"
+msgstr "La batalla acabó debido a un fallo del sistema"
+
+msgid "finish/reason/5"
+msgstr "Derrota técnica"
+
+msgid "finish/reason/8"
+msgstr "Aliado destruido"
+
+msgid "finish/reason/9"
+msgstr "Tu vehículo está destruido"
+
+msgid "garage/uniqueDamage"
+msgstr "Solo cuentan los impactos críticos únicos."
+
+msgid "getPremiumPopover/actionBtn/label"
+msgstr "Seleccionar duración"
+
+msgid "getPremiumPopover/award"
+msgstr "+50 % en créditos y experiencia"
+
+msgid "getPremiumPopover/descriptionText"
+msgstr "Compra %(prem)s y consigue %(award)s en todas las próximas batallas luchadas"
+
+msgid "getPremiumPopover/headerText"
+msgstr "Por esta batalla puedes conseguir:"
+
+msgid "getPremiumPopover/prem"
+msgstr "Cuenta premium"
+
+msgid "missionsProgress/aboutVehicle/button"
+msgstr "A Desarrollo"
+
+msgid "missionsProgress/aboutVehicle/description"
+msgstr "Disponible para desarrollar"
+
+msgid "missionsProgress/aboutVehicle/prediction"
+msgstr "Batallas que faltan (aproximadamente): {{prediction}}"
+
+msgid "missionsProgress/aboutVehicle/title"
+msgstr "SOBRE EL VEHÍCULO"
+
+msgid "missionsProgress/battleMatters/doneInfo"
+msgstr "Has completado la misión «#{{name}}»."
+
+msgid "missionsProgress/battleMatters/title"
+msgstr "ACADEMIA ACORAZADA"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/module"
+msgstr "¡NUEVO MÓDULO DESBLOQUEADO!"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/vehicle"
+msgstr "¡NUEVO VEHÍCULO DESBLOQUEADO!"
+
+msgid "missionsProgress/notificationsTabs/battleMatters"
+msgstr "¡MISIÓN DE LA ACADEMIA COMPLETADA!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/chapterComplete"
+msgstr "¡CAPÍTULO COMPLETADO!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/stageComplete"
+msgstr "¡ETAPA COMPLETADA!"
+
+msgid "missionsProgress/notificationsTabs/challenge"
+msgstr "¡MISIÓN DE CRISOL COMPLETADA!"
+
+msgid "missionsProgress/notificationsTabs/common"
+msgstr "¡MISIÓN COMPLETADA!"
+
+msgid "missionsProgress/notificationsTabs/daily"
+msgstr "¡MISIÓN DIARIA COMPLETADA!"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/maxLevel"
+msgstr "NIVEL MÁXIMO DE ÉLITE"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/newLevel"
+msgstr "NUEVO NIVEL DE ÉLITE"
+
+msgid "missionsProgress/notificationsTabs/epic"
+msgstr "¡MISIÓN ÉPICA COMPLETADA!"
+
+msgid "missionsProgress/notificationsTabs/personalMissions/operation_mission_complete"
+msgstr "¡MISIÓN DE LA OPERACIÓN COMPLETADA!"
+
+msgid "missionsProgress/notificationsTabs/premium"
+msgstr "¡MISIÓN PREMIUM COMPLETADA!"
+
+msgid "missionsProgress/notificationsTabs/weekly"
+msgstr "¡MISIÓN SEMANAL COMPLETADA!"
+
+msgid "noData"
+msgstr "Lo sentimos, los resultados de la batalla no están disponibles."
+
+msgid "personalQuest/bonus/descr"
+msgstr "El progreso obtenido en la condición primaria en esta batalla se ha multiplicado por %(value)s."
+
+msgid "personalQuest/bonus/multiplier"
+msgstr "multiplicador x%(value)s:"
+
+msgid "personalQuest/failed/attention"
+msgstr "¡Atención!"
+
+msgid "personalQuest/failed/descr"
+msgstr "El progreso de tu misión se ha reiniciado. El avance de la condición volverá a cero."
+
+msgid "players/enemy/unknown"
+msgstr "Enemigo"
+
+msgid "players/teammate/unknown"
+msgstr "Jugador"
+
+msgid "prestige/common/description"
+msgstr "Puntos de élite ganados:"
+
+msgid "prestige/max/description"
+msgstr "Nivel máximo de élite alcanzado."
+
+msgid "prestige/maxLevelReached/description"
+msgstr "Nivel máximo de élite alcanzado"
+
+msgid "prestige/newLevelAchieved/description"
+msgstr "Nuevo nivel de élite alcanzado"
+
+msgid "prestige/title"
+msgstr "Sistema de élite"
+
+msgid "progression/completed"
+msgstr "Completada"
+
+msgid "progression/completedPointsFrom/withLabel"
+msgstr "{{@class $labelClass}}Completada:{{/}} {{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/completedPointsFrom/withoutLabel"
+msgstr "{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/{{/}}{{total}}{{/}}"
+
+msgid "progression/linkBtn/info"
+msgstr "Haz clic para ver la información detallada."
+
+msgid "progression/missionsCompleteCounter"
+msgstr "{{@class $labelClass}}Completada:{{/}} {{completed}}"
+
+msgid "progression/progressUnavailable"
+msgstr "El sistema de élite no está disponible en este momento. Inténtalo de nuevo más tarde."
+
+msgid "progression/totalEarned"
+msgstr "Total obtenido: {{value}}"
+
+msgid "progressiveReward/descr"
+msgstr "Libra batallas y recibe recompensas. Cuanto más juegues, más cerca estarán las recompensas."
+
+msgid "selectVehicle"
+msgstr "Selecciona un vehículo"
+
+msgid "status/lose"
+msgstr "DERROTA"
+
+msgid "status/tie"
+msgstr "EMPATE"
+
+msgid "status/win"
+msgstr "VICTORIA"
+
+msgid "tankSelector/next"
+msgstr "Siguiente vehículo con"
+
+msgid "team/damageAndConsumablesHeader/body"
+msgstr "Ordenar por daño causado,\nincluyendo el daño de las reservas de combate."
+
+msgid "team/damageAndConsumablesHeader/header"
+msgstr "Daño causado"
+
+msgid "team/damageHeader/body"
+msgstr "Ordenar por daño causado a vehículos enemigos."
+
+msgid "team/damageHeader/header"
+msgstr "Daño causado a vehículos enemigos"
+
+msgid "team/damageHeaderNoSort/header"
+msgstr "Daño causado"
+
+msgid "team/deaths/body"
+msgstr "Ordenar por el número de vehículos destruidos por el jugador en la batalla."
+
+msgid "team/deaths/header"
+msgstr "Vehículos destruidos"
+
+msgid "team/deathsNoSort/header"
+msgstr "Vehículos destruidos"
+
+msgid "team/epicRankHeader/body"
+msgstr "Ordenar por los rangos obtenidos en la batalla."
+
+msgid "team/epicRankHeader/header"
+msgstr "Rango"
+
+msgid "team/epicRespawnHeader/body"
+msgstr "Ordenar por la cantidad de reapariciones en la batalla."
+
+msgid "team/epicRespawnHeader/header"
+msgstr "Número de reapariciones"
+
+msgid "team/falloutFragHeader/body"
+msgstr "Ordenar por vehículos enemigos destruidos,\nincluyendo el daño de las reservas de combate."
+
+msgid "team/falloutFragHeader/header"
+msgstr "Vehículos enemigos destruidos"
+
+msgid "team/falloutResourcePoints/body"
+msgstr "Ordenar por el número de recursos obtenidos."
+
+msgid "team/falloutResourcePoints/header"
+msgstr "Recursos"
+
+msgid "team/flags/body"
+msgstr "Ordenar por el número de banderas entregadas."
+
+msgid "team/flags/header"
+msgstr "Banderas entregadas"
+
+msgid "team/flagsNoSort/header"
+msgstr "Banderas entregadas"
+
+msgid "team/fragHeader/body"
+msgstr "Ordenar por número de vehículos enemigos destruidos."
+
+msgid "team/fragHeader/header"
+msgstr "Vehículos enemigos destruidos"
+
+msgid "team/fragHeaderNoSort/header"
+msgstr "Vehículos enemigos destruidos"
+
+msgid "team/healthHeader/body"
+msgstr "Ordenar por los PV restantes."
+
+msgid "team/healthHeader/header"
+msgstr "Puntos de vida"
+
+msgid "team/medalHeader/body"
+msgstr "Ordenar por el número de logros recibidos."
+
+msgid "team/medalHeader/header"
+msgstr "Logros"
+
+msgid "team/playerHeader/body"
+msgstr "Ordenar por el nombre de jugador."
+
+msgid "team/playerHeader/header"
+msgstr "Nombre"
+
+msgid "team/playerHeaderNoSort/header"
+msgstr "Nombre"
+
+msgid "team/playerNumber/body"
+msgstr "Ordenado por el número de jugadores del equipo."
+
+msgid "team/playerNumber/header"
+msgstr "Número"
+
+msgid "team/rankHeader/body"
+msgstr "Ordenar por rango."
+
+msgid "team/rankHeader/header"
+msgstr "Un rango"
+
+msgid "team/resourceHeader/body"
+msgstr "Ordenar por la cantidad de recursos industriales conseguidos."
+
+msgid "team/resourceHeader/header"
+msgstr "Recursos industriales"
+
+msgid "team/squadHeader/body"
+msgstr "Ordenar por pelotón."
+
+msgid "team/squadHeader/header"
+msgstr "Pelotón"
+
+msgid "team/squadHeaderNoSort/header"
+msgstr "Pelotón"
+
+msgid "team/stats/allies"
+msgstr "Aliados"
+
+msgid "team/stats/close"
+msgstr "Cerrar"
+
+msgid "team/stats/enemies"
+msgstr "Enemigos"
+
+msgid "team/stats/enemyTeam"
+msgstr "Enemigos"
+
+msgid "team/stats/infotip_xpForAssist/body"
+msgstr "Cuenta como asistencia:\n• Daño causado por los aliados cuando detectas un vehículo, destruyes sus orugas para inmovilizarlo o lo aturdes\n• Captura de bases\n• Primera detección de vehículos enemigos."
+
+msgid "team/stats/infotip_xpForAssist/header"
+msgstr "Por asistencia"
+
+msgid "team/stats/infotip_xpForAttack/body"
+msgstr "Cuenta como contribución:\n• Daño que causas\n• Vehículos que destruyes\n• Módulos dañados\n• Bonificación por el daño causado por tu equipo\n• Multa por aturdir o dañar a aliados."
+
+msgid "team/stats/infotip_xpForAttack/header"
+msgstr "Por daño causado y vehículos destruidos"
+
+msgid "team/stats/infotip_xpOther/body"
+msgstr "Bonificaciones adicionales por un enfrentamiento efectivo, no especificado en las secciones anteriores."
+
+msgid "team/stats/infotip_xpOther/header"
+msgstr "Por ajustarse al papel del vehículo"
+
+msgid "team/stats/labels_artilleryFortEquipDamageDealt"
+msgstr "\tpor Ataque de artillería"
+
+msgid "team/stats/labels_atkObjectives"
+msgstr "Zonas capturadas/objetivos destruidos"
+
+msgid "team/stats/labels_capturePointsVal"
+msgstr "Puntos de captura/defensa de base"
+
+msgid "team/stats/labels_capturedPointsOfInterest"
+msgstr "Puntos de interés capturados"
+
+msgid "team/stats/labels_damageAssisted"
+msgstr "Daño causado con la asistencia del jugador"
+
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "Daño causado con tu asistencia"
+
+msgid "team/stats/labels_damageAssistedStun"
+msgstr "Daño a los vehículos enemigos aturdidos por este jugador"
+
+msgid "team/stats/labels_damageAssistedStunSelf"
+msgstr "Daño a los vehículos enemigos aturdidos por ti"
+
+msgid "team/stats/labels_damageBlockedByArmor"
+msgstr "Daño bloqueado por el blindaje"
+
+msgid "team/stats/labels_damageDealt"
+msgstr "Daño total:"
+
+msgid "team/stats/labels_damageDealtByOrder"
+msgstr "\tIncluyendo el de las reservas de combate"
+
+msgid "team/stats/labels_damageDealtBySkills"
+msgstr "\tincluyendo las habilidades usadas"
+
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\tdaño hecho al equipo enemigo"
+
+msgid "team/stats/labels_damagedKilled"
+msgstr "Vehículos enemigos dañados/destruidos"
+
+msgid "team/stats/labels_deaths"
+msgstr "Número de tus vehículos destruidos en la batalla"
+
+msgid "team/stats/labels_defObjectives"
+msgstr "Zonas/objetivos defendidos"
+
+msgid "team/stats/labels_destroyRecoveryRatio"
+msgstr "Cantidad de vehículos destruidos/recuperados"
+
+msgid "team/stats/labels_destructiblesDamageDealt"
+msgstr "\ta objetivos"
+
+msgid "team/stats/labels_directHits"
+msgstr "\timpactos directos"
+
+msgid "team/stats/labels_directHitsReceived"
+msgstr "Impactos recibidos"
+
+msgid "team/stats/labels_equipmentDamageAssisted"
+msgstr "\tpor efectos de reservas de combate"
+
+msgid "team/stats/labels_equipmentDamageDealt"
+msgstr "\tcon reservas de combate"
+
+msgid "team/stats/labels_explosionHits"
+msgstr "\tdaño por fragmentos"
+
+msgid "team/stats/labels_explosionHitsReceived"
+msgstr "Impactos recibidos a causa de daño por fragmentos"
+
+msgid "team/stats/labels_flags"
+msgstr "Banderas entregadas"
+
+msgid "team/stats/labels_healed"
+msgstr "Puntos de vida restaurados (tuyos/aliados)"
+
+msgid "team/stats/labels_hits"
+msgstr "\timpactos directos/penetraciones"
+
+msgid "team/stats/labels_killed"
+msgstr "Vehículos enemigos destruidos"
+
+msgid "team/stats/labels_killsByOrder"
+msgstr "\tIncluyendo el de las reservas de combate"
+
+msgid "team/stats/labels_mileage"
+msgstr "Distancia recorrida"
+
+msgid "team/stats/labels_noDamageDirectHitsReceived"
+msgstr "\tno penetración"
+
+msgid "team/stats/labels_piercingHits"
+msgstr "\tpenetraciones"
+
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\tpenetraciones"
+
+msgid "team/stats/labels_roleSkillUsed"
+msgstr "Habilidades de rol utilizadas"
+
+msgid "team/stats/labels_shots"
+msgstr "Proyectiles disparados"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\ta una distancia de más de 300 metros"
+
+msgid "team/stats/labels_spotted"
+msgstr "Enemigos detectados"
+
+msgid "team/stats/labels_stunDuration"
+msgstr "Duración total del aturdimiento causado, s"
+
+msgid "team/stats/labels_stunNum"
+msgstr "Aturdimientos causados"
+
+msgid "team/stats/labels_teamHitsDamage"
+msgstr "Daño causado a aliados (destruidos/PV)"
+
+msgid "team/stats/labels_timesDestroyed"
+msgstr "N.º de vehículos destruidos"
+
+msgid "team/stats/labels_xp"
+msgstr "Experiencia total conseguida"
+
+msgid "team/stats/labels_xpForAssist"
+msgstr "\tpor asistencia"
+
+msgid "team/stats/labels_xpForAttack"
+msgstr "\tpor daño infligido y destrucción"
+
+msgid "team/stats/labels_xpOther"
+msgstr "\tpor ajustarse al papel del vehículo"
+
+msgid "team/stats/mileage"
+msgstr "?empty?"
+
+msgid "team/stats/ownTeam"
+msgstr "Aliados"
+
+msgid "team/stats/parameter/artilleryFortEquipDamageDealt"
+msgstr "por Ataque de artillería"
+
+msgid "team/stats/parameter/capturePointsVal"
+msgstr "Puntos de captura/defensa de base"
+
+msgid "team/stats/parameter/damageAssisted"
+msgstr "Daño causado con la asistencia del jugador"
+
+msgid "team/stats/parameter/damageAssistedSelf"
+msgstr "Daño causado con tu asistencia"
+
+msgid "team/stats/parameter/damageAssistedStun"
+msgstr "Daño a los vehículos enemigos aturdidos por este jugador"
+
+msgid "team/stats/parameter/damageAssistedStunSelf"
+msgstr "Daño a los vehículos enemigos aturdidos por ti"
+
+msgid "team/stats/parameter/damageBlockedByArmor"
+msgstr "Daño bloqueado por el blindaje"
+
+msgid "team/stats/parameter/damageDealt"
+msgstr "Daño total"
+
+msgid "team/stats/parameter/damagedKilled"
+msgstr "Vehículos enemigos dañados/destruidos"
+
+msgid "team/stats/parameter/directHitsReceived"
+msgstr "Impactos recibidos"
+
+msgid "team/stats/parameter/explosionHits"
+msgstr "daño por explosión"
+
+msgid "team/stats/parameter/explosionHitsReceived"
+msgstr "Impactos recibidos a causa de daño por fragmentos"
+
+msgid "team/stats/parameter/hits"
+msgstr "impactos directos/penetraciones"
+
+msgid "team/stats/parameter/mileage"
+msgstr "Distancia recorrida"
+
+msgid "team/stats/parameter/noDamageDirectHitsReceived"
+msgstr "no penetraciones"
+
+msgid "team/stats/parameter/piercingsReceived"
+msgstr "penetraciones"
+
+msgid "team/stats/parameter/shots"
+msgstr "Proyectiles disparados"
+
+msgid "team/stats/parameter/sniperDamageDealt"
+msgstr "a una distancia de más de 300 metros"
+
+msgid "team/stats/parameter/spotted"
+msgstr "Enemigos detectados"
+
+msgid "team/stats/parameter/stunDuration"
+msgstr "Duración total del aturdimiento causado, s"
+
+msgid "team/stats/parameter/stunNum"
+msgstr "Aturdimientos causados"
+
+msgid "team/stats/parameter/teamHitsDamage"
+msgstr "Daño causado a aliados (destruidos/PV)"
+
+msgid "team/tankHeader/body"
+msgstr "Ordenar por posición en el panel de equipo"
+
+msgid "team/tankHeader/header"
+msgstr "Vehículos"
+
+msgid "team/teamInfluenceTotal"
+msgstr "Influencia ganada por el destacamento: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamResourceTotal"
+msgstr "Recursos Industriales conseguidos: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamScore/body"
+msgstr "Ordenar por el número de puntos de victoria obtenidos."
+
+msgid "team/teamScore/header"
+msgstr "Puntos de victoria del equipo"
+
+msgid "team/victoryScore/body"
+msgstr "Ordenar por el número de puntos de victoria obtenidos."
+
+msgid "team/victoryScore/header"
+msgstr "Puntos de victoria del jugador"
+
+msgid "team/victoryScoreNoSort/header"
+msgstr "Puntos de victoria del jugador"
+
+msgid "team/xpHeader/body"
+msgstr "Ordenar por EXP"
+
+msgid "team/xpHeader/header"
+msgstr "Experiencia"
+
+msgid "team/xpHeaderNoSort/header"
+msgstr "Experiencia"
+
+msgid "tooltips/stats/footer/text"
+msgstr "%(label)s&nbsp;%(type)s"
+
+msgid "victoryScore"
+msgstr "Puntos de victoria conseguidos"

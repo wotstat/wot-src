@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, durata luptei: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "ÎNCHIDE"
+
+msgid "battleResult/continueButton"
+msgstr "Continuă"
+
+msgid "battleResult/damageAssisted"
+msgstr "Daune\nprin asistență"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Daune\nblocate"
+
+msgid "battleResult/damageDealt"
+msgstr "Daune\nprovocate"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s Prin finalizarea de misiuni cu dificultate riguroasă,\nle vei finaliza automat pe cele standard.\nAstfel, vei primi recompensele ambelor niveluri de dificultate."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s Prin finalizarea de misiuni cu dificultate riguroasă, le vei finaliza automat pe cele standard.\nAstfel, vei primi recompensele ambelor niveluri de dificultate."
+
+msgid "battleResult/kills"
+msgstr "Inamici\ndistruși"
+
+msgid "battleResult/lose/title"
+msgstr "LUPTA S-A ÎNCHEIAT"
+
+msgid "battleResult/missionName/1"
+msgstr "VÂNĂTORUL DE TIGER: Operațiunea Avalanșa de Oțel"
+
+msgid "battleResult/missionName/2"
+msgstr "VÂNĂTORUL DE TIGER: Operațiunea Puitorul de capcane"
+
+msgid "battleResult/missionName/3"
+msgstr "VÂNĂTORUL DE TIGER: Operațiunea Ciocanul şi Nicovala"
+
+msgid "battleResult/missionName/4"
+msgstr "VÂNĂTORUL DE TIGER: Operațiunea Pisica din cursa de șoareci"
+
+msgid "battleResult/missionName/5"
+msgstr "OPERAȚIUNEA OVERLORD"
+
+msgid "battleResult/missionName/6"
+msgstr "OPERAȚIUNEA POȘTAȘUL"
+
+msgid "battleResult/missionName/7"
+msgstr "OPERAȚIUNEA PUNCTUL DE FIERBERE"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Nu sunt misiuni\nactive"
+
+msgid "battleResult/rewards/other"
+msgstr "S-au mai obținut:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Misiune\nfinalizată"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Supraviețuit{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Nu a supraviețuit{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "VICTORIE!"
+
+msgid "countdown/days"
+msgstr "{days} z"
+
+msgid "countdown/daysHours"
+msgstr "{days} z {hours} h"
+
+msgid "countdown/endsSoon"
+msgstr "Mai puțin de {minutes} minute"
+
+msgid "countdown/hours"
+msgstr "{hours} h"
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} h {minutes} min"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} h {minutes} m"
+
+msgid "countdown/lessThanMinute"
+msgstr "Mai puțin de 1 minut"
+
+msgid "countdown/minutes"
+msgstr "{minutes} min"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} m"
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "Anulează"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "Nu vei obține recompense pentru finalizarea acestei operațiuni.\nDorești totuși să joci operațiunea fără misiuni active?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Confirmă"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "Nu sunt misiuni active în această operațiune"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Identifică amenințarea necunoscută, oprește lansarea rachetei și asigură-te că tehnologiile noi rămân în mâinile potrivite."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "Joacă solo și luptă împotriva inamicilor conduși de AI în această poveste epică cu comandanți din Sectorul 3!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Finalizează toate misiunile pentru a obține o insignă și o medalie comemorative, stiluri 2D tematice și alte recompense valoroase."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "Răsare o nouă epocă"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "Povestea solo"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Recompensele"
+
+msgid "eventWelcomeScreen/header"
+msgstr "OPERAȚIUNEA PUNCTUL DE FIERBERE"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s – %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Povești"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Riguroasă"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Standard"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Câmp de mine\nriguros"
+
+msgid "missionSelection/exitButton"
+msgstr "IEȘI DIN MOD"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "OPERAȚIUNEA\nAVALANȘA DE OȚEL"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "OPERAȚIUNEA\nPUITORUL DE CAPCANE"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "OPERAȚIUNEA\nCIOCANUL ŞI NICOVALA"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "OPERAȚIUNEA\nPISICA DIN CURSA DE ȘOARECI"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "OPERAȚIUNEA\nOVERLORD"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "OPERAȚIUNEA\nPOȘTAȘUL"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "OPERAȚIUNEA\nPUNCTUL DE FIERBERE"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Brooks: „Cum te simți? Ți-ai revenit? Vei merge la medic mai încolo. Acum avem nevoie de toate tunurile. Asaltul a început deja. Suntem în întârziere și inamicul s-a concentrat pe alt flanc. Acum e șansa noastră. Atacăm imediat. Străpungem spre oraș și îi prindem din două părți.\nUrmează-ne și evită „dinții dragonului”. Au mai multe rânduri de colți de beton acolo, pe câmp. Dar e-n regulă. Vom reuși. Tot ce trebuie să faci e să m-asculți și să-mi urmezi ordinele precis și rapid. MacLeod și cu mine te vom acoperi.\nNu-i băga în seamă glumele. Toată lumea se descurcă cum știe. Înainte!”"
+
+msgid "missionSelection/missionDescription/2"
+msgstr "MacLeod: „Ah, tancurile Tiger... cel mai rău lucru peste care poți da pe câmpul de luptă. Iar dacă a zis comandamentul că au o problemă, sigur s-au referit la Tiger. Nu putem contacta prima echipă de asalt, cea de-a doua de-abia ce a plecat, și iată-ne: trimiși să-i urmăm.\nIar dacă ne trimit pe noi, înseamnă un singur lucru: Tiger. Asta zic cei de la HQ: „Trimiteți experții în Tiger!” Nouă tancuri de amândoi. Nu-i rău pentru jumătate de an. Conduci cu 5-4. Dar am șansa să o iau înainte. Să iau amărâta aia de medalie!\nHaide, lui Brooks nu-i place să aștepte. Vânătoarea începe.”"
+
+msgid "missionSelection/missionDescription/3"
+msgstr "MacLeod: „În regulă, băieți, asta e operațiunea Ciocanul și Nicovala. Un nume simplu pentru o operațiune complicată. Ne îndreptăm spre oraș pentru a curăța forțele inamice. Nu va fi ușor: vom avea parte de inamici puternic blindați. Avem, însă, de partea noastră, inteligența, forța și spiritul de echipă, nu-i așa, Lucky? Să ne grăbim, oameni buni. Am planuri mari pentru „ceaiul” de la ora cinci, dacă-nțelegeți ce vreau să spun!”"
+
+msgid "missionSelection/missionDescription/4"
+msgstr "MacLeod: „Nu mă-ntreba, Lucky. Nici eu nu știu mare lucru. Nu sunt fan al secretelor. Îmi plac lucrurile simple și directe. Dai de inamic, te lupți cu el. Dar chestia asta? E groasă.\n\nÎn oraș putem da și peste tancuri aliate. Brooks ne-a cerut să ne deplasăm cu atenție. Ce-nseamnă asta?\nAvem o însărcinare specială. Să găsim ceva ce se numește Wunderwaffe: ceva uriaș, pe șenile. Numai noi putem face asta, Lucky.\n\nGata? La atac.”"
+
+msgid "missionSelection/missionDescription/5"
+msgstr "Căpitanul John McCormick: „În regulă, băieți, a sosit ziua. E momentul să încheiem acest război, și exact asta vom face. Cu toții, împreună: Americani, britanici, francezi, canadieni, australieni, belgieni, cehoslovaci, greci, olandezi, neozeelandezi, norvegieni, polonezi. Ne-am unit pentru a distruge pentru totdeauna răul.\n\nVom sparge zidul Atlanticului și vom crea zona de control.\n\nPregătiți-vă pentru debarcare!”"
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Căpitanul Smith: „Ascultați. Germania a semnat documentele capitulării cu câteva ore în urmă. Războiul se încheie mâine, însă băieții din munți au pierdut contactul radio; ei nu știu că s-a încheiat. Se pregătesc să atace în zori această fortăreață nenorocită, iar germanii dinăuntru nu au aflat nici ei de capitulare. Ar fi un măcel fără rost.\n\nSuntem singurii care îl pot opri. Misiunea noastră: să ne strecurăm prin liniile inamice și să livrăm ordinul de încetare a focului. E o misiune sinucigașă, însă merită fiecare viață salvată. \n\nAvem ca prizonier un radiofonist german; acesta cunoaște terenul și are la fel de multe motive ca noi pentru a opri vărsarea de sânge. \n\nLa atac.”"
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Leni Scharf: „Situația e critică. Am pierdut contactul cu baza noastră de rachete din Marea Norvegiei. Zborul de recunoaștere nu s-a întors, iar forța inițială de debarcare a tancurilor a fost anihilată de un inamic necunoscut.\n\nInformațiile sugerează că se pregătesc să lanseze o rachetă balistică. Nu știm care este ținta, dar în acest climat politic, o singură lansare ar putea declanșa un conflict global.\n\nE ca pe vremuri, nu-i așa? Doar o altă misiune imposibilă în spatele liniilor inamice. La atac!”"
+
+msgid "missionSelection/missionName/1"
+msgstr "OPERAȚIUNEA AVALANȘA DE OȚEL"
+
+msgid "missionSelection/missionName/2"
+msgstr "OPERAȚIUNEA PUITORUL DE CAPCANE"
+
+msgid "missionSelection/missionName/3"
+msgstr "OPERAȚIUNEA CIOCANUL ŞI NICOVALA"
+
+msgid "missionSelection/missionName/4"
+msgstr "OPERAȚIUNEA PISICA DIN CURSA DE ȘOARECI"
+
+msgid "missionSelection/missionName/5"
+msgstr "OPERAȚIUNEA OVERLORD"
+
+msgid "missionSelection/missionName/6"
+msgstr "OPERAȚIUNEA POȘTAȘUL"
+
+msgid "missionSelection/missionName/7"
+msgstr "OPERAȚIUNEA PUNCTUL DE FIERBERE"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Vehicul special"
+
+msgid "missionSelection/tab/event"
+msgstr "OPERAȚIUNEA PUNCTUL DE FIERBERE"
+
+msgid "missionSelection/tab/newbies"
+msgstr "POVEȘTI DE TUTORIAL"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Atacă orașul și distruge vehiculele inamice."
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Atacă orașul și distruge vehiculele inamice."
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Atacă orașul și distruge vehiculele inamice."
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Finalizează obiectivele principale ale misiunii fără a suferi daune din partea minelor inamice."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Finalizează obiectivele principale ale misiunii fără a pierde niciun vehicul."
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Atacă orașul și capturează Wunderwaffe inamic."
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Finalizează în sub %(win_timer)s obiectivele principale ale misiunii."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Finalizează obiectivele principale ale misiunii și distruge minim %(kill_enemies)s cu ajutorul avionului."
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Efectuează străpungerea, distruge tunurile de coastă și capturează capul de pod."
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Finalizează în sub %(win_timer)s obiectivele principale ale misiunii."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Finalizează obiectivele principale ale misiunii fără a pierde niciun vehicul."
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Livrează aliaților tăi ordinul de încetare a focului."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Finalizează obiectivele principale ale misiunii și distruge sub %(kill_enemies)s."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Finalizează obiectivele principale ale misiunii fără a pierde niciun vehicul."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Atinge centrul de comandă și oprește lansarea rachetelor."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Finalizează în sub %(win_timer)s obiectivele principale ale misiunii."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Finalizează obiectivele principale ale misiunii fără a pierde niciun vehicul."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s vehicul inamic"
+msgstr[1] "%(value)s vehicule inamice"
+msgstr[2] "%(value)s vehicule inamice"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "Misiunea e blocată: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s minut"
+msgstr[1] "%(value)s minute"
+msgstr[2] "%(value)s minute"
+
+msgid "missionSelection/taskRewards"
+msgstr "Recompensă: "
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Vehiculul e disponibil doar în Povești."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Finalizează încă %(numBattles)s lupte în modul lupte standard\npentru a debloca această operațiune."
+
+msgid "mode/story_mode/callToAction"
+msgstr "Scenariul începătorilor"
+
+msgid "mode/story_mode/description"
+msgstr "Finalizează operațiunile scriptate împotriva vehiculelor conduse de AI"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Operațiunea Punctul de Fierbere e disponibilă"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "Poți găsi modul de joc selectat în partea de sus a meniului principal din Garaj. Clic pe numele modului pentru a afișa lista de moduri disponibile."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Clic pe &zwnbsp;{whiteSpanish_Open}Povești{whiteSpanish_Close}&zwnbsp; pentru a selecta acest mod de joc."
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "În Povești, poți explora scenarii narative PvE, luptând împotriva inamicilor controlați de AI, poți simți atmosfera luptelor eroice și obține recompense valoroase!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Intră în selectorul modului de joc"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Selectează Povești"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "Distrează-te în acțiune PvE"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "POVEȘTI"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Te așteaptă scenarii predefinite"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Restartează"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "LUPTA S-A ÎNCHEIAT"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Treci peste"
+
+msgid "onboardingQueue/skipText"
+msgstr "Toate serverele sunt ocupate. Așteaptă sau sări peste această poveste."
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Îți pregătim serverul. Așteaptă..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Daune blocate de blindaj {parSecondary_Start}(unități){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Daune blocate"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "Loviturile cu proiectile HE și HESH nu sunt luate în considerare."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Considerate:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Ricoșarea loviturilor inamice"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Loviturile non-penetrante"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Daune asistate"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "Se iau în considerare următoarele daune provocate de aliați cu ajutorul tău:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Daune după descoperirea de tine"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "Daune în urma distrugerii de către tine a unei șenile și a imobilizării vehiculului inamic"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "Totalul daunelor provocate de aliați\n{parSecondary_Start}(unități){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Daune provocate"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Considerate:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Daune cu proiectile"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Daune prin coliziuni"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Daune prin incendiere"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Daune prin împingerea unui inamic de pe un obstacol"
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Totalul daunelor {parSecondary_Start}(unități){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Inamici distruși"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Considerate:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Distrugere cu proiectile"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Distrugere prin incendiere"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Distrugere prin coliziune"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Distrugere prin înecare"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Distrugere prin împingerea unui inamic de pe un obstacol"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Distrugere prin răsturnare."
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Misiuni finalizate"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "Numărul de misiuni finalizate și\ntoate misiunile disponibile momentan.\nMisiunile finalizate pe dificultate riguroasă\nsunt finalizate automat pe dificultate\nstandard."
+
+msgid "tooltips/difficulty/available"
+msgstr "Disponibil"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "Viteza de reacție și precizia inamicilor au crescut, aceștia atacând mai agresiv. În schimb, vei obține recompense suplimentare la finalizarea misiunii."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "Prin finalizarea de misiuni pe dificultate {whiteSpanish_Open}riguroasă{whiteSpanish_Close}, le finalizezi automat pe cele ale dificultății{whiteSpanish_Open}standard{whiteSpanish_Close}. Vei obține recompensele albelor niveluri de dificultate."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Condiție suplimentară"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Riguroasă"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "Pentru a debloca dificultatea riguroasă, dovedește-ți abilitățile în modul de joc, finalizând această operație în dificultatea standard."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Blocată"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Inamicii sunt mai lenți și mai puțin preciși, iar la finalizarea misiunii vei primi recompensele standard."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Standard"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Selectată"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "O variantă mai dificilă a etapei „Câmpul de mine” al operațiunii: îndrăznești să intri în acest labirint ucigător?\nOferă recompense crescute din luptă."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Câmpul de mine riguros"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Identifică amenințarea necunoscută, oprește lansarea rachetei și asigură-te că tehnologiile noi rămân în mâinile potrivite."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Operațiunea Punctul de Fierbere"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "MOD"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "- mod de joc. Clic pentru a explora"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "Joacă solo și luptă împotriva inamicilor conduși de AI în această poveste epică cu comandanți din Sectorul 3!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Eveniment disponibil timp de {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "POVEȘTI"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "MOD"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "- mod de joc. Clic pentru a explora"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "Scenariu special predefinit. Îmbarcă-te într-o călătorie în lumea vehiculelor blindate și dovedește-ți valoarea luptând împotriva inamicilor conduși de AI."
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "Povești"
+
+msgid "tooltips/task/active"
+msgstr "Activă"
+
+msgid "tooltips/task/completed"
+msgstr "Finalizată"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Condiții necunoscute"
+
+msgid "tooltips/task/locked"
+msgstr "Blocată: %(timer)s"

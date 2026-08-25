@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_light_aggressive_detection/descr/active"
+msgstr "Обзорът ще бъде увеличен с {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose} за {colorTagOpen}%(duration)s сек{colorTagClose}.\n\nТаймерът ще се нулира, когато вражеска машина бъде унищожена при откриване от вас."
+
+msgid "comp7_light_aggressive_detection/name"
+msgstr "Активно разузнаване"
+
+msgid "comp7_light_ally_support/descr/active"
+msgstr "За {colorTagOpen}%(duration)s сек{colorTagClose} вашият екипаж получава {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} бонус към ефективността за всяка машина от вашия отбор с различна роля.\n\nВашата машина винаги ще бъде включена в изчисляването на този бонус."
+
+msgid "comp7_light_ally_support/name"
+msgstr "Един за всички"
+
+msgid "comp7_light_aoe_heal/descr/active"
+msgstr "За {colorTagOpen}%(duration)s сек{colorTagClose}, около вашата машина се създава зона с радиус {colorTagOpen}%(radius)s m{colorTagClose}, която възстановява {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} точки живот за вашата и съюзническите машини."
+
+msgid "comp7_light_aoe_heal/name"
+msgstr "Полеви ремонт"
+
+msgid "comp7_light_aoe_inspire/descr/active"
+msgstr "За {colorTagOpen}%(duration)s сек{colorTagClose} вашият и съюзническите екипажи получават {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} бонус към ефективността."
+
+msgid "comp7_light_aoe_inspire/name"
+msgstr "Въодушевление"
+
+msgid "comp7_light_berserk/descr/active"
+msgstr "За {colorTagOpen}%(duration)s сек {colorTagClose} времето за презареждане на оръдието се намалява с {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}. Освен това разсейката на оръдието след стрелба, по време на движение и по време на движение на корпуса и купола се намалява с {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nТаймерът ще се нулира, когато причините повреда чрез таран или стрелба от разстояние под {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_light_berserk/name"
+msgstr "Ярост"
+
+msgid "comp7_light_concentration/descr/active"
+msgstr "За {colorTagOpen}%(duration)s сек{colorTagClose}, времето за прицелване и разсейката на оръдието по време на движение и по време на въртене на корпуса и купола се намалява с {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nДокато това ролево умение е активно, времето за презареждане между изстрелите се намалява с {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s  сек{colorTagClose}."
+
+msgid "comp7_light_concentration/name"
+msgstr "Фокус върху целта"
+
+msgid "comp7_light_fast_recharge/descr/active"
+msgstr "• За система за презареждане с касети:\nОставащото време за презареждане на пълнителя се намалява с: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n• За система за автоматично презареждане:\nВсички изстреляни снаряди в текущия цикъл ще бъдат презаредени: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\nУмението може да се активира само по време на процеса на презареждане.\n\n• За термичен контрол на прегряването (Автоматично оръдие):\nЗагряването на оръдието се намалява с {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose} от възможния си максимум.\n\nУмението може да се активира само ако оръдието е загрято."
+
+msgid "comp7_light_fast_recharge/name"
+msgstr "Ловкост"
+
+msgid "comp7_light_hunter/descr/active"
+msgstr "Нулира броя на вражеските машини, повредени от изстрели.\n\nЗа {colorTagOpen}%(duration)s сек{colorTagClose}, вашата машина ще възстанови {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} точки живот за всяка вражеска машина, повредена от изстрел в момента на активация."
+
+msgid "comp7_light_hunter/descr/passive"
+msgstr "Времето за презареждане на оръдието се намалява с {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose} за всяка вражеска машина, повредена от изстрел."
+
+msgid "comp7_light_hunter/name"
+msgstr "Ловец на глави"
+
+msgid "comp7_light_juggernaut/descr/active"
+msgstr "За {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s сек{colorTagClose}:\n• Входящите поражения са намалени с {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• Максималната скорост напред се увеличава с {colorTagOpen}%(fwMaxSpeedBonus)s km/h{colorTagClose}\n• Максималната скорост на заден ход се увеличава с {colorTagOpen}%(bkMaxSpeedBonus)s km/h{colorTagClose}\n• Мощността на двигателя се увеличава с {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• Пораженията от таран по вражески машини се увеличават с {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\nКогато това ролево умение е активно, веригите ви ще бъдат унищожени с един изстрел."
+
+msgid "comp7_light_juggernaut/name"
+msgstr "Непреодолима сила"
+
+msgid "comp7_light_march/descr/active"
+msgstr "За следващите {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s сек{colorTagClose}, мощността на двигателя на вашата машина ще се увеличи с {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, максималната й предна скорост ще се увеличи с {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h и стойността на маскировката й ще се увеличи с {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}."
+
+msgid "comp7_light_march/name"
+msgstr "Марш на скок"
+
+msgid "comp7_light_recon/descr/active"
+msgstr "Разузнавателен самолет ще прелети над избраната зона в рамките на {colorTagOpen}%(delay)s сек{colorTagClose}. Вражески машини, открити в радиус от {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} остават открити за {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;сек{colorTagClose}. Ще се покаже отделна икона за играч, открит от това умение със забавяне от {colorTagOpen}%(lampDelay)s сек{colorTagClose}.\n\nТова умение става достъпно за използване {colorTagOpen}%(startupDelay)s сек{colorTagClose} след началото на битката."
+
+msgid "comp7_light_recon/name"
+msgstr "Разузнавателен полет"
+
+msgid "comp7_light_redline/descr/active"
+msgstr "Избраната зона ще бъде атакувана от артилерийски залп в рамките на {colorTagOpen}%(delay)s сек{colorTagClose}.\n\nЦелите, повредени в радиус от {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} ще получат {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} точки поражения и ще бъдат зашеметени за {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s сек{colorTagClose}."
+
+msgid "comp7_light_redline/name"
+msgstr "Огнева поддръжка"
+
+msgid "comp7_light_risky_attack/descr/active"
+msgstr "Ускорение\n\nЗа {colorTagOpen}%(duration)s сек{colorTagClose}, мощността на двигателя се повишава с {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, максималната скорост напред се повишава с {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h, а максималната скорост назад се повишава с {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/h.\n\nВъзстановяване\n\nЗа {colorTagOpen}%(healDuration)s сек{colorTagClose}, машината ви възстановява {colorTagOpen}%(baseHeal)s{colorTagClose} точки живот {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose} от точките живот, загубени, докато \"Ускорение\" е било активно."
+
+msgid "comp7_light_risky_attack/name"
+msgstr "Второ дихание"
+
+msgid "comp7_light_role_skill/descr/startLevel"
+msgstr " \n\nВ началото на битката нивото на заряд на ролевото умение е{colorTagOpen} %(startLevel)s{colorTagClose}."
+
+msgid "comp7_light_sniper/descr/active"
+msgstr "За {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s сек{colorTagClose} разсейката на 100 m е равна на {colorTagOpen}%(dispersionFactor)s m{colorTagClose}.\n\n Ако машината ви не е била забелязана в момента на изстрел, пораженията, причинени от снаряда ви, ще се увеличат с {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}. \n\nТаймерът ще бъде нулиран за поражения, причинени от стрелба от разстояние над {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_light_sniper/name"
+msgstr "В десетката"
+
+msgid "comp7_light_sure_shot/descr/active"
+msgstr "За {colorTagOpen}%(duration)s сек{colorTagClose}, разсейката на оръдието по време на движение и по време на въртене на корпуса и купола се намалява с {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nДокато това умение е активно, пораженията от стрелба намаляват времето за презареждане на оръдието с {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose} от процента, с който са намалени точките живот на вражеската машина.\n\nУнищожаването на вражеска машина намалява времето за презареждане на оръдието с {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}."
+
+msgid "comp7_light_sure_shot/name"
+msgstr "Чист изстрел"

@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Vehicul obținut"
+
+msgid "awardView/end"
+msgstr "EVENIMENT ÎNCHEIAT"
+
+msgid "awardView/info"
+msgstr "Numărul stilului"
+
+msgid "awardView/toHangar"
+msgstr "Afișează în Garaj"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) cu stil numerotat"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "VEHICUL OBȚINUT"
+
+msgid "awardView/vehicleTitle"
+msgstr "VEHICUL OBȚINUT"
+
+msgid "commonTexts/aboutButton"
+msgstr "DESPRE EVENIMENT"
+
+msgid "commonTexts/closeBtn"
+msgstr "ÎNCHIDE"
+
+msgid "commonTexts/eventTitle"
+msgstr "MAGAZINUL DE ASAMBLARE"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Anulează"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Cheltuiește"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Nu mai sunt vehicule cu stil numerotat. Vei primi un %(vehicleName)s fără număr.\nEști sigur că vrei să cheltuiești resursele?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "Vei primi %(vehicleName)s fără număr"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Înapoi la Garaj"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Toate resursele îți vor fi înapoiate în curând."
+
+msgid "confirm/NoVehicles/title"
+msgstr "Vai, n-au mai rămas vehicule"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Anulează"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Cheltuiește"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Progres după cheltuire: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Cheltuiești resursele?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Înapoiază resursele"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Toate resursele cheltuite îți vor fi înapoiate în cont, iar progresul tău în asamblare va fi resetat. Atât timp cât evenimentul este activ, vei putea cheltui din nou resurse pentru a obține un vehicul."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Returnez toate resursele cheltuite?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Toate resursele cheltuite îți vor fi înapoiate în cont, iar progresul asamblării va fi resetat. %(vehicleName) va fi selectat, putând cheltui resurse pentru a-l obține."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Returnez toate resursele și îl selectez pe %(vehicleName)?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Selectează un vehicul"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "Poți cumpăra ambele vehicule pe perioada evenimentului."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "Pe perioada evenimentului, vei putea cumpăra un pachet conținând un vehicul cu un stil 3D numerotat."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "Primii %(styleTanksCount) jucători vor primi un vehicul cu stil 3D numerotat,{{@ class $br}}{{/}}apoi %(withoutStyleTanksCount) vehicule vor fi livrate fără stil 3D numerotat."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "EVENIMENT ÎNCHEIAT"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "VEHICULE OBȚINUTE"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "VEHICUL OBȚINUT"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Vehicule rămase"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Acest vehicul există deja în Garaj"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Vehicul obținut"
+
+msgid "eventInfo/tanksOver"
+msgstr "NU AU MAI RĂMAS"
+
+msgid "eventInfo/top/styleText"
+msgstr "Cu un număr"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Vehicule cu numere rămase"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "Livrarea a %(regularRewardVehiclesCount) vehicule cu configurație standard va începe\ndupă ce nu mai sunt vehicule numerotate."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "Cu configurație standard"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Vehicule rămase"
+
+msgid "mainView/affirmative/button"
+msgstr "Recepționat"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "Spre returnarea resurselor"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Resurse strânse:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Resurse strânse pentru:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Înapoi la Garaj"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Selectează resurse"
+
+msgid "mainView/footer/description/text"
+msgstr "Dacă nu au mai rămas vehicule, toate resursele cheltuite vor fi înapoiate."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "Tipul tău de cont nu poate participa la eveniment."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Nu poți participa"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Poți cumpăra ambele vehicule, însă poți investi resurse într-unul singur în orice moment dat."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Selectează un vehicul și investește resursele necesare pentru a-l asambla, grăbește-te însă!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Grăbește-te să cheltuiești resursele necesare pentru asamblare și ia-l pe %(vehicleName)!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Toate resursele îți vor fi înapoiate în curând."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "Vai, n-au mai rămas vehicule"
+
+msgid "mainView/navbar/backBtn"
+msgstr "SPRE MAGAZINUL DE ASAMBLARE"
+
+msgid "mainView/navbar/title"
+msgstr "MAGAZINUL DE ASAMBLARE"
+
+msgid "mainView/preview/label"
+msgstr "Previzualizare"
+
+msgid "mainView/timer/lastUntil"
+msgstr "Până la"
+
+msgid "mainView/timer/leftTime"
+msgstr "Timp rămas:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Închide"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Cheltuiește resurse"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Datele sunt momentan indisponibile"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Nu au mai rămas vehicule"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Vehicule cu numere rămase: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Vehicule rămase: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Universal"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Resurse maxime %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "Maxim %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Resurse strânse %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Fragmente de proiect"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Monede"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "STRÂNGEREA DE RESURSE"
+
+msgid "tankPreview/button"
+msgstr "Selectează resurse"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "Pe perioada evenimentului, vei putea cumpăra un pachet conținând un vehicul cu un stil 3D numerotat."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "Primii %(topPlayers) jucători vor primi un vehicul cu stil 3D numerotat,\napoi %(basePlayers) vehicule vor fi livrate fără stil 3D numerotat."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "Poți cumpăra ambele vehicule pe perioada evenimentului."
+
+msgid "tankPreview/title"
+msgstr "Strânge și cheltuiește 100% din resursele necesare și obține-l pe %(vehicleInfo)!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Poți afișa resursele cheltuite în orice moment și, la nevoie, să le înapoiezi în cont dând clic pe butonul Returnează resurse.\nProgresul în asamblare va fi resetat, dar vei putea cheltui din nou aceste resurse sau altele pentru a obține un vehicul."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Resursele se înapoiază"
+
+msgid "tooltips/counter/error/text"
+msgstr "Datele sunt momentan indisponibile.\nLucrăm pentru a rezolva problema."
+
+msgid "tooltips/counter/warning/text"
+msgstr "Numărul este afișat cu întârziere și poate diferi față de numărul actual de vehicule."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Cheltuiește resurse și obține-le pe %(vehicleName1) și pe %(vehicleName2). Cantitatea de vehicule este limitată."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Cheltuiește resurse și obține-l pe %(vehicleName) cu stil 3D numerotat. Cantitatea de vehicule este limitată."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Disponibilitate: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s - %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Disponibilitate timp de %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Disponibilitate în:%(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "Magazinul de Asamblare"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Clic pentru a afla mai multe despre eveniment"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Alege un vehicul și investește în acesta.\nDacă ai investit deja resurse în alt vehicul, acestea îți vor fi înapoiate în cont."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Timp rămas: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "Pentru a asambla un vehicul, cheltuiește 100% din resursele necesare. Rația între diferitele tipuri de resurse poate fi modificată."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "Dacă nu au mai rămas vehicule, toate resursele cheltuite vor fi înapoiate."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Selectate"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Cheltuite"
+
+msgid "tooltips/progressbar/title"
+msgstr "STRÂNGEREA DE RESURSE"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "Cheltuirea de resurse este momentan indisponibilă. Încearcă din nou mai târziu."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Fragmente de universale și naționale."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Fragmente de proiect"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Se acordă pentru acțiuni active în luptă. Se poate cumpăra și contra bani adevărați."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Monede"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Cheltuit:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "Numărul maxim cheltuibil din această resursă: %(maxAmount)d."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Ai strâns numărul necesar de resurse pentru a obține un vehicul. Poți elimina un tip de resursă și alege un altul."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Resurse strânse"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "Acesta este un vehicul unic cu număr propriu și modificare vizuală specială."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "Numărul este afișat pe ambele părți ale tunului și în spatele carenei. Numerele de pe vehicule sunt limitate și nu se repetă."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "Caracteristicile distinctive ale vehiculului tău pot fi ascunse. Elimină stilul 3D numerotat din ecranul Personalizare."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Vehicul numerotat"

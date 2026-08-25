@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Přesto vstoupit do bitvy"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Vybavit!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Taktická zařízení nejsou kompletní"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "Vámi vybranému vozidlu chybí jedno nebo více taktických zařízení. To může výrazně ovlivnit váš výkon v bitvě. Přesto vstoupit do bitvy?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Můžete si upravit výchozí předvolby klávesových zkratek pro granáty a taktická zařízení.\nTato změna se týká pouze bitev události a nemá vliv na jiné režimy.\nJednotlivé klávesové zkratky můžete stále upravovat v nabídce Menu – Nastavení – Ovládání (v části „Spotřební doplňky)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Změna předvoleb klávesových zkratek pro spotřební doplňky"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Dokončete tuto misi a získejte jedinečný odznak „Poslední vzdor: Operace Pandora“:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Mise „Epický úspěch“"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Po vyzkoumání snižuje {EDCB9E_Start}cenu Miria{EDCB9E_End} všech taktických zařízení o {EDCB9E_Start}%(ability_cost_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Efektivita Miria"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Po vyzkoumání zvyšuje {EDCB9E_Start}dobu trvání efektu taktických zařízení{EDCB9E_End} o {EDCB9E_Start}%(ability_duration_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Doba trvání efektu zařízení"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Po vyzkoumání zvyšuje {EDCB9E_Start}poloměr efektu taktických zařízení{EDCB9E_End} o {EDCB9E_Start}%(ability_radius_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Poloměr efektu zařízení"
+
+msgid "booster/booster_heal/description"
+msgstr "Po vyzkoumání zvyšuje všechny {EDCB9E_Start}efekty léčení{EDCB9E_End} aplikované na vozidlo o {EDCB9E_Start}%(heal_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Efekty léčení"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Po vyzkoumání zvyšuje hodnotu {EDCB9E_Start}poškození přeneseného obelisky{EDCB9E_End} na nepřátelská vozidla o {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Poškození přenesené obeliskem"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Po vyzkoumání zvyšuje {EDCB9E_Start}poloměr sebrání Miria{EDCB9E_End} od nepřátel o {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Poloměr sebrání Miria"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Po vyzkoumání zvyšuje {EDCB9E_Start}počet sebraného Miria{EDCB9E_End} ze zničených nepřátelských vozidel o {EDCB9E_Start}%(pick_up_souls_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Sbírání Miria"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Po vyzkoumání zvyšuje {EDCB9E_Start}množství Miria{EDCB9E_End} získaného za zničení vlny o {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Mirium za vlnu"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Po vyzkoumání zvyšuje {EDCB9E_Start}počet Miria{EDCB9E_End} obnoveného při znovuobjevení se o {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Mirium při znovuobjevení se"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Při vyzkoumání zvyšuje {EDCB9E_Start}maximální kapacitu Miria vozidla{EDCB9E_End} o {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Kapacita Miria"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "BALÍČEK „OBRÁNCE“"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Klíče zakoupeny"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Možnost získat 5× ZK počínaje druhým vítězstvím dne s libovolným vozidlem."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Mise na 5× ZK získané v bitvě"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Nastavte si zobrazení vozidel podle jejich typu, národa a ostatních parametrů."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Filtrovat podle parametrů"
+
+msgid "common/back"
+msgstr "ZPĚT"
+
+msgid "common/close"
+msgstr "ZAVŘÍT"
+
+msgid "common/modifierInline"
+msgstr "{value}x"
+
+msgid "common/modifierInlineTimes"
+msgstr "{value}×"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "NA AKCI"
+
+msgid "common/toRewardPath"
+msgstr "NA POSTUP"
+
+msgid "common/yes"
+msgstr "Potvrzuji!"
+
+msgid "difficult/daily"
+msgstr "DENNÍ MISE NA KLÍČE ODEMČENA"
+
+msgid "difficult/disabled/body"
+msgstr "Jste v četě. Úroveň obtížnosti může změnit pouze velitel."
+
+msgid "difficult/disabled/header"
+msgstr "Změna obtížnosti není dostupná"
+
+msgid "difficult/level_1"
+msgstr "Běžná"
+
+msgid "difficult/level_2"
+msgstr "Pokročilá"
+
+msgid "difficult/level_3"
+msgstr "Brutální"
+
+msgid "difficult/new"
+msgstr "NOVÁ"
+
+msgid "difficult/searching/body"
+msgstr "Nedostupné během vyhledávání."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Nepřátelé mají nižší výdrž a slabší pancíř. Standardní množství dat za bitvu."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Nepřátelé mají silnější pancíř. Počet dat za bitvu zvýšen o {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Je zde více nepřátel se silnějším pancířem. Počet dat za bitvu zvýšen o {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Odměny za první zničení poslední vlny:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Běžná obtížnost"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Pokročilá obtížnost"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Brutální obtížnost"
+
+msgid "difficult/tooltip/locked"
+msgstr "Obtížnost uzamčena"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Pro odemčení této úrovně obtížnosti dokončete úroveň obtížnosti „Běžná“."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Pro odemčení této úrovně obtížnosti dokončete úroveň obtížnosti „Pokročilá“."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Dostupná obtížnost"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Vybraná obtížnost"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Vln zničeno: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "BĚŽNÁ"
+
+msgid "difficult/uppercase/level_2"
+msgstr "POKROČILÁ"
+
+msgid "difficult/uppercase/level_3"
+msgstr "BRUTÁLNÍ"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Nepřátelé mají silnější pancíř. Více kreditů a {{modifier}}× více dat za bitvu."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Více nepřátel se silnějším pancířem. Více kreditů a {{modifier}}× více dat za bitvu."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Bojujte a porážejte vlny nepřátel a ukažte své dovednosti dosažením samého vrcholu žebříčku. Čekají na vás jedinečné odměny a ještě mnohem víc."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "ÚROVEŇ OBTÍŽNOSTI: POKROČILÁ"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "ÚROVEŇ OBTÍŽNOSTI: BRUTÁLNÍ"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "REŽIM POSLEDNÍ VZDOR"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "POKROČILÁ"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "BRUTÁLNÍ"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "POSLEDNÍ VZDOR"
+
+msgid "difficultyWindow/rewards"
+msgstr "Odměny za splnění:"
+
+msgid "difficultyWindow/title"
+msgstr "K DISPOZICI"
+
+msgid "hangar/exit"
+msgstr "OPUSTIT AKCI"
+
+msgid "hangar/narration"
+msgstr "Příběh"
+
+msgid "hangar/tooltip/about"
+msgstr "Zjistěte víc o akci „Poslední vzdor: Terra Nord“."
+
+msgid "hangar/tooltip/narration"
+msgstr "Zjistěte víc o příběhu akce."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "TAKTICKÁ ZAŘÍZENÍ"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "VÝBAVA"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Poslední vzdor"
+
+msgid "iconButton/comparison/default"
+msgstr "Porovnání vozidel"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Porovnání vozidel není dostupné"
+
+msgid "iconButton/preview/default"
+msgstr "Náhled vozidla"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Náhled vozidla není dostupný"
+
+msgid "keyCard/name"
+msgstr "Dešifrovací klíče"
+
+msgid "meta/btn/decrypt"
+msgstr "DEŠIFROVAT"
+
+msgid "meta/btn/skip"
+msgstr "PŘESKOČIT"
+
+msgid "meta/btn/view"
+msgstr "ZHLÉDNOUT"
+
+msgid "meta/receive/description"
+msgstr "Nasbírejte %(keys) / %(decrypt) %(icon) \npro dešifrování této nahrávky"
+
+msgid "metaIntro/description/fight"
+msgstr "Bojujte v bitvách akce a získejte data, která vám umožní pokročit postupem."
+
+msgid "metaIntro/description/progress"
+msgstr "Sbírejte data pro výzkum vylepšení vozidel a postavte se větším výzvám."
+
+msgid "metaIntro/description/reward"
+msgstr "Dokončete fáze postupu a získejte speciální odměny akce. Pro více podrobností si prohlédněte cestu odměn."
+
+msgid "metaIntro/header/fight"
+msgstr "Bitvy akce"
+
+msgid "metaIntro/header/progress"
+msgstr "Vylepšení"
+
+msgid "metaIntro/header/reward"
+msgstr "Jedinečné odměny"
+
+msgid "metaIntro/title"
+msgstr "POSTUP"
+
+msgid "missionWidget/complete"
+msgstr "Mise dokončena.\nVraťte se zítra."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Pro získání odměny splňte aktuální denní misi, která je k dispozici každých 24 hodin. Dnešní mise:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Denní mise"
+
+msgid "narration/actions/voiceover"
+msgstr "Dabing"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}PŘÍSNĚ TAJNÉ{{/}}{{titleParagraph}}{{@ class $highlightText}}SEKTOR: N-07 (OCHRANNÝ PÁS „AURORA“){{/}}{{pargraphStart}}Naše předpověď se naplnila. Staniční pozorovatelé zaznamenali přibližování anomálie již 11 dní před událostí. Poprvé jsme ji viděli přicházet.{{pargraphStart}}V období klidu před bouří byla standardizována výroba komplexů ATLAS. Nové moduly se montují rychleji a kalibrují se s větší přesností. Provedli jsme výcvik, nacvičili jsme formace a připravili záložní oddíly. Plná pohotovost.{{pargraphStart}}Ale anomálie měla své plány.{{pargraphStart}}Trychtýř se neotevřel v předpokládaném sektoru. Objevil se tady, v odlehlé severní oblasti, daleko od rozmístěné infrastruktury. Není jasné, proč byla zvolena právě tato lokalita. Žádný z modelů na tuto oblast nepoukazoval. Okamžitě bylo zahájeno nouzové přesunutí sil, ale terén a vzdálenost nám nepřejí. Některá vozidla a jednotky dorazí se zpožděním.{{pargraphStart}}Každý komplex ATLAS, který se nám podařilo dodat, je dnes nepostradatelný.{{pargraphStart}}Tentokrát jsme byli na boj připraveni. Jenže jinde.{{pargraphStart}}PODPIS: KURÁTOR (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Analytická zpráva 27/C „VÝBĚR MÍSTA INVAZE“{{/}}{{titleParagraph}}Pro interní použití. Razítko „Omezený přístup“.{{pargraphStart}}Položím otázku, na kterou bych měl odpovědět, ale nedokážu: Proč právě tady?{{pargraphStart}}Tento region nemá pro trychtýř žádný strategický význam. Nic tu není. Žádná infrastruktura, žádná osídlení. Na ostrově je jen nefunkční vojenská základna. Echo tanky nemohou překonat moře. Proč tedy dobývat místo, ze kterého nemohou útočit?{{pargraphStart}}Požádal jsem o kompletní historii činnosti tohoto regionu. Odpověď byla značně cenzurována. Celé části byly začerněny. Druhá žádost mi byla vrácena s poznámkou „přístup omezen na základě rozhodnutí {{@ class $highlightSecondaryText}}[ÚDAJE BYLY ODSTRANĚNY]{{/}}.“ Mně, vedoucímu výzkumného oddělení, jehož doporučení určují obrannou strategii tohoto sektoru, jsou odpírány informace o tomto území!{{pargraphStart}}Z terénních údajů mohu vyvodit následující: chování trychtýře neodpovídá tomu, co jsme pozorovali v sektoru R-22. Objevily se nové typy echo tanků, s nimiž jsme se dosud nesetkali. Svou funkcí odpovídají našim stíhačům tanků s dlouhým dostřelem a v tomto terénu jsou mimořádně účinné. Nepřítel se poučil z naší taktiky a přijal protiopatření. Nyní je řada na nás, abychom se přizpůsobili.{{pargraphStart}}Možná to místo prostě potřebuje. Nebo možná to, co se pod ním skrývá.{{pargraphStart}}Nevím. A znepokojuje mě, že to někdo ví, ale nechce nám to říct.{{pargraphStart}}PODPIS: KURÁTOR (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}OSOBNÍ ZÁZNAM KURÁTORA{{/}}{{pargraphStart}}Zrevidoval jsem své vlastní hypotézy. Všechny tři.{{pargraphStart}}  1. Anomálie se nás snaží zničit.{{pargraphStart}}  2. Anomálie experimentuje. Zkoumá naše taktiky, studuje naše reakce, přizpůsobuje se a učí se.{{pargraphStart}}  3. Anomálie trénuje. Každá vlna je nácvikem nové taktiky; každá bitva je výcvikem v polních podmínkách.{{pargraphStart}}Všechny tři hypotézy vycházejí z předpokladu, že jsme terčem této invaze.{{pargraphStart}}Ale co když tomu tak není?{{pargraphStart}}Co když anomálie dělá něco jiného a my jí prostě jen stojíme v cestě? Jako mraveniště, které zaplaví voda při stavbě silnice. Stavitel s mravenci nevede válku. Prostě si jich ani nevšimne.{{pargraphStart}}Můžete zastavit nepřítele, který vás chce zničit. Můžete s ním vyjednávat. Ale nemůžete zastrašit něco, co si vaší existence ani nevšímá; nemůžete to přelstít. Nedá se to zastavit, protože jste nikdy nebyli součástí jeho výpočtů.{{pargraphStart}}Myslím, že jsme si kladli špatnou otázku. Neměli bychom se ptát, proč na nás anomálie útočí, ale jestli si nás vůbec všímá.{{pargraphStart}}PODPIS: KURÁTOR (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}ZÁVĚREČNÁ ZPRÁVA{{/}}{{titleParagraph}}{{@ class $highlightText}}STAV: ODTAJNĚNO (ČÁSTEČNĚ){{/}}{{pargraphStart}}Ve 03:47 se trychtýř zhroutil. Aktivita anomálie ustala. Sektor je čistý.{{pargraphStart}}V posledních vteřinách před kolapsem zaznamenaly měřicí přístroje ATLASu energetický výboj, který překonal všechny dosud naměřené hodnoty. Posádky pozorovaly krátkodobý fyzikální jev uprostřed anomálie, který trval nanejvýš 12 sekund. Poté se trychtýř uzavřel.{{pargraphStart}}Oficiální prohlášení: Incident je za námi. Území se podařilo ubránit. Karanténa v tomto sektoru byla zrušena.{{pargraphStart}}{{@ class $highlightText}}OSOBNÍ POZNÁMKA KURÁTORA (Pouze pro speciální zálohy){{/}}{{pargraphStart}}Nevyhráli jsme. Anomálie skončila.{{pargraphStart}}Nešlo o invazi. Byla to jen zástěrka, ochranný perimetr kolem toho, co se objevilo uprostřed trychtýře několik vteřin před jeho zhroucením.{{pargraphStart}}Najednou se objevily desítky obelisků. Stále nevíme, co tam dělaly. ATLAS vše zaznamenal, ale vyhodnocení bude nějakou dobu trvat. Jedno však víme téměř s jistotou: tato anomálie dokončila nějaký proces.{{pargraphStart}}Ať už to dělalo cokoli, musíme se připravit na další útok. Máme teď dostatek údajů. Naši inženýři už záznamy procházejí a upřímně řečeno, ještě nikdy jsem je neviděl tak nadšené. Myslí si, že můžeme naše vozidla výrazně posílit. Musíme to stihnout, než se trychtýř vrátí.{{pargraphStart}}Nemohu přestat myslet na jednu věc: když se to stalo tady a trvalo to tak krátkou dobu, kolikrát se to už stalo předtím? Na místech, kde nebyl žádný ATLAS, kde to nikdo neviděl...{{pargraphStart}}PODPIS: KURÁTOR (PROJEKT M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Byli jsme připraveni"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Proč tady?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. Špatná otázka"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Skončilo to"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Dokončete úroveň obtížnosti „Běžná“ a přejděte na další část příběhu."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Dokončete úroveň obtížnosti „Pokročilá“ a přejděte na další část příběhu."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Dokončete úroveň obtížnosti „Brutální“ a přejděte na závěrečnou část příběhu."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Další příběh"
+
+msgid "preBattle/leave"
+msgstr "Opustit bitvu"
+
+msgid "preBattle/searching"
+msgstr "HLEDÁNÍ SPOJENCŮ..."
+
+msgid "preBattle/tip"
+msgstr "Trvá příliš dlouho najít operační jednotku? Zkuste změnit úroveň obtížnosti."
+
+msgid "preBattle/uppercase/leave"
+msgstr "OPUSTIT BITVU"
+
+msgid "promoWindow/header"
+msgstr "HRAJTE POSLEDNÍ VZDOR"
+
+msgid "promoWindow/subheader"
+msgstr "Od {dateRange} objevte novou kapitolu PvE herního režimu „Poslední vzdor“.\nZískejte sadu tematických {cream_open}3D doplňků{cream_close}, experimentální vybavení a další exkluzivní odměny."
+
+msgid "questCard/allCompleted"
+msgstr "Všechny denní mise splněny"
+
+msgid "questCard/completed"
+msgstr "Denní mise splněna.\nVraťte se zítra."
+
+msgid "reward/rest"
+msgstr "A ještě %(count)s"
+
+msgid "rewardPath/about"
+msgstr "O CÍLECH"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Zjistěte víc o postupu akce."
+
+msgid "rewardPath/boostTitle"
+msgstr "Urychlete svůj postup a získejte více dat {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Zobrazit v obchodě"
+
+msgid "rewardPath/completed"
+msgstr "Všechna data a odměny získány"
+
+msgid "rewardPath/completedTitle"
+msgstr "Navštivte obchod a objevte jedinečné tematické prvky na úpravu vzhledu"
+
+msgid "rewardPath/intro"
+msgstr "ÚVOD"
+
+msgid "rewardPath/introTooltip"
+msgstr "Zhlédněte úvodní video."
+
+msgid "rewardPath/progress"
+msgstr "Data získána ve FÁZI „{artefactIndex}“: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "POSTUP"
+
+msgid "rewardPathCard/completed"
+msgstr "Dokončeno"
+
+msgid "rewardPathCard/name"
+msgstr "Cesta odměn"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Balíčky akce"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Zrušit"
+
+msgid "squad/goToAnother/message"
+msgstr "Četa bude rozpuštěna."
+
+msgid "squad/goToAnother/submit"
+msgstr "Opustit"
+
+msgid "squad/goToAnother/title"
+msgstr "Opustit akci „Poslední vzdor: Terra Nord“?"
+
+msgid "squad/leave/cancel"
+msgstr "Zrušit"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Četa bude rozpuštěna."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Potvrzuji!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Akce „Poslední vzdor: Terra Nord“ skončila"
+
+msgid "squad/leave/message"
+msgstr "Četa bude rozpuštěna."
+
+msgid "squad/leave/submit"
+msgstr "Opustit"
+
+msgid "squad/leave/title"
+msgstr "Opustit četu Posledního vzdoru: Terra Nord?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Pokračovat"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Jste v četě a připraveni k bitvě."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Nemůžete opustit četu!"
+
+msgid "stageReward/rewards/received"
+msgstr "Také získáno:"
+
+msgid "stageReward/special/header"
+msgstr "ÚROVEŇ OBTÍŽNOSTI „BRUTÁLNÍ“ DOKONČENA!"
+
+msgid "stageReward/special/subheader"
+msgstr "Speciální odměna získána"
+
+msgid "stageReward/stage/header"
+msgstr "ODMĚNY ZÍSKÁNY"
+
+msgid "stageReward/stage/subheader"
+msgstr "Poslední vzdor: {{number}}. fáze dokončena"
+
+msgid "stageReward/stageFinal/header"
+msgstr "VŠECHNY ODMĚNY ZÍSKÁNY"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Poslední vzdor: Poslední fáze dokončena"

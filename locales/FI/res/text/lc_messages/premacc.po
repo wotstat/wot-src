@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} klaanissa"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "TILIN TILAAN"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "PALAA"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Voit korvata kartan {} kuluttua."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Näytä/piilota tämän typpiset kartat."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Aavikkokartat"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Kesäkartat"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Talvikartat"
+
+msgid "mapsBlacklist/header"
+msgstr "Estetyt kartat"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Estä epätoivottu kartta pelikierrostasi. Estä yksi kartta lisää WoT Premiumilla ja %(mapCount)s lisää WoT Plussalla. Jos jompikumpi tilaus päättyy, palaavat estetyt kartat pelikiertoon oikeanpuolimmaisesta alkaen."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Estetyt kartat"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Nämä kartat on estetty vain satunnaistaisteluista."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Voit vaihtaa estetyn kartan aina %(maxCooldownTimeStr)s välein."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Tämä ominaisuus on saatavilla tason IV ja sitä korkeamman tason vaunuille."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "Osastoissa vain sen komentajan valitsemat kartat estetään."
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Näytetyt kartat: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Näytetyt kartat: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Karttatyypit:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Peruuta"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Sulje"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "Valittu kartta korvataan {mapNameStr} -kartalla. Voit vaihtaa valintaasi {cooldownStr} kuluttua."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Minkä kartan tahdot estää?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Estä"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Valitse kartta, jonka haluat korvata"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Peruuta"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Sulje"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Voit vaihtaa valintaasi {cooldownStr} kuluttua."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Estä {mapNameStr} kartta satunnaistaisteluista?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Estä"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Estä"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Estetäänkö {mapNameStr} kartta?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Sisällytä"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Sisällytä {mapNameStr} -kartta satunnaistaisteluihin?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Voit korvata tämän kartan {cooldownStr} kuluttua."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Kartan korvaaminen ei saatavilla"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Voit korvata tämän kartan {cooldownStr} kuluttua."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Kartan korvaaminen ei saatavilla"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Ei valittu"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Klikkaa valitaksesi satunnaistaisteluista estettävä kartta."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Karttaa ei valittu"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "Estetty {mapName} -kartta voidaan korvata toisella kartalla."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Kartan korvaaminen saatavilla"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Voit kortava {mapName} -kartan {cooldownStr} kuluttua."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Kartan korvaaminen ei saatavilla"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Lisäpaikka on saatavilla vain aktiivisille WoT Premium-tileille."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Paikka ei saatavilla"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Valitse kartta alla olevalta listalta estääksesi se satunnaistaisteluista."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Karttaa ei valittu"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Valitse kartta alla olevalta listalta estääksesi se satunnaistaisteluista."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Kartan korvaaminen saatavilla"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Voit korvata tämän kartan {cooldownStr} kuluttua."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Kartan korvaaminen ei saatavilla"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "Paikka ylimääräisen kartan estämiselle on saatavilla vain aktiivisille WoT Premium-tileille."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Paikka ei saatavilla"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Peruuta"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Voit vaihtaa valintaasi {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close} kuluttua."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Vaihda"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Estä"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Estä %(mapName)s kartta satunnaistaisteluista?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "Valittu kartta korvataan {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close} -kartalla. Voit vaihtaa valintaasi %(cooldownTimeStr)s kuluttua."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Minkä kartan tahdot estää?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Tämä kartta korvataan {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close} -kartalla. Voit vaihtaa valintaasi %(cooldownTimeStr)s kuluttua."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Haluatko korvata tämän kartan?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Vanhempien työkalut on otettu käyttöön tälle tilille.\nLisätietoa vanhempien työkalujen rajoituksista {link}."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Vanhempien työkalut"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "pelin portaalissa"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Krediittivarasto"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s p"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s min"

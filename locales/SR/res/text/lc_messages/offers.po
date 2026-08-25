@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "Izaberi nagrade"
+
+msgid "banner/giftsAvailable"
+msgstr "Zalihe su dostavljene!"
+
+msgid "banner/giftsForOffer"
+msgstr "Nagrade za učešće u \"%(name)s\"."
+
+msgid "banner/selectNowOrLater"
+msgstr "Izaberi svoju nagradu sada ili kasnije u depou."
+
+msgid "banner/title"
+msgstr "Zalihe domaćeg fronta"
+
+msgid "description/rentValue/battles"
+msgstr "za borbe: %(value)s"
+
+msgid "description/rentValue/days"
+msgstr "za dane: %(value)s"
+
+msgid "description/rentValue/wins"
+msgstr "za pobede: %(value)s"
+
+msgid "giftDescription/tank/base"
+msgstr "Pored izabranog vozila, takođe ćeš dobiti %(items)s besplatno."
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}posadu{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}posadu{neutralClose} i {neutralOpen}mesto u garaži{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}mesto u garaži{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "Otkaži"
+
+msgid "giftDialog/description/newRent"
+msgstr "%(tankName)s će biti iznajmljen %(rentValue)s"
+
+msgid "giftDialog/description/noRent"
+msgstr "%(tankName)s će biti poslat u garažu"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "Iznajmljivanje %(tankName)s će biti produženo %(rentValue)s"
+
+msgid "giftDialog/submit"
+msgstr "Potvrdi"
+
+msgid "giftDialog/title/common"
+msgstr "Potvrda primanja\n\"%(name)s\""
+
+msgid "giftDialog/title/tank"
+msgstr "Primanje vozila"
+
+msgid "giftDialog/title/tankRent"
+msgstr "Iznajmljivanje vozila"
+
+msgid "giftsWindow/availableCount"
+msgstr "Dostupno: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "Dostupno do: %(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "Dostupne nagrade: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "U Garaži"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "Otvori za"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "Pregled"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value) borbi"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value) d"
+
+msgid "giftsWindow/rent/title"
+msgstr "Iznajmljianje za: %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value) pobeda"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "Preuzmi"
+
+msgid "giftsWindow/tokens"
+msgstr "Dostupno: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "Dostupni žetoni: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "Nedostupno"
+
+msgid "rewardWindow/btnLabel"
+msgstr "Potvrdno!"
+
+msgid "rewardWindow/title"
+msgstr "Nagrada je primljena"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "Preuzmi!"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "Produži iznajmljivanje!"
+
+msgid "tankPreview/description/newRent"
+msgstr "Besplatno iznamljivanje %(tankName)s za %(rentValue)s"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s sa posadom"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s sa posadom i mestom u garaži"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s i mestom u garaži"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "Produži iznamljivanje %(tankName)s za %(rentValue)s"

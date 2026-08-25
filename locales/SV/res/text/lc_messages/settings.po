@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT-översättare <noreply@wargaming.net>\nLanguage-Team: WoT-teamet <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "Antialiasing (AA)"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "Bestämmer graden av extrabehandling av tunna linjer och konturer. Minimerar aliasing-effekten.\n\n• Hög—FXAA\n• Maximal—Temporal Supersampling Antialiasing (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "Dynamisk inställning"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "Aktivera eller avaktivera automatisk inställning av upplösningen för 3D-rendering baserat på belastningen på grafikkortet.\n\nAktivering av denna inställning kan förbättra spelprestandan. Renderingsupplösningen i garaget ändras inte."
+
+msgid "EFFECTS_QUALITY"
+msgstr "Kvalitet på extraeffekter"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "Bestämmer bildkvalitén på gnistor från rikoschetter, explosioner, rök och andra visuella effekter. \n\nReducering av värdet på denna parameter kan förbättra prestandan."
+
+msgid "FAR_PLANE"
+msgstr "Renderingsavstånd"
+
+msgid "FAR_PLANE/description"
+msgstr "Bestämmer renderingsavståndet för rendering av konturobjekt, byggnader, fiendevagnar och andra objekt."
+
+msgid "FLORA_QUALITY"
+msgstr "Grästäthet"
+
+msgid "FLORA_QUALITY/description"
+msgstr "Bestämmer tätheten och visningskvaliteten på gräs och buskar i arkadläge och prickskytteläge."
+
+msgid "HAVOK_ENABLED"
+msgstr "Förbättrade förstörelseeffekter"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "AV"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "PÅ"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "Aktiverar en mer realistisk modell av förstörelse av föremål i spelet.\n\nAtt stänga av detta alternativ kan förbättra spelprestandan."
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "Inställningen ändras i nästa strid om den avaktiveras i nuvarande strid."
+
+msgid "LANGUAGE_CODE"
+msgstr "sv"
+
+msgid "LIGHTING_QUALITY"
+msgstr "Ljussättningskvalitet"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "Bestämmer kvalitén och visningsmetod för solstrålar och överstrålningseffekter. \n\nÖkning av värdet på denna parameter kan avsevärt öka belastningen på grafikkortet."
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "Rörelseoskärpa"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "Bestämmer kvaliteten på rörelseoskärpan som uppkommer när vagnar eller kameran rör sig."
+
+msgid "MSAA_QUALITY"
+msgstr "Antialiasing (AA)"
+
+msgid "MSAA_QUALITY/description"
+msgstr "Bestämmer graden av extrabehandling av tunna linjer och konturer. Minimerar aliasing-effekten.\n\n• Låg—MSAA 2x\n• Medel—MSAA 4x\n• Hög—MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "Objektdetaljnivå"
+
+msgid "OBJECT_LOD/description"
+msgstr "Bestämmer antalet objekt som visas samtidigt och deras kvalitet."
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "Efterbehandling"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "Bestämmer kvaliteten på dimma, överstrålning och andra efterbearbetningseffekter: värm- och chockvågor, färgförändringar, vinjett, kornighet m.m.\n\nReducering av värdet på denna parameter kan förbättra prestandan."
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "Grafik"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "Förbättrad: ger bättre bildkvalitet.\n\nFörenklad: ger bästa prestanda genom att förenkla eller stänga av vissa grafiska effekter."
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "Grafik:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "Förändringen kräver omstart av spelet."
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "Transparent växtlighet"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "Avgör hur nära växtlighet såsom träd och buskar visas.\n\nStängs denna parameter av blir växtlighet nära spelaren helt genomskinlig, vilket kan förbättra prestandan."
+
+msgid "SHADER_VERSION_CAP"
+msgstr "Shader-version"
+
+msgid "SHADOWS_QUALITY"
+msgstr "Skuggkvalitet"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "Bestämmer kvaliteten på dynamiska skuggor över hela renderingsavståndet.\n\nReducering av värdet på denna parameter kan avsevärt förbättra prestandan."
+
+msgid "SMOKE_ENABLED"
+msgstr "Rök"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "Extraeffekter i prickskytteläge"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "Bestämmer kvaliteten på gnistor från rikoschetter, explosioner, rök och andra realistiska effekter i prickskytteläget. \n\nReducering av värdet på denna parameter kan förbättra prestandan."
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "Visa gräs i prickskytteläge"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "Visar gräs i prickskytteläge. \n\nReducering av denna parameter kan förbättra prestandan."
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "Terrängtesselering i prickskytteläge"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Ökar kvaliteten på terrängen inom 50 meter från vagnen i prickskytteläget. Endast tillgänglig med terrängtesselering aktiverad.\n\nAtt stänga av detta alternativ kan förbättra spelprestandan."
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "Bladverkskvalitet"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "Bestämmer visningskvaliteten på bladverk och växtlighet."
+
+msgid "TERRAIN_QUALITY"
+msgstr "Terrängkvalitet"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "Bestämmer renderingskvalitén på kartreliefen.\n\nAnvänd minimal landskapsrenderingskvalitét endast i fall av dålig prestanda.\n\nReducering av den här parametern kan orsaka desykronisering av landskapsrenderingen mellan klienten och servern."
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "Tillämpning av den valda parametern kan ta lite tid."
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "Terrängtesselering"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Hårdvarudriven process som skapar nya polygoner i polygonnätet för att öka detaljrikedomen i nätet.\n\nFunktionen fungerar bara med:\n• Förbättrad grafik\n• Hög, Maximal eller Ultrahög terrängkvalitet\n•DirectX 11 installerat\n\nInställningen kan inte aktiveras med äldre versioner än DirectX 11.\n\nAtt stänga av den här inställningen kan förbättra spelets prestanda."
+
+msgid "TEXTURE_QUALITY"
+msgstr "Texturkvalitet"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "Kvaliteten på ytor i spelet, speciellt i närbild. \n\nReducering av värdet på denna parameter kan förbättra prestandan."
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "Tillämpning av den valda parametern kan ta lite tid."
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "Bandfysik"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "Avgör kvalitén på fysiksimulationen och detaljrikedomen på trasiga och fungerande band.\n\nSänka eller stänga av det här alternativet kan förbättra spelprestandan."
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "Aktivera band- och hjuleffekter"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "Visar jord, snö och vatten som skvätter bakom band och hjul. \n\nAvstängning av denna parameter kan förbättra prestandan."
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "Aktivera band- och hjulspår"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "Visar band- och hjulspår på marken.\n\nInte tillgänglig med förenklad grafik och låg dekalkvalitet."
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "Göm 3D-tillbehör i prickskytteläge"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "Gömmer tillfälligt 3D-tillbehör på vagnar i prickskytteläget.\n\nMinskar visuella störningsmoment och ökar precisionen."
+
+msgid "WATER_QUALITY"
+msgstr "Vattendragskvalitet"
+
+msgid "WATER_QUALITY/description"
+msgstr "Bestämmer renderingskvaliteten på vattenytor."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "Endast klent pansar"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "Om aktiv visar pansarmätaren bara klent pansar vid träffpunkten.\n\nSolid grön färg indikerar stor genomslagschans, medan lägre chans visas med mer genomskinlig grön färg. Färgerna kan vara annorlunda om läget för färgblindhet aktiverats."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "Markera endast klent pansar"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "Endast kraftigt pansar"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "Om aktiv visar pansarmätaren bara kraftigt pansar vid träffpunkten.\n\nSolid röd färg indikerar låg till ingen genomslagschans, medan högre chans visas med mer genomskinlig röd färg. Färgerna kan vara annorlunda om läget för färgblindhet aktiverats."
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "Markera endast kraftigt pansar"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "Allt pansar"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "Om aktiv visar pansarmätaren bara kraftigt pansar vid träffpunkten.\n\nRöd indikerar låg till ingen chans att slå igenom pansaret, grön visar hög chans medan gul visar normal chans att slå igenom. Färgerna kan vara annorlunda om läget för färgblindhet aktiverats."
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "Visa allt pansar"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "Pansarvisning"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "Aktivera när striden börjar"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "Pansarmätaren är aktiverad när striden börjar som standard. Du kan välja om den ska vara av eller på när du vill med snabbtangenten.\n\nNär den är aktiverad fungerar den bara i prickskytteläget.\n\nSpellägen som stöds:\n• Slumpvis matchade strider och lagträning;\n• Frontstrider;\n• Arkadspel;\n• Pansarstorm;\n• Vissa andra strider och evenemang. \n\nStöd för ytterligare strider och evenemang kan komma i framtiden."
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "Aktivera när striden börjar"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "Pansarmätartextur"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "Solid"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "Glest mönster"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "Tätt mönster"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "Genomskinlighet"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "Prestandavarning"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "Hög"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "Låg"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "Mellan"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "Upplösning för pansarmätaren"
+
+msgid "aim/cassette"
+msgstr "Indikatorer"
+
+msgid "aim/centralTag"
+msgstr "Centralmarkör"
+
+msgid "aim/centralTag/type0"
+msgstr "Sikte typ A-I"
+
+msgid "aim/centralTag/type1"
+msgstr "Sikte typ A-II"
+
+msgid "aim/centralTag/type10"
+msgstr "Sikte typ O-I"
+
+msgid "aim/centralTag/type11"
+msgstr "Sikte typ O-II"
+
+msgid "aim/centralTag/type12"
+msgstr "Sikte typ A-IV"
+
+msgid "aim/centralTag/type13"
+msgstr "Sikte typ A-V"
+
+msgid "aim/centralTag/type2"
+msgstr "Sikte typ A-III"
+
+msgid "aim/centralTag/type3"
+msgstr "Sikte typ V"
+
+msgid "aim/centralTag/type4"
+msgstr "Hårkors-I"
+
+msgid "aim/centralTag/type5"
+msgstr "Hårkors-II"
+
+msgid "aim/centralTag/type6"
+msgstr "Sikte typ T"
+
+msgid "aim/centralTag/type7"
+msgstr "Sikte typ I"
+
+msgid "aim/centralTag/type8"
+msgstr "Punktsikte-I"
+
+msgid "aim/centralTag/type9"
+msgstr "Punktsikte-II"
+
+msgid "aim/condition"
+msgstr "Träffpoäng"
+
+msgid "aim/gunTag"
+msgstr "Kanonmarkör"
+
+msgid "aim/gunTag/type0"
+msgstr "Sikte typ A-I (penetration)"
+
+msgid "aim/gunTag/type1"
+msgstr "Sikte typ A-II (laddning)"
+
+msgid "aim/gunTag/type10"
+msgstr "Sikte typ O-II (laddning)"
+
+msgid "aim/gunTag/type11"
+msgstr "Sikte typ O-III"
+
+msgid "aim/gunTag/type12"
+msgstr "Sikte typ A-IV (penetration)"
+
+msgid "aim/gunTag/type13"
+msgstr "Sikte typ A-V (laddning)"
+
+msgid "aim/gunTag/type14"
+msgstr "Sikte typ A-VI"
+
+msgid "aim/gunTag/type2"
+msgstr "Sikte typ A-III"
+
+msgid "aim/gunTag/type3"
+msgstr "Hårkors-I (penetration)"
+
+msgid "aim/gunTag/type4"
+msgstr "Hårkors-II (laddning)"
+
+msgid "aim/gunTag/type5"
+msgstr "Hårkors-III"
+
+msgid "aim/gunTag/type6"
+msgstr "Punktsikte-I (penetration)"
+
+msgid "aim/gunTag/type7"
+msgstr "Punktsikte-II (laddning)"
+
+msgid "aim/gunTag/type8"
+msgstr "Punktsikte-III"
+
+msgid "aim/gunTag/type9"
+msgstr "Sikte typ O-I (penetration)"
+
+msgid "aim/mixing"
+msgstr "Sikte"
+
+msgid "aim/mixing/type0"
+msgstr "Cirkel-I (indikator: fyllning) "
+
+msgid "aim/mixing/type1"
+msgstr "Cirkel-II (indikator: färg)"
+
+msgid "aim/mixing/type2"
+msgstr "Cirkel-III (utan indikator)"
+
+msgid "aim/mixing/type3"
+msgstr "Cirkel-IV (solid)"
+
+msgid "aim/mixing/type4"
+msgstr "Hårkors (indikator: färg)"
+
+msgid "aim/mixing/type5"
+msgstr "Hårkors-II"
+
+msgid "aim/mixing/type6"
+msgstr "Test"
+
+msgid "aim/net"
+msgstr "Indikator"
+
+msgid "aim/net/type0"
+msgstr "Diagonalt"
+
+msgid "aim/net/type1"
+msgstr "Horisontell"
+
+msgid "aim/net/type2"
+msgstr "Radial"
+
+msgid "aim/net/type3"
+msgstr "Streckad"
+
+msgid "aim/reloader"
+msgstr "Magasinstorlek"
+
+msgid "aim/reloaderTimer"
+msgstr "Omladdningstid"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "Växla till artillerisikte"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "Senast använda"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "Toppvy"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "Granatflygbana"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "Växla siktesläge automatiskt"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "När du scrollar med mushjulet och når ett visst zoomläge växlar siktet till \"toppvy\" eller \"granatflygbana\"."
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "Växla siktesläge automatiskt"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "Utjämnad kamerazoom"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "Visa projektilbanor"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "Visa/göm markeringar som anger om den valda granaten kan nå siktpunkten. Visar även granatens flygtid."
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "Projektilbanor"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "Visa zoomnivå"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "Visa/göm markering som visar zoomnivån för artillerisiktets kameravy."
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "Kamerapositionsindikator"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "Kamerakontroller"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "Alternativ"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "Standard"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "Med standardkontroller rör sig kameran upp, ned, vänster och höger. Med alternativa kamerakontroller rör sig kameran framåt, bakåt och roterar runt artillerivagnens position."
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "Kamerakontroller"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "Zoomindikator"
+
+msgid "alternativeVoices/labels"
+msgstr "Röstmeddelanden i strid"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Röstmeddelanden i strid"
+
+msgid "apply_button"
+msgstr "Tillämpa"
+
+msgid "autodetectButton"
+msgstr "Rekommenderad"
+
+msgid "autodetectButton/description"
+msgstr "Bestämmer de optimala bildkvalitetsinställningarna för din dator. \n\nDetta kan ta lite tid."
+
+msgid "battlecomm/enableCommendations"
+msgstr "Ta emot uppskattningar i strid"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "Visa personliga order"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "Indikera ordergivning på lagpanelen"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "Visa utgångspunkter på kartan"
+
+msgid "battlecomm/showMarkers"
+msgstr "Visa basmarkörer i slumpvis matchade strider"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "Visa fästa markörer"
+
+msgid "borderlessSize"
+msgstr "Fönster (kantfritt)"
+
+msgid "borderlessSize/description"
+msgstr "Fönster (kantfritt)"
+
+msgid "cancel_button"
+msgstr "Avbryt"
+
+msgid "chat/censorshipMessages"
+msgstr "Censurera ovårdat språk i chatten"
+
+msgid "chat/chatContactsListOnly"
+msgstr "Ta endast emot meddelanden från kontaktlistan"
+
+msgid "chat/disableBattleChat"
+msgstr "Stäng av lagchatten"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "Kom ihåg position för kamera och kanalfönster"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "Kom ihåg position för kamera och andra fönster"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "Acceptera inbjudningar från spelare i garaget"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "Ta emot klanmeddelanden"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "Godkänn vänförfrågan"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "Acceptera inbjudningar till pluton i strid"
+
+msgid "chat/removeSpam"
+msgstr "Dölj spam"
+
+msgid "chat/showDateMessage"
+msgstr "Visa datum i meddelanden"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "Meddela när användare ansluter/avbryter anslutning"
+
+msgid "chat/showTimeMessage"
+msgstr "Visa tid i meddelanden"
+
+msgid "colorCorrection"
+msgstr "Färgkorrigering"
+
+msgid "colorCorrectionBtn/label"
+msgstr "Ställ in"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "Anpassade inställningar"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "Ljusstyrka"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "Kontrast"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "Mättnad"
+
+msgid "colorSettings/tab/default"
+msgstr "Standard"
+
+msgid "colorSettings/tab/filters"
+msgstr "Förinställda filter"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "Filterintensitet"
+
+msgid "colorSettings/view/after"
+msgstr "Efter"
+
+msgid "colorSettings/view/before"
+msgstr "Före"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "STÄNG"
+
+msgid "colorSettings/view/description"
+msgstr "Välj ett av bildalternativen"
+
+msgid "colorSettings/view/header"
+msgstr "Färgkorrigering"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "Återställ"
+
+msgid "colorSettings/view/subTitle"
+msgstr "Bildkorrigeringsalternativ"
+
+msgid "cursor/ArcadeTitle"
+msgstr "Arkadläge"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "Pansarmätare"
+
+msgid "cursor/ArtyTitle"
+msgstr "Artilleri"
+
+msgid "cursor/ContourTitle"
+msgstr "Konturlinje"
+
+msgid "cursor/ServerAim"
+msgstr "Visa serverhårkors"
+
+msgid "cursor/SnipperTitle"
+msgstr "Prickskytteläge"
+
+msgid "cursor/contour/type0"
+msgstr "Standard"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "När du siktar på fiendevagnar visas dess hela konturlinje, inklusive extraelement som inte granater inte kan interagera med."
+
+msgid "cursor/contour/type1"
+msgstr "Förenklad"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "När du siktar på fiendevagnar visas en konturlinje som bara inkluderar de pansardelar som granater kan interagera med."
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "Ogenomträngligt"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "Ingen"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "Fylld"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "Streckad"
+
+msgid "cursor/contourLabel"
+msgstr "Typ av kontur"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "Potentiellt genomslag"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "Ingen"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "Fylld"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "Streckad"
+
+msgid "cursor/overlapContour"
+msgstr "Markering av hinder"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "Aktivering kan minska prestandan."
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "Markerar hinder för din granat när du siktar på en fiendevagn.\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "Markering av hinder"
+
+msgid "cursor/overlapContourLabel"
+msgstr "Markering av hinder"
+
+msgid "cursorTitle"
+msgstr "Sikte"
+
+msgid "defaultBtn"
+msgstr "Standard"
+
+msgid "defaultNamePrefix"
+msgstr "Spelare"
+
+msgid "dynamicCamera"
+msgstr "Aktivera dynamisk kamera"
+
+msgid "dynamicFov"
+msgstr "Dynamisk FoV"
+
+msgid "dynamicFov/description"
+msgstr "Dynamisk FoV låter dig välja minsta och största synfältsvinkeln för arkadsiktet.\n\nStörsta vinkel används när kameran zoomas ut från vagnen.\n\nMinsta vinkeln används när kameran är inzoomad."
+
+msgid "dynamicRenderer"
+msgstr "3D-Renderingsupplösning"
+
+msgid "dynamicRenderer/description"
+msgstr "Bestämmer kvalitén på detaljer och scener i spelet.\n\n3D-Renderingsupplösningen kan ändras i strid genom att trycka [H-skift +] och [H-skift -]. Påverkar inte gränssnittet.\n\nReducering av denna parameter kan förbättra prestandan för datorer med sämre grafikkort."
+
+msgid "edgeDetectAA"
+msgstr "Konturdetektering AA"
+
+msgid "feedBack"
+msgstr "Stridsinformation"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "Kartkant"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "Skada under chock"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "Baserövringspoäng"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "Återställda baserövringspoäng"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "Blockerad skada"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "Brända fiendevagnar"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "Kritisk skada"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "Upptäcka fiendevagnar"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "Skada under observation"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "Skada från granat"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "Förstörd fiendevagn"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "Skada från rammning"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "Band förstört"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "Händelse"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "Kritisk skada"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "Åsamka skada"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "Visa i strid"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "Vagnsinformation"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "Skada av kollision"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "Alla situationsförmågor"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "De tre senaste händelserna\nvisas i strid"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "Stridshändelser"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "Meddelanden"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "Evenemang"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "Besättningsförmågor"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "Mottagen skada"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "Stridsprestation"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "Mottagen skada"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "Att gömma kartkanten kan orsaka förvirring i strid."
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "Med Alt"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "Alltid markerad"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "Markera inte"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "Närhet"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "Extra markeringar"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "Prickad linje"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "Visa inte"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "Kant-typ"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "Vägg"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "Eldriktningsindikator"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "Vådabeskjutning"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "Träffpoäng"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "Blockerad skada"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "Kritiska skador\npå din vagn"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "x3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "Mottagen skada"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "Modulskada"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "Information"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "Visa animation"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "Träffpoäng"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "Dynamiska indikatorer"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "Vagnsinformation"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "Visa i strid"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "Allt"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "Vådabeskjutning"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "Kritiska träffar"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "Utom kritiska skador"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "Avancerat"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "Standard"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "Typ"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "Log"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "Åsamkad då du chockat besättningen"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "Blockerad av pansar"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "Skada under observation"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "Åsamkad skada"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "Visa alltid"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Tryck Alt för att visa"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "Visa inte"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "Detaljerad skada"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "Alla händelser i botten"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "Mottagen skada i toppen"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "Riktning för händelsen"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "Alla händelser"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "Typ av händelse"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "Mottagen skada"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "Stridsprestation"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "Aktivering av denna inställning är inte rekommenderat\n för skärmar med låg upplösning"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "Skadesammanfattning"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "En ruta för detaljerad information. Visar utförlig information om din effektivitet i strid."
+
+msgid "feedback/tab/eventsInfo"
+msgstr "Stridshändelser"
+
+msgid "feedback/tab/questsProgress"
+msgstr "Stridsresultat & uppdrag"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "Stridspoäng"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "Uppdragsinformation"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "Visar vagnsikoner efter klass"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "Visar träffpoängsmätare\nför laget"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "Visar träffpoängsskillnad\nför laget"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "Visar träffpoäng för laget"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "Visa alla"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "Visa endast framsteg"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "Alternativ"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "Visa inte"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "Standard"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "Visa uppdrag"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "Synfält (FoV)"
+
+msgid "fov/description"
+msgstr "Kamerans synfält.\n\n95° är normalt synfält (FoV,field of view). Ju mindre synfältet är, desto närmare ser du objekt samtidigt som det yttre synfältet minskas.\n\nPåverkar inte prestandan."
+
+msgid "game/anonymizer"
+msgstr "Anonymisera ditt användarnamn i strid"
+
+msgid "game/battleLoadingInfo"
+msgstr "Visa tips på laddningsskärmen innan strid"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "Minikarta"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "Endast text"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "Illustrerade tips"
+
+msgid "game/battlePanelSettings"
+msgstr "Stridsgränssnitt"
+
+msgid "game/carouselType"
+msgstr "Vagnspanel"
+
+msgid "game/carouselType/double"
+msgstr "Dubbelrad"
+
+msgid "game/carouselType/single"
+msgstr "Enkelrad"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "Visa statistik när du håller musen över en garageplats"
+
+msgid "game/commanderCamEnabled"
+msgstr "Aktivera taktisk vy"
+
+msgid "game/customizationDisplayType"
+msgstr "Visning av utseendeelement i strid"
+
+msgid "game/customizationDisplayType/all"
+msgstr "Historiska, icke-historiska och fiktiva"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "Historiska"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "Historiska och icke-historiska"
+
+msgid "game/displayPlatoonMembers"
+msgstr "Visa plutonmedlemmars vagnar i garaget"
+
+msgid "game/doubleCarousel/label"
+msgstr "Vagnspanel i två rader"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "Adaptiv"
+
+msgid "game/doubleCarouselType/small"
+msgstr "Minimal"
+
+msgid "game/dynamicCamera"
+msgstr "Aktivera dynamisk kamera"
+
+msgid "game/enableBattleNotifier"
+msgstr "Visa föregående stridsresultat i chatten"
+
+msgid "game/enableMortalPostEffect"
+msgstr "Aktivera eftereffekter postumt"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "Aktivera bildeffekter i prickskytteläget"
+
+msgid "game/enableRepairTimer"
+msgstr "Visa reparationstid för skadade moduler"
+
+msgid "game/enableSpeedometer"
+msgstr "Visa hastighetsmätare i hjulfordon"
+
+msgid "game/enableVoIP"
+msgstr "Röstchatt"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "Ordergivning"
+
+msgid "game/fieldset/headerChat"
+msgstr "Chatt"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "Minikarta"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "Vagnsmarkörer"
+
+msgid "game/hangarCamCheckbox"
+msgstr "Låter kamera följa muspekaren i garaget"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "Garagekameran roterar vid inaktivitet efter"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "Kamerarörelser i garaget"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "Aldrig"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 Sekunder"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 Sekunder"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 Sekunder"
+
+msgid "game/horStabilizationSnp"
+msgstr "Horisontell stabilisering i prickskytteläge"
+
+msgid "game/hullLockEnabled"
+msgstr "Lås skrovet automatiskt i prickskytteläge"
+
+msgid "game/increasedZoom/base"
+msgstr "Aktivera %(zooms)s"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " och "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "Visa serverval när spelet startas"
+
+msgid "game/minimapDrawRange"
+msgstr "Visa renderingsavstånd"
+
+msgid "game/minimapGroupTitle"
+msgstr "Minikarta"
+
+msgid "game/minimapMaxViewRange"
+msgstr "Visa maximalt siktavstånd"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "Visa cirkeln för närhetsupptäckande"
+
+msgid "game/minimapViewRange"
+msgstr "Visa siktavståndscirkeln"
+
+msgid "game/newbeeTipsTitle"
+msgstr "Tips"
+
+msgid "game/newbieBattleHints"
+msgstr "Aktivera nybörjartips i slumpvis matchade strider"
+
+msgid "game/newbiePrebattleHints"
+msgstr "Visa nybörjartips på laddningsskärmen innan strid"
+
+msgid "game/optimizeGraphics"
+msgstr "Optimera gränssnittsgrafik"
+
+msgid "game/playersPanelState/large"
+msgstr "Full lagpanel"
+
+msgid "game/playersPanelState/medium"
+msgstr "Mellanklass"
+
+msgid "game/playersPanelState/none"
+msgstr "Ingen lagpanel"
+
+msgid "game/playersPanelState/short"
+msgstr "Kort lagpanel"
+
+msgid "game/postmortemMode"
+msgstr "Postumläge"
+
+msgid "game/postmortemMode/analysis"
+msgstr "Visa ögonblicket vagnen förstördes (detaljerat)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "Visa fiendevagnen som förstörde din vagn"
+
+msgid "game/postmortemMode/self"
+msgstr "Visa din vagn"
+
+msgid "game/postmortemMode/simple"
+msgstr "Visa ögonblicket vagnen förstördes (kort)"
+
+msgid "game/ppShowLevels"
+msgstr "Visa vagnsklass"
+
+msgid "game/ppShowTypes"
+msgstr "Visa vagnstyp"
+
+msgid "game/ppStartStateLabel"
+msgstr "Typ"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "Aktivera befälhavarvy"
+
+msgid "game/replayEnabled"
+msgstr "Aktivera inspelning av strid"
+
+msgid "game/replayEnabled/all"
+msgstr "Alla"
+
+msgid "game/replayEnabled/last"
+msgstr "Förra"
+
+msgid "game/replayEnabled/none"
+msgstr "Nej"
+
+msgid "game/showArtyHitOnMap"
+msgstr "Visar träffområdet för artilleri"
+
+msgid "game/showDamageIcon"
+msgstr "Visa meddelande när du inte åsamkar skada"
+
+msgid "game/showDogTag"
+msgstr "Visa ID-bricka"
+
+msgid "game/showDogTagToKiller"
+msgstr "Visa din aktuella anpassade ID-bricka"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "Visa information om förstörda vagnar"
+
+msgid "game/showKillersDogTag"
+msgstr "Visa ID-bricka tillhörande spelaren som förstörde dig"
+
+msgid "game/showLanguageBar"
+msgstr "Visa språkpanel"
+
+msgid "game/showMarksOnGun"
+msgstr "Visa skyttemärken"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "Visa din animerade ID-bricka"
+
+msgid "game/showSectorOnMap"
+msgstr "Visa skottfält för artillerivagnar"
+
+msgid "game/showVectorOnMap"
+msgstr "Visa kamerariktningsindikator"
+
+msgid "game/showVehModelsOnMap"
+msgstr "Aktivera utökade funktioner på minikartan"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Med Alt nedtryckt"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "Alltid"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "Aldrig"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "Visa träffpoäng på minikartan"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Med Alt nedtryckt"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "Alltid"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "Aldrig"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "Visa träffpoäng i lagpanelerna"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Med Alt nedtryckt"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "Alltid"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "Aldrig"
+
+msgid "game/showVehicleIcon"
+msgstr "Visa vagnsikon"
+
+msgid "game/showVehicleLevel"
+msgstr "Visa vagnsklass"
+
+msgid "game/showVehiclesCounter"
+msgstr "Visa vagnsmarkörer på poängtavlan"
+
+msgid "game/showVictimsDogTag"
+msgstr "Visa ID-brickor tillhörande fiender du förstör"
+
+msgid "game/sniperModeByShift"
+msgstr "Begränsa prickskytteläget till Skift-tangenten"
+
+msgid "game/sniperZoom"
+msgstr "Föredragen zoomnivå för prickskytteläget"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "Senast använda"
+
+msgid "game/switchEquipment"
+msgstr "Ändra utförande medan striden laddar"
+
+msgid "game/w2gtEnable"
+msgstr "Aktivera stridszoner på minikartan"
+
+msgid "gameTitle"
+msgstr "Allmän"
+
+msgid "gameplay/devMaps"
+msgstr "Spela på kartor med slumpvisa händelser"
+
+msgid "gameplay/nations"
+msgstr "Konfrontation"
+
+msgid "gamma"
+msgstr "Gamma"
+
+msgid "gammaBtn/label"
+msgstr "Anpassa"
+
+msgid "gammaWizard/apply"
+msgstr "Tillämpa"
+
+msgid "gammaWizard/cancel"
+msgstr "Avbryt"
+
+msgid "gammaWizard/closeBtn"
+msgstr "STÄNG"
+
+msgid "gammaWizard/default"
+msgstr "Standard"
+
+msgid "gammaWizard/description"
+msgstr "Ställ in reglaget så bakgrunden och bilden har samma ljusstyrka. Det kan underlätta om du kisar med ögonen eller rör dig bort från skärmen för att sudda ut detaljerna i bilden."
+
+msgid "gammaWizard/header"
+msgstr "Gamma"
+
+msgid "gammaWizard/title"
+msgstr "Gammainställningar"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "Låter ljusstyrkan justeras i spelet, för att uppnå bästa bildkvalitet.\nAlternativet har som syfte att kompensera för effekter av grafikdrivrutiner\noch skärminställningar som påverkar spelets utseende."
+
+msgid "gammaWizard/tooltip/header"
+msgstr "Gamma"
+
+msgid "graficTitle"
+msgstr "Grafik"
+
+msgid "graphics/block/effects"
+msgstr "Effekter"
+
+msgid "graphics/block/greenery"
+msgstr "Vegetation"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "Terräng och vatten"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "Ljussättning och efterbehandling"
+
+msgid "graphics/block/main"
+msgstr "Huvudvy"
+
+msgid "graphics/tabAdvanced"
+msgstr "Avancerat"
+
+msgid "graphics/tabScreen"
+msgstr "Skärm"
+
+msgid "graphicsQuality"
+msgstr "Grafiknivå"
+
+msgid "graphicsQuality/description"
+msgstr "Bestämmer den övergripande bildkvalitén. Ändringar av denna parameter påverkar parametrarna under \"Avancerat\"-fliken. \n\nReducering av grafikkvalitén kan:\n• förbättra prestandan.\n• orsaka desynkronisering av terrängvisning mellan klient och server.\n\nAnvänd lägsta grafikkvalité endast om du har en dator med lågt prestanda."
+
+msgid "graphicsQualityHDSD"
+msgstr "Klienter"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "HD-klient installerad"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "Standardklient (SD) installerad"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "Standardklient - hela spelet utan högupplösta texturer.\n\nHD-klient - hela spelet inklusive högupplösta texturer. Kräver mer plats på hårddisken än standardklienten."
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "Klienter"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "HD-klienten innehåller hela spelet inklusive den allra högsta texturupplösningen. Kräver mer hårddiskutrymme än standardklienten.\n\nStandardklienten innehåller hela spelet, men utan den allra högsta texturupplösningen."
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "Grafikinställningarna Maximal (SD) och Ultra (SD) ger inte den högsta möjliga texturupplösningen. Den allra högsta texturupplösningen kräver att du växlar till HD-klienten i spelets startprogram."
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "Anisotropiskt 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "Anisotropiskt 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "Anisotropiskt 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "Anisotropiskt 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "Bilinjär"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "Anpassad"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "40-tals smalfilm"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "Kontrast"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "Förbättrad"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "Fjärran"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "Standard"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "Hög"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "Låg"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "Mycket Låg"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "Maximal"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "Maximal (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "Medel"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "Minimal"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "Dämpad"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "Nära"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "AV"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "AV"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "PÅ"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "Förenklad"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "Förbättrad"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "Punkt"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "Fotokromatisk"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "Slumpvis"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "Standard"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "Djup"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "Mjuka färger"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "Trilinjär"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "Ultra"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "Ultra (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "Mycket Hög"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "Mycket Hög"
+
+msgid "igbHardwareAcceleration"
+msgstr "Hårdvaruacceleration för webbläsare"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "Med denna inställning aktiverad kommer webbinnehåll renderas med hjälp av GPU:n istället för CPU:n\n\nAvaktivera den om du upplever problem med renderingen av innehåll i vissa fönster.\n\nFörändringar träder i kraft då spelets startas om."
+
+msgid "interfaceScale"
+msgstr "Gränssnittskalning"
+
+msgid "interfaceScale/attention"
+msgstr "Funktionen testas för tillfället;\npåverkar inte prestandan."
+
+msgid "interfaceScale/body"
+msgstr "Automatisk skalning av gränssnittet vid\nmaximering av spelets fönster."
+
+msgid "interfaceScale/description"
+msgstr "Atumatisk skalning av gränssnittet vid maximering av spelets fönster."
+
+msgid "interfaceScale/header"
+msgstr "Gränssnittskalning"
+
+msgid "interfaceScale/warning"
+msgstr "Funktionen testas för tillfället; påverkar inte prestandan."
+
+msgid "interfaceScaleDisabled"
+msgstr "Gränssnittskalning"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "Endast tillgänglig för 4K-skärmar."
+
+msgid "interfaceScaleDisabled/body"
+msgstr "Automatisk skalning av gränssnittet vid\nmaximering av spelets fönster."
+
+msgid "interfaceScaleDisabled/description"
+msgstr "Atumatisk skalning av gränssnittet vid maximering av spelets fönster."
+
+msgid "interfaceScaleDisabled/header"
+msgstr "Gränssnittskalning"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "Endast tillgänglig för 4K-skärmar."
+
+msgid "isColorBlind"
+msgstr "Inställning för färgblindhet"
+
+msgid "isColorBlind/description"
+msgstr "Ställer in färgspektrat för att underlätta för färgblinda."
+
+msgid "keyboard/backDraftInvert"
+msgstr "Backinvertering"
+
+msgid "keyboard/keyboard"
+msgstr "Tangentbord"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "Svar: Ja!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "Speciellt Sikte"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "Lås skrov / byt läge"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "Bakåt"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "Bakåt"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "\"Handbroms\""
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "Ner"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "Vänster"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "Höger"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "Upp"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "Avfyra en salva"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "Retirera!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "Ge eld"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "Framåt"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "Framåt"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "Överge vagnen (i frontstrider)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "Hjälp!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "Ange UPK"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "Ange aktivt mål"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "Förnödenhet 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "Förnödenhet 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "Förnödenhet 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "Förnödenhet 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "Förnödenhet 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "Förnödenhet 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "Förnödenhet 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "Förnödenhet 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "Förnödenhet 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "Förnödenhet 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "Vänster"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "Automatiskt Sikte"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "Inaktivera Automatiskt Sikte"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "Svar: Nej!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "Tryck-för-att-prata"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "Ladda om magasin"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "Laddar Om!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "Höger"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "Dölj spelinterface"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "Aktivering av personliga reserver"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "Framsteg i personliga uppdrag"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "Visa ordermenyn / bekräfta order"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "Förminska"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "Förstora"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "Specialförmåga"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "Stanna och ge eld"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "Tack!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "Pansarmätare på/av"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "Granatflygbana"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "Välj ljudsignal"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "Visa/Dölj"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "Aktivera/avaktivera röstchatt i dynamiska plutoner"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "Kamera"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "Farthållare"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "Förnödenheter"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "Eldgivning"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "Minikarta"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "Förflyttning"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "Meddelanden"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "Lagkommunikation"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "Annat"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "Röstchatt"
+
+msgid "keyboard/mouse"
+msgstr "Datormus"
+
+msgid "keyboardTitle"
+msgstr "Kontroller"
+
+msgid "limitedUI/desc"
+msgstr "Gradvis visning av dolda gränssnittselement i garaget"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "Stäng av"
+
+msgid "marker/AllyTitle"
+msgstr "Vårt lag"
+
+msgid "marker/DeadTitle"
+msgstr "Förstörd"
+
+msgid "marker/EnemyTitle"
+msgstr "Fiendelag"
+
+msgid "marker/aimMarker2D"
+msgstr "Indikator för automatiskt sikte"
+
+msgid "marker/alt"
+msgstr "Alternativ"
+
+msgid "marker/base"
+msgstr "Standard"
+
+msgid "marker/damage"
+msgstr "Mottagen skada"
+
+msgid "marker/dead"
+msgstr "Visa för förstörda"
+
+msgid "marker/hp"
+msgstr "Träffpoäng"
+
+msgid "marker/hp/type0"
+msgstr "Procent %"
+
+msgid "marker/hp/type1"
+msgstr "Träffpoäng kvar / totalt"
+
+msgid "marker/hp/type2"
+msgstr "Träffpoäng kvar"
+
+msgid "marker/hp/type3"
+msgstr "Dölj"
+
+msgid "marker/hpIndicator"
+msgstr "Träffpoängsindikator"
+
+msgid "marker/icon"
+msgstr "Vagnsikon"
+
+msgid "marker/level"
+msgstr "Vagnsklass"
+
+msgid "marker/level/tooltip/body"
+msgstr "När alternativet är aktiverat visas vagnsklassen över vagnen.\n\nI Pansarjakt visas uppgraderingsnivån istället."
+
+msgid "marker/level/tooltip/header"
+msgstr "Vagnsklass"
+
+msgid "marker/name"
+msgstr "Vagnmodell"
+
+msgid "marker/name/type2"
+msgstr "Dölj"
+
+msgid "marker/nickname"
+msgstr "Spelarnamn"
+
+msgid "markerTitle"
+msgstr "Vagnsmarkörer"
+
+msgid "minimap/labels/alpha"
+msgstr "Minikartans genomskinlighet"
+
+msgid "minimap/labels/size"
+msgstr "Maximal storlek"
+
+msgid "monitor"
+msgstr "Bildskärm"
+
+msgid "monitor/description"
+msgstr "Välj primär bildskärm för spelet."
+
+msgid "mouse/sensitivity/art"
+msgstr "Artillerisikte"
+
+msgid "mouse/sensitivity/art2"
+msgstr "Granatflygbana"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "Fri kamera"
+
+msgid "mouse/sensitivity/header"
+msgstr "Känslighet"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "Horisontell invertering"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "Vertikal invertering"
+
+msgid "mouse/sensitivity/main"
+msgstr "Arkadsikte"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "Prickskyttesikte"
+
+msgid "mouse/startDist"
+msgstr "Kameraposition"
+
+msgid "ok_button"
+msgstr "OK"
+
+msgid "otherSettings/fieldset/header"
+msgstr "Miljöljud"
+
+msgid "otherSettings/labels/bulb"
+msgstr "Aktiveringsljud för Sjätte sinnet"
+
+msgid "otherTitle"
+msgstr "Övriga"
+
+msgid "physicsQuality"
+msgstr "Ljudfysikkvalitet"
+
+msgid "refreshRate"
+msgstr "Bilduppdateringsfrekvens"
+
+msgid "refreshRate/default"
+msgstr "Standard"
+
+msgid "refreshRate/description"
+msgstr "Bildskärmens uppdateringsfrekvens. \n\nOm bilduppdateringsfrekvensen inte matchar bildskärmens uppdateringsfrekvens kan en blinkande effekt uppstå.\n\nPåverkar inte prestandan."
+
+msgid "resolution"
+msgstr "Skärmupplösning"
+
+msgid "resolution/description"
+msgstr "Horisontell och vertikal skärmupplösning i fullskärmsläge. Högre upplösning förbättrar bildkvaliteten. Om inte upplösningen matchar bildskärmens upplösning kan bilden bli förvrängd.\n\nHögre upplösning ökar belastningen på grafikkortet och kan minska prestandan.\n\nBelastningen på grafikkortet kan minskas genom att sänka 3D-renderingsupplösningen."
+
+msgid "restartNewbieBattleHints"
+msgstr "Återställ nybörjartips"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "Återställ nybörjartips och visa alla från början"
+
+msgid "screenMode"
+msgstr "Skärmläge"
+
+msgid "screenMode/borderless"
+msgstr "Fönster (kantfritt)"
+
+msgid "screenMode/description"
+msgstr "Växlar mellan skärmlägena fullskärm, fönster och kantfritt fönster. Fönsterläget minskar spelets prestanda."
+
+msgid "screenMode/fullscreen"
+msgstr "Fullskärm"
+
+msgid "screenMode/label"
+msgstr "Läge:"
+
+msgid "screenMode/windowed"
+msgstr "Fönster"
+
+msgid "smoothing/description"
+msgstr "Bestämmer till vilken grad ytterligare efterbehandling av linjer och konturer i spelet används: Minimerar anti-alias-effekter. Konturer ser mer naturliga ut."
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "Standard"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "Användardefinierat"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "Variant 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "Variant 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "Användardefinierat"
+
+msgid "sound/dynamicRange/label"
+msgstr "Dynamiskt omfång"
+
+msgid "sound/fieldset/header"
+msgstr "Volym"
+
+msgid "sound/players_notifications"
+msgstr "Meddelanden från andra spelare"
+
+msgid "sound/presets/title"
+msgstr "Förinställningar"
+
+msgid "sound/soundModes/U01"
+msgstr "Användare 1"
+
+msgid "sound/soundModes/U02"
+msgstr "Användare 2"
+
+msgid "sound/soundModes/U03"
+msgstr "Användare 3"
+
+msgid "sound/soundModes/U04"
+msgstr "Användare 4"
+
+msgid "sound/soundModes/default"
+msgstr "Standard"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "Befälhavare"
+
+msgid "sound/special/field/set"
+msgstr "Volym för spelhändelseljud"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "Uppdatera enheter"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "Avsluta test"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "Starta test"
+
+msgid "sound/vivox/fade_volume"
+msgstr "Allmän bakgrundsvolym vid chatt"
+
+msgid "sound/vivox/master_volume"
+msgstr "Röstchattvolym"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "Mikrofonkänslighet"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Vivox-test"
+
+msgid "soundTitle"
+msgstr "Ljud"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "Automatiskt val"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "Stereo 2.0/2.1"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "Surround 5.1"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "Surround 7.1"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "Hörlurar"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "Center"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "Vänster"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "Vänster bak"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "Vänster front"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "Vänster sida"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "Höger"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "Höger bak"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "Höger front"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "Höger sida"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "Subwoofer"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "Laptop"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "Ljudtest:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "Testljud"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "Röstmeddelanden beror på vagnens nation och befälhavarens kön"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "Befälhavare"
+
+msgid "sounds/altVoice/default/body"
+msgstr "Mansröst med samma språk som spelklienten"
+
+msgid "sounds/altVoice/default/header"
+msgstr "Standard"
+
+msgid "sounds/ambient"
+msgstr "Omgivning"
+
+msgid "sounds/arena"
+msgstr "Musik i strid"
+
+msgid "sounds/artyBulbVoices"
+msgstr "Ljudspårning"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "Välj ett ljud för aktivering av Ljudspårning. För att använda ditt eget ljud måste du byta namn på din .mp3-fil till \"soundExploring\" och flytta den till mappen res/audioww."
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "Aktiveringsljud för Ljudspårning"
+
+msgid "sounds/bassBoost"
+msgstr "Förstärkt bas"
+
+msgid "sounds/bassBoost/description"
+msgstr "Förstärker låga frekvenser i spelet utan att påverka huvudvolymen. Hur detta påverkar ljudupplevelsen beror på ljudsystemet som används (högtalare, hörlurar, laptop osv.)."
+
+msgid "sounds/bulbVoices"
+msgstr "Sjätte sinnet"
+
+msgid "sounds/bulbVoices/description"
+msgstr "Välj ett ljud för aktivering av Sjätte sinnet. För att använda ditt eget ljud måste du byta namn på din .mp3-fil till \"sixthSense\" och flytta den till mappen res/audioww."
+
+msgid "sounds/effects"
+msgstr "Effekter"
+
+msgid "sounds/gui"
+msgstr "Gränssnitt"
+
+msgid "sounds/hangar"
+msgstr "Musik i garaget"
+
+msgid "sounds/masterVolume"
+msgstr "Huvudvolym"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "Aktivera ljud"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "Att stänga av ljudet i spelet kan förbättra spelets prestanda. Du kan behöva starta om spelet för att aktivera förändringarna."
+
+msgid "sounds/nightMode"
+msgstr "Nattläge"
+
+msgid "sounds/nightMode/description"
+msgstr "Jämnar ut skillnader i ljudnivåerna, reducerar skarpa ljud och minimerar lågfrekventa ljud i spelet vilket ger en lugnare ljudmiljö som minimerar störningsmoment för omgivningen."
+
+msgid "sounds/physicsQuality/attention"
+msgstr "Den här inställningen kan påverka prestandan."
+
+msgid "sounds/physicsQuality/body"
+msgstr "Anger kvaliteten för ljudfysiken.\n\nSimulerar hur ljud böjs runt hinder och passerar över olika ytor.\n\nAnvänder kartgeometrin för att generera rumsljud från stridsvagnsljud som reflekteras av närliggande objekt.\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "Ljudfysikkvalitet"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "Avstängd"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "Hög"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "Låg"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "Mellan"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "Rekommenderad"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "Avgör bästa ljudfysikkvalitet för din dator.\n\nDetta kan ta lite tid."
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "Rekommenderad"
+
+msgid "sounds/sixthSense/body"
+msgstr "Anpassat ljud. Flytta filen sixthSense.mp3 till mappen res/audioww."
+
+msgid "sounds/sixthSense/header"
+msgstr "Anpassad"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "Stereo 2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "Ställer in spelets ljud för ett par externa fullfrekvenshögtalare (2.0) eller ett par fullfrekvenshögtalare + en lågfrekvenshögtalare (2.1)."
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "Stereo 2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "Surround 5.1"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "Ställer in ljudpositioner i spelet för att matcha position av externa 5.1-surroundhögtalare och subwoofer."
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "Surround 5.1"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "Surround 7.1"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "Ställer in ljudpositioner i spelet för att matcha position av externa 7.1-surroundhögtalare och subwoofer."
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "Surround 7.1"
+
+msgid "sounds/soundDevice/auto"
+msgstr "Automatiskt val"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "Ställer automatiskt in ljudinställningarna efter operativsystemets inställningar."
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "Automatiskt val"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "Hörlurar"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "Ställer in spelets ljud för hörlurar."
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "Hörlurar"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "Laptop"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "Använder samma positionsprincip som för 2.0/2.1 men ställer in frekvenserna för att maximera effekten i små laptophögtalare."
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "Laptop"
+
+msgid "sounds/soundQuality"
+msgstr "Låg ljudkvalitet"
+
+msgid "sounds/soundQuality/description"
+msgstr "Att sänka ljudkvaliteten kan förbättra spelets prestanda på långsamma datorer. När du aktiverar denna inställning reduceras antalet samtidiga ljudkällor kraftigt."
+
+msgid "sounds/speakers/back/body"
+msgstr "Ljudtest höger/vänster bakhögtalare"
+
+msgid "sounds/speakers/back/header"
+msgstr "Höger/vänster bakhögtalare"
+
+msgid "sounds/speakers/center/body"
+msgstr "Ljudtest centerhögtalare"
+
+msgid "sounds/speakers/center/header"
+msgstr "Centerhögtalare"
+
+msgid "sounds/speakers/front/body"
+msgstr "Ljudtest höger/vänster fronthögtalare"
+
+msgid "sounds/speakers/front/header"
+msgstr "Höger/vänster fronthögtalare"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "I Stereo 2.0/2.1 är en subwoofer ett valfritt tillval. Det kan inte testas utan högtalare."
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "Tillval subwoofer"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "Ljudtest höger/vänster sidohögtalare"
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "Höger/vänster sidohögtalare"
+
+msgid "sounds/speakers/sides/body"
+msgstr "Ljudtest höger/vänster högtalare"
+
+msgid "sounds/speakers/sides/header"
+msgstr "Höger/vänster högtalare"
+
+msgid "sounds/speakers/sub/body"
+msgstr "Ljudtest subwoofer"
+
+msgid "sounds/speakers/sub/header"
+msgstr "Subwoofer"
+
+msgid "sounds/subtitles"
+msgstr "Undertexter"
+
+msgid "sounds/tabCommon"
+msgstr "Huvudvolym"
+
+msgid "sounds/tabSpecial"
+msgstr "Spelhändelser"
+
+msgid "sounds/tabVivox"
+msgstr "Röstchatt"
+
+msgid "sounds/vehicles"
+msgstr "Vagnljud"
+
+msgid "sounds/voiceNotification"
+msgstr "Röstmeddelanden"
+
+msgid "title"
+msgstr "Inställningar"
+
+msgid "tripleBuffered"
+msgstr "Trippelbuffring"
+
+msgid "tripleBuffered/description"
+msgstr "Minskar störningar vid bildrutebyten (endast tillgänglig med vertikal synkronisering aktiv)."
+
+msgid "vertSync"
+msgstr "Vertikal synkronisering"
+
+msgid "vertSync/Off"
+msgstr "AV"
+
+msgid "vertSync/On"
+msgstr "PÅ"
+
+msgid "vertSync/description"
+msgstr "Synkronisering av bildfrekvensen med bildskärmens vertikaluppdateringsfrekvensen.\n\n60 bilder per sekund är en gräns för bildfrekvensen. Använd om en skakig bildeffekt uppkommer eller om toppen av bilden inte matchar botten."
+
+msgid "voice_chat/PTT"
+msgstr "Tryck-för-att-prata"
+
+msgid "voice_chat/fieldset/header"
+msgstr "Volym"
+
+msgid "voice_chat/header/common"
+msgstr "Allmänt"
+
+msgid "voice_chat/header/microphone"
+msgstr "Mikrofon"
+
+msgid "voice_chat/header/speakers"
+msgstr "Hörlurar"
+
+msgid "voice_chat/microphone"
+msgstr "Mikrofon"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "Mikrofon"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "Aktivera mikrofon"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "Aktivera röstchatt"
+
+msgid "windowSize"
+msgstr "Fönsterstorlek"
+
+msgid "windowSize/description"
+msgstr "Horisontell och vertikal skärmupplösning av spelklientens fönster. Vid byte till fullskärmsläge återställs inställningen till \"Skärmupplösning\"."
+
+msgid "windowTitle"
+msgstr "WoT Client"

@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Piemērot visiem {{icon}} {{type}}"
+
+msgid "header/points"
+msgstr "Kaujas rezerves punkti: {{value}}"
+
+msgid "header/title"
+msgstr "KAUJAS REZERVES"
+
+msgid "infoPanel/category/firesupport"
+msgstr "Uzbrukuma Rezerves"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "Izlūkošanas Rezerves"
+
+msgid "infoPanel/category/tactics"
+msgstr "Taktiskās Rezerves"
+
+msgid "infoPanel/category/title"
+msgstr "Kategorija: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "Scenārijā {{@ colorLegacy 'FFE4C0'}}Likteņa pavērsiens{{/}} iegādājoties Kaujas rezervi, tās līmenis palielināsies par vienu un būs iespēja to uzlabot līdz {{@ colorLegacy 'FFE4C0'}}IV{{/}} līmenim."
+
+msgid "infoPanel/description/unlocked"
+msgstr "Scenārijā {{@ colorLegacy 'FFE4C0'}}Likteņa pavērsiens{{/}} iespēja, ka katra pirms kaujas slotā ievietotā Kaujas rezerve tiks piedāvāta, palielinās par {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "infoPanel/level"
+msgstr "Līmenis:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}}m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}}%"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}}%/s"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}}s"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "Kaujas Rezerve nav nopirkta"
+
+msgid "infoPanel/status/unlocked"
+msgstr "Kaujas Rezerve nopirkta"

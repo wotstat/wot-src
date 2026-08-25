@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "backButton/label"
+msgstr "VISSZA"
+
+msgid "backButton/to"
+msgstr "A FIÓKSTÁTUSZHOZ"
+
+msgid "filteredMapsDisplayed"
+msgstr "Megjelenített pályák: %(total)/%(count)"
+
+msgid "filtersTooltip/desc"
+msgstr "Ezen típusú pályák megjelenítése/elrejtése."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Sivatagi pályák"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Nyári pályák"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Téli pályák"
+
+msgid "header/cooldown"
+msgstr "Lecserélhetsz egy pályát %(cooldownEndTime) múlva."
+
+msgid "header/title"
+msgstr "Kizárt pályák"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Lecserélhetsz egy pályát a visszatöltődési időt követően."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Pálya lecserélése nem lehetséges"
+
+msgid "mapTile/hoverExclude"
+msgstr "Kizárod ezt a pályát: %(mapName)?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Kizárás"
+
+msgid "mapTile/hoverInclude"
+msgstr "Engedélyezed ezt a pályát Normál csatákban: %(mapName)?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Engedélyez"
+
+msgid "mapsFilterLabel"
+msgstr "Pályatípusok:"
+
+msgid "notSelected"
+msgstr "Nincs kiválasztva"
+
+msgid "premium"
+msgstr "WoT prémium"
+
+msgid "slot/disabledTooltipBody"
+msgstr "Aktív WoT prémium fiókkal vagy WoT plusz előfizetéssel egy további férőhely érhető el."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "Oldd fel WoT prémium fiókkal!"
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Oldd fel aktív WoT plusz előfizetéssel!"
+
+msgid "slot/replaceTooltipBody"
+msgstr "Válassz egy pályát az alábbi listáról, amelyet lecserélsz és kizársz a Normál csatákból."
+
+msgid "slot/selectTooltipBody"
+msgstr "Válassz egy pályát az alábbi listáról, amelyet kizársz a Normál csatákból."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Elérhető hely"
+
+msgid "totalMapsDisplayed"
+msgstr "Megjelenített pályák: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "Zárj ki még 1 pályát %(linkPremium) fiókkal és további %(mapCount)s pályát %(linkWotPlus) előfizetéssel."
+msgstr[1] "Zárj ki még 1 pályát %(linkPremium) fiókkal és további %(mapCount)s pályát %(linkWotPlus) előfizetéssel."
+
+msgid "unlock/premium"
+msgstr "Zárj ki még 1 pályát %(linkPremium) fiókkal."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "Zárj ki további %(mapCount)s pályát %(linkWotPlus) előfizetéssel."
+msgstr[1] "Zárj ki további %(mapCount)s pályát %(linkWotPlus) előfizetéssel."
+
+msgid "wotplus"
+msgstr "WoT plusz"

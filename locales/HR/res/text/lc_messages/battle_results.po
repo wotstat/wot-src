@@ -1,0 +1,1532 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "allVehicles"
+msgstr "Svi"
+
+msgid "battleRating/tooltip/better/body"
+msgstr "Ova bitka je bila više zadovoljavajuća, uravnotežena ili zabavnija nego obično."
+
+msgid "battleRating/tooltip/better/header"
+msgstr "Bolje nego obično"
+
+msgid "battleRating/tooltip/usual/body"
+msgstr "Standardna bitka-ništa neočekivano se nije dogodilo."
+
+msgid "battleRating/tooltip/usual/header"
+msgstr "Kao i obično"
+
+msgid "battleRating/tooltip/worse/body"
+msgstr "Ova bitka je bila više frustrirajuća, neuravnoteženija ili nepravednija nego obično."
+
+msgid "battleRating/tooltip/worse/header"
+msgstr "Gore nego obično"
+
+msgid "battleResult/battleRating/better/header"
+msgstr "BOLJE NEGO OBIČNO"
+
+msgid "battleResult/battleRating/none/header"
+msgstr "ocjenite svoju bitku:"
+
+msgid "battleResult/battleRating/usual/header"
+msgstr "KAO I OBIČNO"
+
+msgid "battleResult/battleRating/worse/header"
+msgstr "GORE NEGO OBIČNO"
+
+msgid "battleResult/comp7Light/team/prestigePoints/body"
+msgstr "Poredaj po bodovima prestiža."
+
+msgid "battleResult/comp7Light/team/prestigePoints/header"
+msgstr "Bodovi Prestiža"
+
+msgid "battleResult/navigation/battleResults"
+msgstr "Pregled"
+
+msgid "battleResult/navigation/financialReport"
+msgstr "Financijsko izvješće"
+
+msgid "battleResult/navigation/missionsProgress"
+msgstr "Napredak zadatka"
+
+msgid "battleResult/navigation/teamEfficiency"
+msgstr "Timski rezultat"
+
+msgid "battleResult/team/prestigePoints/body"
+msgstr "Poredaj po bodovima rejtinga. Bodovi Prestiža utječu na broj osvojenih ili izgubljenih bodova rejtinga u bitci."
+
+msgid "battleResult/team/prestigePoints/header"
+msgstr "Bodovi Prestiža"
+
+msgid "common/arena/fullName"
+msgstr "{0} – {1}"
+
+msgid "common/arena/nameAndMode"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/battleEfficiency/allies"
+msgstr "Saveznici:"
+
+msgid "common/battleEfficiency/allyBase"
+msgstr "Obrana baze"
+
+msgid "common/battleEfficiency/baseCapture"
+msgstr "Osvajanje baze:"
+
+msgid "common/battleEfficiency/bases"
+msgstr "Baze"
+
+msgid "common/battleEfficiency/enemyBase"
+msgstr "Zauzeće baze"
+
+msgid "common/battleEfficiency/neutralBase"
+msgstr "Neutralna baza"
+
+msgid "common/battleEfficiency/noEfficiency"
+msgstr "U ovoj bitci niste izveli nikakve akcije."
+
+msgid "common/battleEfficiency/none"
+msgstr "Niste otkrili niti uništili niti jedno neprijateljsko vozilo."
+
+msgid "common/battleEfficiency/technique"
+msgstr "Vozila"
+
+msgid "common/battleEfficiency/title"
+msgstr "Borbena izvedba"
+
+msgid "common/battleEfficiency/uppercased_title"
+msgstr "BORBENA IZVEDBA"
+
+msgid "common/battleEfficiencyWithSkills/title"
+msgstr "Izvedba u bitci (uključujući korištene vještine)"
+
+msgid "common/battleEfficiencyWithoutOreders/title"
+msgstr "Bojna izvedba (ne računajući borbene pričuve)"
+
+msgid "common/battleType/sortie"
+msgstr "Okršaj protiv klana "
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "common/crewMember/description"
+msgstr "%(role)s, %(name)s"
+
+msgid "common/crewMember/newSkill"
+msgstr "Nova sposobnost"
+
+msgid "common/details/buyPremiumBtn"
+msgstr "Kupi premium račun"
+
+msgid "common/details/creditsTitle"
+msgstr "Krediti"
+
+msgid "common/details/crystal"
+msgstr "Obveznice"
+
+msgid "common/details/getPremBtn"
+msgstr "Detalji"
+
+msgid "common/details/noPremTitle"
+msgstr "Standardni račun"
+
+msgid "common/details/premTitle"
+msgstr "WoT Premium"
+
+msgid "common/details/premiumAdvertising/bonus"
+msgstr "{{@ split}}Primjeni x{{multiplier}} bonus iskustva na odabrane pobjedničke bitke s WoT premium računom.{{/}}"
+
+msgid "common/details/premiumAdvertising/credits"
+msgstr "{{@ split}}Primi do {{bonusCredits}} svakih {{@ style}}{{durationInDays}} d{{/}} s WoT premium računom.{{/}}"
+
+msgid "common/details/premiumPlus/bonus"
+msgstr "Primjeni x%(multiplier)dbonus iskustva na odabrane pobjedničke bitke s WoT premium računom."
+
+msgid "common/details/premiumPlus/credits"
+msgstr "Primi do %(bonusCredits)s svaki %(durationInDays)d d s WoT premium računom."
+
+msgid "common/details/premiumPlus/premium"
+msgstr "Dodatno iskustvo, krediti, premium zadaci i bonusi voda s WoT premium računom."
+
+msgid "common/details/premiumPlus/quests"
+msgstr "Otključaj posebne zadatke s WoT premium računom."
+
+msgid "common/details/premiumPlus/squad"
+msgstr "Zaradi više kredita igrajući u vodu s WoT premium računom."
+
+msgid "common/details/xpTitle"
+msgstr "Iskustvo"
+
+msgid "common/details/xpTitleSquad"
+msgstr "Iskustvo %(img)s"
+
+msgid "common/fitting/purchase"
+msgstr "Kupnja modula"
+
+msgid "common/fitting/research"
+msgstr "Istraživanje modula"
+
+msgid "common/mainFinishReasonTitle"
+msgstr "Faza glavne bitke:"
+
+msgid "common/missions/noProgress/button"
+msgstr "Na zadatke"
+
+msgid "common/missions/noProgress/description"
+msgstr "Pogledajte trenutni napredak zadatka"
+
+msgid "common/missions/noProgress/header"
+msgstr "Nema napretka u zadacima ili istraživanju vozila."
+
+msgid "common/newSkillPrediction"
+msgstr "Preostalo bitaka (otprilike): %(battles)s"
+
+msgid "common/noIncome/alert/text"
+msgstr "Nakon što ste odigrali 10 bitaka više nećete u ovom režimu zarađivati kredite, iskustvo ili nagrade i vaši rezultati bitke se neće vidjeti u Osobnom dosijeu."
+
+msgid "common/noIncome/alert/title"
+msgstr "Pozor!"
+
+msgid "common/noProgress"
+msgstr "Nema napretka u zadacima, istraživanju vozila i obuci posade."
+
+msgid "common/overtimeFinishReasonTitle"
+msgstr "Produžetak:"
+
+msgid "common/player/nameWithClan"
+msgstr "{{name}} [{{clan}}]"
+
+msgid "common/plusBonus/bonusLeftAdditionalText"
+msgstr "Otključaj više s "
+
+msgid "common/plusBonus/earnedMessage"
+msgstr "Danas ste zaradili:"
+
+msgid "common/plusBonus/earningsInformation"
+msgstr "Danas ste osvojili %(count)s iskustva"
+
+msgid "common/plusBonus/premiumPlusAdd"
+msgstr "Otključajte s WoT Plus ili WoT Premium"
+
+msgid "common/plusBonus/wotPlus"
+msgstr "WOT Plus"
+
+msgid "common/plusBonus/wotPremium"
+msgstr "WoT Premium"
+
+msgid "common/plusBonus/youRock"
+msgstr "Najbolji ste!"
+
+msgid "common/premiumBonus"
+msgstr "Želite zaraditi više?"
+
+msgid "common/premiumBonus/appliedBonus"
+msgstr "Bonus uspješno primjenjen"
+
+msgid "common/premiumBonus/applyBonusBtn"
+msgstr "Primjeni"
+
+msgid "common/premiumBonus/bonusLeft"
+msgstr "Preostalo danas: %(count)s"
+
+msgid "common/premiumBonus/bonusMultiplier"
+msgstr "×{{value}}"
+
+msgid "common/premiumBonus/description"
+msgstr "Upravljivi množitelj iskustva"
+
+msgid "common/premiumBonus/earnMore"
+msgstr "Želite zaraditi više?"
+
+msgid "common/premiumBonus/expiredBattleResult"
+msgstr "Mora se primjeniti na posljednju bitku u istom vozilu."
+
+msgid "common/premiumBonus/isXPToTmenDisabled"
+msgstr "Bonus se ne može primjeniti: ubrzana obuka posade je isključena."
+
+msgid "common/premiumBonus/isXPToTmenDisabledWithInfo"
+msgstr "{{@ split}}Bonus se ne može primjeniti: ubrzana obuka posade je {{@ style}}isključena{{info}}{{/}}{{/}}."
+
+msgid "common/premiumBonus/isXPToTmenEnabled"
+msgstr "Bonus se ne može primjeniti: ubrzana obuka posade je uključena."
+
+msgid "common/premiumBonus/isXPToTmenEnabledWithInfo"
+msgstr "{{@ split}}Bonus se ne može primjeniti: ubrzana obuka posade je {{@ style}}uključena{{info}}{{/}}{{/}}."
+
+msgid "common/premiumBonus/rule"
+msgstr "Množitelji se mogu primjeniti samo u pobjedničkim bitkama. Više sreće drugi put!"
+
+msgid "common/premiumBonus/tankStateChanged"
+msgstr "Upravljivi bonus se ne može primjeniti: vozilo nije pronađeno."
+
+msgid "common/premiumBonus/tankStateChangedWithInfo"
+msgstr "{{@ split}}Upravljivi bonus se ne može primjeniti: vozilo nije {{@ style}} pronađeno.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/tankmenStateChanged"
+msgstr "Upravljivi bonus se ne može primjeniti: posada nije pronađena."
+
+msgid "common/premiumBonus/tankmenStateChangedWithInfo"
+msgstr "{{@ split}}Upravljivi bonus se ne može primjeniti: posada nije {{@ style}} pronađena.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/unavailable"
+msgstr "Množitelj nije dostupan u ovom režimu igre."
+
+msgid "common/progressTitle"
+msgstr "Istraživanje vozila i napredovanje zadatka"
+
+msgid "common/quests/noprogress"
+msgstr "Nije bilo događaja u zadatku"
+
+msgid "common/researchPrediction"
+msgstr "Preostalo bitaka (otprilike): %(battles)s"
+
+msgid "common/resultsShareBtn"
+msgstr "Dobij vezu"
+
+msgid "common/startTime"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/tooltip/armor/description"
+msgstr "Računa se:\n• Rikošeti neprijateljskih hitaca\n• Neprobijajući hici\n\nNe računaju se pogoci HE i HESH granata."
+
+msgid "common/tooltip/armor/header"
+msgstr "Blokirana šteta"
+
+msgid "common/tooltip/armor/part1"
+msgstr "Rikošei"
+
+msgid "common/tooltip/armor/part2"
+msgstr "Neprobijajući"
+
+msgid "common/tooltip/armor/part3"
+msgstr "Šteta blokirana oklopom %(vals)s"
+
+msgid "common/tooltip/assist/description"
+msgstr "Računaju se sljedeći tipovi nanesene štete neprijateljskim vozilima od strane saveznika:\n• Šteta po vašem otkrivanju\n• Šteta po vašem uništenju gusjenice i imobiliziranja neprijateljskog vozila"
+
+msgid "common/tooltip/assist/header"
+msgstr "Šteta s vašom pomoći"
+
+msgid "common/tooltip/assist/part1"
+msgstr "Šteta po vašem otkrivanju %(vals)s"
+
+msgid "common/tooltip/assist/part2"
+msgstr "Šteta po vašem uništenju gusjenice i imobiliziranja neprijateljskog vozila %(vals)s"
+
+msgid "common/tooltip/assist/total"
+msgstr "Ukupna šteta uzrokovana neprijateljskom vozilu od strane saveznika %(vals)s"
+
+msgid "common/tooltip/capture/description"
+msgstr "Izbrojano:\n• Bodova osvajanja neprijateljske baze\n• Bodova osvajanja neutralne baze"
+
+msgid "common/tooltip/capture/header"
+msgstr "Zauzeće baze"
+
+msgid "common/tooltip/capture/totalPoints"
+msgstr "Ukupno bodova osvajanja baze"
+
+msgid "common/tooltip/counter"
+msgstr "Ukupno primljeno značaka u bitci: %(count)s"
+
+msgid "common/tooltip/counter/forEnemy"
+msgstr "Primljeno značaka u bitci za to neprijateljsko vozilo: %(count)s"
+
+msgid "common/tooltip/counter/noItems"
+msgstr "Značka nije primljena u bitci"
+
+msgid "common/tooltip/crits/critDamage"
+msgstr "Ozlijeđen:"
+
+msgid "common/tooltip/crits/critDestruction"
+msgstr "Izbačeni iz stroja:"
+
+msgid "common/tooltip/crits/critWound"
+msgstr "Ozlijeđen:"
+
+msgid "common/tooltip/crits/description"
+msgstr "Izbrojano:\n• Šteta vanjskih i unutarnjih modula neprijateljskog vozila\n• Uništenji vanjski i unutarnji moduli neprijateljskog vozila\n• Ozljeda članova posade neprijateljskog vozila."
+
+msgid "common/tooltip/crits/header"
+msgstr "Kritična šteta"
+
+msgid "common/tooltip/crits/total"
+msgstr "Ukupno:"
+
+msgid "common/tooltip/damage/description"
+msgstr "Izbrojano:\n• Šteta nanesena pogocima\n• Šteta nanesena sudaranjem\n• Šteta nanešna požarom\n• Šteta nanešena jakim udaom"
+
+msgid "common/tooltip/damage/header"
+msgstr "Šteta"
+
+msgid "common/tooltip/damage/part1"
+msgstr "Ukupna šteta %(vals)s"
+
+msgid "common/tooltip/damage/part2"
+msgstr "Ukupan broj proboja"
+
+msgid "common/tooltip/defence/description"
+msgstr "Računa se:\n• Bodovi obrane prijateljske baze\n• Bodovi obrane neutralne baze"
+
+msgid "common/tooltip/defence/header"
+msgstr "Obrana baze"
+
+msgid "common/tooltip/defence/totalPoints"
+msgstr "Ukupan broj bodoba obrane baze"
+
+msgid "common/tooltip/kill/header"
+msgstr "Uništeno neprijateljsko vozilo"
+
+msgid "common/tooltip/kill0/description"
+msgstr "Neprijateljska vozila uništena pucnjem"
+
+msgid "common/tooltip/kill1/description"
+msgstr "Neprijateljska vozila uništena vatrom"
+
+msgid "common/tooltip/kill2/description"
+msgstr "Neprijateljska vozila uništena sudaranjem"
+
+msgid "common/tooltip/kill3/description"
+msgstr "Razbijena neprijateljska vozila"
+
+msgid "common/tooltip/kill4/description"
+msgstr "Neprijateljska vozila uništena zonom smrti"
+
+msgid "common/tooltip/kill5/description"
+msgstr "Neprijateljsko vozilo potopljeno"
+
+msgid "common/tooltip/kill6/description"
+msgstr "Uništenje Vatrenom olujom"
+
+msgid "common/tooltip/kill7/description"
+msgstr "Neprijateljsko vozilo prevrnuto"
+
+msgid "common/tooltip/killCommon/description"
+msgstr "Izbrojano:\n• Uništenje pogotkom\n• Uništenje požarom\n• Uništenje sudaranjem\n• Uništenje utapljanjem\n• Uništenje guranjem neprijatelja sa prepreke\n• Uništenje prevrtanjem."
+
+msgid "common/tooltip/params/val"
+msgstr "(HP)"
+
+msgid "common/tooltip/params/val/seconds"
+msgstr "(s)"
+
+msgid "common/tooltip/spotted/description"
+msgstr "Računa se prvo otkrivanje neprijateljskog vozila."
+
+msgid "common/tooltip/spotted/header"
+msgstr "Otkrivanje"
+
+msgid "common/tooltip/stun/description"
+msgstr "Ubrojena šteta:\n• Nanešena od saveznika neprijateljskim vozilima koje ste ošamutili."
+
+msgid "common/tooltip/stun/header"
+msgstr "Ošamućenje"
+
+msgid "common/tooltip/stun/part1"
+msgstr "Ukupna šteta %(vals)s"
+
+msgid "common/tooltip/stun/part2"
+msgstr "Broj ošamućenja"
+
+msgid "common/tooltip/stun/part3"
+msgstr "Ukupno trajanje uzrokovanih ošamućenja: %(vals)s"
+
+msgid "common/tooltip/teamKill-1/description"
+msgstr "Uništeno savezničko vozilo"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "Saveznik uništen"
+
+msgid "common/tooltip/teamKill0/description"
+msgstr "Saveznička vozila uništena pucnjem"
+
+msgid "common/tooltip/teamKill1/description"
+msgstr "Saveznička vozila uništena vatrom"
+
+msgid "common/tooltip/teamKill2/description"
+msgstr "Saveznička vozila uništena sudaranjem"
+
+msgid "common/tooltip/teamKill3/description"
+msgstr "Razbijeno savezničko vozilo"
+
+msgid "common/tooltip/teamKill4/description"
+msgstr "Saveznička vozila uništena zonom smrti"
+
+msgid "common/tooltip/teamKill5/description"
+msgstr "Savezničko vozilo potopljeno"
+
+msgid "common/tooltip/xpTitleSquad"
+msgstr "Dobili ste dodatno iskustvo za igranje u vodu u ovoj bitci."
+
+msgid "common/totalTooltip/armor/part1"
+msgstr "Rikošei"
+
+msgid "common/totalTooltip/armor/part2"
+msgstr "Neprobijajući"
+
+msgid "common/totalTooltip/armor/part3"
+msgstr "Šteta blokirana od oklopa"
+
+msgid "common/totalTooltip/assist/part1"
+msgstr "Šteta po vašem otkrivanju"
+
+msgid "common/totalTooltip/assist/part2"
+msgstr "Šteta po vašem uništenju gusjenice i imobiliziranja neprijateljskog vozila"
+
+msgid "common/totalTooltip/assist/total"
+msgstr "Ukupna šteta uzrokovana neprijateljskom vozilu od strane saveznika"
+
+msgid "common/totalTooltip/damage/part1"
+msgstr "Ukupna šteta"
+
+msgid "common/totalTooltip/damage/part2"
+msgstr "Ukupan broj proboja"
+
+msgid "common/totalTooltip/stun/part1"
+msgstr "Ukupna šteta"
+
+msgid "common/totalTooltip/stun/part2"
+msgstr "Broj ošamućenja"
+
+msgid "common/totalTooltip/stun/part3"
+msgstr "Ukupno trajanje uzrokovanih ošamućenja"
+
+msgid "common/vehicle/details"
+msgstr "%(vehicle)s, %(type)s"
+
+msgid "common/vehicle/purchase"
+msgstr "Kupnja vozila"
+
+msgid "common/vehicle/research"
+msgstr "Istraživanje vozila"
+
+msgid "common/vehicleState/alive"
+msgstr "Preživio"
+
+msgid "common/vehicleState/dead0"
+msgstr "Uništeno pucnjem"
+
+msgid "common/vehicleState/dead0_with_killername"
+msgstr "Uništen hicem ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead0_with_killername_and_clan"
+msgstr "Uništen hicem ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead1"
+msgstr "Uništeno vatrom"
+
+msgid "common/vehicleState/dead12"
+msgstr "Samouništen"
+
+msgid "common/vehicleState/dead13"
+msgstr "Uništen igračevom vještinom"
+
+msgid "common/vehicleState/dead1_with_killername"
+msgstr "Uništen vatrom ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead1_with_killername_and_clan"
+msgstr "Uništen vatrom ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead2"
+msgstr "Uništeno sudaranjem"
+
+msgid "common/vehicleState/dead27"
+msgstr "Uništen topničkim udarom"
+
+msgid "common/vehicleState/dead29"
+msgstr "Razbijeno"
+
+msgid "common/vehicleState/dead2_with_killername"
+msgstr "Uništen sudaranjem ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead2_with_killername_and_clan"
+msgstr "Uništen sudaranjem ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead3"
+msgstr "Razbijeno"
+
+msgid "common/vehicleState/dead30"
+msgstr "Uništeno pucnjem"
+
+msgid "common/vehicleState/dead30_with_killername"
+msgstr "Uništen hicem ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead30_with_killername_and_clan"
+msgstr "Uništen hicem ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead35"
+msgstr "Razbijeno"
+
+msgid "common/vehicleState/dead3_with_killername"
+msgstr "Razbijen ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead3_with_killername_and_clan"
+msgstr "Razbijen ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead4"
+msgstr "Uništeno zonom smrti"
+
+msgid "common/vehicleState/dead5"
+msgstr "Vozilo potopljeno"
+
+msgid "common/vehicleState/dead5_with_killername"
+msgstr "Vozilo se utopilo ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead5_with_killername_and_clan"
+msgstr "Vozilo se utopilo ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead6"
+msgstr "Uništenje Vatrenom olujom"
+
+msgid "common/vehicleState/dead7"
+msgstr "Uništen prevrtanjem"
+
+msgid "common/vehicleState/dead7_with_killername"
+msgstr "Uništen prevrtanjem ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead7_with_killername_and_clan"
+msgstr "Uništen prevrtanjem ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/prematureLeave"
+msgstr "Odustani prije kraja bitke."
+
+msgid "common/vehicleState/victory"
+msgstr "Pobjeda!"
+
+msgid "common/wotPlusBonus/bonusLeft"
+msgstr "Preostalo danas: %(count)s"
+
+msgid "common/xpMultiplierSign"
+msgstr "x"
+
+msgid "comms/likes/pbs/text/01"
+msgstr "Primljene pohvale u ovoj bitci"
+
+msgid "comms/likes/pbs/tooltip/body"
+msgstr "{{var}} saveznika vas je pohvalilo u ovoj bitci."
+
+msgid "comms/likes/pbs/tooltip/bodySingle"
+msgstr "{{var}} saveznik vas je pohvalio u ovoj bitci."
+
+msgid "comms/likes/pbs/tooltip/header"
+msgstr "Pohvalnice primljene"
+
+msgid "conditions/type/and"
+msgstr "I"
+
+msgid "conditions/type/or"
+msgstr "ILI"
+
+msgid "customizationProgress/award/newLevel"
+msgstr "Razina %(level)s naljepnce \"%(name)s\" dosegnuta."
+
+msgid "customizationProgress/award/received"
+msgstr "Naljepnica \"%(name)s\" primljena %(count)s."
+
+msgid "customizationProgress/descr"
+msgstr "Razina %(level)s naljepnce \"%(name)s\""
+
+msgid "cyberSport/btnToTeamProfile"
+msgstr "Profil tima"
+
+msgid "cyberSport/points"
+msgstr "Bodovi:"
+
+msgid "cyberSport/status/lose"
+msgstr "Poraz"
+
+msgid "cyberSport/status/tie"
+msgstr "Nerješeno"
+
+msgid "cyberSport/status/win"
+msgstr "Pobjeda!"
+
+msgid "details/calculations/additionalBonus"
+msgstr "Izvedivi bonus na iskustvo"
+
+msgid "details/calculations/aogasFactor"
+msgstr "Koeficijent smanjivanja (AOGAS)"
+
+msgid "details/calculations/autoBoosters"
+msgstr "Smjernice automatske opskrbe"
+
+msgid "details/calculations/autoEquip"
+msgstr "Auto obnavljanje potrošnog materijala"
+
+msgid "details/calculations/autoLoad"
+msgstr "Popunjavanje streljiva"
+
+msgid "details/calculations/autoRepair"
+msgstr "Automatski popravak vozila"
+
+msgid "details/calculations/autoResupply"
+msgstr "Auto-opskrba"
+
+msgid "details/calculations/base"
+msgstr "Zarađeno za bitku"
+
+msgid "details/calculations/battlePayments"
+msgstr "Bojne isplate"
+
+msgid "details/calculations/boosters"
+msgstr "Bonus osobnih pričuva"
+
+msgid "details/calculations/crystal/events"
+msgstr "Za izvršenje zadataka"
+
+msgid "details/calculations/crystal/total"
+msgstr "Za posebno svojstvo vozila"
+
+msgid "details/calculations/event"
+msgstr "Nagrada za izvršene zadatke i akcije"
+
+msgid "details/calculations/fairPlayViolation/afk"
+msgstr "Kazna za neaktivnost u bitci"
+
+msgid "details/calculations/fairPlayViolation/comp7_deserter"
+msgstr "Kazna za dezerterstvo"
+
+msgid "details/calculations/fairPlayViolation/comp7_light_deserter"
+msgstr "Kazna za dezerterstvo"
+
+msgid "details/calculations/fairPlayViolation/deserter"
+msgstr "Kazna za dezerterstvo"
+
+msgid "details/calculations/fairPlayViolation/epic_deserter"
+msgstr "Kazna za dezerterstvo"
+
+msgid "details/calculations/fairPlayViolation/event_afk"
+msgstr "Kazna za neaktivnost u bitci"
+
+msgid "details/calculations/fairPlayViolation/event_deserter"
+msgstr "Kazna za dezerterstvo"
+
+msgid "details/calculations/fairPlayViolation/suicide"
+msgstr "Kazna za namjerno samouništenje"
+
+msgid "details/calculations/firstWin"
+msgstr "Nagrada za prvu pobjedu svakog dana"
+
+msgid "details/calculations/fortOrder"
+msgstr "Bonus za korištene pričuve"
+
+msgid "details/calculations/friendlyFireCompensation"
+msgstr "Kompenzacija za štetu od strane saveznika"
+
+msgid "details/calculations/friendlyFirePenalty"
+msgstr "Kazna za uzrokovanje štete saveznicima"
+
+msgid "details/calculations/friendlyFireRankedXpPenalty"
+msgstr "Kazna za ošamućenje ili oštećenje saveznika"
+
+msgid "details/calculations/heavyTrucks"
+msgstr "Prijevoz velikog kapaciteta"
+
+msgid "details/calculations/igrBonus"
+msgstr "Nagrada za igranje na %(igrIcon)s"
+
+msgid "details/calculations/igrBonus/simpleLabel"
+msgstr "IGR bonus"
+
+msgid "details/calculations/intermediateTotal"
+msgstr "Ukupna količina za bitku:"
+
+msgid "details/calculations/manageableXpBonus"
+msgstr "Upravljivi bonus iskustva"
+
+msgid "details/calculations/maximum"
+msgstr "maksimalno"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "Za vojne manevre"
+
+msgid "details/calculations/multiplierInfo/body"
+msgstr "Povećano iskustvo za za prvu pobjedu svakog dana se dodaje sljedećim vozilima:"
+
+msgid "details/calculations/multiplierInfo/header"
+msgstr "Nagrada za prvu pobjedu svakog dana"
+
+msgid "details/calculations/multiplierInfo/vehicleSeparator"
+msgstr "• "
+
+msgid "details/calculations/noPenalty"
+msgstr "Za hrabri otpor"
+
+msgid "details/calculations/petCredits/fullLabel"
+msgstr "Bonus ljubimca (%(bonusFactor)d%)"
+
+msgid "details/calculations/petCredits/simpleLabel"
+msgstr "Bonus ljubimca"
+
+msgid "details/calculations/piggyBankInfo"
+msgstr "Dodano u zalihu pričuva"
+
+msgid "details/calculations/playerRankXP"
+msgstr "Bonus ranga"
+
+msgid "details/calculations/premiumVehicleXP"
+msgstr "Bonus za razinu premium vozila"
+
+msgid "details/calculations/referralBonus"
+msgstr "Bonus preporuke (%(bonusFactor)d%%)"
+
+msgid "details/calculations/referralBonus/fullLabel"
+msgstr "Bonus preporuke (%(bonusFactor)d%)"
+
+msgid "details/calculations/referralBonus/simpleLabel"
+msgstr "Bonus preporuke"
+
+msgid "details/calculations/squad/restrictions/title"
+msgstr "Za igru vodom"
+
+msgid "details/calculations/squadBonus"
+msgstr "Bonus za igru u vodu"
+
+msgid "details/calculations/squadXP"
+msgstr "Za igranje u vodu"
+
+msgid "details/calculations/squadXPPenalty"
+msgstr "Kazna zbog neprikladnog sastava voda"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "Za taktički trening"
+
+msgid "details/calculations/title/base"
+msgstr "Zarađeno za bitku"
+
+msgid "details/calculations/title/expenses"
+msgstr "Troškovi"
+
+msgid "details/calculations/title/total"
+msgstr "Ukupno"
+
+msgid "details/calculations/total"
+msgstr "Ukupno:"
+
+msgid "details/calculations/wotPlus"
+msgstr "WoT Plus bonus bitke"
+
+msgid "details/calculations/wotPlusBonus"
+msgstr "WoT Plus bonus bitke"
+
+msgid "details/calculations/wotPlusProBoost"
+msgstr "WoT Plus Pro pojačanje"
+
+msgid "details/calculations/xpRecord"
+msgstr "Primljeno (%(color_tag_open)s najviše %(color_tag_close)s)"
+
+msgid "details/calculations/xpRecordSimple"
+msgstr "Primljeno (%(maximum)s)"
+
+msgid "details/credits"
+msgstr "Krediti"
+
+msgid "details/crystal"
+msgstr "Obveznice"
+
+msgid "details/noPrem"
+msgstr "Standardni račun"
+
+msgid "details/prem"
+msgstr "Wargaming Premium"
+
+msgid "details/premPlus"
+msgstr "WoT Premium"
+
+msgid "details/resource"
+msgstr "Industrijski resurs"
+
+msgid "details/stats"
+msgstr "Statistika"
+
+msgid "details/time"
+msgstr "Vrijeme"
+
+msgid "details/time/lbl_arenaCreateTimeOnlyStr"
+msgstr "Početak bitke"
+
+msgid "details/time/lbl_basesCaptured"
+msgstr "Osvojeno zona"
+
+msgid "details/time/lbl_duration"
+msgstr "Trajanje bitke"
+
+msgid "details/time/lbl_objectivesDestroyed"
+msgstr "Uništeno ciljeva"
+
+msgid "details/time/lbl_objectivesReached"
+msgstr "Dosegnuto ciljeva"
+
+msgid "details/time/lbl_playerKilled"
+msgstr "Vrijeme uništenja"
+
+msgid "details/time/val_no"
+msgstr "Ne"
+
+msgid "details/time/val_yes"
+msgstr "Da"
+
+msgid "details/time/value"
+msgstr "%(min)s min %(sec)s s"
+
+msgid "details/time_epic"
+msgstr "Bitka"
+
+msgid "details/xp"
+msgstr "Iskustvo"
+
+msgid "details/xp_abbr"
+msgstr "iskustvo"
+
+msgid "exterminationVictory/allies"
+msgstr "Tvoj tim je uništio sva neprijateljska vozila"
+
+msgid "exterminationVictory/enemies"
+msgstr "Neprijatelj je uništio sva vozila u tvojem timu"
+
+msgid "fallout/classic/lose/cap"
+msgstr "Neprijateljski tim je zaradio više bodova pobjede nego tvoj tim"
+
+msgid "fallout/classic/lose/extermination"
+msgstr "Neprijatelj je uništio sva vozila u tvojem timu"
+
+msgid "fallout/classic/lose/points"
+msgstr "Neprijateljski tim je zaradio više bodova pobjede nego tvoj tim"
+
+msgid "fallout/classic/tie"
+msgstr "Oba tima su zaradila jednak broj bodova pobjede"
+
+msgid "fallout/classic/win/cap"
+msgstr "Vaš tim je zaradio više bodova pobjede od neprijatelja"
+
+msgid "fallout/classic/win/extermination"
+msgstr "Tvoj tim je uništio sva neprijateljska vozila"
+
+msgid "fallout/classic/win/points"
+msgstr "Vaš tim je zaradio više bodova pobjede od neprijatelja"
+
+msgid "fallout/multiteam/ended"
+msgstr "Cilj nije ostvaren"
+
+msgid "fallout/multiteam/noPlayerSelected"
+msgstr "Odaberite igrača s liste\nza pregled detalja."
+
+msgid "fallout/multiteam/win/cap"
+msgstr "Vaš tim je zaradio više bodova pobjede od neprijatelja"
+
+msgid "fallout/multiteam/win/extermination"
+msgstr "Svi odredi protivnika uništeni"
+
+msgid "fallout/multiteam/win/points"
+msgstr "Vaš tim je zaradio više bodova pobjede od neprijatelja"
+
+msgid "finish/clanBattle_reason_attack/1lose"
+msgstr "Struktura %(buildingName)s nije zauzeta"
+
+msgid "finish/clanBattle_reason_attack/1tie"
+msgstr "Struktura %(buildingName)s zauzeta"
+
+msgid "finish/clanBattle_reason_attack/1win"
+msgstr "Struktura zauzeta: %(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1lose"
+msgstr "Struktura %(buildingName)s zauzeta od strane neprijatelja"
+
+msgid "finish/clanBattle_reason_def/1tie"
+msgstr "Struktura %(buildingName)s nije zauzeta"
+
+msgid "finish/clanBattle_reason_def/1win"
+msgstr "Struktura obranjena: %(buildingName)s"
+
+msgid "finish/clarification/finishAllPlayersLeft"
+msgstr "Rezultat se izračunava na temelju preostalih informacija o timovima"
+
+msgid "finish/overtime/lose"
+msgstr "Neprijatelj nije uništen"
+
+msgid "finish/overtime/win"
+msgstr "Neprijatelj uništen"
+
+msgid "finish/playerTank/separator"
+msgstr "–"
+
+msgid "finish/reason/0"
+msgstr "Nepoznati razlog"
+
+msgid "finish/reason/10lose"
+msgstr "Ciljevi su preživjeli"
+
+msgid "finish/reason/10win"
+msgstr "Uništeno ciljeva"
+
+msgid "finish/reason/1lose"
+msgstr "Sva saveznička vozila uništena"
+
+msgid "finish/reason/1tie"
+msgstr "Sva vozila uništena"
+
+msgid "finish/reason/1win"
+msgstr "Sva neprijateljska vozila uništena"
+
+msgid "finish/reason/2"
+msgstr "Zauzeće baze"
+
+msgid "finish/reason/3"
+msgstr "Vrijeme bitke je isteklo"
+
+msgid "finish/reason/4"
+msgstr "Bitka je završila zbog kvara u sustavu"
+
+msgid "finish/reason/5"
+msgstr "Tehnički poraz"
+
+msgid "finish/reason/8"
+msgstr "Saveznik uništen"
+
+msgid "finish/reason/9"
+msgstr "Vaše vozilo je uništeno"
+
+msgid "garage/uniqueDamage"
+msgstr "Računa se samo jedinstveni kritični pogodak."
+
+msgid "getPremiumPopover/actionBtn/label"
+msgstr "Odaberi trajanje"
+
+msgid "getPremiumPopover/award"
+msgstr "+50% kredita i iskustva"
+
+msgid "getPremiumPopover/descriptionText"
+msgstr "Kupi %(prem)s i zaradi %(award)s za sve sljedeće odigrane bitke"
+
+msgid "getPremiumPopover/headerText"
+msgstr "Za ovu bitku možeš zaraditi:"
+
+msgid "getPremiumPopover/prem"
+msgstr "Premium račun"
+
+msgid "missionsProgress/aboutVehicle/button"
+msgstr "Na istraživanje"
+
+msgid "missionsProgress/aboutVehicle/description"
+msgstr "Dostupno za istraživanje"
+
+msgid "missionsProgress/aboutVehicle/prediction"
+msgstr "Preostalo bitaka (otprilike): {{prediction}}"
+
+msgid "missionsProgress/aboutVehicle/title"
+msgstr "O VOZILU"
+
+msgid "missionsProgress/battleMatters/doneInfo"
+msgstr "Zadatak #{{name}} izvršen."
+
+msgid "missionsProgress/battleMatters/title"
+msgstr "TENKOVSKA AKADEMIJA"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/module"
+msgstr "NOVI MODUL OTKLJUČAN!"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/vehicle"
+msgstr "NOVO VOZILO OTKLJUČANO!"
+
+msgid "missionsProgress/notificationsTabs/battleMatters"
+msgstr "IZVRŠEN ZADATAK AKADEMIJE!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/chapterComplete"
+msgstr "POGLAVLJE ZAVRŠENO!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/stageComplete"
+msgstr "ETAPA ZAVRŠENA!"
+
+msgid "missionsProgress/notificationsTabs/challenge"
+msgstr "ZADATAK KUŠNJE IZVRŠEN!"
+
+msgid "missionsProgress/notificationsTabs/common"
+msgstr "ZADATAK IZVRŠEN!"
+
+msgid "missionsProgress/notificationsTabs/daily"
+msgstr "DNEVNI ZADATAK IZVRŠEN!"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/maxLevel"
+msgstr "NAJVEĆA ELITNA RAZINA"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/newLevel"
+msgstr "NOVA ELITNA RAZINA"
+
+msgid "missionsProgress/notificationsTabs/epic"
+msgstr "EPSKI ZADATAK IZVRŠEN!"
+
+msgid "missionsProgress/notificationsTabs/personalMissions/operation_mission_complete"
+msgstr "ZADATAK OPERACIJE IZVRŠEN!"
+
+msgid "missionsProgress/notificationsTabs/premium"
+msgstr "PREMIUM ZADATAK IZVRŠEN!"
+
+msgid "missionsProgress/notificationsTabs/weekly"
+msgstr "TJEDNI ZADATAK IZVRŠEN!"
+
+msgid "noData"
+msgstr "Žao nam je, rezultati bitke nisu dostupni."
+
+msgid "personalQuest/bonus/descr"
+msgstr "vaš napredak po osnovnom uvjetu u ovoj bitci je umnožen %(value)s puta."
+
+msgid "personalQuest/bonus/multiplier"
+msgstr "x%(value)s množitelj:"
+
+msgid "personalQuest/failed/attention"
+msgstr "Pozor!"
+
+msgid "personalQuest/failed/descr"
+msgstr "Vaš napredak na zadatku je poništen. Izvršenje uvjeta će biti pokrenuto ponovno."
+
+msgid "players/enemy/unknown"
+msgstr "Neprijatelj"
+
+msgid "players/teammate/unknown"
+msgstr "Igrač"
+
+msgid "prestige/common/description"
+msgstr "Osvojeno elitnih bodova:"
+
+msgid "prestige/max/description"
+msgstr "Dosegnuta je najveća elitna razina."
+
+msgid "prestige/maxLevelReached/description"
+msgstr "Dosegnuta je najveća elitna razina"
+
+msgid "prestige/newLevelAchieved/description"
+msgstr "Dosegnuta je nova elitna razina"
+
+msgid "prestige/title"
+msgstr "Elitni sustav"
+
+msgid "progression/completed"
+msgstr "Završeno"
+
+msgid "progression/completedPointsFrom/withLabel"
+msgstr "{{@class $labelClass}}Izvršeno:{{/}} {{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/completedPointsFrom/withoutLabel"
+msgstr "{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/linkBtn/info"
+msgstr "Klik za pregled detaljnih informacija."
+
+msgid "progression/missionsCompleteCounter"
+msgstr "{{@class $labelClass}}Izvršeno:{{/}} {{completed}}"
+
+msgid "progression/progressUnavailable"
+msgstr "Elitni sustav je trenutno nedostupan. Molim, pokušajte ponovno kasnije."
+
+msgid "progression/totalEarned"
+msgstr "Ukupno zarađeno: {{value}}"
+
+msgid "progressiveReward/descr"
+msgstr "Bori se u bitkama i zaradi nagrade. Što više pobjeđujete, to ste bliži nagradama."
+
+msgid "selectVehicle"
+msgstr "Odaberi vozilo"
+
+msgid "status/lose"
+msgstr "PORAZ"
+
+msgid "status/tie"
+msgstr "NERIJEŠENO"
+
+msgid "status/win"
+msgstr "POBJEDA"
+
+msgid "tankSelector/next"
+msgstr "Sljedeće vozilo s"
+
+msgid "team/damageAndConsumablesHeader/body"
+msgstr "Poredaj po nanesenoj šteti,\nuključujuči i štetu od borbenih pričuva."
+
+msgid "team/damageAndConsumablesHeader/header"
+msgstr "Nanesena šteta"
+
+msgid "team/damageHeader/body"
+msgstr "Poredaj po šteti uzrokovanoj neprijateljskim vozilima."
+
+msgid "team/damageHeader/header"
+msgstr "Nanesena šteta"
+
+msgid "team/damageHeaderNoSort/header"
+msgstr "Nanesena šteta"
+
+msgid "team/deaths/body"
+msgstr "Poredaj po broju uništenih igrača vozila u bitci."
+
+msgid "team/deaths/header"
+msgstr "Uništeno vozila"
+
+msgid "team/deathsNoSort/header"
+msgstr "Uništeno vozila"
+
+msgid "team/epicRankHeader/body"
+msgstr "Poredaj po dosegnutim rangovima u bitci."
+
+msgid "team/epicRankHeader/header"
+msgstr "Rang"
+
+msgid "team/epicRespawnHeader/body"
+msgstr "Poredaj po količini ulazaka u bitku."
+
+msgid "team/epicRespawnHeader/header"
+msgstr "Količina ulazaka"
+
+msgid "team/falloutFragHeader/body"
+msgstr "Poredaj po uništenim neprijateljskim vozilima,\nuključujuči i štetu od borbenih pričuva."
+
+msgid "team/falloutFragHeader/header"
+msgstr "Uništeno neprijateljskih vozila"
+
+msgid "team/falloutResourcePoints/body"
+msgstr "Poredaj po zarađenim resursima."
+
+msgid "team/falloutResourcePoints/header"
+msgstr "Resursi"
+
+msgid "team/flags/body"
+msgstr "Poredaj po broju isporučenih zastava."
+
+msgid "team/flags/header"
+msgstr "Isporučeno zastava"
+
+msgid "team/flagsNoSort/header"
+msgstr "Isporučeno zastava"
+
+msgid "team/fragHeader/body"
+msgstr "Poredaj po broju uništenih neprijateljskih vozila."
+
+msgid "team/fragHeader/header"
+msgstr "Uništeno neprijateljskih vozila"
+
+msgid "team/fragHeaderNoSort/header"
+msgstr "Uništeno neprijateljskih vozila"
+
+msgid "team/healthHeader/body"
+msgstr "Poredaj po preostalom HP."
+
+msgid "team/healthHeader/header"
+msgstr "Izdržljivost"
+
+msgid "team/medalHeader/body"
+msgstr "Poredaj po broju primljenih nagrada."
+
+msgid "team/medalHeader/header"
+msgstr "Nagrade"
+
+msgid "team/playerHeader/body"
+msgstr "Poredaj po imenu igrača."
+
+msgid "team/playerHeader/header"
+msgstr "Ime"
+
+msgid "team/playerHeaderNoSort/header"
+msgstr "Ime"
+
+msgid "team/playerNumber/body"
+msgstr "Poredaj po broju igrača u timu."
+
+msgid "team/playerNumber/header"
+msgstr "Broj"
+
+msgid "team/rankHeader/body"
+msgstr "Sortiraj po rangu."
+
+msgid "team/rankHeader/header"
+msgstr "Rang"
+
+msgid "team/resourceHeader/body"
+msgstr "Poredaj po količini zarađenih Industrijskih Resursa."
+
+msgid "team/resourceHeader/header"
+msgstr "Industrijski resurs"
+
+msgid "team/squadHeader/body"
+msgstr "Poredaj prema vodu."
+
+msgid "team/squadHeader/header"
+msgstr "Vod"
+
+msgid "team/squadHeaderNoSort/header"
+msgstr "Vod"
+
+msgid "team/stats/allies"
+msgstr "Saveznici"
+
+msgid "team/stats/close"
+msgstr "Zatvori"
+
+msgid "team/stats/enemies"
+msgstr "Neprijatelji"
+
+msgid "team/stats/enemyTeam"
+msgstr "Neprijatelj"
+
+msgid "team/stats/infotip_xpForAssist/body"
+msgstr "Računa se kao pomoć:\n• Šteta nanešena od strane saveznika po vašem otkrivanju, uništenju gusjenica s imobiliziranjem ili ošamućenja neprijateljskih vozila\n• Osvajanje baze\n• Prvo otkrivanje neprijateljskih vozila."
+
+msgid "team/stats/infotip_xpForAssist/header"
+msgstr "Za pomoć"
+
+msgid "team/stats/infotip_xpForAttack/body"
+msgstr "Računa se kao doprinos:\n• Šteta koju ste nanijeli\n• Vozila koja ste uništili\n• Oštećeni moduli\n• Bonus za štetu koju je nanio vaš tim\n•Kazna za ošamućenje ili oštećenje saveznika."
+
+msgid "team/stats/infotip_xpForAttack/header"
+msgstr "Za nanešenu štetu i uništena vozila"
+
+msgid "team/stats/infotip_xpOther/body"
+msgstr "Dodatni bonusi za učinkovitu igru koja nije naznačena u prethodnim dijelovima."
+
+msgid "team/stats/infotip_xpOther/header"
+msgstr "Za sukladnost s ulogom vozila"
+
+msgid "team/stats/labels_artilleryFortEquipDamageDealt"
+msgstr "\ttopničkim udarom"
+
+msgid "team/stats/labels_atkObjectives"
+msgstr "Osvojeno zona / uništeno ciljeva"
+
+msgid "team/stats/labels_capturePointsVal"
+msgstr "Bodovi obrane/zauzeća baze"
+
+msgid "team/stats/labels_capturedPointsOfInterest"
+msgstr "Osvojeno Točaka interesa"
+
+msgid "team/stats/labels_damageAssisted"
+msgstr "Šteta uzrokovana igračevom pomoći"
+
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "Šteta uzrokovana vašom pomoći"
+
+msgid "team/stats/labels_damageAssistedStun"
+msgstr "Šteta neprijateljskim vozilima koje je ošamutio ovaj igrač"
+
+msgid "team/stats/labels_damageAssistedStunSelf"
+msgstr "Šteta neprijateljskim vozilima koje ste ošamutili"
+
+msgid "team/stats/labels_damageBlockedByArmor"
+msgstr "Šteta blokirana od oklopa"
+
+msgid "team/stats/labels_damageDealt"
+msgstr "Ukupna šteta:"
+
+msgid "team/stats/labels_damageDealtByOrder"
+msgstr "\tUključujuči od borbenih pričuva"
+
+msgid "team/stats/labels_damageDealtBySkills"
+msgstr "\tuključujući korištene vještine"
+
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\tšteta nanesena neprijateljskom timu"
+
+msgid "team/stats/labels_damagedKilled"
+msgstr "Oštećeno/uništeno neprijateljskih vozila"
+
+msgid "team/stats/labels_deaths"
+msgstr "Broj vaših vozila uništenih u bitci"
+
+msgid "team/stats/labels_defObjectives"
+msgstr "Obranjene zone / ciljevi"
+
+msgid "team/stats/labels_destroyRecoveryRatio"
+msgstr "Broj vlastitih uništenih / oporavljenih vozila"
+
+msgid "team/stats/labels_destructiblesDamageDealt"
+msgstr "\tciljevima"
+
+msgid "team/stats/labels_directHits"
+msgstr "\tizravni pogoci"
+
+msgid "team/stats/labels_directHitsReceived"
+msgstr "Primljeno hitaca"
+
+msgid "team/stats/labels_equipmentDamageAssisted"
+msgstr "\tzbog učinka borbenih pričuva"
+
+msgid "team/stats/labels_equipmentDamageDealt"
+msgstr "\ts borbenim pričuvama"
+
+msgid "team/stats/labels_explosionHits"
+msgstr "\tšteta od fugasnih granata"
+
+msgid "team/stats/labels_explosionHitsReceived"
+msgstr "Primljeni pogoci od oštećenja rasprskavanjem"
+
+msgid "team/stats/labels_flags"
+msgstr "Isporučene zastave"
+
+msgid "team/stats/labels_healed"
+msgstr "Obnovljeno HP (vašeg/savezničkog)"
+
+msgid "team/stats/labels_hits"
+msgstr "\tdirektni pogoci/proboji"
+
+msgid "team/stats/labels_killed"
+msgstr "Uništeno neprijateljskih vozila"
+
+msgid "team/stats/labels_killsByOrder"
+msgstr "\tUključujuči od borbenih pričuva"
+
+msgid "team/stats/labels_mileage"
+msgstr "Pređeno km"
+
+msgid "team/stats/labels_noDamageDirectHitsReceived"
+msgstr "\tneprobijajući"
+
+msgid "team/stats/labels_piercingHits"
+msgstr "\tproboji"
+
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\tproboji"
+
+msgid "team/stats/labels_roleSkillUsed"
+msgstr "Korištene vještine uloga"
+
+msgid "team/stats/labels_shots"
+msgstr "Ispaljeno hitaca"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\ts udaljenosti veće od 300 m"
+
+msgid "team/stats/labels_spotted"
+msgstr "Otkriveno neprijateljskih vozila"
+
+msgid "team/stats/labels_stunDuration"
+msgstr "Ukupno trajanje uzrokovanih ošamućenja, s"
+
+msgid "team/stats/labels_stunNum"
+msgstr "Naneseno ošamućenja"
+
+msgid "team/stats/labels_teamHitsDamage"
+msgstr "Šteta uzrokovana saveznicima (uništeni/HP)"
+
+msgid "team/stats/labels_timesDestroyed"
+msgstr "Broj uništenih vozila"
+
+msgid "team/stats/labels_xp"
+msgstr "Ukupno zarađeno iskustvo"
+
+msgid "team/stats/labels_xpForAssist"
+msgstr "\tza pomoć"
+
+msgid "team/stats/labels_xpForAttack"
+msgstr "\tza nanošenje štete i uništenje"
+
+msgid "team/stats/labels_xpOther"
+msgstr "\tza sukladnost s ulogom vozila"
+
+msgid "team/stats/mileage"
+msgstr "?empty?"
+
+msgid "team/stats/ownTeam"
+msgstr "Saveznici"
+
+msgid "team/stats/parameter/artilleryFortEquipDamageDealt"
+msgstr "topničkim udarom"
+
+msgid "team/stats/parameter/capturePointsVal"
+msgstr "Bodovi obrane/zauzeća baze"
+
+msgid "team/stats/parameter/damageAssisted"
+msgstr "Šteta uzrokovana igračevom pomoći"
+
+msgid "team/stats/parameter/damageAssistedSelf"
+msgstr "Šteta uzrokovana vašom pomoći"
+
+msgid "team/stats/parameter/damageAssistedStun"
+msgstr "Šteta neprijateljskim vozilima koje je ošamutio ovaj igrač"
+
+msgid "team/stats/parameter/damageAssistedStunSelf"
+msgstr "Šteta neprijateljskim vozilima koje ste ošamutili"
+
+msgid "team/stats/parameter/damageBlockedByArmor"
+msgstr "Šteta blokirana od oklopa"
+
+msgid "team/stats/parameter/damageDealt"
+msgstr "Ukupna šteta"
+
+msgid "team/stats/parameter/damagedKilled"
+msgstr "Oštećeno/uništeno neprijateljskih vozila"
+
+msgid "team/stats/parameter/directHitsReceived"
+msgstr "Primljeno hitaca"
+
+msgid "team/stats/parameter/explosionHits"
+msgstr "šteta rasprskavanja"
+
+msgid "team/stats/parameter/explosionHitsReceived"
+msgstr "Primljeni pogoci od oštećenja rasprskavanjem"
+
+msgid "team/stats/parameter/hits"
+msgstr "izravni pogoci/proboji"
+
+msgid "team/stats/parameter/mileage"
+msgstr "Pređeno km"
+
+msgid "team/stats/parameter/noDamageDirectHitsReceived"
+msgstr "neprobijajući"
+
+msgid "team/stats/parameter/piercingsReceived"
+msgstr "proboji"
+
+msgid "team/stats/parameter/shots"
+msgstr "Ispaljeno hitaca"
+
+msgid "team/stats/parameter/sniperDamageDealt"
+msgstr "s udaljenosti veće od 300 metara"
+
+msgid "team/stats/parameter/spotted"
+msgstr "Otkriveno neprijateljskih vozila"
+
+msgid "team/stats/parameter/stunDuration"
+msgstr "Ukupno trajanje uzrokovanih ošamućenja, s"
+
+msgid "team/stats/parameter/stunNum"
+msgstr "Naneseno ošamućenja"
+
+msgid "team/stats/parameter/teamHitsDamage"
+msgstr "Šteta uzrokovana saveznicima (uništeni/HP)"
+
+msgid "team/tankHeader/body"
+msgstr "Poredaj prema mjestu na timskom spisku"
+
+msgid "team/tankHeader/header"
+msgstr "Vozila"
+
+msgid "team/teamInfluenceTotal"
+msgstr "Iskustvo zarađeno od strane odreda: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamResourceTotal"
+msgstr "Industrijski Resursi koje je zaradio odred: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamScore/body"
+msgstr "Poredaj po broju zarađenih bodova pobjede."
+
+msgid "team/teamScore/header"
+msgstr "Bodovi pobjede tima"
+
+msgid "team/victoryScore/body"
+msgstr "Poredaj po broju zarađenih bodova pobjede."
+
+msgid "team/victoryScore/header"
+msgstr "Bodovi pobjede igrača"
+
+msgid "team/victoryScoreNoSort/header"
+msgstr "Bodovi pobjede igrača"
+
+msgid "team/xpHeader/body"
+msgstr "Poredaj prema XP"
+
+msgid "team/xpHeader/header"
+msgstr "Iskustvo"
+
+msgid "team/xpHeaderNoSort/header"
+msgstr "Iskustvo"
+
+msgid "tooltips/stats/footer/text"
+msgstr "%(label)s&nbsp;%(type)s"
+
+msgid "victoryScore"
+msgstr "Zarađenih bodova pobjede"

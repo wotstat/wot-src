@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "Energetyczny pocisk jest gotowy do użycia."
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "Wampiryczny pocisk jest gotowy do użycia."
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "Ogłuszający pocisk jest gotowy do użycia."
+
+msgid "LS_damageShieldReady"
+msgstr "Tarcza energii jest gotowa do użycia."
+
+msgid "LS_doubleDamageReady"
+msgstr "Podwójne uszkodzenia są gotowe do użycia."
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "Sytuacyjne uszkodzenia są gotowe."
+
+msgid "LS_fastReloadReady"
+msgstr "Szybkie przeładowanie jest gotowe do użycia."
+
+msgid "LS_healSituationalReady"
+msgstr "Sytuacyjna naprawa jest gotowa."
+
+msgid "LS_invisibilityReady"
+msgstr "Skryte leczenie jest gotowe do użycia."
+
+msgid "LS_nitroReady"
+msgstr "Turbosprężarka jest gotowa do użycia."
+
+msgid "LS_pickupSouls"
+msgstr "Zebrałeś %(souls)s szt. Mirium"
+
+msgid "LS_selfRepairReady"
+msgstr "Naprawy awaryjne są gotowe do użycia."
+
+msgid "LS_situationalNitroReady"
+msgstr "Sytuacyjna mobilność jest gotowa."
+
+msgid "LS_teamRepairKitReady"
+msgstr "Naprawy grupowe są gotowe do użycia."
+
+msgid "LS_teamRepairKitUsed"
+msgstr "Gracz %(player)s aktywował Naprawy grupowe."
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "Aktywowano naprawy grupowe."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "Uwaga na strefę: %(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "Bronić ATLASa!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "BROŃ ATLASA"
+
+msgid "arena/marker/move_to_camp"
+msgstr "Jadę do strefy!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "Bronię ATLASa"
+
+msgid "arena/phase"
+msgstr "Faza %(current)s z %(total)s"
+
+msgid "arena/wave"
+msgstr "Fala %(current)s z %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Nadciągają&nbsp;Jeże!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Nadciąga&nbsp;Jeż Alfa!"
+
+msgid "battleHint/clearTheArea"
+msgstr "Oczyść okolicę!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "Szybko! Zero jest niedaleko&nbsp;ATLASa!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "Zero zniszczony!\nPozostali przeciwnicy: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "Przeciwnicy do zniszczenia: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "dane, %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Naprawiono pojazdy"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "Przyznano tarczę"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "Ogłuszono przeciwników"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "Obelisk %(name)s zniszczony!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "regeneracji"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "bariery"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "usterki"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "Wykryto punkty odradzania! Przeciwnik nadchodzi!"
+
+msgid "battleHint/hunter"
+msgstr "Nadciągają&nbsp;Łowcy!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "Fala zniszczona!"
+
+msgid "battleHint/leftToDestroy"
+msgstr "Przeciwnicy do zniszczenia:"
+
+msgid "battleHint/missing_squad"
+msgstr "Nadciąga Zaginiony pluton!"
+
+msgid "battleHint/newWave"
+msgstr "Fala {current} z {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "Pojawił się obelisk!"
+
+msgid "battleHint/stopConvoy"
+msgstr "Powstrzymać Zero!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "Powstrzymać Zero,\nzanim dotrze do ATLASa!"
+
+msgid "battleHint/trapper"
+msgstr "Zniszcz Trapera, aby&nbsp;powstrzymać pojawianie się stref zniszczenia."
+
+msgid "battleHint/turret"
+msgstr "Obudziły się Komary!"
+
+msgid "battleHint/waveFinished"
+msgstr "Fala zniszczona!\nPrzegrupować się i przygotować!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "Przegrupować się i przygotować!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "Przybyły posiłki&nbsp;przeciwnika!"
+
+msgid "common/close"
+msgstr "ZAMKNIJ"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "Czas trwania: %(time)s s"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Uszkodzenia od strefy"
+
+msgid "damageLog/static_death_zone"
+msgstr "Uszkodzenia od strefy"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "Podpalono Pirokinezą"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "Uszkodzenia od Uderzenia energii"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "Uszkodzenia od wybuchów"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "Uszkodzenia od Życiokrada"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "Sytuacyjne uszkodzenia aktywowane"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "Sytuacyjna naprawa aktywowana"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "Uszkodzenia od Energetycznego pocisku"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "Uszkodzenia od Wampirycznego pocisku"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "Uszkodzenia od Ogłuszającego pocisku"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "Niewrażliwość modułów"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "Sytuacyjna mobilność aktywowana"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "Odnowienie"
+
+msgid "efficiencyRibbons/repair"
+msgstr "Pojazd naprawiony"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "Pojazd naprawiony przez"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "Pojazd naprawiony przez sojusznika"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "Sojusznicy naprawieni"
+
+msgid "eventStats/activeWave"
+msgstr "Fala %(num)s"
+
+msgid "eventStats/difficulty"
+msgstr "Poziom trudności: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "Ostatni bastion: Terra Nord"
+
+msgid "eventStats/globalTask"
+msgstr "Cel: Zniszczyć wszystkie fale przeciwnika"
+
+msgid "eventStats/mission"
+msgstr "Zniszczyć wszystkie fale przeciwnika"
+
+msgid "eventStats/tableCaption"
+msgstr "Członkowie oddziału"
+
+msgid "help/description_0"
+msgstr "Zniszcz wszystkie fale przeciwnika, aby zwyciężyć.\nPrzeciwnik staje się coraz silniejszy z każdą kolejną falą."
+
+msgid "help/description_1"
+msgstr "Odpowiednia kombinacja urządzeń taktycznych może się okazać naprawdę potężna.\nPamiętaj: dyrektywy i wszystkie typy pocisków w trybie Ostatni bastion są darmowe."
+
+msgid "help/description_2"
+msgstr "Zadawanie uszkodzeń obeliskowi przenosi ich część na pojazdy przeciwnika, a zniszczenie obelisku zapewnia losową premię."
+
+msgid "help/description_3"
+msgstr "Za wszelką cenę chroń ATLASa przed Zero, ostatecznym czołgiem echa. Jeśli dotrze do ATLASa, zniszczy go, a bitwa będzie przegrana."
+
+msgid "help/title"
+msgstr "OSTATNI BASTION: TERRA NORD"
+
+msgid "help/title_0"
+msgstr "FALE ATAKÓW PRZECIWNIKA"
+
+msgid "help/title_1"
+msgstr "PORADY NA PRZETRWANIE"
+
+msgid "help/title_2"
+msgstr "UŻYWAJ OBELISKÓW W BITWIE"
+
+msgid "help/title_3"
+msgstr "BROŃ ATLASA"
+
+msgid "helpScreen/hint/description"
+msgstr ", aby zobaczyć zasady trybu"
+
+msgid "helpScreen/hint/press"
+msgstr "Naciśnij"
+
+msgid "hitMarker/useless"
+msgstr "To nie działa!"
+
+msgid "loading/description_0"
+msgstr "Zniszcz wszystkie fale przeciwnika, aby zwyciężyć.\nPrzeciwnik staje się coraz silniejszy z każdą kolejną falą."
+
+msgid "loading/description_1"
+msgstr "Odpowiednia kombinacja urządzeń taktycznych może się okazać naprawdę potężna.\nPamiętaj: dyrektywy i wszystkie typy pocisków w trybie Ostatni bastion są darmowe."
+
+msgid "loading/description_2"
+msgstr "Zadawanie uszkodzeń obeliskowi przenosi ich część na pojazdy przeciwnika, a zniszczenie obelisku zapewnia losową premię."
+
+msgid "loading/description_3"
+msgstr "Za wszelką cenę chroń ATLASa przed Zero, ostatecznym czołgiem echa. Jeśli dotrze do ATLASa, zniszczy go, a bitwa będzie przegrana."
+
+msgid "loading/title"
+msgstr "Wczytywanie..."
+
+msgid "loading/title_0"
+msgstr "FALE ATAKÓW PRZECIWNIKA"
+
+msgid "loading/title_1"
+msgstr "PORADY NA PRZETRWANIE"
+
+msgid "loading/title_2"
+msgstr "UŻYWAJ OBELISKÓW W BITWIE"
+
+msgid "loading/title_3"
+msgstr "BROŃ ATLASA"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "Nie można użyć [%(name)s]: silnik jest zniszczony."
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "Nie można użyć [%(name)s]: działo jest uszkodzone."
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "Działo jest załadowane."
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "Nie można użyć [%(name)s]: za mało Mirium, aby aktywować urządzenie."
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "Pojazd nie jest uszkodzony."
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "Nie można użyć [%(name)s]: pojazd tonie."
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "Nie można użyć [%(name)s]: pojazd płonie."
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "Nie można użyć [%(name)s]: pojazd jest przewrócony."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Sojusznik %(target)s zniszczony od wybuchu przeciwnika (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Sojusznik %(target)s rozbił się."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Sojusznik %(target)s zniszczony przez strefę zniszczenia."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Sojusznik %(target)s został zniszczony."
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "Jeśli Twój oddział zdoła wyeliminować tę falę."
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "ODRODZISZ SIĘ"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "Twoja bitwa dobiegła końca.\nDobrze się spisałeś!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Pojazd zniszczony przez strefę zniszczenia"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "Pojazd zniszczony przez uderzenie energii"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "Pojazd zniszczony przez pirokinezę"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "Pojazd zniszczony przez Życiokrad"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "Pojazd zniszczony przez wybuch"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "Pojazd został rozbity"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Moduł [%(device)s] eksplodował po strzale gracza"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "Pojazd zniszczony przez pożar"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Pojazd zniszczony. Czas upłynął."
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "Pojazd zniszczony przez strzał przeciwnika"
+
+msgid "prebattle/description/message"
+msgstr "Cel: Zniszczyć wszystkie fale przeciwnika"
+
+msgid "prebattle/description/title"
+msgstr "Ostatni bastion – Poziom trudności: %(difficulty)s"
+
+msgid "prebattle/difficulty/107"
+msgstr "Zwykły"
+
+msgid "prebattle/difficulty/108"
+msgstr "Zaawansowany"
+
+msgid "prebattle/difficulty/109"
+msgstr "Brutalny"
+
+msgid "prebattle/waiting/title"
+msgstr "Oczekiwanie na graczy..."
+
+msgid "radialMenu/attention_here"
+msgstr "Poproś o obronę"
+
+msgid "radialMenu/cancel"
+msgstr "Anuluj"
+
+msgid "radialMenu/confirm"
+msgstr "Tak jest!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "Jadę do strefy!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "Bronię"
+
+msgid "radialMenu/obelisk"
+msgstr "Zajmę się obeliskiem!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "Zniszczyć obelisk!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "Tarcza energii"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "Z powrotem na dobrej drodze..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "Opuść\nstrefę zagrożenia!"
+
+msgid "teamList/teammates"
+msgstr "Sojusznicy"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "Wyłącz czat głosowy"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "Włącz czat głosowy"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "Naciśnij, aby mówić"

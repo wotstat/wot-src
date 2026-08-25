@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "OSTA"
+
+msgid "buttons/cancel"
+msgstr "Peruuta"
+
+msgid "buttons/learn"
+msgstr "Lue"
+
+msgid "buttons/postProgression/claim"
+msgstr "OTA VASTAAN"
+
+msgid "buttons/postProgression/hint"
+msgstr "MENE JÄLKIEDISTYMISEEN"
+
+msgid "buttons/postProgression/howTo"
+msgstr "MITEN SAADAAN"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Vaihtosuhde:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "Käytetään valitulle miehistön jäsenelle.\nNopeuttaa nykyisen pätevyyden koulutusta vapaata kokemusta käyttämällä."
+
+msgid "card/freeExp/title"
+msgstr "VAPAA KOKEMUS"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Pätevyystehokkuus: 100%\n• Erikoistuminen vaunuun: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Käytetään koko miehistölle.\nTarjoaa jokaiselle miehistön jäsenelle %(xp)"
+
+msgid "card/nationBook/title/brochure"
+msgstr "KOULUTUSVIHKO (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "KOULUTUSOHJE (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "KOULUTUSOPAS (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Voidaan käyttää ilman rajoituksia."
+
+msgid "card/personalBook/mainText"
+msgstr "Käytetään valitulle miehistön jäsenelle.\nTarjoaa tälle miehistön jäsenelle %(xp)"
+
+msgid "card/personalBook/title"
+msgstr "HENKILÖKOHTAINEN KOULUTUSOHJE"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Pätevyystehokkuus: 100%\n• Erikoistuminen vaunuun: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Käytetään koko miehistölle.\nTarjoaa jokaiselle miehistön jäsenelle %(xp)"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "YLEINEN KOULUTUSOHJE"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "YLEINEN KOULUTUSVIHKO"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "YLEINEN KOULUTUSOPAS"
+
+msgid "confirm/crewLabel"
+msgstr "Jokainen miehistön jäsen saa %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Jokainen miehistön jäsen saa %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) saa ylimääräiset %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) saa %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Osa miehistön jäsenistä saa %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Koulutusvihko (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Koulutusvihko"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "KOULUTUSVIHKO"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} miehistökokemusta kullekin miehistön jäsenelle."
+
+msgid "items/crewBook/Name"
+msgstr "Koulutusohje (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Koulutusohje"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "KOULUTUSOHJE"
+
+msgid "items/guide/Name"
+msgstr "Koulutusopas (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Koulutusopas"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "KOULUTUSOPAS"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} kokemusta valitulle miehistön jäsenelle"
+
+msgid "items/personalBook/Name"
+msgstr "Henkilökohtainen koulutusohje"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} miehistökokemusta kullekin miehistön jäsenelle."
+
+msgid "items/universalBook/Name"
+msgstr "Yleinen koulutusohje"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} kokemusta kullekin miehistön jäsenelle."
+
+msgid "items/universalBrochure/Name"
+msgstr "Yleinen koulutusvihko"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} kokemusta kullekin miehistön jäsenelle."
+
+msgid "items/universalGuide/Name"
+msgstr "Yleinen koulutusopas"
+
+msgid "page/mentoringLicense/hint"
+msgstr "MENE OPETUSLUPAAN"
+
+msgid "page/mentoringLicense/title"
+msgstr "OPETUSLUPA"
+
+msgid "page/title"
+msgstr "PIKAKOULUTUS"
+
+msgid "tooltip/buyManual"
+msgstr "Osta koulutusohje"
+
+msgid "tooltip/mouseWheel"
+msgstr "Vieritä {mouseIcon} kasvattaaksesi / vähentääksesi miehistökirjojen määrää."
+
+msgid "tooltip/outOfStock"
+msgstr "Miehistökirjoja ei ole jäljellä"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Miehistökirjoja ei ole jäljellä. Osta näitä miehistökirjoja Kaupasta."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Käytetään valitulle miehistön jäsenelle. Tarjoaa tälle miehistön jäsenelle %(xp)s kokemusta."
+
+msgid "tooltip/postProgression"
+msgstr "Mene jälkiedistymiseen"
+
+msgid "tooltip/sale/header"
+msgstr "Kannattava vaihtosuhde"
+
+msgid "tooltip/sale/newRate"
+msgstr "Uusi vaihtosuhde: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Edeltävä vaihtosuhde: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Paina %(controlsImg) nostaaksesi / laskeaksesi pätevyyden koulutustasoa 1%."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Paina %(pgupImg) / %(pgdownImg) parantaaksesi pätevyyden tasoksi&nbsp;100% / palataksesi&nbsp;edelliseen pätevyyteen."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Käytetään koko miehistölle. Tarjoaa jokaiselle miehistön jäsenelle %(xp)s kokemusta."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Käytetään koko miehistölle. Tarjoaa jokaiselle miehistön jäsenelle %(xp)s kokemusta."

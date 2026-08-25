@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "Verbleibende Zeit im Event: %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) – Spielmodus. Zum Erforschen klicken."
+
+msgid "bannerTooltip/description"
+msgstr "Ein besonderer PvE-Modus, in dem Sie sich Wellen gegnerischer Kräfte stellen. Wählen Sie Ihr Lieblingsfahrzeug, zerstören Sie Echopanzer und wehren Sie den Ansturm ab, dann warten exklusive Belohnungen und vieles mehr auf Sie!"
+
+msgid "bannerTooltip/header"
+msgstr "Letztes Gefecht: Terra Nord"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Die Leistung Ihres Computers reicht für diesen Modus nicht aus. Es können Probleme bei Grafik und Fahrzeugbewegung auftreten. Clientabstürze sind ebenfalls möglich."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Dieser Modus verlangt eine hohe Computerleistung. Es können Probleme beim Laden von Karten, der Grafik und der Fahrzeugbewegung auftreten. Reicht die Computerleistung nicht aus, sollten Sie die Grafikqualität in den Einstellungen heruntersetzen."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Geringe Leistung"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Möglicherweise verringerte Leistung"
+
+msgid "battlePass/playGame"
+msgstr "Verdienen Sie Punkte in „Letztes Gefecht“, indem Sie Fortschritt im Event erzielen (Fahrzeuge der Stufe VIII benötigt)."
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Sie sind bereits befreundet."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Warte auf Bestätigung der Freundschaftsanfrage."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Spieler von der Ignorierenliste nehmen."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Zur Freundesliste hinzufügen."
+
+msgid "battleResult/interaction/menu"
+msgstr "Klicken, um das Interaktionsmenü für diesen Spieler zu öffnen."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Zum Zug hinzufügen."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Spieler ist bereits im Zug."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Einladung wurde bereits versendet."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Nur der Zugkommandant kann Spieler in einen Zug einladen."
+
+msgid "booster/activated"
+msgstr "Aktiviert"
+
+msgid "booster/howItWorks"
+msgstr "So funktioniert es"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Abklingzeit: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Kosten in Mirium: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "Für den Tagesauftrag verbleibende Zeit"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "Zeit bis zum nächsten Tagesauftrag"
+
+msgid "dailyQuests/completed"
+msgstr "Abgeschlossen"
+
+msgid "dailyQuests/completedAll"
+msgstr "Sie haben alle Tagesaufträge für dieses Event abgeschlossen."
+
+msgid "dailyQuests/completedDescr"
+msgstr "Sie haben diesen Tagesauftrag abgeschlossen. Ein neuer wird morgen verfügbar."
+
+msgid "dailyQuests/rewards"
+msgstr "Belohnungen:"
+
+msgid "dailyQuests/status"
+msgstr "Neuer Tagesauftrag in %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "Verbleibende Zeit im Event: %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Wählen Sie ein verfügbares Fahrzeug aus, um das Gefecht zu betreten."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Nicht verfügbar"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Gefechte im ausgewählten Schwierigkeitsgrad/Modus sind aus technischen Gründen vorübergehend nicht verfügbar."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Nicht verfügbar"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Warten Sie, bis der Zug aus dem vorherigen Gefecht zurückkehrt, um ein neues Gefecht zu betreten."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Nicht verfügbar"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Schwierigkeitsgrad für den Zug nicht kompatibel"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Nicht verfügbar"
+
+msgid "points/accrued"
+msgstr "Erhalten"
+
+msgid "points/battles"
+msgstr "• Kämpfen Sie in Gefechten des Events"
+
+msgid "points/body"
+msgstr "Daten werden für den Fortschritt in „Letztes Gefecht“ genutzt, um wertvolle Belohnungen zu erhalten. Daten können für das Bestreiten von Eventgefechten, den Abschluss von Tagesaufträgen oder den Kauf von „{{bundle_name}}“ erhalten werden."
+
+msgid "points/bottom"
+msgstr "Ende des Events: (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• Schließen Sie jeden Tag neue Tagesaufträge ab"
+
+msgid "points/effective"
+msgstr "• Effizienz im Gefecht:"
+
+msgid "points/gold"
+msgstr "• Kaufen Sie „{{bundle_name}}“ im Nachschub"
+
+msgid "points/header"
+msgstr "Daten"
+
+msgid "points/howToEarn"
+msgstr "Anleitung zum Verdienen"
+
+msgid "points/missionDaily"
+msgstr "• Tagesauftrag abgeschlossen:"
+
+msgid "points/obelisk"
+msgstr "• Obelisk zerstört:"
+
+msgid "points/vehicleDaily"
+msgstr "• Täglichen Fahrzeugbonus erhalten:"
+
+msgid "rewardPath/info/first"
+msgstr "Sie können mehr Daten verdienen, indem Sie Tagesaufträge abschließen, die jeden Tag während des Events aktualisiert werden."
+
+msgid "rewardPath/info/header"
+msgstr "Zusätzliche Daten"
+
+msgid "rewardPath/info/second"
+msgstr "Ein besonderes, im Nachschub verfügbares Eventpaket, das auch Daten enthält, um Ihren Fortschritt zu beschleunigen."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "Fahrzeugbonus:"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "Andere Belohnungen:"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}Fahrzeugbonus{EDCB9E_End} – {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "Alle Daten und Belohnungen erhalten"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "Erhaltene Daten {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "Sammeln Sie Daten im Gefecht und schreiten Sie durch „Letztes Gefecht“ vor. Jede Stufe belohnt Sie mit wertvollen Gegenständen und einem Fahrzeugbonus, der Ihnen im Kampf gegen bedrohlichere Gegner hilft."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "Letzter Abschnitt"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "Aktueller Abschnitt"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "Verbleibende Eventdauer: {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "Fortschritt"
+
+msgid "shopWidget/body"
+msgstr "Klicken Sie, um einen besonderen Abschnitt des Nachschubs mit exklusiven Gegenständen des Events zu öffnen."
+
+msgid "shopWidget/header"
+msgstr "Eventpakete"
+
+msgid "teamList/actions/body"
+msgstr "Schnellaktionen zum Erstellen eines Zugs und hinzufügen/entfernen von Freunden."
+
+msgid "teamList/actions/header"
+msgstr "Schnellaktionen"
+
+msgid "teamList/damage/body"
+msgstr "Nach verursachtem Schaden sortieren"
+
+msgid "teamList/damage/header"
+msgstr "Verursachter Schaden"
+
+msgid "teamList/keys/body"
+msgstr "Nach verdienten Daten sortieren. Der angezeigte Wert berücksichtigt keine zusätzlichen verdienten Daten aus Tagesaufträgen oder täglichen Fahrzeugboni."
+
+msgid "teamList/keys/header"
+msgstr "Daten"
+
+msgid "teamList/kills/body"
+msgstr "Nach Anzahl zerstörter Gegnerfahrzeuge sortieren"
+
+msgid "teamList/kills/header"
+msgstr "Zerstörte Gegnerfahrzeuge"
+
+msgid "teamList/name/header"
+msgstr "Spielername"
+
+msgid "teamList/place/body"
+msgstr "Nach Position im Team sortieren"
+
+msgid "teamList/place/header"
+msgstr "Position im Team"
+
+msgid "teamList/squad/header"
+msgstr "Ein Zug ist eine taktische Einheit, mit der Spieler im Gefecht kooperieren können."
+
+msgid "teamList/vehicle/body"
+msgstr "Nach Fahrzeugtyp und -namen sortieren."
+
+msgid "teamList/vehicle/header"
+msgstr "Fahrzeuge"
+
+msgid "teamList/warned/body"
+msgstr "Dieser Spieler hat eine Strafe für Inaktivität/Desertieren erhalten und bekommt keine Belohnungen für dieses Gefecht."
+
+msgid "teamList/warned/header"
+msgstr "Warnung"
+
+msgid "teamList/warned/self/body"
+msgstr "Sie haben eine Strafe für Inaktivität/Desertieren erhalten und bekommen keine Belohnungen für dieses Gefecht."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Geringe Besatzungseffizienz"
+
+msgid "vehicle/rentState"
+msgstr "Gesperrt"
+
+msgid "vehicleDaily/header"
+msgstr "Täglicher Fahrzeugbonus"

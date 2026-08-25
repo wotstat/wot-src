@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "Διοργάνωση διαθέσιμη για %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — Είδος μαχών. Κλικ για περισσότερες πληροφορίες"
+
+msgid "bannerTooltip/description"
+msgstr "Ειδικές μάχες PvE στις οποίες θα αντιμετωπίσετε κύματα επιθέσεων από εχθρικές δυνάμεις. Επιλέξτε το αγαπημένο σας όχημα, καταστρέψτε τα echo tanks και αποκρούστε τις επιθέσεις. Θα ανταμειφθείτε με πολύτιμα έπαθλα!"
+
+msgid "bannerTooltip/header"
+msgstr "Last Stand: Terra Nord"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Οι επιδόσεις του υπολογιστή σας δεν επαρκούν γι αυτήν τη λειτουργία. Θα έχετε προβλήματα με τα γραφικά και με την κίνηση των οχημάτων. Είναι πιθανό να κλείσει εντελώς ο client."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Αυτή η λειτουργία απαιτεί υπολογιστή υψηλών επιδόσεων. Θα έχετε προβλήματα με τη φόρτωση του χάρτη, τα γραφικά και την κίνηση των οχημάτων. Σε περίπτωση ανεπάρκειας, χαμηλώστε την ποιότητα των γραφικών από τις Ρυθμίσεις."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Χαμηλές Επιδόσεις"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Πιθανώς Μειωμένες Επιδόσεις"
+
+msgid "battlePass/playGame"
+msgstr "Κερδίστε Πόντους στη διοργάνωση Last Stand από την ολοκλήρωση των Φάσεων της διοργάνωσης (απαιτούνται οχήματα της Βαθμίδας VIII)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Είναι ήδη στις Επαφές σας."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Αναμονή για επικύρωση της πρόσκλησης Επαφής."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Αφαίρεση από τη Μαύρη Λίστα."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Προσθήκη στις Επαφές."
+
+msgid "battleResult/interaction/menu"
+msgstr "Κλικ για να ανοίξετε το μενού αλληλεπίδρασης με αυτόν τον παίκτη."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Προσθήκη στον Ουλαμό."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Ήδη παίκτης του Ουλαμού."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Η πρόσκληση έχει αποσταλεί."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Μόνο ο Αρχηγός του Ουλαμού μπορεί να προσκαλέσει παίκτες."
+
+msgid "booster/activated"
+msgstr "Ενεργοποιήθηκε"
+
+msgid "booster/howItWorks"
+msgstr "Περισσότερες Πληροφορίες"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Επαναφορά: %(cooldownSeconds)s sec"
+
+msgid "consumables/params/usageCost"
+msgstr "Κόστος σε Mirium: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "Διαθέσιμος χρόνος για την ολοκλήρωση της Ημερήσιας Αποστολής"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "Χρόνος μέχρι την επόμενη ημερήσια αποστολή"
+
+msgid "dailyQuests/completed"
+msgstr "Ολοκληρώθηκε"
+
+msgid "dailyQuests/completedAll"
+msgstr "Έχετε ολοκληρώσει όλες τις ημερήσιες αποστολές της διοργάνωσης."
+
+msgid "dailyQuests/completedDescr"
+msgstr "Έχετε ολοκληρώσει αυτήν την ημερήσια αποστολή. Νέα αποστολή θα είναι διαθέσιμη αύριο."
+
+msgid "dailyQuests/rewards"
+msgstr "Έπαθλα:"
+
+msgid "dailyQuests/status"
+msgstr "Νέα ημερήσια αποστολή σε %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "Διοργάνωση διαθέσιμη για %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Επιλέξτε κάποιο διαθέσιμο όχημα για να μπείτε στη μάχη."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Μη Διαθεσιμότητα"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Μάχες προσωρινά μη διαθέσιμες για τεχνικούς λόγους."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Μη Διαθεσιμότητα"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Περιμένετε να βγει ο Ουλαμός από την προηγούμενη μάχη για να μπείτε σε νέα."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Μη Διαθεσιμότητα"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Μη συμβατό επίπεδο δυσκολίας για τον Ουλαμό."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Μη Διαθεσιμότητα"
+
+msgid "points/accrued"
+msgstr "Αποκτήθηκαν"
+
+msgid "points/battles"
+msgstr "• Λάβετε μέρος σε μάχες της διοργάνωσης"
+
+msgid "points/body"
+msgstr "Τα Data χρησιμοποιούνται για να ολοκληρώσετε Φάσεις Προόδου και για την αγορά μοναδικών αντικειμένων της διοργάνωσης Last Stand. Μπορείτε να τα κερδίσετε από μάχες της διοργάνωσης, ως έπαθλα από ημερήσιες αποστολές ή να τα αγοράσετε σε πακέτα {{bundle_name}}."
+
+msgid "points/bottom"
+msgstr "Λήξη διοργάνωσης: (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• Ολοκληρώστε καθημερινά τις ημερήσιες αποστολές"
+
+msgid "points/effective"
+msgstr "• Επιδόσεις στη μάχη:"
+
+msgid "points/gold"
+msgstr "• Αγοράστε τα πακέτα {{bundle_name}} από τον Εφοδιασμό"
+
+msgid "points/header"
+msgstr "Data"
+
+msgid "points/howToEarn"
+msgstr "Πως Κερδίζονται"
+
+msgid "points/missionDaily"
+msgstr "• Ολοκλήρωση ημερήσιας αποστολής:"
+
+msgid "points/obelisk"
+msgstr "• Καταστροφή Obelisk:"
+
+msgid "points/vehicleDaily"
+msgstr "• Ημερήσιο μπόνους οχήματος:"
+
+msgid "rewardPath/info/first"
+msgstr "Μπορείτε να κερδίσετε περισσότερα data από την ολοκλήρωση ημερήσιων αποστολών, οι οποίες ενημερώνονται καθημερινά για όσο διαρκεί η διοργάνωση."
+
+msgid "rewardPath/info/header"
+msgstr "Πρόσθετα data"
+
+msgid "rewardPath/info/second"
+msgstr "Ειδικό πακέτο προσφοράς που θα βρείτε στον Εφοδιασμό και το οποίο περιλαμβάνει και data για να επιταχύνετε την πρόοδό σας στη διοργάνωση."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "Μπόνους Οχήματος:"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "Λοιπά Έπαθλα:"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}Μπόνους Οχήματος{EDCB9E_End} — {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "Συλλέξατε όλα τα data, κερδίσατε όλα τα έπαθλα"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "Κερδισμένα Data {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "Κερδίστε data από τις μάχες για να προχωρήσετε στη διοργάνωση Last Stand. Η κάθε Φάση θα σας ανταμείψει με πολύτιμα αντικείμενα και ένα μπόνους οχήματος για να σας βοηθήσει να νικήσετε πιο ισχυρούς αντιπάλους."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "Τελική Φάση"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "Τρέχουσα Φάση"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "Διοργάνωση διαθέσιμη για {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "Πρόοδος"
+
+msgid "shopWidget/body"
+msgstr "Κλικ για να ανοίξετε τον ειδικό τομέα του Εφοδιασμού, όπου θα βρείτε αποκλειστικά αντικείμενα της διοργάνωσης."
+
+msgid "shopWidget/header"
+msgstr "Πακέτα Διοργάνωσης"
+
+msgid "teamList/actions/body"
+msgstr "Προσθέστε/Αφαιρέστε γρήγορα μέλη στον Ουλαμό σας."
+
+msgid "teamList/actions/header"
+msgstr "Γρήγορες Ενέργειες"
+
+msgid "teamList/damage/body"
+msgstr "Ταξινόμηση με βάση τη φθορά σε αντιπάλους."
+
+msgid "teamList/damage/header"
+msgstr "Φθορά Σε Αντιπάλους"
+
+msgid "teamList/keys/body"
+msgstr "Ταξινόμηση με βάση τα κερδισμένα data. Η τιμή που εμφανίζεται δεν περιλαμβάνει τα πρόσθετα κερδισμένα data από τις ημερήσιες αποστολές ή από τα ημερήσια μπόνους οχήματος."
+
+msgid "teamList/keys/header"
+msgstr "Data"
+
+msgid "teamList/kills/body"
+msgstr "Ταξινόμηση με βάση τις καταστροφές εχθρικών οχημάτων."
+
+msgid "teamList/kills/header"
+msgstr "Καταστροφές Εχθρικών Οχημάτων"
+
+msgid "teamList/name/header"
+msgstr "Όνομα παίκτη"
+
+msgid "teamList/place/body"
+msgstr "Ταξινόμηση με βάση τη θέση στην ομάδα."
+
+msgid "teamList/place/header"
+msgstr "Θέση Στην Ομάδα"
+
+msgid "teamList/squad/header"
+msgstr "Ο Ουλαμός είναι μια επιχειρησιακή μονάδα για συνεργασία των παικτών στη μάχη."
+
+msgid "teamList/vehicle/body"
+msgstr "Ταξινόμηση με βάση τον τύπο και το όνομα του οχήματος."
+
+msgid "teamList/vehicle/header"
+msgstr "Οχήματα"
+
+msgid "teamList/warned/body"
+msgstr "Δεν απονεμήθηκαν έπαθλα σε αυτόν τον παίκτη λόγω αδράνειας ή λιποταξίας."
+
+msgid "teamList/warned/header"
+msgstr "Προειδοποίηση"
+
+msgid "teamList/warned/self/body"
+msgstr "Σας έχει επιβληθεί ποινή για αδράνειας ή λιποταξία και δεν θα λάβετε έπαθλα από αυτή τη μάχη."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Χαμηλές επιδόσεις πληρώματος"
+
+msgid "vehicle/rentState"
+msgstr "Κλειδωμένο"
+
+msgid "vehicleDaily/header"
+msgstr "Ημερήσιο μπόνους οχήματος"

@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Genişlet"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Eğitimi Az Olanları Emekli Et"
+
+msgid "barracks/bunks/title"
+msgstr "Ranzalar:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Satın alınacak ranza sayısını belirtin. Kışlada kullanılabilir ranza: %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "İndirimli Fiyat"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Yeni fiyat: %(bunksCount)s ranza başına %(currency)s"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Önceki fiyat: %(bunksCount)s ranza başına %(currency)s"
+
+msgid "barracks/enlarge/header"
+msgstr "Kışlayı Genişlet"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Kışlanızda ilk mürettebat yeteneğini {whiteSpanish_Open}100%{whiteSpanish_Close}'e eğitmek için gereken {whiteSpanish_Open}210.060{whiteSpanish_Close}{icon} DP'den azına sahip, eğitimi az mürettebat üyeleri emekli edilebilir."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Eğitimi Az Mürettebat Üyeleri"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Eğitimi az mürettebat üyeleriniz yok"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Eğitimi az mürettebat üyelerinizi emekli etme karşılığında herhangi bir telafi almayacaksınız. Emekli olan mürettebatlar kurtarılamaz ve tüm DP'leri kaybolur."
+
+msgid "barracks/title"
+msgstr "KIŞLA"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Kışlayı genişletmek için tıklayın."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Kışlayı Genişlet"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Konum"
+
+msgid "common/imageNotAvailable"
+msgstr "Görsel Yok"
+
+msgid "common/inBarracks"
+msgstr "Kışlada"
+
+msgid "common/inBattle"
+msgstr "Savaşta"
+
+msgid "common/inPrebattle"
+msgstr "Taktik Birlikte"
+
+msgid "common/navigation/aboutCrew"
+msgstr "MÜRETTEBAT HAKKINDA"
+
+msgid "common/navigation/toBarracks"
+msgstr "KIŞLAYA GİT"
+
+msgid "common/navigation/toGarage"
+msgstr "GARAJA GİT"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "PROFİLE GİT"
+
+msgid "confirmSkills/percent"
+msgstr "% %(value)s"
+
+msgid "conversionAwards/button/submit"
+msgstr "Olumlu!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Mürettebat üyeleriniz Mürettebat Kitaplarına dönüştürüldü."
+
+msgid "conversionAwards/title"
+msgstr "DÖNÜŞÜM BAŞARILI"
+
+msgid "conversionAwards/underTitle"
+msgstr "Aşağıdaki ürünler hesabınıza eklendi:"
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "İptal"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Emekli Et"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Emekli edilecek mürettebat üyeleri: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Eğitimi az mürettebat üyelerini emekli edecek misiniz?"
+
+msgid "conversionConfirm/warning"
+msgstr "Eğitimi az mürettebat üyelerinizi emekli etme karşılığında herhangi bir telafi almayacaksınız. Emekli olan mürettebatlar kurtarılamaz ve tüm DP'leri kaybolur."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Yetenekleri Otomatik Seç"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Eğitilmemiş yeteneği olan mürettebat üyesi yok."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Yetenekler Otomatik Olarak Seçilemiyor"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Artı işareti ile belirtilmiş tüm eğitilmemiş yetenekler tüm mürettebatlar için özel mantık yoluyla otomatik olarak seçilen yeteneklerle değiştirilecek."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Herkes İçin Eğitilmemiş Yetenekleri Otomatik Seç"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Herkes İçin Yetenekleri Sıfırla"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Eğitilmiş yeteneği olan mürettebat üyesi yok."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Yetenekler Sıfırlanamıyor"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Hesabınızdaki tüm mürettebat üyeleri için tüm yetenekler sıfırlanacak. Bu işlem geri alınamaz."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Herkes İçin Yetenekleri Sıfırla"
+
+msgid "crewBanner/infoText"
+msgstr "Hesabınızdaki tüm mürettebat üyeleri için ücretsiz yetenek sıfırlama veya eğitilmemiş yeteneklerin otomatik seçimi."
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Mürettebat Eğitimini Hızlandır özelliği açık"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Etkinlik bonusu: {{@ style (color $color)}}+%{{value}}{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Yetenek etkinliği"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Yetenekler geçerli değil çünkü mürettebat üyesi bu araç için eğitilmiş değil."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "İhtisas:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Yetenekler Geçerli Değil"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Bonus yetenekler:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Ana uzmanlık yetenekleri:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(Çin)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Çekoslovakya)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Fransa)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Almanya)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(İtalya)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japonya)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Polonya)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(İsveç)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(İngiltere)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(ABD)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(SSCB)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Tüm Premium tank avcıları {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Tüm Premium KMT'ler {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Tüm Premium ağır tanklar {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Tüm Premium hafif tanklar {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Tüm Premium orta tanklar\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Detaylar"
+
+msgid "filter/group/details/title"
+msgstr "Detaylar"
+
+msgid "filter/group/nation/title"
+msgstr "Ülke"
+
+msgid "filter/group/other/title"
+msgstr "Diğer"
+
+msgid "filter/group/special/title"
+msgstr "Özel"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Uzmanlık"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Seviye"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Seviye"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "İhtisas"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Araç Türü"
+
+msgid "filter/popup/button/title"
+msgstr "Süz"
+
+msgid "filter/popup/default/title"
+msgstr "Süzgeç"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Ülkeye Göre Süz"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Araçlara Göre Süz"
+
+msgid "filter/reset"
+msgstr "Süzgeci Sıfırla"
+
+msgid "filter/search/placeholder"
+msgstr "İsimle ara"
+
+msgid "filter/search/tooltip/header"
+msgstr "İsimle Ara"
+
+msgid "filter/title"
+msgstr "Gösterilen:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Tüm kullanılabilir parçaları ve teknik dalları araştırılmış araçlardaki mürettebat üyelerini göster/gizle."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Elit Araçlar"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Premium araçlar için eğitilmiş mürettebat üyelerini göster/gizle."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Premium Araçlar"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Baş tercih araçlardaki mürettebat üyelerini göster/gizle."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Baş Tercih Araçlar"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Bu tür araçlara uygun mürettebat üyelerini göster/gizle."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Bu ülkenin mürettebat üyelerini göster/gizle."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Bu ülkenin kaplamalarını göster/gizle."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Bu ülkenin araçlarını göster/gizle."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Emeklileri göster/gizle."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Emekli"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Yeni üyeleri göster."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Acemiler"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Mürettebat üyelerini göster."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Mürettebat Üyeleri"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Bu uzmanlıktaki mürettebat üyelerini göster/gizle."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Premium araçları göster/gizle."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Premium Araçlar"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Bu türdeki araçları göster/gizle."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Tank Avcıları"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "KMT'ler"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Ağır Tanklar"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Hafif Tanklar"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Orta Tanklar"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Arama kriterlerine uyan\nhiç araç bulunamadı"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Araç isimlerine göre sırala."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "İsim"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Araç Seviyelerine göre sırala."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Seviye"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Araç türüne göre sırala."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Tür"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "İsim"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Süzgeç ayarlarını sıfırlamak için tıklayın."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Tüm Süzgeçleri Sıfırla"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Olumlu!"
+
+msgid "junkTankmen/description"
+msgstr "Bu mürettebat üyeleri ilk mürettebat yeteneğini {whiteSpanish_Open}100%{whiteSpanish_Close}'e eğitmek için gereken {bond_Open}210.060{bond_Close}{icon} DP'den azına sahip.\nHesabınızdan kaldırılacaklar."
+
+msgid "junkTankmen/title"
+msgstr "Eğitimi az mürettebat üyelerini emekli edecek misiniz?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Her ek uzmanlık için {whiteSpanish_Open}üç{whiteSpanish_Close} yeteneklik sınır bulunuyor. Yeni bir bonus yeteneğe erişim {whiteSpanish_Open}birinci{whiteSpanish_Close}, {whiteSpanish_Open}üçüncü{whiteSpanish_Close} ve {whiteSpanish_Open}beşinci{whiteSpanish_Close} ana uzmanlık yeteneğine ulaştıktan sonra açılacak."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Bonus Yetenekler"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Bir mürettebat üyesini başka bir araç için farklı uzmanlık seti ile yeniden eğitirken yeni ek uzmanlıkları için yetenekleri tekrar seçebileceksiniz."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Bonus yetenekler ana uzmanlık yeteneklerinden iki kat daha yavaş eğitilir."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Bonus yetenekleri eğitmek için DP gerekmez."
+
+msgid "matrix/freeResetButton"
+msgstr "Ücretsiz Sıfırlayın"
+
+msgid "matrix/increaseButton"
+msgstr "Eğitimi Hızlandırın"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Mürettebat üyesi eğitim sınırına ulaştı."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Eğitim hızlandırılamıyor."
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Yetenekleri Serbest DP ve Mürettebat Kitapları kullanarak eğitin."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Hızlı Eğitim"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Uygun Olmayan Uzmanlık"
+
+msgid "matrix/qualification/1"
+msgstr "Ana Uzmanlık"
+
+msgid "matrix/qualification/2"
+msgstr "İkinci Uzmanlık"
+
+msgid "matrix/qualification/3"
+msgstr "Üçüncü Uzmanlık"
+
+msgid "matrix/qualification/4"
+msgstr "Dördüncü Uzmanlık"
+
+msgid "matrix/qualification/5"
+msgstr "Beşinci Uzmanlık"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "İkinci uzmanlık için sıfırıncı yetenekler geçerli değil"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Üçüncü uzmanlık için sıfırıncı yetenekler geçerli değil"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Dördüncü uzmanlık için sıfırıncı yetenekler geçerli değil"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Bu araç için ikinci uzmanlık geçerli değil"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Bu araç için üçüncü uzmanlık geçerli değil"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Bu araç için dördüncü uzmanlık geçerli değil"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Bu araç için beşinci uzmanlık geçerli değil"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Her ek uzmanlık için {whiteSpanish_Open}üç{whiteSpanish_Close} bonus yetenek sınırı bulunuyor. Sadece bu uzmanlığa özel yetenekler bonus yetenek olarak seçilebilir."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Ana uzmanlık için sıfırıncı yetenekler de dâhil olmak üzere {whiteSpanish_Open}altı{whiteSpanish_Close} yetenek sınırı bulunuyor."
+
+msgid "matrix/resetButton"
+msgstr "Sıfırla"
+
+msgid "matrix/resetButtonHint"
+msgstr "YETENEKLERİ SIFIRLAMAK İÇİN TIKLAYIN"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Eğitilmiş yeteneğiniz yok."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Yetenekler Sıfırlanamıyor"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Yetenekleri sıfırlamak için tıklayın."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Yetenekleri Sıfırla"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Eğitilebilecek Bonus Yetenek Var"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Bonus yetenekleri eğitmek için Mürettebat DP'si gerekmez."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Geçersiz"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Üçüncü ana uzmanlık yeteneği eğitilirken açılır. DP gerektirmez."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Beşinci ana uzmanlık yeteneği eğitilirken açılır. DP gerektirmez."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Eğitim seviyesi"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "Mürettebat üyesi bir sıfırıncı yeteneğe sahip olduğu için gereken toplam DP miktarı düşürüldü."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "Mürettebat üyesi iki sıfırıncı yeteneğe sahip olduğu için gereken toplam DP miktarı düşürüldü."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Yetenek Eğitilebilir"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Geçersiz"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Önceki yetenek %100 eğitilmelidir."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Eğitilebilecek Sıfırıncı Yetenek Var"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Aynı anda birkaç yetenek seçilmiş olsa bile sıfırıncı yetenekler her zaman önce eğitilir. Bunların eğitilmesi için Mürettebat DP'si gerekmez."
+
+msgid "matrix/skills/allSkills"
+msgstr "Bu araç için tüm ek yetenekler eğitildi"
+
+msgid "matrix/skills/available"
+msgstr "Eğitilebilecek yetenekler:"
+
+msgid "matrix/skills/bonus"
+msgstr "Bonus Yetenekler"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Yetenekler devre dışı"
+
+msgid "matrix/skills/locked"
+msgstr "Yetenekler devre dışı"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Bu araç için tüm yetenekler devre dışı"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Ana Uzmanlık Yetenekleri"
+
+msgid "matrix/skills/reduced"
+msgstr "Yetenek etkinliği azaldı"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Komutan Yetenekleri"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Sürücü Yetenekleri"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Komutan Yetenekleri"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Sürücü Yetenekleri"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Nişancı Yetenekleri"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Yükleyici Yetenekleri"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Telsiz Operatörü Yetenekleri"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Nişancı Yetenekleri"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Yükleyici Yetenekleri"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Telsiz Operatörü Yetenekleri"
+
+msgid "matrix/skills/training"
+msgstr "Yetenek eğitimi"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Eğitilebilecek sıfırıncı yetenekler:"
+
+msgid "memberChange/action/recruit"
+msgstr "{role} alın"
+
+msgid "memberChange/discount"
+msgstr "UZMANLIK DEĞİŞİMİNDE %{discountAmount} İNDİRİM"
+
+msgid "memberChange/title"
+msgstr "{role}: {vehicle} SEÇİN"
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}Depoda{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Onayladıktan sonra DP'sini aktaran mürettebat üyesi hesabınızdan kaldırılacak."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Akıl Hocalığı Ruhsatı, bir mürettebat üyesinden aynı ülkenin başka bir mürettebat üyesine Mürettebat DP'si aktarmanızı sağlar."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Akıl Hocalığı Ruhsatı"
+
+msgid "personalData/card/edit"
+msgstr "Düzenle"
+
+msgid "personalData/card/remove"
+msgstr "Kaldır"
+
+msgid "personalData/card/restrictions"
+msgstr "Sınırlamalar: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Mürettebat üyesinin adını ve görünüşünü değiştirmek için tıklayın."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Görünüş"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Bu mürettebat üyesinin zaten özgün bir adı ve görünüşü var."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Ad ve Görünüş Değiştirilemiyor"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Hiçbir şey bulunamadı. Ayarları değiştirin veya süzgeci sıfırlayın."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Kaplamaların gösterimini ülkelerine göre ayarlayın."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Parametrelere Göre Süz"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Belgeleri göster."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Belgeler"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Uygun kaplamaları göster."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Uygun Kaplamalar"
+
+msgid "personalData/filter/type/title"
+msgstr "Tür"
+
+msgid "personalData/title"
+msgstr "AD VE GÖRÜNÜŞÜ DEĞİŞTİR"
+
+msgid "personalFile/changeVehicle"
+msgstr "Değiştir"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Bu mürettebat üyesi başka bir araç için eğitilemiyor."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "İşlem Geçersiz"
+
+msgid "personalFile/discount/full"
+msgstr "Mürettebat yeniden eğitiminde indirim var"
+
+msgid "personalFile/discount/short"
+msgstr "İndirim var"
+
+msgid "personalFile/inVehicle"
+msgstr "Araçta: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Artır"
+
+msgid "personalFile/isUntrained"
+msgstr "Bu araç için eğitilmiş değil"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Tüm {icon} Premium araçlar"
+
+msgid "personalFile/retrain"
+msgstr "Yeniden Eğit"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Yetenek etkinliği:"
+
+msgid "personalFile/specialization"
+msgstr "İhtisas:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "İhtisas"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Bu Komutanın seslendirme örneğini dinlemek için tıklayın."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Özgün Seslendirme"
+
+msgid "postProgression/button/claim"
+msgstr "Ödülü Alın"
+
+msgid "postProgression/description"
+msgstr "Altı ana uzmanlık yeteneklerinin hepsini öğrenmiş tüm mürettebat üyeleri ortak Gelişim Sonrası kısmına erişim hakkı kazanır. Gelişim Sonrası kısmında kazanılan her 100.000 DP karşılığında başka mürettebatları eğitmek için kullanabileceğiniz bir Genel Kılavuz alacaksınız."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "Gelişim Sonrası kısım, bir oyuncunun hesabında bulunan, altı tam eğitimli ana uzmalık yeteneğine sahip tüm mürettebat üyeleri için birleşik bir skaladan oluşur."
+
+msgid "postProgression/tips/2"
+msgstr "Gelişim Sonrası kısımda sadece Savaş DP'si sayılır. Bir mürettebat üyesinin savaşta kazandığı Savaş DP'sinin yarısı araçtaki tüm mürettebat üyelerinin sayısına bölünür ve Gelişim Sonrası skalasına eklenir."
+
+msgid "postProgression/tips/3"
+msgstr "Yeteneklerdeki veya etkinlik havuzlarındaki DP kayıpları Gelişim Sonrasını etkilemez."
+
+msgid "postProgression/title"
+msgstr "MÜRETTEBAT GELİŞİMİ SONRASI"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Gelişim Sonrası erişimi olan tüm mürettebat üyeleri düşük yetenek etkinliğine sahip."
+
+msgid "postProgression/warning/retire"
+msgstr "Gelişim Sonrası erişimi olan tüm mürettebat üyeleri emekli edildi veya son yeteneklerinden DP kaybetti."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Tüm Premium tank avcıları"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Tüm Premium KMT'ler"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Premium tank avcıları"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Premium KMT'ler"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Premium ağır tanklar"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Premium hafif tanklar"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Premium orta tanklar"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Tüm Premium ağır tanklar"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Tüm Premium hafif tanklar"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Tüm Premium orta tanklar"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "ÖDÜLLER"
+
+msgid "serviceRecord/averageXP"
+msgstr "Savaş Başına Ortalama Deneyim"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Yapılan Savaşlar"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Savaşlarda kazanılmış bir başarı ya da ödül yok."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Mürettebat üyesinin atandığı araçta, kazanılan toplam deneyim puanının araçla yapılan savaş sayısına oranı."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Savaş Başına Ortalama Deneyim"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Bir mürettebat üyesinin kademesi, deneyimine ve eğitilmiş yetenek sayısına bağlıdır."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Kademe"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Mürettebat üyesi bu araç için tüm yetenekleri öğrendi"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Eğitilebilecek yetenekler"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Bu araç için tüm yetenekler devre dışı"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Ana uzmanlık yeteneklerinden iki kat daha yavaş eğitilen ek uzmanlık yeteneklerini öğrenmek için DP gerekmez."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "İptal"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Eğit"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "BONUS UZMANLIK"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "ANA UZMANLIK"
+
+msgid "tankChange/title"
+msgstr "ARAÇ İÇİN EĞİT"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Garajdaki araçları göster."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "Garajda"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Araçların gösterimini türlerine ve seviyelerine göre düzenleyin."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Parametrelere Göre Süz"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Premium araçlar için mürettebat üyelerini yeniden eğitmeniz gerekmez. Mürettebatı aynı türden bir Premium araca herhangi bir ceza olmadan aktarabilirsiniz."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Premium Araç"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Araç adı en fazla %(maxLength)s karakterden oluşabilir."
+
+msgid "tankman/action/dismiss/title"
+msgstr "EMEKLİ ET"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Bu mürettebat üyesini emekli edin."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Bu mürettebat üyesi emekli edilemiyor."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "İşlem Geçersiz"
+
+msgid "tankman/action/recruit/title"
+msgstr "ÜYE ALIMI"
+
+msgid "tankman/action/restore/title"
+msgstr "KURTARMA"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Bu mürettebat üyesini kurtarın."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Bu Komutanın seslendirme örneğini dinlemek için tıklayın."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Özgün Seslendirme"
+
+msgid "tankman/recruit"
+msgstr "Acemi"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Görünüş"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profil"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Hizmet Kaydı"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Acemi"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Süzgeci Sıfırlayın"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Hiçbir şey bulunamadı. Ayarları değiştirin veya süzgeci sıfırlayın."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Hiçbir şey bulunamadı. Yenü mürettebat üyesi alın."
+
+msgid "tankmanList/filter/title"
+msgstr "Mürettebat üyeleri:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Kışlada yeterli ranza yok."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Sadece emekli edilmiş mürettebat üyelerini göster/gizle."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Emekli"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Kışladaki mürettebat üyelerini göster."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "Kışlada"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Araçlardaki mürettebat üyelerini göster."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "Araçlarda"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Bu ülkenin kaplamalarını göster/gizle."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Mürettebat üyelerinin gösterimini ana uzmanlıklarına, ihtisaslarına ve diğer parametrelere göre düzenleyin."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Parametrelere Göre Süz"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Yeni bir mürettebat üyesi al."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Ad en fazla %(maxLength)s karakterden oluşabilir."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Yeteneğin üstüne geldiğinizde mevcut yetenek etkinliği seviyesinde %100'e eğitildiğinde ilgili nitelikleri nasıl etkileyeceği görünür."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Olumlu!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Her uzmanlık için iki yeni yetenek eklendi. Güvenilir Konumlanma yenilendi ve yeni bir seçenek savaş HUD'unda yetenekleri saklamanıza imkan veriyor."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Kullanışlı yeni bir işlem, tek bir tıkla eğitimi az mürettebat üyelerini emekli etmenizi sağlıyor."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Yetenekler artık DP kaybetmeden, sadece kredi kullanarak sıfırlanabiliyor."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Yeni yetenekler ve özellikler eklendi, mevcut bir yetenek ise güncellendi."
+
+msgid "welcomeScreen/title"
+msgstr "MÜRETTEBATA GÜNCELLEMELER"

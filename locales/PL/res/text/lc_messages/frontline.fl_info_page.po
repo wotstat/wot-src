@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "O Przepustce bitewnej"
+
+msgid "about/position/header"
+msgstr "Otrzymywanie punktów Przepustki bitewnej"
+
+msgid "about/position/text"
+msgstr "Po każdej bitwie otrzymuje się punkty Przepustki bitewnej, w liczbie odpowiadającej zajmowanej pozycji. Dodatkowe punkty Przepustki bitewnej otrzymuje się za zwiększenie własnego poziomu Linii frontu."
+
+msgid "about/scores/header"
+msgstr "Punkty Przepustki bitewnej"
+
+msgid "about/scores/text"
+msgstr "Specjalna waluta Przepustki bitewnej, którą można zdobyć w bitwach losowych i trybie Linia frontu. Punkty przepustki bitewnej przyznawane są za osiągnięcie poziomów Linii frontu i klasyfikację w wynikach bitwy. Pojazdy Linii frontu nie mają limitu liczby punktów, które mogą zdobyć."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Porażka"
+
+msgid "about/scoresTable/topCell"
+msgstr "Najlepsza {{top}} według zdobytych PD"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Zwycięstwo"
+
+msgid "about/text"
+msgstr "Przepustka bitewna to długie wydarzenie, w którym gracze przechodzą od etapu do etapu, zdobywając punkty. Każdy ukończony etap zapewnia wartościowe nagrody. Po ukończeniu kilku etapów gracze mogą otrzymać żetony Przepustki bitewnej – specjalną walutę, której można użyć do kupowania unikalnych pojazdów i innych wartościowych nagród w odpowiednim dziale sklepu."
+
+msgid "addons/cellRent/header"
+msgstr "Wypożyczanie pojazdów"
+
+msgid "addons/cellRent/text_10"
+msgstr "Do wypożyczenia za kredyty jest dostępnych kilka pojazdów {{vehiclesLevel}} poziomu. Członkowie załogi z pojazdów tego samego typu i nacji mogą zostać przeniesieni bez ponoszenia kary ani konieczności przeszkolenia."
+
+msgid "addons/cellRent/text_9"
+msgstr "Do wypożyczenia za kredyty jest dostępnych kilka pojazdów {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} poziomu. Członkowie załogi z pojazdów tego samego typu i nacji mogą zostać przeniesieni bez ponoszenia kary ani konieczności przeszkolenia."
+
+msgid "addons/cellSpectator/header"
+msgstr "Tryb widza"
+
+msgid "addons/cellSpectator/text"
+msgstr "Kiedy musisz poczekać na odrodzenie, możesz wejść w tryb widza, aby obejrzeć pole bitwy i opracować swój dalszy plan akcji."
+
+msgid "addons/cellTime/header"
+msgstr "Dodatkowy czas"
+
+msgid "addons/cellTime/text"
+msgstr "Kiedy czas bitwy skończy się w trakcie zdobywania bazy, Twoja drużyna otrzyma dodatkowy czas. Jeśli drużyna broniąca przerwie zajmowanie swojej bazy, dodatkowy czas spadnie do zera."
+
+msgid "addons/header"
+msgstr "Dodatkowe informacje"
+
+msgid "levelUp/sectionHeader"
+msgstr "Pojazdy {{level}} poziomu"
+
+msgid "levelUp/text"
+msgstr "Tak jak poprzednio, początkowo do bitwy można ruszyć tylko pojazdami {{vehiclesLevelFrom}} poziomu, ale w garażu można też przygotować pojazdy poziomu {{vehiclesLevelTo}}. Gdy jakakolwiek baza na drugiej linii (D, E, F) zostanie zdobyta, obie drużyny będą mogły użyć swoich pojazdów {{vehiclesLevelTo}} poziomu."
+
+msgid "main/cellDuration/header"
+msgstr "Czas trwania"
+
+msgid "main/cellDuration/text"
+msgstr "Linia frontu potrwa {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}}. Data następnej rundy zostanie ogłoszona w oddzielnym komunikacie."
+
+msgid "main/cellFrontline/header"
+msgstr "Linia frontu"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Ogromne bitwy 30 na 30 w pojazdach {{vehiclesLevel}} poziomu na mapach {{@ colorLegacy 'FFE4C0'}}Normandia, Kraftwerk{{/}} i {{@ colorLegacy 'FFE4C0'}}Fatamorgana{{/}}. Atakujący muszą zniszczyć 3 z 5 dział dużego kalibru, a obrońcy muszą je chronić."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Ogromne bitwy 30 na 30 w pojazdach poziomów {{vehiclesLevelFrom}}–{{vehiclesLevelTo}} na mapach {{@ colorLegacy 'FFE4C0'}}Normandia, Kraftwerk{{/}} i {{@ colorLegacy 'FFE4C0'}}Fatamorgana{{/}}. Atakujący muszą zniszczyć 3 z 5 dział dużego kalibru a obrońcy muszą je chronić."
+
+msgid "main/cellLevel9/header"
+msgstr "Pojazdy {{vehiclesLevel}} poziomu"
+
+msgid "main/cellLevel9/text"
+msgstr "Gdy jedna z baz drugiej linii (D, E lub F) zostanie zdobyta, będziesz mógł ruszyć do bitwy pojazdem {{vehiclesLevel}} poziomu."
+
+msgid "main/cellLevels/header"
+msgstr "Pojazdy {{vehiclesLevel}} poziomu"
+
+msgid "main/cellLevels/text_8"
+msgstr "W tym trybie są dostępne są tylko pojazdy {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} poziomu."
+
+msgid "main/cellLevels/text_9"
+msgstr "Tylko pojazdy {{vehiclesLevel}} poziomu mogą wejść do bitwy."
+
+msgid "main/cellPass/header"
+msgstr "Przepustka bitewna"
+
+msgid "main/cellPass/text"
+msgstr "Linia frontu to świetna okazja do zdobycia punktów Przepustki bitewnej za udział w bitwach i osiąganie nowych poziomów Linii frontu."
+
+msgid "main/cellReserves/header"
+msgstr "Kategorie rezerw bojowych"
+
+msgid "main/cellReserves/text"
+msgstr "Są trzy kategorie rezerw bojowych, każda przypisana jest do konkretnego miejsca. Kolejność ich odblokowywania i ulepszania zależy od typu pojazdu."
+
+msgid "main/cellScenarios/header"
+msgstr "Scenariusze"
+
+msgid "main/cellScenarios/text"
+msgstr "Bitwy w trybie Linii Frontu używają jednego następujących scenariuszy: {{@ colorLegacy 'FFE4C0'}}Bitwa standardowa{{/}},{{@ colorLegacy 'FFE4C0'}}Wsparcie operacyjne{{/}} lub {{@ colorLegacy 'FFE4C0'}}Zakręty losu{{/}}. Informacje o bieżącym scenariuszu bitwy są wyświetlane na ekranie ładowania, w czasie odliczania przed bitwą lub po naciśnięciu klawisza Tab."
+
+msgid "main/sectionHeader"
+msgstr "Informacje ogólne"
+
+msgid "page/backBtn"
+msgstr "WRÓĆ"
+
+msgid "page/headerUpper"
+msgstr "LINIA FRONTU"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "W zależności od osiągniętego przez Ciebie stopnia, wraz z PD bojowego otrzymasz doświadczenie Linii frontu. Jest ono używane do podnoszenia Twojego poziomu Linii frontu. Łącznie jest {{@ colorLegacy 'FFE4C0'}}20 poziomów{{/}}."
+
+msgid "progression/levelsSection/header"
+msgstr "Poziomy Linii frontu"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Poziomy Linii frontu{{/}} dają w nagrodę punkty Przepustki bitewnej, punkty rezerw bojowych, obligacje, dyrektywy, licencję mentora, rozkazy przekwalifikowania i podręczniki dla załogi."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Poziomy Linii frontu{{/}} dają w nagrodę punkty rezerw bojowych, obligacje, dyrektywy, rozkazy przekwalifikowania i podręczniki dla załogi."
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Stopnie{{/}} nie tylko wpływają na skuteczność w danej bitwie, lecz także dają premię do PD bojowego. Jest ona stosowana względem całego doświadczenia bazowego zdobytego na wszystkich pojazdach, które gracz wykorzystał w bitwie. Gdy gracz lub jego sojusznicy osiągną stopień generała, cała drużyna otrzymuje premię do skuteczności załogi (poziomu głównej kwalifikacji) między {{@ colorLegacy 'FFE4C0'}}1,5%{{/}} a {{@ colorLegacy 'FFE4C0'}}15%{{/}}."
+
+msgid "progression/ranksSection/header"
+msgstr "Stopnie"
+
+msgid "progression/ranksSection/text"
+msgstr "Ten tryb ma system sześciu stopni, w którym gracze robią postępy od stopnia szeregowego do generała. Będziesz awansować w nagrodę za skuteczne działania w bitwie (zajmowanie oraz obrona baz, niszczenie celów głównych) i za zdobywanie doświadczenia. Liczy się całe doświadczenie zdobyte we wszystkich pojazdach, w których walczyłeś."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Premia do doświadczenia bojowego"
+
+msgid "progression/ranksTable/captain"
+msgstr "Kapitan"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Premia do efektywności załogi"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Doświadczenie Linii frontu"
+
+msgid "progression/ranksTable/general"
+msgstr "Generał"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Porucznik"
+
+msgid "progression/ranksTable/major"
+msgstr "Major"
+
+msgid "progression/ranksTable/private"
+msgstr "Szeregowy"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Sierżant"
+
+msgid "progression/sectionHeader"
+msgstr "Postęp Linii frontu"
+
+msgid "progression/text"
+msgstr "Grając w tym trybie, awansujesz przez stopnie, robisz postępy na Linii frontu i zdobywasz nagrody."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Druga"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Miejsce rezerwowe 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Miejsce rezerwowe 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Miejsce rezerwowe 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Główna"
+
+msgid "reserveCategories/categories/support"
+msgstr "Dodatkowa"
+
+msgid "reserveCategories/config/footerText"
+msgstr "W scenariuszu {{@ colorLegacy 'FFE4C0'}}Zakręty losu{{/}}kolejność odblokowywania rezerw bojowych nie zależy od typu pojazdu."
+
+msgid "reserveCategories/config/header"
+msgstr "Konfiguracje rezerw wg typu pojazdu"
+
+msgid "reserveCategories/config/text"
+msgstr "W scenariuszach {{@ colorLegacy 'FFE4C0'}}Bitwa standardowa{{/}} i {{@ colorLegacy 'FFE4C0'}}Wsparcie operacyjne{{/}} wszystkie trzy miejsca na rezerwy bojowe są dostępne dla wszystkich typów pojazdów. Jednak kolejność ich odblokowania zależy od typu pojazdu."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "Niszczyciele czołgów"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Czołgi ciężkie"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Czołgi lekkie"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Czołgi średnie"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "Działa samobieżne"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* Ulepszenie do tego poziomu jest dostępne dla {{@ colorLegacy 'FFE4C0'}}kupionych{{/}} rezerw bojowych w scenariuszu {{@ colorLegacy 'FFE4C0'}}Zakręty losu{{/}}."
+
+msgid "reserveCategories/levels/header"
+msgstr "Jak odblokowywać miejsca i ulepszać rezerwy bojowe"
+
+msgid "reserveCategories/levels/text"
+msgstr "Domyślnie masz dostępną jedną rezerwę bojową. Pozostałe odblokowują się po osiągnięciu stopni sierżanta i porucznika. Wszystkie trzy rezerwy można ulepszyć po osiągnięciu stopni kapitana i majora."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} lub {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}} poziom"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Kapitan"
+
+msgid "reserveCategories/ranks/general"
+msgstr "Generał"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Porucznik"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Major"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Sierżant"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Szeregowy"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Zakręty losu"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "W czasie bitwy gracze mogą wybierać spośród losowych rezerw dostępnych dla wszystkich typów pojazdów. Umieszczenie rezerwy w miejscu przed bitwą zwiększa szansę otrzymania jej w bitwie o {{@ colorLegacy 'FFE4C0'}}10%{{/}}. Kupno rezerwy zwiększy jej poziom do {{@ colorLegacy 'FFE4C0'}}II{{/}} i zapewni możliwość ulepszenia jej do {{@ colorLegacy 'FFE4C0'}}IV{{/}} poziomu."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Scenariusze Linii Frontu"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Bitwa standardowa"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Stosowane są standardowe zasady Linii Frontu. Warunki korzystania z rezerw bojowych pozostają niezmienione."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Wsparcie operacyjne"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "Przy odblokowaniu rezerwy: {{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "Przy powrocie do bitwy: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Bardziej dynamiczny scenariusz ze skróconym czasem przygotowania rezerw bojowych:"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Bitwy w trybie Linii Frontu używają jednego z następujących scenariuszy: {{@ colorLegacy 'FFE4C0'}}Bitwa standardowa{{/}}, {{@ colorLegacy 'FFE4C0'}}Wsparcie operacyjne{{/}} lub {{@ colorLegacy 'FFE4C0'}}Zakręty losu{{/}}. Scenariusze zmieniają warunki korzystania z rezerw bojowych w bitwie. Informacje o bieżącym scenariuszu bitwy są wyświetlane na ekranie ładowania, w czasie odliczania przed bitwą lub po naciśnięciu klawisza Tab."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Kategorie rezerw bojowych"
+
+msgid "reserveCategories/text"
+msgstr "Rezerwy bojowe są podzielone na trzy kategorie, po trzy rezerwy w każdej. Wchodząc do bitwy, możesz umieścić tylko jedną rezerwę z danej kategorii w odpowiednim miejscu."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Rezerwy szturmowe"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Rezerwy zwiadowcze"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Rezerwy taktyczne"
+
+msgid "reserves/sectionHeader"
+msgstr "Szybkie rezerwy"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Szybki start"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Na początku bitwy czas przygotowania rezerw bojowych jest skrócony o 50%."
+
+msgid "reserves/sectionReload/header"
+msgstr "Natychmiastowa dostępność"
+
+msgid "reserves/sectionReload/text"
+msgstr "Rezerwy bojowe będą gotowe do użycia, kiedy tylko zostaną odblokowane."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Drugi oddech"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Czas przygotowania rezerw bojowych po powrocie do bitwy w nowym pojeździe jest skrócony o 70%."
+
+msgid "rules/backToFight/header"
+msgstr "Powracanie do bitwy"
+
+msgid "rules/backToFight/text"
+msgstr "Jeśli Twój pojazd zostanie zniszczony, wybierz inny dostępny pojazd i wracaj na pole bitwy, by walczyć o zwycięstwo. Możesz wybrać jeden z kilku obszarów rozlokowania (punktów odrodzenia) na skrzydłach a także na tyłach, co pomoże Ci określić dalszy plan działania. Gracze z drużyny broniącej mają szerszy wybór punktów odradzania spośród punktów głęboko na swoich tyłach, co oznacza, że mogą ruszać do obrony dział dużego kalibru na wypadek nagłego przełamania. Gra pokazuje również specjalny wskaźnik, który ostrzega graczy, gdy rozlokowanie w wybranym obszarze jest niebezpieczne."
+
+msgid "rules/base/header"
+msgstr "Zajęcie bazy"
+
+msgid "rules/base/textBottom"
+msgstr "Uszkodzenie pojazdu (lub jego modułu) podczas zajmowania bazy nie zeruje postępów zajmowania. Zamiast tego postęp jest tymczasowo zatrzymywany. Aby wyzerować postęp zajmowania, obrońcy muszą zniszczyć wszystkie pojazdy przeciwnika w kole bazy lub zmusić je do jego opuszczenia. Drużyna broniąca nie może ponownie zająć bazy po zajęciu jej przez atakujących."
+
+msgid "rules/base/textTop"
+msgstr "{FFE4C0_Start}Drużyna atakująca{FFE4C0_End} musi zajmować kolejne bazy, aby osiągnąć główne cele. Zajęta baza dodaje 2 minuty do czasu trwania bitwy. Zajęcie ostatniej bazy dodaje 4 minuty."
+
+msgid "rules/sectionHeader"
+msgstr "Zasady ogólne"
+
+msgid "rules/service/header"
+msgstr "Koła odnawiania"
+
+msgid "rules/service/text"
+msgstr "Koła odnawiania przywracają punkty wytrzymałości pojazdu, leczą rannych członków załogi i uzupełniają amunicję. {FFE4C0_Start}Szybkość odnawiania jest następująca: 100 punktów wytrzymałości / 1 członek załogi/10%{FFE4C0_End} amunicji na sekundę."
+
+msgid "rules/weapons/header"
+msgstr "Cel: 3 z 5 dział dużego kalibru"
+
+msgid "rules/weapons/list/back"
+msgstr "Tylny pancerz: {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "Pancerz dachu i pancerz przedni {{@ colorLegacy 'FFE4C0'}}nie mogą być przebite{{/}} przez pociski."
+
+msgid "rules/weapons/list/sides"
+msgstr "Pancerz boczny: {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Pancerz boczny: {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Podatne punkty: {{@ colorLegacy 'FFE4C0'}}drzwi (70 mm) i wentylacja (25 mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Na głębokich tyłach drużyny broniącej znajduje się pięć wież działowych, które są głównymi celami w bitwie. Drużyna atakująca musi zniszczyć 3 wieże, a obrońcy muszą je ochronić za wszelką cenę."
+
+msgid "subTitle/differentMonth"
+msgstr "od {{@ colorLegacy 'FFE4C0'}}{{from}} {{startMonth}}{{/}} do {{@ colorLegacy 'FFE4C0'}}{{to}} {{endMonth}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "od {{@ colorLegacy 'FFE4C0'}}{{from}} {{startMonth}} {{startYear}}{{/}} do {{@ colorLegacy 'FFE4C0'}}{{to}} {{endMonth}} {{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "od {{@ colorLegacy 'FFE4C0'}}{{from}}{{/}} do {{@ colorLegacy 'FFE4C0'}}{{to}} {{endMonth}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "Sektory A, B i C {{@ colorLegacy 'FFE4C0'}}w pierwszej linii{{/}} reprezentują pozycje startowe obu drużyn."
+
+msgid "winStrategy/header"
+msgstr "Strategia wygrywająca"
+
+msgid "winStrategy/mapZones"
+msgstr "Mapa trybu udostępnia trzy poziome linie obrony:"
+
+msgid "winStrategy/secondLine"
+msgstr "Po zajęciu sektorów w pierwszej linii bitwa przenosi się do sektorów D, E i F {{@ colorLegacy 'FFE4C0'}}w drugiej linii{{/}}."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Trzecia linia{{/}} nie jest podzielona na sektory. Jest to obszar, w którym rozgrywa się ostatni etap bitwy. Znajdują się tu działa dużego kalibru, a ich zniszczenie zapewnia zwycięstwo drużynie atakującej. Atakujący zyskują dostęp do głównych celów dopiero po zajęciu co najmniej jednego sektora na drugiej linii. Gdy sektor zostanie utracony, broniący gracze mają 1 minutę na opuszczenie go, zanim zostanie zbombardowany. Nalot uderzy we wszystkich broniących, którzy pozostaną w sektorze. Wszyscy atakujący, którzy próbują dotrzeć do sektorów na drugiej i trzeciej linii przed zajęciem poprzedniego sektora, również zostaną zniszczeni przez nalot."

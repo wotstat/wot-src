@@ -1,0 +1,194 @@
+msgid "fatal_shell/penetration_range"
+msgstr "%(from)d–%(to)d mm"
+
+msgid "fatal_shell/penetration_value"
+msgstr "%(penetration)d mm"
+
+msgid "hints/camera_flow/buttonText"
+msgstr "MEZERNÍK"
+
+msgid "hints/camera_flow/pause"
+msgstr "Pokročilý režim (%(duration))"
+
+msgid "hints/camera_flow/pauseSimplified"
+msgstr "Pozastavit (%(duration))"
+
+msgid "hints/camera_flow/resume"
+msgstr "Pokračovat (%(duration))"
+
+msgid "hints/death_reason/destroyed"
+msgstr "Vozidlo zničeno"
+
+msgid "hints/death_reason/legacyHE"
+msgstr "Explozivní poškození"
+
+msgid "hints/death_reason/modernHE"
+msgstr "Poškození střepinami"
+
+msgid "hints/death_reason/nonPenetrationDamage"
+msgstr "Povrchové poškození"
+
+msgid "hints/death_reason/penetration"
+msgstr "Přímý zásah"
+
+msgid "hints/follow_pt1"
+msgstr "Klikněte levým tlačítkem myši"
+
+msgid "hints/follow_pt2"
+msgstr "pro sledování tohoto vozidla"
+
+msgid "hints/free_cam/return_previous"
+msgstr "Pro návrat k předchozímu vozidlo klikněte pravým tlačítkem myši"
+
+msgid "hints/height/label"
+msgstr "Výška"
+
+msgid "hints/height/text"
+msgstr "Nastavte výšku kamery"
+
+msgid "hints/movement/label"
+msgstr "Pohyb"
+
+msgid "hints/movement/text"
+msgstr "Pro pohyb kamery použijte klávesy „%(forward)s“, „%(left)s“, „%(backward)s“, „%(right)s“."
+
+msgid "hints/skip/buttonText"
+msgstr "ESC"
+
+msgid "hints/skip/label"
+msgstr "Přeskočit"
+
+msgid "hints/spectatorDown"
+msgstr "SHIFT"
+
+msgid "hints/spectatorUp"
+msgstr "MEZERNÍK"
+
+msgid "hints/speed/label"
+msgstr "Rychlost"
+
+msgid "hints/speed/text"
+msgstr "Upravte rychlost kamery."
+
+msgid "hints/spotted_status/spotted"
+msgstr "Odhalen"
+
+msgid "hints/spotted_status/unspotted"
+msgstr "Výstřel naslepo"
+
+msgid "marker/paramName/angleFailure"
+msgstr "Úhel neprobití"
+
+msgid "marker/paramName/angleImpact"
+msgstr "Úhel probití"
+
+msgid "marker/paramName/angleRicochet"
+msgstr "Úhel odražení"
+
+msgid "marker/paramName/armorNominal"
+msgstr "Nominální pancíř {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/armorRelative"
+msgstr "Pancíř {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/damageDistanceModifier"
+msgstr "Modifikátor vzdálenosti {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/deathReason/crew"
+msgstr "Posádka vyřazena!"
+
+msgid "marker/paramName/deathReason/detonation"
+msgstr "Vybuchla bedna s municí!"
+
+msgid "marker/paramName/deathReason/ignition"
+msgstr "Zapálen!"
+
+msgid "marker/paramName/is2CaliberRuleApplied"
+msgstr "Pravidlo dvou ráží"
+
+msgid "marker/paramName/is3CaliberRuleApplied"
+msgstr "Pravidlo tří ráží"
+
+msgid "marker/paramName/nonArmored"
+msgstr "Žádný pancíř"
+
+msgid "marker/paramName/shellArmorAngleGain"
+msgstr "Pancíř získaný zkosením {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellCaliber"
+msgstr "Ráže {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBasic"
+msgstr "Průměrné poškození {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBurst"
+msgstr "Potenciální poškození {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/legacyHE"
+msgstr "Způsobené explozivní poškození {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/modernHE"
+msgstr "Způsobené poškození střepinami {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/nonPenetrationDamage"
+msgstr "Způsobené povrchové poškození {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/penetration"
+msgstr "Způsobené poškození {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossDistance"
+msgstr "Ztraceno vzdáleností {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionHe"
+msgstr "Zablokováno pancířem {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionSpallLiner"
+msgstr "Sníženo vybavením {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageRandomizationFactor"
+msgstr "Randomizace poškození {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationBasic"
+msgstr "Průměrná průbojnost {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationEffective"
+msgstr "Průbojnost {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellVelocityBasic"
+msgstr "Rychlost granátu {colorTagOpen}(m/s){colorTagClose}"
+
+msgid "marker/paramName/shootDistance"
+msgstr "Vzdálenost {colorTagOpen}(m){colorTagClose}"
+
+msgid "marker/paramName/shootDistanceUnspotted"
+msgstr "Nepřítel neodhalen"
+
+msgid "marker/value/angle/exact"
+msgstr "%(value)s°"
+
+msgid "marker/value/angle/less"
+msgstr "< %(value)s°"
+
+msgid "marker/value/angle/more"
+msgstr "> %(value)s°"
+
+msgid "marker/value/applied"
+msgstr "Aplikovaný"
+
+msgid "marker/value/dashes"
+msgstr "--"
+
+msgid "marker/value/failed"
+msgstr "Žádný"
+
+msgid "marker/value/notAffected"
+msgstr "--"
+
+msgid "marker/value/signNegative"
+msgstr "- %(value)s"
+
+msgid "marker/value/signPositive"
+msgstr "+ %(value)s"
+
+msgid "marker/value/unspotted"
+msgstr "Neodhalen"

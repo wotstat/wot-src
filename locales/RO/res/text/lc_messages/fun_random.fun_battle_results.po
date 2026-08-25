@@ -1,0 +1,254 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "closeBtn"
+msgstr "ÎNCHIDE"
+
+msgid "continueBtn"
+msgstr "Continuare"
+
+msgid "economy/double/credits"
+msgstr "Contul premium WoT crește cantitatea de credite obținute cu %(value)s%%."
+
+msgid "economy/double/free_xp"
+msgstr "Contul premium WoT crește cantitatea de EXP liberă obținută cu %(value)s%%."
+
+msgid "economy/double/tmen_xp"
+msgstr "Contul premium WoT crește cantitatea de EXP de echipaj obținută cu %(value)s%%."
+
+msgid "economy/double/xp"
+msgstr "Contul premium WoT crește cantitatea de EXP de luptă obținută cu %(value)s%%."
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "Contul premium WoT crește cantitatea de EXP de luptă și liberă obținute cu %(value)s%%."
+
+msgid "efficiency/capturePoints"
+msgstr "Capturare bază"
+
+msgid "efficiency/damageAssisted"
+msgstr "Asistență daune"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "Șoc"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "Daune blocate"
+
+msgid "efficiency/damageDealt"
+msgstr "Daune"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "Apărarea bazei"
+
+msgid "efficiency/empty"
+msgstr "—"
+
+msgid "efficiency/kills"
+msgstr "Distruse"
+
+msgid "efficiency/spotted"
+msgstr "Observare"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "Capturare bază"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "Daune cu asistența ta"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "Șoc"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "Utilizarea blindajului"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "Daune"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "Apărarea bazei"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "Inamici distruși"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "Observare"
+
+msgid "finish"
+msgstr "Lupta s-a încheiat"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "Trebuie aplicat celei mai recente lupte cu același vehicul."
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "Bonusul nu poate fi aplicat: antrenamentul accelerat al echipajului este activ."
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "Bonusul nu poate fi aplicat: antrenamentul accelerat al echipajului este oprit."
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "Multiplicatorii pot fi aplicați doar luptelor victorioase."
+
+msgid "premiumBonus/NoCrew"
+msgstr "Bonusul administrabil nu poate fi aplicat: nu s-a găsit echipajul."
+
+msgid "premiumBonus/NoVehicle"
+msgstr "Bonusul administrabil nu poate fi aplicat: nu s-a găsit vehiculul."
+
+msgid "progress/title"
+msgstr "%(modeName)s: Misiune specială. Etapa: %(done)s / %(total)s"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s: Misiune specială"
+
+msgid "result/lose"
+msgstr "ÎNFRÂNGERE"
+
+msgid "result/tie"
+msgstr "EGALITATE"
+
+msgid "result/win"
+msgstr "VICTORIE"
+
+msgid "resultRace/battleStatus/finished"
+msgstr "ÎNCHEIAT"
+
+msgid "resultRace/battleStatus/inTop"
+msgstr "LOC"
+
+msgid "resultRace/battleStatus/notFinished"
+msgstr "NU A\nÎNCHEIAT"
+
+msgid "resultRace/finishReason/finished"
+msgstr "S-a atins linia de sosire"
+
+msgid "resultRace/finishReason/notFinished"
+msgstr "Nu s-a atins linia de sosire"
+
+msgid "resultRace/footerSubtitle/battleEnded"
+msgstr "Luptă încheiată: {{time}}"
+
+msgid "resultRace/footerSubtitle/finished"
+msgstr "Nu-i rău!"
+
+msgid "resultRace/footerSubtitle/inTop"
+msgstr "Top 3!"
+
+msgid "resultRace/footerSubtitle/notFinished"
+msgstr "Baftă data viitoare!"
+
+msgid "ribbon/applied"
+msgstr "Bonus aplicat cu succes"
+
+msgid "ribbon/errorState"
+msgstr "Eroare la aplicare"
+
+msgid "ribbon/expBonus"
+msgstr "+%(count)s %(icon)s Bonus la EXP"
+
+msgid "ribbon/timeLeft"
+msgstr "Reînnoirea bonusului în:"
+
+msgid "ribbon/usesLeft"
+msgstr "Aplicări disponibile: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "Dev VEDERE GENERALĂ"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "Dev SCORUL ECHIPEI"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "Jucători"
+
+msgid "sub_modes/fall_tanks/efficiency/checkpointsPassed"
+msgstr "Puncte de control"
+
+msgid "sub_modes/fall_tanks/efficiency/deathCount"
+msgstr "Reapariții"
+
+msgid "sub_modes/fall_tanks/efficiency/finishPosition"
+msgstr "Poziție"
+
+msgid "sub_modes/fall_tanks/efficiency/finishTime"
+msgstr "Timp"
+
+msgid "sub_modes/fall_tanks/efficiency/kills"
+msgstr "Dezintegrat"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/checkpointsPassed"
+msgstr "Numărul de punct de control de care ai trecut"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/deathCount"
+msgstr "Numărul de reapariții după dezintegrarea vehiculului"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/destroyed"
+msgstr "Numărul de vehicule inamice pe care le-ai dezintegrat"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishPosition"
+msgstr "Poziția ta finală în clasamentul cursei"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishTime"
+msgstr "Timpul în care ai atins linia de sosire"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/checkpointsPassed"
+msgstr "Puncte de control"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/deathCount"
+msgstr "Reapariții"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/destroyed"
+msgstr "Dezintegrat"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishPosition"
+msgstr "Loc"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishTime"
+msgstr "Timp"
+
+msgid "sub_modes/fall_tanks/navigation/battleResults"
+msgstr "REALIZĂRI PERSONALE"
+
+msgid "sub_modes/fall_tanks/navigation/teamEfficiency"
+msgstr "REZULTATELE PARTICIPANȚILOR"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/body"
+msgstr "Sortează după poziție"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/header"
+msgstr "Loc"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/body"
+msgstr "Sortează după timp"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/header"
+msgstr "Timp"
+
+msgid "sub_modes/fall_tanks/team/singleTeam"
+msgstr "Jucători"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/body"
+msgstr "Sortează după vehicule"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/header"
+msgstr "Vehicule"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "VEDERE GENERALĂ"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "SCORUL ECHIPEI"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "Jucători"
+
+msgid "team/empty/finishTime"
+msgstr "-- : -- . --"
+
+msgid "team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "title"
+msgstr "REZULTATELE LUPTEI"

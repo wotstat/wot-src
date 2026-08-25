@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Vagn mottagen"
+
+msgid "awardView/end"
+msgstr "EVENEMANGET AVSLUTAT"
+
+msgid "awardView/info"
+msgstr "Vagnsnummer"
+
+msgid "awardView/toHangar"
+msgstr "Visa i garaget"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) vagnar med numrerad stil"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "VAGN MOTTAGEN"
+
+msgid "awardView/vehicleTitle"
+msgstr "VAGN MOTTAGEN"
+
+msgid "commonTexts/aboutButton"
+msgstr "OM EVENEMANGET"
+
+msgid "commonTexts/closeBtn"
+msgstr "STÄNG"
+
+msgid "commonTexts/eventTitle"
+msgstr "MONTERINGSVERKSTADEN"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Avbryt"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Bekräfta"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Inga vagnar med vagnsnummer återstår. Du kommer få en %(vehicleName)s utan vagnsnummer.\nÄr du säker på att du vill allokera resurser?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "Du kommer få %(vehicleName)s utan vagnsnummer"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Tillbaka till garaget"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Alla allokerade resurser återbördas till ditt konto inom kort."
+
+msgid "confirm/NoVehicles/title"
+msgstr "Tyvärr återstår inga vagnar"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Avbryt"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Bekräfta"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Framsteg efter allokering: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Allokera resurser?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Återbörda resurser"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Alla allokerade resurser återbördas till ditt konto och din montering nollställs. Du kommer kunna allokera resurserna igen för att få en vagn så länge evenemanget varar."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Återbörda alla resurser?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Alla allokerade resurser återbördas till ditt konto och din montering nollställs. %(vehicleName) väljs och du kommer kunna allokera resurser för att få vagnen."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Återbörda alla allokerade resurser och välj %(vehicleName)?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Välj en vagn"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "Du kan köpa båda vagnarna under evenemanget."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "Under evenemanget kan du köpa ett paket som innehåller en vagn med en 3D-stil med vagnsnummer."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "De första %(styleTanksCount) spelarna kommer få en vagn med en 3D-stil med ett unikt vagnsnummer.{{@ class $br}}{{/}}Därefter kommer %(withoutStyleTanksCount) vagnar levereras utan 3D-stil med vagnsnummer."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "EVENEMANGET AVSLUTAT"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "VAGNAR MOTTAGNA"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "VAGN MOTTAGEN"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Vagnar kvar"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Vagnen finns redan i ditt garage"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Vagn mottagen"
+
+msgid "eventInfo/tanksOver"
+msgstr "SLUT"
+
+msgid "eventInfo/top/styleText"
+msgstr "Med vagnsnummer"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Numrerade vagnar kvar"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "Leverans av %(regularRewardVehiclesCount) vagnar i standardutförande kommer påbörjas\nnär inga fler numrerade vagnar återstår."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "I standardutförande"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Vagnar kvar"
+
+msgid "mainView/affirmative/button"
+msgstr "Uppfattat"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "Resursåterbörd"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Resurser insamlade:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Resurser insamlade för:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Tillbaka till garaget"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Välj resurser"
+
+msgid "mainView/footer/description/text"
+msgstr "Om inga vagnar återstår kommer alla allokerade resurser återbördas."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "Din kontotyp kan inte delta i evenemanget."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Du kan inte delta"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Du kan köpa båda vagnar, men du kan bara allokera resurser till en av dem i taget."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Välj en vagn och allokera tillräckligt med resurser för att montera den – men skynda dig!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Skynda dig att allokera resurser för montering så du får din %(vehicleName)!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Alla allokerade resurser återbördas till ditt konto inom kort."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "Tyvärr återstår inga vagnar"
+
+msgid "mainView/navbar/backBtn"
+msgstr "TILL MONTERINGSVERKSTADEN"
+
+msgid "mainView/navbar/title"
+msgstr "MONTERINGSVERKSTADEN"
+
+msgid "mainView/preview/label"
+msgstr "Förhandsvisa"
+
+msgid "mainView/timer/lastUntil"
+msgstr "Till"
+
+msgid "mainView/timer/leftTime"
+msgstr "Tid kvar:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Stäng"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Allokera resurser"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Data tillfälligt ej tillgänglig"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Inga vagnar kvar"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Numrerade vagnar kvar: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Vagnar kvar: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Allmän"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Resursgräns %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "Max %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Resurser insamlade %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Ritningsfragment"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Valutor"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "RESURSINSAMLING"
+
+msgid "tankPreview/button"
+msgstr "Välj resurser"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "Under evenemanget kan du köpa ett paket som innehåller en vagn med en 3D-stil med vagnsnummer."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "De första %(topPlayers) spelarna kommer få en vagn med en 3D-stil med ett unikt vagnsnummer.\nDärefter kommer %(basePlayers) vagnar levereras utan 3D-stil med vagnsnummer."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "Du kan köpa båda vagnarna under evenemanget."
+
+msgid "tankPreview/title"
+msgstr "Samla och allokera 100% av resurserna som krävs så får du %(vehicleInfo)!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Du kan se hur mycket resurser du allokerat och, vid behov, återbörda allt till ditt konto genom att klicka på knappen Återbörda resurser.\nMonteringen nollställs men du kan allokera resurserna, eller andra resurser, igen för att få en vagn."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Resursåterbörd"
+
+msgid "tooltips/counter/error/text"
+msgstr "Data tillfälligt ej tillgänglig.\nVi arbetar för att åtgärda felet."
+
+msgid "tooltips/counter/warning/text"
+msgstr "Antalet visas med fördröjning och kan skilja sig från det verkliga antalet vagnar."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Allokera resurser och få en %(vehicleName1) och en %(vehicleName2). Antalet vagnar är begränsat."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Allokera resurser och få en %(vehicleName) med en 3D-stil med vagnsnummer. Antalet vagnar är begränsat."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Tillgängligt: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s - %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Tillgängligt i %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Tillgänglig om: %(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "Monteringsverkstaden"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Klicka för mer information om evenemanget"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Välj en vagn för att allokera resurser till den.\nOm du redan allokerat resurser till en annan vagn återbördas de till ditt konto."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Tid kvar: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "För att montera en vagn måste du allokera 100% av angivna resurser. Hur mycket som krävs av varje resurs kan variera."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "Om inga vagnar återstår kommer alla allokerade resurser återbördas."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Vald"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Allokerat"
+
+msgid "tooltips/progressbar/title"
+msgstr "RESURSINSAMLING"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "Allokering av resurser ej tillgänglig för tillfället. Försök igen senare."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Allmänna och nationella ritningsfragment."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Ritningsfragment"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Delas ut för aktivt deltagande i strid. Kan även köpas för riktiga pengar."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Valutor"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Allokerat:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "Gräns för hur mycket av resursen som kan allokeras: %(maxAmount)d."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Du har samlat nog med resurser för att få en vagn. Du kan även ta bort en resurstyp för att välja en annan."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Resurser insamlade"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "Det här är en unik vagn med ett eget vagnsnummer och ett speciellt utseende."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "Vagnsnumret visas på båda sidor av kanonen och bak på skrovet. Numret upprepas aldrig på identiska vagnar och antalet är begränsat."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "Vagnens utmärkande utseende kan döljas. Du kan ta bort den 3D-stilen med vagnsnummer i utseendehanteringen."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Vagn med vagnsnummer"

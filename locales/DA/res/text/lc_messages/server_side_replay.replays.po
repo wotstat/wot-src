@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "closeButtonLabel"
+msgstr "LUK"
+
+msgid "featureName"
+msgstr "REPLAYS"
+
+msgid "filter/apply"
+msgstr "Anvend filter"
+
+msgid "filter/group/nation/title"
+msgstr "Nation"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Niveau"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Niveau"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specialisering"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Køretøjstype"
+
+msgid "filter/reset"
+msgstr "Nulstil filter"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Vis/skjul mandskabsmedlemmer fra denne nation."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Vis/skjul skins fra denne nation."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Vis/skjul køretøjer fra denne nation."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Vis/skjul køretøjer af denne type."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Kampvognsjægere"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "SPG'er"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Tunge kampvogne"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Lette kampvogne"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Medium kampvogne"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Ingen køretøjer fundet,\nder opfylder søgekriteriet"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sorter efter køretøjsnavn."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Navn"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sorter efter køretøjsniveau."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Niveau"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sorter efter køretøjstype."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Type"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Navn"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Klik for at anvende filterindstillinger."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Anvend valgte filtre"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Klik for at nulstille filterindstillinger."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Nulstil alle filtre"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Vis kun prime-time replays"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "Varer %(count)s dag"
+msgstr[1] "Varer %(count)s dage"
+msgstr[2] "Varer %(count)s dage"
+
+msgid "filterPopover/title"
+msgstr "Replay-filter"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Konfigurer replay-filter efter køretøjstype, niveau, nation osv."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Filtrer efter parametre"
+
+msgid "findReplay/buttonText/find"
+msgstr "Find replay"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Ryd input"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Se replay!"
+
+msgid "findReplay/errorMessage"
+msgstr "Intet fundet. Udskift din anmodning"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Indtast ARENA_ID her..."
+
+msgid "findReplay/successMessage"
+msgstr "AI fandt replay du måske er interesseret i! Nyd det"
+
+msgid "page/heading/bestReplays"
+msgstr "BEDSTE REPLAYS"
+
+msgid "page/heading/findReplay"
+msgstr "FIND REPLAY (TIL DEV)"
+
+msgid "page/heading/myReplays"
+msgstr "MINE REPLAYS"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Denne del indeholder information om de bedste replays fra alle WoT-spillere"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Denne del er for at finde replays efter valgte parametre"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Denne del indeholder information om DINE bedste replays"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "BEDSTE REPLAYS"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Find replay"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "MINE REPLAYS"
+
+msgid "statsParam/damageAssisted"
+msgstr "Top 1 i hjælp til ødelæggelse"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Top 1 i blokeret skade"
+
+msgid "statsParam/damageDealt"
+msgstr "Top 1 i uddelt skade"
+
+msgid "statsParam/earnedXp"
+msgstr "Top 1 i optjent xp"
+
+msgid "statsParam/kills"
+msgstr "Top 1 i antal ødelagte køretøjer"
+
+msgid "table/error/buttonText"
+msgstr "Opdater"
+
+msgid "table/error/description"
+msgstr "Vi beklager den midlertidige ulejlighed. Prøv venligst at opdatere siden senere."
+
+msgid "table/error/title"
+msgstr "Fejl i indlæsning af data"
+
+msgid "table/header/damageAssisted"
+msgstr "Assistance"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Blokeret skade"
+
+msgid "table/header/damageDealt"
+msgstr "Skade"
+
+msgid "table/header/date"
+msgstr "Dato"
+
+msgid "table/header/earnedXp"
+msgstr "Optjent xp"
+
+msgid "table/header/kills"
+msgstr "Antal ødelagte køretøjer"
+
+msgid "table/header/map"
+msgstr "Kort"
+
+msgid "table/header/marksOfMastery"
+msgstr "Mestermærker"
+
+msgid "table/header/player"
+msgstr "Spillernavn"
+
+msgid "table/header/vehicle"
+msgstr "Køretøj"
+
+msgid "table/noRecords/buttonText"
+msgstr "Nulstil filter"
+
+msgid "table/noRecords/title"
+msgstr "Intet fundet. Skift indstillinger eller nulstil filteret"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Klik for at nulstille filterindstillinger."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Nulstil alle filtre"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Mængde af assisteret skade fra spilleren i dette replay"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Assisteret skade"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Mængde af blokeret skade af spilleren i dette replay"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Skade blokeret af panser"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Mængde af uddelt skade af spilleren i dette replay"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Uddelt skade"
+
+msgid "table/tooltip/date/body"
+msgstr "Dato for optagelse af replay."
+
+msgid "table/tooltip/date/header"
+msgstr "Dato for replay"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Mængde af optjent xp af spilleren i dette replay"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Optjent xp"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Særlige medaljer spilleren modtog i dette replay"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Særlige medaljer"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Klik for at tilføje dette replay til favorit-replays."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Favorit"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Klik for at fjerne dette replay fra favorit-replays."
+
+msgid "table/tooltip/kills/body"
+msgstr "Mængde af ødelagte køretøjer af spilleren i dette replay"
+
+msgid "table/tooltip/kills/header"
+msgstr "Ødelagte køretøjer"
+
+msgid "table/tooltip/map/body"
+msgstr "Replayets kort."
+
+msgid "table/tooltip/map/header"
+msgstr "Kort"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Mestermærker spilleren modtog i dette replay"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Mestermærker"
+
+msgid "table/tooltip/player/body"
+msgstr "Spillerens navn i replayet."
+
+msgid "table/tooltip/player/header"
+msgstr "Spillernavn"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Spillerens køretøj som replayet blev optaget i."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Køretøj"
+
+msgid "tableInfo/amount"
+msgstr "Replays vist: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Filter"
+
+msgid "waitingSpinner/message"
+msgstr "Indlæser indhold..."

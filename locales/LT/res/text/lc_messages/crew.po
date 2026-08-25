@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Padidinti"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Atleisti netreniruotus"
+
+msgid "barracks/bunks/title"
+msgstr "Gultai:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Nurodykite norimų pirkti gultų skaičių. Gultai pasiekiami kareivinėse: %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Kaina su nuolaida"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Nauja kaina: %(currency)s už %(bunksCount)s gultus"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Buvusi kaina: %(currency)s už %(bunksCount)s gultus"
+
+msgid "barracks/enlarge/header"
+msgstr "Padidinti kareivines?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Kareivinėse Galima atleisti netreniruotus įgulos narius, kurie turi mažiau nei {whiteSpanish_Open}210 060{whiteSpanish_Close}{icon} patirties, ko reikia pirmam įgūdžiui ištreniruoti iki {whiteSpanish_Open}100%{whiteSpanish_Close}."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Netreniruoti įgulos nariai"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Jūs neturite netreniruotų įgulos narių"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Atleisdami netreniruotus įgulos narius negausite jokios kompensacijos. Atleistų įgulos narių negalėsite niekaip atgauti, o jų patirtis bus prarasta."
+
+msgid "barracks/title"
+msgstr "KAREIVINĖS"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Paspaudę praplėsite kareivines."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Praplėsti kareivines"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Vieta"
+
+msgid "common/imageNotAvailable"
+msgstr "Paveikslėlis nepasiekiamas"
+
+msgid "common/inBarracks"
+msgstr "Kareivinėse"
+
+msgid "common/inBattle"
+msgstr "Mūšyje"
+
+msgid "common/inPrebattle"
+msgstr "Formuotėje"
+
+msgid "common/navigation/aboutCrew"
+msgstr "APIE ĮGULĄ"
+
+msgid "common/navigation/toBarracks"
+msgstr "Į KAREIVINES"
+
+msgid "common/navigation/toGarage"
+msgstr "Į GARAŽĄ"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "Į PROFILĮ"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Tikrai taip!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Jūsų įgulos nariai konvertuotu į įgulos knygas."
+
+msgid "conversionAwards/title"
+msgstr "KONVERTAVIMAS SĖKMINGAS"
+
+msgid "conversionAwards/underTitle"
+msgstr "Šie daiktai buvo perkelti į jūsų paskyrą."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Atšaukti"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Atleisti"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Atleidžiami įgulos nariai: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Atleisti netreniruotus įgulos narius?"
+
+msgid "conversionConfirm/warning"
+msgstr "Atleisdami netreniruotus įgulos narius negausite jokios kompensacijos. Atleistų įgulos narių negalėsite niekaip atgauti, o jų patirtis bus prarasta."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Automatiškai parinkti įgūdžius"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Nėra įgulos narių su neištreniruotais įgūdžiais."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Negalima automatiškai parinkti įgūdžių"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Visi neištreniruoti įgūdžiai, pažymėti pliuso ženklu, bus automatiškai parinkti įgulos nariams pagal specialią logiką."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Automatiškai parinkti neištreniruotus įgūdžius visiems"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Atstatyti įgūdžius visiems"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Nėra įgulos narių su ištreniruotais įgūdžiais."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Negalima panaikinti įgūdžių"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Visi įgūdžiai bus atstatyti visiems jūsų turimiems įgulų nariams. Šio veiksmo negalima atšaukti."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Atstatyti įgūdžius visiems"
+
+msgid "crewBanner/infoText"
+msgstr "Nemokamas įgūdžių atstatymas ar automatinis neištreniruotų įgūdžių parinkimas visų jūsų įgulų nariams"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Pagreitinti įgulos apmokymai aktyvuoti"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Efektyvumo bonusas: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Įgūdžių efektyvumas"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Įgūdžiai neveiks, nes įgulos narys nėra apmokytas naudotis šia mašina."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Specializacija:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Įgūdžiai nepasiekiami"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Papildomi įgūdžiai:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Pagrindinės kvalifikacijos įgūdžiai:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(Kinija)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Čekoslovakija)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Prancūzija)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Vokietija)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Italija)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japonija)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Lenkija)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Švedija)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(D. Britanija)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(JAV)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(SSRS)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Visi Premium prieštankiniai {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Visa Premium artilerija {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Visi Premium sunkieji tankai\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Visi Premium lengvieji tankai {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Visi Premium vidutiniai tankai\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Detaliau"
+
+msgid "filter/group/details/title"
+msgstr "Detaliau"
+
+msgid "filter/group/nation/title"
+msgstr "Nacija"
+
+msgid "filter/group/other/title"
+msgstr "Kita"
+
+msgid "filter/group/special/title"
+msgstr "Specialūs"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Kvalifikacija"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Lygis"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Lygis"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specializacija"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Technikos tipas"
+
+msgid "filter/popup/button/title"
+msgstr "Filtras"
+
+msgid "filter/popup/default/title"
+msgstr "Filtras"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Filtruoti pagal naciją"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Filtruoti pagal mašinas"
+
+msgid "filter/reset"
+msgstr "Pašalinti filtrą"
+
+msgid "filter/search/placeholder"
+msgstr "Paieška pagal vardą"
+
+msgid "filter/search/tooltip/header"
+msgstr "Paieška pagal vardą"
+
+msgid "filter/title"
+msgstr "Rodoma:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Rodyti/slėpti įgulos narius mašinose su išrastais visais įmanomais moduliais ir visomis išrastomis techninėmis šakomis."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Elitinė technika"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Rodyti/slėpti Premium mašinoms treniruotus įgulos narius."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Premium mašinos"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Rodyti/slėpti įgulos narius pagrindinėse mašinose."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Pagrindinė technika"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Rodyti/slėpti įgulos narius šio tipo mašinoms."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Rodyti/slėpti šios nacijos įgulos narius."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Rodyti/slėpti šios nacijos įgulos apvalkalus."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Rodyti/slėpti šios nacijos mašinas."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Rodyti/slėpti atleistus."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Atleistas"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Rodyti rekrutus."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Naujokai"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Rodyti įgulos narius."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Įgulos nariai"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Rodyti/slėpti šios kvalifikacijos įgulos narius."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Rodyti/slėpti Premium mašinas."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Premium mašinos"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Rodyti/slėpti šio tipo mašinas."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Prieštankiniai"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Artilerija"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Sunkieji tankai"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Lengvieji tankai"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Vidutiniai tankai"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nerasta mašinų, kurios atitiktų\npaieškos kriterijus"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Rūšiuoti pagal mašinų pavadinimus."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Pavadinimas"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Rūšiuoti pagal technikos lygį."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Lygis"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Rūšiuoti pagal mašinų tipus."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Tipas"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Pavadinimas"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Paspauskite norėdami panaikinti filtravimo nustatymus."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Panaikinti visus filtrus"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Tikrai taip!"
+
+msgid "junkTankmen/description"
+msgstr "Šie įgulos nariai turi mažiau, nei {bond_Open}210 060{bond_Close}{icon} patirties, ko reikia pirmam įgūdžiui ištreniruoti iki {whiteSpanish_Open}100%{whiteSpanish_Close}.\nJie bus pašalinti visam laikui."
+
+msgid "junkTankmen/title"
+msgstr "Atleisti netreniruotus įgulos narius?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Daugiausia galima turėti po {whiteSpanish_Open}tris{whiteSpanish_Close} papildomus įgūdžius kiekvienai kvalifikacijai. Naują papildomą įgūdį gausite pasiekę {whiteSpanish_Open}pirmą{whiteSpanish_Close}, {whiteSpanish_Open}trečią{whiteSpanish_Close} ir {whiteSpanish_Open}penktą{whiteSpanish_Close} pagrindinės kvalifikacijos įgūdį."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Papildomi įgūdžiai"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Pertreniruodami įgulos narį kitai mašinai su kitomis kvalifikacijomis galėsite vėl pasirinkti įgūdžius naujoms papildomoms kvalifikacijoms."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Papildomi įgūdžiai yra treniruojami dvigubai lėčiau, nei pagrindinių kvalifikacijų įgūdžiai."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Papildomų įgūdžių treniravimas nereikalauja daugiau patirties."
+
+msgid "matrix/freeResetButton"
+msgstr "Atstatymas nemokamas"
+
+msgid "matrix/increaseButton"
+msgstr "Pagreitinti mokymai"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Įgulos narys pasiekė treniruočių limitą."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Pagreitinti mokymai negalimi"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Treniruoti įgūdžius su laisvąja patirti ir įgulos knygomis."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Greitas apmokymas"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Netinkama kvalifikacija"
+
+msgid "matrix/qualification/1"
+msgstr "Pagrindinė kvalifikacija"
+
+msgid "matrix/qualification/2"
+msgstr "Antra kvalifikacija"
+
+msgid "matrix/qualification/3"
+msgstr "Trečia kvalifikacija"
+
+msgid "matrix/qualification/4"
+msgstr "Ketvirta kvalifikacija"
+
+msgid "matrix/qualification/5"
+msgstr "Penkta kvalifikacija"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Nėra įgūdžių antrai kvalifikacijai"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Nėra įgūdžių trečiai kvalifikacijai"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Nėra įgūdžių ketvirtai kvalifikacijai"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Šiai mašinai antra kvalifikacija negalima."
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Šiai mašinai trečia kvalifikacija negalima."
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Šiai mašinai ketvirta kvalifikacija negalima."
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Šiai mašinai penkta kvalifikacija negalima."
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Daugiausia galite turėti po {whiteSpanish_Open}tris{whiteSpanish_Close} papildomus įgūdžius kiekvienai papildomai kvalifikacijai. Tik tos kvalifikacijos įgūdžiai gali būti pasirenkami kaip papildomi."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Daugiausia galima turėti {whiteSpanish_Open}šešis{whiteSpanish_Close} pagrindinės kvalifikacijos įgūdžius (įskaitant nulinius įgūdžius)"
+
+msgid "matrix/resetButton"
+msgstr "Atstatyti"
+
+msgid "matrix/resetButtonHint"
+msgstr "PASPAUSKITE, NORĖDAMI PANAIKINTI ĮGŪDŽIUS"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Jūs neturite išmoktų įgūdžių."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Negalima panaikinti įgūdžių"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Paspauskite norėdami panaikinti įgūdžius."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Atstatyti įgūdžius"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Galima treniruoti papildomą įgūdį"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Papildomų įgūdžių treniravimas nereikalauja daugiau įgulos patirties."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Negalimas"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Atrakinamas pradėjus treniruoti trečią pagrindinės kvalifikacijos įgūdį. Nereikalauja patirties."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Atrakinamas pradėjus treniruoti penktą pagrindinės kvalifikacijos įgūdį. Nereikalauja patirties."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Treniravimo lygis"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "Reikalingos patirties kiekis sumažintas, nes įgulos narys turi nulinį įgūdį."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "Reikalingos patirties kiekis sumažintas, nes įgulos narys turi du nulinius įgūdžius."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Įgūdis, kurį galima išmokti"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Negalimas"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Ankstesnis įgūdis turi būti ištreniruotas iki 100%"
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Galima treniruoti nulinį įgūdį"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Nuliniai įgūdžiai visada treniruojami pirmiausia, net jei iš karto pasirenkami keli. Jiems treniruoti nereikia įgulos patirties."
+
+msgid "matrix/skills/allSkills"
+msgstr "Visi įgūdžiai šiai mašinai išmokti"
+
+msgid "matrix/skills/available"
+msgstr "Įgūdžiai, kuriuos galima išmokti:"
+
+msgid "matrix/skills/bonus"
+msgstr "Papildomi įgūdžiai"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Įgūdžiai negalimi"
+
+msgid "matrix/skills/locked"
+msgstr "Įgūdžiai negalimi"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Šioje mašinai įgūdžiai nėra galimi"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Pagrindinės kvalifikacijos įgūdžiai"
+
+msgid "matrix/skills/reduced"
+msgstr "Įgūdžių efektyvumas sumažintas"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Vado įgūdžiai"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Vairuotojo įgūdžiai"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Vado įgūdžiai"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Vairuotojo įgūdžiai"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Šaulio įgūdžiai"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Užtaisytojo įgūdžiai"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Radisto įgūdžiai"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Šaulio įgūdžiai"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Užtaisytojo įgūdžiai"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Radisto įgūdžiai"
+
+msgid "matrix/skills/training"
+msgstr "Įgūdžių treniravimas"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Nėra išmokstamų įgūdžių:"
+
+msgid "memberChange/action/recruit"
+msgstr "Naujokas {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount}% NUOLAIDA KVALIFIKACIJOS PAKEITIMUI"
+
+msgid "memberChange/title"
+msgstr "PASIRINKITE {role}: {vehicle}"
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}Sandėlyje{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Patvirtinus, įgulos narys, atiduodantis savo patirtį, bus pašalintas iš jūsų paskyros."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Mentorystės licencija leidžia vienam įgulos nariui atiduoti savo patirtį kitam tos pačios nacijos įgulos nariui."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Mentorystės licencija"
+
+msgid "personalData/card/edit"
+msgstr "Redaguoti"
+
+msgid "personalData/card/remove"
+msgstr "Pašalinti"
+
+msgid "personalData/card/restrictions"
+msgstr "Ribojimai: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Paspauskite, norėdami pakeisti įgulos nario vardą ir išvaizdą."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Išvaizda"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Šis įgulos narys jau turi unikalų vardą ir išvaizdą."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Negalima pakeisti vardo ir išvaizdos"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Nieko nerasta. Pakeiskite pasirinkimus arba pašalinkite filtrą."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Nustatyti apvalkalų rodymą pagal jų naciją."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Filtravimo parametrai"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Rodyti dokumentus."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Dokumentai"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Rodyti tinkamus apvalkalus."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Tinkami apvalkalai"
+
+msgid "personalData/filter/type/title"
+msgstr "Tipas"
+
+msgid "personalData/title"
+msgstr "PAKEISTI VARDĄ IR IŠVAIZDĄ"
+
+msgid "personalFile/changeVehicle"
+msgstr "Pakeisti"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Negalima ištreniruoti šio įgulas nario kitai mašinai."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Operacija negalima"
+
+msgid "personalFile/discount/full"
+msgstr "Pasiekiama nuolaida įgulos treniravimui"
+
+msgid "personalFile/discount/short"
+msgstr "Nuolaida pasiekiama"
+
+msgid "personalFile/inVehicle"
+msgstr "Mašinoje: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Pakelti"
+
+msgid "personalFile/isUntrained"
+msgstr "Netreniruotas šiai mašinai"
+
+msgid "personalFile/premiumVehicle"
+msgstr "{icon} Premium mašinos"
+
+msgid "personalFile/retrain"
+msgstr "Permokinti"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Įgūdžio efektyvumas:"
+
+msgid "personalFile/specialization"
+msgstr "Specializacija:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Specializacija"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Paspauskite norėdami paklausyti šio vado įgarsinimo pavyzdžio."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Unikalus įgarsinimas"
+
+msgid "postProgression/button/claim"
+msgstr "Gauti apdovanojimą"
+
+msgid "postProgression/description"
+msgstr "Visų įgulų nariai, kurie yra išmokę visus šešis pagrindinės kvalifikacijos įgūdžius pradeda postprogresiją. Kas 100 000 uždirbtos patirties postprogresijoje jūs gausite universalų gidą kitoms įguloms treniruoti."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "Postprogresijoje kaupiami visų žaidėjo turimų įgulų narių, mokančių šešis pagrindinės kvalifikacijos įgūdžius, uždirbama patirtis."
+
+msgid "postProgression/tips/2"
+msgstr "Postprogresijoje skaičiuojama tik kovinė patirtis. Pusė mūšyje uždirbtos kovinės patirties yra padalijama po lygiai kiekvienam įgulos nariui ir perteklius pridedamas į postprogresiją."
+
+msgid "postProgression/tips/3"
+msgstr "Patirties ar efektyvumo praradimas nepaveikia postprogresijos."
+
+msgid "postProgression/title"
+msgstr "ĮGULOS POSTPROGRESIJA"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Visi įgulos nariai, pasiekę postprogresiją, turi žemą įgūdžių efektyvumo lygį."
+
+msgid "postProgression/warning/retire"
+msgstr "Visi įgulos nariai, pasiekę postprogresiją, buvo atleisti ar prarado paskutinio savo įgūdžio patirties."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Visi Premium prieštankiniai"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Visoms Premium artilerijoms"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Premium prieštankiniai"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Premium artilerijos"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Premium sunkieji tankai"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Premium lengvieji tankai"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Premium vidutiniai tankai"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Visiems Premium sunkiesiems tankams"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Visiems Premium lengviesiems tankams"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Visiems Premium vidutiniams tankams"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "APDOVANOJIMAI"
+
+msgid "serviceRecord/averageXP"
+msgstr "Vidutinė patirtis per mūšį"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Dalyvauta mūšiuose"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Nėra pasiekimų ar apdovanojimų mūšiuose."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Visos surinktos patirties ir sužaistų mūšių skaičiaus santykis su mašina, kuriai priskirtas šis įgulos narys."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Vidutinė patirtis per mūšį"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Įgulos nario rangas priklauso nuo jo turimos patirties ir išmoktų įgūdžių skaičiaus."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Rangas"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Įgulos narys išmoko visus įgūdžius šiai mašinai"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Galima ištreniruoti įgūdžius"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Šioje mašinai įgūdžiai nėra galimi"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Papildomų kvalifikacijų įgūdžiams nereikia patirties, bet jie yra treniruojami dvigubai lėčiau."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Atšaukti"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Treniruoti"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "PAPILDOMA KVALIFIKACIJA"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "PAGRINDINĖ KVALIFIKACIJA"
+
+msgid "tankChange/title"
+msgstr "IŠTRENIRUOTI MAŠINAI"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Rodyti mašinas garaže."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "Garaže"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Mašinų vaizdavimo konfigūravimas, atsižvelgiant į jų tipą ir lygį."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Filtravimo parametrai"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Jums nereikia treniruoti įgulos narių Premium mašinoms. Jūs galite perkelti įgulą į Premium mašiną be jokios nuobaudos."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Premium mašina"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Mašinos pavadinime turi būti ne daugiau nei %(maxLength)s simbolių."
+
+msgid "tankman/action/dismiss/title"
+msgstr "ATLEISTI"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Atleisti šį įgulos narį."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Negalima atleisti šio įgulos nario."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Operacija negalima"
+
+msgid "tankman/action/recruit/title"
+msgstr "PASAMDYTI"
+
+msgid "tankman/action/restore/title"
+msgstr "SUGRĄŽINTI"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Susigrąžinti šį įgulos narį."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Paspauskite norėdami paklausyti šio vado įgarsinimo pavyzdžio."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Unikalus įgarsinimas"
+
+msgid "tankman/recruit"
+msgstr "Naujokas"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Išvaizda"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profilis"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Pasiekimai"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Naujokas"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Pašalinti filtrą"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Nieko nerasta. Pakeiskite pasirinkimus arba pašalinkite filtrą."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Nieko nerasta. Pasamdykite įgulos narį."
+
+msgid "tankmanList/filter/title"
+msgstr "Įgulos nariai:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Kareivinėse trūksta vietos."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Rodyti/slėpti atleistus įgulos narius."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Atleistas"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Rodyti įgulos narius Kareivinėse."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "Kareivinėse"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Rodyti įgulos narius mašinose."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "Mašinose"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Rodyti/slėpti šios nacijos įgulos apvalkalus."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Nustatykite įgulos narių rodymą pagal jų kvalifikaciją, naciją ir kitus parametrus."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Filtravimo parametrai"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Pasamdyti naują įgulos narį."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Vardas privalo turėti iki %(maxLength)s simbolių."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Užvedę pelę ant įgūdžio galite pamatyti kaip jis ištreniruotas iki 100% paveikia atitinkamas mašinos charakteristikas su dabartiniu įgūdžių efektyvumu."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Tikrai taip!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Mes pristatome po du naujus įgūdžius kiekvienai kvalifikacijai, Patikimas išdėstymas pakoreguotas, o naujas nustatymas leidžia mūšyje paslėpti įgūdžius."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Nauja ir patogi operacija leis jums atleisti mažai treniruotus įgulos narius vienu paspaudimu."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Įgūdžius dabar galima atstatyti tik už kreditus, išsaugant visą patirtį."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Sukūrėme naujų įgūdžių ir funkcijų, o vieną įgūdį atnaujinome."
+
+msgid "welcomeScreen/title"
+msgstr "ĮGULOS ATNAUJINIMAI"

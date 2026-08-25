@@ -1,0 +1,1532 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "allVehicles"
+msgstr "Allen"
+
+msgid "battleRating/tooltip/better/body"
+msgstr "Dit gevecht was leuker, gebalanceerder of bevredigender dan normaal."
+
+msgid "battleRating/tooltip/better/header"
+msgstr "Beter dan normaal"
+
+msgid "battleRating/tooltip/usual/body"
+msgstr "Een standaard gevecht – er is niks onverwachts gebeurd."
+
+msgid "battleRating/tooltip/usual/header"
+msgstr "Normaal"
+
+msgid "battleRating/tooltip/worse/body"
+msgstr "Dit gevecht was frustrerender, ongebalanceerder of oneerlijker dan normaal."
+
+msgid "battleRating/tooltip/worse/header"
+msgstr "Erger dan normaal"
+
+msgid "battleResult/battleRating/better/header"
+msgstr "BETER DAN NORMAAL"
+
+msgid "battleResult/battleRating/none/header"
+msgstr "beoordeel je gevecht:"
+
+msgid "battleResult/battleRating/usual/header"
+msgstr "NORMAAL"
+
+msgid "battleResult/battleRating/worse/header"
+msgstr "ERGER DAN NORMAAL"
+
+msgid "battleResult/comp7Light/team/prestigePoints/body"
+msgstr "Sorteer op prestigepunten."
+
+msgid "battleResult/comp7Light/team/prestigePoints/header"
+msgstr "Prestigepunten"
+
+msgid "battleResult/navigation/battleResults"
+msgstr "Overzicht"
+
+msgid "battleResult/navigation/financialReport"
+msgstr "Financieel verslag"
+
+msgid "battleResult/navigation/missionsProgress"
+msgstr "Missievoortgang"
+
+msgid "battleResult/navigation/teamEfficiency"
+msgstr "Teamscore"
+
+msgid "battleResult/team/prestigePoints/body"
+msgstr "Sorteer op prestigepunten. Prestigepunten beïnvloeden het aantal rangpunten dat je in een gevecht verdient of verliest."
+
+msgid "battleResult/team/prestigePoints/header"
+msgstr "Prestigepunten"
+
+msgid "common/arena/fullName"
+msgstr "{0} – {1}"
+
+msgid "common/arena/nameAndMode"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/battleEfficiency/allies"
+msgstr "Bondgenoten:"
+
+msgid "common/battleEfficiency/allyBase"
+msgstr "Basisverdediging"
+
+msgid "common/battleEfficiency/baseCapture"
+msgstr "Basisverovering:"
+
+msgid "common/battleEfficiency/bases"
+msgstr "Basissen"
+
+msgid "common/battleEfficiency/enemyBase"
+msgstr "Basisverovering"
+
+msgid "common/battleEfficiency/neutralBase"
+msgstr "Neutrale basis"
+
+msgid "common/battleEfficiency/noEfficiency"
+msgstr "Je hebt in dit gevecht geen acties verricht."
+
+msgid "common/battleEfficiency/none"
+msgstr "Geen voertuigen gedetecteerd of vernietigd."
+
+msgid "common/battleEfficiency/technique"
+msgstr "Voertuigen"
+
+msgid "common/battleEfficiency/title"
+msgstr "Gevechtsprestatie"
+
+msgid "common/battleEfficiency/uppercased_title"
+msgstr "GEVECHTSPRESTATIE"
+
+msgid "common/battleEfficiencyWithSkills/title"
+msgstr "Gevechtsprestatie (inclusief gebruikte vaardigheden)"
+
+msgid "common/battleEfficiencyWithoutOreders/title"
+msgstr "Gevechtsprestatie (gevechtsreserves niet meegeteld)"
+
+msgid "common/battleType/sortie"
+msgstr "Schermutseling tegen clan "
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "common/crewMember/description"
+msgstr "%(role)s, %(name)s"
+
+msgid "common/crewMember/newSkill"
+msgstr "Nieuwe specialisatie"
+
+msgid "common/details/buyPremiumBtn"
+msgstr "Premium kopen"
+
+msgid "common/details/creditsTitle"
+msgstr "Credits"
+
+msgid "common/details/crystal"
+msgstr "Obligaties"
+
+msgid "common/details/getPremBtn"
+msgstr "Details"
+
+msgid "common/details/noPremTitle"
+msgstr "Standaard account"
+
+msgid "common/details/premTitle"
+msgstr "WoT Premium"
+
+msgid "common/details/premiumAdvertising/bonus"
+msgstr "{{@ split}}Pas een x{{multiplier}}-ervaringsbonus toe op het geselecteerde gewonnen gevecht met WoT Premium account.{{/}}"
+
+msgid "common/details/premiumAdvertising/credits"
+msgstr "{{@ split}}Ontvang elke {{@ style}}{{durationInDays}} d{{/}} tot {{bonusCredits}} met WoT Premium account.{{/}}"
+
+msgid "common/details/premiumPlus/bonus"
+msgstr "Pas een x%(multiplier)d-ervaringsbonus toe op het geselecteerde zegevierende gevecht met WoT Premium account."
+
+msgid "common/details/premiumPlus/credits"
+msgstr "Ontvang elke %(durationInDays)d d tot %(bonusCredits)s met WoT Premium account."
+
+msgid "common/details/premiumPlus/premium"
+msgstr "Extra ervaring, credits, Premium missies en pelotonbonussen met WoT Premium account."
+
+msgid "common/details/premiumPlus/quests"
+msgstr "Ontgrendel speciale missies met WoT Premium account."
+
+msgid "common/details/premiumPlus/squad"
+msgstr "Verdien meer credits wanneer je speelt in een peloton met WoT Premium account."
+
+msgid "common/details/xpTitle"
+msgstr "Ervaring"
+
+msgid "common/details/xpTitleSquad"
+msgstr "Ervaring %(img)s"
+
+msgid "common/fitting/purchase"
+msgstr "Module aanschaffen"
+
+msgid "common/fitting/research"
+msgstr "Module onderzoeken"
+
+msgid "common/mainFinishReasonTitle"
+msgstr "Hoofdgevechtsfase:"
+
+msgid "common/missions/noProgress/button"
+msgstr "Naar de missies"
+
+msgid "common/missions/noProgress/description"
+msgstr "Bekijk huidige missieprogressie"
+
+msgid "common/missions/noProgress/header"
+msgstr "Geen voortgang in missies of voertuigonderzoek."
+
+msgid "common/newSkillPrediction"
+msgstr "Gevechten te gaan (ongeveer): %(battles)s"
+
+msgid "common/noIncome/alert/text"
+msgstr "Na het vechten van 10 gevechten in deze modus verdien je niet langer credits, ervaring of onderscheidingen. Je gevechtsresultaten zullen ook niet worden opgenomen in je persoonlijke record."
+
+msgid "common/noIncome/alert/title"
+msgstr "Let op!"
+
+msgid "common/noProgress"
+msgstr "Geen voortgang in missies, voertuigonderzoek en bemanningstraining."
+
+msgid "common/overtimeFinishReasonTitle"
+msgstr "Extra tijd:"
+
+msgid "common/player/nameWithClan"
+msgstr "{{name}} [{{clan}}]"
+
+msgid "common/plusBonus/bonusLeftAdditionalText"
+msgstr "Ontgrendel meer met"
+
+msgid "common/plusBonus/earnedMessage"
+msgstr "Vandaag heb je verdiend:"
+
+msgid "common/plusBonus/earningsInformation"
+msgstr "Je hebt vandaag %(count)s XP verdiend"
+
+msgid "common/plusBonus/premiumPlusAdd"
+msgstr "Ontgrendel met WoT Plus of WoT Premium"
+
+msgid "common/plusBonus/wotPlus"
+msgstr "WoT Plus"
+
+msgid "common/plusBonus/wotPremium"
+msgstr "WoT Premium"
+
+msgid "common/plusBonus/youRock"
+msgstr "Je bent geweldig!"
+
+msgid "common/premiumBonus"
+msgstr "Wil je meer verdienen?"
+
+msgid "common/premiumBonus/appliedBonus"
+msgstr "Bonus succesvol toegepast"
+
+msgid "common/premiumBonus/applyBonusBtn"
+msgstr "Toepassen"
+
+msgid "common/premiumBonus/bonusLeft"
+msgstr "Resterend voor vandaag: %(count)s"
+
+msgid "common/premiumBonus/bonusMultiplier"
+msgstr "×{{value}}"
+
+msgid "common/premiumBonus/description"
+msgstr "Beheerbare XP-vermenigvuldiger"
+
+msgid "common/premiumBonus/earnMore"
+msgstr "Wil je meer verdienen?"
+
+msgid "common/premiumBonus/expiredBattleResult"
+msgstr "Moet op het laatste gevecht in hetzelfde voertuig worden toegepast."
+
+msgid "common/premiumBonus/isXPToTmenDisabled"
+msgstr "De bonus kan niet worden toegepast: versnelde bemanningstraining is uitgezet."
+
+msgid "common/premiumBonus/isXPToTmenDisabledWithInfo"
+msgstr "{{@ split}}De bonus kan niet worden toegepast: versnelde bemanningstraining is {{@ style}}uitgezet.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/isXPToTmenEnabled"
+msgstr "De bonus kan niet worden toegepast: versnelde bemanningstraining is aangezet."
+
+msgid "common/premiumBonus/isXPToTmenEnabledWithInfo"
+msgstr "{{@ split}}De bonus kan niet worden toegepast: versnelde bemanningstraining is {{@ style}}aangezet.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/rule"
+msgstr "Vermenigvuldigers kunnen alleen op gewonnen gevechten worden toegepast."
+
+msgid "common/premiumBonus/tankStateChanged"
+msgstr "De beheerbare bonus kan niet worden toegepast: het voertuig is niet gevonden."
+
+msgid "common/premiumBonus/tankStateChangedWithInfo"
+msgstr "{{@ split}}De beheerbare bonus kan niet worden toegepast: het voertuig is niet {{@ style}}gevonden.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/tankmenStateChanged"
+msgstr "De beheerbare bonus kan niet worden toegepast: de bemanning is niet gevonden."
+
+msgid "common/premiumBonus/tankmenStateChangedWithInfo"
+msgstr "{{@ split}}De beheerbare bonus kan niet worden toegepast: de bemanning is niet {{@ style}}gevonden.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/unavailable"
+msgstr "Vermenigvuldigers zijn in deze spelmodus onbeschikbaar."
+
+msgid "common/progressTitle"
+msgstr "Voertuigonderzoek en missie voortgang"
+
+msgid "common/quests/noprogress"
+msgstr "Er waren geen gebeurtenissen wat betreft missies"
+
+msgid "common/researchPrediction"
+msgstr "Gevechten te gaan (ongeveer): %(battles)s"
+
+msgid "common/resultsShareBtn"
+msgstr "Link ophalen"
+
+msgid "common/startTime"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/tooltip/armor/description"
+msgstr "Meegeteld:\n• Ricochets van vijandelijke schoten\n• Niet-penetrerende treffers\n\nTreffers met HE en HESH granaten worden niet meegeteld."
+
+msgid "common/tooltip/armor/header"
+msgstr "Gebruik van bepantsering"
+
+msgid "common/tooltip/armor/part1"
+msgstr "Ricochets"
+
+msgid "common/tooltip/armor/part2"
+msgstr "Niet penetrerend"
+
+msgid "common/tooltip/armor/part3"
+msgstr "Schade geblokkeerd door pantser %(vals)s"
+
+msgid "common/tooltip/assist/description"
+msgstr "De volgende soorten schade veroorzaakt door bondgenoten aan vijandelijke voertuigen tellen mee:\n• Schade door jouw verkenning\n• Schade door jouw vernietiging van een rupsband en immobilisatie van een vijandelijk voertuig"
+
+msgid "common/tooltip/assist/header"
+msgstr "Hulp in vernietigen"
+
+msgid "common/tooltip/assist/part1"
+msgstr "Schade door jouw verkenning %(vals)s"
+
+msgid "common/tooltip/assist/part2"
+msgstr "Schade door jouw vernietiging van een rupsband en immobilisatie van een vijandelijk voertuig %(vals)s"
+
+msgid "common/tooltip/assist/total"
+msgstr "Totale schade veroorzaakt door bondgenoten aan vijandelijk voertuig %(vals)s"
+
+msgid "common/tooltip/capture/description"
+msgstr "Meegeteld:\n• Vijandelijke basisveroveringspunten\n• Neutrale basisveroveringspunten"
+
+msgid "common/tooltip/capture/header"
+msgstr "Basisverovering"
+
+msgid "common/tooltip/capture/totalPoints"
+msgstr "Totale basisveroveringspunten"
+
+msgid "common/tooltip/counter"
+msgstr "Totaal aantal badges ontvangen in het gevecht: %(count)s"
+
+msgid "common/tooltip/counter/forEnemy"
+msgstr "Badges ontvangen in het gevecht voor dat vijandelijke voertuig: %(count)s"
+
+msgid "common/tooltip/counter/noItems"
+msgstr "De badge was niet ontvangen in het gevecht."
+
+msgid "common/tooltip/crits/critDamage"
+msgstr "Uitgeschakeld:"
+
+msgid "common/tooltip/crits/critDestruction"
+msgstr "Uitgeschakeld:"
+
+msgid "common/tooltip/crits/critWound"
+msgstr "Gewond:"
+
+msgid "common/tooltip/crits/description"
+msgstr "Meegeteld:\n• Schade aan externe en interne modules van het vijandelijke voertuig\n• Vernietiging van externe en interne modules van het vijandelijke voertuig\n• Gewonde bemanningsleden van het vijandelijke voertuig."
+
+msgid "common/tooltip/crits/header"
+msgstr "Kritische schade"
+
+msgid "common/tooltip/crits/total"
+msgstr "Totaal:"
+
+msgid "common/tooltip/damage/description"
+msgstr "Meegeteld:\n• Schade veroorzaakt door schoten\n• Schade veroorzaakt door rammen\n• Schade veroorzaakt door brand\n• Schade veroorzaakt door zware botsing"
+
+msgid "common/tooltip/damage/header"
+msgstr "Beschadig"
+
+msgid "common/tooltip/damage/part1"
+msgstr "Totale schade %(vals)s"
+
+msgid "common/tooltip/damage/part2"
+msgstr "Totaal aantal penetraties"
+
+msgid "common/tooltip/defence/description"
+msgstr "Opgeteld:\n• Thuisbasis verdedigingspunten\n• Neutrale basis verdedigingspunten"
+
+msgid "common/tooltip/defence/header"
+msgstr "Basis verdediging"
+
+msgid "common/tooltip/defence/totalPoints"
+msgstr "Totaal basis verdedigingspunten"
+
+msgid "common/tooltip/kill/header"
+msgstr "Vijand vernietigd"
+
+msgid "common/tooltip/kill0/description"
+msgstr "Vijandelijk voertuig vernietigd door een treffer"
+
+msgid "common/tooltip/kill1/description"
+msgstr "Vijandelijk voertuig vernietigd door brand"
+
+msgid "common/tooltip/kill2/description"
+msgstr "Vijandelijk voertuig vernietigd door rammen"
+
+msgid "common/tooltip/kill3/description"
+msgstr "Vijandelijk voertuig is verongelukt"
+
+msgid "common/tooltip/kill4/description"
+msgstr "Vijandelijk voertuig vernietigd door een zone des doods"
+
+msgid "common/tooltip/kill5/description"
+msgstr "Vijandelijk voertuig is verdronken"
+
+msgid "common/tooltip/kill6/description"
+msgstr "Vernietigd door Vuurstorm"
+
+msgid "common/tooltip/kill7/description"
+msgstr "Vijandelijke voertuigen gekanteld."
+
+msgid "common/tooltip/killCommon/description"
+msgstr "Meegeteld:\n• Vernietiging door een schot\n• Vernietiging door vuur\n• Vernietiging door rammen\n• Vernietiging door verdrinking\n• Vernietiging door het vijandelijke voertuig van een obstakel te duwen\n• Vernietiging door kantelen."
+
+msgid "common/tooltip/params/val"
+msgstr "(HP)"
+
+msgid "common/tooltip/params/val/seconds"
+msgstr "(s)"
+
+msgid "common/tooltip/spotted/description"
+msgstr "De eerste verkenning van het vijandelijke voertuig wordt meegeteld."
+
+msgid "common/tooltip/spotted/header"
+msgstr "Verkenning"
+
+msgid "common/tooltip/stun/description"
+msgstr "Schade meegeteld:\n• Veroorzaakt door bondgenoten aan het door jou verdoofde vijandelijke voertuig."
+
+msgid "common/tooltip/stun/header"
+msgstr "Verdoof"
+
+msgid "common/tooltip/stun/part1"
+msgstr "Totale schade %(vals)s"
+
+msgid "common/tooltip/stun/part2"
+msgstr "Aantal verdovingen"
+
+msgid "common/tooltip/stun/part3"
+msgstr "Totaal veroorzaakte verdovingstijd: %(vals)s"
+
+msgid "common/tooltip/teamKill-1/description"
+msgstr "Bondgenoot vernietigd"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "Team Kill"
+
+msgid "common/tooltip/teamKill0/description"
+msgstr "Bondgenoot vernietigd door een treffer"
+
+msgid "common/tooltip/teamKill1/description"
+msgstr "Bondgenoot vernietigd door brand"
+
+msgid "common/tooltip/teamKill2/description"
+msgstr "Bondgenoot vernietigd door rammen"
+
+msgid "common/tooltip/teamKill3/description"
+msgstr "Bondgenoot is verongelukt"
+
+msgid "common/tooltip/teamKill4/description"
+msgstr "Bondgenoot is vernietigd door een zone des doods"
+
+msgid "common/tooltip/teamKill5/description"
+msgstr "Bondgenoot is verdronken"
+
+msgid "common/tooltip/xpTitleSquad"
+msgstr "Je hebt voor dit gevecht extra ervaring ontvangen omdat je in een peloton hebt gespeeld."
+
+msgid "common/totalTooltip/armor/part1"
+msgstr "Ricochets"
+
+msgid "common/totalTooltip/armor/part2"
+msgstr "Niet penetrerend"
+
+msgid "common/totalTooltip/armor/part3"
+msgstr "Schade geblokkeerd door pantser"
+
+msgid "common/totalTooltip/assist/part1"
+msgstr "Schade door jouw verkenning"
+
+msgid "common/totalTooltip/assist/part2"
+msgstr "Schade door jouw vernietiging van een rupsband en immobilisatie van een vijandelijk voertuig"
+
+msgid "common/totalTooltip/assist/total"
+msgstr "Totale schade veroorzaakt door teamgenoten aan vijandelijk voertuig"
+
+msgid "common/totalTooltip/damage/part1"
+msgstr "Totale schade"
+
+msgid "common/totalTooltip/damage/part2"
+msgstr "Totaal aantal penetraties"
+
+msgid "common/totalTooltip/stun/part1"
+msgstr "Totale schade"
+
+msgid "common/totalTooltip/stun/part2"
+msgstr "Aantal verdovingen"
+
+msgid "common/totalTooltip/stun/part3"
+msgstr "Totaal veroorzaakte verdovingstijd"
+
+msgid "common/vehicle/details"
+msgstr "%(vehicle)s, %(type)s"
+
+msgid "common/vehicle/purchase"
+msgstr "Voertuig aanschaffen"
+
+msgid "common/vehicle/research"
+msgstr "Voertuig onderzoeken"
+
+msgid "common/vehicleState/alive"
+msgstr "Overleefd"
+
+msgid "common/vehicleState/dead0"
+msgstr "Vernietigd door een treffer"
+
+msgid "common/vehicleState/dead0_with_killername"
+msgstr "Vernietigd door een schot ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead0_with_killername_and_clan"
+msgstr "Vernietigd door een schot ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead1"
+msgstr "Vernietigd door brand"
+
+msgid "common/vehicleState/dead12"
+msgstr "Zelf vernietigd"
+
+msgid "common/vehicleState/dead13"
+msgstr "Vernietigd door de vaardigheid van de speler"
+
+msgid "common/vehicleState/dead1_with_killername"
+msgstr "Vernietigd door brand ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead1_with_killername_and_clan"
+msgstr "Vernietigd door brand ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead2"
+msgstr "Vernietigd door rammen"
+
+msgid "common/vehicleState/dead27"
+msgstr "Vernietigd door artillerieaanval"
+
+msgid "common/vehicleState/dead29"
+msgstr "Verongelukt"
+
+msgid "common/vehicleState/dead2_with_killername"
+msgstr "Vernietigd door rammen ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead2_with_killername_and_clan"
+msgstr "Vernietigd door rammen ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead3"
+msgstr "Verongelukt"
+
+msgid "common/vehicleState/dead30"
+msgstr "Vernietigd door een treffer"
+
+msgid "common/vehicleState/dead30_with_killername"
+msgstr "Vernietigd door een schot ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead30_with_killername_and_clan"
+msgstr "Vernietigd door een schot ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead35"
+msgstr "Verongelukt"
+
+msgid "common/vehicleState/dead3_with_killername"
+msgstr "Gecrasht ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead3_with_killername_and_clan"
+msgstr "Gecrasht ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead4"
+msgstr "Vernietigd door een zone des doods"
+
+msgid "common/vehicleState/dead5"
+msgstr "Voertuig verdronken"
+
+msgid "common/vehicleState/dead5_with_killername"
+msgstr "Voertuig verdronken ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead5_with_killername_and_clan"
+msgstr "Voertuig verdronken ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead6"
+msgstr "Vernietigd door Vuurstorm"
+
+msgid "common/vehicleState/dead7"
+msgstr "Vernietigd door kantelen"
+
+msgid "common/vehicleState/dead7_with_killername"
+msgstr "Vernietigd door kantelen ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead7_with_killername_and_clan"
+msgstr "Vernietigd door kantelen ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/prematureLeave"
+msgstr "Gevecht verlaten voor het einde"
+
+msgid "common/vehicleState/victory"
+msgstr "Victorie!"
+
+msgid "common/wotPlusBonus/bonusLeft"
+msgstr "Resterend voor vandaag: %(count)s"
+
+msgid "common/xpMultiplierSign"
+msgstr "x"
+
+msgid "comms/likes/pbs/text/01"
+msgstr "Aanbevelingen ontvangen in dit gevecht"
+
+msgid "comms/likes/pbs/tooltip/body"
+msgstr "{{var}} bondgenoten hebben je in dit gevecht aanbevolen."
+
+msgid "comms/likes/pbs/tooltip/bodySingle"
+msgstr "{{var}} bondgenoot heeft je in dit gevecht aanbevolen."
+
+msgid "comms/likes/pbs/tooltip/header"
+msgstr "Aanbevelingen ontvangen"
+
+msgid "conditions/type/and"
+msgstr "EN"
+
+msgid "conditions/type/or"
+msgstr "OF"
+
+msgid "customizationProgress/award/newLevel"
+msgstr "Level %(level)s \"%(name)s\" sticker bereikt."
+
+msgid "customizationProgress/award/received"
+msgstr "\"%(name)s\" sticker ontvangen %(count)s."
+
+msgid "customizationProgress/descr"
+msgstr "Level %(level)s \"%(name)s\" sticker"
+
+msgid "cyberSport/btnToTeamProfile"
+msgstr "Teamprofiel"
+
+msgid "cyberSport/points"
+msgstr "Punten:"
+
+msgid "cyberSport/status/lose"
+msgstr "Nederlaag"
+
+msgid "cyberSport/status/tie"
+msgstr "Gelijkspel"
+
+msgid "cyberSport/status/win"
+msgstr "Victorie!"
+
+msgid "details/calculations/additionalBonus"
+msgstr "Beheerbare bonus voor ervaring"
+
+msgid "details/calculations/aogasFactor"
+msgstr "Reductiecoëfficient (AOGAS)"
+
+msgid "details/calculations/autoBoosters"
+msgstr "Automatisch gevechtsbevelen aanvullen"
+
+msgid "details/calculations/autoEquip"
+msgstr "Automatisch verbruiksartikelen herbevoorraden"
+
+msgid "details/calculations/autoLoad"
+msgstr "Automatisch munitie aanvullen"
+
+msgid "details/calculations/autoRepair"
+msgstr "Automatisch voertuig repareren"
+
+msgid "details/calculations/autoResupply"
+msgstr "Automatisch aanvullen"
+
+msgid "details/calculations/base"
+msgstr "Verdiend voor gevecht"
+
+msgid "details/calculations/battlePayments"
+msgstr "Gevechtspremie"
+
+msgid "details/calculations/boosters"
+msgstr "Persoonlijke reserves bonus"
+
+msgid "details/calculations/crystal/events"
+msgstr "Voor het voltooien van missies"
+
+msgid "details/calculations/crystal/total"
+msgstr "Voor speciale bekwaamheid van het voertuig"
+
+msgid "details/calculations/event"
+msgstr "Beloning voor het voltooien van de missie en evenementen"
+
+msgid "details/calculations/fairPlayViolation/afk"
+msgstr "Boete voor inactiviteit gedurende het gevecht"
+
+msgid "details/calculations/fairPlayViolation/comp7_deserter"
+msgstr "Boete voor desertie"
+
+msgid "details/calculations/fairPlayViolation/comp7_light_deserter"
+msgstr "Boete voor desertie"
+
+msgid "details/calculations/fairPlayViolation/deserter"
+msgstr "Boete voor desertie"
+
+msgid "details/calculations/fairPlayViolation/epic_deserter"
+msgstr "Boete voor desertie"
+
+msgid "details/calculations/fairPlayViolation/event_afk"
+msgstr "Boete voor inactiviteit tijdens het gevecht"
+
+msgid "details/calculations/fairPlayViolation/event_deserter"
+msgstr "Boete voor desertie"
+
+msgid "details/calculations/fairPlayViolation/suicide"
+msgstr "Boete voor opzettelijke zelfvernietiging"
+
+msgid "details/calculations/firstWin"
+msgstr "Onderscheiding voor de 1e overwinning elke dag"
+
+msgid "details/calculations/fortOrder"
+msgstr "Bonus voor gebruikte reserves"
+
+msgid "details/calculations/friendlyFireCompensation"
+msgstr "Vergoeding voor schade door bondgenoten"
+
+msgid "details/calculations/friendlyFirePenalty"
+msgstr "Boete voor schade aan bondgenoten"
+
+msgid "details/calculations/friendlyFireRankedXpPenalty"
+msgstr "Boete voor het verdoven of beschadigen van geallieerden"
+
+msgid "details/calculations/heavyTrucks"
+msgstr "Zwaar transport"
+
+msgid "details/calculations/igrBonus"
+msgstr "Onderscheiding voor spelen op %(igrIcon)s"
+
+msgid "details/calculations/igrBonus/simpleLabel"
+msgstr "IGR-bonus"
+
+msgid "details/calculations/intermediateTotal"
+msgstr "Totale hoeveelheid voor het gevecht:"
+
+msgid "details/calculations/manageableXpBonus"
+msgstr "Beheerbare XP-bonus"
+
+msgid "details/calculations/maximum"
+msgstr "maximum"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "Voor militaire manoeuvres"
+
+msgid "details/calculations/multiplierInfo/body"
+msgstr "Verhoogde ervaring voor de eerste overwinning van elke dag is toegevoegd aan de volgende voertuigen:"
+
+msgid "details/calculations/multiplierInfo/header"
+msgstr "Onderscheiding voor de 1e overwinning elke dag"
+
+msgid "details/calculations/multiplierInfo/vehicleSeparator"
+msgstr "• "
+
+msgid "details/calculations/noPenalty"
+msgstr "Voor moedig verzet"
+
+msgid "details/calculations/petCredits/fullLabel"
+msgstr "Huisdierbonus (%(bonusFactor)d%)"
+
+msgid "details/calculations/petCredits/simpleLabel"
+msgstr "Huisdierbonus"
+
+msgid "details/calculations/piggyBankInfo"
+msgstr "Toegevoegd aan de reserves"
+
+msgid "details/calculations/playerRankXP"
+msgstr "Rangbonus"
+
+msgid "details/calculations/premiumVehicleXP"
+msgstr "Bonus voor Premium voertuigniveau"
+
+msgid "details/calculations/referralBonus"
+msgstr "Doorverwijzingsbonus (%(bonusFactor)d%%)"
+
+msgid "details/calculations/referralBonus/fullLabel"
+msgstr "Doorverwijzingsbonus (%(bonusFactor)d%)"
+
+msgid "details/calculations/referralBonus/simpleLabel"
+msgstr "Doorverwijzingsbonus"
+
+msgid "details/calculations/squad/restrictions/title"
+msgstr "Voor spelen in peloton"
+
+msgid "details/calculations/squadBonus"
+msgstr "Bonus voor het spelen in een peloton"
+
+msgid "details/calculations/squadXP"
+msgstr "Voor het spelen in een peloton"
+
+msgid "details/calculations/squadXPPenalty"
+msgstr "Straf wegens ongepaste pelotonsamenstelling"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "Voor tactische training"
+
+msgid "details/calculations/title/base"
+msgstr "Verdiend voor gevecht"
+
+msgid "details/calculations/title/expenses"
+msgstr "Uitgaven"
+
+msgid "details/calculations/title/total"
+msgstr "Totaal"
+
+msgid "details/calculations/total"
+msgstr "Totaal:"
+
+msgid "details/calculations/wotPlus"
+msgstr "WoT Plus-gevechtsbonus"
+
+msgid "details/calculations/wotPlusBonus"
+msgstr "WoT Plus-gevechtsbonus"
+
+msgid "details/calculations/wotPlusProBoost"
+msgstr "WoT Plus Pro Boost"
+
+msgid "details/calculations/xpRecord"
+msgstr "Ontvangen (%(color_tag_open)s maximaal %(color_tag_close)s)"
+
+msgid "details/calculations/xpRecordSimple"
+msgstr "Ontvangen (%(maximum)s)"
+
+msgid "details/credits"
+msgstr "Credits"
+
+msgid "details/crystal"
+msgstr "Obligaties"
+
+msgid "details/noPrem"
+msgstr "Standaard account"
+
+msgid "details/prem"
+msgstr "Wargaming Premium"
+
+msgid "details/premPlus"
+msgstr "WoT Premium"
+
+msgid "details/resource"
+msgstr "Industriële grondstof"
+
+msgid "details/stats"
+msgstr "Statistieken"
+
+msgid "details/time"
+msgstr "Tijd"
+
+msgid "details/time/lbl_arenaCreateTimeOnlyStr"
+msgstr "Starttijd"
+
+msgid "details/time/lbl_basesCaptured"
+msgstr "Zones veroverd"
+
+msgid "details/time/lbl_duration"
+msgstr "Gevechtsduur"
+
+msgid "details/time/lbl_objectivesDestroyed"
+msgstr "Doelen vernietigd"
+
+msgid "details/time/lbl_objectivesReached"
+msgstr "Doelen bereikt"
+
+msgid "details/time/lbl_playerKilled"
+msgstr "Moment van vernietiging"
+
+msgid "details/time/val_no"
+msgstr "Nee"
+
+msgid "details/time/val_yes"
+msgstr "Ja"
+
+msgid "details/time/value"
+msgstr "%(min)s min %(sec)s s"
+
+msgid "details/time_epic"
+msgstr "Gevecht"
+
+msgid "details/xp"
+msgstr "Ervaring"
+
+msgid "details/xp_abbr"
+msgstr "xp"
+
+msgid "exterminationVictory/allies"
+msgstr "Jouw team heeft alle vijandelijke voertuigen vernietigd"
+
+msgid "exterminationVictory/enemies"
+msgstr "De vijand heeft alle voertuigen van jouw team vernietigd"
+
+msgid "fallout/classic/lose/cap"
+msgstr "Het vijandelijke team heeft meer overwinningspunten dan jouw team verdiend"
+
+msgid "fallout/classic/lose/extermination"
+msgstr "De vijand heeft alle voertuigen van jouw team vernietigd"
+
+msgid "fallout/classic/lose/points"
+msgstr "Het vijandelijke team heeft meer overwinningspunten dan jouw team verdiend"
+
+msgid "fallout/classic/tie"
+msgstr "Beide teams hebben evenveel overwinningspunten verdiend"
+
+msgid "fallout/classic/win/cap"
+msgstr "Je team heeft meer overwinningspunten dan de vijand verdiend."
+
+msgid "fallout/classic/win/extermination"
+msgstr "Jouw team heeft alle vijandelijke voertuigen vernietigd"
+
+msgid "fallout/classic/win/points"
+msgstr "Je team heeft meer overwinningspunten dan de vijand verdiend."
+
+msgid "fallout/multiteam/ended"
+msgstr "Doel niet vervuld"
+
+msgid "fallout/multiteam/noPlayerSelected"
+msgstr "Selecteer een speler uit de lijst\nom de details te bekijken."
+
+msgid "fallout/multiteam/win/cap"
+msgstr "Je team heeft meer overwinningspunten dan de vijand verdiend."
+
+msgid "fallout/multiteam/win/extermination"
+msgstr "Alle vijandelijke afdelingen vernietigd"
+
+msgid "fallout/multiteam/win/points"
+msgstr "Je team heeft meer overwinningspunten dan de vijand verdiend."
+
+msgid "finish/clanBattle_reason_attack/1lose"
+msgstr "Bouwwerk %(buildingName)s niet veroverd"
+
+msgid "finish/clanBattle_reason_attack/1tie"
+msgstr "Bouwwerk %(buildingName)s veroverd"
+
+msgid "finish/clanBattle_reason_attack/1win"
+msgstr "Bouwwerk veroverd: %(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1lose"
+msgstr "Bouwwerk %(buildingName)s veroverd door de vijand"
+
+msgid "finish/clanBattle_reason_def/1tie"
+msgstr "Bouwwerk %(buildingName)s niet veroverd"
+
+msgid "finish/clanBattle_reason_def/1win"
+msgstr "Bouwwerk verdedigd: %(buildingName)s"
+
+msgid "finish/clarification/finishAllPlayersLeft"
+msgstr "Het resultaat wordt berekend op basis van de resterende informatie over de teams"
+
+msgid "finish/overtime/lose"
+msgstr "Vijand niet vernietigd"
+
+msgid "finish/overtime/win"
+msgstr "Vijand vernietigd"
+
+msgid "finish/playerTank/separator"
+msgstr "–"
+
+msgid "finish/reason/0"
+msgstr "Onbekende reden"
+
+msgid "finish/reason/10lose"
+msgstr "Doelen hebben overleefd"
+
+msgid "finish/reason/10win"
+msgstr "Doelen vernietigd"
+
+msgid "finish/reason/1lose"
+msgstr "Alle geallieerde voertuigen vernietigd"
+
+msgid "finish/reason/1tie"
+msgstr "Alle voertuigen vernietigd"
+
+msgid "finish/reason/1win"
+msgstr "Alle vijandelijke voertuigen vernietigd"
+
+msgid "finish/reason/2"
+msgstr "Basis veroverd"
+
+msgid "finish/reason/3"
+msgstr "Gevechttijd verstreken"
+
+msgid "finish/reason/4"
+msgstr "Gevecht gestopt door systeemfout"
+
+msgid "finish/reason/5"
+msgstr "Technisch verlies"
+
+msgid "finish/reason/8"
+msgstr "Bondgenoot vernietigd"
+
+msgid "finish/reason/9"
+msgstr "Je voertuig is vernietigd"
+
+msgid "garage/uniqueDamage"
+msgstr "Alleen unieke kritieke treffers worden geteld."
+
+msgid "getPremiumPopover/actionBtn/label"
+msgstr "Selecteer duur"
+
+msgid "getPremiumPopover/award"
+msgstr "+50% credits en ervaring"
+
+msgid "getPremiumPopover/descriptionText"
+msgstr "Koop %(prem)s en verdien %(award)s voor alle volgende gevochten gevechten"
+
+msgid "getPremiumPopover/headerText"
+msgstr "Voor dit gevecht kan je verdienen:"
+
+msgid "getPremiumPopover/prem"
+msgstr "Premiumaccount"
+
+msgid "missionsProgress/aboutVehicle/button"
+msgstr "Naar onderzoek"
+
+msgid "missionsProgress/aboutVehicle/description"
+msgstr "Beschikbaar voor onderzoek"
+
+msgid "missionsProgress/aboutVehicle/prediction"
+msgstr "Resterende gevechten (ongeveer): {{prediction}}"
+
+msgid "missionsProgress/aboutVehicle/title"
+msgstr "OVER HET VOERTUIG"
+
+msgid "missionsProgress/battleMatters/doneInfo"
+msgstr "Missie #{{name}} voltooid."
+
+msgid "missionsProgress/battleMatters/title"
+msgstr "TANKACADEMIE"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/module"
+msgstr "NIEUWE MODULE ONTGRENDELD!"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/vehicle"
+msgstr "NIEUW VOERTUIG ONTGRENDELD!"
+
+msgid "missionsProgress/notificationsTabs/battleMatters"
+msgstr "ACADEMIEMISSIE VOLTOOID!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/chapterComplete"
+msgstr "HOOFDSTUK VOLTOOID!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/stageComplete"
+msgstr "STADIUM VOLTOOID!"
+
+msgid "missionsProgress/notificationsTabs/challenge"
+msgstr "SMELTKROES-MISSIE VOLTOOID!"
+
+msgid "missionsProgress/notificationsTabs/common"
+msgstr "MISSIE VOLTOOID!"
+
+msgid "missionsProgress/notificationsTabs/daily"
+msgstr "DAGELIJKSE MISSIE VOLTOOID!"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/maxLevel"
+msgstr "MAXIMAAL ELITE LEVEL"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/newLevel"
+msgstr "NIEUW ELITE LEVEL"
+
+msgid "missionsProgress/notificationsTabs/epic"
+msgstr "EPISCHE MISSIE VOLTOOID!"
+
+msgid "missionsProgress/notificationsTabs/personalMissions/operation_mission_complete"
+msgstr "OPERATIEMISSIE VOLTOOID!"
+
+msgid "missionsProgress/notificationsTabs/premium"
+msgstr "PREMIUM MISSIE VOLTOOID!"
+
+msgid "missionsProgress/notificationsTabs/weekly"
+msgstr "WEKELIJKSE MISSIE VOLTOOID!"
+
+msgid "noData"
+msgstr "Excuses, gevechtsstatistieken niet beschikbaar."
+
+msgid "personalQuest/bonus/descr"
+msgstr "jouw voortgang richting de primaire voorwaarde werd in dit gevecht met %(value)s vermenigvuldigd."
+
+msgid "personalQuest/bonus/multiplier"
+msgstr "x%(value)s vermenigvuldiger:"
+
+msgid "personalQuest/failed/attention"
+msgstr "Let op!"
+
+msgid "personalQuest/failed/descr"
+msgstr "Jouw voortgang in de missie is gereset. De voltooiing van de voorwaarde zal worden herstart."
+
+msgid "players/enemy/unknown"
+msgstr "Vijand"
+
+msgid "players/teammate/unknown"
+msgstr "Speler"
+
+msgid "prestige/common/description"
+msgstr "Elite punten verdiend:"
+
+msgid "prestige/max/description"
+msgstr "Maximum Elite level bereikt."
+
+msgid "prestige/maxLevelReached/description"
+msgstr "Maximaal elite level bereikt"
+
+msgid "prestige/newLevelAchieved/description"
+msgstr "Nieuw elite level bereikt"
+
+msgid "prestige/title"
+msgstr "Elite systeem"
+
+msgid "progression/completed"
+msgstr "Voltooid"
+
+msgid "progression/completedPointsFrom/withLabel"
+msgstr "{{@class $labelClass}}Voltooid:{{/}} {{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/completedPointsFrom/withoutLabel"
+msgstr "{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/linkBtn/info"
+msgstr "Klik om gedetailleerde informatie te bekijken."
+
+msgid "progression/missionsCompleteCounter"
+msgstr "{{@class $labelClass}}Voltooid:{{/}} {{completed}}"
+
+msgid "progression/progressUnavailable"
+msgstr "Elite systeem is momenteel onbeschikbaar. Probeer het later nog eens."
+
+msgid "progression/totalEarned"
+msgstr "Totaal verdiend: {{value}}"
+
+msgid "progressiveReward/descr"
+msgstr "Neem deel aan gevechten en ontvang beloningen. Hoe meer je vecht, hoe dichter je bij de beloningen komt."
+
+msgid "selectVehicle"
+msgstr "Selecteer een voertuig"
+
+msgid "status/lose"
+msgstr "NEDERLAAG"
+
+msgid "status/tie"
+msgstr "GELIJKSPEL"
+
+msgid "status/win"
+msgstr "OVERWINNING"
+
+msgid "tankSelector/next"
+msgstr "Volgend voertuig met"
+
+msgid "team/damageAndConsumablesHeader/body"
+msgstr "Sorteer op veroorzaakte schade,\ninclusief schade van gevechtsreserves."
+
+msgid "team/damageAndConsumablesHeader/header"
+msgstr "Schade veroorzaakt"
+
+msgid "team/damageHeader/body"
+msgstr "Sorteer op schade toegebracht aan vijandelijke voertuigen."
+
+msgid "team/damageHeader/header"
+msgstr "Schade toegebracht aan vijandelijke voertuigen"
+
+msgid "team/damageHeaderNoSort/header"
+msgstr "Schade veroorzaakt"
+
+msgid "team/deaths/body"
+msgstr "Sorteer op het aantal voertuigen van de speler die zijn vernietigd in het gevecht."
+
+msgid "team/deaths/header"
+msgstr "Vernietigde voertuigen"
+
+msgid "team/deathsNoSort/header"
+msgstr "Voertuigen vernietigd"
+
+msgid "team/epicRankHeader/body"
+msgstr "Sorteer per behaalde rang in het gevecht."
+
+msgid "team/epicRankHeader/header"
+msgstr "Rang"
+
+msgid "team/epicRespawnHeader/body"
+msgstr "Sorteer per aantal keer ingezet in het gevecht."
+
+msgid "team/epicRespawnHeader/header"
+msgstr "Aantal keer ingezet"
+
+msgid "team/falloutFragHeader/body"
+msgstr "Sorteer op vernietigde vijandelijke voertuigen,\ninclusief schade door gevechtsreserves."
+
+msgid "team/falloutFragHeader/header"
+msgstr "Vijandelijke voertuigen vernietigd"
+
+msgid "team/falloutResourcePoints/body"
+msgstr "Sorteer op aantal verdiende grondstoffen."
+
+msgid "team/falloutResourcePoints/header"
+msgstr "Grondstoffen"
+
+msgid "team/flags/body"
+msgstr "Sorteer op aantal afgeleverde vlaggen."
+
+msgid "team/flags/header"
+msgstr "Afgeleverde vlaggen"
+
+msgid "team/flagsNoSort/header"
+msgstr "Vlaggen afgeleverd"
+
+msgid "team/fragHeader/body"
+msgstr "Sorteer op aantal vernietigde vijandelijke voertuigen."
+
+msgid "team/fragHeader/header"
+msgstr "Vijandelijke voertuigen vernietigd"
+
+msgid "team/fragHeaderNoSort/header"
+msgstr "Vijandelijke voertuigen vernietigd"
+
+msgid "team/healthHeader/body"
+msgstr "Sorteren op resterende levenspunten."
+
+msgid "team/healthHeader/header"
+msgstr "Levenspunten"
+
+msgid "team/medalHeader/body"
+msgstr "Sorteren op aantal onderscheidingen verdiend."
+
+msgid "team/medalHeader/header"
+msgstr "Onderscheidingen"
+
+msgid "team/playerHeader/body"
+msgstr "Sorteren op spelersnaam."
+
+msgid "team/playerHeader/header"
+msgstr "Spelersnaam"
+
+msgid "team/playerHeaderNoSort/header"
+msgstr "Naam"
+
+msgid "team/playerNumber/body"
+msgstr "Sorteer om spelersnummer bij het team."
+
+msgid "team/playerNumber/header"
+msgstr "Nummer"
+
+msgid "team/rankHeader/body"
+msgstr "Sorteer op rang."
+
+msgid "team/rankHeader/header"
+msgstr "Een rang"
+
+msgid "team/resourceHeader/body"
+msgstr "Sorteer op verdiende hoeveelheid industriële grondstoffen."
+
+msgid "team/resourceHeader/header"
+msgstr "Industriële grondstof"
+
+msgid "team/squadHeader/body"
+msgstr "Sorteren op peloton."
+
+msgid "team/squadHeader/header"
+msgstr "Peloton"
+
+msgid "team/squadHeaderNoSort/header"
+msgstr "Peloton"
+
+msgid "team/stats/allies"
+msgstr "Bondgenoten"
+
+msgid "team/stats/close"
+msgstr "Sluiten"
+
+msgid "team/stats/enemies"
+msgstr "Vijanden"
+
+msgid "team/stats/enemyTeam"
+msgstr "Vijandelijk team"
+
+msgid "team/stats/infotip_xpForAssist/body"
+msgstr "Telt als assistentie:\n• Schade veroorzaakt door geallieerden door jouw verkenning, vernietiging van rupsbanden met immobilisatie als gevolg, of verdoving van vijandelijke voertuigen\n• Verovering van basissen\n• Eerste verkenning van vijandelijke voertuigen."
+
+msgid "team/stats/infotip_xpForAssist/header"
+msgstr "Voor assistentie"
+
+msgid "team/stats/infotip_xpForAttack/body"
+msgstr "Geteld als bijdrage:\n• Schade door jou veroorzaakt\n• Voertuigen door jou vernietigd\n• Beschadigde modules\n• Bonus voor schade veroorzaakt door je team\n• Boete voor het verdoven en beschadigen van geallieerden."
+
+msgid "team/stats/infotip_xpForAttack/header"
+msgstr "Voor veroorzaakte schade en vernietigde voertuigen"
+
+msgid "team/stats/infotip_xpOther/body"
+msgstr "Bijkomende bonussen voor effectieve betrokkenheid, niet gespecifieerd in de vorige secties."
+
+msgid "team/stats/infotip_xpOther/header"
+msgstr "Voor het zich houden aan de voertuigrol"
+
+msgid "team/stats/labels_artilleryFortEquipDamageDealt"
+msgstr "\tdoor artillerieaanval"
+
+msgid "team/stats/labels_atkObjectives"
+msgstr "Zones veroverd/doelen vernietigd"
+
+msgid "team/stats/labels_capturePointsVal"
+msgstr "Basis-veroverings/verdedigings-punten"
+
+msgid "team/stats/labels_capturedPointsOfInterest"
+msgstr "Belangrijke locaties veroverd"
+
+msgid "team/stats/labels_damageAssisted"
+msgstr "Schade veroorzaakt met hulp van de speler"
+
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "Schade veroorzaakt door jouw hulp"
+
+msgid "team/stats/labels_damageAssistedStun"
+msgstr "Schade aan door deze speler verdoofde vijandelijke voertuigen"
+
+msgid "team/stats/labels_damageAssistedStunSelf"
+msgstr "Schade veroorzaakt door jouw verdovingen"
+
+msgid "team/stats/labels_damageBlockedByArmor"
+msgstr "Schade geblokkeerd door je pantser"
+
+msgid "team/stats/labels_damageDealt"
+msgstr "Totale schade:"
+
+msgid "team/stats/labels_damageDealtByOrder"
+msgstr "\tInclusief van gevechtsreserves"
+
+msgid "team/stats/labels_damageDealtBySkills"
+msgstr "\tinclusief gebruikte vaardigheden"
+
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\tschade gedaan aan vijandelijk team"
+
+msgid "team/stats/labels_damagedKilled"
+msgstr "Vijandelijke voertuigen beschadigd/vernietigd"
+
+msgid "team/stats/labels_deaths"
+msgstr "Aantal voertuigen van jou vernietigd in gevecht"
+
+msgid "team/stats/labels_defObjectives"
+msgstr "Verdedigde zones / doelen"
+
+msgid "team/stats/labels_destroyRecoveryRatio"
+msgstr "Aantal eigen voertuigen vernietigd/hersteld"
+
+msgid "team/stats/labels_destructiblesDamageDealt"
+msgstr "\tnaar doelen"
+
+msgid "team/stats/labels_directHits"
+msgstr "\tvoltreffers"
+
+msgid "team/stats/labels_directHitsReceived"
+msgstr "Ontvangen treffers"
+
+msgid "team/stats/labels_equipmentDamageAssisted"
+msgstr "\tvanwege effecten van gevechtsreserves"
+
+msgid "team/stats/labels_equipmentDamageDealt"
+msgstr "\tmet gevechtsreserves"
+
+msgid "team/stats/labels_explosionHits"
+msgstr "\tschade door explosies"
+
+msgid "team/stats/labels_explosionHitsReceived"
+msgstr "Treffers ontvangen door schade door explosies"
+
+msgid "team/stats/labels_flags"
+msgstr "Vlaggen afgeleverd"
+
+msgid "team/stats/labels_healed"
+msgstr "Levenspunten hersteld (van jou/geallieerden)"
+
+msgid "team/stats/labels_hits"
+msgstr "\tvoltreffers/penetraties"
+
+msgid "team/stats/labels_killed"
+msgstr "Vijandelijke voertuigen vernietigd"
+
+msgid "team/stats/labels_killsByOrder"
+msgstr "\tInclusief door gevechtsreserves"
+
+msgid "team/stats/labels_mileage"
+msgstr "Afgelegde afstand"
+
+msgid "team/stats/labels_noDamageDirectHitsReceived"
+msgstr "\tniet penetrerend"
+
+msgid "team/stats/labels_piercingHits"
+msgstr "\tpenetraties"
+
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\tpenetraties"
+
+msgid "team/stats/labels_roleSkillUsed"
+msgstr "Rolvaardigheden gebruikt"
+
+msgid "team/stats/labels_shots"
+msgstr "Schoten afgevuurd"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\top een afstand van meer dan 300 meter"
+
+msgid "team/stats/labels_spotted"
+msgstr "Vijandelijke voertuigen verkend"
+
+msgid "team/stats/labels_stunDuration"
+msgstr "Totaal veroorzaakte verdovingstijd, s"
+
+msgid "team/stats/labels_stunNum"
+msgstr "Verdovingen veroorzaakt"
+
+msgid "team/stats/labels_teamHitsDamage"
+msgstr "Schade aan bondgenoten (vernietigd/HP)"
+
+msgid "team/stats/labels_timesDestroyed"
+msgstr "Aantal voertuigen vernietigd"
+
+msgid "team/stats/labels_xp"
+msgstr "Totaal verdiende ervaring"
+
+msgid "team/stats/labels_xpForAssist"
+msgstr "\tvoor assistentie"
+
+msgid "team/stats/labels_xpForAttack"
+msgstr "\tvoor veroorzaken van schade"
+
+msgid "team/stats/labels_xpOther"
+msgstr "\tvoor het zich houden aan de voertuigrol"
+
+msgid "team/stats/mileage"
+msgstr "?empty?"
+
+msgid "team/stats/ownTeam"
+msgstr "Ons team"
+
+msgid "team/stats/parameter/artilleryFortEquipDamageDealt"
+msgstr "door artillerieaanval"
+
+msgid "team/stats/parameter/capturePointsVal"
+msgstr "Basis-veroverings/verdedigings-punten"
+
+msgid "team/stats/parameter/damageAssisted"
+msgstr "Schade veroorzaakt met hulp van de speler"
+
+msgid "team/stats/parameter/damageAssistedSelf"
+msgstr "Schade veroorzaakt door jouw hulp"
+
+msgid "team/stats/parameter/damageAssistedStun"
+msgstr "Schade aan door deze speler verdoofde vijandelijke voertuigen"
+
+msgid "team/stats/parameter/damageAssistedStunSelf"
+msgstr "Schade veroorzaakt door jouw verdovingen"
+
+msgid "team/stats/parameter/damageBlockedByArmor"
+msgstr "Schade geblokkeerd door je pantser"
+
+msgid "team/stats/parameter/damageDealt"
+msgstr "Totale schade"
+
+msgid "team/stats/parameter/damagedKilled"
+msgstr "Vijandelijke voertuigen beschadigd/vernietigd"
+
+msgid "team/stats/parameter/directHitsReceived"
+msgstr "Ontvangen treffers"
+
+msgid "team/stats/parameter/explosionHits"
+msgstr "explosieschade"
+
+msgid "team/stats/parameter/explosionHitsReceived"
+msgstr "Treffers ontvangen door schade door explosies"
+
+msgid "team/stats/parameter/hits"
+msgstr "voltreffers/penetraties"
+
+msgid "team/stats/parameter/mileage"
+msgstr "Afgelegde afstand"
+
+msgid "team/stats/parameter/noDamageDirectHitsReceived"
+msgstr "niet gepenetreerd"
+
+msgid "team/stats/parameter/piercingsReceived"
+msgstr "penetraties"
+
+msgid "team/stats/parameter/shots"
+msgstr "Schoten afgevuurd"
+
+msgid "team/stats/parameter/sniperDamageDealt"
+msgstr "vanaf meer dan 300 meter"
+
+msgid "team/stats/parameter/spotted"
+msgstr "Vijandelijke voertuigen verkend"
+
+msgid "team/stats/parameter/stunDuration"
+msgstr "Totaal veroorzaakte verdovingstijd, s"
+
+msgid "team/stats/parameter/stunNum"
+msgstr "Verdovingen veroorzaakt"
+
+msgid "team/stats/parameter/teamHitsDamage"
+msgstr "Schade aan bondgenoten (vernietigd/HP)"
+
+msgid "team/tankHeader/body"
+msgstr "Sorteer op positie in een teampanel."
+
+msgid "team/tankHeader/header"
+msgstr "Voertuigen"
+
+msgid "team/teamInfluenceTotal"
+msgstr "Invloed verdiend door de afdeling: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamResourceTotal"
+msgstr "Indus. Hulpm. verdiend door afdeling: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamScore/body"
+msgstr "Sorteer op aantal verdiende overwinningspunten."
+
+msgid "team/teamScore/header"
+msgstr "Team-overwinningspunten"
+
+msgid "team/victoryScore/body"
+msgstr "Sorteer op aantal verdiende overwinningspunten."
+
+msgid "team/victoryScore/header"
+msgstr "Speler-overwinningspunten"
+
+msgid "team/victoryScoreNoSort/header"
+msgstr "Speler-overwinningspunten"
+
+msgid "team/xpHeader/body"
+msgstr "Sorteren op XP"
+
+msgid "team/xpHeader/header"
+msgstr "Ervaring"
+
+msgid "team/xpHeaderNoSort/header"
+msgstr "Ervaring"
+
+msgid "tooltips/stats/footer/text"
+msgstr "%(label)s&nbsp;%(type)s"
+
+msgid "victoryScore"
+msgstr "Overwinningspunten verdiend"

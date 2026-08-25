@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} u klanu"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "NA STATUS RAČUNA"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "NAZAD"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Moći ćete zamjeniti mapu za {}."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Prikaži/sakrij mape ovog tipa."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Pustinjske mape"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Ljetne mape"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Zimske mape"
+
+msgid "mapsBlacklist/header"
+msgstr "Isključene mape"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Isključite neželjenu mape iz vaše rotacije igre. Isključite još jednu mapu s WoT premiumom i još %(mapCount)s s WoT Plus. Ako obje pretplate isteknu, isključene mape se opet vraćaju u rotaciju počevši od krajnje desne."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Isključene mape"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Ove mape su isključene samo u slučajnim bitkama."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Možete zamjeniti isključenu mapu svakih %(maxCooldownTimeStr)s."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Ovo svojstvo je dostupno za vozila razine IV i više."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "U vodovima se isključuju samo mape koje je odabrao zapovjednik voda."
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Prikazano mapa: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Prikazano mapa: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Tipovi mapa:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Odustani"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Zatvori"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "Odabrane mape će biti zamjenjene mapom {mapNameStr}. Možete promjeniti vaš odabir za {cooldownStr}."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Koju mapu želite zamjeniti?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Isključi"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Odaberite mapu koju želite zamjeniti"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Odustani"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Zatvori"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Možete promjeniti vaš odabir za {cooldownStr}."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Isključiti mapu {mapNameStr} iz slučajnih bitaka?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Isključi"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Isključi"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Isključiti mapu {mapNameStr} ?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Uključi"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Uključiti {mapNameStr} mapu u slučajne bitke?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Možete zamjeniti ovu mapu za {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Zamjena mape nedostupna"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Možete zamjeniti ovu mapu za {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Zamjena mape nedostupna"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Nije odabrano"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Kliknite za odabir mapu koja se isključuje iz slučajnih bitaka."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Mapa nije odabrana"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "Isključena mapa {mapName} se može zamjeniti drugom."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Zamjena mape dostupna"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Možete zamjeniti mapu {mapName}za {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Zamjena mape nedostupna"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Dodatno mjesto je dostupno samo s aktivnim WoT premiumom."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Mjesto nedostupno"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Odaberite mapu s donjeg spiska za isključenje iz slučajnih bitaka."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Mapa nije odabrana"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Odaberite mapu s donjeg spiska za isključenje iz slučajnih bitaka."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Zamjena mape dostupna"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Možete zamjeniti ovu mapu za {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Zamjena mape nedostupna"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "Mjesto za isključenje dodatne mape je dostupno samo s aktivnim WoT premiumom."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Mjesto nedostupno"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Odustani"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Možete promjeniti izbor u {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Promjeni"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Isključi"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Isključiti mapu %(mapName)s iz slučajnih bitaka?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "Odabrane mape će biti zamjenjene mapom {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Možete promjeniti vaš odabir za %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Koju mapu želite zamjeniti?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Ova mapa će biti zamjenjena mapom {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Možete promjeniti vaš odabir za %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Želite li zamjeniti ovu mapu?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Za ovaj račun je uključen roditeljski nadzor.\nMožete saznati više o ograničenjima roditeljskog nadzora {link}."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Roditeljski nadzor"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "na portalu igre"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Pričuva kredita"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s min"

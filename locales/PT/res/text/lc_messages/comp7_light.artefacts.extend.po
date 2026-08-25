@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_light_aggressive_detection/descr/active"
+msgstr "O alcance de visão será aumentado em {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose} por {colorTagOpen}%(duration)s s{colorTagClose}.\n\nO contador será reiniciado quando um veículo inimigo for destruído ao ser detetado por si."
+
+msgid "comp7_light_aggressive_detection/name"
+msgstr "Reconhecimento Activo"
+
+msgid "comp7_light_ally_support/descr/active"
+msgstr "Por {colorTagOpen}%(duration)s s{colorTagClose}, a sua tripulação recebe um bónus de eficiência de {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} para cada veículo na sua equipa com uma função diferente.\n\nO seu veículo vai sempre ser incluído no cálculo deste bónus."
+
+msgid "comp7_light_ally_support/name"
+msgstr "Um Por todos"
+
+msgid "comp7_light_aoe_heal/descr/active"
+msgstr "Por {colorTagOpen}%(duration)s s{colorTagClose}, uma área com um raio de {colorTagOpen}%(radius)s m{colorTagClose} é criada à volta do seu veículo que restaura {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} pontos de energia no seu veículo e veículos aliados."
+
+msgid "comp7_light_aoe_heal/name"
+msgstr "Reparações no Terreno"
+
+msgid "comp7_light_aoe_inspire/descr/active"
+msgstr "Por {colorTagOpen}%(duration)s s{colorTagClose}, a sua tripulação e tripulações aliadas recebem um bónus de eficiência de {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose}."
+
+msgid "comp7_light_aoe_inspire/name"
+msgstr "Inspiração"
+
+msgid "comp7_light_berserk/descr/active"
+msgstr "Por {colorTagOpen}%(duration)s s{colorTagClose}, o tempo de recarregamento da arma é reduzido em {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}. Também, a dispersão após o disparo, durante o movimento e durante a rotação do chassis e da torre é reduzida em {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nO temporizador irá reiniciar quando causar dano por abalroamento ou por disparar abaixo de uma distância de {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_light_berserk/name"
+msgstr "Fury"
+
+msgid "comp7_light_concentration/descr/active"
+msgstr "Por {colorTagOpen}%(duration)s s{colorTagClose}, o tempo de mira e a dispersão da arma, durante o movimento, rotação do chassis e da torre é reduzida em {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nEnquanto esta Habilidade de Função está activa, o tempo de recarregamento entre tiros é reduzido em {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s s{colorTagClose}."
+
+msgid "comp7_light_concentration/name"
+msgstr "Foco no Alvo"
+
+msgid "comp7_light_fast_recharge/descr/active"
+msgstr "• Para um sistema de carregamento de carregador: \nO tempo restante de recarregamento do carregador é reduzido em: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n• Para um sistema de recarregamento automático:\n Todos os projéteis disparados no ciclo atual serão recarregados: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\nA habilidade só pode ser ativada durante o processo de recarregamento.\n\n• Para Canhão Automático com Controle Térmico de Sobreaquecimento:\nO calor da arma é reduzido em {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose} do seu máximo possível.\n\nA habilidade só pode ser ativada se a arma estiver aquecida."
+
+msgid "comp7_light_fast_recharge/name"
+msgstr "Jogo de Mãos"
+
+msgid "comp7_light_hunter/descr/active"
+msgstr "Reinicia o número de veículos inimigos danificados por tiros.\n\nPor {colorTagOpen}%(duration)s s{colorTagClose}, o seu veículo vai restaurar{colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} pontos de energia por cada veículo inimigo danificado por um tiro no momento da activação."
+
+msgid "comp7_light_hunter/descr/passive"
+msgstr "O tempo de recarregamento da arma é reduzido em {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose} por cada veículo inimigo danificado por um tiro."
+
+msgid "comp7_light_hunter/name"
+msgstr "Caçador de Recompensas"
+
+msgid "comp7_light_juggernaut/descr/active"
+msgstr "Por {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}:\n• Dano sofrido é reduzido em {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• Velocidade máxima para a frente é aumentada em {colorTagOpen}%(fwMaxSpeedBonus)s km/h{colorTagClose}\n• Velocidade máxima para trás é aumentada em {colorTagOpen}%(bkMaxSpeedBonus)s km/h{colorTagClose}\n• A potência do motor é aumentada em {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• Dano a veículos inimigos por abalroamento é aumentado em {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\nQuando esta Habilidade de Função estiver ativa, as suas lagartas serão destruídas com um tiro."
+
+msgid "comp7_light_juggernaut/name"
+msgstr "Juggernaut"
+
+msgid "comp7_light_march/descr/active"
+msgstr "Por {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}, a potência do motor do seu veículo vai aumentar em {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, a sua velocidade máxima em frente vai aumentar em {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose}km/h, e o seu valor de ocultação vai aumentar em {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}."
+
+msgid "comp7_light_march/name"
+msgstr "Marcha Forçada"
+
+msgid "comp7_light_recon/descr/active"
+msgstr "Uma aeronave de reconhecimento irá sobrevoar a área selecionada em {colorTagOpen}%(delay)s s{colorTagClose}. Os veículos inimigos detetados dentro de um raio de {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} permanecerão detetados por {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;s{colorTagClose}. Um ícone separado será mostrado para um jogador detetado por esta habilidade com um atraso de {colorTagOpen}%(lampDelay)s s{colorTagClose}.\n\nEsta habilidade está disponível para ser utilizada {colorTagOpen}%(startupDelay)s s{colorTagClose} após o início da batalha."
+
+msgid "comp7_light_recon/name"
+msgstr "Voo de Reconhecimento"
+
+msgid "comp7_light_redline/descr/active"
+msgstr "A área seleccionada vai ser atacada por um ataque de artilharia em {colorTagOpen}%(delay)s s{colorTagClose}.\n\nOs alvos danificados num raio de {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} vão receber {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} PE de dano e vão ser atordoados por {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s s{colorTagClose}."
+
+msgid "comp7_light_redline/name"
+msgstr "Fogo de Cobertura"
+
+msgid "comp7_light_risky_attack/descr/active"
+msgstr "Aceleração\n\nPor {colorTagOpen}%(duration)s s{colorTagClose}, a potência do motor aumenta em {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, a velocidade máxima para a frente aumenta em {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h, e a velocidade máxima em marcha atrás aumenta em {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/h.\n\nRecuperação\n\nPor {colorTagOpen}%(healDuration)s s{colorTagClose}, o seu veículo restaura {colorTagOpen}%(baseHeal)s{colorTagClose} pontos de energia {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose} de pontos de energia perdidos enquanto a Aceleração está ativa."
+
+msgid "comp7_light_risky_attack/name"
+msgstr "Segundo Fôlego"
+
+msgid "comp7_light_role_skill/descr/startLevel"
+msgstr " \n\nNo início de uma batalha, o nível de carga da Habilidade de Função é{colorTagOpen} %(startLevel)s{colorTagClose}."
+
+msgid "comp7_light_sniper/descr/active"
+msgstr "Por {colorTagOpen}%(duration_1)s%(duration_2)s/%(duration_3)s s{colorTagClose}, a dispersão a 100 m é igual a {colorTagOpen}%(dispersionFactor)s m.{colorTagClose}.\n\nSe o veículo não for detectado no momento do disparo, o dano causado pela sua munição irá aumentar em {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}.\n\nO temporizador irá reiniciar por dano causado ao disparar de uma distância superior a {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_light_sniper/name"
+msgstr "No Alvo"
+
+msgid "comp7_light_sure_shot/descr/active"
+msgstr "Por {colorTagOpen}%(duration)s s{colorTagClose}, a dispersão da arma após disparar, durante o movimento e durante a rotação do chassis e da torre é reduzida em {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nEnquanto esta habilidade está ativa, dano ao disparar reduz o tempo de recarregamento da arma em {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose} da percentagem pela qual os pontos de energia do veículo inimigo diminuíram.\n\nDestruir um veículo inimigo reduz o tempo de recarregamento da arma em {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}."
+
+msgid "comp7_light_sure_shot/name"
+msgstr "Tiro Limpo"

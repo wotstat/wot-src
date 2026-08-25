@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "error/button"
+msgstr "Sapratu!"
+
+msgid "error/description"
+msgstr "Informācija īslaicīgi nav pieejama. Mēs atvainojamies par neērtībām. Lūdzu mēģiniet vēlreiz vēlāk."
+
+msgid "error/title"
+msgstr "Nevar Atvērt Balvu Izvēli"
+
+msgid "footer/closeBtn/label"
+msgstr "Izvēlieties Vēlāk"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "Izvēlieties balvu no sniegtajām kategorijām."
+msgstr[1] "Izvēlieties balvas no sniegtajām kategorijām."
+msgstr[2] "Izvēlieties balvas no sniegtajām kategorijām."
+
+msgid "footer/okBtn/label"
+msgstr "Iegūt"
+
+msgid "footer/rewardsSelected"
+msgstr "Balvas izvēlētas:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "Izvēlieties balvu no sniegtās kategorijas."
+msgstr[1] "Izvēlieties balvas no sniegtās kategorijas."
+msgstr[2] "Izvēlieties balvas no sniegtās kategorijas."
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "Ierobežojums sasniegts"
+
+msgid "reward/state_received"
+msgstr "Jau saņemts"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "Ir sasniegts izvēlēto priekšmetu ierobežojums šajā kategorijā. Variet atcelt viena priekšmeta atlasi, lai pievienotu citu."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "Ierobežojums Sasniegts"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "Direktīvas\npar iekārtām"
+
+msgid "tabs/items/battle_booster"
+msgstr "Iekārtu Direktīvas"
+
+msgid "tabs/items/blueprint"
+msgstr "Rasējumu Fragmenti"
+
+msgid "tabs/items/brochure"
+msgstr "Treniņa Buklets"
+
+msgid "tabs/items/crewbook"
+msgstr "Treniņa Rokasgrāmata"
+
+msgid "tabs/items/deluxe"
+msgstr "Uzlabotas Iekārtas"
+
+msgid "tabs/items/expequipments"
+msgstr "Eksperimentālās\nIekārtas"
+
+msgid "tabs/items/guide"
+msgstr "Treniņa Gids"
+
+msgid "tabs/items/modernized_device"
+msgstr "Eksperimentālas Iekārtas"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "Eksperimentālā Iekārta Līmenis 1"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "Eksperimentālā Iekārta Līmenis 2"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "Eksperimentālā Iekārta Līmenis 3"
+
+msgid "tabs/items/new_device"
+msgstr "Standarta Iekārtas"
+
+msgid "tabs/items/trophy"
+msgstr "Balvas Iekārtas"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "Noklikšķiniet uz Iegūt pogas, lai saņemtu izvēlētās balvas."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "Izvēlētās Balvas: %(white_open)s%(count)s%(white_close)s"

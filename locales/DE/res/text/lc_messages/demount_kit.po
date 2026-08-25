@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "demountConfirmation/submit"
+msgstr "Ausbauen"
+
+msgid "demountKit/gained/count"
+msgstr "Ausbausatz (%(count)sx)"
+
+msgid "demountKit/sell/header"
+msgstr "Verkauft:"
+
+msgid "demountKit/sell_success"
+msgstr "Verbrauchsmaterial „Ausbausatz“ (%(count)s Stück). Kreditpunkte erhalten: %(count)s."
+
+msgid "demountKit/tooltip/description/common"
+msgstr "Baut ein Zubehörteil aus."
+
+msgid "dialogue/description/common"
+msgstr "Baut ein Standard- oder erbeutetes Zubehörteil aus."
+
+msgid "discounts/tooltips/noSaleProfit"
+msgstr "Der Preis ist niedriger als üblich – Sie können diesen Artikel günstiger kaufen."
+
+msgid "equipmentDemount/confirmation/description"
+msgstr "Das ausgebaute Zubehör wird eingelagert."
+
+msgid "equipmentDemount/confirmation/descriptionForInappropriateClass"
+msgstr "Achtung! Dieses Zubehörteil hat seine Klasse entsprechend des aktuellen Fahrzeugtyps geändert.\nDieses Zubehörteil kann kostenlos ausgebaut werden, aber wenn Sie es ausbauen, {red_Open}können Sie es nicht mehr{red_Close} in dieses Fahrzeug einbauen."
+
+msgid "equipmentDemount/confirmation/title"
+msgstr "Zubehör „%(equipment)s“ ausbauen?"
+
+msgid "equipmentDemount/confirmationForFitting/title"
+msgstr "%(equipment)s ausbauen, um neues Zubehör einzubauen?"
+
+msgid "equipmentDemount/notEnoughBonds/description"
+msgstr "Verdienen Sie sie in Gefechten oder erhalten Sie sie als Belohnung für Spielevents."
+
+msgid "equipmentDemount/notEnoughBonds/text"
+msgstr "Nicht genug Anleihen"
+
+msgid "equipmentDemount/optionFree"
+msgstr "Kostenlos"
+
+msgid "equipmentDemount/wotPlus"
+msgstr "WoT Plus"
+
+msgid "equipmentDemountFromSlot/confirmation/cancel"
+msgstr "Abbrechen"
+
+msgid "equipmentDemountFromSlot/confirmation/description"
+msgstr "Diese Kopie des im alternativen Satz installierten Zubehörs kann kostenlos ausgebaut werden."
+
+msgid "equipmentDemountFromSlot/confirmation/submit"
+msgstr "Ausbauen"
+
+msgid "equipmentDemountFromSlot/confirmation/title"
+msgstr "Zubehör „%(equipment)s“ aus diesem Platz ausbauen?"
+
+msgid "equipmentDemountFromSlot/confirmationForFitting/title"
+msgstr "%(equipment)s ausbauen, um neues Zubehör einzubauen?"
+
+msgid "equipmentDemountPrice"
+msgstr "Ausbaukosten:"
+
+msgid "equipmentInstall/demount"
+msgstr "%(count)s"
+
+msgid "equipmentInstall/demountNoKitOr"
+msgstr "%(count)s <br /> oder %(wotPlus)s"
+
+msgid "equipmentInstall/demountWithKit"
+msgstr "%(count)s oder %(countDK)s"
+
+msgid "equipmentInstall/demountWithKitOr"
+msgstr "%(count)s, %(countDK)s <br /> oder %(wotPlus)s"
+
+msgid "shop/DemountOptions/bonds"
+msgstr "Sie können es für %(count)s ausbauen, um es zu verkaufen bzw. in ein anderes Fahrzeug einzubauen, oder es zerstören."
+
+msgid "shop/DemountOptions/common"
+msgstr "Sie können es für %(count)s oder mit einem %(iconDK)s Ausbausatz ausbauen, um es zu verkaufen bzw. in ein anderes Fahrzeug einzubauen, oder es zerstören."
+
+msgid "storage/description/common"
+msgstr "Baut Standard- oder Erbeutetes Zubehör aus. Wird bei Verwendung verbraucht."
+
+msgid "storage/userName/common"
+msgstr "Ausbausatz"
+
+msgid "tooltips:vehicle/action_prc"
+msgstr "Rabatt: %(actionPrc)s, alter Preis: %(oldPrice)s"
+
+msgid "userName/common"
+msgstr "Ausbausatz"

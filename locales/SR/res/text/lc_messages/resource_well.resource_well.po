@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Vozilo primljeno"
+
+msgid "awardView/end"
+msgstr "DOGAĐAJ JE ZAVRŠEN"
+
+msgid "awardView/info"
+msgstr "Stil broj"
+
+msgid "awardView/toHangar"
+msgstr "Pogledaj u garaži"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) sa numerisanim stilom"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "VOZILO PRIMLJENO"
+
+msgid "awardView/vehicleTitle"
+msgstr "VOZILO PRIMLJENO"
+
+msgid "commonTexts/aboutButton"
+msgstr "O DOGAĐAJU"
+
+msgid "commonTexts/closeBtn"
+msgstr "ZATVORI"
+
+msgid "commonTexts/eventTitle"
+msgstr "RADIONICA"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Otkaži"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Potroši"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Nije preostalo vozila sa brojem. Dobićeš %(vehicleName)s bez broja.\nDa li si siguran da želiš da potrošiš resurse?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "Dobićeš %(vehicleName)s bez broja"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Povratak u garažu"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Svi potrošeni resursi će uskoro biti vraćeni na tvoj nalog uskoro."
+
+msgid "confirm/NoVehicles/title"
+msgstr "Avaj, nije preostalo više vozila"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Otkaži"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Potroši"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Napredak nakon trošenja: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Potroši resurse?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Vrati resurse"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Svi potrošeni resursi će biti uklonjen sa tvog naloga i tvoj progres u sklapanju će biti poništen. Dok god je događaj aktivan, moći ćeš da ponovo potrošiš resurse da dobiješ vozilo."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Povrati sve potrošene resurse?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Svi potrošeni resursi će biti vraćeni na tvoj nalog i tvoj proces sklapanja će biti poništen. %(vehicleName) će biti odabrano i možeš da potrošiš resurse da ga dobiješ."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Vrati sve potrošene resurse i odaberi %(vehicleName)?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Izaberi vozila"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "Možeš da kupiš oba vozila tokom događaja."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "Tokom događaja, bićeš u mogućnosti da kupiš paket koji sadrži vozilo sa numerisanim 3D stilom."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "Prvih %(styleTanksCount) igrača će dobiti vozilo sa numerisanim 3D stilom, {{@ class $br}}{{/}}potom %(withoutStyleTanksCount) vozila će biti isporučeno bez numerisanog 3D stila."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "DOGAĐAJ JE ZAVRŠEN"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "VOZILA SU PRIMLJENA"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "VOZILO PRIMLJENO"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Preostalo vozila"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Ovo vozilo je već u tvojoj garaži"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Vozilo primljeno"
+
+msgid "eventInfo/tanksOver"
+msgstr "NIJE VIŠE PREOSTALO"
+
+msgid "eventInfo/top/styleText"
+msgstr "Sa brojem"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Preostalo vozila sa brojevima"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "Isporuka %(regularRewardVehiclesCount) vozila u standardnoj konfiguraciji će početi\njednom kada više ne bude preostalo vozila sa brojevima."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "U standardnoj konfiguraciji"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Preostalo vozila"
+
+msgid "mainView/affirmative/button"
+msgstr "Potvrdno"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "Ka vraćanju resursa"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Sakupljeni resursi:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Resursi sakupljeni za:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Povratak u garažu"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Izaberi resurs"
+
+msgid "mainView/footer/description/text"
+msgstr "Ako nema vozila koja su preostala, svi potrošeni resursi će biti vraćeni."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "Tvoj tip naloga ne može da učestvuje u događaju."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Ne možeš da učestvuješ"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Možeš da kupiš oba vozila ali možeš da investiraš resurse samo u jedno od njih istovremeno."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Odaberi vozilo i investiraj potrebne resurse da ga sastaviš - ali budi brz!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Požuri da potrošiš resurse potrebne za sklapanje i dobiješ %(vehicleName)!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Svi potrošeni resursi će uskoro biti vraćeni na tvoj nalog uskoro."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "Avaj, nije preostalo više vozila"
+
+msgid "mainView/navbar/backBtn"
+msgstr "KA RADIONICI"
+
+msgid "mainView/navbar/title"
+msgstr "RADIONICA"
+
+msgid "mainView/preview/label"
+msgstr "Pregled"
+
+msgid "mainView/timer/lastUntil"
+msgstr "Do"
+
+msgid "mainView/timer/leftTime"
+msgstr "Preostalo vreme:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Zatvori"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Potrošeni resursi"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Podaci su trenutno nedostupni"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Nema preostalih vozila"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Preostalo vozila sa brojevima: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Preostalo vozila: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Univerzalni"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Maksimum resursa %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "Maksimum %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Sakupljeni resursi %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Fragmenti nacrta"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Valute"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "SAKUPLJANJE RESURSA"
+
+msgid "tankPreview/button"
+msgstr "Izaberi resurs"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "Tokom događaja, bićeš u mogućnosti da kupiš paket koji sadrži vozilo sa numerisanim 3D stilom."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "Prvih %(topPlayers) igrača će dobiti vozilo sa numerisanim 3D stilom,\nzatim, %(basePlayers) vozila će biti isporučeno bez numerisanog 3D stila."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "Možeš da kupiš oba vozila tokom događaja."
+
+msgid "tankPreview/title"
+msgstr "Sakupi i potroši 100% od potrebnih resursa i dobij %(vehicleInfo)!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Možeš da pogledaš potrošene resurse bilo kada i ako je potrebno, vratiš ih na svoj nalog klikom na dugme Vrati resurse.\nTvoj napredak u sklapanju će biti poništen ali ćeš moći da ponovo potrošiš ove ili druge resurse da dobiješ vozilo."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Vraćanje resursa"
+
+msgid "tooltips/counter/error/text"
+msgstr "Podaci su trenutno nedostupni.\nRadimo na rešavanju problema."
+
+msgid "tooltips/counter/warning/text"
+msgstr "Broj je prikazan sa zakašnjenjem i može odudarati od pravog broja vozila."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Potroši resurse i dobij %(vehicleName1) i %(vehicleName2). Broj vozila je ograničen."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Potroši resurse i dobij %(vehicleName) sa numerisanim 3D stilom. Broj vozila je ograničen."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Biće dostupno: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s - %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Dostupno tokom %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Dostupno za %(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "Radionica"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Klikni da saznaš više o događaju."
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Odaberi vozilo u koje ćeš da investiraš resurse.\nAko su resursi već investirani u drugo vozilo, biće vraćeni na tvoj nalog."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Preostalo vreme: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "Da bi sastavio vozilo, potroši 100% potrebnih resursa. Odnos različitih tipova resursa može biti promenjen."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "Ako nema vozila koja su preostala, svi potrošeni resursi će biti vraćeni."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Izabrano"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Potrošeno"
+
+msgid "tooltips/progressbar/title"
+msgstr "Sakupljanje resursa"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "Trošenje resursa je trenutno nedostupno. Molim, pokušaj kasnije."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Univerzalni i nacionalni fragmenti."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Fragmenti nacrta"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Dodeljuje se za aktivnosti u borbi. Takoše može da se kupi za prvi novac."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Valute"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Potrošeno:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "Maksimalna količina ovog resursa za potrošnju: %(maxAmount)d."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Sakupio si potrebnu količinu resursa da dobiješ vozilo. Možeš da ukloniš jedan tip resursa da bi izabrao drugi."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Resursi su sakupljeni"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "Ovo je jedinstveno vozilo sa svojim sopstvenim brojem i specijalnom vizuelnom modifikacijom."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "Broj je prikazan na obe strane topa i na zadnjem delu trupa. Brojevi na identičnim vozilima se nikada ne ponavljaju i ograničeni su."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "Karakterističan broj tvog vozila može biti sakriven. Ukloni numerisani 3D stil na ekranu prilagođavanja."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Vozilo sa brojem"

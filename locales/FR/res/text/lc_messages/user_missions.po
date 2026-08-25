@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n > 1);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "Étape {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Chapitre spécial"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Terminé"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Voir la nouvelle Progression"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Sélectionner un Chapitre"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Temporairement indisponible"
+
+msgid "battle_pass_widget/title"
+msgstr "Passe de combat"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Creuset : {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} j"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} j {{hours}} h"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} h"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} h {{minutes}} min"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} min"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Mission bonus\nAccomplissez 3 missions standards pour la débloquer"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Temps restant pour terminer la mission bonus"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Nouvelles missions quotidiennes dans"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "C'est tout pour le moment. De nouvelles missions quotidiennes seront bientôt disponibles."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Accomplissez la mission précédente pour déverrouiller celle-ci"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Les missions premium sont temporairement indisponibles"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Acheter premium"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Nécessite un compte premium WoT"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Missions premium"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Les missions quotidiennes sont temporairement indisponibles"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Repiocher"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "QUOTIDIENNES"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Aux campagnes"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Améliorer le résultat"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "Vers l'opération"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Une véritable épreuve pour les combattants expérimentés avec des véhicules uniques en récompense."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Vous avez terminé l'opération {{currentOperationName}} ! Vous pouvez continuer d'améliorer votre résultat pour l'accomplir avec les honneurs, sinon, passez à une nouvelle épreuve de l'opération {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Vous pouvez encore améliorer votre résultat dans {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Vous avez accompli l'opération {{currentOperationName}} avec les honneurs ! L'opération {{nextOperationName}} est maintenant disponible."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Les Points de campagne peuvent être gagnés en accomplissant des missions personnelles, des missions quotidiennes et des missions hebdomadaires."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Accomplissez les {{totalProgress}} missions pour accomplir l'opération avec les honneurs et gagner des récompenses supplémentaires."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Installez tous les pièces pour recevoir votre récompense, le {{vehicleName}}. Pour recevoir des pièces du véhicule, gagnez des Points de campagne en accomplissant des missions personnelles, ainsi que des missions quotidiennes et hebdomadaires."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Installez tous les pièces pour recevoir votre récompense, le {{vehicleName}}. Pour recevoir des pièces du véhicule, gagnez des Points de campagne en accomplissant des missions personnelles, ainsi que des missions quotidiennes et hebdomadaires."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Missions accomplies : {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "La nouvelle campagne Secteur 3 est disponible !"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Opération : {{nextOperationName}} disponible !"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Opération : {{currentOperationName}} accomplie avec les honneurs !"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Opération : {{nextOperationName}} disponible !"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Opération : {{currentOperationName}} | Étape {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Accomplissement de l'opération {{currentOperationName}} avec les honneurs"
+
+msgid "hub/basic_missions/title"
+msgstr "MISSIONS STANDARDS"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "HEBDOMADAIRES"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Mises à jour tous les {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Mission active"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "OU"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Nouvelles missions prochainement…"
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "COMBATTANT"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "AS"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ÉLITE"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Il existe trois catégories de missions : Combattant, Élite et As. Chaque catégorie apporte des défis uniques et de précieuses récompenses."
+
+msgid "hub/challenge_missions/header"
+msgstr "CREUSET"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Activer"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Redémarrer gratuitement"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Redémarrer"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Abandonner"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Aux missions"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) Missions du Creuset accomplies"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "boucliers restants"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "redémarrages gratuits"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Accomplissez les missions du Creuset actives"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Prendra fin dans %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Indisponible : %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Véhicule de rang VI ou plus nécessaire"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "ACTIF"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Accomplie"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} missions"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Mission de défi"
+
+msgid "hub/challenge_missions/new"
+msgstr "NOUVEAU"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Au Creuset"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Au Creuset"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "CREUSET : {{ challengeName }} ACCOMPLIE !"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Au Creuset"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Creuset : {{ challenge }} non accomplie. Redémarrez-la et obtenez à nouveau les récompenses !"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Au Creuset"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "MISSION {{ mission }} ACCOMPLIE !"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Au Creuset"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Échec de la mission {{ mission }}"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "BOUCLIERS RESTANTS"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Au Creuset"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Entrez dans le Creuset et relevez des séries de missions exigeantes offrant de précieuses récompenses à ceux qui les mènent à bien."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "NOUVELLES MISSIONS DU CREUSET DISPONIBLES !"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Forgez votre chemin vers la gloire dans le Creuset : relevez des séries de missions exigeantes et remportez de précieuses récompenses."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "ENTREZ DANS LE CREUSET"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Accomplie"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "Ensemble d'accessoires 3D"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Équipement amélioré"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "Style 2D"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Membre d'équipage"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Véhicule"
+
+msgid "hub/challenge_missions/title"
+msgstr "MISSIONS DU CREUSET"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "À propos du Creuset"
+
+msgid "hub/common_missions/title"
+msgstr "MISSIONS SUPPLÉMENTAIRES"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Obtenir les récompenses"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "La récompense épique est temporairement indisponible"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Chaque mission standard, premium ou bonus accomplie contribue à votre progression."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Disponible"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Accomplissez des missions quotidiennes pour gagner des récompenses épiques"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Obtenir la récompense"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Obtenir les récompenses"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Chaque mission standard, premium ou bonus accomplie contribue à votre progression."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Disponible"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Accomplissez des missions quotidiennes pour des récompenses : {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Après avoir accompli trois missions standards, une mission bonus devient disponible et elle propose des récompenses encore plus précieuses. La mission bonus doit être accomplie avant la fin de la journée, sinon elle expirera."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Mission bonus"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Certaines missions doivent être accomplies en une bataille, alors que d'autres sont cumulatives et peuvent être accomplies en autant de batailles que nécessaire. Les missions cumulatives ont une barre de progression. Vous pouvez accomplir les missions en Batailles aléatoires."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Conditions"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Vous pouvez repiocher une mission standard qui ne vous convient pas pour en recevoir une nouvelle aléatoire. Après cela, le bouton Repiochage de mission deviendra indisponible pendant {{time}}. Repiocher une mission peut entraîner une perte de progression si un ou plusieurs de vos véhicules sont en bataille."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Repiochage de mission"
+
+msgid "info_page/additional/reward/description"
+msgstr "La récompense épique est un cycle comparable à un marathon dans lequel chaque mission standard, premium et bonus accomplie contribue à votre progression. Une fois le cycle terminé, il se réinitialise et repart à zéro. Le cycle de la récompense épique n'a pas de limite de temps et peut être terminé à tout moment."
+
+msgid "info_page/additional/reward/title"
+msgstr "Récompense épique"
+
+msgid "info_page/header"
+msgstr "À PROPOS DES MISSIONS"
+
+msgid "info_page/main/premium/description"
+msgstr "Grâce au compte premium WoT, vous accédez à trois missions premium successives. Celles-ci peuvent être accomplies en Batailles aléatoires et dans Offensive, avec une mise à jour de la progression après chaque bataille. Lors d'évènements du jeu, les missions premium offrent des récompenses propres à l'évènement."
+
+msgid "info_page/main/premium/title"
+msgstr "Missions premium"
+
+msgid "info_page/main/standard/description"
+msgstr "Les missions standards sont des conditions quotidiennes aléatoires dont la progression est mise à jour après chaque bataille. Nous recommandons de les accomplir le jour où vous les recevez, car les missions non accomplies sont reportées au jour suivant, bloquant ainsi l'apparition de nouvelles missions. Les missions standards rapportent des Points du Passe de combat durant le Passe de combat et des récompenses propres à l'évènement au cours d'autres évènements de jeu."
+
+msgid "info_page/main/standard/title"
+msgstr "Missions standards"
+
+msgid "info_page/main/weekly/description"
+msgstr "Les missions hebdomadaires sont un ensemble de tâches disponible chaque semaine. La progression est mise à jour après chaque bataille et les missions accomplies sont remplacées par de nouvelles au début du cycle hebdomadaire suivant. Vous pouvez accomplir des missions hebdomadaires en Batailles aléatoires et en mode Offensive afin de recevoir des bonus supplémentaires."
+
+msgid "info_page/main/weekly/title"
+msgstr "Missions hebdomadaires"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Toutes les missions standards ont été accomplies pour aujourd'hui"
+
+msgid "quests/daily_quests/completed"
+msgstr "Toutes les missions quotidiennes ont été accomplies"
+
+msgid "tooltip/common/timer"
+msgstr "Disponible dans {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Toutes les missions standards ont été accomplies ! Vous pouvez en trouver d'autres dans l'onglet Missions supplémentaires."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Mission bonus"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Accomplie"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Mission quotidienne"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Expire dans {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Nouvelles missions quotidiennes dans {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Mission premium"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Récompenses :"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Vous pouvez repiocher une mission qui ne vous convient pas \ncontre une nouvelle toutes les {time} heures."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Repiochage de mission"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Mission accomplie, récompense reçue."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Accomplissez la mission précédente pour débloquer celle-ci. Toutes les missions d'une série doivent être accomplies dans l'ordre."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Cliquez pour en savoir davantage"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "À propos des missions"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Cette série de missions peut être rejouée après l'avoir terminée. Votre progression sera réinitialisée et les boucliers seront restaurés, et vous pourrez gagner à nouveau ces récompenses."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Rejouer les missions"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Vous pouvez redémarrer une série de missions après avoir perdu tous vos boucliers. La progression de vos missions sera réinitialisée, vos boucliers seront restaurés, et vous pourrez gagner à nouveau les récompenses."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Coût des redémarrages suivants : %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Redémarrages gratuits disponibles : %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Chaque redémarrage coûte : %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Redémarrages"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Les boucliers protègent votre progression. Chaque échec de mission vous coûte un bouclier, et quand tous les boucliers sont perdus, c'est toute la série de missions qui échoue. Si vous la redémarrez, vos boucliers seront restaurés."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Boucliers"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Restrictions des véhicules :"
+
+msgid "tooltip/weekly_mission"
+msgstr "Mission hebdomadaire"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "You pouvez repiocher cette mission hebdomadaire toutes les {{time}}."
+
+msgid "welcome/button"
+msgstr "Compris !"

@@ -1,0 +1,77 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Hozz létre egy 2-5 játékosból álló taktikai egységet, hogy\negyüttműködjetek a Túlélő: Kísérleti terepben."
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Szakasz"
+
+msgid "members/header/last_stand"
+msgstr ": Túlélő: Terra Nord"
+
+msgid "members/header/tooltip/last_stand/body"
+msgstr "Egy eseménycsatában való részvételhez a szakasz minden tagjának hozzáféréssel kell rendelkeznie a parancsnok által kiválasztott nehézségi szinthez."
+
+msgid "members/header/tooltip/last_stand/header"
+msgstr "Szakasz létrehozásának szabályai"
+
+msgid "platoon/commander/difficulty_body"
+msgstr "Az elérhető nehézségi szintek bármelyikét kiválaszthatod."
+
+msgid "platoon/difficulty/error_body_1"
+msgstr "Elérhető nehézségi szint: normál."
+
+msgid "platoon/difficulty/error_body_2"
+msgstr "Elérhető nehézségi szintek: normál, haladó."
+
+msgid "platoon/difficulty/error_header"
+msgstr "A nehézségi szint nem érhető el"
+
+msgid "platoon/difficulty/level_1"
+msgstr "Nehézség: normál"
+
+msgid "platoon/difficulty/level_2"
+msgstr "Nehézség: haladó"
+
+msgid "platoon/difficulty/level_3"
+msgstr "Nehézség: brutális"
+
+msgid "platoon/difficulty/level_4"
+msgstr "Nehézség: túlélő"
+
+msgid "platoon/difficulty/lock_header"
+msgstr "Nehézségi szint zárolva"
+
+msgid "platoon/difficulty/maxAvailable"
+msgstr "Elérhető nehézségi szint {%(icon)s}"
+
+msgid "platoon/difficulty/warning_body"
+msgstr "A szakasz egy vagy több tagja nem oldotta fel ezt a nehézségi szintet."
+
+msgid "platoon/difficulty/warning_header"
+msgstr "Nem kompatibilis nehézségi szint"
+
+msgid "platoon/dropdown/difficulty_1"
+msgstr "Normál %(icon)s"
+
+msgid "platoon/dropdown/difficulty_2"
+msgstr "Haladó %(icon)s"
+
+msgid "platoon/dropdown/difficulty_3"
+msgstr "Brutális %(icon)s"
+
+msgid "platoon/dropdown/header/difficulty"
+msgstr "{whiteSpanish_Open}Nehézség: {whiteSpanish_Close}%(difficulty)s"
+
+msgid "platoon/player/difficulty_body"
+msgstr "Csak a szakaszparancsnok változtathatja meg a nehézségi szintet."
+
+msgid "platoon/simpleState/difficultyDisabled"
+msgstr "Technikai okok miatt nem érhető el."
+
+msgid "platoon/simpleState/lockVehicle"
+msgstr "A kiválasztott jármű nem érhető el."
+
+msgid "platoon/simpleState/notAvailableLevel"
+msgstr "A szakasz nem kompatibilis ezzel a nehézségi szinttel."

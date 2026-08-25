@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "main/backText"
+msgstr "KA DETALJIMA KLANA"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "Za završavanje misija, zarađuješ poene dužnosti koji su potrebni za istraživanje novih regiona."
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "Poeni dužnosti"
+
+msgid "main/infoPageButtonLabel"
+msgstr "O TURI DUŽNOSTI"
+
+msgid "main/mdash"
+msgstr "-"
+
+msgid "messages/claimRewards/error"
+msgstr "Akcija je trenutno nedostupna. Pokušaj ponovo kasnije."
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "Osveži"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "Izvinjavamo se zbog trenutnih problema."
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "Greška učitavanja podataka"
+
+msgid "progressionPage/header/heading"
+msgstr "TURA DUŽNOSTI"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "TURA DUŽNOSTI JE ZAVRŠENA"
+
+msgid "progressionPage/header/subheading"
+msgstr "Zaradi poene dužnosti završavajući klanske misije. Poeni dužnosti se koriste za istraživanje novih regiona i dobijanje vrednih nagrada. Na kraju Ture dužnosti možeš da dobiješ vozilo X nivoa"
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "Vozilo %(vehicle)s je primljeno"
+
+msgid "progressionPage/loading"
+msgstr "Učitavanje sadržaja..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "Istraži prethodni povezani region."
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "Region je već istražen"
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "Primljene nagrade:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "Istraži prethodni povezani region."
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "Istraživanja regiona je nemoguće"
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "Greška učitavanja podataka"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "Istraži region"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "Još %(value)s poena dužnosti je potrebno za istraživanje regiona."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "Istraživanja regiona je nemoguće"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "Istraži prethodni povezani region."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "Istraživanja regiona je nemoguće"
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "Preuzmi nagradu"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "Učitavanje sadržaja..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "Čekanje na nagradu da bude dodata..."
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "Osveži"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "NAGRADA ZA ISTRAŽIVANJE REGIONA:"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "PRIMLJENA NAGRADA:"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "Pregled"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "Osveži"
+
+msgid "questsPage/errorScreen/description"
+msgstr "Izvinjavamo se zbog trenutnih problema."
+
+msgid "questsPage/errorScreen/heading"
+msgstr "Greška učitavanja podataka"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "Preuzmi nagradu"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "Auto pretraga klanova"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "Pridruži se klanu da završiš misije i dobiješ nagradu."
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "Napredak u misiji je pauziran. Preuzmi svoju nagradu da bi nastavio: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "MISIJE TURE"
+
+msgid "questsPage/header/subheading"
+msgstr "Završi misije i zaradi nagrade. Druga i treća misija se samo mogu završiti u Vodu / odredu sa članom klana."
+
+msgid "questsPage/loading"
+msgstr "Učitavanje sadržaja..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "U vozilima nivoa VIII - XI, zaradi najmanje {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} osnovnog iskustva u borbi dok igraš u vodu ili pobedi u borbi sa odredom."
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "U vozilima nivoa VI - XI, zaradi najmanje {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} osnovnog iskustva u borbi dok igraš u vodu ili pobedi u borbi sa odredom."
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "U vozilima nivoa VIII - XI, uništi {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} neprijateljskih vozila u borbi dok igraš u vodu ili pobedi u borbi sa odredom."
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "U vozilima nivoa VI - XI, uništi {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} neprijateljskih vozila u borbi dok igraš u vodu ili pobedi u borbi sa odredom."
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "U vozilima nivoa VIII - XI, nanesi ili pomozi u nanošenju {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} štete u borbi dok igraš u vodu ili pobedi u borbi sa odredom."
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "U vozilima nivoa VI - XI, nanesi ili pomozi u nanošenju {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} štete u borbi dok igraš u vodu ili pobedi u borbi sa odredom."
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "Industrijski resursi"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "Poeni dužnosti"
+
+msgid "questsPage/questCard/status/available"
+msgstr "Možeš da preuzmeš nagradu"
+
+msgid "questsPage/questCard/status/completed"
+msgstr "Primljena nagrada"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "Nedostupno"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "Nagrada će uskoro biti dodata na tvoj nalog."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "Preuzmi nagrade za završavanje prethodnih misija."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "Završi prethodnu misiju."
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "Misija je nedostupna"
+
+msgid "questsPage/timer/dash"
+msgstr "-"
+
+msgid "questsPage/timer/heading"
+msgstr "Vreme preostalo za sakupljanje poena dužnosti"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "Za završavanje misija, zarađuješ poene dužnosti koji su potrebni za istraživanje novih regiona."
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "Poeni dužnosti"
+
+msgid "rewardsView/additionalRewards"
+msgstr "Takođe si dobio:"
+
+msgid "rewardsView/button/close"
+msgstr "ZATVORI"
+
+msgid "rewardsView/button/confirm"
+msgstr "Razumem!"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "Pogledaj u garaži"
+
+msgid "rewardsView/heading"
+msgstr "NAGRADE PRIMLJENE"
+
+msgid "rewardsView/style/317"
+msgstr "Plamen 2D stil"
+
+msgid "rewardsView/style/345"
+msgstr "Proročanstvo 2D stil"
+
+msgid "rewardsView/style/435"
+msgstr "Odmazda 2D stil"
+
+msgid "rewardsView/style/436"
+msgstr "Kosa smrti 2D stil"
+
+msgid "rewardsView/subheading"
+msgstr "TURA DUŽNOSTI"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Napredak ture dužnosti"
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "Napredak misija ture"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Tura dužnosti"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "Misije ture"

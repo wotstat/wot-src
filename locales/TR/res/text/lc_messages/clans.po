@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "Klan Sohbeti"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "Klan sohbetine mesaj yazıp göndermek için tıklayın."
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "Klan Sohbeti"
+
+msgid "clan/header/creationDate"
+msgstr "%(creationDate)s'de oluşturuldu"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "Başvurular ve Davetler"
+
+msgid "clan/header/requestSent"
+msgstr "Başvuru gönderildi"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "Başvuru Yap"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "Bu klana başvurunuzu vermek için tıklayın."
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "Başvuru Yap"
+
+msgid "clan/post/combatOfficer"
+msgstr "Savaş Subayı"
+
+msgid "clan/post/commander"
+msgstr "Komutan"
+
+msgid "clan/post/executiveOfficer"
+msgstr "İkinci Komutan"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "İstihbarat Subayı"
+
+msgid "clan/post/juniorOfficer"
+msgstr "Yedek Subay"
+
+msgid "clan/post/personnelOfficer"
+msgstr "Personel Subayı"
+
+msgid "clan/post/private"
+msgstr "Er"
+
+msgid "clan/post/quartermaster"
+msgstr "Levazım Subayı"
+
+msgid "clan/post/recruit"
+msgstr "Acemi"
+
+msgid "clan/post/recruiter"
+msgstr "Üye Alım Subayı"
+
+msgid "clan/post/reservist"
+msgstr "Yedek"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "İsim gösterilirken hata"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "Tablodaki veri güncellendi."
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "Üye Alım Şartları"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "Düzenlenebilir"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "Klanda bekleyen başvuru yok."
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "Klanda süresi bitmiş başvuru yok."
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "Klana Davet Et"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "Yeni oyunculara davet göndermek \niçin %(invite)s'a tıklayın."
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "Klan son 28 günde hiç davet göndermedi."
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "Klanın son 28 günden bekleyen hiç daveti yok."
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "Klanın son 28 günden süresi biten hiç daveti yok."
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "Klanın son 28 günden işlenmiş hiç daveti yok."
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "Klanda hiç işlenmiş başvuru yok."
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "Sunucudan hiç veri alınamadı. \nDaha sonra tekrar deneyin."
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "Sunucu Hatası"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "Bekleyen (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "Tümü (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "Süresi Biten (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "Alınan karar (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "İşlenmiş (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "Klandaki boş pozisyonlar: %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "Klana Davet Et"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "Klana katılım başvurusunu işlemeniz için üç gününüz var. Başvurular ve davetler 28 gün boyunca kaydedilir ve ardından otomatik olarak silinir."
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "Oyuncu davet edilemiyor: klan dolu."
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "Oyuncu davet edilemiyor: klan alımı şu anda kapalı."
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "Kabul Edildi"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "İşlemek için %(days)d g"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "Reddedildi"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "Hata"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "Süresi Bitti"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "İşlemek için %(hours)d sa"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "İşlemek için %(min)d dk"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "Gönderildi"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "Davetler (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "Başvurular (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "İşlemler"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "Davet Et"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "Gönderildi"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "Daha Fazla Göster"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "Durum"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "Oyuncu"
+
+msgid "clanInvitesWindow/title"
+msgstr "Başvurular ve Davetler"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "Klana oyuncu davet etmek için tıklayın."
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "Davet eden:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "Davet kabul edildi."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "Davet reddedildi."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "Davet gönderildi."
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "Gönderen:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Bu tuş sunucudan yeni veri alındığında etkinleştirilecektir."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Yeni başvurular ve davetleri görmek için tıklayın."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "Listeyi yenileyin"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "Karar verici:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "Başvuru kabul edildi."
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "Başvuru reddedildi."
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "Başvurunun süresi geçti"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "Başvuru yapıldı."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "Oyuncu davet edilemiyor: klan dolu."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Oyuncu yakın zamanda bir klandan ayrıldı. Klana daha sonra kabul edebilirsiniz:"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "Yeni oyuncu davet edilemiyor: klan dolu."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Davetiyenin gönderildiği oyuncunun savaş başına ortalama deneyimi (Premium Hesap dahil)"
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Savaş Başına Ortalama Deneyim"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Davetiyenin gönderildiği oyuncunun yaptığı savaşlar."
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Savaşlar"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "Bu oyuncuyu klana davet etmek için tıklayın."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Klan davetine eklenen mesaj."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Mesaj"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "Davetiyenin gönderildiği oyuncunun Kişisel Reytingi."
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "Kişisel Reyting"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "Klan davetinin gönderildiği gün ve saat."
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "Gönderildi"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Klan daveti durumu.\nDavet bekliyor, süresi dolmuş veya işlenmiş olabilir."
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Durum"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "Davetiyenin gönderildiği oyuncunun adı."
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "Oyuncu"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Davetiyenin gönderildiği oyuncunun zafer oranı."
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Zaferler"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Davet ya kabul edilebilir ya da reddedilebilir."
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "İşlemler"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "Başvuruyu yapan oyuncunun savaş başına ortalama deneyimi (Premium Hesap dahil)"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "Savaş Başına Ortalama Deneyim"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "Başvuruyu yapan oyuncunun toplam yaptığı savaş"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "Savaşlar"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "Oyuncunun başvurusu ile birlikte mesajı"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "Mesaj"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "Başvuruyu yapan oyuncunun Kişisel Reytingi"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "Kişisel Reyting"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "Klan başvuru durumu.\nBaşvuru bekliyor, süresi dolmuş veya işlenmiş olabilir."
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "Durum"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "Başvuruyu yapan oyuncunun ismi."
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "Oyuncu"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "Başvuruyu yapan oyuncunun zafer oranı"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "Zaferler"
+
+msgid "clanLanding/notification/archived"
+msgstr "Mesaj arşive gönderildi."
+
+msgid "clanLanding/notification/commonError"
+msgstr "Teknik hata: Mesajla ilgili işlem tamamlanamadı."
+
+msgid "clanLanding/notification/deleted"
+msgstr "Mesaj kaldırıldı."
+
+msgid "clanLanding/notification/edited"
+msgstr "Mesaj yayınlandı."
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "Maksimum karakter sayısı geçildi."
+
+msgid "clanLanding/notification/limitReached"
+msgstr "Klanda maksimum sayıda mesaj zaten yayınlandı."
+
+msgid "clanLanding/notification/noPermission"
+msgstr "Klan mesajlarını yönetmek için yetersiz yetki: Rütbeniz değiştirildi."
+
+msgid "clanLanding/notification/notExist"
+msgstr "Mesaj kaldırıldı veya arşive gönderildi."
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "Mesaj <a href=\"event:clanRulesLink\"> klan kurallarını</a> ihlal eden ifadeler içeriyor."
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "Bekleyen davetler: %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "Seçilenleri Redded (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "Klan Davetlerim"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "Veri alınıyor..."
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "Henüz klanlara davetiniz yok."
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "Tüm başvuruları seç"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "İşlemler"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "Klan Adı"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "Durum"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "Klan Davetleri"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Yeni veri alındığında listeyi güncelleyebileceksiniz."
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Tabloyu güncellemek için tıklayın."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Yakında bir klandan ayrıldınız. Klan davetlerini ancak daha sonra kabul edebilirsiniz:"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Daveti gönderen klanın üyelerinin savaş başına kazandıkları ortalama deneyim (Rastgele Savaş kipinde ağırlıklı ortalama)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Savaş Başına Ortalama Deneyim"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Daveti gönderen klanın üyelerinin yaptığı ortalama savaş sayısı (sadece Rastgele Savaş kipinde)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Klanın Savaşları"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "Size davetiye gönderen klanın ismi"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "Klan Adı"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Size davetiye gönderen klandan mesaj"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Mesaj"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "Size davetiye gönderen klanın toplam reytingi"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "Klan Reytingi"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Klan davet durumunu ve o daveti işlemek için kalan süreyi gösterir"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Durum"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Daveti gönderen klanın üyelerinin zafer oranı (Rastgele Savaş kipinde ağırlıklı ortalama)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Klan Zaferleri"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Daveti ya kabul edebilirsiniz ya da reddedebilirsiniz. Daveti kabul ederek diğer klanlardan davetleri otomatik olarak reddedeceksiniz."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "İşlemler"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "Klan Profili"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "Kapat"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "Klana hoş geldiniz!"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "Artık Dünya Haritasındaki savaşlara katılabilir, Kalenizi inşa edip koruyabilir ve özel görevler tamamlayabilirsiniz."
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "Bülten"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "Klanınız: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "Verdiğimiz rahatsızlıktan dolayı özür dileriz. Lütfen daha sonra tekrar deneyin."
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "Kale geçici olarak devre dışıdır"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "Verdiğimiz rahatsızlıktan ötürü özür dileriz.\nLütfen daha sonra tekrar deneyin."
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "Veri Yüklenirken Hata"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "Klan Profili"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "Kale"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "Dünya Haritası"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "Klan Üyeleri"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "Kale"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "Özet"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "Klana Oyuncu Davet Etme"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "İşlem yapılamıyor. Klana oyuncuları ancak birer birer davet edebilirsiniz."
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "Tüm tanıdıkları alıcı listesine ekle."
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "Son 28 Gündeki Savaşlar"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "Son 28 Gündeki İlerlemeler"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "Klan Komutanı"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "Henüz oluşturulmadı"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "Katılınan savaş yok.\nSahip olunan Bölge yok."
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "Kale Seviyesi"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "Hazine"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "Hiç savaş yapılmamış"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "Bölgeler"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Elo Reytingi X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Elo Reytingi VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Elo Reytingi VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "Son 28 Gündeki Çatışmalar"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "Toplam üye sayısı"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "Detaylar"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "Devam Et"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "Başvuru Yap"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "Klanın sloganı yok."
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "Dünya Haritası detayları"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "Haritaya Git"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "Detaylar geçici olarak sağlanamıyor"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "Klana katılınamıyor."
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "Üye alım şartlarına gözatın %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "Zaten başka bir \nklanın üyesisiniz."
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "Zaten bu klana katılmak için \nbir davet aldınız."
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s Geçici olara kısıtlı"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s Geçici olara kısıtlı"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "Bu klan başvuru kabul etmiyor %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "Başvuru gönderildi"
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "Veri eşleştiriliyor..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "Klanın İlerlemelerde X klasmanındaki Elo reytingi"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Elo Reytingi X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "Klanın Kademe VI'daki Elo Reytingi"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Elo reytingi VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "Klanın İlerlemelerde VIII klasmanındaki Elo reytingi"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Elo Reytingi VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "Klanın son 28 gündeki İlerlemeleri"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "Son 28 Gündeki İlerlemeler"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "Kale seviyesi Komuta Merkezi seviyesine eşittir."
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "Kale Seviyesi"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "Klanın son 28 gündeki Çatışmaları"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "Son 28 Gündeki Çatışmalar"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "Klanın Dünya Haritasındaki X klasmanı savaşlarındaki Elo reytingi"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Elo Reytingi X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "Klanın Dünya Haritasındaki VI klasmanı savaşlarındaki Elo reytingi"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Elo Reytingi VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "Klanın Dünya Haritasındaki VIII klasmanı savaşlarındaki Elo reytingi"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Elo Reytingi VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "Klanın son 28 günde Dünya Haritasında yaptığı savaşlar"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "Son 28 Gündeki Savaşlar"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "Klanın Dünya Haritasında şu anda sahip olduğu bölgeler."
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "Bölgeler"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "Maksimum sayıda başvuru yapıldı."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "Başvuru Yapılamıyor"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "Maksimum sayıda başvuru yapıldı."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "Başvuru Yapılamıyor"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "Klan başvuru kabul etmiyor."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "Başvuru Yapılamıyor"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "Klanın reytingi son 28 günde güncellenmedi."
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "Eski Bilgi"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "Toplam reyting klanın Kale kipinde ve Dünya Haritasındaki etkinliğine bağlıdır."
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "Toplam Reyting"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "Toplam Reyting"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "Klan Profili"
+
+msgid "globalMap/disabled"
+msgstr "Dünya Haritasında savaşlar şu anda\nbölgenizde devre dışı"
+
+msgid "globalMapView/level10"
+msgstr "Seviye X"
+
+msgid "globalMapView/level6"
+msgstr "Seviye VI"
+
+msgid "globalMapView/level8"
+msgstr "Seviye VIII"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "Bu bölge Komuta Merkezi ile bağlantısını kaybettiği veya Bölge yağmalandığı için size gelir sağlamıyor."
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "Gelir Kazanmaz"
+
+msgid "globalMapView/noProvince"
+msgstr "Klan hiç Bölgeye sahip değil."
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "Popüler prime time: %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "Dünya Haritası klanların stratejik üstünlük için rekabet ettiği bir savaş alanıdır. Klan Subayları vakitlerinin çoğunu burada geçirirler, taktik planlarlar ve stratejik manevralar için güçleri konuşlandırırlar."
+
+msgid "globalMapView/promo/header"
+msgstr "Dünya Haritası"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "Dünya Haritası detayları"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "Haritaya Git"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "Savaşlar"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "Dünya Haritasında X klasmanında toplam savaşlar"
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "Savaşlar"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Elo reyting"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "Klanın Dünya Haritasındaki X klasmanı savaşlardaki reytingi"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Elo Reyting"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "En sevilen harita"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "Klanın son 28 gün içerisinde en çok X klasmanı savaşı yaptığı harita"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "En Sevilen Harita: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "Reyting Pozisyonu"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "Dünya Haritasındaki X klasmanı savaşlardaki reytinge göre Klan pozisyonu"
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "Reyting Pozisyonu"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "Zaferler"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "Dünya Haritasında X klasmanı savaşlarda toplam zafer oranı"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "Zaferler"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "Savaşlar"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "Dünya Haritasında VI klasmanındaki toplam savaşlar"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "Savaşlar"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Elo reyting"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "Klanın Dünya Haritasındaki VI klasmanı savaşlarındaki reytingi"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Elo Reyting"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "En sevilen harita"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "Klanın son 28 günde en fazla VI klasmanı savaşı yaptığı harita."
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "En Sevilen Harita: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "Reyting pozisyonu"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "Klanın Dünya Haritasındaki VI klasmanı savaşları reytingindeki yeri"
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "Reytingdeki Yer"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "Zaferler"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "Dünya Haritasında VI klasmanı savaşlarda toplam zafer oranı"
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "Zaferler"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "Savaşlar"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "Dünya Haritasında VIII klasmanında toplam savaşlar"
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "Savaşlar"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Elo reyting"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "Klanın Dünya Haritasındaki VIII klasmanı savaşlarındaki reytingi"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Elo Reyting"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "En sevilen harita"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "Klanın son 28 gün içerisinde en çok VIII klasmanı savaşı yaptığı harita"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "En Sevilen Harita: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "Reyting pozisyonu"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "Klanın Dünya Haritasındaki VIII klasmanı savaşları reytingindeki yeri"
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "Klan reytingi"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "Zaferler"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "Dünya Haritasında VIII klasmanı savaşlarda toplam zafer oranı"
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "Zaferler"
+
+msgid "globalMapView/stats/battles"
+msgstr "Dünya Haritasındaki Savaşlar"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "Klanın Dünya Haritasında yaptığı toplam savaş"
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "Dünya Haritasındaki Savaşlar"
+
+msgid "globalMapView/stats/seized"
+msgstr "Sahip Olunan Bölgeler"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "Klanın sahip olduğu Bölgeler toplamı. Daha önce sahip olunan ancak sonra kaybedilen Bölgeler de sayılır."
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "Sahip Olunan Bölgeler"
+
+msgid "globalMapView/stats/wins"
+msgstr "Klan Üyeleri Çapında Zaferler"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "Klan üyelerinin Dünya Haritasındaki savaşlarda toplam zafer oranı"
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "Klan Üyeleri Çapında Zaferler"
+
+msgid "globalMapView/table/days"
+msgstr "Gün"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "Klanın gün cinsinden Dünya Haritasında Bölgeye sahip olma süresi."
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "Gün"
+
+msgid "globalMapView/table/front"
+msgstr "Cephe"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "Seçili Cephenin adı"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "Cephe"
+
+msgid "globalMapView/table/income"
+msgstr "Gelir"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "Bölgenin gün başına kazandırdığı altın"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "Gelir"
+
+msgid "globalMapView/table/map"
+msgstr "Harita"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "Bölge için savaşların yapılacağı harita adı."
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "Harita"
+
+msgid "globalMapView/table/primeTime"
+msgstr "Prime Time"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "Bölge için savaşların zamanlandırıldığı sürenin başlangıcı."
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "Prime Time"
+
+msgid "globalMapView/table/province"
+msgstr "Taşra"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "Seçili Bölgenin adı."
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "Taşra"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "Bölge yağmalanmış ve geçici olarak size gelir kazandırmıyor."
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "Tekrar gelir almaya başlamanıza kalan zaman:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "Bölgeler"
+
+msgid "globalMapView/tabs/stats"
+msgstr "İstatistikler"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "Klanın reytingi son 28 günde güncellenmedi."
+
+msgid "globalMapView/totalIncome"
+msgstr "Toplam günlük gelir: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "Ortalama\nsavaş sayısı"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "Tüm klan üyeleri çapında Rastgele Savaş ve Tank Bölüğü Savaşı kiplerinde yapılan savaş sayısının ortalaması. Sadece klanın mevcut üyesi olan oyuncular sayılır."
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "Klan Üyeleri Çapında Ortalama Yapılan Savaş"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "Ortalama deneyim"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "Klan üyelerinin Rastgele Savaş ve Tank Bölüğü Savaşı kiplerinde kazandığı deneyimin ağırlıklı ortalaması. Her oyuncunun yaptığı savaş sayısı toplamı ağırlığı etkiler. Sadece klanın mevcut üyesi olan oyuncular sayılır."
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "Klan Üyeleri Çapında Ortalama Deneyim"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "Ortalama Kişisel Reyting"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "Tüm klan üyeleri çapında ortalama Kişisel Reyting. Sadece klanın mevcut üyesi olan oyuncular sayılır."
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "Klan Üyeleri Çapında Ortalam Kişisel Reyting"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "Ortalama zafer oranı"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "Klan üyelerinin Rastgele Savaş ve Tank Bölüğü Savaşı kiplerindeki zafer oranlarının ağırlıklı ortalaması. Her oyuncunun yaptığı toplam savaş sayısı ağırlığı etkiler. Sadece klanın mevcut üyesi olan oyuncular sayılır."
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "Klan Üyeleri Çapında Ortalama Zafer Oranı"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "Toplam kazanılan deneyimin oyuncunun Rastgele Savaş ve Tank Bölüğü Savaşı kiplerinde yaptığı savaş sayısınına oranı"
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "Ortalama Deneyim"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "Oyuncu tarafından yapılan toplam Rastgele Savaş ve Tank Bölüğü Savaşı sayısı"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "Toplam Savaş Sayısı"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "Oyuncunun klanda olduğu gün sayısı"
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "Klandaki Gün"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "Oyuncunun Kişisel Reytingi"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "Kişisel Reyting"
+
+msgid "personnelView/table/player"
+msgstr "Oyuncu (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "Klan üyesinin adı"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "Oyuncu"
+
+msgid "personnelView/table/post"
+msgstr "Rütbe"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "Üyenin klandaki rütbesi"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "Rütbe"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "Oyuncunun Rastgele Savaş ve Tank Bölüğü Savaşı kiplerindeki zafer oranı"
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "Zaferler"
+
+msgid "personnelView/title"
+msgstr "Klan Üyesinin Rastgele Savaşlarda ve Tank Bölüğü Savaşlarındaki İstatistikleri:"
+
+msgid "search/clansList"
+msgstr "Listedeki Klanlar: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "Sorgunuza uyan hiçbir şey bulunamadı. Farklı anahtar kelimeler kullanarak aramayı deneyin."
+
+msgid "search/emptyResult/button"
+msgstr "Listeye Geri Dön"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "Bulunan klanların listesine geri dönmek için tıklayın."
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "Listeye Geri Dön"
+
+msgid "search/emptyResult/header"
+msgstr "Arama Sonucu Yok"
+
+msgid "search/foundClans"
+msgstr "Bulunan Klanlar: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "Klana katılınamıyor."
+
+msgid "search/info/banned/tooltip/header"
+msgstr "Başvuru Yapılamıyor"
+
+msgid "search/info/clanProfileBtn"
+msgstr "Klan Profili"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "Klana katılma başvurusu yapılamıyor."
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "İşlem Yapılamıyor"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "Bu klana katılmak için zaten bir davet aldınız."
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "Başvuru Yapılamıyor"
+
+msgid "search/info/ratingDescription"
+msgstr "Toplam Reyting"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "Toplam reytingin nasıl artacağı klanın Kale kipinde ve Dünya Haritasındaki etkinliğine bağlıdır."
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "Toplam Reyting"
+
+msgid "search/info/ratingTitle"
+msgstr "Tüm Savaş Türlerinde İstatistikler:"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "Bu klana katılmak için zaten başvuruda bulundunuz."
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "Başvuru Yapılamıyor"
+
+msgid "search/info/requestSent"
+msgstr "Başvuru gönderildi"
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "Klan başvuru kabul etmiyor."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "Başvuru Yapılamıyor"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "Maksimum sayıda başvuru yapıldı."
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "Başvuru Yapılamıyor"
+
+msgid "search/info/sendRequestBtn"
+msgstr "Başvuru Yap"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "Sunucu verisi alınmadı. Daha sonra tekrar deneyin."
+
+msgid "search/info/serverUnavailable/header"
+msgstr "Sunucu Hatası"
+
+msgid "search/info/stats/avgExp"
+msgstr "Ortalama deneyim"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "Klan üyelerinin tüm savaş kipleri çapında kazandığı deneyimlerin ağırlıklı ortalaması. Her oyuncunun yaptığı toplam savaş sayısı ağırlığı etkiler. Sadece klanın mevcut üyesi olan oyuncular sayılır."
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "Klan Üyeleri Çapında Ortalama Deneyim"
+
+msgid "search/info/stats/battles"
+msgstr "Ortalama\nsavaş sayısı"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "Klan üyelerinin tüm savaş kipleri çapında yaptığı ortalama savaş sayısı. Sadece klanın mevcut üyesi olan oyuncular sayılır."
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "Klan Üyeleri Çapında Ortalama Yapılan Savaş"
+
+msgid "search/info/stats/wins"
+msgstr "Ortalama zafer oranı"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "Klan üyelerinin tüm savaş kipleri çapında zafer oranlarının ağırlıklı ortalaması. Her oyuncunun yaptığı toplam savaş sayısı ağırlığı etkiler. Sadece klanın mevcut üyesi olan oyuncular sayılır."
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "Klan Üyelerinin Ortalama Zafer Oranı"
+
+msgid "search/nextBtn"
+msgstr "Sonraki"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "Klan listesinin sonraki kısmını göstermek için tıklayın."
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "Sonraki"
+
+msgid "search/previousBtn"
+msgstr "Önceki"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "Klan listesinin önceki kısmını göstermek için tıklayın."
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "Önceki"
+
+msgid "search/promoText/body"
+msgstr "Bir klan aramak için alana ismini veya etiketini girin ve Ara'yı tıklayın."
+
+msgid "search/promoText/header"
+msgstr "Klan Arama"
+
+msgid "search/requestTooShort/body"
+msgstr "Klan aramak için alana en az 2 karakter girin ve tekrar deneyin."
+
+msgid "search/requestTooShort/button"
+msgstr "Listeye Geri Dön"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "Listeye Geri Dön"
+
+msgid "search/requestTooShort/header"
+msgstr "Yetersiz Veri"
+
+msgid "search/searchBtn"
+msgstr "Ara"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "Bir klan ismi girin veya sol tarafta yer alan alana giriş yapın (en az 2 karakter)."
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "Klan Arama"
+
+msgid "search/searchInputPrompt"
+msgstr "Klanın ismini veya etiketini girin"
+
+msgid "search/serverUnavailable/body"
+msgstr "Sunucu verisi alınmadı. Daha sonra tekrar deneyin."
+
+msgid "search/serverUnavailable/header"
+msgstr "Sunucu Hatası"
+
+msgid "search/table/clan"
+msgstr "Klan"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "Klan özellikleri: etiket ve isim"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "Klan"
+
+msgid "search/table/creationDate"
+msgstr "Oluşturulma"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "Klan oluşturulma tarihi"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "Oluşturulma"
+
+msgid "search/table/players"
+msgstr "Oyuncular"
+
+msgid "search/table/players/tooltip/body"
+msgstr "Toplam klan üyesi sayısı"
+
+msgid "search/table/players/tooltip/header"
+msgstr "Oyuncular"
+
+msgid "search/table/rating"
+msgstr "Reyting"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "Klan toplam reytingi"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "Reyting"
+
+msgid "search/title"
+msgstr "Klan Arama"
+
+msgid "search/titleDescription"
+msgstr "Burada bir klan arayabilirsiniz, detaylarını inceleyebilirsiniz\nve katılım başvurunuzu yapabilirsiniz. Klan ismi veya etiketi ile arama yapabilirsiniz."
+
+msgid "search/windowTitle"
+msgstr "Klan Arama"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "Plan"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "İstatistikler"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "Seviye %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "belirlenmemiş"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "Ateşkes:"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "Savunma Dönemi:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "Ana sunucu:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "Yapılan binalar:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "Tarafsızlık:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "Kazanılan En Çok Endüstriyel Kaynak"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "En Çok Art Arda Zafer"

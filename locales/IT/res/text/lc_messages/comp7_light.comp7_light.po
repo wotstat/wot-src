@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Cambia server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Dettagli"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "La modalità non è disponibile su questo server %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "La modalità non è disponibile su nessun server"
+
+msgid "alertMessage/modeOffline"
+msgstr "Errore del database. Modalità di gioco indisponibile."
+
+msgid "alertMessage/noVehicles"
+msgstr "Non ci sono veicoli idonei nella tua Officina %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Affermativo!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "AGGRESSIONE LIGHT"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "FASE FINALE COMPLETATA!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "FASE %(level)s COMPLETATA!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Tutte le missioni sono state completate!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Completata"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Scade tra: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Missione di Aggressione Light"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Nuova missione di Aggressione Light tra: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Ricompensa:"
+msgstr[1] "Ricompense:"
+msgstr[2] "Ricompense:"
+
+msgid "battleResult/header/deserter"
+msgstr "Hai ricevuto una penalità"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "PROGRESSIONE DI AGGRESSIONE LIGHT"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s – %(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Aggressione Light durerà per %(days)d giorno"
+msgstr[1] "Aggressione Light durerà per %(days)d giorni"
+msgstr[2] "Aggressione Light durerà per %(days)d giorni"
+
+msgid "calendarDay/title"
+msgstr "Programma"
+
+msgid "closeButtonLabel"
+msgstr "CHIUDI"
+
+msgid "countDown/text"
+msgstr "L'evento inizia tra:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Una modalità scattante che prevede battaglie 7 contro 7 con veicoli di livello %(levels)s. Goditi il gameplay della modalità originale di Aggressione senza Qualificazione, ranghi o Dati di servizio, e ottieni ricompense tramite le missioni giornaliere."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MODE"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — Modalità di gioco. Clicca per maggiori informazioni"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Aggressione Light"
+
+msgid "entryPointTooltip/status/active"
+msgstr "La modalità è disponibile per %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Tregua%(timer)s"
+
+msgid "featureName"
+msgstr "Aggressione Light"
+
+msgid "featureNameCapitalized"
+msgstr "AGGRESSIONE LIGHT"
+
+msgid "intro/confirmButton"
+msgstr "Affermativo!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Goditi il gameplay della modalità originale di Aggressione senza Qualificazione, ranghi o Dati di servizio."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "La modalità presenta modificatori che cambiano alcuni parametri del veicolo, come integrità (HP), tempo di ricarica dei consumabili, tempo rimanente di visibilità e altro ancora."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Una volta catturate certe aree della mappa, potrai usare delle Abilità tattiche. Ci sono due tipi di punti di interesse: il Quartier generale dell'artiglieria ti permetterà di lanciare un attacco d'artiglieria su una determinata posizione, mentre il Centro comunicazioni avvisterà tutti i veicoli nemici. A seconda della mappa, la presenza e la posizione dei punti di interesse possono variare."
+
+msgid "intro/description/roleSkills"
+msgstr "A seconda del ruolo, ogni veicolo dispone di un'abilità speciale con tre livelli di carica. Maggiore è il livello di carica al momento dell'attivazione dell'abilità, più questa sarà potente. Il livello di carica dipende dal numero di Punti Prestigio ottenuti grazie a buone prestazioni in battaglia, catturando punti di interesse, usando Abilità tattiche, etc.\n\nLeggi il regolamento della modalità per scoprire di più sui diversi modi per ottenere Punti Prestigio."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "In questa modalità possono essere utilizzati solo veicoli di livello %(levels)s (A-SMV e altri veicoli non sono disponibili). Prepara i veicoli nella tua Officina, poi scegli il migliore in base alle caratteristiche offerte dalla mappa selezionata una volta entrato in battaglia. Quando selezioni il tuo veicolo, tieni conto anche di quelli scelti dai tuoi alleati."
+
+msgid "intro/title/lightGameplay"
+msgstr "RILASSATI, COMANDANTE"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "MODIFICATORI DI AGGRESSIONE"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "PUNTI DI INTERESSE"
+
+msgid "intro/title/roleSkills"
+msgstr "ABILITÀ DI RUOLO"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "SCEGLI UN VEICOLO PER UNA MAPPA SPECIFICA"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Vittoria"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Sconfitta/Stallo"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Ben fatto, comandante, continua così!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Completa missioni e raggiungi le migliori posizioni nelle battaglie di Aggressione Light per aumentare il tuo livello di progressione."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Il numero di Punti progressione che ottieni dipende dal tuo piazzamento in battaglia per Punti Prestigio."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "La modalità termina tra %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Progressione principale completata"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Aggressione Light"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Primi 2 per Punti Prestigio"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Primi 5 per Punti Prestigio"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Primi 7 per Punti Prestigio"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Usa l'account Premium WoT"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Attiva le Riserve personali"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Completa le missioni"
+
+msgid "noVehicles/howTo/title"
+msgstr "Qual è il modo più rapido per ottenere veicoli di livello %(levels)s?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Per partecipare ad Aggressione Light, devi avere almeno un veicolo di livello %(levels)s in Officina idoneo alla modalità.\nPuoi acquistare dei veicoli Premium di livello %(levels)s nell'Albero tecnologico o nella Fabbrica."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Per partecipare ad Aggressione Light, devi avere almeno un veicolo di livello %(levels)s in Officina idoneo alla modalità.\nHai un veicolo di livello %(levels)s disponibile per il recupero."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Per partecipare ad Aggressione Light, devi avere almeno un veicolo di livello %(levels)s in Officina idoneo alla modalità."
+
+msgid "noVehicles/title"
+msgstr "Non ci sono veicoli idonei nella tua Officina"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Consulta la pagina Informazioni su Aggressione Light per maggiori dettagli."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Punti Prestigio"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Causare danni\nAssistere con avvistamento\nDistruggere cingoli\nCausare danni critici\nDistruggere veicoli nemici\nE altro"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "I Punti Prestigio possono essere ottenuti compiendo azioni di combattimento, tra cui:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "La Stagione è terminata sul server %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "La Stagione è terminata sul server %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "La Stagione è terminata sul server %(server)s."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Progressione principale completata!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Fase %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s oppure %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Nuove missioni tra:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "L'evento termina tra:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Le missioni saranno aggiornate tra"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Tutte le missioni giornaliere sono state completate."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Progressione completata. Gioca ad Aggressione Light per ricevere altre ricompense."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Completa missioni e assicurati le migliori posizioni nelle battaglie di Aggressione Light\nper aumentare il tuo livello di progressione. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Si ricevono completando missioni speciali e combattendo battaglie in Aggressione Light. Consentono di avanzare nella progressione."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Punti progressione di Aggressione Light"
+
+msgid "selectorTooltip/desc"
+msgstr "Modalità non classificata. 7 contro 7 | Livello %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Aggressione Light"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Segui le ultime novità sul portale di gioco per rimanere aggiornato sull'inizio della nuova Stagione."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Questa modalità è momentaneamente indisponibile per motivi tecnici."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Questa modalità sarà disponibile alle %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Punti progressione ricevuti"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Dettagli"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Aggressione Light"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Ricompense ricevute:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Hai completato la Fase di progressione %(stage)s nella modalità %(progressionName)s."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Congratulazioni!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Tregua in corso. Le battaglie Aggressione Light sono momentaneamente indisponibili."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Tregua"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Tregua terminata. Le battaglie Aggressione Light sono nuovamente disponibili."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Tregua"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Informazioni su Aggressione Light"

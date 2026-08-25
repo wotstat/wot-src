@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Attiva"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Acquista e attiva"
+
+msgid "activation/activateBonus"
+msgstr "Riserva attiva: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Attiva Riserva"
+
+msgid "activation/activateButtonClan"
+msgstr "Alla Fortezza"
+
+msgid "activation/battleXPDescription"
+msgstr "Bonus all'Exp di combattimento per 1 h"
+
+msgid "activation/battleXPTitle"
+msgstr "Exp di combattimento"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Vuoi acquistare e attivare la Riserva personale migliorata che fornisce %(boosterBonus)s a %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Acquista oro"
+
+msgid "activation/buyGoldTitle"
+msgstr "Vuoi acquistare l'oro necessario per la Riserva personale migliorata che fornisce %(boosterBonus)s a %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Oro necessario per acquistare la Riserva personale migliorata:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Crediti ed Exp di combattimento"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "Exp dell'equipaggio ed Exp tecnica"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Riserve di Clan"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Attiva la Riserva in Fortezza"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Vedi in Fortezza"
+
+msgid "activation/comboXPDescription"
+msgstr "Bonus a Exp tecnica ed Exp dell'equipaggio per 1 h"
+
+msgid "activation/comboXPTitle"
+msgstr "Exp tecnica/equipag."
+
+msgid "activation/creditsDescription"
+msgstr "Bonus ai crediti per 1 h"
+
+msgid "activation/creditsTitle"
+msgstr "Crediti"
+
+msgid "activation/footer"
+msgstr "Le Riserve esauribili devono essere attivate: %(expirableAmount) entro %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Bonus all'Exp di Prima Linea per 1 h"
+
+msgid "activation/frontLineXPTitle"
+msgstr "Exp di Prima Linea"
+
+msgid "activation/informationButton"
+msgstr "INFORMAZIONI"
+
+msgid "activation/price"
+msgstr "Prezzo:"
+
+msgid "activation/subFooter/depot"
+msgstr "Magazzino"
+
+msgid "activation/subFooter/main"
+msgstr "Le Riserve più vicine alla scadenza sono attivate per prime. Puoi vedere tutte le Riserve a tua disposizione nel %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Attiva {whiteSpanish_Open}fino a 3 Riserve personali{whiteSpanish_Close} per ottenere più crediti ed esperienza nelle battaglie. Acquista altre Riserve personali nella %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "Fabbrica"
+
+msgid "activation/terms/booster_credits"
+msgstr "crediti"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "Exp di Prima Linea"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "Exp tecnica/equipag."
+
+msgid "activation/terms/booster_xp"
+msgstr "Exp di combattimento"
+
+msgid "activation/title"
+msgstr "RISERVE PERSONALI"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}La Riserva personale standard attivata che fornisce %(previousBoosterBonus)s a %(previousBoosterTerm)s andrà perduta.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Vuoi attivare la Riserva personale migliorata che fornisce %(boosterBonus)s a %(boosterTerm)s invece della Riserva personale standard attivata?"
+
+msgid "battleView/notice"
+msgstr "Le Riserve personali possono essere attivate in qualsiasi momento in battaglia. Riceverai il bonus anche se la Riserva scade durante la battaglia."
+
+msgid "battleView/title"
+msgstr "Attivazione delle Riserve personali"
+
+msgid "depot/buyButton"
+msgstr "All'acquisto"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Un'altra Riserva di questo tipo è già attiva."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Questa Riserva personale è scaduta durante la battaglia. Il bonus della Riserva personale si applica ugualmente a questa battaglia."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)min"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Le Riserve personali attivate non sono valide per questa modalità."
+
+msgid "intro/buttons/close"
+msgstr "Affermativo!"
+
+msgid "intro/buttons/details"
+msgstr "Dettagli"
+
+msgid "intro/description"
+msgstr "Dopo essere state ricevute, le Riserve personali esauribili sono disponibili per un periodo di tempo limitato. Se non vengono attivate durante questo periodo, saranno perse. Le Riserve personali non esauribili non possono essere usate finché hai a disposizione Riserve personali esauribili dello stesso tipo."
+
+msgid "intro/title"
+msgstr "RISERVE PERSONALI ESAURIBILI"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Nessuna Riserva personale di questo tipo in Magazzino. Puoi acquistarle in seguito o attivarle in Officina."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Completa missioni e partecipa a eventi di gioco per ottenere Riserve personali."
+
+msgid "noReserveTooltip/text"
+msgstr "Nessuna Riserva personale di questo tipo in Magazzino."

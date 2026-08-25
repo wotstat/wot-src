@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Tikrai taip!"
+
+msgid "attachments_preview/description"
+msgstr "3D elementų rinkinys"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Puikus 3D elementas"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Legendinis 3D elementas"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Retas 3D elementas"
+
+msgid "bundle/name"
+msgstr "Paslaptinga parduotuvė"
+
+msgid "bundle/name_uppercased"
+msgstr "PASLAPTINGA PARDUOTUVĖ"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Atšaukti"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Pirkti"
+
+msgid "confirmation/description"
+msgstr "Patvirtinę gausite bonų ir naujo langelio apdovanojimą."
+
+msgid "confirmation/purchase"
+msgstr "Nusipirkti už {{price}} ?"
+
+msgid "entryPoint/button"
+msgstr "Keliauti į renginį"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} jau čia. Pažiūrėkite!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Pirkdami bonus renginio {{eventName}} metu dovanų gausite vieną iš dar neatidarytų langelių. Langeliuose yra vertingų žaidimo daiktų — tarp kurių ir pagrindinis renginio prizas: Premium mašina."
+
+msgid "intro/cards/description/c_2"
+msgstr "Apdovanojimai suteikiami atsitiktine tvarka. Kiekvienas neatidarytas langelis turi savo tikimybę ją gauti, bet visų tikimybių suma visada yra 100%. Atidarę langelį antrą kartą jo niekada negalėsite atidaryti, o tikimybė gauti kitus apdovanojimus padidėja."
+
+msgid "intro/cards/description/c_3"
+msgstr "Kiekvienas žingsnis kainuoja tam tikrą aukso kiekį. Ir gaunamų bonų, ir žingsnių kainos gali keisti su kiekvienu žingsniu."
+
+msgid "intro/cards/link"
+msgstr "Pamatykite kiekvieno etapo kainą ir sąlygas {{@ class 'linkPart'}}portale.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Bonų pirkimas"
+
+msgid "intro/cards/title/c_2"
+msgstr "Langeliai ir tikimybės"
+
+msgid "intro/cards/title/c_3"
+msgstr "Žingsnių kainos"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "JŪSŲ APDOVANOJIMAS LAUKIA"
+
+msgid "main/alt/description"
+msgstr "Pamatyti tikimybę"
+
+msgid "main/alt/tooltip/body"
+msgstr "Paspaudę Alt klavišą pamatysite tikimybę gauti kiekvieną langelį."
+
+msgid "main/alt/tooltip/header"
+msgstr "Tikimybių rodymas"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "SVEIKINAME! \n JŪS GAVOTE VISUS APDOVANOJIMUS"
+
+msgid "main/footer/button"
+msgstr "Pirkti"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}Apdovanojimas iš langelio"
+
+msgid "main/footer/receive"
+msgstr "Jūs gausite: {{item}}"
+
+msgid "main/header/description"
+msgstr "Renginio parduotuvėje lankykitės nuo {{startDate}} iki {{endDate}} ir pasiimkite visus prizus!"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Į Išvaizdą"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Pereiti į stilių"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Pereiti į mašiną"
+
+msgid "notifications/specialReward/title"
+msgstr "Pagrindinis renginio {{eventName}} prizas jūsų!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Papildomas apdovanojimas:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Gauta:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Ši operacija yra laikinai nepasiekiama dėl techninių priežasčių. Pabandykite dar kartą vėliau."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Į renginį"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s greitai užsidarys!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Renginys vyks iki: %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "Renginio %(eventName)s langelis atidarytas"
+
+msgid "tooltips/entry/description"
+msgstr "Apdovanojimas laukia jūsų! Kiekvieną kartą pirkdami bonus gausite po atsitiktinį daiktą iš langelių dovanų. Kiekvieną kartą atidarote skirtingą langelį, nes jau gauti prizai pašalinami iš sąrašo."
+
+msgid "tooltips/entry/timer"
+msgstr "Renginys bus pasiekiamas dar {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "Apie renginį"
+
+msgid "tooltips/steps/description"
+msgstr "Su kiekvienu pirkimu gausite vis daugiau {{currency}}. Jūsų gaunamas kiekis didėja ties tam tikrais žingsniais."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} už kiekvieną pirkimą"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Žingsniai:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} — {{end}}"

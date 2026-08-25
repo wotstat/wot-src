@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "backButton/label"
+msgstr "TILBAGE"
+
+msgid "backButton/to"
+msgstr "TIL KONTOSTATUS"
+
+msgid "filteredMapsDisplayed"
+msgstr "Kort vist: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Vis/skjul kort af denne type."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Ørkenkort"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Sommerkort"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Vinterkort"
+
+msgid "header/cooldown"
+msgstr "Du kan udskifte et kort igen om %(cooldownEndTime)."
+
+msgid "header/title"
+msgstr "Udelukkede kort"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Du kan udskifte dette kort igen efter cooldown-perioden."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Udskiftning af kort utilgængeligt"
+
+msgid "mapTile/hoverExclude"
+msgstr "Udeluk %(mapName)-kortet?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Udeluk"
+
+msgid "mapTile/hoverInclude"
+msgstr "Inkluder %(mapName)-kortet i standard kampe?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Inkluder"
+
+msgid "mapsFilterLabel"
+msgstr "Korttyper:"
+
+msgid "notSelected"
+msgstr "Ikke valgt"
+
+msgid "premium"
+msgstr "WoT premium"
+
+msgid "slot/disabledTooltipBody"
+msgstr "En yderligere plads er kun tilgængelig med en aktiv WoT premium konto eller WoT Plus-abonnement."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "Åbn op med en WoT premium konto."
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Åbn op med et aktivt WoT Plus-abonnement."
+
+msgid "slot/replaceTooltipBody"
+msgstr "Vælg et kort fra listen nedenfor, for at udskifte det og udelukke det fra standard kampe."
+
+msgid "slot/selectTooltipBody"
+msgstr "Vælg et kort fra listen nedenfor, for at udelukke det fra standard kampe."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Plads tilgængelig"
+
+msgid "totalMapsDisplayed"
+msgstr "Kort vist: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "Udeluk yderligere 1 kort med %(linkPremium) og %(mapCount)s mere med %(linkWotPlus)."
+msgstr[1] "Udeluk yderligere 1 kort med %(linkPremium) og %(mapCount)s mere med %(linkWotPlus)."
+
+msgid "unlock/premium"
+msgstr "Udeluk yderligere 1 kort med %(linkPremium)."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "Udeluk %(mapCount)s kort mere med %(linkWotPlus)."
+msgstr[1] "Udeluk %(mapCount)s kort mere med %(linkWotPlus)."
+
+msgid "wotplus"
+msgstr "WoT Plus"

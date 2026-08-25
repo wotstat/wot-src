@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "%(count) modul maradt"
+msgstr[1] "%(count) modul maradt"
+msgstr[2] "%(count) modul maradt"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Vissza a modulokhoz"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "Ha kinyitod ezeket a modulokat, prémium járműveket, játékbeli fizetőeszközöket és más értékes jutalmakat kaphatsz."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "A paradoxmodulokat megvásárolhatod a játékon belüli boltban vagy a Prémium boltban."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Paradoxmodul"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "PARADOXMODUL"
+
+msgid "common/getButton/lowerCase"
+msgstr "Szerezz modulokat"
+
+msgid "common/getButton/upperCase"
+msgstr "SZEREZZ MODULOKAT"
+
+msgid "common/loader"
+msgstr "Modul kinyitása folyamatban..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Nyiss ki modulokat a statisztika megtekintéséhez."
+
+msgid "common/statistics/header"
+msgstr "Kinyitott modulok: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "A kinyitott modulokkal kapcsolatos összes információ törlődik."
+
+msgid "entryPoint/boxes"
+msgstr "A MODULOKHOZ"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Ezek olyan különleges modulok, amelyek új és egyedi tárgyakat tartalmaznak, köztük prémium járműveket, testreszabási elemeket, játékbeli fizetőeszközöket és egyéb értékes jutalmakat.\nA modulokat a játékbeli Boltban vagy a Prémium boltban szerezheted be."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Technikai okok miatt jelenleg nem nyithatsz ki és nem vásárolhatsz modulokat. Elnézést kérünk az átmeneti kellemetlenségért."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "A modulok átmenetileg nem elérhetők"
+
+msgid "eventName/lowerCase"
+msgstr "Törd meg a Paradoxont"
+
+msgid "eventName/upperCase"
+msgstr "TÖRD MEG A PARADOXONT"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garantált jutalom a következő modulban!"
+
+msgid "guaranteedTitle/text"
+msgstr "A modulok maximális száma, mielőtt garantált jutalmat kapsz: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ha nem nyitod ki a modulokat az esemény végéig, automatikusan kinyitjuk őket."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ha már rendelkezel a modulok lehetséges tartalmának listáján szereplő összes járművel, akkor a modulokból kapott minden további jármű teljes értékét aranyban kompenzáljuk."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Minden %(guaranteed0)s. modul garantáltan tartalmaz egy prémium járművet. Ha a modulok kinyitásakor nem kapsz egy ilyen járművet sem, akkor a %(guaranteed0)s. modul kinyitásakor kapsz egy olyan prémium járművet, amellyel még nem rendelkezel. Ha kapsz egy járművet, a számláló visszaáll."
+
+msgid "infoPage/header/description"
+msgstr "Nyisd ki a modult, hogy értékes játékbeli tárgyakat kapj! További részleteket alább olvashatsz."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Ebből: %(name) (%(boxesCount) modul kinyitva)"
+
+msgid "noBoxesView/description/"
+msgstr "Nincsenek moduljaid. A modulokat megvásárolhatod\na játékbeli Boltban vagy a Prémium boltban is."
+
+msgid "preview/backLabel"
+msgstr "A MODULOKHOZ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Elérhető modulok: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nincs elérhető modul"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Ha már rendelkezel az összes járművel a modulok lehetséges tartalmainak listájáról, akkor a modulokból kapott minden további járműért aranykompenzációt kapsz."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) modul"
+msgstr[1] "%(remainingCount) modul"
+msgstr[2] "%(remainingCount) modul"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "A garantált jutalom egy jármű a modulok lehetséges tartalmainak listájáról.\nHa kinyitsz %(remainingCount) modult anélkül, hogy kapnál egy ilyen járművet, akkor %(count). modulod kinyitásakor kapsz egyet. Amikor járművet kapsz, a számláló visszaáll alaphelyzetbe."

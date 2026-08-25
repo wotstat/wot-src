@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT-team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "Akkoord"
+
+msgid "EULA/labels/agree"
+msgstr "Ik ga akkoord"
+
+msgid "EULA/title"
+msgstr "Eindgebruikers licentieovereenkomst"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "Dit e-mailadres is al aan je account gelinkt."
+
+msgid "accountCompletion/activate/button"
+msgstr "Stuur code/wijzig e-mailadres"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "Stuur de code opnieuw of wijzig je e-mailadres over %(timer) s"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "Voer je e-mailadres opnieuw in"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "Code vervallen. Voer je e-mailadres opnieuw in."
+
+msgid "accountCompletion/activate/keyError"
+msgstr "Ongeldige code"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "Kun je de e-mail niet vinden, controleer dan of je je e-mailadres juist hebt ingevoerd."
+
+msgid "accountCompletion/activate/text"
+msgstr "Een e-mail met de bevestigingscode van Wargaming.net is naar het volgende e-mailadres verstuurd: {whiteSpanish_Open}%(email){whiteSpanish_Close}. Voer de 4-cijferige code in om je e-mailadres te bevestigen en je account compleet te maken."
+
+msgid "accountCompletion/activate/title"
+msgstr "Bevestig e-mailadres"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "Je hebt te vaak een incorrecte code ingevoerd."
+
+msgid "accountCompletion/add"
+msgstr "Toevoegen"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "Dit e-mailadres is al aan je account gelinkt."
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "E-mailadres reeds gelinkt"
+
+msgid "accountCompletion/cancel"
+msgstr "Later"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "Jouw e-mailadres"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "E-mailadres"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "Voeg je e-mailadres toe om de beloning te ontvangen en volledige toegang te krijgen tot alle onderdelen van het spel."
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "KRIJG VOLLEDIGE TOEGANG TOT HET SPEL"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "Voeg je e-mailadres toe en bevestig het om een beloning te ontvangen en nieuwe features te ontgrendelen. %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "Completeer account"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "Er is met dit e-mailadres al een account geregistreerd."
+
+msgid "accountCompletion/emailForbidden"
+msgstr "Dit e-mailadres is verboden."
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "E-mailadres mag niet langer dan %(amount)s tekens zijn."
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "E-mailadres moet minstens %(amount)s tekens lang zijn."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "Je e-mailadres is al bevestigd."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "E-mailadres bevestigd"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "Je hebt het maximale aantal handelingen overschreden. Over %(timer) kun je opnieuw je e-mailadres wijzigen of de e-mail versturen."
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "Deze e-maildienst is in jouw land geblokkeerd."
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "Deze e-maildienst is in jouw land verboden."
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "E-mailadres kan niet worden gelinkt"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "E-mailadres mag alleen Latijnse letters, cijfers, @ symbolen, punten en underscores bevatten."
+
+msgid "accountCompletion/later"
+msgstr "Later"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "Beloning voor e-mailadres bevestigen"
+
+msgid "accountCompletion/submit"
+msgstr "Bevestigen"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "In de wachtrij op de server.\nDit kan even duren."
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) De dienst is tijdelijk onbeschikbaar. Probeer het later alsjeblieft nog eens."
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) De dienst is tijdelijk onbeschikbaar.\nProbeer het alsjeblieft opnieuw over %(time)s."
+
+msgid "barracksExpand/cancel"
+msgstr "Annuleren"
+
+msgid "barracksExpand/message"
+msgstr "Barakken uitbreiden voor %(price)s goud met aantal bedden: %(count)s?"
+
+msgid "barracksExpand/submit"
+msgstr "Uitbreiden"
+
+msgid "barracksExpand/title"
+msgstr "Barakken uitbreiden"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "Onvoldoende goud."
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "Barakken uitbreiden"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "Annuleren"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "Niet alle spelers zijn klaar voor het gevecht of er zijn minder spelers dan er nodig zijn."
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "Begin gevecht"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "Incompleet"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "Activeer de bonus %(newBoosterName)s"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "Bevestigen"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "Activatie bevestigen"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "Als de persoonlijke reserve %(newBoosterName)s wordt geactiveerd, zal de huidige persoonlijke reserve %(curBoosterName)s geannuleerd en vernietigd worden."
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "Ja"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "Activatie bevestigen"
+
+msgid "buyConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "buyConfirmation/message"
+msgstr "%(product)s kopen voor %(price)s?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "{%count} artikel(en) \"{%name}\" kopen?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "Uitrusting '%(equipment)s' kopen?"
+
+msgid "buyConfirmation/submit"
+msgstr "Kopen"
+
+msgid "buyConfirmation/title"
+msgstr "Aankoop bevestigen"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "incompatibiliteit"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " met de huidige module."
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "Verbruiksartikel \"%(conflicted)s\" zal naar het depot worden gezonden wegens "
+
+msgid "buyInstallConfirmation/message"
+msgstr "Koop en monteer %(kind)s \"%(name)s\" op het huidige voertuig voor %(price)s%(creditsIcon)s? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "Koop en monteer %(kind)s \"%(name)s\" op het huidige voertuig voor %(price)s credits?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "Kopen"
+
+msgid "buyInstallConfirmation/title"
+msgstr "Aankoop bevestigen"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "Koop Premium account voor %(days)s met %(gold)s\n %(alertIcon)s %(alertColorTagOpen)s Door technische problemen zul je geen extra ervaring of credits ontvangen. Probeer een ander gevecht te selecteren of het kopen van een Premium account via het Premium account menu.%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "Kopen"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "Aankoop bevestigen"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "Garageplek"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "buySlotConfirmation/message"
+msgstr "Een extra plek in de garage kopen voor %(goldCost)s?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "Kopen"
+
+msgid "buySlotConfirmation/title"
+msgstr "Aankoop bevestigen"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "Niet genoeg credits om een plek te kopen."
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "Niet genoeg credits"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "Onvoldoende goud om een plek te kopen."
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "Onvoldoende goud."
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "Geen beschikbare plek in de garage. Wil je een extra plek kopen voor {%d} credits?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "Kopen"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "Aankoop bevestigen"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "Standaard munitie laden"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "Annuleren"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Je hebt al een bemanning voor dit voertuig."
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "Gedurende de voertuighuurperiode ontvang je een gratis plek."
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "De munitie kan niet worden geladen: het geselecteerde voertuig heeft volle munitie."
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "De munitie kan niet worden geladen: het geselecteerde voertuig heeft nog munitie."
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "Prijs: %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "Koop een extra plek in garage"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "Kopen"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "Kopen"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "Inruilen"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "Koop zonder bemanning"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "Bemanningstraining"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "Bemanningsleden: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "Koop %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "Totaal:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "Je hebt incorrecte informatie ingevoerd."
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "Voer het aantal goud in van de kolom \"Totaal\""
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "Bevestig handeling:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "Je hebt geen beschikbare voertuigen\nom in te ruilen"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "Geschatte waarde is %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "Train de bemanning: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "Totaal:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "Selecteer een voertuig"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "Selecteer een Premiumvoertuig\nbeschikbaar om in te ruilen"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "Annuleren"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "Extra prijs voor %(vehiclename)s:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "Omwisselen"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "Koop zonder bemanning"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "%(vehiclename)s inruilen"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "Gekochte uitrusting en verbruiksmiddelen zullen niet worden terugbetaald met goud zodra je op de Inruilen knop hieronder klikt. Controleer alle details alstublieft voorzichtig."
+
+msgid "buyVehicleWindow/warning"
+msgstr "Aangekochte items zullen niet meer omgezet worden naar goud nadat je op de \"Koop\" knop klikt. Kijk alstublieft de items goed na."
+
+msgid "challenge_missions/activation/cancel"
+msgstr "Annuleren"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "Activeren"
+
+msgid "challenge_missions/activation/description"
+msgstr "Na activatie kan een reeks Smeltkroes-missies worden {{@ style (color #FFE4C0)}}voltooid, gefaald of afgebroken{{/}}. Als je een missie van de reeks faalt, zul je één schild verliezen."
+
+msgid "challenge_missions/activation/title"
+msgstr "Smeltkroes: {{challengeName}} activeren?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "Annuleren"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "Herstarten"
+
+msgid "challenge_missions/restart/description"
+msgstr "Je missievoortgang wordt gereset, je schilden worden hersteld, en je kunt de beloningen opnieuw verdienen. De reeks missies zal meteen na het herstarten beschikbaar zijn."
+
+msgid "challenge_missions/restart/free/title"
+msgstr "Smeltkroes: {{challengeName}} gratis herstarten?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "Smeltkroes: {{challengeName}} voor {{cost}} herstarten?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "Annuleren"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "Afbreken"
+
+msgid "challenge_missions/surrender/description"
+msgstr "Afbreken zal deze reeks Smeltkroes-missies beëindigen en alle voortgang en schilden resetten. Je kunt de reeks op elk moment herstarten."
+
+msgid "challenge_missions/surrender/title"
+msgstr "Smeltkroes: {{challengeName}} afbreken?"
+
+msgid "changeGraphics/cancel"
+msgstr "Annuleren"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s De graphics zijn in deze update aanzienlijk herzien. Je kunt de graphics automatisch laten instellen, of de autoselectie uitzetten en zelf de instellingen veranderen."
+
+msgid "changeGraphics/submit"
+msgstr "Autoselectie"
+
+msgid "changeGraphics/title"
+msgstr "Automatisch instellen graphics"
+
+msgid "changePeriphery/cancel"
+msgstr "Annuleren"
+
+msgid "changePeriphery/message"
+msgstr "Omschakelen naar een andere server?"
+
+msgid "changePeriphery/submit"
+msgstr "Omschakelen"
+
+msgid "changePeriphery/title"
+msgstr "Bevestig omschakelen"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "Annuleren"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "Serverwijzigingen zullen nu worden opgeslagen. Je kunt in de instellingen auto-login aan- of uitzetten."
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "Doorgaan"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "Naar een andere server overstappen?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "Annuleren"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "Omschakelen naar een andere server?\n\nDe volgende beperkingen zullen optreden als je van server wijzigt:\n\t• Sommige voertuigen zijn niet beschikbaar.\n\t• Emblemen en leuzen zullen niet weergegeven worden.\n\t• Missies, persoonlijke reserves en de oefenterreinmodus zullen niet beschikbaar zijn.\n\nJe kan fouten en problemen krijgen met de kwaliteit van de verbinding. Wees respectvol tegenover spelers uit andere regio's."
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "Omschakelen"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "Bevestig omschakelen"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "Annuleren"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "Naar een andere server overstappen?\n\nEr zullen beperkingen zijn wanneer je van server wijzigt:\n\t• Sommige voertuigen zullen niet beschikbaar zijn.\n\t• Emblemen en leuzen zullen niet worden weergegeven.\n\t• Missies, persoonlijke reserves en de Oefenterreinmodus zullen niet beschikbaar zijn.\n\nJe kunt fouten en problemen krijgen met de verbinding. Wees respectvol tegenover spelers uit andere regio's.\n\n\nServerwijzigingen zullen worden opgeslagen.\nGa naar instellingen om auto-login aan of uit te zetten."
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "Doorgaan"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "Bevestig omschakelen"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "Annuleren"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sJe staat op het punt tot de clan toe te treden:\n%(clanName)s\n\nDoor het bevestigen van de toetreding tot de clan accepteer je automatisch de geldende regels en regelingen en stem je er in toe actief deel te nemen aan de activiteiten en ontwikkeling van de clan.\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "Er wordt een tijdelijke restrictie op toetreding tot een andere clan op je geplaatst als je de clan verlaat."
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "Bevestigen"
+
+msgid "clanConfirmJoining/title"
+msgstr "Toetreding tot de clan bevestigen"
+
+msgid "clan_data_not_available/cancel"
+msgstr "Sluiten"
+
+msgid "clan_data_not_available/message"
+msgstr "Het profiel van de clan van deze speler is tijdelijk onbeschikbaar. Probeer het later opnieuw."
+
+msgid "clan_data_not_available/title"
+msgstr "Let op!"
+
+msgid "common/cancel"
+msgstr "Annuleren"
+
+msgid "common/confirm/cancel"
+msgstr "Nee"
+
+msgid "common/confirm/submit"
+msgstr "Ja"
+
+msgid "common/cost"
+msgstr "Prijs:"
+
+msgid "common/error/cancel"
+msgstr "Sluiten"
+
+msgid "common/submit"
+msgstr "Doorgaan"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "Annuleren"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "Kopen"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "Koop en monteer gevechtsbevelen"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "Annuleren"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "Let op! %(devices)s is niet gemonteerd. Het gevechtsbevel %(font_tag_open)sZAL NIET WERKEN.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "Installeren"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "Monteer gevechtsbevel"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "Annuleren"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "Let op! Je hebt geen uitrusting die compatibel is met het geselecteerde gevechtsbevel. Het gevechtsbevel %(font_tag_open)sZAL NIET WERKEN.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "Installeren"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "Monteer gevechtsbevel"
+
+msgid "confirmBuy/title"
+msgstr "%(moduleName)s kopen?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "Annuleren"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "De module zal naar het depot worden gestuurd."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "Benodigde hoeveelheid voor aankoop:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "Verdien credits in gevechten, verkoop overtollige artikelen uit je depot of wissel je goud in om meer te verkrijgen."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "Onvoldoende credits"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "Modulekosten:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "De vervangen %(previousModuleName) module verkopen voor %(previousModulePrice)"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "Deze module is compatibel met:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "Je kunt de module nu verkopen of naar het depot sturen om later te verkopen of opnieuw te monteren."
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "Kopen"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "%(moduleName)s kopen en monteren?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "Uitrusting '%(equipment)s' kopen en monteren?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "Monteren"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "Annuleren"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "Omwisseling is niet nodig.\nJe hebt genoeg credits."
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "Kan het niet kopen: omwisseling mislukt.\nExtra %(gold)s nodig voor omwisseling."
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "Wissel %(gold)s om tot het benodigde aantal credits?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "Credits benodigd:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "Hoeveelheid benodigd voor aankoop: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "Inwisselen"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "Bevestig inwisseling voor aankoop"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "Annuleren"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "Omzetting is niet nodig.\nJe hebt genoeg ervaring."
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "Kan het niet onderzoeken: omzetting mislukt.\nExtra %(gold)s nodig voor omwisseling"
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "Zet de benodigde ervaring om voor %(gold)s?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "Ervaring benodigd:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "Hoeveelheid benodigd voor onderzoek: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "Selecteer voertuig"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "Bevestig inwisseling voor onderzoek"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "Totaal:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "Annuleren"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "Omwisselen is niet nodig voor het terugbrengen.\nJe hebt genoeg credits."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "Kan niet omwisselen voor het terugbrengen. %(gold)s is nodig voor omwisseling."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "Wissel %(gold)s om voor het ontbrekende aantal credits?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "Credits benodigd:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "Hoeveelheid benodigd voor terugbrengen: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "Omwisselen"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "Bevestig inwisseling voor het terugbrengen"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "Totaal:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "Aantal"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "Totaal"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "Prijs:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "Prijs"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "Totaal:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "Totaal"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "Totaal:"
+
+msgid "confirmUnlock/cancel"
+msgstr "Nee"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} (inclusief {{freeXP}})?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "{{items}} onderzoeken voor"
+
+msgid "confirmUnlock/item/message"
+msgstr "Onderzoek %(typeString)s %(userString)s voor %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (inclusief %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "confirmUnlock/submit"
+msgstr "Ja"
+
+msgid "confirmUnlock/title"
+msgstr "Onderzoek bevestigen"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "Onderzoek %(userString)s voor %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (inclusief %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "Annuleren"
+
+msgid "controlsWrongNotification/message"
+msgstr "Een of meerdere toetsen zijn niet toegewezen. Wil je de instellingen toch bewaren?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "Opslaan"
+
+msgid "controlsWrongNotification/title"
+msgstr "Fout"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "Annuleren"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "Bestanden voor de geselecteerde notificatiestem zijn beschadigd of missen, notificatiestem wordt naar standaard gezet.\nEen of meerdere toetsen zijn niet toegewezen. Instellingen opslaan?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "Opslaan"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "Fout"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "createOrderConfirmation/submit"
+msgstr "Bevestigen"
+
+msgid "createOrderConfirmation/title"
+msgstr "Bevestig Reservevoorbereiding"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "Onvoldoende middelen voor de aankoop."
+
+msgid "crewBookPurchase/description/crew"
+msgstr "Toegepast op de voltallige bemanning. Bij bestudering levert de/het %(book)s %(exp)s aan elk bemanningslid."
+
+msgid "crewBookPurchase/description/personal"
+msgstr "Toegepast op het geselecteerde bemanningslid. Bij bestudering levert de/het %(book)s %(exp)s aan dit bemanningslid."
+
+msgid "crewBookPurchase/purchase"
+msgstr "Kopen"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "%(book)s kopen?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "Annuleren"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "Alle aangebrachte stickers {season}kaarten zullen van je voertuig worden {removed},\nomdat deze plek onbeschikbaar is voor {this}"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "Bevestigen"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "deze kaarten."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "deze kaart."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "Deze sticker op deze plek aanbrengen voor alle kaarten?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "Eenmaal gekocht zullen de elementen op het huidige voertuig worden aangebracht. De elementen met een asterisk zullen voor andere voertuigen onbeschikbaar zijn."
+
+msgid "customization/buy_install_bound/title"
+msgstr "Bevestiging van het kopen van elementen"
+
+msgid "customization/change_install_bound/message"
+msgstr "Eenmaal geselecteerd zullen de elementen op het huidige voertuig worden aangebracht. De elementen met een asterisk zullen voor andere voertuigen onbeschikbaar zijn."
+
+msgid "customization/change_install_bound/title"
+msgstr "Bevestiging van het wijzigen van elementen"
+
+msgid "customization/close/cancel"
+msgstr "Annuleren"
+
+msgid "customization/close/submit"
+msgstr "Teruggaan"
+
+msgid "customization/close/title"
+msgstr "Terug naar de garage zonder deze wijzigingen toe te passen?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "Annuleren"
+
+msgid "customization/exitToShop/submit"
+msgstr "Doorgaan"
+
+msgid "customization/exitToShop/title"
+msgstr "Doorgaan naar de winkel zonder je wijzigingen toe te passen?"
+
+msgid "customization/filter/cancel"
+msgstr "Annuleren"
+
+msgid "customization/filter/message"
+msgstr "Alle elementen zullen worden verwijderd. Doorgaan?"
+
+msgid "customization/filter/submit"
+msgstr "Allen verwijderen"
+
+msgid "customization/filter/title"
+msgstr "Elementen verwijderen"
+
+msgid "customization/install_bound/cancel"
+msgstr "Annuleren"
+
+msgid "customization/install_bound/submit"
+msgstr "Doorgaan"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "Annuleren"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "Let op! Nadat je element (%(cTypeName)s %(itemName)s) op het huidige voertuig aanbrengt, zul je dit element slechts op %(numberLeft)s andere voertuigen kunnen aanbrengen. Element aanbrengen?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "Aanbrengen"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "Element aanbrengen"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "Annuleren"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "Let op! Nadat je element (%(cTypeName)s %(itemName)s) op het huidige voertuig aanbrengt, zul je dit element niet meer op andere voertuigen kunnen aanbrengen. Element aanbrengen?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "Aanbrengen"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "Element aanbrengen"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "Annuleren"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "Let op! Nadat je element (%(cTypeName)s %(itemName)s) op het huidige voertuig aanbrengt, zul je het niet meer op andere voertuigen kunnen aanbrengen. Het element %(willBeDeleted)s als het verwijderd wordt. Element aanbrengen?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "Aanbrengen"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "Element aanbrengen"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "zal verwijderd worden"
+
+msgid "customization/remove_element/cancel"
+msgstr "Annuleren"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "Verwijderen"
+
+msgid "customization/remove_element/title"
+msgstr "Element verwijderen"
+
+msgid "customizationConfirmSell/message"
+msgstr "%(name)s verkopen voor %(price)s%(creditsIcon)s?"
+
+msgid "customizationConfirmSell/title"
+msgstr "Verkoop bevestigen"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "elke %(days)s d"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "elke %(days)s d %(hours)s u"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "om de %(hours)s u"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "om de %(hours)s u %(mins)s min"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "om de %(mins)s min"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "Vervanging van de missie is {timeLimitMsg} beschikbaar"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "Vervangen"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "De missie vervangen?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} Sommige van je voertuigen zijn nog in gevecht. Je kunt je voortgang verliezen als je de missie vervangt. Vervanging van de missie is {timeLimitMsg} beschikbaar."
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "Vervangen"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "De missie vervangen?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "Let op!"
+
+msgid "dedication/headline"
+msgstr "\"Held van deze tijd\" onderscheiding ontvangen"
+
+msgid "dedication/sub-headline"
+msgstr "Voor deelname aan {battlesNum} gevechten"
+
+msgid "dialogTemplates/cancel"
+msgstr "Annuleren"
+
+msgid "dialogTemplates/confirm"
+msgstr "Bevestigen"
+
+msgid "dialogTemplates/ok"
+msgstr "Begrepen!"
+
+msgid "disconnect/cancel"
+msgstr "Nee"
+
+msgid "disconnect/message"
+msgstr "Verbinding met de server verbreken?"
+
+msgid "disconnect/submit"
+msgstr "Ja"
+
+msgid "disconnect/title"
+msgstr "Verbinding met de server verbreken"
+
+msgid "disconnected/cancel"
+msgstr "OK"
+
+msgid "disconnected/message"
+msgstr "De verbinding met de server is verbroken. Klik op OK om opnieuw te verbinden."
+
+msgid "disconnected/messageBan"
+msgstr "Je account is geschorst.%(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "Je account is geschorst tot %(expiryTime)s.%(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "De serververbinding is verbroken.%(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \nReden: %s"
+
+msgid "disconnected/title"
+msgstr "Verbinding verbroken"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "Ontslaan"
+
+msgid "dismissTankman/description/perk"
+msgstr "Voer voor deze handeling het trainingsniveau van de specialisatie in: {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "Voor deze handeling dien je het trainingsniveau van de meest recent getrainde specialisatie in te voeren ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "De geselecteerde bemanningsleden zullen worden ontslagen. Je kunt ze binnen {whiteOrange_Open}%(time)s d{whiteOrange_Close} terugbrengen."
+
+msgid "dismissTankman/header"
+msgstr "Bemanningsleden ontslaan"
+
+msgid "dismissTankman/limited"
+msgstr "De ontslaglimiet is bereikt. Het ontslagen bemanningslid zal %(name)s (%(role)s, %(vehicle)s) vervangen."
+
+msgid "dismissTankman/noRecovery"
+msgstr "Terugbrengen zal niet mogelijk zijn"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "Annuleren"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "Let op! Als je %(dismissedName)s ontslaat, zal dit %(deletedStr)s vervangen. Verandering bevestigen?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "Bevestigen"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "Verandering bevestigen"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "Annuleren"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "Let op! Als je de bemanning ontslaat, zal dit %(deletedStr)s en %(extraCount)s bemanningsleden vervangen. Verandering bevestigen?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "Bevestigen"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "Buffer van ontslagen bemanningsleden is vol"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "Vervangen"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "Naam"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "Achternaam"
+
+msgid "documentChangeDialog/title"
+msgstr "Naam en uiterlijk vervangen?"
+
+msgid "dropSkill/cancel"
+msgstr "Annuleren"
+
+msgid "dropSkill/message"
+msgstr "Alle specialisaties resetten?"
+
+msgid "dropSkill/submit"
+msgstr "Resetten"
+
+msgid "dropSkill/title"
+msgstr "Reset bevestigen"
+
+msgid "elementType/chassis"
+msgstr "Ophanging"
+
+msgid "elementType/engine"
+msgstr "Motor"
+
+msgid "elementType/gun"
+msgstr "Kanon"
+
+msgid "elementType/radiostation"
+msgstr "Radio"
+
+msgid "elementType/turret"
+msgstr "Koepel"
+
+msgid "elenDisabled/cancel"
+msgstr "Sluiten"
+
+msgid "elenDisabled/message"
+msgstr "Competities zijn wegens wegens gepland onderhoud tijdelijk onbeschikbaar."
+
+msgid "elenDisabled/title"
+msgstr "Let op!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "Annuleren"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "Deze waarschuwing niet opnieuw weergeven"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "Je zult lage FPS en grafische vervormingen ervaren in deze modus vanwege je hardware configuratie. Het laden van een gevecht zal langer duren en kan leiden tot het crashen van de client. Het gevecht toch ingaan?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "Vecht!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "Prestatiewaarschuwing"
+
+msgid "equipmentBuyInstall/price"
+msgstr "Aankoopprijs:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "%(equipment)s ontmantelen?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "Annuleren"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "Ontmantelen en upgraden"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "Ontmantelen"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "Deze gedemonteerde uitrusting zal worden {white_Open}vernietigd{white_Close}.\nHet artikel kan voor obligaties veilig worden gedemonteerd."
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "Deze gedemonteerde uitrusting zal worden {white_Open}vernietigd{white_Close}.\nHet artikel kan voor goud of met een demontagekit veilig worden gedemonteerd."
+
+msgid "equipmentDestroy/conformation"
+msgstr "Uitrusting '%(equipment)s' vernietigen?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "Uitrusting '%(equipment)s' monteren?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "Uitrusting '%(equipment)s' verkopen?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "Annuleren"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "Upgraden"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "Naar ontmantelen"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "Geen beschikbare experimentele uitrusting om te ontmantelen."
+
+msgid "eula/p1"
+msgstr "Lees alsjeblieft de <BR/><A HREF='event:%(eulaURL)s'><U>Eindgebruikers licentieovereenkomst</U></A> voordat je verder gaat."
+
+msgid "eula/p2"
+msgstr "DOOR OP \"AKKOORD\" TE KLIKKEN, BEVESTIG JE DAT JE DE VOORWAARDEN VAN DE EINDGEBRUIKERS LICENTIEOVEREENKOMST HEBT GELEZEN, BEGREPEN EN TOESTAAT ER DOOR GEBONDEN TE ZIJN, ER AAN TE VOLDOEN EN AANSPRAKELIJK TE ZIJN VOOR ELKE SCHENDING ERVAN. EULA EN IEDERE AANPASSING EROP ZIJN VAN TOEPASSING EN GEBONDEN AAN ALLE PROJECTLEDEN."
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "Wissel %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s voor %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "Omwisselen"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "Goud omwisselen"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "De korting op het omzetten van maximaal %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s ervaring naar Vrije ervaring zal gebruikt worden. De volgende keer zal ervaring worden omgezet voor goud."
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "Zet %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s XP om naar Vrije ervaring voor %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "Omzetten"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "Omzetten naar Vrije ervaring"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "Niet genoeg Gevechtservaring voor omzetten"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "Niet genoeg Gevechtservaring voor omzetten"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "Annuleren"
+
+msgid "fillAllPerks/button/fill"
+msgstr "Autoselectie"
+
+msgid "fillAllPerks/checkbox"
+msgstr "Autoselecteer specialisaties voor bemanningen in de barakken"
+
+msgid "fillAllPerks/description"
+msgstr "Afhankelijk van de kwalificatie van het bemanningslid met open specialisatieplekken, selecteert een algoritme de eerste specialisatie uit de onderstaande tabel. Heeft het bemanningslid al een eerste specialisatie, dan selecteert het algoritme de tweede, enzovoorts totdat alle lege specialisatieplekken zijn gevuld. Dit kan enige tijd duren."
+
+msgid "fillAllPerks/subTitle"
+msgstr "Specialisaties worden alleen automatisch geselecteerd voor bemanningsleden in een voertuig."
+
+msgid "fillAllPerks/title"
+msgstr "Automatisch ongetrainde specialisaties voor alle bemanningsleden selecteren?"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "Annuleren"
+
+msgid "finance_dialog/header"
+msgstr "Bevestig operatie"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "Vul je financieel wachtwoord in om deze operatie te bevestigen."
+
+msgid "finance_dialog/results/invalid"
+msgstr "Onjuist wachtwoord"
+
+msgid "finance_dialog/results/limit"
+msgstr "Je hebt te vaak een ongeldig wachtwoord opgegeven. Probeer het nogmaals over 24 uur. <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Wachtwoord vergeten?</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "Wachtwoord moet minstens 6 tekens lang zijn, Latijnse letters, nummers en '_' bevatten."
+
+msgid "finance_dialog/submitBtn"
+msgstr "Bevestigen"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "%(product)s bemachtigen voor %(price)s?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "Bemachtigen"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "Bevestigen"
+
+msgid "fortDisabled/cancel"
+msgstr "Sluiten"
+
+msgid "fortDisabled/message"
+msgstr "Informatie over clans is wegens gepland onderhoud momenteel onbeschikbaar."
+
+msgid "fortDisabled/title"
+msgstr "Let op!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "OK"
+
+msgid "fortTurnedOff/message"
+msgstr "Vesting is tijdelijk niet beschikbaar. Probeer het later opnieuw."
+
+msgid "fortTurnedOff/title"
+msgstr "Let op!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "Nee"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "Ja"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "Annuleren"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "Je verlaat het garnizoen van het huidige bouwwerk %(oldBuilding)s. Je zal gekoppeld worden aan bouwwerk %(newBuilding)s."
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "Bevestigen"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "Koppel aan bouwwerk"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "freeObtainConfirmation/message"
+msgstr "%(product)s bemachtigen voor %(price)s?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "Bemachtigen"
+
+msgid "freeObtainConfirmation/title"
+msgstr "Bevestigen"
+
+msgid "freeSkillsLearning/message"
+msgstr "Een nul-specialisatie hoeft niet met XP getraind te worden. Dit geeft een voordeel omdat er veel minder XP nodig is voor de verdere training van het bemanningslid."
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "%(skillName)s als nul-specialisatie selecteren?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "%(skillName)s als nul-specialisatie hertrainen?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "freeSlotConfirmation/message"
+msgstr "Gebruik de 100% korting om een extra garageplek gratis toe te voegen?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "Toevoegen"
+
+msgid "freeSlotConfirmation/title"
+msgstr "Voeg plek toe"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "Sluiten"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "Je hebt de limiet om gratis voertuigen te kopen bereikt. Probeer het morgen opnieuw."
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "Sluiten"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "Koop limiet"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)sErvaring%(orangeText_close)s%(simpleText_open)s is een middel dat in gevechten wordt verdiend.\n\nSoorten ervaring:%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)sGevechtservaring%(orangeText_close)s%(simpleText_open)s wordt gebruikt om nieuwe modules van een bepaald voertuig te onderzoeken, maar ook voor verdere voortgang in het spel van het Wargaming-universum waarin het is verdiend.%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sVrije ervaring%(orangeText_close)s%(simpleText_open)s kan worden gebruikt om willekeurige modules en voertuigen te onderzoeken, maar ook om bemanningen sneller te trainen. Wees voorzichtig met het uitgeven van Vrije ervaring.%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "Doorgaan"
+
+msgid "freeXPInfo/title"
+msgstr "Ervaring"
+
+msgid "gammaDialog/cancel"
+msgstr "Start"
+
+msgid "gammaDialog/message/description"
+msgstr "Commandant! Configureer je monitor om gammakleuren te corrigeren en verbeter de beeldkwaliteit van je scherm.\n\n."
+
+msgid "gammaDialog/message/header"
+msgstr "Configureer je monitor nu gelijk!"
+
+msgid "gammaDialog/title"
+msgstr "Gamma-instellingen"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "Na omzetting:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "Voor omzetting:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "Annuleren"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "Omzetten"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "Totaal:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "Bemanning"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "Voertuig"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "Ervaring"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "Alle voertuigen"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "Sorteer op geselecteerde voertuigen."
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "Sorteer op voertuignaam."
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "Voertuigen"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "Sorteren op ontvangen XP."
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "Ervaring"
+
+msgid "gatheringXPForm/title"
+msgstr "Omzetten naar Vrije ervaring"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "Om te zetten XP:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "Versnelde training actief."
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "Normale training actief."
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "Totaal:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "Totaal:"
+
+msgid "graphics/message/alert"
+msgstr "Let op!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "Schermmodus is aangepast. Terug naar oude instellingen in %(time)s seconden. Geselecteerde instellingen opslaan?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "Opslaan"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "Schermmodus-instellingen opslaan"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "Nee"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "Let op! Alle veranderingen zullen verloren gaan. Toch doorgaan?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "Ja"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "Beeldkwaliteit automatisch detecteren"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "Nee"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "Attentie! Het toepassen van bepaalde scherminstellingen kan even duren. Doorgaan?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "Ja"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "Instellingen aanpassen"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "Sluiten"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "De parameters kunnen niet op het maximum worden gezet. De door de gebruiker aangegeven grafische kwaliteit zal in plaats daarvan worden ingesteld."
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "Let op"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "Sluiten"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "Hoge textuurkwaliteit is alleen beschikbaar voor 64-bit systemen."
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "Textuurkwaliteit niet beschikbaar."
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "Later herstarten"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "Aanpassingen aan sommige instellingen worden bij het herstarten van het spel toegepast."
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "Herstarten"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "Instellingen aanpassen"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/message"
+msgstr "Er is onvoldoende ruimte over in de garage. Overweeg een plek te kopen of een tank te verkopen om plaats te maken voor degene die je wilt kopen."
+
+msgid "haveNoEmptySlots/submit"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/title"
+msgstr "Fout"
+
+msgid "hof/excludeRating/cancel"
+msgstr "Annuleren"
+
+msgid "hof/excludeRating/message"
+msgstr "Andere spelers zullen niet langer je prestaties zien, maar je kunt ze zichtbaar maken op de hoofdpagina van de Hall of Fame."
+
+msgid "hof/excludeRating/submit"
+msgstr "Resultaten verbergen"
+
+msgid "hof/excludeRating/title"
+msgstr "Resultaten tonen in beoordeling"
+
+msgid "hofDisabled/cancel"
+msgstr "Sluiten"
+
+msgid "hofDisabled/message"
+msgstr "Hall of Fame is tijdelijk onbeschikbaar. Probeer het later alsjeblieft nog een keer."
+
+msgid "hofDisabled/title"
+msgstr "Let op!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "Annuleren"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}Incomplete bemanning{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}Eén of meerdere bemanningsleden zijn ongeschikt{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "Het geselecteerde voertuig is niet geschikt om een van de volgende redenen:"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "Slechts één bemanning kan de bonus ontvangen. Hij zal worden overgezet van de"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "naar de"
+
+msgid "idleCrewBonus/submit"
+msgstr "Bevestigen"
+
+msgid "idleCrewBonus/title"
+msgstr "Intensieve training aanzetten?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "Probeer in de instellingen 'Browser hardware acceleratie' uit te zetten (Graphics-tab)."
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "Fout bij laden"
+
+msgid "interviewQuit/cancel"
+msgstr "Terug"
+
+msgid "interviewQuit/message"
+msgstr "Je kunt de enquête nu weigeren en later opnieuw doen door het bericht met uitnodiging in je berichtencentrum te openen. Het bericht is actief gedurende een game sessie."
+
+msgid "interviewQuit/submit"
+msgstr "Annuleren"
+
+msgid "interviewQuit/title"
+msgstr "Enquête afwijzen"
+
+msgid "koreaParentNotification/cancel"
+msgstr "Begrepen!"
+
+msgid "koreaParentNotification/message"
+msgstr "Om spelverslaving bij kinderen en tieners te voorkomen, is het betreden van een gevecht na %(preBlockTime)s verboden. Je verbinding met de server zal om %(blockTime)s worden verbroken."
+
+msgid "koreaParentNotification/submit"
+msgstr "Begrepen!"
+
+msgid "koreaParentNotification/title"
+msgstr "Speeltijdbeperking"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "Begrepen!"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "Tijdslimiet voorbij. Je kunt niet een nieuw gevecht betreden."
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "Begrepen!"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "Ouderlijk toezicht"
+
+msgid "leaveEvent/cancel"
+msgstr "Annuleren"
+
+msgid "leaveEvent/message"
+msgstr "De resultaten van jouw gevechten in de competitie zullen worden gereset nadat de beoordelingen geüpdatet zijn. Je kunt niet in de beoordelingen worden geplaatst en ook niet de beloning ontvangen.\n\nNadat je de competitie verlaat, %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "KUN JE DIE NIET OPNIEUW BETREDEN."
+
+msgid "leaveEvent/submit"
+msgstr "Competitie verlaten"
+
+msgid "leaveEvent/title"
+msgstr "Competitie verlaten"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "Annuleren"
+
+msgid "leaveStartedEvent/message"
+msgstr "De resultaten van jouw gevechten zullen in deze competitie niet meetellen. Je kunt niet in de beoordelingen worden geplaatst en ook niet de beloning ontvangen.\n\nNadat je de competitie verlaat, %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "Competitie verlaten"
+
+msgid "leaveStartedEvent/title"
+msgstr "Competitie verlaten"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "Annuleren"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "Je bent al in een gevechtslobby. Wil je deze verlaten en de uitnodiging accepteren?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "Uitnodiging"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "Annuleren"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "Je maakt al deel uit van een peloton. Wil je dat peloton verlaten en de uitnodiging accepteren?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "Uitnodiging"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "Annuleren"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "Je bent al in een trainingsruimte. Wil je deze verlaten en de uitnodiging accepteren?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "Uitnodiging"
+
+msgid "legalInfoWindow/title"
+msgstr "Juridische informatie"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "Annuleren"
+
+msgid "limitedUIOffNotification/message"
+msgstr "Weet je zeker dat je de geleidelijke verschijning van verborgen interface-elementen in de garage wilt uitzetten?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "Nadat je deze optie hebt uitgezet, kun je die niet weer aanzetten."
+
+msgid "limitedUIOffNotification/submit"
+msgstr "Uitzetten"
+
+msgid "limitedUIOffNotification/title"
+msgstr "Instellingen aanpassen"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "Annuleren"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "Serverwijzigingen zullen nu worden opgeslagen. Je kunt in de instellingen auto-login aan- of uitzetten."
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "Doorgaan"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "Serverwijziging opslaan?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "Niet genoeg granaten in de munitie van de alternatieve configuratie. Het gevecht toch betreden?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "Munitie incompleet"
+
+msgid "lowAmmo/cancel"
+msgstr "Annuleren"
+
+msgid "lowAmmo/message"
+msgstr "Onvoldoende granaten in de munitie van het geselecteerde voertuig. De munitie zal automatisch worden aangevuld voor het begin van het gevecht."
+
+msgid "lowAmmo/submit"
+msgstr "Aanvullen"
+
+msgid "lowAmmo/title"
+msgstr "Munitie automatisch aanvullen"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "Annuleren"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "Niet genoeg granaten in de munitie van het geselecteerde voertuig. Het gevecht toch betreden?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "Vecht!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "Munitie incompleet"
+
+msgid "lowFpsWarning/cancel"
+msgstr "Nee"
+
+msgid "lowFpsWarning/message"
+msgstr "De huidige spelinstellingen veroorzaken lage spelprestaties. Wil je de grafische instellingen lager zetten?"
+
+msgid "lowFpsWarning/submit"
+msgstr "Ja"
+
+msgid "lowFpsWarning/title"
+msgstr "Lage spelprestaties"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "Spelerdetails voor %(userName)s zijn vergrendeld."
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "Spelersdetails vergrendeld"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "Data for speler %(userName)s is op dit moment niet beschikbaar."
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "Data tijdelijk niet beschikbaar"
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "Annuleren"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s Het inschakelen van deze instelling vermindert de computerprestatie tijdens het gevecht."
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "Let op!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "AAN"
+
+msgid "minimapAlphaNotification/title"
+msgstr "Minimaptransparantie"
+
+msgid "moduleSale/conformation/header"
+msgstr "%(moduleType)s '%(moduleName)s' verkopen?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "Annuleren"
+
+msgid "moneyTransfer/labelClan"
+msgstr "Clan:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "credits"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "Goud"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "Kosten:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "Draag over:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "Normaal:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "credits"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "Goud"
+
+msgid "moneyTransfer/labelTo"
+msgstr "Aan:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "Totaal:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(niet een clan lid)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "Versturen"
+
+msgid "moneyTransfer/title"
+msgstr "Goud overdragen"
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "Wil je {gold} <img src='icon_gold' /> aan speler {player} overdragen? Je zult aangeslagen worden voor {fee} <img src='icon_gold' /> kosten."
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "Overdragen"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "Bevestig transactie"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Financieel wachtwoord instellen</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/message"
+msgstr "Goudtransactie is niet toegestaan. Reden: %s."
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "Transactiebeperkingen verlopen %s."
+
+msgid "moneyTransferRestriction/submit"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/title"
+msgstr "Goudtransactie is niet toegestaan."
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "Nee"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "Wijzigingen aan sommige instellingen zullen worden toegepast in het volgende gevecht. Doorgaan?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "Ja"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "Instellingen aanpassen"
+
+msgid "perkLearnConfirm/desc"
+msgstr "Specialisatieniveau na training: {yellow_Open}%(level)s%%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "Trainen"
+
+msgid "perkLearnConfirm/title"
+msgstr "De %(skillName)s specialisatie trainen?"
+
+msgid "perksReset/after"
+msgstr "Na de reset:"
+
+msgid "perksReset/before"
+msgstr "Voor de reset:"
+
+msgid "perksReset/cancel"
+msgstr "Annuleren"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "Deze optie is niet beschikbaar omdat je al 100% korting krijgt op het resetten van specialisaties in de Tankacademie."
+
+msgid "perksReset/discountTooltip/header"
+msgstr "Onbeschikbaar"
+
+msgid "perksReset/free/description"
+msgstr "Specialisaties tot {yellow_Open}1%{yellow_Close} kunnen gratis worden gereset."
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "Dit bemanningslid heeft een gratis eerste specialisatiereset"
+
+msgid "perksReset/graceLabel"
+msgstr "Gratis specialisatiereset nog beschikbaar voor:"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "De totale hoeveelheid specialisatie-XP zal afnemen. Er kunnen minder specialisaties worden getraind."
+
+msgid "perksReset/noNewPerks"
+msgstr "Alle ervaring van de getrainde specialisaties zal aan het hoofdkwalificatieniveau worden toegevoegd."
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "van de totale hoeveelheid specialisatie-XP"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "Regimentsopleiding"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "van de totale hoeveelheid specialisatie-XP"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "Basistraining"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "Reset specialisaties\n zonder XP te verliezen"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "Gebruik credits om specialisaties te resetten zonder XP te verliezen"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "Tankacademie"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "Reset specialisaties\n zonder XP te verliezen"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "Resetten"
+
+msgid "perksReset/title"
+msgstr "Alle specialisaties van het bemanningslid resetten?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "Annuleren"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "De geselecteerde geluidsfysicakwaliteit verschilt van de instelling die automatisch door de spelclient is gedetecteerd. Het aanzetten van deze optie kan de prestatie beïnvloeden. We raden je aan om de prestatie te testen voordat je bevestigt. Wil je deze wijzigingen toepassen?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "Bevestigen"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "Geluidsfysicakwaliteit mismatch"
+
+msgid "postmortem/cancel"
+msgstr "Sluiten"
+
+msgid "postmortem/message"
+msgstr "Tank vernietigd. Wil je in het gevecht blijven of terugkeren naar de garage?"
+
+msgid "postmortem/submit"
+msgstr "Blijven"
+
+msgid "postmortem/title"
+msgstr "Voertuig vernietigd"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "Koop Premiumaccount voor %(days)s dagen voor %(gold)s goud?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "Kopen"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "Aankoop bevestigen"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "Premiumaccount verlengen met %(days)s dag(en) voor %(gold)s goud?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "Verleng"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "Bevestigen"
+
+msgid "priceCard/credits/title"
+msgstr "Regimentsopleiding"
+
+msgid "priceCard/free/title"
+msgstr "Basistraining"
+
+msgid "priceCard/gold/title"
+msgstr "Tankacademie"
+
+msgid "priceCard/price/free"
+msgstr "Gratis"
+
+msgid "priceCard/recertification/title"
+msgstr "Hertrainingsbevel"
+
+msgid "punishmentWindow/cancel"
+msgstr "Erkend"
+
+msgid "punishmentWindow/header/ban"
+msgstr "Je bent voor %(time)s geblokkeerd"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "Je bent bestraft"
+
+msgid "punishmentWindow/header/warning"
+msgstr "Onsportief gedrag"
+
+msgid "punishmentWindow/info"
+msgstr "Als dit door verbindingsproblemen of andere technische problemen is veroorzaakt,\nneem dan alsjeblieft contact op met Player Support."
+
+msgid "punishmentWindow/message/ban"
+msgstr "Je hebt de spelregels overtreden op de {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}-kaart om {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nJe mag tijdelijk geen gevechten spelen in de {whiteSpanish_Open}%(mode)s{whiteSpanish_Close}-modus."
+
+msgid "punishmentWindow/message/penalty"
+msgstr "Je hebt de spelregels overtreden op de {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} kaart om {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nDe credits, XP en beloningen die je in het gevecht hebt verdiend, zijn je ontnomen."
+
+msgid "punishmentWindow/message/warning"
+msgstr "Je hebt de spelregels overtreden op de {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}-kaart om {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nBij herhaalde overtreding zullen alle credits, ervaring en beloningen die je in het gevecht hebt verdiend je worden ontnomen."
+
+msgid "punishmentWindow/reason/afk"
+msgstr "Inactiviteit in gevecht"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "Verlaten van het gevecht voordat het eindigde of voordat je voertuig vernietigd was"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "Inactiviteit tijdens het gevecht/het gevecht vroeg verlaten"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "Opzettelijke zelfvernietiging"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s d %(hour)s u"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s u %(min)s min"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 min"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s min"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "Annuleren"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "Niet opnieuw vragen"
+
+msgid "questsConfirmDialog/message"
+msgstr "Als je missie \"%(newQuest)s\" selecteert, zal missie \"%(oldQuest)s\" worden geannuleerd."
+
+msgid "questsConfirmDialog/submit"
+msgstr "Bevestigen"
+
+msgid "questsConfirmDialog/title"
+msgstr "Missie-selectie bevestigen"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "Annuleren"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "Alle voortgang richting de missie %(curQuest)s zal worden gereset.\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "Let op! Alle voortgang richting de huidige missie zal verloren gaan."
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "Bevestigen"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "Voortgang resetten"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "Annuleren"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "Als je de missie %(newQuest)s selecteert, zal je voortgang richting de missie %(oldQuest)s worden gereset.\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "Let op! Alle voortgang richting de huidige missie zal verloren gaan."
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "Bevestigen"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "Missie-selectie bevestigen"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "Annuleren"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "De missie %(quest)s zal worden geannuleerd.\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "Let op! Alle voortgang richting de huidige missie zal verloren gaan."
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "Bevestigen"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "Bevestig de annulering van de missie"
+
+msgid "quit/cancel"
+msgstr "Blijven"
+
+msgid "quit/submit"
+msgstr "Afsluiten"
+
+msgid "quit/title"
+msgstr "Het spel verlaten?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "Annuleren"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "Je team heeft je nodig! Vroegtijdig een gevecht verlaten, of voordat je voertuig is vernietigd, wordt beschouwd als desertie. Dit kan resulteren in een straf en het verlies van alle bonussen voor het gespeelde gevecht in IGR."
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "Deserteer"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "Deserteren?"
+
+msgid "quitBattle/cancel"
+msgstr "Annuleren"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Annuleren"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Je team heeft je nodig! Vroegtijdig een gevecht verlaten, of voordat je voertuig is vernietigd, wordt beschouwd als desertie. Dit kan resulteren in een straf."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Deserteer"
+
+msgid "quitBattle/leaver/title"
+msgstr "Deserteren?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "Annuleren"
+
+msgid "quitBattle/replay/submit"
+msgstr "Verlaten"
+
+msgid "quitBattle/replay/title"
+msgstr "De toeschouwersmodus verlaten?"
+
+msgid "quitBattle/submit"
+msgstr "Verlaten"
+
+msgid "quitBattle/title"
+msgstr "Gevecht verlaten?"
+
+msgid "quitPreBattle/cancel"
+msgstr "Nee"
+
+msgid "quitPreBattle/message"
+msgstr "Weet je zeker dat je de lobby wilt verlaten?"
+
+msgid "quitPreBattle/submit"
+msgstr "Ja"
+
+msgid "quitPreBattle/title"
+msgstr "Lobby verlaten"
+
+msgid "rally/autoSearch/cancel"
+msgstr "Nee"
+
+msgid "rally/autoSearch/message"
+msgstr "Automatisch naar beschikbare plaatsen zoeken?"
+
+msgid "rally/autoSearch/submit"
+msgstr "Ja"
+
+msgid "rally/autoSearch/title"
+msgstr "Zoek automatisch"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "Annuleren"
+
+msgid "rally/changePeriphery/message"
+msgstr "Je zal automatisch worden overgezet naar een andere server (%(host)s). Toch doorgaan?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "Omschakelen"
+
+msgid "rally/changePeriphery/title"
+msgstr "Schakel naar een andere server"
+
+msgid "rally/goToAnother/cancel"
+msgstr "Annuleren"
+
+msgid "rally/goToAnother/message"
+msgstr "Als je de gevechtsmodus wijzigt, zal je automatisch worden uitgesloten van de tactische eenheid."
+
+msgid "rally/goToAnother/submit"
+msgstr "Omschakelen"
+
+msgid "rally/goToAnother/title"
+msgstr "Modus wijzigen"
+
+msgid "rally/goToIntro/cancel"
+msgstr "Annuleren"
+
+msgid "rally/goToIntro/message"
+msgstr "Weet je zeker dat je de tactische eenheid wilt verlaten?"
+
+msgid "rally/goToIntro/submit"
+msgstr "Bevestigen"
+
+msgid "rally/goToIntro/title"
+msgstr "Bevestig verlaten"
+
+msgid "rally/goToSquad/cancel"
+msgstr "Annuleren"
+
+msgid "rally/goToSquad/message"
+msgstr "Je zal automatisch de huidige gevechtsmodus verlaten als je een Peloton creëert."
+
+msgid "rally/goToSquad/submit"
+msgstr "Creëren"
+
+msgid "rally/goToSquad/title"
+msgstr "Peloton creëren"
+
+msgid "rally/leave/cancel"
+msgstr "Annuleren"
+
+msgid "rally/leave/message"
+msgstr "Weet je zeker dat je deze tactische eenheid wilt verlaten en de modus afsluiten?"
+
+msgid "rally/leave/submit"
+msgstr "Bevestigen"
+
+msgid "rally/leave/title"
+msgstr "Bevestig verlaten"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "Doorgaan"
+
+msgid "rally/leaveDisabled/message"
+msgstr "Niet mogelijk om de modus te verlaten. Je voertuig is in een plaats gereed voor het gevecht."
+
+msgid "rally/leaveDisabled/title"
+msgstr "Let op"
+
+msgid "rally/startBattle/cancel"
+msgstr "Nee"
+
+msgid "rally/startBattle/message"
+msgstr "Zoeken naar een vijand?"
+
+msgid "rally/startBattle/submit"
+msgstr "Ja"
+
+msgid "rally/startBattle/title"
+msgstr "Zoeken naar een vijand"
+
+msgid "recruit/cancel"
+msgstr "Annuleren"
+
+msgid "recruit/submit"
+msgstr "Rekruteren"
+
+msgid "recruit/title"
+msgstr "Een nieuwe %(role)s rekruteren voor de %(vehicleName)s?"
+
+msgid "recruit/voiceoverText"
+msgstr "De unieke voice-over werkt alleen als dit bemanningslid de commandant is."
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "Je hoeft voor Premium voertuigen geen bemanningsleden te rekruteren, want je kunt ze zonder negatief effect overzetten van voertuigen van hetzelfde type."
+
+msgid "recruit/warning/slotChanged"
+msgstr "Dit bemanningslid kan niet voor het geselecteerde voertuig worden gerekruteerd en zal naar de barakken worden gestuurd."
+
+msgid "recruitConversionConfirm/warning"
+msgstr "Het bemanningslid heeft verouderde specialisaties die automatisch zullen worden gereset zonder verlies van XP."
+
+msgid "recruitDialog/name/title"
+msgstr "Nieuw bemanningslid (%(name)s) rekruteren?"
+
+msgid "recruitDialog/title"
+msgstr "Nieuw bemanningslid rekruteren?"
+
+msgid "recruitWindow/cancel"
+msgstr "Annuleren"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "Niet geselecteerd"
+
+msgid "recruitWindow/nation"
+msgstr "Natie"
+
+msgid "recruitWindow/specialization"
+msgstr "Kwalificatie"
+
+msgid "recruitWindow/submit"
+msgstr "Rekruteren"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "Voertuigtype"
+
+msgid "recruitWindow/vehicleType"
+msgstr "Voertuig"
+
+msgid "referralReward/cancel"
+msgstr "Annuleren"
+
+msgid "referralReward/message"
+msgstr "%(product)s claimen?"
+
+msgid "referralReward/submit"
+msgstr "Bevestigen"
+
+msgid "referralReward/title"
+msgstr "Ontvangstbevestiging"
+
+msgid "refuseTraining/cancel"
+msgstr "Nee"
+
+msgid "refuseTraining/message"
+msgstr "Training stoppen?"
+
+msgid "refuseTraining/submit"
+msgstr "Ja"
+
+msgid "refuseTraining/title"
+msgstr "Bevestigen"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "Vernietig"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "Annuleren"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "Het \"%(name)s\" verbruiksartikel zal naar het depot worden gestuurd wegens %(reason)s met de huidige module."
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "incompatibiliteit"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "Demonteren"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "Bevestig verwijderen"
+
+msgid "rentConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "rentConfirmation/event"
+msgstr "voor de %(eventName)s-modus"
+
+msgid "rentConfirmation/message"
+msgstr "De %(name)s huren %(event)s voor %(price)s?"
+
+msgid "rentConfirmation/submit"
+msgstr "Bevestigen"
+
+msgid "rentConfirmation/title"
+msgstr "Huur bevestigen"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "Annuleren"
+
+msgid "rentConfirmationRenew/message"
+msgstr "De huur van de %(name)s %(event)s verlengen voor %(price)s?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "Bevestigen"
+
+msgid "rentConfirmationRenew/title"
+msgstr "Huur bevestigen"
+
+msgid "replacePassport/unique/cancel"
+msgstr "Annuleren"
+
+msgid "replacePassport/unique/message"
+msgstr "Dit is een uniek bemanningslid en zijn persoonlijke gegevens kunnen later niet worden gereset. Weet je zeker dat je zijn persoonlijke gegevens wilt vervangen voor %(gold)s?"
+
+msgid "replacePassport/unique/submit"
+msgstr "Vervangen"
+
+msgid "replacePassport/unique/title"
+msgstr "Bevestig vervanging"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "replacePassportConfirmation/message"
+msgstr "De persoonlijke gegevens van dit bemanningslid wijzigen voor %(gold)s?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "Vervangen"
+
+msgid "replacePassportConfirmation/title"
+msgstr "Identiteit wijzigen"
+
+msgid "replayNotification/cancel"
+msgstr "Nee"
+
+msgid "replayNotification/message"
+msgstr "De huidige versie van World of Tanks is niet verenigbaar met de opname. Dat kan problemen geven bij het afspelen. Negeren en toch afspelen?"
+
+msgid "replayNotification/submit"
+msgstr "Ja"
+
+msgid "replayNotification/title"
+msgstr "Let op"
+
+msgid "replayStopped/cancel"
+msgstr "Annuleren"
+
+msgid "replayStopped/message"
+msgstr "Herhaling afgelopen. Klik Voltooien om het spel te verlaten."
+
+msgid "replayStopped/submit"
+msgstr "Voltooien"
+
+msgid "replayStopped/title"
+msgstr "Herhaling afgelopen."
+
+msgid "reportBug/cancel"
+msgstr "Annuleren"
+
+msgid "reportBug/message"
+msgstr "Als je hier klikt, zal je standaard browser worden geopend en zul je naar de World of Tanks Player Support-website gaan om een fout te melden. Doorgaan?"
+
+msgid "reportBug/submit"
+msgstr "Doorgaan"
+
+msgid "reportBug/title"
+msgstr "Ga naar Player Support"
+
+msgid "resetAllPerks/cancel"
+msgstr "Annuleren"
+
+msgid "resetAllPerks/submit"
+msgstr "Resetten"
+
+msgid "resetAllPerks/title"
+msgstr "Alle specialisaties voor alle bemanningsleden resetten?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}Alle specialisaties van alle bemanningsleden op je account zullen worden gereset.{orangeEnd}\n{orangeStart}Deze handeling kan niet ongedaan worden gemaakt.{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "Doorgaan"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s De automatisch geselecteerde instellingen garanderen optimale beeldkwaliteit.\nSelecteer in het instellingenmenu een lagere grafische kwaliteit om de prestatie te verbeteren."
+
+msgid "resetGraphics/submit"
+msgstr "Instellingen"
+
+msgid "resetGraphics/title"
+msgstr "Wijzig grafische instellingen"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "Terugbrengen"
+
+msgid "restoreTankman/description"
+msgstr "%(name)s zal worden teruggebracht."
+
+msgid "restoreTankman/free"
+msgstr "Kosten: gratis"
+
+msgid "restoreTankman/header"
+msgstr "Dit bemanningslid terugbrengen?"
+
+msgid "restoreTankman/price"
+msgstr "Kosten:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "Annuleren"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "Herstel de %(vehiclename)s"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "Terugbrengen"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "Zonder bemanning"
+
+msgid "restoreVehicleDialog/title"
+msgstr "Herstel de %(vehiclename)s"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "Nadat je op Terugbrengen klikt, zul je niet in staat zijn om aangekochte uitrusting en verbruiksartikelen om te wisselen voor goud. Controleer alle gegevens alsjeblieft zorgvuldig."
+
+msgid "retrain/cancel"
+msgstr "Annuleren"
+
+msgid "retrain/changeRole"
+msgstr "Kwalificatie wijzigen"
+
+msgid "retrain/discountLabel"
+msgstr "Deze korting is beschikbaar omdat de eerste specialisatie niet tot 100% is getraind."
+
+msgid "retrain/discountTooltip/body"
+msgstr "Deze optie is niet beschikbaar omdat je al 100% korting krijgt op het hertrainen in de Tankacademie."
+
+msgid "retrain/discountTooltip/header"
+msgstr "Onbeschikbaar"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "Bemanningsleden om te hertrainen: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "Je hoeft voor Premium voertuigen geen bemanningsleden te trainen.\nJe kunt ze zonder negatief effect overzetten van voertuigen van hetzelfde type."
+
+msgid "retrain/price"
+msgstr "Kosten:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "Specialisatie-efficiëntie\nna hertraining: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "Regimentsopleiding"
+
+msgid "retrain/priceCard/free/description"
+msgstr "Specialisatie-efficiëntie\nna hertraining: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "Basistraining"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "Specialisatie-efficiëntie\nna hertraining: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "Tankacademie"
+
+msgid "retrain/submit"
+msgstr "Hertrainen"
+
+msgid "retrain/title/massive"
+msgstr "Bemanning hertrainen voor de %(vehicleName)s&zwnbsp;?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "Hertrainen voor de %(vehicleName)s\nen kwalificatie wijzigen naar %(role)?"
+
+msgid "retrain/title/single/simple"
+msgstr "Hertrainen voor de %(vehicleName)s"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "Specialisaties van een ongeschikte kwalificatie zullen worden uitgeschakeld. Reset ze handmatig."
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "Bemanning kan zonder training of straf naar een Premium voertuig van hetzelfde type worden overgezet, maar ongeschikte specialisaties moeten handmatig worden gereset."
+
+msgid "rudyInfo/message"
+msgstr "Onsterfelijke klassiekers reeds in het spel! \"Vier huzaren en een hond\" (in het Pools \"Czterej pancerni i pies\") was een Poolse zwart-wit tv-serie gebaseerd op het gelijknamige boek van Janusz Przymanowski. De tv-serie, die 9 mei 1966 in première ging, verbeeldt de avonturen van de bemanning van een T-34-85 tank, bekend onder de bijnaam Rudy (Ginger), en hun hond Szarik gedurende WOII."
+
+msgid "rudyInfo/submit"
+msgstr "Begrepen!"
+
+msgid "rudyInfo/title"
+msgstr "Vier huzaren en een hond"
+
+msgid "selectVehicle/counter"
+msgstr "Getoonde voertuigen:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "Selecteer aanvallend voertuig"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "Selecteer dit voertuig"
+
+msgid "sellConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "sellConfirmation/submit"
+msgstr "Verkopen"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "Verkopen"
+
+msgid "sellModuleConfirmation/title"
+msgstr "Verkoop bevestigen"
+
+msgid "sellShellConfirmation/submit"
+msgstr "Granaat '%(shellName)s' verkopen?"
+
+msgid "sendInvites/common/title"
+msgstr "Nodig uit voor een tactische eenheid"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "Annuleren"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "De sessiestatistieken zullen automatisch worden gereset over{}"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "Resetten"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s u %(minutes)s min"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "De sessiestatistieken resetten?"
+
+msgid "shopSyncError/cancel"
+msgstr "Doorgaan"
+
+msgid "shopSyncError/message"
+msgstr "Update de applicatie. Als de fout blijft, update de server."
+
+msgid "shopSyncError/title"
+msgstr "Synchronisatiefout"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "Annuleren"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "Geselecteerde specialisatie(s) trainen?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "Trainen"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "Toepassen"
+
+msgid "soundModeInvalid/cancel"
+msgstr "Annuleren"
+
+msgid "soundModeInvalid/message"
+msgstr "Bestanden voor de geselecteerde notificatiestem zijn beschadigd of missen, notificatiestem wordt naar standaard gezet."
+
+msgid "soundModeInvalid/submit"
+msgstr "Opslaan"
+
+msgid "soundModeInvalid/title"
+msgstr "Fout"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "Annuleren"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "Het geselecteerde geluidssysteem verschilt van het systeem dat door de spelclient automatisch werd geselecteerd. Sommige geluiden zijn wellicht niet beschikbaar. We raden je aan om het verschil in geluid te testen. Veranderingen bevestigen?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "Bevestigen"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "Andere selectie van geluidssysteem"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "Nee"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "Het geselecteerde geluidssysteem verschilt van het systeem dat door de spelclient automatisch werd geselecteerd. Sommige geluiden zijn wellicht niet beschikbaar. De optimale geluidsinstellingen toepassen?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "Ja"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "Andere selectie van geluidssysteem"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "Begrepen!"
+
+msgid "squad/eventDisabled/message"
+msgstr "Het evenement is onbeschikbaar. Het peloton zal worden opgeheven."
+
+msgid "squad/eventDisabled/title"
+msgstr "Evenement afgelopen"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Annuleren"
+
+msgid "squad/goToAnother/message"
+msgstr "Je bent lid van een peloton. Als je de modus wijzigt zal je worden uitgesloten van het peloton."
+
+msgid "squad/goToAnother/submit"
+msgstr "Omschakelen"
+
+msgid "squad/goToAnother/title"
+msgstr "Modus wijzigen"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "Annuleren"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "Wanneer je van spelmodus wisselt, zal je huidige peloton worden opgeheven. Wil je het gevechtstype veranderen?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "Bevestigen"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "Spelmodus veranderen"
+
+msgid "squad/goToSquad/cancel"
+msgstr "Annuleren"
+
+msgid "squad/goToSquad/message"
+msgstr "Verlaat de tactische eenheid en maak een peloton met de speler?"
+
+msgid "squad/goToSquad/submit"
+msgstr "Creëren"
+
+msgid "squad/goToSquad/title"
+msgstr "Peloton creëren"
+
+msgid "squad/leave/cancel"
+msgstr "Annuleren"
+
+msgid "squad/leave/message"
+msgstr "Weet je zeker dat je het peloton wilt verlaten?"
+
+msgid "squad/leave/submit"
+msgstr "Bevestigen"
+
+msgid "squad/leave/title"
+msgstr "Bevestig verlaten"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Doorgaan"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Je kunt het peloton niet verlaten. Je bent lid van een peloton en gereed voor het gevecht."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Let op"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "Annuleren"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "Peloton is incompleet. Eén speler zal automatisch worden toegevoegd. Meedoen met het gevecht?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "Vecht!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "Peloton niet gereed"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "Annuleren"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "Peloton is niet vol. Het gevecht toch starten?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "Vecht!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "Peloton niet gereed"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "Annuleren"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "Peloton is incompleet. Spelers automatisch toevoegen en meedoen met het gevecht?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "Vecht!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "Peloton niet gereed"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "Annuleren"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "Een van de pelotonleden is niet gereed. Het gevecht toch starten?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "Vecht!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "Peloton niet gereed"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "Annuleren"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "De speler, die niet heeft bevestigd klaar te zijn, zal worden uitgesloten van de tactische eenheid. Eén extra speler zal automatisch worden toegevoegd. Meedoen aan het gevecht?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "Vecht!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "Peloton niet gereed"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "Annuleren"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "Niemand van de pelotonleden is gereed. Toch tot het gevecht toetreden?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "Vecht!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "Peloton niet gereed"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "Annuleren"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "Peloton is incompleet. Spelers die niet hebben bevestigd dat ze klaar zijn zullen worden uitgesloten van de tactische eenheid. Spelers automatisch toevoegen en meedoen met het gevecht?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "Vecht!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "Peloton niet gereed"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "Niet gelukt om nieuw gevecht in te gaan: Een aantal spelers zijn niet terug gekomen. Wacht tot het huidige gevecht is afgelopen."
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "Begrepen!"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "Peloton niet gereed"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "OK"
+
+msgid "squadPremiumNeeded/message"
+msgstr "Je moet een Premiumaccount hebben om een peloton te kunnen vormen.\nDe oprichter van een peloton kan iedereen uitnodigen."
+
+msgid "squadPremiumNeeded/title"
+msgstr "Alleen voor Premiumaccounts"
+
+msgid "steamStartNeeded/cancel"
+msgstr "Spel afsluiten"
+
+msgid "steamStartNeeded/message"
+msgstr "Het spel moet via Steam worden geopend om correct in te loggen."
+
+msgid "steamStartNeeded/title"
+msgstr "Inloggen niet mogelijk"
+
+msgid "stronghold/leave/cancel"
+msgstr "Annuleren"
+
+msgid "stronghold/leave/message"
+msgstr "Weet je zeker dat je de afdeling wilt verlaten?"
+
+msgid "stronghold/leave/submit"
+msgstr "Bevestigen"
+
+msgid "stronghold/leave/title"
+msgstr "Bevestig verlaten"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "De afdeling wordt opgeheven als je weggaat.\nDe clan zal worden bestraft voor het niet betreden van een gevecht.\nWeet je zeker dat je de afdeling wilt verlaten?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "Bevestig verlaten"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "Annuleren"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "Omschakelen"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "Schakel naar een andere server"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "tradeInConfirmation/message"
+msgstr "De %(vehName)s zal worden ingeleverd en onbeschikbaar zijn om terug te worden gehaald.%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " Daarnaast, %(operations)s."
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "de bemanning zal naar de Barakken worden gestuurd"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "de verbruiksmiddelen zullen naar het Depot worden gestuurd"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "de uitrusting zal gratis gedemonteerd worden"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "alle gekochte dual modificaties zullen worden geannuleerd, maar de progressie voor standaard modificaties zal worden opgeslagen"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "de munitie zal naar het Depot gestuurd worden"
+
+msgid "tradeInConfirmation/submit"
+msgstr "Inruilen"
+
+msgid "tradeInConfirmation/title"
+msgstr "Voertuig inruilen"
+
+msgid "tradeInPopover/descr"
+msgstr "Premiumvoertuigen beschikbaar in de Garage"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "Toont de landen van de geselecteerde voertuigen."
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "Natie"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "Toont hoeveel je bespaart wanneer de geselecteerde voertuigen worden ingeruild"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "Voertuig\nevaluatie"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "Voertuigevaluatie"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "Toont de niveaus van de geselecteerde voertuigen."
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "Niveau"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "Toont de namen van de geselecteerde voertuigen."
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "Naam"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "Toont de types van de geselecteerde voertuigen."
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "Type"
+
+msgid "tradeInPopover/title"
+msgstr "Selecteer voertuig om in te ruilen"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "Selecteer een voertuig"
+
+msgid "updateNeeded/cancel"
+msgstr "Later herstarten"
+
+msgid "updateNeeded/message"
+msgstr "Update alstublieft uw applicatie"
+
+msgid "updateNeeded/submit"
+msgstr "Herladen"
+
+msgid "updateNeeded/title"
+msgstr "Update benodigd"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "Bemanningslid trainen voor {%d} goud?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "Trainen"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "Training bevestigen"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "Niet genoeg goud voor de training."
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "Onvoldoende goud."
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "Annuleren"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "Bemanningslid trainen voor {%d} credits?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "Trainen"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "Training bevestigen"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "Niet genoeg credits voor de training."
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "Onvoldoende credits."
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "Annuleren"
+
+msgid "vehConf/exitDialog/message"
+msgstr "Aanpassingen worden niet opgeslagen. Wil je het voertuigconfiguratie-menu verlaten?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "Bevestigen"
+
+msgid "vehConf/exitDialog/title"
+msgstr "Veranderingen annuleren"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "Verwijder uit de garage %(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "Annuleren"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "Let op! Dit is een speciaal voertuig. Als je het verkoopt, moet je %(cooldown)s wachten om het terug te brengen. Voertuig verkopen?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "Bevestigen"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "Verkoop bevestigen"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "Annuleren"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "Let op! Dit is een speciaal voertuig. Mocht je het verkopen, dan heb je de kans achteraf het terug te brengen. Het voertuig verkopen?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "Bevestigen"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "Verkoop bevestigen"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "Annuleren"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "Annuleren"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "LET OP! Deze tank is uniek en kan niet worden teruggebracht. De bemanning zal ook permanent worden ontslagen."
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "Bevestigen"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "Verkoop bevestigen"
+
+msgid "vehicleSell/unique/message"
+msgstr "Let op! Dit is een speciaal voertuig. Het is niet te koop in de winkel. Toch doorgaan?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "Ja"
+
+msgid "vehicleSell/unique/title"
+msgstr "Verkoop bevestigen"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "BEVESTIG VERKOOP"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "Om te bevestigen, voer de verkoopkosten in van de kolom \"Totaal\" (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "Je hebt incorrecte informatie ingevoerd."
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "MUNITIE:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "GEVECHTSBEVELEN:"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "Annuleren"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "TOTAAL:"
+
+msgid "vehicleSellDialog/count"
+msgstr "stuks"
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "Ontslaan"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "Naar barakken sturen"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "BEMANNING:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "EXTERIEUR:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "Ontmantelen"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "VERBRUIKSARTIKELEN:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "Details"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "DEPOT:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "Uitgegeven:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "Inclusief alle nationale configuraties van het voertuig!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "Modules"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "MODULES:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "Bij verkoop van het voertuig zal het huidige Veldmodificatielevel worden behouden, maar alle dual modificaties zullen worden geannuleerd."
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "Ontvangen:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "Verwijderen"
+
+msgid "vehicleSellDialog/submit"
+msgstr "Verkopen"
+
+msgid "vehicleSellDialog/title"
+msgstr "Verkoop %(name)s"
+
+msgid "vehicleSellDialog/unload"
+msgstr "Stuur naar depot"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "Elite"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "Prijs"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "niveau. "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "Rol: "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "Tankjager"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "Artillerie"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "Zware tank"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "Lichte tank"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "Medium tank"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "Begrepen!"
+
+msgid "voiceChatInitFailed/message"
+msgstr "Fout bij het opstarten van de voice-chat: de service is momenteel onbeschikbaar."
+
+msgid "voiceChatInitFailed/title"
+msgstr "Bezig voice-chat te starten"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "OK"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "Voice-chat succesvol gestart."
+
+msgid "voiceChatInitSucceded/title"
+msgstr "Bezig voice-chat te starten"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "Sluiten"
+
+msgid "waterQualityNotPossible/message"
+msgstr "Hoge waterkwaliteit is alleen beschikbaar als de optie 'Post-Processing' is geactiveerd."
+
+msgid "waterQualityNotPossible/title"
+msgstr "Waterkwaliteit niet beschikbaar"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "Annuleren"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "Controleer of voertuigen beschikbaar zijn in de garage"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "Prijs: %(price)s %(icon)s (beschikbaar: %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "Speler: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "Geselecteerde voertuigen: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "Weer in dienst laten treden"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "Weer in dienst laten treden?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "Assistent"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "Aanwezigheidsbeloningen"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "Gevechtsbonus"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "Vechtpas Plus"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "Uitgesloten kaart"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "Exclusief voertuig"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "Exclusieve voertuigen"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "Uitrusting gratis demonteren"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "Goudreserve"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "Intensieve training"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "Beheerbare XP-vermenigvuldiger"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "Pro Boost"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "Dienstdossier-aanpassing"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "Tankhuzaarbanier"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "WOT PLUS GEACTIVEERD"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "Ik ben klaar!"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "Wordt verlengd op {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "WOT PLUS KERN GEACTIVEERD"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "Details"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "360-daags abonnement"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "180-daags abonnement"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}, wordt verlengd op {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "WOT PLUS PRO GEACTIVEERD"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "Activeren"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}Je kunt {{@ style (color #fff)}}{{boostInterval}} uur lang{{/}} geen ander voertuig boosten.{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "Door activatie van Pro Boost verdient dit voertuig {{@ style (color #fff)}}{{bonusPercent}} meer credits en XP{{/}}. Geldig voor slechts één voertuig."
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "Pro Boost activeren voor de {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "Switchen"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}Slechts één voertuig kan de boost ontvangen. Je kunt {{@ style (color #fff)}}{{boostInterval}} uur lang{{/}} geen ander voertuig boosten.{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "Door activatie van Pro Boost verdient dit voertuig {{@ style (color #fff)}}{{bonusPercent}} meer credits en XP{{/}}. Geldig voor slechts één voertuig."
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "Pro Boost switchen voor de {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "Annuleren"
+
+msgid "wotPlusRental/description"
+msgstr "Volgende voertuighuur komt beschikbaar op {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "Huren"
+
+msgid "wotPlusRental/title"
+msgstr "{cream_Open}%s{cream_Close} huren?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "Opslaan"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "Wil je je dienstdossier-aanpassing opslaan?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "Annuleren"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "Besteed alle ervaring die met deze tank verdiend wordt aan bemanningstraining. Het minst ervaren bemanningslid wordt twee keer zo snel getraind."
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "AAN"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "Bemanningstraining versnellen?"

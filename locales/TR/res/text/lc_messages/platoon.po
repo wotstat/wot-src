@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "Aramayı iptal edin"
+
+msgid "buttons/cancelSearch/description"
+msgstr "Takım üyesi aramayı iptal etmek için tıklayın."
+
+msgid "buttons/createPlatoon/caption"
+msgstr "Yeni Takım"
+
+msgid "buttons/createPlatoon/description"
+msgstr "Arkadaşlarınızı beraber oynamaya davet etmek için bir Takım oluşturun."
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "Yeni Süper Takım"
+
+msgid "buttons/findPlayers/caption"
+msgstr "Oyuncu Bulun"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "Arama süzgecini kullanarak benzer ustalığa ve araçlara sahip oyuncuları bulun."
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "Çevrimiçi oyuncu aramaya başlarsanız arkadaşlarınıza yolladığınız tüm davetiyeler iptal edilecek."
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "Oyuncu Bulun"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "Oyuncu arayamazsınız: Sunucuda çok fazla Takım var."
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "Takım için oyuncu arayamazsınız. Uygun araç yok."
+
+msgid "buttons/invite/player/caption"
+msgstr "Oyuncu Davet Et"
+
+msgid "buttons/invite/player/description"
+msgstr "Bir oyuncuyu Takıma davet etmek için tıklayın."
+
+msgid "buttons/invite/players/caption"
+msgstr "Oyuncu Davet Edin"
+
+msgid "buttons/invite/players/description"
+msgstr "Oyuncuları bir Takıma davet etmek için tıklayın."
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "Takımdan Çıkın"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "Takımdan ayrılmak için tıklayın."
+
+msgid "buttons/mute/caption"
+msgstr "Takım Sesli Sohbetini Kapatın"
+
+msgid "buttons/mute/description"
+msgstr "Takım sesli sohbetini kapatmak için tıklayın."
+
+msgid "buttons/notReady/caption"
+msgstr "Hazır Değil"
+
+msgid "buttons/notReady/description"
+msgstr "Savaşa girmeye hazır değilseniz tıklayın."
+
+msgid "buttons/ready/caption"
+msgstr "Hazır!"
+
+msgid "buttons/ready/description"
+msgstr "Savaşa girmeye hazırsanız tıklayın."
+
+msgid "buttons/reset/caption"
+msgstr "Arama Tercihlerini Sıfırlayın"
+
+msgid "buttons/reset/description"
+msgstr "Arama tercihlerini varsayılana döndürmek için tıklayın."
+
+msgid "buttons/settings/caption"
+msgstr "Arama Tercihlerini Belirleyin"
+
+msgid "buttons/settings/description"
+msgstr "Tercihlerinize uyan oyuncular arayın. Oyuncu bulamama süresi uzadıkça arama genişletilecektir."
+
+msgid "buttons/unMute/caption"
+msgstr "Takım Sesli Sohbeti Açın"
+
+msgid "buttons/unMute/description"
+msgstr "Takım sesli sohbetini açmak için tıklayın."
+
+msgid "headerButton/inSquad"
+msgstr "Takımda"
+
+msgid "headerButton/onboarding"
+msgstr "ARTIK TAKIM OLUŞTURMAK İÇİN OYUNCU\nARAYABİLİRSİNİZ"
+
+msgid "headerButton/searching"
+msgstr "Aranıyor..."
+
+msgid "headerButton/squad"
+msgstr "Takım Oluştur"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "Arkadaşınızla bir Takımda savaşın. Dokuz düşman Takımına karşı ekip olarak oynayın."
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "Takım"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "Bu kipten geçici olarak engellendiğiniz için Takım oluşturamaz veya birine katılamazsınız."
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "Takım oluşturamayacak veya birine katılamayacaksınız çünkü Garajınızda kipe uygun en az bir Seviye %(level)s araç bulunması gerekiyor."
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "Takım oluşturma geçici olarak devre dışı."
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "Takımlar devre dışı"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "Bir Takım oluşturabilir ya da mevcut bir tanesine katılabilirsiniz. Hafif Hücum'da Takımlar 2 oyunculu ya da 7 oyunculu olabilir."
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "Takım"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "Takım oluşturamaz veya birine katılamazsınız çünkü Garajınızda uygun bir Seviye %(level)s araç yok."
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "Elemeler tamamlandıktan sonra 2 ve 7 oyunculu Takım imkanı açılacak."
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "Takım oluşturulamıyor."
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "Takımlar devre dışı"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "Bir Takım oluşturabilir ya da mevcut birine katılabilirsiniz. Hücum'da Takımlar 2 veya 7 oyunculu olabilir."
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "Takım"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "Beraber oynamak için 2 veya 3 oyunculu bir taktik birim oluşturun.\n• Savaş kipleri: Hücum.\n• Savaş türleri: Çelik Avı, Egemenlik."
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "Takım"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "Büyük Yarışa katılmak için 2 veya 3 oyunculu bir taktik birim oluşturun."
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "Büyük Yarış Takımı"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "Takım Menüsünü açmak için tıklayın."
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "Keşif Görevi: Takım"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "Takım Menüsünü açmak için tıklayın."
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "Takım"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "Keşif Görevine katılmak için 2 veya 3 oyuncu içeren bir Takım oluşturun."
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "Keşif Görevi: Takım"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "Taktik birimlere Rastgele Savaşlarda izin verilmez."
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "Takım Oluştur"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "Oyuncu aranıyor..."
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "Aranıyor"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "2 veya 3 oyunculu bir taktik birim oluşturarak Rastgele Savaşlarda ve açık olduğunda Ön Cephede iş birliği yapın"
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Takım"
+
+msgid "members/card/connectionLost"
+msgstr "Bağlantı kesildi"
+
+msgid "members/card/disabled"
+msgstr "Bu kip sadece iki oyunculu Takımları desteklemektedir"
+
+msgid "members/card/disabledVertical"
+msgstr "Bu kip için geçerli değildir"
+
+msgid "members/card/empty"
+msgstr "Boş Yuva"
+
+msgid "members/card/inBattle"
+msgstr "Savaşta"
+
+msgid "members/card/muted/caption"
+msgstr "Oyuncu sessize alındı"
+
+msgid "members/card/muted/description"
+msgstr "Bu oyuncuyu sessizden çıkarmak için sağ tıklayın."
+
+msgid "members/card/notReady"
+msgstr "Hazır Değil"
+
+msgid "members/card/searching"
+msgstr "Oyuncu aranıyor..."
+
+msgid "members/card/selectVehicle"
+msgstr "Seviye %(level)s bir araç seçin"
+
+msgid "members/chat/chatName"
+msgstr "Sohbet kanalı:"
+
+msgid "members/chat/sendMessage/body"
+msgstr "Sohbet kanalına mesaj göndermek için tıklayın."
+
+msgid "members/chat/sendMessage/header"
+msgstr "Mesaj Gönder"
+
+msgid "members/footer/comp7Invite"
+msgstr "Davet Et"
+
+msgid "members/footer/comp7Limitations"
+msgstr "Top kademe sınırı"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "Takımdaki top kademe"
+
+msgid "members/footer/getNotReady"
+msgstr "Hazır olmadığınızı belirtmek için tıklayın."
+
+msgid "members/footer/getReady"
+msgstr "Savaşa katılmak için hazır olduğunuzu onaylayın."
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "Uyumsuz Seviye"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "Uygunsuz Takım oluşumu sebebiyle deneyim cezası!"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "Araç sınırına ulaşıldı"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "Takım maksimum sayıda tank avcısına ulaştı"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "Takım maksimum sayıda KMT'ye ulaştı"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "Takım maksimum sayıda ağır tanka ulaştı"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "Takım maksimum sayıda orta tanka ulaştı"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "Takım maksimum sayıda hafif tanka ulaştı"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "Takım maksimum sayıda tekerlekli araca ulaştı"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "Takım maksimum sayıda hafif tanka ulaştı"
+
+msgid "members/header/battle_royal"
+msgstr ": Çelik Avcısı"
+
+msgid "members/header/epic"
+msgstr ": Ön Cephe"
+
+msgid "members/header/event"
+msgstr ": Waffenträger: Hyperion Projesi"
+
+msgid "members/header/mapbox"
+msgstr ": Keşif Görevi"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP HEADER PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr ": Rastgele Savaş"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "Ön Cephe sadece Seviye VIII\n araçlar için geçerlidir."
+
+msgid "members/header/tooltip/epic/header"
+msgstr "Takım Oluşturma Kuralları"
+
+msgid "members/header/tooltip/event/body"
+msgstr "Takım kipin üç özel aracından oluşmalıdır."
+
+msgid "members/header/tooltip/event/header"
+msgstr "Takım Oluşturma Kuralları"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "Takım aynı seviyede araçlardan oluşmalıdır."
+
+msgid "members/header/tooltip/standard/header"
+msgstr "Takım Oluşturma Kuralları"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Takımdaki oyuncular"
+
+msgid "searching/estimated/caption"
+msgstr "Tahmini Süre"
+
+msgid "searching/estimated/lessThan"
+msgstr "%(seconds)d sn'den az"
+
+msgid "searching/estimated/moreThan"
+msgstr "%(seconds)d sn'den fazla"
+
+msgid "searching/expanded/body"
+msgstr "Orijinal tercihlere uyan oyuncu bulunamadı.\nArama başka araç seviyelerini kapsayacak şekilde genişletildi."
+
+msgid "searching/expanded/header"
+msgstr "Arama Parametreleri Genişletildi"
+
+msgid "searching/lookingFor"
+msgstr "Aranıyor:"
+
+msgid "searching/playersInQueue"
+msgstr "Sıradaki Oyuncular"
+
+msgid "searching/state"
+msgstr "Aranıyor:"
+
+msgid "settings/tiers"
+msgstr "Tercih Edilen Araç Seviyesi"
+
+msgid "settings/voice"
+msgstr "Sesli sohbeti olan oyuncuları tercih et"
+
+msgid "squad"
+msgstr "Takım"

@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Armistițiu {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Evenimentul va fi disponibil din"
+
+msgid "bannerTooltip/description"
+msgstr "Lupte masive 30v30 în vehicule de generația {{vehicleTier}} pe hărțile Normandy, Fata Morgana și Kraftwerk. Atacatorii trebuie să distrugă trei din cinci baterii de tunuri, în timp ce apărătorii trebuie să le protejeze."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Dovedește-ți abilitățile în lupte intense pentru a obține faimă, a revendica recompense valoroase și a crește în grad."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Evenimentul s-a încheiat, deții recompense nerevendicate pentru niveluri finalizate ale Frontului."
+
+msgid "bannerTooltip/header"
+msgstr "Front"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Front | Nivelul {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} - Mod de joc. Clic pentru a explora"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Acest mod cere un computer foarte performant. Vei avea probleme cu încărcarea hărții, grafica și mișcarea vehiculului. Poți încerca să reduci calitatea grafică în Setări pentru a spori performanțele jocului."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Risc de performanță redusă"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Selectează recompensele pentru nivelurile finalizate ({{value}})."
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Fonduri insuficiente pentru a face achiziția."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Schimbările vor fi aplicate tuturor antitancurilor."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Schimbările vor fi aplicate tuturor artileriilor."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Schimbările vor fi aplicate tuturor tancurilor grele."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Schimbările vor fi aplicate tuturor tancurilor ușoare."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Schimbările vor fi aplicate tuturor tancurilor medii."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Vehicul incompatibil"
+
+msgid "battleAbilities/points/body"
+msgstr "Acumulează numărul necesar de puncte și activează rezervele de luptă de pe Front."
+
+msgid "battleAbilities/points/header"
+msgstr "Punctele rezervelor de luptă"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Afișează Rezervele de atac"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Rezervele de atac"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Afișează Rezervele de recunoaștere"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Rezervele de recunoaștere"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Afișează Rezervele tactice"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Rezervele tactice"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Nivelul rezervei de luptă este crescut după atingerea gradelor de Căpitan și Maior în lupte. Nivelul maxim e determinat de scenariul de luptă."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Informaţii suplimentare"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Rezerve de atac"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Rezervele de recunoaștere"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Rezervele tactice"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Caracteristicile permanente:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "O rezervă de luptă amplasată în acest locaș crește cu {{@ colorLegacy 'FFE4C0'}}10%{{/}} șansa ca aceasta să fie oferită în scenariul {{@ colorLegacy 'FFE4C0'}}Întoarcerea sorții{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Nivelul rezervei:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Nu s-a achiziționat!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Evenimentul s-a încheiat."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Evenimentul va începe în curând!"
+
+msgid "infoButton/body"
+msgstr "Clic pentru mai multe informații."
+
+msgid "infoButton/header"
+msgstr "Despre eveniment"
+
+msgid "levelReserves/desc"
+msgstr "Nivelurile rezervelor de luptă cresc la atingerea de grade noi:"
+
+msgid "levelReserves/info"
+msgstr "În scenariul {{@ colorLegacy 'FFE4C0'}}Întoarcerea sorții{{/}}, cumpărarea unei rezerve de luptă îi va crește nivelul cu unu și va oferi oportunitatea de a-i crește nivelul la {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}."
+
+msgid "levelReserves/level"
+msgstr "Crește la atingerea urnătorului grad: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Disponibil cu următorul grad: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Nivel - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "Pentru {{@ colorLegacy 'FFE4C0'}}rezervele de luptă achiziționate{{/}} în scenariul {{@ colorLegacy 'FFE4C0'}}Întoarcerea sorții{{/}}."
+
+msgid "levelReserves/title"
+msgstr "Nivelurile rezervei de luptă"
+
+msgid "playlist/warning/body"
+msgstr "Această listă conține vehicule care nu sunt potrivite pentru acest mod de joc sau care nu se află în Garajul tău."
+
+msgid "playlist/warning/header"
+msgstr "vehicule indisponibile (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Caracteristicile rezervei de luptă au fost îmbunătățite"
+
+msgid "randomReserve/disable"
+msgstr "Locașul rezervei de luptă a fost utilizat."
+
+msgid "randomReserve/notPurchased"
+msgstr "Rezerva de luptă nu a fost cumpărată"
+
+msgid "randomReserve/purchased"
+msgstr "Rezerva de luptă a fost cumpărată"
+
+msgid "skillOrderTooltip/body"
+msgstr "Fiecare tip de vehicul are o ordine proprie de deblocare a rezervelor:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Ordinea de deblocare pentru rezervele de luptă"
+
+msgid "skillOrderTooltip/info"
+msgstr "În scenariul {{@ colorLegacy 'whiteSpanish'}}Întoarcerea sorții{{/}}, ordinea de deblocare a rezervelor de luptă nu depinde de tipul vehiculului."

@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Otrzymanie uszkodzeń przerywa przywracanie PW.\n\nWspółczynnik przywracania PW i maksymalny limit przywracania zależą od całkowitej puli PW pojazdu, wliczając wszystkie zastosowane modyfikatory."
+
+msgid "armorPatching/alt/info"
+msgstr "W przypadku atutów grupowych pod uwagę brany jest średni poziom wyszkolenia wszystkich członków załogi. Atut zaczyna działać przy wyszkoleniu przynajmniej do 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Użycie zestawu naprawczego przywraca %(hpRecover)s {yellow_Start}PW{yellow_End} pojazdu w ciągu 5 s, maksymalnie do 20% na bitwę. Pozwala na użycie zestawu naprawczego bez uszkodzeń krytycznych."
+
+msgid "armorPatching/hudDescription"
+msgstr "Punkty wytrzymałości są przywrócone."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Użycie zestawu naprawczego przywraca %(hpRecover)s {yellow_Start}PW{yellow_End} pojazdu w ciągu 5 sm, maksymalnie do 20% na bitwę. Pozwala na użycie zestawu naprawczego bez uszkodzeń krytycznych."
+
+msgid "armorPatching/name"
+msgstr "Łatanie pancerza"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Poprawia bazowe maskowanie pojazdu."
+
+msgid "brotherhood/alt/description"
+msgstr "Premia do skuteczności załogi poprawia skuteczność członka załogi w bitwie, a także skuteczność wszystkich wyszkolonych atutów oprócz tego. Ten parametr można dodatkowo zwiększyć, montując wyposażenie lub materiały eksploatacyjne o podobnym działaniu lub używając dyrektywy Czyszczenie wentylacji. Atut dowódcy Niebezpieczeństwo, a także atuty radiooperatora Ramię w ramię i Ekspert komunikacji również mogą zwiększyć ten parametr."
+
+msgid "brotherhood/alt/info"
+msgstr "W przypadku atutów grupowych pod uwagę brany jest średni poziom wyszkolenia wszystkich członków załogi. Atut zaczyna działać przy wyszkoleniu przynajmniej do 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "{greenBright_Start}Premia do skuteczności załogi{greenBright_End} całej załogi jest zwiększana o %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu u wszystkich członków załogi zwiększa {greenBright_Start}premię do skuteczności załogi{greenBright_End} całej załogi o %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Braterstwo broni"
+
+msgid "brotherhood/shortDescription"
+msgstr "Zwiększa ogólną skuteczność załogi."
+
+msgid "camouflage/alt/description"
+msgstr "Ten atut wpływa na maskowanie pojazdu. Można go dodatkowo poprawić dyrektywą Naturalne maskowanie.\n\nPonadto, maskowanie pojazdu można zwiększyć stosując schemat kamuflażu lub styl, a także montując wyposażenie o podobnym działaniu."
+
+msgid "camouflage/alt/info"
+msgstr "W przypadku atutów grupowych pod uwagę brany jest średni poziom wyszkolenia wszystkich członków załogi. Atut zaczyna działać przy wyszkoleniu przynajmniej do 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "{greenBright_Start}Maskowanie{greenBright_End} pojazdu jest zwiększane o %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu u wszystkich członków załogi zwiększa {greenBright_Start}maskowanie{greenBright_End} pojazdu o %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Maskowanie"
+
+msgid "camouflage/shortDescription"
+msgstr "Poprawia bazowe maskowanie pojazdu."
+
+msgid "commander_coordination/alt/description"
+msgstr "Efekt aktywuje się za każdym razem, gdy zostanie wykryty pojazd przeciwnika, i nie kumuluje się, jeśli zostanie wykrytych kilka pojazdów.\n\nSzybkość celowania można dodatkowo zwiększyć, szkoląc atut celowniczego Szybkie celowanie lub montując wyposażenie o podobnym działaniu."
+
+msgid "commander_coordination/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "{yellow_Start}Szybkość celowania{yellow_End} zostanie zwiększona o %(vehicleGunAimSpeed)s na 15 s po wykryciu przez Ciebie pojazdu przeciwnika."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Szybkość celowania jest zwiększana."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {yellow_Start}szybkość celowania{yellow_End} o %(vehicleGunAimSpeed)s na 15 s po wykryciu przez Ciebie pojazdu przeciwnika.\t"
+
+msgid "commander_coordination/name"
+msgstr "Koordynacja"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Szybkość celowania jest zwiększana."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Zasięg widzenia można dodatkowo zwiększyć, szkoląc atut radiooperatora Rozeznanie w sytuacji lub montując wyposażenie o podobnym działaniu. Użycie dyrektywy Kalibracja optyczna wzmacnia ten efekt."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}Zasięg widzenia{greenBright_End} jest zwiększany o %(circularVisionRadius)s&zwnbsp;. {greenBright_Start}Kara dla uszkodzonych urządzeń obserwacyjnych{greenBright_End} jest zmniejszana o %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Kara dla uszkodzonych urządzeń obserwacyjnych jest zmniejszana."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {greenBright_Start}zasięg widzenia{greenBright_End} o %(circularVisionRadius)s&zwnbsp; i zmniejsza {greenBright_Start}karę dla uszkodzonych urządzeń obserwacyjnych{greenBright_End} o %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Zwiad"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Zwiększa zasięg widzenia, szczególnie w przypadku uszkodzenia urządzeń obserwacyjnych."
+
+msgid "commander_emergency/alt/description"
+msgstr "W przypadku powtórnego otrzymania uszkodzeń od przeciwnika efekt nie kumuluje się. Premia do skuteczności załogi poprawia skuteczność załogi w bitwie. Ten parametr można dodatkowo zwiększyć za pomocą wyposażenia, materiałów eksploatacyjnych o podobnym działaniu albo dyrektywy Czyszczenie wentylacji. Atut grupowy Braterstwo broni, a także atuty radiooperatora Ramię w ramię i Ekspert komunikacji również mogą zwiększyć ten parametr."
+
+msgid "commander_emergency/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "{yellow_Start}Premia do skuteczności załogi{yellow_End} zostanie zwiększona o %(crewLevelIncrease)s na 15 s po otrzymaniu uszkodzeń od przeciwnika."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Premia do skuteczności załogi jest zwiększana."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {yellow_Start}premię do skuteczności załogi{yellow_End} o %(crewLevelIncrease)s na 15 s po otrzymaniu uszkodzeń od przeciwnika."
+
+msgid "commander_emergency/name"
+msgstr "Niebezpieczeństwo"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Premia do skuteczności załogi jest zwiększana."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Ostrzeżenie o ostrzale przez działo samobieżne przeciwnika jest aktywowane z pewnym opóźnieniem od momentu wystrzału.\n\nAtut można poprawić za pomocą dyrektywy Zwiększona czujność."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "{yellow_Start}Ostrzeżenie o ostrzale przez działo samobieżne przeciwnika{yellow_End} i o kierunku ostrzału zostanie aktywowane z opóźnieniem %(artNotificationDelayFactor)s. {greenBright_Start}Negatywne skutki ogłuszenia {greenBright_End} są zmniejszane o %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu aktywuje {yellow_Start}ostrzeżenie o ostrzale przez działo samobieżne przeciwnika{yellow_End} z opóźnieniem %(artNotificationDelayFactor)s i określa kierunek strzału. Zmniejsza {greenBright_Start}negatywne skutki ogłuszenia{greenBright_End} o %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Wykrywanie dźwiękiem"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Wskazuje strzał działa samobieżnego przeciwnika."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Premia do skuteczności załogi poprawia skuteczność członka załogi w bitwie.\n\nTen parametr można dodatkowo zwiększyć, montując wyposażenie lub materiały eksploatacyjne o podobnym działaniu lub używając dyrektywy Czyszczenie wentylacji. Różne inne atuty załogi również mogą zwiększyć ten parametr."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "{yellow_Start}Premia do skuteczności załogi{yellow_End} zostanie zwiększona o %(crewLevelIncrease)s w czasie, gdy drużyna przeciwnika ma przynajmniej o trzy pojazdy więcej od Twojej&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Premia do skuteczności załogi jest zwiększona (przewaga przeciwnika)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {yellow_Start}premię do skuteczności załogi{yellow_End} o %(crewLevelIncrease)s w czasie, gdy drużyna przeciwnika ma przynajmniej o trzy pojazdy więcej od Twojej&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Utrzymać linię"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Zwiększa premię do skuteczności załogi"
+
+msgid "commander_practical/alt/description"
+msgstr "Atut działa dla wszystkich typów materiałów eksploatacyjnych zamontowanych w Twoim pojeździe.\n\nJego skutki można dodatkowo zwiększyć za pomocą dyrektywy Gruntowne przygotowania."
+
+msgid "commander_practical/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}Czas odnowienia materiałów eksploatacyjnych{greenBright_End} jest skracany o %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu skraca {greenBright_Start}czas przygotowania materiału eksploatacyjnego{greenBright_End} o %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Praktyczność"
+
+msgid "commander_practical/shortDescription"
+msgstr "Skraca czas przygotowania materiałów eksploatacyjnych."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Szósty zmysł jest wyłączony, gdy dowódca jest ranny. Czas jego aktywacji można skrócić za pomocą atutu Przechwycenie sygnału radiooperatora."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Jest to specjalna cecha dowódcy, która jest dla niego domyślnie dostępna i nie wymaga szkolenia."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Umożliwia dowódcy określenie, czy pojazd został wykryty przez przeciwnika. Aktywuje się w %(delay)s po wykryciu pojazdu."
+
+msgid "commander_sixthSense/name"
+msgstr "Szósty zmysł"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Pozwala dowódcy określić, czy jego pojazd został dostrzeżony przez przeciwnika."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Premia do skuteczności załogi poprawia skuteczność członka załogi w bitwie.\n\nTen parametr można dodatkowo zwiększyć, montując wyposażenie lub materiały eksploatacyjne o podobnym działaniu lub używając dyrektywy Czyszczenie wentylacji. Różne inne atuty załogi również mogą zwiększyć ten parametr."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "{yellow_Start}Premia do skuteczności załogi{yellow_End} zostanie zwiększona o %(crewLevelIncrease)s na 15&nbsp;s po użyciu apteczki. Pozwala na użycie apteczki, nawet jeśli żaden członek załogi nie jest ranny&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Premia do skuteczności załogi jest zwiększona (użyto apteczki)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {yellow_Start}premię do skuteczności załogi{yellow_End} o %(crewLevelIncrease)s na 15 s po użyciu apteczki. Pozwala na użycie apteczki, nawet jeśli żaden członek załogi nie jest ranny&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Zachowaj czujność"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Zwiększa premię do skuteczności załogi"
+
+msgid "commander_tutor/alt/description"
+msgstr "Ranny dowódca nie może zastąpić innego członka załogi. Premia jest stosowana tylko do podstawowej liczby PD załogi zdobytych w bitwie.\n\nDodatkowe PD załogi można otrzymać dzięki podręcznikom dla załogi lub wymieniając wolne PD na PD załogi."
+
+msgid "commander_tutor/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Liczba zdobywanych {greenBright_Start}PD{greenBright_End} jest zwiększana o %(xpBonusFactorPerLevel)s dla wszystkich członków załogi. Dowódca może {greenBright_Start}zastąpić rannych członków załogi{greenBright_End} ze skutecznością %(woundedCrewEfficiency)s."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Ogłuszony członek załogi jest zastępowany przez dowódcę."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa liczbę zdobywanych {greenBright_Start}PD{greenBright_End} o %(xpBonusFactorPerLevel)s dla wszystkich członków załogi. Pozwala dowódcy {greenBright_Start}zastąpić rannych członków załogi{greenBright_End} ze skutecznością %(woundedCrewEfficiency)s."
+
+msgid "commander_tutor/name"
+msgstr "Mentor"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Ogłuszony członek załogi jest zastępowany przez dowódcę."
+
+msgid "commander_universalist/alt/description"
+msgstr "Dowódca może zastąpić wyłącznie główną kwalifikację nieprzytomnego członka załogi. Skuteczność zamiany zmniejsza się z każdym kolejnym nieprzytomnym członkiem załogi."
+
+msgid "commander_universalist/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%. Jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Dowódca może {greenBright_Start}zastąpić rannych{greenBright_End} członków załogi z efektywnością %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Dowódca przejmuje rolę nieprzytomnego członka załogi."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu pozwala dowódcy na {greenBright_Start}zastąpienie rannych{greenBright_End} członków załogi z efektywnością %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/name"
+msgstr "Wszechstronność"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Pozwala dowódcy na zastąpienie rannych członków załogi."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Zmniejsza kary do zwrotności i przyspieszenia pojazdu podczas jazdy po umiarkowanie miękkim terenie. Znacznie zmniejsza te kary podczas jazdy po miękkim terenie, wyrównując je z terenem umiarkowanie miękkim.\nZwrotność na umiarkowanie miękkim i miękkim terenie nie może przewyższyć zwrotności na twardym terenie."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}Utrata prędkości na umiarkowanie miękkim terenie{greenBright_End} jest zmniejszana o %(mediumGroundFactor)s&zwnbsp;, {greenBright_Start}a utrata prędkości na miękkim terenie {greenBright_End}jest zmniejszana do %(softGroundFactor)s wartości wynikowej umiarkowanie miękkiego terenu."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zmniejsza {greenBright_Start}utratę prędkości na umiarkowanie miękkim terenie{greenBright_End} o %(mediumGroundFactor)s&zwnbsp;, zmniejsza {greenBright_Start}utratę prędkości na miękkim terenie{greenBright_End} do %(softGroundFactor)s wartości wynikowej umiarkowanie miękkiego terenu."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Jazda terenowa"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Premia do skuteczności załogi poprawia skuteczność członka załogi w bitwie.\n\nTen parametr można dodatkowo zwiększyć, montując wyposażenie lub materiały eksploatacyjne o podobnym działaniu lub używając dyrektywy Czyszczenie wentylacji. Różne inne atuty załogi również mogą zwiększyć ten parametr."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "{yellow_Start}Premia do skuteczności załogi{yellow_End} zostanie zwiększona o %(crewLevelIncrease)s, jeśli zablokowane przez Ciebie uszkodzenia przekroczą początkową pulę punktów wytrzymałości Twojego pojazdu."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Premia do skuteczności załogi jest zwiększana (zablokowano wystarczająco dużo uszkodzeń)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {yellow_Start}premię do skuteczności załogi{yellow_End} o %(crewLevelIncrease)s jeśli zablokowane przez Ciebie uszkodzenia przekroczą początkową pulę punktów wytrzymałości Twojego pojazdu."
+
+msgid "driver_bulletproof/name"
+msgstr "Kuloodporny"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Prędkość maksymalną Twojego pojazdu można dodatkowo zwiększyć, a karę za uszkodzony silnik dodatkowo zmniejszyć, montując wyposażenie o podobnym działaniu."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "{greenBright_Start}Prędkość maksymalna jazdy do przodu{greenBright_End} i {greenBright_Start}prędkość cofania{greenBright_End} Twojego pojazdu są zwiększane o %(vehicleForwardMaxSpeed)s. {greenBright_Start}Kara za uszkodzony silnik{greenBright_End} jest zmniejszana o %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Kara za uszkodzony silnik jest zmniejszana."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {greenBright_Start}prędkość maksymalną jazdy do przodu{greenBright_End} i {greenBright_Start}prędkość cofania{greenBright_End} Twojego pojazdu o %(vehicleForwardMaxSpeed)s. Zmniejsza {greenBright_Start}karę za uszkodzony silnik {greenBright_End} o %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Inżynier"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Kara za uszkodzony silnik jest zmniejszana."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Ten atut nie działa, gdy zderzą się dwa sojusznicze pojazdy.\n\nUszkodzenia Twojego pojazdu od taranowania można dodatkowo obniżyć, montując wyposażenie o podobnym działaniu."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}Uszkodzenia pojazdów przeciwnika od taranowania{greenBright_End} są zwiększane o %(damageEnemiesByRamming)s&zwnbsp;. {greenBright_Start}Uszkodzenia Twojego pojazdu od taranowania{greenBright_End} są zmniejszane o %(vehicleRamDamageResistance)s&zwnbsp;, a {greenBright_Start}Twojego zawieszenia{greenBright_End} o %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {greenBright_Start}uszkodzenia pojazdów przeciwnika od taranowania{greenBright_End} o %(damageEnemiesByRamming)s&zwnbsp;. Zmniejsza {greenBright_Start}uszkodzenia Twojego pojazdu od taranowania{greenBright_End} o %(vehicleRamDamageResistance)s&zwnbsp;, a {greenBright_Start}Twojego zawieszenia{greenBright_End} o %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Kontrolowane uderzenie"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Zmniejsza uszkodzenia Twojego pojazdu od taranowania i zwiększa uszkodzenia pojazdów przeciwnika od taranowania."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Uszkodzenia otrzymane od pocisków OB można dodatkowo zmniejszyć, montując wyposażenie o podobnym działaniu."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}Pochłanianie uszkodzeń od pocisków OB{greenBright_End} jest zwiększane o %(vehicleHEShellDamageResistance)s&zwnbsp;. &nbsp;{greenBright_Start}Ryzyko pożaru silnika{greenBright_End} jest zmniejszane o %(vehicleFireChance)s, a {greenBright_Start}uszkodzenia Twojego zawieszenia {greenBright_End} o %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {greenBright_Start}pochłanianie uszkodzeń od pocisków OB{greenBright_End} o %(vehicleHEShellDamageResistance)s&zwnbsp;. Zmniejsza {greenBright_Start}ryzyko pożaru silnika{greenBright_End} o %(vehicleFireChance)s, a {greenBright_Start}uszkodzenia Twojego zawieszenia{greenBright_End} o %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Pewne rozmieszczenie"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Nie wpływa na celność stacjonarnego pojazdu i celność podczas obrotu kadłuba.\n\nTen atut można poprawić za pomocą dyrektywy Smarowanie skrzyni biegów. Celność podczas strzelania w ruchu można dodatkowo zwiększyć, montując wyposażenie o podobnym działaniu lub używając dyrektywy Smarowanie stabilizatora."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "{greenBright_Start}Rozrzut działa{greenBright_End} przy strzelaniu w ruchu jest zmniejszany o %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zmniejsza {greenBright_Start}rozrzut działa{greenBright_End} przy strzelaniu w ruchu o %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Gładka jazda"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Zwiększa celność przy strzelaniu w ruchu."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Ten atut wpływa na szybkość naprawy zawieszenia ze stanu czerwonego do żółtego w odległości do 50 m od pojazdu sojusznika."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "{yellow_Start}Szybkość naprawy zawieszenia{yellow_End} zostanie zwiększona o %(suspensionRepairSpeed)s w odległości do 50 m od pojazdu sojusznika."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Szybkość naprawy zawieszenia jest zwiększona (sojusznik jest w pobliżu)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {yellow_Start}szybkość naprawy zawieszenia{yellow_End} o %(suspensionRepairSpeed)s w odległości do 50 m od pojazdu sojusznika."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Wsparcie polowe"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Ochrona przeciwpożarowa pojazdu może być poprawiona przez zamontowanie wyposażenia i materiałów eksploatacyjnych o podobnym działaniu. Atut Gaszenie pożaru przyspieszy zwalczanie pożaru w przypadku, gdy taki powstanie."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%. Jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "Zmniejsza {greenBright_Start}szansę zapalenia się silnika{greenBright_End} o %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zmniejsza {greenBright_Start}szansę zapalenia się silnika{greenBright_End} o %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Czystość i porządek"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Zmniejsza szansę zapalenia się silnika."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Prędkość obrotu kadłuba można dodatkowo zwiększyć, montując wyposażenie lub materiały eksploatacyjne o podobnym działaniu."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}Prędkość obrotu kadłuba{greenBright_End} jest zwiększana o %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {greenBright_Start}prędkość obrotu kadłuba{greenBright_End} o %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Hamowanie sprzęgłem"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Zwiększa prędkość obrotu kadłuba."
+
+msgid "fireFighting/alt/description"
+msgstr "Ten atut wpływa na uszkodzenia otrzymywane od pożaru i czas jego trwania.\n\nJeśli dwóch radiooperatorów ma ten sam atut, stosowana jest średnia wartość ich poziomu wyszkolenia.\n\nTen atut można poprawić za pomocą dyrektywy Doświadczeni strażacy."
+
+msgid "fireFighting/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}Szybkość gaszenia pożarów{greenBright_End} jest zwiększana o %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {greenBright_Start}szybkość gaszenia pożarów{greenBright_End} o %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Gaszenie pożaru"
+
+msgid "fireFighting/shortDescription"
+msgstr "Przyspiesza zwalczanie pożarów."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Domyślnie zakres potencjalnych uszkodzeń i penetracji wynosi ±25% od wartości bazowych. Przykładowo, jeśli pocisk penetruje pancerz do 100 mm i zadaje 100 PW uszkodzeń, to po trafieniu w cel faktyczna penetracja dla tego strzału może wynosić od 75 do 125 mm, a uszkodzenia mogą wahać się pomiędzy 75 a 125 PW. Zmniejszenie tego modyfikatora zapewni bardziej przewidywalne wyniki ostrzału.\n\nJeśli dwóch celowniczych ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Zakresy {greenBright_Start}potencjalnych uszkodzeń{greenBright_End} i {greenBright_Start}potencjalnej penetracji{greenBright_End} są zmniejszane o {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. {greenBright_Start}Rozrzut działa{greenBright_End} jest zmniejszany o %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zmniejsza zakresy{greenBright_Start}potencjalnych uszkodzeń{greenBright_End} i {greenBright_Start}potencjalnej penetracji{greenBright_End} o {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. Zmniejsza {greenBright_Start}rozrzut działa{greenBright_End} o %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Zbrojmistrz"
+
+msgid "gunner_focus/alt/description"
+msgstr "Efekt włącza się 3 s po zatrzymaniu pojazdu i resetuje się po rozpoczęciu ruchu.\n\nJeśli dwóch celowniczych ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia."
+
+msgid "gunner_focus/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "{yellow_Start}Rozrzut działa{yellow_End} stacjonarnego pojazdu jest zmniejszany o %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Rozrzut działa jest zmniejszany."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zmniejsza {yellow_Start}rozrzut działa{yellow_End} stacjonarnego pojazdu o %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Koncentracja"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Zmniejsza rozrzut działa stacjonarnego pojazdu."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Rozrzut działa i szybkość celowania można dodatkowo poprawić, szkoląc atuty załogi lub montując wyposażenie o podobnym działaniu.\n\nJeśli dwóch celowniczych ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "{yellow_Start}Rozrzut działa{yellow_End} maleje o %(vehicleGunAimSpeed)s, a {yellow_Start}szybkość celowania{yellow_End} rośnie o %(vehicleGunAimSpeed)s, gdy w promieniu 300 m nie ma żadnych sojuszników."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Rozrzut działa i prędkość celowania są poprawione (w pobliżu nie ma sojuszników)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zmniejsza {yellow_Start}rozrzut działa{yellow_End} i zwiększa {yellow_Start}szybkość celowania{yellow_End} o %(vehicleGunAimSpeed)s, gdy w promieniu 300 m nie ma żadnych sojuszników."
+
+msgid "gunner_loneWolf/name"
+msgstr "Samotny wilk"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Rozrzut działa maleje. Szybkość celowania rośnie."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Domyślnie maksymalna penetracja wynosi +25% od wartości bazowej. Przykładowo, jeśli pocisk przebija pancerz o grubości do 100 mm, po trafieniu w cel maksymalna możliwa wartość penetracji dla tego pojedynczego strzału może wynosić 125 mm. Zwiększenie tego modyfikatora prowadzi do skuteczniejszych wyników penetracji.\n\nJeśli dwóch celowniczych ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "{yellow_Start}Maksymalna potencjalna penetracja{yellow_End} Twoich pocisków zostanie zwiększona o %(piercingHEShellsDistributionUpperBound)s podczas ostrzału pojazdów przeciwników w odległości do 50 m."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {yellow_Start}maksymalną potencjalną penetrację{yellow_End} o %(piercingHEShellsDistributionUpperBound)s podczas ostrzału pojazdów przeciwników w odległości do 50 m."
+
+msgid "gunner_pointBlast/name"
+msgstr "Z przyłożenia"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Zwiększa maksymalną potencjalną penetrację Twoich pocisków"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Jeśli dwóch celowniczych ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia.\n\nPrędkość celowania można dodatkowo zwiększyć, szkoląc atut dowódcy Koordynacja lub montując wyposażenie o podobnym działaniu.\n\nPrędkość obrotu wieży można dodatkowo zwiększyć, montując wyposażenie lub materiały eksploatacyjne o podobnym działaniu."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}Szybkość celowania{greenBright_End} i {greenBright_Start}prędkość obrotu wieży{greenBright_End} są zwiększane o %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {greenBright_Start}szybkość celowania{greenBright_End} i {greenBright_Start}prędkość obrotu wieży{greenBright_End} o %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Szybkie celowanie"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Szybkość celowania jest zwiększana."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Identyfikuje krytycznie uszkodzone moduły w pojazdach będących na celowniku zarówno w bezpośrednim, jak i w pośrednim trybie ostrzału.\nObszar widzenia celowniczego jest zdefiniowany przez sektor ±10° (łącznie 20°) z przodu działa pojazdu i przez jego zasięg widzenia.\nJeśli dwóch celowniczych ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia.\nTen atut można dodatkowo poprawić za pomocą dyrektywy Skupienie na celu. Użycie Ulepszonego radia dodatkowo wydłuży czas, po którym pojazd przeciwnika przestaje być widoczny."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "{greenBright_Start}Czas{greenBright_End}, po którym pojazd przeciwnika{greenBright_Start}przestaje być widoczny{greenBright_End} w polu widzenia celowniczego, jest wydłużany o %(vehicleEnemySpottingTime)s. Czas potrzebny na {yellow_Start}identyfikację uszkodzonych modułów{yellow_End} jest skracany do %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu wydłuża {greenBright_Start}czas{greenBright_End}, po którym pojazd przeciwnika {greenBright_Start}przestaje być widoczny{greenBright_End} w polu widzenia celowniczego, o %(vehicleEnemySpottingTime)s. Umożliwia {yellow_Start}identyfikację uszkodzonych modułów{yellow_End} z opóźnieniem %(damageMonitoringDelay)s."
+
+msgid "gunner_rancorous/name"
+msgstr "Wyznaczony cel"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Wydłuża czas, po którym pojazd przeciwnika przestaje być widoczny w obszarze widzenia celowniczego. Umożliwia identyfikację uszkodzonych modułów."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Jeśli dwóch celowniczych ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia.\n\nTen atut można dodatkowo poprawić za pomocą dyrektywy Pewna ręka. Rozrzut podczas obrotu wieży można dodatkowo zmniejszyć, montując wyposażenie o podobnym działaniu lub używając dyrektywy Smarowanie stabilizatora."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "{greenBright_Start}Rozrzut działa{greenBright_End} w czasie obrotu wieży jest zmniejszany o %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zmniejsza {greenBright_Start}rozrzut działa{greenBright_End} podczas obrotu wieży o %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Strzał z biodra"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Zmniejsza rozrzut działa podczas obrotu wieży."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Działa na wszystkie typy pocisków z wyjątkiem pojazdów z działkami automatycznymi.\n\nJeśli dwóch celowniczych ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "{greenBright_Start}Szansa na krytyczne uszkodzenie{greenBright_End} {greenBright_Start}modułów w pojeździe{greenBright_End} przeciwnika i na zranienie {greenBright_Start}członków załogi{greenBright_End} przeciwnika wszystkimi typami pocisków jest zwiększana o %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {greenBright_Start}szansę na krytyczne uszkodzenie{greenBright_End} {greenBright_Start}modułów w pojeździe{greenBright_End} przeciwnika i zranienie {greenBright_Start}członków załogi{greenBright_End} przeciwnika wszystkimi typami pocisków o %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Snajper"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Domyślnie potencjale minimalne uszkodzenia i penetracja wynoszą -25% od wartości bazowych. Przykładowo, jeśli pocisk penetruje pancerz do 100 mm i zadaje 100 PW uszkodzeń, to po trafieniu w cel minimalna możliwa penetracja tym strzałem może wynieść 75 mm, a minimalne możliwe uszkodzenia mogą być równe 75 PW. Ograniczenie tego modyfikatora prowadzi do skuteczniejszych wyników ostrzału.\n\nJeśli dwóch ładowniczych ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "Wartości {greenBright_Start}minimalnych potencjalnych uszkodzeń{greenBright_End} i {greenBright_Start}minimalnej potencjalnej penetracji{greenBright_End} są zwiększane o %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa wartości {greenBright_Start}minimalnych potencjalnych uszkodzeń{greenBright_End} i {greenBright_Start}minimalnej potencjalnej penetracji{greenBright_End} o %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Tuning amunicji"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Zwiększa średnie wartości uszkodzeń i penetracji."
+
+msgid "loader_desperado/alt/description"
+msgstr "Jeśli dwóch ładowniczych ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia.\n\nCzas ładowania działa można dodatkowo skrócić, szkoląc atut ładowniczego Walka w zwarciu lub montując wyposażenie o podobnym działaniu. Użycie dyrektywy Uporządkowany magazyn amunicji poprawia działanie."
+
+msgid "loader_desperado/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "{yellow_Start}Czas ładowania działa{yellow_End} zostanie skrócony o %(vehicleGunReloadTime)s, jeśli Twojemu pojazdowi zostanie mniej niż 25% punktów wytrzymałości."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Czas ładowania działa jest skrócony (niska wytrzymałość pojazdu)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu skraca {yellow_Start}czas ładowania działa{yellow_End} o %(vehicleGunReloadTime)s, jeśli Twojemu pojazdowi zostanie mniej niż 25% punktów wytrzymałości."
+
+msgid "loader_desperado/name"
+msgstr "Desperat"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Przyspiesza ładowanie działa, jeśli pojazd ma mniej niż 25% punktów wytrzymałości."
+
+msgid "loader_intuition/alt/description"
+msgstr "Aby aktywować atut, działo, oba działa lub magazynek muszą być w pełni załadowane. Minimalny czas zmiany typu pocisku dla dział standardowych to 1 s, a dla dział dwulufowych i magazynków to 2,5 s.\n\nJeśli dwóch ładowniczych ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia."
+
+msgid "loader_intuition/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "{greenBright_Start}Czas zmiany typu pocisków{greenBright_End} w załadowanym dziale jest skracany o %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Czas zmiany typu pocisku w załadowanym dziale jest skracany.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu skraca {greenBright_Start}czas zmiany typu pocisku{greenBright_End} w załadowanym dziale o %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Intuicja"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Znacznie zwiększa prędkość zmiany typu pocisku w załadowanym dziale."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Ten atut skraca czas przeładowania dział z magazynkiem i nie wpływa na inne systemy dział.\n\nJeśli dwóch ładowniczych ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "{greenBright_Start}Czas przeładowania{greenBright_End} magazynka jest skracany o %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu skraca {greenBright_Start}czas przeładowania{greenBright_End} magazynka o %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "Mistrz magazynków"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Skraca czas przeładowania magazynków"
+
+msgid "loader_melee/alt/description"
+msgstr "Jeśli dwóch ładowniczych ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia.\n\nCzas ładowania działa można dodatkowo skrócić, szkoląc atut ładowniczego Desperat lub montując wyposażenie o podobnym działaniu. Użycie dyrektywy Uporządkowany magazyn amunicji poprawia działanie."
+
+msgid "loader_melee/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "{yellow_Start}Czas ładowania działa{yellow_End} zostanie skrócony o %(vehicleGunReloadTime)s na dystansach krótszych niż 50 m od pojazdu przeciwnika."
+
+msgid "loader_melee/hudDescription"
+msgstr "Czas ładowania działa zostaje skrócony (przeciwnik jest blisko).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu skraca {yellow_Start}czas ładowania działa{yellow_End} o %(vehicleGunReloadTime)s na dystansach krótszych niż 50 m od pojazdu przeciwnika."
+
+msgid "loader_melee/name"
+msgstr "Walka w zwarciu"
+
+msgid "loader_melee/shortDescription"
+msgstr "Przyspiesza ładowanie działa w walce w zwarciu."
+
+msgid "loader_pedant/alt/description"
+msgstr "Ranny ładowniczy nie wpływa na skuteczność tego atutu.\n\nJeśli dwóch ładowniczych ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia.\n\nAtut można dodatkowo poprawić, stosując dyrektywę Organizacja pocisków. Wytrzymałość magazynu amunicji można dodatkowo zwiększyć, montując wyposażenie o podobnym działaniu."
+
+msgid "loader_pedant/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}Wytrzymałość magazynu amunicji{greenBright_End} jest zwiększana o %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {greenBright_Start}wytrzymałość magazynu amunicji{greenBright_End} o %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Bezpieczne magazynowanie"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Zwiększa wytrzymałość magazynu amunicji."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Działa na wszystkie typy pocisków.\n\nRanny ładowniczy nie wpływa na skuteczność tego atutu.\n\nJeśli dwóch ładowniczych ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}Prędkość pocisku{greenBright_End} jest zwiększana o %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {greenBright_Start}prędkość pocisku{greenBright_End} o %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Idealny ładunek"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Ten atut nie ma wpływu na działa z magazynkiem ani działka automatyczne i nie kumuluje się w przypadku dział dwulufowych.\n\nW przypadku dział z możliwością wyboru systemu ładowania, jeśli wystrzelono z obu luf i żaden wystrzał nie zadał uszkodzeń, skrócenie czasu ładowania dotyczy obu luf. \n\nJeśli dwóch ładowniczych ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia.\n\nCzas ładowania można dodatkowo skrócić, szkoląc atut ładowniczego Desperat lub Walka w zwarciu, albo montując wyposażenie o podobnym działaniu. Użycie dyrektywy Uporządkowany magazyn amunicji poprawia skuteczność."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "{yellow_Start}Czas ładowania działa{yellow_End} zostanie skrócony o %(vehicleGunReloadTime)s dla następnego pocisku, jeśli poprzedni strzał nie zadał uszkodzeń pojazdowi przeciwnika."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Czas ładowania działa jest skrócony (nieudany strzał)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu skraca {yellow_Start}czas ładowania działa{yellow_End} o %(vehicleGunReloadTime)s dla następnego pocisku, jeśli poprzedni strzał nie zadał uszkodzeń pojazdowi przeciwnika."
+
+msgid "loader_secondChance/name"
+msgstr "Druga szansa"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Skraca czas ładowania działa"
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Zespół Braci"
+
+msgid "perkRole/commander"
+msgstr "Dowódca"
+
+msgid "perkRole/common"
+msgstr "Grupowy"
+
+msgid "perkRole/driver"
+msgstr "Kierowca-mechanik"
+
+msgid "perkRole/gunner"
+msgstr "Celowniczy"
+
+msgid "perkRole/loader"
+msgstr "Ładowniczy"
+
+msgid "perkRole/radioman"
+msgstr "Radiooperator"
+
+msgid "popularity/tooltip/common"
+msgstr "wszystkich graczy"
+
+msgid "popularity/tooltip/header"
+msgstr "Dla tego pojazdu preferowane przez"
+
+msgid "popularity/tooltip/legendary"
+msgstr "graczy na legendarnym poziomie WTR"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Jeśli dwóch radiooperatorów ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia.\n\nEfekt można dodatkowo wzmocnić dzięki atutowi dowódcy Wykrywanie dźwiękiem."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Za każdym razem, gdy załoga pojazdu zostanie ogłuszona, {greenBright_Start}negatywny efekt ogłuszenia{greenBright_End} zostanie zmniejszony o %(stunResistanceEffectFactor)s, maksymalnie do 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu, za każdym razem, gdy załoga pojazdu zostanie ogłuszona, zmniejsza {greenBright_Start}negatywny efekt ogłuszenia{greenBright_End} o %(stunResistanceEffectFactor)s&nbsp;, maksymalnie do 30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Zaprawiony w bojach"
+
+msgid "radioman_expert/alt/description"
+msgstr "Premia do skuteczności załogi poprawia skuteczność członka załogi w walce. Jeśli dwóch radiooperatorów ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia. Ten parametr można dodatkowo zwiększyć, montując wyposażenie lub materiały eksploatacyjne o podobnym działaniu lub używając dyrektywy Czyszczenie wentylacji. Atut grupowy Braterstwo broni, atut dowódcy Niebezpieczeństwo i atut radiooperatora Ramię w ramię również mogą zwiększyć ten parametr."
+
+msgid "radioman_expert/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "{yellow_Start}Premia do skuteczności załogi{yellow_End} zostanie zwiększona o %(crewLevelIncrease)s, jeśli uszkodzenia zadane przy Twojej asyście przekroczą początkową pulę punktów wytrzymałości Twojego pojazdu&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Premia do skuteczności załogi jest zwiększana (przekazano wystarczająco dużo informacji zwiadowczych)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {yellow_Start}premię do skuteczności załogi{yellow_End} o %(crewLevelIncrease)s jeśli uszkodzenia zadane przy Twojej asyście przekroczą początkową pulę punktów wytrzymałości Twojego pojazdu&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Ekspert komunikacji"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Poprawiona skuteczność załogi."
+
+msgid "radioman_finder/alt/description"
+msgstr "Jeśli dwóch radiooperatorów ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia.\n\nZasięg widzenia można dodatkowo zwiększyć, szkoląc atut Zwiad lub montując wyposażenie o podobnym działaniu. Użycie dyrektywy Kalibracja optyczna poprawia jego skuteczność."
+
+msgid "radioman_finder/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}Zasięg widzenia{greenBright_End} jest zwiększany o %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {greenBright_Start}zasięg widzenia{greenBright_End} o %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Rozeznanie w sytuacji"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Zwiększa zasięg widzenia."
+
+msgid "radioman_interference/alt/description"
+msgstr "Jeśli dwóch radiooperatorów ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia.\n\nCzas, przez który Twój pojazd pozostaje widoczny, można dodatkowo skrócić, montując wyposażenie o podobnym działaniu."
+
+msgid "radioman_interference/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "{greenBright_Start}Czas, przez który Twój pojazd pozostaje widoczny{greenBright_End} dla przeciwnika, jest skracany o %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu skraca {greenBright_Start}czas, przez który Twój pojazd pozostaje widoczny{greenBright_End} dla przeciwnika, o %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Zagłuszanie"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Skraca czas, przez który Twój pojazd jest widoczny dla przeciwnika."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Jeśli dwóch radiooperatorów ma ten atut, liczy się tylko wyższa wartość. Ten efekt jest aktywny, jeśli radiooperator nie jest ranny w momencie zniszczenia pojazdu.\n\nAtut można dodatkowo poprawić za pomocą dyrektywy Obowiązek przede wszystkim."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%. Jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Radiooperator może {yellow_Start}zgłaszać pozycje przeciwnika{yellow_End} przez kolejne %(radiomanDurationPerLevel)s po tym, jak Twój pojazd został zniszczony."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Zgłaszanie pozycji"
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu pozwala {yellow_Start}zgłaszać pozycje przeciwnika{yellow_End} przez kolejne %(radiomanDurationPerLevel)s po tym, jak Twój pojazd został zniszczony."
+
+msgid "radioman_lastEffort/name"
+msgstr "Żądza zemsty"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Przez krótki czas po zniszczeniu pojazdu raportuje lokalizacje przeciwnika."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Premia do skuteczności załogi poprawia skuteczność członka załogi w walce. Jeśli dwóch radiooperatorów ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia. Ten parametr można dodatkowo zwiększyć, montując wyposażenie lub materiały eksploatacyjne o podobnym działaniu lub używając dyrektywy Czyszczenie wentylacji. Atut grupowy Braterstwo broni, atut dowódcy Niebezpieczeństwo i atut radiooperatora Ekspert komunikacji również mogą zwiększyć ten parametr."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "{yellow_Start}Premia do skuteczności załogi{yellow_End} zostanie zwiększona o %(crewLevelIncrease)s na dystansach krótszych niż 50 m od pojazdu sojusznika tego samego typu&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Premia do skuteczności załogi jest zwiększana (sojusznik tego samego typu jest w pobliżu)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {yellow_Start}premię do skuteczności załogi{yellow_End} o %(crewLevelIncrease)s na dystansach krótszych niż 50 m od pojazdu sojusznika tego samego typu&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Ramię w ramię"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Poprawiona skuteczność załogi."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Poprawia działanie specjalnej cechy dowódcy Szósty zmysł, przyspieszając jej aktywację.\n\nJeśli dwóch radiooperatorów ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Atut zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "{greenBright_Start}Czas na ustalenie{greenBright_End}, czy {greenBright_Start}Twój pojazd został wykryty{greenBright_End} przez przeciwnika, jest skracany o %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu skraca {greenBright_Start}czas na ustalenie{greenBright_End}, czy {greenBright_Start}Twój pojazd został wykryty{greenBright_End} przez przeciwnika, o %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Przechwycenie sygnału"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Ten atut aktywuje się, gdy powiadomienie Szóstego zmysłu wskaże, że Twój pojazd został wykryty.\n\nJeśli dwóch radiooperatorów ma ten atut, stosowana jest średnia wartość ich poziomu wyszkolenia.\n\nZasięg widzenia można dodatkowo zwiększyć, szkoląc atuty Zwiad lub Rozeznanie w sytuacji, albo montując wyposażenie o podobnym działaniu. Użycie dyrektywy Kalibracja optyczna poprawia jego skuteczność."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Atut z efektem sytuacyjnym zaczyna działać przy wyszkoleniu do przynajmniej 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem. Efekt sytuacyjny aktywuje się po spełnieniu odpowiednich warunków w bitwie."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "{yellow_Start}Zasięg widzenia{yellow_End} zostanie zwiększony o %(vehicleCircularVisionRadius)s na 5 s po otrzymaniu powiadomienia Szóstego zmysłu."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Zasięg widzenia jest zwiększony."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu zwiększa {yellow_Start}zasięg widzenia{yellow_End} o %(vehicleCircularVisionRadius)s na 5 s po otrzymaniu powiadomienia Szóstego zmysłu."
+
+msgid "radioman_threatSearch/name"
+msgstr "Wyszukiwanie zagrożeń"
+
+msgid "repair/alt/description"
+msgstr "Ten atut wpływa na szybkość napraw wewnętrznych i zewnętrznych modułów ze stanu „czerwonego” na „żółty”.\n\nTen parametr można dodatkowo zwiększyć, montując wyposażenie lub materiały eksploatacyjne o podobnym działaniu."
+
+msgid "repair/alt/info"
+msgstr "W przypadku atutów grupowych pod uwagę brany jest średni poziom wyszkolenia wszystkich członków załogi. Atut zaczyna działać przy wyszkoleniu przynajmniej do 1%, a jego skuteczność rośnie wraz z dalszym szkoleniem."
+
+msgid "repair/currentLvlDescription"
+msgstr "{greenBright_Start}Szybkość napraw{greenBright_End} uszkodzonych modułów pojazdu jest zwiększana o %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Przy pełnym wyszkoleniu u wszystkich członków załogi, zwiększa {greenBright_Start}szybkość napraw{greenBright_End} uszkodzonych modułów pojazdu o %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Naprawa"
+
+msgid "repair/shortDescription"
+msgstr "Zwiększa prędkość napraw uszkodzonych modułów."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Zespół Braci"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Popularne"
+
+msgid "sorting/fallback"
+msgstr "Domyślne"
+
+msgid "sorting/legendary"
+msgstr "Legendarne"
+
+msgid "sorting/title"
+msgstr "Posortowane wg:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPopularne.%(whiteSpanish_Close)s W oparciu o aktualne trendy atutów wśród wszystkich graczy World of Tanks"
+
+msgid "sorting/tooltip/header"
+msgstr "Korzyść z WoT Plus"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Otrzymuj rzetelne dane na temat atutów załogi oparte na milionach rozgrywek i w pełni wykorzystaj każdą bitwę."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendarne.%(whiteSpanish_Close)s W oparciu o atuty obecnie preferowane przez graczy na legendarnym poziomie WTR"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Sortowanie atutów wyłączone"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Brak danych"
+
+msgid "sorting/tooltip/title"
+msgstr "Asystent załogi"
+
+msgid "sorting/tooltip/types"
+msgstr "Rodzaje sortowania atutów"
+
+msgid "sorting/tooltip/warning"
+msgstr "Sortowanie atutów niedostępne"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Pełne dane o atutach są niedostępne dla tego pojazdu, więc zastosowano domyślne sortowanie atutów."
+
+msgid "witches_brotherhood/name"
+msgstr "Sabat"
+
+msgid "yha_brotherhood/name"
+msgstr "Braterstwo zajęcy"

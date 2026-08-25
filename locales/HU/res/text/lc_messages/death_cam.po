@@ -1,0 +1,194 @@
+msgid "fatal_shell/penetration_range"
+msgstr "%(from)d-%(to)d mm"
+
+msgid "fatal_shell/penetration_value"
+msgstr "%(penetration)d mm"
+
+msgid "hints/camera_flow/buttonText"
+msgstr "SPACE"
+
+msgid "hints/camera_flow/pause"
+msgstr "Haladó mód (%(duration))"
+
+msgid "hints/camera_flow/pauseSimplified"
+msgstr "Szünet (%(duration))"
+
+msgid "hints/camera_flow/resume"
+msgstr "Folytatás (%(duration))"
+
+msgid "hints/death_reason/destroyed"
+msgstr "Jármű megsemmisítve"
+
+msgid "hints/death_reason/legacyHE"
+msgstr "Robbanás okozta sebzés"
+
+msgid "hints/death_reason/modernHE"
+msgstr "Repeszsebzés"
+
+msgid "hints/death_reason/nonPenetrationDamage"
+msgstr "Felületi sebzés"
+
+msgid "hints/death_reason/penetration"
+msgstr "Közvetlen találat"
+
+msgid "hints/follow_pt1"
+msgstr "Kattints a bal gombbal,"
+
+msgid "hints/follow_pt2"
+msgstr "hogy kövesd ezt a járművet!"
+
+msgid "hints/free_cam/return_previous"
+msgstr "Az előző járműhöz való visszatéréshez kattints a jobb gombbal!"
+
+msgid "hints/height/label"
+msgstr "Magasság"
+
+msgid "hints/height/text"
+msgstr "Állítsd be a kameramagasságot a megadott tartományon belül!"
+
+msgid "hints/movement/label"
+msgstr "Mozgás"
+
+msgid "hints/movement/text"
+msgstr "A kamera mozgatásához használd a %(forward)s, %(left)s, %(backward)s, %(right)s gombokat!"
+
+msgid "hints/skip/buttonText"
+msgstr "ESC"
+
+msgid "hints/skip/label"
+msgstr "Átugrás"
+
+msgid "hints/spectatorDown"
+msgstr "SHIFT"
+
+msgid "hints/spectatorUp"
+msgstr "SPACE"
+
+msgid "hints/speed/label"
+msgstr "Sebesség"
+
+msgid "hints/speed/text"
+msgstr "Állítsd be a kamera sebességét!"
+
+msgid "hints/spotted_status/spotted"
+msgstr "Felderítve"
+
+msgid "hints/spotted_status/unspotted"
+msgstr "Tüzelés vakon"
+
+msgid "marker/paramName/angleFailure"
+msgstr "Nem átütő szög"
+
+msgid "marker/paramName/angleImpact"
+msgstr "Páncélátütési szög"
+
+msgid "marker/paramName/angleRicochet"
+msgstr "Lepattanási szög"
+
+msgid "marker/paramName/armorNominal"
+msgstr "Névleges páncélzat {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/armorRelative"
+msgstr "Páncélzat {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/damageDistanceModifier"
+msgstr "Távolsági módosító {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/deathReason/crew"
+msgstr "A legénység kiütve!"
+
+msgid "marker/paramName/deathReason/detonation"
+msgstr "A lőszerrekesz felrobbant!"
+
+msgid "marker/paramName/deathReason/ignition"
+msgstr "Kigyújtva!"
+
+msgid "marker/paramName/is2CaliberRuleApplied"
+msgstr "2 kaliberes szabály"
+
+msgid "marker/paramName/is3CaliberRuleApplied"
+msgstr "3 kaliberes szabály"
+
+msgid "marker/paramName/nonArmored"
+msgstr "Nincs páncélzat"
+
+msgid "marker/paramName/shellArmorAngleGain"
+msgstr "Páncélzatnövekedés a dőléssel {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellCaliber"
+msgstr "Kaliber {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBasic"
+msgstr "Átlagos sebzés {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBurst"
+msgstr "Potenciális sebzés {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/legacyHE"
+msgstr "Robbanás által okozott sebzés {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/modernHE"
+msgstr "Repeszek által okozott sebzés {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/nonPenetrationDamage"
+msgstr "Okozott felületi sebzés {colorTagOpen}(életerő){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/penetration"
+msgstr "Okozott sebzés {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossDistance"
+msgstr "Csökkentve a távolsággal {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionHe"
+msgstr "Felfogva a páncélzat által {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionSpallLiner"
+msgstr "Felszerelés által csökkentve {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageRandomizationFactor"
+msgstr "Sebzés-véletlenszerűsítés {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationBasic"
+msgstr "Átlagos páncélátütés {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationEffective"
+msgstr "Páncélátütés {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellVelocityBasic"
+msgstr "A lövedék sebessége {colorTagOpen}(m/s){colorTagClose}"
+
+msgid "marker/paramName/shootDistance"
+msgstr "Távolság {colorTagOpen}(m){colorTagClose}"
+
+msgid "marker/paramName/shootDistanceUnspotted"
+msgstr "Ellenség nincs felderítve"
+
+msgid "marker/value/angle/exact"
+msgstr "%(value)s°"
+
+msgid "marker/value/angle/less"
+msgstr "< %(value)s°"
+
+msgid "marker/value/angle/more"
+msgstr "> %(value)s°"
+
+msgid "marker/value/applied"
+msgstr "Alkalmazva"
+
+msgid "marker/value/dashes"
+msgstr "--"
+
+msgid "marker/value/failed"
+msgstr "Nincs"
+
+msgid "marker/value/notAffected"
+msgstr "--"
+
+msgid "marker/value/signNegative"
+msgstr "- %(value)s"
+
+msgid "marker/value/signPositive"
+msgstr "+ %(value)s"
+
+msgid "marker/value/unspotted"
+msgstr "Felderítetlen"

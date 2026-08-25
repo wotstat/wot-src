@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Смени сървъра"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Подробности"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Този режим не е наличен на този сървър %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Този режим не е наличен на всички сървъри"
+
+msgid "alertMessage/modeOffline"
+msgstr "Грешка в базата данни. Игровият режим е недостъпен."
+
+msgid "alertMessage/noVehicles"
+msgstr "Няма подходящи машини в Парка ви %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Тъй вярно!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "ОЛЕКОТЕНА АТАКА"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "ПОСЛЕДНИЯТ ЕТАП Е ЗАВЪРШЕН!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "ЕТАП %(level)s Е ЗАВЪРШЕН!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Всички мисии са изпълнени!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Изпълнена"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Изтича след: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Мисия на Олекотена Атака"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Нова мисия на Олекотена Атака след: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Награда:"
+msgstr[1] "Награди:"
+msgstr[2] "Награди:"
+
+msgid "battleResult/header/deserter"
+msgstr "Получихте наказание"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "ПРОГРЕСИЯ НА ОЛЕКОТЕНА АТАКА"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Олекотена Атака ще продължи %(days)d ден"
+msgstr[1] "Олекотена Атака ще продължи %(days)d дни"
+msgstr[2] "Олекотена Атака ще продължи %(days)d дни"
+
+msgid "calendarDay/title"
+msgstr "Разписание"
+
+msgid "closeButtonLabel"
+msgstr "ЗАТВОРИ"
+
+msgid "countDown/text"
+msgstr "Събитието започва след:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Режим с бърз ритъм, включващ битки 7 на 7 с машини от ниво %(levels)s. Насладете се на геймплея на оригиналния режим Атака без квалификация, рангове или лични досиета и печелете награди в ежедневните мисии."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "РЕЖИМ"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s - режим на игра. Натиснете, за да разучите"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Олекотена Атака"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Режимът е наличен за %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Примирие%(timer)s"
+
+msgid "featureName"
+msgstr "Олекотена Атака"
+
+msgid "featureNameCapitalized"
+msgstr "ОЛЕКОТЕНА АТАКА"
+
+msgid "intro/confirmButton"
+msgstr "Тъй вярно!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Насладете се на играта на оригиналния режим Атака без квалификация, рангове или каквито и да било лични досиета."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Режимът има модификатори, които променят определени параметри на машината, като живот, време за подготовка на снаряжението, оставащо време видим и др."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "След като завладеете определени области от картата, ще можете да използвате тактически умения. Има два вида важни точки: щабът на артилерията ще ви позволи да насочите артилерийски залп към определена позиция, а комуникационният център ще открие всички вражески машини. В зависимост от картата, присъствието и местоположението на тези важни точки може да се променя."
+
+msgid "intro/description/roleSkills"
+msgstr "В зависимост от ролята, всяка машина има специално умение с три нива на заряд. Колкото по-високо е нивото на заряд при активиране на умението, толкова по-силен ще бъде ефектът. Нивото на заряд ще зависи от броя точки престиж, които могат да бъдат спечелени за впечатляващо представяне в битка, превземане на важни точки, използване на тактически умения и т.н.\n\nВижте правилата на събитието, за да научите повече за различните начини, по които можете да спечелите точки престиж."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Само машини ниво %(levels)s могат да се използват в режима (САУ и някои други танкове не са налични). Подгответе машините си в Парка, след което изберете най-добрата въз основа на характеристиките на дадената карта, след като влезете в битка. Когато избирате машината си, вземете предвид също кои машини са избрали вашите съюзници."
+
+msgid "intro/title/lightGameplay"
+msgstr "ОТПУСНЕТЕ СЕ, КОМАНДИРЕ"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "МОДИФИКАТОРИ НА АТАКА"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "ВАЖНИ ТОЧКИ"
+
+msgid "intro/title/roleSkills"
+msgstr "РОЛЕВИ УМЕНИЯ"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "ИЗБЕРЕТЕ МАШИНА ЗА ОПРЕДЕЛЕНА КАРТА"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Победа"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Загуба/реми"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Стабилна работа, командире, продължавайте все така!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Изпълнете мисии и достигнете челни позиции в битките в Олекотена Атака, за да увеличите нивото си на напредък."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Броят на точките за напредък, които печелите, зависи от позицията ви в точките престиж в битката."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Режимът приключва след %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Основният напредък е завършен"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Олекотена Атака"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Топ 2 по точки престиж"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Топ 5 по точки престиж"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Топ 7 по точки престиж"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Използвайте Танков премиум акаунт"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Активирай лични резерви"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Завършени мисии"
+
+msgid "noVehicles/howTo/title"
+msgstr "Кой е най-бързият начин да вземете машини от %(levels)s ниво?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "За да участвате в Олекотена атака, трябва да имате поне една машина ниво %(levels)s в Парка, която е подходяща за режима.\nМожете да закупите Премиум машини ниво %(levels)s в технологичното дърво или от Магазина в играта."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "За да участвате в Олекотена Атака, трябва да имате поне една машина ниво%(levels)s в Парка, която да е подходяща за режима.\nИмате машина ниво %(levels)s на разположение за възстановяване."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "За да участвате в Олекотена Атака, трябва да имате поне една машина ниво %(levels)s в Парка, която да е подходяща за този режим."
+
+msgid "noVehicles/title"
+msgstr "Няма подходящи машини в Парка ви"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Вижте страницата \"За Олекотена Атака\" за подробности."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Точки престиж"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Нанасяне на поражения\nПомощ при откриване\nУнищожаване на вериги\nНанасяне на критични попадения\nУнищожаване на вражески машини\nИ други"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Точки престиж могат да бъдат спечелени за извършване на бойни действия, включително:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Сезонът приключи на сървър %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Сезонът приключи на сървър %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Сезонът приключи на сървър %(server)s."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Основният напредък е завършен!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Етап %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s или %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Нови мисии след:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Събитието завършва след:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Мисиите ще бъдат актуализирани след"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Всички дневни мисии са изпълнени."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Напредъкът е завършен. Играйте в режим Олекотена Атака, за да спечелите още награди."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Изпълнете мисии и запазете челни позиции в битките\nв Олекотена Атака, за да увеличите нивото си на напредък. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Дава се за изпълнение на специални мисии и водене на битки в Олекотена атака. Те ви позволяват да продължавате през Напредъка."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Точки за напредък в Олекотена атака"
+
+msgid "selectorTooltip/desc"
+msgstr "Режим без класация. 7 на 7 | ниво %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Олекотена Атака"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Следете последните новини в портала на играта, за да бъдете в течение за началото на новия сезон."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Режимът е временно недостъпен по технически причини."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Този режим ще бъде достъпен на %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Получени точки за напредък"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Подробности"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Олекотена Атака"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Получени награди:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Завършихте етап на напредъка %(stage)s в режим %(progressionName)s."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Поздравления!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "В сила е примирие. Битките в Олекотена Атака са временно недостъпни."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Примирие"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Примирието приключи. Битките в Олекотена Атака отново са достъпни."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Примирие"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "За Олекотена Атака"

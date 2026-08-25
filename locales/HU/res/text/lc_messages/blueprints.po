@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Tervrajz elkészült"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Tervrajz  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Tervrajz {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "Vásárláshoz"
+
+msgid "blueprintScreen/button/research"
+msgstr "Fejlesztéshez"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Megtekintés a Garázsban"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Készíthetsz egy tervrajzot, hogy kedvezményt kapj az adott jármű kifejlesztésére. Azonban az azt megelőző járművet ki kell fejlesztened\naz ágon, hogy használhasd a kedvezményt."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Értettem!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Nem lehet kifejleszteni"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "Tervrajz töredék létrehozásához a következőkre lesz szükséged:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "kiválaszt:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "TÖREDÉK LÉTREHOZÁSA:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Töredékek létrehozása"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Töredék\nátváltása"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Átváltás \nnem elérhető"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "NEM ELÉRHETŐ:\nNincs elegendő\nerőforrás"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Járművekhez"
+
+msgid "blueprintScreen/or"
+msgstr "vagy"
+
+msgid "blueprintScreen/research"
+msgstr "FEJLESZTÉS"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Jármű ingyenes kifejlesztése"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Nem lehet kifejleszteni"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Kedvezmény a fejlesztéshez:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Ez a jármű ki lett fejlesztve és megvásárolható"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Ez a jármű ki lett fejlesztve és meg lett vásárolva"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "Depóban:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Felhasználhatod a 100%-os kedvezményt a(z) {vehicleName} jármű fejlesztéséhez, miután kifejlesztetted az előző járművet az ágon."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Tervrajz elkészült"
+
+msgid "blueprintScreen/unlocked"
+msgstr "JÁRMŰ\nKIFEJLESZTVE"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Koalíció:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Blokk:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Szövetség:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Unió:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Univerzális:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Koalíció"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Blokk"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Szövetség"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Unió"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Franciaország, Csehszlovákia, Svédország, Olaszország)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Németország, Japán)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(U.S.A., Egyesült Királyság, Lengyelország)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(Szovjetunió, Kína)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Válaszd ki a nemzeti töredékek számát a jármű tervrajz töredékek létrehozásához.\n%(allianceIcon)%(allianceName) %(allianceNations) nemzeti töredék áll rendelkezésre."
+
+msgid "conversionView/topMessage/single"
+msgstr "Válaszd ki az egyik nemzet töredékeit a jármű tervrajz töredékek létrehozásához.\n%(allianceIcon)%(allianceName) %(allianceNations) nemzeti töredék áll rendelkezésre."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Végső ár:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Tervrajz töredék ára:"
+
+msgid "nations/china"
+msgstr "Kína"
+
+msgid "nations/czech"
+msgstr "Csehszlovákia"
+
+msgid "nations/france"
+msgstr "Franciaország"
+
+msgid "nations/germany"
+msgstr "Németország"
+
+msgid "nations/italy"
+msgstr "Olaszország"
+
+msgid "nations/japan"
+msgstr "Japán"
+
+msgid "nations/poland"
+msgstr "Lengyelország"
+
+msgid "nations/sweden"
+msgstr "Svédország"
+
+msgid "nations/uk"
+msgstr "Egyesült Királyság"
+
+msgid "nations/usa"
+msgstr "U.S.A."
+
+msgid "nations/ussr"
+msgstr "Szovjetunió"

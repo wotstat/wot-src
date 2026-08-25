@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Vapenvila råder på alla tillgängliga servrar."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "Vapenvila råder på servern."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Byt server"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Pansarjakt har avslutats"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Striderna är inte tillgängliga på den här servern"
+
+msgid "banner/info/disabled"
+msgstr "Vapenvila"
+
+msgid "banner/info/seasonActive"
+msgstr "Andra chansen och belöningar"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "Till %(day)s %(month)s"
+
+msgid "banner/subtitle"
+msgstr "Battle royale med värdefulla belöningar"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s t"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s t %(minutes)s min"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s min"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "PANSARJAKT"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Striden fortsätter från en ny utgångspunkt."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Du kommer snart återvända"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Återvänder"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Detta är sista chansen."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Du kan inte längre återvända till striden"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Snart kommer du inte längre kunna återvända till striden!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Var mer försiktig den här gången."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Din vagn är redo för strid!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Återvänder till strid"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Aktiva strider pågår."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Återvändande inte tillgängligt"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Hitta en Återvändningsladdning för att återvända den till striden."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Allierad vagn förstörd"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Återvänder"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "Två vagnar är bättre än en!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Allierad vagn har återvänt"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Håll dig utanför strid!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Återvänder allierad"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Bonus aktiverad!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Belöning för första plats"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Insamlade i strid"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "SEGER"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Inget kapitel valt. Oanvända Stridspasspoäng: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Alla kapitel slutförda. Fortsätt spela för att samla Stridspasspoäng."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Gå till Stridspass"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Stridspass"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Välj kapitel"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Gå till framsteg för aktuellt kapitel"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Gå till Stridspass"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Slutförda uppdrag per strid: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Uppdrag"
+
+msgid "battleResult/battleReward/title"
+msgstr "MOTTAGET FÖR STRIDEN"
+
+msgid "battleResult/button/hangar"
+msgstr "Till garage"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Poäng och belöningar fördelas när alla spelare avslutat striden. Uppdrag utvärderas även baserat på stridsresultatet."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Tryck %(esc) för att hoppa över animationen"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Bjud in till pluton"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Allierad"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Slumpvis allierad"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Stridstyp"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "SOLOSTRID"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "Med WoT-Premiumkonto kan du få:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Totalt värde med WoT-Premiumkonto"
+
+msgid "battleResult/progressStage"
+msgstr "Framsteg i delmoment {stage}"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Spelarens riktiga användarnamn och klantagg visas inte för andra spelare i striden."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Spelarens riktiga användarnamn: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Spelarens riktiga användarnamn har ändrats till {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Mängden skada blockerad av din vagns pansar."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Mängden skada som du åsamkat i strid."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Antal fiendevagnar du förstört."
+
+msgid "battleResult/stats/body/place"
+msgstr "Din placering i resultattabellen."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Antal fiendevagnar förstörda av din pluton."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Blockerad skada"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Åsamkad skada"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Förstörda av dig"
+
+msgid "battleResult/stats/header/place"
+msgstr "Placering"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Förstörda av plutonen"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Blockerad skada"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Åsamkad skada"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Förstörda av dig"
+
+msgid "battleResult/stats/title/place"
+msgstr "Placering"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Förstörda av plutonen"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Resultat"
+
+msgid "battleResult/tab/result"
+msgstr "Stridsresultat"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "PLUTONEN FÖRSTÖRD"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "VAGNEN FÖRSTÖRD"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "SEGER"
+
+msgid "battleResult/title/victoryOther"
+msgstr "Hedersplats"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Välj en specialvagn för Pansarjakt."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Icke-kompatibel vagn"
+
+msgid "button/modules"
+msgstr "TEKNOLOGITRÄD"
+
+msgid "button/repair"
+msgstr "Reparera"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Strider tillfälligt ej tillgängliga"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Strider tillfälligt ej tillgängliga"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Strider ej tillgängliga"
+
+msgid "ceasefire/header/schedule"
+msgstr "Stridsschema"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}} – {{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Vapenvila råder på alla tillgängliga servrar. Du kan se schemat här."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "Vapenvila råder på den här servern. Du kan byta server för att få tillgång till striderna."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Pansarjakt är inte tillgängligt på den här servern. Du kan byta servern för att delta."
+
+msgid "commanderInfo/commonRank"
+msgstr "Vagnschef"
+
+msgid "commanderInfo/description/china"
+msgstr "\"Jag har redan vunnit. Du kommer snart inse det.\""
+
+msgid "commanderInfo/description/france"
+msgstr "\"Jag är lagen!\""
+
+msgid "commanderInfo/description/germany"
+msgstr "\"Detta är en ärofylld dag. Den kommer gå till historien.\""
+
+msgid "commanderInfo/description/poland"
+msgstr "\"Vi har inte tid med artighet.\""
+
+msgid "commanderInfo/description/sweden"
+msgstr "\"Allt går i enlighet med planerna.\""
+
+msgid "commanderInfo/description/uk"
+msgstr "\"Vad du än blir, var bäst på det du gör.\""
+
+msgid "commanderInfo/description/usa"
+msgstr "\"Stridsyxan är uppgrävd, vässad och polerad.\""
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"Vinnaren tar allt.\""
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Förmågor"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nSpecialvagn för Pansarjakt"
+
+msgid "fragPanel/squadsCount"
+msgstr "Plutoner: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Resultat"
+
+msgid "hangarResults/btns/summary"
+msgstr "Stridsresultat"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "STÄNG"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Moduler kan endast uppgraderas i strid. Tryck %(key)s för att öppna uppgraderingsmenyn i strid."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s och %(highlight2)s för att samla erfarenhet. Varje uppnådd klass låter spelaren uppgradera en modul från uppgraderingsmenyn som förbättrar vagnens egenskaper avsevärt."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Åsamka fiendevagnar skada"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "samla krigsbyte på kartan"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Vagnsuppgraderingar i strid"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Du går i strid i en vagn klass I."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Moduler kan uppgraderas både från uppgraderingsmenyn under stridens gång (%(treeKey)s som standard) eller genom att samtidigt trycka %(leftModuleKey)s och %(rightModuleKey)s.\n\nModuler kan endast uppgraderas i strid."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "I strid:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Din pansarjägare får erfarenhet i strid genom att åsamka skada och samla krigsbyte. När angiven mängd erfarenhet samlats in når vagnen nästa klass och kan uppgradera en modul."
+
+msgid "levelUp/severalTitles"
+msgstr "MOTTAGNA NIVÅER: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "DU HAR NÅTT NIVÅ %(level)s!"
+
+msgid "levelUp/twoTitles"
+msgstr "MOTTAGNA NIVÅER: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Slutför uppdrag och få värdefulla belöningar."
+
+msgid "level_up/max_level_info/title"
+msgstr "Nya dagliga uppdrag tillgängliga"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Säsongen\nbörjar snart"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Säsongen börjar %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Blockerad"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Skada"
+
+msgid "playerStats/killsStat/name"
+msgstr "Förstörda"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Förstörda"
+
+msgid "playerStats/placeStat/name"
+msgstr "Placering"
+
+msgid "playerStats/title"
+msgstr "Personligt resultat"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Radiopejling ej tillgänglig: förberedelser pågår"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Vagnen är fullt stridsduglig. Inga fältreparationer krävs."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Understödsrobot förstörd"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s slog ut %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s förstörde %(target)s (fiende)."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Eldboll förstörd"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Minfält deaktiverat"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Minfält utlagt"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Radiopejling är redo för användning"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Vagnen har uppnått högsta möjliga klass"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Klass %(level)s uppnådd"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Monterat: %(moduleType)s. Uppgraderat: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Skrov"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Upphängning"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Motor"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Kanon"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Radiopejling"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Torn"
+
+msgid "playersPanel/title"
+msgstr "LAG"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Växla mellan plutonsvagnar."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Åskådarläge"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Tillbaka till garaget.\nGå i strid med en annan vagn."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Tillbaka till garaget"
+
+msgid "preBattle/buttonTitle"
+msgstr "TILL STRID!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Välj en karta"
+
+msgid "preBattle/listTitle"
+msgstr "SPELARE REDO"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Zon 404"
+
+msgid "preBattle/mapRandom"
+msgstr "Slumpvis karta"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "VAGNAR I PLUTON"
+
+msgid "preBattle/title"
+msgstr "DEN STORA JAKTEN"
+
+msgid "preBattle/userFooterTitle"
+msgstr "VALDA VAGNAR"
+
+msgid "preBattle/userNotReady"
+msgstr "Inte redo"
+
+msgid "preBattle/userReady"
+msgstr "Redo"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Säsong %(cycleNo)s på servern %(server)s har avslutats"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "Säsongen har avslutats på servern %(server)s."
+
+msgid "proxyPanel/button"
+msgstr "Affär"
+
+msgid "proxyPanel/label"
+msgstr "Stålsigill"
+
+msgid "proxyPanel/store"
+msgstr "AFFÄR"
+
+msgid "questsTooltip/timeLeft"
+msgstr "Säsongen avslutas om %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "Ingen tangent angiven för radiopejling"
+
+msgid "radar/hint/press"
+msgstr "Använd"
+
+msgid "radar/hint/text"
+msgstr "för att aktivera radiopejling"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Landa"
+
+msgid "selectRespawn/button/land"
+msgstr "Landa"
+
+msgid "selectRespawn/description"
+msgstr "Klicka på en av de föreslagna platserna. Om ingen plats anges landsätts du på någon av de föreslagna platserna."
+
+msgid "selectRespawn/header"
+msgstr "Välj landsättningsplats"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Klicka på en av de föreslagna platserna. Om ingen plats anges landsätts du på någon av de föreslagna platserna."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Din strid börjar här"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Välj landsättningsplats"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "HÄRJA!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Syra fräter på pansaret!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Zonen är avstängd! Lämna zonen omedelbart annars förstörs din vagn!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "Zonen blir snart röd"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Manöverförmågan minskad!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Tillbaka på banan..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Återställer träffpoäng"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Återställer träffpoäng"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Konverterar skada"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Tekniska egenskaper förbättrade"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Omladdning och reparationer"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Underhåll från luften"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Reparationslådor eller förmågor"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Krigsbyte"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Kombinerat krigsbyte: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Samlar in: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Underhållsplats"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Vreden svallar!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "I rök"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Vårt pansar fräts sönder!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Manöverförmågan minskad!"
+
+msgid "techParams/type/damage"
+msgstr "Skada"
+
+msgid "techParams/type/difficulty"
+msgstr "Svårighetsgrad"
+
+msgid "techParams/type/mobility"
+msgstr "Rörlighet"
+
+msgid "techParams/type/spotting"
+msgstr "Observation"
+
+msgid "techParams/type/survivability"
+msgstr "Överlevnad"
+
+msgid "techtree/body_armor"
+msgstr "Pansar"
+
+msgid "techtree/body_health"
+msgstr "Träffpoäng"
+
+msgid "techtree/body_mobility"
+msgstr "Rörlighet"
+
+msgid "techtree/engine_acceleration"
+msgstr "Acceleration"
+
+msgid "techtree/engine_speed"
+msgstr "Topphastighet"
+
+msgid "techtree/gun_alpha"
+msgstr "Skada per granat"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Automatladdare"
+
+msgid "techtree/gun_clip"
+msgstr "Magasinladdare"
+
+msgid "techtree/gun_dpm"
+msgstr "Omladdningstid"
+
+msgid "techtree/gun_dualgun"
+msgstr "Dubbelpjäs"
+
+msgid "techtree/gun_he"
+msgstr "Spränggranatskada"
+
+msgid "techtree/gun_machinegun"
+msgstr "Pansarvärnskulspruta"
+
+msgid "techtree/gun_piercing"
+msgstr "Pansargenomslag"
+
+msgid "techtree/radar_cooldown"
+msgstr "Nedkylningstid för radiopejling"
+
+msgid "techtree/radar_distance"
+msgstr "Pejlingsräckvidd"
+
+msgid "techtree/turret_armor"
+msgstr "Pansar"
+
+msgid "techtree/turret_health"
+msgstr "Träffpoäng"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Torntraverseringshastighet"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "Upp till {{credits}} krediter"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "Upp till {{experience}} erfarenhet"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Bonus för plutonsstrid"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Spela i pluton med en slumpvis allierad. Kämpa tillsammans mot nio fiendeplutoner. Plutonsuppdrag kan slutföras i dessa strider. Plutonen upplöses automatiskt när striden är över."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Klassisk Pansarjakt. Varje spelare kämpar för sig själv. Samla resurser, uppgradera din vagn och använd förmågor för att bli den sista överlevande!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Spela i pluton med en vän. Kämpa tillsammans mot nio fiendeplutoner. Plutonsuppdrag kan slutföras i dessa strider."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Slumpvis pluton"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Solostrider"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Pluton med en kamrat"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Solo"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Pluton"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Poängregler"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "Plats %(place)s"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "Plats %(place)s"
+
+msgid "tooltips/awards/achievement"
+msgstr "Medalj"
+
+msgid "tooltips/awards/badge"
+msgstr "Förtjänsttecken"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "När din vagn förstörs kan du återvända till strid. När det inträffar förlorar du inte någon uppgraderingsnivå. Kan bara användas ett begränsat antal gånger under varje strid."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Återvändningsladdningar kan fås från Underhåll från luften."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "För att hjälpa en allierad återvända behöver du hålla dig utanför strid under {brown_Open}%(timeToResurrect)s s{brown_Close}. Gäller bara under de första {brown_Open}%(duration)s min{brown_Close} av striden. Återvändningsladdningar delas mellan plutonsmedlemmar."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "När du spelar i pluton"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "När du förstörs återvänder du automatiskt till striden. Gäller bara under de första {brown_Open}%(duration)s min{brown_Close} av striden."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "När du spelar själv"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Engångs"
+
+msgid "tooltips/respawn/title"
+msgstr "Återvändning"
+
+msgid "tooltips/vehicle/description"
+msgstr "Specialvagn för Pansarjakt"
+
+msgid "tournament/description"
+msgstr "DEN STORA JAKTEN"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Inte redo"
+
+msgid "tournament/fightButton/ready"
+msgstr "Redo!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Kan inte gå med i turneringen. Felkod: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Fel i Den Stora Jakten. Felkod: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "DEN STORA JAKTEN"
+
+msgid "tournament/type/solo"
+msgstr "Typ: Solo"
+
+msgid "tournament/type/squad"
+msgstr "Typ: Pluton"
+
+msgid "upgradePanel/alert/0"
+msgstr "Du kan inte uppgradera vagnen!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Du kan inte uppgradera din vagn under aktiv strid!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Du kan inte uppgradera din vagn. Vagnen drunknar!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Du kan inte uppgradera din vagn! Vagnen har vält!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Tryck %(key)s för att öppna uppgraderingsmenyn"
+
+msgid "upgradePanel/title/default"
+msgstr "Nya moduler tillgängliga"
+
+msgid "upgradePanel/title/hull"
+msgstr "Nytt skrov tillgängligt"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Ny upphängning tillgänglig"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Ny motor tillgänglig"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Ny kanon tillgänglig"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Ny radio tillgänglig"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Nytt torn tillgängligt"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "ELLER"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Pansar"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Skada per granat"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Omladdningstid"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Träffpoäng"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Pansargenomslag"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Radiopejlingsutrustning"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Magasinomladdning"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Hastighet"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Vagnsegenskaper"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Fördelar"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Nackdelar"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Vapenvila råder på alla servrar. Strider åter tillgängliga om %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Välj en annan server"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Episod %(cycle)s har avslutats"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Episoden avslutad"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Vapenvila råder på denna server. Strider åter tillgängliga om %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Vapenvila råder på %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Episod %(cycle)s börjar om %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "Första episoden börjar om %(time)s"

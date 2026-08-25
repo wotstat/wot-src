@@ -1,0 +1,50 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "serviceChannelMessages/resourceWell/enabled/text"
+msgstr "Magazinul de Asamblare e din nou deschis!"
+
+msgid "serviceChannelMessages/resourceWell/end/text"
+msgstr "Începem munca la noul proiect. Te vom anunța când încheiem dezvoltarea. Ne vedem în curând!"
+
+msgid "serviceChannelMessages/resourceWell/end/title"
+msgstr "Magazinul de Asamblare se închide"
+
+msgid "serviceChannelMessages/resourceWell/noSerialVehicles/text"
+msgstr "Livrarea de vehicule numerotate e finalizată. Începem asamblarea lui %(vehicle)s în configurație standard. Grăbește-te, numărul de vehicule e limitat!"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/text"
+msgstr "Asamblarea de vehicule s-a încheiat. Toate vehiculele au fost livrate noilor proprietari."
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/title"
+msgstr "Raportul Magazinului de Asamblare"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/twoParallelProducts/text"
+msgstr "Livrarea lui %(soldOutVehicle)s s-a încheiat. Mai ai încă posibilitatea de a-l cumpăra pe %(availableVehicle)s. Dacă ai cheltuit resurse, dar nu ai finalizat achiziția în timp util, acestea vor reveni în scurt timp în contul tău. Grăbește-te, numărul de vehicule e limitat!"
+
+msgid "serviceChannelMessages/resourceWell/noVehiclesWithReturn/text"
+msgstr "Asamblarea vehiculelor e finalizată. Toate vehiculele au fost livrate noilor proprietari. Toate resursele îți vor fi înapoiate în curând."
+
+msgid "serviceChannelMessages/resourceWell/oneVehicleStart/text"
+msgstr "Comandante, ai șansa de a deveni proprietarul lui %(vehicle)s cu un stil 3D numerotat. Numărul de vehicule e limitat!"
+
+msgid "serviceChannelMessages/resourceWell/pause/text"
+msgstr "Magazinul de Asamblare este temporar indisponibil pentru întreținere."
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/additionalText"
+msgstr "Numărul stilului: %(serialNumber)s"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/text"
+msgstr "%(vehicle)s unic primit de la Magazinul de Asamblare."
+
+msgid "serviceChannelMessages/resourceWell/reward/title"
+msgstr "%(vehicle)s primit!"
+
+msgid "serviceChannelMessages/resourceWell/reward/vehicle/text"
+msgstr "%(vehicle)s primit de la Magazinul de Asamblare."
+
+msgid "serviceChannelMessages/resourceWell/start/title"
+msgstr "Magazinul de Asamblare se deschide"
+
+msgid "serviceChannelMessages/resourceWell/twoVehiclesStart/text"
+msgstr "Comandante, iată șansa ta de a pune mâna pe %(firstVehicle)s și %(secondVehicle)s! Grăbește-te: stocurile sunt limitate!"

@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Atiestatīt filtrus"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Nav tanku, kas atbilst izvēlētajiem parametriem.\nLai redzētu atbilstošos tankus, nepieciešams atiestatīt filtra iestatījumus."
+
+msgid "battleType/description/fast"
+msgstr "Scenārijs ar samazinātu Kaujas Rezerves atjaunošanās laiku."
+
+msgid "battleType/description/random"
+msgstr "Scenārijs, kur spēlētāji izvēlas starp nejaušu Rezervju komplektiem ar iespēju uzlabot tos līdz IV Līmenim."
+
+msgid "battleType/description/standard"
+msgstr "Scenārijs ar standarta Frontes Līnijas noteikumiem."
+
+msgid "battleType/postBattle/title"
+msgstr "Kaujas Scenārijs: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Samazināts Rezervju atjaunošanās laiks."
+
+msgid "battleType/shortDescription/random"
+msgstr "Kaujas Rezerves tiek sniegtas nejauši."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Tiek piemēroti standarta noteikumi."
+
+msgid "battleType/title/fast"
+msgstr "Darbojošs Atbalsts"
+
+msgid "battleType/title/random"
+msgstr "Likteņa Pagrieziens"
+
+msgid "battleType/title/standard"
+msgstr "Standarta Kauja"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "ATPAKAĻ"
+
+msgid "button/close"
+msgstr "AIZVĒRT"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} diena"
+msgstr[1] "{duration} dienas"
+msgstr[2] "{duration} dienas"
+
+msgid "filterPopover/note"
+msgstr "Tiek rādīti tikai tanki, kurus var izmantot režīmā."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Kaujas Rezerves Līmeņi tiek palielināti sasniedzot jaunus rangus."
+
+msgid "levelReservesTooltip/info"
+msgstr "{whiteSpanish_Start}Likteņa Pagrieziens{whiteSpanish_End} scenārijā, Kaujas Rezerves nopirkšana palielinās tās līmeni par vienu un sniegs iespēju uzlabot to līdz {whiteSpanish_Start}%(lvl)s{whiteSpanish_End} Līmenim."
+
+msgid "levelReservesTooltip/level"
+msgstr "Palielinās sasniedzot sekojošo rangu: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Pieejams ar sekojošo rangu: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "{whiteSpanish_Start}%(lvl)s{whiteSpanish_End} Līmenis"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "Par {whiteSpanish_Start}nopirktajām Kaujas Rezervēm{whiteSpanish_End} {whiteSpanish_Start}Likteņa Pagrieziens{whiteSpanish_End} scenārijā."
+
+msgid "levelReservesTooltip/title"
+msgstr "Kaujas Rezerves Līmeņi"
+
+msgid "loading"
+msgstr "Lādējas..."
+
+msgid "widget/eventStartSoon"
+msgstr "Notikums drīz sāksies!"
+
+msgid "widget/maxTier"
+msgstr "Tu esi sasniedzis maksimālo līmeni!"

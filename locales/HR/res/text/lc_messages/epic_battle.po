@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "Upravljanje pričuvama"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "Kliknite za odabir dostupne borbene pričuve."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "Bombe"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "Područje udara"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "Ošamuti"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "Raspoređivanje"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "Broj mina"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "Trajanje minskog polja"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "Ošamuti"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "Polumjer štete"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "Trajanje"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "Granate"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "Hlađenje"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "Raspoređivanje"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "Trajanje"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "Broj obnovljenih HP"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "Količina trenutne obnove HP po uključenju"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "Umanjena šteta primljena od mina"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "Bonus na brzinu obnove HP unutar kruga opskrbe"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "Izvedba posade"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "Trajanje"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "Vrijeme smirivanja"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "Polumjer učinka"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "Izvedba posade vašeg vozila"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "Povećana zaštita"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "Bonus zauzeća"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "Osvježenje kruga opskrbe"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "Brzina opskrbe streljivom"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "Vrijeme dolaska"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "Područje udara"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750 m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "Trajanje osmatranja"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "Pogoršana izvedba posade"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "Dimne granate"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "Područje udara"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "Trajanje"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "Smanjeni vidokrug neprijateljskih vozila"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "Smanjenje skrovitosti neprijateljskih vozila iza raslinja"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "Smanjenje skrovitosti neprijateljskih vozila u pokretu"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "Trajanje"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "Bonus na skrovitost nepokretnog vozila"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "Pasivni bonus na vidokrug"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "Razina pričuva"
+
+msgid "abilityInfo/properties/static"
+msgstr "Trajne karakteristike"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "s"
+
+msgid "advance_message_txt"
+msgstr "Napredovanje na Bojišnicu"
+
+msgid "advance_mission_txt"
+msgstr "Napredovanje na Bojišnicu"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "DETALJI SCENARIJA"
+
+msgid "awards/acceptButton"
+msgstr "Razumijem!"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "PRIMLJENE NAGRADE"
+
+msgid "awards/subTitle2"
+msgstr "NAGRADA PRIMLJENA"
+
+msgid "awards/title"
+msgstr "BOJIŠNICA"
+
+msgid "base/contested_atk"
+msgstr "Pobijano"
+
+msgid "base/contested_def"
+msgstr "Pod napadom"
+
+msgid "battleResults/armor"
+msgstr "Korištenje oklopa"
+
+msgid "battleResults/assistance"
+msgstr "Pomoć"
+
+msgid "battleResults/crits"
+msgstr "Kritična šteta"
+
+msgid "battleResults/damage"
+msgstr "Šteta"
+
+msgid "battleResults/kill"
+msgstr "Uništen"
+
+msgid "battleResults/spotting"
+msgstr "Otkriven"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "x1 osobne pričuve: %(effectValue)s na iskustvo posade na %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "x1 osobne pričuve: %(effectValue)s na slobodno iskustvo na %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "x1 osobne pričuve: %(effectValue)s na borbeno iskustvo na %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Napadni cilj %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Obrani cilj %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Pozor na položaj!"
+
+msgid "command_shortcut/title"
+msgstr "Zapovijedi"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "Bojište blokirano-dosegnuta granica igrača"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "Područje opasnosti"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "Bojište blokirano-dosegnuta granica tipa vozila"
+
+msgid "dialogs/quotedName"
+msgstr "\"%(name)s\""
+
+msgid "dialogs/title/buy/item"
+msgstr "Kupiti %(name)s %(type)s?"
+
+msgid "dialogs/title/buy/items"
+msgstr "Kupiti %(type)s?"
+
+msgid "dialogs/title/install/item"
+msgstr "Uključiti %(name)s %(type)s?"
+
+msgid "dialogs/title/install/items"
+msgstr "Uključiti %(type)s?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "Skupi traženi broj bodova i aktiviraj borbene pričuve Bojišnice."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "Skupi traženi broj bodova i aktiviraj borbene pričuve Bojišnice."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "Bodovi borbene pričuve"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "Vozila %(level)s će biti otključana za bitku nakon osvajanja/gubitka bilo kojeg boda u drugoj liniji (D, E ili F)."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "razine %(lvl)s"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "Odaberi vozilo razine VIII za režim Bojišnice."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "Nekompatibilno vozilo"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "Sakupiti"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "Max"
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "Borbene pričuve"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "Razina zapovjednika"
+
+msgid "epictraining/info/otherLabel"
+msgstr "Neraspoređeni igrači: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "Napadači ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "Branitelji ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "Sva neprijateljska vozila uništena"
+
+msgid "game/all_hqs_destroyed"
+msgstr "Svi ciljevi uništeni"
+
+msgid "game/all_tanks_defeated"
+msgstr "Sva saveznička vozila uništena"
+
+msgid "game/defeat"
+msgstr "Poraz!"
+
+msgid "game/draw"
+msgstr "Neriješeno!"
+
+msgid "game/time_over"
+msgstr "Ciljevi su preživjeli"
+
+msgid "game/victory"
+msgstr "Pobjeda!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "Uništi ciljeve!"
+
+msgid "global_msg/atk/time_short"
+msgstr "Osvoji zonu!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "Obrani ciljeve!"
+
+msgid "global_msg/def/time_short"
+msgstr "Obrani zone!"
+
+msgid "global_msg/lane/center_short"
+msgstr "Osnaži zonu %(strArg1)s!"
+
+msgid "global_msg/lane/east_short"
+msgstr "Osnaži zonu %(strArg1)s!"
+
+msgid "global_msg/lane/west_short"
+msgstr "Osnaži zonu %(strArg1)s!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "Čuvaj svoje tenkove!"
+
+msgid "help_window/communication"
+msgstr "Područje komunikacije"
+
+msgid "help_window/communication/description"
+msgstr "Možete dobiti zapovijedi samo od saveznika koji su u vašem vidljivom području minimape ili kada je cilj zapovijedi u tom području."
+
+msgid "help_window/overview_map"
+msgstr "Strateška mapa"
+
+msgid "help_window/overview_map/description"
+msgstr "Strateška mapa se koristi za taktički i strateški pregled bojišnice. Kada je ona otvorena, može se slati komunikacija cijelog tima i mogu se slati i primati poruke."
+
+msgid "help_window/recovery"
+msgstr "Oporavak"
+
+msgid "help_window/recovery/description"
+msgstr "Oporavak se daje samouništenom vozilu koje je zapelo na terenu. Ova mehanika igre je potrebna zbog produženog trajanja bitke i mogućnost oživljavanja potrebuje stalni angažman igrača."
+
+msgid "help_window/reserves"
+msgstr "Pričuve vozila"
+
+msgid "help_window/reserves/description"
+msgstr "Svakih nekoliko minuta se dodaje jedno vozilo u vašu pričuvu. Pričuva može imati najviše dva vozila. Kada više nema vozila, ne možete se razmjestiti i morate pričekati dok se ne dostave nova vozila."
+
+msgid "hq/under_attack_atk"
+msgstr "Pod napadom"
+
+msgid "hq/under_attack_def"
+msgstr "Pod napadom"
+
+msgid "in_game_rank/experience_text"
+msgstr "XP"
+
+msgid "lane_central_name"
+msgstr "Centar"
+
+msgid "lane_east_name"
+msgstr "Istok"
+
+msgid "lane_west_name"
+msgstr "Zapad"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "Razina %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "Sticanje je nedostupno: nemate bodova osobne pričuve."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "Borbena pričuva je dosegla najveću razinu."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "Sticanje je nedostupno: nemate bodova osobne pričuve."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "Borbena pričuva nije kupljena"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "Razina borbene pričuve se povećava nakon dosizanja rangova satnika i bojnika. Najveću razinu određuje scenarij bitke."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "Cijena kupnje: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "Glavni cilj"
+
+msgid "mission/title"
+msgstr "Zadatak"
+
+msgid "mission/zone_closing_atk"
+msgstr "Zona se otvara za: "
+
+msgid "mission/zone_closing_def"
+msgstr "Neprijateljsko bombardiranje za: "
+
+msgid "missions/primary/atk/base"
+msgstr "Osvoji zonu"
+
+msgid "missions/primary/atk/hq"
+msgstr "Uništi cilj"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s od %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "Uništeno ciljeva:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "Osvojite zone kako bi dosegli glavni cilj. Uništite glavni cilj."
+
+msgid "missions/primary/def/base"
+msgstr "Obrani zonu"
+
+msgid "missions/primary/def/hq"
+msgstr "Obrani cilj"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s od %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "Izgubljeno ciljeva:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "Obrani glavni cilj dok ne istekne vrijeme ili uništi sve napadače."
+
+msgid "missions/unlockTankLevel"
+msgstr "Dostupna vozila razine IX"
+
+msgid "overtime/label"
+msgstr "PRODUŽETAK"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "Nije moguće aktivirati dvije identične pričuve"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "Nije moguće postaviti minsko polje. Minska polja se križaju."
+
+msgid "primeTime/applyBtn"
+msgstr "Nastavi"
+
+msgid "primeTime/cancelBtn"
+msgstr "Odustani"
+
+msgid "primeTime/continueBtn"
+msgstr "Nastavi"
+
+msgid "primeTime/endOfCycle"
+msgstr "Režim na serveru %(server)s je završio."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "Dostupni serveri:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "Dostupni server: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "Bitke na %(server)s će biti dostupne još %(time)s"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "Slijedeće bitke na %(server)s za %(time)s"
+
+msgid "primeTime/serverTooltip"
+msgstr "Server %(server)s \n Bitke će biti dostupne još %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Bitke će biti dostupne za %(time)s"
+
+msgid "primeTime/servers"
+msgstr "Dostupni serveri: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Bitke na serveru %(server)s su završile"
+
+msgid "primeTime/status/disable"
+msgstr "Možete se prebaciti na server Bojišnice kako bi nastavili s pripremama prije bitke."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "Ovaj režim je nedostupan na serveru %(server)s"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "Primirje je na snazi na serveru %(server)s do %(startTime)s"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "Primirje je na snazi na svim serverima"
+
+msgid "primeTime/status/thisEnable"
+msgstr "Na serveru %(server)s, Bojišnica je dostupna još %(time)s."
+
+msgid "primeTime/steelhunter/title"
+msgstr "ČELIČNI LOVAC"
+
+msgid "primeTime/title"
+msgstr "BOJIŠNICA"
+
+msgid "primeTime/titleWelcome"
+msgstr "DOBRODOŠLI\nNA BOJIŠNICU"
+
+msgid "progress_timers/active"
+msgstr "Aktivno"
+
+msgid "progress_timers/fully_equipped"
+msgstr "Potpuno opremljen"
+
+msgid "progress_timers/resupply"
+msgstr "Krug opskrbe"
+
+msgid "progress_timers/unavailable"
+msgstr "Nedostupno"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "Zadaci Bojišnice"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "manje od jednog dana"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "dosegnu razinu %(level)s"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "Novi zadaci će biti dostupni u %(time)s"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "Zadaci Čeličnog lovca"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "Bojišnica završava za: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "Nedostupno: %(reason)s."
+
+msgid "rank/allReserveUpgraded"
+msgstr "Sve razine borbene pričuve povećane"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "Tim bonus na izvedbu posade povećan na +%(percent)s%%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "Maksimalna izvedba posade je dosegnuta na +%(percent)s%%"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "Tim bonus na izvedbu posade +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "Igrač"
+
+msgid "rank/promotion"
+msgstr "promaknut u %(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "Vojnik"
+
+msgid "rank/rank2"
+msgstr "Narednik"
+
+msgid "rank/rank3"
+msgstr "Poručnik"
+
+msgid "rank/rank4"
+msgstr "Kapetan"
+
+msgid "rank/rank5"
+msgstr "Bojnik"
+
+msgid "rank/rank6"
+msgstr "General"
+
+msgid "rank/recerveUnlocked"
+msgstr "Borbena pričuva %(reserveName)s otključana"
+
+msgid "rank/reserveUpgraded"
+msgstr "Borbena pričuva %(reserveName)s poboljšana"
+
+msgid "rank/slotUnlocked"
+msgstr "%(slotNumber)s borbena pričuva otključana"
+
+msgid "rank/slot_2"
+msgstr "2."
+
+msgid "rank/slot_3"
+msgstr "3."
+
+msgid "recovery/Blocked"
+msgstr "Privremeno\nblokiran"
+
+msgid "recovery/disabled"
+msgstr "Oporavak nedostupan"
+
+msgid "recovery_panel/base_text"
+msgstr "Kliknite J\nza oporavak"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "Pokrenite se ili pucajte za otkazivanje."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "Popravak\notkazan"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "Popravak\nzatražen"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "Osvoji slijedeću bazu"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "Pojačanja za "
+
+msgid "reinforcement/unavailable"
+msgstr "Pojačanja nedostupna"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s do automatskog razmještaja."
+
+msgid "respawn/deploy_button"
+msgstr "U bitku!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "Poboljšani potrošni materijal se ne može kupiti u bitci."
+
+msgid "respawn/shop_title"
+msgstr "Servis"
+
+msgid "respawn/tanks_left"
+msgstr "preostalo vozila"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "Odaberite vozilo i područje razmještanja"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "Razmještanje u ovom području je opasno."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s sekundi"
+
+msgid "retreat_message_txt"
+msgstr "Povlačenje"
+
+msgid "retreat_mission_txt"
+msgstr "Povlačenje u slijedeću zonu"
+
+msgid "rewardSelection/subTitle"
+msgstr "ODABERITE SVOJU NAGRADU"
+
+msgid "rewardSelection/title"
+msgstr "BOJIŠNICA"
+
+msgid "scorePanel/stage1"
+msgstr "Etapa 1"
+
+msgid "scorePanel/stage2"
+msgstr "Etapa 2"
+
+msgid "scorePanel/stage3"
+msgstr "Etapa 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "Performanse vašeg računala su nedovoljne za ovaj režim. Možete imati poteškoća s grafikom i kretanjem vozila. Moguće je i rušenje klijenta igre."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "Niske performanse"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "U slučaju nedovoljnih performansi, pokušajte s nižom kvalitetom grafike u postavkama."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "Ovaj režim zahtjeva visoke performanse računala"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "Ovaj režim zahtjeva visoke performanse računala. Možda ćete imati poteškoća s učitavanjem mape, grafikom i kretanjem vozila. U slučaju nedovoljnih performansi, pokušajte umanjiti kvalitetu grafike u vašim postavkama."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "Niske performanse"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "Bitke 30 na 30 u %(bodyVehicleLevel)s. Iskoristite mehaniku oživljavanja, borbene pričuve kao i krugove opskrbe."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "vozilima razine %(level)s"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "Bitke 30 na 30 u %(bodyVehicleLevel)s. Iskoristite mehaniku oživljavanja, borbene pričuve kao i popravke u bitci."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "Režim je privremeno nedostupan zbog tehničkih problema."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "Bojišnica"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "Bitke počinju za: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "Bitke završavaju za: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "Raspored bitke"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "Danas"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "Sutra"
+
+msgid "skill/category/firesupport"
+msgstr "Jurišne pričuve"
+
+msgid "skill/category/reconnaissance"
+msgstr "Pričuve izviđanja"
+
+msgid "skill/category/tactics"
+msgstr "Taktičke pričuve"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "Kamera režima promatrača"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "Rotirajte kameru mišem."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "Koristite W, A, S, D za pomicanje kamere po mapi."
+
+msgid "spectator_mode/follow_text"
+msgstr "Lijevi klik za početak praćenja."
+
+msgid "spectator_mode/follow_title"
+msgstr "Prati"
+
+msgid "spectator_mode/msg_text"
+msgstr "Vozilo stiže za:"
+
+msgid "spectator_mode/msg_title"
+msgstr "Sva vozila uništena!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "Kliknite opet za prestanak praćenja."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "Prestani pratiti"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s dana"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s sati"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "Blokiran"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Napustite zonu!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Obnavljanje HP"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Obnavljanje HP"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Nadahnjujući"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "Nadahnjujući"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Krug opskrbe"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Unutar dima: skriven."
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "Unutar dima. Vidokrug i izvedba posade pogoršani."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "Vrijeme hlađenja. Vidokrug i izvedba posade pogoršani."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "Stražar aktiviran"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "Aktivira %(activationDelay)s s nakon zaustavljanja vozila"
+
+msgid "super_platoon_panel/title"
+msgstr "Vod"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "-ukupni timski bonus na izvedbu posade za prisustvo generala."
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "Svi frontovi"
+
+msgid "tab_screen/show_my_lane"
+msgstr "Moj front"
+
+msgid "team1Name"
+msgstr "Napadači"
+
+msgid "team2Name"
+msgstr "Branitelji"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "Odaberite nagrade za završetak razina Bojišnice (%(number)s)."
+
+msgid "tooltips/common/disabled"
+msgstr "Režim nedostupan"
+
+msgid "tooltips/common/title"
+msgstr "Bojišnica"
+
+msgid "tooltips/end"
+msgstr "Akcija je završila"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "naredba otključavanja borbenih pričuva ovisi o tipu vozila. Jedna borbena pričuva je dostupna od početka dok se ostale otključavaju po dosizanju rangova narednika i poručnika."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "Otključavanje: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "U scenariju <font color='#E9E2BF'>Zaplet sudbine</font> kupnja borbena pričuve će povećati njenu razinu za jedan i dati priliku za poboljšanje do razine <font color='#E9E2BF'>IV</font>."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "Borbena pričuva smještena u mjesto povećava vjerojatnost njene ponude u scenariju <font color='#E9E2BF'>Zaplet sudbine</font> za <font color='#E9E2BF'>10%</font>."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "Otključavanje i poboljšanje pričuva u bitci"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "Borbene pričuve se otključavaju i poboljšavaju u bitci, ovisno o¸tipu vozila i rangu koji dosegnete."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "Pričuvne konfiguracija za lovce na tenkove"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "Pričuvne konfiguracija za samohodne topove"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "Pričuvne konfiguracija za teške tenkove"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "Pričuvne konfiguracija za lake tenkove"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "Pričuvne konfiguracija za srednje tenkove"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "nakon otključavanja svih borbenih pričuva po dosizanju novih rangova, ove borbene pričuve se poboljšavaju. Prvotno otključana borbena pričuva se može unaprijediti do razine III, a druga otključana borbena pričuva se može unaprijediti do razine II."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "Poboljšavanje: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "Mjesto će biti otključano po dosizanju ranga %(rank)s."
+
+msgid "tooltips/timeToEnd"
+msgstr "Režim dostupan: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "Bitke počinju za: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "Akcija je završila"
+
+msgid "tooltips/widget/level"
+msgstr "Razina %(level)s"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "Dosegnuta je najveća razina."
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "BORBENE PRIČUVE"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Primirje je na snazi na svim serverima. Bitke će biti dostupne za %(time)s"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "Bitke uskoro dolaze"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Odaberite drugi server"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "Detalji"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "Režim Bojišnice je završio"
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "Scenariji Bojišnice"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Primirje je na snazi na ovom serveru. Bitke će biti dostupne za %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Primirje je na snazi na %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "Bitke će početi za: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "Kliknite i saznajte više o scenarijima\nBojišnice i njihovim međusobnim razlikama."
+
+msgid "zone/arrived_text"
+msgstr "Stigao!"
+
+msgid "zone/capture_text"
+msgstr "Osvoji"
+
+msgid "zone/captured_text"
+msgstr "Osvojeno"
+
+msgid "zone/defend_text"
+msgstr "Obrani"
+
+msgid "zone/destroy_text"
+msgstr "Uništi"
+
+msgid "zone/destroyed_text"
+msgstr "Uništen"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "Neprijateljska pojačanja"
+
+msgid "zone/headquarters_text"
+msgstr "Ciljevi"
+
+msgid "zone/leave_zone"
+msgstr "Napusti zonu!"
+
+msgid "zone/lost_text"
+msgstr "Izgubljen"
+
+msgid "zone/reached_text"
+msgstr "Dosegnut"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "Neprijateljska pojačanja:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "Pojačanja:"
+
+msgid "zone/reinforcements_text"
+msgstr "Pojačanja"
+
+msgid "zone/time_added"
+msgstr "Dodano minuta: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "Preostalo %(minutes)s minuta"
+
+msgid "zone/zone_text"
+msgstr "Zona"

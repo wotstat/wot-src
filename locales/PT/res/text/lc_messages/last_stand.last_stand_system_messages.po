@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Dispositivo Tático"
+
+msgid "open_artefact/server_error"
+msgstr "A operação está temporariamente indisponível. Tente novamente mais tarde."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Falha ao reabastecer os Dispositivos Táticos para o %s. Falha técnica"
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Falha ao reabastecer os Dispositivos Táticos para o %s. Fundos insuficientes."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Dispositivos Táticos para %s reabastecidos. Gastou "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Registos disponíveis para descodificação"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Modo: Última Posição: Terra Nord"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Última Posição: Terra Nord (Regular)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Última Posição: Terra Nord (Avançada)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Última Posição: Terra Nord (Brutal)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Dificuldade"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Regular"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Avançada"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Brutal"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Dados"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Objetivo concluído!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Objetivos concluídos!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Veículo"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Onda concluídas: %(curPhase)s de %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Gasto%(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Transação Financeira"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Pode selecionar o nível de dificuldade no painel de dificuldade na Garagem da Última Posição."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Dificuldade Avançada Desbloqueada"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Pode selecionar o nível de dificuldade no painel de dificuldade na Garagem da Última Posição."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Dificuldade Brutal Desbloqueada"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Pode selecionar o modo no painel de dificuldade na Garagem da Última Posição: Operação Pandora."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Modo Última Posição Desbloqueado"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Chaves de Desencriptação recebidas: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Recibo"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Chaves removidas: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Desencriptação Bem Sucedida"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "As batalhas na Última Posição estão temporariamente indisponíveis.\nTente novamente mais tarde."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "As batalhas de dificuldade %(difficulty)s estão temporariamente indisponíveis. Tente novamente mais tarde."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Última Posição não está disponível de momento. Consulte o portal do jogo para atualizações."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "O Comandante do Pelotão alterou a dificuldade para: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "O jogador %(userName)s não desbloqueou um dos níveis de dificuldade."

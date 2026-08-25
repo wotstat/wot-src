@@ -1,0 +1,50 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "serviceChannelMessages/resourceWell/enabled/text"
+msgstr "Warsztat jest znowu otwarty!"
+
+msgid "serviceChannelMessages/resourceWell/end/text"
+msgstr "Rozpoczynamy prace nad kolejnym projektem. Damy znać, kiedy je ukończymy. Do zobaczenia wkrótce!"
+
+msgid "serviceChannelMessages/resourceWell/end/title"
+msgstr "Warsztat kończy pracę"
+
+msgid "serviceChannelMessages/resourceWell/noSerialVehicles/text"
+msgstr "Dostawa pojazdów z numerami skończona. Rozpoczynamy składanie %(vehicle)s w standardowej konfiguracji. Pospiesz się – liczba pojazdów jest ograniczona!"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/text"
+msgstr "Składanie pojazdów zakończone. Wszystkie pojazdy dostarczono do ich właścicieli."
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/title"
+msgstr "Raport warsztatowy"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/twoParallelProducts/text"
+msgstr "Dostawa %(soldOutVehicle)s zakończona. Wciąż masz możliwość zakupić %(availableVehicle)s. Jeśli wydałeś zasoby, ale nie ukończyłeś zakupu na czas, zostaną one wkrótce zwrócone na Twoje konto. Pospiesz się – liczba pojazdów jest ograniczona!"
+
+msgid "serviceChannelMessages/resourceWell/noVehiclesWithReturn/text"
+msgstr "Składanie pojazdów zakończone. Wszystkie pojazdy dostarczono do ich właścicieli. Wszystkie wydane zasoby zostaną wkrótce zwrócone na Twoje konto."
+
+msgid "serviceChannelMessages/resourceWell/oneVehicleStart/text"
+msgstr "Dowódco, masz szansę stać się właścicielem %(vehicle)s ze stylem 3D z numerem. Liczba pojazdów jest ograniczona!"
+
+msgid "serviceChannelMessages/resourceWell/pause/text"
+msgstr "Warsztat jest tymczasowo niedostępny ze względu na prace konserwacyjne."
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/additionalText"
+msgstr "Numer stylu: %(serialNumber)s"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/text"
+msgstr "Otrzymano z warsztatu unikalny %(vehicle)s."
+
+msgid "serviceChannelMessages/resourceWell/reward/title"
+msgstr "Otrzymano %(vehicle)s!"
+
+msgid "serviceChannelMessages/resourceWell/reward/vehicle/text"
+msgstr "Otrzymano z warsztatu %(vehicle)s."
+
+msgid "serviceChannelMessages/resourceWell/start/title"
+msgstr "Warsztat rozpoczyna pracę"
+
+msgid "serviceChannelMessages/resourceWell/twoVehiclesStart/text"
+msgstr "Dowódco, to Twoja szansa, aby zdobyć %(firstVehicle)s i %(secondVehicle)s! Ale pospiesz się – zapasy są ograniczone!"

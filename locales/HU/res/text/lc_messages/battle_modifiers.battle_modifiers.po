@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "domain/accuracy/description"
+msgstr "Egy sor paraméter, ami megmutatja az ellenségre való tüzelés általános hatékonyságát."
+
+msgid "domain/accuracy/name"
+msgstr "Tüzelési hatékonyság"
+
+msgid "domain/armorPiercing/description"
+msgstr "Egy sor paraméter, ami megmutatja a jármű képességét az ellenséges páncélzat átütésére."
+
+msgid "domain/armorPiercing/name"
+msgstr "Páncélátütés"
+
+msgid "domain/battleParams/description"
+msgstr "Egy sor paraméter, ami megmutatja a játékmenet fő mechanikáit."
+
+msgid "domain/battleParams/name"
+msgstr "Csata paraméterek"
+
+msgid "domain/comp7LightSeasonModifiers/description"
+msgstr "Játékmód-specifikus módosítók, amelyek megváltoztatják a jármű paramétereit."
+
+msgid "domain/comp7LightSeasonModifiers/name"
+msgstr "Roham Light módosítók"
+
+msgid "domain/comp7SeasonModifiers/description"
+msgstr "Mód-specifikus módosítók, amelyek megváltoztatják a jármű paramétereit."
+
+msgid "domain/comp7SeasonModifiers/name"
+msgstr "Roham módosítók"
+
+msgid "domain/concealment/description"
+msgstr "Egy sor paraméter, ami megmutatja a jármű képességét, hogy álcázva maradjon."
+
+msgid "domain/concealment/name"
+msgstr "Álcázás"
+
+msgid "domain/damageDealing/description"
+msgstr "Egy sor paraméter, ami megmutatja a jármű képességét, hogy sebzést okozzon."
+
+msgid "domain/damageDealing/name"
+msgstr "Sebzés okozása"
+
+msgid "domain/mobility/description"
+msgstr "Egy paraméter sor, ami megmutatja a járműved mozgékonysági és sebesség jellemzőit."
+
+msgid "domain/mobility/name"
+msgstr "Manőverezhetőség és mozgékonyság"
+
+msgid "domain/randomization/description"
+msgstr "Egy paraméter sor, ami megmutatja a potenciális sebzést és átütést."
+
+msgid "domain/randomization/name"
+msgstr "Véletlenszerű értékek"
+
+msgid "domain/sustaining/description"
+msgstr "Egy sor paraméter, ami megmutatja a sérült modulok/legénységi tagok helyreállítását."
+
+msgid "domain/sustaining/name"
+msgstr "Helyreállítás"
+
+msgid "domain/visibility/description"
+msgstr "Egy sor paraméter, ami megmutatja a jármű képességét, hogy felderítse az ellenségeket."
+
+msgid "domain/visibility/name"
+msgstr "Látótávolság"
+
+msgid "domain/vitality/description"
+msgstr "Egy paraméter sor, amely megmutatja a járműved képességét, hogy túléljen egy csatát."
+
+msgid "domain/vitality/name"
+msgstr "Ellenállóság"
+
+msgid "modifier/name/aimingTime"
+msgstr "Célzási sebesség"
+
+msgid "modifier/name/ammoBayHealth"
+msgstr "A lőszerrekesz ellenállósága"
+
+msgid "modifier/name/autoreloadTime"
+msgstr "A tártöltős járművek újratöltési ideje"
+
+msgid "modifier/name/battleLength"
+msgstr "Csata idő"
+
+msgid "modifier/name/bkMaxSpeed"
+msgstr "Maximális tolatási sebesség"
+
+msgid "modifier/name/burstInterval"
+msgstr "A tárban lévő lövedékek újratöltési ideje"
+
+msgid "modifier/name/chassisHealth"
+msgstr "Az alváz tartóssága"
+
+msgid "modifier/name/clipInterval"
+msgstr "A tárból leadott lövések közötti újratöltési idő"
+
+msgid "modifier/name/damageRandomization"
+msgstr "Potenciális sebzési tartomány"
+
+msgid "modifier/name/deviceDamageFirst"
+msgstr "Belső modul sérülése"
+
+msgid "modifier/name/dispFactorAfterShot"
+msgstr "Szórás tüzelés után"
+
+msgid "modifier/name/dispFactorChassisMovement"
+msgstr "Szórás mozgás közben"
+
+msgid "modifier/name/dispFactorChassisRotation"
+msgstr "Szórás a járműtest forgása közben"
+
+msgid "modifier/name/dispFactorTurretRotation"
+msgstr "Szórás a torony forgása közben"
+
+msgid "modifier/name/dispFactorWhileGunDamaged"
+msgstr "Szórás sérült járművel"
+
+msgid "modifier/name/engineFireFactor"
+msgstr "Motortűz esélye"
+
+msgid "modifier/name/engineHealth"
+msgstr "A motor tartóssága"
+
+msgid "modifier/name/enginePower"
+msgstr "Motorteljesítmény"
+
+msgid "modifier/name/envChassisDamage"
+msgstr "Felfüggesztés sérülés becsapódáskor"
+
+msgid "modifier/name/envHullDamage"
+msgstr "Járműtest sérülés becsapódáskor"
+
+msgid "modifier/name/envModuleDamageChance"
+msgstr "A többi modul sérülése becsapódáskor"
+
+msgid "modifier/name/envTankmanDamageChance"
+msgstr "Legénység sérülése becsapódáskor"
+
+msgid "modifier/name/equipmentCooldown"
+msgstr "A fogyócikk visszatöltési ideje"
+
+msgid "modifier/name/fuelTankHealth"
+msgstr "Az üzemanyagtartály tartóssága"
+
+msgid "modifier/name/fwMaxSpeed"
+msgstr "Végsebesség"
+
+msgid "modifier/name/gravityFactor"
+msgstr "Jármű gravitáció"
+
+msgid "modifier/name/gunHealth"
+msgstr "A löveg tartóssága"
+
+msgid "modifier/name/gunRotationSpeed"
+msgstr "Löveg mozgatási sebesség fix felépítménnyel"
+
+msgid "modifier/name/invisibilityOnMove"
+msgstr "Álcázás mozgás közben"
+
+msgid "modifier/name/invisibilityOnStill"
+msgstr "Álcázás mozdulatlan járműnél"
+
+msgid "modifier/name/normalizationAngle"
+msgstr "Lövedék normalizáció"
+
+msgid "modifier/name/piercingPowerRandomization"
+msgstr "Potenciális átütési tartomány"
+
+msgid "modifier/name/radioDistance"
+msgstr "Rádió-hatótávolság"
+
+msgid "modifier/name/reloadTime"
+msgstr "Újratöltési időtöltési idő"
+
+msgid "modifier/name/repairSpeed"
+msgstr "Javítási sebesség"
+
+msgid "modifier/name/ricochetAngle"
+msgstr "Lövedék lepattanási szög. Minél élesebb a szög, annál nagyobb a lepattanás esélye"
+
+msgid "modifier/name/rotationSpeedOnStill"
+msgstr "Járműtest forgási sebesség"
+
+msgid "modifier/name/shellGravity"
+msgstr "Lövedék gravitáció"
+
+msgid "modifier/name/shellSpeed"
+msgstr "Lövedék sebesség"
+
+msgid "modifier/name/shotDispersionRadius"
+msgstr "Szórás 100 méteren"
+
+msgid "modifier/name/surveyingDeviceHealth"
+msgstr "A megfigyelőeszköz tartóssága"
+
+msgid "modifier/name/turretPressureDamage"
+msgstr "Megsemmisült torony nyomásától elszenvedett sebzés"
+
+msgid "modifier/name/turretRammingDamage"
+msgstr "Megsemmisült toronytól elszenvedett sebzés"
+
+msgid "modifier/name/turretRotationSpeed"
+msgstr "Torony forgási sebesség"
+
+msgid "modifier/name/turretRotatorHealth"
+msgstr "A toronyforgató mehanizmus tartóssága"
+
+msgid "modifier/name/twinGunReloadTime"
+msgstr "Lövegtöltés sortűz módban"
+
+msgid "modifier/name/vehicleAoIRadius"
+msgstr "Megjelenítési távolság"
+
+msgid "modifier/name/vehicleHealth"
+msgstr "Járműtartósság"
+
+msgid "modifier/name/vehiclePressureDamage"
+msgstr "Nyomástól elszenvedett sebzés"
+
+msgid "modifier/name/vehicleRammingDamage"
+msgstr "Ütközéstől elszenvedett sebzés"
+
+msgid "modifier/name/visionMinRadius"
+msgstr "Közelségi felderítési sugár"
+
+msgid "modifier/name/visionRadius"
+msgstr "Látótávolság"
+
+msgid "modifier/name/visionTime"
+msgstr "Láthatósági idő"
+
+msgid "modifier/name/zeroDamage"
+msgstr "Lövésekkel és ütközéssel okozott sebzés"
+
+msgid "modifier/name/zeroEconomy"
+msgstr "A mód csatáiban megszerzett és elköltött nyersanyagok"
+
+msgid "modifiersDomainTooltip/restrict/max"
+msgstr "nem&nbsp;több, mint&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/min"
+msgstr "nem&nbsp;kevesebb, mint&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/oneRestriction"
+msgstr "(de {restriction})"
+
+msgid "modifiersDomainTooltip/restrict/twoRestriction"
+msgstr "(de {min}, {max})"
+
+msgid "modifiersDomainTooltip/subtitle/plural"
+msgstr "A módosítók a következő paraméterekre van hatással:"
+
+msgid "modifiersDomainTooltip/subtitle/single"
+msgstr "A módosító a következő paraméterre van hatással:"

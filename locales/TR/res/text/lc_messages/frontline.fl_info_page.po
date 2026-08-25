@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "Savaş Kartı Hakkında"
+
+msgid "about/position/header"
+msgstr "Savaş Kartı Puanlarının Dağılımı"
+
+msgid "about/position/text"
+msgstr "Her savaştan sonra, konumunuza bağlı olarak belirli miktarda Savaş Kartı Puanı alacaksınız. Ön Cephe Seviyenizi yükseltirseniz ek Savaş Kartı Puanı alacaksınız."
+
+msgid "about/scores/header"
+msgstr "Savaş Kartı Puanları"
+
+msgid "about/scores/text"
+msgstr "Rastgele Savaşlarda ve Ön Cephe kipinde kazanabileceğiniz özel bir Savaş Kartı para türüdür. Savaş Kartı Puanları, Ön Cephe Seviyelerine ulaşmanız karşılığında ve savaş sonuçlarındaki konumunuza göre verilir. Ön Cephe araçlarının kazanabilecekleri Puan miktarında herhangi bir sınırlama yoktur."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Yenilgi"
+
+msgid "about/scoresTable/topCell"
+msgstr "Kazanılan DP'ye göre ilk {{top}}"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Zafer"
+
+msgid "about/text"
+msgstr "Savaş Kartı, oyuncuların Savaş Kartı Puanı kazanarak Aşamadan Aşamaya ilerlediği uzun süreli bir etkinliktir. Tamamlanan her Aşama onlara değerli ödüller kazandırır. Bazı belirli Aşamaları tamamlayan oyuncular, Dükkân'ın ilgili kısmından özgün araçlar ve başka değerli ödüller satın almada kullanabilecekleri özel bir para birimi olan Savaş Kartı Jetonları alabilirler."
+
+msgid "addons/cellRent/header"
+msgstr "Araç Kiralama"
+
+msgid "addons/cellRent/text_10"
+msgstr "Kredi karşılığında kiralayabileceğiniz bir çok farklı Seviye {{vehiclesLevel}} araç bulunmaktadır. Aynı tür ve ülkeden araçların mürettebat üyeleri ceza veya yeniden eğitme gereği olmadan bu araçlara aktarılabilir."
+
+msgid "addons/cellRent/text_9"
+msgstr "Kredi karşılığında kiralayabileceğiniz bir çok farklı Seviye {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} araç bulunmaktadır. Aynı tür ve ülkeden araçların mürettebat üyeleri ceza veya yeniden eğitme gereği olmadan bu araçlara aktarılabilir."
+
+msgid "addons/cellSpectator/header"
+msgstr "İzleyici Kipi"
+
+msgid "addons/cellSpectator/text"
+msgstr "Yeniden doğmayı beklerken İzleyici kipine geçerek savaş alanını inceleyebilir ve kendi savaş planınızı oluşturabilirsiniz."
+
+msgid "addons/cellTime/header"
+msgstr "Ek Süre"
+
+msgid "addons/cellTime/text"
+msgstr "Savaş süresi bittiği sırada bir üs ele geçirilme aşamasındaysa ekibiniz ek süre alacaktır. Savunan ekip üslerinin ele geçirilmesini bozabilirse ek süre sıfıra düşer."
+
+msgid "addons/header"
+msgstr "Ek Bilgiler"
+
+msgid "levelUp/sectionHeader"
+msgstr "Seviye {{level}} Araçlar"
+
+msgid "levelUp/text"
+msgstr "Daha önce olduğu gibi, başlangıçta savaşa sadece Seviye {{vehiclesLevelFrom}} araçlarla girebilirsiniz ancak Garajınızda Seviye {{vehiclesLevelTo}} araçlar da hazırlayabilirsiniz. İkinci hattan (D, E, F) herhangi bir üs ele geçirildiğinde iki ekip de Seviye {{vehiclesLevelTo}} araçlarını kullanabilir hale gelecektir."
+
+msgid "main/cellDuration/header"
+msgstr "Süre"
+
+msgid "main/cellDuration/text"
+msgstr "Ön Cephe {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}} sürecek. Bir sonraki başlangıcın tarihi ayrıca duyurulacak."
+
+msgid "main/cellFrontline/header"
+msgstr "Ön Cephe"
+
+msgid "main/cellFrontline/text_8"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Normandiya, Kraftwerk{{/}} ve {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}} haritalarında Seviye {{vehiclesLevel}} araçlarla devasa 30'a 30 savaşlar. Saldıranların 5 yüksek kalibreli toptan 3 adedini yok etmesi gerekirken savunanlar bunları korumalıdır."
+
+msgid "main/cellFrontline/text_9"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Normandiya, Kraftwerk{{/}} ve {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}} haritalarında Seviye {{vehiclesLevelFrom}}-{{vehiclesLevelTo}} araçlarla devasa 30'a 30 savaşlar. Saldıranların 5 yüksek kalibreli toptan 3 adedini yok etmesi gerekirken savunanlar bunları korumalıdır."
+
+msgid "main/cellLevel9/header"
+msgstr "Seviye {{vehiclesLevel}} Araçlar"
+
+msgid "main/cellLevel9/text"
+msgstr "İkinci hat üslerinden biri (D, E veya F) ele geçirildikten sonra savaşa Seviye {{vehiclesLevel}} bir araçla girebileceksiniz."
+
+msgid "main/cellLevels/header"
+msgstr "Seviye {{vehiclesLevel}} Araçlar"
+
+msgid "main/cellLevels/text_8"
+msgstr "Bu kipte sadece Seviye {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} araçlar kullanılabilir."
+
+msgid "main/cellLevels/text_9"
+msgstr "Savaşa sadece Seviye {{vehiclesLevel}} araçlar girebilir."
+
+msgid "main/cellPass/header"
+msgstr "Savaş Kartı"
+
+msgid "main/cellPass/text"
+msgstr "Ön Cephe, savaşlara katılıp yeni Ön Cephe Seviyelerine ulaşma karşılığında Savaş Kartı Puanı kazanmak için harika bir fırsattır."
+
+msgid "main/cellReserves/header"
+msgstr "Savaş Yedeği Kategorileri"
+
+msgid "main/cellReserves/text"
+msgstr "Her biri belirli bir yuvaya bağlı üç Savaş Yedeği kategorisi bulunmaktadır. Bunların açılması ve iyileştirilmesi araç türüne bağlıdır."
+
+msgid "main/cellScenarios/header"
+msgstr "Senaryolar"
+
+msgid "main/cellScenarios/text"
+msgstr "Ön Cephe kipindeki savaşlar şu senaryolardan birini kullanır: {{@ colorLegacy 'FFE4C0'}}Standart Savaş{{/}}, {{@ colorLegacy 'FFE4C0'}}Operasyonel Destek{{/}} veya {{@ colorLegacy 'FFE4C0'}}Kaderin Cilvesi{{/}}. Mevcut savaş senaryosu hakkında bilgi yükleme ekranında, savaş öncesi geri sayımda veya Tab tuşuna bastığınızda gösterilir."
+
+msgid "main/sectionHeader"
+msgstr "Genel Bilgiler"
+
+msgid "page/backBtn"
+msgstr "GERİ DÖN"
+
+msgid "page/headerUpper"
+msgstr "ÖN CEPHE"
+
+msgid "percentValue"
+msgstr "%{{value}}"
+
+msgid "plusPercentValue"
+msgstr "+%{{value}}"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "Ulaştığınız rütbeye bağlı olarak Savaş DP'sinin yanı sıra Ön Cephe DP'si alacaksınız. Ön Cephe DP'si, Ön Cephe Seviyenizi artırmakta kullanılır. Toplamda {{@ colorLegacy 'FFE4C0'}}20 Seviye{{/}} bulunuyor."
+
+msgid "progression/levelsSection/header"
+msgstr "Ön Cephe Seviyeleri"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Ön Cephe Seviyeleri{{/}} size Savaş Kartı Puanı, Savaş Yedeği Puanı, tahvil, yönergeler, Yeniden Eğitim Emirleri, Akıl Hocalığı Ruhsatı ve Mürettebat Kitapları kazandırır."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Ön Cephe Seviyeleri{{/}} size Savaş Yedeği Puanı, tahvil, yönergeler, Yeniden Eğitim Emirleri ve Mürettebat Kitapları kazandırır."
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Rütbeler{{/}} o savaştaki etkinliğinizi yansıtmanın yanı sıra bunun sonucu olarak bir Savaş DP'si bonusu da sağlar. Bu bonus, savaşta kullandığınız tüm araçlarınızda kazandığınız toplam temel deneyime uygulanır. Siz veya müttefikleriniz General rütbesine eriştiğinde tüm ekip mürettebat performansına (ana uzmanlık seviyesine) {{@ colorLegacy 'FFE4C0'}}%1,5{{/}} ila {{@ colorLegacy 'FFE4C0'}}%15{{/}} arasında bir bonus alır."
+
+msgid "progression/ranksSection/header"
+msgstr "Rütbeler"
+
+msgid "progression/ranksSection/text"
+msgstr "Kipte oyuncuların Er'den General'e kadar ilerleyebildiği altı rütbeli bir sistem bulunmaktadır. Savaşta etkin performans (üs ele geçirme veya savunma, ana hedefleri yok etme) ve deneyim kazanma karşılığında terfi edeceksiniz. Savaşta kullandığınız tüm araçlarda kazandığınız toplam deneyim hesaba katılır."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Savaş Deneyimine Bonus"
+
+msgid "progression/ranksTable/captain"
+msgstr "Yüzbaşı"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Mürettebat Performansına Bonus"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Ön Cephe Deneyimi"
+
+msgid "progression/ranksTable/general"
+msgstr "General"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Teğmen"
+
+msgid "progression/ranksTable/major"
+msgstr "Binbaşı"
+
+msgid "progression/ranksTable/private"
+msgstr "Er"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Çavuş"
+
+msgid "progression/sectionHeader"
+msgstr "Ön Cephe Gelişimi"
+
+msgid "progression/text"
+msgstr "Bu kipte oynarken rütbelerinizi yükseltecek, Ön Cephe Gelişiminde ilerleyecek ve ödüller kazanacaksınız."
+
+msgid "reserveCategories/categories/additional"
+msgstr "İkincil"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Yedek Yuvası 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Yedek Yuvası 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Yedek Yuvası 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Ana"
+
+msgid "reserveCategories/categories/support"
+msgstr "Destek"
+
+msgid "reserveCategories/config/footerText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Kaderin Cilvesi{{/}} senaryosunda, Savaş Yedeklerinin açılma sırası araç türüne bağlı değildir."
+
+msgid "reserveCategories/config/header"
+msgstr "Araç Türüne Göre Yedek Yapılandırmaları"
+
+msgid "reserveCategories/config/text"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Standart Savaş{{/}} ve {{@ colorLegacy 'FFE4C0'}}Operasyonel Destek{{/}} senaryolarında, üç Savaş Yedeği yuvasının hepsi de tüm araç türlerinde kullanılabilir. Ancak bunların açılma sırası araç türüne bağlıdır."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "Tank Avcıları"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Ağır Tanklar"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Hafif Tanklar"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Orta Tanklar"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "KMT'ler"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* Bu seviyeye iyileştirmek ancak {{@ colorLegacy 'FFE4C0'}}Kaderin Cilvesi{{/}} senaryosunda {{@ colorLegacy 'FFE4C0'}}satın alınmış{{/}} Savaş Yedekleri için mümkündür."
+
+msgid "reserveCategories/levels/header"
+msgstr "Yuva Açma ve Savaş Yedeklerini İyileştirme"
+
+msgid "reserveCategories/levels/text"
+msgstr "Normal olarak size bir Savaş Yedeği açıktır. Diğerleri Astsubay ve Teğmen rütbelerine ulaştığınızda açılır. Üç Yedek de Yüzbaşı ve Yarbay rütbelerine ulaştığınızda iyileştirilir."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} veya {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}} Seviye"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Yüzbaşı"
+
+msgid "reserveCategories/ranks/general"
+msgstr "General"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Teğmen"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Binbaşı"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Çavuş"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Er"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Kaderin Cilvesi"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "Oyuncular savaşta her türdeki araç için kullanabilecekleri rastgele Yedekler arasından seçim yapabilir. Savaştan önce bir yuvaya bir Yedek yerleştirmek, savaşta bu Yedeği alma şansını {{@ colorLegacy 'FFE4C0'}}%10{{/}} artırır. Bir Yedek satın almak, Seviyesini {{@ colorLegacy 'FFE4C0'}}II{{/}}'ye yükseltir ve {{@ colorLegacy 'FFE4C0'}}IV.{{/}} Seviyeye yükseltme imkanı sunar."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Ön Cephe Senaryoları"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Standart Savaş"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Standart Ön Cephe kuralları geçerlidir. Savaş Yedeklerini kullanma koşulları değişmez."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Operasyonel Destek"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "Bir Yedek açtığınızda: {{@ colorLegacy 'FFE4C0'}}-%50{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "Savaşa döndüğünüzde: {{@ colorLegacy 'FFE4C0'}}-%70{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Azaltılmış Savaş Yedeği soğuma süresi olan daha yüksek tempolu bir senaryo:"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Ön Cephe kipindeki savaşlar şu senaryolardan birini kullanır: {{@ colorLegacy 'FFE4C0'}}Standart Savaş{{/}}, {{@ colorLegacy 'FFE4C0'}}Operasyonel Destek{{/}} veya {{@ colorLegacy 'FFE4C0'}}Kaderin Cilvesi{{/}}. Senaryolar, Savaş Yedeklerinin savaşta kullanım koşullarını değiştirir. Mevcut savaş senaryosu hakkında bilgi yükleme ekranında, savaş öncesi geri sayımda veya Tab tuşuna bastığınızda gösterilir."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Savaş Yedeği Kategorileri"
+
+msgid "reserveCategories/text"
+msgstr "Savaş Yedekleri her birinde üç Yedek olan üç kategoriye ayrılmıştır. Savaşa girerken ilgili yuvaya o kategoriden sadece bir Yedek koyabilirsiniz."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Saldırı Yedekleri"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Keşif Yedekleri"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Taktik Yedekler"
+
+msgid "reserves/sectionHeader"
+msgstr "Hızlı Yedekler"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Hızlı Başlangıç"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Savaş Yedeklerinin hazırlık süresi savaşın başında %50 kısalır."
+
+msgid "reserves/sectionReload/header"
+msgstr "Anında Kullanma İmkanı"
+
+msgid "reserves/sectionReload/text"
+msgstr "Savaş Yedekleri açıldığı anda kullanıma hazır olacak."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "İkinci Rüzgâr"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Savaş Yedeklerinin hazırlık süresi savaşa yeni araçla dönünce %70 kısalır."
+
+msgid "rules/backToFight/header"
+msgstr "Savaşa Dönüş"
+
+msgid "rules/backToFight/text"
+msgstr "Aracınız yok edilirse, kullanabileceğiniz herhangi başka bir aracı seçip savaş alanına geri dönün ve zafer için savaşmaya devam edin. Kanatlardaki ve arkadaki birkaç konuşlandırma alanından (yeniden doğma noktaları) birini seçerek savaş planınızı belirleyebilirsiniz. Savunan oyuncuların hatlarının gerisinde belirleyebileceği daha geniş yeniden doğma noktası seçimi bulunmaktadır, böylece ani bir yarma durumunda yüksek kalibreli topların savunmasına hızla intikal edebilirler. Sistem ayrıca oyuncuları seçtikleri bölgeye konuşlanmanın tehlikeli olduğu konusunda uyaran bir özel göstergeye de sahiptir."
+
+msgid "rules/base/header"
+msgstr "Üs İşgali"
+
+msgid "rules/base/textBottom"
+msgstr "Bir üssü ele geçirme aşamasında olan bir araca (veya parçalarına) verilecek hasar, ele geçirme gelişimini sıfırlamaz. Bunun yerine ele geçirme işlemi geçici olarak durur. Ele geçirme gelişimini sıfırlamak için savunucuların üs çemberi içindeki tüm düşman araçlarını yok etmeleri veya üs çemberini terk etmeye zorlamaları gereklidir. Savunan ekip bir kere saldıranlar tarafından alınan bir üssü geri alamazlar."
+
+msgid "rules/base/textTop"
+msgstr "{FFE4C0_Start}Saldıran ekip{FFE4C0_End} ana hedefe ulaşmak için üsleri sırayla ele geçirmelidir. Ele geçirilmiş bir üs savaş süresine 2 dakika ekler. Son üssü ele geçirmek 4 dakika ekler."
+
+msgid "rules/sectionHeader"
+msgstr "Genel Kurallar"
+
+msgid "rules/service/header"
+msgstr "İkmal Çemberleri"
+
+msgid "rules/service/text"
+msgstr "İkmal Çemberleri araç can puanını geri kazandırır, yaralı tüm mürettebat üyelerini iyileştirir ve cephane ikmali yapar. {FFE4C0_Start}İkmal oranı şöyledir: Saniye başına 100 can puanı / bir mürettebat üyesi %10 cephane.{FFE4C0_End}"
+
+msgid "rules/weapons/header"
+msgstr "Hedef: 5 Yüksek Kalibreli Toptan 3'ü"
+
+msgid "rules/weapons/list/back"
+msgstr "Arka zırh: {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "Çatı ve ön zırh mermiler tarafından {{@ colorLegacy 'FFE4C0'}}delinemez{{/}}."
+
+msgid "rules/weapons/list/sides"
+msgstr "Yan zırh: {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Yan zırh: {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Zayıf noktalar: {{@ colorLegacy 'FFE4C0'}}Kapı (70 mm) ve havalandırma (25 mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Savunan ekibin arazisinin derinlerinde yer alan beş top kulesi bulunmaktadır; bunlar savaşın ana hedefleridir. Saldıran ekibin 3 kuleyi yok etmesi gerekirken savunanlar bunları ne pahasına olursa olsun korumalıdır."
+
+msgid "subTitle/differentMonth"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{from}} {{startMonth}}{{/}} - {{@ colorLegacy 'FFE4C0'}}{{to}} {{endMonth}}{{/}} arası"
+
+msgid "subTitle/differentYears"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{from}} {{startMonth}} {{startYear}}{{/}} - {{@ colorLegacy 'FFE4C0'}}{{to}} {{endMonth}} {{endYear}}{{/}} arası"
+
+msgid "subTitle/sameMonth"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{from}}{{/}} - {{@ colorLegacy 'FFE4C0'}}{{to}} {{endMonth}}{{/}} arası"
+
+msgid "winStrategy/firstLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}İlk hattaki{{/}} A, B ve C sektörleri iki ekip için de başlangıç noktalarını temsil eder."
+
+msgid "winStrategy/header"
+msgstr "Kazanma Stratejisi"
+
+msgid "winStrategy/mapZones"
+msgstr "Kip haritası üç yatay savunma hattı içerir:"
+
+msgid "winStrategy/secondLine"
+msgstr "İlk hattın sektörleri ele geçirildiğinde savaş {{@ colorLegacy 'FFE4C0'}}ikinci hattaki{{/}} D, E ve F sektörlerine ilerler."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Üçüncü hat{{/}} sektörlere ayrılmamıştır. Burası savaşın son aşamasının gerçekleşeceği alandır. Yüksek kalibreli toplar burada bulunmaktadır ve yok edilmeleri saldıran ekibe zafer kazandırır. Saldıranlar, ana hedeflere ancak ikinci hatta en az bir sektör ele geçirmeyi başardıklarında erişim elde ederler. Bir sektör kaybedildiğinde savunan oyuncuların sektör bombardımana uğramadan önce ayrılmaları için 1 dakikaları vardır. Hava saldırısı, sektörde kalan savunucuları vuracaktır. İkinci veya üçüncü hatlardaki sektörlere önceki sektörü ele geçirmeden ulaşmaya çalışan saldıranlar da bir hava saldırısıyla yok edileceklerdir."

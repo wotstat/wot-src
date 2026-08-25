@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} klanā"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "UZ KONTA STATUSU"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "ATPAKAĻ"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Jūs būsiet spējīgi aizvietot karti pēc {}."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Rādīt/slēpt šī tipa kartes."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Tuksnešu kartes"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Vasaras kartes"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Ziemas kartes"
+
+msgid "mapsBlacklist/header"
+msgstr "Neiekļautās kartes"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Izslēdz nevēlamu karti no spēles rotācijas. Ar WoT Premium izslēdz vēl vienu karti, ar WoT Plus—vēl %(mapCount)s kartes. Ja kāds no abonementiem beidzas, kartes atgriežas rotācijā, sākot no labās malas."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Neiekļautās kartes"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Šīs kartes tiek izslēgtas tikai Nejaušajās Kaujās."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Izslēgto karti var aizvietot reizi %(maxCooldownTimeStr)s laikā."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Šī iespēja ir pieejama tankiem no IV līmeņa un augstāk."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "Spēlējot vadā, tiek izslēgtas tikai tās kartes, kuras izvēlējies Vada Komandieris."
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Rādītās kartes: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Rādītās kartes: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Karšu tipi:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Atcelt"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Aizvērt"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "Izvēlētā karte tiks aizvietota ar {mapNameStr} karti. Jūs variet mainīt jūsu izvēli pēc {cooldownStr}."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Kuru karti jūs vēlieties aizvietot?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Neiekļaut"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Izvēlieties karti, kuru jūs gribiet aizvietot"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Atcelt"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Aizvērt"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Jūs variet mainīt jūsu izvēli pēc {cooldownStr}."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Izslēgt karti {mapNameStr} no Nejaušajām Kaujām?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Neiekļaut"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Neiekļaut"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Neiekļaut {mapNameStr} karti?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Iekļaut"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Iekļaut {mapNameStr} karti Nejaušajās kaujās?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Jūs variet aizvietot šo karti pēc {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Kartes aizvietošana nav pieejama"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Jūs variet aizvietot šo karti pēc {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Kartes aizvietošana nav pieejama"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Nav izvēlēts"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Noklikšķini, lai atlasītu karti izslēgšanai no Nejaušajām Kaujām."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Karte nav izvēlēta"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "Neiekļautā {mapName} karte var tikt aizvietota ar citu."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Kartes aizvietošana pieejama"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Jūs variet aizvietot {mapName} karti pēc {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Kartes aizvietošana nav pieejama"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Papildus slots ir pieejams tikai ar aktīvu WoT Premium kontu."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Slots nav pieejams"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Izvēlies karti no saraksta zemāk, lai to izslēgtu no Nejaušajām Kaujām."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Karte nav izvēlēta"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Izvēlies karti no saraksta zemāk, lai to izslēgtu no Nejaušajām Kaujām."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Kartes aizvietošana pieejama"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Jūs variet aizvietot šo karti pēc {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Kartes aizvietošana nav pieejama"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "Slots priekš papildus kartes neiekļaušanas ir pieejams tikai ar aktīvu WoT Premium kontu."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Slots nav pieejams"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Atcelt"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Izvēli var mainīt pēc {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Mainīt"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Neiekļaut"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Izslēgt karti %(mapName)s no Nejaušajām Kaujām?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "Izvēlētā karte tiks aizvietota ar karti {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Izvēli varēsi mainīt pēc %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Kuru karti jūs vēlieties aizvietot?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Šī karte tiks aizvietota ar karti {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Izvēli varēsi mainīt pēc %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Vai vēlies aizvietot šo karti?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Šim kontam ir ieslēgta vecāku kontrole.\nVariet uzzināt vairāk par vecāku kontroles ierobežojumiem {link}."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Vecāku kontrole"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "spēles portālā"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Kredītu Rezerve"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s min"

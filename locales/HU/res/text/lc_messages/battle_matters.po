@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Tervrajz"
+
+msgid "animations/crew_close"
+msgstr "BEZÁRÁS"
+
+msgid "animations/shop"
+msgstr "Tovább a vásárláshoz"
+
+msgid "battleMattersTab"
+msgstr "Tank akadémia"
+
+msgid "battleResults/descr"
+msgstr "Tankakadémia: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "A Tankakadémia küldetéseihez"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Előrehaladás ebben a csatában"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Mégse"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "BEZÁRÁS"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Megerősít"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Megkapod a(z) {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} járművet egy legénységgel és egy garázsférőhellyel."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Beváltod akadémia tokenedet a(z) %(vehicleName)s járműre?"
+
+msgid "entryPoint/hint"
+msgstr "EGY SOR\nGYAKORLÓ KÜLDETÉS"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Küldetések teljesítve: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Tank akadémia"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Teljesítésért járó jutalom:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "A küldetések jelenleg technikai problémák miatt nem elérhetőek. A küldetésekben elért előrehaladásod el lesz mentve."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Összes küldetés teljesítve"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "A küldetések átmenetileg nem elérhetőek"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Feltételek:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Válts be egy tokent valamelyik kifejleszthető VI-os szintű járműre."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "VISSZA"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "A TANK AKADÉMIA KÜLDETÉSEKHEZ"
+
+msgid "mainRewardsScreen/done"
+msgstr "Garázsban"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Előnézet"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Bérleti napok: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Teljesítsd a gyakorló küldetések sorozatát, hogy fő jutalomként megszerezd három VIII-as szintű Prémium jármű bérletét {cream_Open}14 napra{cream_Close}."
+
+msgid "mainRewardsScreen/title"
+msgstr "TANK AKADÉMIA"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Kiválaszt"
+
+msgid "mainScreen/infoButton"
+msgstr "ÚTMUTATÓ ÚJONCOKNAK"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "ÚTMUTATÓ"
+
+msgid "mainScreen/list/arrow"
+msgstr "Kattints az aktuális küldetésre való ugráshoz."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Megkaptad a fő jutalmat"
+
+msgid "mainScreen/progress"
+msgstr "Küldetések teljesítve: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Hogyan teljesítheted"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Teljesítsd az előző küldetést"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Nem elérhető"
+
+msgid "mainScreen/showMainReward"
+msgstr "Fő jutalom megtekintése"
+
+msgid "mainScreen/target"
+msgstr "Teljesítsd az összes küldetést és szerezd meg három VIII-as szintű jármű bérletét."
+
+msgid "mainScreen/title"
+msgstr "TANK AKADÉMIA"
+
+msgid "pausedScreen/buttonText"
+msgstr "A garázsba"
+
+msgid "pausedScreen/description"
+msgstr "A tank akadémia technikai okok miatt átmenetileg nem érhető el. Minden előrehaladás el lesz mentve. Elnézést kérünk a kellemetlenségért."
+
+msgid "pausedScreen/title"
+msgstr "Átmenetileg nem elérhető"
+
+msgid "rewards/additionalTitle"
+msgstr "Emellett még kaptál:"
+
+msgid "rewards/footer/confirm"
+msgstr "Értettem!"
+
+msgid "rewards/footer/more"
+msgstr "További: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "A következő küldetéshez"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Megtekintés a Garázsban"
+
+msgid "rewards/previouslyCompleted"
+msgstr "A küldetés feltételei már korábban teljesültek"
+
+msgid "rewards/rent"
+msgstr "Bérleti napok: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "A VÉGSŐ KÜLDETÉS TELJESÍTVE"
+
+msgid "rewards/subTitle/regular"
+msgstr "%(questNumber)s. KÜLDETÉS TELJESÍTVE"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "JÁRMŰ MEGSZEREZVE AZ AKADÉMIA TOKENÉRT"
+
+msgid "rewards/title"
+msgstr "TANK AKADÉMIA"
+
+msgid "rewards/token/action"
+msgstr "Jármű kiválasztása"
+
+msgid "rewards/token/description"
+msgstr "Használj fel egy tokent, hogy azonnal megszerezd bármelyik VI-os szintű járművet."
+
+msgid "rewards/token/title"
+msgstr "Válts be egy akadémia tokent egy járműre"
+
+msgid "tokenTooltip/condition"
+msgstr "A tokeneket egy sor gyakorló küldetés sikeres teljesítéséért és a Tank akadémián elért szükséges előrehaladásért kapod jutalmul."
+
+msgid "tokenTooltip/description"
+msgstr "A tokeneket beválthatod bármelyik kifejleszthető VI-os szintű járműre. A járműhöz legénységet és egy garázsférőhelyet is kapsz."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Token elérhető: {cream_open}%(days)s n{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Token elérhető eddig: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Token elérhető: {cream_open}%(hours)s ó{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Token elérhető: {cream_open}%(minutes)s perc{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Akadémia token"
+
+msgid "vehicleSelection/additions/base"
+msgstr "A jármű mellé egy {cream_Open}%(crewIcon)s legénységet{cream_Close} és egy {cream_Open}%(hangarIcon)s garázsférőhelyet{cream_Close}{cream_Open}{cream_Close} is kapsz."
+
+msgid "vehicleSelection/back"
+msgstr "VISSZA"
+
+msgid "vehicleSelection/backTo"
+msgstr "A TANK AKADÉMIA KÜLDETÉSEKHEZ"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Összehasonlításhoz ad"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Járművek megjelenítésének beállítása típus és nemzet alapján."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Szűrés param. szerint"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Kattints a szűrő alaphelyzetbe állításához."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Alapértelmezésként beállítva"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Nemzet"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Szűrés param. szerint"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Járműtípus"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Nincs találat. Változtasd meg a szűrési beállításaidat vagy állítsd vissza azokat alapállapotba."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Szűrő visszaállítása"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Kifejlesztetted az összes VI-os szintű járművet, amelyek beválthatóak akadémia tokenre."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Nincs kiválasztható jármű"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Név szerinti keresés"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "A jármű neve nem állhat %(maxLength)s karakternél többől."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Keresés név alapján"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Megjelenített:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Válts be egy tokent bármelyik VI-os szintű kifejleszthető járműre! A járműhöz\negy legénységet és egy garázsférőhelyet is kapsz."
+
+msgid "vehicleSelection/title"
+msgstr "Válaszd ki bármelyik VI-os szintű kifejleszthető járművet"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Páncélvadász"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "Önjáró löveg"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Nehéz tank"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Könnyű tank"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Közepes tank"

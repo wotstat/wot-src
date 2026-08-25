@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "actionStub/name"
+msgstr "Modifikasyon"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "Aracın can puanının %(immediatelyRestore)s kadarını anında geri kazandırır. Yeteneğin %(duration)s saniyelik süresi boyunca mermi ve savaş yeteneklerinden alınan tüm hasar toplanır ve yeteneğin süresi bittiğinde can puanına dönüştürülür, artı yeteneğin süresi bittiğinde alınan toplam hasarın ek %(restoringCoefficient)s kadarı eklenir.\n\n*Dönüştürülen CP kazanımı kısa bir menzil içindeki müttefik araçları da etkiler."
+
+msgid "adaptationHealthRestore/descr"
+msgstr "Aracın can puanının %(immediatelyRestore)s kadarını anında geri kazandırır. Yeteneğin %(duration)s saniyelik süresi boyunca mermi ve savaş yeteneklerinden alınan tüm hasar toplanır ve yeteneğin süresi bittiğinde can puanına dönüştürülür, artı yeteneğin süresi bittiğinde alınan toplam hasarın ek %(restoringCoefficient)s kadarı eklenir.\n\n*Dönüştürülen CP kazanımı kısa bir menzil içindeki müttefik araçları da etkiler."
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "Aracın can puanının {green_Open}%(immediatelyRestore)s kadarını anında geri kazandırır{green_Close}. Yeteneğin {whiteSpanish_Open}%(duration)s saniyelik{whiteSpanish_Close} süresi boyunca mermi ve savaş yeteneklerinden alınan tüm hasar toplanır ve yeteneğin süresi bittiğinde can puanına dönüştürülür, artı yeteneğin süresi bittiğinde {green_Open}alınan toplam hasarın ek %(restoringCoefficient)s kadarı{green_Close} eklenir.\n\n*Dönüştürülen CP kazanımı kısa bir menzil içindeki müttefik araçları da etkiler."
+
+msgid "adaptationHealthRestore/name"
+msgstr "Adaptif Zırh"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "Aracın can puanının {green_Open}%(immediatelyRestore)s kadarını anında geri kazandırır{green_Close}. Yeteneğin {whiteSpanish_Open}%(duration)s saniyelik{whiteSpanish_Close} süresi boyunca mermi ve savaş yeteneklerinden alınan tüm hasar toplanır ve yeteneğin süresi bittiğinde can puanına dönüştürülür, artı yeteneğin süresi bittiğinde {green_Open}alınan toplam hasarın ek %(restoringCoefficient)s kadarı{green_Close} eklenir.\n\n*Dönüştürülen CP kazanımı kısa bir menzil içindeki müttefik araçları da etkiler."
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s Düşük Sesli Egzoz Sistemi (tüm sınıflar) veya Kayra Egzoz Sistemi takılı sabit veya hareket halindeki bir aracın gizliliğine."
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+%2"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+%2"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "Savaş boyunca Düşük Sesli Egzoz Sisteminin veya Kayra Egzoz Sisteminin etkinliğini iyileştirir. Yönerge ancak ilgili donanımı taktıysanız çalışacaktır."
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "Egzoz Yalıtımı"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "Sabit veya hareket halindeki bir aracın gizliliğini artırır"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "Etkinliği aracın türüne bağlıdır. Sabit veya hareket halindeki bir aracın gizliliğini artırır. Aktif keşfin yanı sıra riskli konumlardan pasif gözlemleme için de faydalıdır."
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "Düşük Sesli Egzoz Sistemi"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "Sabit veya hareket halindeki bir aracın gizliliğini artırır."
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "Düşük Sesli Egzoz Sistemi Sınıf 1"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "Düşük Sesli Egzoz Sistemi Sınıf 2"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "Düşük Sesli Egzoz Sistemi Sınıf 3"
+
+msgid "additional_armor_plates_1/name"
+msgstr "Ek Zırh Plakası (Tip 1)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "Ek Zırh Plakası (Tip 2)"
+
+msgid "afterburning/descr"
+msgstr "Kısa bir süre için aracınızın hızını ve ivmelenmesini artırır."
+
+msgid "afterburning/name"
+msgstr "Turboşarj"
+
+msgid "aimingStabilizer/long_special"
+msgstr "Topunuzun dağılımını azaltmak çok önemlidir: ilk dağılım ne kadar az olursa nişan alma çemberi o kadar küçük olur ve top ile tam nişan alma süresi o kadar kısa olur. Ek olarak hazırlanmadan (yani tam nişan almadan veya hareket halinde) yapılan bir atışın hedefi vurma şansı daha yüksektir."
+
+msgid "aimingStabilizer/name"
+msgstr "Düşey Stabilizasyon"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s Düşey Stabilizasyon, Stabilizasyon Donanım Sistemi veya Kayra Stabilizasyon takılıyken hareket ve kule dönüşü sırasında ateş ettikten sonra dağılıma."
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-%5"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-%5"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "Savaş boyunca Düşey Stabilizasyonun (tüm sınıflar), Stabilizasyon Donanım Sisteminin ve Kayra Stabilizasyonun etkisini iyileştirir. Bu yönergeyi takıp etkinleştirebilmek için bu donanım parçalarının aracınıza takılı olması gereklidir."
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "Stabilizasyon Yağlama"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "Sabitleyicinin etkisini iyileştirir"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "Düşey Stabilizasyon Sınıf 1"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "Düşey Stabilizasyon Sınıf 2"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "Düşey Stabilizasyon Sınıf 1"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "Düşey Stabilizasyon Sınıf 2"
+
+msgid "antifragmentationLining/long_special"
+msgstr "İç kaplamalar hasarı soğurur; yani çarpmanın ve Yüksek Patlayıcılı mermilerin hasarını azaltırlar. İç kaplamalar güvenilir zırha ve dev çarpma potansiyeline sahip, ağırlıklı olarak yakın çatışmalara giren ağır tanklar için faydalı olacaktır."
+
+msgid "antifragmentationLining/name"
+msgstr "İç Kaplama"
+
+msgid "antifragmentationLining/short_special"
+msgstr "Aracı ve mürettebatı HE mermilere, yaralanmalara, şoka ve çarpmaya karşı korur"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "Süper Ağır İç Kaplama"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "Ağır İç Kaplama"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "Orta İç Kaplama"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "Hafif İç Kaplama"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "Egzoz Sistemi"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "Stabilizasyon"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "İç Kaplama"
+
+msgid "archetype/camouflageNet/name"
+msgstr "Kamuflaj Ağı"
+
+msgid "archetype/coatedOptics/name"
+msgstr "Optik"
+
+msgid "archetype/commandersView/name"
+msgstr "Görüş Sistemi"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "Top Yöneltme Sistemi"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "Sertleştirme"
+
+msgid "archetype/grousers/name"
+msgstr "Palet Tırnakları"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "Yapılandırma"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "Telsiz Seti"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "Dönüş Mekanizması"
+
+msgid "archetype/improvedSights/name"
+msgstr "Nişan Alma"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "Havalandırma"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "Atış Kontrol Sistemi"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "Dayanıklılık Artırma Seti"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "İsabetlilik İyileştirme Sistemi"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "Hareket Kabiliyeti İyileştirme Sistemi"
+
+msgid "archetype/stereoscope/name"
+msgstr "Dürbün Teleskop"
+
+msgid "archetype/tankRammer/name"
+msgstr "Sürgü"
+
+msgid "archetype/template"
+msgstr "\"%(name)s\" kategorisi donanım"
+
+msgid "archetype/turbocharger/name"
+msgstr "Turboşarj"
+
+msgid "artillery/longDescr"
+msgstr "Topçulara küçük bir alana HE mermilerle ateş etmesini emreder. Darbe alanının ortasındaki araçlar en yüksek hasarı alır. Özellikle ağır zırhlı araçlara karşı etkilidir."
+
+msgid "artillery/name"
+msgstr "Topçu Saldırısı"
+
+msgid "artillery/shortDescr"
+msgstr "Küçük bir yarıçap içinde düşman araçlarına ağır hasar verir."
+
+msgid "autoExtinguishers/always"
+msgstr "Motorda yangın olasılığına %(vehicleFireChance)s"
+
+msgid "autoExtinguishers/descr"
+msgstr "Aracınızda otomatik yangın söndürme."
+
+msgid "autoExtinguishers/long_special"
+msgstr "Yangını otomatik olarak söndürür ve araçta yangın çıkma şansını azaltır. Bu sarf malzemesi tüm ülkelerin her türlü aracı için uygundur."
+
+msgid "autoExtinguishers/name"
+msgstr "Otomatik Yangın Söndürücü"
+
+msgid "autoExtinguishers/onUse"
+msgstr "Aracınızda otomatik yangın söndürme. Bir savaşta çok kere kullanılabilir. Sarf malzemesi en az bir kere kullanılması durumunda savaştan sonra kaldırılır."
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "Otomatik yangın söndürme"
+
+msgid "berserker/battleDescr"
+msgstr "%(duration)s saniyelik süresi boyunca delme ve ateş hızını %(gunPiercing)s kat artırırken top yöneltme etkinliğini ve stabilizasyonunu %(gunAimingTime)s artırır ancak aracınızın toplam CP'sinin %(healthDebuff)s kadarını alır.\n\n*Kudurmuş yeteneği tarafından verilen hasar aracınızı yok edemez."
+
+msgid "berserker/descr"
+msgstr "%(duration)s saniyelik süresi boyunca delme ve ateş hızını %(gunPiercing)s kat artırırken top yöneltme etkinliğini ve stabilizasyonunu %(gunAimingTime)s artırır ancak aracınızın toplam CP'sinin %(healthDebuff)s kadarını alır.\n\n*Kudurmuş yeteneği tarafından verilen hasar aracınızı yok edemez."
+
+msgid "berserker/longDescr"
+msgstr "{whiteSpanish_Open}%(duration)s saniyelik{whiteSpanish_Close} süresi boyunca delme ve ateş hızını {green_Open}%(gunPiercing)s kat{green_Close} artırırken top yöneltme etkinliğini ve stabilizasyonunu {green_Open}%(gunAimingTime)s{green_Close} artırır ancak aracınızın toplam CP'sinin {red_Open}%(healthDebuff)s{red_Close} kadarını alır.\n\n*Kudurmuş yeteneği tarafından verilen hasar aracınızı yok edemez."
+
+msgid "berserker/name"
+msgstr "Kudurma"
+
+msgid "berserker/shortDescr"
+msgstr "{whiteSpanish_Open}%(duration)s saniyelik{whiteSpanish_Close} süresi boyunca delme ve ateş hızını {green_Open}%(gunPiercing)s kat{green_Close} artırırken top yöneltme etkinliğini ve stabilizasyonunu {green_Open}%(gunAimingTime)s{green_Close} artırır ancak aracınızın toplam CP'sinin {red_Open}%(healthDebuff)s{red_Close} kadarını alır.\n\n*Kudurmuş yeteneği tarafından verilen hasar aracınızı yok edemez."
+
+msgid "blackout_headlights_1/name"
+msgstr "Far Karartma (Tip 1)"
+
+msgid "bomber/longDescr"
+msgstr "Bir yer taarruz uçağına seçili alana bomba atmasını emreder. Bombalar düşman araçlarını şoka sokar ve onlara hasar verir. Darbe alanının ortasındaki araçlar en yüksek hasarı alır. Özellikle hafif ve orta zırhlı araçlara karşı etkilidir."
+
+msgid "bomber/name"
+msgstr "Hava Saldırısı"
+
+msgid "bomber/shortDescr"
+msgstr "Büyük bir yarıçap içindeki düşman araçlarını şoka sokar ve orta seviyede hasar verir."
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "%(duration)s sn. içinde aracınızın CP'sinin %(healPerTickDuration)s kadarını yavaş yavaş geri kazandırır. Hasar almak işlemi durdurur."
+
+msgid "brRegenerationKit/descr"
+msgstr "%(duration)s sn. içinde aracınızın CP'sinin %(healPerTickDuration)s kadarını yavaş yavaş geri kazandırır. Hasar almak işlemi durdurur."
+
+msgid "brRegenerationKit/long_special"
+msgstr "{whiteSpanish_Open}%(duration)s sn. içinde{whiteSpanish_Close} aracınızın CP'sinin {green_Open}%(healPerTickDuration)s kadarını yavaş yavaş geri kazandırır{green_Close}. Hasar almak işlemi durdurur."
+
+msgid "brRegenerationKit/name"
+msgstr "İyileşme"
+
+msgid "brRegenerationKit/short_special"
+msgstr "{whiteSpanish_Open}%(duration)s sn. içinde{whiteSpanish_Close} aracınızın CP'sinin {green_Open}%(healPerTickDuration)s kadarını yavaş yavaş geri kazandırır{green_Close}. Hasar almak işlemi durdurur."
+
+msgid "brRepairkit/descr"
+msgstr "Parçaları onarır ve olumsuz etkileri kaldırır."
+
+msgid "brRepairkit/long_special"
+msgstr "Parçaları onarır ve olumsuz etkileri kaldırır."
+
+msgid "brRepairkit/name"
+msgstr "Tamir Çantası"
+
+msgid "brRepairkit/short_special"
+msgstr "Parçaları onarır ve olumsuz etkileri kaldırır."
+
+msgid "br_bomber/battleDescr"
+msgstr "Düşman araçlarını şoka sokar ve %(minDamage)s - %(maxDamage)s CP hasar verir. Darbe alanının merkezindeki araçlar daha ağır hasar alır.\n\n*Darbeden önce %(delay)s sn. gecikme olur."
+
+msgid "br_bomber/descr"
+msgstr "Düşman araçlarını şoka sokar ve %(minDamage)s - %(maxDamage)s CP hasar verir. Darbe alanının merkezindeki araçlar daha ağır hasar alır.\n\n*Darbeden önce %(delay)s sn. gecikme olur."
+
+msgid "br_bomber/longDescr"
+msgstr "Düşman araçlarını şoka sokar ve {whiteSpanish_Open}%(minDamage)s - %(maxDamage)s CP hasar{whiteSpanish_Close} verir. Darbe alanının merkezindeki araçlar daha ağır hasar alır.\n\n*Darbeden önce %(delay)s sn. gecikme olur."
+
+msgid "br_bomber/name"
+msgstr "Hava Saldırısı"
+
+msgid "br_bomber/shortDescr"
+msgstr "Düşman araçlarını şoka sokar ve {whiteSpanish_Open}%(minDamage)s - %(maxDamage)s CP hasar{whiteSpanish_Close} verir. Darbe alanının merkezindeki araçlar daha ağır hasar alır.\n\n*Darbeden önce %(delay)s sn. gecikme olur."
+
+msgid "br_minefield/battleDescr"
+msgstr "Seçilen alanda %(duration)s sn. boyunca aktif kalan bir mayın tarlası döşer. Mayınlara temas eden düşman araçları şoka girer ve patlama hasarı alır.\n\n*Mayınlar ateş edilerek yok edilebilir. Düşman araçlarının altına yerleştirilen mayınlar patlamaz."
+
+msgid "br_minefield/descr"
+msgstr "Seçilen alanda %(duration)s sn. boyunca aktif kalan bir mayın tarlası döşer. Mayınlara temas eden düşman araçları şoka girer ve patlama hasarı alır.\n\n*Mayınlar ateş edilerek yok edilebilir. Düşman araçlarının altına yerleştirilen mayınlar patlamaz."
+
+msgid "br_minefield/longDescr"
+msgstr "Seçilen alanda {whiteSpanish_Open}%(duration)s sn. boyunca{whiteSpanish_Close} aktif kalan bir mayın tarlası döşer. Mayınlara temas eden düşman araçları şoka girer ve patlama hasarı alır.\n\n*Mayınlar ateş edilerek yok edilebilir. Düşman araçlarının altına yerleştirilen mayınlar patlamaz."
+
+msgid "br_minefield/name"
+msgstr "Mayın Tarlası"
+
+msgid "br_minefield/shortDescr"
+msgstr "Seçilen alanda {whiteSpanish_Open}%(duration)s sn. boyunca{whiteSpanish_Close} aktif kalan bir mayın tarlası döşer. Mayınlara temas eden düşman araçları şoka girer ve patlama hasarı alır.\n\n*Mayınlar ateş edilerek yok edilebilir. Düşman araçlarının altına yerleştirilen mayınlar patlamaz."
+
+msgid "br_respawn/name"
+msgstr "Yeniden Doğma"
+
+msgid "br_respawn/platoon/descr"
+msgstr "Aracınız yok edildikten sonra savaşa tekrar dönmenizi sağlar. Bu mekanizma savaşın ilk %(duration)s dakikasında geçerlidir.\n\nBir müttefikin yeniden doğmasını sağlamak için %(timeToResurrect)s sn. boyunca çatışma dışında kalın. Yeniden doğuş hakları Takım üyeleri arasında paylaşılır."
+
+msgid "br_respawn/solo/descr"
+msgstr "Aracınız yok edildikten sonra savaşa tekrar dönmenizi sağlar. Bu mekanizma savaşın ilk %(duration)s dakikasında geçerlidir.\n\nAracınız yok edildikten sonra otomatik olarak yeniden doğar."
+
+msgid "br_smoke/battleDescr"
+msgstr "Sarf malzemesinin menzili içindeki tüm araçlara %(duration)s saniyelik bir gizlilik bonusu ekler."
+
+msgid "br_smoke/descr"
+msgstr "Sarf malzemesinin menzili içindeki tüm araçlara bir gizlilik bonusu ekler."
+
+msgid "br_smoke/longDescr"
+msgstr "Sarf malzemesinin menzili içindeki tüm araçlara %(duration)s saniyelik bir gizlilik bonusu ekler."
+
+msgid "br_smoke/name"
+msgstr "Sis Perdesi"
+
+msgid "br_smoke/shortDescr"
+msgstr "Sarf malzemesinin menzili içindeki tüm araçlara bir gizlilik bonusu ekler."
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "Sarf malzemesinin etki menzilindeki tüm araçlara gizlilik bonusu vermenin yanı sıra menzilindeki TÜM araçlara saniyede toplam CP'lerinin %(damagePerTick)s kadarı hasar verir. %(duration)s sn. sürer.\n\n*Asidik Sis hasarı ganimet toplamayı durdurmaz ve düşman araçlarını yok etmez, en az 1 CP'leri kalır."
+
+msgid "br_smoke_with_damage/descr"
+msgstr "Sarf malzemesinin etki menzilindeki tüm araçlara gizlilik bonusu vermenin yanı sıra menzilindeki TÜM araçlara saniyede toplam CP'lerinin %(damagePerTick)s kadarı hasar verir. %(duration)s sn. sürer.\n\n*Asidik Sis hasarı ganimet toplamayı durdurmaz ve düşman araçlarını yok etmez, en az 1 CP'leri kalır."
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "Sarf malzemesinin etki menzilindeki tüm araçlara gizlilik bonusu vermenin yanı sıra menzilindeki TÜM araçlara saniyede toplam CP'lerinin {whiteSpanish_Open}%(damagePerTick)s kadarı{whiteSpanish_Close} hasar verir. {whiteSpanish_Open}%(duration)s sn.{whiteSpanish_Close} sürer.\n\n*Asidik Sis hasarı ganimet toplamayı durdurmaz, araçları yok etmez, en az 1 CP bırakır."
+
+msgid "br_smoke_with_damage/name"
+msgstr "Asidik Sis"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "Sarf malzemesinin etki menzilindeki tüm araçlara gizlilik bonusu vermenin yanı sıra menzilindeki TÜM araçlara saniyede toplam CP'lerinin {whiteSpanish_Open}%(damagePerTick)s kadarı{whiteSpanish_Close} hasar verir. {whiteSpanish_Open}%(duration)s sn.{whiteSpanish_Close} sürer.\n\n*Asidik Sis hasarı ganimet toplamayı durdurmaz, araçları yok etmez, en az 1 CP bırakır."
+
+msgid "builtinRepairkit/always"
+msgstr "Parça onarım hızına %(vehicleRepairSpeed)s"
+
+msgid "builtinRepairkit/long_special"
+msgstr "Etkinleştirildiğinde tüm hasarlı parçaları bir anda onarır. Pasif etkisi onarım hızını artırır. Bu sarf malzemesi belirli araçlar için uygundur."
+
+msgid "builtinRepairkit/name"
+msgstr "Standart Büyük Tamir Çantası"
+
+msgid "builtinRepairkit/onUse"
+msgstr "Tüm hasarlı parçaları onarır. Bir savaşta çok kere kullanılabilir. Harcanamaz.\nBu sarf malzemesi kaldırılamaz ancak başka bir yuvaya taşınabilir."
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "Araç gizliliğine ek %10 sağlar"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "Tüm mürettebat üyelerine %100 eğitilmiş Gizlenme yeteneği sağlar"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "Gizlenme yeteneği savaş boyunca hem hareket eden hem de sabit araçların görünürlüğünü azaltır. Yetenek %100'e eğitilmişse takılı yönerge etkisini artırır; eğitim bu seviyede değilse yönerge aracınıza %100'e eğitilmiş yetenek sağlar."
+
+msgid "camouflageBattleBooster/name"
+msgstr "Doğal Kılıf"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "%100 eğitilmiş Gizlenme yeteneği sağlar veya etkisini artırır"
+
+msgid "camouflageNet/battleDescr"
+msgstr "Durduktan sonra 3 sn. sabit kalan bir aracın gizliliğini artırır"
+
+msgid "camouflageNet/long_special"
+msgstr "Etkinliği aracın türüne bağlıdır. Kamuflaj Ağı en çok sinsi araçlar için faydalıdır: KMT'ler ve düşük silüete sahip tank avcıları. Gizlenme yeteneğinin etkisini artırır. Bunları birleştirdiğinizde aracınıza iyi bir bonus sağlayacaklardır. Kamuflaj Ağı araç hareket etmeyi durdurduktan 3 saniye sonra devreye girer."
+
+msgid "camouflageNet/name"
+msgstr "Kamuflaj Ağı"
+
+msgid "camouflageNet/short_special"
+msgstr "Sabit bir aracın gizliliğini artırır"
+
+msgid "camouflageNet_tier2/name"
+msgstr "Kamuflaj Ağı Sınıf 2"
+
+msgid "camouflageNet_tier3/name"
+msgstr "Kamuflaj Ağı Sınıf 3"
+
+msgid "chocolate/always"
+msgstr "Savaş boyunca tüm mürettebat etkinlik bonusuna {colorTagOpen}%(crewLevel)s{colorTagClose}."
+
+msgid "chocolate/descr"
+msgstr "Mürettebat etkinlik bonusuna {colorTagOpen}+10%{colorTagClose}."
+
+msgid "chocolate/long_special"
+msgstr "Savaşın başında otomatik olarak etkinleşir ve savaş boyunca etkisini sürdürür. Sadece Alman araçları için uygundur."
+
+msgid "chocolate/name"
+msgstr "Çikolata"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "Sadece Alman araçlarına uygundur."
+
+msgid "chocolate/short_special"
+msgstr "Alman mürettebatların performansını artırır"
+
+msgid "clingBrander/battleDescr"
+msgstr "Sahip olduğu Dost-Düşman Tanıma Sistemi sayesinde en yakın düşmanın peşine düşüp %(botLifeTime)s sn. kadar saldıran otonom bir tank çağırır.\n\n*Bu tank yok edilebilir."
+
+msgid "clingBrander/descr"
+msgstr "Sahip olduğu Dost-Düşman Tanıma Sistemi sayesinde en yakın düşmanın peşine düşüp %(botLifeTime)s sn. kadar saldıran otonom bir tank çağırır.\n\n*Bu tank yok edilebilir."
+
+msgid "clingBrander/longDescr"
+msgstr "Sahip olduğu Dost-Düşman Tanıma Sistemi sayesinde en yakın düşmanın peşine düşüp {whiteSpanish_Open}%(botLifeTime)s sn. kadar{whiteSpanish_Close} saldıran otonom bir tank çağırır.\n\n*Bu tank yok edilebilir."
+
+msgid "clingBrander/name"
+msgstr "Savaş Alanı Robotu"
+
+msgid "clingBrander/shortDescr"
+msgstr "Sahip olduğu Dost-Düşman Tanıma Sistemi sayesinde en yakın düşmanın peşine düşüp {whiteSpanish_Open}%(botLifeTime)s sn. kadar{whiteSpanish_Close} saldıran otonom bir tank çağırır.\n\n*Bu tank yok edilebilir."
+
+msgid "clutches_replace_1/name"
+msgstr "Sürtünmeli Kavrama Değişimi (Tip 1)"
+
+msgid "clutches_replace_2/name"
+msgstr "Sürtünmeli Kavrama Değişimi (Tip 2)"
+
+msgid "coatedOptics/long_special"
+msgstr "Dürbün Teleskoptan farklı olarak herhangi türdeki Kaplı Optikler daha az, ancak araç hareket ettiğinde kaybolmayan kalıcı bir bonus sağlar. Sonuç olarak Kaplı Optikler hafif ve orta tanklar gibi aktif oyun tarzına sahip araçlar için oldukça faydalıdır."
+
+msgid "coatedOptics/name"
+msgstr "Kaplı Optikler"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s görüş mesafesi; Kaplı Optikler (tüm sınıflar), Deneysel Optikler veya Kayra Optikler takılı iken (445 m'ye kadar)."
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+%2.5"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+%2.5"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "Savaş boyunca Kaplı Optiklerin, Deneysel Optiklerin veya Kayra Optiklerin etkisini iyileştirir. Bu yönergeyi takıp etkinleştirebilmek için bu donanım parçalarının aracınıza takılı olması gereklidir."
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "Optik Kalibrasyon"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "Optiklerin etkisini iyileştirir"
+
+msgid "coatedOptics_tier1/name"
+msgstr "Kaplı Optikler Sınıf 1"
+
+msgid "coatedOptics_tier2/name"
+msgstr "Kaplı Optikler Sınıf 2"
+
+msgid "coatedOptics_tier3/name"
+msgstr "Kaplı Optikler Sınıf 3"
+
+msgid "cocacola/always"
+msgstr "Savaş boyunca tüm mürettebat etkinlik bonusuna {colorTagOpen}%(crewLevel)s{colorTagClose}."
+
+msgid "cocacola/descr"
+msgstr "Mürettebat etkinlik bonusuna {colorTagOpen}+10%{colorTagClose}."
+
+msgid "cocacola/long_special"
+msgstr "Savaşın başında otomatik olarak etkinleşir ve savaş boyunca etkisini sürdürür. Sadece ABD araçları için uygundur."
+
+msgid "cocacola/name"
+msgstr "Kola Kasası"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "Sadece Amerikan araçlarına uygundur."
+
+msgid "cocacola/short_special"
+msgstr "ABD'li mürettebatların performansını artırır"
+
+msgid "commandersView/long_special"
+msgstr "Gözcülük yaparken hareket eden düşmanların gizliliğini ve düşmanların bitkilerden gelen gizlilik katsayılarını azaltır. Bu da hareket eden düşmanları daha uzak mesafelerden tespit etmenizi ve çalıların veya devrilmiş ağaçların gizlediği düşmanları daha etkili şekilde tespit edebilmenizi sağlar."
+
+msgid "commandersView/name"
+msgstr "Komutanın Görüş Sistemi"
+
+msgid "commandersView/short_special"
+msgstr "Düşman araçlarının hareket halindeki veya yeşillik arkasındaki gizliliklerini azaltır"
+
+msgid "corrodingShot/battleDescr"
+msgstr "Bir mermiye delme ve hasar potansiyelini artıran aşındırıcı özellik ekler. Mermi, bir düşman aracına hasar verdiğinde araca geçici bir etki uygular, %(dotEffectDuration)s sn. boyunca düşman aracının CP'sinin %(damagePerDotEffectDuration)s kadarına kadar alabilir.\n\n*Negatif etki Tamir Çantası kullanılarak kaldırılabilir."
+
+msgid "corrodingShot/descr"
+msgstr "Bir mermiye delme ve hasar potansiyelini artıran aşındırıcı özellik ekler. Mermi, bir düşman aracına hasar verdiğinde araca geçici bir etki uygular, %(dotEffectDuration)s sn. boyunca düşman aracının CP'sinin %(damagePerDotEffectDuration)s kadarına kadar alabilir.\n\n*Negatif etki Tamir Çantası kullanılarak kaldırılabilir."
+
+msgid "corrodingShot/longDescr"
+msgstr "Bir mermiye delme ve hasar potansiyelini artıran aşındırıcı özellik ekler. Mermi, bir düşman aracına hasar verdiğinde araca geçici bir etki uygular, {whiteSpanish_Open}%(dotEffectDuration)s sn. boyunca{whiteSpanish_Close} düşman aracının CP'sinin {whiteSpanish_Open}%(damagePerDotEffectDuration)s kadarına kadar{whiteSpanish_Close} alabilir.\n\n*Negatif etki Tamir Çantası kullanılarak kaldırılabilir."
+
+msgid "corrodingShot/name"
+msgstr "Asit Mermisi"
+
+msgid "corrodingShot/shortDescr"
+msgstr "Bir mermiye delme ve hasar potansiyelini artıran aşındırıcı özellik ekler. Mermi, bir düşman aracına hasar verdiğinde araca geçici bir etki uygular, {whiteSpanish_Open}%(dotEffectDuration)s sn. boyunca{whiteSpanish_Close} düşman aracının CP'sinin {whiteSpanish_Open}%(damagePerDotEffectDuration)s kadarına kadar{whiteSpanish_Close} alabilir.\n\n*Negatif etki Tamir Çantası kullanılarak kaldırılabilir."
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "Şunları iyileştirir"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "Komutan Niteliği"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} \"{name}\""
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "yetenek:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "Şunları sağlar"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "yetenek:"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "Düşey Sabitleyicinin (hareket halinde ve kule dönüşünde ateş ettikten sonra dağılıma {colorTagOpen}-%20{colorTagClose}) daha güçlü bir etki sağlayan iyileştirilmiş sürümüdür: Ateş ettikten sonra, hareket halinde ve kule dönüşünde dağılıma {colorTagOpen}-%27,5{colorTagClose}. Bu donanım her ülke ve belirli türde araçlar için uygundur. Sadece tahvil karşılığında sökülebilir."
+
+msgid "deluxAimingStabilizer/name"
+msgstr "Sabitleyici Donanım Sistemi"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "Kaplı Optiklerin (görüş mesafesine {colorTagOpen}+%10{colorTagClose}) daha güçlü bir etki sağlayan iyileştirilmiş sürümüdür: Görüş mesafesine {colorTagOpen}+%13,5{colorTagClose}. Bu donanım her ülke ve her türlü araç için uygundur. Sadece tahvil karşılığında sökülebilir."
+
+msgid "deluxCoatedOptics/name"
+msgstr "Deneysel Optikler"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "Geliştirilmiş Top Yöneltme Sisteminin (nişan alma hızına {colorTagOpen}+%10{colorTagClose}) daha güçlü bir etki sağlayan iyileştirilmiş sürümüdür: Nişan alma süresine {colorTagOpen}+%13,5{colorTagClose}. Bu donanım her ülke ve her türlü araç için uygundur. Sadece tahvil karşılığında sökülebilir."
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "Aşınmaya Dayanıklı Top Yöneltme Sistemi"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "Değiştirilmiş Yapılandırmanın daha güçlü bir etki sağlayan benzeridir. Bu donanım her ülke ve her türlü araç için uygundur. Sadece tahvil karşılığında sökülebilir."
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "İyileştirilmiş Yapılandırma"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "Onarımları hızlandırır, cephaneliği, benzin depolarını ve motoru korur"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "Havalandırmanın (mürettebat etkinlik bonusuna {colorTagOpen}+%5{colorTagClose}) daha güçlü bir etki sağlayan iyileştirilmiş sürümüdür: Tüm mürettebat etkinliğine {colorTagOpen}+%8,5{colorTagClose}. Bu donanım her ülke ve her türlü araç için uygundur. Sadece tahvil karşılığında sökülebilir."
+
+msgid "deluxImprovedVentilation/name"
+msgstr "Hava Tahliye Sistemi"
+
+msgid "deluxRammer/long_special"
+msgstr "Sürgünün (yükleme süresine {colorTagOpen}-%10{colorTagClose}) daha güçlü bir etki sağlayan iyileştirilmiş sürümüdür: Tüm mürettebat becerilerine {colorTagOpen}-%13,5{colorTagClose}. Bu donanım her ülke ve her türlü araç için uygundur. Sadece tahvil karşılığında sökülebilir."
+
+msgid "deluxRammer/name"
+msgstr "Yenilikçi Yükleme Sistemi"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "Düşük Sesli Egzoz Sisteminin daha güçlü etki sağlayan gelişmiş bir sürümü: Sabit veya hareket eden bir aracın gizliliğini artırır. Aktif gözcülüğün yanı sıra riskli konumlardan pasif gözcülükte de faydalıdır.\nBu donanım tüm ülkelerin ve her türden araç için uygundur ancak etkinliği araç türüne bağlıdır. Sadece tahvil kullanarak sökülebilir."
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "Gizli Egzoz Birimi"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "Sabit veya hareket hâlindeki bir aracın gizliliğini {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose} artırır"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "Durduktan sonra 1,5 sn. sabit kalan bir aracın gizliliğini artırır"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "Kamuflaj Ağının etkinliği aracın türüne bağlı olan iyileştirilmiş versiyonu. Taktik Gizlenme Ağı en çok sinsi araçlar için faydalıdır: KMT'ler ve alçak silüete sahip tank avcıları. Gizlenme yeteneğinin etkisini artırır. Bunları birleştirdiğinizde aracınıza iyi bir bonus sağlayacaklardır. Taktik Gizlenme Ağı araç hareket etmeyi durdurduktan 1,5 saniye sonra devreye girer."
+
+msgid "deluxeCamouflageNet/name"
+msgstr "Taktik Gizlenme Ağı"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "Sabit duran bir aracın gizliliğine {colorTagOpen}+17,5{colorTagClose}/{colorTagOpen}12,5{colorTagClose}/{colorTagOpen}7,5%{colorTagClose}"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "Onarımdan sonra süspansiyon can puanını tam olarak geri kazandırır."
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "Onarımdan sonra süspansiyonu sağlamlaştırır."
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "İyileştirilmiş Sertleştirmenin gelişmiş bir sürümüdür: Aracın can puanına {colorTagOpen}+%12,5%{colorTagClose}, süspansiyon dayanıklılığına {colorTagOpen}+%75%{colorTagClose}, süspansiyon onarım hızına {colorTagOpen}+%30%{colorTagClose}, çarpma sırasında süspansiyon hasarı nedeniyle alınan gövde hasarına {colorTagOpen}-%75%{colorTagClose}. Onarımdan sonra süspansiyonun can puanını tam olarak geri kazandırır. Hasar alması durumunda paletin yok edilme şansını düşürerek aracınızın olabildiğince hareket halinde kalabilmesini sağlar. Bu donanım tüm ülkelerin araçlarına ve KMT'ler hariç tüm araç türlerine uygundur. Sadece tahvil kullanarak sökülebilir."
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "Artırılmış Mermi Mukavemeti"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "Aracın dayanıklılığını artırır ve süspansiyonu korur"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "İyileştirilmiş Dönüş Mekanizmasının daha güçlü etki sağlayan daha da gelişmiş bir sürümüdür: Top dönüş hızına {colorTagOpen}+%17,5{colorTagClose}, gövde dönüş hızına {colorTagOpen}+%17,5{colorTagClose}, hareket sırasında ve kule dönüşünde dağılıma {colorTagOpen}-%17,5{colorTagClose}. Bu donanım her ülke ve türden araç için uygundur. Sadece tahvil kullanarak sökülebilir."
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "İyileştirilmiş Son Dişli"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "Hareket halindeyken ve dönerken dönüş hızını artırır ve top dağılımını azaltır"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "İyileştirilmiş Nişan Almanın daha güçlü etki sağlayan gelişmiş sürümüdür: Nişan alan veya tam nişan almış bir topun nişan alma çember büyüklüğünü {colorTagOpen}9%{colorTagClose} küçültür. Sonuç olarak topunuzun hedefi bulma şansı daha yükselir. Bu donanım her ülke ve KMT dışında her türlü araç için uygundur. Sadece tahvil karşılığında sökülebilir."
+
+msgid "deluxeImprovedSights/name"
+msgstr "Yenilikçi Nişan Alma"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "Top dağılımını azaltır"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "Durduktan sonra 1,5 sn. sabit kalan bir aracın görüş mesafesini artırır (445 m'ye kadar)"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "Dürbün Teleskopun iyileştirilmiş bir versiyonu. İyi bir görüş mesafesi savaşta araçlara güçlü bir avantaj sağlar. Bu tür donanım düşük silüete ve isabetli toplara sahip tank avcıları için faydalıdır. Araç hareket etmeyi durdurduktan 1,5 saniye sonra devreye girer."
+
+msgid "deluxeStereoscope/name"
+msgstr "Teleskopik Gözetleme Sistemi"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "Sabit duran bir aracın görüş mesafesine (445 m'ye kadar) {colorTagOpen}+%27,5{colorTagClose}"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "Turboşarjın (Motor gücüne {colorTagOpen}+%7,5{colorTagClose}, azami ileri hıza {colorTagOpen}+4 km/sa.{colorTagClose}, azami geri hıza {colorTagOpen}+2 km/sa.{colorTagClose}) iyileştirilmiş sürümüdür: Motor gücüne {colorTagOpen}+%12,5{colorTagClose}, azami ileri hıza {colorTagOpen}+6 km/sa.{colorTagClose}, azami geri hıza {colorTagOpen}+4 km/sa.{colorTagClose}. Bu donanım tüm ülkelerin araçlarına ve tekerlekli araçlar hariç tüm araç türlerine uygundur. Sadece tahvil kullanarak sökülebilir."
+
+msgid "deluxeTurbocharger/name"
+msgstr "İyileştirilmiş Kompresör"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "Motor gücünü ve azami hızı artırır"
+
+msgid "eb_minefield/descr"
+msgstr "Seçili alana belirli bir süre için faal bir mayın tarlası döşer."
+
+msgid "eb_minefield/long_descr"
+msgstr "Seçili alana belirli bir süre için aktif bir mayın tarlası döşer. Mayınlar patladığında düşman araçlarına hasar verir ve onları şoka sokar. Düşmanlar mayınları yakın mesafeden veya Keşif Uçuşu ya da Gözcü Savaş Yedekleri ile tespit edebilir. Mayınlar isabetler veya patlamalarla yok edilebilir."
+
+msgid "eb_minefield/name"
+msgstr "Mayın Tarlası"
+
+msgid "eb_minefield/short_descr"
+msgstr "Seçili alana belirli bir süre için faal bir mayın tarlası döşer."
+
+msgid "eb_regenerationKit/descr"
+msgstr "Aracınızın can puanının belirli bir yüzdesini kademeli olarak geri kazandırır."
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "Yavaş yavaş aracınızın can puanının bir kısmını geri kazandırır. İkmal Çemberi içerisinde onarım hızını artırır. Aktifken, mayınlardan alınan hasarı azaltır."
+
+msgid "eb_regenerationKit/name"
+msgstr "Sahra Onarımları"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "Aracınızın can puanının belirli bir yüzdesini kademeli olarak geri kazandırır."
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "Garaj yuvası"
+
+msgid "empty_slot/name"
+msgstr "Garaj yuvası"
+
+msgid "empty_slot/short_descr"
+msgstr "Savaş Yedeği yuvası kullanıldı."
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "Ses Tespiti yeteneğinin etkisini 1,5 kat artırır"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "%100 eğitilmiş Ses Tespiti yeteneği sağlar"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "Ses Tespiti yeteneği düşman KMT ateşi hakkında uyarı verir ve şokun olumsuz etkilerini azaltır. Yetenek %100 eğitildiyse kullanılan yönerge etkisini artırır. Yönerge, yetenek %100 eğitilmediyse aracınıza %100 eğitilmiş yetenek etkisi sağlar."
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "Artırılmış Teyakkuz"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "%100 eğitilmiş Ses Tespiti yeteneği sağlar veya etkisini artırır"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "İyileştirilmiş nişan alma, nişan alma süresini azaltır. Geliştirilmiş Top Yöneltme Sistemi ile donatılmış bir araç daha isabetli atış yapar (ayrıca atış hızını da iyileştirir çünkü yükleme bazen tam nişan almaktan daha hızlıdır)."
+
+msgid "enhancedAimDrives/name"
+msgstr "Geliştirilmiş Top Yöneltme Sistemi"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s nişan alma hızı; Geliştirilmiş Top Yöneltme Sistemi (tüm sınıflar), Aşınmaya Dayanıklı Top Yöneltme Sistemi, Kayra Top Yöneltme Sistemi veya Atış Kontrol Sistemi takılı iken."
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+%2.5"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+%2.5"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "Savaş boyunca Kayra Top Yöneltme Sisteminin, Gelişmiş Top Yöneltme Sisteminin veya Aşınmaya Dayanıklı Top Yöneltme Sisteminin etkisini iyileştirir. Bu yönergeyi kullanabilmek için aracınızda bu donanım parçalarının takılı olması gereklidir."
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "Nişan Ayarlama"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "Top yöneltme sistemlerinin etkisini iyileştirir"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "Geliştirilmiş Top Yöneltme Sistemi Sınıf 1"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "Geliştirilmiş Top Yöneltme Sistemi Sınıf 2"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "Geliştirilmiş Top Yöneltme Sistemi Sınıf 3"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "Geliştirilmiş Yaylı Rondelalar"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "Onarımdan sonra süspansiyon can puanını tam olarak geri kazandırır."
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Onarımdan sonra süspansiyon can puanını tam olarak geri kazandırır"
+
+msgid "enhancedLevers/name"
+msgstr "Geliştirilmiş Manivela"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "Geliştirilmiş Boylamasına Burulma Çubukları"
+
+msgid "enhancedSprings/name"
+msgstr "Geliştirilmiş Yaylar"
+
+msgid "enhancedTorsions1t/name"
+msgstr "Geliştirilmiş Burulma Çubukları Sınıf 1 t"
+
+msgid "enhancedTorsions3t/name"
+msgstr "Geliştirilmiş Burulma Çubukları Sınıf 3 t"
+
+msgid "enhancedTorsions5t/name"
+msgstr "Geliştirilmiş Burulma Çubukları Sınıf 5 t"
+
+msgid "exampleAbility/descr"
+msgstr "Görsel Metin için Test Becerisi"
+
+msgid "exampleAbility/name"
+msgstr "Test Becerisi"
+
+msgid "excellentFuel/always"
+msgstr "Savaş boyunca motor gücüne ve kule dönüş hızına %(vehicleEnginePower)s."
+
+msgid "excellentFuel/descr"
+msgstr "Motor gücüne ve kule dönüş hızına {colorTagOpen}+%10{colorTagClose}."
+
+msgid "excellentFuel/long_special"
+msgstr "Savaş boyunca motor gücüne ve kule dönüş hızına {colorTagOpen}10%{colorTagClose} ekler. Savaşın başında otomatik olarak etkinleşir ve savaş boyunca etkisini sürdürür."
+
+msgid "excellentFuel/name"
+msgstr "Mükemmel Yakıt"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "Motor gücüne ve kule dönüş hızına {colorTagOpen}+%10{colorTagClose}"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "Onarımdan sonra süspansiyon can puanını tam olarak geri kazandırır."
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "Onarımdan sonra süspansiyonu sağlamlaştırır."
+
+msgid "extraHealthReserve/long_special"
+msgstr "Aracın dayanıklılığını ve onarım hızını artırır. Darbe anında süspansiyon hasarının yol açtığı gövde hasarını azaltır. Onarımdan sonra süspansiyon can puanını tam olarak geri kazandırır. Hasar aldığınızda paletin yok edilme olasılığını azaltarak aracınızın mümkün olduğunca uzun süre hareket halinde kalabilmesini sağlar."
+
+msgid "extraHealthReserve/name"
+msgstr "İyileştirilmiş Sertleştirme"
+
+msgid "extraHealthReserve/short_special"
+msgstr "Aracın dayanıklılığını artırır ve süspansiyonu korur"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "İyileştirilmiş Sertleştirme Sınıf 1"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "İyileştirilmiş Sertleştirme Sınıf 2"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "İyileştirilmiş Sertleştirme Sınıf 3"
+
+msgid "fireCircle/battleDescr"
+msgstr "Aracınızın etrafında, yeteneğin etki alanında düşman araçlarının hareket kabiliyetini düşüren ve %(timer)s sn.lik süresi içinde toplam CP'lerinin %(damagePerTickForInterval)s kadarını alabilen bir ateş çemberi oluşturur.\n\n*Ateş çemberinin etki alanı sabittir ve aracınızın hareketini takip etmez."
+
+msgid "fireCircle/descr"
+msgstr "Aracınızın etrafında, yeteneğin etki alanında düşman araçlarının hareket kabiliyetini düşüren ve %(timer)s sn.lik süresi içinde toplam CP'lerinin %(damagePerTickForInterval)s kadarını alabilen bir ateş çemberi oluşturur.\n\n*Ateş çemberinin etki alanı sabittir ve aracınızın hareketini takip etmez."
+
+msgid "fireCircle/longDescr"
+msgstr "Aracınızın etrafında, yeteneğin etki alanında düşman araçlarının hareket kabiliyetini düşüren ve {whiteSpanish_Open}%(timer)s sn.lik süresi içinde{whiteSpanish_Close} toplam CP'lerinin {whiteSpanish_Open}%(damagePerTickForInterval)s{whiteSpanish_Close} kadarını alabilen bir ateş çemberi oluşturur.\n\n*Ateş çemberinin etki alanı sabittir ve aracınızın hareketini takip etmez."
+
+msgid "fireCircle/name"
+msgstr "Ateş Çemberi"
+
+msgid "fireCircle/shortDescr"
+msgstr "Aracınızın etrafında, yeteneğin etki alanında düşman araçlarının hareket kabiliyetini düşüren ve {whiteSpanish_Open}%(timer)s sn.lik süresi içinde{whiteSpanish_Close} toplam CP'lerinin {whiteSpanish_Open}%(damagePerTickForInterval)s{whiteSpanish_Close} kadarını alabilen bir ateş çemberi oluşturur.\n\n*Ateş çemberinin etki alanı sabittir ve aracınızın hareketini takip etmez."
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "Yangın Söndürme yeteneğinin etkisini 1,5 kat artırır"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "%100 eğitilmiş Yangın Söndürme yeteneği sağlar"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "Yangın Söndürme yeteneği savaş boyunca aracınızın yangın söndürme yeteneklerini güçlendirir. Yetenek %100'e eğitilmişse takılı yönerge etkisini artırır; eğitim bu seviyede değilse yönerge aracınıza %100'e eğitilmiş yetenek sağlar."
+
+msgid "fireFightingBattleBooster/name"
+msgstr "Deneyimli İtfaiyeci"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "%100 eğitilmiş Yangın Söndürme yeteneği sağlar veya etkisini artırır"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "Topçuya, seçili alanı vurma emri verir. Alan içindeki tüm araçlara hasar verir."
+
+msgid "fort_aoe_artillery/name"
+msgstr "Topçu Saldırısı"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "Topçuya, seçili alanı vurma emri verir. Alan içindeki tüm araçlara hasar verir."
+
+msgid "fort_inspire/longDescr"
+msgstr "Aracınızın tüm mürettebatının ve yakındaki müttefik araçların mürettebatlarının ana uzmanlığına ve tüm yeteneklerine bir bonus sağlar."
+
+msgid "fort_inspire/name"
+msgstr "İlham"
+
+msgid "fort_inspire/shortDescr"
+msgstr "Aracınızın tüm mürettebatının ve yakındaki müttefik araçların mürettebatlarının ana uzmanlığına ve tüm yeteneklerine bir bonus sağlar."
+
+msgid "fuel_system_revision_1/name"
+msgstr "Yakıt Sistemi Revizyonu (Tip 1)"
+
+msgid "grousers/long_special"
+msgstr "Aracın dönüş hızını artırır ve her tür arazi üzerinde hızını muhafaza etmesini sağlar. Yumuşak ve orta yumuşaklıktaki arazide sürerken özellikle etkilidir. En fazla etkiyi Acil Fren ve Arazi Sürüşü yetenekleriyle birleştirildiğinde gösterir."
+
+msgid "grousers/name"
+msgstr "Ekstra Palet Tırnağı"
+
+msgid "grousers/short_special"
+msgstr "Aracın dönüş hızını artırır ve ivmelenmeyi iyileştirir"
+
+msgid "grousers_tier1/name"
+msgstr "Ekstra Palet Tırnağı Sınıf 1"
+
+msgid "grousers_tier2/name"
+msgstr "Ekstra Palet Tırnağı Sınıf 2"
+
+msgid "grousers_tier3/name"
+msgstr "Ekstra Palet Tırnağı Sınıf 3"
+
+msgid "gun_balancing_1/name"
+msgstr "Top Dengeleme (Tip 1)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "Aracınızda yangın söndürme."
+
+msgid "handExtinguishers/long_special"
+msgstr "Etkinleştirildiğinde aracınızdaki yangını söndürür. Tüm ülkelerin tüm araçları için uygundur. Sarf malzemesinin en az bir kere kullanılması durumunda savaştan sonra kaldırılır."
+
+msgid "handExtinguishers/name"
+msgstr "Manuel Yangın Söndürücü"
+
+msgid "handExtinguishers/onUse"
+msgstr "Aracınızdaki yangını söndürür. Savaşta çok kere kullanılabilir. Sarf malzemesi en az bir kere kullanılması durumunda savaştan sonra kaldırılır."
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "Yangını söndürür"
+
+msgid "healPoint/battleDescr"
+msgstr "Aracınızın etrafında bir alan oluşturur. Bu alan içerisinde hem oyuncu hem de Takım üyeleri %(duration)s sn. boyunca her saniye araçlarının can puanının %(healPerTick)s kadarını geri kazanır."
+
+msgid "healPoint/descr"
+msgstr "Aracınızın etrafında bir alan oluşturur. Bu alan içerisinde hem oyuncu hem de Takım üyeleri %(duration)s sn. boyunca her saniye araçlarının can puanının %(healPerTick)s kadarını geri kazanır."
+
+msgid "healPoint/longDescr"
+msgstr "Aracınızın etrafında bir alan oluşturur. Bu alan içerisinde hem oyuncu hem de Takım üyeleri {whiteSpanish_Open}%(duration)s sn.{whiteSpanish_Close} boyunca her saniye araçlarının can puanının {green_Open}%(healPerTick)s{green_Close} kadarını geri kazanır."
+
+msgid "healPoint/name"
+msgstr "İyileşme Bölgesi"
+
+msgid "healPoint/shortDescr"
+msgstr "Aracınızın etrafında bir alan oluşturur. Bu alan içerisinde hem oyuncu hem de Takım üyeleri {whiteSpanish_Open}%(duration)s sn.{whiteSpanish_Close} boyunca her saniye araçlarının can puanının {green_Open}%(healPerTick)s{green_Close} kadarını geri kazanır."
+
+msgid "hotCoffee/always"
+msgstr "Savaş boyunca tüm mürettebat etkinlik bonusuna %(crewLevel)s."
+
+msgid "hotCoffee/descr"
+msgstr "Mürettebat etkinlik bonusuna {colorTagOpen}+10%{colorTagClose}."
+
+msgid "hotCoffee/long_special"
+msgstr "Savaşın başında otomatik olarak etkinleşir ve savaş boyunca etkisini sürdürür. Sadece Fransız araçları için uygundur."
+
+msgid "hotCoffee/name"
+msgstr "Koyu Kahve"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "Sadece Fransız araçlarına uygundur."
+
+msgid "hotCoffee/short_special"
+msgstr "Fransız mürettebatların performansını artırır"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "İlgili parçalar bir savaşta yok edildiklerinde bir kereliğine benzin deposu yangınını, cephanelik patlamasını ve motorun yok edilmesini engeller."
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "İlgili parçalar bir savaşta yok edildiklerinde bir kereliğine benzin deposu yangınını, cephanelik patlamasını ve motorun yok edilmesini engeller."
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "Cephanelik patlamaktan korundu"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "Cephanelik patlaması önlendi"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "Motor korundu"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "Motorun yok edilmesi önlendi"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "Benzin deposun yangından korundu"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "Benzin deposu yangını önlendi"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "İlgili parçalar bir savaşta yok edildiklerinde bir kereliğine benzin deposu yangınını, cephanelik patlamasını ve motorun yok edilmesini engeller."
+
+msgid "improvedConfiguration/long_special"
+msgstr "Onarımları hızlandırır. Cephaneliğin, benzin depolarının ve motorun dayanıklılığını artırır. İlgili parçaların hasar alması durumunda yükleme süresi cezasını ve motor gücü kaybını azaltır. Motorda yangın çıkma olasılığını düşürür. Bir savaşta ilgili parçanın yok edilmesi durumunda bir tane benzin deposu yangınını, cephanelik patlamasını ve motor yok edilmesini önler. Tamirler, Güvenli Depolama ve Önleyici Bakım yetenekleri ile birleştirildiğinde daha etkilidir."
+
+msgid "improvedConfiguration/name"
+msgstr "Değiştirilmiş Yapılandırma"
+
+msgid "improvedConfiguration/short_special"
+msgstr "Onarımları hızlandırır, cephaneliği, benzin depolarını ve motoru korur"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s onarım hızı; Değiştirilmiş Yapılandırma (tüm sınıflar), İyileştirilmiş Yapılandırma veya Kayra Koruma Teknolojisi takılıyken."
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+%10"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+%10"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "Savaş boyunca Değiştirilmiş Yapılandırmanın, İyileştirilmiş Yapılandırmanın veya Kayra Koruma Teknolojisinin etkisini iyileştirir. Bu yönergeyi takıp etkinleştirebilmek için bu donanım parçalarının aracınıza takılı olması gereklidir."
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "Savaş Öncesi Bakım"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "Değiştirilmiş Yapılandırmanın etkisini iyileştirir"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "Değiştirilmiş Yapılandırma Sınıf 1"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "Değiştirilmiş Yapılandırma Sınıf 2"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "Bir düşmanın aracınızın görüş mesafesinden çıktıktan sonra tespit edilmiş olarak kalacağı süreyi artırır. Düşmanlar için tespit edilmiş olarak kalacağınız süreyi azaltır. Belirlenmiş Hedef ve İntikam Çağrısı yetenekleri ile birleştirildiğinde en yüksek etkiyi gösterir."
+
+msgid "improvedRadioCommunication/name"
+msgstr "İyileştirilmiş Telsiz Seti"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "Bir düşmanın tespit edilmiş olarak kalacağı süreyi artırır ve sizin tespit edilmiş olarak kalacağınız süreyi azaltır"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "Kulesi olan araçlar için gövde ve kule dönüş hızını artırır. Sabit kabinlere sahip araçlar için gövde ve top dönüş hızını artırır. Gövde ve kule dönüşünün yanı sıra hareket halindeyken ve ateş ettikten sonra da top dağılımını azaltır. Acil Fren yeteneği ile birleştirildiğinde daha etkilidir."
+
+msgid "improvedRotationMechanism/name"
+msgstr "İyileştirilmiş Dönüş Mekanizması"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "Hareket halindeyken ve dönerken dönüş hızını artırır ve top dağılımını azaltır"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "İyileştirilmiş Dönüş Mekanizması Sınıf 1"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "İyileştirilmiş Dönüş Mekanizması Sınıf 2"
+
+msgid "improvedSights/long_special"
+msgstr "Nişan almakta olan veya tam olarak nişan almış bir topun isabetliliğini artırmak için nişan alma çemberinin boyutunu küçültür. Sonuç olarak topunuzun hedefi vurma olasılığı daha yüksek olur."
+
+msgid "improvedSights/name"
+msgstr "İyileştirilmiş Nişan Alma"
+
+msgid "improvedSights/short_special"
+msgstr "Top dağılımını azaltır"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "Herhangi bir sınıf İyileştirilmiş Nişan Alma, Kayra Nişan Alma veya İsabetlilik İyileştirme Sistemi takılıyken nişan alma çemberinin boyutuna %s."
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–%2"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–%2"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "Savaş boyunca İyileştirilmiş Nişan Almanın veya Kayra Nişan Almanın etkinliğini iyileştirir. Yönerge ancak ilgili donanımı taktıysanız çalışacaktır."
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "Parlatılmış Lens"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "Nişan alma çemberinin boyutunu ufaltır"
+
+msgid "improvedSights_tier1/name"
+msgstr "İyileştirilmiş Nişan Alma Sınıf 1"
+
+msgid "improvedSights_tier2/name"
+msgstr "İyileştirilmiş Nişan Alma Sınıf 2"
+
+msgid "improvedSights_tier3/name"
+msgstr "İyileştirilmiş Nişan Alma Sınıf 3"
+
+msgid "improvedVentilation/long_special"
+msgstr "Aracınızın çeşitli niteliklerini iyileştirir: görüş mesafesi, atış oranı, nişan alma süresi, dinamik nitelikler ve diğerleri. Ancak bu donanımın sağladığı bonuslar sadece ekibiniz Silah Arkadaşlığı yeteneğinde %100 eğitildiğinde birlikte fark edilebilecektir."
+
+msgid "improvedVentilation/name"
+msgstr "İyileştirilmiş Havalandırma"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "Mürettebat etkinlik bonusuna %s; Geliştirilmiş Havalandırma (herhangi bir sınıftan), Hava Tahliye Sistemi veya Kayra Havalandırma takılı iken."
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+%2.5"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+%2.5"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "Savaş boyunca İyileştirilmiş Havalandırmanın (tüm sınıflar), Hava Tahliye Sisteminin veya Kayra Havalandırmanın etkisini iyileştirir. Bu yönergeyi takıp etkinleştirebilmek için bu donanım parçalarının aracınıza takılı olması gereklidir."
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "Tahliye Temizliği"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "Havalandırmanın etkisini iyileştirir"
+
+msgid "improvedVentilation_class1/name"
+msgstr "İyileştirilmiş Havalandırma Sınıf 1"
+
+msgid "improvedVentilation_class2/name"
+msgstr "İyileştirilmiş Havalandırma Sınıf 2"
+
+msgid "improvedVentilation_class3/name"
+msgstr "İyileştirilmiş Havalandırma Sınıf 3"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "İyileştirilmiş Havalandırma Sınıf 1"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "İyileştirilmiş Havalandırma Sınıf 2"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "İyileştirilmiş Havalandırma Sınıf 3"
+
+msgid "improved_suspension_1/name"
+msgstr "İyileştirilmiş Süspansiyon (Tip 1)"
+
+msgid "improved_suspension_2/name"
+msgstr "İyileştirilmiş Süspansiyon (Tip 2)"
+
+msgid "inspire/longDescr"
+msgstr "Aracın ve belirli bir yarıçaptaki müttefiklerin mürettebat performanslarını iyileştirir, her mürettebat üyesinin ana uzmanlığına bir % bonus ekler. Bu etkiyi uygulayan oyuncu daha iyileştirilmiş bir etkiden faydalanır."
+
+msgid "inspire/name"
+msgstr "Teşvik"
+
+msgid "inspire/shortDescr"
+msgstr "Oyuncunun mürettebatının ve müttefik mürettebatların ana uzmanlıklarına bonus ekler."
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "Büyük Kalibre Topçu Mermisi Sürgüsü"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "Büyük Kalibre Tank Topu Sürgüsü"
+
+msgid "largeMedkit/always"
+msgstr "Şok süresine %(crewStunDuration)s\nMürettebatı yaralanmaya karşı korumaya %(crewHitChance)s"
+
+msgid "largeMedkit/descr"
+msgstr "Tüm yaralı mürettebat üyelerinin iyileştirilmesi ve şok etkisinin kaldırılması."
+
+msgid "largeMedkit/long_special"
+msgstr "Etkinleştirildiğinde tüm yaralı mürettebat üyelerini iyileştirir ve şok etkisini kaldırır. Pasif etkisi mürettebatı yaralanmaya karşı korur. Bu sarf malzemesi her ülkenin her türlü araç türü için uygundur."
+
+msgid "largeMedkit/name"
+msgstr "Büyük İlk Yardım Çantası"
+
+msgid "largeMedkit/onUse"
+msgstr "Tüm yaralı mürettebat üyelerini iyileştirir. Bir savaşta çok kere kullanılabilir. Sarf malzemesi en az bir kere kullanılması durumunda savaştan sonra kaldırılır."
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "Tüm yaralı mürettebat üyelerinin tedavisi ve şok etkisinin kaldırılması. Bir savaşta çok kere kullanılabilir. Sarf malzemesi en az bir kere kullanıldıysa savaştan sonra kaldırılır."
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "Tüm yaralı mürettebat üyelerini iyileştirir ve şok etkisini kaldırır"
+
+msgid "largeRepairkit/always"
+msgstr "Parça onarım hızına %(vehicleRepairSpeed)s"
+
+msgid "largeRepairkit/descr"
+msgstr "Tüm hasarlı parçaların onarımı."
+
+msgid "largeRepairkit/long_special"
+msgstr "Etkinleştirildiğinde tüm hasarlı parçaları bir kere onarır. Pasif etkisi onarım hızını artırır. Bu sarf malzemesi tüm ülkelerin her türlü aracı için uygundur."
+
+msgid "largeRepairkit/name"
+msgstr "Büyük Tamir Çantası"
+
+msgid "largeRepairkit/onUse"
+msgstr "Tüm hasarlı parçaları onarır. Bir savaşta çok kere kullanılabilir. Sarf malzemesi en az bir kere kullanılması durumunda savaştan sonra kaldırılır."
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "Tüm hasarlı parçaları onarır"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "İntikam Çağrısı yeteneğine ek %50"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "%100'e eğitilmiş İntikam Çağrısı yeteneği verir"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "İntikam Çağrısı yeteneği savaş boyunca aracın yok edilmesinden sonra ek 2 saniye boyunca düşman konumlarını bildirme fırsatı sağlar. Yetenek %100'e eğitildiğinde takılı yönerge süresine 1 saniye ekler (toplamda 3 saniye). Aksi takdirde eğitim o seviyede değilse yönerge aracınıza %100'e eğitilmiş yetenek (standart 2 saniye) sağlar."
+
+msgid "lastEffortBattleBooster/name"
+msgstr "Görev Önce Gelir"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "%100'e eğitilmiş İntikam Çağrısı yeteneği sağlar veya etkisini artırır"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "Orta Kalibre Topçu Mermisi Sürgüsü"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "Orta Kalibre Tank Topu Sürgüsü"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "Atış Kontrol Sistemi T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "Atış Kontrol Sistemi T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "Atış Kontrol Sistemi T1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "Atış Kontrol Sistemi T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "Atış Kontrol Sistemi T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "Atış Kontrol Sistemi T2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "Atış Kontrol Sistemi T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "Atış Kontrol Sistemi T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "Atış Kontrol Sistemi T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "Dayanıklılık Artırma Seti T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "Dayanıklılık Artırma Seti T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "Dayanıklılık Artırma Seti T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "Dayanıklılık Artırma Seti T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "Dayanıklılık Artırma Seti T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "Dayanıklılık Artırma Seti T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "Dayanıklılık Artırma Seti T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "Dayanıklılık Artırma Seti T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "Dayanıklılık Artırma Seti T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "İsabetlilik İyileştirme Sistemi T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "İsabetlilik İyileştirme Sistemi T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "İsabetlilik İyileştirme Sistemi T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "İsabetlilik İyileştirme Sistemi T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "İsabetlilik İyileştirme Sistemi T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "İsabetlilik İyileştirme Sistemi T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "İsabetlilik İyileştirme Sistemi T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "İsabetlilik İyileştirme Sistemi T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "İsabetlilik İyileştirme Sistemi T3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "Hareket Kabiliyeti İyileştirme Sistemi T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "Hareket Kabiliyeti İyileştirme Sistemi T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "Hareket Kabiliyeti İyileştirme Sistemi T1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "Hareket Kabiliyeti İyileştirme Sistemi T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "Hareket Kabiliyeti İyileştirme Sistemi T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "Hareket Kabiliyeti İyileştirme Sistemi T2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "Hareket Kabiliyeti İyileştirme Sistemi T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "Hareket Kabiliyeti İyileştirme Sistemi T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "Hareket Kabiliyeti İyileştirme Sistemi T3"
+
+msgid "nitro/battleDescr"
+msgstr "%(consumeSeconds)s sn. boyunca geçici olarak aracınızın motor gücünü %(enginePowerFactor)s ve azami hızını %(maxSpeedFactor)s kat artırır."
+
+msgid "nitro/descr"
+msgstr "%(consumeSeconds)s sn. boyunca geçici olarak aracınızın motor gücünü %(enginePowerFactor)s ve azami hızını %(maxSpeedFactor)s kat artırır."
+
+msgid "nitro/long_special"
+msgstr "{whiteSpanish_Open}%(consumeSeconds)s sn. boyunca{whiteSpanish_Close} geçici olarak aracınızın motor gücünü {green_Open}%(enginePowerFactor)s{green_Close} ve azami hızını {green_Open}%(maxSpeedFactor)s kat{green_Close} artırır."
+
+msgid "nitro/name"
+msgstr "Turboşarj"
+
+msgid "nitro/short_special"
+msgstr "{whiteSpanish_Open}%(consumeSeconds)s sn. boyunca{whiteSpanish_Close} geçici olarak aracınızın motor gücünü {green_Open}%(enginePowerFactor)s{green_Close} ve azami hızını {green_Open}%(maxSpeedFactor)s kat{green_Close} artırır."
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "Alternatif Yapılandırma: Yardımcı Savaş Yükü"
+
+msgid "passive_engineering/longDescr"
+msgstr "Ele geçirme ve ikmal hızına bonus sağlar. İkmal hızını artırır, İkmal Çemberlerini tazelemek için gereken süreyi, kilit noktaları ele geçirme veya kontrolünü tekrar ele geçirme sürelerini kısaltır."
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "Bu Savaş Yedeğini KMT'lere uygulayamazsınız."
+
+msgid "passive_engineering/name"
+msgstr "İstihkâm"
+
+msgid "passive_engineering/shortDescr"
+msgstr "Ele geçirme hızına, ele geçirme engellemeye ve ikmale bonus sağlar."
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "KMT'ler için uygun değil"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "Güvenli Depolama yeteneğinin etkisini üçe katlar"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "%100 eğitilmiş Güvenli Depolama yeteneği sağlar"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "Güvenli Depolama yeteneği savaş boyunca cephaneliğinizin dayanıklılığını iyileştirir. Yetenek %100'e eğitildiğinde takılı yönerge etkisini artırır; eğitim o seviyede değilse yönerge aracınıza %100'e eğitilmiş yetenek sağlar."
+
+msgid "pedantBattleBooster/name"
+msgstr "Mermi Düzenleyici"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "%100'e eğitilmiş Güvenli Depolama yeteneği sağlar veya etkisini artırır"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "Seçili alan {colorTagOpen}%(delay)d sn.{colorTagClose} içinde bir topçu saldırısına maruz kalır. {colorTagOpen}%(radius)d m{colorTagClose} yarıçap içinde hasar gören tüm hedefler {colorTagOpen}%(damage)d{colorTagClose} CP hasar alır ve {colorTagOpen}%(stunDuration)d sn.{colorTagClose} boyunca şoka girer."
+
+msgid "poi_artillery_aoe/name"
+msgstr "Topçu Saldırısı"
+
+msgid "poi_radar/descr"
+msgstr "Etkinleştirildiğinde, tüm düşman araçları {colorTagOpen}%(duration)d sn.{colorTagClose} boyunca tespitte kalır."
+
+msgid "poi_radar/name"
+msgstr "Tümen Radarı"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "Pratiklik yeteneğinin etkisini ikiye katlar"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "%100 eğitilmiş Pratiklik yeteneği sağlar"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "Pratiklik yeteneği savaş boyunca sarf malzemesi soğuma süresini azaltır. Yetenek %100'e eğitilmişse takılı yönerge etkisini artırır; eğitim bu seviyede değilse yönerge aracınıza %100'e eğitilmiş yetenek sağlar."
+
+msgid "practicalityBattleBooster/name"
+msgstr "Kapsamlı Hazırlık"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "%100 eğitilmiş Pratiklik yeteneği sağlar veya etkisini artırır"
+
+msgid "qualityFuel/always"
+msgstr "Savaş boyunca motor gücüne ve kule dönüş hızına %(vehicleEnginePower)s."
+
+msgid "qualityFuel/descr"
+msgstr "Motor gücüne ve kule dönüş hızına {colorTagOpen}+%5{colorTagClose}."
+
+msgid "qualityFuel/long_special"
+msgstr "Savaş boyunca motor gücüne ve kule dönüş hızına {colorTagOpen}5%{colorTagClose} ekler. Savaşın başında otomatik olarak etkinleşir ve savaş boyunca etkisini sürdürür."
+
+msgid "qualityFuel/name"
+msgstr "Kaliteli Yakıt"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "Motor gücüne ve kule dönüş hızına {colorTagOpen}+%5{colorTagClose}"
+
+msgid "radar/descr"
+msgstr "Mini haritada düşman araçlarını ve Savaş Ganimetlerini tespit eder."
+
+msgid "radar/name"
+msgstr "Telsiz Tespiti"
+
+msgid "rammer/long_special"
+msgstr "Atış hızı aracınızın en önemli niteliğini gösterir. Bu donanım savaşta oldukça faydalıdır ve araçlarınıza takılmalıdır. Ancak sürgüler şarjörlü yükleme sistemine sahip araçlara takılamaz."
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s yükleme süresi; her türde ve kalibrede top için Sürgü, Yenilikçi Yükleme Sistemi veya Kayra Sürgü takılı iken."
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-%2.5"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-%2.5"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "Savaş boyunca Sürgünün (tüm top türleri ve kalibreleri), Kayra Sürgünün veya Yenilikçi Yükleme Sisteminin etkisini iyileştirir. Bu yönergeyi takıp etkinleştirebilmek için bu donanım parçalarının aracınıza takılı olması gereklidir."
+
+msgid "rammerBattleBooster/name"
+msgstr "Düzenli Cephanelik"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "Sürgünün etkisini iyileştirir"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "Belirlenmiş Hedef yeteneğinin etkisini ikiye katlar"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "%100'e eğitilmiş Belirlenmiş Hedef yeteneği sağlar"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "Belirlenmiş Hedef yeteneği savaş boyunca hedeflenmiş bir düşman aracının görünür kalma süresine iki saniye ek süre sağlar. Yetenek %100'e eğitildiğinde takılı yönerge etkisini artırır. Eğitim o seviyede değilse yönerge aracınıza %100'e eğitilmiş yetenek sağlar."
+
+msgid "rancorousBattleBooster/name"
+msgstr "Hedef Odaklanma"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "%100'e eğitilmiş Belirlenmiş Hedef yeteneği sağlar veya etkisini artırır"
+
+msgid "ration/always"
+msgstr "Savaş boyunca tüm mürettebat etkinlik bonusuna %(crewLevel)s."
+
+msgid "ration/descr"
+msgstr "Mürettebat etkinlik bonusuna {colorTagOpen}+10%{colorTagClose}."
+
+msgid "ration/long_special"
+msgstr "Savaşın başında otomatik olarak etkinleşir ve savaş boyunca etkisini sürdürür. Sadece SSCB araçları için uygundur."
+
+msgid "ration/name"
+msgstr "Ekstra Kumanya"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "Sadece Sovyet araçlarına uygundur."
+
+msgid "ration/short_special"
+msgstr "SSCB'li mürettebatların performansını artırır"
+
+msgid "ration_china/always"
+msgstr "Savaş boyunca tüm mürettebat etkinlik bonusuna %(crewLevel)s."
+
+msgid "ration_china/descr"
+msgstr "Mürettebat etkinlik bonusuna {colorTagOpen}+10%{colorTagClose}."
+
+msgid "ration_china/long_special"
+msgstr "Savaşın başında otomatik olarak etkinleşir ve savaş boyunca etkisini sürdürür. Sadece Çin araçları için uygundur."
+
+msgid "ration_china/name"
+msgstr "İyileştirilmiş Kumanya"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "Sadece Çin araçlarına uygundur."
+
+msgid "ration_china/short_special"
+msgstr "Çinli mürettebatların performansını artırır"
+
+msgid "ration_czech/always"
+msgstr "Savaş boyunca tüm mürettebat etkinlik bonusuna %(crewLevel)s."
+
+msgid "ration_czech/descr"
+msgstr "Mürettebat etkinlik bonusuna {colorTagOpen}+10%{colorTagClose}."
+
+msgid "ration_czech/long_special"
+msgstr "Savaşın başında otomatik olarak etkinleşir ve savaş boyunca etkisini sürdürür. Sadece Çekoslovak araçları için uygundur."
+
+msgid "ration_czech/name"
+msgstr "Buchty"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "Sadece Çekoslovak araçlarına uygundur."
+
+msgid "ration_czech/short_special"
+msgstr "Çekoslovak mürettebatların performansını artırır"
+
+msgid "ration_italy/always"
+msgstr "Savaş boyunca tüm mürettebat etkinlik bonusuna %(crewLevel)s."
+
+msgid "ration_italy/descr"
+msgstr "Mürettebat etkinlik bonusuna {colorTagOpen}+10%{colorTagClose}."
+
+msgid "ration_italy/long_special"
+msgstr "Savaşın başında otomatik olarak etkinleşir ve savaş boyunca etkisini sürdürür. Sadece İtalyan araçları için uygundur."
+
+msgid "ration_italy/name"
+msgstr "Et Soslu Spagetti"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "Sadece İtalyan araçlarına uygundur."
+
+msgid "ration_italy/short_special"
+msgstr "İtalyan mürettebatların performansını artırır"
+
+msgid "ration_japan/always"
+msgstr "Savaş boyunca tüm mürettebat etkinlik bonusuna %(crewLevel)s."
+
+msgid "ration_japan/descr"
+msgstr "Mürettebat etkinlik bonusuna {colorTagOpen}+10%{colorTagClose}."
+
+msgid "ration_japan/long_special"
+msgstr "Savaşın başında otomatik olarak etkinleşir ve savaş boyunca etkisini sürdürür. Sadece Japon araçları için uygundur."
+
+msgid "ration_japan/name"
+msgstr "Onigiri"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "Sadece Japon araçlarına uygundur."
+
+msgid "ration_japan/short_special"
+msgstr "Japon mürettebatların performansını artırır"
+
+msgid "ration_poland/always"
+msgstr "Savaş boyunca tüm mürettebat etkinlik bonusuna %(crewLevel)s."
+
+msgid "ration_poland/descr"
+msgstr "Mürettebat etkinlik bonusuna {colorTagOpen}+10%{colorTagClose}."
+
+msgid "ration_poland/long_special"
+msgstr "Savaşın başında otomatik olarak etkinleşir ve savaş boyunca etkisini sürdürür. Sadece Polonya araçları için uygundur."
+
+msgid "ration_poland/name"
+msgstr "Smalec'li Ekmek"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "Sadece Polonya araçlarına uygundur."
+
+msgid "ration_poland/short_special"
+msgstr "Polonyalı mürettebatların performansını artırır"
+
+msgid "ration_sweden/always"
+msgstr "Savaş boyunca tüm mürettebat etkinlik bonusuna %(crewLevel)s."
+
+msgid "ration_sweden/descr"
+msgstr "Mürettebat etkinlik bonusuna {colorTagOpen}+10%{colorTagClose}."
+
+msgid "ration_sweden/long_special"
+msgstr "Savaşın başında otomatik olarak etkinleşir ve savaş boyunca etkisini sürdürür. Sadece İsveçli araçları için uygundur."
+
+msgid "ration_sweden/name"
+msgstr "Kahve ve Tarçınlı Çörek"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "Sadece İsveç araçlarına uygundur."
+
+msgid "ration_sweden/short_special"
+msgstr "İsveçli mürettebatların performansını artırır"
+
+msgid "ration_uk/always"
+msgstr "Savaş boyunca tüm mürettebat etkinlik bonusuna %(crewLevel)s."
+
+msgid "ration_uk/descr"
+msgstr "Mürettebat etkinlik bonusuna {colorTagOpen}+10%{colorTagClose}."
+
+msgid "ration_uk/long_special"
+msgstr "Savaşın başında otomatik olarak etkinleşir ve savaş boyunca etkisini sürdürür. Sadece İngiliz araçları için uygundur."
+
+msgid "ration_uk/name"
+msgstr "Pudding ve Çay"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "Sadece İngiliz araçlarına uygundur."
+
+msgid "ration_uk/short_special"
+msgstr "İngiliz mürettebatların performansını artırır"
+
+msgid "recon/longDescr"
+msgstr "Bir keşif uçağına geniş bir alanda bir çizgi üzerinde keşif yapmasını emreder. Uçağın görüş alanındaki araçlar tespit edilir ve belirli bir süre boyunca görünür kalır. Mayın tarlalarını tespit eder."
+
+msgid "recon/name"
+msgstr "Keşif Uçuşu"
+
+msgid "recon/shortDescr"
+msgstr "Düşman araçlarını ve mayın tarlalarını tespit eder."
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "Motor gücüne {colorTagOpen}+%10{colorTagClose} sağlar ancak motora hasar verir."
+
+msgid "removedRpmLimiter/long_special"
+msgstr "Motor gücünü {colorTagOpen}%10{colorTagClose} artırır ancak etkin olduğu sürece motorun can puanını yavaş yavaş eritir. Bir savaşta çok kere açılıp kapatılabilir. Sadece Çinli ve SSCB araçları için geçerlidir."
+
+msgid "removedRpmLimiter/name"
+msgstr "Hız Regülatörü İptali"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "Motor gücüne %(vehicleEnginePower)s sağlar ama motora hasar verir. Bir savaşta çok kere kullanılabilir."
+
+msgid "removedRpmLimiter/restriction"
+msgstr "Sadece Sovyet ve Çin araçlarına uygundur."
+
+msgid "removedRpmLimiter/short_special"
+msgstr "Motor gücüne {colorTagOpen}+%10{colorTagClose} ancak motora hasar verir"
+
+msgid "repairpoint/battleDescr"
+msgstr "Geçici bir sabit alan oluşturur. Alan tüm hasarlı parçaları onarır, TÜM olumsuz etkileri kaldırır ve %(timer)s sn. boyunca her saniye aracınızın can puanının %(healPerTick)s kadarını geri kazandırır.\n\n*Etki alanı içindeki müttefik araçlar da CP geri kazanır."
+
+msgid "repairpoint/descr"
+msgstr "Geçici bir sabit alan oluşturur. Alan tüm hasarlı parçaları onarır, TÜM olumsuz etkileri kaldırır ve %(timer)s sn. boyunca her saniye aracınızın can puanının %(healPerTick)s kadarını geri kazandırır.\n\n*Etki alanı içindeki müttefik araçlar da CP geri kazanır."
+
+msgid "repairpoint/long_special"
+msgstr "Geçici bir sabit alan oluşturur. Alan tüm hasarlı parçaları onarır, TÜM olumsuz etkileri kaldırır ve {whiteSpanish_Open}%(timer)s sn. boyunca her saniye{whiteSpanish_Close} aracınızın can puanının {green_Open}%(healPerTick)s kadarını geri kazandırır{green_Close}.\n\n*Etki alanı içindeki müttefik araçlar da CP geri kazanır."
+
+msgid "repairpoint/name"
+msgstr "Tamir Bölgesi"
+
+msgid "repairpoint/short_special"
+msgstr "Geçici bir sabit alan oluşturur. Alan tüm hasarlı parçaları onarır, TÜM olumsuz etkileri kaldırır ve {whiteSpanish_Open}%(timer)s sn. boyunca her saniye{whiteSpanish_Close} aracınızın can puanının {green_Open}%(healPerTick)s kadarını geri kazandırır{green_Close}.\n\n*Etki alanı içindeki müttefik araçlar da CP geri kazanır."
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "Namlu Yivi Temizleme (Tip 1)"
+
+msgid "roleSlot/name"
+msgstr "İkinci donanım yuvası kategorisi"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "Pasif Güvenlik Sistemi"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "Pasif\nGüvenlik Sistemi"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "Cephaneliğin Yeniden Düzenlenmesi"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "Cephaneliğin\nYeniden Düzenlenmesi"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "Onarılabilir Paletler"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "Onarılabilir\nPaletler"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "Motor Bölümü İnce Ayarı"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "Motor Bölümü\nİnce Ayarı"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "Güçlendirilmiş Süspansiyon"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "Güçlendirilmiş\nSüspansiyon"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "Hafif Süspansiyon"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "Hafif\nSüspansiyon"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "Nişan Alma Dişlileri Rodajı"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "Nişan Alma Dişlileri\nRodajı"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "Mevki Farkı Düzeltmesi"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "Mevki Farkı\nDüzeltmesi"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "Kovan Tahliyesi Ayarı"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "Kovan Tahliyesi\nAyarı"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "Dik Açılı Periskop"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "Dik Açılı\nPeriskop"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "Yükleme Mekanizması Ayarı"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "Yükleme Mekanizması\nAyarı"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "Nişan Alma Mekanizması Ayarı"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "Nişan Alma Mekanizması\nAyarı"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "PTO Ayarı"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "PTO\nAyarı"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "Elektrikli Nişan Alma Sürücüsü"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "Elektrikli Nişan Alma\nSürücüsü"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "Yeni Nişan Alma Dişlileri"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "Yeni Nişan Alma\nDişlileri"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "Kama İnce Ayarı"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "Kama\nİnce Ayarı"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "Genel Ağırlık Azaltma"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "Genel Ağırlık\nAzaltma"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "Genel Dayanıklılık Artırma"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "Genel Dayanıklılık\nArtırma"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "Mat Boya"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "Mat\nBoya"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "Ek Geri Vites"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "Ek\nGeri Vites"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "Eksantrik Mili Üstte Olan Motor"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "Eksantrik Mili Üstte\nOlan Motor"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "İyileştirilmiş Top Sürgüsü"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "İyileştirilmiş\nTop Sürgüsü"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "Ek Ses Yalıtımı"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "Ek Ses\nYalıtımı"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "Dolgu Çıkarma"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "Dolgu\nÇıkarma"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "Yardımcı Güvenlik Sistemi"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "Yardımcı Güvenlik\nSistemi"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "Hafif Birleştirme Noktaları"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "Hafif\nBirleştirme Noktaları"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "Güç Ünitesinin Yeniden Sarımı (1. Kurulum)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "Güç Ünitesinin\nYeniden Sarımı (1. Kurulum)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "Güç Ünitesinin Yeniden Sarımı (2. Kurulum)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "Güç Ünitesinin\nYeniden Sarımı (2. Kurulum)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "Güçlendirilmiş Platform"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "Güçlendirilmiş\nPlatform"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "Hafif Platform"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "Hafif\nPlatform"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "Hareket Kabiliyetine Odaklanma"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "Hareket Kabiliyetine\nOdaklanma"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "Ateş Gücüne Odaklanma"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "Ateş Gücüne\nOdaklanma"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "Ağır Top"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "Ağır\nTop"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "Hafif Top"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "Hafif\nTop"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "Güç Çıkışı Ayarı (1. Kurulum)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "Güç Çıkışı\nAyarı (1. Kurulum)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "Güç Çıkışı Ayarı (2. Kurulum)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "Güç Çıkışı\nAyarı (2. Kurulum)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "Güçlendirilmiş Gövde"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "Güçlendirilmiş\nGövde"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "Hafif Gövde"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "Hafif\nGövde"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Yansıma Önleyici Optik Kaplama"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Yansıma Önleyici\nOptik Kaplama"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Harici Görüş Sistemi"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Harici Görüş\nSistemi"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Panoramik Triplex"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Panoramik\nTriplex"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Dar Açılı Gözetleme Cihazı"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Dar Açılı\nGözetleme Cihazı"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "Güçlendirilmiş Ana Yapı"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "Güçlendirilmiş\nAna Yapı"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "Kule Bölmesi Genişletmesi"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "Kule Bölmesi\nGenişletmesi"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "Keşif Görevi Teçhizatı"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "Keşif Görevi\nTeçhizatı"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "Taarruz Teçhizatı"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "Taarruz\nTeçhizatı"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "Gelişmiş Dayanıklılık Güçlendirmesi"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "Gelişmiş Dayanıklılık\nGüçlendirmesi"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "Gelişmiş Nişan Alma İyileştirmesi"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "Gelişmiş Nişan Alma\nİyileştirmesi"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "Ek Gözetleme Araçları"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "Ek Gözetleme\nAraçları"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "Güçlendirilmiş Mafsallar"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "Güçlendirilmiş\nMafsallar"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "Yükleme Mekanizması Ayarı"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "Yükleme Mekanizması\nAyarı"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "Nişan Alma Mekanizması Ayarı"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "Nişan Alma Mekanizması\nAyarı"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "PTO Ayarı"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "PTO\nAyarı"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "Elektrikli Nişan Alma Sürücüsü"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "Elektrikli Nişan Alma\nSürücüsü"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "Kama İnce Ayarı"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "Kama\nİnce Ayarı"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "Yeni Nişan Alma Dişlileri"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "Yeni Nişan Alma\nDişlileri"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "Enjeksiyon Sistemi Ayarı"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "Enjeksiyon Sistemi\nAyarı"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "Görüş Alanı Ayarı"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "Görüş Alanı\nAyarı"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "Parça Dayanıklılığı Artışı"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "Parça Dayanıklılığı\nArtışı"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "Hafif Alaşımdan Birleştirme Noktaları"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "Hafif Alaşımdan\nBirleştirme Noktaları"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "Kama İnce Ayarı"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "Kama\nİnce Ayarı"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "Yeni Nişan Alma Dişlileri"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "Yeni Nişan Alma\nDişlileri"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "Ağır Yük Ağızları"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "Ağır Yük\nAğızları"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "Hassas Optikler"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "Hassas\nOptikler"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "Güçlendirilmiş Destek Tekerleri"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "Güçlendirilmiş\nDestek Tekerleri"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "Hafif Destek Tekerleri"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "Hafif\nDestek Tekerleri"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "Süspansiyon İnce Ayarı"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "Süspansiyon\nİnce Ayarı"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "Motor İnce Ayarı"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "Motor\nİnce Ayarı"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "Hunter S Takımı"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "Hunter S\nTakımı"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "Hunter C Takımı"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "Hunter C\nTakımı"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "Hidroliklerin Ayarı (1. Kurulum)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "Hidroliklerin\nAyarı (1. Kurulum)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "Hidroliklerin Ayarı (2. Kurulum)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "Hidroliklerin\nAyarı (2. Kurulum)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "Yükleme Mekanizması Ayarı"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "Yükleme Mekanizması\nAyarı"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "Nişan Alma Mekanizması Ayarı"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "Nişan Alma Mekanizması\nAyarı"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "Dayanıklılık Artışı"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "Dayanıklılık\nArtışı"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "Ağırlık Azaltma"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "Ağırlık\nAzaltma"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "Her Araziye Uygun Süspansiyon"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "Her Araziye Uygun\nSüspansiyon"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "Hafif Süspansiyon"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "Hafif\nSüspansiyon"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "Mevki Farkı Düzeltmesi"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "Mevki Farkı\nDüzeltmesi"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "Nişan Alma Dişlileri Rodajı"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "Nişan Alma Dişlileri\nRodajı"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "Ses Yalıtımı"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "Ses\nYalıtımı"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "Elektrikli Periskop Sürücüsü"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "Elektrikli Periskop\nSürücüsü"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "Valflerin Ayarı (1. Kurulum)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "Valflerin Ayarı\n(1. Kurulum)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "Valflerin Ayarı (2. Kurulum)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "Valflerin Ayarı\n(2. Kurulum)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "Yükleme Mekanizması Ayarı"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "Yükleme Mekanizması\nAyarı"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "Nişan Alma Mekanizması Ayarı"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "Nişan Alma Mekanizması\nAyarı"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "Güçlendirilmiş Parçalanma Koruması"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "Güçlendirilmiş\nParçalanma Koruması"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "Hafif Parçalanma Koruması"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "Hafif\nParçalanma Koruması"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "Parça Dayanıklılığı Artışı"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "Parça Dayanıklılığı\nArtışı"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "Hafif Alaşımdan Birleştirme Noktaları"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "Hafif Alaşımdan\nBirleştirme Noktaları"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "Süspansiyon Kolu Ayarı"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "Süspansiyon Kolu\nAyarı"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "İyileştirilmiş Görüş"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "İyileştirilmiş\nGörüş"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "Turboşarj Ayarı"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "Turboşarj\nAyarı"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "Yansıma Önleyici Far Kaplaması"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "Yansıma Önleyici\nFar Kaplaması"
+
+msgid "selfBuff/battleDescr"
+msgstr "%(duration)s sn. boyunca top dağılımını ve nişan alma süresini %(gunAimingTime)s azaltır, top stabilizasyonunu ve atış hızını iyileştirir.\n\n*Bir mermi ateşledikten sonra magazin, top veya şarjördeki bir sonraki merminin yüklenmesi süresini etkilemez."
+
+msgid "selfBuff/descr"
+msgstr "%(duration)s sn. boyunca top dağılımını ve nişan alma süresini %(gunAimingTime)s azaltır, top stabilizasyonunu ve atış hızını iyileştirir.\n\n*Bir mermi ateşledikten sonra magazin, top veya şarjördeki bir sonraki merminin yüklenmesi süresini etkilemez."
+
+msgid "selfBuff/longDescr"
+msgstr "{whiteSpanish_Open}%(duration)s sn. boyunca{whiteSpanish_Close} top dağılımını ve nişan alma {green_Open}süresini %(gunAimingTime)s{green_Close} azaltır, top stabilizasyonunu ve atış hızını iyileştirir.\n\n*Bir mermi ateşledikten sonra magazin, top veya şarjördeki bir sonraki merminin yüklenmesi süresini etkilemez."
+
+msgid "selfBuff/name"
+msgstr "Hedef Takibi"
+
+msgid "selfBuff/shortDescr"
+msgstr "{whiteSpanish_Open}%(duration)s sn. boyunca{whiteSpanish_Close} top dağılımını ve nişan alma {green_Open}süresini %(gunAimingTime)s{green_Close} azaltır, top stabilizasyonunu ve atış hızını iyileştirir.\n\n*Bir mermi ateşledikten sonra magazin, top veya şarjördeki bir sonraki merminin yüklenmesi süresini etkilemez."
+
+msgid "shells_consumables_switch/name"
+msgstr "Alternatif Yapılandırma: Temel Savaş Yükü"
+
+msgid "shotPassion/battleDescr"
+msgstr "%(duration)s sn. boyunca top yöneltme etkinliğinizi ve stabilizasyonu %(gunAimingTime)s azaltır ancak kaydettiğiniz her delici isabet, verdiğiniz hasarı %(damageIncreasePerShot)s artırır. Etki 5 kereye kadar birikir. Hasar vermeyen isabetler veya ıskalar hasar bonusunu 0'a indirir.\n\n*Elektrik Boşalımı isabetleri de hasar bonus sayınıza katılır."
+
+msgid "shotPassion/descr"
+msgstr "%(duration)s sn. boyunca top yöneltme etkinliğinizi ve stabilizasyonu %(gunAimingTime)s azaltır ancak kaydettiğiniz her delici isabet, verdiğiniz hasarı %(damageIncreasePerShot)s artırır. Etki 5 kereye kadar birikir. Hasar vermeyen isabetler veya ıskalar hasar bonusunu 0'a indirir.\n\n*Elektrik Boşalımı isabetleri de hasar bonus sayınıza katılır."
+
+msgid "shotPassion/longDescr"
+msgstr "{whiteSpanish_Open}%(duration)s sn. boyunca{whiteSpanish_Close} top yöneltme etkinliğinizi ve stabilizasyonu {red_Open}%(gunAimingTime)s{red_Close} azaltır ancak kaydettiğiniz her delici isabet verdiğiniz hasarı {green_Open}%(damageIncreasePerShot)s{green_Close} artırır. Etki {whiteSpanish_Open}5 kereye kadar{whiteSpanish_Close} birikir. Hasar vermeyen isabetler veya ıskalar hasar bonusunu 0'a indirir.\n\n*Elektrik Boşalımı isabetleri de hasar bonus sayınıza katılır."
+
+msgid "shotPassion/name"
+msgstr "Kabaran Coşku"
+
+msgid "shotPassion/shortDescr"
+msgstr "{whiteSpanish_Open}%(duration)s sn. boyunca{whiteSpanish_Close} top yöneltme etkinliğinizi ve stabilizasyonu {red_Open}%(gunAimingTime)s{red_Close} azaltır ancak kaydettiğiniz her delici isabet verdiğiniz hasarı {green_Open}%(damageIncreasePerShot)s{green_Close} artırır. Etki {whiteSpanish_Open}5 kereye kadar{whiteSpanish_Close} birikir. Hasar vermeyen isabetler veya ıskalar hasar bonusunu 0'a indirir.\n\n*Elektrik Boşalımı isabetleri de hasar bonus sayınıza katılır."
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "Altıncı His yeteneği 1 sn. erken devreye girer"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "Altıncı His özelliği Komutanın aracın düşman tarafından tespit edilip edilmediğini anlamasını sağlar. Aracınız tespit edildikten 3 sn. sonra devreye girer."
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "Altıncı His yeteneği, Komutanın savaş boyunca aracın düşman tarafından tespit edilip edilmediğini anlamasını sağlar. Takılı yönerge bu etkiyi artırır."
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "Artırılmış Odak"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "Altıncı His komutan niteliğinin etkisini artırır"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "Tüm yaralı mürettebat üyelerini iyileştirilmesi ve şok etkisinin kaldırılması."
+
+msgid "smallMedkit/long_special"
+msgstr "Etkinleştirildiğinde tüm yaralı mürettebat üyelerini iyileştirir ve şok etkisini kaldırır. Tüm ülkelerin her araç türüne uygundur. Sarf malzemesi en az bir kere kullanıldığında savaştan sonra kaldırılır."
+
+msgid "smallMedkit/name"
+msgstr "Küçük İlk Yardım Çantası"
+
+msgid "smallMedkit/onUse"
+msgstr "Tüm yaralı mürettebat üyelerini iyileştirilmesi ve şok etkisinin kaldırılması."
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "Tüm yaralı mürettebat üyelerini iyileştirilmesi ve şok etkisinin kaldırılması."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "Tüm yaralı mürettebat üyelerini iyileştirir ve şok etkisini kaldırır."
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "Tüm hasarlı parçaların onarımı."
+
+msgid "smallRepairkit/long_special"
+msgstr "Etkinleştirildiğinde tüm hasarlı parçaları onarır. Tüm ülkelerin her araç türüne uygundur. Sarf malzemesi en az bir kere kullanıldığında savaştan sonra kaldırılır."
+
+msgid "smallRepairkit/name"
+msgstr "Küçük Tamir Çantası"
+
+msgid "smallRepairkit/onUse"
+msgstr "Tüm hasarlı parçaların onarımı. Tüm ülkelerin her araç türüne uygundur. Sarf malzemesi en az bir kere kullanıldığında savaştan sonra kaldırılır."
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "Tüm hasarlı parçaları onarır."
+
+msgid "smoke/longDescr"
+msgstr "İçindeki ve arkasındaki tüm araçları gizleyen bir sis perdesi kurar. Sisin içindeki düşman araçlarının görüş mesafesi ve mürettebat performansı düşer."
+
+msgid "smoke/name"
+msgstr "Sis Perdesi"
+
+msgid "smoke/shortDescr"
+msgstr "Sis, içi/arkasındaki tüm araçları gizler. İçindeki düşmanların görüşü ve mürettebat performansı düşer."
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "Konforlu Yolculuk yeteneğinin etkisini ikiye katlar"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "%100 eğitilmiş Konforlu Yolculuk yeteneği sağlar"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "Konforlu Sürüş yeteneği savaş boyunca hareket halinde ateş ederken isabetliliği artırır. Yetenek %100'e eğitilmişse takılı yönerge etkisini artırır; eğitim bu seviyede değilse yönerge aracınıza %100'e eğitilmiş yetenek sağlar."
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "Vites Hakimiyeti"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "%100 eğitilmiş Konforlu Yolculuk yeteneği sağlar veya etkisini artırır"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "Anlık Atış yeteneğinin etkisini ikiye katlar"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "%100 eğitilmiş Anlık Atış yeteneği sağlar"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "Anlık Atış yeteneği savaş boyunca kule dönüşü sırasında ateş ederken isabetliliği iyileştirir. Yetenek %100'e eğitilmişse takılı yönerge etkisini artırır; eğitim bu seviyede değilse yönerge aracınıza %100'e eğitilmiş yetenek sağlar."
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "Eline Hakim"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "%100 eğitilmiş Anlık Atış yeteneği sağlar veya etkisini artırır"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "%(botLifeTime)s sn.ye kadar en yakındaki düşmanı kovalayıp patladığında kısa bir mesafe içindekilere 400 - 600 CP hasar veren kendinden güdümlü bir mayın konuşlandırır.\n\n*Düşmanlar ateş ederek veya çarparak Alev Topunuzu yok edebilir. Ateş topu hedefine ulaştığında ek çarpma hasarı verir."
+
+msgid "spawn_kamikaze/descr"
+msgstr "%(botLifeTime)s sn.ye kadar en yakındaki düşmanı kovalayıp patladığında kısa bir mesafe içindekilere 400 - 600 CP hasar veren kendinden güdümlü bir mayın konuşlandırır.\n\n*Düşmanlar ateş ederek veya çarparak Alev Topunuzu yok edebilir. Ateş topu hedefine ulaştığında ek çarpma hasarı verir."
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "{whiteSpanish_Open}%(botLifeTime)s sn.ye kadar{whiteSpanish_Close} en yakındaki düşmanı kovalayıp patladığında kısa bir mesafe içindekilere {whiteSpanish_Open}400 - 600 CP hasar{whiteSpanish_Close} veren kendinden güdümlü bir mayın konuşlandırır.\n\n*Düşmanlar ateş ederek veya çarparak Alev Topunuzu yok edebilir. Ateş topu hedefine ulaştığında ek çarpma hasarı verir."
+
+msgid "spawn_kamikaze/name"
+msgstr "Alev Topu"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "{whiteSpanish_Open}%(botLifeTime)s sn.ye kadar{whiteSpanish_Close} en yakındaki düşmanı kovalayıp patladığında kısa bir mesafe içindekilere {whiteSpanish_Open}400 - 600 CP hasar{whiteSpanish_Close} veren kendinden güdümlü bir mayın konuşlandırır.\n\n*Düşmanlar ateş ederek veya çarparak Alev Topunuzu yok edebilir. Ateş topu hedefine ulaştığında ek çarpma hasarı verir."
+
+msgid "stealthRadar/descr"
+msgstr "Gizliliğe ve görüş mesafesine bonus sağlar. Düşman araçlarının gizliliğini azaltır."
+
+msgid "stealthRadar/long_descr"
+msgstr "Aracınızın gizlilik parametresini durduktan %(activationDelay)s sn. sonra artırır ve düşman araçlarının gizliliğini azaltır. Görüş mesafesine pasif bir bonus sağlar ve düşman mayınlarını tespit eder. Araç hareket halindeyken çalışmaz."
+
+msgid "stealthRadar/name"
+msgstr "Nöbetçi"
+
+msgid "stealthRadar/short_descr"
+msgstr "Gizliliğe ve görüş mesafesine bonus sağlar. Düşman araçlarının gizliliğini azaltır."
+
+msgid "stereoscope/battleDescr"
+msgstr "Durduktan sonra 3 sn. sabit kalan bir aracın görüş mesafesini artırır (445 m'ye kadar)"
+
+msgid "stereoscope/long_special"
+msgstr "İyi bir görüş mesafesi savaşta araçlara güçlü bir avantaj sağlar. Bu tür donanım düşük silüete ve isabetli toplara sahip tank avcıları için faydalıdır. Araç hareket etmeyi durdurduktan 3 saniye sonra devreye girer."
+
+msgid "stereoscope/name"
+msgstr "Dürbün Teleskop"
+
+msgid "stereoscope_tier1/name"
+msgstr "Teleskopik Dürbün Sınıf 1"
+
+msgid "stereoscope_tier2/name"
+msgstr "Teleskopik Dürbün Sınıf 2"
+
+msgid "stereoscope_tier3/name"
+msgstr "Teleskopik Dürbün Sınıf 3"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "Süspansiyon Bileşenleri Değişimi (Tip 1)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "Süspansiyon Bileşenleri Değişimi (Tip 2)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "Dönüş Mekanizması Rodajı (Tip 1)"
+
+msgid "tankRammer/name"
+msgstr "Top Sürgüsü"
+
+msgid "tankRammer_tier1/name"
+msgstr "Top Sürgüsü Sınıf 1"
+
+msgid "tankRammer_tier2/name"
+msgstr "Top Sürgüsü Sınıf 2"
+
+msgid "thunderStrike/battleDescr"
+msgstr "Yüksek sıklıkta %(thunderCount)s kere seri elektrik deşarjının meydana geldiği bir alan oluşturur. Her deşarj %(damage)s CP hasar verir ve yeteneğin etki alanı içindeki tüm düşman araçlarının hareket kabiliyetini geçici olarak azaltır.\n\n*Yeteneğin etkinleştirilmesi ile ilk deşarj arasında %(delay)s sn. gecikme vardır. Yeteneğin olumsuz etkisi Tamir Çantası kullanarak kaldırılabilir."
+
+msgid "thunderStrike/descr"
+msgstr "Yüksek sıklıkta %(thunderCount)s kere seri elektrik deşarjının meydana geldiği bir alan oluşturur. Her deşarj %(damage)s CP hasar verir ve yeteneğin etki alanı içindeki tüm düşman araçlarının hareket kabiliyetini geçici olarak azaltır.\n\n*Yeteneğin etkinleştirilmesi ile ilk deşarj arasında %(delay)s sn. gecikme vardır. Yeteneğin olumsuz etkisi Tamir Çantası kullanarak kaldırılabilir."
+
+msgid "thunderStrike/longDescr"
+msgstr "Yüksek sıklıkta %(thunderCount)s kere seri elektrik deşarjının meydana geldiği bir alan oluşturur. Her deşarj {whiteSpanish_Open}%(damage)s CP hasar{whiteSpanish_Close} verir ve yeteneğin etki alanı içindeki tüm düşman araçlarının hareket kabiliyetini geçici olarak azaltır.\n\n*Yeteneğin etkinleştirilmesi ile ilk deşarj arasında %(delay)s sn. gecikme vardır. Yeteneğin olumsuz etkisi Tamir Çantası kullanarak kaldırılabilir."
+
+msgid "thunderStrike/name"
+msgstr "Elektrik Boşalımı"
+
+msgid "thunderStrike/shortDescr"
+msgstr "Yüksek sıklıkta %(thunderCount)s kere seri elektrik deşarjının meydana geldiği bir alan oluşturur. Her deşarj {whiteSpanish_Open}%(damage)s CP hasar{whiteSpanish_Close} verir ve yeteneğin etki alanı içindeki tüm düşman araçlarının hareket kabiliyetini geçici olarak azaltır.\n\n*Yeteneğin etkinleştirilmesi ile ilk deşarj arasında %(delay)s sn. gecikme vardır. Yeteneğin olumsuz etkisi Tamir Çantası kullanarak kaldırılabilir."
+
+msgid "trappoint/battleDescr"
+msgstr "%(duration)s sn. boyunca içindeki tüm düşman araçlarının hareket kabiliyeti parametrelerini %(vehicleMaxSpeed)s azaltan, top yükleme ve nişan alma sürelerini %(gunReloadTime)s artıran bir alan oluşturur. "
+
+msgid "trappoint/descr"
+msgstr "%(duration)s sn. boyunca içindeki tüm düşman araçlarının hareket kabiliyeti parametrelerini %(vehicleMaxSpeed)s, top yükleme ve nişan alma sürelerini %(gunReloadTime)s azaltan bir alan oluşturur."
+
+msgid "trappoint/long_special"
+msgstr "{whiteSpanish_Open}%(duration)s sn. boyunca{whiteSpanish_Close} içindeki tüm düşman araçlarının hareket kabiliyeti parametrelerini {whiteSpanish_Open}%(vehicleMaxSpeed)s{whiteSpanish_Close}, top yükleme ve nişan alma sürelerini {whiteSpanish_Open}%(gunReloadTime)s{whiteSpanish_Close} azaltan bir alan oluşturur. "
+
+msgid "trappoint/name"
+msgstr "Kapan"
+
+msgid "trappoint/short_special"
+msgstr "{whiteSpanish_Open}%(duration)s sn. boyunca{whiteSpanish_Close} içindeki tüm düşman araçlarının hareket kabiliyeti parametrelerini {whiteSpanish_Open}%(vehicleMaxSpeed)s{whiteSpanish_Close} azaltan, top yükleme ve nişan alma sürelerini {whiteSpanish_Open}%(gunReloadTime)s{whiteSpanish_Close} artıran bir alan oluşturur."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "Etkinliği aracın türüne bağlıdır. Sabit veya hareket halindeki bir aracın gizliliğini artırır. Aktif keşfin yanı sıra riskli konumlardan pasif gözlemleme için de faydalıdır."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "Kayra Egzoz Sistemi"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "Sabit veya hareket halindeki bir aracın gizliliğini artırır."
+
+msgid "trophyBasicAimDrives/name"
+msgstr "Kayra Top Yöneltme Sistemi"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "Daha hızlı isabetli atışlar yapabilmek için topun nişan alma hızını artırır."
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "Kayra Stabilizasyon"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "Hareket halinde ve araç dönüşünde ateş ederken topun dağılımını azaltır."
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "Kayra Optikler"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "Hem sabit duran hem hareket halindeki araçların görüş mesafesini uzatır."
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "Onarımdan sonra süspansiyon can puanını tam olarak geri kazandırır."
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "Onarımdan sonra süspansiyonu sağlamlaştırır."
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "Aracın dayanıklılığını ve onarım hızını artırır. Darbe anında süspansiyon hasarının yol açtığı gövde hasarını azaltır. Onarımdan sonra süspansiyon can puanını tam olarak geri kazandırır. Hasar aldığınızda paletin yok edilme olasılığını azaltarak aracınızın mümkün olduğunca uzun süre hareket halinde kalabilmesini sağlar."
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "Kayra Sertleştirme"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "Aracın dayanıklılığını artırır ve süspansiyonu korur"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "Kayra Koruma Teknolojisi"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "Kayra Dönüş Mekanizması"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "Nişan almakta olan veya tam olarak nişan almış bir topun isabetliliğini artırmak için nişan alma çemberinin boyutunu küçültür. Sonuç olarak topunuzun hedefi vurma olasılığı daha yüksek olur."
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "Kayra Nişan Alma"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "Top dağılımını azaltır"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "Kayra Havalandırma"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "Aracın niteliklerinin çoğu üzerinde olumlu etki yaratacak mürettebat etkinliğini artırır."
+
+msgid "trophyBasicTankRammer/name"
+msgstr "Kayra Sürgü"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "Topun yüklenmesini hızlandırır. Sınıf sınırlaması yoktur."
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "Motor gücünü artırır, daha iyi ivmelenme, manevra kabiliyeti ve arazi eğimlerini tırmanma imkânı sağlar. Aracın azami ileri ve geri hızını artırarak konumlara ulaşmanızı ve düşmanın karşı ateşinden daha hızlı kaçmanızı sağlar."
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "Kayra Turboşarj"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "Motor gücünü ve azami hızı artırır"
+
+msgid "trophyOptics/descr"
+msgstr "Görüş mesafesine, 445 m'ye kadar {colorTagOpen}+%10{colorTagClose}{arrow}"
+
+msgid "trophyOptics/name"
+msgstr "Kayra Optikler"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "Kayra Egzoz Sistemi"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "Kayra Top Yöneltme Sistemi"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "Kayra Stabilizasyon"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "Kayra Optikler"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "Onarımdan sonra süspansiyon can puanını tam olarak geri kazandırır."
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Onarımdan sonra süspansiyonu sağlamlaştırır."
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "Kayra Sertleştirme"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "Kayra Koruma Teknolojisi"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "Kayra Dönüş Mekanizması"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "Kayra Nişan Alma"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "Kayra Havalandırma"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "Kayra Sürgü"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "Kayra Turboşarj"
+
+msgid "turbocharger/long_special"
+msgstr "Motor gücünü artırır, daha iyi ivmelenme, manevra kabiliyeti ve arazi eğimlerini tırmanma imkânı sağlar. Aracın azami ileri ve geri hızını artırarak konumlara ulaşmanızı ve düşmanın karşı ateşinden daha hızlı kaçmanızı sağlar."
+
+msgid "turbocharger/name"
+msgstr "Turboşarj"
+
+msgid "turbocharger/short_special"
+msgstr "Motor gücünü ve azami hızı artırır"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s motor gücü, herhangi sınıf bir Turboşarj (herhangi bir sınıftan), Kayra Turboşarj, İyileştirilmiş Kompresör veya Hareket Kabiliyeti İyileştirme Sistemi takılı iken."
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+%4"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+%4"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "Bir savaş boyunca Turboşarjın (herhangi bir sınıftan), Kayra Turboşarjın veya İyileştirilmiş Kompresörün etkinliğini iyileştirir. Yönerge ancak ilgili donanımı taktıysanız çalışacaktır."
+
+msgid "turbochargerBattleBooster/name"
+msgstr "Yakıt Filtresi Değişimi"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "Motor gücünü artırır"
+
+msgid "turbocharger_tier1/name"
+msgstr "Turboşarj Sınıf 1"
+
+msgid "turbocharger_tier2/name"
+msgstr "Turboşarj Sınıf 2"
+
+msgid "turbocharger_tier3/name"
+msgstr "Turboşarj Sınıf 3"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "Acil Fren yeteneğinin etkisini ikiye katlar"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "%100 eğitilmiş Acil Fren yeteneği sağlar"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "Acil Fren yeteneği savaş boyunca hem sabit hem de hareket eden aracın dönüş hızını artırır. Yetenek %100'e eğitilmişse takılı yönerge etkisini artırır; eğitim bu seviyede değilse yönerge aracınıza %100'e eğitilmiş yetenek sağlar."
+
+msgid "virtuosoBattleBooster/name"
+msgstr "Savaş Parkuru"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "%100 eğitilmiş Acil Fren yeteneği sağlar veya etkisini artırır"

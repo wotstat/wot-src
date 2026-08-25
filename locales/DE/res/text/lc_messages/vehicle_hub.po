@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Erlaubt es, eine Reihe Granaten nacheinander abzufeuern, jede Granate wird automatisch nachgeladen."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Erlaubt es, eine Reihe Granaten nacheinander abzufeuern, jede Granate wird automatisch nachgeladen. Bringt einen Bonus auf die Nachladegeschwindigkeit für die nächste Granate."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Feuert Granaten in schnellen Salven und verursacht hohen Schaden in kurzer Zeit, auf Kosten von Durchschlagskraft und Genauigkeit. Am effektivsten im Nahkampf eingesetzt."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Feuert Granaten mit Sterntreibspiegel ab, die auf eine Entfernung von bis zu 50 Metern maximalen Schaden verursachen. Auf höhere Distanz sinkt der Schaden der Granaten, daher werden sie am effektivsten im Nahkampf eingesetzt."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Ein einzigartiges Kühlsystem, das duales Zielen erlaubt: Wartezeit nach dem Nachladen erlaubt es dem Geschütz, genauer zu feuern. Die verbesserte Genauigkeit wird durch einen zweiten, kleineren Zielkreis angezeigt."
+
+msgid "abilities/common/description/dualGun"
+msgstr "Ein Doppelgeschütz-System, bei dem beide Geschütze separat oder gleichzeitig abgefeuert werden können. Ein Doppelschuss verursacht hohen Salvenschaden auf Kosten einer längeren Nachladezeit."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Erlaubt es, die Wanne anzuheben und abzusenken, um zusätzliche Gelegenheiten für Feuerpositionen zu eröffnen. Die Aktivierung hängt von verschiedenen Bedingungen ab."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "Ändert die Position der zusätzlichen Räder, um die Geschwindigkeit signifikant zu erhöhen, dies jedoch auf Kosten der Manövrierfähigkeit. Wird am besten für längere Fahrtstrecken oder schnelle Angriffe genutzt."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Erlaubt es, eine Reihe Granaten aus dem Magazin abzufeuern, ehe vollständig nachgeladen werden muss. Liefert hohen Salvenschaden, dafür ist das Fahrzeug während des Nachladens verletzlich. Kann das gesamte Magazin gleichzeitig nachladen."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "Dieses Geschütz kann kontinuierlich Feuern, ohne zwischen Schüssen nachzuladen. Jeder Schuss erwärmt dabei den Geschützlauf, je höher die Temperatur steigt, desto mehr leiden die Geschützwerte darunter. Dauerhaftes Feuer wird zum Überhitzen des Geschützes führen. Erneutes Feuern ist dann erst wieder möglich, nachdem das Geschütz abgekühlt ist."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Steigert die Motorleistung und Höchstgeschwindigkeit für schnelle Bewegung über das Schlachtfeld. Bei Aktivierung reduzieren die Jet-Booster die Manövrierfähigkeit, sie können nicht manuell ausgeschaltet werden."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "Bei Aktivierung steigert und/oder ändert dieser besondere Modus bestimmte Gefechtswerte. Wird am besten aktiviert, wenn sich das Fahrzeug in Position befindet und bereit ist, den Gegner anzugreifen."
+
+msgid "abilities/common/description/stun"
+msgstr "Betäubt gegnerische Fahrzeuge in einem Einschlagbereich, auch ohne direkten Treffer. Durch die Betäubung werden Beweglichkeit, Genauigkeit und Nachladezeit des gegnerischen Fahrzeugs gesenkt. Betäubte Gegner werden entsprechend gekennzeichnet."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Erlaubt es dem Fahrzeug, sich auch mit beschädigter Hauptkette mit reduzierter Geschwindigkeit weiter zu bewegen. Geht eine weitere äußere Kette verloren, reduziert das die Beweglichkeit noch weiter, das Fahrzeug kann aber immer noch wenden und sich bewegen."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "Erlaubt es dem Fahrzeug, sich deutlich schneller zu bewegen, reduziert dafür aber die Geschützhandhabung beträchtlich."
+
+msgid "abilities/common/description/twinGun"
+msgstr "Bei Aktivierung verdoppelt dieser besondere Modus den Schaden und steigert und/oder ändert bestimmte Gefechtswerte. Wird am besten beim Kampf auf kurze Distanz eingesetzt."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Nachladeautomat"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "Verbesserter Nachladeautomat"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Maschinenkanone"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Tiefgezogenes Geschütz"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Geschützabkühlung"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Doppelgeschütz"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Hydropneumatisches Fahrwerk"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Schneller Modus"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Selbstlader"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Maschinenkanone mit Temperaturkontrolle gegen Überhitzen"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Jet-Booster"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Feuermodus"
+
+msgid "abilities/common/name/stun"
+msgstr "Betäubung"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Reserveketten"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Turbomodus"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Salvenfeuermodus"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "Wenn Sie stehenbleiben oder sich nur langsam bewegen, steigt die Genauigkeitsstufe für den nächsten Schuss an.\nAuf höchster Stufe ist die Geschützhandhabung optimiert und die Streuung minimiert, selbst bei Bewegung oder Turm-/Wannendrehung."
+
+msgid "abilities/special/description/battleFury"
+msgstr "Wenn Sie einen Gegner mit einer Granate treffen, steigt Ihre Nachladeeffizienzstufe und Ihre Nachladegeschwindigkeit wird vorübergehend gesteigert. Die Effizienzstufe steigt durch jeden Treffer.\nWenn Sie ein gegnerisches Fahrzeug mit einer Granate zerstören, erhalten Sie zusätzliche Nachladeeffizienzstufen."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Wenn Ihr Geschütz geladen ist, können Sie den nächsten Schuss für höheren Schaden überhitzen – je höher die Hitzestufe, desto größer der Effekt.\nAuf höchster Stufe bleiben einige Sekunden, um den Schuss abzufeuern, ansonsten ist Feuern vorübergehend unmöglich."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Wenn Sie zwei durchschlagende Treffer an gegnerischen Fahrzeugen erzielen, aktivieren Sie den Garbenmodus. Das Geschütz lädt eine Garbenfeuerkassette, mit der Sie mit Ihrem nächsten Schuss zwei Granaten in schneller Folge abfeuern und massiven Schaden verursachen."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "Die pneumatische Drallstabilisierung erlaubt für kurze Zeit maximale Stabilisierung bei Bewegung, Wannen- und Turmdrehung und dadurch präziseres Feuer sowie schnellere Reaktionsfähigkeit auf unerwartete Bedrohungen und effektive Angriffe aus der Deckung."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "Das System lädt automatisch eine neue Kassette nach, wenn in der aktuellen Kassette nur noch eine Granate verbleibt, und hält Sie damit gefechtsbereit. Sie können die letzte Granate während dieses Vorgangs noch abfeuern, damit verlängert sich die Nachladezeit jedoch um einige Sekunden."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "Das System hält das Geschütz kühl, um die Genauigkeit hoch zu halten. Jeder Schuss erzeugt Hitze, über den Kühlvorgang während des Nachladens kehrt das Geschütz zu den normalen Werten zurück. Je höher die Temperatur steigt, desto stärker sind die Auswirkungen auf die Geschützwerte."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "Das Fahrzeug nutzt die Erfahrung früherer Modelle und ist speziell auf vernichtende Rammangriffe ausgelegt. Strukturelle Verstärkungen erlauben es ihm, gegnerischen Fahrzeugen bei Rammvorgängen mehr Schaden zuzufügen, was ihm einen Vorteil bei Begegnungen im Nahkampf verschafft."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "Das Geschütz dieses Fahrzeugs kann frühzeitig feuern: Einzelschussladungen, die während des Ladevorgangs abgefeuert werden, haben Verringerte Wirksamkeit, während Schüsse mit voller Ladung nach dem Nachladen über optimale ballistische Werte verfügen."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "Dieses Geschütz kann kontinuierlich Feuern, ohne zwischen Schüssen nachzuladen. Jeder Schuss erwärmt dabei den Geschützlauf, je höher die Temperatur steigt, desto mehr leiden die Geschützwerte darunter. Dauerhaftes Feuer wird zum Überhitzen des Geschützes führen. Erneutes Feuern ist dann erst wieder möglich, nachdem das Geschütz abgekühlt ist."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Wenn Sie stillstehen oder sich nur langsam bewegen, wird das Waffensystem vorgewärmt, um Schaden und Genauigkeit für den nächsten Schuss zu erhöhen. Bei höchster Stufe verursacht ein durchschlagender Treffer an einem gegnerischen Fahrzeug mit weniger SP als dem mittleren Schaden eine Explosion im Munitionslager, die das Fahrzeug zerstört."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Mit diesem Modus wird Ihr Fahrzeug zu einer befestigten Geschützplattform, die Ihnen überlegene Genauigkeit und schnellere Nachladezeit verleiht. Im Austausch für diese gesteigerte Feuerkraft ist jedoch die Beweglichkeit (Höchstgeschwindigkeit vorwärts/rückwärts und Wendegeschwindigkeit horizontal/vertikal) stark eingeschränkt."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Mit diesem Modus erhalten Sie einen signifikante Verstärkung von Motorleistung und Höchstgeschwindigkeit. Je länger Sie sich vorwärts bewegen, desto mehr Geschwindigkeit bauen Sie auf und können damit größere Distanzen auf dem Schlachtfeld leicht überbrücken."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "Dieses System baut über Zeit eine Ladung auf, wobei eine größere Ladung mehr Bonusschaden gewährt. Die Ladung ist durch einen Begrenzer gedrosselt, welcher deaktiviert werden kann, um einen noch größeren Schadensbonus auf Kosten verringerter Geschützhandhabung zu erhalten."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "Wenn Sie den Flüssigkeitsbooster aktivieren, verleiht er Ihnen einen Geschwindigkeitsschub. Der Booster erhitzt sich und muss erst abkühlen, ehe er erneut verwendet werden kann. Wenn die kritische Hitzestufe überschritten wird, schaltet er sich vorübergehend komplett ab."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Feststoff-Schubdüsen verbessern mehrere Sekunden lang die Beschleunigung, die Beweglichkeit und die Manövrierfähigkeit. Die linken und rechten Düsen können unabhängig voneinander eingesetzt werden, um so die Wendegeschwindigkeit der Wanne zu steigern, ohne die Rückwärtsbewegung einzuschränken."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "Je nach Aktivitätsmodus und Ladungsstufe kann das Fahrzeug eine von zwei Fähigkeiten aktivieren: \nIonenladung-Nachbrenner: Steigert Motorleistung und Geschwindigkeit.\nElektromechanisches Fügungssichtgerät: Reduziert Streuung und Nachladezeit und erhöht die Genauigkeit."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Mit diesem Modul können Sie stets gefechtsbereit bleiben, da es erlaubt, den Nachladevorgang jederzeit zu unterbrechen, solange mindestens eine Granate geladen ist. Auf Tastendruck wird das Nachladen unterbrochen, nach kurzer Verzögerung können Sie feuern und dann das Nachladen manuell wieder aufnehmen, oder das Magazin automatisch nachladen lassen, wenn es leer ist."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Wenn Sie die Taste zur Aktivierung drücken, feuern Sie die Sekundärwaffen Ihres Fahrzeugs auf das Ziel ab. Diese zusätzliche Feuerkraft besitzt einen eigenen Nachladeprozess, der unabhängig vom Hauptgeschütz läuft."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "Ihr nächster Schuss verursacht einen Effekt, der auf dem Aufklärungsstatus des Gegners basiert. Wenn Sie einen aufgeklärten Gegner treffen, wird er markiert. Dadurch bleibt er länger aufgeklärt und erleidet zusätzlichen Schaden. Wenn Sie einen nicht aufgeklärten Gegner treffen, wird sein Standort durch einen besonderen Marker angezeigt."
+
+msgid "abilities/special/description/twinGun"
+msgstr "Verursacht doppelten Schaden bei gesteigerter Stabilisierung auf Kosten von Beweglichkeit, Genauigkeit, Turmdrehgeschwindigkeit und Zielerfassung. Am effektivsten im Nahkampf eingesetzt."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Diese mechanische Modifikation steigert kurzzeitig die Beschleunigung, Motorleistung und Höchstgeschwindigkeit vorwärts und rückwärts deutlich, sodass Sie schnell auf gegnerische Angriffe reagieren und Ihre Gegner mit dynamischen Manövern überraschen können."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Analoge Ballistikberechnung"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Halbautomatisches Munitionslager"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Thermoballistische Überladung"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Garbenmodus"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Pneumatische Drallstabilisierung"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Kassettenladesystem"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Aktive Geschützabkühlung"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Rammkonfiguration"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "Multipaket-Ladesystem"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Maschinenkanone mit Temperaturkontrolle gegen Überhitzen"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "Thermokontrolle für Treibmittel"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Bunkermodus"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Direktantrieb"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "Induktionstreibstoff-Nachbrenner"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Flüssigkeitsbooster"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "In Reihe geschaltete Schubdüsen"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Taktischer Triebwerksblock"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Modul für externe Munitionszufuhr"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Sekundärwaffen"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Laserzielerfassung"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Salvenfeuermodus"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Hochdruck-Turbolader-Zusatzeinheit"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Steigert die Genauigkeit des nächsten Schusses, hin zu sehr guter Stabilisierung bei vollständiger Kalibrierung."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Jeder Treffer gegen ein gegnerisches Fahrzeug steigert für begrenzte Zeit die Nachladegeschwindigkeit."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Baut Hitzestufen auf, um mit dem nächsten Schuss mehr Schaden gegen ein gegnerisches Fahrzeug zu verursachen."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "Erlaubt durch eine Garbenfeuerkassette zwei Granaten in schneller Folge abzufeuern."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Maximiert die Stabilisierung bei Bewegung und Drehung für präzisere Schüsse."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Beginnt automatisch nachzuladen, wenn nur noch eine Granate verbleibt, die während des Nachladevorgangs gefeuert werden kann."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "Ein aktives Geschützkühlsystem, das durch Abkühlen des Geschützes die Genauigkeit steigert."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Erhöht den an gegnerischen Fahrzeugen verursachten Rammschaden."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "Eine besondere Geschützmechanik, mit der Sie auf Kosten der Wirksamkeit vorzeitig schießen können."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "Das System erlaubt kontinuierliches Feuer, ohne zwischen Schüssen nachzuladen, und kontrolliert die durch den Schuss erzeugte Hitze."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "Steigert Schaden und Genauigkeit des nächsten Schusses allmählich, wenn das Fahrzeug still steht oder langsam fährt."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Steigert Genauigkeit und Nachladegeschwindigkeit drastisch, schränkt aber die Beweglichkeit stark ein."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Steigert die Motorleistung. Die Höchstgeschwindigkeit steigt an, je länger das Fahrzeug sich bewegt."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "Dieses System lädt sich auf, um den Schaden zu erhöhen. Je höher die Ladung, desto höher der Schaden."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "Verleiht einen starken Geschwindigkeitsschub durch Booster, die zu beliebiger Zeit aktiviert werden können."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "Feststoff-Schubdüsen, die Beschleunigung, Beweglichkeit und Manövrierfähigkeit verbessern."
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Lädt eine von zwei Fähigkeiten auf, um die Geschwindigkeit zu steigern oder die Genauigkeit zu erhöhen."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "Erlaubt das Nachladen zu unterbrechen und in kritischen Momenten das Feuer zu erwiedern."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Bietet gesteigerte Feuerkraft durch zusätzliche Waffen neben dem Hauptgeschütz."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Erhöht die Zeit, die der Gegner aufgeklärt bleibt, und den erlittenen Schaden, oder hebt sie mit einem besonderen Marker hervor."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Erlaubt es auf Kosten einer höheren Nachladezeit, beide Geschütze gleichzeitig abzufeuern."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "Eine besondere Mechanik die kurzzeitig Motorleistung, Beschleunigung und Höchstgeschwindigkeit steigert."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Wenn Sie stehenbleiben oder sich unterhalb einer bestimmten Geschwindigkeit bewegen, kann Ihr Fahrzeug die analoge Ballistikberechnung kalibrieren und die Genauigkeitsstufe für den nächsten Schuss steigern. Wenn Sie die Geschwindigkeitsgrenze überschreiten, wird die Kalibrierung angehalten, bis Sie wieder langsamer werden. Wenn die Kalibrierung die höchste Stufe erreicht, erhält Ihr Fahrzeug gute Geschützstabilisierung und die Streuung bei Turm-/Wannendrehung ist verringert. Der Effekt wird durch das Feuern entfernt."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "Wenn Sie einen Gegner mit einer Granate treffen, steigt Ihre Nachladeeffizienzstufe und Ihre Nachladegeschwindigkeit wird vorübergehend gesteigert. Die Effizienzstufe steigt durch jeden Treffer. Wenn Sie ein gegnerisches Fahrzeug mit einer Granate zerstören, erhalten Sie zusätzliche Nachladeeffizienzstufen."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Wenn Ihr Geschütz geladen ist, können Sie den nächsten Schuss überhitzen. Je höher die Hitzestufe, desto größer wird der Bonus auf den mittleren Schaden. Während der Schuss überhitzt wird, können Sie die Granate nicht wechseln. Auf höchster Stufe der Erhitzung beginnt ein Countdown. Sie müssen vor Ablauf den Schuss abfeuern, ansonsten können Sie mehrere Sekunden lang nicht Feuern."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Wenn Sie zwei durchschlagende Treffer an gegnerischen Fahrzeugen erzielen, aktivieren Sie den Garbenmodus. Das Geschütz lädt eine Garbenfeuerkassette, mit der Sie mit Ihrem nächsten Schuss zwei Granaten in schneller Folge abfeuern."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "Die pneumatische Drallstabilisierung erlaubt für kurze Zeit maximale Stabilisierung bei Wannen- und Turmdrehung und dadurch präziseres Feuer bei Bewegung und schnelle Reaktionsfähigkeit auf unerwartete Bedrohungen."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "Das System lädt automatisch eine neue Kassette nach, wenn in der aktuellen Kassette nur noch eine Granate verbleibt. Wenn die letzte Granate während dieses Vorgangs abgefeuert wird, verlängert sich die Nachladezeit um einige Sekunden. Wenn Sie die Taste zum Auffüllen des Granatenbehälters drücken, werden alle verbleibenden Granaten außer der letzten ausgeworfen. Wenn Sie die Taste doppelt drücken, wird direkt eine vollständige Kassette nachgeladen."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "Das System hält das Geschütz kühl, um die Genauigkeit hoch zu halten. Jeder Schuss erzeugt Hitze, über den Kühlvorgang während des Nachladens kehrt das Geschütz zu den normalen Werten zurück. Je höher die Temperatur steigt, desto stärker sind die Auswirkungen auf die Geschützwerte."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Das Fahrzeug ist speziell für Rammangriffe ausgelegt. Modifikationen im Aufbau erlauben es ihm, beim Rammen von Gegnerfahrzeugen mehr Schaden zu verursachen."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "Das Geschütz dieses Fahrzeugs kann frühzeitig feuern: Einzelschussladungen, die während des Ladevorgangs abgefeuert werden, haben Verringerte Wirksamkeit, während Schüsse mit voller Ladung nach dem Nachladen über optimale ballistische Werte verfügen."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "Dieses Geschütz kann kontinuierlich Feuern, ohne zwischen Schüssen nachzuladen. Jeder Schuss erwärmt dabei den Geschützlauf, je höher die Temperatur steigt, desto mehr leiden die Geschützwerte darunter. Dauerhaftes Feuer wird zum Überhitzen des Geschützes führen. Erneutes Feuern ist dann erst wieder möglich, nachdem das Geschütz abgekühlt ist."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "Wenn Sie stillstehen oder sich nur langsam bewegen, wird das Waffensystem vorgewärmt, um mittleren Schaden und Genauigkeit für den nächsten Schuss zu erhöhen. Bei einer Geschwindigkeit über dem Limit sinkt der Bonus langsam wieder ab, Feuern oder Wechseln von Granaten setzt ihn zurück. Bei höchster Stufe verursacht ein durchschlagender Treffer an einem gegnerischen Fahrzeug mit weniger SP als dem mittleren Schaden (einschließlich des Bonus durch das Vorwärmen) eine Explosion im Munitionslager, die das Fahrzeug direkt zerstört."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "In diesem Modus sind Genauigkeit, Nachladegeschwindigkeit und Höhenrichtbereich drastisch gesteigert, dafür ist die Beweglichkeit (Höchstgeschwindigkeit vorwärts/rückwärts, horizontale Wendegeschwindigkeit und vertikale Hebegeschwindigkeit) stark eingeschränkt. Für den Vergleich zum Feuermodus werden Prozentwerte angegeben."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "Mit dem Direktantrieb erhalten Sie eine signifikante Verstärkung von Motorleistung und Höchstgeschwindigkeit. Je länger Sie sich vorwärts bewegen, desto mehr Geschwindigkeit bauen Sie auf und können damit leicht über das Schlachtfeld eilen."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "Dieses System baut automatisch über Zeit eine Ladung auf, die beim Feuern des Geschützes teilweise verbraucht wird, um den Schaden zu erhöhen. Je höher die Ladung, desto höher der Bonusschaden. Standardmäßig speichert das System die Ladung nur bis zu einer bestimmten Grenze. Den Begrenzer zu deaktivieren ermöglicht es, eine noch höhere Ladung aufzubauen, was einen deutlich höheren Schadensbonus gewährt, auf Kosten der Geschützhandhabung."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "Der Flüssigkeitsbooster verleiht einen Schub für die Motorleistung, mit der Sie sich einen Positionsvorteil auf dem Schlachtfeld sichern können, allerdings auf Kosten von Rückwärts- und Wendegeschwindigkeit. Der Booster kann jederzeit ein- oder ausgeschaltet werden, solange das Reaktivierungslimit noch nicht erreicht ist. Er erhitzt sich während des Einsatzes und kann während des Abkühlens nicht genutzt werden, ein Dauerbetrieb ist also nicht möglich. Wenn die kritische Hitzestufe überschritten wird, schaltet er sich vorübergehend komplett ab. Planen Sie den Einsatz sorgfältig im Voraus, damit Sie nicht überrascht werden."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "Feststoff-Schubdüsen verbessern mehrere Sekunden lang die Beschleunigung, die Beweglichkeit und die Manövrierfähigkeit. Anders als bei gewöhnlichen Jet-Boostern können die linken und rechten Düsen unabhängig voneinander eingesetzt werden, um so die Wendegeschwindigkeit der Wanne zu steigern, ohne die Rückwärtsbewegung einzuschränken. Die Schubdüsen können mehrmals pro Gefecht eingesetzt werden, haben aber nach jedem Einsatz eine Abklingzeit vor der nächsten Verwendung."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "Je nach Aktivitätsmodus und Ladungsstufe kann das Fahrzeug eine von zwei Fähigkeiten aktivieren, den Ionenladung-Nachbrenner oder das elektromechanische Fügungssichtgerät.\nDer Ionenladung-Nachbrenner steigert vorübergehend die Motorleistung und die Höchstgeschwindigkeit vorwärts wie rückwärts. Das elektromechanische Fügungssichtgerät erhöht vorübergehend die Genauigkeit und verringert die Nachladezeit."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "Mit dem Modul für externe Munitionszufuhr können Sie den Nachladevorgang jederzeit unterbrechen, solange mindestens eine Granate geladen ist. Während des Nachladevorgangs verankert das Modul den Turm des Fahrzeugs mit der externen Munitionsladung, was vorübergehend jegliches Zielen oder Feuern verhindert, wenn es nicht unterbrochen wird."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "Das Fahrzeug verfügt über einen Satz Sekundärwaffen mit einem eigenen Nachladeprozess, der unabhängig vom Hauptgeschütz läuft. Damit können Sie in entscheidenden Momenten zusätzlichen Schaden verursachen."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "Die Laserzielerfassung fügt dem nächsten Schuss einen besonderen Effekt hinzu, der jeden Gegner betrifft, der getroffen wird. Der Effekt hängt vom Aufklärungsstatus des Gegners ab. Wenn Sie ein aufgeklärtes gegnerisches Fahrzeug treffen, wird es markiert. Dadurch bleibt es länger aufgeklärt und erleidet zusätzlichen Schaden von folgenden Granaten. Wenn Sie ein nicht aufgeklärtes gegnerisches Fahrzeug treffen, wird sein Standort durch eine besondere Markierung hervorgehoben."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "Verursacht doppelten Schaden bei gesteigerter Stabilisierung auf Kosten von Beweglichkeit, Genauigkeit, Turmdrehgeschwindigkeit und Zielerfassung. Am effektivsten im Nahkampf eingesetzt."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Diese mechanische Modifikation steigert kurzzeitig die Beschleunigung, Motorleistung und Höchstgeschwindigkeit vorwärts und rückwärts deutlich, sodass Sie schnell auf gegnerische Angriffe reagieren und Ihre Gegner mit dynamischen Manövern überraschen können. Das Beibehalten einer hohen Fahrgeschwindigkeit beschleunigt die Abklingzeit."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Alle angezeigten Werte entsprechen dem Maximum für das Fahrzeug. Zubehör, Direktiven und Verbrauchsmaterial können diese Werte verändern, diese Änderungen werden hier jedoch nicht mit einbezogen."
+
+msgid "characteristics/templates/upTo"
+msgstr "Bis zu %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Kaufen und einbauen"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Feldaufrüstung"
+
+msgid "modules/controls/button/mount"
+msgstr "Einbauen"
+
+msgid "modules/controls/button/research"
+msgstr "Erforschen"
+
+msgid "modules/controls/button/sell"
+msgstr "Aus Lager verkaufen"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Dieses Fahrzeug befindet sich im Gefecht. Sie können seine Module anpassen, sobald das Gefecht beendet ist."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Dieses Fahrzeug ist beschädigt. Sie müssen es reparieren, wenn Sie die Module ändern wollen."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Anbringen nicht möglich. Inkompatibles Modul: {{module}}"
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Dieses Fahrzeug ist in einer taktischen Einheit."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "Sie müssen dieses Fahrzeug kaufen, wenn Sie die Module ändern wollen."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "Sie müssen die vorangehenden Module erforschen, um dieses Modul erforschen zu können."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "Sie müssen dieses Fahrzeug erforschen, um seine Module erforschen zu können."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Alle Module wurden erforscht."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Dieses Modul ist bereits angebracht."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Wählen Sie ein Modul oder Fahrzeug aus, das Sie erforschen wollen."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Dieses Fahrzeug befindet sich im Gefecht. Sie können seine Module anpassen, sobald das Gefecht beendet ist."
+
+msgid "modules/controls/name"
+msgstr "Ausgewählt: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Chassis"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Motor"
+
+msgid "modules/name/vehicleGun"
+msgstr "Geschütz"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Funkgerät"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Turm"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Räder"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Sammlerfahrzeuge"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Fähigkeit zum Verdienen von"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "Kreditpunkte für jedes Gefecht"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "Besatzungstransfer ohne Malus"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "Gefechtserfahrung und Besatzungserfahrung"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Anleihen"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Mehr"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Kostenloser"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Mehr"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Anleihen verdienen"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Mehr Kreditpunkte"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Kostenloses Verlegen"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Mehr Erfahrung"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Kostenlose Ersatzteilkiste"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Fähigkeit zum Verdienen von"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "Kreditpunkte für jedes Gefecht"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "Besatzungstransfer von jeglichen Fahrzeugklassen ohne Malus"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "Gefechtserfahrung und Besatzungserfahrung"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "Anleihen"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Mehr"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Kostenloser"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Mehr"
+
+msgid "overview/crew/name"
+msgstr "Besatzung {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Mechanik ansehen"
+
+msgid "overview/title/generalDescription"
+msgstr "Fahrzeugbeschreibung"
+
+msgid "overview/title/historicalReference"
+msgstr "Historischer Bezug"
+
+msgid "researchPurchase/discountTimer"
+msgstr "Bis {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "Kann bis zum {{date}} wiederhergestellt werden."
+
+msgid "tabs/armor"
+msgstr "Panzerung"
+
+msgid "tabs/modules"
+msgstr "Module"
+
+msgid "tabs/overview"
+msgstr "Übersicht"
+
+msgid "tabs/stats"
+msgstr "Technische Daten"
+
+msgid "tabs/vehSkillTree"
+msgstr "Verbesserungen"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "Mietzeitraum beendet"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Abonnement ausgesetzt"

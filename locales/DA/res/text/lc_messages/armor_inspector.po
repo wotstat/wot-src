@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Primært panser"
+
+msgid "armorValues/title/no_damage"
+msgstr "Ingen skade"
+
+msgid "armorValues/title/other"
+msgstr "Andet"
+
+msgid "armorValues/title/penetration"
+msgstr "Gennembrydningschance"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Rikochet"
+
+msgid "armorValues/title/spaced"
+msgstr "Lagdelt panser"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Angribers konfiguration"
+
+msgid "attackerTooltip/body"
+msgstr "Klik for at ændre angribende køretøj"
+
+msgid "attackerTooltip/header"
+msgstr "Angribende køretøj"
+
+msgid "menu/header"
+msgstr "Overlay-type"
+
+msgid "menu/no_armor"
+msgstr "Intet overlay"
+
+msgid "menu/nominal"
+msgstr "Nominelt panser"
+
+msgid "menu/penetration"
+msgstr "Gennembrydningschance"
+
+msgid "modules/current"
+msgstr "Nuværende konfiguration"
+
+msgid "modules/custom"
+msgstr "Særlig konfiguration"
+
+msgid "modules/standard"
+msgstr "Standardkonfiguration"
+
+msgid "modules/title"
+msgstr "Køretøjsmoduler"
+
+msgid "modules/top"
+msgstr "Top konfiguration"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Chassis"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Kanon"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Kanonskjold"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Skrog"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Skærm"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Observationsmodul"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Tårn"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Hjul"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Ingen skade"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Gennembrydning"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Rikochet"
+
+msgid "tooltip/minor/angle/description"
+msgstr "Vinklen mellem granatens skudbane og linjen vinkelret på panserpladen.\n\nGranatens skudbane udregnes som om granaten bevæger sig i en lige linje fra midten af skærmen."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Træfvinkel"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Chancen for at gennembryde fjendens panser og uddele skade til køretøjet."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Gennembrydningschance"
+
+msgid "tooltip/minor/effective/description"
+msgstr "For panser i et enkelt lag er det effektive panser det nominelle panser modificeret af træfvinklen og granatens normalisering.\n\nHvis der er flere lag panser på træfpunktet, er resultatet summen af de effektive værdier for hvert lag."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Effektivt panser"
+
+msgid "tooltip/minor/header"
+msgstr "Legende"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "At træffe lagdelt panser skader ikke et køretøj, med mindre en granat træffer og derefter gennembryder det primære panser."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Ingen skade"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Den aktuelle tykkelse på de primære eller lagdelte panserplader."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Nominelt panser"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Granater, der træffer fjendtligt panser i en for stump vinkel vil resultere i en rikochet. De kan dog stadig ramme et andet køretøj, eller endda det samme."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Rikochet"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Påvirker udregninger af effektivt panser og gennembrydningschance.\n\nEn afstand på 100 m bruges til alle udregninger (AP- og APCR-granater taber gennembrydningskraft over afstand).\n\nMandskabsevner og opgraderinger på det angribende køretøj påvirker ikke udregningerne."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Angribers konfiguration"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Chancen for at gennembryde fjendens panser og uddele skade til køretøjet.\n\nDet skader ikke et køretøj at ramme lagdelt panser, med mindre granaten træffer og derefter gennembryder det primære panser."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Gennembrydningschance"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Et køretøj bliver kun skadet, hvis det primære panser rammes og gennembrydes. HE-granater kan uddele reduceret skade til et køretøj, selv uden gennembrydning; men de skal dog stadig nå det primære panser."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Primært panser"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Det skader ikke et køretøj at træffe lagdelt panser, medmindre en granat rammer og derefter gennembryder det primære panser.\n\nAt ramme og gennembryde eksterne moduler skader disse moduler direkte: ram et bælte for at immobilisere et køretøj, ram en kanon for at sætte den ud af spillet, eller observationsudstyr for at reducere et køretøjs synsrækkevidde."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Ingen skade"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "Rikochet-vinklen er 70 grader for panserbrydende- og APCR-granater, og 85 grader for HEAT-granater.\n\nHE-granater rikochetterer ikke, mens AP- og APCR-granater mister 25% af deres gennembrydningskraft efter en rikochet.\n\nEn rikochet sker ikke, hvis granatens kaliber er større end tre gange den nominelle tykkelse på panseret ved træfpunktet (dette gælder kun AP- og APCR-granater)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Rikochet"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Det skader ikke et køretøj at træffe lagdelt panser, medmindre en granat rammer og derefter gennembryder det primære panser.\n\nAt ramme og gennembryde eksterne moduler skader disse moduler direkte: ram et bælte for at immobilisere et køretøj, ram en kanon for at sætte den ud af spillet, eller observationsudstyr for at reducere et køretøjs synsrækkevidde.\n\nTræfvinklen anvendes ikke ved eksterne moduler (som bælter og kanonen) — her er effektivt panser lig nominelt panser."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Lagdelt panser"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Se en video om mekanismerne ved gennembrydning"

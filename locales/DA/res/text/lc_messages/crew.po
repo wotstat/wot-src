@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Udvid"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Afskedig let trænede"
+
+msgid "barracks/bunks/title"
+msgstr "Pladser:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Angiv antallet af pladser, der kan købes. Pladser tilgængelige i barakken: %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Udsalgspris"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Ny pris: %(currency)s per %(bunksCount)s pladser"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Tidligere pris: %(currency)s per %(bunksCount)s pladser"
+
+msgid "barracks/enlarge/header"
+msgstr "Udvid barakken?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Let trænede mandskabsmedlemmer i din barak, som har mindre end de {whiteSpanish_Open}210.060{whiteSpanish_Close}{icon} xp, der er krævet til at træne deres første mandskabsevne til {whiteSpanish_Open}100%{whiteSpanish_Close} kan afskediges."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Let trænede mandskabsmedlemmer"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Du har ingen let trænede mandskabsmedlemmer"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Du vil ikke modtage kompensation for at afskedige let trænede mandskabsmedlemmer. Når de er blevet afskediget, kan de ikke genoprettes, og al deres xp vil være tabt."
+
+msgid "barracks/title"
+msgstr "BARAKKER"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Klik for at udvide barakken."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Udvid barakken"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Lokation"
+
+msgid "common/imageNotAvailable"
+msgstr "Billede utilgængeligt"
+
+msgid "common/inBarracks"
+msgstr "I barakken"
+
+msgid "common/inBattle"
+msgstr "I kamp"
+
+msgid "common/inPrebattle"
+msgstr "I taktisk enhed"
+
+msgid "common/navigation/aboutCrew"
+msgstr "OM MANDSKAB"
+
+msgid "common/navigation/toBarracks"
+msgstr "TIL BARAKKEN"
+
+msgid "common/navigation/toGarage"
+msgstr "TIL GARAGE"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "TIL PROFIL"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Bekræftet!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Dine mandskabsmedlemmer er blevet konverteret til mandskabsbøger."
+
+msgid "conversionAwards/title"
+msgstr "KONVERTERING UDFØRT"
+
+msgid "conversionAwards/underTitle"
+msgstr "De følgende ting er blevet tilføjet din konto."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Afbryd"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Afskedig"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Mandskabsmedlemmer til afskedigelse: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Afskedig let trænede mandskabsmedlemmer?"
+
+msgid "conversionConfirm/warning"
+msgstr "Du vil ikke modtage kompensation for at afskedige let trænede mandskabsmedlemmer. Når de er blevet afskediget, kan de ikke genoprettes, og al deres xp vil være tabt."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Autovælg evner"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Der er ingen mandskabsmedlemmer med utrænede evner."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Kan ikke autovælge evner"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Alle utrænede evner markeret med plustegn vil blive erstattet af evner, som automatisk er valgt med baggrund i alle mandskaber."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Autovælg utrænede evner for alle"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Nulstil evner for alle"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Der er ingen mandskabsmedlemmer med trænede evner."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Kan ikke nulstille evner"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Alle evner vil blive nulstillet for alle mandskabsmedlemmer på din konto. Denne operation kan ikke fortrydes."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Nulstil evner for alle"
+
+msgid "crewBanner/infoText"
+msgstr "Gratis nulstilling af evner eller autovalg af utrænede evner for alle mandskabsmedlemmer på din konto"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Accelereret mandskabstræning er slået til"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Effektivitetsbonus: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Evne-effektivitet"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Evner er ikke tilgængelige, da mandskabsmedlemmet ikke er trænet i dette køretøj."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Specialisering:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Evner ikke tilgængelige"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Bonus-evner:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Primære kvalifikationsevner"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(Kina)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Tjekkoslovakiet)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Frankrig)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Tyskland)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Italien)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japan)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Polen)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Sverige)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(Storbritannien)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(USA)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(Sovjetunionen)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Alle premium kampvognsjægere {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Alle premium SPG'er {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Alle premium tunge kampvogne {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Alle premium lette kampvogne {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Alle premium medium kampvogne\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Detaljer"
+
+msgid "filter/group/details/title"
+msgstr "Detaljer"
+
+msgid "filter/group/nation/title"
+msgstr "Nation"
+
+msgid "filter/group/other/title"
+msgstr "Andet"
+
+msgid "filter/group/special/title"
+msgstr "Speciel"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Kvalifikation"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Niveau"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Niveau"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specialisering"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Køretøjstype"
+
+msgid "filter/popup/button/title"
+msgstr "Filter"
+
+msgid "filter/popup/default/title"
+msgstr "Filter"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Filtrer efter nation"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Filtrer efter køretøjer"
+
+msgid "filter/reset"
+msgstr "Nulstil filter"
+
+msgid "filter/search/placeholder"
+msgstr "Søg efter navn"
+
+msgid "filter/search/tooltip/header"
+msgstr "Søg efter navn"
+
+msgid "filter/title"
+msgstr "Vist:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Vis/skjul mandskabsmedlemmer i køretøjer med alle tilgængelige moduler og tekniske træer udforsket."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Elite køretøjer"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Vis/skjul mandskabsmedlemmer trænet til premium køretøjer."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Premium køretøjer"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Vis/skjul mandskabsmedlemmer i primære køretøjer."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Primære køretøjer"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Vis/skjul mandskabsmedlemmer i denne type køretøjer."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Vis/skjul mandskabsmedlemmer fra denne nation."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Vis/skjul skins fra denne nation."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Vis/skjul køretøjer fra denne nation."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Vis/skjul afskedigede."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Afskedigede"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Vis rekrutter."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Rekrutter"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Vis mandskabsmedlemmer."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Mandskab"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Vis/skjul mandskabsmedlemmer med denne kvalifikation."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Vis/skjul premium køretøjer."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Premium køretøjer"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Vis/skjul køretøjer af denne type."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Kampvognsjægere"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "SPG'er"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Tunge kampvogne"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Lette kampvogne"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Medium kampvogne"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Ingen køretøjer fundet der opfylder\nsøgekriterierne"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sorter efter køretøjsnavn."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Navn"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sorter efter køretøjsniveau."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Niveau"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sorter efter køretøjstype."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Type"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Navn"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Klik for at nulstille filterindstillinger."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Nulstil alle filtre"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Bekræftet!"
+
+msgid "junkTankmen/description"
+msgstr "Disse mandskabsmedlemmer har mindre end de {bond_Open}210.060{bond_Close}{icon} xp, der er krævet til at træne deres første mandskabsevne til {whiteSpanish_Open}100%{whiteSpanish_Close}.\nDe vil blive fjernet fra din konto."
+
+msgid "junkTankmen/title"
+msgstr "Afskedig let trænede mandskabsmedlemmer?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Der er en grænse på {whiteSpanish_Open}tre{whiteSpanish_Close} evner for hver yderligere kvalifikation. Adgang til en ny bonus-evne vil blive åbnet op efter at have nået den {whiteSpanish_Open}første{whiteSpanish_Close}, {whiteSpanish_Open}tredje{whiteSpanish_Close} og {whiteSpanish_Open}femte{whiteSpanish_Close} primære kvalifikationsevne."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Bonus-evner"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Når du omskoler et mandskabsmedlem til et andet køretøj med et andet sæt kvalifikationer, vil du kunne vælge evnerne til deres nye ekstra kvalifikation igen."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Bonus-evner trænes dobbelt så langsomt som primære kvalifikationsevner."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Xp skal ikke bruges til at træne bonus-evner."
+
+msgid "matrix/freeResetButton"
+msgstr "Gratis nulstilling"
+
+msgid "matrix/increaseButton"
+msgstr "Accelerer træning"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Mandskabsmedlemmet har nået træningsgrænsen."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Kan ikke accelerere træning"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Træn evner med fri xp og mandskabsbøger."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Hurtig træning"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Inkompatibel kvalifikation"
+
+msgid "matrix/qualification/1"
+msgstr "Primær kvalifikation"
+
+msgid "matrix/qualification/2"
+msgstr "Anden kvalifikation"
+
+msgid "matrix/qualification/3"
+msgstr "Tredje kvalifikation"
+
+msgid "matrix/qualification/4"
+msgstr "Fjerde kvalifikation"
+
+msgid "matrix/qualification/5"
+msgstr "Femte kvalifikation"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Nulsums-evner utilgængelige til anden kvalifikation"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Nulsums-evner utilgængelige til tredje kvalifikation"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Nulsums-evner utilgængelige til fjerde kvalifikation"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Anden kvalifikation utilgængelig for dette køretøj"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Tredje kvalifikation utilgængelig for dette køretøj"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Fjerde kvalifikation utilgængelig for dette køretøj"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Femte kvalifikation utilgængelig for dette køretøj"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Der er en grænse på {whiteSpanish_Open}tre{whiteSpanish_Close} bonus-evner for hver yderligere kvalifikation. Kun evner, der specifikt er til den nye kvalifikation, kan vælges som bonus-evner."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Der er en grænse på {whiteSpanish_Open}seks{whiteSpanish_Close} primære kvalifikationsevner (inklusive nulsums-evner)."
+
+msgid "matrix/resetButton"
+msgstr "Nulstil"
+
+msgid "matrix/resetButtonHint"
+msgstr "KLIK FOR AT NULSTILLE EVNER"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Du har ingen trænede evner."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Kan ikke nulstille evner"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Klik for at nulstille evner."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Nulstil evner"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Bonus-evne tilgængelig til træning"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Mandskabs xp skal ikke bruges til at træne bonus-evner."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Utilgængelig"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Åbnes, når den tredje primære kvalifikationsevne trænes. Kræver ikke xp."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Åbnes, når den femte primære kvalifikationsevne trænes. Kræver ikke xp."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Træningsniveau"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "Den samlede mængde krævede xp er reduceret, da mandskabsmedlemmet har en nulsums-evne."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "Den samlede mængde krævede xp er reduceret, da mandskabsmedlemmet har to nulsums-evner."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Evne, der kan trænes"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Utilgængelig"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Den forrige evne skal trænes til 100%."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Nulsums-evne, der kan trænes"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Nulsums-evner trænes altid først, selv om flere evner vælges samtidig. Mandskabs xp kræves ikke for at træne dem."
+
+msgid "matrix/skills/allSkills"
+msgstr "Alle yderligere evner trænet for dette køretøj"
+
+msgid "matrix/skills/available"
+msgstr "Evner, der kan trænes:"
+
+msgid "matrix/skills/bonus"
+msgstr "Bonus-evner"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Evner er ikke tilgængelige"
+
+msgid "matrix/skills/locked"
+msgstr "Evner er ikke tilgængelige"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Alle evner er slået fra for dette køretøj"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Primære kvalifikationsevner"
+
+msgid "matrix/skills/reduced"
+msgstr "Evne-effektivitet reduceret"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Kommandørens evner"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Kørerens evner"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Kommandørens evner"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Kørerens evner"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Skyttens evner"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Laderens evner"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Radiooperatørens evner"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Skyttens evner"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Laderens evner"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Radiooperatørens evner"
+
+msgid "matrix/skills/training"
+msgstr "Træning af evner"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Nulsums-evner, der kan trænes:"
+
+msgid "memberChange/action/recruit"
+msgstr "Rekrutter {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount}% RABAT PÅ ÆNDRING AF KVALIFIKATION"
+
+msgid "memberChange/title"
+msgstr "VÆLG {role}: {vehicle} "
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}i depot{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Efter bekræftelse vil mandskabsmedlemmet, som overfører deres xp, blive fjernet fra din konto."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "En mentorlicens gør dig i stand til at overføre mandskabs xp fra ét mandskabsmedlem til et andet mandskabsmedlem fra samme nation."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Mentorlicens"
+
+msgid "personalData/card/edit"
+msgstr "Rediger"
+
+msgid "personalData/card/remove"
+msgstr "Fjern"
+
+msgid "personalData/card/restrictions"
+msgstr "Restriktioner: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Klik for at udskifte et mandskabsmedlems navn og udseende."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Udseende"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Dette mandskabsmedlem har allerede et unikt navn og udseende."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Kan ikke udskifte navn og udseende"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Intet fundet. Skift indstillinger eller nulstil filteret."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Konfigurer visningen af skins efter deres nation."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Filtrer efter parametre"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Vis dokumenter."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Dokumenter"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Vis passende skins."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Passende skins"
+
+msgid "personalData/filter/type/title"
+msgstr "Type"
+
+msgid "personalData/title"
+msgstr "UDSKIFT NAVN OG UDSEENDE"
+
+msgid "personalFile/changeVehicle"
+msgstr "Skift"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Kan ikke træne dette mandskabsmedlem til et andet køretøj."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Operationen utilgængelig"
+
+msgid "personalFile/discount/full"
+msgstr "Rabat på omskoling af mandskab tilgængelig"
+
+msgid "personalFile/discount/short"
+msgstr "Rabat tilgængelig"
+
+msgid "personalFile/inVehicle"
+msgstr "I køretøjet: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Øg"
+
+msgid "personalFile/isUntrained"
+msgstr "Ikke trænet til dette køretøj"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Alle {icon} premium køretøjer"
+
+msgid "personalFile/retrain"
+msgstr "Omskol"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Evne-effektivitet:"
+
+msgid "personalFile/specialization"
+msgstr "Specialisering:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Specialisering"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Klik for at høre denne kommandørs voiceover-prøve."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Unik voiceover"
+
+msgid "postProgression/button/claim"
+msgstr "Modtag belønning"
+
+msgid "postProgression/description"
+msgstr "Alle mandskabsmedlemmer, der har alle seks primære kvalifikationsevner trænet, får adgang til det fælles post-fremskridt. For hver 100.000 xp optjent i post-fremskridtet, vil du modtage en universel guide, der kan bruges til at træne andet mandskab."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "Post-fremskridtet er fælles på tværs af alle mandskabsmedlemmer med seks fuldt trænede primære kvalifikationsevner på en spillers konto."
+
+msgid "postProgression/tips/2"
+msgstr "Kun kamp xp tæller til post-fremskridtet. Halvdelen af al kamp xp optjent i kamp af et mandskabsmedlem, divideres med det samlede antal mandskabsmedlemmer i køretøjet, og bliver tilføjet til post-fremskridtet."
+
+msgid "postProgression/tips/3"
+msgstr "Hvis du mister xp fra evner eller effektivitetspuljer, påvirker det ikke post-fremskridtet."
+
+msgid "postProgression/title"
+msgstr "MANDSKABS POST-FREMSKRIDT"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Alle mandskabsmedlemmer, der havde adgang til post-fremskridtet, har lav evne-effektivitet."
+
+msgid "postProgression/warning/retire"
+msgstr "Alle mandskabsmedlemmer, der havde adgang til post-fremskridtet, er trådt tilbage eller har tabt xp fra deres seneste evne(r)."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Alle premium kampvognsjægere"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Alle premium SPG'er"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Premium kampvognsjægere"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Premium SPG'er"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Premium tunge kampvogne"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Premium lette kampvogne"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Premium medium kampvogne"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Alle premium tunge kampvogne"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Alle premium lette kampvogne"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Alle premium medium kampvogne"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "MEDALJER"
+
+msgid "serviceRecord/averageXP"
+msgstr "Gennemsnitlig xp per kamp"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Kampe deltaget i"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Ingen bedrifter eller medaljer optjent i kamp."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Ratio af samlet mængde optjent xp i forhold til antallet af kampe i det køretøj, som mandskabsmedlemmet er tildelt."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Gennemsnitlig xp per kamp"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Et mandskabsmedlems rang afhænger af deres xp og antallet af trænede evner."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Rang"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Mandskabsmedlem har trænet alle evner for dette køretøj"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Evner, der kan trænes"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Alle evner slået fra for dette køretøj"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Xp er ikke krævet til at træne yderligere kvalifikationsevner, der trænes dobbelt så langsomt som primære kvalifikationsevner."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Afbryd"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Træn"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "BONUS-KVALIFIKATION"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "PRIMÆR KVALIFIKATION"
+
+msgid "tankChange/title"
+msgstr "TRÆN TIL KØRETØJ"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Vis køretøjer i garagen."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "I garage"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Konfigurer visningen af køretøjer efter type og niveau."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Filtrer efter parametre"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Du behøver ikke at træne mandskabsmedlemmer til premium køretøjer. Du kan overføre mandskab til et premium køretøj af samme type uden straf."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Premium køretøj"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Køretøjsnavn skal indeholde op til %(maxLength)s karakterer."
+
+msgid "tankman/action/dismiss/title"
+msgstr "AFSKEDIG"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Afskedig dette mandskabsmedlem."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Kan ikke afskedige dette mandskabsmedlem."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Operationen utilgængelig"
+
+msgid "tankman/action/recruit/title"
+msgstr "REKRUTTER"
+
+msgid "tankman/action/restore/title"
+msgstr "GENOPRET"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Genopret dette mandskabsmedlem."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Klik for at høre denne kommandørs voiceover-prøve."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Unik voiceover"
+
+msgid "tankman/recruit"
+msgstr "Rekrutter"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Udseende"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profil"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Tjenesteblad"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Rekrutter"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Nulstil filter"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Intet fundet. Skift indstillinger eller nulstil filteret."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Intet fundet. Rekrutter et mandskabsmedlem."
+
+msgid "tankmanList/filter/title"
+msgstr "Mandskab:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Ikke nok pladser i barakken."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Vis/skjul kun afskedigede mandskabsmedlemmer."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Afskedigede"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Vis mandskabsmedlemmer i barakken."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "I barak"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Vis mandskabsmedlemmer i køretøjer."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "I køretøjer"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Vis/skjul skins fra denne nation."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Konfigurer visningen af mandskabsmedlemmer efter deres kvalifikation, specialisering og andre parametre."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Filtrer efter parametre"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Rekrutter et nyt mandskabsmedlem."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Navn skal indeholde op til %(maxLength)s karakterer."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Når du holder musen over en evne, vises hvordan den påvirker de tilsvarende karakteristika, når den er trænet til 100%, med det nuværende niveau af evne-effektivitet."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Bekræftet!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "To nye evner til hver kvalifikation er blevet introduceret, pålidelig placering er blevet revideret, og en ny mulighed lader dig skjule evner i kamp-HUD'et."
+
+msgid "welcomeScreen/item2/description"
+msgstr "En belejlig ny funktion gør det muligt for dig at afskedige let trænede mandskabsmedlemmer med ét klik."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Evner kan nu nulstilles kun med credits, uden at miste xp."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Nye evner og egenskaber er blevet tilføjet, og en eksisterende evne er blevet opdateret."
+
+msgid "welcomeScreen/title"
+msgstr "OPDATERINGER TIL MANDSKAB"

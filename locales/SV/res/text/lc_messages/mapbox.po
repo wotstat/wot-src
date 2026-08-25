@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "Uppfattat!"
+
+msgid "awardsView/subTitle"
+msgstr "UTKÄMPADE STRIDER: {number}"
+
+msgid "awardsView/title"
+msgstr "SPANINGSUPPDRAG"
+
+msgid "buttonDisable/tooltip"
+msgstr "Ej tillgänglig"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Schema"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "Kan inte delta i strid"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "Striderna har avslutats"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "Kan inte delta i strid"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "Vapenvila råder på denna server. Välj en annan server."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "Du kan bara gå i strid i %(levelSubStr)s."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "Icke-kompatibel vagnsklass"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "vagnar klass %(levels)s"
+
+msgid "intro/button"
+msgstr "Uppfattat!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "Dina åsikter hjälper oss förbättra slagfälten. Dela med dig dina idéer om de nya funktionerna på kartan så kommer vi implementera de bästa i spelet."
+
+msgid "intro/interviewInfoTitle"
+msgstr "Nödvändig fedback"
+
+msgid "intro/modeInfoDescription"
+msgstr "Utkämpa strider i vagnar klass VIII–X på kartor med nya kartfunktioner, fyll i en utvärdering och få en belöning. Om en vecka återställs alla framsteg och du kan börja tjäna belöningar igen."
+
+msgid "intro/modeInfoTitle"
+msgstr "Hjälp oss utveckla nya funktioner!"
+
+msgid "intro/startEvent"
+msgstr "Evenemanget börjar om: "
+
+msgid "intro/taskInfoDescription"
+msgstr "När du utkämpar Spaningsuppdrag kan du även slutföra uppdrag för Stridspass och ditt resultat räknas för dina progressiva dekaler."
+
+msgid "intro/taskInfoTitle"
+msgstr "Strider med samma regler som slumpvis matchade strider"
+
+msgid "intro/time/period/day"
+msgstr "{day} d"
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} d {hours} t"
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} t {min} min"
+
+msgid "intro/time/period/minute"
+msgstr "{min} min"
+
+msgid "intro/title"
+msgstr "SPANINGSUPPDRAG"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s kan inte delta i Spaningsuppdrag."
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "Icke-kompatibel vagnstyp"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "Välj en %(levelSubStr)s för att delta i Spaningsuppdrag."
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "Icke-kompatibel vagnsklass"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Vagn klass %(levels)s"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s kan inte delta i Spaningsuppdrag."
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "Icke-kompatibel vagn"
+
+msgid "mapboxTab"
+msgstr "Spaningsuppdrag"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Evenemanget har avslutats på servern %(server)s"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Server %(server)s\nStrider tillgängliga i ytterligare %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Server %(server)s\nStrider tillgängliga om %(time)s"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Vapenvila råder på alla servrar"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Striderna ej tillgängliga på servern %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Strider på servern %(server)s är tillgängliga under ytterligare %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Striderna börjar på servern %(server)s om %(time)s"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "Striderna ej tillgängliga: Säsongen har avslutats."
+
+msgid "primeTimeView/status/untill"
+msgstr "Vapenvila råder på servern %(server)s tills %(startTime)s"
+
+msgid "primeTimeView/title"
+msgstr "SPANINGSUPPDRAG"
+
+msgid "primeTimes/availableServer"
+msgstr "Tillgänglig server:"
+
+msgid "primeTimes/availableServers"
+msgstr "Tillgängliga servrar:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "Striderna har avslutats"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Striderna ej tillgängliga på servern %(serverName)s"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "Utkämpa strider"
+
+msgid "progression/cardTitle/rating"
+msgstr "Var en av de {rating} spelare som tjänar mest erf."
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "Var en av de {rating} spelare som tjänar mest erf. på en karta med brand"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "Var en av de {rating} spelare som tjänar mest erf. på en karta med dimma"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "Var en av de {rating} spelare som tjänar mest erf. på en karta med kraftigt regn"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "Var en av de {rating} spelare som tjänar mest erf. på en karta med sandstormar"
+
+msgid "progression/changeAnswer"
+msgstr "Ändra ditt svar"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Utkämpa strider i vagnar klass VIII–X på kartor med nya kartfunktioner, fyll i utvärderingen och få belöningar."
+
+msgid "progression/info/restart"
+msgstr "Belöningsframstegen återställs om %(leftTime)s"
+
+msgid "progression/info/title"
+msgstr "Var en av de %(rating) spelare som tjänar mest erf.: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "OM EVENEMANGET"
+
+msgid "progression/map_01_karelia"
+msgstr "KARELEN"
+
+msgid "progression/map_02_malinovka"
+msgstr "MALINOVKA"
+
+msgid "progression/map_05_prohorovka"
+msgstr "PROCHOROVKA"
+
+msgid "progression/map_18_cliff"
+msgstr "WESTFIELD"
+
+msgid "progression/map_all"
+msgstr "SPEL-\nFUNKTIONER"
+
+msgid "progression/map_fire"
+msgstr "BRAND"
+
+msgid "progression/map_fog"
+msgstr "DIMMA"
+
+msgid "progression/map_heavy_rain"
+msgstr "KRAFTIGT REGN"
+
+msgid "progression/map_sandstorm"
+msgstr "SANDSTORM"
+
+msgid "progression/redirect"
+msgstr "Gå till striderna"
+
+msgid "progression/startInterview"
+msgstr "Delta i undersökningen"
+
+msgid "progression/startInterviewTooltip"
+msgstr "Uppfyll ovanstående villkor för att fylla i utvärderingen."
+
+msgid "progression/startSpecialInterview"
+msgstr "Delta i undersökningen"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "Uppfyll ovanstående villkor för att fylla i utvärderingen."
+
+msgid "progression/subtitle"
+msgstr "Här kan du delta i en undersökning om ny spelmekanik"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "progression/title"
+msgstr "SPANINGSUPPDRAG"
+
+msgid "progressionError/description/line1"
+msgstr "Dina framsteg har sparats. Du kan fortsätta spela."
+
+msgid "progressionError/description/line2"
+msgstr "Du kan snart de dina framsteg och delta i utvärderingar."
+
+msgid "progressionError/title"
+msgstr "Spaningsuppdrag är för tillfället ej tillgängligt"
+
+msgid "questFlag/complete"
+msgstr "Alla belöningar mottagna"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "Utkämpa strider i %(highlightedText)s, fyll i undersökningar och bli belönad."
+
+msgid "questFlag/frozen/header"
+msgstr "Spaningsuppdrag ej tillgängligt"
+
+msgid "questFlag/frozen/text"
+msgstr "Spaningsuppdrag är för tillfället ej tillgängligt av tekniska skäl."
+
+msgid "questFlag/highlightedText"
+msgstr "Vagnar klass VIII–X på kartor med nya funktioner"
+
+msgid "questFlag/incomplete"
+msgstr "Strider som måste utkämpas för att få nästa belöning: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "Utkämpade strider:"
+
+msgid "questFlag/surveysTitle"
+msgstr "Inlämnade utvärderingar: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "Utforskandet av kartor med nya funktioner börjar den %(day)s"
+
+msgid "selector/tooltip/body"
+msgstr "Utforskandet av kartor med nya funktioner pågår till %(day)s"
+
+msgid "selector/tooltip/title"
+msgstr "Schema"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Säsongen slutar om:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Stridsschema"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Idag"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Imorgon"
+
+msgid "serverAlertMessage/button"
+msgstr "Välj en annan server"
+
+msgid "survey/backBtn"
+msgstr "Tillbaka"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "pansarvärnskanonvagnar"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "artillerivagnar"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "tunga stridsvagnar"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "lätta stridsvagnar"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "medeltunga stridsvagnar"
+
+msgid "survey/fire/question/q1"
+msgstr "Tyckte du om att spela på kartan Murovanka med vädereffekten brand?"
+
+msgid "survey/fire/question/q2"
+msgstr "Vad tycker du om utseendet på brandeffekten på kartan Murovanka?"
+
+msgid "survey/fire/question/q3"
+msgstr "Skulle du vilja ändra hur brand påverkar gameplay på kartan Murovanka?"
+
+msgid "survey/fire/question/q4"
+msgstr "På vilket sätt skulle du vilja ändra hur brand påverkar gameplay på kartan Murovanka?"
+
+msgid "survey/fire/question/q5"
+msgstr "Vilka vagnstyper spelade du på kartan Murovanka?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "Hur påverkades spelet för {value} på kartan Murovanka?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "Hur påverkades spelet för {value} på kartan Murovanka?"
+
+msgid "survey/fire/question/q7"
+msgstr "Skulle du vilja att vi inkluderade brand på kartor i slumpvis matchade strider?"
+
+msgid "survey/fire/question/q8"
+msgstr "Vad tyckte du inte om med vädereffekten brand på kartan Murovanka?"
+
+msgid "survey/fire/question/q9"
+msgstr "Ange vilka förbättringar du anser nödvändiga."
+
+msgid "survey/fire/response/q1_1"
+msgstr "Ja, det gjorde jag"
+
+msgid "survey/fire/response/q1_2"
+msgstr "Nej, det gjorde jag inte"
+
+msgid "survey/fire/response/q1_3"
+msgstr "Osäker"
+
+msgid "survey/fire/response/q2_1"
+msgstr "Jag tyckte om det"
+
+msgid "survey/fire/response/q2_2"
+msgstr "Det är okej"
+
+msgid "survey/fire/response/q2_3"
+msgstr "Jag tyckte inte om det"
+
+msgid "survey/fire/response/q2_4"
+msgstr "Osäker"
+
+msgid "survey/fire/response/q3_1"
+msgstr "Ja, det vill jag"
+
+msgid "survey/fire/response/q3_2"
+msgstr "Nej, det vill jag inte"
+
+msgid "survey/fire/response/q3_3"
+msgstr "Osäker"
+
+msgid "survey/fire/response/q4_1"
+msgstr "Gör effekten starkare"
+
+msgid "survey/fire/response/q4_2"
+msgstr "Gör effekten svagare"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "Pansarvärnskanonvagnar"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "Artillerivagnar"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "Tunga stridsvagnar"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "Lätta stridsvagnar"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "Medeltunga stridsvagnar"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "Kommer inte ihåg"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "Det blev bättre"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "Det blev sämre"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "Det påverkades inte"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "Osäker"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "Det blev bättre"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "Det blev sämre"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "Det påverkades inte"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "Osäker"
+
+msgid "survey/fire/response/q7_1"
+msgstr "Ja, det vill jag"
+
+msgid "survey/fire/response/q7_2"
+msgstr "Nej, det vill jag inte"
+
+msgid "survey/fire/response/q7_3"
+msgstr "Osäker"
+
+msgid "survey/fire/response/q8_1"
+msgstr "Branden minskade avsevärt antalet tillgängliga eldställningar"
+
+msgid "survey/fire/response/q8_10"
+msgstr "Ett av lagen får en fördel"
+
+msgid "survey/fire/response/q8_11"
+msgstr "Tekniska problem"
+
+msgid "survey/fire/response/q8_12"
+msgstr "Övrigt"
+
+msgid "survey/fire/response/q8_2"
+msgstr "Branden åsamkar för mycket skada"
+
+msgid "survey/fire/response/q8_3"
+msgstr "Motståndare utanför området kan inte se min vagn, men jag kan inte heller se deras"
+
+msgid "survey/fire/response/q8_4"
+msgstr "Brandens plats på kartan"
+
+msgid "survey/fire/response/q8_5"
+msgstr "Hur branden ser ut"
+
+msgid "survey/fire/response/q8_6"
+msgstr "Påverkar gameplay på kartan för mycket"
+
+msgid "survey/fire/response/q8_7"
+msgstr "Påverkar gameplay på kartan för lite"
+
+msgid "survey/fire/response/q8_8"
+msgstr "Brandens visuella effekt stör striden"
+
+msgid "survey/fire/response/q8_9"
+msgstr "Branden tvingar en till närstrid"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "Utpost"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "Fjordar"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "Utpost"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "Fjordar"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "Utpost"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "Fjordar"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "Pansarvärnskanonvagnar"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "Artillerivagnar"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "Tunga stridsvagnar"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "Lätta stridsvagnar"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "Medeltunga stridsvagnar"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "Pansarvärnskanonvagnar"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "Artillerivagnar"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "Tunga stridsvagnar"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "Lätta stridsvagnar"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "Medeltunga stridsvagnar"
+
+msgid "survey/fog/question/q1"
+msgstr "Tyckte du om att spela på följande kartor med vädereffekten dimma?"
+
+msgid "survey/fog/question/q10"
+msgstr "Skulle du vilja att vi inkluderade dimma på kartor i slumpvis matchade strider?"
+
+msgid "survey/fog/question/q11"
+msgstr "Vad tyckte du inte om med vädereffekten dimma på kartan Fjordar?"
+
+msgid "survey/fog/question/q12"
+msgstr "Vad tyckte du inte om med vädereffekten dimma på kartan Utpost?"
+
+msgid "survey/fog/question/q13"
+msgstr "Ange vilka förbättringar du anser nödvändiga."
+
+msgid "survey/fog/question/q2"
+msgstr "Vad tycker du om utseendet på dimman på följande kartor?"
+
+msgid "survey/fog/question/q3"
+msgstr "Skulle du vilja ändra hur dimman påverkar gameplay på kartan?"
+
+msgid "survey/fog/question/q4"
+msgstr "På vilket sätt skulle du vilja ändra hur dimman påverkar gameplay på kartan Fjordar?"
+
+msgid "survey/fog/question/q5"
+msgstr "På vilket sätt skulle du vilja ändra hur dimman påverkar gameplay på kartan Utpost?"
+
+msgid "survey/fog/question/q6"
+msgstr "Vilka vagnstyper spelade du på kartan Fjordar?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "Hur påverkades spelet för {value} på kartan Fjordar?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "Hur påverkades spelet för {value} på kartan Fjordar?"
+
+msgid "survey/fog/question/q8"
+msgstr "Vilka vagnstyper spelade du på kartan Utpost?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "Hur påverkades spelet för {value} på kartan Utpost?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "Hur påverkades spelet för {value} på kartan Utpost?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "Ja, det vill jag"
+
+msgid "survey/fog/response/q10_2"
+msgstr "Nej, det vill jag inte"
+
+msgid "survey/fog/response/q10_3"
+msgstr "Osäker"
+
+msgid "survey/fog/response/q11_1"
+msgstr "Motståndare utanför området kan inte se min vagn, men jag kan inte heller se deras"
+
+msgid "survey/fog/response/q11_10"
+msgstr "Övrigt"
+
+msgid "survey/fog/response/q11_2"
+msgstr "Dimmans plats på kartan"
+
+msgid "survey/fog/response/q11_3"
+msgstr "Utseendet på dimman"
+
+msgid "survey/fog/response/q11_4"
+msgstr "Påverkar gameplay på kartan för mycket"
+
+msgid "survey/fog/response/q11_5"
+msgstr "Påverkar gameplay på kartan för lite"
+
+msgid "survey/fog/response/q11_6"
+msgstr "Dimmans visuella effekt stör striden"
+
+msgid "survey/fog/response/q11_7"
+msgstr "Dimman tvingar en till närstrid"
+
+msgid "survey/fog/response/q11_8"
+msgstr "Ett av lagen får en fördel"
+
+msgid "survey/fog/response/q11_9"
+msgstr "Tekniska problem"
+
+msgid "survey/fog/response/q12_1"
+msgstr "Motståndare utanför området kan inte se min vagn, men jag kan inte heller se deras"
+
+msgid "survey/fog/response/q12_10"
+msgstr "Övrigt"
+
+msgid "survey/fog/response/q12_2"
+msgstr "Dimmans plats på kartan"
+
+msgid "survey/fog/response/q12_3"
+msgstr "Utseendet på dimman"
+
+msgid "survey/fog/response/q12_4"
+msgstr "Påverkar gameplay på kartan för mycket"
+
+msgid "survey/fog/response/q12_5"
+msgstr "Påverkar gameplay på kartan för lite"
+
+msgid "survey/fog/response/q12_6"
+msgstr "Dimmans visuella effekt stör striden"
+
+msgid "survey/fog/response/q12_7"
+msgstr "Dimman tvingar en till närstrid"
+
+msgid "survey/fog/response/q12_8"
+msgstr "Ett av lagen får en fördel"
+
+msgid "survey/fog/response/q12_9"
+msgstr "Tekniska problem"
+
+msgid "survey/fog/response/q1_1"
+msgstr "Ja, det gjorde jag"
+
+msgid "survey/fog/response/q1_2"
+msgstr "Nej, det gjorde jag inte"
+
+msgid "survey/fog/response/q1_3"
+msgstr "Osäker"
+
+msgid "survey/fog/response/q2_1"
+msgstr "Jag tyckte om det"
+
+msgid "survey/fog/response/q2_2"
+msgstr "Det är okej"
+
+msgid "survey/fog/response/q2_3"
+msgstr "Jag tyckte inte om det"
+
+msgid "survey/fog/response/q2_4"
+msgstr "Osäker"
+
+msgid "survey/fog/response/q3_1"
+msgstr "Ja, det vill jag"
+
+msgid "survey/fog/response/q3_2"
+msgstr "Nej, det vill jag inte"
+
+msgid "survey/fog/response/q3_3"
+msgstr "Osäker"
+
+msgid "survey/fog/response/q4_1"
+msgstr "Gör effekten starkare"
+
+msgid "survey/fog/response/q4_2"
+msgstr "Gör effekten svagare"
+
+msgid "survey/fog/response/q5_1"
+msgstr "Gör effekten starkare"
+
+msgid "survey/fog/response/q5_2"
+msgstr "Gör effekten svagare"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "Pansarvärnskanonvagnar"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "Artillerivagnar"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "Tunga stridsvagnar"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "Lätta stridsvagnar"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "Medeltunga stridsvagnar"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "Kommer inte ihåg"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "Det blev bättre"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "Det blev sämre"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "Det påverkades inte"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "Osäker"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "Det blev bättre"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "Det blev sämre"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "Det påverkades inte"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "Osäker"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "Pansarvärnskanonvagnar"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "Artillerivagnar"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "Tunga stridsvagnar"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "Lätta stridsvagnar"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "Medeltunga stridsvagnar"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "Kommer inte ihåg"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "Det blev bättre"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "Det blev sämre"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "Det påverkades inte"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "Osäker"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "Det blev bättre"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "Det blev sämre"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "Det påverkades inte"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "Osäker"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "Pansarvärnskanonvagnar"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "Artillerivagnar"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "Tunga stridsvagnar"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "Lätta stridsvagnar"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "Medeltunga stridsvagnar"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "Pansarvärnskanonvagnar"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "Artillerivagnar"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "Tunga stridsvagnar"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "Lätta stridsvagnar"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "Medeltunga stridsvagnar"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "Tyckte du om att spela på följande kartor med vädereffekten kraftigt regn?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "Skulle du vilja att vi inkluderade kraftigt regn på kartor i slumpvis matchade strider?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "Vad tyckte du inte om med vädereffekten kraftigt regn på kartan Westfield?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "Vad tyckte du inte om med vädereffekten kraftigt regn på kartan Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "Ange vilka förbättringar du anser nödvändiga."
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "Vad tycker du om utseendet på kraftigt regn på följande kartor?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "Skulle du vilja ändra hur kraftigt regn påverkar gameplay på kartan?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "På vilket sätt skulle du vilja ändra hur kraftigt regn påverkar gameplay på kartan Westfield?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "På vilket sätt skulle du vilja ändra hur kraftigt regn påverkar gameplay på kartan Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "Vilka vagnstyper spelade du på kartan Westfield?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "Hur påverkades spelet för {value} på kartan Westfield?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "Hur påverkades spelet för {value} på kartan Westfield?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "Vilka vagnstyper spelade du på kartan Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "Hur påverkades spelet för {value} på kartan Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "Hur påverkades spelet för {value} på kartan Fisherman's Bay?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "Ja, det vill jag"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "Nej, det vill jag inte"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "Osäker"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "Det är för halt i området med kraftigt"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "Tekniska problem"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "Övrigt"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "Motståndare utanför området kan inte se min vagn, men jag kan inte heller se deras"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "Platsen för kraftigt regn på kartan"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "Hur kraftigt regn ser ut"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "Påverkar gameplay på kartan för mycket"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "Påverkar gameplay på kartan för lite"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "Den visuella effekten för kraftigt regn stör striden"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "Kraftigt regn tvingar en till närstrid"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "Ett av lagen får en fördel"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "Det är för halt i området med kraftigt"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "Tekniska problem"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "Övrigt"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "Motståndare utanför området kan inte se min vagn, men jag kan inte heller se deras"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "Platsen för kraftigt regn på kartan"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "Hur kraftigt regn ser ut"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "Påverkar gameplay på kartan för mycket"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "Påverkar gameplay på kartan för lite"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "Den visuella effekten för kraftigt regn stör striden"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "Kraftigt regn tvingar en till närstrid"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "Ett av lagen får en fördel"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "Ja, det gjorde jag"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "Nej, det gjorde jag inte"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "Osäker"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "Jag tyckte om det"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "Det är okej"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "Jag tyckte inte om det"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "Osäker"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "Ja, det vill jag"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "Nej, det vill jag inte"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "Osäker"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "Gör effekten starkare"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "Gör effekten svagare"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "Gör effekten starkare"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "Gör effekten svagare"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "Pansarvärnskanonvagnar"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "Artillerivagnar"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "Tunga stridsvagnar"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "Lätta stridsvagnar"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "Medeltunga stridsvagnar"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "Kommer inte ihåg"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "Det blev bättre"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "Det blev sämre"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "Det påverkades inte"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "Osäker"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "Det blev bättre"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "Det blev sämre"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "Det påverkades inte"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "Osäker"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "Pansarvärnskanonvagnar"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "Artillerivagnar"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "Tunga stridsvagnar"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "Lätta stridsvagnar"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "Medeltunga stridsvagnar"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "Kommer inte ihåg"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "Det blev bättre"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "Det blev sämre"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "Det påverkades inte"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "Osäker"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "Det blev bättre"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "Det blev sämre"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "Det påverkades inte"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "Osäker"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "Nästa"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "Uppfattat!"
+
+msgid "survey/required"
+msgstr "Besvara frågan för att fortsätta."
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "Pansarvärnskanonvagnar"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "Artillerivagnar"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "Tunga stridsvagnar"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "Lätta stridsvagnar"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "Medeltunga stridsvagnar"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "Tyckte du om att spela på kartan Sand River med vädereffekten sandstorm?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "Vad tycker du om utseendet på sandstormarna på kartan Sand River?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "Skulle du vilja ändra hur sandstormarna på kartan påverkar gameplay Sand River?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "På vilket sätt skulle du vilja ändra hur sandstormarna påverkar gameplay på kartan Sand River?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "Vilka vagnstyper spelade du på kartan Sand River?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "Hur påverkades spelet för {value} på kartan Sand River?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "Hur påverkades spelet för {value} på kartan Sand River?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "Skulle du vilja att vi inkluderade sandstormar på kartor i slumpvis matchade strider?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "Vad tyckte du inte om med vädereffekten sandstorm på kartan Sand River?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "Ange vilka förbättringar du anser nödvändiga."
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "Ja, det gjorde jag"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "Nej, det gjorde jag inte"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "Osäker"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "Jag tyckte om det"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "Det är okej"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "Jag tyckte inte om det"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "Osäker"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "Ja, det vill jag"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "Nej, det vill jag inte"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "Osäker"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "Gör effekten starkare"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "Gör effekten svagare"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "Pansarvärnskanonvagnar"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "Artillerivagnar"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "Tunga stridsvagnar"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "Lätta stridsvagnar"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "Medeltunga stridsvagnar"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "Kommer inte ihåg"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "Det blev bättre"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "Det blev sämre"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "Det påverkades inte"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "Osäker"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "Det blev bättre"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "Det blev sämre"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "Det påverkades inte"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "Osäker"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "Ja, det vill jag"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "Nej, det vill jag inte"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "Osäker"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "Motståndare utanför området kan inte se min vagn, men jag kan inte heller se deras"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "Övrigt"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "Sandstormarnas plats på kartan"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "Utseendet på sandstormarna"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "Påverkar gameplay på kartan för mycket"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "Påverkar gameplay på kartan för lite"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "Sandstormens visuella effekt stör striden"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "Sandstormen tvingar en till närstrid"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "Ett av lagen får en fördel"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "Tekniska problem"
+
+msgid "survey/subTitle"
+msgstr "Tack för att du tar dig tid att delta i den här undersökningen! Den tar omkring två minuter att genomföra. Dina svar kommer endast användas för den här undersökningen och alla personuppgifter kommer raderas i enlighet med vår sekretesspolicy."
+
+msgid "survey/template/final/title"
+msgstr "Tack för att du tar dig tid att delta i den här undersökningen!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "KLICKA PÅ KARTAN FÖR ATT VÄLJA EN POSITION"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "DU KAN VÄLJA UPP TILL TRE POSITIONER PÅ KARTAN"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "Detaljerad beskrivning (upp till %(maxLength)s tecken)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "Position"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "Ta bort position"
+
+msgid "survey/template/opened/description"
+msgstr "Detaljerad beskrivning av problemet (upp till %(maxLength)s tecken)"
+
+msgid "survey/title/common"
+msgstr "Betygsätt de nya händelserna"
+
+msgid "survey/title/map"
+msgstr "Utvärdering av kartan %(map)s"

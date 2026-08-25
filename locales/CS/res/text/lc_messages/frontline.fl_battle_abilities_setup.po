@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Platí pro všechny {{icon}} {{type}}"
+
+msgid "header/points"
+msgstr "Body bojových záloh: {{value}}"
+
+msgid "header/title"
+msgstr "BOJOVÉ ZÁLOHY"
+
+msgid "infoPanel/category/firesupport"
+msgstr "Útočné zálohy"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "Průzkumné zálohy"
+
+msgid "infoPanel/category/tactics"
+msgstr "Taktické zálohy"
+
+msgid "infoPanel/category/title"
+msgstr "Kategorie: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "Ve scénáři {{@ colorLegacy 'FFE4C0'}}„Vrtochy osudu“{{/}} zvýší zakoupení bojové zálohy její úroveň o jednu a poskytne příležitost zálohu vylepšit na {{@ colorLegacy 'FFE4C0'}}IV.{{/}} úroveň."
+
+msgid "infoPanel/description/unlocked"
+msgstr "Ve scénáři {{@ colorLegacy 'FFE4C0'}}„Vrtochy osudu“{{/}} se o {{@ colorLegacy 'FFE4C0'}}10 %{{/}} zvýší pravděpodobnost, že bude každá bojová záloha umístěná do slotu před začátkem bitvy nabídnuta."
+
+msgid "infoPanel/level"
+msgstr "Úroveň:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}} m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}} %"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}} %/s"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}} s"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "Bojová záloha nezakoupena"
+
+msgid "infoPanel/status/unlocked"
+msgstr "Bojová záloha zakoupena"

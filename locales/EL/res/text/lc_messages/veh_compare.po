@@ -1,0 +1,467 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "addVehPopover/btnAdd"
+msgstr "Προσθήκη (%(count)d)"
+
+msgid "addVehPopover/btnCancel"
+msgstr "Άκυρο"
+
+msgid "addVehPopover/header"
+msgstr "Επιλογή Οχημάτων προς Σύγκριση"
+
+msgid "addVehPopover/showOnlyMyVahicles"
+msgstr "Προβολή Οχημάτων από το Γκαράζ"
+
+msgid "addVehPopover/tooltips/addToCompare/body"
+msgstr "Προσθήκη των επιλεγμένων οχημάτων για σύγκριση"
+
+msgid "addVehPopover/tooltips/addToCompare/header"
+msgstr "Προσθήκη"
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/body"
+msgstr "Για να προσθέσετε το όχημα προς σύγκριση, θα πρέπει να αφαιρέσετε οχήματα από τη λίστα σύγκρισης."
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/header"
+msgstr "Αδύνατη η Προσθήκη"
+
+msgid "addVehPopover/tooltips/inHangar/body"
+msgstr "Ταξινόμηση με βάση τα οχήματα στο Γκαράζ."
+
+msgid "addVehPopover/tooltips/inHangar/header"
+msgstr "Οχήματα στο Γκαράζ"
+
+msgid "addVehPopover/tooltips/level/body"
+msgstr "Ταξινόμηση με βάση τις Βαθμίδες των οχημάτων."
+
+msgid "addVehPopover/tooltips/level/header"
+msgstr "Οχήματα"
+
+msgid "addVehPopover/tooltips/nation/body"
+msgstr "Ταξινόμηση με βάση το Έθνος."
+
+msgid "addVehPopover/tooltips/nation/header"
+msgstr "Έθνος"
+
+msgid "addVehPopover/tooltips/selectVehicle/body"
+msgstr "Ταξινόμηση με βάση τα επιλεγμένα οχήματα."
+
+msgid "addVehPopover/tooltips/selectVehicle/header"
+msgstr "Επιλεγμένα Οχήματα"
+
+msgid "addVehPopover/tooltips/title/body"
+msgstr "Ταξινόμηση με βάση την ονομασία των οχημάτων."
+
+msgid "addVehPopover/tooltips/title/header"
+msgstr "Ονομασία"
+
+msgid "addVehPopover/tooltips/type/body"
+msgstr "Ταξινόμηση με βάση τον τύπο των οχημάτων."
+
+msgid "addVehPopover/tooltips/type/header"
+msgstr "Τύπος"
+
+msgid "addVehPopover/vehicleName"
+msgstr "Ονομασία"
+
+msgid "cartPopover/configurationType/basic"
+msgstr "Τυπική"
+
+msgid "cartPopover/configurationType/current"
+msgstr "Τρέχουσα"
+
+msgid "cartPopover/configurationType/custom"
+msgstr "Προσαρμοσμένη"
+
+msgid "cartPopover/configurationType/premium"
+msgstr "Προνομιακά"
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/attention"
+msgstr "Για να προσθέσετε όχημα προς σύγκριση, θα πρέπει να αφαιρέσετε μη σχετικά οχήματα από τη λίστα σύγκρισης."
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/header"
+msgstr "Αδύνατη η Προσθήκη"
+
+msgid "cartPopover/gotoCompareBtn/label"
+msgstr "(%(value)s) προς σύγκριση"
+
+msgid "cartPopover/openCmpBtn/tooltip/body"
+msgstr "Σύγκριση των επιλεγμένων οχημάτων."
+
+msgid "cartPopover/openCmpBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeAllBtn/label"
+msgstr "Καθαρισμός Λίστας"
+
+msgid "cartPopover/removeAllBtn/tooltip/body"
+msgstr "Αφαίρεση όλων των οχημάτων από τη λίστα σύγκρισης."
+
+msgid "cartPopover/removeAllBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtn/tooltip/body"
+msgstr "Κλικ για αφαίρεση οχήματος από τη λίστα σύγκρισης."
+
+msgid "cartPopover/removeBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtnLocked/tooltip/body"
+msgstr "Αδύνατη η αφαίρεση οχημάτων από τη λίστα σύγκρισης όταν το παράθυρο της διαμόρφωσης είναι ανοικτό."
+
+msgid "cartPopover/removeBtnLocked/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeLockedBtn/tooltip/body"
+msgstr "Αδύνατη η αφαίρεση του οχήματος από τη λίστα σύγκρισης όταν το παράθυρο της διαμόρφωσης είναι ανοικτό."
+
+msgid "cartPopover/removeLockedBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/sorting/nation/body"
+msgstr "Προβολή του έθνους των επιλεγμένων οχημάτων."
+
+msgid "cartPopover/sorting/nation/header"
+msgstr "Έθνος"
+
+msgid "cartPopover/sorting/vehLvl/body"
+msgstr "Προβολή της Βαθμίδας των επιλεγμένων οχημάτων."
+
+msgid "cartPopover/sorting/vehLvl/header"
+msgstr "Βαθμίδα"
+
+msgid "cartPopover/sorting/vehName"
+msgstr "Ονομασία"
+
+msgid "cartPopover/sorting/vehName/tooltip/body"
+msgstr "Προβολή της ονομασίας των επιλεγμένων οχημάτων."
+
+msgid "cartPopover/sorting/vehName/tooltip/header"
+msgstr "Ονομασία"
+
+msgid "cartPopover/sorting/vehType/body"
+msgstr "Προβολή του τύπου των επιλεγμένων οχημάτων."
+
+msgid "cartPopover/sorting/vehType/header"
+msgstr "Τύπος"
+
+msgid "cartPopover/title"
+msgstr "Λίστα Σύγκρισης"
+
+msgid "compareVehicleBtn/tooltips/disabledOnServer/attention"
+msgstr "Η συγκεκριμένη λειτουργία δεν είναι διαθέσιμη προσωρινά."
+
+msgid "header/closeBtn/label"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "menu/cloneForCompare"
+msgstr "Αντιγραφή για σύγκριση"
+
+msgid "modulesView/closeBtnLabel"
+msgstr "Άκυρο"
+
+msgid "modulesView/closeBtnLabel/tooltip/body"
+msgstr "Ακύρωση της τρέχουσας διάταξης των εξαρτημάτων και κλείσιμο του παραθύρου."
+
+msgid "modulesView/closeBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/compareBtnLabel"
+msgstr "Αποδοχή"
+
+msgid "modulesView/compareBtnLabel/tooltip/body"
+msgstr "Κλικ για αποθήκευση της διάταξης των εξαρτημάτων γι αυτό το όχημα."
+
+msgid "modulesView/compareBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/resetBtnLabel"
+msgstr "Επαναφορά"
+
+msgid "modulesView/resetBtnLabel/tooltip/body"
+msgstr "Κλικ για επαναφορά του εξοπλισμού στην αρχική διαμόρφωση."
+
+msgid "modulesView/resetBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/title"
+msgstr "Διαμόρφωση Εξαρτημάτων του %(vehName)s"
+
+msgid "modulesView/vehicleStatus/inHangar"
+msgstr "Στο Γκαράζ"
+
+msgid "modulesView/vehicleStatus/readyToBuy"
+msgstr "Δεν έχει αγοραστεί"
+
+msgid "modulesView/vehicleStatus/readyToResearch"
+msgstr "Δεν έχει ανακαλυφθεί"
+
+msgid "skillSelect/bonusSkills"
+msgstr "Πρόσθετες ικανότητες"
+
+msgid "skillSelect/button/addToCompare"
+msgstr "Σύγκριση"
+
+msgid "skillSelect/button/cancel"
+msgstr "Άκυρο"
+
+msgid "skillSelect/button/restore"
+msgstr "Αποκατάσταση"
+
+msgid "skillSelect/majorSkills"
+msgstr "Ικανότητες κύριας ειδικότητας"
+
+msgid "skillSelect/tooltip/additionalRoles"
+msgstr "Πρόσθετη ικανότητα:"
+
+msgid "skillSelect/tooltip/generalPrinciple"
+msgstr "Γενικές Αρχές"
+
+msgid "skillSelect/tooltip/generalPrincipleDescription"
+msgstr "Η οθόνη διαμόρφωσης δείχνει πως μία ικανότητα επιδρά στα χαρακτηριστικά του οχήματος όταν έχει φτάσει στο {cream_Open}100%{cream_Close} και η επίδραση ικανοτήτων είναι στο {cream_Open}100%{cream_Close}."
+
+msgid "skillSelect/tooltip/heading"
+msgstr "Ικανότητες πληρώματος για το %(vehicleName)s"
+
+msgid "skillSelect/tooltip/roles"
+msgstr "Ειδικότητες"
+
+msgid "skillSelect/tooltipHint"
+msgstr "*Αν πάτε το ποντίκι σας πάνω από μία ικανότητα θα δείτε πως αυτή επιδρά στα χαρακτηριστικά του οχήματος όταν έχει φτάσει στο 100% και η επίδραση ικανοτήτων είναι στο 100%."
+
+msgid "skillsConf/empty"
+msgstr "Επιλογή Ικανοτήτων Πληρώματος"
+
+msgid "skillsConf/emptyTooltip/body"
+msgstr "Επιλέξτε ικανότητες πληρώματος για να δείτε πως επιδρούν στα χαρακτηριστικά του οχήματος"
+
+msgid "skillsConf/emptyTooltip/header"
+msgstr "Ικανότητες Πληρώματος"
+
+msgid "skillsConf/header"
+msgstr "Ικανότητες Πληρώματος"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "Σύγκριση"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "Δεν μπορείτε να προσθέσετε αυτό το όχημα για σύγκριση."
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/disabled/body"
+msgstr "Για να προσθέσετε και άλλα οχήματα προς σύγκριση, θα πρέπει να αφαιρέσετε μερικά οχήματα από τη λίστα σύγκρισης."
+
+msgid "store/compareVehicleBtn/tooltips/disabled/header"
+msgstr "Αδύνατη η Προσθήκη για Σύγκριση"
+
+msgid "techTree/tooltips/addToCompare/body"
+msgstr "Προσθήκη για Σύγκριση"
+
+msgid "techTree/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehConf/applyBtnLabel"
+msgstr "Εφαρμογή"
+
+msgid "vehConf/btnCleanUp"
+msgstr "Εκκαθάριση"
+
+msgid "vehConf/cancelBtnLabel"
+msgstr "Άκυρο"
+
+msgid "vehConf/cancelBtnLabel/tooltip/body"
+msgstr "Κλικ για ακύρωση της επιλεγμένης διαμόρφωσης και επιστροφή στη σύγκριση."
+
+msgid "vehConf/cancelBtnLabel/tooltip/header"
+msgstr "Άκυρο"
+
+msgid "vehConf/compareBtnLabel/tooltip/body"
+msgstr "Κλικ για αποθήκευση της επιλεγμένης διαμόρφωσης και επιστροφή στη σύγκριση."
+
+msgid "vehConf/compareBtnLabel/tooltip/header"
+msgstr "Εφαρμογή"
+
+msgid "vehConf/confAvailable"
+msgstr "ΔΙΑΘΕΣΙΜΗ\nΔΙΑΜΟΡΦΩΣΗ"
+
+msgid "vehConf/doesntAffect"
+msgstr "Δεν επηρεάζει τα απλοποιημένα τεχνικά χαρακτηριστικά"
+
+msgid "vehConf/equipment"
+msgstr "Εξοπλισμός και αναλώσιμα"
+
+msgid "vehConf/header"
+msgstr "Διαμόρφωση του %(vehName)s"
+
+msgid "vehConf/modifications/choose"
+msgstr "Επιλογή Τροποποιήσεων"
+
+msgid "vehConf/modifications/title"
+msgstr "Τροποποιήσεις"
+
+msgid "vehConf/modules"
+msgstr "Εξαρτήματα"
+
+msgid "vehConf/resetBtnLabel"
+msgstr "Επαναφορά"
+
+msgid "vehConf/resetBtnLabel/tooltip/body"
+msgstr "Κλικ για επαναφορά της προκαθορισμένης διαμόρφωσης του οχήματος."
+
+msgid "vehConf/resetBtnLabel/tooltip/header"
+msgstr "Επαναφορά"
+
+msgid "vehConf/tooltips/btnCleanUp/body"
+msgstr "Κλικ για αφαίρεση του επιλεγμένου εξοπλισμού από τη διαμόρφωση."
+
+msgid "vehConf/tooltips/btnCleanUp/header"
+msgstr "Εκκαθάριση"
+
+msgid "vehConf/tooltips/camoInfo"
+msgstr "Αυξάνει τη δυνατότητα κάλυψης του οχήματός σας σε χάρτη κάθε τύπου εφαρμόζοντας κατάλληλο καμουφλάζ για καλοκαίρι, χειμώνα και έρημο."
+
+msgid "vehConf/tooltips/camoInfoDisabled/body"
+msgstr "Αυτό το καμουφλάζ για κάθε εποχή είναι ένα αναπόσπαστο στοιχείο του οχήματος. Δεν μπορεί να αφαιρεθεί ή να αντικατασταθεί."
+
+msgid "vehConf/tooltips/camoInfoDisabled/header"
+msgstr "Καμουφλάζ Όλων Των Εποχών"
+
+msgid "vehConf/tooltips/camoTitle"
+msgstr "Καμουφλάζ"
+
+msgid "vehConf/tooltips/defCamoInfo"
+msgstr "3 τύποι καμουφλάζ έχουν τοποθετηθεί\nκαι δεν γίνεται να αφαιρεθούν: για χειμώνα, καλοκαίρι και έρημο."
+
+msgid "vehConf/tooltips/deviceNotAffectedTTC"
+msgstr "Δεν επηρεάζει τα τεχνικά χαρακτηριστικά του οχήματος"
+
+msgid "vehConf/tooltips/modifications/description"
+msgstr "Επιλέξτε τροποποιήσεις που αλλάζουν τα τεχνικά χαρακτηριστικά του οχήματος σύμφωνα με τον ρόλο του στη μάχη."
+
+msgid "vehConf/tooltips/modifications/remove"
+msgstr "Ακύρωση όλων των τροποποιήσεων"
+
+msgid "vehConf/tooltips/modifications/title"
+msgstr "Πάνελ Τροποποιήσεων"
+
+msgid "vehConf/tooltips/revertBtn/body"
+msgstr "Κλικ για επαναφορά της προκαθορισμένης διαμόρφωσης του οχήματος."
+
+msgid "vehConf/tooltips/revertBtn/header"
+msgstr "?empty?"
+
+msgid "vehConf/tooltips/topModulesLabel/body"
+msgstr "Δεν υπάρχουν άλλα διαθέσιμα εξαρτήματα γι αυτό το όχημα: η διαμόρφωση είναι οριστική."
+
+msgid "vehConf/tooltips/topModulesLabel/header"
+msgstr "Κορυφαία Διαμόρφωση"
+
+msgid "vehConf/tooltips/topModulesOff/body"
+msgstr "Κλικ για επιλογή των καλύτερων εξαρτημάτων γι αυτό το όχημα."
+
+msgid "vehConf/tooltips/topModulesOff/header"
+msgstr "Κορυφαία Διαμόρφωση"
+
+msgid "vehConf/tooltips/topModulesOn/body"
+msgstr "Κλικ για να ακυρώσετε την επιλογή της κορυφαίας διαμόρφωσης."
+
+msgid "vehConf/tooltips/topModulesOn/header"
+msgstr "Κορυφαία Διαμόρφωση"
+
+msgid "vehConf/topModulesBtnLabel"
+msgstr "Επιλογή Κορυφαίας Διαμόρφωσης"
+
+msgid "vehConf/topModulesLabel"
+msgstr "Κορυφαία Διαμόρφωση"
+
+msgid "vehPreview/compareInfo/addToCompare"
+msgstr "Προσθήκη για Σύγκριση—"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "Προσθήκη για Σύγκριση"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "Δεν μπορείτε να προσθέσετε αυτό το όχημα για σύγκριση."
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/body"
+msgstr "Για να προσθέσετε το όχημα προς σύγκριση, θα πρέπει να αφαιρέσετε οχήματα από τη λίστα σύγκρισης."
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/header"
+msgstr "Αδύνατη η Προσθήκη"
+
+msgid "vehicleCompareView/btnAddVehicles"
+msgstr "Προσθήκη για Σύγκριση"
+
+msgid "vehicleCompareView/configurationType/basic"
+msgstr "Τυπική"
+
+msgid "vehicleCompareView/configurationType/current"
+msgstr "Τρέχουσα"
+
+msgid "vehicleCompareView/configurationType/custom"
+msgstr "Προσαρμοσμένη"
+
+msgid "vehicleCompareView/configure"
+msgstr "Διαμόρφωση"
+
+msgid "vehicleCompareView/toHangar"
+msgstr "Προβολή στο Γκαράζ"
+
+msgid "vehicleCompareView/toPreview"
+msgstr "Προεπισκόπηση"
+
+msgid "vehicleCompareView/tooltips/addVehicles/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/addVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/configure/body"
+msgstr "Κλικ για επιλογή των παραμέτρων που έχουν επίδραση στα τεχνικά χαρακτηριστικά."
+
+msgid "vehicleCompareView/tooltips/configure/header"
+msgstr "Καθορισμός Παραμέτρων"
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/body"
+msgstr "Κλικ για αφαίρεση όλων των οχημάτων από τη σύγκριση."
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/body"
+msgstr "Αφαίρεση από τη σύγκριση."
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/topPanel/noVehicle"
+msgstr "Δεν επιλέχθηκαν οχήματα"
+
+msgid "vehicleCompareView/topPanel/premium"
+msgstr "Προνομιακά"
+
+msgid "vehicleCompareView/topPanel/vehiclesCount"
+msgstr "Οχήματα προς σύγκριση: %(count)s"

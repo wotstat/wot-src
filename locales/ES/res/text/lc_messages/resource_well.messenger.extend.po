@@ -1,0 +1,50 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "serviceChannelMessages/resourceWell/enabled/text"
+msgstr "¡La Tienda de montaje vuelve a estar abierta!"
+
+msgid "serviceChannelMessages/resourceWell/end/text"
+msgstr "Vamos a empezar a trabajar en nuestro próximo proyecto. Te informaremos cuando terminemos el desarrollo. ¡Nos vemos pronto!"
+
+msgid "serviceChannelMessages/resourceWell/end/title"
+msgstr "La Tienda de montaje va a cerrar"
+
+msgid "serviceChannelMessages/resourceWell/noSerialVehicles/text"
+msgstr "Entrega de vehículos con números completada. Empezamos el montaje del %(vehicle)s en configuración estándar. Date prisa, ¡el número de vehículos es limitado!"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/text"
+msgstr "Montaje de vehículos completado. Todos los vehículos se han entregado a sus propietarios."
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/title"
+msgstr "Informe de la Tienda de montaje"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/twoParallelProducts/text"
+msgstr "Entrega de %(soldOutVehicle)s completada. Todavía puedes comprar el %(availableVehicle)s. Si has gastado recursos, pero no has completado la compra a tiempo, se te devolverán a la cuenta próximamente. Date prisa, ¡hay un número limitado de vehículos!"
+
+msgid "serviceChannelMessages/resourceWell/noVehiclesWithReturn/text"
+msgstr "Montaje de vehículos completado. Todos los vehículos se han entregado a sus propietarios. Todos los recursos gastados volverán a tu cuenta próximamente."
+
+msgid "serviceChannelMessages/resourceWell/oneVehicleStart/text"
+msgstr "Comandante, tienes la posibilidad de hacerte con el %(vehicle)s con un estilo 3D numerado. ¡La cantidad de vehículos es limitada!"
+
+msgid "serviceChannelMessages/resourceWell/pause/text"
+msgstr "La Tienda de montaje no está disponible temporalmente, por mantenimiento."
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/additionalText"
+msgstr "Número de estilo: %(serialNumber)s"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/text"
+msgstr "Has recibido el %(vehicle)s único de la Tienda de montaje."
+
+msgid "serviceChannelMessages/resourceWell/reward/title"
+msgstr "¡%(vehicle)s recibido!"
+
+msgid "serviceChannelMessages/resourceWell/reward/vehicle/text"
+msgstr "Has recibido el %(vehicle)s de la Tienda de montaje."
+
+msgid "serviceChannelMessages/resourceWell/start/title"
+msgstr "La Tienda de montaje va a abrir"
+
+msgid "serviceChannelMessages/resourceWell/twoVehiclesStart/text"
+msgstr "¡Comandante, tienes la oportunidad de hacerte con el %(firstVehicle)s y el %(secondVehicle)s! Pero date prisa, ¡las existencias son limitadas!"

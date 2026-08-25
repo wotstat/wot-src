@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Plan"
+
+msgid "animations/crew_close"
+msgstr "FERMER"
+
+msgid "animations/shop"
+msgstr "Passer à l'achat"
+
+msgid "battleMattersTab"
+msgstr "Académie des blindés"
+
+msgid "battleResults/descr"
+msgstr "Académie des blindés : {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Aux missions de l'Académie des blindés"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Progression dans cette bataille"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Annuler"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "FERMER"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Confirmer"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Vous recevrez le {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} avec un équipage et une place de garage."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Échanger votre Jeton de l'Académie contre le %(vehicleName)s ?"
+
+msgid "entryPoint/hint"
+msgstr "UNE SÉRIE DE\nMISSIONS D'ENTRAÎNEMENT"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Missions accomplies : {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Académie des blindés"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Récompense d'accomplissement :"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Les missions sont actuellement indisponibles en raison de problèmes techniques. Votre progression concernant les missions accomplies sera conservée."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Toutes les missions ont été accomplies"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Les missions sont temporairement indisponibles"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Conditions :"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Échangez un jeton contre n'importe quel véhicule de rang VI à rechercher."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "RETOUR"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "AUX MISSIONS DE L'ACADÉMIE DES BLINDÉS"
+
+msgid "mainRewardsScreen/done"
+msgstr "Dans le garage"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Aperçu"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Jours de location : %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Accomplissez une série de missions d'entraînement pour recevoir trois véhicules premium de rang VIII en location pendant {cream_Open}14 jours{cream_Close} comme récompense principale."
+
+msgid "mainRewardsScreen/title"
+msgstr "ACADÉMIE DES BLINDÉS"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Sélectionner"
+
+msgid "mainScreen/infoButton"
+msgstr "GUIDE POUR LES DÉBUTANTS"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "GUIDE"
+
+msgid "mainScreen/list/arrow"
+msgstr "Cliquez pour aller à la mission actuelle."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Récompense principale reçue"
+
+msgid "mainScreen/progress"
+msgstr "Missions accomplies : %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Comment accomplir"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Terminez la mission précédente"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Indisponible"
+
+msgid "mainScreen/showMainReward"
+msgstr "Voir la récompense principale"
+
+msgid "mainScreen/target"
+msgstr "Accomplissez toutes les missions pour recevoir trois véhicules de rang VIII en location."
+
+msgid "mainScreen/title"
+msgstr "ACADÉMIE DES BLINDÉS"
+
+msgid "pausedScreen/buttonText"
+msgstr "Au garage"
+
+msgid "pausedScreen/description"
+msgstr "L'Académie des blindés est temporairement indisponible pour des raisons techniques. Toute la progression sera conservée. Nous nous excusons de la gêne occasionnée."
+
+msgid "pausedScreen/title"
+msgstr "Temporairement indisponible"
+
+msgid "rewards/additionalTitle"
+msgstr "Vous avez également reçu :"
+
+msgid "rewards/footer/confirm"
+msgstr "Affirmatif !"
+
+msgid "rewards/footer/more"
+msgstr "En plus : %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "À la mission suivante"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Voir dans le garage"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Les conditions de la mission ont été remplies auparavant"
+
+msgid "rewards/rent"
+msgstr "Jours de location : %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "MISSION FINALE ACCOMPLIE"
+
+msgid "rewards/subTitle/regular"
+msgstr "MISSION %(questNumber)s ACCOMPLIE"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "VÉHICULE CONTRE LE JETON DE L'ACADÉMIE REÇU"
+
+msgid "rewards/title"
+msgstr "ACADÉMIE DES BLINDÉS"
+
+msgid "rewards/token/action"
+msgstr "Sélectionnez un véhicule"
+
+msgid "rewards/token/description"
+msgstr "Utilisez un jeton pour recevoir instantanément n'importe quel véhicule de rang VI."
+
+msgid "rewards/token/title"
+msgstr "Échanger un Jeton de l'Académie contre un véhicule"
+
+msgid "tokenTooltip/condition"
+msgstr "Les Jetons sont décernés en terminant une série de missions d'entraînement et en réalisant la progression nécessaire dans l'Académie des blindés."
+
+msgid "tokenTooltip/description"
+msgstr "Les Jetons s'échangent contre n'importe quel véhicule de rang VI à rechercher. Ce véhicule est livré avec un équipage et une place de garage."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Jeton disponible : {cream_open}%(days)s j{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Jeton disponible jusqu'au : {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Jeton disponible : {cream_open}%(hours)s h{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Jeton disponible : {cream_open}%(minutes)s min{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Jeton de l'Académie"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Vous recevrez un {cream_Open}%(crewIcon)s équipage{cream_Close} et une {cream_Open}%(hangarIcon)s place de {cream_Close} {cream_Open}garage{cream_Close} en plus de votre véhicule."
+
+msgid "vehicleSelection/back"
+msgstr "RETOUR"
+
+msgid "vehicleSelection/backTo"
+msgstr "AUX MISSIONS DE L'ACADÉMIE DES BLINDÉS"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Ajouter à la comparaison"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Configurez l'affichage des véhicules par leur type et nation."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Filtrer par paramètres"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Cliquez pour réinitialiser les paramètres du filtre par défaut."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Mettre par défaut"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Nation"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Filtrer par paramètres"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Type de véhicule"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Aucun résultat. Changez vos paramètres de filtrage ou réinitialisez-les."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Réinitialiser les filtres"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Vous avez recherché tous les véhicules de rang VI à obtenir en échange d'un Jeton de l'Académie."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Aucun véhicule à sélectionner"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Chercher par nom"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "Le nom du véhicule ne peut pas contenir plus de %(maxLength)s caractères."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Chercher par nom"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Affichés :"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Échangez un jeton contre n'importe quel véhicule de rang VI recherchable. Ce véhicule est livré avec\nun équipage et une place de garage."
+
+msgid "vehicleSelection/title"
+msgstr "Sélectionnez n'importe quel véhicule de rang VI à rechercher"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Chasseur de chars"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "Canon automoteur"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Char lourd"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Char léger"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Char moyen"

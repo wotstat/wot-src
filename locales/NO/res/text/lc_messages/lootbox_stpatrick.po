@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Tilbake til esker"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "SMARAGDESKE"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "SMARAGDESKE"
+
+msgid "common/getButton/lowerCase"
+msgstr "Få esker"
+
+msgid "common/getButton/upperCase"
+msgstr "FÅ ESKER"
+
+msgid "common/loader"
+msgstr "Åpning av eske..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Åpne esker for å se statistikk."
+
+msgid "common/statistics/header"
+msgstr "Åpnede esker: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "All informasjon om åpnede esker vil bli slettet."
+
+msgid "entryPoint/boxes"
+msgstr "TIL ESKER"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Disse spesialeskene inneholder premiumkjøretøy, 3D vedheng, credits og andre verdifulle enheter til bruk i spillet.\nDu kan få dem i butikken i spillet."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Esker kan ikke åpnes eller kjøpes akkurat nå av tekniske årsaker. Vi beklager den midlertidige ulempen."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Esker er midlertidig utilgjengelig"
+
+msgid "eventName/lowerCase"
+msgstr "Strålende grønn"
+
+msgid "eventName/upperCase"
+msgstr "STRÅLENDE GRØNN"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garantert belønning i den neste esken!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maksimalt antall esker før en garantert belønning: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Dersom du ikke åpner esker før eventet er over, blir de åpnet automatisk."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Dersom du allerede eier alle kjøretøyene fra listen over mulig innhold i eskene, vil alle påfølgende kjøretøy du får fra eskene bli kompensert med gull tilsvarende deres fulle verdi."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Hver %(guaranteed0)s. eske garanteres å inneholde et kjøretøy på nivå 8–9. Dersom du åpner dem uten at et slikt kjøretøy blir sluppet, så vil et kjøretøy på nivå 8–9, som du ikke har fra før, bli sluppet når du åpner den %(guaranteed0)s.&zwnbsp;esken. Når den så slipper et kjøretøy, nullstilles telleren."
+
+msgid "infoPage/header/description"
+msgstr "Åpne esken for sjansen til å få verdifulle enheter til bruk i spillet! Se flere detaljer under."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Fra %(name) (%(boxesCount) åpnede esker)"
+
+msgid "noBoxesView/description/"
+msgstr "Du har ingen esker.\nDu kan få dem i butikken i spillet."
+
+msgid "preview/backLabel"
+msgstr "TIL ESKER"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Tilgjengelige esker: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Ingen tilgjengelige esker"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Dersom du allerede eier alle kjøretøyene fra listen over mulig innhold i eskene, vil alle påfølgende kjøretøy du får fra eskene bli kompensert med gull."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) eske"
+msgstr[1] "%(remainingCount) esker"
+msgstr[2] "%(remainingCount) esker"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Den garanterte belønningen er et kjøretøy fra listen over mulig innhold i eskene.\nDersom du åpner %(remainingCount) uten å få et slikt kjøretøy, får du den når du åpner den %(count). esken. Når den gjør det, nullstilles telleren."

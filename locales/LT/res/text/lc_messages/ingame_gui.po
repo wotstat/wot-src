@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: <translator name> <<translator email>>\nLanguage-Team: <language team name> <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "Artilerijos salvė"
+
+msgid "attackReason/artillery_sector"
+msgstr "Artilerijos salvė"
+
+msgid "attackReason/bombers"
+msgstr "Aviasmūgis"
+
+msgid "battleCommunication/hint/description"
+msgstr "norėdami nurodyti poziciją ar padėti žymeklį"
+
+msgid "battleCommunication/hint/press"
+msgstr "Paspauskite"
+
+msgid "battleEndWarning/text"
+msgstr "Iki pabaigos:"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "Šio žaidėjo teksto ir balso žinutės šiame mūšyje bus nerodomos."
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "Užblokuoti pranešimus iš žaidėjo"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "Žinutės iš juodajame sąraše esančių žaidėjų yra blokuojamos."
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "Veiksmas negalimas"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "Šio žaidėjo teksto ir balso žinutės\nbus vėl pasiekiamos."
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "Atblokuoti žinutes iš šio žaidėjo"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "Techninė problema gaunant kovinių zonų informaciją."
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "Šiame žemėlapyje jūsų mašinos kovinių zonų informacija nepasiekiama."
+
+msgid "battleProgress/hint/description"
+msgstr "peržiūrėti asmenines užduotis"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "Nenurodyti svarbiausi mygtukai"
+
+msgid "battleProgress/hint/press"
+msgstr "Spauskite"
+
+msgid "battle_notifier/lose"
+msgstr "Pralaimėjimas!"
+
+msgid "battle_notifier/tie"
+msgstr "Lygiosios!"
+
+msgid "battle_notifier/win"
+msgstr "Pergalė!"
+
+msgid "bot/boss"
+msgstr "Bosas"
+
+msgid "bot/elite"
+msgstr "Elitinis"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "ŽALOS PERSPĖJIMAS"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "PAŽEISTAS VARIKLIS"
+
+msgid "chat_example/affirmative"
+msgstr "Tikrai taip!"
+
+msgid "chat_example/attack_enemy"
+msgstr "Koncentruojam ugnį į <Priešo vardas>!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "Atakuoju <Priešo vardas>!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "Užimkite bazę!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "Ginkite bazę!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "Dėmesio į <Sektorius žemėlapyje>!"
+
+msgid "chat_example/attention_to_position"
+msgstr "Dėmesio į poziciją!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "Sunaikinkite taikinius"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "Saugokite savo tankus!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "Užimkite zoną"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "Ginkite taikinius"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "Saugokite savo tankus!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "Ginkite zonas"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "Pastiprinkite zoną"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "Pastiprinkite zoną"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "Pastiprinkite zoną"
+
+msgid "chat_example/going_there"
+msgstr "Važiuoju čia!"
+
+msgid "chat_example/help_me"
+msgstr "Reikia pastiprinimo!"
+
+msgid "chat_example/help_me_ex"
+msgstr "<Saviškio vardas>, padėk!"
+
+msgid "chat_example/negative"
+msgstr "Nepritariu!"
+
+msgid "chat_example/overheated_gun"
+msgstr "Pabūklas perkaito! Negalėsite šaudyti <Reload Time> s"
+
+msgid "chat_example/positive"
+msgstr "Tikrai taip!"
+
+msgid "chat_example/reloading_cassette"
+msgstr "Pasiruošęs šauti po <Užsitaisymo laikas> sek., sviedinių kasetėje: <Sviedinių skaičius> vnt."
+
+msgid "chat_example/reloading_gun"
+msgstr "Užsitaisinėju! Liko <Užsitaisymo laikas> sek.!"
+
+msgid "chat_example/reloading_ready"
+msgstr "Pasiruošęs šauti!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "Pasiruošęs šauti! Sviedinių kasetėje: <Sviedinių skaičius> vnt."
+
+msgid "chat_example/reloading_unavailable"
+msgstr "Amunicijos nebėra."
+
+msgid "chat_example/spg_aim_area"
+msgstr "Taikausi į <Sektorius minižemėlapyje>!"
+
+msgid "chat_example/supporting_ally"
+msgstr "<Saviškio vardas>, aš tau padėsiu!"
+
+msgid "chat_example/thanks"
+msgstr "<Saviškio vardas>, ačiū!"
+
+msgid "chat_example/turn_back"
+msgstr "<Saviškio vardas>, atgal!"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "Tikrai taip!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "Koncentruojam ugnį į %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "Pasiruošęs šauti! Atakuoju %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "Nebėra amunicijos! Koncentruojam ugnį į %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "Atakuoju %(target)s! Užsitaisinėju, liko %(reloadTime)d sek.!"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "Aš užimsiu bazę!"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "Aš imu bazę %(strArg1)s!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "Atakuoju %(target)s!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "Užimkite bazę!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "Užimkite bazę %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "Ginkite bazę!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "Ginkite bazę %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "Dėmesio į %(cellName)s!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Sunaikinkite taikinį %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "Aš atakuoju taikinį %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Ginkite taikinį %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "Aš ginu taikinį %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Dėmesio į poziciją!"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "Dėmesio į %(gridId)s"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "Aš ginsiu bazę!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "Aš ginu bazę %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "Sunaikinkite taikinius!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "Mes turim užtektinai laiko, išsaugokite tankus!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "Laikas baigiasi, užimkite zoną nepaisydami nuostolių!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "Ginkite taikinius!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "Mes turime atsilaikyti, išsaugokite tankus!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "Laikas baigiasi, ginkite zonas iš visų jėgų!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "Zonoje %(strArg1)s reikia pastiprinimo!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "Zonoje %(strArg1)s reikia pastiprinimo!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "Zonoje %(strArg1)s reikia pastiprinimo!"
+
+msgid "chat_shortcuts/going_there"
+msgstr "Važiuoju į poziciją!"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "Važiuoju į %(gridId)s"
+
+msgid "chat_shortcuts/help_me"
+msgstr "Reikia pastiprinimo!"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s, padėk!"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "Važiuokite link taikinio: %(target)s"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "Aš važiuoju link taikinio: %(target)s!"
+
+msgid "chat_shortcuts/negative"
+msgstr "Nepritariu!"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "Pabūklas perkaito! Negalėsite šaudyti %(floatArg1)d s"
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s, supratau!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "Pasiruošęs šauti po %(floatArg1)d sek., sviedinių kasetėje: %(int32Arg1)s vnt."
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "Užsitaisinėju! Liko %(floatArg1)d sek.!"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "Pasiruošęs šauti!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "Pasiruošęs šauti! Sviedinių kasetėje: %(int32Arg1)s vnt."
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "Amunicijos nebėra."
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "Taikausi į poziciją. Pasiruošęs šauti!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "Stebiu %(gridId)s! Nebėra amunicijos!"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "Taikausi į %(gridId)s. Pasiruošęs šauti!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "Taikausi į poziciją. Užsitaisinėju, liko %(reloadTime)d sek.!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "Taikausi į %(gridId)s. Užsitaisinėju, liko %(reloadTime)d sek.!"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s, Aš tau padėsiu!"
+
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s, ačiū!"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s, atgal!"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "Pereiti į nustatymus"
+
+msgid "commanderCam/hint/description"
+msgstr "Nutolinkite vaizdą norėdami pereiti į taktinį vaizdą"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "Atsistatymo laikas: %(cooldownSeconds)s s"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "Ekipuotės langelis"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "km/h"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "ŠM"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "PŠM"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "SF"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "SF"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "KS"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "Vadas sužeistas. Techninės charakteristikos suprastėjo."
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "Vadas"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "Vairuotojas sužeistas. Sumažėjo važiavimo ir bokštelio sukimosi greitis."
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "Vairuotojas"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "Šaulys sužeistas. Taiklumas sumažėjo."
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "Šaulys"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "Antrasis šaulys sužeistas. Taiklumas sumažėjo."
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "Antrasis šaulys"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "Užtaisytojas sužeistas. Padidėjo užtaisymo trukmė."
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "Užtaisytojas"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "Antrasis užtaisytojas sužeistas. Padidėjo užtaisymo trukmė."
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "Antrasis užtaisytojas"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "Radistas sužeistas. Sumažėjo radijo ryšio nuotolis."
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "Radistas"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "Antrasis radistas sužeistas. Sumažėjo radijo ryšio nuotolis."
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "Antrasis radistas"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "Amunicijos skyrius pažeistas. Padidėjo užtaisymo trukmė."
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "Amunicijos skyrius sprogo."
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "Amunicijos skyrius nepažeistas."
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "Važiuoklė pažeista."
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "Negalime judėti: važiuokle sunaikinta."
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "Važiuoklė nepažeista."
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "Variklis pažeistas. Galingumas sumažėjo."
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "Negalime judėti: variklis sunaikintas."
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "Variklis sveikas."
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "Kuro bakas pažeistas."
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "Kuro bakas sunaikintas."
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "Kuro bakas nepažeistas."
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "Pabūklas pažeistas. Taiklumas sumažėjo."
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "Pabūklas sunaikintas. Negalime šaudyti."
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "Ginklas nepažeistas."
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "Radio siųstuvas pažeistas."
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "Radio siųstuvas sunaikintas. Sumažėjo radijo ryšio nuotolis."
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "Radio siųstuvas nepažeistas."
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "Apžvalgos prietaisai pažeisti."
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "Apžvalgos prietaisai sunaikinti. Sumažėjo apžvalgos atstumas."
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "Apžvalgos prietaisai veikia."
+
+msgid "damage_panel/devices/track/critical"
+msgstr "Važiuoklė pažeista."
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "Negalime judėti: važiuokle sunaikinta."
+
+msgid "damage_panel/devices/track/normal"
+msgstr "Važiuoklė nepažeista."
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "Bokštelis pažeistas. Sukimosi greitis sumažėjo."
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "Sukimas neįmanomas: bokštelis sunaikintas."
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "Bokštelis nepažeistas."
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "Važiuoklė pažeista."
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "Sustabdyta: važiuoklė sunaikinta."
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "Važiuoklė sveika."
+
+msgid "danger_zone/indicator"
+msgstr "Jūsų mašina gali būti sunaikinta – palikite pavojaus zoną!"
+
+msgid "destroyTimer/liftOver"
+msgstr "Vėl ant vikšrų..."
+
+msgid "devMaps/hint/description"
+msgstr "norėdami peržiūrėti žemėlapio ypatybes"
+
+msgid "devMaps/hint/press"
+msgstr "Paspauskite"
+
+msgid "devMaps/mapInfo/info"
+msgstr "Šiame žemėlapyje gali įvykti atsitiktiniai įvykiai. Tokius žemėlapius galima išimti žaidimo nustatymus."
+
+msgid "devMaps/mapInfo/text"
+msgstr "Žemėlapis su atsitiktiniais įvykiais"
+
+msgid "devices/ammo_bay"
+msgstr "amunicijos skyrius"
+
+msgid "devices/chassis"
+msgstr "važiuoklė"
+
+msgid "devices/engine"
+msgstr "variklis"
+
+msgid "devices/fuel_tank"
+msgstr "kuro bakas"
+
+msgid "devices/gun"
+msgstr "pabūklas"
+
+msgid "devices/left_track"
+msgstr "kairysis vikšras"
+
+msgid "devices/radio"
+msgstr "radio siųstuvas"
+
+msgid "devices/right_track"
+msgstr "dešinysis vikšras"
+
+msgid "devices/surveing_device"
+msgstr "apžvalgos prietaisai"
+
+msgid "devices/track"
+msgstr "%(type)s vikšras"
+
+msgid "devices/track/left"
+msgstr "Kairysis"
+
+msgid "devices/track/main"
+msgstr "Rezervinis"
+
+msgid "devices/track/outer"
+msgstr "Pagrindinis"
+
+msgid "devices/track/right"
+msgstr "Dešinysis"
+
+msgid "devices/turret_rotator"
+msgstr "bokštelio sukimasis"
+
+msgid "devices/wheel"
+msgstr "ratas"
+
+msgid "distance/meters"
+msgstr "%(meters)d m"
+
+msgid "dynamicSquad/ally/add"
+msgstr "Paspauskite norėdami pakviesti žaidėją į būrį.\nŽaidėjas gali priimti kvietimą būdamas mūšyje arba mūšiui pasibaigus.%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\nDėmesio! Jūsų tikras žaidimo vardas ir klano žyma bus rodomi būrio nariams."
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\nDėmesio! Jūsų tikras žaidimo vardas bus rodomi būrio nariams."
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "Šio sąjungininko negalima pakviesti į būrį."
+
+msgid "dynamicSquad/ally/received"
+msgstr "Paspauskite norėdami priimti kvietimą į būrį.\nBūrys bus sukurtas mūšio metu."
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "Žaidėjui buvo išsiųstas kvietimas.\nJeigu jis priims kvietimą, tai į būrį prisijungs arba mūšio metu, arba mūšiui pasibaigus."
+
+msgid "dynamicSquad/enemy/add"
+msgstr "Paspauskite norėdami pakviesti žaidėją į būrį.\nŽaidėjas gali priimti kvietimą tik mūšiui pasibaigus.%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "Priešininko negalima pakviesti į būrį."
+
+msgid "dynamicSquad/enemy/received"
+msgstr "Paspauskite norėdami priimti kvietimą į būrį.\nBūrys bus sukurtas mūšiui pasibaigus."
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "Žaidėjui buvo išsiųstas kvietimas.\nJeigu jis priims kvietimą, tai į būrį prisijungs mūšiui pasibaigus."
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "Paspauskite"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "balso pokalbių įjungimui"
+
+msgid "dynamicSquad/invite"
+msgstr "Kvietimas į būrį"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "Žala aviasmūgiu"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "Žala artilerijos smūgiu"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "Žala pagrindiniu tikslu"
+
+msgid "efficiencyRibbons/armor"
+msgstr "Užblokuota žala"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "Pagalba koviniais rezervais"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "Žala aptinkant"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "Žala kai jūs apkurtinate"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "Sunaikintas vikšras"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "Berserko žala"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "Rolės patirtis"
+
+msgid "efficiencyRibbons/burn"
+msgstr "Padegti"
+
+msgid "efficiencyRibbons/capture"
+msgstr "Priešų bazės užėmimas"
+
+msgid "efficiencyRibbons/crits"
+msgstr "Kritinė žala"
+
+msgid "efficiencyRibbons/damage"
+msgstr "Padaryta žala"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "Karinio laivo salvės žala"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "U.S.S. Frankford žala"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "Minų žala"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "Kovinio roboto žala"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "Žala rūgštiniu sviediniu"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "Ugnies žiedo žala"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "Elektros iškrovos žala"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "Zonos žala"
+
+msgid "efficiencyRibbons/defence"
+msgstr "Numušti užėmimo taškai"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "Zona apginta"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "Padaryta žala"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "Taikinys sunaikintas"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "Taikinys apgintas"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "Zona užimta"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "Ugnies zonos žala"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "Mašina suremontuota"
+
+msgid "efficiencyRibbons/kill"
+msgstr "Sunaikinta"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "Minų lauko žala"
+
+msgid "efficiencyRibbons/ram"
+msgstr "Taranas"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "Žala ugnimi"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "Kovinio roboto žala"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "Žala rūgštiniu sviediniu"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "Ugnies žiedo žala"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "Minų žala"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "Korozinio rūko žala"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "Elektros iškrovos žala"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "Kritinė žala"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "Žala šūviu"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "Ugnies kamuolio žala"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "Žala taranu"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "Žala smūgiu"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "Ugnies kamuolio žala"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "Aptikta"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "Žala nuo sunaikinimo zonos"
+
+msgid "efficiencyRibbons/stun"
+msgstr "Apsvaiginimas"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "Palikta mašina"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "Žala nuo smūgio"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "Pūga"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "Ugnis"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "Rūkas"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "Smarki liūtis"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "Smėlio audra"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "Dūmai"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "Tornadas"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "Slėpti komandų panelius"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "Nėra panelio"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Paspauskite Ctrl + Tab režimų perjungimui)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "Rodyti žaidėjų vardus, sunaikintus taikinius ir mašinų ikonas"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "Vidutinis panelis 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Paspauskite Ctrl + Tab režimų perjungimui)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "Rodyti žaidėjo sunaikintas mašinas, žaidėjo vardą ir žaidėjo mašinos ikoną."
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "Vidutinis panelis 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Paspauskite Ctrl + Tab režimų perjungimui)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "Rodyti sunaikintus taikinius ir mašinų ikonas"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "Trumpas panelis"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Paspauskite Ctrl + Tab režimų perjungimui)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "Rodyti tik savo žaidėjų grupę arba visas tris grupes."
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "Perjungti stulpelius"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Paspauskite Ctrl + Tab režimų perjungimui)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "Jūs sunaikinote vėliavą!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "Vėliava užgrobta!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "Vėliava pargabenta."
+
+msgid "flagNotification/flagInbase"
+msgstr "Pargabenkite vėliavą į štabą."
+
+msgid "flags/timer"
+msgstr "%(time)s s..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "s..."
+
+msgid "grille/status/reload"
+msgstr "UŽSITAISOMA..."
+
+msgid "grille/status/speedlimit"
+msgstr "GREIČIO LIMITAS"
+
+msgid "helpScreen/hint/description"
+msgstr "mašinos charakteristikų peržiūrėjimui"
+
+msgid "helpScreen/hint/press"
+msgstr "Spauskite"
+
+msgid "helpScreen/mapbox/description"
+msgstr "norėdami peržiūrėti žemėlapio ypatybes"
+
+msgid "helpScreen/mapbox/press"
+msgstr "Paspauskite"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "pasikeisite į apgulties/<font color='#F4B12C'><b>įsitvirtinimo</b></font> režimą"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "pasikeisite į apgulties/<font color='#F4B12C'><b>keliavimo</b></font> režimą"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "pasikeisite į keliavimo/<font color='#F4B12C'><b>įsitvirtinimo</b></font> režimą"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "Režimo perjungimo mygtukas nepasirinktas"
+
+msgid "helpScreen/pillbox/press"
+msgstr "Nuspauskite/<font color='#F4B12C'><b>laikykite</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "Nenurodyti svarbiausi mygtukai"
+
+msgid "hitMarker/blocked"
+msgstr "Šarvai nepramušti"
+
+msgid "hitMarker/critical"
+msgstr "Kritinė žala"
+
+msgid "hitMarker/missArmor"
+msgstr "Į šarvus nepataikyta"
+
+msgid "hitMarker/ricochet"
+msgstr "Rikošetas"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "Ekranas nepramuštas"
+
+msgid "hitMarker/trackBlocked"
+msgstr "Vikšras nepramuštas"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "Ratukas nepramuštas"
+
+msgid "levelProgress/maxLevel"
+msgstr "MAKSIMALUS MAŠINOS LYGIS"
+
+msgid "marker/meters"
+msgstr "m"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "Amunicijos skyriui sprogti neleido įranga %(device)s"
+
+msgid "optDeviceResurrection/engine"
+msgstr "Varikliui susinaikinti neleido įranga %(device)s"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "Gaisrui kilti neleido įranga %(device)s"
+
+msgid "penetration/high"
+msgstr "Aukštas"
+
+msgid "penetration/low"
+msgstr "Žemas"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "Papildomos sąlygos:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "Pagrindinės sąlygos:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "Šiam mūšių režimui nėra aktyvių misijų."
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "Šiam technikos tipui nėra aktyvių misijų."
+
+msgid "personal_reserves/hint/description"
+msgstr "norėdami aktyvuoti asmeninius rezervus"
+
+msgid "personal_reserves/hint/press"
+msgstr "Paspauskite"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "Judėjimas negalimas: pažeista važiuoklė."
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "Judėjimas negalimas: ekipažas išvestas iš rikiuotės."
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "Judėjimas negalimas: variklis pažeistas."
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "Sustabdyta: mašina sunaikinta."
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "Negalime šaudyti: ekipažas išvestas iš rikiuotės."
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "Negalime šaudyti: pabūklas pažeistas."
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "Negalima šauti."
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "Negalime šaudyti: pabūklas perkaito."
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "Užtaisomas pabūklas."
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "Užtaisymas nebaigtas."
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "Negalime šaudyti: baigėsi šoviniai."
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "Negalime šaudyti: tankas sunaikintas."
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "Persijungimas neįmanomas: variklis sunaikintas."
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "Pakeisti negalima: pabūklas sunaikintas"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "Pakeisti negalima: liko tik vienas sviedinys"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] jau aktyvuota."
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "Ekipuotė [%(name)s] neaktyvuota, nes nėra gaisro."
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] nepasiekiama atsistatymo metu."
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "Medicininės pagalbos nereikia, nes įgulos nariai nesužeisti."
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] nereikalauja medicininės pagalbos."
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "Rezervas dar neparuoštas."
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "Užimkite %(name)s norėdami aktyvuoti taktinį įgūdį."
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "Moduliai ir vadas nepažeisti. Nereikia nei remonto, nei gydymo."
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "Nėra ką remontuoti, nes prietaisai ir įranga nesugadinti."
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] veikia gerai - taisyti nereikia."
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "Nepavyksta aktyvuoti pagalbinio šautuvo."
+
+msgid "player_messages/ALLY_HIT"
+msgstr "Pataikei į sąjungininką %(entity)s!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s] paruošta naudojimui."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "Artilerinė baterija dislokuota ir pasiruošusi šauti."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "Aviacija atvyko ir pasiruošusi bombarduoti."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "Mūsų įgula yra pasiruošusi motyvuoti visus aplink."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "Minų laukas paruoštas paklojimui."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "Lėktuvas atvyko ir pasiruošęs žvalgybai."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "Lauko remontas paruoštas naudojimui."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "Dūmų baterija paruošta šūviams."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "Sergėtojas paruoštas naudojimui."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "Šaudo %(player)s artilerinė baterija."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "%(player)s bombonešiai jau pakeliui."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s sukuria Atsistatymo zoną."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s aktyvuoja Motyvaciją."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s paklojo Minų lauką."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "%(player)s Žvalgybinis skrydis jau pakeliui."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s panaudojo Lauko remontą."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s ruošia Dūmų uždangą."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s aktyvuoja Sergėtoją."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s buvo sunaikintas Artilerijos salve."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s buvo sunaikintas Artilerijos salve."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s buvo sunaikintas Artilerijos salve."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s buvo sunaikintas Artilerijos salve."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s buvo sunaikintas Artilerijos salve."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s buvo sunaikintas Artilerijos salve."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Mašina sunaikinta artilerijos salve."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s buvo sunaikintas Artilerijos salve."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s buvo sunaikintas Artilerijos salve."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s buvo sunaikintas Aviasmūgiu."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s buvo sunaikintas Aviasmūgiu."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "Saviškis %(target)s sunaikintas saviškio %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(attacker)s sunaikino %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Tanką sunaikino saviškis %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Mūsiškį %(target)s sunaikino zona."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(attacker)s sunaikino %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "Priešas %(attacker)s sunaikino priešą %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Tanką sunaikino priešas %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s sunaikino zona."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "Saviškis %(target)s sunaikintas."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "Priešas %(target)s sunaikintas."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Tankas sunaikintas."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Prietaisas [%(device)s] susprogo per gaisrą."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Prietaisas [%(device)s] sunaikintas %(entity)s šūviu."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "Saviškis %(attacker)s nuskandino saviškį %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(attacker)s nuskandino %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Tanką nuskandino saviškis %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "Saviškis %(target)s nuskendo."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(attacker)s nuskandino %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "Priešas %(attacker)s nuskandino priešą %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Tanką nuskandino priešas %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "Priešas %(target)s nuskendo."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "Saviškis %(target)s nuskendo."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "Priešas %(target)s nuskandintas."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Tankas nuskendo."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "Saviškis %(target)s sunaikintas saviškio %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(attacker)s sunaikino %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Tanką sunaikino saviškis %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(attacker)s sunaikino %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "Priešas %(attacker)s sunaikino priešą %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Tanką sunaikino priešas %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "Saviškis %(target)s sunaikintas."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "Priešas %(target)s sunaikintas."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "Ekipažas išvestas iš rikiuotės."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Ekipažo narys sužeistas %(entity)s šūviu."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Saviškio %(target)s įgulą sunaikino saviškis %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "Priešo %(target)s igulą sunaikino mūsiškis %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Įgulą sunaikino saviškis %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Saviškis %(target)s sunaikino savo įgulą."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Priešo %(target)s igulą sunaikino mūsiškis %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Priešo %(target)s įgulą sunaikino priešas %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Įgulą sunaikino priešas %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Priešas %(target)s sunaikino savo įgulą."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "Saviškio %(target)s įgula sunaikinta."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "Priešo %(target)s įgula sunaikinta."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Įgula sunaikinta."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Mūsiškį %(target)s sunaikino minos."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Priešas %(target)s sunaikintas."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(attacker)s sunaikino %(target)s minomis."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(attacker)s sunaikino %(target)s minomis."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s sunaikino minos."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "Saviškis %(attacker)s apvertė saviškį %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s apvertė %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Mašiną apvertė saviškis %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "Saviškis %(target)s apsivertė"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s apvertė %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "Priešas %(attacker)s apvertė priešą %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Mašiną apvertė ir sunaikino %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "Priešas %(target)s apsivertė"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "Saviškis %(target)s apverstas"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s apverstas"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Mašina apversta ir sunaikinta"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "Saviškis %(attacker)s sunaikino saviškį %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(attacker)s sunaikino %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Tanką sunaikino saviškis %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "Saviškis %(target)s sudužo."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(attacker)s sunaikino %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "Priešas %(attacker)s sunaikino priešą %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Tanką sunaikino priešas %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "Priešas %(target)s sudužo."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "Saviškis %(target)s sunaikintas."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "Priešas %(target)s sunaikintas."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Tankas sunaikintas."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s paliko savo mašiną."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s paliko savo mašiną."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Mašina sunaikinta zonos bombardavimo metu."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s buvo sunaikintas bombardavimo metu."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s buvo sunaikintas bombardavimo metu."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Mašina sunaikinta artilerijos salve."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s buvo sunaikintas Artilerijos salve."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s buvo sunaikintas Artilerijos salve."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "Saviškis %(attacker)s sunaikino %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "Saviškis %(attacker)s sunaikino %(target)s artilerijos salve."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "Saviškis %(attacker)s sunaikino %(target)s bombomis."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s sunaikino %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s sunaikino %(target)s artilerijos smūgiu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(attacker)s sunaikino %(target)s aviasmūgiu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s sunaikino %(target)s. (Ugnies priedanga)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s sunaikino %(target)s. (Artilerijos smūgis)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "Saviškis %(target)s susinaikino."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "Saviškis %(target)s žuvo nuo artilerijos salvės."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "Saviškis %(target)s žuvo per bombardavimą."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s sunaikino %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(attacker)s sunaikino %(target)s artilerijos smūgiu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(attacker)s sunaikino %(target)s aviasmūgiu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s sunaikino %(target)s. (Ugnies priedanga)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s sunaikino %(target)s. (Artilerijos smūgis)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "Priešas %(attacker)s sunaikino priešą %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "Priešas %(attacker)s sunaikino priešą %(target)s artilerijos salve."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "Priešas %(attacker)s sunaikino priešą %(target)s bombomis."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "Priešas %(target)s susinaikino."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "Priešas %(target)s žuvo nuo artilerijos salvės."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "Priešas %(target)s žuvo per bombardavimą."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "Saviškis %(target)s sunaikintas."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "Mūsiškį %(target)s sunaikino artilerijos salvė."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "Mūsiškį %(target)s sunaikino bombos."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "Priešas %(target)s sunaikintas."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s žuvo nuo artilerijos salvės."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s sunaikino aviasmūgis."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s sunaikintas"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s sunaikintas"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "Priešas (nežinomas) sunaikintas %(target)s."
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Mūsiškį %(target)s sunaikino sunaikinimo zona."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Saviškis %(attacker)s nutaranavo saviškį %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s nutaranavo %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Tanką nutaranavo saviškis %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Saviškis %(target)s sudužo."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s nutaranavo %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Priešas %(attacker)s nutaranavo priešą %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Tanką nutaranavo priešas %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Priešas %(target)s sudužo."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "Saviškis %(target)s sudužo."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "Priešas %(target)s sudužo."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Tankas sudužo."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s sunaikino taikinį %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s sunaikino taikinį %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "Jūs sunaikinote taikinį %(target)s."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "Prietaisas [%(device)s] pažeistas gaisro."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "%(entity)s šūvis pažeidė [%(device)s]."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "Prietaisas [%(device)s] sunaikintas gaisro."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "Įrenginys [%(device)s] sunaikintas %(entity)s šūvio."
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "Prietaisas [%(device)s] suremontuotas."
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "Prietaisas [%(device)s] vėl veikia."
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "Prietaisas [%(device)s] padegtas nuo %(entity)s šūvio."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "Įrenginys [%(device)s] pažeistas dėl traukos padidinimo."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "Prietaisas [%(device)s] buvo pažeistas, dėl nuimto greičio ribotuvo."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "Įrenginys [%(device)s] sunaikintas dėl traukos padidinimo."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "Prietaisas [%(device)s] buvo sunaikintas, dėl nuimto greičio ribotuvo."
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "Gaisras sustabdytas."
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "%(entity)s šūvis sužeidė [%(device)s]."
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] vėl veikia."
+
+msgid "player_messages/allied_team_name"
+msgstr "Saviškiai"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "Mūsų bazės%s užėmimas (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "Mūsų bazė%s užimta!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "Bazės užėmimas užblokuotas"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "Bazės%s užėmimas (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "Bazė%s užimta!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "Priešo bazės%s užėmimas (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "Priešo bazė%s užimta!"
+
+msgid "player_messages/enemy_team_name"
+msgstr "Priešai"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "Jūsų komandos narys %(name)s panaudojo taktinį įgūdį %(equipment)s"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "Priešas panaudojo taktinį įgūdį %(equipment)s"
+
+msgid "player_messages/postmortem_caption"
+msgstr "Žaidėjas %(name)s (%(type)s); HP: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "Žaidėjas: %(name)s; Patvarumas: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "Jūsų (%(type)s) mašina sunaikinta"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "Negalima šaudyti: nėra amunicijos."
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "Peržiūros valdymo mygtukai:"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "Kairysis mygtukas - kameros režimų perjungimas\nTarpas: pauzė"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "Rodyklė į kairę: atsukti 20 sekundžių atgal (su Ctrl 40 sekundžių)\nRodyklė į dešinę: prasukti 20 sekundžių į priekį (su Ctrl 40 sekundžių)\nHome/End: peršokti į įrašo pradžią/pabaigą\nAukštyn/žemyn: sulėtinti/pagreitinti įrašą"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "Laisvai judanti kamera įjungta"
+
+msgid "player_messages/replayPaused"
+msgstr "Pauzė"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "Fiksuota kamera įjungta"
+
+msgid "player_messages/replaySpeedChange"
+msgstr "Peržiūros greitis: %(speed)sx"
+
+msgid "player_messages/tank_in_fire"
+msgstr "Tankas dega!"
+
+msgid "players_panel/state/large/body"
+msgstr "Rodyti žaidėjų vardus, sunaikintus tankus, tankų ikonas ir pavadinimus"
+
+msgid "players_panel/state/large/header"
+msgstr "Išplėstas"
+
+msgid "players_panel/state/large/note"
+msgstr "(Paspauskite Ctrl + Tab režimų perjungimui)"
+
+msgid "players_panel/state/medium/body"
+msgstr "Rodyti žaidėjų vardus, sunaikintus tankus ir tankų ikonas"
+
+msgid "players_panel/state/medium/header"
+msgstr "Vidutiniokų"
+
+msgid "players_panel/state/medium/note"
+msgstr "(Paspauskite Ctrl + Tab režimų perjungimui)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "Rodyti žaidėjo sunaikintus tankus, pavadinimą ir tanko ikoną"
+
+msgid "players_panel/state/medium2/header"
+msgstr "Vidutinis 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(Paspauskite Ctrl + Tab režimų perjungimui)"
+
+msgid "players_panel/state/none/body"
+msgstr "Slėpti komandos sąrašą"
+
+msgid "players_panel/state/none/header"
+msgstr "Nerodyti"
+
+msgid "players_panel/state/none/note"
+msgstr "(Paspauskite Ctrl + Tab režimų perjungimui)"
+
+msgid "players_panel/state/short/body"
+msgstr "Rodyti sunaikintus tankus ir tankų ikonas"
+
+msgid "players_panel/state/short/header"
+msgstr "Sumažintas"
+
+msgid "players_panel/state/short/note"
+msgstr "(Paspauskite Ctrl + Tab režimų perjungimui)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "Priešas"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "Esc > Atgal į garažą."
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "Pradėkite mūšį su kita mašina."
+
+msgid "postmortem/tips/freecam/button"
+msgstr "SPACE"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "Laisva kamera"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "Aktyvuoti laisvą kamerą."
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "Laisva kamera negalima"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "Negalima aktyvuoti laisvos kameros šiame režime."
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "Stebėtojo režimas"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "Perjungti vaizdą tarp sąjungininkų tankų."
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "Sekti mašiną"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "Nuvedę pelę ant komandos nario mašinos ir paspaudę kairįjį pelės klavišą ją seksite."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "Mašiną sunaikino pagrindinis taikinys"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Mašina sunaikinta artilerijos salve."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "Mašiną sunaikino pagrindinis taikinys"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "Mašiną sunaikino aviasmūgis"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "Mašiną sunaikino Plėšikas."
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "Mašiną sunaikino Kovinis robotas."
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "Mašina sunaikinta rūgštiniu sviediniu."
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Mašiną sunaikino saviškis draudžiamoje zonoje"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Mašina sunaikinta draudžiamoje zonoje"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Jums nepavyko palikti pavojaus zonos"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Modulį [%(device)s] sunaikino gaisras"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modulį [%(device)s] susprogdino žaidėjo šūvis"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Mašiną nuskandino saviškis"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Mašina nuskendo"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Mašina nuskendo"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "Mašiną uždegė žaidėjas"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "Mašiną sunaikino ugnies žiedas."
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Įgula sunaikinta po žaidėjo šūvio"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Įgula sunaikinta po stipraus susidūrimo su saviškiu"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Įgula sunaikinta po stipraus smūgio"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Įgula sunaikinta po stipraus smūgio"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "Mašiną sunaikino Ugnies kamuolys."
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Mašina buvo sunaikinta minų lauke"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "Mašiną sunaikino minos"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Mašiną apvertė saviškis"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Mašiną apvertė priešas"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Mašina sunaikinta apsivertusi"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Mašina sunaikinta saviškio taranu"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Mašina sunaikinta taranu"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Mašina sunaikinta taranu"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "Jūsų mašina sunaikinta"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Mašina sunaikinta zonos bombardavimo metu."
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Mašina sunaikinta artilerijos salve."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "Mašina sunaikinta žaidėjo šūviu"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "Mašiną sunaikino aviasmūgis."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "Mašiną sunaikino aviasmūgis."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Mašina sunaikinta artilerijos salve"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Mašiną sunaikino aviasmūgis"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Mašiną sunaikino sunaikinimo zona"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "Mašiną sunaikino Elektros iškrova."
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Mašiną sudaužė saviškis"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Mašiną sudaužė priešas"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Mašina sudužo"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "Jūsų mašina sunaikinta"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "Pasirinkta konfigūracija naudojama mūšyje:"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "Pasirinkite konfigūraciją, kurią naudosite mūšyje, kol nesibaigę mūšio pradžios skaičiavimas."
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "Pasirinkite konfigūraciją"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "Konfigūracijos pasirinkimas: {seconds} sek."
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "Konfigūracijos pasirinkimas:"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "Tarpeklis"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "Stebėjimas"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "Miškas"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "Kelias"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "Gatvė"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "Griuvėsiai"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "Tiltas"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "Geležinkelis"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "Miestas"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "Kaimas"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "Aikštė"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "Gamykla"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "Kalva"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "Švyturys"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "Centras"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "Pilis"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "Malūnas"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "Kalnai"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "Kelias A"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "Kelias B"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "Kelias C"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "Kelias D"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "Kelias E"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "Slėnis"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "Ledynas"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "Aplinkkelis"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "Kalvos"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "Kelias"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "Kalnas"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "Bunkeris"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "Alėja"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "Siena"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "Rieduliai"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "Dirbtuvės"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "Laukas"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "Garažas"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "Anglys"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "Laivai"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "Lėktuvnešis"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "Apkasai"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "Serpantinas"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "Šiaurė"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "Pietūs"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "Vakarai"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "Rytai"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "Ketera"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "Cepelinas"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "Sandėliai"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "Pakrantė"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "Upė"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "Ežeras"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "Pelkė"
+
+msgid "quickReply/hint/press"
+msgstr "Paspauskite"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "norėdami patvirtinti"
+
+msgid "quickReply/hint/toCommend"
+msgstr "kad padėkotumėte"
+
+msgid "quickReply/hint/toHelp"
+msgstr "norėdami padėti"
+
+msgid "quickReply/hint/toThank"
+msgstr "padėkoti"
+
+msgid "recovery/cooldown"
+msgstr "Mašiną galima palikti po %(cooldown)s sekundžių"
+
+msgid "recovery/hint1"
+msgstr "Nuspauskite"
+
+msgid "recovery/hint2"
+msgstr "norėdami palikti mašiną"
+
+msgid "repairPoint/title"
+msgstr "Remontavimas"
+
+msgid "repairPoint/unavailable"
+msgstr "Nepasiekiama"
+
+msgid "respawnView/additionalTip"
+msgstr "Pasirinkite mašiną, norėdami pratęsti. Jeigu visos mašinos remontuojamos, tai kovą pratęsite su pirma tinkama mašina."
+
+msgid "respawnView/additionalTipLimited"
+msgstr "Pasirinkite mašiną norėdami tęsti. Sunaikinta mašina negali būti suremontuota kol nepasibaigė mūšis."
+
+msgid "respawnView/classNotAvailable"
+msgstr "Pasiektas fronto\nlimitas"
+
+msgid "respawnView/cooldownLbl"
+msgstr "Remontuojama %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "Sunaikinta"
+
+msgid "respawnView/disabledLbl"
+msgstr "Mašina nepasiekiama"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "Tinkama mašina nepasirinkta"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "Grupėje nėra X lygio mašinos."
+
+msgid "respawnView/nextVehicleName"
+msgstr "Mūšis bus tęsiamas su "
+
+msgid "respawnView/title"
+msgstr "Technikos pasirinkimas"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "TAIP, SERE!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "Dėkojame už jūsų dalyvavimą World of Tanks žaidimo vystyme! Mes labai vertiname jūsų asmeninį indėlį!"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "Padėkos laiškas"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "Jūs buvote apdovanotas!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "Sveikiname!"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "Tikrai taip!"
+
+msgid "rewardWindow/base/descText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/base/headerText"
+msgstr "Sveikiname!"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "Atsargų paketas India"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "Atsargų paketas Juliett"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "Į dėžes"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "Jūs gavote didelių dėžių su vertingais apdovanojimais."
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "Jūs gavote dėžių!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "Jūs gavote mažų dėžių su vertingais apdovanojimais už misijų įvykdymą."
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "Laikas sužinoti kas dėžėje!"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "Tikrai taip!"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "Kreditų kaupimas sustabdytas. Pratęskite WoT Premium paskyrą norėdami toliau kaupti Kreditų saugykloje."
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "Gauta kreditų"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "Kreditų saugykla atidaryta"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "Sveikiname!"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "TAIP, VADE!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "Sveikiname, gavote specialią atsargų dėžę, kadangi turite Prime Gaming. Panaudokite ją mūšyje naudingai."
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "Atsargų paketas Delta"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "Jūs buvote apdovanotas!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "PAŠAUKTI"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "Sveikiname, gavote naują specialų įgulos narį, kadangi turite Prime Gaming."
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "Atsargų paketas Alfa"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "Jūs buvote apdovanotas!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "TAIP, VADE!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "Atsargų paketas Battle Pass"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "TAIP, VADE!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "Atsargų paketas Kosmosas"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "TAIP, VADE!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "Atsargų paketas Žvaigždėta naktis"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "Daugiau"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "Atsargų paketas Birželis"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "Atsargų paketas Liepa"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "Daugiau"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "Atsargų paketas Dešimtukas"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "World of Tanks: Komplektas Starlight"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "Queen Maeve komplektas"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "Amalo rinkinys"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "Daugiau"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "Rinkinys Rimtas laimikis"
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "TAIP, VADE!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "Sveikiname, gavote specialią atsargų dėžę, kadangi turite Prime Gaming. Panaudokite ją naudingai."
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "Atsargų paketas Čarlie"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "Jūs buvote apdovanotas!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "Rinkinys \"G.I. JOE: Duke\""
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "Rinkinys \"G.I. JOE: Cobra\""
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "Daugiau"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "Rinkinys Rokas valdo!"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "Rinkinys Tylioji medžiotoja"
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "Daugiau"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "Rinkinys Šviežus vaizdas"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "Daugiau"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "Rinkinys Vasaros nuotaika"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "Rinkinys Aukšta įtampa"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "Daugiau"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "Rinkinys Tikras išgąstis"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "Vikingai tarp mūsų"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "Daugiau"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "Rinkinys \"Nauja pradžia\""
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "Paketas Echo"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "Daugiau"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "Retro bangos"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "Adepta Sororitas"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "Geriausias šaulys"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "Jūs gavote unikalų apdovanojimą už prenumeratą: Prime Gaming"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "e-Camo"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "Pasiruošęs mūšiui"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "Pirmyn, skalikai!"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "Durklas"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Jūs gavote unikalų apdovanojimą už prenumeratą: Prime Gaming"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "Raganų burtai"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "Raganų laikas"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "Užklydai ne į tą rajoną"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "Įkąsk man!"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "Jūs gavote unikalų apdovanojimą už prenumeratą: Prime Gaming"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "Startinis švilpukas"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "Pergalingas įvartis"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "Nemirštanti klasika"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Jūs gaavote unikalų prizą iš programos: Prime Gaming"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "Šventinė apranga"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "Užburianti dovana"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "Svari dovana"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "Dvigubas skambesys"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "Pasirinkite apdovanojimus"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Jūs gavote unikalų apdovanojimą už prenumeratą: Prime Gaming"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "Drąsus naujas pasaulis"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "Stebinti akis"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "Kiborgo anatomija"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "Buvote pastebėti"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "Atsargų paketas Foxtrot"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "Atsargų paketas Golf"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "Atsargų paketas Hotel"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "Atsargų paketas Kilo"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "Atsargų paketas Lima"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "Rekrutuoti"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "Sveikiname! Jūs gavote specialų Prime Gaming siuntinį. Pasinaudokite juo."
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "Atsargų paketas Mike"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "Gauti apdovanojimai"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "Tikrai taip!"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "Jūsų klano nariai tikisi jūsų tolesnio dalyvavimo\nir progresavimo Koviniame žygyje."
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "Gautas trofėjus!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "Į Kovinį žygį"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "Kovinis žygis"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "Tikrai taip!"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "Jūsų klano nariai tikisi jūsų tolesnio dalyvavimo\nir progresavimo Koviniame žygyje."
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "Gautas apdovanojimas!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "Į Kovinį žygį"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "Kovinis žygis"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "Sveikiname!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "Mūsų būrys"
+
+msgid "scorePanel/playerScore"
+msgstr "Jūsų indėlis:"
+
+msgid "scorePanel/squadLbl"
+msgstr "Būrys %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s mm Šarvamušis sviedinys %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s mm Pokalibrinis šarvamušis sviedinys %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s mm Šarvamušis skeveldrinis-fugasinis sviedinys %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s mm Skeveldrinis-fugasinis sviedinys %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s mm Kumuliatyvinis sviedinys %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "Vidutinė žala: %(value)s vnt."
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "Žala per sekundę: %(value)s taškai/s"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "Žalos spindulys: %(value)s m"
+
+msgid "shells_kinds/params/header"
+msgstr "Pilnas / vienos užkrovos"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "Vidutinis pramušimas: %(value)s mm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "Sviedinio greitis: %(value)s m/s"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "Apkurtinimo trukmė: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "persijungti į apgulties režimą"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "persijungti į keliavimo režimą"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "Nenurodyti svarbiausi mygtukai"
+
+msgid "siegeMode/hint/press"
+msgstr "Paspauskite"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "aktyvuosite skystojo kuro greitintuvus"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "norėdami aktyvuoti reaktyvinius stiprintuvus"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "aktyvuosite nuoseklius raketinius greitintuvus"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "Pataikę į priešo mašiną geriau išnaudosite lazerinį taikinio sekiklį"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "norėdami perjungti variklio režimus"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "pakeisti šaudymo režimą"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "judėjimo režimo keitimui"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "aktyvuosite turbokompresoriaus stiprintuvą"
+
+msgid "spotted/indicator"
+msgstr "Laikas, kurį priešas išliks matomas, ir daroma žala padidinti"
+
+msgid "spotted/seconds"
+msgstr "s"
+
+msgid "statistics/exit"
+msgstr "Paspauskite Esc tam, kad grįžtumėte į Garažą..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "Sunaikinta: %s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "Užimta bazės: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "Pažeidė:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "Pataikyta į tikslą: %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "Patirta šūvių: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "Apginta bazės: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "Sunaikinta:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(po mirties)"
+
+msgid "statistics/final/personal/shots"
+msgstr "Viso šūvių: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "Aptiko:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "Visi saviškių tankai sunaikinti."
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "Visi tankai sunaikinti!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "Visi priešų tankai sunaikinti."
+
+msgid "statistics/final/reasons/reason2"
+msgstr "Bazė užimta!"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "Mūšio laikas baigėsi!"
+
+msgid "statistics/final/stats/credits"
+msgstr "Kreditai:"
+
+msgid "statistics/final/stats/experience"
+msgstr "Patirtis:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "Patirtis (x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "Remontas:"
+
+msgid "statistics/final/status/lose"
+msgstr "Pralaimėjimas! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "Lygiosios! %s"
+
+msgid "statistics/final/status/win"
+msgstr "Pergalė! %s"
+
+msgid "statistics/header"
+msgstr "Mūšio statistika"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "Žaidėjas"
+
+msgid "statistics/headers/header2"
+msgstr "Technika"
+
+msgid "statistics/headers/header3"
+msgstr "Būsena"
+
+msgid "statistics/headers/header4"
+msgstr "Sunaikinta"
+
+msgid "statistics/playerState/0"
+msgstr "sunaikintas"
+
+msgid "statistics/playerState/1"
+msgstr "nepasijungęs į mūšį"
+
+msgid "statistics/playerState/2"
+msgstr "sunaikintas"
+
+msgid "statistics/playerState/3"
+msgstr "mūšyje"
+
+msgid "statistics/playerState/4"
+msgstr "---"
+
+msgid "statistics/tab/line_up/header"
+msgstr "Sudėtis"
+
+msgid "statistics/tab/line_up/title"
+msgstr "Komandos sudėtis"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "Asmeniniai rezervai"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "Asmeninių rezervų aktyvavimas"
+
+msgid "statistics/tab/quests/header"
+msgstr "Misijos"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "Asmeninės užduotys šiam mūšio tipui negalimos"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "Norėdami pasirinkti užduotį, Angare atidarykite skirtuką „Kampanija“"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "Neturite aktyvių užduočių šiai mašinai"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "Pagrindinės sąlygos įvykdytos"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "Visos užduotys įvykdytos"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "Pradėta"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "Rezultato pagerinimas"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "Pristabdyta"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "Užduočių vykdymo progreso rodymas negalimas"
+
+msgid "statistics/tabs/group"
+msgstr "Komandos pasiekimai"
+
+msgid "statistics/tabs/heroes"
+msgstr "Mūšio didvyriai"
+
+msgid "statistics/tabs/personal"
+msgstr "Asmeniniai pasiekimai"
+
+msgid "statistics/team1title"
+msgstr "Saviškiai"
+
+msgid "statistics/team2title"
+msgstr "Priešai"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "Palikite\nsunaikinimo zoną!"
+
+msgid "stun/indicator"
+msgstr "Įgulos apkurtinimas"
+
+msgid "stun/seconds"
+msgstr "s"
+
+msgid "tabStatsHint"
+msgstr "— Statistika"
+
+msgid "tankmen/commander"
+msgstr "įgulos vadas"
+
+msgid "tankmen/driver"
+msgstr "mechanikas-vairuotojas"
+
+msgid "tankmen/gunner"
+msgstr "šaulys"
+
+msgid "tankmen/loader"
+msgstr "užtaisytojas"
+
+msgid "tankmen/radioman"
+msgstr "radistas"
+
+msgid "timer/battlePeriod"
+msgstr "Iki pabaigos:"
+
+msgid "timer/started"
+msgstr "Mūšis prasideda!"
+
+msgid "timer/starting"
+msgstr "Iki mūšio pradžios liko:"
+
+msgid "timer/waiting"
+msgstr "Laukiame žaidėjų..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "Paspauskite"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "taikymosi režimo keitimui"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "Nenurodyti svarbiausi mygtukai"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Tanką sunaikino sąjungininkas %(entity)s už žemėlapio ribų."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Tanką sunaikino priešas %(entity)s už žemėlapio ribų."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Mašiną sunaikino pavojaus zona."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Tanką nuskandino saviškis %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Tanką nuskandino priešas %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Tankas nuskendo."
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "Tankas sunaikintas gaisro."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Mašiną sunaikino saviškis %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Mašiną sunaikino %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Ekipažas sunaikintas nuo saviškio %(entity)s smūgio."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Ekipažas sunaikintas nuo priešo %(entity)s smūgio."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Ekipažas sunaikintas nuo smūgio."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Mašiną apvertė saviškis %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Mašiną apvertė priešas %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Mašina sunaikinta apsivertusi"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Saviškis %(entity)s sunaikino tanką taranuodamas."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Priešas %(entity)s sunaikino tanką taranuodamas."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Tankas sunaikintas taranu."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "Tankas sunaikintas %(entity)s šūviu."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "%(entity)s sunaikino mašiną artilerijos salve."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "%(entity)s sunaikino mašiną bombomis."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Tanką sudaužė saviškis %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Tanką sudaužė priešas %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Tankas sudužo."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "Saviškis %(entity)s sugadino modulį [%(device)s] taranuodamas."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "Saviškis %(entity)s sugadino modulį [%(device)s] taranuodamas."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Modulis [%(device)s] sugadintas nuo tarano."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "Priešas %(entity)s sugadino modulį [%(device)s] taranuodamas."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "Priešas %(entity)s sugadino modulį [%(device)s] taranuodamas."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "Modulis [%(device)s] sugadintas nuo tarano."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Saviškio %(entity)s smūgis sugadino modulį [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Saviškio %(entity)s smūgis sugadino modulį [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Prietaisas [%(device)s] pažeistas nuo smūgio."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Priešo %(entity)s smūgis sugadino modulį [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Priešo %(entity)s smūgis sugadino modulį [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Prietaisas [%(device)s] pažeistas nuo smūgio."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Įranga [%(device)s] buvo sunaikinta minų lauke."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Įranga [%(device)s] buvo sunaikinta minų lauke."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "Saviškis %(entity)s sunaikino modulį [%(device)s] taranuodamas."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "Saviškis %(entity)s sunaikino modulį [%(device)s] taranuodamas."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Modulis [%(device)s] sunaikintas taranu."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "Priešas %(entity)s sunaikino modulį [%(device)s] taranuodamas."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "Priešas %(entity)s sunaikino modulį [%(device)s] taranuodamas."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "Modulis [%(device)s] sunaikintas taranu."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Saviškio %(entity)s smūgis sugadino modulį [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Saviškio %(entity)s smūgis sugadino modulį [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Modulis [%(device)s] sugadintas nuo smūgio."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Priešo %(entity)s smūgis sugadino modulį [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Priešo %(entity)s smūgis sugadino modulį [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Modulis [%(device)s] sugadintas nuo smūgio."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "Modulis [%(device)s] užsidegė nuo saviškio %(entity)s smūgio."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "Modulis [%(device)s] užsidegė nuo saviškio %(entity)s smūgio."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Modulis [%(device)s] užsidegė nuo smūgio."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "Modulis [%(device)s] užsidegė nuo priešo %(entity)s smūgio."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "Modulis [%(device)s] užsidegė nuo priešo %(entity)s smūgio."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "Modulis [%(device)s] užsidegė nuo smūgio."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] sužeistas nuo saviškio %(entity)s smūgio."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] sužeistas nuo saviškio %(entity)s smūgio."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] sužeistas nuo smūgio."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] sužeistas nuo priešo %(entity)s smūgio."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] sužeistas nuo priešo %(entity)s smūgio."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] sužeistas nuo smūgio."
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "Taktinis įgūdis %(equipment)s buvo aktyvuotas!"
+
+msgid "warning_zone/indicator"
+msgstr "Saugokitės! Jūs esate arti pavojaus zonos."

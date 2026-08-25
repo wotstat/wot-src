@@ -1,0 +1,713 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "PersonalMissionAwardView/award/freeSheet"
+msgstr "Du mottok en ordre!"
+
+msgid "PersonalMissionAwardView/bottomTabs/awards/additionalAwards"
+msgstr "Belønninger for ærefull utførelse av alle oppdragene"
+
+msgid "PersonalMissionAwardView/bottomTabs/awards/mainAwards"
+msgstr "Hovedbelønninger"
+
+msgid "PersonalMissionAwardView/subTitle"
+msgstr "Klikk spillnavnet ditt for å velge og utforme et merke."
+
+msgid "PersonalMissionAwardView/title"
+msgstr "Merker mottatt for utførelse av operasjoner!"
+
+msgid "PersonalMissionAwardView/title/one"
+msgstr "Merke mottat for operasjon \"%(vehicleName)s\"!"
+
+msgid "PersonalMissionAwardView/title/perfect"
+msgstr "Du mottok merker for ærefulle utførelser!"
+
+msgid "PersonalMissionFirstEntryView/acknowledgeBtn"
+msgstr "Bekreftet!"
+
+msgid "PersonalMissionFirstEntryView/detailedDescription/btnBack"
+msgstr "TILBAKE"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintChassis"
+msgstr "Tegning av oppheng"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintEngine"
+msgstr "Engine tegning"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintGun"
+msgstr "Kanon tegning"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintHull"
+msgstr "Skrog tegning"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintHullAndTurret"
+msgstr "Skrog og tårn tegning"
+
+msgid "PersonalMissionsPlanRegion/mainAward/chassis"
+msgstr "Oppheng"
+
+msgid "PersonalMissionsPlanRegion/mainAward/engine"
+msgstr "Motor"
+
+msgid "PersonalMissionsPlanRegion/mainAward/gun"
+msgstr "Kanon"
+
+msgid "PersonalMissionsPlanRegion/mainAward/hull"
+msgstr "Skrog"
+
+msgid "PersonalMissionsPlanRegion/mainAward/hullAndTurret"
+msgstr "Skrog og tårn"
+
+msgid "PersonalMissionsPlanRegion/mainAward/radio"
+msgstr "Radio"
+
+msgid "alliance/0/details"
+msgstr "Brohodet for landingen og fremrykkingen av Union styrkene."
+
+msgid "alliance/0/name"
+msgstr "Union"
+
+msgid "alliance/1/details"
+msgstr "Brohodet for landingen og fremrykkingen av Bloc styrkene."
+
+msgid "alliance/1/name"
+msgstr "Bloc"
+
+msgid "alliance/2/details"
+msgstr "Brohodet for landingen og fremrykkingen av Alliance styrkene."
+
+msgid "alliance/2/name"
+msgstr "Alliance"
+
+msgid "alliance/3/details"
+msgstr "Brohodet for landingen og fremrykkingen av Coalition styrkene."
+
+msgid "alliance/3/name"
+msgstr "Coalition"
+
+msgid "awardsScreen/acceptBtn/label"
+msgstr "Bekreftet!"
+
+msgid "awardsScreen/closeBtn/label"
+msgstr "LUKK"
+
+msgid "awardsScreen/description/emailConfirmation"
+msgstr "For bekreftelse av din epost"
+
+msgid "awardsScreen/header"
+msgstr "Operasjon %(missionName)s fullført"
+
+msgid "awardsScreen/header/fullyCompleted"
+msgstr "Operasjon %(missionName)s fullstendig fullført"
+
+msgid "awardsScreen/headerExtra"
+msgstr "BELØNNING TJENT!"
+
+msgid "awardsView/closeBtn/label"
+msgstr "LUKK"
+
+msgid "awardsView/description"
+msgstr "Hovedbelønning for operasjonen"
+
+msgid "awardsView/mainAwards/title"
+msgstr "Hovedbelønninger"
+
+msgid "awardsView/vehicleAward/mainAward"
+msgstr "Hovedbelønning"
+
+msgid "bonus/descr/attempts/card"
+msgstr "fullfør sekundærvilkåret for å få en %(value)s økning på nåværende fremgang."
+
+msgid "bonus/descr/attempts/postBattle"
+msgstr "fremgangen på hoveddelen av oppdraget økte med %(value)s."
+
+msgid "bonus/descr/progress/card"
+msgstr "fullfør sekundærvilkårene for å få en x%(value)s økning i din fremgang for fullførelsen av primærvilkåret."
+
+msgid "bonus/descr/progress/postBattle"
+msgstr "fremgangen for primærvilkåret i denne kampen ble multiplisert %(value)s ganger."
+
+msgid "bonus/multiplier/attempts"
+msgstr "Fremgangsaksellerasjon:"
+
+msgid "bonus/multiplier/progress"
+msgstr "x%(value)s bonus:"
+
+msgid "chainTooltipData/description/text/alliance0"
+msgstr "Oppdrag i operasjonen kan kun utføres i kjøretøy fra spesifiserte nasjoner."
+
+msgid "chainTooltipData/description/text/alliance1"
+msgstr "Oppdrag i operasjonen kan kun utføres i kjøretøy fra spesifiserte nasjoner."
+
+msgid "chainTooltipData/description/text/alliance2"
+msgstr "Oppdrag i operasjonen kan kun utføres i kjøretøy fra spesifiserte nasjoner."
+
+msgid "chainTooltipData/description/text/alliance3"
+msgstr "Oppdrag i operasjonen kan kun utføres i kjøretøy fra spesifiserte nasjoner."
+
+msgid "chainTooltipData/description/title"
+msgstr "Beskrivelse:"
+
+msgid "conditions/battlesLeft/bottomLabel"
+msgstr "Gjenværende kamper: %(count)s"
+
+msgid "conditions/biathlon/label/add"
+msgstr "Fullfør sekundærvilkårene i %(goal)s kamper av %(limit)s"
+
+msgid "conditions/biathlon/label/main"
+msgstr "Fullfør primærvilkårene i %(goal)s kamper av %(limit)s"
+
+msgid "conditions/completed/bottomLabel"
+msgstr "Fullført"
+
+msgid "conditions/counter/label/add"
+msgstr "Fullfør sekundærvilkårene det indikerte antall ganger: %(count)s"
+
+msgid "conditions/counter/label/main"
+msgstr "Fullfør primærvilkårene det indikerte antall ganger: %(count)s"
+
+msgid "conditions/currentProgress/bottomLabel"
+msgstr "Fullført: %(currentProgress)s"
+
+msgid "conditions/failed/bottomLabel"
+msgstr "Mislykket"
+
+msgid "conditions/limited/label/add"
+msgstr "Fullfør sekundærvilkårene i det indikerte antall kamper: %(count)s"
+
+msgid "conditions/limited/label/main"
+msgstr "Fullfør primærvilkårene i det indikerte antall kamper: %(count)s"
+
+msgid "conditions/limiter/label"
+msgstr "Restriksjoner!"
+
+msgid "conditions/orGroup"
+msgstr "eller"
+
+msgid "conditions/series/label/add"
+msgstr "Fullfør vilkårene i %(count)s kamper på rad"
+
+msgid "conditions/series/label/main"
+msgstr "Fullfør vilkårene i %(count)s kamper på rad"
+
+msgid "conditions/unlimited/label/add"
+msgstr "Fullfør sekundærvilkårene i løpet av et ubestemt antall kamper"
+
+msgid "conditions/unlimited/label/main"
+msgstr "Fullfør primærvilkårene i løpet av et ubestemt antall kamper"
+
+msgid "detailedView/completeBtnLabel"
+msgstr "Fullfør for %(count)d %(icon)s"
+
+msgid "detailedView/conditionLabel"
+msgstr "Tilstand"
+
+msgid "detailedView/conditionsFullylabel"
+msgstr "For fullførelse inkl. sekundære vilkår"
+
+msgid "detailedView/conditionslabel"
+msgstr "Primærvilkår"
+
+msgid "detailedView/discardBtnLabel"
+msgstr "Nullstill"
+
+msgid "detailedView/infoPanel/header"
+msgstr "Beskrivelse og hint"
+
+msgid "detailedView/orCondition"
+msgstr "eller"
+
+msgid "detailedView/recruitBtnLabel"
+msgstr "Hent belønningen"
+
+msgid "detailedView/retryBtnLabel"
+msgstr "Fullfør inkludert sekundære vilkår"
+
+msgid "detailedView/startBtnLabel"
+msgstr "Begynn"
+
+msgid "detailedView/status/NA"
+msgstr "Låst"
+
+msgid "detailedView/status/completed"
+msgstr "Fullført primærvilkår"
+
+msgid "detailedView/status/fullyCompleted"
+msgstr "Ærefullt utført"
+
+msgid "detailedView/status/inProgress"
+msgstr "Startet"
+
+msgid "detailedView/status/returnSheet"
+msgstr "Ordre påtatt:%(icon)sx1"
+
+msgid "detailedView/status/sheetUsed"
+msgstr "Fullført for%(icon)sx1"
+
+msgid "detailedView/tooltips/additionalConditions/body"
+msgstr "Dette er målet i kampen du må utføre i tillegg til primærvilkåret for å kunne motta ytterligere belønninger for ærefullt utført oppdrag."
+
+msgid "detailedView/tooltips/additionalConditions/header"
+msgstr "Sekundærvilkår"
+
+msgid "detailedView/tooltips/commonConditions/body"
+msgstr "Dette er målet i kampen du må utfylle for å kunne motta hovedbelønningen for ærefullt utført oppdrag."
+
+msgid "detailedView/tooltips/commonConditions/header"
+msgstr "Primærvilkår"
+
+msgid "detailedView/tooltips/discardBtn/body"
+msgstr "Klikk for å nullstille all nåværende fremgang på oppdraget."
+
+msgid "detailedView/tooltips/discardBtn/header"
+msgstr "Nullstill fremgang"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/body"
+msgstr "Klikk for å iverksette en ordre i et oppdrag og utfør primærvilkårene."
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/disabled/body"
+msgstr "For å få ordrer, fullfør ærefullt det siste oppdraget i hvert sett i enhver operasjon."
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/disabled/header"
+msgstr "Ikke nok ordrer"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/header"
+msgstr "Iverksett ordre"
+
+msgid "detailedView/tooltips/locked"
+msgstr "Fullførelsen av sekundærvilkåret telles med etter at du har fullført primærvilkåret."
+
+msgid "detailedView/tooltips/recruitBtn/body"
+msgstr "?empty?"
+
+msgid "detailedView/tooltips/recruitBtn/header"
+msgstr "?empty?"
+
+msgid "detailedView/tooltips/retryBtn/body"
+msgstr "Klikk for å forbedre resultatet ved å utføre primær- og sekundærvilkårene."
+
+msgid "detailedView/tooltips/retryBtn/header"
+msgstr "Fullfør inkludert sekundære vilkår"
+
+msgid "detailedView/tooltips/returnAwardListBtn/body"
+msgstr "Klikk for å fullføre primær- og sekundærvilkåret. Hvis du fullfører oppdraget inkludert både primær-, og sekundærvilkårene, vil du få tilbake ordren din."
+
+msgid "detailedView/tooltips/returnAwardListBtn/header"
+msgstr "Få tilbake ordre"
+
+msgid "detailedView/tooltips/startBtn/body"
+msgstr "Klikk for å starte oppdraget. Fullfør vilkårene og hent belønningen din."
+
+msgid "detailedView/tooltips/startBtn/header"
+msgstr "Begynn"
+
+msgid "fourFreeSheetsObtainedPopup/button"
+msgstr "Overfør"
+
+msgid "fourFreeSheetsObtainedPopup/header"
+msgstr "Kjøretøy tilgjengelig"
+
+msgid "fourFreeSheetsObtainedPopup/pm2/descr"
+msgstr "Utfør 3 ordrer i %(questName)s oppdraget og få de manglende tegningene til kjøretøyet."
+
+msgid "fourFreeSheetsObtainedPopup/pm2/pawnedDescr"
+msgstr "Hent %(pawnedCount)s ordre(r) fra oppdraget for å bruke 3 ordre på %(questName)s oppdraget og få de manglende tegningene til kjøretøyet."
+
+msgid "fourFreeSheetsObtainedPopup/regular/descr"
+msgstr "Utfør 4 ordrer i %(questName)s oppdraget og få de manglende komponentene til kjøretøyet."
+
+msgid "fourFreeSheetsObtainedPopup/regular/pawnedDescr"
+msgstr "Få tilbake %(pawnedCount)s ordre fra oppdraget, for å kunne gi 4 ordre på %(questName)s oppdraget og hente de siste komponenetene til kjøretøyet."
+
+msgid "freeSheetObtainedPopup/pm2/descrLeft"
+msgstr "Du kan benytte ordrer til å fullføre et hvilket som helst oppdrag i ett sett i Second Front kampanjen."
+
+msgid "freeSheetObtainedPopup/pm2/descrRight"
+msgstr "Fullfør det siste oppdraget ærefullt i alle settene til Second Front kampanjen."
+
+msgid "freeSheetObtainedPopup/pm2/title"
+msgstr "Du mottok en ordre til Second Front kampanjen"
+
+msgid "freeSheetObtainedPopup/pm2/titleLeft"
+msgstr "Hvordan bruke"
+
+msgid "freeSheetObtainedPopup/pm2/titleRight"
+msgstr "Hvordan tjene"
+
+msgid "freeSheetObtainedPopup/regular/descrLeft"
+msgstr "Du kan benytte ordrer til å fullføre\nethvert oppdrag i et sett."
+
+msgid "freeSheetObtainedPopup/regular/descrRight"
+msgstr "Fullfør det siste oppdraget i alle settene ærefullt."
+
+msgid "freeSheetObtainedPopup/regular/title"
+msgstr "Du mottok en ordre"
+
+msgid "freeSheetObtainedPopup/regular/titleLeft"
+msgstr "Hvordan bruke"
+
+msgid "freeSheetObtainedPopup/regular/titleRight"
+msgstr "Hvordan tjene"
+
+msgid "freeSheetPopover/freeSheetsInfo/descr"
+msgstr "Mottatt for fullførelse av det siste oppdraget i et sett."
+
+msgid "freeSheetPopover/freeSheetsInfo/title"
+msgstr "Tilgjengelig: %(count)d"
+
+msgid "freeSheetPopover/pawnedSheetsInfo/descr"
+msgstr "For å hente tilbake en brukt ordre, gjennomfør oppdraget ærefullt på nytt."
+
+msgid "freeSheetPopover/pawnedSheetsInfo/descr/noOne"
+msgstr "Du kan benytte ordrer til å fullføre\nethvert oppdrag i et sett."
+
+msgid "freeSheetPopover/pawnedSheetsInfo/title"
+msgstr "Iverksatt på oppdrag: %(count)d"
+
+msgid "freeSheetPopover/title"
+msgstr "Ordrer"
+
+msgid "header/backBtn/descrLabel/campaign"
+msgstr "TIL KART"
+
+msgid "header/backBtn/descrLabel/hangar"
+msgstr "TIL GARASJEN"
+
+msgid "header/backBtn/descrLabel/operation"
+msgstr "TIL OPERASJON"
+
+msgid "header/backBtn/label"
+msgstr "TILBAKE"
+
+msgid "navigation/backButton/assembling"
+msgstr "TIL MONTERING"
+
+msgid "navigation/backButton/campaignSelector"
+msgstr "TIL OPERASJONSKART"
+
+msgid "navigation/backButton/dashboard"
+msgstr "TIL OPERASJON"
+
+msgid "navigation/backButton/missions"
+msgstr "TIL OPPDRAG"
+
+msgid "navigation/backButton/rewards"
+msgstr "TIL OPERASJONSBELØNNINGER"
+
+msgid "operationInfo/awardsButton/label"
+msgstr "Operasjonsbelønninger"
+
+msgid "operationInfo/chainVehReq"
+msgstr "Nivå %(minLevel)s-%(maxLevel)s %(vehs)s"
+
+msgid "operationInfo/label"
+msgstr "Kampanjer"
+
+msgid "operationInfo/operationBtn/postponed/days"
+msgstr "%(days)sd"
+
+msgid "operationInfo/operationBtn/postponed/lessThanDay"
+msgstr "mindre enn 1 dag"
+
+msgid "operationInfo/title"
+msgstr "Operasjonskart"
+
+msgid "operationTitle/label/done"
+msgstr "Ordre: %(icon)s%(count)s/%(total)s  %(infoIcon)s"
+
+msgid "operationTitle/label/excellentDone"
+msgstr "Alle oppdragene ærefullt utført"
+
+msgid "operationTitle/label/inProgress/pm2"
+msgstr "Kan fullføres i %(vehData)s kjøretøy"
+
+msgid "operationTitle/label/inProgress/regular"
+msgstr "Kan fullføres i kjøretøy med %(vehData)s"
+
+msgid "operationTitle/label/locked"
+msgstr "Ikke tilgjengelig: Fullfør den forrige operasjonen"
+
+msgid "operationTitle/label/noVehicle/pm2"
+msgstr "Ikke tilgjengelig: Ingen passende %(vehData)s kjøretøy"
+
+msgid "operationTitle/label/noVehicle/regular"
+msgstr "Ikke tilgjengelig: Ingen passende kjøretøy fra %(vehData)s"
+
+msgid "operationTitle/label/notStarted"
+msgstr "Operasjonen %(currentOperation)s er tilgjengelig! %(infoIcon)s"
+
+msgid "operationTitle/label/notStartedNoVehicle"
+msgstr "Ikke tilgjengelig: Personlige oppdrag kan kun fullføres i kjøretøy på nivå %(minLevel)s eller høyere"
+
+msgid "operationTitle/label/toMaster"
+msgstr "Ærefullt utførte oppdrag: %(count)s/%(total)s  %(infoIcon)s"
+
+msgid "operationTitle/label/unlocked/pm2"
+msgstr "Velg et oppdrag å utføre i kjøretøy på nivå %(vehData)s"
+
+msgid "operationTitle/label/unlocked/regular"
+msgstr "Velg et oppdrag å utføre i kjøretøy fra %(vehData)s"
+
+msgid "operationTitle/title"
+msgstr "Operasjon: %(title)s"
+
+msgid "operationUnlockedWindow/awardText"
+msgstr "Gratulerer! Du kan nå fortsette med fullførelsen av %(title)s operasjonen."
+
+msgid "operationUnlockedWindow/descr"
+msgstr "Trykk %(label)s for å velge et oppdrag og få ny belønning."
+
+msgid "operationUnlockedWindow/header"
+msgstr "Operasjon: %(title)s"
+
+msgid "operationUnlockedWindow/nextButton"
+msgstr "Begynn"
+
+msgid "operationUnlockedWindow/title"
+msgstr "Operasjon åpnet"
+
+msgid "operations/completed/desc"
+msgstr "Kjøretøy mottatt"
+
+msgid "operations/current/desc"
+msgstr "Startet"
+
+msgid "operations/fullyCompleted/desc"
+msgstr "Ærefullt\nutført"
+
+msgid "operations/locked/desc"
+msgstr "Låst"
+
+msgid "operations/title1"
+msgstr "StuG IV"
+
+msgid "operations/title10"
+msgstr "Black Rock"
+
+msgid "operations/title2"
+msgstr "T28 HTC"
+
+msgid "operations/title3"
+msgstr "T 55A"
+
+msgid "operations/title4"
+msgstr "Object 260"
+
+msgid "operations/title5"
+msgstr "Excalibur"
+
+msgid "operations/title6"
+msgstr "Chimera"
+
+msgid "operations/title7"
+msgstr "Object 279 (e)"
+
+msgid "operations/title8"
+msgstr "Windhund"
+
+msgid "operations/title9"
+msgstr "Dravec"
+
+msgid "operations/unlocked/desc"
+msgstr "Tilgjengelig"
+
+msgid "pages/button/infopage/description"
+msgstr "Om personlige oppdrag"
+
+msgid "pages/button/video/description"
+msgstr "Se en videointroduksjon for personlige oppdrag"
+
+msgid "personalMissions/tankgirlsPopover/recruitBtn"
+msgstr "Rekruttér"
+
+msgid "personalMissions/tankgirlsPopover/title"
+msgstr "Kvinnelig besetningsmedlem"
+
+msgid "personalMissions/video/title"
+msgstr "Oppsummeringsvideo for oppdateringen"
+
+msgid "questAwardScreen/continueBtn/label"
+msgstr "Fortsett"
+
+msgid "questAwardScreen/nextQuest/title/questAccept"
+msgstr "Det følgende oppdraget har automatisk blitt akseptert:"
+
+msgid "questAwardScreen/nextQuest/title/questImprove"
+msgstr "Du vil automatisk fortsette å forbedre dine resultater for de følgende oppdragene:"
+
+msgid "questAwardScreen/nextQuestBtn/label"
+msgstr "Neste oppdrag"
+
+msgid "questAwardScreen/okBtn/label"
+msgstr "Bekreftet!"
+
+msgid "questAwardScreen/operation"
+msgstr "Operasjon %(operation)s"
+
+msgid "questAwardScreen/quest"
+msgstr "Oppdrag \"%(quest)s\" fullført!"
+
+msgid "questAwardScreen/recruitBtn/label"
+msgstr "Rekruttér"
+
+msgid "questProgressTracking/status/onPause"
+msgstr "Satt på pause"
+
+msgid "questProgressTracking/trackingStatus"
+msgstr "Begge oppdragene utføres for øyeblikket"
+
+msgid "questStatus/tankCondition"
+msgstr "Ikke tilgjengelig for det valgte kjøretøyet"
+
+msgid "sidebar/completed"
+msgstr "Fullført"
+
+msgid "sidebar/fullCompleted"
+msgstr "Ærefullt"
+
+msgid "sidebar/notSelected"
+msgstr "Ingen aktive"
+
+msgid "sidebar/vehicles/AT-SPG"
+msgstr "Panserjagere"
+
+msgid "sidebar/vehicles/SPG"
+msgstr "SPGer"
+
+msgid "sidebar/vehicles/heavyTank"
+msgstr "Tunge tanks"
+
+msgid "sidebar/vehicles/lightTank"
+msgstr "Lett tanks"
+
+msgid "sidebar/vehicles/mediumTank"
+msgstr "Medium tanks"
+
+msgid "statusPanel/freeSheetBtn/label"
+msgstr "Fullfør for %(count)d %(icon)s"
+
+msgid "statusPanel/freeSheets"
+msgstr "Tilgjengelig: %(count)s"
+
+msgid "statusPanel/pawnedSheets"
+msgstr "Iverksatt på oppdrag: %(count)s"
+
+msgid "statusPanel/proceedExecution/label"
+msgstr "Aktivér"
+
+msgid "statusPanel/resumeCompaing/label"
+msgstr "Gjenoppta kampanje"
+
+msgid "statusPanel/status/allDone"
+msgstr "Alle oppdragene er utført for %(vehicleClass)s"
+
+msgid "statusPanel/status/allExcellentDone"
+msgstr "Alle oppdragene med både primær- og sekundærvilkår er utført for %(vehicleClass)s"
+
+msgid "statusPanel/status/freeSheet"
+msgstr "En akseptert ordre"
+
+msgid "statusPanel/status/improve"
+msgstr "(Resultatforbedring)"
+
+msgid "statusPanel/status/locked"
+msgstr "Ikke tilgjengelig: Fullfør den forrige operasjonen"
+
+msgid "statusPanel/status/pawned"
+msgstr "(Får tilbake %(count)d %(icon)s)"
+
+msgid "statusPanel/status/selectTask"
+msgstr "Velg et oppdrag å fullføre"
+
+msgid "statusPanel/status/suspended"
+msgstr "Kampanjen %(campaignName)s er satt på pause. %(infoIcon)s"
+
+msgid "tankmoduleTooltipData/alliance/help/body"
+msgstr "Kan mottas for utførelse av primærvilkårene i det siste oppdraget i %(vehType)s settet."
+
+msgid "tankmoduleTooltipData/alliance/info"
+msgstr "Tegningen er påkrevet for å få %(vehName)s"
+
+msgid "tankmoduleTooltipData/help/body"
+msgstr "Kan mottas for utførelse av primærvilkårene i det siste oppdraget i %(vehType)s settet."
+
+msgid "tankmoduleTooltipData/help/title"
+msgstr "Hvordan motta"
+
+msgid "tankmoduleTooltipData/info"
+msgstr "Dette komponentet er påkrevet for å få %(vehName)s"
+
+msgid "tankmoduleTooltipData/status/alliance/notObtained"
+msgstr "Tegning ikke mottatt"
+
+msgid "tankmoduleTooltipData/status/alliance/obtained"
+msgstr "Tegning mottatt"
+
+msgid "tankmoduleTooltipData/status/available"
+msgstr "Tilgjengelig i %(count)d %(img)s"
+
+msgid "tankmoduleTooltipData/status/notObtained"
+msgstr "Komponent ikke mottatt"
+
+msgid "tankmoduleTooltipData/status/obtained"
+msgstr "Komponent mottatt"
+
+msgid "tankwomanTooltipData/advantages/brotherhood"
+msgstr "Våpenbrødrefordelen trent til 100%."
+
+msgid "tankwomanTooltipData/advantages/newPerk"
+msgstr "En eller flere fordeler som du selv velger trent til 100%."
+
+msgid "tankwomanTooltipData/advantages/title"
+msgstr "Fordeler:"
+
+msgid "tankwomanTooltipData/desc/body"
+msgstr "Kan mottas for utførelse av primærvilkårene i det siste oppdraget i hvert sett."
+
+msgid "tankwomanTooltipData/desc/title"
+msgstr "Hvordan motta:"
+
+msgid "tankwomanTooltipData/subTitle"
+msgstr "Et unikt besetningmedlem"
+
+msgid "tankwomanTooltipData/title"
+msgstr "Kvinnelig besetningsmedlem"
+
+msgid "taskDetailsView/additionalConditions"
+msgstr "Sekundære vilkår"
+
+msgid "taskDetailsView/btnLabel/returnAwardSheet"
+msgstr "Få tilbake ordre"
+
+msgid "taskDetailsView/btnLabel/returnAwardSheets"
+msgstr "Få tilbake ordre"
+
+msgid "taskDetailsView/mainConditions"
+msgstr "Primærvilkår"
+
+msgid "useAwardSheetWindow/cancelBtn"
+msgstr "Avbryt"
+
+msgid "useAwardSheetWindow/info"
+msgstr "Fullfør oppdraget ærefullt for å få tilbake en ordre."
+
+msgid "useAwardSheetWindow/locked"
+msgstr "Fullfør alle oppdragene i settet for å få tilbake ordrene."
+
+msgid "useAwardSheetWindow/needAmount"
+msgstr "Påkrevet for fullførelse:"
+
+msgid "useAwardSheetWindow/pm2/noVehicle"
+msgstr "Kjøreøty som er påkrevet for å få ordren: %(vehicleClass)s."
+
+msgid "useAwardSheetWindow/regular/noVehicle"
+msgstr "Kjøreøty som er påkrevet for å få ordren: %(vehicleClass)s."
+
+msgid "useAwardSheetWindow/sheetsTotal"
+msgstr "Totalt tilgjengelig:"
+
+msgid "useAwardSheetWindow/submitBtn"
+msgstr "Utfør"
+
+msgid "useAwardSheetWindow/title"
+msgstr "Utfør primærvilkåret"

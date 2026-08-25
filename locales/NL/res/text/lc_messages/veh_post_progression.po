@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "vuurkracht"
+
+msgid "categories/mobility"
+msgstr "mobiliteit"
+
+msgid "categories/stealth"
+msgstr "verkenning"
+
+msgid "categories/survivability"
+msgstr "overlevingsvermogen"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "Begrepen!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "Negatief!"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "Na het annuleren van modificaties kun je ze met credits weer opnieuw kopen."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "Na het annuleren van modificaties kun je ze weer opnieuw kopen."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "Alle dual modificaties gratis annuleren?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "Na het annuleren van de modificatie kun je die met credits weer opnieuw kopen."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "Na het annuleren van de modificatie kun je die weer opnieuw kopen."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "De %(modification)s dual modificatie gratis annuleren?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "KOOP MODIFICATIES"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "SELECTEER PLEKCATEGORIE"
+
+msgid "hint/entryPoint"
+msgstr "MODIFICATIES BESCHIKBAAR"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "KLIK EN WISSEL\nHULPMATERIEEL"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "KLIK EN WISSEL\nKERNMATERIEEL"
+
+msgid "hint/vehiclePreview"
+msgstr "VERANDERINGEN AAN VOERTUIGEIGENSCHAPPEN"
+
+msgid "postProgressionIntro/okButton"
+msgstr "Begrepen!"
+
+msgid "postProgressionIntro/title"
+msgstr "VELDMODIFICATIE"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "Speciale modificatie %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "Klik om de veranderde voertuigeigenschappen na ontvangst van het level te bekijken, met nadruk op de aangebrachte modificaties."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "Dual modificatie %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "Veldmodificatielevel"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "Beschikbaar na aankoop van het voertuig"
+
+msgid "researchEntry/status/notResearched"
+msgstr "Beschikbaar na het bereiken van de elitestatus"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "Beschikbaar na aankoop van het voertuig en het bereiken van de elitestatus"
+
+msgid "researchEntry/title"
+msgstr "VELDMODIFICATIE"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "Verhogen"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "Annuleren"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} en {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "Hulpmaterieel"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "Plek"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "Kernmaterieel"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "toegang tot speciale modificaties: {name1} en {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "toegang tot speciale modificaties: {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "toegang tot speciale modificatie: {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "toegang tot speciale modificaties: {name1}, {name2} en {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "toegang tot dual modificaties level {numbers}"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "toegang tot dual modificatie level {number}"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "Zal worden ontvangen: {unlockedItems}."
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "Het standaard modificatielevel verhogen naar {level}?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "Het standaard modificatielevel verhogen?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "Totaal:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "Toekenning"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "Beschikbare categorieën: %(roles)."
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "Geselecteerde categorie: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "De mogelijkheid om een categorie toe te kennen aan de tweede uitrustingsplek van dit voertuig."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "Categorietoekenning voor de eerste plek"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "Toekenning (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "Tweede plek categorie"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "Toekennen"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "Kopen en opnieuw toekennen"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "Inwisselen"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "Annuleren"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "Je kunt voor %(price) de plekcategorie opnieuw toekennen"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "De geselecteerde categorie zal aan de tweede uitrustingsplek worden toegekend. Je kunt voor %(price) de plekcategorie opnieuw toekennen."
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "Wisselkoers: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "Inwisselen mislukt: %(gold) meer nodig"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "Kies een categorie voor de tweede uitrustingsplek"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "Kies opnieuw een categorie voor de tweede uitrustingsplek"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "Het toekennen van een categorie aan de tweede uitrustingsplek is niet mogelijk: %(credits) meer nodig"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "Totaal:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "De mogelijkheid om een extra set {cream_Open}uitrusting{cream_Close} en {cream_Open}gevechtsbevelen{cream_Close} te gebruiken."
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "De mogelijkheid om een extra set {cream_Open}granaten{cream_Close} en {cream_Open}verbruiksartikelen{cream_Close} te gebruiken."
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "Hulpmaterieel"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "Kernmaterieel"
+
+msgid "setupTooltipView/tip"
+msgstr "Je kunt in de garage en tijdens de countdown voor het gevecht switchen tussen de hoofdconfiguratie en alternatieve configuratie van het voertuig."
+
+msgid "setupTooltipView/title"
+msgstr "Alternatieve configuratie: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)Hulpmaterieel%(/accent) is een voertuigconfiguratie die bestaat uit %(accent)uitrusting en gevechtsbevelen%(/accent). Nadat toegang tot de alternatieve configuratie is verkregen, kun je tijdens de countdown voor het gevecht %(accent)switchen tussen de configuraties%(/accent) van Hulpmaterieel."
+
+msgid "slides/additionalEquipment/title"
+msgstr "HULPMATERIEEL"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "Na het bereiken van een bepaald Veldmodificatielevel komt er voor je voertuig een %(accent)alternatieve configuratie%(/accent) beschikbaar waarmee je in de garage %(accent)een extra set uitrusting, munitie, verbruiksartikelen en gevechtsbevelen%(/accent) kunt voorbereiden. Deze configuratie, die niet de hoofdconfiguratie vervangt, ontgrendelt nieuwe mogelijkheden. Tijdens de countdown voor het gevecht kun je de kaart en teams analyseren en op basis daarvan %(accent)een van de twee%(/accent) voertuigconfiguraties selecteren. Hierdoor zul je beter voorbereid zijn op het gevecht."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "ALTERNATIEVE VOERTUIGCONFIGURATIE"
+
+msgid "slides/baseModifications/description"
+msgstr "%(accent)Standaard modificaties%(/accent) voegen een bonus toe aan %(accent)een van de voertuigeigenschappen%(/accent) en ze ontgrendelen dual modificaties. Deze modificaties kunnen gratis worden geïnstalleerd, en je hebt Gevechtservaring of Vrije ervaring nodig om ze te onderzoeken."
+
+msgid "slides/baseModifications/title"
+msgstr "STANDAARD MODIFICATIES"
+
+msgid "slides/extraModification/description"
+msgstr "%(accent)Speciale modificaties%(/accent) ontgrendelen de alternatieve configuratie voor het voertuig en laten je een %(accent)categorie toekennen%(/accent) aan de tweede uitrustingsplek (voor niveau VIII–X voertuigen). Je kunt met credits de geselecteerde plekcategorie opnieuw toekennen."
+
+msgid "slides/extraModification/title"
+msgstr "SPECIALE MODIFICATIES: ROLPLEK"
+
+msgid "slides/fieldModernization/description"
+msgstr "Veldmodificatie geeft je de mogelijkheid om een voertuig beter zijn rol te laten vervullen door zijn configuratie aan te passen en %(accent)zijn eigenschappen te veranderen%(/accent) door middel van diverse %(accent)modificaties%(/accent). Elke volgende modificatie kan worden vrijgespeeld na het onderzoeken van de vorige."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "VELDMODIFICATIE"
+
+msgid "slides/fieldModernization/title"
+msgstr "VOERTUIGEIGENSCHAPPEN VERANDEREN"
+
+msgid "slides/modificationTree/description"
+msgstr "De modificatieboom is beschikbaar voor %(accent)niveau VI–X%(/accent) onderzoekbare en verzamelvoertuigen met de %(accent)elitestatus%(/accent). Modificaties voor speciale, prijs-, belonings- en Premium voertuigen komen direct na de aankoop beschikbaar."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "MODIFICATIES ONDERZOEKEN"
+
+msgid "slides/modificationTree/title"
+msgstr "MODIFICATIES ONDERZOEKEN"
+
+msgid "slides/pairedModifications/description"
+msgstr "%(accent)Dual modificaties verbeteren één%(/accent) voertuigeigenschap en %(accent)verlagen een andere%(/accent). Je hebt Gevechtservaring of Vrije ervaring nodig om modificaties te onderzoeken, en credits om ze te installeren. Je kunt de modificatie %(accent)gratis%(/accent) %(accent)annuleren (van het voertuig verwijderen)%(/accent).\nBij verkoop van het voertuig worden de standaard en speciale modificaties opgeslagen, maar de dual modificaties worden geannuleerd."
+
+msgid "slides/pairedModifications/title"
+msgstr "DUAL MODIFICATIES"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)Kernmaterieel%(/accent) is een voertuigconfiguratie die bestaat uit %(accent)munitie en verbruiksartikelen%(/accent). Nadat toegang tot de alternatieve configuratie is verkregen, kun je tijdens de countdown voor het gevecht %(accent)switchen tussen de configuraties%(/accent) van Kernmaterieel."
+
+msgid "slides/requiredEquipment/title"
+msgstr "KERNMATERIEEL"
+
+msgid "slides/roleInBattle/description"
+msgstr "De rol van het voertuig reflecteert vergeleken met het voertuigtype nauwkeuriger de optimale %(accent)gevechtstactiek%(/accent) en definieert zodoende welke %(accent)modificatieboom%(/accent) er voor een bepaald voertuig beschikbaar zal zijn."
+
+msgid "slides/roleInBattle/title"
+msgstr "VOERTUIGROL IN HET GEVECHT"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "Modificaties wijzigen de eigenschappen van een voertuig, ontgrendelen %(accent)toegang tot alternatieve configuratie%(/accent) en laten je een categorie toekennen aan de %(accent)tweede plek%(/accent) voor uitrusting."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "Alternatieve configuratie is een tweede set %(accent)uitrusting, munitie, verbruiksartikelen en gevechtsbevelen%(/accent). Je kunt tussen configuraties switchen."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "De mogelijkheid om een categorie voor de %(accent)tweede uitrustingsplek%(/accent) te selecteren, wat van directe invloed is op de efficiëntie van het voertuig in het gevecht."
+
+msgid "slides/specialModifications/title"
+msgstr "MODIFICATIES, ALTERNATIEVE CONFIGURATIE, PLEKCATEGORIE"
+
+msgid "tooltips/entry_point/description"
+msgstr "De mogelijkheid om voertuigeigenschappen extra te wijzigen."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "Onderzochte modules en voertuigen: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "Onderzochte modules: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "Veldmodificatie"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "Beschikbaar na aankoop van het voertuig."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "Beschikbaar na het bereiken van de elitestatus."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "Beschikbaar na aankoop van het voertuig en het bereiken van de elitestatus."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "Onze excuses voor het tijdelijke ongemak. Probeer het later alsjeblieft opnieuw."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "Speciale modificaties onbeschikbaar"
+
+msgid "tooltips/feature/subTitle"
+msgstr "Speciale modificatie %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "Verdien ze in gevechten, verkoop overtollige artikelen uit je depot of wissel je goud in om meer credits te verkrijgen."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "Onvoldoende credits"
+
+msgid "tooltips/pairModification/demount"
+msgstr "Demonteren"
+
+msgid "tooltips/pairModification/level"
+msgstr "Dual modificatie %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "Veranderingen aan technische eigenschappen:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "Demonteren (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "Kopen (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "Kopen"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "Klik en bekijk de veranderingen aan de technische eigenschappen van het voertuig na het kopen van deze modificatie."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "Na het annuleren van de modificatie kun je met credits een andere modificatie van dit paar kopen."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "Het kopen van deze modificatie zal automatisch de reeds geïnstalleerde modificatie van dit paar annuleren."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "Andere modificatie gekocht"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "Bereik Veldmodificatielevel %(level) om toegang te krijgen tot deze modificatie"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "Modificatie onbeschikbaar"
+
+msgid "tooltips/priceBlock/free"
+msgstr "Gratis"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "nodig:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "Geschatte waarde. Precieze waarden staan in de eigenschappen."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "Aanbrengen"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "Annuleren"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "Resetten"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "%(title)s modificaties"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "Toevoegen aan vergelijking"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "Vernietig alle dual modificaties"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "Klik om alle dual modificaties te vernietigen."
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "Vernietigen"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "Voorvertoning"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "Opnieuw toekennen"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "Voor het gevecht"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "Selecteren"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "Schakel de optie voor het kiezen van sets uitrusting en gevechtsbevelen tijdens de countdown voor het gevecht in/uit.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "Schakel de optie voor het kiezen van sets granaten en verbruiksartikelen tijdens de countdown voor het gevecht in/uit.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "Indien uitgezet, zullen de in de garage geselecteerde sets tijdens het gevecht worden gebruikt."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "Wisselen voor het gevecht"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "Dit voertuig is in gevecht."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "Dit voertuig is vergrendeld."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "Dit voertuig heeft reparatie nodig."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "Dit voertuig zit in een tactische eenheid."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "Kan geen plekcategorie toekennen: het voertuig staat niet in de garage."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "De huurperiode van dit voertuig is verlopen."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "Dit voertuig is in gevecht."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "Dit voertuig is vergrendeld."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "Dit voertuig heeft reparatie nodig."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "Dit voertuig zit in een tactische eenheid."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "Kan niet worden gekocht: het voertuig staat niet in de garage."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "De huurperiode van dit voertuig is verlopen."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "Klik om een dual modificatie te vernietigen."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "Vernietigen"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "of"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "Maximaal level van Veldmodificatie"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "Beschikbaar voor niveau {minAllowedLevel}–{maxAllowedLevel} voertuigen"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "Beschikbaar voor niveau {allowedLevel} voertuigen"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "VERBERG EIGENSCHAPPEN"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "Permanente bonussen: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "Permanente bonus: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "Permanente bonussen: %(bonus1) en %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "Verhoog het level om de permanente bonussen te ontvangen: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "Verhoog het level om de permanente bonus te ontvangen: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "Verhoog het level om de permanente bonussen te ontvangen: %(bonus1) en %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "Verhoog level"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "Verhoog level naar %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "Verhoog het level en ontvang:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "Verbeterde eigenschappen"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "Speciale modificaties"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "Speciale modificatie {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "Dual modificaties"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "Dual modificatie {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "Naar modules"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "Veldmodificatie onbeschikbaar. Het voertuig is in gevecht."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "Veldmodificatie onbeschikbaar. Het voertuig is vergrendelt."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "Veldmodificatie onbeschikbaar. Het voertuig heeft reparatie nodig."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "De mogelijkheid om voertuigeigenschappen extra te veranderen komt beschikbaar nadat een voertuig de elitestatus heeft bereikt."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "Veldmodificatie onbeschikbaar: het voertuig zit in een tactische eenheid."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "Het voertuig moet in je garage staan om modificaties te kunnen onderzoeken en het Veldmodificatielevel te kunnen verhogen."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "Veldmodificatie is niet beschikbaar voor huurvoertuigen. Koop dit voertuig om Veldmodificatie te ontgrendelen."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "Veldmodificatie onbeschikbaar: de huurperiode van dit voertuig is verlopen. Verleng de huurperiode om Veldmodificatie te ontgrendelen."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "TOON EIGENSCHAPPEN"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "De mogelijkheid om voertuigeigenschappen extra te veranderen. Dit komt beschikbaar nadat een voertuig de elitestatus heeft bereikt."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "Veldmodificatie"

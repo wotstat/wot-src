@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Tulitauko on voimassa kaikilla saatavilla olevilla palvelimilla"
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "Tulitauko on voimassa tällä palvelimella."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Vaihde palvelin"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Teräksen metsästäjä on päättynyt"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Pelimuoto ei ole saatavilla tällä palvelimella"
+
+msgid "banner/info/disabled"
+msgstr "Tulitauko"
+
+msgid "banner/info/seasonActive"
+msgstr "Uusi tilaisuus ja palkintoja"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "%(day)s. %(month)s asti"
+
+msgid "banner/subtitle"
+msgstr "Battle royale arvokkailla palkinnoilla"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s t"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s t %(minutes)s min"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s min"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "TERÄKSEN METSÄSTÄJÄ"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Taistelu jatkuu uudesta sijainnista."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Palaat taisteluun pian"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Palataan taisteluun"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Toista tilaisuutta ei tule."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Taisteluun palaaminen ei ole enää saatavilla"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Taisteluun palaaminen ei enää pian ole saatavilla!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Ole varovaisempi tällä kertaa."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Vaunusi on valmiina taisteluun!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Taisteluun palaaminen"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Aktiivinen taistelu meneillään."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Taisteluun palaaminen ei ole mahdollista"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Löydä taisteluun palaamisen käyttökerta palauttaaksesi se takaisin taisteluun."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Liittolaisvaunu tuhoutui"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Palataan taisteluun"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "Kaksi vaunua on parempi kuin yksi!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Liittolaisvaunu palasi taisteluun"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Pysy poissa taistelusta!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Palautetaan liittolaista taisteluun"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Bonus aktivoitu!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Palkinto ensimmäisestä sijasta"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Kerätty taistelussa"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "VOITTO"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Lukua ei valittu. Käyttämättömiä Taistelupassin pisteitä: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Kaikki Luvut on suoritettu. Jatka pelaamista ja kerää Taistelupassin pisteitä."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Mene Taistelupassiin"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Taistelupassi"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Valitse Luku"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Mene aktiivisen Luvun etenemiseen"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Mene Taistelupassiin"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Tehtäviä suoritettu per taistelu: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Tehtävät"
+
+msgid "battleResult/battleReward/title"
+msgstr "SAATIIN TAISTELUSTA"
+
+msgid "battleResult/button/hangar"
+msgstr "Talliin"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Pisteet ja pakinnot jaetaan, kun kaikki pelaajat ovat poistuneet taistelusta. Tehtäviä arvioidaan myös taistelun tulosten perusteella."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Paina %(esc) ohittaaksesi animaation"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Kutsu osastoon"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Liittolainen"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Satunnainen liittolainen"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Taistelutyyppi"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "YKSINPELI"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "WoT Premium-tilillä voisit saada:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Arvot yhteensä WoT Premium-tilillä"
+
+msgid "battleResult/progressStage"
+msgstr "Vaiheen {stage} edistyminen"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Pelaajan todellista pelinimeä ja klaanitunnusta ei näytetä toisille pelaajille taistelussa."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Pelaajan varsinainen pelinimi: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Pelaajan todellinen nimi vaihdettiin seuraavaksi: {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Vaunusi panssarin torjuman vahingon määrä."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Aiheuttamasi vahingon määrä."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Tuhoamiesi vihollisvaunujen määrä."
+
+msgid "battleResult/stats/body/place"
+msgstr "Sijoituksesi taistelun tuloksissa."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Osastosi tuhoamien vihollisvaunujen kokonaismäärä."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Torjuttu vahinko"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Aiheutettu vahinko"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Tuhoutui toimestasi"
+
+msgid "battleResult/stats/header/place"
+msgstr "Sijainti"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Tuhottu osaston toimesta"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Torjuttu vahinko"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Aiheutettu vahinko"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Tuhoutui toimestasi"
+
+msgid "battleResult/stats/title/place"
+msgstr "Sijainti"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Tuhottu osaston toimesta"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Sarjataulukko"
+
+msgid "battleResult/tab/result"
+msgstr "Taistelun tulokset"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "OSASTO TUHOUTUI"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "VAUNU TUHOUTUI"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "VOITTO"
+
+msgid "battleResult/title/victoryOther"
+msgstr "KUNNIASIJA"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Valitse yksi erikoisvaunuista \"Teräksen metsästäjä\" -pelimuotoon."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Yhteensopimaton vaunu"
+
+msgid "button/modules"
+msgstr "KEHITYSPUU"
+
+msgid "button/repair"
+msgstr "Korjaa"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Taistelut eivät ole hetkellisesti saatavilla"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Taistelut eivät ole hetkellisesti saatavilla"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Pelimuoto ei saatavilla"
+
+msgid "ceasefire/header/schedule"
+msgstr "Taisteluaikataulu"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Tulitauko on voimassa kaikilla saatavilla olevilla palvelimilla. Näet aikataulun alta."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "Tulitauko on voimassa tällä palvelimella. Voit vaihtaa toiselle palvelimelle päästäksesi pelimuotoon."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Teräksen metsästäjä ei ole saatavilla tällä palvelimella. Voit vaihtaa toiselle palvelimelle päästäksesi osallistumaan siihen."
+
+msgid "commanderInfo/commonRank"
+msgstr "Komentaja"
+
+msgid "commanderInfo/description/china"
+msgstr "\"Olen jo voittanut. Tajuat sen pian.\""
+
+msgid "commanderInfo/description/france"
+msgstr "\"Minä olen laki!\""
+
+msgid "commanderInfo/description/germany"
+msgstr "\"Tänään on loistelias päivä, joka jää historiaan.\""
+
+msgid "commanderInfo/description/poland"
+msgstr "\"Nyt ei ole aikaa käytöstavoille.\""
+
+msgid "commanderInfo/description/sweden"
+msgstr "\"Kaikki sujuu suunnitelman mukaan.\""
+
+msgid "commanderInfo/description/uk"
+msgstr "\"Mitä hyvänsä oletkin, ole paras.\""
+
+msgid "commanderInfo/description/usa"
+msgstr "\"Vesuri on valmiina, kiillotettu ja teroitettu.\""
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"Voittaja saa kaiken!\""
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Pätevyydet"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nErikoisvaunu Teräksen metsästäjään"
+
+msgid "fragPanel/squadsCount"
+msgstr "Osastoja: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Sarjataulukko"
+
+msgid "hangarResults/btns/summary"
+msgstr "Taistelun tulokset"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "SULJE"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Moduuleja voi päivittää taistelussa. Avaa Päivitys -valikko painamalla taistelussa %(key)s."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s ja %(highlight2)s saadaksesi kokemusta. Jokainen taso mahdollistaa pelaajalle moduulin päivittämisen Päivitys -valikosta, joka parantaa merkittävästi vaunun ominaisuuksia."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Aiheuta vahinkoa vihollisvaunuihin"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "kerää kartalta sotasaaliita"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Vaunun päivittäminen taistelussa"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Lähdet taisteluun tason I vaunulla."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Moduuleja voi päivittää sekä Päivitys -valikosta taistelussa (oletuksena %(treeKey)s) että painamalla yhtä aikaa %(leftModuleKey)s ja %(rightModuleKey)s näppäimiä.\n\nModuuleja voi päivittää vain taistelussa."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "Taistelussa:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Teräksen metsästäjäsi saavat kokemusta taistelussa aiheutetusta vahingosta ja sotasaaliiden keräämisestä. Kun olet saanut vaaditun määrän kokemusta, voit saavuttaa seuraavan tason ja valita päivityksen yhteen moduuleista."
+
+msgid "levelUp/severalTitles"
+msgstr "SAADUT TASOT: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "TASO %(level)s SAATU!"
+
+msgid "levelUp/twoTitles"
+msgstr "SAADUT TASOT: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Suorita tehtäviä ja saat arvokkaita palkintoja."
+
+msgid "level_up/max_level_info/title"
+msgstr "Uusia päivittäisiä tehtäviä saatavilla"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Kausi\nalkaa pian"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Kausi alkaa %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Tarjouttu"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Vahinko"
+
+msgid "playerStats/killsStat/name"
+msgstr "Tuhotut"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Tuhotut"
+
+msgid "playerStats/placeStat/name"
+msgstr "Asema"
+
+msgid "playerStats/title"
+msgstr "Henkilökohtainen tulos"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Radiopeilaus ei saatavilla: valmistelu meneillään"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Vaunu täysin toimintakykyinen. Palautumiselle ei tarvetta."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Taistelurobotti tuhoutui"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s tuhosi %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s tuhosi vihollisen %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Tulipallo tuhoutunut"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Miinojen aika päättynyt"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Miinat asetettu"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Radiopeilaus on valmis käytettäväksi"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Vaunu on saavuttanut maksimitason"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Taso %(level)s saavutettu"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Asennettu: %(moduleType)s. Päivitetty: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Runko"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Telakoneisto"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Moottori"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Tykki"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Radiopeilaus"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Tykkitorni"
+
+msgid "playersPanel/title"
+msgstr "JOUKKUE"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Vaihda osaston vaunujen välillä."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Tarkkailija-tila"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Palaa talliin.\nLiity taisteluun toisella vaunulla."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Takaisin talliin"
+
+msgid "preBattle/buttonTitle"
+msgstr "TAISTELE!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Valitse kartta"
+
+msgid "preBattle/listTitle"
+msgstr "PELAAJAN VALMIUS"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Dreamland"
+
+msgid "preBattle/mapRandom"
+msgstr "Satunnainen kartta"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "OSASTON VAUNUT"
+
+msgid "preBattle/title"
+msgstr "SUURI METSÄSTYS"
+
+msgid "preBattle/userFooterTitle"
+msgstr "VALITUT VAUNUT"
+
+msgid "preBattle/userNotReady"
+msgstr "Ei valmis"
+
+msgid "preBattle/userReady"
+msgstr "Valmis"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Kausi %(cycleNo)s palvelimella %(server)s on päättynyt"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "Kausi %(server)s palvelimella on päättynyt."
+
+msgid "proxyPanel/button"
+msgstr "Kauppa"
+
+msgid "proxyPanel/label"
+msgstr "Terässinetit"
+
+msgid "proxyPanel/store"
+msgstr "KAUPPA"
+
+msgid "questsTooltip/timeLeft"
+msgstr "Kauden päättymiseen %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "Radiopeilaukselle ei ole määritetty näppäintä"
+
+msgid "radar/hint/press"
+msgstr "Paina"
+
+msgid "radar/hint/text"
+msgstr "aktivoidaksesi radiopeilauksen"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Laskeudu"
+
+msgid "selectRespawn/button/land"
+msgstr "Laskeudu"
+
+msgid "selectRespawn/description"
+msgstr "Klikkaa yhtä ehdotetuista pisteitä. Mikäli et valitse pistettä, laskeudut mille hyvänsä ehdotetuista pisteistä."
+
+msgid "selectRespawn/header"
+msgstr "Valitse laskeutumispiste"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Klikkaa yhtä ehdotetuista pisteitä. Mikäli et valitse pistettä, laskeudut mille hyvänsä ehdotetuista pisteistä."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Taistelusi alkaa täältä"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Valitse laskeutumispiste"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s p"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "TERÄSMYRSKY!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Happo syövyttää panssaria!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Alue on suljettu! Poistu alueelta tai vaunusi tuhoutuu!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "Alue muuttuu pian punaiseksi"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Liikeominaisuudet heikentyneet!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Takaisin teloilla..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Kestopisteitä palautetaan"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Kestopisteitä palautetaan"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Muunnetaan vahinkoa"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Tekniset ominaisuudet parantuneet"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Ammukset ja palautuminen"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Ilmapudotus"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Korjaussarja tai kyvyn käyttökerta"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Sotasaalis"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Yhdistetyt sotasaaliit: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Kerätään: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Korjausvyöhyke"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Kiihtyvää raivoa!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Savussa"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Panssarimme syöpyy!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Liikeominaisuudet heikentyneet!"
+
+msgid "techParams/type/damage"
+msgstr "Vahinko"
+
+msgid "techParams/type/difficulty"
+msgstr "Vaikeustaso"
+
+msgid "techParams/type/mobility"
+msgstr "Liikkuvuus"
+
+msgid "techParams/type/spotting"
+msgstr "Havaitseminen"
+
+msgid "techParams/type/survivability"
+msgstr "Selviytyvyys"
+
+msgid "techtree/body_armor"
+msgstr "Panssarointi"
+
+msgid "techtree/body_health"
+msgstr "Osumapisteet"
+
+msgid "techtree/body_mobility"
+msgstr "Liikkuvuus"
+
+msgid "techtree/engine_acceleration"
+msgstr "Liikeominaisuudet"
+
+msgid "techtree/engine_speed"
+msgstr "Huippunopeus"
+
+msgid "techtree/gun_alpha"
+msgstr "Vahinko per laukaus"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Automaattilataaja"
+
+msgid "techtree/gun_clip"
+msgstr "Lipaslataus"
+
+msgid "techtree/gun_dpm"
+msgstr "Latausnopeus"
+
+msgid "techtree/gun_dualgun"
+msgstr "Kaksoistykki"
+
+msgid "techtree/gun_he"
+msgstr "Sirpalekranaatin vahinko"
+
+msgid "techtree/gun_machinegun"
+msgstr "PST-konekivääri"
+
+msgid "techtree/gun_piercing"
+msgstr "Läpäisy"
+
+msgid "techtree/radar_cooldown"
+msgstr "Radiopeilauksen jäähtymisaika"
+
+msgid "techtree/radar_distance"
+msgstr "Havaitsemisetäisyys"
+
+msgid "techtree/turret_armor"
+msgstr "Panssarointi"
+
+msgid "techtree/turret_health"
+msgstr "Osumapisteet"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Pyörimisnopeus"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "Jopa {{credits}} krediittiä"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "Joka {{experience}} kokemusta"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Osaston taistelubonus"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Taistele osastossa satunnaisen liittolaisen kanssa. Pelatkaa joukkueena yhdeksää vihollisosastoa vastaan. Tässä pelimuodossa voi suorittaa osastotehtäviä. Osasto hajotetaan automaattisesti taistelun jälkeen."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Klassinen Teräksen metsästäjä. Kukin pelaaja taistelee yksin. Kerää resursseja, päivitä vaunuasi ja käytä sen ainutlaatuisia kykyjä ollaksesi viimeinen selviytyjä!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Taistele osastossa kaverin kanssa. Pelatkaa joukkueena yhdeksää vihollisosastoa vastaan. Tässä pelimuodossa voi suorittaa osastotehtäviä."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Satunnainen osasto"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Yksinpeli"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Osasto kaverin kanssa"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Yksin"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Osasto"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Säännöt pisteiden ansaitsemiseen"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s. sijoitukset"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s. sijoitukset"
+
+msgid "tooltips/awards/achievement"
+msgstr "Mitali"
+
+msgid "tooltips/awards/badge"
+msgstr "Arvomerkki"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "Mahdollistaa taisteluun palaamisen vaunusi tuhouduttua. Tämän tapahtuessa vaunun päivitystasoa ei menetetä. Sitä voi käyttää vain rajoitetun määrän kertoja per taistelu."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Uudelleensyntymiseen voi saada kertoja ilmapudotuksesta."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "Liittolaisen palauttamiseksi taisteluun sinun tulee pysyä poissa taistelusta {brown_Open}%(timeToResurrect)s s{brown_Close} ajan. Tämä mekaniikka toimii taistelun ensimmäisen {brown_Open}%(duration)s min{brown_Close} ajan. Taisteluun palaamisen käyttökerrat ovat osaston yhteisiä."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "Osastossa pelatessa"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Tuhouduttuasi vaunusi palaa taisteluun automaattisesti. Tämä mekaniikka toimii taistelun ensimmäisen {brown_Open}%(duration)s min{brown_Close} ajan."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "Yksin pelatessa"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Kertakäyttöinen"
+
+msgid "tooltips/respawn/title"
+msgstr "Taisteluun palaaminen"
+
+msgid "tooltips/vehicle/description"
+msgstr "Vaunu \"Teräksen metsästäjä\" -pelimuotoon"
+
+msgid "tournament/description"
+msgstr "SUURI METSÄSTYS"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Ei valmis"
+
+msgid "tournament/fightButton/ready"
+msgstr "Valmis!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Turnaukseen liittyminen ei onnistu. Virhekoodi: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Suuri metsästys -turnauksen virhe. Virhekoodi: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "SUURI METSÄSTYS"
+
+msgid "tournament/type/solo"
+msgstr "Tyyppi: yksilö"
+
+msgid "tournament/type/squad"
+msgstr "Tyyppi: osasto"
+
+msgid "upgradePanel/alert/0"
+msgstr "Et voi päivittää vaunuasi!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Et voi päivittää vaunuasi kesken aktiivisen taistelun!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Et voi päivittää vaunuasi. Vaunu on hukkumassa!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Et voi päivittää vaunuasi. Vaunu on kääntynyt katolleen!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Paina %(key)s avataksesi Päivitys -valikon"
+
+msgid "upgradePanel/title/default"
+msgstr "Uusi moduuli saatavilla"
+
+msgid "upgradePanel/title/hull"
+msgstr "Uusi runko saatavilla"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Uusi telakoneisto saatavilla"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Uusi moottori saatavilla"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Uusi tykki saatavilla"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Uusi radio saatavilla"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Uusi torni saatavilla"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "TAI"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Panssarointi"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Vahinko per laukaus"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Latausnopeus"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Osumapisteet"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Läpäisy"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Radiopeilauksen toiminta"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Rumpulipasjärjestelmä"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Nopeus"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Vaunun ominaisuudet"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Vahvuudet"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Heikkoudet"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Tulitauko on voimassa kaikilla palvelimilla. Taisteluiden alkamiseen %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Valitse toinen palvelin"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Jakso %(cycle)s päättyi"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Jakso päättynyt"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Tulitauko on voimassa tällä palvelimella. Taisteluiden alkamiseen %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Tulitauko on voimassa %(serverName)s palvelimella"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Jakso %(cycle)s alkaa %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "Ensimmäisen jakson alkamisen %(time)s"

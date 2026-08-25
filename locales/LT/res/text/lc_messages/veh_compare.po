@@ -1,0 +1,467 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "addVehPopover/btnAdd"
+msgstr "Įtraukti (%(count)d)"
+
+msgid "addVehPopover/btnCancel"
+msgstr "Atšaukti"
+
+msgid "addVehPopover/header"
+msgstr "Pasirinkite mašinas palyginimui"
+
+msgid "addVehPopover/showOnlyMyVahicles"
+msgstr "Rodyti mašinas esančias garaže"
+
+msgid "addVehPopover/tooltips/addToCompare/body"
+msgstr "Įtraukti pasirinktas mašinas į palyginimą"
+
+msgid "addVehPopover/tooltips/addToCompare/header"
+msgstr "Įtraukti"
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/body"
+msgstr "Norėdami įtraukti mašinas į palyginimą, pašalinkite nereikalingas iš palyginimo sąrašo."
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/header"
+msgstr "Negalima įtraukti"
+
+msgid "addVehPopover/tooltips/inHangar/body"
+msgstr "Rūšiuoti pagal mašinas garaže."
+
+msgid "addVehPopover/tooltips/inHangar/header"
+msgstr "Mašinos garaže"
+
+msgid "addVehPopover/tooltips/level/body"
+msgstr "Rūšiuoti pagal technikos lygį."
+
+msgid "addVehPopover/tooltips/level/header"
+msgstr "Technika"
+
+msgid "addVehPopover/tooltips/nation/body"
+msgstr "Rūšiuoti pagal nacijas."
+
+msgid "addVehPopover/tooltips/nation/header"
+msgstr "Nacija"
+
+msgid "addVehPopover/tooltips/selectVehicle/body"
+msgstr "Rūšiuoti pagal pasirinktas mašinas."
+
+msgid "addVehPopover/tooltips/selectVehicle/header"
+msgstr "Pasirinktos mašinos"
+
+msgid "addVehPopover/tooltips/title/body"
+msgstr "Rūšiuoti pagal mašinų pavadinimus."
+
+msgid "addVehPopover/tooltips/title/header"
+msgstr "Pavadinimas"
+
+msgid "addVehPopover/tooltips/type/body"
+msgstr "Rūšiuoti pagal technikos tipą."
+
+msgid "addVehPopover/tooltips/type/header"
+msgstr "Tipas"
+
+msgid "addVehPopover/vehicleName"
+msgstr "Pavadinimas"
+
+msgid "cartPopover/configurationType/basic"
+msgstr "Bazinė"
+
+msgid "cartPopover/configurationType/current"
+msgstr "Dabartinė"
+
+msgid "cartPopover/configurationType/custom"
+msgstr "Sukonfigūruota"
+
+msgid "cartPopover/configurationType/premium"
+msgstr "Premium"
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/attention"
+msgstr "Norėdami įtraukti mašinas į palyginimą, pašalinkite nereikalingas iš palyginimo sąrašo."
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/header"
+msgstr "Negalima įtraukti"
+
+msgid "cartPopover/gotoCompareBtn/label"
+msgstr "(%(value)s) į palyginimą"
+
+msgid "cartPopover/openCmpBtn/tooltip/body"
+msgstr "Pereiti į pasirinktų mašinų palyginimą."
+
+msgid "cartPopover/openCmpBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeAllBtn/label"
+msgstr "Išvalyti sąrašą"
+
+msgid "cartPopover/removeAllBtn/tooltip/body"
+msgstr "Pašalinti visas mašinas iš palyginimo sąrašo."
+
+msgid "cartPopover/removeAllBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtn/tooltip/body"
+msgstr "Paspauskite norėdami pašalinti mašiną iš palyginimo."
+
+msgid "cartPopover/removeBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtnLocked/tooltip/body"
+msgstr "Negalima pašalinti mašinų iš palyginimų sąrašo, kai atidarytas konfigūravimo langas."
+
+msgid "cartPopover/removeBtnLocked/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeLockedBtn/tooltip/body"
+msgstr "Negalima pašalinti mašinos iš palyginimų sąrašo, kai atidarytas palyginimų langas."
+
+msgid "cartPopover/removeLockedBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/sorting/nation/body"
+msgstr "Rodo pasirinktų mašinų naciją."
+
+msgid "cartPopover/sorting/nation/header"
+msgstr "Nacija"
+
+msgid "cartPopover/sorting/vehLvl/body"
+msgstr "Rodo pasirinktų mašinų lygį."
+
+msgid "cartPopover/sorting/vehLvl/header"
+msgstr "Lygis"
+
+msgid "cartPopover/sorting/vehName"
+msgstr "Pavadinimas"
+
+msgid "cartPopover/sorting/vehName/tooltip/body"
+msgstr "Rodo pasirinktų mašinų pavadinimą."
+
+msgid "cartPopover/sorting/vehName/tooltip/header"
+msgstr "Pavadinimas"
+
+msgid "cartPopover/sorting/vehType/body"
+msgstr "Rodo pasirinktų mašinų tipą."
+
+msgid "cartPopover/sorting/vehType/header"
+msgstr "Tipas"
+
+msgid "cartPopover/title"
+msgstr "Palyginimo sąrašas"
+
+msgid "compareVehicleBtn/tooltips/disabledOnServer/attention"
+msgstr "Ši operacija šiuo metu negalima."
+
+msgid "header/closeBtn/label"
+msgstr "UŽDARYTI"
+
+msgid "menu/cloneForCompare"
+msgstr "Kopijuoti palyginimui"
+
+msgid "modulesView/closeBtnLabel"
+msgstr "Atšaukti"
+
+msgid "modulesView/closeBtnLabel/tooltip/body"
+msgstr "Atšaukti modulių pasirinkimą ir grįžti į mašinos konfigūravimą."
+
+msgid "modulesView/closeBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/compareBtnLabel"
+msgstr "Priimti"
+
+msgid "modulesView/compareBtnLabel/tooltip/body"
+msgstr "Išsaugoti pasirinktus modulius ir pereikite į mašinos konfigūravimą."
+
+msgid "modulesView/compareBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/resetBtnLabel"
+msgstr "Atstatyti"
+
+msgid "modulesView/resetBtnLabel/tooltip/body"
+msgstr "Paspauskite norėdami atstatyti komplektaciją į standartinę."
+
+msgid "modulesView/resetBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/title"
+msgstr "Modulių konfigūravimas %(vehName)s"
+
+msgid "modulesView/vehicleStatus/inHangar"
+msgstr "Yra garaže"
+
+msgid "modulesView/vehicleStatus/readyToBuy"
+msgstr "Nenupirkta"
+
+msgid "modulesView/vehicleStatus/readyToResearch"
+msgstr "Neišrasta"
+
+msgid "skillSelect/bonusSkills"
+msgstr "Papildomi įgūdžiai"
+
+msgid "skillSelect/button/addToCompare"
+msgstr "Įtraukti į palyginimą"
+
+msgid "skillSelect/button/cancel"
+msgstr "Atšaukti"
+
+msgid "skillSelect/button/restore"
+msgstr "Atstatyti"
+
+msgid "skillSelect/majorSkills"
+msgstr "Pagrindinės kvalifikacijos įgūdžiai"
+
+msgid "skillSelect/tooltip/additionalRoles"
+msgstr "Papildoma pareiga:"
+
+msgid "skillSelect/tooltip/generalPrinciple"
+msgstr "Bendras principas"
+
+msgid "skillSelect/tooltip/generalPrincipleDescription"
+msgstr "Konfigūracijos lange parodoma, kaip įgūdžiai paveikia atitinkamas mašinos charakteristikas, kai jie ištreniruoti iki {cream_Open}100%{cream_Close} ir jų efektyvumas siekia {cream_Open}100%{cream_Close}."
+
+msgid "skillSelect/tooltip/heading"
+msgstr "Įgulos įgūdžiai, skirti %(vehicleName)s"
+
+msgid "skillSelect/tooltip/roles"
+msgstr "Kvalifikacijos"
+
+msgid "skillSelect/tooltipHint"
+msgstr "*Užvedę pelę ant įgūdžio pamatysite, kaip jis paveikia atitinkamas charakteristikas, kai jo treniravimo lygis ir įgūdžio efektyvumas pasiekia 100%."
+
+msgid "skillsConf/empty"
+msgstr "Pasirinkti įgulos įgūdžius"
+
+msgid "skillsConf/emptyTooltip/body"
+msgstr "Pasirinkite įgūdžius ir pamatykite, kaip jie paveikia mašinos charakteristikas"
+
+msgid "skillsConf/emptyTooltip/header"
+msgstr "Įgulos įgūdžiai"
+
+msgid "skillsConf/header"
+msgstr "Įgulos įgūdžiai"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "Įtraukti į palyginimą"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "Šios mašinos negalima įtraukti į palyginimą."
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/disabled/body"
+msgstr "Norėdami įtraukti mašinas į palyginimą, pašalinkite nereikalingas iš palyginimo sąrašo."
+
+msgid "store/compareVehicleBtn/tooltips/disabled/header"
+msgstr "Negalima įtraukti į palyginimą"
+
+msgid "techTree/tooltips/addToCompare/body"
+msgstr "Įtraukti į palyginimą"
+
+msgid "techTree/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehConf/applyBtnLabel"
+msgstr "Uždėti"
+
+msgid "vehConf/btnCleanUp"
+msgstr "Išvalyti"
+
+msgid "vehConf/cancelBtnLabel"
+msgstr "Atšaukti"
+
+msgid "vehConf/cancelBtnLabel/tooltip/body"
+msgstr "Paspauskite norėdami atšaukti pasirinktą konfigūraciją ir sugrįžti į palyginimą."
+
+msgid "vehConf/cancelBtnLabel/tooltip/header"
+msgstr "Atšaukti"
+
+msgid "vehConf/compareBtnLabel/tooltip/body"
+msgstr "Paspauskite norėdami išsaugoti pasirinktą konfigūraciją ir sugrįžti į palyginimą."
+
+msgid "vehConf/compareBtnLabel/tooltip/header"
+msgstr "Uždėti"
+
+msgid "vehConf/confAvailable"
+msgstr "PASIEKIAMAS\nKONFIGŪRAVIMAS"
+
+msgid "vehConf/doesntAffect"
+msgstr "Neįtakoja supaprastintų mašinos techninių charakteristikų"
+
+msgid "vehConf/equipment"
+msgstr "Įranga ir ekipuotė"
+
+msgid "vehConf/header"
+msgstr "Konfigūracija %(vehName)s"
+
+msgid "vehConf/modifications/choose"
+msgstr "Pasirinkite modifikacijas"
+
+msgid "vehConf/modifications/title"
+msgstr "Modifikacijos"
+
+msgid "vehConf/modules"
+msgstr "Moduliai"
+
+msgid "vehConf/resetBtnLabel"
+msgstr "Atstatyti"
+
+msgid "vehConf/resetBtnLabel/tooltip/body"
+msgstr "Paspauskite norėdami atstatyti pradinę mašinos konfigūraciją."
+
+msgid "vehConf/resetBtnLabel/tooltip/header"
+msgstr "Atstatyti"
+
+msgid "vehConf/tooltips/btnCleanUp/body"
+msgstr "Paspauskite norėdami pašalinti pasirinktą elementą."
+
+msgid "vehConf/tooltips/btnCleanUp/header"
+msgstr "Išvalyti"
+
+msgid "vehConf/tooltips/camoInfo"
+msgstr "Norėdami padidinti mašinos maskuotę kiekvieno tipo žemėlapiuose, uždėkite vasaros, žiemos ir dykumų kamufliažus."
+
+msgid "vehConf/tooltips/camoInfoDisabled/body"
+msgstr "Šis visų sezonų kamufliažas yra neatsiejama mašinos dalis. Jis negali būti pašalintas ar pakeistas."
+
+msgid "vehConf/tooltips/camoInfoDisabled/header"
+msgstr "Visų sezonų kamufliažas"
+
+msgid "vehConf/tooltips/camoTitle"
+msgstr "Kamufliažas"
+
+msgid "vehConf/tooltips/defCamoInfo"
+msgstr "Uždėti 3 kamufliažai, kurių\nnegalima nuimti: žiemos, vasaros, dykumų."
+
+msgid "vehConf/tooltips/deviceNotAffectedTTC"
+msgstr "Neįtakoja mašinos techninių charakteristikų"
+
+msgid "vehConf/tooltips/modifications/description"
+msgstr "Pasirinkite modifikacijas, kurios leidžia jums konfigūruoti mašiną pagal jai skirtą rolę bei pakeisti jos charakteristikas."
+
+msgid "vehConf/tooltips/modifications/remove"
+msgstr "Atšaukti visas modifikacijas"
+
+msgid "vehConf/tooltips/modifications/title"
+msgstr "Modifikacijų valdymo skydas"
+
+msgid "vehConf/tooltips/revertBtn/body"
+msgstr "Paspauskite norėdami atstatyti pradinę mašinos konfigūraciją."
+
+msgid "vehConf/tooltips/revertBtn/header"
+msgstr "?empty?"
+
+msgid "vehConf/tooltips/topModulesLabel/body"
+msgstr "Šiai mašinai nėra kitų modulių: ši mašinos komplektacija yra galutinė."
+
+msgid "vehConf/tooltips/topModulesLabel/header"
+msgstr "Geriausia komplektacija"
+
+msgid "vehConf/tooltips/topModulesOff/body"
+msgstr "Paspauskite norėdami pasirinkti geriausius modulius šiai mašinai."
+
+msgid "vehConf/tooltips/topModulesOff/header"
+msgstr "Geriausia komplektacija"
+
+msgid "vehConf/tooltips/topModulesOn/body"
+msgstr "Paspauskite norėdami atšaukti geriausios komplektacijos pasirinkimą."
+
+msgid "vehConf/tooltips/topModulesOn/header"
+msgstr "Geriausia komplektacija"
+
+msgid "vehConf/topModulesBtnLabel"
+msgstr "Pasirinkti geriausią komplektaciją"
+
+msgid "vehConf/topModulesLabel"
+msgstr "Geriausia komplektacija"
+
+msgid "vehPreview/compareInfo/addToCompare"
+msgstr "Įtraukti į palyginimą - "
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "Įtraukti į palyginimą"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "Šios mašinos negalima įtraukti į palyginimą."
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/body"
+msgstr "Norėdami įtraukti mašinas į palyginimą, pašalinkite nereikalingas iš palyginimo sąrašo."
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/header"
+msgstr "Negalima įtraukti"
+
+msgid "vehicleCompareView/btnAddVehicles"
+msgstr "Įtraukti į palyginimą"
+
+msgid "vehicleCompareView/configurationType/basic"
+msgstr "Bazinė"
+
+msgid "vehicleCompareView/configurationType/current"
+msgstr "Dabartinė"
+
+msgid "vehicleCompareView/configurationType/custom"
+msgstr "Sukonfigūruota"
+
+msgid "vehicleCompareView/configure"
+msgstr "Konfigūruoti"
+
+msgid "vehicleCompareView/toHangar"
+msgstr "Peržiūrėti garaže"
+
+msgid "vehicleCompareView/toPreview"
+msgstr "Peržiūra"
+
+msgid "vehicleCompareView/tooltips/addVehicles/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/addVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/configure/body"
+msgstr "Paspauskite norėdami pasirinkti parametrus, kurie įtakoja technines charakteristikas."
+
+msgid "vehicleCompareView/tooltips/configure/header"
+msgstr "Konfigūruoti parametrus"
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/body"
+msgstr "Paspauskite norėdami pašalinti visas mašinas iš palyginimo."
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/body"
+msgstr "Pašalinti iš palyginimo."
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/topPanel/noVehicle"
+msgstr "Mašinos nepasirinktos"
+
+msgid "vehicleCompareView/topPanel/premium"
+msgstr "Premium"
+
+msgid "vehicleCompareView/topPanel/vehiclesCount"
+msgstr "Mašinos palyginimui: %(count)s"

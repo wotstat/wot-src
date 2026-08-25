@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "closeButtonLabel"
+msgstr "SLUITEN"
+
+msgid "featureName"
+msgstr "HERHALINGEN"
+
+msgid "filter/apply"
+msgstr "Filter toepassen"
+
+msgid "filter/group/nation/title"
+msgstr "Natie"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Niveau"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Niveau"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specialisatie"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Voertuigtype"
+
+msgid "filter/reset"
+msgstr "Reset filter"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Toon/verberg bemanningsleden van deze natie."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Toon/verberg skins van deze natie."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Toon/verberg voertuigen van deze natie."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Toon/verberg voertuigen van dit type."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Tankjagers"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Artillerie"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Zware tanks"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Lichte tanks"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Medium tanks"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Geen voertuigen gevonden die\naan de zoekcriteria voldoen"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sorteer op voertuignaam."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Naam"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sorteer op voertuigniveau."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Niveau"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sorteer op voertuigtype."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Type"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Naam"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Klik om filterinstellingen toe te passen."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Geselecteerde filters toepassen"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Klik om filterinstellingen te resetten."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Reset alle filters"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Toon alleen prime time herhalingen"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "Afgelopen %(count)s dag"
+msgstr[1] "Afgelopen %(count)s dagen"
+msgstr[2] "Afgelopen %(count)s dagen"
+
+msgid "filterPopover/title"
+msgstr "Herhalingenfilter"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Pas herhalingenfilter aan op voertuigtype, -niveau, -natie, etc."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Filter op parameters"
+
+msgid "findReplay/buttonText/find"
+msgstr "Vind herhaling"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Veld leegmaken"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Bekijk herhaling!"
+
+msgid "findReplay/errorMessage"
+msgstr "Niks gevonden. Verander alsjeblieft je verzoek"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Typ hier alsjeblieft de ARENA_ID..."
+
+msgid "findReplay/successMessage"
+msgstr "AI heeft een herhaling gevonden die je interessant vindt! Geniet ervan"
+
+msgid "page/heading/bestReplays"
+msgstr "BESTE HERHALINGEN"
+
+msgid "page/heading/findReplay"
+msgstr "VIND HERHALING (VOOR DEV)"
+
+msgid "page/heading/myReplays"
+msgstr "MIJN HERHALINGEN"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Deze sectie bevat informatie over Beste herhalingen van alle WoT-spelers"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Deze sectie is voor het vinden van een herhaling met een parameter"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Deze sectie bevat informatie over JOUW beste herhalingen"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "Beste herhalingen"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Vind herhaling"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "Mijn herhalingen"
+
+msgid "statsParam/damageAssisted"
+msgstr "Top 1 in hulp bij vernietiging"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Top 1 in geblokkeerde schade"
+
+msgid "statsParam/damageDealt"
+msgstr "Top 1 in veroorzaakte schade"
+
+msgid "statsParam/earnedXp"
+msgstr "Top 1 in verdiende ervaring"
+
+msgid "statsParam/kills"
+msgstr "Top 1 in vernietigde voertuigen"
+
+msgid "table/error/buttonText"
+msgstr "Updaten"
+
+msgid "table/error/description"
+msgstr "Onze excuses voor het tijdelijke ongemak. Probeer de pagina alsjeblieft later te updaten."
+
+msgid "table/error/title"
+msgstr "Fout bij het laden van gegevens"
+
+msgid "table/header/damageAssisted"
+msgstr "Geassisteerd"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Geblokkeerde schade"
+
+msgid "table/header/damageDealt"
+msgstr "Schade"
+
+msgid "table/header/date"
+msgstr "Datum"
+
+msgid "table/header/earnedXp"
+msgstr "Verdiende XP"
+
+msgid "table/header/kills"
+msgstr "Aantal vernietigde voertuigen"
+
+msgid "table/header/map"
+msgstr "Kaart"
+
+msgid "table/header/marksOfMastery"
+msgstr "Meesterschapsmarkeringen"
+
+msgid "table/header/player"
+msgstr "Spelersnaam"
+
+msgid "table/header/vehicle"
+msgstr "Voertuig"
+
+msgid "table/noRecords/buttonText"
+msgstr "Reset filter"
+
+msgid "table/noRecords/title"
+msgstr "Niets gevonden. Verander alsjeblieft de instellingen of reset het filter"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Klik om filterinstellingen te resetten."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Reset alle filters"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Hoeveelheid geassisteerde schade door de speler in deze herhaling"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Geassisteerde schade"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Hoeveelheid geblokkeerde schade door de speler in deze herhaling"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Schade geblokkeerd door bepantsering"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Hoeveelheid veroorzaakte schade door de speler in deze herhaling"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Veroorzaakte schade"
+
+msgid "table/tooltip/date/body"
+msgstr "Datum waarop de herhaling is opgenomen."
+
+msgid "table/tooltip/date/header"
+msgstr "Datum van herhaling"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Hoeveelheid verdiende XP door de speler in deze herhaling"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Verdiende XP"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Epische markeringen verdiend door de speler in deze herhaling"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Epische medailles"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Klik om deze herhaling aan Favoriete herhalingen toe te voegen."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Favoriet"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Klik om deze herhaling uit Favoriete herhalingen te verwijderen."
+
+msgid "table/tooltip/kills/body"
+msgstr "Aantal voertuigen vernietigd door de speler in deze herhaling"
+
+msgid "table/tooltip/kills/header"
+msgstr "Kills"
+
+msgid "table/tooltip/map/body"
+msgstr "Kaart van de herhaling."
+
+msgid "table/tooltip/map/header"
+msgstr "Kaart"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Belangrijke markeringen verdiend door de speler in deze herhaling"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Meesterschapsmarkeringen"
+
+msgid "table/tooltip/player/body"
+msgstr "De naam van de speler uit de herhaling."
+
+msgid "table/tooltip/player/header"
+msgstr "Spelersnaam"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Het voertuig van de speler waarmee de herhaling is opgenomen."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Voertuig"
+
+msgid "tableInfo/amount"
+msgstr "Herhalingen getoond: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Filter"
+
+msgid "waitingSpinner/message"
+msgstr "Inhoud laden..."

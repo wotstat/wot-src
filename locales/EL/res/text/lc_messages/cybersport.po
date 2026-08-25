@@ -1,0 +1,689 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CSAnimation/applyBtn/label"
+msgstr "Έλαβα γνώση!"
+
+msgid "CSAnimation/description"
+msgstr "Συγχαρητήρια! Η ομάδα σας ανέβηκε στην επόμενη κατηγορία. Συνεχίστε έτσι!"
+
+msgid "CSAnimation/header"
+msgstr "Αλλαγή Κατηγορίας"
+
+msgid "InvitesAndRequestsWindow/accepted"
+msgstr "Εγκρίθηκε"
+
+msgid "InvitesAndRequestsWindow/cancelled"
+msgstr "Ακυρώθηκε"
+
+msgid "InvitesAndRequestsWindow/officerDescription"
+msgstr "Μέλη ομάδας—με επιλογή φίλων και κατάλληλων παικτών."
+
+msgid "InvitesAndRequestsWindow/onlyInvitesCheckbox"
+msgstr "Προβολή μόνο απεσταλμένων προσκλήσεων"
+
+msgid "InvitesAndRequestsWindow/ownerDescription"
+msgstr "Μέλη ομάδας—με επιλογή φίλων και κατάλληλων παικτών."
+
+msgid "InvitesAndRequestsWindow/playerName"
+msgstr "Όνομα"
+
+msgid "InvitesAndRequestsWindow/rejected"
+msgstr "Απορρίφθηκε"
+
+msgid "InvitesAndRequestsWindow/status"
+msgstr "Κατάσταση"
+
+msgid "InvitesAndRequestsWindow/title"
+msgstr "Απεσταλμένες Προσκλήσεις και Υποβληθείσες Αιτήσεις"
+
+msgid "InvitesAndRequestsWindow/windowTitle"
+msgstr "Αιτήσεις και Προσκλήσεις"
+
+msgid "StaticFormationStatsView/seasonFilter"
+msgstr "Στατιστικά για:"
+
+msgid "TextLoading/loading"
+msgstr "Φόρτωση"
+
+msgid "button/chooseVehicles/info/tooltip/description/notSelected"
+msgstr "Δεν επιλέχθηκε όχημα. Μη δυνατή η εκκίνηση της Αυτόματης Αναζήτησης."
+
+msgid "button/chooseVehicles/info/tooltip/description/notValid"
+msgstr "Το επιλεγμένο όχημα δεν είναι έτοιμο. Μη δυνατή η εκκίνηση της Αυτόματης Αναζήτησης."
+
+msgid "button/chooseVehicles/info/tooltip/description/valid"
+msgstr "Τα προαπαιτούμενα οχήματα έχουν επιλεχθεί. Μπορείτε να ξεκινήσετε την Αυτόματη Αναζήτηση."
+
+msgid "button/chooseVehicles/info/tooltip/title"
+msgstr "Επιλέξτε Όχημα"
+
+msgid "button/chooseVehicles/selected"
+msgstr "Επιλεγμένα οχήματα"
+
+msgid "button/medallion/addSlotSettings"
+msgstr "Προσθήκη"
+
+msgid "button/medallion/availableQuantity"
+msgstr "Κατάλληλα:"
+
+msgid "button/medallion/chooseVehicle"
+msgstr "Επιλέξτε Όχημα"
+
+msgid "introView/leftBlock/btnLabel"
+msgstr "Αναζήτηση"
+
+msgid "introView/leftBlock/descr"
+msgstr "Επιλέξτε κατάλληλη ομάδα από την λίστα με τις διαθέσιμες. Θα πρέπει να πληροίτε τις προδιαγραφές του Αρχηγού."
+
+msgid "introView/leftBlock/header"
+msgstr "Αναζήτηση για Ομάδα"
+
+msgid "introView/rightBlock/btnLabel"
+msgstr "Δημιουργία"
+
+msgid "introView/rightBlock/descr"
+msgstr "Δημιουργήστε ομάδα με φίλους ή με παίκτες που έχουν κατάλληλα οχήματα."
+
+msgid "introView/rightBlock/header"
+msgstr "Δημιουργία Ομάδας"
+
+msgid "rallyInfo/profileBtn/Label"
+msgstr "Μητρώο Ομάδας"
+
+msgid "respawn/chatHeader"
+msgstr "Κανάλι Συνομιλίας"
+
+msgid "respawn/enemyTeamStatus/Header"
+msgstr "Αντίπαλοι:"
+
+msgid "respawn/enemyTeamStatus/notReady"
+msgstr "Όχι έτοιμη"
+
+msgid "respawn/enemyTeamStatus/ready"
+msgstr "Έτοιμοι!"
+
+msgid "respawn/fight/label"
+msgstr "Ομάδα Έτοιμη!"
+
+msgid "respawn/fight/status/commander"
+msgstr "Επιβεβαιώστε την ετοιμότητα της ομάδας."
+
+msgid "respawn/fight/status/private"
+msgstr "Αναμονή για μάχη..."
+
+msgid "respawn/status/info"
+msgstr "Επιλέξτε όχημα μέσα στον προκαθορισμένο χρόνο."
+
+msgid "respawn/status/ready"
+msgstr "Αναμονή για έναρξη της μάχης…"
+
+msgid "respawn/status/warning"
+msgstr "Επιβεβαίωση ετοιμότητας."
+
+msgid "respawn/team/points"
+msgstr "Άθροισμα βαθμίδων των οχημάτων:"
+
+msgid "respawn/team/teamMembers"
+msgstr "Μέλη ομάδας: %(current)s / %(max)s"
+
+msgid "respawn/team/teamVehiclesStub"
+msgstr "Οχήματα: VI–VIII"
+
+msgid "selectedFormation/JoinUnitSection/header"
+msgstr "Επιλογή Χώρου Μάχης"
+
+msgid "squadWindow/waitingForBattle"
+msgstr "Ο Ουλαμός Είναι Στην Αναμονή Για Μάχη"
+
+msgid "unitView/header"
+msgstr "Χώρος Μάχης"
+
+msgid "window/autoSearch/confirmation/cancelLbl"
+msgstr "Ακύρωση"
+
+msgid "window/autoSearch/confirmation/ctxMessage"
+msgstr "Χρόνος που απομένει για επικύρωση:"
+
+msgid "window/autoSearch/confirmation/ctxSeconds"
+msgstr "sec"
+
+msgid "window/autoSearch/confirmation/headerText"
+msgstr "Βρέθηκε Ομάδα"
+
+msgid "window/autoSearch/confirmation/mainText"
+msgstr "Επικυρώστε ετοιμότητα"
+
+msgid "window/autoSearch/confirmation/submitlLbl"
+msgstr "Έτοιμος!"
+
+msgid "window/autoSearch/errorState/cancelLbl"
+msgstr "Άκυρο"
+
+msgid "window/autoSearch/errorState/ctxMessage"
+msgstr "Αναζήτηση για νέα ομάδα?"
+
+msgid "window/autoSearch/errorState/headerText"
+msgstr "Ο Χρόνος Έληξε"
+
+msgid "window/autoSearch/errorState/mainText"
+msgstr "Βρέθηκε Ομάδα,\nαλλά δεν επικυρώσατε την ετοιμότητά σας."
+
+msgid "window/autoSearch/errorState/submitlLbl"
+msgstr "Αναζήτηση"
+
+msgid "window/autoSearch/searchCommand/cancelLbl"
+msgstr "Ακύρωση"
+
+msgid "window/autoSearch/searchCommand/ctxMessage"
+msgstr "Μέσος χρόνος αναμονής:"
+
+msgid "window/autoSearch/searchCommand/cxtDnmMessage"
+msgstr "%d min"
+
+msgid "window/autoSearch/searchCommand/mainText"
+msgstr "Αναζήτηση για κατάλληλη ομάδα"
+
+msgid "window/autoSearch/searchEnemy/mainText"
+msgstr "Αναμονή για μάχη..."
+
+msgid "window/autoSearch/searchEnemyRespawn/mainText"
+msgstr "Αναμονή για τον αντίπαλο…"
+
+msgid "window/autoSearch/waitingPlayers/mainText"
+msgstr "Αναμονή για παίκτες…"
+
+msgid "window/backBtnLbl"
+msgstr "ΕΠΙΣΤΡΟΦΗ"
+
+msgid "window/intro/auto/btn"
+msgstr "Αναζήτηση"
+
+msgid "window/intro/auto/btn/tooltip/description/disabled"
+msgstr "Μη δυνατή η εύρεση ομάδας. Δεν επιλέχθηκαν οχήματα ή δεν είναι έτοιμα για μάχη."
+
+msgid "window/intro/auto/btn/tooltip/description/enabled"
+msgstr "Κάντε κλικ για να βρείτε ομάδα αυτόματα και να μπείτε στη μάχη άμεσα."
+
+msgid "window/intro/auto/btn/tooltip/title"
+msgstr "Αναζήτηση"
+
+msgid "window/intro/auto/btnLbl"
+msgstr "Αυτόματη Αναζήτηση"
+
+msgid "window/intro/auto/description"
+msgstr "Οι ομάδες θα σχηματιστούν αυτόματα."
+
+msgid "window/intro/auto/title"
+msgstr "Αυτόματη Αναζήτηση με βάση την Κατάταξη"
+
+msgid "window/intro/auto/vehicleLbl"
+msgstr "Επιλεγμένα οχήματα:"
+
+msgid "window/intro/create/btn/addPlayers"
+msgstr "Πρόσκληση"
+
+msgid "window/intro/create/btn/assembleTeam"
+msgstr "Συγκρότηση Ομάδας"
+
+msgid "window/intro/create/btn/joinTeam"
+msgstr "Ένταξη"
+
+msgid "window/intro/create/btn/look"
+msgstr "Λίστα Ομάδων"
+
+msgid "window/intro/create/btn/private/seeStaff"
+msgstr "Μέλη Ομάδας"
+
+msgid "window/intro/description"
+msgstr "Οι συμμετέχοντες σχηματίζουν ισοδύναμες ομάδες των 7 παικτών.\nΟχήματα Βαθμίδων VI–VIII. Το άθροισμα των Βαθμίδων των οχημάτων θα πρέπει να είναι 54."
+
+msgid "window/intro/search/btn"
+msgstr "Αναζήτηση"
+
+msgid "window/intro/search/description"
+msgstr "Επιλέξτε κατάλληλη ομάδα από την λίστα με τις διαθέσιμες. Θα πρέπει να πληροίτε τις προδιαγραφές του Αρχηγού."
+
+msgid "window/intro/search/title"
+msgstr "Αναζήτηση για Ομάδα"
+
+msgid "window/intro/team/description/createBattleRoom"
+msgstr "Δημιουργία χώρου μάχης"
+
+msgid "window/intro/title"
+msgstr "Μάχη με Ομάδα"
+
+msgid "window/intro/unavailableWaiting"
+msgstr "Αναμονή…"
+
+msgid "window/rosterSlotSettings/bottomResult"
+msgstr "Επιλογές:"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/range"
+msgstr "Εύρος"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/vehicle"
+msgstr "Οχήματα"
+
+msgid "window/rosterSlotSettings/title"
+msgstr "Καθορισμός Προδιαγραφών"
+
+msgid "window/rosterSlotSettings/vehicleTab/cancelBtn"
+msgstr "Άκυρο"
+
+msgid "window/rosterSlotSettings/vehicleTab/headerText"
+msgstr "Καθορίστε τις προδιαγραφές για τα οχήματα των συμπαικτών σας."
+
+msgid "window/rosterSlotSettings/vehicleTab/nationFieldSet"
+msgstr "Εθνικότητα"
+
+msgid "window/rosterSlotSettings/vehicleTab/submitBtn"
+msgstr "Επιλογή"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleLevel"
+msgstr "Βαθμίδα Οχημάτων"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleType"
+msgstr "Τύπος Οχημάτων"
+
+msgid "window/staticRallyInfo/cancelBtnLabel"
+msgstr "Απόσυρση"
+
+msgid "window/staticRallyInfo/joinBtnLabel"
+msgstr "Υποβολή Αίτησης"
+
+msgid "window/staticRallyInfo/joinInfo/alreadyJoined"
+msgstr "Είστε ήδη μέλος ομάδας."
+
+msgid "window/staticRallyInfo/joinInfo/applicationCooldown"
+msgstr "Αδύνατη η υποβολή αίτησης."
+
+msgid "window/staticRallyInfo/joinInfo/inProcess"
+msgstr "Η αίτηση σε αναμονή για έγκριση"
+
+msgid "window/staticRallyInfo/joinInfo/inProcessOther"
+msgstr "Η αίτηση έχει σταλεί."
+
+msgid "window/staticRallyInfo/joinInfo/join"
+msgstr "Υποβολή αίτησης"
+
+msgid "window/staticRallyInfo/ladderInfo"
+msgstr "Λίγκα %(league)s. Κατηγορία %(division)s."
+
+msgid "window/staticRallyInfo/noAwards"
+msgstr "Χωρίς Βραβεία"
+
+msgid "window/staticRallyInfo/noRallySelected"
+msgstr "Επιλέξτε μία ομάδα από την αριστερή λίστα\nγια προβολή λεπτομερούς περιγραφής."
+
+msgid "window/staticRallyInfo/staticRally/statsWinsPercent"
+msgstr "Νίκες"
+
+msgid "window/staticRallyInfo/statsBattlesCount"
+msgstr "Μάχες"
+
+msgid "window/title"
+msgstr "Μάχη με Ομάδα"
+
+msgid "window/unit/applySlotsSettings"
+msgstr "Αποδοχή"
+
+msgid "window/unit/autoRecruit"
+msgstr "Στρατολόγηση"
+
+msgid "window/unit/cancelSlotSettings"
+msgstr "Ακύρωση"
+
+msgid "window/unit/candidates"
+msgstr "Εθελοντές"
+
+msgid "window/unit/candidates/legionaries"
+msgstr "Μισθοφόροι"
+
+msgid "window/unit/candidates/team"
+msgstr "Ομάδα"
+
+msgid "window/unit/chat"
+msgstr "Κανάλι Συνομιλίας"
+
+msgid "window/unit/closeRoom"
+msgstr "— Προβολή χώρου"
+
+msgid "window/unit/description"
+msgstr "Οι συμμετέχοντες απαρτίζουν ισοδύναμες ομάδες από 7 παίκτες η κάθε μία.\nΤα οχήματα πρέπει να είναι των βαθμίδων VI-VIII. Άθροισμα των βαθμίδων των οχημάτων σε μία ομάδα: 54."
+
+msgid "window/unit/descriptionDefault"
+msgstr "Προσθήκη περιγραφής —"
+
+msgid "window/unit/fight"
+msgstr "Μάχη!"
+
+msgid "window/unit/inviteFriend"
+msgstr "Πρόσκληση παικτών"
+
+msgid "window/unit/leave"
+msgstr "Αποχώρηση"
+
+msgid "window/unit/lockSlot"
+msgstr "Κλείδωμα θέσης"
+
+msgid "window/unit/message/candidate"
+msgstr "Ο Αρχηγός της ομάδας θα σας βάλει στην ομάδα."
+
+msgid "window/unit/message/curfew"
+msgstr "Εκεχειρία"
+
+msgid "window/unit/message/falloutGroupNotReady"
+msgstr "Ένα από τα οχήματά σας δεν είναι έτοιμο για μάχη"
+
+msgid "window/unit/message/falloutLevel"
+msgstr "Απαιτείται τουλάχιστον 1 όχημα Βαθμίδας %(level)s"
+
+msgid "window/unit/message/falloutMin/levelRange"
+msgstr "Προσθήκη οχημάτων Βαθμίδας %(level)s στο γκρουπ"
+
+msgid "window/unit/message/falloutMin/requiredLevel"
+msgstr "Επιλέξτε όχημα Βαθμίδας %(level)s"
+
+msgid "window/unit/message/fortificationNotAvailable"
+msgstr "Οι Προωθήσεις είναι προσωρινά μη διαθέσιμες"
+
+msgid "window/unit/message/getNotReady"
+msgstr "Κλικ για να δηλώσετε ότι δεν είστε έτοιμος"
+
+msgid "window/unit/message/getReady"
+msgstr "Επικυρώστε την ετοιμότητά σας για να μπείτε στη μάχη."
+
+msgid "window/unit/message/has_frozen_vehicles"
+msgstr "Το απόσπασμα έχει ένα κατεστραμμένο όχημα"
+
+msgid "window/unit/message/in_players_matching"
+msgstr "Το απόσπασμα είναι έτοιμο: αυτόματη στρατολόγηση μισθοφόρων..."
+
+msgid "window/unit/message/inactivePeriphery"
+msgstr " "
+
+msgid "window/unit/message/inactivePeripheryBattle"
+msgstr "Μπορείτε να επικυρώσετε την ετοιμότητά σας 10 λεπτά πριν την έναρξη της Προώθησης"
+
+msgid "window/unit/message/inactivePeripherySortie"
+msgstr "Μπορείτε να επικυρώσετε την ετοιμότητά σας 10 λεπτά πριν την έναρξη της Αψιμαχίας"
+
+msgid "window/unit/message/invalidLevelError/6"
+msgstr "Επιτρέπεται μόνο ένα όχημα Βαθμίδας VI σε κάθε ομάδα."
+
+msgid "window/unit/message/invalidLevelError/6_7"
+msgstr "Δεν επιτρέπονται στην ίδια ομάδα οχήματα Βαθμίδας VI και VII."
+
+msgid "window/unit/message/invalidLevelError/7"
+msgstr "Επιτρέπονται μόνο δύο οχήματα Βαθμίδας VΙI σε κάθε ομάδα."
+
+msgid "window/unit/message/invalidLevelError/unresolved"
+msgstr "Δεν πληρούνται οι προδιαγραφές των οχημάτων."
+
+msgid "window/unit/message/level"
+msgstr "Ανεπαρκής συνολική βαθμίδα οχημάτων. Απαιτείται: %(level)d"
+
+msgid "window/unit/message/maintenance"
+msgstr "Είδος μάχης προσωρινά μη διαθέσιμο"
+
+msgid "window/unit/message/minSlots"
+msgstr "Ελλιπής"
+
+msgid "window/unit/message/play_limits_is_active"
+msgstr "Ο διαθέσιμος χρόνος έληξε. Δεν μπορείτε να μπείτε σε νέα μάχη."
+
+msgid "window/unit/message/previewVehicleIsPresent"
+msgstr "Επιστρέψτε στο Γκαράζ για να επιλέξετε όχημα"
+
+msgid "window/unit/message/ready"
+msgstr "Το απόσπασμα είναι έτοιμο: αναζήτηση αντιπάλου..."
+
+msgid "window/unit/message/squadInBattle"
+msgstr "Ο Ουλαμός είναι σε μάχη"
+
+msgid "window/unit/message/takeSlotInRoster"
+msgstr "Ένταξη στο απόσπασμα"
+
+msgid "window/unit/message/unitIsFull"
+msgstr "Ο αρχηγός θα σας εντάξει στην ομάδα."
+
+msgid "window/unit/message/unitIsLocked"
+msgstr "Δεν είστε μέλος της ομάδας. Θέσεις παγωμένες."
+
+msgid "window/unit/message/vehicleInNotReady/broken"
+msgstr "Το όχημα δεν είναι έτοιμο για μάχη: απαιτούνται επισκευές."
+
+msgid "window/unit/message/vehicleInNotReady/crewNotFull"
+msgstr "Το όχημα δεν είναι έτοιμο για μάχη: ημιτελές πλήρωμα."
+
+msgid "window/unit/message/vehicleInNotReady/isInBattle"
+msgstr "Το όχημα είναι σε μάχη"
+
+msgid "window/unit/message/vehicleInNotReady/notEnoughVehicles"
+msgstr "Όχι αρκετά κατάλληλα οχήματα"
+
+msgid "window/unit/message/vehicleInNotReady/rentIsOver"
+msgstr "Το όχημα δεν είναι έτοιμο για μάχη: λήξη περιόδου εκμίσθωσης."
+
+msgid "window/unit/message/vehicleInNotReady/rotationGroupLocked"
+msgstr "Το όχημα δεν είναι έτοιμο: το γκρουπ %(groupNum)s είναι κλειδωμένο."
+
+msgid "window/unit/message/vehicleInNotReady/wrongMode"
+msgstr "Το επιλεγμένο όχημα δεν είναι κατάλληλο για αυτό το είδος μάχης."
+
+msgid "window/unit/message/vehicleInNotReady/wrongUnitData"
+msgstr "Το επιλεγμένο όχημα δεν ταιριάζει στις προδιαγραφές του Αρχηγού του Ουλαμού"
+
+msgid "window/unit/message/vehicleNotSelected"
+msgstr "Επιλέξτε όχημα για τη μάχη."
+
+msgid "window/unit/message/vehicleNotValid"
+msgstr "Το όχημα δεν είναι έτοιμο για μάχη."
+
+msgid "window/unit/message/vehicleNotValidForEvent"
+msgstr "Το επιλεγμένο όχημα δεν είναι κατάλληλο γι αυτήν τη διοργάνωση"
+
+msgid "window/unit/message/waitCommander"
+msgstr "Αναμονή για να αποφασίσει ο Αρχηγός…"
+
+msgid "window/unit/message/waiting"
+msgstr "Αναμονή για να ετοιμαστούν οι παίκτες…"
+
+msgid "window/unit/notReady"
+msgstr "Όχι Έτοιμος"
+
+msgid "window/unit/openRoom"
+msgstr "— Απόκρυψη χώρου"
+
+msgid "window/unit/rangeValue"
+msgstr "%(minVal)s – %(maxVal)s"
+
+msgid "window/unit/ready"
+msgstr "Έτοιμος!"
+
+msgid "window/unit/rosterSettingsView/or"
+msgstr "ή"
+
+msgid "window/unit/slot/battleRoyale"
+msgstr "Χρειάζεται ένας ακόμα παίκτης"
+
+msgid "window/unit/slot/emptySlot"
+msgstr "Κενή"
+
+msgid "window/unit/slot/freezed"
+msgstr "Παγωμένη"
+
+msgid "window/unit/slot/locked"
+msgstr "Κλειδωμένη"
+
+msgid "window/unit/slot/notAllowed"
+msgstr "Κλειδωμένη"
+
+msgid "window/unit/slot/notAvailable"
+msgstr "Κλειδωμένη"
+
+msgid "window/unit/slot/required"
+msgstr "Πρόσκληση παικτών."
+
+msgid "window/unit/slot/takePlace"
+msgstr "Λάβετε Θέση"
+
+msgid "window/unit/slotHeaderText"
+msgstr "Καθορισμός Προδιαγραφών"
+
+msgid "window/unit/slotSecondText"
+msgstr "Θέστε προδιαγραφές, υποδεικνύοντας τα οχήματα που θέλετε στην ομάδα σας. Όταν προσθέτετε εσείς παίκτες στην ομάδα, οι προδιαγραφές των οχημάτων δεν υπολογίζονται."
+
+msgid "window/unit/team"
+msgstr "Ομάδα"
+
+msgid "window/unit/teamMembers"
+msgstr "Θέσεις: %(current)s / %(max)s"
+
+msgid "window/unit/teamPoints"
+msgstr "Άθροισμα Βαθμίδων:"
+
+msgid "window/unit/teamVehicles"
+msgstr "Οχήματα:"
+
+msgid "window/unit/teamVehiclesLbl"
+msgstr "Οχήματα: %(levelsRange)s"
+
+msgid "window/unit/teamVehiclesStub"
+msgstr "Οχήματα: VI–VIII"
+
+msgid "window/unit/unitListView/captain"
+msgstr "Αρχηγός Ομάδας"
+
+msgid "window/unit/unitListView/clubName"
+msgstr "Όνομα Ομάδας"
+
+msgid "window/unit/unitListView/commander"
+msgstr "Αρχηγός"
+
+msgid "window/unit/unitListView/description"
+msgstr "Περιγραφή"
+
+msgid "window/unit/unitListView/paginationDown"
+msgstr "Ασθενής"
+
+msgid "window/unit/unitListView/paginationUp"
+msgstr "Ισχυρή"
+
+msgid "window/unit/unitListView/players"
+msgstr "Ομάδα"
+
+msgid "window/unit/unitName"
+msgstr "Ομάδα του %(commanderName)s"
+
+msgid "window/unit/unlockSlot"
+msgstr "Ξεκλείδωμα θέσης"
+
+msgid "window/unitListView/create/btn"
+msgstr "Δημιουργία"
+
+msgid "window/unitListView/enterBtn/common"
+msgstr "Εθελοντής"
+
+msgid "window/unitListView/enterBtn/legionary"
+msgstr "Ένταξη"
+
+msgid "window/unitListView/enterBtn/member"
+msgstr "Ένταξη"
+
+msgid "window/unitListView/enterText/legionary"
+msgstr "Ένταξη ως μισθοφόρος"
+
+msgid "window/unitListView/enterText/member"
+msgstr "Ένταξη στην ομάδα"
+
+msgid "window/unitListView/foundTeamsDescription"
+msgstr "Οι ομάδες της παρακάτω λίστας έχουν κενές θέσεις και αναζητούν παίκτες."
+
+msgid "window/unitListView/noItems"
+msgstr "Δεν βρέθηκαν ομάδες."
+
+msgid "window/unitListView/noSearchResults/btn"
+msgstr "Πίσω στη Λίστα"
+
+msgid "window/unitListView/noSearchResults/description"
+msgstr "Δεν βρέθηκαν ομάδες με αυτό το όνομα."
+
+msgid "window/unitListView/noSearchResults/header"
+msgstr "Κανένα Αποτέλεσμα Αναζήτησης"
+
+msgid "window/unitListView/noTeams/description"
+msgstr "Δεν βρέθηκε κάποια ομάδα σύμφωνα με αυτά τα κριτήρια. Προσπαθήστε ξανά."
+
+msgid "window/unitListView/noTeams/header"
+msgstr "Δεν Βρέθηκε Καμία Ομάδα"
+
+msgid "window/unitListView/noUnitSelected"
+msgstr "Επιλέξτε ομάδα από την λίστα στα αριστερά\nγια να δείτε λεπτομερή περιγραφή."
+
+msgid "window/unitListView/refreshList"
+msgstr "Ενημέρωση λίστας"
+
+msgid "window/unitListView/renderer/next"
+msgstr "Επόμενο"
+
+msgid "window/unitListView/renderer/previous"
+msgstr "Προηγούμενο"
+
+msgid "window/unitListView/renderer/requiredVehicles"
+msgstr "Προαπαιτούμενα οχήματα"
+
+msgid "window/unitListView/renderer/showMore"
+msgstr "Εμφάνιση ακόμα 20"
+
+msgid "window/unitListView/selectedTeam"
+msgstr "Ομάδα"
+
+msgid "window/unitListView/sort/label"
+msgstr "Κατάταξη:"
+
+msgid "window/unitListView/team"
+msgstr "Ομάδα"
+
+msgid "window/unitListView/teamDescription"
+msgstr "Περιγραφή ομάδας"
+
+msgid "window/unitListView/title"
+msgstr "Χώροι Μάχης"
+
+msgid "window/unitListView/vehicles"
+msgstr "Οχήματα"
+
+msgid "window/vehicleSelector/buttons/cancel"
+msgstr "Άκυρο"
+
+msgid "window/vehicleSelector/buttons/select"
+msgstr "Επιλογή"
+
+msgid "window/vehicleSelector/filters/all"
+msgstr "Όλα"
+
+msgid "window/vehicleSelector/filters/allLevels"
+msgstr "Όλες οι βαθμίδες"
+
+msgid "window/vehicleSelector/filters/level"
+msgstr "Βαθμίδα %(levelNum)d"
+
+msgid "window/vehicleSelector/filters/matches"
+msgstr "Προβολή μόνο κατάλληλων οχημάτων"
+
+msgid "window/vehicleSelector/info/intro"
+msgstr "Θα λάβετε μέρος στη μάχη με ένα από τα επιλεγμένα οχήματα. Επιτρεπόμενες Βαθμίδες: VI–VIII.\n\nΣας προτείνουμε τη χρήση ελαφρού, μέσου ή βαρέως άρματος μάχης."
+
+msgid "window/vehicleSelector/info/respawn"
+msgstr "Επιλέξτε ένα όχημα Βαθμίδας VI–VIII με το οποίο θα λάβετε μέρος στη μάχη."
+
+msgid "window/vehicleSelector/info/search"
+msgstr "Θα λάβετε μέρος στη μάχη με ένα από τα επιλεγμένα οχήματα. Bαθμίδα οχημάτων: VI-VIII."
+
+msgid "window/vehicleSelector/info/unit"
+msgstr "Επιλέξτε ένα όχημα Βαθμίδας VI-VIII για να λάβετε μέρος στη μάχη."
+
+msgid "window/vehicleSelector/title"
+msgstr "Επιλογή Οχήματος"

@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Taslak Birleştirildi"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Taslak  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Taslak {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "Satın Almaya"
+
+msgid "blueprintScreen/button/research"
+msgstr "Araştırmaya"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Garajda Bak"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "İstediğiniz bir aracı araştırırken indirim uygulamak için bir taslak birleştirebilirsiniz. Ancak indirimi kullanmak için hattaki bir önceki aracı\naraştırmanız gerekecektir."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Olumlu!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Araştırılamıyor"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "Bir taslak kesiti oluşturmak için şunlara ihtiyacınız var:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "seçin:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "KESİT OLUŞTUR:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Kesitler Oluşturun"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Kesit\ndönüştür"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Dönüştürme\nyapılamıyor"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "YAPILAMIYOR:\nYeterli\nkaynak yok"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Araca Git"
+
+msgid "blueprintScreen/or"
+msgstr "veya"
+
+msgid "blueprintScreen/research"
+msgstr "ARAŞTIRMA"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Araç ücretsiz araştırılıyor"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Araştırılamıyor"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Araştırmada indirim:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Bu araç araştırıldı ve satın alınabilir durumda"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Bu araç araştırıldı ve satın alındı"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "Depoda:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Hattaki bir önceki aracı araştırdıktan sonra {vehicleName} aracını araştırırken %100 indirim kullanabilirsiniz."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Taslak Birleştirildi"
+
+msgid "blueprintScreen/unlocked"
+msgstr "ARAÇ\nARAŞTIRILDI"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Koalisyon:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Blok:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "İttifak:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Birlik:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Genel:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Koalisyon"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Blok"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "İttifak"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Birlik"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Fransa, Çekoslovakya, İsveç, İtalya)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Almanya, Japonya)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(ABD, İngiltere, Polonya)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(SSCB, Çin)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Araç taslağı kesitleri oluşturmak için ulusal kesit sayısını belirleyin.\nKullanabileceğiniz %(allianceIcon)%(allianceName) %(allianceNations) ulusal kesitleri var."
+
+msgid "conversionView/topMessage/single"
+msgstr "Bir araç taslağı kesiti oluşturmak için ülkelerden birinin kesitlerini seçin.\nKullanabileceğiniz %(allianceIcon)%(allianceName) %(allianceNations) ulusal kesitleri var."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Nihai maliyet:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Taslak kesiti maliyeti:"
+
+msgid "nations/china"
+msgstr "Çin"
+
+msgid "nations/czech"
+msgstr "Çekoslovakya"
+
+msgid "nations/france"
+msgstr "Fransa"
+
+msgid "nations/germany"
+msgstr "Almanya"
+
+msgid "nations/italy"
+msgstr "İtalya"
+
+msgid "nations/japan"
+msgstr "Japonya"
+
+msgid "nations/poland"
+msgstr "Polonya"
+
+msgid "nations/sweden"
+msgstr "İsveç"
+
+msgid "nations/uk"
+msgstr "İngiltere"
+
+msgid "nations/usa"
+msgstr "ABD"
+
+msgid "nations/ussr"
+msgstr "SSCB"

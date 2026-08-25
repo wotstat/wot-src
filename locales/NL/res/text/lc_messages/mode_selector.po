@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "button/progression"
+msgstr "Toon progressie"
+
+msgid "button/select"
+msgstr "Configureren"
+
+msgid "event/battlePass/name"
+msgstr "Vechtpas seizoen %(seasonNum)s"
+
+msgid "event/finished"
+msgstr "%(eventName)s\nis afgelopen"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\nzal op %(date)s beginnen"
+
+msgid "event/paused"
+msgstr "%(eventName)s\nis tijdelijk onbeschikbaar"
+
+msgid "event/ranked/name"
+msgstr "Seizoen %(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "BEKIJK IN DE PROGRESSIEMODUS"
+
+msgid "mode/epicBattle/condition"
+msgstr "30v30 &nbsp;{par_open}I{par_close}&nbsp;Niveau&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30v30&nbsp;{par_open}I{par_close}&nbsp;Niveau&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "Het evenement\nzal op %(date)s beginnen"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Deze modus\nzal binnenkort beginnen"
+
+msgid "mode/epicBattle/description"
+msgstr "Modus met progressie en beloningen."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "Het evenement is afgelopen"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "Wanneer je met niveau VIII voertuigen aan {whiteSpanish_open}Frontlinie{whiteSpanish_close} deelneemt, zul je punten verdienen die je nodig hebt om in Vechtpas progressie te boeken."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Vechtpaspunten"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "Wanneer je met niveau VIII–X voertuigen aan {whiteSpanish_open}Verkenningsmissie{whiteSpanish_close} deelneemt, zul je punten verdienen die je nodig hebt om in Vechtpas progressie te boeken."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Vechtpaspunten"
+
+msgid "mode/mapbox/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s niveau&nbsp;VIII–X"
+
+msgid "mode/mapbox/description"
+msgstr "Nieuwe gebeurtenissen op kaarten."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Visuele weereffecten hangen af van je algemene grafische instellingen. Bij lage grafische instellingen kunnen problemen en visuele artefacten zich voordoen. We raden je aan om de hoogste grafische instellingen te selecteren voor een zo goed mogelijke ervaring, mits je computer aan de eisen voldoet. De modus vergt een hoge computerprestatie. De hoeveelheid FPS kan tijdens intensieve strijd afnemen."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "Hoogste grafische instellingen aanbevolen"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Hoogste grafische instellingen aanbevolen"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Leer kaarten kennen"
+
+msgid "mode/mapsTraining/description"
+msgstr "Leer kaarten kennen"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "Wanneer je met niveau IV–XI voertuigen aan {whiteSpanish_open}Willekeurige gevechten{whiteSpanish_close} deelneemt, zul je punten verdienen die je nodig hebt om in Vechtpas progressie te boeken."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Vechtpaspunten"
+
+msgid "mode/random/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s niveau&nbsp;I–XI"
+
+msgid "mode/random/description"
+msgstr "Gevechten met automatische matchmaking."
+
+msgid "mode/random/setup"
+msgstr "Configureren"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "Wanneer je met niveau X voertuigen aan {whiteSpanish_open}Klassementsgevechten{whiteSpanish_close} deelneemt, zul je de punten verdienen die je nodig hebt om in Vechtpas progressie te boeken."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Vechtpaspunten"
+
+msgid "mode/ranked/condition"
+msgstr "10v10 %(parSecondary_open)sI%(parSecondary_close)s niveau&nbsp;X"
+
+msgid "mode/ranked/description"
+msgstr "Modus met progressie en beloningen."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Aanmelden voor toernooi"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Volgende gevecht: %(date)s om %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s niveau&nbsp;I–X"
+
+msgid "mode/specBattlesList/description"
+msgstr "Wereldkaart en toernooien."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Vecht als een legionair"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Vecht in een clan"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7v7–15v15 %(parSecondary_open)sI%(parSecondary_close)s niveau&nbsp;VI–X"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Clangevechten voor industriële grondstoffen."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Trainingsruimtes: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s niveau&nbsp;I–X"
+
+msgid "mode/trainingsList/description"
+msgstr "Introductiegevechten."
+
+msgid "novelty"
+msgstr "NIEUW"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Gevechten in de kwalificatie: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "Je kunt unieke 3D-attachments ontvangen door de modus te spelen."
+
+msgid "reward/attachment/name"
+msgstr "3D-attachments"
+
+msgid "reward/bones/description"
+msgstr "De beloning hangt af van je prestatie in de strijd."
+
+msgid "reward/bones/name"
+msgstr "Obligaties"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Je kunt de %(name)s ontvangen voor het spelen in deze modus."
+
+msgid "reward/bountyEquipment/name"
+msgstr "Speciale uitrusting"
+
+msgid "reward/credits/description"
+msgstr "De beloning hangt af van je prestatie in de strijd."
+
+msgid "reward/credits/name"
+msgstr "Credits"
+
+msgid "reward/crew/description"
+msgstr "Je kunt unieke bemanningsleden ontvangen voor het spelen in deze modus."
+
+msgid "reward/crew/name"
+msgstr "Bemanningsleden"
+
+msgid "reward/experience/description"
+msgstr "De beloning hangt af van je prestatie in de strijd."
+
+msgid "reward/experience/name"
+msgstr "Ervaring"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "Je kunt verschillende soorten experimentele uitrusting ontvangen door de modus te spelen."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Speciale uitrusting"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Je kunt de %(name)s ontvangen voor het spelen in deze modus."
+
+msgid "reward/improvedEquipment/name"
+msgstr "Speciale uitrusting"
+
+msgid "reward/lootBoxes/description"
+msgstr "Je kunt lootboxes ontvangen door de modus te spelen."
+
+msgid "reward/lootBoxes/name"
+msgstr "Speciale lootboxes"
+
+msgid "reward/other/description"
+msgstr "Je kunt veel bruikbare beloningen ontvangen voor het spelen in deze modus."
+
+msgid "reward/other/name"
+msgstr "Speciale beloning"
+
+msgid "reward/progressionStyle/description"
+msgstr "Je kunt een speciale progressieve stijl ontvangen door deze modus te spelen."
+
+msgid "reward/progressionStyle/name"
+msgstr "Progressieve stijl"
+
+msgid "reward/random/description"
+msgstr "Je kunt veel bruikbare beloningen ontvangen voor het spelen in deze modus."
+
+msgid "reward/random/name"
+msgstr "Willekeurige beloning"
+
+msgid "reward/style/description"
+msgstr "Je kunt een speciale 3D-stijl voor de %(name)s ontvangen voor het spelen in de modus."
+
+msgid "reward/style/name"
+msgstr "3D-stijl"
+
+msgid "reward/vehicle/description"
+msgstr "Je kunt de %(name)s ontvangen voor het spelen in deze modus."
+
+msgid "reward/vehicle/name"
+msgstr "Beloningsvoertuigen"
+
+msgid "selectMap"
+msgstr "Voorinstellingen voor Willekeurige gevechten"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s u"
+
+msgid "status/timeLeft/lessMin"
+msgstr "minder dan een minuut"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "SELECTEER GEVECHTSMODUS"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Wereldkaart"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Verover provincies en vecht voor wereldwijde dominantie. Deze modus is alleen voor clanleden beschikbaar."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Clan betreden"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Gevechten op de Wereldkaart"
+
+msgid "window/battleSession/title"
+msgstr "SPECIAAL GEVECHT"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Toernooilijst"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Tijdelijk onbeschikbaar, maar zal in de toekomst weer beschikbaar komen. Wees alsjeblieft geduldig."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Vecht alleen of in een team, laat zien hoe goed je bent en ontvang waardevolle beloningen."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Toernooien"

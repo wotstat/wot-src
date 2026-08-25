@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Aktiver"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Køb og aktiver"
+
+msgid "activation/activateBonus"
+msgstr "Aktiver reserve: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Aktiver reserve"
+
+msgid "activation/activateButtonClan"
+msgstr "Til befæstning"
+
+msgid "activation/battleXPDescription"
+msgstr "Bonus til kamp xp i 1 t"
+
+msgid "activation/battleXPTitle"
+msgstr "Kamp xp"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Køb og aktiver den forbedrede personlige reserve, der giver %(boosterBonus)s til %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Køb guld"
+
+msgid "activation/buyGoldTitle"
+msgstr "Køb guld krævet til den forbedrede personlige reserve, der giver %(boosterBonus)s til %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Guld krævet til at købe den forbedrede personlige reserve:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Credits og kamp xp"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "Mandskabs xp og fri xp"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Klanreserver"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Aktiver reserver i befæstningen"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Vis i befæstning"
+
+msgid "activation/comboXPDescription"
+msgstr "Bonus til fri xp og mandskabs xp i 1 t"
+
+msgid "activation/comboXPTitle"
+msgstr "Fri og mandskabs xp"
+
+msgid "activation/creditsDescription"
+msgstr "Bonus til credits i 1 t"
+
+msgid "activation/creditsTitle"
+msgstr "Credits"
+
+msgid "activation/footer"
+msgstr "Reserver, der kan udløbe, skal aktiveres: %(expirableAmount) i %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Bonus til Frontlinje xp i 1 t"
+
+msgid "activation/frontLineXPTitle"
+msgstr "Frontlinje xp"
+
+msgid "activation/informationButton"
+msgstr "INFORMATION"
+
+msgid "activation/price"
+msgstr "Pris:"
+
+msgid "activation/subFooter/depot"
+msgstr "Depot"
+
+msgid "activation/subFooter/main"
+msgstr "Reserven, der udløber først, bliver først aktiveret. Du kan se alle dine tilgængelige reserver i %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Aktiver {whiteSpanish_Open}op til 3 personlige reserver{whiteSpanish_Close} for at optjene yderligere credits og xp i kamp. Køb flere personlige reserver i %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "butikken"
+
+msgid "activation/terms/booster_credits"
+msgstr "credits"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "Frontlinje xp"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "Fri og mandskabs xp"
+
+msgid "activation/terms/booster_xp"
+msgstr "Kamp xp"
+
+msgid "activation/title"
+msgstr "PERSONLIGE RESERVER"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Den aktiverede personlige standardreserve, der giver %(previousBoosterBonus)s til %(previousBoosterTerm)s vil gå tabt.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Vil du aktivere den forbedrede personlige reserve, der giver %(boosterBonus)s til %(boosterTerm)s i stedet for den aktiverede personlige standardreserve?"
+
+msgid "battleView/notice"
+msgstr "Personlige reserver kan aktiveres på et hvilket som helst tidspunkt i kamp. Du vil modtage bonussen, også selvom reserven udløber under kampen."
+
+msgid "battleView/title"
+msgstr "Aktivering af personlige reserver"
+
+msgid "depot/buyButton"
+msgstr "Til køb"
+
+msgid "disabledReserveTooltip/text"
+msgstr "En anden reserve af denne type er allerede aktiveret."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Denne personlige reserve udløb under kampen. Bonussen fra den personlige reserve er stadig gyldig i denne kamp."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)min"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Aktiverede personlige reserver er ikke gyldige i denne kamptype."
+
+msgid "intro/buttons/close"
+msgstr "Bekræftet!"
+
+msgid "intro/buttons/details"
+msgstr "Detaljer"
+
+msgid "intro/description"
+msgstr "Personlige reserver, der kan udløbe, er tilgængelige i en begrænset periode efter du modtager dem. Hvis de ikke bliver aktiveret i løbet af denne periode, går de tabt. Reserver, der ikke kan udløbe, kan ikke benyttes, mens du stadig har reserver, der kan udløbe, af samme type tilgængelige."
+
+msgid "intro/title"
+msgstr "PERSONLIGE RESERVER, DER KAN UDLØBE"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Ingen personlige reserver af denne type i depotet. Du kan købe dem senere eller aktivere dem i garagen."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Fuldfør missioner og deltag i in-game events for at optjene personlige reserver."
+
+msgid "noReserveTooltip/text"
+msgstr "Ingen personlige reserver af denne type i depotet."

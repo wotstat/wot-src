@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT tim <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "Topnički udar"
+
+msgid "attackReason/artillery_sector"
+msgstr "Topnički udar"
+
+msgid "attackReason/bombers"
+msgstr "Zračni udar"
+
+msgid "battleCommunication/hint/description"
+msgstr "kako bi naznačili položaj ili mjesto markera"
+
+msgid "battleCommunication/hint/press"
+msgstr "Pritisni"
+
+msgid "battleEndWarning/text"
+msgstr "Kraj bitke za:"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "Tekst i glasovne poruke ovog igrača će biti skrivene u ovoj bitci."
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "Blokiraj poruke od igrača"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "Poruke od igrača na crnoj listi će biti blokirane."
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "Akcija nedostupna"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "Tekst i glasovne poruke od ovog igrača\nće opet biti dostupne."
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "Deblokiraj poruke od igrača."
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "Tehnički problem pri preuzimanju podataka o borbenoj zoni."
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "Podaci o borbenoj zoni za ovo vozilo nisu dostupni na ovoj mapi."
+
+msgid "battleProgress/hint/description"
+msgstr "za pregled osobnih zadataka"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "Ključne tipke nisu pridjeljene"
+
+msgid "battleProgress/hint/press"
+msgstr "Pritisni"
+
+msgid "battle_notifier/lose"
+msgstr "Poraz!"
+
+msgid "battle_notifier/tie"
+msgstr "Neriješeno!"
+
+msgid "battle_notifier/win"
+msgstr "Pobjeda!"
+
+msgid "bot/boss"
+msgstr "Šef"
+
+msgid "bot/elite"
+msgstr "Elitni"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "OPASNOST ŠTETE"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "OŠTEĆEN MOTOR"
+
+msgid "chat_example/affirmative"
+msgstr "Razumijem!"
+
+msgid "chat_example/attack_enemy"
+msgstr "Zahtjevam paljbu na <Enemy Name>!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "Napadam <Enemy Name>!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "Osvoji bazu!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "Obrani bazu!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "Pozor na <Sektor na minimapi>!"
+
+msgid "chat_example/attention_to_position"
+msgstr "Pozor na položaj!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "Uništi ciljeve"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "Čuvaj svoje tenkove!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "Osvoji zonu"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "Obrani ciljeve"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "Čuvaj svoje tenkove!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "Obrani zone"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "Pojačaj zonu"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "Pojačaj zonu"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "Pojačaj zonu"
+
+msgid "chat_example/going_there"
+msgstr "Prolazim!"
+
+msgid "chat_example/help_me"
+msgstr "Upomoć!"
+
+msgid "chat_example/help_me_ex"
+msgstr "<Ime saveznika>, upomoć!"
+
+msgid "chat_example/negative"
+msgstr "Ne!"
+
+msgid "chat_example/overheated_gun"
+msgstr "Top pregrijan! Ne može pucati <Reload Time> s"
+
+msgid "chat_example/positive"
+msgstr "Razumijem!"
+
+msgid "chat_example/reloading_cassette"
+msgstr "Spreman za paljbu za <Vrijeme punjenja> s, granata u spremniku: <Broj granata> kom."
+
+msgid "chat_example/reloading_gun"
+msgstr "Punim! Preostalo <Vrijeme punjenja> s!"
+
+msgid "chat_example/reloading_ready"
+msgstr "Spreman za paljbu!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "Spreman za paljbu! Granata u spremniku: <Broj granata> kom."
+
+msgid "chat_example/reloading_unavailable"
+msgstr "Potrošeno streljivo."
+
+msgid "chat_example/spg_aim_area"
+msgstr "Ciljam na <Sektor na minimapi>!"
+
+msgid "chat_example/supporting_ally"
+msgstr "<Ally Name>, pomoći ću ti!"
+
+msgid "chat_example/thanks"
+msgstr "<Ally Name>, hvala!"
+
+msgid "chat_example/turn_back"
+msgstr "<Ime saveznika>, povuci se!"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "Razumijem!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "Zahtjevam vatru na %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "Spreman za paljbu! Napadam %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "Ostao bez streljiva! Zahtjevam paljbu na %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "Napadam %(target)s! Punim, preostalo %(reloadTime)d s!"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "Osvojit ću bazu!"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "Osvajam bazu %(strArg1)s!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "Napadam %(target)s!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "Osvoji bazu!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "Osvoji bazu %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "Obrani bazu!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "Obrani bazu %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "Pozor na %(cellName)s!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Uništi cilj %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "Napadam cilj %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Obrani cilj %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "Branim cilj %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Pozor na položaj!"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "Pozor na %(gridId)s"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "Obranit ću bazu!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "Branim bazu %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "Uništi ciljeve!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "Imamo dovoljno vremena-čuvajte svoje tenkove!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "Vrijeme ističe! Osvojite zonu sa svime što imate!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "Obranite ciljeve!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "Trebamo izdržati! Čuvajte svoje tenkove!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "Vrijeme ističe! Obranite zone pod svaku cijenu!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "Zone %(strArg1)s treba pomoć, pojačajte ju!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "Zone %(strArg1)s treba pomoć, pojačajte ju!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "Zone %(strArg1)s treba pomoć, pojačajte ju!"
+
+msgid "chat_shortcuts/going_there"
+msgstr "Vozim na položaj!"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "Krećem na %(gridId)s"
+
+msgid "chat_shortcuts/help_me"
+msgstr "Upomoć!"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s, upomoć!"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "Kreni prema meti: %(target)s"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "Krećem se prema meti: %(target)s!"
+
+msgid "chat_shortcuts/negative"
+msgstr "Ne!"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "Top pregrijan! Ne može pucati %(floatArg1)d s"
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s, potvrđujem!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "Spreman za paljbu za %(floatArg1)d s; granata u spremniku: %(int32Arg1)s kom."
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "Punim! Preostalo %(floatArg1)d s!"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "Spreman za paljbu!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "Spreman za paljbu! Granata u spremniku: %(int32Arg1)s kom."
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "Potrošeno streljivo."
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "Ciljam položaj. Spreman za paljbu!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "Promatram %(gridId)s! Ostao bez streljiva!"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "Ciljam na %(gridId)s. Spreman za pajbu!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "Ciljam položaj. Punim, preostalo %(reloadTime)d s!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "Ciljam na %(gridId)s. Punim, preostalo %(reloadTime)d s!"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s, pomoći ću ti!"
+
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s, hvala!"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s, pomakni se unazad!"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "Idi na postavke"
+
+msgid "commanderCam/hint/description"
+msgstr "Udaljavanje na taktički pogled"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "Hlađenje: %(cooldownSeconds)s s"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "Slot za potrošni materijal"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "km/h"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "PG"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "PP"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "Fugasna"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "Fugasna"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "KG"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "Zapovjednik je ranjen. Tehničke karakteristike umanjene."
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "Zapovjednik"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "Vozač je ranjen. Kretanje i brzina zakretanja kupole umanjena."
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "Vozač"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "Topnik je ranjen. Preciznost umanjena."
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "Topnik"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "Drugi topnik je ranjen. Preciznost umanjena."
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "Drugi topnik"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "Punitelj je ranjen. Brzina punjenja umanjena."
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "Punitelj"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "Drugi punitelj je ranjen. Brzina punjenja umanjena."
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "Drugi punitelj"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "Vezist je ranjen. Domet veze umanjen."
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "Vezist"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "Drugi vezist je ranjen. Domet veze umanjen."
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "Drugi vezist"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "Skladište streljiva je oštećeno. Brzina punjenja umanjena."
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "Skladište streljiva je eksplodiralo."
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "Skladište streljiva je netaknuto."
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "Ovjes je oštećen."
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "Nepokretni smo: ovjes je uništen."
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "Ovjes je netaknut."
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "Motor je oštećen. Gubi snagu."
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "Nepokretni smo: motor je unišen."
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "Motor je netaknut."
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "Rezervoar je oštećen."
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "Rezervoar je uništen."
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "Rezervoar je zakrpljen."
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "Top je oštećen. Preciznost je smanjena."
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "Top je uništen. Paljba nije moguća."
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "Top je netaknut."
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "Radio je oštećen."
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "Radio je uništen. Domet veze umanjen."
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "Radio je netaknut."
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "Osmatračke sprave su oštećene."
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "Osmatračke sprave su uništene. Vidokrug umanjen."
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "Osmatračka sprava je netaknuta."
+
+msgid "damage_panel/devices/track/critical"
+msgstr "Ovjes je oštećen."
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "Nepokretni smo: ovjes je uništen."
+
+msgid "damage_panel/devices/track/normal"
+msgstr "Ovjes je netaknut."
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "Kupola je oštećena. Brzina okretanja je smanjena."
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "Nije moguće okretati: kupola je uništena."
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "Kupola je netaknuta."
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "Ovjes je oštećen."
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "Nepokretni smo: ovjes je uništen."
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "Ovjes je netaknut."
+
+msgid "danger_zone/indicator"
+msgstr "Vaše vozilo može biti uništeno-napustite zonu opasnosti!"
+
+msgid "destroyTimer/liftOver"
+msgstr "Nazad u stroj..."
+
+msgid "devMaps/hint/description"
+msgstr "za pregled svojstava mape"
+
+msgid "devMaps/hint/press"
+msgstr "Pritisni"
+
+msgid "devMaps/mapInfo/info"
+msgstr "Na ovo mapi se mogu desiti nasumični događaji. Takve mape se mogu isključiti u postavkama igre."
+
+msgid "devMaps/mapInfo/text"
+msgstr "Mape s nasumičnim događajima"
+
+msgid "devices/ammo_bay"
+msgstr "Skladište streljiva"
+
+msgid "devices/chassis"
+msgstr "Ovjes"
+
+msgid "devices/engine"
+msgstr "Motor"
+
+msgid "devices/fuel_tank"
+msgstr "Rezervoar"
+
+msgid "devices/gun"
+msgstr "Top"
+
+msgid "devices/left_track"
+msgstr "Lijeva gusjenica"
+
+msgid "devices/radio"
+msgstr "Radio"
+
+msgid "devices/right_track"
+msgstr "Desna gusjenica"
+
+msgid "devices/surveing_device"
+msgstr "Osmatračke sprave"
+
+msgid "devices/track"
+msgstr "Gusjenica %(type)s"
+
+msgid "devices/track/left"
+msgstr "Lijeva"
+
+msgid "devices/track/main"
+msgstr "Pričuvna"
+
+msgid "devices/track/outer"
+msgstr "Glavna"
+
+msgid "devices/track/right"
+msgstr "Desna"
+
+msgid "devices/turret_rotator"
+msgstr "Mehanizam kupole"
+
+msgid "devices/wheel"
+msgstr "Kotač"
+
+msgid "distance/meters"
+msgstr "%(meters)d m"
+
+msgid "dynamicSquad/ally/add"
+msgstr "Kliknite kako bi pozvali igrača u vod.\nIgrač može prihvatiti vaš poziv tijekom ili po završetku bitke.%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\nPozor! Vaš pravi nadimak i oznaka klana će biti prikazana članovima voda."
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\nPozor! Vaš pravi nadimak će biti prikazan članovima voda."
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "Ovog saveznika nije moguće pozvati u vod."
+
+msgid "dynamicSquad/ally/received"
+msgstr "Kliknite za prihvaćanje poziva u vod.\nVod će biti stvoren tijekom bitke."
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "Poziv je poslan igraču.\nAko ga prihvati pridružit će se vašem vodu ili tijekom bitke ili po njenom završetku."
+
+msgid "dynamicSquad/enemy/add"
+msgstr "Kliknite kako bi pozvali igrača u vod.\nIgrač može prihvatiti vaš poziv tijekom ili po završetku bitke.%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "Nije moguće pozvati neprijatelja u Vod."
+
+msgid "dynamicSquad/enemy/received"
+msgstr "Kliknite za prihvaćanje poziva u vod.\nVod će biti stvoren tek po završetku bitke."
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "Poziv je poslan igraču.\nAko ga prihvati pridružit će se vašem vodu po završetku bitke."
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "Pritisni"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "za uključenje glasovnog razgovora"
+
+msgid "dynamicSquad/invite"
+msgstr "Poziv za pridruživanje vodu"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "Šteta od zračnog udara"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "Šteda od topničkog udara"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "Šteta od glavnog cilja"
+
+msgid "efficiencyRibbons/armor"
+msgstr "Šteta blokirana"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "Pomoć borbenim pričuvama"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "Šteta po vašem otkrivanju"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "Šteta nakon vašeg ošamućivanja"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "Uništena gusjenica"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "Šteda od Mahnitog"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "Iskustvo uloge"
+
+msgid "efficiencyRibbons/burn"
+msgstr "Zapali"
+
+msgid "efficiencyRibbons/capture"
+msgstr "Zauzimanje neprijateljske baze"
+
+msgid "efficiencyRibbons/crits"
+msgstr "Kritična šteta"
+
+msgid "efficiencyRibbons/damage"
+msgstr "Šteta pogotkom"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "Šteta plotuna bojnog broda"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "Šteta U.S.S. Frankford"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "Šteta od mina"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "Šteta od robota bojišnice"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "Šteta od kisele granate"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "Šteta od vatrenog prstena"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "Šteta od električnog izboja"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "Šteta od zone"
+
+msgid "efficiencyRibbons/defence"
+msgstr "Smanjeni bodovi zauzeća"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "Zona obranjena"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "Nanesena šteta"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "Cilj uništen"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "Cilj obranjen"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "Zona osvojena"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "Šteta od vatrene zone"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "Vozilo popravljeno"
+
+msgid "efficiencyRibbons/kill"
+msgstr "Uništen"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "Šteta minskog polja"
+
+msgid "efficiencyRibbons/ram"
+msgstr "Sudaranje"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "Šteta požarom"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "Šteta od robota bojišnice"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "Šteta od kisele granate"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "Šteta od vatrenog prstena"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "Šteta od mina"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "Šteta od izjedajuće izmaglice"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "Šteta od električnog izboja"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "Kritična šteta"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "Šteta pogotkom"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "Šteta od vatrene kugle"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "Šteta sudaranjem"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "Šteta sudarom"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "Šteta od vatrene kugle"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "Otkriven"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "Šteta od zone uništenja"
+
+msgid "efficiencyRibbons/stun"
+msgstr "Ošamućenje"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "Vozilo napušteno"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "Šteta od udara"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "Snježna oluja"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "Pucaj"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "Magla"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "Pljusak"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "Pješčana oluja"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "Dim"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "Tornado"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "Sakrij panele timova"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "Nema panela"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Pritisnite Ctrl + Tab za prebacivanje između režima)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "Prikaži imena igrača, uništene mete i ikone vozila"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "Srednji panel 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Pritisnite Ctrl + Tab za prebacivanje između režima)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "Prikaži vozila uništena od igrača, ime i ikonu vozila vozača."
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "Srednji panel 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Pritisnite Ctrl + Tab za prebacivanje između režima)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "Prikaži uništene mete i ikone vozila"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "Kratki panel"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Pritisnite Ctrl + Tab za prebacivanje između režima)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "Prebacivanje između pregleda vlastite ili sve tri grupe nastajanja."
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "Prebacivanje kolona"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Pritisnite Ctrl + Tab za prebacivanje između režima)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "Uništili ste zastavu!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "Zastava osvojena!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "Zastava dostavljena."
+
+msgid "flagNotification/flagInbase"
+msgstr "Dostavite zastavu u stožer."
+
+msgid "flags/timer"
+msgstr "%(time)s s..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "sek..."
+
+msgid "grille/status/reload"
+msgstr "PUNJENJE..."
+
+msgid "grille/status/speedlimit"
+msgstr "OGRANIČENJE BRZINE"
+
+msgid "helpScreen/hint/description"
+msgstr "za pregled svojstva vozila"
+
+msgid "helpScreen/hint/press"
+msgstr "Pritisni"
+
+msgid "helpScreen/mapbox/description"
+msgstr "za pregled svojstava mape"
+
+msgid "helpScreen/mapbox/press"
+msgstr "Pritisni"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "za aktiviranje režima Opsada/<font color='#F4B12C'><b>Bunker</b></font>"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "za aktiviranje režima Opsada/<font color='#F4B12C'><b>Putovanje</b></font>"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "za aktiviranje režima Putovanje/<font color='#F4B12C'><b>Bunker</b></font>"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "Tipka za prebacivanje režima nije pridjeljena"
+
+msgid "helpScreen/pillbox/press"
+msgstr "Pritisnite/<font color='#F4B12C'><b>Držite</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "Ključne tipke nisu pridjeljene"
+
+msgid "hitMarker/blocked"
+msgstr "Oklop nije probijen"
+
+msgid "hitMarker/critical"
+msgstr "Kritična šteta"
+
+msgid "hitMarker/missArmor"
+msgstr "Oklop nije pogođen"
+
+msgid "hitMarker/ricochet"
+msgstr "Rikošet"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "Zaštita nije probijena"
+
+msgid "hitMarker/trackBlocked"
+msgstr "Gusjenica nije probijena"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "Kotač nije probijen"
+
+msgid "levelProgress/maxLevel"
+msgstr "NAJVIŠA RAZINA VOZILA"
+
+msgid "marker/meters"
+msgstr "m"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "Detonacija spremišta streljiva je spriječena opremom %(device)s"
+
+msgid "optDeviceResurrection/engine"
+msgstr "Uništenje motora je spriječeno opremom %(device)s"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "Požar je spriječen opremom %(device)s"
+
+msgid "penetration/high"
+msgstr "Visoki"
+
+msgid "penetration/low"
+msgstr "Niska"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "Dopunski uvjet:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "Osnovni uvjet:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "Nema aktivnih zadataka za ovaj režim bitke."
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "Nema aktivnih zadataka za ovaj tip vozila."
+
+msgid "personal_reserves/hint/description"
+msgstr "za aktiviranje osobnih pričuva"
+
+msgid "personal_reserves/hint/press"
+msgstr "Pritisni"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "Nepokretni smo: ovjes je oštećen"
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "Nepokretni smo: posada je onesposobljena."
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "Nepokretni smo: motor je oštećen"
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "Imobiliziran: vozilo uništeno."
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "Ne možemo pucati: posada je onesposobljena."
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "Ne možemo pucati: top je oštećen."
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "Nije moguće pucati."
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "Nije moguće pucati: top je pregrijan."
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "Punjenje topa."
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "Dovršavanje učitavanja."
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "Nije moguće pucati: nema streljiva."
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "Ne možemo pucati: tenk je uništen."
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "Prebacivanje nedostupno: motor je uništen."
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "Promjena nedostupna: top uništen"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "Promjena nedostupna: ostala samo jedna granata"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] je već aktivan."
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "Potrošni materijal [%(name)s] je neaktivan: nema požara."
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] nedostupan tijekom hlađenja."
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "Medicinska pomoć nije potrebna: nema ozljeđenih tenkista."
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] ne zahtjeva medicinsku pomoć."
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "Osobna pričuva nije spremna."
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "Osvojite %(name)s za aktiviranje Taktičke vještine."
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "Moduli i zapovjednik imaju puni HP. Popravci i liječenje nisu potrebni."
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "Popravci nisu potrebni: svi uređaji neoštećeni."
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] ne zahtjeva nikakve popravke."
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "Nije moguće aktivirati koaksijalno oružje."
+
+msgid "player_messages/ALLY_HIT"
+msgstr "Pogodio si suborca %(entity)s!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s] je spreman za upotrebu."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "Topnička bitnica raspoređena i spremna za paljbu."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "Avioni dolaze i spremni su za bombardiranje."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "Naša posada je spremna nadahnuti ostale oko njih."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "Minsko polje je spremno za postavljanje."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "Zrakoplov dolazi i spreman je za osmatranje."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "Terenski popravci su spremni za upotrebu."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "Dimna bitnica razmještena i spremna za paljbu."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "Stražar je spreman za upotrebu."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "Topnička bitnica %(player)s puca."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "Bombarderi %(player)s prilaze."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s stvara zonu oporavka."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s aktivira nadahnuće."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s je položio minsko polje."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "%(player)s's izvidnički let je na putu."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s je iskoristio terenske popravke."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s postavlja dimnu zavjesu."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s aktivira stražara."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s je uništen topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s je uništen topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s je uništen topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s je uništen topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s je uništen topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s je uništen topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Vozilo uništeno topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s je uništen topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s je uništen topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s je uništen zračnim udarom."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s je uništen zračnim udarom."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "Saveznik %(target)s je uništen od saveznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(attacker)s uništio %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vozilo je uništio saveznik %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Saveznik %(target)s je uništen od strane zone."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(attacker)s uništio %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "Neprijatelj %(attacker)s je uništio neprijatelja %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vozilo je uništio neprijatelj %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s je uništen od strane zone."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "Saveznik %(target)s uništen."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s je uništen."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vozilo je uništeno."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Modul [%(device)s] uništen vatrom"
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Uređaj %(device)s je uništen hicem igrača %(entity)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "Saveznik %(attacker)s je potopio saveznika %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(attacker)s je potopio %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vozilo je potopljeno od strane saveznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "Saveznik %(target)s se utopio."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(attacker)s je potopio %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "Neprijatelj %(attacker)s je potopio neprijatelja %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vozilo je potopljeno od strane neprijatelja %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "Neprijatelj %(target)s se utopio."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "Saveznik %(target)s je potopljen."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "%(target)s je potopljen."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vozilo se potopilo."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "Saveznik %(target)s je uništen od saveznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(attacker)s uništio %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Vozilo je uništio saveznik %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(attacker)s uništio %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "Neprijatelj %(attacker)s je uništio neprijatelja %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Vozilo je uništio neprijatelj %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "Saveznik %(target)s uništen."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s je uništen."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "Posada je onesposobljena."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Posada je ranjena hicem igrača %(entity)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Posada saveznika %(target)s je uništena od strane saveznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(target)s je uništena od strane saveznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Posada je uništena od saveznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Saveznik %(target)s je uništio svoju posadu."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(target)s je uništena od strane saveznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Posada neprijatelja %(target)s je uništena od strane neprijatelja %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Posada je uništena od strane neprijatelja %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Neprijatelj %(target)s je uništio svoju posadu."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "Posada saveznika %(target)s je uništena."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "Posada %(target)s je uništena."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Posada je uništena."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Saveznika %(target)s je uništilo minsko polje."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s je uništen."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(attacker)s uništio %(target)s minama."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(attacker)s uništio %(target)s minama."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s uništen minama."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "Saveznik %(attacker)s je prevrnuo saveznika %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s je prevrnuo %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Vozilo je prevrnuo saveznik %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "Saveznik %(target)s je prevrnuo svoje vozilo"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s je prevrnuo %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "Neprijatelj %(attacker)s je prevrnuo neprijatelja %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Votilo je prevrnuo i uništio %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "Neprijatelj %(target)s je prevrnuo svoje vozilo"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "Saveznik %(target)s se prevrnuo"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s se prevrnuo"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vozilo je prevrnuto i uništeno"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "Saveznik %(attacker)s je uništio saveznika %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(attacker)s uništio %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Vozilo je uništio saveznik %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "Saveznik %(target)s se razbio."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(attacker)s uništio %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "Neprijatelj %(attacker)s je uništio neprijatelja %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Vozilo je uništio neprijatelj %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "Neprijatelj %(target)s se razbio."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "Saveznik %(target)s uništen."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s je uništen."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vozilo je uništeno."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s je napustio svoje vozilo."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s je napustio svoje vozilo."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Vozilo uništeno tijekom bombardiranja zone."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s je uništen tijekom bombardiranja zone."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s je uništen tijekom bombardiranja zone."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Vozilo uništeno topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s je uništen topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s je uništen topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "Saveznik %(attacker)s je uništio %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "Saveznik %(attacker)s je uništio %(target)s topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "Saveznik %(attacker)s je uništio %(target)s bombardiranjem."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s uništio %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s uništio %(target)s topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(attacker)s uništio %(target)s zračnim udarom."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s uništio %(target)s (Vatrena podrška)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s uništio %(target)s (Topnički udar)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "Saveznik %(target)s je izgubljen u bitci."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "Saveznik %(target)s je izgubljen u bitci nakon topničkog udara."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "Saveznik %(target)s je izgubljen u bitci nakon bombardiranja."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s uništio %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(attacker)s uništio %(target)s topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(attacker)s uništio %(target)s zračnim udarom."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s uništio %(target)s (Vatrena podrška)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s uništio %(target)s (Topnički udar)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "Neprijatelj %(attacker)s je uništio neprijatelja %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "Neprijatelj %(attacker)s uništio neprijatelja %(target)s topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "Neprijatelj %(attacker)s uništio neprijatelja %(target)s tbombardiranjem."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "Neprijatelj %(target)s je izgubljen u bitci."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "Neprijatelj %(target)s je izgubljen u bitci nakon topničkog udara."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "Neprijatelj %(target)s je izgubljen u bitci nakon bombardiranja."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "Saveznik %(target)s uništen."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "Saveznik %(target)s uništen topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "Saveznik %(target)s uništen bombardiranjem."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s je uništen."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s uništen topničkim udarom."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s uništen zračnim udarom."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s je uništen"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s je uništen"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "Neprijatelj (nepoznati) uništio %(target)s."
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Saveznik %(target)s je uništen od zone uništenja."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Saveznik %(attacker)s je razbio saveznika %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s je razbio neprijatelja %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vozilo je razbijeno od saveznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Saveznik %(target)s se razbio."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s je razbio neprijatelja %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Neprijatelj %(attacker)s. je razbio neprijatelja %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vozilo je razbijeno od %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Neprijatelj %(target)s se razbio."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "Saveznik %(target)s je razbijen."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s je razbijen."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vozilo razbijeno"
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s je uništio cilj %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s je uništio cilj %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "Uništili ste cilj %(target)s."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "Uređaj [%(device)s] je oštećen u vatri."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "Hitac %(entity)s je oštetio [%(device)s]."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "Uređaj [%(device)s] je uništen zbog vatre."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "Uređaj [%(device)s] je uništen od strane %(entity)s."
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "Uređaj [%(device)s] je netaknut."
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "Uređaj [%(device)s] ponovo radi."
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "Uređaj [%(device)s] je planuo zbog hica igrača %(entity)s."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "Uređaj [%(device)s] je oštećen pojačavanjem."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "Uređaj [%(device)s] je oštećen skidanjem regulatora broja obrtaja."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "Uređaj [%(device)s] je uništen pojačavanjem."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "Uređaj [%(device)s] je uništen skidanjem regulatora broja obrtaja."
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "Vatra je ugašena."
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "Hitac od %(entity)s je ozlijedio [%(device)s]."
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] je vraćen u borbu."
+
+msgid "player_messages/allied_team_name"
+msgstr "Saveznici"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "Zauzimanje prijateljske baze%s (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "Naša baza%s je zauzeta!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "Osvajanje baze blokirano"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "Osvajanje baze%s (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "Baza%s osvojena!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "Zauzimanje neprijateljske baze%s (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "Neprijateljska baza%s zauzeta!"
+
+msgid "player_messages/enemy_team_name"
+msgstr "Neprijatelj"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "Vaš saveznik %(name)s je iskoristio Taktičku vještinu %(equipment)s"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "Neprijatelj je iskoristio Taktičku vještinu %(equipment)s"
+
+msgid "player_messages/postmortem_caption"
+msgstr "Igrač %(name)s (%(type)s); HP: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "Igrač: %(name)s; Izdržljivost: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "Vaše vozilo (%(type)s) je uništeno"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "Nije moguće pucati: nema streljiva."
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "Kontrole reprize:"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "Lijevi klik miša: odabir režima kamere\nRazmaknica: pauza"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "Lijeva strelica: premotaj unatrag 20 sekundi (sa Ctrl 40 sekundi)\nDesna strelica: premotaj unaprijed 20 sekundi (sa Ctrl 40 sekundi)\nHome/end: skok na početak/kraj\nDonja/Gornja strelica: +/- brzina reprize"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "Slobodna kamera aktivirana."
+
+msgid "player_messages/replayPaused"
+msgstr "Pauza"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "Fiksna kamera aktivirana."
+
+msgid "player_messages/replaySpeedChange"
+msgstr "Brzina reprize: %(speed)sx"
+
+msgid "player_messages/tank_in_fire"
+msgstr "Tenk gori!"
+
+msgid "players_panel/state/large/body"
+msgstr "Prikaži imena igrača, uništene mete i imena i ikone vozila"
+
+msgid "players_panel/state/large/header"
+msgstr "Dugi"
+
+msgid "players_panel/state/large/note"
+msgstr "(Pritisni Ctrl+Tab za promjenu između režima)"
+
+msgid "players_panel/state/medium/body"
+msgstr "Prikaži imena igrača, uništene mete i ikone vozila"
+
+msgid "players_panel/state/medium/header"
+msgstr "Srednja divizija"
+
+msgid "players_panel/state/medium/note"
+msgstr "(Pritisni Ctrl+Tab za promjenu između režima)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "Prikaži uništena vozila, ime i ikonu vozačevog vozila."
+
+msgid "players_panel/state/medium2/header"
+msgstr "Srednji 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(Pritisni Ctrl+Tab za promjenu između režima)"
+
+msgid "players_panel/state/none/body"
+msgstr "Sakrij panele"
+
+msgid "players_panel/state/none/header"
+msgstr "Bez"
+
+msgid "players_panel/state/none/note"
+msgstr "(Pritisni Ctrl+Tab za promjenu između režima)"
+
+msgid "players_panel/state/short/body"
+msgstr "Prikaži uništene mete i ikone vozila"
+
+msgid "players_panel/state/short/header"
+msgstr "Kratki"
+
+msgid "players_panel/state/short/note"
+msgstr "(Pritisni Ctrl+Tab za promjenu između režima)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "Neprijatelj"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "Esc > Natrag u Garažu."
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "Uđite u bitku u drugom vozilu"
+
+msgid "postmortem/tips/freecam/button"
+msgstr "SPACE"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "Slobodna kamera"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "Uključite slobodnu kameru"
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "Slobodna kamera nije dostupna"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "U ovom režimu nije moguće aktivirati slobodnu kameru."
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "Režim promatrača"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "Prebacujte se između vozila suboraca."
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "Slijedi vozilo"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "Usmjerite kursor na savezničko vozilo i kliknite lijevim gumbom miša da bi ga slijedili."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "Vozilo je uništeno od strane glavnog cilja"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Vozilo uništeno topničkim udarom."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "Vozilo je uništeno od strane glavnog cilja"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "Vozilo uništeno zračnim udarom"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "Vozilo je uništio Razbojnik."
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "Vozilo uništeno od robota bojišnice."
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "Vozilo uništeno od kisele granate."
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vozilo je uništio saveznik u zabranjenoj zoni"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vozilo je uništeno u zabranjenoj zoni"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Niste uspjeli napustiti zonu opasnosti."
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Modul [%(device)s] uništen vatrom"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modul [%(device)s] je eksplodirao od hica igrača"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vozilo je utopio saveznik"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vozilo je utopljeno"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vozilo je utopljeno"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "Igrač je zapalio vozilo"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "Vozilo uništeno od vatrenog prstena."
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Posada je izbačena iz stroja hicem igrača"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vozila je izbačena iz stroja nakon jakog sudara sa savezničkim vozilom"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Posada je izbačena iz stroja jakim sudarom"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Posada je izbačena iz stroja jakim sudarom"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "Vozilo uništeno vatrenom kuglom."
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Vozilo je uništilo minsko polje"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "Vozilo uništeno minama"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Vozilo je prevrnuo saveznik"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Vozilo je prevrnuo neprijatelj"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vozilo uništeno prevrtanjem"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Vozilo uništeno sudaranjem saveznika"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Vozilo uništeno sudaranjem"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vozilo uništeno sudaranjem"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "Vaše vozilo je uništeno"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Vozilo uništeno tijekom bombardiranja zone."
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Vozilo uništeno topničkim udarom."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "Vozilo uništeno hicem igrača"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "Vozilo uništeno zračnim udarom."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "Vozilo uništeno zračnim udarom."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Vozilo uništeno topničkim udarom"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Vozilo uništeno zračnim udarom"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vozilo je uništeno od strane zone uništenja"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "Vozilo uništeno električnim izbojem."
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vozilo je razbio saveznik"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vozilo je razbio neprijatelj"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vozilo razbijeno"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "Vaše vozilo je uništeno"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "Odabrana konfiguracija se koristi u bitci:"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "Odaberite konfiguraciju koja će se koristiti u bitci prije završetka odbrojavanja."
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "Odaberite konfiguraciju"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "Odabir konfiguracije: {seconds} s"
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "Odabir konfiguracije:"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "Klanac"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "Osmatranje"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "Šuma"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "Staza"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "Ulica"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "Ruševine"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "Most"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "Pruga"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "Grad"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "Selo"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "Trg"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "Tvornica"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "Brdo"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "Svjetionik"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "Središte"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "Dvorac"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "Vjetrenjača"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "Planine"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "Putanja A"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "Putanja B"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "Putanja C"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "Putanja D"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "Putanja E"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "Dolina"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "Ledenjak"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "Zaobilazak"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "Brda"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "Cesta"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "Planina"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "Bunker"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "Avenija"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "Zid"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "Stijene"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "Radionice"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "Polje"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "Garaža"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "Ugljen"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "Brodovi"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "Nosač zrakoplova"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "Rovovi"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "Serpentina"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "Sjever"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "Jug"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "Zapad"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "Istok"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "Prijevoj"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "Cepelin"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "Skladišta"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "Obala"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "Rijeka"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "Jezero"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "Močvara"
+
+msgid "quickReply/hint/press"
+msgstr "Pritisni"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "za potvrdu"
+
+msgid "quickReply/hint/toCommend"
+msgstr "na uzvrat pohvale"
+
+msgid "quickReply/hint/toHelp"
+msgstr "za pomoć"
+
+msgid "quickReply/hint/toThank"
+msgstr "za zahvalu"
+
+msgid "recovery/cooldown"
+msgstr "Vozilo se može napustiti za %(cooldown)s sekundi"
+
+msgid "recovery/hint1"
+msgstr "Drži"
+
+msgid "recovery/hint2"
+msgstr "za napuštanje vozila"
+
+msgid "repairPoint/title"
+msgstr "Popravci"
+
+msgid "repairPoint/unavailable"
+msgstr "Nedostupno"
+
+msgid "respawnView/additionalTip"
+msgstr "Odaberite vozilo za nastavak. Ako se sva vozila popravljaju, nastavit ćete bitku u prvom dostupnom vozilu."
+
+msgid "respawnView/additionalTipLimited"
+msgstr "Odaberite vozila za nastavak. Uništeno vozilo se ne može popraviti prije kraja bitke."
+
+msgid "respawnView/classNotAvailable"
+msgstr "Granica fronte\ndosegnuta"
+
+msgid "respawnView/cooldownLbl"
+msgstr "Na popravku %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "Uništen"
+
+msgid "respawnView/disabledLbl"
+msgstr "Vozilo je nedostupno"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "Pogodno vozilo nije odabrano"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "Vozilo razine X nije u grupi."
+
+msgid "respawnView/nextVehicleName"
+msgstr "Bitka se nastavlja "
+
+msgid "respawnView/title"
+msgstr "Odabir vozila"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "DA, GOSPODINE!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "Hvala vam na vašem sudjelovanju u evoluciji World of Tanks! Vaš osobni doprinos se iznimno cijeni!"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "Pismo zahvale"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "Dobili ste nagradu!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "Čestitamo!"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "Potvrđujem!"
+
+msgid "rewardWindow/base/descText"
+msgstr "Nagrada primljena"
+
+msgid "rewardWindow/base/headerText"
+msgstr "Čestitamo"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "Nagrada primljena"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "Paket pomoći India"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "Paket Pomoći Julliet"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "Na kutije"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "Dobili ste velike kutije s vrijednim nagradama."
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "Dobili ste kutije!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "Dobili ste male kutije s vrijednim nagradama za izvršenje zadataka."
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "Vrijeme je da saznate što je u kutiji!"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "Razumijem!"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "Prikupljanje kredita zaustavljeno. Produljite WoT premium za nastavak popunjavanja pričuva kredita."
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "Krediti primljeni"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "Pričuva kredita otvorena"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "Čestitamo!"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "DA, GOSPODINE!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "Čestitamo, dobili ste poseban paket uključen uz Prime Gaming. Dobro ga iskoristite na bojišnici."
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "Paket pomoći Delta"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "Dobili ste nagradu!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "UNOVAČI JE SADA"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "Čestitamo, dobili ste poseban paket uključen uz Prime Gaming. Dobro ga iskoristite na bojišnici."
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "Paket pomoći Alfa"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "Dobili ste nagradu!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "DA, GOSPODINE!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "Paket pomoći Borbena Propusnica"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "DA, GOSPODINE!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "Paket pomoći Svemir"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "DA, GOSPODINE!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "Paket pomoći Zvjezdana noć"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "Još"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "Paket pomoći Lipanj"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "Paket pomoći Srpanj"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "Još"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "Paket pomoći Desetka"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "World of Tanks: Starlight pribor"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "Komplet Kraljice Maeve"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "Imelina zbirka"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "Još"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "Zbirka Veliki ulov"
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "DA, GOSPODINE!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "Čestitamo, dobili ste poseban paket uključen uz Prime Gaming. Dobro ga iskoristite."
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "Paket pomoći Charlie"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "Dobili ste nagradu!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "Paket \"G.I. JOE: Duke\""
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "Paket \"G.I. JOE: Cobra\""
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "Još"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "Rokaj! paket"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "Paket Tiha lovkinja"
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "Još"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "Paket Svježi izgled"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "Još"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "Paket ljetnog raspoloženja"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "Paket Visoki napon"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "Još"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "Paket To je prava bundeva"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "Vikinzi među nama"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "Još"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "Paket Novi početak"
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen s Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "Paket pomoći Eko"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "Još"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "Retro valovi"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "Adepta Sororitas"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "Revolveraš"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "Dobili ste jedinstvenu nagradu za program: Prime Gaming"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "e-kamuflaža"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "Spreman za bitku"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "Naprijed goniči!"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "Bodež"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Dobili ste jedinstvenu nagradu za program: Prime Gaming"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "Vračanje"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "Vrijeme za savez"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "Došli ste u pogrešno susjedstvo"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "Ugrizi me!"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "Dobili ste jedinstvenu nagradu za program: Prime Gaming"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "Početni zvižduk"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "Pobjednički gol"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "Svevremenski klasik"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Dobili ste jedinstvenu nagradu za program: Prime Gaming"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "Praznično ruho"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "Šarmantni poklon"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "Teški poklon"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "Dvostruka proslava"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "Odaberite nagrade"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Dobili ste jedinstvenu nagradu za program: Prime Gaming"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "Vrli novi svijet"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "Oko posmatrača"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "Anatomija kiborga"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "Otkriveni ste"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "Paket pomoći Foxtrot"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "Paket pomoći Golf"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "Paket pomoći Hotel"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "Paket pomoći Kilo"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "Paket pomoći Lima"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "Unovači"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "Čestitamo! Dobili ste poseban istovar opskrbe uključen uz Prime Gaming. A sada ga dobro iskoristite."
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "Paket pomoći Mike"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "Primljene nagrade"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "Potvrđujem!"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "Vaši članovi klana se oslanjaju na vaše daljnje sudjelovanje\nu napredovanju kroz Vojni rok."
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "Nagrada primljena!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "Na Vojni rok"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "Vojni rok"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "Potvrđujem!"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "Vaši članovi klana se oslanjaju na vaše daljnje sudjelovanje\nu napredovanju kroz Vojni rok."
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "Nagrada primljena!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "Na Vojni rok"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "Vojni rok"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "Čestitamo!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "Naš vod"
+
+msgid "scorePanel/playerScore"
+msgstr "Vaš doprinos:"
+
+msgid "scorePanel/squadLbl"
+msgstr "Vod %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s mm Pancirna %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s mm Pancirna – potkalibarna %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s mm Pancirno - fugasna %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s mm Fugasna %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s mm Kumulativna %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "Prosječna šteta: %(value)s HP"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "Šteta u sekundi: %(value)s HP/s"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "Polumjer štete: %(value)s m"
+
+msgid "shells_kinds/params/header"
+msgstr "Puni / pojedinačni naboj"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "Prosječna probojnost: %(value)s mm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "Brzina granate: %(value)s m/s"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "Trajanje ošamućenja: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "prebaciti na režim Opsade"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "prebaciti na režim Putovanja"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "Ključne tipke nisu pridjeljene"
+
+msgid "siegeMode/hint/press"
+msgstr "Pritisni"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "za aktiviranje Potisnika na tekuće gorivo"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "za aktiviranje mlaznih potiskivača"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "na aktiviranje sekvencijalnih raketnih potisnika"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "Pogodite neprijateljsko vozilo kako bi dobili dodatni učinak od Laserskog označivača meta"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "za prebacivanje režima motora"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "za promjenu režima paljbe"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "za prebacivanje u režim kretanja"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "na uključenje pomoći turbopunjača"
+
+msgid "spotted/indicator"
+msgstr "Vrijeme otkrivanja i primljene štete povećani"
+
+msgid "spotted/seconds"
+msgstr "s"
+
+msgid "statistics/exit"
+msgstr "Pritisni Esc za povratak u garažu..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "Uništen od strane: %s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "Zauzimanje baze: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "Oštetio:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "Pogodio cilj: %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "Pogođen puta: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "Obrana baze: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "Uništio:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(posmrtno)"
+
+msgid "statistics/final/personal/shots"
+msgstr "Hitaca: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "Otkrio:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "Sva saveznička vozila su uništena"
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "Sva vozila uništena!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "Sva neprijateljska vozila uništena"
+
+msgid "statistics/final/reasons/reason2"
+msgstr "Baza je zauzeta!"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "Vrijeme je isteklo!"
+
+msgid "statistics/final/stats/credits"
+msgstr "Krediti:"
+
+msgid "statistics/final/stats/experience"
+msgstr "Iskustvo:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "Iskustvo (x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "Popravci:"
+
+msgid "statistics/final/status/lose"
+msgstr "Poraz! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "Neodlučeno! %s"
+
+msgid "statistics/final/status/win"
+msgstr "Pobjeda! %s"
+
+msgid "statistics/header"
+msgstr "Statistika bitke"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "Igrač"
+
+msgid "statistics/headers/header2"
+msgstr "Vozila"
+
+msgid "statistics/headers/header3"
+msgstr "Stanje"
+
+msgid "statistics/headers/header4"
+msgstr "Uništeno"
+
+msgid "statistics/playerState/0"
+msgstr "Uništen"
+
+msgid "statistics/playerState/1"
+msgstr "Van bitke"
+
+msgid "statistics/playerState/2"
+msgstr "Uništen"
+
+msgid "statistics/playerState/3"
+msgstr "U bitci"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "Sastav"
+
+msgid "statistics/tab/line_up/title"
+msgstr "Sastav tima"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "Osobne pričuve"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "Aktiviranje osobnih pričuva"
+
+msgid "statistics/tab/quests/header"
+msgstr "Zadaci"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "Osobni zadaci su nedostupni u ovom režimu bitke"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "Idite na karticu Kampanja u Garaži za odabir zadatka"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "Nemate aktivnih zadataka za ovo vozilo"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "Osnovni uvjet ispunjen"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "Svi zadaci izvršeni"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "Aktivno"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "Poboljšanje rezultata"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "Pauzirano"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "Prikaz napredaka prema zadacima je nedostupan"
+
+msgid "statistics/tabs/group"
+msgstr "Timska dostignuća"
+
+msgid "statistics/tabs/heroes"
+msgstr "Junaci bitke"
+
+msgid "statistics/tabs/personal"
+msgstr "Osobna postignuća"
+
+msgid "statistics/team1title"
+msgstr "Saveznici"
+
+msgid "statistics/team2title"
+msgstr "Neprijatelj"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "Napustite\nzonu uništenja!"
+
+msgid "stun/indicator"
+msgstr "Posada ošamućena"
+
+msgid "stun/seconds"
+msgstr "s"
+
+msgid "tabStatsHint"
+msgstr "- Statistika"
+
+msgid "tankmen/commander"
+msgstr "Zapovjednik"
+
+msgid "tankmen/driver"
+msgstr "Vozač"
+
+msgid "tankmen/gunner"
+msgstr "Topnik"
+
+msgid "tankmen/loader"
+msgstr "Punitelj"
+
+msgid "tankmen/radioman"
+msgstr "Vezist"
+
+msgid "timer/battlePeriod"
+msgstr "Kraj bitke za:"
+
+msgid "timer/started"
+msgstr "Bitka počinje!"
+
+msgid "timer/starting"
+msgstr "Bitka počinje za:"
+
+msgid "timer/waiting"
+msgstr "Čekam igrače..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "Pritisni"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "za prebacivanje u režim ciljanja"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "Ključne tipke nisu pridjeljene"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vozilo je uništeno od saveznika %(entity)s u zoni smrti."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vozilo je uništeno od %(entity)s u zoni smrti."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vozilo je uništeno od strane zone opasnosti."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vozilo je potopljeno od strane saveznika %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vozilo je potopljeno od %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vozilo se potopilo."
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "Vozilo je uništeno vatrom"
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Vozilo je uništeno od saveznika %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Vozilo je uništeno od %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Posada je uništena zbog udara saveznika %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Posada je uništena zbog udara neprijatelja %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Posada je izvan stroja zbog udara."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Vozilo je prevrnuo saveznik %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Vozilo je prevrnuo neprijatelj %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vozilo uništeno prevrtanjem"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Saveznik %(entity)s je uništio vozilo sudaranjem."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "%(entity)s je uništio vozilo sudaranjem."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vozilo je uništeno sudaranjem."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "Tenk je uništen hicem %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "%(entity)s uništio vozilo topničkim udarom."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "%(entity)s uništio vozilo bombardiranjem."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vozilo je razbijeno od saveznika %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vozilo je razbijeno od neprijatelja %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vozilo razbijeno"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "Saveznik %(entity)s je oštetio uređaj [%(device)s] sudaranjem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "Saveznik %(entity)s je oštetio uređaj [%(device)s] sudaranjem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Uređaj [%(device)s] je oštećen sudaranjem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "Neprijatelj %(entity)s je oštetio uređaj [%(device)s] sudaranjem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "Neprijatelj %(entity)s je oštetio uređaj [%(device)s] sudaranjem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "Uređaj [%(device)s] je oštećen sudaranjem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Udar saveznika %(entity)s je oštetio uređaj [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Udar saveznika %(entity)s je oštetio uređaj [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Uređaj [%(device)s] je oštećen kao rezultat sudara."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Udar neprijatelja %(entity)s je oštetio uređaj [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Udar neprijatelja %(entity)s je oštetio uređaj [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Uređaj [%(device)s] je oštećen kao rezultat sudara."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Uređaj [%(device)s] je uništilo minsko polje."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Uređaj [%(device)s] je uništilo minsko polje."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "Saveznik %(entity)s je uništio uređaj [%(device)s] sudaranjem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "Saveznik %(entity)s je uništio uređaj [%(device)s] sudaranjem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Uređaj [%(device)s] je uništen sudaranjem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "Neprijatelj %(entity)s je uništio uređaj [%(device)s] sudaranjem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "Neprijatelj %(entity)s je uništio uređaj [%(device)s] sudaranjem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "Uređaj [%(device)s] je uništen sudaranjem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Udar saveznika %(entity)s je uništio uređaj [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Udar saveznika %(entity)s je uništio uređaj [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Uređaj [%(device)s] je uništen udarom."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Udar %(entity)s je uništio uređaj [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Udar %(entity)s je uništio uređaj [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Uređaj [%(device)s] je uništen udarom."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "Uređaj [%(device)s] je zapaljen zbog sudaranja saveznika %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "Uređaj [%(device)s] je zapaljen zbog sudaranja saveznika %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Uređaj [%(device)s] je zapaljen zbog sudaranja."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "Uređaj [%(device)s] je zapaljen zbog sudaranja neprijatelja %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "Uređaj [%(device)s] je zapaljen zbog sudaranja neprijatelja %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "Uređaj [%(device)s] je zapaljen zbog sudaranja."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] ranjen zbog udara saveznika %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] ranjen zbog udara saveznika %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] ranjen zbog udara."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] ranjen zbog udara neprijatelja %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] ranjen zbog udara neprijatelja %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] ranjen zbog udara."
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "Taktička vještina %(equipment)s je aktivirana!"
+
+msgid "warning_zone/indicator"
+msgstr "Pazite! Blizu ste zone opasnosti."

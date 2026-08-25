@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Nulstil filtre"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Ingen køretøjer matcher de valgte parametre.\nDu skal nulstille filterindstillingerne for at se de relevante køretøjer"
+
+msgid "battleType/description/fast"
+msgstr "Et scenarie med reduceret cooldown på kampreserver."
+
+msgid "battleType/description/random"
+msgstr "Et scenarie, hvor spillerne vælger mellem sæt med tilfældige reserver, med mulighed for at forbedre dem til niveau IV."
+
+msgid "battleType/description/standard"
+msgstr "Et scenarie med standard Frontlinje-regler."
+
+msgid "battleType/postBattle/title"
+msgstr "Kampscenarie: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Reduceret cooldown på reserver."
+
+msgid "battleType/shortDescription/random"
+msgstr "Kampreserver uddeles tilfældigt."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Standardregler anvendes."
+
+msgid "battleType/title/fast"
+msgstr "Operationel støtte"
+
+msgid "battleType/title/random"
+msgstr "Skæbnen råder"
+
+msgid "battleType/title/standard"
+msgstr "Standard kamp"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "TILBAGE"
+
+msgid "button/close"
+msgstr "LUK"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} dag"
+msgstr[1] "{duration} dage"
+msgstr[2] "{duration} dage"
+
+msgid "filterPopover/note"
+msgstr "Kun køretøjer, der kan bruges i kamptypen, vises her."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Niveauet på kampreserver øges, når du når en ny rang."
+
+msgid "levelReservesTooltip/info"
+msgstr "I {whiteSpanish_Start}Skæbnen råder{whiteSpanish_End}-scenariet, vil køb af en kampreserve forøge dens niveau med ét, og give mulighed for at forbedre den til niveau {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/level"
+msgstr "Forøges, når følgende rang opnås: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Tilgængelig ved følgende rang: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Niveau {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "For {whiteSpanish_Start}købte kampreserver{whiteSpanish_End} i {whiteSpanish_Start}Skæbnen råder{whiteSpanish_End}-scenariet."
+
+msgid "levelReservesTooltip/title"
+msgstr "Niveau på kampreserve"
+
+msgid "loading"
+msgstr "Indlæser…"
+
+msgid "widget/eventStartSoon"
+msgstr "Eventet starter snart!"
+
+msgid "widget/maxTier"
+msgstr "Du har nået det højeste niveau!"

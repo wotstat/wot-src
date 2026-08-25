@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "domain/accuracy/description"
+msgstr "Joukko parametrejä, joka näyttää yleisen tehokkuuden vihollisen ampumisessa."
+
+msgid "domain/accuracy/name"
+msgstr "Ampumistehokkuus"
+
+msgid "domain/armorPiercing/description"
+msgstr "Joukko parametrejä, joka näyttää vaunujen kyvyn läpäistä vihollisen panssaria."
+
+msgid "domain/armorPiercing/name"
+msgstr "Läpäisy"
+
+msgid "domain/battleParams/description"
+msgstr "Joukko parametrejä, joka näyttää pelin ydinmekaniikkoja."
+
+msgid "domain/battleParams/name"
+msgstr "Taisteluparametrit"
+
+msgid "domain/comp7LightSeasonModifiers/description"
+msgstr "Pelimuotoriippuvaisia muuttujia, jotka vaihtavat vaunun ominaisuuksia."
+
+msgid "domain/comp7LightSeasonModifiers/name"
+msgstr "Kevyt-Rynnistyksen muuttujat"
+
+msgid "domain/comp7SeasonModifiers/description"
+msgstr "Pelimuotoriippuvaisia muuttujia, jotka vaihtavat vaunun ominaisuuksia."
+
+msgid "domain/comp7SeasonModifiers/name"
+msgstr "Rynnistyksen muuttujat"
+
+msgid "domain/concealment/description"
+msgstr "Joukko parametrejä, joka näyttää vaunujen kyvyn pysyä näkymättömissä."
+
+msgid "domain/concealment/name"
+msgstr "Naamiointi"
+
+msgid "domain/damageDealing/description"
+msgstr "Joukko parametrejä, joka näyttää vaunujen kyvyn aiheuttaa vahinkoa."
+
+msgid "domain/damageDealing/name"
+msgstr "Vahingon aiheuttaminen"
+
+msgid "domain/mobility/description"
+msgstr "Joukko parametrejä, joka kertoo vaunusi liikeominaisuuksista ja vauhdista."
+
+msgid "domain/mobility/name"
+msgstr "Ohjattavuus ja liikeominaisuudet"
+
+msgid "domain/randomization/description"
+msgstr "Joukko parametrejä, joka näyttää vahingon ja läpäisyn mahdollisen jakauman."
+
+msgid "domain/randomization/name"
+msgstr "Satunnaisarvot"
+
+msgid "domain/sustaining/description"
+msgstr "Joukko parametrejä, joka näyttää vahingoittuneiden moduulien/loukkaantuneen miehistön palautumisen."
+
+msgid "domain/sustaining/name"
+msgstr "Korjattavuus"
+
+msgid "domain/visibility/description"
+msgstr "Joukko parametrejä, joka näyttää vaunujen kyvyn havaita vihollisia."
+
+msgid "domain/visibility/name"
+msgstr "Näköetäisyys"
+
+msgid "domain/vitality/description"
+msgstr "Joukko parameterejä, jotka kertovat vaunusi kyvystä selviytyä taistelussa."
+
+msgid "domain/vitality/name"
+msgstr "Kestävyys"
+
+msgid "modifier/name/aimingTime"
+msgstr "Tähtäysaika"
+
+msgid "modifier/name/ammoBayHealth"
+msgstr "Ammustelineen kestävyys"
+
+msgid "modifier/name/autoreloadTime"
+msgstr "Latausaika vaunuille, joilla on automaattilataaja"
+
+msgid "modifier/name/battleLength"
+msgstr "Taisteluaika"
+
+msgid "modifier/name/bkMaxSpeed"
+msgstr "Peruutuksen huippunopeus"
+
+msgid "modifier/name/burstInterval"
+msgstr "Latausaika lippaan ammusten lataamiseen"
+
+msgid "modifier/name/chassisHealth"
+msgstr "Rungon kestävyys"
+
+msgid "modifier/name/clipInterval"
+msgstr "Latausaika lippaassa olevien ammusten välillä"
+
+msgid "modifier/name/damageRandomization"
+msgstr "Mahdollisen vahingon jakauma"
+
+msgid "modifier/name/deviceDamageFirst"
+msgstr "Sisäisen moduulin vahinko"
+
+msgid "modifier/name/dispFactorAfterShot"
+msgstr "Hajonta ampumisen jälkeen"
+
+msgid "modifier/name/dispFactorChassisMovement"
+msgstr "Hajonta liikkeessä"
+
+msgid "modifier/name/dispFactorChassisRotation"
+msgstr "Hajonta runkoa käännettäessä"
+
+msgid "modifier/name/dispFactorTurretRotation"
+msgstr "Hajonta tornia käännettäessä"
+
+msgid "modifier/name/dispFactorWhileGunDamaged"
+msgstr "Hajonta vahingoittuneella tykillä"
+
+msgid "modifier/name/engineFireFactor"
+msgstr "Moottorin syttymisen todennäköisyys"
+
+msgid "modifier/name/engineHealth"
+msgstr "Moottorin kestävyys"
+
+msgid "modifier/name/enginePower"
+msgstr "Moottoriteho"
+
+msgid "modifier/name/envChassisDamage"
+msgstr "Telakoneiston vahinko törmätessä"
+
+msgid "modifier/name/envHullDamage"
+msgstr "Rungon vahinko törmätessä"
+
+msgid "modifier/name/envModuleDamageChance"
+msgstr "Vahinko muihin moduuleihin törmätessä"
+
+msgid "modifier/name/envTankmanDamageChance"
+msgstr "Miehistön vammoihin törmätessä"
+
+msgid "modifier/name/equipmentCooldown"
+msgstr "Kulutustarvikkeiden jäähtymisaika"
+
+msgid "modifier/name/fuelTankHealth"
+msgstr "Polttoainetankin kestävyys"
+
+msgid "modifier/name/fwMaxSpeed"
+msgstr "Huippunopeus eteenpäin"
+
+msgid "modifier/name/gravityFactor"
+msgstr "Vaunun painovoima"
+
+msgid "modifier/name/gunHealth"
+msgstr "Tykin kestävyys"
+
+msgid "modifier/name/gunRotationSpeed"
+msgstr "Tykin kääntönopeus kiinteässä hytissä"
+
+msgid "modifier/name/invisibilityOnMove"
+msgstr "Naamiointi liikkeessä"
+
+msgid "modifier/name/invisibilityOnStill"
+msgstr "Paikallaan olevan vaunun naamiointi"
+
+msgid "modifier/name/normalizationAngle"
+msgstr "Ammuksen normalisaatio"
+
+msgid "modifier/name/piercingPowerRandomization"
+msgstr "Mahdollisen läpäisyn jakauma"
+
+msgid "modifier/name/radioDistance"
+msgstr "Signaalikantama"
+
+msgid "modifier/name/reloadTime"
+msgstr "Latausaika"
+
+msgid "modifier/name/repairSpeed"
+msgstr "Korjausnopeus"
+
+msgid "modifier/name/ricochetAngle"
+msgstr "Ammuksen kimpoamiskulma. Mitä jyrkempi kulma, sitä suurempi mahdollisuus kimmota"
+
+msgid "modifier/name/rotationSpeedOnStill"
+msgstr "Rungon kääntönopeus"
+
+msgid "modifier/name/shellGravity"
+msgstr "Ammuksen painovoima"
+
+msgid "modifier/name/shellSpeed"
+msgstr "Ammuksen nopeus"
+
+msgid "modifier/name/shotDispersionRadius"
+msgstr "Hajonta 100 metrissä"
+
+msgid "modifier/name/surveyingDeviceHealth"
+msgstr "Tarkkailulaiteiden kestävyys"
+
+msgid "modifier/name/turretPressureDamage"
+msgstr "Vahinko irronneen tornin paineesta"
+
+msgid "modifier/name/turretRammingDamage"
+msgstr "Vahinko irronneesta tornista"
+
+msgid "modifier/name/turretRotationSpeed"
+msgstr "Tornin kääntönopeus"
+
+msgid "modifier/name/turretRotatorHealth"
+msgstr "Tornin kääntäjän kestävyys"
+
+msgid "modifier/name/twinGunReloadTime"
+msgstr "Tykin lataaminen yhteislaukauksella"
+
+msgid "modifier/name/vehicleAoIRadius"
+msgstr "Piirtoetäisyys"
+
+msgid "modifier/name/vehicleHealth"
+msgstr "Vaunun kestävyys"
+
+msgid "modifier/name/vehiclePressureDamage"
+msgstr "Vahinko paineesta"
+
+msgid "modifier/name/vehicleRammingDamage"
+msgstr "Vahinko törmäyksestä"
+
+msgid "modifier/name/visionMinRadius"
+msgstr "Taatun havaitsemisen säde"
+
+msgid "modifier/name/visionRadius"
+msgstr "Näköetäisyys"
+
+msgid "modifier/name/visionTime"
+msgstr "Aikaa jäljellä näkyvissä pysymiseen"
+
+msgid "modifier/name/zeroDamage"
+msgstr "Törmäämällä ja ampumalla aiheuttamasi vahinko"
+
+msgid "modifier/name/zeroEconomy"
+msgstr "Resursseja käytetty ja ansaittu pelimuodon taisteluissa"
+
+msgid "modifiersDomainTooltip/restrict/max"
+msgstr "ei&nbsp;enempää kuin&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/min"
+msgstr "ei&nbsp;vähempää kuin&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/oneRestriction"
+msgstr "(mutta {restriction})"
+
+msgid "modifiersDomainTooltip/restrict/twoRestriction"
+msgstr "(mutta {min}, ja {max})"
+
+msgid "modifiersDomainTooltip/subtitle/plural"
+msgstr "Muuttujat vaikuttavat seuraaviin parametreihin:"
+
+msgid "modifiersDomainTooltip/subtitle/single"
+msgstr "Muuttuja vaikuttaa seuraavaan parametriin:"

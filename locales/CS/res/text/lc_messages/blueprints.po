@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Plán sestaven"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Plán  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Plán: {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "Na nákup"
+
+msgid "blueprintScreen/button/research"
+msgstr "Na výzkum"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Ukázat v garáži"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Můžete sestavit plán, který použijete k získání slevy na vyzkoumání požadovaného vozidla. Budete však muset vyzkoumat předchozí vozidlo\nve větvi, abyste mohli slevu využít."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Potvrzuji!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Nelze vyzkoumat"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "Na vytvoření fragmentu plánu potřebujete:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "vyberte:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "VYTVOŘIT FRAGMENT:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Vytvořit fragmenty"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Zkonvertovat\nfragment"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Konverze\nnení dostupná"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "NEDOSTUPNÉ:\nNedostatek\nzdrojů"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Přejít na vozidlo"
+
+msgid "blueprintScreen/or"
+msgstr "nebo"
+
+msgid "blueprintScreen/research"
+msgstr "VYZKOUMAT"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Vyzkoumání vozidla zadarmo"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Nelze vyzkoumat"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Sleva na vyzkoumání:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Toto vozidlo bylo vyzkoumáno a lze ho zakoupit"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Toto vozidlo bylo vyzkoumáno a zakoupeno"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "Ve skladu:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "100% slevu na výzkum vozidla {vehicleName} můžete využít po vyzkoumání předchozího vozidla ve větvi."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Plán sestaven"
+
+msgid "blueprintScreen/unlocked"
+msgstr "VOZIDLO\nVYZKOUMÁNO"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Koalice:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Blok:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Aliance:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Unie:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Univerzální:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Koalice"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Bloku"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Aliance"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Unie"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Francie, Československo, Švédsko, Itálie)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Německo, Japonsko)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(USA, Británie, Polsko)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(SSSR, Čína)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Vyberte počet národních fragmentů na vytvoření fragmentů plánu vozidla.\nDostupné národní fragmenty %(allianceIcon)%(allianceName) %(allianceNations)."
+
+msgid "conversionView/topMessage/single"
+msgstr "Vyberte fragmenty jednoho z národů na vytvoření fragmentů plánu vozidla.\nDostupné národní fragmenty %(allianceIcon)%(allianceName) %(allianceNations)."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Konečná cena:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Cena fragmentu plánu:"
+
+msgid "nations/china"
+msgstr "Čína"
+
+msgid "nations/czech"
+msgstr "Československo"
+
+msgid "nations/france"
+msgstr "Francie"
+
+msgid "nations/germany"
+msgstr "Německo"
+
+msgid "nations/italy"
+msgstr "Itálie"
+
+msgid "nations/japan"
+msgstr "Japonsko"
+
+msgid "nations/poland"
+msgstr "Polsko"
+
+msgid "nations/sweden"
+msgstr "Švédsko"
+
+msgid "nations/uk"
+msgstr "Británie"
+
+msgid "nations/usa"
+msgstr "USA"
+
+msgid "nations/ussr"
+msgstr "SSSR"

@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "Izvēlēties tanku, kuru vēlies izslēgt no šīs kaujas"
+
+msgid "prebattleTimer/ban/header"
+msgstr "Aizlieguma balsošanas posms"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "Apstiprināt Izvēli"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "Pēc apstiprināšanas, jūs nevarēsiet izvēlēties citu tanku."
+
+msgid "prebattleTimer/pick/header"
+msgstr "Apstiprināšanas posms"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "Izvēlēties piemērotāko tanku šai kartei un tavai komandas sastāvam"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "Tanka priekšizvēles posms"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "Izvēlieties labāko tanku pašreizējai kartei un jūsu komandai."
+
+msgid "prebattleTimer/wait/header"
+msgstr "Gaida spēlētājus..."
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "Izvēlēties tanku"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Stadija %(server)s serverī ir beigusies"
+
+msgid "primeTimeView/server"
+msgstr "Pieejams serveris: %(server)s."
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Uz servera %(server)s \ncīņas būs pieejamas vēl %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Uz servera %(server)s\ncīņas būs pieejamas pēc %(time)s"
+
+msgid "primeTimeView/servers"
+msgstr "Pieejami serveri:"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Kaujas nav pieejamas visos serveros"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Šis režīms nav pieejams %(server)s serverī"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Kaujas %(server)s serverī būs pieejamas vēl %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Kaujas sāksies %(server)s serverī pēc %(time)s"
+
+msgid "primeTimeView/status/untill"
+msgstr "Kaujas nebūs pieejamas līdz %(startTime)s %(server)s serverī"

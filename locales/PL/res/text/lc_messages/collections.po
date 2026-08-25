@@ -1,0 +1,152 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "collection/error/description"
+msgstr "Wycieramy kurz z Twojej kolekcji. W międzyczasie ruszaj do bitwy."
+
+msgid "collection/error/title"
+msgstr "Kolekcja jest przywracana"
+
+msgid "collection/tooltip/completed"
+msgstr "Ukończono kolekcję „%(name)s, %(season)s / %(year)s”."
+
+msgid "collection/tooltip/progress"
+msgstr "Liczba zebranych elementów kolekcji „%(name)s, %(season)s/%(year)s”."
+
+msgid "footer/buttonText"
+msgstr "Do kolekcji"
+
+msgid "footer/collectionCompleted"
+msgstr "Kolekcja ukończona!"
+
+msgid "footer/progressbar/activeState/receivedElements/text"
+msgstr "Zebrane elementy: %(received)s / %(total)s"
+
+msgid "footer/progressbar/tooltip/body"
+msgstr "Zwiększ swoje postępy w kompletowaniu kolekcji, otrzymując odpowiednie elementy podczas wydarzenia lub po nim, jeśli jest to możliwe. Najedź kursorem na element kolekcji, aby dowiedzieć się, jak go zdobyć."
+
+msgid "footer/progressbar/tooltip/note"
+msgstr "Kolekcja może zawierać elementy, które są przyznawane za zebranie elementów tej kolekcji. Nie są one dodawane do licznika elementów i nie zwiększają postępów kolekcji, ale ujawniają szczegóły historii."
+
+msgid "footer/progressbar/tooltip/title"
+msgstr "Zbieranie elementów kolekcji"
+
+msgid "header/overhead"
+msgstr "KOLEKCJA"
+
+msgid "header/seasonText/defaultConfig"
+msgstr "NAZWA SEZONU"
+
+msgid "header/subtitle"
+msgstr "KOLEKCJA UKOŃCZONA!"
+
+msgid "header/title/defaultConfig"
+msgstr "KOLEKCJA SZABLONÓW"
+
+msgid "intro/buttonClose/text"
+msgstr "Do kolekcji"
+
+msgid "intro/content/description/text"
+msgstr "Kolekcje to zestawy unikalnych elementów, które można otrzymać w różnych wydarzeniach. Elementami kolekcji są ekskluzywne style, naklejki i inne przedmioty, których nie można zdobyć w standardowej rozgrywce."
+
+msgid "intro/header/text"
+msgstr "Kolekcje World of Tanks"
+
+msgid "main/backText"
+msgstr "DO KOLEKCJI"
+
+msgid "mainLayout/header/title"
+msgstr "Kolekcje World of Tanks"
+
+msgid "mainLayout/header/tooltip/body"
+msgstr "Kolekcje to zestawy unikalnych elementów, które można otrzymać w różnych wydarzeniach. Elementami kolekcji są ekskluzywne style, naklejki i inne przedmioty, których nie można zdobyć w standardowej rozgrywce."
+
+msgid "mainLayout/header/tooltip/header"
+msgstr "Kolekcje World of Tanks"
+
+msgid "navigation/pageCounter"
+msgstr " / %(pageCount)s"
+
+msgid "notifications/button/goToCollection"
+msgstr "Do kolekcji"
+
+msgid "notifications/button/goToCollections"
+msgstr "Do kolekcji"
+
+msgid "notifications/button/goToReward"
+msgstr "Do nagrody"
+
+msgid "notifications/eventDisabled/text"
+msgstr "Kolekcje są chwilowo niedostępne."
+
+msgid "notifications/eventEnabled/text"
+msgstr "Kolekcje są znowu dostępne. Przepraszamy za niedogodności."
+
+msgid "notifications/eventStart/text"
+msgstr "Dowódcy, przygotowaliśmy dla Was coś nowego! Zbierajcie elementy kolekcji %(feature)s, aby otrzymać unikalne nagrody."
+
+msgid "notifications/eventStart/title"
+msgstr "Kolekcja %(feature)s jest dostępna!"
+
+msgid "notifications/feature/battle_pass_10"
+msgstr "PRZEPUSTKA BITEWNA"
+
+msgid "notifications/feature/battle_pass_11"
+msgstr "PRZEPUSTKA BITEWNA"
+
+msgid "notifications/feature/battle_pass_12"
+msgstr "PRZEPUSTKA BITEWNA"
+
+msgid "notifications/finalReceived/text"
+msgstr "Ukończyłeś kolekcję %(feature)s: %(season)s"
+
+msgid "notifications/newItemsReceived/text"
+msgstr "Otrzymano nowe elementy kolekcji:\n\n%(items)s"
+
+msgid "notifications/newRewardsReceived/text"
+msgstr "Otrzymano nagrodę za zebranie elementów kolekcji:\n\n%(items)s"
+
+msgid "notifications/renew/text"
+msgstr "Kolekcja jest dostępna"
+
+msgid "notifications/renew/title"
+msgstr "%(feature)s, %(season)s"
+
+msgid "notifications/season/battle_pass_10"
+msgstr "SEZON X"
+
+msgid "notifications/season/battle_pass_11"
+msgstr "SEZON XI"
+
+msgid "notifications/season/battle_pass_12"
+msgstr "SEZON XII"
+
+msgid "notifications/title/collectionName"
+msgstr "Kolekcja %(feature)s: %(season)s"
+
+msgid "notifications/title/congratulation"
+msgstr "Gratulacje!"
+
+msgid "notifications/updatedEntry/text"
+msgstr "Kolekcje World of Tanks"
+
+msgid "notifications/updatedEntry/title"
+msgstr "Aktualizacja przebiegu służby"
+
+msgid "overlays/preview/previewButton/text"
+msgstr "Podgląd"
+
+msgid "overlays/preview/style/title/text"
+msgstr "%(styleName)s dla %(vehicleInfo)"
+
+msgid "tooltips/item/achievement"
+msgstr "Medal %(name)s"
+
+msgid "tooltips/receivedStatus"
+msgstr "Otrzymano"
+
+msgid "tooltips/title"
+msgstr "Element kolekcji"
+
+msgid "tooltips/unreceivedStatus"
+msgstr "Nie otrzymano"

@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Etkinleştir"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Satın Al ve Etkinleştir"
+
+msgid "activation/activateBonus"
+msgstr "Yedeği Etkinleştir: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Yedeği Etkinleştir"
+
+msgid "activation/activateButtonClan"
+msgstr "Kaleye Git"
+
+msgid "activation/battleXPDescription"
+msgstr "1 sa. boyunca Savaş DP'sine bonus"
+
+msgid "activation/battleXPTitle"
+msgstr "Savaş DP'si"
+
+msgid "activation/bonus"
+msgstr "+%%(bonus)"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "%(boosterTerm)s için %(boosterBonus)s sağlayan Gelişmiş Kişisel Yedeği satın alıp etkinleştirecek misiniz?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Altın Satın Alın"
+
+msgid "activation/buyGoldTitle"
+msgstr "%(boosterTerm)s için %(boosterBonus)s sağlayan Gelişmiş Kişisel Yedek için gerekli altını satın alacak mısınız?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Gelişmiş Kişisel Yedeği satın almak için gereken altın:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Kredi ve Savaş DP'si"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "Mürettebat DP'si ve Serbest DP"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Klan Yedekleri"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Yedeği Kale'de Etkinleştir"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Kale'de İncele"
+
+msgid "activation/comboXPDescription"
+msgstr "1 sa. boyunca Serbest DP'ye ve Mürettebat DP'sine bonus"
+
+msgid "activation/comboXPTitle"
+msgstr "Bileşik DP"
+
+msgid "activation/creditsDescription"
+msgstr "1 sa. boyunca krediye bonus"
+
+msgid "activation/creditsTitle"
+msgstr "Kredi"
+
+msgid "activation/footer"
+msgstr "Tükenir Yedeklerin etkinleştirilmesi gerekiyor: %(expirableAmount), %(expirableTime) içinde"
+
+msgid "activation/frontLineXPDescription"
+msgstr "1 sa. boyunca Ön Cephe DP'sine bonus"
+
+msgid "activation/frontLineXPTitle"
+msgstr "Ön Cephe DP'si"
+
+msgid "activation/informationButton"
+msgstr "BİLGİ"
+
+msgid "activation/price"
+msgstr "Fiyatı:"
+
+msgid "activation/subFooter/depot"
+msgstr "Depo"
+
+msgid "activation/subFooter/main"
+msgstr "Tükenmeye en yakın Yedekler en önce etkinleştirilir. Kullanabileceğiniz tüm Yedekleri %(depot) içinde görebilirsiniz."
+
+msgid "activation/subTitle/main"
+msgstr "Savaşlarda daha çok kredi ve deneyim kazanmak için {whiteSpanish_Open}3 adede kadar Kişisel Yedek{whiteSpanish_Close} etkinleştirin. %(store)s daha fazla Kişisel Yedek satın alabilirsiniz."
+
+msgid "activation/subTitle/store"
+msgstr "Dükkân'dan"
+
+msgid "activation/terms/booster_credits"
+msgstr "kredi"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "Ön Cephe DP'si"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "Serbest ve Mürettebat DP'si"
+
+msgid "activation/terms/booster_xp"
+msgstr "Savaş DP'si"
+
+msgid "activation/title"
+msgstr "KİŞİSEL YEDEKLER"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}%(previousBoosterTerm)s için %(previousBoosterBonus)s sağlayan etkinleştirilmiş Standart Kişisel Yedek kaybedilecek.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Etkinleştirilmiş Standart Kişisel Yedek yerine %(boosterTerm)s için %(boosterBonus)s sağlayan Gelişmiş Kişisel Yedeği etkinleştirmek istiyor musunuz?"
+
+msgid "battleView/notice"
+msgstr "Kişisel Yedekler savaşta istediğiniz zaman etkinleştirilebilir. Yedek savaş sırasında tükense bile bonusu alırsınız."
+
+msgid "battleView/title"
+msgstr "Kişisel Yedekler Aktivasyonu"
+
+msgid "depot/buyButton"
+msgstr "Satın Almaya Gidin"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Bu türden başka bir Yedek zaten etkin."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Bu Kişisel Yedeğin süresi savaş sırasında bitti. Kişisel Yedeğin bonusu yine de bu savaşa uygulanır."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)dk."
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%%(bonus)"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Etkinleştirilmiş Kişisel Yedekler bu kipte geçerli değildir."
+
+msgid "intro/buttons/close"
+msgstr "Olumlu!"
+
+msgid "intro/buttons/details"
+msgstr "Detaylar"
+
+msgid "intro/description"
+msgstr "Tükenir Yedekler aldıktan sonra sınırlı bir süre için geçerlidir. Bu süre içinde etkinleştirilmezlerse kaybolurlar. Tükenir Kişisel Yedekleriniz varsa aynı türden Tükenmez Kişisel Yedekler kullanamazsınız."
+
+msgid "intro/title"
+msgstr "TÜKENİR KİŞİSEL YEDEKLER"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Depoda bu türde hiç Kişisel Yedek yok. Daha sonra satın alabilir veya Garajda etkinleştirebilirsiniz."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Kişisel Yedekler kazanmak için görevleri tamamlayın ve oyun etkinliklerine katılın."
+
+msgid "noReserveTooltip/text"
+msgstr "Depoda bu türde hiç Kişisel Yedek yok."

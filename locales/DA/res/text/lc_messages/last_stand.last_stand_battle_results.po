@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, varighed: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "Regulær sværhedsgrad"
+
+msgid "info/difficult/2"
+msgstr "Avanceret sværhedsgrad"
+
+msgid "info/difficult/3"
+msgstr "Brutal sværhedsgrad"
+
+msgid "info/mapName"
+msgstr "Sidste slag • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "Antal respawn: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "Alle allierede køretøjer er blevet ødelagt."
+
+msgid "ls_finish/reason/10/lose"
+msgstr "Du fik ikke stoppet Zero."
+
+msgid "ls_finish/reason/3/lose"
+msgstr "Tiden er omme."
+
+msgid "ls_finish/reason/5/lose"
+msgstr "Alle allierede har forladt kampen."
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "Godt klaret! Klar til en sværere mission?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "Alle fjender på regulær sværhedsgrad elimineret."
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "Enestående bedrift! Få har nået dette niveau."
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "Alle fjender på brutal sværhedsgrad elimineret."
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "Imponerende arbejde! Nu kommer den rigtige udfordring."
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "Alle fjender på avanceret sværhedsgrad elimineret."
+
+msgid "ribbon/ban"
+msgstr "Uacceptabel præstation: Inaktivitet/desertering.\nBelønning ikke modtaget."
+
+msgid "ribbon/banRecord"
+msgstr "Uacceptabel indsats: Inaktivitet/desertering.\nBelønning ikke modtaget. Din rekord i nedkæmpning af bølger blev ikke opdateret."
+
+msgid "ribbon/noReward"
+msgstr "Dit hold kunne ikke afvise den første bølge.\nBelønning ikke modtaget."
+
+msgid "status/lose"
+msgstr "KAMP SLUTTET"
+
+msgid "status/win"
+msgstr "SEJR"
+
+msgid "subtitle/lose"
+msgstr "Angreb ikke afvist"
+
+msgid "subtitle/win"
+msgstr "Godt klaret! Ny data indsamlet."
+
+msgid "teamList/actions"
+msgstr "Kvikhandlinger"
+
+msgid "teamList/teammates"
+msgstr "Allierede"
+
+msgid "time/record"
+msgstr "NY\nREKORD!"
+
+msgid "title/lose/noWaves"
+msgstr "KAMP SLUTTET"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "%(phaseNumber)s BØLGE FULDFØRT"
+msgstr[1] "%(phaseNumber)s BØLGER FULDFØRT"
+msgstr[2] "%(phaseNumber)s BØLGER FULDFØRT"
+
+msgid "title/win"
+msgstr "ALLE BØLGER FULDFØRT"
+
+msgid "tooltip/ban"
+msgstr "Uacceptabel indsats: Inaktivitet/desertering. Din personlige rekord i nedkæmpning af bølger blev ikke opdateret."

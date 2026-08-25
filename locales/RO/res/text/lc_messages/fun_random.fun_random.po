@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "Luptele %(leftDetailedSeasonName)s s-au încheiat"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Armistițiu activ pe toate serverele. Luptele vor fi disponibile în %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "Luptele %(leftDetailedSeasonName)s s-au încheiat"
+
+msgid "alertMessage/allNotSet"
+msgstr "Acest mod este indisponibil pe serverul %(serverName)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Selectează alt server"
+
+msgid "alertMessage/notAvailable"
+msgstr "Armistițiu activ pe serverul %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Armistițiu activ pe serverul %(serverName)s"
+
+msgid "alertMessage/notSet"
+msgstr "Acest mod este indisponibil pe serverul %(serverName)s"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Armistițiu activ pe acest server. Luptele vor fi disponibile în %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "Luptele %(leftDetailedSeasonName)s s-au încheiat"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Acest mod este indisponibil pe serverul %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s z"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Niciun vehicul potrivit"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Calendarul"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "MOD"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}}: se schimbă către alt mod de joc"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "Modul va fi disponibil"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "Armistițiu {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "Luptele s-au încheiat"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "Modul nu mai este disponibil"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "Modul va fi disponibil timp de {{timer}}"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s nu poate participa la luptele %(modeName)s."
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "Tip de vehicul incompatibil"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "Alege un vehicul de %(levelSubStr)s pentru a participa la modul %(modeName)s."
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "Vehicul de generație incompatibilă"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "generația %(levels)s"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s nu poate lupta în modul %(modeName)s."
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "Vehicul incompatibil"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "Armistițiu în efect pe acest server. Alege alt server."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "Nu se poate intra în luptă"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "Acest mod este indisponibil pe serverul selectat."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "Nu se poate intra în luptă"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "Luptele %(subModeName)s s-au încheiat"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "Nu se poate intra în luptă"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "Schimbă modul sau alege un vehicul care îndeplinește cerințele."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "Vehicul nepotrivit pentru mod"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "Creează o unitate tactică de 2 sau 3 jucători pentru a coopera în lupte %(modeName)s."
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "Pluton"
+
+msgid "invite/text/detailedTitle"
+msgstr "Invitație de a intra în plutonul „%(detailedModeName)s”"
+
+msgid "invite/tooltip/noVehicles"
+msgstr "Ai nevoie de minim un vehicul în Garaj."
+
+msgid "lootboxTooltip/chance"
+msgstr "Șansa de apariție: %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "Un articol în joc din lista de mai jos:"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "TOATE ETAPELE FINALIZATE"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "TOATE ETAPELE MISIUNII\nCURENTE FINALIZATE"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "Recompensa etapei următoare: Deblochează la %(stagePoints)s puncte"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "Recompensa următoarei etape"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "%(time)s până la încheierea fazei active"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "%(time)s până la următoarea lansare"
+
+msgid "modeSelector/notStarted"
+msgstr "Modul va începe în curând"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s z"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "SPRE MODURI"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "Indisponibil din motive tehnice"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "Ai finalizat toate etapele misiunii curente"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "Recompense: %(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "Luptele s-au încheiat"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "În curând"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "Va începe în"
+
+msgid "modeSubSelector/subtitle"
+msgstr "SELECTEAZĂ SUBMODUL"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "Dev Toate etapele finalizate"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "Dev Actualizarea progresului"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "Intră în acțiune!"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "Intră în luptă!"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "Evenimentele Mașinii de jocuri sunt activități unice, pe perioade limitate, care îți oferă ceva diferit! Luptă în moduri exclusive cu reguli care schimbă jocul, finalizează misiuni și obține recompense rare."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Ai finalizat progresul"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "Dev Obține cât mai multe recompense:"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "Dev Puncte obținute: {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "Finalizate:"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "Repetabilă"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Pentru finalizare:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Pentru înfrângere:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Pentru victorie:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Puncte:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Obținute:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "Toate misiunile actualmente disponibile au fost finalizate"
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "Misiunile vor apărea atunci când începe Progresul"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "Ai finalizat toate misiunile disponibile momentan. În următoarea rotație vor apărea mai multe."
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "Disponibilă timp de {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "Disponibilă timp de {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "Misiuni noi disponibile în {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "Stare {{eventName}}"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "Misiune {{eventName}}"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "Toate etapele au fost finalizate"
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "Actualizarea progresului"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "CURSA DE NEON"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "Linia de sosire te așteaptă!"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "Gata de cursă?"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "Cursa de Neon este un eveniment unic, cu perioadă limitată, care îți oferă ceva diferit! Intră în cursă și luptă pe trasee periculoase, finalizează misiuni și obține recompense."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Acest mod cere un computer foarte performant. Vei avea probleme cu încărcarea hărții, grafica și mișcarea vehiculului. Poți încerca să selectezi calitatea grafică mai redusă în Setări pentru a spori performanțele jocului."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Risc de performanță redusă"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Acest mod cere un computer foarte performant. Vei avea probleme cu încărcarea hărții, grafica și mișcarea vehiculului. Poți încerca să selectezi calitatea grafică mai redusă în Setări pentru a spori performanțele jocului."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Risc de performanță redusă"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "Recompensă epică aleatorie"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "Recompensă legendară aleatorie"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "Recompensă comună aleatorie"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "Recompensă rară aleatorie"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "Recompensă non-comună aleatorie"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "Misiune Cursa de Neon, etapa: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "Progresul tău este luat în considerare în fiecare Cursă de Neon."
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "Misiune Cursa de Neon"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "Progresul tău este luat în considerare în oricare submod al Mașinii de jocuri."
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "până când o nouă misiune Mașina de jocuri este disponibilă"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15–30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "Luptă până la linia de sosire în acest mod de curse pentru toți."
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}|{parSecondary_close}Toate generațiile"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "În cazul setărilor de grafică reduse, pot apărea artefacte vizuale și probleme. Recomandăm selectarea setărilor grafice maxime pentru cea mai bună experiență în joc, dacă sistemul tău îndeplinește aceste cerințe. Modul necesită un computer performant. Numărul de cadre pe secundă poate scădea în cazul luptelor intense."
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "Se recomandă setările grafice maxime"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Se recomandă setările grafice maxime"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "În cazul setărilor de grafică reduse, pot apărea artefacte vizuale și probleme. Recomandăm selectarea setărilor grafice maxime pentru cea mai bună experiență în joc, dacă sistemul tău îndeplinește aceste cerințe. Modul necesită un computer performant. Numărul de cadre pe secundă poate scădea în cazul luptelor intense."
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "Se recomandă setările grafice maxime"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Se recomandă setările grafice maxime"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "O nouă misiune Cursa de Neon este disponibilă în:"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "Submodul %(subModeName)s s-a încheiat. Progresul este resetat."
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "Submodul %(subModeName)s s-a încheiat."
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "Sunt disponibile recompense noi ale submodului %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "Un nou submod e disponibil: %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "Submodul %(subModeName)s este indisponibil din motive de mentenanță."
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "Submodul %(subModeName)s e din nou disponibil."
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "Lista recompenselor"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "Felicitări!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "Ai finalizat progresul"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "Felicitări!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "Progres ulterior infinit"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "Ai finalizat progresul principal"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "Finalizează această etapă de câte ori poți."
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "Puncte obținute: {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Puncte obținute:"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "MISIUNILE CURSEI DE NEON"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "Finalizate:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "Repetabilă"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Pentru finalizare:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Pentru înfrângere:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Pentru victorie:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Puncte:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Obținute:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "Toate misiunile actualmente disponibile au fost finalizate"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "Misiunile vor apărea atunci când începe Progresul"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "Ai finalizat toate misiunile disponibile momentan. În următoarea rotație vor apărea mai multe."
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "Disponibilă timp de {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "Disponibilă timp de {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "Misiuni noi disponibile în {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "Stare {{eventName}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "Misiune {{eventName}}"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "RECOMPENSĂ LEGENDARĂ OBȚINUTĂ"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "%(subModeName)s este disponibil din nou."
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "Pit Stop"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s s-a încheiat."
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "Pit Stop"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "Este momentul unui Pit Stop! Luptele din %(subModeName)s sunt momentan indisponibile."
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "Pit Stop"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "Fiecare recompensă aleatorie este un articol din lista de mai jos care poate fi acordat cu o anumită probabilitate."
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "Ce se află înăuntru?"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "Toate vehiculele sunt disponibile pentru Cursa de Neon."
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "Vehiculele Cursa de Neon"
+
+msgid "modes/fall_tanks/userName"
+msgstr "CURSA DE NEON"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "Toate etapele finalizate"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "Actualizarea progresului"
+
+msgid "modes/undefined/capsUserName"
+msgstr "MAȘINA DE JOCURI"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s: %(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "Intră în acțiune!"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "Intră în luptă!"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "Evenimentele Mașinii de jocuri sunt activități unice, pe perioade limitate, care îți oferă ceva diferit! Luptă în moduri exclusive cu reguli care schimbă jocul, finalizează misiuni și obține recompense rare."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Acest mod cere un computer foarte performant. Vei avea probleme cu încărcarea hărții, grafica și mișcarea vehiculului. Poți încerca să reduci calitatea grafică în Setări pentru a spori performanțele jocului."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Șanse de performanță redusă"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Acest mod cere un computer foarte performant. Vei avea probleme cu încărcarea hărții, grafica și mișcarea vehiculului. Poți încerca să reduci calitatea grafică în Setări pentru a spori performanțele jocului."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Șanse de performanță redusă"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "Recompensă epică aleatorie"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "Recompensă legendară aleatorie"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "Recompensă comună aleatorie"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "Recompensă rară aleatorie"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "Recompensă non-comună aleatorie"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "Misiune Mașina de jocuri, etapa: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "Progresul tău este luat în considerare în submodul Mașinii de jocuri."
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "Misiune Mașina de jocuri"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "Progresul tău este luat în considerare în submodul Mașinii de jocuri."
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "până când o nouă misiune Mașina de jocuri este disponibilă"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15v15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "Lupte experimentale cu reguli non-standard."
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Generațiile&nbsp;%(levels)s"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "În cazul setărilor de grafică reduse, pot apărea artefacte vizuale și probleme. Recomandăm selectarea setărilor grafice maxime pentru cea mai bună experiență în joc, dacă sistemul tău îndeplinește aceste cerințe. Modul necesită un computer performant. Numărul de cadre pe secundă poate scădea în cazul luptelor intense."
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "Se recomandă setările grafice maxime"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Se recomandă setările grafice maxime"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "În cazul setărilor de grafică reduse, pot apărea artefacte vizuale și probleme. Recomandăm selectarea setărilor grafice maxime pentru cea mai bună experiență în joc, dacă sistemul tău îndeplinește aceste cerințe. Modul necesită un computer performant. Numărul de cadre pe secundă poate scădea în cazul luptelor intense."
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "Se recomandă setările grafice maxime"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Se recomandă setările grafice maxime"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "O nouă misiune Mașina de jocuri este disponibilă în:"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "Submodul %(subModeName)s s-a încheiat. Progresul este resetat."
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "Submodul %(subModeName)s s-a încheiat."
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "Sunt disponibile recompense noi ale submodului %(subModeName)s."
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "Un nou submod e disponibil: %(subModeName)s."
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "Submodul %(subModeName)s este indisponibil din motive de mentenanță."
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "Submodul %(subModeName)s e din nou disponibil."
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "Lista recompenselor"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "Felicitări!"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "Ai finalizat progresul"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "Felicitări!"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "Etapă repetabilă"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "Ai finalizat progresul principal"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "Obține cât mai multe recompense:"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "Puncte obținute: {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Puncte obținute:"
+
+msgid "modes/undefined/progression/title"
+msgstr "MISIUNEI ALE MAȘINII DE JOCURI"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "Finalizate:"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "Repetabilă"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Pentru finalizare:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Pentru înfrângere:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Pentru victorie:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Puncte:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Obținute:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "Toate misiunile actualmente disponibile au fost finalizate"
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "Misiunile vor apărea atunci când începe Progresul"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "Ai finalizat toate misiunile disponibile momentan. În următoarea rotație vor apărea mai multe."
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "Disponibilă timp de {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "Disponibilă timp de {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "Misiuni noi disponibile în {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "Stare {{eventName}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "Misiune {{eventName}}"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "RECOMPENSĂ LEGENDARĂ OBȚINUTĂ"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "Luptele %(subModeName)s sunt din nou disponibile."
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "Armistițiu"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "Luptele %(subModeName)s s-au încheiat"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "Armistițiu"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "Armistițiu în efect. Luptele %(subModeName)s sunt temporar indisponibile."
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "Armistițiu"
+
+msgid "modes/undefined/tierList/description"
+msgstr "Fiecare recompensă aleatorie este un articol din lista de mai jos care poate fi obținut cu o anumită probabilitate."
+
+msgid "modes/undefined/tierList/title"
+msgstr "Ce se află înăuntru?"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "Afișează/ascunde vehiculele potrivite pentru modul Mașina de jocuri."
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "Vehicule Mașina de jocuri"
+
+msgid "modes/undefined/userName"
+msgstr "Mașina de jocuri"
+
+msgid "notification/congratulation"
+msgstr "Felicitări!"
+
+msgid "notification/finishSubModes"
+msgstr "Evenimentul „%(modeName)s” s-a încheiat."
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "Submodurile %(subModesNames)s s-au încheiat. Progresul este resetat."
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "Submodurile %(subModesNames)s s-au încheiat."
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "Recompensă aleatorie"
+
+msgid "notification/newProgression"
+msgstr "Progresul evenimentului a fost resetat: poți obține din nou recompense!"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "Progresul evenimentului a fost resetat. Submoduri noi sunt disponibile: %(subModesNames)s."
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "Submoduri noi sunt disponibile: %(subModesNames)s."
+
+msgid "notification/progressionComplete"
+msgstr "Ai finalizat toate misiunile disponibile „%(modeName)s”. Recompensă obținută:"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "Ai finalizat toate misiunile disponibile în „%(modeName)s”. Etapă repetabilă disponibilă. Recompensă obținută:"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "Progresul va fi resetat în mai puțin de 1 zi. Vei putea apoi să finalizezi din nou misiuni."
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "Progresul va fi resetat în %(days)d zile. Vei putea apoi să finalizezi din nou misiuni."
+
+msgid "notification/progressionStageComplete"
+msgstr "Ai finalizat etapa %(stage)s a „%(modeName)s”. Recompensă obținută:"
+
+msgid "notification/subModesSeparator"
+msgstr ", "
+
+msgid "notification/switchOffSubModes"
+msgstr "Submodurile %(subModesNames)s sunt indisponibile din motive de mentenanță."
+
+msgid "notification/switchOnSubModes"
+msgstr "Submodurile %(subModesNames)s sunt din nou disponibile."
+
+msgid "platoonView/title"
+msgstr "Pluton: %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "Server disponibil: %(server)s."
+
+msgid "primeTimes/availableServers"
+msgstr "Servere disponibile:"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Serverul %(serverName)s\nLuptele vor fi disponibile în %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Serverul %(serverName)s\nLuptele „%(leftDetailedSeasonName)s” s-au încheiat."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Serverul %(serverName)s\nLuptele vor fi disponibile timp de încă %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Serverul %(serverName)s\nLuptele vor fi disponibile în %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Serverul %(serverName)s\nLuptele „%(leftDetailedSeasonName)s” s-au încheiat."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Serverul %(serverName)s\nLuptele vor fi disponibile în %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Serverul %(serverName)s\nLuptele „%(leftDetailedSeasonName)s” s-au încheiat."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s z"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Armistițiu activ pe toate serverele.\nLuptele vor fi disponibile în %(primeDelta)s"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "Luptele „%(leftDetailedSeasonName)s” s-au încheiat"
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "Acest mod este indisponibil pe serverul %(serverName)s"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Armistițiu în efect pe serverul %(serverName)s până la %(primeDeltaDate)s%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Armistițiu activ pe serverul %(serverName)s"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Acest mod este indisponibil pe serverul %(serverName)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Armistițiu activ pe serverul %(serverName)s.\nLuptele vor fi disponibile în %(primeDelta)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "Luptele „%(leftDetailedSeasonName)s” s-au încheiat"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Acest mod este indisponibil pe serverul %(serverName)s"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Luptele pe serverul %(serverName)s vor începe în %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "Luptele „%(leftDetailedSeasonName)s” de pe serverul %(serverName)s s-au încheiat."
+
+msgid "primeTimes/timeText/available"
+msgstr "Luptele pe serverul %(serverName)s vor fi disponibile timp de încă %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Luptele pe serverul %(serverName)s vor începe în %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "Luptele „%(leftDetailedSeasonName)s” de pe serverul %(serverName)s s-au încheiat."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Luptele pe serverul %(serverName)s vor începe în %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "Luptele „%(leftDetailedSeasonName)s” de pe serverul %(serverName)s s-au încheiat."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "puncte"
+
+msgid "progression/complete/affirmative"
+msgstr "Recepționat!"
+
+msgid "progression/defaultCondition/text"
+msgstr "Obține puncte și avansează în progres."
+
+msgid "progression/infinite/pointsEarned"
+msgstr "Puncte obținute:"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "Faza activă s-a sfârșit. Luptele s-au încheiat"
+
+msgid "progression/questsList/quest/completed"
+msgstr "Finalizate:"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "Repetabilă"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "Pentru finalizare:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "Pentru înfrângere:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "Pentru victorie:"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "Obținute:"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "Faza activă se încheie în: {{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "Faza activă se încheie în:"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "Următoarea lansare în:"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "Recompensa etapei următoare: Deblochează la %(count)d puncte"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Ai primit de asemenea:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Recepționat!"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "Comandantul plutonului a schimbat submodul la %(subModeName)s."
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "Schimbare submod"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Generațiile&nbsp;%(levels)s"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "CURSA DE NEON"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "Condu până la linia de sosire și oprește-i pe ceilalți din a o atinge. Utilizează abilitățile Sprint și Scut pentru distracție maximă!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "Atenție: platforme în mișcare"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "Evită laserele și planifică-ți salturile cu atenție pentru a ajunge rapid la linia de sosire!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "Atenție: Lasere și salturi"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "pentru a afla mai multe despre mod"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "Apasă"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "CURSA DE NEON"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15–30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "Luptă până la\nlinia de sosire"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}|{parSecondary_close}Toate generațiile"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "În cazul setărilor de grafică reduse, pot apărea artefacte vizuale și alte probleme. Recomandăm selectarea setărilor grafice maxime pentru cea mai bună experiență în joc, dacă sistemul tău îndeplinește aceste cerințe. Acest mod necesită performanțe înalte, iar numărul de cadre pe secundă poate scădea în momentele intense."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "Se recomandă setările grafice maxime"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Se recomandă setările grafice maxime"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "În cazul setărilor de grafică reduse, pot apărea artefacte vizuale și probleme. Recomandăm selectarea setărilor grafice maxime pentru cea mai bună experiență în joc, dacă sistemul tău îndeplinește aceste cerințe. Modul necesită un computer performant. Numărul de cadre pe secundă poate scădea în momentele intense."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "Se recomandă setările grafice maxime"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Se recomandă setările grafice maxime"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "CURSA DE NEON"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "CURSA DE NEON"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "„Cursa de Neon”"
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Generațiile&nbsp;%(levels)s"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "În cazul setărilor de grafică reduse, pot apărea artefacte vizuale și probleme. Recomandăm selectarea setărilor grafice maxime pentru cea mai bună experiență în joc, dacă sistemul tău îndeplinește aceste cerințe. Modul necesită un computer performant. Numărul de cadre pe secundă poate scădea în cazul luptelor intense."
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "Se recomandă setările grafice maxime"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Se recomandă setările grafice maxime"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "În cazul setărilor de grafică reduse, pot apărea artefacte vizuale și probleme. Recomandăm selectarea setărilor grafice maxime pentru cea mai bună experiență în joc, dacă sistemul tău îndeplinește aceste cerințe. Modul necesită un computer performant. Numărul de cadre pe secundă poate scădea în cazul luptelor intense."
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "Se recomandă setările grafice maxime"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Se recomandă setările grafice maxime"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

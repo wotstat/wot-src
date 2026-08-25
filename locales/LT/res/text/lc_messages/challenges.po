@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Taip pat gauta:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Šią misijų seriją galima vykdyti iš naujo."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Tikrai taip!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Uždaryti"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Peržiūrėti garaže"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Pakartoti"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Į Kalvę"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "WoT Premium paskyra"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Premium mašina"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Nuomojama mašina"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "ir stilius “{{styleName}}”"
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) diena"
+msgstr[1] "%(day) dienos"
+msgstr[2] "%(day) dienų"
+
+msgid "awards_view/title"
+msgstr "KALVĖ UŽBAIGTA!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "×5 patirties misija mūšiui"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Brėžinio fragmentas (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Universalus brėžinio fragmentas"
+
+msgid "bonuses/bpcoin"
+msgstr "Kovinio leidimo žetonas"
+
+msgid "bonuses/crewBonusX3"
+msgstr "×3 įgulos patirties misija"
+
+msgid "bonuses/description/attachments_set"
+msgstr "3D elementų rinkinys"
+
+msgid "bonuses/description/booster"
+msgstr "Asmeninis rezervas"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Trofėjinė įranga"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Įgulos apvalkalas"
+
+msgid "bonuses/description/directive"
+msgstr "Instrukcija"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Eksperimentinė įranga"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Pagerinta įranga"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "ir stilius “%(styleName)s”"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standartinė įranga"
+
+msgid "bonuses/description/style"
+msgstr "2D stilius"
+
+msgid "bonuses/description/style_3d"
+msgstr "3D stilius"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Įgulos narė"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Naujokas"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Įgulos narys"
+
+msgid "condition/achievement"
+msgstr "Uždirbkite pasiekimą %(achievement)s"
+
+msgid "condition/achievement/title"
+msgstr "Mūšio herojai"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Padaryti ir padėti padaryti %(goal)s žalos"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Padaryti, patirti ir užblokuoti iš viso %(goal)s žalos"
+
+msgid "condition/aggregated/title"
+msgstr "Sudėtinga sąlyga"
+
+msgid "condition/classes/AT-SPG"
+msgstr "Prieštankinių"
+
+msgid "condition/classes/SPG"
+msgstr "Artilerijų"
+
+msgid "condition/classes/heavyTank"
+msgstr "Sunkiųjų tankų"
+
+msgid "condition/classes/lightTank"
+msgstr "Lengvųjų tankų"
+
+msgid "condition/classes/mediumTank"
+msgstr "Vidutinių tankų"
+
+msgid "condition/critsCount"
+msgstr "Pataikyti kritinių šūvių priešų vidiniams ar išoriniams moduliams: %(goal)s"
+
+msgid "condition/critsCount/title"
+msgstr "Sustabdymas"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Užblokuoti %(goal)s žalos"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Užblokuoti %(goal)s kartus daugiau žalos nei jūsų mašina turi patvarumo taškų"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Blokavimas"
+
+msgid "condition/damageDealt"
+msgstr "Padaryti %(goal)s žalos priešų mašinoms"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Padaryti %(goal)s kartus daugiau žalos nei jūsų mašina turi patvarumo taškų"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Pataikyti į priešų mašinas iš %(distance)s m ar mažesnio atstumo %(goal)s kartų"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Pataikyti į priešų mašinas iš %(distance)s m ar didesnio atstumo %(goal)s kartų"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Padaryti žalos priešams taranu %(goal)s kartų"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Pataikyti į jūsų mašinos apžvalgos lauke esančias mašinas %(goal)s kartų"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Padaryti %(goal)s žalos per pirmas %(timeLimit)s mūšio minutes"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Padaryti %(goal)s žalos priešų mašinoms, esančioms %(distance)s m ar mažesniu atstumu"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Padaryti %(goal)s žalos priešų mašinoms, esančioms %(distance)s m ar didesniu atstumu"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Padaryti %(goal)s žalos taranu"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Taranavimas"
+
+msgid "condition/damageDealt/title"
+msgstr "Žala"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Padaryti %(goal)s žalos neaptiktoms priešų mašinoms"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Padaryti %(goal)s žalos priešų mašinoms patenkančioms į jūsų apžvalgos atstumą"
+
+msgid "condition/kills"
+msgstr "Sunaikinti %(goal)s priešų mašinas"
+
+msgid "condition/kills/classes"
+msgstr "Sunaikinti priešų %(vehicleClass)s: %(goal)s"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Sunaikinti %(goal)s %(classCount)s skirtingų tipų priešų mašinas"
+
+msgid "condition/kills/title"
+msgstr "Sunaikinti"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Sunaikinti %(goal)s priešų mašinas visai negavus žalos"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Sunaikinti %(goal)s priešų mašinas išliekant nepastebėtu"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Padaryti %(goal)s%% visos komandos padarytos žalos."
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Žala"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Pramušti priešo šarvus %(goal)s kartų"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Pramušimas"
+
+msgid "condition/spotted"
+msgstr "Aptikti %(goal)s priešų mašinas"
+
+msgid "condition/spotted/title"
+msgstr "Aptikimas"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Aptikti %(goal)s priešų mašinas išliekant nepastebėtu"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Aptikimas"
+
+msgid "condition/top/damageDealt"
+msgstr "Patekti tarp %(rank)s geriausių jūsų komandos žaidėjų pagal padarytą žalą"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Patekti tarp %(rank)s geriausių abiejų komandų žaidėjų pagal padarytą žalą"
+
+msgid "condition/top/title"
+msgstr "Geriausias žaidėjas"
+
+msgid "condition/top/xp"
+msgstr "Patekti tarp %(rank)s geriausių jūsų komandos žaidėjų pagal uždirbtą patirtį"
+
+msgid "condition/unknown"
+msgstr "Ieškoma tinkamiausios misijos..."
+
+msgid "condition/unknown/title"
+msgstr "Laukiama"
+
+msgid "postbattle/name"
+msgstr "KALVĖ: "

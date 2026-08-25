@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} в клана"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "КЪМ СТАТУСА НА АКАУНТА"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "НАЗАД"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Ще можете да замените карта след {}."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Покажи/скрий карти от този вид."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Пустинни карти"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Летни карти"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Зимни карти"
+
+msgid "mapsBlacklist/header"
+msgstr "Изключени карти"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Изключете нежелана карта от ротацията на играта си. Изключете още една карта с Танков премиум и още %(mapCount)s с WoT Плюс. Ако някой от абонаментите изтече, изключените карти се връщат в ротацията отново от най-дясната."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Изключени карти"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Тези карти са изключени само в Случайни битки."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Можете да заменяте изключена карта на всеки %(maxCooldownTimeStr)s."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Тази функция е достъпна за машини ниво IV и по-високо."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "Във взводовете се изключват само картите, избрани от командира на взвода."
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Показани карти: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Показани карти: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Видове карти:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Отмени"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Затвори"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "Избраната карта ще бъде заменена с картата \"{mapNameStr}\". Можете да промените избора си след {cooldownStr}"
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Коя карта искате да замените?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Изключи"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Изберете карта, която искате да замените"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Отмени"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Затвори"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Можете да промените избора си след {cooldownStr}"
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Изключи картата \"{mapNameStr}\" от Случайни битки?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Изключи"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Изключи"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Изключи картата {mapNameStr}?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Включи"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Включи картата \"{mapNameStr}\" в Случайни битки?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Можете да замените тази карта след {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Замяната на карта е недостъпна"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Можете да замените тази карта след {cooldownStr}"
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Замяната на карта е недостъпна"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Не е избрана"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Натиснете, за да изберете карта, която да изключите от Случайни битки."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Картата не е избрана"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "Изключената карта \"{mapName}\" може да бъде заменена с друга."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Замяната на карта е достъпна"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Можете да замените картата \"{mapName}\" след {cooldownStr}"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Замяната на карта е недостъпна"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Допълнителен слот е достъпен само с активен Танков премиум акаунт."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Слотът е недостъпен"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Изберете карта от списъка по-долу, за да я изключите от Случайни битки."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Картата не е избрана"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Изберете карта от списъка по-долу, за да я изключите от Случайни битки."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Замяната на карта е достъпна"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Можете да замените тази карта след {cooldownStr}"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Замяната на карта е недостъпна"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "Слот за изключване на допълнителна карта е достъпен само с активен Танков премиум акаунт."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Слотът е недостъпен"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Отмени"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Можете да промените избора си след {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Замени"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Изключи"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Изключи картата %(mapName)s от Случайни битки?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "Избраната карта ще бъде заменена от картата {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Можете да промените избора си след %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Коя карта искате да замените?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Тази карта ще бъде заменена от картата {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Можете да промените избора си след %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Искате ли да замените тази карта?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Родителският контрол е включен за този акаунт.\nМожете да научите повече за ограниченията на родителския контрол {link}."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Родителски контрол"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "на портала на играта"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Хранилище за кредити"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s д."
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s ч."
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 мин."
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s мин."

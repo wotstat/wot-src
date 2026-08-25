@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "Енергетичний заряд готовий до використання."
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "Постріл вампіра готовий до використання."
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "Ударний заряд готовий до використання."
+
+msgid "LS_damageShieldReady"
+msgstr "Енергетичний щит готовий до використання."
+
+msgid "LS_doubleDamageReady"
+msgstr "Подвійна шкода готова до використання."
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "Ситуативна шкода готова."
+
+msgid "LS_fastReloadReady"
+msgstr "Швидке перезаряджання готове до використання."
+
+msgid "LS_healSituationalReady"
+msgstr "Ситуативний ремонт готовий."
+
+msgid "LS_invisibilityReady"
+msgstr "Тіньове зцілення готове до використання."
+
+msgid "LS_nitroReady"
+msgstr "Ривок готовий до використання."
+
+msgid "LS_pickupSouls"
+msgstr "Ви зібрали %(souls)s од. миріуму"
+
+msgid "LS_selfRepairReady"
+msgstr "Екстрений ремонт готовий до використання."
+
+msgid "LS_situationalNitroReady"
+msgstr "Ситуативна рухливість готова."
+
+msgid "LS_teamRepairKitReady"
+msgstr "Груповий ремонт готовий до використання."
+
+msgid "LS_teamRepairKitUsed"
+msgstr "%(player)s активує Груповий ремонт."
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "Груповий ремонт активовано."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "Увага на область: %(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "Захищайте АТЛАС!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "Захищайте АТЛАС"
+
+msgid "arena/marker/move_to_camp"
+msgstr "Прямую в зону!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "Захист АТЛАСа"
+
+msgid "arena/phase"
+msgstr "Фаза %(current)s з %(total)s"
+
+msgid "arena/wave"
+msgstr "Хвиля %(current)s з %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Їжаки&nbsp;наближаються!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Альфа-їжак&nbsp;наближається!"
+
+msgid "battleHint/clearTheArea"
+msgstr "Зачистіть територію!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "Мерщій! Зеро наблизився до&nbsp;АТЛАСа!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "Зеро знищено!\nСупротивників лишилося: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "Супротивників треба знищити: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "од. даних, %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "машини відремонтовано"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "надано щит"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "супротивників оглушено"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "Обеліск «%(name)s» знищено!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Реген"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "Бар'єр"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "Збій"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "Знайдено точки появи! Супротивник наближається!"
+
+msgid "battleHint/hunter"
+msgstr "Мисливці&nbsp;наближаються!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "Хвилю знищено"
+
+msgid "battleHint/leftToDestroy"
+msgstr "Лишилося знищити супротивників:"
+
+msgid "battleHint/missing_squad"
+msgstr "Наближається Втрачений загін!"
+
+msgid "battleHint/newWave"
+msgstr "Хвиля {current} з {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "З'явився Обеліск!"
+
+msgid "battleHint/stopConvoy"
+msgstr "Зупиніть Зеро!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "Зупиніть Зеро,\nпоки той не дістався АТЛАСа!"
+
+msgid "battleHint/trapper"
+msgstr "Знищте Ловця, щоб&nbsp;зупинити появу смертельних зон."
+
+msgid "battleHint/turret"
+msgstr "Москіти пробудилися!"
+
+msgid "battleHint/waveFinished"
+msgstr "Хвилю знищено!\nПерегрупуйтеся й приготуйтеся!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "Перегрупуйтеся й приготуйтеся!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "Ворожі підкріплення&nbsp;прибули!"
+
+msgid "common/close"
+msgstr "ЗАКРИТИ"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "Тривалість: %(time)s с"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Шкода зоною"
+
+msgid "damageLog/static_death_zone"
+msgstr "Шкода зоною"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "Підпалено Пірокінезом"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "Шкода Енергетичним ударом"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "Шкода вибухом"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "Шкода Вампіризмом"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "Ситуативну шкоду активовано"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "Ситуативний ремонт активовано"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "Шкода Енергетичним зарядом"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "Шкода Пострілом вампіра"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "Шкода Ударним зарядом"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "Невразливість модулів"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "Ситуативну рухливість активовано"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "Відновлення"
+
+msgid "efficiencyRibbons/repair"
+msgstr "Машину відремонтовано"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "Машину відремонтовано:"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "Машину відремонтовано союзником"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "Союзників відремонтовано"
+
+msgid "eventStats/activeWave"
+msgstr "Хвиля %(num)s"
+
+msgid "eventStats/difficulty"
+msgstr "Складність: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "Останній рубіж: Терра Норд"
+
+msgid "eventStats/globalTask"
+msgstr "Ціль: знищте всі хвилі супротивника"
+
+msgid "eventStats/mission"
+msgstr "Знищте всі хвилі супротивника"
+
+msgid "eventStats/tableCaption"
+msgstr "Учасники загону"
+
+msgid "help/description_0"
+msgstr "Знищте всі хвилі супротивника, щоб перемогти.\nНедруг стає сильнішим із кожною наступною атакою."
+
+msgid "help/description_1"
+msgstr "Правильна комбінація тактичних пристроїв може виявитися вирішальною в бою.\nПам'ятайте: настанови й усі типи снарядів безкоштовні в режимі «Останній рубіж»."
+
+msgid "help/description_2"
+msgstr "Пошкодження Обеліска передає частину заподіяної шкоди машинам супротивника, а його знищення надає випадковий бонус."
+
+msgid "help/description_3"
+msgstr "За будь-яку ціну захистіть АТЛАС від фінального ехо-танка Зеро. Якщо він досягне АТЛАСа, того буде знищено й ви програєте."
+
+msgid "help/title"
+msgstr "ОСТАННІЙ РУБІЖ: ТЕРРА НОРД"
+
+msgid "help/title_0"
+msgstr "ХВИЛІ СУПРОТИВНИКА"
+
+msgid "help/title_1"
+msgstr "ПОРАДИ З ВИЖИВАННЯ"
+
+msgid "help/title_2"
+msgstr "ВИКОРИСТОВУЙТЕ ОБЕЛІСКИ В БОЮ"
+
+msgid "help/title_3"
+msgstr "ЗАХИЩАЙТЕ АТЛАС"
+
+msgid "helpScreen/hint/description"
+msgstr "для перегляду правил режиму"
+
+msgid "helpScreen/hint/press"
+msgstr "Натисніть"
+
+msgid "hitMarker/useless"
+msgstr "Марно!"
+
+msgid "loading/description_0"
+msgstr "Знищте всі хвилі супротивника, щоб перемогти.\nНедруг стає сильнішим із кожною наступною атакою."
+
+msgid "loading/description_1"
+msgstr "Правильна комбінація тактичних пристроїв може виявитися вирішальною в бою.\nПам'ятайте: настанови й усі типи снарядів безкоштовні в режимі «Останній рубіж»."
+
+msgid "loading/description_2"
+msgstr "Пошкодження Обеліска передає частину заподіяної шкоди машинам супротивника, а його знищення надає випадковий бонус."
+
+msgid "loading/description_3"
+msgstr "За будь-яку ціну захистіть АТЛАС від фінального ехо-танка Зеро. Якщо він досягне АТЛАСа, того буде знищено й ви програєте."
+
+msgid "loading/title"
+msgstr "Завантажуємо..."
+
+msgid "loading/title_0"
+msgstr "ХВИЛІ СУПРОТИВНИКА"
+
+msgid "loading/title_1"
+msgstr "ПОРАДИ З ВИЖИВАННЯ"
+
+msgid "loading/title_2"
+msgstr "ВИКОРИСТОВУЙТЕ ОБЕЛІСКИ В БОЮ"
+
+msgid "loading/title_3"
+msgstr "ЗАХИЩАЙТЕ АТЛАС"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "Використання [%(name)s] неможливе: двигун знищено."
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "Використання [%(name)s] неможливе: гармата пошкоджена."
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "Гармата заряджена."
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "Використання [%(name)s] неможливе: недостатньо миріуму для активації пристрою."
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "Машина не пошкоджена."
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "Використання [%(name)s] неможливе: машина тоне."
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "Використання [%(name)s] неможливе: машина горить."
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "Використання [%(name)s] неможливе: машина перекинута."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Союзника %(target)s знищено вибухом супротивника (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Союзник %(target)s розбився."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Союзника %(target)s знищено смертельною зоною."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Союзника %(target)s знищено."
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "Якщо ваш загін зможе подолати цю хвилю."
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "ВИ ВІДРОДИТЕСЯ"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "Ваш бій закінчено.\nХороша робота!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Машину знищено смертельною зоною"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "Машину знищено Енергетичним ударом"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "Машину знищено Пірокінезом"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "Машину знищено Вампіризмом"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "Машину знищено вибухом"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "Машину розбито"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Прилад [%(device)s] вибухнув після пострілу гравця"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "Машину знищено пожежею"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Машину знищено. Час вичерпано."
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "Машину знищено пострілом супротивника"
+
+msgid "prebattle/description/message"
+msgstr "Ціль: знищте всі хвилі супротивника"
+
+msgid "prebattle/description/title"
+msgstr "Останній рубіж: %(difficulty)s складність"
+
+msgid "prebattle/difficulty/107"
+msgstr "Звичайна"
+
+msgid "prebattle/difficulty/108"
+msgstr "Просунута"
+
+msgid "prebattle/difficulty/109"
+msgstr "Люта"
+
+msgid "prebattle/waiting/title"
+msgstr "Очікуємо гравців..."
+
+msgid "radialMenu/attention_here"
+msgstr "Потребую підтримки"
+
+msgid "radialMenu/cancel"
+msgstr "Скасувати"
+
+msgid "radialMenu/confirm"
+msgstr "Так!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "Прямую в зону!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "Захищаю"
+
+msgid "radialMenu/obelisk"
+msgstr "Обеліск мій!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "Треба знищити обеліск!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "Енергетичний щит"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "Знову в строю..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "Залиште\nнебезпечну зону!"
+
+msgid "teamList/teammates"
+msgstr "Союзники"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "Вимкнути голосовий зв'язок"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "Увімкнути голосовий зв’язок"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "Натисніть, щоб говорити"

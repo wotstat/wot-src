@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: <language team name> <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Bendras"
+
+msgid "channels/battle/team"
+msgstr "Komandinis"
+
+msgid "channels/clan"
+msgstr "Klanas"
+
+msgid "channels/common"
+msgstr "Bendras"
+
+msgid "channels/epic_training"
+msgstr "Treniruotė—Fronto linija"
+
+msgid "channels/nubs"
+msgstr "Naujokai"
+
+msgid "channels/prebattle"
+msgstr "Priešmūšinis"
+
+msgid "channels/special_battles"
+msgstr "Specialus mūšis"
+
+msgid "channels/squad"
+msgstr "Būrys"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Būrys suformuotas. Palaukite kol žaidėjai pasiruoš."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Būrys"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Būrys suformuotas. Visi žaidėjai pasiruošę."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Būrys"
+
+msgid "channels/system"
+msgstr "Sisteminis"
+
+msgid "channels/tournament"
+msgstr "Turnyras"
+
+msgid "channels/trading"
+msgstr "Prekybinis"
+
+msgid "channels/training"
+msgstr "Treniruočių"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Pokalbių svetainės administratorius tuo pačiu yra ir svetainės moderatorius."
+
+msgid "errors/addmoderatorowner"
+msgstr "Pakalbių svetainės savininkas tuo pačiu yra ir svetainės moderatorius."
+
+msgid "errors/banchannelowner"
+msgstr "Pokalbių svetainės savininko negalima užblokuoti."
+
+msgid "errors/banchatadmin"
+msgstr "Pokalbių svetainės administratoriaus negalima užblokuoti."
+
+msgid "errors/banned"
+msgstr "Jūs užblokuotas vartotojo %(banOwnerNick)s iki %(banEndTime)s. Priežastis: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Jūs užblokuotas vartotojo %(banOwnerNick)s. Priežastis: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Jūs užblokuotas iki %(banEndTime)s. Priežastis: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Jūs užblokuotas. Priežastis: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Komanda %(command)s buvo įšaldyta %(cooldownPeriod)s s."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Moderatoriaus teisės negali būti panaikintos."
+
+msgid "errors/delmoderatorowner"
+msgstr "Negalima panaikinti kanalo savininko moderatoriaus teisių."
+
+msgid "errors/timeincorrect"
+msgstr "Laiko samprata turi būti teigiamas minučių skaičius [1-1440] arba 'permanent'."
+
+msgid "errors/toomanyargs"
+msgstr "Per daug parametrų."
+
+msgid "errors/toosmallargs"
+msgstr "Nepakankamai parametrų."
+
+msgid "errors/userbanhimself"
+msgstr "Jūs negalite užblokuoti savęs."
+
+msgid "messages/userbanned"
+msgstr "Vartotojas %(banedUser)s užblokuotas vartotojo %(banOwnerNick)s iki %(banEndTime)s. Priežastis: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "Vartotojas %(banedUser)s užblokuotas vartotojo %(banOwnerNick)s. Priežastis: %(banReason)s"

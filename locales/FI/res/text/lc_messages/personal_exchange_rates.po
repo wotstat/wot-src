@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Rajoitettu vaihtosuhde"
+msgstr[1] "Rajoitettu vaihtosuhde %(index)s"
+msgstr[2] "Rajoitettu vaihtosuhde %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "Vähintään yksi raja ylitetty. Osa maksusta suoritetaan seuraavalla suhteella."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Perus-vaihtosuhde"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "Seuraava käytettävä vaihtosuhde"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Aktiivisten rajoitettujen suhteiden määrä: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Rajoitetun suhteen määrä yhteensä: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "Vaihdon jälkeen:"
+
+msgid "common/cancel"
+msgstr "Peruuta"
+
+msgid "common/combinedDiscount"
+msgstr "Yhdistetty alennus"
+
+msgid "common/exchange"
+msgstr "Vaihda"
+
+msgid "common/exchangeRate"
+msgstr "Vaihtosuhde"
+
+msgid "common/limitExceeded"
+msgstr "Raja ylitetty. Vaihto suoritetaan yhdistetyllä alennuksella."
+
+msgid "common/limitOverExceeded"
+msgstr "Raja ylitetty: käytetään yhdistettyä alennusta."
+
+msgid "common/limitRestrictions"
+msgstr "LUE LISÄÄ"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Tavallinen vaihtosuhde: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Yleinen vaihtosuhde: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "%(gold)s kultaa vaihdettu onnistuneesti. Krediittejä saatu: %(res)s."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Henkilökohtainen vaihtosuhde: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Henkilökohtainen vaihtosuhde: %(rateFrom)s = %(rateTo)s. Raja ylitetty"
+
+msgid "exchangeXP/information"
+msgstr "%(res)s kokemusta vaihdettu vapaaksi kokemukseksi onnistuneesti. Kultaa käytetty: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "Saatavilla olevat kokemuspisteet:"
+
+msgid "experienceExchange/paid"
+msgstr "Käytetty"
+
+msgid "experienceExchange/received"
+msgstr "Saatu"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Lajittele vaunun tason mukaan"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Lajittele kenttämuokkauksen tason mukaan"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Lajittele vaunun nimen mukaan"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Lajittele kansakunnan mukaan"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Järjestä vaunutyypin mukaan"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Valitse valitun vaunun mukaan"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Lajittele ansaitun kokemuksen mukaan"
+
+msgid "goldExchange/paid"
+msgstr "Resurssista"
+
+msgid "goldExchange/received"
+msgstr "Resurssiksi"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s kulta = %(resourceRate)s krediittiä"
+
+msgid "notification/discountDescription/message"
+msgstr "Henkilökohtainen vaihtosuhde"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "Vaihtoon"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Uusi vaihtosuhde saatavilla!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Perus-vaihtosuhde"
+
+msgid "tooltip/common/generalRate"
+msgstr "Yleinen vaihtosuhde"
+
+msgid "tooltip/common/personalRate"
+msgstr "Henkilökohtainen vaihtosuhde"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Suotuinen vaihtosuhde"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Väliaikainen vaihtosuhde"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "Tarkka määrä määritetään vasta kullan ostamisen jälkeen."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Kullan määrä vaihdon jälkeen"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s kulta = %(resourceRate)s vapaata kokemusta"

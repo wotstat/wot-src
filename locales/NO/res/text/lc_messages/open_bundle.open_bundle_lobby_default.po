@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Bekreftet!"
+
+msgid "attachments_preview/description"
+msgstr "Sett med 3D vedheng"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Episk 3D vedheng"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Legendary 3D vedheng"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Sjeldent 3D vedheng"
+
+msgid "bundle/name"
+msgstr "MYSTERIEMARKEDET"
+
+msgid "bundle/name_uppercased"
+msgstr "MYSTERIEMARKEDET"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Avbryt"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Kjøp"
+
+msgid "confirmation/description"
+msgstr "Bekreft for å få sedler og en ny cellebelønning."
+
+msgid "confirmation/purchase"
+msgstr "Kjøp for {{price}} ?"
+
+msgid "entryPoint/button"
+msgstr "Gå til eventet"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} er her. Sjekk det ut!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Når du kjøper sedler i løpet av {{eventName}}, får du en belønning fra ett av de uåpnede cellene som bonusgave. Celler inneholder verdifulle enheter til bruk i spillet—inkludert eventets hovedbelønning: Et premiumkjøretøy."
+
+msgid "intro/cards/description/c_2"
+msgstr "Belønninger gis i tilfeldig rekkefølge. Hver uåpnede celle har sin egen sannsynlighet for å bli valgt, og alle sannsynlighetene er i sum alltid 100%. Så snart en celle er åpnet, kan den ikke åpnes på nytt, og sjansene for å få den gjenværende belønningen øker."
+
+msgid "intro/cards/description/c_3"
+msgstr "Hvert steg koster en viss mengde gull. Både antall sedler og stegsprisen varierer undervies i fremgangen din."
+
+msgid "intro/cards/link"
+msgstr "Se vilkårene og prisene for hvert trinn på {{@ class 'linkPart'}}nettsidene.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Kjøp av sedler"
+
+msgid "intro/cards/title/c_2"
+msgstr "Celler og sannsynlighet"
+
+msgid "intro/cards/title/c_3"
+msgstr "Stegspriser"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "DIN BELØNNING VENTER"
+
+msgid "main/alt/description"
+msgstr "Se sannsynlighet"
+
+msgid "main/alt/tooltip/body"
+msgstr "Trykk Alt tasten for å se sannsynligheten for å få noe for hver celle."
+
+msgid "main/alt/tooltip/header"
+msgstr "Sannsynlighetsvisning"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "GRATULERER! \n DU HAR FÅTT ALLE BELØNNINGENE"
+
+msgid "main/footer/button"
+msgstr "Kjøp"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}Belønning fra en celle"
+
+msgid "main/footer/receive"
+msgstr "Du får: {{item}}"
+
+msgid "main/header/description"
+msgstr "Delta i eventet fra {{startDate}} til {{endDate}} og skaff deg belønninger!"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Gå til tilpasninger"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Gå til stil"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Gå til kjøretøyet"
+
+msgid "notifications/specialReward/title"
+msgstr "Hovedbelønningen for {{eventName}} er din!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Ytterligere belønninger:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Mottatt:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Denne operasjonen er midlertidig utilgjengelig av tekniske årsaker. Vennligst prøv igjen senere."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Til eventet"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s avsluttes snart!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Eventet er tilgjengelig frem til: %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "%(eventName)s celle åpnet"
+
+msgid "tooltips/entry/description"
+msgstr "Belønningen din venter! Hvert kjøp av sedler gir deg en tilfeldig belønning fra én celle som gave. Du åpner en ny celle hver gang, da de du allerede har åpnet blir eliminert."
+
+msgid "tooltips/entry/timer"
+msgstr "Event blir tilgjengelig i {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "Om eventet"
+
+msgid "tooltips/steps/description"
+msgstr "For hvert kjøp får du mer {{currency}}. Mengden to mottar øker på bestemte kjøpstrinn."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} for hvert kjøp"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Trinn:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} — {{end}}"

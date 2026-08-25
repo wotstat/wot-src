@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "Η Ενεργειακή Βολή είναι έτοιμη προς χρήση."
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "Η Βολή Βαμπίρ είναι έτοιμη προς χρήση."
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "Η Βολή Σοκ είναι έτοιμη προς χρήση."
+
+msgid "LS_damageShieldReady"
+msgstr "Η Ενεργειακή Ασπίδα είναι έτοιμη προς χρήση."
+
+msgid "LS_doubleDamageReady"
+msgstr "Η Διπλάσια Φθορά είναι έτοιμη προς χρήση."
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "Η Περιστασιακή Φθορά είναι έτοιμη."
+
+msgid "LS_fastReloadReady"
+msgstr "Η Γρήγορη Γέμιση είναι έτοιμη προς χρήση."
+
+msgid "LS_healSituationalReady"
+msgstr "Οι Περιστασιακές Επισκευές είναι έτοιμες."
+
+msgid "LS_invisibilityReady"
+msgstr "Η Μυστική Αποκατάσταση είναι έτοιμη προς χρήση."
+
+msgid "LS_nitroReady"
+msgstr "Το Τούρμπο είναι έτοιμο προς χρήση."
+
+msgid "LS_pickupSouls"
+msgstr "Έχετε συλλέξει %(souls)s Mirium"
+
+msgid "LS_selfRepairReady"
+msgstr "Οι Επείγουσες Επισκευές είναι έτοιμες προς χρήση."
+
+msgid "LS_situationalNitroReady"
+msgstr "Η Περιστασιακή Ευκινησία είναι έτοιμη."
+
+msgid "LS_teamRepairKitReady"
+msgstr "Οι Ομαδικές Επισκευές είναι έτοιμες προς χρήση."
+
+msgid "LS_teamRepairKitUsed"
+msgstr "Ο παίκτης %(player)s ενεργοποίησε τις Ομαδικές Επισκευές."
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "Οι Ομαδικές Επισκευές ενεργοποιήθηκαν."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "Προσοχή στη ζώνη: %(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "Υπερασπιστείτε το ATLAS!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "Υπερασπιστείτε το ATLAS"
+
+msgid "arena/marker/move_to_camp"
+msgstr "Πηγαίνω προς τη ζώνη!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "Προς υπεράσπιση του ATLAS"
+
+msgid "arena/phase"
+msgstr "Φάση %(current)s από %(total)s"
+
+msgid "arena/wave"
+msgstr "Κύμα %(current)s από %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Πλησιάζουν&nbsp;Hedgehogs!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Πλησιάζει&nbsp;Alpha Hedgehog!"
+
+msgid "battleHint/clearTheArea"
+msgstr "Καθαρίστε την περιοχή!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "Γρήγορα! Το Zero είναι κοντά στο&nbsp;ATLAS!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "Το Zero καταστράφηκε!\nΑντίπαλοι που απομενουν: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "Εχθρικά οχήματα που απομένουν: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "data, %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Επισκευή οχημάτων"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "Απονομή ασπίδας"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "Σοκ σε αντιπάλους"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "Καταστροφή %(name)s Obelisk!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Regen"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "Barrier"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "Glitch"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "Ανιχνεύτηκαν τα σημεία εκκίνησης! Εισερχόμενα εχθρικά οχήματα!"
+
+msgid "battleHint/hunter"
+msgstr "Πλησιάζουν&nbsp;Hunters!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "Το κύμα εξουδετερώθηκε!"
+
+msgid "battleHint/leftToDestroy"
+msgstr "Εχθρικά οχήματα που πρέπει να καταστραφούν:"
+
+msgid "battleHint/missing_squad"
+msgstr "Πλησιάζει το Lost Platoon!"
+
+msgid "battleHint/newWave"
+msgstr "Κύμα {current} από {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "Εμφανίστηκε ένα Obelisk!"
+
+msgid "battleHint/stopConvoy"
+msgstr "Σταματήστε το Zero!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "Σταματήστε το Zero\nπριν φτάσει στο ATLAS!"
+
+msgid "battleHint/trapper"
+msgstr "Καταστρέψτε το Trapper για να σταματήσετε&nbsp;την εμφάνιση των ζωνών καταστροφής."
+
+msgid "battleHint/turret"
+msgstr "Τα Mosquitoes ξύπνησαν!"
+
+msgid "battleHint/waveFinished"
+msgstr "Το κύμα εξουδετερώθηκε!\nΑνασυνταχθείτε και ετοιμαστείτε!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "Ανασυνταχθείτε και ετοιμαστείτε!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "Έφτασαν εχθρικές&nbsp;ενισχύσεις!"
+
+msgid "common/close"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "Διάρκεια: %(time)s sec"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Φθορά από ζώνη"
+
+msgid "damageLog/static_death_zone"
+msgstr "Φθορά από ζώνη"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "Φωτιά από Πυροκίνηση"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "Φθορά από Ενεργειακή Επίθεση"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "Φθορά από έκρηξη"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "Φθορά από Κλέψιμο Ζωής"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "Η Περιστασιακή Φθορά ενεργοποιήθηκε"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "Οι Περιστασιακές Επισκευές ενεργοποιήθηκαν"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "Φθορά από Ενεργειακή Βολή"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "Φθορά Από Βολή Βαμπίρ"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "Φθορά από Βολή Σοκ"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "Module Invulnerability"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "Η Περιστασιακή Ευκινησία ενεργοποιήθηκε"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "Αποκατάσταση"
+
+msgid "efficiencyRibbons/repair"
+msgstr "Επισκευή οχήματος"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "Επισκευή οχήματος από"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "Επισκευή οχήματος από συμπαίκτη"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "Επισκευή συμπαικτών"
+
+msgid "eventStats/activeWave"
+msgstr "Κύμα %(num)s"
+
+msgid "eventStats/difficulty"
+msgstr "Δυσκολία: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "Last Stand: Terra Nord"
+
+msgid "eventStats/globalTask"
+msgstr "Αποστολή: Καταστρέψτε όλα τα εχθρικά κύματα επίθεσης."
+
+msgid "eventStats/mission"
+msgstr "Καταστρέψτε όλα τα εχθρικά κύματα επίθεσης."
+
+msgid "eventStats/tableCaption"
+msgstr "Μέλη Ομάδας"
+
+msgid "help/description_0"
+msgstr "Καταστρέψτε όλα τα κύματα επιθέσεων για να βγείτε νικητές.\nΟ εχθρός γίνεται πιο δυνατός μετά από κάθε επιτυχημένη επίθεση."
+
+msgid "help/description_1"
+msgstr "Ο σωστός συνδυασμός Μηχανισμών Μάχης μπορεί να αποδειχθεί ιδιαιτέρως ισχυρό όπλο στη μάχη.\nΝα θυμάστε ότι οι οδηγίες και τα πυρομαχικά όλων των τύπων είναι δωρεάν στην Τελική Αναμέτρηση."
+
+msgid "help/description_2"
+msgstr "Προκαλώντας φθορά σε ένα Obelisk, αυτομάτως μεταφέρεται μέρος αυτής της φθοράς στα εχθρικά οχήματα, ενώ με την καταστροφή του λαμβάνετε ένα τυχαίο μπόνους."
+
+msgid "help/description_3"
+msgstr "Προστατέψτε με κάθε κόστος το ATLAS από το τελικό echo tank, το Zero. Αν φτάσει στο ATLAS, θα το καταστρέψει και η μάχη θα χαθεί."
+
+msgid "help/title"
+msgstr "LAST STAND: TERRA NORD"
+
+msgid "help/title_0"
+msgstr "ΚΥΜΑΤΑ ΕΧΘΡΙΚΩΝ ΕΠΙΘΕΣΕΩΝ"
+
+msgid "help/title_1"
+msgstr "ΣΥΜΒΟΥΛΕΣ ΕΠΙΒΙΩΣΗΣ"
+
+msgid "help/title_2"
+msgstr "ΟΙ OBELISKS ΣΤΗ ΜΑΧΗ"
+
+msgid "help/title_3"
+msgstr "ΥΠΕΡΑΣΠΙΣΤΕΙΤΕ ΤΟ ATLAS"
+
+msgid "helpScreen/hint/description"
+msgstr "για προβολή των κανονισμών"
+
+msgid "helpScreen/hint/press"
+msgstr "Πιέστε"
+
+msgid "hitMarker/useless"
+msgstr "Χωρίς αποτέλεσμα!"
+
+msgid "loading/description_0"
+msgstr "Καταστρέψτε όλα τα κύματα επιθέσεων για να βγείτε νικητές.\nΟ εχθρός γίνεται πιο δυνατός μετά από κάθε επιτυχημένη επίθεση."
+
+msgid "loading/description_1"
+msgstr "Ο σωστός συνδυασμός Μηχανισμών Μάχης μπορεί να αποδειχθεί ιδιαιτέρως ισχυρό όπλο στη μάχη.\nΝα θυμάστε ότι οι οδηγίες και τα πυρομαχικά όλων των τύπων είναι δωρεάν στην Τελική Αναμέτρηση."
+
+msgid "loading/description_2"
+msgstr "Προκαλώντας φθορά σε ένα Obelisk, αυτομάτως μεταφέρεται μέρος αυτής της φθοράς στα εχθρικά οχήματα, ενώ με την καταστροφή του λαμβάνετε ένα τυχαίο μπόνους."
+
+msgid "loading/description_3"
+msgstr "Προστατέψτε με κάθε κόστος το ATLAS από το τελικό echo tank, το Zero. Αν φτάσει στο ATLAS, θα το καταστρέψει και η μάχη θα χαθεί."
+
+msgid "loading/title"
+msgstr "Φόρτωση…"
+
+msgid "loading/title_0"
+msgstr "ΚΥΜΑΤΑ ΕΧΘΡΙΚΩΝ ΕΠΙΘΕΣΕΩΝ"
+
+msgid "loading/title_1"
+msgstr "ΣΥΜΒΟΥΛΕΣ ΕΠΙΒΙΩΣΗΣ"
+
+msgid "loading/title_2"
+msgstr "ΟΙ OBELISKS ΣΤΗ ΜΑΧΗ"
+
+msgid "loading/title_3"
+msgstr "ΥΠΕΡΑΣΠΙΣΤΕΙΤΕ ΤΟ ATLAS"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "Αδύνατη η χρήση της δυνατότητας [%(name)s]: ο κινητήρας έχει καταστραφεί."
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "Αδύνατη η χρήση του μηχανισμού [%(name)s]: χαλασμένο πυροβόλο."
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "Το πυροβόλο είναι γεμάτο."
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "Αδύνατη η χρήση του μηχανισμού [%(name)s]: όχι αρκετό Mirium."
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "Το όχημα δεν έχει δεχθεί φθορά."
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "Αδύνατη η χρήση του στοιχείου [%(name)s]: το όχημα είναι κάτω από το νερό."
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "Αδύνατη η χρήση της δυνατότητας [%(name)s]: φωτιά στο όχημα."
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "Αδύνατη η χρήση του στοιχείου [%(name)s]: το όχημα έχει αναποδογυρίσει."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Ο συμπαίκτης %(target)s καταστράφηκε από έκρηξη του %(attacker)s."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Ο συμπαίκτης %(target)s συνετρίβη."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Ο συμπαίκτης %(target)s καταστράφηκε από τη Ζώνη Καταστροφής."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Ο συμπαίκτης %(target)s καταστράφηκε."
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "Εφόσον η ομάδα σας αποκρούσει επιτυχώς αυτό το Κύμα."
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "ΘΑ ΓΙΝΕΙ ΕΠΑΝΕΚΚΙΝΗΣΗ ΤΟΥ ΟΧΗΜΑΤΟΣ ΣΑΣ"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "Η μάχη τελείωσε.\nΤα πήγατε εξαιρετικά!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Το όχημα καταστράφηκε από τη Ζώνη Καταστροφής"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "Το όχημα καταστράφηκε από Ενεργειακή Επίθεση"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "Το όχημα καταστράφηκε από Πυροκίνηση"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "Το όχημα καταστράφηκε από Κλέψιμο Ζωής"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "Το όχημα καταστράφηκε από έκρηξη"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "Το όχημα συνετρίβη"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Το εξάρτημα [%(device)s] ανατινάχτηκε από βολή"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "Το όχημα καταστράφηκε από φωτιά"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Το όχημα καταστράφηκε. Λήξη χρόνου."
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "Το όχημα καταστράφηκε από βολή αντιπάλου"
+
+msgid "prebattle/description/message"
+msgstr "Αποστολή: Καταστρέψτε όλα τα εχθρικά κύματα επίθεσης."
+
+msgid "prebattle/description/title"
+msgstr "Last Stand: %(difficulty)s Δυσκολία"
+
+msgid "prebattle/difficulty/107"
+msgstr "Κανονική"
+
+msgid "prebattle/difficulty/108"
+msgstr "Μεγάλη"
+
+msgid "prebattle/difficulty/109"
+msgstr "Μέγιστη"
+
+msgid "prebattle/waiting/title"
+msgstr "Αναμονή παικτών…"
+
+msgid "radialMenu/attention_here"
+msgstr "Αίτημα βοήθειας"
+
+msgid "radialMenu/cancel"
+msgstr "Άκυρο"
+
+msgid "radialMenu/confirm"
+msgstr "Θετικόν!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "Πηγαίνω προς τη ζώνη!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "Προς υπεράσπιση"
+
+msgid "radialMenu/obelisk"
+msgstr "Αναλαμβάνω το Obelisk!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "Καταστρέψτε το Obelisk!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "Ενεργειακή Ασπίδα"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "Και πάλι στη σωστή θέση..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "Αποχωρήστε\nαπό τη ζώνη κινδύνου!"
+
+msgid "teamList/teammates"
+msgstr "Συμπαίκτες"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "Απενεργοποίηση φωνητικής συνομιλίας"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "Ενεργοποίηση φωνητικής συνομιλίας"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "Κλικ για να μιλήσετε"

@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "Namn"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "Per månad"
+
+msgid "ClanListWindow/table/role"
+msgstr "Position"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "Per vecka"
+
+msgid "battleQueue/clanPosition"
+msgstr "Placering: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "Placering:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "Söker efter fiende:"
+
+msgid "battleQueue/waitBattle"
+msgstr "Väntar på strid:"
+
+msgid "battleQueue/yourTeam"
+msgstr "Din enhet:"
+
+msgid "disconnected/Warning"
+msgstr "Obs!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "Befästningen är inte tillgänglig för tillfället. Försök igen senare."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "Befästning inte tillgänglig i roaming. Får att få tillgång till befästningar, gå till din region."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "Klanmedlemmar"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "Legionärer"
+
+msgid "fortVehPopover/btnSave"
+msgstr "Spara urval (%(count)d)"
+
+msgid "inspire/inspired"
+msgstr "Inspirerande"
+
+msgid "inspire/inspiring"
+msgstr "Inspirerande"
+
+msgid "mainWindow/maintenance/body"
+msgstr "Vi ber om ursäkt för all eventuell olägenhet."
+
+msgid "mainWindow/maintenance/button"
+msgstr "Uppdatera"
+
+msgid "mainWindow/maintenance/header"
+msgstr "Fel vid hämtning av data"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "Extra genomgång"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "Stridsutbetalning"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "Militärövning"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "Taktisk träning"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "Ytterligare effekter"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "Begär artillerield mot angivet område under en strid i skärmytslingar och offensiver"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "Ger bonus till besättningens huvudutbildningar och förmågor med Inspiration samt besättningar i alla allierade vagnar i närheten under en strid i skärmytslingar eller offensiver"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "En reserv kan aktiveras innan striden"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "En reserv kan aktiveras innan offensiven"
+
+msgid "reserves/tooltip/empty"
+msgstr "Du har inga reserver att aktivera"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s st i förrådet"
+
+msgid "reserves/tooltip/level"
+msgstr "Klass %(level)s"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "Effekt vid användning"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "Kan aktiveras"
+
+msgid "reserves/tooltip/selected"
+msgstr "Aktiverad"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "Klicka för att visa en lista över reserver du kan aktivera."
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "Reserver kan endast aktiveras av en enhetsbefälhavare med graden Befälhavare, Stf. Befälhavare, Personalofficer eller Stridsledare."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "Inte nog med klanmedlemmar i enheten: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Striden börjar om %(nextDate)s min"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "Starttid anges senare"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "Striden slutar om %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "Skärmytslingar tillgängliga"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "Nästa strid börjar den %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Striden börjar om %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "Striden börjar idag kl. %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "Striden börjar imorron kl. %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "Starttid anges senare"
+
+msgid "sortie/introView/title"
+msgstr "Befästningsstrider"
+
+msgid "sortie/listView/enterBtn"
+msgstr "Gå med"
+
+msgid "sortie/listView/enterText"
+msgstr "Gå med i laget som frivillig"
+
+msgid "sortie/listView/notSelected"
+msgstr "Välj en enhet från listan till vänster\nför att se mer information."
+
+msgid "sortie/listView/teamMembers"
+msgstr "Medlemmar: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "Vagnar:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "Legionär"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "Mönstrar automatiskt"
+
+msgid "sortie/room/candidates"
+msgstr "Frivilliga"
+
+msgid "sortie/room/chat"
+msgstr "Chattkanal"
+
+msgid "sortie/room/description"
+msgstr "Det skapade laget genomför en strid med en slumpvis fiendeklan på neutralt område. Vagnsklass avgörs av vilken division som väljs."
+
+msgid "sortie/room/fight"
+msgstr "Till Strid!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "Bjud in spelare"
+
+msgid "sortie/room/leaveBtn"
+msgstr "GÅ TILL ENHETESMÖNSTRING"
+
+msgid "sortie/room/level"
+msgstr "Klass %(level)s"
+
+msgid "sortie/room/members"
+msgstr "Medlemmar: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "Inte redo"
+
+msgid "sortie/room/ready"
+msgstr "Redo!"
+
+msgid "sortie/room/title"
+msgstr "Lag"
+
+msgid "sortie/slot/emptySlot"
+msgstr "Tom"
+
+msgid "sortie/slot/takePlace"
+msgstr "Gå med"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "Välj en vagn för striden. Rödmarkerade vagnar är inte redo för strid."
+
+msgid "stronghold/teamHeader"
+msgstr "Enhetsmedlemmar"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "Välj vagnar för legionärer"
+
+msgid "strongholdPopover/header"
+msgstr "Välj vagnar"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "Valda vagnar:"
+
+msgid "strongholdbuilds/direction"
+msgstr "%(direction)s allierade brohuvudet"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "Norra"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "Östra"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "Södra"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "Västra"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "Fientligt brohuvud"
+
+msgid "strongholdbuilds/mapName"
+msgstr "Karta: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "Kartan bestäms när offensiven börjar"
+
+msgid "strongholdbuilds/point1"
+msgstr "Citadell"
+
+msgid "strongholdbuilds/point2"
+msgstr "Reservlinje"
+
+msgid "strongholdbuilds/point3"
+msgstr "Frontlinje"
+
+msgid "strongholdbuilds/point4"
+msgstr "Frontlinje"
+
+msgid "strongholdbuilds/point5"
+msgstr "Reservlinje"
+
+msgid "strongholdbuilds/point6"
+msgstr "Citadell"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "x%(reward)s för första segern varje dag under offensiver från detta brohuvud"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "För försvar av citadellet när båda försvarslinjerna förlorats"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "För försvar av reservlinjen när frontlinjen gått förlorad"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "För försvar av båda försvarslinjerna utan att erövra fiendens linjer"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "För erövring av fiendens frontlinje"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "För erövring av båda fiendens försvarslinjer men inte citadellet"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "För erövrande av fiendens citadell"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "från rekvisitionsreserven"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "Delas ut efter offensiven"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "Visa inte för legionärer"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "Enheten visas"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "Visa för legionärer"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "Enheten är dold"
+
+msgid "strongholddirection/A"
+msgstr "Norra"
+
+msgid "strongholddirection/B"
+msgstr "Östra"
+
+msgid "strongholddirection/C"
+msgstr "Södra"
+
+msgid "strongholddirection/D"
+msgstr "Västra"
+
+msgid "strongholdinfo/sortie"
+msgstr "Skärmytsling i division %(level)s"
+
+msgid "strongholdinfo/stronghold"
+msgstr "Offensiv från %(direction)s brohuvudet"
+
+msgid "strongholdmap/randomMap"
+msgstr "Slumpvis karta"
+
+msgid "strongholdreserve/boost"
+msgstr "Inspiration"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "Högkapacitetstransport"
+
+msgid "strongholdreserve/requisition"
+msgstr "Rekvisition"
+
+msgid "strongholdreserve/support"
+msgstr "Artilleriattack"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "I skärmytslingar och offensiver under 1 strid"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "För resultatet av offensiven"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "Aktiveras i början av en strid"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "Aktiveras i början av en offensiv"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "Aktiverad när en reserv används i strid"
+
+msgid "strongholdtable/rating"
+msgstr "Rankning"
+
+msgid "strongholdtable/roster"
+msgstr "Sammansättning"
+
+msgid "strongholdtable/tech"
+msgstr "Vagnar"
+
+msgid "strongholdtitle/sortie"
+msgstr "Skärmytsling"
+
+msgid "strongholdtitle/stronghold"
+msgstr "Offensiv från %(direction)s brohuvudet"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Gränsområde{/HEADER}{BODY}Neutral mark. Vinnaren av striden anfaller fiendens försvarslinjer i nästa strid. Om striden slutar oavgjord slumpas vilket lag som anfaller.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "Offensiv från %(direction)s brohuvudet"
+
+msgid "strongholdtooltips/hours"
+msgstr "t"
+
+msgid "strongholdtooltips/minuts"
+msgstr "min"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "Skärmytsling i division %(level)s"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Vagnstypen som automatiskt anges för legionärer när du trycker på knappen \"Till Strid!\".\n\nKlicka för att bekräfta eller avbryta den angivna vagnstypen för legionärer."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "Lediga platser fylls automatiskt med legionärer"

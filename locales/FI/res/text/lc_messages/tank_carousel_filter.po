@@ -1,0 +1,239 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT-kääntäjä <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "checkbox/inventory"
+msgstr "Tallissa"
+
+msgid "infotip/counter"
+msgstr "Sopivia vaunuja: %(count)d/%(total)d"
+
+msgid "infotip/event"
+msgstr "Spesiaalivaunuja ei näytetä"
+
+msgid "infotip/header/description"
+msgstr "Näyttää vaunut, jotka täyttävät valitut kriteerit."
+
+msgid "infotip/header/title"
+msgstr "Vaunusuodatin"
+
+msgid "infotip/levels"
+msgstr "Tasot:"
+
+msgid "infotip/nations"
+msgstr "Kansakunnat:"
+
+msgid "infotip/only"
+msgstr "Vain seuraavat vaunut:"
+
+msgid "infotip/only/elite"
+msgstr "Eliitti"
+
+msgid "infotip/only/favorite"
+msgstr "Ensisijainen"
+
+msgid "infotip/only/premium"
+msgstr "Premium"
+
+msgid "infotip/rent"
+msgstr "Vuokravaunuja ei näytetä"
+
+msgid "infotip/searchNameVehicle"
+msgstr "Etsi nimen perusteella:"
+
+msgid "infotip/vehicleTypes"
+msgstr "Tyypit:"
+
+msgid "popover/checkbox/battleRoyale"
+msgstr "Piilota yhteen sopimattomat vaunut"
+
+msgid "popover/checkbox/elite"
+msgstr "Eliitti"
+
+msgid "popover/checkbox/event"
+msgstr "Spesiaali"
+
+msgid "popover/checkbox/favorite"
+msgstr "Ensisijainen"
+
+msgid "popover/checkbox/premium"
+msgstr "Premium"
+
+msgid "popover/checkbox/rented"
+msgstr "Vuokratut"
+
+msgid "popover/checkbox/unlock_available"
+msgstr "Vain saatavilla tutkittavaksi"
+
+msgid "popover/counter"
+msgstr "Näytä vaunut: %(count)s"
+
+msgid "popover/label/customization"
+msgstr "Muokkauselementit"
+
+msgid "popover/label/hidden"
+msgstr "Lisää"
+
+msgid "popover/label/levels"
+msgstr "Taso"
+
+msgid "popover/label/nations"
+msgstr "Kansakunta"
+
+msgid "popover/label/progressions"
+msgstr "Taistelupassi"
+
+msgid "popover/label/roles/AT-SPG"
+msgstr "PST-vaunun %(levels)s roolit"
+
+msgid "popover/label/roles/heavyTank"
+msgstr "Raskaan vaunun %(levels)s roolit"
+
+msgid "popover/label/roles/lightTank"
+msgstr "Kevyen vaunun %(levels)s roolit"
+
+msgid "popover/label/roles/mediumTank"
+msgstr "Keskiraskaan vaunun %(levels)s roolit"
+
+msgid "popover/label/searchNameVehicle"
+msgstr "Etsi nimen perusteella"
+
+msgid "popover/label/specials"
+msgstr "Spesiaali"
+
+msgid "popover/label/vehicleRole"
+msgstr "Rooli"
+
+msgid "popover/label/vehicleTypes"
+msgstr "Tyyppi"
+
+msgid "popover/title"
+msgstr "Suodata param. mukaan"
+
+msgid "tooltip/battleRoyale/body"
+msgstr "Näytä/piilota Teräksen metsästäjälle soveltumattomat vaunut."
+
+msgid "tooltip/battleRoyale/header"
+msgstr "Piilota yhteen sopimattomat vaunut"
+
+msgid "tooltip/bonus/body"
+msgstr "Näytä/piilota vaunut, joilla on aktiivinen kokemuskerroin."
+
+msgid "tooltip/bonus/header"
+msgstr "Bonuskokemus"
+
+msgid "tooltip/clanRented/body"
+msgstr "Näytä/piilota maailmankartan ja linnaketaisteluiden vuokravaunut."
+
+msgid "tooltip/clanRented/header"
+msgstr "Vuokravaunut klaanitaisteluihin"
+
+msgid "tooltip/crystals/body"
+msgstr "Näytä/piilota vaunut, joilla voi ansaita arvopapereita."
+
+msgid "tooltip/crystals/header"
+msgstr "Vaunut arvopapereiden ansaitsemiseen"
+
+msgid "tooltip/customization/canInstallAttachments/body"
+msgstr "Näytä/piilota vaunut, joihin voi asentaa kolmiulotteisia lisävarusteita."
+
+msgid "tooltip/customization/own3DStyle/body"
+msgstr "Näytä/piilota vaunut, joille sinulle on kolmiulotteisia tyylejä."
+
+msgid "tooltip/elite/body"
+msgstr "Näytä/piilota vaunut, joilla on kaikki saatavilla olevat moduulit, päivitykset ja kehityshaarat tutkittuna seuraavan tason vaunu(t) mukaan lukien."
+
+msgid "tooltip/elite/header"
+msgstr "Eliittivaunut"
+
+msgid "tooltip/event/body"
+msgstr "Näytä/piilota pelin erityistehtäviä varten olevat vaunut."
+
+msgid "tooltip/event/header"
+msgstr "Erikoisvaunut"
+
+msgid "tooltip/favorite/body"
+msgstr "Näytä/piilota vain ensisijaiset vaunut."
+
+msgid "tooltip/favorite/header"
+msgstr "Ensisijaiset vaunut"
+
+msgid "tooltip/gameMode/body"
+msgstr "Valitse ruutu nähdäksesi sopivat vaunut \"%(battleType)s\" -pelimuotoon."
+
+msgid "tooltip/gameMode/header"
+msgstr "Teräsmyrsky"
+
+msgid "tooltip/igr/body"
+msgstr "Näytä/piilota IGR-vaunut."
+
+msgid "tooltip/igr/header"
+msgstr "IGR-vaunut"
+
+msgid "tooltip/inventory/body"
+msgstr "?empty?"
+
+msgid "tooltip/inventory/header"
+msgstr "?empty?"
+
+msgid "tooltip/isCommonProgression/body"
+msgstr "Näytä vaunut, jotka sopivat edistymispisteiden ansaitsemiseen tai suorita tehtäviä, jotka antavat sinulle edistymispisteitä."
+
+msgid "tooltip/isCommonProgression/header"
+msgstr "Taistelupassin vaunut"
+
+msgid "tooltip/isCompetitiveProgression/body"
+msgstr "tooltip/isCompetitiveProgression/body"
+
+msgid "tooltip/isCompetitiveProgression/header"
+msgstr "tooltip/isCompetitiveProgression/header"
+
+msgid "tooltip/nations/body"
+msgstr "Näytä/piilota tämän kansakunnan vaunut."
+
+msgid "tooltip/params/body"
+msgstr "Konfiguroi vaunujen näkyminen niiden tyypin, kansakunnan, tason ja muiden parametrien mukaan."
+
+msgid "tooltip/params/header"
+msgstr "Suodata param. mukaan"
+
+msgid "tooltip/premium/body"
+msgstr "Näytä/piilota vain premium- ja palkintovaunut."
+
+msgid "tooltip/premium/header"
+msgstr "Premium-vaunut"
+
+msgid "tooltip/ranked/body"
+msgstr "Näytä/piilota luokitettuihin taisteluihin soveltuvat vaunut."
+
+msgid "tooltip/ranked/header"
+msgstr "Luokitettujen taisteluiden vaunut"
+
+msgid "tooltip/rented/body"
+msgstr "Näytä/piilota vuokratut vaunut."
+
+msgid "tooltip/rented/header"
+msgstr "Vuokratut vaunut"
+
+msgid "tooltip/role/body"
+msgstr "Näytä/piilota tämän roolin vaunut."
+
+msgid "tooltip/rtsBattles/body"
+msgstr "Näytä/piilota Strategian taitoon soveltuvat vaunut."
+
+msgid "tooltip/rtsBattles/header"
+msgstr "Piilota yhteensopimattomat vaunut"
+
+msgid "tooltip/searchInput/body"
+msgstr "Vaunun nimen täytyy sisältää enintään %(count)d merkkiä."
+
+msgid "tooltip/searchInput/header"
+msgstr "Etsi nimen perusteella"
+
+msgid "tooltip/toggleSwitchCarousel/body"
+msgstr "Vaihda yksi ja kaksitasoisen vaunupaneelin välillä."
+
+msgid "tooltip/toggleSwitchCarousel/header"
+msgstr "Vaunupaneeli"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Näytä/piilota tämän tyyppiset vaunut."

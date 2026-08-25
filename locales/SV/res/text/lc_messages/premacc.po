@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} i klanen"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "TILL KONTOSTATUS"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "BAKÅT"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Du kan ersätta en karta om {}."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Visa/göm kartor av denna typ."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Ökenkartor"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Sommarkartor"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Vinterkartor"
+
+msgid "mapsBlacklist/header"
+msgstr "Uteslutna kartor"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Uteslut en karta du inte vill se i rotationen. Exkludera en karta till med WoT-Premiumkonto och ytterligare %(mapCount)s med WoT Plus. Om någon av prenumerationerna upphör återgår de exkluderade kartor till rotationen igen med början från höger."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Uteslutna kartor"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Kartorna är utesluts bara från slumpvis matchade strider."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Du kan byta ut en utesluten karta efter %(maxCooldownTimeStr)s."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Funktionen gäller vagnar klass IV och högre."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "Bara kartor uteslutna av plutonschefen räknas i plutonsspel."
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Visade kartor: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Visade kartor: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Karttyper:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Avbryt"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Stäng"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "Den valda kartan kommer ersättas med kartan {mapNameStr}. Du kan ändra ditt val om {cooldownStr}."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Vilken karta vill du ersätta?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Uteslut"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Välj en karta du vill utesluta"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Avbryt"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Stäng"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Du kan ändra ditt val om {cooldownStr}."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Exkludera kartan {mapNameStr} från dina slumpvis matchade strider?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Uteslut"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Uteslut"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Uteslut kartan {mapNameStr}?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Inkludera"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Inkludera kartan {mapNameStr} i dina slumpvis matchade strider?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Du kan ersätta kartan om {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Ersättning av karta ej tillgänglig"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Du kan ersätta kartan om {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Ersättning av karta ej tillgänglig"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Ej vald"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Klicka för att välja en karta att exkludera från slumpvis matchade strider."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Ingen karta vald"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "Den exkluderade kartan {mapName} kan ersättas med en annan karta."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Ersättning av karta tillgänglig"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Du kan ersätta kartan {mapName} om {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Ersättning av karta ej tillgänglig"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "En extra plats är endast tillgänglig med ett aktivt WoT-Premiumkonto."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Plats ej tillgänglig"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Välj en karta från listan nedan för att utesluta den från slumpvis matchade strider."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Ingen karta vald"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Välj en karta från listan nedan för att utesluta den från slumpvis matchade strider."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Ersättning av karta tillgänglig"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Du kan ersätta kartan om {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Ersättning av karta ej tillgänglig"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "En extra plats för uteslutna kartor är endast tillgänglig med ett aktivt WoT-Premiumkonto."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Plats ej tillgänglig"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Avbryt"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Du kan ändra ditt val om {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Byt ut"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Uteslut"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Exkludera kartan %(mapName)s från dina slumpvis matchade strider?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "Den utvalda kartan kommer ersättas med kartan {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Du kan ändra ditt val om %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Vilken karta vill du ersätta?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Kartan ersätt med kartan {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Du kan ändra ditt val om %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Vill byta ut kartan?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Föräldrakontroller har aktiverats för detta konto.\nDu kan läsa mer om föräldrakontrollen och dess begränsningar {link}."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Föräldrakontroll"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "på spelportalen"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Kreditreserv"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s min"

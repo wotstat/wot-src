@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "Vardas"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "Per mėnesį"
+
+msgid "ClanListWindow/table/role"
+msgstr "Pareigos"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "Per savaitę"
+
+msgid "battleQueue/clanPosition"
+msgstr "Pozicija: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "Pozicija:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "Priešų paieška:"
+
+msgid "battleQueue/waitBattle"
+msgstr "Laukiama mūšio:"
+
+msgid "battleQueue/yourTeam"
+msgstr "Jūsų padalinys:"
+
+msgid "disconnected/Warning"
+msgstr "Dėmesio!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "Tvirtovė laikinai nepasiekiama. Pabandykite dar kartą vėliau."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "Tvritovė roaminge nepasiekiama. Pereikite į savo regioną."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "Klano nariai"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "Legionieriai"
+
+msgid "fortVehPopover/btnSave"
+msgstr "Išsaugoti pasirinkimą (%(count)d)"
+
+msgid "inspire/inspired"
+msgstr "Motyvuoja"
+
+msgid "inspire/inspiring"
+msgstr "Motyvuoja"
+
+msgid "mainWindow/maintenance/body"
+msgstr "Atsiprašome už nepatogumus."
+
+msgid "mainWindow/maintenance/button"
+msgstr "Atnaujinti"
+
+msgid "mainWindow/maintenance/header"
+msgstr "Klaida užkraunant duomenis"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "Papildomas instruktažas"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "Mūšio išmokos"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "Kariniai manevrai"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "Taktiniai mokymai"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "Papildomas efektas"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "Duoda įsakymą artilerijai apšaudyti nurodytą teritoriją Išpuoliuose ir Puolimuose viename mūšyje"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "Suteikia bonusą įgulos narių pagrindinėms kvalifikacijoms ir visiems įgūdžiams mašinoje su Motyvacija, poveikį suteikia ir šalia esančioms sąjungininkų mašinų įguloms Išpuoliuose ir Puolimuose viename mūšyje"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "Rezervą galima aktyvuoti prieš mūšį"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "Rezervą galima aktyvuoti prieš Puolimą"
+
+msgid "reserves/tooltip/empty"
+msgstr "Jūs neturite rezervų aktyvavimui"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s sandėlyje"
+
+msgid "reserves/tooltip/level"
+msgstr "%(level)s lygis"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "Efektas panaudojus"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "Galima įjungti"
+
+msgid "reserves/tooltip/selected"
+msgstr "Įjungtas"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "Paspauskite norėdami pamatyti rezervų, kuriuos galite įjungti, sąrašą."
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "Rezervus gali įjungti tik padalinio vadas, kuris klane užima vado, vado pavaduotojo, personalo karininko ar karo lauko vado pareigas."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "Nepakanka klano narių paleidimui: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Mūšis prasideda po %(nextDate)s min."
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "Pradžios laikas bus nurodytas vėliau"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "Mūšis baigiasi %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "Pasiekiami Išpuoliai"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "Kitas mūšis prasidės %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Mūšis prasideda po %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "Mūšis prasideda šiandien %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "Mūšis prasideda rytoj %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "Pradžios laikas bus nurodytas vėliau"
+
+msgid "sortie/introView/title"
+msgstr "Tvirtovė: mūšiai"
+
+msgid "sortie/listView/enterBtn"
+msgstr "Jungtis"
+
+msgid "sortie/listView/enterText"
+msgstr "Prisijungti prie komandos savanoriu"
+
+msgid "sortie/listView/notSelected"
+msgstr "Pasirinkite padalinį iš sąrašo kairėje\nnorėdami peržiūrėti išsamiau."
+
+msgid "sortie/listView/teamMembers"
+msgstr "Vietos: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "Technika:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "Legionierius"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "Auto-parinkimas"
+
+msgid "sortie/room/candidates"
+msgstr "Savanoriai"
+
+msgid "sortie/room/chat"
+msgstr "Pokalbių kanalas"
+
+msgid "sortie/room/description"
+msgstr "Sukurtas kovos padalinys stos į kovą su atsitiktiniu klanu neutralioje teritorijoje. Technikos lygis nustatomas pagal pasirinktą divizioną."
+
+msgid "sortie/room/fight"
+msgstr "Į mūšį!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "Pakviesti žaidėjus"
+
+msgid "sortie/room/leaveBtn"
+msgstr "Į PADALINIŲ FORMAVIMĄ"
+
+msgid "sortie/room/level"
+msgstr "%(level)s lygis"
+
+msgid "sortie/room/members"
+msgstr "Nariai: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "Nepasiruošęs"
+
+msgid "sortie/room/ready"
+msgstr "Pasiruošęs!"
+
+msgid "sortie/room/title"
+msgstr "Padalinys"
+
+msgid "sortie/slot/emptySlot"
+msgstr "Laisva"
+
+msgid "sortie/slot/takePlace"
+msgstr "Užimti vietą"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "Pasirinkite tanką mūšiui. Raudoni indikatoriai žymi tankus, kurie neparuošti mūšiui."
+
+msgid "stronghold/teamHeader"
+msgstr "Padalinio nariai"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "Pasirinkti techniką legionieriams"
+
+msgid "strongholdPopover/header"
+msgstr "Technikos pasirinkimas"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "Pasirinkta:"
+
+msgid "strongholdbuilds/direction"
+msgstr "%(direction)s sąjungininkų placdarmas"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "Šiaurės"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "Rytų"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "Pietų"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "Vakarų"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "Priešų placdarmas"
+
+msgid "strongholdbuilds/mapName"
+msgstr "Žemėlapis: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "Žemėlapis bus parinktas prasidėjus Puolimui"
+
+msgid "strongholdbuilds/point1"
+msgstr "Citadelė"
+
+msgid "strongholdbuilds/point2"
+msgstr "Rezervinė linija"
+
+msgid "strongholdbuilds/point3"
+msgstr "Fronto linija"
+
+msgid "strongholdbuilds/point4"
+msgstr "Fronto linija"
+
+msgid "strongholdbuilds/point5"
+msgstr "Rezervinė linija"
+
+msgid "strongholdbuilds/point6"
+msgstr "Citadelė"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "x%(reward)s už pirmą pergalę kiekvieną dieną Puolimuose šiame placdarme"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "Už citadelės apgynimą praradus abi linijas"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "Už rezervinės linijos apgynimą praradus fronto liniją"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "Už abiejų linijų apgynimą be priešo linijų užėmimo"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "Už fronto linijos užėmimą"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "Už abiejų linijų užėmimą be citadelės užėmimo"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "Už priešo citadelės užėmimą"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "už Rekvizicijos rezervą"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "Apdovanojimas suteikiamas po Puolimo"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "Slėpti nuo legionierių"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "Padalinys rodomas"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "Rodyti legionieriams"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "Padalinys nerodomas"
+
+msgid "strongholddirection/A"
+msgstr "Šiaurės"
+
+msgid "strongholddirection/B"
+msgstr "Rytų"
+
+msgid "strongholddirection/C"
+msgstr "Pietų"
+
+msgid "strongholddirection/D"
+msgstr "Vakarų"
+
+msgid "strongholdinfo/sortie"
+msgstr "Išpuolis %(level)s divizione"
+
+msgid "strongholdinfo/stronghold"
+msgstr "Puolimas iš %(direction)s placdarmo"
+
+msgid "strongholdmap/randomMap"
+msgstr "Atsitiktinis žemėlapis"
+
+msgid "strongholdreserve/boost"
+msgstr "Motyvacija"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "Didelės talpos transportas"
+
+msgid "strongholdreserve/requisition"
+msgstr "Rekvizicija"
+
+msgid "strongholdreserve/support"
+msgstr "Artilerijos smūgis"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "Išpuoliuose ir Puolimuose 1 mūšyje"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "Už Puolimo rezultatus"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "Aktyvuojasi mūšio pradžioje"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "Aktyvuojasi Puolimo pradžioje"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "Aktyvuojasi, kai mūšyje panaudojamas rezervas"
+
+msgid "strongholdtable/rating"
+msgstr "Reitingas"
+
+msgid "strongholdtable/roster"
+msgstr "Sudėtis"
+
+msgid "strongholdtable/tech"
+msgstr "Technika"
+
+msgid "strongholdtitle/sortie"
+msgstr "Išpuolis"
+
+msgid "strongholdtitle/stronghold"
+msgstr "Puolimas iš %(direction)s placdarmo"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Pasienis{/HEADER}{BODY}Neutrali teritorija. Laimėtojas atakuos priešo liniją kitame mūšyje. Jeigu mūšis baigsis lygiosiomis, atakuojanti komanda bus parinkta atsitiktine tvarka.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "Puolimas iš %(direction)s placdarmo"
+
+msgid "strongholdtooltips/hours"
+msgstr "val."
+
+msgid "strongholdtooltips/minuts"
+msgstr "m"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "Išpuolis %(level)s divizione"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Mašinos tipas, kuris bus priskirtas legionieriui, paspaudus mygtuką \"Į mūšį!\".\n\nPaspauskite norėdami patvirtinti ar atšaukti pasirinktą mašinos tipą legionieriams."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "Legionieriai bus automatiškai priskirti į tuščias pozicijas"

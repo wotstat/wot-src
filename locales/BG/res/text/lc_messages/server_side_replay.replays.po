@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "closeButtonLabel"
+msgstr "ЗАТВОРИ"
+
+msgid "featureName"
+msgstr "ЗАПИСИ"
+
+msgid "filter/apply"
+msgstr "Приложи филтър"
+
+msgid "filter/group/nation/title"
+msgstr "Нация"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Ниво"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Ниво"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Специализация"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Вид машина"
+
+msgid "filter/reset"
+msgstr "Махни филтъра"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Покажи/скрий членове на екипажа от тази нация."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Покажи/скрий облици за тази нация."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Покажи/скрий машини от тази нация."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Покажи/скрий машини от този вид."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "САУ"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Тежки танкове"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Леки танкове"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Средни танкове"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Не са намерени машини, които да отговарят на\nкритериите за търсене"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Сортирай по имената на машините."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Име"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Сортирай по ниво на машина."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Ниво"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Сортирай по вид на машини."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Вид"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Име"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Натиснете за прилагане на настройките на филтъра."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Прилагане на избраните филтри"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Натиснете за махане на настройките на филтъра."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Нулиране на всички филтри"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Покажи само прайм тайм записи"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "Остава %(count)s ден"
+msgstr[1] "Остават %(count)s дни"
+msgstr[2] "Остават %(count)s дни"
+
+msgid "filterPopover/title"
+msgstr "Филтър на записи"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Конфигуриране на филтър на записи по тип машина, ниво, нация и т.н."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Филтър по параметри"
+
+msgid "findReplay/buttonText/find"
+msgstr "Намери запис"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Изчистване на въведеното"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Гледай запис!"
+
+msgid "findReplay/errorMessage"
+msgstr "Нищо не е намерено. Моля, променете заявката си"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Моля, напишете ARENA_ID тук..."
+
+msgid "findReplay/successMessage"
+msgstr "ИИ намери повторение, което ви интересува! Приятно гледане"
+
+msgid "page/heading/bestReplays"
+msgstr "НАЙ-ДОБРИ ЗАПИСИ"
+
+msgid "page/heading/findReplay"
+msgstr "НАМЕРИ ЗАПИС (ЗА DEV)"
+
+msgid "page/heading/myReplays"
+msgstr "МОИТЕ ЗАПИСИ"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Този раздел съдържа информация за най-добрите записи от всички играчи на WoT"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Този раздел е за намиране на запис по някакъв параметър"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Този раздел съдържа информация за ВАШИТЕ най-добри записи"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "НАЙ-ДОБРИ ЗАПИСИ"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Намери запис"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "МОИТЕ ЗАПИСИ"
+
+msgid "statsParam/damageAssisted"
+msgstr "Топ 1 по помощ при унищожаване"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Топ 1 по блокирани поражения"
+
+msgid "statsParam/damageDealt"
+msgstr "Топ 1 по нанесени поражения"
+
+msgid "statsParam/earnedXp"
+msgstr "Топ 1 по спечелен опит"
+
+msgid "statsParam/kills"
+msgstr "Топ 1 по унищожени машини"
+
+msgid "table/error/buttonText"
+msgstr "Обнови"
+
+msgid "table/error/description"
+msgstr "Извиняваме се за временното неудобство. Моля, опитайте да актуализирате страницата по-късно."
+
+msgid "table/error/title"
+msgstr "Грешка при зареждане на данни"
+
+msgid "table/header/damageAssisted"
+msgstr "Помогнал"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Спрени поражения"
+
+msgid "table/header/damageDealt"
+msgstr "Поражения"
+
+msgid "table/header/date"
+msgstr "Дата"
+
+msgid "table/header/earnedXp"
+msgstr "Спечелен опит"
+
+msgid "table/header/kills"
+msgstr "Брой унищожени машини"
+
+msgid "table/header/map"
+msgstr "Карта"
+
+msgid "table/header/marksOfMastery"
+msgstr "Знаци за майсторство"
+
+msgid "table/header/player"
+msgstr "Име на играч"
+
+msgid "table/header/vehicle"
+msgstr "Машина"
+
+msgid "table/noRecords/buttonText"
+msgstr "Махни филтъра"
+
+msgid "table/noRecords/title"
+msgstr "Нищо не е намерено. Променете настройките или махнете филтъра"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Натиснете за махане на настройките на филтъра."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Нулиране на всички филтри"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Брой поражения, нанесени с помощта на играч в този запис"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Поражения с ваша помощ"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Брой блокирани поражения на играча в този запис"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Поражения, блокирани от броня"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Брой нанесени поражения на играча в този запис"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Нанесени поражения"
+
+msgid "table/tooltip/date/body"
+msgstr "Дата на записването на запис."
+
+msgid "table/tooltip/date/header"
+msgstr "Дата на запис"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Брой спечелен опит на играча в този запис"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Спечелен опит"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Епични постижения, постигнати от играч в този запис"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Епични медали"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Натиснете, за да добавите този запис към Любими записи."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Любими"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Натиснете, за да премахнете този запис от Любими записи."
+
+msgid "table/tooltip/kills/body"
+msgstr "Брой машини, убити от играч в този запис"
+
+msgid "table/tooltip/kills/header"
+msgstr "Унищожени"
+
+msgid "table/tooltip/map/body"
+msgstr "Картата на записа."
+
+msgid "table/tooltip/map/header"
+msgstr "Карта"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Важни постижения, постигнати от играч в този запис"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Знаци за майсторство"
+
+msgid "table/tooltip/player/body"
+msgstr "Името на играча от записа."
+
+msgid "table/tooltip/player/header"
+msgstr "Име на играч"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Машината на играча, с която е направен записа."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Машина"
+
+msgid "tableInfo/amount"
+msgstr "Показани записи: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Филтър"
+
+msgid "waitingSpinner/message"
+msgstr "Зареждане на съдържание..."

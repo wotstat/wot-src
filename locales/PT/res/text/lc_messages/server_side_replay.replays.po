@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "closeButtonLabel"
+msgstr "FECHAR"
+
+msgid "featureName"
+msgstr "REPETIÇÕES"
+
+msgid "filter/apply"
+msgstr "Aplicar Filtro"
+
+msgid "filter/group/nation/title"
+msgstr "Nação"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Nível"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Nível"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Especialização"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Tipo de Veículo"
+
+msgid "filter/reset"
+msgstr "Limpar Filtro"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Mostrar/ocultar membros da tripulação desta nação."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Mostrar/ocultar imagens desta nação."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Mostrar/ocultar veículos desta nação."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Mostrar/ocultar veículos deste tipo."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Antitanques"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "AAPs"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Tanques Pesados"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Tanques Ligeiros"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Tanques Médios"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nenhum veículo encontrado que corresponda aos\ncritérios de pesquisa"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Ordenar por nome do veículo."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Nome"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Ordenar por nível do veículo."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Nível"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Ordenar por tipo de veículo."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Tipo"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Nome"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Clique para aplicar as definições do filtro."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Aplicar os filtros selecionados"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Clique para reiniciar as definições do filtro."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Reiniciar Todas os Filtros"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Mostrar apenas as repetições em horário nobre"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "Último dia"
+msgstr[1] "Últimos %(count)s dias"
+msgstr[2] "Últimos %(count)s dias"
+
+msgid "filterPopover/title"
+msgstr "Filtro das repetições"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Configure o filtro das repetições por tipo de veículo, nível, nação, etc."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Filtrar por parâmetros"
+
+msgid "findReplay/buttonText/find"
+msgstr "Filtrar repetição"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Limpar os dados"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Ver a repetição!"
+
+msgid "findReplay/errorMessage"
+msgstr "Nada encontrado. Por favor, altere o seu pedido"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Por favor, introduza o ARENA_ID aqui..."
+
+msgid "findReplay/successMessage"
+msgstr "A IA encontrou a repetição que lhe interessa! Desfrute a assistir"
+
+msgid "page/heading/bestReplays"
+msgstr "MELHORES REPETIÇÕES"
+
+msgid "page/heading/findReplay"
+msgstr "ENCONTRAR REPETIÇÃO (PARA DEV)"
+
+msgid "page/heading/myReplays"
+msgstr "AS MINHAS REPETIÇÕES"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Esta secção contém informação sobre Melhores Repetições de todos os jogadores do WoT"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Esta secção é para encontrar uma repetição por algum parâmetro"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Esta secção contém informação sobre as SUAS melhores repetições"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "Melhores Repetições"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Filtrar repetição"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "Minhas Repetições"
+
+msgid "statsParam/damageAssisted"
+msgstr "Top 1 em Ajuda na destruição"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Top 1 em Dano bloqueado"
+
+msgid "statsParam/damageDealt"
+msgstr "Top 1 em Dano causado"
+
+msgid "statsParam/earnedXp"
+msgstr "Top 1 em Experiência ganha"
+
+msgid "statsParam/kills"
+msgstr "Top 1 em Veículos destruídos"
+
+msgid "table/error/buttonText"
+msgstr "Atualizar"
+
+msgid "table/error/description"
+msgstr "Pedimos desculpa pela inconveniência temporária. Por favor, tente atualizar a página mais tarde."
+
+msgid "table/error/title"
+msgstr "Erro a carregar dados"
+
+msgid "table/header/damageAssisted"
+msgstr "Assistir"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Dano bloqueado"
+
+msgid "table/header/damageDealt"
+msgstr "Dano"
+
+msgid "table/header/date"
+msgstr "Data"
+
+msgid "table/header/earnedXp"
+msgstr "EXP Ganha"
+
+msgid "table/header/kills"
+msgstr "Montante de veículos destruídos"
+
+msgid "table/header/map"
+msgstr "Mapa"
+
+msgid "table/header/marksOfMastery"
+msgstr "Crachás de mestria"
+
+msgid "table/header/player"
+msgstr "Nome do Jogador"
+
+msgid "table/header/vehicle"
+msgstr "Veículo"
+
+msgid "table/noRecords/buttonText"
+msgstr "Limpar Filtro"
+
+msgid "table/noRecords/title"
+msgstr "Nada foi encontrado. Por favor, altere as definições ou reinicie o filtro."
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Clique para reiniciar as definições do filtro."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Reiniciar todas os filtros"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Montante de dano assistido do jogador nesta repetição"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Dano Assistido"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Montante de dano bloqueado do jogador nesta repetição"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Dano Bloqueado Pela Blindagem"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Montante de dano causado do jogador nesta repetição"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Dano Causado"
+
+msgid "table/tooltip/date/body"
+msgstr "Data de gravação da repetição."
+
+msgid "table/tooltip/date/header"
+msgstr "Data da repetição"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Montante de exp ganha do jogador nesta repetição"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Exp ganha"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Marcas épicas alcançadas pelo jogador nesta repetição"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Medalhas Épicas"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Clique para adicionar esta repetição às repetições Favoritas."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Favorito"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Clique para adicionar esta repetição às repetições Favoritas."
+
+msgid "table/tooltip/kills/body"
+msgstr "Quantidade de veículos destruídos pelo jogador nesta repetição"
+
+msgid "table/tooltip/kills/header"
+msgstr "Destruições"
+
+msgid "table/tooltip/map/body"
+msgstr "O mapa da repetição."
+
+msgid "table/tooltip/map/header"
+msgstr "Mapa"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Marcas importantes alcançadas pelo jogador nesta repetição"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Crachás de mestria"
+
+msgid "table/tooltip/player/body"
+msgstr "O nome do jogador nesta repetição."
+
+msgid "table/tooltip/player/header"
+msgstr "Nome do Jogador"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Veículo do jogador no qual a repetição foi gravada."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Veículo"
+
+msgid "tableInfo/amount"
+msgstr "Repetições mostradas: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Filtro"
+
+msgid "waitingSpinner/message"
+msgstr "A carregar conteúdo..."

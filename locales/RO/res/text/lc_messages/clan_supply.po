@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "main/backText"
+msgstr "SPRE DETALIILE CLANURILOR"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "Prin finalizarea de misiuni obții Puncte ale datoriei care sunt necesare pentru explorarea de regiuni noi."
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "Punctele datoriei"
+
+msgid "main/infoPageButtonLabel"
+msgstr "DESPRE TURUL DATORIEI"
+
+msgid "main/mdash"
+msgstr "—"
+
+msgid "messages/claimRewards/error"
+msgstr "Acțiunea momentan indisponibilă. Încearcă mai târziu."
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "Actualizează"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "Oferim scuze pentru problemele temporare."
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "Eroare la încărcarea datelor"
+
+msgid "progressionPage/header/heading"
+msgstr "TURUL DATORIEI"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "TURUL DATORIEI S-A ÎNCHEIAT"
+
+msgid "progressionPage/header/subheading"
+msgstr "Obține Puncte ale datoriei prin finalizarea de misiuni de clan. Punctele datoriei sunt utilizate pentru explorarea de noi regiuni și obținerea de recompense valoroase. La încheierea Turului, poți obține un vehicul de generația X."
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "S-a obținut vehiculul %(vehicle)s"
+
+msgid "progressionPage/loading"
+msgstr "Se iniţializează..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "Explorează regiunea conectată anterior."
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "Regiune deja explorată"
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "Recompensă obţinută:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "Explorează regiunea conectată anterior."
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "Nu pot explora regiunea"
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "Eroare la încărcarea datelor"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "Explorează regiunea"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "Mai sunt necesare încă %(value)s Puncte ale datoriei pentru a explora regiunea."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "Nu pot explora regiunea"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "Explorează regiunea conectată anterior."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "Nu pot explora regiunea"
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "Revendică recompensa"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "Se iniţializează..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "Se așteaptă adăugarea recompensei..."
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "Actualizează"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "RECOMPENSĂ PENTRU EXPLORAREA REGIUNII:"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "RECOMPENSĂ OBȚINUTĂ:"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "Previzualizare"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "Actualizează"
+
+msgid "questsPage/errorScreen/description"
+msgstr "Oferim scuze pentru problemele temporare."
+
+msgid "questsPage/errorScreen/heading"
+msgstr "Eroare la încărcarea datelor"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "Revendică recompensa"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "La auto-căutarea de clan"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "Alătură-te unui clan pentru a finaliza misiuni și a obține o recompensă."
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "Progresul misiunii e suspendat. Revendică recompensa pentru a continua: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "MISIUNILE TURULUI"
+
+msgid "questsPage/header/subheading"
+msgstr "Finalizează misiuni și obține recompense. Misiuni 2 și 3 pot fi finalizate doar în pluton sau detașament cu un coleg de clan."
+
+msgid "questsPage/loading"
+msgstr "Se iniţializează..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "Obține minim {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} EXP de bază în lupte în pluton sau câștigă în detașament cu vehicule de generațiile VIII-XI."
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "Obține minim {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} EXP de bază în lupte sau câștigă în detașament cu vehicule de generațiile VIII-XI."
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "Distruge minim {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} vehicule inamice în lupte în pluton sau câștigă în detașament cu vehicule de generațiile VIII-XI."
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "Distruge minim {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} vehicule inamice în lupte sau câștigă în detașament cu vehicule de generațiile VI-XI."
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "Provoacă sau asistă la minim {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} HP de daune în lupte în pluton sau câștigă în detașament cu vehicule de generațiile VIII-XI."
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "Provoacă sau asistă la minim {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} HP de daune în lupte sau câștigă în detașament cu vehicule de generațiile VI-XI."
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "Resurse industriale"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "Punctele datoriei"
+
+msgid "questsPage/questCard/status/available"
+msgstr "Poți revendica recompensa"
+
+msgid "questsPage/questCard/status/completed"
+msgstr "Recompensă primită"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "Indisponibil"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "Recompensa va fi în curând adăugată în contul tău."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "Revendică recompense pentru finalizarea de misiuni anterioare."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "Finalizează misiunea anterioară."
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "Misiune indisponibilă"
+
+msgid "questsPage/timer/dash"
+msgstr "—"
+
+msgid "questsPage/timer/heading"
+msgstr "Timp rămas pentru a strânge Puncte ale datoriei"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "Prin finalizarea de misiuni obții Puncte ale datoriei care sunt necesare pentru explorarea de regiuni noi."
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "Punctele datoriei"
+
+msgid "rewardsView/additionalRewards"
+msgstr "Ai mai primit:"
+
+msgid "rewardsView/button/close"
+msgstr "ÎNCHIDE"
+
+msgid "rewardsView/button/confirm"
+msgstr "Recepționat!"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "Vezi în Garaj"
+
+msgid "rewardsView/heading"
+msgstr "RECOMPENSE PRIMITE"
+
+msgid "rewardsView/style/317"
+msgstr "Stilul 2D „Flacără”"
+
+msgid "rewardsView/style/345"
+msgstr "Stilul 2D „Profeție”"
+
+msgid "rewardsView/style/435"
+msgstr "Stilul 2D „Răzbunare”"
+
+msgid "rewardsView/style/436"
+msgstr "Stilul 2D „Reaper”"
+
+msgid "rewardsView/subheading"
+msgstr "TURUL DATORIEI"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Progresul Turului datoriei"
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "Progresul misiunilor Turului"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Turul datoriei"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "Misiunile Turului"

@@ -1,0 +1,689 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CSAnimation/applyBtn/label"
+msgstr "Értettem!"
+
+msgid "CSAnimation/description"
+msgstr "Gratulálunk! Csapatod bejutott a következő divízióba. Így tovább!"
+
+msgid "CSAnimation/header"
+msgstr "Divízió váltás"
+
+msgid "InvitesAndRequestsWindow/accepted"
+msgstr "Elfogadva"
+
+msgid "InvitesAndRequestsWindow/cancelled"
+msgstr "Megszakítva"
+
+msgid "InvitesAndRequestsWindow/officerDescription"
+msgstr "Csapattagok—egy manuálisan létrehozott csapat barátokból és megfelelő játékosokból."
+
+msgid "InvitesAndRequestsWindow/onlyInvitesCheckbox"
+msgstr "Csak az elküldött meghívások megjelenítése"
+
+msgid "InvitesAndRequestsWindow/ownerDescription"
+msgstr "Csapattagok—egy manuálisan létrehozott csapat barátokból és megfelelő játékosokból."
+
+msgid "InvitesAndRequestsWindow/playerName"
+msgstr "Játékos"
+
+msgid "InvitesAndRequestsWindow/rejected"
+msgstr "Visszautasítva"
+
+msgid "InvitesAndRequestsWindow/status"
+msgstr "Státusz"
+
+msgid "InvitesAndRequestsWindow/title"
+msgstr "Meghívók elküldve és jelentkezések benyújtva"
+
+msgid "InvitesAndRequestsWindow/windowTitle"
+msgstr "Jelentkezések és meghívások"
+
+msgid "StaticFormationStatsView/seasonFilter"
+msgstr "Statisztikák erről:"
+
+msgid "TextLoading/loading"
+msgstr "Töltés"
+
+msgid "button/chooseVehicles/info/tooltip/description/notSelected"
+msgstr "Nincs jármű kiválasztva. Az automata keresést nem lehet elindítani."
+
+msgid "button/chooseVehicles/info/tooltip/description/notValid"
+msgstr "A kiválasztott jármű nem áll készen. Az automata keresést nem lehet elindítani."
+
+msgid "button/chooseVehicles/info/tooltip/description/valid"
+msgstr "A szükséges járművek kiválasztva. Elindíthatod az automata keresést."
+
+msgid "button/chooseVehicles/info/tooltip/title"
+msgstr "Jármű választás"
+
+msgid "button/chooseVehicles/selected"
+msgstr "Kiválasztott járművek"
+
+msgid "button/medallion/addSlotSettings"
+msgstr "Hozzáadás"
+
+msgid "button/medallion/availableQuantity"
+msgstr "Alkalmas:"
+
+msgid "button/medallion/chooseVehicle"
+msgstr "Válassz járművet"
+
+msgid "introView/leftBlock/btnLabel"
+msgstr "Keresés"
+
+msgid "introView/leftBlock/descr"
+msgstr "Válassz egy megfelelő csapatot a listáról. Meg kell felelned a parancsnok elvárásainak."
+
+msgid "introView/leftBlock/header"
+msgstr "Csapat keresése"
+
+msgid "introView/rightBlock/btnLabel"
+msgstr "Létrehozás"
+
+msgid "introView/rightBlock/descr"
+msgstr "Hozz létre egy csapatot barátaidból vagy olyan játékosokból, akiknek van megfelelő járművük."
+
+msgid "introView/rightBlock/header"
+msgstr "Csapat létrehozása"
+
+msgid "rallyInfo/profileBtn/Label"
+msgstr "Csapat profil"
+
+msgid "respawn/chatHeader"
+msgstr "Chat csatorna"
+
+msgid "respawn/enemyTeamStatus/Header"
+msgstr "Ellenséges csapat:"
+
+msgid "respawn/enemyTeamStatus/notReady"
+msgstr "Nincs kész"
+
+msgid "respawn/enemyTeamStatus/ready"
+msgstr "Kész!"
+
+msgid "respawn/fight/label"
+msgstr "A csapat készen áll!"
+
+msgid "respawn/fight/status/commander"
+msgstr "A csapat kész státuszának megerősítése."
+
+msgid "respawn/fight/status/private"
+msgstr "Várakozás a csatára…"
+
+msgid "respawn/status/info"
+msgstr "Válassz egy járművet a rendelkezésre álló idő alatt."
+
+msgid "respawn/status/ready"
+msgstr "Várj, amíg a csata elkezdődik..."
+
+msgid "respawn/status/warning"
+msgstr "Kész státusz megerősítése."
+
+msgid "respawn/team/points"
+msgstr "A járművek összesített szintje:"
+
+msgid "respawn/team/teamMembers"
+msgstr "Csapattagok: %(current)s / %(max)s"
+
+msgid "respawn/team/teamVehiclesStub"
+msgstr "Járművek: VI–VIII"
+
+msgid "selectedFormation/JoinUnitSection/header"
+msgstr "Kiválasztott csata szoba"
+
+msgid "squadWindow/waitingForBattle"
+msgstr "A Szakasz sorban áll a csatához"
+
+msgid "unitView/header"
+msgstr "Csata szoba"
+
+msgid "window/autoSearch/confirmation/cancelLbl"
+msgstr "Mégse"
+
+msgid "window/autoSearch/confirmation/ctxMessage"
+msgstr "Megerősítésre fennmaradó idő:"
+
+msgid "window/autoSearch/confirmation/ctxSeconds"
+msgstr "mp"
+
+msgid "window/autoSearch/confirmation/headerText"
+msgstr "Talált csapatok"
+
+msgid "window/autoSearch/confirmation/mainText"
+msgstr "Készenlét megerősítése"
+
+msgid "window/autoSearch/confirmation/submitlLbl"
+msgstr "Kész!"
+
+msgid "window/autoSearch/errorState/cancelLbl"
+msgstr "Mégse"
+
+msgid "window/autoSearch/errorState/ctxMessage"
+msgstr "Új csapat keresése?"
+
+msgid "window/autoSearch/errorState/headerText"
+msgstr "Lejárt az időd"
+
+msgid "window/autoSearch/errorState/mainText"
+msgstr "Találtunk csapatot, \nde nem erősítetted meg, hogy készen állsz."
+
+msgid "window/autoSearch/errorState/submitlLbl"
+msgstr "Keresés"
+
+msgid "window/autoSearch/searchCommand/cancelLbl"
+msgstr "Mégse"
+
+msgid "window/autoSearch/searchCommand/ctxMessage"
+msgstr "Átlagos várakozási idő:"
+
+msgid "window/autoSearch/searchCommand/cxtDnmMessage"
+msgstr "%d perc"
+
+msgid "window/autoSearch/searchCommand/mainText"
+msgstr "Megfelelő csapat keresése"
+
+msgid "window/autoSearch/searchEnemy/mainText"
+msgstr "Várakozás a csatára…"
+
+msgid "window/autoSearch/searchEnemyRespawn/mainText"
+msgstr "Várakozás ellenfélre…"
+
+msgid "window/autoSearch/waitingPlayers/mainText"
+msgstr "Várakozás játékosokra..."
+
+msgid "window/backBtnLbl"
+msgstr "VISSZA"
+
+msgid "window/intro/auto/btn"
+msgstr "Autokeresés"
+
+msgid "window/intro/auto/btn/tooltip/description/disabled"
+msgstr "Nem sikerült csapatot találni. A járművek nincsenek kiválasztva vagy nem állnak készen a csatára."
+
+msgid "window/intro/auto/btn/tooltip/description/enabled"
+msgstr "Kattints az automata kereséshez és az azonnali kezdéshez."
+
+msgid "window/intro/auto/btn/tooltip/title"
+msgstr "Autokeresés"
+
+msgid "window/intro/auto/btnLbl"
+msgstr "Aut. keresés indítása"
+
+msgid "window/intro/auto/description"
+msgstr "A csapatot automatikusan összesorsoljuk egy ellenféllel."
+
+msgid "window/intro/auto/title"
+msgstr "Autokeresés értékelés alapján"
+
+msgid "window/intro/auto/vehicleLbl"
+msgstr "Kiválasztott járművek:"
+
+msgid "window/intro/create/btn/addPlayers"
+msgstr "Meghívás"
+
+msgid "window/intro/create/btn/assembleTeam"
+msgstr "Csapat összeállítása"
+
+msgid "window/intro/create/btn/joinTeam"
+msgstr "Csatlakozás"
+
+msgid "window/intro/create/btn/look"
+msgstr "Csapatok listája"
+
+msgid "window/intro/create/btn/private/seeStaff"
+msgstr "Csapat tagok"
+
+msgid "window/intro/description"
+msgstr "A résztvevők egyenrangú csapatok, 7 játékossal.\nJárművek szintkorlátozása: VI-VIII. A csapat járműveinek összesített szintje 54."
+
+msgid "window/intro/search/btn"
+msgstr "Keresés"
+
+msgid "window/intro/search/description"
+msgstr "Válassz egy megfelelő csapatot a listáról. Meg kell felelned a parancsnok elvárásainak."
+
+msgid "window/intro/search/title"
+msgstr "Csapat keresése"
+
+msgid "window/intro/team/description/createBattleRoom"
+msgstr "Csata szoba létrehozása"
+
+msgid "window/intro/title"
+msgstr "Csapat csata"
+
+msgid "window/intro/unavailableWaiting"
+msgstr "Várakozás…"
+
+msgid "window/rosterSlotSettings/bottomResult"
+msgstr "Kiválasztva:"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/range"
+msgstr "Tartomány"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/vehicle"
+msgstr "Járművek"
+
+msgid "window/rosterSlotSettings/title"
+msgstr "Feltételek beállítása"
+
+msgid "window/rosterSlotSettings/vehicleTab/cancelBtn"
+msgstr "Mégse"
+
+msgid "window/rosterSlotSettings/vehicleTab/headerText"
+msgstr "Határozd meg a feltételeket a csapattársad járműveire."
+
+msgid "window/rosterSlotSettings/vehicleTab/nationFieldSet"
+msgstr "Nemzet"
+
+msgid "window/rosterSlotSettings/vehicleTab/submitBtn"
+msgstr "Kiválaszt"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleLevel"
+msgstr "Szint"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleType"
+msgstr "Jármű típus"
+
+msgid "window/staticRallyInfo/cancelBtnLabel"
+msgstr "Visszavon"
+
+msgid "window/staticRallyInfo/joinBtnLabel"
+msgstr "Jelentkezés elküldése"
+
+msgid "window/staticRallyInfo/joinInfo/alreadyJoined"
+msgstr "Már tagja vagy egy csapatnak."
+
+msgid "window/staticRallyInfo/joinInfo/applicationCooldown"
+msgstr "Jelentkezés küldése nem lehetséges."
+
+msgid "window/staticRallyInfo/joinInfo/inProcess"
+msgstr "Jelentkezés jóváhagyásra vár"
+
+msgid "window/staticRallyInfo/joinInfo/inProcessOther"
+msgstr "Már elküldted a jelentkezésedet."
+
+msgid "window/staticRallyInfo/joinInfo/join"
+msgstr "Jelentkezés elküldése"
+
+msgid "window/staticRallyInfo/ladderInfo"
+msgstr "Ladder %(league)s. Divízió %(division)s."
+
+msgid "window/staticRallyInfo/noAwards"
+msgstr "Nincsenek jutalmak"
+
+msgid "window/staticRallyInfo/noRallySelected"
+msgstr "Válassz egy csapatot a bal oldalon látható listáról\na részletes leírás megtekintéséhez."
+
+msgid "window/staticRallyInfo/staticRally/statsWinsPercent"
+msgstr "Győzelmek"
+
+msgid "window/staticRallyInfo/statsBattlesCount"
+msgstr "Csaták"
+
+msgid "window/title"
+msgstr "Csapat csata"
+
+msgid "window/unit/applySlotsSettings"
+msgstr "Elfogad"
+
+msgid "window/unit/autoRecruit"
+msgstr "Tagok toborzása"
+
+msgid "window/unit/cancelSlotSettings"
+msgstr "Mégse"
+
+msgid "window/unit/candidates"
+msgstr "Jelentkezők"
+
+msgid "window/unit/candidates/legionaries"
+msgstr "Légiósok"
+
+msgid "window/unit/candidates/team"
+msgstr "Csapat"
+
+msgid "window/unit/chat"
+msgstr "Chat csatorna"
+
+msgid "window/unit/closeRoom"
+msgstr "— Szoba látszik"
+
+msgid "window/unit/description"
+msgstr "A résztvevők egyenrangú csapatok, 7 játékossal.\nJárművek szint korlátozása: VI-VIII. 54-nek kell lennie a járművek össz. szintje a csapatban."
+
+msgid "window/unit/descriptionDefault"
+msgstr "Leírás hozzáadása —"
+
+msgid "window/unit/fight"
+msgstr "Csata!"
+
+msgid "window/unit/inviteFriend"
+msgstr "Játékosok meghívása"
+
+msgid "window/unit/leave"
+msgstr "Szoba elhagyása"
+
+msgid "window/unit/lockSlot"
+msgstr "Hely zárolása"
+
+msgid "window/unit/message/candidate"
+msgstr "A parancsnok fog hozzáadni a csapathoz."
+
+msgid "window/unit/message/curfew"
+msgstr "Tűzszünet"
+
+msgid "window/unit/message/falloutGroupNotReady"
+msgstr "Az egyik járműved nem áll készen a csatára"
+
+msgid "window/unit/message/falloutLevel"
+msgstr "Legalább egy %(level)s szintű járműre van szükség"
+
+msgid "window/unit/message/falloutMin/levelRange"
+msgstr "%(level)s szintű járművek hozzáadása a csoporthoz"
+
+msgid "window/unit/message/falloutMin/requiredLevel"
+msgstr "Válassz egy %(level)s szintű járművet"
+
+msgid "window/unit/message/fortificationNotAvailable"
+msgstr "Az Erőd: Csaták játékmód átmenetileg nem elérhető"
+
+msgid "window/unit/message/getNotReady"
+msgstr "Kattints, hogy jelezd, nem állsz készen"
+
+msgid "window/unit/message/getReady"
+msgstr "Erősítsd meg, hogy készen állsz a csatára."
+
+msgid "window/unit/message/has_frozen_vehicles"
+msgstr "Az osztagnak van egy kilőtt járműve"
+
+msgid "window/unit/message/in_players_matching"
+msgstr "Az osztag készen áll: légiósok automata összeállítása…"
+
+msgid "window/unit/message/inactivePeriphery"
+msgstr " "
+
+msgid "window/unit/message/inactivePeripheryBattle"
+msgstr "Az előrenyomulás kezdete előtt 10 perccel tudod jelezni, hogy készen állsz a csatára"
+
+msgid "window/unit/message/inactivePeripherySortie"
+msgstr "Az csatározás kezdete előtt 10 perccel tudod jelezni, hogy készen állsz a csatára"
+
+msgid "window/unit/message/invalidLevelError/6"
+msgstr "1-nél nem lehet több VI-os szintű jármű a csapatban."
+
+msgid "window/unit/message/invalidLevelError/6_7"
+msgstr "VI-os és VII-es szintű jármű nem lehet ugyanabban a csapatban."
+
+msgid "window/unit/message/invalidLevelError/7"
+msgstr "Csak 2 VII-es szintű jármű lehet egy csapatban."
+
+msgid "window/unit/message/invalidLevelError/unresolved"
+msgstr "A szükséges jármű szint nincs meg."
+
+msgid "window/unit/message/level"
+msgstr "A járművek össz. szintje nem elegendő.\nSzükséges: %(level)d"
+
+msgid "window/unit/message/maintenance"
+msgstr "A mód átmenetileg nem elérhető"
+
+msgid "window/unit/message/minSlots"
+msgstr "Nem teljes"
+
+msgid "window/unit/message/play_limits_is_active"
+msgstr "Túllépted az időkorlátot. Nem léphetsz be új csatába."
+
+msgid "window/unit/message/previewVehicleIsPresent"
+msgstr "Térj vissza a Garázsba egy jármű kiválasztásához"
+
+msgid "window/unit/message/ready"
+msgstr "Az osztag készen áll: ellenfél keresése…"
+
+msgid "window/unit/message/squadInBattle"
+msgstr "Szakasz a csatában"
+
+msgid "window/unit/message/takeSlotInRoster"
+msgstr "Csatlakozás az osztaghoz"
+
+msgid "window/unit/message/unitIsFull"
+msgstr "A parancsnok fog hozzáadni a csapathoz."
+
+msgid "window/unit/message/unitIsLocked"
+msgstr "Nem vagy csapatban. Helyek befagyasztva."
+
+msgid "window/unit/message/vehicleInNotReady/broken"
+msgstr "A jármű nem áll készen a harcra: javítás szükséges."
+
+msgid "window/unit/message/vehicleInNotReady/crewNotFull"
+msgstr "A jármű nem áll készen a harcra: a legénység hiányos."
+
+msgid "window/unit/message/vehicleInNotReady/isInBattle"
+msgstr "Jármű csatában"
+
+msgid "window/unit/message/vehicleInNotReady/notEnoughVehicles"
+msgstr "Nincs elegendő megfelelő jármű"
+
+msgid "window/unit/message/vehicleInNotReady/rentIsOver"
+msgstr "A jármű nem áll készen a harcra: a bérleti idő letelt."
+
+msgid "window/unit/message/vehicleInNotReady/rotationGroupLocked"
+msgstr "A jármű nem áll készen: %(groupNum)s csoport zárolva."
+
+msgid "window/unit/message/vehicleInNotReady/wrongMode"
+msgstr "A választott jármű nem alkalmas ehhez a csata módhoz."
+
+msgid "window/unit/message/vehicleInNotReady/wrongUnitData"
+msgstr "A kiválasztott jármű nem felel meg a szakaszparancsnok paramétereinek"
+
+msgid "window/unit/message/vehicleNotSelected"
+msgstr "Válassz egy járművet a csatához."
+
+msgid "window/unit/message/vehicleNotValid"
+msgstr "A jármű nem áll készen a csatára."
+
+msgid "window/unit/message/vehicleNotValidForEvent"
+msgstr "A kiválasztott jármű nem alkalmas erre az eseményre"
+
+msgid "window/unit/message/waitCommander"
+msgstr "Várakozás a parancsnok döntésére…"
+
+msgid "window/unit/message/waiting"
+msgstr "Várakozás, a többi játékosra..."
+
+msgid "window/unit/notReady"
+msgstr "Nincs kész"
+
+msgid "window/unit/openRoom"
+msgstr "— Szoba rejtve"
+
+msgid "window/unit/rangeValue"
+msgstr "%(minVal)s – %(maxVal)s"
+
+msgid "window/unit/ready"
+msgstr "Kész!"
+
+msgid "window/unit/rosterSettingsView/or"
+msgstr "vagy"
+
+msgid "window/unit/slot/battleRoyale"
+msgstr "Még egy játékos szükséges"
+
+msgid "window/unit/slot/emptySlot"
+msgstr "Üres"
+
+msgid "window/unit/slot/freezed"
+msgstr "Rögzítve"
+
+msgid "window/unit/slot/locked"
+msgstr "Zárolt"
+
+msgid "window/unit/slot/notAllowed"
+msgstr "Zárolt"
+
+msgid "window/unit/slot/notAvailable"
+msgstr "Zárolt"
+
+msgid "window/unit/slot/required"
+msgstr "Játékosok meghívása."
+
+msgid "window/unit/slot/takePlace"
+msgstr "Férőhely elfoglalása"
+
+msgid "window/unit/slotHeaderText"
+msgstr "Feltételek beállítása"
+
+msgid "window/unit/slotSecondText"
+msgstr "Követelmények megadása, melyek megmutatják, milyen járműveket látnál szívesen a csapatodban. Ha hozzáadsz egy játékost a csapathoz, a követelmények nem számítanak."
+
+msgid "window/unit/team"
+msgstr "Csapat tagok"
+
+msgid "window/unit/teamMembers"
+msgstr "Csapattagok: %(current)s / %(max)s"
+
+msgid "window/unit/teamPoints"
+msgstr "A járművek összesített szintje:"
+
+msgid "window/unit/teamVehicles"
+msgstr "Járművek:"
+
+msgid "window/unit/teamVehiclesLbl"
+msgstr "Járművek: %(levelsRange)s"
+
+msgid "window/unit/teamVehiclesStub"
+msgstr "Járművek: VI–VIII"
+
+msgid "window/unit/unitListView/captain"
+msgstr "Csapatparancsnok"
+
+msgid "window/unit/unitListView/clubName"
+msgstr "Csapat neve"
+
+msgid "window/unit/unitListView/commander"
+msgstr "Parancsnok"
+
+msgid "window/unit/unitListView/description"
+msgstr "Leírás"
+
+msgid "window/unit/unitListView/paginationDown"
+msgstr "Gyengébb"
+
+msgid "window/unit/unitListView/paginationUp"
+msgstr "Erősebb"
+
+msgid "window/unit/unitListView/players"
+msgstr "Összeállítás"
+
+msgid "window/unit/unitName"
+msgstr "Csapat %(commanderName)s"
+
+msgid "window/unit/unlockSlot"
+msgstr "Hely kinyitása"
+
+msgid "window/unitListView/create/btn"
+msgstr "Szoba létrehozása"
+
+msgid "window/unitListView/enterBtn/common"
+msgstr "Önkéntes"
+
+msgid "window/unitListView/enterBtn/legionary"
+msgstr "Csatlakozás"
+
+msgid "window/unitListView/enterBtn/member"
+msgstr "Csatlakozás"
+
+msgid "window/unitListView/enterText/legionary"
+msgstr "Csatlakozás légiósként"
+
+msgid "window/unitListView/enterText/member"
+msgstr "Csatlakozás a csapathoz"
+
+msgid "window/unitListView/foundTeamsDescription"
+msgstr "Az alul látható csapatok játékosokat keresnek az üres helyekre."
+
+msgid "window/unitListView/noItems"
+msgstr "Nem találtunk csapatokat"
+
+msgid "window/unitListView/noSearchResults/btn"
+msgstr "Vissza a listához"
+
+msgid "window/unitListView/noSearchResults/description"
+msgstr "Nem találtunk ilyen nevű csapatot."
+
+msgid "window/unitListView/noSearchResults/header"
+msgstr "Nincs találat a keresésre"
+
+msgid "window/unitListView/noTeams/description"
+msgstr "Jelenleg nem található olyan csapat, amely megfelel a keresési feltételeknek. Próbál újra később."
+
+msgid "window/unitListView/noTeams/header"
+msgstr "Nem találtunk csapatokat"
+
+msgid "window/unitListView/noUnitSelected"
+msgstr "Válassz egy csapatot a bal oldalon látható listáról\na részletes leírás megtekintéséhez."
+
+msgid "window/unitListView/refreshList"
+msgstr "Lista frissítése"
+
+msgid "window/unitListView/renderer/next"
+msgstr "Következő"
+
+msgid "window/unitListView/renderer/previous"
+msgstr "Előző"
+
+msgid "window/unitListView/renderer/requiredVehicles"
+msgstr "Alkalmas járművek"
+
+msgid "window/unitListView/renderer/showMore"
+msgstr "További 20"
+
+msgid "window/unitListView/selectedTeam"
+msgstr "Csapat"
+
+msgid "window/unitListView/sort/label"
+msgstr "Értékelés:"
+
+msgid "window/unitListView/team"
+msgstr "Összeállítás"
+
+msgid "window/unitListView/teamDescription"
+msgstr "Csapat leírás"
+
+msgid "window/unitListView/title"
+msgstr "Csata szobák"
+
+msgid "window/unitListView/vehicles"
+msgstr "Járművek"
+
+msgid "window/vehicleSelector/buttons/cancel"
+msgstr "Mégse"
+
+msgid "window/vehicleSelector/buttons/select"
+msgstr "Kiválaszt"
+
+msgid "window/vehicleSelector/filters/all"
+msgstr "Mind"
+
+msgid "window/vehicleSelector/filters/allLevels"
+msgstr "Összes szint"
+
+msgid "window/vehicleSelector/filters/level"
+msgstr "%(levelNum)d szint"
+
+msgid "window/vehicleSelector/filters/matches"
+msgstr "Csak a megfelelő járműveket mutassa"
+
+msgid "window/vehicleSelector/info/intro"
+msgstr "Be fogsz lépni a csatába a kiválasztott járművek egyikével. Megengedett szint: VI–VIII.\n\nA kényelmes játékért válassz könnyű, közepes vagy nehéz tankot."
+
+msgid "window/vehicleSelector/info/respawn"
+msgstr "Válassz egy VI-VIII szintű járművet, amellyel csatázni szeretnél."
+
+msgid "window/vehicleSelector/info/search"
+msgstr "Csatlakozol a csatához a kiválasztott tankok egyikével. Megengedett szint: VI-VIII."
+
+msgid "window/vehicleSelector/info/unit"
+msgstr "Válassz egy VI-VIII szintű járművet, amellyel csatázni szeretnél."
+
+msgid "window/vehicleSelector/title"
+msgstr "Jármű választás"

@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "Értettem!"
+
+msgid "awardsView/subTitle"
+msgstr "MEGVÍVOTT CSATÁK: {number}"
+
+msgid "awardsView/title"
+msgstr "FELDERÍTŐ KÜLDETÉS"
+
+msgid "buttonDisable/tooltip"
+msgstr "Nem elérhető"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Időbeosztás"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "Nem lehet belépni a csatába"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "A csaták véget értek"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "Nem lehet belépni a csatába"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "Tűzszünet van érvényben ezen a szerveren. Kérlek, válassz egy másik szervert."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "Csak %(levelSubStr)s léphetsz be a csatába."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "Nem kompatibilis jármű szint"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "%(levels)s. szintű járművel"
+
+msgid "intro/button"
+msgstr "Értettem!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "Visszajelzéseid segítenek nekünk a harcmezők tökéletesítésében. Oszd meg gondolataidat az új pályamechanikákkal kapcsolatban, és a legjobb ötleteket bevezetjük a játékba."
+
+msgid "intro/interviewInfoTitle"
+msgstr "Fontos visszajelzés"
+
+msgid "intro/modeInfoDescription"
+msgstr "Csatázz VIII-X-es szintű járművekkel új mechanikájú pályákon, töltsd ki a kérdőíveket, és szerezz jutalmakat. Egy hét múlva az előrehaladást visszaállítjuk, és újra elkezdheted a jutalmak gyűjtését."
+
+msgid "intro/modeInfoTitle"
+msgstr "Segíts nekünk új mechanikák kifejlesztésében!"
+
+msgid "intro/startEvent"
+msgstr "Esemény kezdődik: "
+
+msgid "intro/taskInfoDescription"
+msgstr "Felderítő küldetésben csatázva teljesítheted a napi és Battle Pass küldetéseket és a progresszív matricák feltételeit."
+
+msgid "intro/taskInfoTitle"
+msgstr "Csatázz normál csata szabályai szerint"
+
+msgid "intro/time/period/day"
+msgstr "{day} n"
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} n {hours} ó"
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} ó {min} perc"
+
+msgid "intro/time/period/minute"
+msgstr "{min} perc"
+
+msgid "intro/title"
+msgstr "FELDERÍTŐ KÜLDETÉS"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s nem harcolhat felderítő küldetésben."
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "Nem kompatibilis jármű típus"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "Válassz ki egy %(levelSubStr)svet a felderítő küldetésben való részvételhez."
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "Nem kompatibilis jármű szint"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "%(levels)s szintű jármű"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s nem harcolhat felderítő küldetésben."
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "Nem kompatibilis jármű"
+
+msgid "mapboxTab"
+msgstr "Felderítő küldetés"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "A szakasz a(z) %(server)s szerveren befejeződött"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "%(server)s szerveren \na csaták elérhetőek lesznek további %(time)s-ig"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "%(server)s szerveren \na csaták elérhetőek lesznek %(time)s belül"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Tűzszünet van érvényben minden szerveren"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Ez a játékmód nem érhető el a(z) %(server)s szerveren"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "A csaták a(z) %(server)s szerveren további %(time)s-ig lesznek elérhetőek"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "A(z) %(server)s szerveren %(time)s múlva kezdődnek a csaták"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "Nem elérhetőek a csaták ebben a módban: a szezon befejeződött."
+
+msgid "primeTimeView/status/untill"
+msgstr "Tűzszünet van érvényben a(z) %(server)s szerveren %(startTime)s időpontig"
+
+msgid "primeTimeView/title"
+msgstr "FELDERÍTŐ KÜLDETÉS"
+
+msgid "primeTimes/availableServer"
+msgstr "Elérhető szerver:"
+
+msgid "primeTimes/availableServers"
+msgstr "Elérhető szerverek:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "A csaták véget értek"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Ez a játékmód nem érhető el ezen a szerveren: %(serverName)s"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "Harcolj csatákban"
+
+msgid "progression/cardTitle/rating"
+msgstr "Legyél a legjobb {rating} játékos között a szerzett XP alapján"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "Legyél a legjobb {rating} játékos között a szerzett XP alapján egy tűzmechanikával ellátott pályán"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "Legyél a legjobb {rating} játékos között a szerzett XP alapján egy ködmechanikával ellátott pályán"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "Legyél a legjobb {rating} játékos között a szerzett XP alapján egy zivatarmechanikával ellátott pályán"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "Legyél a legjobb {rating} játékos között a szerzett XP alapján egy homokvihar-mechanikával ellátott pályán"
+
+msgid "progression/changeAnswer"
+msgstr "Válasz módosítása"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Csatázz VIII-X-es szintű járművekkel új mechanikájú pályákon, töltsd ki a kérdőíveket, és szerezz jutalmakat."
+
+msgid "progression/info/restart"
+msgstr "A jutalmakkal kapcsolatos előrehaladás visszaállításáig hátravan: %(leftTime)s"
+
+msgid "progression/info/title"
+msgstr "Legyél a legjobb %(rating) játékos között a szerzett XP alapján: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "ESEMÉNY RÉSZLETEI"
+
+msgid "progression/map_01_karelia"
+msgstr "KARELIA"
+
+msgid "progression/map_02_malinovka"
+msgstr "MALINOVKA"
+
+msgid "progression/map_05_prohorovka"
+msgstr "PROKHOROVKA"
+
+msgid "progression/map_18_cliff"
+msgstr "WESTFIELD"
+
+msgid "progression/map_all"
+msgstr "JÁTÉKMECHANIKÁK"
+
+msgid "progression/map_fire"
+msgstr "TŰZ"
+
+msgid "progression/map_fog"
+msgstr "KÖD"
+
+msgid "progression/map_heavy_rain"
+msgstr "ZIVATAR"
+
+msgid "progression/map_sandstorm"
+msgstr "HOMOKVIHAR"
+
+msgid "progression/redirect"
+msgstr "Tovább a játékmódra"
+
+msgid "progression/startInterview"
+msgstr "Kérdőív kitöltése"
+
+msgid "progression/startInterviewTooltip"
+msgstr "Teljesítsd a fenti feltételt a kérdőív kitöltéséhez."
+
+msgid "progression/startSpecialInterview"
+msgstr "A kérdőív kitöltése"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "Teljesítsd a fenti feltételt a kérdőív kitöltéséhez."
+
+msgid "progression/subtitle"
+msgstr "Itt kitölthetsz egy kérdőívet az új mechanikákról"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s n"
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s ó %(min)s perc"
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 perc"
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s perc"
+
+msgid "progression/title"
+msgstr "FELDERÍTŐ KÜLDETÉS"
+
+msgid "progressionError/description/line1"
+msgstr "Elmentettük az előrehaladásod. Folytathatod a játékot."
+
+msgid "progressionError/description/line2"
+msgstr "Láthatod az előrehaladásod és nemsokára kitöltheted a kérdőívet."
+
+msgid "progressionError/title"
+msgstr "Felderítő küldetés részletei átmenetileg nem elérhetőek"
+
+msgid "questFlag/complete"
+msgstr "Minden jutalom megszerezve"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "Harcolj %(highlightedText)s, töltsd ki a kérdőívet, és szerezz jutalmakat!"
+
+msgid "questFlag/frozen/header"
+msgstr "Felderítő küldetés nem elérhető"
+
+msgid "questFlag/frozen/text"
+msgstr "Felderítő küldetés csatái átmenetileg technikai okok miatt nem elérhetőek."
+
+msgid "questFlag/highlightedText"
+msgstr "VIII-X-es szintű járművekkel új mechanikájú pályákon"
+
+msgid "questFlag/incomplete"
+msgstr "A következő jutalomhoz szükséges csaták: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "Megvívott csaták:"
+
+msgid "questFlag/surveysTitle"
+msgstr "Kitöltött kérdőívek: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "Az új mechanikájú pályák felfedezése ekkor kezdődik: %(day)s"
+
+msgid "selector/tooltip/body"
+msgstr "Az új mechanikájú pályák felfedezése eddig tart: %(day)s"
+
+msgid "selector/tooltip/title"
+msgstr "Időbeosztás"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Szezon véget ér:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Csata beosztás"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Ma"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Holnap"
+
+msgid "serverAlertMessage/button"
+msgstr "Válassz másik szervert"
+
+msgid "survey/backBtn"
+msgstr "Vissza"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "páncélvadászok"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "önjáró lövegek"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "nehéz tankok"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "könnyű tankok"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "közepes tankok"
+
+msgid "survey/fire/question/q1"
+msgstr "Élvezted a játékot a tűzmechanikával ellátott Murovanka pályán?"
+
+msgid "survey/fire/question/q2"
+msgstr "Mi a véleményed a Murovanka pályán látható tűz látványáról?"
+
+msgid "survey/fire/question/q3"
+msgstr "Szeretnél módosítani a tűz játékmenetre gyakorolt hatásán a Murovanka pályán?"
+
+msgid "survey/fire/question/q4"
+msgstr "Pontosan hogyan módosítanád a tűz játékmenetre gyakorolt hatását a Murovanka pályán?"
+
+msgid "survey/fire/question/q5"
+msgstr "Milyen típusú járművekkel játszottál a Murovanka pályán?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "Hogyan változott a játék a Murovanka pályán a következő járművekkel: {value}?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "Hogyan változott a játék a Murovanka pályán a következő járművekkel: {value}?"
+
+msgid "survey/fire/question/q7"
+msgstr "Szeretnéd látni a tűzmechanikát a Normál csaták pályáin?"
+
+msgid "survey/fire/question/q8"
+msgstr "Miért nem tetszett a tűzmechanika a Murovanka pályán?"
+
+msgid "survey/fire/question/q9"
+msgstr "Részletezd a szükséges fejlesztéseket."
+
+msgid "survey/fire/response/q1_1"
+msgstr "Igen, élveztem"
+
+msgid "survey/fire/response/q1_2"
+msgstr "Nem, nem élveztem"
+
+msgid "survey/fire/response/q1_3"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/fire/response/q2_1"
+msgstr "Tetszett"
+
+msgid "survey/fire/response/q2_2"
+msgstr "Jó volt"
+
+msgid "survey/fire/response/q2_3"
+msgstr "Nem tetszett"
+
+msgid "survey/fire/response/q2_4"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/fire/response/q3_1"
+msgstr "Igen, szeretném"
+
+msgid "survey/fire/response/q3_2"
+msgstr "Nem, nem szeretném"
+
+msgid "survey/fire/response/q3_3"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/fire/response/q4_1"
+msgstr "Erősíteném"
+
+msgid "survey/fire/response/q4_2"
+msgstr "Gyengíteném"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "Páncélvadászokkal"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "Önjáró lövegekkel"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "Nehéz tankokkal"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "Könnyű tankokkal"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "Közepes tankokkal"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "Nem emlékszem"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "Jobb lett"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "Rosszabb lett"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "Nem változott"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "Jobb lett"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "Rosszabb lett"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "Nem változott"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/fire/response/q7_1"
+msgstr "Igen, szeretném"
+
+msgid "survey/fire/response/q7_2"
+msgstr "Nem, nem szeretném"
+
+msgid "survey/fire/response/q7_3"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/fire/response/q8_1"
+msgstr "A tűz jelentősen csökkenti az elfoglalható pozíciók számát"
+
+msgid "survey/fire/response/q8_10"
+msgstr "Az egyik csapat előnybe kerül"
+
+msgid "survey/fire/response/q8_11"
+msgstr "Technikai problémák"
+
+msgid "survey/fire/response/q8_12"
+msgstr "Egyéb"
+
+msgid "survey/fire/response/q8_2"
+msgstr "A tűz túl sokat sebez"
+
+msgid "survey/fire/response/q8_3"
+msgstr "A zónán kívüli ellenfelek nem láthatják a járművemet, de én sem látom az övékét"
+
+msgid "survey/fire/response/q8_4"
+msgstr "A tűz helyzete a pályán"
+
+msgid "survey/fire/response/q8_5"
+msgstr "A tűz kinézete"
+
+msgid "survey/fire/response/q8_6"
+msgstr "Túl nagy hatással van a pálya játékmenetére"
+
+msgid "survey/fire/response/q8_7"
+msgstr "Nincs elég nagy hatással a pálya játékmenetére"
+
+msgid "survey/fire/response/q8_8"
+msgstr "A tűz látványa zavarja a harcot"
+
+msgid "survey/fire/response/q8_9"
+msgstr "A tűz közelharcra kényszeríti a játékosokat"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "páncélvadászok"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "önjáró lövegek"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "nehéz tankok"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "könnyű tankok"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "közepes tankok"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "páncélvadászok"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "önjáró lövegek"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "nehéz tankok"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "könnyű tankok"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "közepes tankok"
+
+msgid "survey/fog/question/q1"
+msgstr "Élvezted a játékot ezeken a ködmechanikával ellátott pályákon?"
+
+msgid "survey/fog/question/q10"
+msgstr "Szeretnéd látni a ködmechanikát a Normál csaták pályáin?"
+
+msgid "survey/fog/question/q11"
+msgstr "Miért nem tetszett a ködmechanika a Fjords pályán?"
+
+msgid "survey/fog/question/q12"
+msgstr "Miért nem tetszett a ködmechanika az Outpost pályán?"
+
+msgid "survey/fog/question/q13"
+msgstr "Részletezd a szükséges fejlesztéseket."
+
+msgid "survey/fog/question/q2"
+msgstr "Mi a véleményed a következő pályákon látható köd látványáról?"
+
+msgid "survey/fog/question/q3"
+msgstr "Szeretnéd módosítani a köd játékmenetre gyakorolt hatását a pályán?"
+
+msgid "survey/fog/question/q4"
+msgstr "Pontosan hogyan módosítanád a köd játékmenetre gyakorolt hatását a Fjords pályán?"
+
+msgid "survey/fog/question/q5"
+msgstr "Pontosan hogyan módosítanád a köd játékmenetre gyakorolt hatását az Outpost pályán?"
+
+msgid "survey/fog/question/q6"
+msgstr "Milyen típusú járművekkel játszottál a Fjords pályán?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "Hogyan változott a játék a Fjords pályán a következő járművekkel: {value}?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "Hogyan változott a játék a Fjords pályán a következő járművekkel: {value}?"
+
+msgid "survey/fog/question/q8"
+msgstr "Milyen típusú járművekkel játszottál az Outpost pályán?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "Hogyan változott a játék az Outpost pályán a következő járművekkel: {value}?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "Hogyan változott a játék az Outpost pályán a következő járművekkel: {value}?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "Igen, szeretném"
+
+msgid "survey/fog/response/q10_2"
+msgstr "Nem, nem szeretném"
+
+msgid "survey/fog/response/q10_3"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/fog/response/q11_1"
+msgstr "A zónán kívüli ellenfelek nem láthatják a járművemet, de én sem látom az övékét"
+
+msgid "survey/fog/response/q11_10"
+msgstr "Egyéb"
+
+msgid "survey/fog/response/q11_2"
+msgstr "A köd helyzete a pályán"
+
+msgid "survey/fog/response/q11_3"
+msgstr "A köd kinézete"
+
+msgid "survey/fog/response/q11_4"
+msgstr "Túl nagy hatással van a pálya játékmenetére"
+
+msgid "survey/fog/response/q11_5"
+msgstr "Nincs elég nagy hatással a pálya játékmenetére"
+
+msgid "survey/fog/response/q11_6"
+msgstr "A köd látványa zavarja a harcot"
+
+msgid "survey/fog/response/q11_7"
+msgstr "A köd közelharcra kényszeríti a játékosokat"
+
+msgid "survey/fog/response/q11_8"
+msgstr "Az egyik csapat előnybe kerül"
+
+msgid "survey/fog/response/q11_9"
+msgstr "Technikai problémák"
+
+msgid "survey/fog/response/q12_1"
+msgstr "A zónán kívüli ellenfelek nem láthatják a járművemet, de én sem látom az övékét"
+
+msgid "survey/fog/response/q12_10"
+msgstr "Egyéb"
+
+msgid "survey/fog/response/q12_2"
+msgstr "A köd helyzete a pályán"
+
+msgid "survey/fog/response/q12_3"
+msgstr "A köd kinézete"
+
+msgid "survey/fog/response/q12_4"
+msgstr "Túl nagy hatással van a pálya játékmenetére"
+
+msgid "survey/fog/response/q12_5"
+msgstr "Nincs elég nagy hatással a pálya játékmenetére"
+
+msgid "survey/fog/response/q12_6"
+msgstr "A köd látványa zavarja a harcot"
+
+msgid "survey/fog/response/q12_7"
+msgstr "A köd közelharcra kényszeríti a játékosokat"
+
+msgid "survey/fog/response/q12_8"
+msgstr "Az egyik csapat előnybe kerül"
+
+msgid "survey/fog/response/q12_9"
+msgstr "Technikai problémák"
+
+msgid "survey/fog/response/q1_1"
+msgstr "Igen, élveztem"
+
+msgid "survey/fog/response/q1_2"
+msgstr "Nem, nem élveztem"
+
+msgid "survey/fog/response/q1_3"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/fog/response/q2_1"
+msgstr "Tetszett"
+
+msgid "survey/fog/response/q2_2"
+msgstr "Jó volt"
+
+msgid "survey/fog/response/q2_3"
+msgstr "Nem tetszett"
+
+msgid "survey/fog/response/q2_4"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/fog/response/q3_1"
+msgstr "Igen, szeretném"
+
+msgid "survey/fog/response/q3_2"
+msgstr "Nem, nem szeretném"
+
+msgid "survey/fog/response/q3_3"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/fog/response/q4_1"
+msgstr "Erősíteném"
+
+msgid "survey/fog/response/q4_2"
+msgstr "Gyengíteném"
+
+msgid "survey/fog/response/q5_1"
+msgstr "Erősíteném"
+
+msgid "survey/fog/response/q5_2"
+msgstr "Gyengíteném"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "Páncélvadászokkal"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "Önjáró lövegekkel"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "Nehéz tankokkal"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "Könnyű tankokkal"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "Közepes tankokkal"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "Nem emlékszem"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "Jobb lett"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "Rosszabb lett"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "Nem változott"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "Jobb lett"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "Rosszabb lett"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "Nem változott"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "páncélvadászok"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "önjáró lövegek"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "nehéz tankok"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "könnyű tankok"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "közepes tankok"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "Nem emlékszem"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "Jobb lett"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "Rosszabb lett"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "Nem változott"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "Jobb lett"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "Rosszabb lett"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "Nem változott"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "páncélvadászok"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "önjáró lövegek"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "nehéz tankok"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "könnyű tankok"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "közepes tankok"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "páncélvadászok"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "önjáró lövegek"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "nehéz tankok"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "könnyű tankok"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "közepes tankok"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "Élvezted a játékot ezeken a zivatarmechanikával ellátott pályákon?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "Szeretnéd látni a zivatarmechanikát a Normál csaták pályáin?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "Miért nem tetszett a zivatarmechanika a Westfield pályán?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "Miért nem tetszett a zivatarmechanika a Fisherman's Bay pályán?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "Részletezd a szükséges fejlesztéseket."
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "Mi a véleményed a következő pályákon látható zivatar látványáról?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "Szeretnéd módosítani a zivatar játékmenetre gyakorolt hatását a pályán?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "Pontosan hogyan módosítanád a zivatar játékmenetre gyakorolt hatását a Westfield pályán?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "Pontosan hogyan módosítanád a zivatar játékmenetre gyakorolt hatását a Fisherman's Bay pályán?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "Milyen típusú járművekkel játszottál a Westfield pályán?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "Hogyan változott a játék a Westfield pályán a következő járművekkel: {value}?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "Hogyan változott a játék a Westfield pályán a következő járművekkel: {value}?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "Milyen típusú járművekkel játszottál a Fisherman's Bay pályán?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "Hogyan változott a játék a Fisherman's Bay pályán a következő járművekkel: {value}?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "Hogyan változott a játék a Fisherman's Bay pályán a következő járművekkel: {value}?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "Igen, szeretném"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "Nem, nem szeretném"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "Túlságosan csúszós a talaj a zivatarzónában"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "Technikai problémák"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "Egyéb"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "A zónán kívüli ellenfelek nem láthatják a járművemet, de én sem látom az övékét"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "A zivatar helyzete a pályán"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "A zivatar kinézete"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "Túl nagy hatással van a pálya játékmenetére"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "Nincs elég nagy hatással a pálya játékmenetére"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "A zivatar látványa zavarja a harcot"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "A zivatar közelharcra kényszeríti a játékosokat"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "Az egyik csapat előnybe kerül"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "Túlságosan csúszós a talaj a zivatarzónában"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "Technikai problémák"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "Egyéb"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "A zónán kívüli ellenfelek nem láthatják a járművemet, de én sem látom az övékét"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "A zivatar helyzete a pályán"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "A zivatar kinézete"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "Túl nagy hatással van a pálya játékmenetére"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "Nincs elég nagy hatással a pálya játékmenetére"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "A zivatar látványa zavarja a harcot"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "A zivatar közelharcra kényszeríti a játékosokat"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "Az egyik csapat előnybe kerül"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "Igen, élveztem"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "Nem, nem élveztem"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "Tetszett"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "Jó volt"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "Nem tetszett"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "Igen, szeretném"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "Nem, nem szeretném"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "Erősíteném"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "Gyengíteném"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "Erősíteném"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "Gyengíteném"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "Páncélvadászokkal"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "Önjáró lövegekkel"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "Nehéz tankokkal"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "Könnyű tankokkal"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "Közepes tankokkal"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "Nem emlékszem"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "Jobb lett"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "Rosszabb lett"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "Nem változott"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "Jobb lett"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "Rosszabb lett"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "Nem változott"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "Páncélvadászokkal"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "Önjáró lövegekkel"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "Nehéz tankokkal"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "Könnyű tankokkal"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "Közepes tankokkal"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "Nem emlékszem"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "Jobb lett"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "Rosszabb lett"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "Nem változott"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "Jobb lett"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "Rosszabb lett"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "Nem változott"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "Következő"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "Értettem!"
+
+msgid "survey/required"
+msgstr "A folytatáshoz válaszolj a kérdésre."
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "Páncélvadászokkal"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "Önjáró lövegekkel"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "Nehéz tankokkal"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "Könnyű tankokkal"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "Közepes tankokkal"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "Élvezted a játékot a homokvihar-mechanikával ellátott Sand River pályán?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "Mi a véleményed a Sand River pályán látható homokvihar látványáról?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "Szeretnéd módosítani a homokvihar játékmenetre gyakorolt hatását a Sand River pályán?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "Pontosan hogyan módosítanád a homokvihar játékmenetre gyakorolt hatását a Sand River pályán?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "Milyen típusú járművekkel játszottál a Sand River pályán?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "Hogyan változott a játék a Sand River pályán a következő járművekkel: {value}?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "Hogyan változott a játék a Sand River pályán a következő járművekkel: {value}?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "Szeretnéd látni a homokvihar-mechanikát a Normál csaták pályáin?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "Miért nem tetszett a homokvihar-mechanika a Sand River pályán?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "Részletezd a szükséges fejlesztéseket."
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "Igen, élveztem"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "Nem, nem élveztem"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "Tetszett"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "Jó volt"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "Nem tetszett"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "Igen, szeretném"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "Nem, nem szeretném"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "Erősíteném"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "Gyengíteném"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "Páncélvadászokkal"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "Önjáró lövegekkel"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "Nehéz tankokkal"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "Könnyű tankokkal"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "Közepes tankokkal"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "Nem emlékszem"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "Jobb lett"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "Rosszabb lett"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "Nem változott"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "Jobb lett"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "Rosszabb lett"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "Nem változott"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "Igen, szeretném"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "Nem, nem szeretném"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "Nem tudom biztosan"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "A zónán kívüli ellenfelek nem láthatják a járművemet, de én sem látom az övékét"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "Egyéb"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "A homokvihar helyzete a pályán"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "A homokvihar kinézete"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "Túl nagy hatással van a pálya játékmenetére"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "Nincs elég nagy hatással a pálya játékmenetére"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "A homokvihar látványa zavarja a harcot"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "A homokvihar közelharcra kényszeríti a játékosokat"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "Az egyik csapat előnybe kerül"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "Technikai problémák"
+
+msgid "survey/subTitle"
+msgstr "Köszönjük, hogy időt szánsz a kérdőív kitöltésére! Körülbelül két percet vesz igénybe. Válaszaid kizárólag a felmérés elvégzése céljából dolgozzuk fel, és minden személyes adatot az Adatvédelmi szabályzatunknak megfelelően törölünk."
+
+msgid "survey/template/final/title"
+msgstr "Köszönjük, hogy időt szakítottál a kérdőív kitöltésére!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "KATTINTS A TÉRKÉPRE A POZÍCIÓ KIVÁLASZTÁSÁHOZ"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "LEGFELJEBB HÁROM POZÍCIÓT VÁLASZTHATSZ KI A TÉRKÉPEN"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "Részletes leírás (legfeljebb %(maxLength)s karakter)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "Pozíció"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "Pozíció eltávolítása"
+
+msgid "survey/template/opened/description"
+msgstr "A probléma részletes leírása (legfeljebb %(maxLength)s karakter)"
+
+msgid "survey/title/common"
+msgstr "Kérjük, értékeld az új elemeket"
+
+msgid "survey/title/map"
+msgstr "A(z) %(map)s pálya értékelése"

@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Promjeni server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detalji"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Ovaj režim je nedostupan na serveru %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Režim je nedostupan na svim serverima"
+
+msgid "alertMessage/modeOffline"
+msgstr "Greška u bazi podataka. Režim igre nedostupan."
+
+msgid "alertMessage/noVehicles"
+msgstr "Nema prikladnih vozila u vašoj Garaži %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Razumijem!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "LAGANA NAVALA"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "ZAVRŠNA ETAPA ZAVRŠENA!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "ETAPA %(level)s ZAVRŠENA!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Svi zadaci izvršeni!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Završeno"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Istječe za: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Zadatak Lagane Navale"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Novi zadatak Lagane Navale za: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Nagrada:"
+msgstr[1] "Nagrade:"
+msgstr[2] "Nagrade:"
+
+msgid "battleResult/header/deserter"
+msgstr "Zaprimili ste kaznu"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "NAPREDAK LAGANE NAVALE"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Lagana Navala će trajati %(days)d dan"
+msgstr[1] "Lagana Navala će trajati %(days)d dana"
+msgstr[2] "Lagana Navala će trajati %(days)d dana"
+
+msgid "calendarDay/title"
+msgstr "Raspored"
+
+msgid "closeButtonLabel"
+msgstr "ZATVORI"
+
+msgid "countDown/text"
+msgstr "Akcija počinje za:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Režim brzog tempa s bitkama 7 na 7 u vozilima razine %(levels)s. Uživajte u igri izvornog režima Navale bez kvalifikacija, rangova ili osobnog dosijea i i osvajajte nagrade u dnevnim zadacima."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "REŽIM"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s - režim igre. Kliknite za istraživanje"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Lagana Navala"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Režim je dostupan %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Primirje%(timer)s"
+
+msgid "featureName"
+msgstr "Lagana Navala"
+
+msgid "featureNameCapitalized"
+msgstr "LAGANA NAVALA"
+
+msgid "intro/confirmButton"
+msgstr "Razumijem!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Uživajte u igri izvornog režima Navale bez kvalifikacija, rangova ili bilo kojeg osobnog dosijea."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Režim ima modifikatore koji mijenjaju određene parametre vozila, kao što je HP vozila, vrijeme hlađenja potrošnog materijala, preostalo vrijeme vidljivosti i više."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Kada osvojite određena područja na mapi moći ćete koristiti taktičke vještine. Dva su tipa Točaka interesa: Stožer topništva omogućuje usmjeravanje topničkog udara na određeni položaj, a Komunikacijski centar će otkriti sva neprijateljska vozila. Ovisno o mapi, prisustvo i položaj ovih Točaka interesa se može mjenjati."
+
+msgid "intro/description/roleSkills"
+msgstr "Ovisno o ulozi, svako vozilo ima posebnu vještinu s tri razine naboja. Što je razina naboja veća kada se vještina aktivira, to će biti jači učinak. Razina naboja će ovisiti o broju bodova Prestiža koji se mogu osvojiti za dojmljivu izvedbu u bitci, osvajanje Točaka interesa, korištenje taktičkih vještina, itd.\n\nPogledajte pravila režima i saznajte više o različitim načina osvajana bodova Prestiža."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "U ovom režimu se mogu koristiti samo vozila razine %(levels)s (samohodni topovi i neki drugi tenkovi nisu dostupni). Pripremite vaša vozila u Garaži i odaberite najbolje na osnovi značajki dane mape kada uđete u bitku. Kada odabirete vozilo imajte na umu koja su vozila odabrali i vaši saveznici."
+
+msgid "intro/title/lightGameplay"
+msgstr "SMIRITE SE, ZAPOVJEDNIČE"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "MODIFIKATORI NAVALE"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "TOČKE INTERESA"
+
+msgid "intro/title/roleSkills"
+msgstr "VJEŠTINE ULOGA"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "ODABERITE VOZILO ZA ODREĐENU MAPU"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Pobjeda"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Poraz/nerješeno"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Dobar posao, zapovjedniče, nastavite tako!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Izvršite zadatke i dosegnite najbolje plasmane u bitkama Lagane Navale za povećanje razine napretka."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Broj bodova Napredovanja koji zaradite ovisi o plasmanu bodova prestiža u bitci."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Režim završava za %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Glavni napredak završen"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Lagana Navala"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Najboljih 2 po bodovima prestiža"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Najboljih 5 po bodovima prestiža"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Najboljih 7 po bodovima prestiža"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Koristite WoT premium račun"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktiviraj osobne pričuve"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Izvrši zadatke"
+
+msgid "noVehicles/howTo/title"
+msgstr "Koji je najbrži put do vozila razine %(levels)s?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Za sudjelovanje u Laganoj Navali trebate imati barem jedno vozilo razine %(levels)s u Garaži koje je prikladno za režim.\nMožete kupiti premium vozila razine %(levels)s na Tehnološkom stablu ili u prodavaonici u igri."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Za sudjelovanje u Laganoj Navali trebate najmanje jedno vozilo razine %(levels)s u Garaži koje je prikladno za režim.\nImate vozilo razine %(levels)s dostupno za oporavak."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Za sudjelovanje u Laganoj Navali trebate najmanje jedno vozilo razine %(levels)s u Garaži koje je prikladno za režim."
+
+msgid "noVehicles/title"
+msgstr "Nema prikladnih vozila u vašoj Garaži"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Pogledajte stranicu O Laganoj Navali za detalje."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Bodovi Prestiža"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Nanošenje štete\nPomaganje u otkrivanju\nUništavanje gusjenica\nNanošenje kritičnih pogodaka\nUništavanje neprijateljskih vozila\nI više"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Bodovi prestiža se mogu osvojiti za izvođenje borbenih akcija, uključujuči:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Sezona je završila na serveru %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Sezona je završila na serveru %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Sezona je završila na serveru %(server)s."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Glavni napredak završen!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Etapa %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s ili %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Novi zadatak za:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Akcija završava za:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Zadaci će biti osvježeni za"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Svi dnevni zadaci izvršeni."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Napredak završen. Igrajte Laganu Navalu za osvajanje još nagrada."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Izvršite zadatke i osigurajte najbolje plasmane u bitkama\nLagane Navale za povećanje razine napretka.%(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Dodjeljuje se za izvršenje posebnih zadataka i odigravanje bitaka u Laganoj Navali. Omogućuju vam napredovanje kroz Napredak."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Bodovi napretka Lagane Navale"
+
+msgid "selectorTooltip/desc"
+msgstr "Nerangirani režim. 7 na 7 | Razina %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Lagana Navala"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Pratite najnovije vijesti na portalu igre kako bi ostali u tijeku s početkom nove sezone."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Režim je privremeno nedostupan zbog tehničkih problema."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Ovaj režim će postati dostupan %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Primljeno bodova napretka"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Detalji"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Lagana Navala"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Primljene nagrade:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Završili ste etapu napretka %(stage)s u režimu %(progressionName)s."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Čestitamo!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Na snazi je primirje. Bitke Lagane Navale su privremeno nedostupne."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Primirje"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Primirje je gotovo. Bitke Lagane Navale su ponovno dostupne."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Primirje"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "O Laganoj Navali"

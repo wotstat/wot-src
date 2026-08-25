@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "Upravljaj rezervama"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "Klikni da izabereš raspoloživu borbenu rezervu."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "Bombe"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "Oblast udara"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "Ošamuti"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "Raspored"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "Broj mina"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "Trajanje minskog polja"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "Ošamuti"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "Radijus štete"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "Trajanje"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "Granate"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "Priprema"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "Raspored"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "Trajanje"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "Broj povraćenih poena zdravlja"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "Količina instant povraćenih poena zdravlja po aktivaciji"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "Umanjena šteta primljena od mina"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "Bonus na brzinu povratka poena zdravlja u zoni snabdevanja"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "Performanse posade"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "Trajanje"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "Vreme pauze između efekata"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "Radijus efekta"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "Performanse posade tvog vozila"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "Povećana zaštita"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "Bonus zauzimanja"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "Obnavljanje zone snabdevanja"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "Brzina obove municije"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "Vreme pristizanja"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "Oblast udara"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750 m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "Trajanje izviđanja"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "Smanjene performanse posade"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "Dimne granate"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "Oblast udara"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "Trajanje"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "Umanjeno vidno polje neprijateljskih vozila"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "Umanjeno skrivanje neprijateljskih vozila iza rastinja"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "Umanjeno skrivanje pokretnih neprijateljskih vozila"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "Trajanje"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "Bonus na skrivanje nepokretnog vozila"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "Pasivni bonus videokruga"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "Nivo rezerve"
+
+msgid "abilityInfo/properties/static"
+msgstr "Trajnje karakteristike"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "s"
+
+msgid "advance_message_txt"
+msgstr "Pokret ka frontu"
+
+msgid "advance_mission_txt"
+msgstr "Pokret ka frontu"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "DETALJI SCENARIJA"
+
+msgid "awards/acceptButton"
+msgstr "Razumem!"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "NAGRADE PRIMLJENE"
+
+msgid "awards/subTitle2"
+msgstr "DOBIJENA NAGRADA"
+
+msgid "awards/title"
+msgstr "LINIJA FRONTA"
+
+msgid "base/contested_atk"
+msgstr "Pregažena"
+
+msgid "base/contested_def"
+msgstr "Napadnuta"
+
+msgid "battleResults/armor"
+msgstr "Upotreba oklopa"
+
+msgid "battleResults/assistance"
+msgstr "Podrška"
+
+msgid "battleResults/crits"
+msgstr "Kritična šteta"
+
+msgid "battleResults/damage"
+msgstr "Šteta"
+
+msgid "battleResults/kill"
+msgstr "Uništeno"
+
+msgid "battleResults/spotting"
+msgstr "Uočeno"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "x1 lična rezerva: %(effectValue)s na iskustvo posade tokom %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "x1 lična rezerva: %(effectValue)s na slobodno iskustvo tokom %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "x1 lična rezerva: %(effectValue)s na borbeno iskustvo tokom %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Napadni cilj %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Brani cilj %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Pažnja na lokaciju!"
+
+msgid "command_shortcut/title"
+msgstr "Komande"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "Front je blokiran - dostignut je limit igrača"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "Opasna zona"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "Front je blokiran - dostignut je limit po tipu vozila"
+
+msgid "dialogs/quotedName"
+msgstr "\"%(name)s\""
+
+msgid "dialogs/title/buy/item"
+msgstr "Kupi %(name)s %(type)s?"
+
+msgid "dialogs/title/buy/items"
+msgstr "Kupi %(type)s?"
+
+msgid "dialogs/title/install/item"
+msgstr "Uključi %(name)s %(type)s?"
+
+msgid "dialogs/title/install/items"
+msgstr "Uključi%(type)s?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "Sakupi dovoljan broj poena i aktiviraj borbene rezerve Linije fronta."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "Sakupi dovoljan broj poena i aktiviraj borbene rezerve Linije fronta."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "Poeni borbenih rezervi"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "vozila %(level)s nivoa će biti otključana za borbe nakon zarobljavanja / gubitka bilo koje tačke sa druge linije (D,E ili F)."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "Nivo %(lvl)s"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "Izaberi vozilo VIII nivoa za režim \"Linija fronta\"."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "Nekompatibilno vozilo"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "Izaberi"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "Maks."
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "Borbene rezerve"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "Nivo komandira"
+
+msgid "epictraining/info/otherLabel"
+msgstr "Neraspoređeni igrači: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "Napadači ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "Branioci ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "Sva neprijateljska vozila su uništena"
+
+msgid "game/all_hqs_destroyed"
+msgstr "Svi ciljevi su uništeni"
+
+msgid "game/all_tanks_defeated"
+msgstr "Sva saveznička vozila uništena"
+
+msgid "game/defeat"
+msgstr "Poraz!"
+
+msgid "game/draw"
+msgstr "Nerešeno!"
+
+msgid "game/time_over"
+msgstr "Ciljevi su preživeli"
+
+msgid "game/victory"
+msgstr "Pobeda!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "Uništi ciljeve!"
+
+msgid "global_msg/atk/time_short"
+msgstr "Zauzmi zonu!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "Odbrani ciljeve!"
+
+msgid "global_msg/def/time_short"
+msgstr "Odbrani zone!"
+
+msgid "global_msg/lane/center_short"
+msgstr "Pojačaj zonu %(strArg1)s!"
+
+msgid "global_msg/lane/east_short"
+msgstr "Pojačaj zonu %(strArg1)s!"
+
+msgid "global_msg/lane/west_short"
+msgstr "Pojačaj zonu %(strArg1)s!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "Sačuvaj svoje tenkove!"
+
+msgid "help_window/communication"
+msgstr "Komunikaciona oblast"
+
+msgid "help_window/communication/description"
+msgstr "Komande možeš da primaš samo od saveznika koji su u vidljivoj oblasti tvoje mini mape ili kada je cilj komande u toj oblasti."
+
+msgid "help_window/overview_map"
+msgstr "Strateška mapa"
+
+msgid "help_window/overview_map/description"
+msgstr "Strateška mapa se koristi da bi se dobio taktički i strateški uvid u celo bojište. Kada je mapa otvorena, vidljive su sve komunikacije tima i poruke mogu biti poslate."
+
+msgid "help_window/recovery"
+msgstr "Izvlačenje"
+
+msgid "help_window/recovery/description"
+msgstr "Izvlačenje je uvedeno da bi se vozilo koje je zaglavljeno na terenu samouništilo. Mehanika je potrebna jer povećana dužina borbi i mogućnost ponovnog ulaska u borbu zahtevaju permanentno angažovanje igrača."
+
+msgid "help_window/reserves"
+msgstr "Rezerva vozila"
+
+msgid "help_window/reserves/description"
+msgstr "Svakih nekoliko minuta jedno vozilo je dodato u tvoju rezervu. Rezerva može maksimalno da sadrži dva vozila. Kada nema više preostalih vozila, ne možeš u borbu i moraš da čekaš dok nova vozila nisu isporučena."
+
+msgid "hq/under_attack_atk"
+msgstr "Napadnuta"
+
+msgid "hq/under_attack_def"
+msgstr "Napadnuta"
+
+msgid "in_game_rank/experience_text"
+msgstr "Iskustvo"
+
+msgid "lane_central_name"
+msgstr "Centar"
+
+msgid "lane_east_name"
+msgstr "Istok"
+
+msgid "lane_west_name"
+msgstr "Zapad"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "Nivo %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "Dobijanje nije moguće: nemaš poena borbenih rezervi."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "Borbene rezerve su dostigle maksimalan nivo."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "Poboljšanje je nedostupno: Nemaš poena borbenih rezervi."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "Borbene rezerve nisu kupljene"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "Nivo borbene rezerve se povećava nakon dostizanja ranga kapetana i majora u borbi. Maksimalan nivo je određen borbenim scenarijem."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "Cena kupovine: %(price)s%(img)s"
+
+msgid "mission/primary/title"
+msgstr "Glavni cilj"
+
+msgid "mission/title"
+msgstr "Misija"
+
+msgid "mission/zone_closing_atk"
+msgstr "Zona se otvara za: "
+
+msgid "mission/zone_closing_def"
+msgstr "Neprijateljsko bombardovanje počinje za: "
+
+msgid "missions/primary/atk/base"
+msgstr "Zauzmi zonu"
+
+msgid "missions/primary/atk/hq"
+msgstr "Uništi cilj"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s od %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "Uništeni ciljevi:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "Zauzmi zone da dođeš do glavnih ciljeva. Uništi glavne ciljeve."
+
+msgid "missions/primary/def/base"
+msgstr "Odbrani zonu"
+
+msgid "missions/primary/def/hq"
+msgstr "Odbrani cilj"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s od %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "Izgubljeni ciljevi:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "Brani glavne ciljeve dok vreme ne istekne ili dok svi napadači nisu uništeni."
+
+msgid "missions/unlockTankLevel"
+msgstr "Dostupna vozila IX nivoa"
+
+msgid "overtime/label"
+msgstr "PRODUŽETAK"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "Nemoguće je aktivirati dve identične rezerve"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "Nije moguće postaviti minsko polje. Minska polja se seku."
+
+msgid "primeTime/applyBtn"
+msgstr "Nastavi"
+
+msgid "primeTime/cancelBtn"
+msgstr "Otkaži"
+
+msgid "primeTime/continueBtn"
+msgstr "Nastavi"
+
+msgid "primeTime/endOfCycle"
+msgstr "Režim na %(server)s serveru je završen."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "Dostupni serveri:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "Dostupan server: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "Borbe na %(server)s će biti nedostupne na još %(time)s"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "Sledeće borbe na %(server)s za %(time)s"
+
+msgid "primeTime/serverTooltip"
+msgstr "Borbe na serveru %(server)s\nće biti dostupne na još %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Borbe će biti dostupne za %(time)s"
+
+msgid "primeTime/servers"
+msgstr "Dostupni serveri: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Borbe na %(server)s serveru su završene"
+
+msgid "primeTime/status/disable"
+msgstr "Možeš da se prebaciš na server \"Linije fronta\" i nastaviš sa pripremama pred borbu."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "Režim je nedostupan na serveru %(server)s"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "Primirje je uvedno na %(server)s serveru do %(startTime)s"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "Primirje je uvedno na svim serverima"
+
+msgid "primeTime/status/thisEnable"
+msgstr "Na serveru %(server)s \"Linija fronta\" je dostupna na još %(time)s."
+
+msgid "primeTime/steelhunter/title"
+msgstr "ČELIČNI LOVAC"
+
+msgid "primeTime/title"
+msgstr "LINIJA FRONTA"
+
+msgid "primeTime/titleWelcome"
+msgstr "DOBRODOŠLI NA\nLINIJU FRONTA"
+
+msgid "progress_timers/active"
+msgstr "Aktivno"
+
+msgid "progress_timers/fully_equipped"
+msgstr "Potpuno opremljen"
+
+msgid "progress_timers/resupply"
+msgstr "Krug snabdevanja"
+
+msgid "progress_timers/unavailable"
+msgstr "Nedostupno"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "Misije \"Linije fronta\""
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "manje od 1 d"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "dostigni nivo %(level)s"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "Nove misije će biti dostupne za %(time)s"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "Misije Čeličnog lovca"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "Linija fronta se završava za: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "Nedostupno: %(reason)s."
+
+msgid "rank/allReserveUpgraded"
+msgstr "Svi nivoi borbenih rezervi su povećani"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "Timski bonus na performanse posade povećan na +%(percent)s%%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "Maksimalne performanse posade dostignute na +%(percent)s%%"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "Timski bonus na performanse posade +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "Igrač"
+
+msgid "rank/promotion"
+msgstr "unapređenje u %(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "Redov"
+
+msgid "rank/rank2"
+msgstr "Narednik"
+
+msgid "rank/rank3"
+msgstr "Poručnik"
+
+msgid "rank/rank4"
+msgstr "Kapetan"
+
+msgid "rank/rank5"
+msgstr "Major"
+
+msgid "rank/rank6"
+msgstr "General"
+
+msgid "rank/recerveUnlocked"
+msgstr "%(reserveName)s Borbene rezerve otključane"
+
+msgid "rank/reserveUpgraded"
+msgstr "%(reserveName)sBorbene rezerve poboljšane"
+
+msgid "rank/slotUnlocked"
+msgstr "Borbena rezerva %(slotNumber)s je otključana"
+
+msgid "rank/slot_2"
+msgstr "2."
+
+msgid "rank/slot_3"
+msgstr "3."
+
+msgid "recovery/Blocked"
+msgstr "Privremeno\nblokirano"
+
+msgid "recovery/disabled"
+msgstr "Izvlačenje nije moguće"
+
+msgid "recovery_panel/base_text"
+msgstr "Pritisni J\nza izvlačenje"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "Pomeri se ili pucaj da bi otkazao."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "Izvlačenje je\notkazano"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "Izvlačenje je\nzatraženo"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "Zauzmi sledeću bazu"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "Pojačanja za "
+
+msgid "reinforcement/unavailable"
+msgstr "Pojačanja su nedostupna"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s s do automatskog rasporeda."
+
+msgid "respawn/deploy_button"
+msgstr "U borbu!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "Poboljšani potrošni materijal ne može biti kupljen u borbi."
+
+msgid "respawn/shop_title"
+msgstr "Servisiranje"
+
+msgid "respawn/tanks_left"
+msgstr "preostalo vozila"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "Izaberi vozilo i zonu razmeštaja"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "Razmeštaj u ovoj oblasti je opasan."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s sekundi"
+
+msgid "retreat_message_txt"
+msgstr "Povuci se"
+
+msgid "retreat_mission_txt"
+msgstr "Povuci se u sledeću zonu"
+
+msgid "rewardSelection/subTitle"
+msgstr "IZABERI SVOJU NAGRADU"
+
+msgid "rewardSelection/title"
+msgstr "LINIJA FRONTA"
+
+msgid "scorePanel/stage1"
+msgstr "Faza 1"
+
+msgid "scorePanel/stage2"
+msgstr "Faza 2"
+
+msgid "scorePanel/stage3"
+msgstr "Faza 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "Performanse tvog kompjutera su nedovoljne za ovaj režim. Iskusićeš probleme sa grafikom i pokretima vozila. Takođe moguće je i rušenje klijenta igre."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "Niske performanse"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "U slučaju nedovoljnih performansi, pokušaj da spustiš kvalitet grafike u podešavanjima."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "Ovaj režim zahteva visoke performanse kompjutera"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "Ovaj režim zahteva visoke performanse kompjutera. Možeš iskusiti probleme sa učitavanjem mapa, grafikom i pokretom vozila. U slučaju nedovoljnih performansi pokušaj da smanjiš kvalitet grafike u podešavanjima."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "Niske performanse"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "30 na 30 borbe u %(bodyVehicleLevel)s. Iskoristi mehaniku ponovnog početka, borbene rezerve kao i krugove dopune."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "vozilima %(level)s nivoa"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "30 na 30 borbe u %(bodyVehicleLevel)s. Iskoristi mehaniku ponovnog ulaska u borbu, borbene rezerve kao i opravke u borbi."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "Režim je trenutno nedostupan zbog tehničkih problema."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "Linija fronta"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "Borbe počinju za: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "Borbe se završavaju za: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "-"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "Raspored borbi"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "Danas"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "Sutra"
+
+msgid "skill/category/firesupport"
+msgstr "Rezerve napada"
+
+msgid "skill/category/reconnaissance"
+msgstr "Rezerve izviđanja"
+
+msgid "skill/category/tactics"
+msgstr "Taktičke rezerve"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "Režim posmatračke kamere"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "Rotiraj kameru mišem."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "Koristi W, A, S, D da pomeraš kameru po mapi."
+
+msgid "spectator_mode/follow_text"
+msgstr "Levi klik da počneš sa praćenjem."
+
+msgid "spectator_mode/follow_title"
+msgstr "Prati"
+
+msgid "spectator_mode/msg_text"
+msgstr "Vozilo stiže za:"
+
+msgid "spectator_mode/msg_title"
+msgstr "Sva vozila su uništena!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "Klikni ponovo da prekineš sa praćenjem."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "Prekini sa praćenjem"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "Blokirano"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Napusti zonu!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Obnavljanje poena izdržljivosti"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Obnavljanje poena izdržljivosti"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Inspirativno"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "Inspirativno"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Krug snabdevanja"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Unutar dima: skriven."
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "Unutar dima. Vidokrug i performanse posade su smanjeni."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "Vreme odmora. Vidokrug i performanse posade su smanjeni."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "Sentinel aktiviran"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "Aktivira se %(activationDelay)s s po zaustavljanju vozila"
+
+msgid "super_platoon_panel/title"
+msgstr "Vod"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "- ukupan timski bonus na performanse posade za prisustvo Generala."
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "Svi frontovi"
+
+msgid "tab_screen/show_my_lane"
+msgstr "Moj front"
+
+msgid "team1Name"
+msgstr "Napadači"
+
+msgid "team2Name"
+msgstr "Branioci"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "Izaberi nagradu za završavanja nivoa Fronta (%(number)s)."
+
+msgid "tooltips/common/disabled"
+msgstr "Režim je nedostupan"
+
+msgid "tooltips/common/title"
+msgstr "\"Linija fronta\""
+
+msgid "tooltips/end"
+msgstr "Događaj je završen"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "redosled otključavanja borbenih rezervi zavisi od tipa vozila. Jedna borbena rezerva je dostupna na startu dok se ostale otključavaju nakon dostizanja nivoa narednika i poručnika, tim redom."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "Otključavanje: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "U scenariju <font color='#E9E2BF'>Obrt sudbine</font> kupovina borbene rezerve će povećati njen nivo za jedan i pružiti mogućnost za poboljšanje do nivoa <font color='#E9E2BF'>IV</font>."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "Borbena rezerva smeštena u ovaj slot povećava šansu da ista bude ponuđena u scenariju <font color='#E9E2BF'>Obrt sudbine</font> za <font color='#E9E2BF'>10%</font>."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "Otključavanje i poboljšanje rezerva u borbi"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "Borbene rezerve se otključavaju i poboljšavaju u borbi, u zavisnosti od tipa vozila i ranga koji dostigneš."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "Konfiguracija rezervi za lovce tenkova"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "Konfiguracija rezervi za artiljeriju"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "Konfiguracija rezervi za teške tenkove"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "Konfiguracija rezervi za lake tenkove"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "Konfiguracija rezervi za srednje tenkove"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "nakon otključavanja svih borbenih rezervi po dostizanju novog ranka ove borbene rezerve se poboljšavaju. Početno otključane borbene rezerve mogu biti poboljšane do III nivoa a druge otključane borbene rezerve mogu biti poboljšane do nivoa II."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "Poboljšanje: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "Slot će biti otključan po dostizanju ranga %(rank)s."
+
+msgid "tooltips/timeToEnd"
+msgstr "Dostupan režim: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "Borbe počinju za: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "Događaj je završen"
+
+msgid "tooltips/widget/level"
+msgstr "%(level)s nivo"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "Dostignut je maksimalni nivo."
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "BORBENE REZERVE"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Prekid vatre je zaveden na svim serverima. Borbe će biti dostupne za %(time)s"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "Borbe su u toku"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Izaberi drugi server"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "Detalji"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "Režim Linija fronta se završio."
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "Scenariji Linije fronta"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Prekid vatre je zaveden na ovom serveru. Borbe će biti dostupne za %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Prekid vatre je u toku na %(serverName)s serveru"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "Borbe počinju za: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "Klikni da saznaš više o scenarijima\nLinije fronta i razlikama među njima."
+
+msgid "zone/arrived_text"
+msgstr "Stiglo je!"
+
+msgid "zone/capture_text"
+msgstr "Zauzmi"
+
+msgid "zone/captured_text"
+msgstr "Zauzeto"
+
+msgid "zone/defend_text"
+msgstr "Odbrani"
+
+msgid "zone/destroy_text"
+msgstr "Uništi"
+
+msgid "zone/destroyed_text"
+msgstr "Uništeno"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "Neprijateljska pojačanja"
+
+msgid "zone/headquarters_text"
+msgstr "Ciljevi"
+
+msgid "zone/leave_zone"
+msgstr "Napusti zonu!"
+
+msgid "zone/lost_text"
+msgstr "Izgubljena"
+
+msgid "zone/reached_text"
+msgstr "Dostignuta"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "Neprijateljska pojačanja:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "Pojačanja:"
+
+msgid "zone/reinforcements_text"
+msgstr "Pojačanja"
+
+msgid "zone/time_added"
+msgstr "Dodato minuta: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "Preostalo minuta %(minutes)s"
+
+msgid "zone/zone_text"
+msgstr "Zona"

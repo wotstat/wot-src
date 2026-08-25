@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Espandi"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Congeda non sufficientemente addestrati"
+
+msgid "barracks/bunks/title"
+msgstr "Posti letto:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Indica il numero di posti letto da acquistare. Posti letto disponibili in Caserma: %(freeBunksCount)s /%(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Sconto"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Nuovo costo: %(currency)s per %(bunksCount)s posti letto"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Costo precedente: %(currency)s per %(bunksCount)s posti letto"
+
+msgid "barracks/enlarge/header"
+msgstr "Vuoi espandere la Caserma?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "I membri dell'equipaggio in Caserma non sufficientemente addestrati, che hanno meno di {whiteSpanish_Open}210.060{whiteSpanish_Close}{icon} Exp necessaria per addestrare il loro primo talento al {whiteSpanish_Open}100%{whiteSpanish_Close}, possono essere congedati."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Membri dell'equipaggio non sufficientemente addestrati"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Non hai membri dell'equipaggio non sufficientemente addestrati"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Non riceverai alcuna compensazione per il congedo di membri dell'equipaggio non sufficientemente addestrati. Una volta congedati, non potranno essere recuperati e tutta la loro Exp andrà persa."
+
+msgid "barracks/title"
+msgstr "CASERMA"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Clicca per espandere la Caserma."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Espandi Caserma"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Posizione"
+
+msgid "common/imageNotAvailable"
+msgstr "Immagine indisponibile"
+
+msgid "common/inBarracks"
+msgstr "In Caserma"
+
+msgid "common/inBattle"
+msgstr "In battaglia"
+
+msgid "common/inPrebattle"
+msgstr "In unità tattica"
+
+msgid "common/navigation/aboutCrew"
+msgstr "INFORMAZIONI SULL'EQUIPAGGIO"
+
+msgid "common/navigation/toBarracks"
+msgstr "ALLA CASERMA"
+
+msgid "common/navigation/toGarage"
+msgstr "ALL'OFFICINA"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "AL PROFILO"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Affermativo!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "I tuoi membri dell'equipaggio sono stati convertiti in Libretti per equipaggio."
+
+msgid "conversionAwards/title"
+msgstr "CONVERSIONE AVVENUTA CON SUCCESSO"
+
+msgid "conversionAwards/underTitle"
+msgstr "I seguenti articoli sono stati aggiunti al tuo account."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Annulla"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Congeda"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Membri dell'equipaggio da congedare: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Congedare i membri dell'equipaggio non sufficientemente addestrati?"
+
+msgid "conversionConfirm/warning"
+msgstr "Non riceverai alcuna compensazione per il congedo di membri dell'equipaggio non sufficientemente addestrati. Una volta congedati, non potranno essere recuperati e tutta la loro Exp andrà persa."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Selezione automatica talenti"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Non ci sono membri dell'equipaggio con talenti non addestrati."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Impossibile selezionare automaticamente i talenti"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Tutti i talenti non addestrati contrassegnati da simboli \"più\" saranno sostituiti da talenti selezionati automaticamente con una logica specifica per tutti gli equipaggi."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Selezione automatica talenti non addestrati per tutti"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Riassegna i talenti per tutti"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Non ci sono membri dell'equipaggio con talenti addestrati."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Impossibile azzerare i talenti"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Tutti i talenti di tutti i membri dell'equipaggio del tuo account saranno riassegnati. Questa operazione non può essere annullata."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Riassegna i talenti per tutti"
+
+msgid "crewBanner/infoText"
+msgstr "Riassegnazione gratuita dei talenti o selezione automatica dei talenti non addestrati per tutti i membri dell'equipaggio sul tuo account"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Accelera addestramento dell'equipaggio attivo"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Bonus efficienza: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Efficienza dei talenti"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "I talenti non sono disponibili perché il membro dell'equipaggio non è addestrato per questo veicolo."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Specializzazione:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Talenti indisponibili"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Talenti bonus:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Talenti della qualificazione primaria:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(Cina)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Cecoslovacchia)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Francia)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Germania)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Italia)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Giappone)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Polonia)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Svezia)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(U.K.)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(U.S.A.)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(U.R.S.S.)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Tutti i cacciacarri Premium\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Tutte le A-SMV Premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Tutti i carri pesanti Premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Tutti i carri leggeri Premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Tutti i carri medi Premium\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Dettagli"
+
+msgid "filter/group/details/title"
+msgstr "Dettagli"
+
+msgid "filter/group/nation/title"
+msgstr "Nazione"
+
+msgid "filter/group/other/title"
+msgstr "Altro"
+
+msgid "filter/group/special/title"
+msgstr "Speciale"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Qualificazione"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Livello"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Livello"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specializzazione"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Tipo di veicolo"
+
+msgid "filter/popup/button/title"
+msgstr "Filtro"
+
+msgid "filter/popup/default/title"
+msgstr "Filtro"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Filtra per nazione"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Filtra per veicoli"
+
+msgid "filter/reset"
+msgstr "Reimposta filtri"
+
+msgid "filter/search/placeholder"
+msgstr "Ricerca per nome"
+
+msgid "filter/search/tooltip/header"
+msgstr "Ricerca per nome"
+
+msgid "filter/title"
+msgstr "Visualizzato:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Mostra/nascondi i membri dell'equipaggio nei veicoli con tutti i moduli e rami tecnologici disponibili ricercati."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Veicoli Elite"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Mostra/nascondi i membri dell'equipaggio addestrati per i veicoli Premium."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Veicoli Premium"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Mostra/nascondi i membri dell'equipaggio nei veicoli preferiti."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Veicoli preferiti"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Mostra/nascondi i membri dell'equipaggio per questo tipo di veicoli."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Mostra/nascondi i membri dell'equipaggio di questa nazione."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Mostra/nascondi gli aspetti di questa nazione."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Mostra/nascondi i veicoli di questa nazione."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Mostra/nascondi congedati."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Congedati"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Mostra reclute."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Reclute"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Mostra membri dell'equipaggio."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Membri dell'equipaggio"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Mostra/nascondi i membri dell'equipaggio con questa qualificazione."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Mostra/nascondi veicoli Premium."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Veicoli Premium"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Mostra/nascondi i veicoli di questo tipo."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Cacciacarri"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "A-SMV"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Carri pesanti"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Carri leggeri"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Carri medi"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nessun veicolo idoneo ai\ncriteri di ricerca"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Ordina per nome dei veicoli."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Nome"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Ordina per livello dei veicoli."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Livello"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Ordina per tipo di veicolo."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Tipo"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Nome"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Clicca per reimpostare il filtro."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Reimposta tutti i filtri"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Affermativo!"
+
+msgid "junkTankmen/description"
+msgstr "Questi membri dell'equipaggio hanno meno di {bond_Open}210.060{bond_Close}{icon} Exp necessaria per addestrare il loro primo talento al {whiteSpanish_Open}100%{whiteSpanish_Close}.\nVerranno rimossi dal tuo account."
+
+msgid "junkTankmen/title"
+msgstr "Congedare i membri dell'equipaggio non sufficientemente addestrati?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "C'è un limite di {whiteSpanish_Open}tre{whiteSpanish_Close} talenti per ogni qualificazione aggiuntiva. L'accesso a un nuovo talento bonus si aprirà dopo aver raggiunto il {whiteSpanish_Open}primo{whiteSpanish_Close}, il {whiteSpanish_Open}terzo{whiteSpanish_Close} e il {whiteSpanish_Open}quinto{whiteSpanish_Close} talento della qualificazione primaria."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Talenti bonus"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Quando riaddestri un membro dell'equipaggio per un altro veicolo con un set di qualificazioni differente, potrai scegliere di nuovo i talenti per la loro nuova qualificazione aggiuntiva."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "I talenti bonus si addestrano alla metà della velocità dei talenti della qualificazione primaria."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Non serve Exp per addestrare i talenti bonus."
+
+msgid "matrix/freeResetButton"
+msgstr "Azzera gratis"
+
+msgid "matrix/increaseButton"
+msgstr "Accelera addestramento"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Il membro dell'equipaggio ha raggiunto il limite di addestramento."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Impossibile accelerare addestramento"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Addestra i talenti usando Exp tecnica e Libretti per equipaggio."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Addestramento veloce"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Qualificazione incompatibile"
+
+msgid "matrix/qualification/1"
+msgstr "Qualificazione primaria"
+
+msgid "matrix/qualification/2"
+msgstr "Seconda qualificazione"
+
+msgid "matrix/qualification/3"
+msgstr "Terza qualificazione"
+
+msgid "matrix/qualification/4"
+msgstr "Quarta qualificazione"
+
+msgid "matrix/qualification/5"
+msgstr "Quinta qualificazione"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Talenti zero indisponibili per la seconda qualificazione"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Talenti zero indisponibili per la terza qualificazione"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Talenti zero indisponibili per la quarta qualificazione"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Seconda qualificazione non disponibile per questo veicolo"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Terza qualificazione non disponibile per questo veicolo"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Quarta qualificazione non disponibile per questo veicolo"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Quinta qualificazione non disponibile per questo veicolo"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "C'è un limite di {whiteSpanish_Open}tre{whiteSpanish_Close} talenti bonus per ogni qualificazione aggiuntiva. Solo i talenti specifici di questa qualificazione possono essere selezionati come talenti bonus."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "C'è un limite di {whiteSpanish_Open}sei{whiteSpanish_Close} talenti della qualificazione primaria (inclusi i talenti zero)."
+
+msgid "matrix/resetButton"
+msgstr "Azzera"
+
+msgid "matrix/resetButtonHint"
+msgstr "CLICCA PER RIASSEGNARE I TALENTI"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Non hai talenti addestrati."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Impossibile azzerare i talenti"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Clicca per azzerare i talenti."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Azzera talenti"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Talento bonus disponibile per l'addestramento"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Non serve Exp dell'equipaggio per addestrare i talenti bonus."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Non disponibile"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Sbloccato quando si addestra il terzo talento della qualificazione primaria. Non richiede Exp."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Sbloccato quando si addestra il quinto talento della qualificazione primaria. Non richiede Exp."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Livello di addestramento"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "La quantità totale di Exp richiesta viene scontata perché il membro dell'equipaggio ha un talento zero."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "La quantità totale di Exp richiesta viene scontata perché il membro dell'equipaggio ha due talenti zero."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Talento disponibile per l'addestramento"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Non disponibile"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Il talento precedente deve essere addestrato al 100%."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Talento zero disponibile per l'addestramento"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "I talenti zero vengono sempre addestrati per primi, anche se più talenti vengono selezionati contemporaneamente. Non è richiesta Exp dell'equipaggio per addestrarli."
+
+msgid "matrix/skills/allSkills"
+msgstr "Tutti i talenti aggiuntivi addestrati per questo veicolo"
+
+msgid "matrix/skills/available"
+msgstr "Talenti disponibili per l'addestramento:"
+
+msgid "matrix/skills/bonus"
+msgstr "Talenti bonus"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "I talenti non sono disponibili"
+
+msgid "matrix/skills/locked"
+msgstr "I talenti non sono disponibili"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Per questo veicolo tutti i talenti sono disabilitati"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Talenti della qualificazione primaria"
+
+msgid "matrix/skills/reduced"
+msgstr "Efficienza dei talenti ridotta"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Talenti del Capocarro"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Talenti del Pilota"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Talenti del Capocarro"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Talenti del Pilota"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Talenti del Cannoniere"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Talenti del Servente"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Talenti del Radiofonista"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Talenti del Cannoniere"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Talenti del Servente"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Talenti del Radiofonista"
+
+msgid "matrix/skills/training"
+msgstr "Addestramento dei talenti"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Talenti zero disponibili per l'addestramento:"
+
+msgid "memberChange/action/recruit"
+msgstr "Recluta {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount}% DI SCONTO SUL CAMBIO DI QUALIFICAZIONE"
+
+msgid "memberChange/title"
+msgstr "SELEZIONA {role}: {vehicle}"
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}In Magazzino{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Dopo la conferma, il membro dell'equipaggio che trasferisce la propria Exp sarà rimosso dal tuo account."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Una Licenza di tutoraggio permette di trasferire Exp dell'equipaggio da un membro dell'equipaggio a un altro della stessa nazione."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Licenza di tutoraggio"
+
+msgid "personalData/card/edit"
+msgstr "Modifica"
+
+msgid "personalData/card/remove"
+msgstr "Rimuovi"
+
+msgid "personalData/card/restrictions"
+msgstr "Restrizioni: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Clicca per sostituire nome e aspetto di un membro dell'equipaggio."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Aspetto"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Questo membro dell'equipaggio ha già un nome e un aspetto unici."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Impossibile sostituire nome e aspetto"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Nessun risultato. Cambia le impostazioni o azzera il filtro."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Configura la visualizzazione degli aspetti per nazione."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Filtra per parametri"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Mostra documenti."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Documenti"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Mostra aspetti idonei."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Aspetti idonei"
+
+msgid "personalData/filter/type/title"
+msgstr "Tipo"
+
+msgid "personalData/title"
+msgstr "SOSTITUISCI NOME E ASPETTO"
+
+msgid "personalFile/changeVehicle"
+msgstr "Cambia"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Impossibile addestrare questo membro dell'equipaggio per un veicolo differente."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Operazione indisponibile"
+
+msgid "personalFile/discount/full"
+msgstr "Sconto sul riaddestramento dell'equipaggio disponibile"
+
+msgid "personalFile/discount/short"
+msgstr "Sconto disponibile"
+
+msgid "personalFile/inVehicle"
+msgstr "Nel veicolo: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Aumenta"
+
+msgid "personalFile/isUntrained"
+msgstr "Non addestrato per questo veicolo"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Tutti i {icon} veicoli Premium"
+
+msgid "personalFile/retrain"
+msgstr "Riaddestra"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Efficienza dei talenti: "
+
+msgid "personalFile/specialization"
+msgstr "Specializzazione:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Specializzazione"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Clicca per ascoltare un esempio del doppiaggio di questo Capocarro."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Doppiaggio unico"
+
+msgid "postProgression/button/claim"
+msgstr "Reclama ricompensa"
+
+msgid "postProgression/description"
+msgstr "Tutti i membri dell'equipaggio che hanno tutti e sei i talenti della qualificazione primaria addestrati hanno accesso alla post-progressione congiunta. Per ogni 100.000 Exp ottenuta nella post-progressione, riceverai una Guida universale che può essere utilizzata per addestrare altri equipaggi."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "La post-progressione consiste in una scala unificata per tutti i membri dell'equipaggio con sei talenti della qualificazione primaria completamente addestrati sull'account di un giocatore."
+
+msgid "postProgression/tips/2"
+msgstr "Per la post-progressione conta solo l'Exp di combattimento. La metà dell'Exp di combattimento ottenuta in battaglia da un membro dell'equipaggio viene divisa per il numero totale di membri dell'equipaggio nel veicolo e aggiunta alla scala della post-progressione."
+
+msgid "postProgression/tips/3"
+msgstr "Perdere Exp da riserve dei talenti o dell'efficienza non influisce sulla post-progressione."
+
+msgid "postProgression/title"
+msgstr "POST-PROGRESSIONE DELL'EQUIPAGGIO"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Tutti i membri dell'equipaggio che hanno avuto accesso alla post-progressione hanno un'efficienza dei talenti bassa."
+
+msgid "postProgression/warning/retire"
+msgstr "Tutti i membri dell'equipaggio che hanno avuto accesso alla post-progressione sono stati congedati o hanno perso Exp dal/dai loro ultimo/i talento/i."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Tutti i cacciacarri Premium"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Tutte le A-SMV Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Cacciacarri Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "A-SMV Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Carri pesanti Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Carri leggeri Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Carri medi Premium"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Tutti i carri pesanti Premium"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Tutti i carri leggeri Premium"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Tutti i carri medi Premium"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "ONORIFICENZE"
+
+msgid "serviceRecord/averageXP"
+msgstr "Esperienza media per battaglia"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Battaglie combattute"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Non è stata ottenuta nessuna onorificenza in battaglia."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Rapporto di esperienza totale ottenuta e numero di battaglie combattute con il veicolo a cui è assegnato il membro dell'equipaggio."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Esperienza media per battaglia"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Il rango di un membro dell'equipaggio dipende dalla sua esperienza e dal numero di talenti addestrati."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Rango"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Membro dell'equipaggio addestrato con tutti i talenti per questo veicolo"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Talenti disponibili per l'addestramento"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Tutti i talenti disabilitati per questo veicolo"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Non è necessaria Exp per addestrare talenti della qualificazione aggiuntiva, che vengono addestrati due volte più lentamente rispetto ai talenti della qualificazione primaria."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Annulla"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Addestra"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "QUALIFICAZIONE BONUS"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "QUALIFICAZIONE PRIMARIA"
+
+msgid "tankChange/title"
+msgstr "ADDESTRA PER IL VEICOLO"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Mostra veicoli nell'Officina."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "In Officina"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Configura la visualizzazione dei veicoli per tipo e livello."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Filtra per parametri"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Non è necessario addestrare i membri dell'equipaggio per i veicoli Premium. Puoi trasferire gli equipaggi a veicoli Premium dello stesso tipo senza penalità."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Veicolo Premium"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Il nome del veicolo può contenere fino a %(maxLength)s caratteri."
+
+msgid "tankman/action/dismiss/title"
+msgstr "CONGEDA"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Congeda questo membro dell'equipaggio."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Impossibile congedare questo membro dell'equipaggio."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Operazione indisponibile"
+
+msgid "tankman/action/recruit/title"
+msgstr "RECLUTA"
+
+msgid "tankman/action/restore/title"
+msgstr "RECUPERA"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Recupera questo membro dell'equipaggio."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Clicca per ascoltare un esempio del doppiaggio di questo Capocarro."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Doppiaggio unico"
+
+msgid "tankman/recruit"
+msgstr "Recluta"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Aspetto"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profilo"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Dati di servizio"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Recluta"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Reimposta filtri"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Nessun risultato. Cambia le impostazioni o azzera il filtro."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Nessun risultato. Recluta un membro dell'equipaggio."
+
+msgid "tankmanList/filter/title"
+msgstr "Membri dell'equipaggio:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Posti letto in Caserma insufficienti."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Mostra/nascondi solo membri dell'equipaggio congedati."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Congedati"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Mostra membri dell'equipaggio in Caserma."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "In Caserma"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Mostra membri dell'equipaggio nei veicoli."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "Nei veicoli"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Mostra/nascondi gli aspetti di questa nazione."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Configura la visualizzazione dei membri dell'equipaggio per qualificazione, specializzazione e altri parametri."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Filtra per parametri"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Recluta un nuovo membro dell'equipaggio."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Il nome può contenere fino a %(maxLength)s caratteri."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Passare il cursore del mouse su un talento mostra come questo influenzi le caratteristiche corrispondenti se addestrato al 100% con l'attuale livello di efficienza dei talenti."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Affermativo!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Sono stati introdotti due nuovi talenti per ogni qualificazione, Posizionamento tattico è stato rielaborato e una nuova opzione consente di nascondere i talenti nell'interfaccia di battaglia."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Una nuova comoda funzione consente di congedare i membri dell'equipaggio non sufficientemente addestrati con un solo clic."
+
+msgid "welcomeScreen/item3/description"
+msgstr "I talenti ora possono essere riassegnati utilizzando solo crediti, senza perdere Exp."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Sono stati aggiunti nuovi talenti e funzionalità, mentre un talento esistente è stato aggiornato."
+
+msgid "welcomeScreen/title"
+msgstr "AGGIORNAMENTI ALL'EQUIPAGGIO"

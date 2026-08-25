@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Blaupause fertig"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Blaupause  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Blaupause {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "Zum Kauf"
+
+msgid "blueprintScreen/button/research"
+msgstr "Zur Forschung"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "In Garage ansehen"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Sie können eine Blaupause zusammensetzen, um einen Rabatt auf die Forschungskosten eines gewünschten Fahrzeugs zu bekommen.\nAllerdings müssen Sie das im Zweig vorhergehende Fahrzeug erforschen, um den Rabatt zu nutzen."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Verstanden!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Forschung nicht möglich"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "Um ein Blaupausenfragment zu erstellen benötigen Sie:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "auswählen:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "FRAGMENT ERSTELLEN:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Fragmente erstellen"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Fragment\nkonvertieren"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Umwandlung\nnicht verfügbar"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "NICHT VERFÜGBAR:\nNicht genug\nRessourcen"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Zum Fahrzeug"
+
+msgid "blueprintScreen/or"
+msgstr "oder"
+
+msgid "blueprintScreen/research"
+msgstr "FORSCHUNG"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Fahrzeug kostenlos erforschen"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Forschung nicht möglich"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Rabatt auf Forschung:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Dieses Fahrzeug wurde erforscht und kann gekauft werden"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Dieses Fahrzeug wurde erforscht und gekauft"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "Auf Lager:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Sie können den Rabatt von 100 % auf die Erforschung des/der {vehicleName} verwenden, nachdem Sie das vorhergehende Fahrzeug im Zweig erforscht haben."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Blaupause zusammengesetzt"
+
+msgid "blueprintScreen/unlocked"
+msgstr "FAHRZEUG\nERFORSCHT"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Koalition:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Block:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Allianz:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Union:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Universell:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Koalition"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Block"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Allianz"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Union"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Frankreich, Tschechoslowakei, Schweden, Italien)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Deutschland, Japan)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(USA, GB, Polen)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(UdSSR, China)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Wählen Sie die Anzahl nationaler Fragmente aus, um Blaupausenfragmente für Fahrzeuge zu erstellen.\n%(allianceIcon)%(allianceName)%(allianceNations) nationale Fragmente sind verfügbar."
+
+msgid "conversionView/topMessage/single"
+msgstr "Wählen Sie Fragmente einer der Nationen aus, um Blaupausenfragmente für Fahrzeuge zu erstellen.\n%(allianceIcon)%(allianceName)%(allianceNations) nationale Fragmente sind verfügbar."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Endkosten:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Blaupausenfragmentkosten:"
+
+msgid "nations/china"
+msgstr "China"
+
+msgid "nations/czech"
+msgstr "Tschechoslowakei"
+
+msgid "nations/france"
+msgstr "Frankreich"
+
+msgid "nations/germany"
+msgstr "Deutschland"
+
+msgid "nations/italy"
+msgstr "Italien"
+
+msgid "nations/japan"
+msgstr "Japan"
+
+msgid "nations/poland"
+msgstr "Polen"
+
+msgid "nations/sweden"
+msgstr "Schweden"
+
+msgid "nations/uk"
+msgstr "GB"
+
+msgid "nations/usa"
+msgstr "USA"
+
+msgid "nations/ussr"
+msgstr "UdSSR"

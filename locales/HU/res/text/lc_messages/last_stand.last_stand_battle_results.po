@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, időtartam: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "Normál nehézségi szint"
+
+msgid "info/difficult/2"
+msgstr "Haladó nehézségi szint"
+
+msgid "info/difficult/3"
+msgstr "Brutális nehézség"
+
+msgid "info/mapName"
+msgstr "Túlélő • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "Az újraéledések száma: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "Az összes szövetséges jármű megsemmisült."
+
+msgid "ls_finish/reason/10/lose"
+msgstr "Nem sikerült megállítanod a Zerót."
+
+msgid "ls_finish/reason/3/lose"
+msgstr "Lejárt az idő."
+
+msgid "ls_finish/reason/5/lose"
+msgstr "Minden csapattárs elhagyta a csatát."
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "Szép munka! Készen állsz egy keményebb küldetésre?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "Az összes ellenséget kiiktattad Normál nehézségi szinten."
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "Kiváló teljesítmény! Csak kevesen érik el ezt a szintet."
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "Az összes ellenség kiiktatva brutális nehézségen."
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "Lenyűgöző munka! Jöhet az igazi kihívás."
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "Az összes ellenséget kiiktattad Haladó nehézségi szinten."
+
+msgid "ribbon/ban"
+msgstr "Elfogadhatatlan teljesítmény: tétlenség/dezertálás.\nNem kapsz jutalmat."
+
+msgid "ribbon/banRecord"
+msgstr "Elfogadhatatlan teljesítmény: tétlenség/dezertálás.\nNem kaptál jutalmat. A hullámmegsemmisítési eredményed nem frissült."
+
+msgid "ribbon/noReward"
+msgstr "A csapatod nem tudta visszaverni az első hullámot.\nNem kapsz jutalmat."
+
+msgid "status/lose"
+msgstr "A CSATA VÉGET ÉRT"
+
+msgid "status/win"
+msgstr "GYŐZELEM"
+
+msgid "subtitle/lose"
+msgstr "Nem sikerült megállítani a támadást"
+
+msgid "subtitle/win"
+msgstr "Szép munka! Új adatok kerültek begyűjtésre."
+
+msgid "teamList/actions"
+msgstr "Gyors műveletek"
+
+msgid "teamList/teammates"
+msgstr "Csapattársak"
+
+msgid "time/record"
+msgstr "ÚJ\nREKORD!"
+
+msgid "title/lose/noWaves"
+msgstr "A CSATA VÉGET ÉRT"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "%(phaseNumber)s. HULLÁM TELJESÍTVE"
+msgstr[1] "%(phaseNumber)s. HULLÁM TELJESÍTVE"
+msgstr[2] "%(phaseNumber)s. HULLÁM TELJESÍTVE"
+
+msgid "title/win"
+msgstr "TELJESÍTETTÉTEK AZ ÖSSZES HULLÁMOT"
+
+msgid "tooltip/ban"
+msgstr "Elfogadhatatlan teljesítmény: tétlenség/dezertálás. A hullámmegsemmisítési eredményed nem frissült."

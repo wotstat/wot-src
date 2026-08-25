@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "Selvä!"
+
+msgid "awardsView/subTitle"
+msgstr "TAISTELUITA KÄYTY: {number}"
+
+msgid "awardsView/title"
+msgstr "TIEDUSTELUTEHTÄVÄ"
+
+msgid "buttonDisable/tooltip"
+msgstr "Ei saatavilla"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Aikataulu"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "Ei voida liittyä taisteluun"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "Taistelut ovat päättyneet"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "Ei voida liittyä taisteluun"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "Tulitauko on voimassa tällä palvelimella. Ole hyvä ja valitse toinen palvelin."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "Voit liittyä taisteluun vain %(levelSubStr)s."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "Yhteensopimaton vaunun taso"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "tason %(levels)s vaunuilla"
+
+msgid "intro/button"
+msgstr "Selvä!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "Palautteesi auttaa meitä kehittämään taistelukenttiä. Kerro meille ajatuksesi uudesta mekaniikasta kartoille ja me lisäämme parhaat ideat peliin."
+
+msgid "intro/interviewInfoTitle"
+msgstr "Tärkeää palautetta"
+
+msgid "intro/modeInfoDescription"
+msgstr "Taistele tasojen VIII–X vaunuilla kartoilla, joilla on uusia mekaniikkoja, vastaa kyselyihin ja saat palkintoja. Viikon kuluttua edistyminen nollataan ja voit ryhtyä ansaitsemaan jälleen palkintoja."
+
+msgid "intro/modeInfoTitle"
+msgstr "Auta meitä kehittämään uusia mekaniikkoja!"
+
+msgid "intro/startEvent"
+msgstr "Tapahtuman alkamiseen: "
+
+msgid "intro/taskInfoDescription"
+msgstr "Tiedustelutehtävissä taistellessasi voit suorittaa päivittäisiä ja Taistelupassin tehtäviä sekä täyttää edistyvien koristeiden ehtoja."
+
+msgid "intro/taskInfoTitle"
+msgstr "Taistele satunnaistaisteluiden säännöillä"
+
+msgid "intro/time/period/day"
+msgstr "{day} p"
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} p {hours} t"
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} t {min} min"
+
+msgid "intro/time/period/minute"
+msgstr "{min} min"
+
+msgid "intro/title"
+msgstr "TIEDUSTELUTEHTÄVÄ"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s ei saa taistella tiedustelutehtävässä."
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "Yhteensopimaton vaunutyyppi"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "Valitse %(levelSubStr)s vaunu osallistuaksesi tiedustelutehtävään."
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "Yhteensopimaton vaunun taso"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Tason %(levels)s vaunu"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s ei voi taistella tiedustelutehtävässä."
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "Yhteensopimaton vaunu"
+
+msgid "mapboxTab"
+msgstr "Tiedustelutehtävä"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Vaihe %(server)s palvelimella on päättynyt"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Palvelin %(server)s\nTaistelut ovat saatavilla vielä seuraavan %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "%(server)s palvelin\nTaistelut tulevat saataville %(time)s kuluttua"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Tulitauko on voimassa kaikilla palvelimilla"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Tämä pelimuoto ei ole saatavilla palvelimella %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Taistelut %(server)s palvelimella ovat saatavilla vielä seuraavan %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Taistelut alkavat %(server)s palvelimella %(time)s kuluttua"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "Tämän pelimuodon taistelut eivät ole saatavilla: kausi on päättynyt."
+
+msgid "primeTimeView/status/untill"
+msgstr "Tulitauko on voimassa palvelimella %(server)s %(startTime)s asti"
+
+msgid "primeTimeView/title"
+msgstr "TIEDUSTELUTEHTÄVÄ"
+
+msgid "primeTimes/availableServer"
+msgstr "Saatavilla oleva palvelin:"
+
+msgid "primeTimes/availableServers"
+msgstr "Saatavilla olevat palvelimet:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "Taistelut ovat päättyneet"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Tämä pelimuoto ei ole saatavilla palvelimella %(serverName)s"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "Taistele taisteluita"
+
+msgid "progression/cardTitle/rating"
+msgstr "Ole {rating} eniten kokemusta ansainneen pelaajan joukossa"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "Ole {rating} eniten kokemusta ansainneen pelaajan joukossa kartalla, jossa on tulipalo"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "Ole {rating} eniten kokemusta ansainneen pelaajan joukossa kartalla, jossa on sumua"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "Ole {rating} eniten kokemusta ansainneen pelaajan joukossa kartalla, jolla on rankkasade"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "Ole {rating} eniten kokemusta ansainneen pelaajan joukossa kartalla, jolla on hiekkamyrskyjä"
+
+msgid "progression/changeAnswer"
+msgstr "Vaihda vastausta"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Taistele tasojen VIII–X vaunuilla uusia mekaniikkoja sisältävillä kartoilla, vastaa palautekyselyihin ja saat palkintoja."
+
+msgid "progression/info/restart"
+msgstr "Eteneminen palkintojen suhteen alkaa alusta %(leftTime)s kuluttua"
+
+msgid "progression/info/title"
+msgstr "Ole %(rating) eniten kokemusta ansainneen pelaajan joukossa: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "TAPAHTUMASTA"
+
+msgid "progression/map_01_karelia"
+msgstr "KARELIA"
+
+msgid "progression/map_02_malinovka"
+msgstr "MALINOVKA"
+
+msgid "progression/map_05_prohorovka"
+msgstr "PROKHOROVKA"
+
+msgid "progression/map_18_cliff"
+msgstr "WESTFIELD"
+
+msgid "progression/map_all"
+msgstr "PELI-\nMEKANIIKAT"
+
+msgid "progression/map_fire"
+msgstr "TULIPALO"
+
+msgid "progression/map_fog"
+msgstr "SUMU"
+
+msgid "progression/map_heavy_rain"
+msgstr "RANKKASADE"
+
+msgid "progression/map_sandstorm"
+msgstr "HIEKKAMYRSKY"
+
+msgid "progression/redirect"
+msgstr "Mene pelimuotoon"
+
+msgid "progression/startInterview"
+msgstr "Osallistu kyselyyn"
+
+msgid "progression/startInterviewTooltip"
+msgstr "Täytä yllä oleva ehto osallistuaksesi kyselyyn."
+
+msgid "progression/startSpecialInterview"
+msgstr "Osallistu kyselyyn"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "Täytä yllä oleva ehto osallistuaksesi kyselyyn."
+
+msgid "progression/subtitle"
+msgstr "Täällä voit vastata kyselyyn uusista mekaniikoista"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s p"
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "progression/title"
+msgstr "TIEDUSTELUTEHTÄVÄ"
+
+msgid "progressionError/description/line1"
+msgstr "Edistymisesi on tallennettu. Voit jatkaa pelaamista."
+
+msgid "progressionError/description/line2"
+msgstr "Voit seurata etenemistäsi ja osallistua pian kyselyyn."
+
+msgid "progressionError/title"
+msgstr "Tiedustelutehtävän tiedot eivät ole hetkellisesti saatavilla"
+
+msgid "questFlag/complete"
+msgstr "Kaikki saadut palkinnot"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "Taistele %(highlightedText)s, vastaa kyselyihin ja saat palkintoja."
+
+msgid "questFlag/frozen/header"
+msgstr "Tiedustelutehtävä ei ole saatavilla"
+
+msgid "questFlag/frozen/text"
+msgstr "Tiedustelutehtävän taistelut eivät ole saatavilla teknisten seikkojen tähden."
+
+msgid "questFlag/highlightedText"
+msgstr "Tasojen VIII–X vaunuilla kartoilla, joilla on uusia mekaniikkoja"
+
+msgid "questFlag/incomplete"
+msgstr "Taisteluita käytävä seuraavan palkinnon saavuttamiseksi: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "Taisteluita käyty:"
+
+msgid "questFlag/surveysTitle"
+msgstr "Kyselyihin osallistuttu: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "Uusia mekaniikkoja sisältävien karttojen tutkiminen alkaa %(day)s"
+
+msgid "selector/tooltip/body"
+msgstr "Uusia mekaniikkoja sisältävien karttojen tutkiminen kestää %(day)s asti"
+
+msgid "selector/tooltip/title"
+msgstr "Aikataulu"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Kauden päättymiseen:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Taisteluaikataulu"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Tänään"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Huomenna"
+
+msgid "serverAlertMessage/button"
+msgstr "Valitse toinen palvelin"
+
+msgid "survey/backBtn"
+msgstr "Takaisin"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "PST-vaunujen"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "telatykkien"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "raskaiden vaunujen"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "kevyiden vaunujen"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "keskiraskaiden vaunujen"
+
+msgid "survey/fire/question/q1"
+msgstr "Nautitko Murovanka kartan pelaamisesta tulipalomekaniikalla?"
+
+msgid "survey/fire/question/q2"
+msgstr "Mikä on mielipiteesi tulen visuaalisesta toteutuksesta Murovanka kartalla?"
+
+msgid "survey/fire/question/q3"
+msgstr "Haluaisitko säätää tulipalon vaikutusta Murovanka kartan pelikokemukseen?"
+
+msgid "survey/fire/question/q4"
+msgstr "Kuinka tarkalleen ottaen haluaisit säätää tulipalon vaikutusta Murovanka kartan pelikokemukseen?"
+
+msgid "survey/fire/question/q5"
+msgstr "Minkä tyyppisillä vaunuilla pelasit Murovanka kartalla?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "Kuinka {value} pelikokemus muuttui Murovanka kartalla?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "Kuinka {value} pelikokemus muuttui Murovanka kartalla?"
+
+msgid "survey/fire/question/q7"
+msgstr "Haluaisitko nähdä tulipaloja satunnaistaisteluiden kartoilla?"
+
+msgid "survey/fire/question/q8"
+msgstr "Mistä tulipalomekaniikassa et pitänyt Murovanka kartalla?"
+
+msgid "survey/fire/question/q9"
+msgstr "Kerro tarvittavista parannuksista."
+
+msgid "survey/fire/response/q1_1"
+msgstr "Kyllä"
+
+msgid "survey/fire/response/q1_2"
+msgstr "En"
+
+msgid "survey/fire/response/q1_3"
+msgstr "En ole varma"
+
+msgid "survey/fire/response/q2_1"
+msgstr "Pidin siitä"
+
+msgid "survey/fire/response/q2_2"
+msgstr "Se on ok"
+
+msgid "survey/fire/response/q2_3"
+msgstr "En pitänyt siitä"
+
+msgid "survey/fire/response/q2_4"
+msgstr "En ole varma"
+
+msgid "survey/fire/response/q3_1"
+msgstr "Kyllä, haluaisin"
+
+msgid "survey/fire/response/q3_2"
+msgstr "Ei, en haluaisi"
+
+msgid "survey/fire/response/q3_3"
+msgstr "En ole varma"
+
+msgid "survey/fire/response/q4_1"
+msgstr "Tehkää siitä voimakkaampi"
+
+msgid "survey/fire/response/q4_2"
+msgstr "Tehkää siitä heikompi"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "PST-vaunujen"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "telatykkien"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "raskaiden vaunujen"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "kevyiden vaunujen"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "keskiraskaiden vaunujen"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "En muista"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "Se parani"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "Se huononi"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "Se ei muuttunut"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "En ole varma"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "Se parani"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "Se huononi"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "Se ei muuttunut"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "En ole varma"
+
+msgid "survey/fire/response/q7_1"
+msgstr "Kyllä, haluaisin"
+
+msgid "survey/fire/response/q7_2"
+msgstr "Ei, en haluaisi"
+
+msgid "survey/fire/response/q7_3"
+msgstr "En ole varma"
+
+msgid "survey/fire/response/q8_1"
+msgstr "Tulipalo rajoittaa ankaralla kädellä saatavilla olevien asemien määrää"
+
+msgid "survey/fire/response/q8_10"
+msgstr "Yksi joukkueista saa edun"
+
+msgid "survey/fire/response/q8_11"
+msgstr "Teknisiä ongelmia"
+
+msgid "survey/fire/response/q8_12"
+msgstr "Muu"
+
+msgid "survey/fire/response/q8_2"
+msgstr "Tulipalo aiheuttaa liikaa vahinkoa"
+
+msgid "survey/fire/response/q8_3"
+msgstr "Viholliset alueen ulkopuolella eivät voi nähdä vaunuani, mutta minäkään en voi nähdä heidän vaunujaan"
+
+msgid "survey/fire/response/q8_4"
+msgstr "Tulipalon sijainti kartalla"
+
+msgid "survey/fire/response/q8_5"
+msgstr "Miltä tulipalo näyttää"
+
+msgid "survey/fire/response/q8_6"
+msgstr "Liian paljon vaikutusta pelikokemukseen"
+
+msgid "survey/fire/response/q8_7"
+msgstr "Liian vähän vaikutusta pelikokemukseen"
+
+msgid "survey/fire/response/q8_8"
+msgstr "Tulipalon efektit häiritsevät taistelua"
+
+msgid "survey/fire/response/q8_9"
+msgstr "Tulipalo pakottaa pelaamaan lähietäisyydeltä"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "PST-vaunujen"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "telatykkien"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "raskaiden vaunujen"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "kevyiden vaunujen"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "keskiraskaiden vaunujen"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "PST-vaunujen"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "telatykkien"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "raskaiden vaunujen"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "kevyiden vaunujen"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "keskiraskaiden vaunujen"
+
+msgid "survey/fog/question/q1"
+msgstr "Nautitko seuraavien karttojen pelaamisesta sumumekaniikalla?"
+
+msgid "survey/fog/question/q10"
+msgstr "Haluaisitko nähdä sumua satunnaistaisteluiden kartoilla?"
+
+msgid "survey/fog/question/q11"
+msgstr "Mistä sumumekaniikassa et pitänyt Fjords kartalla?"
+
+msgid "survey/fog/question/q12"
+msgstr "Mistä sumumekaniikassa et pitänyt Outpost kartalla?"
+
+msgid "survey/fog/question/q13"
+msgstr "Kerro tarvittavista parannuksista."
+
+msgid "survey/fog/question/q2"
+msgstr "Mikä on mielipiteesi sumun visuaalisesta toteutuksesta seuraavilla kartoilla?"
+
+msgid "survey/fog/question/q3"
+msgstr "Haluaisitko säätää sumun vaikutusta kartan pelikokemukseen?"
+
+msgid "survey/fog/question/q4"
+msgstr "Kuinka tarkalleen ottaen haluaisit säätää sumun vaikutusta Fjords kartan pelikokemukseen?"
+
+msgid "survey/fog/question/q5"
+msgstr "Kuinka tarkalleen ottaen haluaisit säätää sumun vaikutusta Outpost kartan pelikokemukseen?"
+
+msgid "survey/fog/question/q6"
+msgstr "Minkä tyyppisillä vaunuilla pelasit Fjords kartalla?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "Kuinka {value} pelikokemus muuttui Fjords kartalla?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "Kuinka {value} pelikokemus muuttui Fjords kartalla?"
+
+msgid "survey/fog/question/q8"
+msgstr "Minkä tyyppisillä vaunuilla pelasit Outpost kartalla?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "Kuinka {value} pelikokemus muuttui Outpost kartalla?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "Kuinka {value} pelikokemus muuttui Outpost kartalla?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "Kyllä, haluaisin"
+
+msgid "survey/fog/response/q10_2"
+msgstr "Ei, en haluaisi"
+
+msgid "survey/fog/response/q10_3"
+msgstr "En ole varma"
+
+msgid "survey/fog/response/q11_1"
+msgstr "Viholliset alueen ulkopuolella eivät voi nähdä vaunuani, mutta minäkään en voi nähdä heidän vaunujaan"
+
+msgid "survey/fog/response/q11_10"
+msgstr "Muu"
+
+msgid "survey/fog/response/q11_2"
+msgstr "Sumun sijainti kartalla"
+
+msgid "survey/fog/response/q11_3"
+msgstr "Miltä sumu näyttää"
+
+msgid "survey/fog/response/q11_4"
+msgstr "Liian paljon vaikutusta pelikokemukseen"
+
+msgid "survey/fog/response/q11_5"
+msgstr "Liian vähän vaikutusta pelikokemukseen"
+
+msgid "survey/fog/response/q11_6"
+msgstr "Sumun efektit häiritsevät taistelua"
+
+msgid "survey/fog/response/q11_7"
+msgstr "Sumu pakottaa pelaamaan lähietäisyydeltä"
+
+msgid "survey/fog/response/q11_8"
+msgstr "Yksi joukkueista saa edun"
+
+msgid "survey/fog/response/q11_9"
+msgstr "Teknisiä ongelmia"
+
+msgid "survey/fog/response/q12_1"
+msgstr "Viholliset alueen ulkopuolella eivät voi nähdä vaunuani, mutta minäkään en voi nähdä heidän vaunujaan"
+
+msgid "survey/fog/response/q12_10"
+msgstr "Muu"
+
+msgid "survey/fog/response/q12_2"
+msgstr "Sumun sijainti kartalla"
+
+msgid "survey/fog/response/q12_3"
+msgstr "Miltä sumu näyttää"
+
+msgid "survey/fog/response/q12_4"
+msgstr "Liian paljon vaikutusta pelikokemukseen"
+
+msgid "survey/fog/response/q12_5"
+msgstr "Liian vähän vaikutusta pelikokemukseen"
+
+msgid "survey/fog/response/q12_6"
+msgstr "Sumun efektit häiritsevät taistelua"
+
+msgid "survey/fog/response/q12_7"
+msgstr "Sumu pakottaa pelaamaan lähietäisyydeltä"
+
+msgid "survey/fog/response/q12_8"
+msgstr "Yksi joukkueista saa edun"
+
+msgid "survey/fog/response/q12_9"
+msgstr "Teknisiä ongelmia"
+
+msgid "survey/fog/response/q1_1"
+msgstr "Kyllä"
+
+msgid "survey/fog/response/q1_2"
+msgstr "En"
+
+msgid "survey/fog/response/q1_3"
+msgstr "En ole varma"
+
+msgid "survey/fog/response/q2_1"
+msgstr "Pidin siitä"
+
+msgid "survey/fog/response/q2_2"
+msgstr "Se on ok"
+
+msgid "survey/fog/response/q2_3"
+msgstr "En pitänyt siitä"
+
+msgid "survey/fog/response/q2_4"
+msgstr "En ole varma"
+
+msgid "survey/fog/response/q3_1"
+msgstr "Kyllä, haluaisin"
+
+msgid "survey/fog/response/q3_2"
+msgstr "Ei, en haluaisi"
+
+msgid "survey/fog/response/q3_3"
+msgstr "En ole varma"
+
+msgid "survey/fog/response/q4_1"
+msgstr "Tehkää siitä voimakkaampi"
+
+msgid "survey/fog/response/q4_2"
+msgstr "Tehkää siitä heikompi"
+
+msgid "survey/fog/response/q5_1"
+msgstr "Tehkää siitä voimakkaampi"
+
+msgid "survey/fog/response/q5_2"
+msgstr "Tehkää siitä heikompi"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "PST-vaunujen"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "telatykkien"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "raskaiden vaunujen"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "kevyiden vaunujen"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "keskiraskaiden vaunujen"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "En muista"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "Se parani"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "Se huononi"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "Se ei muuttunut"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "En ole varma"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "Se parani"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "Se huononi"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "Se ei muuttunut"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "En ole varma"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "PST-vaunujen"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "telatykkien"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "raskaiden vaunujen"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "kevyiden vaunujen"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "keskiraskaiden vaunujen"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "En muista"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "Se parani"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "Se huononi"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "Se ei muuttunut"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "En ole varma"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "Se parani"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "Se huononi"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "Se ei muuttunut"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "En ole varma"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "PST-vaunujen"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "telatykkien"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "raskaiden vaunujen"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "kevyiden vaunujen"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "keskiraskaiden vaunujen"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "PST-vaunujen"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "telatykkien"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "raskaiden vaunujen"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "kevyiden vaunujen"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "keskiraskaiden vaunujen"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "Nautitko seuraavien karttojen pelaamisesta rankkasademekaniikalla?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "Haluaisitko nähdä rankkasateita satunnaistaisteluiden kartoilla?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "Mistä rankkasademekaniikassa et pitänyt Westfield kartalla?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "Mistä rankkasademekaniikassa et pitänyt Fisherman's Bay kartalla?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "Kerro tarvittavista parannuksista."
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "Mikä on mielipiteesi rankkasateen visuaalisesta toteutuksesta seuraavilla kartoilla?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "Haluaisitko säätää rankkasateen vaikutusta kartan pelikokemukseen?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "Kuinka tarkalleen ottaen haluaisit säätää rankkasateen vaikutusta Westfield kartan pelikokemukseen?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "Kuinka tarkalleen ottaen haluaisit säätää rankkasateen vaikutusta Fisherman's Bay kartan pelikokemukseen?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "Minkä tyyppisillä vaunuilla pelasit Westfield kartalla?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "Kuinka {value} pelikokemus muuttui Westfield kartalla?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "Kuinka {value} pelikokemus muuttui Westfield kartalla?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "Minkä tyyppisillä vaunuilla pelasit Fisherman's Bay kartalla?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "Kuinka {value} pelikokemus muuttui Fisherman's Bay kartalla?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "Kuinka {value} pelikokemus muuttui Fisherman's Bay kartalla?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "Kyllä, haluaisin"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "Ei, en haluaisi"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "En ole varma"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "Rankkasateen alueella on liian liukasta"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "Teknisiä ongelmia"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "Muu"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "Viholliset alueen ulkopuolella eivät voi nähdä vaunuani, mutta minäkään en voi nähdä heidän vaunujaan"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "Rankkasateen sijainti kartalla"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "Miltä rankkasade näyttää"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "Liian paljon vaikutusta pelikokemukseen"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "Liian vähän vaikutusta pelikokemukseen"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "Rankkasateen efektit häiritsevät taistelua"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "Rankkasade pakottaa pelaamaan lähietäisyydeltä"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "Yksi joukkueista saa edun"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "Rankkasateen alueella on liian liukasta"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "Teknisiä ongelmia"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "Muu"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "Viholliset alueen ulkopuolella eivät voi nähdä vaunuani, mutta minäkään en voi nähdä heidän vaunujaan"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "Rankkasateen sijainti kartalla"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "Miltä rankkasade näyttää"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "Liian paljon vaikutusta pelikokemukseen"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "Liian vähän vaikutusta pelikokemukseen"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "Rankkasateen efektit häiritsevät taistelua"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "Rankkasade pakottaa pelaamaan lähietäisyydeltä"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "Yksi joukkueista saa edun"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "Kyllä"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "En"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "En ole varma"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "Pidin siitä"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "Se on ok"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "En pitänyt siitä"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "En ole varma"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "Kyllä, haluaisin"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "Ei, en haluaisi"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "En ole varma"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "Tehkää siitä voimakkaampi"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "Tehkää siitä heikompi"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "Tehkää siitä voimakkaampi"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "Tehkää siitä heikompi"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "PST-vaunujen"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "telatykkien"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "raskaiden vaunujen"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "kevyiden vaunujen"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "keskiraskaiden vaunujen"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "En muista"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "Se parani"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "Se huononi"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "Se ei muuttunut"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "En ole varma"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "Se parani"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "Se huononi"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "Se ei muuttunut"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "En ole varma"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "PST-vaunujen"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "telatykkien"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "raskaiden vaunujen"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "kevyiden vaunujen"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "keskiraskaiden vaunujen"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "En muista"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "Se parani"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "Se huononi"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "Se ei muuttunut"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "En ole varma"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "Se parani"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "Se huononi"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "Se ei muuttunut"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "En ole varma"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "Seuraava"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "Selvä!"
+
+msgid "survey/required"
+msgstr "Vastaa kysymykseen jatkaaksesi."
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "PST-vaunujen"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "telatykkien"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "raskaiden vaunujen"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "kevyiden vaunujen"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "keskiraskaiden vaunujen"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "Nautitko Sand River kartan pelaamisesta hiekkamyrskymekaniikalla?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "Mikä on mielipiteesi hiekkamyrskyn visuaalisesta toteutuksesta Sand River kartalla?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "Haluaisitko säätää hiekkamyrskyn vaikutusta Sand River kartan pelikokemukseen?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "Kuinka tarkalleen ottaen haluaisit säätää hiekkamyrskyn vaikutusta Sand River kartan pelikokemukseen?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "Minkä tyyppisillä vaunuilla pelasit Sand River kartalla?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "Kuinka {value} pelikokemus muuttui Sand River kartalla?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "Kuinka {value} pelikokemus muuttui Sand River kartalla?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "Haluaisitko nähdä hiekkamyrskyjä satunnaistaisteluiden kartoilla?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "Mistä hiekkamrskymekaniikassa et pitänyt Sand River kartalla?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "Kerro tarvittavista parannuksista."
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "Kyllä"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "En"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "En ole varma"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "Pidin siitä"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "Se on ok"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "En pitänyt siitä"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "En ole varma"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "Kyllä, haluaisin"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "Ei, en haluaisi"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "En ole varma"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "Tehkää siitä voimakkaampi"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "Tehkää siitä heikompi"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "PST-vaunujen"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "telatykkien"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "raskaiden vaunujen"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "kevyiden vaunujen"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "keskiraskaiden vaunujen"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "En muista"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "Se parani"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "Se huononi"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "Se ei muuttunut"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "En ole varma"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "Se parani"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "Se huononi"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "Se ei muuttunut"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "En ole varma"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "Kyllä, haluaisin"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "Ei, en haluaisi"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "En ole varma"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "Viholliset alueen ulkopuolella eivät voi nähdä vaunuani, mutta minäkään en voi nähdä heidän vaunujaan"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "Muu"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "Hiekkamyrskyn sijainti kartalla"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "Miltä hiekkamyrsky näyttää"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "Liian paljon vaikutusta pelikokemukseen"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "Liian vähän vaikutusta pelikokemukseen"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "Hiekkamyrskyn efektit häiritsevät taistelua"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "Hiekkamyrsky pakottaa pelaamaan lähietäisyydeltä"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "Yksi joukkueista saa edun"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "Teknisiä ongelmia"
+
+msgid "survey/subTitle"
+msgstr "Kiitos osallistumisestasi tähän kyselyyn! Se vie noin kaksi minuuttia. Vastauksiasi käsitellään vain tämän kyselyn tarkoituksiin ja kaikki henkilötiedot poistetaan yksityisyyskäytänteidemme mukaisesti."
+
+msgid "survey/template/final/title"
+msgstr "Kiitos osallistumisestasi tähän kyselyyn!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "KLIKKAA KARTTAA VALITAKSESI SIJAINTI"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "VOIT VALITA KARTALTA KORKEINTAAN KOLME SIJAINTIA"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "Yksityiskohtainen kuvaus (korkeintaan %(maxLength)s merkkiä)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "Sijainti"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "Poista sijainti"
+
+msgid "survey/template/opened/description"
+msgstr "Yksityiskohtainen ongelman kuvaus (korkeintaan %(maxLength)s merkkiä)"
+
+msgid "survey/title/common"
+msgstr "Anna arvosana uusille ominaisuuksille"
+
+msgid "survey/title/map"
+msgstr "%(map)s kartan arvio"

@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Plan assemblé"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Plan  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Plan {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "À l'achat"
+
+msgid "blueprintScreen/button/research"
+msgstr "À la recherche"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Voir dans le garage"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Vous pouvez assembler un plan pour appliquer une réduction sur la recherche du véhicule voulu. Toutefois, vous devrez rechercher le véhicule précédent\nde la branche pour utiliser cette réduction."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Affirmatif !"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Impossible de rechercher"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "Pour créer un fragment de plan, il vous faut :"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "sélectionnez :"
+
+msgid "blueprintScreen/createFragment"
+msgstr "CRÉER UN FRAGMENT :"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Créer des fragments"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Convertir\nun fragment"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Conversion\nindisponible"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "INDISPONIBLE :\nPas assez\nde ressources"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Aller au véhicule"
+
+msgid "blueprintScreen/or"
+msgstr "ou"
+
+msgid "blueprintScreen/research"
+msgstr "RECHERCHER"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Recherche gratuite du véhicule"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Impossible de rechercher"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Réduction sur la recherche :"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Ce véhicule a été recherché et peut être acheté"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Ce véhicule a été recherché et acheté"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "Dans le dépôt :"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Vous pouvez utiliser une réduction de 100 % sur la recherche du {vehicleName} après avoir recherché le véhicule précédent de la branche."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Plan assemblé"
+
+msgid "blueprintScreen/unlocked"
+msgstr "VÉHICULE\nRECHERCHÉ"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Coalition :"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Bloc :"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Alliance :"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Union :"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Universel :"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Coalition"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Bloc"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Alliance"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Union"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(France, Tchécoslovaquie, Suède, Italie)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Allemagne, Japon)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(États-Unis, Royaume-Uni, Pologne)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(URSS, Chine)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Sélectionnez le nombre de fragments nationaux pour créer les fragments de plan du véhicule. \nFragments nationaux %(allianceIcon)%(allianceName) %(allianceNations) disponibles."
+
+msgid "conversionView/topMessage/single"
+msgstr "Sélectionnez les fragments de l'une des nations pour créer un fragment de plan du véhicule.\nFragments nationaux %(allianceIcon)%(allianceName) %(allianceNations) disponibles."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Coût final :"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Coût du fragment de plan :"
+
+msgid "nations/china"
+msgstr "Chine"
+
+msgid "nations/czech"
+msgstr "Tchécoslovaquie"
+
+msgid "nations/france"
+msgstr "France"
+
+msgid "nations/germany"
+msgstr "Allemagne"
+
+msgid "nations/italy"
+msgstr "Italie"
+
+msgid "nations/japan"
+msgstr "Japon"
+
+msgid "nations/poland"
+msgstr "Pologne"
+
+msgid "nations/sweden"
+msgstr "Suède"
+
+msgid "nations/uk"
+msgstr "ROYAUME-UNI"
+
+msgid "nations/usa"
+msgstr "ÉTATS-UNIS"
+
+msgid "nations/ussr"
+msgstr "URSS"

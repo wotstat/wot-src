@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2011-03-18 10:00+0300\nPO-Revision-Date: 2011-03-18 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "notifications/count"
+msgstr "×{count}"
+
+msgid "notifications/manualClaim/button"
+msgstr "Odbierz nagrody"
+
+msgid "notifications/manualClaim/title"
+msgstr "Nagrody za lata służby czekają!"
+
+msgid "notifications/selectVehicles/button"
+msgstr "Wybierz"
+
+msgid "notifications/selectVehicles/title"
+msgstr "Pojazd dostępny za lata\nsłużby"
+
+msgid "notifications/tokens/button"
+msgstr "Do sklepu"
+
+msgid "notifications/tokens/title"
+msgstr "Wymień żetony za lata służby na nagrody!"
+
+msgid "notifications/vehicleSelectionAvailable/title"
+msgstr "Wybierz pojazd, który chcesz!"
+
+msgid "rewardsView/applyBtn"
+msgstr "Tak jest!"
+
+msgid "rewardsView/exchangeCoins"
+msgstr "Wymień swoje żetony na nagrody w Sklepie."
+
+msgid "rewardsView/gotoHangarBtn"
+msgstr "Wyświetl w garażu"
+
+msgid "rewardsView/gotoRewardsBtn"
+msgstr "Do sklepu"
+
+msgid "rewardsView/info"
+msgstr "Więcej o stopniach"
+
+msgid "rewardsView/moreRewardsBtn"
+msgstr "Więcej nagród!"
+
+msgid "rewardsView/moreRewardsWithCountBtn"
+msgstr "Więcej nagród! ({count})"
+
+msgid "rewardsView/selection/available"
+msgstr "{{count}} pojazd dostępny za lata służby"
+
+msgid "rewardsView/selection/received"
+msgstr "OTRZYMANO NAGRODĘ"
+
+msgid "rewardsView/subTitle/otherRewards"
+msgstr "Otrzymałeś także:"
+
+msgid "rewardsView/subTitle/rank/ctg1"
+msgstr "REKRUT"
+
+msgid "rewardsView/subTitle/rank/ctg2"
+msgstr "WOJOWNIK"
+
+msgid "rewardsView/subTitle/rank/ctg3"
+msgstr "DOWÓDCA"
+
+msgid "rewardsView/subTitle/rank/ctg4"
+msgstr "OFICER"
+
+msgid "rewardsView/subTitle/rank/ctg5"
+msgstr "WETERAN"
+
+msgid "rewardsView/subTitle/rank/ctg6"
+msgstr "LEGENDA"
+
+msgid "rewardsView/subTitle/text"
+msgstr "OSIĄGNIĘTO STOPIEŃ {rank}"
+
+msgid "rewardsView/textButton/select"
+msgstr "Wybierz"
+
+msgid "rewardsView/title"
+msgstr "GRATULACJE!"
+
+msgid "rewardsView/wdrcoin/counter"
+msgstr "×%(count)s"
+
+msgid "specialItem/body"
+msgstr "Przyznawane za zasługi w bitwie. Po zakończeniu wydarzenia, wszystkie pozostałe żetony zostaną usunięte."
+
+msgid "specialItem/header"
+msgstr "Żeton za lata służby: {count}"
+
+msgid "tooltip/congratulation/ctg1"
+msgstr "Gratulujemy osiągnięcia stopnia Rekruta"
+
+msgid "tooltip/congratulation/ctg2"
+msgstr "Gratulujemy osiągnięcia stopnia Wojownika"
+
+msgid "tooltip/congratulation/ctg3"
+msgstr "Gratulujemy osiągnięcia stopnia Dowódcy"
+
+msgid "tooltip/congratulation/ctg4"
+msgstr "Gratulujemy osiągnięcia stopnia Oficera"
+
+msgid "tooltip/congratulation/ctg5"
+msgstr "Gratulujemy osiągnięcia stopnia Weterana"
+
+msgid "tooltip/congratulation/ctg6"
+msgstr "Gratulujemy osiągnięcia stopnia Legendy"
+
+msgid "tooltip/medalBlock/label/and"
+msgstr "{abLabel} i {yearsLabel}"
+
+msgid "tooltip/medalBlock/label/ca"
+msgstr "Za udział w alfie"
+
+msgid "tooltip/medalBlock/label/cb"
+msgstr "Za udział w beta teście"
+
+msgid "tooltip/medalBlock/label/duration"
+msgid_plural "plural/tooltip/medalBlock/label/duration"
+msgstr[0] "{{count}} rok służby"
+msgstr[1] "{{count}} lata służby"
+msgstr[2] "{{count}} lat służby"
+
+msgid "tooltip/rank/ctg1"
+msgstr "Rekrut"
+
+msgid "tooltip/rank/ctg2"
+msgstr "Wojownik"
+
+msgid "tooltip/rank/ctg3"
+msgstr "Dowódca"
+
+msgid "tooltip/rank/ctg4"
+msgstr "Oficer"
+
+msgid "tooltip/rank/ctg5"
+msgstr "Weteran"
+
+msgid "tooltip/rank/ctg6"
+msgstr "Legenda"
+
+msgid "tooltip/segment/ctg1"
+msgstr "Mniej niż rok"
+
+msgid "tooltip/segment/ctg2"
+msgstr "1–3 lata"
+
+msgid "tooltip/segment/ctg3"
+msgstr "4–6 lat"
+
+msgid "tooltip/segment/ctg4"
+msgstr "7–9 lat"
+
+msgid "tooltip/segment/ctg5"
+msgstr "10–14 lat"
+
+msgid "tooltip/segment/ctg6"
+msgstr "15 lat"
+
+msgid "vehicle/A134_M24E2_SuperChaffee"
+msgstr "Legendarny czołg lekki o świetnej manewrowości. Pojazd zadaje przyzwoitą ilość uszkodzeń na minutę i ma dobre kąty podniesienia oraz opuszczenia lufy, co pozwala na wykorzystywanie w bitwie nierówności terenu na swoją korzyść."
+
+msgid "vehicle/G158_VK2801_105_SPXXI"
+msgstr "Pojazd jest uzbrojony w działo dużego kalibru i ma niezłe opancerzenie, ale wpływa to na jego dynamikę oraz manewrowość. Czołg jest dość niezgrabny, co sprawia, że jest wyjątkowo skuteczny przy taranowaniu lekko opancerzonych pojazdów."
+
+msgid "vehicle/R160_T_50_2"
+msgstr "Czołg lekki idealny do aktywnego zwiadu na wszystkich etapach bitwy. Jego niewielka sylwetka i duża prędkość pozwalają uniknąć trafienia, co jest bardzo ważne, jeśli się weźmie pod uwagę dość skromną siłę ognia."
+
+msgid "vehicle/R197_KV_1S_MZ"
+msgstr "To jedyny pojazd na tym poziomie posiadający odwrócony automat ładujący. Najlepiej się sprawdza, zadając uszkodzenia seryjne pojazdom przeciwnika lub wspierając ogniem sojuszników."

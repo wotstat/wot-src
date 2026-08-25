@@ -1,0 +1,689 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CSAnimation/applyBtn/label"
+msgstr "Verstanden!"
+
+msgid "CSAnimation/description"
+msgstr "Glückwunsch! Ihr Team ist in die nächste Division aufgestiegen. Gut gemacht!"
+
+msgid "CSAnimation/header"
+msgstr "Division ändern"
+
+msgid "InvitesAndRequestsWindow/accepted"
+msgstr "Akzeptiert"
+
+msgid "InvitesAndRequestsWindow/cancelled"
+msgstr "Abgebrochen"
+
+msgid "InvitesAndRequestsWindow/officerDescription"
+msgstr "Teammitglieder – ein manuell erstelltes Team aus Freunden und geeigneten Spielern."
+
+msgid "InvitesAndRequestsWindow/onlyInvitesCheckbox"
+msgstr "Nur gesendete Einladungen anzeigen"
+
+msgid "InvitesAndRequestsWindow/ownerDescription"
+msgstr "Teammitglieder – ein manuell erstelltes Team aus Freunden und geeigneten Spielern."
+
+msgid "InvitesAndRequestsWindow/playerName"
+msgstr "Name"
+
+msgid "InvitesAndRequestsWindow/rejected"
+msgstr "Abgelehnt"
+
+msgid "InvitesAndRequestsWindow/status"
+msgstr "Status"
+
+msgid "InvitesAndRequestsWindow/title"
+msgstr "Einladungen und Bewerbungen"
+
+msgid "InvitesAndRequestsWindow/windowTitle"
+msgstr "Bewerbungen und Einladungen"
+
+msgid "StaticFormationStatsView/seasonFilter"
+msgstr "Statistik für:"
+
+msgid "TextLoading/loading"
+msgstr "Lade"
+
+msgid "button/chooseVehicles/info/tooltip/description/notSelected"
+msgstr "Keine Fahrzeuge gewählt. Auto-Suche kann nicht gestartet werden."
+
+msgid "button/chooseVehicles/info/tooltip/description/notValid"
+msgstr "Gewähltes Fahrzeug ist nicht bereit. Auto-Suche kann nicht gestartet werden."
+
+msgid "button/chooseVehicles/info/tooltip/description/valid"
+msgstr "Erforderliche Fahrzeuge gewählt. Sie können die Auto-Suche starten."
+
+msgid "button/chooseVehicles/info/tooltip/title"
+msgstr "Fahrzeuge auswählen"
+
+msgid "button/chooseVehicles/selected"
+msgstr "Gewählte Fahrzeuge"
+
+msgid "button/medallion/addSlotSettings"
+msgstr "Hinzufügen"
+
+msgid "button/medallion/availableQuantity"
+msgstr "Vorgabe:"
+
+msgid "button/medallion/chooseVehicle"
+msgstr "Fahrzeug auswählen"
+
+msgid "introView/leftBlock/btnLabel"
+msgstr "Suchen"
+
+msgid "introView/leftBlock/descr"
+msgstr "Wählen Sie ein passendes Team aus der Liste bestehender Teams. Sie müssen die Anforderungen des Kommandanten erfüllen."
+
+msgid "introView/leftBlock/header"
+msgstr "Suche nach Team"
+
+msgid "introView/rightBlock/btnLabel"
+msgstr "Erstellen"
+
+msgid "introView/rightBlock/descr"
+msgstr "Erstellen Sie ein Team mit Freunden oder Spielern, die passende Fahrzeuge haben."
+
+msgid "introView/rightBlock/header"
+msgstr "Team erstellen"
+
+msgid "rallyInfo/profileBtn/Label"
+msgstr "Teamprofil"
+
+msgid "respawn/chatHeader"
+msgstr "Chat-Kanal"
+
+msgid "respawn/enemyTeamStatus/Header"
+msgstr "Gegnerisches Team:"
+
+msgid "respawn/enemyTeamStatus/notReady"
+msgstr "Nicht bereit"
+
+msgid "respawn/enemyTeamStatus/ready"
+msgstr "Bereit!"
+
+msgid "respawn/fight/label"
+msgstr "Team bereit!"
+
+msgid "respawn/fight/status/commander"
+msgstr "Bestätigen Sie, dass das Team bereit ist."
+
+msgid "respawn/fight/status/private"
+msgstr "Warte auf Gefecht …"
+
+msgid "respawn/status/info"
+msgstr "Wählen Sie ein Fahrzeug innerhalb des Zeitlimits."
+
+msgid "respawn/status/ready"
+msgstr "Warten auf den Gefechtsstart …"
+
+msgid "respawn/status/warning"
+msgstr "Bestätigen Sie, dass Sie bereit sind."
+
+msgid "respawn/team/points"
+msgstr "Fahrzeug-Gesamtstufe:"
+
+msgid "respawn/team/teamMembers"
+msgstr "Teammitglieder: %(current)s / %(max)s"
+
+msgid "respawn/team/teamVehiclesStub"
+msgstr "Fahrzeuge: VI – VIII"
+
+msgid "selectedFormation/JoinUnitSection/header"
+msgstr "Ausgewählter Gefechtsraum"
+
+msgid "squadWindow/waitingForBattle"
+msgstr "Zug wartet auf Gefecht"
+
+msgid "unitView/header"
+msgstr "Gefechtsraum"
+
+msgid "window/autoSearch/confirmation/cancelLbl"
+msgstr "Abbrechen"
+
+msgid "window/autoSearch/confirmation/ctxMessage"
+msgstr "Übrige Zeit zur Bestätigung:"
+
+msgid "window/autoSearch/confirmation/ctxSeconds"
+msgstr "s"
+
+msgid "window/autoSearch/confirmation/headerText"
+msgstr "Team gefunden"
+
+msgid "window/autoSearch/confirmation/mainText"
+msgstr "Bereitschaft bestätigen"
+
+msgid "window/autoSearch/confirmation/submitlLbl"
+msgstr "Bereit!"
+
+msgid "window/autoSearch/errorState/cancelLbl"
+msgstr "Abbrechen"
+
+msgid "window/autoSearch/errorState/ctxMessage"
+msgstr "Neues Team suchen?"
+
+msgid "window/autoSearch/errorState/headerText"
+msgstr "Zeit abgelaufen"
+
+msgid "window/autoSearch/errorState/mainText"
+msgstr "Team gefunden,\naber Sie haben die Bereitschaft nicht bestätigt."
+
+msgid "window/autoSearch/errorState/submitlLbl"
+msgstr "Suchen"
+
+msgid "window/autoSearch/searchCommand/cancelLbl"
+msgstr "Abbrechen"
+
+msgid "window/autoSearch/searchCommand/ctxMessage"
+msgstr "Durchschnittliche Wartezeit:"
+
+msgid "window/autoSearch/searchCommand/cxtDnmMessage"
+msgstr "%d Min"
+
+msgid "window/autoSearch/searchCommand/mainText"
+msgstr "Suche passendes Team"
+
+msgid "window/autoSearch/searchEnemy/mainText"
+msgstr "Warte auf Gefecht …"
+
+msgid "window/autoSearch/searchEnemyRespawn/mainText"
+msgstr "Warte auf Gegner …"
+
+msgid "window/autoSearch/waitingPlayers/mainText"
+msgstr "Warte auf Spieler …"
+
+msgid "window/backBtnLbl"
+msgstr "ZURÜCK"
+
+msgid "window/intro/auto/btn"
+msgstr "Auto-Suche"
+
+msgid "window/intro/auto/btn/tooltip/description/disabled"
+msgstr "Es konnte kein Team gefunden werden. Fahrzeuge wurden nicht ausgewählt oder sind nicht bereit zum Gefecht."
+
+msgid "window/intro/auto/btn/tooltip/description/enabled"
+msgstr "Klicken Sie, um automatisch ein Team zu finden und gleich ins Gefecht zu gehen."
+
+msgid "window/intro/auto/btn/tooltip/title"
+msgstr "Auto-Suche"
+
+msgid "window/intro/auto/btnLbl"
+msgstr "Auto-Suche starten"
+
+msgid "window/intro/auto/description"
+msgstr "Teamspieler werden automatisch zugeordnet."
+
+msgid "window/intro/auto/title"
+msgstr "Auto-Suche nach Wertung"
+
+msgid "window/intro/auto/vehicleLbl"
+msgstr "Gewählte Fahrzeuge:"
+
+msgid "window/intro/create/btn/addPlayers"
+msgstr "Einladen"
+
+msgid "window/intro/create/btn/assembleTeam"
+msgstr "Team zusammenstellen"
+
+msgid "window/intro/create/btn/joinTeam"
+msgstr "Beitreten"
+
+msgid "window/intro/create/btn/look"
+msgstr "Teamliste"
+
+msgid "window/intro/create/btn/private/seeStaff"
+msgstr "Teammitglieder"
+
+msgid "window/intro/description"
+msgstr "Teilnehmer sind gleichwertige Teams mit je 7 Spielern.\nErlaubte Fahrzeugstufen: VI bis VIII. Die Gesamtstufe der Fahrzeuge eines Teams muss 54 betragen."
+
+msgid "window/intro/search/btn"
+msgstr "Suchen"
+
+msgid "window/intro/search/description"
+msgstr "Wählen Sie ein passendes Team aus der Liste bestehender Teams. Sie müssen die Anforderungen des Kommandanten erfüllen."
+
+msgid "window/intro/search/title"
+msgstr "Suchen Sie ein Team"
+
+msgid "window/intro/team/description/createBattleRoom"
+msgstr "Gefechtsraum erstellen"
+
+msgid "window/intro/title"
+msgstr "Teamgefecht"
+
+msgid "window/intro/unavailableWaiting"
+msgstr "Warte …"
+
+msgid "window/rosterSlotSettings/bottomResult"
+msgstr "Gewählt:"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/range"
+msgstr "Bereich"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/vehicle"
+msgstr "Fahrzeuge"
+
+msgid "window/rosterSlotSettings/title"
+msgstr "Vorgaben einstellen"
+
+msgid "window/rosterSlotSettings/vehicleTab/cancelBtn"
+msgstr "Abbrechen"
+
+msgid "window/rosterSlotSettings/vehicleTab/headerText"
+msgstr "Geben Sie die Vorgaben für die Fahrzeuge der Teamkameraden an."
+
+msgid "window/rosterSlotSettings/vehicleTab/nationFieldSet"
+msgstr "Nation"
+
+msgid "window/rosterSlotSettings/vehicleTab/submitBtn"
+msgstr "Auswählen"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleLevel"
+msgstr "Stufe"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleType"
+msgstr "Fahrzeugtyp"
+
+msgid "window/staticRallyInfo/cancelBtnLabel"
+msgstr "Zurückziehen"
+
+msgid "window/staticRallyInfo/joinBtnLabel"
+msgstr "Bewerbung einreichen"
+
+msgid "window/staticRallyInfo/joinInfo/alreadyJoined"
+msgstr "Sie sind bereits Mitglied eines Teams."
+
+msgid "window/staticRallyInfo/joinInfo/applicationCooldown"
+msgstr "Bewerbung konnte nicht übermittelt werden."
+
+msgid "window/staticRallyInfo/joinInfo/inProcess"
+msgstr "Bewerbung erwartet Zustimmung"
+
+msgid "window/staticRallyInfo/joinInfo/inProcessOther"
+msgstr "Die Bewerbung wurde bereits eingereicht."
+
+msgid "window/staticRallyInfo/joinInfo/join"
+msgstr "Bewerbung einreichen"
+
+msgid "window/staticRallyInfo/ladderInfo"
+msgstr "Ladder %(league)s. Division %(division)s."
+
+msgid "window/staticRallyInfo/noAwards"
+msgstr "Keine Auszeichnungen"
+
+msgid "window/staticRallyInfo/noRallySelected"
+msgstr "Wählen Sie ein Team aus der linken Liste,\num eine genauere Beschreibung anzusehen."
+
+msgid "window/staticRallyInfo/staticRally/statsWinsPercent"
+msgstr "Siege"
+
+msgid "window/staticRallyInfo/statsBattlesCount"
+msgstr "Gefechte"
+
+msgid "window/title"
+msgstr "Teamgefecht"
+
+msgid "window/unit/applySlotsSettings"
+msgstr "Annehmen"
+
+msgid "window/unit/autoRecruit"
+msgstr "Rekrutieren"
+
+msgid "window/unit/cancelSlotSettings"
+msgstr "Abbrechen"
+
+msgid "window/unit/candidates"
+msgstr "Freiwillige"
+
+msgid "window/unit/candidates/legionaries"
+msgstr "Legionäre"
+
+msgid "window/unit/candidates/team"
+msgstr "Team"
+
+msgid "window/unit/chat"
+msgstr "Chat-Kanal"
+
+msgid "window/unit/closeRoom"
+msgstr "– Raum angezeigt"
+
+msgid "window/unit/description"
+msgstr "Teilnehmer sind gleichwertige Teams mit je 7 Spielern.\nErlaubte Fahrzeugstufen: VI bis VIII. Die Gesamtstufe der Fahrzeuge eines Teams muss 54 betragen."
+
+msgid "window/unit/descriptionDefault"
+msgstr "Beschreibung hinzufügen —"
+
+msgid "window/unit/fight"
+msgstr "Gefecht!"
+
+msgid "window/unit/inviteFriend"
+msgstr "Spieler einladen"
+
+msgid "window/unit/leave"
+msgstr "Raum verlassen"
+
+msgid "window/unit/lockSlot"
+msgstr "Platz sperren"
+
+msgid "window/unit/message/candidate"
+msgstr "Der Teamkommandant wird Sie dem Team hinzufügen."
+
+msgid "window/unit/message/curfew"
+msgstr "Waffenruhe"
+
+msgid "window/unit/message/falloutGroupNotReady"
+msgstr "Eines Ihrer Fahrzeuge ist nicht gefechtsbereit"
+
+msgid "window/unit/message/falloutLevel"
+msgstr "Sie benötigen mindestens ein Fahrzeug der Stufe %(level)s"
+
+msgid "window/unit/message/falloutMin/levelRange"
+msgstr "Fahrzeuge der Stufe %(level)s zur Gruppe hinzufügen"
+
+msgid "window/unit/message/falloutMin/requiredLevel"
+msgstr "Fahrzeug der Stufe %(level)s wählen"
+
+msgid "window/unit/message/fortificationNotAvailable"
+msgstr "Der Modus Festung: Gefechte ist vorübergehend nicht verfügbar"
+
+msgid "window/unit/message/getNotReady"
+msgstr "Klicken, um anzuzeigen, dass Sie nicht bereit sind"
+
+msgid "window/unit/message/getReady"
+msgstr "Bestätigen Sie Ihre Gefechtsbereitschaft."
+
+msgid "window/unit/message/has_frozen_vehicles"
+msgstr "In der Abteilung befindet sich ein zerstörtes Fahrzeug."
+
+msgid "window/unit/message/in_players_matching"
+msgstr "Die Abteilung ist bereit: sammle automatisch Legionäre …"
+
+msgid "window/unit/message/inactivePeriphery"
+msgstr " "
+
+msgid "window/unit/message/inactivePeripheryBattle"
+msgstr "Sie können Ihre Bereitschaft 10 Minuten vor Beginn eines Vorstoßes bestätigen"
+
+msgid "window/unit/message/inactivePeripherySortie"
+msgstr "Sie können Ihre Bereitschaft 10 Minuten vor Beginn eines Scharmützels bestätigen"
+
+msgid "window/unit/message/invalidLevelError/6"
+msgstr "Pro Team ist nur ein Fahrzeug der Stufe VI erlaubt."
+
+msgid "window/unit/message/invalidLevelError/6_7"
+msgstr "Fahrzeuge der Stufe VI und VII sind im selben Team nicht erlaubt."
+
+msgid "window/unit/message/invalidLevelError/7"
+msgstr "Es sind nur zwei Stufe-VII-Fahrzeuge pro Team erlaubt."
+
+msgid "window/unit/message/invalidLevelError/unresolved"
+msgstr "Die Anforderungen bezüglich Fahrzeugstufen wurden nicht erfüllt."
+
+msgid "window/unit/message/level"
+msgstr "Gesamtstufe der Fahrzeuge unzureichend. Erforderlich: %(level)d"
+
+msgid "window/unit/message/maintenance"
+msgstr "Modus vorübergehend nicht verfügbar"
+
+msgid "window/unit/message/minSlots"
+msgstr "Unvollständig"
+
+msgid "window/unit/message/play_limits_is_active"
+msgstr "Zeitlimit abgelaufen. Sie können kein weiteres Gefecht betreten."
+
+msgid "window/unit/message/previewVehicleIsPresent"
+msgstr "Zurück zur Garage und Fahrzeug auswählen"
+
+msgid "window/unit/message/ready"
+msgstr "Die Abteilung ist bereit: suche nach Gegner …"
+
+msgid "window/unit/message/squadInBattle"
+msgstr "Zug im Gefecht"
+
+msgid "window/unit/message/takeSlotInRoster"
+msgstr "Der Abteilung beitreten"
+
+msgid "window/unit/message/unitIsFull"
+msgstr "Der Kommandant nimmt Sie ins Team auf."
+
+msgid "window/unit/message/unitIsLocked"
+msgstr "Sie sind kein Teammitglied. Plätze eingefroren."
+
+msgid "window/unit/message/vehicleInNotReady/broken"
+msgstr "Fahrzeug nicht gefechtsbereit: muss repariert werden."
+
+msgid "window/unit/message/vehicleInNotReady/crewNotFull"
+msgstr "Fahrzeug nicht gefechtsbereit: Besatzung unvollständig."
+
+msgid "window/unit/message/vehicleInNotReady/isInBattle"
+msgstr "Fahrzeug im Gefecht"
+
+msgid "window/unit/message/vehicleInNotReady/notEnoughVehicles"
+msgstr "Nicht genug geeignete Fahrzeuge"
+
+msgid "window/unit/message/vehicleInNotReady/rentIsOver"
+msgstr "Fahrzeug nicht gefechtsbereit: Mietzeitraum abgelaufen."
+
+msgid "window/unit/message/vehicleInNotReady/rotationGroupLocked"
+msgstr "Fahrzeug nicht bereit: Gruppe %(groupNum)s ist gesperrt."
+
+msgid "window/unit/message/vehicleInNotReady/wrongMode"
+msgstr "Gewähltes Fahrzeug ist für diesen Gefechtsmodus nicht geeignet"
+
+msgid "window/unit/message/vehicleInNotReady/wrongUnitData"
+msgstr "Das ausgewählte Fahrzeug entspricht nicht den Vorgaben des Zugkommandanten."
+
+msgid "window/unit/message/vehicleNotSelected"
+msgstr "Wählen Sie ein Fahrzeug fürs Gefecht."
+
+msgid "window/unit/message/vehicleNotValid"
+msgstr "Fahrzeug ist nicht bereit für das Gefecht."
+
+msgid "window/unit/message/vehicleNotValidForEvent"
+msgstr "Das ausgewählte Fahrzeug ist für dieses Event nicht zugelassen"
+
+msgid "window/unit/message/waitCommander"
+msgstr "Warte auf die Entscheidung des Kommandanten …"
+
+msgid "window/unit/message/waiting"
+msgstr "Warte, bis Spieler bereit sind …"
+
+msgid "window/unit/notReady"
+msgstr "Nicht bereit"
+
+msgid "window/unit/openRoom"
+msgstr "– Raum versteckt"
+
+msgid "window/unit/rangeValue"
+msgstr "%(minVal)s – %(maxVal)s"
+
+msgid "window/unit/ready"
+msgstr "Bereit!"
+
+msgid "window/unit/rosterSettingsView/or"
+msgstr "oder"
+
+msgid "window/unit/slot/battleRoyale"
+msgstr "Es wird ein weiterer Spieler benötigt"
+
+msgid "window/unit/slot/emptySlot"
+msgstr "Leer"
+
+msgid "window/unit/slot/freezed"
+msgstr "Eingefroren"
+
+msgid "window/unit/slot/locked"
+msgstr "Gesperrt"
+
+msgid "window/unit/slot/notAllowed"
+msgstr "Gesperrt"
+
+msgid "window/unit/slot/notAvailable"
+msgstr "Gesperrt"
+
+msgid "window/unit/slot/required"
+msgstr "Spieler einladen."
+
+msgid "window/unit/slot/takePlace"
+msgstr "Beitreten"
+
+msgid "window/unit/slotHeaderText"
+msgstr "Vorgaben einstellen"
+
+msgid "window/unit/slotSecondText"
+msgstr "Fügen Sie Anforderungen hinzu, die zeigen, welche Fahrzeuge Sie in Ihrem Team haben wollen. Fügen Sie dem Team Spieler hinzu, zählen diese Voraussetzungen nicht."
+
+msgid "window/unit/team"
+msgstr "Team"
+
+msgid "window/unit/teamMembers"
+msgstr "Plätze: %(current)s / %(max)s"
+
+msgid "window/unit/teamPoints"
+msgstr "Gesamtstufe:"
+
+msgid "window/unit/teamVehicles"
+msgstr "Fahrzeuge:"
+
+msgid "window/unit/teamVehiclesLbl"
+msgstr "Fahrzeuge: %(levelsRange)s"
+
+msgid "window/unit/teamVehiclesStub"
+msgstr "Fahrzeuge: VI – VIII"
+
+msgid "window/unit/unitListView/captain"
+msgstr "Teamkommandant"
+
+msgid "window/unit/unitListView/clubName"
+msgstr "Teamname"
+
+msgid "window/unit/unitListView/commander"
+msgstr "Kommandant"
+
+msgid "window/unit/unitListView/description"
+msgstr "Beschreibung"
+
+msgid "window/unit/unitListView/paginationDown"
+msgstr "Schwächer"
+
+msgid "window/unit/unitListView/paginationUp"
+msgstr "Stärker"
+
+msgid "window/unit/unitListView/players"
+msgstr "Zusammenstellung"
+
+msgid "window/unit/unitName"
+msgstr "Team %(commanderName)s"
+
+msgid "window/unit/unlockSlot"
+msgstr "Platz entsperren"
+
+msgid "window/unitListView/create/btn"
+msgstr "Raum erstellen"
+
+msgid "window/unitListView/enterBtn/common"
+msgstr "Freiwilliger"
+
+msgid "window/unitListView/enterBtn/legionary"
+msgstr "Beitreten"
+
+msgid "window/unitListView/enterBtn/member"
+msgstr "Beitreten"
+
+msgid "window/unitListView/enterText/legionary"
+msgstr "Als Legionär beitreten"
+
+msgid "window/unitListView/enterText/member"
+msgstr "Dem Team beitreten"
+
+msgid "window/unitListView/foundTeamsDescription"
+msgstr "Die folgenden Teams suchen nach Spielern und haben offene Plätze."
+
+msgid "window/unitListView/noItems"
+msgstr "Keine Teams gefunden."
+
+msgid "window/unitListView/noSearchResults/btn"
+msgstr "Zurück zur Liste"
+
+msgid "window/unitListView/noSearchResults/description"
+msgstr "Es wurde kein Team mit diesem Namen gefunden."
+
+msgid "window/unitListView/noSearchResults/header"
+msgstr "Keine Suchergebnisse"
+
+msgid "window/unitListView/noTeams/description"
+msgstr "Es erfüllen aktuell keine Teams die Suchkriterien. Versuchen Sie es später noch einmal."
+
+msgid "window/unitListView/noTeams/header"
+msgstr "Team nicht gefunden"
+
+msgid "window/unitListView/noUnitSelected"
+msgstr "Wählen Sie ein Team aus der linken Liste,\num eine genauere Beschreibung anzusehen."
+
+msgid "window/unitListView/refreshList"
+msgstr "Liste aktualisieren"
+
+msgid "window/unitListView/renderer/next"
+msgstr "Weiter"
+
+msgid "window/unitListView/renderer/previous"
+msgstr "Vorherige"
+
+msgid "window/unitListView/renderer/requiredVehicles"
+msgstr "Fahrzeuge benötigt"
+
+msgid "window/unitListView/renderer/showMore"
+msgstr "20 weiter anzeigen"
+
+msgid "window/unitListView/selectedTeam"
+msgstr "Team"
+
+msgid "window/unitListView/sort/label"
+msgstr "Wertung:"
+
+msgid "window/unitListView/team"
+msgstr "Zusammenstellung"
+
+msgid "window/unitListView/teamDescription"
+msgstr "Team-Beschreibung"
+
+msgid "window/unitListView/title"
+msgstr "Gefechtsräume"
+
+msgid "window/unitListView/vehicles"
+msgstr "Fahrzeuge"
+
+msgid "window/vehicleSelector/buttons/cancel"
+msgstr "Abbrechen"
+
+msgid "window/vehicleSelector/buttons/select"
+msgstr "Auswählen"
+
+msgid "window/vehicleSelector/filters/all"
+msgstr "Alle"
+
+msgid "window/vehicleSelector/filters/allLevels"
+msgstr "Alle Stufen"
+
+msgid "window/vehicleSelector/filters/level"
+msgstr "%(levelNum)d Stufe"
+
+msgid "window/vehicleSelector/filters/matches"
+msgstr "Nur geeignete Fahrzeuge anzeigen"
+
+msgid "window/vehicleSelector/info/intro"
+msgstr "Sie werden mit einem der gewählten Fahrzeuge ins Gefecht gehen. Erlaubte Fahrzeugstufen: VI bis VIII\n\nEin komfortables Spiel erhalten Sie mit leichten, mittleren oder schweren Panzern."
+
+msgid "window/vehicleSelector/info/respawn"
+msgstr "Wählen Sie ein Fahrzeug der Stufe VI bis VIII, mit dem Sie kämpfen möchten."
+
+msgid "window/vehicleSelector/info/search"
+msgstr "Sie werden mit einem der gewählten Fahrzeuge ins Gefecht gehen. Erlaubte Fahrzeugstufen: VI bis VIII"
+
+msgid "window/vehicleSelector/info/unit"
+msgstr "Wählen Sie ein Fahrzeug der Stufe VI bis VIII, mit dem Sie kämpfen möchten."
+
+msgid "window/vehicleSelector/title"
+msgstr "Fahrzeuge auswählen"

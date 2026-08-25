@@ -1,0 +1,233 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2025-04-22 10:00+0300\nPO-Revision-Date: 2025-04-22 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bonus/credits/description"
+msgstr "Hanki krediittibonus ansaitaksesi enemmän taistelusta!"
+
+msgid "bonus/credits/title"
+msgstr "Krediitit"
+
+msgid "bonus/crew/description"
+msgstr "Hanki miehistökokemusbonus ansaitaksesi enemmän taistelusta!"
+
+msgid "bonus/crew/title"
+msgstr "Miehistökokemus"
+
+msgid "bonus/crystal/description"
+msgstr "Hanki arvopaperibonus ansaitaksesi niitä lisää taistelusta!"
+
+msgid "bonus/crystal/title"
+msgstr "Arvopaperit"
+
+msgid "bonus/events/description"
+msgstr "Saat matkalla ainutlaatuisia tarinoita palkintojen oheen!"
+
+msgid "bonus/events/title"
+msgstr "Tapahtumat"
+
+msgid "bonus/freeXP/title"
+msgstr "vapaaseen kokemukseen"
+
+msgid "bonus/gold/title"
+msgstr "Kultaa"
+
+msgid "bonus/showoff/description"
+msgstr "Näytä uskollinen seuralaisesi maailmalle!"
+
+msgid "bonus/showoff/title"
+msgstr "Esittely"
+
+msgid "bonus/tankmenXP/description"
+msgstr "Hanki taistelukokemusbonus ansaitseksi enemmän taistelusta!"
+
+msgid "bonus/tankmenXP/title"
+msgstr "Taistelukokemus"
+
+msgid "breedName/dog_1"
+msgstr "Saksanpaimenkoira"
+
+msgid "breedName/dog_2"
+msgstr "Labrador"
+
+msgid "eventView/button"
+msgstr "Selvä"
+
+msgid "infoPageEntryPoint"
+msgstr "Kuinka ystävystyn lemmikkini kanssa?"
+
+msgid "message/petAdded/button"
+msgstr "Pesään"
+
+msgid "message/petAdded/header"
+msgstr "Uusi %(petType)s lisätty tilillesi"
+
+msgid "message/petAdded/text"
+msgstr "%(petBreed)s lisätty pesään"
+
+msgid "message/petBuy/success"
+msgstr "%(petName)s ostettu onnistuneesti. Käytetty: %(price)s."
+
+msgid "message/server_error"
+msgstr "Toiminto ei ole väliaikaisesti saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "message/synergyLevelUp/header"
+msgstr "%(petName)s lemmikin synergiataso on kasvanut!"
+
+msgid "message/synergyLevelUp/text"
+msgstr "Uusia animaatioita on nyt saatavilla. Jatka vuorovaikuttamista avataksesi lisää!"
+
+msgid "message/synergyMaxLevel/header"
+msgstr "%(petName)s lemmikin synergiataso on kasvanut!"
+
+msgid "message/synergyMaxLevel/text"
+msgstr "Uusia animaatioita on saatavilla"
+
+msgid "petDescription/dog_1"
+msgstr "Saksanpaimenkoira liikkuu hiljaa halki taistelukentän aistit terävinä. Kun räjähdys pisti sen hoitajan tonttiin, raahasi koira kaatuneen miehen suojaan ja suojasi häntä, kunnes pelastajat saapuivat paikalle. Haavoittunut, mutta uskollinen; aina rinnalla. Todellinen sotilaan vartija."
+
+msgid "petDescription/dog_2"
+msgstr "Tämä eloisa labrador on aina valmis seikkailuun ja uskollinen seuralainen, joka haukkuu hyväksyvästi ihmisten naurulle ja heiluttaa häntäänsä ystävystyessään. Huhun mukaan hänet on nähty kahdessa paikassa yhtä aikaa, mutta kukaan ei vielä ole saanut selville, miten se tapahtui."
+
+msgid "petEventTooltip/body"
+msgstr "%(petName)s löysi jotain, kun olit poissa! Tutustu siihen!"
+
+msgid "petHouseMarker/default"
+msgstr "Lemmikin pesä"
+
+msgid "petHouseMarker/pet"
+msgstr "Pesä: {{petName}}"
+
+msgid "petSettings/cancelButton"
+msgstr "Peruuta"
+
+msgid "petSettings/naming/subtitle"
+msgstr "Nimeä lemmikkisi vapaasti uudelleen"
+
+msgid "petSettings/naming/tip/subtitle"
+msgstr "Nimeä lemmikkisi uudelleen"
+
+msgid "petSettings/naming/tip/title"
+msgstr "Vaihda nimeä"
+
+msgid "petSettings/naming/title"
+msgstr "Lemmikin nimi"
+
+msgid "petSettings/saveButton/label"
+msgstr "Tallenna"
+
+msgid "petSettings/uniqueName/tip/subtitle"
+msgstr "Tällä lemmikillä on ainutlaatuinen nimi, jota ei voi vaihtaa."
+
+msgid "petSettings/uniqueName/tip/title"
+msgstr "Ei saatavilla"
+
+msgid "petSettings/visibility/select/always"
+msgstr "Näytä aina"
+
+msgid "petSettings/visibility/select/disableAnimation"
+msgstr "Poista animaatiot käytöstä"
+
+msgid "petSettings/visibility/select/onlyIntoPetPlace"
+msgstr "Näytä vain tallissa"
+
+msgid "petSettings/visibility/subtitle"
+msgstr "Voit lähettää huonosti käyttäytyvän lemmikin talliin."
+
+msgid "petSettings/visibility/tip/subtitle"
+msgstr "Vaihda lemmikkisi näkyvyyttä"
+
+msgid "petSettings/visibility/tip/title"
+msgstr "Lemmikin näkyvyys"
+
+msgid "petSettings/visibility/title"
+msgstr "Lemmikin näkyvyys"
+
+msgid "petStorage/petBonus/title"
+msgstr "Aktiivinen bonus:"
+
+msgid "petStorage/petBonus/tooltip/content"
+msgstr "Bonus huomioidaan palkinnossa taistelun lopputuloksesta riippumatta. Kun raja on saavutettu, ei bonusta enää käytetä."
+
+msgid "petStorage/petCard/promo"
+msgstr "UUTTA"
+
+msgid "petStorage/progressbarBonuses"
+msgstr "Bonukset koskevat satunnaistaisteluita."
+
+msgid "petStorage/progressbarDescription"
+msgstr "Parantaa palkintoja rajoitetussa määrässä taisteluita joka päivä."
+
+msgid "petStorage/progressbarTitle"
+msgstr "Taistelubonusta jäljellä"
+
+msgid "petStorage/progressbarTooltip/content"
+msgstr "Saatavilla olevien taistelubonusten määrä nollautuu huomenna. Per taistelu käytetään yksi bonus ja palkinnot saa riippumatta taistelun tuloksesta."
+
+msgid "petStorage/progressbarTooltip/title"
+msgstr "Saatavilla olevat bonukset"
+
+msgid "petStorage/progressbarWarning"
+msgstr "Soveltumaton pelimuoto. Bonukset eivät ole käytössä."
+
+msgid "petStorage/status/select"
+msgstr "Valitse"
+
+msgid "petStorage/status/selected"
+msgstr "Valittu"
+
+msgid "petStorage/title"
+msgstr "Pesä"
+
+msgid "petStorageTooltip/bonus/caption"
+msgstr "Taisteluita jäljellä. Nollautuu huomenna"
+
+msgid "petStorageTooltip/bonus/currentBonus"
+msgstr "{{value}} kustakin taistelusta"
+
+msgid "petStorageTooltip/bonus/inProgress"
+msgstr "Taisteluita jäljellä"
+
+msgid "petStorageTooltip/bonus/title"
+msgstr "Bonus"
+
+msgid "petStorageTooltip/warning/unsuitableMode"
+msgstr "Soveltumaton pelimuoto. Bonus ei ole käytössä."
+
+msgid "petType/dog"
+msgstr "koira"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "promotion/bonuses/text_1"
+msgstr "Bonus koskee vain satunnaistaisteluita eikä ole voimassa jokaisessa taistelussa."
+
+msgid "promotion/bonuses/text_2"
+msgstr "Tapahtumat ovat saatavilla satunnaistaisteluissa."
+
+msgid "promotion/button/challenge"
+msgstr "Tehtävät"
+
+msgid "promotion/button/purchase"
+msgstr "Kauppaan"
+
+msgid "promotion/challengeInfo/text_1"
+msgstr "Tehtävän tiedot"
+
+msgid "promotion/challengeInfo/text_2"
+msgstr "Saatavilla ostettavaksi pelinsisäisen Kaupan erityisestä tapahtumapaketista."
+
+msgid "promotion/challengeInfo/title_1"
+msgstr "Tehtävät"
+
+msgid "promotion/challengeInfo/title_2"
+msgstr "Kuinka saada"
+
+msgid "synergyTooltip/description/done"
+msgstr "Jokainen lemmikkisynergian taso vahvistaa ystävyyttänne. Taistelutoveri rinnallasi on hienoin liittolainen, mitä voi toivoa. Tämä taso laskee, jos olet epäaktiivinen pitkään."
+
+msgid "synergyTooltip/description/inProgress"
+msgstr "Vuorovaikuta lemmikkisi kanssa nostaaksesi ystävyystasoa. Maksimitason saavuttaminen tuo sinulle taistelutoverin statuksen. Tämä taso laskee, jos olet epäaktiivinen pitkään."
+
+msgid "synergyTooltip/title"
+msgstr "Toverin status"

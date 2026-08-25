@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "eldkraft"
+
+msgid "categories/mobility"
+msgstr "rörlighet"
+
+msgid "categories/stealth"
+msgstr "spaning"
+
+msgid "categories/survivability"
+msgstr "överlevnad"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "Bekräfta!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "Avbryt"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "Om du tagit bort anpassningar kan du köpa dem igen för krediter."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "Om du tagit bort anpassningar kan du köpa dem igen."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "Avluta alla Dubbelanpassningar gratis?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "Om du tagit bort anpassningen kan du köpa den igen för krediter."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "Om du tagit bort anpassningen kan du köpa dem igen."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "Ta bort Dubbelanpassningen %(modification)s gratis?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "KÖP ANPASSNINGAR"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "VÄLJ PLATSKATEGORI"
+
+msgid "hint/entryPoint"
+msgstr "ANPASSNINGAR TILLGÄNGLIGA"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "KLICKA FÖR ATT VÄXLA TILL\nTILLÄGGSLAST"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "KLICKA FÖR ATT VÄXLA TILL\nSTANDARDLAST"
+
+msgid "hint/vehiclePreview"
+msgstr "FÖRÄNDRADE VAGNSEGENSKAPER"
+
+msgid "postProgressionIntro/okButton"
+msgstr "Uppfattat!"
+
+msgid "postProgressionIntro/title"
+msgstr "FÄLTANPASSNING"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "Specialanpassning %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "Klicka för att se förändringar av vagnens egenskaper när du uppnått nivån och markera de anpassningar som används."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "Dubbelanpassning %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "Fältanpassningsnivå"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "Tillgängligt när du köpt vagnen"
+
+msgid "researchEntry/status/notResearched"
+msgstr "Tillgängligt när vagnen uppnått elitstatus"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "Tillgängligt när du har köpt vagnen och den uppnått elitstatus"
+
+msgid "researchEntry/title"
+msgstr "FÄLTANPASSNING"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "Öka"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "Avbryt"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} och {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "Tilläggslast"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "Plats"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "Standardlast"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "tillgång till Specialanpassningar: {name1} och {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "tillgång till Specialanpassningar: {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "tillgång till Specialanpassning: {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "tillgång till Specialanpassningar: {name1}, {name2} och {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "Tillgång till Dubbelanpassning nivå {numbers}"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "Tillgång till Dubbelanpassning nivå {number}"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "Du får: {unlockedItems}."
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "Öka Standardanpassningsnivån till {level}?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "Öka Standardanpassningsnivån?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "Totalt:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "Kategorival"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "Tillgängliga kategorier: %(roles)."
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "Vald kategori: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "Möjlighet att välja en kategori för andra utrustningsplatsen på vagnen."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "Val av kategori för första platsen"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "Kategorival (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "Andra platsens kategori"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "Välj kategori"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "Köp och ändra"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "Växla"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "Avbryt"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "Du kan välja en ny kategori för denna plats för %(price)"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "Du har valt kategori för andra utrustningsplatsen. Du kan välja en ny platskategori för %(price)"
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "Växelkurs: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "Växlingen ej genomförd: ytterligare %(gold) krävs"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "Välj en kategori för andra utrustningsplatsen"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "Välj en ny kategori för andra utrustningsplatsen"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "Kan inte välja en ny kategori för andra utrustningsplatsen: ytterligare %(credits) krävs"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "Totalt:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "Möjlighet att utrusta dig med en extra uppsättning {cream_Open}utrustning{cream_Open} och {cream_Close}anvisningar.{cream_Close}"
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "Möjlighet att utrusta dig med en extra uppsättning {cream_Open}granater{cream_Open} och {cream_Close}förnödenheter.{cream_Close}"
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "Tilläggslast"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "Standardlast"
+
+msgid "setupTooltipView/tip"
+msgstr "Du kan växla mellan Huvud- och Alternativ konfiguration för vagnen i garaget och även under nedräkningen innan striden."
+
+msgid "setupTooltipView/title"
+msgstr "Konfigurationsalternativ: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)Tilläggslasten%(/accent) är en del av vagnens konfiguration och består av %(accent)utrustning och anvisningar%(/accent). När du fått tillgång till den Alternativa konfigurationen kan du %(accent)växla mellan olika varianter av%(/accent) Tilläggslast under nedräkningen till striden."
+
+msgid "slides/additionalEquipment/title"
+msgstr "TILLÄGGSLAST"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "När du uppnått en viss Fältanpassningsnivå får vagnen tillgång till en %(accent)Alternativ konfiguration%(/accent) där du kan förbereda %(accent)en alternativ uppsättning utrustning, ammunition, förnödenheter och anvisningar%(/accent) i ditt garage. Den ersätter inte Huvudkonfigurationen utan ger dig nya möjligheter. Du kan få en bild av kartan och laguppställningen under nedräkningen före striden och %(accent)välja en av de två konfigurationerna%(/accent). Det gör dig bättre förberedd för striden du står inför."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "KONFIGURATIONSALTERNATIV"
+
+msgid "slides/baseModifications/description"
+msgstr "%(accent)Standardanpassningar%(/accent) ger en bonus till %(accent)en av vagnens egenskaper%(/accent) och låser upp Dubbelanpassningar. Dessa anpassningar är gratis att implementera, men kräver stridserfarenhet eller Fri erfarenhet för att forskas fram."
+
+msgid "slides/baseModifications/title"
+msgstr "STANDARDANPASSNINGAR"
+
+msgid "slides/extraModification/description"
+msgstr "%(accent)Specialanpassningar%(/accent) låser upp en Alternativ konfiguration för vagnen och låter dig %(accent)välja en kategori%(/accent) för den andra utrustningsplatsen (för vagnar klass VIII–X). Du kan ändra ditt kategorival för krediter."
+
+msgid "slides/extraModification/title"
+msgstr "SPECIALANPASSNING: ROLLPLATS"
+
+msgid "slides/fieldModernization/description"
+msgstr "Fältanpassning är förmåga an att skapa en variant av en vagn som passar ännu bättre i sin roll genom att %(accent)ändra dess egenskaper%(/accent) med hjälp av olika %(accent)anpassningar%(/accent). Varje anpassning blir tillgänglig när föregående anpassning forskats fram."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "FÄLTANPASSNING"
+
+msgid "slides/fieldModernization/title"
+msgstr "FÖRÄNDRINGAR AV VAGNSEGENSKAPER"
+
+msgid "slides/modificationTree/description"
+msgstr "Anpassningsträdet är tillgängligt för forskningsbara- och samlarvagnar %(accent)klass VI–X%(/accent) som uppnått %(accent)Elitstatus%(/accent). Anpassningar för special-, pris-, belönings- och Premiumvagnar är tillgängliga direkt."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "FORSKA FRAM ANPASSNINGAR"
+
+msgid "slides/modificationTree/title"
+msgstr "FORSKA FRAM ANPASSNINGAR"
+
+msgid "slides/pairedModifications/description"
+msgstr "%(accent)Dubbelanpassningar%(/accent) förbättrar en av vagnens egenskaper och %(accent)försämrar en annan%(/accent). Det krävs stridserfarenhet eller Fri erfarenhet för att forska fram anpassningar och krediter för att implementera dem. Du kan %(accent)ta bort%(/accent) anpassningen %(accent)gratis%(/accent).\nOm vagnen säljs sparas Standard- och Specialanpassningar, medan Dubbelanpassningar tas bort."
+
+msgid "slides/pairedModifications/title"
+msgstr "DUBBELANPASSNINGAR"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)Standardlasten%(/accent) är en del av vagnens konfiguration och består av %(accent)ammunition och förnödenheter%(/accent). När du fått tillgång till den Alternativa konfigurationen kan du %(accent)växla mellan olika varianter av%(/accent) Standardlast under nedräkningen till striden."
+
+msgid "slides/requiredEquipment/title"
+msgstr "STANDARDLAST"
+
+msgid "slides/roleInBattle/description"
+msgstr "Till skillnad från vagnstyp speglar vagnens roll mer vagnens effektivaste %(accent)stridstaktik%(/accent) och bestämmer vilket %(accent)Anpassningsträd%(/accent) som den har tillgång till."
+
+msgid "slides/roleInBattle/title"
+msgstr "VAGNENS STRIDSROLL"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "Anpassningar förändrar en vagns egenskaper, ger tillgång till %(accent)den Alternativa konfigurationen%(/accent) och låter dig välja en kategori för %(accent)andra utrustningsplatsen%(/accent)."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "Den Alternativa konfigurationen är en andra uppsättning %(accent)utrustning, ammunition, förnödenheter och anvisningar%(/accent). Du kan växla mellan konfigurationer."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "Låter dig välja en kategori för %(accent)andra utrustningsplatsen%(/accent). Påverkar direkt vagnens stridseffektivitet."
+
+msgid "slides/specialModifications/title"
+msgstr "ANPASSNINGAR, ALTERNATIV KONFIGURATION, PLATSKATEGORI"
+
+msgid "tooltips/entry_point/description"
+msgstr "Möjligheten att ytterligare ändra vagnens egenskaper."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "Framforskade moduler och vagnar: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "Framforskade moduler: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "Fältanpassning"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "Tillgängligt när du köpt vagnen."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "Tillgängligt när vagnen uppnått elitstatus."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "Tillgängligt när du har köpt vagnen och den uppnått elitstatus."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "Vi ber om ursäkt för besväret. Försök igen senare."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "Specialanpassning ej tillgänglig"
+
+msgid "tooltips/feature/subTitle"
+msgstr "Specialanpassning %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "Tjäna dem i strid, sälj överblivna delar från förrådet eller växla guld för att få mer."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "Krediter saknas"
+
+msgid "tooltips/pairModification/demount"
+msgstr "Demontering"
+
+msgid "tooltips/pairModification/level"
+msgstr "Dubbelanpassning %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "Förändrade tekniska egenskaper:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "Demontering (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "Köp (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "Köp"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "Klicka för att se hur vagnens tekniska egenskaper förändras vid användning av denna anpassning."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "Om du tar bort anpassningen kan du köpa valfri anpassning från detta par för krediter."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "När du köper denna anpassning tas den redan installerade anpassningen från detta par automatiskt bort."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "Ytterligare anpassning inköpt"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "Nå Fältanpassningsnivå %(level) för att få tillgång till denna anpassning"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "Anpassningen ej tillgänglig"
+
+msgid "tooltips/priceBlock/free"
+msgstr "Gratis"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "saknas:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "Uppskattat värde. Exakt värde anges i vagnsegenskaperna."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "Använd"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "Avbryt"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "Återställ"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "Anpassningar för %(title)s"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "Lägg till i jämförelselista"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "Förstör alla Dubbelanpassningar"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "Klicka för att förstöra alla Dubbelanpassningar"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "Förstör"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "Förhandsvisa"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "Välj ny kategori"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "Innan strid"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "Välj"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "Aktivera/avaktivera val av standardlast med utrustning och anvisningar under nedräkningen innan striden.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "Aktivera/avaktivera val av tilläggslast med ammunition och förnödenheter under nedräkningen innan striden.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "När detta alternativ är avaktiverat används konfigurationen som valts i garaget."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "Val innan strid"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "Vagnen är upptagen i strid."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "Vagnen är låst."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "Vagnen behöver repareras."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "Vagnen ingår i en taktiskt enhet."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "Kan inte välja en platskategori: Vagnen finns inte i garaget."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "Vagnshyran är slut."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "Vagnen är upptagen i strid."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "Vagnen är låst."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "Vagnen behöver repareras."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "Vagnen ingår i en taktiskt enhet."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "Kan inte köpa: Vagnen finns inte i garaget."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "Vagnshyran är slut."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "Klicka för att förstöra en Dubbelanpassning."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "Förstör"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "eller"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "Högsta nivå för Fältanpassningar"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "Tillgänglig för vagnar klass {minAllowedLevel}—{maxAllowedLevel}"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "Tillgänglig för vagnar klass {allowedLevel}"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "GÖM EGENSKAPSVÄRDEN"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "Permanenta bonusar: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "Permanent bonus: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "Permanenta bonusar: %(bonus1) och %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "Höj nivån för att få de permanenta bonusarna: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "Höj nivån för att få den permanenta bonusen: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "Höj nivån för att få de permanenta bonusarna: %(bonus1) och %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "Höj nivå"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "Öka till nivå %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "Höj nivå för att få:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "Förbättrade egenskaper"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "Specialanpassningar"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "Specialanpassning {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "Dubbelanpassningar"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "Dubbelanpassning {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "Till moduler"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "Fältanpassning ej tillgänglig. Vagnen är i strid."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "Fältanpassning ej tillgänglig. Vagnen är låst."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "Fältanpassning ej tillgänglig. Vagnen ej reparerad."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "Möjligheten att ytterligare förändra vagnens egenskaper blir tillgänglig när vagnen uppnått elitstatus."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "Fältanpassning ej tillgänglig. Vagnen ingår i en taktisk enhet."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "Du måste ha vagnen i ditt garage för att kunna forska fram anpassningar och höja Fältanpassningsnivån."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "Fältanpassningar ej tillgängliga för hyrvagnar. Köp vagnen för att låsa upp Fältanpassningar."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "Fältanpassning ej tillgänglig. Hyrestiden är över. Förläng vagnshyran för att låsa upp Fältanpassningar."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "VISA EGENSKAPSVÄRDEN"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "Möjligheten att ytterligare förändra vagnens egenskaper. Den blir tillgänglig när vagnen uppnått elitstatus."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "Fältanpassning"

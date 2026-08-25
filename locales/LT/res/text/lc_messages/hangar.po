@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "Pirkti"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "Bus parinkta ši ekipuotė: %(consumables)s."
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "Pirkti ekipuotę"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s įgulos nariai"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Šiai mašinai jau turite įgulą šiai mašinai"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s įgulos nariai."
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "Pasamdyti naujus įgulos narius"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "čia."
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Kompanija Wargaming naudoja skaitinę ir raidinę kombinaciją T-34 bendrai paskirčiai norėdama nurodyti realius tankus ir jokiais ryšiais nėra susijusi su tokius vardus turinčiais prekiniais ženklais. Daugiau sužinokite {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "Papildyti amuniciją"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "Parinkti ekipuotę"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "Vieta garaže"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "Iškeisti"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "Nemokamai"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "Pasamdyti %(count)s įgulos narius"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "Nuomojami"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "Išsinuomoti"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "Nuoma 30 dienų"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "Nuoma 3 dienų"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "Nuoma 7 dienų"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "%(days)s dienų nuoma"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "Fronto linijos etapas"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "Fronto linijos sezonas"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "Reitinguojamų mūšių etapas"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "Reitinguojamų mūšių sezonas"
+
+msgid "buyVehicleWindow/restore"
+msgstr "Susigrąžinti"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "Neribota"
+
+msgid "buyVehicleWindow/title"
+msgstr "Konfigūracijos"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "Atsistatymas"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "Pirkti"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "Iškeitimas"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "Iškeitimas"
+
+msgid "carousel/filters/allVehicle"
+msgstr "Visos mano mašinos"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "Įgula"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "Charakteristikos"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} mūšis"
+msgstr[1] "{{count}} mūšiai"
+msgstr[2] "{{count}} mūšių"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} diena"
+msgstr[1] "{{count}} dienos"
+msgstr[2] "{{count}} dienų"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} valanda"
+msgstr[1] "{{count}} valandos"
+msgstr[2] "{{count}} valandų"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} pergalė"
+msgstr[1] "{{count}} pergalės"
+msgstr[2] "{{count}} pergalių"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "Paspaudę atidarysite savo mašinų grojaraščius"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "Mano mašinos"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "Įgulos treniravimas, pertreniravimas ir valdymas."
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "Įgulos valdymas"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "Mašinos papuošimai: pritaikomi 2D/3D stiliai ir kiti elementai."
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "Papuošimai"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "Atidarysite paspaudę"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "Mašinos informacija, išradimai, palyginimas ir remontas."
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "Mašinos valdymas"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "APIE MAŠINĄ"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "ŠARVAI"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "PALYGINTI"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "AUTOMATINIS SUGRĄŽINIMAS"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "SUGRĄŽINTI ĮGULĄ"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "NUSIŲSTI Į KAREIVINES"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "PERTRENIRUOTI ĮGULĄ"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "GREITAS PARUOŠIMAS"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "PAPILDOMA MODIFIKACIJA"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "PAKEISTI NACIJĄ"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "AKTYVUS"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "PRO PASTIPRINIMAS {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "GREITAS APMOKYMAS"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "REMONTAS"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "IŠRASTI"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "PATOBULINIMAI"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "Jūs galite bet kada pakeisti savo pasirinkimą."
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "Šiai mašinai taikomas Pro pastiprinimas"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "Pastiprinti mašinas galite tik Atsitiktiniuose mūšiuose, Prasiveržimo režimuose, Tvirtovėse, Globaliame žemėlapyje ir turnyruose."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "Pro pastiprinimui netinkamas režimas"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "Jūs galite pastiprinti tik išrandamas ir kolekcines I–X lygio mašinas."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "Pro pastiprinimui netinkama mašina"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "Pro pastiprinimas šiuo metu taikomas {{vehicle}}. Savo pasirinkimą galėsite pakeisti po {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "Sugrįžkite vėliau!"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "Šį pasirinkimą galėsite pakeisti po {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "Šiai mašinai taikomas Pro pastiprinimas"

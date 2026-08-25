@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "categories/body/firepower"
+msgstr "Parametru kopums, kas rāda efektivitāti pretinieku tanku iznīcināšanai. Šis filtrs rāda/slēpj iekārtas ar šo parametru kopumu."
+
+msgid "categories/body/mobility"
+msgstr "Parametru kopums, kas rāda cik ātri tanks var mainīt tā pozīciju kaujas laukā. Šis filtrs rāda/slēpj iekārtas ar šo parametru kopumu."
+
+msgid "categories/body/stealth"
+msgstr "Parametru kopums, kas rāda tanka maskēšanās efektivitāti un spēju pamanīt pretinieku tankus. Šis filtrs rāda/slēpj iekārtas ar šo parametru kopumu."
+
+msgid "categories/body/survivability"
+msgstr "Parametru kopums, kas rāda tanka izturību pret bojājumiem. Šis filtrs rāda/slēpj iekārtas ar šo parametru kopumu."
+
+msgid "categories/empty"
+msgstr "Otrās Vietas Kategorija"
+
+msgid "categories/firepower"
+msgstr "Šaujamspēks"
+
+msgid "categories/mobility"
+msgstr "Mobilitāte"
+
+msgid "categories/slotEffect/empty"
+msgstr "Iespēja piemērot kategoriju šī tanka otrajai iekārtas vietai."
+
+msgid "categories/slotEffect/firepower"
+msgstr "Standarta ekipējums no Šaujamspēka kategorijas būs efektīvāks, ja uzstādīts šajā vietā."
+
+msgid "categories/slotEffect/mobility"
+msgstr "Standarta ekipējums no Mobilitātes kategorijas būs efektīvāks, ja uzstādīts šajā vietā."
+
+msgid "categories/slotEffect/stealth"
+msgstr "Standarta ekipējums no Izlūkošanas kategorijas būs efektīvāks, ja uzstādīts šajā vietā."
+
+msgid "categories/slotEffect/survivability"
+msgstr "Standarta ekipējums no Izdzīvošanas kategorijas būs efektīvāks, ja uzstādīts šajā vietā."
+
+msgid "categories/stealth"
+msgstr "Izlūkošana"
+
+msgid "categories/survivability"
+msgstr "Izdzīvošana"
+
+msgid "categories/universal"
+msgstr "Nav Kategorijas"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "Izvēlieties vienu pielietojamu direktīvu no saraksta."
+
+msgid "compare/section/description/consumables"
+msgstr "Izvēlieties vienu pielietojamu palīgmateriālu no saraksta."
+
+msgid "compare/section/description/optDevices"
+msgstr "Izvēlieties vienu pielietojamu iekārtu no saraksta."
+
+msgid "compare/section/title/battleBoosters"
+msgstr "Direktīvas priekš {name}"
+
+msgid "compare/section/title/consumables"
+msgstr "Palīgmateriāli priekš {name}"
+
+msgid "compare/section/title/optDevices"
+msgstr "Ekipējums priekš {name}"
+
+msgid "dealPanel/autoRenew"
+msgstr "Automātiska papildināšana"
+
+msgid "dealPanel/button/apply"
+msgstr "Pielietot"
+
+msgid "dealPanel/button/applyType"
+msgstr "Pievienot Tipam"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "Pievienot Tankam"
+
+msgid "dealPanel/button/cancel"
+msgstr "Atcelt"
+
+msgid "dealPanel/button/purchase"
+msgstr "Pirkt"
+
+msgid "dealPanel/fromStorage"
+msgstr "No Noliktavas:"
+
+msgid "dealPanel/fromVehicle"
+msgstr "Uzstādīts:"
+
+msgid "dealPanel/repair"
+msgstr "Nepieciešams remonts"
+
+msgid "dealPanel/toBePaid"
+msgstr "Kopā:"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "Noliktavā"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "Uzstādīts uz tanka"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "Nepietiekami līdzekļi, lai veiktu pirkumu"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "Tiks iegādāts par kredītiem"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "Tiks iegādāts ar bonām"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "Tiks uzstādīts no Noliktavas"
+
+msgid "deconstructionDeviceView/available"
+msgstr "Pieejams:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "Atcelt"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "Turpināt"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "No Noliktavas:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "No tankiem:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "( %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s %(red_Open)svēl nepieciešams, lai uzlabotu%(red_Close)s )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "Tiks saņemts:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "AKTĪVS TANKS"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "NOLIKTAVĀ: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "UZ TANKIEM: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "Izvēlieties iekārtas, kuras vēlieties izjaukt uz %(whiteSpanish_Open)skomponentēm%(whiteSpanish_Close)s %(icon)s. Saņemtās komponentes var tikt izmantotas, lai uzlabotu Eksperimentālās Iekārtas."
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s Lai iegūtu vairāk komponentes, izjauciet neizmantotās Eksperimentālās Iekārtas."
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "DARBA GALDS"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "Nepietiek komponentes, lai uzlabotu\n%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "Lai turpinātu, izjauciet neizmantotās iekārtas uz komponentēm."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "Lai turpinātu, iegūstiet nepieciešamo komponenšu daudzumu."
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "Atcelt Izmaiņas"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "Atcelt"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "Atcelt"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "Atcelt"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "Atcelt Izmaiņas"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "Saglabāt"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "Pirkt"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "Pirkt un Uzstādīt"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "Uzstādīt"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "Jūs variet demontēt iekārtu par %(price)s, lai nosūtītu to uz Noliktavu vai jūs variet iznīcināt to."
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "Jūs variet noņemt iekārtu par %(price)s vai {whiteSpanish_Open}par brīvu{whiteSpanish_Close} ar WoT Plus, lai nosūtītu to uz Noliktavu vai variet iznīcināt to."
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "Jūs variet noņemt iekārtu par %(demountKit)s, %(price)s vai {whiteSpanish_Open}par brīvu{whiteSpanish_Close} ar WoT Plus, lai nosūtītu to uz Noliktavu vai variet iznīcināt to."
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "Jūs variet noņemt iekārtu {whiteSpanish_Open}par brīvu{whiteSpanish_Close} ar WoT Plus, lai nosūtītu to uz Noliktavu."
+
+msgid "dialogs/confirm/demount/items"
+msgstr "Jūs variet demontēt iekārtu, lai nosūtītu to uz Noliktavu."
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "NEDARBOSIES"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "direktīvu"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "Pērkot šo Dubulto Modifikāciju, otra tiks atcelta."
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "palīgmateriālu"
+
+msgid "dialogs/confirm/item/module"
+msgstr "moduli"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "iekārtu"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "Dubultu Modifikāciju"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "direktīvas"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "palīgmateriālus"
+
+msgid "dialogs/confirm/items/module"
+msgstr "moduļus"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "iekārtas"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " un "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "Saglabāt izmaiņas direktīvu vietām?"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "Saglabāt izmaiņas palīgmateriālu vietām?"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "Saglabāt izmaiņas iekārtu vietām?"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "Pirkt %(name)s {type}?"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "Pirkt un uzstādīt %(name)s {type}?"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "Uzstādīt %(name)s {type}?"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "Ieslēgt %(name)s {type} priekš visiem %(vehicle)s?"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "Pirkt {type}?"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "Pirkt un uzstādīt {type}?"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "Uzstādīt {type}?"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "Ieslēgt {type} priekš visiem %(vehicle)s?"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "tanku iznīcinātājiem"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "artilērijām"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "smagajiem tankiem"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "vieglajiem tankiem"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "vidējiem tankiem"
+
+msgid "dialogs/confirm/warning"
+msgstr "Uzmanību! %(devices)s nav uzstādīts. Direktīva %(doesNotWork)s."
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "Uzmanību! Pēc izjaukšanas, jūs vairs nebūs Eksperimentālās Iekārtas!"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "Atcelt"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "Izjaukt"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "Izjaukt"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "Kopā saņemams:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "Tiks saņemts par 1 lietu:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "Izjaukt\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "Izjaukt\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "Lūdzu atcerieties: Pēc izjaukšanas, jūs nevarēsiet atjaunot vai nopirkt šo iekārtu."
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "Atcelt"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "Izjaukt"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "Izjaukt sekojošās iekārtas uz komponentēm?"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "Izjaukt sekojošās iekārtas un uzlabot\n%(deviceName)s?"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "Tiks izjaukts no Noliktavas: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "Tiks izjaukts no tankiem: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "Pēc izjaukšanas, jūs saņemsiet: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "Kopā saņemams:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "Uzlabošanas maksa:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "Uzmanību! Pēc izjaukšanas, jūs vairs nebūs Eksperimentālās Iekārtas!"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "Uzmanību! Eksperimentālās Iekārtas no jūsu tankiem tiks izjauktas."
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "Iemainīt"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "iekārta"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "%(credits)s vēl nepieciešams, lai uzlabotu %(name)s"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "moduļi"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "%(credits)s vēl nepieciešams, lai uzlabotu iekārtu"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "Nevar uzlabot iekārtu. Jums vajag %(gold)s lai iemainītu pret kredītiem."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "Jums ir pietiekami daudz kredītu, lai uzlabotu iekārtu."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "Maiņa nav nepieciešama"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "Jums nav Eksperimentālo Iekāru ko izjaukt."
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "Lai iegūtu vairāk komponentes, izjauciet Eksperimentālās Iekārtas."
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "Uzlabot\n%(name)s?"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "Nepieciešams: %(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "Cena:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "lai pirktu"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "lai pirktu"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "Iemainīt"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "Maiņas likme: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "Vēl nepieciešams %(credits)s priekš Ātrās Apkalpošanas"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "direktīva"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "palīgmateriāls"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "modulis"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "iekārta"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "Dubultu Modifikāciju"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "%(credits)s vēl nepieciešams {action} %(name)s {type}"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "direktīvas"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "palīgmateriāli"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "moduļi"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "iekārtas"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "%(credits)s vēl nepieciešams {action} {type}"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "%(credits)s vēl nepieciešams, lai salabotu"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "Nevar nopirkt: apmaiņa neizdevās. %(gold)s vēl nepieciešams maiņai."
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "lai pirktu"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "priekš modifikācijas"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "Maiņa nav nepieciešama—jums ir pietiekami kredītu."
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "Pietiekami kredīti {action}"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "%(credits)s vēl nepieciešams, lai papildinātu munīciju"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "Remontēt automātiski"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "Remontēt"
+
+msgid "dialogs/needRepair/durability"
+msgstr "Izturība:"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s%"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "Tanks tiek salabots automātiski un bez maksas"
+
+msgid "dialogs/needRepair/price"
+msgstr "Remonta maksa:"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "Nepietiekami līdzekļi lai remontētu"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "Tieši tā!"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "Remonts nav nepieciešams"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "Papildināt"
+
+msgid "dialogs/refillShells/price"
+msgstr "Papildināšanas maksa:"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "Papildināt munīciju?"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "Saglabāt izmaiņas munīcijai?"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "Lūdzu atcerieties: Jūs pārdodat Uzlaboto Iekārtu."
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "Lūdzu atcerieties: Pēc pārdošanas, jūs nevarēsiet atjaunot vai nopirkt šo iekārtu."
+
+msgid "dialogs/sell/button/cancel"
+msgstr "Atcelt"
+
+msgid "dialogs/sell/button/sell"
+msgstr "Pārdot"
+
+msgid "dialogs/sell/header"
+msgstr "Pārdot sekojošo iekārtu?\n%(equipmentName)s"
+
+msgid "dialogs/sell/text"
+msgstr "Pārdošanas cena par 1 priekšmetu:"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "Nepietiekami resursi demontēšanai."
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "Ieteikumi nav pieejami šim tankam."
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "Nevar uzstādīt."
+
+msgid "easyTankEquipView/applied"
+msgstr "Uzlikts"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "Uzlaboti"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "Uzlabots"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "Standarta"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "PALĪGMATERIĀLI"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "Nepietiek gultas pārvietošanai un apkalpes izmaiņām. Pievienojiet vairāk gultas Kazarmām."
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "x{{count}}"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "Pieredzējusi apkalpe"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "Jauna apkalpe"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "{{count}}\nTiks pieņemts jauns apkalpes loceklis"
+msgstr[1] "{{count}}\nTiks pieņemts jauns apkalpes loceklis"
+msgstr[2] "{{count}}\nTiks pieņemts jauns apkalpes loceklis"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "APKALPE"
+
+msgid "easyTankEquipView/discount"
+msgstr "-{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "Uzlaboti"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "Standarta"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "IEKĀRTAS"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "Uzlaboti"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "Standarta"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "MUNĪCIJA"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "Jau ir piemērots stils"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "{{battlesCount}} kaujas par {{price}}"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "STILU SAGATAVES"
+
+msgid "easyTankEquipView/title"
+msgstr "ĀTRA APKALPOŠANA"
+
+msgid "effects/name"
+msgstr "Efekts"
+
+msgid "effects/template"
+msgstr "%(icon)s %(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "Atjaunošanās laiks ir %(cooldown)s&nbsp;s."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "Iegūt Komponentes"
+
+msgid "filters/shown"
+msgstr "Rādīts: "
+
+msgid "hints/dragAndDrop/section"
+msgstr "VELCIET UN NOMETIET\nIEKĀRTAS"
+
+msgid "hints/filters/specialization"
+msgstr "PAPILDUS\nBONUSS KATEGORIJAI"
+
+msgid "hints/tabs/equipment"
+msgstr "JAUNS IEKĀRTU\nTIPS"
+
+msgid "introduction/currency/deluxe"
+msgstr "bonām"
+
+msgid "introduction/currency/modernized"
+msgstr "komponentes"
+
+msgid "introduction/message/deluxe"
+msgstr "Šī tipa iekārtas ir pieejamas par %(currencyName)s (%(currencyIcon)s). Tās arī var saņemt kā balvu par noteiktiem spēles sasniegumiem un īpašu spēles pasākumu laikā."
+
+msgid "introduction/message/modernized"
+msgstr "Speciāls aprīkojuma veids ar trim uzlabojumu līmeņiem, kas tiek piešķirts par misiju izpildi un noteiktu spēles notikumu laikā. Šo aprīkojumu nevar ne iznīcināt, ne pārdot, taču to var izjaukt, lai iegūtu īpašas detaļas—%(currencyName)s (%(currencyIcon)s). Iegūtās sastāvdaļas var izmantot jebkura Eksperimentālā aprīkojuma uzlabošanai."
+
+msgid "introduction/message/trophy"
+msgstr "Īpaša veida iekārtas, kam pēc saņemšanas ir standarta iekārtu parametri, bet var tikt uzlaboti par kredītiem. Jūs nevariet nopirkt Balvas Ekipējumu izmantojot spēles valūtu, bet variet saņemt to kā balvu noteiktu spēles pasākumu laikā."
+
+msgid "introduction/showButton"
+msgstr "Rādīt Iekārtas"
+
+msgid "introduction/slide/1/description"
+msgstr "Tika pievienotas jaunas iekārtas. Papildus, %(repairBox)s, %(wetAmmo)s, %(CO2Cistern)s un %(cycloneFilter)s tika apvienoti iekš %(changedConfiguration)s iekārtas. %(forcedChassis)s analogi tika aizstāti ar %(forcedMetal)s. Visi vecie bonusi paliek un jauni tika pievienoti."
+
+msgid "introduction/slide/1/title"
+msgstr "JAUNAS IEKĀRTAS"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr "—Šaujamspēks"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr "—Mobilitāte"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr "—Izlūkošana"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr "—Izdzīvošana"
+
+msgid "introduction/slide/2/description"
+msgstr "Ja iekārta ir uzstādīta tādas pašas kategorijas vietā, tā būs vēl efektīvāka. Savādāk, tā sniegs tikai standarta bonusu."
+
+msgid "introduction/slide/2/subtitle"
+msgstr "KATEGORIJAS SAKRITĪBA"
+
+msgid "introduction/slide/2/title"
+msgstr "IEKĀRTU KATEGORIJAS"
+
+msgid "introduction/slide/3/description/left"
+msgstr "Lielākās daļas aprīkojuma cena nepārsniegs 50 000 kredītu II–IV līmeņa tankiem, 300 000—V–VII līmeņiem un 600 000—VIII–XI līmeņa tankiem."
+
+msgid "introduction/slide/3/description/right"
+msgstr "Dažām jaunajām iekārtām ir trīs klases. Pat ja klase ir savādāka, iekārta sniedz tādu pašu efektu. Jo lielāka klase, jo lielāka iekārtas maksa. Katra iekārtu klase atbilst savam tanku līmeņu diapazonam."
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "IEKĀRTU IZMAIŅAS"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "JAUNAS IEKĀRTAS"
+
+msgid "introduction/slide/3/title"
+msgstr "IEKĀRTU MAKSA"
+
+msgid "introduction/slide/4/description"
+msgstr "Aprīkojums nav pieejams II līmeņa tankiem. Uz II līmeņa tanks var uzstādīt tikai vienu aprīkojuma vienību, uz III līmeņa—divas, bet uz IV–XI līmeņa—trīs. Aprīkojums no noņemtajām vietām tika demontēts un nosūtīts uz Noliktavu."
+
+msgid "introduction/slide/4/title"
+msgstr "IEKĀRTU VIETAS"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "Piepildiet tvertnes ar CO2"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "Modificēta Konfigurācija"
+
+msgid "introduction/slide/confirm"
+msgstr "Tieši tā!"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "Ciklona Filtrs"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "Uzlabota Balstiekārta"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "Uzlabota Sacietēšana"
+
+msgid "introduction/slide/repairBox"
+msgstr "Instrumentu kaste"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "\"Slapjš\" Munīcijas Plaukts"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "Uzlabotas Iekārtas"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "Eksperimentāla Iekārta"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "Balvas Ekipējums"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "Jums nav piemērotu Eksperimentālo Iekārtu"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "Jums nav piemērotu Balvu Iekārtu"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "aizturei pirms Komandieris identificē, vai pretinieks ir pamanījis jūsu tanku"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "papildus apdullināšanas ilgumam, ja tanks jau ir apdullināts"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "pretinieku tanku maskēšanai aiz lapotnēm (gan kustībā gan stāvot)"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "visu veidu čaulīšu ātrumam"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "lādēšanas ātruma sodam, kad ir bojāti moduļi"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "dzinēja jaudas zudumam, kad moduļi ir bojāti"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "stacionāra vai kustīga tanka maskēšanai"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "maskēšanās palielināšanai, neatkarīgi no tā, vai tanks stāv vai pārvietojas (efektivitāte ir atkarīga no tanka tipa)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "korpusa bojājumiem, ko izdarīja balstiekārtas bojājumi trieciena laikā"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "skata attālumam (līdz 445 m)—palielinot parametru pāri 445 m ļauj efektīvāk pamanīt pretiniekus"
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "pēc trieciena saņemtajiem bojājumiem"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "izkliedei tanka kustības un griešanās laikā, kā arī ieroča griešanās laikā un pēc šaušanas"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "bojājumiem absorbētiem ar bruņām no HE čaulītēm"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "jūsu tanka redzamības ilgumam"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "ātruma saglabāšanai\npārvietojoties pāri jebkura reljefa tipam"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "stacionāra tanka maskēšanai 3 s pēc tā apstāšanās"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "līdz stāvoša tanka slēpšanai\n1,5 sekundes pēc tā apstāšanās"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "maskēšanās palielināšanai stacionāram tankam 3 s pēc tā apstāšanās (efektivitāte ir atkarīga no tanka tipa)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "maskēšanās palielināšanai stacionāram tankam 1.5 s pēc tā apstāšanās (efektivitāte ir atkarīga no tanka tipa)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "stacionāra tanka skata attālumam 3 s pēc tā apstāšanās (līdz 445 m)—palielinot parametru pāri 445 m ļauj efektīvāk pamanīt pretiniekus"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "lai apskatītu stacionāra tanka diapazonu 1,5 sekundes pēc tā apstāšanās (līdz 445 m) — palielinot parametru virs 445 m, tiek nodrošināta efektīvāka ienaidnieku pamanīšana"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "tanka dzīvības punktiem (noapaļots uz augšu)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "torņa vai ieroča griešanās ātrumam tankiem ar stacionārām kabīnēm"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "aizturei pirms Komandieris identificē, vai pretinieks ir pamanījis jūsu tanku"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "papildus apdullināšanas ilgumam, ja tanks jau ir apdullināts"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "maskēšanai kustošiem un stacionāriem pretinieku tankiem aiz lapotnēm"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "visu veidu čaulīšu ātrumam"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "lādēšanas ātruma sodam, kad ir bojāti moduļi"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "dzinēja jaudas zudumam, kad moduļi ir bojāti"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "stacionāra vai kustīga tanka maskēšanai"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "maskēšanās palielinājumam — neatkarīgi no tā, vai tanks ir nekustīgs vai kustībā (efektivitāte atkarīga no tanka veida)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "korpusa bojājumiem, ko izdarīja balstiekārtas bojājumi trieciena laikā"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "skata attālumam (līdz 445 m). Palielinot parametru pāri 445 m ļauj efektīvāk pamanīt pretiniekus."
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "pēc trieciena saņemtajiem bojājumiem"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "izkliedei tanka kustības un griešanās laikā, kā arī ieroča griešanās laikā un pēc šaušanas"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "bojājumiem absorbētiem ar bruņām no HE čaulītēm"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "jūsu tanka redzamības ilgumam"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "ātruma saglabāšanai\npārvietojoties pāri jebkura reljefa tipam"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "stacionāra tanka maskēšanai 3 s pēc tā apstāšanās"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "līdz nekustīga tanka slēpšanai\n1,5 sekundes pēc tā apstāšanās"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "maskēšanai stacionāram tankam 3 s pēc tā apstāšanās (efektivitāte ir atkarīga no tanka tipa)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "maskēšanai stacionāram tankam 1.5 s pēc tā apstāšanās (efektivitāte ir atkarīga no tanka tipa)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "stacionāra tanka skata attālumam 3 s pēc tā apstāšanās (līdz 445 m). Palielinot parametru pāri 445 m ļauj efektīvāk pamanīt pretiniekus."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "lai apskatītu stacionāra tanka diapazonu 1,5 sekundes pēc tā apstāšanās (līdz 445 m). Parametra palielināšana virs 445 m ļauj efektīvāk pamanīt ienaidniekus."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "tanka dzīvības punktiem (noapaļots uz augšu)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "torņa vai ieroča griešanās ātrumam tankiem ar stacionārām kabīnēm"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "aizkave pirms Skaņas Noteikšana\naktivizācijas"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "aizturei pirms paziņojuma par pamanīšanu"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "lodes dzesēšanas ātrums"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "apkalpes aizsardzībai no ievainojumiem"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "apkalpes efektivitātes bonusam"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "papildus apdullināšanas ilgumam"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "apdullināšanas ilgumam"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "minimālajiem potenciālajiem bojājumiem\nun cauršaušanas vērtībai"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "maksimālajiem potenciālajiem bojājumiem\nun cauršaušanas vērtībai"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "taranēšanas izraisītajiem bojājumiem"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "aizkave pirms kritiski bojājumi\ntanka mērķī tiek parādīti"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "pretinieku tanku maskēšanai aiz lapotnēm"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "kustīgu pretinieku tanku maskēšanai"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "iespējai bojāt pretinieku moduļus\nun apkalpes locekļus"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "palīgmateriālu atjaunošanās laikam"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "ugunsdzēšanas ātrumam"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "maskēšanai aiz lapotnēm"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "ar remonta komplektu atjaunotajam HP"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "ātruma noturēšanai\nmēreni mīkstā reljefā"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "redzamības sodam, kad ir bojātas\nnovērošanas ierīces"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "maksimālajai iespējamajai caursišanai"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "ziņošanas laikam par\npretinieku tanku pozīcijām\npēc iznīcināšanas"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "radio operatora aizsardzībai\nno ievainojumiem"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "čaulīšu ātrumam"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "ātruma noturēšanai\nmīkstā reljefā"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "negatīvajiem efektiem\nno apkalpes apdullināšanas"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "ienākošajiem bojājumiem balstiekārtai"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "balstiekārtas remonta ātrumam"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "lādēšanas ātruma sodam"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "bojāta dzinēja sodam"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "korpusa griešanās ātrumam"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "iekšējo moduļu izturībai"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "munīcijas plaukta izturībai"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "maksimālajam atpakaļgaitas ātrumam"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "maskēšanai"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "maskēšanās palielināšanai"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "bojājumiem no trieciena"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "balstiekārtas remonta ātrumam"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "balstiekārtas izturībai"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "skata attālumam"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "pretinieku tanku redzamībai\njums"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "dzinēja jaudai"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "bojājumiem no trieciena"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "dzinēja aizdegšanās iespējai"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "maksimālajam ātrumam"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "kritisku bojājumu iespējai\ndegvielas tvertnēm"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "tēmēšanas ātrumam"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "pārlādes laikam"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "izkliedei tanka kustības un griešanās laikā"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "tēmēšanas apļa izmēram pēc šaušanas"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "izkliedei kustības laikā"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "izkliedei korpusa griešanās laikā"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "izkliedei ieroča griešanās laikā"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "bojāta ieroča izkliedei"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "tēmēšanas apļa izmēram"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "HE čaulīšu bojājumiem"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "maskēšanai pēc šaušanas"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "jūsu tanka redzamības ilgumam"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "taranēšanas saņemtajiem bojājumiem\nbalstiekārtai"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "taranēšanas saņemtajiem bojājumiem"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "čaulīšu veidu maiņas ātrumam\nielādētā ierocī"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "remonta ātrumam"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "ātruma saglabāšanai šķērsojot visus reljefa tipus"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "stacionāra tanka maskēšanai"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "stacionāra tanka maskēšanai"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "stacionāra tanka maskēšanās palielināšanai"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "stacionāra tanka maskēšanās palielināšanai"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "stacionāra tanka skata attālumam"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "stacionāra tanka skata attālumam"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "tanka dzīvības punktiem"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "torņa vai ieroča griešanās ātrumam tankiem ar stacionārām kabīnēm"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "torņa griešanās ātrumam"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "riteņu griešanās ātrumam"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "sodam, kad apkalpes loceklis\nir ievainots, izņemot Komandieri"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "aizkave pirms Skaņas Noteikšana\naktivizācijas"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "aizkave pirms kritiski bojājumi\ntanka mērķī tiek parādīti"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "pretinieku tanku pamanīšanas ilgumam\npēc iznīcināšanas"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "uz HE šāviņa bojājumiem"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "HE šāviņa caursišana"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "HE lādiņa ātrumam"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "uz munīcijas ietilpību"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "visu čaulu bojāšanai"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "visu veidu šāviņu ātrumam"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "aizkave pirms Skaņas Noteikšana\naktivizācijas"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "uz standarta šāviņa bojājumiem"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "aizturei pirms paziņojuma par pamanīšanu"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "lodes dzesēšanas ātrums"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "apkalpes aizsardzībai no ievainojumiem"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "apkalpes efektivitātes bonusam"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "papildus apdullināšanas ilgumam"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "apdullināšanas ilgumam"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "minimālajiem potenciālajiem bojājumiem un cauršaušanas vērtībai"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "maksimālajiem potenciālajiem bojājumiem\nun cauršaušanas vērtībai"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "taranēšanas izraisītajiem bojājumiem"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "aizkave pirms kritiski bojājumi\ntanka mērķī tiek parādīti"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "pretinieku tanku maskēšanai aiz lapotnēm"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "kustīgu pretinieku tanku maskēšanai"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "iespējai bojāt pretinieku moduļus\nun apkalpes locekļus"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "dzinēja izturībai"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "palīgmateriālu atjaunošanās laikam"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "ugunsdzēšanas ātrumam"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "maskēšanai aiz lapotnēm"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "degvielas tvertnes izturībai"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "lielgabala nolieces leņķim"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "lielgabala pacelšanas leņķim"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "lielgabala stabilizācijai"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "lielgabala horizontālajai novirzei"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "ar remonta komplektu atjaunotajam HP"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "korpusa pacelšanas ātrumam"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "ātruma noturēšanai\nmēreni mīkstā reljefā"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "ne-HE šāviņu radītajam bojājumam"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "redzamības sodam, kad ir bojātas\nnovērošanas ierīces"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "maksimālajai iespējamajai caursišanai"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "ziņošanas laikam par\npretinieku tanku pozīcijām\npēc iznīcināšanas"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "radio operatora aizsardzībai\nno ievainojumiem"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "ielādes laikam aptverē"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "ielādes laikam (Serijas uguns režīmā)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "ielādes laikam (Single Fire režīmā)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "šāviņa bojājumiem pretinieka moduļiem"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "čaulīšu ātrumam"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "ātruma noturēšanai\nmīkstā reljefā"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "uz Īpaša šāviņa bojājumu"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "speciālo šāviņu cauršaušanai"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "speciālo šāviņu ātrumam"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "standarta šāviņa bojājumiem"
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "standarta šāviņu cauršaušanai"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "standarta šāviņu ātrumam"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "apkalpes apdullināšanas negatīvajiem efektiem"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "ienākošajiem bojājumiem balstiekārtai"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "balstiekārtas remonta ātrumam"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "torņa horizontālajai novirzei"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "lādēšanas ātruma sodam"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "bojāta dzinēja sodam"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "korpusa griešanās ātrumam"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "iekšējo moduļu izturībai"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "munīcijas plaukta izturībai"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "maksimālajam atpakaļgaitas ātrumam"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "maskēšanai"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "maskēšanās palielināšanai"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "trieciena bojājumiem"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "balstiekārtas remonta ātrumam"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "balstiekārtas izturībai"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "redzamībai (līdz 445 m)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "pretinieku tanku redzamībai\njums"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "dzinēja jaudai"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "bojājumiem no trieciena"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "dzinēja aizdegšanās iespējai"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "maksimālajam ātrumam"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "kritisku bojājumu iespējai\ndegvielas tvertnēm"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "tēmēšanas ātrumam"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "pārlādes laikam"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "izkliedei tanka kustības un griešanās laikā"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "tēmēšanas apļa izmēram pēc šaušanas"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "izkliedei kustības laikā"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "izkliedei korpusa griešanās laikā"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "izkliedei ieroča griešanās laikā"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "bojāta ieroča izkliedei"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "tēmēšanas apļa izmēram"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "HE čaulīšu bojājumiem"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "maskēšanai pēc šaušanas"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "jūsu tanka redzamības ilgumam"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "taranēšanas saņemtajiem bojājumiem\nbalstiekārtai"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "taranēšanas saņemtajiem bojājumiem"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "čaulīšu veidu maiņas ātrumam\nielādētā ierocī"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "remonta ātrumam"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "maksimālajam braukšanas/atpakaļgaitas ātrumam"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "ātruma saglabāšanai šķērsojot visus reljefa tipus"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "stacionāra tanka maskēšanai"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "stacionāra tanka maskēšanai"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "stacionāra tanka maskēšanās palielināšanai"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "stacionāra tanka maskēšanās palielināšanai"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "stacionāra tanka redzamībai (līdz 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "stacionāra tanka redzamībai (līdz 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "tanka dzīvības punktiem"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "torņa vai ieroča griešanās ātrumam tankiem ar stacionārām kabīnēm"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "torņa griešanās ātrumam"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "riteņu griešanās ātrumam"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "sodam, kad apkalpes loceklis ir ievainots,\nizņemot Komandieri"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "aizturei pirms paziņojuma par pamanīšanu"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "apkalpes aizsardzībai\nno ievainojumiem"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "apkalpes efektivitātes bonusam"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "papildus apdullināšanas ilgumam"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "apdullināšanas ilgumam"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "taranēšanas izraisītajiem bojājumiem"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "aizkave pirms kritiski bojājumi\ntanka mērķī tiek parādīti"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "pretinieku tanku maskēšanai\naiz lapotnēm"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "kustīgu pretinieku\ntanku maskēšanai"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "ar remonta komplektu atjaunotajam HP"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "magazīnas pārlādes laikam"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "maksimālajai iespējamajai caursišanai"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "radio operatora aizsardzībai no ievainojumiem"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "visu veidu čaulīšu ātrumam"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "ieroča izkliedei"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "balstiekārtas remonta ātrumam"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "izkliedei ieroča griešanās laikā"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "lādēšanas ātruma sodam"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "dzinēja jaudas zudumam\nsaņemot bojājumus"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "tanka griešanās ātrumam"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "iekšējo moduļu izturībai"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "munīcijas plaukta izturībai"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "maksimālajam atpakaļgaitas ātrumam"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "maskēšanai"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "bojājumiem no trieciena"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "balstiekārtas remonta ātrumam"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "balstiekārtas izturībai"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "skata attālumam"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "pretinieku tanku redzamībai\njums"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "dzinēja jaudai"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "bojājumiem no trieciena"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "dzinēja aizdegšanās iespējai"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "maksimālajam ātrumam"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "tēmēšanas ātrumam"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "pārlādes laikam"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "izkliedei tanka kustības un griešanās laikā"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "tēmēšanas apļa izmēram pēc\nšaušanas"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "izkliedei kustības laikā"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "izkliedei korpusa griešanās laikā"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "lielgabala izkliedei \npagriešanas laikā "
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "bojāta ieroča izkliedei"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "tēmēšanas apļa izmēram"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "HE čaulīšu bojājumiem"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "maskēšanai pēc šaušanas"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "jūsu tanka redzamības ilgumam"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "taranēšanas saņemtajiem bojājumiem"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "čaulīšu veidu maiņas ātrumam"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "remonta ātrumam"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "ātruma saglabāšanai"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "stacionāra tanka\nmaskēšanai"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "stacionāra tanka\nmaskēšanai"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "skata attālumam"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "skata attālumam"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "tanka dzīvības punktiem"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "ieroča griešanās ātrumam"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "torņa griešanās ātrumam"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "sodam, kad apkalpes loceklis ir ievainots,\nizņemot Komandieri"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "aizturei pirms paziņojuma par pamanīšanu"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "apkalpes aizsardzībai\nno ievainojumiem"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "apkalpes efektivitātes bonusam"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "apkalpes efektivitātes bonusam"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "papildus apdullināšanas ilgumam"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "apdullināšanas ilgumam"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "minimālajiem potenciālajiem bojājumiem\nun cauršaušanas vērtībai"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "taranēšanas izraisītajiem bojājumiem"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "pretinieku tanku maskēšanai\naiz lapotnēm"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "kustīgu pretinieku\ntanku maskēšanai"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "iespējai bojāt pretinieku moduļus un\napkalpes locekļus"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "ugunsdzēšanas ātrumam"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "ar remonta komplektu atjaunotajam HP"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "magazīnas pārlādes laikam"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "tanka maskēšanai"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "ātruma noturēšanai\nmēreni mīkstā reljefā"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "maksimālajai iespējamajai caursišanai"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "radio signāla diapazonam"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "radio operatora aizsardzībai no ievainojumiem"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "visu veidu čaulīšu ātrumam"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "ātruma noturēšanai\nmīkstā reljefā"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "balstiekārtas remonta ātrumam"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "sabiedroto komunikācijas signāla attālumam iekš tanka radio diapazona"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "lādēšanas ātruma sodam"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "dzinēja jaudas zudumam\nsaņemot bojājumus"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "tanka griešanās ātrumam"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "iekšējo moduļu izturībai"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "munīcijas plaukta izturībai"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "maksimālajam atpakaļgaitas ātrumam"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "maskēšanai"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "trieciena bojājumiem"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "balstiekārtas remonta ātrumam"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "balstiekārtas izturībai"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "skata attālumam\n(līdz 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "pretinieku tanku redzamībai\njums"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "dzinēja jaudai"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "bojājumiem no trieciena"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "dzinēja aizdegšanās iespējai"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "maksimālajam ātrumam"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "tēmēšanas ātrumam"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "pārlādes laikam"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "izkliedei tanka kustības\nun griešanās laikā"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "tēmēšanas apļa izmēram pēc\nšaušanas"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "izkliedei kustības laikā"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "izkliedei korpusa griešanās laikā"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "lielgabala izkliedei \npagriešanas laikā"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "bojāta ieroča izkliedei"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "tēmēšanas apļa izmēram"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "HE čaulīšu bojājumiem"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "maskēšanai pēc šaušanas"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "jūsu tanka redzamības ilgumam"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "taranēšanas saņemtajiem bojājumiem"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "čaulīšu veidu maiņas ātrumam"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "remonta ātrumam"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "ātruma saglabāšanai"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "stacionāra tanka maskēšanai"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "stacionāra tanka maskēšanai"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "stacionāra tanka skata attālumam\n(līdz 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "stacionāra tanka skata attālumam\n(līdz 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "tanka dzīvības punktiem"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "ieroča griešanās ātrumam"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "torņa griešanās ātrumam"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "kaujā nopelnītajai Apkalpes Pieredzei"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "s"
+
+msgid "popularLoadouts/common"
+msgstr "Populārs"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "Bieži Lietots"
+
+msgid "popularLoadouts/legendary"
+msgstr "Leģendārs"
+
+msgid "popularLoadouts/noData"
+msgstr "Nav pieejami dati"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "Nav pieejami dati"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)sPopulārs.%(whiteSpanish_Close)s Pamatojoties uz pašreizējām aprīkojuma tendencēm starp visiem World of Tanks spēlētājiem"
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "Datu Savākšana"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "Ja pašreizējās Uzbrukuma sezonas dati vēl nav pieejami, tiek izmantoti dati no iepriekšējās sezona"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "Palīgs ir pieejams priekš %(whiteSpanish_Open)sNejaušajām Kaujām%(whiteSpanish_Close)s un %(whiteSpanish_Open)sUzbrukuma%(whiteSpanish_Close)s"
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "Dati no visiem aprīkojuma veidiem tiek apkopoti"
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "WoT Plus Priekšrocības"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "Saņemiet precīzus aprīkojuma datus, pamatojoties uz miljoniem spēļu, un izmantojiet visas kaujas."
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "Iekārtu Palīgs"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLeģendārs.%(whiteSpanish_Close)s Balstīts uz aprīkojumu, ko šobrīd iecienījuši Leģenda WTR līmeņa spēlētāji"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "Komplektāciju veidi"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "Ierosinātās komplektācijas ir balstītas uz tām, kas ir populāras tankiem ar līdzīgu spēles stilu"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "Tiek parādīti dati par tālāk norādīto tanku ar līdzīgu spēles stilu:"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "Komplektācijas dati nav pieejami"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "Izvēlētais tanks nav pieejams šim spēles režīmam"
+
+msgid "section/battleAbilities"
+msgstr "KAUJAS REZERVES"
+
+msgid "section/battleBoosters"
+msgstr "DIREKTĪVAS"
+
+msgid "section/consumables"
+msgstr "PALĪGMATERIĀLI"
+
+msgid "section/modules"
+msgstr "MODUĻI"
+
+msgid "section/optDevices"
+msgstr "IEKĀRTAS"
+
+msgid "section/shells"
+msgstr "MUNĪCIJA"
+
+msgid "section/toggleCamouflage"
+msgstr "KAMUFLĀŽA"
+
+msgid "section/toggleShells"
+msgstr "MUNĪCIJA"
+
+msgid "shells/ammunitionFull"
+msgstr "Pilna munīcija"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "Nepilna munīcija"
+
+msgid "shells/autoFillOff"
+msgstr "Automātiska papildināšana izslēgta"
+
+msgid "shells/autofillOn"
+msgstr "Automātiska papildināšana ieslēgta"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "Noliktavā:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "Munīcijas Plauktā:"
+
+msgid "shells/shortSpecification/price"
+msgstr "Pirkums:"
+
+msgid "shells/specification/inStorage"
+msgstr "Noliktavā"
+
+msgid "shells/specification/inVehicle"
+msgstr "Munīcijas Plauktā"
+
+msgid "shells/specification/price"
+msgstr "Pirkt"
+
+msgid "shells/title"
+msgstr "Munīcija"
+
+msgid "shells/type/base"
+msgstr "STANDARTA (AP)"
+
+msgid "shells/type/special"
+msgstr "ĪPAŠAS (HE)"
+
+msgid "shells/type/tactical"
+msgstr "TAKTISKAS (APCR)"
+
+msgid "tabs/crew"
+msgstr "Apkalpei"
+
+msgid "tabs/deluxe"
+msgstr "Uzlabots"
+
+msgid "tabs/modernized"
+msgstr "Eksperimentāls"
+
+msgid "tabs/optDevice"
+msgstr "Moduļiem"
+
+msgid "tabs/simple"
+msgstr "Standarta"
+
+msgid "tabs/trophy"
+msgstr "Balvu"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "Direktīva tiks papildināta automātiski pēc tam, kad tanks pametīs kauju. Tā tiks ņemta vai nu no Noliktavas (ja jums ir šīs direktīvas krājums) vai nopirkta ar spēles valūtu."
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "Palīgmateriāli tiks automātiski papildināti, ja nepieciešams, pēc tam, kad tanks pametīs kauju."
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "Remonts tiks veikts automātiski, ja nepieciešams, pēc tam, kad tanks pametīs kauju."
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "Munīcija tiks papildināta automātiski, ja nepieciešams, pēc tam, kad tanks pametīs kauju."
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "Papildināt automātiski"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "Remontēt automātiski"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "Tiks izjaukts no Noliktavas: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "Tiks izjaukts no tankiem: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr ", "
+
+msgid "tooltips/action/description/add_one"
+msgstr "Noklikšķiniet, lai pirktu papildus priekšmetus šai vietai."
+
+msgid "tooltips/action/description/demount"
+msgstr "Noklikšķiniet, lai demontētu iekārtas no šīs vietas."
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "Noklikšķiniet, lai demontētu iekārtas no šīs vietas."
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "Noklikšķiniet, lai demontētu iekārtas no visām konfigurācijām."
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "Nospiediet, lai noņemtu iekārtu no šīs vietas par brīvu ar jūsu aktīvo WoT Plus abonementu."
+
+msgid "tooltips/action/description/destroy"
+msgstr "Nospiediet, lai iznīcinātu iekārtu šajā vietā vai, ja jums ir aktīvs WoT Plus abonements, noņemt to par brīvu."
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "Nospiediet, lai izjauktu iekārtas uz komponentēm."
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "Noklikšķiniet, lai iznīcinātu iekārtas šajā vietā."
+
+msgid "tooltips/action/description/swap"
+msgstr "Noklikšķiniet, lai mainītu lietas starp vietām."
+
+msgid "tooltips/action/description/upgrade"
+msgstr "Iekārtu uzlabošana uzlabo to īpašības."
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "Iekārtu uzlabošana uzlabo to īpašības."
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "Iekārtu uzlabošana uzlabo to īpašības."
+
+msgid "tooltips/action/title/add_one"
+msgstr "Pirkt"
+
+msgid "tooltips/action/title/cancel"
+msgstr "Nosūtīt uz Noliktavu"
+
+msgid "tooltips/action/title/demount"
+msgstr "Demontēt"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "Demontēt"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "Demontēt No Visām Konfigurācijām"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "Noņemt par brīvu"
+
+msgid "tooltips/action/title/destroy"
+msgstr "Iznīcināt"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "Izjaukt"
+
+msgid "tooltips/action/title/swap"
+msgstr "Mainīt kārtību"
+
+msgid "tooltips/action/title/undo"
+msgstr "Noņemt no vietas"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "Uzlabot"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "Uzlabot"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "Uzlabot"
+
+msgid "tooltips/additional"
+msgstr "Papildus informācija."
+
+msgid "tooltips/categories/list"
+msgstr "Noklikšķiniet, lai skatītu moduļu sarakstu."
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "Šīs vietas kategorija var tikt atkārtoti piešķirta Lauka Modifikācijas izvēlnē vai iekārtas izvēles ekrānā."
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "Atkārtojami Piešķirama Kategorija"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "Noklikšķiniet, lai atkārtoti piešķirtu vietas kategoriju."
+
+msgid "tooltips/equipmentList"
+msgstr "Noklikšķiniet, lai skatītu sarakstu ar pieejamajām iekārtām."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "Neizdodas izjaukt Eksperimentālo Iekārtu uz komponentēm: Jums nav šī tipa iekārtas."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "Nospiediet, lai turpinātu izjaukt iekārtas uz komponentēm."
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "Tiekot uzstādīta, šī iekārta sniegs standarta bonusu, jo tikai Tanku Iznīcinātājiem un Artilērijai ir Šaujamspēka kategorija un šī iekārta netiek uzstādīta Šaujamspēka kategorijas vietā."
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "Jūsu tanks saņem palielinātus bonusus tā īpašībām."
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "Lai palielinātu īpašību bonusu, uzstādiet šo iekārtu vietā ar vienu no sekojošajām kategorijām: %(category)s."
+
+msgid "tooltips/howToIncrease/single"
+msgstr "Lai palielinātu īpašību bonusu, uzstādiet šo iekārtu vietā ar sekojošo kategoriju: %(category)s."
+
+msgid "tooltips/placeEquipment"
+msgstr "Iekārtu vieta"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "Jūs variet ieslēgt/izslēgt iespēju izvēlēties čaulīšu un palīgmateriālu komplektu pirms-kaujas atskaitē Lauka Modifikācijas interfeisā."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "Jūs variet ieslēgt/izslēgt iespēju izvēlēties iekārtu un direktīvu komplektu pirms-kaujas atskaitē Lauka Modifikācijas interfeisā."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "Jūs variet ieslēgt/izslēgt iespēju izvēlēties čaulīšu un palīgmateriālu komplektu pirms-kaujas atskaitē Lauka Modifikācijas interfeisā."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "Jūs varat iespējot/atspējot iespēju izvēlēties čaulu un patēriņa preču komplektus pirms kaujas atskaites laikā Uzlabojumu saskarnē."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "Jūs variet ieslēgt/izslēgt iespēju izvēlēties iekārtu un direktīvu komplektu pirms-kaujas atskaitē Lauka Modifikācijas interfeisā."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "Jūs varat iespējot/atspējot iespēju izvēlēties aprīkojuma un direktīvu komplektus pirms kaujas atskaites laikā Uzlabojumu saskarnē."
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "Maiņa Starp Komplektiem Izslēgta"
+
+msgid "tooltips/separator/last"
+msgstr " un "
+
+msgid "tooltips/separator/other"
+msgstr ", "
+
+msgid "tooltips/specializationDesc"
+msgstr "Standarta iekārtas no %(spec)s kategorijas būs efektīvākas, ja uzstādītas šajā vietā. Iekārtas no citas kategorijas sniegs tikai standarta bonusu."
+
+msgid "tooltips/specializationName"
+msgstr "Kategorija:"
+
+msgid "tooltips/specializationType"
+msgstr "Šaujamspēks"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "Vērtīgs iekārtu tips, kam ir labākas īpašības nekā citiem iekārtu tipiem."
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "Īpašas iekārtas, kam ir trīs Uzlabošanas Līmeņi."
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "Iekārtas uzlabo jūsu tanka īpašības."
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "Iekārtu tips, kam ir standarta iekārtu parametri, bet tās var uzlabot."
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "Uzlabotas Iekārtas"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "Eksperimentāla Iekārta"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "Standarta Iekārtas"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "Balvas Ekipējums"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "Šī tipa iekārtas ir pieejamas par %(whiteSpanish_Open)sbonām%(whiteSpanish_Close)s. Tās arī var saņemt kā balvu par noteiktiem spēles sasniegumiem un īpašu spēles pasākumu laikā."
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "Šī tipa iekārtas var tikt saņemtas kā balvu īpašu spēles pasākumu laikā."
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "Šī tipa iekārtas ir pieejamas pirkšanai par spēles valūtu. Tās arī var saņemt kā balvu par noteiktiem spēles sasniegumiem un īpašu spēles pasākumu laikā. Standarta iekārtu īpašības var uzlabot novietojot tās attiecīgajā vietā."
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "Šī tipa iekārtas var tikt saņemtas kā balvu īpašu spēles pasākumu laikā."
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "Iegūšanas Metode"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "Iegūšanas Metode"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "Iekārtu Vietas"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "Balvu Iekārtas nevar nopirkt"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "Jūs variet uzlabot Eksperimentālo Iekārtu īpašības izmantojot %(whiteSpanish_Open)skomponentes%(whiteSpanish_Close)s, ko var saņemt izjaucot šī tipa iekārtas."
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "Jūs variet uzlabot Balvu Iekārtu īpašības izmantojot spēles valūtu."
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "Eksperimentālo Iekārtu Uzlabošana"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "Balvu Iekārtu Uzlabošana"

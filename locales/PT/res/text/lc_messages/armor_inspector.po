@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Blindagem principal"
+
+msgid "armorValues/title/no_damage"
+msgstr "Sem dano"
+
+msgid "armorValues/title/other"
+msgstr "Outro"
+
+msgid "armorValues/title/penetration"
+msgstr "Probabilidade de penetração"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Ricochete"
+
+msgid "armorValues/title/spaced"
+msgstr "Blindagem espaçada"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Configuração do atacante"
+
+msgid "attackerTooltip/body"
+msgstr "Clique para alterar o veículo atacante"
+
+msgid "attackerTooltip/header"
+msgstr "Veículo atacante"
+
+msgid "menu/header"
+msgstr "Tipo de overlay"
+
+msgid "menu/no_armor"
+msgstr "Sem overlay"
+
+msgid "menu/nominal"
+msgstr "Blindagem nominal"
+
+msgid "menu/penetration"
+msgstr "Probabilidade de penetração"
+
+msgid "modules/current"
+msgstr "Configuração atual"
+
+msgid "modules/custom"
+msgstr "Configuração personalizada"
+
+msgid "modules/standard"
+msgstr "Configuração standard"
+
+msgid "modules/title"
+msgstr "Módulos do veículo"
+
+msgid "modules/top"
+msgstr "Configuração de topo"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Chassis"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Arma"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Manto de Arma"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Chassis"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Ecrã"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Dispositivo de Observação"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Torre"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Rodas"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Sem dano"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Penetração"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Ricochete"
+
+msgid "tooltip/minor/angle/description"
+msgstr "O ângulo entre a trajetória do projétil e a linha perpendicular à placa de blindagem.\n\nA trajetória do projétil é calculada como se o projétil se movesse em linha reta a partir do centro do ecrã."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Ângulo de impacto"
+
+msgid "tooltip/minor/damage/description"
+msgstr "A chance de penetração da blindagem inimiga e causar dano ao veículo."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Probabilidade de penetração"
+
+msgid "tooltip/minor/effective/description"
+msgstr "Para uma única camada de blindagem, a blindagem efetiva é a blindagem nominal modificada pelo ângulo de impacto e pela normalização do projétil.\n\nSe existirem várias camadas de blindagem no ponto de impacto, o resultado será a soma dos valores efetivos de cada camada."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Blindagem efetiva"
+
+msgid "tooltip/minor/header"
+msgstr "Lenda"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Atingir uma blindagem espaçada não danifica um veículo, a menos que um projétil o atinja e, em seguida, penetre na blindagem principal."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Sem dano"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "A verdadeira largura da(s) placa(s) de blindagem principal(ais) ou espaçada(s)."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Blindagem nominal"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Os projéteis que atingem blindados inimigos num ângulo oblíquo ricocheteiam. No entanto, podem ainda atingir outro veículo, ou até o mesmo."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Ricochete"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Afeta os cálculos da blindagem efetiva e da probabilidade de penetração.\n\nÉ utilizada uma distância de 100 m para todos os cálculos (os projéteis AP e APCR perdem poder de penetração com a distância).\n\nAs vantagens da tripulação e as melhorias do veículo atacante não afetam os cálculos."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Configuração do atacante"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "A probabilidade de penetrar na blindagem inimiga e causar danos no veículo.\n\nAtingir uma blindagem espaçada não danifica um veículo, a menos que um projétil o atinja e, em seguida, penetre na blindagem principal."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Probabilidade de penetração"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Um veículo só sofre danos se a sua blindagem principal for atingida e penetrada. Os projéteis explosivos podem causar danos reduzidos num veículo mesmo sem penetração; no entanto, ainda precisam de atingir a blindagem principal."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Blindagem principal"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Atingir uma blindagem espaçada não danifica um veículo, a menos que um projétil atinja e penetre a blindagem principal depois disso.\n\nAtingir e penetrar módulos externos danifica estes módulos diretamente: atingir uma lagarta para imobilizar um veículo, atingir uma arma para a desativar ou atingir um dispositivo de observação para reduzir o alcance de visão de um veículo."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Sem dano"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "O ângulo de ricochete é de 70 graus para os projéteis perfurantes e APCR e de 85 graus para os projéteis HEAT. \n\nOs projéteis Explosivos não ricocheteiam, enquanto que os projéteis AP e APCR perdem 25% da sua capacidade de penetrar após o ricochete.\n\nNão ocorrerá um ricochete se o calibre do projétil for superior a três vezes a espessura nominal da blindagem no ponto de impacto (isto aplica-se apenas aos projéteis AP e APCR)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Ricochete"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Atingir uma blindagem espaçada não danifica um veículo, a menos que um projétil atinja e penetre a blindagem principal depois disso.\n\nAtingir e penetrar módulos externos danifica estes módulos diretamente: atingir uma lagarta para imobilizar um veículo, atingir uma arma para a desativar ou atingir um dispositivo de observação para reduzir o alcance de visão de um veículo.\n\nO ângulo de impacto não se aplica aos módulos exteriores (como lagartos e arma) — nestes casos, a blindagem efetiva é igual à blindagem nominal."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Blindagem espaçada"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Assista a um vídeo sobre as mecânicas da penetração da blindagem"

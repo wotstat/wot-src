@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "İsim"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "Aylık"
+
+msgid "ClanListWindow/table/role"
+msgstr "Pozisyon"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "Haftalık"
+
+msgid "battleQueue/clanPosition"
+msgstr "Konum: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "Konum:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "Düşman aranıyor:"
+
+msgid "battleQueue/waitBattle"
+msgstr "Savaş bekleniyor:"
+
+msgid "battleQueue/yourTeam"
+msgstr "Müfrezeniz:"
+
+msgid "disconnected/Warning"
+msgstr "Dikkat!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "Kale geçici olarak devre dışıdır. Daha sonra tekrar deneyin."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "Kale dolaşımda devre dışıdır. Kaleye erişmek için bölgenize gidin."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "Klan üyeleri"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "Lejyonerler"
+
+msgid "fortVehPopover/btnSave"
+msgstr "Seçimi kaydet (%(count)d)"
+
+msgid "inspire/inspired"
+msgstr "İlham alan"
+
+msgid "inspire/inspiring"
+msgstr "İlhamcı"
+
+msgid "mainWindow/maintenance/body"
+msgstr "Verdiğimiz rahatsızlıktan ötürü özür dileriz."
+
+msgid "mainWindow/maintenance/button"
+msgstr "Güncelle"
+
+msgid "mainWindow/maintenance/header"
+msgstr "Veri Yüklenirken Hata"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "Ek Bilgiler"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "Savaş Ödemeleri"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "Askeri Manevralar"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "Taktik Eğitim"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "Ek Etki"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "Çatışmalarda ve İlerlemelerde bir savaş için topçuya seçili alana ateş etmesi emrini verir"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "Çatışmalarda ve İlerlemelerde bir savaş için İlham ile aracınızın tüm mürettebatının ve yakındaki müttefik araçların mürettebatlarının ana uzmanlığına ve tüm yeteneklerine bir bonus sağlar"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "Yedek savaşa girmeden etkinleştirilebilir"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "Yedek İlerlemeden önce etkinleştirilebilir"
+
+msgid "reserves/tooltip/empty"
+msgstr "Açacak Yedeğiniz yok"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "Depoda %(count)s"
+
+msgid "reserves/tooltip/level"
+msgstr "Seviye %(level)s"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "Kullanıldığında Etkisi"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "Etkinleştirilebilir"
+
+msgid "reserves/tooltip/selected"
+msgstr "Etkin"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "Etkinleştirebileceğiniz Yedeklerin listesini görmek için tıklayın."
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "Yedek sadece Komutan, İkinci Komutan, Personel Subayı veya Savaş Subayı rütbesine sahip bir Müfreze Komutanı tarafından etkinleştirilebilir."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "Müfrezede yeterli klan üyesi yok: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Savaş %(nextDate)s dk. içinde başlayacak"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "Başlangıç zamanı daha sonra belirlenecek"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "Savaş %(nextDate)s içinde sona erecek"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "Çatışmalar bulunuyor"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "Sonraki savaş %(nextDate)s'de başlayacak"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Savaş %(nextDate)s içinde başlayacak"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "Savaş bugün %(nextDate)s itibarıyla başlayacak"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "Savaş yarın %(nextDate)s itibarıyla başlayacak"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "Başlangıç zamanı daha sonra belirlenecek"
+
+msgid "sortie/introView/title"
+msgstr "Kale: Savaşlar"
+
+msgid "sortie/listView/enterBtn"
+msgstr "Katıl"
+
+msgid "sortie/listView/enterText"
+msgstr "Ekibe gönüllü olarak katılabilirsiniz."
+
+msgid "sortie/listView/notSelected"
+msgstr "Detaylı tanım görmek için soldaki listeden\nbir müfreze seçin."
+
+msgid "sortie/listView/teamMembers"
+msgstr "Yuvalar: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "Araçlar:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "Lejyonerler"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "Otomatik toplanıyor"
+
+msgid "sortie/room/candidates"
+msgstr "Gönüllüler"
+
+msgid "sortie/room/chat"
+msgstr "Sohbet kanalı"
+
+msgid "sortie/room/description"
+msgstr "Yaratılan müfreze rastgele bir düşman klanla tarafsız bölgede savaşır. Araç seviyesi seçilen klasman tarafından belirlenir."
+
+msgid "sortie/room/fight"
+msgstr "Savaş!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "Oyuncu Davet Et"
+
+msgid "sortie/room/leaveBtn"
+msgstr "MÜFREZE TOPLAMAYA GİT"
+
+msgid "sortie/room/level"
+msgstr "Seviye %(level)s"
+
+msgid "sortie/room/members"
+msgstr "Yuvalar: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "Hazır değil"
+
+msgid "sortie/room/ready"
+msgstr "Hazır!"
+
+msgid "sortie/room/title"
+msgstr "Müfreze"
+
+msgid "sortie/slot/emptySlot"
+msgstr "Boş"
+
+msgid "sortie/slot/takePlace"
+msgstr "Yerinizi Alın"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "Savaşa girmek için bir araç seçin. Savaşa hazır olmayan araçlar kırmızı işaretle belirtilir."
+
+msgid "stronghold/teamHeader"
+msgstr "Müfreze Üyeleri"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "Lejyonerler İçin Araçları Seçin"
+
+msgid "strongholdPopover/header"
+msgstr "Araçları Seçin"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "Seçili araçlar:"
+
+msgid "strongholdbuilds/direction"
+msgstr "%(direction)s müttefik köprübaşı"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "Kuzey"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "Doğu"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "Güney"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "Batı"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "Düşman köprübaşı"
+
+msgid "strongholdbuilds/mapName"
+msgstr "Harita: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "Harita İlerlemenin başlamasından sonra seçilecektir"
+
+msgid "strongholdbuilds/point1"
+msgstr "Hisar"
+
+msgid "strongholdbuilds/point2"
+msgstr "Yedek Hattı"
+
+msgid "strongholdbuilds/point3"
+msgstr "Cephe Hattı"
+
+msgid "strongholdbuilds/point4"
+msgstr "Cephe Hattı"
+
+msgid "strongholdbuilds/point5"
+msgstr "Yedek Hattı"
+
+msgid "strongholdbuilds/point6"
+msgstr "Hisar"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "İlerlemelerde bu köprübaşında her günün ilk zaferi için x%(reward)s"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "İki hat da kaybedildikten sonra Hisarı savunma karşılığında"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "Cephe Hattı kaybedildikten sonra Yedek Hattını savunma karşılığında"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "Düşman hatlarını ele geçirmeden iki hattı da savunma karşılığında"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "Sadece Cephe Hattını ele geçirme karşılığında"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "Hisarı ele geçirmeden iki hattı da ele geçirme karşılığında"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "Düşman Hisarını ele geçirme karşılığında"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "Talep yedeğinden"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "İlerlemeden sonra verilir"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "Lejyonerlerden Gizlen"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "Müfreze görünür"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "Lejyonerlere Göster"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "Müfreze gizli"
+
+msgid "strongholddirection/A"
+msgstr "Kuzey"
+
+msgid "strongholddirection/B"
+msgstr "Doğu"
+
+msgid "strongholddirection/C"
+msgstr "Güney"
+
+msgid "strongholddirection/D"
+msgstr "Batı"
+
+msgid "strongholdinfo/sortie"
+msgstr "%(level)s kademesinde Çatışma"
+
+msgid "strongholdinfo/stronghold"
+msgstr "%(direction)s köprübaşından İlerleme"
+
+msgid "strongholdmap/randomMap"
+msgstr "Rastgele harita"
+
+msgid "strongholdreserve/boost"
+msgstr "İlham"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "Yüksek Kapasiteli Taşıt"
+
+msgid "strongholdreserve/requisition"
+msgstr "Talep"
+
+msgid "strongholdreserve/support"
+msgstr "Topçu Saldırısı"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "Çatışma ve İlerlemelerde, 1 savaş için"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "İlerlemenin sonucu için"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "Savaşın başında aktive edilir"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "İlerlemenin başında aktive edilir"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "Savaşta bir Yedek kullanıldığında etkinleşir"
+
+msgid "strongholdtable/rating"
+msgstr "Reyting"
+
+msgid "strongholdtable/roster"
+msgstr "Bileşim"
+
+msgid "strongholdtable/tech"
+msgstr "Araçlar"
+
+msgid "strongholdtitle/sortie"
+msgstr "Çatışma"
+
+msgid "strongholdtitle/stronghold"
+msgstr "%(direction)s köprübaşından İlerleme"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Sınır{/HEADER}{BODY}Tarafsız alan. Kazanan bir sonraki savaşta düşman hattına saldıracak. Savaş berabere biterse saldıran ekip rastgele seçilecek.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "%(direction)s köprübaşından İlerleme"
+
+msgid "strongholdtooltips/hours"
+msgstr "sa."
+
+msgid "strongholdtooltips/minuts"
+msgstr "dk."
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "%(level)s kademesinde Çatışma"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Savaş! tuşuna tıklamanızın ardından bir lejyonere otomatik olarak atanan araç türü.\n\nLejyonerler için seçili araç türünü onaylamak veya iptal etmek için tıklayın."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "Lejyonerler boş konumlara otomatik olarak eklenecek"

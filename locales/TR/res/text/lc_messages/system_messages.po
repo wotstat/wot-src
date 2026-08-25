@@ -1,0 +1,4475 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Takımı <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "Hesabınız başarıyla kurtarıldı"
+
+msgid "achievements/server_error"
+msgstr "Değerli ödüller şeridindeki değişiklikler kaydedilmedi."
+
+msgid "actionAchievement/title"
+msgstr "Özel Etkinlikler için Madalya"
+
+msgid "actionAchievements/title"
+msgstr "Özel Etkinlik Madalyaları"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "Yetenek eğitimi sırasında hata oluştu. Yanlış araç."
+
+msgid "add_tankman_skill/server_error"
+msgstr "Yeni yetenek eğitilemiyor.\nSunucu devre dışı. Daha sonra tekrar deneyin."
+
+msgid "add_tankman_skill/success"
+msgstr "Yeni yetenek eğitildi: %(skill)s"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "Yetenek eğitimi sırasında hata oluştu. Araç kilitli."
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "Yetenek eğitimi sırasında hata oluştu. Aracınızı onarın."
+
+msgid "add_tankman_skills/server_error"
+msgstr "Yeni yetenekler eğitilemiyor.\nSunucu devre dışı. Daha sonra tekrar deneyin."
+
+msgid "add_tankman_skills/success"
+msgstr "Yeni yetenekler eğitildi: %(skill)s"
+
+msgid "another_periphery"
+msgstr "Hala farklı bir sunucuda oturumunuz açık"
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "Savaşa katılırken hata oluştu: zaten ekibe dahilsiniz."
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "Savaşa katılırken hata: yanlış ekip numarası."
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "Katılma hatası. Operasyon geçici olarak askıya alındı. Daha sonra tekrar deneyin."
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "Bu etkinlik şu anda geçerli değil. Son haberleri oyun portalından takip edin."
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "Savaşa katılırken hata oluştu: davetin geçerlilik süresi dolmuş."
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "Katılma hatası, gerekli izin yok."
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "Savaşa girilemiyor. Kuyruk şu anda devre dışı. Lütfen daha sonra tekrar deneyin."
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "İşlem geçersiz. Kuyruk şu anda dolu. Lütfen daha sonra tekrar deneyin."
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "Savaşa katılırken hata oluştu: ekip zaten daha önce oluşturulmuş."
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "Savaşa katılırken hata oluştu: bağlantı zaman aşımına uğradı."
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "Katılma hatası, bu hesap ile giriş yapılamaz."
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "Savaşa katılmada hata oluştu."
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "Katılma hatası, WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "Katılma hatası: seçili Tarihsel Savaş geçerli değil."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "Bağlantı hatası. Lütfen %s sunucusunu seçin."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "Bağlantı hatası. Lütfen başka bir sunucunu seçin."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "Savaşa katılırken hata oluştu: mevcut araç hazır değil."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "Hata: bu seviyenin araçları bu savaş kipinde savaşamaz."
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "Savaşa katılamıyorsunuz: araç hazır değil."
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "Lütfen savaşa katılmak için bir araç satın alın."
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "Savaşa katılma hatası (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "Savaşa katılma hatası (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "Savaşa katılma hatası (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "Savaşa katılma hatası (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "Savaşa katılma hatası (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "Savaşa katılma hatası (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "Savaşa katılma hatası (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "Savaşa katılma hatası (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "Savaşa katılma hatası (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "Savaşa katılma hatası (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "Savaşa katılma hatası (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "Savaş kuyruğunda maksimum süre doldu. Başka bir araç seçin veya tekrar deneyin."
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" bu araca uymuyor."
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "Yanlış araç. %(kind)s \"%(name)s\" takılmadı."
+
+msgid "artefact_apply/money_success"
+msgstr "%(kind)s \"%(name)s\" araçtan söküldü. %(money)s harcadınız."
+
+msgid "artefact_apply/server_error"
+msgstr "%(kind)s \"%(name)s\" takılırken sunucu hatası. Daha sonra tekrar deneyin."
+
+msgid "artefact_apply/success"
+msgstr "%(kind)s \"%(name)s\" araca takıldı."
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "Araç kilitli. %(kind)s \"%(name)s\" takılmadı."
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "Araç hasarlı. %(kind)s \"%(name)s\" takılmadı. Aracı onarıp tekrar deneyin."
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" bu araca uymuyor."
+
+msgid "artefact_buy/invalid_module"
+msgstr "%(kind)s \"%(name)s\" satın alınamıyor. Yanlış parça."
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "Yanlış araç. %(kind)s \"%(name)s\" satın alınıp takılamıyor."
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "%(kind)s \"%(name)s\" satın alınamıyor. Yeterli kredi yok."
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "%(kind)s \"%(name)s\" satın alınamıyor. Yeterli tahvil yok."
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "%(kind)s \"%(name)s\" satın alınamıyor. Yeterli Yıl Dönümü Jetonu yok."
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "%(kind)s \"%(name)s\" satın alınamıyor. Yeterli altın yok."
+
+msgid "artefact_buy/server_error"
+msgstr "%(kind)s \"%(name)s\" satın alınamıyor. Daha sonra tekrar deneyin."
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "%(kind)s \"%(name)s\" satın alınamıyor. Sunucu geçici olarak hizmet dışı."
+
+msgid "artefact_buy/success"
+msgstr "%(kind)s \"%(name)s\" (%(count)s parça) başarıyla satın aldı. %(money)s harcandı."
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "Araç kilitli. %(kind)s \"%(name)s\" satın alınıp takılamıyor."
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "%(kind)s \"%(name)s\" satın alınıp takılamıyor. Aracı onarın ve tekrar deneyin."
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "%(name)s demonte edilemiyor. Yanlış parça."
+
+msgid "artefact_deconstructing/server_error"
+msgstr "%(name)s demonte edilemiyor. Daha sonra tekrar deneyin."
+
+msgid "artefact_deconstructing/success"
+msgstr "Donanım demonte edildi: %(name)s (x%(count)s). %(money)s aldınız."
+
+msgid "artefact_deconstructingMult/success"
+msgstr "Donanım demonte edildi: %(names)s. %(money)s aldınız."
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "'%(equipment)s' sökülmedi. Yetersiz para."
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "Yanlış araç. %(kind)s \"%(name)s\" yok edilmedi."
+
+msgid "artefact_destroy/server_error"
+msgstr "%(kind)s \"%(name)s\" yok edilirken sunucu hatası. Daha sonra tekrar deneyin."
+
+msgid "artefact_destroy/success"
+msgstr "%(kind)s \"%(name)s\" sökülerek yok edildi."
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "Araç kilitli. %(kind)s \"%(name)s\" yok edilmedi."
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "Araç hasarlı. %(kind)s \"%(name)s\" yok edilmedi. Aracı onarıp tekrar deneyin."
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "%(kind)s \"%(name)s\" araçtan söküldü. Bir Sökme Kiti harcadınız."
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "\"%s\" sarf malzemesi mevcut parçayla uyumlu olmadığından Depoya gönderildi."
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "Yanlış araç. %(kind)s \"%(name)s\" sökülmedi."
+
+msgid "artefact_remove/money_success"
+msgstr "%(kind)s \"%(name)s\" araçtan söküldü. %(money)s harcadınız."
+
+msgid "artefact_remove/server_error"
+msgstr "%(kind)s \"%(name)s\" sökülürken sunucu hatası. Daha sonra tekrar deneyin."
+
+msgid "artefact_remove/success"
+msgstr "%(kind)s \"%(name)s\" araçtan söküldü."
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "Araç kilitli. %(kind)s \"%(name)s\" sökülmedi."
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "Araç hasarlı. %(kind)s \"%(name)s\" sökülmedi. Aracı onarıp tekrar deneyin."
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "%(kind)s \"%(name)s\" aracınızdan aktif WoT Plus aboneliğiniz sayesinde ücretsiz olarak söküldü."
+
+msgid "artefact_sell/invalid_module"
+msgstr "%(kind)s \"%(name)s\" satılamıyor. Yanlış parça."
+
+msgid "artefact_sell/server_error"
+msgstr "%(kind)s \"%(name)s\" satılamıyor. Daha sonra tekrar deneyin."
+
+msgid "artefact_sell/success"
+msgstr "%(kind)s \"%(name)s\" (%(count)s parça). %(money)s alındı."
+
+msgid "artefact_upgrade/server_error"
+msgstr "Donanım yükseltilirken hata. Lütfen daha sonra tekrar deneyin."
+
+msgid "artefact_upgrade/success"
+msgstr "%(kind)s \"%(name)s\" başarıyla yükseltildi. Nitelikler iyileştirildi. %(money)s harcandı."
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "%(name)s %(kind)s başarıyla yükseltildi ve nitelikler iyileştirildi. %(money)s harcandı.\n\nAlternatif setteki benzer donanım Depoya gönderildi."
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "Araç hasarlı. %(kind)s \"%(name)s\" yükseltilmedi. Aracı onarıp tekrar deneyin."
+
+msgid "badges/select/server_error"
+msgstr "Sunucu Hatası"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "İşlem yapılamıyor. Lütfen mevcut işlem bitene kadar bekleyin."
+
+msgid "battle/request/SEND_INVITES"
+msgstr "Davetiye Gönder"
+
+msgid "battleAbilities_apply/error"
+msgstr "Savaş Yedekleri yapılandırma hatası. Lütfen daha sonra tekrar deneyin."
+
+msgid "battleBooster_buy/credits_error"
+msgstr "%(kind)s \"%(name)s\" satın alınamadı. Yetersiz kredi."
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "%(kind)s \"%(name)s\" satın alınamadı. Yetersiz tahvil."
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" bu araca uymuyor."
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "%(kind)s \"%(name)s\" satın alınamıyor. Yeterli Yıl Dönümü Jetonu yok."
+
+msgid "battleBooster_buy/gold_error"
+msgstr "%(kind)s \"%(name)s\" satın alınamadı. Yetersiz altın."
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "%(kind)s \"%(name)s\" satın alınamadı. Yanlış parça."
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "%(kind)s \"%(name)s\" satın alınıp takılamadı. Yanlış araç."
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "%(kind)s \"%(name)s\" satın alınamadı. Yetersiz kredi."
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "%(kind)s \"%(name)s\" satın alınamadı. Yetersiz tahvil."
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "%(kind)s \"%(name)s\" satın alınamıyor. Yeterli Yıl Dönümü Jetonu yok."
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "%(kind)s \"%(name)s\" satın alınamadı. Yetersiz altın."
+
+msgid "battleBooster_buy/server_error"
+msgstr "Yönergelerle işlemler bakım sebebiyle geçici olarak yapılamamaktadır."
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "%(kind)s \"%(name)s\" satın alınamadı. Sunucu geçici olarak devre dışı."
+
+msgid "battleBooster_buy/success"
+msgstr "%(kind)s \"%(name)s\" başarıyla satın alındı (%(count)s ürün). %(money)s harcadınız."
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "Araç kilitli. %(kind)s \"%(name)s\" satın alınıp takılamadı."
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "%(kind)s \"%(name)s\" satın alınıp takılamadı. Aracı onarıp tekrar deneyin."
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "battleBooster_sell/server_error"
+msgstr "Yönergelerle işlemler bakım sebebiyle geçici olarak yapılamamaktadır."
+
+msgid "battleBooster_sell/success"
+msgstr "%(kind)s \"%(name)s\" satıldı (%(count)s parça). Alınan: %(money)s."
+
+msgid "battleBoosters_apply/error"
+msgstr "Yönergeler işlem hatası. Lütfen daha sonra tekrar deneyin."
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "Yönergeler işlem hatası. Satın almayı tamamlamak için yeterli kaynak yok."
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "İşlem imkansız. Altınlarınız WG Cüzdan tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "battlePass/activateChapter/success"
+msgstr "%(chapter)s Bölümü aktive edildi"
+
+msgid "battlePass/extraFinish/body"
+msgstr "%(name)s etkinliği sona erdi. Katılımınız için teşekkür ederiz!"
+
+msgid "battlePass/extraFinish/header"
+msgstr "Savaş Kartı: \"%(name)s\" Bölümü"
+
+msgid "battlePass/extraStarted/body"
+msgstr "Komutan! Savaş Kartı çerçevesinde %(name)s etkinliği başladı. Bu etkinlikte özel bir ödül alabilirsiniz!"
+
+msgid "battlePass/extraStarted/header"
+msgstr "Savaş Kartı: Yeni Bir Bölüm Var!"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "Komutan! \"%(name)s\" Bölümünün sona ermesine çok az kaldı. Acele edin!"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "Savaş Kartı: \"%(name)s\" Bölümü"
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "Komutanlar! Sıralamalı Savaşlarda Savaş Kartı Puanı kazanabileceğinizi unutmayın!"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "Komutanlar! Ön Cephede Savaş Kartı Puanı kazanabileceğinizi unutmayın!"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "Komutanlar! Keşif Görevinde Savaş Kartı Puanı kazanabileceğinizi unutmayın!"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "Komutanlar! Hücum'da Savaş Kartı Puanı kazanabileceğini unutmayın!"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "Savaş Kartı Sezon %(seasonNum)d"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "Ödül seçerken hata. Lütfen tekrar deneyin."
+
+msgid "battlePass/seasonEnd/text"
+msgstr "Savaş Kartı sezonu sona erdi. Sezon sırasında seçmediğiniz tüm ödüller size varsayılan değerlerle verildi:"
+
+msgid "battlePass/switchChapter/error"
+msgstr "Bölüm seçerken hata oluştu. Lütfen tekrar deneyin."
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "Bir Bölüm seçin. İstediğiniz anda diğer Bölümlere geçebilirsiniz."
+
+msgid "battlePass/switchChapter/success"
+msgstr "Başka bir Bölüme geçtiniz. Artık %(chapter)s Bölümü aktif."
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "Savaş Kartı, Çelik Avcısında bakım sebebiyle geçici olarak devre dışıdır. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "Bakım çalışması nedeniyle şu anda Hücum kipinde Savaş Kartı Puanı kazanılamamaktadır."
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "Bakım çalışması nedeniyle şu anda Hafif Hücum kipinde Savaş Kartı Puanı kazanılamamaktadır."
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "Savaş Kartı, Ön Cephede bakım sebebiyle geçici olarak devre dışıdır."
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "Savaş Kartı, Sıralamalı Savaşlarda bakım sebebiyle geçici olarak devre dışıdır."
+
+msgid "battlePass/switch_enabled/body"
+msgstr "Savaş Kartı yeniden açıldı. Verdiğimiz rahatsızlıktan dolayı özür dileriz.\nSezon %(expiryTime)s tarihine kadar uzatıldı."
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "Savaş Kartı Puanları Hücum'da tekrar kazanılabilir. Verdiğimiz rahatsızlıktan ötürü özür dileriz."
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "Savaş Kartı Puanları Hafif Hücum'da tekrar kazanılabilir. Verdiğimiz rahatsızlıktan ötürü özür dileriz."
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "Savaş Kartı, Ön Cephede tekrar geçerli hale geldi. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "Savaş Kartı, Sıralamalı Savaşlarda tekrar geçerli hale geldi. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "battlePass/switch_pause/body"
+msgstr "Savaş Kartı bakım sebebiyle geçici olarak devre dışıdır."
+
+msgid "battlePass/switch_started/body"
+msgstr "Komutanlar! Yine özgün Savaş Kartı ödülleri için savaşma zamanı geldi!"
+
+msgid "battlePass/switch_started/title"
+msgstr "Savaş Kartı %(seasonNum)d. Sezonu"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "Savaş Kartı: %(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "Savaş Kartı sona erdi. Seçimini yapmadığınız tüm ödüller size varsayılan değerlerle verildi:"
+
+msgid "battlePassH/switch_disable/body"
+msgstr "Bölüm sona erdi. Bir dahaki sefere!"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "Savaş Kartı: %(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "Savaş Kartı tekrar geçerli hale geldi. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "battlePassH/switch_started/body"
+msgstr "Komutanlar! Az sonra keşfedeceğiniz üzere, bu özel bir Savaş Kartı.\n\nGelişimi tamamladığınızda özgün bir 3B stile bürünmüş bir Premium araç, özelleştirme ögeleri ve başka bir sürü ürün alacaksınız!"
+
+msgid "battlePassH/switch_started/title"
+msgstr "Savaş Kartı: %(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "Gelişim Aşamaları satın alırken bir hata oluştu. Lütfen tekrar deneyin."
+
+msgid "battlePass_buy/server_error"
+msgstr "Gelişmiş Kart satın alırken hata. Lütfen tekrar deneyin."
+
+msgid "battleResults/sharing/success"
+msgstr "Link panoya kopyalandı. Ctrl+V'ye basarak sohbete yapıştırabilirsiniz veya oyun istemcisi dışında kullanabilirsiniz."
+
+msgid "battleSession/kickedFromQueue"
+msgstr "Mevcut Tank Bölüğüne rakip bulunamıyor. Ekibinizi yeniden yapılandırmayı düşünün."
+
+msgid "battleSession/memberJoined"
+msgstr "%s ekibe katıldı."
+
+msgid "battleSession/memberLeave"
+msgstr "%s ekipten ayrıldı."
+
+msgid "battleSession/memberNotReady"
+msgstr "%s ekipte savaşmaya hazır değil."
+
+msgid "battleSession/memberOffline"
+msgstr "%s ile bağlantı kesintiye uğradı."
+
+msgid "battleSession/memberReady"
+msgstr "%s ekipte savaşmaya hazır."
+
+msgid "battlesession/error/AddObserver"
+msgstr "Ekipteki maksimum izleyici sayısı: %(numPlayers)s."
+
+msgid "battlesession/error/AddPlayer"
+msgstr "Ekipteki maksimum oyuncu sayısı: %(numPlayers)s."
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "Diğer oyuncuları taşımak için yeterli izin yok."
+
+msgid "battlesession/error/Limits"
+msgstr "Ekipteki maksimum oyuncu sayısı aşıldı."
+
+msgid "blueprints/conversion/disable"
+msgstr "Dönüştürmek için yeterli kesit yok."
+
+msgid "blueprints/conversion/error"
+msgstr "Emekli edilemedi: Sunucu devre dışı. Lütfen daha sonra tekrar deneyin."
+
+msgid "blueprints/switch_off"
+msgstr "Araç taslakları: bu özellik geçici olarak devre dışı bırakıldı. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "blueprints/switch_on"
+msgstr "Araç taslakları yeniden devrede."
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "İşlem yapılamıyor. Kişisel Yedek zaten kullanımda."
+
+msgid "booster_activate/DISABLED"
+msgstr "Kişisel Yedek etkinleştirilemiyor. İşlem yapılamıyor."
+
+msgid "booster_activate/EXCEPTION"
+msgstr "Kişisel Yedek etkinleştirilemiyor. İşlem yapılamıyor."
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "İşlem yapılamıyor. Kişisel Yedek yok veya seçili değil."
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "Kişisel Yedek etkinleştirilemiyor. İşlem yapılamıyor."
+
+msgid "booster_activate/server_error"
+msgstr "Kişisel Yedek etkinleştirilemiyor. Daha sonra tekrar deneyin."
+
+msgid "booster_activate/success"
+msgstr "Kişisel Yedek \"%(boosterName)s\" etkinleşti. Kalan süre: %(time)s."
+
+msgid "booster_buy/not_enough_credits"
+msgstr "Kişisel Yedek \"%(boosterName)s\" satın alınamıyor. Yeterli kredi yok."
+
+msgid "booster_buy/not_enough_gold"
+msgstr "Kişisel Yedek \"%(boosterName)s\" satın alınamıyor. Yeterli altın yok."
+
+msgid "booster_buy/server_error"
+msgstr "Kişisel Yedek \"%(boosterName)s\" satın alınamıyor."
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "Kişisel Yedek \"%(boosterName)s\" satın alınamıyor. Sunucu geçici olarak devre dışı."
+
+msgid "booster_buy/success"
+msgstr "Kişisel Yedek \"%(boosterName)s\" başarıyla satın alındı (%(count)s ürün). %(money)s harcandı."
+
+msgid "booster_buy/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "booster_sell/server_error"
+msgstr "Kişisel Yedek \"%(boosterName)s\" satılamıyor. Daha sonra tekrar deneyin."
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "Kişisel Yedek \"%(boosterName)s\" satılamıyor. Daha sonra tekrar deneyin."
+
+msgid "booster_sell/success"
+msgstr "Kişisel Yedek \"%(boosterName)s\" başarıyla satıldı (%(count)s ürün). %(money)s alındı."
+
+msgid "buttons/goToPoll"
+msgstr "Oylamaya Git"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "Mürettebat üyesi alınıp aktarılamıyor: tank özel sabit mürettebata sahip."
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "Bugün için ücretsiz mürettebat üyesi sınırına ulaştınız."
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "Mürettebat üyesi alınıp transfer edilemiyor. Yanlış araç."
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "Mürettebat üyesi alınıp transfer edilemiyor. Yeterli kredi yok."
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "Mürettebat üyesi alınıp transfer edilemiyor. Yeterli altın yok."
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "Mürettebat üyesi alınıp transfer edilemiyor. Daha sonra tekrar deneyin."
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "Mürettebat üyesi alınıp transfer edilemiyor. Araç kilitli."
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "Mürettebat üyesi alınıp aktarılamıyor: tank özel sabit mürettebata sahip."
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "Bugün için ücretsiz mürettebat üyesi sınırına ulaştınız."
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "Mürettebat üyesi alınıp değiştirilemiyor. Yanlış araç."
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "Mürettebat üyesi alınıp değiştirilemiyor. Yeterli kredi yok."
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "Mürettebat üyesi alınıp değiştirilemiyor. Yeterli altın yok."
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "Mürettebat üyesi alınamıyor veya değiştirilemiyor. Mürettebat üyesi almak için boş ranzaya ihtiyacınız var. Lütfen ranza boşaltın ya da Kışla'da ek ranza satın alın."
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "Mürettebat üyesi alınıp değiştirilemiyor. Daha sonra tekrar deneyin."
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "Mürettebat üyesi alınıp değiştirilemiyor. Araç kilitli."
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "Bedava araçları satın alma sınırına eriştiniz. Yarın tekrar deneyin."
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "Kışla genişletilirken hata. Yeterli kredi yok."
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "Kışla genişletilirken hata. Yeterli altın yok."
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "Kışla genişletilemiyor. Daha sonra tekrar deneyin."
+
+msgid "buy_tankmen_berths/success"
+msgstr "Kışla genişletildi.\nHarcanan altın: %(money)s."
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "buy_vehicle_slot_error"
+msgstr "\"%s\" satın alınamıyor. Garajda müsait yuva yok. Yer açmak için bir araç satmayı ya da yeni yuva satın almayı düşünün."
+
+msgid "buy_vehicle_slot_error2"
+msgstr "\"%s\" satın alınamıyor. Garajda müsait yer yok. Lütfen bir yuva boşaltın."
+
+msgid "challenges/activate/serverError"
+msgstr "Pota görevleri etkinleştirilemedi. Lütfen daha sonra tekrar deneyin."
+
+msgid "challenges/activate/success/text"
+msgstr "Bu serideki ilk görev tamamlamaya açık. Savaşa girin ve sınamayı geçin!"
+
+msgid "challenges/activate/success/title"
+msgstr "Pota: %(challengeName)s etkinleştirildi!"
+
+msgid "challenges/challengeEnd/button"
+msgstr "Pota"
+
+msgid "challenges/challengeEnd/text"
+msgstr "Hemen tamamlayın ve ödüllerinizi alın."
+
+msgid "challenges/challengeEnd/title"
+msgstr "Pota görevleri yakında sona eriyor!"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "Tebrikler!"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "Pota: %(challengeName)s sınamasını tamamladınız! Alınan ödüller:"
+
+msgid "challenges/formatter/spent/credits"
+msgstr "Harcanan kredi:"
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "Harcanan tahvil:"
+
+msgid "challenges/formatter/spent/gold"
+msgstr "Harcanan altın:"
+
+msgid "challenges/restart/free/text"
+msgstr "Bir ücretsiz yeniden başlama kullanıldı ve görev gelişimi sıfırlandı."
+
+msgid "challenges/restart/free/title"
+msgstr "Pota: %(challengeName)s ücretsiz olarak yeniden başlatıldı"
+
+msgid "challenges/restart/paid/title"
+msgstr "Pota: %(challengeName)s yeniden başlatıldı"
+
+msgid "challenges/restart/serverError"
+msgstr "Pota görevleri yeniden başlatılamıyor. Lütfen daha sonra tekrar deneyin."
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "İşlem yapılamıyor. Lütfen mevcut işlem bitene kadar bekleyin."
+
+msgid "challenges/surrender/serverError"
+msgstr "Pota görevleri terk edilemiyor. Lütfen daha sonra tekrar deneyin."
+
+msgid "challenges/surrender/success/text"
+msgstr "Pota: %(challengeName)s sınamasını terk ettiniz. Görev serisi başarısız oldu."
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "Mürettebat üyesinin uzmanlığı değiştirilemiyor: tank özel sabit mürettebata sahip."
+
+msgid "change_tankman_role/invalid_role"
+msgstr "Uzmanlık değiştirilemiyor. Daha sonra tekrar deneyin."
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "Uzmanlık değiştirilemiyor. Yanlış araç."
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "Araç Garajda değil. Yeniden uzmanlaşan mürettebat üyesi Kışlaya gönderilecek."
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "Mürettebat üyesinin uzmanlığı değiştirilemiyor. Yeterli kredi yok."
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "Mürettebat üyesinin uzmanlığı değiştirilemiyor. Yeterli altın yok."
+
+msgid "change_tankman_role/server_error"
+msgstr "Uzmanlık değiştirilemiyor.\nDaha sonra tekrar deneyin."
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "%(vehicle)s'da zaten bir %(role)s var. Yeniden uzmanlaşan mürettebat üyesi Kışlaya gönderilecek."
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "Uzmanlık değiştirilemiyor. Daha sonra tekrar deneyin."
+
+msgid "charge/credits_error"
+msgstr "%s kredi ve %s altın gerekiyor. Mühimmatı manuel olarak ayarla."
+
+msgid "charge/credits_error_credits"
+msgstr "%s daha fazla kredi gerekiyor. Mühimmatı manuel olarak ayarla."
+
+msgid "charge/credits_error_gold"
+msgstr "%s daha fazla altın gerekiyor. Mühimmatı manuel olarak ayarla."
+
+msgid "charge/inventory_error"
+msgstr "%(vehicle)s için mühimmat yüklemesi yapılamadı. Mühimmatı manuel olarak yükleyin."
+
+msgid "charge/money_spent"
+msgstr "Mühimmat için toplam harcama %s."
+
+msgid "charge/server_error"
+msgstr "Mühimmat yüklemesi sırasında hata oluştu. Daha sonra tekrar deneyin."
+
+msgid "charge/server_error_save"
+msgstr "Mühimmat kaydedilirken hata oluştu. Daha sonra tekrar deneyin."
+
+msgid "charge/success"
+msgstr "Mühimmat başarıyla yüklendi."
+
+msgid "charge/success_save"
+msgstr "Mühimmat başarıyla kaydedildi."
+
+msgid "checkout_error"
+msgstr "Oyuncu hakkında bilgi alımında sunucu hatası oluştu. Oyuna tekrar bağlanana kadar bekleyin."
+
+msgid "clans/isClanProfileDisabled"
+msgstr "İşlem yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "clans/notifications/accept"
+msgstr "Kabul Et"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "%(userName)s oyuncusuna klan daveti daha önce gönderildi."
+
+msgid "clans/notifications/decline"
+msgstr "Reddet"
+
+msgid "clans/notifications/from"
+msgstr "%(user)s'dan"
+
+msgid "clans/notifications/info"
+msgstr "Klan detaylarını incele"
+
+msgid "clans/notifications/invite"
+msgstr "Klana Davet"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "Klan daveti kabul edildi."
+
+msgid "clans/notifications/invite/declined"
+msgstr "Klan daveti reddedildi."
+
+msgid "clans/notifications/invite/expired"
+msgstr "Klan daveti geçersiz."
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s klan davetini kabul etti."
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s klan davetini reddetti."
+
+msgid "clans/notifications/inviteSendError"
+msgstr "%(userName)s'e klan daveti gönderilemiyor."
+
+msgid "clans/notifications/inviteSent"
+msgstr "%(userName)s'e klan daveti gönderildi."
+
+msgid "clans/notifications/invites"
+msgstr "Klan davetleri: %(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "Bildirimleri kapat"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "Davetiyeleri İncele"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "%(userCount)d oyuncuya klan daveti gönderilemedi."
+
+msgid "clans/notifications/invitesSent"
+msgstr "%(userCount)d oyuncuya davetiye gönderildi."
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s\nklanına kabul edildiniz."
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s\nklanına başvurunuz reddedildi."
+
+msgid "clans/notifications/request"
+msgstr "Klana başvuru"
+
+msgid "clans/notifications/request/accepted"
+msgstr "Başvuru kabul edildi."
+
+msgid "clans/notifications/request/declined"
+msgstr "Başvuru reddedildi."
+
+msgid "clans/notifications/requestSent"
+msgstr "Klana yapılan başvurular:\n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "Oyunculardan davetler: %(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "Başvuruları İncele"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "%(userName)s zaten klanınıza davet edildi."
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "İşlem yapılamıyor. Oyuncu üye alım şartlarına uymuyor."
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "Önceki klanınızdan ayrılmanızdan dolayı bir günlük cezanız henüz bitmedi."
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "İşlem yapılamıyor. Hatalı hesap."
+
+msgid "clans/request/errors/Account is banned"
+msgstr "İşlem yapılamıyor. Hesap yasaklı."
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "Bu oyuncu zaten bir klanın üyesi."
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "İşlem yapılamıyor. Oyuncu bir klan üyesi değil."
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "İşlem yapılamıyor. Başvuru yok."
+
+msgid "clans/request/errors/Application is not active"
+msgstr "İşlem yapılamıyor. Başvurunun süresi doldu."
+
+msgid "clans/request/errors/Bad request"
+msgstr "İşlem yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "Klana davet göndermek için yetersiz izin."
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "Klana alım kapalı."
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "Klan dolu."
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "İşlem yapılamıyor. Klan yok."
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "İşlem yapılamıyor. Klan dolu."
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "İşlem yapılamıyor. Klan dağıtıldı."
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "İşlem yapılamıyor. Klan aktif değil."
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "İşlem yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "İşlem yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "Eylem bu tip hesaplar için geçersiz."
+
+msgid "clans/request/errors/Forbidden"
+msgstr "İşlem geçersiz. Yeterli yetkiniz yok."
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "İşlem yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "İşlem yapılamıyor. Davetiye yok."
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "İşlem yapılamıyor. Davetiyenin süresi doldu."
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "İşlem yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "İşlem yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "İşlem yapılamıyor. Kale yok."
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "İşlem yapılamıyor. Maksimum başvuru sayısı yapıldı."
+
+msgid "clans/request/errors/Too many invites"
+msgstr "İşlem yapılamıyor. Maksimum sayıda davetiye gönderildi."
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "İşlem yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "İşlem yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "İşlem yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "İşlem yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "%(userName)s zaten bir klanın üyesi."
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s \"%s\" bu araca uymuyor."
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s \"%s\" bu kuleye uymuyor. Kuleyi değiştirin."
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s \"%s\" yanlış türde."
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s \"%s\" yanlış ülkenin."
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s \"%s\" bu araca uymuyor."
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s \"%s\" yanlış türde."
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s \"%s\" yanlış ülkenin."
+
+msgid "client_inactive"
+msgstr "İstemci aktif değil"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "Koleksiyonlar planlı bakım sebebiyle geçici olarak devre dışıdır."
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "Koleksiyonlar Devre Dışı"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "Koleksiyonlar düzeltildi. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "Koleksiyonlar tekrar kullanımda"
+
+msgid "connected"
+msgstr "World of Tanks %s sunucusuna hoş geldiniz!"
+
+msgid "consumables_apply/error"
+msgstr "Sarf malzemeleri yapılandırma hatası. Lütfen daha sonra tekrar deneyin."
+
+msgid "consumables_apply/not_enough_money"
+msgstr "Sarf malzemeleri yapılandırma hatası. Satın almayı tamamlamak için yeterli kaynak yok."
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "İşlem imkansız. Altınlarınız WG Cüzdan tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "conversion/error"
+msgstr "Emekli edilemedi: Sunucu devre dışı. Lütfen daha sonra tekrar deneyin."
+
+msgid "conversion/header"
+msgstr "Tarih: %(at)s\nEklenen:"
+
+msgid "conversion/success"
+msgstr "Eğitimi az mürettebat üyeleri emekli edildi: %(number)s"
+
+msgid "conversion/title"
+msgstr "Alındı"
+
+msgid "conversionPerks/header"
+msgstr "Tarih: %(at)s\nSınırın üzerindeki mürettebat yeteneklerinden DP dönüştürülüyor. Alınan:"
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "Özel mesajlar ülkenizden oyunculara açık değil."
+
+msgid "crewBooks/failed"
+msgstr "Bu mürettebat eğitilemiyor.\nDaha sonra tekrar deneyin."
+
+msgid "crewBooks/server_error"
+msgstr "Mürettebat üyesinin/üyelerinin eğitimi sunucu hatası nedeniyle başarısız oldu. Daha sonra tekrar deneyin."
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s."
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "crewBooksNotification/success"
+msgstr "Mürettebat eğitildi.\nHarcanan:"
+
+msgid "crewBooks_buy/server_error"
+msgstr "Sunucu hatası sebebi ile Mürettebat Kitabı satın alınamıyor. Daha sonra tekrar deneyin."
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s (%(count)s adet).\nHarcanan kredi: %(money)s."
+
+msgid "crewBooks_sell/server_error"
+msgstr "Sunucu hatası sebebi ile Mürettebat Kitabı satılamıyor. Daha sonra tekrar deneyin."
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s (%(count)s adet).\nAlınan kredi: %(money)s."
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "Mürettebat kaplaması değişti."
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "Mürettebat kaplaması eklendi:%(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "Mevcut araç %s ile değiştirildi."
+
+msgid "customization/added/attachment"
+msgstr "%s 3B eki eklendi"
+
+msgid "customization/added/attachmentValue"
+msgstr "%s 3B eki eklendi (x%s)"
+
+msgid "customization/added/camouflage"
+msgstr "%s kamuflajı eklendi"
+
+msgid "customization/added/camouflageValue"
+msgstr "%s kamuflajı eklendi (x%s)"
+
+msgid "customization/added/decal"
+msgstr "%s çıkartması eklendi"
+
+msgid "customization/added/decalValue"
+msgstr "%s çıkartması eklendi: (x%s)"
+
+msgid "customization/added/emblem"
+msgstr "%s amblemi eklendi"
+
+msgid "customization/added/emblemValue"
+msgstr "%s amblemi eklendi: (x%s)"
+
+msgid "customization/added/inscription"
+msgstr "%s yazısı eklendi"
+
+msgid "customization/added/inscriptionValue"
+msgstr "%s yazısı eklendi: (x%s)"
+
+msgid "customization/added/modification"
+msgstr "%s efekti eklendi"
+
+msgid "customization/added/modificationValue"
+msgstr "%s efekti eklendi: (x%s)"
+
+msgid "customization/added/paint"
+msgstr "%s boyası eklendi"
+
+msgid "customization/added/paintValue"
+msgstr "%s boyası eklendi: (x%s)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "%s tek haneli sayı eklendi"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "%s tek haneli sayı eklendi: (x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "%s iki haneli sayı eklendi"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "%s iki haneli sayı eklendi: (x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "%s üç rakamlı sayı eklendi"
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "%s üç rakamlı sayı eklendi: (x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "%s çıkartması eklendi"
+
+msgid "customization/added/projectionDecalValue"
+msgstr "%s çıkartması eklendi: (x%s)"
+
+msgid "customization/added/statTracker"
+msgstr "İstatistik Takipçisi: %s eklendi"
+
+msgid "customization/added/statTrackerValue"
+msgstr "İstatistik Takipçileri: %s eklendi: (x%s)"
+
+msgid "customization/added/style"
+msgstr "%s stili eklendi"
+
+msgid "customization/added/styleValue"
+msgstr "%s stili eklendi: (x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "Özelleştirme yapılamıyor. Yeterli kredi ve altın yok."
+
+msgid "customization/credits_not_enough"
+msgstr "Özelleştirme yapılamıyor. Yeterli kredi yok."
+
+msgid "customization/currency_not_enough"
+msgstr "Ürünü satın almak için yeterli para yok."
+
+msgid "customization/gold_not_enough"
+msgstr "Özelleştirilemiyor. Yeterli altın yok."
+
+msgid "customization/igr_type_changed_error"
+msgstr "IGR statüsü değişti. Mevcut işlem iptal edildi."
+
+msgid "customization/invalidVehicle"
+msgstr "Uygulanamıyor: Elverişsiz araç"
+
+msgid "customization/personal_number_prohibited"
+msgstr "%(value)s sayısı kullanılamaz.\n%(itemType)s %(itemName)s %(seasonName)s haritası için kaldırıldı."
+
+msgid "customization/progression/down/style"
+msgstr "%s stili %s Seviyesine düşürüldü"
+
+msgid "customization/progression/up/style"
+msgstr "%s stili %s Seviyesine yükseltildi"
+
+msgid "customization/prohibited"
+msgstr "Uygulanamıyor. %(itemName)s depoda yok."
+
+msgid "customization/removed/attachment"
+msgstr "%s 3B eki kaldırıldı"
+
+msgid "customization/removed/attachmentValue"
+msgstr "%s 3B eki kaldırıldı (x%s)"
+
+msgid "customization/removed/camouflage"
+msgstr "%s kamuflajı kaldırıldı"
+
+msgid "customization/removed/camouflageValue"
+msgstr "%s kamuflajı kaldırıldı: (x%s)"
+
+msgid "customization/removed/decal"
+msgstr "%s çıkartması kaldırıldı"
+
+msgid "customization/removed/decalValue"
+msgstr "%s çıkartması kaldırıldı: (x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "%s amblemi kaldırıldı"
+
+msgid "customization/removed/emblemValue"
+msgstr "%s amblemi kaldırıldı: (x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "%s yazısı kaldırıldı"
+
+msgid "customization/removed/inscriptionValue"
+msgstr "%s yazısı kaldırıldı: (x%s)"
+
+msgid "customization/removed/modification"
+msgstr "%s efekti kaldırıldı"
+
+msgid "customization/removed/modificationValue"
+msgstr "%s efekti kaldırıldı: (x%s)"
+
+msgid "customization/removed/paint"
+msgstr "%s boyası kaldırıldı"
+
+msgid "customization/removed/paintValue"
+msgstr "%s boyası kaldırıldı (x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "%s tek haneli sayı kaldırıldı"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "%s tek haneli sayı kaldırıldı: (x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "%s iki haneli sayı kaldırıldı"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "%s iki haneli sayı kaldırıldı: (x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "%s üç rakamlı sayı kaldırıldı"
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "%s üç rakamlı sayı kaldırıldı: (x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "%s çıkartması kaldırıldı"
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "%s çıkartması kaldırıldı: (x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "İstatistik Takipçisi: %s kaldırıldı"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "İstatistik Takipçileri: %s kaldırıldı: (x%s)"
+
+msgid "customization/removed/style"
+msgstr "%s stili kaldırıldı"
+
+msgid "customization/removed/styleValue"
+msgstr "%s stili kaldırıldı: (x%s)"
+
+msgid "customization/server_error"
+msgstr "Özelleştirilemiyor."
+
+msgid "customization/unavailable"
+msgstr "Araç özelleştirmesi işlevselliği teknik nedenlerle geçici olarak kapatıldı."
+
+msgid "customization/vehicle_damaged"
+msgstr "Özelleştirme yapılamıyor. Aracınız hasarlı. Onarım gerekiyor."
+
+msgid "customization/vehicle_destroyed"
+msgstr "Özelleştirme yapılamıyor. Araç yok edilmiş. Onarım gerekiyor."
+
+msgid "customization/vehicle_exploded"
+msgstr "Özelleştirme yapılamıyor. Araç yok edilmiş. Onarım gerekiyor."
+
+msgid "customization/vehicle_locked"
+msgstr "Özelleştirme yapılamıyor. Araç kilitli."
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "Standart Görev yenilenemiyor: görev zaten tamamlandı."
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "Standart Görev yenilenemiyor: işlem engellendi."
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "Standart Görev yenilenemiyor: işlem donduruldu."
+
+msgid "daily_quests/reroll/success"
+msgstr "Standart Görev başarıyla yenilendi."
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "Standart Görev yenilenemiyor. Daha sonra tekrar deneyin."
+
+msgid "daily_quests/switch_off/body"
+msgstr "Bu özellik teknik nedenlerle geçici olarak devre dışıdır.\nVerdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "daily_quests/switch_off/title"
+msgstr "Standart Görevler geçici olarak devre dışı"
+
+msgid "daily_quests/switch_on/body"
+msgstr "Teknik sorunlar çözüldü. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "daily_quests/switch_on/title"
+msgstr "Standart Görevler tekrar devrede"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "Bu özellik teknik nedenlerle geçici olarak devre dışıdır.\nVerdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "Deneyime yönetilebilir bonus geçici olarak kullanılamıyor"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "Teknik sorunlar çözüldü. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "Deneyime yönetilebilir bonus yeniden kullanılabilir"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "Sökme Kitleriyle işlemler bakım sebebiyle geçici olarak yapılamamaktadır."
+
+msgid "demountKit_restored/switchedOn"
+msgstr "Sökme Kitleriyle işlemler yeniden açılmıştır. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "denunciation/success"
+msgstr "%(name)s hakkında \"%(topic)s\" konusunda şikayet kabul edildi."
+
+msgid "disconnected"
+msgstr "İstemci sunucudan koptu."
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "Mürettebat üyesi terhis edilemiyor: tank özel sabit mürettebata sahip."
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "Mürettebat üyesini çıkarırken hata. Yanlış araç."
+
+msgid "dismiss_tankman/server_error"
+msgstr "Bu mürettebat üyesi emekli edilemiyor.\nDaha sonra tekrar deneyin."
+
+msgid "dismiss_tankman/success"
+msgstr "Mürettebat üyesi emekli edildi."
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "Mürettebat üyesini çıkarırken hata oluştu. Araç kilitli."
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "Mürettebat üyesini çıkarırken hata oluştu. Aracı tamir edin."
+
+msgid "dog_tags/switch_off/body"
+msgstr "Bu özellik teknik nedenlerle geçici olarak devre dışıdır.\nVerdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "dog_tags/switch_off/title"
+msgstr "Asker Künyeleri geçici olarak devre dışı"
+
+msgid "dog_tags/switch_on/body"
+msgstr "Teknik sorunlar çözüldü. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "dog_tags/switch_on/title"
+msgstr "Asker Künyeleri tekrar devrede"
+
+msgid "dossiers_unavailable"
+msgstr "Hesap hazır değil (DOSSIERS_UNAVAILABLE)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "Tüm yetenekler sıfırlandı.\nHarcanan kredi: %(money)s."
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "Tüm yetenekler sıfırlandı.\nHarcanan altın: %(money)s."
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "Yetenek sıfırlama sırasında hata oluştu. Yanlış araç."
+
+msgid "drop_tankman_skill/server_error"
+msgstr "Yetenekler sıfırlanamıyor. Daha sonra tekrar deneyin."
+
+msgid "drop_tankman_skill/success"
+msgstr "Tüm yetenekler sıfırlandı."
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "Yetenek sıfırlama sırasında hata oluştu. Araç kilitli."
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "Yetenek sıfırlama sırasında hata oluştu. Aracınızı onarın."
+
+msgid "drr_scale/step_down"
+msgstr "Dinamik çözünürlük %(scale)d%% düşürüldü."
+
+msgid "drr_scale/step_up"
+msgstr "Dinamik çözünürlük %(scale)d%% çıkarıldı."
+
+msgid "earning/button/multiple"
+msgstr "Başarılara Git"
+
+msgid "earning/button/single"
+msgstr "Başarıya Git"
+
+msgid "earning/common/multiple"
+msgstr "%(value)s başarı açıldı!"
+
+msgid "earning/common/single"
+msgstr "%(value)s başarısı açıldı!"
+
+msgid "earning/title"
+msgstr "Tebrikler!"
+
+msgid "earning/trophy/multiple"
+msgstr "%(value)s kupa kazandınız!"
+
+msgid "earning/trophy/single"
+msgstr "%(value)s kupası kazandınız!"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "Hızlı Servis yeniden devrede. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "Hızlı Servis bakım sebebiyle geçici olarak devre dışıdır."
+
+msgid "easyTankEquip_apply/error"
+msgstr "Hızlı Servis yapılandırması uygulanırken hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "Hızlı Servis yapılandırması uygulanırken hata oluştu. Alışveriş için yeterli para yok."
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "Hızlı Servis işlemi devre dışı. Altınlarınız WG Cüzdan tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "epicBattles/levelUp/awards"
+msgstr "Ödül alındı:"
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "Ön Cephe Gelişiminde <font color='#E9E2BF'>%(tier)s.</font> Seviyeye ulaştınız."
+
+msgid "epicBattles/levelUp/title"
+msgstr "Tebrikler!"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "Ön Cephe devre dışıdır. Gelişmeleri oyun portalından takip edebilirsiniz."
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "Ödülleri seçerken hata oluştu. Lütfen tekrar deneyin."
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "%(name)s alındı"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "Donanım için yönergeler alındı: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "Deneysel Donanım alındı: %(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "Ön Cephe Sezonu sona erdi.<br/>Sezon sırasında seçmediğiniz tüm ödüller size varsayılan değerlerle verildi:"
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "Ön Cephe"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "Mürettebat üyesi aktarılamıyor: tank özel sabit mürettebata sahip."
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "Mürettebat üyesi araca transfer edilirken hata. Yanlış araç."
+
+msgid "equip_tankman/not_enough_space"
+msgstr "Mürettebat üyesi Kışlaya gönderilemiyor. Kışlada yeterli ranza yok."
+
+msgid "equip_tankman/server_error"
+msgstr "Mürettebat üyesi araca aktarılamadı. Daha sonra tekrar deneyin."
+
+msgid "equip_tankman/success"
+msgstr "Mürettebat üyesi %(vehName)s aracına aktarıldı."
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "Mürettebat üyesi araca transfer edilirken hata oluştu. Araç kilitli."
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "Mürettebat üyesi araca transfer edilirken hata oluştu. Aracınızı tamir edin."
+
+msgid "exchange/not_enough_gold"
+msgstr "Dönüşüm için yeterli altın yok."
+
+msgid "exchange/server_error"
+msgstr "%(gold)s altın dönüştürülürken hata oluştu. Daha sonra tekrar deneyin."
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "%(xp)s deneyim dönüştürmek için yeterli altın yok."
+
+msgid "exchangeXP/server_error"
+msgstr "%(xp)s deneyim dönüştürülürken hata oluştu. Daha sonra tekrar deneyin."
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "filling_untrained_perks/server_error"
+msgstr "Yeni yetenekler eğitilemiyor.\nSunucu devre dışı. Daha sonra tekrar deneyin."
+
+msgid "filling_untrained_perks/success"
+msgstr "Tüm mürettebat üyeleri için yeni yetenekler eğitildi."
+
+msgid "fortification/addOrder"
+msgstr "%(count)s Yedeğin hazırlığına başlandı. Kalan süre: %(time)s."
+
+msgid "fortification/buildingProcess"
+msgstr "%(buildingName)s binasının inşaatı başladı. Kesintisiz inşaat için gerekli miktarda Endüstriyel Kaynağı taşıyın."
+
+msgid "fortification/created"
+msgstr "Tebrikler!\nKale başarıyla yaratıldı."
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "Kalenizin savunması 48 saat içerisinde devre dışı kalacak. Bu süre içerisinde Kale ayarlarından savunmayı tekrar devreye alabilirsiniz."
+
+msgid "fortification/defenceHourSet"
+msgstr "Savunma Dönemi 14 gün sonra düzenlenecek. Yeni savunma dönemi: %(defenceHour)s."
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "Ateşkes günü 14 gün sonra düzenlenecek. Yeni Ateşkes günü-belirlenmedi."
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "Ateşkes günü 14 gün sonra düzenlenecek. Yeni Ateşkes günü-%(offDay)s."
+
+msgid "fortification/demountBuilding"
+msgstr "%(buildingName)s binası yıkıldı."
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "İşlem yapılamıyor. Zaten bu binaya bağlısınız."
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "İşlem yapılamıyor. Kale zaten yaratıldı."
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "İşlem yapılamıyor. Klan zaten imli listesinde."
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "İşlem yapılamıyor. Aynı klana birden fazla saldırı planlayamazsınız."
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "İşlem yapılamıyor. Saldırı verisi yüklü değil."
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "İşlem yapılamıyor. O klana son saldırı üzerinden bir hafta geçmeli."
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "İşlem yapılamıyor. Başka bir müfreze köprübaşına hakim."
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "İşlem yapılamıyor. Saldırı planlanmadı."
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "İşlem yapılamıyor. En az 15 dakika sonra başlayacak saldırıları planlayabilirsiniz."
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "Seçili günde bir saldırı planlanamıyor."
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "İşlem yapılamıyor. Hatalı klan IDsi."
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "İşlem yapılamıyor. Hatalı Ateşkes günü değeri."
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "İşlem yapılamıyor. Hatalı tarih."
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "İşlem yapılamıyor. Hatalı İlerleme IDsi."
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "İşlem yapılamıyor. Hatalı Savunma Dönemi değeri."
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "Seçili klana saldırılamıyor: Kalelerin seviyeleri arasındaki fark birden yüksek. Başka bir klan seçin."
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "İşlem yapılamıyor. Hatalı Yedek sayısı."
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "İşlem yapılamıyor. Geçersiz miktarda Endüstriyel Kaynak transfer edildi."
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "İşlem yapılamıyor. Hatalı klasman."
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "İşlem yapılamıyor. Çatışma ile ilgili detaylar alınamadı."
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "Savaşlar şu anda bu sunucuda sınırlandırılmıştır."
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "İşlem yapılamıyor. Geçersiz Tarafsızlık süresi."
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "İşlem yapılamıyor. Geçersiz Tarafsızlık tarihi."
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "İşlem geçersiz. Komuta Merkezini tamir edin."
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "İşlem yapılamıyor. Komuta Merkezi yok edildi."
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "İşlem yapılamıyor. Komuta Merkezi hasarlı değil."
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "İşlem yapılamıyor. Savaş yok."
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "Pardon, savaş sonuçları verilemiyor."
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "Kaldırılamıyor. Kalede binalar var."
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "İşlem yapılamıyor. Bina hasarlı."
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "İşlem yapılamıyor. Bina inşa edilmedi."
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "İşlem yapılamıyor. Klan detayları alınamıyor."
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "İşlem yapılamıyor. Klan bulunamıyor."
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "İşlem yapılamıyor. Taşıma yok."
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "İşlem yapılamıyor. Bina yükseltilemiyor."
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "İşlem reddedildi. Sunucu geçici olarak devre dışı."
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "İşlem yapılamıyor. Klan Ateşkes gününü etkinleştirdi."
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "İşlem yapılamıyor. Klan Tarafsızlığı etkinleştirdi."
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "İşlem yapılamıyor. Savunma Dönemi belirtilen zamana ayarlanamıyor."
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "İşlem yapılamıyor. Başka bir müfreze köprübaşına hakim."
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "İşlem yapılamıyor. Savunma planlanmadı."
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "İşlem yapılamıyor. Geçersiz veri."
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "İşlem geçersiz. Savunma devre dışı."
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "Kale geçici olarak devre dışı."
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "İşlem yapılamıyor. Bina zaten yapıldı."
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "İşlem yapılamıyor. Lütfen mevcut işlem bitene kadar bekleyin."
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "İşlem geçersiz. O zamanda başka bir klana saldırıyorsunuz."
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "Bu klana istenilen zamanda saldırı programlanamıyor."
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "Hata. Kale geçici olarak devre dışı."
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "İşlem yapılamıyor. Kale seviyesi çok düşük."
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "İşlem yapılamıyor. Tüm binaların inşaatı donduruldu."
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "İşlem yapılamıyor. Yetkiniz yok."
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "İşlem yapılamıyor. Taktik birliğe katılınamıyor."
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "İşlem geçici olarak yapılamıyor."
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "İşlem yapılamıyor. Zaman eşzamanlanamadı."
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "İşlem yapılamıyor. Binaya bağlı değilsiniz."
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "İşlem yapılamıyor. Oyuncu bir klan üyesi değil."
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "İşlem yapılamıyor. Klanda yeterli oyuncu yok."
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "İşlem yapılamıyor. Binanın deposunda yeterli Endüstriyel Kaynak yok."
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "İşlem yapılamıyor. Klan imli listede değil."
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "İşlem yapılamıyor. Bina inşa edilmedi."
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "İşlem yapılamıyor. Herhangi bir klan üyesi değilsiniz."
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "İşlem geçersiz. Yedek şu anda etkinleştirilemiyor."
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "İşlem yapılamıyor. Yanlış bina."
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "İşlem yapılamıyor. Yedek yok veya seçili değil."
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "İşlem yapılamıyor. Yanlış Yedek."
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "İşlem yapılamıyor. Yanlış Yedek."
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "İşlem yapılamıyor. Bina zaten inşa ediliyor."
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "İşlem yapılamıyor. Saldırı yok."
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "İşlem yapılamıyor. Yedek zaten kullanımda."
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "İşlem yapılamıyor. Yeden zaten hazırlanıyor."
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "İşlem yapılamıyor. Bina zaten donduruldu."
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "İşlem yapılamıyor. Yedek devre dışı."
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "İşlem yapılamıyor. Bina dondurulması."
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "İşlem yapılamıyor. Sunucu çevrimdışı."
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "İşlem yapılamıyor. Yuva zaten doldurulmuş."
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "İşlem yapılamıyor. Savunma zaten devre dışı."
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "İşlem yapılamıyor. Savunma henüz devre dışı değil."
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "İşlem yapılamıyor. Eğitim tamamlanmadı."
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "İşlem yapılamıyor. Depo dolu."
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "İşlem yapılamıyor. Savunma bu gün için zaten planlandı."
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "İmli klan sınırına ulaşıldı."
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "İşlem yapılamıyor. Maksimum hazır Yedek miktarına ulaşıldı."
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "İşlem yapılamıyor. Bina garnizonu dolu."
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "İşlem yapılamıyor. Çatışma sınırı aşıldı."
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "İşlem yapılamıyor. Taşıma geçici olarak yapılamıyor."
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "İşlem yapılamıyor. Taşıma sınırı aşıldı."
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "İşlem yapılamıyor. Oyuncu hazır değil."
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "İşlem yapılamıyor. Komuta Merkezi yıkılamadı."
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "İşlem yapılamaz. Geçersiz klan."
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "İşlem yapılamıyor. Hatalı sunucu."
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "İşlem yapılamıyor. Bu bölgede bina yapılamıyor."
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "%(buildingName)s binasına bağlısınız."
+
+msgid "fortification/fortBattleFinished"
+msgstr "İlerleme sunucudaki teknik sorunlar sebebiyle zorunlu olarak durduruldu."
+
+msgid "fortification/modernizationBuilding"
+msgstr "Yükseltme başarıyla tamamlandı. %(buildingName)s binasının seviyesi %(buildingLevel)se yükseltildi."
+
+msgid "fortification/notification/turnedOff"
+msgstr "Kale geçici olarak devre dışıdır. Daha sonra tekrar deneyin."
+
+msgid "fortification/notification/turnedOn"
+msgstr "Kale: Savaşlar kipi tekrar devrededir."
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "Yedeği Etkinleştir"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "Bina inşa et"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "Klanı imle"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "Yedek Ekle"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "Garnizona oyuncu ekle"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "Savunma Dönemini yeniden devreye al"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "Savunma Dönemini ayarla"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "Ateşkesi Düzenle"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "Sunucu değiştir"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "Ayarları değiştir"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "Tarafsızlığı Düzenle"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "Kale Yarat"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "Müfreze yarat"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "Binayı kaldır"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "Kaleyi kaldır"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "Saldırı planla"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "İmli klanı çıkart"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "Klan detaylarına bak"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "Klanların detaylarına bak"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "Müfreze detaylarını iste"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "Savunma Dönemini devre dışı bırak"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "Taşıma"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "Bina yükseltmesi"
+
+msgid "fortification/transport"
+msgstr "Taşıma başarıyla tamamlandı. %(res)s Endüstriyel Kaynak %(fromBuilding)s binasından %(toBuilding)s binasına taşındı."
+
+msgid "fortification/vacationSet"
+msgstr "Kale Tarafsızlığını devam ettiriyor %(vacationPeriod)s."
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "İşlem geçerli değil."
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "Mürettebat üyesi eğitiminde hata. Yeterli Serbest Deneyim yok."
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "Mürettebat üyesi eğitiminde hata. Bu mürettebat üyesi mevcut değil."
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "Mürettebat üyesi eğitiminde hata. Daha sonra tekrar deneyin."
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "Mürettebat üyesi eğitiminde hata. Daha sonra tekrar deneyin."
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "Mürettebat üyesi Serbest DP ile eğitilemiyor.\nDaha sonra tekrar deneyin."
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "Mürettebat üyesi eğitildi.\nHarcanan Serbest DP: %(money)s."
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "Çocuklarda ve gençlerde oyun bağımlılığını engellemek için savaşa girmek yasaklanacaktır. Sunucudan %(blockTime)s itibarıyla çıkarılacaksınız."
+
+msgid "gameSessionControl/korea/note"
+msgstr "Excessive video game playing may interfere with your daily life."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "Oyun oturumu kalan süre: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "Zaman sınırı bitiyor o yüzden yeni bir savaşa giremezsiniz. Sunucudan %s itibarıyla çıkarılacaksınız."
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "Oyun oturumu süresi: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "Geceyarısına kalan süre: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "Oynama süreniz bitti. Yeni bir savaşa giremezsiniz. %(kickTime)s itibarıyla sunucudan çıkarılacaksınız."
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "Oynama süresi sınırı hesabınızdan kaldırıldı"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "Ebeveyn kontrolü ayarları değişti."
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "%(timeLimit)s itibarıyla sunucudan çıkarılacaksınız."
+
+msgid "graficsOptionsFail"
+msgstr "Ekran kartı uyumsuz. Şu grafik ayarları uygulanamadı: %s."
+
+msgid "graficsPresetFail"
+msgstr "Ekran kartı uyumsuz.Seçilen grafik kalitesi uygulanamadı."
+
+msgid "igr/customization/begin"
+msgstr "Ücretsiz Kamuflaj, Yazılar ve Amblemler %(igrIcon)s da bulunabilir."
+
+msgid "igr/customization/end"
+msgstr "%(igrIcon)s sona erdi. Ücretsiz Kamuflaj, Yazılar ve Amblemler aracınızdan kaldırılacak."
+
+msgid "info/noAvailable"
+msgstr "Detaylı bilgi edinilemiyor."
+
+msgid "install_component"
+msgstr "%s \"%s\" araca takıldı."
+
+msgid "install_vehicle_broken"
+msgstr "%s \"%s\" parçası takılamıyor: araç hasarlı. Aracı onarıp tekrar deneyin."
+
+msgid "install_vehicle_locked"
+msgstr "Araç kilitli; %s \"%s\" parçası takılamıyor."
+
+msgid "inventory/item/already_exists"
+msgstr "%(typeString)s \"%(userString)s\" parçası zaten Depoda var."
+
+msgid "inventory/item/equip_in_processing"
+msgstr "Donanımı takmak için sunucuya istek gönderildi. Cevap bekleniyor."
+
+msgid "inventory/item/not_found"
+msgstr "%(typeString)s \"%(userString)s\" parçası Depoda bulunamadı."
+
+msgid "inventory/vehicle/already_exists"
+msgstr "%(userString)s aracı zaten deponuzda mevcut."
+
+msgid "inventory/vehicle/not_found"
+msgstr "%(userString)s aracı deponuzda bulunamadı."
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "%(name)s lejyonerine davetiye gönderilemez."
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "%(name)s oyuncusuna davetiye gönderilemez: yanlış klan."
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "Servis hatası \"%(vehName)s\". Sarf malzemeleri ikmal edilemiyor. Daha sonra tekrar deneyin."
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "Servis hatası \"%(vehName)s\". Sarf malzemeleri ikmal edilemiyor. Daha sonra tekrar deneyin."
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "Servis hatası \"%(vehName)s\". Sarf malzemeleri ikmal edilemiyor. Daha sonra tekrar deneyin."
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "Servis hatası \"%(vehName)s\". Mermi ikmal edilemiyor. Daha sonra tekrar deneyin."
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "Servis hatası \"%(vehName)s\". Mermi ikmal edilemiyor. Maksimum sayıda mermi yüklü."
+
+msgid "layout_apply/Component is not in shop"
+msgstr "Servis hatası \"%(vehName)s\". Sarf malzemeleri ikmal edilemiyor. Daha sonra tekrar deneyin."
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "Servis hatası \"%(vehName)s\". Sarf malzemesi satın almak için yeterli kredi yok. Daha sonra tekrar deneyin."
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "Servis hatası: \"%(vehName)s\". Sarf malzemesi satın almak için yeterli tahvil yok."
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "Servis hatası \"%(vehName)s\". Sarf malzemesi satın almak için yeterli altın yok. Daha sonra tekrar deneyin."
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "Servis hatası \"%(vehName)s\". Sarf malzemeleri ikmal edilemiyor. Daha sonra tekrar deneyin."
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "Servis hatası \"%(vehName)s\". Yanlış araç."
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "Servis hatası \"%(vehName)s\". Mermi almak için yeterli kredi yok."
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "Servis hatası \"%(vehName)s\". Mermi almak için yeterli altın yok."
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "Servis hatası \"%(vehName)s\". Araç kilitli."
+
+msgid "layout_apply/error"
+msgstr "Servis hatası \"%(vehName)s\". Daha sonra tekrar deneyin."
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "Servis hatası \"%(vehName)s\". Yanlış araç."
+
+msgid "layout_apply/success_money_spent"
+msgstr "Mühimmata harcanan topla %(money)s."
+
+msgid "layout_apply/vehicle_locked"
+msgstr "Servis hatası \"%(vehName)s\". Araç kilitli."
+
+msgid "layout_apply/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "limitedUI/switchOff"
+msgstr "Gizli arayüz ögelerinin yavaş yavaş ortaya çıkışı geçici olarak kapalı."
+
+msgid "limitedUI/switchOn"
+msgstr "Gizli arayüz ögelerinin yavaş yavaş ortaya çıkışı tekrar açıldı. Ayarlardan kapatabilirsiniz."
+
+msgid "locked_vehicle_error"
+msgstr "Bu işlem önceden yapılandırılmış araçlar için mümkün değildir."
+
+msgid "login_to_other_game_unknown"
+msgstr "mevcut oyun oturumu kesildi. Wargaming.net&nbsp;ID'niz başka bir oyuna girmek için kullanıldı"
+
+msgid "login_to_other_game_web"
+msgstr "mevcut oyun oturumu kesildi. Oyun portalı üzerinden sunucudan ayırıldınız."
+
+msgid "login_to_other_game_wot"
+msgstr "mevcut oyun oturumu kesildi. Wargaming.net&nbsp;ID'niz World&nbsp;of&nbsp;Tanks'e girmek için kullanıldı"
+
+msgid "login_to_other_game_wotb"
+msgstr "mevcut oyun oturumu kesildi. Wargaming.net&nbsp;ID'niz World&nbsp;of&nbsp;Tanks&nbsp;Blitz'e girmek için kullanıldı"
+
+msgid "login_to_other_game_wotg"
+msgstr "mevcut oyun oturumu kesildi. Wargaming.net&nbsp;ID'niz World&nbsp;of&nbsp;Tanks&nbsp;Generals'a girmek için kullanıldı"
+
+msgid "login_to_other_game_wowp"
+msgstr "mevcut oyun oturumu kesildi. Wargaming.net&nbsp;ID'niz World&nbsp;of&nbsp;Warplanes'e girmek için kullanıldı"
+
+msgid "login_to_other_game_wows"
+msgstr "mevcut oyun oturumu kesildi. Wargaming.net&nbsp;ID'niz World&nbsp;of&nbsp;Warships'e girmek için kullanıldı"
+
+msgid "lootboxes/open/server_error"
+msgstr "Hediyeyi alırken hata: Sunucu hatası."
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "Hediyeyi alırken hata. Lütfen önceki işlem bitene kadar bekleyin."
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "İşlem geçici olarak yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "mapbox/notification/primeTime"
+msgstr "Keşif Görevi ateşkesin sonuna kadar devre dışıdır."
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "Ateşkes"
+
+msgid "maps_black_list/select/server_error"
+msgstr "Sunucu Hatası"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "İşlem yapılamıyor. Lütfen mevcut işlem bitene kadar bekleyin."
+
+msgid "maps_black_list/select/success"
+msgstr "%(mapName)s haritası Rastgele Savaşlarda engellenmişti. Seçiminizi %(time)s içinde değiştirebilirsiniz."
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "%(mapName)s haritası Rastgele Savaşlarda engellenmişti. Seçiminizi %(time)s içinde değiştirebilir veya WoT Premium Hesabını etkinleştirerek ya da WoT Plus'a abone olarak ek bir yuva açabilirsiniz."
+
+msgid "maps_black_list/select/success/premium"
+msgstr "%(mapName)s haritası Rastgele Savaşlarda engellenmişti. Seçiminizi %(time)s içinde değiştirebilir veya WoT Plus'a abone olarak ek bir yuva açabilirsiniz."
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "%(mapName)s haritası Rastgele Savaşlarda engellenmişti. Seçiminizi %(time)s içinde değiştirebilir veya WoT Premium Hesabını etkinleştirerek ek bir yuva açabilirsiniz."
+
+msgid "maps_black_list/switch_off/body"
+msgstr "Bu özellik teknik nedenlerle geçici olarak devre dışıdır.\nVerdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "maps_black_list/switch_off/title"
+msgstr "Harita engelleme geçici olarak yapılamıyor"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "Teknik sorunlar çözüldü. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "maps_black_list/switch_on/title"
+msgstr "Harita engelleme tekrar yapılabilir"
+
+msgid "maps_training/switch/title"
+msgstr "Topoğrafya"
+
+msgid "maps_training/switch_off/body"
+msgstr "Bu kip kapalı."
+
+msgid "maps_training/switch_on/body"
+msgstr "Bu kip açık."
+
+msgid "memberRosterChangedMain"
+msgstr "%s %s ana ekibe transfer edildi."
+
+msgid "memberRosterChangedSecond"
+msgstr "%s %s yedek ekibe transfer edildi."
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "Yeterli bellek yok. Lütfen oyunu yeniden başlatın."
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "Bellek yetersiz. Düşük kaplama kalitesi."
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "Bellek yetersiz. Orta kaplama kalitesi."
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "Yeterli bellek yok. Grafik ayarları değişti. Lütfen oyunu yeniden başlatın."
+
+msgid "missingEvents/button"
+msgstr "Aç"
+
+msgid "missingEvents/header"
+msgstr "Etkinlikler"
+
+msgid "missingEvents/text"
+msgstr "Kaçırdığınız önemli etkinlikler: "
+
+msgid "module_apply/error_is_current"
+msgstr "%(kind)s \"%(name)s\" parçası zaten takılı."
+
+msgid "module_apply/error_need_gun"
+msgstr "%(kind)s \"%(name)s\" araca mevcut top ile takılamıyor."
+
+msgid "module_apply/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" mevcut kule ile uyumsuz. Kuleyi değiştirin."
+
+msgid "module_apply/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" takılmadı. Depoda uyumlu top yok."
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" mevcut kule ile uyumsuz. Kuleyi değiştirin."
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" bu araca uymuyor."
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "%(kind)s \"%(name)s\" parçası \"%s\" sarf malzemesi ile uyumsuz."
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" yanlış tipte."
+
+msgid "module_apply/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" yanlış ülkeye ait."
+
+msgid "module_apply/incompatibleEqs"
+msgstr "\"%(items)s\" sarf malzemesi mevcut parça ile uyumsuzluktan dolayı Depoya gönderildi."
+
+msgid "module_apply/invalid_vehicle"
+msgstr "Yanlış araç. %(kind)s \"%(name)s\" parçası takılamıyor."
+
+msgid "module_apply/server_error"
+msgstr "%(kind)s \"%(name)s\" parçası takılırken sunucu hatası. Daha sonra tekrar deneyin."
+
+msgid "module_apply/success"
+msgstr "%(kind)s \"%(name)s\" araca takıldı."
+
+msgid "module_apply/success_gun_change"
+msgstr "%(kind)s \"%(name)s\" araca \"%(gun)s\" topu ile birlikte takıldı."
+
+msgid "module_apply/vehicle_locked"
+msgstr "Araç kilitli; %(kind)s \"%(name)s\" parçası takılamıyor."
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "%(kind)s \"%(name)s\" parçası takılamıyor: araç hasarlı. Aracınızı onarıp tekrar deneyin."
+
+msgid "module_buy/error_is_current"
+msgstr "%(kind)s \"%(name)s\" parçası zaten takılı."
+
+msgid "module_buy/error_need_gun"
+msgstr "%(kind)s \"%(name)s\" araca mevcut top ile takılamıyor."
+
+msgid "module_buy/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" mevcut kule ile uyumsuz. Kuleyi değiştirin."
+
+msgid "module_buy/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" takılmadı. Depoda uyumlu top yok."
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" bu kuleye uymuyor. Kuleyi değiştirin."
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" bu araca uymuyor."
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "%(kind)s \"%(name)s\" parçası \"%s\" sarf malzemesi ile uyumsuz."
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" yanlış türde."
+
+msgid "module_buy/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" yanlış ülkeye ait."
+
+msgid "module_buy/invalid_module"
+msgstr "%(kind)s \"%(name)s\" satın alınamıyor. Yanlış parça."
+
+msgid "module_buy/invalid_vehicle"
+msgstr "Yanlış araç. %(kind)s \"%(name)s\" satın alınıp takılamıyor."
+
+msgid "module_buy/not_enough_credits"
+msgstr "%(kind)s \"%(name)s\" satın alınamıyor. Yeterli kredi yok."
+
+msgid "module_buy/not_enough_gold"
+msgstr "%(kind)s \"%(name)s\" satın alınamıyor. Yeterli altın yok."
+
+msgid "module_buy/server_error"
+msgstr "%(kind)s \"%(name)s\" satın alınamıyor. Daha sonra tekrar deneyin."
+
+msgid "module_buy/server_error_centerDown"
+msgstr "%(kind)s \"%(name)s\" satın alınamıyor. Sunucu geçici olarak hizmet dışı."
+
+msgid "module_buy/success"
+msgstr "%(kind)s \"%(name)s\" parçası başarıyla satın alındı (%(count)s adet). %(money)s harcandı."
+
+msgid "module_buy/vehicle_locked"
+msgstr "Araç kilitli. %(kind)s \"%(name)s\" satın alınıp takılamıyor."
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "%(kind)s \"%(name)s\" satın alınıp takılamıyor. Aracı onarın ve tekrar deneyin."
+
+msgid "module_buy/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "module_sell/invalid_module"
+msgstr "%(kind)s \"%(name)s\" satılamıyor. Yanlış parça."
+
+msgid "module_sell/server_error"
+msgstr "%(kind)s \"%(name)s\" satılamıyor. Daha sonra tekrar deneyin."
+
+msgid "module_sell/success"
+msgstr "%(kind)s \"%(name)s\" parçası (%(count)s parça). %(money)s alındı."
+
+msgid "multipleSelling/success"
+msgstr "%(money)s alındı"
+
+msgid "nation_change/FAILED"
+msgstr "Yapılandırma değiştirilirken hata"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "Yapılandırma değiştirilirken hata"
+
+msgid "nation_change/error"
+msgstr "Yapılandırma değiştirilirken hata"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: ulusal yapılandırma değiştirildi"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "Günlük Görevler teknik nedenlerle güncellendi. Görev gelişimi kaydedildi."
+
+msgid "notrecruit_window/success"
+msgstr "Mürettebat üyesi alındı.\n%(colorTagOpen)s%(rank)s %(fullName)s\n(%(role)s, %(vehicleName)s)%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "İşlem geçici olarak yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "Hediye alırken hata: Sunucu hatası"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "Hediyeyi alırken hata. Ödüllerden bazıları gecikti. Bunları daha sonra almayı deneyin."
+
+msgid "offers/switch_off/body"
+msgstr "Vatan Cephesi Malzemeleri şu anda devre dışı."
+
+msgid "offers/unavailable_many"
+msgstr "Devre Dışı Özel Teklifler: %(count)s parça."
+
+msgid "offers/unavailable_one"
+msgstr "Özel teklif devre dışı."
+
+msgid "optionalDevices_apply/error"
+msgstr "Donanım yapılandırma hatası. Lütfen daha sonra tekrar deneyin."
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "Donanım yapılandırma hatası. Satın almayı tamamlamak için yeterli kaynak yok."
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "İşlem imkansız. Altınlarınız WG Cüzdan tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "optionalDevices_remove/error"
+msgstr "Donanım yapılandırma hatası. Lütfen daha sonra tekrar deneyin."
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "Tanıdıklar listenizde olmayan oyuncularla özel mesajlar hesabınız için açık değil."
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "Özel mesajlar hesabınız için açık değil."
+
+msgid "parentControl/linkText"
+msgstr "Tarih Belirtin"
+
+msgid "parentControl/mainText"
+msgstr "Lütfen doğum tarihinizi belirtin."
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "Tanıdıklar listenizde olmayan oyuncularla özel mesajlar ebeveyn kontrolleri tarafından yasaklı."
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "Özel mesajlar ebeveyn kontrolleri tarafından yasaklı."
+
+msgid "parentControl/title"
+msgstr "Yaş Doğrulaması"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "Transfer geçersiz. Sunucu tanımlanamıyor."
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "Ödül alındı:"
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "Operasyona Git"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "Görev tamamlandı"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "Görevi tamamlamaya devam etmek için araç değiştirin."
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "Operasyon: %(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "Tamamlanan: %(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "%(campaignName)s harekâtı takdirle tamamlandı!"
+
+msgid "personalMission/operationComplete/title"
+msgstr "%(operationName)s operasyonu tamamlandı!"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "%(operationName)s operasyonu takdirle tamamlandı!"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "Harekâtlar planlı bakım sebebiyle geçici olarak devre dışıdır."
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "Harekâtlar yeniden açıldı. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "%(campaignName)s harekâtı bakım sebebiyle geçici olarak devre dışıdır."
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "%(campaignName)s harekâtı yeniden açıldı. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "%(operationName)s operasyonundaki %(missionName)s görevi bakım nedeniyle geçici olarak devre dışıdır."
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "%(operationName)s operasyonundaki %(missionName)s görevi yeniden açıldı. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "%(campaignName)s harekâtındaki %(operationName)s operasyonu bakım nedeniyle geçici olarak devre dışıdır."
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "%(campaignName)s harekâtındaki %(operationName)s operasyonu yeniden açıldı. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "Harekât değiştirirken hata. Lütfen daha sonra tekrar deneyin."
+
+msgid "personalMissions/badge"
+msgstr "%(name)s brövesi alındı."
+
+msgid "personalMissions/camouflageGiven"
+msgstr "%(vehicleName)s için Özel Kamuflaj alındı."
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "%(vehicleName)s için Özel Kamuflaj şu ülkenin tüm araçları için kullanılabilir: %(nation)s."
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "Tüm operasyon gelişimi kaydedildi. Harekâtlara istediğiniz anda devam edebilirsiniz."
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "%(campaignName1)s ve %(campaignName2)s harekâtları duraklatıldı"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "Duraklatılan operasyonlar ve görevlerine tekrar devam ediliyor"
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "%(campaignName1)s ve %(campaignName2)s harekâtlarına tekrar devam ediliyor"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "Tüm operasyon gelişimi kaydedildi. Harekâta istediğiniz anda devam edebilirsiniz."
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "%(campaignName)s harekâtı duraklatıldı"
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "Duraklatılan operasyonlara tekrar devam ediliyor."
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "%(campaignName)s harekâtına tekrar devam ediliyor"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "%(detailName)s başarıyla takıldı."
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "Operasyon: %(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "Görev sıfırlanamıyor. Daha sonra tekrar deneyin."
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "İşlem yapılamıyor. Görevler geçici olarak devre dışı."
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "Şu anda görev sıfırlanamıyor. Daha sonra tekrar deneyin."
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Şu anda görev sıfırlanamıyor. Lütfen bu türdeki aracın savaştan çıkmasını bekleyin."
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Şu anda görev sıfırlanamıyor. Lütfen araç grubunun savaştan çıkmasını bekleyin."
+
+msgid "personalMissions/discard/success"
+msgstr "%(quest)s görevi başarıyla sıfırlandı."
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "Emirler alındı: %(count)s"
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "İade edilen emirler: %(count)s.\nYeniden kullanılabilirler."
+
+msgid "personalMissions/operationActivation/body"
+msgstr "Her serinin ilk görevi etkinleştirildi."
+
+msgid "personalMissions/operationActivation/title"
+msgstr "%(operationName)s operasyonu etkinleştirildi!"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "Ödül alındı: \n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "%(name)s operasyonu tamamlandı!"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "Tüm görev gelişimi kaydedildi. Operasyona istediğiniz anda devam edebilirsiniz."
+
+msgid "personalMissions/operationPaused/title"
+msgstr "%(operationName)s operasyonu duraklatıldı"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "Duraklatılan görevlere tekrar devam ediliyor."
+
+msgid "personalMissions/operationResumed/title"
+msgstr "%(operationName)s operasyonuna tekrar devam ediliyor"
+
+msgid "personalMissions/pause/server_error"
+msgstr "Görev duraksatılmadı. Daha sonra tekrar deneyin."
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "İşlem yapılamıyor. Görevler geçici olarak devre dışı."
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "Şu anda görev duraksatılamıyor. Daha sonra tekrar deneyin."
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Şu anda görev duraksatılamıyor. Lütfen bu türdeki aracın savaştan çıkmasını bekleyin."
+
+msgid "personalMissions/pause/success_pause"
+msgstr "%(quest)s görevi başarıyla duraksatıldı."
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "%(quest)s görevinin tamamlanması başarıyla yeniden başlatıldı."
+
+msgid "personalMissions/pawn/server_error"
+msgstr "Hata: Şu anda emir kullanılamıyor."
+
+msgid "personalMissions/pawn/success"
+msgstr "%(questName)s görevine atanan emirler: %(count)s"
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "Ödüller alınırken hata. Lütfen daha sonra tekrar deneyin."
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s başarıyla takıldı."
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "Ödül alınamıyor. Lütfen daha sonra tekrar deneyin."
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "İşlem yapılamıyor. Görevler geçici olarak devre dışı."
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "Ödül alınamıyor. Ödüle erişilemiyor."
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "Ödül alınamıyor. Ödüle erişilemiyor."
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "Ödül alınamıyor. Hatalı veri."
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "Ödül alınamıyor. Lütfen daha sonra tekrar deneyin."
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "İşlem yapılamıyor. Görevler geçici olarak devre dışı."
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "Ödül alınamıyor. Ödüle erişilemiyor."
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "Ödül alınamıyor. Ödüle erişilemiyor."
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "Ödül alınamıyor. Hatalı veri."
+
+msgid "personalMissions/select/server_error"
+msgstr "Görevler seçilmedi: %(questNames)s. Lütfen daha sonra tekrar deneyin."
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "İşlem yapılamıyor. Görevler geçici olarak devre dışı."
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "Görevler seçilmedi: %(questNames)s. Lütfen daha sonra tekrar deneyin."
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Dikkat! Görevi değiştirmek için bu görevin aktif olduğu araçların tümü Garaja dönene kadar bekleyin."
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "Görevler seçilmedi: %(questNames)s. Önceki operasyonu tamamlayın."
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "Görevler seçilmedi: %(questNames)s. Yeterli yuva yok."
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "Görevler seçilmedi: %(questNames)s. Lütfen ödülü alın."
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "Görevler seçilmedi: %(questNames)s. Görev bulunamıyor."
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "Görevler seçilmedi: %(questNames)s. Görev daha önce tamamlandı."
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "Görevler seçilmedi: %(questNames)s."
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "Görevler seçilmedi: %(questNames)s. Bu setteki görev zaten seçili."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "Görevler seçilmedi: %(questNames)s. Hatalı veri."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "Görevler seçilmedi: %(questNames)s. Hatalı veri."
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Şu anda görev seçilemiyor. Lütfen araç grubunun savaştan çıkmasını bekleyin."
+
+msgid "personalMissions/select/success"
+msgstr "Görevler başarıyla seçildi. Şu anda seçili görevler: %(questNames)s."
+
+msgid "personalMissions/tankmenGain"
+msgstr "Eklendi: kadın mürettebat üyesi"
+
+msgid "personalMissions30/select/server_error"
+msgstr "Operasyon etkinleştirilirken hata. Lütfen daha sonra tekrar deneyin."
+
+msgid "piggyBank/piggyBankFull"
+msgstr "Kredi Yedeği dolu ancak %(timeValue)s içinde açılacak"
+
+msgid "piggybank/switch_off/body"
+msgstr "Bu özellik teknik nedenlerle geçici olarak devre dışıdır.\nVerdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "piggybank/switch_off/title"
+msgstr "Kredi Yedeği geçici olarak devre dışı"
+
+msgid "piggybank/switch_on/body"
+msgstr "Teknik sorunlar çözüldü. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "piggybank/switch_on/title"
+msgstr "Kredi Yedeği tekrar devrede"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "Bu özellik teknik nedenlerle geçici olarak devre dışıdır.\nVerdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "Oyuncu Abonelikleri artık mevcut değil!"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "Teknik sorunlar çözüldü. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "Oyuncu Abonelikleri artık açık"
+
+msgid "post_progression/server_error"
+msgstr "Mürettebat Gelişim Sonrası\nödülü zaten alındı"
+
+msgid "post_progression/success"
+msgstr "Tarih: %(at)s\nDepoya eklendi: %(book_name)s (x%(amount)s).\nGelişim Sonrası DP dönüştürüldü."
+
+msgid "post_progression/success/title"
+msgstr "Alındı"
+
+msgid "prebattle/hasLockedState"
+msgstr "Zaten bir savaşı beklediğiniz için daveti kabul edemiyorsunuz. Savaş-Öncesi Lobiden çıkın veya savaşı bitirip tekrar deneyin."
+
+msgid "prebattle/invites/sendInvite"
+msgstr "Oyuncuya davet gönderildi."
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "%(name)s oyuncusuna davet gönderildi."
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "Hata ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "Hata AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "Hata BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "Hata CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "Komutan ekipten ayrıldı."
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "Ekip dağıtıldı."
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "Kip geçici olarak devre dışı"
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "Terhis."
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "Hata PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "Süre geçti."
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "Bilinmeyen hata."
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "Hata VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "Takımdan çıkarıldınız."
+
+msgid "prebattle/kick/type/unknown"
+msgstr "Ekipten çıkarıldınız."
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "Kip için en az 3 uygun araca sahip olmalısınız. Ayrıntılar için Hücum Hakkında sayfasına bakın."
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "Otomatik Arama"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "Sesli sohbeti değiştir."
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "Klasman Değiştir"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "Kip seçimi"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "Alt Kip Değiştirme"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "Kip seçimi"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "Ayarları değiştir"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "Ekibi düzenle"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "İzleyici kipini değiştir"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "Yuvayı kilitle"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "Ara"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "Ekibe Davet Et"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "Hazır olduğunuzu onaylayın"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "Ekibin hazır olduğunu onaylayın"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "Araçları Seçin"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "Ekipleri Değiştir"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "Ara"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "Sadece en az şu kadar araçlı ekipler savaşa katılabilir: %(minCount)d."
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "Sadece toplam seviyesi %(minTotalLevel)d-%(maxTotalLevel)d arası olan ekipler savaşa katılabilir."
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "Sadeve seviyesi %(minLevel)d-%(maxLevel)d arası olan araçlara izin var."
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "Bu araç bu savaş için uygun değil."
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "Tüm ekip üyeleri İzleyici olamaz"
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "Seçili araç sadece Ön Cephe kipi için uygundur."
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "Seçilen araç sadece Hücum kipi için uygundur."
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "Seçili araca yüklü mühimmat ve sarf malzemeleri savaş koşullarına uymuyor."
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "Bu savaş için hatalı araç seviyesi. Bu tip için en düşük seviye: %s. Bu sınıf için en yüksek araç seviyesi: %s."
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "Bu savaş için hatalı araç tipi. İzin verilen tipler: %s."
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "Seçili araca takılı parçalar savaş koşullarına uymuyor."
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "Bu savaş için hatalı araç seviyesi. En düşük Seviye: %s. En yüksek Seviye: %s."
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "Bu aracın ülkesi bu savaş için hatalı. İzin verilen ülkeler: %s."
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "Uyumsuz araç"
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "Seçili araçta yüklü mermiler savaş şartlarına uymuyor."
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "Uyumsuz araç"
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "Bu savaş için hatalı araç."
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "Seçili araç hazır değil."
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "İşlem geçersiz. Önce bir araç seçin."
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "Ekibe katılınamıyor."
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "Uyumsuz araç"
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "Seçili araç savaş sırasında açılacaktır."
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "Mevcut ekip için rakip bulunamıyor. Ekibinizi yeniden yapılandırmayı düşünün."
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "Mevcut Takıma rakip bulunamıyor. Ekibinizi yeniden düzenlemeyi düşünün."
+
+msgid "premium/buyingSuccess"
+msgstr "%(period)d gün için Premium hesap alındı. %(money)s harcandı."
+
+msgid "premium/continueSuccess"
+msgstr "Premium hesap %(period)d gün uzatıldı. %(money)s harcandı."
+
+msgid "premium/not_enough_gold"
+msgstr "%(period)d günlük Premium Hesap almak için yeterli altın yok."
+
+msgid "premium/post_battle_premium"
+msgstr "Premium Hesap satın alma karşılığında %(xpDiff)d DP and %(creditDiff)d kredi kazandınız."
+
+msgid "premium/server_error"
+msgstr "%(period)d günlük Premium Hesap satın alınamıyor. Daha sonra tekrar deneyin."
+
+msgid "premium/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "İşlem yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "İşlem yapılamıyor. Lütfen mevcut işlem bitene kadar bekleyin."
+
+msgid "premium_quests/switch_off/body"
+msgstr "Bu özellik teknik nedenlerle geçici olarak devre dışıdır.\nVerdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "premium_quests/switch_off/title"
+msgstr "Premium görevler geçici olarak devre dışı"
+
+msgid "premium_quests/switch_on/body"
+msgstr "Teknik sorunlar çözüldü. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "premium_quests/switch_on/title"
+msgstr "Premium görevler tekrar devrede"
+
+msgid "progressiveReward/error"
+msgstr "İşlem şu anda yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "progressiveReward/switch_off"
+msgstr "Liyakat Ödülleri: bu özellik geçici olarak devre dışı bırakıldı. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "progressiveReward/switch_on"
+msgstr "Liyakat Ödülleri tekrar açıldı."
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "Görev süresi bitti. Detaylı açıklama bulunamıyor."
+
+msgid "queue/isInQueue"
+msgstr "İşlem şu anda yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "rally/leaveDisabled"
+msgstr "İşlem geçersiz.\nKipten çıkamazsınız. Taktik birlik üyesisiniz ve savaşa hazırsınız."
+
+msgid "ranked/notification/available"
+msgstr "Ateşkesin Sonu: Sıralamalı Savaşlar tekrar geçerlidir."
+
+msgid "ranked/notification/available/title"
+msgstr "Sıralamalı Savaşlar Açık"
+
+msgid "ranked/notification/congratulations"
+msgstr "Tebrikler!"
+
+msgid "ranked/notification/notAvailable"
+msgstr "Sıralamalı Savaşlar devre dışı. Güncellemeleri oyun portalından takip edin."
+
+msgid "ranked/notification/notSet"
+msgstr "Bu kip seçili sunucuda geçerli değil."
+
+msgid "ranked/notification/notSet/title"
+msgstr "Sıralamalı Savaşlar Devre Dışı"
+
+msgid "ranked/notification/primeTime"
+msgstr "Sıralamalı Savaşlar Ateşkesin sonuna kadar kapalıdır."
+
+msgid "ranked/notification/primeTime/title"
+msgstr "Ateşkes"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "2020/2021 Sıralamalı Savaşlar Sezonlarında olağanüstü sonuçlar elde ettiniz ve en iyi oyuncular arasında yerinizi hak ettiniz!"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "Tebrikler!"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "2020/2021 Sıralamalı Savaşlar Sezonlarında olağanüstü sonuçlar elde ettiniz ve en iyi oyuncular arasında %(playerPosition)s konumunu hak ettiniz!"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "Tebrikler!"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "Alınan bröve:"
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "Alınan bröveler:"
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "Kazanılan kredi:"
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "Alınan tahviller:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "Alınan Yıl Dönümü Jetonu:"
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "Kazanılan altın:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "Seçimlik iyileştirilmiş donanım eklendi: %(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "Alınan stil:"
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "Alınan stiller:"
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "Kademe Jetonları alındı: %(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "Wargaming Premium Hesap günü"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "Wargaming Premium Hesap günü (x%(daysCount)s)"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "WoT Premium Hesap günü"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "WoT Premium Hesap günü (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "%(number)s. Aşama sonuçları"
+
+msgid "ranked/notifications/league"
+msgstr "Lig: %(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "Altın"
+
+msgid "ranked/notifications/league2"
+msgstr "Gümüş"
+
+msgid "ranked/notifications/league3"
+msgstr "Bronz"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "Altın Lig için Kademe Jetonları alındı: %(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "Maksimum Kademe: %(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s, %(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "Skor Tahtasındaki konum: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "Elemeyi tamamladınız"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "Sezon için Kademe Jetonları alındı: %(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "Sıralamalı Savaş Sonuçları, %(seasonNumber)s. Sezon"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "%(rankName)s Kademesine ulaştınız (%(divisionName)s)"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "Deparcı işareti alındı. Ödüller iyileştirildi."
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "Deparcı işareti alındı"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "Yeni mürettebat üyesi alınamıyor: tank özel sabit mürettebata sahip."
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "Mürettebat üyesi alınamadı. Hizmet geçici olarak devre dışı."
+
+msgid "recruit_window/financial_success"
+msgstr "%(vehName)s için mürettebat üyesi alındı. Harcanan kredi: %(credits)s."
+
+msgid "recruit_window/financial_success_credits"
+msgstr "%(vehName)s için mürettebat üyesi alındı.\nHarcanan kredi: %(price)s."
+
+msgid "recruit_window/financial_success_gold"
+msgstr "%(vehName)s için mürettebat üyesi alındı.\nHarcanan altın: %(price)s."
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "Bugün için ücretsiz mürettebat üyesi sınırına ulaştınız."
+
+msgid "recruit_window/not_enough_credits"
+msgstr "Mürettebat üyesi alırken hata. Yeterli kredi yok."
+
+msgid "recruit_window/not_enough_gold"
+msgstr "Mürettebat üyesi alırken hata. Yeterli altın yok."
+
+msgid "recruit_window/not_enough_space"
+msgstr "Araca mürettebat üyesi alırken ve transfer ederken hata oluştu. Kışlada yeterli ranza yok. Ya ranza alın ya da yer boşaltın."
+
+msgid "recruit_window/server_error"
+msgstr "Mürettebat üyesi alınamıyor. Daha sonra tekrar deneyin."
+
+msgid "recruit_window/success"
+msgstr "%(vehName)s için mürettebat üyesi ücretsiz olarak alındı."
+
+msgid "recruit_window/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "Mürettebat üyesi aktarılamıyor: tank özel sabit mürettebata sahip."
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "Mürettebat üyesi değiştirilirken hata. Yanlış araç."
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "Mürettebat üyesi Kışlaya gönderilemiyor. Kışlada yeterli ranza yok."
+
+msgid "reequip_tankman/server_error"
+msgstr "Mürettebat üyesi değiştirilemedi. Daha sonra tekrar deneyin."
+
+msgid "reequip_tankman/success"
+msgstr "Mürettebat üyesi değiştirildi."
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "Mürettebat üyesi değiştirilirken hata oluştu. Araç kilitli."
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "Mürettebat üyesi değiştirilirken hata oluştu. Aracınızı tamir edin."
+
+msgid "remove_component"
+msgstr "%s \"%s\" araçtan söküldü."
+
+msgid "remove_vehicle_broken"
+msgstr "%s \"%s\" sökülemiyor: Araç hasarlı. Aracı onarıp tekrar deneyin."
+
+msgid "remove_vehicle_locked"
+msgstr "%s \"%s\" sökülemiyor: Araç kilitli."
+
+msgid "repair/credits_error"
+msgstr "Şu tankı onarmak için '%s' daha fazla krediye ihtiyacınız var: %s."
+
+msgid "repair/server_error"
+msgstr "%s onarılırken hata oluştu. Daha sonra tekrar deneyin."
+
+msgid "repair/success"
+msgstr "%s onarıldı. %s harcadınız."
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "Mürettebat üyenizin Kişisel Verisi değiştirilemiyor: tank özel sabit mürettebata sahip."
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "Kişisel Bilgiler değiştirilirken hata. Yanlış araç."
+
+msgid "replace_tankman/not_enough_money"
+msgstr "Kişisel Veri değiştirilirken hata oluştu. Yeterli kredi yok."
+
+msgid "replace_tankman/server_error"
+msgstr "Kişisel Veri değiştirilemedi. Daha sonra tekrar deneyin."
+
+msgid "replace_tankman/success"
+msgstr "Görünüş başarıyla değiştirildi."
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "Kişisel Bilgiler değiştirilirken hata oluştu. Araç kilitli."
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "Kişisel Bilgiler değiştirilirken hata oluştu. Aracı tamir edin."
+
+msgid "request/isInCoolDown"
+msgstr "\"%(request)s\" işlemi %(coolDown)s sn. için donduruldu."
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "Yetenekler sıfırlanamıyor.\nSunucu devre dışı. Daha sonra deneyin."
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "Tüm mürettebat üyelerinin tüm yetenekleri\nücretsiz sıfırlandı."
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "Kaynak harcarken hata. Lütfen tekrar deneyin."
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "Kaynaklar iade edilirken bir hata oluştu. Lütfen tekrar deneyin."
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "Hâlâ kurtarılabilecek araçlarınız var. Denk araçları Garaja geri göndermek için Dükkâna gidin."
+
+msgid "restore_tankman/DISABLED"
+msgstr "Mürettebat üyesinin kurtarılması geçici olarak devre dışı. Daha sonra tekrar deneyin."
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "Mürettebat üyesi kurtarılamıyor."
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "Mürettebat üyesini kurtarmak için yeterli altın yok."
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "Mürettebat üyesi kurtarılamıyor. İşlem için zaman geçti."
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "Mürettebat üyesi kurtarılamıyor. Daha sonra tekrar deneyin."
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "Mürettebat üyesi kurtarılamıyor. Mürettebat üyesi kurtarma geçici olarak devre dışı."
+
+msgid "restore_tankman/error"
+msgstr "%(tankman)s artık kurtarılamaz."
+
+msgid "restore_tankman/financial_success"
+msgstr "Mürettebat üyesi kurtarıldı.\nHarcanan kredi: %(money)s."
+
+msgid "restore_tankman/not_enough_space"
+msgstr "Mürettebat üyesi kurtarılamıyor. Kışlada yeterli ranza yok."
+
+msgid "restore_tankman/server_error"
+msgstr "Bu mürettebat üyesi kurtarılamıyor. Daha sonra tekrar deneyin."
+
+msgid "restore_tankman/success"
+msgstr "Mürettebat üyesi kurtarıldı."
+
+msgid "retraining_change_tankman_role/success"
+msgstr "Mürettebat üyesinin uzmanlığı değişti."
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "Mürettebatınız yeniden eğitilemiyor: tank özel sabit mürettebata sahip."
+
+msgid "retraining_crew/empty_list"
+msgstr "Mürettebat yeniden eğitiminde hata. Mürettebat üyeleri seçili değil."
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "Harcanan kredi: %(money)s."
+
+msgid "retraining_crew/financial_success_free"
+msgstr "Mürettebat %(vehName)s için ücretsiz olarak yeniden eğitildi."
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "Harcanan altın: %(money)s."
+
+msgid "retraining_crew/invalid_operation"
+msgstr "Mürettebat yeniden eğitilirken hata. İşlem geçerli değil."
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "Mürettebat yeniden eğitiminde hata. Yanlış araç."
+
+msgid "retraining_crew/server_error"
+msgstr "Mürettebat yeniden eğitilemiyor. Daha sonra tekrar deneyin."
+
+msgid "retraining_crew/success"
+msgstr "Mürettebat %(vehName)s için yeniden eğitildi."
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "Mürettebat yeniden eğitiminde hata. Araç kilitli."
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "Mürettebat yeniden eğitiminde hata. Aracınızı tamir edin."
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "Mürettebat üyeniz yeniden eğitilemiyor: tank özel sabit mürettebata sahip."
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "Harcanan kredi: %(money)s."
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "Mürettebat üyesi %(vehName)s için ücretsiz olarak yeniden eğitildi."
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "Harcanan altın: %(money)s."
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "Mürettebat üyesi yeniden eğitilirken hata. İşlem geçerli değil."
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "Mürettebat üyesi yeniden eğitilirken hata. Yanlış araç."
+
+msgid "retraining_tankman/server_error"
+msgstr "Mürettebat üyesi yeniden eğitilemiyor.\nDaha sonra tekrar deneyin."
+
+msgid "retraining_tankman/success"
+msgstr "Mürettebat üyesi %(vehName)s için yeniden eğitildi."
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "Mürettebat üyesi yeniden eğitilirken hata oluştu. Araç kilitli."
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "Mürettebat üyesi yeniden eğitilirken hata oluştu. Aracı tamir edin."
+
+msgid "return_crew/FORBIDDEN"
+msgstr "Mürettebatınız iade edilemiyor: tank özel sabit mürettebata sahip."
+
+msgid "return_crew/invalid_vehicle"
+msgstr "Mürettebat dönüşünde hata. Yanlış araç."
+
+msgid "return_crew/not_enough_space"
+msgstr "Mürettebat Kışlaya gönderilemiyor. Kışlada yeterli ranza yok."
+
+msgid "return_crew/return_unavailable"
+msgstr "Bazı mürettebat üyeleri araca geri gönderilemiyor."
+
+msgid "return_crew/server_error"
+msgstr "Mürettebat geri gönderilemiyor. Daha sonra tekrar deneyin."
+
+msgid "return_crew/success"
+msgstr "Mürettebat başarıyla aktarıldı."
+
+msgid "return_crew/vehicle_locked"
+msgstr "Mürettebat dönüşünde hata. Araç kilitli."
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "Mürettebat dönüşünde hata. Aracınızı tamir edin."
+
+msgid "rotation/lock"
+msgstr "Şu gruplar kilitlidir ve artık savaşlar için kullanılamaz: %(groupNum)s."
+
+msgid "rotation/unlock"
+msgstr "Şu gruplar açıktır ve artık savaşlar için kullanılabilir: %(groupNum)s."
+
+msgid "rotation/vehicleIsLocked"
+msgstr "Araç kilitli ve savaşlar için kullanılamaz."
+
+msgid "royale/notification/congratulations"
+msgstr "Tebrikler!"
+
+msgid "royale/notification/primeTime"
+msgstr "Çelik Avcısı savaşları Ateşkesin sonuna kadar yapılamaz. Programı takvimden takip edin."
+
+msgid "royale/notification/primeTime/title"
+msgstr "Ateşkes"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "Erişilen Bölüm: %(level)s"
+
+msgid "rts/notification/available"
+msgstr "Strateji Sanatı etkinliğinin savaşları bu sunucuda yeniden açıldı."
+
+msgid "rts/notification/available/title"
+msgstr "Savaşlar açık"
+
+msgid "rts/notification/notAvailable"
+msgstr "Strateji Sanatı etkinliği devre dışı. Oyun portalından haberleri takip edin."
+
+msgid "rts/notification/notSet"
+msgstr "Strateji Sanatı savaşları seçili sunucuda devre dışı."
+
+msgid "rts/notification/notSet/title"
+msgstr "Savaşlar devre dışı"
+
+msgid "rts/notification/primeTime"
+msgstr "Ateşkes etkin. Strateji Sanatı savaşları geçici olarak devre dışı."
+
+msgid "rts/notification/primeTime/title"
+msgstr "Ateşkes"
+
+msgid "securityMessage/bad_email"
+msgstr "Eposta adresinizi şüpheli bir sunucuda kaydettiniz. Güvenlik için epostanızı değiştirin. %(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "Güvenlik ayarlarını değiştirin"
+
+msgid "securityMessage/no_phone"
+msgstr "Güvenlik sebebiyle hesabınıza bir telefon numarası ekleyin. %(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "Şifre sıfırlaması için lütfen Hesap Yönetiminde bir güvenlik sorusu belirleyin. %(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "30 gündür şifrenizi değiştirmediniz. Güvenlik sebebiyle lütfen şifrenizi değiştirin. %(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "Hesabınızı oluştururken belirttiğiniz şifre yeterince güçlü değil. Lütfen şifrenizi değiştirin. %(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "%s satılamıyor: Araç hasarlı. Aracınızı onarıp tekrar deneyin."
+
+msgid "sell_vehicle_locked"
+msgstr "%s satılamıyor: Araç kilitli."
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "Hak Edilmiş Ödül etkinliği tekrar başlıyor. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "Hak Edilmiş Ödül etkinliği, bakım nedeniyle geçici olarak donduruldu."
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "Ödülleri alırken hata. İşlem geçici olarak devre dışı."
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "Ödül alırken hata. Lütfen Oyuncu Desteğine başvurun."
+
+msgid "seniority_awards/selection_timeout"
+msgstr "Hizmet yıllarınızın ödülleri gecikti. Daha sonra tekrar deneyin."
+
+msgid "serverInstallError"
+msgstr "%s \"%s\" parçası takılırken sunucu hatası oluştu. Daha sonra tekrar deneyin."
+
+msgid "serverRemoveError"
+msgstr "%s \"%s\" parçası sökülürken hata oluştu. Daha sonra tekrar deneyin."
+
+msgid "server_shut_down"
+msgstr "Oyun sunucusu yeniden başlatılıyor."
+
+msgid "session_tracker_kick"
+msgstr "Wargaming.net&nbsp;ID'niz başka bir oyuna girmek için kullanıldı. Mevcut oyun oturumu kesildi."
+
+msgid "shell_buy/invalid_module"
+msgstr "%(name)s satın alınamıyor. Yanlış mermi."
+
+msgid "shell_buy/not_enough_credits"
+msgstr "%(name)s satın alınamıyor. Yeterli kredi yok."
+
+msgid "shell_buy/not_enough_gold"
+msgstr "%(name)s satın alınamıyor. Yeterli altın yok."
+
+msgid "shell_buy/server_error"
+msgstr "%(name)s satın alınamıyor. Daha sonra tekrar deneyin."
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "%(name)s mermisi satın alınamıyor. Sunucu geçici olarak hizmet dışı."
+
+msgid "shell_buy/success"
+msgstr "%(name)s mermileri başarıyla alındı (%(count)s adet). Harcanan: %(money)s."
+
+msgid "shell_buy/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "shell_sell/invalid_module"
+msgstr "\"%(name)s\" satılamıyor. Yanlış mermi."
+
+msgid "shell_sell/server_error"
+msgstr "\"%(name)s\" satılamıyor. Daha sonra tekrar deneyin."
+
+msgid "shell_sell/success"
+msgstr "\"%(name)s\" mermisi (%(count)s adet). %(money)s alındı."
+
+msgid "shells_apply/error"
+msgstr "Mühimmat yapılandırma hatası. Lütfen daha sonra tekrar deneyin."
+
+msgid "shells_apply/not_enough_money"
+msgstr "Mühimmat yapılandırma hatası. Satın almayı tamamlamak için yeterli kaynak yok."
+
+msgid "shells_apply/success_money_spent"
+msgstr "Mühimmata harcanan topla %(money)s."
+
+msgid "shells_apply/wallet_not_available"
+msgstr "İşlem imkansız. Altınlarınız WG Cüzdan tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "Parça alımı ve takımı için istek gönderildi. Sunucu cevabı bekleniyor."
+
+msgid "shop/item/buy_server_error"
+msgstr "%(typeString)s \"%(userString)s\" satın alınamadı. Daha sonra tekrar deneyin."
+
+msgid "shop/item/buy_success"
+msgstr "%(typeString)s \"%(userString)s\" parçası (%(count)d) başarıyla alındı. %(price)s harcandı."
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "Operasyon şu anda mevcut değil."
+
+msgid "shop/item/not_enough_money"
+msgstr "%(typeString)s \"%(userString)s\" alabilmek için %(price)s daha ihtiyacınız var."
+
+msgid "shop/item/not_found"
+msgstr "%(typeString)s \"%(userString)s\" parçası Dükkanda bulunamadı. Lütfen daha sonra tekrar deneyin."
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "Operasyon şu anda mevcut değil."
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "%(userString)s alabilmek için %(price)s daha ihtiyacınız var."
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "%(userString)s kiralamak için %(price)s daha ihtiyacınız var."
+
+msgid "shop/vehicle/not_found"
+msgstr "%(userString)s aracı dükkanda bulunamadı. Daha sonra tekrar deneyin."
+
+msgid "shop_resync"
+msgstr "Arabirim %(date)s saat %(time)s de sunucudaki değişiklikler sebebiyle güncellendi."
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "<font color='#E9E2BF'>\"{oldName}\"</font> ({amount}) <font color='#E9E2BF'>\"{newName}\"</font> ({amount}) olarak dönüştürüldü"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "Tarih: %(date)s\nDönüştürülen yönergeler: %(items)s."
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "Alındı"
+
+msgid "squad/createError"
+msgstr "Sadece Premium Hesap sahibi kullanıcılar Takım oluşturabilir."
+
+msgid "squad/kickedFromQueue"
+msgstr "Mevcut Takıma rakip bulunamıyor. Ekibinizi yeniden düzenlemeyi düşünün."
+
+msgid "squad/leaveDisabled"
+msgstr "İşlem geçersiz.\nTakımdan çıkamazsınız. Takım üyesisiniz ve savaşa hazırsınız."
+
+msgid "squad/memberJoined"
+msgstr "%s taktik birliğe katıldı."
+
+msgid "squad/memberLeave"
+msgstr "%s taktik birlikten ayrıldı."
+
+msgid "squad/memberNotReady"
+msgstr "%s hazır değil."
+
+msgid "squad/memberOffline"
+msgstr "%s ile bağlantı kesintiye uğradı."
+
+msgid "squad/memberReady"
+msgstr "%s hazır."
+
+msgid "squad/notSetReadyStatus"
+msgstr "Takımla savaşa girilemiyor."
+
+msgid "squad/notValidDeleted"
+msgstr "%(vehName)s seviyesi Komutanın aracının seviyesine uymadığı için Takımdan çıkarıldı. Aynı seviyede bir araç seçin."
+
+msgid "squad/notValidDeletedFilter"
+msgstr "%(vehName)s Komutan gereksinimleri değiştirdiği için Takımdan çıkarıldı."
+
+msgid "squad/notValidEnqueueData"
+msgstr "Takımdan çıkarıldınız çünkü Komutan gereksinimleri değiştirdi veya araç gereksinimleri karşılanmıyor. Lütfen başka bir araç seçin."
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "%(vehName)s, bu araçlardan Takım başına izin verilen sayı üzerindeki sınırlama nedeniyle çıkarıldı. Farklı bir araç seçin."
+
+msgid "squad_bonus/switch_off/body"
+msgstr "Bu özellik teknik nedenlerle geçici olarak devre dışıdır.\nVerdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "squad_bonus/switch_off/title"
+msgstr "Takım bonusu geçici olarak devre dışı"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "Teknik sorunlar çözüldü. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "squad_bonus/switch_on/title"
+msgstr "Takım bonusu yeniden devrede"
+
+msgid "ssr/unavailable"
+msgstr "Oyun kaydı indirilemiyor"
+
+msgid "steam_login_not_allowed"
+msgstr "Oynamak için bu uygulamayı kullanamazsınız: Steam hesabınız zaten bir Wargaming.net hesabına bağlı. Daha fazla bilgiye Oyuncu Desteğinden ulaşabilirsiniz."
+
+msgid "tankman/tankmanToRemove"
+msgstr "Mürettebat üyesi terhis edildi."
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s gün"
+
+msgid "techtree/action/header"
+msgstr "Özel \"%(actionName)s\""
+
+msgid "techtree/action/text"
+msgstr "Özel etkinliğin bitişi: "
+
+msgid "techtree/action/text/closest"
+msgstr "Bir sonraki özel etkinliğin bitişi: "
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "Gerekçe: bu araç sadece Prime Gaming üyelerine açıktır. Lütfen Prime Gaming abonelik durumunuzu kontrol edin."
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "Araç kullanılamıyor"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "Tarih: %(datetime)s\nEklenen araçlar:%(vehicles)s\nEklenen: Garajda bir yuva,%(crew)s 3B stil."
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "Tarih: %(datetime)s\nEklenen araçlar: %(vehicles)s\nEklenen: Garajda bir yuva,%(crew)s özel bir kamuflaj."
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr " %%100 mürettebat%(skills)s,"
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "Araçlar eklendi"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "Tarih: %(datetime)s\nKaldırılan: %(vehicles)s, Garajda bir yuva."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "Gerekçe: bu araç sadece Prime Gaming üyelerine açıktır. Lütfen Prime Gaming abonelik durumunuzu kontrol edin."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "Araçlar silindi"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "Araç yeniden sunumda"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "T-44-100 Igrovoy tankı eklendi. Kaldırılan: %(tanks)s."
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "Görevler artık T-44-100 Igrovoy ile tamamlanabilir."
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " ve "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)s kredi"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "%(tanks)s aracının tüm mürettebat üyeleri T-44-100 için yeniden eğitildi."
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "Donanım söküldü ve Depoya gönderildi.\nÖzelleştirme ögeleri Depoya gönderildi.\nMermiler ve yönergeler Depoya gönderildi."
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "Savaş yükü, özelleştirme ögeleri, Savaş Deneyimi, istatistikler ve ödüller %(mergedTank)s aracından T-44-100 Igrovoy'a aktarıldı."
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)s Serbest Deneyim"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr ", "
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "Saha Geliştirmeleri deneyimi telafi edildi: %(compensation)s eklendi."
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "Satın alınmış kademeli çıkartmalar telafi edildi: %(value)s altın eklendi."
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "%(mergedTank)s aracının oyun istatistikleri ve ödülleri T-44-100 Igrovoy'a aktarıldı."
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "Savaş Deneyimi toplandı ve T-44-100 Igrovoy'a aktarıldı."
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "Savaş alanında iyi şanslar!"
+
+msgid "telecomMergeResults/title"
+msgstr "\"Igrovoy\" Tarifesinde değişiklikler"
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "Araç seçimi ve kiralaması askıya alındı."
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "Araç kiralama işlemi şu anda yapılamıyor"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "Araç kiralama mevcut"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "Tebrikler! %(count)s jeton aldınız."
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "Gold transferi başarısız. Alıcı taraf işlemi reddetti."
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "Gold transferi kullanılamaz."
+
+msgid "tradingError/NO_WARES"
+msgstr "Gold transfer edilemiyor. Yeterli gold yok."
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "Günlük transfer sınırına ulaştınız. Yarın tekrar deneyin."
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "Gold transferi başarısız. Daha sonra tekrar deneyin."
+
+msgid "training/error/AddPlayer"
+msgstr "Eğitim odası hatası. Ekipteki maksimum oyuncu sayısı geçildi."
+
+msgid "training/error/doAction"
+msgstr "Eğitim odası hatası. Daha sonra tekrar deneyin."
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "Eğitim odası hatası. Hücum kipinde maksimum ekip kapasitesi: %(numPlayers)s."
+
+msgid "training/error/selectObserver"
+msgstr "Eğitim odası hatası. Ekipte maksimum oyuncu sayısı: %(numPlayers)s."
+
+msgid "training/error/swapTeams"
+msgstr "Ekipleri değiştirmeye çalışırken sunucu hatası. Daha sonra tekrar deneyin."
+
+msgid "transferXP/server_error"
+msgstr "İşlem devre dışı. Lütfen daha sonra tekrar deneyin."
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "İşlem geçersiz. Yetkiler yetersiz."
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "İşlem yapılamıyor. Herhangi bir klan üyesi değilsiniz."
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "Hata: Seçili araç göreve hazır hale getirilemiyor."
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "Hata: Aracı göreve hazır hale getirmek için yeterli Tamir Parçası yok."
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "Hata: Seçili aracın göreve hazır hale getirme fiyatı değişti."
+
+msgid "unit/error/wgshEvent/common"
+msgstr "Hata: İşlem tamamlanamıyor."
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "Takıma katılmada hata: Hesabınız bu oyun kipinde geçici olarak engellendi."
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "İşlem yapılamaz. Hesap kurtarıldı."
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "Oyuncu ekibe katılamıyor."
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "İşlem geçersiz. Yuva zaten dolu."
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "Oyuncu ekibe zaten katıldı."
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "Komutanın yetkileri aktarılamıyor."
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "İşlem yapılamaz. Geçersiz hesap türü."
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "İşlem yapılamaz. Geçersiz klan."
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "Ekibe katılamıyorsunuz."
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "Araçların toplam seviyesi aşıldı."
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "İşlem yapılamaz. Geçersiz müfreze üyeleri listesi."
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "Hatalı yuva numarası"
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "İşlem geçersiz. Takımda savaş için yanlış araç türü."
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "Ekibe katılmada hata. Yanlış araç seviyesi."
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "Belirtilen zamanda klasman değişimi geçerli değildir."
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "Ekip bulunamıyor."
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "Davet gönderilemiyor."
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "Takıma katılmada hata: Elemeler tamamlanana kadar Takımda oynama kapalıdır."
+
+msgid "unit/errors/COOLDOWN"
+msgstr "İşlem geçici olarak kullanılamıyor."
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "Müfreze ile son işlem hata ile sonuçlandı."
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "Araç savaşa hazır değil ya da Garajda hiç araç yok."
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "Yuvaya araç atanamadı."
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "İşlem yapılamaz. Müfrezenin bazı üyeleri hala savaşta."
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "Bu işlem için yetkiniz yok."
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "Hesap kilitli."
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "Ekip kuyrukta ya da arama sonuçlarında"
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "Ekibe katılınamıyor. Erişim yasak."
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "Ekip kuyrukta yok."
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "Ekip arama sonuçlarında yok."
+
+msgid "unit/errors/NOT_READY"
+msgstr "Ekip hazır değil."
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "Takıma katılmada hata: Seçili oyun kipine uygun bir aracınız yok."
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "Oyuncu ekip üyelerine eklenemiyor."
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "İşlem geçersiz. Oyuncu bulunamadı."
+
+msgid "unit/errors/NO_UNIT"
+msgstr "Ekip bulunamadı."
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "Ekip yok."
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "İşlem geçersiz. Araç listesi gösterilirken hata."
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "İşlem yapılamaz. Oyuncu çevrimdışı."
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "Komutanın kara listesine eklendiniz."
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "İşlem yapılamıyor. Önceki savaş henüz bitmedi."
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "Oyuncu ekipten çıkarılamıyor."
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "İşlem geçersiz. Bir veya daha fazla oyuncu henüz daveti kabul etmedi."
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "İşlem lejyonerler için geçersiz."
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "İşlem geçersiz. Yuva kilitli değil."
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "İşlem geçersiz. Yuva zaten dolu."
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "İşlem bu yuva için geçersiz."
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "Belirtilen zamanda Çatışmalara izin verilmeyecektir."
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "Farklı bir oyun kipine geçilemiyor. Takım üyesi sınırı aşıldı."
+
+msgid "unit/errors/TIMEOUT"
+msgstr "İşlem yapılamaz. Süre bitti."
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "İşlem geçersiz. Maksimum sayıda yuva kilitlendi."
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "İşlem geçersiz. Maksimum lejyoner sayısı."
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "Ekip yaratılamıyor veya katılınamıyor."
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "Ekip yaratılamıyor."
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "İşlem yapılamaz. Müfreze kurtarıldı."
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "İşlem geçersiz. Araç ihtiyaçları karşılamıyor."
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "İşlem geçersiz. Önce bir araç seçin."
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "Ekip yok."
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "İşlem geçersiz. Araç hazır değil veya gereksinimleri karşılamıyor."
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Savaş Yedeklerinin kontrol hakkını kazandınız."
+
+msgid "unit/notification/changeDivision"
+msgstr "Komutan %(name)s %(division)s Klasmanını seçti."
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "Mutlak"
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "Şampiyon"
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "Orta"
+
+msgid "unit/notification/giveLeadership"
+msgstr "%(userName)s ekibin Komutanı olarak atandı."
+
+msgid "unit/notification/playerAdded"
+msgstr "%(userName)s müfrezeye katıldı."
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "%(userName)s Takıma Seviye %(tierRange)s bir araçla savaşmak üzere katıldı."
+
+msgid "unit/notification/playerOffline"
+msgstr "%(userName)s ile bağlantı koptu."
+
+msgid "unit/notification/playerOnline"
+msgstr "%(userName)s ile bağlantı yeniden kuruldu."
+
+msgid "unit/notification/playerRemoved"
+msgstr "%(userName)s müfrezeden ayrıldı."
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "Davet zaten gönderildi."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "Komutanın yetkileri başka bir oyuncuya aktarılır."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Komutanın yetkileri ve Savaş Yedekleri üzerindeki kontrolü başka bir oyuncuya aktarıldı."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Savaş Yedeklerinin kontrolü başka bir oyuncuya aktarıldı."
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "Müfrezeden çıkarıldınız: müfreze dağıtıldı."
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "Müfrezeden çıkarıldınız. Klan değişti."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "Oynama süreniz bitti. Yeni bir savaşa giremezsiniz. %(expiredTime)s itibarıyla sunucudan çıkarılacaksınız."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "Oyunculardan birinin savaşı bitirmeye yetecek kadar oyun oturumu süresi kalmadı. Takım şimdi hazırlık durumunda."
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "Lejyoner toplama durduruldu."
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "İşlem yapılamıyor. Bekleme süresi doldu."
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "Ekibe katılırken hata oluştu. Ekipten çıkarıldınız."
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "Gönüllüler listesinden otomatik olarak çıkarıldınız."
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "Komutan tarafından çıkarıldınız."
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "Müfrezeden çıkarıldınız: müfreze dağıtıldı."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "Müfreze Komutanı oldunuz."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Müfreze Komutanı oldunuz.\nSavaş Yedekleri üzerinde kontrol sahibi oldunuz."
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "İlerleme için başka bir köprübaşı seçildi."
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "Başka bir savaş türü seçildi."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "Arama geçici olarak kapatıldı: Sunucuda çok fazla Takım var."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "Sunucu hatası nedeniyle oyuncu bulunamıyor. Daha sonra tekrar deneyin."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "Arama iptal edildi. En az bir Takım üyesinde seçili oyun kipine uygun hiç araç yok."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "Arama süresi bitti. İstenilen oyuncular bulunamadı."
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "Oyuncu katılımları devam ediyor. Lütfen bekleyin."
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "Araç göreve hazır hale getirildi: %(vehicleName)s"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "Ekibe katılmak için hazır olma onayı alınamadı."
+
+msgid "unload/button"
+msgstr "Kışlaya Git"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "Mürettebat Kışlaya gönderilemiyor: tank özel sabit mürettebata sahip."
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "Mürettebat Kışlaya gönderilirken hata. Yanlış araç."
+
+msgid "unload_crew/server_error"
+msgstr "Mürettebat Kışlaya gönderilemedi. Daha sonra tekrar deneyin."
+
+msgid "unload_crew/success"
+msgstr "Mürettebat Kışlaya gönderildi."
+
+msgid "unload_crew/vehicle_locked"
+msgstr "Mürettebat Kışlaya gönderilirken hata oluştu. Araç kilitli."
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "Mürettebat Kışlaya gönderilirken hata oluştu. Aracınızı tamir edin."
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "Mürettebat üyesi Kışlaya gönderilemiyor: tank özel sabit mürettebata sahip."
+
+msgid "unload_tankman/button"
+msgstr "Kışlaya Git"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "Mürettebat üyesi Kışlaya gönderilirken hata. Yanlış araç."
+
+msgid "unload_tankman/not_enough_space"
+msgstr "Bu mürettebat üyesi Kışlaya gönderilemiyor. Kışlada yeterli ranza yok."
+
+msgid "unload_tankman/server_error"
+msgstr "Mürettebat üyesi Kışlaya gönderilemiyor. Daha sonra tekrar deneyin."
+
+msgid "unload_tankman/success"
+msgstr "Mürettebat üyesi Kışlaya gönderildi."
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "Mürettebat üyesi Kışlaya gönderilirken hata oluştu. Araç kilitli."
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "Mürettebat üyesi Kışlaya gönderilirken hata oluştu. Aracınızı tamir edin."
+
+msgid "unlocks/drawFailed"
+msgstr "Yanlış ayarlar. Teknoloji Ağacı kilitli."
+
+msgid "unlocks/item/already_unlocked"
+msgstr "%(typeString)s \"%(userString)s\" parçası araştırıldı."
+
+msgid "unlocks/item/in_processing"
+msgstr "Araştırma isteği gönderildi. Sunucudan yanıt bekleniyor."
+
+msgid "unlocks/item/server_error"
+msgstr "%(typeString)s \"%(userString)s\" parçası araştırırken sunucu hatası. Daha sonra tekrar deneyin."
+
+msgid "unlocks/item/unlock_success"
+msgstr "%(typeString)s \"%(userString)s\" parçası araştırıldı. Harcanan dağıtılmamış deneyim: %(vehXP)s. Harcanan Serbest Deneyim: %(freeXP)s."
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "%(userString)s tankı araştırıldı."
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "Araştırma isteği gönderildi. Sunucudan yanıt bekleniyor."
+
+msgid "unlocks/vehicle/server_error"
+msgstr "%(userString)s. aracını araştırırken sunucu hatası.Daha sonra tekrar deneyin."
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "%(userString)s aracı araştırıldı. Dağıtılmamış: %(vehXP)s. deneyim harcandı. Serbest Deneyim: %(freeXP)s. harcandı."
+
+msgid "upgradeTankman/server_error"
+msgstr "Mürettebat üyesi eğitilirken hata oluştu. Daha sonra tekrar deneyin."
+
+msgid "upgradeTankman/success"
+msgstr "Eğitim başarıyla tamamlandı."
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "Kayra Donanım Yükseltmesi teknik nedenler sebebiyle geçici olarak devre dışıdır. Lütfen daha sonra tekrar deneyin."
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "Kayra Donanım Yükseltmesi yeniden geçerli. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "vehicle/restore/finished"
+msgstr "%(vehicleName)s kurtarma için uygun değil: işlem zamanı geçti."
+
+msgid "vehicle/restoreDuration/days"
+msgstr "Aracı Dükkânda %(time)s g boyunca kurtarabileceksiniz."
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "Aracı Dükkânda %(time)s sa. boyunca kurtarabileceksiniz."
+
+msgid "vehicleCompare/disabled"
+msgstr "İşlem geçici olarak yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "%(vehicle)s ön izlemesi ancak tüm istemci indirildikten sonra geçerli olacaktır."
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "Donanımı takmak için sunucuya istek gönderildi. Cevap bekleniyor."
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "%(typeString)s \"%(userString)s\" satın alınamadı. Daha sonra tekrar deneyin."
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "%(typeString)s \"%(userString)s\" parçası (%(count)d) başarıyla alındı. %(price)s harcandı."
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "%(typeString)s \"%(userString)s\" parçası zaten Depoda var."
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "%(typeString)s \"%(userString)s\" parçası araştırıldı."
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "%(typeString)s \"%(userString)s\" alabilmek için %(price)s daha ihtiyacınız var."
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "%(typeString)s \"%(userString)s\" parçası Depoda bulunamadı."
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "%(typeString)s \"%(userString)s\" parçası Dükkanda bulunamadı. Lütfen daha sonra tekrar deneyin."
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "%(typeString)s \"%(userString)s\" araştırıldı. Harcanan dağıtılmamış deneyim: %(unspentXP)s. Harcanan Serbest Deneyim: %(freeXP)s."
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "Araştırma isteği gönderildi. Sunucudan yanıt bekleniyor."
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "%(userString)s aracı zaten deponuzda mevcut."
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "%(userString)s tankı araştırıldı."
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "%(userString)s alabilmek için %(price)s daha ihtiyacınız var."
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "%(userString)s aracı deponuzda bulunamadı."
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "%(userString)s aracı dükkanda bulunamadı. Daha sonra tekrar deneyin."
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "%(userString)s araştırıldı. Harcanan dağıtılmamış deneyim: %(unspentXP)s. Harcanan serbest deneyim: %(freeXP)s."
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "Elit Ödül sistemi artık %(vehicle)s için açık"
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "Elit Ödüller"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "%(vehicle)s için %(modification)s modifikasyonu başarıyla satın alındı."
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "Modifikasyon Satın Alındı"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "%(vehicle)s ikinci yuvasına %(category)s kategorisi başarıyla atandı."
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "Yuva Kategorisi Ataması"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "Harcanan kredi: %(value)s."
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "%(vehicle)s için tüm Çift Modifikasyonlar iptal edildi."
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "%(vehicle)s için %(modification)s modifikasyonu iptal edildi."
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "Modifikasyon İptal Edildi"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "%(vehicle)s için %(modifications)s modifikasyonları iptal edildi."
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "Harcanan Savaş Deneyimi: %(value)s."
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "Harcanan Serbest Deneyim: %(value)s."
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "Modifikasyon Ağacı hatası. Lütfen daha sonra tekrar deneyin."
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "Hata"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "%(vehicle)s için Standart Modifikasyon Seviye %(level)s başarıyla araştırıldı ve satın alındı."
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "%(vehicle)s için Standart Modifikasyon Seviye %(levels)s başarıyla araştırıldı ve satın alındı."
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "Modifikasyon Araştırıldı"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "%(vehicle)s ikinci yuvasına %(category)s kategorisi başarıyla atandı."
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "Yuva Kategorisi Ataması"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "Yardımcı Savaş Yükü, %(vehicle)s için artık açık."
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "Yardımcı Savaş Yükü"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "İkinci yuva kategorisi ataması, %(vehicle)s için artık açık."
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "Yuva Kategorisi Ataması"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "Temel Savaş Yükü, %(vehicle)s için artık açık."
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "Temel Savaş Yükü"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "Modifikasyon Ağacı, %(vehicle)s için artık açık."
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "Saha Geliştirmeleri"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "Araç Modifikasyon Ağacı açık. Araçlarınızı rollerine göre yapılandırabilir, çeşitli modifikasyonlar kullanarak niteliklerini değiştirebilirsiniz."
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "Yükseltme hatası. Lütfen daha sonra tekrar deneyin."
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "Hata"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "%(vehicle)s için \"%(perk)s\" düğümü başarıyla araştırıldı."
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "Düğüm Araştırıldı"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "%(vehicle)s için %(perk)s düğümleri başarıyla araştırıldı"
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "Düğümler Araştırıldı"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "İşlem devre dışı. Lütfen daha sonra tekrar deneyin."
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "%(vehName)s satın alınamıyor. Yanlış araç."
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "%(vehName)s satın alınamıyor. Yeterli kredi yok."
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "%(vehName)s satın alınamıyor. Yeterli altın yok."
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "İşlem yapılamıyor. Bu ülkenin araçları araştırılmadı."
+
+msgid "vehicle_buy/server_error"
+msgstr "Sunucu hatası sebebi ile %(vehName)s satın alınamıyor. Daha sonra tekrar deneyin."
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "%(vehName)s aracı satın alınamadı. Sunucu geçici olarak hizmet dışı."
+
+msgid "vehicle_buy/success"
+msgstr "%(vehName)s başarıyla satın alındı. %(price)s harcandı."
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "%(vehName)s kaldırılamıyor. Daha sonra tekrar deneyin."
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "%(vehName)s kaldırılamıyor. Yanlış araç."
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "%(vehName)s kaldırılamıyor. Yeterli kredi yok."
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "%(vehName)s kaldırılamıyor. Yeterli altın yok."
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "%(vehName)s kaldırılamıyor. Kışlada yeterli ranza yok."
+
+msgid "vehicle_remove/server_error"
+msgstr "%(vehName)s satılamıyor. Lütfen aracın herhangi bir taktik birlikte olmadığından emin olun veya daha sonra tekrar deneyin."
+
+msgid "vehicle_remove/success/default"
+msgstr "%(vehName)s başarıyla kaldırıldı.\n%(money)s."
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "%(vehName)s başarıyla kaldırıldı."
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "%(vehName)s başarıyla kaldırıldı.\n%(gainMoney)s.\n%(spendMoney)s."
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "%(vehName)s kaldırılamıyor. Araç otomatik olarak kaldırılacak."
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "%(vehName)s kaldırılamıyor. Araç engellenmiş."
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "%(vehName)s kaldırılamıyor. Aracın onarımı gerekiyor."
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "%(vehName)s kaldırılamıyor. Bugünlük araç limitine ulaştınız."
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "vehicle_rent/buyOption"
+msgstr "Dikkat! Daha sonra satın almaya karar verirseniz araç size indirimli olarak sunulacaktır."
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "%(vehName)s kiralanamıyor. Yanlış araç."
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "%(vehName)s kiralanamıyor. Yeterli kredi yok."
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "%(vehName)s kiralanamıyor. Yeterli altın yok."
+
+msgid "vehicle_rent/server_error"
+msgstr "Sunucu hatası sebebi ile %(vehName)s kiralanamıyor. Daha sonra tekrar deneyin."
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "%(vehName)s kiralanamıyor. Araç kiralama seçeneği geçici olarak devre dışı."
+
+msgid "vehicle_rent/success"
+msgstr "%(vehName)s %(rentPackageName)s kiraladınız. %(price)s harcadınız. %(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "%(days)d gün için"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "vehicle_repair/credits_error"
+msgstr "%(vehName)s onarımı için %(needed)s gerekli."
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "%(vehName)s onarımı için %(needed)s gerekli."
+
+msgid "vehicle_repair/server_error"
+msgstr "%(vehName)s onarılırken hata oluştu. Daha sonra tekrar deneyin."
+
+msgid "vehicle_repair/success"
+msgstr "%(vehName)s onarıldı. %(money)s harcadınız."
+
+msgid "vehicle_restore/DISABLED"
+msgstr "Araç kurtarma geçici olarak devre dışı. Daha sonra tekrar deneyin."
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "%(vehName)s kurtarılamıyor. Araç kurtarma geçici olarak devre dışı."
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "%(vehName)s kurtarılamıyor. Yanlış araç."
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "%(vehName)s kurtarılamıyor. Yeterli kredi yok."
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "%(vehName)s kurtarılamıyor. Yeterli altın yok."
+
+msgid "vehicle_restore/server_error"
+msgstr "Sunucu hatası sebebi ile %(vehName)s kurtarılamıyor. Daha sonra tekrar deneyin."
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "%(vehName)s kurtarılamıyor. Araç kurtarma geçici olarak devre dışı."
+
+msgid "vehicle_restore/success"
+msgstr "%(vehName)s başarıyla kurtarıldı. %(price)s harcandı."
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "Sökme Kiti kullanıldı (x%(countDK)s)"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "%(vehName)s satılamıyor. Daha sonra tekrar deneyin."
+
+msgid "vehicle_sell/disabledService"
+msgstr "%(vehName)s satılamıyor. Daha sonra tekrar deneyin."
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "%(vehName)s satılamıyor. Donanımı sökmek için yeterli bileşen yok."
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "%(vehName)s satılamıyor. Yanlış araç."
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "%(vehName)s satılamıyor. Yeterli kredi yok."
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "%(vehName)s satılamıyor. Yeterli altın yok."
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "%(vehName)s satılamıyor. Kışlada yeterli ranza yok."
+
+msgid "vehicle_sell/server_error"
+msgstr "%(vehName)s satılamıyor. Lütfen aracın herhangi bir taktik birlikte olmadığından emin olun veya daha sonra tekrar deneyin."
+
+msgid "vehicle_sell/success"
+msgstr "%(vehName)s başarıyla satıldı.\n%(money)s.\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "%(vehName)s başarıyla satıldı.\n%(gainMoney)s.\n%(spendMoney)s.\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "%(vehName)s satılamıyor. Araç otomatik olarak kaldırılacak."
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "%(vehName)s satılamıyor. Araç kilitli."
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "%(vehName)s satılamıyor. Aracınızı onarın."
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "%(vehName)s satılamıyor. Bugünlük araç limitine ulaştınız."
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "Yuva satın alırken hata oluştu. Yeterli kredi yok."
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "Yuva satın alırken hata oluştu. Yeterli altın yok."
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "Yuva satın alırken hata oluştu. Daha sonra tekrar deneyin."
+
+msgid "vehicle_slot_buy/success"
+msgstr "Garaja ek yuva satın alındı. Harcanan: %(money)s."
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "%(vehName)s için hızlandırılmış mürettebat eğitimi değiştirilirken hata. Yanlış araç."
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "%(vehName)s için hızlandırılmış mürettebat eğitimi değiştirilemiyor. Daha sonra yeniden deneyin."
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "%(vehName)s için hızlandırılmış mürettebat eğitimi kapalı."
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "%(vehName)s için hızlandırılmış mürettebat eğitimi açık."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "%(vehName)s için hızlandırılmış mürettebat eğitimi değiştirilirken hata. Araç kilitli."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "%(vehName)s için hızlandırılmış mürettebat eğitimi değiştirilirken hata. Aracı onarın."
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "%(vehName)s için takas edilemedi. Hatalı araç seçili."
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "%(vehName)s için takas edilemiyor. Yeterli kredi yok."
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "%(vehName)s için takas edilemiyor. Yeterli altın yok."
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "%(tradeOffVehName)s takas edilemiyor. Kışlada yeterli ranza yok."
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "Takas teklifi şimdi mevcut!"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "Takas teklifi artık geçerli değil!"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "%(vehName)s için takas edilemedi. Sunucu hatası. Lütfen daha sonra tekrar deneyin."
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "%(vehName)s için takas edilemedi. Satın alma/takas hizmeti geçici olarak devre dışı."
+
+msgid "vehicle_trade_in/success"
+msgstr "%(tradeOffVehName)s kaldırıldı. %(vehName)s %(price)s karşılığında satın alındı."
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "%(tradeOffVehName)s takas edilemedi. Araç otomatik olarak kaldırılacak."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "%(vehName)s için takas edilemedi. Araç takas olarak alınamaz."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "%(tradeOffVehName)s takas edilemiyor. Araç takas için geçerli değil."
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "%(tradeOffVehName)s takas edilemiyor. Araç uygun değil."
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "%(tradeOffVehName)s takas edilemiyor. Aracı onarın."
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "%(tradeOffVehName)s takas edilemiyor. Araç Depoda değil."
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "İşlem imkansız. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "video/error"
+msgstr "Video oynatma hatası. Hata kodu: %(code)s."
+
+msgid "w2gt/switchOff/description"
+msgstr "Mini harita savaş bölgeleri geçici olarak kullanılamıyor."
+
+msgid "w2gt/switchOff/header"
+msgstr "Teknik Sorunlar"
+
+msgid "w2gt/switchOn/description"
+msgstr "Mini harita savaş bölgeleri artık kullanılabilir. Savaşa devam!"
+
+msgid "w2gt/switchOn/header"
+msgstr "İşlev Geri Kazanıldı"
+
+msgid "wallet/available"
+msgstr "WG Cüzdan başarıyla eşitlendi. Tüm altın, tahvil, kredi ve Serbest Deneyiminiz artık kullanılabilir."
+
+msgid "wallet/available_freexp"
+msgstr "WG Cüzdan başarıyla eşitlendi. Tüm Serbest Deneyiminiz artık kullanılabilir."
+
+msgid "wallet/available_gold"
+msgstr "WG Cüzdan başarıyla eşitlendi. Tüm altınınız artık kullanılabilir."
+
+msgid "wallet/not_available"
+msgstr "Bakiye verileri alımı devam ediyor. Tüm altın, tahvil, kredi ve Serbest Deneyiminiz yakında hazır olacak."
+
+msgid "wallet/not_available_freexp"
+msgstr "Bakiye verileri alımı devam ediyor. Tüm Serbest Deneyiminiz yakında hazır olacak."
+
+msgid "wallet/not_available_gold"
+msgstr "Bakiye verileri alımı devam ediyor. Tüm altınınız yakında hazır olacak."
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "Haftalık Görev yenilenemiyor: İşlem engellendi."
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "Haftalık Görev yenilenemiyor: Hatalı görev."
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "Haftalık Görev yenilenemiyor: Görev zaten tamamlandı."
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "Haftalık Görev yenilenemiyor: Operasyon donduruldu."
+
+msgid "weekly_quests/reroll/success"
+msgstr "Haftalık Görev başarıyla yenilendi."
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "Haftalık Görev yenilenemiyor. Daha sonra tekrar deneyin."
+
+msgid "weekly_quests/switch_off/body"
+msgstr "Haftalık Görevler geçici olarak devre dışıdır. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "weekly_quests/switch_on/body"
+msgstr "Haftalık Görevler yeniden açıldı. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "winback/turnOffBattlesError"
+msgstr "Isınmadan çıkılamıyor. Lütfen daha sonra tekrar deneyin."
+
+msgid "window/buttons/close"
+msgstr "Kapat"
+
+msgid "wrong_slot"
+msgstr "%s \"%s\" %s yuvasına uymuyor."

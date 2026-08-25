@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Diagrama"
+
+msgid "animations/crew_close"
+msgstr "FECHAR"
+
+msgid "animations/shop"
+msgstr "Ir para a Aquisição"
+
+msgid "battleMattersTab"
+msgstr "Academia de Tanques"
+
+msgid "battleResults/descr"
+msgstr "Academia de Tanques: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Para as Missões da Academia de Tanques"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Progresso nesta batalha"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Cancelar"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "FECHAR"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Confirmar"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Vai receber o {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} com uma tripulação e um lugar de Garagem."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Troque o seu Token da Academia pelo %(vehicleName)s?"
+
+msgid "entryPoint/hint"
+msgstr "UMA SÉRIE DE\nMISSÕES DE TREINO"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Missões concluídas: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Academia de Tanques"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Recompensa pela conclusão:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "As missões estão indisponíveis de momento por problemas técnicos. O seu progresso nas missões concluídas será guardado."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Todas as missões concluídas"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "As Missões estão temporariamente indisponíveis"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Condições:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Troque um token por qualquer veículo pesquisável de Nível VI."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "VOLTAR"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "PARA AS MISSÕES DA ACADEMIA DE TANQUES"
+
+msgid "mainRewardsScreen/done"
+msgstr "Na Garagem"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Pré-visualização"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Dias de aluguer: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Conclua uma série de missões de treino para obter três veículos Premium de Nível VIII para alugar por {cream_Open}14 dias{cream_Close} como recompensa principal."
+
+msgid "mainRewardsScreen/title"
+msgstr "ACADEMIA DE TANQUES"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Selecionar"
+
+msgid "mainScreen/infoButton"
+msgstr "GUIA PARA PRINCIPIANTES"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "GUIA"
+
+msgid "mainScreen/list/arrow"
+msgstr "Clique para ir para a missão actual."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Recompensa principal recebida"
+
+msgid "mainScreen/progress"
+msgstr "Missões concluídas: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Como Concluir"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Conclua a missão anterior"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Indisponível"
+
+msgid "mainScreen/showMainReward"
+msgstr "Ver Recompensa Principal"
+
+msgid "mainScreen/target"
+msgstr "Conclua todas as missões e obtenha três veículos de Nível VIII para alugar."
+
+msgid "mainScreen/title"
+msgstr "ACADEMIA DE TANQUES"
+
+msgid "pausedScreen/buttonText"
+msgstr "Para a Garagem"
+
+msgid "pausedScreen/description"
+msgstr "A Academia de Tanques está temporariamente indisponível por motivos técnicos. Todo o progresso será guardado. Pedimos desculpa pela inconveniência."
+
+msgid "pausedScreen/title"
+msgstr "Temporariamente Indisponível"
+
+msgid "rewards/additionalTitle"
+msgstr "Também recebeu:"
+
+msgid "rewards/footer/confirm"
+msgstr "Afirmativo!"
+
+msgid "rewards/footer/more"
+msgstr "Mais: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Para a Próxima Missão"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Ver na Garagem"
+
+msgid "rewards/previouslyCompleted"
+msgstr "AS condições da missão foram preenchidas anteriormente"
+
+msgid "rewards/rent"
+msgstr "Dias de aluguer: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "MISSÃO FINAL CONCLUÍDA"
+
+msgid "rewards/subTitle/regular"
+msgstr "MISSÃO %(questNumber)s CONCLUÍDA"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "VEÍCULO POR TOKEN DA ACADEMIA RECEBIDO"
+
+msgid "rewards/title"
+msgstr "ACADEMIA DE TANQUES"
+
+msgid "rewards/token/action"
+msgstr "Selecionar Veículo"
+
+msgid "rewards/token/description"
+msgstr "Utilize um token para receber instantaneamente um veículo de Nível VI."
+
+msgid "rewards/token/title"
+msgstr "Troque um Token da Academia por um veículo"
+
+msgid "tokenTooltip/condition"
+msgstr "OS tokens são atribuídos por concluir com sucesso uma série de missões de treino e por fazer o progresso necessário na Academia de Tanques."
+
+msgid "tokenTooltip/description"
+msgstr "Tokens podem ser trocados por qualquer veículo pesquisável de Nível VI. O veículo vem com tripulação e lugar na Garagem."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Token disponível: {cream_open}%(days)s d{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Token disponível até: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Token disponível: {cream_open}%(hours)s h{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Token disponível: {cream_open}%(minutes)s min{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Token da Academia"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Vai receber uma {cream_Open}%(crewIcon)s tripulação{cream_Close} e um {cream_Open}%(hangarIcon)s lugar de {cream_Close} {cream_Open}Garagem{cream_Close} além do seu veículo."
+
+msgid "vehicleSelection/back"
+msgstr "VOLTAR"
+
+msgid "vehicleSelection/backTo"
+msgstr "PARA AS MISSÕES DA ACADEMIA DE TANQUES"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Adicionar à comparação"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Configure a exibição dos veículos por tipo e nação."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Filtrar por Parâmetros"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Clique para reiniciar as definições dos filtros por defeito."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Definido Por Defeito"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Nação"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Filtrar por Parâmetros"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Tipo de Veículo"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Nada encontrado. Altere as configurações do filtro ou reiniciá-las para o padrão."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Reiniciar Filtro"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Pesquisou todos os veículos de Nível VI que podem ser trocados por um Token da Academia."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Nenhum Veículo Para Seleccionar"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Pesquisar por nome"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "O nome do veículo não pode conter mais de %(maxLength)s caracteres."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Pesquisar por Nome"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Mostrados:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Troque um token por qualquer veículo pesquisável de Nível VI. O veículo vem com\numa tripulação e lugar de Garagem."
+
+msgid "vehicleSelection/title"
+msgstr "Seleccione qualquer veículo de Nível VI pesquisável"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Antitanque"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "AAP"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Tanque Pesado"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Tanque Ligeiro"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Tanque Médio"

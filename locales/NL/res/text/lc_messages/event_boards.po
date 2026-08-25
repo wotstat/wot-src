@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "Beloningen voor tankjagers"
+
+msgid "awards/class/SPG"
+msgstr "Beloningen voor artillerie"
+
+msgid "awards/class/heavyTank"
+msgstr "Beloningen voor zware tanks"
+
+msgid "awards/class/lightTank"
+msgstr "Beloningen voor lichte tanks"
+
+msgid "awards/class/mediumTank"
+msgstr "Beloningen voor medium tanks"
+
+msgid "awards/level"
+msgstr "Beloningen voor niveau %(level)s voertuigen"
+
+msgid "awards/nation/china"
+msgstr "Beloningen voor Chinese voertuigen"
+
+msgid "awards/nation/czech"
+msgstr "Beloningen voor Tsjecho-Slowaakse voertuigen"
+
+msgid "awards/nation/france"
+msgstr "Beloningen voor Franse voertuigen"
+
+msgid "awards/nation/germany"
+msgstr "Beloningen voor Duitse voertuigen"
+
+msgid "awards/nation/japan"
+msgstr "Beloningen voor Japanse voertuigen"
+
+msgid "awards/nation/poland"
+msgstr "Beloningen voor Poolse voertuigen"
+
+msgid "awards/nation/sweden"
+msgstr "Beloningen voor Zweedse voertuigen"
+
+msgid "awards/nation/uk"
+msgstr "Beloningen voor Britse voertuigen"
+
+msgid "awards/nation/usa"
+msgstr "Beloningen voor Amerikaanse voertuigen"
+
+msgid "awards/nation/ussr"
+msgstr "Beloningen voor Sovjet voertuigen"
+
+msgid "awards/tooltip/class"
+msgstr "Klik om de beloningen voor dit voertuigtype te tonen."
+
+msgid "awards/tooltip/level"
+msgstr "Klik om de beloningen voor voertuigen van dit niveau te tonen."
+
+msgid "awards/tooltip/nation"
+msgstr "Klik om de beloningen voor deze natie te tonen."
+
+msgid "awards/vehicle"
+msgstr "Beloningen voor geselecteerd voertuig"
+
+msgid "badge/tooltip/description"
+msgstr "Een uniek teken dat zal worden weergegeven naast je nickname in het gevecht. De badge wordt getoond aan spelers van beide teams en laat je opmerkelijke prestatie in het Mars der naties evenement zien."
+
+msgid "badgesGroup/tooltip/header"
+msgstr "Herinneringsbadges"
+
+msgid "block/award"
+msgstr "Hoofdbeloning"
+
+msgid "block/objective"
+msgstr "Voorwaarden"
+
+msgid "block/task"
+msgstr "Missie"
+
+msgid "button/awards"
+msgstr "Alle beloningen"
+
+msgid "button/awards/tooltip"
+msgstr "Klik om de lijst met alle beloningen in de competitie te tonen."
+
+msgid "button/regulations"
+msgstr "Vereisten"
+
+msgid "button/regulations/tooltip"
+msgstr "Klik om de volle omschrijving van de competitie te tonen."
+
+msgid "condition/battletype/random"
+msgstr "Willekeurig gevecht 15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "Klassementsgevecht"
+
+msgid "condition/battletype/squadallowed"
+msgstr "Pelotons toegestaan"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "Pelotons niet toegestaan"
+
+msgid "condition/primetime/any"
+msgstr "Iedere server en ieder tijdstip"
+
+msgid "condition/primetime/chosen"
+msgstr "Alleen op de aangegeven servers"
+
+msgid "condition/vehicle/chosen"
+msgstr "Alleen op de voertuigen gespecificeerd:"
+
+msgid "condition/vehicle/exist"
+msgstr "In de garage"
+
+msgid "condition/vehicle/missing"
+msgstr "Niet in de garage"
+
+msgid "condition/vehicle/single"
+msgstr "in het %(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "Onderscheiding"
+
+msgid "excel/btnClose"
+msgstr "NAAR COMPETITIE"
+
+msgid "excel/group/title"
+msgstr "Groep"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "Om in de beoordeling geplaatst te worden, moet je deelnemen aan meer gevechten: %(number)s"
+
+msgid "excel/noData"
+msgstr "Prijzenplaatsen zijn nog niet ingenomen."
+
+msgid "excel/participate/join"
+msgstr "Vecht"
+
+msgid "excel/participate/notParticipated"
+msgstr "Je bent niet geplaatst in deze beoordeling"
+
+msgid "excel/subHeader"
+msgstr "Competitie: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "Toetreden"
+
+msgid "header/participate/button/leave"
+msgstr "Competitie verlaten"
+
+msgid "header/participate/finished"
+msgstr "Competitie is geëindigd"
+
+msgid "header/participate/notStarted"
+msgstr "Je bent toegetreden"
+
+msgid "header/participate/reason/byAge"
+msgstr "Account gecreëerd na %date%"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "Competitie onbeschikbaar"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "Je hebt deze competitie verlaten"
+
+msgid "header/participate/started"
+msgstr "Je bent aan het deelnemen"
+
+msgid "header/timer"
+msgstr "Eindigt over:"
+
+msgid "maintenance/body"
+msgstr "Onze excuses voor het tijdelijke ongemak."
+
+msgid "maintenance/title"
+msgstr "Fout bij laden van data"
+
+msgid "maintenance/update"
+msgstr "Update"
+
+msgid "notification/buttons/details"
+msgstr "Details"
+
+msgid "notification/eventFinished/body"
+msgstr "Competitie %(eventName)s is geëindigd. Gedurende de komende dagen zullen de winnaars worden vastgesteld, waarna zij hun welverdiende prijzen zullen ontvangen."
+
+msgid "notification/eventFinished/header"
+msgstr "Competitie geëindigd"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "De resultaten van jouw gevechten tellen nu mee in de competitie, waardoor je geplaatst kunt worden in de beoordeling en een beloning kunt verdienen."
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "Je bent als deelnemer toegetreden"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "De resultaten van jouw gevechten zullen meetellen zodra de competitie begint, waardoor je geplaatst kunt worden in de beoordeling en een beloning kunt verdienen."
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "Je bent als deelnemer toegetreden"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "Kan niet toetreden als deelnemer: er is niet voldaan aan de vereisten."
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "Kan niet toetreden als deelnemer: de registratieperiode is geëindigd."
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "Je statistieken in de competities zullen worden gereset nadat de beoordelingen zijn geüpdatet."
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "Je hebt de competitie verlaten"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "Je statistieken zullen niet van invloed zijn op deze competitie."
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "Je hebt de competitie verlaten"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "Kan de competitie niet verlaten: de toegekende tijd is verstreken."
+
+msgid "notification/eventStarted/body"
+msgstr "Competitie %(eventName)s is begonnen! Spelers die op een prijzenplaats staan wanneer de competitie eindigt, zullen waardevolle beloningen verdienen."
+
+msgid "notification/eventStarted/header"
+msgstr "Competitie gestart"
+
+msgid "notification/unknownError/body"
+msgstr "Kan de operatie niet voltooien."
+
+msgid "orders/title"
+msgstr "Vereisten"
+
+msgid "popover/buttons/cancel"
+msgstr "Annuleren"
+
+msgid "popover/buttons/rating"
+msgstr "Ga naar beoordelingen"
+
+msgid "popover/buttons/select"
+msgstr "Selecteren"
+
+msgid "popover/noVehicles"
+msgstr "Geen voertuigen die aan het geselecteerde filter voldoen."
+
+msgid "popover/resetFilter"
+msgstr "Filter resetten"
+
+msgid "popover/title"
+msgstr "Beoordelingslijst"
+
+msgid "popover/title/vehicle"
+msgstr "Beoordelingslijst"
+
+msgid "popover/tooltip/class"
+msgstr "Ga naar de beoordeling voor voertuigen van het geselecteerde type."
+
+msgid "popover/tooltip/level"
+msgstr "Ga naar de beoordeling voor voertuigen van het geselecteerde niveau."
+
+msgid "popover/tooltip/nation"
+msgstr "Ga naar de beoordeling voor voertuigen van de geselecteerde natie."
+
+msgid "server/list"
+msgstr "Om je gevechten mee te laten tellen voor de competitie moet je overstappen naar de volgende server:"
+
+msgid "server/noSuitable/body"
+msgstr "Gevechtsresultaten zullen weer meetellen om: %(data)s. Competitieschema"
+
+msgid "server/noSuitable/header"
+msgstr "Gevechtsresultaten worden op dit moment niet meegeteld voor de competitie"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s op %(server)s"
+
+msgid "status/bestResults/many"
+msgstr "Mijn beste resultaten"
+
+msgid "status/bestResults/one"
+msgstr "Mijn resultaten"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "Competitie is onbeschikbaar:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "Het is je niet toegestaan deel te nemen aan deze competitie omdat je de spelregels hebt overtreden."
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "account gecreëerd na %(date)s"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "je hebt niet meegedaan aan het benodigde aantal gevechten in de Willekeurige gevechtsmodus: %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "je winratio in de Willekeurige gevechtsmodus overtreft %(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "je hebt de volgende winratio niet bereikt in de Willekeurige gevechtsmodus: %(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "Registratieperiode geëindigd"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "Je kunt niet toetreden tot deze competitie als deelnemer."
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "Je hebt deze competitie verlaten"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "De resultaten van je gevechten tellen niet langer mee voor deze competitie. Je zult niet worden geplaatst in de beoordeling en je zult geen beloning verdienen.\nJe kunt deze competitie niet opnieuw betreden."
+
+msgid "status/cantJoin/reason/many"
+msgstr "vereisten niet voldaan %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "vereisten niet voldaan (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "Je bent niet geplaatst in de beoordeling"
+
+msgid "status/cantJoin/reason/special"
+msgstr "Je kunt met dit account niet deelnemen aan de competitie."
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "geen geschikte voertuigen"
+
+msgid "status/participate/cantJoin"
+msgstr "Competitie onbeschikbaar"
+
+msgid "status/participate/needMoreBattles"
+msgstr "Voldoe aan de gespecificeerde vereisten in gevechten en je resultaten zullen hier worden weergegeven nadat de beoordelingen zijn geüpdatet."
+
+msgid "status/participate/notParticipated"
+msgstr "Je hebt niet deelgenomen aan deze beoordeling"
+
+msgid "summary/averagedamage"
+msgstr "Gemiddelde schade"
+
+msgid "summary/averagedamageassisted"
+msgstr "Gemiddelde schade door jouw hulp"
+
+msgid "summary/averagexp"
+msgstr "Gemiddelde ervaring"
+
+msgid "summary/battles"
+msgstr "Gevechten in competitie"
+
+msgid "summary/damage"
+msgstr "Beschadig"
+
+msgid "summary/damageassist"
+msgstr "Schade door jouw hulp"
+
+msgid "summary/damageblocked"
+msgstr "Geblokkeerde schade"
+
+msgid "summary/description/awards/title/award"
+msgstr "BELONING AAN HET EINDE VAN DE COMPETITIE"
+
+msgid "summary/description/awards/title/group"
+msgstr "GROEP"
+
+msgid "summary/description/awards/title/position"
+msgstr "POSITIE"
+
+msgid "summary/description/max/class"
+msgstr "Je hebt je beste gevecht gestreden in de %(value)s"
+
+msgid "summary/description/max/level"
+msgstr "Je hebt je beste gevecht gestreden in een niveau %(value)s voertuig"
+
+msgid "summary/description/max/nation"
+msgstr "Je hebt je beste gevecht gestreden in een voertuig van de volgende natie: %(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "Je hebt je beste gevecht gestreden in de %(value)s"
+
+msgid "summary/description/sum/class"
+msgstr "Jouw statistieken in de competitie in de %(value)s"
+
+msgid "summary/description/sum/level"
+msgstr "Jouw statistieken in de competitie in niveau %(value)s voertuigen"
+
+msgid "summary/description/sum/nation"
+msgstr "Jouw statistieken in de competitie in voertuigen van de volgende natie: %(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "Jouw statistieken in de competitie in het volgende voertuig: %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "Jouw beste reeks gevechten in de %(value)s"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "Jouw beste reeks gevechten in niveau %(value)s voertuigen"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "Jouw beste reeks gevechten in voertuigen van de volgende natie: %(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "Jouw beste reeks gevechten in de %(value)s"
+
+msgid "summary/description/sumN/class"
+msgstr "Jouw beste gevechten in de %(value)s"
+
+msgid "summary/description/sumN/level"
+msgstr "Jouw beste gevechten in niveau %(value)s voertuigen"
+
+msgid "summary/description/sumN/nation"
+msgstr "Jouw beste gevechten in voertuigen van de volgende natie: %(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "Jouw beste gevechten in de %(value)s"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "Jouw beste serie gevechten in de %(value)s"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "Jouw beste serie gevechten in niveau %(value)s voertuigen"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "Jouw beste serie gevechten in voertuigen van de volgende natie: %(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "Jouw beste serie gevechten in de %(value)s"
+
+msgid "summary/destroyedvehicles"
+msgstr "Vijandelijke voertuigen vernietigd"
+
+msgid "summary/fightInSquaad"
+msgstr "Gevecht in peloton"
+
+msgid "summary/fightNotInSquaad"
+msgstr "Gevecht niet in peloton"
+
+msgid "summary/originalXP"
+msgstr "Basiservaring"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "Schade veroorzaakt met hulp van de speler"
+
+msgid "summary/param/max/damageDealt"
+msgstr "Beschadig"
+
+msgid "summary/param/max/originalXP"
+msgstr "Basiservaring"
+
+msgid "summary/param/max/xp"
+msgstr "Ervaring"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "Gemiddelde veroorzaakte schade met hulp van speler"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "Gemiddelde schade"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "Gemiddelde basiservaring"
+
+msgid "summary/param/sumAll/wins"
+msgstr "Overwinningen"
+
+msgid "summary/param/sumAll/xp"
+msgstr "Gemiddelde ervaring"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "Gemiddelde veroorzaakte schade met hulp van speler"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "Totale schade"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "Totale basiservaring"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "Totale ervaring"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "Totale veroorzaakte schade met hulp van speler"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "Totale schade"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "Totale basiservaring"
+
+msgid "summary/param/sumN/xp"
+msgstr "Totale ervaring"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "Gemiddelde veroorzaakte schade met hulp van speler"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "Totale schade"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "Totale basiservaring"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "Totale ervaring"
+
+msgid "summary/position"
+msgstr "Plaats in beoordeling: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "Gelijkspel"
+
+msgid "summary/result/loss"
+msgstr "Verloren"
+
+msgid "summary/result/win"
+msgstr "Overwinning"
+
+msgid "summary/status"
+msgstr "Geüpdatet op %(day)s om %(time)s"
+
+msgid "summary/winrate"
+msgstr "Overwinningen"
+
+msgid "table/header/player"
+msgstr "Speler"
+
+msgid "table/header/position"
+msgstr "Nr."
+
+msgid "table/selectParticipateBtn"
+msgstr "Competitie verlaten"
+
+msgid "table/selectRatingBtn"
+msgstr "Beoordelingslijst"
+
+msgid "table/selectRegistrationBtn"
+msgstr "Betreden als deelnemer"
+
+msgid "table/stripe/bronze/title"
+msgstr "Groep III (plaatsen %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/gold/title"
+msgstr "Groep I (plaatsen %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "Groep I"
+
+msgid "table/stripe/iron/title"
+msgstr "Groep IV (plaatsen %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/silver/title"
+msgstr "Groep II (plaatsen %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/wood/title"
+msgstr "Onbeloonde plaatsen"
+
+msgid "task/eventtype/all"
+msgstr "Standaard beoordeling voor alle deelnemers"
+
+msgid "task/eventtype/class"
+msgstr "Elk voertuigtype heeft zijn eigen beoordeling"
+
+msgid "task/eventtype/level"
+msgstr "Elk voertuigniveau heeft zijn eigen beoordeling"
+
+msgid "task/eventtype/nation"
+msgstr "Elke voertuignatie heeft zijn eigen beoordeling"
+
+msgid "task/eventtype/vehicle"
+msgstr "Elk voertuig heeft zijn eigen beoordeling"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "Word geplaatst in de beoordeling op basis van veroorzaakte schade door jouw hulp"
+
+msgid "task/objective/max/damageDealt"
+msgstr "Word geplaatst in de beoordeling op basis van veroorzaakte schade"
+
+msgid "task/objective/max/originalXP"
+msgstr "Word geplaatst in de beoordeling op basis van verdiende basiservaring"
+
+msgid "task/objective/max/xp"
+msgstr "Word geplaatst in de beoordeling op basis van verdiende ervaring"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "Word geplaatst in de beoordeling op basis van totaal veroorzaakte schade door jouw hulp"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "Word geplaatst in de beoordeling op basis van totaal veroorzaakte schade"
+
+msgid "task/objective/sum/originalXP"
+msgstr "Word geplaatst in de beoordeling op basis van totaal verdiende basiservaring"
+
+msgid "task/objective/sum/wins"
+msgstr "Word geplaatst in de beoordeling op basis van aantal overwinningen"
+
+msgid "task/objective/sum/xp"
+msgstr "Word geplaatst in de beoordeling op basis van totaal verdiende ervaring"
+
+msgid "task/objparam/damageAssisted"
+msgstr "schade veroorzaakt door jouw hulp"
+
+msgid "task/objparam/damageDealt"
+msgstr "schade veroorzaakt"
+
+msgid "task/objparam/originalXP"
+msgstr "basiservaring verdiend"
+
+msgid "task/objparam/wins"
+msgstr "aantal overwinningen"
+
+msgid "task/objparam/xp"
+msgstr "ervaring"
+
+msgid "task/selection/max"
+msgstr "Je beste gevecht wordt meegeteld"
+
+msgid "task/selection/sumAll"
+msgstr "Al je gevechten worden meegeteld"
+
+msgid "task/selection/sumMSeqN"
+msgstr "Beste (%(cardinality)s) gevechten in de reeks tellen mee. Gevechten in de reeks: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "Je beste gevechten worden meegeteld: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "Je beste serie gevechten wordt meegeteld. Gevechten in de serie: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "vandaag"
+
+msgid "time/day/tomorrow"
+msgstr "morgen"
+
+msgid "time/day/yesterday"
+msgstr "gisteren"
+
+msgid "time/eventFinished"
+msgstr "Competitie geëindigd: %(date)s"
+
+msgid "time/period/day"
+msgstr "d"
+
+msgid "time/period/hour"
+msgstr "u."
+
+msgid "time/period/minute"
+msgstr "min"
+
+msgid "time/timeTo/end"
+msgstr "Eindigt over: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "Registratieperiode eindigt over: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "Start over: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "De beloning wordt toegekend aan het einde van de competitie en is afhankelijk van je plaats in de beoordeling.\nKlik Alle beloningen om de lijst met alle beloningen in de competitie te bekijken."
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "De hoeveelheid ervaring die wordt meegeteld is exclusief extra ervaring van Premiumaccount of Premium voertuigen, persoonlijke reserves, vermenigvuldigers voor de eerste overwinning van de dag, of enige andere acties."
+
+msgid "tooltip/top/amount/xp"
+msgstr "De hoeveelheid ervaring die wordt meegeteld is exclusief extra ervaring van Premium voertuigen, persoonlijke reserves, vermenigvuldigers voor de eerste overwinning van de dag, of enige andere acties.\nExtra ervaring van Premiumaccount wordt meegeteld."
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "Veroorzaakte schade met hulp van de speler door de speler op de laatste prijzenplaats: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "Veroorzaakte schade door de speler op de laatste prijzenplaats: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "Basiservaring verdiend door de speler op de laatste prijzenplaats: %(number)s.\nDe hoeveelheid ervaring die wordt meegeteld is exclusief extra ervaring van Premiumaccount of Premium voertuigen, persoonlijke reserves, vermenigvuldigers voor de eerste overwinning van de dag, of enige andere acties."
+
+msgid "tooltip/top/description/max/xp"
+msgstr "Ervaring verdiend door de speler op de laatste prijzenplaats: %(number)s.\nDe hoeveelheid ervaring die wordt meegeteld is exclusief extra ervaring van Premium voertuigen, persoonlijke reserves, vermenigvuldigers voor de eerste overwinning van de dag, of enige andere acties.\nExtra ervaring van Premiumaccount wordt meegeteld."
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "Totale veroorzaakte schade met hulp van de speler op de laatste prijzenplaats: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "Totale veroorzaakte schade door de speler op de laatste prijzenplaats: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "Totale basiservaring verdiend door de speler op de laatste prijzenplaats: %(number)s.\nDe hoeveelheid ervaring die wordt meegeteld is exclusief extra ervaring van Premiumaccount of Premium voertuigen, persoonlijke reserves, vermenigvuldigers voor de eerste overwinning van de dag, of enige andere acties."
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "Aantal overwinningen van de speler op de laatste prijzenplaats: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "Totale ervaring verdiend door de speler op de laatste prijzenplaats: %(number)s.\nDe hoeveelheid ervaring die wordt meegeteld is exclusief extra ervaring van Premium voertuigen, persoonlijke reserves, vermenigvuldigers voor de eerste overwinning van de dag, of enige andere acties.\nExtra ervaring van Premiumaccount wordt meegeteld."
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "Onbeloonde plek"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "Groep %(group)s (posities %(min)s-%(max)s)"
+
+msgid "top/averageXP"
+msgstr "Gemiddelde verdiende ervaring door de speler op de laatste prijzenplaats:"
+
+msgid "top/participation/notParticipated"
+msgstr "Je hebt niet deelgenomen aan deze beoordeling"
+
+msgid "top/participation/notfull"
+msgstr "Je hebt de beoordeling niet gered"
+
+msgid "top/participation/notintop"
+msgstr "Je bezet geen prijzenplaats"
+
+msgid "top/position"
+msgstr "Jouw positie:"
+
+msgid "top/reason/notfull"
+msgstr "Neem deel aan meer gevechten om in de beoordeling te worden geplaatst:"
+
+msgid "vehicles/level"
+msgstr "Niveau %(level)s voertuigen"
+
+msgid "vehicles/tooltip/class"
+msgstr "Klik om voertuigen van dit type te tonen die deelnemen aan de competitie."
+
+msgid "vehicles/tooltip/level"
+msgstr "Klik om voertuigen van dit niveau te tonen die deelnemen aan de competitie."
+
+msgid "vehicles/tooltip/nation"
+msgstr "Klik om voertuigen van deze natie te tonen die deelnemen aan de competitie."
+
+msgid "vehicles/vehicle"
+msgstr "Voertuigen in competitie"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "Klik om de lijst van voertuigen te tonen die toegestaan zijn in de competitie."

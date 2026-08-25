@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Galvenais bruņojums"
+
+msgid "armorValues/title/no_damage"
+msgstr "Nav bojājumu"
+
+msgid "armorValues/title/other"
+msgstr "Citi"
+
+msgid "armorValues/title/penetration"
+msgstr "Caursišanas iespēja"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Rikošets"
+
+msgid "armorValues/title/spaced"
+msgstr "Izvietotas bruņas"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Uzbrucēja konfigurācija"
+
+msgid "attackerTooltip/body"
+msgstr "Noklikšķiniet, lai mainītu uzbrūkošo tanku"
+
+msgid "attackerTooltip/header"
+msgstr "Uzbrūkošais tehnks"
+
+msgid "menu/header"
+msgstr "Pārklājuma veids"
+
+msgid "menu/no_armor"
+msgstr "Nav pārklājuma"
+
+msgid "menu/nominal"
+msgstr "Nominālās bruņas"
+
+msgid "menu/penetration"
+msgstr "Caursišanas iespēja"
+
+msgid "modules/current"
+msgstr "Pašreizējā konfigurācija"
+
+msgid "modules/custom"
+msgstr "Pielāgota konfigurācija"
+
+msgid "modules/standard"
+msgstr "Standarta konfigurācija"
+
+msgid "modules/title"
+msgstr "Tanka ierīces"
+
+msgid "modules/top"
+msgstr "Augstākā konfigurācija"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Šasija"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Lielgabals"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Lielgabala Maska"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Korpuss"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Ekrāns"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Novērošanas Rīki"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Tornis"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Riteņi"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Nav bojājumu"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Cauršaušana"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}%"
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Rikošets"
+
+msgid "tooltip/minor/angle/description"
+msgstr "Leņķis starp šāviņa trajektoriju un līniju, kas ir perpendikulāra bruņu plāksnei.\n\n Šāviņa trajektorija tiek aprēķināta tā, it kā šāviņš pārvietotos taisnā līnijā no ekrāna centra."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Trāpījuma leņķis"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Iespēja caursist ienaidnieka bruņas un nodarīt bojājumus tankam."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Caursišanas iespēja"
+
+msgid "tooltip/minor/effective/description"
+msgstr "Vienai bruņu kārtai efektīvās bruņas ir nominālās bruņas, kas koriģētas atbilstoši trieciena leņķim un šāviņa normalizācijai.\n\n Ja trieciena punktā ir vairākas bruņu kārtas, rezultāts ir katras kārtas efektīvo vērtību summa."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Efektīvās bruņas"
+
+msgid "tooltip/minor/header"
+msgstr "Leģenda"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Trāpījums izvietotajās bruņās nenodara bojājumus tankam, ja vien šāviņš pēc tam netrāpa un necaursit galvenās bruņas."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Nav bojājumu"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Galveno vai izvietoto bruņu plākšņu faktiskā biezuma vērtība."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Nominālās bruņas"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Čaulas, kas trāpa ienaidnieka bruņām slīpā leņķī, atleks no tām. Tomēr tās var joprojām trāpīt citam tankam vai pat tam pašam."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Rikošets"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Ietekmē efektīvā bruņu un caursišanas iespējas aprēķinus.\n\nVisiem aprēķiniem tiek izmantots 100 m attālums (AP un APCR šāviņi zaudē caursišanas spēju attālumā).\n\nEkipāžas prasmju un uzbrūkošā tanka uzlabojumi neietekmē aprēķinus."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Uzbrucēja konfigurācija"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Iespēja caursist pretinieka bruņas un nodarīt bojājumus tankam.\n\nTrāpījums izvietotajās bruņās nenodara bojājumus tankam, ja vien šāviņš pēc tam netrāpa un necaursit galvenās bruņas."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Caursišanas iespēja"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Tanks tiek bojāts tikai tad, ja tiek trāpīts un caursists tā galvenais bruņojums. HE šāviņi var izraisīt samazinātus bojājumus tankam pat bez caursišanas; tomēr tiem joprojām ir jāsasniedz galvenais bruņojums."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Galvenais bruņojums"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Trāpījums izvietotajās bruņās nenodara bojājumus tankam, ja vien šāviņš pēc tam netrāpa un necaursit galvenās bruņas.\n\nĀrējo moduļu trāpījumi un caursišana bojā šos moduļus tieši: trāpi kāpurķēdei, lai imobilizētu tanku, trāpi lielgabalam, lai to sabojātu, vai trāpi novērošanas ierīcei, lai samazinātu tanka redzamības rādiusu."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Nav bojājumu"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "Bruņu caursitēju un APCR šāviņu rikošeta leņķis ir 70 grādi, bet HEAT šāviņiem - 85 grādi.\n\n HE šāviņi nerikošetē, savukārt AP un APCR šāviņi zaudē 25% no savas caursitējspējas pēc rikošeta.\n\n Rikošets nenotiks, ja šāviņa kalibrs ir lielāks par trīskāršu nominālo bruņu biezumu trieciena punktā (tas attiecas tikai uz AP un APCR šāviņiem)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Rikošets"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr " Trāpījums izvietotajās bruņās nenodara bojājumus tankam, ja vien šāviņš pēc tam netrāpa un necaursit galvenās bruņas.\n\nĀrējo moduļu trāpījumi un caursišana bojā šos moduļus tieši: trāpi kāpurķēdei, lai imobilizētu tanku, trāpi lielgabalam, lai to sabojātu, vai trāpi novērošanas ierīcei, lai samazinātu tanka redzamības rādiusu.\n\nTrāpījuma leņķis uz ārējiem moduļiem (piemēram, kāpurķēdēm un lielgabalu) neattiecas—šeit efektīvā bruņa ir vienāda ar nominālo bruņu."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Izvietotas bruņas"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Noskaties video par bruņu caursišanas mehāniku."

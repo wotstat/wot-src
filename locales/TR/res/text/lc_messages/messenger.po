@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Çevirmeni <<noreply@wargaming.net>\nLanguage-Team: WoT Takımı <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "Yeni mesajları göster"
+
+msgid "battle/history/header"
+msgstr "Düşman"
+
+msgid "battle/history/latestMessage"
+msgstr "Son mesajı göster"
+
+msgid "battle/history/title"
+msgstr "Sohbet Tarihçesi:"
+
+msgid "battle/history/upMessage"
+msgstr "Eski mesajları göster"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)sSOHBET KAPALI%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "Savaş sohbeti ülkenizden oyunculara açık değil."
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "Savaş sohbeti hesabınız için açık değil."
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "Savaş sohbeti ebeveyn kontrolleri tarafından yasaklı."
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "Savaş sohbeti oyun ayarlarından etkinleştirilebilir."
+
+msgid "battle/receivers/common"
+msgstr "HERKESE"
+
+msgid "battle/receivers/squad"
+msgstr "MÜFREZEYE"
+
+msgid "battle/receivers/team"
+msgstr "TAKIMA"
+
+msgid "battle/toolTips/cancel"
+msgstr "iptal"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "alıcıyı değiştir"
+
+msgid "battle/toolTips/default"
+msgstr "önceki alıcıyla"
+
+msgid "battle/toolTips/duringChat"
+msgstr "Sohbet sırasında:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "Seçili oyuncudan mesajları oyuncunun sohbetteki mesajı yakınındaki tuşa tıklayarak engelleyebilirsiniz."
+
+msgid "battle/toolTips/send"
+msgstr "gönder"
+
+msgid "battle/toolTips/startChat"
+msgstr "Sohbeti başlat:"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "Bir mesajı üzerine tıklayarak ve şikayet gerekçesini seçerek raporlayabilirsiniz. Bu seçenek size sohbeti engelleme veya sohbeti sadece müttefiklere sınırlama seçeneği sağlar. Takım sohbeti her zaman geçerli olacaktır."
+
+msgid "battle/toolTips/usingChat"
+msgstr "Sohbet"
+
+msgid "battle/toolTips/withSquad"
+msgstr "takımınızla"
+
+msgid "battle/unknown/ally"
+msgstr "Dost"
+
+msgid "battle/unknown/enemy"
+msgstr "Düşman"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "Sunucudan %(curfewTime)s itibarıyla çıkarılacaksınız. Oturum %(timeLeft)s dk. içinde sona erecek."
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "Günlük oynama sürenizin sınırına ulaştınız. Oturumunuz %(timeLeft)s dk. içinde sona erecek."
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "Haftalık oynama sürenizin sınırına ulaştınız. Oturumunuz %(timeLeft)s dk. içinde sona erecek."
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "Oynama süresi sınırına ulaştınız. Oturumunuz %(timeLeft)s dk. içinde bitecek."
+
+msgid "chat/personalMessage/warningBody"
+msgstr "Tanımadığınız oyunculardan gelen mesajlar kötü niyetli linkler içerebilir. Linkleri takip etmeyin ve şifrenizi kimseyle paylaşmayın."
+
+msgid "chat/personalMessage/warningHead"
+msgstr "Dikkat!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "Savaş sonuçları"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "%(playerName)s oyuncusundan mesajlar engellendi."
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "Mesaj gönder"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "Mesaj gönder"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "Oyuncu ara"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "Sesli sohbet ayarları"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "kendinizi yasaklayamazsınız."
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "\"%(actionName)s\" yürütmede hata."
+
+msgid "chat_error/IS_BUSY"
+msgstr "Sunucu meşgul."
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "işlemi gerçekleştirmek için yetersiz yetki."
+
+msgid "chat_error/NOT_READY"
+msgstr "\"%(actionName)s\" işlemi yapılamıyor."
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "kullanıcı yok."
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "geçersiz parametre."
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "Sesli sohbet devre dışı. Takım arkadaşlarınız ile iletişim kurmak için %(keyName)s tuşuna basarak sesli sohbeti etkinleştirin."
+
+msgid "client/COMP7/disableVOIP"
+msgstr "Sesli sohbet devre dışı. Takım üyeleriniz ile iletişim kurmak için sesli sohbeti etkinleştirin (%(keyName)s)."
+
+msgid "client/commendations/comms_mutual"
+msgstr "Siz ve %(player)s birbirinizi takdir ettiniz."
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)s sizi takdir etti."
+
+msgid "client/commendations/comms_sent"
+msgstr "%(player)s takdir edildi."
+
+msgid "client/dynSquad/created/allies"
+msgstr "Müttefikleriniz Dinamik Takım %(squadNum)s'ı oluşturdu."
+
+msgid "client/dynSquad/created/enemies"
+msgstr "Düşman ekibi Takım %(squadNum)s'ı oluşturdu."
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "Takım %(squadNum)s oluşturuldu. Takım sohbeti ve sesli sohbet artık kullanılabilir. Sesli sohbeti devre dışı bırakmak için %(keyName)s'e basın."
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "Takım %(squadNum)s oluşturuldu. Takım sohbeti ve sesli sohbet artık kullanılabilir. Sesli sohbeti açmak için %(keyName)s'e basın."
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "%(squadNum)s Takımı oluşturuldu. Takım sohbeti ve sesli sohbet artık açık. Sesli sohbeti açma/kapama için bir tuş atayın."
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "Takım %(squadNum)s oluşturuldu. Artık Takım sohbeti etkin."
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "%(squadNum)s Takımına katıldınız. Takım sohbeti ve sesli sohbet artık kullanılabilir. Sesli sohbeti devre dışı bırakmak için %(keyName)s'e basın."
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "%(squadNum)s Takımına katıldınız. Takım sohbeti ve sesli sohbet artık kullanılabilir. Sesli sohbeti etkinleştirmek için %(keyName)s'e basın."
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "%(squadNum)s Takımına katıldınız. Takım sohbeti ve sesli sohbet artık açık. Sesli sohbeti açma/kapama için bir tuş atayın."
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "%(squadNum)s Takımına katıldınız. Artık Takım sohbeti etkin."
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "Sesli sohbet devre dışı. Takım üyeleriniz ile iletişim kurmak için %(keyName)s'e basarak sesli sohbeti etkinleştirin."
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "Sesli sohbet etkinleşti."
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "%(squadNum)s Takımına katıldınız. Takım sohbeti ve sesli sohbet artık kullanılabilir. Sesli sohbeti devre dışı bırakmak için %(keyName)s'e basın."
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "%(squadNum)s Takımına katıldınız. Takım sohbeti ve sesli sohbet artık kullanılabilir. Sesli sohbeti etkinleştirmek için %(keyName)s'e basın."
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "%(squadNum)s Takımına katıldınız. Takım sohbeti ve sesli sohbet artık açık. Sesli sohbeti açma/kapama için bir tuş atayın."
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "%(squadNum)s Takımına katıldınız. Artık Takım sohbeti etkin."
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s %(squadNum)s Takımına katıldı."
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s sizi Takıma davet etti."
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)s sizi Takıma davet etti.\nDikkat! Gerçek rumuzunuz ve klan etiketiniz Takım üyelerine gösterilecek."
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s Takıma davet edildi."
+
+msgid "client/error/broadcastInCooldown"
+msgstr "%s saniyeliğine mesaj göndermeniz durduruldu."
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "\"%s\" komutu %s saniyeliğine durduruldu."
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "%s komutu geçici olarak durduruldu."
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "Mesaj donduruldu. Lütfen %s sn. bekleyin."
+
+msgid "client/information/addToFriends/message"
+msgstr "%s oyuncusunu Arkadaşlar listenize ekleme talebi kaydedildi."
+
+msgid "client/information/addToIgnored/message"
+msgstr "%s oyuncusunu Kara Listenize ekleme talebiniz kaydedildi. Oyuncu ile sohbet engellendi ve oyuncunun mesajları gizlendi."
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "%s ile sohbet engellendi; oyuncunun mesajları gizlendi."
+
+msgid "client/information/emptySearchResult/message"
+msgstr "Hiçbir sonuç bulunamadı."
+
+msgid "client/information/removeFromFriends/message"
+msgstr "%s oyuncusunu Arkadaşlar listenizden çıkarma talebi kaydedildi."
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "%s oyuncusunu Kara Listenizden çıkarma talebiniz kaydedildi. Oyuncu ile sohbet imkanı tam olarak geri getirildi."
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "%s ile sohbet yeniden geçerli."
+
+msgid "client/information/setMuted/message"
+msgstr "%s kullanıcısının size sesli mesaj göndermesine izin verilmiyor."
+
+msgid "client/information/unsetMuted/message"
+msgstr "%s size sesli mesaj gönderebilir."
+
+msgid "client/warning/AFKWarning/message"
+msgstr "Faaliyetsizlik cezalandırılacaktır!\nZafer için ekip çalışması gerekiyor!"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "Boş sorgu"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "Kullanıcı Ara"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "Arama alanında hatalı uzunluk ya da geçersiz karakter. Geçerli karakter sayısı %d ile %d arasıdır."
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "Kullanıcı Ara"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "Oyuncuyu Arkadaş listesine ekle"
+
+msgid "client_action/ADD_GROUP"
+msgstr "Grup oluştur"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "Oyuncuyu Kara Listeye ekle"
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "Arkadaşlık isteğini onayla"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "Arkadaşlık isteğini reddet"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "Grubu düzenle"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "Oyuncu kanalı oluşturun"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "Oyuncu arama"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "Oyuncu kanalına bağlanın"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "Oyuncu kanalından çıkın"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "Oyuncuyu Arkadaş listesinden çıkar"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "Oyuncuyu Kara Listenden çıkar"
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "Notu sil"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "Arkadaşlık isteği gönder"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "Önceki mesajlara bakın"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "Oyuncu kanallarını ara"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "Mesaj gönder"
+
+msgid "client_action/SET_MUTE"
+msgstr "Sesli mesajları devre dışı bırak"
+
+msgid "client_action/SET_NOTE"
+msgstr "Not yarat/düzenle"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "Sesli mesajları devreye al"
+
+msgid "client_error/action/in_cooldown"
+msgstr "\"%(actionName)s\" işlemi %(floatArg1)s s için donduruldu."
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "\"%(actionName)s\" işlemi geçici olarak kullanılamıyor. Daha sonra tekrar deneyin."
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "Maksimum izin verilen kanal sayısını aştınız. Lütfen gerekli olmayan kanalları kapatın ve tekrar deneyin."
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "\"%(strArg1)s\" kanalı zaten var."
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "Kanal ismi belirtilmedi."
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "Geçersiz kanal ismi \"%(strArg1)s\"."
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "Şifre onayı girilen şifre ile eşleşmiyor."
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "Kanal şifresi belirtilmedi."
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "Geçersiz kanal şifresi."
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "Şifre onayı belirtilmedi."
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "Geçersiz şifre onayı."
+
+msgid "client_error/command/generic_error"
+msgstr "\"%(strArg1)s\" komutunu çalıştırırken hata."
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "komut %(floatArg1)s için donduruldu."
+
+msgid "client_error/command/not_supported"
+msgstr "%(strArg1)s komutu istemci tarafından desteklenmiyor."
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "geçersiz yasaklama süresi %(int64Arg1)s."
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "geçersiz yasaklama türü %(int32Arg1)s."
+
+msgid "client_error/command/wrong_player_name"
+msgstr "geçersiz oyuncu ismi %(strArg1)s."
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "\"%(strArg1)s\" oyuncusu Kara Listenizde"
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "Player \"%(strArg1)s\" Kara Listenizde değil."
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "Oyuncu bulunamadı."
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "\"%(strArg1)s\"'den arkadaşlık isteğini daha önce onayladınız."
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "\"%(strArg1)s\"'den arkadaşlık isteğini daha önce reddettiniz."
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "\"%(strArg1)s\"'den arkadaşlık isteğine cevabınız işleniyor."
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "Grup ismi belirtilmedi."
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "\"%(strArg1)s\" grubu zaten var."
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "Geçersiz grup ismi \"%(strArg1)s\""
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "\"%(strArg1)s\" grubu bulunamadı."
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "\"%(strArg1)s\" oyuncusu için sesli mesajlar devreye alındı."
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "Not yazısı belirtilmedi."
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "\"%(strArg1)s\" oyuncusu için hiç not yok"
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "\"%(strArg1)s\" oyuncusu arkadaşınız."
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "\"%(strArg1)s\" oyuncusu Arkadaş listenizde bulunamadı."
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "Kanal ismi %(int32Arg1)s-%(int32Arg2)s karakter içermelidir."
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "Grup ismi %(int32Arg2)s sembolü geçmemelidir."
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "Kara Listedeki maksimum oyuncu sayısı %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "Yaratılan maksimum grup sayısı %(int32Arg2)s."
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "Maalesef, Arkadaş listenizde %(int32Arg2)s oyuncudan fazla bulunduramazsınız. Beraber oynamadığınız oyuncuları çıkarın."
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "Nottaki yazı %(int32Arg2)s sembolü geçmemelidir."
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "Şifre %(int32Arg1)s-%(int32Arg2)s karakter içermelidir."
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "Geçersiz oyuncu ID"
+
+msgid "client_error/shared/GENERIC"
+msgstr "\"%(actionName)s\" uygulanırken hata"
+
+msgid "client_error/shared/LOCKED"
+msgstr "\"%(actionName)s\" işlemi geçici olarak devre dışı. Daha sonra tekrar deneyin."
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "Oyuncu ismi belirtilmedi."
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "Geçersiz oyuncu ismi %(strArg1)s"
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "Sohbet sunucusuna bağlanılamıyor. Daha sonra tekrar deneyin."
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "\"%(actionName)s\" işlemi oyun istemcisi tarafından desteklenmiyor."
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "Bir hata oluştu, daha sonra tekrar deneyin."
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "Bazı özellikler gerisayım başlayana kadar devre dışıdır."
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "Geçersiz veri belirtildi."
+
+msgid "command/acceptInvite"
+msgstr "Daveti kabul et"
+
+msgid "command/addFriend"
+msgstr "Oyuncuyu Arkadaş listesine ekle"
+
+msgid "command/addIgnored"
+msgstr "Oyuncuyu Kara Listene ekle"
+
+msgid "command/broadcast"
+msgstr "Mesaj gönder"
+
+msgid "command/createChatChannel"
+msgstr "Kanal oluştur"
+
+msgid "command/createInvite"
+msgstr "Davet oluştur"
+
+msgid "command/createPrivate"
+msgstr "Özel kanal oluştur"
+
+msgid "command/findChatChannels"
+msgstr "Kanalları ara"
+
+msgid "command/findUser"
+msgstr "Oyuncuları ara"
+
+msgid "command/getActiveInvites"
+msgstr "Davet listesi al"
+
+msgid "command/getArchiveInvites"
+msgstr "Arşivlenmiş davet listesi al"
+
+msgid "command/getMembersCount"
+msgstr "Kanaldaki oyuncu sayısını al"
+
+msgid "command/leaveChatChannel"
+msgstr "Kanaldan çık"
+
+msgid "command/rejectInvite"
+msgstr "Daveti geri çevir"
+
+msgid "command/removeFriend"
+msgstr "Bu oyuncuyu Arkadaş listesinden çıkar"
+
+msgid "command/removeIgnored"
+msgstr "Oyuncuyu Kara Listenden çıkar"
+
+msgid "command/requestChatChannelMembers"
+msgstr "Klan üyelerinin listesini al"
+
+msgid "command/requestSystemChatChannels"
+msgstr "Sistem kanallarının listesini al"
+
+msgid "command/setMuted"
+msgstr "Ses mesajlarını devre dışı bırak"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s yasaklandı."
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s artık yasaklı değil."
+
+msgid "command/unsetMuted"
+msgstr "Ses mesajlarını devreye al"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "Yaratılan tanıdık grubunu kaydetmek için tıklayın."
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "Oluştur"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "Yaratmayı iptal edip Tanıdıklar listenize geri dönmek için tıklayın."
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "Kapat"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "Tanıdıklar grubunuzu silmek için tıklayın."
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "Sil"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "Silmeyi iptal edip Tanıdıklar listenize geri dönmek için tıklayın."
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "İptal"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "Tanıdıklar grubunuzu yeni bir isimde kaydetmek için tıklayın."
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "Kaydet"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "Düzenlemeyi iptal edip Tanıdıklar listenize geri dönmek için tıklayın."
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "Kapat"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "İsim %(maxChars)s sembolü aşmamalıdır."
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "Bir oyuncuyu Arkadaşlar listenize eklemek için tıklayın."
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "Ekle"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "Oyuncuyu aramayı iptal edip Tanıdıklar listenize geri dönmek için tıklayın."
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "Kapat"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "Oyuncuyu ismiyle aramak için tıklayın."
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "Ara"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "İsim %(minChars)s - %(maxChars)s arası harf veya rakam içermelidir."
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "Çok sık sorgulama yaptığınızdan arama %(time)s için donduruldu."
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "Seçili ayarları kaydetmek için tıklayın."
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "Uygula"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "Değişiklikleri iptal edip Tanıdıklar listenize geri dönmek için tıklayın."
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "İptal"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "Grup yaratmak için tıklayın."
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "Grup Yarat"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "Tanıdıklar listenizde olmayan bir oyuncuyu ismi ile aramak için tıklayın."
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "Tanıdık Listesi Dışında Ara"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "Oyuncu bulup Tanıdıklar listenize eklemek için tıklayın."
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "Oyuncu Ara"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "Tanıdıklar listesi ayarlarını değiştirmek için tıklayın."
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "Ayarlar"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "İsim %(maxChars)s'a kadar harf içermelidir."
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "Emir gönder"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "Ekipten çıkar"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "Kapat"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "Kanal oluştur"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "Ara ve Katıl"
+
+msgid "dialogs/channels/title"
+msgstr "Kanallar"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "Kapat"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "Katıl"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "Şifrede en az 3, en fazla 12 karakter bulunmalıdır."
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "Hatalı şifre"
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "%s güvenli kanalına bağlanmaya çalışıyorsunuz."
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "Şifreyi gir:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "Uyarı"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "Kanala bağlan"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "Klana Davet Et"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "Arkadaş listesine ekle"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "Kara Listeye ekle"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "Kopyala"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "Özel kanal oluştur"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "Altın Transferi"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "Arkadaş Listesinden"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "Kara Listeden çıkar"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "Detayı göster"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "İsme göre sırala."
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "Statüye göre sırala."
+
+msgid "dialogs/contacts/title"
+msgstr "Arkadaş Listesi"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "Klan"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "Arkadaşlar"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "Arkadaşlık talepleri"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "Kara Liste"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "Sesli iletişim kapatıldı"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "Kapat"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "Oluştur"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "Otomatik olarak oluşturulur"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "Şifreyi gir"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "Kanal adı"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "Şifre"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "Şifrenizi onaylayın"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "Şifre gerekmektedir"
+
+msgid "dialogs/createChannel/title"
+msgstr "Kanal oluştur"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "%(vehName)s seçin"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "Seviye %(level)s araç seçin"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "Araç seçin"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "Seviye %(level)s araç seçin"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "Araç: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "Kapat"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "Katıl"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "Ara"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "Arama sonuçları (ilk %d):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "Ara"
+
+msgid "dialogs/searchChannel/title"
+msgstr "Arama Kanalı"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "Arkadaş ekle"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "Kara Liste"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "Kapat"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "Ara"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "Kullanıcı bilgileri"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "Arama sonuçları:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "Ara"
+
+msgid "dialogs/searchContact/title"
+msgstr "Arkadaş Ara"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "Servis Kanalı"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "Bir Seviye VIII araç seçin"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "Ana hedef ayakta kalan son Takım olmaktır."
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "Ön Cephe kipi sadece Seviye VIII\n araçlar için geçerlidir."
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ etkinlik +++\n+++ etkinlik +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "Seviye IV veya üzeri araçlar için\nsavaş başına ek deneyim"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "Seviye IV'den başlayarak aynı seviyede\naraçlarda oynayın ve ek deneyim kazanın"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "Oyuncular davetiyeyi kabul ettiğinde gerçek rumuzunuz ve klan etiketiniz savaş süresi boyunca onlara gösterilecek."
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "Sohbet Kanalı"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "Araçlarda takılı deneysel parçalar: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "Statü: Ara veriliyor"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "Statü: Savaşta"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "Statü: Hazır değil"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "Statü: Çevrimdışı"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "Statü: Hazır"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "Dağıt"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "Davet Et"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "suçlu"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "şüpheli"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "Müttefik Öldürme: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "Ses mesajlarını devre dışı bırak"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "Arkadaşlara Ekle"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "Kara Listeye ekle"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "Kapat"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "Özel kanal oluştur"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "Sesli mesaja izin ver"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "Toplam"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "Oluşturulan"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "Son Savaş"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "Statü:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s - Oyuncu Bilgileri"
+
+msgid "events/enterChannel"
+msgstr "[%s] kanala katıldı"
+
+msgid "events/leaveChannel"
+msgstr "[%s] kanaldan ayrıldı"
+
+msgid "keyboardChat"
+msgstr "Sohbet"
+
+msgid "listView/emptyList/info"
+msgstr "bildirimler"
+
+msgid "listView/emptyList/invite"
+msgstr "davetler"
+
+msgid "listView/emptyList/offer"
+msgstr "teklifler"
+
+msgid "listView/emptyList/template"
+msgstr "Henüz hiç %(listType)s yok."
+
+msgid "listView/news/checkNewsBtn"
+msgstr "Haberlere Git"
+
+msgid "listView/news/header"
+msgstr "YENİLİKLER NELER?"
+
+msgid "listView/title"
+msgstr "Bildirim Merkezi"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "Savaş Süresi: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "Gönder"
+
+msgid "lobby/buttons/channels"
+msgstr "Kanallar"
+
+msgid "lobby/buttons/contacts"
+msgstr "Arkadaşlar"
+
+msgid "lobby/buttons/send"
+msgstr "Yolla"
+
+msgid "lobby/channels/actions/remove"
+msgstr "Kanalı Kapat"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "Mesajlarda tarihi göster"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "Mesajlarda zamanı göster"
+
+msgid "lobby/faq/close"
+msgstr "Kapat"
+
+msgid "lobby/faq/title"
+msgstr "SSS"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "Bu oyuncuyu Arkadaşlar'a ekle"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "Bu oyuncuyu Kara Listeye ekle"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "Kopyala"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "Özel kanal oluştur"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "Oyuncu bilgilerini göster"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "Tanıdık Listesi Dışında Ara"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "İptal"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "Grubu düzenle"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "Gruptan sil"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "Grubu sil"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "Yaratmayı iptal etmek için tıkla ve Tanıdıklar listesine geri dön."
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "Kapat"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "Yaratılan oyucunun notunu kaydetmek için tıkla."
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "Oluştur"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "Tanıdıkları buraya çekin"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "Düzenlemeyi iptal etmek için tıkla ve Tanıdıklar listesine geri dön."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "Kapat"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "Oyuncunun notuna yapılan düzenlemeleri kaydetmek için tıkla."
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "Kaydet"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "Aramanıza uyan bir şey bulunamadı."
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "Kalıcı taktik birimler"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "Arkadaşlar"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "Diğer"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "Kara Liste"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "Arkadaşlık istekleri"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "Listede oyuncu bul"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "Henüz hiç oyuncu eklenmedi."
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "Tanıdıklar Listesi Boş"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "Hiçbir tanıdık şu anda çevrimiçi değil"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "Tanıdıklar listesi dışında aramayı deneyin."
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "Hiç Eş Yok"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "Oyuncunun ismini girin"
+
+msgid "messenger/contacts/title"
+msgstr "Tanıdıklar"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "Kapat"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "Ekle"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "Grup zaten var"
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "Oyuncu Arama"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "Kapat"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "Oluştur"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "Not yarat"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "Kapat"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "Kaydet"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "İsim %(maxChars)s sembolu aşmamalı."
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "Notu düzenle"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "için "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "Kapat"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "Oluştur"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "Grup Yarat"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "Bir isim girin (%(symbols)s sembole kadar)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "Grubun içindeki tanıdıkları dahil ederek"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "İptal"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "Sil"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "Grubu sil"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "Kapat"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "Kaydet"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "Grup düzenle"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "Bir isim girin (%(symbols)s sembole kadar)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "Açıklama gir (%(symbols)s sembole kadar)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "Açıklama %(maxChars)s sembolü geçmemeli."
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "Oyuncu Arama"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "Bir pencerede grup olarak kabul et"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "Çevrimdışı oyuncuları göster"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "\"Diğer\" kategoriyi göster"
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "Tanıdıklar listenizde olmayan oyunculardan mesajlar"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "Ayrı pencerede kabul et"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "İptal"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "Uygula"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "Ayarlar"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "Bileşen eklendi"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "Savaş Kartı Puanı düşüldü"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "Fiş çıkarıldı"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "Tatbikat Jetonları düşüldü"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "Bileşenler çıkarıldı"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "Kişisel Şöhret Puanı düşüldü"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "Serbest Deneyim düşüldü"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "Seferberlik Puanı çıkarıldı"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "Hizmet yılları karşılığı Jetonlar kaldırıldı"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "Savaş Kartı Puanı eklendi"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "Fiş eklendi"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "Tatbikat Jetonları eklendi"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "Bileşenler eklendi"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "Kişisel Şöhret Puanı eklendi"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "Alınan Serbest Deneyim"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "Seferberlik Puanı eklendi"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "Hizmet yılları karşılığı Jetonlar eklendi"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "Tüm tanıdıkları alıcı listesine ekle."
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "Seçili tanıdığı ekle."
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "Alıcı listesinden tüm tanıdıkları çıkart."
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "Alıcı listesinden seçili tanıdığı çıkart."
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "%(action)s eylemi %(cooldownPeriod)s saniyeliğine geçersiz kılınmıştır."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "Sohbet Hatası"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "Açık kanallar için koyulmuş limite ulaştınız. Lütfen kullanılmayan kanalları kapatın."
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "Hata"
+
+msgid "server/errors/addFriendError/message"
+msgstr "Kullanıcıyı Arkadaşlar listesine eklerken hata oluştu."
+
+msgid "server/errors/addFriendError/title"
+msgstr "Hata"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "Kullanıcıyı Kara Listenize eklerken hata oluştu."
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "Hata"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "Bu isimde bir kanal zaten var."
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "Kanal oluştururken hata oluştu."
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "Kanal silindi."
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "Kanala katılırken hata oluştu."
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "Sohbet Hatası"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "Sohbet komutu işlenirken hata oluştu: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "Sohbet Hatası"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "%(command)s komutu %(cooldownPeriod)s sn için engellenmiştir."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "Sohbet Hatası"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "Mesaj donduruldu. Çok fazla sayıda mesaj."
+
+msgid "server/errors/connectTimeout/message"
+msgstr "Kanal bağlantısı zaman aşımına uğradı."
+
+msgid "server/errors/connectTimeout/title"
+msgstr "Sohbet Hatası"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "Özel bir kanal oluşturulamıyor: kullanıcı şu anda çevrimdışı."
+
+msgid "server/errors/createPrivateError/title"
+msgstr "Sohbet Hatası"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "Geçersiz karakter"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "Hata"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "Geçersiz parametre %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "Hata"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "Güvenli kanal için hatalı şifre."
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "Kanala katılırken hata oluştu."
+
+msgid "server/errors/initializationFailure/message"
+msgstr "Sohbet başlatılamadı."
+
+msgid "server/errors/initializationFailure/title"
+msgstr "Sohbet Hatası"
+
+msgid "server/errors/internalError/message"
+msgstr "İç hata, daha sonra tekrar deneyin."
+
+msgid "server/errors/internalError/title"
+msgstr "Kanal oluştururken hata oluştu"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "Geçersiz kanal ismi."
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "Sohbet Hatası"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "Davet komutu işlenirken hata oluştu."
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "Hata"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "%(user)s kullanıcısına zaten yasak koyulmuş."
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "Sohbet Hatası"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "%(user)s kullanıcısı zaten kanal moderatörü."
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "Sohbet Hatası"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "Sohbet Hatası"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "Kullanıcı bağlı değil"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "Sohbet Hatası"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "%(user)s kullanıcısı kanal moderatörü değil."
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "Sohbet Hatası"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "Bu kanalda kullanıcı limitine ulaşıldı."
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "Kanala Bağlanırken Hata Oluştu"
+
+msgid "server/errors/notAllowed/message"
+msgstr "Bu işlem için yeterli izin bulunmamaktadır."
+
+msgid "server/errors/notAllowed/title"
+msgstr "Sohbet Hatası"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "Güvenli kanala bağlanmak için şifrenizi girin."
+
+msgid "server/errors/passwordRequired/title"
+msgstr "Kanala katılırken hata oluştu"
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "Bu ayarı değiştirmek şu anda kapalıdır."
+
+msgid "server/errors/sqlError/message"
+msgstr "DB aranırken hata oluştu."
+
+msgid "server/errors/sqlError/title"
+msgstr "Hata"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "Bu kullanıcı sizi Kara Listesine ekledi."
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "Hata"
+
+msgid "server/errors/userNotExists/message"
+msgstr "Kullanıcı mevcut değil."
+
+msgid "server/errors/userNotExists/title"
+msgstr "Hata"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "Kişi listesinde kullanıcı limitine ulaştınız."
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "Hata"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "İzin verilen maksimum kanal sayısını aştınız."
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "Kanal ismi için izin verilen maksimum karakter sayısını aştınız."
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "Şifre için izin verilen maksimum karakter sayısını aştınız."
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "\"%(strArg1)s\" kanalı zaten var."
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "Kanal isminde geçersiz karakterler."
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "Kanal isminde hakaret kelimeleri var."
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "Çelik Avcısı"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "Bunlar Çelik Avcısı için özel araçlardır. Çelik Avcısına girerek bu araçların neler yapabileceklerini görün."
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "Araç Yok Edildi"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "Ulaşılan Bölüm"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "Kazanılan puan"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "Zafer"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "Eklendi"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "Olumlu!"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "Operasyona Git"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "Hizmet Kaydı"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "Kampanya"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "Kampanya sona erdi."
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "WoT Plus yönetilebilir DP çarpanı kullanılabilir"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "WoT Plus yönetilebilir DP çarpanı devre dışı"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "%s üzerindeki sarf malzemeleri ikmal edilemedi. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "%s için yönergeler ikmal edilemedi. İşlem bakım sebebiyle geçici olarak yapılamaz."
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "%s üzerinde yönerge ikmal edilemedi. Yeterli para yok."
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "%s üzerinde yönerge otomatik ikmal edilemedi. Lütfen el ile takın."
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "%s için yönerge başarıyla ikmal edildi. Harcadığınız "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "%s deki sarf malzemeleri ikmal edilemedi. Altın sarf malzemeleri almayı düşünün."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "%s aracına yeniden sarf malzemesi ikmal edilemedi. Yeterli kredi yok."
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "%s üzerindeki sarf malzemeleri ikmal edilemedi. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "%s sarf malzemelerinin otomatik ikmali yapılamadı. Malzemeleri elle yükleyin."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "%s aracındaki sarf malzemeleri başarıyla ikmal edildi. Harcadığınız "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "%s deki mühimmat ikmal edilemedi. Altın mühimmat almayı düşünün."
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "%s aracına yeniden mühimmat ikmal edilemedi. Yeterli kredi yok."
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "%s üzerindeki mühimmat ikmal edilemedi. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "%s cephanesinin otomatik ikmali yapılamadı. Cephaneyi elle yükleyin."
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "%s aracına başarıyla mühimmat ikmal edildi. Harcadığınız "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "%s için stil kiralaması uzatılamadı. Stili altın ile satın alın."
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "%s için stil kiralaması uzatılamadı. Yeterli para yok."
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "%s için stil kiralaması uzatılamadı. Tüm altınınız WG Wallet işlevselliği geri döndüğünde otomatik olarak erişilebilir hale gelecek."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "Kiralama Süresini Uzat"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "%s kiralık stili %s aracı üzerinde ve süresinin bitmesine 3 savaş kaldı."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "%s stili kiralaması (%s için) 3 savaş sonra otomatik olarak %s savaş daha uzatılacak."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "Dış Görünüme"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "%s kiralık stilinin (%s aracının üzerindeki) süresi bitti. Stil kiralama süresini Dış Görünüm ekranından uzatabilirsiniz."
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "%s için stil kiralaması otomatik olarak uzatılamadı. Stili elle satın alın."
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "%s için stil kiralaması başarıyla uzatıldı. Harcanan: "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "%s Araç tamiri başarısız"
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "%s aracı tamir edilemedi. Yeterli kredi yok."
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "%s tamir edilemedi. Tüm altınlarınız WG Cüzdan otomatik olarak tekrar işlerlik kazandığında kullanıma girecektir."
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "%s otomatik olarak tamir edilemedi. Aracınızı elle tamir edin."
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "%s aracı başarıyla tamir edildi. Harcadığınız "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "WoT Plus tankçı sancağı mevcut"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "WoT Plus tankçı sancağı geçerli değil"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "Bröveler eklendi"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "WoT Plus savaş bonusu mevcut"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "WoT Plus savaş bonusu geçerli değil"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "Görev tamamlandı: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "Tank Akademisi görev serisini tamamladınız."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "Jetonları herhangi bir araştırılabilir Seviye VI araçla takas edebilirsiniz."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "Araç Seçimine"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "Tebrikler!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "Tamamlanan Tank Akademisi görevleri: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "Ödül alındı:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "Akademi Jetonu kullanıldı."
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "Ödül alındı:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "Garaj yuvaları: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "Kiralık araçlar: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "Eğitim görevlerini tamamlayarak araçlar ve faydalı kaynaklar kazanın."
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "Tank Akademisine Git"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "BAŞLAMAK İÇİN İHTİYAÇINIZ\nOLAN HER ŞEY"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "Akademi Jetonu"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "Harcanmamış Puanlar kullanıldı"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "Elit Parkur etkinleştirmede kullanılan harcanmamış Puan miktarı: %(points)s."
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "Kullanılan harcanmamış Puan: %(chapter)s Bölümü için %(points)s."
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "Seçimlik Standart Donanım"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "Elit Parkur etkinleştirildi."
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "Elit Parkur duraksatıldı."
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "Puan Sınırına ulaşıldı"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "%(vehName)s ile maksimum Puan miktarını kazandınız.\nPuan Sınırına ulaşma ödülü: %(bonusPoints)s.\nPuan kazanmaya devam etmek için başka bir araçla savaşın."
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "Tebrikler!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "%(name)s stili alındı. Stil hemen araca uygulanabilir ve Savaş Kartı gelişimi sırasında yükseltilebilir."
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "Seçimlik Kayra Donanım"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "Detaylar"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "Detaylar"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "Savaş Kartının %(chapter)s Bölümünü tamamladınız!\nAlınan ödüller:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "Savaş Kartının %(chapter)s Bölümünü tamamladınız!\nAlınan ödüller:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "Savaş Kartı %(newLevel)s. Gelişim Aşamasını tamamladınız.\n\nÖdül alındı:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "%(chapter)s Bölümde eklenen Aşamalar: %(levelCount)s\n%(currentLevel)s. Aşamaya ulaştınız\nAlınan ödüller:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "Daha önce tamamlanan Savaş Kartı Aşamaları için ödüller aldınız:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "Artık hem Temel hem de Gelişmiş Ödül Kuşağının ödüllerini alacaksınız."
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "Harcanmamış Puanlarınızı kullanarak tamamlanmış Aşamaların ödüllerini aldınız:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "%(chapter)s Bölümünü tamamladınız.\nAlınan ödül:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "Savaşmaya ve Puan kazanmaya devam edin!"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "Tüm ana Savaş Kartı %(season)s Sezonu Bölümlerini tamamladınız.\nAlınan ödül:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "%(chapter)s Bölümünün %(newLevel)s. Gelişim Aşamasını tamamladınız.\nAlınan ödül:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "Detaylar"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "Harcanan Serbest Deneyim:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "Harcanan altın:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "%(chapter)s Bölümü için Gelişmiş Kart ve tüm Aşamaları satın aldınız.\nBölümün tüm Aşamaları için alınan ödüller:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "Gelişmiş Kartları satın alma karşılığında bir bonus aldınız:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "Şimdi Sezonun tüm Bölümleri için hem Temel hem de Geliştirilmiş ödülleri alacaksınız."
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "%(chapter)s Bölümde eklenen Aşamalar: %(levelCount)s\n%(currentLevel)s. Aşamaya ulaştınız.\nAlınan ödüller:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "Gelişmiş Kartı satın alma karşılığında bir bonus aldınız:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "Bu Gelişmiş Kart sadece %(chapter)s Bölümü için geçerlidir."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "Daha önce tamamlanan Savaş Kartı Aşamaları için ödüller aldınız:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "Bu Gelişmiş Kart sadece %(chapter)s Bölümü için işe yarar."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "Artık %(chapter)s Bölümünde hem Temel hem de Geliştirilmiş Ödül Kuşağının ödüllerini alacaksınız."
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "Varsayılan Ödül Eklendi:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "Gelişmiş Kart Satın Alındı"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "Gelişmiş Kart Satın Alındı"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "Aşamalar Satın Alındı"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "Tebrikler!"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "Ödül Verildi"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "Elit Parkur Aşaması tamamlandı.\nAlınan ödül:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "Elit Parkur Aşamaları tamamlandı: %(amount)s\nAlınan ödül:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "Mürettebat üyesi:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "Savaş Başarıları"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "'%s' alındı %s etkinliği için"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "'%s' alındı %s etkinliği için"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s Jeton"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s credits"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s tahvil"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "%s Yıl Dönümü Jetonu"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s serbest deneyim"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s altın"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "Savaş"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "Alınan Savaş Kartı Puanı: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "Jetonlar alındı"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "Detaylar"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "müttefiklerin verdiği hasar için tazminat: %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "Kazanılan kredi: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "Tahvil alındı"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "Yenilgi"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "her gün ilk zafer için x%d"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "Berabere"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "Savaş Bitti"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "Savaş Yedeği Puanı"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "Bileşenler alındı"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "Yıl Dönümü Jetonları alındı"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "Alınan deneyim: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "İlerleme"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "Bina"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "Kazanılan Endüstriyel Kaynak"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "klanın"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "oyuncunun"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "Alınan Serbest Deneyim"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "Kazanılan altın"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "%(campaignName)s kadrosuna katılma karşılığında %(nameMedal)s madalyası ödülü aldınız."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "Tebrikler!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "%(campaignName)s harekâtında %(categoryName)s serisinden 45 görevi başarıyla tamamlama karşılığında %(nameMedal)s madalyası ile ödüllendirildiniz."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "%(campaignName)s harekâtında %(categoryName)s serisinden 30 görevi başarıyla tamamlama karşılığında %(nameMedal)s madalyası ile ödüllendirildiniz."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "%(campaignName)s harekâtında %(categoryName)s serisinden 15 görevi başarıyla tamamlama karşılığında %(nameMedal)s madalyası ile ödüllendirildiniz."
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "müttefiklere verdiğiniz hasar için ceza: %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "Tebrikler!\nKişisel görevlerin başarıyla tamamlanması karşılığında şu ödülleri alacaksınız"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "Tebrikler!\nUzun Süredir Beklenen Destek harekâtı kişisel görevlerini başarı ile tamamladığınız için şu ödülleri aldınız"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "Tebrikler!\nİkinci Cephe harekâtı kişisel görevlerini başarı ile tamamladığınız için şu ödülleri aldınız"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "Tebrikler!\nHer iki harekâtın kişisel görevlerini başarı ile tamamladığınız için şu ödülleri aldınız"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "Kredi Yedeğine Eklenen"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Görev tamamlandı! Ödül"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "Hizmet Kaydı"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "Alınan Savaş Kartı Puanı: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "Kışlaya Ranza eklendi"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "Jetonlar eklendi"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "Kredi eklendi"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "Tahvil eklendi"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "Bileşenler eklendi"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "Yıl Dönümü Jetonları eklendi"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "Eklenen Serbest Deneyim"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "Eklenen altın"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "Eklendi"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "Harekât Puanı: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "Evcil hayvanlar alındı"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "Wargaming Premium Hesap günleri eklendi"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "WoT Premium Hesap günleri eklendi"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "Bonus Savaşlar eklendi: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "%(count)sx günlük"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "%(count)sx standart"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "Yuva eklendi"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "Bonus Savaşlar eklendi"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \nStandart, tamamlanan aşamadaki performansınız karşılığında: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \nGörevleri tamamlama karşılığında: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \nGünlük, Elemelerde alınan şerit sayısı karşılığında: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \nStandart, Elemelerde alınan şerit sayısı karşılığında: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "Kademelerdeki değişiklikler"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \nAlınan şeritler"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \nAlınan şeritler"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \nŞu Klasmana geçiliyor: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \nLiglere geçiliyor"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \nŞerit korundu"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \n%(rankName)s Kademesine ulaştınız (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \n%(rankName)s Kademesini kaybettiniz (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \nKademe kalkanı zayıfladı"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \nDeğişiklik yok"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \nKademe kalkanı kırıldı"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \nŞerit korundu"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \nŞerit alındı"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \nŞerit kaybedildi"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \nAlınan şeritler"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "Reyting Puanı"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "Yıllar boyu hizmetiniz karşılığında şu ödülleri aldınız"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "Tebrikler!"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "Yeni mürettebat üyesi al"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "Araçlar"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "Kadın Mürettebat Üyesi"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "Teknik yenilgi"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "Teknik zafer"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "Zafer"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "Harita engelleme için bir yuva kaldırıldı. %(mapName)s haritası tekrar döngüye girdi."
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "Engellenen %(mapNames)s haritası oyundan kaldırıldı. Yeni bir harita engelleyebilirsiniz."
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "Harita engelleme için bir yuva kaldırıldı. %(mapNames)s haritası tekrar döngüye girdi."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "Özel teklif başladı!\nSadece 10 gün için, taslaklarınızı başka değerli ürünlerle takas edebilirsiniz."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "Detaylar"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "Özel teklif bitti"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "Taslaklarınızı Takas Edin"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "Taslak dönüşümü bakım nedeniyle kapalıdır."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "Taslak dönüşümü geri geldi."
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "Ödülünüzü almayı unutmayın!"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "Seçime Git"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "Devam eden savaşlardan gelen bonuslar dâhil değildir."
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "Kişisel Yedek \"%(boosterName)s\" teknik nedenlerden dolayı devre dışıdır."
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: Kişisel Yedek tamamen kullanıldı"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "Kaybedilen Yedekler:"
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "Yedeklerin süresi bitti"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "Kredi"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "Serbest DP"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "Mürettebat DP'si"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "Savaş DP'si"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "%(resourceName)s için toplam bonus:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "Kapat"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "Klandan ayrıldınız veya çıkarıldınız: "
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "%(element_name)s eklendi"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "\"%(element_name)s\" madalyası eklendi"
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "\"%(element_name)s\" şeridi eklendi"
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "Ödül alındı"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "Alınan takdirnameler"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "Canlı Etiketler şu anda devre dışı"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "Canlı Etiketler savaşta açık"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "Takdirnameler şu anda devre dışı"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "Takdirnameler savaşta açık"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "%(gold)s altın, %(credits)s kredi sahibi oldunuz."
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "%(credits)s kredi sahibi oldunuz."
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "Mürettebat Yardımcısı kullanılabilir"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "Mürettebat Yardımcısı devre dışı"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "Kredi ve Altın Yedekleri Açıldı!"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "Müzayede"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "Savaş Kartı"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "Tarih"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "Jetonlar düşüldü"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "Kredi düşüldü"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "Tahvil kaldırıldı"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "Bileşenler çıkarıldı"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "Yıl Dönümü Jetonları kaldırıldı"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "Serbest Deneyim düşüldü"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "Altın düşüldü"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "Finansal işlem"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "Müzayede"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "Jetonlar alındı"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "Hesaba geçen kredi"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "Tahvil alındı"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "Bileşenler alındı"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "Yıl Dönümü Jetonları alındı"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "Alınan Serbest Deneyim"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "Altın alındı"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "Dönemimizin Kahramanı Ödülü"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "Yapılan %(battlesCount)s savaş karşılığında %(medalName)s madalyası alındı\nYapılan %(battlesCount)s savaş karşılığında çıkartmalar alındı (x%(decalsCount)s)"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "Sökme Kitleriyle işlemler bakım sebebiyle geçici olarak yapılamamaktadır."
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "Sökme Kitleriyle işlemler yeniden açılmıştır. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "Asker Künyesi Fonu açıldı: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "Asker Künyesi Gravürü açıldı: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "%(name)s Asker Künyesi"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "şu Seviyeye ulaştı:"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "Yeni Seviye"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "Açıldı"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "Fon"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "Gravür"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "Wargaming Premium Hesap %(expiryTime)s tarihinde sona eriyor."
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "E-postayı Onaylayın"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "E-posta onaylanmadı"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "Deneysel parça kullanıldı"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "Tüm deneysel parçalar kaldırıldı"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "Deneysel parçalar şu araçlardan sökülecek"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "Senaryo"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• Seçimlik donanım yönergeleri"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• Savaş Kartı Puanı"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• Genel Broşür"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• Tahvil"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• Savaş Yedeği Puanı"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• Seçimlik Deneysel Donanım"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• Akıl Hocalığı Ruhsatı"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• Yeniden Eğitim Emirleri"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• Genel Kılavuz"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "Size Yıl Dönümü Jetonu verildi: %(eventCoin)s."
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "Harita engelleme için ek bir yuva açıldı"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "WoT Plus ile harita engellenemiyor"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "Gerekçe"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "Boosteroid aboneliği sona erdi."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "Abonelik sona erdi."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "Araç devre dışı"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "Araç"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "Araç kullanılabilir"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "Araç"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "İlerleme sıfırlandı"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "Göreve Git"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "Dikkat! %(missionShortName)s görevindeki ilerleme sıfırlandı. Koşulun tamamlanmasına yeniden başlanacak."
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "Görev: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "Operasyon: %(operation)s"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "Detaylar"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "Geçici olarak %(mode)s kipinde savaşlarda engellendiniz. Engelleme %(date)s tarihinde kaldırılacak."
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "Geçici engellemeniz kaldırıldı. %(mode)s kipinde tekrar oynayabilirsiniz."
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "%(reason)s nedeniyle %(mode)s kipinde savaşta kazandığınız kredi, DP ve ödüller kaldırıldı."
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "%(mode)s kipinde %(reason)s nedeniyle uyarı aldınız."
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "Engelleme"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "Engel Sonu"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "Ceza Aldınız"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "Sportmenliğe Aykırı Davranış"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "%(clan)s klanına savaş ilan edildi!\nİlerleme %(date)s %(time)s itibarıyla başlıyor."
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "Savunma çöktü!\nTüm saldırılar iptal edildi. Kalenin işlerlik kazanabilmesi için Komuta Merkezinin dayanıklılık çubuğunu doldurun."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "%(clan)s klanı ile planlanan savaş iptal edildi."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "%(date)s tarihinde %(time)s saatinde %(clan)s klanına karşı planlanan İlerleme iptal edildi: Kale seviyeleri arasındaki fark 1 seviyeden fazla."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "%(building)s binası hasarlı! Binanın işleyebilmesi için dayanıklılık çubuğunu doldurun."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "Komuta Merkezi hasarlı! Kalenin işlerlik kazanabilmesi için dayanıklılık çubuğunu doldurun. Komuta Merkeziniz biraz daha hasar alırsa savunmanız çökecek."
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "%(clan)s klanı size savaş ilan etti!\nİlerleme %(date)s %(time)s itibarıyla başlıyor."
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "Savunma Dönemi belirlendi: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "Savunma Dönemi değiştirildi. Yeni Savunma Dönemi: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "Kalenizin savunması devre dışı. Tüm binaların ve Yedeklerin seviyesi Seviye IV'e düşürüldü."
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "Tebrikler! Kalenizi seviye VIII'e geliştirdiniz."
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "Tebrikler! Kale klanın avantajına tam olarak devreye girdi."
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "Ateşkes günü değiştirildi. Yeni Ateşkes günü belirtilmedi."
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "Ateşkes günü değiştirildi: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "%(building)s binasının seviyesi artırıldı.\nHazırlanmakta olan %(order)s yedeği Endüstriyel Kaynağa dönüştürüldü ve bina deposuna eklendi."
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "%(orderTypeName)s Yedeği telafi edildi ve etkinleştirilmeye hazır."
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "Ana sunucu %(peripheryName)s'e değiştirildi."
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "Eklenen Endüstriyel Kaynak: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "Çıkarılan Endüstriyel Kaynak: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "%(building)s binasına bağlısınız."
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "Eklenen Savaş Yedekleri: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "Çıkarılan Savaş Yedekleri: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "Yedek %(order)s kullanıldı. Kalan süre: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "Yedek Etkinleştirildi"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "Yedek %(order)s tamamen kullanıldı."
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "%(count)s Yedeğin hazırlanması %(order)s tamamlandı."
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "Tahliye Yedeğinin süresi doldu.\n\n%(additional)s\nKlanımız için toplam: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "Düşman Talep Yedeğini etkinleştirdi ve ek yağma yaptı: %(resDec)s\nKlanımız tarafından ek olarak korunan: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "Talep Yedeğinin süresi doldu.\n\n%(additional)s\nKlanımız için toplam: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "Düşman Tahliye Yedeğini etkinleştirdi ve şu kadarını korudu: %(resDec)s\nKlanımız tarafından ek olarak yağmalanan: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "%(building)s binasının deposu doldu.\nEndüstriyel Kaynağı Yedek hazırlamak için kullanın veya başka bir binaya taşıyın."
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "Kalenizin Tarafsızlık süresi sona erdi.\nDiğer klanlar artık size saldırabilir - hazırlıklı olun!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "Kaleniz Tarafsızlık ilan etti.\nDiğer klanlar artık size saldıramaz. Tarafsızlık Süresi bitişi: %(finish)s."
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "%(defResCount)s birim Endüstriyel Kaynak Komuta Merkezi deposuna eklendi."
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "Etkinliğe git"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "Gelişime Git"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "%(gold)s altın sahibi oldunuz."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "Müzayede: Peyiniz rekabetçi peyden düşük."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "Mevcut müzayedeyi kazanma şansınız azaldı: Peyiniz şu anda rekabetçi peyden düşük."
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "Etkinliğe Git"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "Peyiniz kaybetti. İade edilecek:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "Peyiniz diğer oyuncuların peyinin altında kaldı. Peyiniz yakında hesabınıza iade edilecek."
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "Hata"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "Pey hatası. Para kesintisi yapılmadı. Lütfen tekrar deneyin."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "Pey sürme kapanmak üzere."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "Acele Edin ve Peyinizi Sürün!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "Acele edin ve peyinizi sürün. Ögeler sınırlı."
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "Yeni Lot İçin Pey Sürme Başladı!"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "Kışlaya eklenen Ranza"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "Kışladan çıkarılan Ranza"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "Kişisel Yedekler"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "Kişisel Yedekler düşüldü"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "Jetonlar eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "Jetonlar düşüldü"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "Tazminat"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "Jetonla"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "Kamuflaj"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "krediler"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "tahvil ile"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "Amblem"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "Yıl Dönümü Jetonlarıyla"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "altın"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "Yazı"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "Efekt"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "Boya"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "Tek Haneli Sayı"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "İki Haneli Sayı"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "Üç rakamlı sayı"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "Çıkartma"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "Stil"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "Kredi eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "Kredi hesabınızdan çekildi"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "Mürettebat Kitapları eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "mürettebat Kışlaya gönderildi"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "mürettebat %d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "Mürettebat kaplamaları eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "Mürettebat kaplamaları kaldırıldı"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "mürettebat %d%% Kışlaya gönderildi"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "mürettebat çıkarıldı"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "Tahvil alındı"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "Tahvil kaldırıldı"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "Kişisel indirimler"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "Eklenen ödüller"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "Çıkarılan ödüller"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "Deneysel parçalar eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "Deneysel parçalar kaldırıldı"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "Eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "Kaldırıldı"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "Bileşenler eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "Bileşenler çıkarıldı"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "Sarf Malzemeleri"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "Sarf malzemeleri çıkarıldı"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "Yıl Dönümü Jetonları eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "Yıl Dönümü Jetonları kaldırıldı"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "Tükenir Kişisel Yedekler"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "Emir eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "Emir düşüldü"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "Serbest Deneyim"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "Serbest Deneyim eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "Serbest Deneyim düşüldü"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "Altın eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "Altın düşüldü"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "Genel kesitler eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "Genel kesitler kaldırıldı"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "Alındı"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "Depoya eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "Sarf malzemeleri çıkarıldı"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "Araçlarda"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "%(nationName)s araçların taslak kesitleri eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "%(nationName)s araçların taslak kesitleri kaldırıldı"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "Eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "Kaldırılan"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "Öğeler"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "Wargaming Premium Hesap günleri eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "Wargaming Premium Hesap günü silindi"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "Wargaming Premium Hesap"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "%(vehicleName)s, %(xpCount)s Elit Puan aldı."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "%(vehicleName)s, %(level)s Elit Seviyesine ulaştı ve %(xpCount)s Elit Puan aldı."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "%(vehicleName)s, %(level)s Elit Seviyesine ulaştı."
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "Şundan ürünler:"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "Steam DLC"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Steam Envanteri"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "Bonus Savaşlar eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "Bonus Savaşlar kaldırıldı"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "kiralama günü: "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "Yuva eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "Yuva kaldırıldı"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "WoT Premium Hesap"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "WoT Premium Hesap günleri eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "WoT Premium Hesap günü silindi"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "Acemiler"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "Mürettebat üyelerine dağıtılmamış deneyim eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "Mürettebat üyelerinden dağıtılmamış deneyim çıkarıldı"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "Terhis edilen"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "tüm parçaları araştırıldı"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "%(vehicleName)s aracın taslak kesitleri eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "%(vehicleName)s aracın taslak kesitleri kaldırıldı"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "Araçlar eklendi"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "Araçlar silindi"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "Kiralık araçlar eklendi"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "Sarf malzemesi sahibi oldunuz: %(typeName)s \"%(itemName)s\" - %(amount)d adet."
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "Kutulara Git"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "İçeriği görmek için tuşa tıklayın."
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "Bir paket aldınız:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Bakın"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "Aktive edilen Geçitler: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "Geçitlerin Aktivasyonu"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "Alınan ürünler:\n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "Tüm Geçitlerinizi aktive ettik ve içeriklerini hesabınıza ekledik:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Alınan Ödüller"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Tüm kutularınızı açtık ve Şenlik Operasyonu ödüllerini ekledik"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "Alınan Ödüller"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "Eklenen çıkartmalar: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "Eklenen çıkartma: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "Ankete Git"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "Tebrikler!"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "Keşif Görevi bitti. Yeni haritaların geliştirilmesine yaptığınız katkılardan dolayı teşekkür ederiz!"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "Keşif Görevi bitti.\n\nYeni haritaların geliştirilmesine yaptığınız katkılardan dolayı teşekkür ederiz!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "Keşif Görevi başladı.\n\nGeliştirilmekte olan haritalarda Seviye VIII-X araçlarla savaşın, görüşlerinizi anketlerle paylaşın ve ödüller alın!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "Son ödül:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "Keşif Görevinde %(battles)s savaş yaptınız."
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "Ödül alındı:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "Keşif Görevinde kip mekanizmaları ile ilgili bir anket doldurabilirsiniz."
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "Anket Açık"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "Keşif Görevindeki %(mapName)s haritası için bir anket doldurabilirsiniz."
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "Kışlaya Git"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "Çıkarılan mürettebat üyeleri: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "Vatan Cephesi Malzemeleri"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "Donanım Yardımcısı kullanılabilir"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "Donanım Yardımcısı kullanılamaz"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "Yeni Yedekleriniz var:"
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "Güncelleme Bildirimi"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "Süresi bitecek Yedekler:"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "Tükenir Yedekler kaybolmak üzere"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "Kredi Alındı: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "Tarih: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "Finansal İşlem:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "Depoya Eklendi: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "Alındı"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "Yeni biriktirme döngüsü başladı."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "Yeni biriktirme döngüsü başladı. Kredi kazanmak için WoT Premium Hesabı etkinleştirin."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "Yeni biriktirme döngüsü başladı. Altın kazanmak için WoT Plus'a abone olun."
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "Kredi Yedeğinde kredi birikimi donduruldu."
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "Kredi Yedeği Açıldı!"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "Ödülü Alın"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "Gelişim Sonrası Kısım Tamamlandı!"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "Gelişime Git"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "Gelişim Sonrası"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "Özel bir ödüle erişim hakkı kazandınız."
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "Klan Savaşı"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "Savaş Sonuçları"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "Turnuva"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "Yenilgi"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "Berabere"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "Sonuçlar belirlenmedi"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "Zafer!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "Sahibi tarafından silindi"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "Teknik yetersizlik"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "Çıkarıldınız"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "Teknik Yenilgi"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "Teknik Beraberlik"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "Sonuçlar belirlenmedi"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "Teknik Zafer!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "Zaman aşımı sona erdi"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "Tamamlanmış"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(battle %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "Kısmi Sonuçlar"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "Sonuç"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "Wargaming Premium Hesap alındı. Bitişi: %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "Wargaming Premium Hesap değişti. Bitişi: %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "Wargaming Premium Hesabın süresi bitti."
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "Wargaming Premium Hesap uzatıldı. Bitişi: %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "WoT Premium Hesap alındı. Bitişi: %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "WoT Premium Hesap değişti. Bitişi: %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "WoT Premium Hesabın süresi bitti."
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "WoT Premium Hesap uzatıldı. Bitişi: %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "%(days)d gün için Wargaming Premium Hesap aldınız."
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "Elit Sistemine Git"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "Elit Seviyeleri ve Elit İşaretleri alındı."
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "Elit Sistemi"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "Araçlara Git"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "Elit Seviyesine Ulaşıldı"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "Elit Döül alınırken bir hata oluştu."
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "%(lvl)s. Elit Seviyesine ulaşma karşılığında %(rewardName)s %(typeReward)s alındı."
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "Elit Ödül Alındı"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "Dikkat!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "Detaylar"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "Kamuflaj"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "çıkartması"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "amblemi"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "Yazı"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(level)s%(name)s %(typeName)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "Ve %(count)s adet daha"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr "Seviye %(level)s "
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "boyası"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "çıkartması"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "Alındı:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "%(name)s Stili"
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "Tebrikler!"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "Detaylar"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "Liyakat Ödülü"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "Savaşın ve ödüller kazanın. Ne kadar çok savaşırsanız ödüller o kadar yakınlaşır."
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "Gelişmiş Ödül alındı:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "Detaylar"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "%(surplusPoints)s Kademe Jetonu %(count)s tahvile dönüştürüldü."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "Tebrikler!"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "Maksimum Ödül alındı:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "Standart Ödül alındı:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "Küçük Ödül alındı:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "2021-2022'de %(points)s Kademe Jetonu kazandınız."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "Yıllık Ödül"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "Destek Güçleri Geldi!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "%(event)s sırasında bir mürettebat üyesi aldınız."
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "Alınmamış mürettebat üyeleriniz var: %(count)s. Kaldırılacakları tarih: %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "Alınmamış mürettebat üyeleriniz var: %(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "Bröveler kaldırıldı"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "Tazminat"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "%(vehicleName)s kiralamasının kullanılmayan süresi için kredi eklendi"
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "%(vehicleName)s kiralamasının kullanılmayan süresi için altın eklendi"
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "%(vehicleName)s'in kiralama süresi sona erdi."
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "Taslak kesitleri: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "Kredi: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "Tahvil: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "Detaylar"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "Serbest DP: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "Altın: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "genel kesitler"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "Güncel gelişim: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "Montaj Atölyesi projesinde harcanan kaynaklar:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "Harcanan kaynaklar"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "Kaynak Harcayın"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "Montaj Atölyesinden iade edilen kaynaklar:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "İade Edilen Kaynaklar"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "Seçimlik Eğitim Broşürleri"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "Seçimlik Eğitim El Kitapları"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "Kamuflaj"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "%s'nin işlemi bakım sebebiyle uzatılmıştır."
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "Amblemler"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "Yazılar"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "Wargaming Premium Hesabınızın"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "WoT Premium Hesabınızın"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "Kiralama"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "Oyun sunucusunun bağlantısı %(date)s de kesilecek."
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "Sunucu bağlantı kesikliği iptal edildi, kesinti planlanan zaman %(date)s."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "Hizmet Kaydı Özelleştirmesi yapılabilir"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "Bu özellik donduruldu."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "Hizmet Kaydı Özelleştirmesi şu anda devre dışı"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "Genel kesit (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "Ulusal kesit (%(nationName)s) (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "Özel Ödül"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "%(vehicleName)s için taslak kesiti (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "E-postayı onaylama ödülü alındı:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "Tebrikler!"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "Zaten araştırılmış araçların taslak kesitleri için alınan telafi:"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "Kamuflaj değiştirildi"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "Gelen kredi: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "Düşülen kredi: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "Tahviller: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "Tahviller: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "Dış görünüş ögeleri değişti."
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "Özelleştirme ögeleri değişti. Satın alınan ögeler: %(count)s. %(money)s harcadınız."
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "Amblemler değiştirildi"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "Yıl Dönümü Jetonları eklendi: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "Yıl Dönümü Jetonları kaldırıldı: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "Gelen Serbest Deneyim: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "Düşülen Serbest Deneyim: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "Gelen altın: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "Düşülen altın: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "Yazılar değiştirildi"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "Genel kesitler"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "%(nationName)s ulusal kesitler"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "Güncellemeden sonra tüm çıkartmalar araçlardan kaldırıldı ve Depo'ya Dış Görünüm bölümüne gönderildi."
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "Eklenen yuva: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "Kaldırılan yuva: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "Dikkat!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "Eklenen araçlar: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "Kaldırılan araçlar: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "Şu özelleştirme ögeleri satın alındı:\n%(items)s\n%(money)s harcandı."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "\"%(itemName)s\" %(itemType)s başarıyla satın alındı.\n%(money)s harcandı."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "%(name)s stili Seviye %(level)s başarıyla satın alındı.\n%(money)s harcandı."
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "Aracın özelleştirme ögeleri değişti."
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "%(itemType)s \"%(itemName)s\" (%(count)s parça)"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "Seviye %(level)s %(styleName)s stili"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "Özelleştirme ögeleri araçtan kaldırıldı."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "Tebrikler!\nKademeli çıkartmalar %(vehicleName)s için hazır stilleri değiştirmenizi sağlar."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "Tebrikler!\n%(vehicleName)s için bir Seviye I \"%(itemName)s\" çıkartma aldınız."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "Tebrikler!\nBir Seviye I \"%(itemName)s\" çıkartma aldınız."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "%(vehicleName)s için Seviye %(level)s \"%(itemName)s\" çıkartmasına ulaşıldı."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "Dış Görünüme Git"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "Seviye %(level)s \"%(itemName)s\" çıkartmasına ulaşıldı."
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Harcanan: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "Çöl Haritası: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "Yaz Haritası: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "Kış Haritası: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Alınan: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "Donanım bileşenlerine demonte edildi"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "Dış Görünüme"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "Parça değişimi sebebiyle şu özelleştirme ögeleri %(vehicle)s üzerinden kaldırıldı."
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "Özelleştirme:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "Donanım bileşenlerine demonte edildi"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "Sökmek:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "Hata:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "Finansal İşlem:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "Depodan ürünler satılıyor:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "\"%(method)s\" ödeme yöntemi eklendi"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "\"%(method)s\" ödeme yöntemi kaldırıldı"
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "Araştırılan:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "Satın alınan:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "Garaj'dan çıkarma:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "Tamirler:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "Kurtarıldı:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "Satılan:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "Donanım Yükseltme"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "%(days)d gün için WoT Premium Hesap aldınız."
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "Yedeklere Git"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "%(vehicleName)s aracının üzerinde ki kamuflajın süresi geçti."
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "%(vehicleName)s aracının üzerinde ki amblemin süresi geçti."
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "%(vehicleName)s aracının üzerinde ki yazının süresi geçti."
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "Koleksiyon Açık"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "Tebrikler!\nSeviye %(level)s %(nation)s araç araştırdınız. Artık Dükkândan aynı seviye ve ülkeden Koleksiyon araçları satın alabilirsiniz."
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "Araç yok edildi. %(vehicleName)s %(expireTime)s. tarihine kadar klan savaşlarında kullanılamaz."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "Kilitsiz. %(vehicleName)s klan savaşlarına hazır."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "%(vehicle)s için tüm Çift Modifikasyonlar iptal edildi."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "Modifikasyon İptal Edildi"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "kapalı"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "açık"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "%(tankName)s için savaş öncesi geri sayım sırasında donanım ve yönerge setleri arasında geçiş yapmak %(state)s."
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "%(tankName)s için savaş öncesi geri sayım sırasında mermi ve sarf malzemeleri setleri arasında geçiş yapmak %(state)s."
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "Size Premium araç verildi: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "Araç kiralanamıyor. Yeterli para yok."
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "%(vehicleName)s aracı kiralandı. Kiralama süresi bitişi: %(expiryTime)s."
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "Kilit kaldırıldı. Araçlar klan savaşlarında kullanılabilirler."
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "%(srcName)s adlı oyuncu size %(srcWares)s altın gönderdi."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s altın %(dstName)s adlı oyuncuya gönderildi. Ücret: %(fee)s."
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "Bir Seviye %(level)s araçta indirim"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "Aksiyona Dönüş Gelişimini tamamlama ödülleri alındı:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "Ödül Seçin"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "Bir Seviye %(level)s araçta indirim"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%%%(expDiscount)d ve %%%(creditDiscount)d)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "Satın alma ve araştırma indirimleri eklendi: "
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "Tebrikler!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "Seviye %(level)s araç"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "Sunulan kategorilerden ödül seçin."
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "Seç"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "Ödüller Alındı!"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "Savaş Kartı Plus imkanları donduruldu."
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "Savaş Kartı Plus şu anda devre dışı"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "Savaş Kartı Plus devrede"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "Daha çok ödül almak için oyuna giriş yapmaya devam edin!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "Özel Devamlılık Ödülü Alındı!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "Döngü Tamamlandı"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "Oyuna giriş yapın ve ödüller alın."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "Döngü Başladı!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "Devamlılık Ödülü"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "Yeni bir ödül için başka bir gün yine gelin!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "Devamlılığınız Kaydedildi!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "Devamlılık Ödülleri özelliği donduruldu."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "Devamlılık Ödülleri Devre Dışı"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "Devamlılık Ödülleri Geçerli"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "Seçkin <font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s açık."
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "WoT Plus'a özel <font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s şu anda açık değil."
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "WoT Plus Core %(time)s itibarıyla bitti"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "Ücretsiz donanım sökme açık değil"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "Tüm imkanlardan tekrar faydalanmak için WoT Plus'ı uzatın."
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "WoT Plus %(time)s itibarıyla bitti"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "WoT Plus Pro %(time)s itibarıyla bitti"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "Altın biriktirme donduruldu."
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "Altın Yedeği şu anda kapalı"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "Altın Yedeği açık"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "Altın Yedeği dolu: Daha fazla altın biriktiremezsiniz"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "Altın Yedeği Açıldı!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "Tüm imkanlar artık kullanılabilir.\nŞu tarihte uzatılacak: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "Şu tarihte tekrar uzatılacak: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "180 günlük planınız artık aktif. Keyfini sürün!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "360 günlük planınız artık aktif. Keyfini sürün!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "180 günlük planınız artık aktif. Keyfini sürün!\nŞu tarihte uzatılacak: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "360 günlük planınız artık aktif. Keyfini sürün!\nŞu tarihte uzatılacak: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "<font color='#E9E2BF'>%(vehicleName)s</font> için Yoğun Mürettebat Programının işleyişi durdu. Aracın mürettebatını kontrol edin."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "<font color='#E9E2BF'>%(vehicleName)s</font> aracının bir veya daha fazla üyesi Yoğun Mürettebat Programına uygun değil ve Mürettebat DP'si biriktirmiyor."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "Yoğun Mürettebat Programı"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "Yoğun Mürettebat Programı %(vehicleName)s aracının mürettebat üyeleri için açık."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "Yoğun Mürettebat Programı %(vehicleName)s aracının mürettebat üyeleri için kapalı."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "Mürettebat DP'si birikimi donduruldu."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "Yoğun Mürettebat Programı halihazırda kapalı"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "Yoğun Mürettebat Programı açık"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "Mürettebat DP'sine ücretsiz bonus almak için bir araç seçin."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "Yoğun Mürettebat Programı <font color='#E9E2BF'>%(oldVehName)s</font> aracından <font color='#E9E2BF'>%(newVehName)s</font> aracına aktarıldı. <font color='#E9E2BF'>%(oldVehName)s</font> aracının mürettebatı DP biriktirmeyi durdurdu."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "Yoğun Mürettebat Programı Araç Değiştirdi"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "Mürettebat DP bonusu bir veya daha fazla mürettebat üyesine uygulanamaz."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "Değerli Mürettebat DP'si kaçırıyorsunuz!"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "Seçiminizi %(cooldown)s saat içinde tekrar değiştirebilirsiniz."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "Pro Takviye %(vehicleName)s için etkin"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "İsterseniz başka bir aracı takviye edebilirsiniz."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "Pro Takviye %(vehicleName)s için kapalı"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "Pro Takviye kazançları donduruldu."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "Pro Takviye halihazırda devre dışı"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "Pro Takviye kullanılabilir"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)s artık takviye edilmiyor. Seçiminizi %(cooldown)s saat içinde tekrar değiştirebilirsiniz."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "Pro Takviye %(vehicleNameTo)s aracına geçirildi"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "WoT Plus Uzatma Tarihi Değişti"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "Kiralamak üzere listeden bir araç seçin."
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "Seçili kiralık araç yok"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "%(vehicle)s yakında hesabınıza eklenecek."
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "Kiralandı!"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "Bu imkanlar kapalı."
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "WoT Plus Geçersiz"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "WoT Plus Core Etkinleştirildi"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "Ücretsiz donanım sökme açık"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "WoT Plus Etkinleştirildi"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT Plus Pro"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "WoT Plus, Pro'ya yükseltildi!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "Uzat"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "%(freeXP)s Serbest Deneyim sahibi oldunuz."
+
+msgid "status/offline"
+msgstr "Statü: Çevrimdışı"
+
+msgid "status/online"
+msgstr "Çevrimiçi"
+
+msgid "xmpp_error/action"
+msgstr "\"%(actionName)s\" işlemi yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "xmpp_error/simple"
+msgstr "Daha sonra tekrar deneyin."
+
+msgid "xmpp_error/user_room_creation"
+msgstr "\"%(strArg1)s\" oyuncu kanalı yaratılamıyor."

@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT-teamet <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "Acceptera"
+
+msgid "EULA/labels/agree"
+msgstr "Jag Accepterar."
+
+msgid "EULA/title"
+msgstr "Licensavtal för Slutanvändare"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "Denna e-postadress är redan länkad till ditt konto."
+
+msgid "accountCompletion/activate/button"
+msgstr "Skicka kod/byt e-postadress"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "Skicka koden igen eller byt e-postadress om %(timer) s"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "Ange din e-postadress igen"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "Koden har gått ut. Ange din e-postadress igen."
+
+msgid "accountCompletion/activate/keyError"
+msgstr "Ogiltig kod"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "Om du inte kan hitta e-postmeddelandet, kontrollera att adressen du angav är korrekt och inte innehåller några fel."
+
+msgid "accountCompletion/activate/text"
+msgstr "Ett e-mail med bekräftelsekoden från Wargaming.net skickades till adressen {whiteSpanish_Open}%(email){whiteSpanish_Close}. Ange den 4-siffriga koden för att bekräfta din e-postadress och slutföra din registrering."
+
+msgid "accountCompletion/activate/title"
+msgstr "Bekräfta e-postadress"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "Du angav fel kod för många gånger."
+
+msgid "accountCompletion/add"
+msgstr "Lägg till"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "Denna e-postadress är redan länkad till ditt konto."
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "E-postadressen redan länkad"
+
+msgid "accountCompletion/cancel"
+msgstr "Senare"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "Din e-postadress"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "E-post"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "Ange din e-postadress för att få din belöning och full tillgång till alla spelevenemang."
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "FÅ FULL TILLGÅNG TILL SPELET"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "Ange och bekräfta din e-postadress för att få en belöning och låsa upp nya funktioner. %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "Slutför kontot"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "Ett konto är redan registrerat med denna e-postadress."
+
+msgid "accountCompletion/emailForbidden"
+msgstr "E-postadressen förbjuden."
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "E-postadressen får inte innehålla fler än %(amount)s tecken."
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "E-postadressen måste innehålla minst %(amount)s tecken."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "Din e-postadress är redan bekräftad."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "E-postadressen bekräftad"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "Du har begärt för många återsändningar. Du kan byta e-postadress eller skicka e-postmeddelandet igen om %(timer)"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "E-posttjänsten är blockerad i ditt land."
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "E-posttjänsten är inte tillåten i ditt land."
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "Kan inte länka e-postadress"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "E-postadressen får bara innehålla vanliga bokstäver, siffror och understreck."
+
+msgid "accountCompletion/later"
+msgstr "Senare"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "Belöning för bekräftad e-postadress"
+
+msgid "accountCompletion/submit"
+msgstr "Bekräfta"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "Väntar i serverkön.\nDetta kan ta lite tid."
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) Tjänsten ej tillgänglig för tillfället. Försök igen senare."
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) Tjänsten ej tillgänglig för tillfället.\nFörsök igen om %(time)s."
+
+msgid "barracksExpand/cancel"
+msgstr "Avbryt"
+
+msgid "barracksExpand/message"
+msgstr "Utöka logementet för %(price)s guld genom att lägga till sängplatser: %(count)s?"
+
+msgid "barracksExpand/submit"
+msgstr "Utöka"
+
+msgid "barracksExpand/title"
+msgstr "Utöka Logementet"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "Saknas guld."
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "Utöka Logementet"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "Avbryt"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "Spelare inte redo eller för få spelare för att gå i strid."
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "Börja striden"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "Ofullständigt lag"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "Aktivera bonusen %(newBoosterName)s"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "Bekräfta"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "Bekräfta aktivering"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "Om den personliga reserven %(newBoosterName)s aktiveras kommer den för tillfället aktiverade reserven %(curBoosterName)s avaktiveras och förstöras."
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "Bekräfta"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "Bekräfta aktivering"
+
+msgid "buyConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "buyConfirmation/message"
+msgstr "Köp %(product)s för %(price)s?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "Köp {%count} st \"{%name}\"?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "Köp utrustning '%(equipment)s'?"
+
+msgid "buyConfirmation/submit"
+msgstr "Köp"
+
+msgid "buyConfirmation/title"
+msgstr "Bekräfta köp"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "inkompabilitet"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " med nuvarande modul."
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "Förnödenhet \"%(conflicted)s\" skickas till förrådet på grund av "
+
+msgid "buyInstallConfirmation/message"
+msgstr "Köp och montera %(kind)s \"%(name)s\" på aktuell vagn för %(price)s%(creditsIcon)s? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "Köp och montera %(kind)s \"%(name)s\" på aktuell vagn för %(price)s krediter?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "Köp"
+
+msgid "buyInstallConfirmation/title"
+msgstr "Bekräfta köp"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "Köp Premiumkonto i %(days)s med %(gold)s?\n %(alertIcon)s %(alertColorTagOpen)s På grund av tekniska problem kan du för närvarande inte motta extra Erfarenhet och krediter. Välj en annan strid eller köp Premiumkonto genom menyn \"Köp Premiumkonto\".%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "Köp"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "Bekräfta köp"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "Garageplats"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "buySlotConfirmation/message"
+msgstr "Köp en garageplats för %(goldCost)s?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "Köp"
+
+msgid "buySlotConfirmation/title"
+msgstr "Bekräfta köp"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "Krediter saknas för att köpa en garageplats."
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "Krediter saknas"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "Guld saknas för att köpa en garageplats."
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "Guld saknas"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "Inga tillgängliga platser i garaget. Vill du köpa en ytterligare plats för {%d} krediter?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "Köp"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "Bekräfta köp"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "Ladda standardammunition"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "Avbryt"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Du har redan en besättning för den här vagnen."
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "Under hyresperioden får du gratis en extra plats i garaget."
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "Kan inte ladda ammunition: vagnen har redan fullt ammunitionsförråd."
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "Kan inte ladda ammunition: vagnen har redan ammunition."
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "Pris: %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "Ytterligare plats i garage"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "Köp"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "Köp"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "Inbyte"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "Köp vagnen utan besättning"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "Tränar besättningsmedlemmar"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "Besättningsmedlemmar: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "Köp %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "Totalt:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "Du har angivit felaktig information."
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "Ange mängden guld från kolumnen \"Totalt\""
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "Bekräfta transaktion:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "Du har inga lämpliga vagnar\nför inbyte"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "Uppskattat inbytesvärde är %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "Träna besättningen: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "Totalt:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "Välj en vagn"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "Välj en Premiumvagn\nsom kan bytas in"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "Avbryt"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "Extra kostnad för %(vehiclename)s:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "Växling"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "Köp vagnen utan besättning"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "Inbyte %(vehiclename)s"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "Utrustning och förnödenheter du köpt kommer inte återbetalas eller ersättas med guld när du klickar på knappen \"Inbyte\" nedan. Kontrollera inbytet en extra gång."
+
+msgid "buyVehicleWindow/warning"
+msgstr "Köpta vagnar och andra artiklar återbetalas inte med guld efter att du klickat på \"Köp\"-knappen nedan. Kontrollera noggrant ditt köp."
+
+msgid "challenge_missions/activation/cancel"
+msgstr "Avbryt"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "Aktivera"
+
+msgid "challenge_missions/activation/description"
+msgstr "När de aktiveras kan en serie Smältugnsuppdrag {{@ style (color #FFE4C0)}}slutföras, misslyckas eller avbrytas{{/}}. Om du misslyckad med ett uppdrag i serien förlorar du en sköld."
+
+msgid "challenge_missions/activation/title"
+msgstr "Aktivera Smältugn: {{challengeName}}?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "Avbryt"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "Starta Om"
+
+msgid "challenge_missions/restart/description"
+msgstr "Dina framsteg kommer nollställas, sköldarna återställas och du kan börja tjäna belöningar igen. Uppdragsserien kommer vara aktiv igen direkt när du startat om."
+
+msgid "challenge_missions/restart/free/title"
+msgstr "Starta om Smältugn: {{challengeName}} gratis?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "Starta om Smältugn: {{challengeName}} för {{cost}}?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "Avbryt"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "Avbryt"
+
+msgid "challenge_missions/surrender/description"
+msgstr "Om du avbryter den här serien Smältugnsuppdrag så återställs alla framsteg och sköldar. Du kan starta om när du vill."
+
+msgid "challenge_missions/surrender/title"
+msgstr "Avbryt Smältugn: {{challengeName}}?"
+
+msgid "changeGraphics/cancel"
+msgstr "Avbryt"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s Grafiken har förändrats avsevärt i denna uppdatering. Du kan ställa in grafikinställningarna automatiskt eller avbryta den automatiska inställningen och ställa in manuellt."
+
+msgid "changeGraphics/submit"
+msgstr "Automatiskt"
+
+msgid "changeGraphics/title"
+msgstr "Automatisk grafikinställning"
+
+msgid "changePeriphery/cancel"
+msgstr "Avbryt"
+
+msgid "changePeriphery/message"
+msgstr "Flytta till en annan server?"
+
+msgid "changePeriphery/submit"
+msgstr "Fortsätt"
+
+msgid "changePeriphery/title"
+msgstr "Bekräfta flytt"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "Avbryt"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "Serverinställningarna sparas nu. Du kan aktivera eller avaktivera automatisk inloggning."
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "Fortsätt"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "Byt till en annan server?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "Avbryt"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "Flytta till en annan server?\n\nOm du byter server kommer du ha följande begränsningar:\n\t• Vissa vagnar blir otillgängliga.\n\t• Emblem och inskriptioner visas inte.\n\t• Uppdrag, personliga reserver och övningsfältet kommer vara otillgängliga.\n\nDu kan uppleva problem och fel med kvaliteten på uppkopplingen. Vänligen respektera spelare från andra regioner."
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "Fortsätt"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "Bekräfta flytt"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "Avbryt"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "Flytta till en annan server?\n\nOm du byter server kommer du ha följande begränsningar:\n\t• Vissa vagnar blir otillgängliga.\n\t• Emblem och inskriptioner visas inte.\n\t• Uppdrag, personliga reserver och övningsfältet kommer vara otillgängliga.\n\nDu kan uppleva problem och fel med kvaliteten på uppkopplingen. Vänligen respektera spelare från andra regioner.\n\n\nServerinställningarna sparas.\nGå till inställningarna för att aktivera eller avaktivera automatisk inloggning."
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "Fortsätt"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "Bekräfta flytt"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "Avbryt"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sDu håller på att gå med i klanen:\n%(clanName)s\n\nNär du bekräftar att du vill gå med i klanen godkänner du samtidigt klanens regler och bestämmelser. Du förklarar även din intention att aktivt delta i klanens aktiviteter och utveckling.\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "När du lämnar klanen kommer har du en tillfällig karensperiod innan du kan gå med i en ny klan."
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "Bekräfta"
+
+msgid "clanConfirmJoining/title"
+msgstr "Bekräfta medlemskap i klanen"
+
+msgid "clan_data_not_available/cancel"
+msgstr "Stäng"
+
+msgid "clan_data_not_available/message"
+msgstr "Profilen för spelarens klan är för tillfället ej tillgänglig. Försök igen senare."
+
+msgid "clan_data_not_available/title"
+msgstr "Obs!"
+
+msgid "common/cancel"
+msgstr "Avbryt"
+
+msgid "common/confirm/cancel"
+msgstr "Nej"
+
+msgid "common/confirm/submit"
+msgstr "Ja"
+
+msgid "common/cost"
+msgstr "Kostnad:"
+
+msgid "common/error/cancel"
+msgstr "Stäng"
+
+msgid "common/submit"
+msgstr "Fortsätt"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "Avbryt"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "Köp"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "Köp och aktivera anvisningar"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "Avbryt"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "Obs! Du använder ingen %(devices)s. Anvisningen %(font_tag_open)sKOMMER INTE FUNGERA.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "Montera"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "Aktivera anvisning"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "Avbryt"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "Obs! Du har ingen utrustning som är kompatibel med denna anvisning. Anvisningen %(font_tag_open)sKOMMER INTE FUNGERA.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "Montera"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "Aktivera anvisning"
+
+msgid "confirmBuy/title"
+msgstr "Köp %(moduleName)s?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "Avbryt"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "Modulen skickas till förrådet."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "Krävs för köp:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "Tjäna krediter i strid, sälj överblivna delar från förrådet eller växla guld för att få mer."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "Krediter saknas"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "Modulpris:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "Sälj den ersatta modulen %(previousModuleName) för %(previousModulePrice)"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "Modulen är kompatibel med:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "Du kan sälja modulen nu eller så kan den skickas till förrådet där du senare kan sälja den eller montera den igen."
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "Köp"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "Köp och montera %(moduleName)s?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "Köp och montera utrustningen '%(equipment)s'?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "Montera"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "Avbryt"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "Växling behövs inte.\nDu har tillräckligt med krediter."
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "Kan inte köpa: växlingen misslyckades.\nYtterligare %(gold)s krävs för växlingen."
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "Växla %(gold)s till de krediter som krävs?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "Krediter som saknas:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "Krävs för köp: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "Växla"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "Bekräfta växling för inköp"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "Avbryt"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "Konvertering krävs inte.\nDu har tillräckligt med erfarenhet."
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "Kan inte forska: konvertering krävs.\nYtterligare %(gold)s krävs för konvertering."
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "Konvertera den erfarenhet för %(gold)s?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "Erfarenhet som krävs:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "Krävs för forskning: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "Välj en vagn"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "Bekräfta växling för forskning"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "Totalt:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "Avbryt"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "Ingen växling krävs för att återställa.\nDu har tillräckligt med krediter."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "Kan inte växla för återställning.\n%(gold)s krävs för växling."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "Växla %(gold)s till de krediter som krävs?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "Krediter som saknas:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "Krävs för återställning: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "Växling"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "Bekräfta växling för återställning"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "Antal:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "Antal"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "Totalt"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "Pris:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "Kostnad"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "Totalt:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "Totalt"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "Totalt:"
+
+msgid "confirmUnlock/cancel"
+msgstr "Nej"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} (inklusive {{freeXP}})?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "Forska fram {{items}} för"
+
+msgid "confirmUnlock/item/message"
+msgstr "Forska fram %(typeString)s %(userString)s för %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (inklusive %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "confirmUnlock/submit"
+msgstr "Ja"
+
+msgid "confirmUnlock/title"
+msgstr "Bekräfta forskning"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "Forska fram %(userString)s för %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (inklusive %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "Avbryt"
+
+msgid "controlsWrongNotification/message"
+msgstr "En eller fler funktioner har inte blivit tilldelade tangenter. Vill du verkligen spara kontrollinställningarna?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "Spara"
+
+msgid "controlsWrongNotification/title"
+msgstr "Fel"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "Avbryt"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "Filer för den valda meddelanderösten är skadade eller saknas, meddelanderösten kommer ställas om till grundinställningen.\nEn eller flera tangenter är inte tilldelade. Spara inställningarna?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "Spara"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "Fel"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "createOrderConfirmation/submit"
+msgstr "Bekräfta"
+
+msgid "createOrderConfirmation/title"
+msgstr "Godkänn reservförberedelse"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "Täckning saknas för att genomföra köpet."
+
+msgid "crewBookPurchase/description/crew"
+msgstr "Används av hela besättningen. %(book)s ger varje besättningsmedlem %(exp)s erfarenhet."
+
+msgid "crewBookPurchase/description/personal"
+msgstr "Används av en utvald besättningsmedlem. %(book)s ger besättningsmedlemmen %(exp)s erfarenhet."
+
+msgid "crewBookPurchase/purchase"
+msgstr "Köp"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "Köp %(book)s?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "Avbryt"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "Alla tillämpade dekaler för {season}-kartor kommer att {removed} från din vagn\neftersom den här platsen inte finns tillgänglig för {this}"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "Bekräfta"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "dessa kartor."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "den här kartan."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "Tillämpa den här dekalen på alla platser för alla kartor?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "När de köps kommer elementen anläggas på den aktuella vagnen och de element som markeras med en asterisk kommer inte vara tillgänglig för anläggning på andra vagnar."
+
+msgid "customization/buy_install_bound/title"
+msgstr "Bekräfta köp av element"
+
+msgid "customization/change_install_bound/message"
+msgstr "När de väljs kommer elementen anläggas på den aktuella vagnen och de element som markeras med en asterisk kommer inte vara tillgänglig för anläggning på andra vagnar."
+
+msgid "customization/change_install_bound/title"
+msgstr "Bekräfta ändring av element"
+
+msgid "customization/close/cancel"
+msgstr "Avbryt"
+
+msgid "customization/close/submit"
+msgstr "Lämna"
+
+msgid "customization/close/title"
+msgstr "Gå vidare till garaget utan att spara ändringarna?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "Avbryt"
+
+msgid "customization/exitToShop/submit"
+msgstr "Fortsätt"
+
+msgid "customization/exitToShop/title"
+msgstr "Gå vidare till affären utan att spara ändringarna?"
+
+msgid "customization/filter/cancel"
+msgstr "Avbryt"
+
+msgid "customization/filter/message"
+msgstr "Alla element kommer tas bort. Fortsätt?"
+
+msgid "customization/filter/submit"
+msgstr "Ta bort allt"
+
+msgid "customization/filter/title"
+msgstr "Ta bort element"
+
+msgid "customization/install_bound/cancel"
+msgstr "Avbryt"
+
+msgid "customization/install_bound/submit"
+msgstr "Fortsätt"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "Avbryt"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "Obs! Om du använder elementet (%(cTypeName)s %(itemName)s) på denna vagn kommer du bara kunna använda elementet på ytterligare %(numberLeft)s vagnar. Använd element?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "Använd"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "Använd element"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "Avbryt"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "Obs! Om du använder elementet (%(cTypeName)s %(itemName)s) på denna vagn kommer du inte kunna använda elementet på andra vagnar. Använd element?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "Använd"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "Använd element"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "Avbryt"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "Obs! Om du använder elementet (%(cTypeName)s %(itemName)s) på denna vagn kommer du inte kunna använda elementet på andra vagnar. Elementet %(willBeDeleted)s om det tas bort. Använd element?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "Använd"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "Använd element"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "kommer raderas"
+
+msgid "customization/remove_element/cancel"
+msgstr "Avbryt"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "Ta bort"
+
+msgid "customization/remove_element/title"
+msgstr "Ta bort element"
+
+msgid "customizationConfirmSell/message"
+msgstr "Sälj %(name)s för %(price)s%(creditsIcon)s?"
+
+msgid "customizationConfirmSell/title"
+msgstr "Bekräfta försäljning"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "varje %(days)s d"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "Varje %(days)s d %(hours)s t"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "om %(hours)s t"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "om %(hours)s t %(mins)s min"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "om %(mins)s min"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "Nytt uppdrag kan slumpas fram {timeLimitMsg}"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "Slumpa nytt"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "Ersätt med ett nytt slumpvis valt uppdrag?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} Några av dina vagnar är i strid. Du kan missa framsteg om du slumpar fram ett nytt uppdrag. Nytt uppdrag kan slumpas fram {timeLimitMsg}"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "Slumpa nytt"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "Ersätt med ett nytt slumpvis valt uppdrag?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "Varning!"
+
+msgid "dedication/headline"
+msgstr "Utmärkelsen Vår tids hjälte mottagen"
+
+msgid "dedication/sub-headline"
+msgstr "För {battlesNum} utkämpade strider"
+
+msgid "dialogTemplates/cancel"
+msgstr "Avbryt"
+
+msgid "dialogTemplates/confirm"
+msgstr "Bekräfta"
+
+msgid "dialogTemplates/ok"
+msgstr "Uppfattat!"
+
+msgid "disconnect/cancel"
+msgstr "Nej"
+
+msgid "disconnect/message"
+msgstr "Vill du verkligen koppla ifrån servern?"
+
+msgid "disconnect/submit"
+msgstr "Ja"
+
+msgid "disconnect/title"
+msgstr "Koppla ifrån servern"
+
+msgid "disconnected/cancel"
+msgstr "OK"
+
+msgid "disconnected/message"
+msgstr "Du har blivit frånkopplad från servern. Tryck på OK för att ansluta på nytt."
+
+msgid "disconnected/messageBan"
+msgstr "Ditt konto har avstängts.%(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "Ditt konto har avstängts till %(expiryTime)s.%(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "Anslutningen till servern har avbrutits.%(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \nSkäl: %s"
+
+msgid "disconnected/title"
+msgstr "Anslutningen avbruten"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "Permittera"
+
+msgid "dismissTankman/description/perk"
+msgstr "För den här funktionen behöver du ange träningsnivån för förmågan: {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "Ange träningsnivån för den senast tränade förmågan ({whiteOrange_Open}%(level)s{whiteOrange_Close}) för att slutföra operationen"
+
+msgid "dismissTankman/description/time"
+msgstr "Angiven besättningsmedlem kommer permitteras. Du kan återställa dem inom {whiteOrange_Open}%(time)s d{whiteOrange_Close}."
+
+msgid "dismissTankman/header"
+msgstr "Permittering av besättningsmedlem"
+
+msgid "dismissTankman/limited"
+msgstr "Permitteringsgränsen är uppnådd. Den permitterade besättningsmedlemmen kommer ersätta %(name)s (%(role)s%(vehicle)s)."
+
+msgid "dismissTankman/noRecovery"
+msgstr "Avskeda permanent"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "Avbryt"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "Obs! När du permitterar %(dismissedName)s kommer hen ersätta %(deletedStr)s. Bekräfta förändring?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "Bekräfta"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "Bekräfta förändring"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "Avbryt"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "Obs! När du permitterar besättningen kommer den ersätta %(deletedStr)s och %(extraCount)s. Bekräfta förändring?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "Bekräfta"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "Permitteringslistan är full"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "Byt ut"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "Namn"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "Efternamn"
+
+msgid "documentChangeDialog/title"
+msgstr "Byt namn och utseende"
+
+msgid "dropSkill/cancel"
+msgstr "Avbryt"
+
+msgid "dropSkill/message"
+msgstr "Återställ alla förmågor?"
+
+msgid "dropSkill/submit"
+msgstr "Återställ"
+
+msgid "dropSkill/title"
+msgstr "Bekräfta återställning"
+
+msgid "elementType/chassis"
+msgstr "upphängning"
+
+msgid "elementType/engine"
+msgstr "motor"
+
+msgid "elementType/gun"
+msgstr "kanon"
+
+msgid "elementType/radiostation"
+msgstr "radio"
+
+msgid "elementType/turret"
+msgstr "torn"
+
+msgid "elenDisabled/cancel"
+msgstr "Stäng"
+
+msgid "elenDisabled/message"
+msgstr "Tävlingar är för tillfället ej tillgängliga på grund av schemalagt underhåll."
+
+msgid "elenDisabled/title"
+msgstr "Obs!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "Avbryt"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "Visa inte denna varning igen"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "På grund av din hårdvarukonfiguration kommer du uppleva låg FPS och grafikstörningar i detta läge. Att ladda en strid kommer ta längre tid och kan orsaka att klienten kraschar. Gå i strid ändå?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "Till strid!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "Prestandavarning"
+
+msgid "equipmentBuyInstall/price"
+msgstr "Inköpspris:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "Nedmontera %(equipment)s?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "Avbryt"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "Nedmontera och uppgradera"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "Nedmontera"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "Den demonterade utrustningen {white_Open}förstörs{white_Close}.\nUtrustningen kan demonteras säkert för obligationer."
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "Den demonterade utrustningen {white_Open}förstörs{white_Close}.\nUtrustningen kan demonteras säkert för guld eller med hjälp av en demonteringssats."
+
+msgid "equipmentDestroy/conformation"
+msgstr "Förstör utrustning '%(equipment)s'?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "Montera utrustning '%(equipment)s'?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "Sälj utrustning '%(equipment)s'?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "Avbryt"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "Uppgradera"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "Till nedmontering"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "Ingen experimentell utrustning kan nedmonteras."
+
+msgid "eula/p1"
+msgstr "Vänligen läs <BR/><A HREF='event:%(eulaURL)s'><U>Avtal för Slutanvändare</U></A> innan du fortsätter."
+
+msgid "eula/p2"
+msgstr "GENOM ATT TRYCKA PÅ \"ACCEPTERA\", MEDGER DU ATT DU HAR LÄST, FÖRSTÅTT OCH GODKÄNNER ATT BINDAS AV, OCH FÖLJA VILLKOREN I SLUTANVÄNDARAVTALET OCH ATT DU KAN HÅLLAS ANSVARIG FÖR EVENTUELLA AVTALSBROTT. LICENSAVTALET FÖR SLUTANVÄNDARE OCH ALLA TILLÄGG TILL DETTA ÄR MATERIELLA OCH BINDANDE FÖR ALLA PROJEKTMEDLEMMAR."
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "Växla %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s mot %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "Växling"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "Växla guld"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "Rabatt på konvertering av upp till %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s Erfarenhet till Fri Erfarenhet kommer förbrukas. Nästa gång måste Erfarenhet konverteras för guld."
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "Konvertera %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s erfarenhet till fri erfarenhet för %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "Konvertera"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "Konvertera till fri erfarenhet"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "Stridserfarenhet saknas för konvertering"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "Stridserfarenhet saknas för konvertering"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "Avbryt"
+
+msgid "fillAllPerks/button/fill"
+msgstr "Automatiskt"
+
+msgid "fillAllPerks/checkbox"
+msgstr "Välj förmågor för besättningar i logementet automatiskt"
+
+msgid "fillAllPerks/description"
+msgstr "Algoritmen väljer ut en första förmåga från listan nedan baserat på utbildningen besättningsmedlemmen med öppen förmåga har. Om besättningsmedlemmen redan har en första förmåga väljs en andra förmåga ut istället, sedan fortsätter processen tills alla förmågor har valts. Funktionen kan ta en stund."
+
+msgid "fillAllPerks/subTitle"
+msgstr "Förmågor kommer bara väljas automatiskt för besättningsmedlemmar i en vagn."
+
+msgid "fillAllPerks/title"
+msgstr "Välj automatiskt otränade förmågor för alla besättningsmedlemmar?"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "Avbryt"
+
+msgid "finance_dialog/header"
+msgstr "Bekräfta"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "Skriv in finanslösenordet för att bekräfta denna transaktionen."
+
+msgid "finance_dialog/results/invalid"
+msgstr "Felaktigt lösenord."
+
+msgid "finance_dialog/results/limit"
+msgstr "Du har skrivit in fel lösenord för många gånger. Försök igen om 24 timmar. <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Glömt lösenordet?</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "Lösenord måste vara minst 6 tecken och innehålla vanliga bokstäver, siffror och '_'."
+
+msgid "finance_dialog/submitBtn"
+msgstr "Bekräfta"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "Ta emot %(product)s för %(price)s?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "Ta emot"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "Bekräfta"
+
+msgid "fortDisabled/cancel"
+msgstr "Stäng"
+
+msgid "fortDisabled/message"
+msgstr "Information om klaner är tillfället ej tillgänglig på grund av schemalagt underhåll."
+
+msgid "fortDisabled/title"
+msgstr "Obs!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "OK"
+
+msgid "fortTurnedOff/message"
+msgstr "Befästningen är inte tillgänglig för tillfället. Försök igen senare."
+
+msgid "fortTurnedOff/title"
+msgstr "Obs!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "Nej"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "Ja"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "Avbryt"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "Du kommer inte vara ansluten till nuvarande byggnad %(oldBuilding)s. Du kommer anslutas till %(newBuilding)s."
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "Bekräfta"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "Anslut till byggnad"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "freeObtainConfirmation/message"
+msgstr "Ta emot %(product)s för %(price)s?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "Ta emot"
+
+msgid "freeObtainConfirmation/title"
+msgstr "Bekräfta"
+
+msgid "freeSkillsLearning/message"
+msgstr "En nollförmåga behöver inte tränas med erfarenhet. Det minskar avsevärt mängden erfarenhet som krävs för att träna besättningsmedlemmens ytterligare förmågor."
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "Välj %(skillName)s som nollförmåga?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "Träna om %(skillName)s som nollförmåga?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "freeSlotConfirmation/message"
+msgstr "Använd 100% rabatt för att köpa en extra plats i garaget gratis?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "Lägg till"
+
+msgid "freeSlotConfirmation/title"
+msgstr "Lägg till garageplats"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "Stäng"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "Du har uppnått gränsen för köp av gratisvagnar. Försök igen imorgon."
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "Stäng"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "Köpgräns"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)sErfarenhet%(orangeText_close)s%(simpleText_open)s är en spelresurs som intjänas i strid.\n\nDet inkluderar:%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)sStridserfarenhet%(orangeText_close)s%(simpleText_open)s används för att forska fram nya moduler på en given vagn samt andra framsteg i det Wargaming-spel som de intjänats.%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sFri Erfarenhet %(orangeText_close)s%(simpleText_open)s används för att forska fram valfria moduler och vagnar samt öka träningshastigheten för besättningen. Spendera din Fria erfarenhet väl%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "Fortsätt"
+
+msgid "freeXPInfo/title"
+msgstr "Erfarenhet"
+
+msgid "gammaDialog/cancel"
+msgstr "Start"
+
+msgid "gammaDialog/message/description"
+msgstr "Befälhavare! Gammakorrigera bildskärmens färger för att förbättra bildkvaliteten.\n\n."
+
+msgid "gammaDialog/message/header"
+msgstr "Ställ in din skärm nu!"
+
+msgid "gammaDialog/title"
+msgstr "Gammainställningar"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "Efter konvertering:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "Före konvertering:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "Avbryt"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "Konvertera"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "Totalt:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "Besättning"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "Vagn"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "Erfarenhet"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "Alla vagnar"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "Sortera efter valda vagnar."
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "Sortera efter vagnsnamn."
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "Vagnar"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "Sortera efter mottagen erfarenhet."
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "Erfarenhet"
+
+msgid "gatheringXPForm/title"
+msgstr "Konvertera till fri erfarenhet"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "Konvertera Erfarenhet:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "Träningshastighet ökad."
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "Träningshastighet normal."
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "Totalt:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "Totalt:"
+
+msgid "graphics/message/alert"
+msgstr "Obs!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "Skärmläget har ändrats. Återgå till föregående inställning om %(time)s sekunder. Spara valda inställningar?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "Spara"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "Spara skärmlägesinställningar"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "Nej"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "Obs! Alla förändringar kommer att gå förlorade. Fortsätt i alla fall?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "Ja"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "Identifiera Grafiknivå Automatiskt"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "Nej"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "Obs! Att tillämpa de angivna grafikinställningarna kan ta en stund. Fortsätt?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "Ja"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "Ändra inställningar"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "Avbryt"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "Kan inte ställa in maximal inställning. Användardefinierad grafikupplösning kommer användas istället."
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "Obs"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "Stäng"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "Hög texturkvalitet är endast tillgänglig för 64-bitars-system."
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "Texturkvalitet ej tillgänglig"
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "Senare"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "Obs! Ändringar av vissa inställningar aktiveras vid omstart av spelet. Starta om nu?"
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "Starta Om"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "Ändra inställningar"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/message"
+msgstr "Det finns inget utrymme kvar i garaget. Överväg att köpa en garageplats eller sälja en vagn för att ge utrymme för den du vill köpa."
+
+msgid "haveNoEmptySlots/submit"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/title"
+msgstr "Fel"
+
+msgid "hof/excludeRating/cancel"
+msgstr "Avbryt"
+
+msgid "hof/excludeRating/message"
+msgstr "Andra spelare kommer inte längre se dina prestationer, men du kan göra dem synliga på sidan Hall of Fame."
+
+msgid "hof/excludeRating/submit"
+msgstr "Göm resultat"
+
+msgid "hof/excludeRating/title"
+msgstr "Visa resultat i Rankning"
+
+msgid "hofDisabled/cancel"
+msgstr "Stäng"
+
+msgid "hofDisabled/message"
+msgstr "Hall of Fame tillfälligt ej tillgänglig. Försök igen senare."
+
+msgid "hofDisabled/title"
+msgstr "Obs!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "Avbryt"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}Besättning ej fullständig{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}En eller fler besättningsmedlemmar är olämpliga för vagnen{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "Vagnen är olämplig av följande anledningar:"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "Bonusen gäller bara för en besättning. Den överförs från"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "till"
+
+msgid "idleCrewBonus/submit"
+msgstr "Bekräfta"
+
+msgid "idleCrewBonus/title"
+msgstr "Aktivera intensivträning?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "Testa att stänga av Hårdvaruacceleration för webbläsare i grafikinställningarna."
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "Fel vid laddning"
+
+msgid "interviewQuit/cancel"
+msgstr "Bakåt"
+
+msgid "interviewQuit/message"
+msgstr "Du kan avböja undersökningen nu och fylla i den senare genom att öppna meddelandet med inbjudan i ditt meddelandecenter. Meddelandet förblir aktivt under en hel spelsession."
+
+msgid "interviewQuit/submit"
+msgstr "Avbryt"
+
+msgid "interviewQuit/title"
+msgstr "Avböj undersökningen"
+
+msgid "koreaParentNotification/cancel"
+msgstr "Svar: Ja!"
+
+msgid "koreaParentNotification/message"
+msgstr "För att förebygga datorspelberoende hos barn och unga har nya strider blockerats efter kl. %(preBlockTime)s. Du kopplas ifrån servern kl. %(blockTime)s."
+
+msgid "koreaParentNotification/submit"
+msgstr "Svar: Ja!"
+
+msgid "koreaParentNotification/title"
+msgstr "Spelbegränsning"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "Svar: Ja!"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "Tiden har gått ut. Du kan inte påbörja nya strider."
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "Svar: Ja!"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "Föräldrakontroll"
+
+msgid "leaveEvent/cancel"
+msgstr "Avbryt"
+
+msgid "leaveEvent/message"
+msgstr "Resultatet av dina strider i tävlingen återställs när rankningen uppdateras. Du kommer inte kunna rankas och motta en belöning.\n\nNär du lämnar tävlingen %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "KAN DU INTE ÅTERVÄNDA."
+
+msgid "leaveEvent/submit"
+msgstr "Lämna tävlingen"
+
+msgid "leaveEvent/title"
+msgstr "Lämna tävlingen"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "Avbryt"
+
+msgid "leaveStartedEvent/message"
+msgstr "Resultatet av din strid kommer inte räknas i denna tävling. Du kommer inte kunna rankas och motta en belöning.\n\nNär du lämnar tävlingen %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "Lämna tävlingen"
+
+msgid "leaveStartedEvent/title"
+msgstr "Lämna tävlingen"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "Avbryt"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "Du är redan i briefingrummet. Vill du avsluta för att acceptera inbjudan?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "Inbjudan"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "Avbryt"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "Du är redan i en pluton. Är du säker på att du vill lämna nuvarande pluton och acceptera inbjudan?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "Inbjudan"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "Avbryt"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "Du är redan i ett träningsrum. Är du säker på att du vill avsluta och acceptera inbjudan?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "Inbjudan"
+
+msgid "legalInfoWindow/title"
+msgstr "Juridisk information"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "Avbryt"
+
+msgid "limitedUIOffNotification/message"
+msgstr "Är du säker på att du vill stänga av gradvis visning av dolda gränssnittselement i garaget?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "När du stänger av det här alternativet kan du inte aktivera det igen."
+
+msgid "limitedUIOffNotification/submit"
+msgstr "Stäng av"
+
+msgid "limitedUIOffNotification/title"
+msgstr "Ändra inställningar"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "Avbryt"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "Serverinställningarna sparas nu. Du kan aktivera eller avaktivera automatisk inloggning."
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "Fortsätt"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "Spara serverinställningar?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "Vagnen saknar ammunition för den Alternativa konfigurationen. Gå i strid ändå?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "Ammunition ofullständig"
+
+msgid "lowAmmo/cancel"
+msgstr "Avbryt"
+
+msgid "lowAmmo/message"
+msgstr "Det saknas ammunition i vagnen. Ammunitionen kommer automatiskt laddas om före nästa strid."
+
+msgid "lowAmmo/submit"
+msgstr "Omladdning"
+
+msgid "lowAmmo/title"
+msgstr "Ladda om ammunition automatiskt"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "Avbryt"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "Vagnen saknar ammunition. Gå i strid ändå?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "Till Strid!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "Ammunition ofullständig"
+
+msgid "lowFpsWarning/cancel"
+msgstr "Nej"
+
+msgid "lowFpsWarning/message"
+msgstr "Nuvarande inställning kan orsaka låg spelprestanda. Vill du sänka kvalitén på grafiken?"
+
+msgid "lowFpsWarning/submit"
+msgstr "Ja"
+
+msgid "lowFpsWarning/title"
+msgstr "Låg prestanda"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "Spelaruppgifter för %(userName)s är låsta."
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "Spelaruppgifter är låsta"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "Spelardata för användaren %(userName)s är för närvarande inte tillgängliga."
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "Data Inte Tillgängliga"
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "Avbryt"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)sOm den aktiveras reducerar denna inställning datorns prestanda i strid."
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "Obs!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "PÅ"
+
+msgid "minimapAlphaNotification/title"
+msgstr "Minikartans genomskinlighet"
+
+msgid "moduleSale/conformation/header"
+msgstr "Sälj %(moduleType)s'%(moduleName)s'?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "Avbryt"
+
+msgid "moneyTransfer/labelClan"
+msgstr "Klan:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "krediter"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "guld"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "Avgift:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "Överför:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "Normalt:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "krediter"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "guld"
+
+msgid "moneyTransfer/labelTo"
+msgstr "Till:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "Totalt:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(inte klanmedlem)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "Skicka"
+
+msgid "moneyTransfer/title"
+msgstr "Överför guld"
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "Vill du verkligen överföra {gold} <img src='icon_gold' /> till spelaren {player} ? Du kommer debiteras {fee} <img src='icon_gold' /> i avgift."
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "Konvertera"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "Bekräfta Överföring"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Bestäm finanslösenord</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/message"
+msgstr "Guldöverföring inte tillåten. Skäl: %s."
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "Överföringsrestriktion upphör %s."
+
+msgid "moneyTransferRestriction/submit"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/title"
+msgstr "Guldöverföring inte tillåten."
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "Nej"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "Vissa ändringar kommer inte aktiveras förrän nästa strid. Fortsätt?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "Ja"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "Ändra inställningar"
+
+msgid "perkLearnConfirm/desc"
+msgstr "Förmågan efter träning: {yellow_Open}%(level)s%%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "Träna"
+
+msgid "perkLearnConfirm/title"
+msgstr "Träna förmågan %(skillName)s?"
+
+msgid "perksReset/after"
+msgstr "Efter återställning:"
+
+msgid "perksReset/before"
+msgstr "Innan återställningen:"
+
+msgid "perksReset/cancel"
+msgstr "Avbryt"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "Alternativet är inte tillgängligt eftersom du redan har 100% rabatt på återställning av förmågor stridsvagnsskolan."
+
+msgid "perksReset/discountTooltip/header"
+msgstr "Ej tillgänglig"
+
+msgid "perksReset/free/description"
+msgstr "Förmågor upp till {yellow_Open}1%{yellow_Close} kan återställas gratis."
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "Besättningsmedlemmen har en gratis första återställning av sina förmågor"
+
+msgid "perksReset/graceLabel"
+msgstr "Gratis återställning tillgänglig i:"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "Den totala mängden erfarenhet minskar. Färre förmågor tillgängliga för träning."
+
+msgid "perksReset/noNewPerks"
+msgstr "All erfarenhet från tränade förmågor läggs till huvudutbildningsnivån."
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "från total erfarenhet i förmågan"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "Regementsskola"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "från total erfarenhet i förmågan"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "Snabbkurser"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "Återställ förmågor\n utan att förlora erf."
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "Använd krediter för att återställa förmågor utan att förlora erfarenhet"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "Stridsvagnsskolan"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "Återställ förmågor\n utan att förlora erf."
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "Återställ"
+
+msgid "perksReset/title"
+msgstr "Återställ alla besättningsmedlemmars förmågor?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "Avbryt"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "Kvaliteten för ljudfysik skiljer sig från inställningarna som känts av automatiskt av spelklienten. Det här alternativet påverkar spelets prestanda. Vi rekommenderar att du testar prestandan innan du bekräftar valet. Vill du använda inställningarna?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "Bekräfta"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "Ljudfysikvarning"
+
+msgid "postmortem/cancel"
+msgstr "Lämna"
+
+msgid "postmortem/message"
+msgstr "Vagnen utslagen. Vill du vara kvar i striden eller lämna för att gå till garaget?"
+
+msgid "postmortem/submit"
+msgstr "Vara kvar"
+
+msgid "postmortem/title"
+msgstr "Vagnen utslagen"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "Köp premium i %(days)s dagar för %(gold)s guld?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "Köp"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "Bekräfta köp"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "Förläng premium i %(days)s dag(ar) för %(gold)s guld?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "Förläng"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "Bekräfta"
+
+msgid "priceCard/credits/title"
+msgstr "Regementsskola"
+
+msgid "priceCard/free/title"
+msgstr "Snabbkurser"
+
+msgid "priceCard/gold/title"
+msgstr "Stridsvagnsskolan"
+
+msgid "priceCard/price/free"
+msgstr "Gratis"
+
+msgid "priceCard/recertification/title"
+msgstr "Omskolningsorder"
+
+msgid "punishmentWindow/cancel"
+msgstr "Bekräftat"
+
+msgid "punishmentWindow/header/ban"
+msgstr "Du är avstängd i %(time)s"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "Du har fått ett disciplinstraff"
+
+msgid "punishmentWindow/header/warning"
+msgstr "Osportsligt uppträdande"
+
+msgid "punishmentWindow/info"
+msgstr "Kontakta Spelarsupporten om du anser att situationen\norsakats av anslutningsproblem eller andra tekniska problem."
+
+msgid "punishmentWindow/message/ban"
+msgstr "Du bröt mot spelets regler på kartan {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}, {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nDu har tillfälligt stängts av från {whiteSpanish_Open}%(mode)s{whiteSpanish_Close}."
+
+msgid "punishmentWindow/message/penalty"
+msgstr "Du bröt mot spelets regler på kartan {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}, {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nDu förlorar alla krediter, erfarenhet och belöningar intjänade i striden."
+
+msgid "punishmentWindow/message/warning"
+msgstr "Du bröt mot spelets regler på kartan {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}, {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nOm detta upprepas kommer du förlora alla krediter, erfarenhet och belöningar intjänade i striden."
+
+msgid "punishmentWindow/reason/afk"
+msgstr "Inaktivitet i strid"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "Avvikande från striden innan striden var slut eller vagnen var förstörd"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "Inaktivitet i strid/lämnat striden i förtid"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "Medveten självförstörelse"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s d %(hour)s t"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 min"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s min"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "Avbryt"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "Fråga inte igen"
+
+msgid "questsConfirmDialog/message"
+msgstr "Om du väljer uppdraget \"%(newQuest)s\", kommer uppdraget \"%(oldQuest)s\" avbrytas."
+
+msgid "questsConfirmDialog/submit"
+msgstr "Bekräfta"
+
+msgid "questsConfirmDialog/title"
+msgstr "Bekräfta uppdragsval"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "Avbryt"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "Alla framsteg i uppdraget %(curQuest)s kommer återställas.\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "Obs! Alla framsteg i det aktuella uppdraget går förlorade."
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "Bekräfta"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "Återställ framsteg"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "Avbryt"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "Om du väljer uppdraget %(newQuest)s kommer dina framsteg i uppdraget %(oldQuest)s återställas.\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "Obs! Alla framsteg i det aktuella uppdraget går förlorade."
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "Bekräfta"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "Bekräfta uppdragsval"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "Avbryt"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "Uppdraget %(quest)s avbryts.\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "Obs! Alla framsteg i det aktuella uppdraget går förlorade."
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "Bekräfta"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "Bekräfta avbrytande av uppdrag"
+
+msgid "quit/cancel"
+msgstr "Stanna"
+
+msgid "quit/submit"
+msgstr "Avsluta"
+
+msgid "quit/title"
+msgstr "Avsluta spelet?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "Avbryt"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "Ditt lag behöver dig! Om du lämnar striden innan den är slut eller din vagn är förstörd räknas det som desertering. Detta kan leda till ett straff såväl som indragning av alla bonusar för strider i IGR."
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "Dersertering"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "Desertera från slagfältet?"
+
+msgid "quitBattle/cancel"
+msgstr "Avbryt"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Avbryt"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Ditt lag behöver dig! Om du lämnar striden innan den är slut eller din vagn är förstörd räknas det som desertering. Detta kan leda till ett straff."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Dersertering"
+
+msgid "quitBattle/leaver/title"
+msgstr "Desertera från slagfältet?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "Avbryt"
+
+msgid "quitBattle/replay/submit"
+msgstr "Avsluta"
+
+msgid "quitBattle/replay/title"
+msgstr "Lämna åskådarläget?"
+
+msgid "quitBattle/submit"
+msgstr "Lämna"
+
+msgid "quitBattle/title"
+msgstr "Lämna striden?"
+
+msgid "quitPreBattle/cancel"
+msgstr "Nej"
+
+msgid "quitPreBattle/message"
+msgstr "Är du säker på att du vill lämna briefingrummet?"
+
+msgid "quitPreBattle/submit"
+msgstr "Ja"
+
+msgid "quitPreBattle/title"
+msgstr "Lämna briefingrummet"
+
+msgid "rally/autoSearch/cancel"
+msgstr "Nej"
+
+msgid "rally/autoSearch/message"
+msgstr "Sök efter tillgängliga platser automatiskt?"
+
+msgid "rally/autoSearch/submit"
+msgstr "Ja"
+
+msgid "rally/autoSearch/title"
+msgstr "Sök automatiskt"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "Avbryt"
+
+msgid "rally/changePeriphery/message"
+msgstr "Du flyttas automatiskt till en annan server (%(host)s). Fortsätt ändå?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "Fortsätt"
+
+msgid "rally/changePeriphery/title"
+msgstr "Flytta till en annan server"
+
+msgid "rally/goToAnother/cancel"
+msgstr "Avbryt"
+
+msgid "rally/goToAnother/message"
+msgstr "Om du lämnar stridsläget kommer du automatiskt uteslutas ur din taktiska enhet."
+
+msgid "rally/goToAnother/submit"
+msgstr "Fortsätt"
+
+msgid "rally/goToAnother/title"
+msgstr "Ändra läge"
+
+msgid "rally/goToIntro/cancel"
+msgstr "Avbryt"
+
+msgid "rally/goToIntro/message"
+msgstr "Är du säker på att du vill lämna den taktiska enheten?"
+
+msgid "rally/goToIntro/submit"
+msgstr "Bekräfta"
+
+msgid "rally/goToIntro/title"
+msgstr "Lämna"
+
+msgid "rally/goToSquad/cancel"
+msgstr "Avbryt"
+
+msgid "rally/goToSquad/message"
+msgstr "Om du skapar en pluton kommer du lämna nuvarande stridsläge."
+
+msgid "rally/goToSquad/submit"
+msgstr "Skapa"
+
+msgid "rally/goToSquad/title"
+msgstr "Skapa pluton"
+
+msgid "rally/leave/cancel"
+msgstr "Avbryt"
+
+msgid "rally/leave/message"
+msgstr "Är du säker på att du vill lämna den taktiska enheten och avsluta stridsläget?"
+
+msgid "rally/leave/submit"
+msgstr "Bekräfta"
+
+msgid "rally/leave/title"
+msgstr "Lämna"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "Fortsätt"
+
+msgid "rally/leaveDisabled/message"
+msgstr "Kan ej lämna läget. Din vagn är i en plats och redo för strid."
+
+msgid "rally/leaveDisabled/title"
+msgstr "Obs"
+
+msgid "rally/startBattle/cancel"
+msgstr "Nej"
+
+msgid "rally/startBattle/message"
+msgstr "Sök efter fiende?"
+
+msgid "rally/startBattle/submit"
+msgstr "Ja"
+
+msgid "rally/startBattle/title"
+msgstr "Letar efter fiende…"
+
+msgid "recruit/cancel"
+msgstr "Avbryt"
+
+msgid "recruit/submit"
+msgstr "Rekrytera"
+
+msgid "recruit/title"
+msgstr "Rekrytera en ny %(role)s för %(vehicleName)s?"
+
+msgid "recruit/voiceoverText"
+msgstr "Besättningsmedlemmens unika röst fungerar bara när de är vagnschef."
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "Du behöver inte rekrytera besättningsmedlemmar för Premiumvagnar. Du kan överföra en besättning till en Premiumvagn av samma typ utan begränsningar."
+
+msgid "recruit/warning/slotChanged"
+msgstr "Den här besättningsmedlemmen kan inte rekryteras för den valda vagnen och skickas därför till logementet."
+
+msgid "recruitConversionConfirm/warning"
+msgstr "Besättningsmedlemmen har gamla förmågor som automatiskt återställs utan förlust av erfarenhet."
+
+msgid "recruitDialog/name/title"
+msgstr "Rekrytera ny besättningsmedlem (%(name)s)?"
+
+msgid "recruitDialog/title"
+msgstr "Rekrytera ny besättningsmedlem?"
+
+msgid "recruitWindow/cancel"
+msgstr "Avbryt"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "Ej vald"
+
+msgid "recruitWindow/nation"
+msgstr "Nation"
+
+msgid "recruitWindow/specialization"
+msgstr "Huvudutbildning"
+
+msgid "recruitWindow/submit"
+msgstr "Rekryt"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "Vagnstyp"
+
+msgid "recruitWindow/vehicleType"
+msgstr "Vagn"
+
+msgid "referralReward/cancel"
+msgstr "Avbryt"
+
+msgid "referralReward/message"
+msgstr "Ta emot %(product)s?"
+
+msgid "referralReward/submit"
+msgstr "Bekräfta"
+
+msgid "referralReward/title"
+msgstr "Bekräfta mottagande"
+
+msgid "refuseTraining/cancel"
+msgstr "Nej"
+
+msgid "refuseTraining/message"
+msgstr "Avsluta träning?"
+
+msgid "refuseTraining/submit"
+msgstr "Ja"
+
+msgid "refuseTraining/title"
+msgstr "Bekräfta"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "Förstör"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "Avbryt"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "Förnödenheten \"%(name)s\" kommer flyttas till förrådet på grund av %(reason)s med aktuella moduler."
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "inkompabilitet"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "Demontera"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "Bekräfta Demontering"
+
+msgid "rentConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "rentConfirmation/event"
+msgstr "under %(eventName)s"
+
+msgid "rentConfirmation/message"
+msgstr "Hyr %(name)s %(event)s för %(price)s?"
+
+msgid "rentConfirmation/submit"
+msgstr "Bekräfta"
+
+msgid "rentConfirmation/title"
+msgstr "Bekräfta hyra"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "Avbryt"
+
+msgid "rentConfirmationRenew/message"
+msgstr "Förläng hyran av %(name)s %(event)s för %(price)s?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "Bekräfta"
+
+msgid "rentConfirmationRenew/title"
+msgstr "Bekräfta hyra"
+
+msgid "replacePassport/unique/cancel"
+msgstr "Avbryt"
+
+msgid "replacePassport/unique/message"
+msgstr "Detta är en unik besättningsmedlem och personuppgifterna kan inte återställas senare. Är du säker på att du vill ersätta personuppgifterna för %(gold)s?"
+
+msgid "replacePassport/unique/submit"
+msgstr "Byt"
+
+msgid "replacePassport/unique/title"
+msgstr "Bekräfta ersättning"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "replacePassportConfirmation/message"
+msgstr "Ersätt besättningsmedlemmens personuppgifter för %(gold)s?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "Byt"
+
+msgid "replacePassportConfirmation/title"
+msgstr "Ersätt personuppgifter"
+
+msgid "replayNotification/cancel"
+msgstr "Nej"
+
+msgid "replayNotification/message"
+msgstr "Den nuvarande versionen av World of Tanks är inte kompatibel med inspelningen. Detta kan skapa problem vid uppspelning. Ignorera skillnaden och spela upp ändå?"
+
+msgid "replayNotification/submit"
+msgstr "Ja"
+
+msgid "replayNotification/title"
+msgstr "Varning"
+
+msgid "replayStopped/cancel"
+msgstr "Avbryt"
+
+msgid "replayStopped/message"
+msgstr "Reprisen slut. Klicka OK för att lämna spelet."
+
+msgid "replayStopped/submit"
+msgstr "Avsluta"
+
+msgid "replayStopped/title"
+msgstr "Repris slutförd"
+
+msgid "reportBug/cancel"
+msgstr "Avbryt"
+
+msgid "reportBug/message"
+msgstr "Klicka här för att öppna din standardwebbläsare och gå till hemsidan för World of Tanks Spelarsupport för att rapportera ett fel. Fortsätt?"
+
+msgid "reportBug/submit"
+msgstr "Fortsätt"
+
+msgid "reportBug/title"
+msgstr "Gå till Spelarsupporten"
+
+msgid "resetAllPerks/cancel"
+msgstr "Avbryt"
+
+msgid "resetAllPerks/submit"
+msgstr "Återställ"
+
+msgid "resetAllPerks/title"
+msgstr "Återställ alla förmågor för alla besättningsmedlemmar?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}Alla förmågor återställs för alla besättningsmedlemmar på ditt konto.{orangeEnd}\n{orangeStart}Detta kan inte ångras.{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "Fortsätt"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s Grafikinställningarna har automatiskt ställts in för att ge optimal bildkvalitet.\nFör att förbättra prestandan, välj lägre grafiknivå i Inställningar."
+
+msgid "resetGraphics/submit"
+msgstr "Inställningar"
+
+msgid "resetGraphics/title"
+msgstr "Ändra grafikinställningar"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "Återställ"
+
+msgid "restoreTankman/description"
+msgstr "%(name)s återställs"
+
+msgid "restoreTankman/free"
+msgstr "Pris: Gratis"
+
+msgid "restoreTankman/header"
+msgstr "Återställ besättningsmedlem?"
+
+msgid "restoreTankman/price"
+msgstr "Pris:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "Avbryt"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "Återställ %(vehiclename)s"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "Återställ"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "Utan besättning"
+
+msgid "restoreVehicleDialog/title"
+msgstr "Återställ %(vehiclename)s"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "När du klickat för att återställa kommer du inte längre kunna växla utrustning och förnödenheter mot guld. Kontrollera noggrant att allt stämmer en extra gång."
+
+msgid "retrain/cancel"
+msgstr "Avbryt"
+
+msgid "retrain/changeRole"
+msgstr "Ändra huvudutbildning"
+
+msgid "retrain/discountLabel"
+msgstr "Rabatten gäller då första förmågan inte är tränad till 100%."
+
+msgid "retrain/discountTooltip/body"
+msgstr "Alternativet är inte tillgängligt eftersom du redan har 100% rabatt på omskolning i stridsvagnsskolan."
+
+msgid "retrain/discountTooltip/header"
+msgstr "Ej tillgänglig"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "Besättningsmedlemmar som omskolas: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "Du behöver inte utbilda besättningsmedlemmar för Premiumvagnar.\nDu kan överföra en besättning till en Premiumvagn av samma typ utan begränsningar."
+
+msgid "retrain/price"
+msgstr "Pris:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "Effektgrad för förmågor\nefter omskolning: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "Regementsskola"
+
+msgid "retrain/priceCard/free/description"
+msgstr "Effektgrad för förmågor\nefter omskolning: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "Snabbkurser"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "Effektgrad för förmågor\nefter omskolning: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "Stridsvagnsskolan"
+
+msgid "retrain/submit"
+msgstr "Omskola"
+
+msgid "retrain/title/massive"
+msgstr "Omskola besättningen för %(vehicleName)s&zwnbsp;?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "Omskola till %(vehicleName)s\noch ändra huvudutbildning till %(role)?"
+
+msgid "retrain/title/single/simple"
+msgstr "Omskola till %(vehicleName)s"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "Förmågor ej giltiga för utbildningen kan inte användas. Du måste återställa dem manuellt."
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "Besättningen kan flyttas till en Premiumvagn av samma typ utan omskolning eller negativa effekter, men ogiltiga förmågor måste återställas manuellt."
+
+msgid "rudyInfo/message"
+msgstr "Odödliga klassiker redan i spelet! \"Fyra pansarsoldater och en hund\" (Polska: \"Czterej pancerni i pies\") var en svart-vit polsk TV-serie baserad på en roman med samma namn av Janusz Przymanowski. TV-serien, som hade premiär 9 maj 1966 följer besättningen i en T-34-85 med smeknamnet Rudy (Röd/rödhårig) och deras hund Szarik under Andra Världskriget."
+
+msgid "rudyInfo/submit"
+msgstr "Uppfattat!"
+
+msgid "rudyInfo/title"
+msgstr "Fyra pansarsoldater och en hund"
+
+msgid "selectVehicle/counter"
+msgstr "Visade vagnar:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "Välj anfallande vagn"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "Välj den här vagnen"
+
+msgid "sellConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "sellConfirmation/submit"
+msgstr "Sälj"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "Sälj"
+
+msgid "sellModuleConfirmation/title"
+msgstr "Bekräfta försäljning"
+
+msgid "sellShellConfirmation/submit"
+msgstr "Sälj granat '%(shellName)s'?"
+
+msgid "sendInvites/common/title"
+msgstr "Bjud in till taktisk enhet"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "Avbryt"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "Sessionsstatistiken återställs automatiskt om{}"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "Återställ"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s t %(minutes)s min"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "Återställ sessionsstatistiken?"
+
+msgid "shopSyncError/cancel"
+msgstr "Fortsätt"
+
+msgid "shopSyncError/message"
+msgstr "Uppdatera spelklienten. Om felet kvarstår, uppdatera servern."
+
+msgid "shopSyncError/title"
+msgstr "Avsynkronisering"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "Avbryt"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "Träna valda förmågor?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "Träna"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "Tillämpa"
+
+msgid "soundModeInvalid/cancel"
+msgstr "Avbryt"
+
+msgid "soundModeInvalid/message"
+msgstr "Filer för den valda meddelanderösten är skadade eller saknas, meddelanderösten kommer ställas om till standardrösten."
+
+msgid "soundModeInvalid/submit"
+msgstr "Spara"
+
+msgid "soundModeInvalid/title"
+msgstr "Fel"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "Avbryt"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "Det valda ljudsystemet matchade inte det som automatiskt identifierades av spelklienten. Vissa ljud kanske inte är tillgängliga. Vi rekommenderar att du testar skillnaden. Bekräfta förändring?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "Bekräfta"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "Ljudsystemet matchar ej"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "Nej"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "Det valda ljudsystemet matchade inte det som automatiskt identifierades av spelklienten. Du kan testa skillnaden. Vissa ljud kanske inte är tillgängliga. Använd optimala ljudinställningar?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "Ja"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "Ljudsystemet matchar ej"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "Svar: Ja!"
+
+msgid "squad/eventDisabled/message"
+msgstr "Evenemanget ej tillgängligt. Plutonen upplöses."
+
+msgid "squad/eventDisabled/title"
+msgstr "Evenemanget avslutat"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Avbryt"
+
+msgid "squad/goToAnother/message"
+msgstr "Du är medlem i en pluton. Om du ändrar stridsläge kommer du bli utesluten ur plutonen."
+
+msgid "squad/goToAnother/submit"
+msgstr "Fortsätt"
+
+msgid "squad/goToAnother/title"
+msgstr "Ändra läge"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "Avbryt"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "När du byter strider upplöses din aktuella pluton. Vill du byta stridstyp?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "Bekräfta"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "Byta stridstyp"
+
+msgid "squad/goToSquad/cancel"
+msgstr "Avbryt"
+
+msgid "squad/goToSquad/message"
+msgstr "Lämna den taktiska enheten och skapa en pluton med spelaren?"
+
+msgid "squad/goToSquad/submit"
+msgstr "Skapa"
+
+msgid "squad/goToSquad/title"
+msgstr "Skapa pluton"
+
+msgid "squad/leave/cancel"
+msgstr "Avbryt"
+
+msgid "squad/leave/message"
+msgstr "Är du säker på att du vill lämna plutonen?"
+
+msgid "squad/leave/submit"
+msgstr "Bekräfta"
+
+msgid "squad/leave/title"
+msgstr "Lämna"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Fortsätt"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Du kan inte lämna plutonen. Du är en plutonmedlem och är redo för strid."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Obs"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "Avbryt"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "Plutonen är inte komplett. En till spelare kommer läggas till automatiskt. Gå i strid?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "Till Strid!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "Pluton inte redo"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "Avbryt"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "Plutonen är inte full. Gå med i striden ändå?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "Till Strid!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "Pluton inte redo"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "Avbryt"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "Plutonen är inte komplett. Lägg till spelare och gå i strid automatiskt?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "Till Strid!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "Pluton inte redo"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "Avbryt"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "En plutonmedlemmar är inte redo. Gå med i striden ändå?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "Till Strid!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "Pluton inte redo"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "Avbryt"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "Spelaren som inte bekräftade att de är redo kommer uteslutas ur den taktiska enheten. En ny spelare kommer läggas till automatiskt. Gå i strid?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "Till Strid!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "Pluton inte redo"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "Avbryt"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "Ingen av de andra plutonmedlemmarna är redo. Gå med i striden ändå?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "Till Strid!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "Pluton inte redo"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "Avbryt"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "Plutonen är inte komplett. Spelare som inte bekräftat att de är redo kommer uteslutas ut den taktiska enheten. Lägg till spelare och gå i strid automatiskt?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "Till Strid!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "Pluton inte redo"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "Misslyckades att delta i ny strid: flera spelare har inte återvänt. Vänta tills den nuvarande striden avslutats."
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "Uppfattat!"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "Pluton inte redo"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "OK"
+
+msgid "squadPremiumNeeded/message"
+msgstr "Endast premiumkontoanvändare kan skapa en pluton.\nAnvändaren som skapar en pluton kan bjuda in spelare oavsett deras kontotyp."
+
+msgid "squadPremiumNeeded/title"
+msgstr "Endast Premiumkonto"
+
+msgid "steamStartNeeded/cancel"
+msgstr "Stäng spelet"
+
+msgid "steamStartNeeded/message"
+msgstr "Spelet måste startas genom Steam för att logga in korrekt."
+
+msgid "steamStartNeeded/title"
+msgstr "Kan inte logga in"
+
+msgid "stronghold/leave/cancel"
+msgstr "Avbryt"
+
+msgid "stronghold/leave/message"
+msgstr "Är du säker på att du vill lämna enheten?"
+
+msgid "stronghold/leave/submit"
+msgstr "Bekräfta"
+
+msgid "stronghold/leave/title"
+msgstr "Lämna enheten"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "När du lämnar enheten kommer den upplösas.\nKlanen kommer få böta för att inte ha ställt upp i en strid.\nÄr du säker på att du vill lämna enheten?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "Lämna enheten"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "Avbryt"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "Fortsätt"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "Flytta till en annan server"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "tradeInConfirmation/message"
+msgstr "%(vehName)s kommer lämnas in och inte längre vara tillgänglig för återställning.%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " Vidare kommer %(operations)s."
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "besättningen skickas till logementet"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "förnödenheter skickas till förrådet"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "utrustningen demonteras utan extra kostnad"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "alla inköpta Dubbelanpassningar kommer tas bort, men standardanpassningar kvarstår"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "ammunitionen skickas till förrådet"
+
+msgid "tradeInConfirmation/submit"
+msgstr "Inbyte"
+
+msgid "tradeInConfirmation/title"
+msgstr "Inbyte av vagn"
+
+msgid "tradeInPopover/descr"
+msgstr "Tillgängliga Premiumvagnar i garaget"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "Visa vagnsnation."
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "Nation"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "Visar hur mycket du sparar när den valda vagnen byts in"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "Vagns-\nvärdering"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "Vagnsvärdering"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "Visa vagnsklass."
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "Klass"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "Visa vagnsnamn."
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "Namn"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "Visa vagnstyp."
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "Typ"
+
+msgid "tradeInPopover/title"
+msgstr "Välj vagn för inbyte"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "Välj en vagn"
+
+msgid "updateNeeded/cancel"
+msgstr "Senare"
+
+msgid "updateNeeded/message"
+msgstr "Vänligen uppdatera klienten."
+
+msgid "updateNeeded/submit"
+msgstr "Uppdatera"
+
+msgid "updateNeeded/title"
+msgstr "Uppdatering Krävs"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "Träna besättningsmedlemmen för {%d} guld?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "Träna"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "Bekräfta träning"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "Guld saknas för träning."
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "Guld saknas"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "Avbryt"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "Träna besättningsmedlemmen för {%d} krediter?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "Träna"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "Bekräfta träning"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "Krediter saknas för träning."
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "Krediter saknas."
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "Avbryt"
+
+msgid "vehConf/exitDialog/message"
+msgstr "Inga förändringar sparas. Lämna vagnsinställningarna?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "Bekräfta"
+
+msgid "vehConf/exitDialog/title"
+msgstr "Avbryt ändringar"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "Ta bort %(name)s från garaget"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "Avbryt"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "Obs! Detta är en specialvagn. Om du säljer den måste du vänta %(cooldown)s dagar innan du kan återställa den. Sälj vagnen?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "Bekräfta"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "Bekräfta försäljning"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "Avbryt"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "Obs! Detta är en specialvagn. Om du säljer kan du återställa den. Sälj vagnen?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "Bekräfta"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "Bekräfta försäljning"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "Avbryt"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "Avbryt"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "Obs! Denna vagn är unik och kan inte återställas. Även besättningen kommer permanent raderas."
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "Bekräfta"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "Bekräfta försäljning"
+
+msgid "vehicleSell/unique/message"
+msgstr "Observera! Detta är en specialvagn. Du kommer inte kunna köpa den i affären. Fortsätt ändå?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "Bekräfta"
+
+msgid "vehicleSell/unique/title"
+msgstr "Bekräfta försäljning"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "Bekräfta köp"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "För att bekräfta, ange försäljningspriset från kolumnen \"Totalt\" (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "Du har angivit felaktig information."
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "AMMUNITION:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "ANVISNINGAR:"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "Avbryt"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "TOTALT:"
+
+msgid "vehicleSellDialog/count"
+msgstr "st"
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "Permittera"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "Skicka till logement"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "BESÄTTNING:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "UTSEENDE:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "Nedmontera"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "FÖRNÖDENHETER:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "Information"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "FÖRRÅD:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "Kostnad:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "Inklusive alla nationella utföranden av vagnen!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "Moduler"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "UTRUSTNING:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "När vagnen sålts kvarstår aktuell nivå av Fältanpassning, men alla Dubbelanpassningar tas bort."
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "Mottaget:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "Ta bort"
+
+msgid "vehicleSellDialog/submit"
+msgstr "Sälj"
+
+msgid "vehicleSellDialog/title"
+msgstr "Sälj %(name)s"
+
+msgid "vehicleSellDialog/unload"
+msgstr "Skicka till förrådet"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "Elit"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "Kostnad"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "Klass. "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "Roll: "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "PvKv"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "Artillerivagn"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "Tung strv"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "Lätt strv"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "Medeltung strv"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "Uppfattat!"
+
+msgid "voiceChatInitFailed/message"
+msgstr "Fel vid start av röstchatt: funktionen är ej tillgänglig för tillfället."
+
+msgid "voiceChatInitFailed/title"
+msgstr "Initialiserar röstchatt"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "OK"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "Röstchatt initialiserad."
+
+msgid "voiceChatInitSucceded/title"
+msgstr "Initialiserar röstchatt"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "Stäng"
+
+msgid "waterQualityNotPossible/message"
+msgstr "Högkvalitetsvatten är endast tillgängligt med inställningen 'Ytterligare Upprensning' påslagen."
+
+msgid "waterQualityNotPossible/title"
+msgstr "Vattenkvalitet Otillgänglig"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "Avbryt"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "Kontrollera om vagnar är tillgängliga i garaget"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "Pris: %(price)s %(icon)s (tillgängligt: %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "Spelare: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "Valda vagnar: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "Återställ till tjänst"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "Återställ till tjänst?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "Hjälp"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "Deltagandepris"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "Stridsbonus"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "Stridspass Plus"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "Uteslut kartor"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "Exklusiv vagn"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "Exklusiva vagnar"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "Gratis demontering"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "Guldreserv"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "Intensivträning"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "Manuell erfarenhetsbonus"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "Pro-boost"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "Anpassat tjänstgöringsintyg"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "Pansarsoldatmärke"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "WOT PLUS AKTIVERAT"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "Jag är redo!"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "Förlängs {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "WOT PLUS BAS AKTIVERAT"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "Information"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "360-dagarsprenumeration"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "180-dagarsprenumeration"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}, förlängs {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "WOT PLUS PRO AKTIVERAT"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "Aktivera"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}Du kommer inte kunna boosta en annan vagn förrän om {{@ style (color #fff)}}{{boostInterval}} timmar{{/}}.{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "Aktiv Pro-boost låter den här vagnen tjäna {{@ style (color #fff)}}{{bonusPercent}} extra krediter och erfarenhet{{/}}. Gäller bara en enda vagn."
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "Aktivera Pro-boost för {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "Växla"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}Bara en enda vagn kan använda boosten. Du kommer inte kunna boosta en annan vagn förrän om {{@ style (color #fff)}}{{boostInterval}} timmar{{/}}.{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "Aktiv Pro-boost låter den här vagnen tjäna {{@ style (color #fff)}}{{bonusPercent}} extra krediter och erfarenhet{{/}}. Gäller bara en enda vagn."
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "Flytta Pro-booster till {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "Avbryt"
+
+msgid "wotPlusRental/description"
+msgstr "Nästa hyrvagn tillgänglig den {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "Hyr"
+
+msgid "wotPlusRental/title"
+msgstr "Hyr {cream_Open}%s{cream_Close}?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "Spara"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "Vill du spara ditt anpassade Tjänstgöringsintyg?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "Avbryt"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "Spendera all erfarenhet intjänad i denna vagn på träning av besättning. Den minst erfarna besättningsmedlemmen kommer tränas dubbelt så fort."
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "PÅ"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "Öka träningshastighet?"

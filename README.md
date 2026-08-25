@@ -1,13 +1,18 @@
-# wot-src
+# wot-src • wot-eu • 2.3.1.3 #926
 
-Публичная история читаемых исходников и текстовых данных клиентов World of Tanks и «Мира
-танков». Служебный код и GitHub Actions workflows находятся в ветке
+Публичная история читаемых исходников и текстовых данных клиентов World of Tanks и «Мира танков». Служебный publisher-код и reusable workflow находятся в ветке
 [`main`](https://github.com/wotstat/wot-src/tree/main), а данные каждого клиента — в отдельной региональной ветке.
 
 Скачать только текущую data-ветку без истории:
 
 ```bash
 git clone --branch wot-eu --single-branch --depth 1 https://github.com/wotstat/wot-src.git
+```
+
+Скачать все data-ветки без истории:
+
+```bash
+git clone --depth 1 --no-single-branch https://github.com/wotstat/wot-src.git
 ```
 
 ## Регионы
@@ -22,10 +27,7 @@ git clone --branch wot-eu --single-branch --depth 1 https://github.com/wotstat/w
 | Мир танков — Россия | [`mt-ru`](https://github.com/wotstat/wot-src/tree/mt-ru) |
 | Мир танков — Public Test | [`mt-public-test`](https://github.com/wotstat/wot-src/tree/mt-public-test) |
 
-Первая публикация создаёт data-ветку сразу на version commit. Его сообщение строится из
-`sources/version.xml` без префикса `v.` в формате `2.3.1.0 #903`, а точный release name
-записывается в `.version_name`.
-Транспортные staging commits в историю data-ветки не входят.
+Версия игры с которой снят снепшот записывается в commit сообщение и `.version_name`.
 
 ## Структура data-ветки
 
@@ -40,9 +42,8 @@ sources-gameface/    # содержимое base/res/gui/gameface без исх�
 stubs/               # полный manifest payload IDE stubs
 ```
 
-Для клиентов Wargaming default locale накладывается поверх `base` в `sources/`, а все локали,
-включая default locale, также сохраняются в `locales/`. У клиентов Lesta отдельного дерева
-`locales/` нет: локализованные файлы уже входят в `sources/`.
+Для клиентов Wargaming default locale накладывается поверх `base` в `sources/`, а все локали, включая default locale, также сохраняются в `locales/`.
+У клиентов Lesta отдельного дерева `locales/` нет, их локализованные файлы уже входят в `sources/`.
 
 
 ## Текущая публикация
@@ -51,6 +52,6 @@ stubs/               # полный manifest payload IDE stubs
 - Ветка: `wot-eu`
 - Версия: `2.3.1.5412`
 - Publisher: `wargaming`
-- GameSnapshot: `sha256:0737e69564b5943debbdff06ff4683771c915f8a4bb1630cc730cac11ab59cc2`
+- GameSnapshot: `sha256:a76a24830d62c0b6178e360564e7044d7781bee30ba282c56c69a524c0b73130`
 
 Машиночитаемые метаданные и контрольные идентификаторы находятся в `.publication.json`.

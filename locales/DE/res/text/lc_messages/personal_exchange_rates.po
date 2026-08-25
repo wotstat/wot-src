@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Begrenzter Wechselkurs"
+msgstr[1] "Begrenzter Wechselkurs %(index)s"
+msgstr[2] "Begrenzter Wechselkurs %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "Mindestens ein Limit wurde überschritten. Ein Teil der Zahlung wird zum nächsten Wechselkurs erfolgen."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Grundlegender Wechselkurs"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "Nächster anwendbarer Wechselkurs"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Anzahl aktiver begrenzter Wechselkurse: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Gesamtmenge zu begrenztem Wechselkurs: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "Nach Tausch:"
+
+msgid "common/cancel"
+msgstr "Abbrechen"
+
+msgid "common/combinedDiscount"
+msgstr "Kombinierter Rabatt"
+
+msgid "common/exchange"
+msgstr "Tauschen"
+
+msgid "common/exchangeRate"
+msgstr "Wechselkurs"
+
+msgid "common/limitExceeded"
+msgstr "Limit überschritten. Der Tausch wird mit einem kombinierten Rabatt vorgenommen."
+
+msgid "common/limitOverExceeded"
+msgstr "Limit überschritten: Kombinierter Rabatt wird genutzt."
+
+msgid "common/limitRestrictions"
+msgstr "MEHR ERFAHREN"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Grundlegender Wechselkurs: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Allgemeiner Wechselkurs: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "%(gold)s Gold erfolgreich eingetauscht. Erhaltene Kreditpunkte: %(res)s."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Persönlicher Wechselkurs: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Persönlicher Wechselkurs: %(rateFrom)s = %(rateTo)s. Limit überschritten."
+
+msgid "exchangeXP/information"
+msgstr "%(res)s EP wurden erfolgreich in Freie EP umgetauscht. Ausgegebenes Gold: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "Verfügbare EP:"
+
+msgid "experienceExchange/paid"
+msgstr "Ausgegeben"
+
+msgid "experienceExchange/received"
+msgstr "Erhalten"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Nach Fahrzeugstufe sortieren"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Nach Stufe der Feldaufrüstung sortieren"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Nach Fahrzeugnamen sortieren"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Nach Nationen sortieren"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Nach Fahrzeugtyp sortieren"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Nach gewähltem Fahrzeug sortieren"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Nach verdienten EP sortieren"
+
+msgid "goldExchange/paid"
+msgstr "Von"
+
+msgid "goldExchange/received"
+msgstr "Zu"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s Gold = %(resourceRate)s Kreditpunkte"
+
+msgid "notification/discountDescription/message"
+msgstr "Persönlicher Wechselkurs"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "Zum Umtausch"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Neuer Wechselkurs verfügbar!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Grundlegender Wechselkurs"
+
+msgid "tooltip/common/generalRate"
+msgstr "Allgemeiner Wechselkurs"
+
+msgid "tooltip/common/personalRate"
+msgstr "Persönlicher Wechselkurs"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Bevorzugter Wechselkurs"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Vorübergehender Wechselkurs"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "Die Menge kann erst nach dem Kauf von Gold bestimmt werden."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Menge an Gold nach Tausch"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s Gold = %(resourceRate)s Freie EP"

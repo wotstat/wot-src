@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "Über den Battle Pass"
+
+msgid "about/position/header"
+msgstr "Verteilung der Punkte für den Battle Pass"
+
+msgid "about/position/text"
+msgstr "Nach jedem Gefecht erhalten Sie gemäß Ihrer Platzierung eine Anzahl Punkte für den Battle Pass. Sie erhalten zusätzliche Punkte für den Battle Pass, wenn sich Ihre Frontlinienstufe steigert."
+
+msgid "about/scores/header"
+msgstr "Punkte für den Battle Pass"
+
+msgid "about/scores/text"
+msgstr "Eine besondere Währung für den Battle Pass, die in Zufallsgefechten und im Modus Frontlinie verdient werden kann. Punkte für den Battle Pass werden für das Erreichen von Frontlinienstufen und die Platzierung in den Gefechtsergebnissen verliehen. Fahrzeuge der Frontlinie können unbegrenzt Punkte verdienen."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Niederlage"
+
+msgid "about/scoresTable/topCell"
+msgstr "Beste {{top}} nach verdienten EP"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Sieg"
+
+msgid "about/text"
+msgstr "Der Battle Pass ist ein langfristig ausgelegtes Event, bei dem die Spieler von Stufe zu Stufe fortschreiten, indem sie Punkte für den Battle Pass sammeln. Jede abgeschlossene Stufe bringt wertvolle Belohnungen. Nach Abschluss bestimmter Stufen erhalten Spieler Marken für den Battle Pass – eine besondere Währung, die genutzt werden kann, um einzigartige Fahrzeuge und andere wertvolle Belohnungen im entsprechenden Abschnitt des Nachschubs zu erwerben."
+
+msgid "addons/cellRent/header"
+msgstr "Mietfahrzeuge"
+
+msgid "addons/cellRent/text_10"
+msgstr "Diverse Fahrzeuge der Stufe {{vehiclesLevel}} können für Kreditpunkte gemietet werden. Besatzungsmitglieder von Fahrzeugen desselben Typs und derselben Nation können ohne Malus oder Umschulung auf diese verlegt werden."
+
+msgid "addons/cellRent/text_9"
+msgstr "Diverse Fahrzeuge der Stufe {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} können für Kreditpunkte gemietet werden. Besatzungsmitglieder von Fahrzeugen desselben Typs und derselben Nation können ohne Malus oder Umschulung auf diese verlegt werden."
+
+msgid "addons/cellSpectator/header"
+msgstr "Zuschauermodus"
+
+msgid "addons/cellSpectator/text"
+msgstr "Während Sie auf den Wiedereinstieg warten, können Sie in den Zuschauermodus gehen, um das Schlachtfeld zu studieren und Ihre weiteren Taktiken zu planen."
+
+msgid "addons/cellTime/header"
+msgstr "Zusätzliche Zeit"
+
+msgid "addons/cellTime/text"
+msgstr "Wird eine Basis erobert und läuft die Gefechtszeit ab, erhält Ihr Team zusätzliche Zeit. Unterbricht das verteidigende Team die Eroberung seiner Basis, wird die zusätzliche Zeit auf Null gesetzt."
+
+msgid "addons/header"
+msgstr "Zusätzliche Informationen"
+
+msgid "levelUp/sectionHeader"
+msgstr "Fahrzeuge der Stufe {{level}}"
+
+msgid "levelUp/text"
+msgstr "Wie zuvor können anfangs nur Fahrzeuge der Stufe {{vehiclesLevelFrom}} genutzt werden, Fahrzeuge der Stufe {{vehiclesLevelTo}} können aber in der Garage vorbereitet werden. Sobald eine Basis der zweiten Linie (D, E, F) eingenommen wurde, können beide Teams Fahrzeuge der Stufe {{vehiclesLevelTo}} einsetzen."
+
+msgid "main/cellDuration/header"
+msgstr "Dauer"
+
+msgid "main/cellDuration/text"
+msgstr "Frontlinie läuft {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}} Tage. Das Datum für den nächsten Durchlauf wird separat angekündigt."
+
+msgid "main/cellFrontline/header"
+msgstr "Frontlinie"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Massive 30v30-Gefechte mit Fahrzeugen der Stufe {{vehiclesLevel}} auf den Karten {{@ colorLegacy 'FFE4C0'}}Normandie, Kraftwerk{{/}} und {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Die Angreifer müssen 3 der 5 Großkalibergeschütze zerstören, während die Verteidiger diese beschützen müssen."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Massive 30v30-Gefechte mit Fahrzeugen der Stufen {{vehiclesLevelFrom}}–{{vehiclesLevelTo}} auf den Karten {{@ colorLegacy 'FFE4C0'}}Normandie, Kraftwerk{{/}} und {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Die Angreifer müssen 3 der 5 Großkalibergeschütze zerstören, während die Verteidiger diese beschützen müssen."
+
+msgid "main/cellLevel9/header"
+msgstr "Fahrzeuge der Stufe {{vehiclesLevel}}"
+
+msgid "main/cellLevel9/text"
+msgstr "Nachdem eine Basis der zweiten Linie (D, E, F) eingenommen wurde, können Sie das Gefecht in einem Fahrzeug der Stufe {{vehiclesLevel}} betreten."
+
+msgid "main/cellLevels/header"
+msgstr "Fahrzeuge der Stufe {{vehiclesLevel}}"
+
+msgid "main/cellLevels/text_8"
+msgstr "In diesem Modus sind nur Fahrzeuge der Stufe {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} verfügbar."
+
+msgid "main/cellLevels/text_9"
+msgstr "Nur Fahrzeuge der Stufe {{vehiclesLevel}} können das Gefecht betreten."
+
+msgid "main/cellPass/header"
+msgstr "Battle Pass"
+
+msgid "main/cellPass/text"
+msgstr "Frontlinie gibt Ihnen eine großartige Gelegenheit, Punkte für den Battle Pass zu verdienen, indem Sie an Gefechten teilnehmen und neue Frontlinienstufen erreichen."
+
+msgid "main/cellReserves/header"
+msgstr "Kategorien der Kampfreserven"
+
+msgid "main/cellReserves/text"
+msgstr "Es gibt drei Kategorien der Kampfreserven, die jeweils an einen bestimmten Platz gebunden sind. Die Reihenfolge, in der sie freigeschaltet und verbessert werden, hängt vom Fahrzeugtyp ab."
+
+msgid "main/cellScenarios/header"
+msgstr "Szenarien"
+
+msgid "main/cellScenarios/text"
+msgstr "Gefechte im Modus „Frontlinie“ nutzen eines der folgenden Szenarien: {{@ colorLegacy 'FFE4C0'}}Standardgefecht{{/}}, {{@ colorLegacy 'FFE4C0'}}Einsatzunterstützung{{/}} oder {{@ colorLegacy 'FFE4C0'}}Laune des Schicksals{{/}}. Informationen zum aktuellen Gefechtsszenario werden im Ladebildschirm, während des Countdowns vor dem Gefecht und durch Drücken der Taste „Tab“ angezeigt."
+
+msgid "main/sectionHeader"
+msgstr "Allgemeine Infos"
+
+msgid "page/backBtn"
+msgstr "ZURÜCK"
+
+msgid "page/headerUpper"
+msgstr "FRONTLINIE"
+
+msgid "percentValue"
+msgstr "{{value}} %"
+
+msgid "plusPercentValue"
+msgstr "+{{value}} %"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "Je nach erreichtem Rang erhalten Sie sowohl Frontlinien-Erfahrung als auch Gefechts-EP. Frontlinien-Erfahrung erhöht Ihre Frontlinienstufe. Insgesamt gibt es {{@ colorLegacy 'FFE4C0'}}20 Stufen{{/}}."
+
+msgid "progression/levelsSection/header"
+msgstr "Frontlinienstufen"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Frontlinienstufen{{/}} bringen Ihnen Punkte für den Battle Pass, Kampfreserve-Punkte, Anleihen, Direktiven, Umschulungsbefehle, Mentorlizenzen und Besatzungsbücher als Belohnung."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Frontlinienstufen{{/}} bringen Ihnen Kampfreserve-Punkte, Anleihen, Direktiven, Umschulungsbefehle und Besatzungsbücher als Belohnung."
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Ränge{{/}} zeigen nicht nur die Effektivität in einem bestimmten Gefecht, sondern bieten auch einen daraus resultierenden Bonus auf die Gefechts-EP. Dieser Bonus wird auf die gesamten, von allen Fahrzeugen im Gefecht verdienten Basis-EP angewandt. Wenn Sie (oder einer Ihrer Verbündeten) den Rang „General“ erreicht, erhält das gesamte Team einen Bonus von {{@ colorLegacy 'FFE4C0'}}1,5 %{{/}} bis maximal {{@ colorLegacy 'FFE4C0'}}15 %{{/}} auf die Besatzungsleistung (Hauptspezialisierung)."
+
+msgid "progression/ranksSection/header"
+msgstr "Ränge"
+
+msgid "progression/ranksSection/text"
+msgstr "Der Modus bietet ein System aus sechs Rängen, in dem Sie bis in den Rang eines Generals aufsteigen können. Sie werden für effektive Leistungen im Gefecht (Eroberung oder Verteidigung von Basen, Zerstörung von Hauptzielen) und das Sammeln von Erfahrung befördert. Es wird die Gesamterfahrung gezählt, die Sie in allen im Gefecht verwendeten Fahrzeugen erworben haben."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Bonus auf Gefechtserfahrung"
+
+msgid "progression/ranksTable/captain"
+msgstr "Hauptmann"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Bonus auf Besatzungsleistung"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Frontlinien-Erfahrung"
+
+msgid "progression/ranksTable/general"
+msgstr "General"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Leutnant"
+
+msgid "progression/ranksTable/major"
+msgstr "Major"
+
+msgid "progression/ranksTable/private"
+msgstr "Gefreiter"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Unteroffizier"
+
+msgid "progression/sectionHeader"
+msgstr "Fortschritt in der Frontlinie"
+
+msgid "progression/text"
+msgstr "Wenn Sie in diesem Modus spielen, steigen Sie im Rang auf, erlangen Fortschritte in der Frontlinie und verdienen Belohnungen."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Sekundär"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Reserveplatz 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Reserveplatz 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Reserveplatz 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Primär"
+
+msgid "reserveCategories/categories/support"
+msgstr "Tertiär"
+
+msgid "reserveCategories/config/footerText"
+msgstr "Im Szenario {{@ colorLegacy 'FFE4C0'}}Laune des Schicksals{{/}} hängt die Reihenfolge, in der Kampfreserven freigeschaltet werden, nicht vom Fahrzeugtyp ab."
+
+msgid "reserveCategories/config/header"
+msgstr "Reservenkonfiguration nach Fahrzeugtyp"
+
+msgid "reserveCategories/config/text"
+msgstr "In den Szenarien {{@ colorLegacy 'FFE4C0'}}Standardgefecht{{/}} und {{@ colorLegacy 'FFE4C0'}}Einsatzunterstützung{{/}} sind alle drei Plätze für Kampfreserven für alle Fahrzeuge verfügbar. Die Reihenfolge, in der diese freigeschaltet werden, hängt vom Fahrzeugtyp ab."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "Jagdpanzer"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Schwere Panzer"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Leichte Panzer"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Mittlere Panzer"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "Selbstfahrlafetten"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* Nur {{@ colorLegacy 'FFE4C0'}}gekaufte{{/}} Kampfreserven im Szenario {{@ colorLegacy 'FFE4C0'}}Laune des Schicksals{{/}} können auf diese Stufe verbessert werden."
+
+msgid "reserveCategories/levels/header"
+msgstr "Wie Plätze freigeschaltet und Kampfreserven verbessert werden"
+
+msgid "reserveCategories/levels/text"
+msgstr "Standardmäßig steht Ihnen eine Kampfreserve zur Verfügung. Weitere werden auf den Rängen „Unteroffizier“ und „Leutnant“ freigeschaltet. Alle drei Reserven werden bei Erreichen der Ränge „Hauptmann“ und „Major“ aufgewertet."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "Stufe {{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} oder {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}}"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Hauptmann"
+
+msgid "reserveCategories/ranks/general"
+msgstr "General"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Leutnant"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Major"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Unteroffizier"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Gefreiter"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Laune des Schicksals"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "Im Gefecht können die Spieler aus unterschiedlichen Reserven wählen, die für Fahrzeuge aller Typen verfügbar sind. Wenn Sie eine Reserve vor dem Gefecht in einen Platz einsetzen, steigert dies die Wahrscheinlichkeit, diese Reserve im Gefecht zu erhalten, um {{@ colorLegacy 'FFE4C0'}}10 %{{/}}. Wenn Sie eine Reserve kaufen, wird ihre Stufe auf {{@ colorLegacy 'FFE4C0'}}II{{/}} erhöht und Sie haben die Möglichkeit, sie bis auf Stufe {{@ colorLegacy 'FFE4C0'}}IV{{/}} zu verbessern."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Frontlinieszenarien"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Standardgefecht"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Es gelten die Standardregeln für „Frontlinie“. Die Bedingungen für den Einsatz von Kampfreserven sind unverändert."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Einsatzunterstützung"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "Bei Freischalten einer Reserve: {{@ colorLegacy 'FFE4C0'}}-50 %{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "Bei Rückkehr ins Gefecht: {{@ colorLegacy 'FFE4C0'}}-70 %{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Ein schnelleres Szenario mit reduzierter Abklingzeit für Kampfreserven:"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Gefechte im Modus „Frontlinie“ nutzen eines der folgenden Szenarien: {{@ colorLegacy 'FFE4C0'}}Standardgefecht{{/}}, {{@ colorLegacy 'FFE4C0'}}Einsatzunterstützung{{/}} oder {{@ colorLegacy 'FFE4C0'}}Laune des Schicksals{{/}}. Diese Szenarien ändern die Bedingungen für den Einsatz von Kampfreserven. Informationen zum aktuellen Gefechtsszenario werden im Ladebildschirm, während des Countdowns vor dem Gefecht und durch Drücken der Taste „Tab“ angezeigt."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Kategorien der Kampfreserven"
+
+msgid "reserveCategories/text"
+msgstr "Kampfreserven sind in drei Kategorien mit je drei Reserven unterteilt. Beim Beitritt zum Gefecht können Sie eine Reserve jeder Kategorie in den entsprechenden Platz einsetzen."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Angriffsreserven"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Aufklärungsreserven"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Taktische Reserven"
+
+msgid "reserves/sectionHeader"
+msgstr "Schnelle Reserven"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Schnellstart"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Die Vorbereitungszeit für Kampfreserven wird zu Beginn des Gefechts um 50 % verringert."
+
+msgid "reserves/sectionReload/header"
+msgstr "Sofortige Verfügbarkeit"
+
+msgid "reserves/sectionReload/text"
+msgstr "Kampfreserven sind einsatzbereit, sobald sie freigeschaltet sind."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Neuer Aufschwung"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Die Vorbereitungszeit für Kampfreserven wird bei der Rückkehr ins Gefecht mit einem neuen Fahrzeug um 70 % verkürzt."
+
+msgid "rules/backToFight/header"
+msgstr "Rückkehr ins Gefecht"
+
+msgid "rules/backToFight/text"
+msgstr "Wurde Ihr Fahrzeug zerstört, können Sie ein anderes verfügbares Fahrzeug auswählen und auf das Schlachtfeld zurückkehren, um weiter für den Sieg zu kämpfen. Sie können entsprechend Ihres Gefechtsplans einen von mehreren Einstiegsbereichen (Wiedereinstiegspunkten) auf den Flanken sowie im Hinterland auswählen. Verteidigende Spieler verfügen über eine größere Auswahl an Wiedereinstiegspunkten hinter ihren Linien, damit sie bei einem plötzlichen Durchbruch schneller zur Verteidigung der Großkalibergeschütze eilen können. Das System bietet außerdem eine spezielle Anzeige, die Spieler warnt, wenn ein Wiedereinstiegspunkt in einem gefährlichen Gebiet liegt."
+
+msgid "rules/base/header"
+msgstr "Basiseroberung"
+
+msgid "rules/base/textBottom"
+msgstr "Wird ein Fahrzeug (oder dessen Module) beschädigt, während es eine Basis erobert, wird der Eroberungsprozess nicht zurückgesetzt, sondern nur pausiert. Damit die Basiseroberung zurückgesetzt wird, müssen die Verteidiger das Gegnerfahrzeug zerstören oder es zwingen, die Basis zu verlassen. Das verteidigende Team kann eine Basis nicht zurückerobern, sobald diese von den Angreifern übernommen wurde."
+
+msgid "rules/base/textTop"
+msgstr "Das {FFE4C0_Start}angreifende Team{FFE4C0_End} muss mehrere Basen nacheinander einnehmen, um die Hauptziele zu erreichen. Jede eroberte Basis verlängert die Gefechtsdauer um 2 Minuten. Wird die letzte Basis erobert, verlängert sie sich um 4 Minuten."
+
+msgid "rules/sectionHeader"
+msgstr "Grundregeln"
+
+msgid "rules/service/header"
+msgstr "Versorgungskreise"
+
+msgid "rules/service/text"
+msgstr "Die Versorgungskreise stellen die Strukturpunkte der Fahrzeuge wieder her, versorgen alle verletzten Besatzungsmitglieder und füllen Munition auf. {FFE4C0_Start}Die Versorgungsrate ist wie folgt: 100 Strukturpunkte / ein Besatzungsmitglied / 10 %{FFE4C0_End} der Munition pro Sekunde."
+
+msgid "rules/weapons/header"
+msgstr "Ziel: 3 der 5 Großkalibergeschütze"
+
+msgid "rules/weapons/list/back"
+msgstr "Heckpanzerung: {{@ colorLegacy 'FFE4C0'}}90 mm{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "Die Dach- und Frontpanzerung kann von Granaten {{@ colorLegacy 'FFE4C0'}}nicht durchschlagen{{/}} werden."
+
+msgid "rules/weapons/list/sides"
+msgstr "Seitenpanzerung: {{@ colorLegacy 'FFE4C0'}}180 mm{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Seitenpanzerung: {{@ colorLegacy 'FFE4C0'}}210 mm{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Schwachstellen: {{@ colorLegacy 'FFE4C0'}}Tür (70 mm) und Lüftung (25 mm){{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Fünf Geschützstellungen befinden sich im Hinterland des verteidigenden Teams und sind die Hauptziele des Gefechts. Das angreifende Team muss 3 Hauptziele zerstören, während die Verteidiger sie um jeden Preis sichern müssen."
+
+msgid "subTitle/differentMonth"
+msgstr "vom {{@ colorLegacy 'FFE4C0'}}{{from}}. {{startMonth}}{{/}} bis zum {{@ colorLegacy 'FFE4C0'}}{{to}}. {{endMonth}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "vom {{@ colorLegacy 'FFE4C0'}}{{from}}. {{startMonth}} {{startYear}}{{/}} bis zum {{@ colorLegacy 'FFE4C0'}}{{to}}. {{endMonth}} {{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "vom {{@ colorLegacy 'FFE4C0'}}{{from}}. {{/}} bis zum {{@ colorLegacy 'FFE4C0'}}{{to}}. {{endMonth}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "Die Sektoren A, B und C {{@ colorLegacy 'FFE4C0'}}auf der ersten Linie{{/}} repräsentieren die Startpositionen beider Teams."
+
+msgid "winStrategy/header"
+msgstr "Siegreiche Strategie"
+
+msgid "winStrategy/mapZones"
+msgstr "Die Moduskarte bietet drei horizontale Verteidigungslinien:"
+
+msgid "winStrategy/secondLine"
+msgstr "Sobald die Sektoren der ersten Linie erobert sind, geht der Kampf auf den Sektoren D, E und F {{@ colorLegacy 'FFE4C0'}}auf der zweiten Linie{{/}} weiter."
+
+msgid "winStrategy/thirdLine"
+msgstr "Die {{@ colorLegacy 'FFE4C0'}}dritte Linie{{/}} ist nicht in Sektoren unterteilt – dort findet die entscheidende Phase des Gefechts statt. Hier befinden sich die Großkalibergeschütze, deren Zerstörung dem angreifenden Team den Sieg einbringt. Die Angreifer erhalten erst Zugang zu den Hauptzielen, wenn sie mindestens einen Sektor der zweiten Linie erobert haben. Ist ein Sektor verloren, haben die verteidigenden Spieler 1 Minute Zeit, ihn zu verlassen, bevor der Sektor bombardiert wird; andernfalls werden die verbliebenen Verteidiger durch einen Luftangriff getroffen. Die Angreifer, die versuchen, Sektoren der zweiten oder dritten Linie zu erreichen, ohne den davorliegenden Sektor zu erobern, werden ebenfalls durch einen Luftangriff zerstört."

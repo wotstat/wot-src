@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "вогнева потужність"
+
+msgid "categories/mobility"
+msgstr "рухливість"
+
+msgid "categories/stealth"
+msgstr "розвідка"
+
+msgid "categories/survivability"
+msgstr "живучість"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "Так!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "Ні!"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "Після скасування модифікацій їх можна буде заново здійснити за кредити."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "Після скасування модифікацій їх можна буде здійснити заново."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "Скасувати безкоштовно всі парні модифікації?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "Після скасування модифікації її можна буде заново здійснити за кредити."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "Після скасування модифікацій її можна буде здійснити заново."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "Скасувати безкоштовно парну модифікацію «%(modification)s»?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "ЗДІЙСНИТИ МОДИФІКАЦІЇ"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "ВИБРАТИ КАТЕГОРІЮ СЛОТА"
+
+msgid "hint/entryPoint"
+msgstr "ДОСТУПНІ МОДИФІКАЦІЇ"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "НАТИСНІТЬ, ЩОБ ПЕРЕМКНУТИ\nДОДАТКОВЕ ОБЛАДНАННЯ"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "НАТИСНІТЬ, ЩОБ ПЕРЕМКНУТИ\nПОТРІБНЕ ОБЛАДНАННЯ"
+
+msgid "hint/vehiclePreview"
+msgstr "ЗМІНИ ТТХ МАШИНИ"
+
+msgid "postProgressionIntro/okButton"
+msgstr "Так!"
+
+msgid "postProgressionIntro/title"
+msgstr "ПОЛЬОВА МОДЕРНІЗАЦІЯ"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "Особлива модифікація %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "Натисніть, щоб побачити зміни ТТХ машини після отримання рівня та виділити модифікації, що можна застосувати."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "Парна модифікація %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "Рівень Польової модернізації"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "Доступна після купівлі техніки"
+
+msgid "researchEntry/status/notResearched"
+msgstr "Доступна після отримання статусу «Елітний»"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "Доступна після купівлі техніки й отримання статусу «Елітний»"
+
+msgid "researchEntry/title"
+msgstr "ПОЛЬОВА МОДЕРНІЗАЦІЯ"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "Збільшити"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "Скасувати"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "«{bonus1} і {bonus2}»"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "«{bonuses}»"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "«{bonus}»"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "«Додаткове оснащення»"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "«Слот»"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "«Потрібне оснащення»"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "доступ до особливих модифікацій {name1} і {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "доступ до особливих модифікацій {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "доступ до особливої модифікації {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "доступ до особливих модифікацій {name1}, {name2} і {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "доступ до парних модифікацій {numbers} рівня"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "доступ до парної модифікації {number} рівня"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "Буде отримано: {unlockedItems}."
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "Збільшити рівень базової модифікації до {level}?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "Збільшити рівень базової модифікації?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "До сплати:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "Призначення"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "Доступні категорії: %(roles)."
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "Вибрана категорія: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "Можливість призначити категорію другого слота для обладнання на цій машині."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "Перше призначення категорії слота"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "Призначення ( %(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "Категорія другого слота"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "Призначити"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "Купити та змінити"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "Обміняти"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "Скасувати"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "Змінити категорію слота можна за %(price)"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "Вибрану категорію буде призначено другому слоту для обладнання. Змінити категорію слота можна за %(price)"
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "Курс обміну: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "Обмін неможливий: потрібно %(gold)"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "Призначте категорію другого слота для обладнання"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "Змініть категорію другого слота для обладнання"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "Для зміни категорії другого слота для обладнання бракує %(credits)"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "До сплати:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "Можливість встановити додатковий набір {cream_Open}обладнання{cream_Close} та {cream_Open}передбойових настанов.{cream_Close}"
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "Можливість встановити додатковий набір {cream_Open}снарядів{cream_Close} та {cream_Open}спорядження.{cream_Close}"
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "додаткове оснащення"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "потрібне оснащення"
+
+msgid "setupTooltipView/tip"
+msgstr "Перемикатися між основною й альтернативною комплектаціями машини можна в Гаражі, а також під час зворотного відліку в бою."
+
+msgid "setupTooltipView/title"
+msgstr "Альтернативна комплектація: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)Додаткове оснащення%(/accent) — це частина комплектації машини, яка складається з %(accent)обладнання та передбойової настанови%(/accent). Після отримання доступу до альтернативної комплектації можна %(accent)перемикатися між варіантами%(/accent) додаткового оснащення під час передбойового відліку."
+
+msgid "slides/additionalEquipment/title"
+msgstr "ДОДАТКОВЕ ОСНАЩЕННЯ"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "Після дослідження певного рівня Польової модернізації ви отримаєте доступ до %(accent)альтернативної комплектації%(/accent) машини та зможете підготувати в Гаражі %(accent)додатковий набір обладнання, снарядів, спорядження та передбойових настанов%(/accent). Він не замінює основної, але відкриває нові можливості. Під час зворотного відліку можна оцінити мапу/склади команд і %(accent)вибрати одну з двох%(/accent) комплектацій машини. Це допоможе краще підлаштуватися під умови майбутнього бою."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "АЛЬТЕРНАТИВНА КОМПЛЕКТАЦІЯ МАШИНИ"
+
+msgid "slides/baseModifications/description"
+msgstr "%(accent)Базові модифікації%(/accent) дають бонус до %(accent)однієї з характеристик%(/accent) машини та відкривають доступ до парних модифікацій. Ці модифікації встановлюються на техніку безкоштовно, а для їхнього дослідження потрібен бойовий або вільний досвід."
+
+msgid "slides/baseModifications/title"
+msgstr "БАЗОВІ МОДИФІКАЦІЇ"
+
+msgid "slides/extraModification/description"
+msgstr "%(accent)Особливі модифікації%(/accent) відкривають доступ до альтернативної комплектації машини та дають змогу %(accent)призначити категорію%(/accent) другому слоту для обладнання (для техніки VIII–X рівнів). Змінити вибрану категорію слота можна за кредити."
+
+msgid "slides/extraModification/title"
+msgstr "ОСОБЛИВІ МОДИФІКАЦІЇ: РОЛЬОВИЙ СЛОТ"
+
+msgid "slides/fieldModernization/description"
+msgstr "Польова модернізація — це можливість здійснити точніше рольове налаштування машини та %(accent)змінити її ТТХ%(/accent) за допомогою різних %(accent)модифікацій%(/accent). Доступ до кожної наступної модифікації відкривається після вивчення попередньої."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "ПОЛЬОВА МОДЕРНІЗАЦІЯ"
+
+msgid "slides/fieldModernization/title"
+msgstr "ЗМІНА ТТХ ТЕХНІКИ"
+
+msgid "slides/modificationTree/description"
+msgstr "Дерево модифікацій доступне для досліджуваної та колекційної %(accent)техніки VI–X рівнів%(/accent), яка отримала %(accent)«Елітний» статус%(/accent). Для акційної, подарункової, нагородної та преміум техніки доступ до модифікацій відкривається відразу після купівлі."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "ДОСЛІДЖЕННЯ МОДИФІКАЦІЙ"
+
+msgid "slides/modificationTree/title"
+msgstr "ДОСЛІДЖЕННЯ МОДИФІКАЦІЙ"
+
+msgid "slides/pairedModifications/description"
+msgstr "%(accent)Парні модифікації поліпшують одну%(/accent) з характеристик машини завдяки %(accent)погіршенню іншої%(/accent). Для дослідження модифікацій потрібен бойовий або вільний досвід, а для її встановлення — кредити. %(accent)Скасовувати (знімати з машини)%(/accent) модифікації можна %(accent)безкоштовно%(/accent).\nПісля продажу техніки базові й особливі модифікації зберігаються, однак парні скасовуються."
+
+msgid "slides/pairedModifications/title"
+msgstr "ПАРНІ МОДИФІКАЦІЇ"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)Потрібне оснащення%(/accent) — це частина комплектації машини, яка складається з %(accent)боєзапасу та спорядження%(/accent). Після отримання доступу до альтернативної комплектації можна %(accent)перемикатися між варіантами%(/accent) потрібного оснащення за лічені секунди до початку битви."
+
+msgid "slides/requiredEquipment/title"
+msgstr "ПОТРІБНЕ ОСНАЩЕННЯ"
+
+msgid "slides/roleInBattle/description"
+msgstr "На відміну від типу, роль машини більш точніше відображає оптимальну %(accent)тактику ведення бою%(/accent), а також визначає, яке %(accent)дерево модифікацій%(/accent) буде доступним для конкретної машини."
+
+msgid "slides/roleInBattle/title"
+msgstr "РОЛЬ МАШИНИ В БОЮ"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "Модифікації змінюють характеристики машини, відкривають %(accent)доступ до альтернативної комплектації%(/accent) та дають змогу призначити категорію %(accent)другому слоту%(/accent) для обладнання."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "Альтернативна комплектація — це другий набір %(accent)обладнання, снарядів, спорядження та передбойових настанов%(/accent). Між комплектаціями можна перемикатися."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "Можливість вибрати та призначити категорію %(accent)другому слоту%(/accent) для обладнання. Безпосередньо впливає на ефективність машини в бою."
+
+msgid "slides/specialModifications/title"
+msgstr "МОДИФІКАЦІЇ, АЛЬТЕРНАТИВНА КОМПЛЕКТАЦІЯ, КАТЕГОРІЯ СЛОТА"
+
+msgid "tooltips/entry_point/description"
+msgstr "Можливість додаткової зміни характеристик машини."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "Досліджено модулів і машин: %(explored) / %(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "Досліджено модулів: %(explored) / %(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "Польова модернізація"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "Доступна після купівлі техніки."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "Доступна після отримання статусу «Елітний»."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "Доступна після купівлі техніки й отримання статусу «Елітний»."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "Вибачте за тимчасові незручності. Спробуйте пізніше."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "Особливі модифікації недоступні"
+
+msgid "tooltips/feature/subTitle"
+msgstr "Особлива модифікація %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "Здобудьте їх у бою, продайте надлишки зі Складу чи обміняйте золото."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "Недостатньо кредитів"
+
+msgid "tooltips/pairModification/demount"
+msgstr "Демонтаж"
+
+msgid "tooltips/pairModification/level"
+msgstr "Парна модифікація %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "Зміна характеристик машини:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "Демонтаж ( %(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "Встановлення ( %(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "Встановлення"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "Натисніть, щоб побачити зміни ТТХ машини після встановлення цієї модифікації."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "Після скасування модифікації ви зможете за кредити встановити будь-яку модифікацію з цієї пари."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "Проведення цієї модифікації автоматично скасує вже встановлену з цієї пари."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "Встановлена інша модифікація"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "Дістаньтеся %(level) рівня Польової модернізації, щоб отримати доступ до цієї модифікації"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "Модифікація недоступна"
+
+msgid "tooltips/priceBlock/free"
+msgstr "Безкоштовно"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "бракує:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "Приблизна кількість. Точні значення вказані в ТТХ."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "Застосувати"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "Скасувати"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "Скинути"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "Модифікації %(title)s"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "Додати до порівняння"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "Знищити всі пари"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "Натисніть, щоб знищити всі модифікації в усіх парах."
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "Знищити"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "Попередній перегляд"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "Змінити"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "Перед боєм"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "Вибрати"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "Увімкнути/вимкнути можливість вибору комплектів обладнання та настанов під час передбойового відліку.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "Увімкнути/вимкнути можливість вибору комплектів снарядів і спорядження під час передбойового відліку.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "Якщо налаштування вимкнено, в бою використовуватимуться комплекти, вибрані в Гаражі."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "Перемикання перед боєм"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "Машина в бою."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "Машину заблоковано."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "Машині потрібен ремонт."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "Машина в складі формування."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "Призначення категорії слота недоступне: машини немає в Гаражі."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "Прокат машини завершений."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "Машина в бою."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "Машину заблоковано."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "Машині потрібен ремонт."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "Машина в складі формування."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "Встановлення недоступне: машини немає в Гаражі."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "Прокат машини завершений."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "Натисніть, щоб знищити модифікацію в цій парі."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "Знищити"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "або"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "Максимальний рівень Польової модернізації"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "Доступне для техніки {minAllowedLevel}–{maxAllowedLevel} рівнів"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "Доступне для техніки {allowedLevel} рівня"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "Приховати ТТХ"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "Постійний бонус: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "Постійний бонус: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "Постійний бонус: %(bonus1) та %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "Збільшення рівня дасть постійні бонуси: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "Збільшення рівня дасть постійний бонус %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "Збільшення рівня дасть постійні бонуси %(bonus1) та %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "Збільшити рівень"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "Збільшити до %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "Збільшення дасть:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "Поліпшення ТТХ"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "Особливі модифікації"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "Особлива модифікація {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "Парні модифікації"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "Парна модифікація {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "До модулів"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "Польова модернізація недоступна: машина в бою."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "Польова модернізація недоступна: машину заблоковано."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "Польова модернізація недоступна: машині потрібен ремонт."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "Можливість додатково змінити характеристики машини буде доступна після отримання «Елітного» статусу."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "Польова модернізація недоступна: машина в складі формування."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "Збільшення рівня Польової модернізації та дослідження модифікацій можливо з наявною машиною в Гаражі."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "Польова модернізація недоступна для прокатної техніки. Купіть цю машину, щоб отримати доступ."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "Польова модернізація недоступна: прокат машини завершений. Продовжте прокат, щоб отримати доступ."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "ПОКАЗАТИ ТТХ"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "Можливість додаткової зміни характеристик машини. Доступна після отримання технікою «Елітного» статусу."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "Польова модернізація"

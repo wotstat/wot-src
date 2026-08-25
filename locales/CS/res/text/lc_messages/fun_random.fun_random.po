@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "Bitvy %(leftDetailedSeasonName)s skončily"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Na všech serverech platí příměří. Bitvy budou dostupné za %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "Bitvy %(leftDetailedSeasonName)s skončily"
+
+msgid "alertMessage/allNotSet"
+msgstr "Tento režim není na serveru %(serverName)s dostupný"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Vyberte jiný server"
+
+msgid "alertMessage/notAvailable"
+msgstr "Na serveru %(serverName)s platí příměří"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Na serveru %(serverName)s platí příměří"
+
+msgid "alertMessage/notSet"
+msgstr "Tento režim není na serveru %(serverName)s dostupný"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Na tomto serveru platí příměří. Bitvy budou dostupné za %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "Bitvy %(leftDetailedSeasonName)s skončily"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Tento režim není na serveru %(serverName)s dostupný"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Žádná vhodná vozidla"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s – %(end)s"
+
+msgid "calendarDay/title"
+msgstr "Rozvrh"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "REŽIM"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} – přepínání do jiného režimu hry"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "Režim bude k dispozici"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "Příměří {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "Bitvy skončily"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "Režim již není nadále k dispozici"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "Režim bude k dispozici po dobu {{timer}}"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s nemůže bojovat v bitvách „%(modeName)s“."
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "Nekompatibilní typ vozidla"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "Pro účast v režimu „%(modeName)s“ vyberte vozidlo %(levelSubStr)s."
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "Nekompatibilní úroveň vozidla"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "%(levels)s. úrovně"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s nemůže bojovat v režimu „%(modeName)s“."
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "Nekompatibilní vozidlo"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "Na tomto serveru platí příměří. Vyberte prosím jiný server."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "Nelze vstoupit do bitvy"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "Tento režim není na vybraném serveru dostupný."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "Nelze vstoupit do bitvy"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "Bitvy %(subModeName)s skončily"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "Nelze vstoupit do bitvy"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "Změňte režim, nebo vyberte vozidlo, které splňuje požadavky."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "Vozidlo není vhodné pro tento režim"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "Založte taktickou jednotku o 2 či 3 hráčích pro spolupráci v bitvách %(modeName)s."
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "Četa"
+
+msgid "invite/text/detailedTitle"
+msgstr "Pozvánka ke vstupu do čety %(detailedModeName)s"
+
+msgid "invite/tooltip/noVehicles"
+msgstr "V garáži musíte mít alespoň jedno vozidlo."
+
+msgid "lootboxTooltip/chance"
+msgstr "Šance na padnutí: %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "Jeden herní předmět ze seznamu níže:"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "VŠECHNY FÁZE DOKONČENY"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "VŠECHNY FÁZE STÁVAJÍCÍ\nMISE DOKONČENY"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "Odměny za další fázi – odemknete na %(stagePoints)s bodech"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "Odměna za další fázi"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "%(time)s do konce aktivní fáze"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "%(time)s do dalšího spuštění"
+
+msgid "modeSelector/notStarted"
+msgstr "Tento režim brzy začne"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "NA REŽIMY"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "Z technických důvodů nedostupné"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "Dokončili jste všechny fáze stávající mise"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "Odměny: %(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "Bitvy skončily"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "Již brzy"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "Začne za"
+
+msgid "modeSubSelector/subtitle"
+msgstr "VYBERTE DÍLČÍ REŽIM"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "Dev Všechny fáze dokončeny"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "Dev Aktualizace postupu"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "Zapojte se do akce!"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "Vstupte do boje!"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "Akce „Arkádový automat“ jsou jedinečné, časově omezené aktivity, které nabízejí odlišný zážitek oproti standardu! Bojujte v exkluzivních režimech s pravidly, která mění hru, plňte mise a získávejte vzácné odměny."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Dev Dokončili jste postup"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "Dev Získejte co nejvíce odměn:"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "Dev Points earned: {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "Dokončeno:"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "Lze opakovat"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Za dokončení:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Za porážku:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Za vítězství:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Body:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Získáno:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "Všechny aktuálně dostupné mise byly splněny"
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "Mise se objeví v okamžiku zahájení postupu"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "Prozatím jste splnili všechny dostupné mise. Další se objeví v příští rotaci."
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "Dostupné ještě {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "Dostupné ještě {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "Nové mise budou dostupné za {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "Stav akce „{{eventName}}“"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "Mise akce „{{eventName}}“"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "Všechny fáze byly dokončeny"
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "Aktualizace postupu"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "NEONOVÝ SPRINT"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "Cílová čára čeká!"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "Připraveni na závod?"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "Neonový sprint je jedinečná, časově omezená akce, která nabízí odlišný styl hry! Závoďte a rvěte se na nebezpečných tratích, plňte mise a získávejte odměny."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Tento herní režim vyžaduje vysoký výpočetní výkon. Můžete mít potíže s načítáním mapy, grafikou a pohybem vozidla. V případě nedostatečného výkonu zkuste v nastavení snížit kvalitu grafiky."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Možný omezený výkon"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Tento herní režim vyžaduje vysoký výpočetní výkon. Můžete mít potíže s načítáním mapy, grafikou a pohybem vozidla. V případě nedostatečného výkonu zkuste v nastavení snížit kvalitu grafiky."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Možný omezený výkon"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "Epická náhodná odměna"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "Legendární náhodná odměna"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "Běžná náhodná odměna"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "Vzácná náhodná odměna"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "Neobvyklá náhodná odměna"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "Mise Neonového sprintu – fáze: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "Váš postup se započítává v každém závodě Neonového sprintu."
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "Mise Neonového sprintu"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "Váš postup se započítává v každém dílčím režimu Arkádového automatu."
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "do zpřístupnění nové mise Arkádového automatu"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15–30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "Probojujte se v tomto závodním režimu, kde každý bojuje sám za sebe, až k cílové čáře."
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Všechny úrovně"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "Při nízkém nastavení grafiky se mohou objevit vizuální artefakty a další problémy. Za předpokladu, že specifikace vašeho počítače splňují požadavky, doporučujeme pro co nejlepší zážitek zvolit nejvyšší grafické nastavení. Režim vyžaduje vysoký výkon počítače. Během intenzivních bojů může dojít k poklesu FPS."
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "Je doporučeno nejvyšší nastavení grafiky"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Je doporučeno nejvyšší nastavení grafiky"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "Při nízkém nastavení grafiky se mohou objevit vizuální artefakty a další problémy. Za předpokladu, že specifikace vašeho počítače splňují požadavky, doporučujeme pro co nejlepší zážitek zvolit nejvyšší grafické nastavení. Režim vyžaduje vysoký výkon počítače. Během intenzivních bojů může dojít k poklesu FPS."
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "Je doporučeno nejvyšší nastavení grafiky"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Je doporučeno nejvyšší nastavení grafiky"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "Nová mise Neonového sprintu bude dostupná za:"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "Dílčí režim %(subModeName)s skončil. Postup vynulován."
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "Dílčí režim %(subModeName)s skončil."
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "Jsou dostupné nové odměny a dílčí režim %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "Je dostupný nový dílčí režim: %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "Dílčí režim %(subModeName)s není z důvodu údržby dostupný."
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "Dílčí režim %(subModeName)s je opět dostupný."
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "Seznam odměn"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "Blahopřejeme!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "Dokončili jste postup"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "Blahopřejeme!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "Nekonečný po-postup"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "Dokončili jste hlavní postup"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "Dokončete tuto fázi tolikrát, kolikrát chcete."
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "Bodů získáno: {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Získané body:"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "MISE NEONOVÉHO SPRINTU"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "Dokončeno:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "Lze opakovat"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Za dokončení:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Za porážku:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Za vítězství:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Body:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Získáno:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "Všechny aktuálně dostupné mise byly splněny"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "Mise se objeví v okamžiku zahájení postupu"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "Prozatím jste splnili všechny dostupné mise. Další se objeví v příští rotaci."
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "Dostupné ještě {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "Dostupné ještě {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "Nové mise budou dostupné za {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "Stav akce „{{eventName}}“"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "Mise akce „{{eventName}}“"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "LEGENDÁRNÍ ODMĚNA ZÍSKÁNA"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "%(subModeName)s je opět dostupný."
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "Zastávka v boxech"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s skončil."
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "Zastávka v boxech"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "Čas na Zastávku v boxech! Závody %(subModeName)s jsou dočasně nedostupné."
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "Zastávka v boxech"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "Každá náhodná odměna představuje předmět z níže uvedeného seznamu, který je udělen s určitou pravděpodobností."
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "Co je uvnitř?"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "Pro Neonový sprint jsou dostupná všechna vozidla."
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "Vozidla Neonového sprintu"
+
+msgid "modes/fall_tanks/userName"
+msgstr "Neonový sprint"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "Všechny fáze dokončeny"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "Aktualizace postupu"
+
+msgid "modes/undefined/capsUserName"
+msgstr "ARKÁDOVÝ AUTOMAT"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s: %(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "Zapojte se do akce!"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "Vstupte do boje!"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "Akce „Arkádový automat“ jsou jedinečné, časově omezené aktivity, které nabízejí odlišný zážitek oproti standardu! Bojujte v exkluzivních režimech s pravidly, která mění hru, plňte mise a získávejte vzácné odměny."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Tento herní režim vyžaduje vysoký výpočetní výkon. Budete mít potíže s načítáním mapy, grafikou a pohybem vozidla. V případě nedostatečného výkonu zkuste v nastavení snížit kvalitu grafiky."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Možný omezený výkon"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Tento herní režim vyžaduje vysoký výpočetní výkon. Budete mít potíže s načítáním mapy, grafikou a pohybem vozidla. V případě nedostatečného výkonu zkuste v nastavení snížit kvalitu grafiky."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Možný omezený výkon"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "Epická náhodná odměna"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "Legendární náhodná odměna"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "Běžná náhodná odměna"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "Vzácná náhodná odměna"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "Neobvyklá náhodná odměna"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "Mise Arkádového automatu – fáze: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "Váš postup se započítává v každém dílčím režimu Arkádového automatu."
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "Mise Arkádového automatu"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "Váš postup se započítává v každém dílčím režimu Arkádového automatu."
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "do zpřístupnění nové mise Arkádového automatu"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15 proti 15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "Experimentální bitvy s nestandardními pravidly."
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close}%(levels)s. úrovně&nbsp;"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "Při nízkém nastavení grafiky se mohou objevit vizuální artefakty a další problémy. Za předpokladu, že specifikace vašeho počítače splňují požadavky, doporučujeme pro co nejlepší zážitek zvolit nejvyšší grafické nastavení. Režim vyžaduje vysoký výkon počítače. Během intenzivních bojů může dojít k poklesu FPS."
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "Je doporučeno nejvyšší nastavení grafiky"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Je doporučeno nejvyšší nastavení grafiky"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "Při nízkém nastavení grafiky se mohou objevit vizuální artefakty a další problémy. Za předpokladu, že specifikace vašeho počítače splňují požadavky, doporučujeme pro co nejlepší zážitek zvolit nejvyšší grafické nastavení. Režim vyžaduje vysoký výkon počítače. Během intenzivních bojů může dojít k poklesu FPS."
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "Je doporučeno nejvyšší nastavení grafiky"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Je doporučeno nejvyšší nastavení grafiky"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "Nová mise Arkádového automatu bude dostupná za:"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "Dílčí režim %(subModeName)s skončil. Postup vynulován."
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "Dílčí režim %(subModeName)s skončil."
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "Jsou dostupné nové odměny a dílčí režim %(subModeName)s."
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "Je dostupný nový dílčí režim: %(subModeName)s."
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "Dílčí režim %(subModeName)s není z důvodu údržby dostupný."
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "Dílčí režim %(subModeName)s je opět dostupný."
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "Seznam odměn"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "Blahopřejeme!"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "Dokončili jste postup"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "Blahopřejeme!"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "Opakovatelná fáze"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "Dokončili jste hlavní postup"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "Získejte co nejvíce odměn:"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "Bodů získáno: {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Získané body:"
+
+msgid "modes/undefined/progression/title"
+msgstr "MISE ARKÁDOVÉHO AUTOMATU"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "Dokončeno:"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "Lze opakovat"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Za dokončení:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Za porážku:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Za vítězství:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Body:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Získáno:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "Všechny aktuálně dostupné mise byly splněny"
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "Mise se objeví v okamžiku zahájení postupu"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "Prozatím jste splnili všechny dostupné mise. Další se objeví v příští rotaci."
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "Dostupné ještě {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "Dostupné ještě {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "Nové mise budou dostupné za {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "Stav akce „{{eventName}}“"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "Mise akce „{{eventName}}“"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "LEGENDÁRNÍ ODMĚNA ZÍSKÁNA"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "Bitvy v dílčím režimu %(subModeName)s jsou opět dostupné."
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "Příměří"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "Bitvy %(subModeName)s skončily"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "Příměří"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "Momentálně platí příměří. Bitvy v dílčím režimu %(subModeName)s jsou dočasně nedostupné."
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "Příměří"
+
+msgid "modes/undefined/tierList/description"
+msgstr "Každá náhodná odměna je předmět z níže uvedeného seznamu, který můžete získat s určitou pravděpodobností."
+
+msgid "modes/undefined/tierList/title"
+msgstr "Co je uvnitř?"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "Ukázat/skrýt vhodná vozidla pro režim Arkádový automat."
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "Vozidla Arkádového automatu"
+
+msgid "modes/undefined/userName"
+msgstr "Arkádový automat"
+
+msgid "notification/congratulation"
+msgstr "Blahopřejeme!"
+
+msgid "notification/finishSubModes"
+msgstr "Akce „%(modeName)s“ skončila."
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "Dílčí režimy %(subModesNames)s skončily. Postup vynulován."
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "Dílčí režimy %(subModesNames)s skončily."
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "Náhodná odměna"
+
+msgid "notification/newProgression"
+msgstr "Postup akcí byl vynulován – můžete znovu získat odměny!"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "Postup akcí byl vynulován. Jsou dostupné nové dílčí režimy: %(subModesNames)s."
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "Jsou dostupné nové dílčí režimy: %(subModesNames)s."
+
+msgid "notification/progressionComplete"
+msgstr "Dokončili jste všechny mise režimu „%(modeName)s“. Získaná odměna:"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "Dokončili jste všechny mise režimu „%(modeName)s“. Je dostupná opakovatelná fáze. Získaná odměna:"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "Postup bude vynulován za méně než 1 den. Poté budete moci opět plnit mise."
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "Postup bude vynulován za následující počet dní: %(days)d. Poté budete moci opět plnit mise."
+
+msgid "notification/progressionStageComplete"
+msgstr "Dokončili jste %(stage)s. fázi režimu „%(modeName)s“. Získaná odměna:"
+
+msgid "notification/subModesSeparator"
+msgstr ", "
+
+msgid "notification/switchOffSubModes"
+msgstr "Dílčí režimy %(subModesNames)s nejsou z důvodu údržby dostupné."
+
+msgid "notification/switchOnSubModes"
+msgstr "Dílčí režimy %(subModesNames)s jsou opět dostupné."
+
+msgid "platoonView/title"
+msgstr "Četa: %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "Dostupný server: %(server)s."
+
+msgid "primeTimes/availableServers"
+msgstr "Dostupné servery:"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Server %(serverName)s\nBitvy budou dostupné za %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Server %(serverName)s\nBitvy v režimu „%(leftDetailedSeasonName)s“ skončily."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Server %(serverName)s\nBitvy budou dostupné ještě %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Server %(serverName)s\nBitvy budou dostupné za %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Server %(serverName)s\nBitvy v režimu „%(leftDetailedSeasonName)s“ skončily."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Server %(serverName)s\nBitvy budou dostupné za %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Server %(serverName)s\nBitvy v režimu „%(leftDetailedSeasonName)s“ skončily."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Na všech serverech platí příměří.\nBitvy budou dostupné za %(primeDelta)s"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "Bitvy %(leftDetailedSeasonName)s skončily."
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "Tento režim není na serveru %(serverName)s dostupný"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Na serveru %(serverName)s platí do %(primeDeltaDate)s%(primeDeltaTime)s příměří"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Na serveru %(serverName)s platí příměří"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Tento režim není na serveru %(serverName)s dostupný"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Na serveru %(serverName)s platí příměří.\nBitvy budou dostupné za %(primeDelta)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "Bitvy %(leftDetailedSeasonName)s skončily."
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Tento režim není na serveru %(serverName)s dostupný"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Bitvy na serveru %(serverName)s začnou za %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "Bitvy v režimu „%(leftDetailedSeasonName)s“ na serveru %(serverName)s skončily."
+
+msgid "primeTimes/timeText/available"
+msgstr "Bitvy na serveru %(serverName)s budou dostupné ještě %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Bitvy na serveru %(serverName)s začnou za %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "Bitvy v režimu „%(leftDetailedSeasonName)s“ na serveru %(serverName)s skončily."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Bitvy na serveru %(serverName)s začnou za %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "Bitvy v režimu „%(leftDetailedSeasonName)s“ na serveru %(serverName)s skončily."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "bodů"
+
+msgid "progression/complete/affirmative"
+msgstr "Potvrzuji!"
+
+msgid "progression/defaultCondition/text"
+msgstr "Získejte body a pokračujte v postupu."
+
+msgid "progression/infinite/pointsEarned"
+msgstr "Získané body:"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "Aktivní fáze skončila. Bitvy jsou u konce"
+
+msgid "progression/questsList/quest/completed"
+msgstr "Dokončeno:"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "Lze opakovat"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "Za dokončení:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "Za porážku:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "Za vítězství:"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "Získáno:"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "Aktivní fáze končí za: {{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "Aktivní fáze končí za:"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "Další spuštění za:"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "Odměny za další fázi – odemknou se na %(count)d bodech"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Získali jste také:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Potvrzuji!"
+
+msgid "rewardsView/subheader"
+msgstr "„%(subModeName)s“"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "Velitel čety přepnul na dílčí režim %(subModeName)s."
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "Přepnout dílčí režim"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close}%(levels)s. úrovně&nbsp;"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "NEONOVÝ SPRINT"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "Závoďte do cílové čáry a zabraňte ostatním v jejím dosažení. Využijte schopnosti „Spěch“ a „Štít“ a způsobte další chaos!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "Pozor: Pohyblivé plošiny"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "Vyhýbejte se laserům, pečlivě načasujte skoky a dojeďte do cíle!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "Pozor: Lasery a skoky"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "Pro více informací o režimu"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "stiskněte"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "Neonový sprint"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15–30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "Probojujte se\nk cílové čáře"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Všechny úrovně"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "Při nízkém nastavení grafiky se mohou objevit vizuální artefakty a další problémy. Za předpokladu, že specifikace vašeho počítače splňují požadavky, doporučujeme pro co nejlepší zážitek zvolit nejvyšší grafické nastavení. Tento režim vyžaduje vysoký výkon a během intenzivních okamžiků může dojít k poklesu FPS."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "Je doporučeno nejvyšší grafické nastavení"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Je doporučeno nejvyšší grafické nastavení"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "Při nízkém nastavení grafiky se mohou objevit vizuální artefakty a další problémy. Za předpokladu, že specifikace vašeho počítače splňují požadavky, doporučujeme pro co nejlepší zážitek zvolit nejvyšší grafické nastavení. Tento režim vyžaduje vysoký výkon počítače. Během intenzivních okamžiků může dojít k poklesu FPS."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "Je doporučeno nejvyšší grafické nastavení"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Je doporučeno nejvyšší grafické nastavení"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "Neonový sprint"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "Neonový sprint"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "„Neonový sprint“"
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close}%(levels)s. úrovně&nbsp;"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "Při nízkém nastavení grafiky se mohou objevit vizuální artefakty a další problémy. Za předpokladu, že specifikace vašeho počítače splňují požadavky, doporučujeme pro co nejlepší zážitek zvolit nejvyšší grafické nastavení. Režim vyžaduje vysoký výkon počítače. Během intenzivních bojů může dojít k poklesu FPS."
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "Je doporučeno nejvyšší nastavení grafiky"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Je doporučeno nejvyšší nastavení grafiky"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "Při nízkém nastavení grafiky se mohou objevit vizuální artefakty a další problémy. Za předpokladu, že specifikace vašeho počítače splňují požadavky, doporučujeme pro co nejlepší zážitek zvolit nejvyšší grafické nastavení. Režim vyžaduje vysoký výkon počítače. Během intenzivních bojů může dojít k poklesu FPS."
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "Je doporučeno nejvyšší nastavení grafiky"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Je doporučeno nejvyšší nastavení grafiky"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

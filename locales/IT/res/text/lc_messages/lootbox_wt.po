@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "%(count) modulo rimanente"
+msgstr[1] "%(count) moduli rimanenti"
+msgstr[2] "%(count) moduli rimanenti"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Torna ai moduli"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "Una volta aperti, questi moduli potrebbero farti ottenere veicoli Premium, valute di gioco e altre preziose ricompense."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "I Moduli Paradosso possono essere ottenuti dalla Fabbrica o dal Negozio Premium."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Moduli paradosso"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "MODULI PARADOSSO"
+
+msgid "common/getButton/lowerCase"
+msgstr "Ottieni i moduli"
+
+msgid "common/getButton/upperCase"
+msgstr "OTTIENI I MODULI"
+
+msgid "common/loader"
+msgstr "Apertura del modulo..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Apri i moduli per vedere le statistiche."
+
+msgid "common/statistics/header"
+msgstr "Moduli aperti: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Tutte le informazioni sui moduli aperti saranno eliminate."
+
+msgid "entryPoint/boxes"
+msgstr "AI MODULI"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Si tratta di moduli speciali contenenti articoli nuovi e unici, inclusi veicoli Premium, elementi di personalizzazione, valute in gioco e altre ricompense di valore.\nI moduli possono essere ottenuti dalla Fabbrica o dal Negozio Premium."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Al momento, non è possibile aprire o ottenere moduli per motivi tecnici. Ci scusiamo per il temporaneo disagio."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Moduli temporaneamente indisponibili"
+
+msgid "eventName/lowerCase"
+msgstr "Infrangi il paradosso"
+
+msgid "eventName/upperCase"
+msgstr "INFRANGI IL PARADOSSO"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Ricompensa garantita nel prossimo modulo!"
+
+msgid "guaranteedTitle/text"
+msgstr "Numero massimo di moduli prima di una ricompensa garantita: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Se non apri tutti i moduli prima della fine dell'evento, questi saranno aperti automaticamente."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Se possiedi già tutti i veicoli dalla lista di possibili contenuti del modulo, allora tutti i veicoli successivi ricevuti dai moduli saranno compensati con una somma in oro pari al loro valore intero."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Ogni %(guaranteed0)s moduli contengono un veicolo Premium garantito. Se aprendoli non dovessi trovare uno di questi veicoli, allora troverai un veicolo Premium che ancora non possiedi in occasione dell'apertura del %(guaranteed0)sº modulo. Quando ciò avviene, il contatore si azzera."
+
+msgid "infoPage/header/description"
+msgstr "Apri il modulo per avere la possibilità di ricevere preziosi articoli di gioco! Ulteriori dettagli in basso."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Dal %(name) (%(boxesCount) moduli aperti)"
+
+msgid "noBoxesView/description/"
+msgstr "Non possiedi alcun modulo. Li puoi ottenere\nnella Fabbrica o nel Negozio Premium."
+
+msgid "preview/backLabel"
+msgstr "AI MODULI"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Moduli disponibili: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nessun modulo disponibile"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Se possiedi già tutti i veicoli dalla lista di possibili contenuti del modulo, allora tutti i successivi veicoli ricevuti dai moduli saranno compensati in oro."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) modulo"
+msgstr[1] "%(remainingCount) moduli"
+msgstr[2] "%(remainingCount) moduli"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "La ricompensa garantita è un veicolo dalla lista di possibili contenuti del modulo.\nSe apri %(remainingCount) moduli senza trovare uno di questi veicoli, lo troverai all'apertura del %(count)º. In questi casi, il contatore si azzera."

@@ -1,0 +1,602 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Преводач <noreply@wargaming.net>\nLanguage-Team: WoT Екип <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleControls/casseteReload"
+msgstr "Презареди барабана"
+
+msgid "battleControls/closeBtnLabel"
+msgstr "ЗАТВОРИ"
+
+msgid "battleControls/cruiseCtrlBackward"
+msgstr "Автоматично движение назад"
+
+msgid "battleControls/cruiseCtrlForward"
+msgstr "Автоматично движение напред"
+
+msgid "battleControls/disableLockTarget"
+msgstr "Изключи автоматичния прицел"
+
+msgid "battleControls/fire"
+msgstr "Огън"
+
+msgid "battleControls/hideInterface"
+msgstr "Покажи/Скрий интерфейса"
+
+msgid "battleControls/hideMinimap"
+msgstr "Скрий/покажи миникартата"
+
+msgid "battleControls/makeScreenshort"
+msgstr "Направи снимка"
+
+msgid "battleControls/movementBackward"
+msgstr "Движение назад"
+
+msgid "battleControls/movementForward"
+msgstr "Движение напред"
+
+msgid "battleControls/movementLeft"
+msgstr "Обръщане/движение наляво"
+
+msgid "battleControls/movementRight"
+msgstr "Обръщане/движение надясно"
+
+msgid "battleControls/pageTitle"
+msgstr "ОБЩА ИНФОРМАЦИЯ"
+
+msgid "battleControls/showCursor"
+msgstr "Показване на курсора"
+
+msgid "battleControls/showCursor/ext"
+msgstr "(за миникарта, списък с играчи и т. н.)"
+
+msgid "battleControls/showExPlayerInfo"
+msgstr "Показване на алтернативен маркер"
+
+msgid "battleControls/stopFire"
+msgstr "Спиране за стрелба"
+
+msgid "battleControls/switchAutorotation"
+msgstr "Фиксиране на корпуса / смяна на режима на стрелба"
+
+msgid "battleControls/title"
+msgstr "Режим на битка:"
+
+msgid "battleControls/toggleAFL"
+msgstr "Включи/изключи осветяване на бронята"
+
+msgid "battleControls/toggleAFL/ext"
+msgstr "достъпно само в снайперски режим"
+
+msgid "battleControls/toggleLockTarget"
+msgstr "Включи/Изключи автоматичния прицел"
+
+msgid "battleControls/toggleLockTarget/ext"
+msgstr "(с прицела върху врага)"
+
+msgid "battleControls/togglePlayerPanelModes"
+msgstr "Покажи/Скрий отборните списъци"
+
+msgid "battleControls/togglePlayerPanelModes/ext"
+msgstr "или похвали в отговор"
+
+msgid "battleControls/toggleSniperMode"
+msgstr "Включи/Изключи снайперския режим"
+
+msgid "battleControls/toggleSniperMode/ext"
+msgstr "или артилерийския режим"
+
+msgid "battleControls/voiceChatMute"
+msgstr "Включи гласовия чат"
+
+msgid "chatControls/change"
+msgstr "До отбора/до взвода"
+
+msgid "chatControls/enterToChatMode"
+msgstr "Вход в чат режима"
+
+msgid "chatControls/exitFromChatMode"
+msgstr "Изход от чат режима"
+
+msgid "chatControls/send"
+msgstr "Изпрати съобщение"
+
+msgid "chatControls/title"
+msgstr "Режим на чат:"
+
+msgid "crosshairControls/ammoNumber"
+msgstr "Оставащи снаряди"
+
+msgid "crosshairControls/damageIndicator"
+msgstr "Посока на обстрела"
+
+msgid "crosshairControls/dispercion"
+msgstr "Точност"
+
+msgid "crosshairControls/example/damage"
+msgstr "-248"
+
+msgid "crosshairControls/example/hp"
+msgstr "375/720"
+
+msgid "crosshairControls/example/name"
+msgstr "T-34-85"
+
+msgid "crosshairControls/gunMarker"
+msgstr "Позиция на оръдието"
+
+msgid "crosshairControls/healthPlayer"
+msgstr "Живот на играча"
+
+msgid "crosshairControls/hpIndicator"
+msgstr "Индикатор за издръжливост"
+
+msgid "crosshairControls/hpValues"
+msgstr "Издръжливост на целта (%/останали точки живот/общо)"
+
+msgid "crosshairControls/marker"
+msgstr "Мушка на прицела"
+
+msgid "crosshairControls/reloadIndicator"
+msgstr "Презареждане на оръдието"
+
+msgid "crosshairControls/reloadTimer"
+msgstr "Време за презареждане на оръдието в секунди"
+
+msgid "crosshairControls/targetClass"
+msgstr "Маркер за тип на машина"
+
+msgid "crosshairControls/targetDistance"
+msgstr "Дистанция до целта"
+
+msgid "crosshairControls/targetIcon"
+msgstr "Икона на машина"
+
+msgid "crosshairControls/targetLevel"
+msgstr "Ниво на машина"
+
+msgid "crosshairControls/targetName"
+msgstr "Модел машина / Име на играча"
+
+msgid "crosshairControls/title"
+msgstr "Прицели и маркери:"
+
+msgid "detailsHelp/default/title"
+msgstr "Помощ"
+
+msgid "detailsHelp/devMaps/headerTitle"
+msgstr "Особености на картата"
+
+msgid "detailsHelp/devMaps/markers/description"
+msgstr "Мястото на произволното събитие ще бъде маркирано с\nдим на картата и маркер на миникартата.\nКартите с произволни събития могат да бъдат деактивирани чрез настройките в раздела \"Общи\"."
+
+msgid "detailsHelp/devMaps/title"
+msgstr "Карти с произволни събития"
+
+msgid "detailsHelp/devMaps/zone/description"
+msgstr "Машината ви може да бъде унищожена в зона на произволно събитие (например по време на самолетна катастрофа).\nКартите с произволни събития могат да бъдат деактивирани чрез настройките в раздела \"Общи\"."
+
+msgid "detailsHelp/dualGun/quick_fire"
+msgstr "Машините с тази огнева система превключват оръдията след стрелба. Оръдието, с което е стреляно, автоматично започва презареждане, а второто заредено оръдие трябва за кратко да изчака."
+
+msgid "detailsHelp/dualGun/quick_fire/title"
+msgstr "Бърз огън"
+
+msgid "detailsHelp/dualGun/volley_fire"
+msgstr "Машините със сдвоено оръдие имат специална механика на залпов огън, която се активира чрез задържане на определения клавиш. Изстреляните снаряди летят успоредно един на друг. Клавишът за управление на стрелбата може да се променя от настройките."
+
+msgid "detailsHelp/dualGun/volley_fire/title"
+msgstr "Залпов огън"
+
+msgid "detailsHelp/engineMode/engineModePage1"
+msgstr "Можете да сменяте на режима на работа на двигателя, за да е подходящ за определена тактическа ситуация. За смяна на режим машината трябва да е изцяло неподвижна и е нужно определено време, което не зависи от състоянието на модула."
+
+msgid "detailsHelp/engineMode/engineModePage1/title"
+msgstr "Нова механика на придвижване"
+
+msgid "detailsHelp/engineMode/engineModePage2"
+msgstr "Промененият режим на работа на турбината повишава мощността на двигателя и скоростта напред и назад. Но този режим прави машината ви по-видима, намалява стабилизацията на оръдието и повишава времето за прицелване."
+
+msgid "detailsHelp/engineMode/engineModePage2/title"
+msgstr "Преимущества и недостатъци"
+
+msgid "detailsHelp/mapbox/headerTitle"
+msgstr "Особености на картата"
+
+msgid "detailsHelp/mapbox/localWeather/description"
+msgstr "Машините в рамките на местна метеорологична зона не могат да забележат машини извън зоната и обратно, или да обменят информация за позициите на вражески машини извън зоната. Огънят нанася поражения на машините."
+
+msgid "detailsHelp/mapbox/localWeather/title"
+msgstr "Местно време"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/description"
+msgstr "Оставането неподвижни или движението под определена скорост позволява на машината ви да калибрира своето аналогово балистично изчислително устройство и да изгради нива на точност.\nВсяко ниво увеличава точността на следващия ви изстрел и се премахва при стрелба."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/title"
+msgstr "Аналогово балистично изчислително устройство"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/description"
+msgstr "При пълно калибриране, машината ви достига най-високо ниво на точност и получава прилична стабилизация на оръдието, с намалена разсейка по време на движение или завъртане на купола/корпуса.\nЕфектът се премахва при стрелба."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/title"
+msgstr "Пълно калибриране"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/description"
+msgstr "Вид автоматично огнестрелно оръжие с изключително висока скорострелност. Ефективността на стрелбата се показва от индикатор в кръга за прицелване."
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/title"
+msgstr "Авто-оръдие"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/description"
+msgstr "Това оръдие може да стреля непрекъснато без необходимост от презареждане. Всеки изстрел генерира топлина и непрекъснатото стреляне ще доведе до прегряване на оръдието, предотвратявайки по-нататъшна стрелба, докато не се охлади."
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
+msgstr "Автоматично оръдие с контрол на термичното прегряване"
+
+msgid "detailsHelp/mechanics/battleFury/page1/description"
+msgstr "Всеки път, когато уцелите враг със снаряд, получавате ниво на ефективност на презареждане, което временно увеличава скоростта на презареждане на оръдието ви. Нивата се натрупват с всяко попадение.\nУнищожаването на вражеска машина със снаряд дава допълнителни нива на ефективност на презареждане."
+
+msgid "detailsHelp/mechanics/battleFury/page1/title"
+msgstr "Полуавтоматична стойка за боекомплект"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/description"
+msgstr "Ако оръдието ви е заредено, можете да започнете да нагрявате следващия си изстрел. Колкото по-високо ниво на нагряване достигнете, толкова по-голям ще бъде бонусът към средните поражения.\nЗа да започнете процеса на нагряване, натиснете:"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/title"
+msgstr "Термобалистично презареждане"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/description"
+msgstr "Когато достигнете максимално ниво на нагряване, започва обратно броене. Ако не стреляте преди края му, няма да можете да стреляте или да сменяте снаряди в продължение на няколко секунди."
+
+msgid "detailsHelp/mechanics/chargeShot/page2/title"
+msgstr "Прегряване на заряда"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/description"
+msgstr "Две попадения по вражески машини с пробиване на бронята активират залповия режим, който зарежда касета за залпова стрелба, която позволява изстрелването на два снаряда в бърза последователност със следващия изстрел."
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
+msgstr "Залпов режим"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/description"
+msgstr "Пневматичният жиростабилизатор осигурява максимална стабилизация по време на завъртане на корпуса и купола за кратко време, което позволява по-прецизен огън в движение и бърза реакция на внезапни заплахи.\nЗа да го активирате, натиснете клавишната комбинация:"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/title"
+msgstr "Пневматичен жиростабилизатор"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/description"
+msgstr "Ако оръдието се е охладило достатъчно след стрелба, разсейката му ще бъде намалена. Ще се появи втори прицелен кръг с по-малък диаметър, който ще определи зоната на удара на снаряда. Този ефект продължава до следващия изстрел."
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/title"
+msgstr "Двоен прицел"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/description"
+msgstr "Системата автоматично започва да зарежда нова касета, когато в текущата остава един снаряд.\nИзстрелването на последния снаряд, докато новата касета се зарежда, добавя няколко секунди към оставащото време за презареждане."
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/title"
+msgstr "Касетъчна система за презареждане"
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/description"
+msgstr "Системата поддържа оръдието охладено, което позволява много точна стрелба. Оръдието се нагрява при изстрел, но започва да се охлажда и се връща към подобрени параметри при презареждане. Колкото по-висока е температурата му, толкова повече се променят някои от параметрите му."
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/title"
+msgstr "Активно охлаждане на оръдието"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/description"
+msgstr "Машината е специално конфигурирана за атаки с таран, със серия от конструктивни модификации, които й помагат да нанася повече поражения чрез таран."
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/title"
+msgstr "Конфигурация за таран"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/description"
+msgstr "Оръдието на тази машина може да стреля преждевременно: изстрелите с един заряд, произведени по време на презареждане, имат намалена ефективност, докато обикновените изстрели с пълен заряд, произведени след презареждане, имат оптимални балистични параметри."
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/title"
+msgstr "Система за зареждане мултипак"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/description"
+msgstr "Оставането неподвижни или движението под определена скорост генерира предварително нагряване, което увеличава средните поражения и точността на следващия ви изстрел.\nПревишаването на ограничението на скоростта постепенно намалява бонуса, докато изстрелването или смяната на снаряди го нулира незабавно."
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/title"
+msgstr "Система за термичен контрол на горивото"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/description"
+msgstr "При максимално ниво на предварително нагряване, пробиването на бронята на вражеска машина с по-малко точки живот от средните ви поражения – включително натрупания ви бонус за предварително нагряване – ще доведе до експлозия на боекомплекта й, което ще унищожи машината незабавно."
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/title"
+msgstr "Решителни поражения"
+
+msgid "detailsHelp/mechanics/powerMode/page1/description"
+msgstr "Режимът \"директно задвижване\" осигурява значително увеличение на мощността на двигателя и максималната скорост на движение напред. Колкото по-дълго карате напред, толкова повече скорост се натрупва, което ви позволява да прекосявате бойното поле с лекота."
+
+msgid "detailsHelp/mechanics/powerMode/page1/title"
+msgstr "Директно задвижване"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/description"
+msgstr "С течение на времето системата автоматично натрупва заряд, който частично се изразходва за увеличаване на пораженията при стрелба. Колкото по-висок е зарядът, толкова по-големи са бонус пораженията."
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/title"
+msgstr "Доизгорител на индукционно гориво"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/description"
+msgstr "По подразбиране системата съхранява заряда само до определен лимит. Деактивирането на ограничителя позволява натрупването на още по-висок заряд, което дава много по-голям бонус за поражения, но намалява управлението на оръдието. За да превключите ограничителя, натиснете:"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/title"
+msgstr "Ограничител"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/description"
+msgstr "Бустерите за течно гориво осигуряват прилив на мощност на двигателя, което позволява бързо движение по бойното поле, но ограничава скоростта на заден ход и на завъртане. Те могат да бъдат включвани или изключвани по всяко време, освен при критично ниво на нагряване.\nЗа да увеличите мощността, натиснете или задръжте:"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/title"
+msgstr "Бустери за течно гориво"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/description"
+msgstr "Бустерите прегряват, докато са активни, когато достигнат критичната си граница на нагряване, след което стават недостъпни за повторно активиране, докато не се охладят. Планирайте внимателно движенията си, за да избегнете изненади."
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/title"
+msgstr "Критично ниво на нагряване"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/description"
+msgstr "Използването на реактивни ускорители повишава подвижността на автомобила. Позволява ви да заемате изгодни позиции или да пресичате опасни зони по-бързо. Реактивните ускорители могат да се активират за определено време и за ограничен брой пъти на битка. Те не могат да бъдат деактивирани или унищожени."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/title"
+msgstr "Реактивни ускорители"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/description"
+msgstr "При активиране реактивните ускорители увеличават мощността на двигателя и максималната предна скорост. Машината обаче става по-малко маневрена и губи скорост на заден ход."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
+msgstr "Преимущества и недостатъци"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
+msgstr "Твърдогоривни двигатели, които увеличават ускорението, мобилността и маневреността за няколко секунди. Левият и десният двигател могат да работят независимо един от друг за по-бързо завъртане на корпуса и не ограничават възможността за заден ход."
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/title"
+msgstr "Последователни ракетни двигатели"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/description"
+msgstr "Тази машина разполага с два режима – Турбо и Боен – които могат да се превключват по всяко време. Тактическият захранващ блок акумулира енергия за активния режим.\nЗа да превключвате между режимите, натиснете:"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/title"
+msgstr "Два режима"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/description"
+msgstr "След като Тактическият захранващ пакет е напълно зареден, става достъпна специфична за режима способност. Активирането на тази способност изразходва цялата натрупана енергия и предоставя мощни бонуси за кратък период от време.\nЗа да активирате уникалната способност на режима, натиснете:"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/title"
+msgstr "Способности на режима"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/description"
+msgstr "Модулът за външно снабдяване с боеприпаси ви позволява да прекъснете презареждането и да започнете да стреляте по всяко време, стига още да имате един зареден снаряд. За да прекъснете или подновите процеса по зареждане, натиснете бързия клавиш:"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/title"
+msgstr "Модул за външно снабдяване с боеприпаси"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/description"
+msgstr "По време на презареждането модулът заключва купола на машината и вътрешното съхранение на снаряди, което не ви позволява да се прицелвате или да стреляте, освен ако не го прекъснете."
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/title"
+msgstr "Модул за външно снабдяване с боеприпаси"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/description"
+msgstr "Тази машина е оборудвана с набор спомагателни оръжия, чийто цикъл за презареждане е отделен от този на основното оръдие, което ви позволява да нанасяте допълнителни поражения в ключови моменти. За да активирате спомагателните оръжия, натиснете бързия клавиш:"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/title"
+msgstr "Спомагателни оръжия"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/description"
+msgstr "Лазерният целеуказател добавя специален ефект към следващия ви изстрел, прилаган към всеки враг, когото уцелите. Ефектът варира в зависимост от това дали врагът е бил открит в момента на удара.\nЗа да активирате лазерния целеуказател, натиснете:"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/title"
+msgstr "Лазерен целеуказател"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/description"
+msgstr "Уцелването на открита вражеска машина ще я маркира, удължавайки времето, през което остава открита, и увеличавайки пораженията, които получава от снарядите.\nУцелването на неоткрита вражеска машина ще маркира местоположението й със специален маркер."
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/title"
+msgstr "Целеуказател"
+
+msgid "detailsHelp/mechanics/twinGun/page1/description"
+msgstr "Можете да превключите режима на огън от режим на единичен огън в режим на залпов огън в зависимост от тактическата ситуация на бойното поле."
+
+msgid "detailsHelp/mechanics/twinGun/page1/title"
+msgstr "Механизъм за превключване на режима на стрелба"
+
+msgid "detailsHelp/mechanics/twinGun/page2/description"
+msgstr "Режимът на залпов огън удвоява както пораженията, така и времето за презареждане, а разсейката на машината на 100 m* се влошава."
+
+msgid "detailsHelp/mechanics/twinGun/page2/title"
+msgstr "Преимущества и недостатъци"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/description"
+msgstr "Тази механична модификация значително увеличава ускорението на машината напред и назад, мощността на двигателя и максималната скорост напред и назад за кратко време. Поддържането на висока скорост на движение ускорява времето му за охлаждане."
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/title"
+msgstr "Асистент за турбокомпресор с високо налягане"
+
+msgid "detailsHelp/noKeysWarning"
+msgstr "Ключовите клавиши не са определени. Определете ги в настройките на играта."
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1"
+msgstr "В този режим точността на оръдието, скоростта на презареждане и ъглите на повдигане/наклон са драстично увеличени, но мобилността (скорост напред/назад и скорост на вертикално/хоризонтално завъртане) е силно ограничена. За да активирате режима, %(pressAndHold)s натиснете клавишната комбинация:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/pressAndHold"
+msgstr "натиснете и задръжте"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/title"
+msgstr "Режим Бункер"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2"
+msgstr "В този режим точността на оръжието, скоростта на прицелване и ъглите на повдигане/наклон са увеличени, но мобилността (скорост напред и назад) е намалена. За да активирате режима, натиснете бързия клавиш:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2/title"
+msgstr "Обсаден режим"
+
+msgid "detailsHelp/role/description"
+msgstr "Получете бонус към опита при изпълнение на действия за роля:"
+
+msgid "detailsHelp/role/title"
+msgstr "Роля на машината в битка"
+
+msgid "detailsHelp/trackWithinTrack/description"
+msgstr "Позволява частично да се запази мобилността при унищожаване на основната верига."
+
+msgid "detailsHelp/trackWithinTrack/title"
+msgstr "Резервна верига"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique"
+msgstr "Френските колесни леки машини демонстрират най-високата скорост и динамика, но са с доста посредствен обзор. Неподвижна колесна машина не може да се върти на място."
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique/title"
+msgstr "Общо"
+
+msgid "detailsHelp/wheeledVeh/burnout"
+msgstr "Натиснете и задръжте %(key2)s и %(key1)s едновременно. Степента на запълване на скалата за мощност влияе на силата на форсиране. Отпуснете клавиша %(key1)s, за да активирате форсирането или отпуснете клавиша %(key2)s, за да отмените форсирането. Форсирането дава бързо ускорение, което може да се използва за неочаквани атаки и подлъгващи маневри. Внимание! Форсирането може да се използва само когато машината е спряла изцяло. Използването на форсиране нанася поражения на двигателя на машината ви."
+
+msgid "detailsHelp/wheeledVeh/burnout/title"
+msgstr "Форсиране"
+
+msgid "detailsHelp/wheeledVeh/stableChassis"
+msgstr "Колесните машини получават по-ниски поражения, когато се приземяват на колетата си. Освен това, колесните машини не спират да се движат при едно унищожено колело. Колкото повече колела са унищожени, толкова повече се понижава скоростта и управлението на машината. Колесните машини са по-трудни за обездвижване - унищожените колела се възстановяват напълно след определено време."
+
+msgid "detailsHelp/wheeledVeh/stableChassis/title"
+msgstr "Устойчива ходова част"
+
+msgid "detailsHelp/wheeledVeh/twoModes"
+msgstr "Натиснете %(key1)s за смяна на режима. Машините имат различна скорост, динамика и управление в различните режими."
+
+msgid "detailsHelp/wheeledVeh/twoModes/title"
+msgstr "Два режима на движение"
+
+msgid "markerColors/enemy"
+msgstr "Враг"
+
+msgid "markerColors/friend"
+msgstr "Съотборник"
+
+msgid "markerColors/squadPlayer"
+msgstr "Играч от вашия взвод"
+
+msgid "markerColors/teamKiller"
+msgstr "Играч, убил съотборник"
+
+msgid "markerColors/title"
+msgstr "Цветове на маркерите:"
+
+msgid "markerMarks/attack"
+msgstr "Атакуващ"
+
+msgid "markerMarks/follow"
+msgstr "След мен!"
+
+msgid "markerMarks/help"
+msgstr "Помощ!"
+
+msgid "markerMarks/target/sau"
+msgstr "Мишена на САУ"
+
+msgid "markerMarks/target/tank"
+msgstr "Мишена на машина"
+
+msgid "markerMarks/title"
+msgstr "Бързи команди върху миникартата:"
+
+msgid "radialMenu/ally_hq_defend_command"
+msgstr "Отбранявайте!"
+
+msgid "radialMenu/ally_hq_defend_commit"
+msgstr "Отбранявам!"
+
+msgid "radialMenu/attackAreaSPG"
+msgstr "Прицелвам се тук!"
+
+msgid "radialMenu/attack_enemy"
+msgstr "Прикривайте ме!"
+
+msgid "radialMenu/attack_enemy_with_SPG"
+msgstr "Атакувам целта!"
+
+msgid "radialMenu/attacking_base"
+msgstr "Ще завладея!"
+
+msgid "radialMenu/attacking_enemy"
+msgstr "Атакувам целта!"
+
+msgid "radialMenu/attention_to_base_atk"
+msgstr "Завладейте!"
+
+msgid "radialMenu/attention_to_base_def"
+msgstr "Отбранявайте!"
+
+msgid "radialMenu/attention_to_position"
+msgstr "Внимание към позиция!"
+
+msgid "radialMenu/cancel_reply"
+msgstr "Откажи"
+
+msgid "radialMenu/defending_base"
+msgstr "Ще отбранявам!"
+
+msgid "radialMenu/enemy_hq_attack_command"
+msgstr "В атака!"
+
+msgid "radialMenu/enemy_hq_attack_commit"
+msgstr "Атакувам!"
+
+msgid "radialMenu/going_there"
+msgstr "Придвижвам се към позиция!"
+
+msgid "radialMenu/helpMe"
+msgstr "Помощ!"
+
+msgid "radialMenu/helpMeEx"
+msgstr "Нужна е поддръжка!"
+
+msgid "radialMenu/overheated_gun"
+msgstr "Прегря!"
+
+msgid "radialMenu/positive"
+msgstr "Тъй вярно!"
+
+msgid "radialMenu/reloadingGun"
+msgstr "Презареждам!"
+
+msgid "radialMenu/reply_to_player"
+msgstr "Потвърждавам!"
+
+msgid "radialMenu/supporting_ally"
+msgstr "Ще ти помогна!"
+
+msgid "radialMenu/thanks"
+msgstr "Благодаря!"
+
+msgid "radialMenu/turn_back"
+msgstr "Отстъпвай!"
+
+msgid "returnToGame"
+msgstr "Esc – Обратно в битката"
+
+msgid "roleDescription/msg"
+msgstr "Получете бонус към опита при изпълнение на действия за роля:"
+
+msgid "settings/button"
+msgstr "Настройки"
+
+msgid "settings/help"
+msgstr "За преглед и промяна на всички бутони за управление, отидете в \"Настройки\""
+
+msgid "teamComm/highlightAsActiveTarget"
+msgstr "Посочи активна цел"
+
+msgid "teamComm/highlightLocation"
+msgstr "Посочи позиция"
+
+msgid "teamComm/show"
+msgstr "Показване на командното меню"
+
+msgid "teamComm/show/ext"
+msgstr "(списъкът команди зависи от целта)"
+
+msgid "teamComm/title"
+msgstr "Комуникация с отбора"
+
+msgid "vehicleTypes/title"
+msgstr "Маркери на машини"

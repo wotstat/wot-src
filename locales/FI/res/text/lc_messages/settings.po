@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "Reunanpehmennys (AA)"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "Määrittelee peliobjektien ohuiden viivojen ja ääriviivojen ylimääräisen prosessoinnin asteen. Minimoi aliasoinnin vaikutuksen.\n\n• Korkea–FXAA\n• Maksimi–Temporal Supersampling Antialiasing (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "Dynaaminen säätö"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "Ota käyttöön tai poista käytöstä 3D-renderöijän resoluution automaattinen säätö näytönohjaimen kuorman perusteella.\n\nTämän parametrin ottaminen käyttöön voi parantaa pelin suorituskykyä. Renderöijän resoluutio tallissa pysyy aina samana."
+
+msgid "EFFECTS_QUALITY"
+msgstr "Lisätehosteiden laatu"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "Määrittelee kimmokkeiden kipinöiden, räjähdysten, savujen ja muiden tehosteiden kuvanlaadun.\n\nTämän arvon laskeminen voi parantaa pelin suorituskykyä."
+
+msgid "FAR_PLANE"
+msgstr "Piirtoetäisyys"
+
+msgid "FAR_PLANE/description"
+msgstr "Määrittelee maastonmuotojen, rakennusten, vihollisvaunujen ja muiden peliobjektien piirtoetäisyyden."
+
+msgid "FLORA_QUALITY"
+msgstr "Ruohikon tiheys"
+
+msgid "FLORA_QUALITY/description"
+msgstr "Määrittää näytetyn ruohikon tiheyden arcade- ja tarkka-ampuja -tiloissa."
+
+msgid "HAVOK_ENABLED"
+msgstr "Parannellut tuhoutumisfysiikat"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "Pois päältä"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "Päällä"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "Mahdollistaa objektien tuhoutumisen yksityiskohtaisemman ja realistimman käsittelyn kartoilla.\n\nTämän parametrin poistaminen käytöstä voi parantaa pelin suorituskykyä."
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "Asetus otetaan käyttöön seuraavassa taistelussa, mikäli se on pois päältä nykyisesä taistelussa."
+
+msgid "LANGUAGE_CODE"
+msgstr "fi"
+
+msgid "LIGHTING_QUALITY"
+msgstr "Valaistuksen laatu"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "Määrittelee auringonsäteiden, valaistuksen, ja optisten tehosteiden tarkkuuden laskennassa.\n\nTämän arvon nostaminen kasvattaa merkittävästi näytönohjaimen kuormitusta."
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "Liikesumennus"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "Määrittelee kuvan liikesumennustehosteen laadun, kun vaunu liikkuu ja kamera kääntyy."
+
+msgid "MSAA_QUALITY"
+msgstr "Reunanpehmennys (AA)"
+
+msgid "MSAA_QUALITY/description"
+msgstr "Määrittelee lisäprosessoinnin asteen ohuille viivoille ja peliobjektien reunaviivoille. Minimoi reunojen sahalaitaisuutta.\n\n• Matala—MSAA 2x\n• Keskitaso—MSAA 4x\n• Korkea—MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "Objektien yksityiskohtaisuus"
+
+msgid "OBJECT_LOD/description"
+msgstr "Määrittelee näytettyjen objektien määrän ja niiden laadun."
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "Jälkikäsittely"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "Määrittelee jälkikäsittelyn laadun seuraaville efekteille: lämpöväreily ja paineaalto, värien vääristyminen, elokuvamainen rakeilu jne. .\n\nTämän arvon laskeminen voi parantaa pelin suorituskykyä."
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "Grafiikat"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "Kehittynyt: mahdollistaa maksimaalisen kuvanlaadun.\n\nYksinkertaistettu: mahdollistaa maksimaalisen suorituskyvyn yksinkertaistamalla tai poistamalla joitain visuaalisia tehosteita."
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "Grafiikat:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "Muutokset tähän parametriin astuvat voimaan pelin uudelleen käynnistämisen jälkeen."
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "Lehvästön läpinäkyvyys"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "Määrittää miten lähellä olevien puiden ja puskien lehvästöt näytetään.\n\nTämän parametrin poistaminen näyttää lähellä olevien puiden ja puskien lehvästöt täysin läpinäkyvänä, joka voi parantaa pelin suorituskykyä."
+
+msgid "SHADER_VERSION_CAP"
+msgstr "Varjostimen versio"
+
+msgid "SHADOWS_QUALITY"
+msgstr "Varjojen laatu"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "Määrittelee dynaamisten varjojen laadun koko piirtoetäisyydellä.\n\nTämän arvon laskeminen voi parantaa pelin suorituskykyä merkittävästi."
+
+msgid "SMOKE_ENABLED"
+msgstr "Savu"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "Lisätehosteet \"tarkka-ampuja\" -tilassa"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "Määrittelee kimmokkeiden kipinöiden, räjähdysten, savujen ja muiden tehosteiden kuvanlaadun \"tarkka-ampuja\" -tilassa.\n\nTämän arvon laskeminen voi parantaa pelin suorituskykyä."
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "Kasvusto \"tarkka-ampuja\" -tilassa"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "Näyttää kasvuston \"tarkka-ampuja\" -tilassa.\n\nTämän ominaisuuden käytöstä poistaminen voi parantaa pelin suorituskykyä."
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "Maaston tesselaatio tarkka-ampuja -tilassa"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Parantaa maaston laatua 50 metrin säteellä vaunusta tarkka-ampuja -tilassa. Saatavilla vain, jos maaston tesselaatio on kytketty päälle.\n\nTämän parametrin poistaminen käytöstä voi parantaa pelin suorituskykyä."
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "Kasvuston laatu"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "Määrittelee puiden, pensaiden ja ruohikon piirtolaadun."
+
+msgid "TERRAIN_QUALITY"
+msgstr "Maaston laatu"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "Määrittelee kartan maastonmuotojen piirtolaadun.\n\nKäytä maiseman minimilaatua vain tietokoneen alhaisen suorituskyvyn yhteydessä.\n\nTämän arvon laskeminen voi aiheuttaa poikkeaman palvelimen ja pelin maaston välillä."
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "Määritetyn arvon käyttöön ottaminen voi kestää jonkin aikaa."
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "Maaston tesselaatio"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Rautakiihdytetty prosessi uusien polygonien lisäämiseksi polygoniverkkoon verkon yksityiskohtaisuuden lisäämiseksi.\n\nTämä toiminto toimii vain seuraavien asetusten kanssa:\n• Parannellut grafiikat\n• Korkea, maksimi tai ultra maaston laatu\n• DirectX 11 asennettuna.\n\nAsetuksen muutokset eivät ole saatavilla DirectX 11:sta vanhemman version kanssa.\n\nTämän parametrin poistaminen käytöstä voi parantaa pelin suorituskykyä."
+
+msgid "TEXTURE_QUALITY"
+msgstr "Tekstuurien laatu"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "Peliobjektien pintojen laatu, erityisesti lähietäisyydellä.\n\nTämän arvon laskeminen voi parantaa pelin suorituskykyä."
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "Määritetyn arvon käyttöön ottaminen voi kestää jonkin aikaa."
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "Telojen fysiikat"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "Määrittää ehjien ja rikkoutuneiden telojen fysiikkasimulaation sekä telojen yksityiskohtien laadun.\n\nTämän parametrin pienentäminen tai poistaminen käytöstä voi parantaa pelin suorituskykyä."
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "Ota käyttöön telojen ja renkaiden efektit"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "Näyttää maan, lumen ja veden roiskeet telojen ja renkaiden perässä.\n\nTämän ominaisuuden käytöstä poistaminen voi parantaa pelin suorituskykyä."
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "Ota käyttöön telojen ja renkaiden jäljet"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "Näyttää telojen ja pyörien jäljet maassa.\n\nEi ole saatavilla yksinkertaistetuilla grafiikoilla ja matalalla koristeiden laadulla."
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "Piilota kolmiulotteiset lisävarusteet tarkka-ampujatilassa"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "Piilottaa väliaikaisesti vaunun kolmiulotteiset lisävarusteet tykin tähtäimestä tarkka-ampujatilassa.\n\nVähentää visuaalisten ärsykkeiden määrää ja parantaa tähtäystarkkuutta."
+
+msgid "WATER_QUALITY"
+msgstr "Veden laatu"
+
+msgid "WATER_QUALITY/description"
+msgstr "Määrittelee vesien piirtolaadun."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "Vain heikko panssarointi"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "Aktiivisena ollessaan panssarin osoitin korostaa vain kohteen heikon panssaroinnin.\n\nPanssari, joka läpäistään suurella todennäköisyydellä, korostetaan läpinäkymättömällä vihreällä, kun taas panssari, joka läpäistään keskinkertaisella todennäköisyydellä on läpikuultavan vihreää. Värit voivat olla eri värisokeiden tilassa."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "Korosta vain heikko panssarointi"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "Vain vahva panssarointi"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "Aktiivisena ollessaan panssarin osoitin korostaa vain kohteen vahvan panssaroinnin.\n\nPanssari, jota ei läpäistä millään todennäköisyydellä, korostetaan läpinäkymättömällä punaisella, kun taas panssari, joka läpäistään keskinkertaisella todennäköisyydellä on läpikuultavan punaista. Värit voivat olla eri värisokeiden tilassa."
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "Korosta vain vahva panssarointi"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "Kaikki panssarointi"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "Aktiivisena ollessaan panssarin osoitin korostaa kaiken panssaroinnin.\n\nPanssari, jonka läpäisemisen todennäköisyys on pieni, korostetaan punaisella, panssari, jonka läpäisemisen todennäköisyys on hyvä, vihreällä ja panssari, jonka läpäisemisen todennäköisyys on keskinkertainen, keltaisella. Värit voivat olla eri värisokeiden tilassa."
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "Korosta kaikki panssarointi"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "Panssaroinnin korostukset"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "Ota käyttöön taistelun alkaessa"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "Panssarin osoittimen oletustila taistelun alkaessa. Voit vaihtaa osoittimen päälle tai pois päältä milloin hyvänsä käyttäen asetettua pikanäppäintä.\n\nKäytössä ollessaan osoitin toimii vain tarkka-ampujatilassa.\n\nTuetut pelimuodot:\n• Satunnaistaistelut ja joukkueharjoittelu;\n• Etulinja;\n• Peliautomaatin taistelut;\n• Rynnistys;\n• Tietyt muut pelimuodot ja tapahtumat. \n\nTulevaisuudessa saatetaan tukea lisää pelimuotoja ja tapahtumia."
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "Ota käyttöön taistelun alkaessa"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "Panssarin osoittimen tekstuuri"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "Kiinteä"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "Harva"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "Tiheä"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "Läpinäkyvyys"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "Suorituskykyvaroitus"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "Korkea"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "Matala"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "Keskitaso"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "Panssarin osoittimen tarkkuus"
+
+msgid "aim/cassette"
+msgstr "Ammuskasetti"
+
+msgid "aim/centralTag"
+msgstr "Keskustähtäin"
+
+msgid "aim/centralTag/type0"
+msgstr "A-muotoinen I"
+
+msgid "aim/centralTag/type1"
+msgstr "A-muotoinen II"
+
+msgid "aim/centralTag/type10"
+msgstr "O-muotoinen I"
+
+msgid "aim/centralTag/type11"
+msgstr "O-muotoinen II"
+
+msgid "aim/centralTag/type12"
+msgstr "A-muotoinen IV"
+
+msgid "aim/centralTag/type13"
+msgstr "A-muotoinen V"
+
+msgid "aim/centralTag/type2"
+msgstr "A-muotoinen III"
+
+msgid "aim/centralTag/type3"
+msgstr "V-muotoinen"
+
+msgid "aim/centralTag/type4"
+msgstr "Tähtäinristikko I"
+
+msgid "aim/centralTag/type5"
+msgstr "Tähtäinristikko II"
+
+msgid "aim/centralTag/type6"
+msgstr "T-muotoinen"
+
+msgid "aim/centralTag/type7"
+msgstr "I-muotoinen"
+
+msgid "aim/centralTag/type8"
+msgstr "Tähtäyspiste I"
+
+msgid "aim/centralTag/type9"
+msgstr "Tähtäyspiste II"
+
+msgid "aim/condition"
+msgstr "Kunto"
+
+msgid "aim/gunTag"
+msgstr "Tykin tähtäin"
+
+msgid "aim/gunTag/type0"
+msgstr "A-muotoinen I (panssarinläpäisyn osoittajalla)"
+
+msgid "aim/gunTag/type1"
+msgstr "A-muotoinen II (latausmittarilla)"
+
+msgid "aim/gunTag/type10"
+msgstr "O-muotoinen II (latausmittarilla)"
+
+msgid "aim/gunTag/type11"
+msgstr "O-muotoinen III"
+
+msgid "aim/gunTag/type12"
+msgstr "A-muotoinen IV (panssarinläpäisyn osoittimella)"
+
+msgid "aim/gunTag/type13"
+msgstr "A-muotoinen V (latausmittarilla)"
+
+msgid "aim/gunTag/type14"
+msgstr "A-muotoinen VI"
+
+msgid "aim/gunTag/type2"
+msgstr "A-muotoinen III"
+
+msgid "aim/gunTag/type3"
+msgstr "Tähtäinristikko I (panssarinläpäisyn osoittajalla)"
+
+msgid "aim/gunTag/type4"
+msgstr "Tähtäinristikko II (latausmittarilla)"
+
+msgid "aim/gunTag/type5"
+msgstr "Tähtäinristikko III"
+
+msgid "aim/gunTag/type6"
+msgstr "Tähtäyspiste I (panssarinläpäisyn osoittimella)"
+
+msgid "aim/gunTag/type7"
+msgstr "Tähtäyspiste II (latausmittarilla)"
+
+msgid "aim/gunTag/type8"
+msgstr "Tähtäyspiste III"
+
+msgid "aim/gunTag/type9"
+msgstr "O-muotoinen I (panssarinläpäisyn osoittimella)"
+
+msgid "aim/mixing"
+msgstr "Hajonnan osoittaja"
+
+msgid "aim/mixing/type0"
+msgstr "Ympyrä I (täyttyvällä latausmittarilla) "
+
+msgid "aim/mixing/type1"
+msgstr "Ympyrä II (siirtyvällä latausmittarilla)"
+
+msgid "aim/mixing/type2"
+msgstr "Ympyrä III (ilman latausmittaria)"
+
+msgid "aim/mixing/type3"
+msgstr "Ympyrä IV (kiinteä)"
+
+msgid "aim/mixing/type4"
+msgstr "Tähtäinristikko (siirtyvällä latausmittarilla)"
+
+msgid "aim/mixing/type5"
+msgstr "Tähtäinristikko II"
+
+msgid "aim/mixing/type6"
+msgstr "Testi"
+
+msgid "aim/net"
+msgstr "Osoitin"
+
+msgid "aim/net/type0"
+msgstr "Viistottainen"
+
+msgid "aim/net/type1"
+msgstr "Horisontaalinen"
+
+msgid "aim/net/type2"
+msgstr "Säteittäinen"
+
+msgid "aim/net/type3"
+msgstr "Katkoviivoitettu"
+
+msgid "aim/reloader"
+msgstr "Lataus"
+
+msgid "aim/reloaderTimer"
+msgstr "Latausmittari"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "Vaihdetaan tykistötähtäimeen"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "Viimeksi käytetty"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "Ylänäkymä"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "Lentoratanäkymä"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "Automaattinen tähtäystilan vaihto"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "Hiiren rullaa rullatessa ja tietyn zoomin tason saavutettaessa tähtäin vaihtaa ylänäkymästä lentoratanäkymään."
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "Automaattinen tähtäystilan vaihto"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "Sulava kameran zoom"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "Näytä tulilinjojen osoittimet"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "Näytä/piilota osoittimet, jotka näyttävät, voiko valittu ammus saavuttaa tähtäyspisteen. Ne näyttävät myös ammuksen lentoajan."
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "Tulilinjan osoittimet"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "Näytä kameran sijainnin osoitin"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "Näytä/piilota osoitin, joka näyttää tykistön tähtäyskameran zoomin tason."
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "Kameran sijainnin osoitin"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "Kameran kontrollit"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "Vaihtoehtoiset"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "Tavalliset"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "Tavallisten kamerakontrollien kanssa kamera liikkuu ylös, alas, vasemmalle ja oikealle. Vaihtoehtoisilla kontrolleilla kamera liikkuu eteen, taakse ja telatykin aseman ympäri."
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "Kameran kontrollit"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "Zoomauksen osoitin"
+
+msgid "alternativeVoices/labels"
+msgstr "Ääniviestit taistelussa"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Ääniviestit taistelussa"
+
+msgid "apply_button"
+msgstr "Käytä"
+
+msgid "autodetectButton"
+msgstr "Suositellut"
+
+msgid "autodetectButton/description"
+msgstr "Määrittelee optimaaliset kuva-asetukset tietokoneellesi.\n\nTämä voi kestää jonkin aikaa."
+
+msgid "battlecomm/enableCommendations"
+msgstr "Saa kehuja taisteluissa"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "Näytä henkilökohtaiset komennot"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "Osoita viestijä joukkuepaneelissa"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "Näytä sijantimerkit kartalla"
+
+msgid "battlecomm/showMarkers"
+msgstr "Näytä perusmerkinnät satunnaistaisteluissa"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "Näytä pysyvät merkinnät"
+
+msgid "borderlessSize"
+msgstr "Ikkuna (reunaton)"
+
+msgid "borderlessSize/description"
+msgstr "Ikkuna (reunaton)"
+
+msgid "cancel_button"
+msgstr "Peruuta"
+
+msgid "chat/censorshipMessages"
+msgstr "Sensuroi loukkaavat sanat chat-viesteissä"
+
+msgid "chat/chatContactsListOnly"
+msgstr "Ota vastaan viestejä vain kontaktilistaltasi"
+
+msgid "chat/disableBattleChat"
+msgstr "Poista chat liittolaisten kanssa"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "Muista kameran ja kanavaikkunoiden sijainti"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "Muista kameran ja muiden ikkunoiden sijainti"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "Salli tallissa kutsut vain kaverilistan pelaajilta tallissa"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "Vastaanota klaani-ilmoituksia"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "Salli kaverikutsut"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "Salli osastokutsut taistelun aikana"
+
+msgid "chat/removeSpam"
+msgstr "Piilota spämmi"
+
+msgid "chat/showDateMessage"
+msgstr "Näytä päivämäärä viesteissä"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "Ilmoita kun käyttäjät ottavat/katkaisevat yhteyden"
+
+msgid "chat/showTimeMessage"
+msgstr "Näytä aikaleimat viesteissä"
+
+msgid "colorCorrection"
+msgstr "Värien säätö"
+
+msgid "colorCorrectionBtn/label"
+msgstr "Mukauta"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "Mukautetut asetukset"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "Kirkkaus"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "Kontrasti"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "Saturaatio"
+
+msgid "colorSettings/tab/default"
+msgstr "Oletus"
+
+msgid "colorSettings/tab/filters"
+msgstr "Esiasetetut suotimet"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "Suotimen intensiivisyys"
+
+msgid "colorSettings/view/after"
+msgstr "Jälkeen"
+
+msgid "colorSettings/view/before"
+msgstr "Ennen"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "SULJE"
+
+msgid "colorSettings/view/description"
+msgstr "Valitse yksi kuvaa säätävistä asetuksista"
+
+msgid "colorSettings/view/header"
+msgstr "Värien säätö"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "Nollaa"
+
+msgid "colorSettings/view/subTitle"
+msgstr "Kuvan säädöt"
+
+msgid "cursor/ArcadeTitle"
+msgstr "Arcade-pelimuoto"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "Panssarin osoitin"
+
+msgid "cursor/ArtyTitle"
+msgstr "Tykistö"
+
+msgid "cursor/ContourTitle"
+msgstr "Ääriviivat"
+
+msgid "cursor/ServerAim"
+msgstr "Aktivoi palvelintähtäin"
+
+msgid "cursor/SnipperTitle"
+msgstr "Tarkka-ampuja"
+
+msgid "cursor/contour/type0"
+msgstr "Tavallinen"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "Tähdätessäsi vihollisvaunuun on sen kaikki ääriviivat merkitty. Tämä koskee myös sellaisia elementtejä, joiden kanssa ammukset eivät voi vuorovaikuttaa."
+
+msgid "cursor/contour/type1"
+msgstr "Yksinkertaistettu"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "Tähdätesssäsii vihollisviin osa sen ääriviivoista merkitään. Näin merkitään vain panssarin elementit, joiden kanssa ammukset voivat vuorovaikuttaa."
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "Läpäisemätön alue"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "Ei mitään"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "Täyttö"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "Tekstuuri"
+
+msgid "cursor/contourLabel"
+msgstr "Ääriviivojen tyyppi"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "Läpäistävissä oleva alue"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "Ei mitään"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "Täyttö"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "Tekstuuri"
+
+msgid "cursor/overlapContour"
+msgstr "Esteiden renderöinti"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "Renderöinnin käyttö voi heikentää suorituskykyä."
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "Ammukset pysäyttävien esteiden näyttäminen vihollisvaunuun tähdättäessä.\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "Esteiden renderöinti"
+
+msgid "cursor/overlapContourLabel"
+msgstr "Esteiden renderöinti"
+
+msgid "cursorTitle"
+msgstr "Tähtäin"
+
+msgid "defaultBtn"
+msgstr "Oletus"
+
+msgid "defaultNamePrefix"
+msgstr "Pelaaja"
+
+msgid "dynamicCamera"
+msgstr "Ota käyttöön dynaaminen kamera"
+
+msgid "dynamicFov"
+msgstr "Dynaaminen näkökenttä"
+
+msgid "dynamicFov/description"
+msgstr "Dynaaminen näkökenttä sallii minimi ja maksimi katselukulmien asettamisen Arcade -tähtäystilassa.\n\nMaksimikulmaa käytetään, kun kamera on zoomattu pois vaunusta.\n\nMinimikulmaa käytetään, kun kamera on zoomattu vaunuun."
+
+msgid "dynamicRenderer"
+msgstr "3D-resoluutio"
+
+msgid "dynamicRenderer/description"
+msgstr "Määrittelee pelialueen laadun ja yksityiskohdat.\n\n3D-resoluutiota voi myös vaihtaa taistelussa käyttämällä näppäinkomentoja [RShift +] ja [RShift -]. Ei vaikuta käyttöliittymään.\n\nTämän arvon laskeminen voi parantaa pelin suorituskykyä tietokoneissa, joissa on huono näytönohjain."
+
+msgid "edgeDetectAA"
+msgstr "Reunantunnistus AA"
+
+msgid "feedBack"
+msgstr "Huomioita taistelusta"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "Kartan reuna"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "Vahinkoa lamautuksesi jälkeen"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "Tukikohdan valtauspisteitä"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "Valtauspisteitä nollattu"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "Vahinkoa torjuttu"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "Vihollisvaunu sytytetty tuleen"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "Kriittinen vahinko"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "Havaitseminen"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "Vahinkoa havaitsemiisi kohteisiin"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "Vahinkoa laukauksesta"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "Vihollisvaunu tuhottu"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "Vahinkoa törmäyksestä"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "Tela tuhottu"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "Tapahtuman nimi"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "Kriittistä vahinkoa"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "Vahinkoa"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "Näytä taistelussa"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "Vaunun tiedot"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "Vahinkoa törmäyksestä"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "Kaikki tilannekohtaiset pätevyydet"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "Kolme viimeisintä tapahtumaa\nnäytetään taistelussa"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "Taistelutapahtumat"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "Ilmoitukset"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "Tapahtumat"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "Miehistön pätevyydet"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "Vahinkoa otettu"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "Taistelusuoritukset"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "Vahinkoa saatu"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "Kartan reunan piilottaminen voi aiheuttaa sekaannuksia taistelussa."
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "Alt-näppäintä painettaessa"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "Aina korostettuna"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "Älä korosta"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "Lähestyttäessä"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "Ylimääräinen korostus"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "Katkoviiva"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "Älä näytä"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "Rajan tyyppi"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "Muuri"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "Ampumasuunnan osoitin"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "Omiin osuminen"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "Vahingon määrä"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "Laukaus torjuttu"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "Kriittinen osuma\n vaunuusi"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "x3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "Vahinkoa otettu"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "Moduuli vaurioitunut"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "Tiedot"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "Näytä animaatio"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "Vahingon määrä"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "Dynaamiset ilmaisimet"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "Vaunun tiedot"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "Näytä taistelussa"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "Kaikki"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "Omiin osuminen"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "Kriittiset osumat"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "Paitsi kriittiset"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "Kehittyneet"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "Normaali"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "Tyyppi"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "Loki"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "Aiheutettu lamautuksesi ansiosta"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "Panssarin torjuma"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "Vahinkoa avustuksellasi"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "Aiheuttamasi vahinko"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "Näytä aina"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Paina Alt-näppäintä näyttääksesi"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "Älä näytä"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "Yksityiskohtainen vahinko"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "Kaikki tapahtumat pohjalla"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "Vastaanotettu vahinko yläreunassa"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "Tapahtumien asettelu"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "Kaikki tapahtumat"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "Tapahtuman tyyppi"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "Vahinkoa otettu"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "Taistelusuoritukset"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "Tämän asetuksen kytkemistä päälle ei suositella\nnäytöille, joilla on matala resoluutio"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "Tiivistetty vahinko"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "Lohko yksityiskohtaisille vahingon tiedoille. Näyttää täydelliset tiedot tehokkuudestasi taistelussa."
+
+msgid "feedback/tab/eventsInfo"
+msgstr "Taistelutapahtumat"
+
+msgid "feedback/tab/questsProgress"
+msgstr "Taisteluraportti/tehtävät"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "Taistelun pisteet"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "Tehtävän tiedot"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "Näytä vaunujen kuvakkeet\ntasoittain"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "Näytä joukkueen\nkestopisteet palkissa"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "Näytä joukkueiden\nkestopisteiden erotus"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "Näytä joukkueen\nkestopisteiden määrä"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "Näytä kaikki"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "Näytä vain edistyminen"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "Vaihtoehtoinen"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "Älä näytä"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "Normaali"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "Näytä tehtävät"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "Näkökenttä (FoV)"
+
+msgid "fov/description"
+msgstr "Pelikameran näkökentän leveys.\n\n95° on normaali näkökenttä (FoV). Mitä pienempi näkökenttä on, sitä lähempänä objektit näyttävät olevan samalla kun ääreisnäkö pienenee.\n\nEi vaikuta pelin suorituskykyyn."
+
+msgid "game/anonymizer"
+msgstr "Anonymisoi pelinimesi taistelussa"
+
+msgid "game/battleLoadingInfo"
+msgstr "Vinkit taistelun latausruudussa"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "Pienoiskartta"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "Vain teksti"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "Kuvitetut vinkit"
+
+msgid "game/battlePanelSettings"
+msgstr "Taistelukäyttöliittymä"
+
+msgid "game/carouselType"
+msgstr "Vaunupaneeli"
+
+msgid "game/carouselType/double"
+msgstr "Kaksitasoinen"
+
+msgid "game/carouselType/single"
+msgstr "Yksitasoinen"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "Näytä tilastot tallissa, kun pidät hiirtä tallipaikan päällä"
+
+msgid "game/commanderCamEnabled"
+msgstr "Ota käyttöön taktinen näkymä"
+
+msgid "game/customizationDisplayType"
+msgstr "Näytä muokkauselementit taistelussa"
+
+msgid "game/customizationDisplayType/all"
+msgstr "Historialliset, epähistorialliset ja fiktiiviset"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "Historialliset"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "Historialliset ja epähistorialliset"
+
+msgid "game/displayPlatoonMembers"
+msgstr "Näytä osaston jäsenten vaunut tallissa"
+
+msgid "game/doubleCarousel/label"
+msgstr "Kaksitasoinen ajoneuvopaneeli"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "Sopeutuva"
+
+msgid "game/doubleCarouselType/small"
+msgstr "Minimalistinen"
+
+msgid "game/dynamicCamera"
+msgstr "Ota käyttöön dynaaminen kamera"
+
+msgid "game/enableBattleNotifier"
+msgstr "Näytä edellisen taistelun tulokset chatissa"
+
+msgid "game/enableMortalPostEffect"
+msgstr "Ota käyttöön jälkiefektit \"kuoleman jälkeisessä\" -tilassa"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "Ota käyttöön optiset tehosteet \"tarkka-ampuja\" -tilassa"
+
+msgid "game/enableRepairTimer"
+msgstr "Näytä vahingoittuneiden moduulien korjausaika"
+
+msgid "game/enableSpeedometer"
+msgstr "Näytä pyörällisten ajoneuvojen nopeusmittari"
+
+msgid "game/enableVoIP"
+msgstr "Äänikeskustelu"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "Taisteluviestintä"
+
+msgid "game/fieldset/headerChat"
+msgstr "Chat"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "Pienoiskartta"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "Vaunumerkit"
+
+msgid "game/hangarCamCheckbox"
+msgstr "Tallikameran animaatio hiiren kursoria liikutettaessa"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "Tallikameran toimettomuuspyöritys ajassa"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "Tallikameran animaatio"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "Ei koskaan"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 sekunttia"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 sekunttia"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 sekunttia"
+
+msgid "game/horStabilizationSnp"
+msgstr "Horisontaalivakautus \"tarkka-ampuja\" -tilassa"
+
+msgid "game/hullLockEnabled"
+msgstr "Käytä autom. rungon lukitusta tarkka-ampuessa"
+
+msgid "game/increasedZoom/base"
+msgstr "Ota käyttöön %(zooms)s"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " ja "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "Näytä palvelinvalikoima peliä käynnistettäessä"
+
+msgid "game/minimapDrawRange"
+msgstr "Näytä piirtoetäisyyden ympyrä"
+
+msgid "game/minimapGroupTitle"
+msgstr "Pienoiskartta"
+
+msgid "game/minimapMaxViewRange"
+msgstr "Näytä maksimaalisen näköetäisyyden ympyrä"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "Näytä taatun havaitsemisen ympyrä"
+
+msgid "game/minimapViewRange"
+msgstr "Näytä näköetäisyyden ympyrä"
+
+msgid "game/newbeeTipsTitle"
+msgstr "Vinkit"
+
+msgid "game/newbieBattleHints"
+msgstr "Ota käyttöön aloittelijan vinkit satunnaistaisteluissa"
+
+msgid "game/newbiePrebattleHints"
+msgstr "Ota käyttöön aloittelijan vinkit taistelun latausruudulla"
+
+msgid "game/optimizeGraphics"
+msgstr "Optimoi käyttöliittymän grafiikat"
+
+msgid "game/playersPanelState/large"
+msgstr "Täysi paneeli"
+
+msgid "game/playersPanelState/medium"
+msgstr "Normaali"
+
+msgid "game/playersPanelState/none"
+msgstr "Ei paneelia"
+
+msgid "game/playersPanelState/short"
+msgstr "Lyhyt paneeli"
+
+msgid "game/postmortemMode"
+msgstr "Kuoleman jälkeinen tila"
+
+msgid "game/postmortemMode/analysis"
+msgstr "Näytä hetki, jona vaunusi tuhoutui (yksityiskohtainen)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "Näytä vihollisvaunu, joka tuhosi vaunusi"
+
+msgid "game/postmortemMode/self"
+msgstr "Näytä vaunusi"
+
+msgid "game/postmortemMode/simple"
+msgstr "Näytä hetki, jona vaunusi tuhoutui (lyhyt)"
+
+msgid "game/ppShowLevels"
+msgstr "Näytä vaunun taso"
+
+msgid "game/ppShowTypes"
+msgstr "Näytä vaunun tyyppi"
+
+msgid "game/ppStartStateLabel"
+msgstr "Tyyppi"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "Ota käyttöön komentajan kamera"
+
+msgid "game/replayEnabled"
+msgstr "Nauhoita taistelut"
+
+msgid "game/replayEnabled/all"
+msgstr "Kaikki"
+
+msgid "game/replayEnabled/last"
+msgstr "Viimeisin"
+
+msgid "game/replayEnabled/none"
+msgstr "Ei mitään"
+
+msgid "game/showArtyHitOnMap"
+msgstr "Näyttää alueen, johon telatykki osuu"
+
+msgid "game/showDamageIcon"
+msgstr "Näytä ilmoitukset, kun vahinkoa ei aiheuteta"
+
+msgid "game/showDogTag"
+msgstr "Näytä tuntolaatta"
+
+msgid "game/showDogTagToKiller"
+msgstr "Näytä käytössä oleva muokattava tuntolaattasi"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "Näytä tuhotun vaunun tiedot"
+
+msgid "game/showKillersDogTag"
+msgstr "Näytä sinut tuhonneen pelaajan tuntolaatta"
+
+msgid "game/showLanguageBar"
+msgstr "Näytä kielipaneeli"
+
+msgid "game/showMarksOnGun"
+msgstr "Näytä merkit erinomaisuudesta"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "Näe animoitu tuntolaattasi"
+
+msgid "game/showSectorOnMap"
+msgstr "Näytä telatykin ampumasektori"
+
+msgid "game/showVectorOnMap"
+msgstr "Näytä kameran suuntasäde"
+
+msgid "game/showVehModelsOnMap"
+msgstr "Ota käyttöön pienoiskartan lisätoiminnot"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Alt-näppäintä painaessa"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "Aina"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "Ei koskaan"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "Näytä vaunun kestopisteet pienoiskartalla"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Alt-näppäintä painaessa"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "Aina"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "Ei koskaan"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "Näytä vaunun kestopisteet joukkuepaneeleissa"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Alt-näppäintä painaessa"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "Aina"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "Ei koskaan"
+
+msgid "game/showVehicleIcon"
+msgstr "Näytä vaunun merkki"
+
+msgid "game/showVehicleLevel"
+msgstr "Näytä vaunun taso"
+
+msgid "game/showVehiclesCounter"
+msgstr "Näytä vaunumerkit taistelun tulospaneelissa"
+
+msgid "game/showVictimsDogTag"
+msgstr "Näytä tuhoamiesi vihollisten tuntolaatat"
+
+msgid "game/sniperModeByShift"
+msgstr "Rajoita tarkka-ampujatilan vaihtaminen Shift-näppäimeen"
+
+msgid "game/sniperZoom"
+msgstr "Suosimasi tarkka-ampujatilan zoomin taso"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "Viimeksi käytetty"
+
+msgid "game/switchEquipment"
+msgstr "Kokoonpanon vaihtaminen latausruudulla"
+
+msgid "game/w2gtEnable"
+msgstr "Ota taistelualueet käyttöön pienoiskartalla"
+
+msgid "gameTitle"
+msgstr "Yleiset"
+
+msgid "gameplay/devMaps"
+msgstr "Pelaa satunnaistapahtumia sisältävillä kartoilla"
+
+msgid "gameplay/nations"
+msgstr "Yhteenotto"
+
+msgid "gamma"
+msgstr "Gamma"
+
+msgid "gammaBtn/label"
+msgstr "Muokkaa"
+
+msgid "gammaWizard/apply"
+msgstr "Käytä"
+
+msgid "gammaWizard/cancel"
+msgstr "Peruuta"
+
+msgid "gammaWizard/closeBtn"
+msgstr "SULJE"
+
+msgid "gammaWizard/default"
+msgstr "Oletus"
+
+msgid "gammaWizard/description"
+msgstr "Liikuta liukukytkintä kunnes tausta ja logo ovat yhtä kirkkaita. Sulje silmäsi osittain tai liiku hieman kauemmas näytöstäsi, jotta kuvan yksityiskohdat ovat hädin tuskin näkyvissä."
+
+msgid "gammaWizard/header"
+msgstr "Gamma"
+
+msgid "gammaWizard/title"
+msgstr "Gamma-asetukset"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "Sallii kirkkauden muokkaamisen pelissä optimaalisen kuvanlaadun saavuttamiseksi\nnäytöllä. Tämä asetus pyrkii\nkompensoimaan näytönohjaimen ajurien ja näytön\nasetusten vaikutusta pelin visuaaliseen laatuun."
+
+msgid "gammaWizard/tooltip/header"
+msgstr "Gamma"
+
+msgid "graficTitle"
+msgstr "Grafiikat"
+
+msgid "graphics/block/effects"
+msgstr "Efektit"
+
+msgid "graphics/block/greenery"
+msgstr "Kasvusto"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "Masto ja vesi"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "Valaistus ja jälkikäsittely"
+
+msgid "graphics/block/main"
+msgstr "Perusasetukset"
+
+msgid "graphics/tabAdvanced"
+msgstr "Kehittyneet"
+
+msgid "graphics/tabScreen"
+msgstr "Näyttö"
+
+msgid "graphicsQuality"
+msgstr "Grafiikan laatu"
+
+msgid "graphicsQuality/description"
+msgstr "Määrittää yleisen kuvanlaadun. Määrittää Yksityskohdat-välilehden parametrit\n\nGrafiikan tason laskeminen voi:\n• parantaa pelin suorituskykyä\n• aiheuttaa poikkeamia maaston näyttämisessä peliohjelman ja palvelimen välillä.\n\nKäytä minimaalista grafiikan laatua vain jos tietokoneen suorituskyky on alhainen."
+
+msgid "graphicsQualityHDSD"
+msgstr "Asiakasohjelmatyypit"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "HD-asiakasohjelma asennettu"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "Normaali (SD) asiakasohjelma asennettu"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "Normaali asiakasohjelma—täysi peli ilman maksimaalisen laadun tekstuureja.\n\nHD-asiakasohjelma —täysi peli sisältäen maksimaalisen laadun tekstuurit. Vaatii enemmän tilaa kiintolevyltä, kuin normaali asiakasohjelma."
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "Asiakasohjelmatyypit"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "HD-asiakasohjelma—täysi peli sisältäen parhaimman laadun tekstuurit. Vaatii enemmän kovalevytilaa kuin normaali asiakasohjelma.\n\nNormaali asiakasohjelma (SD)—täysi peli ilman parhaimman laadun tekstuureita."
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "Maksimaalinen (SD) ja ultra (SD) grafiikkalaadut eivät tarjoa parhaita arvoja Tekstuurien laatu -parametrille. Saadaksesi parhaimman grafiikkalaadun vaihda HD-asiakasohjelmaan pelin käynnistysohjelmassa."
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "Anisotrooppinen 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "Anisotrooppinen 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "Anisotrooppinen 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "Anisotrooppinen 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "Bilineaarinen"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "Kustomoitu"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "1940-luvun kaitafilmi"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "Kontrastinen"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "Kehittynyt"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "Kaukana"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "Normaali"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "Korkea"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "Matala"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "Erittäin matala"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "Maksimaalinen"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "Maksimaalinen (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "Keskitaso"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "Minimaalinen"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "Vaimennettu"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "Lähellä"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "Pois päältä"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "Pois päältä"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "Päällä"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "Yksinkertaistettu"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "Paranneltu"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "Piste"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "Fotokromaattinen"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "Satunnainen"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "Perus"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "Voimakkaat värit"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "Pehmeät värit"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "Trilineaarinen"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "Ultra"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "Ultra (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "Erittäin korkea"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "Erittäin korkea"
+
+msgid "igbHardwareAcceleration"
+msgstr "Selaimen rautakiihdytys"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "Kun tämä asetus on käytössä, verkkosisältö renderöidään näytönohjaimella suorittimen sijaan.\n\nOta se pois käytöstä, mikäli kohtaat ongelmia joidenkin ikkunoiden sisällön renderöinnissä.\n\nMuutos tulee voimaan käynnistettäessä peli uudelleen."
+
+msgid "interfaceScale"
+msgstr "Käyttöliittymän skaalaus"
+
+msgid "interfaceScale/attention"
+msgstr "Ominaisuus on testauksessa;\nse ei vaikuta pelin suorituskykyyn."
+
+msgid "interfaceScale/body"
+msgstr "Käyttöliittymän elementtien automaattinen skaalaus,\nkun suurennat pelinäytön/-ikkunan."
+
+msgid "interfaceScale/description"
+msgstr "Käyttöliittymän elementtien automaattinen skaalaus, kun suurennat pelinäytön/-ikkunan."
+
+msgid "interfaceScale/header"
+msgstr "Käyttöliittymän skaalaus"
+
+msgid "interfaceScale/warning"
+msgstr "Ominaisuus on testauksessa; se ei vaikuta pelin suorituskykyyn."
+
+msgid "interfaceScaleDisabled"
+msgstr "Käyttöliittymän skaalaus"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "Saatavilla vain 4K-näytöille."
+
+msgid "interfaceScaleDisabled/body"
+msgstr "Käyttöliittymän elementtien automaattinen skaalaus,\nkun suurennat pelinäytön/-ikkunan."
+
+msgid "interfaceScaleDisabled/description"
+msgstr "Käyttöliittymän elementtien automaattinen skaalaus, kun suurennat pelinäytön/-ikkunan."
+
+msgid "interfaceScaleDisabled/header"
+msgstr "Käyttöliittymän skaalaus"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "Saatavilla vain 4K-näytöille."
+
+msgid "isColorBlind"
+msgstr "Värisokea tila"
+
+msgid "isColorBlind/description"
+msgstr "Väripaletin mukauttaminen värisokeita ihmisiä varten."
+
+msgid "keyboard/backDraftInvert"
+msgstr "Käänteisyys peruutettaessa"
+
+msgid "keyboard/keyboard"
+msgstr "Näppäimistö"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "Selvä!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "Erikoistähtäin"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "Lukitse runko / vaihda tila"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "Taaksepäin"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "Taaksepäin"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "\"Käsijarru\""
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "Alas"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "Vasen"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "Oikea"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "Ylös"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "Ammu yhteislaukaus"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "Peräänny!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "Laukaise"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "Eteenpäin"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "Eteenpäin"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "Hylkää vaunu (Etulinjalla)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "Apua!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "Osoita sijainti"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "Osoita aktiivinen kohde"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "Kulutustarvike 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "Kulutustarvike 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "Kulutustarvike 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "Kulutustarvike 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "Kulutustarvike 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "Kulutustarvike 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "Kulutustarvike 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "Kulutustarvike 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "Kulutustarvike 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "Kulutustarvike 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "Vasemmalle"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "Automaattitähtäys"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "Automaattitähtäys pois päältä"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "Ei!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "Paina-puhuaksesi"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "Lataa ammuskasetti"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "Lataan!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "Oikealle"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "Piilota taistelukäyttöliittymä"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "Henkilökohtaisten reservien aktivointi"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "Henkilökohtaisten tehtävien edistyminen"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "Näytä komentovalikko / vahvista komento"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "Pienennä"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "Suurenna"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "Erikoiskyky"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "Pysähdy ja laukaise"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "Kiitos!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "Ota käyttöön/poista käytöstä panssarin osoitin"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "Lentoratanäkymä"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "Aseta äänisignaali"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "Piilota/näytä"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "Ota/poista käytöstä äänikeskustelu dynaamisissa osastoissa"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "Kamera"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "Vakionopeudensäädin"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "Kulutustarvikkeet"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "Ammunta"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "Pienoiskartta"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "Liikkuminen"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "Viestit"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "Joukkueen viestintä"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "Muu"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "Äänikeskustelu"
+
+msgid "keyboard/mouse"
+msgstr "Hiiri"
+
+msgid "keyboardTitle"
+msgstr "Ohjaimet"
+
+msgid "limitedUI/desc"
+msgstr "Tallin piilotettujen käyttöliittymäelementtien ilmestyminen vähitellen"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "Poista käytöstä"
+
+msgid "marker/AllyTitle"
+msgstr "Oma joukkue"
+
+msgid "marker/DeadTitle"
+msgstr "Tuhotut"
+
+msgid "marker/EnemyTitle"
+msgstr "Vihollisjoukkue"
+
+msgid "marker/aimMarker2D"
+msgstr "Automaattitähtäimen osoitin"
+
+msgid "marker/alt"
+msgstr "Vaihtoehtoinen"
+
+msgid "marker/base"
+msgstr "Oletus"
+
+msgid "marker/damage"
+msgstr "Vahinkoa otettu"
+
+msgid "marker/dead"
+msgstr "Näytä tuhoutuneilla"
+
+msgid "marker/hp"
+msgstr "Vaunun kestävyys"
+
+msgid "marker/hp/type0"
+msgstr "Prosentti %"
+
+msgid "marker/hp/type1"
+msgstr "HP jäljellä / yhteensä"
+
+msgid "marker/hp/type2"
+msgstr "HP jäljellä"
+
+msgid "marker/hp/type3"
+msgstr "Piilota"
+
+msgid "marker/hpIndicator"
+msgstr "Kestävyysmittari"
+
+msgid "marker/icon"
+msgstr "Vaunun ikoni"
+
+msgid "marker/level"
+msgstr "Vaunun taso"
+
+msgid "marker/level/tooltip/body"
+msgstr "Kun tämä asetus on käytössä, vaunun päällä näytetään sen taso.\n\nTeräksen metsästäjässä näytetään sen hetkinen päivitystaso."
+
+msgid "marker/level/tooltip/header"
+msgstr "Vaunun taso"
+
+msgid "marker/name"
+msgstr "Vaunun nimi"
+
+msgid "marker/name/type2"
+msgstr "Piilota"
+
+msgid "marker/nickname"
+msgstr "Pelaajan nimi"
+
+msgid "markerTitle"
+msgstr "Merkit"
+
+msgid "minimap/labels/alpha"
+msgstr "Pienoiskartan läpinäkyvyys"
+
+msgid "minimap/labels/size"
+msgstr "Maksimi koko"
+
+msgid "monitor"
+msgstr "Monitori"
+
+msgid "monitor/description"
+msgstr "Valitse ensisijainen näyttö peliä varten."
+
+msgid "mouse/sensitivity/art"
+msgstr "Telatykkitähtäin"
+
+msgid "mouse/sensitivity/art2"
+msgstr "Lentoratanäkymä"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "Vapaa kamera"
+
+msgid "mouse/sensitivity/header"
+msgstr "Herkkyys"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "Käännä vaakasuunta"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "Käännä pystysuunta"
+
+msgid "mouse/sensitivity/main"
+msgstr "Arcadetähtäin"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "Tarkka-ampujatähtäin"
+
+msgid "mouse/startDist"
+msgstr "Kameran paikka"
+
+msgid "ok_button"
+msgstr "OK"
+
+msgid "otherSettings/fieldset/header"
+msgstr "Ääniympäristön elementit"
+
+msgid "otherSettings/labels/bulb"
+msgstr "Kuudennen aistin aktivoitumisääni"
+
+msgid "otherTitle"
+msgstr "Muut"
+
+msgid "physicsQuality"
+msgstr "Äänifysiikoiden laatu"
+
+msgid "refreshRate"
+msgstr "Näytön virkistystaajuus"
+
+msgid "refreshRate/default"
+msgstr "Oletus"
+
+msgid "refreshRate/description"
+msgstr "Näytön virkistystaajuus pelissä.\n\nEroavaisuus näytön virkistystaajuuteen voi aiheuttaa välkkyvän ruudun ilmiön.\n\nEi vaikuta pelin suorituskykyyn."
+
+msgid "resolution"
+msgstr "Näytön resoluutio"
+
+msgid "resolution/description"
+msgstr "Vaaka- ja pystysuora kuvatarkkuus kokoruututilassa. Korkeampi kuvatarkkuus parantaa kuvanlaatua. Poikkeama pelin ja näytön kuvatarkkuudessa kokoruututilassa voi aiheuttaa kuvan vääristymistä.\n\nTämän arvon nostaminen kasvattaa näytönohjaimen kuormitusta ja voi laskea pelin suorituskykyä.\n\nNäytönohjaimen kuormitusta voidaan laskea muuttamalla 3D-resoluutiota."
+
+msgid "restartNewbieBattleHints"
+msgstr "Nollaa aloittelijan vinkit"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "Nollaa aloittelijan vinkkien historian, jotta saat vinkit, jotka olet jo nähnyt, näkyviin uudelleen"
+
+msgid "screenMode"
+msgstr "Pelitila"
+
+msgid "screenMode/borderless"
+msgstr "Ikkuna (reunaton)"
+
+msgid "screenMode/description"
+msgstr "Vaihtaminen kokonäytön, ikkunan ja ikkuna (reunaton) pelitilan välillä. Ikkunassa pelin suorituskyky on heikompi."
+
+msgid "screenMode/fullscreen"
+msgstr "Kokonäyttö"
+
+msgid "screenMode/label"
+msgstr "Tila:"
+
+msgid "screenMode/windowed"
+msgstr "Ikkuna"
+
+msgid "smoothing/description"
+msgstr "Määrittelee peliobjektien ohuiden viivojen ja ääriviivojen lisäprosessoinnin asteen. Minimoi sahalaitaisuusefektin. Objektien ääriviivat näyttävät luonnollisemmilta."
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "Normaali"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "Käyttäjän ääni"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "Vaihtoehto 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "Vaihtoehto 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "Käyttäjän ääni"
+
+msgid "sound/dynamicRange/label"
+msgstr "Dynaaminen alue"
+
+msgid "sound/fieldset/header"
+msgstr "Äänenvoimakkuus"
+
+msgid "sound/players_notifications"
+msgstr "Ilmoitukset muilta pelaajilta"
+
+msgid "sound/presets/title"
+msgstr "Esiasetukset"
+
+msgid "sound/soundModes/U01"
+msgstr "Käyttäjä 1"
+
+msgid "sound/soundModes/U02"
+msgstr "Käyttäjä 2"
+
+msgid "sound/soundModes/U03"
+msgstr "Käyttäjä 3"
+
+msgid "sound/soundModes/U04"
+msgstr "Käyttäjä 4"
+
+msgid "sound/soundModes/default"
+msgstr "Normaali"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "Komentaja"
+
+msgid "sound/special/field/set"
+msgstr "Pelitapahtuman äänenvoimakkuus"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "Päivitä laitteet"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "Lopeta testi"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "Aloita testi"
+
+msgid "sound/vivox/fade_volume"
+msgstr "Taustaäänien taso keskustelun aikana"
+
+msgid "sound/vivox/master_volume"
+msgstr "Keskustelun voimakkuus"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "Mikrofonin herkkyys"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Vivox testi"
+
+msgid "soundTitle"
+msgstr "Äänet"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "Automaattinen"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "2.0/2.1 stereot"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "5.1 järjestelmä"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "7.1 järjestelmä"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "kuulokkeet"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "Keskellä"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "Vasen"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "Taka vasen"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "Etu vasen"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "Vasen sivu"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "Oikea"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "Taka oikea"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "Etu oikea"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "Oikea sivu"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "Subwoofer"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "kannettava"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "Äänitesti:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "Testiääni"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "Ääniviestit riippuvat vaunun kansakunnasta ja komentajan sukupuolesta"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "Komentaja"
+
+msgid "sounds/altVoice/default/body"
+msgstr "Miesääni pelin asiakasohjelman kielellä"
+
+msgid "sounds/altVoice/default/header"
+msgstr "Normaali"
+
+msgid "sounds/ambient"
+msgstr "Taustaäänet"
+
+msgid "sounds/arena"
+msgstr "Musiikki taistelussa"
+
+msgid "sounds/artyBulbVoices"
+msgstr "Äänipeilaus"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "Valitse yksi vaihtoehdoista äänipeilauksen aktivointiääneksi. Käyttääksesi omaa ääntä, anna .mp3 tiedoston nimeksi \"soundExploring\" ja siirrä se \"res/audioww\" kansioon."
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "Äänipeilauksen aktivointiääni"
+
+msgid "sounds/bassBoost"
+msgstr "Matalan taajuuden tehostus"
+
+msgid "sounds/bassBoost/description"
+msgstr "Tehostaa matalia taajuuksia pelissä, kun yleinen äänenvoimakkuus pysyy samana. Tilan toteutus voi vaihdella valitun äänijärjestelmän välillä (kaiuttimet, kuulokkeet tai kannettava)."
+
+msgid "sounds/bulbVoices"
+msgstr "Kuudes aisti"
+
+msgid "sounds/bulbVoices/description"
+msgstr "Valitse yksi vaihtoehdoista kuudennen aistin aktivointiääneksi. Käyttääksesi omaa ääntä, nimeä .mp3 tiedosto \"sixthSense\" nimiseksi ja siirrä se \"res/audioww\" kansioon."
+
+msgid "sounds/effects"
+msgstr "Efektit"
+
+msgid "sounds/gui"
+msgstr "Käyttöliittymä"
+
+msgid "sounds/hangar"
+msgstr "Musiikki tallissa"
+
+msgid "sounds/masterVolume"
+msgstr "Äänenvoimakkuuden taso"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "Ota äänet käyttöön"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "Pelin ääniefektien poistaminen käytöstä voi parantaa yleistä pelin suorituskykyä. Sinun täytyy käynnistää peli uudelleen, jotta muutokset tulevat voimaan."
+
+msgid "sounds/nightMode"
+msgstr "Yötila"
+
+msgid "sounds/nightMode/description"
+msgstr "Tasoittaa äänenvoimakkuuksien erot, alentaa teräviä ääniä ja minimoi matalat taajuudet pelissä, tarjoten mukavan ja pehmeän ympäristön myöhäisillan pelaamiseen."
+
+msgid "sounds/physicsQuality/attention"
+msgstr "Tämän ominaisuuden käyttöönotto voi vaikuttaa suorituskykyyn."
+
+msgid "sounds/physicsQuality/body"
+msgstr "Hallitsee äänifysiikoiden laatua.\n\nSimuloi, kuinka ääni taipuu esteiden ympäri ja kulkee kartan pintojen läpi.\n\nKäyttää karttageometriaa generoimaan varhaisia kaikuja vaunun äänistä, jotka heijastelevat läheisistä kohteista.\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "Äänifysiikoiden laatu"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "Pois käytöstä"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "Korkea"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "Matala"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "Keskitaso"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "Suositeltu"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "Määrittää äänifysiikoiden optimilaadun tietokoneellesi.\n\nTämä voi viedä jonkin aikaa."
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "Suositeltu"
+
+msgid "sounds/sixthSense/body"
+msgstr "Valinnainen ääni. Siirrä sixthSense.mp3 -tiedosto res/audioww -kansioon."
+
+msgid "sounds/sixthSense/header"
+msgstr "Mukauta"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "2.0/2.1 stereot"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "Säätää peliäänet kahdelle täyden äänialan kaiuttimelle (2.0) tai kahdelle täyden äänialan kaiuttimelle + matalan taajuuden kaiuttimelle (2.1)."
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "2.0/2.1 stereot"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "5.1 järjestelmä"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "Säätää peliäänten paikoitusta ulkoisille kaiuttimille ja subwooferille monikanavaisessa 5.1 järjestelmässä."
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "5.1 järjestelmä"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "7.1 järjestelmä"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "Säätää peliäänten paikoitusta ulkoisille kaiuttimille ja subwooferille monikanavaisessa 7.1 järjestelmässä."
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "7.1 järjestelmä"
+
+msgid "sounds/soundDevice/auto"
+msgstr "Automaattinen"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "Määrittää automaattisesti käyttöjärjestelmän käyttämät äänikokoonpanon asetukset."
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "Automaattinen"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "Kuulokkeet"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "Säätää peliäänet kuulokkeille."
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "Kuulokkeet"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "Kannettava"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "Käyttää 2.0/2.1 äänijärjestelmän äänensuuntausta, mutta säätää peliäänet kannettavan pienille kaiuttimille parhaan laadun takaamiseksi."
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "Kannettava"
+
+msgid "sounds/soundQuality"
+msgstr "Matalalaatuinen ääni"
+
+msgid "sounds/soundQuality/description"
+msgstr "Äänenlaadun laskeminen voi parantaa yleistä pelin suorituskykyä heikompitasoisilla tietokoneilla. Tämän tilan kytkeminen päälle vähentää merkittävästi yhtä aikaa prosessoitujen äänien määrää."
+
+msgid "sounds/speakers/back/body"
+msgstr "Äänitesti taka oikealla/vasemmalla kaiuttimella."
+
+msgid "sounds/speakers/back/header"
+msgstr "Taka oikea/vasen kaiutin"
+
+msgid "sounds/speakers/center/body"
+msgstr "Äänitesti keskikaiuttimella."
+
+msgid "sounds/speakers/center/header"
+msgstr "Keskikaiutin"
+
+msgid "sounds/speakers/front/body"
+msgstr "Äänitesti etu oikealla/vasemmalla kaiuttimella."
+
+msgid "sounds/speakers/front/header"
+msgstr "Etu oikea/vasen kaiutin"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "2.0/2.1 järjestelmässä, subwoofer on valinnainen laite. Sitä ei voida testata ilman kaiuttimia."
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "Valinnainen subwoofer"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "Äänitesti oikealla/vasemmalla sivukaiuttimella."
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "Oikea/vasen sivukaiutin"
+
+msgid "sounds/speakers/sides/body"
+msgstr "Äänitesti oikealla/vasemmalla kaiuttimella."
+
+msgid "sounds/speakers/sides/header"
+msgstr "Oikea/vasen kaiutin"
+
+msgid "sounds/speakers/sub/body"
+msgstr "Äänitesti subwooferilla."
+
+msgid "sounds/speakers/sub/header"
+msgstr "Subwoofer"
+
+msgid "sounds/subtitles"
+msgstr "Tekstitys"
+
+msgid "sounds/tabCommon"
+msgstr "Yleiset äänet"
+
+msgid "sounds/tabSpecial"
+msgstr "Pelitapahtuma"
+
+msgid "sounds/tabVivox"
+msgstr "Äänikeskustelu"
+
+msgid "sounds/vehicles"
+msgstr "Vaunut"
+
+msgid "sounds/voiceNotification"
+msgstr "Ääni-ilmoitukset"
+
+msgid "title"
+msgstr "Asetukset"
+
+msgid "tripleBuffered"
+msgstr "Kolmoispuskurointi"
+
+msgid "tripleBuffered/description"
+msgstr "Vähentää repeilyä kuvan vaihtuessa (saatavilla vain, jos pystysynkronointi on käytössä)."
+
+msgid "vertSync"
+msgstr "Pystysynkronointi (V-sync)"
+
+msgid "vertSync/Off"
+msgstr "Pois päältä"
+
+msgid "vertSync/On"
+msgstr "Päällä"
+
+msgid "vertSync/description"
+msgstr "Tahdistaa kuvataajuuden näytön virkistystaajuuden kanssa.\n\n60 kuvaa sekunnissa on kuvataajuuden raja. Voidaan käyttää, jos kuva alkaa värisemään tai kuva on eri tahdissa näytön ala- ja ylälaidassa."
+
+msgid "voice_chat/PTT"
+msgstr "Paina-puhuaksesi"
+
+msgid "voice_chat/fieldset/header"
+msgstr "Äänenvoimakkuus"
+
+msgid "voice_chat/header/common"
+msgstr "Yleinen"
+
+msgid "voice_chat/header/microphone"
+msgstr "Mikrofoni"
+
+msgid "voice_chat/header/speakers"
+msgstr "Kuulokkeet"
+
+msgid "voice_chat/microphone"
+msgstr "Mikrofoni"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "Mikrofoni"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "Ota käyttöön mikrofoni"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "Ota käyttöön äänikeskustelu"
+
+msgid "windowSize"
+msgstr "Ikkunan koko"
+
+msgid "windowSize/description"
+msgstr "Peli-ikkunan vaaka- ja pystysuora kuvatarkkuus. Kun vaihdat kokoruututilaan, asetus muuttuu \"Näytön kuvatarkkuudeksi\"."
+
+msgid "windowTitle"
+msgstr "WoT Client"

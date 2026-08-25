@@ -1,0 +1,1532 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "allVehicles"
+msgstr "Всички"
+
+msgid "battleRating/tooltip/better/body"
+msgstr "Тази битка беше по-удовлетворяваща, балансирана или забавна от обикновено."
+
+msgid "battleRating/tooltip/better/header"
+msgstr "По-добре от обикновено"
+
+msgid "battleRating/tooltip/usual/body"
+msgstr "Стандартна битка — нищо неочаквано не се случи."
+
+msgid "battleRating/tooltip/usual/header"
+msgstr "Както обикновено"
+
+msgid "battleRating/tooltip/worse/body"
+msgstr "Тази битка беше по-разочароваща, небалансирана или несправедлива от обикновено."
+
+msgid "battleRating/tooltip/worse/header"
+msgstr "По-зле от обикновено"
+
+msgid "battleResult/battleRating/better/header"
+msgstr "ПО-ДОБРЕ ОТ ОБИКНОВЕНО"
+
+msgid "battleResult/battleRating/none/header"
+msgstr "Оцени битката си:"
+
+msgid "battleResult/battleRating/usual/header"
+msgstr "КАКТО ОБИКНОВЕНО"
+
+msgid "battleResult/battleRating/worse/header"
+msgstr "ПО-ЗЛЕ ОТ ОБИКНОВЕНО"
+
+msgid "battleResult/comp7Light/team/prestigePoints/body"
+msgstr "Сортиране по точки престиж."
+
+msgid "battleResult/comp7Light/team/prestigePoints/header"
+msgstr "Точки престиж"
+
+msgid "battleResult/navigation/battleResults"
+msgstr "Преглед"
+
+msgid "battleResult/navigation/financialReport"
+msgstr "Финансов отчет"
+
+msgid "battleResult/navigation/missionsProgress"
+msgstr "Напредък на мисията"
+
+msgid "battleResult/navigation/teamEfficiency"
+msgstr "Отборен резултат"
+
+msgid "battleResult/team/prestigePoints/body"
+msgstr "Сортиране по точки престиж. Точките престиж влияят на броя спечелени и загубени рейтингови точки в битка."
+
+msgid "battleResult/team/prestigePoints/header"
+msgstr "Точки престиж"
+
+msgid "common/arena/fullName"
+msgstr "{0} – {1}"
+
+msgid "common/arena/nameAndMode"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/battleEfficiency/allies"
+msgstr "Съюзници:"
+
+msgid "common/battleEfficiency/allyBase"
+msgstr "Защита на база"
+
+msgid "common/battleEfficiency/baseCapture"
+msgstr "Завладяване на база:"
+
+msgid "common/battleEfficiency/bases"
+msgstr "Бази"
+
+msgid "common/battleEfficiency/enemyBase"
+msgstr "Завладяване на база"
+
+msgid "common/battleEfficiency/neutralBase"
+msgstr "Неутрална база"
+
+msgid "common/battleEfficiency/noEfficiency"
+msgstr "Не извършихте никакви действия в тази битка."
+
+msgid "common/battleEfficiency/none"
+msgstr "Няма унищожени или открити вражески машини."
+
+msgid "common/battleEfficiency/technique"
+msgstr "Машини"
+
+msgid "common/battleEfficiency/title"
+msgstr "Бойна ефективност"
+
+msgid "common/battleEfficiency/uppercased_title"
+msgstr "БОЙНА ЕФЕКТИВНОСТ"
+
+msgid "common/battleEfficiencyWithSkills/title"
+msgstr "Бойно представяне (включително използвани умения)"
+
+msgid "common/battleEfficiencyWithoutOreders/title"
+msgstr "Бойна ефективност (без бойни резерви)"
+
+msgid "common/battleType/sortie"
+msgstr "Схватка с клан "
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "common/crewMember/description"
+msgstr "%(role)s, %(name)s"
+
+msgid "common/crewMember/newSkill"
+msgstr "Ново умение"
+
+msgid "common/details/buyPremiumBtn"
+msgstr "Купи Премиум"
+
+msgid "common/details/creditsTitle"
+msgstr "Кредити"
+
+msgid "common/details/crystal"
+msgstr "Бонове"
+
+msgid "common/details/getPremBtn"
+msgstr "Подробности"
+
+msgid "common/details/noPremTitle"
+msgstr "Стандартен акаунт"
+
+msgid "common/details/premTitle"
+msgstr "Танков премиум"
+
+msgid "common/details/premiumAdvertising/bonus"
+msgstr "{{@ split}}Приложете х{{multiplier}} бонус към опита за избраната победна битка с Танков премиум акаунт.{{/}}"
+
+msgid "common/details/premiumAdvertising/credits"
+msgstr "{{@ split}}Получете до {{bonusCredits}} на всеки {{@ style}}{{durationInDays}} д.{{/}} с Танков премиум акаунт.{{/}}"
+
+msgid "common/details/premiumPlus/bonus"
+msgstr "Приложете х%(multiplier)d бонус към опита за избраната победна битка с Танков премиум акаунт."
+
+msgid "common/details/premiumPlus/credits"
+msgstr "Получете до %(bonusCredits)s на всеки %(durationInDays)d д. с Танков премиум акаунт."
+
+msgid "common/details/premiumPlus/premium"
+msgstr "Допълнителен опит, кредити, Премиум мисии и взводни бонуси с Танков премиум акаунт."
+
+msgid "common/details/premiumPlus/quests"
+msgstr "Отключете специални мисии с Танков премиум акаунт."
+
+msgid "common/details/premiumPlus/squad"
+msgstr "Печелете повече кредити, когато играете във взвод с Танков премиум акаунт."
+
+msgid "common/details/xpTitle"
+msgstr "Опит"
+
+msgid "common/details/xpTitleSquad"
+msgstr "Опит %(img)s"
+
+msgid "common/fitting/purchase"
+msgstr "Покупка на модул"
+
+msgid "common/fitting/research"
+msgstr "Изследване на модул"
+
+msgid "common/mainFinishReasonTitle"
+msgstr "Основна фаза на битката:"
+
+msgid "common/missions/noProgress/button"
+msgstr "Към мисии"
+
+msgid "common/missions/noProgress/description"
+msgstr "Преглед на текущия напредък на мисията"
+
+msgid "common/missions/noProgress/header"
+msgstr "Няма напредък по мисии или изследване на машини."
+
+msgid "common/newSkillPrediction"
+msgstr "Оставащи битки (приблизително): %(battles)s"
+
+msgid "common/noIncome/alert/text"
+msgstr "След като сте изиграли 10 битки, няма да печелите повече кредити, опит или награди в този режим, а резултатите ви от битки няма да се отразяват на личното ви досие."
+
+msgid "common/noIncome/alert/title"
+msgstr "Внимание!"
+
+msgid "common/noProgress"
+msgstr "Няма напредък по мисии, изследване на машини и обучение на екипаж."
+
+msgid "common/overtimeFinishReasonTitle"
+msgstr "Овъртайм:"
+
+msgid "common/player/nameWithClan"
+msgstr "{{name}} [{{clan}}]"
+
+msgid "common/plusBonus/bonusLeftAdditionalText"
+msgstr "Отключете повече с"
+
+msgid "common/plusBonus/earnedMessage"
+msgstr "Днес спечелихте:"
+
+msgid "common/plusBonus/earningsInformation"
+msgstr "Спечелихте %(count)s опит днес"
+
+msgid "common/plusBonus/premiumPlusAdd"
+msgstr "Отключете с WoT Плюс или WoT Премиум"
+
+msgid "common/plusBonus/wotPlus"
+msgstr "WoT Плюс"
+
+msgid "common/plusBonus/wotPremium"
+msgstr "Танков премиум"
+
+msgid "common/plusBonus/youRock"
+msgstr "Супер си!"
+
+msgid "common/premiumBonus"
+msgstr "Искате да получавате повече?"
+
+msgid "common/premiumBonus/appliedBonus"
+msgstr "Бонусът е приложен успешно"
+
+msgid "common/premiumBonus/applyBonusBtn"
+msgstr "Приложи"
+
+msgid "common/premiumBonus/bonusLeft"
+msgstr "Останали днес: %(count)s"
+
+msgid "common/premiumBonus/bonusMultiplier"
+msgstr "×{{value}}"
+
+msgid "common/premiumBonus/description"
+msgstr "Управляем множител за опит"
+
+msgid "common/premiumBonus/earnMore"
+msgstr "Искате да получавате повече?"
+
+msgid "common/premiumBonus/expiredBattleResult"
+msgstr "Трябва да се приложи към последната битка със същата машина."
+
+msgid "common/premiumBonus/isXPToTmenDisabled"
+msgstr "Бонусът не може да бъде приложен: ускореното обучение на екипажа е изключено."
+
+msgid "common/premiumBonus/isXPToTmenDisabledWithInfo"
+msgstr "{{@ split}}Бонусът не може да бъде приложен: ускореното обучение на екипажа {{@ style}}е изключено.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/isXPToTmenEnabled"
+msgstr "Бонусът не може да бъде приложен: ускореното обучение на екипажа е включено."
+
+msgid "common/premiumBonus/isXPToTmenEnabledWithInfo"
+msgstr "{{@ split}}Бонусът не може да бъде приложен: ускореното обучение на екипажа {{@ style}}е включено.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/rule"
+msgstr "Множителите могат да се прилагат само към победни битки. Повече късмет следващия път!"
+
+msgid "common/premiumBonus/tankStateChanged"
+msgstr "Управляемият бонус не може да бъде приложен: машината не е открита."
+
+msgid "common/premiumBonus/tankStateChangedWithInfo"
+msgstr "{{@ split}}Управляемият бонус не може да бъде приложен: машината не е {{@ style}}открита.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/tankmenStateChanged"
+msgstr "Управляемият бонус не може да бъде приложен: екипажът не е открит."
+
+msgid "common/premiumBonus/tankmenStateChangedWithInfo"
+msgstr "{{@ split}}Управляемият бонус не може да бъде приложен: екипажът не е {{@ style}}открит.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/unavailable"
+msgstr "Множителите не са налични в този режим на игра."
+
+msgid "common/progressTitle"
+msgstr "Изследване на машини и напредък по мисии"
+
+msgid "common/quests/noprogress"
+msgstr "Не е имало събития по мисии"
+
+msgid "common/researchPrediction"
+msgstr "Оставащи битки (приблизително): %(battles)s"
+
+msgid "common/resultsShareBtn"
+msgstr "Получи връзка"
+
+msgid "common/startTime"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/tooltip/armor/description"
+msgstr "Зачитат се:\n• Рикошети на вражески изстрели\n• Непробили попадения\n\nПопадения с ОФ и HESH снаряди не се зачитат."
+
+msgid "common/tooltip/armor/header"
+msgstr "Използване на броня"
+
+msgid "common/tooltip/armor/part1"
+msgstr "Рикошети"
+
+msgid "common/tooltip/armor/part2"
+msgstr "Непробили попадения"
+
+msgid "common/tooltip/armor/part3"
+msgstr "Поражения, спрени от броня %(vals)s"
+
+msgid "common/tooltip/assist/description"
+msgstr "Зачитат се следните видове поражения, нанесени от съюзници на вражески машини:\n• Поражения при откриване от вас\n• Поражения при унищожена от вас верига и обездвижване вражеска машина"
+
+msgid "common/tooltip/assist/header"
+msgstr "Участие в унищожение"
+
+msgid "common/tooltip/assist/part1"
+msgstr "Поражения при откриване от вас %(vals)s"
+
+msgid "common/tooltip/assist/part2"
+msgstr "Поражения при унищожена от вас верига и обездвижване вражеска машина %(vals)s"
+
+msgid "common/tooltip/assist/total"
+msgstr "Общо поражения, нанесени от съюзници на враг %(vals)s"
+
+msgid "common/tooltip/capture/description"
+msgstr "Зачитат се:\n• Точки за завладяване на вражеска база\n• Точки за завладяване на неутрална база"
+
+msgid "common/tooltip/capture/header"
+msgstr "Завладяване на база"
+
+msgid "common/tooltip/capture/totalPoints"
+msgstr "Общо точки за завладяване на база"
+
+msgid "common/tooltip/counter"
+msgstr "Общо ленти, получени в битката: %(count)s"
+
+msgid "common/tooltip/counter/forEnemy"
+msgstr "Ленти, получени в битката за тази вражеска машина: %(count)s"
+
+msgid "common/tooltip/counter/noItems"
+msgstr "Лентата не е получена в битката."
+
+msgid "common/tooltip/crits/critDamage"
+msgstr "Повредени:"
+
+msgid "common/tooltip/crits/critDestruction"
+msgstr "Извън строя:"
+
+msgid "common/tooltip/crits/critWound"
+msgstr "Ранени:"
+
+msgid "common/tooltip/crits/description"
+msgstr "Зачита се:\n• Поражения по външни и вътрешни модули на вражеската машина\n• Унищожаване на вътрешни и външни модули на вражеската машина\n• Раняване на членове на екипажа на вражеската машина."
+
+msgid "common/tooltip/crits/header"
+msgstr "Критични поражения"
+
+msgid "common/tooltip/crits/total"
+msgstr "Общо:"
+
+msgid "common/tooltip/damage/description"
+msgstr "Зачита се:\n• Поражения от изстрели\n• Поражения от таран\n• Поражения от пожар\n• Поражения от силен удар"
+
+msgid "common/tooltip/damage/header"
+msgstr "Поражения"
+
+msgid "common/tooltip/damage/part1"
+msgstr "Общо поражения %(vals)s"
+
+msgid "common/tooltip/damage/part2"
+msgstr "Общо пробили изстрели"
+
+msgid "common/tooltip/defence/description"
+msgstr "Зачитат се:\n• Точки за защита на съюзническа база\n• Точки за защита на неутрална база"
+
+msgid "common/tooltip/defence/header"
+msgstr "Защита на база"
+
+msgid "common/tooltip/defence/totalPoints"
+msgstr "Общо точки за защита на база"
+
+msgid "common/tooltip/kill/header"
+msgstr "Врагът е унищожен"
+
+msgid "common/tooltip/kill0/description"
+msgstr "Вражеската машина е унищожена от изстрел"
+
+msgid "common/tooltip/kill1/description"
+msgstr "Вражеската машина е унищожена от пожар"
+
+msgid "common/tooltip/kill2/description"
+msgstr "Вражеската машина е унищожена от таран"
+
+msgid "common/tooltip/kill3/description"
+msgstr "Вражеската машина се разби"
+
+msgid "common/tooltip/kill4/description"
+msgstr "Вражеската машина е унищожена от забранена зона"
+
+msgid "common/tooltip/kill5/description"
+msgstr "Вражеската машина потъна"
+
+msgid "common/tooltip/kill6/description"
+msgstr "Унищожен от огнена буря"
+
+msgid "common/tooltip/kill7/description"
+msgstr "Вражеската машина е преобърната."
+
+msgid "common/tooltip/killCommon/description"
+msgstr "Зачита се:\n• Унищожаване с изстрел\n• Унищожаване от пожар\n• Унищожаване с таран\n• Унищожаване чрез удавяне\n• Унищожаване чрез бутане на вражеската машина в препятствие\n• Унищожаване чрез преобръщане."
+
+msgid "common/tooltip/params/val"
+msgstr "(т.ж.)"
+
+msgid "common/tooltip/params/val/seconds"
+msgstr "(с)"
+
+msgid "common/tooltip/spotted/description"
+msgstr "Зачита се първото откриване на вражеската машина."
+
+msgid "common/tooltip/spotted/header"
+msgstr "Откриване"
+
+msgid "common/tooltip/stun/description"
+msgstr "Зачитат се поражения:\n• Нанесени от съюзници на вражески машини, зашеметени от вас."
+
+msgid "common/tooltip/stun/header"
+msgstr "Зашеметяване"
+
+msgid "common/tooltip/stun/part1"
+msgstr "Общо поражения %(vals)s"
+
+msgid "common/tooltip/stun/part2"
+msgstr "Брой зашеметявания"
+
+msgid "common/tooltip/stun/part3"
+msgstr "Обща продължителност на нанесено зашеметяване: %(vals)s"
+
+msgid "common/tooltip/teamKill-1/description"
+msgstr "Съюзническата машина е унищожена"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "Убийство на съотборник"
+
+msgid "common/tooltip/teamKill0/description"
+msgstr "Съюзническата машина е унищожена от изстрел"
+
+msgid "common/tooltip/teamKill1/description"
+msgstr "Съюзническата машина е унищожена от пожар"
+
+msgid "common/tooltip/teamKill2/description"
+msgstr "Съюзническата машина е унищожена от таран"
+
+msgid "common/tooltip/teamKill3/description"
+msgstr "Съюзническата машина се разби"
+
+msgid "common/tooltip/teamKill4/description"
+msgstr "Съюзническата машина е унищожена от забранена зона"
+
+msgid "common/tooltip/teamKill5/description"
+msgstr "Съюзническата машина потъна"
+
+msgid "common/tooltip/xpTitleSquad"
+msgstr "Получихте допълнителен опит за игра във взвод в тази битка."
+
+msgid "common/totalTooltip/armor/part1"
+msgstr "Рикошети"
+
+msgid "common/totalTooltip/armor/part2"
+msgstr "Непробили попадения"
+
+msgid "common/totalTooltip/armor/part3"
+msgstr "Поражения, спрени от бронята"
+
+msgid "common/totalTooltip/assist/part1"
+msgstr "Поражения при ваше откриване"
+
+msgid "common/totalTooltip/assist/part2"
+msgstr "Поражения при унищожена от вас верига и обездвижване на вражеска машина"
+
+msgid "common/totalTooltip/assist/total"
+msgstr "Общо поражения, нанесени от съюзници на вражески машини"
+
+msgid "common/totalTooltip/damage/part1"
+msgstr "Общо поражения"
+
+msgid "common/totalTooltip/damage/part2"
+msgstr "Общо пробили изстрели"
+
+msgid "common/totalTooltip/stun/part1"
+msgstr "Общо поражения"
+
+msgid "common/totalTooltip/stun/part2"
+msgstr "Брой зашеметявания"
+
+msgid "common/totalTooltip/stun/part3"
+msgstr "Обща продължителност на нанесено зашеметяване"
+
+msgid "common/vehicle/details"
+msgstr "%(vehicle)s, %(type)s"
+
+msgid "common/vehicle/purchase"
+msgstr "Покупка на машина"
+
+msgid "common/vehicle/research"
+msgstr "Изследване на машина"
+
+msgid "common/vehicleState/alive"
+msgstr "Оцелял"
+
+msgid "common/vehicleState/dead0"
+msgstr "Унищожен от изстрел"
+
+msgid "common/vehicleState/dead0_with_killername"
+msgstr "Унищожен от изстрел ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead0_with_killername_and_clan"
+msgstr "Унищожен от изстрел ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead1"
+msgstr "Унищожен от пожар"
+
+msgid "common/vehicleState/dead12"
+msgstr "Самоунищожен"
+
+msgid "common/vehicleState/dead13"
+msgstr "Унищожени от умение на играча"
+
+msgid "common/vehicleState/dead1_with_killername"
+msgstr "Унищожен от пожар ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead1_with_killername_and_clan"
+msgstr "Унищожен от пожар ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead2"
+msgstr "Унищожен от таран"
+
+msgid "common/vehicleState/dead27"
+msgstr "Унищожен от артилерийски залп"
+
+msgid "common/vehicleState/dead29"
+msgstr "се разби"
+
+msgid "common/vehicleState/dead2_with_killername"
+msgstr "Унищожен от таран ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead2_with_killername_and_clan"
+msgstr "Унищожен от таран ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead3"
+msgstr "се разби"
+
+msgid "common/vehicleState/dead30"
+msgstr "Унищожен от изстрел"
+
+msgid "common/vehicleState/dead30_with_killername"
+msgstr "Унищожен от изстрел ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead30_with_killername_and_clan"
+msgstr "Унищожен от изстрел ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead35"
+msgstr "Разбил се"
+
+msgid "common/vehicleState/dead3_with_killername"
+msgstr "Катастрофирал ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead3_with_killername_and_clan"
+msgstr "Катастрофирал ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead4"
+msgstr "Унищожен от забранена зона"
+
+msgid "common/vehicleState/dead5"
+msgstr "Машината потъна"
+
+msgid "common/vehicleState/dead5_with_killername"
+msgstr "Машината е потънала ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead5_with_killername_and_clan"
+msgstr "Машината е потънала ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead6"
+msgstr "Унищожен от огнена буря"
+
+msgid "common/vehicleState/dead7"
+msgstr "Унищожен при преобръщане"
+
+msgid "common/vehicleState/dead7_with_killername"
+msgstr "Унищожен чрез преобръщане ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead7_with_killername_and_clan"
+msgstr "Унищожен чрез преобръщане ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/prematureLeave"
+msgstr "Напуснал преди края на битката"
+
+msgid "common/vehicleState/victory"
+msgstr "Победа!"
+
+msgid "common/wotPlusBonus/bonusLeft"
+msgstr "Останали днес: %(count)s"
+
+msgid "common/xpMultiplierSign"
+msgstr "x"
+
+msgid "comms/likes/pbs/text/01"
+msgstr "Похвали, получени в тази битка"
+
+msgid "comms/likes/pbs/tooltip/body"
+msgstr "{{var}} съюзника ви похвалиха в тази битка."
+
+msgid "comms/likes/pbs/tooltip/bodySingle"
+msgstr "{{var}} съюзник ви похвали в тази битка."
+
+msgid "comms/likes/pbs/tooltip/header"
+msgstr "Получени похвали"
+
+msgid "conditions/type/and"
+msgstr "И"
+
+msgid "conditions/type/or"
+msgstr "ИЛИ"
+
+msgid "customizationProgress/award/newLevel"
+msgstr "Достигнато е ниво %(level)s на декал \"%(name)s\"."
+
+msgid "customizationProgress/award/received"
+msgstr "Получен е декал \"%(name)s\" %(count)s."
+
+msgid "customizationProgress/descr"
+msgstr "Декал \"%(name)s\" ниво %(level)s"
+
+msgid "cyberSport/btnToTeamProfile"
+msgstr "Профил на отбора"
+
+msgid "cyberSport/points"
+msgstr "Точки:"
+
+msgid "cyberSport/status/lose"
+msgstr "Поражение"
+
+msgid "cyberSport/status/tie"
+msgstr "Реми"
+
+msgid "cyberSport/status/win"
+msgstr "Победа!"
+
+msgid "details/calculations/additionalBonus"
+msgstr "Управляем бонус към опита"
+
+msgid "details/calculations/aogasFactor"
+msgstr "Коефициент на намаляване (AOGAS)"
+
+msgid "details/calculations/autoBoosters"
+msgstr "Автоматично попълване на директиви"
+
+msgid "details/calculations/autoEquip"
+msgstr "Автоматично попълване на снаряжение"
+
+msgid "details/calculations/autoLoad"
+msgstr "Автоматично попълване на амуниции"
+
+msgid "details/calculations/autoRepair"
+msgstr "Автоматична поправка на машина"
+
+msgid "details/calculations/autoResupply"
+msgstr "Автоматично попълване"
+
+msgid "details/calculations/base"
+msgstr "Получени"
+
+msgid "details/calculations/battlePayments"
+msgstr "Бойни надници"
+
+msgid "details/calculations/boosters"
+msgstr "Бонус за личен резерв"
+
+msgid "details/calculations/crystal/events"
+msgstr "За изпълнение на мисии"
+
+msgid "details/calculations/crystal/total"
+msgstr "За специалната способност на машината"
+
+msgid "details/calculations/event"
+msgstr "Награда за изпълнение на мисията и акции"
+
+msgid "details/calculations/fairPlayViolation/afk"
+msgstr "Глоба за бездействие в битка"
+
+msgid "details/calculations/fairPlayViolation/comp7_deserter"
+msgstr "Глоба за дезертьорство"
+
+msgid "details/calculations/fairPlayViolation/comp7_light_deserter"
+msgstr "Глоба за дезертьорство"
+
+msgid "details/calculations/fairPlayViolation/deserter"
+msgstr "Глоба за дезертьорство"
+
+msgid "details/calculations/fairPlayViolation/epic_deserter"
+msgstr "Глоба за дезертьорство"
+
+msgid "details/calculations/fairPlayViolation/event_afk"
+msgstr "Глоба за бездействие в битка"
+
+msgid "details/calculations/fairPlayViolation/event_deserter"
+msgstr "Глоба за дезертьорство"
+
+msgid "details/calculations/fairPlayViolation/suicide"
+msgstr "Глоба за умишлено самоунищожение"
+
+msgid "details/calculations/firstWin"
+msgstr "Награда за първата победа всеки ден"
+
+msgid "details/calculations/fortOrder"
+msgstr "Бонус за използвани резерви"
+
+msgid "details/calculations/friendlyFireCompensation"
+msgstr "Компенсация за щети от съотборници"
+
+msgid "details/calculations/friendlyFirePenalty"
+msgstr "Глоба за нанесени щети на съюзници"
+
+msgid "details/calculations/friendlyFireRankedXpPenalty"
+msgstr "Глоба за зашеметяване или поражения по съюзници"
+
+msgid "details/calculations/heavyTrucks"
+msgstr "Тежкотоварен транспорт"
+
+msgid "details/calculations/igrBonus"
+msgstr "Награда за игра на %(igrIcon)s"
+
+msgid "details/calculations/igrBonus/simpleLabel"
+msgstr "IGR бонус"
+
+msgid "details/calculations/intermediateTotal"
+msgstr "Общо за битката:"
+
+msgid "details/calculations/manageableXpBonus"
+msgstr "Управляем бонус за опит"
+
+msgid "details/calculations/maximum"
+msgstr "максимум"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "За военни маневри"
+
+msgid "details/calculations/multiplierInfo/body"
+msgstr "Увеличен опит за първата победа всеки ден е добавен на следните машини:"
+
+msgid "details/calculations/multiplierInfo/header"
+msgstr "Награда за първата победа всеки ден"
+
+msgid "details/calculations/multiplierInfo/vehicleSeparator"
+msgstr "• "
+
+msgid "details/calculations/noPenalty"
+msgstr "За достойна съпротива"
+
+msgid "details/calculations/petCredits/fullLabel"
+msgstr "Бонус за домашен любимец (%(bonusFactor)d%)"
+
+msgid "details/calculations/petCredits/simpleLabel"
+msgstr "Бонус за домашен любимец"
+
+msgid "details/calculations/piggyBankInfo"
+msgstr "Добавено към резервите със средства"
+
+msgid "details/calculations/playerRankXP"
+msgstr "Бонус за звание"
+
+msgid "details/calculations/premiumVehicleXP"
+msgstr "Бонус за ниво на Премиум машина"
+
+msgid "details/calculations/referralBonus"
+msgstr "Референтен бонус (%(bonusFactor)d%%)"
+
+msgid "details/calculations/referralBonus/fullLabel"
+msgstr "Референтен бонус (%(bonusFactor)d%)"
+
+msgid "details/calculations/referralBonus/simpleLabel"
+msgstr "Референтен бонус"
+
+msgid "details/calculations/squad/restrictions/title"
+msgstr "За игра във взвод"
+
+msgid "details/calculations/squadBonus"
+msgstr "Бонус за игра във взвод"
+
+msgid "details/calculations/squadXP"
+msgstr "За игра във взвод"
+
+msgid "details/calculations/squadXPPenalty"
+msgstr "Наказание за неправилен състав на взвода"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "За тактическо обучение"
+
+msgid "details/calculations/title/base"
+msgstr "Получени"
+
+msgid "details/calculations/title/expenses"
+msgstr "Разноски"
+
+msgid "details/calculations/title/total"
+msgstr "Общо"
+
+msgid "details/calculations/total"
+msgstr "Общо:"
+
+msgid "details/calculations/wotPlus"
+msgstr "WoT Plus Боен бонус"
+
+msgid "details/calculations/wotPlusBonus"
+msgstr "WoT Плюс Боен бонус"
+
+msgid "details/calculations/wotPlusProBoost"
+msgstr "WoT Плюс Про Бустер"
+
+msgid "details/calculations/xpRecord"
+msgstr "Получени (%(color_tag_open)s максимум %(color_tag_close)s)"
+
+msgid "details/calculations/xpRecordSimple"
+msgstr "Получено (%(maximum)s)"
+
+msgid "details/credits"
+msgstr "Кредити"
+
+msgid "details/crystal"
+msgstr "Бонове"
+
+msgid "details/noPrem"
+msgstr "Стандартен акаунт"
+
+msgid "details/prem"
+msgstr "Общ Премиум"
+
+msgid "details/premPlus"
+msgstr "Танков премиум"
+
+msgid "details/resource"
+msgstr "Производствен ресурс"
+
+msgid "details/stats"
+msgstr "Статистика"
+
+msgid "details/time"
+msgstr "Време"
+
+msgid "details/time/lbl_arenaCreateTimeOnlyStr"
+msgstr "Начало на битката"
+
+msgid "details/time/lbl_basesCaptured"
+msgstr "Зоните са завладени"
+
+msgid "details/time/lbl_duration"
+msgstr "Продължителност на битката"
+
+msgid "details/time/lbl_objectivesDestroyed"
+msgstr "Целите са унищожени"
+
+msgid "details/time/lbl_objectivesReached"
+msgstr "Целите са достигнати"
+
+msgid "details/time/lbl_playerKilled"
+msgstr "Време до унищожаване"
+
+msgid "details/time/val_no"
+msgstr "Не"
+
+msgid "details/time/val_yes"
+msgstr "Да"
+
+msgid "details/time/value"
+msgstr "%(min)s мин. %(sec)s сек."
+
+msgid "details/time_epic"
+msgstr "Битка"
+
+msgid "details/xp"
+msgstr "Опит"
+
+msgid "details/xp_abbr"
+msgstr "опит"
+
+msgid "exterminationVictory/allies"
+msgstr "Вашият отбор унищожи всички вражески машини"
+
+msgid "exterminationVictory/enemies"
+msgstr "Вражеският отбор унищожи всички машини от вашия отбор"
+
+msgid "fallout/classic/lose/cap"
+msgstr "Вражеският отбор спечели повече точки за победа от вашия отбор"
+
+msgid "fallout/classic/lose/extermination"
+msgstr "Вражеският отбор унищожи всички машини от вашия отбор"
+
+msgid "fallout/classic/lose/points"
+msgstr "Вражеският отбор спечели повече точки за победа от вашия отбор"
+
+msgid "fallout/classic/tie"
+msgstr "Двата отбора спечелиха равен брой точки за победа"
+
+msgid "fallout/classic/win/cap"
+msgstr "Вашият отбор спечели повече точки за победа от врага"
+
+msgid "fallout/classic/win/extermination"
+msgstr "Вашият отбор унищожи всички вражески машини"
+
+msgid "fallout/classic/win/points"
+msgstr "Вашият отбор спечели повече точки за победа от врага"
+
+msgid "fallout/multiteam/ended"
+msgstr "Целта не е изпълнена"
+
+msgid "fallout/multiteam/noPlayerSelected"
+msgstr "Изберете играч от списъка,\nза да видите подробна информация."
+
+msgid "fallout/multiteam/win/cap"
+msgstr "Вашият отбор спечели повече точки за победа от врага"
+
+msgid "fallout/multiteam/win/extermination"
+msgstr "Всички вражески отряди са унищожени"
+
+msgid "fallout/multiteam/win/points"
+msgstr "Вашият отбор спечели повече точки за победа от врага"
+
+msgid "finish/clanBattle_reason_attack/1lose"
+msgstr "Сграда %(buildingName)s не е завладяна"
+
+msgid "finish/clanBattle_reason_attack/1tie"
+msgstr "Сграда %(buildingName)s е завладяна"
+
+msgid "finish/clanBattle_reason_attack/1win"
+msgstr "Завладяна сграда: %(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1lose"
+msgstr "Сграда %(buildingName)s е завладяна от врага"
+
+msgid "finish/clanBattle_reason_def/1tie"
+msgstr "Сграда %(buildingName)s не е завладяна"
+
+msgid "finish/clanBattle_reason_def/1win"
+msgstr "Защитена сграда: %(buildingName)s"
+
+msgid "finish/clarification/finishAllPlayersLeft"
+msgstr "Резултатът се изчислява въз основа на останалата информация за отборите"
+
+msgid "finish/overtime/lose"
+msgstr "Врагът не е унищожен"
+
+msgid "finish/overtime/win"
+msgstr "Врагът е унищожен"
+
+msgid "finish/playerTank/separator"
+msgstr "–"
+
+msgid "finish/reason/0"
+msgstr "Неизвестна причина"
+
+msgid "finish/reason/10lose"
+msgstr "Целите не бяха унищожени"
+
+msgid "finish/reason/10win"
+msgstr "Целите са унищожени"
+
+msgid "finish/reason/1lose"
+msgstr "Всички съюзнически машини са унищожени"
+
+msgid "finish/reason/1tie"
+msgstr "Всички машини са унищожени"
+
+msgid "finish/reason/1win"
+msgstr "Всички вражески машини са унищожени"
+
+msgid "finish/reason/2"
+msgstr "Завладяване на базата"
+
+msgid "finish/reason/3"
+msgstr "Времето за битка изтече"
+
+msgid "finish/reason/4"
+msgstr "Битката е прекратена заради системна грешка"
+
+msgid "finish/reason/5"
+msgstr "Техническа загуба"
+
+msgid "finish/reason/8"
+msgstr "Унищожен е съюзник"
+
+msgid "finish/reason/9"
+msgstr "Вашата машина е унищожена"
+
+msgid "garage/uniqueDamage"
+msgstr "Зачита се само уникално критично попадение."
+
+msgid "getPremiumPopover/actionBtn/label"
+msgstr "Избери продължителност"
+
+msgid "getPremiumPopover/award"
+msgstr "+50% към кредитите и опита"
+
+msgid "getPremiumPopover/descriptionText"
+msgstr "Купете %(prem)s и получавайте %(award)s за всички следващи битки"
+
+msgid "getPremiumPopover/headerText"
+msgstr "За тази битка можете да получите:"
+
+msgid "getPremiumPopover/prem"
+msgstr "Премиум акаунт"
+
+msgid "missionsProgress/aboutVehicle/button"
+msgstr "Към изследване"
+
+msgid "missionsProgress/aboutVehicle/description"
+msgstr "Достъпно за изследване"
+
+msgid "missionsProgress/aboutVehicle/prediction"
+msgstr "Оставащи битки (приблизително): {{prediction}}"
+
+msgid "missionsProgress/aboutVehicle/title"
+msgstr "ЗА МАШИНАТА"
+
+msgid "missionsProgress/battleMatters/doneInfo"
+msgstr "Мисия #{{name}} е изпълнена."
+
+msgid "missionsProgress/battleMatters/title"
+msgstr "ТАНКОВА АКАДЕМИЯ"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/module"
+msgstr "ОТКЛЮЧЕН Е НОВ МОДУЛ!"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/vehicle"
+msgstr "ОТКЛЮЧЕНА Е НОВА МАШИНА!"
+
+msgid "missionsProgress/notificationsTabs/battleMatters"
+msgstr "МИСИЯТА НА АКАДЕМИЯТА Е ЗАВЪРШЕНА!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/chapterComplete"
+msgstr "ГЛАВАТА Е ЗАВЪРШЕНА!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/stageComplete"
+msgstr "ЕТАПЪТ Е ЗАВЪРШЕН!"
+
+msgid "missionsProgress/notificationsTabs/challenge"
+msgstr "МИСИЯТА НА УЖАС Е ЗАВЪРШЕНА!"
+
+msgid "missionsProgress/notificationsTabs/common"
+msgstr "МИСИЯТА ИЗПЪЛНЕНА!"
+
+msgid "missionsProgress/notificationsTabs/daily"
+msgstr "ЕЖЕДНЕВНАТА МИСИЯ Е ИЗПЪЛНЕНА!"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/maxLevel"
+msgstr "МАКСИМАЛНО ЕЛИТНО НИВО"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/newLevel"
+msgstr "НОВО ЕЛИТНО НИВО"
+
+msgid "missionsProgress/notificationsTabs/epic"
+msgstr "ЕПИЧНАТА МИСИЯ Е ИЗПЪЛНЕНА!"
+
+msgid "missionsProgress/notificationsTabs/personalMissions/operation_mission_complete"
+msgstr "МИСИЯТА ОТ ОПЕРАЦИЯ Е ИЗПЪЛНЕНА!"
+
+msgid "missionsProgress/notificationsTabs/premium"
+msgstr "ПРЕМИУМ МИСИЯТА Е ИЗПЪЛНЕНА!"
+
+msgid "missionsProgress/notificationsTabs/weekly"
+msgstr "СЕДМИЧНАТА МИСИЯ Е ИЗПЪЛНЕНА!"
+
+msgid "noData"
+msgstr "Съжаляваме, резултатите от битка не са достъпни."
+
+msgid "personalQuest/bonus/descr"
+msgstr "вашият напредък по основното условие в тази битка беше увеличен %(value)s пъти."
+
+msgid "personalQuest/bonus/multiplier"
+msgstr "Множител х%(value)s:"
+
+msgid "personalQuest/failed/attention"
+msgstr "Внимание!"
+
+msgid "personalQuest/failed/descr"
+msgstr "Напредъкът ви по мисията беше нулиран. Изпълнението на условието започва отначало."
+
+msgid "players/enemy/unknown"
+msgstr "Враг"
+
+msgid "players/teammate/unknown"
+msgstr "Играч"
+
+msgid "prestige/common/description"
+msgstr "Спечелени елитни точки:"
+
+msgid "prestige/max/description"
+msgstr "Достигнато е максимално елитно ниво."
+
+msgid "prestige/maxLevelReached/description"
+msgstr "Достигнато е максимално елитно ниво"
+
+msgid "prestige/newLevelAchieved/description"
+msgstr "Достигнато е ново елитно ниво"
+
+msgid "prestige/title"
+msgstr "Елитна система"
+
+msgid "progression/completed"
+msgstr "Изпълнена"
+
+msgid "progression/completedPointsFrom/withLabel"
+msgstr "{{@class $labelClass}}Изпълнена:{{/}} {{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/completedPointsFrom/withoutLabel"
+msgstr "{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/linkBtn/info"
+msgstr "Натиснете, за да видите подробна информация."
+
+msgid "progression/missionsCompleteCounter"
+msgstr "{{@class $labelClass}}Изпълнена:{{/}} {{completed}}"
+
+msgid "progression/progressUnavailable"
+msgstr "Елитната система е временно недостъпна. Опитайте отново по-късно."
+
+msgid "progression/totalEarned"
+msgstr "Общо спечелени: {{value}}"
+
+msgid "progressiveReward/descr"
+msgstr "Участвайте в битки и получавайте награди. Колкото повече се сражавате, толкова по-близо са наградите."
+
+msgid "selectVehicle"
+msgstr "Изберете машина"
+
+msgid "status/lose"
+msgstr "ЗАГУБА"
+
+msgid "status/tie"
+msgstr "РЕМИ"
+
+msgid "status/win"
+msgstr "ПОБЕДА"
+
+msgid "tankSelector/next"
+msgstr "Следваща машина с"
+
+msgid "team/damageAndConsumablesHeader/body"
+msgstr "Сортирай по нанесени поражения,\nвключително поражения от бойни резерви."
+
+msgid "team/damageAndConsumablesHeader/header"
+msgstr "Нанесени поражения"
+
+msgid "team/damageHeader/body"
+msgstr "Сортирай по поражения, нанесени на врагове."
+
+msgid "team/damageHeader/header"
+msgstr "Поражения, нанесени на вражески машини"
+
+msgid "team/damageHeaderNoSort/header"
+msgstr "Нанесени поражения"
+
+msgid "team/deaths/body"
+msgstr "Сортирай по брой унищожени машини на играча в битката."
+
+msgid "team/deaths/header"
+msgstr "Унищожени машини"
+
+msgid "team/deathsNoSort/header"
+msgstr "Унищожени машини"
+
+msgid "team/epicRankHeader/body"
+msgstr "Сортирай по получени звания в битката."
+
+msgid "team/epicRankHeader/header"
+msgstr "Звание"
+
+msgid "team/epicRespawnHeader/body"
+msgstr "Сортирай по брой връщания в битката."
+
+msgid "team/epicRespawnHeader/header"
+msgstr "Брой връщания"
+
+msgid "team/falloutFragHeader/body"
+msgstr "Сортирай по унищожени вражески машини,\nвключително поражения от бойни резерви."
+
+msgid "team/falloutFragHeader/header"
+msgstr "Унищожени вражески машини"
+
+msgid "team/falloutResourcePoints/body"
+msgstr "Сортирай по брой спечелени ресурси."
+
+msgid "team/falloutResourcePoints/header"
+msgstr "Ресурси"
+
+msgid "team/flags/body"
+msgstr "Сортирай по брой пленени знамена."
+
+msgid "team/flags/header"
+msgstr "Пленени знамена"
+
+msgid "team/flagsNoSort/header"
+msgstr "Пленени знамена"
+
+msgid "team/fragHeader/body"
+msgstr "Сортирай по брой унищожени вражески машини."
+
+msgid "team/fragHeader/header"
+msgstr "Унищожени вражески машини"
+
+msgid "team/fragHeaderNoSort/header"
+msgstr "Унищожени вражески машини"
+
+msgid "team/healthHeader/body"
+msgstr "Сортиране по оставащи точки живот."
+
+msgid "team/healthHeader/header"
+msgstr "Точки живот"
+
+msgid "team/medalHeader/body"
+msgstr "Сортиране по брой получени награди."
+
+msgid "team/medalHeader/header"
+msgstr "Награди"
+
+msgid "team/playerHeader/body"
+msgstr "Сортиране по име на играча."
+
+msgid "team/playerHeader/header"
+msgstr "Име на играча"
+
+msgid "team/playerHeaderNoSort/header"
+msgstr "Име"
+
+msgid "team/playerNumber/body"
+msgstr "Сортирай по пореден номер на играча в отбора."
+
+msgid "team/playerNumber/header"
+msgstr "Пореден номер"
+
+msgid "team/rankHeader/body"
+msgstr "Сортирай по ранг."
+
+msgid "team/rankHeader/header"
+msgstr "Ранг"
+
+msgid "team/resourceHeader/body"
+msgstr "Сортирай по количество спечелени производствени ресурси."
+
+msgid "team/resourceHeader/header"
+msgstr "Производствен ресурс"
+
+msgid "team/squadHeader/body"
+msgstr "Сортиране по взвод."
+
+msgid "team/squadHeader/header"
+msgstr "Взвод"
+
+msgid "team/squadHeaderNoSort/header"
+msgstr "Взвод"
+
+msgid "team/stats/allies"
+msgstr "Съюзници"
+
+msgid "team/stats/close"
+msgstr "Затвори"
+
+msgid "team/stats/enemies"
+msgstr "Врагове"
+
+msgid "team/stats/enemyTeam"
+msgstr "Вражеския отбор"
+
+msgid "team/stats/infotip_xpForAssist/body"
+msgstr "Отчитат се за помощ:\n• Поражения, нанесени от съюзници при ваше откриване, унищожаване на вериги и обездвижване или зашеметяване на вражески машини\n• Завладяване на бази\n• Първо откриване на вражески машини."
+
+msgid "team/stats/infotip_xpForAssist/header"
+msgstr "За съдействие"
+
+msgid "team/stats/infotip_xpForAttack/body"
+msgstr "Отчитат се за принос:\n• Пораженията, нанесени от вас\n• Машините, унищожени от вас\n• Поражения по модули\n• Бонус за поражения, нанесени от отбора ви.\n• Глоба за зашеметяване и поражения по съюзници."
+
+msgid "team/stats/infotip_xpForAttack/header"
+msgstr "За поражения и унищожени машини"
+
+msgid "team/stats/infotip_xpOther/body"
+msgstr "Допълнителни бонуси за ефективна игра, които не попадат в предишните раздели."
+
+msgid "team/stats/infotip_xpOther/header"
+msgstr "За спазване на ролята на машината"
+
+msgid "team/stats/labels_artilleryFortEquipDamageDealt"
+msgstr "\tот артилерийски залп"
+
+msgid "team/stats/labels_atkObjectives"
+msgstr "Завладени зони / унищожени цели"
+
+msgid "team/stats/labels_capturePointsVal"
+msgstr "Точки за завладяване/защита на база"
+
+msgid "team/stats/labels_capturedPointsOfInterest"
+msgstr "Завладени важни точки"
+
+msgid "team/stats/labels_damageAssisted"
+msgstr "Поражения, нанесени с помощта на играча"
+
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "Поражения, нанесени с ваша помощ"
+
+msgid "team/stats/labels_damageAssistedStun"
+msgstr "Поражения по вражески машини, зашеметени от този играч"
+
+msgid "team/stats/labels_damageAssistedStunSelf"
+msgstr "Поражения по противници, зашеметени от вас"
+
+msgid "team/stats/labels_damageBlockedByArmor"
+msgstr "Поражения, спрени от броня"
+
+msgid "team/stats/labels_damageDealt"
+msgstr "Общо поражения:"
+
+msgid "team/stats/labels_damageDealtByOrder"
+msgstr "\tВключително от бойни резерви"
+
+msgid "team/stats/labels_damageDealtBySkills"
+msgstr "\tвключително използвани умения"
+
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\tпоражения, нанесени на вражеския отбор"
+
+msgid "team/stats/labels_damagedKilled"
+msgstr "Повредени/унищожени вражески машини"
+
+msgid "team/stats/labels_deaths"
+msgstr "Брой твои унищожени машини в битката"
+
+msgid "team/stats/labels_defObjectives"
+msgstr "Защитени зони / цели"
+
+msgid "team/stats/labels_destroyRecoveryRatio"
+msgstr "Брой ваши унищожени / възстановени машини"
+
+msgid "team/stats/labels_destructiblesDamageDealt"
+msgstr "\tкъм цели"
+
+msgid "team/stats/labels_directHits"
+msgstr "\tпреки попадения"
+
+msgid "team/stats/labels_directHitsReceived"
+msgstr "Получени попадения"
+
+msgid "team/stats/labels_equipmentDamageAssisted"
+msgstr "\tпоради действие на бойни резерви"
+
+msgid "team/stats/labels_equipmentDamageDealt"
+msgstr "\tс бойни резерви"
+
+msgid "team/stats/labels_explosionHits"
+msgstr "\tпоражения с ОФ снаряди"
+
+msgid "team/stats/labels_explosionHitsReceived"
+msgstr "Поражения, получени от ОФ снаряди"
+
+msgid "team/stats/labels_flags"
+msgstr "Пленени знамена"
+
+msgid "team/stats/labels_healed"
+msgstr "Възстановени точки живот (ваши/съюзнически)"
+
+msgid "team/stats/labels_hits"
+msgstr "\tпреки попадения/пробивания"
+
+msgid "team/stats/labels_killed"
+msgstr "Унищожени вражески машини"
+
+msgid "team/stats/labels_killsByOrder"
+msgstr "\tВключително от бойни резерви"
+
+msgid "team/stats/labels_mileage"
+msgstr "Пробег"
+
+msgid "team/stats/labels_noDamageDirectHitsReceived"
+msgstr "\tне пробили"
+
+msgid "team/stats/labels_piercingHits"
+msgstr "\tпробивания"
+
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\tпробивания"
+
+msgid "team/stats/labels_roleSkillUsed"
+msgstr "Използвани ролеви умения"
+
+msgid "team/stats/labels_shots"
+msgstr "Произведени изстрели"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\tот разстояние над 300 метра"
+
+msgid "team/stats/labels_spotted"
+msgstr "Открити вражески машини"
+
+msgid "team/stats/labels_stunDuration"
+msgstr "Обща време на нанесено зашеметяване, сек."
+
+msgid "team/stats/labels_stunNum"
+msgstr "Причинени зашеметявания"
+
+msgid "team/stats/labels_teamHitsDamage"
+msgstr "Поражения по съотборници (унищ./т.)"
+
+msgid "team/stats/labels_timesDestroyed"
+msgstr "Брой унищожени машини"
+
+msgid "team/stats/labels_xp"
+msgstr "Общо получен опит"
+
+msgid "team/stats/labels_xpForAssist"
+msgstr "\tза съдействие"
+
+msgid "team/stats/labels_xpForAttack"
+msgstr "\tза нанасяне на поражения и унищожаване"
+
+msgid "team/stats/labels_xpOther"
+msgstr "\tза спазване на ролята на машината"
+
+msgid "team/stats/mileage"
+msgstr "?empty?"
+
+msgid "team/stats/ownTeam"
+msgstr "Нашият отбор"
+
+msgid "team/stats/parameter/artilleryFortEquipDamageDealt"
+msgstr "от артилерийски залп"
+
+msgid "team/stats/parameter/capturePointsVal"
+msgstr "Точки за завладяване/защита на база"
+
+msgid "team/stats/parameter/damageAssisted"
+msgstr "Поражения, нанесени с помощта на играча"
+
+msgid "team/stats/parameter/damageAssistedSelf"
+msgstr "Поражения, нанесени с ваша помощ"
+
+msgid "team/stats/parameter/damageAssistedStun"
+msgstr "Поражения по вражески машини, зашеметени от този играч"
+
+msgid "team/stats/parameter/damageAssistedStunSelf"
+msgstr "Поражения по противници, зашеметени от вас"
+
+msgid "team/stats/parameter/damageBlockedByArmor"
+msgstr "Поражения, спрени от броня"
+
+msgid "team/stats/parameter/damageDealt"
+msgstr "Общо поражения"
+
+msgid "team/stats/parameter/damagedKilled"
+msgstr "Повредени/унищожени вражески машини"
+
+msgid "team/stats/parameter/directHitsReceived"
+msgstr "Получени попадения"
+
+msgid "team/stats/parameter/explosionHits"
+msgstr "поражения с осколки"
+
+msgid "team/stats/parameter/explosionHitsReceived"
+msgstr "Поражения, получени от ОФ снаряди"
+
+msgid "team/stats/parameter/hits"
+msgstr "преки попадения/пробивания"
+
+msgid "team/stats/parameter/mileage"
+msgstr "Пробег"
+
+msgid "team/stats/parameter/noDamageDirectHitsReceived"
+msgstr "непробили попадения"
+
+msgid "team/stats/parameter/piercingsReceived"
+msgstr "пробили попадения"
+
+msgid "team/stats/parameter/shots"
+msgstr "Произведени изстрели"
+
+msgid "team/stats/parameter/sniperDamageDealt"
+msgstr "от разстояние над 300 метра"
+
+msgid "team/stats/parameter/spotted"
+msgstr "Открити вражески машини"
+
+msgid "team/stats/parameter/stunDuration"
+msgstr "Обща време на нанесено зашеметяване, сек."
+
+msgid "team/stats/parameter/stunNum"
+msgstr "Причинени зашеметявания"
+
+msgid "team/stats/parameter/teamHitsDamage"
+msgstr "Поражения по съотборници (унищ./т.)"
+
+msgid "team/tankHeader/body"
+msgstr "Сортиране по положение в отборния панел"
+
+msgid "team/tankHeader/header"
+msgstr "Машини"
+
+msgid "team/teamInfluenceTotal"
+msgstr "Влияние, спечелено от отряда: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamResourceTotal"
+msgstr "Производствен ресурс, спечелен от отряд: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamScore/body"
+msgstr "Сортирай по брой спечелени точки за победа."
+
+msgid "team/teamScore/header"
+msgstr "Точки за победа на отбора"
+
+msgid "team/victoryScore/body"
+msgstr "Сортирай по брой спечелени точки за победа."
+
+msgid "team/victoryScore/header"
+msgstr "Точки за победа на играча"
+
+msgid "team/victoryScoreNoSort/header"
+msgstr "Точки за победа на играча"
+
+msgid "team/xpHeader/body"
+msgstr "Сортиране по получени точки опит"
+
+msgid "team/xpHeader/header"
+msgstr "Опит"
+
+msgid "team/xpHeaderNoSort/header"
+msgstr "Опит"
+
+msgid "tooltips/stats/footer/text"
+msgstr "%(label)s&nbsp;%(type)s"
+
+msgid "victoryScore"
+msgstr "Спечелени точки за победа"

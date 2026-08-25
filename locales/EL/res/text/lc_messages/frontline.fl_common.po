@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Επαναφορά Φίλτρου"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Δεν ταιριάζει κάποιο όχημα με το επιλεγμένο φίλτρο.\nΑλλάξτε τις ρυθμίσεις του φίλτρου για να δείτε τα κατάλληλα οχήματα"
+
+msgid "battleType/description/fast"
+msgstr "Ένα σενάριο στο οποίο οι Εφεδρείες έχουν μειωμένο χρόνο επαναφοράς."
+
+msgid "battleType/description/random"
+msgstr "Ένα σενάριο στο οποίο οι παίκτες επιλέγουν σετ τυχαίων Εφεδρειών, τις οποίες μπορούν να αναβαθμίσουν μέχρι το Επίπεδο IV."
+
+msgid "battleType/description/standard"
+msgstr "Ένα σενάριο με τους συμβατικούς κανόνες της Πρώτης Γραμμής."
+
+msgid "battleType/postBattle/title"
+msgstr "Σενάριο Μάχης: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Μειωμένος χρόνος επαναφοράς Εφεδρειών."
+
+msgid "battleType/shortDescription/random"
+msgstr "Επιλογή τυχαίων Εφεδρειών."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Με συμβατικούς κανόνες μάχης."
+
+msgid "battleType/title/fast"
+msgstr "Operational Support"
+
+msgid "battleType/title/random"
+msgstr "Twist of Fate"
+
+msgid "battleType/title/standard"
+msgstr "Standard Battle"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "ΠΙΣΩ"
+
+msgid "button/close"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} ημέρα"
+msgstr[1] "{duration} ημέρες"
+msgstr[2] "{duration} ημέρες"
+
+msgid "filterPopover/note"
+msgstr "Εμφανίζονται μόνο τα κατάλληλα οχήματα γι αυτό είδος μάχης."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Το Επίπεδο των Εφεδρειών αυξάνεται καθώς φτάνετε σε υψηλότερους βαθμούς."
+
+msgid "levelReservesTooltip/info"
+msgstr "Στο σενάριο {whiteSpanish_Start}Twist of Fate{whiteSpanish_End}, αγοράζοντας μία Εφεδρεία, θα αυξάνεται το επίπεδό της κατά 1, ενώ θα παρέχεται η δυνατότητα να αναβαθμιστεί στο Επίπεδο {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/level"
+msgstr "Αυξάνεται στον βαθμό: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Διαθεσιμότητα στον βαθμό: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Επίπεδο {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "Από την {whiteSpanish_Start}αγορά Εφεδρείας{whiteSpanish_End} στο σενάριο {whiteSpanish_Start}Twist of Fate{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/title"
+msgstr "Επίπεδα Εφεδρείας"
+
+msgid "loading"
+msgstr "Φόρτωση…"
+
+msgid "widget/eventStartSoon"
+msgstr "Η διοργάνωση θα ξεκινήσει προσεχώς!"
+
+msgid "widget/maxTier"
+msgstr "Φτάσατε στην υψηλότερη Βαθμίδα!"

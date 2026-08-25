@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Çevirmeni <noreply@wargaming.net>\nLanguage-Team: WoT Takımı <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "Oyuncu detaylarını %(linkStartTag)sinceleyin%(linkEndTag)s"
+
+msgid "clan/application/title"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s'den\n%(titleStartTag)sKlana Başvuru%(titleEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Başvuruları İnceleyin"
+
+msgid "clan/applications/comment"
+msgstr "Bildirimleri %(linkStartTag)skapat%(linkEndTag)s"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sOyunculardan Başvurular: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "Klan detaylarını %(linkStartTag)sinceleyin%(linkEndTag)s"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sKlana Davet%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Davetiyeleri İncele"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sKlan Davetleri: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "Oyuncu klana kabul edildi."
+
+msgid "clans/state/app/declined"
+msgstr "Başvuru reddedildi."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "Oyuncunun önceki klandan ayrılmasından dolayı bir günlük cezası henüz bitmedi."
+
+msgid "clans/state/invite/accepted"
+msgstr "Klana kabul edildiniz."
+
+msgid "clans/state/invite/declined"
+msgstr "Davet reddedildi."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Önceki klanınızdan ayrılmanızdan dolayı bir günlük cezanız henüz bitmedi."
+
+msgid "errors/creationNotAllowed"
+msgstr "Bir davet oluşturmak için yeterli izin yok."
+
+msgid "errors/invalid"
+msgstr "Geçersiz davet."
+
+msgid "errors/inviteNotSupported"
+msgstr "Şu anda bu tür bir davet yapılamamaktadır. Daha sonra tekrar deneyin."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "Daveti alan taraf sizi Kara Listesine ekledi."
+
+msgid "errors/selfinvite"
+msgstr "Kendi kendinizi davet edemezsiniz."
+
+msgid "errors/unknownuser"
+msgstr "Bu kullanıcı henüz sisteme kayıtlı değil."
+
+msgid "errors/useroffline"
+msgstr "Kullanıcı çevrimdışı."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "Garajdaki araç hasar görmüş ya da kilitli. Başka bir araç seçin."
+
+msgid "friendship/note/approved"
+msgstr "Oyuncu Arkadaş listesine eklendi"
+
+msgid "friendship/note/canceled"
+msgstr "İstek reddedildi"
+
+msgid "friendship/note/maxRoster"
+msgstr "Listedeki en fazla tanıdık sayısı: %(rosterMaxCount)s. Bu oyuncuyu Arkadaş listenize eklemek için önce listeden birini çıkarın."
+
+msgid "friendship/note/notConnected"
+msgstr "Sunucuya bağlanılamadı. Lütfen bekleyin."
+
+msgid "friendship/note/process"
+msgstr "Sunucu cevabı bekleniyor"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sArkadaşlık isteği%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s'den"
+
+msgid "gui/buttons/accept"
+msgstr "Kabul Et"
+
+msgid "gui/buttons/cancel"
+msgstr "İptal"
+
+msgid "gui/buttons/reject"
+msgstr "Geri çevir"
+
+msgid "gui/buttons/send"
+msgstr "Yolla"
+
+msgid "gui/labels/additionalText"
+msgstr "Ek davet metni:"
+
+msgid "gui/labels/inviteText"
+msgstr "Davet metni:"
+
+msgid "gui/labels/receiver"
+msgstr "Alıcı:"
+
+msgid "gui/titles/barter"
+msgstr "Alışveriş Daveti"
+
+msgid "gui/titles/clan"
+msgstr "Klan Daveti"
+
+msgid "gui/titles/invite"
+msgstr "Davet"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Davetler"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak taktik birimden çıkarılacaksınız ve %(host)s sunucusuna transfer olacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak taktik birimden çıkarılacaksınız ve %(host)s sunucusuna transfer olacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak Dünya Haritasındaki savaştan çıkarılacaksınız ve %(host)s sunucusuna transfer olacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "Daveti kabul ettiğinizde otomatik olarak taktik birimden çıkarılacaksınız ve %(host)s sunucusuna transfer olacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak taktik birimden çıkarılacaksınız ve %(host)s sunucusuna transfer olacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak taktik birimden çıkarılacaksınız ve %(host)s sunucusuna transfer olacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak Ön Cephe kipinde ekip eğitiminden çıkarılacaksınız ve %(host)s sunucusuna transfer olacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak taktik birimden çıkarılacaksınız ve %(host)s sunucusuna transfer olacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Daveti kabul ettiğinizde otomatik olarak ekipten çıkarılacaksınız ve %(host)s sunucusuna transfer edileceksiniz."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak Takımdan çıkarılacaksınız ve %(host)s sunucusuna transfer olacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "Daveti kabul ettiğinizde Kale: Savaşlardan çıkacaksınız ve %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "Daveti kabul ettiğinizde İlerlemeler kipinden çıkacaksınız ve %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak Keşif Görevi Takımından çıkarılacaksınız ve %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak ekip eğitiminden çıkarılacaksınız ve %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "Daveti kabul ettiğinizde Kale: Savaşlardan çıkacaksınız ve %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak Takımdan çıkarılacaksınız ve %(host)s sunucusuna transfer olacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "Daveti kabul ettiğinizde mevcut müfrezeden çıkacaksınız ve %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Daveti kabul ederseniz otomatik olarak turnuvadan çıkarılacaksınız ve %(host)s sunucusuna transfer olacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak ekip eğitiminden çıkarılacaksınız ve %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak Hücum kipinde ekip eğitiminden çıkarılacaksınız ve %(host)s sunucusuna transfer olacaksınız."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Daveti kabul ettiğinizde otomatik olarak ekipten çıkarılacaksınız ve %(host)s sunucusuna transfer edileceksiniz."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "Daveti kabul ettiğinizde Çelik Avcısından çıkacaksınız ve %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Daveti kabul ettiğinizde Büyük Avdan çıkacaksınız ve %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "Daveti kabul ettiğinizde Hücum'dan çıkacaksınız ve %(host)s sunucusuna transfer olacaksınız."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "Daveti kabul ettiğinizde Hafif Hücum'dan çıkacaksınız ve %(host)s sunucusuna transfer olacaksınız."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "Daveti kabul ettiğinizde Ön Cepheden çıkacaksınız ve %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "Daveti kabul ettiğinizde +++Etkinlik savaşından+++ çıkacaksınız ve %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "Daveti kabul etmeniz durumunda Keşif Görevinden çıkacaksınız ve %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "Daveti kabul ettiğinizde Topoğrafyadan çıkacaksınız ve %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "Daveti kabul ettiğinizde Rastgele Savaşlardan çıkacaksınız ve %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "Daveti kabul ettiğinizde Sıralamalı Savaş kipinden çıkacaksınız ve %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "Daveti kabul ettiğinizde Isınmadan çıkacak ve %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "Daveti kabul ettiğinizde Isınmadan çıkacak ve %(host)s sunucusuna aktarılacaksınız. Tekrar başlatamayacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak taktik birimden çıkarılacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Daveti kabul ettiğinizde otomatik olarak taktik birimden çıkarılacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak Dünya Haritasındaki savaştan çıkarılacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "Daveti kabul ettiğinizde otomatik olarak taktik birimden çıkarılacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak taktik birimden çıkarılacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak taktik birimden çıkarılacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak Ön Cephe kipinde ekip eğitiminden çıkarılacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "Daveti kabul ettiğinizde otomatik olarak taktik birimden çıkarılacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Daveti kabul ettiğinizde otomatik olarak ekipten çıkarılacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak Takımdan çıkarılacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "Daveti kabul ettiğinizde Kale: Savaşlardan çıkacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "Daveti kabul ettiğinizde İlerlemeler kipinden çıkacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak Keşif Görevi Takımından çıkarılacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak ekip eğitiminden çıkarılacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "Daveti kabul ettiğinizde Kale: Savaşlardan çıkacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak Takımdan çıkarılacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "Daveti kabul ettiğinizde mevcut müfrezeden çıkacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak turnuvadan çıkarılacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak ekip eğitiminden çıkarılacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Daveti kabul etmeniz durumunda otomatik olarak Hücum kipinde ekip eğitiminden çıkarılacaksınız."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Daveti kabul ettiğinizde otomatik olarak ekipten çıkarılacaksınız."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "Daveti kabul ettiğinizde Çelik Avcısından çıkacaksınız."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Daveti kabul ettiğinizde Büyük Avdan çıkacaksınız."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "Daveti kabul ettiğinizde Hücum'dan çıkacaksınız."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "Daveti kabul ettiğinizde Hafif Hücum'dan çıkacaksınız."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "Daveti kabul ettiğinizde Ön Cepheden çıkacaksınız."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "Daveti kabul ettiğinizde +++Etkinlik savaşından+++ çıkacaksınız."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "Daveti kabul etmeniz durumunda Keşif Görevinden çıkacaksınız."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "Daveti kabul ettiğinizde Topoğrafyadan çıkacaksınız."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "Daveti kabul ettiğinizde Rastgele Savaşlardan çıkacaksınız."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "Daveti kabul ettiğinizde Sıralamalı Savaş kipinden çıkacaksınız."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "Daveti kabul ettiğinizde Isınmadan çıkacaksınız."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "Daveti kabul ettiğinizde Isınmadan çıkacaksınız. Tekrar başlatamayacaksınız."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Sunucu değişiklikleri şimdi kaydedilecek."
+
+msgid "invites/note/server_change"
+msgstr "Otomatik olarak %(host)s sunucusuna aktarılacaksınız."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Daveti kabul edemiyorsunuz. Daveti kabul edebilmek için lütfen %(host)s sunucusunu seçin."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Daveti kabul edemiyprsunuz. Daveti kabul edebilmek için lütfen başka sunucu seçin."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Takıma zaten katıldınız."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Dünya Haritasında savaşa zaten katıldınız."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Ekip eğitimine zaten katıldınız."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Takıma zaten katıldınız."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Takıma zaten katıldınız."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Zaten müfrezeye katıldınız."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Takıma zaten katıldınız."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Turnuvaya zaten katıldınız."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Ekip eğitimine zaten katıldınız."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Ekip eğitimine zaten katıldınız."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Ekibe zaten katıldınız."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Davet kabul edildi."
+
+msgid "invites/state/DECLINED"
+msgstr "Davet reddedildi."
+
+msgid "invites/state/ERROR"
+msgstr "Davet geçersiz."
+
+msgid "invites/state/EXPIRED"
+msgstr "Geçersiz davet."
+
+msgid "invites/state/REVOKED"
+msgstr "Davet geri çekildi."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Çelik Avcısı Takımına Katılma Daveti"
+
+msgid "invites/text/COMP7"
+msgstr "Hücum Takımına Katılma Daveti"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Hafif Hücum Takımına Katılma Daveti"
+
+msgid "invites/text/EPIC"
+msgstr "Ön Cephe Takımına Katılma Daveti"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Ön Cephe Kipinde Ekip Eğitimine Katılma Daveti"
+
+msgid "invites/text/EVENT"
+msgstr "Takıma Davet"
+
+msgid "invites/text/FALLOUT"
+msgstr "%(battleType)s İçin Takıma Katılma Daveti"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Egemenlik"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Çelik Avı"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Savaşa Davet"
+
+msgid "invites/text/MAPBOX"
+msgstr "Keşif Görevi Takımına Katılma Daveti"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Haritaları Keşfetme Daveti"
+
+msgid "invites/text/SORTIE"
+msgstr "Müfrezeye Katılma Daveti"
+
+msgid "invites/text/SQUAD"
+msgstr "Takıma Davet"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Müfrezeye Katılma Daveti"
+
+msgid "invites/text/TRAINING"
+msgstr "Ekip Eğitimine Katılma Daveti"
+
+msgid "invites/text/UNIT"
+msgstr "Ekibe Katılma Daveti"
+
+msgid "invites/text/creatorName"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s'dan"
+
+msgid "invites/text/fort/defence"
+msgstr "Savunma Dönemi"
+
+msgid "invites/text/fort/direction"
+msgstr "Köprübaşı"
+
+msgid "invites/text/fort/offence"
+msgstr "Saldırı:"
+
+msgid "invites/warning/anonymized"
+msgstr "Davetiyeyi kabul ettiğinizde gerçek rumuzunuz ve klan etiketiniz savaş süresi boyunca taktik birlik üyelerine gösterilecek."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Davetiye %(name)s oyuncusuna gönderildi."

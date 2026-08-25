@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "Kaufen"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "Das folgende Verbrauchsmaterial wird aufgefüllt: %(consumables)s."
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "Verbrauchsmaterial kaufen"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s Besatzungsmitglieder"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Sie haben schon eine Besatzung für dieses Fahrzeug."
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s Besatzungsmitglieder"
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "Neue Besatzungsmitglieder rekrutieren"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "hier."
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Wargaming nutzt die alphanumerische Kombination T-34 nur in der gebräuchlichen Verwendung als Kennzeichnung realer Panzer und ist in keiner Weise mit den Haltern des Warenzeichens gleichen Namens verbunden. Hier erfahren Sie mehr: {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "Munition laden"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "Verbrauchsmaterial auffüllen"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "Garagenstellplatz"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "Eintauschen"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "Kostenlos"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "%(count)s Besatzungsmitglieder rekrutieren"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "Miete"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "Mieten"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "Für 30 Tage mieten"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "Für 3 Tage mieten"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "Für 7 Tage mieten"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "Für %(days)s Tage mieten"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "Frontlinienabschnitt"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "Frontlinie-Saison"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "Abschnitt der gewerteten Gefechte"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "Saison der gewerteten Gefechte"
+
+msgid "buyVehicleWindow/restore"
+msgstr "Wiederherstellen"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "Unbegrenzt"
+
+msgid "buyVehicleWindow/title"
+msgstr "Konfiguration"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "Wiederherstellung"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "Kaufen"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "Inzahlungnahme"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "Inzahlungnahme"
+
+msgid "carousel/filters/allVehicle"
+msgstr "Alle meine Fahrzeuge"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "Besatzung"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "Technische Daten"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} Gefecht"
+msgstr[1] "{{count}} Gefechte"
+msgstr[2] "{{count}} Gefechte"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} Tag"
+msgstr[1] "{{count}} Tage"
+msgstr[2] "{{count}} Tage"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} Stunde"
+msgstr[1] "{{count}} Stunden"
+msgstr[2] "{{count}} Stunden"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} Sieg"
+msgstr[1] "{{count}} Siege"
+msgstr[2] "{{count}} Siege"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "Klicken Sie hier, um zu Ihrer Fahrzeugauswahl zu gehen."
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "Meine Fahrzeuge"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "Besatzungsausbildung, Umschulung und Verwaltung."
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "Besatzungsverwaltung"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "Fahrzeuganpassung: Anwenden von 2D- und 3D-Stilen sowie anderen Elementen."
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "Anpassung"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "Zum Öffnen drücken"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "Fahrzeuginformationen, Forschung, Vergleich und Reparatur."
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "Fahrzeugverwaltung"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "FAHRZEUGINFOS"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "PANZERUNG"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "VERGLEICHEN"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "AUTOMATISCHE RÜCKVERLEGUNG"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "BESATZUNG ZURÜCKVERLEGEN"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "ZUR KASERNE SCHICKEN"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "BESATZUNG UMSCHULEN"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "SCHNELLWARTUNG"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "FELDAUFRÜSTUNG"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "NATION ÄNDERN"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "AKTIV"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "PRO-BOOST {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "SOFORTAUSBILDUNG"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "REPARATUR"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "FORSCHUNG"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "VERBESSERUNGEN"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "Sie können diese Auswahl jederzeit ändern."
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "Pro-Boost ist für dieses Fahrzeug aktiv."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "Der Boost wirkt nur auf Fahrzeuge in Zufallsgefechten, im Modus „Ansturm“, in Festungsgefechten, auf der Weltkarte und in Turnieren."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "Für den Pro-Boost inkompatibler Modus"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "Sie können den Boost nur auf erforschbare Fahrzeuge und Sammlerfahrzeuge der Stufen I–X anwenden."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "Für den Pro-Boost inkompatibles Fahrzeug"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "Der Pro-Boost ist derzeit auf dem Fahrzeug „{{vehicle}}“ aktiv. Sie können die Auswahl in {{time}} ändern."
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "Kommen Sie später wieder!"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "Sie können diese Auswahl in {{time}} ändern."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "Pro-Boost ist für dieses Fahrzeug aktiv."

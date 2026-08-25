@@ -1,0 +1,53 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "mode/comp7/battlePassTooltip/body"
+msgstr "Докато се биете с машини ниво X в {whiteSpanish_open}Атака{whiteSpanish_close}, вие ще печелите точки, които ви позволяват да продължавате напредъка си на Боен пропуск."
+
+msgid "mode/comp7/battlePassTooltip/header"
+msgstr "Точки за Боен пропуск"
+
+msgid "mode/comp7/calendarTooltip"
+msgstr "Събитието ще приключи на %(date)s"
+
+msgid "mode/comp7/description"
+msgstr "Състезателен режим: 7v7 %(parSecondary_open)sI%(parSecondary_close)s ниво&nbsp;X"
+
+msgid "mode/comp7/progress"
+msgstr "%(score)s/%(scoreToNextDivision)s"
+
+msgid "mode/comp7/seasonEnd/first"
+msgstr "Сезонът на Лазурния дракон приключи"
+
+msgid "mode/comp7/seasonEnd/second"
+msgstr "Сезонът на Пурпурния дракон приключи"
+
+msgid "mode/comp7/seasonEnd/third"
+msgstr "Сезонът на Нефритения дракон приключи"
+
+msgid "mode/comp7/seasonStart/first"
+msgstr "Сезонът на Лазурния дракон ще започне на %(date)s"
+
+msgid "mode/comp7/seasonStart/second"
+msgstr "Сезонът на Пурпурния дракон ще започне на %(date)s"
+
+msgid "mode/comp7/seasonStart/third"
+msgstr "Сезонът на Нефритения дракон ще започне на %(date)s"
+
+msgid "mode/comp7/warning"
+msgstr "Рангова неактивност: %(count)s"
+
+msgid "mode/comp7/widgetDescription/qualification"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Проведете %(maxBattlesCount)s битка\n, за да завършите квалификацията."
+msgstr[1] "Проведете %(maxBattlesCount)s битки\n, за да завършите квалификацията."
+msgstr[2] "Проведете %(maxBattlesCount)s битки\n, за да завършите квалификацията."
+
+msgid "mode/comp7/widgetDescription/status"
+msgstr "%(rank)s\n%(division)s"
+
+msgid "mode/comp7/yearEnd"
+msgstr "Годината на дракона приключи"

@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Het ontvangen van schade verstoort HP-herstel.\n\nDe snelheid van HP-herstel en maximale herstellimiet zijn gebaseerd op de totale HP van het voertuig, inclusief alle aanpassers."
+
+msgid "armorPatching/alt/info"
+msgstr "Voor groepsspecialisaties geldt het gemiddelde trainingsniveau van alle bemanningsleden. De specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Het gebruik van een reparatieset herstelt %(hpRecover)s van de {yellow_Start}HP{yellow_End} van het voertuig over 5 s, tot maximaal 20% per gevecht. Reparatieset kan ook zonder kritische schade worden gebruikt."
+
+msgid "armorPatching/hudDescription"
+msgstr "Levenspunten worden hersteld."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Als alle bemanningsleden deze specialisatie volledig hebben getraind, wordt %(hpRecover)s van de {yellow_Start}HP{yellow_End} van het voertuig over 5 s hersteld bij gebruik van een reparatieset, tot maximaal 20% per gevecht. Reparatieset kan ook zonder kritische schade worden gebruikt."
+
+msgid "armorPatching/name"
+msgstr "Pantserreparatie"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Verhoogt de basisverborgenheid van het voertuig."
+
+msgid "brotherhood/alt/description"
+msgstr "De bemanningsefficiëntiebonus verbetert de effectiviteit van het bemanningslid én de effectiviteit van alle getrainde specialisaties, met uitzondering van deze. Deze parameter kan worden verhoogd door uitrusting of verbruiksartikelen met een vergelijkbaar effect te monteren, of door het ventilatieslang gevechtsbevel te gebruiken. De noodgeval specialisatie van de commandant, evenals de zij aan zij en communicatie-expert specialisaties van de radio-officier, kunnen de parameter ook verhogen."
+
+msgid "brotherhood/alt/info"
+msgstr "Voor groepsspecialisaties geldt het gemiddelde trainingsniveau van alle bemanningsleden. De specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "De {greenBright_Start}bemanningsefficiëntiebonus{greenBright_End} van de hele bemanning wordt met %(crewLevelIncrease)s&zwnbsp; verhoogd."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Als alle bemanningsleden deze specialisatie volledig hebben getraind, wordt de {greenBright_Start}bemanningsefficiëntiebonus{greenBright_End} van de voltallige bemanning met %(crewLevelIncrease)s verhoogd&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Wapenbroeders"
+
+msgid "brotherhood/shortDescription"
+msgstr "Verbetert de algehele bemanningsprestatie."
+
+msgid "camouflage/alt/description"
+msgstr "Deze specialisatie beïnvloedt de voertuigverborgenheid en kan verder worden verbeterd met het natuurlijke dekking gevechtsbevel.\n\nDaarnaast kan de voertuigverborgenheid worden verhoogd door een camouflage of stijl aan te brengen, of door uitrusting met een vergelijkbaar effect te monteren."
+
+msgid "camouflage/alt/info"
+msgstr "Voor groepsspecialisaties geldt het gemiddelde trainingsniveau van alle bemanningsleden. De specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "De {greenBright_Start}verborgenheid{greenBright_End} van het voertuig wordt verhoogd met %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Als alle bemanningsleden deze specialisatie volledig hebben getraind, wordt de {greenBright_Start}verborgenheid{greenBright_End} van het voertuig met %(maskingFactor)s&zwnbsp; verhoogd."
+
+msgid "camouflage/name"
+msgstr "Verborgenheid"
+
+msgid "camouflage/shortDescription"
+msgstr "Verhoogt de basisverborgenheid van het voertuig."
+
+msgid "commander_coordination/alt/description"
+msgstr "Het effect wordt geactiveerd wanneer een vijandelijk voertuig wordt verkend. Het verkennen van meerdere voertuigen heeft geen extra invloed.\n\nDe richtsnelheid kan verder worden vergroot door de snel richten specialisatie van de schutter te trainen, of door uitrusting met een vergelijkbaar effect te monteren."
+
+msgid "commander_coordination/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "De {yellow_Start}richtsnelheid{yellow_End} wordt 15 s lang met %(vehicleGunAimSpeed)s verhoogd wanneer je een vijandelijk voertuig verkent."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Richtsnelheid wordt verhoogd."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {yellow_Start}richtsnelheid{yellow_End} 15 s lang met %(vehicleGunAimSpeed)s verhoogd wanneer je een vijandelijk voertuig verkent.\t"
+
+msgid "commander_coordination/name"
+msgstr "Coördinatie"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Richtsnelheid wordt verhoogd."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Het zichtbereik kan verder worden verhoogd door de omgevingsbewust specialisatie van de radio-officier te trainen of door uitrusting met een vergelijkbaar effect te monteren. Het optische kalibratie gevechtsbevel vergroot het effect."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "Het {greenBright_Start}zichtbereik{greenBright_End} wordt met %(circularVisionRadius)s vergroot&zwnbsp;. Het {greenBright_Start}negatieve effect van beschadigde observatieapparatuur{greenBright_End} wordt met %(penaltyToDamagedSurveyingDevice)s verminderd&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Het negatieve effect van beschadigde observatieapparatuur wordt verminderd."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt het {greenBright_Start}zichtbereik{greenBright_End} met %(circularVisionRadius)s&zwnbsp; vergroot en wordt het {greenBright_Start}negatieve effect van beschadigde observatieapparatuur{greenBright_End} met %(penaltyToDamagedSurveyingDevice)s&zwnbsp; verminderd."
+
+msgid "commander_eagleEye/name"
+msgstr "Verkenner"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Verhoogt het zichtbereik, vooral wanneer de observatieapparatuur is beschadigd."
+
+msgid "commander_emergency/alt/description"
+msgstr "Wanneer een vijand je herhaaldelijk beschadigt, wordt het effect niet groter. De bemanningsefficiëntiebonus verbetert de effectiviteit van het bemanningslid. Deze parameter kan worden verhoogd door uitrusting of verbruiksartikelen met een vergelijkbaar effect te monteren, of door het ventilatieslang gevechtsbevel te gebruiken. De groepsspecialisatie wapenbroeders, evenals de zij aan zij en communicatie-expert specialisaties van de radio-officier, kunnen de parameter ook verhogen."
+
+msgid "commander_emergency/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "De {yellow_Start}bemanningsefficiëntiebonus{yellow_End} wordt 15 s lang met %(crewLevelIncrease)s verhoogd wanneer een vijand je beschadigt."
+
+msgid "commander_emergency/hudDescription"
+msgstr "De bemanningsefficiëntiebonus wordt verhoogd."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {yellow_Start}bemanningsefficiëntiebonus{yellow_End} 15 s lang met %(crewLevelIncrease)s verhoogd wanneer een vijand je beschadigt."
+
+msgid "commander_emergency/name"
+msgstr "Noodgeval"
+
+msgid "commander_emergency/shortDescription"
+msgstr "De bemanningsefficiëntiebonus wordt verhoogd."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Een waarschuwing voor vijandelijk artillerievuur wordt vlak na het afvuren ervan getoond.\n\nDe specialisatie kan worden verbeterd met het verhoogde waakzaamheid gevechtsbevel."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "Een {yellow_Start}waarschuwing voor vijandelijk artillerievuur{yellow_End} en de richting van het schot worden getoond met een vertraging van %(artNotificationDelayFactor)s. Het {greenBright_Start}negatieve verdovingseffect{greenBright_End} wordt met %(stunResistanceEffectFactor)s&zwnbsp; verminderd."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt er met een vertraging van %(artNotificationDelayFactor)s een {yellow_Start}waarschuwing voor vijandelijk artillerievuur{yellow_End} getoond die de richting van het schot aangeeft. Vermindert het {greenBright_Start}negatieve verdovingseffect{greenBright_End} met %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Geluidsdetectie"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Duidt een vijandelijk artillerieschot aan."
+
+msgid "commander_holdLine/alt/description"
+msgstr "De bemanningsefficiëntiebonus verbetert de effectiviteit van het bemanningslid.\n\nDeze parameter kan worden verhoogd door uitrusting of verbruiksartikelen met een vergelijkbaar effect te monteren, of door het ventilatieslang gevechtsbevel te gebruiken. Sommige andere bemanningsspecialisaties kunnen deze parameter ook verhogen."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "De {yellow_Start}bemanningsefficiëntiebonus{yellow_End} wordt verhoogd met %(crewLevelIncrease)s wanneer het vijandelijk team minstens drie voertuigen meer heeft dan jouw team&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "De bemanningsefficiëntiebonus wordt verhoogd (vijand in overtal)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {yellow_Start}bemanningsefficiëntiebonus{yellow_End} met %(crewLevelIncrease)s verhoogd wanneer het vijandelijk team minstens drie voertuigen meer heeft dan jouw team&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Geen stap terug"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Verhoogt de bemanningsefficiëntiebonus"
+
+msgid "commander_practical/alt/description"
+msgstr "De specialisatie werkt voor alle soorten verbruiksartikelen die op je voertuig zijn gemonteerd.\n\nHet effect ervan kan verder worden verhoogd met het grondige voorbereiding gevechtsbevel."
+
+msgid "commander_practical/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}Herlaadtijd van verbruiksartikelen{greenBright_End} wordt met %(equipmentPreparationTime)s&zwnbsp; verminderd."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {greenBright_Start}herlaadtijd{greenBright_End} van het op je voertuig gemonteerde verbruiksartikel met %(equipmentPreparationTime)s&zwnbsp; verminderd."
+
+msgid "commander_practical/name"
+msgstr "Bruikbaarheid"
+
+msgid "commander_practical/shortDescription"
+msgstr "Vermindert de herlaadtijd van het verbruiksartikel."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Zesde zintuig wordt uitgeschakeld zolang de commandant gewond is. De activatie ervan kan worden versneld met de signaalonderschepping specialisatie van de radio-officier."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Een speciale commandantseigenschap die niet hoeft te worden getraind en standaard voor de commandant beschikbaar is."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Stelt de commandant in staat om te bepalen of het voertuig door de vijand is verkend. Wordt %(delay)s nadat het voertuig is verkend geactiveerd."
+
+msgid "commander_sixthSense/name"
+msgstr "Zesde zintuig"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Stelt de commandant in staat om te bepalen of het voertuig door de vijand is verkend."
+
+msgid "commander_staySharp/alt/description"
+msgstr "De bemanningsefficiëntiebonus verbetert de effectiviteit van het bemanningslid.\n\nDeze parameter kan worden verhoogd door uitrusting of verbruiksartikelen met een vergelijkbaar effect te monteren, of door het ventilatieslang gevechtsbevel te gebruiken. Sommige andere bemanningsspecialisaties kunnen deze parameter ook verhogen."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "De {yellow_Start}bemanningsefficiëntiebonus{yellow_End} wordt 15&nbsp;s lang met %(crewLevelIncrease)s verhoogd na gebruik van een verbanddoos. Een verbanddoos kan nu ook worden gebruikt als er geen bemanningslid gewond is&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "De bemanningsefficiëntiebonus wordt verhoogd (verbanddoos gebruikt)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {yellow_Start}bemanningsefficiëntiebonus{yellow_End} 15 s lang met %(crewLevelIncrease)s verhoogd na gebruik van een verbanddoos. Een verbanddoos kan nu ook worden gebruikt als er geen bemanningslid gewond is&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Blijf scherp"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Verhoogt de bemanningsefficiëntiebonus"
+
+msgid "commander_tutor/alt/description"
+msgstr "Een gewonde commandant kan een ander bemanningslid niet vervangen. De bonus wordt alleen toegepast op de basishoeveelheid Bemannings-XP die in het gevecht is verdiend.\n\nExtra Bemannings-XP kan worden ontvangen door bemanningsboeken te gebruiken of Vrije XP in Bemannings-XP om te zetten."
+
+msgid "commander_tutor/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "De hoeveelheid verdiende {greenBright_Start}XP{greenBright_End} wordt voor alle bemanningsleden met %(xpBonusFactorPerLevel)s verhoogd. De commandant kan {greenBright_Start}uitgeschakelde bemanningsleden{greenBright_End} vervangen met %(woundedCrewEfficiency)s effectiviteit."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Commandant vervangt uitgeschakeld bemanningslid."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de hoeveelheid verdiende {greenBright_Start}XP{greenBright_End} voor alle bemanningsleden met %(xpBonusFactorPerLevel)s verhoogd. Stelt de commandant in staat om {greenBright_Start}uitgeschakelde bemanningsleden{greenBright_End} te vervangen met %(woundedCrewEfficiency)s effectiviteit."
+
+msgid "commander_tutor/name"
+msgstr "Mentor"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Commandant vervangt uitgeschakeld bemanningslid."
+
+msgid "commander_universalist/alt/description"
+msgstr "De commandant kan alleen de hoofdkwalificatie van het uitgeschakelde bemanningslid vervangen. Het effect van de vervanging neemt af naarmate er meer bemanningsleden worden uitgeschakeld."
+
+msgid "commander_universalist/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "De commandant kan {greenBright_Start}uitgeschakelde bemanningsleden vervangen{greenBright_End} met een effectiviteit van %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/hudDescription"
+msgstr "De commandant verricht de rol van een uitgeschakeld bemanningslid."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, kan de commandant {greenBright_Start}uitgeschakelde bemanningsleden vervangen{greenBright_End} met een effectiviteit van %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/name"
+msgstr "Manusje-van-alles"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Stelt de commandant in staat om uitgeschakelde bemanningsleden te vervangen."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Vermindert het negatieve effect op de wendbaarheid en acceleratie van het voertuig wanneer er op een halfzachte ondergrond wordt gereden. Maakt dit effect aanzienlijk kleiner wanneer er op een zachte ondergrond wordt gereden, waardoor het te vergelijken is met dat van een halfzachte ondergrond.\nDe wendbaarheid op een halfzachte of zachte ondergrond kan niet beter zijn dan die op een harde ondergrond."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}Snelheidsverlies op een halfzachte ondergrond{greenBright_End} wordt met %(mediumGroundFactor)s&zwnbsp; verminderd; {greenBright_Start}snelheidsverlies op een zachte ondergrond{greenBright_End} wordt verminderd naar %(softGroundFactor)s van de waarde van een halfzachte ondergrond."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt het {greenBright_Start}snelheidsverlies op een halfzachte ondergrond{greenBright_End} met %(mediumGroundFactor)s&zwnbsp; verminderd, en het {greenBright_Start}snelheidsverlies op een zachte ondergrond{greenBright_End} verminderd naar %(softGroundFactor)s van de waarde van een halfzachte ondergrond."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Offroad rijden"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "De bemanningsefficiëntiebonus verbetert de effectiviteit van het bemanningslid.\n\nDeze parameter kan worden verhoogd door uitrusting of verbruiksartikelen met een vergelijkbaar effect te monteren, of door het ventilatieslang gevechtsbevel te gebruiken. Sommige andere bemanningsspecialisaties kunnen deze parameter ook verhogen."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "De {yellow_Start}bemanningsefficiëntiebonus{yellow_End} wordt met %(crewLevelIncrease)s verhoogd als je hoeveelheid geblokkeerde schade groter is dan de beginhoeveelheid levenspunten van je voertuig."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "De bemanningsefficiëntiebonus wordt verhoogd (genoeg geblokkeerde schade)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {yellow_Start}bemanningsefficiëntiebonus{yellow_End} met %(crewLevelIncrease)s verhoogd wanneer je hoeveelheid geblokkeerde schade groter is dan de beginhoeveelheid levenspunten van je voertuig."
+
+msgid "driver_bulletproof/name"
+msgstr "Kogelwerend"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "De topsnelheid van je voertuig kan verder worden verhoogd en het effect van een beschadigde motor kan verder worden verminderd door uitrusting met een vergelijkbaar effect te monteren."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "De {greenBright_Start}voorwaartse{greenBright_End} en {greenBright_Start}achterwaartse topsnelheid{greenBright_End} van je voertuig worden met %(vehicleForwardMaxSpeed)s verhoogd. Het {greenBright_Start}effect van een beschadigde motor{greenBright_End} wordt met %(vehPenaltyForDamagedEngine)s&zwnbsp; verminderd."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Het effect van een beschadigde motor wordt verminderd."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, worden de {greenBright_Start}voorwaartse{greenBright_End} en {greenBright_Start}achterwaartse topsnelheid{greenBright_End} van je voertuig met %(vehicleForwardMaxSpeed)s verhoogd. Vermindert het {greenBright_Start}effect van een beschadigde motor{greenBright_End} met %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Ingenieur"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Het effect van een beschadigde motor wordt verminderd."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "De specialisatie werkt niet wanneer twee geallieerde voertuigen botsen.\n\nRamschade aan je voertuig kan verder worden verminderd door uitrusting met een vergelijkbaar effect te monteren."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}Ramschade aan vijandelijke voertuigen{greenBright_End} wordt met %(damageEnemiesByRamming)s&zwnbsp; verhoogd. {greenBright_Start}Ramschade aan je eigen voertuig{greenBright_End} wordt met %(vehicleRamDamageResistance)s&zwnbsp; verminderd, en {greenBright_Start}je ophanging{greenBright_End} ontvangt%(vehicleRamChassisDamageResistance)s&zwnbsp; minder ramschade."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {greenBright_Start}ramschade aan vijandelijke voertuigen{greenBright_End} met %(damageEnemiesByRamming)s&zwnbsp; verhoogd. Vermindert de {greenBright_Start}ramschade aan je eigen voertuig{greenBright_End} met %(vehicleRamDamageResistance)s&zwnbsp;, en aan {greenBright_Start}je ophanging{greenBright_End} met %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Gecontroleerd rammen"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Vermindert de ramschade aan je eigen voertuig en verhoogt de ramschade aan vijandelijke voertuigen."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "De ontvangen schade van HE-granaten kan verder worden verminderd door uitrusting met een vergelijkbaar effect te monteren."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}Absorptie van HE-granaatschade{greenBright_End} wordt met %(vehicleHEShellDamageResistance)s&zwnbsp; verhoogd. De&nbsp;{greenBright_Start}kans op motorbrand{greenBright_End} wordt met %(vehicleFireChance)s verminderd en de {greenBright_Start}schade aan je ophanging{greenBright_End} met %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {greenBright_Start}absorptie van HE-granaatschade{greenBright_End} met %(vehicleHEShellDamageResistance)s&zwnbsp; verhoogd. Vermindert de {greenBright_Start}kans op motorbrand{greenBright_End} met %(vehicleFireChance)s en de {greenBright_Start}schade aan je ophanging{greenBright_End} met %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Betrouwbare plaatsing"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Heeft geen invloed op de nauwkeurigheid van een stilstaand voertuig en de nauwkeurigheid tijdens het draaien van de romp.\n\nDe specialisatie kan worden verbeterd met het versnellingsbak complexiteit gevechtsbevel. De nauwkeurigheid bij het al rijdend vuren kan verder worden verhoogd door uitrusting met een vergelijkbaar effect te monteren of het stabilisatiesmering gevechtsbevel te gebruiken."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "{greenBright_Start}Kanonspreiding{greenBright_End} bij het al rijdend vuren wordt met %(vehicleGunShotDispersionChassisMovement)s&zwnbsp; verminderd."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {greenBright_Start}kanonspreiding{greenBright_End} bij het al rijdend vuren met %(vehicleGunShotDispersionChassisMovement)s&zwnbsp; verminderd."
+
+msgid "driver_smoothDriving/name"
+msgstr "Comfortabele rit"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Verbetert de nauwkeurigheid bij het al rijdend vuren."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Deze specialisatie beïnvloedt de snelheid waarmee de ophanging van \"rood\" naar \"geel\" wordt gerepareerd binnen 50 m van een geallieerd voertuig."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "{yellow_Start}Reparatiesnelheid van de ophanging{yellow_End} wordt met %(suspensionRepairSpeed)s verhoogd binnen 50 m van een geallieerd voertuig."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Reparatiesnelheid van de ophanging wordt verhoogd (bondgenoot is nabij)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {yellow_Start}reparatiesnelheid van de ophanging{yellow_End} met %(suspensionRepairSpeed)s verhoogd binnen 50 m van een geallieerd voertuig."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Veldondersteuning"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "De weerstand tegen brand kan verder worden verhoogd door uitrusting en verbruiksartikelen met een vergelijkbaar effect op het voertuig te monteren. De brandbestrijding specialisatie zorgt ervoor dat een brand sneller wordt geblust."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "Vermindert de {greenBright_Start}kans op brand in de motor{greenBright_End} met %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {greenBright_Start}kans op brand in de motor{greenBright_End} met %(vehicleFireChance)s&zwnbsp; verminderd."
+
+msgid "driver_tidyPerson/name"
+msgstr "Tijdig onderhoud"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Vermindert de kans op brand in de motor."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "De draaisnelheid van de romp kan verder worden verhoogd door uitrusting of verbruiksartikelen met een vergelijkbaar effect te monteren."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}Draaisnelheid van de romp{greenBright_End} wordt met %(vehicleAllGroundRotationSpeed)s&zwnbsp; verhoogd.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {greenBright_Start}draaisnelheid van de romp{greenBright_End} met %(vehicleAllGroundRotationSpeed)s verhoogd."
+
+msgid "driver_virtuoso/name"
+msgstr "Motorrem"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Verhoogt de draaisnelheid van de romp."
+
+msgid "fireFighting/alt/description"
+msgstr "Deze specialisatie beïnvloedt de ontvangen schade door brand en de duur van de brand.\n\nAls twee radio-officieren deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus.\n\nDe specialisatie kan worden verbeterd met het ervaren brandblussers gevechtsbevel."
+
+msgid "fireFighting/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}Brandblussnelheid{greenBright_End} wordt met %(fireExtinguishingRate)s&zwnbsp; verhoogd."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {greenBright_Start}brandblussnelheid{greenBright_End} met %(fireExtinguishingRate)s&zwnbsp; verhoogd."
+
+msgid "fireFighting/name"
+msgstr "Brandbestrijding"
+
+msgid "fireFighting/shortDescription"
+msgstr "Verbetert de brandbestrijding."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Het potentiële schade- en penetratiebereik is standaard ±25% van de basiswaarden. Voorbeeld: als een granaat een penetratie van 100 mm heeft en 100 HP schade veroorzaakt, dan zal de daadwerkelijke penetratie van de granaat tussen de 75 en 125 mm liggen, en de daadwerkelijke schade tussen de 75 en 125 HP. Het verminderen van deze variatie resulteert in meer voorspelbare resultaten.\n\nAls twee schutters deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Het bereik van {greenBright_Start}potentiële schade{greenBright_End} en {greenBright_Start}potentiële penetratie{greenBright_End} wordt met {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s verminderd. De {greenBright_Start}kanonspreiding{greenBright_End} wordt met %(shotDispersionAngle)s&zwnbsp; verminderd."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt het bereik van {greenBright_Start}potentiële schade{greenBright_End} en {greenBright_Start}potentiële penetratie{greenBright_End} met {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s verminderd. De {greenBright_Start}kanonspreiding{greenBright_End} wordt met %(shotDispersionAngle)s&zwnbsp; verminderd."
+
+msgid "gunner_armorer/name"
+msgstr "Wapensmid"
+
+msgid "gunner_focus/alt/description"
+msgstr "Het effect begint 3 s nadat het voertuig is gestopt en wordt bij beweging gereset.\n\nAls twee schutters deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus."
+
+msgid "gunner_focus/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "De {yellow_Start}kanonspreiding{yellow_End} van een stilstaand voertuig wordt met %(shotDispersionAngle)s&zwnbsp; verminderd."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Kanonspreiding wordt verminderd."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {yellow_Start}kanonspreiding{yellow_End} van een stilstaand voertuig met %(shotDispersionAngle)s&zwnbsp; verminderd."
+
+msgid "gunner_focus/name"
+msgstr "Concentratie"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Vermindert de kanonspreiding van een stilstaand voertuig."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Kanonspreiding en richtsnelheid kunnen verder worden verbeterd door bemanningsspecialisaties te trainen of uitrusting met een vergelijkbaar effect te monteren.\n\nAls twee schutters deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "{yellow_Start}Kanonspreiding{yellow_End} wordt met %(vehicleGunAimSpeed)s verlaagd en {yellow_Start}richtsnelheid{yellow_End} wordt met %(vehicleGunAimSpeed)s verhoogd wanneer er binnen een straal van 300 m geen bondgenoten zijn."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Kanonspreiding en richtsnelheid worden verbeterd (geen bondgenoten nabij)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {yellow_Start}kanonspreiding{yellow_End} met %(vehicleGunAimSpeed)s verminderd en de {yellow_Start}richtsnelheid{yellow_End} met hetzelfde percentage verhoogd wanneer er binnen een straal van 300 m geen bondgenoten zijn."
+
+msgid "gunner_loneWolf/name"
+msgstr "Einzelgänger"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Kanonspreiding wordt verminderd. Richtsnelheid wordt verhoogd."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "De potentiële maximale penetratie is standaard +25% van de basiswaarde. Als een granaat bijvoorbeeld tot 100 mm pantser doorboort, dan is de maximale penetratiewaarde van dit schot 125 mm. Het verhogen van deze aanpasser leidt tot effectievere penetratiewaarden.\n\nAls twee schutters deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "De {yellow_Start}potentiële maximale penetratie{yellow_End} van je granaten wordt met %(piercingHEShellsDistributionUpperBound)s verhoogd wanneer je op vijanden vuurt die zich binnen 50 m van jou bevinden."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {yellow_Start}potentiële maximale penetratie{yellow_End} met %(piercingHEShellsDistributionUpperBound)s verhoogd wanneer je op vijanden vuurt die zich binnen 50 m van jou bevinden."
+
+msgid "gunner_pointBlast/name"
+msgstr "Vuur van dichtbij"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Verhoogt de potentiële maximale penetratie van je granaten"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Als twee schutters deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus.\n\nDe richtsnelheid kan verder worden verhoogd door de coördinatie specialisatie van de commandant te trainen of uitrusting met een vergelijkbaar effect te monteren.\n\nDe draaisnelheid van de koepel kan verder worden verhoogd door uitrusting of verbruiksartikelen met een vergelijkbaar effect te monteren."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "De {greenBright_Start}richtsnelheid{greenBright_End} en {greenBright_Start}draaisnelheid van de koepel{greenBright_End} worden met %(vehicleGunAimSpeed)s&zwnbsp; verhoogd."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, worden de {greenBright_Start}richtsnelheid{greenBright_End} en {greenBright_Start}draaisnelheid van de koepel{greenBright_End} met %(vehicleGunAimSpeed)s&zwnbsp; verhoogd."
+
+msgid "gunner_quickAiming/name"
+msgstr "Snel richten"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Richtsnelheid wordt verhoogd."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Identificeert kritisch beschadigde modules van voertuigen in het vizier en binnen het zichtbereik van de schutter. Dit geldt voor zowel de directe als indirecte vuurmodus.\nHet zicht van de schutter is een sector van ±10° (20° in totaal) voor het kanon van het voertuig, en binnen het zichtbereik.\nAls twee schutters deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus.\nDe specialisatie kan verder worden verbeterd met het focus op doelwit gevechtsbevel. Het gebruik van verbeterde radioapparatuur zorgt ervoor dat het vijandelijk voertuig langer zichtbaar is."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "De {greenBright_Start}tijd{greenBright_End} die een vijandelijk voertuig in het zicht van de schutter {greenBright_Start}zichtbaar blijft{greenBright_End} wordt met %(vehicleEnemySpottingTime)s verlengd. De tijd die het kost om {yellow_Start}beschadigde modules te identificeren{yellow_End} wordt naar %(damageMonitoringDelay)s&zwnbsp; verminderd."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {greenBright_Start}tijd{greenBright_End} die een vijandelijk voertuig in het zicht van de schutter {greenBright_Start}zichtbaar blijft{greenBright_End} met %(vehicleEnemySpottingTime)s verlengd. Schakelt de {yellow_Start}identificatie van beschadigde modules{yellow_End} in met een vertraging van %(damageMonitoringDelay)s."
+
+msgid "gunner_rancorous/name"
+msgstr "Aangewezen doel"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Verlengt de tijd die een vijandelijk voertuig in het zicht van de schutter zichtbaar blijft. Schakelt de identificatie van beschadigde modules in."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Als twee schutters deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus.\n\nDe specialisatie kan worden verbeterd met het vaste hand gevechtsbevel. De spreiding tijdens koepelrotatie kan verder worden verminderd door uitrusting met een vergelijkbaar effect te monteren of het stabilisatiesmering gevechtsbevel te gebruiken."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "De {greenBright_Start}kanonspreiding{greenBright_End} tijdens koepelrotatie wordt met %(turretAimingDispersion)s&zwnbsp; verminderd."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {greenBright_Start}kanonspreiding{greenBright_End} tijdens koepelrotatie met %(turretAimingDispersion)s&zwnbsp; verminderd."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Snel schot"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Vermindert de spreiding tijdens koepelrotatie."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Het effect werkt voor alle soorten granaten, behalve voor voertuigen met autokanonnen.\n\nAls twee schutters deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "De {greenBright_Start}kans{greenBright_End} om vijandelijke {greenBright_Start}voertuigmodules{greenBright_End} te beschadigen en vijandelijke {greenBright_Start}bemanningsleden{greenBright_End} te verwonden met alle soorten granaten wordt met %(enemyModulesCrewCritChance)s&zwnbsp; verhoogd."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {greenBright_Start}kans{greenBright_End} om vijandelijke {greenBright_Start}voertuigmodules{greenBright_End} te beschadigen en vijandelijke {greenBright_Start}bemanningsleden{greenBright_End} te verwonden met alle soorten granaten met %(enemyModulesCrewCritChance)s&zwnbsp; verhoogd."
+
+msgid "gunner_sniper/name"
+msgstr "Doodsoog"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "De potentiële minimale schade en penetratie zijn standaard -25% van de basiswaarden. Voorbeeld: als een granaat een penetratie van 100 mm heeft en 100 HP schade veroorzaakt, dan is de minimale potentiële penetratie van de granaat 75 mm en de minimale potentiële schade 75 HP. Het verhogen van deze aanpasser resulteert in effectievere resultaten.\n\nAls twee laders deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "De {greenBright_Start}minimale potentiële schade{greenBright_End} en {greenBright_Start}minimale potentiële penetratie{greenBright_End} worden met %(damageAndPiercingDistributionLowerBound)s&zwnbsp; verhoogd."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, worden de {greenBright_Start}minimale potentiële schade{greenBright_End} en {greenBright_Start}minimale potentiële penetratie{greenBright_End} met %(damageAndPiercingDistributionLowerBound)s&zwnbsp; verhoogd."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Munitie afstellen"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Verhoogt de gemiddelde schade en penetratie."
+
+msgid "loader_desperado/alt/description"
+msgstr "Als twee laders deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus.\n\nDe herlaadtijd van het kanon kan verder worden verminderd door de gevecht van dichtbij specialisatie van de lader te trainen of uitrusting met een vergelijkbaar effect te monteren. Gebruik van het geordende munitieopslag gevechtsbevel verbetert het effect."
+
+msgid "loader_desperado/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "De {yellow_Start}herlaadtijd van het kanon{yellow_End} wordt met %(vehicleGunReloadTime)s verminderd wanneer je voertuig minder dan 25% van zijn levenspunten overheeft."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Herlaadtijd van het kanon wordt verminderd (weinig HP over)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {yellow_Start}herlaadtijd van het kanon{yellow_End} met %(vehicleGunReloadTime)s verminderd wanneer je voertuig minder dan 25% van zijn levenspunten overheeft."
+
+msgid "loader_desperado/name"
+msgstr "Adrenalinestoot"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Versnelt het herladen van het kanon als je voertuig minder dan 25% van zijn levenspunten overheeft."
+
+msgid "loader_intuition/alt/description"
+msgstr "Om de specialisatie te activeren, moet het kanon, beide kanonnen, of het magazijn volledig geladen zijn. De minimum tijd voor het wisselen van granaattype voor standaard kanonnen is 1 s; voor dubbelloopse kanonnen en magazijnkanonnen is die 2,5 s.\n\nAls twee laders deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus."
+
+msgid "loader_intuition/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "De {greenBright_Start}tijdsduur van het wisselen van granaattype{greenBright_End} voor een geladen kanon wordt met %(vehicleReloadTimeAfterShellChange)s&zwnbsp; verminderd."
+
+msgid "loader_intuition/hudDescription"
+msgstr "De tijdsduur van het wisselen van granaattype voor een geladen kanon wordt verminderd.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {greenBright_Start}tijdsduur van het wisselen van granaattype{greenBright_End} voor een geladen kanon met %(vehicleReloadTimeAfterShellChange)s&zwnbsp; verminderd."
+
+msgid "loader_intuition/name"
+msgstr "Intuïtie"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Verhoogt de snelheid van het wisselen van granaattype voor een geladen kanon aanzienlijk."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Deze specialisatie vermindert alleen de herlaadtijd van magazijnkanonnen en heeft geen invloed op andere kanonsystemen.\n\nAls twee laders deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "Magazijn {greenBright_Start}herlaadtijd{greenBright_End} wordt met %(magazineGunReloadSpeed)s verminderd."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de magazijn {greenBright_Start}herlaadtijd{greenBright_End} met %(magazineGunReloadSpeed)s verminderd."
+
+msgid "loader_magMastery/name"
+msgstr "Magazijnmeesterschap"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Vermindert de herlaadtijd van je magazijn"
+
+msgid "loader_melee/alt/description"
+msgstr "Als twee laders deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus.\n\nDe herlaadtijd van het kanon kan verder worden verminderd door de adrenalinestoot specialisatie van de lader te trainen of uitrusting met een vergelijkbaar effect te monteren. Gebruik van het geordende munitieopslag gevechtsbevel verbetert het effect."
+
+msgid "loader_melee/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "De {yellow_Start}herlaadtijd van het kanon{yellow_End} wordt met %(vehicleGunReloadTime)s verminderd op een afstand van minder dan 50 m van het vijandelijk voertuig."
+
+msgid "loader_melee/hudDescription"
+msgstr "Herlaadtijd van het kanon wordt verminderd (vijand is dichtbij).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {yellow_Start}herlaadtijd van het kanon{yellow_End} met %(vehicleGunReloadTime)s verminderd op een afstand van minder dan 50 m van het vijandelijk voertuig."
+
+msgid "loader_melee/name"
+msgstr "Gevecht van dichtbij"
+
+msgid "loader_melee/shortDescription"
+msgstr "Versnelt de herlaadtijd in gevechten van dichtbij."
+
+msgid "loader_pedant/alt/description"
+msgstr "Een gewonde lader heeft geen invloed op de effectiviteit van de specialisatie.\n\nAls twee laders deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus.\n\nDe specialisatie kan worden verbeterd met het granaatorganisator gevechtsbevel. De duurzaamheid van de munitieopslag kan verder worden verhoogd door uitrusting met een vergelijkbaar effect te monteren."
+
+msgid "loader_pedant/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "De {greenBright_Start}duurzaamheid van de munitieopslag{greenBright_End} wordt met %(vehicleAmmoBayStrength)s&zwnbsp; verhoogd.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {greenBright_Start}duurzaamheid van de munitieopslag{greenBright_End} met %(vehicleAmmoBayStrength)s&zwnbsp; verhoogd."
+
+msgid "loader_pedant/name"
+msgstr "Veilige opslag"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Verhoogt de duurzaamheid van de munitieopslag."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Het effect werkt voor alle soorten granaten.\n\nEen gewonde lader heeft geen invloed op de effectiviteit van de specialisatie.\n\nAls twee laders deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "De {greenBright_Start}granaatsnelheid{greenBright_End} wordt met %(shellVelocity)s&zwnbsp; verhoogd."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {greenBright_Start}granaatsnelheid{greenBright_End} met %(shellVelocity)s&zwnbsp; verhoogd."
+
+msgid "loader_perfectCharge/name"
+msgstr "Perfecte lading"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Deze specialisatie heeft geen invloed op magazijnen of automatische kanonnen en wordt niet opgeteld voor dubbelloopse kanonnen.\n\nVoor kanonnen met selectieve laadsystemen, indien beide lopen zijn afgevuurd en geen schade hebben veroorzaakt, wordt de herlaadtijd van beide lopen verminderd.\n\nAls twee laders deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus.\n\nDe herlaadtijd van het kanon kan verder worden verminderd door de adrenalinestoot of gevecht van dichtbij specialisaties van de lader te trainen of door uitrusting met een vergelijkbaar effect te monteren. Gebruik van het geordende munitieopslag gevechtsbevel verbetert het effect."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "De {yellow_Start}herlaadtijd van de volgende granaat{yellow_End} wordt met %(vehicleGunReloadTime)s verminderd als het vorige schot geen schade heeft veroorzaakt aan een vijandelijk voertuig."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Kanonherlaadtijd wordt verminderd (geen schade veroorzaakt)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {yellow_Start}herlaadtijd van de volgende granaat{yellow_End} met %(vehicleGunReloadTime)s verminderd wanneer het vorige schot geen schade heeft veroorzaakt aan een vijandelijk voertuig."
+
+msgid "loader_secondChance/name"
+msgstr "Tweede kans"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Vermindert de kanonherlaadtijd"
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/u"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Broederband"
+
+msgid "perkRole/commander"
+msgstr "Commandant"
+
+msgid "perkRole/common"
+msgstr "Groep"
+
+msgid "perkRole/driver"
+msgstr "Bestuurder"
+
+msgid "perkRole/gunner"
+msgstr "Schutter"
+
+msgid "perkRole/loader"
+msgstr "Lader"
+
+msgid "perkRole/radioman"
+msgstr "Radio-officier"
+
+msgid "popularity/tooltip/common"
+msgstr "van alle spelers"
+
+msgid "popularity/tooltip/header"
+msgstr "Voor dit voertuig, geprefereerd door"
+
+msgid "popularity/tooltip/legendary"
+msgstr "van WTR Legende-spelers"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Als twee radio-officiers deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus.\n\nHet effect kan verder worden vergroot met de geluidsdetectie specialisatie van de commandant."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Elke keer dat de bemanning wordt verdoofd, wordt het {greenBright_Start}negatieve effect van de verdoving{greenBright_End} met %(stunResistanceEffectFactor)s verminderd, tot maximaal 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt elke keer dat de bemanning wordt verdoofd, het {greenBright_Start}negatieve effect van de verdoving{greenBright_End} met %(stunResistanceEffectFactor)s verminderd, tot maximaal&nbsp;30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Gevechtsgehard"
+
+msgid "radioman_expert/alt/description"
+msgstr "De bemanningsefficiëntiebonus verbetert de effectiviteit van het bemanningslid. Als twee radio-officiers deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus. Deze parameter kan verder worden verhoogd door uitrusting of verbruiksartikelen met een vergelijkbaar effect te monteren, of door het ventilatieslang gevechtsbevel te gebruiken. De groepsspecialisatie wapenbroeders, evenals de noodgeval specialisatie van de commandant en de zij aan zij specialisatie van de radio-officier, kunnen de parameter ook verhogen."
+
+msgid "radioman_expert/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "De {yellow_Start}bemanningsefficiëntiebonus{yellow_End} wordt met %(crewLevelIncrease)s verhoogd als je hoeveelheid geassisteerde schade groter is dan de beginhoeveelheid levenspunten van je voertuig&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "De bemanningsefficiëntiebonus wordt verhoogd (genoeg geassisteerde schade)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {yellow_Start}bemanningsefficiëntiebonus{yellow_End} met %(crewLevelIncrease)s verhoogd wanneer je hoeveelheid geassisteerde schade groter is dan de beginhoeveelheid levenspunten van je voertuig&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Communicatie-expert"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Verbeterde bemanningsprestatie."
+
+msgid "radioman_finder/alt/description"
+msgstr "Als twee radio-officiers deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus.\n\nHet zichtbereik kan verder worden vergroot door de verkenner specialisatie te trainen of uitrusting met een vergelijkbaar effect te monteren. Het optische kalibratie gevechtsbevel vergroot het effect."
+
+msgid "radioman_finder/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "Het {greenBright_Start}zichtbereik{greenBright_End} wordt met %(vehicleCircularVisionRadius)s&zwnbsp; vergroot."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt het {greenBright_Start}zichtbereik{greenBright_End} met %(vehicleCircularVisionRadius)s&zwnbsp; verhoogd."
+
+msgid "radioman_finder/name"
+msgstr "Omgevingsbewust"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Verhoogt het zichtbereik."
+
+msgid "radioman_interference/alt/description"
+msgstr "Als twee radio-officiers deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus.\n\nDe tijd die je voertuig zichtbaar blijft, kan verder worden verminderd door uitrusting met een vergelijkbaar effect te monteren."
+
+msgid "radioman_interference/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "De {greenBright_Start}tijd die je voertuig zichtbaar blijft{greenBright_End} voor de vijand wordt met %(vehicleOwnSpottingTime)s&zwnbsp; verminderd."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {greenBright_Start}tijd die je voertuig zichtbaar blijft{greenBright_End} voor de vijand met %(vehicleOwnSpottingTime)s&zwnbsp; verminderd."
+
+msgid "radioman_interference/name"
+msgstr "Stoorzender"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Vermindert de tijd dat je voertuig zichtbaar is voor de vijand."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Als twee radio-officieren de specialisatie hebben, wordt alleen de hoogste waarde toegepast. Werkt alleen wanneer de radio-officier niet gewond is op het moment dat het voertuig wordt vernietigd.\n\nDe specialisatie kan verder worden verbeterd met het plicht komt eerst gevechtsbevel."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "De radio-officier kan nadat je voertuig is vernietigd nog %(radiomanDurationPerLevel)s lang {yellow_Start}vijandelijke posities doorgeven{yellow_End}."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Posities doorgeven."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, kan de radio-officier nadat je voertuig is vernietigd nog %(radiomanDurationPerLevel)s lang {yellow_Start}vijandelijke posities doorgeven{yellow_End}."
+
+msgid "radioman_lastEffort/name"
+msgstr "Roep om wraak"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Vijandelijke posities worden na de vernietiging van je voertuig nog eventjes doorgegeven."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "De bemanningsefficiëntiebonus verbetert de effectiviteit van het bemanningslid. Als twee radio-officiers deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus. Deze parameter kan verder worden verhoogd door uitrusting of verbruiksartikelen met een vergelijkbaar effect te monteren, of door het ventilatieslang gevechtsbevel te gebruiken. De groepsspecialisatie wapenbroeders, evenals de noodgeval specialisatie van de commandant en de communicatie-expert specialisatie van de radio-officier, kunnen de parameter ook verhogen."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "De {yellow_Start}bemanningsefficiëntiebonus{yellow_End} wordt met %(crewLevelIncrease)s verhoogd op een afstand van minder dan 50 m van een geallieerd voertuig van hetzelfde type&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "De bemanningsefficiëntiebonus wordt verhoogd (bondgenoot van hetzelfde type is dichtbij)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {yellow_Start}bemanningsefficiëntiebonus{yellow_End} met %(crewLevelIncrease)s verhoogd op een afstand van minder dan 50 m van een geallieerd voertuig van hetzelfde type&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Zij aan zij"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Verbeterde bemanningsprestatie."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Het effect verbetert de zesde zintuig commandantseigenschap door de activatie ervan te versnellen.\n\nAls twee radio-officiers deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Een specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "De {greenBright_Start}benodigde tijd om te bepalen{greenBright_End} of {greenBright_Start}je voertuig is gespot{greenBright_End} door de vijand wordt met %(commanderLampDelay)s verminderd."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {greenBright_Start}benodigde tijd om te bepalen{greenBright_End} of {greenBright_Start}je voertuig is gespot{greenBright_End} door de vijand met %(commanderLampDelay)s verminderd."
+
+msgid "radioman_signalInterception/name"
+msgstr "Signaalonderschepping"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Deze specialisatie wordt geactiveerd wanneer zesde zintuig zegt dat je voertuig is gespot.\n\nAls twee radio-officiers deze specialisatie hebben, geldt de gemiddelde waarde van de trainingsniveaus.\n\nHet zichtbereik kan verder worden verhoogd door de verkenner of omgevingsbewust specialisaties te trainen of door uitrusting met een vergelijkbaar effect te monteren. Het optische kalibratie gevechtsbevel vergroot het effect."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Een specialisatie met een situationeel effect treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit. Het situationele effect wordt geactiveerd wanneer bepaalde voorwaarden in het gevecht zijn vervuld."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "{yellow_Start}Zichtbereik{yellow_End} wordt 5 s lang met %(vehicleCircularVisionRadius)s vergroot nadat de zesde zintuig waarschuwing is getoond."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Zichtbereik wordt vergroot."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt het {yellow_Start}zichtbereik{yellow_End} 5 s lang met %(vehicleCircularVisionRadius)s vergroot nadat de zesde zintuig waarschuwing is getoond."
+
+msgid "radioman_threatSearch/name"
+msgstr "Directe dreiging"
+
+msgid "repair/alt/description"
+msgstr "Deze specialisatie beïnvloedt de snelheid waarmee interne en externe modules van \"rood\" naar \"geel\" worden gerepareerd.\n\nDeze parameter kan verder worden verhoogd door uitrusting of verbruiksartikelen met een vergelijkbaar effect te monteren."
+
+msgid "repair/alt/info"
+msgstr "Voor groepsspecialisaties geldt het gemiddelde trainingsniveau van alle bemanningsleden. De specialisatie treedt in werking wanneer die tot minstens 1% is getraind. Een hoger trainingsniveau betekent een hogere effectiviteit."
+
+msgid "repair/currentLvlDescription"
+msgstr "De {greenBright_Start}reparatiesnelheid{greenBright_End} van beschadigde voertuigmodules wordt met %(vehicleRepairSpeed)s&zwnbsp; verhoogd."
+
+msgid "repair/maxLvlDescription"
+msgstr "Als deze specialisatie volledig is getraind, wordt de {greenBright_Start}reparatiesnelheid{greenBright_End} van beschadigde voertuigmodules met %(vehicleRepairSpeed)s&zwnbsp; verhoogd."
+
+msgid "repair/name"
+msgstr "Reparatie"
+
+msgid "repair/shortDescription"
+msgstr "Verhoogt de reparatiesnelheid van beschadigde modules."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Broederband"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Populair"
+
+msgid "sorting/fallback"
+msgstr "Standaard"
+
+msgid "sorting/legendary"
+msgstr "Legendarisch"
+
+msgid "sorting/title"
+msgstr "Gesorteerd op:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPopulair.%(whiteSpanish_Close)s Gebaseerd op de huidige specialisatietrends onder alle World of Tanks-spelers."
+
+msgid "sorting/tooltip/header"
+msgstr "Voordeel van WoT Plus"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Ontvang nauwkeurige specialisatiedata op basis van miljoenen gevechten en haal het maximale uit elk gevecht."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendarisch.%(whiteSpanish_Close)s Gebaseerd op specialisaties die momenteel de voorkeur hebben van spelers op het Legende WTR-niveau"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Specialisatie sorteren uitgezet"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Geen data beschikbaar"
+
+msgid "sorting/tooltip/title"
+msgstr "Bemanningsassistent"
+
+msgid "sorting/tooltip/types"
+msgstr "Soorten specialisatie sorteren"
+
+msgid "sorting/tooltip/warning"
+msgstr "Specialisatie sorteren niet beschikbaar"
+
+msgid "sorting/tooltip/warningText"
+msgstr "De specialisatiedata van dit voertuig is incompleet, waardoor de specialisaties op een standaard manier zijn gesorteerd."
+
+msgid "witches_brotherhood/name"
+msgstr "Coven"
+
+msgid "yha_brotherhood/name"
+msgstr "Broederschap van Hazen"

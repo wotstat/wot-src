@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Dozvoljava seriji granata da budu ispaljene iz šaržera jedna po jedna, dok se svaka granata automatski puni tokom vremena."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Dozvoljava seriji granata da budu ispaljene iz šaržera jedna po jedna, dok se svaka granata automatski puni tokom vremena. Daje bonus na brzinu punjenja sledeće granate tokom punjenja."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Puca brze rafale granata da nanese visoku štetu za kratko vreme, po cenu probojnosti i preciznosti. Najefektivniji je u borbama na maloj distanci."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Puca osvetljavajuće granate, nanoseći maksimalnu štetu u krugu od 50 m. Šteta granate se smanjuje tokom razdaljine, što je čini najefikasnijom u bliskoj borbi."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Jedinstveni sistem hlađenja koji dozvoljava dvostruko nišanjenje: čekanje nakon punjenja dozvoljava topu da puca preciznije. Poboljšana preciznost je prikazana drugim, manjim nišanskim krugom."
+
+msgid "abilities/common/description/dualGun"
+msgstr "Sistem dvostrukog topa sa mogućnošću da puca iz obe cevi odvojeno ili simultano. Dvostruki hici nanose veliku rafalnu štetu, ali dolaze sa dužim vremenom punjenja."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Dozvoljava trupu vozila da menja uglove elevacije, nudeći prilike za pucanje sa više pozicija u borbi. Aktiviranje zavisi od raznih uslova."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "Menja poziciju dodatnih točkova da značajno poveća brzinu ali po cenu upravljivosti. Najbolje je koristiti je za prelazak dužih distanci i za brze napade."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Dozvoljava seriji granata da budu ispaljene iz šaržera pre potrebe za punim popunjavanjem. Nanosi visoku rafalnu štetu ali ostavlja vozilo ranjivim tokom punjenja. Može da napuni samo ceo šaržer odjednom."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "Top može da puca neprekidno bez potrebe za punjenjem. Svaki hitac stvara toplotu: Što je veća temperatura, to se više neki od njegovih parametara menjaju. Konstantno pucanje će dovesti do pregrevanja topa, sprečavajući dalje pucanje dok se ne ohladi."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Povećava snagu motora i maksimalnu brzinu za brzo manevrisanje preko bojišta. Kada je aktivirana, mlazni busteri smanjuju pokretljivost i ne mogu biti isključeni ručno."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "Priikom aktiviranja, ovaj specijalni režim povećava i/ili menja određene borbene parametre. Najbolje ga je aktivirati kada si u poziciji i spreman da napadneš neprijatelja."
+
+msgid "abilities/common/description/stun"
+msgstr "Ošamućuje neprijateljska vozila u određenom krugu, čak i bez direktnog pogodka, na kratko pogoršava njihovu pokretljivost, preciznost i vreme punjenja. Ošamućeni neprijatelji su označeni markerom ošamućenosti."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Dozvoljava vozilu da se kreće smanjenom brzinom kada je glavna gusenica uništena. Gubitak dodatne spoljne gusenice dalje smanjuje pokretljivost, ali vozilo i dalje može da se okreće i pomera."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "Dozvoljava vozilu da se kreće značajno brže i ujedno značajno smanjuje parametre ponašanja topa."
+
+msgid "abilities/common/description/twinGun"
+msgstr "Prilikom aktiviranja ovaj specijalni režim nudi dvostruku štetu i povećava i/ili menja određene borbene parametre. Najbolje ga je upotrebiti u susretima na malim razdaljinama."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Automatski punjač"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "Poboljšani automatski punjač"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Automatski top"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Duboko olučeni top"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Hlađenje topa"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Dvostruki top"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Hidropneumatsko vešanje"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Brzi režim"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Automatski punjač"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Termalna kontrola pregrevanja automatskog topa"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Mlazni busteri"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Opsadni režim"
+
+msgid "abilities/common/name/stun"
+msgstr "Ošamuti"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Rezervna gusenica"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Turbo režim"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Vatreni režim salve"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "Mirovanjem ili sporim kretanjem, povećavaš nivoe preciznosti kako bi poboljšao preciznost sledećeg hica.\nNa najvišem nivou preciznosti, dobijaš pristojno rukovanje topom, sa smanjenim rasipanjem čak i tokom kretanja ili okretanja kupole/trupa."
+
+msgid "abilities/special/description/battleFury"
+msgstr "Svaki put kada pogodiš protivnika granatom, dobijaš nivo efikasnosti punjenja, koji privremeno pojačavaju brzinu punjenja topa. Nivoi se akumuliraju sa svakim pogotkom.\nUništenje neprijatelja granatom dodaje dodatne nivoe efikasnosti punjenja."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Ako ti je top napunjen, možeš početi sa grejanjem sledećeg hica radi povećanja štete - što je viši nivo toplote, to je veći efekat.\nNa maksimalnoj toploti imaš nekoliko sekundi da opališ - ako ne, privremeno nećeš moći da pucaš."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Dva pogotka koja probiju oklop neprijateljskih vozila aktiviraju režim rafala, punjenje kasete za prasak paljbu koja ti omogućuje da ispališ dve granate brzo zaredom sa sledećim hicem za ogromnu štetu."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "Pneumatski giro-stabilizator pruža maksimalnu stabilizaciju tokom kretanja, okretanja trupa i kupole, što omogućuje precizniju paljbu, kao i brz odgovor na iznenadne pretnje i efikasno sukobljavanje iz zaklona."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "Sistem automatski počinje da puni novu kasete kada jedna granata ostane u trenutnoj, tako da si spreman za sukob. I dalje možeš da ispališ poslednju granatu tokom ovog procesa, ali to dodaje nekoliko sekundi preostalom vremenu punjenja."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "Sistem drži top ohlađenim, dozvoljavajući veoma precizno pucanje. Top se zagreva tokom pucanja, ali počinje da se hladi i vraća se na poboljšane parametre tokom punjenja. što je veća temperatura, to su više izmenjeni njegovi parametri."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "Koristeći iskustvo dizajna sa ranijih modela, ovo vozilo je posebno konfigurisano za smrtonosne napade sudaranjem. Strukturna ojačanja mu omogućavaju da nanese veću štetu prilikom sudara u neprijateljska vozila što mu daje prednost u borbama na malim razdaljinama."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "Top ovog vozila može da puca ranije: pucnji jednog punjenja, ispaljeni tokom ponovnog punjenja imaju smanjenu efikasnost, dok regularni pucnji sa punim punjenjem nakon završenog punjenja imaju optimalne balističke parametre."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "Top može da puca neprekidno bez potrebe za punjenjem. Svaki hitac stvara toplotu: Što je veća temperatura, to se više neki od njegovih parametara menjaju. Konstantno pucanje će dovesti do pregrevanja topa, sprečavajući dalje pucanje dok se ne ohladi."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Ostani u mirovanju ili se kreći polako da bi izgradio predgrevanje, što povećava štetu i preciznost sledećeg hica. Na maksimalnom predgrevanju, penetracija neprijatelja sa manje poena zdravlja od tvoje prosečne štete izaziva eksploziju police municije, uništavajući vozilo."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Ovaj režim pretvara vozilo u utvrđenu platformu naoružanja, pružajući vrhunsku preciznost i brže vreme punjenja. U zamenu za ovu poboljšanu vatrenu moć, mobilnost vozila - brzina kretanja napred/nazad i vertikalno/horizontalno okretanje - je znatno ograničena."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Ovaj režim pruža značajno povećanje snage motora i maksimalne brzine kretanja napred. Što duže voziš napred, veća je skupljena brzina, što omogućava da se lako krećeš preko bojnog polja i lako prelaziš velike udaljenosti."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "Sistem sakuplja punjenje tokom vremena, veće punjenje daje više bonus štete. Punjenje je ograničeno graničnikom, koji može da se isključi za još veći bonus štete po cenu smanjenja ponašanja topa."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "Aktiviraj bustere tečnog goriva u bilo kom trenutku za nagli porast brzine kada je najpotrebnija. Busteri se zagrevaju i moraju se ohladiti pre nego što se mogu ponovo koristiti, dok će ih prekoračenje pregrevanja privremeno potpuno onesposobiti."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Potisnici na čvrsto gorivo koji povećavaju ubrzanje, pokretljivost i upralvjivost tokom nekoliko sekundi. Levi i desni potisnici mogu da rade nezavisno jedan od drugoga za brže okretanje trupa i ne smanjuju sposobnost hoda unazad."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "U zavisnosti od aktivnog režima i nivoa punjenja, vozilo može aktivirati jednu od dve sposobnosti: \nNaknadno sagorevanje jonskog pražnjenja: Povećava snagu i brzinu motora. \nElektromehaničko slučajno naelektrisanje nišana: Smanjuje rasipanje i vreme punjenja, a poboljšava preciznost."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Ovaj modul te drži u borbi tako što ti omogućava da zaustaviš punjenje u bilo kom trenutku ako je barem jedna granata napunjena. Pritisnite taster da zaustaviš punjenje, pucaj nakon kratkog zastoja, a zatim ručno nastavi punjenje ili dozvoli da se šaržer automatski napuni kada se prazan."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Pritiskom na dugme za aktivaciju ispaljuješ pomoćno oružje vozila na metu. Ova dodatna vatrena moć dolazi sa sopstvenim ciklusom punjenja, nezavisno od glavnog topa."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "Sledeći hitac primenjuje efekat zasnovan na statusu uočavanja neprijatelja. Pogađanjem uočenog neprijatelja obeležavaš ga - ostaće duže uočen i pretrpeće više štete. Pogađanjem neprimećenog neprijatelja ističeš njegovu lokaciju posebnim markerom."
+
+msgid "abilities/special/description/twinGun"
+msgstr "Nudi duplu štetu i poboljšanu stabilizaciju po ceni pokretljivosti, preciznosti, brzine okretanja kupole i vremena nišanjenja. Najbolje je koristiti u bliskoj borbi."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Ova mehanička modifikacija značajno pojačava ubrzanje vozila, snagu motora i maksimalnu brzinu u napred i u nazad na kratko vreme, dozvoljavajući ti da brzo reaguješ na neprijateljski napad i uhvatiš protivnike u raskoraku dinamičnim manevrima."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Analogni uređaj za računanje balistike"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Polu automatska polica municije"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Termo balističko nad punjenje"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Režim rafala"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Pneumatski giro-stabilizator"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Kasetni sistem punjenja"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Aktivno hlađenje topa"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Konfiguracija za sudaranje"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "Sistem punjenja sa višestrukim pakovanjem"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Termalna kontrola pregrevanja automatskog topa"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "Sistem termičke kontrole pogonskog goriva"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Režim bunkera"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Direktna vožnja"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "Dodatno sagorevanje indukcionog punjenja"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Busteri tečnog goriva"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "Sekvencijalni raketni potisnici"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Taktično pakovanje snage"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Modul za eksternu dopunu municije"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Pomoćno oružje"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Laserski nišan"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Vatreni režim salve"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Pomoć turbo punjača visokog pritiska"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Povećava preciznost sledećeg pogotka, sa pristojnom stabilizacijom pri punoj kalibraciji."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Svaki pogodak na neprijateljsko vozilo pojačava brzinu punjenja topa na ograničeno vreme."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Skuplja nivoe toplote kako bi izazvao više štete neprijateljskim vozilima sledećim pogotkom."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "Rafalna kaseta koja ti dozvoljava da ispališ dve granate brzo."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Maksimizuje stabilizaciju tokom kretanja i okretanja za preciznije gađanje."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Automatski započinje punjenje poslednje granate, koja se još može ispaliti tokom punjenja."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "Aktivan sistem hlađenja topa koji poboljšava preciznost dok se top hladi."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Povećava štetu nanetu udarom na neprijateljskim vozilima."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "Specijalna mehanika topa koja dozvoljava ranije pucanje po ceni efikasnosti hica."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "Sistem dozvoljava neprekidnu vatru bez punjenja i kontroliše kako top stvara toplotu prilikom pucanja."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "Mirovanjem ili kretanjem polako povećava štetu i preciznost sledećeg pogotka."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Drastično povećava preciznost i brzinu punjenja topa, ali ograničava mobilnost."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Pruža pojačanje snazi motora, dodaje maksimalnu brzinu što se duže vozilo kreće."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "Sistem se puni da pojača štetu. Što je veće punjenje, to je veća šteta."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "Busteri koji se mogu aktivirati bilo kada i koji pružaju oštrinu brzine."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "Potisnici na čvrsto gorivo koji povećavaju ubrzanje, pokretljivost i upravljivost."
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Puni jednu ili dve jedinstvene sposobnosti, povećavajući brzinu i povećavajući preciznost topa."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "Dozvoljava prekid punjenja i omogućuje pucanje u kritičnim momentima."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Dodatna oružja koja pružaju povećanu vatrenu moć uz glavni top."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Povećava vreme uočavanja i štetu naprijateljskim vozilima i označava ih specijalnim markerom."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Dozvoljava pucanje iz oba topa odjednom po cenu povećanog vremena punjenja."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "Specijalna mehanika koja pojačava snagu motora, ubrzanje i maksimalnu brzinu na kratko vreme."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Ostajući nepokretan ili krećući se ispod određene brzine dozvoljava tvom vozilu da kalibriše svoj analogni balistički kompjuterski uređaj i sakupi nivoe preciznosti povećavajući preciznost tvog sledećeg hica. Ako pređeš granicu brzine, tvoj napredak u građenju preciznosti će biti prekinut dok ne usporiš. Na najvećem nivou preciznosti, tvoje vozilo dobija pristojnu stabilizaciju topa, sa smanjenim rasipanjem zbog kretanja ili rotiranja kupole/trupa. Efekat se uklanja nakon pucanja."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "Svaki put kada pogodiš vidljivog protivnika granatom, dobijaš nivo efikasnosti punjenja, koji privremeno pojačavaju brzinu punjenja topa. Nivoi se akumuliraju sa svakim pogotkom, i uništenje neprijatelja granatom dodaje dodatne nivoe efikasnosti punjenja."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Ako je tvoj top napunjen, možeš da počneš da zagrevaš svoj sledeći hitac. Što je taj nivo toplote veći, to će veći biti bonus na prosečnu štetu biti. Tokom procesa zagrevanja ne možeš da menjaš granate. Kada dostigneš maksimalan nivo zagrejanosti počinje odbrojavanje. Ako ne opališ pre nego što se završi, nećeš moći da pucaš nekoliko sekundi."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Postizanje da pogotka koji su probili oklop neprijateljskim vozilima aktivira rafalni režim, ubacuje rafalnu kasetu koja omogućava da budu ispaljene dve granate u brzom vremenskom roku sa sledećim hicem."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "Pneumatski žiro-stabilizator pruža maksimalnu stabilnost tokom pokreta trupa i kupole na kratko vreme, što dozvoljava preciznije gađanje u pokretu i bržu reakciju na iznenadne napade."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "Sistem automatski počinje punjenje nove kasete kada preostane jedna granata u trenutnoj kaseti. Ispaljivanje poslednje granate dok se nova kaseta puni dodaje nekoliko sekundi na preostalo vreme punjenja. Pritiskom na taster \"ponovno punjenje kontejnera granata\" odbacuje sve preostale granate osim poslednje. Pritisni taster dva puta da poništiš potpuno napunjenu kasetu."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "Sistem drži top ohlađenim, dozvoljavajući veoma precizno pucanje. Top se zagreva tokom pucanja, ali počinje da se hladi i vraća se na poboljšane parametre tokom punjenja. što je veća temperatura, to su više izmenjeni njegovi parametri."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Ovo vozilo je specijalno podešeno za napade udarima, sa serijom modifikacija dizajna koje mu pomažu da nanese više štete prilikom udara neprijateljskih vozila."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "Top ovog vozila može da puca ranije: pucnji jednog punjenja, ispaljeni tokom ponovnog punjenja imaju smanjenu efikasnost, dok regularni pucnji sa punim punjenjem nakon završenog punjenja imaju optimalne balističke parametre."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "Top može da puca neprekidno bez potrebe za punjenjem. Svaki hitac stvara toplotu: Što je veća temperatura, to se više neki od njegovih parametara menjaju. Konstantno pucanje će dovesti do pregrevanja topa, sprečavajući dalje pucanje dok se ne ohladi."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "Ostajući nepokretan ili krećući se ispod određene brzine stvara pregrejanje, koje povećava prosečnu štetu i preciznost tovg sledećeg hica. Prekoračenje brzine postepeno smanjuje bonus dok ga pucanje ili promena granate momentalno poništava. Na maksimalnom nivou pregrejanja oklop neprijateljskog vozila koje ima manje poena izdržljivosti nego tvoja prosečna šteta - uključujući tvoj sakupljeni bonus pregrejanja - će prozrokovati eksploziju njegovog spremišta za municiju, momentalno uništavajući vozilo."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "U ovom režimu, preciznost topa, brzina punjenja i uglovi elevacije/depresije su drastično povećani, ali je pokretljivost (brzina napred/nazad i brzina vertikalnog i horizontalnog pomeranja) ozbiljno ograničena. Procentualne vrednosti su date za poređenje sa opsadnim režimom."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "Režim direktni pogon pruža značajno povećanje snage motora i maksimalne brzine kretanja napred. Što duže voziš napred, veća je skupljena brzina, što ti omogućava da se krećeš preko bojnog polja sa lakoćom."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "Tokom vremena sistem automatski sakuplja punjenje koje se delimično troši da pojača štetu prilikom pucanja. Što je veće punjenje to je veća bonus šteta. U startu sistem sakuplja punjenje samo do oderđene granice. Gašenje graničnika dozvoljava još veće sakupljanje punjenja što odaje mnogo veći bonus štete ali smanjuje ponašanje topa."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "Busteri tečnog goriva daju nagli porast snage motora, omogućavajući da stekneš pozicionu prednost na bojnom polju - ali ograničavajući brzinu kretanja unazad i okretanja vozila. Mogu se uključiti ili isključiti u bilo kom trenutku, osim nakon pregrevanja. Busteri se zagrevaju dok su aktivni i postaju nedostupni dok se ne ohlade, što znači da se ne mogu koristiti neprekidno - dok će ih prekoračenje pregrevanja privremeno potpuno onesposobiti. Pažljivo planiraj pokrete kako bi izbegao da te zateknu nespremnog."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "Potisnici na čvrsto gorivo koji poboljšavaju ubrzanje, pokretljivost i upravlivost tokom nekoliko sekundi. Za razliku od regularnih mlaznih potisnika, levi i desni potisnik mogu da rade nezavisno jedan od drugog za brze okretanje trupa i ne umanjuju pokretljivost u nazad. Mogu biti korišćeni više puta po borbi ali im treba hlađenje pre ponovnog aktiviranja."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "U zavisnosti od aktivnog režima i nivoa punjenja, vozilo može da aktivira jednu od dve sposobnosti: dodatno sagorevanje jonskog pražnjenja ili koincidentni elektromehanički nišan.\nDodatno sagorevanje jonskog pražnjenja privremeno povećava snagu motora, maksimalnu brzinu u napred, i brzinu u nazad. Koncidentni elektromehanički nišan privremeno povećava preciznost i smanjuje vreme punjenja."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "Eksterni modul snabdevanja municijom ti dozvoljava da prekineš punjenje i počneš da pucaš bilo kada, sve dok i dalje imaš jednu granatu u napunjen u topu. Tokom punjenja, modul zaključava kupolu vozila i spoljašnje kapsule sa municijom, privremeno te sprečavajući da nišaniš ili pucaš osim ako ga ne prekineš."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "Ovo vozilo je opremljeno kompletom pomoćnog oružja čiji ciklus punjenja je odvojen od glavnog topa, što ti dozvoljava da naneseš dodatnu štetu u ključnim momentima."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "Laserski obeležavač mete dodaje specijalan efekat tvom sledećem hicu, koji se primenjuje na bilo kog neprijatelja koga pogodiš. Efekat varira u zavisnosti od toga da li je neprijatelj uočen u momentu pogotka. Pogodak uočenog neprijateljskog vozila će ga označiti, produžavajući vreme za koje ostaje uočeno i povećavajući štetu koju prima od granata, dok će pogodak neuočenog neprijateljskog vozila označiti njegovu poziciju specijalnim markerom."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "Nudi duplu štetu i poboljšanu stabilizaciju po ceni pokretljivosti, preciznosti, brzine okretanja kupole i vremena nišanjenja. Najbolje je koristiti u bliskoj borbi."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Ova mehanička modifikacija značajno pojačava ubrzanje vozila, snagu motora i maksimalnu brzinu u napred i u nazad na kratko vreme, dozvoljavajući ti da brzo reaguješ na neprijateljski napad i uhvatiš protivnike u raskoraku dinamičnim manevrima. Održavanje veće brzine kretanja ubrzava hlađenje mehanike."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Sve prikazane vrednosti su maksimalno moguće za vozilo. Oprema, direktive i potrošni materijal mogu da promene ove vrednosti ali te promene se ne odražavaju ovde."
+
+msgid "characteristics/templates/upTo"
+msgstr "Do %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Kupi i montiraj"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Poljske modifikacije"
+
+msgid "modules/controls/button/mount"
+msgstr "Montiraj"
+
+msgid "modules/controls/button/research"
+msgstr "Izučavanje"
+
+msgid "modules/controls/button/sell"
+msgstr "Prodaj iz depoa"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Ovo vozilo je u borbi, možeš da modifikuješ module kada je borba jednom završena."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Ovo vozilo je oštećeno. Popravi ga da bi mogao da modifikuješ njegove module."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Montiranje modula nije moguće. Nekompatibilan {{module}}."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Ovo vozilo je u taktičkoj jedinici."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "Kupi ovo vozilo da bi mogao da modifikuješ njegove module."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "Izuči prethodne module da bi mogao da izučiš ovaj modul."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "Izuči ovo vozilo da bi mogao da izučiš njegove module."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Svi moduli su izučeni."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Ovaj modul je već montiran."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Odaberi modul ili vozilo za izučavanje."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Ovo vozilo je u borbi, možeš da modifikuješ module kada je borba jednom završena."
+
+msgid "modules/controls/name"
+msgstr "Odabrano: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Šasija"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Motor"
+
+msgid "modules/name/vehicleGun"
+msgstr "Top"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Radio"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Kupola"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Točkovi"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Kolekcionarska vozila"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Mogućnost da učiš"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "kredita za svaku bitku"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "Premeštaj posade bez kazni"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "Borbeno iskustvo i iskustvo posade"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Bonovi"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Više"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Besplatno"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Više"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Zaradi bonove"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Više kredita"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Besplatan transfer"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Više iskuistva"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Besplatan komplet za popravku"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Mogućnost da učiš"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "kredita za svaku bitku"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "premeštaj posade sa bilo koje klase vozila bez kazni"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "Borbeno iskustvo i iskustvo posade"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "Bonovi"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Više"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Besplatno"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Više"
+
+msgid "overview/crew/name"
+msgstr "Posada {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Pogledaj mehaniku"
+
+msgid "overview/title/generalDescription"
+msgstr "Opis vozila"
+
+msgid "overview/title/historicalReference"
+msgstr "Istorijske reference"
+
+msgid "researchPurchase/discountTimer"
+msgstr "Do {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "Povraćaj je dostupan do {{date}}"
+
+msgid "tabs/armor"
+msgstr "Oklop"
+
+msgid "tabs/modules"
+msgstr "Moduli"
+
+msgid "tabs/overview"
+msgstr "Pregled"
+
+msgid "tabs/stats"
+msgstr "Karakteristike"
+
+msgid "tabs/vehSkillTree"
+msgstr "Nadogradnje"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "Iznajmljivanje je gotovo"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Pretplata je suspendovana"

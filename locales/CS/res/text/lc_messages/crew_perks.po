@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Obdržení poškození přerušuje obnovování bodů výdrže.\n\nRychlost obnovy bodů výdrže a maximální limit obnovení vychází z celkového počtu bodů výdrže vozidla, včetně všech použitých modifikátorů."
+
+msgid "armorPatching/alt/info"
+msgstr "Pro skupinové schopnosti je zohledněna průměrná úroveň výcviku všech členů posádky. Stávají se aktivní po vycvičení na alespoň 1 % a jejich efektivita se s dalším výcvikem zvyšuje."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Použití sady nářadí obnovuje %(hpRecover)s{yellow_Start} bodů výdrže{yellow_End} vozidla po dobu 5 s na maximum 20 % za bitvu. Umožňuje použití Sady nářadí bez kritického poškození."
+
+msgid "armorPatching/hudDescription"
+msgstr "Body výdrže jsou obnoveny."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Při úplném vycvičení pro všechny členy posádky po použití sady nářadí obnovuje %(hpRecover)s {yellow_Start}bodů výdrže{yellow_End} vozidla po dobu 5 s na maximum 20 % za bitvu. Umožňuje použití Sady nářadí bez kritického poškození."
+
+msgid "armorPatching/name"
+msgstr "Provizorní opravy"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Zvyšuje základní maskování vozidla."
+
+msgid "brotherhood/alt/description"
+msgstr "Bonus k efektivitě posádky zlepšuje efektivitu člena posádky v bitvě a také efektivitu všech vycvičených schopností kromě této. Tento parametr lze dále zvýšit namontováním vybavení nebo spotřebních doplňků s podobným efektem, nebo použitím směrnice „Čištění ventilace“. Tento parametr mohou zvýšit také schopnost velitele „Pohotovost“ a schopnosti radisty „Bok po boku“ a „Odborník na komunikaci“."
+
+msgid "brotherhood/alt/info"
+msgstr "Pro skupinové schopnosti je zohledněna průměrná úroveň výcviku u všech členů posádky. Stávají se aktivní po vycvičení na alespoň 1 % a jejich efektivita se s dalším výcvikem zvyšuje."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "{greenBright_Start}Bonus efektivity posádky{greenBright_End} byl pro celou posádku zvýšen o %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Při úplném vycvičení u všech členů posádky zvyšuje {greenBright_Start}bonus efektivity posádky{greenBright_End} celé posádky o %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Bratři ve zbrani"
+
+msgid "brotherhood/shortDescription"
+msgstr "Zvyšuje celkovou výkonnost posádky."
+
+msgid "camouflage/alt/description"
+msgstr "Tato schopnost ovlivňuje maskování vozidla. Lze dál vylepšit směrnicí „Přirozené krytí“.\n\nNavíc lze maskování vozidla zlepšit aplikováním maskovacího vzoru nebo stylu a také namontováním vybavení s podobným efektem."
+
+msgid "camouflage/alt/info"
+msgstr "Pro skupinové schopnosti je zohledněna průměrná úroveň výcviku u všech členů posádky. Stávají se aktivní po vycvičení na alespoň 1 % a jejich efektivita se s dalším výcvikem zvyšuje."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "{greenBright_Start}Maskování{greenBright_End} vozidla je zvýšeno o %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Při úplném vycvičení u všech členů posádky zvyšuje {greenBright_Start}maskování{greenBright_End} vozidla o %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Maskování"
+
+msgid "camouflage/shortDescription"
+msgstr "Zvyšuje výchozí maskování vozidla."
+
+msgid "commander_coordination/alt/description"
+msgstr "Efekt se aktivuje pokaždé, když je odhaleno nepřátelské vozidlo, a v případě, že je odhaleno několik vozidel, se nesčítá.\n\nRychlost zaměřování lze dále zvýšit vycvičením schopnosti střelce „Rychlé zaměření“ nebo namontováním vybavení s podobným efektem."
+
+msgid "commander_coordination/alt/info"
+msgstr "Schopnost se situačním účinkem se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje. Situační efekt je aktivován v případě, že jsou v bitvě splněny určité podmínky."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "{yellow_Start}Rychlost zaměřování{yellow_End} bude po odhalení nepřátelského vozidla na 15 s zvýšena o %(vehicleGunAimSpeed)s."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Rychlost zaměřování je zvýšena."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Při úplném vycvičení bude {yellow_Start}rychlost zaměřování{yellow_End} po odhalení nepřátelského vozidla na 15 s zvýšena o %(vehicleGunAimSpeed)s.\t"
+
+msgid "commander_coordination/name"
+msgstr "Koordinace"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Rychlost zaměřování je zvýšena."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Dohled je možné dále zvýšit vycvičením schopnosti radisty „Prostorová představivost“ nebo namontováním vybavení s podobným efektem. Použití směrnice „Optická kalibrace“ efekt zlepšuje."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}Dohled{greenBright_End} je zvýšen o %(circularVisionRadius)s&zwnbsp;. {greenBright_Start}Postih poškozených pozorovacích zařízení{greenBright_End} je snížen o %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Postih poškozených pozorovacích zařízení je snížen."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Při úplném vycvičení zvyšuje {greenBright_Start}dohled{greenBright_End} o %(circularVisionRadius)s&zwnbsp; a snižuje {greenBright_Start}postih poškozených pozorovacích zařízení{greenBright_End} o %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Průzkum"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Zvyšuje dohled, zejména pokud jsou poškozena pozorovací zařízení."
+
+msgid "commander_emergency/alt/description"
+msgstr "Při opětovném obdržení poškození od nepřítele se efekt nesčítá. Bonus efektivity posádky zlepšuje efektivitu člena posádky v boji. Tento parametr lze dál zvýšit namontováním vybavení nebo spotřebních doplňků s podobným efektem nebo použitím směrnice „Čištění ventilace“. Tento parametr mohou zvýšit také skupinová schopnost „Bratři ve zbrani“ a schopnosti radisty „Bok po boku“ a „Odborník na komunikaci“."
+
+msgid "commander_emergency/alt/info"
+msgstr "Schopnost se situačním účinkem se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje. Situační efekt je aktivován v případě, že jsou v bitvě splněny určité podmínky."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "{yellow_Start}Bonus efektivity posádky{yellow_End} bude po dobu 15 s po obdržení poškození od nepřítele zvýšen o %(crewLevelIncrease)s."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Bonus efektivity posádky je zvýšen."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Při úplném vycvičení bude {yellow_Start}bonus efektivity posádky{yellow_End} po dobu 15 s po obdržení poškození od nepřítele zvýšen o %(crewLevelIncrease)s."
+
+msgid "commander_emergency/name"
+msgstr "Pohotovost"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Bonus efektivity posádky je zvýšen."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Upozornění na palbu nepřátelského dělostřelectva se aktivuje v okamžiku výstřelu, ale s určitým zpožděním.\n\nSchopnost lze vylepšit směrnicí „Zvýšená ostražitost“."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Schopnost se situačním účinkem se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje. Situační efekt je aktivován v případě, že jsou v bitvě splněny určité podmínky."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "{yellow_Start}Upozornění na palbu nepřátelského dělostřelectva{yellow_End} a na směr výstřelu bude aktivováno se zpožděním %(artNotificationDelayFactor)s. {greenBright_Start}Negativní efekt ochromení{greenBright_End} je snížen o %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Pří úplném vycvičení upozorňuje se %(artNotificationDelayFactor)s {yellow_Start}zpožděním na palbu nepřátelského dělostřelectva{yellow_End} a identifikuje směr výstřelu. Snižuje {greenBright_Start}negativní efekt ochromení{greenBright_End} o %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Zvuková detekce"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Upozorňuje na palbu nepřátelského dělostřelectva."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Bonus k efektivitě posádky zlepšuje efektivitu člena posádky v bitvě.\n\nTento parametr lze dále zvýšit namontováním vybavení nebo spotřebních doplňků s podobným efektem, nebo použitím směrnice „Čištění ventilace“. Tento parametr mohou také zvýšit různé další schopnosti posádky."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Schopnost se situačním efektem se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje. Situační efekt je spuštěn, když jsou v bitvě splněny určité podmínky."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "Dokud má nepřátelský tým v bitvě alespoň o tři vozidla více než váš tým, {yellow_Start}bonus efektivity posádky{yellow_End} se zvýší o %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Bonus efektivity posádky je zvýšen (převaha nepřítele)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Při plném vycvičení o %(crewLevelIncrease)s zvyšuje {yellow_Start}bonus efektivity posádky{yellow_End}, dokud má nepřátelský tým v bitvě alespoň o tři vozidla více než váš tým&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Zpátky ani krok"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Zvyšuje bonus efektivity posádky"
+
+msgid "commander_practical/alt/description"
+msgstr "Schopnost funguje pro všechny typy namontovaných spotřebních doplňků na vašem vozidle.\n\nJejí efekt lze dále zvýšit použitím směrnice „Důkladná příprava“."
+
+msgid "commander_practical/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}Doba obnovení spotřebního doplňku{greenBright_End} je snížena o %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Při úplném vycvičení snižuje {greenBright_Start}čas obnovení spotřebního doplňku{greenBright_End} o %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Praktičnost"
+
+msgid "commander_practical/shortDescription"
+msgstr "Snižuje čas obnovení spotřebního doplňku."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Když je velitel zraněn, není „Šestý smysl“ aktivní. Dobu jeho aktivace lze zkrátit pomocí specializace radisty „Zachycení signálu“."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Je to speciální prvek velitele, který nevyžaduje vycvičení a je pro velitele dostupný od začátku."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Umožňuje veliteli určit, zda bylo vozidlo odhaleno nepřítelem. Aktivuje se %(delay)s po odhalení vašeho vozidla."
+
+msgid "commander_sixthSense/name"
+msgstr "Šestý smysl"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Umožňuje veliteli zjistit, zda bylo jeho vozidlo odhaleno nepřítelem."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Bonus efektivity posádky zlepšuje efektivitu člena posádky v bitvě.\n\nTento parametr lze dále zvýšit namontováním vybavení nebo spotřebních doplňků s podobným efektem, nebo použitím směrnice „Čištění ventilace“. Tento parametr mohou také zvýšit různé další schopnosti posádky."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Schopnost se situačním efektem se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje. Situační efekt je spuštěn, když jsou v bitvě splněny určité podmínky."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "Po použití lékárničky bude na 15&nbsp; s zvýšen {yellow_Start}bonus efektivity posádky{yellow_End} o %(crewLevelIncrease)s. Umožňuje použití lékárničky, i když nejsou zranění žádní členové posádky&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Bonus efektivity posádky je zvýšen (byla použita lékárnička)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Při plném vycvičení zvyšuje po použití lékárničky na 15 s {yellow_Start}bonus k efektivitě posádky{yellow_End} o %(crewLevelIncrease)s. Umožňuje použití lékárničky, i když nejsou zranění žádní členové posádky&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Ve střehu"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Zvyšuje bonus efektivity posádky"
+
+msgid "commander_tutor/alt/description"
+msgstr "Zraněný velitel nemůže nahradit jiného člena posádky. Bonus je aplikován pouze na výchozí množství ZK posádky získaných v bitvě.\n\nDalší ZK posádky lze získat použitím knih posádky nebo zkonvertováním volných ZK na ZK posádky."
+
+msgid "commander_tutor/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Počet získaných {greenBright_Start}ZK{greenBright_End} je pro všechny členy posádky zvýšen o %(xpBonusFactorPerLevel)s. Velitel může {greenBright_Start}nahradit vyřazené členy posádky{greenBright_End} s %(woundedCrewEfficiency)s efektivitou."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Vyřazený člen posádky je nahrazen velitelem."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Při úplném vycvičení bude počet získaných {greenBright_Start}ZK{greenBright_End} pro všechny členy posádky zvýšen o %(xpBonusFactorPerLevel)s. Umožňuje veliteli {greenBright_Start}nahradit vyřazené členy posádky{greenBright_End} s %(woundedCrewEfficiency)s efektivitou."
+
+msgid "commander_tutor/name"
+msgstr "Profesor"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Vyřazený člen posádky je nahrazen velitelem."
+
+msgid "commander_universalist/alt/description"
+msgstr "Velitel může nahradit pouze hlavní kvalifikaci vyřazeného člena posádky. Efekt nahrazení klesá s dalším zraněným členem posádky."
+
+msgid "commander_universalist/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 %. Její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Velitel může {greenBright_Start}nahradit vyřazené{greenBright_End} členy posádky s efektivitou %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Velitel provádí úlohu vyřazeného člena posádky."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Při úplném vycvičení umožňuje veliteli {greenBright_Start}nahradit vyřazené{greenBright_End} členy posádky s efektivitou %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/name"
+msgstr "Všeuměl"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Umožňuje veliteli nahradit vyřazené členy posádky."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Snižuje postih k obratnosti a zrychlení vozidla při jízdě na středně měkkém terénu. Výrazně snižuje postihy při jízdě na měkkém terénu a dostává je až na úroveň srovnatelnou se středně měkkým terénem.\nObratnost na středně měkkém a měkkém terénu nemůže přesáhnout obratnost na tvrdém terénu."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}Ztráta rychlosti na středně měkkém terénu{greenBright_End} je snížena o %(mediumGroundFactor)s&zwnbsp;, {greenBright_Start}ztráta rychlosti na měkkém terénu{greenBright_End} je snížena na %(softGroundFactor)s výsledné hodnoty pro středně měkký terén."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Při úplném vycvičení snižuje {greenBright_Start}ztrátu rychlosti na středně měkkém terénu{greenBright_End} o %(mediumGroundFactor)s&zwnbsp;, snižuje {greenBright_Start}ztrátu rychlosti na měkkém terénu{greenBright_End} na %(softGroundFactor)s výsledné hodnoty pro středně měkký terén."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Král bažin"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Bonus k efektivitě posádky zlepšuje efektivitu člena posádky v bitvě.\n\nTento parametr lze dále zvýšit namontováním vybavení nebo spotřebních doplňků s podobným efektem, nebo použitím směrnice „Čištění ventilace“. Tento parametr mohou také zvýšit různé další schopnosti posádky."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Schopnost se situačním efektem se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje. Situační efekt je spuštěn, když jsou v bitvě splněny určité podmínky."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "{yellow_Start}Bonus efektivity posádky{yellow_End} bude zvýšen o %(crewLevelIncrease)s, pokud výše poškození, které zablokujete, překročí výchozí počet bodů výdrže vašeho vozidla."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Bonus efektivity posádky se zvýšil (byl zablokován dostatek poškození)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Při úplném vycvičení zvyšuje {yellow_Start}bonus efektivity posádky{yellow_End} o %(crewLevelIncrease)s, pokud výše zablokovaného poškození způsobeného překročí výchozí počet bodů výdrže vašeho vozidla."
+
+msgid "driver_bulletproof/name"
+msgstr "Neprůstřelný"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Maximální rychlost vašeho vozidla lze dále navýšit a postih poškozeného motoru dále snížit namontováním vybavení s podobným efektem."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "{greenBright_Start}Maximální rychlost jízdy vpřed{greenBright_End} a {greenBright_Start}couvání{greenBright_End} vašeho vozidla je zvýšena o %(vehicleForwardMaxSpeed)s. {greenBright_Start}Postih poškozeného motoru{greenBright_End} je snížen o %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Postih poškozeného motoru je snížen."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Při úplném vycvičení zvyšuje {greenBright_Start}maximální rychlost jízdy vpřed{greenBright_End} a {greenBright_Start}couvání{greenBright_End} vašeho vozidla o %(vehicleForwardMaxSpeed)s. Snižuje {greenBright_Start}postih poškozeného motoru{greenBright_End} o %(vehPenaltyForDamagedEngine)s&zwnbsp;"
+
+msgid "driver_motorExpert/name"
+msgstr "Inženýr"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Postih poškozeného motoru je snížen."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Tato schopnost nefunguje, pokud dojde ke srážce dvou spojeneckých vozidel.\n\nPoškození nárazem způsobené vašemu vozidlu lze dále snížit namontováním vybavení s podobným efektem."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}Poškození nárazem způsobené nepřátelským vozidlům{greenBright_End} je zvýšeno o %(damageEnemiesByRamming)s&zwnbsp;. {greenBright_Start}Poškození vašeho vozidla nárazem{greenBright_End} je sníženo o %(vehicleRamDamageResistance)s&zwnbsp; a {greenBright_Start}poškození vašeho podvozku je sníženo{greenBright_End} o %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Při úplném vycvičení zvyšuje {greenBright_Start}poškození nárazem způsobené nepřátelským vozidlům{greenBright_End} o %(damageEnemiesByRamming)s&zwnbsp;. Snižuje {greenBright_Start}poškození vašeho vozidla nárazem{greenBright_End} o %(vehicleRamDamageResistance)s&zwnbsp; a {greenBright_Start}poškození vašeho podvozku{greenBright_End} o %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Kontrolovaný náraz"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Snižuje poškození vašeho vozidla způsobené nárazem a zvyšuje poškození nepřátelských vozidel způsobené nárazem."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Poškození obdržené HE granáty lze dále snížit namontováním vybavení s podobným efektem."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}Pohlcení poškození HE granátů{greenBright_End} je zvýšeno o %(vehicleHEShellDamageResistance)s&zwnbsp;.&nbsp;{greenBright_Start}Šance na zapálení motoru{greenBright_End} je snížena o %(vehicleFireChance)s a {greenBright_Start}poškození vašeho podvozku{greenBright_End} je sníženo o %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Při úplném vycvičení zvyšuje o %(vehicleHEShellDamageResistance)s&zwnbsp;{greenBright_Start}pohlcení poškození HE granátů{greenBright_End}. O %(vehicleFireChance)s snižuje {greenBright_Start}šanci na zapálení motoru{greenBright_End} a o %(suspensionDamageReduction)s&zwnbsp;snižuje {greenBright_Start}poškození vašeho podvozku{greenBright_End}."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Spolehlivé umístění"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Neovlivňuje přesnost stojícího vozidla a přesnost během otáčení korby.\n\nSchopnost lze vylepšit použitím směrnice „Spletitost převodovky“. Přesnost za pohybu lze dále zlepšit namontováním vybavení s podobným efektem nebo použitím směrnice „Mazání stabilizátoru“."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "{greenBright_Start}Rozptyl děla{greenBright_End} při palbě za pohybu je snížen o %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Při úplném vycvičení snižuje {greenBright_Start}rozptyl děla{greenBright_End} při palbě za pohybu o %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Klidná jízda"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Zlepšuje přesnost střelby za pohybu."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Tato schopnost ovlivňuje ve vzdálenosti do 50 m od spojeneckého vozidla rychlost oprav podvozku z červeného do žlutého stavu."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Schopnost se situačním efektem se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje. Situační efekt je spuštěn, když jsou v bitvě splněny určité podmínky."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "Ve vzdálenosti menší než 50 m od spojeneckého vozidla se {yellow_Start}rychlost oprav podvozku{yellow_End} zvýší o %(suspensionRepairSpeed)s"
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Rychlost oprav podvozku je zvýšena (v blízkosti je spojenec)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Při úplném vycvičení ve vzdálenosti menší než 50 m od spojeneckého vozidla o %(suspensionRepairSpeed)s zvyšuje {yellow_Start}rychlost oprav podvozku{yellow_End}."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Polní podpora"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Odolnost vozidla proti požáru lze dále zlepšit namontováním vybavení nebo spotřebních doplňků s podobnými efekty. Schopnost „Hašení“ v případě požáru urychlí jeho uhašení."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 %. Její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "Snížena {greenBright_Start}pravděpodobnost vznícení motoru{greenBright_End} o %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Při úplném vycvičení snižuje {greenBright_Start}pravděpodobnost vznícení motoru{greenBright_End} o %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Preventivní údržba"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Snižuje pravděpodobnost vznícení motoru."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Rychlost otáčení korby lze dále zvýšit namontováním vybavení nebo spotřebními doplňky s podobným efektem."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}Rychlost otáčení korby{greenBright_End} je zvýšena o %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Při úplném vycvičení zvyšuje {greenBright_Start}rychlost otáčení korby{greenBright_End} o %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Profík"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Zvyšuje rychlost otáčení korby."
+
+msgid "fireFighting/alt/description"
+msgstr "Tato schopnost ovlivňuje poškození způsobené požárem a dobu jeho trvání.\n\nPokud tuto schopnost mají dva radisté, je aplikována průměrná hodnota úrovně jejího vycvičení.\n\nSchopnost lze zlepšit pomocí směrnice „Zkušení hasiči“."
+
+msgid "fireFighting/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}Rychlost hašení požáru{greenBright_End} je zvýšena o %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Pří úplném vycvičení zvyšuje {greenBright_Start}rychlost hašení požáru{greenBright_End} o %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Hašení"
+
+msgid "fireFighting/shortDescription"
+msgstr "Zrychluje hašení požáru."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Ve výchozím nastavení je rozsah potenciálního poškození a průbojnosti ±25 % základních hodnot. Jestliže například hypotetický granát při zasažení cíle probíjí až 100 mm pancíře a způsobuje 100 bodů poškození, může se skutečná průbojnost granátu pohybovat v rozmezí od 75 do 125 mm a skutečné poškození od 75 do 125 bodů. Snížením tohoto modifikátoru dosáhnete předvídatelnějších výsledků palby.\n\nPokud mají tuto schopnost dva střelci, je aplikována průměrná hodnota úrovně jejího vycvičení."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Rozsah {greenBright_Start}potenciálního poškození{greenBright_End} a {greenBright_Start}potenciální průbojnosti{greenBright_End} je snížen o {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s.{greenBright_Start} Rozptyl děla{greenBright_End} je snížen o %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Při úplném vycvičení snižuje rozsah {greenBright_Start}potenciálního poškození{greenBright_End} a {greenBright_Start}potenciální průbojnosti{greenBright_End} o {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. Snižuje {greenBright_Start}rozptyl děla{greenBright_End} o %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Zbrojíř"
+
+msgid "gunner_focus/alt/description"
+msgstr "Efekt se aktivuje 3 sekundy po zastavení vozidla a vynuluje se při pohybu.\n\nPokud mají tuto schopnost dva střelci, je aplikována průměrná hodnota úrovně jejího vycvičení."
+
+msgid "gunner_focus/alt/info"
+msgstr "Schopnost se situačním účinkem se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje. Situační efekt je aktivován v případě, že jsou v bitvě splněny určité podmínky."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "{yellow_Start}Rozptyl děla{yellow_End} stojícího vozidla bude snížen o %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Rozptyl děla je snížen."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Při úplném vycvičení snižuje {yellow_Start}rozptyl děla{yellow_End} stojícího vozidla o %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Koncentrace"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Snižuje rozptyl děla stojícího vozidla."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Rozptyl děla a rychlost zaměření lze dále vylepšit vycvičením schopností posádky nebo montáží vybavení s podobným efektem.\n\nPokud mají tuto schopnost dva střelci, je aplikována průměrná hodnota úrovně jejího vycvičení."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Schopnost se situačním efektem se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje. Situační efekt je spuštěn, když jsou v bitvě splněny určité podmínky."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "Pokud se v okruhu 300 m nevyskytují žádná spojenecká vozidla, {yellow_Start}rozptyl děla{yellow_End} bude snížen o %(vehicleGunAimSpeed)s a {yellow_Start}rychlost zaměření{yellow_End} bude zvýšena o %(vehicleGunAimSpeed)s."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Rozptyl děla a rychlost zaměření jsou zlepšeny (žádní spojenci v okolí)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Při úplném vycvičení snižuje o %(vehicleGunAimSpeed)s {yellow_Start}rozptyl děla{yellow_End} a zvyšuje {yellow_Start}rychlost zaměření{yellow_End}, pokud se v okruhu 300 m nevyskytují žádná spojenecká vozidla."
+
+msgid "gunner_loneWolf/name"
+msgstr "Osamělý vlk"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Rozptyl děla je snížen. Rychlost zaměření je zvýšena."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Výchozí hodnota maximální průbojnosti je +25 % oproti základní hodnotě. Například pokud granát probije pancíř o tloušťce až 100 mm, může být maximální možná hodnota průbojnosti pro tento jediný výstřel po zásahu cíle 125 mm. Zvýšení tohoto modifikátoru vede k účinnějším výsledkům probití.\n\nPokud mají tuto schopnost dva střelci, je aplikována průměrná hodnota úrovně jejího vycvičení."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Schopnost se situačním efektem se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje. Situační efekt je spuštěn, když jsou v bitvě splněny určité podmínky."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "Při palbě na nepřátelská vozidla, která se nachází méně než 50 m daleko, se {yellow_Start}maximální potenciální průbojnost{yellow_End} vašich granátů zvýší o %(piercingHEShellsDistributionUpperBound)s."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Při plném vycvičení zvyšuje při palbě na nepřátelská vozidla, která se nachází méně než 50 m daleko, o %(piercingHEShellsDistributionUpperBound)s {yellow_Start}maximální potenciální průbojnost{yellow_End} vašich granátů."
+
+msgid "gunner_pointBlast/name"
+msgstr "Zblízka"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Zvyšuje maximální potenciální průbojnost vašich granátů"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Pokud mají tuto schopnost dva střelci, je aplikována průměrná hodnota úrovně jejího vycvičení.\n\nRychlost zaměření lze dále vylepšit vycvičením schopnosti velitele „Koordinace“ nebo namontováním vybavení s podobným efektem.\n\nRychlost otáčení věže lze dále zvýšit namontováním vybavení nebo spotřebních doplňků s podobným efektem."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}Rychlost zaměření{greenBright_End} a {greenBright_Start}rychlost otáčení věže{greenBright_End} je zvýšena o %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Při úplném vycvičení zvyšuje {greenBright_Start}rychlost zaměřování{greenBright_End} a {greenBright_Start}rychlost otáčení věže{greenBright_End} o %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Rychlé zaměření"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Rychlost zaměřování je zvýšena."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Zjišťuje kriticky poškozené moduly zaměřených vozidel v dohledu střelce, a to jak v režimech nepřímé, tak přímé palby.\nOblast dohledu střelce je definována ±10° sektorem (celkem 20°) před dělem vozidla a jeho dohledem.\nPokud mají tuto schopnost dva střelci, je aplikována průměrná hodnota úrovně jejího vycvičení.\nSchopnost lze dále vylepšit směrnicí „Soustředění na cíl“. Použití Vylepšené rádiové sady dále prodlužuje dobu, po kterou je nepřátelské vozidlo viditelné."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "{greenBright_Start}Doba,{greenBright_End}než už nebude nepřátelské {greenBright_Start}vozidlo viditelné{greenBright_End} v oblasti dohledu střelce, je prodloužena o %(vehicleEnemySpottingTime)s. Doba, než budou {yellow_Start}zjištěny kriticky poškozené moduly,{yellow_End} je zkrácena o %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Pří úplném vycvičení prodlužuje {greenBright_Start}dobu,{greenBright_End} než už nebude nepřátelské {greenBright_Start}vozidlo viditelné{greenBright_End} v oblasti dohledu střelce o %(vehicleEnemySpottingTime)s. S %(damageMonitoringDelay)s zpožděním umožňuje {yellow_Start}zjistit kriticky poškozené moduly{yellow_End}."
+
+msgid "gunner_rancorous/name"
+msgstr "Primární cíl"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Prodlužuje dobu před tím, než už nebude nepřátelské vozidlo viditelné v oblasti dohledu střelce. Umožňuje určení poškozených modulů."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Pokud mají tuto schopnost dva střelci, je aplikována průměrná hodnota úrovně jejího vycvičení.\n\nSchopnost lze dále vylepšit směrnicí „Pevná ruka“. Rozptyl při otáčení věže lze dále snížit namontováním vybavení s podobným efektem nebo použitím směrnice „Mazání stabilizátoru“."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "{greenBright_Start}Rozptyl děla{greenBright_End} během otáčení věže je snížen o %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Při úplném vycvičení snižuje {greenBright_Start}rozptyl děla{greenBright_End} při otáčení věže o %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Jemné míření"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Snižuje rozptyl při otáčení věže."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Efekt funguje pro všechny typy granátů mimo vozidel s automatickými kanóny.\n\nPokud mají tuto schopnost dva střelci, je aplikována průměrná její průměrná úroveň výcviku."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "{greenBright_Start}Šance na kritické poškození{greenBright_End} {greenBright_Start}modulů nepřátelského vozidla{greenBright_End} a na zranění {greenBright_Start}členů posádky{greenBright_End} nepřítele pro všechny typy granátů je zvýšena o %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Při úplném vycvičení zvyšuje {greenBright_Start}šanci na kritické poškození{greenBright_End} {greenBright_Start}modulů nepřátelského vozidla{greenBright_End} a na zranění {greenBright_Start}členů posádky{greenBright_End} nepřítele pro všechny typy granátů o %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Kanonýr"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Ve výchozím nastavení je rozsah minimálního poškození a průbojnosti -25 % od základních hodnot. Jestliže například hypotetický granát při zasažení cíle probíjí až 100 mm pancíře a způsobuje až 100 bodů poškození, může být minimální možná hodnota průbojnosti granátu 75 mm a minimální hodnota poškození 75 bodů. Zvýšení tohoto modifikátoru vede k efektivnějším výsledkům palby.\n\nPokud mají tuto schopnost dva nabíječi, je aplikována průměrná hodnota úrovně jejího vycvičení."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "{greenBright_Start}Minimální potenciální poškození{greenBright_End} a {greenBright_Start}minimální potenciální průbojnost{greenBright_End} jsou zvýšeny o %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Při úplném vycvičení zvyšuje {greenBright_Start}minimální potenciální poškození{greenBright_End} a {greenBright_Start}minimální potenciální průbojnost{greenBright_End} o %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Ladění munice"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Zvyšuje průměrné poškození a hodnoty průbojnosti."
+
+msgid "loader_desperado/alt/description"
+msgstr "Pokud mají tuto schopnost dva nabíječi, je aplikována průměrná hodnota úrovně jejího vycvičení.\n\nDobu nabíjení děla lze dále snížit vycvičením schopnosti nabíječe „Boj zblízka“ nebo namontováním vybavení s podobným efektem. Použití směrnice „Uspořádaná bedna s municí“ efekt zlepšuje."
+
+msgid "loader_desperado/alt/info"
+msgstr "Schopnost se situačním účinkem se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje. Situační efekt je aktivován v případě, že jsou v bitvě splněny určité podmínky."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "{yellow_Start}Doba nabíjení děla{yellow_End} bude snížena o %(vehicleGunReloadTime)s, pokud vašemu vozidlu zbývá méně než 25 % bodů výdrže."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Doba nabíjení děla je snížena (nízká odolnost vozidla)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Při úplném vycvičení snižuje {yellow_Start}dobu nabíjení děla{yellow_End} o %(vehicleGunReloadTime)s, pokud vašemu vozidlu zbývá méně než 25 % bodů výdrže."
+
+msgid "loader_desperado/name"
+msgstr "Zoufalství"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Zrychluje nabíjení děla, když vozidlu zbývá méně než 25 % bodů výdrže."
+
+msgid "loader_intuition/alt/description"
+msgstr "Pro aktivaci schopnosti musí být dělo, obě děla nebo zásobník plně nabity. Minimální doba změny typu granátů pro standardní děla je 1 s; pro dvouhlavňová děla a děla se zásobníkem pak 2,5 s.\n\nPokud mají tuto schopnost dva nabíječi, je aplikována průměrná hodnota úrovně jejího vycvičení."
+
+msgid "loader_intuition/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "{greenBright_Start}Doba změny typu granátů{greenBright_End} v nabitém děle je snížena o %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Doba změny typu granátů v nabitém děle je snížena.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Při úplném vycvičení snižuje {greenBright_Start}dobu změny typu granátů{greenBright_End} v nabitém děle o %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Intuice"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Výrazně zvyšuje rychlost změny typu granátu v nabitém děle."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Tato schopnost zkracuje dobu nabíjení pouze u děl se zásobníkem a nemá vliv na jiné typy děl.\n\nPokud mají tuto schopnost dva nabíječi, je aplikována průměrná hodnota úrovně jejího vycvičení."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "{greenBright_Start}Doba nabíjení{greenBright_End} zásobníku je snížena o %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Při plném vycvičení o %(magazineGunReloadSpeed)s snižuje {greenBright_Start}dobu nabíjení{greenBright_End} zásobníku."
+
+msgid "loader_magMastery/name"
+msgstr "Zručnost se zásobníkem"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Snižuje dobu nabíjení vašich zásobníků"
+
+msgid "loader_melee/alt/description"
+msgstr "Pokud mají tuto schopnost dva nabíječi, je aplikována průměrná hodnota úrovně jejího vycvičení.\n\nDobu nabíjení děla lze dále snížit vycvičením schopnosti nabíječe „Zoufalství“ nebo namontováním vybavení s podobným efektem. Použití směrnice „Uspořádaná bedna s municí“ efekt zlepšuje."
+
+msgid "loader_melee/alt/info"
+msgstr "Schopnost se situačním účinkem se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje. Situační efekt je aktivován v případě, že jsou v bitvě splněny určité podmínky."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "Na vzdálenost menší než 50 m od nepřátelského vozidla bude {yellow_Start}doba nabíjení děla{yellow_End} snížena o %(vehicleGunReloadTime)s."
+
+msgid "loader_melee/hudDescription"
+msgstr "Doba nabíjení děla je snížena (nepřítel je blízko).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Při úplném vycvičení snižuje {yellow_Start}dobu nabíjení děla{yellow_End} o %(vehicleGunReloadTime)s v případě, že je vzdálenost k nepřátelskému vozidlu menší než 50 m."
+
+msgid "loader_melee/name"
+msgstr "Boj zblízka"
+
+msgid "loader_melee/shortDescription"
+msgstr "Urychluje nabíjení děla při boji zblízka."
+
+msgid "loader_pedant/alt/description"
+msgstr "Zraněný nabíječ neovlivňuje efektivitu schopnosti.\n\nPokud mají tuto schopnost dva nabíječi, je aplikována průměrná hodnota úrovně jejího vycvičení.\n\nSchopnost lze vylepšit použitím směrnice „Organizér granátů“. Výdrž bedny s municí lze dále zvýšit namontováním vybavení s podobným efektem."
+
+msgid "loader_pedant/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}Výdrž bedny s municí{greenBright_End} je zvýšena o %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Při úplném vycvičení zvyšuje {greenBright_Start}výdrž bedny s municí{greenBright_End} o %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Bezpečné ukládání"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Zvyšuje výdrž bedny s municí."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Efekt funguje pro všechny typy granátů.\n\nZraněný nabíječ neovlivňuje efektivitu schopnosti.\n\nPokud mají tuto schopnost dva nabíječi, je aplikována průměrná hodnota úrovně jejího vycvičení."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}Rychlost granátu{greenBright_End} je zvýšena o %(shellVelocity)s&zwnbsp;"
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Při úplném vycvičení zvyšuje {greenBright_Start}rychlost granátu{greenBright_End} o %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Perfektní granát"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Tato schopnost nemá žádný vliv na zásobník nebo automatické kanóny a nelze ji kombinovat s dvouhlavňovými děly.\n\nU děl se selektivním systémem nabíjení platí, že pokud jsou vystřeleny obě hlavně a žádná z nich nezpůsobí poškození, zkrácení doby nabíjení děla se vztahuje na obě hlavně.\n\nPokud mají tuto schopnost dva nabíječi, je aplikována průměrná hodnota úrovně jejího vycvičení.\n\nDobu nabíjení děla lze dále snížit vycvičením schopností nabíječe „Zoufalství“ nebo „Boj zblízka“ nebo namontováním vybavení s podobným efektem. Použití směrnice „Uspořádaná bedna s municí“ efekt zlepšuje."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Schopnost se situačním efektem se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje. Situační efekt je spuštěn, když jsou v bitvě splněny určité podmínky."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "Pokud předchozí výstřel nepoškodil nepřátelské vozidlo, {yellow_Start}doba nabíjení děla{yellow_End} pro další granát bude snížena o %(vehicleGunReloadTime)s."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Doba nabíjení je snížena (minutý výstřel)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Při plném vycvičení o %(vehicleGunReloadTime)ssnižuje {yellow_Start}dobu nabíjení děla{yellow_End}, pokud předchozí výstřel nepoškodil nepřátelské vozidlo."
+
+msgid "loader_secondChance/name"
+msgstr "Druhá šance"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Snižuje dobu nabíjení děla"
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Bratrstvo neohrožených"
+
+msgid "perkRole/commander"
+msgstr "Velitel"
+
+msgid "perkRole/common"
+msgstr "Skupinová"
+
+msgid "perkRole/driver"
+msgstr "Řidič"
+
+msgid "perkRole/gunner"
+msgstr "Střelec"
+
+msgid "perkRole/loader"
+msgstr "Nabíječ"
+
+msgid "perkRole/radioman"
+msgstr "Radista"
+
+msgid "popularity/tooltip/common"
+msgstr "všech hráčů"
+
+msgid "popularity/tooltip/header"
+msgstr "Pro toto vozidlo dle preferencí"
+
+msgid "popularity/tooltip/legendary"
+msgstr "hráčů na legendární úrovni hodnocení WTR"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Pokud mají schopnost vycvičenou dva radisté, je aplikována průměrná hodnota úrovně jejího vycvičení.\n\nEfekt lze dále vylepšit schopností velitele „Zvuková detekce“."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Pokaždé, když je posádka vozidla ochromena, bude {greenBright_Start}negativní efekt ochromení snížen{greenBright_End} o %(stunResistanceEffectFactor)s, maximálně však o 30 %."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Při úplném vycvičení pokaždé, když je posádka vozidla ochromena, o %(stunResistanceEffectFactor)s&nbsp;snižuje {greenBright_Start}negativní efekt ochromení{greenBright_End}, maximálně však o 30 %."
+
+msgid "radioman_battleTempered/name"
+msgstr "Zocelený bojem"
+
+msgid "radioman_expert/alt/description"
+msgstr "Bonus efektivity posádky zlepšuje efektivitu člena posádky v boji. Pokud mají tuto schopnost dva radisté, je aplikována průměrná hodnota úrovně jejího vycvičení. Tento parametr lze dále zlepšit namontováním vybavení nebo spotřebních doplňků s podobným efektem nebo použitím směrnice „Čištění ventilace“. Tento parametr mohou zvýšit také Skupinová schopnost „Bratři ve zbrani“ a schopnost velitele „Pohotovost“ nebo schopnost radisty „Bok po boku“."
+
+msgid "radioman_expert/alt/info"
+msgstr "Schopnost se situačním účinkem se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje. Situační efekt je aktivován v případě, že jsou v bitvě splněny určité podmínky."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "{yellow_Start}Bonus efektivity posádky{yellow_End} bude zvýšen o %(crewLevelIncrease)s, pokud výše poškození způsobeného vaší asistencí překročí výchozí počet bodů výdrže vašeho vozidla&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Bonus efektivity posádky se zvýšil (byl odeslán dostatek dat o průzkumu)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Při úplném vycvičení zvyšuje {yellow_Start}bonus efektivity posádky{yellow_End} o %(crewLevelIncrease)s, pokud výše poškození způsobeného vaší asistencí překročí výchozí počet bodů výdrže vašeho vozidla&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Odborník na komunikaci"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Zlepšený výkon posádky."
+
+msgid "radioman_finder/alt/description"
+msgstr "Pokud mají schopnost vycvičenou dva radisté, je aplikována průměrná hodnota úrovně jejího vycvičení.\n\nDohled lze dále vylepšit vycvičením specializace „Ostříží zrak“ nebo namontováním vybavení s podobným efektem. Použití směrnice „Optická kalibrace“ efekt zlepšuje."
+
+msgid "radioman_finder/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}Dohled{greenBright_End} je zvýšen o %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Při úplném vycvičení zvyšuje {greenBright_Start}dohled{greenBright_End} o %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Prostorová představivost"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Zvyšuje dohled."
+
+msgid "radioman_interference/alt/description"
+msgstr "Pokud mají schopnost vycvičenou dva radisté, je aplikována průměrná hodnota úrovně jejího vycvičení.\n\nDobu, po kterou zůstane vaše vozidlo odhaleno, lze dále snížit namontováním vybavení s podobným efektem."
+
+msgid "radioman_interference/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "{greenBright_Start}Doba, po kterou vaše vozidlo zůstane odhaleno{greenBright_End} nepřítelem, je snížena o %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Při úplném vycvičení snižuje {greenBright_Start}dobu, po kterou vaše vozidlo zůstane odhaleno{greenBright_End} nepřítelem, o %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Rušení"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Snižuje dobu, po kterou je vaše vozidlo viditelné pro nepřítele."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Pokud schopnost mají dva radisté, je aplikována pouze vyšší hodnota. Efekt je aktivní, pouze pokud není radista zraněn, nebo vozidlo není zničeno.\n\nSchopnost lze dále vylepšit směrnicí „Povinnost na prvním místě“."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Schopnost se situačním efektem se stává aktivní po vycvičení na alespoň 1 %. Její efektivita se s dalším výcvikem zlepšuje. Situační efekt je spuštěn, pokud jsou v bitvě splněny určité podmínky."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Radista může po zničení vašeho vozidla dalších %(radiomanDurationPerLevel)s {yellow_Start}hlásit pozice nepřátel{yellow_End}."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Hlášení pozic."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Při úplném vycvičení umožňuje po zničení vašeho vozidla dalších %(radiomanDurationPerLevel)s {yellow_Start}hlásit pozice nepřátel{yellow_End}."
+
+msgid "radioman_lastEffort/name"
+msgstr "Volání po pomstě"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Po krátkou dobu po zničení vašeho vozidla hlásí pozice nepřítele."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Bonus efektivity posádky zlepšuje efektivitu člena posádky v boji. Pokud mají tuto schopnost dva radisté, je aplikována průměrná hodnota úrovně jejího vycvičení. Tento parametr lze dále zlepšit namontováním vybavení nebo spotřebních doplňků s podobným efektem nebo použitím směrnice „Čištění ventilace“. Tento parametr mohou zvýšit také skupinová schopnost „Bratři ve zbrani“ a schopnost velitele „Pohotovost“ nebo schopnost radisty „Odborník na komunikaci“."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Schopnost se situačním účinkem se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje. Situační efekt je aktivován v případě, že jsou v bitvě splněny určité podmínky."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "{yellow_Start}Bonus efektivity posádky{yellow_End} bude zvýšen o %(crewLevelIncrease)s na vzdálenost menší než 50 m od spojeneckého vozidla stejného typu&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Bonus efektivity posádky byl zvýšen (je blízko spojenecké vozidlo stejného typu)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Při úplném vycvičení zvyšuje {yellow_Start}bonus efektivity posádky{yellow_End} o %(crewLevelIncrease)s na vzdálenost menší než 50 m od spojeneckého vozidla stejného typu&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Bok po boku"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Zlepšený výkon posádky."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Efekt zlepšuje prvek velitele „Šestý smysl“ urychlením jeho aktivace.\n\nPokud mají tuto schopnost dva radisté, je aplikována průměrná hodnota úrovně jejího vycvičení."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Schopnost se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "{greenBright_Start}Doba pro určení{greenBright_End}, zda {greenBright_Start}bylo vaše vozidlo odhaleno{greenBright_End} nepřítelem, je snížena o %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Při úplném vycvičení snižuje {greenBright_Start}dobu pro určení{greenBright_End}, zda {greenBright_Start}{greenBright_End}bylo vaše vozidlo odhaleno nepřítelem, o %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Zachycení signálu"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Tato schopnost se aktivuje, když vás schopnost „Šestý smysl“ upozorní, že vaše vozidlo bylo odhaleno.\n\nPokud mají schopnost vycvičenou dva radisté, je aplikována průměrná hodnota úrovně jejího vycvičení.\n\nDohled lze dále vylepšit vycvičením schopností „Ostříží zrak“ nebo „Prostorová představivost“ nebo montáží vybavení s podobným efektem. Použití směrnice „Optická kalibrace“ efekt zlepšuje."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Schopnost se situačním efektem se stává aktivní po vycvičení na alespoň 1 % a její efektivita se s dalším výcvikem zlepšuje. Situační efekt je spuštěn, když jsou v bitvě splněny určité podmínky."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "Po efektu „Šestý smysl“ se na 5 s zvýší {yellow_Start}dohled{yellow_End} o %(vehicleCircularVisionRadius)s."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Dohled se zvýšil."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Při úplném vycvičení se po efektu „Šestý smysl“ na 5 s o %(vehicleCircularVisionRadius)s zvyšuje {yellow_Start}dohled{yellow_End}."
+
+msgid "radioman_threatSearch/name"
+msgstr "Vyhledávání hrozeb"
+
+msgid "repair/alt/description"
+msgstr "Tato schopnost ovlivňuje rychlost oprav vnitřního a vnějšího modulu z „červeného“ na „žlutý“ stav.\n\nTento parametr lze dále zvýšit namontováním vybavení nebo spotřebních doplňků s podobným efektem."
+
+msgid "repair/alt/info"
+msgstr "Pro skupinové schopnosti je zohledněna průměrná úroveň výcviku u všech členů posádky. Stávají se aktivní po vycvičení na alespoň 1 % a jejich efektivita se s dalším výcvikem zvyšuje."
+
+msgid "repair/currentLvlDescription"
+msgstr "{greenBright_Start}Rychlost oprav{greenBright_End} poškozených modulů vozidla je zvýšena o %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Při úplném vycvičení pro všechny členy posádky zvyšuje {greenBright_Start}rychlost oprav{greenBright_End} poškozených modulů vozidla o %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Opravy"
+
+msgid "repair/shortDescription"
+msgstr "Zvyšují rychlost oprav poškozených modulů."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Bratrstvo neohrožených"
+
+msgid "sign/minus"
+msgstr "–"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Oblíbené"
+
+msgid "sorting/fallback"
+msgstr "Základní"
+
+msgid "sorting/legendary"
+msgstr "Legendární"
+
+msgid "sorting/title"
+msgstr "Seřazeno podle:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sOblíbené.%(whiteSpanish_Close)s Založené na současných trendech ve schopnostech všech hráčů World of Tanks"
+
+msgid "sorting/tooltip/header"
+msgstr "Výhoda WoT Plus"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Získejte přesné údaje o schopnosti posádky na základě milionů odehraných her a využijte každou bitvu na maximum."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendární.%(whiteSpanish_Close)s Založené na schopnostech aktuálně preferovaných hráči na legendární úrovni hodnocení WTR"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Řazení schopností je vypnuto"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Nejsou dostupná data"
+
+msgid "sorting/tooltip/title"
+msgstr "Posádkový pomocník"
+
+msgid "sorting/tooltip/types"
+msgstr "Řazení podle typu schopnosti"
+
+msgid "sorting/tooltip/warning"
+msgstr "Řazení schopností není dostupné"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Pro toto vozidlo nejsou dostupné kompletní údaje o schopnostech, bylo uplatněno výchozí řazení schopností."
+
+msgid "witches_brotherhood/name"
+msgstr "Slet čarodějnic"
+
+msgid "yha_brotherhood/name"
+msgstr "Bratrstvo zajíců"

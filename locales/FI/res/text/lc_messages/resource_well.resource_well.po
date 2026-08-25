@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Vaunu vastaanotettu"
+
+msgid "awardView/end"
+msgstr "TAPAHTUMA PÄÄTTYNYT"
+
+msgid "awardView/info"
+msgstr "Tyylin numero"
+
+msgid "awardView/toHangar"
+msgstr "Näytä tallissa"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) numeroidulla tyylillä"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "VAUNU VASTAANOTETTU"
+
+msgid "awardView/vehicleTitle"
+msgstr "VAUNU VASTAANOTETTU"
+
+msgid "commonTexts/aboutButton"
+msgstr "TAPAHTUMASTA"
+
+msgid "commonTexts/closeBtn"
+msgstr "SULJE"
+
+msgid "commonTexts/eventTitle"
+msgstr "RAKENNUSPAJA"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Peruuta"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Käytä"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Numeroidulla tyylillä varustettuja vaunuja ei ole jäljellä. Saat %(vehicleName)s vaunun ilman numeroa.\nOletko varma, että haluat käyttää resurssit?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "Saat %(vehicleName)s vaunun ilman numeroa"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Takaisin talliin"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Kaikki käytetyt resurssit palautetaan tilillesi pian."
+
+msgid "confirm/NoVehicles/title"
+msgstr "Voi ei, vaunuja ei ole jäljellä"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Peruuta"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Käytä"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Edistyminen käytön jälkeen: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Käytä resursseja?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Palauta resurssit"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Kaikki käytetyt resurssit palautetaan tilillesi ja kokoonpanosi edistyminen nollataan. Niin kauan kuin tapahtuma on aktiivinen voit käyttää uudelleen resursseja saadaksesi vaunun."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Palauta kaikki käytetyt resurssit?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Kaikki käytetyt resurssit palautetaan tilillesi ja kokoonpanosi edistyminen nollataan. %(vehicleName) vaunu valitaan ja voit käyttää resursseja sen saamiseen."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Palauta kaikki käytetyt resurssit ja valitse %(vehicleName) vaunu?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Vaunun valinta"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "Voit ostaa tapahtuman aikana molemmat vaunut."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "Tapahtuman aikana voit ostaa paketin, joka sisältää vaunun numeroidulla kolmiulotteisella tyylillä."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "%(styleTanksCount) ensimmäistä pelaajaa saavat vaunun numeroidulla kolmiulotteisella tyylillä.{{@ class $br}}{{/}}Sen jälkeen %(withoutStyleTanksCount) vaunua toimitetaan ilman numeroitua kolmiulotteista tyyliä."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "TAPAHTUMA PÄÄTTYNYT"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "VAUNUJA VASTAANOTETTU"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "VAUNU VASTAANOTETTU"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Vaunuja jäljellä"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Tämä vaunu on jo tallissasi"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Vaunu vastaanotettu"
+
+msgid "eventInfo/tanksOver"
+msgstr "EI ENÄÄ JÄLJELLÄ"
+
+msgid "eventInfo/top/styleText"
+msgstr "Numerolla"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Numeroituja vaunuja jäljellä"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "%(regularRewardVehiclesCount) vaunun toimitus tavanomaisella kokoonpanolla alkaa,\nkun numeroituja vaunuja ei ole enää jäljellä."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "Tavanomaisessa kokoonpanossa"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Vaunuja jäljellä"
+
+msgid "mainView/affirmative/button"
+msgstr "Selvä"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "Resurssien palauttamiseen"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Kerätyt resurssit:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Resursseja kerätty vaunuun:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Takaisin talliin"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Valitse resurssit"
+
+msgid "mainView/footer/description/text"
+msgstr "Kaikki kulutetut resurssit palautetaan, jos vaunuja ei ole jäljellä."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "Tilisi tyypillä ei voi osallistua tapahtumaan."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Et voi osallistua"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Voit ostaa molemmat vaunut, mutta voit käyttää resursseja kerrallaan vain yhteen niistä."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Valitse vaunu ja käytä vaaditut resurssit kootaksesi sen – mutta toimi nopeasti!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Kiirehdi käyttämään kokoonpanoon tarvittavat resurssit ja saat %(vehicleName) vaunun!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Kaikki käytetyt resurssit palautetaan tilillesi pian."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "Voi ei, vaunuja ei ole jäljellä"
+
+msgid "mainView/navbar/backBtn"
+msgstr "RAKENNUSPAJAAN"
+
+msgid "mainView/navbar/title"
+msgstr "RAKENNUSPAJA"
+
+msgid "mainView/preview/label"
+msgstr "Esikatsele"
+
+msgid "mainView/timer/lastUntil"
+msgstr "Asti"
+
+msgid "mainView/timer/leftTime"
+msgstr "Aikaa jäljellä:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Sulje"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Kulutetut resurssit"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Tietoja ei hetkellisesti ole saatavilla"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Ei vaunuja jäljellä"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Numeroituja vaunuja jäljellä: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Vaunuja jäljellä: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Yleiset"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Maksimiresurssit %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "Maksimi %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Kerätyt resurssit %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Piirustusten palaset"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Valuutat"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "RESURSSIEN KERÄÄMINEN"
+
+msgid "tankPreview/button"
+msgstr "Valitse resurssit"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "Tapahtuman aikana voit ostaa paketin, joka sisältää vaunun numeroidulla kolmiulotteisella tyylillä."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "%(topPlayers) ensimmäistä pelaajaa saavat vaunun numeroidulla kolmiulotteisella tyylillä.\nSen jälkeen %(basePlayers) vaunua toimitetaan ilman numeroitua kolmiulotteista tyyliä."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "Voit ostaa tapahtuman aikana molemmat vaunut."
+
+msgid "tankPreview/title"
+msgstr "Kerää ja käytä 100% vaadituista resursseista ja saat %(vehicleInfo) vaunun!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Voit nähdä käytetyt resurssit milloin hyvänsä ja tarvittaessa palauttaa ne tilillesi klikkaamalla \"Palauta resurssit\" -nappia.\nKokoonpanoprosessisi nollautuu, mutta voit käyttää uudelleen nämä tai muita resursseja saadaksesi vaunun."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Resurssien palauttaminen"
+
+msgid "tooltips/counter/error/text"
+msgstr "Tiedot eivät ole hetkellisesti saatavilla.\nTyöskentelemme korjataksemme ongelman."
+
+msgid "tooltips/counter/warning/text"
+msgstr "Numero näytetään viiveellä ja se saattaa olla eri kuin vaunujen todellinen määrä."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Käytä resursseja ja saat %(vehicleName1) ja %(vehicleName2) vaunut. Vaunuja on rajattu määrä."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Käytä resursseja ja saat %(vehicleName) vaunun numeroidulla kolmiulotteisella tyylillä. Vaunuja on rajattu määrä."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Tulee saataville %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s–%(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Saatavilla %(timer)s ajan"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Saatavilla: %(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "RAKENNUSPAJA"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Klikkaa saadaksesi lisätietoa tapahtumasta"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Valitse vaunu, jota varten käytät resursseja.\nJos resursseja on jo käytetty toiseen vaunuun, palautetaan ne tilillesi."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Aikaa jäljellä: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "Vaunun kokoamiseksi sinun tulee käyttää 100% vaadituista resursseista. Eri tyyppisten resurssien suhde voi muuttua."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "Kaikki kulutetut resurssit palautetaan, jos vaunuja ei ole jäljellä."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Valitut"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Käytetty"
+
+msgid "tooltips/progressbar/title"
+msgstr "RESURSSIEN KERÄÄMINEN"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "Resurssien käyttäminen ei väliaikaisesti ole saatavilla. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Yleiset ja kansalliset palaset."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Piirustusten palaset"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Myönnetään aktiivisista toimista taistelussa. Voidaan myös ostaa oikealla rahalla."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Valuutat"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Käytetty:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "Maksimimäärä, minkä tätä resurssia voi käyttää: %(maxAmount)d."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Olet kerännyt vaunun saamiseen vaaditun määrän resursseja. Voit poistaa yhden tyyppistä resurssia ja valita toisen."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Kerätyt resurssit"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "Tämä on ainutlaatuinen vaunu omalla numerollaan ja erityisillä visuaalisilla muokkauksilla."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "Numero näytetään tykin molemmilla puolilla ja rungon takaosassa. Sama numero löytyy vain yhdestä identtisestä vaunusta, eikä sitä toisteta koskaan muissa, ja niitä on rajoitettu määrä."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "Vaunusi muista erottavat piirteet voi piilottaa. Poista sen numeroitu kolmiulotteinen tyyli \"Ulkoasu\" -ruudulta."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Vaunu numerolla"

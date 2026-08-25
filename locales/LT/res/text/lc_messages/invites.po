@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: <language team name> <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sPeržiūrėti%(linkEndTag)s žaidėjo informaciją"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sPrašymas į klaną%(titleEndTag)s\nnuo %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Peržiūrėti prašymus"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sIšjungti%(linkEndTag)s pranešimus"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sPrašymų iš žaidėjų: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sPeržiūrėti%(linkEndTag)s klano informaciją"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sPakvietimas į klaną%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Peržiūrėti pakvietimus"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sKlanų pakvietimai: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "Žaidėjas priimtas į klaną."
+
+msgid "clans/state/app/declined"
+msgstr "Prašymas atmestas."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "Žaidėjui dar nesibaigė vienos dienos apribojimas po išėjimo iš klano."
+
+msgid "clans/state/invite/accepted"
+msgstr "Jūs buvote priimtas į klaną."
+
+msgid "clans/state/invite/declined"
+msgstr "Pakvietimas atmestas."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Vienos dienas apribojimas išėjus iš klano dar nepasibaigė."
+
+msgid "errors/creationNotAllowed"
+msgstr "Jūs neturite teisės kurti pakvietimus."
+
+msgid "errors/invalid"
+msgstr "Klaidingas kvietimas."
+
+msgid "errors/inviteNotSupported"
+msgstr "Dabar šio tipo pakvietimai negalimi. Pabandykite vėliau."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "Pakvietimo gavėjas įtraukė jus į juodąjį sąrašą."
+
+msgid "errors/selfinvite"
+msgstr "Negalite pakviesti savęs."
+
+msgid "errors/unknownuser"
+msgstr "Šis vartotojas neužsiregistravęs sistemoje."
+
+msgid "errors/useroffline"
+msgstr "Vartotojas nepasijungęs."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "Mašina garaže yra pažeista arba užblokuota. Išsirinkite kitą mašiną."
+
+msgid "friendship/note/approved"
+msgstr "Žaidėjas įtrauktas į draugus"
+
+msgid "friendship/note/canceled"
+msgstr "Prašymas atmestas"
+
+msgid "friendship/note/maxRoster"
+msgstr "Maksimalus skaičius kontaktų sąraše %(rosterMaxCount)s. Norėdami pridėti šį žaidėją, pirmiausia pašalinkite ką nors sąrašo."
+
+msgid "friendship/note/notConnected"
+msgstr "Nepavyksta prisijungti prie serverio. Prašome palaukti."
+
+msgid "friendship/note/process"
+msgstr "Laukiama serverio atsakymo"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sPrašymas draugauti%(titleEndTag)s\nnuo %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Priimti"
+
+msgid "gui/buttons/cancel"
+msgstr "Atšaukti"
+
+msgid "gui/buttons/reject"
+msgstr "Nepriimti"
+
+msgid "gui/buttons/send"
+msgstr "Siųsti"
+
+msgid "gui/labels/additionalText"
+msgstr "Papildomas pakvietimo tekstas:"
+
+msgid "gui/labels/inviteText"
+msgstr "Pakvietimo tekstas:"
+
+msgid "gui/labels/receiver"
+msgstr "Gavėjas:"
+
+msgid "gui/titles/barter"
+msgstr "Kvietimas prekiauti"
+
+msgid "gui/titles/clan"
+msgstr "Kvietimas į klaną"
+
+msgid "gui/titles/invite"
+msgstr "Pakvietimas"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Pakvietimai"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Priėmę pakvietimą, būsite automatiškai pašalinti iš taktinės formuotės ir perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Priėmę kvietimą, būsite automatiškai pašalinti iš taktinės formuotės ir perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "Priėmus pakvietimą būsite automatiškai pašalintas iš mūšių Globaliame Žemėlapyje ir perkeltas į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "Priėmę kvietimą, būsite automatiškai pašalinti iš taktinės formuotės ir perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Priėmę pakvietimą, būsite automatiškai pašalinti iš taktinės formuotės ir perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "Priėmę pakvietimą, būsite automatiškai pašalinti iš taktinės formuotės ir perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Priėmę kvietimą, jūs būsite automatiškai pašalinti iš komandinės treniruotės Fronto linijos režime ir perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "Priėmę pakvietimą, būsite automatiškai pašalinti iš taktinės formuotės ir perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Kai priimsite pakvietimą būsite pašalinti iš komandos ir perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "Priėmę pakvietimą, būsite automatiškai pašalinti iš būrio ir perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "Priėmę kvietimą, išeisite iš Tvirtovės mūšių ir būsite perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "Priėmus kvietimą, jūs išeisite iš Puolimo režimo ir būsite perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "Priėmę kvietimą, būsite automatiškai pašalinti iš Žvalgybinės misijos būrio ir perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "Priėmus pakvietimą būsite automatiškai pašalintas iš komandinių treniruočių ir perkeltas į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "Priėmę kvietimą, išeisite iš Tvirtovės mūšių ir būsite perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "Priėmę pakvietimą, būsite automatiškai pašalinti iš būrio ir perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "Priėmus kvietimą, jūs išeisite iš padalinio ir būsite perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Priėmus pakvietimą būsite automatiškai pašalintas iš turnyro ir perkeltas į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "Priėmus pakvietimą būsite automatiškai pašalintas iš komandinių treniruočių ir perkeltas į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Priėmę kvietimą, jūs būsite automatiškai pašalinti iš komandinės treniruotės Prasiveržimo režime ir perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Kai priimsite pakvietimą būsite pašalinti iš komandos ir perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "Priėmę kvietimą, išeisite iš Plieninio medžiotojo ir būsite perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Priėmę kvietimą, išeisite iš Didžiosios medžioklės ir būsite perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "Priėmę kvietimą, išeisite iš Prasiveržimo ir būsite perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "Priėmę kvietimą, išeisite iš Prasiveržimo šviesos ir būsite perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "Priėmę kvietimą, išeisite iš Fronto linijos ir būsite perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "Priėmę kvietimą, jūs išeisite iš +++Event battle+++ ir būsite perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "Priėmę kvietimą, išeisite iš Žvalgybinės misijos ir būsite perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "Priėmę kvietimą, išeisite iš Topografijos ir būsite perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "Priėmę kvietimą, išeisite iš Atsitiktinių mūšių ir būsite perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "Priėmę kvietimą, išeisite iš Reitinguojamų mūšių režimo ir būsite perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "Priėmę kvietimą, jūs išeisite iš Apšilimo ir būsite perkelti į %(host)s serverį."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "Priėmę kvietimą, jūs išeisite iš Apšilimo ir būsite perkelti į %(host)s serverį. Jūs jo nebegalėsite pradėti iš naujo."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Priėmę kvietimą, būsite automatiškai pašalinti iš taktinės formuotės."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Priėmę kvietimą, būsite automatiškai pašalinti iš taktinės formuotės."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "Priėmus pakvietimą būsite automatiškai pašalintas iš mūšių Globaliame Žemėlapyje."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "Priėmę kvietimą, būsite automatiškai pašalinti iš taktinės formuotės."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Priėmę kvietimą, būsite automatiškai pašalinti iš taktinės formuotės."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "Priėmę kvietimą, būsite automatiškai pašalinti iš taktinės formuotės."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Priėmę kvietimą, jūs būsite automatiškai pašalinti iš komandinės treniruotės Fronto linijos režime."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "Priėmę kvietimą, būsite automatiškai pašalinti iš taktinės formuotės."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Kai priimsite pakvietimą būsite pašalinti iš komandos."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "Priėmę kvietimą, būsite automatiškai pašalinti iš būrio."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "Priėmę kvietimą jūs išeisite iš Tvirtovės mūšių."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "Priėmus kvietimą, jūs išeisite iš Puolimo režimo."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "Priėmę kvietimą, būsite automatiškai pašalinti iš Žvalgybinės misijos būrio."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "Priėmus pakvietimą būsite automatiškai pašalintas iš komandinių treniruočių."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "Priėmę kvietimą jūs išeisite iš Tvirtovės mūšių."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "Priėmę kvietimą, būsite automatiškai pašalinti iš būrio."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "Priėmus kvietimą, jūs išeisite iš padalinio."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "Priėmus pakvietimą būsite automatiškai pašalintas iš turnyro."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "Priėmus pakvietimą būsite automatiškai pašalintas iš komandinių treniruočių."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Priėmę kvietimą, jūs būsite automatiškai pašalinti iš komandinės treniruotės Prasiveržimo režime."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Kai priimsite pakvietimą būsite pašalinti iš komandos."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "Priėmę kvietimą jūs išeisite iš Plieninio medžiotojo."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Priėmę kvietimą jūs išeisite iš Didžiosios medžioklės."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "Priėmę kvietimą jūs išeisite iš Prasiveržimo."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "Priėmę kvietimą jūs išeisite iš Prasiveržimo šviesos."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "Priėmę kvietimą jūs išeisite iš Fronto linijos."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "Priėmę kvietimą, jūs išeisite iš +++Event battle+++."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "Priėmę kvietimą jūs išeisite iš Žvalgybinės misijos."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "Priėmę kvietimą jūs išeisite iš Topografijos."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "Priėmę kvietimą jūs išeisite iš Atsitiktinių mūšių."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "Priėmę kvietimą, išeisite iš režimo „Mūšis pagal rangą“."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "Priėmę kvietimą, jūs išeisite iš Apšilimo."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "Priėmę kvietimą, jūs išeisite iš Apšilimo. Jūs jo nebegalėsite pradėti iš naujo."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Serverio pakeitimai nebus išsaugoti."
+
+msgid "invites/note/server_change"
+msgstr "Jūs būsite automatiškai perkeltas į %(host)s serverį."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Jūs negalite priimti kvietimo. Norėdami tai padaryti, pasirinkite %(host)s serverį."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Jūs negalite priimti kvietimo. Prisijunkite prie kito serverio."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Jūs jau prisijungėte prie Būrio."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Jūs jau prisijungėte prie mūšio Globaliame Žemėlapyje."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Jūs jau prisijungėte prie komandinių treniruočių."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Jūs jau prisijungėte prie Būrio."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Jūs jau prisijungėte prie būrio."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Jūs jau prisijungėte į padalinį."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Jūs jau prisijungėte prie Būrio."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Jūs jau prisijungėte prie turnyro."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Jūs jau prisijungėte prie komandinių treniruočių."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Jūs jau prisijungėte prie komandinių treniruočių."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Jūs jau prisijungėte prie komandos."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Kvietimas priimtas."
+
+msgid "invites/state/DECLINED"
+msgstr "Kvietimas atmestas."
+
+msgid "invites/state/ERROR"
+msgstr "Klaidingas kvietimas."
+
+msgid "invites/state/EXPIRED"
+msgstr "Klaidingas kvietimas."
+
+msgid "invites/state/REVOKED"
+msgstr "Kvietimas atšauktas."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Kvietimas jungtis į Plieninio medžiotojo būrį"
+
+msgid "invites/text/COMP7"
+msgstr "Pakvietimas prisijungti į Prasiveržimo būrį"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Pakvietimas prisijungti į Prasiveržimo šviesos būrį"
+
+msgid "invites/text/EPIC"
+msgstr "Pakvietimas prisijungti į Fronto linijos būrį"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Kvietimas jungtis į komandines treniruotes Fronto linijos režime"
+
+msgid "invites/text/EVENT"
+msgstr "Kvietimas į būrį"
+
+msgid "invites/text/FALLOUT"
+msgstr "Kvietimas į būrį %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Dominavimas"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Plieninė medžioklė"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Kvietimas į mūšį"
+
+msgid "invites/text/MAPBOX"
+msgstr "Kvietimas į Žvalgybinės misijos būrį"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Kvietimas tyrinėti žemėlapius"
+
+msgid "invites/text/SORTIE"
+msgstr "Kvietimas į padalinį"
+
+msgid "invites/text/SQUAD"
+msgstr "Kvietimas į būrį"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Kvietimas į padalinį"
+
+msgid "invites/text/TRAINING"
+msgstr "Kvietimas į komandines treniruotes"
+
+msgid "invites/text/UNIT"
+msgstr "Kvietimas į komandą"
+
+msgid "invites/text/creatorName"
+msgstr "nuo %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Gynybos periodas"
+
+msgid "invites/text/fort/direction"
+msgstr "Placdarmas"
+
+msgid "invites/text/fort/offence"
+msgstr "Puolimas"
+
+msgid "invites/warning/anonymized"
+msgstr "Priėmus kvietimą, jūsų tikras žaidimo vardas ir klano žyma bus rodomi taktinės formuotės nariams viso mūšio metu."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Kvietimas išsiųstas žaidėjui %(name)s."

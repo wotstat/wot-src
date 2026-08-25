@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Doties kaujā jebkurā gadījumā"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Aprīkot!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Taktiskās ierīces nav pilnībā izvēlētas"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "Izvēlētajam tankam trūkst vienas vai vairākas Taktiskās ierīces. Tas var būtiski ietekmēt tavu sniegumu kaujā. Vai ieiet kaujā jebkurā gadījumā?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Vari pielāgot noklusējuma pasākuma karsto taustiņu iestatījumus lādiņiem un Taktiskajām ierīcēm.\nŠīs izmaiņas attiecas tikai uz pasākuma kaujām un neietekmēs citus režīmus.\nTu joprojām vari mainīt atsevišķus taustiņus izvēlnē—Iestatījumi—Vadība (sadaļā Patēriņa priekšmeti)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Palīgmateriālu Pogu Maiņa"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Izpildiet šo misiju, lai saņemtu unikālu Pēdējā Pretošanās: Operācija Pandora žetonu:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Episka Sasnieguma Misija"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Izpētot, samazina {EDCB9E_Start}Mirium izmaksas{EDCB9E_End} visām Taktiskajām ierīcēm par {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Mirium efektivitāte"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Izpētot, palielina {EDCB9E_Start}Taktisko ierīču efekta ilgumu{EDCB9E_End}par {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Ierīces efekta ilgums"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Izpētot, palielina {EDCB9E_Start}Taktisko ierīču efekta rādiusu{EDCB9E_End}par {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Ierīces efekta rādiuss"
+
+msgid "booster/booster_heal/description"
+msgstr "Izpētot, palielina visus uz tanku piemērotos {EDCB9E_Start}atjaunošanas efektus{EDCB9E_End} par {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Atjaunošanas efekti"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Izpētot, palielina no Obeliskiem uz ienaidnieka tankiem {EDCB9E_Start}pārnesto bojājumu apjomu{EDCB9E_End} par {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Obelisku pārnestie bojājumi"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Izpētot, palielina {EDCB9E_Start}Mirium savākšanas rādiusu{EDCB9E_End} no ienaidniekiem par {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Mirium savākšanas rādiuss"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Izpētot, palielina {EDCB9E_Start}savāktā Mirium daudzumu{EDCB9E_End} no iznīcinātajiem tankiem par {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Mirium savākšana"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Izpētot, palielina {EDCB9E_Start}Mirium daudzumu{EDCB9E_End}, kas tiek piešķirts par viļņa iznīcināšanu, par {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Mirium par vilni"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Izpētot, palielina {EDCB9E_Start}Mirium daudzumu{EDCB9E_End}, kas tiek atjaunots pēc atdzimšanas, par {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Mirium pēc atdzimšanas"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Izpētot, palielina {EDCB9E_Start}tanka maksimālo Mirium ietilpību{EDCB9E_End} par {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Mirium ietilpība"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "AIZSTĀVJA KOMPLEKTS"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Atslēgas nopirktas"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Iespēja nopelnīt ×5 Pieredzi, sākot no dienas otrās uzvaras jebkurā tankā."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Misijas par ×5 Pieredzei nopelnītai kaujā"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Konfigurējiet tanku displeju pēc to veida, nācijas un citiem parametriem."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Filtrēt pēc Parametriem"
+
+msgid "common/back"
+msgstr "ATPAKAĻ"
+
+msgid "common/close"
+msgstr "AIZVĒRT"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "UZ PASĀKUMU"
+
+msgid "common/toRewardPath"
+msgstr "UZ PROGRESIJU"
+
+msgid "common/yes"
+msgstr "Sapratu!"
+
+msgid "difficult/daily"
+msgstr "IKDIENAS ATSLĒGU MISIJA ATSLĒGTA"
+
+msgid "difficult/disabled/body"
+msgstr "Jūs esiet Vadā. Tikai Komandieris var mainīt grūtības pakāpes līmeni."
+
+msgid "difficult/disabled/header"
+msgstr "Grūtības Pakāpes Maiņa Nav Pieejama"
+
+msgid "difficult/level_1"
+msgstr "Parasts"
+
+msgid "difficult/level_2"
+msgstr "Paaugstināta"
+
+msgid "difficult/level_3"
+msgstr "Brutāls"
+
+msgid "difficult/new"
+msgstr "JAUNS"
+
+msgid "difficult/searching/body"
+msgstr "Nav pieejams meklēšanas laikā."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Ienaidniekiem ir zemāka izturība un vājāka bruņa. Standarta datu apjoms katrā kaujā."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Ienaidniekiem ir stiprāka bruņa. Datu daudzums par kauju palielināts par {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Vairāk ienaidnieku ar stiprāku bruņu. Datu daudzums par kauju palielināts par {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Atlīdzība par pēdējā viļņa iznīcināšanu pirmo reizi:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Parasta grūtības pakāpe"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Paaugstināta Grūtība"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Brutāla Grūtības Pakāpe"
+
+msgid "difficult/tooltip/locked"
+msgstr "Grūtības Pakāpe Slēgta"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Lai atbloķētu šo grūtības līmeni, pabeidziet Parasto grūtības līmeni."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Lai atbloķētu šo grūtības līmeni, pabeidziet Paaugstināto grūtības līmeni."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Grūtības Pakāpe Pieejama"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Grūtības Pakāpe Izvēlēta"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Iznīcinātās viļņi: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "PARASTS"
+
+msgid "difficult/uppercase/level_2"
+msgstr "PAAUGSTINĀTS"
+
+msgid "difficult/uppercase/level_3"
+msgstr "BRUTĀLS"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Ienaidniekiem ir stiprāks bruņojums. Vairāk kredītu un ×{{modifier}} datu par katru kauju."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Vairāk ienaidnieku ar stiprāku bruņojumu. Vairāk kredītu un ×{{modifier}} datu par katru kauju."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Cīnieties un sakaujiet pretinieku viļņus, un parādiet jūsu spēku sasniedzot Līderu Saraksta augšgalu. Unikālas balvas un vairāk gaida jūs."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "PAAUGSTINĀTS GRŪTĪBAS LĪMENIS"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "BRUTĀLAS GRŪTĪBAS LĪMENIS"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "PĒDĒJĀS PRETOŠANĀS REŽĪMS"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "PAAUGSTINĀTS"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "BRUTĀLS"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "'PĒDĒJĀ PRETOŠANĀS'"
+
+msgid "difficultyWindow/rewards"
+msgstr "Atlīdzība par pabeigšanu:"
+
+msgid "difficultyWindow/title"
+msgstr "PIEEJAMS"
+
+msgid "hangar/exit"
+msgstr "PAMEST PASĀKUMU"
+
+msgid "hangar/narration"
+msgstr "Stāsts"
+
+msgid "hangar/tooltip/about"
+msgstr "Uzziniet vairāk par Pēdējā Pretošanās: Terra Nord pasākumu."
+
+msgid "hangar/tooltip/narration"
+msgstr "Uzzināt vairāk par pasākuma stāstu."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "TAKTISKĀS IERĪCES"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "APRĪKOJUMS"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Pēdējā Pretošanās"
+
+msgid "iconButton/comparison/default"
+msgstr "Tanka salīdzināšana"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Tanku salīdzināšana nav pieejama"
+
+msgid "iconButton/preview/default"
+msgstr "Tanka pirmsapskate"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Tanka pirmsapskate nav pieejama"
+
+msgid "keyCard/name"
+msgstr "Atšifrēšanas Atslēgas"
+
+msgid "meta/btn/decrypt"
+msgstr "ATŠIFRĒT"
+
+msgid "meta/btn/skip"
+msgstr "IZLAIST"
+
+msgid "meta/btn/view"
+msgstr "SKATĪT"
+
+msgid "meta/receive/description"
+msgstr "Savāc %(keys) / %(decrypt) %(icon) \nlai atšifrētu šo ierakstu"
+
+msgid "metaIntro/description/fight"
+msgstr "Cīnies pasākumu kaujās un pelni datus, lai virzītos cauri progresam."
+
+msgid "metaIntro/description/progress"
+msgstr "Vāciet datus, lai izpētītu tanka uzlabojumus un uzņemtos lielākus izaicinājumus."
+
+msgid "metaIntro/description/reward"
+msgstr "Pabeidz progresijas posmus, lai saņemtu īpašas pasākuma atlīdzības. Skati Atlīdzību ceļu, lai iegūtu vairāk informācijas."
+
+msgid "metaIntro/header/fight"
+msgstr "Pasākuma Kaujas"
+
+msgid "metaIntro/header/progress"
+msgstr "Uzlabojumi"
+
+msgid "metaIntro/header/reward"
+msgstr "Unikālas Balvas"
+
+msgid "metaIntro/title"
+msgstr "PROGRESIJA"
+
+msgid "missionWidget/complete"
+msgstr "Misija izpildīta.\nAtnāciet rīt."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Izpildiet pašreizējo Ikdienas Misiju, kas ir pieejama katras 24 h, lai saņemtu balvu. Šodienas misija:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Ikdienas Misija"
+
+msgid "narration/actions/voiceover"
+msgstr "Balss"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}SLEPENI{{/}}{{titleParagraph}}{{@ class $highlightText}}SEKTORS: N-07 (\"Aurora\" Perimetrs){{/}}{{pargraphStart}}Mūsu prognoze bija pareiza. Stacijas novērotāji reģistrēja anomālijas tuvošanos 11 dienas pirms notikuma. Pirmo reizi mēs to redzējām nākam.{{pargraphStart}}Pirms vētras klusuma tika standartizēta ATLAS kompleksu ražošana. Jaunie moduļi tiek salikti ātrāk un kalibrēti precīzāk. Mēs veicām apmācības, izstrādājām formācijas un sagatavojām rezerves vienības. Pilna gatavība.{{pargraphStart}}Bet anomālijai bija savi plāni.{{pargraphStart}}Piltuve neatvērās prognozētajā sektorā. Tā parādījās šeit, attālā ziemeļu reģionā, tālu no izvietotās infrastruktūras. Nav skaidrs, kāpēc šī vieta tika izvēlēta. Modeļi neuzrādīja šo apgabalu. Tika nekavējoties uzsākta ārkārtas pārvietošana, bet reljefs un attālums nav mūsu labā. Dažas transportlīdzekļu un vienību ierašanās kavēsies.{{pargraphStart}}Katrs ATLAS komplekss, ko izdevās piegādāt, tagad ir neaizstājams.{{pargraphStart}}Šoreiz mēs bijām gatavi cīņai. Bet cīņai citā vietā.{{pargraphStart}}PARAKSTS: KURATORS (PROJEKTS M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Analītiskais Ziņojums 27/C \"IEBRUKUMA VIETAS IZVĒLE\"{{/}}{{titleParagraph}}Iekšējai lietošanai. \"Ierobežotas Piekļuves\" zīmogs.{{pargraphStart}}Es uzdodu jautājumu, uz kuru esmu spiests atbildēt, bet nevaru: Kāpēc šeit?{{pargraphStart}}Šim reģionam nav stratēģiskas vērtības Piltuvei. Šeit nav nekā. Nav infrastruktūras, nav apmetņu. Tikai neoperatīva militārā Pamata uz salas. Atbalsta tanki nevar šķērsot jūru. Tātad, kāpēc iekarot vietu, no kuras viņi nevar uzbrukt? {{pargraphStart}}Es pieprasīju reģiona pilnu operatīvo vēsturi. Atbilde bija stipri rediģēta. Veselas sadaļas bija izdzēstas. Otrs pieprasījums tika atgriezts ar piezīmi \"piekļuve ierobežota ar {{@ class $highlightSecondaryText}}[DATI NOŅEMTI]{{/}} autoritāti.\" Es, pētniecības nodaļas vadītājs, kura ieteikumi nosaka šī sektora aizsardzības stratēģiju, tieku liegts informācijai par šo teritoriju!{{pargraphStart}}Lūk, ko es varu secināt no lauka datiem: Piltuves uzvedība neatbilst tam, ko novērojām sektorā R-22. Parādījušies jauni echo tanku veidi, kurus iepriekš neesam sastapuši. Tie funkcijā atbilst mūsu tāla darbības rādiusa tanku iznīcinātājiem un ir ārkārtīgi efektīvi šāda veida reljefā. Pretinieks ir mācījies no mūsu taktikas un veicis pretpasākumus. Tagad ir mūsu kārta pielāgoties.{{pargraphStart}}Varbūt tam vajag šo vietu. Vai varbūt to, kas ir zem tās.{{pargraphStart}}Es nezinu. Un mani satrauc, ka kāds zina, bet nesaka.{{pargraphStart}}PARAKSTS: KURATORS (PROJEKTS M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}KURATORA PERSONĪGAIS PIERAKSTS{{/}}{{pargraphStart}}Esmu pārskatījis savas hipotēzes. Visas trīs.{{pargraphStart}}  1. Anomālija meklē un iznīcina mūs. {{pargraphStart}}  2. Anomālija eksperimentē. Tā pēta mūsu taktiku, analizē mūsu reakciju, pielāgojas un mācās.{{pargraphStart}}  3. Anomālija trenējas. Katrs vilnis ir tās jauno taktiku treniņš; katra cīņa ir apmācība lauka apstākļos.{{pargraphStart}}Visas trīs hipotēzes pieņem, ka mēs esam šīs invāzijas mērķis.{{pargraphStart}}Bet kas, ja mēs neesam?{{pargraphStart}}Kas, ja anomālija dara kaut ko citu, un mēs vienkārši stāvam tai ceļā? Kā skudru pūznis, kas tiek appludināts, kamēr tiek būvēts ceļš. Būvētājs necīnās ar skudrām. Tas vienkārši tās nepamana.{{pargraphStart}}Tu vari apturēt ienaidnieku, kurš vēlas tevi iznīcināt. Tu vari ar viņu sarunāties. Bet tu nevari nobiedēt kaut ko, kas neatzīst tavu eksistenci; tu nevari to pārspēt. To nevar apturēt. Jo tu nekad nebiji tā aprēķinos.{{pargraphStart}}Es domāju, ka mēs esam uzdevuši nepareizu jautājumu. Mums nevajadzētu jautāt, kāpēc tas uzbrūk mums, bet vai tas vispār mūs pamana.{{pargraphStart}}PARAKSTS: KURATORS (PROJEKTS M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}GALĪGAIS ZIŅOJUMS{{/}}{{titleParagraph}}{{@ class $highlightText}}STATUSS: DAĻĒJI ATKLASIFICĒTS{{/}}{{pargraphStart}}Plkst. 03:47 Piltuve sabruka. Anomālijas aktivitāte apstājās. Sektors ir tīrs.{{pargraphStart}}Pēdējās sekundēs pirms sabrukuma ATLAS mērierīces reģistrēja enerģijas pieaugumu, kas pārsniedza visus iepriekš reģistrētos rādītājus. Ekipāžas novēroja īslaicīgu fizisku izpausmi anomālijas centrā, kas ilga ne vairāk kā 12 sekundes. Pēc tam Piltuve aizvērās. {{pargraphStart}}Oficiālais paziņojums: Incidents ir beidzies. Teritorija ir veiksmīgi aizsargāta. Karantīna no sektora ir noņemta.{{pargraphStart}}{{@ class $highlightText}}KURATORA PERSONĪGĀ PIEZĪME (Tikai speciālajiem rezervātiem){{/}}{{pargraphStart}}Mēs neuzvarējām. Tas beidzās.{{pargraphStart}}Tas nebija iebrukums. Tas bija aizsegs. Aizsargperimetrs ap to, kas izpaudās Piltuves centrā sekundes pirms tās sabrukuma.{{pargraphStart}}Vienlaikus parādījās desmitiem Obelisku. Mēs joprojām nezinām, ko tie darīja. ATLAS reģistrēja visus parametrus, bet to interpretēšana prasīs laiku. Mēs zinām vienu lietu ar gandrīz pilnīgu pārliecību: anomālija pabeidza kādu procesu.{{pargraphStart}}Neatkarīgi no tā, ko tā darīja, mums jāgatavojas nākamajam uzbrukumam. Tagad mums ir pietiekami daudz datu. Mūsu inženieri jau pārskata ierakstus, un, godīgi sakot, es nekad neesmu redzējis viņus tik satrauktus. Viņi domā, ka mēs varam nopietni stiprināt mūsu transportlīdzekļus. Mums tas jādara, pirms Piltuve atgriežas. {{pargraphStart}}Es nevaru pārtraukt domāt par vienu lietu: ja tas notika šeit un ilga tik īsu laiku, cik reizes tas ir noticis agrāk? Vietās, kur nebija ATLAS, neviens, kas to redzētu...{{pargraphStart}}PARAKSTS: KURATORS (PROJEKTS M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Mēs bijām gatavi"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Kāpēc šeit?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. Nepareizais Jautājums"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Tas beidzās"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Pabeidziet Parasto grūtības līmeni, lai turpinātu uz nākamo stāsta daļu."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Pabeidziet uzdevumu Paaugstinātā grūtības līmenī, lai turpinātu uz nākamo stāsta daļu."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Pabeidz Brutālo grūtības līmeni, lai pārietu uz pēdējo Stāsta daļu."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Nākamais stāsts"
+
+msgid "preBattle/leave"
+msgstr "Iziet no Kaujas"
+
+msgid "preBattle/searching"
+msgstr "MEKLĒ SABIEDROTOS..."
+
+msgid "preBattle/tip"
+msgstr "Pārāk ilgi neizdodas atrast Operatīvo vienību? Pamēģini mainīt grūtības līmeni."
+
+msgid "preBattle/uppercase/leave"
+msgstr "IZIET NO KAUJAS"
+
+msgid "promoWindow/header"
+msgstr "SPĒLĒT PĒDĒJO PRETOŠANOS"
+
+msgid "promoWindow/subheader"
+msgstr "Izpēti jaunu Pēdējā Pretestība PvE režīma nodaļu no {dateRange}.\nIegūsti tematisku {cream_open}3D elementu komplektu{cream_close}, Eksperimentālo aprīkojumu un citas ekskluzīvas atlīdzības."
+
+msgid "questCard/allCompleted"
+msgstr "Visas dienas misijas izpildītas"
+
+msgid "questCard/completed"
+msgstr "Dienas misija izpildīta.\nAtgriezies rīt."
+
+msgid "reward/rest"
+msgstr "Un %(count)s vairāk"
+
+msgid "rewardPath/about"
+msgstr "PAR MĒRĶIEM"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Uzzini vairāk par notikuma progresu."
+
+msgid "rewardPath/boostTitle"
+msgstr "Paātriniet savu progresu un nopelniet vairāk datu {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Skatīt Veikalā"
+
+msgid "rewardPath/completed"
+msgstr "Visa saņemtā informācija un atlīdzības"
+
+msgid "rewardPath/completedTitle"
+msgstr "Apmeklē veikalu, lai iegūtu unikālus tematiskos pielāgošanas elementus"
+
+msgid "rewardPath/intro"
+msgstr "IEVADS"
+
+msgid "rewardPath/introTooltip"
+msgstr "Noskaties ievada video."
+
+msgid "rewardPath/progress"
+msgstr "Saņemtie Dati POSMĀ {artefactIndex}: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "PROGRESIJA"
+
+msgid "rewardPathCard/completed"
+msgstr "Izpildīts"
+
+msgid "rewardPathCard/name"
+msgstr "Balvu Ceļš"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Notikuma Komplekti"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Atcelt"
+
+msgid "squad/goToAnother/message"
+msgstr "Vads tiks atlaists."
+
+msgid "squad/goToAnother/submit"
+msgstr "Pamest"
+
+msgid "squad/goToAnother/title"
+msgstr "Atcelt Pēdējā Pretošanās: Terra Nord pasākumu?"
+
+msgid "squad/leave/cancel"
+msgstr "Atcelt"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Vads tiks atlaists."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Sapratu!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Pēdējā Pretošanās: Terra Nord pasākums ir beidzies."
+
+msgid "squad/leave/message"
+msgstr "Vads tiks atlaists."
+
+msgid "squad/leave/submit"
+msgstr "Pamest"
+
+msgid "squad/leave/title"
+msgstr "Atstāt Pēdējā Pretošanās: Terra Nord vads?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Turpināt"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Jūs esiet Vadā un gatavi kaujai."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Jūs nevariet pamest Vadu!"
+
+msgid "stageReward/rewards/received"
+msgstr "Arī saņemts:"
+
+msgid "stageReward/special/header"
+msgstr "BRUTĀLAIS GRŪTĪBAS LĪMENIS IZPILDĪTS!"
+
+msgid "stageReward/special/subheader"
+msgstr "Saņemta īpašā atlīdzība"
+
+msgid "stageReward/stage/header"
+msgstr "BALVAS SAŅEMTAS"
+
+msgid "stageReward/stage/subheader"
+msgstr "Pēdējā Pretestība: posms {{number}} izpildīts"
+
+msgid "stageReward/stageFinal/header"
+msgstr "VISAS ATLĪDZĪBAS SAŅEMTAS"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Pēdējā Pretestība: pēdējais posms izpildīts"

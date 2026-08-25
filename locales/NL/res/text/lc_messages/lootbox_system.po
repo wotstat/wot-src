@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "Bemanning en training"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "Aanpassing"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "Uitrusting en gevechtsbevelen"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "Overige"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "Voertuigen"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "Begrepen!"
+
+msgid "autoOpenView/title"
+msgstr "ONTVANGEN BELONINGEN"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Begrepen!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "Gevechtsbevel"
+
+msgid "bonuses/description/booster"
+msgstr "Persoonlijke reserve"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Bemanningsskin"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standaard uitrusting"
+
+msgid "bonuses/description/style"
+msgstr "2D-stijl"
+
+msgid "bonuses/description/style3D"
+msgstr "3D-stijl"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "Blauwdrukfragment (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "Universeel blauwdrukfragment"
+
+msgid "bonuses/label/bpcoin"
+msgstr "Vechtpastoken"
+
+msgid "boxTooltip/description/text/default"
+msgstr "Kan voertuigen, economische middelen en andere waardevolle items bevatten.\nKisten zijn verkrijgbaar in de in-game winkel."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "keer openen tot de gegarandeerde beloning, als die niet eerder dropt."
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "Kisten zijn verkrijgbaar in de in-game winkel."
+
+msgid "common/backButton"
+msgstr "TERUG"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "Tactische kist"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "TACTISCHE KIST"
+
+msgid "common/closeButton"
+msgstr "SLUITEN"
+
+msgid "common/footer/checkbox"
+msgstr "Openingsanimatie"
+
+msgid "common/getButton/lowerCase"
+msgstr "Pak meer"
+
+msgid "common/getButton/upperCase"
+msgstr "PAK MEER"
+
+msgid "common/infoButton"
+msgstr "Wat zit erin?"
+
+msgid "common/loader"
+msgstr "Kist openen..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) st."
+msgstr[1] "%(count) st."
+msgstr[2] "%(count) st."
+
+msgid "common/rewards/multiplier"
+msgstr "x{count}"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "dag"
+msgstr[1] "dagen"
+msgstr[2] "dagen"
+
+msgid "common/selectTooltip"
+msgstr "Niet genoeg kisten om in één keer {{count}} stuks te openen"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Open kisten om statistieken te bekijken."
+
+msgid "common/statistics/header"
+msgstr "Kisten geopend: %(count)"
+
+msgid "common/statsButton"
+msgstr "Statistieken"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "Annuleren"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Je beloningsgeschiedenis zal worden verwijderd."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "Resetten"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "Statistieken resetten?"
+
+msgid "entryPoint/boxes"
+msgstr "NAAR DE KISTEN"
+
+msgid "entryPoint/count"
+msgstr "×%(count)"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "×999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Dit zijn speciale kisten met nieuwe en unieke items. Ze kunnen worden verkregen in de in-game winkel."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Het evenement eindigt over"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Er is een technisch probleem en we hebben het evenement tijdelijk gepauzeerd terwijl we het oplossen."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Tijdelijk onbeschikbaar"
+
+msgid "eventName/lowerCase"
+msgstr "Slagveldvoorraden"
+
+msgid "eventName/upperCase"
+msgstr "SLAGVELDVOORRADEN"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)e"
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)e"
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)e"
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)e"
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "elke %(count)"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "voertuig"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "Een %(item) is gegarandeerd bij het openen van %(count) kist. De teller wordt gereset als je er eerder eentje ontvangt."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Als je alle voertuigen al hebt, ontvang je in plaats daarvan goud."
+
+msgid "guaranteedTitle/text"
+msgstr "%(name) na nog %(count) keer openen"
+
+msgid "guaranteedTitle/textName"
+msgstr "Gegarandeerde beloning"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "Openen"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "Het evenement eindigt over %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Wanneer het evenement is afgelopen en je niet alle kisten hebt geopend, zullen ze later automatisch worden geopend."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Als je alle voertuigen uit de lijst met mogelijke inhoud van de kist al hebt, dan zul je in plaats van alle voertuigen die daarna in kisten zitten, hun volledige waarde in goud ontvangen."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Elke %(guaranteed0)s kisten bevatten gegarandeerd een niveau VIII–X voertuig. Als je ze hebt geopend zonder een dergelijk voertuig te ontvangen, dan bevat de %(guaranteed0)s&zwnbsp;e kist (afhankelijk van het type kist) een niveau VIII–X voertuig. Wanneer dat gebeurt, wordt de teller gereset."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Autom. openen"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Compensatie"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Gegarandeerde beloning"
+
+msgid "infoPage/header/lootListLink"
+msgstr "Bekijk de lijst met items op de spelwebsite"
+
+msgid "infoPage/header/probability/description"
+msgstr "Dropkans"
+
+msgid "infoPage/header/probability/title"
+msgstr "Groep"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Je kunt maximaal één beloning per groep ontvangen"
+
+msgid "infoPage/header/rewards/title"
+msgstr "Beloningen"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "Open meer"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Uit de %(name) (%(boxesCount) kisten geopend)"
+
+msgid "multipleRewardView/header/title/"
+msgstr "ONTVANGEN BELONINGEN"
+
+msgid "noBoxesView/description/"
+msgstr "Kisten zijn verkrijgbaar in de in-game winkel"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "Naar de winkel"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Naar beschikbare kisten"
+
+msgid "preview/backLabel"
+msgstr "NAAR DE KISTEN"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Beschikbaar: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Geen kisten meer"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "Doorgaan"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "voor %(vehicleInfo)"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "%(style) 3D-stijl"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "Het \"%(eventName)s\" evenement is afgelopen"
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "Alle resterende kisten zullen worden geopend, en hun inhoud zal aan je account worden toegevoegd."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Bekijk de beloningen"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Ontvangen beloningen"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "We hebben de items toegevoegd die je tijdens het evenement niet hebt ontvangen."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "Het evenement is wegens onderhoud tijdelijk onbeschikbaar."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "Het evenement is weer beschikbaar. Onze excuses voor het ongemak."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s stuks)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "Ontvangen beloningen:"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "Fout"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "Wacht alsjeblieft tot de vorige handeling is afgerond."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "Handeling tijdelijk onbeschikbaar. Probeer het later nog eens."
+
+msgid "serviceChannelMessages/start/button"
+msgstr "Naar het evenement"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "Het \"%(eventName)s\" evenement is begonnen"
+
+msgid "serviceChannelMessages/start/text"
+msgstr "Alleen tot %(date)s: Premium voertuigen en waardevolle in-game items!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "Statistieken resetten niet mogelijk. Probeer het later alsjeblieft nog eens."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "En ook"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "Open meer"
+
+msgid "singleRewardView/header/title/"
+msgstr "ONTVANGEN BELONINGEN"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "Uniek bemanningslid"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "3D-attachments"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "Missies voor x5 XP per gevecht"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "Gevechtsbevelen"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "Blauwdrukfragmenten"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "Brochures"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "Trainingsbrochures"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "Verbruiksartikelen"
+
+msgid "statisticsRewards/label/credits"
+msgstr "Credits"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "Handboeken"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "Trainingshandboeken"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "Missies voor x3 Bemannings-XP"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "Obligaties"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "Aanpassingen"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "Verbeterde uitrusting"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "Componenten"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "Experimentele uitrusting"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "Vrije XP"
+
+msgid "statisticsRewards/label/gold"
+msgstr "Goud"
+
+msgid "statisticsRewards/label/guide"
+msgstr "Gidsen"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "Trainingsgidsen"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "Mentorlicentie"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "Standaard uitrusting"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "Persoonlijke reserves"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "WoT Premium account"
+
+msgid "statisticsRewards/label/rations"
+msgstr "Rantsoenen"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "Hertrainingsbevelen"
+
+msgid "statisticsRewards/label/style"
+msgstr "2D-stijlen"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "3D-stijlen"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "Bemanningsleden"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "Bounty-uitrusting"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "Voertuigen"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "Reset statistieken"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "Klik om alle statistieken te resetten."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "En nog %(count) beloning."
+msgstr[1] "En nog %(count) beloningen."
+msgstr[2] "En nog %(count) beloningen."
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "\"%(label)\""
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "x%(count)"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "Nationaal blauwdrukfragment"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). \"%(label)\" voor de %(vehicleInfo)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "Gecompenseerde stijlen: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "Gecompenseerde voertuigen: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "Compensatie voor een voertuig dat al in je garage staat."

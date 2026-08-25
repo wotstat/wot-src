@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_light_aggressive_detection/descr/active"
+msgstr "Dohled bude zvýšen o {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s %%{colorTagClose} po dobu {colorTagOpen}%(duration)s s{colorTagClose}.\n\nKdyž bude díky vašemu odhalování nepřátelské vozidlo zničeno, časomíra se vynuluje."
+
+msgid "comp7_light_aggressive_detection/name"
+msgstr "Aktivní průzkum"
+
+msgid "comp7_light_ally_support/descr/active"
+msgstr "Na {colorTagOpen}%(duration)s s{colorTagClose} získá vaše posádka {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} bonus k efektivitě za každé vozidlo vašeho týmu s různou úlohou.\n\nVaše vozidlo bude vždy zahrnuto ve výpočtu tohoto bonusu."
+
+msgid "comp7_light_ally_support/name"
+msgstr "Jeden za všechny"
+
+msgid "comp7_light_aoe_heal/descr/active"
+msgstr "Na {colorTagOpen}%(duration)s s{colorTagClose} je v okruhu {colorTagOpen}%(radius)s m{colorTagClose} kolem vašeho vozidla vytvořena oblast, která obnoví {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} bodů výdrže vašeho vozidla a spojeneckých vozidel."
+
+msgid "comp7_light_aoe_heal/name"
+msgstr "Polní opravy"
+
+msgid "comp7_light_aoe_inspire/descr/active"
+msgstr "Na {colorTagOpen}%(duration)s s{colorTagClose} získají vaše a spojenecké posádky {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} bonus k efektivitě."
+
+msgid "comp7_light_aoe_inspire/name"
+msgstr "Povzbuzení"
+
+msgid "comp7_light_berserk/descr/active"
+msgstr "Na {colorTagOpen}%(duration)s s{colorTagClose} je snížena doba nabíjení děla o {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s %%{colorTagClose}. Navíc je rozptyl děla po výstřelu, za pohybu a během otáčení korby a věže snížen o {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s %%{colorTagClose}.\n\nČasomíra se vynuluje, když způsobíte poškození nárazem, nebo střelbou ze vzdálenosti menší než {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_light_berserk/name"
+msgstr "Zuřivost"
+
+msgid "comp7_light_concentration/descr/active"
+msgstr "Na {colorTagOpen}%(duration)s s{colorTagClose} je čas zaměření a rozptyl děla za pohybu, při otáčení korby a věže snížen o {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s %%{colorTagClose}.\n\nKdyž je tato úlohová schopnost aktivní, je doba nabíjení mezi výstřely snížena o {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s s{colorTagClose}."
+
+msgid "comp7_light_concentration/name"
+msgstr "Soustředění na cíl"
+
+msgid "comp7_light_fast_recharge/descr/active"
+msgstr "• Pro systém nabíjení zásobníku:\nZbývající doba nabíjení zásobníku je snížena o: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s %%{colorTagClose}\n\n• Pro systém automatického dobíjení:\nVšechny granáty vystřelené v aktuálním cyklu budou dobity o {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s <n%>%{colorTagClose} rychleji.\n\nTato schopnost může být aktivována pouze během procesu dobíjení.\n\n• Pro automatické kanóny s termální ochranou proti přehřátí:\nPřehřívání děla je sníženo o {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s %%{colorTagClose} z jeho možného maxima.\n\nSchopnost lze aktivovat, pouze pokud je dělo přehřáté."
+
+msgid "comp7_light_fast_recharge/name"
+msgstr "Trik"
+
+msgid "comp7_light_hunter/descr/active"
+msgstr "Vynuluje počet nepřátelských vozidel zasažených granáty.\n\nZa {colorTagOpen}%(duration)s s{colorTagClose} obnoví vaše vozidlo {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} bodů výdrže za každé nepřátelské vozidlo poškozené výstřelem v okamžiku aktivace schopnosti."
+
+msgid "comp7_light_hunter/descr/passive"
+msgstr "Doba nabíjení děla je snížena o {colorTagOpen}%(gunReloadTimeBuff)s %%{colorTagClose} za každé nepřátelské vozidlo poškozené výstřelem."
+
+msgid "comp7_light_hunter/name"
+msgstr "Lovec odměn"
+
+msgid "comp7_light_juggernaut/descr/active"
+msgstr "Po dobu {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}:\n• Obdržené poškození je sníženo o {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s %%{colorTagClose}\n• Maximální rychlost jízdy vpřed je zvýšena o {colorTagOpen}%(fwMaxSpeedBonus)s km/h{colorTagClose}\n• Maximální rychlost couvání je zvýšena o {colorTagOpen}%(bkMaxSpeedBonus)s km/h{colorTagClose}\n• Výkon motoru je zvýšen o {colorTagOpen}%(enginePowerBuff)s %%{colorTagClose}\n• Poškození způsobené nárazem do nepřátelských vozidel je zvýšeno o {colorTagOpen}%(rammingDamageBuff)s %%{colorTagClose}\n\nKdyž je tato úlohová schopnost aktivní, budou vaše pásy zničeny jedním výstřelem."
+
+msgid "comp7_light_juggernaut/name"
+msgstr "Moloch"
+
+msgid "comp7_light_march/descr/active"
+msgstr "Na {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose} bude výkon motoru vašeho vozidla zvýšen o {colorTagOpen}%(enginePowerBuff)s %%{colorTagClose}, jeho nejvyšší rychlost jízdy vpřed bude zvýšena o {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h a jeho hodnota maskování bude zvýšena o {colorTagOpen}%(invisibilityFactor)s %%{colorTagClose}."
+
+msgid "comp7_light_march/name"
+msgstr "Nucený pochod"
+
+msgid "comp7_light_recon/descr/active"
+msgstr "Průzkumné letadlo proletí nad vybranou oblastí za {colorTagOpen}%(delay)s s{colorTagClose}. Nepřátelská vozidla odhalená v okruhu {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} zůstanou odhalena na {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp; s{colorTagClose}. Pro hráče odhaleného touto schopností se se zpožděním{colorTagOpen}%(lampDelay)s s{colorTagClose} zobrazí samostatná ikona.\n\nTato schopnost bude dostupná k použití {colorTagOpen}%(startupDelay)s s{colorTagClose} po začátku bitvy."
+
+msgid "comp7_light_recon/name"
+msgstr "Průzkumný let"
+
+msgid "comp7_light_redline/descr/active"
+msgstr "Během {colorTagOpen}%(delay)s s{colorTagClose} bude vybraná oblast napadena dělostřeleckým úderem.\n\nCíle poškozené v okruhu {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} obdrží {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} bodů poškození a budou ochromeny na {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s s{colorTagClose}."
+
+msgid "comp7_light_redline/name"
+msgstr "Krycí palba"
+
+msgid "comp7_light_risky_attack/descr/active"
+msgstr "Zrychlení\n\nNa {colorTagOpen}%(duration)s s{colorTagClose} se zvýší výkon motoru o {colorTagOpen}%(enginePowerBuff)s %%{colorTagClose}, nejvyšší rychlost jízdy vpřed se zvýší o {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h a nejvyšší rychlost couvání bude zvýšena o {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/h.\n\nObnovení\n\nZa {colorTagOpen}%(healDuration)s s{colorTagClose} bude vašemu vozidlu obnoveno {colorTagOpen}%(baseHeal)s{colorTagClose} bodů výdrže {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s %%{colorTagClose} bodů výdrže ztracených v době, kdy je aktivní Zrychlení."
+
+msgid "comp7_light_risky_attack/name"
+msgstr "Druhý dech"
+
+msgid "comp7_light_role_skill/descr/startLevel"
+msgstr " \n\nNa začátku bitvy je úlohová schopnost nabita na úroveň{colorTagOpen} %(startLevel)s{colorTagClose}."
+
+msgid "comp7_light_sniper/descr/active"
+msgstr "Na {colorTagOpen}%(duration_1)s/%(duration_2)s%(duration_3)s s{colorTagClose} je rozptyl na 100 m roven {colorTagOpen}%(dispersionFactor)s m{colorTagClose}.\n\nPokud vaše vozidlo nebylo v okamžiku výstřelu odhaleno, poškození způsobené vaším granátem se zvýší o {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s %%{colorTagClose}.\n\nČasovač se resetuje po udělení poškození na vzdálenost větší než{colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_light_sniper/name"
+msgstr "Přímý zásah"
+
+msgid "comp7_light_sure_shot/descr/active"
+msgstr "Na {colorTagOpen}%(duration)s s{colorTagClose} je rozptyl děla za pohybu, při otáčení korby a při otáčení věže snížen o {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s %%{colorTagClose}.\n\nKdyž je tato schopnost aktivní, poškozování nepřátel palbou zkracuje dobu nabíjení o {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s %%{colorTagClose} z procent HP, o které přišlo nepřátelské vozidlo.\n\nZničení nepřátelského vozidla sníží dobu nabíjení děla o {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s %%{colorTagClose}."
+
+msgid "comp7_light_sure_shot/name"
+msgstr "Čistý zásah"

@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT-vertaler <<noreply@wargaming.net>\nLanguage-Team: WoT-team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "Toon nieuwe berichten"
+
+msgid "battle/history/header"
+msgstr "Vijand"
+
+msgid "battle/history/latestMessage"
+msgstr "Bekijk het laatste bericht"
+
+msgid "battle/history/title"
+msgstr "Chat geschiedenis:"
+
+msgid "battle/history/upMessage"
+msgstr "Bekijk oude berichten"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)sCHAT UIT%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "Gevechts-chat is onbeschikbaar voor spelers uit jouw land."
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "Gevechts-chat is onbeschikbaar voor jouw account."
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "Gevechts-chat is verboden vanwege ouderlijk toezicht."
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "Gevechts-chat kan aangezet worden bij de spelinstellingen."
+
+msgid "battle/receivers/common"
+msgstr "AAN ALLEN"
+
+msgid "battle/receivers/squad"
+msgstr "AAN PELOTON"
+
+msgid "battle/receivers/team"
+msgstr "AAN TEAM"
+
+msgid "battle/toolTips/cancel"
+msgstr "annuleer"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "verander ontvanger"
+
+msgid "battle/toolTips/default"
+msgstr "met vorige ontvanger"
+
+msgid "battle/toolTips/duringChat"
+msgstr "Tijdens chat:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "Je kan berichten van de geselecteerde speler blokkeren door op de knop naast het spelersbericht in de chat te klikken."
+
+msgid "battle/toolTips/send"
+msgstr "bericht versturen"
+
+msgid "battle/toolTips/startChat"
+msgstr "Start chat:"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "Je kan een bericht rapporteren door er op te klikken en de reden voor de klacht te selecteren. Deze optie staat je ook toe om de chat uit te schakelen of de chat alleen toe te staan voor bondgenoten. De pelotonchat zal altijd beschikbaar zijn."
+
+msgid "battle/toolTips/usingChat"
+msgstr "Chat"
+
+msgid "battle/toolTips/withSquad"
+msgstr "met jouw peloton"
+
+msgid "battle/unknown/ally"
+msgstr "Bondgenoot"
+
+msgid "battle/unknown/enemy"
+msgstr "Vijand"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "Je verbinding met de server zal om %(curfewTime)s worden verbroken. De sessie zal over %(timeLeft)s minuten eindigen."
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "Je hebt de dagelijkse limiet voor speeltijd bereikt. Je sessie zal over %(timeLeft)s minuten eindigen."
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "Je hebt de wekelijkse limiet voor speeltijd bereikt. Je sessie zal over %(timeLeft)s minuten eindigen."
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "Je hebt je speeltijdlimiet bereikt. Je sessie zal over %(timeLeft)s minuten zijn afgelopen."
+
+msgid "chat/personalMessage/warningBody"
+msgstr "Berichten van onbekende spelers kunnen kwaadaardige links bevatten. Volg de links niet en deel je paswoord met niemand."
+
+msgid "chat/personalMessage/warningHead"
+msgstr "Let op!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "Gevechtsresultaten"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "Bericht van %(playerName)s werd geblokkeerd."
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "Verstuur bericht"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "Verstuur bericht"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "Spelers zoeken"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "Voicechat instellingen"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "je kan jezelf niet verbannen."
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "Fout bij uitvoeren van \"%(actionName)s\"."
+
+msgid "chat_error/IS_BUSY"
+msgstr "Server is druk"
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "niet genoeg rechten om de handeling uit te voeren."
+
+msgid "chat_error/NOT_READY"
+msgstr "Actie \"%(actionName)s\" niet beschikbaar."
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "de gebruiker bestaat niet."
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "ongeldige parameter."
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "Voice-chat uitgezet. Zet voice-chat aan door op %(keyName)s te drukken om met je pelotonleden te communiceren."
+
+msgid "client/COMP7/disableVOIP"
+msgstr "Voice-chat uitgezet. Zet voice-chat aan (%(keyName)s) om met je pelotonleden te communiceren."
+
+msgid "client/commendations/comms_mutual"
+msgstr "Jij en %(player)s hebben elkaar aanbevolen."
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)s heeft jou aanbevolen."
+
+msgid "client/commendations/comms_sent"
+msgstr "%(player)s is aanbevolen."
+
+msgid "client/dynSquad/created/allies"
+msgstr "Je bondgenoten hebben een peloton %(squadNum)s gecreëerd."
+
+msgid "client/dynSquad/created/enemies"
+msgstr "Peloton %(squadNum)s gecreëerd door het vijandelijk team."
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "Peloton %(squadNum)s gecreëerd. Pelotonchat en voice-chat zijn nu beschikbaar. Toets %(keyName)s) om voice-chat uit te zetten."
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "Peloton %(squadNum)s gecreëerd. Pelotonchat en voice-chat zijn nu beschikbaar. Toets %(keyName)s) om voice-chat aan te zetten."
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "Peloton %(squadNum)s gecreëerd. Pelotonchat en voice-chat zijn nu beschikbaar. Wijs een knop toe voor het inschakelen/uitschakelen van voice-chat."
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "Peloton %(squadNum)s gecreëerd. Pelotonchat nu beschikbaar."
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "Je bent nu onderdeel van peloton %(squadNum)s. Pelotonchat en voice-chat zijn nu beschikbaar. Toets %(keyName)s) om voice-chat uit te zetten."
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "Je bent nu onderdeel van peloton %(squadNum)s. Pelotonchat en voice-chat zijn nu beschikbaar. Toets %(keyName)s) om voice-chat aan te zetten."
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "Je bent nu onderdeel van peloton %(squadNum)s. Pelotonchat en voice-chat zijn nu beschikbaar. Wijs een knop toe voor het in-/uitschakelen van voice-chat."
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "Je bent toegetreden tot een peloton %(squadNum)s. Pelotonchat nu beschikbaar."
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "Voice-chat uitgezet. Zet voice-chat aan door %(keyName)s) te toetsen om met je pelotonleden te communiceren."
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "Voice-chat aangezet."
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "Je bent nu onderdeel van peloton %(squadNum)s. Pelotonchat en voice-chat zijn nu beschikbaar. Toets %(keyName)s) om voice-chat uit te zetten."
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "Je bent nu onderdeel van peloton %(squadNum)s. Pelotonchat en voice-chat zijn nu beschikbaar. Toets %(keyName)s) om voice-chat aan te zetten."
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "Je bent nu onderdeel van peloton %(squadNum)s. Pelotonchat en voice-chat zijn nu beschikbaar. Wijs een knop toe voor het in-/uitschakelen van voice-chat."
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "Je bent toegetreden tot een peloton %(squadNum)s. Pelotonchat nu beschikbaar."
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s is toegetreden tot het peloton %(squadNum)s."
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s heeft je voor het peloton uitgenodigd."
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)s heeft je voor een peloton uitgenodigd.\nOpgelet! Je werkelijke in-game naam en clantag zullen aan pelotonleden worden getoond."
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s uitgenodigd voor het peloton."
+
+msgid "client/error/broadcastInCooldown"
+msgstr "Mogelijkheid berichten te versturen geschorst voor %s s."
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "Bevel \"%s\" geschorst voor %s s."
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "Bevel %s niet mogelijk."
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "Bericht opgeschort. Wacht alsjeblieft %s s."
+
+msgid "client/information/addToFriends/message"
+msgstr "Verzoek om speler %s aan je vriendenlijst toe te voegen opgeslagen."
+
+msgid "client/information/addToIgnored/message"
+msgstr "Het verzoek om speler %s op je zwarte lijst te zetten is opgeslagen. Chatten met de speler is geblokkeerd en de berichten van de speler zijn verborgen."
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "Chat met %s is geblokkeerd; berichten van de speler worden verborgen."
+
+msgid "client/information/emptySearchResult/message"
+msgstr "Geen resultaten gevonden."
+
+msgid "client/information/removeFromFriends/message"
+msgstr "Verzoek om speler %s uit je vriendenlijst te verwijderen opgeslagen."
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "Het verzoek om speler %s van je zwarte lijst af te halen is opgeslagen. Chatten met de speler is weer beschikbaar."
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "Chat met %s is weer beschikbaar."
+
+msgid "client/information/setMuted/message"
+msgstr "%s Heeft geen mogelijkheid jou spraakberichten te sturen."
+
+msgid "client/information/unsetMuted/message"
+msgstr "het is %s niet toegestaan spraakberichten naar jou te sturen."
+
+msgid "client/warning/AFKWarning/message"
+msgstr "Inactiviteit wordt bestraft!\nSamenspel is nodig om te winnen!"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "Leeg verzoek"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "Gebruikers zoeken"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "Onjuiste lengte of incorrecte tekens in het zoekveld. Toegestane hoeveelheid tekens: %d tot %d."
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "Gebruikers zoeken"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "Voeg speler toe aan vriendenlijst"
+
+msgid "client_action/ADD_GROUP"
+msgstr "Creëer groep"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "Voeg speler toe aan zwarte lijst"
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "Bevestig vriendschapsverzoek"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "Vriendschapsverzoek afwijzen"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "Bewerk groep"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "Spelerskanaal creëren"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "Spelers zoeken"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "Verbinden met spelerskanaal"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "Spelerskanaal verlaten"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "Verwijder speler van vriendenlijst"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "Verwijder speler van zwarte lijst"
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "Notitie verwijderen"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "Verstuur vriendschapsverzoek"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "Zie eerdere berichten"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "Spelerskanalen zoeken"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "Verstuur een bericht"
+
+msgid "client_action/SET_MUTE"
+msgstr "Spraakberichten uitschakelen"
+
+msgid "client_action/SET_NOTE"
+msgstr "Creëer/bewerk notitie"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "Spraakberichten inschakelen"
+
+msgid "client_error/action/in_cooldown"
+msgstr "Actie \"%(actionName)s\" is bevroren voor %(floatArg1)s s."
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "Actie \"%(actionName)s\" is tijdelijk niet beschikbaar. Probeer later opnieuw."
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "Je hebt het maximaal aantal toegestane kanalen overschreden. Sluit onnodige kanalen alstublieft en probeer het opnieuw."
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "Kanaal \"%(strArg1)s\" bestaat al."
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "Kanaalnaam niet gespecificeerd."
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "Ongeldige kanaalnaam \"%(strArg1)s\"."
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "Wachtwoordbevestiging komt niet overeen met het ingevoerde wachtwoord."
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "Kanaalwachtwoord niet gespecificeerd."
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "Ongeldig kanaalwachtwoord."
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "Wachtwoord bevestiging niet gespecificeerd."
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "Ongeldige wachtwoord bevestiging."
+
+msgid "client_error/command/generic_error"
+msgstr "Fout bij uitvoeren van opdracht \"%(strArg1)s\"."
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "de opdracht is bevroren voor %(floatArg1)s."
+
+msgid "client_error/command/not_supported"
+msgstr "de opdracht %(strArg1)s wordt niet ondersteund door de client."
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "ongeldige verbanningsperiode %(int64Arg1)s."
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "ongeldig verbanningstype %(int32Arg1)s."
+
+msgid "client_error/command/wrong_player_name"
+msgstr "ongeldige spelersnaam %(strArg1)s."
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "Speler \"%(strArg1)s\" is in je zwarte lijst."
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "Speler \"%(strArg1)s\" staat niet op je zwarte lijst."
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "Speler niet gevonden"
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "Je hebt reeds het vriendschapsverzoek van \"%(strArg1)s\" bevestigd."
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "Je hebt reeds het vriendschapsverzoek van \"%(strArg1)s\" afgewezen."
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "Je antwoord op het vriendschapsverzoek van \"%(strArg1)s\" wordt verwerkt."
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "Groepsnaam niet opgegeven."
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "Groep \"%(strArg1)s\" bestaat al."
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "Ongeldige groepsnaam \"%(strArg1)s\""
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "Groep \"%(strArg1)s\" niet gevonden."
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "Spraakberichten ingeschakeld voor speler \"%(strArg1)s\"."
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "Notitie tekst niet opgegeven."
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "Geen notities voor speler \"%(strArg1)s\""
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "Speler \"%(strArg1)s\" is je vriend."
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "Speler \"%(strArg1)s\" is niet gevonden in je vriendenlijst."
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "Kanaalnaam moet %(int32Arg1)s–%(int32Arg2)s tekens bevatten."
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "Groepsnaam mag niet meer dan %(int32Arg2)s symbolen hebben."
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "Maximum aantal spelers in zwarte lijst %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "Maximum aantal groepen gecreëerd %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "Helaas, je kan niet meer dan %(int32Arg2)s spelers in je vriendenlijst hebben. Verwijder spelers waar je niet mee speelt."
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "Tekst in de notitie mag niet meer dan %(int32Arg2)s symbolen hebben."
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "Wachtwoord moet %(int32Arg1)s–%(int32Arg2)s tekens bevatten."
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "Ongeldig spelers-ID"
+
+msgid "client_error/shared/GENERIC"
+msgstr "Fout bij uitvoeren \"%(actionName)s\""
+
+msgid "client_error/shared/LOCKED"
+msgstr "Actie \"%(actionName)s\" is tijdelijk niet beschikbaar. Probeer later opnieuw."
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "Spelernaam niet opgegeven."
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "Ongeldige spelernaam %(strArg1)s"
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "Kan geen verbinding maken met de chat server. Probeer later opnieuw."
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "Actie \"%(actionName)s\" wordt niet ondersteund door de spelclient."
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "Er heeft zich een fout voorgedaan, probeer het later opnieuw."
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "Sommige mogelijkheden zijn uitgeschakeld totdat het aftellen begint."
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "Ongeldige gegevens opgegeven."
+
+msgid "command/acceptInvite"
+msgstr "Accepteer uitnodiging"
+
+msgid "command/addFriend"
+msgstr "Voeg speler toe aan vriendenlijst"
+
+msgid "command/addIgnored"
+msgstr "Voeg speler toe aan je zwarte lijst"
+
+msgid "command/broadcast"
+msgstr "Verstuur bericht"
+
+msgid "command/createChatChannel"
+msgstr "Kanaal openen"
+
+msgid "command/createInvite"
+msgstr "Uitnodiging versturen"
+
+msgid "command/createPrivate"
+msgstr "Privékanaal openen"
+
+msgid "command/findChatChannels"
+msgstr "Kanalen doorzoeken"
+
+msgid "command/findUser"
+msgstr "Spelers doorzoeken"
+
+msgid "command/getActiveInvites"
+msgstr "Open uitnodigingenlijst"
+
+msgid "command/getArchiveInvites"
+msgstr "Open opgeslagen uitnodigingenlijst"
+
+msgid "command/getMembersCount"
+msgstr "Geef hoeveelheid spelers weer in kanaal"
+
+msgid "command/leaveChatChannel"
+msgstr "Kanaal verlaten"
+
+msgid "command/rejectInvite"
+msgstr "Wijs uitnodiging af"
+
+msgid "command/removeFriend"
+msgstr "Verwijder deze speler van de vriendenlijst"
+
+msgid "command/removeIgnored"
+msgstr "Verwijder speler van je zwarte lijst"
+
+msgid "command/requestChatChannelMembers"
+msgstr "Lijst met clanleden weergeven"
+
+msgid "command/requestSystemChatChannels"
+msgstr "Lijst met systeemkanalen weergeven"
+
+msgid "command/setMuted"
+msgstr "Spraakberichten uitschakelen"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s is gebanned."
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s is niet meer gebanned."
+
+msgid "command/unsetMuted"
+msgstr "Spraakberichten inschakelen"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "Klik om de gecreëerde groep van contacten op te slaan."
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "Creëren"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "Klik om creatie te annuleren en terug te keren naar je contactenlijst."
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "Sluiten"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "Klik om je groep van contacten te verwijderen."
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "Verwijderen"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "Klik om verwijdering te annuleren en terug te keren naar je contactenlijst."
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "Annuleren"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "Klik om de groep van contacten te bewaren onder een nieuwe naam."
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "Opslaan"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "Klik om bewerking te annuleren en terug te keren naar je contactenlijst."
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "Sluiten"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "Naam mag niet langer zijn dan %(maxChars)s symbolen."
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "Klik om speler toe te voegen aan je Vriendenlijst."
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "Toevoegen"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "Klik om het toevoegen van de speler te annuleren en terug te keren naar je contactenlijst."
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "Sluiten"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "Klik om een speler op naam te zoeken."
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "Zoeken"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "Naam moet tussen de %(minChars)s en %(maxChars)s tekens of getallen bevatten."
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "Zoekfunctie bevroren voor %(time)s secondes vanwege het te vaak zenden van opdrachten."
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "Klik om de geselecteerde instellingen te bewaren."
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "Toepassen"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "Klik om de wijzigingen te annuleren en terug te keren naar je contactenlijst."
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "Annuleren"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "Klik om een groep te creëren."
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "Creëer groep"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "Klik om te zoeken naar een speler op naam die niet in je contactenlijst staat."
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "Zoek buiten contactenlijst"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "Klik om speler te vinden en toe te voegen aan je contactenlijst."
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "Spelers doorzoeken"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "Klik om de instellingen van de contactenlijst te wijzigen."
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "Instellingen"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "Naam mag tot %(maxChars)s tekens bevatten."
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "Commando versturen"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "Uit team zetten"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "Sluiten"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "Kanaal openen"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "Zoeken en meedoen"
+
+msgid "dialogs/channels/title"
+msgstr "Kanalen"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "Sluiten"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "Toetreden"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "Het wachtwoord moet 3 tot 12 tekens bevatten."
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "Onjuist wachtwoord"
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "Je probeert met beveiligd kanaal %s te verbinden."
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "Voer wachtwoord in:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "Let op"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "Verbinden met kanaal"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "Voor clan uitnodigen"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "Als vriend toevoegen"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "Voeg toe aan zwarte lijst"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "Kopieer naar klembord"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "Privékanaal openen"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "Goud omwisselen"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "Van je vriendenlijst verwijderen"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "Verwijder van zwarte lijst"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "Bekijk kenmerken"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "Sorteer op naam."
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "Sorteer op status."
+
+msgid "dialogs/contacts/title"
+msgstr "Contacten"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "Clan"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "Vrienden"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "Vriendschapsverzoeken"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "Zwarte lijst"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "Spraakberichten uitgeschakeld"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "Sluiten"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "Creëren"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "Zal automatisch worden gecreëerd"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "Voer wachtwoord in"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "Naam kanaal"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "Wachtwoord"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "Bevestig wachtwoord"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "Wachtwoord nodig"
+
+msgid "dialogs/createChannel/title"
+msgstr "Kanaal openen"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "Selecteer de %(vehName)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "Selecteer een niveau %(level)s voertuig"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "Selecteer voertuigen"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "Selecteer een niveau %(level)s voertuig"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "Voertuig: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "Sluiten"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "Toetreden"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "Zoeken"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "Zoekresultaten (eerste %d):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "Zoeken"
+
+msgid "dialogs/searchChannel/title"
+msgstr "Kanaal zoeken"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "Vriend toevoegen"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "Zwarte lijst"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "Sluiten"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "Zoeken"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "Eigenschappen"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "Zoekresultaten:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "Zoeken"
+
+msgid "dialogs/searchContact/title"
+msgstr "Contacten zoeken"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "Servicekanaal"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "Selecteer een niveau VIII voertuig"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "Het hoofddoel is om als enige peloton te overleven."
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "De Frontliniemodus is alleen beschikbaar\nvoor niveau VIII voertuigen."
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ event +++\n+++ event +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "Extra ervaring per gevecht\nvoor niveau IV voertuigen of hoger"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "Speel in voertuigen van hetzelfde niveau\nbeginnend vanaf niveau IV en ontvang extra ervaring"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "Zodra spelers de uitnodiging accepteren, zullen je werkelijke in-game naam en clantag tijdens het gevecht aan pelotonleden worden getoond."
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "Chatkanaal"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "Experimentele modules op voertuigen: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "Status: heeft pauze"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "Status: in gevecht"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "Status: niet gereed"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "Status: offline"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "Status: gereed"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "Ontbinden"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "Uitnodigen"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "schuldig"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "verdacht"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "Team kill: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "Schakel spraakberichten uit"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "Als vriend toevoegen"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "Voeg toe aan zwarte lijst"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "Sluiten"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "Privékanaal openen"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "Zet spraakberichten aan"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "Totaal"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "Opgericht"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "Laatste gevecht"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "Status:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s - Spelersgegevens"
+
+msgid "events/enterChannel"
+msgstr "[%s] betreedt het kanaal"
+
+msgid "events/leaveChannel"
+msgstr "[%s] verlaat het kanaal"
+
+msgid "keyboardChat"
+msgstr "Chat"
+
+msgid "listView/emptyList/info"
+msgstr "meldingen"
+
+msgid "listView/emptyList/invite"
+msgstr "uitnodigingen"
+
+msgid "listView/emptyList/offer"
+msgstr "acties"
+
+msgid "listView/emptyList/template"
+msgstr "Nog geen %(listType)s."
+
+msgid "listView/news/checkNewsBtn"
+msgstr "Naar nieuws"
+
+msgid "listView/news/header"
+msgstr "WAT IS NIEUW?"
+
+msgid "listView/title"
+msgstr "Berichtencentrum"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "Gevechtsduur: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "Versturen"
+
+msgid "lobby/buttons/channels"
+msgstr "Kanalen"
+
+msgid "lobby/buttons/contacts"
+msgstr "Contacten"
+
+msgid "lobby/buttons/send"
+msgstr "Versturen"
+
+msgid "lobby/channels/actions/remove"
+msgstr "Kanaal sluiten"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "Berichtdatum weergeven"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "Berichttijd weergeven"
+
+msgid "lobby/faq/close"
+msgstr "Sluiten"
+
+msgid "lobby/faq/title"
+msgstr "Veelgestelde vragen"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "Voeg deze speler aan vriendenlijst toe"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "Voeg deze speler aan zwarte lijst toe"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "Kopieer naar klembord"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "Privékanaal openen"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "Toon spelersgegevens"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "Zoek buiten contactenlijst"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "Annuleren"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "Bewerk groep"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "Verwijder uit groep"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "Verwijder groep"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "Klik om creatie te annuleren en terug te keren naar je contactenlijst."
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "Sluiten"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "Klik om de gecreëerde spelers notitie op te slaan."
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "Creëren"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "Sleep contacten hier"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "Klik om bewerking te annuleren en terug te keren naar je contactenlijst."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "Sluiten"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "Klik om de bewerkingen aan de spelers notitie op te slaan."
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "Opslaan"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "Niets gevonden dat overeenkomt met je zoekopdracht."
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "Permanente tactische eenheden"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "Vrienden"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "Andere"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "Zwarte lijst"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "Vriendschapsverzoeken"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "Vind een speler in de lijst"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "Nog geen spelers toegevoegd."
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "Contactenlijst leeg"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "Geen contacten online op dit moment."
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "Probeer te zoeken buiten contactenlijst."
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "Geen overeenkomsten"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "Voer spelernaam in."
+
+msgid "messenger/contacts/title"
+msgstr "Contacten"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "Sluiten"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "Toevoegen"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "De groep bestaat al."
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "Spelers doorzoeken"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "Sluiten"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "Creëren"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "Notitie aanmaken"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "Sluiten"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "Opslaan"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "Naam mag niet langer zijn dan %(maxChars)s symbolen."
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "Bewerk notitie"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "voor "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "Sluiten"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "Creëren"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "Creëer groep"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "Voer een naam in (maximaal %(symbols)s symbolen)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "Inclusief contacten binnen de groep"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "Annuleren"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "Verwijderen"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "Verwijder groep"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "Sluiten"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "Opslaan"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "Bewerk groep"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "Voer een naam in (maximaal %(symbols)s symbolen)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "Voer omschrijving in (tot %(symbols)s symbolen)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "Omschrijving mag niet langer zijn dan %(maxChars)s symbolen."
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "Spelers doorzoeken"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "Accepteer als een groep in één scherm"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "Geef offline spelers weer"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "Geef \"Andere\" categorie weer"
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "Berichten van spelers niet in je contactenlijst:"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "Accepteer in een apart scherm"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "Annuleren"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "Toepassen"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "Instellingen"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "Onderdeel toegevoegd"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "Vechtpaspunten verwijderd"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "Munten verwijderd"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "Manoeuvrestokens verwijderd"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "Componenten verwijderd"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "Persoonlijke faampunten verwijderd"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "Vrije ervaring verminderd"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "Plichtpunten verwijderd"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "Tokens voor dienstjaren verwijderd"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "Vechtpaspunten toegevoegd"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "Munten toegevoegd"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "Manoeuvrestokens toegevoegd"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "Componenten toegevoegd"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "Persoonlijke faampunten toegevoegd"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "Vrije ervaring ontvangen"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "Plichtpunten toegevoegd"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "Tokens voor dienstjaren toegevoegd"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "Voeg alle contacten toe aan je lijst van ontvangers."
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "Voeg geselecteerde contact toe."
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "Verwijder alle contacten van de ontvangstlijst."
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "Verwijder geselecteerd contact van de contactlijst."
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "De actie %(action)s is nog %(cooldownPeriod)s sec inactief."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "Chatfout"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "Je hebt het maximum aantal kanalen open staan. Sluit aub ongebruikte kanalen."
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "Fout"
+
+msgid "server/errors/addFriendError/message"
+msgstr "Fout bij vriend toevoegen."
+
+msgid "server/errors/addFriendError/title"
+msgstr "Fout"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "Fout bij het toevoegen van de gebruiker aan de zwarte lijst."
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "Fout"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "Er is al een kanaal met die naam."
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "Fout bij aanmaken kanaal."
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "Kanaal verwijderd."
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "Fout bij betreden kanaal"
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "Chatfout"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "Fout bij uitvoer chatopdracht: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "Chatfout"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "Opdracht %(command)s is nog %(cooldownPeriod)s sec geblokkeerd."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "Chatfout"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "Bericht opgeschort. Te veel berichten."
+
+msgid "server/errors/connectTimeout/message"
+msgstr "De verbinding met het kanaal reageert niet."
+
+msgid "server/errors/connectTimeout/title"
+msgstr "Chatfout"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "Privékanaal openen mislukt: de gebruiker is offline."
+
+msgid "server/errors/createPrivateError/title"
+msgstr "Chatfout"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "Ongeldig teken"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "Fout"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "Ongeldige parameter %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "Fout"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "Onjuist wachtwoord voor het beveiligde kanaal."
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "Fout bij betreden kanaal"
+
+msgid "server/errors/initializationFailure/message"
+msgstr "Chatinitialisatie mislukt."
+
+msgid "server/errors/initializationFailure/title"
+msgstr "Chatfout"
+
+msgid "server/errors/internalError/message"
+msgstr "Interne fout. Probeer het later opnieuw."
+
+msgid "server/errors/internalError/title"
+msgstr "Fout bij aanmaken kanaal"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "Ongeldige naam voor het kanaal"
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "Chatfout"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "Fout tijdens uitvoeren uitnodigingsopdracht."
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "Fout"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "%(user)s is al verbannen."
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "Chatfout"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "%(user)s is al kanaalbeheerder."
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "Chatfout"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "Chatfout"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "De gebruiker is de verbinding kwijt."
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "Chatfout"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "%(user)s is geen beheerder van het kanaal."
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "Chatfout"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "Maximaal aantal gebruikers bereikt voor dit kanaal."
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "Fout bij verbinding met kanaal"
+
+msgid "server/errors/notAllowed/message"
+msgstr "Onvoldoende rechten voor deze handeling."
+
+msgid "server/errors/notAllowed/title"
+msgstr "Chatfout"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "Voer wachtwoord in om het beveiligde kanaal te betreden."
+
+msgid "server/errors/passwordRequired/title"
+msgstr "Fout bij kanaal betreden."
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "Het wijzigen van deze instelling is momenteel onbeschikbaar."
+
+msgid "server/errors/sqlError/message"
+msgstr "Fout bij benaderen database."
+
+msgid "server/errors/sqlError/title"
+msgstr "Fout"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "Deze gebruiker heeft je aan zijn zwarte lijst toegevoegd."
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "Fout"
+
+msgid "server/errors/userNotExists/message"
+msgstr "Gebruiker met die naam bestaat niet."
+
+msgid "server/errors/userNotExists/title"
+msgstr "Fout"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "Maximaal aantal contacten bereikt."
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "Fout"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "Je hebt het maximaal aantal toegestane kanalen overschreden."
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "Je hebt het maximaal aantal toegestane tekens voor een kanaalnaam overschreden."
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "Je hebt het maximaal aantal toegestane tekens voor een wachtwoord overschreden."
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "Kanaal \"%(strArg1)s\" bestaat al."
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "Ongeschikte tekens in de kanaalnaam."
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "Ongepaste woorden in de kanaalnaam."
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "Staaljager"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "Dit zijn speciale voertuigen voor Staaljager. Betreed Staaljager en zie met eigen ogen waar deze voertuigen toe in staat zijn."
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "Voertuig vernietigd"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "Level bereikt"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "Punten verdiend"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "Overwinning"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "Toegevoegd"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "Begrepen!"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "Ga naar operatie"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "Statistieken"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "Actie"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "De actie is voorbij."
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "WoT Plus beheerbare XP-vermenigvuldiger is beschikbaar"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "WoT Plus beheerbare XP-vermenigvuldiger is onbeschikbaar"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "Niet gelukt om verbruiksartikelen aan te vullen op %s. Al je goud zal beschikbaar komen nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "Het aanvullen van gevechtsbevelen voor de %s is mislukt. De actie is wegens onderhoud tijdelijk onbeschikbaar."
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "Aanvullen van het gevechtsbevel op de %s mislukt. Onvoldoende middelen."
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "Automatisch aanvullen van het gevechtsbevel op de %s mislukt. Monteer het alsjeblieft handmatig."
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "Het gevechtsbevel voor de %s is succesvol aangevuld. Uitgegeven: "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Kan verbruiksartikelen van %s niet bijvullen. Overweeg verbruiksartikelen te kopen met goud."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Aanvullen gebruiksmiddelen tank %s mislukt. Onvoldoende credits."
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "Niet gelukt om verbruiksartikelen aan te vullen op %s. Al je goud zal beschikbaar komen nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "Automatisch aanvullen verbruiksartikelen voertuig %s mislukt. Laad verbruiksmiddelen handmatig."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "De verbruiksartikelen op de %s zijn succesvol aangevuld. Uitgegeven: "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "Kan munitie van %s niet bijvullen. Overweeg granaten te kopen met goud."
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "Aanvullen munitie tank %s mislukt. Onvoldoende credits."
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "Niet gelukt om munitie aan te vullen op %s. Al je goud zal beschikbaar komen nadat de werking van WG Wallet automatisch is hersteld."
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "Automatisch aanvullen munitie voertuig %s mislukt. Laad munitie handmatig."
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "Munitie tank %s succesvol aangevuld. Je hebt uitgegeven "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "Huurstijl verlengen mislukt voor %s. Koop de stijl voor goud."
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "Huurstijl verlengen mislukt voor %s. Onvoldoende middelen."
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "Huurstijl verlengen mislukt voor %s. Al je goud zal beschikbaar zijn nadat WG Wallet operationaliteit automatisch is hersteld."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "Huurperiode verlengen"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "De %s huurstijl aangebracht op het %s voertuig zal binnenkort verlopen: 3 gevechten resterend."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "De \"%s\" stijlhuur voor de %s zal na 3 gevechten automatisch worden verlengd met %s gevechten."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "Naar exterieur"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "De %s huurstijl aangebracht op het %s voertuig is verlopen. Je kunt de huurperiode van de stijl verlengen in het exterieur scherm."
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "Huurstijl automatisch verlengen mislukt voor %s. Koop de stijl handmatig."
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "Huurstijl voor %s succesvol verlengd. Uitgegeven "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "Reparatie van %s mislukt."
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "Reparatie tank %s mislukt. Onvoldoende credits."
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "Niet gelukt om %s te repareren. Al je goud zal beschikbaar zijn nadat WG Wallet operabiliteit automatisch is hersteld."
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "Automatische reparatie van %s mislukt. Repareer je voertuig handmatig."
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "Tank %s is succesvol gerepareerd. Je hebt uitgegeven "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "WoT Plus tankhuzaar banier is beschikbaar"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "WoT Plus tankhuzaar banier is onbeschikbaar"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "Badges toegevoegd"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "WoT Plus gevechtsbonus is beschikbaar"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "WoT Plus gevechtsbonus is onbeschikbaar"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "Missie voltooid: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "Je hebt een reeks Tankacademiemissies voltooid."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "Tokens kunnen voor een willekeurig onderzoekbaar niveau VI voertuig worden ingeruild."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "Naar voertuigselectie"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "Gefeliciteerd!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "Tankacademiemissies voltooid: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "Beloning ontvangen:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "Academietoken gebruikt."
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "Beloning ontvangen:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "Garageplekken: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "Huurvoertuigen: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "Verdien voertuigen en nuttige middelen door trainingsmissies te voltooien."
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "Naar Tankacademie"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "ALLES DAT JE NODIG HEBT\nVOOR EEN GOED BEGIN"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "Academietoken"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "Onuitgegeven punten gebruikt"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "Onuitgegeven punten gebruikt bij activatie elite circuit: %(points)s."
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "Onuitgegeven punten gebruikt: %(points)s voor het \"%(chapter)s\" hoofdstuk."
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "Standaard uitrusting om uit te selecteren"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "Elite circuit geactiveerd"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "Elite circuit is gepauzeerd."
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "Puntenlimiet bereikt"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "Je hebt met de %(vehName)s het maximale aantal punten verdiend.\nBeloning voor het bereiken van de puntenlimiet: %(bonusPoints)s.\nSpeel met een ander voertuig om punten te blijven verdienen."
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "Gefeliciteerd!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "%(name)s stijl ontvangen. Deze kan direct op het voertuig worden aangebracht en tijdens de Vechtpasprogressie worden geüpgraded."
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "Bounty-uitrusting om uit te selecteren"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "Details"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "Details"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "Je hebt het \"%(chapter)s\" hoofdstuk van Vechtpas voltooid!\nOntvangen beloningen:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "Je hebt het \"%(chapter)s\" hoofdstuk van Vechtpas voltooid!\nOntvangen beloningen:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "Je hebt Vechtpas-progressiestadium %(newLevel)s voltooid.\n\nOntvangen beloning:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "Stadia toegevoegd in hoofdstuk %(chapter)s: %(levelCount)s\nJe hebt stadium %(currentLevel)s bereikt.\nOntvangen beloningen:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "Je hebt beloningen ontvangen voor eerder voltooide stadia van Vechtpas:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "Je zult nu zowel de basis- als verbeterde beloningen ontvangen."
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "Je hebt beloningen voor voltooide stadia ontvangen door onuitgegeven punten te gebruiken:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "Je hebt het \"%(chapter)s\" hoofdstuk voltooid.\nOntvangen beloning:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "Vecht door en verdien punten!"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "Je hebt alle basishoofdstukken van Vechtpas seizoen %(season)s voltooid.\nOntvangen beloning:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "Je hebt progressiestadium %(newLevel)s van het \"%(chapter)s\" hoofdstuk voltooid.\nOntvangen beloning:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "Details"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "Vrije ervaring uitgegeven:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "Goud uitgegeven:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "Je hebt de verbeterde pas en alle stadia voor het \"%(chapter)s\" hoofdstuk gekocht.\nOntvangen beloningen voor alle stadia van het hoofdstuk:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "Je hebt een bonus ontvangen voor het kopen van de verbeterde passen:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "Je zult nu zowel de basis- als verbeterde beloningen ontvangen voor alle hoofdstukken van het seizoen."
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "Stadia toegevoegd in hoofdstuk %(chapter)s: %(levelCount)s\nJe hebt stadium %(currentLevel)s bereikt.\nOntvangen beloningen:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "Je hebt een bonus ontvangen voor het kopen van de verbeterde pas:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "Deze verbeterde pas is alleen van toepassing op het \"%(chapter)s\" hoofdstuk."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "Je hebt beloningen ontvangen voor de eerder voltooide stadia van Vechtpas:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "Deze verbeterde pas werkt alleen voor het '%(chapter)s' hoofdstuk."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "Je zult nu zowel de basis- als verbeterde beloningen ontvangen in het '%(chapter)s' hoofdstuk."
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "Standaard beloning toegevoegd:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "Verbeterde pas gekocht"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "Verbeterde pas gekocht"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "Stadia gekocht"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "Gefeliciteerd!"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "Beloning toegekend"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "Elite circuit stadium voltooid.\nOntvangen beloning:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "Elite circuit stadia voltooid: %(amount)s\nOntvangen beloning:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "Bemanningslid:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "Gevechtsprestaties"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "Ontvangen %s voor actie '%s'"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "Ontvangen %s voor actie '%s'"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s tokens"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s credits"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s obligaties"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "%s verjaardagsmunten"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s Vrije ervaring"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s goud"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "Gevecht"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "Vechtpaspunten ontvangen: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "Tokens ontvangen"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "Details"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "compensatie voor schade toegebracht door bondgenoten: %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "Credits verdiend: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "Obligaties ontvangen"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "Verloren"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "x%d voor de eerste overwinning"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "Gelijkspel"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "Gevecht geëindigd"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "Gevechtsreservepunten"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "Componenten ontvangen"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "Verjaardagsmunten ontvangen"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "Ervaring ontvangen: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "Offensief"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "Bouwwerk"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "Industriële grondstoffen verdiend"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "op clan"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "op speler"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "Vrije ervaring ontvangen"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "Goud verdiend"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "Je hebt de '%(nameMedal)s' medaille ontvangen voor toetreding tot de rangen van %(campaignName)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "Gefeliciteerd!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "Je hebt de '%(nameMedal)s' medaille ontvangen voor het succesvol voltooien van 45 missies in de %(categoryName)s reeks van de %(campaignName)s campagne."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "Je hebt de '%(nameMedal)s' medaille ontvangen voor het succesvol voltooien van 30 missies in de %(categoryName)s reeks van de %(campaignName)s campagne."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "Je hebt de '%(nameMedal)s' medaille ontvangen voor het succesvol voltooien van 15 missies in de %(categoryName)s reeks van de %(campaignName)s campagne."
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "boete voor schade toegebracht aan bondgenoten: %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "Gefeliciteerd! \nVoor het succesvol voltooien van persoonlijke missies ontvang je de volgende beloningen"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "Gefeliciteerd!\nVoor het succesvol voltooien van de persoonlijke missies van de Langverwachte Backup campagne ontvang je de volgende beloningen"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "Gefeliciteerd!\nVoor het succesvol voltooien van de persoonlijke missies van de Tweede Front campagne ontvang je de volgende beloningen"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "Gefeliciteerd!\nVoor het succesvol voltooien van de persoonlijke missies van beide campagnes ontvang je de volgende beloningen"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "Toegevoegd aan de creditreserve"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Missie voltooid! Beloning"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "Statistieken"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "Vechtpaspunten ontvangen: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "Bedden aan de barakken toegevoegd"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "Tokens toegevoegd"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "Credits toegevoegd"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "Obligaties toegevoegd"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "Componenten toegevoegd"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "Verjaardagsmunten toegevoegd"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "Vrije ervaring toegevoegd"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "Goud toegevoegd"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "Toegevoegd"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "Campagnepunten: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "Huisdieren ontvangen"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "Dagen Wargaming Premium account toegevoegd"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "Dagen WoT Premium account toegevoegd"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "Bonusgevechten toegevoegd: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "%(count)s dagelijks(e)"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "%(count)s standaard"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "Plekken toegevoegd"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "Bonusgevechten toegevoegd"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \nStandaard, voor jouw prestatie in het voltooide stadium: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \nVoor het voltooien van missies: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \nDagelijks, voor het aantal chevrons dat je in de kwalificatie hebt ontvangen: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \nStandaard, voor het aantal chevrons dat je in de kwalificatie hebt ontvangen: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "Veranderingen in rangen"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \nChevrons ontvangen"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \nChevrons ontvangen"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \nJe gaat naar divisie: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \nJe gaat naar de competities"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \nChevron behouden"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \nJe hebt rang %(rankName)s (%(divisionName)s) ontvangen"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \nJe hebt rang %(rankName)s (%(divisionName)s) verloren"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \nRangschild verzwakt"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \nGeen veranderingen"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \nRangschild gebroken"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \nChevron behouden"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \nChevron ontvangen"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \nChevron verloren"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \nChevrons ontvangen"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "Rangpunten"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "Je hebt de volgende beloningen ontvangen voor jaren van trouwe dienst"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "Gefeliciteerd!"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "Rekruut"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "Voertuigen"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "Vrouwelijk bemanningslid"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "Technische nederlaag"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "Technische overwinning"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "Overwinning"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "Er is één plek voor uitgesloten kaarten verwijderd. De %(mapName)s-kaart zit terug in de roulatie."
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "De uitgesloten %(mapNames)s-kaart is uit het spel verwijderd. Je kunt een nieuwe kaart uitsluiten."
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "Er is één plek voor uitgesloten kaarten verwijderd. De %(mapNames)s-kaart zit terug in de roulatie."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "De inruilactie is begonnen!\n10 dagen lang kun je je blauwdrukken inruilen voor andere waardevolle dingen."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "Details"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "Inruilactie afgelopen"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "Ruil je blauwdrukken in"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "Blauwdrukken inruilen is wegens onderhoud niet beschikbaar."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "Blauwdrukken inruilen is weer beschikbaar."
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "Vergeet je beloning niet te claimen!"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "Naar selecteren"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "De bonussen van gevechten die nog niet zijn afgelopen, zijn niet inbegrepen."
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "Persoonlijke reserve \"%(boosterName)s\" is uitgeschakeld vanwege technische redenen."
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: persoonlijke reserve volledig gebruikt"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "Reserves verloren: "
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "Reserves zijn verlopen"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "credits"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "Vrije XP"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "Bemannings-XP"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "Gevechts-XP"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "Totale bonus voor %(resourceName)s:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "Sluiten"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "Je verliet of bent uitgesloten van de clan:"
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "%(element_name)s toegevoegd"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "\"%(element_name)s\" medaille toegevoegd"
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "\"%(element_name)s\" banier toegevoegd"
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "Beloning ontvangen"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "Aanbevelingen ontvangen"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "Live tags zijn momenteel onbeschikbaar"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "Live tags zijn beschikbaar in gevechten"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "Aanbevelingen zijn momenteel onbeschikbaar"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "Aanbevelingen zijn beschikbaar in gevechten"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "Je hebt %(gold)s goud en %(credits)s credits ontvangen."
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "Je hebt %(credits)s credits ontvangen."
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "Bemanningsassistent is beschikbaar"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "Bemanningsassistent is niet beschikbaar"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "Credit- en goudreserve geopend!"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "Veiling"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "Vechtpas"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "Datum"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "Tokens verwijderd"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "Credits verminderd"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "Obligaties verwijderd"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "Componenten verwijderd"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "Verjaardagsmunten verwijderd"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "Vrije ervaring verminderd"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "Goud is van je balans afgehaald"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "Financiële transactie"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "Veiling"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "Tokens ontvangen"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "Credits ontvangen"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "Obligaties ontvangen"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "Componenten ontvangen"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "Verjaardagsmunten ontvangen"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "Vrije ervaring ontvangen"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "Goud ontvangen"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "\"Held van deze tijd\" onderscheiding"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "De %(medalName)s medaille is ontvangen voor %(battlesCount)s deelgenomen gevechten\nStickers ontvangen voor %(battlesCount)s deelgenomen gevechten (x%(decalsCount)s)"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "Het gebruik van demontagekits is wegens onderhoud tijdelijk onbeschikbaar."
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "Het gebruik van demontagekits is weer beschikbaar. Onze excuses voor enig ongemak."
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "Dog tag-achtergrond ontgrendeld: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "Dog tag-gravure ontgrendeld: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "%(name)s dog tag"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "bereikt level"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "Nieuw level"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "Ontgrendeld"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "Achtergrond"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "Gravure"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "Wargaming Premium account vervalt op %(expiryTime)s."
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "Bevestig e-mailadres"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "E-mailadres niet bevestigd"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "Experimentele module gebruikt"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "Alle experimentele modules verwijderd"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "Experimentele modules gedemonteerd van de volgende voertuigen"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "Scenario"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• Uitrustingsgevechtsbevelen om uit te kiezen"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• Vechtpaspunten"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• Universele brochure"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• Obligaties"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• Gevechtsreservepunten"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• Experimentele uitrusting waaruit je kunt kiezen"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• Mentorlicentie"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• Hertrainingsbevelen"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• Universeel handboek"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "Je hebt %(eventCoin)s verjaardagsmunten ontvangen als geschenk."
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "Er is een extra plek voor het uitsluiten van kaarten ontgrendeld"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "Uitsluiten van kaarten met WoT Plus is niet mogelijk"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "Reden"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "Boosteroid-abonnement beëindigd."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "Abonnement beëindigd."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "Voertuig uitgezet"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "Voertuig"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "Voertuig beschikbaar"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "Voertuig"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "Voortgang gereset"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "Ga naar de missie"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "Let op! De voortgang in de %(missionShortName)s missie is gereset. De voltooiing van de voorwaarde zal worden herstart."
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "Missie: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "Operatie: %(operation)s"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s, %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "Details"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "Je mag tijdelijk geen gevechten spelen in de %(mode)s-modus. De blokkering zal worden opgeheven op %(date)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "Je tijdelijke blokkering is opgeheven. Je hebt weer toegang tot de %(mode)s-modus."
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "Je credits, XP en beloningen die je in het gevecht hebt verdiend, zijn je ontnomen voor %(reason)s in de %(mode)s modus."
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "Je hebt een waarschuwing ontvangen wegens %(reason)s in de %(mode)s-modus."
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "Blokkering"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "Blokkering opgeheven"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "Je bent bestraft"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "Onsportief gedrag"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "Oorlog verklaard aan clan %(clan)s!\nOffensief begint op %(date)s om %(time)s."
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "Verdediging overrompeld!\nAlle aanvallen geannuleerd. Vul de duurzaamheidsbalk van het commandocentrum om de Vesting te laten functioneren."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "Gepland gevecht met clan %(clan)s is geannuleerd."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "Offensief gepland om %(time)s op %(date)s tegen de %(clan)s is geannuleerd: het verschil tussen Vestingniveaus is meer dan 1 niveau."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "Gebouw %(building)s is beschadigd! Vul de duurzaamheidsbalk van het Bouwwerk aan om het te laten functioneren."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "Commandocentrum is beschadigd! Vul de duurzaamheidsbalk aan om de Vesting te laten functioneren. Als je commandocentrum nog meer schade ontvangt zal je defensie overrompeld worden."
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "Clan %(clan)s heeft je de oorlog verklaard!\nOffensief begint op %(date)s om %(time)s."
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "Verdedigingsperiode is aangepast: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "Verdedigingsperiode is aangepast. Nieuwe verdedigingsperiode: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "Verdediging van je Vesting is uitgeschakeld. Niveau van alle bouwwerken en reserves is teruggebracht naar niveau IV."
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "Gefeliciteerd! Je hebt jouw vesting tot niveau VIII ontwikkeld."
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "Gefeliciteerd! Vesting is volledig operationeel in het voordeel van de clan."
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "Staakt-het-vuren dag is veranderd. Nieuwe staakt-het-vuren dag niet bepaald."
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "Staakt-het-vuren dag vastgesteld: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "Level van Bouwwerk %(building)s is verhoogd.\nReserve %(order)s in voorbereiding om omgezet te worden in industriële grondstoffen en toegevoegd te worden aan het depot."
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "Reserve %(orderTypeName)s gecompenseerd en klaar voor activatie."
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "Thuisserver veranderd naar %(peripheryName)s."
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "Industriële grondstoffen toegevoegd: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "Industriële grondstoffen afgetrokken: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "Je bent gekoppeld aan bouwwerk %(building)s."
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "Reserves toegevoegd: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "Reserves afgetrokken: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "Reserve %(order)s is actief. Tijd over: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "Reserve geactiveerd"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "Reserve %(order)s is volledig gebruikt."
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "Voorbereiding van %(count)s reserve(s) %(order)s voltooid."
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "Reserve evacuatie is verlopen.\n\n%(additional)s\nTotaal voor onze clan: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "Vijand activeerde de reserve vordering en plunderde een extra: %(resDec)s\nExtra bewaard door onze clan: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "Reserve vordering is verlopen.\n\n%(additional)s\nTotaal voor onze clan: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "Vijand activeerde de reserve evacuatie en redde een extra: %(resDec)s\nExtra geplunderd door onze clan: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "Opslag van bouwwerk %(building)s is vol.\nGebruik industriële grondstoffen om reserves voor te bereiden of transporteer het naar een ander bouwwerk."
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "Neutraliteitsperiode van je Vesting is geëindigd.\nAndere clans kunnen je nu aanvallen—wees voorbereid!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "Jouw Vesting heeft neutraliteit verklaard.\nAndere clans kunnen je nu niet aanvallen. Periode van neutraliteit eindigt: %(finish)s."
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "%(defResCount)s eenheden industriële grondstoffen aan de voorraad van het commandocentrum toegevoegd."
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "Naar het evenement"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "Naar voortgang"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "Je hebt %(gold)s goud ontvangen."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "Veiling: jouw bod is lager dan het concurrerende bod."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "Je kans om de huidige veiling te winnen is afgenomen: jouw bod is momenteel lager dan het concurrerende bod."
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "Naar het evenement"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "Je bod heeft verloren. Teruggave:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "Andere spelers hebben meer geboden dan jij. Je bod zal snel weer aan je account worden toegevoegd."
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "Fout"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "Fout bij het bieden. Er zijn geen middelen afgetrokken. Probeer het alsjeblieft nog eens."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "Het bieden is bijna afgelopen."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "Schiet op en plaats je bod!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "Schiet op en plaats je bod. Er zijn slechts een beperkt aantal items beschikbaar."
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "Het bieden op het nieuwe kavel is begonnen!"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "Bedden aan de barakken toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "Bedden van de barakken verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "Persoonlijke reserves"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "Persoonlijke reserves verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "Tokens toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "Tokens verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "Compensatie voor"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "met tokens"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "Camouflage"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "credits"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "met obligaties"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "Embleem"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "met verjaardagsmunten"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "Goud"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "Leus"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "Effect"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "Verf"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "getal van één cijfer"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "getal van twee cijfers"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "Getal van drie cijfers"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "Sticker"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "Stijl"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "Credits toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "Credits zijn van je balans afgehaald"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "Bemanningsboeken toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "bemanning naar barakken gestuurd"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "bemanning %d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "Bemanningsskins toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "Bemanningsskins verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "bemanning %d%% naar de barakken gestuurd"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "bemanning verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "Obligaties ontvangen"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "Obligaties verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "Persoonlijke kortingen"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "Onderscheidingen toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "Onderscheidingen verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "Experimentele modules toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "Experimentele modules verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "Toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "Verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "Componenten toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "Componenten verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "Verbruiksartikelen"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "Verbruiksartikelen verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "Verjaardagsmunten toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "Verjaardagsmunten verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "Verlopende persoonlijke reserves"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "Bevelen toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "Bevelen weggenomen"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "Vrije ervaring"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "Vrije ervaring toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "Vrije ervaring verminderd"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "Goud toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "Goud is van je balans afgehaald"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "Universele fragmenten toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "Universele fragmenten verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "Ontvangstbewijs"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "Toegevoegd aan depot"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "Verbruiksartikelen verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "Op voertuigen"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "Blauwdrukfragmenten van %(nationName)s voertuigen toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "Blauwdrukfragmenten van %(nationName)s voertuigen verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "Toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "Verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "stuks"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "Dagen Wargaming Premium account toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "Dagen Wargaming Premium account afgetrokken"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "Wargaming Premium account"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "De %(vehicleName)s heeft %(xpCount)s elite punten ontvangen."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "De %(vehicleName)s heeft elite level %(level)s en %(xpCount)s elite punten ontvangen."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "De %(vehicleName)s heeft elite level %(level)s ontvangen."
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "Items van"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "Steam-DLC"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Steam-inventaris"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "Bonusgevechten toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "Bonusgevechten verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "aantal huurdagen: "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "Plekken toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "Plekken verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "WoT Premium account"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "Dagen WoT Premium account toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "Dagen WoT Premium account afgetrokken"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "Rekruten"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "Niet uitgedeelde ervaring aan bemanningsleden toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "Niet uitgedeelde ervaring van bemanningsleden verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "Ontslagen"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "alle modules zijn onderzocht"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "Blauwdrukfragmenten van %(vehicleName)s toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "Blauwdrukfragmenten van %(vehicleName)s verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "Voertuigen toegevoegd"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "Voertuigen verwijderd"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "Gehuurde voertuigen toegevoegd"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "Je hebt verbruiksartikelen ontvangen: %(typeName)s \"%(itemName)s\" – %(amount)d item(s)."
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "Naar de dozen"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "Klik op de knop om de inhoud te bekijken."
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "Je hebt een pakketje ontvangen:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Bekijken"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "Gates geactiveerd: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "Gates activeren"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "Items ontvangen:\n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "We hebben al je Gates geactiveerd en hun inhoud aan je account toegevoegd:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Beloningen ontvangen"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "We hebben al je dozen geopend en de beloningen van Operatie Feestdagen toegevoegd"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "Ontvangen beloningen"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "Toegevoegde stickers: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "Toegevoegde sticker: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "Naar de enquête"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "Gefeliciteerd!"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "Verkenningsmissie is afgelopen. Dankjewel voor je bijdrage aan het ontwikkelen van nieuwe kaarten!"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "Verkenningsmissie is afgelopen.\n\nDankjewel voor je bijdrage aan het ontwikkelen van nieuwe kaarten!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "Verkenningsmissie is begonnen.\n\nVecht met niveau VIII–X voertuigen op kaarten die nog in ontwikkeling zijn, deel je mening in enquêtes en ontvang beloningen!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "Uiteindelijke beloning:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "Je hebt in Verkenningsmissie %(battles)s gevechten gespeeld."
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "Beloning ontvangen:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "Je kunt nu een enquête invullen die betrekking heeft op de moduswerking in Verkenningsmissie."
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "Enquête beschikbaar"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "Je kunt nu een enquête invullen die betrekking heeft op de %(mapName)s-kaart in Verkenningsmissie."
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "Naar de barakken"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "Bemanningsleden verwijderd: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "Thuisfrontspullen"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "Uitrustingsassistent is beschikbaar"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "Uitrustingsassistent is niet beschikbaar"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "Je hebt nieuwe reserves: "
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "Releasemelding"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "Reserves die snel verlopen: "
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "Reserves die binnenkort verloren gaan"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "Credits ontvangen: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "Datum: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "Financiële transactie:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "Toegevoegd aan depot: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "Ontvangstbewijs"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "Er is een nieuwe accumulatiecyclus gestart."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "Nieuwe accumulatiecyclus is begonnen. Verdien credits door WoT Premium account te activeren."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "Nieuwe accumulatiecyclus is begonnen. Verdien goud door je op WoT Plus te abonneren."
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "Creditaccumulatie in de creditreserve is stopgezet."
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "Creditreserve geopend!"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "Beloning ophalen"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "Post-progressie voltooid!"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "Naar voortgang"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "Post-progressie"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "Je hebt nu toegang tot een speciale beloning."
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "Clangevecht"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "Gevechtsresultaten"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "Toernooi"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "Verloren"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "Gelijkspel"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "Resultaten onbekend"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "Victorie!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "Verwijderd door eigenaar"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "Technische fout"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "Je bent eruit gezet"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "Technisch verlies"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "Technisch gelijkspel"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "Resultaten onbekend"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "Technische overwinning!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "Tijd om"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "Compleet"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(gevecht %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "Deelresultaat"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "Resultaat"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "Wargaming Premium account ontvangen. Vervalt op %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "Wargaming Premium account gewijzigd. Vervalt op %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "Wargaming Premium account vervallen."
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "Wargaming Premium account verlengd. Vervalt op %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "WoT Premium account ontvangen. Vervalt op %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "WoT Premium account gewijzigd. Vervalt op %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "WoT Premium account vervallen."
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "WoT Premium account verlengd. Vervalt op %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "Er is je %(days)d dag(en) Wargaming Premium account toegekend."
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "Naar elite systeem"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "Elite levels en elite markeringen ontvangen."
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "Elite systeem"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "Naar voertuigen"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "Elite level ontvangen"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "Er is iets misgegaan met het claimen van de elite beloning."
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "%(rewardName)s %(typeReward)s ontvangen voor het bereik van elite level %(lvl)s."
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "Elite beloning ontvangen"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "Let op!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "Details"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "Camouflage"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "sticker"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "embleem"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "Leus"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(level)s%(name)s %(typeName)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "En nog %(count)s"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr "Level %(level)s "
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "verf"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "sticker"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "Ontvangen:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "%(name)s stijl"
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "Gefeliciteerd!"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "Details"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "Beloning voor verdienste"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "Neem deel aan gevechten en ontvang beloningen. Hoe meer je vecht, hoe dichter je bij de beloningen komt."
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "Geavanceerde beloning ontvangen:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "Details"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "%(surplusPoints)s rangtoken(s) omgezet naar %(count)s obligaties."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "Gefeliciteerd!"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "Maximale beloning ontvangen:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "Standaard beloning ontvangen:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "Kleine beloning ontvangen:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "Je hebt in 2021–2022 %(points)s rangtoken(s) verdiend."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "Jaarlijkse beloning"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "Versterkingen zijn gearriveerd!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "Je hebt een bemanning ontvangen voor %(event)s."
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "Je hebt ongerekruteerde bemanningsleden: %(count)s. Eerstvolgende verwijdering vindt plaats op %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "Je hebt ongerekruteerde bemanningsleden: %(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "Badges verwijderd"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "Compensatie"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "Credits toegevoegd voor ongebruikte huurtijd van %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "Goud toegevoegd voor ongebruikte huurtijd van %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "Huurperiode van %(vehicleName)s is geëindigd."
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "Blauwdrukfragmenten: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "Credits: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "Obligaties: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "Details"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "Vrije XP: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "Goud: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "universele fragmenten"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "Huidige voortgang: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "Middelen uitgegeven aan het Assemblagehal-project:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "Uitgegeven middelen"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "Middelen uitgeven"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "Middelen teruggekregen van de Assemblagehal:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "Terugkrijgen van middelen"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "Trainingsbrochures om uit te kiezen"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "Trainingsgidsen om uit te kiezen"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "Camouflage"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "Het gebruik van de %s is verlengd wegens onderhoudswerkzaamheden."
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "Emblemen"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "Leuzen"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "Wargaming Premium account"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "WoT Premium account"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "Gehuurd"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "De verbinding met de gameserver wordt om %(date)s verbroken."
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "Verbreken serververbinding geannuleerd, Verbreking verbinding gepland om %(date)s."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "Dienstdossier-aanpassing is beschikbaar"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "Deze feature is opgeschort."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "Dienstdossier-aanpassing is momenteel onbeschikbaar"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "Universeel fragment (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "Nationaal fragment (%(nationName)s) (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "Speciale beloning"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "Blauwdrukfragment voor de %(vehicleName)s (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "Beloning ontvangen voor het bevestigen van e-mailadres:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "Gefeliciteerd!"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "Vergoeding ontvangen voor blauwdrukfragmenten van reeds onderzochte voertuigen:"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "Camouflage gewijzigd"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "Credits ontvangen: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "Credits verminderd: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "Obligaties: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "Obligaties: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "Exterieurelementen gewijzigd."
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "Aanpassingselementen gewijzigd. Elementen gekocht: %(count)s. Je hebt %(money)s uitgegeven."
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "Emblemen gewijzigd"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "Verjaardagsmunten toegevoegd: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "Verjaardagsmunten verwijderd: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "Vrije ervaring ontvangen: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "Vrije ervaring verminderd: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "Goud ontvangen: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "Goud verminderd: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "Leuzen gewijzigd"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "Universeel fragmenten"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "%(nationName)s nationale fragmenten"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "Vanwege de update zijn alle stickers van je voertuigen verwijderd en naar het Depot gestuurd, bij Exterieur."
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "Plekken toegevoegd: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "Plaatsen verwijderd: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "Let op!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "Voertuigen toegevoegd: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "Voertuigen verwijderd: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "De volgende aanpassingselementen zijn gekocht:\n%(items)s\nUitgegeven: %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "\"%(itemName)s\" %(itemType)s succesvol gekocht.\nUitgegeven: %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "%(name)s stijl level %(level)s succesvol gekocht.\n%(money)s uitgegeven."
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "Aanpassingselementen van het voertuig veranderd."
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "%(itemType)s \"%(itemName)s\" (%(count)s item(s))"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "Level %(level)s %(styleName)s stijl"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "Aanpassingsvoertuigen van het voertuig verwijderd."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "Gefeliciteerd!\nMet progressieve stickers kun je de voorgeprogrammeerde stijl voor de %(vehicleName)s aanpassen."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "Gefeliciteerd!\nJe hebt een level I \"%(itemName)s\" sticker voor de %(vehicleName)s ontvangen."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "Gefeliciteerd!\nJe hebt een level I \"%(itemName)s\" sticker ontvangen."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "Level %(level)s \"%(itemName)s\" sticker voor de %(vehicleName)s bereikt."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "Naar Exterieur"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "Level %(level)s \"%(itemName)s\" sticker bereikt."
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Uitgegeven: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "Woestijnkaart: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "Zomerkaart: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "Winterkaart: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Ontvangen: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "Uitrusting ontmanteld"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "Naar Exterieur"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "Vanwege modulevervanging zijn de volgende aanpassingselementen van de %(vehicle)s verwijderd."
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "Aanpassingen:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "Uitrusting ontmanteld"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "Gedemonteerd:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "Fout:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "Financiële transactie:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "Artikelen verkopen uit het depot:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "Betaalmethode \"%(method)s\" is toegevoegd"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "Betaalmethode \"%(method)s\" is verwijderd"
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "Onderzocht:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "Gekocht:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "Verwijderd uit de garage:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "Reparaties:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "Teruggebracht:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "Verkocht:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "Uitrustingsupgrade"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "Er is je %(days)d dag(en) WoT Premium account toegekend."
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "Naar reserves"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "Camouflage op voertuig %(vehicleName)s is vervallen."
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "Embleem op voertuig %(vehicleName)s is vervallen."
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "Leuze op voertuig %(vehicleName)s is vervallen."
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "Collectie beschikbaar"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "Gefeliciteerd!\nJe hebt een niveau %(level)s voertuig uit de %(nation)s technologieboom onderzocht. Je kunt nu verzamelvoertuigen van hetzelfde niveau en dezelfde natie kopen in de winkel."
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "Voertuig vernietigd. %(vehicleName)s niet beschikbaar voor clangevecht tot %(expireTime)s."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "Ontgrendeld. %(vehicleName)s beschikbaar voor clan gevecht."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Alle dual modificaties voor de %(vehicle)s zijn geannuleerd."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "Modificatie geannuleerd"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "uitgeschakeld"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "ingeschakeld"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "Het wisselen tussen sets uitrusting en gevechtsbevelen tijdens de countdown voor het gevecht is voor de %(tankName)s %(state)s."
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "Het wisselen tussen sets granaten en verbruiksartikelen tijdens de countdown voor het gevecht is voor de %(tankName)s %(state)s."
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "Je hebt een Premiumvoertuig gekregen: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "Kan het voertuig niet huren. Onvoldoende middelen."
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "Voertuig %(vehicleName)s gehuurd. Huurperiode eindigt: %(expiryTime)s."
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "Slot ontgrendeld. De voertuigen zijn ontgrendeld en beschikbaar voor een Clangevecht."
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "Speler %(srcName)s heeft %(srcWares)s goud naar je account overgemaakt."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s goud overgemaakt aan speler %(dstName)s. Kosten: %(fee)s."
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "Korting op een niveau %(level)s voertuig"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "Beloningen voor het voltooien van de \"Weer strijdvaardig\" progressie ontvangen:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "Selecteer beloning"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "Korting op een niveau %(level)s voertuig"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% en %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "Kortingen op kopen en onderzoeken toegevoegd: "
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "Gefeliciteerd!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "Niveau %(level)s voertuig"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "Selecteer beloningen uit de beschikbare categorieën."
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "Selecteren"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "Beloningen ontvangen!"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "Vechtpas Plus-voordelen zijn opgeschort."
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "Vechtpas Plus is momenteel onbeschikbaar"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "Vechtpas Plus is beschikbaar"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "Blijf bij het spel inloggen om meer beloningen te ontvangen!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "Speciale aanwezigheidsbeloning ontvangen!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "Cyclus voltooid"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "Log in bij het spel en krijg beloningen."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "Cyclus begonnen!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "Aanwezigheidsbeloning"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "Kom op een andere dag terug voor een nieuwe beloning!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "Aanwezigheid genoteerd!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "Aanwezigheidsbeloningen zijn uitgezet."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "Aanwezigheidsbeloningen onbeschikbaar"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "Aanwezigheidsbeloningen beschikbaar"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "De exclusieve <font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s is beschikbaar."
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "De <font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s, die exclusief bij WoT Plus hoort, is momenteel niet beschikbaar."
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "WoT Plus Kern is verlopen op %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "Uitrusting gratis demonteren is onbeschikbaar"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "Verleng WoT Plus om wederom alle voordelen te krijgen."
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "WoT Plus verloopt op %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "WoT Plus Pro is verlopen op %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "Inzameling van goud is opgeschort."
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "Goudreserve is tijdelijk onbeschikbaar"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "Goudreserve is beschikbaar"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "Goudreserve zit vol: je kunt niet meer goud inzamelen"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "Goudreserve geopend!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "Alle voordelen zijn nu beschikbaar.\nWordt verlengd op: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "Wordt weer verlengd op: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "Je 180-daagse abonnement is nu actief. Geniet ervan!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "Je 360-daagse abonnement is nu actief. Geniet ervan!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "Je 180-daagse abonnement is nu actief. Geniet ervan!\nWordt verlengd op: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "Je 360-daagse abonnement is nu actief. Geniet ervan!\nWordt verlengd op: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "Intensieve training werkt niet meer voor de <font color='#E9E2BF'>%(vehicleName)s</font>. Check de bemanning van het voertuig."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "Eén of meerdere bemanningsleden van de <font color='#E9E2BF'>%(vehicleName)s</font> kunnen niet profiteren van de intensieve training en zullen dus geen Bemannings-XP ontvangen."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "Intensieve training"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "Intensieve training aangezet voor bemanningsleden van de %(vehicleName)s."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "Intensieve training uitgezet voor bemanningsleden van de %(vehicleName)s."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "Inzameling van Bemannings-XP is opgeschort."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "Intensieve training is momenteel onbeschikbaar"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "Intensieve training is beschikbaar"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "Selecteer een voertuig om gratis extra Bemannings-XP te ontvangen."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "Intensieve training is overgezet van de <font color='#E9E2BF'>%(oldVehName)s</font> naar de <font color='#E9E2BF'>%(newVehName)s</font>. De bemanning van de <font color='#E9E2BF'>%(oldVehName)s</font> ontvangt geen XP meer."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "Intensieve training overgezet"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "De Bemannings-XP-bonus kan niet op alle bemanningsleden worden toegepast."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "Je loopt waardevolle Bemannings-XP mis!"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "Je kunt je keuze over %(cooldown)s uur weer wijzigen."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "Pro Boost geactiveerd voor de %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "Je kunt een ander voertuig boosten."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "Pro Boost uitgezet voor de %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "Pro Boost-inkomsten zijn opgeschort."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "Pro Boost is momenteel onbeschikbaar"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "Pro Boost is beschikbaar"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)s wordt niet meer geboost. Je kunt je keuze over %(cooldown)s uur weer wijzigen."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "Pro Boost is geswitcht naar de %(vehicleNameTo)s"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "WoT Plus verlengdatum veranderd"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "Selecteer een huurvoertuig uit de lijst."
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "Geen huurvoertuig geselecteerd"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "De %(vehicle)s zal binnenkort aan je account worden toegevoegd."
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "Gehuurd!"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "Deze voordelen zijn uitgezet."
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "WoT Plus onbeschikbaar"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "WoT Plus Kern geactiveerd"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "Uitrusting gratis demonteren is beschikbaar"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "WoT Plus geactiveerd"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT Plus Pro"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "WoT Plus geüpgraded naar Pro!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "Verlengen"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "Je hebt %(freeXP)s Vrije ervaring gekregen."
+
+msgid "status/offline"
+msgstr "Offline"
+
+msgid "status/online"
+msgstr "Online"
+
+msgid "xmpp_error/action"
+msgstr "Kan \"%(actionName)s\" niet uitvoeren. Probeer het later opnieuw."
+
+msgid "xmpp_error/simple"
+msgstr "Probeer het later opnieuw."
+
+msgid "xmpp_error/user_room_creation"
+msgstr "Kan spelerskanaal \"%(strArg1)s\" niet aanmaken."

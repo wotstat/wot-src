@@ -1,0 +1,1712 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "profile/dropdown/battlesType"
+msgstr "Kaujas režīms:"
+
+msgid "profile/dropdown/existence"
+msgstr "Rādīt:"
+
+msgid "profile/dropdown/labels/all"
+msgstr "Gadījuma kaujas, rotas"
+
+msgid "profile/dropdown/labels/battleRoyaleSolo"
+msgstr "Tērauda Mednieks, Solo"
+
+msgid "profile/dropdown/labels/battleRoyaleSquad"
+msgstr "Tērauda Mednieks, Vads"
+
+msgid "profile/dropdown/labels/clan"
+msgstr "Globālā karte"
+
+msgid "profile/dropdown/labels/comp7"
+msgstr "Uzbrukums"
+
+msgid "profile/dropdown/labels/comp7_archive_Griffin"
+msgstr "Grifa Gads"
+
+msgid "profile/dropdown/labels/comp7_archive_Manticore"
+msgstr "Mantikoras gads"
+
+msgid "profile/dropdown/labels/comp7_archive_Pegasus"
+msgstr "Pegaza Gads"
+
+msgid "profile/dropdown/labels/comp7_season_1"
+msgstr "DEBESZILĀ PŪĶA SEZONA"
+
+msgid "profile/dropdown/labels/comp7_season_2"
+msgstr "Sārtā Pūķa sezona"
+
+msgid "profile/dropdown/labels/comp7_season_3"
+msgstr "Nefrīta Pūķa sezona"
+
+msgid "profile/dropdown/labels/epicRandom"
+msgstr "Galvenā kauja"
+
+msgid "profile/dropdown/labels/fallout"
+msgstr "Plosīšanās"
+
+msgid "profile/dropdown/labels/fortifications"
+msgstr "Cietoksnis: kaujas"
+
+msgid "profile/dropdown/labels/fortifications/battles"
+msgstr "Uzbrukums"
+
+msgid "profile/dropdown/labels/fortifications/sorties"
+msgstr "Sadursmes"
+
+msgid "profile/dropdown/labels/historical"
+msgstr "Vēsturiskās kaujas"
+
+msgid "profile/dropdown/labels/random"
+msgstr "Gadījuma kaujas"
+
+msgid "profile/dropdown/labels/ranked"
+msgstr "Ranga Kauja 15 pret 15"
+
+msgid "profile/dropdown/labels/ranked_10x10"
+msgstr "Ranga Kauja"
+
+msgid "profile/dropdown/labels/staticTeam"
+msgstr "Komanda: ranga kaujas"
+
+msgid "profile/dropdown/labels/staticTeam/season"
+msgstr "Komanda: ranga kaujas"
+
+msgid "profile/dropdown/labels/team"
+msgstr "Komanda: regulāras kaujas"
+
+msgid "profile/params/tooltip/achievementsCount/body"
+msgstr "Iegūtie sasniegumi kategorijā „Kaujas lauks”"
+
+msgid "profile/params/tooltip/achievementsCount/header"
+msgstr "Sasniegumi"
+
+msgid "profile/params/tooltip/armorUsing/body"
+msgstr "Attiecība starp bruņu bloķētājiem bojājumiem (ieskaitot rikošetus) un saņemtajiem bojājumiem no bruņusitēja, kumulatīvajiem un zemkalibra lādiņiem. Potenciālie bojājumi no šķembu-fugasa un HESH lādiņiem netiek ņemti vērā.\n• Vidējie bruņu bloķētie bojājumi no šiem lādiņu veidiem: %(value_0)s"
+
+msgid "profile/params/tooltip/armorUsing/header"
+msgstr "Bruņu izmantošanas efektivitāte"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/body"
+msgstr "Bojājumu apjoms, kas izdarīts apdullinātai pretinieku bruņutehnikai"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/header"
+msgstr "Bojājumi pretinieku tankiem, kurus apdullināja spēlētājs"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/body"
+msgstr "Bojājumu apjoms, kas izdarīts apdullinātai pretinieku bruņutehnikai"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/header"
+msgstr "Bojājumi pa jūsu apdullinātajiem pretinieku tankiem"
+
+msgid "profile/params/tooltip/avgAssistedDamage/body"
+msgstr "Tiek ieskaitīti:\n• Bojājumi pa tiem, kurus jūs izlūkojiet\n• Bojājumi pa tiem, kuriem jūs iznīciniet kāpurķēdes un imobilizējiet pretinieku tanku."
+
+msgid "profile/params/tooltip/avgAssistedDamage/header"
+msgstr "Vidējie bojājumi, kas izdarīti ar jūsu atbalstu"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/body"
+msgstr "Tiek ieskaitīti:\n• Bojājumi pa tiem, kurus spēlētājs izlūkoja\n• Bojājumi pa tiem, kuriem jūs iznīciniet kāpurķēdes un imobilizējiet pretinieku tanku."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/header"
+msgstr "Izdarīti bojājumi ar spēlētāja atbalstu"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/body"
+msgstr "Tiek ieskaitīti:\n• Bojājumi pa tiem, kurus jūs izlūkojiet\n• Bojājumi pa tiem, kuriem jūs iznīciniet kāpurķēdes un imobilizējiet pretinieku tanku."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/body"
+msgstr "Iekļauj:\n• Bojājumi pēc jūsu atklāšanas (ieskaitot bojājumus ar spēju palīdzību)\n• Bojājumi pēc kāpurķēžu iznīcināšanas no jums un pretinieka tanka imobilizēšanas (ieskaitot bojājumus ar spēju palīdzību)\n• Bojājumi izdarīti no sabiedrotajiem ar jūsu spēju palīdzību."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/header"
+msgstr "Izdarīti Bojājumi Ar Jūsu Atbalstu"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/header"
+msgstr "Izdarīti bojājumi ar jūsu atbalstu"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/body"
+msgstr "Attiecība starp kopējiem bojājumiem apdullinātam pretiniekam(ieskaitot apdullināšanu ar spēju palīdzību) un izspēlēto kauju skaitu"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/header"
+msgstr "Bojājumi Pretinieku Tankiem Apdullinātiem No Spēlētāja"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/body"
+msgstr "Attiecība starp kopējiem bojājumiem apdullinātam pretiniekam(ieskaitot apdullināšanu ar spēju palīdzību) un izspēlēto kauju skaitu"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/header"
+msgstr "Bojājumi Jūsu Apdullinātiem Pretinieku Tankiem"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/body"
+msgstr "Attiecība starp izdarītajiem bojājumiem apdullinātajiem pretiniekiem un aizvadīto kauju skaitu"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/header"
+msgstr "Bojājumi pretinieku tankiem, kurus apdullināja spēlētājs"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/body"
+msgstr "Attiecība starp izdarītajiem bojājumiem apdullinātajiem pretiniekiem un aizvadīto kauju skaitu"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/header"
+msgstr "Bojājumi pa jūsu apdullinātajiem pretinieku tankiem"
+
+msgid "profile/params/tooltip/avgDamage/body"
+msgstr "Attiecība starp izdarītajiem bojājumiem un aizvadīto kauju skaitu"
+
+msgid "profile/params/tooltip/avgDamage/header"
+msgstr "Vidējie bojājumi kaujā"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/body"
+msgstr "Attiecība starp iznīcināto pretinieku bruņutehnikas vienību kopsummu un aizvadīto kauju skaitu"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/body"
+msgstr "Attiecība starp kopējo iznīcināto pretinieku tanku skaitu(ieskaitot iznīcinātos tankus ar spēju palīdzību) un izspēlēto kauju skaitu"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/header"
+msgstr "Iznīcinātie Pretinieku Tanki"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/header"
+msgstr "Iznīcinātas pretinieku bruņutehnikas vienības"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/body"
+msgstr "Attiecība starp atklāto bruņutehnikas vienību kopsummu un aizvadīto kauju skaitu"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/body"
+msgstr "Attiecība starp kopējo pamanīto pretinieku tanku skaitu(ieskaitot pamanītos tankus ar spēju palīdzību) un izspēlēto kauju skaitu"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/header"
+msgstr "Pretinieku Tanki Pamanīti"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/header"
+msgstr "Atklātas pretinieku bruņutehnikas vienības"
+
+msgid "profile/params/tooltip/avgDmg/short/body"
+msgstr "Attiecība starp izdarītajiem bojājumiem un aizvadīto kauju skaitu"
+
+msgid "profile/params/tooltip/avgDmg/short/header"
+msgstr "Izdarīti bojājumi"
+
+msgid "profile/params/tooltip/avgEx/short/body"
+msgstr "Attiecība starp nopelnīto pieredzi un aizvadīto kauju skaitu"
+
+msgid "profile/params/tooltip/avgEx/short/header"
+msgstr "Pieredze"
+
+msgid "profile/params/tooltip/avgExp/body"
+msgstr "Attiecība starp nopelnīto pieredzi un aizvadīto kauju skaitu"
+
+msgid "profile/params/tooltip/avgExp/header"
+msgstr "Vidējā pieredze kaujā"
+
+msgid "profile/params/tooltip/avgHealthRepair/body"
+msgstr "Attiecība starp kopējo atjaunoto dzīvības punktu skaitu un izspēlēto kauju skaitu"
+
+msgid "profile/params/tooltip/avgHealthRepair/header"
+msgstr "Atjaunotie Dzīvības Punkti"
+
+msgid "profile/params/tooltip/avgPoiCaptured/body"
+msgstr "Attiecība starp sagūstīto Galveno Punktu skaitu un izspēlēto kauju skaitu"
+
+msgid "profile/params/tooltip/avgPoiCaptured/header"
+msgstr "Sagūstītie Galvenie Punkti"
+
+msgid "profile/params/tooltip/avgPrestigePoints/body"
+msgstr "Attiecība starp kopējo nopelnīto Prestiža Punktu skaitu un izspēlēto kauju skaitu"
+
+msgid "profile/params/tooltip/avgPrestigePoints/header"
+msgstr "Vidējais Prestiža Punktu Skaits Kaujā"
+
+msgid "profile/params/tooltip/avgReceivedDamage/body"
+msgstr "Attiecība starp saņemto bojājumu kopsummu un aizvadīto kauju skaitu"
+
+msgid "profile/params/tooltip/avgReceivedDamage/header"
+msgstr "Saņemti bojājumi"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/body"
+msgstr "Attiecība starp kopējo izmantoto Lomu Spēju skaitu un izspēlēto kauju skaitu"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/header"
+msgstr "Izmantotās Lomu Spējas"
+
+msgid "profile/params/tooltip/avgStunNumber/body"
+msgstr "Attiecība starp trāpījumu skaitu, kas apdullināja pretinieku apkalpi, un aizvadīto kauju skaitu"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/body"
+msgstr "Attiecība starp kopējo trāpījumu skaitu (ieskaitot trāpījumus ar spēju palīdzību) ar apdullināšanu pretinieku apkalpei un izspēlēto kauju skaitu"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/header"
+msgstr "Apdullināšanas Reizes"
+
+msgid "profile/params/tooltip/avgStunNumber/header"
+msgstr "Apdullināšanas reizes"
+
+msgid "profile/params/tooltip/avgVictoryPoints/body"
+msgstr "Attiecība starp nopelnītajiem uzvaras punktiem un aizvadīto kauju skaitu."
+
+msgid "profile/params/tooltip/avgVictoryPoints/header"
+msgstr "Vidējais uzvaras punktu skaits"
+
+msgid "profile/params/tooltip/battlesCount/body"
+msgstr "Aizvadīto kauju kopskaits, no kurām:\n• uzvaras: %(value_0)s\n• zaudējumi: %(value_1)s\n• neizšķirti: %(value_2)s"
+
+msgid "profile/params/tooltip/battlesCount/header"
+msgstr "Kaujas"
+
+msgid "profile/params/tooltip/brAverageLevel/body"
+msgstr "Visu sasniegto līmeņu summas attiecība pret aizvadīto kauju skaitu."
+
+msgid "profile/params/tooltip/brAverageLevel/header"
+msgstr "Vidējais Līmenis"
+
+msgid "profile/params/tooltip/brAverageRank/body"
+msgstr "Visu pozīciju kaujas rezultātos summas attiecība pret aizvadīto kauju skaitu."
+
+msgid "profile/params/tooltip/brAverageRank/header"
+msgstr "Vidējā Pozīcija"
+
+msgid "profile/params/tooltip/brAvgDamage/body"
+msgstr "Kopējo izdarīto bojājumu attiecība pret aizvadīto kauju skaitu."
+
+msgid "profile/params/tooltip/brAvgDamage/header"
+msgstr "Izdarītie Bojājumi"
+
+msgid "profile/params/tooltip/brBattlesCount/body"
+msgstr "Kopējais aizvadīto kauju skaits."
+
+msgid "profile/params/tooltip/brBattlesCount/header"
+msgstr "Kaujas"
+
+msgid "profile/params/tooltip/brMaxDamage/body"
+msgstr "Lielākie bojājumi izdarīti pretinieku tankiem kaujā.\nRekords sasniegts ar %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxDamage/header"
+msgstr "Lielākie Bojājumi Kaujā"
+
+msgid "profile/params/tooltip/brMaxExp/body"
+msgstr "Lielākā pieredze nopelnīta kaujā ar WoT Premium Kontu.\nRekords sasniegts ar %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxExp/header"
+msgstr "Lielākā Pieredze Kaujā"
+
+msgid "profile/params/tooltip/brMaxFrags/body"
+msgstr "Lielākais personīgi iznīcināto pretinieku tanku skaits kaujā.\nRekords sasniegts ar %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxFrags/header"
+msgstr "Visvairāk Iznīcinātie Kaujā"
+
+msgid "profile/params/tooltip/brWins/body"
+msgstr "Kopējais skaits uzvaru."
+
+msgid "profile/params/tooltip/brWins/header"
+msgstr "Uzvaras"
+
+msgid "profile/params/tooltip/capturePoints/body"
+msgstr "Pretinieku bāzes ieņemšanas punktu kopsumma"
+
+msgid "profile/params/tooltip/capturePoints/header"
+msgstr "Bāzes ieņemšanas punkti"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/body"
+msgstr "Izdarīto un saņemto bojājumu attiecība visos kauju līmeņos.\n• Izdarītie bojājumi: %(value_0)s\n• Saņemtie bojājumi: %(value_1)s"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/header"
+msgstr "Vidējais bojājumu koeficients"
+
+msgid "profile/params/tooltip/damageCoeff/body"
+msgstr "Izdarīto un saņemto bojājumu attiecība.\n• Izdarītie bojājumi: %(value_0)s\n• Saņemtie bojājumi: %(value_1)s"
+
+msgid "profile/params/tooltip/damageCoeff/header"
+msgstr "Bojājumu koeficients"
+
+msgid "profile/params/tooltip/destroyCoeff/body"
+msgstr "Attiecība starp iznīcināto pretinieku bruņutehnikas vienību skaitu un savas bruņutehnikas iznīcināšanas reizēm.\n• Iznīcināta pretinieku bruņutehnika: %(value_0)s\n• Sava bruņutehnika iznīcināta: %(value_1)s"
+
+msgid "profile/params/tooltip/destroyCoeff/header"
+msgstr "Iznīcināšanas koeficients"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/body"
+msgstr "Attiecība starp bruņu bloķētājiem bojājumiem (ieskaitot rikošetus) un saņemtajiem bojājumiem no bruņusitēja, kumulatīvajiem un zemkalibra lādiņiem. Netiek ieskaitīti bojājumi no kaujas rezervēm, šķembu-fugasa un HESH lādiņiem.\n• Vidējie bruņu bloķētie bojājumi no šiem lādiņu veidiem: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/header"
+msgstr "Bruņu izmantošanas efektivitāte"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/body"
+msgstr "Attiecība starp izdarītajiem bojājumiem (ieskaitot kaujas rezerves) un aizvadīto kauju skaitu."
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/header"
+msgstr "Vidējie bojājumi kaujā"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body"
+msgstr "Attiecība starp iznīcinātu pretinieku bruņutehnikas vienību skaitu (ieskaitot kaujas rezerves) un aizvadīto kauju skaitu."
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header"
+msgstr "Iznīcināti"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body"
+msgstr "Attiecība starp iznīcinātu pretinieku bruņutehnikas vienību skaitu (neieskaitot kaujas rezerves) un aizvadīto kauju skaitu."
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header"
+msgstr "Iznīcināti"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/body"
+msgstr "Attiecība starp izdarītajiem bojājumiem (ieskaitot kaujas rezerves) un aizvadīto kauju skaitu."
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/header"
+msgstr "Izdarīti bojājumi"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body"
+msgstr "Attiecība starp izdarītajiem bojājumiem (neieskaitot kaujas rezerves) un aizvadīto kauju skaitu."
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header"
+msgstr "Izdarīti bojājumi"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/body"
+msgstr "Attiecība starp saņemtajiem bojājumiem (ieskaitot kaujas rezerves) un aizvadīto kauju skaitu."
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/header"
+msgstr "Saņemti bojājumi"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/body"
+msgstr "Aizvadīto kauju kopskaits, no kurām:\n• uzvaras: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/header"
+msgstr "Kaujas"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/body"
+msgstr "Izdarīto un saņemto bojājumu attiecība, ieskaitot kaujas rezerves.\n• Izdarītie bojājumi ar savu bruņutehniku: %(value_0)s\n• Izdarītie bojājumi ar kaujas rezervēm: %(value_2)s\n• Saņemtie bojājumi no pretinieku bruņutehnikas un kaujas rezervēm: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/header"
+msgstr "Bojājumu koeficients"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body"
+msgstr "Izdarīto un saņemto bojājumu attiecība, neieskaitot kaujas rezerves.\n• Izdarītie bojājumi: %(value_0)s\n• Saņemtie bojājumi: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header"
+msgstr "Bojājumu koeficients"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/body"
+msgstr "Attiecība starp iznīcināto pretinieku bruņutehnikas vienību skaitu un savas bruņutehnikas iznīcināšanas reizēm (ieskaitot kaujas rezerves).\n• Iznīcināta pretinieku bruņutehnika ar jūsu bruņutehniku: %(value_0)s\n• Iznīcināta pretinieku bruņutehnika ar kaujas rezervēm: %(value_2)s\n• Savu bruņutehniku iznīcināja pretinieku bruņutehnika un kaujas rezerves: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/header"
+msgstr "Iznīcināšanas koeficients"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body"
+msgstr "Attiecība starp iznīcināto pretinieku bruņutehnikas vienību skaitu un savas bruņutehnikas iznīcināšanas reizēm (ieskaitot kaujas rezerves), no kurām:\n• iznīcināta pretinieku bruņutehnika: %(value_0)s\n• sava bruņutehnika iznīcināta: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header"
+msgstr "Iznīcināšanas koeficients"
+
+msgid "profile/params/tooltip/dif/fallout/hits/body"
+msgstr "Šaušanas precizitāte pa pretinieku bruņutehniku, neieskaitot kaujas rezerves."
+
+msgid "profile/params/tooltip/dif/fallout/hits/header"
+msgstr "Trāpījumi"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/body"
+msgstr "Sasniegtais rezultāts ietver kaujas rezerves."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/header"
+msgstr "Lielākie bojājumi kaujā"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/body"
+msgstr "Sasniegtais rezultāts neietver kaujas rezerves."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/header"
+msgstr "Lielākie bojājumi kaujā"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/body"
+msgstr "Sasniegtais rezultāts ietver kaujas rezerves."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/header"
+msgstr "Visvairāk iznīcināti kaujas laikā"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body"
+msgstr "Sasniegtais rezultāts neietver kaujas rezerves."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header"
+msgstr "Visvairāk iznīcināti kaujas laikā"
+
+msgid "profile/params/tooltip/dif/fallout/wins/body"
+msgstr "Kopējais uzvaru skaits"
+
+msgid "profile/params/tooltip/dif/fallout/wins/header"
+msgstr "Uzvaras"
+
+msgid "profile/params/tooltip/droppedCapturePoints/body"
+msgstr "Sabiedroto bāzes aizsardzības punktu kopsumma"
+
+msgid "profile/params/tooltip/droppedCapturePoints/header"
+msgstr "Bāzes aizsardzības punkti"
+
+msgid "profile/params/tooltip/flagsAbsorbed/body"
+msgstr "Kopā iznīcināti karogi"
+
+msgid "profile/params/tooltip/flagsAbsorbed/header"
+msgstr "Iznīcināti karogi"
+
+msgid "profile/params/tooltip/flagsDelivered/body"
+msgstr "Uz bāzi nogādāto karogu kopskaits"
+
+msgid "profile/params/tooltip/flagsDelivered/header"
+msgstr "Nogādāti karogi"
+
+msgid "profile/params/tooltip/fort/battles/body"
+msgstr "Visi uzbrukumi, no kuriem:\n• uzvaras: %(value_0)s\n• zaudējumi: %(value_1)s\n• neizšķirti %(value_2)s"
+
+msgid "profile/params/tooltip/fort/battles/header"
+msgstr "Uzbrukumi"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/body"
+msgstr "Kopējais uzvaru procents uzbrukumos"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/header"
+msgstr "Uzvaras uzbrukumos"
+
+msgid "profile/params/tooltip/fort/looting/body"
+msgstr "Veiksmīgi izlaupītu pretinieka cietokšņu kopskaits"
+
+msgid "profile/params/tooltip/fort/looting/header"
+msgstr "Izlaupīšanas"
+
+msgid "profile/params/tooltip/fort/resource/body"
+msgstr "Attiecība starp nopelnītajiem industriālajiem resursiem un aizvadīto sadursmju skaitu"
+
+msgid "profile/params/tooltip/fort/resource/header"
+msgstr "Vidējais laupījums sadursmē"
+
+msgid "profile/params/tooltip/fort/sortie/body"
+msgstr "Visu sadursmju skaits, no kurām:\n• uzvaras: %(value_0)s\n• zaudējumi: %(value_1)s\n• neizšķirti: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/sortie/header"
+msgstr "Sadursmes"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/body"
+msgstr "Kopējais uzvaru procents sadursmēs"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/header"
+msgstr "Uzvaras sadursmēs"
+
+msgid "profile/params/tooltip/fortBattles/attacks/body"
+msgstr "Kopējais cietokšņiem veikto uzbrukumu skaits.\nTiek ieskaitīts, ja jūs esat piedalījušies vismaz vienā kaujā uzbrukuma laikā."
+
+msgid "profile/params/tooltip/fortBattles/attacks/header"
+msgstr "Uzbrukumi"
+
+msgid "profile/params/tooltip/fortBattles/defences/body"
+msgstr "Sava cietokšņa aizsargāšanas reižu skaits.\nTiek ieskaitīts, ja jūs esat piedalījušies vismaz vienā kaujā aizsardzības perioda laikā."
+
+msgid "profile/params/tooltip/fortBattles/defences/header"
+msgstr "Aizsardzības"
+
+msgid "profile/params/tooltip/fortBattlesWins/body"
+msgstr "Kopējais uzvaru procents uzbrukumos"
+
+msgid "profile/params/tooltip/fortBattlesWins/header"
+msgstr "Uzvaras uzbrukumos"
+
+msgid "profile/params/tooltip/fortSortieWins/body"
+msgstr "Kopējais uzvaru procents sadursmēs"
+
+msgid "profile/params/tooltip/fortSortieWins/header"
+msgstr "Uzvaras sadursmēs"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/body"
+msgstr "Attiecība starp nopelnītajiem industriālajiem resursiem un aizvadīto sadursmju skaitu"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/header"
+msgstr "Vidējais laupījuma apjoms sadursmē"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/body"
+msgstr "Kopējais nopelnīto industriālo resursu apjoms visās sadursmēs"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/header"
+msgstr "Kopējais laupījums, kas iegūts sadursmēs"
+
+msgid "profile/params/tooltip/hits/body"
+msgstr "Precizitāte šaujot pa pretinieku bruņutehniku"
+
+msgid "profile/params/tooltip/hits/header"
+msgstr "Trāpījumi"
+
+msgid "profile/params/tooltip/kdr/body"
+msgstr "Attiecība starp iznīcināto pretinieku bruņutehnikas vienību skaitu un savas bruņutehnikas iznīcināšanas reizēm (ieskaitot kaujas rezerves).\n• Iznīcināta pretinieku bruņutehnika ar jūsu bruņutehniku: %(value_0)s\n• Iznīcināta pretinieku bruņutehnika ar kaujas rezervēm: %(value_1)s\n• Savu bruņutehniku iznīcināja pretinieku bruņutehnika un kaujas rezerves: %(value_2)s"
+
+msgid "profile/params/tooltip/kdr/header"
+msgstr "Iznīcināšanas koeficients"
+
+msgid "profile/params/tooltip/markOfMastery/body"
+msgstr "Meistarības ordeņi, kas iegūti visos pieļaujamajos kauju režīmos / Bruņutehnikas vienību skaits, ar kurām aizvadīta vismaz 1 kauja"
+
+msgid "profile/params/tooltip/markOfMastery/header"
+msgstr "Meistarības ordenis: Lietpratējs"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/body"
+msgstr "Meistarības ordeņus šajā kaujas režīmā nepiešķir."
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/header"
+msgstr "Meistarības ordenis: Lietpratējs"
+
+msgid "profile/params/tooltip/maxDamage/body"
+msgstr "Rekords uzstādīts ar %(value_0)s"
+
+msgid "profile/params/tooltip/maxDamage/header"
+msgstr "Lielākie bojājumi kaujā"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/body"
+msgstr "Lielākie bojājumi, kas izdarīti pretinieku bruņutehnikai kaujā."
+
+msgid "profile/params/tooltip/maxDamage/vehicle/header"
+msgstr "Lielākie bojājumi"
+
+msgid "profile/params/tooltip/maxDestroyed/body"
+msgstr "Rekords uzstādīts ar %(value_0)s"
+
+msgid "profile/params/tooltip/maxDestroyed/header"
+msgstr "Visvairāk iznīcināti kaujas laikā"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/body"
+msgstr "Visvairāk iznīcinātas pretinieku bruņutehnikas vienības kaujā."
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/header"
+msgstr "Visvairāk iznīcināti kaujas laikā"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/body"
+msgstr "Maksimālie bojājumi izdarīti no Lomu Spējām un Taktiskajām Spējām vienā kaujā."
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/header"
+msgstr "Maksimālie Bojājumi Izdarīti no Spējām Kaujā"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/body"
+msgstr "Bojājumi izdarīti no Lomu Spējām un Taktiskajām Spējām tiek iekļauti.\nRekords ir iekš %(value_0)s"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/header"
+msgstr "Maksimālie Bojājumi Izdarīti no Spējām Kaujā"
+
+msgid "profile/params/tooltip/maxExp/body"
+msgstr "Rekords uzstādīts ar %(value_0)s"
+
+msgid "profile/params/tooltip/maxExp/header"
+msgstr "Lielākā pieredze kaujā"
+
+msgid "profile/params/tooltip/maxExp/vehicle/body"
+msgstr "Lielākā kaujā nopelnītā pieredze, ieskaitot premium konta bonusu."
+
+msgid "profile/params/tooltip/maxExp/vehicle/header"
+msgstr "Lielākā pieredze"
+
+msgid "profile/params/tooltip/maxExpDisabled/body"
+msgstr "Lielākā pieredze netiek atainota šajā kaujas režīmā."
+
+msgid "profile/params/tooltip/maxExpDisabled/header"
+msgstr "Lielākā pieredze kaujā"
+
+msgid "profile/params/tooltip/maxHealthRepair/body"
+msgstr "Maksimālais dzīvības punktu skaits atjaunots jūsu tankam un sabiedroto tankiem vienā kaujā."
+
+msgid "profile/params/tooltip/maxHealthRepair/header"
+msgstr "Maksimālais Atjaunoto Dzīvības Punktu Skaits Kaujā"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/body"
+msgstr "Maksimālais atjaunoto dzīvības punktu skaits jūsu tankam un sabiedroto tankiem vienā kaujā.\nRekords ir iekš %(value_0)s"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/header"
+msgstr "Maksimālais Atjaunoto Dzīvības Punktu Skaits Kaujā"
+
+msgid "profile/params/tooltip/maxPrestigePoints/body"
+msgstr "Maksimālais nopelnīto Prestiža Punktu skaits vienā kaujā."
+
+msgid "profile/params/tooltip/maxPrestigePoints/header"
+msgstr "Maksimālais Prestiža Punktu Skaits Kaujā"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/body"
+msgstr "Rekords ir iekš %(value_0)s"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/header"
+msgstr "Maksimālais Prestiža Punktu Skaits Kaujā"
+
+msgid "profile/params/tooltip/maxVictoryPoints/body"
+msgstr "Lielākais nopelnīto uzvaras punktu skaits vienā kaujā."
+
+msgid "profile/params/tooltip/maxVictoryPoints/header"
+msgstr "Lielākais uzvaras punktu skaits kaujā"
+
+msgid "profile/params/tooltip/maxWinPoints/body"
+msgstr "Lielākais nopelnīto uzvaras punktu skaits vienā kaujā."
+
+msgid "profile/params/tooltip/maxWinPoints/header"
+msgstr "Lielākais uzvaras punktu skaits kaujā"
+
+msgid "profile/params/tooltip/maxWinSeries/body"
+msgstr "Visvairāk sasniegtu secīgu uzvaru režīmā solo un Vadā/7 spēlētāju Vadā."
+
+msgid "profile/params/tooltip/maxWinSeries/header"
+msgstr "Visvairāk Secīgu Uzvaru (Solo un Vadā/Super Vadā)"
+
+msgid "profile/params/tooltip/poiCaptured/body"
+msgstr "Sagūstīto Galveno Punktu skaits"
+
+msgid "profile/params/tooltip/poiCaptured/header"
+msgstr "Sagūstītie Galvenie Punkti"
+
+msgid "profile/params/tooltip/ranked/avgFrags/body"
+msgstr "Vidējais iznīcināto pretinieku bruņutehnikas vienību skaits"
+
+msgid "profile/params/tooltip/ranked/avgFrags/header"
+msgstr "Vidējais iznīcināto bruņutehnikas vienību skaits"
+
+msgid "profile/params/tooltip/ranked/avgPoints/body"
+msgstr "Procentuāla attiecība starp saņemtajiem ševroniem un cīnīto kauju kopējā skaita Nejaušo kauju režīmā.\n• Kopējie ševroni: %(value_0)s\n• Kopējās kaujas: %(value_1)s"
+
+msgid "profile/params/tooltip/ranked/avgPoints/header"
+msgstr "Ranga kauju efektivitāte"
+
+msgid "profile/params/tooltip/ranked/points/body"
+msgstr "Nopelnīto punktu kopskaits"
+
+msgid "profile/params/tooltip/ranked/points/header"
+msgstr "Ranga punkti"
+
+msgid "profile/params/tooltip/stunNumber/body"
+msgstr "Trāpījumu skaits, kas apdullināja pretinieku apkalpi"
+
+msgid "profile/params/tooltip/stunNumber/header"
+msgstr "Apdullināšanas reizes"
+
+msgid "profile/params/tooltip/survival/body"
+msgstr "Procentuāla daļa no visām kaujām, kurās spēlētāja bruņutehnika netika iznīcināta"
+
+msgid "profile/params/tooltip/survival/header"
+msgstr "Kaujas, kurās izdzīvoja"
+
+msgid "profile/params/tooltip/totalVehs/body"
+msgstr "Izmantoto bruņutehnikas modeļu kopskaits."
+
+msgid "profile/params/tooltip/totalVehs/header"
+msgstr "Izmantotā bruņutehnika"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/body"
+msgstr "Kopējais kauju skaits uzbrukumos.\n\nParametrs nav pieejams pašreizējā atjauninājumā."
+
+msgid "profile/params/tooltip/unavailable/fort/battles/header"
+msgstr "Uzbrukumi"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/body"
+msgstr "Visu uzvaru procents uzbrukumos.\n\nParametrs nav pieejams pašreizējā atjauninājumā."
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/header"
+msgstr "Uzvaras uzbrukumos"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/body"
+msgstr "Kopš parametra ieviešanas kaujas nav bijušas."
+
+msgid "profile/params/tooltip/unavailableMaxDamage/header"
+msgstr "Dati nav pieejami"
+
+msgid "profile/params/tooltip/usedTechnics/body"
+msgstr "Bruņutehnika, kas vismaz vienu reizi piedalījusies vēsturiskajās kaujās."
+
+msgid "profile/params/tooltip/usedTechnics/header"
+msgstr "Izmantotā bruņutehnika"
+
+msgid "profile/params/tooltip/wins/body"
+msgstr "Kopējais uzvaru procents"
+
+msgid "profile/params/tooltip/wins/header"
+msgstr "Uzvaras"
+
+msgid "profile/ranked/seasonsdropdown/1"
+msgstr "Sezona 1, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/2"
+msgstr "Sezona 2, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/3"
+msgstr "Sezona 3, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/archive"
+msgstr "Arhivētie dati"
+
+msgid "profile/seasonsdropdown/all"
+msgstr "Visas sezonas"
+
+msgid "profile/seasonsdropdown/current"
+msgstr "Pašreizējā sezona"
+
+msgid "profile/seasonsdropdown/specific"
+msgstr "Sezona %(date1)s – %(date2)s"
+
+msgid "profile/section/statistics/scores/maxHealthRepair"
+msgstr "Maksimālais Atjaunoto Dzīvības Punktu Skaits Kaujā"
+
+msgid "profile/summary/clan/btnLabel"
+msgstr "Klana profils"
+
+msgid "profile/summary/clan/joinDate"
+msgstr "Pievienošanās datums:"
+
+msgid "profile/summary/clan/post"
+msgstr "Pakāpe:"
+
+msgid "profile/summary/club/btnLabel"
+msgstr "Komandas profils"
+
+msgid "profile/summary/club/ladder"
+msgstr "Ranga tabula:"
+
+msgid "profile/summary/club/ladderInfo"
+msgstr "Grupa %(league)s, Divīzija %(division)s"
+
+msgid "profile/summary/club/post"
+msgstr "Pakāpe:"
+
+msgid "profile/summary/nextAwards/tooltip/body"
+msgstr "Nākamie sasniegumi ir pievienoti uz lentes."
+
+msgid "profile/summary/nextAwards/tooltip/header"
+msgstr "Nākamie sasniegumi"
+
+msgid "profile/summary/noGroups"
+msgstr "Spēlētājam nav pastāvīgas taktiskās vienības."
+
+msgid "profile/summary/significantAwards/tooltip/body"
+msgstr "Nozīmīgākie sasniegumi ir pievienoti uz lentes."
+
+msgid "profile/summary/significantAwards/tooltip/header"
+msgstr "Nozīmīgie sasniegumi"
+
+msgid "profile/tabs/tooltip/advancedAchievements/body"
+msgstr "Skatīt Sasniegumu Katalogu."
+
+msgid "profile/tabs/tooltip/advancedAchievements/header"
+msgstr "Sasniegumi"
+
+msgid "profile/tabs/tooltip/awards/body"
+msgstr "Apskatīt sasniegumus un to aprakstus"
+
+msgid "profile/tabs/tooltip/awards/header"
+msgstr "Sasniegumi"
+
+msgid "profile/tabs/tooltip/collections/body"
+msgstr "Skatīt Kolekcijaas"
+
+msgid "profile/tabs/tooltip/collections/header"
+msgstr "Kolekcijas"
+
+msgid "profile/tabs/tooltip/formations/body"
+msgstr "Apskatīt informāciju par taktiskajām vienībām, kurās jūs bijāt dalībnieks."
+
+msgid "profile/tabs/tooltip/formations/header"
+msgstr "Taktiskās vienības"
+
+msgid "profile/tabs/tooltip/hof/body"
+msgstr "Apskatīties reitingus slavas zālē"
+
+msgid "profile/tabs/tooltip/hof/header"
+msgstr "Slavas zāle"
+
+msgid "profile/tabs/tooltip/hofDisabled/body"
+msgstr "Slavas zāle īslaicīgi nav pieejama. Lūdzu, mēģiniet vēlāk."
+
+msgid "profile/tabs/tooltip/hofDisabled/header"
+msgstr "Uzmanību"
+
+msgid "profile/tabs/tooltip/statistics/body"
+msgstr "Apskatīt kauju statistiku visiem bruņutehnikas veidiem"
+
+msgid "profile/tabs/tooltip/statistics/header"
+msgstr "Statistika"
+
+msgid "profile/tabs/tooltip/summary/body"
+msgstr "Apskatīt kauju efektivitātes rādītājus"
+
+msgid "profile/tabs/tooltip/summary/header"
+msgstr "Kopsavilkums"
+
+msgid "profile/tabs/tooltip/technique/body"
+msgstr "Apskatīt detalizētu kauju statistiku katrai bruņutehnikas vienībai"
+
+msgid "profile/tabs/tooltip/technique/header"
+msgstr "Bruņutehnika"
+
+msgid "profile/title"
+msgstr "Spēlētāja %s statistika"
+
+msgid "seasons/comp7_dropdown_label"
+msgstr "Gads/Sezona:"
+
+msgid "seasons/dropdown_label"
+msgstr "Sezona:"
+
+msgid "section/advancedAchievements/title"
+msgstr "Sasniegumi"
+
+msgid "section/awards/dropdown/labels/all"
+msgstr "Visus"
+
+msgid "section/awards/dropdown/labels/inProcess"
+msgstr "Jau iegūtos"
+
+msgid "section/awards/dropdown/labels/none"
+msgstr "Vēl neiegūtos"
+
+msgid "section/awards/dropdown/tooltip/body"
+msgstr "Ieslēgt filtru, lai atainotu visus, tikai iegūtos vai vēl neiegūtos sasniegumus."
+
+msgid "section/awards/dropdown/tooltip/header"
+msgstr "Sasniegumu filtrs"
+
+msgid "section/awards/labels/battleHeroes"
+msgstr "Kaujas varoņi"
+
+msgid "section/awards/labels/epic"
+msgstr "Episkās medaļas"
+
+msgid "section/awards/labels/group"
+msgstr "Grupu sasniegumi"
+
+msgid "section/awards/labels/honorary"
+msgstr "Goda pakāpes"
+
+msgid "section/awards/labels/marksOnGun"
+msgstr "Izcilības zīmes"
+
+msgid "section/awards/labels/memory"
+msgstr "Piemiņas emblēmas"
+
+msgid "section/awards/labels/special"
+msgstr "Īpašie sasniegumi"
+
+msgid "section/awards/labels/stage"
+msgstr "Kārtu sasniegumi"
+
+msgid "section/awards/title"
+msgstr "Sasniegumi"
+
+msgid "section/collections/title"
+msgstr "Kolekcijas"
+
+msgid "section/formations/clan/none"
+msgstr "Jūs neesat neviena klana sastāvā."
+
+msgid "section/formations/clan/none/thirdperson"
+msgstr "Spēlētājs nav neviena klana biedrs."
+
+msgid "section/formations/clan/type"
+msgstr "Klans"
+
+msgid "section/formations/fort/battles"
+msgstr "Uzbrukumi"
+
+msgid "section/formations/fort/create"
+msgstr "Izveidot cietoksni"
+
+msgid "section/formations/fort/level"
+msgstr "Cietokšņa līmenis: %s"
+
+msgid "section/formations/fort/link"
+msgstr "Cietokšņa sasniegumi"
+
+msgid "section/formations/fort/none"
+msgstr "Cietoksnis nav izveidots"
+
+msgid "section/formations/fort/none/thirdperson"
+msgstr "Spēlētāja klanam nav cietokšņa."
+
+msgid "section/formations/fort/resourceRating"
+msgstr "Resursu mednieka reitings"
+
+msgid "section/formations/fort/sorties"
+msgstr "Sadursmes"
+
+msgid "section/formations/history/battles"
+msgstr "Kaujas sastāvā"
+
+msgid "section/formations/history/dates"
+msgstr "Pievienošanās/Pamešanas datums"
+
+msgid "section/formations/history/datesPattern"
+msgstr "%(date1)s – %(date2)s"
+
+msgid "section/formations/history/team"
+msgstr "Komanda"
+
+msgid "section/formations/history/title"
+msgstr "Spēlētāja komandu vēsture"
+
+msgid "section/formations/joinDate"
+msgstr "Pievienošanās datums: %s"
+
+msgid "section/formations/rank"
+msgstr "Spēlētāja pakāpe: %s"
+
+msgid "section/formations/team/completedSeason"
+msgstr "Sezona %s (noslēgta)"
+
+msgid "section/formations/team/find"
+msgstr "Pāriet pie pastāvīgu komandu meklēšanas"
+
+msgid "section/formations/team/league"
+msgstr "Grupa: %(league)s. Divīzija: %(division)s. Vieta: %(position)s."
+
+msgid "section/formations/team/none"
+msgstr "Jums nav pastāvīgas komandas."
+
+msgid "section/formations/team/none/thirdperson"
+msgstr "Spēlētājam nav pastāvīgas komandas."
+
+msgid "section/formations/team/season"
+msgstr "Sezona %s"
+
+msgid "section/formations/team/seasonBattles"
+msgstr "Ranga kaujas"
+
+msgid "section/formations/team/seasonWinRate"
+msgstr "Uzvaras sezonā"
+
+msgid "section/formations/team/title"
+msgstr "Komanda „%s”"
+
+msgid "section/formations/team/type"
+msgstr "Komanda"
+
+msgid "section/formations/title"
+msgstr "Taktiskās vienības"
+
+msgid "section/formations/tooltip/fort/battles/body"
+msgstr "Visi uzbrukumi, no kuriem:\n• uzvaras: %(wins)s\n• zaudējumi: %(losses)s\n• neizšķirti: %(draws)s"
+
+msgid "section/formations/tooltip/fort/battles/header"
+msgstr "Uzbrukumi"
+
+msgid "section/formations/tooltip/fort/level/body"
+msgstr "Cietokšņa līmenis ir vienāds ar komandcentra līmeni."
+
+msgid "section/formations/tooltip/fort/level/header"
+msgstr "Cietokšņa līmenis"
+
+msgid "section/formations/tooltip/fort/link/body"
+msgstr "Uzspiediet, lai apskatītos komandas cietokšņa sasniegumus."
+
+msgid "section/formations/tooltip/fort/link/header"
+msgstr "Cietokšņa sasniegumi"
+
+msgid "section/formations/tooltip/fort/resourceRating/body"
+msgstr "Jūsu vieta"
+
+msgid "section/formations/tooltip/fort/resourceRating/header"
+msgstr "Resursu mednieka reitings"
+
+msgid "section/formations/tooltip/fort/sorties/body"
+msgstr "Visu sadursmju skaits, no kurām:\n• uzvaras: %(wins)s\n• zaudējumi: %(losses)s\n• neizšķirti: %(draws)s"
+
+msgid "section/formations/tooltip/fort/sorties/header"
+msgstr "Sadursmes"
+
+msgid "section/formations/tooltip/team/link/body"
+msgstr "Uzspiediet, lai apskatītos komandas profilu."
+
+msgid "section/formations/tooltip/team/link/header"
+msgstr "Komandas profils"
+
+msgid "section/formations/tooltip/team/seasonBattles/body"
+msgstr "Visu ranga kauju skaits šīs komandas sastāvā, no kurām:\n• uzvaras: %(wins)s\n• zaudējumi: %(losses)s\n• neizšķirti: %(draws)s"
+
+msgid "section/formations/tooltip/team/seasonBattles/header"
+msgstr "Ranga kaujas"
+
+msgid "section/formations/tooltip/team/seasonWinRate/body"
+msgstr "Kopējais uzvaru procents ranga kaujās"
+
+msgid "section/formations/tooltip/team/seasonWinRate/header"
+msgstr "Uzvaras"
+
+msgid "section/hof/BrowserView/closeBtn"
+msgstr "AIZVĒRT"
+
+msgid "section/hof/achievementsRatingsBtn"
+msgstr "Pāriet pie reitingiem"
+
+msgid "section/hof/achievementsRatingsTitle"
+msgstr "Reitings pēc sasniegumiem\ngadījuma kaujās"
+
+msgid "section/hof/betaBtn"
+msgstr "BETA"
+
+msgid "section/hof/betaTooltip"
+msgstr "Slavas zāle un World of Tanks reitings\nir beta testēšanas stadijā"
+
+msgid "section/hof/mainDescription"
+msgstr "Apskatiet savu veiktspēju kaujā un pozīciju reitingā starp citiem spēlētājiem izvēlētajā periodā."
+
+msgid "section/hof/mainTitle"
+msgstr "Slavas zāle"
+
+msgid "section/hof/notAvailable/tooltip/body"
+msgstr "Slavas zāle īslaicīgi nav pieejama. Lūdzu, mēģiniet vēlāk."
+
+msgid "section/hof/notAvailable/tooltip/header"
+msgstr "Uzmanību"
+
+msgid "section/hof/statusBtn/hideResults"
+msgstr "Atainot rezultātus"
+
+msgid "section/hof/statusBtn/showResults"
+msgstr "Paslēpt manus rezultātus"
+
+msgid "section/hof/statusDescription/exclusion"
+msgstr "Pieteikums noslēpt jūsu reitinga rezultātus ir nosūtīts un tas tiks apstrādāts nākamajā reitingu aprēķinā."
+
+msgid "section/hof/statusDescription/hideResults"
+msgstr "Jūsu reitinga rezultāti tagad ir noslēpti no citiem spēlētājiem."
+
+msgid "section/hof/statusDescription/inclusion"
+msgstr "Pieteikums ir nosūtīts un tas tiks apstrādāts nākamajā reitingu aprēķinā. Jūsu reitinga rezultāti tagad tiek atainoti citiem spēlētājiem."
+
+msgid "section/hof/statusDescription/showResults"
+msgstr "Jūsu reitinga rezultāti ir atainoti visiem spēlētājiem, draugiem un klana biedriem."
+
+msgid "section/hof/title"
+msgstr "Slavas zāle"
+
+msgid "section/hof/vehiclesRatingsBtn"
+msgstr "Pāriet pie reitingiem"
+
+msgid "section/hof/vehiclesRatingsTitle"
+msgstr "Reitings pēc bruņutehnikas\ngadījuma kaujās"
+
+msgid "section/statistics/bodyBar/label/charts"
+msgstr "Infografika"
+
+msgid "section/statistics/bodyBar/label/clan10"
+msgstr "X līmenis"
+
+msgid "section/statistics/bodyBar/label/clan6"
+msgstr "VI līmenis"
+
+msgid "section/statistics/bodyBar/label/clan8"
+msgstr "VIII līmenis"
+
+msgid "section/statistics/bodyBar/label/detailed"
+msgstr "Dati"
+
+msgid "section/statistics/bodyBar/label/fortBattles"
+msgstr "Uzbrukumu dati"
+
+msgid "section/statistics/bodyBar/label/fortSortie"
+msgstr "Sadursmju dati"
+
+msgid "section/statistics/bodyBar/label/specific"
+msgstr "Īpašie sasniegumi"
+
+msgid "section/statistics/bodyParams/label/average"
+msgstr "Vidējie rādītāji kaujā"
+
+msgid "section/statistics/bodyParams/label/common"
+msgstr "Kopējie rādītāji"
+
+msgid "section/statistics/bodyParams/label/fortBattles"
+msgstr "Uzbrukumi"
+
+msgid "section/statistics/bodyParams/label/fortSortie"
+msgstr "Sadursmes"
+
+msgid "section/statistics/bodyParams/label/record"
+msgstr "Rekordi"
+
+msgid "section/statistics/bodyParams/label/resource"
+msgstr "Industriālie resursi"
+
+msgid "section/statistics/chart/class/tooltip/body"
+msgstr "Kopējais skaits kauju šīs klases tankos"
+
+msgid "section/statistics/chart/class/tooltip/header"
+msgstr "Tanka Klase: %(value)s"
+
+msgid "section/statistics/chart/level/tooltip/body"
+msgstr "Kauju skaits ar šī līmeņa bruņutehniku"
+
+msgid "section/statistics/chart/level/tooltip/header"
+msgstr "Bruņutehnikas līmenis: %(value)s"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/body"
+msgstr "Šajā režīmā var ņemt dalību tikai VI-VIII līmeņa bruņutehnika."
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/header"
+msgstr "Bruņutehnikas līmenis: %(value)s"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/body"
+msgstr "Šajā režīmā var ņemt dalību tikai VIII-X līmeņa bruņutehnika."
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/header"
+msgstr "Bruņutehnikas līmenis: %(value)s"
+
+msgid "section/statistics/chart/nation/tooltip/body"
+msgstr "Kauju skaits ar šīs nācijas bruņutehniku"
+
+msgid "section/statistics/chart/nation/tooltip/header"
+msgstr "Bruņutehnikas nācija: %(value)s"
+
+msgid "section/statistics/chart/place/tooltip/body"
+msgstr "Kopējais skaits aizvadīto kauju ar šo vietu"
+
+msgid "section/statistics/chart/place/tooltip/header"
+msgstr "Vieta Ieņemta: %(value)s"
+
+msgid "section/statistics/chart/type/tooltip/body"
+msgstr "Kauju skaits ar šī veida bruņutehniku"
+
+msgid "section/statistics/chart/type/tooltip/header"
+msgstr "Bruņutehnikas veids: %(value)s"
+
+msgid "section/statistics/charts/byClassLabel"
+msgstr "Pēc klases"
+
+msgid "section/statistics/charts/byLevelLabel"
+msgstr "Pēc līmeņa"
+
+msgid "section/statistics/charts/byNationLabel"
+msgstr "Pēc nācijas"
+
+msgid "section/statistics/charts/byPlaceLabel"
+msgstr "Pēc ieņemtās vietas"
+
+msgid "section/statistics/charts/byTypeLabel"
+msgstr "Pēc veida"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortOther"
+msgstr "Bojājumi pretinieku tankiem, kurus apdullināja spēlētājs"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortSelf"
+msgstr "Bojājumi pa jūsu apdullinātajiem pretinieku tankiem"
+
+msgid "section/statistics/detailed/avgDamage"
+msgstr "Izdarīti bojājumi pretinieku bruņutehnikai"
+
+msgid "section/statistics/detailed/avgDestroyedVehicles"
+msgstr "Iznīcinātas pretinieku bruņutehnikas vienības"
+
+msgid "section/statistics/detailed/avgDetectedEnemies"
+msgstr "Atklātas pretinieku bruņutehnikas vienības"
+
+msgid "section/statistics/detailed/avgHealthRepaired"
+msgstr "Atjaunotie Dzīvības Punkti"
+
+msgid "section/statistics/detailed/avgPoiCaptured"
+msgstr "Sagūstītie Galvenie Punkti"
+
+msgid "section/statistics/detailed/avgPrestigePoints"
+msgstr "Prestiža Punkti"
+
+msgid "section/statistics/detailed/avgReceivedDamage"
+msgstr "Saņemti bojājumi"
+
+msgid "section/statistics/detailed/avgRoleSkillUsed"
+msgstr "Izmantotās Lomu Spējas"
+
+msgid "section/statistics/detailed/damageCoefficient"
+msgstr "Bojājumu koeficients"
+
+msgid "section/statistics/detailed/dealOutDamage"
+msgstr "Izdarītie bojājumi"
+
+msgid "section/statistics/detailed/destroyed"
+msgstr "Iznīcināts"
+
+msgid "section/statistics/detailed/destructionCoefficient"
+msgstr "Iznīcināšanas koeficients"
+
+msgid "section/statistics/detailed/killed"
+msgstr "Iznīcināti"
+
+msgid "section/statistics/detailed/maxDestroyedVehicles"
+msgstr "Visvairāk iznīcināti kaujas laikā"
+
+msgid "section/statistics/detailed/receivedDamage"
+msgstr "Saņemtie bojājumi"
+
+msgid "section/statistics/detailed/stunNumber"
+msgstr "Apdullināšanas reizes"
+
+msgid "section/statistics/headerText/all"
+msgstr "Gadījuma un rotas"
+
+msgid "section/statistics/headerText/battleRoyaleSolo"
+msgstr "Tērauda Mednieks"
+
+msgid "section/statistics/headerText/battleRoyaleSquad"
+msgstr "Tērauda Mednieks"
+
+msgid "section/statistics/headerText/clan"
+msgstr "Globālā karte"
+
+msgid "section/statistics/headerText/comp7"
+msgstr "Uzbrukums"
+
+msgid "section/statistics/headerText/epicRandom"
+msgstr "Galvenā kauja"
+
+msgid "section/statistics/headerText/fallout"
+msgstr "Plosīšanās"
+
+msgid "section/statistics/headerText/fortifications"
+msgstr "Cietoksnis: kaujas"
+
+msgid "section/statistics/headerText/historical"
+msgstr "Vēsturiskās kaujas"
+
+msgid "section/statistics/headerText/ranked_10x10"
+msgstr "Ranga Kauja"
+
+msgid "section/statistics/headerText/ranked_15x15"
+msgstr "Ranga Kauja 15 pret 15"
+
+msgid "section/statistics/headerText/staticTeam"
+msgstr "Komandu kaujas: ranga kaujas"
+
+msgid "section/statistics/headerText/team"
+msgstr "Komandu kaujas: regulāras kaujas"
+
+msgid "section/statistics/labels/battlesOnTech"
+msgstr "Kaujas bruņutehnikā"
+
+msgid "section/statistics/scores/achievementsCount"
+msgstr "Sasniegumi"
+
+msgid "section/statistics/scores/armorUsing"
+msgstr "Bruņu izmantošanas efektivitāte"
+
+msgid "section/statistics/scores/avgAssistedDamage"
+msgstr "Vidējie bojājumi, kas izdarīti ar jūsu atbalstu"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortOther"
+msgstr "Izdarīti bojājumi ar spēlētāja atbalstu"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortSelf"
+msgstr "Izdarīti bojājumi ar jūsu atbalstu"
+
+msgid "section/statistics/scores/avgDamage"
+msgstr "Vidējie bojājumi kaujā"
+
+msgid "section/statistics/scores/avgExperience"
+msgstr "Vidējā pieredze kaujā"
+
+msgid "section/statistics/scores/avgExperience/short"
+msgstr "Pieredze"
+
+msgid "section/statistics/scores/avgPrestigePoints"
+msgstr "Vidējais Prestiža Punktu Skaits Kaujā"
+
+msgid "section/statistics/scores/avgVictoryPoints"
+msgstr "Vidējais uzvaras punktu skaits"
+
+msgid "section/statistics/scores/capturePoints"
+msgstr "Bāzes ieņemšanas punkti"
+
+msgid "section/statistics/scores/clan/summaryDamageCoefficient"
+msgstr "Vidējais bojājumu koeficients"
+
+msgid "section/statistics/scores/coolSigns"
+msgstr "Meistarības ordeņi „Lietpratējs”"
+
+msgid "section/statistics/scores/droppedCapturePoints"
+msgstr "Bāzes aizsardzības punkti"
+
+msgid "section/statistics/scores/flagsAbsorbed"
+msgstr "Iznīcināti karogi"
+
+msgid "section/statistics/scores/flagsDelivered"
+msgstr "Nogādāti karogi"
+
+msgid "section/statistics/scores/fort/battles"
+msgstr "Uzbrukumi"
+
+msgid "section/statistics/scores/fort/battlesWinsEfficiency"
+msgstr "Uzvaras"
+
+msgid "section/statistics/scores/fort/resource"
+msgstr "Vidējais laupījuma apjoms sadursmē"
+
+msgid "section/statistics/scores/fort/sortie"
+msgstr "Sadursmes"
+
+msgid "section/statistics/scores/fort/sortieWinsEfficiency"
+msgstr "Uzvaras sadursmēs"
+
+msgid "section/statistics/scores/fortBattles/attacks"
+msgstr "Uzbrukumi"
+
+msgid "section/statistics/scores/fortBattles/defences"
+msgstr "Aizsardzības"
+
+msgid "section/statistics/scores/fortBattlesTotalWins"
+msgstr "Uzvaras uzbrukumos"
+
+msgid "section/statistics/scores/fortSortie"
+msgstr "Sadursmes"
+
+msgid "section/statistics/scores/fortSortieTotalWins"
+msgstr "Uzvaras sadursmēs"
+
+msgid "section/statistics/scores/fortSorties/AvgResources"
+msgstr "Vidējais laupījuma apjoms sadursmē"
+
+msgid "section/statistics/scores/fortSorties/totalResources"
+msgstr "Kopējais laupījums, kas iegūts sadursmēs"
+
+msgid "section/statistics/scores/fortTotalBattles"
+msgstr "Uzbrukumi"
+
+msgid "section/statistics/scores/hits"
+msgstr "Trāpījumi"
+
+msgid "section/statistics/scores/killDeathRatio"
+msgstr "Iznīcināšanas koeficients"
+
+msgid "section/statistics/scores/looting"
+msgstr "Izlaupīšanas"
+
+msgid "section/statistics/scores/maxDamage"
+msgstr "Lielākie bojājumi kaujā"
+
+msgid "section/statistics/scores/maxEquipmentDamageDealt"
+msgstr "Maksimālie Bojājumi Izdarīti no Spējām Kaujā"
+
+msgid "section/statistics/scores/maxExperience"
+msgstr "Lielākā pieredze kaujā"
+
+msgid "section/statistics/scores/maxPrestigePoints"
+msgstr "Maksimālais Prestiža Punktu Skaits Kaujā"
+
+msgid "section/statistics/scores/maxVictoryPoints"
+msgstr "Lielākais uzvaras punktu skaits kaujā"
+
+msgid "section/statistics/scores/maxWinSeries"
+msgstr "Visvairāk Secīgu Uzvaru (Solo un Vadā/Super Vadā)"
+
+msgid "section/statistics/scores/poiCaptured"
+msgstr "Sagūstītie Galvenie Punkti"
+
+msgid "section/statistics/scores/ranked/avgFrags"
+msgstr "Vidējais iznīcināto bruņutehnikas vienību skaits"
+
+msgid "section/statistics/scores/ranked/avgPoints"
+msgstr "Ranga kauju efektivitāte"
+
+msgid "section/statistics/scores/ranked/points"
+msgstr "Ranga punkti"
+
+msgid "section/statistics/scores/survival"
+msgstr "Kaujas, kurās izdzīvoja"
+
+msgid "section/statistics/scores/totalBattles"
+msgstr "Kaujas"
+
+msgid "section/statistics/scores/totalVehs"
+msgstr "Bruņutehnika"
+
+msgid "section/statistics/scores/totalWins"
+msgstr "Uzvaras"
+
+msgid "section/statistics/scores/usedTechnics"
+msgstr "Izmantotā bruņutehnika"
+
+msgid "section/statistics/title"
+msgstr "Statistika"
+
+msgid "section/summary/errorText/nextAwards"
+msgstr "Nav nākamo sasniegumu"
+
+msgid "section/summary/errorText/significantAwards"
+msgstr "Nozīmīgu sasniegumu nav"
+
+msgid "section/summary/labels/nextAwards"
+msgstr "Nākamie sasniegumi"
+
+msgid "section/summary/labels/significantAwards"
+msgstr "Nozīmīgie sasniegumi"
+
+msgid "section/summary/scores/averageLevel"
+msgstr "Vidējais Līmenis"
+
+msgid "section/summary/scores/averageRank"
+msgstr "Vidējā Pozīcija"
+
+msgid "section/summary/scores/avgDamage"
+msgstr "Vidējie bojājumi kaujā"
+
+msgid "section/summary/scores/avgExperience"
+msgstr "Vidējā pieredze kaujā"
+
+msgid "section/summary/scores/coolSigns"
+msgstr "Meistarības ordeņi „Lietpratējs”"
+
+msgid "section/summary/scores/damageDealt"
+msgstr "Izdarītie Bojājumi"
+
+msgid "section/summary/scores/hits"
+msgstr "Trāpījumi"
+
+msgid "section/summary/scores/maxDestroyed"
+msgstr "Visvairāk iznīcināti kaujas laikā"
+
+msgid "section/summary/scores/maxExperience"
+msgstr "Lielākā pieredze kaujā"
+
+msgid "section/summary/scores/personalScore"
+msgstr "Personīgais reitings"
+
+msgid "section/summary/scores/totalBattles"
+msgstr "Kaujas"
+
+msgid "section/summary/scores/totalWins"
+msgstr "Uzvaras"
+
+msgid "section/summary/title"
+msgstr "Kopsavilkums"
+
+msgid "section/technique/awards/noAchievements"
+msgstr "Sasniegumi vēl nav saņemti"
+
+msgid "section/technique/buttonBar/avgExperience"
+msgstr "Vidējā\npieredze"
+
+msgid "section/technique/buttonBar/classiness"
+msgstr "Meistarība"
+
+msgid "section/technique/buttonBar/totalBattles"
+msgstr "Kaujas"
+
+msgid "section/technique/buttonBar/totalWins"
+msgstr "Uzvaras"
+
+msgid "section/technique/buttonBar/vehicleName"
+msgstr "Nosaukums"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/body"
+msgstr "Rādīt bruņutehniku angārā"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/header"
+msgstr "Ir angārā"
+
+msgid "section/technique/emptyScreenLabel/battleType/all"
+msgstr "Angārā nav bruņutehnika, kas aizvadīja gadījuma vai rotu kaujas."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSolo"
+msgstr "Garāžā nav tanku, kas ir piedalījušies Tērauda Medniekā."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSquad"
+msgstr "Garāžā nav tanku, kas ir piedalījušies Tērauda Medniekā."
+
+msgid "section/technique/emptyScreenLabel/battleType/comp7"
+msgstr "Nav tanku, kas cīnījās Uzbrukuma režīmā."
+
+msgid "section/technique/emptyScreenLabel/battleType/epicRandom"
+msgstr "Angārā nav bruņutehnikas, kas piedalījās galvenās kaujas režīmā"
+
+msgid "section/technique/emptyScreenLabel/battleType/fallout"
+msgstr "Angārā nav bruņutehnika, kas piedalījusies režīmā „Plosīšanās”."
+
+msgid "section/technique/emptyScreenLabel/battleType/fortBattles"
+msgstr "Angārā nav bruņutehnika, kas var piedalīties uzbrukumos."
+
+msgid "section/technique/emptyScreenLabel/battleType/fortSorties"
+msgstr "Angārā nav bruņutehnika, kas var piedalīties sadursmēs."
+
+msgid "section/technique/emptyScreenLabel/battleType/globalMap"
+msgstr "Angārā nav bruņutehnika, kas piedalījusies globālās kartes kaujās."
+
+msgid "section/technique/emptyScreenLabel/battleType/historical"
+msgstr "Angārā nav bruņutehnika, kas piedalījusies vēsturiskajās kaujās."
+
+msgid "section/technique/emptyScreenLabel/battleType/ranked"
+msgstr "Nav bruņutehnikas angārā, kas varētu piedalīties ranga kaujās"
+
+msgid "section/technique/emptyScreenLabel/battleType/staticTeam"
+msgstr "Angārā nav bruņutehnika, kas piedalījusies ranga kaujās."
+
+msgid "section/technique/emptyScreenLabel/battleType/team"
+msgstr "Angārā nav bruņutehnika, kas piedalījusies komandu kaujās."
+
+msgid "section/technique/sort/tooltip/avgDamage/body"
+msgstr "Kārtot pēc vidējiem bojājumiem kaujā."
+
+msgid "section/technique/sort/tooltip/avgDamage/header"
+msgstr "Vidējie Bojājumi"
+
+msgid "section/technique/sort/tooltip/avgFrags/body"
+msgstr "Kārtot pēc iznīcināto pretinieku tanku skaita kaujā."
+
+msgid "section/technique/sort/tooltip/avgFrags/header"
+msgstr "Iznīcinātie Pretinieku Tanki"
+
+msgid "section/technique/sort/tooltip/avgexp/body"
+msgstr "Kārtot pēc vidējās pieredzes kaujā"
+
+msgid "section/technique/sort/tooltip/avgexp/header"
+msgstr "Vidējā pieredze"
+
+msgid "section/technique/sort/tooltip/battlesCount/body"
+msgstr "Kārtot pēc kauju skaita"
+
+msgid "section/technique/sort/tooltip/battlesCount/header"
+msgstr "Kaujas"
+
+msgid "section/technique/sort/tooltip/class/body"
+msgstr "Kārtot pēc tanka klases"
+
+msgid "section/technique/sort/tooltip/class/header"
+msgstr "Klase"
+
+msgid "section/technique/sort/tooltip/lvl/body"
+msgstr "Kārtot pēc bruņutehnikas līmeņiem"
+
+msgid "section/technique/sort/tooltip/lvl/header"
+msgstr "Līmenis"
+
+msgid "section/technique/sort/tooltip/marksofmastery/body"
+msgstr "Kārtot pēc meistarības ordeņiem"
+
+msgid "section/technique/sort/tooltip/marksofmastery/header"
+msgstr "Meistarība"
+
+msgid "section/technique/sort/tooltip/name/body"
+msgstr "Kārtot pēc bruņutehnikas nosaukuma"
+
+msgid "section/technique/sort/tooltip/name/header"
+msgstr "Nosaukums"
+
+msgid "section/technique/sort/tooltip/nation/body"
+msgstr "Kārtot pēc nācijas"
+
+msgid "section/technique/sort/tooltip/nation/header"
+msgstr "Nācija"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/body"
+msgstr "Kārtot pēc Elites Līmeņa"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/header"
+msgstr "Elites Sistēma"
+
+msgid "section/technique/sort/tooltip/prestigePoints/body"
+msgstr "Kārtot pēc vidējā Prestiža Punktu skaita kaujā"
+
+msgid "section/technique/sort/tooltip/prestigePoints/header"
+msgstr "Vidējais Prestiža Punktu Skaits Kaujā"
+
+msgid "section/technique/sort/tooltip/technique/body"
+msgstr "Kārtot pēc bruņutehnikas veidiem"
+
+msgid "section/technique/sort/tooltip/technique/header"
+msgstr "Tips"
+
+msgid "section/technique/sort/tooltip/winRate/body"
+msgstr "Kārtot pēc uzvaru procenta"
+
+msgid "section/technique/sort/tooltip/winRate/header"
+msgstr "Uzvaras"
+
+msgid "section/technique/sort/tooltip/wins/body"
+msgstr "Kārtot pēc uzvaru skaita"
+
+msgid "section/technique/sort/tooltip/wins/header"
+msgstr "Uzvaras"
+
+msgid "section/technique/statistics/accuracy"
+msgstr "Trāpījumi"
+
+msgid "section/technique/statistics/assistedStunDamage/shortOther"
+msgstr "Bojājumi pretinieku tankiem, kurus apdullināja spēlētājs"
+
+msgid "section/technique/statistics/assistedStunDamage/shortSelf"
+msgstr "Bojājumi pa jūsu apdullinātajiem pretinieku tankiem"
+
+msgid "section/technique/statistics/avgAssistedStunDamage"
+msgstr "Bojājumi pa jūsu apdullinātajiem mērķiem"
+
+msgid "section/technique/statistics/avgDamage"
+msgstr "Izdarīti bojājumi pretinieku bruņutehnikai"
+
+msgid "section/technique/statistics/avgDestroyedVehicles"
+msgstr "Iznīcinātas pretinieku bruņutehnikas vienības"
+
+msgid "section/technique/statistics/avgDetectedEnemies"
+msgstr "Atklātas bruņutehnikas"
+
+msgid "section/technique/statistics/avgExperience"
+msgstr "Pieredze"
+
+msgid "section/technique/statistics/avgReceivedDamage"
+msgstr "Saņemti bojājumi"
+
+msgid "section/technique/statistics/avgScoutingDamage"
+msgstr "Izdarīti bojājumi ar spēlētāja atbalstu"
+
+msgid "section/technique/statistics/avgStats"
+msgstr "Vidējie rādītāji kaujā"
+
+msgid "section/technique/statistics/avgStunNumber"
+msgstr "Apdullināšanas reizes"
+
+msgid "section/technique/statistics/common"
+msgstr "Kopējie rādītāji"
+
+msgid "section/technique/statistics/damageCoefficient"
+msgstr "Bojājumu koeficients"
+
+msgid "section/technique/statistics/destructionCoefficient"
+msgstr "Iznīcināšanas koeficients"
+
+msgid "section/technique/statistics/maxDamage"
+msgstr "Lielākie bojājumi kaujā"
+
+msgid "section/technique/statistics/maxDestroyedVehicles"
+msgstr "Visvairāk iznīcināti kaujas laikā"
+
+msgid "section/technique/statistics/maxExperience"
+msgstr "Lielākā pieredze kaujā"
+
+msgid "section/technique/statistics/records"
+msgstr "Rekords"
+
+msgid "section/technique/statistics/stunNumber"
+msgstr "Apdullināšanas reizes"
+
+msgid "section/technique/statistics/survival"
+msgstr "Kaujas, kurās izdzīvoja"
+
+msgid "section/technique/statistics/tankingCoefficient"
+msgstr "Bruņu izmantošanas efektivitāte"
+
+msgid "section/technique/statistics/totalBattles"
+msgstr "Kaujas"
+
+msgid "section/technique/statistics/totalWins"
+msgstr "Uzvaras"
+
+msgid "section/technique/tabBtn/achievements"
+msgstr "Sasniegumi"
+
+msgid "section/technique/tabBtn/awards/tooltip/body"
+msgstr "Apskatīt izvēlētās bruņutehnikas sasniegumus"
+
+msgid "section/technique/tabBtn/awards/tooltip/header"
+msgstr "Sasniegumi"
+
+msgid "section/technique/tabBtn/statistic"
+msgstr "Statistika"
+
+msgid "section/technique/tabBtn/statistic/tooltip/body"
+msgstr "Apskatīt izvēlētās bruņutehnikas statistiku"
+
+msgid "section/technique/tabBtn/statistic/tooltip/header"
+msgstr "Statistika"
+
+msgid "section/technique/title"
+msgstr "Bruņutehnika"
+
+msgid "section/technique/window/hangarVehiclesLabel"
+msgstr "Ir angārā"
+
+msgid "tooltip/dropdown/battleType/body"
+msgstr "Ieslēgt filtru, lai apskatītu statistiku kauju režīmos."
+
+msgid "tooltip/dropdown/battleType/header"
+msgstr "Kārtot pēc kauju režīmiem"

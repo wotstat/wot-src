@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "backButton/label"
+msgstr "GERİ DÖN"
+
+msgid "backButton/to"
+msgstr "HESAP DURUMUNA GİT"
+
+msgid "filteredMapsDisplayed"
+msgstr "Gösterilen haritalar: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Bu türdeki haritaları göster/gizle."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Çöl Haritaları"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Yaz Haritaları"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Kış Haritaları"
+
+msgid "header/cooldown"
+msgstr "Bir haritayı %(cooldownEndTime) içinde tekrar değiştirebilirsiniz."
+
+msgid "header/title"
+msgstr "Engellenen Haritalar"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Bu haritayı soğuma süresi sonunda tekrar değiştirebilirsiniz."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Harita Değiştirme Yapılamaz"
+
+msgid "mapTile/hoverExclude"
+msgstr "%(mapName) haritası engellensin mi?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Engelle"
+
+msgid "mapTile/hoverInclude"
+msgstr "%(mapName) haritası Rastgele Savaşlar'a eklensin mi?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Ekle"
+
+msgid "mapsFilterLabel"
+msgstr "Harita türleri:"
+
+msgid "notSelected"
+msgstr "Seçili Değil"
+
+msgid "premium"
+msgstr "WoT Premium"
+
+msgid "slot/disabledTooltipBody"
+msgstr "Ek bir yuva ancak aktif bir WoT Premium Hesabı veya WoT Plus aboneliği ile açılır."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "WoT Premium Hesabı ile açın."
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Aktif WoT Plus aboneliği ile açın."
+
+msgid "slot/replaceTooltipBody"
+msgstr "Değiştirip Rastgele Savaşlarda engellemek için aşağıdaki listeden bir harita seçin."
+
+msgid "slot/selectTooltipBody"
+msgstr "Rastgele Savaşlarda engellemek için aşağıdaki listeden bir harita seçin."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Yuva Mevcut"
+
+msgid "totalMapsDisplayed"
+msgstr "Gösterilen haritalar: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "%(linkPremium) ile 1, %(linkWotPlus) ile %(mapCount)s harita daha engelleyin."
+msgstr[1] "%(linkPremium) ile 1, %(linkWotPlus) ile %(mapCount)s harita daha engelleyin."
+
+msgid "unlock/premium"
+msgstr "%(linkPremium) ile 1 harita daha engelleyin."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "%(linkWotPlus) ile %(mapCount)s harita daha engelleyin."
+msgstr[1] "%(linkWotPlus) ile %(mapCount)s harita daha engelleyin."
+
+msgid "wotplus"
+msgstr "WoT Plus"

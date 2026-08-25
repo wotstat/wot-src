@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, kaujas ilgums: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "AIZVĒRT"
+
+msgid "battleResult/continueButton"
+msgstr "Turpināt"
+
+msgid "battleResult/damageAssisted"
+msgstr "Bojājumi\npalīdzēti"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Bojājumi\nbloķēti"
+
+msgid "battleResult/damageDealt"
+msgstr "Bojājumi\nizdarīti"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s Izpildot šo misiju Stingrā grūtības pakāpē,\njūs arī automātiski izpildīsiet to Parastajā.\nTas nozīmē, ka saņemsiet balvas par abām grūtības pakāpēm."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s Izpildot šo misiju Stingrā grūtības pakāpē, jūs arī automātiski izpildīsiet to Parastajā.\nTas nozīmē, ka saņemsiet balvas par abām grūtības pakāpēm."
+
+msgid "battleResult/kills"
+msgstr "Pretinieki\niznīcināti"
+
+msgid "battleResult/lose/title"
+msgstr "KAUJA IR BEIGUSIES"
+
+msgid "battleResult/missionName/1"
+msgstr "TĪĢERU MEDNIEKS: Operācija Tērauda Lavīna"
+
+msgid "battleResult/missionName/2"
+msgstr "TĪĢERU MEDNIEKS: Operācija Slazds"
+
+msgid "battleResult/missionName/3"
+msgstr "TĪĢERU MEDNIEKS: Operācija Āmurs un Lakta"
+
+msgid "battleResult/missionName/4"
+msgstr "TĪĢERU MEDNIEKS: Operācija Kaķis Peļu Sazdā"
+
+msgid "battleResult/missionName/5"
+msgstr "OPERĀCIJA PAVĒLNIEKS"
+
+msgid "battleResult/missionName/6"
+msgstr "OPERĀCIJA PASTNIEKS"
+
+msgid "battleResult/missionName/7"
+msgstr "OPERĀCIJA “VĀRĪŠANĀS PUNKTS”"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Nav aktīvu\nmisiju"
+
+msgid "battleResult/rewards/other"
+msgstr "Arī saņemts:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Misijas\nizpildītas"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Izdzīvots{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Neizdzīvots{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "UZVARA!"
+
+msgid "countdown/days"
+msgstr "{days} d"
+
+msgid "countdown/daysHours"
+msgstr "{days} d {hours} h"
+
+msgid "countdown/endsSoon"
+msgstr "Mazāk nekā {minutes} minūtes"
+
+msgid "countdown/hours"
+msgstr "{hours} h"
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} h {minutes} min"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} h {minutes} m"
+
+msgid "countdown/lessThanMinute"
+msgstr "Mazāk nekā 1 minūte"
+
+msgid "countdown/minutes"
+msgstr "{minutes} min"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} m"
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "Atcelt"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "Jūs nepelnīsiet balvas par šīs operācijas izpildi.\nVai vēl joprojām vēlieties spēlēt operāciju bez aktīvām misijām?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Apstiprināt"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "Nav Aktīvu Misiju Šajā Operācijā"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Atklāj nezināmo draudu, apturi raķetes palaišanu un pārliecinies, ka jaunās tehnoloģijas nonāk pareizajās rokās."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "Spēlē viens un cīnies pret mākslīgā intelekta vadītiem ienaidniekiem šajā episkajā stāstā ar komandieriem no 3. sektora!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Pabeidz visas misijas, lai saņemtu piemiņas emblēmu un medaļu, tematiskos 2D stilus un citas vērtīgas balvas."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "Sākas Jauna Ēra"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "Solo Stāsts"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Balvas"
+
+msgid "eventWelcomeScreen/header"
+msgstr "OPERĀCIJA “VIRŠANAS PUNKTS”"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s – %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Stāsti"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Stingrs"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Parasts"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Grūts\nMīnu Lauks"
+
+msgid "missionSelection/exitButton"
+msgstr "IZIET NO REŽĪMA"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "OPERĀCIJA\nTĒRAUDA LAVĪNA"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "OPERĀCIJA\nSLAZDS"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "OPERĀCIJA\nĀMURS UN LAKTA"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "OPERĀCIJA\nKAĶIS PEĻU SLAZDĀ"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "OPERĀCIJA\nPAVĒLNIEKS"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "OPERĀCIJA\nPASTNIEKS"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "OPERĀCIJA\nVERDOŠAIS PUNKTS"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Brūks: \"Tātad, kā tev iet? Vai esi pārdomājis? Vēlāk redzēsi mediķus. Katrs ierocis tagad ir svarīgs. Uzbrukums jau ir sācies. Un tā kā mēs kavējāmies, ienaidnieks visu savu uzmanību koncentrēja uz citu flangu. Šī ir mūsu iespēja. Mēs uzbrūkam uzreiz. Ielauzieties pilsētā un izspiediet tos no abām pusēm.\nSekojiet mums — un izvairieties no pūķa zobiem. Viņiem šajā laukā ir vairākas betona ilkņu rindas. Bet tas ir labi. Mēs tiksim cauri. Viss, kas jums jādara, ir jāuzklausa mani un jāizpilda manas pavēles ātri un precīzi. Mēs ar MacLeod jūs piesegsim.\nUn nedomājiet par viņa jokiem. Katram ir savi unikālie pārvarēšanas mehānismi... Uz priekšu!\""
+
+msgid "missionSelection/missionDescription/2"
+msgstr "MacLeod: \"Ak, Tīģeri—tie ir ļaunākie, ar ko var saskarties kaujas laukā. Un, ja komanda saka, ka viņiem ir problēma, tas, iespējams, nozīmē Tīģerus. Mēs nevaram sazināties ar pirmo uzbrukuma vienību, otrā ir tikko izgājusi, un šeit mēs esam—nosūtīti viņiem sekot.\nUn, ja viņi mūs nosūtīs, tas var nozīmēt tikai vienu lietu: Tīģerus. Tā saka štābā: \"Sūtiet tos Tīģeru ekspertus!\" Deviņi tanki diviem. Ne pārāk slikti pusgadam. Jūs esat vadībā ar 5:4. Bet man ir iespēja tikt uz priekšu. Un beidzot iegūstiet šo sasodīto medaļu!\nNāc—Brūksam nepatīk gaidīt. Mūsu medības sākas.\""
+
+msgid "missionSelection/missionDescription/3"
+msgstr "Makleods: \"Labi, visi, tā ir Operācija Āmurs un Lakta. Vienkāršs nosaukums ne tik vienkāršam darbam. Mēs dodamies uz pilsētu, lai iztīrītu ienaidnieka spēkus. Tā nebūs pastaiga pa parku — mēs esam pretī smagām bruņām. Bet mūsu pusē ir prāts, spēks un komandas darbs, vai ne Veiksminiek? Un daram to ātri, ļaudis. Man ir plāni ar mazu \"tējas\" tasi piecos, ja saprotiet ko es domāju!\""
+
+msgid "missionSelection/missionDescription/4"
+msgstr "Makleods: \"Nejautā, Veiksmīgais. Es esmu tumsā tikpat daudz kā tu.Es neesmu visas šīs slepenības cienītājs. Man patīk lietas, kas ir vienkāršas. Tu redzi ienaidnieku, tu cīnies. Bet tas? Tas ir haoss.\n\nPilsētā būs arī sabiedroto tanki. Brūkss lūdza mūs iet uzmanīgi. Ko tam vajadzētu nozīmēt?\nMums ir īpašs darbs. Lai atrastu kaut kādu Wunderwaffe — kaut ko milzīgu. Neviens cits to nedarīs, kā vien mēs, Veiksmīgais.\n\nGatavi? Braucam.\""
+
+msgid "missionSelection/missionDescription/5"
+msgstr "Kapteinis Džons Makkormiks: \"Labi, draugi, tā diena ir pienākusi. Ir pienācis laiks pielikt punktu šim karam, un tieši to mēs darīsim. Mēs visi kopā – Amerikāņi, Briti, Franči, Kanādieši, Austrālieši, Beļģi, Čehoslovāki, Grieķi, Holandieši, Kivi, Norvēģi, Poļi. Mēs esam vienoti, lai uz visiem laikiem izbeigtu šo ļaunumu.\n\nMēs izlauzīsimies cauri Atlantijas mūrim un nostiprināsim savu pamatu.\n\nGatavojieties izkāpt!\""
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Kapteinis Smits: \"Klausieties. Vācija parakstīja padošanās dokumentus pirms dažām stundām. Karš beidzas rīt. Bet mūsu zēni kalnos ir zaudējuši radio sakarus—viņi nezina, ka viss ir beidzies. Viņi gatavojas uzbrukt šim sasodītajam cietoksnim rītā, un Vācieši iekšā arī nezina par padošanos. Tas būs lieks slaktiņš.\n\nMēs esam vienīgie, kas var to apturēt. Mūsu misija: Izkļūt cauri ienaidnieka līnijām un piegādāt pamiera rīkojumu. Tā būs pašnāvības misija, bet katra dzīvība, ko mēs izglābsim, ir tā vērta.\n\nMums ir sagūstīts Vācu radiomeistars—viņš zina apvidu un viņam ir tikpat daudz iemeslu kā mums, lai apturētu šo asiņošanu.\n\nIzbraucam.\""
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Lenija Šarfa: “Situācija ir kritiska. Esam zaudējuši sakarus ar mūsu raķešu bāzi Norvēģu jūrā. Izlūklidojums neatgriezās, un sākotnējais tanku desants tika iznīcināts nezināma ienaidnieka uzbrukumā.\n\nIzlūkdienests ziņo, ka viņi gatavojas palaist ballistisko raķeti. Mērķis nav zināms, bet šajā politiskajā situācijā pat viens palaišanas gadījums var izraisīt globālu konfliktu.\n\nTā vien šķiet—gluži kā vecajos laikos. Vēl viens neiespējamais uzdevums aiz ienaidnieka līnijām. Uz priekšu!”"
+
+msgid "missionSelection/missionName/1"
+msgstr "OPERĀCIJA TĒRAUDA LAVĪNA"
+
+msgid "missionSelection/missionName/2"
+msgstr "OPERĀCIJA SLAZDS"
+
+msgid "missionSelection/missionName/3"
+msgstr "OPERĀCIJA ĀMURS UN LAKTA"
+
+msgid "missionSelection/missionName/4"
+msgstr "OPERĀCIJA KAĶIS PEĻU SLAZDĀ"
+
+msgid "missionSelection/missionName/5"
+msgstr "OPERĀCIJA PAVĒLNIEKS"
+
+msgid "missionSelection/missionName/6"
+msgstr "OPERĀCIJA PASTNIEKS"
+
+msgid "missionSelection/missionName/7"
+msgstr "OPERĀCIJA “VĀRĪŠANĀS PUNKTS”"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Īpašs Tanks"
+
+msgid "missionSelection/tab/event"
+msgstr "OPERĀCIJA “VIRŠANAS PUNKTS”"
+
+msgid "missionSelection/tab/newbies"
+msgstr "PAMĀCĪBAS STĀSTI"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Uzbrūciet pilsētai un iznīciniet pretinieku tankus."
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Uzbrūciet pilsētai un iznīciniet pretinieku tankus."
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Uzbrūciet pilsētai un iznīciniet pretinieku tankus."
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Izpildiet galvenos misijas mērķus nesaņemot bojājumus no pretinieku mīnām."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Izpildiet galvenās misijas mērķus nezaudējot nevienu tanku."
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Uzbrūciet pilsētai un sagūstiet pretinieku Wunderwaffe."
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Pabeidz galvenos misijas uzdevumus zem %(win_timer)s."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Pabeidziet galvenos misijas uzdevumus un iznīciniet %(kill_enemies)s ar lidmašīnas palīdzību."
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Izlauzieties cauri, iznīciniet krasta ieročus un ieņemiet krasta punktu."
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Pabeidz galvenos misijas uzdevumus zem %(win_timer)s."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Izpildiet galvenās misijas mērķus nezaudējot nevienu tanku."
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Piegādājiet pamiera rīkojumu saviem sabiedrotajiem."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Pabeidz galvenos misijas uzdevumus un iznīcini mazāk nekā %(kill_enemies)s."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Izpildiet galvenās misijas mērķus nezaudējot nevienu tanku."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Sasniedz komandcentru un apturi raķetes palaišanu."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Pabeidz galvenos misijas uzdevumus zem %(win_timer)s."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Izpildiet galvenās misijas mērķus nezaudējot nevienu tanku."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s pretinieku tanks"
+msgstr[1] "%(value)s pretinieku tanki"
+msgstr[2] "%(value)s pretinieku tanki"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "Misija ir slēgta: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s minūte"
+msgstr[1] "%(value)s minūtēm"
+msgstr[2] "%(value)s minūtes"
+
+msgid "missionSelection/taskRewards"
+msgstr "Balva:"
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Šis tanks ir pieejams tikais Stāstos."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Izpildiet vēl %(numBattles)s kaujas Nejaušo Kauju režīmā\nlai atslēgtu šo operāciju."
+
+msgid "mode/story_mode/callToAction"
+msgstr "Scenāriji iesācējiem"
+
+msgid "mode/story_mode/description"
+msgstr "Izpildiet skriptētas operācijas pret datoru vadītiem tankiem"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Pieejama operācija “Viršanas punkts”"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "Tu vari atrast pašlaik izvēlēto spēles režīmu Garāžas galvenās izvēlnes augšdaļā. Noklikšķiniet uz režīma nosaukuma, lai redzētu, kas vēl ir pieejams."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Nospiediet &zwnbsp;{whiteSpanish_Open}Stāsti{whiteSpanish_Close}&zwnbsp;, lai izvēlētos šo spēles režīmu."
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "Stāstos, jūs variet izpētīt stāstošos PvE scenārijus, cīnīties ar datoru kontrolētiem ienaidniekiem, ienirt varonīgu cīņu atmosfērā un nopelnīt vērtīgas balvas!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Atvērt Spēles Režīma Alasītāju"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Izvēlieties Stāstus"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "Izbaudiet PvE Cīņas"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "STĀSTI"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Gaidāmi scenāriji"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Restartēt"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "KAUJA IR BEIGUSIES"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Izlaist"
+
+msgid "onboardingQueue/skipText"
+msgstr "Visi serveri aizņemti. Lūdzu uzgaidiet vai izlaidiet šo stāstu."
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Mēs gatavojam serveri priekš jums. Lūdzu uzgaidiet..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Bojājumi bloķēti ar bruņām {parSecondary_Start}(vienības){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Bojājumi bloķēti"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "Šāvieni ar HE un HESH čaulam netiek skaitīti."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Ieskaitīts:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Ienaidnieka šāvienu rikošets"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Necaursitīgi triecieni"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Palīdzēti bojājumi"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "Tiek ieskaitīti šādi sabiedroto ar jūsu palīdzību nodarītie bojājumi:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Bojājumi pa jūsu atklātajiem"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "Bojājumi, iznīcinot sliedi un padarot ienaidnieka tanku nekustīgu"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "Kopējie sabiedroto izdarītie bojājumi\n{parSecondary_Start}(vienības){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Izdarītie bojājumi"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Ieskaitīts:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Bojājumi no šāviena"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Bojājumi, ko izraisa taranēšana"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Bojājumi, ko izraisījusi uguns"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Bojājumi, izstumjot ienaidnieka tanku no šķēršļa."
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Kopējie bojājumi {parSecondary_Start}(vienības){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Pretinieki iznīcināti"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Ieskaitīts:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Iznīcināšana ar šāvienu"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Iznīcināšana ar uguni"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Iznīcināšana ar taranēšanu"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Iznīcināšana noslīcinot"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Iznīcināšana, iestumjot ienaidnieka tanku no šķēršļa."
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Iznīcināšana, apgāžot."
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Izpildītas misijas"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "Pabeigto misiju un pašlaik pieejamo misiju\nskaits.\nMisijas, kas izpildītas Grūtā līmenī, tiek\nautomātiski ieskaitītas arī Parastajā līmenī."
+
+msgid "tooltips/difficulty/available"
+msgstr "Pieejams"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "Ienaidnieku reakcijas ātrums un šaušanas precizitāte ir uzlaboti, un viņi uzbruks tev daudz agresīvāk. Par to tu saņemsi papildu balvas pēc misijas izpildes."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "Izpildot misijas {whiteSpanish_Open}Grūtā{whiteSpanish_Close} grūtības līmenī, jūs automātiski izpildāt tās arī {whiteSpanish_Open}Parastajā{whiteSpanish_Close} grūtības līmenī. Jūs saņemsiet balvas par abiem grūtības līmeņiem."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Papildus nosacījumi"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Stingrs"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "Lai atbloķētu Grūtu grūtības līmeni, pierādiet savas prasmes spēles režīmā, izpildot šo operāciju Parastajā grūtības līmenī."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Slēgts"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Pretinieki ir lēnāki un mazāk precīzi, un jūs saņemsiet standarta balvas pēc misijas izpildes."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Parasts"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Izvēlēti"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "Grūtāka Mīnu Lauka stadijas versija - vai tev ir drosme ienākt šajā nāvējošajā labirintā?\nPiedāvā palielinātas kaujas atlīdzības."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Grūts, Mīnu Lauks"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Atklāj nezināmo draudu, apturi raķetes palaišanu un pārliecinies, ka jaunās tehnoloģijas nonāk pareizajās rokās."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Operācija “Viršanas punkts”"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "REŽĪMS"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "— Spēles režīms. Noklikšķini, lai izpētītu"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "Spēlē viens un cīnies pret mākslīgā intelekta vadītiem ienaidniekiem šajā episkajā stāstā ar komandieriem no 3. sektora!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Pasākums pieejams vēl {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "STĀSTI"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "REŽĪMS"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "— Spēles režīms. Noklikšķini, lai izpētītu"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "paši scenāriji ar iepriekš definētu darbību. Dodies ceļojumā uz bruņoto tanku pasauli un pierādi sevi cīņā pret Mākslīgā intelekta vadītiem ienaidniekiem."
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "Stāsti"
+
+msgid "tooltips/task/active"
+msgstr "Aktīvs"
+
+msgid "tooltips/task/completed"
+msgstr "Izpildīts"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Nosacījumi nezināmi"
+
+msgid "tooltips/task/locked"
+msgstr "Slēgts: %(timer)s"

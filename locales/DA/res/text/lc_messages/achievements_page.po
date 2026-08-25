@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Point, der forøger det samlede bedriftsresultat."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Bedriftspoint"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Du har fuldført alle trin i denne bedrift og modtaget alle tilgængelige belønninger."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Tryk %(escIcon)s for at vende tilbage til det forrige KATALOG-niveau."
+
+msgid "catalog/rootLink"
+msgstr "KATALOG"
+
+msgid "category/achievementsScore/title"
+msgstr "BEDRIFTSRESULTAT"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "Den primære indikator af fremskridt i indsamling af bedrifter. Hver ny bedrift forøger det samlede bedriftsresultat, undtagen for trofæer."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Samlet bedriftsresultat: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "NYLIGE\nBEDRIFTER"
+
+msgid "category/title"
+msgstr "SPILLERS SAMLING"
+
+msgid "category/upcoming/title"
+msgstr "KOMMENDE\nBEDRIFTER"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s og mere"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Bedrift åbnet!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "%(count)s bedrifter åbnet!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s og mere"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Nyt trofæ optjent!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "%(count)s trofæer optjent!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "Den automatiske visning sorterer medaljer fra alle kategorier efter værdi til fremvisning, så der vises de værdifulde medaljebånd. Slås fra, hvis du manuelt sorterer på medaljerne."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "Den automatiske visning sorterer medaljer fra alle kategorier efter værdi til fremvisning, så der vises de værdifulde medaljebånd. Når dette slås til, nulstilles den manuelle sortering."
+
+msgid "editConfirm/description/error"
+msgstr "Vi undersøger problemet. Prøv at sortere senere. I mellemtiden vil du blive omdirigeret til opsummeringen."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Gem"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Afbryd"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Bekræftet!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Automatisk visning slået til"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Automatisk visning slået fra"
+
+msgid "editConfirm/title/error"
+msgstr "Der opstod en fejl"
+
+msgid "editConfirm/title/normal"
+msgstr "Påfør ændringer til det værdifulde medaljebånd?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Fortryd ændringer"
+
+msgid "editView/footer/button/save"
+msgstr "Påfør og forlad"
+
+msgid "editView/header/checkbox"
+msgstr "Automatisk visning"
+
+msgid "editView/header/close"
+msgstr "LUK"
+
+msgid "editView/header/title/idle"
+msgstr "Vælg medaljer, der skal vises på båndet"
+
+msgid "editView/header/title/selecting"
+msgstr "Vælg medalje at erstatte"
+
+msgid "editView/header/title/tutorial"
+msgstr "Vælg medaljeplads"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Afbryd"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Erstat"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "DINE BEDRIFTER\nER HER"
+
+msgid "hint/profile"
+msgstr "DINE BEDRIFTER\nER HER"
+
+msgid "hint/summary/customizationButton"
+msgstr "Redigering tilgængelig"
+
+msgid "notifications/editingEnabled/button"
+msgstr "Til bånd"
+
+msgid "notifications/editingEnabled/title"
+msgstr "Redigering af det værdifulde medaljebånd tilgængelig"
+
+msgid "notifications/firstEntry/button"
+msgstr "Til tjenesteblad"
+
+msgid "notifications/firstEntry/text"
+msgstr "World of Tanks rating,\nmedaljeredigering."
+
+msgid "notifications/firstEntry/title"
+msgstr "Opdaterer tjenesteblad"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "Til tjenesteblad"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Redigering af medaljer\nog visuelt design."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Opdaterer tjenesteblad"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "Til tjenesteblad"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Dit niveau: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Din rangering er blevet udregnet!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "Til tjenesteblad"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "Din World of Tanks rating er blevet ændret. Besøg tjenestebladet og se alle detaljerne."
+
+msgid "notifications/ratingUp/button"
+msgstr "Til tjenesteblad"
+
+msgid "notifications/ratingUp/text"
+msgstr "Du har nået følgende niveau: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Din rangering er blevet forøget!"
+
+msgid "playerInfo/clan/button"
+msgstr "Klan profil"
+
+msgid "playerInfo/clan/date"
+msgstr "Indmeldelsesdato:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "Spilleren har ingen permanente taktiske enheder"
+
+msgid "playerInfo/clan/post"
+msgstr "Position:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "Personligt hundetegn er\nmidlertidigt utilgængelig"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "Spillerens rangering er ikke blevet udregnet: Mindre end %(amount)s kampe spillet."
+
+msgid "ratingWidget/status/initial"
+msgstr "Deltag i %(amount)s kampe for at udregne din World of Tanks rating."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "Spillerens rangering er endnu ikke blevet udregnet"
+
+msgid "ratingWidget/status/progress"
+msgstr "Udregner din World of Tanks rating. Kampe tilbage: %(amount)s."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Gå i kamp og vi vil udregne din rangering."
+
+msgid "rewardView/button/achievements"
+msgstr "Til bedrifter"
+
+msgid "rewardView/button/dogTag"
+msgstr "Til hundetegn"
+
+msgid "rewardView/button/dogTags"
+msgstr "Til hundetegn"
+
+msgid "rewardView/button/moreRewards"
+msgstr "Se %(value)s mere"
+
+msgid "rewardView/reward/dogTag"
+msgstr "%(value)s-hundetegn"
+
+msgid "rewardView/title/multi"
+msgstr "BEDRIFTSBELØNNINGER MODTAGET"
+
+msgid "rewardView/title/single"
+msgstr "BEDRIFTSBELØNNING MODTAGET"
+
+msgid "section/action"
+msgstr "Speciel"
+
+msgid "section/battle"
+msgstr "Kamphelte"
+
+msgid "section/class"
+msgstr "Trin medaljer"
+
+msgid "section/epic"
+msgstr "Særlige medaljer"
+
+msgid "section/group"
+msgstr "Gruppemedaljer"
+
+msgid "section/memorial"
+msgstr "Mindesmærker"
+
+msgid "section/special"
+msgstr "Æresrang"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "TIL BEDRIFTER"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Sidste kamp: %(lastVisitDate)s kl. %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Konto oprettet: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Baggrund"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Standard"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Ild"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Guld"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Legendarisk"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Retro"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Eksplosiv"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Fortryd ændringer"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Bånd"
+
+msgid "summary/achievements/customization/save"
+msgstr "Påfør og forlad"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "Af tekniske grunde er det i øjeblikket ikke muligt at tilpasse din skærm for tjenestebladet. Vi arbejder på at rette det. Genindlæs skærmen eller kom tilbage senere."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Tilpasning ikke tilgængeligt i øjeblikket"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Værdifulde medaljer"
+
+msgid "summary/achievements/total"
+msgstr "I alt: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Unikke: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Gennemsnit: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Sejre: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Gennemsnit: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Gennemsnit: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Rekord: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Gennemsnit: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Gå i kamp, mens vi klargør dine data."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Information er midlertidigt utilgængelig."
+
+msgid "summary/disabled/title"
+msgstr "Mere information tilgængelig senere"
+
+msgid "summary/main/assistance"
+msgstr "ASSISTANCE-\nREKORD"
+
+msgid "summary/main/battles"
+msgstr "ANTAL\nKAMPE"
+
+msgid "summary/main/blocked"
+msgstr "MAKSIMUM\nBLOKERET"
+
+msgid "summary/main/damage"
+msgstr "SKADE-\nREKORD"
+
+msgid "summary/main/destroyed"
+msgstr "KØRETØJER\nØDELAGT"
+
+msgid "summary/main/experience"
+msgstr "XP-\nREKORD"
+
+msgid "summary/statistic/title"
+msgstr "World of Tanks rating"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Personlig rating"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Maksimal skade med din assistance."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Maksimal skade med din assistance i kamp med %(tankName)s."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Assistance-rekord: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Ratio af samlet skade uddelt til fjendtlige køretøjer med din assistance i forhold til antal kampe. Talt med som bidrag:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Skade ved din observation\n• Skade ved din ødelæggelse af et bælte og immobilisering af det fjendtlige køretøj"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Gennemsnitlig assistance: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Ratio af antal sejre i forhold til antal kampe."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Inkluderer:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Sejre: %(wins)s\n• Nederlag: %(loses)s\n• Uafgjort: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Sejrsratio: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Antal kampe: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Maksimal skade blokeret."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Maksimal skade blokeret i kamp i %(tankName)s."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Maksimalt blokeret: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Ratio af samlet skade blokeret af panser fra ikke-gennembrydende træffere og rikochet fra AP-, HEAT- og APCR-granater i forhold til antal kampe."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Gennemsnitlig skade blokeret: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Maksimal skade uddelt."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Maksimal skade uddelt i kamp i %(tankName)s."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Skade-rekord: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Ratio af samlet skade uddelt i forhold til antal kampe."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Gennemsnitlig skade: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Maksimalt antal ødelagte køretøjer."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "Maksimalt antal ødelagte fjendtlige køretøjer i kamp i %(tankName)s."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Maksimalt antal ødelagt: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Samlet antal ødelagte fjendtlige køretøjer i alle kampe."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Køretøjer ødelagt: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Maksimal mængde xp optjent."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "Maksimal mængde xp optjent i kamp i %(tankName)s."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Xp-rekord: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Ratio af samlet mængde optjent xp i forhold til antal kampe."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Gennemsnitlig xp: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Hverken sejr eller nederlag påvirker udregningen af din World of Tanks rating."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Spil i forskellige køretøjer for at finde dine mest effektive køretøjer baseret på følgende præstationsparametre:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "WTR er et rangeringssystem, der udregner en individuel rangering for hvert køretøj, og dernæst bruger den til at vurdere spillerens generelle præstation. Systemet reagerer fleksibelt ved ændringer i kampstrategier og sammenligner spillerens statistikker med serverens gennemsnit."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Skade uddelt"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Skade uddelt med din assistance"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Antal fjendtlige køretøjer ødelagt"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Skade blokeret og overlevelsesratio"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "Forbedring af WTR"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "World of Tanks rating"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Resterende kampe til udregning af rangering: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Niveau: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Grænse nået!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Point til at forbedre dit niveau: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "Bronze %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "Sølv %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "Guld %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "Es %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "Legende %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Niveau"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Antal point"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "World of Tanks rating"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "Ved at aktivere indstillingen, vil rækkefølgen du valgte %(whiteSpanish_Open)sblive nulstillet%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "Ved at inaktivere indstillingen eller lave et manuelt valg, vil medaljerne på båndet %(whiteSpanish_Open)sikke længere%(whiteSpanish_Close)s %(whiteSpanish_Open)sopdateres%(whiteSpanish_Close)s %(whiteSpanish_Open)sautomatisk%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "Sorterer automatisk medaljer %(whiteSpanish_Open)sfra alle kategorier%(whiteSpanish_Close)s efter deres værdi til fremvisning på det værdifulde medaljebånd."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Automatisk visning"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "Redigering af det værdifulde medaljebånd er midlertidigt utilgængelig. Prøv igen senere."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Du har endnu ingen medaljer at vise her. Modtag dem %(whiteSpanish_Open)si kamp%(whiteSpanish_Close)s eller %(whiteSpanish_Open)sved at deltage i in-game events.%(whiteSpanish_Close)s"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "Redigering af det værdifulde medaljebånd vil være tilgængeligt efter modtagelse af %(whiteSpanish_Open)s%(amount)s eller flere medaljer%(whiteSpanish_Close)s fra enhver kategori."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Ingen medaljer at vise her."
+
+msgid "tooltips/mastery/body"
+msgstr "Mestermærker modtaget i alle relevante kamptyper / Antallet af køretøjer som er brugt mindst en gang i standard kampe"
+
+msgid "tooltips/mastery/header"
+msgstr "Mestermærker: Tank es"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "Personlig rating er en vurdering af en spillers evner og erfaring, og er baseret på følgende:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "Personlig rating opdateres efter hver kamp."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Sejre\n• Skade uddelt med din assistance\n• Gennemsnitlig skade per kamp\n• Gennemsnitlig xp per kamp\n• Kampe overlevet"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Personlig rating"

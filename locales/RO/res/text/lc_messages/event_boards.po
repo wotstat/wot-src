@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "Recompense pentru antitancuri"
+
+msgid "awards/class/SPG"
+msgstr "Recompense pentru artilerii"
+
+msgid "awards/class/heavyTank"
+msgstr "Recompense pentru tancuri grele"
+
+msgid "awards/class/lightTank"
+msgstr "Recompense pentru tancuri uşoare"
+
+msgid "awards/class/mediumTank"
+msgstr "Recompense pentru tancuri medii"
+
+msgid "awards/level"
+msgstr "Recompense pentru tancuri de generaţia %(level)s"
+
+msgid "awards/nation/china"
+msgstr "Recompense pentru tancuri chinezeşti"
+
+msgid "awards/nation/czech"
+msgstr "Recompense pentru tancuri cehoslovace"
+
+msgid "awards/nation/france"
+msgstr "Recompense pentru tancuri franceze"
+
+msgid "awards/nation/germany"
+msgstr "Recompense pentru tancuri germane"
+
+msgid "awards/nation/japan"
+msgstr "Recompense pentru tancuri japoneze"
+
+msgid "awards/nation/poland"
+msgstr "Recompense pentru tancuri poloneze"
+
+msgid "awards/nation/sweden"
+msgstr "Recompense pentru tancuri suedeze"
+
+msgid "awards/nation/uk"
+msgstr "Recompense pentru tancuri britanice"
+
+msgid "awards/nation/usa"
+msgstr "Recompense pentru tancuri USA"
+
+msgid "awards/nation/ussr"
+msgstr "Recompense pentru tancuri URSS"
+
+msgid "awards/tooltip/class"
+msgstr "Clic pentru a afişa recompensele pentru acest tip de tanc."
+
+msgid "awards/tooltip/level"
+msgstr "Clic pentru a afişa recompensele pentru această generaţie de tanc."
+
+msgid "awards/tooltip/nation"
+msgstr "Clic pentru a afişa recompensele pentru această naţiune."
+
+msgid "awards/vehicle"
+msgstr "Recompense pentru tancul selectat"
+
+msgid "badge/tooltip/description"
+msgstr "O insignă este o iconiță unică afișată lângă numele tău de jucător în lupte. Insigna este vizibilă jucătorilor din ambele echipe și indică performanțele tale remarcabile în evenimentul Marșul Națiunilor."
+
+msgid "badgesGroup/tooltip/header"
+msgstr "Distincţii comemorative"
+
+msgid "block/award"
+msgstr "Recompensă principală"
+
+msgid "block/objective"
+msgstr "Condiţii"
+
+msgid "block/task"
+msgstr "Misiunea ta"
+
+msgid "button/awards"
+msgstr "Toate recompensele"
+
+msgid "button/awards/tooltip"
+msgstr "Clic pentru a afişa lista tuturor recompenselor din competiţie."
+
+msgid "button/regulations"
+msgstr "Cerințe"
+
+msgid "button/regulations/tooltip"
+msgstr "Clic pentru a afişa descrierea completă a competiţiei."
+
+msgid "condition/battletype/random"
+msgstr "Luptă standard 15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "Luptă de clasament"
+
+msgid "condition/battletype/squadallowed"
+msgstr "Plutoanele sunt permise"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "Plutoanele nu sunt permise"
+
+msgid "condition/primetime/any"
+msgstr "Orice server şi perioadă"
+
+msgid "condition/primetime/chosen"
+msgstr "Doar pe serverele specificate"
+
+msgid "condition/vehicle/chosen"
+msgstr "Doar pe vehiculele specificate:"
+
+msgid "condition/vehicle/exist"
+msgstr "În Garaj"
+
+msgid "condition/vehicle/missing"
+msgstr "Nu este în Garaj"
+
+msgid "condition/vehicle/single"
+msgstr "În %(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "Premiu"
+
+msgid "excel/btnClose"
+msgstr "LA COMPETIŢIE"
+
+msgid "excel/group/title"
+msgstr "Grup"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "Participă la mai multe lupte pentru a obţine loc în clasament: %(number)s"
+
+msgid "excel/noData"
+msgstr "Nu s-au atins încă locuri premiate."
+
+msgid "excel/participate/join"
+msgstr "Luptă"
+
+msgid "excel/participate/notParticipated"
+msgstr "Nu ai luat parte la această competiție"
+
+msgid "excel/subHeader"
+msgstr "Competiţie: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "Participă"
+
+msgid "header/participate/button/leave"
+msgstr "Părăseşte competiţia"
+
+msgid "header/participate/finished"
+msgstr "Competiţia s-a încheiat"
+
+msgid "header/participate/notStarted"
+msgstr "Ai intrat"
+
+msgid "header/participate/reason/byAge"
+msgstr "Cont creat după %date%"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "Competiţie indisponibilă"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "Ai părăsit această competiţie"
+
+msgid "header/participate/started"
+msgstr "Participi"
+
+msgid "header/timer"
+msgstr "Se încheie în:"
+
+msgid "maintenance/body"
+msgstr "Ne cerem scuze pentru problemele temporare."
+
+msgid "maintenance/title"
+msgstr "Eroare la încărcarea datelor"
+
+msgid "maintenance/update"
+msgstr "Actualizează"
+
+msgid "notification/buttons/details"
+msgstr "Detalii"
+
+msgid "notification/eventFinished/body"
+msgstr "Competiţia %(eventName)s s-a încheiat. Câştigătorii vor fi stabiliţi în următoarele zile, după care vor primi premiile binemeritate."
+
+msgid "notification/eventFinished/header"
+msgstr "Competiţie încheiată"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "Rezultatele luptelor tale sunt luate în considerare în competiţie, deci poţi intra în clasament şi obţine o recompensă."
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "Ai intrat ca participant"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "Rezultatele luptei tale sunt luate în considerare în competiţie, deci poţi intra în clasament şi obţine o recompensă."
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "Ai intrat ca participant"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "Nu poţi intra ca participant: cerinţele nu sunt satisfăcute."
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "Nu poţi intra ca participant: perioada de înregistrare s-a încheiat."
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "Statisticile tale din competiţie vor fi resetate după actualizarea clasamentului."
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "Ai părăsit competiţia"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "Statisticile tale nu vor fi luate în considerare în competiţie."
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "Ai părăsit competiţia"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "Nu poţi părăsi competiţia: timpul alocat a expirat."
+
+msgid "notification/eventStarted/body"
+msgstr "Competiţia %(eventName)s a început! Jucătorii care vor obţine locuri premiate la încheierea competiţiei vor obţine recompense valoroase."
+
+msgid "notification/eventStarted/header"
+msgstr "Competiţie începută"
+
+msgid "notification/unknownError/body"
+msgstr "Nu pot finaliza operaţiunea."
+
+msgid "orders/title"
+msgstr "Cerințe"
+
+msgid "popover/buttons/cancel"
+msgstr "Anulare"
+
+msgid "popover/buttons/rating"
+msgstr "Mergi la Clasament"
+
+msgid "popover/buttons/select"
+msgstr "Selectare"
+
+msgid "popover/noVehicles"
+msgstr "Nu există vehicule cu criteriile selectate."
+
+msgid "popover/resetFilter"
+msgstr "Resetare filtru"
+
+msgid "popover/title"
+msgstr "Listă clasament"
+
+msgid "popover/title/vehicle"
+msgstr "Listă clasament"
+
+msgid "popover/tooltip/class"
+msgstr "Mergi la clasamentul pentru vehiculele de tipul selectat."
+
+msgid "popover/tooltip/level"
+msgstr "Mergi la clasamentul pentru vehiculele din generaţia selectată."
+
+msgid "popover/tooltip/nation"
+msgstr "Mergi la clasamentul pentru vehiculele din naţiunea selectată."
+
+msgid "server/list"
+msgstr "Pentru ca luptele tale să fie luate în considerare în competiţie, transferă-te pe următorul server:"
+
+msgid "server/noSuitable/body"
+msgstr "Rezultatele luptelor vor fi din nou luate în considerare la: %(data)s. Calendarul competiţiei"
+
+msgid "server/noSuitable/header"
+msgstr "Rezultatele luptelor nu sunt luate în considerare în competiţie în acest moment"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s pe %(server)s"
+
+msgid "status/bestResults/many"
+msgstr "Cele mai bune rezultate proprii"
+
+msgid "status/bestResults/one"
+msgstr "Rezultatele proprii"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "Competiţie indisponibilă:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "Nu îţi este permis să participi la această competiţie din cauza încălcării regulilor jocului"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "cont creat după %(date)s"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "nu ai participat la numărul de lupte necesar în modul Lupte Standard: %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "rata ta de victorii în modul Lupte Standard depăşeşte %(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "Nu ai atins rata de victorii în modul Lupte Standard: %(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "Perioada de înregistrare încheiată"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "Nu poţi intra în competiţie ca participant."
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "Ai părăsit această competiţie"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "Rezultatele luptelor tale nu mai sunt luate în considerare în această competiţie. Nu vei fi plasat în clasament sau obţine o recompensă.\nNu poţi reintra în această competiţie."
+
+msgid "status/cantJoin/reason/many"
+msgstr "cerinţele neîndeplinite %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "cerinţele neîndeplinite (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "Nu ai intrat în clasament"
+
+msgid "status/cantJoin/reason/special"
+msgstr "Nu poţi păarticipa la competiţie cu acest cont."
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "niciun vehicul potrivit"
+
+msgid "status/participate/cantJoin"
+msgstr "Competiţie indisponibilă"
+
+msgid "status/participate/needMoreBattles"
+msgstr "Îndeplineşte cerinţele specificate în lupte şi rezultatele tale vor fi afişate aici după actualizarea clasamentului."
+
+msgid "status/participate/notParticipated"
+msgstr "Nu ai luat parte la această competiție"
+
+msgid "summary/averagedamage"
+msgstr "Medie daune"
+
+msgid "summary/averagedamageassisted"
+msgstr "Medie daune asistate"
+
+msgid "summary/averagexp"
+msgstr "Experienţă medie"
+
+msgid "summary/battles"
+msgstr "Lupte în competiţie"
+
+msgid "summary/damage"
+msgstr "Daune"
+
+msgid "summary/damageassist"
+msgstr "Daune asistate"
+
+msgid "summary/damageblocked"
+msgstr "Daune blocate"
+
+msgid "summary/description/awards/title/award"
+msgstr "RECOMPENSĂ LA ÎNCHEIEREA COMPETIŢIEI"
+
+msgid "summary/description/awards/title/group"
+msgstr "GRUP"
+
+msgid "summary/description/awards/title/position"
+msgstr "POZIŢIE"
+
+msgid "summary/description/max/class"
+msgstr "Ai purtat cea mai bună luptă în %(value)s"
+
+msgid "summary/description/max/level"
+msgstr "Ai purtat cea mai bună luptă într-un tanc din generaţia %(value)s"
+
+msgid "summary/description/max/nation"
+msgstr "Ai purtat cea mai bună luptă într-un tanc din următoarea naţiune: %(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "Ai purtat cea mai bună luptă în %(value)s"
+
+msgid "summary/description/sum/class"
+msgstr "Statisticile tale în competiţie în %(value)s"
+
+msgid "summary/description/sum/level"
+msgstr "Statisticile tale în competiţie în tancuri din generaţia %(value)s"
+
+msgid "summary/description/sum/nation"
+msgstr "Statisticile tale în competiţie în tancuri din următoarea naţiune: %(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "Statisticile tale în competiţie în următorul tanc: %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "Cea mai bună serie de lupte proprii în %(value)s"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "Cea mai bună serie de lupte proprii în tancuri din generaţia %(value)s"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "Cea mai bună serie de lupte proprii în tancuri din următoarea naţiune: %(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "Cea mai bună serie de lupte proprii în %(value)s"
+
+msgid "summary/description/sumN/class"
+msgstr "Cele mai bune lupte proprii în %(value)s"
+
+msgid "summary/description/sumN/level"
+msgstr "Cele mai bune lupte proprii în tancuri din generaţia %(value)s"
+
+msgid "summary/description/sumN/nation"
+msgstr "Cele mai bune lupte proprii în tancuri din următoarea naţiune: %(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "Cele mai bune lupte proprii în %(value)s"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "Cea mai bună serie de lupte proprii în %(value)s"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "Cea mai bună serie de lupte proprii în tancuri din generaţia %(value)s"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "Cea mai bună serie de lupte proprii în tancuri din următoarea naţiune: %(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "Cea mai bună serie de lupte proprii în %(value)s"
+
+msgid "summary/destroyedvehicles"
+msgstr "Vehicule inamice distruse"
+
+msgid "summary/fightInSquaad"
+msgstr "Luptă în pluton"
+
+msgid "summary/fightNotInSquaad"
+msgstr "Luptă fără pluton"
+
+msgid "summary/originalXP"
+msgstr "Experienţă de bază"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "Daune provocate cu ajutorul jucătorului"
+
+msgid "summary/param/max/damageDealt"
+msgstr "Daune"
+
+msgid "summary/param/max/originalXP"
+msgstr "Experienţă de bază"
+
+msgid "summary/param/max/xp"
+msgstr "Experienţă"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "Medie daune asistate"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "Medie daune"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "Medie experienţă de bază"
+
+msgid "summary/param/sumAll/wins"
+msgstr "Victorii"
+
+msgid "summary/param/sumAll/xp"
+msgstr "Experienţă medie"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "Medie daune asistate"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "Daune totale"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "Total experienţă de bază"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "Total experienţă"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "Total daune provocate cu asistența jucătorului"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "Daune totale"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "Total experienţă de bază"
+
+msgid "summary/param/sumN/xp"
+msgstr "Total experienţă"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "Medie daune asistate"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "Daune totale"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "Total experienţă de bază"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "Total experienţă"
+
+msgid "summary/position"
+msgstr "Loc în clasament: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "Egalitate"
+
+msgid "summary/result/loss"
+msgstr "Înfrângere"
+
+msgid "summary/result/win"
+msgstr "Victorie"
+
+msgid "summary/status"
+msgstr "Actualizat în %(day)s la %(time)s"
+
+msgid "summary/winrate"
+msgstr "Victorii"
+
+msgid "table/header/player"
+msgstr "Jucător"
+
+msgid "table/header/position"
+msgstr "#"
+
+msgid "table/selectParticipateBtn"
+msgstr "Părăsire competiţie"
+
+msgid "table/selectRatingBtn"
+msgstr "Listă clasament"
+
+msgid "table/selectRegistrationBtn"
+msgstr "Intră ca participant"
+
+msgid "table/stripe/bronze/title"
+msgstr "Grupa III (locuri %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/gold/title"
+msgstr "Grupa I (locuri %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "Grupa I"
+
+msgid "table/stripe/iron/title"
+msgstr "Grupa IV (locuri %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/silver/title"
+msgstr "Grupa II (locuri %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/wood/title"
+msgstr "Locuri fără premii"
+
+msgid "task/eventtype/all"
+msgstr "Clasamentul comun pentru toţi participanţii"
+
+msgid "task/eventtype/class"
+msgstr "Fiecare tip de tanc are clasamentul său"
+
+msgid "task/eventtype/level"
+msgstr "Fiecare generaţie de tanc are clasamentul său"
+
+msgid "task/eventtype/nation"
+msgstr "Fiecare naţiune de tanc are clasamentul său"
+
+msgid "task/eventtype/vehicle"
+msgstr "Fiecare tanc are clasamentul său"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "Intră în clasament după daunele produse cu asistenţa ta"
+
+msgid "task/objective/max/damageDealt"
+msgstr "Intră în clasament după daunele produse"
+
+msgid "task/objective/max/originalXP"
+msgstr "Intră în clasament după experienţa de bază obţinută"
+
+msgid "task/objective/max/xp"
+msgstr "Intră în clasament după experienţa obţinută"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "Intră în clasament după daunele totale produse cu asistenţa ta"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "Intră în clasament după daunele totale produse"
+
+msgid "task/objective/sum/originalXP"
+msgstr "Intră în clasament după experienţa de bază totală obţinută"
+
+msgid "task/objective/sum/wins"
+msgstr "Intră în clasament prin numărul de victorii"
+
+msgid "task/objective/sum/xp"
+msgstr "Intră în clasament după experienţa totală obţinută"
+
+msgid "task/objparam/damageAssisted"
+msgstr "daune produse cu asistenţa ta"
+
+msgid "task/objparam/damageDealt"
+msgstr "daune produse"
+
+msgid "task/objparam/originalXP"
+msgstr "experienţă de bază obţinută"
+
+msgid "task/objparam/wins"
+msgstr "număr de victorii"
+
+msgid "task/objparam/xp"
+msgstr "experienţă"
+
+msgid "task/selection/max"
+msgstr "Cea mai bună luptă este considerată"
+
+msgid "task/selection/sumAll"
+msgstr "Toate luptele tale sunt considerate"
+
+msgid "task/selection/sumMSeqN"
+msgstr "Se iau în considerare cele mai bune %(cardinality)s lupte din serii. Luptele din seriile: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "Cele mai bune lupte sunt considerate: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "Cea mai bună serie de lupte este considerată. Lupte din serie: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "azi"
+
+msgid "time/day/tomorrow"
+msgstr "mâine"
+
+msgid "time/day/yesterday"
+msgstr "ieri"
+
+msgid "time/eventFinished"
+msgstr "Competiţie încheiată: %(date)s"
+
+msgid "time/period/day"
+msgstr "z."
+
+msgid "time/period/hour"
+msgstr "h."
+
+msgid "time/period/minute"
+msgstr "min"
+
+msgid "time/timeTo/end"
+msgstr "Se încheie în %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "Perioada de înregistrare se încheie în: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "Începe în: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "Recompensa este acordaă la încheierea competiţiei şi depinde de locul tău în clasament.\nPentru a vedea lista tuturor recompenselor din această competiţie, clic pe \"Toate recompensele\"."
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "Cantitatea de experienţă calculată nu include experienţa suplimentară a contului sau vehiculelor premium, rezervelor personale, multiplicatoarelor pentru prima victorie a zilei sau alte speciale."
+
+msgid "tooltip/top/amount/xp"
+msgstr "Cantitatea de experienţă calculată nu include experienţa suplimentară a vehiculelor premium, rezervelor personale, multiplicatoarelor pentru prima victorie a zilei sau alte speciale.\nExperienţa suplimentară a contului premium este luată în calcul."
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "Daunele asistate ale jucătorului de pe ultimul loc premiat: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "Daunele provocate ale jucătorului de pe ultimul loc premiat: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "Experiența de bază obţinută de jucătorul de pe ultimul loc premiat: %(number)s\nCantitatea de experienţă calculată nu include experienţa suplimentară a contului sau vehiculelor premium, rezervelor personale, multiplicatoarelor pentru prima victorie a zilei sau alte speciale."
+
+msgid "tooltip/top/description/max/xp"
+msgstr "Experiența obţinută de jucătorul de pe ultimul loc premiat: %(number)s\nCantitatea de experienţă calculată nu include experienţa suplimentară a vehiculelor premium, rezervelor personale, multiplicatoarelor pentru prima victorie a zilei sau alte speciale.\nExperienţa suplimentară a contului premium este luată în calcul."
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "Daunele asistate totale ale jucătorului de pe ultimul loc premiat: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "Daunele totale provocate ale jucătorului de pe ultimul loc premiat: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "Experiența de bază totală obţinută de jucătorul de pe ultimul loc premiat: %(number)s\nCantitatea de experienţă calculată nu include experienţa suplimentară a contului sau vehiculelor premium, rezervelor personale, multiplicatoarelor pentru prima victorie a zilei sau alte speciale."
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "Numărul de victorii ale jucătorului de pe ultimul loc premiat: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "Experiența totală obţinută de jucătorul de pe ultimul loc premiat: %(number)s\nCantitatea de experienţă calculată nu include experienţa suplimentară a vehiculelor premium, rezervelor personale, multiplicatoarelor pentru prima victorie a zilei sau alte speciale.\nExperienţa suplimentară a contului premium este luată în calcul."
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "Locuri nerecompensate"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "Grup %(group)s (poziții %(min)s-%(max)s)"
+
+msgid "top/averageXP"
+msgstr "Experiența medie obţinută de jucătorul de pe ultimul loc premiat:"
+
+msgid "top/participation/notParticipated"
+msgstr "Nu ai luat parte la această competiție"
+
+msgid "top/participation/notfull"
+msgstr "Nu ai intrat în clasament"
+
+msgid "top/participation/notintop"
+msgstr "Nu eşti momentan pe un loc premiat"
+
+msgid "top/position"
+msgstr "Poziția ta:"
+
+msgid "top/reason/notfull"
+msgstr "Pentru a intra în clasament, poartă mai multe lupte:"
+
+msgid "vehicles/level"
+msgstr "Vehicule de generaţia %(level)s"
+
+msgid "vehicles/tooltip/class"
+msgstr "Clic pentru a afişa tancurile de acest tip care participă la competiţie."
+
+msgid "vehicles/tooltip/level"
+msgstr "Clic pentru a afişa tancurile de această generaţie care participă la competiţie."
+
+msgid "vehicles/tooltip/nation"
+msgstr "Clic pentru a afişa tancurile din această naţiune care participă la competiţie."
+
+msgid "vehicles/vehicle"
+msgstr "Tancuri în competiţie"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "Clic pentru a afişa lista vehiculelor admise în competiţie."

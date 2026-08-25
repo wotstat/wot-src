@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, savaş süresi: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "KAPAT"
+
+msgid "battleResult/continueButton"
+msgstr "Devam et"
+
+msgid "battleResult/damageAssisted"
+msgstr "Hasar\ndesteği"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Engellenen\nhasar"
+
+msgid "battleResult/damageDealt"
+msgstr "Verilen\nhasar"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s Görevleri Şiddetli zorluğunda tamamladığınızda\nNormal zorlukta da otomatik olarak tamamlamış olursunuz.\nYani iki zorluk seviyesinin de ödüllerini alırsınız."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s Görevleri Şiddetli zorluğunda tamamladığınızda Normal zorlukta da otomatik olarak tamamlamış olursunuz.\nYani iki zorluk seviyesinin de ödüllerini alırsınız."
+
+msgid "battleResult/kills"
+msgstr "Yok edilen\ndüşman"
+
+msgid "battleResult/lose/title"
+msgstr "SAVAŞ BİTTİ"
+
+msgid "battleResult/missionName/1"
+msgstr "TIGER AVI: Çelik Çığ Operasyonu"
+
+msgid "battleResult/missionName/2"
+msgstr "TIGER AVI: Tuzakçı Operasyonu"
+
+msgid "battleResult/missionName/3"
+msgstr "TIGER AVCISI: Çekiç ve Örs Operasyonu"
+
+msgid "battleResult/missionName/4"
+msgstr "TIGER AVCISI: Fare Kapanında Kedi Operasyonu"
+
+msgid "battleResult/missionName/5"
+msgstr "OVERLORD HAREKÂTI"
+
+msgid "battleResult/missionName/6"
+msgstr "POSTACI OPERASYONU"
+
+msgid "battleResult/missionName/7"
+msgstr "KAYNAMA NOKTASI OPERASYONU"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Aktif görev\nyok"
+
+msgid "battleResult/rewards/other"
+msgstr "Ayrıca alınanlar:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Tamamlanan\ngörevler"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Hayatta kaldı{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Hayatta kalamadı{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "ZAFER!"
+
+msgid "countdown/days"
+msgstr "{days} gün"
+
+msgid "countdown/daysHours"
+msgstr "{days} gün {hours} sa."
+
+msgid "countdown/endsSoon"
+msgstr "{minutes} dakikadan az"
+
+msgid "countdown/hours"
+msgstr "{hours} sa."
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} sa. {minutes} dk."
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} sa. {minutes} dk."
+
+msgid "countdown/lessThanMinute"
+msgstr "1 dakikadan az"
+
+msgid "countdown/minutes"
+msgstr "{minutes} dk."
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} dk."
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "İptal"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "Bu operasyonu tamamlama karşılığında herhangi bir ödül kazanmayacaksınız.\nAktif görevler olmadan operasyonu yine de oynamak istediğinizden emin misiniz?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Onayla"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "Bu Operasyon için Aktif Görev Yok"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Bilinmeyen tehdidi tespit edin, füze fırlatılışını durdurun, yeni teknolojilerin doğru ellere aktarıldığından emin olun."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "3. Sektörüden komutanların olduğu bu destansı hikayede tek başınıza oynayın ve yapay zeka kontrolündeki düşmanlara karşı savaşın!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Tüm görevleri tamamlayarak bir anı brövesi ve madalya, temalı 2B stiller ve başka değerli ödüller kazanın."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "Yeni Bir Dönem Doğuyor"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "Tek Kişilik Hikaye"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Ödüller"
+
+msgid "eventWelcomeScreen/header"
+msgstr "KAYNAMA NOKTASI OPERASYONU"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s - %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Hikayeler"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Şiddetli"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Normal"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Zorlu\nMayın Tarlası"
+
+msgid "missionSelection/exitButton"
+msgstr "KİPTEN ÇIK"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "ÇELİK ÇIĞ\nOPERASYONU"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "TUZAKÇI\nOPERASYONU"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "ÇEKİÇ VE ÖRS\nOPERASYONU"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "FARE KAPANINDA KEDİ\nOPERASYONU"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "OVERLORD\nHAREKÂTI"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "POSTACI\nOPERASYONU"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "KAYNAMA NOKTASI\nOPERASYONU"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Brooks: \"Nasılsın? Kendine gelebildin mi? Sıhhiye birazdan sana bakacak. Artık her top çok değerli. Taarruz başladı bile. Biz geç kaldığımız için düşman tüm dikkatini başka bir kanada yoğunlaştırdı. İşte fırsatımız bu. Hemen saldırıyoruz. Kasabaya dalıp onları iki taraftan sıkıştıracağız.\nBizi takip et. Ejderha dişlerinden kaçın. Sahada o beton dişlerden birkaç sıra var. Yine de sorun yok. Geçmeyi başaracağız. Tek yapman gereken beni dinlemek ve emirlerimi hızla ve tam olarak yerine getirmek. MacLeod ve ben seni koruyacağız.\nŞakalarını da aklına getirme sakın. Herkesin baş etmek için kendi yöntemi var... İleri!\""
+
+msgid "missionSelection/missionDescription/2"
+msgstr "MacLeod: \"Eveeet, Tigerlar - Savaş alanında karşılaşabileceğin en korkunç şeyler. Komuta kademesi sorun var diyorsa muhtemelen Tigerlardan bahsediyorlardır. İlk taarruz takımı ile iletişim kuramıyoruz, ikincisi de az önce yola çıktı. Biz de buradayız, peşlerinden gitmek üzere gönderildik.\nBizi de gönderiyorlarsa tek bir anlamı var demektir: Tigerlar. Karargâhta aynen böyle diyorlar: \"Şu Tiger uzmanlarını gönderin!\" İki tank için dokuz tank. Yarım yıl için hiç fena değil. 5-4 öndesin. Ama öne geçmek için fırsatım var. Ve şu lanet madalyayı almak için!\nHaydi - Brooks beklemeyi sevmez. Ava başlıyoruz.\""
+
+msgid "missionSelection/missionDescription/3"
+msgstr "MacLeod: \"Evet arkadaşlar, Çekiç ve Örs Operasyonu. Pek de basit olmayan bir iş için basit bir isim. Düşman kuvvetlerini temizlemek için şehre gidiyoruz. Kolay bir iş olmayacak, karşımızda ağır zırhlı birlikler var. Bizim de beynimiz, kas gücümüz ve takım çalışmamız var, değil mi Lucky? Haydi şu işi hızlıca yapalım, dostlar. Beşte bir fincan \"çayla\" ilgili planlarım var, ne demek istediğimi anladınız siz!\""
+
+msgid "missionSelection/missionDescription/4"
+msgstr "MacLeod: \"Sorma, Lucky. Ben de en az senin kadar bilgisizim.Bu gizlilikten hoşlanmıyorum. Ben her şeyin açık olmasını isterim. Düşmanı görürsün, savaşırsın. Ama burası? Tam bir karmaşa.\n\nŞehirde müttefik tankları da olacak. Brooks dikkatli olmamızı istedi. Bu ne demek şimdi?\nÖzel bir görevimiz var. Bir çeşit Wunderwaffe bulmak, raylar üzerinde devasa bir şey. Bunu bizden başka yapacak kimse yok Lucky.\n\nHazır mısın? Hadi gidelim.\""
+
+msgid "missionSelection/missionDescription/5"
+msgstr "Yüzbaşı John McCormick: \"Evet beyler, gün geldi, çattı. Bu savaşı bitirme zamanı geldi ve tam da bunu yapacağız. Hepimiz birlikte: Amerikalılar, İngilizler, Fransızlar, Kanadalılar, Avustralyalılar, Belçikalılar, Çekoslovaklar, Yunanlılar, Hollandalılar, Kiviler, Norveçliler, Polonyalılar. Bu hainliğe kesin bir şekilde dur demek üzere bir araya geldik.\n\nAtlantik Duvarını delip geçeceğiz ve köprübaşımızı oluşturacağız.\n\nÇıkarmaya hazırlanın!\""
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Yüzbaşı Smith: \"Dinleyin. Almanya teslim belgelerini daha birkaç saat önce imzaladı. Savaş yarın bitiyor. Ama dağdaki adamlarımızla telsiz bağlantısını kaybettik, savaşın bittiğini bilmiyorlar. Şafakta bu lanet kaleye saldıracaklar; içerideki Almanların da teslim olduklarından haberi yok. Anlamsız bir katliam olacak. \n\nBunu durdurabilecek bir tek biz varız. Görevimiz: Düşman hatlarından gizlice geçip ateşkes emrini iletmek. Bu bir intihar operasyonu ama kurtaracağımız her hayat buna değer. \n\nYanımızda araziyi bilen ve bu katliamı durdurmayı en az bizim kadar isteyen esir alınmış bir Alman telsizci var. \n\nHarekete geçin.\""
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Leni Scharf: \"Durum kritik. Norveç Denizi'ndeki füze üssümüzle bağlantıyı kaybettik. Keşif uçuşu geri dönmedi ve ilk tank çıkarma kuvveti bilinmeyen bir düşman tarafından yok edildi.\n\nİstihbarat, bir balistik füze fırlatmaya hazırlandıklarını gösteriyor. Hedefi bilmiyoruz ama bu siyasi ortamda tek bir fırlatma bile küresel bir çatışmayı tetikleyebilir.\n\nEski günlerdeki gibi, değil mi? Düşman hatlarının gerisinde imkansız bir görev daha. Harekete geçin!\""
+
+msgid "missionSelection/missionName/1"
+msgstr "ÇELİK ÇIĞ OPERASYONU"
+
+msgid "missionSelection/missionName/2"
+msgstr "TUZAKÇI OPERASYONU"
+
+msgid "missionSelection/missionName/3"
+msgstr "ÇEKİÇ VE ÖRS OPERASYONU"
+
+msgid "missionSelection/missionName/4"
+msgstr "FARE KAPANINDA KEDİ OPERASYONU"
+
+msgid "missionSelection/missionName/5"
+msgstr "OVERLORD HAREKÂTI"
+
+msgid "missionSelection/missionName/6"
+msgstr "POSTACI OPERASYONU"
+
+msgid "missionSelection/missionName/7"
+msgstr "KAYNAMA NOKTASI OPERASYONU"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Özel Araç"
+
+msgid "missionSelection/tab/event"
+msgstr "KAYNAMA NOKTASI OPERASYONU"
+
+msgid "missionSelection/tab/newbies"
+msgstr "EĞİTİM HİKAYELERİ"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Kasabaya saldırın ve düşman araçlarını yok edin."
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Kasabaya saldırın ve düşman araçlarını yok edin."
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Kasabaya saldırın ve düşman araçlarını yok edin."
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Düşman mayınlarından hasar almadan ana görev hedeflerimi tamamlayın."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Ana görev hedeflerini tek bir araç kaybetmeden tamamlayın."
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Kasabaya saldırın ve düşman Wunderwaffe'sini ele geçirin."
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Ana görev hedeflerini %(win_timer)s içinde tamamlayın."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Ana görev hedeflerini tamamlayın ve uçağın yardımıyla %(kill_enemies)s yok edin."
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Hattı yarın, sahil toplarını yok edin ve köprübaşını ele geçirin."
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Ana görev hedeflerini %(win_timer)s içinde tamamlayın."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Ana görev hedeflerini tek bir araç kaybetmeden tamamlayın."
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Ateşkes emrini müttefiklerinize ulaştırın."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Ana görev hedeflerini tamamlayın ve yok ettikleriniz %(kill_enemies)s ndan az olsun."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Ana görev hedeflerini tek bir araç kaybetmeden tamamlayın."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Komuta merkezine ulaşın ve füze fırlatılmasını durdurun."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Ana görev hedeflerini %(win_timer)s içinde tamamlayın."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Ana görev hedeflerini tek bir araç kaybetmeden tamamlayın."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s düşman aracı"
+msgstr[1] "%(value)s düşman aracı"
+msgstr[2] "%(value)s düşman aracı"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "Görev kilitli: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s dakika"
+msgstr[1] "%(value)s dakika"
+msgstr[2] "%(value)s dakika"
+
+msgid "missionSelection/taskRewards"
+msgstr "Ödül:"
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Bu araç sadece Hikayelerde kullanılabilir."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Bu operasyonu açmak için Rastgele Savaş kipinde\n %(numBattles)s savaş daha yapın."
+
+msgid "mode/story_mode/callToAction"
+msgstr "Acemiler için senaryolar"
+
+msgid "mode/story_mode/description"
+msgstr "Yapay zekânın kullandığı araçlara karşı senaryolu operasyonları tamamlayın"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Kaynama Noktası Operasyonu açık"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "Halihazırda seçili oyun kipinizi Garaj ana menüsünün tepesinde bulabilirsiniz. Başka nelerin olduğunu görmek için kip adına tıklayın."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Bu oyun kipini seçmek için &zwnbsp;{whiteSpanish_Open}Hikâyeler{whiteSpanish_Close}&zwnbsp; üzerine tıklayın."
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "Hikâyeler kipinde konulu PvE senaryolarında ilerleyebilir, yapay zekâ kumandasındaki düşmanlarla savaşabilir, kahramanca savaşların havasına dalabilir ve değerli ödüller kazanabilirsiniz!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Oyun Kipi Seçicisine Girin"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Hikâyeleri Seçin"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "PvE Aksiyonun Tadını Çıkarın"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "HİKÂYELER"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Konusu belirli senaryolar sizi bekliyor"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Yeniden başlat"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "SAVAŞ BİTTİ"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Atla"
+
+msgid "onboardingQueue/skipText"
+msgstr "Tüm sunucular meşgul. Lütfen bekleyin veya bu hikayeyi atlayın."
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Sunucuyu sizin için hazırlıyoruz. Lütfen bekleyin..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Zırh tarafından engellenen hasar {parSecondary_Start}(birim){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Engellenen hasar"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "HE ve HESH mermi isabetleri sayılmaz."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Sayılan:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Seken düşman atışları"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Delemeyen isabetler"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Yardımcı olunan hasar"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "Müttefiklerinizin yardımınızla verdiği şu hasarlar sayılır:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Tespitiniz sayesinde hasar"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "Düşman aracının paletini yok edip hareketsiz bırakmanız sonucu verilen hasar"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "Müttefikler tarafından verilen toplam hasar {parSecondary_Start}(birim){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Verilen hasar"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Sayılan:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Atış yoluyla verilen hasar"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Çarparak verilen hasar"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Yangın sonucu verilen hasar"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Düşman aracını engel üstünden iterek verilen hasar"
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Toplam hasar {parSecondary_Start}(birim){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Yok edilen düşmanlar"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Sayılan:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Atış yoluyla yok etme"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Yangın yoluyla yok etme"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Çarparak yok etme"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Boğarak yok etme"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Düşman aracını engel üstünden iterek yok etme"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Ters çevirerek yok etme"
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Tamamlanan görevler"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "Tamamlanan görev sayısı v nşu anda geçerli\ntüm görevler.\nŞiddetli zorlukta tamamlanan görevler aynı\nzamanda Normal zorlukta da tamamlanmış\nsayılır."
+
+msgid "tooltips/difficulty/available"
+msgstr "Geçerli"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "Düşmanların tepki süresi ve isabetliliği artırılmıştır ve size daha şiddetli bir şekilde saldırırlar. Karşılığında görevi tamamladığınızda ekstra ödüller alacaksınız."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "Görevleri {whiteSpanish_Open}Zorlu{whiteSpanish_Close} seviyesinde tamamladığınızda otomatik olarak {whiteSpanish_Open}Normal{whiteSpanish_Close} seviyede de tamamlamış olursunuz. İki zorluk seviyesinin ödüllerini de alacaksınız."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Ek koşul"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Şiddetli"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "Zorlu seviyesini açmak için bu operasyonu Normal seviyede tamamlayıp oyun kipinde becerinizi gösterin."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Kilitli"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Düşmanlar daha yavaş ve isabetlilikleri daha düşük. Görevi tamamladığınızda standart ödüller alacaksınız."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Normal"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Seçili"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "Operasyonun Mayın Tarlası aşamasının daha zorlu bir sürümü. Bu ölümcül labirente girecek cesaretiniz var mı?\nDaha fazla savaş ödülü sunar."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Zorlu, Mayın Tarlası"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Bilinmeyen tehdidi tespit edin, füze fırlatılışını durdurun, yeni teknolojilerin doğru ellere aktarıldığından emin olun."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Kaynama Noktası Operasyonu"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "KİP"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "- Oyun kipi. Keşfetmek için tıklayın"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "3. Sektörüden komutanların olduğu bu destansı hikayede tek başınıza oynayın ve yapay zeka kontrolündeki düşmanlara karşı savaşın!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Etkinlik {timer} daha geçerli"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "HİKÂYELER"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "KİP"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "- Oyun kipi. Keşfetmek için tıklayın"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "Özel yazılmış senaryolar. Zırhlı araçlar dünyasındaki serüveninize başlayın ve yapay zekâ kumandasındaki düşmanlara karşı savaşarak kendinizi gösterin."
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "Hikâyeler"
+
+msgid "tooltips/task/active"
+msgstr "Aktif"
+
+msgid "tooltips/task/completed"
+msgstr "Tamamlandı"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Koşullar bilinmiyor"
+
+msgid "tooltips/task/locked"
+msgstr "Kilitli: %(timer)s"

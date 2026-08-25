@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "Yedekleri Yönet"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "Kullanılabilir bir Savaş Yedeği seçmek için tıklayın."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "Bombalar"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "Vuruş Sahası"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "Şok"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "Konuşlanma"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "Mayın sayısı"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "Mayın tarlası süresi"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "Şok"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "Hasar yarıçapı"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "Süre"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "Mermiler"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "Soğuma"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "Konuşlanma"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "Süre"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "Geri kazanılan can puanı miktarı"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "Etkinleştirildiğinde anında geri alınan can puanı miktarı"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "Mayınlardan alınan hasarda azalma"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "%30"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "İkmal Çemberi içinde can puanı geri kazanma hızına bonus"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "Mürettebat Performansı"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "Süre"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "Çözülme Süresi"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "Etki Yarıçapı"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "Aracınızın mürettebatının performansı"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "Artırılmış koruma"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "Ele Geçirme Bonusu"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "İkmal Çemberi yenileme"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "Mühimmat ikmal hızı"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "Varış zamanı"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "Vuruş Sahası"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750 m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "Tespit süresi"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "Azalmış mürettebat performansı"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "Sis Bombaları"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "Vuruş Sahası"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "Süre"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "Düşman araçlarının görüş mesafesinde azalma"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "Çalılık arkasındaki düşman araçların gizliliğinde azalma"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "Hareket halindeki düşman araçların gizliliğinde azalma"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "Süre"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "Sabit duran bir aracın gizliliğine bonus"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "Görüş mesafesine pasif bonus"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "Yedek Seviyesi"
+
+msgid "abilityInfo/properties/static"
+msgstr "Sabit nitelikler"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "sn."
+
+msgid "advance_message_txt"
+msgstr "Ön Cepheye İlerleyin"
+
+msgid "advance_mission_txt"
+msgstr "Ön Cepheye İlerleyin"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "SENARYO DETAYLARI"
+
+msgid "awards/acceptButton"
+msgstr "Olumlu!"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "ÖDÜLLER ALINDI"
+
+msgid "awards/subTitle2"
+msgstr "ÖDÜL ALINDI"
+
+msgid "awards/title"
+msgstr "ÖN CEPHE"
+
+msgid "base/contested_atk"
+msgstr "Çekişmeli"
+
+msgid "base/contested_def"
+msgstr "Saldırı Altında"
+
+msgid "battleResults/armor"
+msgstr "Zırh Kullanımı"
+
+msgid "battleResults/assistance"
+msgstr "Destek"
+
+msgid "battleResults/crits"
+msgstr "Kritik Hasar"
+
+msgid "battleResults/damage"
+msgstr "Hasar"
+
+msgid "battleResults/kill"
+msgstr "Yok Edildi"
+
+msgid "battleResults/spotting"
+msgstr "Tespit Edilen"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "x1 Kişisel Yedek: %(effectTime)s boyunca Mürettebat Deneyimine %(effectValue)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "x1 Kişisel Yedek: %(effectTime)s boyunca Serbest Deneyime %(effectValue)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "x1 Kişisel Yedek: %(effectTime)s boyunca Savaş Deneyimine %(effectValue)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "%(int32Arg1)s Hedefine Saldır"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "%(int32Arg1)s Hedefini Savun"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Konuma dikkat!"
+
+msgid "command_shortcut/title"
+msgstr "Komutlar"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "Cephe engellendi: oyuncu sınırına ulaşıldı"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "Tehlikeli Alan"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "Cephe engellendi: araç türü sınırına ulaşıldı"
+
+msgid "dialogs/quotedName"
+msgstr "\"%(name)s\""
+
+msgid "dialogs/title/buy/item"
+msgstr "%(name)s %(type)s satın alınsın mı?"
+
+msgid "dialogs/title/buy/items"
+msgstr "%(type)s satın alınsın mı?"
+
+msgid "dialogs/title/install/item"
+msgstr "%(name)s %(type)s etkinleştirilsin mi?"
+
+msgid "dialogs/title/install/items"
+msgstr "%(type)s etkinleştirilsin mi?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "Gerekli miktarda Puan biriktirin ve Ön Cephe Savaş Yedeklerini etkinleştirin."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "Gerekli miktarda Puan biriktirin ve Ön Cephe Savaş Yedeklerini etkinleştirin."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "Savaş Yedeği Puanı"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "Savaşta %(level)s araçlar, ikinci hattaki herhangi bir noktayı (D, E veya F) ele geçirdikten/kaybettikten sonra açılacak."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "Seviye %(lvl)s"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "Ön Cephe kipi için Seviye VIII bir araç seçin."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "Uyumsuz Araç"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "Edin"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "Maks"
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "Savaş Yedekleri"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "Komutan Seviyesi"
+
+msgid "epictraining/info/otherLabel"
+msgstr "Dağıtılmamış oyuncular: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "Saldıranlar (%(lane1)s/%(lane2)s/%(lane3)s)"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "Savunanlar (%(lane1)s/%(lane2)s/%(lane3)s)"
+
+msgid "game/all_enemies_defeated"
+msgstr "Tüm düşman araçları yok edildi"
+
+msgid "game/all_hqs_destroyed"
+msgstr "Tüm hedefler yok edildi"
+
+msgid "game/all_tanks_defeated"
+msgstr "Tüm müttefik araçlar yok edildi"
+
+msgid "game/defeat"
+msgstr "Yenilgi!"
+
+msgid "game/draw"
+msgstr "Beraberlik!"
+
+msgid "game/time_over"
+msgstr "Hedefler sağlam kaldı"
+
+msgid "game/victory"
+msgstr "Zafer!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "Hedefleri yok edin!"
+
+msgid "global_msg/atk/time_short"
+msgstr "Bir alanı ele geçirin!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "Hedefleri savunun!"
+
+msgid "global_msg/def/time_short"
+msgstr "Alanları savunun!"
+
+msgid "global_msg/lane/center_short"
+msgstr "%(strArg1)s alanını güçlendirin!"
+
+msgid "global_msg/lane/east_short"
+msgstr "%(strArg1)s alanını güçlendirin!"
+
+msgid "global_msg/lane/west_short"
+msgstr "%(strArg1)s alanını güçlendirin!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "Tanklarınızı koruyun!"
+
+msgid "help_window/communication"
+msgstr "İletişim Alanı"
+
+msgid "help_window/communication/description"
+msgstr "Komutları sadece mini haritanızda görünen alandaki müttefiklerden veya komutun hedefi o alan içindeyse alabilirsiniz."
+
+msgid "help_window/overview_map"
+msgstr "Kuş Bakışı Harita"
+
+msgid "help_window/overview_map/description"
+msgstr "Kuş bakışı harita tüm savaş alanının taktik ve stratejik görünümünü almak için kullanılır. Kuş bakışı harita açıldığında tüm ekibin iletişimi alınabilir ve mesajlar gönderilebilir."
+
+msgid "help_window/recovery"
+msgstr "Kurtarma"
+
+msgid "help_window/recovery/description"
+msgstr "Kurtarma araziye takılıp kalan bir aracın kendi kendini imhası için eklendi. Bu mekanizma gerekli çünkü artan savaş süresi ve yeniden doğma imkânı oyuncunun sürekli çarpışmasını gerektiriyor."
+
+msgid "help_window/reserves"
+msgstr "Araç Yedekleri"
+
+msgid "help_window/reserves/description"
+msgstr "Her birkaç dakikada bir yedeklerinize bir araç eklenir. Yedek maksimum iki araç tutabilir. Hiç araç kalmadığında konuşlanamazsınız ve yeni araçlar gelene kadar beklemeniz gerekir."
+
+msgid "hq/under_attack_atk"
+msgstr "Saldırı Altında"
+
+msgid "hq/under_attack_def"
+msgstr "Saldırı Altında"
+
+msgid "in_game_rank/experience_text"
+msgstr "DP"
+
+msgid "lane_central_name"
+msgstr "Merkez"
+
+msgid "lane_east_name"
+msgstr "Doğu"
+
+msgid "lane_west_name"
+msgstr "Batı"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "Seviye %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "Edinme geçersiz: hiç Savaş Yedeği Puanınız yok."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "Savaş Yedeği maksimum seviyesine ulaştı."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "Yükseltme geçersiz: hiç Savaş Yedeği Puanınız yok."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "Savaş Yedeği satın alınmadı"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "Savaş Yedeği Seviyesi, savaşta Yüzbaşı ve Yarbay rütbelerine ulaştıktan sonra artar. Maksimum seviye, savaş senaryosu tarafından belirlenir."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "Satın alma fiyatı: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "Ana Hedef"
+
+msgid "mission/title"
+msgstr "Görev"
+
+msgid "mission/zone_closing_atk"
+msgstr "Alanın açılışı: "
+
+msgid "mission/zone_closing_def"
+msgstr "Düşman bombardımanı: "
+
+msgid "missions/primary/atk/base"
+msgstr "Alanı Ele Geçirin"
+
+msgid "missions/primary/atk/hq"
+msgstr "Hedefi Yok Edin"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s / %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "Yok edilen hedefler:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "Ana hedeflere ulaşmak için alanları ele geçirin. Ana hedefleri yok edin."
+
+msgid "missions/primary/def/base"
+msgstr "Alanı Savunun"
+
+msgid "missions/primary/def/hq"
+msgstr "Hedefi Savunun"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s / %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "Kaybedilen hedefler:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "Süre bitene kadar ana hedefleri savunun veya tüm saldıranları yok edin."
+
+msgid "missions/unlockTankLevel"
+msgstr "Seviye IX araçlar açık"
+
+msgid "overtime/label"
+msgstr "UZATMA"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "İki tane aynı Yedek etkinleştirilemez"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "Mayın tarlası döşenemiyor. Mayın tarlaları kesişiyor."
+
+msgid "primeTime/applyBtn"
+msgstr "Devam Et"
+
+msgid "primeTime/cancelBtn"
+msgstr "İptal"
+
+msgid "primeTime/continueBtn"
+msgstr "Devam Et"
+
+msgid "primeTime/endOfCycle"
+msgstr "%(server)s sunucusunda kip sona erdi."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "Geçerli sunucular:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "Geçerli sunucu: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "%(server)s sunucusundaki savaşlar %(time)s daha açık olacak"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "%(server)s sunucusunda sonraki savaşlar %(time)s içinde"
+
+msgid "primeTime/serverTooltip"
+msgstr "%(server)s sunucusu\nSavaşlar %(time)s kadar daha açık olacak"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Savaşlar %(time)s içerisinde açılacak"
+
+msgid "primeTime/servers"
+msgstr "Geçerli sunucular: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "%(server)s sunucusundaki savaşlar bitti"
+
+msgid "primeTime/status/disable"
+msgstr "Savaş öncesi hazırlıklarına devam etmek için bir Ön Cephe sunucusuna geçebilirsiniz."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "Bu kip %(server)s sunucusunda geçerli değil"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "%(server)s sunucusunda %(startTime)s zamanına kadar ateşkes var"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "Tüm sunucularda ateşkes var"
+
+msgid "primeTime/status/thisEnable"
+msgstr "%(server)s sunucusunda Ön Cephe %(time)s daha geçerli."
+
+msgid "primeTime/steelhunter/title"
+msgstr "ÇELİK AVCISI"
+
+msgid "primeTime/title"
+msgstr "ÖN CEPHE"
+
+msgid "primeTime/titleWelcome"
+msgstr "ÖN CEPHEYE\nHOŞ GELDİNİZ"
+
+msgid "progress_timers/active"
+msgstr "Aktif"
+
+msgid "progress_timers/fully_equipped"
+msgstr "Tam donanımlı"
+
+msgid "progress_timers/resupply"
+msgstr "İkmal Çemberi"
+
+msgid "progress_timers/unavailable"
+msgstr "Geçersiz"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "Ön Cephe Görevleri"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "1 günden az"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "%(level)s Seviyesine ulaşın"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "Yeni görevler %(time)s içinde açılacak"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "Çelik Avcısı Görevleri"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "Ön Cephe'nin bitişi: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "Geçersiz: %(reason)s."
+
+msgid "rank/allReserveUpgraded"
+msgstr "Tüm Savaş Yedeği Seviyeleri arttı"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "Mürettebat performansına ekip bonusu +%%%(percent)s seviyesine arttı"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "Maksimum mürettebat performansına +%%%(percent)s seviyesinde ulaşılır"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "Mürettebat performansına ekip bonusu +%%%(percent)s"
+
+msgid "rank/no_name"
+msgstr "Oyuncu"
+
+msgid "rank/promotion"
+msgstr "%(rank)s%(placeholder)s rütbesine terfi etti"
+
+msgid "rank/rank1"
+msgstr "Er"
+
+msgid "rank/rank2"
+msgstr "Çavuş"
+
+msgid "rank/rank3"
+msgstr "Teğmen"
+
+msgid "rank/rank4"
+msgstr "Yüzbaşı"
+
+msgid "rank/rank5"
+msgstr "Binbaşı"
+
+msgid "rank/rank6"
+msgstr "General"
+
+msgid "rank/recerveUnlocked"
+msgstr "%(reserveName)s Savaş Yedeği açıldı"
+
+msgid "rank/reserveUpgraded"
+msgstr "%(reserveName)s Savaş Yedeği iyileştirildi"
+
+msgid "rank/slotUnlocked"
+msgstr "%(slotNumber)s Savaş Yedeği açıldı"
+
+msgid "rank/slot_2"
+msgstr "2'inci"
+
+msgid "rank/slot_3"
+msgstr "3'üncü"
+
+msgid "recovery/Blocked"
+msgstr "Geçici olarak\nengelli"
+
+msgid "recovery/disabled"
+msgstr "Kurtarma mümkün değil"
+
+msgid "recovery_panel/base_text"
+msgstr "Kurtarma için\nJ tuşuna basın"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "İptal etmek için hareket veya ateş edin."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "Kurtarma\niptal edildi"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "Kurtarma\ntalep edildi"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "Sonraki üssü ele geçirin"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "Destek güçlerin gelişi: "
+
+msgid "reinforcement/unavailable"
+msgstr "Destek güçler müsait değil"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "otomatik konuşlanmaya %(seconds)s sn."
+
+msgid "respawn/deploy_button"
+msgstr "Savaş!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "Savaşta iyileştirilmiş sarf malzemeleri satın alınamaz."
+
+msgid "respawn/shop_title"
+msgstr "Servis"
+
+msgid "respawn/tanks_left"
+msgstr "araç kaldı"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "Bir Araç ve Konuşlanma Alanı Seçin"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "Bu alana konuşlanmak tehlikelidir."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s saniye"
+
+msgid "retreat_message_txt"
+msgstr "Geri Çekilin"
+
+msgid "retreat_mission_txt"
+msgstr "Sonraki alana geri çekilin"
+
+msgid "rewardSelection/subTitle"
+msgstr "ÖDÜLÜNÜZÜ SEÇİN"
+
+msgid "rewardSelection/title"
+msgstr "ÖN CEPHE"
+
+msgid "scorePanel/stage1"
+msgstr "1. Aşama"
+
+msgid "scorePanel/stage2"
+msgstr "2. Aşama"
+
+msgid "scorePanel/stage3"
+msgstr "3. Aşama"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "Bilgisayarınızın performansı bu kip için yeterli değil. Grafikler ve araç hareketi ile ilgili sorunlar yaşayabilirsiniz. Oyun istemcisinin çökmesi de olasıdır."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "Düşük Performans"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "Yetersiz performans durumunda Ayarlardan daha düşük bir grafik kalitesi ile deneyin."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "Bu kip yüksek bilgisayar performansı gerektirir"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "Bu kip yüksek bilgisayar performansı gerektirir. Harita yüklenmesi, grafikler ve araç hareketi ile ilgili sorunlar yaşayabilirsiniz. Yetersiz performans durumunda Ayarlarınızdan daha düşük grafik kalitesi kullanmayı deneyin."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "Düşük Performans"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "%(bodyVehicleLevel)s ile 30'a 30 savaşlar. Yeniden Doğma mekanizmasından, Savaş Yedeklerinden ve İkmal Çemberlerinden faydalanın."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "Seviye %(level)s araçlar"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "%(bodyVehicleLevel)s ile 30'a 30 savaşlar. Yeniden Doğma mekanizmasından, Savaş Yedeklerinden ve savaşta onarım imkanlarından faydalanın."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "Kip teknik sorunlar sebebiyle geçici olarak devre dışıdır."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "Ön Cephe"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "Savaşın başlangıcı: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "Savaşın bitişi: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "Savaş Programı"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "Bugün"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "Yarın"
+
+msgid "skill/category/firesupport"
+msgstr "Saldırı Yedekleri"
+
+msgid "skill/category/reconnaissance"
+msgstr "Keşif Yedekleri"
+
+msgid "skill/category/tactics"
+msgstr "Taktik Yedekler"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "İzleyici Kipi Kamerası"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "Kamerayı farenizle döndürün."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "Kamerayı haritada hareket ettirmek için W,A,S,D tuşlarını kullanın."
+
+msgid "spectator_mode/follow_text"
+msgstr "İzlemeye başlamak için sol tıklayın."
+
+msgid "spectator_mode/follow_title"
+msgstr "İzle"
+
+msgid "spectator_mode/msg_text"
+msgstr "Aracın gelişi:"
+
+msgid "spectator_mode/msg_title"
+msgstr "Bütün araçlar yok edildi!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "İzlemeyi durdurmak için tekrar tıklayın."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "İzlemeyi durdur"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s gün"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s sa."
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 dk."
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s dk."
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "Engelli"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Alanı terk et!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Can puanı yenileniyor"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Can puanı yenileniyor"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "İlham alan"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "İlhamcı"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "İkmal Çemberi"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Sis içinde: Gizli."
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "Sis içinde. Görüş mesafesi ve mürettebat performansı düşük."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "Çözülme süresi. Görüş mesafesi ve mürettebat performansı düşük."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "Nöbetçi etkinleştirildi"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "Araç durduktan %(activationDelay)s sn. sonra etkinleşir"
+
+msgid "super_platoon_panel/title"
+msgstr "Takım"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "- General varlığı sayesinde mürettebat performansına toplam ekip bonusu."
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%%%(value)s"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "Tüm cepheler"
+
+msgid "tab_screen/show_my_lane"
+msgstr "Benim cephem"
+
+msgid "team1Name"
+msgstr "Saldıranlar"
+
+msgid "team2Name"
+msgstr "Savunanlar"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "Tamamlanan Ön Cephe Seviyeleri için ödülleri seçin (%(number)s)."
+
+msgid "tooltips/common/disabled"
+msgstr "Kip Geçerli Değil"
+
+msgid "tooltips/common/title"
+msgstr "Ön Cephe"
+
+msgid "tooltips/end"
+msgstr "Etkinlik sona erdi"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "Savaş Yedeklerinin açılma sırası araç türüne bağlıdır. Bir Savaş Yedeği ilk baştan açıkken diğerleri sırasıyla Astsubay ve Teğmen rütbelerine ulaşınca açılır."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "Açma: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "<font color='#E9E2BF'>Kaderin Cilvesi</font> senaryosunda, bir Savaş Yedeği satın almak, Yedeğin seviyesini bir artırır ve Seviye <font color='#E9E2BF'>IV</font>'e yükseltme fırsatı sağlar."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "Bu yuvaya yerleştirilen bir Savaş Yedeği, bu Yedeğin <font color='#E9E2BF'>Kaderin Cilvesi</font> senaryosunda sunulma olasılığını <font color='#E9E2BF'>%10</font> artırır."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "Savaşta Yedekleri Açma ve İyileştirme"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "Savaş Yedekleri, savaş esnasında, araç türüne ve ulaştığınız rütbeye göre açılır ve iyileştirilir."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "Tank Avcıları İçin Yedek Yapılandırmaları"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "KMT'ler İçin Yedek Yapılandırmaları"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "Ağır Tanklar İçin Yedek Yapılandırmaları"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "Hafif Tanklar İçin Yedek Yapılandırmaları"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "Orta Tanklar İçin Yedek Yapılandırmaları"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "tüm Savaş Yedeklerini açtıktan sonra yeni rütbelere ulaştığınızda bu Savaş Yedekleri iyileştirilir. İlk başta açılan Savaş yedeği Seviye III'e, ikinci açılan Savaş Yedeği Seviye II'ye kadar iyileştirilebilir."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "İyileştirme: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "Yuva %(rank)s rütbesine ulaştığınızda açılacak."
+
+msgid "tooltips/timeToEnd"
+msgstr "Kip açık: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "Savaşların başlangıcı: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "Etkinlik sona erdi"
+
+msgid "tooltips/widget/level"
+msgstr "Seviye %(level)s"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "Maksimum seviyeye ulaşıldı."
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "SAVAŞ YEDEKLERİ"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Ateşkes tüm sunucularda etkin. Savaşlar %(time)s içinde açılacak"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "Savaşlar geliyor"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Başka Bir Sunucu Seç"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "Detaylar"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "Ön Cephe kipi sona erdi."
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "Ön Cephe Senaryoları"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Bu sunucuda ateşkes etkin. Savaşlar %(time)s içinde açılacak"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "%(serverName)s sunucusunda ateşkes var"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "Savaşların başlangıcına: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "Ön Cephe senaryoları ve bunlar arasındaki farklar\nhakkında bilgi almak için tıklayın."
+
+msgid "zone/arrived_text"
+msgstr "Geldi!"
+
+msgid "zone/capture_text"
+msgstr "Ele Geçirin"
+
+msgid "zone/captured_text"
+msgstr "Ele Geçirildi"
+
+msgid "zone/defend_text"
+msgstr "Savunun"
+
+msgid "zone/destroy_text"
+msgstr "Yok Edin"
+
+msgid "zone/destroyed_text"
+msgstr "Yok Edildi"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "Düşman destek güçleri"
+
+msgid "zone/headquarters_text"
+msgstr "Hedefler"
+
+msgid "zone/leave_zone"
+msgstr "Alanı Terk Edin!"
+
+msgid "zone/lost_text"
+msgstr "Kaybedildi"
+
+msgid "zone/reached_text"
+msgstr "Ulaşıldı"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "Düşman destek güçleri:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "Destek güçleri:"
+
+msgid "zone/reinforcements_text"
+msgstr "Destek güçleri"
+
+msgid "zone/time_added"
+msgstr "Eklenen dakika: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "%(minutes)s dakika kaldı"
+
+msgid "zone/zone_text"
+msgstr "Alan"

@@ -1,0 +1,467 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "addVehPopover/btnAdd"
+msgstr "Ekle (%(count)d)"
+
+msgid "addVehPopover/btnCancel"
+msgstr "İptal"
+
+msgid "addVehPopover/header"
+msgstr "Karşılaştırma İçin Araçları Seçin"
+
+msgid "addVehPopover/showOnlyMyVahicles"
+msgstr "Garajdaki araçları göster"
+
+msgid "addVehPopover/tooltips/addToCompare/body"
+msgstr "Seçili araçları karşılaştırmaya ekleyin"
+
+msgid "addVehPopover/tooltips/addToCompare/header"
+msgstr "Ekle"
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/body"
+msgstr "Karşılaştırmaya araç eklemek için karşılaştırma listesinden biraz araç çıkarın."
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/header"
+msgstr "Eklenemiyor"
+
+msgid "addVehPopover/tooltips/inHangar/body"
+msgstr "Garajdaki araçlara göre sıralayın."
+
+msgid "addVehPopover/tooltips/inHangar/header"
+msgstr "Garajdaki Araçlar"
+
+msgid "addVehPopover/tooltips/level/body"
+msgstr "Araç Seviyelerine göre sıralayın."
+
+msgid "addVehPopover/tooltips/level/header"
+msgstr "Araçlar"
+
+msgid "addVehPopover/tooltips/nation/body"
+msgstr "Ülkelere göre sıralayın."
+
+msgid "addVehPopover/tooltips/nation/header"
+msgstr "Ülke"
+
+msgid "addVehPopover/tooltips/selectVehicle/body"
+msgstr "Seçili araçlara göre sıralayın."
+
+msgid "addVehPopover/tooltips/selectVehicle/header"
+msgstr "Seçili Araçlar"
+
+msgid "addVehPopover/tooltips/title/body"
+msgstr "Araç isimlerine göre sıralayın."
+
+msgid "addVehPopover/tooltips/title/header"
+msgstr "İsim"
+
+msgid "addVehPopover/tooltips/type/body"
+msgstr "Araç türüne göre sıralayın."
+
+msgid "addVehPopover/tooltips/type/header"
+msgstr "Tür"
+
+msgid "addVehPopover/vehicleName"
+msgstr "İsim"
+
+msgid "cartPopover/configurationType/basic"
+msgstr "Standart"
+
+msgid "cartPopover/configurationType/current"
+msgstr "Güncel"
+
+msgid "cartPopover/configurationType/custom"
+msgstr "Yapılandırılmış"
+
+msgid "cartPopover/configurationType/premium"
+msgstr "Premium"
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/attention"
+msgstr "Karşılaştırmaya bir araç eklemek için ilgisiz araçları karşılaştırma listesinden çıkarın."
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/header"
+msgstr "Eklenemiyor"
+
+msgid "cartPopover/gotoCompareBtn/label"
+msgstr "Karşılaştırılacak (%(value)s)"
+
+msgid "cartPopover/openCmpBtn/tooltip/body"
+msgstr "Seçili araçların karşılaştırmasına gidin."
+
+msgid "cartPopover/openCmpBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeAllBtn/label"
+msgstr "Listeyi Temizle"
+
+msgid "cartPopover/removeAllBtn/tooltip/body"
+msgstr "Karşılaştırma listesinden tüm araçları çıkarın."
+
+msgid "cartPopover/removeAllBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtn/tooltip/body"
+msgstr "Bir aracı karşılaştırma listesinden çıkarmak için tıklayın."
+
+msgid "cartPopover/removeBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtnLocked/tooltip/body"
+msgstr "Yapılandırma penceresi açıkken karşılaştırma listesinden araç çıkarılamıyor."
+
+msgid "cartPopover/removeBtnLocked/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeLockedBtn/tooltip/body"
+msgstr "Yapılandırma penceresi açıkken karşılaştırma listesinden araç çıkarılamıyor."
+
+msgid "cartPopover/removeLockedBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/sorting/nation/body"
+msgstr "Seçili araçların ülkelerini gösterir."
+
+msgid "cartPopover/sorting/nation/header"
+msgstr "Ülke"
+
+msgid "cartPopover/sorting/vehLvl/body"
+msgstr "Seçili araçların Seviyelerini gösterir."
+
+msgid "cartPopover/sorting/vehLvl/header"
+msgstr "Seviye"
+
+msgid "cartPopover/sorting/vehName"
+msgstr "İsim"
+
+msgid "cartPopover/sorting/vehName/tooltip/body"
+msgstr "Seçili araçların isimlerini gösterir."
+
+msgid "cartPopover/sorting/vehName/tooltip/header"
+msgstr "İsim"
+
+msgid "cartPopover/sorting/vehType/body"
+msgstr "Seçili araçların türlerini gösterir."
+
+msgid "cartPopover/sorting/vehType/header"
+msgstr "Tür"
+
+msgid "cartPopover/title"
+msgstr "Karşılaştırma listesi"
+
+msgid "compareVehicleBtn/tooltips/disabledOnServer/attention"
+msgstr "Bu işlem şu anda yapılamaz."
+
+msgid "header/closeBtn/label"
+msgstr "KAPAT"
+
+msgid "menu/cloneForCompare"
+msgstr "Karşılaştırma için kopyala"
+
+msgid "modulesView/closeBtnLabel"
+msgstr "İptal"
+
+msgid "modulesView/closeBtnLabel/tooltip/body"
+msgstr "Mevcut parça seçimini iptal edip araç yapılandırmaya geri dönmek için tıklayın."
+
+msgid "modulesView/closeBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/compareBtnLabel"
+msgstr "Kabul Et"
+
+msgid "modulesView/compareBtnLabel/tooltip/body"
+msgstr "Seçili parçaları kaydedip araç yapılandırmaya geri dönmek için tıklayın."
+
+msgid "modulesView/compareBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/resetBtnLabel"
+msgstr "Sıfırla"
+
+msgid "modulesView/resetBtnLabel/tooltip/body"
+msgstr "Aracı standart yapılandırmasına sıfırlamak için tıklayın."
+
+msgid "modulesView/resetBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/title"
+msgstr "%(vehName)s için Parça Yapılandırması"
+
+msgid "modulesView/vehicleStatus/inHangar"
+msgstr "Garajda"
+
+msgid "modulesView/vehicleStatus/readyToBuy"
+msgstr "Satın alınmadı"
+
+msgid "modulesView/vehicleStatus/readyToResearch"
+msgstr "Araştırılmadı"
+
+msgid "skillSelect/bonusSkills"
+msgstr "Bonus yetenekler"
+
+msgid "skillSelect/button/addToCompare"
+msgstr "Karşılaştırmaya Ekle"
+
+msgid "skillSelect/button/cancel"
+msgstr "İptal"
+
+msgid "skillSelect/button/restore"
+msgstr "Geri Al"
+
+msgid "skillSelect/majorSkills"
+msgstr "Ana uzmanlık yetenekleri"
+
+msgid "skillSelect/tooltip/additionalRoles"
+msgstr "Ek görev:"
+
+msgid "skillSelect/tooltip/generalPrinciple"
+msgstr "Genel Prensip"
+
+msgid "skillSelect/tooltip/generalPrincipleDescription"
+msgstr "Yapılandırma ekranı yeteneğin {cream_Open}100%{cream_Close} eğitildiğinde ve yetenek etkinliği {cream_Open}100%{cream_Close} iken ilgili niteliği nasıl etkilediğini gösterir."
+
+msgid "skillSelect/tooltip/heading"
+msgstr "%(vehicleName)s için mürettebat yetenekleri"
+
+msgid "skillSelect/tooltip/roles"
+msgstr "Uzmanlıklar"
+
+msgid "skillSelect/tooltipHint"
+msgstr "*İmleci bir yeteneğin üzerine getirmek, %100'e eğitilmiş ve %100 Yetenek Etkinliğine karşılık gelen nitelikleri nasıl etkilediği gösterilir."
+
+msgid "skillsConf/empty"
+msgstr "Mürettebat Yetenekleri Seçin"
+
+msgid "skillsConf/emptyTooltip/body"
+msgstr "Yetenekleri seçerek araç niteliklerini nasıl etkilediğine bakın"
+
+msgid "skillsConf/emptyTooltip/header"
+msgstr "Mürettebat yetenekleri"
+
+msgid "skillsConf/header"
+msgstr "Mürettebat yetenekleri"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "Karşılaştırmaya Ekle"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "Karşılaştırmaya bu aracı ekleyemezsiniz."
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/disabled/body"
+msgstr "Karşılaştırmaya araç eklemek için karşılaştırma listesinden biraz araç çıkarın."
+
+msgid "store/compareVehicleBtn/tooltips/disabled/header"
+msgstr "Eklenemiyor"
+
+msgid "techTree/tooltips/addToCompare/body"
+msgstr "Karşılaştırmaya Ekle"
+
+msgid "techTree/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehConf/applyBtnLabel"
+msgstr "Uygula"
+
+msgid "vehConf/btnCleanUp"
+msgstr "Temizle"
+
+msgid "vehConf/cancelBtnLabel"
+msgstr "İptal"
+
+msgid "vehConf/cancelBtnLabel/tooltip/body"
+msgstr "Seçili yapılandırmayı iptal edip karşılaştırmaya dönmek için tıklayın."
+
+msgid "vehConf/cancelBtnLabel/tooltip/header"
+msgstr "İptal"
+
+msgid "vehConf/compareBtnLabel/tooltip/body"
+msgstr "Seçili yapılandırmayı kaydedip karşılaştırmaya dönmek için tıklayın."
+
+msgid "vehConf/compareBtnLabel/tooltip/header"
+msgstr "Uygula"
+
+msgid "vehConf/confAvailable"
+msgstr "MEVCUTLAR\nYAPILANDIRILIYOR"
+
+msgid "vehConf/doesntAffect"
+msgstr "Basitleştirilmiş teknik nitelikleri etkilemez"
+
+msgid "vehConf/equipment"
+msgstr "Donanım ve sarf malzemeleri"
+
+msgid "vehConf/header"
+msgstr "%(vehName)s için yapılandırma"
+
+msgid "vehConf/modifications/choose"
+msgstr "Modifikasyonları Seçin"
+
+msgid "vehConf/modifications/title"
+msgstr "Modifikasyonlar"
+
+msgid "vehConf/modules"
+msgstr "Parçalar"
+
+msgid "vehConf/resetBtnLabel"
+msgstr "Sıfırla"
+
+msgid "vehConf/resetBtnLabel/tooltip/body"
+msgstr "Varsayılan araç yapılandırmasına geri dönmek için tıklayın."
+
+msgid "vehConf/resetBtnLabel/tooltip/header"
+msgstr "Sıfırla"
+
+msgid "vehConf/tooltips/btnCleanUp/body"
+msgstr "Seçili donanımı yapılandırmadan çıkarmak için tıklayın."
+
+msgid "vehConf/tooltips/btnCleanUp/header"
+msgstr "Temizle"
+
+msgid "vehConf/tooltips/camoInfo"
+msgstr "Yaz, kış ve çöl kamuflajı uygulayarak her harita türünde aracınızın gizliliğini artırın."
+
+msgid "vehConf/tooltips/camoInfoDisabled/body"
+msgstr "Bu her mevsim kamuflaj aracın doğal bir ögesidir. Kaldırılamaz veya değiştirilemez."
+
+msgid "vehConf/tooltips/camoInfoDisabled/header"
+msgstr "Her Mevsim Kamuflaj"
+
+msgid "vehConf/tooltips/camoTitle"
+msgstr "Kamuflaj"
+
+msgid "vehConf/tooltips/defCamoInfo"
+msgstr "Kaldırılamayan üç kamuflaj\ntürü takılır: kış, yaz ve çöl."
+
+msgid "vehConf/tooltips/deviceNotAffectedTTC"
+msgstr "Aracın teknik niteliklerini etkilemez"
+
+msgid "vehConf/tooltips/modifications/description"
+msgstr "Aracı rolüne göre yapılandırıp niteliklerini değiştirmenizi sağlayacak modifikasyonları seçin."
+
+msgid "vehConf/tooltips/modifications/remove"
+msgstr "Tüm modifikasyonları iptal et"
+
+msgid "vehConf/tooltips/modifications/title"
+msgstr "Modifikasyonlar Paneli"
+
+msgid "vehConf/tooltips/revertBtn/body"
+msgstr "Varsayılan araç yapılandırmasına geri dönmek için tıklayın."
+
+msgid "vehConf/tooltips/revertBtn/header"
+msgstr "?empty?"
+
+msgid "vehConf/tooltips/topModulesLabel/body"
+msgstr "Bu araç için diğer parçalar geçerli değil: araç yapılandırması kalıcı."
+
+msgid "vehConf/tooltips/topModulesLabel/header"
+msgstr "En İyi Yapılandırma"
+
+msgid "vehConf/tooltips/topModulesOff/body"
+msgstr "Araç için en iyi parçaları seçmek için tıklayın."
+
+msgid "vehConf/tooltips/topModulesOff/header"
+msgstr "En İyi Yapılandırma"
+
+msgid "vehConf/tooltips/topModulesOn/body"
+msgstr "En iyi yapılandırma seçimini iptal etmek için tıklayın."
+
+msgid "vehConf/tooltips/topModulesOn/header"
+msgstr "En İyi Yapılandırma"
+
+msgid "vehConf/topModulesBtnLabel"
+msgstr "En İyi Yapılandırmayı Seç"
+
+msgid "vehConf/topModulesLabel"
+msgstr "En İyi Yapılandırma"
+
+msgid "vehPreview/compareInfo/addToCompare"
+msgstr "Karşılaştırmaya ekle-"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "Karşılaştırmaya Ekle"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "Karşılaştırmaya bu aracı ekleyemezsiniz."
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/body"
+msgstr "Karşılaştırmaya araç eklemek için karşılaştırma listesinden biraz araç çıkarın."
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/header"
+msgstr "Eklenemiyor"
+
+msgid "vehicleCompareView/btnAddVehicles"
+msgstr "Karşılaştırmaya Ekle"
+
+msgid "vehicleCompareView/configurationType/basic"
+msgstr "Standart"
+
+msgid "vehicleCompareView/configurationType/current"
+msgstr "Güncel"
+
+msgid "vehicleCompareView/configurationType/custom"
+msgstr "Yapılandırılmış"
+
+msgid "vehicleCompareView/configure"
+msgstr "Yapılandır"
+
+msgid "vehicleCompareView/toHangar"
+msgstr "Garajda Bak"
+
+msgid "vehicleCompareView/toPreview"
+msgstr "Ön izleme"
+
+msgid "vehicleCompareView/tooltips/addVehicles/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/addVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/configure/body"
+msgstr "Teknik nitelikleri etkileyen parametreleri seçmek için tıklayın."
+
+msgid "vehicleCompareView/tooltips/configure/header"
+msgstr "Parametreleri Yapılandır"
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/body"
+msgstr "Karşılaştırmadan tüm araçları çıkarmak için tıklayın."
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/body"
+msgstr "Karşılaştırmadan çıkarın."
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/topPanel/noVehicle"
+msgstr "Araçlar seçili değil"
+
+msgid "vehicleCompareView/topPanel/premium"
+msgstr "Premium"
+
+msgid "vehicleCompareView/topPanel/vehiclesCount"
+msgstr "Karşılaştırılacak araçlar: %(count)s"

@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Tillbaka till skatter"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "Flammande skatt"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "FLAMMANDE SKATT"
+
+msgid "common/getButton/lowerCase"
+msgstr "Skaffa skatter"
+
+msgid "common/getButton/upperCase"
+msgstr "SKAFFA SKATTER"
+
+msgid "common/loader"
+msgstr "Flammande skatt öppnar..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Öppna skatter för att se statistik."
+
+msgid "common/statistics/header"
+msgstr "Öppnade Flammande skatter: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "All information om öppnade Flammande skatter raderas."
+
+msgid "entryPoint/boxes"
+msgstr "TILL SKATTER"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Det här är speciella lådor med nytt och unikt innehåll, bland annat Premiumvagnar, 2D-stilar med mera. Du kan skaffa dem i affären i spelet."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Flammande skatter kan inte öppnas eller köpas för tillfället på grund av tekniska problem. Vi ber om ursäkt för besväret."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Flammande skatter ej tillgängliga för tillfället"
+
+msgid "eventName/lowerCase"
+msgstr "Månbyte"
+
+msgid "eventName/upperCase"
+msgstr "MÅNBYTE"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garanterad belöning i nästa skatt!"
+
+msgid "guaranteedTitle/text"
+msgstr "Max antal Flammande skatter innan garanterad belöning: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Om du inte öppnar dina Flammande skatter innan evenemanget avslutas kommer de öppnas automatiskt."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Om du redan äger alla vagnar i listan över möjligt innehåll kommer alla vagnar du får från Flammande skatter kompenseras med respektive värde i guld."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Du är garanterad en Premiumvagn klass VIII–X för varje %(guaranteed0)s Flammande skatter du öppnar. Om du öppnar så många Flammande skatter utan att få en vagn så kommer den %(guaranteed0)s:e&zwnbsp;Flammande skatten innehålla en Premiumvagn klass VIII–X du inte redan äger. Därefter nollställs räkningen."
+
+msgid "infoPage/header/description"
+msgstr "Öppna Flammande skatter för en chans att få värdefullt spelinnehåll! Läs mer nedan."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Från %(name) (%(boxesCount) öppnade Flammande skatter)"
+
+msgid "noBoxesView/description/"
+msgstr "Du har inga Flammande skatter.\nDu kan skaffa dem i Premiumaffären."
+
+msgid "preview/backLabel"
+msgstr "TILL SKATTER"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Tillgängliga skatter: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Inga skatter tillgängliga"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Om du redan äger alla vagnar i listan över möjligt innehåll i Flammande skatter kommer alla vagnar du får från paket kompenseras med respektive värde i guld."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) Flammande skatt"
+msgstr[1] "%(remainingCount) Flammande skatter"
+msgstr[2] "%(remainingCount) Flammande skatter"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Den garanterade belöningen är en vagn från listan över möjligt innehåll i Flammande skatter.\nOm du öppnar %(remainingCount) utan att få en vagn från listan kommer du få en när du öppnar den %(count):e Flammande skatten. Därefter återställs räkningen."

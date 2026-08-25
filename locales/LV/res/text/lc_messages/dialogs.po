@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: <translator name> <<translator email>>\nLanguage-Team: <language team name> <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "Piekrītu"
+
+msgid "EULA/labels/agree"
+msgstr "Piekrītu"
+
+msgid "EULA/title"
+msgstr "Gala lietotāja licences līgums"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "Šī e-pasta adrese jau ir sasaistīta ar jūsu kontu."
+
+msgid "accountCompletion/activate/button"
+msgstr "Nosūtīt Kodu/Mainīt E-pastu"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "Pārsūtiet kodu, vai mainiet jūsu e-pastu pēc %(timer) s"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "Ievadiet vēlreiz jūsu e-pastu"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "Kods nederīgs. Ievadiet vēlreiz jūsu e-pastu."
+
+msgid "accountCompletion/activate/keyError"
+msgstr "Nederīgs kods"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "Ja jūs nevariet atrast e-pastu, lūdzu apskatiet jūsu e-pasta adresi, jo tā var saturēt drukas kļūdu."
+
+msgid "accountCompletion/activate/text"
+msgstr "Epasts ar apstiprinājuma kodu no Wargaming.net tik izsūtīts uz adresi {whiteSpanish_Open}%(email){whiteSpanish_Close}. Ievadiet 4 ciparu kodu, lai apstiprinātu jūsu epastu un pabeigtu jūsu kontu."
+
+msgid "accountCompletion/activate/title"
+msgstr "Apstipriniet epasta adresi"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "Jūs ievadījāt nepareizu kodu pārāk daudz reižu."
+
+msgid "accountCompletion/add"
+msgstr "Pievienot"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "Šī e-pasta adrese jau ir sasaistīta ar jūsu kontu."
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "E-pasts Jau Sasaistīts"
+
+msgid "accountCompletion/cancel"
+msgstr "Vēlāk"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "Jūsu E-pasts"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "E-pasts"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "Pievienojiet jūsu e-pastu, lai saņemtu balvu un iegūtu pilnu pieeju visiem spēles pasākumiem."
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "IEGŪSTIET PILNU PIEEJU SPĒLEI"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "Pievienojiet un apstipriniet jūsu epasta adresi, lai saņemtu balvu un atslēgtu jaunas funkcijas. %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "Pabeidziet Kontu"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "Konts jau ir reģistrēts ar šo e-pasta adresi."
+
+msgid "accountCompletion/emailForbidden"
+msgstr "Šī e-pasta adrese ir aizliegta."
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "E-pastam jāsatur ne vairāk kā %(amount)s rakstzīmes."
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "E-pastam jāsatur vismaz %(amount)s rakstzīmes."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "Jūsu e-pasts jau ir apstiprināts."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "E-pasts Apstiprināts"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "Jūs pārsniedzāt pieprasījumu skaitu. Jūs variet mainīt savu e-pasta adresi vai atkārtoti nosūtīt e-pastu pēc %(timer)"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "Šis e-pasta pakalpojums ir bloķēts jūsu valstī."
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "Šis e-pasta pakalpojums ir aizliegts jūsu valstī."
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "Nevar Savienot E-pastu"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "E-pasts var saturēt Latīņu burtus, ciparus, @ simbolus, punktus un pasvītrojumus."
+
+msgid "accountCompletion/later"
+msgstr "Vēlāk"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "Balva par E-pasta Apstiprināšanu"
+
+msgid "accountCompletion/submit"
+msgstr "Apstiprināt"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "Gaida rindā uz serveri.\nTas var aizņemt kādu laiku."
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) Pakalpojums īslaicīgi nav pieejams. Lūdzu mēģiniet vēlāk."
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) Pakalpojums uz laiku nav pieejams.\nLūdzu, mēģiniet vēlreiz pēc %(time)s."
+
+msgid "barracksExpand/cancel"
+msgstr "Atcelt"
+
+msgid "barracksExpand/message"
+msgstr "Paplašināt kazarmas par %(price)s zelta vienībām, pievienojot %(count)s kojas?"
+
+msgid "barracksExpand/submit"
+msgstr "Paplašināt"
+
+msgid "barracksExpand/title"
+msgstr "Kazarmu paplašināšana"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "Labi"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "Nepietiek zelta."
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "Labi"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "Kazarmu paplašināšana"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "Atcelt"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "Ne visi spēlētāji ir gatavi kaujai, vai to skaits ir mazāks nekā nepieciešams."
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "Sākt Kauju"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "Nepilns Sastāvs"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "Aktivizēt bonusu %(newBoosterName)s"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "Apstiprināt"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "Apstiprināt aktivizāciju"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "Ja Personālā Rezerve %(newBoosterName)s ir aktivizēta, pašreiz aktīvā Personālā Rezerve %(curBoosterName)s tiks atcelta un iznīcināta."
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "Apstiprināt"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "Apstiprināt aktivizāciju"
+
+msgid "buyConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "buyConfirmation/message"
+msgstr "Pirkt %(product)s par %(price)s?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "Pirkt {%count} \"{%name}\" gab.?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "Pirkt ekipējumu '%(equipment)s'?"
+
+msgid "buyConfirmation/submit"
+msgstr "Nopirkt"
+
+msgid "buyConfirmation/title"
+msgstr "Pirkuma apstiprināšana"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "nesaderība"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " ar uzstādīto ierīci."
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "Palīgmateriāls \"%(conflicted)s\" tiks nosūtīts uz noliktavu "
+
+msgid "buyInstallConfirmation/message"
+msgstr "Pirkt un uzstādīt %(kind)s \"%(name)s\" uz pašreizējā tanka par %(price)s %(creditsIcon)s? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "Pirkt un uzstādīt %(kind)s \"%(name)s\" uz pašreizējā tanka par %(price)s kredītiem?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "Nopirkt"
+
+msgid "buyInstallConfirmation/title"
+msgstr "Pirkuma apstiprināšana"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "Nopirkt premium kontu uz %(days)s dienām par %(gold)s zelta vienībām?\n %(alertIcon)s %(alertColorTagOpen)s Tehnisku iemeslu dēļ jūs nesaņemsiet papildus pieredzi un kredītus. Centieties izvēlēties citu kauju vai iegādāties premium kontu caur izvēlni „Nopirkt premium kontu”.%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "Nopirkt"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "Pirkuma apstiprināšana"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "Garāžas Vieta"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "buySlotConfirmation/message"
+msgstr "Pirkt papildus vietu Garāžā par %(goldCost)s?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "Nopirkt"
+
+msgid "buySlotConfirmation/title"
+msgstr "Pirkuma apstiprināšana"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "Nepietiek kredītu, lai nopirktu vietu."
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "Nepietiek Kredītu"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "Nepietiek zelta, lai nopirktu papildus slotu angārā."
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "Nepietiek zelta"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "Nav pieejamu vietu Garāžā. Pirkt papildus vietu par {%d} kredītiem?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "Nopirkt"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "Pirkuma apstiprināšana"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "Ielādēt standarta munīciju"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "Atcelt"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Jums jau ir apkalpe šim tankam."
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "Bruņutehnikas nomāšanas periodā jūs saņemsiet papildus slotu bez maksas."
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "Nevar ielādēt munīciju: izvēlētajam tankam jau ir pilna munīcija."
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "Nevar ielādēt munīciju: izvēlētajam tankam vēl ir nedaudz munīcija."
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "Cena: %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "Papildus slots angārā"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "Nopirkt"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "Iegāde"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "Apmaiņa"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "Nopirkt bez apkalpes"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "Apkalpes sagatavotība"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "Apkalpes locekļi: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "%(vehiclename)s iegāde"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "Kopā:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "Jūs ievadījāt nepareizu informāciju."
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "Ievadiet zelta apjomu no kolonnas „Kopā”"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "Operācijas apstiprināšana:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "Jums ir atbilstoša bruņutehnika\napmaiņai"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "Aptuvenais novērtējums ir %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "Apmācīt apkalpi: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "Kopā:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "Izvēlieties tanku"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "Izvēlieties apmaiņai pieejamu\npremium bruņutehniku"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "Atcelt"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "Papildus samaksa par %(vehiclename)s:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "Apmainīt"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "Nopirkt bez apkalpes"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "%(vehiclename)s apmaiņa"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "Pēc pogas „Apmainīt” nospiešanas iegādātos moduļus un aprīkojumu nevarēs atgriezt pret zeltu. Lūdzu, rūpīgi visu pārbaudiet."
+
+msgid "buyVehicleWindow/warning"
+msgstr "Pēc pogas „Pirkt” nospiešanas iegādātos moduļus un aprīkojumu nevarēs atgriezt pret zeltu. Lūdzu, rūpīgi visu pārbaudiet."
+
+msgid "challenge_missions/activation/cancel"
+msgstr "Atcelt"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "Aktivizēt"
+
+msgid "challenge_missions/activation/description"
+msgstr "Kad aktivizēts, virkni Tīģeļa misiju var {{@ style (color #FFE4C0)}}pabeigt, neizdoties vai pamest{{/}}. Ja neizdodas misija sērijā, jūs zaudēsiet vienu vairogu."
+
+msgid "challenge_missions/activation/title"
+msgstr "Aktivizēt Tīģeļi: {{challengeName}}?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "Atcelt"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "Restartēt"
+
+msgid "challenge_missions/restart/description"
+msgstr "Jūsu misijas progress tiks atiestatīts, jūsu vairogi tiks atjaunoti, un jūs varēsiet atkal nopelnīt balvas. Misiju sērija būs aktīva uzreiz pēc restartēšanas."
+
+msgid "challenge_missions/restart/free/title"
+msgstr "Restartēt Tīģeļi: {{challengeName}} bez maksas?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "Restartēt Tīģeļi: {{challengeName}} par {{cost}}?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "Atcelt"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "Pamest"
+
+msgid "challenge_missions/surrender/description"
+msgstr "Pametot, šī Tīģeļa misiju sērija tiks pārtraukta, un visi sasniegumi un vairogi tiks atiestatīti. Jūs varat to sākt no jauna jebkurā laikā."
+
+msgid "challenge_missions/surrender/title"
+msgstr "Pamest Tīģeļi: {{challengeName}}?"
+
+msgid "changeGraphics/cancel"
+msgstr "Atcelt"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s Grafika šajā atjauninājumā ir ievērojami pārstrādāta. Jūs varat izvēlēties grafikas iestatījumus automātiski, vai atcelt automātisko noteikšanu un mainīt iestatījumus pašrocīgi."
+
+msgid "changeGraphics/submit"
+msgstr "Noteikt autom."
+
+msgid "changeGraphics/title"
+msgstr "Grafisko iestatījumu automātiska izvēle"
+
+msgid "changePeriphery/cancel"
+msgstr "Atcelt"
+
+msgid "changePeriphery/message"
+msgstr "Pāriet uz citu serveri?"
+
+msgid "changePeriphery/submit"
+msgstr "Pāriet"
+
+msgid "changePeriphery/title"
+msgstr "Pāriešanas apstiprināšana"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "Atcelt"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "Servera izmaiņas tiks saglabātas. Jūs variet ieslēgt vai izslēgt automātisko ielogošanos Iestatījumos."
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "Turpināt"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "Mainīt uz citu serveri?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "Atcelt"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "Tiešām vēlaties nomainīt reģionu?\n\nJa nomainīsiet reģionu, būs spēkā šādi ierobežojumi:\n\t• Dažas bruņutehnikas nebūs pieejamas.\n\t• Netiks atainotas emblēmas un uzraksti.\n\t• Misijas, personīgās rezerves un izmēģinājuma poligons nebūs pieejami.\n\nVar mainīties tīkla savienojuma kvalitāte. Lūdzu, izturieties cienīgi pret citu reģionu spēlētājiem."
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "Pāriet"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "Pāriešanas apstiprināšana"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "Atcelt"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "Tiešām vēlaties nomainīt reģionu?\n\nJa nomainīsiet reģionu, būs spēkā šādi ierobežojumi:\n\t• Dažas bruņutehnikas nebūs pieejamas.\n\t• Netiks atainotas emblēmas un uzraksti.\n\t• Misijas, personīgās rezerves un izmēģinājuma poligons nebūs pieejami.\n\nVar mainīties tīkla savienojuma kvalitāte. Lūdzu, izturieties cienīgi pret citu reģionu spēlētājiem.\n\n\nServera izmaiņas tiks saglabātas.\nEjiet uz Iestatījumiem, lai izslēgtu vai ieslēgtu auto ielogošanos."
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "Turpināt"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "Pāriešanas apstiprināšana"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "Atcelt"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sJūs grasāties iestāties klanā:\n%(clanName)s\n\nApstiprinot savu ieceri iestāties klanā, jūs automātiski akceptējat tā noteikumus un piekrītat iesaistīties klana aktivitātēs un attīstībā.\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "Pēc klana pamešanas būs īslaicīgs ierobežojums pievienoties citam klanam."
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "Apstiprināt"
+
+msgid "clanConfirmJoining/title"
+msgstr "Apstipriniet pievienošanos klanam"
+
+msgid "clan_data_not_available/cancel"
+msgstr "Aizvērt"
+
+msgid "clan_data_not_available/message"
+msgstr "Šī spēlētāja klana profils īslaicīgi nav pieejams. Mēģiniet vēlāk."
+
+msgid "clan_data_not_available/title"
+msgstr "Uzmanību!"
+
+msgid "common/cancel"
+msgstr "Atcelt"
+
+msgid "common/confirm/cancel"
+msgstr "Nē"
+
+msgid "common/confirm/submit"
+msgstr "Jā"
+
+msgid "common/cost"
+msgstr "Cena:"
+
+msgid "common/error/cancel"
+msgstr "Aizvērt"
+
+msgid "common/submit"
+msgstr "Turpināt"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "Atcelt"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "Nopirkt"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "Direktīvu iegāde un uzstādīšana"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "Atcelt"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "Uzmanību! %(devices)s nav uzstādīts. Direktīva %(font_tag_open)sNESTRĀDĀS.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "Uzstādīt"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "Direktīvas uzstādīšana"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "Atcelt"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "Uzmanību! Jums nav moduļu, kas būtu saderīgi ar izvēlēto direktīvu. Direktīva %(font_tag_open)s NESTRĀDĀS.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "Uzstādīt"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "Direktīvas uzstādīšana"
+
+msgid "confirmBuy/title"
+msgstr "Pirkt %(moduleName)s?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "Atcelt"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "Modulis tiks nosūtīts uz Noliktavu."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "Nepieciešamais daudzums pirkšanai:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "Nopelniet kredītus kaujā, pārdodiet pārpalikumus no Noliktavas vai iemainiet zeltu lai iegūtu vēl."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "Nepietiek Kredītu"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "Moduļa cena:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "Pārdot samainīto moduli %(previousModuleName) par %(previousModulePrice)"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "Šis modulis ir derīgs ar:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "Jūs variet pārdot moduli tagad vai tas tiks nosūtīts uz Noliktavu, kur jūs variet pārdot to vēlāk vai uzstādīt no jauna."
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "Nopirkt"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "Pirkt un uzstrādīt %(moduleName)s?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "Pirkt un uzstādīt ekipējumu '%(equipment)s'?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "Uzstādīt"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "Atcelt"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "Maiņa nav nepieciešama.\nJums kredītu pietiek."
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "Nevar nopirkt: apmaiņa neizdevās.\nPapildus nepieciešams zelts: %(gold)s."
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "Apmainīt %(gold)s pret nepieciešamo kredītu daudzumu?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "Nepieciešami kredīti:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "Nepieciešamais daudzums pirkšanai: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "Iemainīt"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "Apstipriniet Maiņu priekš Pirkuma"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "Atcelt"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "Konvertēšana nav nepieciešama.\nJums pieredzes pietiek."
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "Nevar izpētīt: konvertēšana neizdevās.\nPapildus nepieciešams zelts: %(gold)s."
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "Konvertēt nepieciešamo pieredzei par %(gold)s?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "Nepieciešama pieredze:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "Nepieciešamais daudzums izpētei: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "Izvēlēties Tanku"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "Apstipriniet Maiņu priekš Izpētes"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "Kopā:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "Atcelt"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "Apmaiņa priekš atgūšanas nav nepieciešama.\nJums pietiek kredītu."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "Apmaiņa priekš atgūšanas nav iespējama.\nApmaiņai nepieciešams %(gold)s."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "Apmainīt %(gold)s pret nepieciešamo kredītu daudzumu?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "Nepieciešami kredīti:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "Nepieciešamais daudzums atjaunošanai: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "Apmainīt"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "Apstipriniet Maiņu priekš Atgūšanas"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "Skaits:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "Skaits"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "Kopā"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "Cena:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "Cena"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "Kopā:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "Kopā"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "Kopā:"
+
+msgid "confirmUnlock/cancel"
+msgstr "Nē"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} (ieskaitot {{freeXP}})?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "Pētīt {{items}} par"
+
+msgid "confirmUnlock/item/message"
+msgstr "Izpētīt %(typeString)s %(userString)s par %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (ieskaitot %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "confirmUnlock/submit"
+msgstr "Jā"
+
+msgid "confirmUnlock/title"
+msgstr "Izpētes apstiprināšana"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "Izpētīt %(userString)s par %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (ieskaitot %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "Atcelt"
+
+msgid "controlsWrongNotification/message"
+msgstr "Dažām darbībām nav piešķirti taustiņi. Saglabāt iestatījumus?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "Saglabāt"
+
+msgid "controlsWrongNotification/title"
+msgstr "Kļūda"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "Atcelt"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "Izvēlētie balss paziņojumu faili vai nu iztrūkst, vai ir sabojāti. Paziņojumu balss tiks uzstādīta pēc noklusējuma.\nViens vai vairāki taustiņi nav norādīti. Saglabāt iestatījumus?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "Saglabāt"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "Kļūda"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "createOrderConfirmation/submit"
+msgstr "Apstiprināt"
+
+msgid "createOrderConfirmation/title"
+msgstr "Rezervju sagatavošanas apstiprināšana"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "Nepitiekami līdzekļi lai veiktu pirkumu."
+
+msgid "crewBookPurchase/description/crew"
+msgstr "Pielietots visai apkalpei. Izpētīta, %(book)s dod katram apkalpes loceklim %(exp)s."
+
+msgid "crewBookPurchase/description/personal"
+msgstr "Pielietots izvēlētajam apkalpes loceklim. Izpētīta, %(book)s dod šim apkalpes loceklim %(exp)s."
+
+msgid "crewBookPurchase/purchase"
+msgstr "Pirkt"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "Pirkt %(book)s?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "Atcelt"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "Visi pielietotie dekali {season} kartēm tiks {removed} no jūsu tanka\npar cik šī vieta nav pieeja priekš {this}"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "Apstiprināt"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "šīm kartēm."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "šīs kartes."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "Pielietot šo dekalu šajā vietā visām kartēm?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "Pēc nopirkšanas, elementi tiks piemēroti pašreizējam tankam. Elementi atzīmēti ar zvaigznīti nebūs pieejami citiem tankiem."
+
+msgid "customization/buy_install_bound/title"
+msgstr "Elementu Pirkšanas Apstiprināšana"
+
+msgid "customization/change_install_bound/message"
+msgstr "Pēc izvēles, elementi tiks piemēroti pašreizējam tankam. Elementi atzīmēti ar zvaigznīti nebūs pieejami citiem tankiem."
+
+msgid "customization/change_install_bound/title"
+msgstr "Elementu Mainīšanas Apstiprināšana"
+
+msgid "customization/close/cancel"
+msgstr "Atcelt"
+
+msgid "customization/close/submit"
+msgstr "Iziet"
+
+msgid "customization/close/title"
+msgstr "Iziet uz Garāžu bez izmaiņu saglabāšanas?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "Atcelt"
+
+msgid "customization/exitToShop/submit"
+msgstr "Turpināt"
+
+msgid "customization/exitToShop/title"
+msgstr "Turpināt uz Veikalu nesaglabājot izmaiņas?"
+
+msgid "customization/filter/cancel"
+msgstr "Atcelt"
+
+msgid "customization/filter/message"
+msgstr "Visi elementi tiks noņemti. Turpināt?"
+
+msgid "customization/filter/submit"
+msgstr "Noņemt visus"
+
+msgid "customization/filter/title"
+msgstr "Noņemt elementus"
+
+msgid "customization/install_bound/cancel"
+msgstr "Atcelt"
+
+msgid "customization/install_bound/submit"
+msgstr "Turpināt"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "Atcelt"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "Uzmanību! Pēc elementa (%(cTypeName)s „%(itemName)s”) uzlikšanas pašreizējai bruņutehnikai paliks vēl %(numberLeft)s uzlikšanas reizes citai bruņutehnikai. Uzlikt elementu?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "Uzlikt"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "Elementa uzlikšana"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "Atcelt"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "Uzmanību! Pēc elementa (%(cTypeName)s „%(itemName)s”) uzlikšanas pašreizējai bruņutehnikai jūs to vairs nevarēsiet uzlikt citai bruņutehnikas vienībai. Uzlikt elementu?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "Uzlikt"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "Elementa uzlikšana"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "Atcelt"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "Uzmanību! Pēc elementa (%(cTypeName)s „%(itemName)s”) uzlikšanas pašreizējai bruņutehnikai jūs to vairs nevarēsiet uzlikt citai bruņutehnikas vienībai. Noņemšanas gadījumā elements tiks %(willBeDeleted)s. Uzlikt elementu?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "Uzlikt"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "Elementa uzlikšana"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "tiks izdzēsts"
+
+msgid "customization/remove_element/cancel"
+msgstr "Atcelt"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "Noņemt"
+
+msgid "customization/remove_element/title"
+msgstr "Elementa noņemšana"
+
+msgid "customizationConfirmSell/message"
+msgstr "Pārdot %(name)s par %(price)s%(creditsIcon)s?"
+
+msgid "customizationConfirmSell/title"
+msgstr "Pārdošanas apstiprināšana"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "ik pēc %(days)s d"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "ik pēc %(days)s d %(hours)s st"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "katras %(hours)s h"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "katras %(hours)s h %(mins)s min"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "katras %(mins)s min"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "Misijas rerollošana ir pieejama {timeLimitMsg}"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "Rerollot"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "Rerollot misiju?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} Daži jūsu tanki ir kaujā. Jūs variet zaudēt jūsu progresu pēc misijas rerollošanas. Misijas rerollošana ir pieejama {timeLimitMsg}"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "Rerollot"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "Rerollot misiju?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "Brīdinājums!"
+
+msgid "dedication/headline"
+msgstr "Mūsu Laika Varonis Atlīdzība Saņemta"
+
+msgid "dedication/sub-headline"
+msgstr "Par {battlesNum} aizvadītām kaujām"
+
+msgid "dialogTemplates/cancel"
+msgstr "Atcelt"
+
+msgid "dialogTemplates/confirm"
+msgstr "Apstiprināt"
+
+msgid "dialogTemplates/ok"
+msgstr "Tieši tā!"
+
+msgid "disconnect/cancel"
+msgstr "Nē"
+
+msgid "disconnect/message"
+msgstr "Jūs tiešām vēlaties atvienoties no servera?"
+
+msgid "disconnect/submit"
+msgstr "Jā"
+
+msgid "disconnect/title"
+msgstr "Savienojums ar serveri pārtraukts"
+
+msgid "disconnected/cancel"
+msgstr "Labi"
+
+msgid "disconnected/message"
+msgstr "Savienojums ar serveri ir pazudis. Lūdzu, nospiediet pogu „Ienākt”, lai atkārtoti pieslēgtos serverim."
+
+msgid "disconnected/messageBan"
+msgstr "Jūsu konts ir bloķēts.%(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "Jūsu konts ir bloķēts līdz %(expiryTime)s.%(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "Savienojums ar serveri ir pazudis.%(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \nIemesls: %s"
+
+msgid "disconnected/title"
+msgstr "Savienojums pārtraukts"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "Atvaļināt"
+
+msgid "dismissTankman/description/perk"
+msgstr "Šai darbībai, ievadiet iemaņas treniņa līmeni: {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "Lai veiktu šo darbību, ievadiet jaunākās trenētās iemaņas apmācības līmeni ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "Izvēlētais apkalpes loceklis tiks atvaļināts. Jūs variet atgūt to {whiteOrange_Open}%(time)s d{whiteOrange_Close} laikā."
+
+msgid "dismissTankman/header"
+msgstr "Apkalpes Locekļa Atvaļināšana"
+
+msgid "dismissTankman/limited"
+msgstr "Atvaļināšanas limits tika sasniegts. Atvaļinātais apkalpes loceklis aizvietos %(name)s (%(role)s, %(vehicle)s)."
+
+msgid "dismissTankman/noRecovery"
+msgstr "Atgūšana nebūs iespējama"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "Atcelt"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "Uzmanību! Kad jūs atvaļiniet %(dismissedName)s, tie aizstās %(deletedStr)s. Apstiprināt maiņu?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "Apstiprināt"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "Apmaiņas Apstiprināšana"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "Atcelt"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "Uzmanību! Atvaļinātā apkalpe aizstās %(deletedStr)s un %(extraCount)s apkalpes locekļus. Apstiprināt maiņu?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "Apstiprināt"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "Atvaļināto Apkalpes Locekļu Buferis Pilns"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "Aizstāt"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "Vārds"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "Uzvārds"
+
+msgid "documentChangeDialog/title"
+msgstr "Aizvietot vārdu un izskatu?"
+
+msgid "dropSkill/cancel"
+msgstr "Atcelt"
+
+msgid "dropSkill/message"
+msgstr "Atiestatīt visas iemaņas?"
+
+msgid "dropSkill/submit"
+msgstr "Atiestatīt"
+
+msgid "dropSkill/title"
+msgstr "Noņemšanas apstiprināšana"
+
+msgid "elementType/chassis"
+msgstr "balstiekārtu"
+
+msgid "elementType/engine"
+msgstr "dzinēju"
+
+msgid "elementType/gun"
+msgstr "ieroci"
+
+msgid "elementType/radiostation"
+msgstr "radio"
+
+msgid "elementType/turret"
+msgstr "torni"
+
+msgid "elenDisabled/cancel"
+msgstr "Aizvērt"
+
+msgid "elenDisabled/message"
+msgstr "Sacensības īslaicīgi nav pieejamas ieplānotās uzturēšanas dēļ."
+
+msgid "elenDisabled/title"
+msgstr "Uzmanību!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "Atcelt"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "Nerādīt šo brīdinājumu atkārtoti"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "Jūs šajā režīmā piedzīvosiet zemu FPS un grafikas kropļojumus dēļ jūsu datorsistēmas konfigurācijas. Kaujas ielāde aizņems ilgāku laiku un var novest pie spēles klienta nobrukšanas. Doties kaujā tik un tā?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "Kaujā!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "Brīdinājums par veiktspēju"
+
+msgid "equipmentBuyInstall/price"
+msgstr "Pirkšanas cena:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "Izjaukt %(equipment)s?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "Atcelt"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "Izjaukt un Uzlabot"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "Izjaukt"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "Šis demontētais ekipējums tiks {white_Open}iznīcināts{white_Close}.\nTo var droši demontēt par bonām."
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "Šis demontētais ekipējums tiks {white_Open}iznīcināts{white_Close}.\nTo var droši demontēt par zeltu vai ar Demontēšanas komplektu."
+
+msgid "equipmentDestroy/conformation"
+msgstr "Iznīcināt ekipējumu '%(equipment)s'?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "Uzstādīt ekipējumu '%(equipment)s'?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "Pārdot ekipējumu '%(equipment)s'?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "Atcelt"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "Uzlabot"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "Uz Izjaukšanu"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "Nav pieejamu Eksperimentālu Iekārtu, lai izjauktu."
+
+msgid "eula/p1"
+msgstr "Lūdzu, izlasiet <BR/><A HREF='event:%(eulaURL)s'><U>galalietotāja licences līgumu</U></A>, pirms turpināt."
+
+msgid "eula/p2"
+msgstr "AR POGAS „PIEKRĪTU” NOSPIEŠANU JŪS APSTIPRINAT, KA ESAT IZLASĪJUŠI, SAPRATUŠI UN PILNĪBĀ PIEKRĪTAT GALALIETOTĀJA LICENCES LĪGUMAM, UZŅEMATIES TO IEVĒROT UN ATBILDĒT PAR JEBKURU LĪGUMA PĀRKĀPUMU. GALALIETOTĀJA LICENCES LĪGUMS UN TĀ PAPILDINĀJUMI IR SAISTOŠI UN OBLIGĀTI VISIEM PROJEKTA DALĪBNIEKIEM."
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "Apmainīt %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s par %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "Apmainīt"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "Zelta maiņa"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "Atlaide kaujas pieredzes konvertēšanai brīvajā pieredzē bez maksas līdz %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s punktiem tiks izmantota un nākamajā reizē konvertēšana būs par zeltu."
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "Konvertēt %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s pieredzes punktus brīvajā pieredzē par %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "Konvertēt"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "Konvertēšana brīvajā pieredzē"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "Nepietiek kaujas pieredzes priekš konvertēšanas"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "Nepietiek kaujas pieredzes priekš konvertēšanas"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "Atcelt"
+
+msgid "fillAllPerks/button/fill"
+msgstr "Noteikt autom."
+
+msgid "fillAllPerks/checkbox"
+msgstr "Automātiski izvēlēties iemaņas apkalpei Kazarmās"
+
+msgid "fillAllPerks/description"
+msgstr "Atkarībā no apkalpes locekļa kvalifikācijas ar atvērtu iemaņas vietu, algoritms atlasa pirmo iemaņu no tālāk esošās tabulas. Ja apkalpes loceklim jau ir pirmā iemaņa, tad algoritms tās vietā izvēlas otro, turpinot, līdz ir aizpildītas visas tukšās iemaņas vietas. Darbība var aizņemt kādu laiku."
+
+msgid "fillAllPerks/subTitle"
+msgstr "Iemaņas tiks automātiski izvēlētas tikai apkalpes locekļiem tankā."
+
+msgid "fillAllPerks/title"
+msgstr "Automātiski Izvēlēties Netrenētas Iemaņas Visiem Apkalpes Locekļiem?"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "Atcelt"
+
+msgid "finance_dialog/header"
+msgstr "Apstiprināšana"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "Ievadiet savu finansiālo paroli, lai apstiprinātu darbību."
+
+msgid "finance_dialog/results/invalid"
+msgstr "Parole nav parieza."
+
+msgid "finance_dialog/results/limit"
+msgstr "Jūs esat ievadījis nepareizu paroli pārāk daudz reizes. Mēģiniet vēlreiz pēc 24 stundām. <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Vai aizmirsāt paroli?</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "Parolei jābūt vismaz 6 simbolus garai un tā var saturēt latīņu burtus, ciparus un apakšsvītras."
+
+msgid "finance_dialog/submitBtn"
+msgstr "Apstiprināt"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "Iegūt %(product)s par %(price)s?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "Iegūt"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "Apstiprināšana"
+
+msgid "fortDisabled/cancel"
+msgstr "Aizvērt"
+
+msgid "fortDisabled/message"
+msgstr "Informācija par klaniem šobrīd nav pieejama ieplānotas apkopes dēļ."
+
+msgid "fortDisabled/title"
+msgstr "Uzmanību!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "Labi"
+
+msgid "fortTurnedOff/message"
+msgstr "Cietoksnis uz laiku nav pieejams. Mēģiniet vēlāk."
+
+msgid "fortTurnedOff/title"
+msgstr "Uzmanību!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "Nē"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "Jā"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "Atcelt"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "Jūs pametīsiet ēkas %(oldBuilding)s garnizonu un tiksiet piesaistīts ēkai %(newBuilding)s."
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "Apstiprināt"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "Piesaistīties ēkai"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "freeObtainConfirmation/message"
+msgstr "Iegūt %(product)s par %(price)s?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "Iegūt"
+
+msgid "freeObtainConfirmation/title"
+msgstr "Apstiprināšana"
+
+msgid "freeSkillsLearning/message"
+msgstr "Nulles iemaņu nevajag trenēt ar Pieredzi. Tā sniedz priekšrocību ievērojami samazinot nepieciešamo Pieredzes daudzumu apkalpes locekļa tālākai trenēšanai."
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "Izvēlēties %(skillName)s kā nulles iemaņu?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "Pārtrenēt %(skillName)s kā nulles iemaņu?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "freeSlotConfirmation/message"
+msgstr "Izmantot 100% atlaidi un pievienot papildus slotu angārā bez maksas?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "Pievienot"
+
+msgid "freeSlotConfirmation/title"
+msgstr "Pievienot slotu"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "Aizvērt"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "Jūs esat sasnieguši bezmaksas bruņutehniku iegādes limitu. Mēģiniet atkal rīt."
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "Aizvērt"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "Iegādes limits"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)sPieredze%(orangeText_close)s%(simpleText_open)s ir spēles resurss, kuru var nopelnīt kaujās.\n\nTas iekļauj:%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)sKaujas pieredzi%(orangeText_close)s%(simpleText_open)s izmanto konkrētas bruņutehnikas ierīču izpētīšanai, kā arī tālākam progresam Wargaming izplatījuma spēlē, kurā tā tika nopelnīta.%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sBrīvo pieredzi%(orangeText_close)s%(simpleText_open)s izmanto moduļu un tanku izpētīšanai. Lūdzu, izmantojiet brīvo pieredzi uzmanīgi.%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "Turpināt"
+
+msgid "freeXPInfo/title"
+msgstr "Pieredze"
+
+msgid "gammaDialog/cancel"
+msgstr "Sākt"
+
+msgid "gammaDialog/message/description"
+msgstr "Komandieri! Sakonfigurējiet savu monitoru, lai pielāgotu krāsu gammu un uzlabotu attēla kvalitāti savā ekrānā.\n\n."
+
+msgid "gammaDialog/message/header"
+msgstr "Konfigurēt savu monitoru tieši tagad!"
+
+msgid "gammaDialog/title"
+msgstr "Gammas iestatījumi"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "Pēc konvertēšanas:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "Pirms konvertēšanas:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "Atcelt"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "Konvertēt"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "Kopā:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "Apkalpe"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "Bruņutehnika"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "Pieredze"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "Visa bruņutehnika"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "Kārtot pēc izvēlētās bruņutehnikas"
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "Kārtot pēc bruņutehnikas nosaukuma"
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "Bruņutehnika"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "Kārtot pēc nopelnītās pieredzes"
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "Pieredze"
+
+msgid "gatheringXPForm/title"
+msgstr "Konvertēšana brīvajā pieredzē"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "Konvertēt pieredzi:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "Apkalpes paātrināta apmācība ieslēgta."
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "Apkalpes paātrināta apmācība izslēgta."
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "Samaksāt:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "Kopā:"
+
+msgid "graphics/message/alert"
+msgstr "Uzmanību!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "Ekrāna režīms izmainīts. Atgriešanās pie iepriekšējiem iestatījumiem pēc %(time)s sekundēm. Saglabāt izvēlētos iestatījumus?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "Saglabāt"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "Ekrāna iestatījumu saglabāšana"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "Nē"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "Uzmanību! Iestatījumu izmaiņas nesaglabāsies. Turpināt?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "Jā"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "Grafikas kvalitātes autonoteikšana"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "Nē"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "Uzmanību! Dažu grafikas iestatījumu pielietošana var aizņemt ilgu laiku. Turpināt?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "Jā"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "Izmainīt iestatījumus"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "Aizvērt"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "Parametrus nav iespējams iestatīt maksimālajās vērtībās. Tiks iestatīta lietotāja definētā grafiskā kvalitāte."
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "Uzmanību"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "Aizvērt"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "Augsta tekstūru kvalitāte ir pieejama tikai 64-bitu sistēmās."
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "Tekstūru kvalitāte nav pieejama"
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "Atcelt"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "Daži grafikas iestatījumi stāsies spēkā pēc spēles klienta restartēšanas."
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "Restartēt"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "Izmainīt iestatījumus"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "Labi"
+
+msgid "haveNoEmptySlots/message"
+msgstr "Angārā nav vietas. Nopērciet papildus slotu vai pārdodiet kādu bruņutehniku."
+
+msgid "haveNoEmptySlots/submit"
+msgstr "Labi"
+
+msgid "haveNoEmptySlots/title"
+msgstr "Kļūda"
+
+msgid "hof/excludeRating/cancel"
+msgstr "Atcelt"
+
+msgid "hof/excludeRating/message"
+msgstr "Citi spēlētāji vairs neredzēs jūsu sasniegumus, bet jūs varat tos padarīt redzamus slavas zāles galvenajā lapā."
+
+msgid "hof/excludeRating/submit"
+msgstr "Paslēpt rezultātus"
+
+msgid "hof/excludeRating/title"
+msgstr "Reitinga rezultātu atainošana"
+
+msgid "hofDisabled/cancel"
+msgstr "Aizvērt"
+
+msgid "hofDisabled/message"
+msgstr "Slavas zāle īslaicīgi nav pieejama. Lūdzu, mēģiniet vēlāk."
+
+msgid "hofDisabled/title"
+msgstr "Uzmanību!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "Atcelt"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}Nepabeigta apkalpe{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}Viens vai vairāki apkalpes locekļi nav piemēroti{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "Izvēlētais tanks nav piemērots dēļ kāda no šiem iemesliem:"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "Tikai viena apkalpe var saņemt bonusu. Tas tiks pārvietots no"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "uz"
+
+msgid "idleCrewBonus/submit"
+msgstr "Apstiprināt"
+
+msgid "idleCrewBonus/title"
+msgstr "Ieslēgt Intensīvs Apkalpes Režīms?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "Mēģiniet izslēgt Pārlūka Aparatūras Paātrinājums Iestatījumos (Grafikas cilnē)."
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "Ielādes Kļūda"
+
+msgid "interviewQuit/cancel"
+msgstr "Atpakaļ"
+
+msgid "interviewQuit/message"
+msgstr "Jūs varat atteikties no aptaujas un veikt to vēlāk, atverot paziņojumu centra ziņojumu ar ielūgumu. Ziņojums ir aktīvs vienas spēlēšanas sesijas ietvaros."
+
+msgid "interviewQuit/submit"
+msgstr "Atcelt"
+
+msgid "interviewQuit/title"
+msgstr "Atteikšanās no aptaujas"
+
+msgid "koreaParentNotification/cancel"
+msgstr "Tieši tā!"
+
+msgid "koreaParentNotification/message"
+msgstr "Lai novērstu spēles atkarību bērnos un pusaudžos, piedalīšanās kaujā pēc %(preBlockTime)s ir aizliegta. Jūs tiksiet atslēgts no servera %(blockTime)s."
+
+msgid "koreaParentNotification/submit"
+msgstr "Tieši tā!"
+
+msgid "koreaParentNotification/title"
+msgstr "Spēles laika ierobežojums"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "Tieši tā!"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "Laika ierobežojums beidzās. Jūs nevariet piedalīties jaunā kaujā."
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "Tieši tā!"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "Vecāku kontrole"
+
+msgid "leaveEvent/cancel"
+msgstr "Atcelt"
+
+msgid "leaveEvent/message"
+msgstr "Jūsu kauju rezultāti šajā sacensībā pēc reitingu atjaunošanas tiks atiestatīti. Jūs neiekļūsiet reitingā un nesaņemsiet atlīdzību.\n\nPēc sacensības pamešanas %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "JŪS NEVARIET VĒLREIZ IENĀKT."
+
+msgid "leaveEvent/submit"
+msgstr "Pamest sacensību"
+
+msgid "leaveEvent/title"
+msgstr "Pamest sacensību"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "Atcelt"
+
+msgid "leaveStartedEvent/message"
+msgstr "Jūsu kauju rezultāti šajās sacensībās netiks ieskaitīti. Jūs neiekļūsiet reitingā un nesaņemsiet atlīdzību.\n\nPēc sacensības pamešanas %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "Pamest sacensību"
+
+msgid "leaveStartedEvent/title"
+msgstr "Pamest sacensību"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "Atcelt"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "Jūs jau atrodaties kaujas gaidīšanas režīmā. Vēlaties iziet un apstiprināt ielūgumu?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "Labi"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "Ielūgums"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "Atcelt"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "Jūs jau esat vada sastāvā. Jūs tiešām vēlaties pamest vadu, lai apstiprinātu ielūgumu?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "Labi"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "Ielūgums"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "Atcelt"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "Jūs atrodaties treniņistabā. Vēlaties to pamest, lai apstiprinātu ielūgumu?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "Labi"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "Ielūgums"
+
+msgid "legalInfoWindow/title"
+msgstr "Juridiskā informācija"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "Atcelt"
+
+msgid "limitedUIOffNotification/message"
+msgstr "Vai tiešām vēlaties izslēgt slēpto interfeisa elementu pakāpenisku parādīšanos Garāžā?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "Pēc šīs opcijas izslēgšanas, jūs nevarēsiet atkal to ieslēgt."
+
+msgid "limitedUIOffNotification/submit"
+msgstr "Izslēgt"
+
+msgid "limitedUIOffNotification/title"
+msgstr "Izmainīt iestatījumus"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "Atcelt"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "Servera izmaiņas tiks saglabātas. Jūs variet ieslēgt vai izslēgt automātisko ielogošanos Iestatījumos."
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "Turpināt"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "Saglabāt servera izmaiņas?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "Nepietiek čaulīšu Alternatīvās Konfigurācijas munīcijā. Doties kaujā tik un tā?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "Nepilna Munīcija"
+
+msgid "lowAmmo/cancel"
+msgstr "Atcelt"
+
+msgid "lowAmmo/message"
+msgstr "Izvēlētajai bruņutehnikas vienībai ir nepilns munīcijas komplekts. Tas tiks papildināts automātiski pirms katras kaujas."
+
+msgid "lowAmmo/submit"
+msgstr "Papildināt"
+
+msgid "lowAmmo/title"
+msgstr "Automātiska lādiņu komplekta papildināšana"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "Atcelt"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "Nepietiek lādiņu izvēlētās bruņutehnikas lādiņu komplektā. Doties kaujā tik un tā?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "Kauja!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "Nepilna Munīcija"
+
+msgid "lowFpsWarning/cancel"
+msgstr "Nē"
+
+msgid "lowFpsWarning/message"
+msgstr "Pašreizējie iestatījumi samazina spēles ātrdarbību. Vai vēlaties samazināt grafisko kvalitāti?"
+
+msgid "lowFpsWarning/submit"
+msgstr "Jā"
+
+msgid "lowFpsWarning/title"
+msgstr "Zema spēles ātrdarbība"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "Labi"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "Informācija par lietotāju %(userName)s ir bloķēta."
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "Labi"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "Informācija ir bloķēta"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "Labi"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "Informācija par lietotāju %(userName)s pašlaik nav pieejama."
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "Labi"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "Informācija pašlaik nav pieejama."
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "Atcelt"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s Šī iestatījuma iespējošana samazinās datora veiktspēju kaujā."
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "Uzmanību!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "Ieslēgt"
+
+msgid "minimapAlphaNotification/title"
+msgstr "Minikartes caurspīdīgums"
+
+msgid "moduleSale/conformation/header"
+msgstr "Pārdot %(moduleType)s '%(moduleName)s'?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "Atcelt"
+
+msgid "moneyTransfer/labelClan"
+msgstr "Klans:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "kredīti"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "zelts"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "Nodeva:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "Summa:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "Parastais:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "kredīti"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "zelts"
+
+msgid "moneyTransfer/labelTo"
+msgstr "Kam:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "Kopā:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(nav klana loceklis)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "Sūtīt"
+
+msgid "moneyTransfer/title"
+msgstr "Zelta pārskaitīšana"
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "Jūs tiešām vēlaties pārskaitīt {gold} <img src='icon_gold' /> uz spēlētāja {player} kontu? Komisijas maksa par operāciju ir {fee} <img src='icon_gold' />."
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "Pārskaitīt"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "Pārskaitījuma apstiprināšana"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Izveidot finansiālo paroli</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "Labi"
+
+msgid "moneyTransferRestriction/message"
+msgstr "Zelta pārskaitīšana aizliegta. Iemesls: %s."
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "Pārskaitījums derīgs līdz: %s."
+
+msgid "moneyTransferRestriction/submit"
+msgstr "Labi"
+
+msgid "moneyTransferRestriction/title"
+msgstr "Zelta pārskaitīšana aizliegta"
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "Nē"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "Izmaiņas dažos iestatījumos stāsies spēkā nākamajā kaujā. Turpināt?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "Jā"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "Izmainīt iestatījumus"
+
+msgid "perkLearnConfirm/desc"
+msgstr "Iemaņas līmenis pēc trenēšanas: {yellow_Open}%(level)s%%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "Trenēt"
+
+msgid "perkLearnConfirm/title"
+msgstr "Trenēt %(skillName)s iemaņu?"
+
+msgid "perksReset/after"
+msgstr "Pēc atiestatīšanas:"
+
+msgid "perksReset/before"
+msgstr "Pirms atiestatīšanas:"
+
+msgid "perksReset/cancel"
+msgstr "Atcelt"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "Šī opcija nav pieejama, jo jums jau ir 100% atlaide iemaņu atiestatīšanai Tanku Akadēmijā."
+
+msgid "perksReset/discountTooltip/header"
+msgstr "Nav pieejams"
+
+msgid "perksReset/free/description"
+msgstr "Iemaņas līdz {yellow_Open}1%{yellow_Close} var atiestatīt par brīvu."
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "Šim apkalpes loceklim ir bezmaksas pirmā iemaņas atiestatīšana"
+
+msgid "perksReset/graceLabel"
+msgstr "Bezmaksas iemaņas atiestatīšana būs pieejama:"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "Kopējais iemaņu Pieredzes daudzums samazināsies. Mazāk iemaņas būs pieejamas trenēšanai."
+
+msgid "perksReset/noNewPerks"
+msgstr "Visa pieredze no trenētajām iemaņām tiks pievienota galvenajam kvalifikācijas līmenim."
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "no kopējās iemaņu Pieredzes"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "Pulka Skola"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "no kopējās iemaņu Pieredzes"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "Paātrinātie Kursi"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "Atiestatīt priekšrocības\n, nezaudējot XP."
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "Izmantojiet kredītus, lai atiestatītu priekšrocības, nezaudējot pieredzi."
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "Tanku Akadēmija"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "Atiestatīt priekšrocības\n, nezaudējot XP."
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "Atiestatīt"
+
+msgid "perksReset/title"
+msgstr "Atiestatīt Visas Apkalpes Locekļa Iemaņas?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "Atcelt"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "Izvēlētā Skaņas Fizikas Kvalitāte atšķiras no iestatījuma, ko automātiski noteica spēles klients. Šīs opcijas aktivizēšana var ietekmēt veiktspēju. Mēs iesakām pārbaudīt veiktspēju pirms apstiprināšanas. Vai vēlaties piemērot šīs izmaiņas?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "Apstiprināt"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "Skaņas Fizikas Kvalitātes neatbilstība"
+
+msgid "postmortem/cancel"
+msgstr "Iziet"
+
+msgid "postmortem/message"
+msgstr "Bruņutehnika iznīcināta. Palikt kaujā vai iziet uz angāru?"
+
+msgid "postmortem/submit"
+msgstr "Palikt"
+
+msgid "postmortem/title"
+msgstr "Bruņutehnika iznīcināta"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "Nopirkt premium kontu uz %(days)s dienām par %(gold)s zelta vienībām?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "Nopirkt"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "Pirkuma apstiprināšana"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "Pagarināt premium kontu par %(days)s dienām, samaksājot %(gold)s zelta vienības?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "Pagarināt"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "Pagarināšanas apstiprināšana"
+
+msgid "priceCard/credits/title"
+msgstr "Pulka Skola"
+
+msgid "priceCard/free/title"
+msgstr "Paātrinātie Kursi"
+
+msgid "priceCard/gold/title"
+msgstr "Tanku Akadēmija"
+
+msgid "priceCard/price/free"
+msgstr "Bezmaksas"
+
+msgid "priceCard/recertification/title"
+msgstr "Pārtrenēšanas Pavēle"
+
+msgid "punishmentWindow/cancel"
+msgstr "Iepazinos"
+
+msgid "punishmentWindow/header/ban"
+msgstr "Jūs esiet bloķēts uz %(time)s"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "Jūs Esiet Sodīts"
+
+msgid "punishmentWindow/header/warning"
+msgstr "Nesportiska Uzvedība"
+
+msgid "punishmentWindow/info"
+msgstr "Ja Jūsu situācija radās savienojuma problēmu vai citu tehnisku traucējumu dēļ,\nlūdzu, sazinieties ar Spēlētāju atbalstu."
+
+msgid "punishmentWindow/message/ban"
+msgstr "Jūs pārkāpāt Spēles Noteikumus {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} kartē {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nJūs esiet īslaicīgi bloķēts no kaujām {whiteSpanish_Open}%(mode)s{whiteSpanish_Close} režīmā."
+
+msgid "punishmentWindow/message/penalty"
+msgstr "Jūs pārkāpāt Spēles noteikumus kartē {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} laikā {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nJūsu kredīti, XP un kaujā nopelnītās balvas ir noņemtas."
+
+msgid "punishmentWindow/message/warning"
+msgstr "Jūs pārkāpāt Spēles Noteikumus {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} kartē {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nAtkārtota pārkāpuma gadījumā jums tiks atņemti visi kaujā nopelnītie kredīti, pieredze un balvas."
+
+msgid "punishmentWindow/reason/afk"
+msgstr "Bezdarbība kaujā"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "Iziešana no kaujas pirms tās beigām vai pirms bruņutehnikas iznīcināšanas"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "Bezdarbība kaujā/priekšlaicīga kaujas pamešana"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "Apzināta pašiznīcināšanās"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s d %(hour)s h"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 min"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s min"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "Atcelt"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "Vairāk neprasīt"
+
+msgid "questsConfirmDialog/message"
+msgstr "Ja izvēlēsieties misiju „%(newQuest)s”, tad misija „%(oldQuest)s” tiks atcelta."
+
+msgid "questsConfirmDialog/submit"
+msgstr "Apstiprināt"
+
+msgid "questsConfirmDialog/title"
+msgstr "Misijas izvēlēšanās apstiprināšana"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "Atcelt"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "Viss progress %(curQuest)s misijā tiks atiestatīts.\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "Uzmanību! Viss progress pašreizējā misijā tiks zaudēts."
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "Apstiprināt"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "Atiestatīt progresu"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "Atcelt"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "Ja jūs izvēlieties %(newQuest)s misiju, jūsu progress %(oldQuest)s misijā tiks atiestatīts.\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "Uzmanību! Viss progress pašreizējā misijā tiks zaudēts."
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "Apstiprināt"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "Misijas izvēlēšanās apstiprināšana"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "Atcelt"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "%(quest)s misija tiks atcelta.\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "Uzmanību! Viss progress pašreizējā misijā tiks zaudēts."
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "Apstiprināt"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "Apstiprināt misijas atcelšanu"
+
+msgid "quit/cancel"
+msgstr "Palikt"
+
+msgid "quit/submit"
+msgstr "Iziet"
+
+msgid "quit/title"
+msgstr "Iziet no spēles?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "Atcelt"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "Jūsu komandai esat vajadzīgs! Kaujas pamešana pirms tās beigām vai pirms Jūsu tanks ir iznīcināts tiek uzskatīta par dezertēšanu. Tas var izraisīt sodu un visu bonusu zaudēšanu par IGR spēlēto kauju."
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "Aizbēgt"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "Bēgt no kaujas lauka?"
+
+msgid "quitBattle/cancel"
+msgstr "Atcelt"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Atcelt"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Jūsu komandai esat vajadzīgs! Kaujas pamešana pirms tās beigām vai pirms Jūsu tanks ir iznīcināts tiek uzskatīta par dezertēšanu. Tas var izraisīt sodu."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Aizbēgt"
+
+msgid "quitBattle/leaver/title"
+msgstr "Bēgt no kaujas lauka?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "Atcelt"
+
+msgid "quitBattle/replay/submit"
+msgstr "Iziet"
+
+msgid "quitBattle/replay/title"
+msgstr "Iziet no skatītāja režīma?"
+
+msgid "quitBattle/submit"
+msgstr "Pamest"
+
+msgid "quitBattle/title"
+msgstr "Pamest kauju?"
+
+msgid "quitPreBattle/cancel"
+msgstr "Nē"
+
+msgid "quitPreBattle/message"
+msgstr "Vai tiešām vēlaties iziet no kaujas gaidīšanas režīma?"
+
+msgid "quitPreBattle/submit"
+msgstr "Jā"
+
+msgid "quitPreBattle/title"
+msgstr "Iziet no kaujas gaidīšanas režīma"
+
+msgid "rally/autoSearch/cancel"
+msgstr "Nē"
+
+msgid "rally/autoSearch/message"
+msgstr "Sameklēt spēlētājus pieejamajos slotos automātiski?"
+
+msgid "rally/autoSearch/submit"
+msgstr "Jā"
+
+msgid "rally/autoSearch/title"
+msgstr "Automeklēšana"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "Atcelt"
+
+msgid "rally/changePeriphery/message"
+msgstr "Jūs tiksiet automātiski pārvietoti uz citu serveri (%(host)s). Turpināt?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "Pāriet"
+
+msgid "rally/changePeriphery/title"
+msgstr "Pāriešana uz citu serveri"
+
+msgid "rally/goToAnother/cancel"
+msgstr "Atcelt"
+
+msgid "rally/goToAnother/message"
+msgstr "Ja nomainīsiet kaujas režīmu, jūs automātiski tiksiet izslēgts no taktiskās vienības."
+
+msgid "rally/goToAnother/submit"
+msgstr "Pāriet"
+
+msgid "rally/goToAnother/title"
+msgstr "Nomainīt režīmu"
+
+msgid "rally/goToIntro/cancel"
+msgstr "Atcelt"
+
+msgid "rally/goToIntro/message"
+msgstr "Vai tiešām vēlaties pamest taktisko vienību?"
+
+msgid "rally/goToIntro/submit"
+msgstr "Apstiprināt"
+
+msgid "rally/goToIntro/title"
+msgstr "Iziešanas apstiprināšana"
+
+msgid "rally/goToSquad/cancel"
+msgstr "Atcelt"
+
+msgid "rally/goToSquad/message"
+msgstr "Ja izveidosiet vadu, jūs automātiski pametīsiet pašreizējo kaujas režīmu."
+
+msgid "rally/goToSquad/submit"
+msgstr "Izveidot"
+
+msgid "rally/goToSquad/title"
+msgstr "Vada izveidošana"
+
+msgid "rally/leave/cancel"
+msgstr "Atcelt"
+
+msgid "rally/leave/message"
+msgstr "Vai tiešām vēlaties pamest taktisko vienību un iziet no režīma?"
+
+msgid "rally/leave/submit"
+msgstr "Apstiprināt"
+
+msgid "rally/leave/title"
+msgstr "Iziešanas apstiprināšana"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "Turpināt"
+
+msgid "rally/leaveDisabled/message"
+msgstr "Nevar iziet no režīma. Jūsu bruņutehnika ir pamatsastāvā un gatava kaujai."
+
+msgid "rally/leaveDisabled/title"
+msgstr "Uzmanību"
+
+msgid "rally/startBattle/cancel"
+msgstr "Nē"
+
+msgid "rally/startBattle/message"
+msgstr "Sameklēt pretiniekus?"
+
+msgid "rally/startBattle/submit"
+msgstr "Jā"
+
+msgid "rally/startBattle/title"
+msgstr "Pretinieka meklēšana"
+
+msgid "recruit/cancel"
+msgstr "Atcelt"
+
+msgid "recruit/submit"
+msgstr "Rekrūtis"
+
+msgid "recruit/title"
+msgstr "Rekrūtēt jaunu %(role)s priekš %(vehicleName)s?"
+
+msgid "recruit/voiceoverText"
+msgstr "Apkalpes locekļa unikālā balss strādā tikai ar Komandiera kvalifikāciju."
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "Jums nevajag rekrūtēt apkalpes locekļus Premium tankiem. Jūs variet pārvietot apkalpi uz Premium tanku no tāda paša veida bez soda."
+
+msgid "recruit/warning/slotChanged"
+msgstr "Šo apkalpes locekli nevar rekrūtēt izvēlētajam tankam un tiks nosūtīts uz Kazarmām."
+
+msgid "recruitConversionConfirm/warning"
+msgstr "Apkalpes loceklim ir novecojušas iemaņas, kas tiks automātiski atiestatītas nezaudējot Pieredzi."
+
+msgid "recruitDialog/name/title"
+msgstr "Rekrūtēt jaunu apkalpes locekli (%(name)s)?"
+
+msgid "recruitDialog/title"
+msgstr "Rekrūtēt jaunu apkalpes locekli?"
+
+msgid "recruitWindow/cancel"
+msgstr "Atcelt"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "Nav izvēlēts"
+
+msgid "recruitWindow/nation"
+msgstr "Nācija"
+
+msgid "recruitWindow/specialization"
+msgstr "Kvalifikācija"
+
+msgid "recruitWindow/submit"
+msgstr "Rekrūtis"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "Tanka Veids"
+
+msgid "recruitWindow/vehicleType"
+msgstr "Tanks"
+
+msgid "referralReward/cancel"
+msgstr "Atcelt"
+
+msgid "referralReward/message"
+msgstr "Saņemt %(product)s?"
+
+msgid "referralReward/submit"
+msgstr "Apstiprināt"
+
+msgid "referralReward/title"
+msgstr "Kvīts apstiprināšana"
+
+msgid "refuseTraining/cancel"
+msgstr "Nē"
+
+msgid "refuseTraining/message"
+msgstr "Pārtraukt apmācību?"
+
+msgid "refuseTraining/submit"
+msgstr "Jā"
+
+msgid "refuseTraining/title"
+msgstr "Apstiprināšana"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "Iznīciniet"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "Atcelt"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "\"%(name)s\" palīgmateriāls tiks pārvietots uz noliktavu dēļ %(reason)s ar pašreizējo moduli."
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "nesaderības"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "Demontēt"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "Noņemšanas apstiprināšana"
+
+msgid "rentConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "rentConfirmation/event"
+msgstr "priekš %(eventName)s režīma"
+
+msgid "rentConfirmation/message"
+msgstr "Nomāt %(name)s %(event)s par %(price)s?"
+
+msgid "rentConfirmation/submit"
+msgstr "Apstiprināt"
+
+msgid "rentConfirmation/title"
+msgstr "Apstiprināt nomu"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "Atcelt"
+
+msgid "rentConfirmationRenew/message"
+msgstr "Pagarināt %(name)s %(event)snomas periodu par %(price)s?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "Apstiprināt"
+
+msgid "rentConfirmationRenew/title"
+msgstr "Apstiprināt nomu"
+
+msgid "replacePassport/unique/cancel"
+msgstr "Atcelt"
+
+msgid "replacePassport/unique/message"
+msgstr "Šis ir unikāls apkalpes loceklis, kura personīgos datus vēlāk nevarēs atiestatīt. Vai tiešām vēlaties nomainīt dokumentus par %(gold)s?"
+
+msgid "replacePassport/unique/submit"
+msgstr "Mainīt"
+
+msgid "replacePassport/unique/title"
+msgstr "Nomainīšanas apstiprināšana"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "replacePassportConfirmation/message"
+msgstr "Tiešām vēlaties izmainīt apkalpes locekļa dokumentus par %(gold)s?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "Mainīt"
+
+msgid "replacePassportConfirmation/title"
+msgstr "Dokumentu maiņa"
+
+msgid "replayNotification/cancel"
+msgstr "Nē"
+
+msgid "replayNotification/message"
+msgstr "Šī World of Tanks versija nesakrīt ar versiju, kurā tika ierakstīta kauja. Var gadīties problēmas atskaņojot. Ignorēt versiju atšķirību un atskaņot kaujas ierakstu?"
+
+msgid "replayNotification/submit"
+msgstr "Jā"
+
+msgid "replayNotification/title"
+msgstr "Brīdinājums"
+
+msgid "replayStopped/cancel"
+msgstr "Atcelt"
+
+msgid "replayStopped/message"
+msgstr "Atskaņošana pabeigta. Nospiediet „Pabeigt”, lai izietu no spēles."
+
+msgid "replayStopped/submit"
+msgstr "Pabeigt"
+
+msgid "replayStopped/title"
+msgstr "Atskaņošana pabeigta"
+
+msgid "reportBug/cancel"
+msgstr "Atcelt"
+
+msgid "reportBug/message"
+msgstr "Nospiežot šeit atvērs jūsu noklusējuma pārlūkprogrammu un novedīs jūs uz World of Tanks Spēlētāja Atbalsta vietni, lai ziņotu par kļūdu. Turpināt?"
+
+msgid "reportBug/submit"
+msgstr "Turpināt"
+
+msgid "reportBug/title"
+msgstr "Iet uz Spēlētāju Atbalstu"
+
+msgid "resetAllPerks/cancel"
+msgstr "Atcelt"
+
+msgid "resetAllPerks/submit"
+msgstr "Atiestatīt"
+
+msgid "resetAllPerks/title"
+msgstr "Atiestatīt Visas Iemaņas Visiem Apkalpes Locekļiem?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}Visas iemaņas tiks atiestatītas visiem apkalpes locekļiem jūsu kontā.{orangeEnd}\n{orangeStart}Šo darbību nevar atsaukt.{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "Turpināt"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s Grafikas iestatījumi tika automātiski izvēlēti, lai nodrošinātu optimālo attēla kvalitāti.\nLai uzlabotu veiktspēju, izvēlieties zemāku grafikas kvalitāti iestatījumos."
+
+msgid "resetGraphics/submit"
+msgstr "Iestatījumi"
+
+msgid "resetGraphics/title"
+msgstr "Grafikas iestatījumu maiņa"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "Atgūt"
+
+msgid "restoreTankman/description"
+msgstr "%(name)s tiks atgūts."
+
+msgid "restoreTankman/free"
+msgstr "Cena: Bezmaksas"
+
+msgid "restoreTankman/header"
+msgstr "Atgūt šo apkalpes locekli?"
+
+msgid "restoreTankman/price"
+msgstr "Cena:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "Atcelt"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "Atgūt %(vehiclename)s"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "Atgūt"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "Bez apkalpes"
+
+msgid "restoreVehicleDialog/title"
+msgstr "%(vehiclename)s atgūšana"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "Pēc „Atgūt” nospiešanas iegādātos moduļus un aprīkojumu nevarēs atgriezt pret zeltu. Lūdzu, rūpīgi visu pārbaudiet."
+
+msgid "retrain/cancel"
+msgstr "Atcelt"
+
+msgid "retrain/changeRole"
+msgstr "Mainīt kvalifikāciju"
+
+msgid "retrain/discountLabel"
+msgstr "Šī atlaide ir pieejama, jo pirmā iemaņa nav trenēta līdz 100%."
+
+msgid "retrain/discountTooltip/body"
+msgstr "Šī opcija nav pieejama, jo jums jau ir 100% atlaide pārtrenēšanai Tanku Akadēmijā."
+
+msgid "retrain/discountTooltip/header"
+msgstr "Nav pieejams"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "Apkalpes locekļi pārtrenēšanai: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "Jums nevajag trenēt apkalpes locekļus Premium tankiem.\nJūs variet pārvietot apkalpi uz Premium tanku no tāda paša veida bez soda."
+
+msgid "retrain/price"
+msgstr "Cena:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "Iemaņas efektivitāte\npēc pārtrenēšanas: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "Pulka Skola"
+
+msgid "retrain/priceCard/free/description"
+msgstr "Iemaņas efektivitāte\npēc pārtrenēšanas: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "Paātrinātie Kursi"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "Iemaņas efektivitāte\npēc pārtrenēšanas: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "Tanku Akadēmija"
+
+msgid "retrain/submit"
+msgstr "Pārtrenēt"
+
+msgid "retrain/title/massive"
+msgstr "Pārapmācīt apkalpi priekš %(vehicleName)s&zwnbsp;?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "Pārtrenēt priekš %(vehicleName)s\nun mainīt kvalifikācijas uz %(role)?"
+
+msgid "retrain/title/single/simple"
+msgstr "Pārtrenēt priekš %(vehicleName)s"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "Nepiemērotas kvalifikācijas iemaņas tiks atspējotas. Atiestatiet tās manuāli."
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "Apkalpi var pārvietot uz tāda paša veida Premium tanku bez pārtrenēšanas sodiem, bet nepiemērotas iemaņas jāatiestata manuāli."
+
+msgid "rudyInfo/message"
+msgstr "Nemirstīgā Klasika Jau Ir Spēlē! \"Četri tankisti un suns\" (Poļu valodā \"Czterej pancerni i pies\") bija melnbalts poļu seriāls pēc tāda paša nosaukuma Januša Pšimanovska noveles. Seriāls, kura pirmizrāde notika 1966. gada 9. maijā, ataino tanka T-34-85 ar iesauku Rudy un suņa Szarik piedzīvojumus Otrajā pasaules karā."
+
+msgid "rudyInfo/submit"
+msgstr "Sapratu!"
+
+msgid "rudyInfo/title"
+msgstr "Četri Tankisti un Suns"
+
+msgid "selectVehicle/counter"
+msgstr "Parādītie tanki:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "Izvēlieties uzbrukuma tanku"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "Izvēlieties šo tanku"
+
+msgid "sellConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "sellConfirmation/submit"
+msgstr "Pārdot"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "Pārdot"
+
+msgid "sellModuleConfirmation/title"
+msgstr "Pārdošanas apstiprināšana"
+
+msgid "sellShellConfirmation/submit"
+msgstr "Pārdot čaulīti '%(shellName)s'?"
+
+msgid "sendInvites/common/title"
+msgstr "Uzaicināt taktiskajā vienībā"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "Atcelt"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "Sesijas statistika tiks automātiski atiestatīta pēc{}"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "Atiestatīt"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s h %(minutes)s min"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "Atiestatīt sesijas statistiku?"
+
+msgid "shopSyncError/cancel"
+msgstr "Turpināt"
+
+msgid "shopSyncError/message"
+msgstr "Atjauniniet klientu. Atkārtotas kļūdas gadījumā atjauniniet serveri."
+
+msgid "shopSyncError/title"
+msgstr "Resinhronizācija"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "Atcelt"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "Trenēt Izvēlētās Iemaņas?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "Trenēt"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "Piemērot"
+
+msgid "soundModeInvalid/cancel"
+msgstr "Atcelt"
+
+msgid "soundModeInvalid/message"
+msgstr "Izvēlētie balss paziņojumu faili vai nu iztrūkst, vai ir sabojāti. Paziņojumu balss tiks uzstādīta pēc noklusējuma."
+
+msgid "soundModeInvalid/submit"
+msgstr "Saglabāt"
+
+msgid "soundModeInvalid/title"
+msgstr "Kļūda"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "Atcelt"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "Izvēlētā skaņas sistēma atšķiras no spēles klienta automātiski noteiktās. Dažas skaņas var nebūt pieejamas. Mēs iesakām notestēt skaņas atšķirību. Apstiprināt izmaiņas?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "Apstiprināt"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "Skaņas sistēmas neatbilstība"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "Nē"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "Izvēlētā skaņas sistēma atšķiras no spēles klienta automātiski noteiktās. Dažas skaņas var nebūt pieejamas. Apstiprināt izmaiņas?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "Jā"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "Skaņas sistēmas neatbilstība"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "Tieši tā!"
+
+msgid "squad/eventDisabled/message"
+msgstr "Pasākums nav pieejams. Vads tiks atlaists."
+
+msgid "squad/eventDisabled/title"
+msgstr "Pasākums Beidzās"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Atcelt"
+
+msgid "squad/goToAnother/message"
+msgstr "Jūs esat vada sastāvā. Ja mainīsiet režīmu, jūs tiksiet izslēgts no vada."
+
+msgid "squad/goToAnother/submit"
+msgstr "Pāriet"
+
+msgid "squad/goToAnother/title"
+msgstr "Nomainīt režīmu"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "Atcelt"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "Mainot spēles režīmu jūsu pašreizējais Vads tiks izjaukts. Vai tiešām vēlieties mainīt kaujas veidu?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "Apstiprināt"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "Spēles Režīma Maiņa"
+
+msgid "squad/goToSquad/cancel"
+msgstr "Atcelt"
+
+msgid "squad/goToSquad/message"
+msgstr "Pamest taktisko vienību un izveidot vadu ar spēlētāju?"
+
+msgid "squad/goToSquad/submit"
+msgstr "Izveidot"
+
+msgid "squad/goToSquad/title"
+msgstr "Vada izveidošana"
+
+msgid "squad/leave/cancel"
+msgstr "Atcelt"
+
+msgid "squad/leave/message"
+msgstr "Vai tiešām vēlaties pamest vadu?"
+
+msgid "squad/leave/submit"
+msgstr "Apstiprināt"
+
+msgid "squad/leave/title"
+msgstr "Iziešanas apstiprināšana"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Turpināt"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Jūs nevarat pamest vadu. Jūs esat vada sastāvā un gatavs kaujai."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Uzmanību"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "Atcelt"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "Vads nav nokomplektēts. Iztrūkstošais spēlētājs tiks pievienots automātiski. Doties kaujā?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "Kaujā!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "Vads nav gatavs"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "Atcelt"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "Vads nav nokomplektēts. Doties kaujā nepilnā sastāvā?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "Kaujā!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "Vads nav gatavs"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "Atcelt"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "Vads nav nokomplektēts. Pievienot spēlētājus automātiski un doties kaujā?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "Kaujā!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "Vads nav gatavs"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "Atcelt"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "Viens no vada biedriem nav gatavs. Doties kaujā nepilnā sastāvā?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "Kaujā!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "Vads nav gatavs"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "Atcelt"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "Spēlētājs, kurš nav apstiprinājis savu gatavību, tiks izslēgts no taktiskās vienības. Iztrūkstošais spēlētājs tiks pievienots automātiski. Doties kaujā?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "Kaujā!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "Vads nav gatavs"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "Atcelt"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "Abi vada biedri nav gatavi. Doties kaujā tik un tā?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "Kaujā!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "Vads nav gatavs"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "Atcelt"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "Vads nav nokomplektēts. Spēlētāji, kuri nav apstiprinājuši savu gatavību, tiks izslēgti no taktiskās vienības. Pievienot spēlētājus automātiski un doties kaujā?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "Kaujā!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "Vads nav gatavs"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "Neizdevās pievienoties jaunai kaujai: daži spēlētāji nav atgriezušies no iepriekšējas kaujas. Uzgaidiet līdz kārtējās kaujas beigām."
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "Sapratu!"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "Vads nav gatavs"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "Labi"
+
+msgid "squadPremiumNeeded/message"
+msgstr "Vadu veidošana pieejama tikai spēlētājiem ar premium kontiem.\nVada veidotājs var ielūgt jebkuru spēlētāju neatkarīgi no tā, vai viņam ir premium konts."
+
+msgid "squadPremiumNeeded/title"
+msgstr "Pieejams tikai ar premium kontu"
+
+msgid "steamStartNeeded/cancel"
+msgstr "Tuva Spēle"
+
+msgid "steamStartNeeded/message"
+msgstr "Spēlei jābūt palaistai caur Steam, lai pareizi ielogotos."
+
+msgid "steamStartNeeded/title"
+msgstr "Neizdodas Ielogoties"
+
+msgid "stronghold/leave/cancel"
+msgstr "Atcelt"
+
+msgid "stronghold/leave/message"
+msgstr "Vai tiešām vēlaties pamest trieciengrupu?"
+
+msgid "stronghold/leave/submit"
+msgstr "Apstiprināt"
+
+msgid "stronghold/leave/title"
+msgstr "Iziešanas apstiprināšana"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "Pēc jūsu iziešanas trieciengrupa tiks izformēta.\nKlans saņems sodu par nedošanos kaujā.\nVai tiešām vēlaties pamest trieciengrupu?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "Iziešanas apstiprināšana"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "Atcelt"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "Pāriet"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "Pāriešana uz citu serveri"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "tradeInConfirmation/message"
+msgstr "%(vehName)s tiks nodots un nebūs pieejams atgūšanai.%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " Piedevām, %(operations)s."
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "apkalpe tiks nosūtīta uz kazarmām"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "aprīkojums tiks izkrauts noliktavā"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "moduļi tiks demontēti bez maksas"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "visas nopirktās Dubultās Modifikācijas tiks atceltas, bet Standarta Modifikācijas progress tiks saglabāts"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "munīcija tiks izkrauta noliktavā"
+
+msgid "tradeInConfirmation/submit"
+msgstr "Maiņa"
+
+msgid "tradeInConfirmation/title"
+msgstr "Bruņutehnikas apmaiņa"
+
+msgid "tradeInPopover/descr"
+msgstr "Premium bruņutehnika ir pieejama angārā"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "Ataino izvēlētās bruņutehnikas nāciju."
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "Nācija"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "Ataino cik daudz jūs ietaupītu, apmainot izvēlēto bruņutehniku"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "Bruņutehnikas\nnovērtēšana"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "Bruņutehnikas novērtēšana"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "Ataino izvēlētās bruņutehnikas līmeni."
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "Līmenis"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "Ataino izvēlētās bruņutehnikas nosaukumu."
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "Nosaukums"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "Ataino izvēlētās bruņutehnikas veidu."
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "Tips"
+
+msgid "tradeInPopover/title"
+msgstr "Bruņutehnikas izvēle apmaiņai"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "Izvēlieties tanku"
+
+msgid "updateNeeded/cancel"
+msgstr "Atcelt"
+
+msgid "updateNeeded/message"
+msgstr "Nepieciešama programmas atjaunināšana."
+
+msgid "updateNeeded/submit"
+msgstr "Atjaunot"
+
+msgid "updateNeeded/title"
+msgstr "Nepieciešama atjaunināšana"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "Apmācīt apkalpes locekli par {%d} zelta vienībām?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "Apmācīt"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "Apmācības apstiprināšana"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "Labi"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "Pietrūkst zelta apkalpes locekļa apmācībai."
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "Labi"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "Nepietiek zelta"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "Atcelt"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "Apmācīt apkalpes locekli par {%d} kredītiem?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "Apmācīt"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "Apmācības apstiprināšana"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "Labi"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "Nepietiek kredītu apkalpes locekļa apmācībai."
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "Labi"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "Nepietiek kredītu."
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "Atcelt"
+
+msgid "vehConf/exitDialog/message"
+msgstr "Modifikācijas netiks saglabātas. Pamest bruņutehnikas konfigurācijas izvēlni?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "Apstiprināt"
+
+msgid "vehConf/exitDialog/title"
+msgstr "Izmaiņu atcelšana"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "Aizvākt no angāra %(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "Atcelt"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "Uzmanību! Šī ir īpaša bruņutehnika. Ja to pārdosiet, jums nāksies gaidīt %(cooldown)s d, lai to varētu atgūt. Pārdot bruņutehniku?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "Apstiprināt"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "Pārdošanas apstiprināšana"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "Atcelt"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "Uzmanību! Šī ir īpaša bruņutehnika, tomēr pēc pārdošanas to būs iespējams atgūt. Pārdot bruņutehniku?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "Apstiprināt"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "Pārdošanas apstiprināšana"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "Atcelt"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "Atcelt"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "UZMANĪBU! Šis tanks ir īpašs un to nav iespējams atgūt. Apkalpe arī tiks neatgriezeniski demobilizēta."
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "Apstiprināt"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "Pārdošanas apstiprināšana"
+
+msgid "vehicleSell/unique/message"
+msgstr "Uzmanību! Šī bruņutehnika ir īpaša. To nav iespējams iegādāties veikalā. Tiešām vēlaties to pārdot?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "Apstiprināt"
+
+msgid "vehicleSell/unique/title"
+msgstr "Pārdošanas apstiprināšana"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "Apstiprināt pārdošanu"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "Lai apstiprinātu, ievadiet pārdošanas cenu no rindas „Summa” (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "Jūs ievadījāt nepareizu informāciju."
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "MUNĪCIJAS KOMPLEKTS:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "DIREKTĪVAS:"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "Atcelt"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "SUMMA:"
+
+msgid "vehicleSellDialog/count"
+msgstr "gab."
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "Atvaļināt"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "Uz kazarmām"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "APKALPE:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "ĀRĒJAIS IZSKATS:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "Izjaukt"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "APRĪKOJUMS:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "Plašāk"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "NOLIKTAVA:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "Iztērēts:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "Ieskaitot visas tanka nacionālās konfigurācijas!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "Moduļi"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "MODUĻI:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "Pēc tanka pārdošanas, pašreizējais Lauka Modifikācijas Līmenis paliks, bet visas Dubultās Modifikācijas tiks atceltas."
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "Saņemts:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "Aizvākt"
+
+msgid "vehicleSellDialog/submit"
+msgstr "Pārdot"
+
+msgid "vehicleSellDialog/title"
+msgstr "%(name)s pārdošana"
+
+msgid "vehicleSellDialog/unload"
+msgstr "Izkraut noliktavā"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "Elites"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "Cena"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "Līmenis. "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "Loma: "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "Tanku iznīcinātājs"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "Artilērija"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "Smagais tanks"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "Vieglais tanks"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "Vidējais tanks"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "Labi!"
+
+msgid "voiceChatInitFailed/message"
+msgstr "Kļūda palaižot balss čatu: pakalpojums šobrīd nav pieejams."
+
+msgid "voiceChatInitFailed/title"
+msgstr "Balss komunikācijas inicializācija"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "Labi"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "Balss komunikācija veiksmīgi inicializēta."
+
+msgid "voiceChatInitSucceded/title"
+msgstr "Balss komunikācijas inicializācija"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "Aizvērt"
+
+msgid "waterQualityNotPossible/message"
+msgstr "Augsta ūdens kvalitāte pieejama tikai tad, ja ir ieslēgta papildus pēcapstrāde."
+
+msgid "waterQualityNotPossible/title"
+msgstr "Ūdens kvalitāte nav pieejama"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "Atcelt"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "Apskatiet, vai tanki ir pieejami Garāžā"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "Cena: %(price)s %(icon)s (pieejams: %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "Spēlētājs: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "Izvēlēti tanki: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "Atjaunot Darbībā"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "Atjaunot darbībā?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "Asistents"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "Apmeklējuma Balvas"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "Kaujas Bonuss"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "Kaujas Caurlaide Plus"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "Neiekļauta Karte"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "Ekskluzīvs Tanks"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "Ekskluzīva tehnika"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "Bezmaksas Iekārtu Noņemšana"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "Zelta Rezerve"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "Intensīvs Apkalpes Režīms"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "Pārvaldāms Pieredzes Reizinātājs"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "Pro Paātrinājums"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "Dienesta kartītes pielāgošana"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "Tankista Karogs"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "WOT PLUS AKTIVIZĒTS"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "Esmu gatavs!"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "Paplašinās {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "WOT PLUS CORE AKTIVIZĒTS"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "Detaļas"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "360 dienu plāns"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "180 dienu plāns"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}, tiek pagarināts līdz {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "WOT PLUS PRO AKTIVIZĒTS"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "Aktivizēt"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}Jūs nevarēsiet uzlādēt citu tanku vēl {{@ style (color #fff)}}{{boostInterval}} stundas{{/}}.{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "Aktivizējot Pro Boost, šis tanks nopelna {{@ style (color #fff)}}{{bonusPercent}} vairāk Kredītu un XP{{/}}. Attiecas tikai uz vienu tanku."
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "Aktivizēt Pro Boost priekš {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "Mainīt"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}Tikai viena automašīna var saņemt paātrinājumu. Jūs nevarēsiet paātrināt citu automašīnu vēlreiz {{@ style (color #fff)}}{{boostInterval}} stundas{{/}}.{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "Aktivizējot Pro Boost, šis tanks nopelna {{@ style (color #fff)}}{{bonusPercent}} vairāk Kredītu un XP{{/}}. Attiecas tikai uz vienu tanku."
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "Pārslēgt Pro Boost uz {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "Atcelt"
+
+msgid "wotPlusRental/description"
+msgstr "Nākamā tanka noma būs pieejama {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "Nomāt"
+
+msgid "wotPlusRental/title"
+msgstr "Nomāt {cream_Open}%s{cream_Close}?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "Saglabāt"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "Vai vēlaties saglabāt sava Pakalpojuma ieraksta pielāgošanu?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "Atcelt"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "Iztērēt visu nopelnīto pieredzi šajā tankā apkalpes treniņam. Vismazāk pieredzējušais apkalpes loceklis tiek trenēt divreiz ātrāk."
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "Iesl."
+
+msgid "xpToTmenCheckbox/title"
+msgstr "Paātrināta Apkalpes Trenēšanu?"

@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "Varetag reserver"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "Klik for at vælge en tilgængelig kampreserve."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "Bomber"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "Nedslagsområde"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "Gør fortumlet"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "Indsættelse"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "Antal miner"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "Varighed på minefelt"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "Gør fortumlet"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "Skaderadius"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "Varighed"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "Granater"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "Cooldown"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "Indsættelse"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "Varighed"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "Antal gendannede hp"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "Antal straks gendannede hp ved aktivering"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "Nedsat skade fra miner"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "Bonus til gendannelse af hp indenfor en genforsyningscirkel"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "Mandskabets ydeevne"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "Varighed"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "Nedkølingstid"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "Effekt radius"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "Mandskabs ydeevne på dit køretøj"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "Forøget beskyttelse"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "Erobringsbonus"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "Genopfriskning af genforsyningscirkel"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "Hastighed på genforsyning af ammunition"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "Ankomsttid"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "Nedslagsområde"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300 x 750 m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "Spotter varighed"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "Nedsat ydeevne hos mandskabet"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "Røggranater"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "Nedslagsområde"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "Varighed"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "Nedsat synsrækkevidde på fjendtlige køretøjer"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "Sløringsreduktion af fjendtlige køretøjer bag bevoksning"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "Sløringsreduktion af fjendtlige køretøjer i bevægelse"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "Varighed"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "Bonus til sløring af et stationært køretøj"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "Passiv bonus til synsrækkevidde"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "Reserve-niveau"
+
+msgid "abilityInfo/properties/static"
+msgstr "Permanente karakteristika"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "s"
+
+msgid "advance_message_txt"
+msgstr "Avancer til frontlinjen"
+
+msgid "advance_mission_txt"
+msgstr "Avancer til frontlinjen"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "SCENARIEDETALJER"
+
+msgid "awards/acceptButton"
+msgstr "Bekræftet!"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "BELØNNINGER MODTAGET"
+
+msgid "awards/subTitle2"
+msgstr "BELØNNING MODTAGET"
+
+msgid "awards/title"
+msgstr "FRONTLINJE"
+
+msgid "base/contested_atk"
+msgstr "Omstridt"
+
+msgid "base/contested_def"
+msgstr "Under angreb"
+
+msgid "battleResults/armor"
+msgstr "Brug af panser"
+
+msgid "battleResults/assistance"
+msgstr "Assistance"
+
+msgid "battleResults/crits"
+msgstr "Kritisk skade"
+
+msgid "battleResults/damage"
+msgstr "Skade"
+
+msgid "battleResults/kill"
+msgstr "Ødelagt"
+
+msgid "battleResults/spotting"
+msgstr "Observeret"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "x1 personlig reserve: %(effectValue)s til mandskabs xp i %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "x1 personlig reserve: %(effectValue)s til fri xp i %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "x1 personlig reserve: %(effectValue)s til kamp xp i %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Angrib mål %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Forsvar mål %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Bemærk lokationen!"
+
+msgid "command_shortcut/title"
+msgstr "Kommandoer"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "Front blokeret—spillergrænse nået"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "Fareområde"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "Front blokeret—grænse for køretøjstype nået"
+
+msgid "dialogs/quotedName"
+msgstr "\"%(name)s\""
+
+msgid "dialogs/title/buy/item"
+msgstr "Køb %(name)s %(type)s?"
+
+msgid "dialogs/title/buy/items"
+msgstr "Køb %(type)s?"
+
+msgid "dialogs/title/install/item"
+msgstr "Aktiver %(name)s %(type)s?"
+
+msgid "dialogs/title/install/items"
+msgstr "Aktiver %(type)s?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "Akkumuler det krævede antal point og aktiver frontlinjens kampreserver."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "Akkumuler det krævede antal point og aktiver frontlinjens kampreserver."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "Kampreservepoint"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "%(level)s køretøjer vil blive åbnet til kamp efter at have erobret/mistet ethvert punkt på den sekundære linje (D, E eller F)."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "Niveau %(lvl)s"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "Vælg et niveau VIII køretøj til frontlinje kamptypen."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "Inkompatibelt køretøj"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "Modtag"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "Maks"
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "Kampreserver"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "Kommandørens niveau"
+
+msgid "epictraining/info/otherLabel"
+msgstr "Ufordelte spillere: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "Angribere ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "Forsvarere ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "Alle fjendtlige køretøjer ødelagt"
+
+msgid "game/all_hqs_destroyed"
+msgstr "Alle mål ødelagt"
+
+msgid "game/all_tanks_defeated"
+msgstr "Alle allierede køretøjer ødelagt"
+
+msgid "game/defeat"
+msgstr "Nederlag!"
+
+msgid "game/draw"
+msgstr "Uafgjort!"
+
+msgid "game/time_over"
+msgstr "Mål har overlevet"
+
+msgid "game/victory"
+msgstr "Sejr!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "Ødelæg mål!"
+
+msgid "global_msg/atk/time_short"
+msgstr "Erobr en zone!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "Forsvar målene!"
+
+msgid "global_msg/def/time_short"
+msgstr "Forsvar zonerne!"
+
+msgid "global_msg/lane/center_short"
+msgstr "Forstærk zone %(strArg1)s!"
+
+msgid "global_msg/lane/east_short"
+msgstr "Forstærk zone %(strArg1)s!"
+
+msgid "global_msg/lane/west_short"
+msgstr "Forstærk zone %(strArg1)s!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "Gem dine kampvogne!"
+
+msgid "help_window/communication"
+msgstr "Kommunikationsområde"
+
+msgid "help_window/communication/description"
+msgstr "Du kan kun modtage kommandoer fra allierede, der er i dit synlige minimap-område, eller når målet for kommandoen er i det område."
+
+msgid "help_window/overview_map"
+msgstr "Overblikskort"
+
+msgid "help_window/overview_map/description"
+msgstr "Overblikskortet bruges til at få et taktisk og strategisk overblik på hele slagmarken. Når overblikskortet åbnes, kan kommunikation med hele holdet modtages og beskeder blive afsendt."
+
+msgid "help_window/recovery"
+msgstr "Genopretning"
+
+msgid "help_window/recovery/description"
+msgstr "Genopretning introduceres til at selvdestruere et køretøj, der sidder fast i terrænet. Muligheden er nødvendig, da en forøget varighed på kampen og mulighed for respawn kræver fuldt engagement af spilleren."
+
+msgid "help_window/reserves"
+msgstr "Køretøjsreserver"
+
+msgid "help_window/reserves/description"
+msgstr "Med få minutters mellemrum tilføjes et køretøj til din reserve. Reserven kan holde maksimalt to køretøjer. Når der ikke er flere køretøjer tilbage, kan du ikke komme tilbage på slagmarken og må vente, indtil nye køretøjer bliver klar."
+
+msgid "hq/under_attack_atk"
+msgstr "Under angreb"
+
+msgid "hq/under_attack_def"
+msgstr "Under angreb"
+
+msgid "in_game_rank/experience_text"
+msgstr "Xp"
+
+msgid "lane_central_name"
+msgstr "Midt"
+
+msgid "lane_east_name"
+msgstr "Øst"
+
+msgid "lane_west_name"
+msgstr "Vest"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "Grad %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "Modtagelse er utilgængelig: Du har ingen kampreservepoint."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "Kampreserven har nået den maksimale grad."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "Opgrader er utilgængelig: Du har ingen kampreservepoint."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "Kampreserve ikke købt"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "Niveauet på kampreserver forøges ved at nå en rang som kaptajn og major i kamp. Det maksimale niveau er bestemt af kampscenariet."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "Købspris: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "Primært mål"
+
+msgid "mission/title"
+msgstr "Mission"
+
+msgid "mission/zone_closing_atk"
+msgstr "Zone åbner om: "
+
+msgid "mission/zone_closing_def"
+msgstr "Fjendtligt bombardement om: "
+
+msgid "missions/primary/atk/base"
+msgstr "Erobr zone"
+
+msgid "missions/primary/atk/hq"
+msgstr "Ødelæg mål"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s af %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "Mål ødelagt:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "Erobr zoner for at nå de primære mål. Ødelæg de primære mål."
+
+msgid "missions/primary/def/base"
+msgstr "Forsvar zone"
+
+msgid "missions/primary/def/hq"
+msgstr "Forsvar mål"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s af %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "Mål tabt:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "Forsvar de primære mål indtil tiden løber ud eller ødelæg alle angribere."
+
+msgid "missions/unlockTankLevel"
+msgstr "Niveau IX køretøjer tilgængelige"
+
+msgid "overtime/label"
+msgstr "OVERTID"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "Kan ikke aktivere to identiske reserver"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "Kan ikke udlægge et minefelt. Minefelter overlapper."
+
+msgid "primeTime/applyBtn"
+msgstr "Gå videre"
+
+msgid "primeTime/cancelBtn"
+msgstr "Afbryd"
+
+msgid "primeTime/continueBtn"
+msgstr "Fortsæt"
+
+msgid "primeTime/endOfCycle"
+msgstr "Kamptypen på %(server)s serveren er slut."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "Tilgængelige servere:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "Tilgængelig server: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "Kampe på %(server)s vil være tilgængelige i endnu %(time)s"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "Næste kampe på %(server)s om %(time)s"
+
+msgid "primeTime/serverTooltip"
+msgstr "Kampe på %(server)s\nvil være tilgængelige i endnu %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Kampe vil være tilgængelige om %(time)s"
+
+msgid "primeTime/servers"
+msgstr "Tilgængelige servere: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Kampe på %(server)s serveren er slut"
+
+msgid "primeTime/status/disable"
+msgstr "Du kan skifte til en frontlinje server for at fortsætte forberedelsen før kamp."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "Kamptypen er utilgængelig på server %(server)s"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "Våbenhvile er aktiv på server %(server)s indtil %(startTime)s"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "Våbenhvile er aktiv på alle servere"
+
+msgid "primeTime/status/thisEnable"
+msgstr "På %(server)s serveren er frontlinje tilgængelig i endnu: %(time)s."
+
+msgid "primeTime/steelhunter/title"
+msgstr "STÅLJÆGER"
+
+msgid "primeTime/title"
+msgstr "FRONTLINJE"
+
+msgid "primeTime/titleWelcome"
+msgstr "VELKOMMEN\nTIL FRONTLINJE"
+
+msgid "progress_timers/active"
+msgstr "Aktiv"
+
+msgid "progress_timers/fully_equipped"
+msgstr "Fuldt udstyret"
+
+msgid "progress_timers/resupply"
+msgstr "Genforsyningscirkel"
+
+msgid "progress_timers/unavailable"
+msgstr "Utilgængelig"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "Frontlinje missioner"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "mindre end 1 d"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "nå niveau %(level)s"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "Nye missioner vil være tilgængelige om %(time)s"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "Ståljæger-missioner"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "Frontlinje slutter om: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "Utilgængelig: %(reason)s."
+
+msgid "rank/allReserveUpgraded"
+msgstr "Alle kampreserve-niveauer forøget"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "Holdbonus til mandskabs ydeevne forøget til +%(percent)s%%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "Maksimal ydeevne hos mandskabet nås ved +%(percent)s%%"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "Holdbonus til mandskabs ydeevne +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "Spiller"
+
+msgid "rank/promotion"
+msgstr "forfremmet til %(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "Menig"
+
+msgid "rank/rank2"
+msgstr "Sergent"
+
+msgid "rank/rank3"
+msgstr "Løjtnant"
+
+msgid "rank/rank4"
+msgstr "Kaptajn"
+
+msgid "rank/rank5"
+msgstr "Major"
+
+msgid "rank/rank6"
+msgstr "General"
+
+msgid "rank/recerveUnlocked"
+msgstr "%(reserveName)s kampreserve åbnet"
+
+msgid "rank/reserveUpgraded"
+msgstr "%(reserveName)s kampreserve forbedret"
+
+msgid "rank/slotUnlocked"
+msgstr "%(slotNumber)s kampreserve åbnet"
+
+msgid "rank/slot_2"
+msgstr "2."
+
+msgid "rank/slot_3"
+msgstr "3."
+
+msgid "recovery/Blocked"
+msgstr "Midlertidigt\nblokeret"
+
+msgid "recovery/disabled"
+msgstr "Genopretning utilgængelig"
+
+msgid "recovery_panel/base_text"
+msgstr "Tryk J\nfor at genoprette"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "Bevæg dig eller skyd for at afbryde."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "Genopretning\nafbrudt"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "Genopretning\nanmodet"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "Erobr den næste base"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "Forstærkninger om "
+
+msgid "reinforcement/unavailable"
+msgstr "Forstærkninger utilgængelige"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s s indtil automatisk indsættelse."
+
+msgid "respawn/deploy_button"
+msgstr "Kamp!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "Forbedrede forbrugsvarer kan ikke købes i kamp."
+
+msgid "respawn/shop_title"
+msgstr "Service"
+
+msgid "respawn/tanks_left"
+msgstr "køretøjer tilbage"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "Vælg et køretøj og indsættelsesområde"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "Indsættelse i dette område er farligt."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s sekunder"
+
+msgid "retreat_message_txt"
+msgstr "Fald tilbage"
+
+msgid "retreat_mission_txt"
+msgstr "Fald tilbage til den næste zone"
+
+msgid "rewardSelection/subTitle"
+msgstr "VÆLG DIN BELØNNING"
+
+msgid "rewardSelection/title"
+msgstr "FRONTLINJE"
+
+msgid "scorePanel/stage1"
+msgstr "Stadie 1"
+
+msgid "scorePanel/stage2"
+msgstr "Stadie 2"
+
+msgid "scorePanel/stage3"
+msgstr "Stadie 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "Din computers ydeevne er ikke tilstrækkelig til denne kamptype. Du vil måske opleve problemer med grafikken og køretøjets bevægelser. Det er også sandsynligt at klienten vil crashe."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "Lav ydeevne"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "I tilfælde af utilstrækkelig ydeevne, prøv en lavere grafisk kvalitet i indstillingerne."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "Denne kamptype kræver høj ydeevne af computeren"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "Denne kamptype kræver høj ydelse af computeren. Du kan opleve problemer med kortindlæsning, grafik og køretøjsbevægelser. I tilfælde af utilstrækkelig ydeevne, prøv at reducere grafikkvaliteten i dine indstillinger."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "Lav ydeevne"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "30v30-kampe i %(bodyVehicleLevel)s. Gør brug af respawn-mekanismen, kampreserver, samt genforsyningscirkler."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "niveau %(level)s køretøjer"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "30v30-kampe i %(bodyVehicleLevel)s. Gør brug af respawn-mekanismen, kampreserver, samt reparationer i kamp."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "Typen er midlertidigt utilgængelig på grund af tekniske problemer."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "Frontlinje"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "Kampe starter om: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "Kampe slutter om: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "Kampplan"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "I dag"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "I morgen"
+
+msgid "skill/category/firesupport"
+msgstr "Angrebsreserver"
+
+msgid "skill/category/reconnaissance"
+msgstr "Rekognosceringsreserver"
+
+msgid "skill/category/tactics"
+msgstr "Taktiske reserver"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "Tilskuer kameratilstand"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "Roter kameraet med din mus."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "Brug W,A,S,D til at flytte kameraet rundt på kortet."
+
+msgid "spectator_mode/follow_text"
+msgstr "Venstreklik for at følge."
+
+msgid "spectator_mode/follow_title"
+msgstr "Følg"
+
+msgid "spectator_mode/msg_text"
+msgstr "Køretøj ankommer om:"
+
+msgid "spectator_mode/msg_title"
+msgstr "Alle køretøjer er ødelagt!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "Klik igen for at stoppe med at følge."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "Stop med at følge"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "Blokeret"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Forlad zonen!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Gendanner hp"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Gendanner hp"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Inspirerende"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "Inspirerende"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Genforsyningscirkel"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "I røg: skjult."
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "I røg. Synsrækkevidde og ydeevne hos mandskab nedsat."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "Opklaringstid. Synsrækkevidde og ydeevne hos mandskab nedsat."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "Sentinel aktiveret"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "Aktiverer %(activationDelay)s s efter køretøjet stopper"
+
+msgid "super_platoon_panel/title"
+msgstr "Deling"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "— samlet holdbonus til mandskabets ydeevne med tilstedeværelsen af en general."
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "Alle fronter"
+
+msgid "tab_screen/show_my_lane"
+msgstr "Min front"
+
+msgid "team1Name"
+msgstr "Angribere"
+
+msgid "team2Name"
+msgstr "Forsvarere"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "Vælg belønninger for fuldførte Frontlinje-niveauer (%(number)s)."
+
+msgid "tooltips/common/disabled"
+msgstr "Kamptype utilgængelig"
+
+msgid "tooltips/common/title"
+msgstr "Frontlinje"
+
+msgid "tooltips/end"
+msgstr "Eventet er slut"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "rækkefølgen i at åbne op for kampreserver afhænger af køretøjstypen. Én kampreserve er tilgængelig fra start, mens andre først bliver åbnet efter at have nået en rang som henholdsvis sergent og løjtnant."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "Åbning: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "I <font color='#E9E2BF'>Skæbnen råder</font>-scenariet, vil køb af en kampreserve forøge dens niveau med ét, samt give mulighed for at forbedre den til niveau <font color='#E9E2BF'>IV</font>."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "En kampreserve placeret i denne plads forøger chancen for at den bliver tilbudt i <font color='#E9E2BF'>Skæbnen råder</font>-scenariet med <font color='#E9E2BF'>10%</font>."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "Åbning og forbedring af reserver i kamp"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "Kampreserver åbnes og forbedres i kamp, afhængig af køretøjstypen og den rang du når."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "Reservekonfigurationer for kampvognsjægere"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "Reservekonfigurationer for SPG'er"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "Reservekonfigurationer for tunge kampvogne"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "Reservekonfigurationer for lette kampvogne"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "Reservekonfigurationer for medium kampvogne"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "efter at have åbnet op for alle kampreserver ved at nå nye range, bliver disse kampreserver forbedret. Kampreserven, der var åbnet fra start, kan forbedres op til niveau III, og den kampreserve, der derefter blev åbnet, kan forbedres op til niveau II."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "Forbedring: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "Pladsen vil blive åbnet ved at nå en rang som %(rank)s."
+
+msgid "tooltips/timeToEnd"
+msgstr "Kamptype tilgængelig: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "Kampe starter om: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "Eventet er slut"
+
+msgid "tooltips/widget/level"
+msgstr "Niveau %(level)s"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "Maksimalt niveau nået."
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "KAMPRESERVER"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Våbenhvile er aktiv på alle servere. Kampe vil være tilgængelige om %(time)s"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "Kampe er på vej"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Vælg en anden server"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "Detaljer"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "Frontlinje-kamptypen er slut."
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "Frontlinje-scenarier"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Våbenhvile er aktiv på serveren. Kampe vil være tilgængelige om %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Våbenhvile er aktiv på %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "Kampe starter om: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "Klik for at lære mere om Frontlinje-\nscenarier og forskellene mellem dem."
+
+msgid "zone/arrived_text"
+msgstr "Ankommet!"
+
+msgid "zone/capture_text"
+msgstr "Erobr"
+
+msgid "zone/captured_text"
+msgstr "Erobret"
+
+msgid "zone/defend_text"
+msgstr "Forsvar"
+
+msgid "zone/destroy_text"
+msgstr "Ødelæg"
+
+msgid "zone/destroyed_text"
+msgstr "Ødelagt"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "Fjendtlige forstærkninger"
+
+msgid "zone/headquarters_text"
+msgstr "Mål"
+
+msgid "zone/leave_zone"
+msgstr "Forlad zone!"
+
+msgid "zone/lost_text"
+msgstr "Tabt"
+
+msgid "zone/reached_text"
+msgstr "Opnået"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "Fjendtlige forstærkninger:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "Forstærkninger:"
+
+msgid "zone/reinforcements_text"
+msgstr "Forstærkninger"
+
+msgid "zone/time_added"
+msgstr "Minutter tilføjet: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "%(minutes)s minutter tilbage"
+
+msgid "zone/zone_text"
+msgstr "Zone"

@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Вечерен час {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Събитието ще бъде достъпно от"
+
+msgid "bannerTooltip/description"
+msgstr "Масивни сражения 30 на 30 с машини ниво {{vehicleTier}} на картите Нормандия, Крафтверк и Фата Моргана. Атакуващите трябва да унищожат три от пет тежкокалибрени оръдия, а защитниците - да ги отбраняват."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Покажете уменията си в интензивни битки, за да спечелите слава, да получите ценни награди и да се издигнете в класацията."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Събитието приключи и имате непотърсени награди за завършени нива на \"Фронтова линия\"."
+
+msgid "bannerTooltip/header"
+msgstr "Фронтова линия"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Фронтова линия | ниво {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} – режим на игра. Натиснете, за да разучите"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Този режим изисква висока производителност на компютъра. Ще имате проблеми със зареждане на картите, графиката и движението на машините. В случай на недостатъчна производителност, опитайте по-ниски настройки на графиката."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Възможно е понижаване на производителността"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Изберете награди за достигнати нива ({{value}})"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Недостатъчни средства за извършване на покупка."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Промените ще бъдат приложени за всички ПТ-САУ."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Промените ще бъдат приложени за всички САУ."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Промените ще бъдат приложени за всички тежки танкове."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Промените ще бъдат приложени за всички леки танкове."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Промените ще бъдат приложени за всички средни танкове."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Несъвместима машина"
+
+msgid "battleAbilities/points/body"
+msgstr "Натрупайте необходимия брой точки и активирайте бойни резерви за \"Фронтова линия\"."
+
+msgid "battleAbilities/points/header"
+msgstr "Точки за бойни резерви"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Преглед на нападателните резерви"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Нападателни резерви"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Преглед на разузнавателните резерви"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Разузнавателни резерви"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Преглед на тактическите резерви"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Тактически резерви"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Нивото на бойния резерв се повишава след достигане на ранговете капитан и майор в битка. Максималното ниво се определя от сценария на битката."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Допълнителна информация"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Нападателни резерви"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Разузнавателни резерви"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Тактически резерви"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Постоянни характеристики:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Боен резерв, поставен в този слот, увеличава промяната в предоставянето му в сценария {{@ colorLegacy 'FFE4C0'}}Обрат на съдбата{{/}} с {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Ниво на резерва:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Не е купена!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Събитието приключи."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Събитието ще започне скоро!"
+
+msgid "infoButton/body"
+msgstr "Натиснете за повече информация."
+
+msgid "infoButton/header"
+msgstr "За събитието"
+
+msgid "levelReserves/desc"
+msgstr "Нивата на бойния резерв се увеличават при достигане на нови рангове:"
+
+msgid "levelReserves/info"
+msgstr "В сценария {{@ colorLegacy 'FFE4C0'}}Обрат на съдбата{{/}}, закупуването на Боен резерв ще повиши нивото му с едно и ще предостави възможност за подобряването му до ниво {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}."
+
+msgid "levelReserves/level"
+msgstr "Увеличава се при достигане на следния ранг: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Достъпно със следния ранг: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Ниво - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "За {{@ colorLegacy 'FFE4C0'}}закупени бойни резерви{{/}} в сценария {{@ colorLegacy 'FFE4C0'}}Обрат на съдбата{{/}}."
+
+msgid "levelReserves/title"
+msgstr "Нива на бойни резерви"
+
+msgid "playlist/warning/body"
+msgstr "Този плейлист съдържа машини, които не са подходящи за този режим на игра или не са в Парка ви."
+
+msgid "playlist/warning/header"
+msgstr "Неналични машини (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Характеристиките на бойния резерв са подобрени"
+
+msgid "randomReserve/disable"
+msgstr "Слотът Боен резерв е използван."
+
+msgid "randomReserve/notPurchased"
+msgstr "Боен резерв не е закупен"
+
+msgid "randomReserve/purchased"
+msgstr "Боен резерв е закупен"
+
+msgid "skillOrderTooltip/body"
+msgstr "Всеки вид машини има свой ред на отключване на резерви:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Заповед за отключване на боен резерв"
+
+msgid "skillOrderTooltip/info"
+msgstr "В сценария {{@ colorLegacy 'whiteSpanish'}}Обрат на съдбата{{/}} редът, в който се отключват бойните резерви, не зависи от типа машина."

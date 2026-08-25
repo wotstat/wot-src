@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "Keresés leállítása"
+
+msgid "buttons/cancelSearch/description"
+msgstr "Kattints a szakasztársak keresésének leállításához."
+
+msgid "buttons/createPlatoon/caption"
+msgstr "Új szakasz"
+
+msgid "buttons/createPlatoon/description"
+msgstr "Hozz létre szakaszt, hogy meghívd barátaid és együtt játsszatok."
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "Új szuper szakasz"
+
+msgid "buttons/findPlayers/caption"
+msgstr "Játékosok keresése"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "Keress hasonló képességű és járművel rendelkező játékosokat a keresési szűrő segítségével."
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "A barátaidnak elküldött meghívók törlődnek, ha elkezdesz online játékosokat keresni."
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "Játékosok keresése"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "Nem tudsz játékosokat keresni: túl sok szakasz van a szerveren."
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "Nem tudsz játékosokat keresni a szakaszba: nincs megfelelő járműved."
+
+msgid "buttons/invite/player/caption"
+msgstr "Játékos meghívása"
+
+msgid "buttons/invite/player/description"
+msgstr "Kattints egy játékos meghívásához a szakaszba."
+
+msgid "buttons/invite/players/caption"
+msgstr "Játékosok meghívása"
+
+msgid "buttons/invite/players/description"
+msgstr "Kattints a játékosok meghívásához a szakaszba."
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "Szakasz elhagyása"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "Kattints a szakasz elhagyásához."
+
+msgid "buttons/mute/caption"
+msgstr "Szakasz hang kommunikáció kikapcsolása"
+
+msgid "buttons/mute/description"
+msgstr "Kattints a szakasz hang kommunikáció kikapcsolásához."
+
+msgid "buttons/notReady/caption"
+msgstr "Nincs kész"
+
+msgid "buttons/notReady/description"
+msgstr "Kattints, ha nem állsz készen a csatára."
+
+msgid "buttons/ready/caption"
+msgstr "Kész!"
+
+msgid "buttons/ready/description"
+msgstr "Kattints, ha készen állsz a csatára."
+
+msgid "buttons/reset/caption"
+msgstr "Keresési preferenciák visszaállítása"
+
+msgid "buttons/reset/description"
+msgstr "Kattints a keresési preferenciák alaphelyzetbe állításához."
+
+msgid "buttons/settings/caption"
+msgstr "Keresési preferenciák beállítása"
+
+msgid "buttons/settings/description"
+msgstr "Keress a preferenciáidnak megfelelő játékosokat. Minél tovább tart a keresés, annál jobban ki lesz bővítve a keresési tartomány."
+
+msgid "buttons/unMute/caption"
+msgstr "Szakasz hang kommunikáció bekapcsolása"
+
+msgid "buttons/unMute/description"
+msgstr "Kattints a szakasz hang kommunikáció bekapcsolásához."
+
+msgid "headerButton/inSquad"
+msgstr "Szakaszban"
+
+msgid "headerButton/onboarding"
+msgstr "MOST MÁR KERESHETSZ JÁTÉKOSOKAT,\nHOGY SZAKASZT ALKOSSATOK"
+
+msgid "headerButton/searching"
+msgstr "Keresés…"
+
+msgid "headerButton/squad"
+msgstr "Szakasz létrehozása"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "Csatázz szakaszban egy barátoddal. Játsszatok csapatként kilenc ellenséges szakasz ellen."
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "Szakasz"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "Nem hozhatsz létre és nem csatlakozhatsz szakaszhoz, mivel ideiglenesen ki vagy zárva ebből a játékmódból."
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "Nem hozhatsz létre, és nem csatlakozhatsz szakaszhoz, mivel a garázsodban nincs egyetlen %(level)s. szintű, a játékmódnak megfelelő jármű sem."
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "A szakasz létrehozása ideiglenesen nem elérhető."
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "A szakaszok nem érhetők el"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "Létrehozhatsz egy szakaszt, vagy csatlakozhatsz egy meglévőhöz. Roham Light módban a szakaszok 2 vagy 7 játékosból állhatnak."
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "Szakasz"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "Nem hozhatsz létre, és nem csatlakozhatsz szakaszhoz, mert a garázsodban nincs megfelelő %(level)s. szintű jármű."
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "A kvalifikáció befejezését követően 2 és 7 fős szakaszok lesznek elérhetők."
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "Szakasz létrehozása nem lehetséges."
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "A szakaszok nem érhetők el"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "Létrehozhatsz egy szakaszt, vagy csatlakozhatsz egy meglévőhöz. Roham módban a szakaszok 2 vagy 7 játékosból állhatnak."
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "Szakasz"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "Hozz létre 2 vagy 3 játékosból álló taktikai egységet, hogy együttműködjetek a csatákban.\n• Csata módok: Dühöngés.\n•Csata típusok: Acélvadászat, Dominancia."
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "Szakasz"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "Hozz létre taktikai egységet 2 vagy 3 játékosból, hogy részt vegyél a Nagy versenyben."
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "Nagy verseny szakasz"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "Kattints a szakasz menü megnyitásához."
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "Felderítő küldetés: szakasz"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "Kattints a szakasz menü megnyitásához."
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "Szakasz"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "Hozz létra 2 vagy 3 játékosból álló szakaszt, hogy részt vegyetek a Felderítő küldetésben."
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "Felderítő küldetés: szakasz"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "A taktikai egységek nem engedélyezettek a rangsorolt csatákban."
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "Szakasz létrehozása"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "Játékosok keresése..."
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "Keresés"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Hozz létre egy taktikai egységet 2 vagy 3 játékossal, hogy együttműködjetek a Normál csatákban és a Frontvonalban (ha elérhető)"
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Szakasz"
+
+msgid "members/card/connectionLost"
+msgstr "Kapcsolat megszakadt"
+
+msgid "members/card/disabled"
+msgstr "Ez a mód csak két játékosból álló szakaszokat támogat"
+
+msgid "members/card/disabledVertical"
+msgstr "Nem elérhető ebben a módban"
+
+msgid "members/card/empty"
+msgstr "Üres hely"
+
+msgid "members/card/inBattle"
+msgstr "Csatában"
+
+msgid "members/card/muted/caption"
+msgstr "Játékos lenémítva"
+
+msgid "members/card/muted/description"
+msgstr "Jobb klikk a játékos némításának feloldásához."
+
+msgid "members/card/notReady"
+msgstr "Nincs kész"
+
+msgid "members/card/searching"
+msgstr "Játékos keresése..."
+
+msgid "members/card/selectVehicle"
+msgstr "Válassz egy %(level)s-s szintű járművet"
+
+msgid "members/chat/chatName"
+msgstr "Chat csatorna:"
+
+msgid "members/chat/sendMessage/body"
+msgstr "Kattints a chat csatornán való üzenet küldéséhez."
+
+msgid "members/chat/sendMessage/header"
+msgstr "Üzenet küldése"
+
+msgid "members/footer/comp7Invite"
+msgstr "Meghívás"
+
+msgid "members/footer/comp7Limitations"
+msgstr "Szakaszranglimit"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "A legjobb szakaszrang"
+
+msgid "members/footer/getNotReady"
+msgstr "Kattints, hogy jelezd, még nem állsz készen."
+
+msgid "members/footer/getReady"
+msgstr "Erősítsd meg, hogy készen állsz a csatára."
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "Nem megfelelő szint"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "XP büntetés a nem megfelelő szakasz összeállítás miatt!"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "Elérted a járműkorlátot"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "A szakasz elérte a páncélvadászok maximális számát"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "A szakasz elérte az önjáró lövegek maximális számát"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "A szakasz elérte a nehéz harckocsik maximális számát"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "A szakasz elérte a közepes harckocsik maximális számát"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "A szakasz elérte a könnyű harckocsik maximális számát"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "A szakasz elérte a kerekes járművek maximális számát"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "A szakasz elérte a könnyű harckocsik maximális számát"
+
+msgid "members/header/battle_royal"
+msgstr ": Acélvadász"
+
+msgid "members/header/epic"
+msgstr ": Frontvonal"
+
+msgid "members/header/event"
+msgstr ": Waffenträger: A Hyperion terv"
+
+msgid "members/header/mapbox"
+msgstr ": Felderítő küldetés"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP HEADER PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr ": Normál csata"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "A frontvonal csak \nVIII-as szintű járművekkel érhető el."
+
+msgid "members/header/tooltip/epic/header"
+msgstr "Szakasz létrehozásának szabályai"
+
+msgid "members/header/tooltip/event/body"
+msgstr "A szakasznak a játékmód három különleges járművéből kell állnia."
+
+msgid "members/header/tooltip/event/header"
+msgstr "Szakasz létrehozásának szabályai"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "A szakasznak azonos szintű járművekből kell állnia."
+
+msgid "members/header/tooltip/standard/header"
+msgstr "Szakasz létrehozásának szabályai"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Játékosok a szakaszban"
+
+msgid "searching/estimated/caption"
+msgstr "Becsült idő"
+
+msgid "searching/estimated/lessThan"
+msgstr "kevesebb, mint %(seconds)d mp"
+
+msgid "searching/estimated/moreThan"
+msgstr "több, mint %(seconds)d mp"
+
+msgid "searching/expanded/body"
+msgstr "Nem találtunk az eredeti preferenciáknak megfelelő játékosokat.\nA keresést kiszélesítettük más jármű szintekre is."
+
+msgid "searching/expanded/header"
+msgstr "Keresési preferenciák bővítve"
+
+msgid "searching/lookingFor"
+msgstr "Következő keresése:"
+
+msgid "searching/playersInQueue"
+msgstr "Játékosok a sorban"
+
+msgid "searching/state"
+msgstr "Keresés:"
+
+msgid "settings/tiers"
+msgstr "Kívánt jármű szint"
+
+msgid "settings/voice"
+msgstr "Hang kommunikációval rendelkező játékosok preferálása"
+
+msgid "squad"
+msgstr "Szakasz"

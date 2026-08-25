@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, mūšio trukmė: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "UŽDARYTI"
+
+msgid "battleResult/continueButton"
+msgstr "Pratęsti"
+
+msgid "battleResult/damageAssisted"
+msgstr "Žala\naptinkant"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Užblokuota\nžala"
+
+msgid "battleResult/damageDealt"
+msgstr "Padaryta\nžala"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s Vykdydami misijas Sudėtingu lygiu,\ntaip pat automatiškai ją įvykdote įprastu lygiu.\nTai reiškia, kad jūs gausite prizus už abu sudėtingumo lygius."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s Vykdydami misijas Sudėtingu lygiu, taip pat automatiškai ją įvykdote įprastu lygiu.\nTai reiškia, kad jūs gausite prizus už abu sudėtingumo lygius."
+
+msgid "battleResult/kills"
+msgstr "Sunaikinta\npriešų"
+
+msgid "battleResult/lose/title"
+msgstr "MŪŠIS BAIGĖSI"
+
+msgid "battleResult/missionName/1"
+msgstr "TIGER MEDŽIOTOJAS: Operacija Plieno lavina"
+
+msgid "battleResult/missionName/2"
+msgstr "TIGER MEDŽIOTOJAS: Operacija Spąstų meistras"
+
+msgid "battleResult/missionName/3"
+msgstr "TIGER MEDŽIOTOJAS: Operacija Kūjis ir priekalas"
+
+msgid "battleResult/missionName/4"
+msgstr "TIGER MEDŽIOTOJAS: Operacija Katė pelėkautuose"
+
+msgid "battleResult/missionName/5"
+msgstr "OPERACIJA OVERLORD"
+
+msgid "battleResult/missionName/6"
+msgstr "OPERACIJA PAŠTININKAS"
+
+msgid "battleResult/missionName/7"
+msgstr "OPERACIJA VIRIMO TAŠKAS"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Nėra aktyvių\nmisijų"
+
+msgid "battleResult/rewards/other"
+msgstr "Taip pat gauta:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Misijos\nįvykdytos"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Išgyveno{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Neišgyveno{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "PERGALĖ!"
+
+msgid "countdown/days"
+msgstr "{days} d."
+
+msgid "countdown/daysHours"
+msgstr "{days} d. {hours} val."
+
+msgid "countdown/endsSoon"
+msgstr "Mažiau nei {minutes} min."
+
+msgid "countdown/hours"
+msgstr "{hours} val."
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} val. {minutes} min."
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} val. {minutes} min."
+
+msgid "countdown/lessThanMinute"
+msgstr "Mažiau nei 1 minutė"
+
+msgid "countdown/minutes"
+msgstr "{minutes} min."
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} min."
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "Atšaukti"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "Įvykdę šią operaciją jūs negausite jokių prizų.\nAr tikrai norite dalyvauti šioje operacijoje neturėdami aktyvios misijos?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Patvirtinti"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "Šiai operacijai nėra aktyvių misijų"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Atpažinkite nežinomą priešą, sustabdykite raketos paleidimą ir užtikrinkite, kad naujoji technologija nepateks į netinkamas rankas."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "Žaiskite vieni ir kovokite prieš DI valdomus priešus šioje epinėje istorijoje kartu su vadais iš 3 sektoriaus!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Įvykdę visas misijas gausite renginio ženkliuką, medalį, 2D stilių ir kitų vertingų daiktų."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "Naujos eros aušra"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "Solo istorija"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Apdovanojimai"
+
+msgid "eventWelcomeScreen/header"
+msgstr "OPERACIJA VIRIMO TAŠKAS"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s – %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Istorijos"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Sudėtingas"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Įprastas"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Sudėtingas\nminų laukas"
+
+msgid "missionSelection/exitButton"
+msgstr "IŠEITI IŠ REŽIMO"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "OPERACIJA\nPLIENO LAVINA"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "OPERACIJA\nSPĄSTŲ MEISTRAS"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "OPERACIJA\nKŪJIS IR PRIEKALAS"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "OPERACIJA\nKATĖ PELĖKAUTUOSE"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "OPERACIJA\nOVERLORD"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "OPERACIJA\nPAŠTININKAS"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "OPERACIJA\nVIRIMO TAŠKAS"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Brooks: \"Tai kaip tau sekasi? Ar jau prisipratinai? Pas medikus keliausim vėliau. Dabar svarbus kiekvienas ginklas. Jau pradėjome ataką. O kadangi mes vėluojame, priešai susikoncentravo į kitą flangą. Tai mūsų šansas. Mes pulsime staigiai. Prasiveršime ir suspausime juos iš dviejų pusių.\nPaskui mus – ir venk drakono dantų. Jie tą lauką apstatė keliomis eilėmis betoninių dantų. Bet viskas gerai. Mums viskas pavyks. Tau tereikia atidžiai manęs klausyti ir atlikti tai, ką aš pasakau, greitai ir tiksliai. Aš su MacLeod tave pridengsime.\nIr nekreipk dėmesio į jo juokelius. Mes visi turime savo būdų kaip nors susitaikyti su šia tikrove... Pirmyn!\""
+
+msgid "missionSelection/missionDescription/2"
+msgstr "MacLeod: \"Ah, Tiger tankai – blogiausias dalykas, kurį gali sutikti mūšio lauke. Ir jei štabas sako, jog susidūrėme su problema, tai jie tikriausiai omenyje turi būtent juos. Mes negalime susisiekti su pirmuoju puolančiuoju pulku, o antrasis ką tik išvyko ir mūsų darbas juos sekti.\nO jei jie išsiunčia mus, tai tereiškia tik vieną dalyką: Tiger tankus. Štai ką jie sako štabe: \"Išsiųskite tuos Tiger ekspertus!\" Devyni tankai mudviem. Visai neblogai per pusmetį. Tu pirmauji 5-4. Bet aš pagaliau turiu progą išsiveržti į priekį. Iš pagaliau gauti tą prakeiktą medalį!\nNagi – Brooks nemėgsta laukti. Mūsų medžioklė prasideda.\""
+
+msgid "missionSelection/missionDescription/3"
+msgstr "MacLeod: \"Gerai, visi, operacija Kūjis ir priekalas. Paprastas pavadinimas ne tokiam paprastam darbui. Mes važiuosime į miestą ir sunaikinsime priešų pajėgas. Tai nebus lengvas pasivaikščiojimas – mūsų laukia tvirtos mašinos. Bet mes turime smegenis, ryžtą ir komandinį darbą, ar ne Laimės kūdiki? Tad negaiškime laiko. Penktą valandą turiu planų prie puodelio \"arbatos,\" jei suprantat apie ką aš!\""
+
+msgid "missionSelection/missionDescription/4"
+msgstr "MacLeod: \"Neklausk, Laimės kūdiki. Aš žinau ne ką daugiau, nei tu. Man nepatinka toks paslaptingumas. Geriau yra kai viskas aišku. Pamatai priešą, kovoji. Bet čia? Tai yra kažkokia netvarka.\n\nMieste bus ir mūsiškių mašinų. Brooks prašė važiuoti atsargiai. Ką tai turėtų reikšti?\nMes turime specialią užduotį. Surasti kažkokį Wunderwaffe — kažką didelio su vikšrais. Niekas kitas, tik mes, Laimės kūdiki.\n\nPasiruošę? Važiuojam.\""
+
+msgid "missionSelection/missionDescription/5"
+msgstr "Kapitonas John McCormick: \"Taigi, jau atėjo ta diena. Atėjo laikas nutraukti šitą ilgai užsitęsusį karą, tad šiandien tą ir padarysim. Mes visi kartu: amerikiečiai, britai, prancūzai, kanadiečiai, australai, belgai, čekoslovakai, graikai, olandai, norvegai, lenkai. Mes susivieniję kartu išrausime blogio šaknis visiems laikams.\n\nMes prasiveršime pro Atlanto užkardą ir sukursime vietą, kur galėsime tvirtai atsistoti.\n\nPasiruoškite išsilaipinimui!\""
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Kapitonas Smith: \"Paklausyk. Vokietija pasirašė kapituliacijos patvirtinimą prieš kelias valandas. Rytoj karas baigiasi. Bet mūsiškiai kalnuose neteko radijo signalo — jie nežino, kad jis baigėsi. Jie pasiruošę pulti šią prakeiktą tvirtovę sulig rytojaus aušra, o vokiečiai viduje tuo labiau nežino apie karo pabaigą. Tai bus bereikšmės žudynės. \n\nMes esame vieninteliai, kurie gali tai sustabdyti. Mūsų misija: prasmukti pro priešų linijas ir pranešti apie paliaubas. Tai mirtina misija, bet kiekvieną gyvybę išgelbėti verta. \n\nMes kartu su savimi turime vokiečių radistą — jis gerai pažįsta vietovę ir turi ne ką mažesnę motyvaciją nutraukti šias skerdynes, nei mes. \n\nVažiuojam.\""
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Leni Scharf: \"Situacija kritinė. Mes praradome ryšį su raketų baze Norvegijos jūroje. Žvalgyba taip ir nesugrįžo, o pirminės tankų pajėgos buvo sunaikintos nežinomo priešo.\n\nMūsų duomenimis jie planuoja paleisti balistinę raketą. Mes nežinome taikinio, bet esant tokiam politiniam klimatui viena raketa gali sukelti pasaulinį konfliktą.\n\nVisai kaip anais laikais, ar ne? Tik dar viena neįmanoma misija priešo teritorijoje. Važiuojam!\""
+
+msgid "missionSelection/missionName/1"
+msgstr "OPERACIJA PLIENO LAVINA"
+
+msgid "missionSelection/missionName/2"
+msgstr "OPERACIJA SPĄSTŲ MEISTRAS"
+
+msgid "missionSelection/missionName/3"
+msgstr "OPERACIJA KŪJIS IR PRIEKALAS"
+
+msgid "missionSelection/missionName/4"
+msgstr "OPERACIJA KATĖ PELĖKAUTUOSE"
+
+msgid "missionSelection/missionName/5"
+msgstr "OPERACIJA OVERLORD"
+
+msgid "missionSelection/missionName/6"
+msgstr "OPERACIJA PAŠTININKAS"
+
+msgid "missionSelection/missionName/7"
+msgstr "OPERACIJA VIRIMO TAŠKAS"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Speciali mašina"
+
+msgid "missionSelection/tab/event"
+msgstr "OPERACIJA VIRIMO TAŠKAS"
+
+msgid "missionSelection/tab/newbies"
+msgstr "MOKOMOSIOS ISTORIJOS"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Užpulti miestą ir sunaikinti priešų mašinas."
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Užpulti miestą ir sunaikinti priešų mašinas."
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Užpulti miestą ir sunaikinti priešų mašinas."
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Įvykdyti pagrindinę misiją negavus žalos nuo priešų minų."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Įvykdykite pagrindinę misiją nepraradę nė vienos mašinos."
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Užpilti miestą ir perimti Wunderwaffe."
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Įvykdyti pagrindinę misiją per mažiau nei %(win_timer)s."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Įvykdyti pagrindinę misiją ir sunaikinti %(kill_enemies)s priešų mašinas su lėktuvo pagalba."
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Prasiveržkite į priekį, sunaikinkite pakrantės ginklus ir užimkite placdarmą."
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Įvykdyti pagrindinę misiją per mažiau nei %(win_timer)s."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Įvykdykite pagrindinę misiją nepraradę nė vienos mašinos."
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Nugabenti paliaubų nurodymą savo sąjungininkams."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Įvykdyti pagrindinę misiją ir sunaikinti mažiau, nei %(kill_enemies)s."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Įvykdyti pagrindinę misiją nepraradus nė vienos mašinos."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Pasiekti valdymo centrą ir sustabdyti raketos paleidimą."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Įvykdyti pagrindinę misiją per mažiau nei %(win_timer)s."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Įvykdyti pagrindinę misiją nepraradus nė vienos mašinos."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s priešo mašiną"
+msgstr[1] "%(value)s priešų mašinas"
+msgstr[2] "%(value)s priešų mašinų"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "Misija yra užrakinta: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s minutę"
+msgstr[1] "%(value)s minutes"
+msgstr[2] "%(value)s minučių"
+
+msgid "missionSelection/taskRewards"
+msgstr "Apdovanojimas:"
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Ši mašina skirta tik istorijoms."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Likę Atsitiktiniai mūšiai iki kol\natrakinsite šią operaciją: %(numBattles)s"
+
+msgid "mode/story_mode/callToAction"
+msgstr "Scenarijai naujokams"
+
+msgid "mode/story_mode/description"
+msgstr "Įvykdykite suplanuotas operacijas prieš kompiuterio valdomas mašinas"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Operacija Virimo taškas pasiekiama"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "Jūs galite pamatyti pasirinktą žaidimo režimą Garaže, ekrano viršuje. Paspaudę režimo pavadinimą galite pamatyti kitus režimus."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Šį žaidimo režimą pasirinksite paspaudę mygtuką &zwnbsp;{whiteSpanish_Open}Istorijos{whiteSpanish_Close}&zwnbsp;."
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "Istorijose galėsite patirti įdomius PvE scenarijus, kovoti prieš dirbtinio intelekto valdomas mašinas, pasinerti į istorinius mūšius ir užsidirbti vertingų prizų!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Atsidarykite žaidimo režimų pasirinkimų langą"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Pasirinkite Istorijas"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "Išbandykite PvE mūšius"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "ISTORIJOS"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Suplanuoti scenarijai laukia"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Pradėti iš naujo"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "MŪŠIS BAIGĖSI"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Praleisti"
+
+msgid "onboardingQueue/skipText"
+msgstr "Nėra laisvų serverių. Palaukite arba praleiskite šią istoriją."
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Mes jums ruošiame serverį. Prašome palaukti..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Žala užblokuota šarvais {parSecondary_Start}(vienetai){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Nublokuota žala"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "Fugasinių ir HESH sviedinių pataikymai neskaičiuojami."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Skaičiuojama:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Rikošetu atmušti priešų šūviai"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Neprasiskverbę šūviai"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Pagalbinė žala"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "Pagalbine žala laikoma tokia jūsų komandos narių padaryta žala:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Žala jūsų aptiktam priešui"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "Žala tankui, kurį sustabdėte sunaikinę jo vikšrus"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "Bendra saviškių padaryta žala\n{parSecondary_Start}(vienetai){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Padaryta žala"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Skaičiuojama:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Žala šūviu"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Žala taranu"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Gaisro žala"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Žala nustūmus priešą nuo skardžio"
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Padaryta žala {parSecondary_Start}(vienetai){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Sunaikinta priešų"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Skaičiuojama:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Sunaikinimai šūviu"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Sunaikinimai dėl gaisro"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Sunaikinimai taranu"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Sunaikinimai paskandinus"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Sunaikinimai nustūmus priešą nuo skardžio"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Sunaikinimai apvertus"
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Įvykdytos misijos"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "Jūsų įvykdytų misijų ir visų šiuo metu\npasiekiamų misijų skaičius.\nMisijos, įvykdytos sudėtingu lygiu yra\nautomatiškai įvykdomos ir reguliariu."
+
+msgid "tooltips/difficulty/available"
+msgstr "Pasiekiamas"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "Priešų reakcija ir taiklumas greitesni, o jų puolimai daug agresyvesni. Tačiau įvykdę misiją gausite daugiau apdovanojimų."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "Vykdydami misijas {whiteSpanish_Open}sudėtingu{whiteSpanish_Close} lygiu automatiškai įvykdote jas ir {whiteSpanish_Open}įprastu{whiteSpanish_Close}. Apdovanojimus gausite už abu sudėtingumo lygius."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Papildoma sąlyga"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Sudėtingas"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "Atrakinsite sudėtingą lygį tik parodę savo įgūdžius šiame žaidimo režime, todėl turite įvykdyti operacija įprastu lygiu."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Užrakinta"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Priešai yra lėtesni ir ne tokie taiklūs, o įvykdę misiją gaunate standartinius apdovanojimus."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Įprastas"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Pasirinktas"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "Norite sudėtingesnio minų lauko operacijos etapo — ar išdrįsite žengti į mirtiną labirintą?\nSuteikiama daugiau apdovanojimų."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Sudėtinga, Minų laukas"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Atpažinkite nežinomą priešą, sustabdykite raketos paleidimą ir užtikrinkite, kad naujoji technologija nepateks į netinkamas rankas."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Operacija Virimo taškas"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "MODE"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "— Žaidimo režimas. Sužinokite daugiau paspaudę"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "Žaiskite vieni ir kovokite prieš DI valdomus priešus šioje epinėje istorijoje kartu su vadais iš 3 sektoriaus!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Iki renginio pabaigos liko {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "ISTORIJOS"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "MODE"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "— Žaidimo režimas. Sužinokite daugiau paspaudę"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "Specialūs suplanuoti scenarijai. Pasinerkite į kelionę po šarvuotų mašinų pasaulį ir parodykite savo stiprybę prieš dirbtinio intelekto valdomus priešininkus."
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "Istorijos"
+
+msgid "tooltips/task/active"
+msgstr "Aktyvi"
+
+msgid "tooltips/task/completed"
+msgstr "Įvykdyta"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Sąlygos nežinomos"
+
+msgid "tooltips/task/locked"
+msgstr "Užrakinta: %(timer)s"

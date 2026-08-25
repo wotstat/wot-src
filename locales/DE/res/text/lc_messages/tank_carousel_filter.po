@@ -1,0 +1,239 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "checkbox/inventory"
+msgstr "In der Garage"
+
+msgid "infotip/counter"
+msgstr "Anzahl passender Fahrzeuge: %(count)d von %(total)d"
+
+msgid "infotip/event"
+msgstr "Spezialfahrzeuge werden nicht angezeigt"
+
+msgid "infotip/header/description"
+msgstr "Zeigt Fahrzeuge an, welche die gewählten Kriterien erfüllen."
+
+msgid "infotip/header/title"
+msgstr "Fahrzeugfilter"
+
+msgid "infotip/levels"
+msgstr "Stufen:"
+
+msgid "infotip/nations"
+msgstr "Nationen:"
+
+msgid "infotip/only"
+msgstr "Nur folgende Fahrzeuge:"
+
+msgid "infotip/only/elite"
+msgstr "Elite"
+
+msgid "infotip/only/favorite"
+msgstr "Primär"
+
+msgid "infotip/only/premium"
+msgstr "Premium"
+
+msgid "infotip/rent"
+msgstr "Mietfahrzeuge werden nicht angezeigt"
+
+msgid "infotip/searchNameVehicle"
+msgstr "Nach Namen suchen:"
+
+msgid "infotip/vehicleTypes"
+msgstr "Typen:"
+
+msgid "popover/checkbox/battleRoyale"
+msgstr "Inkompatible Fahrzeuge verstecken"
+
+msgid "popover/checkbox/elite"
+msgstr "Elite"
+
+msgid "popover/checkbox/event"
+msgstr "Spezial"
+
+msgid "popover/checkbox/favorite"
+msgstr "Primär"
+
+msgid "popover/checkbox/premium"
+msgstr "Premium"
+
+msgid "popover/checkbox/rented"
+msgstr "Gemietet"
+
+msgid "popover/checkbox/unlock_available"
+msgstr "Nur erforschbar"
+
+msgid "popover/counter"
+msgstr "Angezeigte Fahrzeuge: %(count)s"
+
+msgid "popover/label/customization"
+msgstr "Anpassung"
+
+msgid "popover/label/hidden"
+msgstr "Mehr"
+
+msgid "popover/label/levels"
+msgstr "Stufe"
+
+msgid "popover/label/nations"
+msgstr "Nation"
+
+msgid "popover/label/progressions"
+msgstr "Battle Pass"
+
+msgid "popover/label/roles/AT-SPG"
+msgstr "Rollen für Jagdpanzer %(levels)s"
+
+msgid "popover/label/roles/heavyTank"
+msgstr "Rollen für Schwere Panzer %(levels)s"
+
+msgid "popover/label/roles/lightTank"
+msgstr "Rollen für Leichte Panzer %(levels)s"
+
+msgid "popover/label/roles/mediumTank"
+msgstr "Rollen für Mittlere Panzer %(levels)s"
+
+msgid "popover/label/searchNameVehicle"
+msgstr "Nach Namen suchen"
+
+msgid "popover/label/specials"
+msgstr "Spezial"
+
+msgid "popover/label/vehicleRole"
+msgstr "Rolle"
+
+msgid "popover/label/vehicleTypes"
+msgstr "Typ"
+
+msgid "popover/title"
+msgstr "Nach Parametern filtern"
+
+msgid "tooltip/battleRoyale/body"
+msgstr "Für Stählerner Jäger inkompatible Fahrzeuge anzeigen/verstecken"
+
+msgid "tooltip/battleRoyale/header"
+msgstr "Inkompatible Fahrzeuge verstecken"
+
+msgid "tooltip/bonus/body"
+msgstr "Fahrzeuge mit aktivem Erfahrungsmultiplikator anzeigen/verbergen."
+
+msgid "tooltip/bonus/header"
+msgstr "Bonuserfahrung"
+
+msgid "tooltip/clanRented/body"
+msgstr "Mietfahrzeuge für die Weltkarte und Gefechte um Festung anzeigen/ausblenden"
+
+msgid "tooltip/clanRented/header"
+msgstr "Mietfahrzeuge für Clangefechte"
+
+msgid "tooltip/crystals/body"
+msgstr "Zum verdienen von Anleihen verwendbare Fahrzeuge anzeigen/ausblenden"
+
+msgid "tooltip/crystals/header"
+msgstr "Fahrzeuge zum Verdienen von Anleihen"
+
+msgid "tooltip/customization/canInstallAttachments/body"
+msgstr "Passende Fahrzeuge für die Installation von 3D-Aufsätzen anzeigen/verbergen."
+
+msgid "tooltip/customization/own3DStyle/body"
+msgstr "Fahrzeuge, für die 3D-Stile vorhanden sind, anzeigen/verbergen."
+
+msgid "tooltip/elite/body"
+msgstr "Fahrzeugen anzeigen/verbergen, bei denen alle verfügbaren Module, Verbesserungen und technischen Zweige erforscht wurden, einschließlich aller Fahrzeuge der folgenden Stufe."
+
+msgid "tooltip/elite/header"
+msgstr "Elitefahrzeuge"
+
+msgid "tooltip/event/body"
+msgstr "Fahrzeuge für Spezialevents anzeigen/ausblenden"
+
+msgid "tooltip/event/header"
+msgstr "Spezialfahrzeuge"
+
+msgid "tooltip/favorite/body"
+msgstr "Nur Primärfahrzeuge anzeigen/ausblenden"
+
+msgid "tooltip/favorite/header"
+msgstr "Primärfahrzeuge"
+
+msgid "tooltip/gameMode/body"
+msgstr "Kästchen markieren, um passende Fahrzeuge für den Modus %(battleType)s anzuzeigen."
+
+msgid "tooltip/gameMode/header"
+msgstr "Verwüstung"
+
+msgid "tooltip/igr/body"
+msgstr "IGR-Fahrzeuge anzeigen/ausblenden"
+
+msgid "tooltip/igr/header"
+msgstr "IGR-Fahrzeuge"
+
+msgid "tooltip/inventory/body"
+msgstr "?empty?"
+
+msgid "tooltip/inventory/header"
+msgstr "?empty?"
+
+msgid "tooltip/isCommonProgression/body"
+msgstr "Fahrzeuge anzeigen, die geeignet sind, um Fortschrittspunkte zu verdienen oder Aufträge abzuschließen, die Fortschrittspunkte geben."
+
+msgid "tooltip/isCommonProgression/header"
+msgstr "Fahrzeuge des Battle Pass"
+
+msgid "tooltip/isCompetitiveProgression/body"
+msgstr "tooltip/isCompetitiveProgression/body"
+
+msgid "tooltip/isCompetitiveProgression/header"
+msgstr "tooltip/isCompetitiveProgression/header"
+
+msgid "tooltip/nations/body"
+msgstr "Fahrzeuge dieser Nation anzeigen/ausblenden"
+
+msgid "tooltip/params/body"
+msgstr "Konfigurieren Sie die Anzeige der Fahrzeuge nach Typ, Nation, Stufe und anderen Parametern."
+
+msgid "tooltip/params/header"
+msgstr "Nach Parametern filtern"
+
+msgid "tooltip/premium/body"
+msgstr "Nur Premium- und Belohnungsfahrzeuge anzeigen/ausblenden"
+
+msgid "tooltip/premium/header"
+msgstr "Premiumfahrzeuge"
+
+msgid "tooltip/ranked/body"
+msgstr "Für gewertete Gefechte geeignete Fahrzeuge anzeigen/ausblenden"
+
+msgid "tooltip/ranked/header"
+msgstr "Fahrzeuge für gewertete Gefechte"
+
+msgid "tooltip/rented/body"
+msgstr "Mietfahrzeuge anzeigen/ausblenden"
+
+msgid "tooltip/rented/header"
+msgstr "Mietfahrzeuge"
+
+msgid "tooltip/role/body"
+msgstr "Fahrzeuge dieser Rolle anzeigen/ausblenden"
+
+msgid "tooltip/rtsBattles/body"
+msgstr "Für das Event „Kunst der Strategie“ geeignete Fahrzeuge anzeigen/verbergen"
+
+msgid "tooltip/rtsBattles/header"
+msgstr "Inkompatible Fahrzeuge verbergen"
+
+msgid "tooltip/searchInput/body"
+msgstr "Der Fahrzeugname kann bis zu %(count)d Zeichen enthalten."
+
+msgid "tooltip/searchInput/header"
+msgstr "Nach Namen suchen"
+
+msgid "tooltip/toggleSwitchCarousel/body"
+msgstr "Wechselt zwischen ein- und zweireihigem Fahrzeugfeld."
+
+msgid "tooltip/toggleSwitchCarousel/header"
+msgstr "Fahrzeugfeld"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Fahrzeuge dieses Typs anzeigen/ausblenden"

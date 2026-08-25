@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Voertuig ontvangen"
+
+msgid "awardView/end"
+msgstr "EVENEMENT AFGELOPEN"
+
+msgid "awardView/info"
+msgstr "Stijlnummer"
+
+msgid "awardView/toHangar"
+msgstr "Bekijken in de garage"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) met een genummerde stijl"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "VOERTUIG ONTVANGEN"
+
+msgid "awardView/vehicleTitle"
+msgstr "VOERTUIG ONTVANGEN"
+
+msgid "commonTexts/aboutButton"
+msgstr "OVER HET EVENEMENT"
+
+msgid "commonTexts/closeBtn"
+msgstr "SLUITEN"
+
+msgid "commonTexts/eventTitle"
+msgstr "ASSEMBLAGEHAL"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Annuleren"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Uitgeven"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Er zijn geen voertuigen met genummerde stijlen meer. Je zult de %(vehicleName)s zonder nummer ontvangen.\nWeet je zeker dat je de middelen wilt uitgeven?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "Je zult de %(vehicleName)s zonder nummer ontvangen"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Terug naar de garage"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Alle uitgegeven middelen zullen binnenkort weer op je account worden bijgeschreven."
+
+msgid "confirm/NoVehicles/title"
+msgstr "Helaas, er zijn geen voertuigen meer"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Annuleren"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Uitgeven"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Voortgang na uitgave: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Middelen uitgeven?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Middelen terugkrijgen"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Alle uitgegeven middelen zullen weer op je account worden bijgeschreven, en je assemblagevoortgang zal worden gereset. Zolang het evenement loopt, kun je de middelen opnieuw uitgeven om een voertuig te krijgen."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Alle uitgegeven middelen terugkrijgen?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Alle uitgegeven middelen zullen op je account worden bijgeschreven, en je assemblagevoortgang zal worden gereset. De %(vehicleName) zal worden geselecteerd en je kunt middelen uitgeven om die te ontvangen."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Alle uitgegeven middelen terugkrijgen en de %(vehicleName) selecteren?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Selecteer voertuig"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "Je kunt tijdens het evenement beide voertuigen kopen."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "Tijdens het evenement kun je een bundel kopen die een voertuig met een genummerde 3D-stijl bevat."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "De eerste %(styleTanksCount) spelers zullen een voertuig met een genummerde 3D-stijl ontvangen,{{@ class $br}}{{/}}daarna zullen er %(withoutStyleTanksCount) voertuigen zonder een genummerde 3D-stijl worden geleverd."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "EVENEMENT AFGELOPEN"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "VOERTUIGEN ONTVANGEN"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "VOERTUIG ONTVANGEN"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Resterende voertuigen"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Dit voertuig staat al in je garage"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Voertuig ontvangen"
+
+msgid "eventInfo/tanksOver"
+msgstr "ER ZIJN GEEN VOERTUIGEN MEER"
+
+msgid "eventInfo/top/styleText"
+msgstr "Met nummer"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Resterende voertuigen met nummer"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "De levering van %(regularRewardVehiclesCount) voertuigen met een standaard configuratie\nzal beginnen zodra er geen genummerde voertuigen meer beschikbaar zijn."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "Met standaard configuratie"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Resterende voertuigen"
+
+msgid "mainView/affirmative/button"
+msgstr "Begrepen"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "Naar terugkrijgen van middelen"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Verzamelde middelen:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Verzamelde middelen voor:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Terug naar de garage"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Selecteer middelen"
+
+msgid "mainView/footer/description/text"
+msgstr "Als er geen voertuigen meer beschikbaar zijn, zul je alle middelen terugkrijgen."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "Jouw accounttype kan niet deelnemen aan het evenement."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Je kunt niet deelnemen"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Je kunt beide voertuigen kopen, maar je kunt slechts in één tegelijk middelen investeren."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Selecteer een voertuig en investeer de benodigde middelen om het te assembleren, maar wees snel!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Besteed de middelen die nodig zijn voor de assemblage en krijg als beloning de %(vehicleName)!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Alle uitgegeven middelen zullen binnenkort weer op je account worden bijgeschreven."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "Helaas, er zijn geen voertuigen meer"
+
+msgid "mainView/navbar/backBtn"
+msgstr "NAAR DE ASSEMBLAGEHAL"
+
+msgid "mainView/navbar/title"
+msgstr "ASSEMBLAGEHAL"
+
+msgid "mainView/preview/label"
+msgstr "Voorvertoning"
+
+msgid "mainView/timer/lastUntil"
+msgstr "Tot"
+
+msgid "mainView/timer/leftTime"
+msgstr "Resterende tijd:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Sluiten"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Middelen uitgeven"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Gegevens tijdelijk onbeschikbaar"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Er zijn geen voertuigen meer"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Resterende voertuigen met nummer: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Resterende voertuigen: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Universeel"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Maximum aantal middelen %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "Maximaal %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Middelen verzameld %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Blauwdrukfragmenten"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Valuta"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "MIDDELEN VERZAMELEN"
+
+msgid "tankPreview/button"
+msgstr "Selecteer middelen"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "Tijdens het evenement kun je een bundel kopen die een voertuig met een genummerde 3D-stijl bevat."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "De eerste %(topPlayers) spelers zullen een voertuig met een genummerde 3D-stijl ontvangen,\ndaarna zullen er %(basePlayers) voertuigen zonder een genummerde 3D-stijl worden geleverd."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "Je kunt tijdens het evenement beide voertuigen kopen."
+
+msgid "tankPreview/title"
+msgstr "Verzamel en besteed 100% van de benodigde middelen en krijg de %(vehicleInfo)!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Je kunt op ieder moment de door jou uitgegeven middelen bekijken, en indien nodig ze weer op je account laten bijschrijven door op de \"Middelen terugkrijgen\" knop te klikken.\nJe assemblagevoortgang zal dan worden gereset, maar je kunt deze of andere middelen opnieuw uitgeven om alsnog een voertuig te ontvangen."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Terugkrijgen van middelen"
+
+msgid "tooltips/counter/error/text"
+msgstr "Gegevens tijdelijk onbeschikbaar.\nWe werken aan een oplossing."
+
+msgid "tooltips/counter/warning/text"
+msgstr "De hoeveelheid wordt met vertraging getoond en kan afwijken van de daadwerkelijke hoeveelheid voertuigen."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Geef middelen uit en ontvang de %(vehicleName1) en %(vehicleName2). Het aantal voertuigen is beperkt."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Geef middelen uit en ontvang de %(vehicleName) met een genummerde 3D-stijl. Het aantal voertuigen is beperkt."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Komt beschikbaar: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s - %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Beschikbaar voor %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Beschikbaar over: %(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "Assemblagehal"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Klik voor meer informatie over het evenement"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Selecteer een voertuig om er middelen in te investeren.\nAls de middelen al in een ander voertuig zijn geïnvesteerd, zullen ze weer op je account worden bijgeschreven."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Resterende tijd: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "Om een voertuig te assembleren, moet je 100% van de benodigde middelen uitgeven. De verhouding van de verschillende soorten middelen kan worden gewijzigd."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "Als er geen voertuigen meer beschikbaar zijn, zul je alle middelen terugkrijgen."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Geselecteerd"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Uitgegeven"
+
+msgid "tooltips/progressbar/title"
+msgstr "Middelen verzamelen"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "Het uitgeven van middelen is tijdelijk niet beschikbaar. Probeer het later alsjeblieft opnieuw."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Universele en nationale fragmenten."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Blauwdrukfragmenten"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Uitgereikt voor actieve acties in het gevecht. Kan ook met echt geld worden gekocht."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Valuta"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Uitgegeven:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "De maximale hoeveelheid die van dit middel kan worden uitgegeven: %(maxAmount)d."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Je hebt de hoeveelheid middelen verzameld die nodig is om een voertuig te ontvangen. Je kunt één soort middel verwijderen en een ander middel selecteren."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Verzamelde middelen"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "Dit is een uniek voertuig met zijn eigen nummer en speciale visuele modificatie."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "Het nummer wordt getoond op beide kanten van het kanon en op de achterkant van de romp. Nummers op identieke voertuigen worden nooit herhaald en zijn beperkt."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "De onderscheidende eigenschappen van je voertuig kunnen worden verborgen. De genummerde 3D-stijl kan op het Aanpassingen-scherm worden verwijderd."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Voertuig met een nummer"

@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "actionStub/name"
+msgstr "Modifikācija"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "Nekavējoties atjauno %(immediatelyRestore)s tanka dzīvības punktus. Visā spējas %(duration)s s darbības ilgums laikā visa ienākošā šāviņu un kaujas spēju radītā bojājumu summa tiks uzkrāta un pārvērsta dzīvības punktos, kā arī papildus %(restoringCoefficient)s no kopējā saņemtā bojājuma, kad spēja beigsies.\n\n*Pārvērsto dzīvības punktu atjaunošana ietekmē arī sabiedroto tankus nelielā diapazonā."
+
+msgid "adaptationHealthRestore/descr"
+msgstr "Nekavējoties atjauno %(immediatelyRestore)s tanka dzīvības punktus. Visā spējas %(duration)s s darbības ilgums laikā visa ienākošā šāviņu un kaujas spēju radītā bojājumu summa tiks uzkrāta un pārvērsta dzīvības punktos, kā arī papildus %(restoringCoefficient)s no kopējā saņemtā bojājuma, kad spēja beigsies.\n\n*Pārvērsto dzīvības punktu atjaunošana ietekmē arī sabiedroto tankus nelielā diapazonā."
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "Nekavējoties {green_Open}atjauno %(immediatelyRestore)s{green_Close} tanka dzīvības punktus. Visā spējas {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} darbības ilgums, visa ienākošā apvalku un kaujas spēju radītā bojājumu summa tiks uzkrāta un pārvērsta dzīvības punktos plus {green_Open}papildu %(restoringCoefficient)s no kopējā saņemtā bojājuma{green_Close} pēc spējas beigām.\n\n*Pārvērstā HP atjaunošana ietekmē arī sabiedroto tankus nelielā diapazonā."
+
+msgid "adaptationHealthRestore/name"
+msgstr "Adaptīvas Bruņas"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "Nekavējoties {green_Open}atjauno %(immediatelyRestore)s{green_Close} tanka dzīvības punktus. Visā spējas {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} darbības ilgums, visa ienākošā apvalku un kaujas spēju radītā bojājumu summa tiks uzkrāta un pārvērsta dzīvības punktos plus {green_Open}papildu %(restoringCoefficient)s no kopējā saņemtā bojājuma{green_Close} pēc spējas beigām.\n\n*Pārvērstā HP atjaunošana ietekmē arī sabiedroto tankus nelielā diapazonā."
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s stacionāra vai kustīga tanka maskēšanai ar uzstādītu Zema Trokšņa Izplūdes Sistēmu (jebkura klase) vai Balvu Izplūdes Sistēmu."
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "Uzlabo Zema Trokšņa Izplūdes Sistēmas vai Balvu Izplūdes Sistēmas efektu uz kaujas laiku. Direktīva strādā tikai, ja jums ir uzstādīts attiecīgs ekipējums."
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "Izplūdes Gāzu Izolācija"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "Palielina stacionāra vai kustoša tanka maskēšanos"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "Efektivitāte ir atkarīga no tanka tipa. Palielina stacionāra vai kustoša tanka maskēšanos. Noderīgs priekš aktīvas izlūkošanas, kā arī priekš pasīvas izlūkošanas no riskantām pozīcijām."
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "Zema Trokšņa Izplūdes Sistēma"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "Palielina stacionāra vai kustoša tanka maskēšanos."
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "Zema Trokšņa Izplūdes Sistēma Klase 1"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "Zema Trokšņa Izplūdes Sistēma Klase 2"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "Zema Trokšņa Izplūdes Sistēma Klase 3"
+
+msgid "additional_armor_plates_1/name"
+msgstr "Papildus Bruņu Apvalks (Tips 1)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "Papildus Bruņu Apvalks (Tips 2)"
+
+msgid "afterburning/descr"
+msgstr "Palielina jūsu tanka ātrumu un paātrinājumu uz ierobežotu laiku."
+
+msgid "afterburning/name"
+msgstr "Turbo"
+
+msgid "aimingStabilizer/long_special"
+msgstr "Samazināt jūsu ieroča izkliedēšanu ir kritiski: jo mazāka sākotnējā izkliedēšana, jo mazāks tēmēšanas aplis un mazāk laika ir nepieciešams pilnai ieroča tēmēšanai. Papildus, nesagatavotam šāvienam (kas tiek šauts bez pilnas tēmēšanas vai kustībā) ir labāka iespēja trāpīt mērķim."
+
+msgid "aimingStabilizer/name"
+msgstr "Vertikālais Stabilizators"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s no izkliedes pēc šaušanas, kustības un torņa griešanās laikā, ja ir uzstādīts Vertikālā Stabilizatora modulis, Stabilizēšanas Iekārtu Sistēma vai Balvu Stabilizators."
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "Uzlabo Vertikālā Stabilizatora (jebkura klase), Stabilizācijas Iekārtu Sistēmas un Balvu Stabilizatora efektu uz visu kaujas laiku. Lai uzstādītu un aktivizētu šo direktīvu, šīm iekārtām jābūt uzstādītām uz jūsu tanka."
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "Stabilizētāja ieeļļošana"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "Uzlabo stabilizatora efektu"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "Vertikālais Stabilizators Klase 1"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "Vertikālais Stabilizators Klase 2"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "Vertikālais Stabilizators Klase 1"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "Vertikālais Stabilizators Klase 2"
+
+msgid "antifragmentationLining/long_special"
+msgstr "Spala apmales absorbē bojājumus; tas nozīmē tie samazina bojājumus no taranēšanas un sprāgstošām lodēm. Spala apmales būs izdevīgi smagajiem tankiem ar uzticamām bruņām un milzīgu taranēšanas potenciālu kas cīnās pārsvarā tuvcīņā."
+
+msgid "antifragmentationLining/name"
+msgstr "Šķembu Aizsargs"
+
+msgid "antifragmentationLining/short_special"
+msgstr "Aizsargā tanku un apkalpi no sprāgstošajām čaulītēm, ievainojumiem, apdullināšanas un taranēšanas"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "Supersmags pretšķembu pārklājums"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "Smags pretšķembu pārklājums"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "Vidējs pretšķembu pārklājums"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "Viegls pretšķembu pārklājums"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "Izplūdes Sistēma"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "Stabilizators"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "Šķembu Aizsargs"
+
+msgid "archetype/camouflageNet/name"
+msgstr "Maskēšanās tīkls"
+
+msgid "archetype/coatedOptics/name"
+msgstr "Optika"
+
+msgid "archetype/commandersView/name"
+msgstr "Redzamības Sistēma"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "Tēmēšanas Piedziņas Pastiprinātājs"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "Sacietēšana"
+
+msgid "archetype/grousers/name"
+msgstr "Pieši"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "Konfigurācija"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "Radio Komplekts"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "Rotācijas Mehānisms"
+
+msgid "archetype/improvedSights/name"
+msgstr "Tēmēšana"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "Ventilācija"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "Uguns Kontroles Sistēma"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "Izdzīvošanas Uzlabošanas Komplekts"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "Precizitātes Uzlabošanas Sistēma"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "Mobilitātes Uzlabošanas Sistēma"
+
+msgid "archetype/stereoscope/name"
+msgstr "Stereoskopiskais tālskatis"
+
+msgid "archetype/tankRammer/name"
+msgstr "Grūdējs"
+
+msgid "archetype/template"
+msgstr "\"%(name)s\" kategorijas iekārta"
+
+msgid "archetype/turbocharger/name"
+msgstr "Turbokompresors"
+
+msgid "artillery/longDescr"
+msgstr "Komandē artilērijai šaut pa mazu zonu ar HE čaulītēm. Tanki trieciena centrā saņem visvairāk bojājumus. Īpaši efektīvs preti smagi bruņotiem tankiem."
+
+msgid "artillery/name"
+msgstr "Artilērijas trieciens"
+
+msgid "artillery/shortDescr"
+msgstr "Izraisa ievērojamus bojājumus pretinieku tankiem iekš maza rādiusa."
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s dzinēja aizdegšanās iespējai"
+
+msgid "autoExtinguishers/descr"
+msgstr "Automātiska ugunsgrēka nodzēšana jūsu bruņutehnikā."
+
+msgid "autoExtinguishers/long_special"
+msgstr "Automātiski nodzēš uguni kā arī samazina iespēju tankam aizdegties. Šis palīgmateriāls ir piemērots visiem tanku tipiem no visām nācijām."
+
+msgid "autoExtinguishers/name"
+msgstr "Automātisks ugunsdzēšamais aparāts"
+
+msgid "autoExtinguishers/onUse"
+msgstr "Automātiski nodzēš ugunsgrēku bruņutehnikā. Var izmantot vairākas reizes kaujā. Ja aprīkojums kaut reizi kaujā tika izmantots, pēc kaujas tas tiek izņemts."
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "Automātiska uguns nodzēšana"
+
+msgid "berserker/battleDescr"
+msgstr "Palielina cauršaušanas spēju un uguns intensitāti par %(gunPiercing)s reizēm, kā arī uzlabo šāviņa uzlikšanas efektivitāti un stabilizāciju par %(gunAimingTime)s, bet samazina tava tanka HP par %(healthDebuff)stā %(duration)s s darbības laikā.\n\n*Berserker spējas radītie bojājumi nevar iznīcināt tavu tanku."
+
+msgid "berserker/descr"
+msgstr "Palielina cauršaušanas un uguns ātrumu %(gunPiercing)s reizes, tikmēr arī palielinot ieroča nolikšanas efektivitāti un stabilizāciju par %(gunAimingTime)s, bet noņem %(healthDebuff)s no jūsu dzīvības punktiem tā %(duration)s s ilguma laikā.\n\n*Izdarītie bojājumi no Berserkera spējas nevar iznīcināt jūsu tanku."
+
+msgid "berserker/longDescr"
+msgstr "Palielina caursišanu un šaušanas ātrumu {green_Open}par %(gunPiercing)s reizēm{green_Close}, vienlaikus palielinot ieroča mērķēšanas efektivitāti un stabilizāciju {green_Open}par %(gunAimingTime)s{green_Close}, bet atņem {red_Open}%(healthDebuff)s{red_Close} no jūsu tanka kopējās HP tā {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} ilguma laikā.\n\n*Berserker spējas radītais bojājums nevar iznīcināt jūsu tanku."
+
+msgid "berserker/name"
+msgstr "Berserkeris"
+
+msgid "berserker/shortDescr"
+msgstr "Palielina caursišanu un šaušanas ātrumu {green_Open}par %(gunPiercing)s reizēm{green_Close}, vienlaikus palielinot ieroča mērķēšanas efektivitāti un stabilizāciju {green_Open}par %(gunAimingTime)s{green_Close}, bet atņem {red_Open}%(healthDebuff)s{red_Close} no jūsu tanka kopējās HP tā {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} ilguma laikā.\n\n*Berserker spējas radītais bojājums nevar iznīcināt jūsu tanku."
+
+msgid "blackout_headlights_1/name"
+msgstr "Lukturu Aptumšošana (Tips 1)"
+
+msgid "bomber/longDescr"
+msgstr "Komandē sauszemes uzbruka lidmašīnai nomest bumbas izvēlētajā zonā, apdullinot un izraisot bojājumus pretinieku tankiem. Tanki trieciena centrā saņem visvairāk bojājumus. Īpaši efektīvs pret viegli un vidēji bruņotiem tankiem."
+
+msgid "bomber/name"
+msgstr "Uzlidojums"
+
+msgid "bomber/shortDescr"
+msgstr "Apdullina pretinieku tankus un izraisa vidējus bojājumus lielā rādiusā."
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "Pakāpeniski atjauno %(healPerTickDuration)s no jūsu tanka dzīvības punktiem %(duration)s s laikā. Var pārtraukt saņemt bojājumus."
+
+msgid "brRegenerationKit/descr"
+msgstr "Pakāpeniski atjauno %(healPerTickDuration)s no jūsu tanka dzīvības punktiem %(duration)s s laikā. Var pārtraukt saņemt bojājumus."
+
+msgid "brRegenerationKit/long_special"
+msgstr "Pakāpeniski {green_Open}atjauno %(healPerTickDuration)s{green_Close} no jūsu tanka dzīvības punktiem {whiteSpanish_Open} %(duration)s s laikā.{whiteSpanish_Close} Var pārtraukt saņemt bojājumus."
+
+msgid "brRegenerationKit/name"
+msgstr "Atjaunošana"
+
+msgid "brRegenerationKit/short_special"
+msgstr "Pakāpeniski {green_Open}atjauno %(healPerTickDuration)s{green_Close} no jūsu tanka dzīvības punktiem {whiteSpanish_Open} %(duration)s s laikā.{whiteSpanish_Close} Var pārtraukt saņemt bojājumus."
+
+msgid "brRepairkit/descr"
+msgstr "Salabo moduļus un noņem negatīvus efektus."
+
+msgid "brRepairkit/long_special"
+msgstr "Salabo moduļus un noņem negatīvus efektus."
+
+msgid "brRepairkit/name"
+msgstr "Remonta Komplekts"
+
+msgid "brRepairkit/short_special"
+msgstr "Salabo moduļus un noņem negatīvus efektus."
+
+msgid "br_bomber/battleDescr"
+msgstr "Apdullina un izdara %(minDamage)s līdz %(maxDamage)s dzīvības punktu bojājumus pretinieku tankiem. Tanki trieciena zonas centrā tiek bojāti smagāk.\n\n*Ir %(delay)s s aizture pirms trieciena."
+
+msgid "br_bomber/descr"
+msgstr "Apdullina un izdara %(minDamage)s līdz %(maxDamage)s dzīvības punktu bojājumus pretinieku tankiem. Tanki trieciena zonas centrā tiek bojāti smagāk.\n\n*Ir %(delay)s s aizture pirms trieciena."
+
+msgid "br_bomber/longDescr"
+msgstr "Apdullina un izraisa {whiteSpanish_Open}%(minDamage)s līdz %(maxDamage)s HP bojājumus{whiteSpanish_Close} ienaidnieka tankiem. Tanka trieciena zonas centrā tiek bojāti smagāk.\n\n*Pirms trieciena ir %(delay)s s aizkave."
+
+msgid "br_bomber/name"
+msgstr "Uzlidojums"
+
+msgid "br_bomber/shortDescr"
+msgstr "Apdullina un izraisa {whiteSpanish_Open}%(minDamage)s līdz %(maxDamage)s HP bojājumus{whiteSpanish_Close} ienaidnieka tankiem. Tanka trieciena zonas centrā tiek bojāti smagāk.\n\n*Pirms trieciena ir %(delay)s s aizkave."
+
+msgid "br_minefield/battleDescr"
+msgstr "Izvieto aktīvu mīnu lauku izvēlētajā zonā uz %(duration)s s. Pretinieka tanki, kas nonāk saskarē ar mīnām, tiks apdullināti un saņems sprādziena radītus bojājumus.\n\n*Mīnas var iznīcināt, tās apšaudot. Mīnas, kas izvietotas zem pretinieka tankiem, NESPRĀGS."
+
+msgid "br_minefield/descr"
+msgstr "Izvieto aktīvu mīnu lauku izvēlētajā zonā uz %(duration)s s. Pretinieka tanki, kas nonāk saskarē ar mīnām, tiks apdullināti un saņems sprādziena radītus bojājumus.\n\n*Mīnas var iznīcināt, tās apšaudot. Mīnas, kas izvietotas zem pretinieka tankiem, NESPRĀGS."
+
+msgid "br_minefield/longDescr"
+msgstr "Izvieto aktīvu mīnu lauku izvēlētajā zonā {whiteSpanish_Open}uz %(duration)s s{whiteSpanish_Close}. Pretinieka tanki, kas nonāk saskarē ar mīnām, tiks apdullināti un saņems sprādziena radītus bojājumus.\n\n*Mīnas var iznīcināt, uz tām šaujot. Mīnas, kas izvietotas zem pretinieka tankiem, NESPRĀGS."
+
+msgid "br_minefield/name"
+msgstr "Mīnu Lauks"
+
+msgid "br_minefield/shortDescr"
+msgstr "Izvieto aktīvu mīnu lauku izvēlētajā zonā {whiteSpanish_Open}uz %(duration)s s{whiteSpanish_Close}. Pretinieka tanki, kas nonāk saskarē ar mīnām, tiks apdullināti un saņems sprādziena radītus bojājumus.\n\n*Mīnas var iznīcināt, uz tām šaujot. Mīnas, kas izvietotas zem pretinieka tankiem, NESPRĀGS."
+
+msgid "br_respawn/name"
+msgstr "Atdzimšana"
+
+msgid "br_respawn/platoon/descr"
+msgstr "Ļauj jums tikt atpakaļ uz kauju pēc jūsu tanka iznīcināšanas. Šī mehānika strādā pirmajās %(duration)s kaujas minūtēs.\n\nLai atdzīvinātu sabiedroto, palieciet ārpus kaujas %(timeToResurrect)s s. Atdzimšanas lādiņi tiek dalīti starp Vada locekļiem."
+
+msgid "br_respawn/solo/descr"
+msgstr "Ļauj jums tikt atpakaļ uz kauju pēc jūsu tanka iznīcināšanas. Šī mehānika strādā pirmajās %(duration)s kaujas minūtēs.\n\nPēc iznīcināšanas, jūsu tanks atdzimst automātiski."
+
+msgid "br_smoke/battleDescr"
+msgstr "Pievieno %(duration)s-sekunžu apslēpšanas bonusu visiem tankiem iekš palīgmateriāla diapazona."
+
+msgid "br_smoke/descr"
+msgstr "Pievieno apslēpšanas bonusu visiem tankiem iekš palīgmateriāla diapazona."
+
+msgid "br_smoke/longDescr"
+msgstr "Pievieno %(duration)s-sekunžu apslēpšanas bonusu visiem tankiem iekš palīgmateriāla diapazona."
+
+msgid "br_smoke/name"
+msgstr "Dūmu aizsegs"
+
+msgid "br_smoke/shortDescr"
+msgstr "Pievieno apslēpšanas bonusu visiem tankiem iekš palīgmateriāla diapazona."
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "Piešķir maskēšanās bonusu visiem tankiem, kas atrodas palīgmateriāla darbības rādiusā, kā arī nodara bojājumus VISIEM tankiem tā darbības rādiusā %(damagePerTick)s apmērā no to kopējā HP sekundē. Darbojas %(duration)s s.\n\n*Kodīgas Miglas bojājumi nepārtrauc laupījuma paņemšanu un neiznīcina tankus, atstājot tiem vismaz 1 HP."
+
+msgid "br_smoke_with_damage/descr"
+msgstr "Piešķir maskēšanās bonusu visiem tankiem, kas atrodas palīgmateriāla darbības rādiusā, kā arī nodara bojājumus VISIEM tankiem tā darbības rādiusā %(damagePerTick)s apmērā no to kopējā HP sekundē. Darbojas %(duration)s s.\n\n*Kodīgas Miglas bojājumi nepārtrauc laupījuma paņemšanu un neiznīcina tankus, atstājot tiem vismaz 1 HP."
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "Pievieno maskēšanās bonusu visiem tankiem patēriņa preces darbības zonā, kā arī bojā VISUS tankus tās darbības zonā {whiteSpanish_Open}par %(damagePerTick)s {whiteSpanish_Close}no to kopējās HP sekundē. Ilgst {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}\n\n*Kodīga Migla neaptur laupījuma savākšanu un neiznīcina tankus, atstājot tiem vismaz 1 HP."
+
+msgid "br_smoke_with_damage/name"
+msgstr "Kodīga Migla"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "Pievieno maskēšanās bonusu visiem tankiem patēriņa preces darbības zonā, kā arī bojā VISUS tankus tās darbības zonā {whiteSpanish_Open}par %(damagePerTick)s {whiteSpanish_Close}no to kopējās HP sekundē. Ilgst {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}\n\n*Kodīga Migla neaptur laupījuma savākšanu un neiznīcina tankus, atstājot tiem vismaz 1 HP."
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s moduļu remonta ātrumam"
+
+msgid "builtinRepairkit/long_special"
+msgstr "Aktivizācijas laikā salabo visus bojātos moduļus. Pasīvais efekts palielina remonta ātrumu. Šis palīgmateriāls ir piemērots noteiktiem tankiem."
+
+msgid "builtinRepairkit/name"
+msgstr "Standarta lielais remonta komplekts"
+
+msgid "builtinRepairkit/onUse"
+msgstr "Visu bojāto moduļu remonts. Var tikt izmantots vairākas reizes kaujā. Nevar iztērēt.\nŠi palīgmateriālu nevar noņemt, bet to var pārvietot uz citu vietu."
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "Sniedz papildus 10% tanka maskēšanai"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "Sniedz visiem apkalpes locekļiem Maskēšanās iemaņu trenētu līdz 100%"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "Maskēšanās iemaņa samazina redzamību nekustīgiem un kustīgiem tankiem bisu kaujas laiku. Kad iemaņa ir trenēta līdz 100%, lietotā direktīva palielina tā efektu; ja nē, direktīva dod jūsu tankam iemaņu trenētu līdz 100%."
+
+msgid "camouflageBattleBooster/name"
+msgstr "Apvidus aizsegs"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "Sniedz Maskēšanās iemaņu trenētu līdz 100% vai palielina tās efektu"
+
+msgid "camouflageNet/battleDescr"
+msgstr "Palielina stacionāra tanka maskēšanos 3 s pēc tā apstāšanās"
+
+msgid "camouflageNet/long_special"
+msgstr "Efektivitāte ir atkarīga no tanka tipa. Kamuflāžas Tīkls galvenokārt ir noderīgs priekš zaglīgiem tankiem: Artilērijas un tanku iznīcinātāji ar zemu siluetu. Tas palielina Maskēšanās iemaņas efektu. To apvienošana sniegs labu bonusu jūsu tankam. Kamuflāžas Tīkls aktivizējas 3 sekundes pēc tanka apstāšanās."
+
+msgid "camouflageNet/name"
+msgstr "Maskēšanās tīkls"
+
+msgid "camouflageNet/short_special"
+msgstr "Palielina stacionāra tanka maskēšanos"
+
+msgid "camouflageNet_tier2/name"
+msgstr "Kamuflāžas Tīkls Klase 2"
+
+msgid "camouflageNet_tier3/name"
+msgstr "Kamuflāžas Tīkls Klase 3"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} apkalpes efektivitātes bonusam uz kaujas gaitu."
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} apkalpes efektivitātes bonusam."
+
+msgid "chocolate/long_special"
+msgstr "Automātiski aktivizēts kaujas sākumā un nodrošina efektu visu kaujas laiku. Derīgs tikai Vācu tankiem."
+
+msgid "chocolate/name"
+msgstr "Šokolāde"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "Piemērots tikai Vācu tankiem."
+
+msgid "chocolate/short_special"
+msgstr "Uzlabo Vācu apkalpes sniegumu"
+
+msgid "clingBrander/battleDescr"
+msgstr "Izsauc autonomu tanku, kas aprīkots ar Drauga vai Ienaidnieka Identifikācijas sistēmu, kas vajās un uzbruks tuvākajam ienaidniekam uz līdz pat %(botLifeTime)s s.\n\n*Šo tanku var iznīcināt."
+
+msgid "clingBrander/descr"
+msgstr "Izsauc autonomu tanku, kas aprīkots ar savējais vai ienaidnieks atpazīšanas sistēmu un līdz pat %(botLifeTime)s s vajās un uzbruks tuvākajam ienaidniekam.\n\n*Šo tanku var iznīcināt."
+
+msgid "clingBrander/longDescr"
+msgstr "Izsauc autonomu tanku, kas aprīkots ar “savējais–ienaidnieks” identifikācijas sistēmu un vajās un uzbruks tuvākajam pretiniekam {whiteSpanish_Open}līdz %(botLifeTime)s s.{whiteSpanish_Close}\n\n*Šo tanku var iznīcināt."
+
+msgid "clingBrander/name"
+msgstr "Kaujas Lauka Robots"
+
+msgid "clingBrander/shortDescr"
+msgstr "Izsauc autonomu tanku, kas aprīkots ar “savējais–ienaidnieks” identifikācijas sistēmu un vajās un uzbruks tuvākajam pretiniekam {whiteSpanish_Open}līdz %(botLifeTime)s s.{whiteSpanish_Close}\n\n*Šo tanku var iznīcināt."
+
+msgid "clutches_replace_1/name"
+msgstr "Berzes Savienotāju Nomaiņa (Tips 1)"
+
+msgid "clutches_replace_2/name"
+msgstr "Berzes Savienotāju Nomaiņa (Tips 2)"
+
+msgid "coatedOptics/long_special"
+msgstr "Pretēji no Binokļa Teleskopa, Pārklātā optika (jebkura tipa) dod mazāku bet pastāvīgu bonusu kas nepazūd kustoties. Rezultātā, Pārklātā optika ir augsti izdevīga tankiem ar aktīvu speles stilu-vieglie un vidējie tanki."
+
+msgid "coatedOptics/name"
+msgstr "Dzidrināta optika"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s skata attālumam (līdz 445 m), ja ir uzstādīts Dzidrinātā Optika (jebkura klase), Eksperimentālā Optika vai Balvu Optika modulis."
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "Uzlabo Pārklātās Optikas, Eksperimentālās Optikas vai Balvu Optikas efektu uz visu kaujas laiku. Lai uzstādītu un aktivizētu šo direktīvu, šīm iekārtām jābūt uzstādītām uz jūsu tanka."
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "Optikas kalibrācija"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "Uzlabo optikas efektu"
+
+msgid "coatedOptics_tier1/name"
+msgstr "Pārklātā Optika Klase 1"
+
+msgid "coatedOptics_tier2/name"
+msgstr "Pārklātā Optika Klase 2"
+
+msgid "coatedOptics_tier3/name"
+msgstr "Pārklātā Optika Klase 3"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} apkalpes efektivitātes bonusam uz kaujas gaitu."
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} apkalpes efektivitātes bonusam."
+
+msgid "cocacola/long_special"
+msgstr "Automātiski aktivizējas spēles sākumā un nodrošina efektu visu kaujas laiku. Derīgs tikai A.S.V. tankiem."
+
+msgid "cocacola/name"
+msgstr "Koka-kolas kaste"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "Piemērots tikai Amerikāņu tankiem."
+
+msgid "cocacola/short_special"
+msgstr "Uzlabo A.S.V. apkalpes sniegumu"
+
+msgid "commandersView/long_special"
+msgstr "Samazina kustošu pretinieku un lapotnes maskēšanās koeficientus izlūkošanas laikā. Šis ļauj jums pamanīt kustīgus pretiniekus no lielāka attāluma un efektīvi pamanīt pretiniekus, kas ir apslēpti ar krūmiem vai nokritušiem kokiem."
+
+msgid "commandersView/name"
+msgstr "Komandiera Redzes Sistēma"
+
+msgid "commandersView/short_special"
+msgstr "Samazina pretinieku tanku maskēšanos, vai nu kustošu vai aizsegtu ar lapotnēm"
+
+msgid "corrodingShot/battleDescr"
+msgstr "Pievieno kodīgas īpašības čaulītei, kas palielina tās cauršaušanas un bojājumu potenciālu. Izdarot bojājumus pretinieku tankam, čaulīte piemēro pagaidu efektu tam, noņemot līdz pat %(damagePerDotEffectDuration)s no pretinieka dzīvības punktiem tās %(dotEffectDuration)s s ilgumā.\n\n*Negatīvos efektus var noņemt ar Remonta Komplektu."
+
+msgid "corrodingShot/descr"
+msgstr "Pievieno čaulai korozijas īpašības, kas palielina tās caursišanas un bojājumu potenciālu. Kad tiek nodarīti bojājumi ienaidnieka tankam, čaula uzliek tam īslaicīgu efektu, atņemot līdz %(damagePerDotEffectDuration)s no ienaidnieka tanka HP tā %(dotEffectDuration)s s darbības ilgums laikā.\n\n*Negatīvo efektu var noņemt ar Remonta komplektu."
+
+msgid "corrodingShot/longDescr"
+msgstr "Pievieno korozijas īpašības čaulai, kas palielina tās caurlaidību un bojājumu potenciālu. Kad tiek nodarīti bojājumi ienaidnieka transportlīdzeklim, čaula uzliek tam īslaicīgu efektu, atņemot {whiteSpanish_Open}līdz %(damagePerDotEffectDuration)s{whiteSpanish_Close} ienaidnieka tanka HP {whiteSpanish_Open}tā %(dotEffectDuration)s s{whiteSpanish_Close} ilgumā.\n\n*Negatīvo efektu var noņemt ar Remonta komplektu."
+
+msgid "corrodingShot/name"
+msgstr "Skābes Čaulīte"
+
+msgid "corrodingShot/shortDescr"
+msgstr "Pievieno korozijas īpašības čaulai, kas palielina tās caurlaidību un bojājumu potenciālu. Kad tiek nodarīti bojājumi ienaidnieka transportlīdzeklim, čaula uzliek tam īslaicīgu efektu, atņemot {whiteSpanish_Open}līdz %(damagePerDotEffectDuration)s{whiteSpanish_Close} ienaidnieka tanka HP {whiteSpanish_Open}tā %(dotEffectDuration)s s{whiteSpanish_Close} ilgumā.\n\n*Negatīvo efektu var noņemt ar Remonta komplektu."
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "Pastiprina"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "Komandiera Funkcija"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} „{name}”"
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "iemaņu:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "Dod"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "iemaņu:"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "Vertikālā Stabilizatora uzlabota versija ({colorTagOpen}–20%{colorTagClose} no izkliedēšanas pēc šaušanas, kustības un torņa rotācijas laikā), kas dod stiprāku efektu: {colorTagOpen}–27.5%{colorTagClose} no izkliedēšanas pēc šaušanas, kustības un torņa rotācijas laikā. Šī iekārta ir piemērota tankiem no visām nācijām un noteiktiem tipiem. Var tikt demontēts tikai par bonām."
+
+msgid "deluxAimingStabilizer/name"
+msgstr "Stabilizēšanas ierīču sistēma"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "Pārklātās Optikas uzlabota versija ({colorTagOpen}+10%{colorTagClose} skata attālumam), kas dod stiprāku efektu: {colorTagOpen}+13.5%{colorTagClose} skata attālumam. Šī iekārta ir piemērota visa veida tankiem no visām nācijām. Var tikt demontēts tikai par bonām."
+
+msgid "deluxCoatedOptics/name"
+msgstr "Eksperimentāla optika"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "Tēmēšanas Piedziņas Pastiprinātāja uzlabota versija ({colorTagOpen}+10%{colorTagClose} tēmēšanas ātrumam), kas dod stiprāku efektu: {colorTagOpen}+13.5%{colorTagClose} tēmēšanas ātrumam. Šī iekārta ir piemērota visa veida tankiem no visām nācijām. Var tikt demontēts tikai par bonām."
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "Nodilumizturīgs tēmēšanas piedziņas pastiprinātājs"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "Modificētas Konfigurācijas analogs, kas sniedz stiprāku efektu. Šī iekārta ir piemērota visu veidu un nāciju tankiem. Var tikt demontēts tikai par bonām."
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "Uzlabota Konfigurācija"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "Paātrina remontu, aizsargā munīcijas plauktu, degvielas tvertnes un dzinēju"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "Ventilācijas uzlabota versija ({colorTagOpen}+5%{colorTagClose} apkalpes efektivitātes bonusam), kas dod stiprāku efektu: {colorTagOpen}+8.5%{colorTagClose} apkalpes efektivitātei. Šī iekārta ir piemērota visa veida tankiem no visām nācijām. Var tikt demontēts tikai par bonām."
+
+msgid "deluxImprovedVentilation/name"
+msgstr "Gāzu novadīšanas sistēma"
+
+msgid "deluxRammer/long_special"
+msgstr "Grūdēja uzlabota versija ({colorTagOpen}-10%{colorTagClose} lādēšanas laikam), kas dod stiprāku efektu: {colorTagOpen}-13.5%{colorTagClose} lādēšanas laikam. Šī iekārta ir piemērota visa veida tankiem no visām nācijām. Var tikt demontēts tikai par bonām."
+
+msgid "deluxRammer/name"
+msgstr "Inovatīva pārlādēšanas sistēma"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "Zema Trokšņa Izplūdes Sistēmas uzlabota versija, kas sniedz stiprāku efektu: palielina nekustīga vai kustīga tanka maskēšanos. Noderīgs aktīvai izlūkošanai, kā arī pasīvai izlūkošanai no riskantām pozīcijām.\nŠī iekārta ir derīga visu nāciju un veidu tankiem, bet tā efektivitāte ir atkarīga no tanka veida. Var noņemt tikai izmantojot bonas."
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "Maskēšanās Izplūdes Vienība"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "Palielina nekustīga vai kustīga tanka maskēšanos par {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose}"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "Palielina stacionāra tanka maskēšanos 1.5 s pēc tā apstāšanās"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "Uzlabota Kamuflāžas Tīkla versija, kuras efektivitāte ir atkarīga no tanka veida. Taktisks Slēpšanās Tīkls ir galvenokārt izdevīgs slepeniem tankiem: Artilērija un tanku iznīcinātājiem ar zemu siluetu. Tas palielina Slēpšanās prasmju efektu. To apvienošana nodrošinās labu bonusu jūsu tankam. Taktisks Slēpšanās Tīkls aktivizējas 1,5 sekundes pēc tam, kad tanks pārstāj kustēties."
+
+msgid "deluxeCamouflageNet/name"
+msgstr "Taktisks slēpšanās tīkls"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17,5{colorTagClose}/{colorTagOpen}12,5{colorTagClose}/{colorTagOpen}7,5%{colorTagClose} stāvoša transportlīdzekļa slēpšanai"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "Pilnībā atjauno balstiekārtas dzīvības punktus pēc remonta."
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "Atjauno šasiju pēc remonta."
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "Uzlabota “Uzlabotās izturības” versija:{colorTagOpen}+12,5%{colorTagClose} tanka dzīvības punktiem, {colorTagOpen}+75%{colorTagClose} šasijas izturībai, {colorTagOpen}+30%{colorTagClose} šasijas remonta ātrumam,{colorTagOpen}−75%{colorTagClose} korpusa bojājumiem trieciena laikā, ko izraisījusi šasija. Pēc remonta pilnībā atjauno šasijas dzīvības punktus. Samazina iespēju gūteni iznīcināšanai pēc bojājuma, ļaujot tavam tankam ilgāk palikt kustībā. Piemērots visu nāciju un tipu tankiem (izņemot pašgājējartilēriju). Noņemams tikai par obligācijām."
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "Palielināta Čaulīšu Pretestība"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "Palielina tanka izturību un aizsargā šasiju"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "Uzlabotā Rotācijas Mehānisma uzlabota versija, kas sniedz stiprāku efektu: {colorTagOpen}+17.5% {colorTagClose}ieroča griešanās ātrumam, {colorTagOpen}+17.5% {colorTagClose}korpusa griešanās ātrumam un {colorTagOpen}-17.5% {colorTagClose} izkliedei kustības un torņa rotācijas laikā. Šī iekārta ir piemērota visu nāciju un veidu tankiem. Var noņemt tikai izmantojot bonas."
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "Uzlabota Pēdējā Piedziņa"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "Palielina griešanās ātrumu un samazina ieroča izkliedi kustība un rotācijas laikā"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "Uzlabotas Tēmēšanas pastiprināta versija, kas nodrošina spēcīgāku efektu: samazina tēmējoša vai pilnībā notēmēta ieroča tēmēšanas apļa izmēru par {colorTagOpen}9%{colorTagClose}. Tā rezultātā jūsu ierocim ir lielāka iespēja trāpīt mērķī. Šis aprīkojums ir piemērots visu nāciju un veidu tankiem, izņemot Artilērijas. Var demontēt tikai ar bonām."
+
+msgid "deluxeImprovedSights/name"
+msgstr "Inovatīva Mērķēšana"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "Samazina ieroča izkliedi"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "Palielina stāvoša tanka redzamības diapazonu 1,5 sekundes pēc tā apstāšanās (līdz 445 m)"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "Uzlabota binokulāro teleskopu versija. Laba redzamības diapazons nodrošina būtisku priekšrocību tankiem kaujā. Šāda veida aprīkojums ir izdevīgs tanku iznīcinātājiem ar zemu siluetu un precīziem ieročiem. Tas aktivizējas 1,5 sekundes pēc tam, kad transportlīdzeklis apstājas."
+
+msgid "deluxeStereoscope/name"
+msgstr "Teleskopiskās novērošanas sistēma"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27,5%{colorTagClose} līdz stāvoša tanka redzamības diapazonam (līdz 445 m)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "Turbokompresora uzlabota versija ({colorTagOpen}+7.5%{colorTagClose} dzinēja jaudai, {colorTagOpen}+4 km/h{colorTagClose} maksimālajam ātrumam uz priekšu, {colorTagOpen}+2 km/h{colorTagClose} maksimālajam ātrumam uz atpakaļu): {colorTagOpen}+12.5%{colorTagClose} dzinēja jaudai, {colorTagOpen}+6 km/h{colorTagClose} maksimālajam ātrumam uz priekšu, {colorTagOpen}+4 km/h{colorTagClose} maksimālajam ātrumam uz atpakaļu. Šī iekārta ir piemērota visu nāciju un tipu tankiem (izņemot tankus uz riteņiem). Var noņemt tikai izmantojot bonas."
+
+msgid "deluxeTurbocharger/name"
+msgstr "Uzlabots Kompresors"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "Palielina dzinēja jaudu un maksimālo ātrumu"
+
+msgid "eb_minefield/descr"
+msgstr "Izvieto aktīvu mīnu lauku izvēlētajā zonā uz noteiktu laika periodu."
+
+msgid "eb_minefield/long_descr"
+msgstr "Izlaiž aktīvu mīnu lauku izvēlētajā zonā uz noteiktu laiku. Pēc detonācijas, mīnas bojā un apdullina pretinieku tankus. Pretinieki var atklāt mīnas no tuva attāluma, vai ar Izlūkošanas Lidojumu, vai Sarga Kaujas Rezervēm. Mīnas var iznīcināt ar šāvieniem vai sprādzieniem."
+
+msgid "eb_minefield/name"
+msgstr "Mīnu Lauks"
+
+msgid "eb_minefield/short_descr"
+msgstr "Izvieto aktīvu mīnu lauku izvēlētajā zonā uz noteiktu laika periodu."
+
+msgid "eb_regenerationKit/descr"
+msgstr "Pakāpeniski atjauno jūsu tanka dzīvības punktu noteiktus procentus."
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "Pakāpeniski atjauno noteiktu jūsu tanka dzīvības punktu procentu. Palielina remonta ātrumu iekš Papildināšanas Apļa. Kad aktīvs, samazina mīnu radītos bojājumus."
+
+msgid "eb_regenerationKit/name"
+msgstr "Remonts Kaujas Laukā"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "Pakāpeniski atjauno jūsu tanka dzīvības punktu noteiktus procentus."
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "Garāžas vieta"
+
+msgid "empty_slot/name"
+msgstr "Garāžas vieta"
+
+msgid "empty_slot/short_descr"
+msgstr "Kaujas Rezerves vieta tika izmantota."
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "Palielina Skaņas Noteikšana iemaņas efektu par 1.5 reizēm"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "Sniedz Skaņas Noteikšanas iemaņu trenētu līdz 100%"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "Skaņas Noteikšanas iemaņa izdod brīdinājumu par ienaidnieka Artilēriju uguni un samazina apdullināšanas negatīvo ietekmi. Ja iemaņa ir trenēta līdz 100%, uzstādītā direktīva palielina tās ietekmi; ja nē, direktīva nodrošina jūsu tankam 100% trenētu iemaņu."
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "Paaugstināta Modrība"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "Sniedz Skaņas Noteikšana iemaņu trenētu līdz 100% vai palielina tās efektu"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "Uzlabota tēmēšana samazina tēmēšanas laiku. Tankam kam ir Uzlabota Ieroča Nolikšanas Piedziņa ir precīzāka šaušana (papildus, tas uzlabo šaušanas ātrumu, jo pārlāde dažkārt ir ātrāka nekā pilna tēmēšana)."
+
+msgid "enhancedAimDrives/name"
+msgstr "Tēmēšanas piedziņas pastiprinātājs"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s tēmēšanas ātrumam, ja ir uzstādīts Uzlabots Tēmēšanas Piedziņas Pastiprinātājs (jebkura klase), Nodilumizturīgs Tēmēšanas Piedziņas Pastiprinātājs, Balvu Tēmēšanas Piedziņas Pastiprinātājs vai Uguns Kontroles Sistēma."
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "Uzlabo Balvu Tēmēšanas Piedziņas Pastiprinātāja, Uzlabota Tēmēšanas Piedziņas Pastiprinātāja vai Nodiluma Izturīga Tēmēšanas Piedziņas Pastiprinātāja efektu uz kaujas laiku. Lai pielietotu un aktivizētu šo direktīvu, šīm iekārtām jābūt uzstādītām uz jūsu tanka."
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "Tēmekļa regulēšana"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "Uzlabo ieroča nolikšanas piedziņas efektu"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "Tēmēšanas Piedziņas Pastiprinātājs Klase 1"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "Tēmēšanas Piedziņas Pastiprinātājs Klase 2"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "Tēmēšanas Piedziņas Pastiprinātājs Klase 3"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "Belvila pastiprinātas paplāksnes"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "Pilnībā atjauno balstiekārtas dzīvības punktus pēc remonta."
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Pilnībā atjauno balstiekārtas dzīvības punktus pēc remonta"
+
+msgid "enhancedLevers/name"
+msgstr "Uzlaboti balansieri"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "Pastiprināti gareniskie vērpstieņi"
+
+msgid "enhancedSprings/name"
+msgstr "Pastiprinātas atsperes"
+
+msgid "enhancedTorsions1t/name"
+msgstr "Pastiprināti Vērpstieņi Klase 1 t"
+
+msgid "enhancedTorsions3t/name"
+msgstr "Pastiprināti Vērpstieņi Klase 3 t"
+
+msgid "enhancedTorsions5t/name"
+msgstr "Pastiprināti Vērpstieņi Klase 5 t"
+
+msgid "exampleAbility/descr"
+msgstr "Testa Spēja Vizuālajam Skriptam"
+
+msgid "exampleAbility/name"
+msgstr "Testa Spēja"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s dzinēja jaudai un torņa griešanās ātrumam uz kaujas garumu."
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} dzinēja jaudai un torņa griešanās ātrumam."
+
+msgid "excellentFuel/long_special"
+msgstr "Pievieno {colorTagOpen}10%{colorTagClose} dzinēja spēkam un torņa griešanās ātrumam uz visu kaujas laiku. Automātiski aktivizēts kaujas sākumā un dod efektu visu kaujas laiku."
+
+msgid "excellentFuel/name"
+msgstr "Izcila Degviela"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} dzinēja spēkam un torņa griešanās ātrumam"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "Pilnībā atjauno balstiekārtas dzīvības punktus pēc remonta."
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "Atjauno šasiju pēc remonta."
+
+msgid "extraHealthReserve/long_special"
+msgstr "Palielina tanka izturību un remonta ātrumu. Samazina korpusa bojājumus, ko izraisa šasijas bojājumi sadursmes laikā. Pēc remonta pilnībā atjauno šasijas dzīvības punktus. Samazina iespēju, ka pēc trieciena tiks iznīcināta kāpurķēde, ļaujot tavam tankam saglabāt kustību pēc iespējas ilgāk."
+
+msgid "extraHealthReserve/name"
+msgstr "Uzlabota Sacietēšana"
+
+msgid "extraHealthReserve/short_special"
+msgstr "Palielina tanka izturību un aizsargā šasiju"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "Uzlabota Sacietēšana Klase 1"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "Uzlabota Sacietēšana Klase 2"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "Uzlabota Sacietēšana Klase 3"
+
+msgid "fireCircle/battleDescr"
+msgstr "Izveido uguns apli ap jūsu tanku, kas samazina pretinieku tanku mobilitāti spējas zonā un noņem līdz pat %(damagePerTickForInterval)s no to kopējiem dzīvības punktiem tās %(timer)s s ilgumā.\n\n*Uguns apļa zonas efekts ir stacionārs un nesekos jūsu tanka kustībām."
+
+msgid "fireCircle/descr"
+msgstr "Izveido uguns apli ap jūsu tanku, kas samazina ienaidnieku tanku mobilitāti spējas ietekmes zonā un atņem līdz %(damagePerTickForInterval)s no to kopējās dzīvības punktiem tās %(timer)s s darbības ilgums laikā.\n\n*Uguns apļa ietekmes zona ir stacionāra un nesekos jūsu tanka kustībai."
+
+msgid "fireCircle/longDescr"
+msgstr "Izveido uguns apli ap tavu tanku, kas samazina pretinieka tanku mobilitāti spējas darbības zonā un atņem {whiteSpanish_Open} līdz %(damagePerTickForInterval)s {whiteSpanish_Close} no to kopējā HP {whiteSpanish_Open}tās %(timer)s s{whiteSpanish_Close} darbības laikā.\n\n*Uguns apļa darbības zona ir nekustīga un neseko tava tanka kustībai."
+
+msgid "fireCircle/name"
+msgstr "Uguns Aplis"
+
+msgid "fireCircle/shortDescr"
+msgstr "Izveido uguns apli ap tavu tanku, kas samazina pretinieka tanku mobilitāti spējas darbības zonā un atņem {whiteSpanish_Open} līdz %(damagePerTickForInterval)s {whiteSpanish_Close} no to kopējā HP {whiteSpanish_Open}tās %(timer)s s{whiteSpanish_Close} darbības laikā.\n\n*Uguns apļa darbības zona ir nekustīga un neseko tava tanka kustībai."
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "Palielina Ugunsdzēšana iemaņas efektu par 1.5 reizēm"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "Sniedz Ugunsdzēšana iemaņu trenētu līdz 100%"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "Ugunsdzēšanas iemaņa pastiprina jūsu tanka ugunsdzēsības spējas visu kaujas laiku. Kad iemaņa ir trenēta līdz 100%, lietotā direktīva palielina tās efektu; ja nē, direktīva dod jūsu tankam iemaņu trenētu līdz 100%."
+
+msgid "fireFightingBattleBooster/name"
+msgstr "Pieredzējis Ugunsdzēsējs"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "Sniedz Ugunsdzēšana iemaņu trenētu līdz 100% vai palielina tās efektu"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "Komandē artilērijai šaut pa izvēlēto zonu, bojājot visus tankus tajā."
+
+msgid "fort_aoe_artillery/name"
+msgstr "Artilērijas Trieciens"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "Komandē artilērijai šaut pa izvēlēto zonu, bojājot visus tankus tajā."
+
+msgid "fort_inspire/longDescr"
+msgstr "Sniedz bonusu galvenajām kvalifikācijām un visām iemaņām visai jūsu tanka apkalpei, kā arī netālu esošo sabiedroto tanku apkalpēm."
+
+msgid "fort_inspire/name"
+msgstr "Iedvesmošana"
+
+msgid "fort_inspire/shortDescr"
+msgstr "Sniedz bonusu galvenajām kvalifikācijām un visām iemaņām visai jūsu tanka apkalpei, kā arī netālu esošo sabiedroto tanku apkalpēm."
+
+msgid "fuel_system_revision_1/name"
+msgstr "Degvielas Sistēmas Pārskatīšana (Tips 1)"
+
+msgid "grousers/long_special"
+msgstr "Palielina tanka griešanās ātrumu un uztur ātrumu šķērsojot visu veidu reljefu. Tas ir ievērojami efektīvs braucot uz mīkstas un mēreni mīkstas teritorijas. Tas ir visefektīvākais apvienojot to ar Sajūga Bremzēšanas un Bezceļa Braukšanas iemaņām."
+
+msgid "grousers/name"
+msgstr "Papildus pieši"
+
+msgid "grousers/short_special"
+msgstr "Palielina tanka griešanās ātrumu un uzlabo akselerāciju"
+
+msgid "grousers_tier1/name"
+msgstr "Papildus Griezēji Klase 1"
+
+msgid "grousers_tier2/name"
+msgstr "Papildus Griezēji Klase 2"
+
+msgid "grousers_tier3/name"
+msgstr "Papildus Griezēji Klase 3"
+
+msgid "gun_balancing_1/name"
+msgstr "Ieroča Balansēšana (Tips 1)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "Ugunsgrēka nodzēšana jūsu bruņutehnikā."
+
+msgid "handExtinguishers/long_special"
+msgstr "Aktivizējot nodzēš uguni jūsu tankā. Piemērots visiem tanku tipiem no jebkuras nācijas. Palīgmateriāls tiek noņemts pēc kaujas ja tas tika izmantots vismaz vienu reizi."
+
+msgid "handExtinguishers/name"
+msgstr "Ugunsdzēšamais aparāts"
+
+msgid "handExtinguishers/onUse"
+msgstr "Nodzēš ugunsgrēku jūsu bruņutehnikā. Var izmantot vairākas reizes kaujas laikā. Ja aprīkojums kaut reizi kaujā tiek izmantots, pēc kaujas tas tiek izņemts."
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "Ugunsdzēšana"
+
+msgid "healPoint/battleDescr"
+msgstr "Izveido zonu ap jūsu tanku. Iekš šīs zonas, gan spēlētājs gan Vada locekļi atjauno noteiktu %(healPerTick)s no to tanka dzīvības punktiem katru sekundi uz %(duration)s s."
+
+msgid "healPoint/descr"
+msgstr "Izveido zonu ap jūsu tanku. Iekš šīs zonas, gan spēlētājs gan Vada locekļi atjauno noteiktu %(healPerTick)s no to tanka dzīvības punktiem katru sekundi uz %(duration)s s."
+
+msgid "healPoint/longDescr"
+msgstr "Izveido zonu ap jūsu tanku. Iekš šīs zonas, gan spēlētājs gan Vada locekļi {green_Open}atjauno %(healPerTick)s{green_Close} no to tanka dzīvības punktiem katru sekundi uz {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}"
+
+msgid "healPoint/name"
+msgstr "Atjaunošanas Zona"
+
+msgid "healPoint/shortDescr"
+msgstr "Izveido zonu ap jūsu tanku. Iekš šīs zonas, gan spēlētājs gan Vada locekļi {green_Open}atjauno %(healPerTick)s{green_Close} no to tanka dzīvības punktiem katru sekundi uz {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}"
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s apkalpes efektivitātes bonusam uz kaujas gaitu."
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} apkalpes efektivitātes bonusam."
+
+msgid "hotCoffee/long_special"
+msgstr "Automātiski aktivizējas kaujas sākumā un dod efektu visu kaujas laiku. Piemērots tikai Franču tankiem."
+
+msgid "hotCoffee/name"
+msgstr "Stipra kafija"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "Piemērots tikai Franču tankiem."
+
+msgid "hotCoffee/short_special"
+msgstr "Uzlabo Franču apkalpju sniegumu"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "Novērš vienu degvielas tvertnes aizdegšanos, munīcijas plaukta eksploziju un dzinēja iznīcināšanu kaujā iznīcinot šos moduļus."
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "Novērš vienu degvielas tvertnes aizdegšanos, munīcijas plaukta eksploziju un dzinēja iznīcināšanu kaujā iznīcinot šos moduļus."
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "Munīcijas plaukts ir aizsargāts no detonācijas"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "Munīcijas plaukta detonācija novērsta"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "Dzinējs ir aizsargāts"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "Dzinēja iznīcināšana novērsta"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "Degvielas tvertnes ir aizsargātas no uguns"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "Degvielas tvertnes aizdegšanās novērsta"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "Novērš vienu degvielas tvertnes aizdegšanos, munīcijas plaukta eksploziju un dzinēja iznīcināšanu kaujā iznīcinot šos moduļus."
+
+msgid "improvedConfiguration/long_special"
+msgstr "Paātrina remontu. Palielina munīcijas plaukta, degvielas tvertņu un dzinēja izturību. Samazina lādēšanas laika sodu un dzinēja jaudas zudumu sabojājot attiecīgos moduļus. Samazina dzinēja aizdegšanās iespēju. Novērš vienu degvielas tvertnes aizdegšanos, munīcijas plaukta eksploziju un dzinēja iznīcināšanu kaujā iznīcinot attiecīgos moduļus. Tas ir vēl efektīvāks apvienojot ar Remonts, Droša Uzglabāšana un Profilaktiska Apkope iemaņām."
+
+msgid "improvedConfiguration/name"
+msgstr "Modificēta Konfigurācija"
+
+msgid "improvedConfiguration/short_special"
+msgstr "Paātrina remontu, aizsargā munīcijas plauktu, degvielas tvertnes un dzinēju"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s remonta ātrumam ar uzstādītu Modificētu Konfigurāciju (jebkura klase), Uzlabotu Konfigurāciju vai Balvu Aizsardzības Tehnoloģiju."
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "Uzlabo Modificētas Konfigurācijas, Uzlabotas Konfigurācijas vai Balvu Aizsardzības Tehnoloģijas efektu uz visu kaujas laiku. Lai uzstādītu un aktivizētu šo direktīvu, šīm iekārtām jābūt uzstādītām uz jūsu tanka."
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "Pirmskaujas apkope"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "Uzlabo Modificētas Konfigurācijas efektu"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "Modificēta Konfigurācija Klase 1"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "Modificēta Konfigurācija Klase 2"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "Palielina laiku, kad pretinieks paliek atklāts pēc jūsu tanka skata attāluma pamešanas. Samazina laiku, kad jūs palieciet atklāts pretiniekiem. Tas ir visefektīvākais apvienojot ar Izraudzīts Mērķis vai Atriebība iemaņām."
+
+msgid "improvedRadioCommunication/name"
+msgstr "Uzlabots Radio Komplekts"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "Palielina laiku, kad pretinieks paliek atklāts un samazina laiku, kad jūs palieciet atklāts"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "Palielina korpusa un torņa griešanās ātrumu tankiem ar torņiem. Palielina korpusa un ieroča griešanās ātrumu tankiem ar stacionāru kabīni. Samazina ieroča izkliedēšanu kustības un korpusa vai torņa griešanās laikā. kā arī pēc šaušanas. Tas ir vēl efektīvāks apvienojot ar Sajūga Bremzēšanas iemaņu."
+
+msgid "improvedRotationMechanism/name"
+msgstr "Uzlabots Rotācijas Mehānisms"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "Palielina griešanās ātrumu un samazina ieroča izkliedi kustība un rotācijas laikā"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "Uzlabots Rotācijas Mehānisms Klase 1"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "Uzlabots Rotācijas Mehānisms Klase 2"
+
+msgid "improvedSights/long_special"
+msgstr "Samazina tēmēšanas apļa lielumu, lai palielinātu tēmējošu vai pilnībā notēmētu ieroča precizitāti. Tā rezultātā, jūsu ierocim ir labāka iespēja trāpīt mērķim."
+
+msgid "improvedSights/name"
+msgstr "Uzlabota Tēmēšana"
+
+msgid "improvedSights/short_special"
+msgstr "Samazina ieroča izkliedi"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s tēmēšanas apļa izmēram ar uzstādītu Uzlabotu Tēmēšanu (jebkura klase), Balvu Tēmēšanu, vai Precizitātes Uzlabošanas Sistēmu."
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "-2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "-2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "Uzlabo Uzlabotas Tēmēšanas vai Balvu Tēmēšanas efektu uz kaujas laiku. Direktīva strādās tikai, ja jums ir uzstādītas attiecīgās iekārtas."
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "Pulēta Lēca"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "Samazina tēmēšanas apļa lielumu"
+
+msgid "improvedSights_tier1/name"
+msgstr "Uzlabota Tēmēšana Klase 1"
+
+msgid "improvedSights_tier2/name"
+msgstr "Uzlabota Tēmēšana Klase 2"
+
+msgid "improvedSights_tier3/name"
+msgstr "Uzlabota Tēmēšana Klase 3"
+
+msgid "improvedVentilation/long_special"
+msgstr "Uzlabo dažas jūsu tanka īpašības: skata attālumu, šaušanas ātrumu, tēmēšanas laiku, dinamiskās īpašības un citas. Taču, dotais bonus no šīs iekārtas būs tikai pamanāms kombinācijā ar Brāļi Rokās iemaņu trenētu jūsu apkalpei līdz 100%."
+
+msgid "improvedVentilation/name"
+msgstr "Uzlabota Ventilācija"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s apkalpes efektivitātes bonusam, ja ir uzstādīts modulis Uzlabota ventilācija (jebkura klase), Ventilācijas sistēma vai Balvu ventilācija."
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "Uzlabo Uzlabotas Ventilācijas (jebkura klase), Ventilācijas Sistēmas vai Balvu Ventilācijas efektu uz visu kaujas laiku. Lai uzstādītu un aktivizētu šo direktīvu, šīm iekārtām jābūt uzstādītām uz jūsu tanka."
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "Ventilācijas iztīrīšana"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "Uzlabo ventilācijas efektu"
+
+msgid "improvedVentilation_class1/name"
+msgstr "Uzlabota Ventilācija Klase 1"
+
+msgid "improvedVentilation_class2/name"
+msgstr "Uzlabota Ventilācija Klase 2"
+
+msgid "improvedVentilation_class3/name"
+msgstr "Uzlabota Ventilācija Klase 3"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "Uzlabota Ventilācija Klase 1"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "Uzlabota Ventilācija Klase 2"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "Uzlabota Ventilācija Klase 3"
+
+msgid "improved_suspension_1/name"
+msgstr "Uzlabota Balstiekārta (Tips 1)"
+
+msgid "improved_suspension_2/name"
+msgstr "Uzlabota Balstiekārta (Tips 2)"
+
+msgid "inspire/longDescr"
+msgstr "Uzlabo tanka apkalpes, un visu sabiedroto noteiktā rādiusā, sniegumu, pievienojot % bonusu lielai kvalifikācijai katram apkalpes loceklim. Spēlētājs, kurš pielieto to, saņems uzlabotu efektu."
+
+msgid "inspire/name"
+msgstr "Iedvesmošana"
+
+msgid "inspire/shortDescr"
+msgstr "Pievieno bonusu spēlētāja apkalpes un sabiedroto apkalpju lielai kvalifikācijai."
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "Lielkalibra artilērijas lādiņu grūdējs"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "Lielkalibra tanku lādiņu grūdējs"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s apdullināšanas ilgumam\n%(crewHitChance)s apkalpes aizsardzībai no ievainojumiem"
+
+msgid "largeMedkit/descr"
+msgstr "Visu ievainoto apkalpes locekļu izārstēšana un apdullināšanas efekta noņemšana."
+
+msgid "largeMedkit/long_special"
+msgstr "Aktivizējot ārstē visus ievainotos apkalpes locekļus un noņem apdullināšanas efektu. Pasīvais efekts dod apkalpei aizsardzību no ievainojumiem. Šis palīgmateriāls ir piemērots visu tanku tipiem no visām nācijām."
+
+msgid "largeMedkit/name"
+msgstr "Lielā aptieciņa"
+
+msgid "largeMedkit/onUse"
+msgstr "Izārstē visus ievainotos apkalpes locekļus. Var izmantot vairākas reizes kaujā. Ja aprīkojums kaut reizi kaujā tika izmantots, pēc kaujas tas tiek izņemts."
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "Izārstē visus ievainotos apkalpes locekļus un noņem apdullināšanas efektu. Var izmantot vairākas reizes kaujas laikā. Ja aprīkojums kaut reizi kaujā tiek izmantots, pēc kaujas tas tiek izņemts."
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "Ārstē visus ievainotos apkalpes locekļus un noņem apdullināšanas efektu"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s moduļu remonta ātrumam"
+
+msgid "largeRepairkit/descr"
+msgstr "Visu sabojāto ierīču salabošana."
+
+msgid "largeRepairkit/long_special"
+msgstr "Aktivizācijas laikā salabo visus bojātos moduļus. Pasīvais efekts palielina remonta ātrumu. Šis palīgmateriāls ir piemērots visiem tanku tipiem no jebkuras nācijas."
+
+msgid "largeRepairkit/name"
+msgstr "Lielais remonta komplekts"
+
+msgid "largeRepairkit/onUse"
+msgstr "Salabo visas sabojātās ierīces. Var izmantot vairākas reizes kaujā. Ja aprīkojums kaut reizi kaujā tika izmantots, pēc kaujas tas tiek izņemts."
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "Salabo visus bojātos moduļus"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "Papildus 50% Atriebība iemaņai"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "Dod 100% līmenī apgūtu iemaņu „Pēdējiem spēkiem”"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "Atriebības Sauciena iemaņa dod iespēju ziņot par pretinieku pozīcijām vēl papildus 2 sekundes pēc tanka iznīcināšanas visu kaujas laiku. Kad iemaņa tiek trenēta līdz 100%, lietotā direktīva pievieno 1 sekundi tā ilgumam (kopumā 3 sekundes). Ja nē, tad direktīva sniedz jūsu tankam iemaņu trenētu līdz 100% (standarta 2 sekundes)."
+
+msgid "lastEffortBattleBooster/name"
+msgstr "Pienākums vispirms"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "Dod Atriebības Sauciena iemaņu trenētu līdz 100% vai palielina tās efektu"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "Vidēja kalibra artilērijas lādiņu grūdējs"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "Vidēja kalibra tanku lādiņu grūdējs"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "Uguns Kontroles Sistēma T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "Uguns Kontroles Sistēma T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "Uguns Kontroles Sistēma T1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "Uguns Kontroles Sistēma T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "Uguns Kontroles Sistēma T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "Uguns Kontroles Sistēma T2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "Uguns Kontroles Sistēma T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "Uguns Kontroles Sistēma T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "Uguns Kontroles Sistēma T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "Izdzīvošanas Uzlabošanas Komplekts T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "Izdzīvošanas Uzlabošanas Komplekts T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "Izdzīvošanas Uzlabošanas Komplekts T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "Izdzīvošanas Uzlabošanas Komplekts T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "Izdzīvošanas Uzlabošanas Komplekts T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "Izdzīvošanas Uzlabošanas Komplekts T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "Izdzīvošanas Uzlabošanas Komplekts T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "Izdzīvošanas Uzlabošanas Komplekts T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "Izdzīvošanas Uzlabošanas Komplekts T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "Precizitātes Uzlabošanas Sistēma T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "Precizitātes Uzlabošanas Sistēma T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "Precizitātes Uzlabošanas Sistēma T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "Precizitātes Uzlabošanas Sistēma T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "Precizitātes Uzlabošanas Sistēma T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "Precizitātes Uzlabošanas Sistēma T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "Precizitātes Uzlabošanas Sistēma T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "Precizitātes Uzlabošanas Sistēma T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "Precizitātes Uzlabošanas Sistēma T3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "Mobilitātes Uzlabošanas Sistēma T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "Mobilitātes Uzlabošanas Sistēma T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "Mobilitātes Uzlabošanas Sistēma T1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "Mobilitātes Uzlabošanas Sistēma T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "Mobilitātes Uzlabošanas Sistēma T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "Mobilitātes Uzlabošanas Sistēma T2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "Mobilitātes Uzlabošanas Sistēma T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "Mobilitātes Uzlabošanas Sistēma T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "Mobilitātes Uzlabošanas Sistēma T3"
+
+msgid "nitro/battleDescr"
+msgstr "Uz laiku paaugstina jūsu tanka dzinēja spēku par %(enginePowerFactor)s un tā maksimālo ātrumu %(maxSpeedFactor)s reizes uz %(consumeSeconds)s s."
+
+msgid "nitro/descr"
+msgstr "Uz laiku paaugstina jūsu tanka dzinēja spēku par %(enginePowerFactor)s un tā maksimālo ātrumu %(maxSpeedFactor)s reizes uz %(consumeSeconds)s s."
+
+msgid "nitro/long_special"
+msgstr "Uz laiku paaugstina jūsu tanka dzinēja spēku {green_Open}par %(enginePowerFactor)s{green_Close} un tā maksimālo ātrumu {green_Open} %(maxSpeedFactor)s reizes{green_Close} {whiteSpanish_Open}uz %(consumeSeconds)s s.{whiteSpanish_Close}"
+
+msgid "nitro/name"
+msgstr "Turbokompresors"
+
+msgid "nitro/short_special"
+msgstr "Uz laiku paaugstina jūsu tanka dzinēja spēku {green_Open}par %(enginePowerFactor)s{green_Close} un tā maksimālo ātrumu {green_Open} %(maxSpeedFactor)s reizes{green_Close} {whiteSpanish_Open}uz %(consumeSeconds)s s.{whiteSpanish_Close}"
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "Alternatīva Konfigurācija: Papildu Komplekts"
+
+msgid "passive_engineering/longDescr"
+msgstr "Sniedz bonusu ieņemšanas un papildināšanas ātrumam. Uzlabo papildināšanas ātrumu, samazinot vajadzīgo laiku, lai atjaunotu Papildināšanas Apļus, un ieņemtu, vai pārņemtu kontroli pār galvenajiem punktiem."
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "Jūs nevariet pielietot šo Kaujas rezervi artilērijām."
+
+msgid "passive_engineering/name"
+msgstr "Inženierija"
+
+msgid "passive_engineering/shortDescr"
+msgstr "Sniedz bonusu ieņemšanas ātrumam, ieņemšanas bloķēšanai un papildināšanai."
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "Nav piemērots artilērijām"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "Trīskāršo Droša Novietošana iemaņas efektu"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "Sniedz Droša Novietošana iemaņu trenētu līdz 100%"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "Drošās Novietošanas iemaņa uzlabo jūsu munīcijas plaukta izturību visu kaujas laiku. Kad iemaņa ir trenēta līdz 100%, lietotā direktīva palielina tās efektu; ja nē, direktīva dod jūsu tankam iemaņu trenētu līdz 100%."
+
+msgid "pedantBattleBooster/name"
+msgstr "Lādiņu organizētājs"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "Sniedz Droša Novietošana iemaņu trenētu līdz 100% vai palielina tās efektu"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "{colorTagOpen}%(delay)d s{colorTagClose} laikā izvēlētajai zonai uzbruks Artilērijas Trieciens. Jebkurš mērķis bojāts {colorTagOpen}%(radius)d m{colorTagClose} rādiusā saņems {colorTagOpen}%(damage)d{colorTagClose} dzīvības punktu bojājumus un tiks apdullināti uz {colorTagOpen}%(stunDuration)d s{colorTagClose}."
+
+msgid "poi_artillery_aoe/name"
+msgstr "Artilērijas Trieciens"
+
+msgid "poi_radar/descr"
+msgstr "Pēc aktivizācijas, visi pretinieku tanki paliks pamanīti uz {colorTagOpen}%(duration)d s{colorTagClose}."
+
+msgid "poi_radar/name"
+msgstr "Divīzijas Radars"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "Dubulto Praktiskums iemaņas efektu"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "Sniedz Praktiskums iemaņu trenētu līdz 100%"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "Praktiskums iemaņa samazina palīgmateriālu atjaunošanās laiku uz visu kaujas laiku. Kad iemaņa ir trenēta līdz 100%, lietotā direktīva palielina tās efektu; ja nē, direktīva dod jūsu tankam iemaņu trenētu līdz 100%."
+
+msgid "practicalityBattleBooster/name"
+msgstr "Rūpīga Sagatavošanās"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "Sniedz Praktiskums iemaņu trenētu līdz 100% vai palielina tās efektu"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s dzinēja jaudai un torņa griešanās ātrumam uz kaujas garumu."
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5%{colorTagClose} dzinēja jaudai un torņa griešanās ātrumam."
+
+msgid "qualityFuel/long_special"
+msgstr "Pievieno {colorTagOpen}5%{colorTagClose} dzinēja spēkam un torņa griešanās ātrumam uz visu kaujas laiku. Automātiski aktivizēts kaujas sākumā un dod efektu visu kaujas laiku."
+
+msgid "qualityFuel/name"
+msgstr "Kvalitātes Degviela"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "{colorTagOpen}+5%{colorTagClose} dzinēja spēkam un torņa griešanās ātrumam"
+
+msgid "radar/descr"
+msgstr "Atrod pretinieku tankus un Kara Trofejas minikartē."
+
+msgid "radar/name"
+msgstr "Radio Atklāšana"
+
+msgid "rammer/long_special"
+msgstr "Šaušanas ātrums ir jūsu tanka vissvarīgākā pazīme. Šī iekārta ir diezgan izdevīga kaujā un vajadzētu būt uzliktiem jūsu tankiem. Taču, taranētāji nevar tikt uzlikti uz tankiem ar aptveres lādēšanas sistēmu."
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s no pārlādēšanas laika, ja ir uzstādīts Lādiņu Grūdējs (jebkura ieroča veida un kalibra), Inovatīva Pārlādēšanas Sistēma vai Balvu Lādiņu Grūdējs modulis."
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "Uzlabo Grūdēja (jebkura ieroča tipa un kalibra), Balvu Grūdēja vai Inovatīvās Lādēšanas Sistēmas efektu uz kaujas laiku. Lai uzstādītu un aktivizētu šo direktīvu, šīm iekārtām jābūt uzstādītām uz jūsu tanka."
+
+msgid "rammerBattleBooster/name"
+msgstr "Sakārtota munīcijas tvertne"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "Uzlabo taranētāja efektu"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "Dubulto Izraudzīts Mērķis iemaņas efektu"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "Sniedz Izraudzīts Mērķis iemaņu trenētu līdz 100%"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "Izraudzītā Mērķa iemaņa padara nomērķētu pretinieku tanku redzamu papildus divas sekundes uz visu kaujas laiku. Kad iemaņa ir trenēta līdz 100%, lietotā direktīva palielina tās efektu. Ja nē, direktīva dod jūsu tankam iemaņu trenētu līdz 100%."
+
+msgid "rancorousBattleBooster/name"
+msgstr "Fokuss uz mērķi"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "Sniedz Izraudzīts Mērķis iemaņu trenētu līdz 100% vai palielina tās efektu"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s apkalpes efektivitātes bonusam uz kaujas gaitu."
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} apkalpes efektivitātes bonusam."
+
+msgid "ration/long_special"
+msgstr "Automātiski aktivizējas kaujas sākumā un dod efektu visu kaujas laiku. Piemērots tikai P.S.R.S. tankiem."
+
+msgid "ration/name"
+msgstr "Papildu uzturdeva"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "Piemērots tikai Padomju tankiem."
+
+msgid "ration/short_special"
+msgstr "Uzlabo P.S.R.S. apkalpju sniegumu"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s apkalpes efektivitātes bonusam uz kaujas gaitu."
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} apkalpes efektivitātes bonusam."
+
+msgid "ration_china/long_special"
+msgstr "Automātiski aktivizējas kaujas laikā un dod efektu visu kaujas laiku. Piemērots tikai Ķīniešu tankiem."
+
+msgid "ration_china/name"
+msgstr "Uzlabota uzturdeva"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "Piemērots tikai Ķīniešu tankiem."
+
+msgid "ration_china/short_special"
+msgstr "Uzlabo Ķīniešu apkalpju sniegumu"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s apkalpes efektivitātes bonusam uz kaujas gaitu."
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} apkalpes efektivitātes bonusam."
+
+msgid "ration_czech/long_special"
+msgstr "Automātiski aktivizējas kaujas laikā un dod efektu visu kaujas laiku. Piemērots tikai Čehoslovākijas tankiem."
+
+msgid "ration_czech/name"
+msgstr "Smalkmaizīte"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "Piemērots tikai Čehoslovākijas tankiem."
+
+msgid "ration_czech/short_special"
+msgstr "Uzlabo Čehoslovākijas apkalpju sniegumu"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s apkalpes efektivitātes bonusam uz kaujas gaitu."
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} apkalpes efektivitātes bonusam."
+
+msgid "ration_italy/long_special"
+msgstr "Automātiski aktivizējas kaujas laikā un dod efektu visu kaujas laiku. Piemērots tikai Itāļu tankiem."
+
+msgid "ration_italy/name"
+msgstr "Spageti ar gaļas mērci"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "Piemērots tikai Itāļu tankiem."
+
+msgid "ration_italy/short_special"
+msgstr "Uzlabo Itāļu apkalpju sniegumu"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s apkalpes efektivitātes bonusam uz kaujas gaitu."
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} apkalpes efektivitātes bonusam."
+
+msgid "ration_japan/long_special"
+msgstr "Automātiski aktivizējas kaujas laikā un dod efektu visu kaujas laiku. Piemērots tikai Japāņu tankiem."
+
+msgid "ration_japan/name"
+msgstr "Onigiri"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "Piemērots tikai Japāņu tankiem."
+
+msgid "ration_japan/short_special"
+msgstr "Uzlabo Japāņu apkalpju sniegumu"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s apkalpes efektivitātes bonusam uz kaujas gaitu."
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} apkalpes efektivitātes bonusam."
+
+msgid "ration_poland/long_special"
+msgstr "Automātiski aktivizējas kaujas laikā un dod efektu visu kaujas laiku. Piemērots tikai Poļu tankiem."
+
+msgid "ration_poland/name"
+msgstr "Maize ar cūku taukiem"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "Piemērots tikai Poļu tankiem."
+
+msgid "ration_poland/short_special"
+msgstr "Uzlabo Poļu apkalpju sniegumu"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s apkalpes efektivitātes bonusam uz kaujas gaitu."
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} apkalpes efektivitātes bonusam."
+
+msgid "ration_sweden/long_special"
+msgstr "Automātiski aktivizējas kaujas laikā un dod efektu visu kaujas laiku. Piemērots tikai Zviedru tankiem."
+
+msgid "ration_sweden/name"
+msgstr "Kafija ar sausmaizīti"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "Piemērots tikai Zviedru tankiem."
+
+msgid "ration_sweden/short_special"
+msgstr "Uzlabo Zviedru apkalpju sniegumu"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s apkalpes efektivitātes bonusam uz kaujas gaitu."
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} apkalpes efektivitātes bonusam."
+
+msgid "ration_uk/long_special"
+msgstr "Automātiski aktivizējas kaujas laikā un dod efektu visu kaujas laiku. Piemērots tikai Britu tankiem."
+
+msgid "ration_uk/name"
+msgstr "Pudiņš un tēja"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "Piemērots tikai Britu tankiem."
+
+msgid "ration_uk/short_special"
+msgstr "Uzlabo Britu apkalpju sniegumu"
+
+msgid "recon/longDescr"
+msgstr "Vada izlūklidmašīnu, lai veiktu līnijas atklāšanu plašā reģionā. Lidmašīnas redzamības zonā esošie tanki tiek atklāti un kādu brīdi paliek redzami. Atklāj mīnu laukus."
+
+msgid "recon/name"
+msgstr "Izlūklidmašīna"
+
+msgid "recon/shortDescr"
+msgstr "Pamana pretinieku tankus un mīnu laukus."
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} dzinēja jaudai, bet bojā dzinēju."
+
+msgid "removedRpmLimiter/long_special"
+msgstr "Palielina dzinēju spēku par {colorTagOpen}10%{colorTagClose} bet, kamēr ieslēgts, pamazām samazina dzinēja HP. Var tikt ieslēgts vai izslēgts kaujā vairākas reizes. Piemērots tikai Ķīniešu un P.S.R.S. tankiem."
+
+msgid "removedRpmLimiter/name"
+msgstr "Noņemts Ātruma Regulators"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s dzinēja jaudai, bet bojā dzinēju. Var izmantot vairākas reizes kaujā."
+
+msgid "removedRpmLimiter/restriction"
+msgstr "Piemērots tikai Padomju un Ķīniešu tankiem."
+
+msgid "removedRpmLimiter/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} dzinēja spēkam bet bojā dzinēju"
+
+msgid "repairpoint/battleDescr"
+msgstr "Izveido pagaidu statisku zonu, kas labo visus bojātos moduļus, noņem VISAS negatīvās sekas un atjauno %(healPerTick)s no jūsu tanka dzīvības punktiem sekundē %(timer)s s.\n\n*Sabiedroto tanki ietekmes zonā arī atgūs dzīvības punktus."
+
+msgid "repairpoint/descr"
+msgstr "Izveido pagaidu statisku zonu, kas labo visus bojātos moduļus, noņem VISAS negatīvās sekas un atjauno %(healPerTick)s no jūsu tanka dzīvības punktiem sekundē %(timer)s s.\n\n*Sabiedroto tanki ietekmes zonā arī atgūs dzīvības punktus."
+
+msgid "repairpoint/long_special"
+msgstr "Izveido pagaidu statisku zonu, kas labo visus bojātos moduļus, noņem VISAS negatīvās sekas un {green_Open}atjauno %(healPerTick)s{green_Close} jūsu tanka dzīvības punktus {whiteSpanish_Open}sekundē %(timer)s s.{whiteSpanish_Close}\n\n*Sabiedroto tanki zonas ietekmē arī atgūs dzīvības punktus."
+
+msgid "repairpoint/name"
+msgstr "Remonta Zona"
+
+msgid "repairpoint/short_special"
+msgstr "Izveido pagaidu statisku zonu, kas labo visus bojātos moduļus, noņem VISAS negatīvās sekas un {green_Open}atjauno %(healPerTick)s{green_Close} jūsu tanka dzīvības punktus {whiteSpanish_Open}sekundē %(timer)s s.{whiteSpanish_Close}\n\n*Sabiedroto tanki zonas ietekmē arī atgūs dzīvības punktus."
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "Stobra Šautenes Tīrīšana (Tips 1)"
+
+msgid "roleSlot/name"
+msgstr "Otrās aprīkojuma vietas kategorija"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "Pasīvā Drošības Sistēma"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "Pasīvā\nDrošības Sistēma"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "Munīcijas Plaukta Konfigurācija"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "Munīcijas Plaukta\nKonfigurācija"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "Labojamas Kāpurķēdes"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "Labojamas\nKāpurķēdes"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "Dzinēja Nodalījuma Pielāgošana"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "Dzinēja Nodalījuma\nPielāgošana"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "Pastiprināta Balstiekārta"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "Pastiprināta\nBalstiekārta"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "Viegla Balstiekārta"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "Viegla\nBalstiekārta"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "Tēmēšanas Pārnesumu Lokošana"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "Tēmēšanas Pārnesumu\nLokošana"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "Paralakses Pielāgošana"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "Paralakses\nPielāgošana"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "Izmetēja Regulēšana"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "Izmetēja\nRegulēšana"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "Taisnā Leņķa Periskops"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "Taisnā Leņķa\nPeriskops"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "Iekraušanas Mehānisma Regulēšana"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "Iekraušanas Mehānisma\nRegulēšana"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "Tēmēšanas Mehānisma Regulēšana"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "Tēmēšanas Mehānisma\nRegulēšana"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "PTO Regulēšana"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "PTO\nRegulēšana"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "Elektriskā Tēmēšanas Piedziņa"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "Elektriskā\nTēmēšanas Piedziņa"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "Jauni Tēmēšanas Pārnesumi"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "Jauni\nTēmēšanas Pārnesumi"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "Kakla Pielāgošana"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "Kakla\nPielāgošana"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "Vispārēja Svara Samazināšana"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "Vispārēja Svara\nSamazināšana"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "Vispārējās Izturības Palielināšanās"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "Vispārējās Izturības\nPalielināšanās"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "Matētas Krāsas"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "Matētas\nKrāsas"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "Papildu Atpakaļgaitas Pārnesums"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "Papildu\nAtpakaļgaitas Pārnesums"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "Augšējs Sadales Vārpstas Dzinējs"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "Augšējs Sadales Vārpstas\nDzinējs"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "Uzlabots Ieroča Grūdējs"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "Uzlabots\nIeroča Grūdējs"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "Papildu Trokšņa Izolācija"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "Papildu\nTrokšņa Izolācija"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "Polsterējuma Noņemšana"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "Polsterējuma\nNoņemšana"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "Papildu Drošības Sistēma"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "Papildu Drošības\nSistēma"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "Vieglas Stiprinājuma Vietas"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "Vieglas\nStiprinājuma Vietas"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "Strāvas Padeves Pārvade (Uzstādījums 1)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "Strāvas Padeves\nPārvade (Uzstādījums 1)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "Strāvas Padeves Pārvade (Uzstādījums 2)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "Strāvas Padeves\nPārvade (Uzstādījums 2)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "Pastiprināta Platforma"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "Pastiprināta\nPlatforma"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "Viegla Platforma"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "Viegla\nPlatforma"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "Fokuss uz Mobilitāti"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "Fokuss uz\nMobilitāti"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "Fokuss uz Šaušanas Spēku"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "Fokuss uz\nŠaušanas Spēku"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "Smagsvara Ierocis"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "Smagsvara\nIerocis"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "Viegls Ierocis"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "Viegls\nIerocis"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "Jaudas Izejas Regulēšana (Uzstādījums 1)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "Jaudas Izejas\nRegulēšana (Uzstādījums 1)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "Jaudas Izejas Regulēšana (Uzstādījums 2)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "Jaudas Izejas\nRegulēšana (Uzstādījums 2)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "Pastiprināta Korpuss"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "Pastiprināta\nKorpuss"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "Viegls Korpuss"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "Viegls\nKorpuss"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Pretatstarojošās Optikas Pārklājums"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Pretatstarojošās\nOptikas Pārklājums"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Ārējās Redzamības Sistēma"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Ārējās Redzamības\nSistēma"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Panorāmas Triplekss"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Panorāmas\nTriplekss"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Šaurleņķa Novērošanas Ierīce"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Šaurleņķa\nNovērošanas Ierīce"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "Pastiprināta Primārā Struktūra"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "Pastiprināta\nPrimārā Struktūra"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "Torņa Kameras Paplašināšana"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "Torņa Kameras\nPaplašināšana"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "Izlūkošanas Komplekts"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "Izlūkošanas\nKomplekts"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "Uzbrukuma Komplekts"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "Uzbrukuma\nKomplekts"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "Uzlabotas Izturības Pastiprināšana"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "Uzlabotas Izturības\nPastiprināšana"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "Progresīvas Tēmēšanas Uzlabošana"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "Progresīvas Tēmēšanas\nUzlabošana"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "Papildu Novērošanas Ierīces"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "Papildu\nNovērošanas Ierīces"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "Pastiprināti Savienojumi"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "Pastiprināti\nSavienojumi"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "Iekraušanas Mehānisma Regulēšana"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "Iekraušanas Mehānisma\nRegulēšana"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "Tēmēšanas Mehānisma Regulēšana"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "Tēmēšanas Mehānisma\nRegulēšana"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "PTO Regulēšana"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "PTO\nRegulēšana"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "Elektriskā Tēmēšanas Piedziņa"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "Elektriskā\nTēmēšanas Piedziņa"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "Kakla Pielāgošana"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "Kakla\nPielāgošana"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "Jauni Tēmēšanas Pārnesumi"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "Jauni\nTēmēšanas Pārnesumi"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "Injekcijas Sistēmas Regulēšana"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "Injekcijas Sistēmas\nRegulēšana"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "Redzes Lauka Regulēšana"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "Redzes Lauka\nRegulēšana"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "Moduļa Izturības Palielinājums"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "Moduļa Izturības\nPalielinājums"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "Vieglmetāla Stiprinājuma Punkti"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "Vieglmetāla\nStiprinājuma Punkti"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "Kakla Pielāgošana"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "Kakla\nPielāgošana"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "Jauni Tēmēšanas Pārnesumi"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "Jauni\nTēmēšanas Pārnesumi"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "Smagā Gabarīta Sprauslas"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "Smagā Gabarīta\nSprauslas"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "Jūtīga Optika"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "Jūtīga\nOptika"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "Pastiprināti Atbalsta Veltņi"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "Pastiprināti\nAtbalsta Veltņi"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "Viegli Atbalsta Veltņi"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "Viegli\nAtbalsta Veltņi"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "Balstiekārtas Pielāgošana"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "Balstiekārtas\nPielāgošana"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "Dzinēja Pielāgošana"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "Dzinēja\nPielāgošana"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "Mednieka Ā Svīts"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "Mednieka Ā\nSvīts"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "Mednieka M Svīts"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "Mednieka M\nSvīts"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "Hidraulikas Regulēšana (Uzstādījums 1)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "Hidraulikas\nRegulēšana (Uzstādījums 1)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "Hidraulikas Regulēšana (Uzstādījums 2)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "Hidraulikas\nRegulēšana (Uzstādījums 2)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "Iekraušanas Mehānisma Regulēšana"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "Iekraušanas Mehānisma\nRegulēšana"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "Tēmēšanas Mehānisma Regulēšana"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "Tēmēšanas Mehānisma\nRegulēšana"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "Izdzīvojamības Palielinājums"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "Izdzīvojamības\nPalielinājums"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "Svara Samazināšana"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "Svara\nSamazināšana"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "Visurgājēju Balstiekārta"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "Visurgājēju\nBalstiekārta"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "Viegla Balstiekārta"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "Viegla\nBalstiekārta"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "Paralakses Pielāgošana"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "Paralakses\nPielāgošana"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "Tēmēšanas Pārnesumu Lokošana"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "Tēmēšanas Pārnesumu\nLokošana"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "Skaņas Izolācija"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "Skaņas\nIzolācija"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "Periskopa Elektriskā Piedziņa"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "Periskopa\nElektriskā Piedziņa"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "Vārstu Regulēšana (Uzstādījums 1)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "Vārstu Regulēšana\n(Uzstādījums 1)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "Vārstu Regulēšana (Uzstādījums 2)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "Vārstu Regulēšana\n(Uzstādījums 2)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "Iekraušanas Mehānisma Regulēšana"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "Iekraušanas Mehānisma\nRegulēšana"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "Tēmēšanas Mehānisma Regulēšana"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "Tēmēšanas Mehānisma\nRegulēšana"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "Pastiprināta Pretšķembu Aizsardzība"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "Pastiprināta\nPretšķembu Aizsardzība"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "Viegla Pretšķembu Aizsardzība"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "Viegla\nPretšķembu Aizsardzība"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "Moduļa Izturības Palielinājums"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "Moduļa Izturības\nPalielinājums"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "Vieglmetāla Stiprinājuma Punkti"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "Vieglmetāla\nStiprinājuma Punkti"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "Balstiekārtas Sviras Regulēšana"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "Balstiekārtas Sviras\nRegulēšana"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "Uzlabota Redze"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "Uzlabota\nRedze"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "Turbokompresora Regulēšana"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "Turbokompresora\nRegulēšana"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "Pretatstarojošo Lukturu Pārklājums"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "Pretatstarojošo\nLukturu Pārklājums"
+
+msgid "selfBuff/battleDescr"
+msgstr "Uz %(duration)s s samazina ieroča izkliedi un mērķēšanas laiku par %(gunAimingTime)s, kā arī uzlabo ieroča stabilizāciju un uguns ātrumu.\n\n*Neietekmē laiku starp šāviņa izšaušanu un nākamā šāviņa ielādi magazīnā, lielgabalā vai konteinerā."
+
+msgid "selfBuff/descr"
+msgstr "Uz %(duration)s s samazina ieroča izkliedi un mērķēšanas laiku par %(gunAimingTime)s, kā arī uzlabo ieroča stabilizāciju un uguns ātrumu.\n\n*Neietekmē laiku starp šāviņa izšaušanu un nākamā šāviņa ielādi magazīnā, lielgabalā vai konteinerā."
+
+msgid "selfBuff/longDescr"
+msgstr "{whiteSpanish_Open}Par %(duration)s s{whiteSpanish_Close}, samazina ieroča izkliedi un mērķēšanas {green_Open}laiku par %(gunAimingTime)s{green_Close}, un uzlabo ieroča stabilizāciju un uguns ātrumu.\n\n*Neietekmē laiku starp šāviņa izšaušanu un nākamā šāviņa ielādi magazīnā, lielgabalā vai konteinerā."
+
+msgid "selfBuff/name"
+msgstr "Mērķa Izsekošana"
+
+msgid "selfBuff/shortDescr"
+msgstr "{whiteSpanish_Open}Par %(duration)s s{whiteSpanish_Close}, samazina ieroča izkliedi un mērķēšanas {green_Open}laiku par %(gunAimingTime)s{green_Close}, un uzlabo ieroča stabilizāciju un uguns ātrumu.\n\n*Neietekmē laiku starp šāviņa izšaušanu un nākamā šāviņa ielādi magazīnā, lielgabalā vai konteinerā."
+
+msgid "shells_consumables_switch/name"
+msgstr "Alternatīva Konfigurācija: Būtisks Komplekts"
+
+msgid "shotPassion/battleDescr"
+msgstr "Uz %(duration)s s, samazina jūsu ieroča nolikšanas efektivitāti un stabilizāciju par %(gunAimingTime)s, bet katrs jūsu veikts cauršaujošs šāviens palielinās jūsu izdarītos bojājumus par %(damageIncreasePerShot)s. Uzkrājas līdz 5 reizēm. Šāvieni bez bojājumiem vai netrāpījumi atiestata bojājumu bonusu uz 0.\n\n*Elektriskas Izlādes trāpījumi arī skaitās uz jūsu bojājumu bonusa skaitu."
+
+msgid "shotPassion/descr"
+msgstr "Uz %(duration)s sekundes samazina jūsu ieroča mērķēšanas efektivitāti un stabilizāciju par %(gunAimingTime)s, bet katrs trāpījums ar cauršaušanu palielinās jūsu nodarīto bojājumu par %(damageIncreasePerShot)s. Var sakrāties līdz 5 reizēm. Trāpījumi bez bojājumiem vai garām šāvieni atiestata bojājumu bonusa skaitu uz 0.\n\n*Elektriskā Izlāde trāpījumi arī tiek ieskaitīti jūsu bojājumu bonusa skaitā."
+
+msgid "shotPassion/longDescr"
+msgstr "Uz {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} samazina tavas lielgabala tēmēšanas efektivitāti un stabilizāciju {red_Open}par %(gunAimingTime)s{red_Close}, taču katrs caursitošs trāpījums palielina nodarītos bojājumus {green_Open}par %(damageIncreasePerShot)s. {green_Close}Efekts uzkrājas {whiteSpanish_Open}līdz 5 reizēm{whiteSpanish_Close}. Trāpījumi bez bojājumiem vai netrāpījumi atiestata bojājumu bonusa uzkrājumu uz 0.\n\n*Elektriskās izlādes trāpījumi arī tiek ieskaitīti bojājumu bonusa uzkrājumā."
+
+msgid "shotPassion/name"
+msgstr "Spēcīga Degsme"
+
+msgid "shotPassion/shortDescr"
+msgstr "Uz {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} samazina tavas lielgabala tēmēšanas efektivitāti un stabilizāciju {red_Open}par %(gunAimingTime)s{red_Close}, taču katrs caursitošs trāpījums palielina nodarītos bojājumus {green_Open}par %(damageIncreasePerShot)s. {green_Close}Efekts uzkrājas {whiteSpanish_Open}līdz 5 reizēm{whiteSpanish_Close}. Trāpījumi bez bojājumiem vai netrāpījumi atiestata bojājumu bonusa uzkrājumu uz 0.\n\n*Elektriskās izlādes trāpījumi arī tiek ieskaitīti bojājumu bonusa uzkrājumā."
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "Sestā Maņa tiek aktivizēta 1 sekundi ātrāk"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "Sestās Maņas funkcija ļauj Komandierim identificēt, vai tanku pamanīja pretinieks. Aktivizējas 3 s pēc jūsu tanka pamanīšanas."
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "Sestās Maņas iemaņa ļauj Komandierim noteikt, vai tanku pamanīja pretinieks uz visu kaujas laiku. Uzstādītā direktīva palielina tās efektu."
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "Paaugstināta koncentrēšanās"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "Palielina Sestās Maņas komandiera funkcijas efektu"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "Visu ievainoto apkalpes locekļu ārstēšana un apdullināšanas efekta noņemšana."
+
+msgid "smallMedkit/long_special"
+msgstr "Aktivizējot ārstē visus ievainotus apkalpes locekļus un noņem apdullināšanas efektu. Piemērots visiem tanku tipiem no jebkuras nācijas. Palīgmateriāls tiek noņemts pēc kaujas ja tas tika izmantots vismaz vienu reizi."
+
+msgid "smallMedkit/name"
+msgstr "Mazā aptieciņa"
+
+msgid "smallMedkit/onUse"
+msgstr "Visu ievainoto apkalpes locekļu ārstēšana un apdullināšanas efekta noņemšana."
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "Visu ievainoto apkalpes locekļu ārstēšana un apdullināšanas efekta noņemšana."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "Ārstē visus ievainotos apkalpes locekļus un noņem apdullināšanas efektu."
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "Visu bojāto moduļu remonts."
+
+msgid "smallRepairkit/long_special"
+msgstr "Aktivizējot vienlaicīgi salabo visus bojātos moduļus. Palīgmateriāls tiek noņemts pēc kaujas ja tas tika izmantots vismaz vienu reizi."
+
+msgid "smallRepairkit/name"
+msgstr "Mazais remonta komplekts"
+
+msgid "smallRepairkit/onUse"
+msgstr "Visu bojāto moduļu remonts. Palīgmateriāls tiek noņemts pēc kaujas ja tas tika izmantots vismaz vienu reizi."
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "Salabo visus bojātos moduļus."
+
+msgid "smoke/longDescr"
+msgstr "Veido dūmu aizsegus, kas apslēpj visu tankus iekš un aiz dūmiem. Pretinieku tankiem iekš dūmiem ir samazināts skata attālums un apkalpes sniegums."
+
+msgid "smoke/name"
+msgstr "Dūmu aizsegs"
+
+msgid "smoke/shortDescr"
+msgstr "Dūmi aizsedz tankus tajos/aiz tiem. Ienaidniekiem samazināts redzamības rādiuss, apkalpes veiktspēja."
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "Dubulto Gluds Brauciens iemaņas efektu"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "Gluds Brauciens iemaņu trenētu līdz 100%"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "Gluds Brauciens iemaņa uzlabo precizitāti šaujot kustībā visu kaujas laiku. Kad iemaņa ir trenēta līdz 100%, lietotā direktīva palielina tās efektu; ja nē, direktīva dod jūsu tankam iemaņu trenētu līdz 100%."
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "Ātrumkārbas komplicētība"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "Sniedz Gluds Brauciens iemaņu trenētu līdz 100% vai palielina tās efektu"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "Dubulto Ātrs Šāviens iemaņas efektu"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "Sniedz Momentšāviens iemaņu trenētu līdz 100%"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "Ātrs Šāviens iemaņa uzlabo precizitāti torņa rotācijas laikā visu kaujas laiku. Kad iemaņa ir trenēta līdz 100%, lietotā direktīva palielina tās efektu; ja nē, direktīva dod jūsu tankam iemaņu trenētu līdz 100%."
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "Stabila roka"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "Sniedz Momentšāviens iemaņu trenētu līdz 100% vai palielina tās efektu"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "Izvieto pašgājēju mīnu, kas vajās tuvāko ienaidnieka tanku līdz %(botLifeTime)s sekundēm un nodarīs 400 līdz 600 HP bojājumus nelielā diapazonā pēc detonācijas.\n\n*Ienaidnieki var iznīcināt jūsu Ugunsbumbu, šaujot vai taranējot to. Ugunsbumba izraisa papildu taranēšanas bojājumus, sasniedzot mērķi."
+
+msgid "spawn_kamikaze/descr"
+msgstr "Izvieto pašgājēju mīnu, kas vajās tuvāko ienaidnieka tanku līdz %(botLifeTime)s sekundēm un nodarīs 400 līdz 600 HP bojājumus nelielā diapazonā pēc detonācijas.\n\n*Ienaidnieki var iznīcināt jūsu Ugunsbumbu, šaujot vai taranējot to. Ugunsbumba izraisa papildu taranēšanas bojājumus, sasniedzot mērķi."
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "Izvieto pašgājēju mīnu, kas vajās tuvāko ienaidnieka tanku līdz {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close} un nodarīs {whiteSpanish_Open}400 līdz 600 HP bojājumus{whiteSpanish_Close} nelielā diapazonā pēc detonācijas.\n\n*Ienaidnieki var iznīcināt jūsu Ugunsbumba, šaujot vai taranējot to. Ugunsbumba izraisa papildu taranēšanas bojājumus, sasniedzot mērķi."
+
+msgid "spawn_kamikaze/name"
+msgstr "Ugunsbumba"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "Izvieto pašgājēju mīnu, kas vajās tuvāko ienaidnieka tanku līdz {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close} un nodarīs {whiteSpanish_Open}400 līdz 600 HP bojājumus{whiteSpanish_Close} nelielā diapazonā pēc detonācijas.\n\n*Ienaidnieki var iznīcināt jūsu Ugunsbumba, šaujot vai taranējot to. Ugunsbumba izraisa papildu taranēšanas bojājumus, sasniedzot mērķi."
+
+msgid "stealthRadar/descr"
+msgstr "Sniedz bonusu maskēšanai un skata attālumam. Samazina pretinieku tanku maskēšanos."
+
+msgid "stealthRadar/long_descr"
+msgstr "Palielina jūsu tanka maskēšanās parametru %(activationDelay)s s pēc tā apstāšanās un samazina pretinieku tanku maskēšanos. Sniedz pasīvu bonusu skata attālumam un pamana pretinieku mīnas. Nestrādā tanka kustības laikā."
+
+msgid "stealthRadar/name"
+msgstr "Sargs"
+
+msgid "stealthRadar/short_descr"
+msgstr "Sniedz bonusu maskēšanai un skata attālumam. Samazina pretinieku tanku maskēšanos."
+
+msgid "stereoscope/battleDescr"
+msgstr "Palielina stacionāra tanka skata attālumu 3 s pēc tā apstāšanās (līdz 445 m)"
+
+msgid "stereoscope/long_special"
+msgstr "Labs skata attālums sniedz labu priekšrocību tankiem kaujā. Šī tipa iekārta ir noderīga tanku iznīcinātājiem ar zemu siluetu un precīziem ieročiem. Tas aktivizējas 3 sekundes pēc tanka apstāšanās."
+
+msgid "stereoscope/name"
+msgstr "Stereoskopiskais tālskatis"
+
+msgid "stereoscope_tier1/name"
+msgstr "Binokļa Teleskops Klase 1"
+
+msgid "stereoscope_tier2/name"
+msgstr "Binokļa Teleskops Klase 2"
+
+msgid "stereoscope_tier3/name"
+msgstr "Binokļa Teleskops Klase 3"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "Balstiekārtas Detaļu Nomaiņa (Tips 1)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "Balstiekārtas Detaļu Nomaiņa (Tips 2)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "Rotācijas Mehānisma Lokošana (Tips 1)"
+
+msgid "tankRammer/name"
+msgstr "Ieroča Grūdējs"
+
+msgid "tankRammer_tier1/name"
+msgstr "Ieroča Grūdējs Klase 1"
+
+msgid "tankRammer_tier2/name"
+msgstr "Ieroča Grūdējs Klase 2"
+
+msgid "thunderStrike/battleDescr"
+msgstr "Izveido zonu, kurā ar augstu frekvenci notiek virkne %(thunderCount)s elektrisko izlāžu. Katra izlāde nodara %(damage)s HP bojājumus un īslaicīgi samazina katra ienaidnieka tanka mobilitāti spējas ietekmes zonā.\n\n*Starp spējas aktivizēšanu un pirmo izlādi ir %(delay)s s aizkave. Negatīvo efektu var noņemt ar Remonta Komplektu."
+
+msgid "thunderStrike/descr"
+msgstr "Izveido zonu, kurā ar augstu frekvenci notiek virkne %(thunderCount)s elektrisko izlāžu. Katrs izlāde nodara %(damage)s HP bojājumus un īslaicīgi samazina katra ienaidnieka tanka mobilitāti spējas iedarbības zonā.\n\n*Starp spējas aktivizēšanu un pirmo izlādi ir %(delay)s s aizkave. Negatīvo efektu var noņemt ar Remonta Komplektu."
+
+msgid "thunderStrike/longDescr"
+msgstr "Izveido zonu, kurā ar augstu frekvenci notiek virkne %(thunderCount)s elektrisko izlāžu. Katra izlāde nodara {whiteSpanish_Open}%(damage)s HP bojājumus{whiteSpanish_Close} un īslaicīgi samazina katra ienaidnieka tanka mobilitāti spējas ietekmes zonā.\n\n*Starp spējas aktivizēšanu un pirmo izlādi ir %(delay)s s aizkave. Negatīvo efektu var noņemt ar Remonta Komplektu."
+
+msgid "thunderStrike/name"
+msgstr "Elektriskā Izlāde"
+
+msgid "thunderStrike/shortDescr"
+msgstr "Izveido zonu, kurā ar augstu frekvenci notiek virkne %(thunderCount)s elektrisko izlāžu. Katra izlāde nodara {whiteSpanish_Open}%(damage)s HP bojājumus{whiteSpanish_Close} un īslaicīgi samazina katra ienaidnieka tanka mobilitāti spējas ietekmes zonā.\n\n*Starp spējas aktivizēšanu un pirmo izlādi ir %(delay)s s aizkave. Negatīvo efektu var noņemt ar Remonta Komplektu."
+
+msgid "trappoint/battleDescr"
+msgstr "Uz %(duration)s s, izveido zonu, as samazina mobilitātes parametrus par %(vehicleMaxSpeed)s, un palielina ieroča pārlādes/tēmēšanas laiku par %(gunReloadTime)s visiem pretinieku tankiem iekš tās."
+
+msgid "trappoint/descr"
+msgstr "Uz %(duration)s s, izveido zonu, as samazina mobilitātes parametrus par %(vehicleMaxSpeed)s, un ieroča pārlādes/tēmēšanas laiku par %(gunReloadTime)s visiem pretinieku tankiem iekš tās."
+
+msgid "trappoint/long_special"
+msgstr "{whiteSpanish_Open}Uz %(duration)s s{whiteSpanish_Close}, izveido zonu, as samazina mobilitātes parametrus {whiteSpanish_Open}par %(vehicleMaxSpeed)s{whiteSpanish_Close}, un ieroča pārlādes/tēmēšanas {whiteSpanish_Open}laiku par %(gunReloadTime)s{whiteSpanish_Close} visiem pretinieku tankiem iekš tās."
+
+msgid "trappoint/name"
+msgstr "Slazds"
+
+msgid "trappoint/short_special"
+msgstr "{whiteSpanish_Open}Uz %(duration)s s{whiteSpanish_Close}, izveido zonu, as samazina mobilitātes parametrus {whiteSpanish_Open}par %(vehicleMaxSpeed)s{whiteSpanish_Close}, un palielina ieroča pārlādes/tēmēšanas {whiteSpanish_Open}laiku par %(gunReloadTime)s{whiteSpanish_Close} visiem pretinieku tankiem iekš tās."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "Efektivitāte ir atkarīga no tanka tipa. Palielina stacionāra vai kustoša tanka maskēšanos. Noderīgs priekš aktīvas izlūkošanas, kā arī priekš pasīvas izlūkošanas no riskantām pozīcijām."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "Balvu Izplūdes Sistēma"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "Palielina stacionāra vai kustoša tanka maskēšanos."
+
+msgid "trophyBasicAimDrives/name"
+msgstr "Balvas Tēmēšanas Piedziņas Pastiprinātājs"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "Palielina ieroča tēmēšanas ātrumu, lai šautu precīzus šāvienus ātrāk."
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "Balvu Stabilizators"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "Samazina ieroča izkliedi šaujot kustībā un tanka griešanās laikā."
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "Balvas Optika"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "Pagarina skata attālumu gan stacionāriem gan kustīgiem tankiem."
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "Pilnībā atjauno balstiekārtas dzīvības punktus pēc remonta."
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "Atjauno šasiju pēc remonta."
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "Palielina tanka izturību un remonta ātrumu. Samazina korpusa bojājumus, ko izraisa šasijas bojājumi sadursmes laikā. Pēc remonta pilnībā atjauno šasijas dzīvības punktus. Samazina iespēju, ka pēc trieciena tiks iznīcināta kāpurķēde, ļaujot tavam tankam saglabāt kustību pēc iespējas ilgāk."
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "Balvu Sacietēšana"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "Palielina tanka izturību un aizsargā šasiju"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "Balvu Aizsardzības Tehnoloģija"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "Balvu Rotācijas Mehānisms"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "Samazina tēmēšanas apļa lielumu, lai palielinātu tēmējošu vai pilnībā notēmētu ieroča precizitāti. Tā rezultātā, jūsu ierocim ir labāka iespēja trāpīt mērķim."
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "Balvu Tēmēšana"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "Samazina ieroča izkliedi"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "Balvu Ventilācija"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "Uzlabo apkalpes efektivitāti, kam ir pozitīvs efekts uz vairākumu tanka īpašību."
+
+msgid "trophyBasicTankRammer/name"
+msgstr "Balvas Grūdējs"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "Paātrina ieroča pārlādi. Nav klašu ierobežojumi."
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "Palielina dzinēja jaudu, sniedzot labāku paātrinājumu, manevrētspēju un braukšanu pa reljefa nogāzēm. Palielina tanka maksimālo braukšanas ātrumu uz priekšu un atpakaļ, ļaujot jums ātrāk ieņemt pozīcijas un izbēgt no ienaidnieku pretuguns."
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "Balvu Turbokompresors"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "Palielina dzinēja jaudu un maksimālo ātrumu"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} {arrow} skata attālumam, līdz pat 445 m"
+
+msgid "trophyOptics/name"
+msgstr "Balvas Optika"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "Balvu Izplūdes Sistēma"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "Balvas Tēmēšanas Piedziņas Pastiprinātājs"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "Balvu Stabilizators"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "Balvas Optika"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "Pilnībā atjauno balstiekārtas dzīvības punktus pēc remonta."
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Atjauno šasiju pēc remonta."
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "Balvu Sacietēšana"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "Balvu Aizsardzības Tehnoloģija"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "Balvu Rotācijas Mehānisms"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "Balvu Tēmēšana"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "Balvu Ventilācija"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "Balvas Grūdējs"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "Balvu Turbokompresors"
+
+msgid "turbocharger/long_special"
+msgstr "Palielina dzinēja jaudu, sniedzot labāku paātrinājumu, manevrētspēju un braukšanu pa reljefa nogāzēm. Palielina tanka maksimālo braukšanas ātrumu uz priekšu un atpakaļ, ļaujot jums ātrāk ieņemt pozīcijas un izbēgt no ienaidnieku pretuguns."
+
+msgid "turbocharger/name"
+msgstr "Turbokompresors"
+
+msgid "turbocharger/short_special"
+msgstr "Palielina dzinēja jaudu un maksimālo ātrumu"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s dzinēja jaudai ar uzstādītu Turbokompresoru (jebkura klase), Balvu Turbokompresoru, Uzlabotu Kompresoru vai Mobilitātes Uzlabošanas Sistēmu."
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "Uzlabo Uzlabota Turbokompresora (jebkura klase), Balvu Turbokompresora vai Uzlabota Turbokompresora efektu uz vienas kaujas laiku. Direktīva strādās tikai, ja jums ir uzstādītas attiecīgās iekārtas."
+
+msgid "turbochargerBattleBooster/name"
+msgstr "Degvielas Filtra Maiņa"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "Palielina dzinēja jaudu"
+
+msgid "turbocharger_tier1/name"
+msgstr "Turbokompresors Klase 1"
+
+msgid "turbocharger_tier2/name"
+msgstr "Turbokompresors Klase 2"
+
+msgid "turbocharger_tier3/name"
+msgstr "Turbokompresors Klase 3"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "Dubulto Sajūga Bremzēšana iemaņas efektu"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "Sniedz Sajūga Bremzēšana iemaņu trenētu līdz 100%"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "Sajūga Bremzēšanas iemaņa palielina šķērsošanas ātrumu gan nekustīgiem gan kustīgiem tankiem visu kaujas laiku. Kad iemaņa ir trenēta līdz 100%, lietotā direktīva palielina tās efektu; ja nē, direktīva dod jūsu tankam iemaņu trenētu līdz 100%."
+
+msgid "virtuosoBattleBooster/name"
+msgstr "Šķēršļu josla"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "Sniedz Sajūga Bremzēšana iemaņu trenētu līdz 100% vai palielina tās efektu"

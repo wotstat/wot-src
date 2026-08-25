@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "Játékos"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "Havonta"
+
+msgid "ClanListWindow/table/role"
+msgstr "Pozíció"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "Hetente"
+
+msgid "battleQueue/clanPosition"
+msgstr "Helyezés: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "Helyezés:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "Ellenség keresése:"
+
+msgid "battleQueue/waitBattle"
+msgstr "Várakozás a csatára:"
+
+msgid "battleQueue/yourTeam"
+msgstr "Osztagod:"
+
+msgid "disconnected/Warning"
+msgstr "Figyelem!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "Az erőd átmenetileg nem érhető el. Próbálkozz újra később."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "Az erődítmény barangolás során nem elérhető. Az erődítménybe való belépéshez, menj a saját régiódba."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "Klántagok"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "Légiósok"
+
+msgid "fortVehPopover/btnSave"
+msgstr "(%(count)d) kiválasztás mentése"
+
+msgid "inspire/inspired"
+msgstr "Ösztönöz"
+
+msgid "inspire/inspiring"
+msgstr "Ösztönöz"
+
+msgid "mainWindow/maintenance/body"
+msgstr "Elnézésed kérjük a kellemetlenségért."
+
+msgid "mainWindow/maintenance/button"
+msgstr "Frissítés"
+
+msgid "mainWindow/maintenance/header"
+msgstr "Hiba az adatok betöltése során"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "További eligazítás"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "Csata fizetségek"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "Katonai műveletek"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "Taktikai kiképzés"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "További hatás"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "Parancsot ad a tüzérségnek, hogy tűz alá vegye a kijelölt területet, egy csatában csatározásban és előrenyomulásban"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "Az Ösztönzés bónuszt ad a járműved teljes legénységének fő képzettségéhez és minden készségéhez, ahogyan a közeli szövetséges járművek legénységeinek is, Csatározás vagy Előrenyomulás típusú csatákban."
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "Tartalékot csata előtt lehet engedélyezni"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "Tartalékot az előrenyomulás előtt lehet engedélyezni"
+
+msgid "reserves/tooltip/empty"
+msgstr "Nincs engedélyezhető tartalékod"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s a depóban"
+
+msgid "reserves/tooltip/level"
+msgstr "%(level)s szint"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "Hatás használatkor"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "Bekapcsolható"
+
+msgid "reserves/tooltip/selected"
+msgstr "Engedélyezve"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "Kattints az aktiválható tartalékok listájának megtekintéséhez."
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "Tartalékot csak az osztag parancsnok engedélyezhet, parancsnoki, másodtiszti, személyzeti tiszti vagy harctéri parancsnoki ranggal."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "Nincs elég klántag az osztagban: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Csata kezdete: %(nextDate)s perc"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "A kezdési időpont később kerül meghatározásra"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "Csata vége: %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "Csatározás elérhető"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "A következő csata időpontja %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Csata kezdete: %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "A csata ma kezdődik, ekkor: %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "A csata holnap kezdődik, ekkor: %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "A kezdési időpont később kerül meghatározásra"
+
+msgid "sortie/introView/title"
+msgstr "Erődítmény: Csaták"
+
+msgid "sortie/listView/enterBtn"
+msgstr "Csatlakozás"
+
+msgid "sortie/listView/enterText"
+msgstr "Csatlakozhatsz a csapathoz önkéntesként"
+
+msgid "sortie/listView/notSelected"
+msgstr "Válassz egy osztagot a bal oldali listáról,\nhogy megnézd a részleteket."
+
+msgid "sortie/listView/teamMembers"
+msgstr "Csapattagok: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "Járművek:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "Légiós"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "Auto-összeállítás"
+
+msgid "sortie/room/candidates"
+msgstr "Jelentkezők"
+
+msgid "sortie/room/chat"
+msgstr "Chat csatorna"
+
+msgid "sortie/room/description"
+msgstr "Az osztag megküzd egy véletlenszerűen választott ellenséges klánnal semleges területen. A járművek szintjét a választott divízió határozza meg."
+
+msgid "sortie/room/fight"
+msgstr "Csata!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "Játékosok meghívása"
+
+msgid "sortie/room/leaveBtn"
+msgstr "AZ OSZTAG ÖSSZEÁLLÍTÁSÁHOZ"
+
+msgid "sortie/room/level"
+msgstr "%(level)s szint"
+
+msgid "sortie/room/members"
+msgstr "Csapattagok: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "Nincs kész"
+
+msgid "sortie/room/ready"
+msgstr "Kész!"
+
+msgid "sortie/room/title"
+msgstr "Osztag"
+
+msgid "sortie/slot/emptySlot"
+msgstr "Üres"
+
+msgid "sortie/slot/takePlace"
+msgstr "Férőhely elfoglalása"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "Válassz egy járművet a csatához. A piros indikátor azt jelzi, hogy a jármű nem áll készen a harcra."
+
+msgid "stronghold/teamHeader"
+msgstr "Osztag tagjai"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "Légiósok járműveinek kiválasztása"
+
+msgid "strongholdPopover/header"
+msgstr "Jármű választás"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "Kijelölt tankok:"
+
+msgid "strongholdbuilds/direction"
+msgstr "%(direction)s szövetséges hídfő"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "Északi"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "Keleti"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "Déli"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "Nyugati"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "Ellenséges hídfő"
+
+msgid "strongholdbuilds/mapName"
+msgstr "Pálya: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "A pályát az előrenyomulás kezdetekor lehet majd kiválasztani"
+
+msgid "strongholdbuilds/point1"
+msgstr "Citadella"
+
+msgid "strongholdbuilds/point2"
+msgstr "Tartalék vonal"
+
+msgid "strongholdbuilds/point3"
+msgstr "Frontvonal"
+
+msgid "strongholdbuilds/point4"
+msgstr "Frontvonal"
+
+msgid "strongholdbuilds/point5"
+msgstr "Tartalék vonal"
+
+msgid "strongholdbuilds/point6"
+msgstr "Citadella"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "x%(reward)s az Előrenyomulások során ezen a hídfőn elért első győzelemért minden nap"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "Citadella megvédéséért mindkét vonal elesése után"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "Tartalék vonal megvédéséért miután a front vonal elesett"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "Mindkét vonal megvédéséért az ellenséges vonalak elfoglalása nélkül"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "Csak a frontvonal elfoglalásáért"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "Mindkét vonal elfoglalásáért a Citadella elfoglalása nélkül"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "Az ellenséges Citadella elfoglalásáért"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "követelés tartalékból"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "Előrenyomulás utáni jutalom"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "Elrejtés légiósok elől"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "Az osztag látható"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "Osztag megjelenítése a légiósok számára"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "Az osztag nem látható"
+
+msgid "strongholddirection/A"
+msgstr "Északi"
+
+msgid "strongholddirection/B"
+msgstr "Keleti"
+
+msgid "strongholddirection/C"
+msgstr "Déli"
+
+msgid "strongholddirection/D"
+msgstr "Nyugati"
+
+msgid "strongholdinfo/sortie"
+msgstr "Csatározás %(level)s divízióban"
+
+msgid "strongholdinfo/stronghold"
+msgstr "Előrenyomulás a(z) %(direction)s hídfőből"
+
+msgid "strongholdmap/randomMap"
+msgstr "Véletlenszerű pálya"
+
+msgid "strongholdreserve/boost"
+msgstr "Ösztönzés"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "Nagy kapacitású szállítás"
+
+msgid "strongholdreserve/requisition"
+msgstr "Követelés"
+
+msgid "strongholdreserve/support"
+msgstr "Tüzérségi csapás"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "Csatározásokban és Előrenyomulásokban, 1 csatára"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "Az Előrenyomulás eredményéért"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "Aktiválódik a csata kezdetekor"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "Aktiválódik az Előrenyomulás kezdetekor"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "Aktiválódik, ha a csatában tartalékot használsz"
+
+msgid "strongholdtable/rating"
+msgstr "Értékelés"
+
+msgid "strongholdtable/roster"
+msgstr "Összeállítás"
+
+msgid "strongholdtable/tech"
+msgstr "Járművek"
+
+msgid "strongholdtitle/sortie"
+msgstr "Csatározás"
+
+msgid "strongholdtitle/stronghold"
+msgstr "Előrenyomulás a(z) %(direction)s hídfőből"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Határ{/HEADER}{BODY}Semleges terület. A győztes támadhatja az ellenséges vonalakat a következő csatában. Ha a csata döntetlennel ér véget, a támadó csapatot véletlenszerűen választjuk ki.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "Előrenyomulás a(z) %(direction)s hídfőből"
+
+msgid "strongholdtooltips/hours"
+msgstr "ó"
+
+msgid "strongholdtooltips/minuts"
+msgstr "p"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "Csatározás %(level)s divízióban"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "A jármű típusa automatikusan kiválasztásra kerül, miután a Csata! Gombra kattintasz.\n\nKattints, hogy megerősítsd vagy visszavond a légiósoknak kiválasztott jármű típust."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "A légiósok automatikusan hozzá lesznek adva az üres helyekhez"

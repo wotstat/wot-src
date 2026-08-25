@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "Вибрати нагороди"
+
+msgid "banner/giftsAvailable"
+msgstr "Вантаж прибув!"
+
+msgid "banner/giftsForOffer"
+msgstr "Нагороди за участь у «%(name)s»."
+
+msgid "banner/selectNowOrLater"
+msgstr "Вибирайте нагороди зараз або пізніше на Складі."
+
+msgid "banner/title"
+msgstr "Поставки з тилу"
+
+msgid "description/rentValue/battles"
+msgstr "на боїв: %(value)s"
+
+msgid "description/rentValue/days"
+msgstr "на днів: %(value)s"
+
+msgid "description/rentValue/wins"
+msgstr "на перемог: %(value)s "
+
+msgid "giftDescription/tank/base"
+msgstr "Додатково до вибраної машині ви безкоштовно отримаєте %(items)s."
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}екіпаж{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}екіпаж{neutralClose} і {neutralOpen}слот у Гаражі{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}Слот у Гаражі{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "Скасувати"
+
+msgid "giftDialog/description/newRent"
+msgstr "%(tankName)s буде взято напрокат %(rentValue)s"
+
+msgid "giftDialog/description/noRent"
+msgstr "%(tankName)s буде переміщено в Гараж"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "Прокат %(tankName)s буде продовжено %(rentValue)s"
+
+msgid "giftDialog/submit"
+msgstr "Підтвердити"
+
+msgid "giftDialog/title/common"
+msgstr "Підтвердження отримання майна\n«%(name)s»"
+
+msgid "giftDialog/title/tank"
+msgstr "Отримання техніки"
+
+msgid "giftDialog/title/tankRent"
+msgstr "Прокат техніки"
+
+msgid "giftsWindow/availableCount"
+msgstr "Доступно: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "Доступно до: %(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "Нагород, доступних для отримання: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "У Гаражі"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "Відкрито протягом"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "Попередній перегляд"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value) боїв"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value) д"
+
+msgid "giftsWindow/rent/title"
+msgstr "Прокат на: %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value) перемог"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "Забрати"
+
+msgid "giftsWindow/tokens"
+msgstr "У наявності: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "Жетонів у наявності: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "Недоступно"
+
+msgid "rewardWindow/btnLabel"
+msgstr "Так!"
+
+msgid "rewardWindow/title"
+msgstr "Отримано нагороду"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "Отримати!"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "Продовжити прокат!"
+
+msgid "tankPreview/description/newRent"
+msgstr "Безкоштовний прокат %(tankName)s %(rentValue)s"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s з екіпажем"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s з екіпажем і слотом у Гаражі"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s зі слотом у Гаражі"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "Продовження прокату %(tankName)s %(rentValue)s"

@@ -1,0 +1,1532 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "allVehicles"
+msgstr "Visi"
+
+msgid "battleRating/tooltip/better/body"
+msgstr "Šis mūšis buvo smagesnis ir labiau subalansuotas, nei įprastai."
+
+msgid "battleRating/tooltip/better/header"
+msgstr "Geriau, nei įprastai"
+
+msgid "battleRating/tooltip/usual/body"
+msgstr "Standartinis mūšis — nieko ypatingo neįvyko."
+
+msgid "battleRating/tooltip/usual/header"
+msgstr "Įprastai"
+
+msgid "battleRating/tooltip/worse/body"
+msgstr "Šis mūšis buvo nesmagesnis ir labiau nesubalansuotas, nei įprastai."
+
+msgid "battleRating/tooltip/worse/header"
+msgstr "Prasčiau, nei įprastai"
+
+msgid "battleResult/battleRating/better/header"
+msgstr "GERIAU, NEI ĮPRASTAI"
+
+msgid "battleResult/battleRating/none/header"
+msgstr "Įvertinkite savo mūšį"
+
+msgid "battleResult/battleRating/usual/header"
+msgstr "ĮPRASTAI"
+
+msgid "battleResult/battleRating/worse/header"
+msgstr "BLOGIAU, NEI ĮPRASTAI"
+
+msgid "battleResult/comp7Light/team/prestigePoints/body"
+msgstr "Rūšiuoti pagal prestižo taškus"
+
+msgid "battleResult/comp7Light/team/prestigePoints/header"
+msgstr "Prestižo taškai"
+
+msgid "battleResult/navigation/battleResults"
+msgstr "Peržiūra"
+
+msgid "battleResult/navigation/financialReport"
+msgstr "Finansinė ataskaita"
+
+msgid "battleResult/navigation/missionsProgress"
+msgstr "Misijos progresas"
+
+msgid "battleResult/navigation/teamEfficiency"
+msgstr "Komandos pasiekimai"
+
+msgid "battleResult/team/prestigePoints/body"
+msgstr "Rūšiuoti pagal prestižo taškus. Prestižo taškai paveikia gaunamų ar prarandamų reitingo taškų kiekį."
+
+msgid "battleResult/team/prestigePoints/header"
+msgstr "Prestižo taškai"
+
+msgid "common/arena/fullName"
+msgstr "{0} – {1}"
+
+msgid "common/arena/nameAndMode"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/battleEfficiency/allies"
+msgstr "Saviškiai:"
+
+msgid "common/battleEfficiency/allyBase"
+msgstr "Bazės gynyba"
+
+msgid "common/battleEfficiency/baseCapture"
+msgstr "Bazės užėmimas:"
+
+msgid "common/battleEfficiency/bases"
+msgstr "Bazės"
+
+msgid "common/battleEfficiency/enemyBase"
+msgstr "Bazės užėmimas"
+
+msgid "common/battleEfficiency/neutralBase"
+msgstr "Neutrali bazė"
+
+msgid "common/battleEfficiency/noEfficiency"
+msgstr "Jūs šiame mūšyje neatlikote jokio veiksmo."
+
+msgid "common/battleEfficiency/none"
+msgstr "Nesunaikinote ar neaptikote priešų mašinų."
+
+msgid "common/battleEfficiency/technique"
+msgstr "Technika"
+
+msgid "common/battleEfficiency/title"
+msgstr "Kovinis efektyvumas"
+
+msgid "common/battleEfficiency/uppercased_title"
+msgstr "PASIRODYMAS MŪŠYJE"
+
+msgid "common/battleEfficiencyWithSkills/title"
+msgstr "Kovinis efektyvumas (įskaitant panaudotus įgūdžius)"
+
+msgid "common/battleEfficiencyWithoutOreders/title"
+msgstr "Efektyvumas mūšyje (be kovinių rezervų)"
+
+msgid "common/battleType/sortie"
+msgstr "Išpuolis prieš klaną "
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "common/crewMember/description"
+msgstr "%(role)s, %(name)s"
+
+msgid "common/crewMember/newSkill"
+msgstr "Naujas įgūdis"
+
+msgid "common/details/buyPremiumBtn"
+msgstr "Pirkti Premium"
+
+msgid "common/details/creditsTitle"
+msgstr "Kreditai"
+
+msgid "common/details/crystal"
+msgstr "Bonai"
+
+msgid "common/details/getPremBtn"
+msgstr "Detaliau"
+
+msgid "common/details/noPremTitle"
+msgstr "Standartinė paskyra"
+
+msgid "common/details/premTitle"
+msgstr "WoT Premium"
+
+msgid "common/details/premiumAdvertising/bonus"
+msgstr "{{@ split}}Pritaikykite x{{multiplier}} patirties bonusą pasirinktam laimėtam mūšiui su WoT Premium paskyra.{{/}}"
+
+msgid "common/details/premiumAdvertising/credits"
+msgstr "{{@ split}}Gaukite iki {{bonusCredits}} kas {{@ style}}{{durationInDays}} d.{{/}} su WoT Premium paskyra.{{/}}"
+
+msgid "common/details/premiumPlus/bonus"
+msgstr "Pritaikykite x%(multiplier)d patirties bonusą pasirinktam laimėtam mūšiui su WoT Premium paskyra."
+
+msgid "common/details/premiumPlus/credits"
+msgstr "Gaukite iki %(bonusCredits)s kas %(durationInDays)d d. su WoT Premium paskyra."
+
+msgid "common/details/premiumPlus/premium"
+msgstr "Papildoma patirtis, kreditai, Premium misijos ir būrio bonusai su WoT Premium paskyra."
+
+msgid "common/details/premiumPlus/quests"
+msgstr "Atrakinkite specialias misijas su WoT Premium paskyra."
+
+msgid "common/details/premiumPlus/squad"
+msgstr "Uždirbkite daugiau kreditų žaisdami būryje su WoT Premium paskyra."
+
+msgid "common/details/xpTitle"
+msgstr "Patirtis"
+
+msgid "common/details/xpTitleSquad"
+msgstr "Patirtis %(img)s"
+
+msgid "common/fitting/purchase"
+msgstr "Modulio pirkimas"
+
+msgid "common/fitting/research"
+msgstr "Modulio išradimas"
+
+msgid "common/mainFinishReasonTitle"
+msgstr "Pagrindinis mūšis:"
+
+msgid "common/missions/noProgress/button"
+msgstr "Į misijas"
+
+msgid "common/missions/noProgress/description"
+msgstr "Pamatyti dabartinį misijos progresą"
+
+msgid "common/missions/noProgress/header"
+msgstr "Nėra misijų ar Technologijų medžio progreso."
+
+msgid "common/newSkillPrediction"
+msgstr "Liko mūšių (apytiksliai): %(battles)s"
+
+msgid "common/noIncome/alert/text"
+msgstr "Suažidus 10 mūšių šiame režime, jūs daugiau nebeuždirbsite kreditų ir patirties bei nebegausite apdovanojimų, o mūšių reultatai nebeįtakos statistikos."
+
+msgid "common/noIncome/alert/title"
+msgstr "Dėmesio!"
+
+msgid "common/noProgress"
+msgstr "Jokių naujų įvykių misijose, technikos išradimuose ir įgulos treniravime."
+
+msgid "common/overtimeFinishReasonTitle"
+msgstr "Pratęsimas:"
+
+msgid "common/player/nameWithClan"
+msgstr "{{name}} [{{clan}}]"
+
+msgid "common/plusBonus/bonusLeftAdditionalText"
+msgstr "Atrakinkite daugiau su "
+
+msgid "common/plusBonus/earnedMessage"
+msgstr "Jūs šiandien uždirbote:"
+
+msgid "common/plusBonus/earningsInformation"
+msgstr "Jūs šiandien uždirbote %(count)s patirties"
+
+msgid "common/plusBonus/premiumPlusAdd"
+msgstr "Atrakinkite su WoT Plus ar WoT Premium"
+
+msgid "common/plusBonus/wotPlus"
+msgstr "WoT Plus"
+
+msgid "common/plusBonus/wotPremium"
+msgstr "WoT Premium"
+
+msgid "common/plusBonus/youRock"
+msgstr "Jūs pavarot!"
+
+msgid "common/premiumBonus"
+msgstr "Norite uždirbti daugiau?"
+
+msgid "common/premiumBonus/appliedBonus"
+msgstr "Bonusas sėkmingai pritaikytas"
+
+msgid "common/premiumBonus/applyBonusBtn"
+msgstr "Uždėti"
+
+msgid "common/premiumBonus/bonusLeft"
+msgstr "Šiandien liko: %(count)s"
+
+msgid "common/premiumBonus/bonusMultiplier"
+msgstr "×{{value}}"
+
+msgid "common/premiumBonus/description"
+msgstr "Koreguojamas patirties daugiklis"
+
+msgid "common/premiumBonus/earnMore"
+msgstr "Norite uždirbti daugiau?"
+
+msgid "common/premiumBonus/expiredBattleResult"
+msgstr "Pritaikomas paskutiniam mūšiui su ta pačia mašina."
+
+msgid "common/premiumBonus/isXPToTmenDisabled"
+msgstr "Bonusas negali būti pridėtas: pagreitintas įgulos treniravimas išjungtas."
+
+msgid "common/premiumBonus/isXPToTmenDisabledWithInfo"
+msgstr "{{@ split}}Bonusas negali būti pridėtas: pagreitintas įgulos treniravimas {{@ style}}išjungtas.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/isXPToTmenEnabled"
+msgstr "Bonusas negali būti pridėtas: pagreitintas įgulos treniravimas įjungtas."
+
+msgid "common/premiumBonus/isXPToTmenEnabledWithInfo"
+msgstr "{{@ split}}Bonusas negali būti pridėtas: pagreitintas įgulos treniravimas {{@ style}}įjungtas.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/rule"
+msgstr "Daugikliai taikomi tik pergalingiems mūšiams. Sėkmės kitą kartą!"
+
+msgid "common/premiumBonus/tankStateChanged"
+msgstr "Valdomas bonusas negali būti pridėtas: mašina nerasta."
+
+msgid "common/premiumBonus/tankStateChangedWithInfo"
+msgstr "{{@ split}}Valdomas bonusas negali būti pridėtas: mašina {{@ style}}nerasta.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/tankmenStateChanged"
+msgstr "Valdomas bonusas negali būti pridėtas: įgula nerasta."
+
+msgid "common/premiumBonus/tankmenStateChangedWithInfo"
+msgstr "{{@ split}}Valdomas bonusas negali būti pridėtas: įgula {{@ style}}nerasta.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/unavailable"
+msgstr "Daugikliai šiame režime negalimi."
+
+msgid "common/progressTitle"
+msgstr "Technikos išradimai ir misijų progresas"
+
+msgid "common/quests/noprogress"
+msgstr "Nebuvo naujų įvykių misijose."
+
+msgid "common/researchPrediction"
+msgstr "Liko mūšių (apytiksliai): %(battles)s"
+
+msgid "common/resultsShareBtn"
+msgstr "Gauti nuorodą"
+
+msgid "common/startTime"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/tooltip/armor/description"
+msgstr "Skaičiuojama:\n• Priešų šūvių rikošetai\n• Nepramušę šūviai\n\nFugasinių ir HESH sviedinių pataikymai neskaičiuojami."
+
+msgid "common/tooltip/armor/header"
+msgstr "Šarvų naudojimas"
+
+msgid "common/tooltip/armor/part1"
+msgstr "Rikošetai"
+
+msgid "common/tooltip/armor/part2"
+msgstr "Nepramušimai"
+
+msgid "common/tooltip/armor/part3"
+msgstr "Žala, užblokuota šarvais %(vals)s"
+
+msgid "common/tooltip/assist/description"
+msgstr "Skaičiuojama ši saviškių padaryta žala priešų mašinoms:\n• Žala, kai jūs aptinkate priešus\n• Žala, kai jūs sunaikinate priešų mašinos vikšrus ir taip ją sustabdote"
+
+msgid "common/tooltip/assist/header"
+msgstr "Pagalba sunaikinant"
+
+msgid "common/tooltip/assist/part1"
+msgstr "Žala aptiktiems priešams %(vals)s"
+
+msgid "common/tooltip/assist/part2"
+msgstr "Žala sunaikinus vikšrą ir taip sustabdžius priešų mašiną %(vals)s"
+
+msgid "common/tooltip/assist/total"
+msgstr "Viso saviškių žala padaryta priešininkams %(vals)s"
+
+msgid "common/tooltip/capture/description"
+msgstr "Skaičiuojama:\n• Priešų bazės užėmimo taškai\n• Neutralios bazės užėmimo taškai"
+
+msgid "common/tooltip/capture/header"
+msgstr "Bazės užėmimas"
+
+msgid "common/tooltip/capture/totalPoints"
+msgstr "Viso bazės užėmimo taškų"
+
+msgid "common/tooltip/counter"
+msgstr "Viso mūšyje gauta ženklelių: %(count)s"
+
+msgid "common/tooltip/counter/forEnemy"
+msgstr "Mūšyje gauti ženkleliai už šią priešininkų mašiną: %(count)s"
+
+msgid "common/tooltip/counter/noItems"
+msgstr "Mūšyje ženklelis negautas."
+
+msgid "common/tooltip/crits/critDamage"
+msgstr "Pažeista:"
+
+msgid "common/tooltip/crits/critDestruction"
+msgstr "Sunaikinta:"
+
+msgid "common/tooltip/crits/critWound"
+msgstr "Sužeista:"
+
+msgid "common/tooltip/crits/description"
+msgstr "Skaičiuojama:\n• Žala išoriniams ir vidiniams priešų mašinos moduliams\n• Išorinių ir vidinių priešų mašinos modulių sunaikinimas\n• Priešų mašinos įgulos narių sužeidimas."
+
+msgid "common/tooltip/crits/header"
+msgstr "Kritinė žala"
+
+msgid "common/tooltip/crits/total"
+msgstr "Viso:"
+
+msgid "common/tooltip/damage/description"
+msgstr "Skaičiuojama:\n• Žala šūviais\n• Žala taranuojant\n• Žala padegus\n• Žala po stipraus smūgio"
+
+msgid "common/tooltip/damage/header"
+msgstr "Žala"
+
+msgid "common/tooltip/damage/part1"
+msgstr "Viso žala %(vals)s"
+
+msgid "common/tooltip/damage/part2"
+msgstr "Viso pramušimų"
+
+msgid "common/tooltip/defence/description"
+msgstr "Skaičiuojama:\n• Savos bazės gynybos taškai\n• Neutralios bazės gynybos taškai"
+
+msgid "common/tooltip/defence/header"
+msgstr "Bazės gynyba"
+
+msgid "common/tooltip/defence/totalPoints"
+msgstr "Viso bazės gynybos taškų"
+
+msgid "common/tooltip/kill/header"
+msgstr "Priešas sunaikintas"
+
+msgid "common/tooltip/kill0/description"
+msgstr "Priešas sunaikintas šuviu"
+
+msgid "common/tooltip/kill1/description"
+msgstr "Sudegintas priešas"
+
+msgid "common/tooltip/kill2/description"
+msgstr "Priešas sunaikintas taranuojant"
+
+msgid "common/tooltip/kill3/description"
+msgstr "Priešo tankas sudužo"
+
+msgid "common/tooltip/kill4/description"
+msgstr "Priešo tankas sunaikintas už žemėlapio ribų"
+
+msgid "common/tooltip/kill5/description"
+msgstr "Priešo tankas nuskandintas"
+
+msgid "common/tooltip/kill6/description"
+msgstr "Sunaikintas liepsnose"
+
+msgid "common/tooltip/kill7/description"
+msgstr "Priešų mašina apversta."
+
+msgid "common/tooltip/killCommon/description"
+msgstr "Skaičiuojama:\n• Sunaikinta šūviu\n• Sunaikinta padegus\n• Sunaikinta taranuojant\n• Sunaikinta nuskandinus\n• Sunaikinta nustūmus\n• Sunaikinta apvertus"
+
+msgid "common/tooltip/params/val"
+msgstr "(vnt.)"
+
+msgid "common/tooltip/params/val/seconds"
+msgstr "(s)"
+
+msgid "common/tooltip/spotted/description"
+msgstr "Skaičiuojamos tik mašinos, kurios aptinkamos pirmą kartą."
+
+msgid "common/tooltip/spotted/header"
+msgstr "Aptikimas"
+
+msgid "common/tooltip/stun/description"
+msgstr "Skaičiuojama žala:\n• Saviškių padaryta žala jūsų apkurtintiems priešams."
+
+msgid "common/tooltip/stun/header"
+msgstr "Apkurtinimas"
+
+msgid "common/tooltip/stun/part1"
+msgstr "Viso žala %(vals)s"
+
+msgid "common/tooltip/stun/part2"
+msgstr "Apkurtinimų skaičius"
+
+msgid "common/tooltip/stun/part3"
+msgstr "Bendra apkurtinimo trukmė: %(vals)s"
+
+msgid "common/tooltip/teamKill-1/description"
+msgstr "Visi tankai sunaikinti"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "Sąjungininko sunaikinimas"
+
+msgid "common/tooltip/teamKill0/description"
+msgstr "Saviškis sunaikintas šūviu"
+
+msgid "common/tooltip/teamKill1/description"
+msgstr "Saviškis sudegintas"
+
+msgid "common/tooltip/teamKill2/description"
+msgstr "Saviškis sunaikintas taranuojant"
+
+msgid "common/tooltip/teamKill3/description"
+msgstr "Saviškis sudužo"
+
+msgid "common/tooltip/teamKill4/description"
+msgstr "Saviškis sunaikintas už žemėlapio ribų"
+
+msgid "common/tooltip/teamKill5/description"
+msgstr "Saviškis nuskandintas"
+
+msgid "common/tooltip/xpTitleSquad"
+msgstr "Šiame mūšyje jūs gavote papildomos patirties už žaidimą būryje."
+
+msgid "common/totalTooltip/armor/part1"
+msgstr "Rikošetai"
+
+msgid "common/totalTooltip/armor/part2"
+msgstr "Nepramušimai"
+
+msgid "common/totalTooltip/armor/part3"
+msgstr "Šarvais užblokuota žala"
+
+msgid "common/totalTooltip/assist/part1"
+msgstr "Žala aptinkant"
+
+msgid "common/totalTooltip/assist/part2"
+msgstr "Žala sunaikinus vikšrą ir taip sustabdžius priešų mašiną"
+
+msgid "common/totalTooltip/assist/total"
+msgstr "Viso saviškių žala padaryta priešininkams"
+
+msgid "common/totalTooltip/damage/part1"
+msgstr "Visa padaryta žala"
+
+msgid "common/totalTooltip/damage/part2"
+msgstr "Viso pramušimų"
+
+msgid "common/totalTooltip/stun/part1"
+msgstr "Visa padaryta žala"
+
+msgid "common/totalTooltip/stun/part2"
+msgstr "Apkurtinimų skaičius"
+
+msgid "common/totalTooltip/stun/part3"
+msgstr "Bendra apkurtinimo trukmė"
+
+msgid "common/vehicle/details"
+msgstr "%(vehicle)s, %(type)s"
+
+msgid "common/vehicle/purchase"
+msgstr "Mašinos pirkimas"
+
+msgid "common/vehicle/research"
+msgstr "Mašinos išradimas"
+
+msgid "common/vehicleState/alive"
+msgstr "Išgyventa"
+
+msgid "common/vehicleState/dead0"
+msgstr "Sunaikintas šūviu"
+
+msgid "common/vehicleState/dead0_with_killername"
+msgstr "Sunaikinti šūviu ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead0_with_killername_and_clan"
+msgstr "Sunaikinti šūviu ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead1"
+msgstr "Sudegintas"
+
+msgid "common/vehicleState/dead12"
+msgstr "Susinaikino"
+
+msgid "common/vehicleState/dead13"
+msgstr "Sunaikintas žaidėjo įgūdžio"
+
+msgid "common/vehicleState/dead1_with_killername"
+msgstr "Sudeginti ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead1_with_killername_and_clan"
+msgstr "Sudeginti ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead2"
+msgstr "Sunaikintas taranuojant"
+
+msgid "common/vehicleState/dead27"
+msgstr "Sunaikintas artilerijos smūgio"
+
+msgid "common/vehicleState/dead29"
+msgstr "Sudužo"
+
+msgid "common/vehicleState/dead2_with_killername"
+msgstr "Sunaikinti taranu ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead2_with_killername_and_clan"
+msgstr "Sunaikinti taranu ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead3"
+msgstr "Sudužo"
+
+msgid "common/vehicleState/dead30"
+msgstr "Sunaikintas šūviu"
+
+msgid "common/vehicleState/dead30_with_killername"
+msgstr "Sunaikinti šūviu ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead30_with_killername_and_clan"
+msgstr "Sunaikinti šūviu ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead35"
+msgstr "Sudužo"
+
+msgid "common/vehicleState/dead3_with_killername"
+msgstr "Sudužo ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead3_with_killername_and_clan"
+msgstr "Sudužo ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead4"
+msgstr "Sunaikintas už žemėlapio ribų"
+
+msgid "common/vehicleState/dead5"
+msgstr "Nuskandintas"
+
+msgid "common/vehicleState/dead5_with_killername"
+msgstr "Mašina nuskendo ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead5_with_killername_and_clan"
+msgstr "Mašina nuskendo ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead6"
+msgstr "Sunaikintas liepsnose"
+
+msgid "common/vehicleState/dead7"
+msgstr "Sunaikintas apvirtus"
+
+msgid "common/vehicleState/dead7_with_killername"
+msgstr "Sunaikinti apvirtus ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead7_with_killername_and_clan"
+msgstr "Sunaikinti apvirtus ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/prematureLeave"
+msgstr "Paliko mūšį nesulaukęs pabaigos"
+
+msgid "common/vehicleState/victory"
+msgstr "Pergalė!"
+
+msgid "common/wotPlusBonus/bonusLeft"
+msgstr "Šiandien liko: %(count)s"
+
+msgid "common/xpMultiplierSign"
+msgstr "x"
+
+msgid "comms/likes/pbs/text/01"
+msgstr "Šiame mūšyje gautos padėkos"
+
+msgid "comms/likes/pbs/tooltip/body"
+msgstr "Jums šiame mūšyje padėkojo {{var}} komandos nariai."
+
+msgid "comms/likes/pbs/tooltip/bodySingle"
+msgstr "Jums šiame mūšyje padėkojo {{var}} komandos narys."
+
+msgid "comms/likes/pbs/tooltip/header"
+msgstr "Gauta padėkų"
+
+msgid "conditions/type/and"
+msgstr "IR"
+
+msgid "conditions/type/or"
+msgstr "ARBA"
+
+msgid "customizationProgress/award/newLevel"
+msgstr "Pasiektas %(level)s lygio lipdukas \"%(name)s\"."
+
+msgid "customizationProgress/award/received"
+msgstr "Gautas lipdukas \"%(name)s\" %(count)s."
+
+msgid "customizationProgress/descr"
+msgstr "%(level)s lygio lipdukas \"%(name)s\""
+
+msgid "cyberSport/btnToTeamProfile"
+msgstr "Komandos profilis"
+
+msgid "cyberSport/points"
+msgstr "Taškai:"
+
+msgid "cyberSport/status/lose"
+msgstr "Pralaimėjimas"
+
+msgid "cyberSport/status/tie"
+msgstr "Lygiosios"
+
+msgid "cyberSport/status/win"
+msgstr "Pergalė!"
+
+msgid "details/calculations/additionalBonus"
+msgstr "Valdomas patirties bonusas"
+
+msgid "details/calculations/aogasFactor"
+msgstr "Sumažinimo koeficientas (AOGAS)"
+
+msgid "details/calculations/autoBoosters"
+msgstr "Automatiškai papildyti instrukcijas"
+
+msgid "details/calculations/autoEquip"
+msgstr "Automatiškai papildyti ekipuotę"
+
+msgid "details/calculations/autoLoad"
+msgstr "Automatiškai papildyti amuniciją"
+
+msgid "details/calculations/autoRepair"
+msgstr "Automatiškai remontuoti tanką"
+
+msgid "details/calculations/autoResupply"
+msgstr "Automatinis papildymas"
+
+msgid "details/calculations/base"
+msgstr "Uždirbta mūšyje"
+
+msgid "details/calculations/battlePayments"
+msgstr "Mūšio išmokos"
+
+msgid "details/calculations/boosters"
+msgstr "Asmeninių rezervų bonusas"
+
+msgid "details/calculations/crystal/events"
+msgstr "Už misijų įvykdymą"
+
+msgid "details/calculations/crystal/total"
+msgstr "Už specialius mašinos gebėjimus"
+
+msgid "details/calculations/event"
+msgstr "Apdovanojimas už įvykdytą misiją ir renginius"
+
+msgid "details/calculations/fairPlayViolation/afk"
+msgstr "Bauda už neaktyvumą mūšyje"
+
+msgid "details/calculations/fairPlayViolation/comp7_deserter"
+msgstr "Bauda už dezertyravimą"
+
+msgid "details/calculations/fairPlayViolation/comp7_light_deserter"
+msgstr "Bauda už dezertyravimą"
+
+msgid "details/calculations/fairPlayViolation/deserter"
+msgstr "Bauda už dezertyravimą"
+
+msgid "details/calculations/fairPlayViolation/epic_deserter"
+msgstr "Bauda už dezertyravimą"
+
+msgid "details/calculations/fairPlayViolation/event_afk"
+msgstr "Bauda už neaktyvumą mūšyje"
+
+msgid "details/calculations/fairPlayViolation/event_deserter"
+msgstr "Bauda už dezertyravimą"
+
+msgid "details/calculations/fairPlayViolation/suicide"
+msgstr "Bauda už tyčinį susinaikinimą"
+
+msgid "details/calculations/firstWin"
+msgstr "Apdovanojimas už pirmąją dienos pergalę"
+
+msgid "details/calculations/fortOrder"
+msgstr "Premija už panaudotą rezervą"
+
+msgid "details/calculations/friendlyFireCompensation"
+msgstr "Kompensacija už sąjungininkų padarytą žalą"
+
+msgid "details/calculations/friendlyFirePenalty"
+msgstr "Bauda už žalą padarytą saviškiams"
+
+msgid "details/calculations/friendlyFireRankedXpPenalty"
+msgstr "Bauda už apkurtinimą ir žalą saviškiams"
+
+msgid "details/calculations/heavyTrucks"
+msgstr "Didelės talpos transportas"
+
+msgid "details/calculations/igrBonus"
+msgstr "Apdovanojimas už žaidimą %(igrIcon)s"
+
+msgid "details/calculations/igrBonus/simpleLabel"
+msgstr "IGR bonusas"
+
+msgid "details/calculations/intermediateTotal"
+msgstr "Viso už mūšį:"
+
+msgid "details/calculations/manageableXpBonus"
+msgstr "Koreguojamas patirties bonusas"
+
+msgid "details/calculations/maximum"
+msgstr "daugiausia"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "Už karinius manevrus"
+
+msgid "details/calculations/multiplierInfo/body"
+msgstr "Padidinta patirtis už pirmąją dienos pergalę pridėta šioms mašinoms:"
+
+msgid "details/calculations/multiplierInfo/header"
+msgstr "Apdovanojimas už pirmąją dienos pergalę"
+
+msgid "details/calculations/multiplierInfo/vehicleSeparator"
+msgstr "• "
+
+msgid "details/calculations/noPenalty"
+msgstr "Už pasiaukojamą pasipriešinimą"
+
+msgid "details/calculations/petCredits/fullLabel"
+msgstr "Augintinio bonusas (%(bonusFactor)d%)"
+
+msgid "details/calculations/petCredits/simpleLabel"
+msgstr "Augintinio bonusas"
+
+msgid "details/calculations/piggyBankInfo"
+msgstr "Įtrauktas į Rezervinę saugyklą"
+
+msgid "details/calculations/playerRankXP"
+msgstr "Rango bonusas"
+
+msgid "details/calculations/premiumVehicleXP"
+msgstr "Bonusas už Premium technikos lygį"
+
+msgid "details/calculations/referralBonus"
+msgstr "Verbavimo bonusas (%(bonusFactor)d%%)"
+
+msgid "details/calculations/referralBonus/fullLabel"
+msgstr "Verbavimo bonusas (%(bonusFactor)d%)"
+
+msgid "details/calculations/referralBonus/simpleLabel"
+msgstr "Verbavimo bonusas"
+
+msgid "details/calculations/squad/restrictions/title"
+msgstr "Už žaidimą būryje"
+
+msgid "details/calculations/squadBonus"
+msgstr "Bonusas už žaidimą būryje"
+
+msgid "details/calculations/squadXP"
+msgstr "Už žaidimą būryje"
+
+msgid "details/calculations/squadXPPenalty"
+msgstr "Nuobauda už netinkamą būrio sudėtį"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "Už taktinius mokymus"
+
+msgid "details/calculations/title/base"
+msgstr "Uždirbta mūšyje"
+
+msgid "details/calculations/title/expenses"
+msgstr "Išlaidos"
+
+msgid "details/calculations/title/total"
+msgstr "Iš viso"
+
+msgid "details/calculations/total"
+msgstr "Viso:"
+
+msgid "details/calculations/wotPlus"
+msgstr "WoT Plus mūšio bonusas"
+
+msgid "details/calculations/wotPlusBonus"
+msgstr "WoT Plus mūšio bonusas"
+
+msgid "details/calculations/wotPlusProBoost"
+msgstr "WoT Plus Pro pastiprinimas"
+
+msgid "details/calculations/xpRecord"
+msgstr "Gauta (%(color_tag_open)s maksimaliai %(color_tag_close)s)"
+
+msgid "details/calculations/xpRecordSimple"
+msgstr "Gauta (%(maximum)s)"
+
+msgid "details/credits"
+msgstr "Kreditai"
+
+msgid "details/crystal"
+msgstr "Bonai"
+
+msgid "details/noPrem"
+msgstr "Standartinė paskyra"
+
+msgid "details/prem"
+msgstr "Wargaming Premium"
+
+msgid "details/premPlus"
+msgstr "WoT Premium"
+
+msgid "details/resource"
+msgstr "Pramoniniai ištekliai"
+
+msgid "details/stats"
+msgstr "Statistika"
+
+msgid "details/time"
+msgstr "Laikas"
+
+msgid "details/time/lbl_arenaCreateTimeOnlyStr"
+msgstr "Mūšio pradžia"
+
+msgid "details/time/lbl_basesCaptured"
+msgstr "Užimtos zonos"
+
+msgid "details/time/lbl_duration"
+msgstr "Mūšio trukmė"
+
+msgid "details/time/lbl_objectivesDestroyed"
+msgstr "Taikiniai sunaikinti"
+
+msgid "details/time/lbl_objectivesReached"
+msgstr "Tikslai pasiektas"
+
+msgid "details/time/lbl_playerKilled"
+msgstr "Tanko sunaikinimo laikas"
+
+msgid "details/time/val_no"
+msgstr "Ne"
+
+msgid "details/time/val_yes"
+msgstr "Taip"
+
+msgid "details/time/value"
+msgstr "%(min)s min. %(sec)s s"
+
+msgid "details/time_epic"
+msgstr "Mūšis"
+
+msgid "details/xp"
+msgstr "Patirtis"
+
+msgid "details/xp_abbr"
+msgstr "patirties"
+
+msgid "exterminationVictory/allies"
+msgstr "Jūsų komanda sunaikino visą priešų techniką"
+
+msgid "exterminationVictory/enemies"
+msgstr "Priešas sunaikino visas jūsų komandos techniką"
+
+msgid "fallout/classic/lose/cap"
+msgstr "Priešų komanda uždirbo daugiau pergalės taškų nei jūsiškė"
+
+msgid "fallout/classic/lose/extermination"
+msgstr "Priešas sunaikino visas jūsų komandos techniką"
+
+msgid "fallout/classic/lose/points"
+msgstr "Priešų komanda uždirbo daugiau pergalės taškų nei jūsiškė"
+
+msgid "fallout/classic/tie"
+msgstr "Abi komandos uždirbo po lygiai pergalės taškų"
+
+msgid "fallout/classic/win/cap"
+msgstr "Jūsų komanda uždirbo daugiau pergalės taškų nei priešininkai"
+
+msgid "fallout/classic/win/extermination"
+msgstr "Jūsų komanda sunaikino visą priešų techniką"
+
+msgid "fallout/classic/win/points"
+msgstr "Jūsų komanda uždirbo daugiau pergalės taškų nei priešininkai"
+
+msgid "fallout/multiteam/ended"
+msgstr "Tikslas nepasiektas"
+
+msgid "fallout/multiteam/noPlayerSelected"
+msgstr "Pasirinkite žaidėją iš sąrašo,\nnorėdami peržiūrėti detalią informaciją."
+
+msgid "fallout/multiteam/win/cap"
+msgstr "Jūsų komanda uždirbo daugiau pergalės taškų nei priešininkai"
+
+msgid "fallout/multiteam/win/extermination"
+msgstr "Visi priešų padaliniai sunaikinti"
+
+msgid "fallout/multiteam/win/points"
+msgstr "Jūsų komanda uždirbo daugiau pergalės taškų nei priešininkai"
+
+msgid "finish/clanBattle_reason_attack/1lose"
+msgstr "Statinys %(buildingName)s neužimtas"
+
+msgid "finish/clanBattle_reason_attack/1tie"
+msgstr "Statinys %(buildingName)s užimtas"
+
+msgid "finish/clanBattle_reason_attack/1win"
+msgstr "Užimtas statinys: %(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1lose"
+msgstr "Statinį %(buildingName)s užėmė priešai"
+
+msgid "finish/clanBattle_reason_def/1tie"
+msgstr "Statinys %(buildingName)s neužimtas"
+
+msgid "finish/clanBattle_reason_def/1win"
+msgstr "Apgintas statinys: %(buildingName)s"
+
+msgid "finish/clarification/finishAllPlayersLeft"
+msgstr "Rezultatas apskaičiuojamas pagal likusių komandų informaciją"
+
+msgid "finish/overtime/lose"
+msgstr "Priešas nesunaikintas"
+
+msgid "finish/overtime/win"
+msgstr "Priešas sunaikintas"
+
+msgid "finish/playerTank/separator"
+msgstr "–"
+
+msgid "finish/reason/0"
+msgstr "Nežinoma priežastis"
+
+msgid "finish/reason/10lose"
+msgstr "Taikiniai nesunaikinti"
+
+msgid "finish/reason/10win"
+msgstr "Taikiniai sunaikinti"
+
+msgid "finish/reason/1lose"
+msgstr "Visa sąjungininkų technika sunaikinta"
+
+msgid "finish/reason/1tie"
+msgstr "Visa technika sunaikinta"
+
+msgid "finish/reason/1win"
+msgstr "Visa priešų technika sunaikinta"
+
+msgid "finish/reason/2"
+msgstr "Sąjungininkų bazė užimta"
+
+msgid "finish/reason/3"
+msgstr "Kovos laikas baigėsi"
+
+msgid "finish/reason/4"
+msgstr "Kova baigėsi dėl sistemos klaidos"
+
+msgid "finish/reason/5"
+msgstr "Techninis pralaimėjimas"
+
+msgid "finish/reason/8"
+msgstr "Sąjungininko sunaikinimas"
+
+msgid "finish/reason/9"
+msgstr "Jūsų mašina sunaikinta"
+
+msgid "garage/uniqueDamage"
+msgstr "Skaičiuojami tik unikalūs kritiniai pataikymai."
+
+msgid "getPremiumPopover/actionBtn/label"
+msgstr "Pasirinkite trukmę"
+
+msgid "getPremiumPopover/award"
+msgstr "+50% kreditų ir patirties"
+
+msgid "getPremiumPopover/descriptionText"
+msgstr "Nusipirkite %(prem)s ir uždirbkite %(award)s už visus sekančius mūšius"
+
+msgid "getPremiumPopover/headerText"
+msgstr "Už šį mūšį jūs galite gauti:"
+
+msgid "getPremiumPopover/prem"
+msgstr "Premium paskyra"
+
+msgid "missionsProgress/aboutVehicle/button"
+msgstr "Į išradimą"
+
+msgid "missionsProgress/aboutVehicle/description"
+msgstr "Galima išrasti"
+
+msgid "missionsProgress/aboutVehicle/prediction"
+msgstr "Liko mūšių (apytiksliai): {{prediction}}"
+
+msgid "missionsProgress/aboutVehicle/title"
+msgstr "APIE MAŠINĄ"
+
+msgid "missionsProgress/battleMatters/doneInfo"
+msgstr "Misija #{{name}} įvykdyta."
+
+msgid "missionsProgress/battleMatters/title"
+msgstr "TANKŲ AKADEMIJA"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/module"
+msgstr "ATRAKINTAS NAUJAS MODULIS!"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/vehicle"
+msgstr "ATRAKINTA NAUJA MAŠINA!"
+
+msgid "missionsProgress/notificationsTabs/battleMatters"
+msgstr "ĮVYKDYTA AKADEMIJOS MISIJA!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/chapterComplete"
+msgstr "SKYRIUS BAIGTAS!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/stageComplete"
+msgstr "ETAPAS BAIGTAS!"
+
+msgid "missionsProgress/notificationsTabs/challenge"
+msgstr "KALVĖS MISIJA ĮVYKDYTA!"
+
+msgid "missionsProgress/notificationsTabs/common"
+msgstr "MISIJA ĮVYKDYTA!"
+
+msgid "missionsProgress/notificationsTabs/daily"
+msgstr "DIENOS MISIJAS ĮVYKDYTA!"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/maxLevel"
+msgstr "MAKSIMALUS ELITINIS LYGIS"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/newLevel"
+msgstr "NAUJAS ELITINIS LYGIS"
+
+msgid "missionsProgress/notificationsTabs/epic"
+msgstr "EPINĖ MISIJA ĮVYKDYTA!"
+
+msgid "missionsProgress/notificationsTabs/personalMissions/operation_mission_complete"
+msgstr "OPERACIJOS MISIJA ĮVYKDYTA!"
+
+msgid "missionsProgress/notificationsTabs/premium"
+msgstr "PREMIUM MISIJA ĮVYKDYTA!"
+
+msgid "missionsProgress/notificationsTabs/weekly"
+msgstr "SAVAITĖS MISIJA ĮVYKDYTA!"
+
+msgid "noData"
+msgstr "Atsiprašome, kovos rezultatai nepasiekiami."
+
+msgid "personalQuest/bonus/descr"
+msgstr "jūsų pagrindinės sąlygos progresas šiame mūšyje padidintas %(value)s kartus."
+
+msgid "personalQuest/bonus/multiplier"
+msgstr "x%(value)s daugiklis:"
+
+msgid "personalQuest/failed/attention"
+msgstr "Dėmesio!"
+
+msgid "personalQuest/failed/descr"
+msgstr "Jūsų misijos progresas buvo apnulintas. Sąlygos vykdymas pradedamas iš naujo."
+
+msgid "players/enemy/unknown"
+msgstr "Priešas"
+
+msgid "players/teammate/unknown"
+msgstr "Žaidėjas"
+
+msgid "prestige/common/description"
+msgstr "Uždirbta elitinių taškų:"
+
+msgid "prestige/max/description"
+msgstr "Pasiektas maksimalus elitinis lygis."
+
+msgid "prestige/maxLevelReached/description"
+msgstr "Pasiektas maksimalus elitinis lygis"
+
+msgid "prestige/newLevelAchieved/description"
+msgstr "Pasiektas naujas elitinis lygis"
+
+msgid "prestige/title"
+msgstr "Elito sistema"
+
+msgid "progression/completed"
+msgstr "Įvykdyta"
+
+msgid "progression/completedPointsFrom/withLabel"
+msgstr "{{@class $labelClass}}Įvykdyta:{{/}} {{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/completedPointsFrom/withoutLabel"
+msgstr "{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/linkBtn/info"
+msgstr "Paspauskite norėdami peržiūrėti detalesnę informaciją."
+
+msgid "progression/missionsCompleteCounter"
+msgstr "{{@class $labelClass}}Įvykdyta:{{/}} {{completed}}"
+
+msgid "progression/progressUnavailable"
+msgstr "Laikinai nepasiekiama. Pabandykite pažiūrėti vėliau."
+
+msgid "progression/totalEarned"
+msgstr "Iš viso uždirbta: {{value}}"
+
+msgid "progressiveReward/descr"
+msgstr "Kovokite mūšiuose ir gaukite apdovanojimus. Kuo daugiau žaidžiate, tuo arčiau apdovanojimai."
+
+msgid "selectVehicle"
+msgstr "Pasirinkite mašiną"
+
+msgid "status/lose"
+msgstr "PRALAIMĖJIMAS"
+
+msgid "status/tie"
+msgstr "LYGIOSIOS"
+
+msgid "status/win"
+msgstr "PERGALĖ"
+
+msgid "tankSelector/next"
+msgstr "Kita mašina su"
+
+msgid "team/damageAndConsumablesHeader/body"
+msgstr "Rūšiuoti pagal padarytą žalą,\nįvertinus ir kovinius rezervus."
+
+msgid "team/damageAndConsumablesHeader/header"
+msgstr "Padaryta žala"
+
+msgid "team/damageHeader/body"
+msgstr "Rūšiuoti pagal padarytą žalą"
+
+msgid "team/damageHeader/header"
+msgstr "Padaryta žalos priešininkams"
+
+msgid "team/damageHeaderNoSort/header"
+msgstr "Padaryta žalos"
+
+msgid "team/deaths/body"
+msgstr "Rūšiuoti pagal žaidėjų prarastas mašinas mūšyje."
+
+msgid "team/deaths/header"
+msgstr "Sunaikintos mašinos"
+
+msgid "team/deathsNoSort/header"
+msgstr "Sunaikintos mašinos"
+
+msgid "team/epicRankHeader/body"
+msgstr "Rūšiuoti pagal mūšyje pasiektus rangus."
+
+msgid "team/epicRankHeader/header"
+msgstr "Rangas"
+
+msgid "team/epicRespawnHeader/body"
+msgstr "Rūšiuoti pagal dislokavimų skaičių mūšyje."
+
+msgid "team/epicRespawnHeader/header"
+msgstr "Dislokavimų skaičius"
+
+msgid "team/falloutFragHeader/body"
+msgstr "Rūšiuoti pagal sunaikintų priešų skaičių,\nįvertinus ir kovinius rezervus."
+
+msgid "team/falloutFragHeader/header"
+msgstr "Sunaikintų priešų skaičius"
+
+msgid "team/falloutResourcePoints/body"
+msgstr "Rūšiuoti pagal uždirbtų resursų kiekį."
+
+msgid "team/falloutResourcePoints/header"
+msgstr "Resursai"
+
+msgid "team/flags/body"
+msgstr "Rūšiuoti pagal pargabentų vėliavų skaičių."
+
+msgid "team/flags/header"
+msgstr "Pargabentos vėliavos"
+
+msgid "team/flagsNoSort/header"
+msgstr "Pargabentos vėliavos"
+
+msgid "team/fragHeader/body"
+msgstr "Rūšiuoti pagal sunaikintų priešų skaičių."
+
+msgid "team/fragHeader/header"
+msgstr "Sunaikinta priešo mašinų"
+
+msgid "team/fragHeaderNoSort/header"
+msgstr "Sunaikintos priešų mašinos"
+
+msgid "team/healthHeader/body"
+msgstr "Rūšiuoti pagal likusius patvarumo taškus."
+
+msgid "team/healthHeader/header"
+msgstr "Patvarumas"
+
+msgid "team/medalHeader/body"
+msgstr "Rūšiuoti pagal gautų apdovanojimų skaičių."
+
+msgid "team/medalHeader/header"
+msgstr "Apdovanojimai"
+
+msgid "team/playerHeader/body"
+msgstr "Rūšiuoti pagal vartotojo vardą."
+
+msgid "team/playerHeader/header"
+msgstr "Vardas"
+
+msgid "team/playerHeaderNoSort/header"
+msgstr "Vardas"
+
+msgid "team/playerNumber/body"
+msgstr "Rūšiuoti pagal eilės numerį komandoje."
+
+msgid "team/playerNumber/header"
+msgstr "Numeris"
+
+msgid "team/rankHeader/body"
+msgstr "Rūšiuoti pagal rangą."
+
+msgid "team/rankHeader/header"
+msgstr "Rangas"
+
+msgid "team/resourceHeader/body"
+msgstr "Rūšiuoti pagal gautus pramoninius išteklius."
+
+msgid "team/resourceHeader/header"
+msgstr "Pramoniniai ištekliai"
+
+msgid "team/squadHeader/body"
+msgstr "Rūšiuoti pagal būrį."
+
+msgid "team/squadHeader/header"
+msgstr "Būrys"
+
+msgid "team/squadHeaderNoSort/header"
+msgstr "Būrys"
+
+msgid "team/stats/allies"
+msgstr "Saviškiai"
+
+msgid "team/stats/close"
+msgstr "Uždaryti"
+
+msgid "team/stats/enemies"
+msgstr "Priešai"
+
+msgid "team/stats/enemyTeam"
+msgstr "Priešai"
+
+msgid "team/stats/infotip_xpForAssist/body"
+msgstr "Skaičiuojama kaip pagalba:\n• Žala, kurią padarė saviškiai jūsų aptinkamoms mašinoms, mašinoms, kurioms sunaikinote vikšrus ir sustabdėte ar apkurtinote\n• Bazių užėmimas\n• Pirmas priešų mašinų pastebėjimas."
+
+msgid "team/stats/infotip_xpForAssist/header"
+msgstr "Už pagalbą"
+
+msgid "team/stats/infotip_xpForAttack/body"
+msgstr "Skaičiuojama kaip jūsų indėlis:\n• Jūsų padaryta žala\n• Jūsų sunaikintos mašinos\n• Pažeisti moduliai\n• Bonusas už komandos draugų padarytą žalą.\n• Bauda už apkurtinimą ir žalą saviškiams."
+
+msgid "team/stats/infotip_xpForAttack/header"
+msgstr "Už padarytą žalą ir sunaikintas mašinas"
+
+msgid "team/stats/infotip_xpOther/body"
+msgstr "Papildomi bonusai už efektyvų žaidimą, kurie neįtraukti į ankstesnius punktus."
+
+msgid "team/stats/infotip_xpOther/header"
+msgstr "Už mašinos rolės išpildymą"
+
+msgid "team/stats/labels_artilleryFortEquipDamageDealt"
+msgstr "\tArtilerijos smūgiu"
+
+msgid "team/stats/labels_atkObjectives"
+msgstr "Užimtos zonos / sunaikinti taikiniai"
+
+msgid "team/stats/labels_capturePointsVal"
+msgstr "Bazės užėmimo/gynybos taškai"
+
+msgid "team/stats/labels_capturedPointsOfInterest"
+msgstr "Užimti svarbūs taškai"
+
+msgid "team/stats/labels_damageAssisted"
+msgstr "Žala su žaidėjo pagalba"
+
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "Žala su jūsų pagalba"
+
+msgid "team/stats/labels_damageAssistedStun"
+msgstr "Žala priešams, kuriuos apkurtino šis žaidėjas"
+
+msgid "team/stats/labels_damageAssistedStunSelf"
+msgstr "Žala jūsų apkurtintiems priešams"
+
+msgid "team/stats/labels_damageBlockedByArmor"
+msgstr "Žala, atlaikyta šarvais"
+
+msgid "team/stats/labels_damageDealt"
+msgstr "Viso padaryta žala:"
+
+msgid "team/stats/labels_damageDealtByOrder"
+msgstr "\ttame tarpe su koviniais rezervais"
+
+msgid "team/stats/labels_damageDealtBySkills"
+msgstr "\tįskaitant panaudotus įgūdžius"
+
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\tpadaryta žala priešininkų komandai"
+
+msgid "team/stats/labels_damagedKilled"
+msgstr "Pažeista/sunaikinta priešo tankų"
+
+msgid "team/stats/labels_deaths"
+msgstr "Nuosavų sunaikintų mašinų skaičius mūšyje"
+
+msgid "team/stats/labels_defObjectives"
+msgstr "Apgintos zonos / taikiniai"
+
+msgid "team/stats/labels_destroyRecoveryRatio"
+msgstr "Sunaikintų savų mašinų skaičius / atsistatymų skaičius"
+
+msgid "team/stats/labels_destructiblesDamageDealt"
+msgstr "\ttaikiniams"
+
+msgid "team/stats/labels_directHits"
+msgstr "\ttiesioginių pataikymų"
+
+msgid "team/stats/labels_directHitsReceived"
+msgstr "Patirta šūvių"
+
+msgid "team/stats/labels_equipmentDamageAssisted"
+msgstr "\tdėl kovinių rezervų efekto"
+
+msgid "team/stats/labels_equipmentDamageDealt"
+msgstr "\tsu koviniais rezervais"
+
+msgid "team/stats/labels_explosionHits"
+msgstr "\tžala fugasiniais sviediniais"
+
+msgid "team/stats/labels_explosionHitsReceived"
+msgstr "Patirta fugasinių pataikymų"
+
+msgid "team/stats/labels_flags"
+msgstr "Pargabenta vėliavų"
+
+msgid "team/stats/labels_healed"
+msgstr "Atstatyti patvarumo taškai (jūsų/komandos)"
+
+msgid "team/stats/labels_hits"
+msgstr "\ttiesioginių pataikymų/pramušimų"
+
+msgid "team/stats/labels_killed"
+msgstr "Sunaikintų priešų skaičius"
+
+msgid "team/stats/labels_killsByOrder"
+msgstr "\ttame tarpe su koviniais rezervais"
+
+msgid "team/stats/labels_mileage"
+msgstr "Nuvažiuota"
+
+msgid "team/stats/labels_noDamageDirectHitsReceived"
+msgstr "\tnepramušimų"
+
+msgid "team/stats/labels_piercingHits"
+msgstr "\tpramušimų"
+
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\tpramušimų"
+
+msgid "team/stats/labels_roleSkillUsed"
+msgstr "Panaudoti rolės įgūdžiai"
+
+msgid "team/stats/labels_shots"
+msgstr "Iššauta šūvių"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\tiš didesnio nei 300 metrų atstumo"
+
+msgid "team/stats/labels_spotted"
+msgstr "Priešų aptikta"
+
+msgid "team/stats/labels_stunDuration"
+msgstr "Bendra apkurtinimo trukmė, s"
+
+msgid "team/stats/labels_stunNum"
+msgstr "Sukelta apkurtinimų"
+
+msgid "team/stats/labels_teamHitsDamage"
+msgstr "Žala saviškiams (sunaikinta/žala)"
+
+msgid "team/stats/labels_timesDestroyed"
+msgstr "Sunaikintų mašinų skaičius"
+
+msgid "team/stats/labels_xp"
+msgstr "Iš viso uždirbta patirties"
+
+msgid "team/stats/labels_xpForAssist"
+msgstr "\tuž pagalbą"
+
+msgid "team/stats/labels_xpForAttack"
+msgstr "\tuž žalos darymą ir naikinimą"
+
+msgid "team/stats/labels_xpOther"
+msgstr "\tuž mašinos rolės išpildymą"
+
+msgid "team/stats/mileage"
+msgstr "?empty?"
+
+msgid "team/stats/ownTeam"
+msgstr "Savi"
+
+msgid "team/stats/parameter/artilleryFortEquipDamageDealt"
+msgstr "artilerijos smūgiu"
+
+msgid "team/stats/parameter/capturePointsVal"
+msgstr "Bazės užėmimo/gynybos taškai"
+
+msgid "team/stats/parameter/damageAssisted"
+msgstr "Žala su žaidėjo pagalba"
+
+msgid "team/stats/parameter/damageAssistedSelf"
+msgstr "Žala su jūsų pagalba"
+
+msgid "team/stats/parameter/damageAssistedStun"
+msgstr "Žala priešams, kuriuos apkurtino šis žaidėjas"
+
+msgid "team/stats/parameter/damageAssistedStunSelf"
+msgstr "Žala jūsų apkurtintiems priešams"
+
+msgid "team/stats/parameter/damageBlockedByArmor"
+msgstr "Žala, atlaikyta šarvais"
+
+msgid "team/stats/parameter/damageDealt"
+msgstr "Visa padaryta žala"
+
+msgid "team/stats/parameter/damagedKilled"
+msgstr "Pažeista/sunaikinta priešo tankų"
+
+msgid "team/stats/parameter/directHitsReceived"
+msgstr "Patirta šūvių"
+
+msgid "team/stats/parameter/explosionHits"
+msgstr "sprogimų žala"
+
+msgid "team/stats/parameter/explosionHitsReceived"
+msgstr "Patirta fugasinių pataikymų"
+
+msgid "team/stats/parameter/hits"
+msgstr "tiesioginiai pataikymai/pramušimai"
+
+msgid "team/stats/parameter/mileage"
+msgstr "Nuvažiuota"
+
+msgid "team/stats/parameter/noDamageDirectHitsReceived"
+msgstr "nepramušimas"
+
+msgid "team/stats/parameter/piercingsReceived"
+msgstr "pramušimai"
+
+msgid "team/stats/parameter/shots"
+msgstr "Iššauta šūvių"
+
+msgid "team/stats/parameter/sniperDamageDealt"
+msgstr "iš didesnio nei 300 metrų atstumo"
+
+msgid "team/stats/parameter/spotted"
+msgstr "Priešų aptikta"
+
+msgid "team/stats/parameter/stunDuration"
+msgstr "Bendra apkurtinimo trukmė, s"
+
+msgid "team/stats/parameter/stunNum"
+msgstr "Sukelta apkurtinimų"
+
+msgid "team/stats/parameter/teamHitsDamage"
+msgstr "Žala saviškiams (sunaikinta/žala)"
+
+msgid "team/tankHeader/body"
+msgstr "Rūšiuoti pagal poziciją komandos sąraše"
+
+msgid "team/tankHeader/header"
+msgstr "Technika"
+
+msgid "team/teamInfluenceTotal"
+msgstr "Padalinio uždirbta įtaka: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamResourceTotal"
+msgstr "Padalinio uždirbti pramoniniai ištekliai: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamScore/body"
+msgstr "Rūšiuoti pagal uždirbtus pergalės taškus."
+
+msgid "team/teamScore/header"
+msgstr "Komandos pergalės taškai"
+
+msgid "team/victoryScore/body"
+msgstr "Rūšiuoti pagal uždirbtus pergalės taškus."
+
+msgid "team/victoryScore/header"
+msgstr "Žaidėjo pergalės taškai"
+
+msgid "team/victoryScoreNoSort/header"
+msgstr "Žaidėjo pergalės taškai"
+
+msgid "team/xpHeader/body"
+msgstr "Rūšiuoti pagal patirties taškus"
+
+msgid "team/xpHeader/header"
+msgstr "Patirtis"
+
+msgid "team/xpHeaderNoSort/header"
+msgstr "Patirtis"
+
+msgid "tooltips/stats/footer/text"
+msgstr "%(label)s&nbsp;%(type)s"
+
+msgid "victoryScore"
+msgstr "Uždirbta pergalės taškų"

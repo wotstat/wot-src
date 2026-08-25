@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "%(count) jäljellä oleva moduuli"
+msgstr[1] "%(count) jäljellä olevaa moduulia"
+msgstr[2] "%(count) jäljellä olevaa moduulia"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Takaisin moduuleihin"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "Avattaessa näistä moduuleista saattaa saada premium-vaunuja, pelinsisäisiä valuuttoja ja muita arvokkaita palkintoja."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "Paradoksimoduuleja voi saada pelinsisäisestä Kaupasta tai Premium-kaupasta."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Paradoksimoduuli"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "PARADOKSIMODUULI"
+
+msgid "common/getButton/lowerCase"
+msgstr "ULEJAHANKI MODUULEJA"
+
+msgid "common/getButton/upperCase"
+msgstr "ULEJAHANKI MODUULEJA"
+
+msgid "common/loader"
+msgstr "Moduulin avaaminen..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Avaa moduuleita nähdäksesi tilastot."
+
+msgid "common/statistics/header"
+msgstr "Moduuleja avattu: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Kaikki tiedot avatuista moduuleista poistetaan."
+
+msgid "entryPoint/boxes"
+msgstr "MODUULEIHIN"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Nämä ovat erikoismoduuleja, jotka sisältävät uusia ja ainutlaatuisia tavaroita, kuten premium-vaunuja, muokkauselementtejä, pelinsisäisiä valuuttoja ja muita arvokkaita palkintoja.\nModuuleja voidaan saada pelinsisäisestä Kaupasta tai Premium-kaupasta."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Moduuleja ei voi tällä hetkellä avata tai hankkia teknisten syiden tähden. Pahoittelemme väliaikaista haittaa."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Moduulit eivät ole hetkellisesti saatavilla"
+
+msgid "eventName/lowerCase"
+msgstr "MURRA PARADOKSI"
+
+msgid "eventName/upperCase"
+msgstr "MURRA PARADOKSI"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Taattu palkinto seuraavassa moduulissa!"
+
+msgid "guaranteedTitle/text"
+msgstr "Suurin määrä moduuleja ennen taakuupalkintoa: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Mikäli et avaa kaikkia moduuleita ennen tapahtuman päättymistä, avataan ne automaattisesti."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Mikäli omistat jo kaikki vaunut moduulin mahdollisen sisällön listalta, hyvitetään kaikki seuraavat vaunut, jotka saat moduuleista, kullalla niiden täyden arvon mukaan."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Joka %(guaranteed0)s. moduuli sisältää taatusti premium-vaunun. Jos avaat niitä saamatta tällaista vaunua, saat sellaisen premium-vaunun, jota et vielä omista, kun avaat %(guaranteed0)s. moduulin. Kun näin käy, laskuri nollautuu."
+
+msgid "infoPage/header/description"
+msgstr "Avaa moduuli saadaksesi mahdollisuuden saada arvokkaita pelihyödykkeitä! Katso lisätietoja alta."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "\"%(name)\" -arkusta (%(boxesCount) moduulia avattu)"
+
+msgid "noBoxesView/description/"
+msgstr "Sinulla ei ole yhtään moduulia. Voit saada niitä\npelinsisäisestä Kaupasta tai Premium-kaupasta."
+
+msgid "preview/backLabel"
+msgstr "MODUULEIHIN"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Moduuleja saatavilla: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Ei moduuleja saatavilla"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Mikäli omistat jo kaikki vaunut moduulin mahdollisen sisällön listalta, hyvitetään kaikki seuraavat vaunut, jotka saat moduuleista, kullalla."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) moduuli"
+msgstr[1] "%(remainingCount) moduulia"
+msgstr[2] "%(remainingCount) moduulia"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Takuupalkinto on vaunu moduulin mahdollisten sisältöjen listalta.\nJos avaat %(remainingCount) saamatta tällaista vaunua, saat sen avatessasi %(count) moduulin. Näin tapahtuessa laskuri nollautuu."

@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "Energialaukaus on valmis käytettäväksi."
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "Vampyyrilaukaus on valmis käytettäväksi."
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "Lamauttava laukaus on valmis käytettäväksi."
+
+msgid "LS_damageShieldReady"
+msgstr "Energiakilpi on valmis käytettäväksi."
+
+msgid "LS_doubleDamageReady"
+msgstr "Tuplavahinko on valmis käytettäväksi."
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "Tilannekohtainen vahinko on valmis."
+
+msgid "LS_fastReloadReady"
+msgstr "Pikalataus on valmis käytettäväksi."
+
+msgid "LS_healSituationalReady"
+msgstr "Tilannekohtaiset korjaukset ovat valmiit."
+
+msgid "LS_invisibilityReady"
+msgstr "Varjoparannus on valmis käytettäväksi"
+
+msgid "LS_nitroReady"
+msgstr "Turboahdin on valmis käytettäväksi."
+
+msgid "LS_pickupSouls"
+msgstr "Olet kerännyt %(souls)s palaa miriumia"
+
+msgid "LS_selfRepairReady"
+msgstr "Hätäkorjaukset ovat valmiina käytettäväksi."
+
+msgid "LS_situationalNitroReady"
+msgstr "Tilannekohtainen liikkuvuus on valmis."
+
+msgid "LS_teamRepairKitReady"
+msgstr "Ryhmäkorjaukset ovat valmiina käytettäväksi."
+
+msgid "LS_teamRepairKitUsed"
+msgstr "%(player)s aktivoi ryhmäkorjaukset."
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "Ryhmäkorjaukset aktivoitu."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "Huomio alueelle: %(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "Puolusta ATLASTA!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "Puolusta ATLASTA"
+
+msgid "arena/marker/move_to_camp"
+msgstr "Ajamassa alueelle!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "Puolustan ATLASTA"
+
+msgid "arena/phase"
+msgstr "Vaihe %(current)s/%(total)s"
+
+msgid "arena/wave"
+msgstr "Aalto %(current)s / %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Siilit&nbsp;lähestyvät!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Alfa-siili&nbsp;lähestyy!"
+
+msgid "battleHint/clearTheArea"
+msgstr "Puhdista alue!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "Kiirehdi! Zero on lähellä&nbsp;ATLASTA!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "Zero tuhoutui!\nVihollisia jäljellä: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "Vihollisia tuhottavana: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "data, %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Vaunuja korjattu"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "Kilpi saatu"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "Vihollisia lamautettu"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "%(name)s-obeliski tuhottu!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Regeneraatio"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "Kilpi"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "Häiriö"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "Syntymäpisteitä havaittu! Vihollisia tulossa!"
+
+msgid "battleHint/hunter"
+msgstr "Metsästäjät&nbsp;lähestyvät!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "Aalto tuhottu!"
+
+msgid "battleHint/leftToDestroy"
+msgstr "Vihollisia jäljellä tuhottavana:"
+
+msgid "battleHint/missing_squad"
+msgstr "Kadonnut osasto lähestyy!"
+
+msgid "battleHint/newWave"
+msgstr "Aalto {current} / {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "Obeliski on ilmestynyt!"
+
+msgid "battleHint/stopConvoy"
+msgstr "Pysäytä Zero!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "Pysäytä Zero\nennen kuin se pääsee ATLAKSEN luo!"
+
+msgid "battleHint/trapper"
+msgstr "Tuhoa ansastaja&nbsp;estääksesi tuhoalueiden ilmestymisen."
+
+msgid "battleHint/turret"
+msgstr "Moskiitot ovat heränneet!"
+
+msgid "battleHint/waveFinished"
+msgstr "Aalto tuhotu!\nRyhmittykää uudelleen ja valmistautukaa!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "Ryhmittykää uudelleen ja valmistautukaa!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "Vihollisen täydennykset ovat&nbsp;saapuneet!"
+
+msgid "common/close"
+msgstr "SULJE"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "Kesto: %(time)s s"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Alueen tekemä vahinko"
+
+msgid "damageLog/static_death_zone"
+msgstr "Alueen tekemä vahinko"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "Sytytetty tuleen pyrokineesillä"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "Vahinkoa energiaiskulla"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "Vahinkoa räjähdyksellä"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "Vahinkoa kestovarkaudella"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "Tilannekohtainen vahinko aktivoitui"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "Tilannekohtaiset korjaukset aktivoituivat"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "Vahinkoa energialaukauksella"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "Vahinkoa vampyyri-laukauksella"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "Vahinkoa lamauttavalla laukauksella"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "Moduulin vahingoittumattomuus"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "Tilannekohtainen liikkuvuus aktivoitui"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "Palautuminen"
+
+msgid "efficiencyRibbons/repair"
+msgstr "Vaunu korjattu"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "Vaunu korjattu. Korjaaja:"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "Vaunu korjattu liittolaisen toimesta"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "Liittolaisia korjattu"
+
+msgid "eventStats/activeWave"
+msgstr "Aalto %(num)s"
+
+msgid "eventStats/difficulty"
+msgstr "Vaikeustaso: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "Viimeiseen mieheen: Terra Nord"
+
+msgid "eventStats/globalTask"
+msgstr "Tavoite: tuhoa kaikki vihollisaallot"
+
+msgid "eventStats/mission"
+msgstr "Tuhoa kaikki vihollisaallot"
+
+msgid "eventStats/tableCaption"
+msgstr "Joukkueen jäsenet"
+
+msgid "help/description_0"
+msgstr "Tuhoa kaikki vihollisaallot voittaaksesi.\nVihollinen vahvistuu jokaisen aallon myötä."
+
+msgid "help/description_1"
+msgstr "Oikea taktisten laitteiden yhdistelmä voi osoittautua äärimmäisen tehokkaaksi.\nMuista: direktiivejä ja kaikkia ammustyyppejä voi käyttää ilmaiseksi \"Viimeiseen mieheen\" -pelimuodossa."
+
+msgid "help/description_2"
+msgstr "Obeliskin vahingoittaminen siirtää osan siitä vahingosta vihollisvaunuihin, kun taas sellaisen tuhoaminen antaa satunnaisen bonuksen."
+
+msgid "help/description_3"
+msgstr "Suojele ATLASTA viimeiseltä kaikuvaunu Zerolta hinnalla millä hyvänsä. Jos se pääsee ATLAKSEN luo, Zero tuhoaa sen ja taistelu hävitään."
+
+msgid "help/title"
+msgstr "VIIMEISEEN MIEHEEN: TERRA NORD"
+
+msgid "help/title_0"
+msgstr "VIHOLLISEN HYÖKKÄYSAALLOT"
+
+msgid "help/title_1"
+msgstr "VINKKEJÄ SELVIYTYMISEEN"
+
+msgid "help/title_2"
+msgstr "KÄYTÄ OBELISKEJA TAISTELUSSA"
+
+msgid "help/title_3"
+msgstr "PUOLUSTA ATLASTA"
+
+msgid "helpScreen/hint/description"
+msgstr "nähdäksesi pelimuodon säännöt"
+
+msgid "helpScreen/hint/press"
+msgstr "Paina"
+
+msgid "hitMarker/useless"
+msgstr "Hyödytön!"
+
+msgid "loading/description_0"
+msgstr "Tuhoa kaikki vihollisaallot voittaaksesi.\nVihollinen vahvistuu jokaisen aallon myötä."
+
+msgid "loading/description_1"
+msgstr "Oikea taktisten laitteiden yhdistelmä voi osoittautua äärimmäisen tehokkaaksi.\nMuista: direktiivejä ja kaikkia ammustyyppejä voi käyttää ilmaiseksi \"Viimeiseen mieheen\" -pelimuodossa."
+
+msgid "loading/description_2"
+msgstr "Obeliskin vahingoittaminen välittää osan siitä vahingosta vihollisvaunuihin, kun taas sellaisen tuhoaminen antaa satunnaisen bonuksen."
+
+msgid "loading/description_3"
+msgstr "Suojele ATLASTA viimeiseltä kaikuvaunu Zerolta hinnalla millä hyvänsä. Jos se pääsee ATLAKSEN luo, Zero tuhoaa sen ja taistelu hävitään."
+
+msgid "loading/title"
+msgstr "Ladataan..."
+
+msgid "loading/title_0"
+msgstr "VIHOLLISEN HYÖKKÄYSAALLOT"
+
+msgid "loading/title_1"
+msgstr "VINKKEJÄ SELVIYTYMISEEN"
+
+msgid "loading/title_2"
+msgstr "KÄYTÄ OBELISKEJA TAISTELUSSA"
+
+msgid "loading/title_3"
+msgstr "PUOLUSTA ATLASTA"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "Käyttäminen ei onnistu [%(name)s]: moottori on tuhoutunut."
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "Käyttäminen ei onnistu [%(name)s]: tykki on vahingoittunut."
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "Tykki on ladattu."
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "Käyttäminen ei onnistu [%(name)s]: ei riittävästi miriumia laitteen aktivointiin."
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "Vaunu ei ole vahingoittunut."
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "Käyttäminen ei onnistu [%(name)s]: vaunu on hukkumasas."
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "Käyttäminen ei onnistu [%(name)s]: vaunu on tulessa."
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "Käyttäminen ei onnistu [%(name)s]: vaunu on kääntynyt nurin."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Liittolainen %(target)s tuhoutui vihollisen (%(attacker)s) räjähdyksestä."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Liittolainen %(target)s romuttui."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Tuhoalue tuhosi liittolaispelaajan (%(target)s)."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Liittolainen %(target)s tuhoutui."
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "Mikäli joukkueesi onnistuu eliminoimaan tämän aallon."
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "PALAAT TAKAISIN TAISTELUKENTÄLLE"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "Taistelusi on ohi.\nPärjäsit hienosti!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Vaunu tuhoutui tuhoalueen toimesta"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "Vaunu tuhoutui energiaiskusta"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "Vaunu tuhoutui pyrokineesillä"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "Vaunu tuhoutui kestovarkaudella"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "Vaunu tuhoutui räjähdyksessä"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "Vaunu romuttui"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Moduuli [%(device)s] räjähti pelaajan osumasta"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "Tulipalo tuhosi vaunun"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Vaunu tuhoutui. Aika loppui."
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "Vaunu tuhoutui vihollisen laukauksesta"
+
+msgid "prebattle/description/message"
+msgstr "Tavoite: tuhoa kaikki vihollisaallot"
+
+msgid "prebattle/description/title"
+msgstr "Viimeiseen mieheen: %(difficulty)s vaikeustaso"
+
+msgid "prebattle/difficulty/107"
+msgstr "Tavallinen"
+
+msgid "prebattle/difficulty/108"
+msgstr "Edistynyt"
+
+msgid "prebattle/difficulty/109"
+msgstr "Brutaali"
+
+msgid "prebattle/waiting/title"
+msgstr "Odotetaan pelaajia..."
+
+msgid "radialMenu/attention_here"
+msgstr "Pyydä suojausta"
+
+msgid "radialMenu/cancel"
+msgstr "Peruuta"
+
+msgid "radialMenu/confirm"
+msgstr "Selvä!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "Ajamassa alueelle!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "Puolustan"
+
+msgid "radialMenu/obelisk"
+msgstr "Minä hoidan obeliskin!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "Tuhoa obeliski!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "Energiakilpi"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "Takaisin teloilla..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "Poistu\nvaara-alueelta!"
+
+msgid "teamList/teammates"
+msgstr "Liittolaiset"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "Poista äänikeskustelu käytöstä"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "Ota käyttöön äänikeskustelu"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "Paina puhuaksesi"

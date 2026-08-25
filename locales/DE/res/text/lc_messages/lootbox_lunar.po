@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Zurück zu den Schätzen"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "Flammenschatz"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "FLAMMENSCHATZ"
+
+msgid "common/getButton/lowerCase"
+msgstr "Schätze holen"
+
+msgid "common/getButton/upperCase"
+msgstr "SCHÄTZE HOLEN"
+
+msgid "common/loader"
+msgstr "Flammenschatz wird geöffnet ..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Öffnen Sie Schätze, um die Statistik zu sehen."
+
+msgid "common/statistics/header"
+msgstr "Geöffnete Flammenschätze: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Alle Informationen zu geöffneten Flammenschätzen werden gelöscht."
+
+msgid "entryPoint/boxes"
+msgstr "ZU DEN SCHÄTZEN"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Dies sind besondere Kisten, die neue und einzigartige Gegenstände enthalten, darunter Premiumfahrzeuge, 2D-Stile und mehr. Sie können sie im Nachschub erhalten."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Derzeit können Flammenschätze aus technischen Gründen nicht geöffnet oder gekauft werden. Wir bitten für die Unannehmlichkeiten um Entschuldigung."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Flammenschätze vorübergehend nicht verfügbar"
+
+msgid "eventName/lowerCase"
+msgstr "Mondbeute"
+
+msgid "eventName/upperCase"
+msgstr "MONDBEUTE"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garantierte Belohnung im nächsten Schatz!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maximale Flammenschätze bis zur garantierten Belohnung: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Wenn Sie die Flammenschätze vor dem Ende des Events nicht geöffnet haben, werden diese automatisch geöffnet."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Wenn Sie bereits alle Fahrzeuge von der Liste möglicher Inhalte besitzen, werden alle folgenden in Flammenschätzen gefundenen Fahrzeuge mit ihrem vollen Wert in Gold vergütet."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Jeder %(guaranteed0)s. Flammenschatz enthält garantiert ein Fahrzeug der Stufe VIII–X. Wenn Sie Flammenschätze öffnen und kein solches Fahrzeug erhalten, dann erhalten Sie im %(guaranteed0)s&zwnbsp;. Flammenschatz, den Sie öffnen, garantiert ein Fahrzeug der Stufe VIII–X, das Sie noch nicht besitzen. Wenn das passiert, wird der Zähler zurückgesetzt."
+
+msgid "infoPage/header/description"
+msgstr "Öffnen Sie Flammenschätze für eine Chance auf wertvolle Spielgegenstände! Weitere Details finden Sie unten."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Aus %(name) (%(boxesCount) Flammenschätze geöffnet)"
+
+msgid "noBoxesView/description/"
+msgstr "Sie haben keine Flammenschätze.\nSie können diese im Nachschub erhalten."
+
+msgid "preview/backLabel"
+msgstr "ZU DEN SCHÄTZEN"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Verfügbare Schätze: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Keine Schätze verfügbar"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Wenn Sie bereits alle Fahrzeuge von der Liste möglicher Inhalte besitzen, werden alle folgenden in Flammenschätzen gefundenen Fahrzeuge mit Gold vergütet."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) Flammenschatz"
+msgstr[1] "%(remainingCount) Flammenschätze"
+msgstr[2] "%(remainingCount) Flammenschätze"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Die garantierte Belohnung ist ein Fahrzeug von der Liste der möglichen Inhalte der Flammenschätze.\nWenn Sie %(remainingCount) öffnen, ohne ein solches Fahrzeug zu erhalten, ist garantiert eins im %(count). Flammenschatz enthalten. Der Zähler wird durch den Erhalt zurückgesetzt."

@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Armistițiu în efect pe toate serverele disponibile."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "Armistițiu în efect pe acest server."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Schimbă serverul"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Vânătorul de Oțel s-a încheiat"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Mod indisponibil pe acest server"
+
+msgid "banner/info/disabled"
+msgstr "Armistițiu"
+
+msgid "banner/info/seasonActive"
+msgstr "A doua șansă și recompense"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "Până pe %(day)s %(month)s"
+
+msgid "banner/subtitle"
+msgstr "Battle royale cu recompense valoroase"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s h"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s h %(minutes)s min"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s min"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "VÂNĂTORUL DE OȚEL"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Lupta va continua de pe o poziție nouă."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Vei reapărea în curând"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Reapariție"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Nu vei mai avea a doua șansă."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Reapariția nu mai este disponibilă"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Reapariția va deveni indisponibilă în curând!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Fii mai atent de data aceasta."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Vehiculul tău e pregătit pentru luptă!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Reîntoarcere în luptă"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Lupte active sunt în curs."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Reapariție indisponibilă"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Găsește o încărcătură de reapariție pentru a-l readuce în luptă."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Vehicul aliat distrus"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Reapariție"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "Două vehicule sunt mai bune ca unul singur!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Vehicul aliat readus"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Menține-te în afara conflictului!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Reapariție aliat"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Bonus activat!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Premiu pentru locul întâi"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Strâns în luptă"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "VICTORIE"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Capitolul nu e selectat. Puncte ale Certificatului de luptă necheltuite: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Toate capitolele finalizate. Continuă să joci și strânge puncte ale Certificatului de luptă."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Mergi la Certificatul de luptă"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Certificatul de luptă"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Selectează un capitol"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Mergi la progresul capitolului activ"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Mergi la Certificatul de luptă"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Misiuni finalizate per luptă: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Misiunile"
+
+msgid "battleResult/battleReward/title"
+msgstr "OBȚINUTE DIN LUPTĂ"
+
+msgid "battleResult/button/hangar"
+msgstr "Spre Garaj"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Punctele și recompensele vor fi distribuite după ce toți jucătorii finalizează această luptă. misiunile vor fi evaluate în funcție de rezultatele luptei."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Apasă %(esc) pentru a sări peste animație"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Invită în pluton"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Coechipier"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Coechipier aleatoriu"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Tipul luptei"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "LUPTĂ SOLO"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "Cu contul premium WoT, poți primi:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Valoarea totală cu cont premium WoT"
+
+msgid "battleResult/progressStage"
+msgstr "Progresul etapei {stage}"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Numele de jucător și eticheta clanului nu sunt afișate altor jucători în luptă."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Porecla actuală a jucătorului: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Numele jucătorului a fost schimbat în {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Cantitatea de daune blocate de blindajul vehiculului tău."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Cantitatea de daune provocate de tine."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Numărul de vehicule inamice distruse de tine."
+
+msgid "battleResult/stats/body/place"
+msgstr "Poziția ta în funcție de rezultatele luptei."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Numărul de vehicule inamice distruse de plutonul tău."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Daune blocate"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Daune provocate"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Distruse de tine"
+
+msgid "battleResult/stats/header/place"
+msgstr "Poziție"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Distruse de Pluton"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Daune blocate"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Daune provocate"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Distruse de tine"
+
+msgid "battleResult/stats/title/place"
+msgstr "Poziție"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Distruse de Pluton"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Clasament"
+
+msgid "battleResult/tab/result"
+msgstr "Rezultate luptă"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "PLUTON DISTRUS"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "VEHICUL DISTRUS"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "VICTORIE"
+
+msgid "battleResult/title/victoryOther"
+msgstr "CLASAMENT DE ONOARE"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Alege unul dintre vehiculele speciale pentru modul Vânătorul de Oțel."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Vehicul incompatibil"
+
+msgid "button/modules"
+msgstr "ARBORELE TEHNOLOGIC"
+
+msgid "button/repair"
+msgstr "Repară"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Luptele temporar indisponibile"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Luptele temporar indisponibile"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Mod indisponibil"
+
+msgid "ceasefire/header/schedule"
+msgstr "Calendarul luptelor"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Armistițiu în efect pe toate serverele disponibile. Poți afișa calendarul mai jos."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "Armistițiu în efect pe acest server. Poți schimba către un alt server pentru a accesa modul."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Vânătorul de Oțel e indisponibil pe acest server. Poți schimba către un alt server pentru a-l accesa."
+
+msgid "commanderInfo/commonRank"
+msgstr "Comandant"
+
+msgid "commanderInfo/description/china"
+msgstr "„Am câștigat deja. Îți vei da seama în curând.”"
+
+msgid "commanderInfo/description/france"
+msgstr "„Eu sunt legea!”"
+
+msgid "commanderInfo/description/germany"
+msgstr "„Azi e o zi mare care va rămâne în istorie.”"
+
+msgid "commanderInfo/description/poland"
+msgstr "„Nu e timp pentru bune maniere.”"
+
+msgid "commanderInfo/description/sweden"
+msgstr "„Totul merge conform planului.”"
+
+msgid "commanderInfo/description/uk"
+msgstr "„Oricine ai fi, fii cel mai bun.”"
+
+msgid "commanderInfo/description/usa"
+msgstr "„Securea războiului e dezgropată și ascuțită.”"
+
+msgid "commanderInfo/description/ussr"
+msgstr "„Învingătorul ia tot!”"
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Talentele"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nVehicul special pentru Vânătorul de Oțel"
+
+msgid "fragPanel/squadsCount"
+msgstr "Plutoane: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Clasament"
+
+msgid "hangarResults/btns/summary"
+msgstr "Rezultate luptă"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "ÎNCHIDE"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Modulele pot fi îmbunătățite doar în luptă. Pentru a deschide Meniul de îmbunătățiri, apasă %(key)s în luptă."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s și %(highlight2)s pentru a obține experiență. Fiecare generație îi permite jucătorului să îmbunătățească un modul din Meniul de îmbunătățiri și să-și crească semnificativ caracteristicile vehiculului."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Provoacă daune vehiculelor inamice"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "strânge prada de război de pe hartă"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Îmbunătățirea vehiculului în luptă"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Intri în luptă într-un vehicul de generația I."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Modulele pot fi îmbunătățite atât din Meniul de îmbunătățiri în timpul luptei (implicit tasta %(treeKey)s) și prin apăsarea combinației de taste %(leftModuleKey)s și %(rightModuleKey)s.\n\nModulele pot fi îmbunătățite doar în luptă."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "În luptă:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Vânătorul tău de Oțel obține experiență în luptă prin provocarea de daune și colectarea de pradă de război. La acumularea cantității de experiență necesare, poți atinge generația următoare și selecta îmbunătățiri ale unui modul."
+
+msgid "levelUp/severalTitles"
+msgstr "NIVELE ATINSE: %(firstLevel)s-%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "NIVELUL %(level)s ATINS!"
+
+msgid "levelUp/twoTitles"
+msgstr "NIVELE ATINSE: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Finalizează misiuni și obține recompense valoroase."
+
+msgid "level_up/max_level_info/title"
+msgstr "Noi misiuni zilnice disponibile"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Sezonul\nîncepe în curând"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Sezonul va începe pe %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Blocat"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Daune"
+
+msgid "playerStats/killsStat/name"
+msgstr "Distrus"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Distrus"
+
+msgid "playerStats/placeStat/name"
+msgstr "Poziție"
+
+msgid "playerStats/title"
+msgstr "Realizări personale"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Detectarea radio indisponibilă: pregătire în curs"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Vehiculul este complet operațional. Recuperarea nu este necesară."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Robot de luptă distrus"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s l-a distrus pe %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s l-a distrus pe inamicul %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Mingea de foc distrusă"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Minele au expirat"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Minele au fost desfășurate"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Detectarea radio e gata de utilizare"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Vehiculul a atins generația maximă"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Nivelul %(level)s atins"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Montat: %(moduleType)s. Îmbunătățit: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Carenă"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Suspensie"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Motorul"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Tun"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Detectarea Radio"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Turelă"
+
+msgid "playersPanel/title"
+msgstr "ECHIPA"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Schimbă între vehiculele plutonului."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Mod \"spectator\""
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Ieşire din luptă.\nIntră într-o luptă cu alt vehicul."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Înapoi la Garaj"
+
+msgid "preBattle/buttonTitle"
+msgstr "LUPTĂ!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Alege o hartă"
+
+msgid "preBattle/listTitle"
+msgstr "PREGĂTIREA JUCĂTORILOR"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Dreamland"
+
+msgid "preBattle/mapRandom"
+msgstr "Hartă aleatorie"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "VEHICULELE PLUTONULUI"
+
+msgid "preBattle/title"
+msgstr "MAREA VÂNĂTOARE"
+
+msgid "preBattle/userFooterTitle"
+msgstr "VEHICULELE SELECTATE"
+
+msgid "preBattle/userNotReady"
+msgstr "Nu-s gata"
+
+msgid "preBattle/userReady"
+msgstr "Gata"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Sezonul %(cycleNo)s de pe serverul %(server)s s-a încheiat"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "Sezonul de pe serverul %(server)s s-a încheiat."
+
+msgid "proxyPanel/button"
+msgstr "Magazin"
+
+msgid "proxyPanel/label"
+msgstr "Peceți\nde Oțel"
+
+msgid "proxyPanel/store"
+msgstr "MAGAZIN"
+
+msgid "questsTooltip/timeLeft"
+msgstr "Sezonul se încheie în %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "Nicio tastă asignată pentru Detectarea Radio"
+
+msgid "radar/hint/press"
+msgstr "Apasă"
+
+msgid "radar/hint/text"
+msgstr "pentru a activa Detectarea Radio"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Apariție"
+
+msgid "selectRespawn/button/land"
+msgstr "Apariție"
+
+msgid "selectRespawn/description"
+msgstr "Clic pe unul dintre punctele sugerate. Dacă nu s-a ales un punct, vei apărea în oricare dintre punctele sugerate."
+
+msgid "selectRespawn/header"
+msgstr "Alege un punct de apariție"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Clic pe unul dintre punctele sugerate. Dacă nu s-a ales un punct, vei apărea în oricare dintre punctele sugerate."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Lupta ta începe aici"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Alege un punct de apariție"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s z"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "EXTERMINARE!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Acidul corodează blindajul!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Zona este închisă! Părăsește zona imediat sau vehiculul îți va fi distrus!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "Zona va deveni roșie în curând"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Mobilitatea scăzută!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Înapoi pe șenile..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Se restaurează punctele de integritate"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Se restaurează punctele de integritate"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Se convertesc daunele"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Caracteristicile tehnice s-au îmbunătățit"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Proiectile și recuperare"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Resurse parașutate"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Kit de reparații și încărcătură de abilitate"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Pradă de război"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Prăzi de război combinate: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Adun: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Zonă de reparații"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Surging fervor!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "În fum"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Blindajul nostru se corodează!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Mobilitatea scăzută!"
+
+msgid "techParams/type/damage"
+msgstr "Daune"
+
+msgid "techParams/type/difficulty"
+msgstr "Dificultate"
+
+msgid "techParams/type/mobility"
+msgstr "Mobilitate"
+
+msgid "techParams/type/spotting"
+msgstr "Descoperire"
+
+msgid "techParams/type/survivability"
+msgstr "Supraviețuire"
+
+msgid "techtree/body_armor"
+msgstr "Blindaj"
+
+msgid "techtree/body_health"
+msgstr "Puncte de integritate"
+
+msgid "techtree/body_mobility"
+msgstr "Mobilitate"
+
+msgid "techtree/engine_acceleration"
+msgstr "Dinamică"
+
+msgid "techtree/engine_speed"
+msgstr "Viteza maximă"
+
+msgid "techtree/gun_alpha"
+msgstr "Daune per lovitură"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Autoîncărcare"
+
+msgid "techtree/gun_clip"
+msgstr "caseta se reîncarcă"
+
+msgid "techtree/gun_dpm"
+msgstr "Viteza de încărcare"
+
+msgid "techtree/gun_dualgun"
+msgstr "Tun dublu"
+
+msgid "techtree/gun_he"
+msgstr "Daune proiectile HE"
+
+msgid "techtree/gun_machinegun"
+msgstr "Mitralieră antitanc"
+
+msgid "techtree/gun_piercing"
+msgstr "Penetrare"
+
+msgid "techtree/radar_cooldown"
+msgstr "Timp de refacere Detectare Radio"
+
+msgid "techtree/radar_distance"
+msgstr "Raza detectării"
+
+msgid "techtree/turret_armor"
+msgstr "Blindaj"
+
+msgid "techtree/turret_health"
+msgstr "Puncte de integritate"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Viteza de rotație"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "Până la {{credits}} credite"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "Până la {{experience}} EXP"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Bonusul plutonului în lupte"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Participă în pluton cu un coechipier aleatoriu. Participați ca echipă împotriva a nouă plutoane inamice. Misiunile de pluton pot fi finalizate în acest mod. Plutonul se va încheia automat după luptă."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Vânătorul de Oțel clasic. Fiecare pentru el. Strânge resurse, îmbunătățește-ți vehiculul și utilizează-i abilitățile unice pentru a rămâne singurul în viață!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Participă în pluton cu un prieten. Participați ca echipă împotriva a nouă plutoane inamice. Misiunile de pluton pot fi finalizate în acest mod."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Pluton aleatoriu"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Modul solo"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Pluton cu un prieten"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Solo"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Pluton"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Regulile de obținere a punctelor"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "locul %(place)s"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "locurile %(place)s"
+
+msgid "tooltips/awards/achievement"
+msgstr "Medalie"
+
+msgid "tooltips/awards/badge"
+msgstr "Insignă"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "Îți permite să reintri în luptă după distrugerea vehiculului propriu. Astfel, nivelul de îmbunătățire al vehiculului tău nu este pierdut. Aceasta poate fi utilizată de un număr limitat de ori per luptă."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Încărcările de apariție pot fi obținute dintr-o Parașutare."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "Pentru a recupera un aliat, menține-te în afara conflictului timp de {brown_Open}%(timeToResurrect)s s{brown_Close}. Această mecanică funcționează în primele {brown_Open}%(duration)s min{brown_Close} ale unei lupte. Încărcăturile de reapariție sunt comune pentru membrii plutonului."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "La jocul în pluton"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "După distrugere, vehiculul tău reapare automat. Mecanica funcționează în primele {brown_Open}%(duration)s min{brown_Close} ale luptei."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "La jocul solo"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Utilizare unică"
+
+msgid "tooltips/respawn/title"
+msgstr "Reapariție"
+
+msgid "tooltips/vehicle/description"
+msgstr "Vehicul pentru modul Vânătorul de Oțel"
+
+msgid "tournament/description"
+msgstr "MAREA VÂNĂTOARE"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Nu-s gata"
+
+msgid "tournament/fightButton/ready"
+msgstr "Sunt gata!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Nu pot intra în turneu. Cod de eroare: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Eroare Marea Vânătoare. Cod de eroare: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "MAREA VÂNĂTOARE"
+
+msgid "tournament/type/solo"
+msgstr "Tip: Solo"
+
+msgid "tournament/type/squad"
+msgstr "Tip: Pluton"
+
+msgid "upgradePanel/alert/0"
+msgstr "Nu îți poți îmbunătăți vehiculul!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Nu îți poți îmbunătăți vehiculul în luptă activă!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Nu îți poți îmbunătăți vehiculul. Acesta se îneacă!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Nu îți poți îmbunătăți vehiculul. Acesta s-a răsturnat!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Apasă %(key)s pentru a deschide Meniul de Îmbunătățiri"
+
+msgid "upgradePanel/title/default"
+msgstr "Modul nou disponibil"
+
+msgid "upgradePanel/title/hull"
+msgstr "Carenă nouă disponibilă"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Suspensie nouă disponibilă"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Motor nou disponibil"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Tun nou disponibil"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Radio nou disponibil"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Turelă nouă disponibilă"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "SAU"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Blindaj"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Daune per lovitură"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Viteza de încărcare"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Puncte de integritate"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Penetrare"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Operarea Detectării Radio"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Sistem de încărcare cu casetă"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Viteză"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Caracteristicile vehiculului"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Avantaje"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Dezavantaje"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Armistițiu activ pe toate serverele. Luptele vor fi disponibile în %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Selectează alt server"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Episodul %(cycle)s încheiat"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Episod încheiat"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Armistițiu activ pe acest server. Luptele vor fi disponibile în %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Armistițiu activ pe %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Episodul %(cycle)s va începe în %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "Primul episod va începe în %(time)s"

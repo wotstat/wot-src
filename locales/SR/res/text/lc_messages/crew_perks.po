@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Primanje štete prekida obnavljanje izdržljivosti.\n\nBrzina obnavljanja izdržljivosti i maksimalna granica povraćaja se zasnivaju na ukupnoj količini izdržljivosti vozila, uključujući sve primenjene modifikatore."
+
+msgid "armorPatching/alt/info"
+msgstr "Za grupne veštine, prosečan trening nivo među članovima posade se uzima u obzir. Dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost daljim treningom."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Upotreba kompleta za popravke obnavlja %(hpRecover)s od {yellow_Start}izdržljivosti{yellow_End} vozila tokom 5 s, do maksimuma od 20% po borbi. Dozvoljava upotrebu kompleta za popravku bez kritične štete."
+
+msgid "armorPatching/hudDescription"
+msgstr "Izdržljivost je obnovljena."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Kada je svi članovi posade potpuno utreniraju, obnavlja %(hpRecover)s od {yellow_Start}izdržljivosti{yellow_End} vozila tokom 5 s nakon upotrebe kompleta za popravku, do maksimuma od 20% po borbi. Dozvoljava upotrebu kompleta za popravku bez kritične štete."
+
+msgid "armorPatching/name"
+msgstr "Krpljenje oklopa"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Povećava osnovnu prikrivenost vozila."
+
+msgid "brotherhood/alt/description"
+msgstr "Bonus efikasnosti posade poboljšava efikasnos člana posade u borbi, kao i efikasnos svih njihovih naučenih veština osim ove. Ovaj parametar može biti dalje povećan montiranjem opreme ili potrošnog materijala sa sličnim efektom ili upotrebom direktive Izduvavanje vazduha. Komandirova veština Hitan slučaj kao i veštine radio operatera Jedan do drugog i Komunikacioni ekspert takođe mogu da povećaju parametar."
+
+msgid "brotherhood/alt/info"
+msgstr "Za grupne veštine, prosečan trening nivo među članovima posade se uzima u obzir. Dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost daljim treningom."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "{greenBright_Start}Bonus efikasnosti posade{greenBright_End} cele posade je povećan za %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana za sve članove posade, povećava {greenBright_Start}bonus efikasnosti posade{greenBright_End} cele posade za %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Braća po Oružju"
+
+msgid "brotherhood/shortDescription"
+msgstr "Povećava generalne performanse posade."
+
+msgid "camouflage/alt/description"
+msgstr "Ova veština utiče na skrivanje vozila. Može se dalje poboljšati direktivom Prirodni zaklon.\n\nUz to, skrivanje vozila se može povećati upotrebom šeme kamuflaže ili stila, kao i montiranjem opreme sa sličnim efektom."
+
+msgid "camouflage/alt/info"
+msgstr "Za grupne veštine, prosečan trening nivo među članovima posade se uzima u obzir. Dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost daljim treningom."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "{greenBright_Start}Prikrivenost{greenBright_End} vozila je povećana za %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Kada je potpuno izučena za sve članove posade povećava {greenBright_Start}prikrivenost{greenBright_End} vozila za %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Skrivenost"
+
+msgid "camouflage/shortDescription"
+msgstr "Povećava osnovno skrivanje vozila."
+
+msgid "commander_coordination/alt/description"
+msgstr "Efekat se aktivira svaki put kada je neprijateljsko vozilo uočeno i ne sabira se ako je više vozila uočeno.\n\nBrzina nišanjenja može biti dalje povećana treniranjem veštine nišandžije Brzo nišanjenje ili montiranjem opreme sa sličnim efektom."
+
+msgid "commander_coordination/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u borbi."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "{yellow_Start}Brzina nišanjenja{yellow_End} će biti povećana za %(vehicleGunAimSpeed)s tokom 15 s nakon što uočiš neprijateljsko vozilo."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Brzina nišanjenja je povećana."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana, povećava {yellow_Start}brzinu nišanjenja{yellow_End} za %(vehicleGunAimSpeed)s tokom 15 sekundi nakon što uočiš neprijateljsko vozilo.\t"
+
+msgid "commander_coordination/name"
+msgstr "Kordinacija"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Brzina nišanjenja je povećana."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Videokrug se dalje može povećati treniranjem veštine radio operatera Svesnost situacije ili montiranjem opreme sa sličnim efektom. Upotreba direktive Optička kalibracija poboljšava efekat."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}Vidokrug{greenBright_End} se povećava za %(circularVisionRadius)s&zwnbsp;. {greenBright_Start}Kazna za oštećene osmatračke sprave{greenBright_End} je smanjena za %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Kazna za oštećene osmatračke sprave je smanjena."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana povećava {greenBright_Start}vidokrug{greenBright_End} za %(circularVisionRadius)s&zwnbsp; i smanjuje {greenBright_Start}kaznu za oštećene osmatračke sprave{greenBright_End} za %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Izviđanje"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Povećava videokrug naročito kada su sprave za nadgledanje oštećene."
+
+msgid "commander_emergency/alt/description"
+msgstr "Prilikom zadobijanja štete od neprijatelja iznova i iznova efekat se ne sabira. Bonus efikasnosti posade poboljšava efektivnost članova posade u borbi. Ovaj parametar može biti dalje povećan montiranjem opreme ili potrošnog materijala sa sličnim efektom ili upotrebom direktive Izduvavanje vazduha. Grupna veština Braća po oružiju kao i veštine radio operatera Jedan do drugoga i Komunikacioni ekspert, takođe mogu da povećaju parametar."
+
+msgid "commander_emergency/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u borbi."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "{yellow_Start}Bonus efikasnosti posade{yellow_End} će biti povećan za %(crewLevelIncrease)s tokom 15 s nakon zadobijanja štete od neprijatelja."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Bonus efikasnosti posade je povećan."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana, povećava {yellow_Start}bonus efikasnosti posade{yellow_End} za %(crewLevelIncrease)s tokom 15 s nakon zadobijanja štete od neprijatelja."
+
+msgid "commander_emergency/name"
+msgstr "Hitan slučaj"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Bonus efikasnosti posade je povećan."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Upozorenje o paljbi neprijateljske artiljerije se aktivira u momentu kada je hitac ispaljen ali sa određenom zadrškom.\n\nVeština može biti povećana direktivom Povećana opreznost."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u borbi."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "{yellow_Start}Upozorenje o paljbi neprijateljske artiljerije{yellow_End} i pravac hica će biti izdati sa %(artNotificationDelayFactor)s zadrškom. {greenBright_Start}Negativan efekat ošamućenja{greenBright_End} je smanjen za %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana izdaje {yellow_Start}upozorenje o paljbi neprijateljske artiljerije{yellow_End} sa %(artNotificationDelayFactor)s zadrškom i identifikuje pravac hica. Smanjuje {greenBright_Start}negativan efekat ošamućenja{greenBright_End} za %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Otkrivanje zvuka"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Označava neprijateljski artiljerijski hitac."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Bonus efikasnosti posade poboljšava efektivnost člana posade u borbi.\n\nOvaj parametar može dalje biti povećan montiranjem opreme ili potrošnog materijala sa sličnim efektom, ili upotrebom direktive izduvavanje vazduha. Razne druge veštine posade takođe mogu da povećaju parametar."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u borbi."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "{yellow_Start}Bonus efikasnosti posade{yellow_End} će biti povećan za %(crewLevelIncrease)s dok neprijateljski tim ima najmanje tri vozila više u borbi od vas&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Bonus efikasnosti posade je povećan (neprijatelj ima većinu)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana, povećava {yellow_Start}bonus efikasnosti posade{yellow_End} za %(crewLevelIncrease)s dok neprijateljski tim ima najmanje tri vozila više u borbi od vas&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Drži liniju"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ povećava bonus efikasnosti posade"
+
+msgid "commander_practical/alt/description"
+msgstr "Veština radi za sve potrošne materijale montirane na tvoje vozilo.\n\nNjen efekat može biti dalje povećan upotrebom direktive Detaljne pripreme."
+
+msgid "commander_practical/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}Vreme hlađenja potrošnog materijala{greenBright_End}ˇje smanjeno za %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Kada je potpuno izučena, smanjuje {greenBright_Start}vreme hlađenja potrošnog materijala{greenBright_End} za %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Praktičnost"
+
+msgid "commander_practical/shortDescription"
+msgstr "Smanjuje vreme hlađenja potrošne robe."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Šesto čulo je isključeno dok je komandant povređen. Vreme aktivacije se može smanjiti uz veštinu radio operatera, Presretanje signala."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Ovo je specijalna veština komandanta kojoj ne treba trening i dostupna je komandantu kao podrazumevana."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Omogućava komandiru da identifikuje da li je njegovo vozilo uočio neprijatelj. Aktivira se %(delay)s nakon što je vozilo uočeno."
+
+msgid "commander_sixthSense/name"
+msgstr "Šesto Čulo"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Omogućava komandiru da indetifikuje da li je vozilo primećeno od strane neprijatelja."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Bonus efikasnosti posade poboljšava efektivnost člana posade u borbi.\n\nOvaj parametar može dalje biti povećan montiranjem opreme ili potrošnog materijala sa sličnim efektom, ili upotrebom direktive izduvavanje vazduha. Razne druge veštine posade takođe mogu da povećaju parametar."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u borbi."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "{yellow_Start}Bonus efikasnosti posade{yellow_End} će biti povećan za %(crewLevelIncrease)s tokom 15&nbsp;s nakon upotrebe kompleta za prvu pomoć. Dozvoljava upotrebu kompleta za prvu pomoć čak i ako nema povređenih članova posade&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Bonus efikasnosti posade je povećan (komplet za prvu pomoć je upotrebljen)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana, povećava {yellow_Start}bonus efikasnosti posade{yellow_End} za %(crewLevelIncrease)s tokom 15s nakon upotrebe kompleta za prvu pomoć. Dozvoljava upotrebu kompleta za prvu pomoć čak i ako nema povređenih članova posade&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Ostani na oprezu"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ povećava bonus efikasnosti posade"
+
+msgid "commander_tutor/alt/description"
+msgstr "Povređen komandant ne može da zameni drugog člana posade. Bonus se primenjuje samo na osnovnu količinu iskustva posade zarađene u borbi.\n\nDodatno iskustvo posade se može dobiti korišćenjem Knjiga posade ili konvertovanjem Slobodnog iskustva u iskustvo posade."
+
+msgid "commander_tutor/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Količina zarađenog {greenBright_Start}iskustva{greenBright_End} je povećana za %(xpBonusFactorPerLevel)s za sve članove posade. Komandir može {greenBright_Start}da zameni oborene članove{greenBright_End} sa %(woundedCrewEfficiency)s efikasnosti."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Oboreni član posade je zamenjen komandirom."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana količina zarađenog {greenBright_Start}iskustva{greenBright_End} je povećana za %(xpBonusFactorPerLevel)s za sve članove posade. Omogućava komandiru da {greenBright_Start}zameni oborene članove{greenBright_End} sa %(woundedCrewEfficiency)s efikasnosti."
+
+msgid "commander_tutor/name"
+msgstr "Mentor"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Oboreni član posade je zamenjen komandirom."
+
+msgid "commander_universalist/alt/description"
+msgstr "Komandant može da zamene samo glavnu kvalifikaciju povređene članove posade. Efekat zamene se smanjuje sa svakim narednim povređenim članom posade."
+
+msgid "commander_universalist/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1%. Efektivnost raste sa daljim treningom."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Komandir može da {greenBright_Start}zameni onesposobljene{greenBright_End} članove posade sa %(woundedCrewEfficiency)s efikasnosti."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Komandant menja povređenog člana posade."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Kada je potpuno izučena, omogućava komandiru da {greenBright_Start}zameni onesposobljene{greenBright_End} članove posade sa %(woundedCrewEfficiency)s efikasnosti."
+
+msgid "commander_universalist/name"
+msgstr "Sveznalica"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Omogućava komandiru da zameni onesposobljene članove posade."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Smanjuje kazne na upravljivost vozila i ubrzanje prilikom vožnje po srednje mekanom terenu. Značajno smanjuje kazne prilikom vožnje po mekanom terenu, dovodeći ih na isti nivo onih sa srednje mekanog terena.\nUpravljivost na srednje mekanom i mekanom terenu ne može da pređe upravljivost na čvrstom terenu."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}Gubitak brzine na srednje mekanom terenu{greenBright_End} je smanjen za %(mediumGroundFactor)s&zwnbsp;, {greenBright_Start}gubitak brzine na mekanom terenu{greenBright_End} je smanjen na %(softGroundFactor)s vrednosti srednje mekanog terena."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana, smanjuje {greenBright_Start}gubitak brzine na srednje mekanom terenu{greenBright_End} za %(mediumGroundFactor)s&zwnbsp;, smanjuje {greenBright_Start}gubitak brzine na mekanom terenu{greenBright_End} na %(softGroundFactor)s vrednosti srednje mekanog terena."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Vožnja van puta"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Bonus efikasnosti posade poboljšava efektivnost člana posade u borbi.\n\nOvaj parametar može dalje biti povećan montiranjem opreme ili potrošnog materijala sa sličnim efektom, ili upotrebom direktive izduvavanje vazduha. Razne druge veštine posade takođe mogu da povećaju parametar."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u borbi."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "{yellow_Start}Bonus efikasnosti posade{yellow_End} će biti povećan za %(crewLevelIncrease)s ako količina blokirane štete pređe početni broj poena izdržljivost tvog vozila."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Bonus efikasnosti posade je povećan (blokirano je dovoljno štete)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana povećava {yellow_Start}bonus efikasnosti posade{yellow_End} za %(crewLevelIncrease)s ako količina blokirane štete pređe početni broj poena izdržljivosti tvog vozila."
+
+msgid "driver_bulletproof/name"
+msgstr "Otporan na metke"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Maksimalna brzina tvog vozila može dalje biti povećana i kazna za oštećenje motora može biti dodatno smanjena montiranjem opreme sa sličnim efektom."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "{greenBright_Start}Maksimalna unapred{greenBright_End} i {greenBright_Start}unazad brzina{greenBright_End} tvog vozila je povećana za %(vehicleForwardMaxSpeed)s. {greenBright_Start}Kazna za oštećeni motor{greenBright_End} je smanjena za %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Kazna za oštećeni motor je smanjena."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana, povećava {greenBright_Start}maksimalnu unapred{greenBright_End} i {greenBright_Start}unazad brzinu{greenBright_End} tvog vozila za %(vehicleForwardMaxSpeed)s. Smanjuje {greenBright_Start}kaznu za oštećeni motor{greenBright_End} za %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Inženjer"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Kazna za oštećeni motor je smanjena."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Veština je neefektivna kada se dva saveznička vozila sudare.\n\nŠteta od sudara na tvom vozilu može dodatno biti smanjena montiranjem opreme sa sličnim efektom."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}Šteta prilikom sudaranja sa neprijateljskim vozilima{greenBright_End} je povećana za %(damageEnemiesByRamming)s&zwnbsp;. {greenBright_Start}Šteta prilikom sudaranja na tvom vozilu{greenBright_End} je smanjena za %(vehicleRamDamageResistance)s&zwnbsp; i na {greenBright_Start}tvom vešanju{greenBright_End} za %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Kada je potpuno izučena, povećava {greenBright_Start}štetu prilikom sudara na neprijateljskim vozilima{greenBright_End} za %(damageEnemiesByRamming)s&zwnbsp;. Smanjuje {greenBright_Start}štetu od sudara na tvom vozilu {greenBright_End} za %(vehicleRamDamageResistance)s&zwnbsp;, i na {greenBright_Start}tvom vešanju{greenBright_End} za %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Kontrolisani udar"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Smanjuje štetu od sudara na tvom vozilu i povećava štetu od sudara na neprijateljskim vozilima."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Šteta pretrpljena od fugasnih granata može dodatno biti smanjena montiranjem opreme sa sličnim efektom."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}Apsorbcija štete fugasne granate{greenBright_End} je povećana za %(vehicleHEShellDamageResistance)s&zwnbsp;. &nbsp;{greenBright_Start}Šansa požara motora{greenBright_End} je smanjena za %(vehicleFireChance)s i {greenBright_Start}šeta na tvom vešanju{greenBright_End} za %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana {greenBright_Start}absorpcija štete fugasne granate{greenBright_End} za %(vehicleHEShellDamageResistance)s&zwnbsp;. Smanjuje {greenBright_Start}šansu požara motora{greenBright_End} za %(vehicleFireChance)s i {greenBright_Start}šteta na tvom vešanju{greenBright_End} za %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Pouzdana zamena"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Ne utiče na preciznost vozila u mirovanju i preciznost tokom okretanja trupa.\n\nVeština se može poboljšati koriščenjem direktive Zanimljivost menjača. Preciznost pri paljbi u pokretu se dalje može povećati montiranjem opreme sa sličnim efektom ili korišćenjem direktive Podmazivanje stabilizatora."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "{greenBright_Start}Rasipanje topa{greenBright_End} prilikom pucanja u pokretu je smanjeno za %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana smanjuje {greenBright_Start}rasipanje topa{greenBright_End} prilikom pucanja u pokretu za %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Mirna vožnja"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Povećava preciznost prilikom pucanja u pokretu."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Veština utiče na brzinu popravke vešanja sa crvenog na žuto stanje u krugu od 50m od savezničkog vozila."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u borbi."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "{yellow_Start}Brzina popravke vešanja{yellow_End} će biti povećana za %(suspensionRepairSpeed)s na razdaljini od manje od 50 m od savezničkog vozila."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Brzina popravke vešanja je povećana (saveznik je u blizini)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana, povećava {yellow_Start}brzinu popravke vešanja{yellow_End} za %(suspensionRepairSpeed)s na razdaljinama manjim od 50 m od savezničkog vozila."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Poljska podrška"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Otpornost vozila na vatru se dalje može povećati montiranjem opreme i potrošne robe sa sličnim efektom. Vatrogasna veština će ubrzati gašenje vatre u slučaju požara."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1%. Efektivnost raste sa daljim treningom."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "Smanjena {greenBright_Start}šansa za požar motora{greenBright_End}za %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Kada je potpuno izučena, smanjuje {greenBright_Start}šansu za požar motora{greenBright_End} za %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Čistoća i red"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Smanjuje šansu za požar motora."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Brzina okretanja trupa se može dalje povećati montiranjem opreme ili potrošne robe sa sličnim efektom."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}Brzina okretanja trupa {greenBright_End} je povećana za %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana povećava {greenBright_Start}brzinu okretanja trupa{greenBright_End} za %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Kočenje kvačilom"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Povećava brzinu rotiranja trupa."
+
+msgid "fireFighting/alt/description"
+msgstr "Ova veština utiče na štetu od vatre i njeno trajanje.\n\nAko dva radio operatera imaju ovu veštinu, prosečna vrednost treninga veštine se uziuma u obzir.\n\nVeština može biti unapređena direktivom Iskusni vatrogasci."
+
+msgid "fireFighting/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}Brzina gašenja vatre{greenBright_End} je povećana za %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana povećava {greenBright_Start}brzinu gašenja vatre{greenBright_End} za %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Gašenje vatre"
+
+msgid "fireFighting/shortDescription"
+msgstr "Poboljšava gašenje požara."
+
+msgid "gunner_armorer/alt/description"
+msgstr "U startu potencijalna šteta i opseg probojnosti su ±25% od osnovnih vrednosti. Na primer ako granata probija oklop do 100 mm i nanosi 100 poena štete, nakon pogodka u metu, prava probojnost za ovaj konkretan hitac može da varira od 75 do 125 mm i prava šteta može da ima raspon od 75 do 125 poena štete. Smanjivanje ovog modifikatora će dati više predvidive rezultate pucanja.\n\nAko dvojica nišandžija imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Opsezi {greenBright_Start}potencijalne štete{greenBright_End} i {greenBright_Start}potencijalne probojnosti{greenBright_End} su smanjeni za {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. {greenBright_Start}Rasipanje topa{greenBright_End} je smanjeno za %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana smanjuje opsege {greenBright_Start}potencijalne štete{greenBright_End} i {greenBright_Start}potencijalne probojnosti{greenBright_End} za {greenBright_Start}±{greenBright_End} %(damageAndPiercingDistributionLowerBound)s. Smanjuje {greenBright_Start}rasipanje topa{greenBright_End} za %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Oružar"
+
+msgid "gunner_focus/alt/description"
+msgstr "Efekat počinje 3 s nakon što vozilo stane i poništava se nakon pokreta.\n\nAko dvojica nišandžija imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje."
+
+msgid "gunner_focus/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u borbi."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "{yellow_Start}Rasipanje topa{yellow_End} stacionarnog vozila će biti smanjeno za %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Rasipanje topa je smanjeno."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana smanjuje {yellow_Start}rasipanje topa{yellow_End} stacionarnog vozila za %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Koncentracija"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Smanjuje disperziju topa za vozilo u mirovanju."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Depresija topa i brzina nišanjenja mogu dalje biti poboljšane treniranjem veština posade ili montiranjem opreme sa sličnim efektom.\n\nAko dvojica nišandžija imaju ovu veštinu, primenjuje se prosečna vrednost treninga veštine."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u borbi."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "{yellow_Start}Depresija topa{yellow_End} će biti povećana za %(vehicleGunAimSpeed)s i {yellow_Start}brzina nišanjenja{yellow_End} će biti povećana za %(vehicleGunAimSpeed)s dok nema savezničkih vozila u radijusu od 300 m."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Depresija topa i brzina nišanjenja su poboljšane (nema saveznika u blizini)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana, povećava {yellow_Start}depresiju topa{yellow_End} i povećava {yellow_Start}brzinu nišanjenja{yellow_End} za %(vehicleGunAimSpeed)s dok nema savezničkih vozila u radijusu od 300 m."
+
+msgid "gunner_loneWolf/name"
+msgstr "Vuk samotnjak"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Depresija topa je povećana. Brzina nišanjenja je povećana."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Podrazumevano potencijalna maksimalna penetracija je +25% od osnovne vrednosti. Na prime ako granata probija do 100 mm, nakon pogađanja mete, maksimalna potencijalna vrednost penetracije sa ovaj hitac može biti 125 mm. Povećanje ovog modifikatora vodi do efikasnijih rezultata penetracije.\n\nAko dvojica nišandžija imaju ovu veštinu, primenjuje se prosečna vrednost treninga veštine."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u borbi."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "{yellow_Start}Maksimalna potencijalna penetracija{yellow_End} tvojih granata će biti povećana za %(piercingHEShellsDistributionUpperBound)s kada pucaš na neprijateljska vozila bliža od 50 m."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana, povećava {yellow_Start}maksimalnu potencijalnu penetraciju{yellow_End} za %(piercingHEShellsDistributionUpperBound)s kada pucaš na neprijateljska vozila bliža od 50 m."
+
+msgid "gunner_pointBlast/name"
+msgstr "Iz blizine"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Povećava maksimalnu potencijalnu penetraciju tvojih granata"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Ako dvojica nišandžija imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje.\n\nBrzina nišanjenja može dalje biti povećana treniranjem veštine Komandirova koordinacija ili montiranjem opreme sa sličnim efektom.\n\nBrzia okretanja kupole može dalje biti povećana montiranjem opreme ili potrošnog materijala sa sličnim efektom."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}Brzina nišanjenja{greenBright_End} i {greenBright_Start}brzina okretanja kupole{greenBright_End} su povećane za %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana povećava {greenBright_Start}brzinu nišanjenja{greenBright_End} i {greenBright_Start}brzinu okretanja kupole{greenBright_End} za %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Brzo nišanjenje"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Brzina nišanjenja je povećana."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Identifikuje kritično oštećene module na ciljanom vozilu u vidokrugu nišandžije u direktnom i indirektnom režimu vatre.\nNišandžijino polje vida se definiše kao ±10° sektor (20° ukupno) ispred vozila i njegovog vidokruga.\nAko dvojica nišandžija imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje.\nVeština može dalje biti povećana direktivom Fokus na metu. Upotreba poboljšanog radio kompleta će dodatno poboljšati vreme pre nego što neprijateljsko vozilo više nije vidljivo."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "{greenBright_Start}Vreme{greenBright_End} pre nego što neprijateljsko {greenBright_Start}vozilo više nije vidljivo{greenBright_End} unutar nišandžijinog polja vida je povećano za %(vehicleEnemySpottingTime)s. Vreme za {yellow_Start}identifikaciju oštećenih modula{yellow_End} je smanjeno na %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana povećava {greenBright_Start}vreme{greenBright_End} pre nego što neprijateljsko {greenBright_Start}vozilo više nije vidljivo{greenBright_End} unutar nišandžijinog polja vida za %(vehicleEnemySpottingTime)s. Omogućava {yellow_Start}identifikaciju oštećenih modula{yellow_End} sa %(damageMonitoringDelay)s zadrške."
+
+msgid "gunner_rancorous/name"
+msgstr "Birana meta"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Povećava vreme pre nego što neprijateljsko vozilo više nije vidljivo unutar nišandžijinog polja vida. Omogućava identifikaciju oštećenih modula."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Ako dvojica nišandžija imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje.\n\nVeština može biti poboljšana direktivom Mirna ruka. Rasipanje tokom rotiranja kupole može dodatno biti smanjena montiranjem opreme sa sličnim efektom ili korišćenjem direktive Podmazivanje stabilizatora."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "{greenBright_Start}Rasipanje topa{greenBright_End} tokom rotacije kupole je smanjeno za %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana smanjuje {greenBright_Start}rasipanje topa{greenBright_End} tokom rotacije kupole za %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Na nišanu"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Smanjuje disperziju tokom rotacije kupole."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Efekat radi za sve tipove granata osim za vozila sa automatskim topovima.\n\nAko dvojica nišandžija imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "{greenBright_Start}Šansa za kritično oštećenje{greenBright_End} neprijateljskih {greenBright_Start}modula na vozilu{greenBright_End} i povrede neprijateljskih {greenBright_Start}članova posade{greenBright_End} sa svim tipovima granata je povećana za %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana, povećava {greenBright_Start}šansu za kritično oštećenje{greenBright_End} neprijateljskih {greenBright_Start}modula na vozilu{greenBright_End} i povrede neprijateljskih {greenBright_Start}članova posade{greenBright_End} sa svim tipovima granata za %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Snajper"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "U startu potencijalna minimalna šteta i opseg probojnosti su -25% od osnovnih vrednosti. Na primer ako granata probija oklop do 100 mm i nanosi 100 poena štete, nakon pogodka u metu, prava probojnost za ovaj konkretan hitac može da bude 75 mm i minimalna moguća šteta može da ima vrednost 75 poena štete. Povećanje ovog modifikatora će dati efektivnije rezultate pucanja.\n\nAko dvojica nišandžija imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "{greenBright_Start}Minimalna potencijalna šteta{greenBright_End} i {greenBright_Start}minimalna potencijalna probojnost{greenBright_End} su povećane za %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana povećava {greenBright_Start}minimalnu potencijalnu štetu{greenBright_End} i {greenBright_Start}minimalnu potencijalnu probojnost{greenBright_End} za %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Podešavanje municije"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Povećava prosečnu štetu i vrednosti penetracije."
+
+msgid "loader_desperado/alt/description"
+msgstr "Ako dvojica nišandžija imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje.\n\nVreme punjenja topa može biti smanjeno dodatno treniranjem veštine punioca Bliska borba ili montiranjem opreme sa sličnim efektom. Korišćenje direktive Uredno spremište za municiju poboljšava efekat."
+
+msgid "loader_desperado/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u borbi."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "{yellow_Start}Vreme punjenja topa{yellow_End} će biti smanjeno za %(vehicleGunReloadTime)s ako je tvoje vozilo ispod 25% poena izdržljivosti."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Vreme punjenja topa je smanjeno ( mala izdržljivost vozila)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana smanjuje {yellow_Start}vreme punjenja vozila{yellow_End} za %(vehicleGunReloadTime)s ako je tvoje vozilo ispod 25% poena izdržljivosti."
+
+msgid "loader_desperado/name"
+msgstr "Nalet Adrenalina"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Ubrzava punjenje topa ako vozilo ima manje od 25% preostalih poena zdravlja (HP)."
+
+msgid "loader_intuition/alt/description"
+msgstr "Da bi aktivirao ovu veštinu top, oba topa ili šaržer moraju biti potpuno napunjeni. Minimalno vreme promene tipa granata za standardne topove je 1 s; Za dvocevne topove i topove sa šaržerom je 2,5 s.\n\nAko dvojica nišandžija imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje."
+
+msgid "loader_intuition/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "{greenBright_Start}Vreme promene tipa granate{greenBright_End} za napunjeni top je smanjeno za %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Vreme promene tipa granate za napunjeni top je smanjeno.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Kada je potpuno izučena smanjuje {greenBright_Start}vreme promene tipa granate{greenBright_End} za napunjeni top za %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Intuicija"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Značajno povećava brzinu promene tipa granata u napunjenom topu."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Ova veština smanjuje vreme punjenja topova sa šaržerom isključivo i ne utiče na druge sisteme.\n\nAko dvojica punilaca imaju ovu veštinu, primenjuje se prosečna vrednost treninga veštine."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "{greenBright_Start}Vreme punjenja{greenBright_End} šaržera je smanjeno za %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana smanjuje {greenBright_Start}vreme punjenja{greenBright_End} šaržera za %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "Šaržer majstor"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Smanjuje vreme punjenja tvojih šaržera"
+
+msgid "loader_melee/alt/description"
+msgstr "Ako dvojica nišandžija imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje.\n\nVreme punjenja topa može dodatno biti smanjeno treniranjem veštine punioca nalet adrenalina ili montiranjem opreme sa sličnim efektom. Upotreba direktive Uredno spremište za municiju poboljšava efekat."
+
+msgid "loader_melee/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u borbi."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "{yellow_Start}Vreme punjenja topa{yellow_End} će biti smanjeno za %(vehicleGunReloadTime)s na distancama manjim od 50 m od neprijateljskog vozila."
+
+msgid "loader_melee/hudDescription"
+msgstr "Vreme punjenja topa je smanjeno (neprijatelj je u blizini).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Kada je potpuno izučena smanjuje {yellow_Start}vreme punjenja topa{yellow_End} za %(vehicleGunReloadTime)s na distancama manjim od 50 m od neprijateljskog vozila."
+
+msgid "loader_melee/name"
+msgstr "Bliska borba"
+
+msgid "loader_melee/shortDescription"
+msgstr "Ubrzava punjenje topa u bliskoj borbi."
+
+msgid "loader_pedant/alt/description"
+msgstr "Povređeni punioc ne utiče na efikasnost veštine.\n\nAko dvojica nišandžija imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje.\n\nVeština može biti poboljšana upotrebom direktive Organizator granata. Izdržljivost spremišta za municiju može dodatno biti poboljšana montiranjem opreme sa sličnim efektom."
+
+msgid "loader_pedant/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}Izdržljivost spremišta za municiju{greenBright_End} je povećana za %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Kada je potpuno izučena, povećava {greenBright_Start}izdržljivost spremišta za municiju{greenBright_End} za %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Bezbedno slaganje"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Povećava otpornost police municije."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Efekat radi na svim tipovima granata.\n\nPovređeni punilac ne utiče na efikasnost veštine.\n\nAko dvojica nišandžija imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}Brzina granate{greenBright_End} je povećana za %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana povećava {greenBright_Start}brzinu granate{greenBright_End} za %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Savršeno punjenje"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Ova veština nema efekta na šaržere ili automatske topove i ne sabira se za dvocevne topove.\n\nZa topove sa selektivnim sistemom punjenja, ako su obe cevi ispaljene i nijedna ne nanese štetu, smanjenje vremena punjenja se primenjuje na obe cevi. \n\nAko dvojica punilaca imaju ovu veštinu primenjuje se prosečna vrednost treninga veštine.\n\nVreme punjenja topa može dodatno biti smanjeno treniranjem veštine punioca nalet adrenalina ili bliska borba ili montiranjem opreme sa sličim efektom. Upotreba direktive uredno spremište za municiju, poboljšava efekat."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u borbi."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "{yellow_Start}Vreme punjenja topa{yellow_End} će biti smanjeno za %(vehicleGunReloadTime)s za sledeću granatu ako prethodni hitac nije naneo štetu neprijateljskom vozilu."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Vreme punjenja topa je smanjeno (promašen hitac)"
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana, smanjuje {yellow_Start}vreme punjenja topa{yellow_End} za %(vehicleGunReloadTime)s za sledeću granatu ako prethodni hitac nije naneo štetu neprijateljskom vozilu."
+
+msgid "loader_secondChance/name"
+msgstr "Druga šansa"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Smanjuje vreme punjenja topa "
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Braća po Oružiju"
+
+msgid "perkRole/commander"
+msgstr "Komandat"
+
+msgid "perkRole/common"
+msgstr "Grupa"
+
+msgid "perkRole/driver"
+msgstr "Vozač"
+
+msgid "perkRole/gunner"
+msgstr "Nišandžija"
+
+msgid "perkRole/loader"
+msgstr "Punioc"
+
+msgid "perkRole/radioman"
+msgstr "Radio operater"
+
+msgid "popularity/tooltip/common"
+msgstr "svih igrača"
+
+msgid "popularity/tooltip/header"
+msgstr "Za ovo vozilo preferirano od strane"
+
+msgid "popularity/tooltip/legendary"
+msgstr "WTR legendarnih igrača"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Ako dvojica radio operatera imaju ovu veštinu, primenjuje se prosečna vrednost treninga veštine.\n\nEfekat može biti dalje poboljšan direktivom komandira otkrivanje zvuka."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Svaki put kada je posada vozila ošamućena, {greenBright_Start}negativni efekat šoka{greenBright_End} će biti smanjen za %(stunResistanceEffectFactor)s, do maksimuma od 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana, svaki put kada je posada vozila ošamućena, smanjuje {greenBright_Start}negativni efekat šoka{greenBright_End} za %(stunResistanceEffectFactor)s&nbsp;, do maksimuma od 30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Prekaljen u borbi"
+
+msgid "radioman_expert/alt/description"
+msgstr "Bonus efikasnosti posade poboljšava efektivnost članova posade u borbi. Ako dvojica radio operatera imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje. Ovaj parametar može dalje biti poboljšan montiranjem opreme ili potrošnog materijala sa sličnim efektom ili upotrebom direktive Izduvavanje vazduha. Grupna veština Braća po oružju kao i veštine komandira Hitan slučaj ili radio operatera Jedan do drugog mogu takođe da povećaju parametar."
+
+msgid "radioman_expert/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u borbi."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "{yellow_Start}Bonus efikasnosti posade{yellow_End} će biti povećan za %(crewLevelIncrease)s ako količina štete za koju si pomogao da bude naneta pređe početnu količinu poena izdržljivosti tvog vozila&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Bonus efikasnosti posade je povećan (dovoljno izviđačkih podataka je prevedeno)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana povećava {yellow_Start}bonus efikasnosti posade{yellow_End} za %(crewLevelIncrease)s ako količina štete za koji su pomogao da bude naneta pređe početnu količinu poena izdržljivosti tvog vozila&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Komunikacioni ekspert"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Poboljšane performanse posade."
+
+msgid "radioman_finder/alt/description"
+msgstr "Ako dvojica radio operatera imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje.\n\nVidokrug može dodatno biti povećan treniranjem veštine Izviđanje ili montiranjem opreme sa sličnim efektom. Upotreba direktive Optička kalibracija takođe povećava efekat."
+
+msgid "radioman_finder/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}Vidokrug {greenBright_End} je povećan za %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Kada je potpuno izučena, povećava {greenBright_Start}vidokrug{greenBright_End} za %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Svesnost situacije"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Povećava videokrug."
+
+msgid "radioman_interference/alt/description"
+msgstr "Ako dvojica radio operatera imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje.\n\nVreme tokom koga tvoje vozilo ostaje uočeno može dodatno biti umanjeno montiranjem opreme sa sličnim efektom."
+
+msgid "radioman_interference/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "{greenBright_Start}Vreme tokom koga tvoje vozilo ostaje uočeno{greenBright_End} od strane neprijatelja je smanjeno za %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana smanjuje {greenBright_Start}vreme tokom koga tvoje vozilo ostaje uočeno{greenBright_End} od strane neprijatelja za %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Ometanje"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Smanjuje vreme kada je vozilo vidljivo neprijatelju."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Ako dva radio operatera imaju veštinu, samo se veća vrednost primenjuje. Efekat je aktivan samo ako radio operater nije povređen kada je vozilo uništeno.\n\nVeština se dalje može poboljšati korišćenjem direktive Dužnost na prvom mestu."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1%. Efektivnost raste sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u igri."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Radio operater može da {yellow_Start}prijavi neprijateljske pozicije{yellow_End} za još %(radiomanDurationPerLevel)s nakon što je tvoje vozilo uništeno."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Prijava pozicija."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Kada je potpuno izučena, dozvoljava {yellow_Start}prijavu neprijateljskih pozicija{yellow_End} za još %(radiomanDurationPerLevel)s nakon što je tvoje vozilo uništeno."
+
+msgid "radioman_lastEffort/name"
+msgstr "Poziv na Osvetu"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Tokom kratkog vremena nakon što je tvoje vozilo uništeno, prijavljuje neprijateljske pozicije."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Bonus efikasnosti posade poboljšava efektivnost članova posade u borbi. Ako dvojica radio operatera imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje. Ovaj parametar može dalje biti poboljšan montiranjem opreme ili potrošnog materijala sa sličnim efektom ili upotrebom direktive Izduvavanje vazduha.Grupna veština Braća po oružju kao i veštine komandira Hitan slučaj ili radio operatera Komunikacioni ekspert mogu takođe da povećaju parametar."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u borbi."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "{yellow_Start}Bonus efikasnosti posade{yellow_End} će biti povećan za %(crewLevelIncrease)s na distanci manjoj od 50 m od savezničkog vozila istog tipa&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Bonus efikasnosti posade je povećan (savezničko vozilo istog tipa je u blizini)"
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana povećava {yellow_Start}bonus efikasnosti posade{yellow_End} za %(crewLevelIncrease)s na distanci manjoj od 50 m od savezničkog vozila istog tipa&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Jedan do drugoga"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Poboljšane performanse posade."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Efekat poboljšava komandirovu specijalnu odliku Šesto čulo, ubrzavajući njeno aktiviranje.\n\nAko dvojica radio operatera imaju ovu veštinu, prosečna vrednost nivoa istreniranosti se primenjuje."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Veština dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "{greenBright_Start}Vreme za utvrđivanje{greenBright_End} da li je {greenBright_Start}tvoje vozilo uočeno{greenBright_End} od strane neprijatelja je smanjeno za %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana smanjuje {greenBright_Start}vreme za utvrđivanje{greenBright_End} da li je {greenBright_Start}tvoje vozilo uočeno{greenBright_End} od strane neprijatelja za %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Presretanje signala"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Ova veština se aktivira kada alarm šestog čula pokaže da je tvoje vozilo uočeno.\n\nAko dva radio operatera imaju ovu veštinu primenjuje se prosečna vrednost treninga veštine.\n\nVidokrug može dalje biti povećan treniranjem veština izviđač ili svesnost situacije ili montiranjem opreme sa sličnim efektom. Upotreba direktive optička kalibracija poboljšava efekat."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Veština sa efektom situacije dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost sa daljim treningom. Efekat situacije se aktivira kada se određeni uslovi ispune u borbi."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "{yellow_Start}Vidokrug {yellow_End} će biti povećan za %(vehicleCircularVisionRadius)s tokom 5 s nakon dobijanja upozorenja šestog čula."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Vidokrug je povećan."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana, povećava {yellow_Start}vidokrug{yellow_End} za %(vehicleCircularVisionRadius)s tokom 5 s nakon dobijanja upozorenja šestog čula."
+
+msgid "radioman_threatSearch/name"
+msgstr "Traženje pretnje"
+
+msgid "repair/alt/description"
+msgstr "Ova veština utiče na brzinu popravki unutrašnjih i eksternih modula iz \"crvenog\" u \"žuto\" stanje.\n\nOvaj parametar se dalje može povećati montiranjem opreme ili potrošnog materijala sličnog efekta."
+
+msgid "repair/alt/info"
+msgstr "Za grupne veštine, prosečan trening nivo među članovima posade se uzima u obzir. Dobija efekat kada se trenira najmanje 1% i povećava svoju efektivnost daljim treningom."
+
+msgid "repair/currentLvlDescription"
+msgstr "{greenBright_Start}Brzina popravki{greenBright_End} oštećenih modula vozila je povećana za %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Kada je potpuno istrenirana za sve članove posade, povećava {greenBright_Start}brzinu popravki{greenBright_End} oštećenih modula vozila za %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Popravke"
+
+msgid "repair/shortDescription"
+msgstr "Povećava brzinu popravke oštećenih modula."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Braća po Oružiju"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Popularno"
+
+msgid "sorting/fallback"
+msgstr "Podrazumevani"
+
+msgid "sorting/legendary"
+msgstr "Legendarni"
+
+msgid "sorting/title"
+msgstr "Sortirano po:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPopularno.%(whiteSpanish_Close)s Zasnovano na trenutnom trendu veština među World of Tanks igračima"
+
+msgid "sorting/tooltip/header"
+msgstr "WoT plus prednosti"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Dobij precizne podatke o veštinama posade zasnovane na milionima igara i izvuci maksimum iz svake borbe."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendarno.%(whiteSpanish_Close)s Zasnovano na veštinama koje su trenutno popularna među igračima Legenda WTR nivoa"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Sortiranje veština je isključeno"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Nema dostupnih podataka"
+
+msgid "sorting/tooltip/title"
+msgstr "Asistent posade"
+
+msgid "sorting/tooltip/types"
+msgstr "Tipovi sortiranja veština"
+
+msgid "sorting/tooltip/warning"
+msgstr "Sortiranje veština nije dostupno"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Kompletni podaci veština za ovo vozilo nisu dostupni, zato je podrazumevano sortiranje veština primenjeno."
+
+msgid "witches_brotherhood/name"
+msgstr "Grupa"
+
+msgid "yha_brotherhood/name"
+msgstr "Braća zečevi"

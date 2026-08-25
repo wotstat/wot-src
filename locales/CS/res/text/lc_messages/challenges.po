@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Také získáno:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Tuto sérii misí lze dokončit znovu."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Potvrzuji!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Zavřít"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Ukázat v garáži"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Znovu hrát"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Na Zkoušku ohněm"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "Prémiový účet WoT"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Prémiové vozidlo"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Vozidlo k pronájmu"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "a styl „{{styleName}}“"
+
+msgid "awards_view/reward/multi"
+msgstr "{{count}}×"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) den"
+msgstr[1] "%(day) dny"
+msgstr[2] "%(day) dní"
+
+msgid "awards_view/title"
+msgstr "ZKOUŠKA OHNĚM DOKONČENA!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Mise na 5× ZK za bitvu"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Fragment plánu: (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Univerzální fragment plánu"
+
+msgid "bonuses/bpcoin"
+msgstr "Žeton Battle Passu"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Mise na 3× ZK posádky"
+
+msgid "bonuses/description/attachments_set"
+msgstr "Sada 3D doplňků"
+
+msgid "bonuses/description/booster"
+msgstr "Osobní záloha"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Trofejní vybavení"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Vzhled posádky"
+
+msgid "bonuses/description/directive"
+msgstr "Směrnice"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Experimentální vybavení"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Vylepšené vybavení"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "a styl „%(styleName)s“"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standardní vybavení"
+
+msgid "bonuses/description/style"
+msgstr "2D styl"
+
+msgid "bonuses/description/style_3d"
+msgstr "3D styl"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Členka posádky"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Rekrut"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Člen posádky"
+
+msgid "condition/achievement"
+msgstr "Získejte ocenění „%(achievement)s“"
+
+msgid "condition/achievement/title"
+msgstr "Hrdinové bitvy"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Způsobte a pomozte způsobit celkem %(goal)s bodů poškození"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Způsobte, obdržte a zastavte pancířem celkem %(goal)s bodů poškození"
+
+msgid "condition/aggregated/title"
+msgstr "Složitá podmínka"
+
+msgid "condition/classes/AT-SPG"
+msgstr "stíhač tanků"
+
+msgid "condition/classes/SPG"
+msgstr "dělostřelectvo"
+
+msgid "condition/classes/heavyTank"
+msgstr "těžký tank"
+
+msgid "condition/classes/lightTank"
+msgstr "lehký tank"
+
+msgid "condition/classes/mediumTank"
+msgstr "střední tank"
+
+msgid "condition/critsCount"
+msgstr "Způsobte kritické zásahy vnitřních nebo vnějších modulů nepřátelských vozidel: %(goal)s"
+
+msgid "condition/critsCount/title"
+msgstr "Znehybnění"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Zablokujte %(goal)s bodů poškození"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Zablokujte %(goal)s krát více poškození, než kolik má vaše vozidlo HP"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Zablokování"
+
+msgid "condition/damageDealt"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Způsobte %(goal)s krát více poškození, než kolik má vaše vozidlo HP"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "%(goal)s krát zasáhněte nepřátelská vozidla na vzdálenost %(distance)s m nebo menší"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "%(goal)s krát zasáhněte nepřátelská vozidla na vzdálenost %(distance)s m nebo větší"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Poškoďte nepřátelské vozidlo tím, že do něj %(goal)s krát narazíte"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "%(goal)s krát zasáhnete nepřátelská vozidla v dohledu vašeho vozidla"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Způsobte %(goal)s bodů poškození během prvních %(timeLimit)s minut bitvy"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům na vzdálenost %(distance)s m a nebo menší"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům na vzdálenost%(distance)s m nebo větší"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Způsobte %(goal)s bodů poškození nárazem"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Náraz"
+
+msgid "condition/damageDealt/title"
+msgstr "Poškození"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Způsobte %(goal)s bodů poškození neodhaleným nepřátelským vozidlům"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Způsobte %(goal)s bodů poškození nepřátelským vozidlům v dohledu vašeho vozidla"
+
+msgid "condition/kills"
+msgstr "Zničte nepřátelská vozidla (%(goal)s)"
+
+msgid "condition/kills/classes"
+msgstr "Zničte %(vehicleClass)s protivníků: %(goal)s"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Zničte nepřátelská vozidla (%(goal)s) %(classCount)s různých typů"
+
+msgid "condition/kills/title"
+msgstr "Zničení"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Zničte %(goal)s ks nepřátelských vozidel, aniž byste byli poškozeni"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Zničte %(goal)s ks nepřátelských vozidel, zatímco zůstanete neodhaleni"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Způsobte %(goal)s%% z celkového množství poškození způsobeného vaším týmem"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Poškození"
+
+msgid "condition/piercingEnemyHits"
+msgstr "%(goal)s krát probijte nepřátelský pancíř"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Probití"
+
+msgid "condition/spotted"
+msgstr "Odhalte nepřátelská vozidla (%(goal)s)"
+
+msgid "condition/spotted/title"
+msgstr "Odhalení"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Odhalte nepřátelská vozidla (%(goal)s), zatímco zůstanete neodhaleni"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Odhalení"
+
+msgid "condition/top/damageDealt"
+msgstr "Buďte mezi %(rank)s nejlepšími hráči svého týmu podle způsobeného poškození"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Buďte mezi %(rank)s nejlepšími hráči obou týmů podle způsobeného poškození"
+
+msgid "condition/top/title"
+msgstr "Nejlepší hráč"
+
+msgid "condition/top/xp"
+msgstr "Buďte mezi %(rank)s nejlepšími hráči svého týmu podle získaných zkušeností"
+
+msgid "condition/unknown"
+msgstr "Hledání nejvhodnější mise..."
+
+msgid "condition/unknown/title"
+msgstr "Čekání"
+
+msgid "postbattle/name"
+msgstr "ZKOUŠKA OHNĚM: "

@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Dispositivo tattico"
+
+msgid "open_artefact/server_error"
+msgstr "Operazione momentaneamente non disponibile. Riprova più tardi."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Impossibile rifornire i Dispositivi tattici di %s. Problema tecnico."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Impossibile rifornire i Dispositivi tattici di %s. Fondi insufficienti."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Dispositivi tattici di %s rifornite. Hai speso "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Registrazioni disponibili per la decodifica"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Modalità: Ultima resistenza: Terra del Nord"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Ultima resistenza: Terra del Nord (Regolare)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Ultima resistenza: Terra del Nord (Avanzata)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Ultima resistenza: Terra del Nord (Brutale)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Difficoltà"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Regolare"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Avanzato"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Brutale"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Dati"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Obiettivo completato!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Obiettivi completati!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Veicolo"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Ondate completate: %(curPhase)s di %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Speso: %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Transazione finanziaria"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Puoi selezionare il livello di difficoltà nel pannello delle difficoltà nell'Officina di Ultima resistenza."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Difficoltà Avanzata sbloccata"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Puoi selezionare il livello di difficoltà nel pannello delle difficoltà nell'Officina di Ultima resistenza."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Difficoltà Brutale sbloccata"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Puoi selezionare la modalità nel pannello delle difficoltà nell'Officina di Ultima resistenza: operazione Pandora."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Modalità Ultima resistenza sbloccata"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Chiavi di decodifica ricevute: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Ricevuta"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Chiavi rimosse: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Decodifica completata con successo"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Le battaglie di Ultima resistenza sono momentaneamente indisponibili.\nRiprova più tardi."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Le battaglie di a difficoltà %(difficulty)s sono momentaneamente indisponibili. Riprova più tardi."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Ultima resistenza è momentaneamente indisponibile. Controlla il portale di gioco per aggiornamenti."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Il Comandante del Plotone ha cambiato la difficoltà in: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Il giocatore %(userName)s non ha sbloccato uno dei livelli di difficoltà."

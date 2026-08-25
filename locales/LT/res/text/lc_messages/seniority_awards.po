@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2011-03-18 10:00+0300\nPO-Revision-Date: 2011-03-18 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "notifications/count"
+msgstr "×{count}"
+
+msgid "notifications/manualClaim/button"
+msgstr "Gauti apdovanojimus"
+
+msgid "notifications/manualClaim/title"
+msgstr "Prizai už tarnybos metus laukia jūsų!"
+
+msgid "notifications/selectVehicles/button"
+msgstr "Pasirinkti"
+
+msgid "notifications/selectVehicles/title"
+msgstr "Už tarnybos metus\nsuteikiama mašina"
+
+msgid "notifications/tokens/button"
+msgstr "Į parduotuvę"
+
+msgid "notifications/tokens/title"
+msgstr "Išsikeiskite savo žetonus už tarnybos metus į prizus!"
+
+msgid "notifications/vehicleSelectionAvailable/title"
+msgstr "Pasirinkite norimą mašiną!"
+
+msgid "rewardsView/applyBtn"
+msgstr "Tikrai taip!"
+
+msgid "rewardsView/exchangeCoins"
+msgstr "Iškeiskite savo žetonus parduotuvėje."
+
+msgid "rewardsView/gotoHangarBtn"
+msgstr "Peržiūrėti garaže"
+
+msgid "rewardsView/gotoRewardsBtn"
+msgstr "Į parduotuvę"
+
+msgid "rewardsView/info"
+msgstr "Daugiau apie rangus"
+
+msgid "rewardsView/moreRewardsBtn"
+msgstr "Daugiau prizų!"
+
+msgid "rewardsView/moreRewardsWithCountBtn"
+msgstr "Daugiau apdovanojimų: ({count})"
+
+msgid "rewardsView/selection/available"
+msgstr "Už jūsų tarnybos metus jums suteikiama {{count}} mašina"
+
+msgid "rewardsView/selection/received"
+msgstr "GAUTAS APDOVANOJIMAS"
+
+msgid "rewardsView/subTitle/otherRewards"
+msgstr "Jūs dar gavote:"
+
+msgid "rewardsView/subTitle/rank/ctg1"
+msgstr "NAUJOKAS"
+
+msgid "rewardsView/subTitle/rank/ctg2"
+msgstr "KARYS"
+
+msgid "rewardsView/subTitle/rank/ctg3"
+msgstr "VADAS"
+
+msgid "rewardsView/subTitle/rank/ctg4"
+msgstr "PAREIGŪNAS"
+
+msgid "rewardsView/subTitle/rank/ctg5"
+msgstr "VETERANAS"
+
+msgid "rewardsView/subTitle/rank/ctg6"
+msgstr "LEGENDA"
+
+msgid "rewardsView/subTitle/text"
+msgstr "GAUTAS RANGAS {rank}"
+
+msgid "rewardsView/textButton/select"
+msgstr "Pasirinkti"
+
+msgid "rewardsView/title"
+msgstr "SVEIKINAME!"
+
+msgid "rewardsView/wdrcoin/counter"
+msgstr "×%(count)s"
+
+msgid "specialItem/body"
+msgstr "Suteikiami už nuopelnus mūšyje. Pasibaigus renginiui visi likę žetonai bus panaikinti."
+
+msgid "specialItem/header"
+msgstr "Žetonas už tarnybos metus: {count}"
+
+msgid "tooltip/congratulation/ctg1"
+msgstr "Sveikiname jus pasiekus Naujoko rangą"
+
+msgid "tooltip/congratulation/ctg2"
+msgstr "Sveikiname jus pasiekus Kario rangą"
+
+msgid "tooltip/congratulation/ctg3"
+msgstr "Sveikiname jus pasiekus Vado rangą"
+
+msgid "tooltip/congratulation/ctg4"
+msgstr "Sveikiname jus pasiekus Pareigūno rangą"
+
+msgid "tooltip/congratulation/ctg5"
+msgstr "Sveikiname jus pasiekus Veterano rangą"
+
+msgid "tooltip/congratulation/ctg6"
+msgstr "Sveikiname jus pasiekus Legendos rangą"
+
+msgid "tooltip/medalBlock/label/and"
+msgstr "{abLabel} ir {yearsLabel}"
+
+msgid "tooltip/medalBlock/label/ca"
+msgstr "Už dalyvavimą Alfa teste"
+
+msgid "tooltip/medalBlock/label/cb"
+msgstr "Už dalyvavimą Beta teste"
+
+msgid "tooltip/medalBlock/label/duration"
+msgid_plural "plural/tooltip/medalBlock/label/duration"
+msgstr[0] "{{count}} metų tarnyba"
+msgstr[1] "{{count}} metų tarnyba"
+msgstr[2] "{{count}} metų tarnyba"
+
+msgid "tooltip/rank/ctg1"
+msgstr "Naujokas"
+
+msgid "tooltip/rank/ctg2"
+msgstr "Karys"
+
+msgid "tooltip/rank/ctg3"
+msgstr "Vadas"
+
+msgid "tooltip/rank/ctg4"
+msgstr "Pareigūnas"
+
+msgid "tooltip/rank/ctg5"
+msgstr "Veteranas"
+
+msgid "tooltip/rank/ctg6"
+msgstr "Legenda"
+
+msgid "tooltip/segment/ctg1"
+msgstr "Mažiau nei vienų metų"
+
+msgid "tooltip/segment/ctg2"
+msgstr "1–3 metai"
+
+msgid "tooltip/segment/ctg3"
+msgstr "4–6 metai"
+
+msgid "tooltip/segment/ctg4"
+msgstr "7–9 metai"
+
+msgid "tooltip/segment/ctg5"
+msgstr "10–14 metų"
+
+msgid "tooltip/segment/ctg6"
+msgstr "15 metų"
+
+msgid "vehicle/A134_M24E2_SuperChaffee"
+msgstr "Legendinis lengvasis tankas, pasižymintis puikiu manevringumu. Mašina daro nemažai žalos per minutę ir turi puikius ginklo pakėlimo ir nuleidimo kampus, kurie leidžia pasinaudoti vietovės nelygumais ir įgyti pranašumą mūšio lauke."
+
+msgid "vehicle/G158_VK2801_105_SPXXI"
+msgstr "Ši mašina turi stambaus kalibro pabūklą ir gerus šarvus, tačiau tai ženkliai veikia dinamiškumą ir manevringumą. Tankas gana gremėzdiškas, todėl jis gali efektyviai taranuoti lengvąsias mašinas."
+
+msgid "vehicle/R160_T_50_2"
+msgstr "Lengvasis tankas, kuris puikiai tinka aktyviai žvalgybai bet kuriame mūšio etape. Jo mažas siluetas ir didelis greitis leidžia išvengti šūvių, kas yra labai svarbu su šio tanko kuklia ginkluote."
+
+msgid "vehicle/R197_KV_1S_MZ"
+msgstr "Tai vienintelė mašina šiame lygyje, kuri turi inversinio automatinio užtaisymo sistemą. Ji gali labai greitai padaryti daug žalos arba padėti komandos nariams iš užnugario."

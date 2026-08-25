@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Aktivér"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Kjøp og aktivér"
+
+msgid "activation/activateBonus"
+msgstr "Aktiver reserve: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Aktivér reserve"
+
+msgid "activation/activateButtonClan"
+msgstr "Til forsvarsverk"
+
+msgid "activation/battleXPDescription"
+msgstr "Bonus på erfaringspoeng i 1 t"
+
+msgid "activation/battleXPTitle"
+msgstr "Erfaringspoeng"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Kjøp og aktivér den forbedrede personlige reserven som gir %(boosterBonus)s på %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Kjøp gull"
+
+msgid "activation/buyGoldTitle"
+msgstr "Kjøp gull som er påkrevet til den forbedrede personlige reserven som gir %(boosterBonus)s på %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Gull påkrevet for å kjøpe den forbedrede personlige reserven:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Credits og erfaringspoeng"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "Besetningserfaring og fri erfaring"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Klanreserver"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Aktivér reserve i Forsvarsverk"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Se i Forsvarsverk"
+
+msgid "activation/comboXPDescription"
+msgstr "Bonus på fri erfaring og besetningserfaring i 1 t"
+
+msgid "activation/comboXPTitle"
+msgstr "Fri & besetningserf."
+
+msgid "activation/creditsDescription"
+msgstr "Bonus på credits i 1 t"
+
+msgid "activation/creditsTitle"
+msgstr "Credits"
+
+msgid "activation/footer"
+msgstr "Reserver med utløpsdato som må aktiveres: %(expirableAmount) om %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Bonus på Frontlinje erfaringspoeng i 1 t"
+
+msgid "activation/frontLineXPTitle"
+msgstr "Frontlinje erfaringspoeng"
+
+msgid "activation/informationButton"
+msgstr "INFORMASJON"
+
+msgid "activation/price"
+msgstr "Pris:"
+
+msgid "activation/subFooter/depot"
+msgstr "Depotet"
+
+msgid "activation/subFooter/main"
+msgstr "Reservene som er nærmest utløpsdato aktiveres først. Du kan se alle dine tilgjengelige reserver i %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Aktivér {whiteSpanish_Open}opptil 3 personlige reserver{whiteSpanish_Close} for å tjene mer credits og erfaring i kamper. Kjøp mer personlige reserver i %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "Butikk"
+
+msgid "activation/terms/booster_credits"
+msgstr "credits"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "Frontlinje erfaringspoeng"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "Fri- & besetningserfaring"
+
+msgid "activation/terms/booster_xp"
+msgstr "Erfaringspoeng"
+
+msgid "activation/title"
+msgstr "PERSONLIGE RESERVER"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Den aktiverte standard personlige reserven som gir %(previousBoosterBonus)s på %(previousBoosterTerm)s blir borte.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Ønsker du å aktivere den forbedrede personlige reserven som gir %(boosterBonus)s på %(boosterTerm)s i stedet for den aktiverte standard personlige reserven?"
+
+msgid "battleView/notice"
+msgstr "Personlige reserver kan aktiveres når som helst i kamp. Du får bonusen selv om reserven opphører mens du er i kampen."
+
+msgid "battleView/title"
+msgstr "Aktivering av personlige reserver"
+
+msgid "depot/buyButton"
+msgstr "Til kjøp"
+
+msgid "disabledReserveTooltip/text"
+msgstr "En annen reserve av denne typen er allerede aktivert."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Denne personlige reserven utløp i løpet av kampen. Bonusen fra den personlige reserven gjelder fremdeles for denne kampen."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)min"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Aktiverte personlige reserver gjelder ikke i denne modusen."
+
+msgid "intro/buttons/close"
+msgstr "Bekreftet!"
+
+msgid "intro/buttons/details"
+msgstr "Detaljer"
+
+msgid "intro/description"
+msgstr "Personlige reserver med utløpsdato er tilgjengelige i en tidsbegrenset periode etter at du har fått dem. Dersom de ikke blir aktivert i løpet av denne tiden, går de tapt. Personlige reserver uten utløpsdato kan ikke benyttes mens du har personlige reserver med utløpsdato av samme type tilgjengelig."
+
+msgid "intro/title"
+msgstr "PERSONLIGE RESERVER MED UTLØPSDATO"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Ingen personlige reserver av denne typen i depotet. Du kan kjøpe dem senere eller aktivere i garasjen."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Fullfør oppdrag og delta i spilleventer for å tjene personlige reserver."
+
+msgid "noReserveTooltip/text"
+msgstr "Ingen personlige reserver av denne typen i depotet."

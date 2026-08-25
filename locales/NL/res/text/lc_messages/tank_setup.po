@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "categories/body/firepower"
+msgstr "Een set parameters die aangeeft hoe effectief het voertuig is in het vernietigen van vijandelijke voertuigen. Dit filter toont/verbergt uitrusting met deze set parameters."
+
+msgid "categories/body/mobility"
+msgstr "Een set parameters die aangeeft hoe snel het voertuig op het slagveld zijn positie kan veranderen. Dit filter toont/verbergt uitrusting met deze set parameters."
+
+msgid "categories/body/stealth"
+msgstr "Een set parameters die aangeeft hoe effectief het voertuig is in het verborgen blijven en het verkennen van vijandelijke voertuigen. Dit filter toont/verbergt uitrusting met deze set parameters."
+
+msgid "categories/body/survivability"
+msgstr "Een set parameters die aangeeft hoe goed het voertuig tegen schade bestand is. Dit filter toont/verbergt uitrusting met deze set parameters."
+
+msgid "categories/empty"
+msgstr "Tweede plek categorie"
+
+msgid "categories/firepower"
+msgstr "Vuurkracht"
+
+msgid "categories/mobility"
+msgstr "Mobiliteit"
+
+msgid "categories/slotEffect/empty"
+msgstr "De mogelijkheid om een categorie toe te kennen aan de tweede uitrustingsplek van dit voertuig."
+
+msgid "categories/slotEffect/firepower"
+msgstr "Standaard uitrusting van de Vuurkracht categorie zal op deze plek effectiever zijn."
+
+msgid "categories/slotEffect/mobility"
+msgstr "Standaard uitrusting van de Mobiliteit categorie zal op deze plek effectiever zijn."
+
+msgid "categories/slotEffect/stealth"
+msgstr "Standaard uitrusting van de Verkenning categorie zal op deze plek effectiever zijn."
+
+msgid "categories/slotEffect/survivability"
+msgstr "Standaard uitrusting van de Overlevingsvermogen categorie zal op deze plek effectiever zijn."
+
+msgid "categories/stealth"
+msgstr "Verkenning"
+
+msgid "categories/survivability"
+msgstr "Overlevingsvermogen"
+
+msgid "categories/universal"
+msgstr "Geen categorie"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "Selecteer één bruikbaar gevechtsbevel uit de lijst."
+
+msgid "compare/section/description/consumables"
+msgstr "Selecteer één bruikbaar verbruiksartikel uit de lijst."
+
+msgid "compare/section/description/optDevices"
+msgstr "Selecteer één bruikbaar stuk uitrusting uit de lijst."
+
+msgid "compare/section/title/battleBoosters"
+msgstr "Gevechtsbevelen voor de {name}"
+
+msgid "compare/section/title/consumables"
+msgstr "Verbruiksartikelen voor de {name}"
+
+msgid "compare/section/title/optDevices"
+msgstr "Uitrusting voor de {name}"
+
+msgid "dealPanel/autoRenew"
+msgstr "Automatisch aanvullen"
+
+msgid "dealPanel/button/apply"
+msgstr "Aanbrengen"
+
+msgid "dealPanel/button/applyType"
+msgstr "Aanbrengen op type"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "Aanbrengen op voertuig"
+
+msgid "dealPanel/button/cancel"
+msgstr "Annuleren"
+
+msgid "dealPanel/button/purchase"
+msgstr "Kopen"
+
+msgid "dealPanel/fromStorage"
+msgstr "Uit het depot:"
+
+msgid "dealPanel/fromVehicle"
+msgstr "Gemonteerd:"
+
+msgid "dealPanel/repair"
+msgstr "Reparatie vereist"
+
+msgid "dealPanel/toBePaid"
+msgstr "Totaal:"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "In het depot"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "Gemonteerd op voertuig"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "Onvoldoende middelen voor de aankoop"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "Wordt gekocht met credits"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "Wordt gekocht met obligaties"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "Zal vanuit het depot worden gemonteerd"
+
+msgid "deconstructionDeviceView/available"
+msgstr "Beschikbaar:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "Annuleren"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "Doorgaan"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "Uit het depot:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "Van voertuigen:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "( %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s %(red_Open)smeer nodig voor de upgrade%(red_Close)s )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "Zal worden ontvangen:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "ACTIEF VOERTUIG"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "IN HET DEPOT: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "OP VOERTUIGEN: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "Selecteer de uitrusting die je wil ontmantelen in %(whiteSpanish_Open)scomponenten%(whiteSpanish_Close)s %(icon)s. De ontvangen componenten kunnen worden gebruikt om experimentele uitrusting te upgraden."
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s Ontmantel ongebruikte experimentele uitrusting om meer componenten te ontvangen."
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "WERKBANK"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "Niet genoeg componenten om\n%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s te upgraden."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "Ontmantel ongebruikte uitrusting in componenten om door te gaan."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "Verkrijg het benodigde aantal componenten om door te gaan."
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "Wijzigingen annuleren"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "Annuleren"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "Annuleren"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "Annuleren"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "Wijzigingen annuleren"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "Opslaan"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "Kopen"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "Kopen en monteren"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "Monteren"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "Je kunt de uitrusting voor %(price)s demonteren en naar het depot sturen, of je kunt hem vernietigen."
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "Je kunt de uitrusting voor %(price)s demonteren – of {whiteSpanish_Open}gratis{whiteSpanish_Close} met WoT Plus – en naar het depot sturen, of je kunt hem vernietigen."
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "Je kunt de uitrusting voor %(demountKit)s of %(price)s demonteren – of {whiteSpanish_Open}gratis{whiteSpanish_Close} met WoT Plus – en naar het depot sturen, of je kunt hem vernietigen."
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "Met WoT Plus kun je de uitrusting {whiteSpanish_Open}gratis{whiteSpanish_Close} demonteren en naar het depot sturen."
+
+msgid "dialogs/confirm/demount/items"
+msgstr "Je kunt de uitrusting demonteren en naar het depot sturen."
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "ZAL NIET WERKEN"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "Gevechtsbevel"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "Wanneer je deze dual modificatie koopt, zal de andere worden geannuleerd."
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "Verbruiksartikel"
+
+msgid "dialogs/confirm/item/module"
+msgstr "Module"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "uitrusting"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "dual modificatie"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "Gevechtsbevelen"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "Verbruiksartikelen"
+
+msgid "dialogs/confirm/items/module"
+msgstr "Modules"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "Uitrusting"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " en "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "Wijzigingen aan de plekken voor gevechtsbevelen opslaan?"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "Wijzigingen aan de plekken voor verbruiksartikelen opslaan?"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "Wijzigingen aan de plekken voor uitrusting opslaan?"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "De %(name)s {type} kopen?"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "De %(name)s {type} kopen en monteren?"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "De %(name)s {type} monteren?"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "De %(name)s {type} voor alle %(vehicle)s aanzetten?"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "{type} kopen?"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "{type} kopen en monteren?"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "{type} monteren?"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "{type} voor alle %(vehicle)s aanzetten?"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "tankjagers"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "artillerie"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "zware tanks"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "lichte tanks"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "medium tanks"
+
+msgid "dialogs/confirm/warning"
+msgstr "Opgelet! Uitrusting %(devices)s is niet gemonteerd. Het gevechtsbevel %(doesNotWork)s."
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "Opgelet! Na de ontmanteling zul je geen experimentele uitrusting meer hebben!"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "Annuleren"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "Ontmantelen"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "Ontmantelen"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "Totaal te ontvangen:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "Zal worden ontvangen voor 1 item:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "%(name)s\nontmantelen?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "%(name)s\nontmantelen?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "Let op: na ontmanteling kun je deze uitrusting niet herstellen of kopen."
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "Annuleren"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "Ontmantelen"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "De volgende uitrusting in componenten ontmantelen?"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "De volgende uitrusting ontmantelen en\n%(deviceName)s upgraden?"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "Zal vanuit het depot worden ontmanteld: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "Zal vanaf de voertuigen worden ontmanteld: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "Na ontmanteling ontvang je: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "Totaal te ontvangen:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "Upgradekosten:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "Opgelet! Na de ontmanteling zul je geen experimentele uitrusting meer hebben!"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "Opgelet! Er zal experimentele uitrusting van je voertuigen worden ontmanteld."
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "Inwisselen"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "uitrusting"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "%(credits)s meer nodig om %(name)s te upgraden"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "uitrusting"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "%(credits)s meer nodig om de uitrusting te upgraden"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "Uitrusting kan niet worden geüpgraded. Je hebt %(gold)s nodig om naar credits om te zetten."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "Je hebt genoeg credits om de uitrusting te upgraden."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "Inwisselen niet nodig"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "Je hebt geen experimentele uitrusting voor ontmanteling."
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "Ontmantel experimentele uitrusting om meer componenten te ontvangen."
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "%(name)s\nupgraden?"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "Nodig: %(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "Kosten:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "te kopen"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "te kopen"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "Inwisselen"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "Wisselkoers: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "%(credits)s meer nodig voor Snel onderhoud"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "gevechtsbevel"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "verbruiksartikel"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "module"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "uitrusting"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "dual modificatie"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "%(credits)s meer nodig om de %(name)s {type} {action}"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "gevechtsbevelen"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "verbruiksartikelen"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "modules"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "uitrusting"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "%(credits)s meer nodig om de {type} {action}"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "%(credits)s meer nodig voor reparatie"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "Kan niet worden gekocht: inwisselen mislukt. %(gold)s meer nodig voor het inwisselen."
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "voor de aanschaf"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "voor de modificatie"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "Inwisselen niet nodig, je hebt genoeg credits."
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "Genoeg credits {action}"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "%(credits)s meer nodig om munitie aan te vullen"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "Repareer automatisch"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "Repareer"
+
+msgid "dialogs/needRepair/durability"
+msgstr "Duurzaamheid:"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s%"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "Het voertuig is automatisch en gratis gerepareerd"
+
+msgid "dialogs/needRepair/price"
+msgstr "Reparatiekosten:"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "Onvoldoende middelen voor reparatie"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "Begrepen!"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "Reparatie niet nodig"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "Aanvullen"
+
+msgid "dialogs/refillShells/price"
+msgstr "Aanvulkosten:"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "Munitie aanvullen?"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "Wijzigingen aan de munitie opslaan?"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "Let op: je gaat verbeterde uitrusting verkopen."
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "Let op: na de verkoop kun je deze uitrusting niet herstellen of kopen."
+
+msgid "dialogs/sell/button/cancel"
+msgstr "Annuleren"
+
+msgid "dialogs/sell/button/sell"
+msgstr "Verkopen"
+
+msgid "dialogs/sell/header"
+msgstr "De volgende uitrusting verkopen?\n%(equipmentName)s"
+
+msgid "dialogs/sell/text"
+msgstr "Verkoopprijs van 1 artikel:"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "Onvoldoende middelen voor demontage."
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "Aanbevelingen onbeschikbaar voor dit voertuig"
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "Monteren niet mogelijk."
+
+msgid "easyTankEquipView/applied"
+msgstr "Aangebracht"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "Geavanceerd"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "Verbeterd"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "Standaard"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "VERBRUIKSARTIKELEN"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "Niet genoeg bedden voor overzetten en bemanningswijzigingen. Voeg meer bedden toe aan de barakken."
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "x{{count}}"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "Ervaren bemanning"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "Nieuwe bemanning"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "{{count}}\nNieuw bemanningslid zal worden gerekruteerd"
+msgstr[1] "{{count}}\nNieuwe bemanningsleden zullen worden gerekruteerd"
+msgstr[2] "{{count}}\nNieuwe bemanningsleden zullen worden gerekruteerd"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "BEMANNING"
+
+msgid "easyTankEquipView/discount"
+msgstr "-{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "Geavanceerd"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "Standaard"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "UITRUSTING"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "Geavanceerd"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "Standaard"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "MUNITIE"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "Je hebt al een stijl aangebracht"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "{{battlesCount}} gevechten voor {{price}}"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "VOORGEPROGRAMMEERDE STIJLEN"
+
+msgid "easyTankEquipView/title"
+msgstr "SNEL ONDERHOUD"
+
+msgid "effects/name"
+msgstr "Effect"
+
+msgid "effects/template"
+msgstr "%(icon)s %(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "Herlaadtijd is %(cooldown)s&nbsp;s."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "Krijg componenten"
+
+msgid "filters/shown"
+msgstr "Weergegeven: "
+
+msgid "hints/dragAndDrop/section"
+msgstr "SLEEP EN DROP\nUITRUSTING"
+
+msgid "hints/filters/specialization"
+msgstr "AANVULLENDE\nCATEGORIEBONUS"
+
+msgid "hints/tabs/equipment"
+msgstr "NIEUWE SOORT\nUITRUSTING"
+
+msgid "introduction/currency/deluxe"
+msgstr "obligaties"
+
+msgid "introduction/currency/modernized"
+msgstr "componenten"
+
+msgid "introduction/message/deluxe"
+msgstr "Deze soort uitrusting is verkrijgbaar voor %(currencyName)s (%(currencyIcon)s), maar kan ook worden ontvangen als beloning voor bepaalde in-game prestaties en tijdens speciale evenementen."
+
+msgid "introduction/message/modernized"
+msgstr "Een gespecialiseerd soort uitrusting met drie upgradelevels die wordt uitgereikt voor het voltooien van missies en tijdens bepaalde spelevenementen. Deze uitrusting kan niet worden vernietigd of verkocht, maar kan wel worden ontmanteld voor speciale onderdelen – %(currencyName)s (%(currencyIcon)s). Met de ontvangen componenten kan experimentele uitrusting worden geüpgraded."
+
+msgid "introduction/message/trophy"
+msgstr "Een speciale soort uitrusting die bij ontvangst de parameters van standaard uitrusting heeft, maar met credits kan worden geüpgraded. Je kunt bounty-uitrusting niet met in-game valuta kopen, maar je kunt deze uitrusting wel tijdens bepaalde spelevenementen als beloning ontvangen."
+
+msgid "introduction/showButton"
+msgstr "Toon uitrusting"
+
+msgid "introduction/slide/1/description"
+msgstr "Er is nieuwe uitrusting toegevoegd. Daarnaast zijn %(repairBox)s, %(CO2Cistern)s, %(wetAmmo)s en %(cycloneFilter)s nu samengebracht in de %(changedConfiguration)s uitrusting. De versies van %(forcedChassis)s zijn vervangen door %(forcedMetal)s. Alle oude bonussen blijven intact en er zijn nieuwe toegevoegd."
+
+msgid "introduction/slide/1/title"
+msgstr "NIEUWE UITRUSTING"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr " – Vuurkracht"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr " – Mobiliteit"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr " – Verkenning"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr " – Overlevingsvermogen"
+
+msgid "introduction/slide/2/description"
+msgstr "Als de uitrusting op een plek van dezelfde categorie wordt gemonteerd, zal het effect groter zijn. Zo niet, dan zal de uitrusting een standaard bonus leveren."
+
+msgid "introduction/slide/2/subtitle"
+msgstr "DEZELFDE CATEGORIE"
+
+msgid "introduction/slide/2/title"
+msgstr "UITRUSTINGSCATEGORIEËN"
+
+msgid "introduction/slide/3/description/left"
+msgstr "De prijs van de meeste uitrusting zal voor niveau II–IV voertuigen niet meer dan 50.000 credits zijn, voor niveau V–VII voertuigen niet meer dan 300.000 credits, en voor niveau VIII–XI voertuigen niet meer dan 600.000 credits."
+
+msgid "introduction/slide/3/description/right"
+msgstr "Sommige nieuwe stukken uitrusting hebben drie klassen. Zelfs al is de klasse anders, de uitrusting levert hetzelfde effect. Hoe hoger de klasse, hoe hoger de aanschafprijs. Elke uitrustingsklasse is voor bepaalde voertuigniveaus."
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "VERANDERINGEN AAN UITRUSTING"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "NIEUWE UITRUSTING"
+
+msgid "introduction/slide/3/title"
+msgstr "KOSTEN VAN UITRUSTING"
+
+msgid "introduction/slide/4/description"
+msgstr "Uitrusting is voor niveau I voertuigen onbeschikbaar. Je kunt op niveau II voertuigen slechts één stuk uitrusting monteren, op niveau III voertuigen twee stuks, en op niveau IV–XI voertuigen drie stuks. De uitrusting die op verwijderde plekken was gemonteerd, is gedemonteerd en in het depot opgeslagen."
+
+msgid "introduction/slide/4/title"
+msgstr "UITRUSTINGSPLEKKEN"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "vul tanks met CO2"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "aangepaste indeling"
+
+msgid "introduction/slide/confirm"
+msgstr "Begrepen!"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "Cycloon filter"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "verbeterde ophanging"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "verbeterd temperen"
+
+msgid "introduction/slide/repairBox"
+msgstr "gereedschapskist"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "\"Natte\" munitieopslag"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "Verbeterde uitrusting"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "Experimentele uitrusting"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "Bounty-uitrusting"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "Je hebt geen geschikte experimentele uitrusting"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "Je hebt geen geschikte bounty-uitrusting"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "vertraging voordat de commandant weet of je voertuig door de vijand is gespot"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "extra verdovingstijd als het voertuig al is verdoofd"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "verborgenheid van vijandelijke voertuigen achter begroeiing (zowel bewegend als stilstaand)"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "snelheid van alle granaattypes"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "laadsnelheidsafname wanneer modules zijn beschadigd"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "motorvermogenverlies wanneer modules zijn beschadigd"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "verborgenheid van een stilstaand of bewegend voertuig"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "verborgenheidstoename, of het voertuig nu stilstaat of beweegt (effectiviteit hangt af van het voertuigtype)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "rompschade veroorzaakt door schade aan de ophanging tijdens een botsing"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "zichtbereik (tot 445 m). Door deze parameter groter dan 445 m te maken, kun je effectiever vijanden verkennen."
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "ontvangen schade bij botsing"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "spreiding tijdens beweging, het draaien van de romp, het bewegen van het kanon en na het vuren"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "HE-granaatschade geabsorbeerd door pantser"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "duur dat je voertuig zichtbaar is"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "snelheidsbehoud\nop alle ondergronden"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "verborgenheid voor een stationair voertuig dat minimaal 3 seconden lang stilstaat"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "verborgenheid voor een stationair voertuig\ndat minimaal 1,5 s lang stilstaat"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "verborgenheidstoename voor een stationair voertuig dat minimaal 3 seconden lang stilstaat (effectiviteit hangt af van het voertuigtype)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "verborgenheidstoename voor een stationair voertuig dat minimaal 1,5 s lang stilstaat (effectiviteit hangt af van het voertuigtype)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "zichtbereik (tot 445 m) voor een stationair voertuig dat minimaal 3 seconden lang stilstaat. Door deze parameter groter dan 445 m te maken, kun je effectiever vijanden verkennen."
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "zichtbereik (tot 445 m) voor een stationair voertuig dat minimaal 1,5 s lang stilstaat. Door deze parameter groter dan 445 m te maken, kun je effectiever vijanden verkennen."
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "levenspunten van het voertuig (naar boven afgerond)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "koepeldraaisnelheid of kanondraaisnelheid voor voertuigen met stationaire cabines"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "vertraging voordat de commandant weet of je voertuig door de vijand is gespot"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "extra verdovingstijd als het voertuig al is verdoofd"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "verborgenheid voor zowel bewegende als stilstaande vijandelijke voertuigen achter begroeiing"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "snelheid van alle granaattypes"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "laadsnelheidsafname wanneer modules zijn beschadigd"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "motorvermogenverlies wanneer modules zijn beschadigd"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "verborgenheid van een stilstaand of bewegend voertuig"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "verborgenheidstoename, of het voertuig nu stilstaat of beweegt (effectiviteit hangt af van het voertuigtype)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "rompschade veroorzaakt door schade aan de ophanging tijdens een botsing"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "zichtbereik (tot 445 m). Door deze parameter groter dan 445 m te maken, kun je effectiever vijanden verkennen."
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "ontvangen schade bij botsing"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "spreiding tijdens beweging, het draaien van de romp, het bewegen van het kanon en na het vuren"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "HE-granaatschade geabsorbeerd door pantser"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "duur dat je voertuig zichtbaar is"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "snelheidsbehoud\nop alle ondergronden"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "verborgenheid voor een stationair voertuig dat minimaal 3 seconden lang stilstaat"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "verborgenheid voor een stationair voertuig\ndat minimaal 1,5 s lang stilstaat"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "verborgenheid voor een stationair voertuig dat minimaal 3 seconden lang stilstaat (effectiviteit hangt af van het voertuigtype)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "verborgenheid voor een stationair voertuig dat minimaal 1,5 s lang stilstaat (effectiviteit hangt af van het voertuigtype)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "zichtbereik (tot 445 m) voor een stationair voertuig dat minimaal 3 seconden lang stilstaat. Door deze parameter groter dan 445 m te maken, kun je effectiever vijanden verkennen."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "zichtbereik (tot 445 m) voor een stationair voertuig dat minimaal 1,5 s lang stilstaat. Door deze parameter groter dan 445 m te maken, kun je effectiever vijanden verkennen."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "levenspunten van het voertuig (naar boven afgerond)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "koepeldraaisnelheid of kanondraaisnelheid (laatstgenoemde voor voertuigen met stationaire cabines)"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "vertraging voor activatie\nvan geluidsdetectie"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "vertraging tot de melding van het gespot zijn"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "afkoelsnelheid kanon"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "bescherming van de bemanning tegen verwondingen"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "bemanningsefficiëntiebonus"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "extra verdovingstijd"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "verdovingstijd"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "minimale potentiële schade\nen potentiële penetratie"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "maximale potentiële schade\nen potentiële penetratie"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "veroorzaakte schade door rammen"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "vertraging voordat kritische schade aan\nhet voertuig in het vizier wordt getoond"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "verborgenheid van vijandelijke voertuigen achter begroeiing"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "verborgenheid van bewegende vijandelijke voertuigen"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "kans om vijandelijke modules en\nbemanningsleden te beschadigen"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "herlaadtijd van verbruiksartikel"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "snelheid van brandbestrijding"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "verborgenheid achter begroeiing"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "HP hersteld door reparatieset"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "snelheidsbehoud\nop halfzachte ondergronden"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "vermindering van het zichtbereik wanneer\nde observatieapparatuur is uitgeschakeld"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "potentiële maximale penetratie"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "duur dat vijandelijke posities\nworden doorgegeven nadat\nje zelf bent vernietigd"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "bescherming van de radio-officier\ntegen verwondingen"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "granaatsnelheid"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "snelheidsbehoud\nop zachte ondergronden"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "negatieve effecten\nvan bemanningsverdoving"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "ontvangen schade aan ophanging"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "reparatiesnelheid ophanging"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "laadsnelheidsafname"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "motorvermogenverlies"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "rompdraaisnelheid"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "duurzaamheid van interne modules"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "duurzaamheid van de munitieopslag"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "maximale achteruitrijsnelheid"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "verborgenheid"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "verborgenheidstoename"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "schade door botsing"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "reparatiesnelheid ophanging"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "duurzaamheid ophanging"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "zichtbereik"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "duur dat een vijandelijk voertuig\nvoor jou zichtbaar is"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "motorvermogen"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "schade door botsing"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "kans op brand in de motor"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "topsnelheid"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "kans op kritische schade\naan brandstoftanks"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "richtsnelheid"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "herlaadtijd"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "spreiding tijdens bewegen en draaien van het voertuig"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "richtcirkelgrootte na het vuren"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "spreiding tijdens beweging"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "spreiding tijdens het draaien van de romp"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "spreiding tijdens het draaien van het kanon"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "spreiding van een beschadigd kanon"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "richtcirkelomvang"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "HE-granaatschade"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "verborgenheid na het vuren"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "duur dat je voertuig zichtbaar is"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "ontvangen ramschade\naan ophanging"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "ontvangen schade door rammen"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "snelheid waarmee een geladen kanon\nvan granaattype wisselt"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "reparatiesnelheid"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "snelheidsbehoud op alle ondergronden"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "verborgenheid van een stilstaand voertuig"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "verborgenheid van een stilstaand voertuig"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "verborgenheidstoename van een stilstaand voertuig"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "verborgenheidstoename van een stilstaand voertuig"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "zichtbereik van een stilstaand voertuig"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "zichtbereik van een stilstaand voertuig"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "levenspunten van het voertuig"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "koepeldraaisnelheid of kanondraaisnelheid voor voertuigen met stationaire cabines"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "koepeldraaisnelheid"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "draaisnelheid van wielen"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "negatief effect wanneer een bemanningslid\ngewond raakt, m.u.v. de commandant"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "vertraging voor activatie\nvan geluidsdetectie"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "vertraging voordat kritische schade aan\nhet voertuig in het vizier wordt getoond"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "duur dat vijanden worden verkend\nnadat je voertuig is vernietigd"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "HE-granaatschade"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "HE-granaatpenetratie"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "HE-granaatsnelheid"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "munitiecapaciteit"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "schade van alle granaten"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "snelheid van alle granaattypes"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "vertraging voor activatie\nvan geluidsdetectie"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "standaard granaatschade"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "vertraging tot de melding van het gespot zijn"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "afkoelsnelheid kanon"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "bescherming van de bemanning tegen verwondingen"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "bemanningsefficiëntiebonus"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "extra verdovingstijd"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "verdovingstijd"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "minimale potentiële schade en potentiële penetratie"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "maximale potentiële schade\nen potentiële penetratie"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "veroorzaakte schade door rammen"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "vertraging voordat kritische schade aan\nhet voertuig in het vizier wordt getoond"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "verborgenheid van vijandelijke voertuigen achter begroeiing"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "verborgenheid van bewegende vijandelijke voertuigen"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "kans om vijandelijke modules en\nbemanningsleden te beschadigen"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "motor-HP"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "herlaadtijd van verbruiksartikel"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "snelheid van brandbestrijding"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "verborgenheid achter begroeiing"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "brandstoftank-HP"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "kanondepressie"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "kanonelevatie"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "kanonstabilisatie"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "kanondraailimieten"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "HP hersteld door reparatieset"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "rompelevatiesnelheid"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "snelheidsbehoud\nop halfzachte ondergronden"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "non-HE-granaatschade"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "vermindering van het zichtbereik wanneer\nde observatieapparatuur is uitgeschakeld"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "potentiële maximale penetratie"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "duur dat vijandelijke posities\nworden doorgegeven nadat\nje zelf bent vernietigd"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "bescherming van de radio-officier\ntegen verwondingen"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "herlaadtijd in magazijn"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "herlaadtijd (vuursalvo-modus)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "herlaadtijd (enkelschots-modus)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "granaatschade aan vijandelijke modules"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "granaatsnelheid"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "snelheidsbehoud\nop zachte ondergronden"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "speciale granaatschade"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "speciale granaatpenetratie"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "speciale granaatsnelheid"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "standaard granaatschade"
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "standaard granaatpenetratie"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "standaard granaatsnelheid"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "negatieve effecten van bemanningsverdoving"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "ontvangen schade aan ophanging"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "reparatiesnelheid ophanging"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "koepeldraailimieten"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "laadsnelheidsafname"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "motorvermogenverlies"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "rompdraaisnelheid"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "duurzaamheid van interne modules"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "duurzaamheid van de munitieopslag"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "maximale achteruitrijsnelheid"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "verborgenheid"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "verborgenheidstoename"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "schade bij botsing"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "reparatiesnelheid ophanging"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "duurzaamheid ophanging"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "zichtbereik (tot 445 m)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "duur dat een vijandelijk voertuig\nvoor jou zichtbaar is"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "motorvermogen"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "schade door botsing"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "kans op brand in de motor"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "topsnelheid"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "kans op kritische schade\naan brandstoftanks"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "richtsnelheid"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "herlaadtijd"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "spreiding tijdens bewegen en draaien van het voertuig"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "richtcirkelgrootte na het vuren"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "spreiding tijdens beweging"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "spreiding tijdens het draaien van de romp"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "spreiding tijdens het draaien van het kanon"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "spreiding van een beschadigd kanon"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "richtcirkelgrootte"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "HE-granaatschade"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "verborgenheid na het vuren"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "duur dat je voertuig zichtbaar is"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "ontvangen ramschade\naan ophanging"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "ontvangen schade door rammen"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "snelheid waarmee een geladen kanon\nvan granaattype wisselt"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "reparatiesnelheid"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "topsnelheid vooruit/achteruit"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "snelheidsbehoud op alle ondergronden"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "verborgenheid van een stilstaand voertuig"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "verborgenheid van een stilstaand voertuig"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "verborgenheidstoename van een stilstaand voertuig"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "verborgenheidstoename van een stilstaand voertuig"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "zichtbereik van een stilstaand voertuig (tot 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "zichtbereik van een stilstaand voertuig (tot 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "levenspunten van het voertuig"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "koepeldraaisnelheid of kanondraaisnelheid (laatstgenoemde voor voertuigen met stationaire cabines)"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "koepeldraaisnelheid"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "draaisnelheid van wielen"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "negatief effect wanneer een bemanningslid\ngewond raakt, m.u.v. de commandant"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "vertraging tot de melding van het gespot zijn"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "bescherming van de bemanning\ntegen verwondingen"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "bemanningsefficiëntiebonus"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "extra verdovingstijd"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "verdovingstijd"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "veroorzaakte schade door rammen"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "vertraging voordat kritische schade aan\nhet voertuig in het vizier wordt getoond"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "verborgenheid van vijandelijke voertuigen\nachter begroeiing"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "verborgenheid van bewegende\nvijandelijke voertuigen"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "HP hersteld door reparatieset"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "herlaadtijd magazijn"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "potentiële maximale penetratie"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "bescherming van de radio-officier tegen verwondingen"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "snelheid van alle granaattypes"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "kanonspreiding"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "reparatiesnelheid ophanging"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "spreiding tijdens het draaien van het kanon"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "laadsnelheidsafname"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "motorvermogenverlies\ndoor beschadiging"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "voertuigdraaisnelheid"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "duurzaamheid van interne modules"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "duurzaamheid van de munitieopslag"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "maximale achteruitrijsnelheid"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "verborgenheid"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "schade door botsing"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "reparatiesnelheid ophanging"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "duurzaamheid ophanging"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "zichtbereik"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "duur dat een vijandelijk voertuig\nvoor jou zichtbaar is"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "motorvermogen"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "schade door botsing"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "kans op brand in de motor"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "topsnelheid"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "richtsnelheid"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "herlaadtijd"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "spreiding tijdens het bewegen\nen draaien van het voertuig"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "richtcirkelgrootte\nna het vuren"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "spreiding tijdens beweging"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "spreiding tijdens het draaien van de romp"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "spreiding tijdens het draaien \nvan het kanon "
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "spreiding van een beschadigd kanon"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "richtcirkelomvang"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "HE-granaatschade"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "verborgenheid na het vuren"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "duur dat je voertuig zichtbaar is"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "ontvangen schade door rammen"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "snelheid van het wisselen van granaattype"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "reparatiesnelheid"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "snelheidsbehoud"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "verborgenheid van een\nstilstaand voertuig"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "verborgenheid van een\nstilstaand voertuig"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "zichtbereik"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "zichtbereik"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "levenspunten van het voertuig"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "kanondraaisnelheid"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "koepeldraaisnelheid"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "negatief effect wanneer een bemanningslid\ngewond raakt, m.u.v. de commandant"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "vertraging tot de melding van het gespot zijn"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "bescherming van de bemanning\ntegen verwondingen"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "bemanningsefficiëntiebonus"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "bemanningsefficiëntiebonus"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "extra verdovingstijd"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "verdovingstijd"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "minimale potentiële schade\nen potentiële penetratie"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "veroorzaakte schade door rammen"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "verborgenheid van vijandelijke voertuigen\nachter begroeiing"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "verborgenheid van bewegende\nvijandelijke voertuigen"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "kans om vijandelijke modules en bemanningsleden\nte beschadigen"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "snelheid van brandbestrijding"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "HP hersteld door reparatieset"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "herlaadtijd magazijn"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "verborgenheid van het voertuig"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "snelheidsbehoud\nop halfzachte ondergronden"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "potentiële maximale penetratie"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "signaalbereik van de radio"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "bescherming van de radio-officier tegen verwondingen"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "snelheid van alle granaattypes"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "snelheidsbehoud\nop zachte ondergronden"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "reparatiesnelheid ophanging"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "signaalbereik van geallieerde communicatie binnen het eigen radiobereik"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "laadsnelheidsafname"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "motorvermogenverlies\ndoor beschadiging"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "voertuigdraaisnelheid"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "duurzaamheid van interne modules"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "duurzaamheid van de munitieopslag"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "maximale achteruitrijsnelheid"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "verborgenheid"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "schade bij botsing"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "reparatiesnelheid ophanging"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "duurzaamheid ophanging"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "zichtbereik\n(tot 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "duur dat een vijandelijk voertuig\nvoor jou zichtbaar is"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "motorvermogen"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "schade door botsing"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "kans op brand in de motor"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "topsnelheid"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "richtsnelheid"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "herlaadtijd"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "spreiding tijdens het bewegen\nen draaien van het voertuig"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "richtcirkelgrootte\nna het vuren"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "spreiding tijdens beweging"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "spreiding tijdens het draaien van de romp"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "spreiding tijdens het draaien \nvan het kanon"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "spreiding van een beschadigd kanon"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "richtcirkelgrootte"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "HE-granaatschade"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "verborgenheid na het vuren"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "duur dat je voertuig zichtbaar is"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "ontvangen schade door rammen"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "snelheid van het wisselen van granaattype"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "reparatiesnelheid"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "snelheidsbehoud"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "verborgenheid van een stilstaand voertuig"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "verborgenheid van een stilstaand voertuig"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "zichtbereik van een stilstaand voertuig\n(tot 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "zichtbereik van een stilstaand voertuig\n(tot 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "levenspunten van het voertuig"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "kanondraaisnelheid"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "koepeldraaisnelheid"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "Bemanningservaring verdiend in gevechten"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "km/u"
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "km/u"
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "s"
+
+msgid "popularLoadouts/common"
+msgstr "Populair"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "Veelgebruikt"
+
+msgid "popularLoadouts/legendary"
+msgstr "Legendarisch"
+
+msgid "popularLoadouts/noData"
+msgstr "Geen data beschikbaar"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "Geen data beschikbaar"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)sPopulair.%(whiteSpanish_Close)s Gebaseerd op de huidige trends voor uitrusting onder alle World of Tanks-spelers."
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "Dataverzameling"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "Als de data van het huidige Bestormingseizoen nog niet beschikbaar is, wordt de data van het vorige seizoen gebruikt"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "Assistent is beschikbaar voor %(whiteSpanish_Open)sWillekeurige gevechten%(whiteSpanish_Close)s en %(whiteSpanish_Open)sBestorming%(whiteSpanish_Close)s"
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "Data van alle soorten uitrusting zijn samengevoegd"
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "Voordeel van WoT Plus"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "Ontvang nauwkeurige uitrustingsdata op basis van miljoenen gevechten en haal het maximale uit elk gevecht."
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "Uitrustingsassistent"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendarisch.%(whiteSpanish_Close)s Gebaseerd op uitrusting die momenteel de voorkeur heeft van spelers op het Legende WTR-niveau"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "Soorten configuraties"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "De voorgestelde configuraties zijn gebaseerd op configuraties die populair zijn voor voertuigen met een vergelijkbare speelstijl"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "De data van het onderstaande voertuig met een vergelijkbare speelstijl wordt getoond:"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "Configuratiedata niet beschikbaar"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "Het geselecteerde voertuig is niet beschikbaar voor deze spelmodus"
+
+msgid "section/battleAbilities"
+msgstr "GEVECHTSRESERVES"
+
+msgid "section/battleBoosters"
+msgstr "GEVECHTSBEVELEN"
+
+msgid "section/consumables"
+msgstr "VERBRUIKSARTIKELEN"
+
+msgid "section/modules"
+msgstr "MODULES"
+
+msgid "section/optDevices"
+msgstr "UITRUSTING"
+
+msgid "section/shells"
+msgstr "MUNITIE"
+
+msgid "section/toggleCamouflage"
+msgstr "CAMOUFLAGE"
+
+msgid "section/toggleShells"
+msgstr "MUNITIE"
+
+msgid "shells/ammunitionFull"
+msgstr "Munitie compleet"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "Munitie incompleet"
+
+msgid "shells/autoFillOff"
+msgstr "Automatisch aanvullen uitgezet"
+
+msgid "shells/autofillOn"
+msgstr "Automatisch aanvullen aangezet"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "In het depot:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "In munitieopslag:"
+
+msgid "shells/shortSpecification/price"
+msgstr "Kopen:"
+
+msgid "shells/specification/inStorage"
+msgstr "In het depot"
+
+msgid "shells/specification/inVehicle"
+msgstr "In munitieopslag"
+
+msgid "shells/specification/price"
+msgstr "Kopen"
+
+msgid "shells/title"
+msgstr "Munitie"
+
+msgid "shells/type/base"
+msgstr "STANDAARD (AP)"
+
+msgid "shells/type/special"
+msgstr "SPECIAAL (HE)"
+
+msgid "shells/type/tactical"
+msgstr "TACTISCH (APCR)"
+
+msgid "tabs/crew"
+msgstr "Voor bemanning"
+
+msgid "tabs/deluxe"
+msgstr "Verbeterd"
+
+msgid "tabs/modernized"
+msgstr "Experimenteel"
+
+msgid "tabs/optDevice"
+msgstr "Voor uitrusting"
+
+msgid "tabs/simple"
+msgstr "Standaard"
+
+msgid "tabs/trophy"
+msgstr "Bounty"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "Het gevechtsbevel zal automatisch worden aangevuld nadat het voertuig het gevecht heeft verlaten. Als er in het depot geen nieuw gevechtsbevel aanwezig is, zal het met in-game valuta worden gekocht."
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "Verbruiksartikelen zullen indien nodig automatisch worden aangevuld nadat het voertuig het gevecht heeft verlaten."
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "Reparaties zullen indien nodig automatisch worden uitgevoerd nadat het voertuig het gevecht heeft verlaten."
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "Munitie zal indien nodig automatisch worden aangevuld nadat het voertuig het gevecht heeft verlaten."
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "Automatisch aanvullen"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "Automatisch repareren"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "Zal vanuit het depot worden ontmanteld: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "Zal worden ontmanteld vanaf de voertuigen: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr ", "
+
+msgid "tooltips/action/description/add_one"
+msgstr "Klik om extra items voor deze plek te kopen."
+
+msgid "tooltips/action/description/demount"
+msgstr "Klik om de uitrusting op deze plek te demonteren."
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "Klik om de uitrusting op deze plek te demonteren."
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "Klik om de uitrusting uit alle configuraties te demonteren."
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "Klik om de uitrusting in deze plek dankzij je WoT Plus-abonnement gratis te demonteren."
+
+msgid "tooltips/action/description/destroy"
+msgstr "Klik om de uitrusting in deze plek te vernietigen, of als je een WoT Plus-abonnement hebt, om die gratis te demonteren."
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "Klik om uitrusting in componenten te ontmantelen."
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "Klik om de uitrusting op deze plek te verwijderen."
+
+msgid "tooltips/action/description/swap"
+msgstr "Klik om de uitrusting op deze plekken om te wisselen."
+
+msgid "tooltips/action/description/upgrade"
+msgstr "Het upgraden van uitrusting verbetert de eigenschappen."
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "Het upgraden van uitrusting verbetert de eigenschappen."
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "Het upgraden van uitrusting verbetert de eigenschappen."
+
+msgid "tooltips/action/title/add_one"
+msgstr "Kopen"
+
+msgid "tooltips/action/title/cancel"
+msgstr "Stuur naar depot"
+
+msgid "tooltips/action/title/demount"
+msgstr "Demonteren"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "Demonteren"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "Demonteer uit alle configuraties"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "Gratis demonteren"
+
+msgid "tooltips/action/title/destroy"
+msgstr "Vernietigen"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "Ontmantelen"
+
+msgid "tooltips/action/title/swap"
+msgstr "Volgorde veranderen"
+
+msgid "tooltips/action/title/undo"
+msgstr "Verwijder uit plek"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "Upgraden"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "Upgraden"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "Upgraden"
+
+msgid "tooltips/additional"
+msgstr "Extra informatie."
+
+msgid "tooltips/categories/list"
+msgstr "Klik om de lijst met modules te bekijken."
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "Deze plekcategorie kan opnieuw worden toegekend in het Veldmodificatiemenu of in het selectiescherm voor uitrusting."
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "Categorie opnieuw toekennen"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "Klik op de plekcategorie opnieuw toe te kennen."
+
+msgid "tooltips/equipmentList"
+msgstr "Klik om de lijst met beschikbare uitrusting te bekijken."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "Er kan geen experimentele uitrusting in componenten worden ontmanteld: je hebt geen experimentele uitrusting."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "Klik om door te gaan met het ontmantelen van uitrusting in componenten."
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "Na montage levert deze uitrusting slechts een standaard bonus, omdat alleen tankjagers en artillerie de Vuurkracht categorie hebben en deze uitrusting niet op een plek van Vuurkracht wordt gemonteerd."
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "Je voertuig ontvangt hogere eigenschapsbonussen."
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "De eigenschapsbonus wordt verhoogd door deze uitrusting op een plek van een van de volgende categorieën te monteren: %(category)s."
+
+msgid "tooltips/howToIncrease/single"
+msgstr "De eigenschapsbonus wordt verhoogd door deze uitrusting op een plek van de volgende categorie te monteren: %(category)s."
+
+msgid "tooltips/placeEquipment"
+msgstr "Plek voor uitrusting"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "Je kunt in de Veldmodificatie-interface de optie voor het kiezen van sets granaten en verbruiksartikelen tijdens de countdown in-/uitschakelen."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "Je kunt in de Veldmodificatie-interface de optie voor het kiezen van sets uitrusting en gevechtsbevelen tijdens de countdown in-/uitschakelen."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "Je kunt in de Veldmodificatie-interface de optie voor het kiezen van sets granaten en verbruiksartikelen tijdens de countdown in-/uitschakelen."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "Je kunt in de Upgrades-interface de optie voor het kiezen van sets granaten en verbruiksartikelen tijdens de countdown in-/uitschakelen."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "Je kunt in de Veldmodificatie-interface de optie voor het kiezen van sets uitrusting en gevechtsbevelen tijdens de countdown in-/uitschakelen."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "Je kunt in de Upgrades-interface de optie voor het kiezen van sets uitrusting en gevechtsbevelen tijdens de countdown in-/uitschakelen."
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "Wisselen tussen sets uitgeschakeld"
+
+msgid "tooltips/separator/last"
+msgstr " en "
+
+msgid "tooltips/separator/other"
+msgstr ", "
+
+msgid "tooltips/specializationDesc"
+msgstr "Standaard uitrusting van de %(spec)s-categorie zal op deze plek effectiever zijn. Uitrusting van andere categorieën zal slechts een standaard bonus leveren."
+
+msgid "tooltips/specializationName"
+msgstr "Categorie:"
+
+msgid "tooltips/specializationType"
+msgstr "Vuurkracht"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "Een waardevolle soort uitrusting die betere eigenschappen heeft dan andere soorten uitrusting."
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "Speciale uitrusting met drie upgradelevels."
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "Uitrusting verbetert de eigenschappen van je voertuig."
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "Een soort uitrusting die dezelfde parameters heeft als standaard uitrusting, maar wel kan worden geüpgraded."
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "Verbeterde uitrusting"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "Experimentele uitrusting"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "Standaard uitrusting"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "Bounty-uitrusting"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "Deze soort uitrusting is verkrijgbaar voor %(whiteSpanish_Open)sobligaties%(whiteSpanish_Close)s, maar kan ook worden ontvangen als beloning voor bepaalde in-game prestaties en tijdens speciale spelevenementen."
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "Deze soort uitrusting kan tijdens bepaalde spelevenementen als beloning worden ontvangen."
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "Deze soort uitrusting kan met in-game valuta worden gekocht, maar kan ook worden ontvangen als beloning voor bepaalde in-game prestaties en tijdens speciale spelevenementen. De eigenschappen van standaard uitrusting kunnen worden verbeterd door de uitrusting in een bijbehorende plek te plaatsen."
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "Deze soort uitrusting kan tijdens bepaalde spelevenementen als beloning worden ontvangen."
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "Manieren om te verkrijgen"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "Manieren om te verkrijgen"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "Plekken voor uitrusting"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "Bounty-uitrusting kan niet worden gekocht"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "Je kunt experimentele uitrusting upgraden met %(whiteSpanish_Open)scomponenten%(whiteSpanish_Close)s. Deze ontvang je door uitrusting van deze soort te ontmantelen."
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "Je kunt de eigenschappen van bounty-uitrusting met in-game valuta upgraden."
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "Experimentele uitrusting upgraden"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "Bounty-uitrusting upgraden"

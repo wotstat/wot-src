@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Aktivovat"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Koupit a aktivovat"
+
+msgid "activation/activateBonus"
+msgstr "Aktivovat zálohu: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Aktivovat zálohu"
+
+msgid "activation/activateButtonClan"
+msgstr "Na opevnění"
+
+msgid "activation/battleXPDescription"
+msgstr "Bonus k bojovým ZK na 1 h"
+
+msgid "activation/battleXPTitle"
+msgstr "Bojové ZK"
+
+msgid "activation/bonus"
+msgstr "+%(bonus) %"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Koupit a aktivovat Vylepšenou osobní zálohu, která poskytuje bonus %(boosterBonus)s k %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Koupit zlaťáky"
+
+msgid "activation/buyGoldTitle"
+msgstr "Koupit zlaťáky vyžadované pro Vylepšenou osobní zálohu, která poskytuje bonus %(boosterBonus)s k %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Zlaťáky potřebné k zakoupení Vylepšené osobní zálohy:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Kredity a bojové ZK"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "ZK posádky a volné ZK"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Zálohy klanu"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Aktivovat zálohu v opevnění"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Ukázat v opevnění"
+
+msgid "activation/comboXPDescription"
+msgstr "Bonus k volným ZK a ZK posádky na 1 h"
+
+msgid "activation/comboXPTitle"
+msgstr "Kombinované ZK"
+
+msgid "activation/creditsDescription"
+msgstr "Bonus ke kreditům na 1 h"
+
+msgid "activation/creditsTitle"
+msgstr "Kredity"
+
+msgid "activation/footer"
+msgstr "Je třeba aktivovat zálohy s omezenou dobou trvanlivosti: %(expirableAmount) za %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Bonus ke zkušenostem Frontové linie na 1 h"
+
+msgid "activation/frontLineXPTitle"
+msgstr "Zkušenosti Frontové linie"
+
+msgid "activation/informationButton"
+msgstr "INFORMACE"
+
+msgid "activation/price"
+msgstr "Cena:"
+
+msgid "activation/subFooter/depot"
+msgstr "Sklad"
+
+msgid "activation/subFooter/main"
+msgstr "Jako první jsou aktivovány zálohy, které vyprší nejdříve. Všechny své dostupné zálohy si můžete prohlédnout v %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Aktivujte {whiteSpanish_Open}až 3 osobní zálohy{whiteSpanish_Close}, abyste v bitvách získali víc kreditů a zkušeností. Další osobní zálohy kupte v %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "obchodě"
+
+msgid "activation/terms/booster_credits"
+msgstr "kreditům"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "zkušenostem Frontové linie"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "kombinovaným ZK"
+
+msgid "activation/terms/booster_xp"
+msgstr "bojovým ZK"
+
+msgid "activation/title"
+msgstr "OSOBNÍ ZÁLOHY"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Aktivované Standardní osobní zálohy, které poskytují bonus %(previousBoosterBonus)s k %(previousBoosterTerm)s budou ztraceny.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Chcete namísto Standardní osobní zálohy aktivovat Vylepšenou osobní zálohu, která poskytuje bonus%(boosterBonus)s k %(boosterTerm)s?"
+
+msgid "battleView/notice"
+msgstr "Osobní zálohy lze aktivovat kdykoliv v bitvě. Bonus obdržíte i poté, co záloha během bitvy vyprší."
+
+msgid "battleView/title"
+msgstr "Aktivace osobních záloh"
+
+msgid "depot/buyButton"
+msgstr "Na nákup"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Jiná záloha tohoto typu je už aktivní."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Tato osobní záloha vypršela během bitvy. Bonus z osobní zálohy je v této bitvě stále aplikován."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)min"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus) %"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Aktivované osobní zálohy se v tomto režimu neuplatní."
+
+msgid "intro/buttons/close"
+msgstr "Potvrzuji!"
+
+msgid "intro/buttons/details"
+msgstr "Detaily"
+
+msgid "intro/description"
+msgstr "Zálohy s omezenou dobou trvanlivosti jsou dostupné po omezenou dobu od jejich získání. Pokud nebudou během této doby aktivovány, budou ztraceny. Zálohy s neomezenou dobou trvanlivosti nelze použít, dokud jsou dostupné zálohy s omezenou dobou trvanlivosti stejného typu."
+
+msgid "intro/title"
+msgstr "ZÁLOHY S OMEZENOU DOBOU TRVANLIVOSTI"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Ve skladu nejsou žádné osobní zálohy tohoto typu. Můžete je koupit později, nebo je aktivovat v garáži."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Abyste osobní zálohy získali, plňte mise a účastněte se herních akcí."
+
+msgid "noReserveTooltip/text"
+msgstr "Ve skladu nejsou žádné osobní zálohy tohoto typu."

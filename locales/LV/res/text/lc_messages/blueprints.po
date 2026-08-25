@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Plāns Savākts"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Plāns  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Rasējums {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "Uz pirkumu"
+
+msgid "blueprintScreen/button/research"
+msgstr "Uz izpēti"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Skatīt garāžā"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Jūs variet savākt plānu, lai piemērotu atlaidi vēlamo tanku izpētei. Taču, jums vajadzēs izpētīt iepriekšējo tanku zarā, lai izmantotu atlaidi."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Tieši tā!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Izpēte nav pieejama"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "Lai izveidotu plāna fragmentu, jums vajag:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "izvēlieties:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "IZVEIDOT FRAGMENTU:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Izveidot Fragmentus"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Konvertēt\nfragmentu"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Konversija\nnav pieejama"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "NAV PIEEJAMS:\nNepietiekami\nresursi"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Iet uz tanku"
+
+msgid "blueprintScreen/or"
+msgstr "vai"
+
+msgid "blueprintScreen/research"
+msgstr "IZPĒTĪT"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Tanka izpēte par brīvu"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Izpēte nav pieejama"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Atlaide izpētei:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Šis tanks ir izpētīts un pieejams pirkšanai"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Šis tanks ir izpētīts un nopirkts"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "Noliktavā:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Jūs variet izmantot 100% atlaidi {vehicleName} izpētei, pēc tam, kad jūs esiet izpētījuši iepriekšējo tanku zarā."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Plāns Savākts"
+
+msgid "blueprintScreen/unlocked"
+msgstr "TANKS\nIZPĒTĪTS"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Koalīcija:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Bloks:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Alianse:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Savienība:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Universāls:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Koalīcija"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Bloks"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Apvienība"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Savienība"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Francija, Čehoslovākija, Zviedrija, Itālija)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Vācija, Japāna)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(A.S.V., Lielbritānija, Polija)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(P.S.R.S., Ķīna)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Izvēlieties nacionālo fragmentu skaitu, lai izveidotu tanka plāna fragmentus.\n%(allianceIcon)%(allianceName) %(allianceNations) nacionāli fragmenti pieejami."
+
+msgid "conversionView/topMessage/single"
+msgstr "Izvēlieties fragmentus no vienas no nācijām, lai izveidotu tanka plāna fragmentus.\n%(allianceIcon)%(allianceName) %(allianceNations) nacionāli fragmenti pieejami."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Gala maksa:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Plāna fragmenta maksa:"
+
+msgid "nations/china"
+msgstr "Ķīna"
+
+msgid "nations/czech"
+msgstr "Čehoslovākija"
+
+msgid "nations/france"
+msgstr "Francija"
+
+msgid "nations/germany"
+msgstr "Vācija"
+
+msgid "nations/italy"
+msgstr "Itālija"
+
+msgid "nations/japan"
+msgstr "Japāna"
+
+msgid "nations/poland"
+msgstr "Polija"
+
+msgid "nations/sweden"
+msgstr "Zviedrija"
+
+msgid "nations/uk"
+msgstr "Lielbritānija"
+
+msgid "nations/usa"
+msgstr "A.S.V."
+
+msgid "nations/ussr"
+msgstr "P.S.R.S."

@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "Delmoment {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Specialkapitel"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Slutfört"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Visa nya framstegsfunktioner"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Välj kapitel"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Ej tillgängligt för tillfället"
+
+msgid "battle_pass_widget/title"
+msgstr "Stridspass"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Smältugn: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} d"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} d {{hours}} t"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} t"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} t {{minutes}} m"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} m"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Bonusuppdrag\nSlutför 3 standarduppdrag för att låsa upp"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Tid kvar att slutföra bonusuppdraget"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Nytt dagligt uppdrag om"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "Det är allt för tillfället. Nya dagliga uppdrag blir snart tillgängliga."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Slutför tidigare uppdrag för att låsa upp detta"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Premiumuppdrag är tillfälligt ej tillgängliga"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Köp Premiumkonto"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Kräver WoT-Premiumkonto"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Premiumuppdrag"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Dagliga uppdrag är tillfälligt ej tillgängliga"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Slumpa nytt"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "DAGLIGA"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Till kampanjer"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Förbättra resultat"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "Till operationer"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "En riktig utmaning för veteranspelare som ger en unik vagn som belöning."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Du har slutfört operation {{currentOperationName}}! Du kan fortsätta slutföra resultatet för att slutföra den med heder – eller ta dig an en ny utmaning i operation {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Du kan fortfarande slutföra ditt resultat i operation {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Du har slutfört operation {{currentOperationName}} med heder! Operation {{nextOperationName}} är nu tillgänglig."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Kampanjpoäng kan erhållas från personliga uppdrag, dagliga uppdrag och veckouppdrag."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Slutför alla {{totalProgress}} uppdrag för att slutföra operationen med heder och tjäna extrabelöningar."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Montera alla delar för att få din belöning – {{vehicleName}}. För att samla alla delar måste du tjäna kampanjpoäng genom att slutföra personliga uppdrag, samt dagliga- och veckouppdrag."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Montera alla delar för att få din belöning – {{vehicleName}}. För att samla alla delar måste du tjäna kampanjpoäng genom att slutföra personliga uppdrag, samt dagliga- och veckouppdrag."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Slutförda uppdrag: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "Den nya kampanjen Sektion 3 är tillgänglig!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Operation: {{nextOperationName}} tillgänglig!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Operation: {{currentOperationName}} slutförd med heder!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Operation: {{nextOperationName}} tillgänglig!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Operation: {{currentOperationName}} | Delmoment {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Slutför operation {{currentOperationName}} med heder "
+
+msgid "hub/basic_missions/title"
+msgstr "STANDARDUPPDRAG"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "VECKOUPPDRAG"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Uppdateras varje {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Aktivt uppdrag"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "ELLER"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Nya uppdrag kommer snart..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "KÄMPE"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "ESS"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ELIT"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Det finns tre uppdragskategorier: Kämpe, Elit och Ess. Varje kategori har unika utmaningar och värdefulla belöningar."
+
+msgid "hub/challenge_missions/header"
+msgstr "SMÄLTUGN"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Aktivera"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Starta om gratis"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Starta Om"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Avbryt"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Till uppdrag"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) Smältugnsuppdrag slutförda"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "%(count)s st"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "sköldar kvar"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "gratis omstarter"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Slutför det aktiva Smältugnsuppdraget"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Avslutas om %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Ej tillgänglig: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Vagn klass VI eller högre krävs"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "AKTIV"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Slutfört"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} uppdrag"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Utmaningsuppdrag"
+
+msgid "hub/challenge_missions/new"
+msgstr "NYTT"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Till Smältugnen"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Till Smältugnen"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "SMÄLTUGN: {{ challengeName }} SLUTFÖRD!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Till Smältugnen"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Smältugn: {{ challenge }} ej slutförd. Starta om och försök få belöningarna!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Till Smältugnen"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "UPPDRAG {{ mission }} SLUTFÖRT!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Till Smältugnen"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Uppdrag {{ mission }} misslyckades"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "SKÖLDAR KVAR"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Till Smältugnen"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Gå in i smältugnen och ta dig an en serie krävande uppdrag med värdefulla belöningar för de som lyckas vinna dem."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "NYTT SMÄLTUGNSUPPDRAG TILLGÄNGLIGT"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Gjut din seger i smältugnen: ta dig an en serie krävande uppdrag med värdefulla belöningar för de som lyckas vinna dem."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "GÅ IN I SMÄLTUGNEN"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Slutfört"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "3D-tillbehörsset"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Förbättrad utrustning"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "{{count}} st"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "2D-stil"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Besättningsmedlem"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Vagn"
+
+msgid "hub/challenge_missions/title"
+msgstr "SMÄLTUGNSUPPDRAG"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "Om Smältugnen"
+
+msgid "hub/common_missions/title"
+msgstr "EXTRAUPPDRAG"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Ta emot belöningar"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "Episk belöning tillfälligt ej tillgänglig"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Varje slutfört standard-, premium- eller bonusuppdrag räknas till dina framsteg."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Tillgängligt"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Slutför dagliga uppdrag för att få episka belöningar"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Ta emot belöning"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Ta emot belöningar"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Varje slutfört standard-, premium- eller bonusuppdrag räknas till dina framsteg."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Tillgängligt"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Åter i tjänst! Slutför dagliga uppdrag för episka belöningar: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "När du slutfört tre standarduppdrag blir ett bonusuppdrag med ännu värdefullare belöningar tillgängligt. Bonusuppdraget måste slutföras innan dagen är slut, annars förverkas det."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Bonusuppdrag"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Vissa uppdrag måste slutföras under en enda strid, medan andra är kumulativa och kan slutföras under en eller flera strider. Kumulativa uppdrag har en framstegsmätare. Du kan slutföra uppdrag i uppvärmning, slumpmässigt matchade strider."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Mål"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Du kan slumpa nya standarduppdragsmål om de inte passar. Du kan bara göra det en gång per {{time}}. Om du slumpar ett nytt uppdrag kan du förlora framsteg om en eller flera av dina vagnar är i strid."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Slumpa nytt uppdrag"
+
+msgid "info_page/additional/reward/description"
+msgstr "En episk belöning är ett som en maraton-cykel där varje slutfört standard-, premium- och bonusuppdrag räknas till dina framsteg. När du slutfört cykeln återställs dina framsteg och du kan börja om igen. Belöningscykeln har ingen tidsbegränsning och kan slutföras när som helst."
+
+msgid "info_page/additional/reward/title"
+msgstr "Episk belöning"
+
+msgid "info_page/header"
+msgstr "OM UPPDRAG"
+
+msgid "info_page/main/premium/description"
+msgstr "Med WoT-Premiumkonto får du tillgång till en serie om tre premiumuppdrag. De kan slutföras i slumpvis matchade strider eller Pansarstorm och dina framsteg uppdateras efter varje strid. Under spelevenemang kan premiumuppdragen ge speciella evenemangsbelöningar."
+
+msgid "info_page/main/premium/title"
+msgstr "Premiumuppdrag"
+
+msgid "info_page/main/standard/description"
+msgstr "Standarduppdragen är dagliga, slumpvisa uppdrag vars framsteg uppdateras efter varje strid. Vi rekommenderar att du slutför dem samma dag du får dem, då oavslutade uppdrag sparas till nästa dag och blockerar nya uppdrag. Standarduppdrag ger Stridspasspoäng när Stridspass är aktivt och kan ge evenemangsbelöningar under andra spelevenemang."
+
+msgid "info_page/main/standard/title"
+msgstr "Standarduppdrag"
+
+msgid "info_page/main/weekly/description"
+msgstr "Veckouppdrag är en uppsättning uppdrag som ändras veckovis. Framsteg uppdateras efter varje strid och slutförda uppdrag ersätts när nästa veckocykel börjar. Du kan slutföra veckouppdrag i slumpvis matchade strider och Pansarstorm för att få extra bonusar."
+
+msgid "info_page/main/weekly/title"
+msgstr "Veckouppdrag"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Alla dagens standarduppdrag slutförda"
+
+msgid "quests/daily_quests/completed"
+msgstr "Alla dagliga uppdrag slutförda"
+
+msgid "tooltip/common/timer"
+msgstr "Tillgängliga om {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Alla standarduppdrag slutförda! Du hittar fler under fliken Extrauppdrag."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Bonusuppdrag"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Slutfört"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Dagligt uppdrag"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Går ut om {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Nya dagliga uppdrag om {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Premiumuppdrag"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Belöningar:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Du kan slumpa fram ett nytt uppdrag om du vill\nen gång var {time}:e timme."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Slumpa nytt uppdrag"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Uppdrag slutfört, belöning mottagen."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Slutför föregående uppdrag för att låsa upp det här uppdraget. Alla uppdrag i en serie måste slutföras i ordning."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Klicka för mer information"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "Om uppdrag"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Den här uppdragsserien kan startas om när den är slutförd. Dina framsteg och sköldar återställs och du kan ta emot alla belöningarna igen."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Spela om uppdrag"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Du kan starta om en uppdragsserie när du förlorat alla dina sköldar. Dina framsteg och sköldar återställs och du kan ta emot alla belöningarna igen."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Kostnad för omstarter därefter: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Gratis omstarter tillgängliga: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Kostnad för omstart: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Omstarter"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Sköldar skyddar dina framsteg. Varje misslyckat uppdrag kostar en sköld och när alla sköldar är förlorade misslyckas uppdragsserien. Om du startar om serien återställs alla sköldar."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Sköldar"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Vagnsrestriktioner:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Veckouppdrag"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Du kan rulla om veckouppdrag varje {{time}}."
+
+msgid "welcome/button"
+msgstr "Uppfattat!"

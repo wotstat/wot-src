@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Terug naar kisten"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Smaragdgroene kist"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "SMARAGDGROENE KIST"
+
+msgid "common/getButton/lowerCase"
+msgstr "Koop kisten"
+
+msgid "common/getButton/upperCase"
+msgstr "KOOP KISTEN"
+
+msgid "common/loader"
+msgstr "Kist openen..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Open kisten om statistieken te bekijken."
+
+msgid "common/statistics/header"
+msgstr "Kisten geopend: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Alle informatie over geopende kisten zal worden verwijderd."
+
+msgid "entryPoint/boxes"
+msgstr "NAAR KISTEN"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Dit zijn speciale kisten met Premium voertuigen, 3D-attachments, credits en andere waardevolle in-game items.\nZe zijn beschikbaar in de in-game winkel."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Wegens technische redenen kunnen er momenteel geen kisten worden geopend of gekocht. Onze excuses voor het tijdelijke ongemak."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Kisten tijdelijk onbeschikbaar"
+
+msgid "eventName/lowerCase"
+msgstr "Glorieus in het groen"
+
+msgid "eventName/upperCase"
+msgstr "GLORIEUS IN HET GROEN"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "De volgende kist bevat een gegarandeerde beloning!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maximum aantal kisten tot een gegarandeerde beloning: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Als je de kisten niet voor het einde van het evenement opent, zullen ze automatisch worden geopend."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Als je alle voertuigen uit de lijst met mogelijke inhoud van de kist al hebt, dan zul je in plaats van alle voertuigen die daarna in kisten zitten, hun volledige waarde in goud ontvangen."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Elke %(guaranteed0)s kisten bevatten gegarandeerd een niveau VIII–IX voertuig. Als je ze hebt geopend zonder een dergelijk voertuig te ontvangen, dan bevat de %(guaranteed0)s&zwnbsp;e kist een niveau VIII–IX voertuig. Wanneer dat gebeurt, wordt de teller gereset."
+
+msgid "infoPage/header/description"
+msgstr "Open de kist om kans te maken op waardevolle in-game items! Kijk voor meer informatie hieronder."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Uit de %(name) (%(boxesCount) kisten geopend)"
+
+msgid "noBoxesView/description/"
+msgstr "Je hebt geen kisten.\nJe kunt ze in de in-game winkel kopen."
+
+msgid "preview/backLabel"
+msgstr "NAAR KISTEN"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Kisten beschikbaar: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Geen kisten beschikbaar"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Als je alle voertuigen uit de lijst met mogelijke inhoud van de kist al hebt, dan zul je in plaats van alle voertuigen die daarna in kisten zitten goud ontvangen."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) kist"
+msgstr[1] "%(remainingCount) kisten"
+msgstr[2] "%(remainingCount) kisten"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "De gegarandeerde beloning is een voertuig uit de lijst met mogelijke inhoud van de kist.\nAls je %(remainingCount) hebt geopend zonder een dergelijk voertuig te ontvangen, dan zal de %(count)e kist het voertuig bevatten. Als dat gebeurt, wordt de teller gereset."

@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sZobacz%(linkEndTag)s szczegóły gracza"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sZgłoszenie do klanu%(titleEndTag)s\nod %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Zobacz zgłoszenia"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sWyłącz%(linkEndTag)s powiadomienia"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sZgłoszenia od graczy: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sZobacz%(linkEndTag)s szczegóły klanu"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sZaproszenie do klanu%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Zobacz zaproszenia"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sZaproszenia do klanów: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "Gracz został przyjęty do klanu."
+
+msgid "clans/state/app/declined"
+msgstr "Zgłoszenie odrzucone."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "Jednodniowy okres karencji po opuszczeniu przez gracza poprzedniego klanu jeszcze nie upłynął."
+
+msgid "clans/state/invite/accepted"
+msgstr "Zostałeś przyjęty do klanu."
+
+msgid "clans/state/invite/declined"
+msgstr "Odrzucono zaproszenie."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Okres jednego dnia kary nałożonej za opuszczenie poprzedniego klanu jeszcze nie minął."
+
+msgid "errors/creationNotAllowed"
+msgstr "Nie masz uprawnień, aby wysłać zaproszenie"
+
+msgid "errors/invalid"
+msgstr "Nieprawidłowe zaproszenie."
+
+msgid "errors/inviteNotSupported"
+msgstr "Zaproszenie tego typu jest chwilowo niedostępne. Spróbuj później."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "Odbiorca zaproszenia dodał Cię do listy ignorowanych."
+
+msgid "errors/selfinvite"
+msgstr "Nie możesz zaprosić samego siebie"
+
+msgid "errors/unknownuser"
+msgstr "Użytkownik nie jest zarejestrowany w systemie"
+
+msgid "errors/useroffline"
+msgstr "Użytkownik nie jest podłączony"
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "Pojazd w garażu jest zniszczony albo zablokowany. Wybierz inny pojazd."
+
+msgid "friendship/note/approved"
+msgstr "Gracz dodany do listy znajomych"
+
+msgid "friendship/note/canceled"
+msgstr "Zaproszenie odrzucone"
+
+msgid "friendship/note/maxRoster"
+msgstr "Maksymalna liczba kontaktów na liście: %(rosterMaxCount)s. Aby dodać graczy do listy znajomych, najpierw z niej kogoś usuń."
+
+msgid "friendship/note/notConnected"
+msgstr "Nie można się połączyć z serwerem. Proszę czekać."
+
+msgid "friendship/note/process"
+msgstr "Oczekiwanie na odpowiedź serwera"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sProśba o włączenie do listy znajomych%(titleEndTag)s\nod %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Akceptuj"
+
+msgid "gui/buttons/cancel"
+msgstr "Anuluj"
+
+msgid "gui/buttons/reject"
+msgstr "Odrzuć"
+
+msgid "gui/buttons/send"
+msgstr "Wyślij"
+
+msgid "gui/labels/additionalText"
+msgstr "Dodatkowy tekst zaproszenia:"
+
+msgid "gui/labels/inviteText"
+msgstr "Tekst zaproszenia:"
+
+msgid "gui/labels/receiver"
+msgstr "Odbiorca:"
+
+msgid "gui/titles/barter"
+msgstr "Zaproszenie do handlu"
+
+msgid "gui/titles/clan"
+msgstr "Zaproszenie do klanu"
+
+msgid "gui/titles/invite"
+msgstr "Zaproszenie"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Zaproszenia"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz jednostkę taktyczną i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz jednostkę taktyczną i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz bitwę na mapie globalnej i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz jednostkę taktyczną i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz jednostkę taktyczną i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz jednostkę taktyczną i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Po przyjęciu zaproszenia zostaniesz automatycznie wykluczony z treningu drużynowego w trybie Linii frontu i przeniesiony na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz jednostkę taktyczną i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Akceptacja tego zaproszenia oznacza opuszczenie trybu bitew drużynowych i przeniesienie na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz pluton i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz „Twierdzę: bitwy” i zostaniesz przeniesiony na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "Kiedy przyjmiesz zaproszenie, opuścisz tryb natarć i zostaniesz przeniesiony na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz pluton Misji zwiadowczej i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz pokój szkoleniowy i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz „Twierdzę: bitwy” i zostaniesz przeniesiony na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz pluton i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "Kiedy przyjmiesz zaproszenie, opuścisz aktualny oddział i zostaniesz przeniesiony na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz turniej i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz pokój szkoleniowy i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Po przyjęciu zaproszenia zostaniesz automatycznie wykluczony z treningu drużynowego w trybie Natarcie i przeniesiony na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Akceptacja tego zaproszenia oznacza opuszczenie trybu bitew drużynowych i przeniesienie na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz „Stalowego łowcę” i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz Wielkie łowy i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz Natarcie i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz Natarcie light i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz Linię frontu i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz +++bitwę wydarzenia+++ i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz Misję zwiadowczą i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz Topografię i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz bitwy losowe i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "Po zaakceptowaniu zaproszenia opuścisz tryb bitew rankingowych i zostaniesz przeniesiony na serwer %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz Rozgrzewkę i przeniesiesz się na serwer %(host)s."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz Rozgrzewkę i przeniesiesz się na serwer %(host)s. Nie będziesz mógł jej zacząć od początku."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz jednostkę taktyczną."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz jednostkę taktyczną."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz bitwę na mapie globalnej."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz jednostkę taktyczną."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz jednostkę taktyczną."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz jednostkę taktyczną."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Po przyjęciu zaproszenia zostaniesz automatycznie wykluczony z treningu drużynowego w trybie Linii frontu."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz jednostkę taktyczną."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Akceptacja tego zaproszenia oznacza opuszczenie trybu bitew drużynowych."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz pluton."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "Gdy przyjmiesz to zaproszenie, opuścisz „Twierdzę: bitwy”."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "Kiedy przyjmiesz zaproszenie, opuścisz tryb natarć."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz pluton Misji zwiadowczej."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz pokój szkoleniowy."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "Gdy przyjmiesz to zaproszenie, opuścisz „Twierdzę: bitwy”."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz pluton."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "Kiedy przyjmiesz zaproszenie, opuścisz aktualny oddział."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz turniej."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "Kiedy przyjmiesz zaproszenie, automatycznie opuścisz pokój szkoleniowy."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Po przyjęciu zaproszenia zostaniesz automatycznie wykluczony z treningu drużynowego w trybie Natarcie."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Akceptacja tego zaproszenia oznacza opuszczenie trybu bitew drużynowych."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "Gdy przyjmiesz to zaproszenie, opuścisz „Stalowego łowcę”."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz Wielkie łowy."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz Natarcie."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz Natarcie light."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "Gdy przyjmiesz to zaproszenie, opuścisz Linię frontu."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "Gdy przyjmiesz to zaproszenie, opuścisz +++bitwę wydarzenia+++."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "Gdy przyjmiesz to zaproszenie, opuścisz Misję zwiadowczą."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz Topografię."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "Gdy przyjmiesz to zaproszenie, opuścisz tryb bitwy losowe."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "Po zaakceptowaniu zaproszenia opuścisz tryb bitew rankingowych."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz Rozgrzewkę."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "Gdy przyjmiesz zaproszenie, opuścisz Rozgrzewkę. Nie będziesz mógł jej zacząć od początku."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Zmiany serwera zostaną zapisane."
+
+msgid "invites/note/server_change"
+msgstr "Automatycznie przeniesiesz się na serwer %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Nie możesz przyjąć zaproszenia. Jeśli chcesz przyjąć zaproszenie, wybierz serwer %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Nie możesz przyjąć zaproszenia. Jeśli chcesz przyjąć zaproszenie, wybierz inny serwer."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Już dołączyłeś do plutonu."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Już dołączyłeś do bitwy na mapie globalnej."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Już dołączyłeś do pokoju szkoleniowego."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Już dołączyłeś do plutonu."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Już dołączyłeś do plutonu."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Jesteś już częścią oddziału specjalnego."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Już dołączyłeś do plutonu."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Już dołączyłeś do turnieju."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Już dołączyłeś do pokoju szkoleniowego."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Już dołączyłeś do pokoju szkoleniowego."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Już dołączyłeś do drużyny."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Zaproszenie przyjęte."
+
+msgid "invites/state/DECLINED"
+msgstr "Odrzucono zaproszenie."
+
+msgid "invites/state/ERROR"
+msgstr "Nieprawidłowe zaproszenie."
+
+msgid "invites/state/EXPIRED"
+msgstr "Nieprawidłowe zaproszenie."
+
+msgid "invites/state/REVOKED"
+msgstr "Zaproszenie wycofane."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Zaproszenie do plutonu w Stalowym łowcy"
+
+msgid "invites/text/COMP7"
+msgstr "Zaproszenie do plutonu w Natarciu"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Zaproszenie do plutonu w Natarciu light"
+
+msgid "invites/text/EPIC"
+msgstr "Zaproszenie do plutonu na Linii frontu"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Zaproszenie do bitwy treningowej w trybie Linia frontu"
+
+msgid "invites/text/EVENT"
+msgstr "Zaproszenie do plutonu"
+
+msgid "invites/text/FALLOUT"
+msgstr "Zaproszenie do plutonu do %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Dominacja"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Stalowe łowy"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Zaproszenie do bitwy"
+
+msgid "invites/text/MAPBOX"
+msgstr "Zaproszenie do plutonu Misji zwiadowczej"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Zaproszenie do eksploracji map"
+
+msgid "invites/text/SORTIE"
+msgstr "Zaproszenie do oddziału"
+
+msgid "invites/text/SQUAD"
+msgstr "Zaproszenie do plutonu"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Zaproszenie do oddziału"
+
+msgid "invites/text/TRAINING"
+msgstr "Zaproszenie do bitwy treningowej"
+
+msgid "invites/text/UNIT"
+msgstr "Zaproszenie do drużyny"
+
+msgid "invites/text/creatorName"
+msgstr "od %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Okres obrony"
+
+msgid "invites/text/fort/direction"
+msgstr "Przyczółek"
+
+msgid "invites/text/fort/offence"
+msgstr "Atak na"
+
+msgid "invites/warning/anonymized"
+msgstr "Po przyjęciu zaproszenia Twoja prawdziwa nazwa gracza i znacznik klanu będą na czas bitwy widoczne dla członków jednostki taktycznej."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Wysłano zaproszenie do gracza %(name)s."

@@ -1,0 +1,1124 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "comparison/fullUpgrades/title"
+msgstr "Fullt uppgraderad"
+
+msgid "comparison/partialUpgrades/title"
+msgstr "Nuvarande"
+
+msgid "comparison/title"
+msgstr "Uppgraderingar"
+
+msgid "comparison/tooltip/body"
+msgstr "Konfigurationen visar hur uppgraderingar påverkar vagnens egenskaper. Välj Fullt uppgraderad för att se den fulla effekten av alla tillgängliga uppgraderingar."
+
+msgid "comparison/tooltip/header"
+msgstr "Uppgraderingar"
+
+msgid "comparison/zeroUpgrades/title"
+msgstr "Inte framforskad"
+
+msgid "dialog/altConfiguration/description"
+msgstr "Håll alternativen valda för att kunna byta stridslast innan striden."
+
+msgid "dialog/altConfiguration/info"
+msgstr "Du kan ändra inställningarna när du vill."
+
+msgid "dialog/altConfiguration/optDevBoostersSwitch"
+msgstr "Tilläggslast"
+
+msgid "dialog/altConfiguration/shellsConsumablesSwitch"
+msgstr "Standardlast"
+
+msgid "dialog/altConfiguration/title"
+msgstr "Alternativt konfiguration"
+
+msgid "dialog/common/accept"
+msgstr "Bekräfta"
+
+msgid "dialog/confirmation/researchPerks"
+msgid_plural "plural/dialog/confirmation/researchPerks"
+msgstr[0] "%(perks)s"
+msgstr[1] "%(perks)s noder"
+msgstr[2] "%(perks)s noder"
+
+msgid "footer/button/label"
+msgstr "Forska"
+
+msgid "footer/description/text/allResearched"
+msgstr "Alla noder har forskats fram. Du har nu tillgång till elitbelöningar."
+
+msgid "footer/description/text/emergencyModeEnabled"
+msgstr "WG Wallet är tillfälligt ej tillgänglig. Vi ber om ursäkt för besväret."
+
+msgid "footer/description/text/inBattle"
+msgstr "Nod ej tillgänglig. Vagnen är i strid."
+
+msgid "footer/description/text/inFormation"
+msgstr "Nod ej tillgänglig. Vagnen ingår i en taktisk enhet."
+
+msgid "footer/description/text/needsRepair"
+msgstr "Nod ej tillgänglig. Vagnen ej reparerad."
+
+msgid "footer/description/text/notInInventory"
+msgstr "Du måste äga den här vagnen för att forska fram dess noder"
+
+msgid "footer/description/text/researchAvailable"
+msgstr "Välj nod eller gren att forska fram"
+
+msgid "footer/text/amountItems"
+msgstr "{{amount}} noder"
+
+msgid "footer/text/selectedItem"
+msgstr "Valt: {{selectedItem}}"
+
+msgid "footer/tooltip/body/emergencyModeEnabled"
+msgstr "WG Wallet är tillfälligt ej tillgänglig. Vi ber om ursäkt för besväret."
+
+msgid "footer/tooltip/body/inBattle"
+msgstr "Nod ej tillgänglig. Vagnen är i strid."
+
+msgid "footer/tooltip/body/inFormation"
+msgstr "Nod ej tillgänglig. Vagnen ingår i en taktisk enhet."
+
+msgid "footer/tooltip/body/needsRepair"
+msgstr "Nod ej tillgänglig. Vagnen ej reparerad."
+
+msgid "footer/tooltip/body/notEnoughExp"
+msgstr "Erfarenhet saknas för att forska fram valda noder."
+
+msgid "footer/tooltip/body/researchInProgress"
+msgstr "Forskning pågår, vänligen vänta..."
+
+msgid "footer/tooltip/header/emergencyModeEnabled"
+msgstr "Ej tillgänglig"
+
+msgid "footer/tooltip/header/info"
+msgstr "Välj noder"
+
+msgid "footer/tooltip/listSelectedPerks"
+msgid_plural "plural/footer/tooltip/listSelectedPerks"
+msgstr[0] "• {{selectedPerks}},"
+msgstr[1] "• {{selectedPerks}}."
+msgstr[2] "• {{selectedPerks}}."
+
+msgid "intro/button"
+msgstr "Uppfattat!"
+
+msgid "intro/button/tooltip"
+msgstr "Om uppgraderingar"
+
+msgid "intro/improvements/description"
+msgstr "Tjäna stridserfarenhet för att forska fram noder som förbättrar vagnens egenskaper. Den slutgiltiga värdet beräknas baserat på både additiva och multiplikativa bonusar och kan därför variera något från det angivna värdet."
+
+msgid "intro/improvements/title"
+msgstr "Så funkar det"
+
+msgid "intro/progression/description"
+msgstr "Uppgraderingar är endast tillgängliga för vagnar klass XI och låter dig ytterligare förbättra vagnens egenskaper."
+
+msgid "intro/progression/title"
+msgstr "Uppgraderingar"
+
+msgid "intro/vanity/description"
+msgstr "När du forskat fram alla noder får du tillgång till elitbelöningar som du kan ta emot när du når vissa elitnivåer. Belöningarna inkluderar en unik volymetrisk stil, statistikvisare och eldrörsutseende!"
+
+msgid "intro/vanity/title"
+msgstr "Elitbelöningar"
+
+msgid "kpi/bonus/valueTypes/cnt"
+msgstr " st"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/gps"
+msgstr " grader/s"
+
+msgid "kpi/bonus/valueTypes/grads"
+msgstr " grader"
+
+msgid "kpi/bonus/valueTypes/m"
+msgstr " m"
+
+msgid "kpi/bonus/valueTypes/mm"
+msgstr " mm"
+
+msgid "kpi/bonus/valueTypes/mph"
+msgstr " km/h"
+
+msgid "kpi/bonus/valueTypes/mps"
+msgstr " m/s"
+
+msgid "kpi/bonus/valueTypes/p"
+msgstr " hk"
+
+msgid "kpi/bonus/valueTypes/s"
+msgstr " s"
+
+msgid "kpi/bonus/valueTypes/val"
+msgstr " TP"
+
+msgid "notifications/perkAvailable/disabledButtonTooltip"
+msgstr "Den här funktionen finns inte tillgänglig just nu"
+
+msgid "notifications/perkAvailable/goToProgression"
+msgstr "Gå till uppgraderingar"
+
+msgid "notifications/perkAvailable/title"
+msgstr "Du har nog med erfarenhet för att förbättra din vagn!"
+
+msgid "rewardScreen/button/accept"
+msgstr "Uppfattat"
+
+msgid "rewardScreen/button/check"
+msgstr "Visa i utseenden"
+
+msgid "rewardScreen/rewardName"
+msgstr "{{rarity}} {{rewardName}}"
+
+msgid "rewardScreen/subtitle"
+msgstr "För att du nått elitnivå {{prestigeLevel}} med {{name}} {{type}} {{level}}"
+
+msgid "rewardScreen/title"
+msgstr "ELITBELÖNINGAR"
+
+msgid "tooltips/backToMainProgressionEntryPoint/text"
+msgstr "Uppgraderingar är endast tillgängliga för vagnar klass XI och låter dig ytterligare förbättra vagnens egenskaper."
+
+msgid "tooltips/backToMainProgressionEntryPoint/title"
+msgstr "Uppgraderingar"
+
+msgid "tooltips/common/cost"
+msgstr "Kostnad: {{amount}}"
+
+msgid "tooltips/description/HEDamageAbsorption"
+msgstr "Förbättrar vagnens förmåga att absorbera skada från spränggranater och rammning."
+
+msgid "tooltips/description/HEShellDamage"
+msgstr "Ökar skadeverkan för spränggranater."
+
+msgid "tooltips/description/HEshellVelocity"
+msgstr "Ökar utgångshastigheten för spränggranater."
+
+msgid "tooltips/description/a179_mechanic_0"
+msgstr "Minskar siktesspridningen för andra granaten i en salva med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a179_mechanic_1"
+msgstr "Minskar nedkylningen för salveld med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_0"
+msgstr "Ökar omladdningsbonusen per effektnivå med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_1"
+msgstr "Förlänger verkanstiden för omladdningseffektivitetsnivåer med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_2"
+msgstr "Förlänger verkanstiden för omladdningseffektivitetsnivåer med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_3"
+msgstr "Ökar omladdningsbonusen per effektnivå med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_0"
+msgstr "Minskar nedkylningstiden innan mekaniken kan användas igen med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_1"
+msgstr "Minskar nedkylningstiden innan mekaniken kan användas igen med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_2"
+msgstr "Förlänger verkanstiden för mekaniken med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_3"
+msgstr "Förlänger verkanstiden för mekaniken med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_1"
+msgstr "Minskar siktesspridningen på 100m för enkelladdade skott med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_2"
+msgstr "Ökar skadan åsamkad av enkelladdade skott med standard- och specialammunition med {colorTagOpen}{value} TP{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_3"
+msgstr "Ökar utgångshastigheten för enkelladdade skott med {colorTagOpen}{value} m/s{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_4"
+msgstr "Minskar omladdningstiden för enkelladdade skott med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/advancedChassisProtection"
+msgstr "Ökar upphängningens träffpoäng och reparationshastighet."
+
+msgid "tooltips/description/advancedModuleAndCrewProtection"
+msgstr "Minskar effekten av skadat ammunitionsställ eller skadad motor samt minskar risken att en besättningsmedlem blir skadad när vagnen tar skada."
+
+msgid "tooltips/description/aimingCircleSize"
+msgstr "Minskar storleken på siktesringen efter eldgivning."
+
+msgid "tooltips/description/aimingTime"
+msgstr "Minskar sikttiden för vagnen."
+
+msgid "tooltips/description/aimingTimeSalvo"
+msgstr "Minskar sikttiden för vagnen vid enkelskott."
+
+msgid "tooltips/description/allShellDamage"
+msgstr "Ökar skadeverkan för alla granattyper."
+
+msgid "tooltips/description/allShellsVelocity"
+msgstr "Ökar utgångshastigheten för alla granattyper."
+
+msgid "tooltips/description/ammoRackHP"
+msgstr "Ökar mängden skada ammunitionsstället tål innan det förstörs."
+
+msgid "tooltips/description/ammoRackPenalty"
+msgstr "Minskar effekten av ett skadat ammunitionsställ."
+
+msgid "tooltips/description/basicShellDamage"
+msgstr "Ökar skadeverkan för standardgranater."
+
+msgid "tooltips/description/ch67_mechanic_0"
+msgstr "Ökar skrovrotationen när raketmotorn är aktiv med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_1"
+msgstr "Ökar topphastigheten när raketmotorn är aktiv med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_2"
+msgstr "Minskar nedkylningen innan raketmotorn är fulltankad med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_3"
+msgstr "Förlänger verkanstiden för raketmotorn med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_0"
+msgstr "Ökar bonusen raketmotorn ger till motorstyrkan med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_1"
+msgstr "Minskar nedkylningstiden innan raketmotorn kan användas igen med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_2"
+msgstr "Ökar bonusen raketmotorn ger till motorstyrkan med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_3"
+msgstr "Ökar antalet gånger raketmotorn kan användas under en enda strid med {colorTagOpen}{value}{colorTagClose}."
+
+msgid "tooltips/description/crewProtection"
+msgstr "Minskar risken att besättningsmedlemmar skadas när vagnen tar skada."
+
+msgid "tooltips/description/damagedGunDispersion"
+msgstr "Minskar siktesspridningen när kanonen är skadad."
+
+msgid "tooltips/description/driveModeForwardSpeed"
+msgstr "Ökar topphastigheten i förflyttningsläge."
+
+msgid "tooltips/description/driveModeReverseSpeed"
+msgstr "Ökar backhastigheten i förflyttningsläge."
+
+msgid "tooltips/description/enginePenalty"
+msgstr "Minskar effekten av en skadad motor."
+
+msgid "tooltips/description/enginePower"
+msgstr "Ökar motorstyrkan, vilket ger bättre acceleration och låter vagnen köra snabbare i uppförsbacke."
+
+msgid "tooltips/description/f135_mechanic_0"
+msgstr "Minskar tiden tills omladdningen börjar med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f135_mechanic_1"
+msgstr "Minskar fördröjningen innan eldgivning med {colorTagOpen}{value}%{colorTagClose} när omladdningen avbryts."
+
+msgid "tooltips/description/f136_mechanic_0"
+msgstr "Minskar tiden som läggs till omladdningstiden för salvan efter sista granaten avfyrats med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_0"
+msgstr "Minskar den negativa effekten på siktesspridningen på 100m med {colorTagOpen}{value0}%{colorTagClose} och den negativa effekten på sikttiden med {colorTagOpen}{value1}%{colorTagClose} vid överladdning."
+
+msgid "tooltips/description/f143_mechanic_1"
+msgstr "Ökar laddningstakten med {colorTagOpen}{value}%/s{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_2"
+msgstr "Minskar laddningen som förbrukas vid eldgivning med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_3"
+msgstr "Ökar extraskadan vid överladdning med {colorTagOpen}{value0} TP{colorTagClose} och maximal skadebonus vid överladdning med {colorTagOpen}{value1}%{colorTagClose}."
+
+msgid "tooltips/description/forwardSpeed"
+msgstr "Ökar vagnens topphastighet."
+
+msgid "tooltips/description/g185_mechanic_0"
+msgstr "Förbättrar siktesspridningen med {colorTagOpen}{value}%{colorTagClose} per nivå av precision."
+
+msgid "tooltips/description/g185_mechanic_1"
+msgstr "Ökar högsta hastigheten då precisionsnivån kan ökas med {colorTagOpen}{value} km/h{colorTagClose}."
+
+msgid "tooltips/description/g185_mechanic_2"
+msgstr "Minskar tiden det tar att nå nästa precisionsnivå med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g185_mechanic_3"
+msgstr "Förbättrar stabilitetsbonusen med {colorTagOpen}{value}%{colorTagClose} vid maximal precisionsnivå."
+
+msgid "tooltips/description/g187_mechanic_0"
+msgstr "Minskar omladdningstiden för förstärkningsvapen med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g187_mechanic_1"
+msgstr "Minskar omladdningstiden för förstärkningsvapen med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_0"
+msgstr "Ökar tiden en markerad fiendevagn förblir synlig med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_1"
+msgstr "Minskar nedkylningstiden innan mekaniken kan användas igen med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_2"
+msgstr "Minskar nedkylningstiden innan mekaniken kan användas första gången med {colorTagOpen}{value} {colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_3"
+msgstr "Ökar skadan markerade fiender tar från allierade med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_0"
+msgstr "Ökar högsta hastigheten då granater kan förvärmas med {colorTagOpen}{value} km/h{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_1"
+msgstr "Ökar maximal bonus för siktesspridning från förvärmning med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_2"
+msgstr "Ökar maximal skadebonus från förvärmning med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_3"
+msgstr "Minskar tiden det tar att nå högsta nivå av uppvärmning med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb147_mechanic_0"
+msgstr "Minskar siktesspridningen med {colorTagOpen}{value} meter{colorTagClose} i salveldsläge."
+
+msgid "tooltips/description/gb147_mechanic_1"
+msgstr "Ökar tornrotationen med {colorTagOpen}{value} grader/s{colorTagClose} i salveldsläge."
+
+msgid "tooltips/description/gb147_mechanic_2"
+msgstr "Minskar sikttiden med {colorTagOpen}{value} s{colorTagClose} i salveldsläge."
+
+msgid "tooltips/description/gb147_mechanic_3"
+msgstr "Ökar topphastigheten med {colorTagOpen}{value} km/h{colorTagClose} i salveldsläge."
+
+msgid "tooltips/description/gb152_mechanic_0"
+msgstr "Minskar tiden att växla till och från direktverkansläge med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb152_mechanic_1"
+msgstr "Minskar tiden det tar att nå högsta effekt av direktverkan med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb152_mechanic_2"
+msgstr "Ökar motorstyrkan med {colorTagOpen}{value}%{colorTagClose} i direktverkansläge."
+
+msgid "tooltips/description/gb152_mechanic_3"
+msgstr "Ökar topphastigheten med {colorTagOpen}{value}%{colorTagClose} i direktverkansläge."
+
+msgid "tooltips/description/gb158_mechanic_0"
+msgstr "Ökar effekten på motorstyrkan för Turboöverväxel med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_1"
+msgstr "Ökar topphastigheten bakåt när Turboöverväxel är aktiv med {colorTagOpen}{value} km/h{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_2"
+msgstr "Förlänger verkanstiden för Turboöverväxel med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_3"
+msgstr "Minskar nedkylningstiden innan Turboöverväxel kan användas igen med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gunDepression"
+msgstr "Ökar kanondumpningsförmågan."
+
+msgid "tooltips/description/gunDispersion"
+msgstr "Ökar träffsäkerheten inom siktesringen."
+
+msgid "tooltips/description/gunDispersionSalvo"
+msgstr "Ökar träffsäkerheten inom siktesringen i enkelskottsläge."
+
+msgid "tooltips/description/gunStabilization"
+msgstr "Ökar kanonstabiliteten i alla situationer."
+
+msgid "tooltips/description/gunStabilizationFromHull"
+msgstr "Ökar kanonstabiliteten vid förflyttning och skrovrotation."
+
+msgid "tooltips/description/gunStabilizationFromHullMovement"
+msgstr "Ökar kanonstabiliteten vid skrovrörelser."
+
+msgid "tooltips/description/gunStabilizationFromHullRotation"
+msgstr "Ökar kanonstabiliteten vid skrovrotation."
+
+msgid "tooltips/description/gunStabilizationFromHullSalvo"
+msgstr "Ökar kanonstabiliteten vid förflyttning och skrovrotation i enkelskottsläge."
+
+msgid "tooltips/description/gunStabilizationFromTurret"
+msgstr "Ökar kanonstabiliteten vid tornrotation."
+
+msgid "tooltips/description/gunStabilizationFromTurretSalvo"
+msgstr "Ökar kanonstabiliteten vid tornrotation i enkelskottsläge."
+
+msgid "tooltips/description/gunTraverse"
+msgstr "Ökar kanonens rotationsgränser i horisontalplanet."
+
+msgid "tooltips/description/hitPoints"
+msgstr "Ökar vagnens tålighet och låter den ta mer skada innan den förstörs."
+
+msgid "tooltips/description/innerClipReloadTime"
+msgstr "Minskar omladdningstiden mellan granater i magasinet."
+
+msgid "tooltips/description/invisibilityWhenShooting"
+msgstr "Minskar risken att upptäckas av fiendevagnar vid eldgivning."
+
+msgid "tooltips/description/j52_mechanic_0"
+msgstr "Minskar fördröjningen av kanonnedkylningen med {colorTagOpen}{value}{colorTagClose}."
+
+msgid "tooltips/description/j52_mechanic_1"
+msgstr "Minskar värmen som genereras per skott med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j52_mechanic_2"
+msgstr "Ökar nedkylningen av en uppvärmd kanon med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/nonHEShellDamage"
+msgstr "Ökar skadeverkan för alla granater utom spränggranater."
+
+msgid "tooltips/description/opt_dev_boosters_switch"
+msgstr "Låter dig skapa alternativa konfigurationer med utrustning och anvisningar."
+
+msgid "tooltips/description/overheat_coolingDelay"
+msgstr "Minskar fördröjningen av kanonnedkylningen med {colorTagOpen}{value}{colorTagClose}."
+
+msgid "tooltips/description/overheat_coolingPerSec"
+msgstr "Ökar nedkylningen av en uppvärmd eller överhettad kanon med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/overheat_heatingPerShot"
+msgstr "Minskar värmen som genereras per skott med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/overheat_overheatedCoolingPerSec"
+msgstr "Ökar nedkylningen av en överhettad kanon med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_0"
+msgstr "Minskar tiden att växla mellan olika lägen med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_1"
+msgstr "Ökar energimängden som passivt genereras varje sekund i turboläge med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_2"
+msgstr "Ökar energimängden som passivt genereras varje sekund i kampläge med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_3"
+msgstr "Förlänger verkanstiden i både turbo- och kampläge med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_0"
+msgstr "Ökar skadan åsamkad fiendevagnar genom rammning med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_1"
+msgstr "Ökar skadan åsamkad fiendens upphängning vid rammning med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_2"
+msgstr "Ökar skadan åsamkad fiendevagnar genom rammning med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_3"
+msgstr "Ökar skadan åsamkad fiendevagnar genom rammning med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_0"
+msgstr "Minskar tiden tills kanonen kan avfyras igen efter överhettning med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_1"
+msgstr "Ökar hur länge en granat kan hållas vid maximal nivå av uppvärmning med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_2"
+msgstr "Minskar tiden tills kanonen kan avfyras igen efter överhettning med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_3"
+msgstr "Ökar skadebonusen per nivå av uppvärmning med {colorTagOpen}{value0}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value1}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value2}%{colorTagClose}."
+
+msgid "tooltips/description/reducedRammingDamage"
+msgstr "Minskar skadan vagnen tar när den rammas av fienden."
+
+msgid "tooltips/description/reloadTimeTwinGun"
+msgstr "Minskar omladdningstiden i både enkelskott- och salveldsläge."
+
+msgid "tooltips/description/reverseSpeed"
+msgstr "Ökar vagnens backhastighet."
+
+msgid "tooltips/description/roleSlot"
+msgstr "Välj en kategori för andra utrustningsplatsen"
+
+msgid "tooltips/description/s36_mechanic_0"
+msgstr "Ökar skrovrotations- och kanoneleveringshastigheten i förskansningsläge med {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s36_mechanic_1"
+msgstr "Minskar tiden att växla från förskansningsläge med {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/s36_mechanic_2"
+msgstr "Minskar siktesspridningen med {colorTagOpen}{value}%{colorTagClose} i förskansningsläge."
+
+msgid "tooltips/description/s36_mechanic_3"
+msgstr "Minskar omladdningstiden med {colorTagOpen}{value}%{colorTagClose} i förskansningsläge."
+
+msgid "tooltips/description/selectiveModuleHPBoost"
+msgstr "Ökar träffpoängen för vagnens bränsletank och motor."
+
+msgid "tooltips/description/selectiveModuleProtection"
+msgstr "Minskar effekten av ett skadat ammunitionsställ och skadad motor."
+
+msgid "tooltips/description/shellModuleDamage"
+msgstr "Ökar dina granaters skadeverkan på fiendens moduler."
+
+msgid "tooltips/description/shells_consumables_switch"
+msgstr "Låter dig skapa alternativa konfigurationer med ammunition och förnödenheter."
+
+msgid "tooltips/description/specialShellDamage"
+msgstr "Ökar skadeverkan för specialgranater."
+
+msgid "tooltips/description/specialShellPenetration"
+msgstr "Ökar genomslagsförmågan för specialgranater."
+
+msgid "tooltips/description/specialShellVelocity"
+msgstr "Ökar utgångshastigheten för specialgranater."
+
+msgid "tooltips/description/spottingBonusFoliage"
+msgstr "Minskar kamouflagevärdet för fiendevagnar som är kamouflerade av växtlighet."
+
+msgid "tooltips/description/spottingBonusMovement"
+msgstr "Minskar kamouflagevärdet för fiendevagnar i rörelse"
+
+msgid "tooltips/description/standardShellDamage"
+msgstr "Ökar skadeverkan för standardgranater."
+
+msgid "tooltips/description/standardShellPenetration"
+msgstr "Ökar genomslagsförmågan för standardgranater."
+
+msgid "tooltips/description/standardShellVelocity"
+msgstr "Ökar utgångshastigheten för standardgranater."
+
+msgid "tooltips/description/stunDuration"
+msgstr "Minskar chocktiden från fiendegranater."
+
+msgid "tooltips/description/turretTraverse"
+msgstr "Ökar tornets rotationsgränser i horisontalplanet."
+
+msgid "tooltips/description/turretTraverseStability"
+msgstr "Minskar siktesspridning vid tornrotation i kampläge."
+
+msgid "tooltips/description/vehicleSpeed"
+msgstr "Ökar vagnens topphastighet framåt och bakåt."
+
+msgid "tooltips/description/viewRange"
+msgstr "Låter dig upptäcka fienden från längre avstånd."
+
+msgid "tooltips/large/eliteStatus"
+msgstr "Ger vagnen elitstatus"
+
+msgid "tooltips/large/perksResearchRequired"
+msgstr "Forska fram alla andra noder för att kunna forska fram den här noden."
+
+msgid "tooltips/paramNameWithUnit"
+msgstr "{paramName} ({unit})"
+
+msgid "tooltips/perk/category/concealment"
+msgstr "Kategori: Maskering"
+
+msgid "tooltips/perk/category/firepower"
+msgstr "Kategori: Eldkraft"
+
+msgid "tooltips/perk/category/mechanics"
+msgstr "Kategori: Uppgradering"
+
+msgid "tooltips/perk/category/mobility"
+msgstr "Kategori: Rörlighet"
+
+msgid "tooltips/perk/category/special"
+msgstr "Specialuppgradering"
+
+msgid "tooltips/perk/category/spotting"
+msgstr "Kategori: Observation"
+
+msgid "tooltips/perk/category/survivability"
+msgstr "Kategori: Skydd"
+
+msgid "tooltips/special/tapToModify"
+msgstr "Klicka för att ändra när du forskat fram noden."
+
+msgid "tooltips/title/HEDamageAbsorption"
+msgstr "Sprängskadeabsorbering"
+
+msgid "tooltips/title/HEShellDamage"
+msgstr "Skada från spränggranat"
+
+msgid "tooltips/title/HEShellPenetration"
+msgstr "Genomslag för spränggranat"
+
+msgid "tooltips/title/HEshellVelocity"
+msgstr "Hastighet för spränggranater"
+
+msgid "tooltips/title/a179_mechanic_0"
+msgstr "Semi-aktiv massdämpare"
+
+msgid "tooltips/title/a179_mechanic_1"
+msgstr "Kedjedriven ansättare"
+
+msgid "tooltips/title/a182_mechanic_0"
+msgstr "Semi-automatisk torsionsutdragare"
+
+msgid "tooltips/title/a182_mechanic_1"
+msgstr "Avancerat luftfilter för stridsutrymmet"
+
+msgid "tooltips/title/a182_mechanic_2"
+msgstr "Centrifugal övertrycksfläkt"
+
+msgid "tooltips/title/a182_mechanic_3"
+msgstr "Specialammunitionsfästen"
+
+msgid "tooltips/title/a183_mechanic_0"
+msgstr "Högeffektskompressor"
+
+msgid "tooltips/title/a183_mechanic_1"
+msgstr "Kompressorkolv 6 000 PSI"
+
+msgid "tooltips/title/a183_mechanic_2"
+msgstr "Pneumatiskt system 6 000 PSI"
+
+msgid "tooltips/title/a183_mechanic_3"
+msgstr "Extra högtryckscylinder"
+
+msgid "tooltips/title/a195_mechanic_1"
+msgstr "Minskad ballistisk variation"
+
+msgid "tooltips/title/a195_mechanic_2"
+msgstr "Förstärkt enkelladdning"
+
+msgid "tooltips/title/a195_mechanic_3"
+msgstr "Snabbare enkelladdning"
+
+msgid "tooltips/title/a195_mechanic_4"
+msgstr "Lätt laddningsseparator"
+
+msgid "tooltips/title/additionalShellAmmoCapacity"
+msgstr "Extra ammunitionskapacitet"
+
+msgid "tooltips/title/advancedChassisProtection"
+msgstr "Avancerad upphängningsförstärkning"
+
+msgid "tooltips/title/advancedModuleAndCrewProtection"
+msgstr "Avancerat modul- och besättningsskydd"
+
+msgid "tooltips/title/aimingCircleSize"
+msgstr "Storlek på siktesringen"
+
+msgid "tooltips/title/aimingTime"
+msgstr "Sikttid"
+
+msgid "tooltips/title/aimingTimeSalvo"
+msgstr "Sikttid"
+
+msgid "tooltips/title/allShellDamage"
+msgstr "All granatskada"
+
+msgid "tooltips/title/allShellsVelocity"
+msgstr "Utgångshastighet"
+
+msgid "tooltips/title/ammoRackHP"
+msgstr "TP för ammunitionsstället"
+
+msgid "tooltips/title/ammoRackPenalty"
+msgstr "Effekt av skadat ammunitionsställ"
+
+msgid "tooltips/title/basicShellDamage"
+msgstr "Skada från standardgranat"
+
+msgid "tooltips/title/ch67_mechanic_0"
+msgstr "Vektorstyrning"
+
+msgid "tooltips/title/ch67_mechanic_1"
+msgstr "Högkapacitetsbränslepump"
+
+msgid "tooltips/title/ch67_mechanic_2"
+msgstr "Avdunstningskylning"
+
+msgid "tooltips/title/ch67_mechanic_3"
+msgstr "Transpirationskylda munstycken"
+
+msgid "tooltips/title/ch70_mechanic_0"
+msgstr "Högenergidrivladdning"
+
+msgid "tooltips/title/ch70_mechanic_1"
+msgstr "Semi-automatisk raketutdragare"
+
+msgid "tooltips/title/ch70_mechanic_2"
+msgstr "Optimerad kärnform"
+
+msgid "tooltips/title/ch70_mechanic_3"
+msgstr "Utökad raketlast"
+
+msgid "tooltips/title/chassisHP"
+msgstr "TP för upphängningen"
+
+msgid "tooltips/title/chassisRepairSpeed"
+msgstr "Reparationshastighet för upphängningen"
+
+msgid "tooltips/title/crewProtection"
+msgstr "Besättningsskydd"
+
+msgid "tooltips/title/damagedGunDispersion"
+msgstr "Siktesspridning med skadad kanon"
+
+msgid "tooltips/title/driveModeForwardSpeed"
+msgstr "Topphastighet i förflyttningsläge"
+
+msgid "tooltips/title/driveModeReverseSpeed"
+msgstr "Backhastighet i förflyttningsläge"
+
+msgid "tooltips/title/engineFireChance"
+msgstr "Risk för motorbrand"
+
+msgid "tooltips/title/engineHP"
+msgstr "TP för motorn"
+
+msgid "tooltips/title/enginePenalty"
+msgstr "Effekt av skadad motor"
+
+msgid "tooltips/title/enginePower"
+msgstr "Motorstyrka"
+
+msgid "tooltips/title/f135_mechanic_0"
+msgstr "Hydraulslangsoptimering"
+
+msgid "tooltips/title/f135_mechanic_1"
+msgstr "Optimerat omladdningsförfarande"
+
+msgid "tooltips/title/f136_mechanic_0"
+msgstr "Förbättrad omladdningsmekanik"
+
+msgid "tooltips/title/f143_mechanic_0"
+msgstr "Värmeisolerat eldrör"
+
+msgid "tooltips/title/f143_mechanic_1"
+msgstr "Högeffektsgenerator"
+
+msgid "tooltips/title/f143_mechanic_2"
+msgstr "Lågresistanskablar"
+
+msgid "tooltips/title/f143_mechanic_3"
+msgstr "Trimmad laddbegränsare"
+
+msgid "tooltips/title/forwardSpeed"
+msgstr "Topphastighet framåt"
+
+msgid "tooltips/title/fuelTankHP"
+msgstr "TP för bränsletanken"
+
+msgid "tooltips/title/g185_mechanic_0"
+msgstr "Corioliseffektsgivare"
+
+msgid "tooltips/title/g185_mechanic_1"
+msgstr "Gyroskopisk lutningsgivare"
+
+msgid "tooltips/title/g185_mechanic_2"
+msgstr "Utökad inmatningsenhet"
+
+msgid "tooltips/title/g185_mechanic_3"
+msgstr "Högprecisionsrotationsgivare"
+
+msgid "tooltips/title/g187_mechanic_0"
+msgstr "Förbättrat granatställ för förstärkningsvapen"
+
+msgid "tooltips/title/g187_mechanic_1"
+msgstr "Ansättare för förstärkningsvapen"
+
+msgid "tooltips/title/g188_mechanic_0"
+msgstr "Avancerad målföljningsanordning"
+
+msgid "tooltips/title/g188_mechanic_1"
+msgstr "Högeffektskylfläns"
+
+msgid "tooltips/title/g188_mechanic_2"
+msgstr "Högströmsgenerator"
+
+msgid "tooltips/title/g188_mechanic_3"
+msgstr "Lågdispersionsrubinlaser"
+
+msgid "tooltips/title/g189_mechanic_0"
+msgstr "Modifierat kraftuttag"
+
+msgid "tooltips/title/g189_mechanic_1"
+msgstr "Dubbel värmekontrollgivare"
+
+msgid "tooltips/title/g189_mechanic_2"
+msgstr "Precisionsvärmekontroll"
+
+msgid "tooltips/title/g189_mechanic_3"
+msgstr "Högeffektsgenerator"
+
+msgid "tooltips/title/gb147_mechanic_0"
+msgstr "Förbelastad rekylmantel"
+
+msgid "tooltips/title/gb147_mechanic_1"
+msgstr "Avancerad rotationsmekanism"
+
+msgid "tooltips/title/gb147_mechanic_2"
+msgstr "Lutningskontrollsystem"
+
+msgid "tooltips/title/gb147_mechanic_3"
+msgstr "Öppen momentregulator"
+
+msgid "tooltips/title/gb152_mechanic_0"
+msgstr "Justerad utväxling"
+
+msgid "tooltips/title/gb152_mechanic_1"
+msgstr "Optimerad turbingeometri"
+
+msgid "tooltips/title/gb152_mechanic_2"
+msgstr "Optimerat grenrör"
+
+msgid "tooltips/title/gb152_mechanic_3"
+msgstr "Modifierad varvtalsregulator"
+
+msgid "tooltips/title/gb158_mechanic_0"
+msgstr "Justerad tryckregulator"
+
+msgid "tooltips/title/gb158_mechanic_1"
+msgstr "Moderniserat grenrör"
+
+msgid "tooltips/title/gb158_mechanic_2"
+msgstr "Utökad lufttank"
+
+msgid "tooltips/title/gb158_mechanic_3"
+msgstr "Högeffektiv luftkompressor"
+
+msgid "tooltips/title/gunDepression"
+msgstr "Kanondumpningsförmåga"
+
+msgid "tooltips/title/gunDispersion"
+msgstr "Siktesspridning"
+
+msgid "tooltips/title/gunDispersionSalvo"
+msgstr "Siktesspridning"
+
+msgid "tooltips/title/gunElevation"
+msgstr "Kanoneleveringsförmåga"
+
+msgid "tooltips/title/gunStabilization"
+msgstr "Total kanonstabilisering"
+
+msgid "tooltips/title/gunStabilizationFromHull"
+msgstr "Partiell kanonstabilisering"
+
+msgid "tooltips/title/gunStabilizationFromHullMovement"
+msgstr "Rörelsestabilisering"
+
+msgid "tooltips/title/gunStabilizationFromHullRotation"
+msgstr "Rotationsstabilisering"
+
+msgid "tooltips/title/gunStabilizationFromHullSalvo"
+msgstr "Partiell kanonstabilisering"
+
+msgid "tooltips/title/gunStabilizationFromTurret"
+msgstr "Partiell kanonstabilisering"
+
+msgid "tooltips/title/gunStabilizationFromTurretSalvo"
+msgstr "Partiell kanonstabilisering"
+
+msgid "tooltips/title/gunTraverse"
+msgstr "Förbättrad kanonrotation"
+
+msgid "tooltips/title/hitPoints"
+msgstr "Träffpoäng (TP)"
+
+msgid "tooltips/title/hullElevationSpeed"
+msgstr "Skroveleveringshastighet"
+
+msgid "tooltips/title/hullTraverseSpeed"
+msgstr "Skrovrotationshastighet"
+
+msgid "tooltips/title/innerClipReloadTime"
+msgstr "Omladdningstid inom magasinet"
+
+msgid "tooltips/title/invisibilityWhenShooting"
+msgstr "Maskering vid eldgivning"
+
+msgid "tooltips/title/j52_mechanic_0"
+msgstr "Lågtemperaturkylvätska"
+
+msgid "tooltips/title/j52_mechanic_1"
+msgstr "Högkonduktiv värmekåpa"
+
+msgid "tooltips/title/j52_mechanic_2"
+msgstr "Optimerade värmeledningar"
+
+msgid "tooltips/title/nonHEShellDamage"
+msgstr "Granatskada (exkl. spränggranater)"
+
+msgid "tooltips/title/opt_dev_boosters_switch"
+msgstr "Stridslast, utrustning och anvisningar"
+
+msgid "tooltips/title/overheat_coolingDelay"
+msgstr "Krombeläggning"
+
+msgid "tooltips/title/overheat_coolingPerSec"
+msgstr "Högkonduktivt eldrör"
+
+msgid "tooltips/title/overheat_heatingPerShot"
+msgstr "Lågtemperaturdrivladdning"
+
+msgid "tooltips/title/overheat_overheatedCoolingPerSec"
+msgstr "Forcerat ventilationssystem"
+
+msgid "tooltips/title/pl37_mechanic_0"
+msgstr "Lättviktsturbinrotor"
+
+msgid "tooltips/title/pl37_mechanic_1"
+msgstr "Extra högeffektsgenerator"
+
+msgid "tooltips/title/pl37_mechanic_2"
+msgstr "Avancerad transformatorstyrenhet"
+
+msgid "tooltips/title/pl37_mechanic_3"
+msgstr "Hybridkondensatorbatteri"
+
+msgid "tooltips/title/r228_mechanic_0"
+msgstr "Lokal kanthärdning"
+
+msgid "tooltips/title/r228_mechanic_1"
+msgstr "Höglegerade bandlänkar"
+
+msgid "tooltips/title/r228_mechanic_2"
+msgstr "Djup lokal uppkolning"
+
+msgid "tooltips/title/r228_mechanic_3"
+msgstr "Lokal ytuppkolning"
+
+msgid "tooltips/title/r230_mechanic_0"
+msgstr "Högprecisionstemperaturgivare"
+
+msgid "tooltips/title/r230_mechanic_1"
+msgstr "Slutstyckesvärmare"
+
+msgid "tooltips/title/r230_mechanic_2"
+msgstr "Mekaniserad laddbrygga"
+
+msgid "tooltips/title/r230_mechanic_3"
+msgstr "Överbelastad värmekontroll"
+
+msgid "tooltips/title/reducedRammingDamage"
+msgstr "Minskad rammningsskada"
+
+msgid "tooltips/title/reloadTime"
+msgstr "Omladdningstid"
+
+msgid "tooltips/title/reloadTimeTwinGun"
+msgstr "Omladdningstid"
+
+msgid "tooltips/title/reverseSpeed"
+msgstr "Backhastighet"
+
+msgid "tooltips/title/roleSlot"
+msgstr "Andra platsens kategori"
+
+msgid "tooltips/title/s36_mechanic_0"
+msgstr "Axialkolvpump"
+
+msgid "tooltips/title/s36_mechanic_1"
+msgstr "Avancerade synkroniseringsringar"
+
+msgid "tooltips/title/s36_mechanic_2"
+msgstr "Precisionsbalanserad rotor"
+
+msgid "tooltips/title/s36_mechanic_3"
+msgstr "Hydraulisk ansättare"
+
+msgid "tooltips/title/selectiveModuleHPBoost"
+msgstr "Manuell modulförstärkning"
+
+msgid "tooltips/title/selectiveModuleProtection"
+msgstr "Manuellt modulskydd"
+
+msgid "tooltips/title/shellModuleDamage"
+msgstr "Modulgranatskada"
+
+msgid "tooltips/title/shells_consumables_switch"
+msgstr "Stridslast, ammunition och förnödenheter"
+
+msgid "tooltips/title/specialShellDamage"
+msgstr "Skada från specialgranat"
+
+msgid "tooltips/title/specialShellPenetration"
+msgstr "Ökad genomslagsförmåga"
+
+msgid "tooltips/title/specialShellVelocity"
+msgstr "Ökad utgångshastighet"
+
+msgid "tooltips/title/spottingBonusFoliage"
+msgstr "Spaningsbonus: Växtlighet"
+
+msgid "tooltips/title/spottingBonusMovement"
+msgstr "Spaningsbonus: Rörelser"
+
+msgid "tooltips/title/standardShellDamage"
+msgstr "Skada från standardgranat"
+
+msgid "tooltips/title/standardShellPenetration"
+msgstr "Normal genomslagsförmåga"
+
+msgid "tooltips/title/standardShellVelocity"
+msgstr "Normal utgångshastighet"
+
+msgid "tooltips/title/stunDuration"
+msgstr "Chocktid"
+
+msgid "tooltips/title/turretTraverse"
+msgstr "Ökad tornrotationshastighet"
+
+msgid "tooltips/title/turretTraverseSpeed"
+msgstr "Tornrotationshastighet"
+
+msgid "tooltips/title/turretTraverseStability"
+msgstr "Stabiliserad tornrotation"
+
+msgid "tooltips/title/vehicleSpeed"
+msgstr "Vagnshastighet"
+
+msgid "tooltips/title/viewRange"
+msgstr "Ökad siktsträcka"
+
+msgid "tooltips/vanityEntryPoint/statusInfo"
+msgstr "Lås upp den sista noden för att låsa upp"
+
+msgid "tooltips/vanityEntryPoint/text"
+msgstr "Få exklusiva belöningar för vagnar klass XI, bl.a en volymetrisk stil, statistikvisare och eldrörsutseende."
+
+msgid "tooltips/vanityEntryPoint/title"
+msgstr "Elitbelöningar"
+
+msgid "vanity/available/subtitle"
+msgstr "Få belöningar för din vagns elitnivå"
+
+msgid "vanity/available/tooltip"
+msgstr "Aktuell elitnivå"
+
+msgid "vanity/completed/subtitle"
+msgstr "Grattis! Alla belöningar mottagna."
+
+msgid "vanity/completed/tooltip"
+msgstr "Aktuell elitnivå"
+
+msgid "vanity/disabled/subtitle"
+msgstr "Kan erhållas när sista noden forskats fram"
+
+msgid "vanity/disabled/tooltip"
+msgstr "Vagnen har inte elitstatus"
+
+msgid "vanity/reward/level/tooltip"
+msgstr "Elitnivå krävs för belöning"
+
+msgid "vanity/rewardType/description/attachment"
+msgstr "En exklusivt eldrörsutseende som omedelbart får din vagn att synas i mängden på slagfältet."
+
+msgid "vanity/rewardType/description/stattracker"
+msgstr "Ett unikt nytt utseendeelement som visar hur många vagnar du har förstört."
+
+msgid "vanity/rewardType/description/style"
+msgstr "En speciell 2D-stil med unika visuella effekter som ger den ett 3D-utseende, endast tillgängligt för vagnar klass XI."
+
+msgid "vanity/rewardType/title/attachment"
+msgstr "3D-tillbehör eldrörsutseende"
+
+msgid "vanity/rewardType/title/stattracker"
+msgstr "Statistikvisare"
+
+msgid "vanity/rewardType/title/style"
+msgstr "Volymetrisk stil"
+
+msgid "vanity/title"
+msgstr "ELITBELÖNINGAR"

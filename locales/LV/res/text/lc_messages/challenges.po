@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Arī saņemts:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Šo misiju sēriju var spēlēt atkārtoti."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Sapratu!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Aizvērt"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Skatīt Garāžā"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Atkārtojums"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Uz Tīģeļi"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "WoT Premium Konts"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Premium tanks"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Tehnika īrei"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "un stils “{{styleName}}”"
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) diena"
+msgstr[1] "%(day) dienas"
+msgstr[2] "%(day) dienas"
+
+msgid "awards_view/title"
+msgstr "TĪĢELIS PABEIGTS!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Misija par ×5 Pieredzi katru Kauju"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Rasējuma fragments: (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Universāls rasējuma fragments"
+
+msgid "bonuses/bpcoin"
+msgstr "Kaujas Caurlaides Tokens"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Misija par ×3 Apkalpes Pieredzi"
+
+msgid "bonuses/description/attachments_set"
+msgstr "3D stiprinājumu komplekts"
+
+msgid "bonuses/description/booster"
+msgstr "Personālā rezerve"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Atlīdzības aprīkojums"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Apkalpes skins"
+
+msgid "bonuses/description/directive"
+msgstr "Direktīva"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Eksperimentālā iekārta"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Uzlabotas iekārtas"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "un stils “%(styleName)s”"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standarta iekārtas"
+
+msgid "bonuses/description/style"
+msgstr "2D Stils"
+
+msgid "bonuses/description/style_3d"
+msgstr "3D Stils"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Sieviešu apkalpes loceklis"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Rekrūtis"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Apkalpes loceklis"
+
+msgid "condition/achievement"
+msgstr "Iegūstiet %(achievement)s balvu"
+
+msgid "condition/achievement/title"
+msgstr "Kaujas varoņi"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Kopā nodarīt un palīdzēt nodarīt %(goal)s HP bojājumu"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Izdariet, saņemiet un bloķējiet kopumā %(goal)s HP bojājumus"
+
+msgid "condition/aggregated/title"
+msgstr "Kompleksie nosacījumi"
+
+msgid "condition/classes/AT-SPG"
+msgstr "Tanku Iznīcinātājs"
+
+msgid "condition/classes/SPG"
+msgstr "Artilērija"
+
+msgid "condition/classes/heavyTank"
+msgstr "Smagais Tanks"
+
+msgid "condition/classes/lightTank"
+msgstr "Vieglais Tanks"
+
+msgid "condition/classes/mediumTank"
+msgstr "Vidējais Tanks"
+
+msgid "condition/critsCount"
+msgstr "Izraisiet %(goal)s kritiskus trāpījumus ienaidnieka tanku iekšējiem vai ārējiem moduļiem"
+
+msgid "condition/critsCount/title"
+msgstr "Padarīt nekustīgu"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Bloķēt %(goal)s HP bojājumu"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Bloķējiet %(goal)s reizes vairāk bojājumu nekā jūsu tanka HP"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Bloks"
+
+msgid "condition/damageDealt"
+msgstr "Izdariet %(goal)s HP bojājumus ienaidnieka tankiem"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Izraisi %(goal)s reizes lielāku bojājumu nekā tava tanka HP"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Trāpiet ienaidnieka tankiem no attāluma %(distance)s m vai mazāk %(goal)s reizes"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Trāpiet ienaidnieka tankiem no attāluma %(distance)s m vai vairāk %(goal)s reizes"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Izraisiet bojājumus ienaidnieka tankiem, taranējot tos %(goal)s reizes"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Trāpiet ienaidnieka tankiem jūsu tanka redzamības diapazonā %(goal)s reizes"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Izraisiet %(goal)s HP bojājumus pirmajās %(timeLimit)s kaujas minūtēs"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Nodariet %(goal)s HP bojājumus ienaidnieka tankiem no attāluma %(distance)s m vai mazāk"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Nodariet %(goal)s HP bojājumus ienaidnieka tankiem no attāluma, kas ir %(distance)s m vai vairāk"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Nodarīt %(goal)s HP bojājumus ar tarānu"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Taranēšana"
+
+msgid "condition/damageDealt/title"
+msgstr "Bojājumi"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Izraisīt %(goal)s HP bojājumus neizsekojamiem ienaidnieka tankiem"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Nodarīt %(goal)s HP bojājumus ienaidnieka tankiem, kas atrodas tava tanka redzamības zonā"
+
+msgid "condition/kills"
+msgstr "Iznīciniet %(goal)s ienaidnieka tankus"
+
+msgid "condition/kills/classes"
+msgstr "Iznīcināt %(goal)s ienaidnieka %(vehicleClass)s"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Iznīcini %(goal)s ienaidnieka tankus no %(classCount)s dažādiem veidiem"
+
+msgid "condition/kills/title"
+msgstr "Iznīcināt"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Iznīcini %(goal)s ienaidnieka tankus, nesaņemot nekādu bojājumu"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Iznīcināt %(goal)s ienaidnieka tankus, paliekot neatklātam"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Izraisiet %(goal)s%% no kopējā jūsu komandas nodarītā kaitējuma apjoma"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Bojājumi"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Iespiedies ienaidnieka bruņās %(goal)s reizes"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Cauršaušana"
+
+msgid "condition/spotted"
+msgstr "Izlūkojiet %(goal)s ienaidnieka tankus"
+
+msgid "condition/spotted/title"
+msgstr "Atklājiet"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Izlūkojiet %(goal)s ienaidnieka tankus paliekot nepamanīts"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Atklājiet"
+
+msgid "condition/top/damageDealt"
+msgstr "Esi starp labākajiem %(rank)s spēlētājiem savā komandā pēc nodarītajiem bojājumiem"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Esi starp labākajiem %(rank)s spēlētājiem abās komandās pēc nodarītajiem bojājumiem"
+
+msgid "condition/top/title"
+msgstr "Top spēlētājs"
+
+msgid "condition/top/xp"
+msgstr "Esi starp top %(rank)s spēlētājiem savā komandā pēc nopelnītās pieredzes"
+
+msgid "condition/unknown"
+msgstr "Meklēju vispiemērotāko misiju..."
+
+msgid "condition/unknown/title"
+msgstr "Gaida..."
+
+msgid "postbattle/name"
+msgstr "TĪĢELIS"

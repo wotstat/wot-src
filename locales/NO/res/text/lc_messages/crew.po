@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Utvid"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Trekk tilbake utilstrekkelig trent"
+
+msgid "barracks/bunks/title"
+msgstr "Sengeplasser:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Spesifiser antall sengeplasser som skal kjøpes. Tilgjengelige sengeplasser i kaserna: %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Rabattpris"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Ny pris: %(currency)s per %(bunksCount)s sengeplasser"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Forrige kostnad: %(currency)s per %(bunksCount)s sengeplasser"
+
+msgid "barracks/enlarge/header"
+msgstr "Utvide kaserna?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Utilstrekkelig trente besetningsmedlemmer i kaserna som har mindre enn {whiteSpanish_Open}210 060{whiteSpanish_Close}{icon} erfaringspoeng som kreves for å trene opp deres første besetningsfordel til {whiteSpanish_Open}100%{whiteSpanish_Close} kan trekkes tilbake."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Utilstrekkelig trente besetningsmedlemmer"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Du har ingen utilstrekkelig trente besetningsmedlemmer"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Du får ingen kompensasjon for å trekke tilbake utilstrekkelig trente besetningsmedlemmer. Så snart de er trukket tilbake, kan de ikke hentes frem på nytt, og alle deres erfaringspoeng er tapt."
+
+msgid "barracks/title"
+msgstr "KASERNA"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Klikk for å utvide kaserna."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Utvid kaserna"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Plassering"
+
+msgid "common/imageNotAvailable"
+msgstr "Bilde ikke tilgjengelig"
+
+msgid "common/inBarracks"
+msgstr "I kaserna"
+
+msgid "common/inBattle"
+msgstr "I kamp"
+
+msgid "common/inPrebattle"
+msgstr "I taktisk enhet"
+
+msgid "common/navigation/aboutCrew"
+msgstr "OM BESETNING"
+
+msgid "common/navigation/toBarracks"
+msgstr "TIL KASERNA"
+
+msgid "common/navigation/toGarage"
+msgstr "TIL GARASJEN"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "TIL PROFIL"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Bekreftet!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Dine besetningsmedlemmer har blitt konvertert til besetningsbøker."
+
+msgid "conversionAwards/title"
+msgstr "KONVERTERING VELLYKKET"
+
+msgid "conversionAwards/underTitle"
+msgstr "Følgende enheter har blitt lagt til i kontoen din."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Avbryt"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Trekk tilbake"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Besetningsmedlemmer som skal trekkes tilbake: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Trekke tilbake utilstrekkelig trente besetningsmedlemmer?"
+
+msgid "conversionConfirm/warning"
+msgstr "Du får ingen kompensasjon for å trekke tilbake utilstrekkelig trente besetningsmedlemmer. Så snart de er trukket tilbake, kan de ikke hentes frem på nytt, og alle deres erfaringspoeng er tapt."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Autovelg fordeler"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Det er ingen besetningsmedlemmer med utrente fordeler."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Ikke i stand til å autovelge fordeler"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Alle fordeler som ikke er trent som er markert med plusstegn blir byttet ut med fordeler som automatisk velges med spesiell logikk for alle besetninger."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Autovelg fordeler som ikke er trent for alle"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Nullstill fordeler for alle"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Det er ingen besetningsmedlemmer med trente fordeler."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Ikke i stand til å nullstille fordeler"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Elle fordelene blir nullstilt for alle besetningsmedlemmene på kontoen din. Denne handlingen kan ikke reverseres."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Nullstill fordeler for alle"
+
+msgid "crewBanner/infoText"
+msgstr "Gratis nullstilling av fordel eller autovalg av utrente fordeler til alle besetningsmedlemmer på kontoen din"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Intens besetningstrening er aktivert"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Effektivitetsbonus: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Fordelseffektivitet"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Fordeler er ikke tilgjengelig fordi dette besetningsmedlemmet ikke er trent til dette kjøretøyet."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Spesialisering:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Fordeler ikke tilgjengelig"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Bonusfordeler:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Hovedkvalifikasjonsfordeler:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(Kina)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Tsjekkoslovakia)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Frankrike)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Tyskland)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Italia)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japan)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Polen)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Sverige)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(Storbritannia)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(USA)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(Sovjetunionen)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Alle premium panserjagere {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Alle premium SPGer {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Alle tunge premiumtanks {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Alle lette premiumtanks {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Alle medium premiumtanks\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Detaljer"
+
+msgid "filter/group/details/title"
+msgstr "Detaljer"
+
+msgid "filter/group/nation/title"
+msgstr "Nasjon"
+
+msgid "filter/group/other/title"
+msgstr "Andre"
+
+msgid "filter/group/special/title"
+msgstr "Spesiell"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Kvalifisering"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Nivå"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Nivå"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Spesialisering"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Type kjøretøy"
+
+msgid "filter/popup/button/title"
+msgstr "Filter"
+
+msgid "filter/popup/default/title"
+msgstr "Filter"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Filtrér etter nasjon"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Filtrér etter kjøretøy"
+
+msgid "filter/reset"
+msgstr "Nullstill filter"
+
+msgid "filter/search/placeholder"
+msgstr "Søk på navn"
+
+msgid "filter/search/tooltip/header"
+msgstr "Søk på navn"
+
+msgid "filter/title"
+msgstr "Vist:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Vis/skjul besetningsmedlemmer i kjøretøy med alle tilgjengelige moduler og påfølgende kjøretøy utviklet."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Elitekjøretøy"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Vis/skjul besetningsmedlemmer som er trent til premiumkjøretøy."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Premiumkjøretøy"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Vis/skjul besetningsmedlemmer i primærkjøretøy."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Primærkjøretøy"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Vis/skjul besetningsmedlemmer for denne typen kjøretøy."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Vis/skjul besetningsmedlemmer fra denne nasjonen."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Vis/skjul besetningsdrakter fra denne nasjonen"
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Vis/skjul kjøretøy fra denne nasjonen."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Vis/skjul hvilende."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Hvilende"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Vis rekrutter."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Rekrutter"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Vis besetningsmedlemmer."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Besetningsmedlemmer"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Vis/skjul besetningsmedlemmer med denne kvalifikasjonen."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Vis/skjul premiumkjøretøy."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Premiumkjøretøy"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Vis/skjul kjøretøy av denne typen."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Panserjagere"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "SPGer"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Tunge tanks"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Lette tanks"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Mediumtanks"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Ingen kjøretøy som oppfyller søkekriteriene\nble funnet"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sortér etter kjøretøyenes navn."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Navn"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sortér etter kjøretøyenes nivå."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Nivå"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sortér etter type kjøretøy."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Type"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Navn"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Klikk for å nullstille filterinnstillinger."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Nullstill alle filtere"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Bekreftet!"
+
+msgid "junkTankmen/description"
+msgstr "Disse besetningsmedlemmene har mindre enn de {bond_Open}210 060{bond_Close}{icon} erfaringspoengene som kreves for å trene sine første besetningsfordeler til {whiteSpanish_Open}100%{whiteSpanish_Close}.\nDe blir fjernet fra kontoen din."
+
+msgid "junkTankmen/title"
+msgstr "Trekke tilbake utilstrekkelig trente besetningsmedlemmer?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Det er en grense på {whiteSpanish_Open}tre{whiteSpanish_Close} fordeler til hver tilleggskvalifikasjon. Tilgang til en ny bonusfordel åpnes etter at du har nådd den {whiteSpanish_Open}første{whiteSpanish_Close}, {whiteSpanish_Open}tredje{whiteSpanish_Close} og {whiteSpanish_Open}femte{whiteSpanish_Close} hovedkvalifikasjonsfordelen."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Bonusfordeler"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Når du omskolerer et besetningsmedlem til et annet kjøretøy med et ulikt sett med kvalifikasjoner, vil du kunne velge fordelene til deres nye hovedkvalifikasjon på nytt."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Bonusfordeler trenes dobbelt så sakte som hovedkvalifikasjonsfordelene."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Erfaringspoeng er ikke påkrevet for å trene bonusfordeler."
+
+msgid "matrix/freeResetButton"
+msgstr "Nullstill gratis"
+
+msgid "matrix/increaseButton"
+msgstr "Intensivert trening"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Besetningsmedlemmet har nådd sin treningsgrense."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Ikke stand til å intensivere treningen"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Tren opp fordeler med fri erfaring og besetningsbøker."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Hurtigtrening"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Inkompatibel kvalifikasjon"
+
+msgid "matrix/qualification/1"
+msgstr "Hovedkvalifikasjon"
+
+msgid "matrix/qualification/2"
+msgstr "Andre kvalifikasjon"
+
+msgid "matrix/qualification/3"
+msgstr "Tredje kvalifikasjon"
+
+msgid "matrix/qualification/4"
+msgstr "Fjerde kvalifikasjon"
+
+msgid "matrix/qualification/5"
+msgstr "Femte kvalifikasjon"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Nullfordeler ikke tilgjengelig for andre kvalifikasjon"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Nullfordeler ikke tilgjengelig for tredje kvalifikasjon"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Nullfordeler ikke tilgjengelig for fjerde kvalifikasjon"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Andre kvalifikasjon er ikke tilgjengelig for dette kjøretøyet"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Tredje kvalifikasjon er ikke tilgjengelig for dette kjøretøyet"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Fjerde kvalifikasjon er ikke tilgjengelig for dette kjøretøyet"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Femte kvalifikasjon er ikke tilgjengelig for dette kjøretøyet"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Det er en grense på {whiteSpanish_Open}tre{whiteSpanish_Close} bonusfordeler for hver tilleggskvalifikasjon. Bare fordeler som er spesifikt til denne kvalifikasjonen kan velges som bonusfordeler."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Det er en begrensning på {whiteSpanish_Open}seks{whiteSpanish_Close} hovedkvalifikasjonsfordeler (inkludert nullfordeler)."
+
+msgid "matrix/resetButton"
+msgstr "Nullstill"
+
+msgid "matrix/resetButtonHint"
+msgstr "KLIKK FOR Å NULLSTILLE FORDELER"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Du har ingen trente fordeler."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Ikke i stand til å nullstille fordeler"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Klikk for å nullstille fordeler"
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Nullstill fordeler"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Bonusfordeler tilgjengelige for trening"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Besetningserfaring er ikke påkrevet for å trene bonusfordeler."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Ikke tilgjengelig"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Åpnes når den tredje hovedkvalifikasjonsfordelen trenes. Krever ikke erfaringspoeng."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Åpnes når den femte hovedkvalifikasjonsfordelen trenes. Krever ikke erfaringspoeng."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Treningsnivå"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "Den totale mengden erfaringspoeng som kreves er rabattert fordi besetningsmedlemmet har en nullfordel."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "Den totale mengden erfaringspoeng som kreves er rabattert fordi besetningsmedlemmet har to nullfordeler."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Fordel tilgjengelig for trening"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Ikke tilgjengelig"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Den foregående fordelen må trenes til 100%."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Nullfordel tilgjengelig for trening"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Nullfordeler trenes alltid først, selv om flere fordeler velges samtidig. Besetningserfaring kreves ikke for å trene disse."
+
+msgid "matrix/skills/allSkills"
+msgstr "Alle ytterligere fordeler trent til dette kjøretøyet"
+
+msgid "matrix/skills/available"
+msgstr "Fordeler tilgjengelige for trening:"
+
+msgid "matrix/skills/bonus"
+msgstr "Bonusfordeler"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Fordeler er ikke tilgjengelig"
+
+msgid "matrix/skills/locked"
+msgstr "Fordeler er ikke tilgjengelig"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Alle fordeler er skrudd av for dette kjøretøyet"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Hovedkvalifikasjonsfordeler"
+
+msgid "matrix/skills/reduced"
+msgstr "Redusert fordelseffektivitet"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Kommandørs fordeler"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Sjåførs fordeler"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Kommandørs fordeler"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Sjåførs fordeler"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Skytters fordeler"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Laders fordeler"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Radioperatørs fordeler"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Skytters fordeler"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Laders fordeler"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Radioperatørs fordeler"
+
+msgid "matrix/skills/training"
+msgstr "Fordelstrening"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Nullfordeler tilgjengelige for trening:"
+
+msgid "memberChange/action/recruit"
+msgstr "Rekruttér {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount}% RABATT PÅ ENDRING AV KVALIFISERING"
+
+msgid "memberChange/title"
+msgstr "VELG {role}: {vehicle} "
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}I depotet{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Etter bekreftelse blir besetningsmedlemmet som overfører sin erfaring bli fjernet fra kontoen din."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Et mentorlisenser gjør at du kan overføre besetningserfaring fra ett besetningsmedlem til et annet besetningsmedlem fra samme nasjon."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "MENTORLISENS"
+
+msgid "personalData/card/edit"
+msgstr "Rediger"
+
+msgid "personalData/card/remove"
+msgstr "Fjern"
+
+msgid "personalData/card/restrictions"
+msgstr "Restriksjoner: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Klikk for å bytte et besetningsmedlems navn og fremtoning."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Fremtoning"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Dette besetningsmedlemmet har allerede et unikt navn og fremtoning."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Ikke i stand til å bytte navn og fremtoning"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Fant ikke noe. Endre innstillingene eller nullstill filteret."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Konfigurér visningen av drakter etter nasjon."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Filtrér etter parametere"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Vis dokumenter."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Dokumenter"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Vis drakter som passer."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Passende drakter"
+
+msgid "personalData/filter/type/title"
+msgstr "Type"
+
+msgid "personalData/title"
+msgstr "BYTT NAVN OG FREMTONING"
+
+msgid "personalFile/changeVehicle"
+msgstr "Endre"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Ikke i stand til å trene dette besetningsmedlemmet til et annet kjøretøy."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Ikke tilgjengelig"
+
+msgid "personalFile/discount/full"
+msgstr "Rabatt på omskolering av besetning tilgjengelig"
+
+msgid "personalFile/discount/short"
+msgstr "Rabatt tilgjengelig"
+
+msgid "personalFile/inVehicle"
+msgstr "I kjøretøyet: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Øk"
+
+msgid "personalFile/isUntrained"
+msgstr "Ikke trent for dette kjøretøyet"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Alle {icon} premiumkjøretøy"
+
+msgid "personalFile/retrain"
+msgstr "Omskoler"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Fordelseffektivitet:"
+
+msgid "personalFile/specialization"
+msgstr "Spesialisering:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Spesialisering"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Klikk for å høre et eksempel på denne kommandørens stemmespor."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Unik stemme"
+
+msgid "postProgression/button/claim"
+msgstr "Hent belønning"
+
+msgid "postProgression/description"
+msgstr "Besetningsmedlemmer som har alle seks hovedkvalifikasjonene trent får tilgang til en felles post-fremgang. Når du har tjent 100 000 erfaringspoeng i post-fremgangen får du en universalguide som kan benyttes til å trene andre besetninger."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "Post-fremgangen består av en felles skala for alle besetningsmedlemmer med seks ferdig trente hovedkvalifikasjoner på en spillers konto."
+
+msgid "postProgression/tips/2"
+msgstr "Bare erfaringspoeng teller i post-fremgangen. Halvparten av erfaringspoengene tjent i kamp av et besetningsmedlem deles på det totale antall besetningsmedlemmer i kjøretøyet og legges til på post-fremgangsskalaen."
+
+msgid "postProgression/tips/3"
+msgstr "Å miste erfaringspoeng fra fordeler eller effektivitetslager påvirker ikke post-fremgang."
+
+msgid "postProgression/title"
+msgstr "POST-FREMGANG FOR BESETNING"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Alle besetningsmedlemmer som hadde tilgang til post-fremgang har lav fordelseffektivitet."
+
+msgid "postProgression/warning/retire"
+msgstr "Alle besetningsmedlemmer som hadde tilgang til post-fremgangen har blitt tatt ut eller har mistet erfaringspoeng fra sin(e) siste fordel(er)."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Alle premium panserjagere"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Alle premium SPGer"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Premium panserjagere"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Premium SPGer"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Premium tunge tanks"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Premium lette tanks"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Premium mediumtanks"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Alle tunge premiumtanks"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Alle lette premiumtanks"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Alle medium premiumtanks"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "UTMERKELSER"
+
+msgid "serviceRecord/averageXP"
+msgstr "Gj.snittlig erfaring pr. kamp"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Kamper deltatt"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Ingen utmerkelser mottatt i kamp."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Forholdet mellom totalt antall opptjente erfaringspoeng og antall utkjempede kamper i kjøretøyet som besetningsmedlemmet er tildelt."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Gj.snittlig erfaring pr. kamp"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Ranken for et besetningsmedlem avhenger av erfaringen og antall trente fordeler."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Rank"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Besetningsmedlemmet har trent alle fordelene til dette kjøretøyet"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Fordeler tilgjengelige for trening"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Alle fordeler skrudd av for dette kjøretøyet"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Erfaringspoeng trengs ikke for å trene ytterligere kvalifikasjonsfordeler, som trenes dobbelt så langsomt som hovedkvalifikasjonsfordelene."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Avbryt"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Tren"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "BONUSKVALIFIKASJON"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "HOVEDKVALIFIKASJON"
+
+msgid "tankChange/title"
+msgstr "OMSKOLER TIL KJØRETØY"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Vis kjøretøy i garasjen."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "I garasje"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Konfigurér visning av kjøretøy etter type og nivå."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Filtrér etter parametere"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Du trenger ikke å omskolere besetningsmedlemmer til premiumkjøretøy. Du kan overføre besetning til et premiumkjøretøy av samme type uten gebyr."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Premiumkjøretøy"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Navn på kjøretøy kan inneholde opptil %(maxLength)s tegn."
+
+msgid "tankman/action/dismiss/title"
+msgstr "DIMITTER"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Dimitter dette besetningsmedlemmet."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Kan ikke sette dette besetningsmedlemmet til side."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Ikke tilgjengelig"
+
+msgid "tankman/action/recruit/title"
+msgstr "Rekrutt"
+
+msgid "tankman/action/restore/title"
+msgstr "GJENINNSETT"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Gjeninnsette dette besetningsmedlemmet?"
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Klikk for å høre et eksempel på denne kommandørens stemmespor."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Unik stemme"
+
+msgid "tankman/recruit"
+msgstr "Rekrutt"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Fremtoning"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profil"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Tjenestemappe"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Rekrutt"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Nullstill filter"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Fant ikke noe. Endre innstillingene eller nullstill filteret."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Ingenting funnet. Rekruttér et nytt besetningsmedlem."
+
+msgid "tankmanList/filter/title"
+msgstr "Besetningsmedlemmer:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Er ikke nok køyer i kaserna."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Vis/skjul kun hvilende besetningsmedlemmer."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Hvilende"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Vis besetningsmedlemmer i kaserna."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "I kaserna"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Vis besetningsmedlemmer i kjøretøy."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "I kjøretøy"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Vis/skjul besetningsdrakter fra denne nasjonen"
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Konfigurér visning av besetningsmedlemmer etter kvalifikasjon, spesialisering og andre parametere."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Filtrér etter parametere"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Rekrutter et nytt besetningsmedlem."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Navnet må inneholde opptil %(maxLength)s tegn."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Å holde musepeker over en fordel viser hvordan den påvirker de korresponderende karakteristika når den er trent til 100% med det nåværende nivået på fordelseffektivitet."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Bekreftet!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Det er innført to nye fordeler for hver kvalifikasjon, Pålitelig Plassering har blitt omgjort, og et nytt valg lar deg skjule fordeler i kampgrensesnittet (HUD)."
+
+msgid "welcomeScreen/item2/description"
+msgstr "En ny, praktisk funksjon lar deg trekke tilbake utilstrekkelig trente mannskapsmedlemmer med ett klikk."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Fordeler kan nå kun tilbakestilles uten å miste erfaringspoeng, ved hjelp av credits."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Nye fordeler og funksjoner er lagt til, og en eksisterende fordel har blitt oppdatert."
+
+msgid "welcomeScreen/title"
+msgstr "OPPDATERINGER FOR BESETNING"

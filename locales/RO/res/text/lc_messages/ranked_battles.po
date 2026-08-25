@@ -1,0 +1,1547 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Armistițiu activ pe toate serverele. Luptele vor fi disponibile în %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "Sezonul %(leftSeasonName)s s-a încheiat"
+
+msgid "alertMessage/allNotSet"
+msgstr "Acest mod este indisponibil pe serverul %(serverName)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Selectează alt server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detalii"
+
+msgid "alertMessage/notAvailable"
+msgstr "Armistițiu activ pe serverul %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Armistițiu activ pe serverul %(serverName)s"
+
+msgid "alertMessage/notSet"
+msgstr "Acest mod este indisponibil pe serverul %(serverName)s"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Armistițiu activ pe acest server. Luptele vor fi disponibile în %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "Sezonul %(leftSeasonName)s s-a încheiat"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Acest mod este indisponibil pe serverul %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s z"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Nu sunt vehicule potrivite de generația %(levels)s în garaj"
+
+msgid "awards/bonusBattles/efficiency"
+msgstr "Standard, pentru performanța ta în episodul finalizat: %(amount)s"
+
+msgid "awards/bonusBattles/header"
+msgstr "Lupte bonus obținute:"
+
+msgid "awards/bonusBattles/label"
+msgstr "Lupte bonus obținute: %(count)s"
+
+msgid "awards/bonusBattles/steps/daily"
+msgstr " \nZilnic, pentru numărul de galoane obținute în calificări: %(amount)s"
+
+msgid "awards/bonusBattles/steps/persistent"
+msgstr " \nStandard, pentru numărul de galoane obținute în calificări: %(amount)s"
+
+msgid "awards/congratulation"
+msgstr "Felicitări!"
+
+msgid "awards/gotDivision"
+msgstr "Te-ai mutat în următoarea divizie"
+
+msgid "awards/gotLeague"
+msgstr "Ai atins nivelul Ligilor"
+
+msgid "awards/gotQualification"
+msgstr "Ai finalizat calificările și ai intrat în Divizia a Treia."
+
+msgid "awards/gotQualificationQuest"
+msgstr "Ai primit o recompensă pentru Calificări. Lupte purtate: %(count)s"
+
+msgid "awards/gotRank"
+msgstr "Rang nou obținut"
+
+msgid "awards/yes"
+msgstr "Recepționat!"
+
+msgid "battleResult/losers"
+msgstr "Echipa învinsă"
+
+msgid "battleResult/rank/lose"
+msgstr "Grad pierdut"
+
+msgid "battleResult/rank/progress/lose"
+msgstr "Galon pierdut"
+
+msgid "battleResult/rank/progress/up"
+msgstr "Galon primit"
+
+msgid "battleResult/rank/unchanged"
+msgstr "Galon menținut"
+
+msgid "battleResult/rank/up"
+msgstr "Grad câștigat"
+
+msgid "battleResult/winners"
+msgstr "Echipa câștigătoare"
+
+msgid "battleResult/yes"
+msgstr "Recepționat!"
+
+msgid "battleresult/bonusBattlesEarned"
+msgstr " \n\nLupte bonus adăugate:"
+
+msgid "battleresult/bonusBattlesEarned/efficiency"
+msgstr " \nStandard, pentru performanța ta în episodul finalizat: %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/daily"
+msgstr " \nZilnic, pentru numărul de galoane obținute în calificări: %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/persistent"
+msgstr " \nStandard, pentru numărul de galoane obținute în calificări: %(amount)s"
+
+msgid "battleresult/bonusBattlesUsed"
+msgstr ". Ai participat la o luptă bonus."
+
+msgid "battleresult/divisionEarned"
+msgstr "Nouă\nDivizie"
+
+msgid "battleresult/first/inTop/lose"
+msgstr "Ești primul din echipa învinsă ca experiență obținută"
+
+msgid "battleresult/first/inTop/win"
+msgstr "Ești primul din echipa învingătoare ca experiență obținută"
+
+msgid "battleresult/first/notInTop/lose"
+msgstr "Nu ești primul din echipa învinsă ca experiență obținută"
+
+msgid "battleresult/first/notInTop/win"
+msgstr "Nu ești primul din echipa învingătoare ca experiență obținută"
+
+msgid "battleresult/headerText"
+msgstr "Rezultate luptă"
+
+msgid "battleresult/inTop/lose"
+msgstr "Ești în top %(topNumber)s jucători în echipa învinsă ca experiență obținută"
+
+msgid "battleresult/inTop/win"
+msgstr "Ești în top %(topNumber)s jucători în echipa câștigătoare ca experiență obținută"
+
+msgid "battleresult/leagueEarned"
+msgstr "Mutare\nîn Ligile"
+
+msgid "battleresult/leagueUnavailable"
+msgstr "Liga ta va fi definită după calcularea clasamentului.\n "
+
+msgid "battleresult/notInTop/lose"
+msgstr "Nu ești în top %(topNumber)s jucători în echipa învinsă ca experiență obținută"
+
+msgid "battleresult/notInTop/minXP"
+msgstr "Nu ai câştigat cantitatea minimă de experienţă."
+
+msgid "battleresult/notInTop/stageSaved"
+msgstr "Ești protejat la pierderea galonului în acest stagiu"
+
+msgid "battleresult/notInTop/win"
+msgstr "Nu ești în top %(topNumber)s jucători în echipa câștigătoare ca experiență obținută"
+
+msgid "battleresult/rankEarned"
+msgstr "Rang\nobținut"
+
+msgid "battleresult/rankLost"
+msgstr "Rang\npierdut"
+
+msgid "battleresult/rankUnburnable"
+msgstr "Fără\nschimbări"
+
+msgid "battleresult/shieldLose"
+msgstr "Scut de rang\ndistrus"
+
+msgid "battleresult/shieldLoseStep"
+msgstr "Scut de rang\nslăbit"
+
+msgid "battleresult/stageEarned"
+msgstr "Galon\nobținut"
+
+msgid "battleresult/stageLost"
+msgstr "Galon\npierdut"
+
+msgid "battleresult/stageNotEarned"
+msgstr "Galon\nmenținut"
+
+msgid "battleresult/stageSaved"
+msgstr "Galon\nmenținut"
+
+msgid "battleresult/stagesEarned"
+msgstr "Galoane\nobținute"
+
+msgid "battleresult/status/rankEarned"
+msgstr "Grad returnat"
+
+msgid "battleresult/status/rankLost"
+msgstr "Grad pierdut"
+
+msgid "battleresult/status/rankUnburnable"
+msgstr "Nicio schimbare"
+
+msgid "battleresult/status/shieldCount"
+msgstr " \nPuncte integritate păstrate: %(count)s"
+
+msgid "battleresult/status/shieldLose"
+msgstr "Protecția gradului e distrusă!"
+
+msgid "battleresult/status/shieldLoseStep"
+msgstr "Protecția gradului e slăbită!"
+
+msgid "battleresult/status/shieldRenew"
+msgstr " \nProtecția gradului e refăcută"
+
+msgid "battleresult/status/shieldWarning"
+msgstr " \nUrmătoarea înfrângere ar putea să aducă după sine pierderea gradului tău."
+
+msgid "battleresult/status/stageEarned"
+msgstr "Galon primit"
+
+msgid "battleresult/status/stageLost"
+msgstr "Galon pierdut"
+
+msgid "battleresult/status/stageNotEarned"
+msgstr "Galon menținut"
+
+msgid "battleresult/status/stageSaved"
+msgstr "Galon menținut"
+
+msgid "battleresult/status/stagesEarned"
+msgstr "Galoane primite"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgstr "Sezonul %(seasonName)s va dura %(days)s zile"
+
+msgid "calendarDay/title"
+msgstr "Program"
+
+msgid "calendarStepsTooltip/title"
+msgstr "Calendarul sezonului"
+
+msgid "currentVehicleStatus/unsuitableToQueue"
+msgstr "Nepotrivit pentru mod"
+
+msgid "division/bronze"
+msgstr "Divizia a treia"
+
+msgid "division/classification"
+msgstr "Calificare"
+
+msgid "division/gold"
+msgstr "Divizia întâi"
+
+msgid "division/silver"
+msgstr "Divizia a doua"
+
+msgid "division/status/completed"
+msgstr "Divizie finalizată"
+
+msgid "division/status/completed/description"
+msgstr "A finalizat cu succes divizia selectată."
+
+msgid "division/status/locked"
+msgstr "Divizie indisponibilă"
+
+msgid "division/status/locked/description"
+msgstr "Divizia anterioară nu a fost finalizată."
+
+msgid "division/status/qualification"
+msgstr "Lupte purtate: %(progress)s"
+
+msgid "division/status/qualification/progress"
+msgstr "%(current)s / %(total)s"
+
+msgid "division/status/qualificationDescr/complete"
+msgstr "Calificare finalizată"
+
+msgid "division/status/qualificationDescr/progress"
+msgstr "Participă la %(battlesTotal)s lupte pentru a finaliza Calificările.\nLa finalizarea Calificărilor, vei primi recompense pentru participarea la %(battlesList)s lupte."
+
+msgid "division/tooltip/battlesDescription"
+msgstr "Conține %(battlesCount)s lupte"
+
+msgid "division/tooltip/desc/completed/text"
+msgstr "Ai primit toate gradele în această divizie."
+
+msgid "division/tooltip/desc/completedFinal/text"
+msgstr "Ai primit toate gradele în această divizie și te-ai mutat în Ligi."
+
+msgid "division/tooltip/desc/completedQual/text"
+msgstr "S-au purtat numărul necesar de lupte de calificare."
+
+msgid "division/tooltip/desc/current/text"
+msgstr "După finalizare, te vei muta în divizia următoare și vei primi lupte bonus care îți vor grăbi înaintarea."
+
+msgid "division/tooltip/desc/currentFinal/text"
+msgstr "După finalizare, te vei muta în Ligi și vei primi lupte bonus care îți vor consolida sau îmbunătăți poziția între liderii sezonului."
+
+msgid "division/tooltip/desc/currentQual/text"
+msgstr "La finalizarea Calificărilor, vei primi recompense pentru participarea la %(battles)s lupte.\nDupă finalizarea Calificărilor, vei fi mutat în Divizia a Treia și vei primi Lupte Bonus care îți vor accelera progresul."
+
+msgid "division/tooltip/desc/locked/text"
+msgstr "După finalizare, te vei muta în divizia următoare și vei primi lupte bonus care îți vor grăbi înaintarea."
+
+msgid "division/tooltip/desc/lockedFinal/text"
+msgstr "După finalizare, te vei muta în Ligi și vei primi lupte bonus care îți vor consolida sau îmbunătăți poziția între liderii sezonului."
+
+msgid "division/tooltip/desc/title"
+msgstr "Descriere:"
+
+msgid "division/tooltip/rankDescription"
+msgstr "Conține %(ranksCount)s Grade"
+
+msgid "division/tooltip/status/completed"
+msgstr "Divizie finalizată"
+
+msgid "division/tooltip/status/completedQual"
+msgstr "Finalizată"
+
+msgid "division/tooltip/status/current"
+msgstr "Divizie nefinalizată"
+
+msgid "division/tooltip/status/currentQual"
+msgstr "Nefinalizată"
+
+msgid "division/tooltip/status/locked"
+msgstr "Divizie indisponibilă"
+
+msgid "division/tooltip/status/locked/desc"
+msgstr "Finalizează mai întâi divizia anterioară."
+
+msgid "division/tooltip/status/locked/descQual"
+msgstr "Calificarea nu a fost finalizată."
+
+msgid "introPage/alert/beforeSeason"
+msgstr "Evenimentul începe în:"
+
+msgid "introPage/alert/disabled"
+msgstr "Modul este momentan indisponibil. Revino mai târziu."
+
+msgid "introPage/blocks/block1/description"
+msgstr "Lupte cu 10 versus 10 jucători, cu reguli de luptă standard, pe un număr limitat de hărți, doar în vehicule din generația X cercetabile și de colecție."
+
+msgid "introPage/blocks/block1/title"
+msgstr "Vehicule de generația X"
+
+msgid "introPage/blocks/block2/description"
+msgstr "Finalizează 3 divizii pe drumul spre glorie și atinge una dintre Ligi luptând contra jucătorilor cu abilități similare."
+
+msgid "introPage/blocks/block2/title"
+msgstr "Progres în Lupte de clasament"
+
+msgid "introPage/blocks/block3/description"
+msgstr "După finalizarea fiecăruia dintre cele trei sezoane, vei primi un stil special pentru vehicule de generația X. Vei mai primi și recompense valoroase și un vehicul unic de generația X la încheierea sezoanelor 2021-2022."
+
+msgid "introPage/blocks/block3/title"
+msgstr "Recompense unice"
+
+msgid "introPage/blocks/yearRewardDisabled"
+msgstr "Fiecare grad obținut îți va aduce o recompensă valoroasă. În plus, vei primi un stil unic pentru vehicule de generația X, la finalizarea tuturor celor trei Sezoane."
+
+msgid "introPage/btns/accept"
+msgstr "Recepționat!"
+
+msgid "introPage/btns/detailed"
+msgstr "Detaliile modului"
+
+msgid "introPage/btns/toHangar"
+msgstr "Spre Garaj"
+
+msgid "introPage/description"
+msgstr "Lupte 10 vs 10, Vehicule de generația X, 3 divizii pe drumul spre glorie."
+
+msgid "introPage/timeLeft/days"
+msgstr "%(day)s z %(hour)s h"
+
+msgid "introPage/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "introPage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "introPage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "notification/rankEarned"
+msgstr "grad primit"
+
+msgid "notification/rankLost"
+msgstr "grad pierdut"
+
+msgid "notification/rankedMessage"
+msgstr "Felicităro!\nAi câștigat gradul %(rankRoman)s\nCredite primite: %(creditsCount)s\nPuncte câștigate: %(expCount)s\nDistincții primite: %(medalsCount)s"
+
+msgid "notification/stageEarned"
+msgstr "galon primit"
+
+msgid "notification/stageLost"
+msgstr "galon pierdut"
+
+msgid "notification/stageNotEarned"
+msgstr "galon menținut"
+
+msgid "notification/vehicleRankEarned"
+msgstr "grad pe vehicul primit"
+
+msgid "notification/vehicleRankLost"
+msgstr "grad pe vehicul pierdut"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Serverul %(serverName)s\nLuptele vor fi disponibile în %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Serverul %(serverName)s\nSezonul %(leftSeasonName)s s-a încheiat."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Serverul %(serverName)s\nLuptele vor fi disponibile timp de încă %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Serverul %(serverName)s\nLuptele vor fi disponibile în %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Serverul %(serverName)s\nSezonul %(leftSeasonName)s s-a încheiat."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Serverul %(serverName)s\nLuptele vor fi disponibile în %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Serverul %(serverName)s\nSezonul %(leftSeasonName)s s-a încheiat."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s z"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "un minut"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Armistițiu în efect pe toate serverele"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "Sezonul %(leftSeasonName)s pe serverul %(serverName)s s-a încheiat."
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Armistițiu în efect pe serverul %(serverName)s până la %(primeDeltaDate)s%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Sezonul %(leftSeasonName)s pe serverul %(serverName)s s-a încheiat."
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Acest mod este indisponibil pe serverul %(serverName)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Armistițiu în efect pe serverul %(serverName)s până la %(primeDeltaDate)s%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "Sezonul %(leftSeasonName)s pe serverul %(serverName)s s-a încheiat."
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Acest mod este indisponibil pe serverul %(serverName)s"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Luptele pe serverul %(serverName)s vor începe în %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "Sezonul %(leftSeasonName)s pe serverul %(serverName)s s-a încheiat."
+
+msgid "primeTimes/timeText/available"
+msgstr "Luptele pe serverul %(serverName)s vor fi disponibile timp de încă %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Luptele pe serverul %(serverName)s vor începe în %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "Sezonul %(leftSeasonName)s pe serverul %(serverName)s s-a încheiat."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Luptele pe serverul %(serverName)s vor începe în %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "Sezonul %(leftSeasonName)s pe serverul %(serverName)s s-a încheiat."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "qualificationRewards/battlesNeeded"
+msgstr "Participă la %(battlesCount)s lupte pentru a finaliza Calificările."
+
+msgid "qualificationRewards/battlesPlayed"
+msgstr "Lupte purtate:"
+
+msgid "qualificationRewards/description"
+msgstr "Recompensele pentru finalizarea calificării sunt acordate după încheierea ultimei lupte de calificare."
+
+msgid "quests/detailed/allServersPrime"
+msgstr "Armistițiu"
+
+msgid "quests/detailed/notInLeagues"
+msgstr "Atinge Ligile mai întâi"
+
+msgid "quests/detailed/seasonEnd/days"
+msgstr "Sezonul se încheie în %(day)s z"
+
+msgid "quests/detailed/seasonEnd/default"
+msgstr "Sezonul se încheie în curând"
+
+msgid "quests/detailed/seasonEnd/hours"
+msgstr "Sezonul se încheie în %(hour)s h"
+
+msgid "quests/detailed/seasonEnd/lessMin"
+msgstr "Sezonul se încheie în mai puțin de un minut"
+
+msgid "quests/detailed/seasonEnd/min"
+msgstr "Sezonul se încheie în %(min)s min"
+
+msgid "quests/detailed/unavailableLabel"
+msgstr "Indisponibil:"
+
+msgid "quests/tooltip/unavailable/body/allServersPrime"
+msgstr "Misiunile vor deveni disponibile după încheierea armistițiului în Luptele de Clasament."
+
+msgid "quests/tooltip/unavailable/body/notInLeagues"
+msgstr "Atinge Ligile mai întâi"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/days"
+msgstr "Sezonul se încheie în %(day)s z"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/default"
+msgstr "Sezonul se încheie în curând"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/hours"
+msgstr "Sezonul se încheie în %(hour)s h"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/lessMin"
+msgstr "Sezonul se încheie în mai puțin de un minut"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/min"
+msgstr "Sezonul se încheie în %(min)s min"
+
+msgid "quests/tooltip/unavailable/bottom"
+msgstr "Finalizare indisponibilă"
+
+msgid "quests/tooltip/unavailable/header/allServersPrime"
+msgstr "Armistițiu"
+
+msgid "quests/tooltip/unavailable/header/notInLeagues"
+msgstr "Nu e în Ligi"
+
+msgid "quests/tooltip/unavailable/header/seasonEnd"
+msgstr "Finalul sezonului"
+
+msgid "questsTooltip/available"
+msgstr "Sezonul se încheie în %(timeDelta)s"
+
+msgid "questsTooltip/available/days"
+msgstr "%(day)s z"
+
+msgid "questsTooltip/available/hours"
+msgstr "%(hour)s h"
+
+msgid "questsTooltip/available/lessMin"
+msgstr "sub un minut"
+
+msgid "questsTooltip/available/min"
+msgstr "%(min)s min"
+
+msgid "questsTooltip/bottom"
+msgstr "Mai multe misiuni: %(number)d"
+
+msgid "questsTooltip/cooldown/days"
+msgstr "Misiuni noi vor fi disponibile în %(day)s z"
+
+msgid "questsTooltip/cooldown/hours"
+msgstr "Misiuni noi vor fi disponibile în %(hour)s h"
+
+msgid "questsTooltip/cooldown/lessMin"
+msgstr "Misiuni noi vor fi disponibile într-un minut"
+
+msgid "questsTooltip/cooldown/min"
+msgstr "Misiuni noi vor fi disponibile în %(min)s min"
+
+msgid "questsTooltip/header"
+msgstr "Misiunile Luptelor de clasament"
+
+msgid "questsTooltip/unavailable/allServersPrime"
+msgstr "Indisponibil: Armistițiul este activ"
+
+msgid "questsTooltip/unavailable/notInLeagues"
+msgstr "Indisponibil: atinge Ligile mai întâi"
+
+msgid "questsTooltip/unavailable/seasonEnd/days"
+msgstr "Indisponibil: Sezonul se încheie în %(day)s z"
+
+msgid "questsTooltip/unavailable/seasonEnd/hours"
+msgstr "Indisponibil: Sezonul se încheie în %(hour)s h"
+
+msgid "questsTooltip/unavailable/seasonEnd/lessMin"
+msgstr "Indisponibil: Sezonul se încheie în sub un minut"
+
+msgid "questsTooltip/unavailable/seasonEnd/min"
+msgstr "Indisponibil: Sezonul se încheie în %(min)s min"
+
+msgid "rankedAwards/awardsBlock/awardsHeaderTxt"
+msgstr "Recompensă pentru clasare"
+
+msgid "rankedAwards/awardsBlock/crystal"
+msgstr "Bonduri"
+
+msgid "rankedAwards/awardsBlock/description"
+msgstr "Gradul tău cel mai mare"
+
+msgid "rankedAwards/awardsBlock/points"
+msgstr "Puncte"
+
+msgid "rankedAwards/awardsBlock/title"
+msgstr "Rezultatele sezonului %(cycleNumber)s"
+
+msgid "rankedBattle/title"
+msgstr "LUPTE DE CLASAMENT"
+
+msgid "rankedBattleCyclesView/tabs/final"
+msgstr "Finală"
+
+msgid "rankedBattleCyclesView/tabs/ranks"
+msgstr "Grad"
+
+msgid "rankedBattleCyclesView/title"
+msgstr "Recompense sezon"
+
+msgid "rankedBattleHeader/points/current"
+msgstr "În desfășurare"
+
+msgid "rankedBattleHeader/points/final"
+msgstr "Total puncte: %(points)s"
+
+msgid "rankedBattleHeader/points/past"
+msgstr "Puncte: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/body"
+msgstr "Etapa curentă se va termina pe %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/header"
+msgstr "Etapa %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/body"
+msgstr "Toate punctele câștigate în etapele anterioare sunt cumulate în Finală și jucătorii primesc distincții.\nFinala de sezon—%(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/header"
+msgstr "Finala de sezon"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/body"
+msgstr "Etapa va începe pe %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/header"
+msgstr "Etapa %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/body"
+msgstr "Puncte câștigate: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/header"
+msgstr "Etapa %(cycle)d s-a încheiat"
+
+msgid "rankedBattleHeader/tooltip/date"
+msgstr "%d.%m.%y"
+
+msgid "rankedBattleMainView/bonusBattles"
+msgstr "Lupte bonus: %(battlesCount)s"
+
+msgid "rankedBattleMainView/date/days"
+msgstr "%(day)s z până la final"
+
+msgid "rankedBattleMainView/date/hours"
+msgstr "%(hour)s h până la final"
+
+msgid "rankedBattleMainView/date/lessMin"
+msgstr "Sub un minut până la final"
+
+msgid "rankedBattleMainView/date/min"
+msgstr "%(min)s m până la final"
+
+msgid "rankedBattleMainView/date/period"
+msgstr "%(start)s–%(finish)s"
+
+msgid "rankedBattleMainView/divisions/currentRank"
+msgstr "Gradul tău"
+
+msgid "rankedBattleMainView/divisions/rank"
+msgstr "Grad %(rank)s"
+
+msgid "rankedBattleMainView/emptyBubble"
+msgstr " "
+
+msgid "rankedBattleMainView/infoPage/header"
+msgstr "Vehicule de generația X, Experiență pe rol, lupte bonus, progresie în 3 divizii, lupte în Ligi."
+
+msgid "rankedBattleMainView/leaguesView/descr"
+msgstr "Câștigă galoane și îmbunătățește-ți performanțele pentru a avansa în clasament și a ajunge în top %(count)d."
+
+msgid "rankedBattleMainView/leaguesView/league1"
+msgstr "Liga de Aur"
+
+msgid "rankedBattleMainView/leaguesView/league2"
+msgstr "Liga de Argint"
+
+msgid "rankedBattleMainView/leaguesView/league3"
+msgstr "Liga de Bronz"
+
+msgid "rankedBattleMainView/leaguesView/top"
+msgstr "TOP %(count)d"
+
+msgid "rankedBattleMainView/leaguesView/topDescr"
+msgstr "Câștigă galoane și îmbunătățește-ți performanțele pentru a avansa în Clasament și a rămâne în top %(count)d."
+
+msgid "rankedBattleMainView/leaguesView/unavailableDescr"
+msgstr "Îți calculăm Liga. Rezultatele vor fi disponibile în curând."
+
+msgid "rankedBattleMainView/leaguesView/unavailableTitle"
+msgstr "Ligă necalculată"
+
+msgid "rankedBattleMainView/leaguesView/yearLeaderboardDisabled"
+msgstr "Câștigă galoane și crește-ți performanța pentru a-ți menține poziția în Ligă."
+
+msgid "rankedBattleMainView/season"
+msgstr "Sezonul %(season)s"
+
+msgid "rankedBattleMainView/seasonComplete"
+msgstr "Sezonul %(season)s s-a încheiat"
+
+msgid "rankedBattleMainView/seasonCompleteSingle"
+msgstr "Sezonul %(season)s s-a încheiat."
+
+msgid "rankedBattleMainView/seasonGap"
+msgstr "Următorul sezon%(newSeason)s începe pe %(date)s"
+
+msgid "rankedBattleMainView/seasonGap/bannedDivision/descr"
+msgstr "Toate token-urile de grad câștigate în sezon au fost eliminate din cauza încălcării regulilor jocului."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/descr"
+msgstr "Ai fost exclus din lista de lideri ai sezonului din cauza încălcării regulilor jocului. Toate token-urile d egrad câștigate în sezon au fost eliminate."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/withoutPoints/descr"
+msgstr "Ai fost exclus din lista de lideri ai sezonului deoarece ai încălcat regulile jocului."
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInDivisions/descr"
+msgstr "Un token de grad a fost eliminat deoarece ai încălcat regulile jocului"
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInSeason/descr"
+msgstr "Toate token-urile de grad câștigate în sezon au fost eliminate din cauza încălcării regulilor jocului."
+
+msgid "rankedBattleMainView/seasonGap/division/descr"
+msgstr "Gradul cel mai înalt pe care l-ai atins acest Sezon"
+
+msgid "rankedBattleMainView/seasonGap/division/ratingBtn"
+msgstr "Lideri sezon"
+
+msgid "rankedBattleMainView/seasonGap/division/title"
+msgstr "Grad %(rank)s (%(division)s)"
+
+msgid "rankedBattleMainView/seasonGap/league/descr"
+msgstr "Felicitări pentru finalizarea Sezonului!"
+
+msgid "rankedBattleMainView/seasonGap/league/ratingBtn"
+msgstr "Mergi la Clasament"
+
+msgid "rankedBattleMainView/seasonGap/league1"
+msgstr "Liga de Aur"
+
+msgid "rankedBattleMainView/seasonGap/league2"
+msgstr "Liga de Argint"
+
+msgid "rankedBattleMainView/seasonGap/league3"
+msgstr "Liga de Bronz"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/descr"
+msgstr "Cel mai bun rezultat al tău în sezon"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/title"
+msgstr "Ai finalizat calificările"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/descr"
+msgstr "Nu ai obținut grade în acest sezon"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/title"
+msgstr "Lipsă grade"
+
+msgid "rankedBattleMainView/seasonGap/rolledDivision/descr"
+msgstr "Ai fost exclus din lista Liderilor de Sezon după recuperarea contului."
+
+msgid "rankedBattleMainView/seasonGap/rolledLeague/descr"
+msgstr "Ai fost exclus din lista Liderilor de Sezon după recuperarea contului."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInDivisions/descr"
+msgstr "Ai fost exclus din lista Liderilor de Sezon după recuperarea contului."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInSeason/descr"
+msgstr "Ai fost exclus din lista Liderilor de Sezon după recuperarea contului."
+
+msgid "rankedBattleMainView/seasonGap/stats/efficiency"
+msgstr "Eficiență"
+
+msgid "rankedBattleMainView/seasonGap/stats/outOfRating"
+msgstr "În afara Clasamentului"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/descr"
+msgstr "După calculare, vei vedea rezultatele finale și vei primi recompensa meritată"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/title"
+msgstr "Se calculează rezultatele"
+
+msgid "rankedBattleMainView/specialSeason"
+msgstr "X"
+
+msgid "rankedBattleMainView/stats/battlesInLeague"
+msgstr "Lupte în Ligi"
+
+msgid "rankedBattleMainView/stats/battlesTotal"
+msgstr "Total lupte"
+
+msgid "rankedBattleMainView/stats/divisionEfficiency"
+msgstr "Eficiența în divizie"
+
+msgid "rankedBattleMainView/stats/qualificationEfficiency"
+msgstr "Performanța\nîn calificări"
+
+msgid "rankedBattleMainView/stats/qualificationSteps"
+msgstr "Galoane\nîn calificări"
+
+msgid "rankedBattleMainView/stats/rating/title"
+msgstr "Poziție în Clasament"
+
+msgid "rankedBattleMainView/stats/rating/tooltip"
+msgstr "Clasamentul este actualizat la fiecare %(minutes)s minute. Ultima actualizare: %(time)s"
+
+msgid "rankedBattleMainView/stats/rating/unavailableTooltip"
+msgstr "Clasamentul nu este actualizat momentan din motive tehnice."
+
+msgid "rankedBattleMainView/stats/seasonEfficiency"
+msgstr "Eficiență generală"
+
+msgid "rankedBattleMainView/stats/stripesInLeague"
+msgstr "Grade în Ligi"
+
+msgid "rankedBattleMainView/stats/stripesTotal"
+msgstr "Total grade"
+
+msgid "rankedBattleMainView/yearGap/header"
+msgstr "Rezultatele tale în 2021-2022"
+
+msgid "rankedBattlePage/closeBtn"
+msgstr "ÎNCHIDE"
+
+msgid "rankedBattleView/awardBlock/emptyLeague"
+msgstr "—"
+
+msgid "rankedBattleView/awardBlock/points/currLeagueHeader"
+msgstr "Liga curentă"
+
+msgid "rankedBattleView/awardBlock/points/header"
+msgstr "Lideri sezon"
+
+msgid "rankedBattleView/awardBlock/points/noLeagueHeader"
+msgstr "În afara Clasamentului"
+
+msgid "rankedBattleView/awardBlock/points/noPriseHeader"
+msgstr "Liga de lemn"
+
+msgid "rankedBattleView/awardBlock/points/totalLabel"
+msgstr "Puncte totale: "
+
+msgid "rankedBattleView/awardBlock/pointsAlt/description"
+msgstr "Clic pentru a vedea Liderii de sezon"
+
+msgid "rankedBattleView/awardBlock/quest/description/battlesLeft"
+msgstr "Număr efectiv de lupte de purtat:"
+
+msgid "rankedBattleView/awardBlock/quest/description/noQuest"
+msgstr "Nu există misiuni"
+
+msgid "rankedBattleView/awardBlock/quest/header"
+msgstr "Misiune"
+
+msgid "rankedBattleView/awardBlock/seasonAward/description"
+msgstr "Clic pentru a vedea recompensele"
+
+msgid "rankedBattleView/awardBlock/seasonAward/header"
+msgstr "Distincțiile sezonului"
+
+msgid "rankedBattleView/closeBtn"
+msgstr "ÎNAPOI"
+
+msgid "rankedBattleView/closeBtnDescr"
+msgstr "LA GARAJ"
+
+msgid "rankedBattleView/nextStageBlock/stage"
+msgstr "Etapa %(cycleNumber)s"
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/body"
+msgstr "Clic pentru a începe drumul în Lupte de clasament."
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/header"
+msgstr "Înainte!"
+
+msgid "rankedBattleView/playVideoBtn"
+msgstr "Video despre mod"
+
+msgid "rankedBattleView/progressBlock/bestRank"
+msgstr "Record de sezon"
+
+msgid "rankedBattleView/progressBlock/continue"
+msgstr "Adună puncte pentru a primi recompense în Finală"
+
+msgid "rankedBattleView/progressBlock/currentRank"
+msgstr "Grad curent: %(rank)s"
+
+msgid "rankedBattleView/progressBlock/finalRank"
+msgstr "Felicitări! În acest sezon ai primit gradul maxim de %(rank)s."
+
+msgid "rankedBattleView/progressBlock/steps"
+msgstr "Galoane: %(numbers)s"
+
+msgid "rankedBattleView/progressBlock/vehicleRank"
+msgstr "Token-urile gradului"
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/body"
+msgstr "Clic pentru a afișa informații despre toate etapele sezonului."
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/header"
+msgstr "Calendar"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/attentionText"
+msgstr "Rezultatele etapei %(cycleNumber)s în %(timeLeft)s"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/cycleItem"
+msgstr "Sezon %(cycleNumber)s: %(day0)s/%(month0)s—%(day1)s/%(month1)s"
+
+msgid "rankedBattleView/statusBlock/statusText"
+msgstr "Sezonul se va termina în: "
+
+msgid "rankedBattleView/title"
+msgstr "Luptă de clasament"
+
+msgid "rankedBattlesBattleResults/animationCheckBoxLabel"
+msgstr "Arată animația"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s nu poate participa la luptele pentru clasament."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/header"
+msgstr "Tip de vehicul incompatibil"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/body"
+msgstr "Alege un %(levelSubStr)s pentru a participa la Luptele pentru Clasament."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/header"
+msgstr "Vehicul de generație incompatibilă"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "vehicul de generația %(levels)s"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s nu poate participa la luptele pentru clasament."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/header"
+msgstr "Vehicul incompatibil"
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/body"
+msgstr "Se primește la finalul unei etape și conține recompense valoroase. Numărul de recompense și calitatea lor depind de poziția în clasament."
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/header"
+msgstr "Ladă cu recompense"
+
+msgid "rankedBattlesCyclesView/btnClose"
+msgstr "ÎNCHIDE"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/awardRecieved"
+msgstr "Recompensă primită"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/body"
+msgstr "Se primește la finalul unei etape și conține recompense diverse. Cantitatea de recompense și calitatea lor depind de gradul câștigat."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/header"
+msgstr "Ladă cu recompense"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/body"
+msgstr "Poate fi schimbat contra unor bunuri noi, unice: Rezerve personale și echipamente. Un bond poate fi schimbat pentru un set de Rezerve personale sau un echipament. Cu cât ai ai mai multe bonduri, cu atât primești echipamente mai valoroase."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/header"
+msgstr "Bonduri"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rank"
+msgstr "Grad"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rankAward"
+msgstr "Recompensă pentru gradul atins"
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/body"
+msgstr "Se acordă pentru cel mai bun rezultat obținut pe parcursul unei etape. Cel mai bun rezultat nu va fi resetat, chiar dacă un grad este pierdut."
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/header"
+msgstr "Recompensă de final etapă"
+
+msgid "rankedBattlesCyclesView/currentCycle/vehicleRankComment"
+msgstr "Recompensă normală"
+
+msgid "rankedBattlesCyclesView/final/btnLadder"
+msgstr "Mergi la Clasament"
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/body"
+msgstr "Clic pentru a merge la lista de Clasamente sezon și a-ți vedea poziția."
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/header"
+msgstr "Lideri sezon"
+
+msgid "rankedBattlesCyclesView/final/first"
+msgstr "top %(count)s jucători"
+
+msgid "rankedBattlesCyclesView/final/intermediate"
+msgstr "următorul %(count)s"
+
+msgid "rankedBattlesCyclesView/final/last"
+msgstr "Liga de lemn"
+
+msgid "rankedBattlesCyclesView/final/lastComment"
+msgstr "Câștigă puncte pentru a urca în\nClasament.\nRecompensa finală pe care o vei primi\ndepinde de\nliga în care te vei afla."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/noLeagueDataTooltip"
+msgstr "Informațiile despre liga în care te afli sunt momentan indisponibile. Încearcă din nou mai târziu."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/position"
+msgstr "Poziție în Clasament"
+
+msgid "rankedBattlesCyclesView/final/tableHeader/seasonAward"
+msgstr "Recompensă finală"
+
+msgid "rankedBattlesCyclesView/noAchievements/future/footer"
+msgstr "De la %(start)s până la %(end)s"
+
+msgid "rankedBattlesCyclesView/noAchievements/past/footer"
+msgstr "Nu ai primit niciun grad în etape curentă.\nPuncte câștigate: %(points)s"
+
+msgid "rankedBattlesUnreachableView/bottom/missions"
+msgstr "Finalizează Misiuni personale"
+
+msgid "rankedBattlesUnreachableView/bottom/premium"
+msgstr "Utilizează cont premium %(premiumType)s"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/basic"
+msgstr "Wargaming"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/plus"
+msgstr "WoT"
+
+msgid "rankedBattlesUnreachableView/bottom/reserves"
+msgstr "Activează Rezerve personale"
+
+msgid "rankedBattlesUnreachableView/bottomText"
+msgstr "Cum se ajunge cel mai rapid la cercetarea vehiculelor de generația %(levels)s?"
+
+msgid "rankedBattlesUnreachableView/closeBtnLabel"
+msgstr "ÎNCHIDE"
+
+msgid "rankedBattlesUnreachableView/subtitleText"
+msgstr "Mod indisponibil"
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForBuy"
+msgstr "Trebuie să deții vehicule din generația %(levels)s în garaj pentru a participa la Luptele pentru Clasament.\nAi cercetat vehicule din generația %(levels)s pe care încă nu le-ai cumpărat."
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForRestore"
+msgstr "Trebuie să deții vehicule din generația %(levels)s în garaj pentru a participa la Luptele pentru Clasament.\n Ai vehicule din generația %(levels)s disponibile pentru recuperare."
+
+msgid "rankedBattlesUnreachableView/vehicleUnavailable"
+msgstr "Trebuie să deții vehicule din generația %(levels)s în garaj pentru a participa la Luptele pentru Clasament."
+
+msgid "rankedBattlesViewHeader/tabs/current"
+msgstr "Grad"
+
+msgid "rankedBattlesViewHeader/tabs/final"
+msgstr "Finală"
+
+msgid "rankedBattlesWidget/bonusMultiplier"
+msgstr "x%(count)s"
+
+msgid "rankedBattlesWidget/bonusSteps"
+msgstr "pentru lupta bonus"
+
+msgid "rankedBattlesWidget/league0"
+msgstr "Necunoscut"
+
+msgid "rankedBattlesWidget/league1"
+msgstr "De Aur"
+
+msgid "rankedBattlesWidget/league2"
+msgstr "De Argint"
+
+msgid "rankedBattlesWidget/league3"
+msgstr "De Bronz"
+
+msgid "rankedBattlesWidget/leagueDecrease/info"
+msgstr "Te-ai întors în Liga %(leagueName)s"
+
+msgid "rankedBattlesWidget/leagueDecrease/title"
+msgstr "LIGĂ SCHIMBATĂ"
+
+msgid "rankedBattlesWidget/leagueIncrease/info"
+msgstr "Te-ai mutat în Liga %(leagueName)s"
+
+msgid "rankedBattlesWidget/leagueIncrease/title"
+msgstr "LIGĂ SCHIMBATĂ"
+
+msgid "rankedBattlesWidget/leaguesAchievment/info"
+msgstr "Acum poți lupta pentru o poziție în clasament"
+
+msgid "rankedBattlesWidget/leaguesAchievment/title"
+msgstr "LIGI DISPONIBILE"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/info"
+msgstr "Te-ai mutat în următoarea divizie"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/title"
+msgstr "DIVIZIE NOUĂ"
+
+msgid "rankedBattlesWidget/newRankCongrat"
+msgstr "Felicitări!\nGrad obținut!"
+
+msgid "rankedBattlesWidget/noChanges"
+msgstr "Nicio schimbare"
+
+msgid "rankedBattlesWidget/qualificationIdleText"
+msgstr "Lupte pentru finalizarea calificărilor:\n%(currentBattles)s / %(totalBattles)s"
+
+msgid "rewardsView/common/currentReward"
+msgstr "Concurent pentru recompensă"
+
+msgid "rewardsView/tabs/leagues"
+msgstr "Recompense pentru Ligi"
+
+msgid "rewardsView/tabs/leagues/awardDescr/style"
+msgstr "Stilul %(styleName)s și insigna %(badgeName)s"
+
+msgid "rewardsView/tabs/leagues/description"
+msgstr "Stilurile și ecusoanele de recompensă sunt temporare și disponibile unui jucător până la încheierea sezonului următor. Pentru a apăra dreptul de aplicare, jucătorii vor trebui să atingă aceeași ligă din nou. Dacă un jucător nu atinge una dintre Ligi, stilul și ecusonul devin indisponibile. Dacă jucătorul atinge altă ligă, stilul și ecusonul sunt înlocuite cu cele potrivite."
+
+msgid "rewardsView/tabs/leagues/description/league1"
+msgstr "Stilul este acordat câștigătorilor sezonului care au avut rezultate remarcabile: au finalizat toate diviziile și au fost în top 20%% jucători ca eficiență, sau au fost printre primii jucători care au intrat în Ligi. Aplicat pe un vehicul, stilul demonstrează realizările curente ale deținătorului. Dreptul de a aplica acest stil trebuie apărat în fiecare sezon al Luptelor pentru Clasament."
+
+msgid "rewardsView/tabs/leagues/description/league2"
+msgstr "Stilul este acordat câștigătorilor sezonului care au demonstrat un nivel corespunzător de măiestrie și dedicare, intrând în Liga de Argint la finalul sezonului. Aplicat pe un vehicul, stilul demonstrează realizările curente ale deținătorului. Dreptul de a aplica acest stil trebuie apărat în fiecare sezon al Luptelor pentru Clasament."
+
+msgid "rewardsView/tabs/leagues/description/league3"
+msgstr "Stilul este acordat câștigătorilor sezonului care au intrat în Liga de Bronz la finalul sezonului. Aplicat pe un vehicul, stilul demonstrează realizările curente ale deținătorului. Dreptul de a aplica acest stil trebuie apărat în fiecare sezon al Luptelor pentru Clasament."
+
+msgid "rewardsView/tabs/leagues/league1"
+msgstr "Liga de Aur"
+
+msgid "rewardsView/tabs/leagues/league2"
+msgstr "Liga de Argint"
+
+msgid "rewardsView/tabs/leagues/league3"
+msgstr "Liga de Bronz"
+
+msgid "rewardsView/tabs/ranks"
+msgstr "Recompense pentru grade"
+
+msgid "rewardsView/tabs/year"
+msgstr "Recompense anuale"
+
+msgid "rewardsView/tabs/year/compensation/extraPoints"
+msgstr "Contra %(points)s %(rankedImg)s, ai primit %(crystal)s %(crystalImg)s drept compensație"
+
+msgid "rewardsView/tabs/year/compensation/notEnough"
+msgstr "Ai primit %(crystal)s %(crystalImg)s drept compensație"
+
+msgid "rewardsView/tabs/year/current"
+msgstr "Concurent pentru recompensă"
+
+msgid "rewardsView/tabs/year/currentChoose"
+msgstr "Selectează recompensa"
+
+msgid "rewardsView/tabs/year/currentFinal"
+msgstr "Recompensă primită"
+
+msgid "rewardsView/tabs/year/title/awarded"
+msgstr "Jetoanele rangului: %(points)s"
+
+msgid "rewardsView/tabs/year/title/notAwarded"
+msgstr "Token-urile rangului: %(points)s"
+
+msgid "seasonComplete/bestRank"
+msgstr "Rangul maxim atins"
+
+msgid "seasonComplete/bigTitle"
+msgstr "Rezultate Sezon %(season)s"
+
+msgid "seasonComplete/division/tooltip/header"
+msgstr "Grad %(rank)s (%(division)s)"
+
+msgid "seasonComplete/effectLabel"
+msgstr "Eficiență"
+
+msgid "seasonComplete/leadersButton"
+msgstr "Lideri sezon"
+
+msgid "seasonComplete/outOfRating"
+msgstr "În afara Clasamentului"
+
+msgid "seasonComplete/placeInRating"
+msgstr "Poziție în Clasament"
+
+msgid "seasonComplete/smallTitle"
+msgstr "Luptă de clasament"
+
+msgid "seasonComplete/sprinterImproved"
+msgstr "Ești printre primii jucători care au intrat în Ligi și vei primi o recompensă pentru Liga de Aur."
+
+msgid "seasonComplete/sprinterTop"
+msgstr "Ești printre primii jucători care au intrat în Ligi."
+
+msgid "seasonComplete/tooltip/body"
+msgstr "Rezultatele tale în Sezonul %(season)s"
+
+msgid "selectableReward/subTitle"
+msgstr "SELECTEAZĂ RECOMPENSA"
+
+msgid "selectableReward/title"
+msgstr "LUPTE DE CLASAMENT.%(rewardName)s"
+
+msgid "selectableReward/tooltip/equipmentChoice/limit"
+msgstr "fiecare articol din listă poate fi revendicat doar o dată."
+
+msgid "selectableReward/tooltip/equipmentChoice/list"
+msgstr "• Sistem de evacuare a gazelor\n• Echipament complex de stabilizare\n• Sistem de încărcare experimental\n• Mecanism durabil de poziționare a tunului\n• Optică experimentală\n• Configurație îmbunătățită\n• Compresor îmbunătățit\n• Rezistență la proiectile"
+
+msgid "selectableReward/tooltip/equipmentChoice/title"
+msgstr "Articole de echipament îmbunătățit selectabile"
+
+msgid "selectorTooltip/desc"
+msgstr "Lupte în vehicule de generația X cercetabile și de colecție, după regulile luptelor standard. Echipele vor fi alcătuite din jucători cu grade cât mai similare."
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Sezonul se încheie în:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Program lupte"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Azi"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Mâine"
+
+msgid "selectorTooltip/title"
+msgstr "Luptă de clasament"
+
+msgid "statistic/playersRaiting"
+msgstr "Lideri sezon"
+
+msgid "statistic/vehicleRank"
+msgstr "Token-uri de rang obținute"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s zile"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s ore"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "tooltip/closeButton/body"
+msgstr "Recompensa îți va fi acordată automat."
+
+msgid "tooltip/closeButton/header"
+msgstr "Înapoi la Garaj"
+
+msgid "tooltip/step/conditions"
+msgstr "Dacă un jucător este în top %(battlesNum)s jucători\ndupă experiență câștigată din echipa %(team)s"
+
+msgid "tooltip/step/conditions/header"
+msgstr "Primit"
+
+msgid "tooltip/step/decommission/description"
+msgstr "Dacă un jucător se clasează pe %(fromTill)s în echipa învinsă, după experiența câștigată."
+
+msgid "tooltip/step/decommission/header"
+msgstr "Pierdut"
+
+msgid "tooltip/step/decommissionWin/description"
+msgstr "Dacă un jucător se clasează pe %(fromTill)s în echipa câștigătoare, după experiența câștigată."
+
+msgid "tooltip/step/description"
+msgstr "Un element special care reprezintă progresul tău până la următorul grad"
+
+msgid "tooltip/step/fromTill"
+msgstr "%(fromPlace)s–%(tillPlace)s"
+
+msgid "tooltip/step/header"
+msgstr "Galon"
+
+msgid "tooltip/step/losers"
+msgstr "echipa învinsă"
+
+msgid "tooltip/step/notCharged/description"
+msgstr "Dacă un jucător nu se clasează în top %(battlesNum)s în echipa câștigătoare, după experiența câștigată, dar se află pe %(fromTill)s."
+
+msgid "tooltip/step/notCharged/header"
+msgstr "Salvat"
+
+msgid "tooltip/step/notChargedLose/description"
+msgstr "Dacă un jucător nu se clasează în top %(battlesNum)s în echipa învinsă, după experiența câștigată, dar se află pe %(fromTill)s."
+
+msgid "tooltip/step/or"
+msgstr "sau"
+
+msgid "tooltip/step/winners"
+msgstr "echipa câştigătoare"
+
+msgid "welcomeScreen/btn"
+msgstr "Înainte!"
+
+msgid "welcomeScreen/centerRule"
+msgstr "Câștigă grade mai mari în lupte contra unor inamici redutabili"
+
+msgid "welcomeScreen/centerRuleTooltip/body"
+msgstr "Atât echipa ta, cât și cea inamică, vor fi alcătuite din jucători cu grade cât mai similare."
+
+msgid "welcomeScreen/centerRuleTooltip/header"
+msgstr "Inamic redutabil"
+
+msgid "welcomeScreen/closeBtn"
+msgstr "ÎNCHIDE"
+
+msgid "welcomeScreen/closeBtnTooltip/body"
+msgstr "Clic pentru a închide ecranul și a te întoarce la Garaj."
+
+msgid "welcomeScreen/closeBtnTooltip/header"
+msgstr "Închide"
+
+msgid "welcomeScreen/equalityText"
+msgstr "="
+
+msgid "welcomeScreen/header"
+msgstr "Bine ai venit!"
+
+msgid "welcomeScreen/leftRule"
+msgstr "Luptă în vehicule tale favorite de\ngenerația X"
+
+msgid "welcomeScreen/leftRuleTooltip/body"
+msgstr "Luptă în vehicule tale favorite de\ngenerația X, cercetabile și de colecție"
+
+msgid "welcomeScreen/leftRuleTooltip/header"
+msgstr "Generația X"
+
+msgid "welcomeScreen/negative/body"
+msgstr "{team}, dar clasează-te în top {topNumber} jucători din echipa ta, după experiența câștigată."
+
+msgid "welcomeScreen/negative/team"
+msgstr "Pierde o luptă"
+
+msgid "welcomeScreen/positive/body"
+msgstr "{team}, şi clasează-te în top {topNumber} jucători din echipa ta, după experiența câștigată."
+
+msgid "welcomeScreen/positive/team"
+msgstr "Câștigă o luptă"
+
+msgid "welcomeScreen/rankDescr"
+msgstr "Pentru a ajunge la Gradul 1"
+
+msgid "welcomeScreen/ranks/header"
+msgstr "Clasează-te între primii jucători după experiență câștigată și promovează la grade superioare!"
+
+msgid "welcomeScreen/ranksDescr"
+msgstr "Cu cât atingi o poziție mai înaltă, cu atât vei primi o recompensă mai valoroasă."
+
+msgid "welcomeScreen/rightRule"
+msgstr "Cu cât ai un grad mai mare, cu atât vei primi o recompensă mai valoroasă"
+
+msgid "welcomeScreen/rightRuleTooltip/body"
+msgstr "Cu cât atingi un grad mai mare, cu atât vei primi o recompensă mai valoroasă."
+
+msgid "welcomeScreen/rightRuleTooltip/header"
+msgstr "Recompense valoroase"
+
+msgid "welcomeScreen/rulesDelimeter"
+msgstr "sau"
+
+msgid "yearLeaderboard/rewardView/battleType"
+msgstr "Luptă de clasament"
+
+msgid "yearLeaderboard/rewardView/clanDescr"
+msgstr "[%(clan)s] "
+
+msgid "yearLeaderboard/rewardView/leaderboardBtn/label"
+msgstr "La clasament"
+
+msgid "yearLeaderboard/rewardView/positionDescr"
+msgstr "Poziția lui {name} {clan}în Clasament"
+
+msgid "yearLeaderboard/rewardView/reward/label"
+msgstr "Ai primi o insignă specială %(name) care poate fi afișată lângă numele de jucător."
+
+msgid "yearLeaderboard/rewardView/reward/nameTemplate"
+msgstr "\"{name}\""
+
+msgid "yearLeaderboard/rewardView/title"
+msgstr "Ai intrat în top {total}"
+
+msgid "yearRewards/box/big/title"
+msgstr "Recompensă avansată"
+
+msgid "yearRewards/box/large/title"
+msgstr "Recompensă maximă"
+
+msgid "yearRewards/box/medium/title"
+msgstr "Recompensă standard"
+
+msgid "yearRewards/box/small/title"
+msgstr "Recompensă mică"
+
+msgid "yearRewards/tooltip/any/reward/title"
+msgstr "Recompensa"
+
+msgid "yearRewards/tooltip/box/big/title"
+msgstr "Recompensă avansată"
+
+msgid "yearRewards/tooltip/box/large/title"
+msgstr "Recompensă maximă"
+
+msgid "yearRewards/tooltip/box/medium/title"
+msgstr "Recompensă standard"
+
+msgid "yearRewards/tooltip/box/small/title"
+msgstr "Recompensă mică"
+
+msgid "yearRewards/tooltip/box/subTitle"
+msgstr "Recompensă anuală. Acordată doar dacă jucătorul obține numărul necesar de jetoane de grad după încheierea a trei sezoane de Lupte de clasament."
+
+msgid "yearRewards/tooltip/equipmentChoice/description/1"
+msgstr "Poți alege un articol de echipament îmbunătățit drept recompensă:"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/2"
+msgstr "Poți alege două articole de echipament îmbunătățit drept recompensă. Fiecare articol va fi primit doar o dată:"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/3"
+msgstr "Poți alege trei articole de echipament îmbunătățit drept recompensă. Fiecare articol va fi primit doar o dată:"
+
+msgid "yearRewards/tooltip/equipmentChoice/list"
+msgstr "• Sistem de evacuare a gazelor\n• Echipament complex de stabilizare\n• Sistem de încărcare experimental\n• Mecanism durabil de poziționare a tunului\n• Optică experimentală\n• Configurație îmbunătățită\n• Compresor îmbunătățit\n• Rezistență la proiectile"
+
+msgid "yearRewards/tooltip/equipmentChoice/title"
+msgstr "Echipament îmbunătățit"
+
+msgid "yearRewards/tooltip/needPoints"
+msgstr "Token-uri de rang necesare"
+
+msgid "yearRewards/tooltip/status/current/description"
+msgstr "Ești concurent pentru o recompensă anuală, deoarece ai obținut numărul necesar de jetoane-uri de grad."
+
+msgid "yearRewards/tooltip/status/current/title"
+msgstr "Recompensa ta actuală"
+
+msgid "yearRewards/tooltip/status/currentChoose/description"
+msgstr "Ai primit o recompensă anuală! Dă clic pe butonul „Selectează recompensa” pentru a selecta articole de echipament îmbunătățit."
+
+msgid "yearRewards/tooltip/status/currentChoose/title"
+msgstr "Recompensă obținută! Articolele de echipament îmbunătățit sunt disponibile la selectare."
+
+msgid "yearRewards/tooltip/status/currentFinal/description"
+msgstr "Ai primit o recompensă anuală!"
+
+msgid "yearRewards/tooltip/status/currentFinal/title"
+msgstr "Recompensă obținută!"
+
+msgid "yearRewards/tooltip/status/locked/description"
+msgstr "Obține-le în lupte pentru clasament mutându-te prin divizii și jucând în Ligi."
+
+msgid "yearRewards/tooltip/status/locked/title"
+msgstr "Token-uri de rang insuficiente"
+
+msgid "yearRewards/tooltip/status/lockedFinal/description"
+msgstr "Nu ai câștigat suficiente jetoane de grad pentru a primi această recompensă."
+
+msgid "yearRewards/tooltip/status/lockedFinal/title"
+msgstr "Token-uri de rang insuficiente"
+
+msgid "yearRewards/tooltip/status/passed/description"
+msgstr "Ești deja concurent pentru o recompensă anuală mai valoroasă"
+
+msgid "yearRewards/tooltip/status/passed/title"
+msgstr "Recompensă indisponibilă"
+
+msgid "yearRewards/tooltip/status/passedFinal/description"
+msgstr "Ai primit deja o recompensă anuală mai valoroasă"
+
+msgid "yearRewards/tooltip/status/passedFinal/title"
+msgstr "Recompensă indisponibilă"
+
+msgid "year_award/acceptButton/acceptLabel"
+msgstr "Recepționat!"
+
+msgid "year_award/acceptButton/hangarLabel"
+msgstr "Afișează în Garaj"
+
+msgid "year_award/compensationLabel"
+msgstr "Ai câștigat {total} {pointsIcon}. Contra a {compensated} {pointsIcon} dintre ele, ai primit {crystals} {crystalIcon} drept compensație."
+
+msgid "year_award/rankedLabel"
+msgstr "Luptă de clasament"
+
+msgid "year_award/rewardSelected"
+msgstr "Recompensă primită"
+
+msgid "year_award/rewardsToSelect"
+msgstr "Recompense disponibile pentru selectare: {count}"

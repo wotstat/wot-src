@@ -1,0 +1,467 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "addVehPopover/btnAdd"
+msgstr "Додати (%(count)d)"
+
+msgid "addVehPopover/btnCancel"
+msgstr "Скасувати"
+
+msgid "addVehPopover/header"
+msgstr "Виберіть техніку, щоб порівняти"
+
+msgid "addVehPopover/showOnlyMyVahicles"
+msgstr "Показувати лише техніку з Гаражу"
+
+msgid "addVehPopover/tooltips/addToCompare/body"
+msgstr "Додати вибрану техніку до порівняння."
+
+msgid "addVehPopover/tooltips/addToCompare/header"
+msgstr "Додати"
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/body"
+msgstr "Щоб додати машину до порівняння, видаліть зі списку порівняння непотрібну техніку."
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/header"
+msgstr "Додати неможливо"
+
+msgid "addVehPopover/tooltips/inHangar/body"
+msgstr "Упорядкувати за наявністю техніки в Гаражі."
+
+msgid "addVehPopover/tooltips/inHangar/header"
+msgstr "Наявна в Гаражі техніка"
+
+msgid "addVehPopover/tooltips/level/body"
+msgstr "Упорядкувати за рівнем техніки."
+
+msgid "addVehPopover/tooltips/level/header"
+msgstr "Техніка"
+
+msgid "addVehPopover/tooltips/nation/body"
+msgstr "Упорядкувати за нацією."
+
+msgid "addVehPopover/tooltips/nation/header"
+msgstr "Нація"
+
+msgid "addVehPopover/tooltips/selectVehicle/body"
+msgstr "Упорядкувати за вибраною технікою."
+
+msgid "addVehPopover/tooltips/selectVehicle/header"
+msgstr "Вибрана техніка"
+
+msgid "addVehPopover/tooltips/title/body"
+msgstr "Упорядкувати за назвою машин."
+
+msgid "addVehPopover/tooltips/title/header"
+msgstr "Назва"
+
+msgid "addVehPopover/tooltips/type/body"
+msgstr "Упорядкувати за типом техніки."
+
+msgid "addVehPopover/tooltips/type/header"
+msgstr "Тип"
+
+msgid "addVehPopover/vehicleName"
+msgstr "Назва"
+
+msgid "cartPopover/configurationType/basic"
+msgstr "Базова"
+
+msgid "cartPopover/configurationType/current"
+msgstr "Як в Гаражі"
+
+msgid "cartPopover/configurationType/custom"
+msgstr "Налаштована"
+
+msgid "cartPopover/configurationType/premium"
+msgstr "Преміум"
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/attention"
+msgstr "Щоб додати машину до порівняння, видаліть зі списку порівняння непотрібну техніку."
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/header"
+msgstr "Додати неможливо"
+
+msgid "cartPopover/gotoCompareBtn/label"
+msgstr "До порівняння (%(value)s)"
+
+msgid "cartPopover/openCmpBtn/tooltip/body"
+msgstr "Порівняти вибрану техніку."
+
+msgid "cartPopover/openCmpBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeAllBtn/label"
+msgstr "Очистити список"
+
+msgid "cartPopover/removeAllBtn/tooltip/body"
+msgstr "Видалити всю техніку зі списку порівняння."
+
+msgid "cartPopover/removeAllBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtn/tooltip/body"
+msgstr "Натисніть, щоб видалити машину зі списку порівняння."
+
+msgid "cartPopover/removeBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtnLocked/tooltip/body"
+msgstr "Неможливо прибрати техніку зі списку порівняння, поки ви перебуваєте у вікні налаштування конфігурації."
+
+msgid "cartPopover/removeBtnLocked/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeLockedBtn/tooltip/body"
+msgstr "Неможливо прибрати машину зі списку порівняння, поки ви перебуваєте у вікні налаштування конфігурації."
+
+msgid "cartPopover/removeLockedBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/sorting/nation/body"
+msgstr "Показує нації вибраних машин."
+
+msgid "cartPopover/sorting/nation/header"
+msgstr "Нація"
+
+msgid "cartPopover/sorting/vehLvl/body"
+msgstr "Показує рівні вибраних машин."
+
+msgid "cartPopover/sorting/vehLvl/header"
+msgstr "Рівень"
+
+msgid "cartPopover/sorting/vehName"
+msgstr "Назва"
+
+msgid "cartPopover/sorting/vehName/tooltip/body"
+msgstr "Показує назви вибраних машин."
+
+msgid "cartPopover/sorting/vehName/tooltip/header"
+msgstr "Назва"
+
+msgid "cartPopover/sorting/vehType/body"
+msgstr "Показує типи вибраних машин."
+
+msgid "cartPopover/sorting/vehType/header"
+msgstr "Тип"
+
+msgid "cartPopover/title"
+msgstr "Список порівняння"
+
+msgid "compareVehicleBtn/tooltips/disabledOnServer/attention"
+msgstr "Зараз операція недоступна."
+
+msgid "header/closeBtn/label"
+msgstr "ЗАКРИТИ"
+
+msgid "menu/cloneForCompare"
+msgstr "Копіювати, щоб порівняти"
+
+msgid "modulesView/closeBtnLabel"
+msgstr "Скасувати"
+
+msgid "modulesView/closeBtnLabel/tooltip/body"
+msgstr "Натисніть, щоб скасувати вибір модулів і повернутися до налаштування техніки."
+
+msgid "modulesView/closeBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/compareBtnLabel"
+msgstr "Прийняти"
+
+msgid "modulesView/compareBtnLabel/tooltip/body"
+msgstr "Натисніть, щоб зберегти вибрані модулі й повернутися до налаштування техніки."
+
+msgid "modulesView/compareBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/resetBtnLabel"
+msgstr "Скинути"
+
+msgid "modulesView/resetBtnLabel/tooltip/body"
+msgstr "Натисніть, щоб повернути машину до базової комплектації."
+
+msgid "modulesView/resetBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/title"
+msgstr "Налаштування модулів %(vehName)s"
+
+msgid "modulesView/vehicleStatus/inHangar"
+msgstr "Є в Гаражі"
+
+msgid "modulesView/vehicleStatus/readyToBuy"
+msgstr "Не куплено"
+
+msgid "modulesView/vehicleStatus/readyToResearch"
+msgstr "Не досліджено"
+
+msgid "skillSelect/bonusSkills"
+msgstr "Бонусні навички"
+
+msgid "skillSelect/button/addToCompare"
+msgstr "Додати до порівняння"
+
+msgid "skillSelect/button/cancel"
+msgstr "Скасувати"
+
+msgid "skillSelect/button/restore"
+msgstr "Відновити"
+
+msgid "skillSelect/majorSkills"
+msgstr "Навички основної спеціальності"
+
+msgid "skillSelect/tooltip/additionalRoles"
+msgstr "За сумісництвом:"
+
+msgid "skillSelect/tooltip/generalPrinciple"
+msgstr "Принцип дії"
+
+msgid "skillSelect/tooltip/generalPrincipleDescription"
+msgstr "На екрані комплектації показано, як навичка вплине на відповідні характеристики, коли її вивчення досягне {cream_Open}100%{cream_Close}, а ефективність становитиме {cream_Open}100%{cream_Close}."
+
+msgid "skillSelect/tooltip/heading"
+msgstr "Навички екіпажу %(vehicleName)s"
+
+msgid "skillSelect/tooltip/roles"
+msgstr "Спеціальності"
+
+msgid "skillSelect/tooltipHint"
+msgstr "*Наведіть курсор на навичку, щоб побачити, як вона впливає на відповідні характеристики в разі вивчення на 100% й 100%-ї ефективності."
+
+msgid "skillsConf/empty"
+msgstr "Виберіть навички екіпажу"
+
+msgid "skillsConf/emptyTooltip/body"
+msgstr "Виберіть навички, щоб подивитися, як вони впливають на відповідні характеристики"
+
+msgid "skillsConf/emptyTooltip/header"
+msgstr "Навички екіпажу"
+
+msgid "skillsConf/header"
+msgstr "Навички екіпажу"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "Додати до порівняння"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "Цю машину не можна додати до порівняння."
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/disabled/body"
+msgstr "Щоб додати машину до порівняння, видаліть зі списку порівняння непотрібну техніку."
+
+msgid "store/compareVehicleBtn/tooltips/disabled/header"
+msgstr "Додати неможливо"
+
+msgid "techTree/tooltips/addToCompare/body"
+msgstr "Додати до порівняння"
+
+msgid "techTree/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehConf/applyBtnLabel"
+msgstr "Застосувати"
+
+msgid "vehConf/btnCleanUp"
+msgstr "Очистити"
+
+msgid "vehConf/cancelBtnLabel"
+msgstr "Скасувати"
+
+msgid "vehConf/cancelBtnLabel/tooltip/body"
+msgstr "Натисніть, щоб скасувати вибрані налаштування і повернутися до порівняння техніки."
+
+msgid "vehConf/cancelBtnLabel/tooltip/header"
+msgstr "Скасувати"
+
+msgid "vehConf/compareBtnLabel/tooltip/body"
+msgstr "Натисніть, щоб скасувати вибрані налаштування і повернутися до порівняння техніки."
+
+msgid "vehConf/compareBtnLabel/tooltip/header"
+msgstr "Застосувати"
+
+msgid "vehConf/confAvailable"
+msgstr "МОЖНА\nНАЛАШТУВАТИ"
+
+msgid "vehConf/doesntAffect"
+msgstr "Не впливає на спрощені ТТХ"
+
+msgid "vehConf/equipment"
+msgstr "Оснащення"
+
+msgid "vehConf/header"
+msgstr "Конфігурація для %(vehName)s"
+
+msgid "vehConf/modifications/choose"
+msgstr "Вибрати модифікації"
+
+msgid "vehConf/modifications/title"
+msgstr "Модифікації"
+
+msgid "vehConf/modules"
+msgstr "Модулі"
+
+msgid "vehConf/resetBtnLabel"
+msgstr "Скинути"
+
+msgid "vehConf/resetBtnLabel/tooltip/body"
+msgstr "Натисніть, щоб повернути налаштування машини до початкових значень."
+
+msgid "vehConf/resetBtnLabel/tooltip/header"
+msgstr "Скинути"
+
+msgid "vehConf/tooltips/btnCleanUp/body"
+msgstr "Натисніть, щоб прибрати вибране обладнання з конфігурації."
+
+msgid "vehConf/tooltips/btnCleanUp/header"
+msgstr "Очистити"
+
+msgid "vehConf/tooltips/camoInfo"
+msgstr "Щоб поліпшити маскування машини на кожному типі мап, нанесіть літній, зимовий та пустельний камуфляж."
+
+msgid "vehConf/tooltips/camoInfoDisabled/body"
+msgstr "Цей камуфляж для всіх сезонів — невіддільна частина машини. Зняти або нанести на нього новий камуфляж неможливо."
+
+msgid "vehConf/tooltips/camoInfoDisabled/header"
+msgstr "Камуфляж для всіх сезонів"
+
+msgid "vehConf/tooltips/camoTitle"
+msgstr "Камуфляж"
+
+msgid "vehConf/tooltips/defCamoInfo"
+msgstr "Встановлено без можливості зняти \nтри типи камуфляжу: зимовий, літній, пустельний."
+
+msgid "vehConf/tooltips/deviceNotAffectedTTC"
+msgstr "Не впливає на розрахунок ТТХ машини"
+
+msgid "vehConf/tooltips/modifications/description"
+msgstr "Виберіть модифікації, що дають змогу здійснити точніше рольове налаштування машини та змінити її ТТХ."
+
+msgid "vehConf/tooltips/modifications/remove"
+msgstr "Скасувати всі модифікації"
+
+msgid "vehConf/tooltips/modifications/title"
+msgstr "Панель модифікацій"
+
+msgid "vehConf/tooltips/revertBtn/body"
+msgstr "Натисніть, щоб повернути налаштування машини до початкових значень."
+
+msgid "vehConf/tooltips/revertBtn/header"
+msgstr "?empty?"
+
+msgid "vehConf/tooltips/topModulesLabel/body"
+msgstr "У цієї машини немає досліджуваних модулів: вона поставляється одразу з незмінним набором модулів."
+
+msgid "vehConf/tooltips/topModulesLabel/header"
+msgstr "Ліпша комплектація"
+
+msgid "vehConf/tooltips/topModulesOff/body"
+msgstr "Натисніть, щоб вибрати ліпші модулі для цієї машини."
+
+msgid "vehConf/tooltips/topModulesOff/header"
+msgstr "Ліпша комплектація"
+
+msgid "vehConf/tooltips/topModulesOn/body"
+msgstr "Натисніть, щоб скасувати вибір ліпших модулів для цієї машини."
+
+msgid "vehConf/tooltips/topModulesOn/header"
+msgstr "Ліпша комплектація"
+
+msgid "vehConf/topModulesBtnLabel"
+msgstr "Вибрати ліпшу комплектацію"
+
+msgid "vehConf/topModulesLabel"
+msgstr "Ліпша комплектація"
+
+msgid "vehPreview/compareInfo/addToCompare"
+msgstr "Додати до порівняння — "
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "Додати до порівняння"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "Цю машину не можна додати до порівняння."
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/body"
+msgstr "Щоб додати машину до порівняння, видаліть зі списку порівняння непотрібну техніку."
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/header"
+msgstr "Додати неможливо"
+
+msgid "vehicleCompareView/btnAddVehicles"
+msgstr "Додати до порівняння"
+
+msgid "vehicleCompareView/configurationType/basic"
+msgstr "Базова"
+
+msgid "vehicleCompareView/configurationType/current"
+msgstr "Як в Гаражі"
+
+msgid "vehicleCompareView/configurationType/custom"
+msgstr "Налаштована"
+
+msgid "vehicleCompareView/configure"
+msgstr "Налаштувати"
+
+msgid "vehicleCompareView/toHangar"
+msgstr "Показати в Гаражі"
+
+msgid "vehicleCompareView/toPreview"
+msgstr "Попередній перегляд"
+
+msgid "vehicleCompareView/tooltips/addVehicles/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/addVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/configure/body"
+msgstr "Натисніть, щоб перейти до екрана налаштування параметрів, які впливають на кінцеві характеристики машини."
+
+msgid "vehicleCompareView/tooltips/configure/header"
+msgstr "Налаштувати параметри"
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/body"
+msgstr "Натисніть, щоб видалити всю техніку зі списку порівняння."
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/body"
+msgstr "Видалити з порівняння"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/topPanel/noVehicle"
+msgstr "Техніку не вибрано"
+
+msgid "vehicleCompareView/topPanel/premium"
+msgstr "Преміум"
+
+msgid "vehicleCompareView/topPanel/vehiclesCount"
+msgstr "Порівняти машин: %(count)s"

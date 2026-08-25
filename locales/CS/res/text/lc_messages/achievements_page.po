@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Body, které zvyšují celkové skóre úspěchů."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Body úspěchu"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Dokončili jste všechny kroky tohoto úspěchu a získali jste všechny dostupné odměny."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Pro návrat na předchozí úroveň KATALOGU stiskněte %(escIcon)s."
+
+msgid "catalog/rootLink"
+msgstr "KATALOG"
+
+msgid "category/achievementsScore/title"
+msgstr "SKÓRE ÚSPĚCHŮ"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "Hlavní ukazatel postupu ve sběru úspěchů. Každý nový úspěch (s výjimkou trofejí) zvyšuje celkové skóre úspěchů."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Celkové skóre úspěchů: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "NEDÁVNÉ\nÚSPĚCHY"
+
+msgid "category/title"
+msgstr "SBÍRKA HRÁČE"
+
+msgid "category/upcoming/title"
+msgstr "NADCHÁZEJÍCÍ\nÚSPĚCHY"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s a další"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Odemknut úspěch!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "Odemčeno %(count)s úspěchů!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s a další"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Získána nová trofej!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "Získáno %(count)s trofejí!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "Automatické zobrazení seřadí ocenění ze všech kategorií podle jejich hodnoty pro zobrazení na stuze hodnotných ocenění. Automatické zobrazení se vypne, pokud změníte pořadí ocenění ručně."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "Automatické zobrazení seřadí ocenění ze všech kategorií podle jejich hodnoty pro zobrazení na stuze hodnotných ocenění. Po zapnutí tohoto zobrazení se resetuje vaše ručně nastavené pořadí."
+
+msgid "editConfirm/description/error"
+msgstr "Problém právě prošetřujeme. Zkuste prosím úpravy zanést později. Mezitím budete přesměrováni na Shrnutí."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Uložit"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Zrušit"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Potvrzuji!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Automatické zobrazení vypnuto"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Automatické zobrazení zapnuto"
+
+msgid "editConfirm/title/error"
+msgstr "Došlo k chybě"
+
+msgid "editConfirm/title/normal"
+msgstr "Aplikovat změny stuhy hodnotných ocenění?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Zrušit změny"
+
+msgid "editView/footer/button/save"
+msgstr "Použít a odejít"
+
+msgid "editView/header/checkbox"
+msgstr "Automatické zobrazení"
+
+msgid "editView/header/close"
+msgstr "ZAVŘÍT"
+
+msgid "editView/header/title/idle"
+msgstr "Vyberte ocenění pro zobrazení na stuze"
+
+msgid "editView/header/title/selecting"
+msgstr "Vyberte ocenění pro nahrazení"
+
+msgid "editView/header/title/tutorial"
+msgstr "Vyberte slot pro ocenění"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Zrušit"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Nahradit"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "VAŠE ÚSPĚCHY\nJSOU TADY"
+
+msgid "hint/profile"
+msgstr "VAŠE ÚSPĚCHY\nJSOU TADY"
+
+msgid "hint/summary/customizationButton"
+msgstr "Jsou dostupné úpravy"
+
+msgid "notifications/editingEnabled/button"
+msgstr "Na stuhu"
+
+msgid "notifications/editingEnabled/title"
+msgstr "K dispozici je úprava stuhy hodnotných ocenění"
+
+msgid "notifications/firstEntry/button"
+msgstr "Na služební záznam"
+
+msgid "notifications/firstEntry/text"
+msgstr "Hodnocení World of Tanks,\núprava ocenění."
+
+msgid "notifications/firstEntry/title"
+msgstr "Aktualizace služebního záznamu"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "Na služební záznam"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Úprava ocenění\na vizuální design."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Aktualizace služebního záznamu"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "Na služební záznam"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Vaše úroveň: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Vaše hodnocení se vypočítává!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "Na služební záznam"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "Vaše hodnocení World of Tanks se změnilo. Abyste zjistili všechny podrobnosti, přejděte do sekce „Služební záznam“."
+
+msgid "notifications/ratingUp/button"
+msgstr "Na služební záznam"
+
+msgid "notifications/ratingUp/text"
+msgstr "Dosáhli jste následující úrovně: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Vaše hodnocení se zvýšilo!"
+
+msgid "playerInfo/clan/button"
+msgstr "Profil klanu"
+
+msgid "playerInfo/clan/date"
+msgstr "Datum připojení:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "Hráč nemá žádné stálé taktické jednotky"
+
+msgid "playerInfo/clan/post"
+msgstr "Pozice:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "Osobní vojenská známka je\ndočasně nedostupná"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "Hodnocení hráče nebylo vypočítáno: Odehráno méně než %(amount)s bitev."
+
+msgid "ratingWidget/status/initial"
+msgstr "Pro vypočítání vašeho hodnocení World of Tanks odehrajte %(amount)s bitev."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "Vaše hodnocení hráče ještě nebylo vypočítáno"
+
+msgid "ratingWidget/status/progress"
+msgstr "Vypočítávání vašeho hodnocení World of Tanks. Zbývá bitev: %(amount)s."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Vstupte do bitvy a my vypočítáme vaše hodnocení."
+
+msgid "rewardView/button/achievements"
+msgstr "Na úspěchy"
+
+msgid "rewardView/button/dogTag"
+msgstr "Na vojenskou známku"
+
+msgid "rewardView/button/dogTags"
+msgstr "Na vojenské známky"
+
+msgid "rewardView/button/moreRewards"
+msgstr "Prohlédnout %(value)s dalších"
+
+msgid "rewardView/reward/dogTag"
+msgstr "Vojenská známka %(value)s"
+
+msgid "rewardView/title/multi"
+msgstr "ODMĚNY ZA ÚSPĚCH ZÍSKÁNY"
+
+msgid "rewardView/title/single"
+msgstr "ODMĚNA ZA ÚSPĚCH ZÍSKÁNA"
+
+msgid "section/action"
+msgstr "Speciální"
+
+msgid "section/battle"
+msgstr "Hrdinové bitvy"
+
+msgid "section/class"
+msgstr "Postupná ocenění"
+
+msgid "section/epic"
+msgstr "Epické úspěchy"
+
+msgid "section/group"
+msgstr "Skupinová ocenění"
+
+msgid "section/memorial"
+msgstr "Pamětní žetony"
+
+msgid "section/special"
+msgstr "Čestné hodnosti"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "NA ÚSPĚCHY"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Poslední bitva: %(lastVisitDate)s v %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Účet vytvořen: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Pozadí"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Základní"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Ohnivé"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Zlaté"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Legendární"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Retro"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Výbušné"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Zrušit změny"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Stuha"
+
+msgid "summary/achievements/customization/save"
+msgstr "Použít a odejít"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "Z technických důvodů není v současné době možné upravit vzhled služebního záznamu. Na řešení tohoto problému pracujeme. Obnovte stránku nebo to zkuste později."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Úprava je dočasně nedostupná"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Hodnotná ocenění"
+
+msgid "summary/achievements/total"
+msgstr "Celkem: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Jedinečné: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Průměr: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Vítězství: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Průměr: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Průměr: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Rekord: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Průměr: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Vyrazte do bitvy, než připravíme vaše údaje."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Informace jsou dočasně nedostupné."
+
+msgid "summary/disabled/title"
+msgstr "Další informace budou dostupné později"
+
+msgid "summary/main/assistance"
+msgstr "REKORD\nASISTOVANÉHO\nPOŠKOZENÍ"
+
+msgid "summary/main/battles"
+msgstr "ODEHRANÉ\nBITVY"
+
+msgid "summary/main/blocked"
+msgstr "MAXIMÁLNÍ\nZABLOKOVANÉ\nPOŠKOZENÍ"
+
+msgid "summary/main/damage"
+msgstr "REKORD\nZPŮSOBENÉHO\nPOŠKOZENÍ"
+
+msgid "summary/main/destroyed"
+msgstr "ZNIČENO\nVOZIDEL"
+
+msgid "summary/main/experience"
+msgstr "REKORD\nZÍSKANÝCH\nZKUŠENOSTÍ"
+
+msgid "summary/statistic/title"
+msgstr "Hodnocení World of Tanks"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Osobní hodnocení"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Maximální poškození způsobené s vaší asistencí."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Maximální poškození způsobené s vaší asistencí v bitvě se strojem %(tankName)s."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Rekord asistovaného poškození: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Poměr celkového poškození nepřátelských vozidel způsobeného s vaší asistencí a celkového počtu odehraných bitev. Počítáno jako přínos:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Poškození způsobené díky vašemu odhalování\n• Poškození způsobené vámi znehybněnému nepřátelskému vozidlu po zničení pásu"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Průměrné asistované poškození: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Poměr celkového počtu vítězství a počtu odehraných bitev."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "To zahrnuje:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Vítězství: %(wins)s\n• Porážky: %(loses)s\n• Remízy:%(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Poměr vítězství: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Odehráno bitev: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Maximální zablokované poškození."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Maximální zablokované poškození v bitvě se strojem %(tankName)s."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Maximálně zablokováno: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Poměr celkového poškození zablokovaného pancířem zásahů bez probití a odrazů AP, HEAT a APCR granátů a počtu odehraných bitev."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Průměrné zablokované poškození: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Maximální způsobené poškození."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Maximální způsobené poškození v bitvě se strojem %(tankName)s."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Rekord způsobeného poškození: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Poměr celkového způsobeného poškození a počtu odehraných bitev."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Průměrné poškození: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Maximální počet zničených vozidel."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "Maximální počet zničených vozidel v bitvě se strojem %(tankName)s."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Maximálně zničeno: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Celkový počet zničených nepřátelských vozidel ve všech bitvách."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Zničeno vozidel: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Maximální množství získaných zkušeností."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "Maximální množství získaných zkušeností v bitvě se strojem %(tankName)s."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Rekord zkušeností: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Poměr celkových získaných zkušeností a počtu odehraných bitev."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Průměrné zkušenosti: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Výpočet vašeho hodnocení World of Tanks neovlivní vítězství ani porážka."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Hrajte s různými vozidly, abychom mohli určit vaše nejefektivnější vozidla podle následujících parametrů výkonnosti:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "WTR je systém hodnocení, který vypočítává individuální hodnocení pro každé vozidlo a následně ho využívá k určení celkové výkonnosti hráče. Systém pružně reaguje na změny bojové strategie a porovnává statistiky hráče s průměrem serveru."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Způsobené poškození"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Poškození způsobené s vaší asistencí"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Počet zničených nepřátelských vozidel"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Zablokované poškození a míra přežití"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "Zvyšování WTR"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "Hodnocení World of Tanks"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Zbývající bitvy pro výpočet hodnocení: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Úroveň: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Limit dosažen!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Body zbývající do zvýšení vaší úrovně: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "Bronzový %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "Stříbrný %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "Zlatý %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "Eso %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "Legenda %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Úroveň"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Počet bodů"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "Hodnocení World of Tanks"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "Po aktivaci nastavení %(whiteSpanish_Open)sbude vynulováno%(whiteSpanish_Close)s pořadí, které jste nastavili."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "Po vypnutí nastavení nebo po ručním nastavení se %(whiteSpanish_Open)szastaví%(whiteSpanish_Close)s %(whiteSpanish_Open)sautomatické%(whiteSpanish_Close)s %(whiteSpanish_Open)saktualizování%(whiteSpanish_Close)s ocenění na stuze."
+
+msgid "tooltips/autoSetting/description"
+msgstr "Automaticky seřadí ocenění %(whiteSpanish_Open)svšech kategorií%(whiteSpanish_Close)s podle jejich hodnoty pro zobrazení na stuze hodnotných ocenění."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Automatické zobrazení"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "Úprava stuhy hodnotných ocenění je dočasně nedostupná. Zkuste to prosím později."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Zatím nemáte žádná ocenění pro umístění. Získejte je %(whiteSpanish_Open)sv bitvách%(whiteSpanish_Close)s nebo %(whiteSpanish_Open)sza účast%(whiteSpanish_Close)s %(whiteSpanish_Open)sv herních akcích.%(whiteSpanish_Close)s"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "Úprava stuhy hodnotných ocenění bude dostupná po získání %(whiteSpanish_Open)s%(amount)s nebo více odměn%(whiteSpanish_Close)s jakékoliv kategorie."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Žádná ocenění k umístění."
+
+msgid "tooltips/mastery/body"
+msgstr "Získaná ocenění „Vzorný tankista: Hrdina“ ve všech příslušných režimech bitvy / Počet vozidel, která bojovala alespoň v jedné náhodné bitvě"
+
+msgid "tooltips/mastery/header"
+msgstr "Vzorný tankista: Hrdina"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "Osobní hodnocení je měřítko schopností a zkušeností hráče na základě následujícího:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "Osobní hodnocení je aktualizováno s každou další odehranou bitvou."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Vítězství\n• Poškození způsobené s vaší asistencí\n• Průměrné poškození za bitvu\n• Průměrné zkušenosti za bitvu\n• Přežité bitvy"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Osobní hodnocení"

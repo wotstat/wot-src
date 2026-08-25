@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "Accepter"
+
+msgid "EULA/labels/agree"
+msgstr "Jeg accepterer."
+
+msgid "EULA/title"
+msgstr "Slutbrugerlicensaftale"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "Denne email-adresse er allerede knyttet til din konto."
+
+msgid "accountCompletion/activate/button"
+msgstr "Send kode/skift email"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "Gensend kode eller skift din email om %(timer) s"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "Indtast din email igen"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "Kode udløbet. Indtast din email igen."
+
+msgid "accountCompletion/activate/keyError"
+msgstr "Ugyldig kode"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "Hvis du ikke kan finde emailen, så kontroller venligst din email-adresse, da den måske er indtastet forkert."
+
+msgid "accountCompletion/activate/text"
+msgstr "En email med bekræftelseskoden fra Wargaming.net blev sendt til adressen {whiteSpanish_Open}%(email){whiteSpanish_Close}. Indtast den 4-cifrede kode for at bekræfte din email og fuldføre din konto."
+
+msgid "accountCompletion/activate/title"
+msgstr "Bekræft email-adresse"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "Du har indtastet en forkert kode for mange gange."
+
+msgid "accountCompletion/add"
+msgstr "Tilføj"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "Denne email-adresse er allerede knyttet til din konto."
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "Email allerede tilknyttet"
+
+msgid "accountCompletion/cancel"
+msgstr "Senere"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "Din email"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "Email"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "Tilføj din email for at modtage belønningen og få fuld adgang til alle spilevents."
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "FÅ FULD ADGANG TIL SPILLET"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "Tilføj og bekræft din email-adresse for at modtage en belønning og åbne op for nye egenskaber. %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "Fuldfør konto"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "En konto er allerede registreret med denne email-adresse."
+
+msgid "accountCompletion/emailForbidden"
+msgstr "Denne email-adresse er forbudt."
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "Email må ikke indeholde mere end %(amount)s tegn."
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "Email skal indeholde mindst %(amount)s tegn."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "Din email er allerede bekræftet."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "Email bekræftet"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "Du overgik antallet af anmodninger. Du kan ændre din email-adresse eller gensende emailen om %(timer)"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "Denne email-tjeneste er blokeret i dit land."
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "Denne email-tjeneste er ikke tilladt i dit land."
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "Kan ikke tilknytte email"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "Email kan kun indeholde latinske bogstaver, tal, @-tegn, punktum og underscore."
+
+msgid "accountCompletion/later"
+msgstr "Senere"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "Belønning for at bekræfte email"
+
+msgid "accountCompletion/submit"
+msgstr "Bekræft"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "Venter i kø på serveren.\nDette kan tage noget tid."
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) Tjenesten er midlertidigt utilgængelig. Prøv igen senere."
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) Tjenesten er midlertidigt utilgængelig.\nPrøv igen om %(time)s."
+
+msgid "barracksExpand/cancel"
+msgstr "Fortryd"
+
+msgid "barracksExpand/message"
+msgstr "Udvid barakken for %(price)s guld ved at tilføje pladser: %(count)s?"
+
+msgid "barracksExpand/submit"
+msgstr "Udvid"
+
+msgid "barracksExpand/title"
+msgstr "Udvid barakken"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "Ikke nok guld."
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "Udvid barakken"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "Afbryd"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "Ikke alle spillere er klar til kamp, eller deres antal er færre end påkrævet."
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "Start kampen"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "Ufuldstændig"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "Aktiver bonus %(newBoosterName)s"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "Bekræft"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "Bekræft aktivering"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "Hvis den personlige reserve %(newBoosterName)s aktiveres, vil den nuværende aktive personlige reserve %(curBoosterName)s blive annulleret og ødelagt."
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "Ja"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "Bekræft aktivering"
+
+msgid "buyConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "buyConfirmation/message"
+msgstr "Køb %(product)s for %(price)s?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "Køb {%count} \"{%name}\" ting?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "Køb udstyr '%(equipment)s'?"
+
+msgid "buyConfirmation/submit"
+msgstr "Køb"
+
+msgid "buyConfirmation/title"
+msgstr "Bekræft køb"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "inkompatibilitet"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " med det nuværende modul."
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "Forbrugsvaren \"%(conflicted)s\" vil blive sendt til depotet på grund af "
+
+msgid "buyInstallConfirmation/message"
+msgstr "Køb og monter %(kind)s \"%(name)s\" på det nuværende køretøj for %(price)s%(creditsIcon)s? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "Køb og monter %(kind)s \"%(name)s\" på det nuværende køretøj for %(price)s credits?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "Køb"
+
+msgid "buyInstallConfirmation/title"
+msgstr "Bekræft køb"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "Køb premium konto i %(days)s for %(gold)s?\n %(alertIcon)s %(alertColorTagOpen)s På grund af tekniske vanskeligheder vil du ikke modtage yderligere xp eller credits. Prøv at vælge en anden kamp eller køb premium konto direkte gennem køb premium konto menuen.%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "Køb"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "Bekræft køb"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "Garageplads"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "buySlotConfirmation/message"
+msgstr "Køb yderligere en plads i garagen for %(goldCost)s?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "Køb"
+
+msgid "buySlotConfirmation/title"
+msgstr "Bekræft køb"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "Ikke nok credits til at købe en plads."
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "Ikke nok credits"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "Ikke nok guld til at købe en garageplads."
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "Ikke nok guld"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "Ingen tilgængelig garageplads. Køb en ekstra plads for {%d} credits?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "Køb"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "Bekræft køb"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "Lad med standard ammunition"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "Fortryd"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Du har allerede mandskab til dette køretøj."
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "I køretøjets lejeperiode modtager du en ekstra plads gratis."
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "Kunne ikke lade ammunition: Det valgte køretøj har allerede fuld ammunition."
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "Kunne ikke lade ammunition: Det valgte køretøj har allerede noget ammunition."
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "Pris: %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "Yderligere garageplads"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "Køb"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "Køb"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "Bytte"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "Køb uden mandskab"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "Træner mandskab"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "Mandskab: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "Køb %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "Totalt:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "Du har indtast forkert information."
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "Indtast antallet af guld fra kolonnen \"Total\""
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "Bekræft operation:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "Du har ingen passende køretøjer\nder kan byttes"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "Estimeret værdi er %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "Træn mandskabet: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "Total:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "Vælg køretøj"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "Vælg et premium køretøj\ntilgængeligt til bytte"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "Fortryd"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "Yderligere pris for %(vehiclename)s:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "Veksling"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "Køb uden mandskab"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "Bytte %(vehiclename)s"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "Købt udstyr og forbrugsvarer vil ikke blive refunderet med guld når du har klikket på Byt knappen nedenfor. Kontroller venligst tingene nøje."
+
+msgid "buyVehicleWindow/warning"
+msgstr "Købte ting vil ikke blive returneret til guld efter du har klikket på Køb knappen nedenfor. Kontroller venligst tingene nøje."
+
+msgid "challenge_missions/activation/cancel"
+msgstr "Afbryd"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "Aktiver"
+
+msgid "challenge_missions/activation/description"
+msgstr "Efter aktivering kan en serie Crucible-missioner {{@ style (color #FFE4C0)}}fuldføres, fejles eller opgives{{/}}. Hvis du fejler en mission i serien, vil du miste et skjold."
+
+msgid "challenge_missions/activation/title"
+msgstr "Aktiver Crucible: {{challengeName}}?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "Afbryd"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "Genstart"
+
+msgid "challenge_missions/restart/description"
+msgstr "Dit missionsfremskridt vil nulstilles, dine skjolde vil gendannes, og du vil være i stand til at optjene belønningerne igen. Serien af missioner vil være aktiv straks efter genstart."
+
+msgid "challenge_missions/restart/free/title"
+msgstr "Genstart Crucible: {{challengeName}} gratis?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "Genstart Crucible: {{challengeName}} for {{cost}}?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "Afbryd"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "Opgiv"
+
+msgid "challenge_missions/surrender/description"
+msgstr "Hvis du opgiver, vil denne serie Crucible-missioner slutte, og dit fremskridt og skjolde vil blive nulstillet. Du kan genstarte det på ethvert tidspunkt."
+
+msgid "challenge_missions/surrender/title"
+msgstr "Opgiv Crucible: {{challengeName}}?"
+
+msgid "changeGraphics/cancel"
+msgstr "Fortryd"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s Grafikken er blevet betydeligt ændret i denne opdatering. Du kan vælge automatisk grafikindstilling eller fortryde det automatiske valg og ændre indstillingerne manuelt."
+
+msgid "changeGraphics/submit"
+msgstr "Automatisk valg"
+
+msgid "changeGraphics/title"
+msgstr "Automatisk valg af grafikindstillinger"
+
+msgid "changePeriphery/cancel"
+msgstr "Fortryd"
+
+msgid "changePeriphery/message"
+msgstr "Overfør til en anden server?"
+
+msgid "changePeriphery/submit"
+msgstr "Overfør"
+
+msgid "changePeriphery/title"
+msgstr "Bekræft overførsel"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "Afbryd"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "Serverændringer vil nu blive gemt. Du kan aktivere eller inaktivere auto-login i indstillinger."
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "Fortsæt"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "Skift til en anden server?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "Fortryd"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "Overfør til en anden server?\n\nHvis du skifter server, vil du have følgende begrænsninger:\n\t• Nogle køretøjer vil være utilgængelige.\n\t• Emblemer og inskriptioner vil ikke blive vist.\n\t• Missioner, personlige reserver og testkørsel kamptypen vil være utilgængelige.\n\nDu vil muligvis opleve fejl og problemer med forbindelsens kvalitet. Respekter venligst spillere fra andre regioner."
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "Overfør"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "Bekræft overførsel"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "Afbryd"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "Overfør til en anden server?\n\nHvis du skifter server, vil du have følgende begrænsninger:\n\t• Nogle køretøjer vil være utilgængelige.\n\t• Emblemer og inskriptioner vil ikke blive vist.\n\t• Missioner, personlige reserver og testkørsel kamptypen vil være utilgængelige.\n\nDu vil muligvis opleve fejl og problemer med forbindelsens kvalitet. Respekter venligst spillere fra andre regioner.\n\n\nServerændringer vil blive gemt.\nGå til indstillinger for at inaktivere eller aktivere auto-login."
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "Fortsæt"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "Bekræft overførsel"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "Fortryd"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sDu er ved at gå med i klanen:\n%(clanName)s\n\nVed at bekræfte din intention til at gå med i klanen, vil du automatisk acceptere dens regler og regulativer og bekræfter at du aktivt vil deltage i klanens aktiviteter og dens udvikling.\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "Efter du forlader en klan, vil der være en midlertidig spærring mod at gå med i en anden klan."
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "Bekræft"
+
+msgid "clanConfirmJoining/title"
+msgstr "Bekræft at gå med i klanen"
+
+msgid "clan_data_not_available/cancel"
+msgstr "Luk"
+
+msgid "clan_data_not_available/message"
+msgstr "Profilen på denne spillers klan er midlertidigt utilgængelig. Prøv igen senere."
+
+msgid "clan_data_not_available/title"
+msgstr "Bemærk!"
+
+msgid "common/cancel"
+msgstr "Fortryd"
+
+msgid "common/confirm/cancel"
+msgstr "Nej"
+
+msgid "common/confirm/submit"
+msgstr "Ja"
+
+msgid "common/cost"
+msgstr "Pris:"
+
+msgid "common/error/cancel"
+msgstr "Luk"
+
+msgid "common/submit"
+msgstr "Fortsæt"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "Fortryd"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "Køb"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "Køb og benyt direktiver"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "Fortryd"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "Bemærk! %(devices)s er ikke monteret. Direktivet %(font_tag_open)sVIL IKKE VIRKE.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "Monter"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "Benyt direktiv"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "Fortryd"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "Bemærk! Du har ikke udstyr der er kompatibelt med det valgte direktiv. Direktivet %(font_tag_open)sVIL IKKE VIRKE.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "Monter"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "Benyt direktiv"
+
+msgid "confirmBuy/title"
+msgstr "Køb %(moduleName)s?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "Fortryd"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "Modulet vil blive sendt til depotet."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "Beløb krævet til køb:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "Optjen credits i kampe, sælg overskydende udstyr fra dit depot eller veksl guld for at få flere."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "Ikke nok credits"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "Pris på modul:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "Sælg det erstattede modul %(previousModuleName) for %(previousModulePrice)"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "Dette modul er kompatibelt med:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "Du kan sælge modulet nu, eller det vil blive sendt til depotet, hvor du senere kan sælge eller montere det igen."
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "Køb"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "Køb og monter %(moduleName)s?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "Køb og monter udstyr '%(equipment)s'?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "Monter"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "Fortryd"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "Veksling er ikke nødvendig.\nDu har credits nok."
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "Kan ikke købe: veksling fejlet.\nYderligere %(gold)s nødvendig til veksling."
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "Veksl %(gold)s til den manglende mængde credits?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "Nødvendige credits:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "Beløb krævet for køb: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "Veksl"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "Bekræft veksling for køb"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "Fortryd"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "Konvertering er ikke nødvendig.\nDu har xp nok."
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "Kan ikke udforske: konvertering fejlet.\nYderligere %(gold)s nødvendig til konvertering."
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "Konverter det nødvendige xp for %(gold)s?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "Xp påkrævet:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "Beløb krævet for forskning: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "Vælg køretøj"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "Bekræft veksling for forskning"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "Samlet:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "Fortryd"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "Veksling er ikke nødvendig til genopretning.\nDu har nok credits."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "Kan ikke veksle til genopretning.\n%(gold)s kræves til veksling."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "Veksl %(gold)s til den manglende mængde credits?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "Nødvendige credits:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "Beløb krævet for genopretning: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "Veksling"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "Bekræft veksling for genopretning"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "Total:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "Nummer"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "Samlet"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "Pris:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "Pris"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "Totalt:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "Samlet"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "Totalt:"
+
+msgid "confirmUnlock/cancel"
+msgstr "Nej"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} (inklusive {{freeXP}})?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "Udforsk {{items}} for"
+
+msgid "confirmUnlock/item/message"
+msgstr "Forskning %(typeString)s %(userString)s for %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (inklusive %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "confirmUnlock/submit"
+msgstr "Ja"
+
+msgid "confirmUnlock/title"
+msgstr "Bekræft forskning"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "Forskning %(userString)s for %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (inklusive %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "Fortryd"
+
+msgid "controlsWrongNotification/message"
+msgstr "En eller flere funktioner blev ikke tildelt taster. Er du sikker på du vil gemme indstillingerne?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "Gem"
+
+msgid "controlsWrongNotification/title"
+msgstr "Fejl"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "Fortryd"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "Filer for den tiltænkte stemme er beskadiget eller mangler, standardstemmen vil blive valgt i stedet.\nEn eller flere taster blev ikke tildelt en funktion. Gem ændringerne?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "Gem"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "Fejl"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "createOrderConfirmation/submit"
+msgstr "Bekræft"
+
+msgid "createOrderConfirmation/title"
+msgstr "Bekræft klargøring af reserver"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "Utilstrækkelige midler til at lave købet."
+
+msgid "crewBookPurchase/description/crew"
+msgstr "Anvendt på hele mandskabet. Efter endt læsning, giver %(book)s hvert medlem af mandskabet %(exp)s xp."
+
+msgid "crewBookPurchase/description/personal"
+msgstr "Anvendt på det valgte medlem af mandskabet. Efter endt læsning, giver %(book)s dette medlem af mandskabet %(exp)s xp."
+
+msgid "crewBookPurchase/purchase"
+msgstr "Køb"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "Køb %(book)s?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "Afbryd"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "Alle påførte mærker {season} kort vil blive {removed} fra dit køretøj\nda denne plads er utilgængelig for {this}"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "Bekræft"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "disse kort."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "dette kort."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "Påfør dette mærke på denne plads for alle kort?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "Efter køb vil elementerne blive påført det nuværende køretøj. Elementer markeret med en stjerne vil være utilgængelige for andre køretøjer."
+
+msgid "customization/buy_install_bound/title"
+msgstr "Bekræftelse af køb af elementer"
+
+msgid "customization/change_install_bound/message"
+msgstr "Efter valg vil elementerne blive påført det nuværende køretøj. Elementer markeret med en stjerne vil være utilgængelige for andre køretøjer."
+
+msgid "customization/change_install_bound/title"
+msgstr "Bekræftelse af ændring af elementer"
+
+msgid "customization/close/cancel"
+msgstr "Fortryd"
+
+msgid "customization/close/submit"
+msgstr "Forlad"
+
+msgid "customization/close/title"
+msgstr "Tilbage til garagen uden at gemme ændringer?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "Afbryd"
+
+msgid "customization/exitToShop/submit"
+msgstr "Fortsæt"
+
+msgid "customization/exitToShop/title"
+msgstr "Fortsæt til butikken uden at gemme ændringer?"
+
+msgid "customization/filter/cancel"
+msgstr "Fortryd"
+
+msgid "customization/filter/message"
+msgstr "Alle elementer vil blive fjernet. Fortsæt?"
+
+msgid "customization/filter/submit"
+msgstr "Fjern alle"
+
+msgid "customization/filter/title"
+msgstr "Fjern elementer"
+
+msgid "customization/install_bound/cancel"
+msgstr "Fortryd"
+
+msgid "customization/install_bound/submit"
+msgstr "Fortsæt"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "Fortryd"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "Bemærk! Efter du påfører elementet (%(cTypeName)s %(itemName)s) til det nuværende køretøj, vil du kun være i stand til at påføre det på %(numberLeft)s køretøjer mere. Påfør elementet?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "Anvend"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "Påfør element"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "Fortryd"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "Bemærk! Efter du påfører elementet (%(cTypeName)s %(itemName)s) til det nuværende køretøj, vil du ikke være i stand til at påføre det på andre køretøjer. Påfør elementet?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "Anvend"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "Påfør element"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "Fortryd"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "Bemærk! Efter du påfører elementet (%(cTypeName)s %(itemName)s) til det nuværende køretøj, vil du ikke længere være i stand til at påføre det på andre køretøjer. Elementet %(willBeDeleted)s hvis det fjernes. Påfør elementet?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "Anvend"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "Påfør element"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "vil blive slettet"
+
+msgid "customization/remove_element/cancel"
+msgstr "Fortryd"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "Fjern"
+
+msgid "customization/remove_element/title"
+msgstr "Fjern element"
+
+msgid "customizationConfirmSell/message"
+msgstr "Sælg %(name)s for %(price)s%(creditsIcon)s?"
+
+msgid "customizationConfirmSell/title"
+msgstr "Bekræft salg"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "hver %(days)s d"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "hver %(days)s d %(hours)s t"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "hver %(hours)s t"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "hver %(hours)s t %(mins)s min"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "hver %(mins)s min"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "Re-roll af missioner er tilgængelig {timeLimitMsg}"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "Re-roll"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "Re-roll missionen?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} Nogle af dine køretøjer er i kamp. Du vil muligvis miste dit fremskridt efter re-roll af missionen. Re-roll af mission er tilgængelig {timeLimitMsg}"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "Re-roll"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "Re-roll missionen?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "Advarsel!"
+
+msgid "dedication/headline"
+msgstr "Helt af vor tid, medalje modtaget"
+
+msgid "dedication/sub-headline"
+msgstr "For at deltage i {battlesNum} kampe"
+
+msgid "dialogTemplates/cancel"
+msgstr "Afbryd"
+
+msgid "dialogTemplates/confirm"
+msgstr "Bekræft"
+
+msgid "dialogTemplates/ok"
+msgstr "Bekræftet!"
+
+msgid "disconnect/cancel"
+msgstr "Nej"
+
+msgid "disconnect/message"
+msgstr "Ønsker du virkelig at afbryde forbindelsen til serveren?"
+
+msgid "disconnect/submit"
+msgstr "Ja"
+
+msgid "disconnect/title"
+msgstr "Afbryd forbindelsen"
+
+msgid "disconnected/cancel"
+msgstr "OK"
+
+msgid "disconnected/message"
+msgstr "Du har mistet forbindelsen til serveren. Klik OK for at forbinde igen."
+
+msgid "disconnected/messageBan"
+msgstr "Din konto er blevet suspenderet.%(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "Din konto er blevet suspenderet indtil %(expiryTime)s.%(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "Forbindelse til serveren er blevet afbrudt.%(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \nBegrundelse: %s"
+
+msgid "disconnected/title"
+msgstr "Forbindelse afbrudt"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "Afskedig"
+
+msgid "dismissTankman/description/perk"
+msgstr "For denne operation, indtast evnens træningsniveau: {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "Til denne operation, indtast træningsniveauet på den nyligst trænede evne ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "Det valgte mandskabsmedlem vil blive afskediget. Du kan genoprette dem indenfor {whiteOrange_Open}%(time)s d{whiteOrange_Close}."
+
+msgid "dismissTankman/header"
+msgstr "Afskedigelse af mandskabsmedlem"
+
+msgid "dismissTankman/limited"
+msgstr "Grænsen for afskedigelser er blevet nået. Det afskedigede mandskabsmedlem vil erstatte %(name)s (%(role)s, %(vehicle)s)."
+
+msgid "dismissTankman/noRecovery"
+msgstr "Genopretning vil ikke være muligt"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "Fortryd"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "Bemærk! Når du afskediger %(dismissedName)s, vil de erstatte %(deletedStr)s. Bekræft ændring?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "Bekræft"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "Bekræft ændring"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "Fortryd"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "Bemærk! Når du afskediger mandskabet, vil det erstatte %(deletedStr)s og %(extraCount)s mandskab. Bekræft ændring?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "Bekræft"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "Buffer til afskediget mandskab fuld"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "Erstat"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "Navn"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "Efternavn"
+
+msgid "documentChangeDialog/title"
+msgstr "Udskift navn og udseende?"
+
+msgid "dropSkill/cancel"
+msgstr "Fortryd"
+
+msgid "dropSkill/message"
+msgstr "Nulstil alle evner?"
+
+msgid "dropSkill/submit"
+msgstr "Nulstil"
+
+msgid "dropSkill/title"
+msgstr "Bekræft nulstilling"
+
+msgid "elementType/chassis"
+msgstr "affjedring"
+
+msgid "elementType/engine"
+msgstr "motor"
+
+msgid "elementType/gun"
+msgstr "kanon"
+
+msgid "elementType/radiostation"
+msgstr "radio"
+
+msgid "elementType/turret"
+msgstr "tårn"
+
+msgid "elenDisabled/cancel"
+msgstr "Luk"
+
+msgid "elenDisabled/message"
+msgstr "Konkurrencer er midlertidigt utilgængelige på grund af planlagt vedligeholdelse."
+
+msgid "elenDisabled/title"
+msgstr "Bemærk!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "Fortryd"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "Vis ikke denne advarsel igen"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "Du vil opleve lav fps og grafisk afvigelser i denne tilstand på grund af din hardwarekonfiguration. Det vil tage længere at loade en kamp ind og kan resultere i at klienten crasher. Vil du alligevel gå i kamp?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "Kæmp!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "Ydelsesadvarsel"
+
+msgid "equipmentBuyInstall/price"
+msgstr "Købspris:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "Adskil %(equipment)s?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "Afbryd"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "Adskil og opgrader"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "Adskil"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "Dette afmonterede udstyr vil blive {white_Open}ødelagt{white_Close}.\nTingen kan afmonteres for obligationer."
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "Dette afmonterede udstyr vil blive {white_Open}ødelagt{white_Close}.\nTingen kan afmonteres for guld eller med et afmonteringssæt."
+
+msgid "equipmentDestroy/conformation"
+msgstr "Ødelæg udstyr '%(equipment)s'?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "Monter udstyr '%(equipment)s'?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "Sælg udstyr '%(equipment)s'?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "Afbryd"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "Opgrader"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "Til adskillelse"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "Intet tilgængeligt eksperimentelt udstyr at adskille."
+
+msgid "eula/p1"
+msgstr "Læs venligst <BR/><A HREF='event:%(eulaURL)s'><U>Slutbrugerlicensaftalen</U></A> før du fortsætter."
+
+msgid "eula/p2"
+msgstr "VED AT KLIKKE PÅ \"ACCEPTER\", VEDKENDER DU AT HAVE LÆST, FORSTÅET OG ACCEPTERER AT BLIVE BUNDET AF OG OVERHOLDE BETINGELSERNE I SLUTBRUGERLICENSAFTALEN OG VÆRE ANSVARLIG FOR ENHVER OVERTRÆDELSE AF DENNE. EULA OG ENHVER TILFØJELSE DERTIL ER OMFATTET OG BINDENDE PÅ ALLE PROJEKTMEDLEMMER."
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "Udveksl %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s for %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "Veksling"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "Veksel guld"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "Rabatten på konvertering af op til %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s xp til fri xp vil blive brugt. Næste gang vil xp blive konverteret for guld."
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "Konverter %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s xp til fri xp for %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "Konverter"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "Konverter til fri xp"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "Ikke nok xp til at konvertere"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "Ikke nok xp til at konvertere"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "Afbryd"
+
+msgid "fillAllPerks/button/fill"
+msgstr "Automatisk valg"
+
+msgid "fillAllPerks/checkbox"
+msgstr "Autovælg evner for mandskab i barakken"
+
+msgid "fillAllPerks/description"
+msgstr "Afhængig af kvalifikationen hos mandskabsmedlemmet med åbne pladser til evner, vil en algoritme vælge den første evne fra listen nedenfor. Hvis mandskabsmedlemmet allerede har den første evne, vil algoritmen vælge den næste i stedet, indtil alle pladserne er fyldt. Operationen kan tage noget tid."
+
+msgid "fillAllPerks/subTitle"
+msgstr "Evner vil kun blive autovalgt for mandskabsmedlemmer i et køretøj."
+
+msgid "fillAllPerks/title"
+msgstr "Autovælg utrænede evner for alle mandskabsmedlemmer?"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "Fortryd"
+
+msgid "finance_dialog/header"
+msgstr "Bekræft"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "Indtast dit password til den finansielle del af din konto for at bekræfte operationen."
+
+msgid "finance_dialog/results/invalid"
+msgstr "Ugyldig adgangskode."
+
+msgid "finance_dialog/results/limit"
+msgstr "Du har indtastet det forkerte password for mange gange. Prøv igen om 24 timer. <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Glemt password?</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "Din adgangskode skal være på mindst 6 karakterer og må kun indeholde tal, bogstaver og '_'."
+
+msgid "finance_dialog/submitBtn"
+msgstr "Bekræft"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "Afbryd"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "Modtag %(product)s til %(price)s?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "Modtag"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "Bekræft"
+
+msgid "fortDisabled/cancel"
+msgstr "Luk"
+
+msgid "fortDisabled/message"
+msgstr "Information om klaner er utilgængelig i øjeblikket på grund af planlagt vedligeholdelse."
+
+msgid "fortDisabled/title"
+msgstr "Bemærk!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "OK"
+
+msgid "fortTurnedOff/message"
+msgstr "Befæstning er midlertidigt utilgængelig. Prøv igen senere."
+
+msgid "fortTurnedOff/title"
+msgstr "Bemærk!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "Nej"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "Ja"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "Fortryd"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "Du vil forlade garnisonen i den nuværende bygning %(oldBuilding)s. Du vil blive tilknyttet bygningen %(newBuilding)s."
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "Bekræft"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "Tilknyt til bygning"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "Afbryd"
+
+msgid "freeObtainConfirmation/message"
+msgstr "Modtag %(product)s til %(price)s?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "Modtag"
+
+msgid "freeObtainConfirmation/title"
+msgstr "Bekræft"
+
+msgid "freeSkillsLearning/message"
+msgstr "En nulsums-evne skal ikke trænes med xp. Den giver en fordel ved markant at reducere mængden af xp, der er nødvendig for mandskabsmedlemmets yderligere træning."
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "Vælg %(skillName)s som en nulsums-evne?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "Omskol %(skillName)s som en nulsums-evne?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "freeSlotConfirmation/message"
+msgstr "Brug 100% rabat til gratis at tilføje en ekstra plads i garagen?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "Tilføj"
+
+msgid "freeSlotConfirmation/title"
+msgstr "Tilføj plads"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "Luk"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "Du har nået en grænse for køb af gratis køretøjer. Prøv igen i morgen."
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "Luk"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "Købsgrænse"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)sXp%(orangeText_close)s%(simpleText_open)s er en ressource i spillet som optjenes i kampe.\n\nDet inkluderer:%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)sKamp xp%(orangeText_close)s%(simpleText_open)s bliver brugt til at udforske nye moduler på et bestemt køretøj, så vel som yderligere fremskridt i det Wargaming univers det blev optjent.%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sFri xp%(orangeText_close)s%(simpleText_open)s bliver brugt til at udforske ethvert modul og køretøj, samt til at accelerere mandskabstræning. Brug venligst fri xp forsigtigt. %(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "Fortsæt"
+
+msgid "freeXPInfo/title"
+msgstr "Xp"
+
+msgid "gammaDialog/cancel"
+msgstr "Start"
+
+msgid "gammaDialog/message/description"
+msgstr "Kommandør! Konfigurer din skærm til at korrigere farvesætningen og forbedre skærmkvaliteten på din skærm.\n\n "
+
+msgid "gammaDialog/message/header"
+msgstr "Konfigurer din skærm nu!"
+
+msgid "gammaDialog/title"
+msgstr "Gammaindstillinger"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "Efter konvertering:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "Før konvertering:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "Fortryd"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "Konverter"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "Total:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "Mandskab"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "Køretøj"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "Xp"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "Alle køretøjer"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "Sorter efter valgt køretøj."
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "Sorter efter køretøjs navn."
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "Køretøjer"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "Sorter efter optjent xp."
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "Xp"
+
+msgid "gatheringXPForm/title"
+msgstr "Konverter til fri xp"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "Konverter xp:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "Mandskabs træningshastighed er accelereret."
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "Mandskabs træningshastighed er normal."
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "Samlet:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "Totalt:"
+
+msgid "graphics/message/alert"
+msgstr "Bemærk!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "Skærmtilstand er ændret. Vend tilbage til forrige indstillinger i %(time)s sekunder. Gem valgte indstillinger?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "Gem"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "Gem indstillinger for skærmtilstand"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "Nej"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "BEMÆRK! Alle ændringer vil gå tabt. Fortsæt alligevel?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "Ja"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "Auto-Detect grafikkvalitet"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "Nej"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "Bemærk! Ændring af visse grafikindstillinger kan tage noget tid. Fortsæt?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "Ja"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "Tilpas indstillinger"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "Luk"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "Kan ikke sætte parametrer til maksimum. Brugerdefineret grafikkvalitet vil blive sat i stedet."
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "Bemærk"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "Luk"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "Høj kvalitet på textures er kun tilgængeligt på 64-bit systemer."
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "Teksturkvalitet utilgængelig"
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "Senere"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "Ændringer af visse indstillinger vil blive påført ved genstart af spillet."
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "Genstart"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "Tilpas indstillinger"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/message"
+msgstr "Der er ikke mere plads i garagen. Overvej at køb flere pladser eller sælg et køretøj for at skabe mere plads til det, du ønsker at købe."
+
+msgid "haveNoEmptySlots/submit"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/title"
+msgstr "Fejl"
+
+msgid "hof/excludeRating/cancel"
+msgstr "Fortryd"
+
+msgid "hof/excludeRating/message"
+msgstr "Andre spillere vil ikke længere se dine bedrifter, men du kan gøre dem synlige på Hall of Fame siden."
+
+msgid "hof/excludeRating/submit"
+msgstr "Skjul resultater"
+
+msgid "hof/excludeRating/title"
+msgstr "Vis resultater i rangering"
+
+msgid "hofDisabled/cancel"
+msgstr "Luk"
+
+msgid "hofDisabled/message"
+msgstr "Hall of Fame er midlertidigt utilgængelig. Prøv venligst igen senere."
+
+msgid "hofDisabled/title"
+msgstr "Bemærk!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "Afbryd"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}Manglende mandskab{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}Et eller flere mandskabsmedlemmer er uegnet{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "Det valgte køretøj er uegnet af en af følgende årsager:"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "Kun ét mandskab kan modtage bonussen. Den vil blive overført fra"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "til"
+
+msgid "idleCrewBonus/submit"
+msgstr "Bekræft"
+
+msgid "idleCrewBonus/title"
+msgstr "Aktiver intensiveret mandskabstræning?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "Prøv at deaktivere hardwareacceleration i browserindstillingerne (grafik-fanen)."
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "Indlæsningsfejl"
+
+msgid "interviewQuit/cancel"
+msgstr "Tilbage"
+
+msgid "interviewQuit/message"
+msgstr "Du kan afvise undersøgelsen nu og tage den senere ved at åbne beskeden med en invitation i dit notifikationscenter. Beskeden er aktiv indenfor én spilsession."
+
+msgid "interviewQuit/submit"
+msgstr "Fortryd"
+
+msgid "interviewQuit/title"
+msgstr "Afvis undersøgelse"
+
+msgid "koreaParentNotification/cancel"
+msgstr "Bekræftet!"
+
+msgid "koreaParentNotification/message"
+msgstr "For at forhindre afhængighed af spillet i børn og teenagere, er adgang til spillet efter %(preBlockTime)s lukket. Din forbindelse til serveren vil blive afbrudt fra kl. %(blockTime)s."
+
+msgid "koreaParentNotification/submit"
+msgstr "Bekræftet!"
+
+msgid "koreaParentNotification/title"
+msgstr "Spillebegrænsning"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "Bekræftet!"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "Tidsgrænse overskredet. Du kan ikke starte en ny kamp."
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "Bekræftet!"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "Forældrekontrol"
+
+msgid "leaveEvent/cancel"
+msgstr "Fortryd"
+
+msgid "leaveEvent/message"
+msgstr "Resultaterne af dine kampe i konkurrencen vil blive nulstillet efter rangeringerne opdateres. Du vil ikke være i stand til at få en placering i rangeringen og modtage belønningen.\n\nEfter du forlader konkurrencen %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "KAN DU IKKE KOMME TILBAGE TIL DEN."
+
+msgid "leaveEvent/submit"
+msgstr "Forlad konkurrencen"
+
+msgid "leaveEvent/title"
+msgstr "Forlad konkurrencen"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "Fortryd"
+
+msgid "leaveStartedEvent/message"
+msgstr "Resultaterne af dine kampe vil ikke blive talt i denne konkurrence. Du vil ikke være i stand til at blive placeret i rangeringen og modtage belønningen.\n\nEfter du forlader konkurrencen %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "Forlad konkurrencen"
+
+msgid "leaveStartedEvent/title"
+msgstr "Forlad konkurrencen"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "Fortryd"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "Du er allerede i 'før-slags-lobbyen'. Ønsker du at forlade lobbyen for at acceptere invitationen?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "Invitation"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "Fortryd"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "Du er allerede i delingen. Er du sikker på at du ønsker at forlade den nuværende deling og acceptere invitationen?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "Invitation"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "Fortryd"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "Du er allerede i træningsrummet. Er du sikker på at du vil forlade og acceptere invitationen?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "Invitation"
+
+msgid "legalInfoWindow/title"
+msgstr "Juridisk information"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "Afbryd"
+
+msgid "limitedUIOffNotification/message"
+msgstr "Er du sikker på du vil deaktivere gradvis visning af skjulte grænseflade-elementer i garagen?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "Når du har deaktiveret denne mulighed, vil du ikke kunne aktivere den igen."
+
+msgid "limitedUIOffNotification/submit"
+msgstr "Deaktiver"
+
+msgid "limitedUIOffNotification/title"
+msgstr "Tilpas indstillinger"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "Afbryd"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "Serverændringer vil nu blive gemt. Du kan aktivere eller inaktivere auto-login i indstillinger."
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "Fortsæt"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "Gem serverændring?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "Ikke nok granater i ammunitionen i den alternative konfiguration. Gå i kamp alligevel?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "Ammunition mangelfuld"
+
+msgid "lowAmmo/cancel"
+msgstr "Fortryd"
+
+msgid "lowAmmo/message"
+msgstr "Ikke nok granater i det valgte køretøj. Ammunitionen vil blive forsynet automatisk før starten af kampen."
+
+msgid "lowAmmo/submit"
+msgstr "Genforsyn"
+
+msgid "lowAmmo/title"
+msgstr "Auto-genforsyn ammunition"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "Fortryd"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "Ikke nok granater i ammunitionen på det valgte køretøj. Gå i kamp alligevel?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "Kamp!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "Ammunition mangelfuld"
+
+msgid "lowFpsWarning/cancel"
+msgstr "Nej"
+
+msgid "lowFpsWarning/message"
+msgstr "Nuværende indstillinger forårsager lav spilydelse. Vil du ændre indstillingerne til noget lavere?"
+
+msgid "lowFpsWarning/submit"
+msgstr "Ja"
+
+msgid "lowFpsWarning/title"
+msgstr "Lav spilydelse"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "Spillerdetaljer for %(userName)s er låst."
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "Spillerens detaljer er låst."
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "Data for brugeren %(userName)s er pt. ikke tilgængelig."
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "Data ikke tilgængeligt pt."
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "Fortryd"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s Aktivering af denne indstilling vil reducere computerens ydeevne i kamp."
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "Bemærk!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "TIL"
+
+msgid "minimapAlphaNotification/title"
+msgstr "Minimap gennemsigtighed"
+
+msgid "moduleSale/conformation/header"
+msgstr "Sælg %(moduleType)s '%(moduleName)s'?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "Fortryd"
+
+msgid "moneyTransfer/labelClan"
+msgstr "Klan:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "credits"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "guld"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "Gebyr:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "Overfør:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "Normalt:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "credits"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "guld"
+
+msgid "moneyTransfer/labelTo"
+msgstr "Til:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "Totalt:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(ikke medlem af klanen)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "Send"
+
+msgid "moneyTransfer/title"
+msgstr "Overfører guld..."
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "Du vil blive opkrævet {fee} <img src='icon_gold' />. Er du sikker på du vil overføre {gold} <img src='icon_gold' /> til spilleren {player}?"
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "Konverter"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "Bekræft overførsel"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Indtast password til den finansielle del af din konto</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/message"
+msgstr "Overførsel af guld er ikke tilladt. Begrundelse: %s."
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "Restriktionen på overførslen udløber %s."
+
+msgid "moneyTransferRestriction/submit"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/title"
+msgstr "Overførsel af guld er ikke tilladt."
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "Nej"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "Ændringer til nogle indstillinger vil blive påført i den næste kamp. Fortsæt?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "Ja"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "Tilpas indstillinger"
+
+msgid "perkLearnConfirm/desc"
+msgstr "Evne-niveau efter træning: {yellow_Open}%(level)s%%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "Træn"
+
+msgid "perkLearnConfirm/title"
+msgstr "Træn %(skillName)s-evnen?"
+
+msgid "perksReset/after"
+msgstr "Efter nulstilling:"
+
+msgid "perksReset/before"
+msgstr "Før nulstilling:"
+
+msgid "perksReset/cancel"
+msgstr "Afbryd"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "Denne mulighed er ikke tilgængelig, når du allerede har 100% rabat på nulstilling af evner i Kampvognsakademiet."
+
+msgid "perksReset/discountTooltip/header"
+msgstr "Utilgængelig"
+
+msgid "perksReset/free/description"
+msgstr "Evner op til {yellow_Open}1%{yellow_Close} kan gratis nulstilles."
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "Dette mandskabsmedlem har en gratis nulstilling af første evne"
+
+msgid "perksReset/graceLabel"
+msgstr "Gratis nulstilling af evner vil være tilgængelig for:"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "Den samlede mængde evne-xp vil reduceres. Færre evner vil være tilgængelige til træning."
+
+msgid "perksReset/noNewPerks"
+msgstr "Al xp fra de trænede evner vil blive tilføjet til det primære kvalifikationsniveau."
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "fra den samlede mængde evne-xp"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "Regimentsskoler"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "fra den samlede mængde evne-xp"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "Hurtige kurser"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "Nulstil evner\n uden at miste xp"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "Brug credits til at nulstille evner uden at miste xp"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "Kampvognsakademi"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "Nulstil evner\n uden at miste xp"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "Nulstil"
+
+msgid "perksReset/title"
+msgstr "Nulstil alle mandskabsmedlemmers evner?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "Afbryd"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "Den valgte fysiske lydkvalitet afviger fra indstillingen, der automatisk er fundet af spilklienten. Aktivering af denne indstilling kan påvirke ydeevnen. Vi anbefaler at teste ydeevnen, før du bekræfter. Vil du påføre disse ændringer?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "Bekræft"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "Uoverensstemmelse i fysisk lydkvalitet"
+
+msgid "postmortem/cancel"
+msgstr "Forlad"
+
+msgid "postmortem/message"
+msgstr "Køretøj ødelagt. Ønsker du at blive i kampen eller gå til garagen?"
+
+msgid "postmortem/submit"
+msgstr "Bliv"
+
+msgid "postmortem/title"
+msgstr "Køretøj ødelagt"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "Køb premiumkonto i %(days)s dage for %(gold)s guld?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "Køb"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "Bekræft køb"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "Forlæng premiumkonto i %(days)s dag(e) for %(gold)s guld?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "Forlæng"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "Bekræft"
+
+msgid "priceCard/credits/title"
+msgstr "Regimentsskoler"
+
+msgid "priceCard/free/title"
+msgstr "Hurtige kurser"
+
+msgid "priceCard/gold/title"
+msgstr "Kampvognsakademi"
+
+msgid "priceCard/price/free"
+msgstr "Gratis"
+
+msgid "priceCard/recertification/title"
+msgstr "Omskolingsordre"
+
+msgid "punishmentWindow/cancel"
+msgstr "Bekræftet"
+
+msgid "punishmentWindow/header/ban"
+msgstr "Du er blevet blokeret i %(time)s"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "Du er blevet straffet"
+
+msgid "punishmentWindow/header/warning"
+msgstr "Usportslig opførsel"
+
+msgid "punishmentWindow/info"
+msgstr "Hvis din situation var på grund af forbindelsesproblemer eller andre tekniske årsager,\nkontakt da spillersupporten."
+
+msgid "punishmentWindow/message/ban"
+msgstr "Du overtrådte spillereglerne på {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}-kortet kl. {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nDu er midlertidigt blevet blokeret fra kampe i {whiteSpanish_Open}%(mode)s{whiteSpanish_Close}-kamptypen."
+
+msgid "punishmentWindow/message/penalty"
+msgstr "Du overtrådte spillereglerne på {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}-kortet kl. {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nDine credits, xp og belønninger optjent i kamp er blevet fjernet."
+
+msgid "punishmentWindow/message/warning"
+msgstr "Du overtrådte spillereglerne på {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}-kortet kl. {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nI tilfælde af gentagne overtrædelser, vil du miste credits, xp og belønninger optjent i kampen."
+
+msgid "punishmentWindow/reason/afk"
+msgstr "Inaktivitet i kamp"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "Forladt kampen før den sluttede eller før køretøjet blev ødelagt"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "Inaktivitet i kamp/for tidligt at have forladt kampen"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "Overlagt selvdestruktion"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s d %(hour)s t"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 min"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s min"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "Fortryd"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "Spørg ikke igen"
+
+msgid "questsConfirmDialog/message"
+msgstr "Hvis du vælger missionen \"%(newQuest)s\", vil \"%(oldQuest)s\" missionen blive annulleret."
+
+msgid "questsConfirmDialog/submit"
+msgstr "Bekræft"
+
+msgid "questsConfirmDialog/title"
+msgstr "Bekræft valg af mission"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "Fortryd"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "Al fremskridt i %(curQuest)s missionen vil blive nulstillet.\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "Bemærk! Al fremskridt i den nuværende mission vil gå tabt."
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "Bekræft"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "Nulstil fremskridt"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "Fortryd"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "Hvis du vælger %(newQuest)s missionen, vil dit fremskridt i %(oldQuest)s missionen blive nulstillet.\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "Bemærk! Al fremskridt i den nuværende mission vil gå tabt."
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "Ja"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "Bekræft valg af mission"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "Fortryd"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "%(quest)s missionen vil blive annulleret.\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "Bemærk! Al fremskridt i den nuværende mission vil gå tabt."
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "Ja"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "Bekræft annullering af missionen"
+
+msgid "quit/cancel"
+msgstr "Bliv"
+
+msgid "quit/submit"
+msgstr "Forlad"
+
+msgid "quit/title"
+msgstr "Forlad spillet?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "Afbryd"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "Dit hold har brug for dig! Hvis du forlader en kamp før den slutter, eller før dit køretøj er ødelagt, anses det som desertering. Dette kan resultere i en straf samt tab af alle bonusser for kampen i IGR."
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "Deserter"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "Deserter fra slagmarken?"
+
+msgid "quitBattle/cancel"
+msgstr "Afbryd"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Afbryd"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Dit hold har brug for dig! Hvis du forlader en kamp før den slutter, eller før dit køretøj er ødelagt, anses det som desertering. Dette kan resultere i en straf."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Deserter"
+
+msgid "quitBattle/leaver/title"
+msgstr "Deserter fra slagmarken?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "Afbryd"
+
+msgid "quitBattle/replay/submit"
+msgstr "Afslut"
+
+msgid "quitBattle/replay/title"
+msgstr "Forlad tilskuertilstanden?"
+
+msgid "quitBattle/submit"
+msgstr "Forlad"
+
+msgid "quitBattle/title"
+msgstr "Forlad kampen?"
+
+msgid "quitPreBattle/cancel"
+msgstr "Nej"
+
+msgid "quitPreBattle/message"
+msgstr "Er du sikker på at du vil gå ud af Før-Slags-Lobbyen?"
+
+msgid "quitPreBattle/submit"
+msgstr "Ja"
+
+msgid "quitPreBattle/title"
+msgstr "Forlad før-slags-lobbyen"
+
+msgid "rally/autoSearch/cancel"
+msgstr "Nej"
+
+msgid "rally/autoSearch/message"
+msgstr "Søg efter tilgængelig pladser automatisk?"
+
+msgid "rally/autoSearch/submit"
+msgstr "Ja"
+
+msgid "rally/autoSearch/title"
+msgstr "Autosøg"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "Fortryd"
+
+msgid "rally/changePeriphery/message"
+msgstr "Du vil automatisk blive overført til en anden server (%(host)s). Fortsæt alligevel?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "Overfør"
+
+msgid "rally/changePeriphery/title"
+msgstr "Overfør til anden server"
+
+msgid "rally/goToAnother/cancel"
+msgstr "Fortryd"
+
+msgid "rally/goToAnother/message"
+msgstr "Hvis du ændrer kamptypen, vil du automatisk blive ekskluderet fra den taktiske enhed."
+
+msgid "rally/goToAnother/submit"
+msgstr "Overfør"
+
+msgid "rally/goToAnother/title"
+msgstr "Skift type"
+
+msgid "rally/goToIntro/cancel"
+msgstr "Fortryd"
+
+msgid "rally/goToIntro/message"
+msgstr "Er du sikker på du vil forlade den taktiske enhed?"
+
+msgid "rally/goToIntro/submit"
+msgstr "Bekræft"
+
+msgid "rally/goToIntro/title"
+msgstr "Bekræft exit"
+
+msgid "rally/goToSquad/cancel"
+msgstr "Fortryd"
+
+msgid "rally/goToSquad/message"
+msgstr "Hvis du opretter en deling, vil du automatisk forlade den nuværende kamptype."
+
+msgid "rally/goToSquad/submit"
+msgstr "Opret"
+
+msgid "rally/goToSquad/title"
+msgstr "Opret deling"
+
+msgid "rally/leave/cancel"
+msgstr "Fortryd"
+
+msgid "rally/leave/message"
+msgstr "Er du sikker på du vil forlade den taktiske enhed og forlade typen?"
+
+msgid "rally/leave/submit"
+msgstr "Bekræft"
+
+msgid "rally/leave/title"
+msgstr "Bekræft exit"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "Fortsæt"
+
+msgid "rally/leaveDisabled/message"
+msgstr "Kan ikke forlade modus. Dit køretøj er i pladsen klar til kamp."
+
+msgid "rally/leaveDisabled/title"
+msgstr "Bemærk"
+
+msgid "rally/startBattle/cancel"
+msgstr "Nej"
+
+msgid "rally/startBattle/message"
+msgstr "Søg efter fjende?"
+
+msgid "rally/startBattle/submit"
+msgstr "Ja"
+
+msgid "rally/startBattle/title"
+msgstr "Søg efter fjende"
+
+msgid "recruit/cancel"
+msgstr "Afbryd"
+
+msgid "recruit/submit"
+msgstr "Rekrutter"
+
+msgid "recruit/title"
+msgstr "Rekrutter en ny %(role)s til %(vehicleName)s?"
+
+msgid "recruit/voiceoverText"
+msgstr "Mandskabsmedlemmets unikke voiceover virker kun med kommandør-kvalifikationen."
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "Du behøver ikke at rekruttere mandskabsmedlemmer til premium køretøjer. Du kan overføre mandskab til et premium køretøj af samme type uden straf."
+
+msgid "recruit/warning/slotChanged"
+msgstr "Dette mandskabsmedlem kan ikke rekrutteres til det valgte køretøj og vil blive sendt til barakken."
+
+msgid "recruitConversionConfirm/warning"
+msgstr "Mandskabsmedlemmet har forældede evner, der automatisk vil blive nulstillet uden at miste xp."
+
+msgid "recruitDialog/name/title"
+msgstr "Rekrutter nyt mandskabsmedlem (%(name)s)?"
+
+msgid "recruitDialog/title"
+msgstr "Rekrutter nyt mandskabsmedlem?"
+
+msgid "recruitWindow/cancel"
+msgstr "Afbryd"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "Alle nationer"
+
+msgid "recruitWindow/nation"
+msgstr "Nation"
+
+msgid "recruitWindow/specialization"
+msgstr "Kvalifikation"
+
+msgid "recruitWindow/submit"
+msgstr "Rekrutter"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "Køretøjstype"
+
+msgid "recruitWindow/vehicleType"
+msgstr "Køretøj"
+
+msgid "referralReward/cancel"
+msgstr "Afbryd"
+
+msgid "referralReward/message"
+msgstr "Modtag %(product)s?"
+
+msgid "referralReward/submit"
+msgstr "Bekræft"
+
+msgid "referralReward/title"
+msgstr "Modtagelsesbekræftelse"
+
+msgid "refuseTraining/cancel"
+msgstr "Nej"
+
+msgid "refuseTraining/message"
+msgstr "Stop træning?"
+
+msgid "refuseTraining/submit"
+msgstr "Ja"
+
+msgid "refuseTraining/title"
+msgstr "Bekræft"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "Ødelæg"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "Fortryd"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "\"%(name)s\" forbrugsvaren vil blive flyttet til depotet på grund af %(reason)s med det nuværende modul."
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "inkompatibilitet"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "Afmonter"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "Bekræft afmontering"
+
+msgid "rentConfirmation/cancel"
+msgstr "Afbryd"
+
+msgid "rentConfirmation/event"
+msgstr "til %(eventName)s-kamptypen"
+
+msgid "rentConfirmation/message"
+msgstr "Lej %(name)s %(event)s for %(price)s?"
+
+msgid "rentConfirmation/submit"
+msgstr "Bekræft"
+
+msgid "rentConfirmation/title"
+msgstr "Bekræft leje"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "Afbryd"
+
+msgid "rentConfirmationRenew/message"
+msgstr "Forlæng lejeperioden af %(name)s %(event)s for %(price)s?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "Bekræft"
+
+msgid "rentConfirmationRenew/title"
+msgstr "Bekræft leje"
+
+msgid "replacePassport/unique/cancel"
+msgstr "Fortryd"
+
+msgid "replacePassport/unique/message"
+msgstr "Dette er unikt mandskab og hans persondata kan ikke blive nulstillet senere. Er du sikker på du vil udskifte hans persondata for %(gold)s?"
+
+msgid "replacePassport/unique/submit"
+msgstr "Erstat"
+
+msgid "replacePassport/unique/title"
+msgstr "Bekræft udskiftning"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "replacePassportConfirmation/message"
+msgstr "Udskift persondata for dette besætningsmedlem for %(gold)s?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "Erstat"
+
+msgid "replacePassportConfirmation/title"
+msgstr "Udskift persondata"
+
+msgid "replayNotification/cancel"
+msgstr "Nej"
+
+msgid "replayNotification/message"
+msgstr "Den nuværende version af World of Tanks er ikke kompatibel med kampoptagelserne. Det kan måske give problemer ved afspilning. Afspil alligevel?"
+
+msgid "replayNotification/submit"
+msgstr "Ja"
+
+msgid "replayNotification/title"
+msgstr "Advarsel"
+
+msgid "replayStopped/cancel"
+msgstr "Fortryd"
+
+msgid "replayStopped/message"
+msgstr "Replay fuldført. Klik Færdig for at forlade spillet."
+
+msgid "replayStopped/submit"
+msgstr "Færdig"
+
+msgid "replayStopped/title"
+msgstr "Replay fuldført"
+
+msgid "reportBug/cancel"
+msgstr "Fortryd"
+
+msgid "reportBug/message"
+msgstr "Hvis du klikker her, åbnes din standardbrowser på World of Tanks spillersupports hjemmeside, for at melde om en fejl. Fortsæt?"
+
+msgid "reportBug/submit"
+msgstr "Fortsæt"
+
+msgid "reportBug/title"
+msgstr "Gå til spillersupport"
+
+msgid "resetAllPerks/cancel"
+msgstr "Afbryd"
+
+msgid "resetAllPerks/submit"
+msgstr "Nulstil"
+
+msgid "resetAllPerks/title"
+msgstr "Nulstil alle evner for alle mandskabsmedlemmer?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}Alle evner vil blive nulstillet for alle mandskabsmedlemmer på din konto.{orangeEnd}\n{orangeStart}Denne operation kan ikke fortrydes.{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "Fortsæt"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s Grafikindstillinger er blevet valgt automatisk for a sikre optimal billedkvalitet.\nFor at forbedre ydelsen, vælg en lavere grafikindstilling i Indstillinger."
+
+msgid "resetGraphics/submit"
+msgstr "Indstillinger"
+
+msgid "resetGraphics/title"
+msgstr "Skift grafikindstillinger"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "Genopret"
+
+msgid "restoreTankman/description"
+msgstr "%(name)s vil blive genoprettet."
+
+msgid "restoreTankman/free"
+msgstr "Pris: Gratis"
+
+msgid "restoreTankman/header"
+msgstr "Genopret dette mandskabsmedlem?"
+
+msgid "restoreTankman/price"
+msgstr "Pris:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "Fortryd"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "Genopret %(vehiclename)s"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "Genopret"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "Uden mandskab"
+
+msgid "restoreVehicleDialog/title"
+msgstr "Genopret %(vehiclename)s"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "Efter du klikker på genopret, vil du ikke være i stand til at veksle købt udstyr og forbrugsvarer til guld. Dobbelttjek venligst alle detaljerne meget nøje."
+
+msgid "retrain/cancel"
+msgstr "Afbryd"
+
+msgid "retrain/changeRole"
+msgstr "Skift kvalifikation"
+
+msgid "retrain/discountLabel"
+msgstr "Denne rabat er tilgængelig, da den første evne ikke er trænet til 100%."
+
+msgid "retrain/discountTooltip/body"
+msgstr "Denne mulighed er ikke tilgængelig, når du allerede har 100% rabat på omskoling i Kampvognsakademiet."
+
+msgid "retrain/discountTooltip/header"
+msgstr "Utilgængelig"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "Mandskabsmedlemmer til omskoling: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "Du behøver ikke at træne mandskabsmedlemmer til premium køretøjer.\nDu kan overføre mandskab til et premium køretøj af samme type uden straf."
+
+msgid "retrain/price"
+msgstr "Pris:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "Evne-effektivitet\nefter omskoling: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "Regimentsskoler"
+
+msgid "retrain/priceCard/free/description"
+msgstr "Evne-effektivitet\nefter omskoling: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "Hurtige kurser"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "Evne-effektivitet\nefter omskoling: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "Kampvognsakademi"
+
+msgid "retrain/submit"
+msgstr "Omskol"
+
+msgid "retrain/title/massive"
+msgstr "Omskol mandskab til %(vehicleName)s&zwnbsp;?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "Omskol til %(vehicleName)s\nog skift kvalifikation til %(role)?"
+
+msgid "retrain/title/single/simple"
+msgstr "Omskol til %(vehicleName)s"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "Evner fra en uanvendelig kvalifikation vil være inaktiveret. Nulstil dem manuelt."
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "Mandskab kan flyttes til et premium køretøj af samme type uden omskoling eller straf, men uanvendelige evner skal manuelt nulstilles."
+
+msgid "rudyInfo/message"
+msgstr "Udødelige klassikere allerede i spillet! \"Fire tankmænd og en hund\" (polsk \"Czterej pancerni i pies\") var en polsk sort-hvid tv-serie baseret på romanen med samme navn af Janusz Przymanowski. Tv-serien, som fik premiere 9. maj, 1966, skildrer eventyrerne af mandskabet på en T-34-85 kampvogn med kælenavnet Rudy (Røde), og deres hund Szarik, under 2. verdenskrig."
+
+msgid "rudyInfo/submit"
+msgstr "Bekræftet!"
+
+msgid "rudyInfo/title"
+msgstr "Fire tankmænd og en hund"
+
+msgid "selectVehicle/counter"
+msgstr "Viste køretøjer:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "Vælg angribende køretøj"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "Vælg dette køretøj"
+
+msgid "sellConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "sellConfirmation/submit"
+msgstr "Sælg"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "Sælg"
+
+msgid "sellModuleConfirmation/title"
+msgstr "Bekræft salg"
+
+msgid "sellShellConfirmation/submit"
+msgstr "Sælg granat '%(shellName)s'?"
+
+msgid "sendInvites/common/title"
+msgstr "Inviter til taktisk enhed"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "Afbryd"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "Sessionsstatistik vil automatisk blive nulstillet om{}"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "Nulstil"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s t %(minutes)s min"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "Nulstil sessionsstatistikken?"
+
+msgid "shopSyncError/cancel"
+msgstr "Fortsæt"
+
+msgid "shopSyncError/message"
+msgstr "Opdater applikationen. Hvis fejlen gentages, opdater serveren."
+
+msgid "shopSyncError/title"
+msgstr "Usynkronisering"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "Afbryd"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "Træn valgte evne(r)?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "Træn"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "Påfør"
+
+msgid "soundModeInvalid/cancel"
+msgstr "Fortryd"
+
+msgid "soundModeInvalid/message"
+msgstr "Filerne til den valgte stemme er beskadigede eller mangler. Standardstemmen vil blive valgt i stedet."
+
+msgid "soundModeInvalid/submit"
+msgstr "Gem"
+
+msgid "soundModeInvalid/title"
+msgstr "Fejl"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "Fortryd"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "Det valgte lydsystem er forskelligt fra det, der blev automatisk defineret af spilklienten. Visse lyde er muligvis ikke tilgængelige. Vi anbefaler at du tester lydforskellen. Bekræft ændringer?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "Bekræft"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "Uoverensstemmelse i lydsystemet"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "Nej"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "Det valgte lydsystem er forskelligt fra det, der blev automatisk defineret af spilklienten. Visse lyde er muligvis ikke tilgængelige. Påfør de optimale lydindstillinger?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "Ja"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "Uoverensstemmelse i lydsystemet"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "Bekræftet!"
+
+msgid "squad/eventDisabled/message"
+msgstr "Eventet er utilgængeligt. Delingen vil blive opløst."
+
+msgid "squad/eventDisabled/title"
+msgstr "Event slut"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Fortryd"
+
+msgid "squad/goToAnother/message"
+msgstr "Du er i en deling. Hvis du ændrer typen, vil du blive ekskluderet fra delingen."
+
+msgid "squad/goToAnother/submit"
+msgstr "Overfør"
+
+msgid "squad/goToAnother/title"
+msgstr "Skift type"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "Afbryd"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "Når du ændrer kamptypen, vil din nuværende deling blive opløst. Er du sikker på du vil ændre kamptypen?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "Bekræft"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "Ændrer kamptype"
+
+msgid "squad/goToSquad/cancel"
+msgstr "Fortryd"
+
+msgid "squad/goToSquad/message"
+msgstr "Forlad den taktiske enhed og opret en deling med spilleren?"
+
+msgid "squad/goToSquad/submit"
+msgstr "Opret"
+
+msgid "squad/goToSquad/title"
+msgstr "Opret deling"
+
+msgid "squad/leave/cancel"
+msgstr "Fortryd"
+
+msgid "squad/leave/message"
+msgstr "Er du sikker på du vil forlade delingen?"
+
+msgid "squad/leave/submit"
+msgstr "Bekræft"
+
+msgid "squad/leave/title"
+msgstr "Bekræft exit"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Fortsæt"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Du kan ikke forlade delingen. Du er i delingen og er klar til kamp."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Bemærk"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "Fortryd"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "Delingen er ikke fuld. Én spiller vil blive tilføjet automatisk. Gå med i kampen?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "Kamp!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "Delingen er ikke klar"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "Fortryd"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "Delingen er ikke fuld. Gå i kamp alligevel?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "Kamp!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "Delingen er ikke klar"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "Fortryd"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "Delingen er ikke fuld. Tilføj spillere automatisk og gå med i kampen?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "Kamp!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "Delingen er ikke klar"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "Fortryd"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "En af delingsmedlemmerne er ikke klar. Gå i kamp alligevel?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "Kamp!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "Delingen er ikke klar"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "Fortryd"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "Spilleren som ikke bekræftede at han er klar vil blive ekskluderet fra den taktiske enhed. En spiller vil så blive tilføjet automatisk. Gå med i kampen?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "Kamp!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "Delingen er ikke klar"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "Fortryd"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "Ingen af delingsmedlemmerne er klar. Gå i kamp alligevel?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "Kamp!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "Delingen er ikke klar"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "Fortryd"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "Delingen er ikke fuld. Spillere som ikke har bekræftet at de er klar vil blive ekskluderet fra den taktiske enhed. Tilføj spillere automatisk og gå med i kampen?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "Kamp!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "Delingen er ikke klar"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "Kunne ikke melde til ny kamp: flere spillere er ikke vendt tilbage. Vent indtil den nuværende kamp er afsluttet."
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "Bekræftet!"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "Delingen er ikke klar"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "OK"
+
+msgid "squadPremiumNeeded/message"
+msgstr "Kun brugere med Premiumkonto kan oprette en deling\nBrugeren, som opretter en deling, kan invitere spillere med alle kontotyper."
+
+msgid "squadPremiumNeeded/title"
+msgstr "Forbeholdt premium konto"
+
+msgid "steamStartNeeded/cancel"
+msgstr "Luk spil"
+
+msgid "steamStartNeeded/message"
+msgstr "Spillet skal afvikles via Steam for at kunne logge rigtigt ind."
+
+msgid "steamStartNeeded/title"
+msgstr "Ikke i stand til at logge ind"
+
+msgid "stronghold/leave/cancel"
+msgstr "Fortryd"
+
+msgid "stronghold/leave/message"
+msgstr "Er du sikker på du vil forlade gruppen?"
+
+msgid "stronghold/leave/submit"
+msgstr "Bekræft"
+
+msgid "stronghold/leave/title"
+msgstr "Bekræft exit"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "Når du forlader gruppen vil den blive opløst.\nKlanen vil blive straffet for ikke at gå ind i kampen.\nEr du ikke på du vil forlade gruppen?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "Bekræft exit"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "Fortryd"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "Overfør"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "Overfør til anden server"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "tradeInConfirmation/message"
+msgstr "%(vehName)s vil blive byttet og vil være utilgængelig i genopretning.%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " Derudover, %(operations)s."
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "mandskabet vil blive sendt til barakken"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "forbrugsvarerne vil blive sendt til depotet"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "udstyret vil blive afmonteret gratis"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "alle købte dobbelte modifikationer vil blive annulleret, men standard modifikationen vil blive gemt"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "ammunitionen vil blive sendt til depotet"
+
+msgid "tradeInConfirmation/submit"
+msgstr "Byt"
+
+msgid "tradeInConfirmation/title"
+msgstr "Køretøjsbytte"
+
+msgid "tradeInPopover/descr"
+msgstr "Premium køretøjer tilgængelige i garagen"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "Viser nationerne på de valgte køretøjer."
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "Nation"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "Viser hvor meget du sparer når de valgte køretøjer byttes"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "Køretøjs\nvurdering"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "Køretøjsvurdering"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "Viser niveauerne på de valgte køretøjer."
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "Niveau"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "Viser navnene på de valgte køretøjer."
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "Navn"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "Viser typerne på de valgte køretøjer."
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "Type"
+
+msgid "tradeInPopover/title"
+msgstr "Vælg køretøj til bytte"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "Vælg køretøj"
+
+msgid "updateNeeded/cancel"
+msgstr "Senere"
+
+msgid "updateNeeded/message"
+msgstr "Opdater venligst applikationen."
+
+msgid "updateNeeded/submit"
+msgstr "Opdater"
+
+msgid "updateNeeded/title"
+msgstr "Opdatering nødvendig"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "Træn besætningsmedlemmet for {%d} guld?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "Træn"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "Bekræft træning"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "Ikke nok guld til træning."
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "Ikke nok guld"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "Fortryd"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "Træn besætningsmedlemmet for {%d} credits?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "Træn"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "Bekræft træning"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "Ikke nok credits til træning."
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "Ikke nok credits."
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "Fortryd"
+
+msgid "vehConf/exitDialog/message"
+msgstr "Modifikationer vil ikke blive gemt. Forlad menuen til køretøjskonfiguration?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "Bekræft"
+
+msgid "vehConf/exitDialog/title"
+msgstr "Fortryd ændringer"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "Fjern fra garagen %(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "Fortryd"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "Bemærk! Dette er et særligt køretøj. Hvis du sælger det, skal du vente %(cooldown)s dage for at kunne genoprette det. Sælg køretøjet?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "Bekræft"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "Bekræft salg"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "Fortryd"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "Bemærk! Dette er et særligt køretøj. Du vil dog, hvis du sælger det, være i stand til at genoprette det. Sælg køretøjet?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "Bekræft"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "Bekræft salg"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "Fortryd"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "Fortryd"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "BEMÆRK! Denne kampvogn er unik og kan ikke blive genoprettet. Mandskabet vil også blive permanent opsagt."
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "Bekræft"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "Bekræft salg"
+
+msgid "vehicleSell/unique/message"
+msgstr "Bemærk! Dette er et specielt køretøj. Det er ikke til salg i butikken. Fortsæt?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "Ja"
+
+msgid "vehicleSell/unique/title"
+msgstr "Bekræft salg"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "Bekræft køb"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "For at bekræfte, indtast salgsprisen fra kolonnen \"Total\" (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "Du har indtast forkert information."
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "AMMUNITION:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "DIREKTIVER:"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "Fortryd"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "TOTAL:"
+
+msgid "vehicleSellDialog/count"
+msgstr "ting"
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "Afskedig"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "Send til barakken"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "MANDSKAB:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "YDRE:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "Adskil"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "FORBRUGSVARER:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "Detaljer"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "DEPOT:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "Brugt:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "Inklusive alle nationale konfigurationer af køretøjet!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "Moduler"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "UDSTYR:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "Når køretøjet er solgt, vil det nuværende niveau på feltmodifikationen bestå, men alle dobbelte modifikationer vil blive annulleret"
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "Modtaget:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "Fjern"
+
+msgid "vehicleSellDialog/submit"
+msgstr "Sælg"
+
+msgid "vehicleSellDialog/title"
+msgstr "Sælg %(name)s"
+
+msgid "vehicleSellDialog/unload"
+msgstr "Send til depot"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "Elite"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "Pris"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "Niveau. "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "Rolle: "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "Kampvognsjæger"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "SPG"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "Tung kampvogn"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "Let kampvogn"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "Medium kampvogn"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "Bekræftet!"
+
+msgid "voiceChatInitFailed/message"
+msgstr "Fejl i opstart af voice chat: tjenesten er i øjeblikket utilgængelig."
+
+msgid "voiceChatInitFailed/title"
+msgstr "Starter voice chat"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "OK"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "Voice chat initialiseret."
+
+msgid "voiceChatInitSucceded/title"
+msgstr "Starter voice chat"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "Luk"
+
+msgid "waterQualityNotPossible/message"
+msgstr "Høj kvalitet på vand er kun tilgængeligt med 'Post-Processing' funktionen slået til."
+
+msgid "waterQualityNotPossible/title"
+msgstr "Water Quality ikke tilgængeligt"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "Afbryd"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "Se om køretøjer er tilgængelige i garagen"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "Pris: %(price)s %(icon)s (tilgængelige: %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "Spiller: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "Valgte køretøjer: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "Gendan til tjeneste"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "Gendan til tjeneste?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "Assistent"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "Belønninger for fremmøde"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "Kampbonus"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "Battle Pass Plus"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "Udelukket kort"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "Eksklusivt køretøj"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "Eksklusive køretøjer"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "Gratis afmontering af udstyr"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "Guldreserve"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "Intensiveret mandskabstræning"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "Anvendelig xp-multiplikator"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "Pro-boost"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "Tilpasning af tjenesteblad"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "Kampbanner"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "WOT PLUS AKTIVERET"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "Jeg er klar!"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "Forlænges den {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "WOT PLUS CORE AKTIVERET"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "Detaljer"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "360-dages plan"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "180-dages plan"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}, forlænges den {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "WOT PLUS PRO AKTIVERET"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "Aktiver"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}Du vil ikke kunne booste et andet køretøj igen i {{@ style (color #fff)}}{{boostInterval}} timer{{/}}.{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "Aktivering af Pro-boost får dette køretøj til at optjene {{@ style (color #fff)}}{{bonusPercent}} yderligere credits og xp{{/}}. Anvendes kun på ét køretøj."
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "Aktiver Pro-boost for {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "Skift"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}Kun ét køretøj kan modtage boostet. Du vil ikke kunne booste et andet køretøj igen i {{@ style (color #fff)}}{{boostInterval}} timer{{/}}.{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "Aktivering af Pro-boost får dette køretøj til at optjene {{@ style (color #fff)}}{{bonusPercent}} yderligere credits og xp{{/}}. Anvendes kun på ét køretøj."
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "Skift Pro-boost til {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "Afbryd"
+
+msgid "wotPlusRental/description"
+msgstr "Næste køretøjsleje vil være tilgængeligt den {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "Lej"
+
+msgid "wotPlusRental/title"
+msgstr "Lej {cream_Open}%s{cream_Close}?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "Gem"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "Vil du gemme din tilpasning af tjenestebladet?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "Afbryd"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "Brug al xp optjent i dette køretøj på mandskabstræning. Det mindst erfarne medlem vil træne dobbelt så hurtigt."
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "TIL"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "Accelerer mandskabstræning?"

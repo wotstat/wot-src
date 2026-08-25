@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, durata: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "Difficoltà Regolare"
+
+msgid "info/difficult/2"
+msgstr "Difficoltà Avanzata"
+
+msgid "info/difficult/3"
+msgstr "Difficoltà Brutale"
+
+msgid "info/mapName"
+msgstr "Ultima resistenza • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "Numero di rischieramenti: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "Tutti i veicoli alleati sono stati distrutti."
+
+msgid "ls_finish/reason/10/lose"
+msgstr "Non sei riuscito a fermare lo Zero."
+
+msgid "ls_finish/reason/3/lose"
+msgstr "Il tempo è scaduto."
+
+msgid "ls_finish/reason/5/lose"
+msgstr "Tutti gli alleati hanno lasciato la battaglia."
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "Ben fatto! Pronto per una missione più difficile?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "Tutti i nemici a difficoltà Regolare eliminati."
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "Prestazioni incredibile! Pochi raggiungono questo livello."
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "Tutti i nemici a difficoltà Brutale eliminati."
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "Ottimo lavoro! Ora è il momento di una vera sfida."
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "Tutti i nemici a difficoltà Avanzata eliminati."
+
+msgid "ribbon/ban"
+msgstr "Prestazione inaccettabile: inattività/diserzione.\nRicompensa non ricevuta."
+
+msgid "ribbon/banRecord"
+msgstr "Condotta inaccettabile: inattività/diserzione.\nRicompensa non ricevuta. Il tuo record di distruzione delle ondate non è stato aggiornato."
+
+msgid "ribbon/noReward"
+msgstr "La tua squadra non è riuscita a respingere la prima ondata.\nRicompensa non ricevuta."
+
+msgid "status/lose"
+msgstr "BATTAGLIA TERMINATA"
+
+msgid "status/win"
+msgstr "VITTORIA"
+
+msgid "subtitle/lose"
+msgstr "Attacco non respinto"
+
+msgid "subtitle/win"
+msgstr "Ben fatto! Raccolti nuovi Dati."
+
+msgid "teamList/actions"
+msgstr "Azioni rapide"
+
+msgid "teamList/teammates"
+msgstr "Alleati"
+
+msgid "time/record"
+msgstr "NUOVO\nRECORD!"
+
+msgid "title/lose/noWaves"
+msgstr "BATTAGLIA TERMINATA"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "%(phaseNumber)s ONDATA COMPLETATA"
+msgstr[1] "%(phaseNumber)s ONDATE COMPLETATE"
+msgstr[2] "%(phaseNumber)s ONDATE COMPLETATE"
+
+msgid "title/win"
+msgstr "TUTTE LE ONDATE SONO STATE COMPLETATE"
+
+msgid "tooltip/ban"
+msgstr "Condotta inaccettabile: inattività/diserzione. Il tuo record personale di distruzione delle ondate non è stato aggiornato."

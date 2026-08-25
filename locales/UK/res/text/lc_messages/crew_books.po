@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "ПРИДБАТИ"
+
+msgid "buttons/cancel"
+msgstr "Скасувати"
+
+msgid "buttons/learn"
+msgstr "Застосувати"
+
+msgid "buttons/postProgression/claim"
+msgstr "ОТРИМАТИ"
+
+msgid "buttons/postProgression/hint"
+msgstr "ДО ПОСТПРОГРЕСІЇ"
+
+msgid "buttons/postProgression/howTo"
+msgstr "ЯК ОТРИМАТИ"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Курс обміну:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "–%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "Застосовують до обраного члена екіпажу.\nПришвидшує вивчення поточної навички за допомогою вільного досвіду."
+
+msgid "card/freeExp/title"
+msgstr "ВІЛЬНИЙ ДОСВІД"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Ефективність навичок: 100%\n• Спеціалізація: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Застосовується до всього екіпажу.\nДає кожному танкісту %(xp)"
+
+msgid "card/nationBook/title/brochure"
+msgstr "НАВЧАЛЬНА БРОШУРА (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "НАВЧАЛЬНИЙ ПОСІБНИК (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "ДОВІДНИК (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Застосовують без обмежень."
+
+msgid "card/personalBook/mainText"
+msgstr "Застосовується до обраного члена екіпажу.\nДає йому %(xp)"
+
+msgid "card/personalBook/title"
+msgstr "ОСОБИСТИЙ НАВЧАЛЬНИЙ ПОСІБНИК"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Ефективність навичок: 100%\n• Спеціалізація: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Застосовується до всього екіпажу.\nДає кожному танкісту %(xp)"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "УНІВЕРСАЛЬНИЙ ПОСІБНИК"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "УНІВЕРСАЛЬНА БРОШУРА"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "УНІВЕРСАЛЬНИЙ ДОВІДНИК"
+
+msgid "confirm/crewLabel"
+msgstr "Кожен член екіпажу отримає %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Кожен член екіпажу отримає %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) отримає додатково %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) отримає %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Деякі члени екіпажу отримають %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Навчальна брошура (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Навчальна брошура"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "НАВЧАЛЬНА БРОШУРА"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} досвіду для кожного члена екіпажу."
+
+msgid "items/crewBook/Name"
+msgstr "Навчальний посібник (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Навчальний посібник"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "НАВЧАЛЬНИЙ ПОСІБНИК"
+
+msgid "items/guide/Name"
+msgstr "Довідник (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Довідник"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "ДОВІДНИК"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} досвіду для обраного члена екіпажу"
+
+msgid "items/personalBook/Name"
+msgstr "Особистий навчальний посібник"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} досвіду для кожного члена екіпажу."
+
+msgid "items/universalBook/Name"
+msgstr "Універсальний посібник"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} досвіду для кожного члена екіпажу."
+
+msgid "items/universalBrochure/Name"
+msgstr "Універсальна брошура"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} досвіду для кожного члена екіпажу."
+
+msgid "items/universalGuide/Name"
+msgstr "Універсальний довідник"
+
+msgid "page/mentoringLicense/hint"
+msgstr "ДО ЛІЦЕНЗІЇ НА НАСТАВНИЦТВО"
+
+msgid "page/mentoringLicense/title"
+msgstr "ЛІЦЕНЗІЯ НА НАСТАВНИЦТВО"
+
+msgid "page/title"
+msgstr "ПРИШВИДШЕНЕ НАВЧАННЯ"
+
+msgid "tooltip/buyManual"
+msgstr "Придбати навчальний посібник"
+
+msgid "tooltip/mouseWheel"
+msgstr "Крутіть {mouseIcon} для збільшення / зменшення кількості навчальних матеріалів."
+
+msgid "tooltip/outOfStock"
+msgstr "Навчальних матеріалів немає"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Навчальних матеріалів немає. Ви можете купити їх у Магазині"
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Застосовується до обраного члена екіпажу. Дає йому %(xp)s досвіду."
+
+msgid "tooltip/postProgression"
+msgstr "До постпрогресії"
+
+msgid "tooltip/sale/header"
+msgstr "Вигідний курс обміну"
+
+msgid "tooltip/sale/newRate"
+msgstr "Новий курс обміну: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Попередній курс обміну: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Натисніть %(controlsImg), щоб збільшити/зменшити рівень вивчення навички на 1%. "
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Натисніть %(pgupImg)/%(pgdownImg), щоб збільшити рівень вивчення навички до&nbsp;100% / повернутися&nbsp;до попередньої навички."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Застосовується до всього екіпажу. Дає кожному танкісту %(xp)s досвіду."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Застосовується до всього екіпажу. Дає кожному танкісту %(xp)s досвіду."

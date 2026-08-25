@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT-teamet <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "Artillerianfall"
+
+msgid "attackReason/artillery_sector"
+msgstr "Artillerianfall"
+
+msgid "attackReason/bombers"
+msgstr "Flyganfall"
+
+msgid "battleCommunication/hint/description"
+msgstr "för att ange en utgångspunkt på kartan (UPK) eller placera en markör"
+
+msgid "battleCommunication/hint/press"
+msgstr "Använd"
+
+msgid "battleEndWarning/text"
+msgstr "Striden slut om:"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "Text och ljudmeddelanden från denna spelare kommer blockeras under denna strid."
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "Blockera meddelanden från spelare"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "Meddelanden från en svartlistad spelare blockeras."
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "Funktionen ej tillgänglig"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "Text och ljudmeddelanden från denna spelare kommer\ninte längre blockeras."
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "Sluta blockera spelare"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "Tekniska problem vid hämtning av stridszonsdata."
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "Information om stridszoner för vagnen saknas på den här kartan."
+
+msgid "battleProgress/hint/description"
+msgstr "för att visa personliga uppdrag"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "Tangent ej angiven"
+
+msgid "battleProgress/hint/press"
+msgstr "Tryck"
+
+msgid "battle_notifier/lose"
+msgstr "Förlust!"
+
+msgid "battle_notifier/tie"
+msgstr "Oavgjort!"
+
+msgid "battle_notifier/win"
+msgstr "Seger!"
+
+msgid "bot/boss"
+msgstr "Boss"
+
+msgid "bot/elite"
+msgstr "Elit"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "VARNING SKADA"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "MOTOR SKADAD"
+
+msgid "chat_example/affirmative"
+msgstr "Svar: Ja!"
+
+msgid "chat_example/attack_enemy"
+msgstr "Begär eld mot <Enemy Name>!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "Anfaller <Enemy Name>!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "Erövra basen!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "Försvara basen!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "Uppmärksamhet på <Sektor på minikartan>!"
+
+msgid "chat_example/attention_to_position"
+msgstr "Lystring!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "Förstör mål"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "Spara dina vagnar!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "Erövra zonen"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "Försvara målen"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "Spara dina vagnar!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "Försvara zoner"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "Förstärk zon"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "Förstärk zon"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "Förstärk zon"
+
+msgid "chat_example/going_there"
+msgstr "Omgrupperar hit!"
+
+msgid "chat_example/help_me"
+msgstr "Hjälp!"
+
+msgid "chat_example/help_me_ex"
+msgstr "<Allierad>, hjälp!"
+
+msgid "chat_example/negative"
+msgstr "Svar: Nej!"
+
+msgid "chat_example/overheated_gun"
+msgstr "Kanonen överhettad! Eldavbrott i <Reload Time> s"
+
+msgid "chat_example/positive"
+msgstr "Svar: Ja!"
+
+msgid "chat_example/reloading_cassette"
+msgstr "Redo för eldgivning om <Omladdningstid> s, skott i magasinet: <Antal granater> st."
+
+msgid "chat_example/reloading_gun"
+msgstr "Laddar om! <Omladdningstid> s kvar!"
+
+msgid "chat_example/reloading_ready"
+msgstr "Redo för eldgivning!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "Redo att ge eld! Skott i magasinet: <Antal granater> st."
+
+msgid "chat_example/reloading_unavailable"
+msgstr "Ammunitionen är slut."
+
+msgid "chat_example/spg_aim_area"
+msgstr "Siktar på <Sector on Minimap>!"
+
+msgid "chat_example/supporting_ally"
+msgstr "<Ally Name>, jag understödjer dig!"
+
+msgid "chat_example/thanks"
+msgstr "Tack, <Ally Name>!"
+
+msgid "chat_example/turn_back"
+msgstr "<Allierad>, backa!"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "Svar: Ja!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "Begär eldunderstöd mot %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "Klar för skott! Eld mot %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "Slut på ammunition! Begär eld mot %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "Anfaller %(target)s! laddar om, %(reloadTime)d kvar!"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "Jag erövrar basen!"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "Jag erövrar bas %(strArg1)s!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "Anfaller %(target)s!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "Erövra basen!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "Erövra bas %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "Försvara basen!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "Försvara bas %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "Uppmärksamhet på %(cellName)s!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Förstör mål %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "Jag anfaller mål %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Försvara mål %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "Jag försvarar mål %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Lystring på UPK!"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "Uppmärksamhet på %(gridId)s"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "Jag försvarar basen!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "Jag försvarar bas %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "Förstör mål!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "Vi har tid, spara dina vagnar!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "Tiden är snart slut, satsa allt på att erövra en zon!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "Försvara målen!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "Vi måste hålla ut, spara dina vagnar!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "Tiden är snart slut, försvara zonerna till varje pris!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "Zon %(strArg1)s behöver hjälp! Förstärk den!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "Zon %(strArg1)s behöver hjälp! Förstärk den!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "Zon %(strArg1)s behöver hjälp! Förstärk den!"
+
+msgid "chat_shortcuts/going_there"
+msgstr "Omgrupperar till UPK!"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "Förflyttar mig till %(gridId)s"
+
+msgid "chat_shortcuts/help_me"
+msgstr "Hjälp!"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s, hjälp!"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "Förflytta dig till målet: %(target)s"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "Jag förflyttar mig till målet: %(target)s!"
+
+msgid "chat_shortcuts/negative"
+msgstr "Svar: Nej!"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "Kanonen överhettad! Eldavbrott i %(floatArg1)d s"
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s, uppfattat!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "Redo för eldgivning om %(floatArg1)d s, skott i magasinet: %(int32Arg1)s st."
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "Laddar Om! %(floatArg1)d s kvar!"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "Redo för eldgivning!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "Redo att ge eld! Skott i magasinet: %(int32Arg1)s st."
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "Ammunitionen är slut."
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "Siktar på angiven UPK. Redo för eldgivning!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "Observerar %(gridId)s! Slut på ammunition!"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "Siktar på %(gridId)s. Redo för eldgivning!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "Siktar på angiven UPK! laddar om, %(reloadTime)d s kvar!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "Siktar på %(gridId)s. Laddar om, %(reloadTime)d kvar!"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s, jag understödjer dig!"
+
+msgid "chat_shortcuts/thanks"
+msgstr "Tack, %(target)s!"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s fall tillbaka!"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "Gå till inställningar"
+
+msgid "commanderCam/hint/description"
+msgstr "Zooma ut för taktisk vy"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "Nedkylning: %(cooldownSeconds)s s"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "Plats för förnödenhet"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "km/h"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "AP"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "APCR"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "HEAT"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "Vagnschefen är sårad. Tekniska egenskaper försämrade."
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "Vagnschef"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "Föraren är sårad. Hastighet och rörlighet minskad."
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "Förare"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "Skytten är sårad. Träffsäkerhet minskad."
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "Skytt"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "Skytt 2 är sårad. Träffsäkerhet minskad."
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "Skytt 2"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "Laddaren är sårad. Omladdningstid ökad."
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "Laddare"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "Laddare 2 är sårad. Omladdningstid ökad."
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "Laddare 2"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "Signalisten är sårad. Signalräckvidd minskad."
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "Signalist"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "Signalist 2 är sårad. Signalräckvidd minskad."
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "Signalist 2"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "Ammunitionsstället är skadat. Omladdningstid ökad."
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "Ammunitionsstället exploderade."
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "Ammunitionsstället är intakt."
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "Upphängningen är skadad."
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "Immobiliserad: upphängningen är förstörd."
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "Upphängningen är intakt."
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "Motorn är skadad. Motorstyrkan har minskat."
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "Immobiliserad: motorn är förstörd."
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "Motorn är intakt."
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "Bränsletanken är skadad."
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "Bränsletanken är förstörd."
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "Bränsletanken är intakt."
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "Kanonen är skadad. Precisionen har minskat."
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "Kanonen är förstörd. Kan inte avfyras."
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "Kanonen är intakt."
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "Radion är skadad."
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "Radion är förstörd. Signalräckvidd minskad."
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "Radion är intakt."
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "Observationsenheten är skadad."
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "Observationsenheten är förstörd. Siktsträckan minskad."
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "Observationsenheten är intakt."
+
+msgid "damage_panel/devices/track/critical"
+msgstr "Upphängningen är skadad."
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "Immobiliserad: upphängningen är förstörd."
+
+msgid "damage_panel/devices/track/normal"
+msgstr "Upphängningen är intakt."
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "Tornet är skadat. Traverseringshastigheten har minskat."
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "Kan inte vrida: tornet är förstört."
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "Tornet är intakt."
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "Upphängningen är skadad."
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "Immobiliserad: upphängningen är förstörd."
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "Upphängningen är oskadad."
+
+msgid "danger_zone/indicator"
+msgstr "Din vagn kan förstöras – lämna farozonen!"
+
+msgid "destroyTimer/liftOver"
+msgstr "Tillbaka på banan..."
+
+msgid "devMaps/hint/description"
+msgstr "för att se information om kartan"
+
+msgid "devMaps/hint/press"
+msgstr "Tryck"
+
+msgid "devMaps/mapInfo/info"
+msgstr "Slumpvis händelser förekommer på den här kartan. Du kan utesluta dessa kartor i spelinställningarna."
+
+msgid "devMaps/mapInfo/text"
+msgstr "Karta med slumpvisa händelser"
+
+msgid "devices/ammo_bay"
+msgstr "Ammunitionsställ"
+
+msgid "devices/chassis"
+msgstr "Upphängning"
+
+msgid "devices/engine"
+msgstr "Motor"
+
+msgid "devices/fuel_tank"
+msgstr "Bränsletank"
+
+msgid "devices/gun"
+msgstr "Kanon"
+
+msgid "devices/left_track"
+msgstr "Vänster band"
+
+msgid "devices/radio"
+msgstr "Radio"
+
+msgid "devices/right_track"
+msgstr "Höger band"
+
+msgid "devices/surveing_device"
+msgstr "Observationsenhet"
+
+msgid "devices/track"
+msgstr "%(type)sband"
+
+msgid "devices/track/left"
+msgstr "Vänster "
+
+msgid "devices/track/main"
+msgstr "Reserv"
+
+msgid "devices/track/outer"
+msgstr "Huvud"
+
+msgid "devices/track/right"
+msgstr "Höger "
+
+msgid "devices/turret_rotator"
+msgstr "Torntravers"
+
+msgid "devices/wheel"
+msgstr "Hjul"
+
+msgid "distance/meters"
+msgstr "%(meters)d m"
+
+msgid "dynamicSquad/ally/add"
+msgstr "Klicka för att bjuda in spelaren till plutonen.\nSpelaren kan acceptera din inbjudan, antingen under strid eller efter stridens slut.%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\nObs! Ditt riktiga användarnamn och klantagg visas för dina plutonkamrater."
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\nObs! Ditt riktiga användarnamn visas för dina plutonkamrater."
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "Kan inte bjuda in den allierade spelaren till pluton."
+
+msgid "dynamicSquad/ally/received"
+msgstr "Klicka för att acceptera inbjudan till pluton.\nPlutonen skapas under striden."
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "En inbjudan skickades till spelaren.\nOm de accepterar den kommer de gå med i plutonen, antingen under strid eller efter stridens slut."
+
+msgid "dynamicSquad/enemy/add"
+msgstr "Klicka för att bjuda in spelaren till plutonen.\nSpelaren kan acceptera din inbjudan, antingen under strid eller efter stridens slut.%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "Kan inte bjuda in den fiendespelaren till plutonen."
+
+msgid "dynamicSquad/enemy/received"
+msgstr "Klicka för att acceptera inbjudan till pluton.\nPlutonen skapas när striden är över."
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "En inbjudan skickades till spelaren.\nOm de accepterar den kommer de gå med i plutonen efter stridens slut."
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "Använd"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "för att aktivera röstchatt"
+
+msgid "dynamicSquad/invite"
+msgstr "Inbjudan till pluton"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "Skada genom flyganfall"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "Skada genom artillerianfall"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "Skada från huvudmål"
+
+msgid "efficiencyRibbons/armor"
+msgstr "Blockerad skada"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "Assist med stridsreserv"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "Skada under observation"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "Skada under chock"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "Förstört band"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "Skadad av bärsärk"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "Rollerfarenhet"
+
+msgid "efficiencyRibbons/burn"
+msgstr "Satt i brand"
+
+msgid "efficiencyRibbons/capture"
+msgstr "Erövring av fiendebas"
+
+msgid "efficiencyRibbons/crits"
+msgstr "Kritisk skada"
+
+msgid "efficiencyRibbons/damage"
+msgstr "Skada från granat"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "Skada för slagskeppsartilleri"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "Skada åsamkad av USS Frankford"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "Skada av minor"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "Skada åsamkad av Understödsrobot"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "Skada åsamkad av Korrosionsgranat"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "Skada åsamkad av Eldring"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "Skada åsamkad av Elektrisk urladdning"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "Skada av dödzon"
+
+msgid "efficiencyRibbons/defence"
+msgstr "Reducerade erövringspoäng"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "Zon försvarad"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "Skada åsamkad"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "Mål förstört"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "Mål försvarat"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "Zon erövrad"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "Skada från brandområde"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "Vagnen reparerad"
+
+msgid "efficiencyRibbons/kill"
+msgstr "Fiende utslagen"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "Skada åsamkad av minfält"
+
+msgid "efficiencyRibbons/ram"
+msgstr "Rammning"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "Skada genom brand"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "Skada åsamkad av Understödsrobot"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "Skada åsamkad av Korrosionsgranat"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "Skada åsamkad av Eldring"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "Skada av minor"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "Skada av frätande dimma"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "Skada åsamkad av Elektrisk urladdning"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "Kritisk skada"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "Skada från granat"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "Skada av eldboll"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "Skada från ramning"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "Skada av kollision"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "Skada av eldboll"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "Upptäckt"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "Skada från dödszon"
+
+msgid "efficiencyRibbons/stun"
+msgstr "Chock"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "Vagnen övergiven"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "Skada av kollision"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "Snöstorm"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "Brand"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "Dimma"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "Kraftigt regn"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "Sandstorm"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "Rök"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "Tornado"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "Göm lagpaneler"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "Ingen panel"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Tryck Ctrl + Tab för att växla mellan lägen)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "Visa spelarnamn, förstörda mål och vagnsikoner"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "Medelstor panel 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Tryck Ctrl + Tab för att växla mellan lägen)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "Visar spelares förstörda vagnar, namn och spelarens vagnsikon."
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "Medelstor panel 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Tryck Ctrl + Tab för att växla mellan lägen)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "Visar förstörda mål och vagnsikoner"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "Liten panel"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Tryck Ctrl + Tab för att växla mellan lägen)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "Växla mellan att se din egen eller alla tre insatsgrupperna."
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "Växla kolumner"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Tryck Ctrl + Tab för att växla mellan lägen)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "Du förstörde flaggan!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "Flaggan erövrad!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "Flaggan levererad."
+
+msgid "flagNotification/flagInbase"
+msgstr "Leverera flaggan till högkvarteret."
+
+msgid "flags/timer"
+msgstr "%(time)s s..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "s..."
+
+msgid "grille/status/reload"
+msgstr "LADDAR OM..."
+
+msgid "grille/status/speedlimit"
+msgstr "HASTIGHETSGRÄNS"
+
+msgid "helpScreen/hint/description"
+msgstr "för att visa vagnsegenskaper"
+
+msgid "helpScreen/hint/press"
+msgstr "Tryck"
+
+msgid "helpScreen/mapbox/description"
+msgstr "för att se information om kartan"
+
+msgid "helpScreen/mapbox/press"
+msgstr "Tryck"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "för att aktivera anfalls/<font color='#F4B12C'><b>förskansningsläge</b></font>"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "för att aktivera anfalls/<font color='#F4B12C'><b>förflyttningsläge</b></font>"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "för att aktivera förflyttnings/<font color='#F4B12C'><b>förskansningsläge</b></font>"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "Ingen tangent har angetts för lägesväxling"
+
+msgid "helpScreen/pillbox/press"
+msgstr "Tryck/<font color='#F4B12C'><b>Håll</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "Huvudkontroller ej inställda"
+
+msgid "hitMarker/blocked"
+msgstr "Inget genomslag"
+
+msgid "hitMarker/critical"
+msgstr "Kritisk skada"
+
+msgid "hitMarker/missArmor"
+msgstr "Ingen pansarträff"
+
+msgid "hitMarker/ricochet"
+msgstr "Rikoschett"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "Inget genomslag av yttre skydd"
+
+msgid "hitMarker/trackBlocked"
+msgstr "Inget genomslag av bandet"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "Inget genomslag av hjulet"
+
+msgid "levelProgress/maxLevel"
+msgstr "HÖGSTA MÖJLIGA VAGNSKLASS"
+
+msgid "marker/meters"
+msgstr "m"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "Ammunitionsexplosion förhindrades av %(device)s"
+
+msgid "optDeviceResurrection/engine"
+msgstr "Motorhaveri förhindrades av %(device)s"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "Brand förhindrades av %(device)s"
+
+msgid "penetration/high"
+msgstr "Hög"
+
+msgid "penetration/low"
+msgstr "Låg"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "Sekundära mål:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "Primära mål:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "Inga uppdrag för detta stridsläge påbörjade."
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "Inga uppdrag för denna vagnstyp påbörjade."
+
+msgid "personal_reserves/hint/description"
+msgstr "för att aktivera personliga reserver"
+
+msgid "personal_reserves/hint/press"
+msgstr "Tryck"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "Immobiliserad: upphängningen är skadad."
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "Immobiliserad: besättningen är utslagen."
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "Immobiliserad: motorn är skadad."
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "Immobiliserad: vagnen förstörd."
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "Kan inte avfyra: besättningen är utslagen."
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "Kan inte avfyra: kanonen är skadad."
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "Kan inte avfyra kanonen."
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "Kan inte avfyra: kanonen är överhettad."
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "Laddar kanon."
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "Slutför omladdningen."
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "Kan inte avfyra: Ingen ammunition."
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "Kan inte avfyra: stridsvagnen är förstörd."
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "Kan inte växla läge: motorn förstörd."
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "Kan inte växla: kanonen förstörd"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "Växling ej tillgänglig: endast en granat återstår"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] redan aktiverad."
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "Förnödenhet [%(name)s] är inaktiv: ingen brand."
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] är ej tillgängligt under nedkylning."
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "Läkarvård är inte nödvändig: inga sårade besättningsmedlemmar."
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] behöver inte medicinsk vård."
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "Reserven är inte redo."
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "Erövra %(name)s för att aktivera den taktiska färdigheten."
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "Moduler och vagnschef har full träffpoäng. Inget behöver repareras eller läkas."
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "Inga reparationer nödvändiga: alla moduler är intakta."
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] är fullt driftsduglig. Inga reparationer behövs."
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "Kan inte aktivera koaxialvapen."
+
+msgid "player_messages/ALLY_HIT"
+msgstr "Du har träffat en allierad %(entity)s!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s] är redo för användning."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "Artilleribatteri grupperat och redo att ge eld."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "Attackplan i på väg och redo att fälla bomber."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "Vår besättning är redo att inspirera andra omkring oss."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "Minfält redo att utläggas."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "Flygplan på väg in för spaning."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "Fältreparationer redo för användning."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "Artilleriet är redo att skjuta rök."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "Vaktpost redo för användning."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "Artilleribatteri tillhörande %(player)s ger eld."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "Bombskvadron tillhörande %(player)s är på väg."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s skapar ett fältreparationsområde."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s aktiverar inspiration."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s lade ut ett minfält."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "%(player)s har kallat in spaningsflyg."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s använde Fältreparationer."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s har kallat in rök."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s aktiverar Vaktpost."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s förstördes av artillerield."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s förstördes av artillerield."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s förstördes av artillerield."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s förstördes av artillerield."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s förstördes av artillerield."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s förstördes av artillerield."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Vagnen förstörd av artillerield."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s förstördes av artillerield."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s förstördes av artillerield."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s förstördes av flyganfall."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s förstördes av flyganfall."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "%(target)s (allierad) förstörd av %(attacker)s (allierad)."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(attacker)s slog ut %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vagnen förstördes av %(attacker)s (allierad)."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Allierad %(target)s förstörd av zonen."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(attacker)s slog ut %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "%(attacker)s (fiende) slog ut %(target)s (fiende)."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vagnen slogs ut av %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s förstördes av zonen."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "%(target)s (allierad) förstörd."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s förstörd."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vagnen förstörd."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Enheten [%(device)s] har exploderat i branden."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Enheten [%(device)s] har förstörts av skott från %(entity)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "%(attacker)s (allierad) dränkte %(target)s (allierad)."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(attacker)s dränkte %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vagnen dränktes av %(attacker)s (allierad)."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "%(target)s (allierad) drunknade."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(attacker)s dränkte %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "%(attacker)s (fiende) dränkte %(target)s (fiende)."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vagnen dränktes av %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "%(target)s (fiende) drunknade."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "%(target)s (allierad) dränktes."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "%(target)s dränktes."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vangen drunknade."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "%(target)s (allierad) förstörd av %(attacker)s (allierad)."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(attacker)s slog ut %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Vagnen förstördes av %(attacker)s (allierad)."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(attacker)s slog ut %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "%(attacker)s (fiende) slog ut %(target)s (fiende)."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Vagnen slogs ut av %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "%(target)s (allierad) förstörd."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s förstörd."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "Besättningen är utslagen."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Besättningen är utslagen av ett skott från %(entity)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Besättningen hos %(target)s (allierad) slogs ut av %(attacker)s (allierad)."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "Besättningen hos %(target)s slogs ut av %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Besättningen slogs ut av %(attacker)s (allierad)."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "%(target)s (allierad) slog ut sin besättning."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Besättningen hos %(target)s slogs ut av %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Besättningen hos %(target)s (fiende) slogs ut av %(attacker)s (fiende)."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Besättning utslagen av %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "%(target)s (fiende) slog ut sin besättning."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "%(target)s (allierad):s besättning utslagen."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s (fiende):s besättning utslagen."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Besättning utslagen."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "%(target)s (allierad) förstördes av minor."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s förstörd."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(attacker)s slog ut %(target)s med minor."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(attacker)s slog ut %(target)s med minor."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s förstördes av minor."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "%(attacker)s (allierad) välte %(target)s (allierad)"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s välte %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Vagnen vält av %(attacker)s (allierad)"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "%(target)s (allierad) välte sin vagn"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s välte %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "%(attacker)s (fiende) välte %(target)s (fiende)"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Vagn vält och förstörd av %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "%(target)s (fiende) välte sin vagn"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "%(target)s (allierad) välte"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s välte"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vagn vält och förstörd"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "%(attacker)s (allierad) förstörde %(target)s (allierad)."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(attacker)s slog ut %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Vagnen förstördes av %(attacker)s (allierad)."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "%(target)s (allierad) kraschade."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(attacker)s slog ut %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "%(attacker)s (fiende) slog ut %(target)s (fiende)."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Vagnen slogs ut av %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "%(target)s (fiende) kraschade."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "%(target)s (allierad) förstörd."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s förstörd."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vagnen förstörd."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s övergav sin vagn."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s övergav sin vagn."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Vagnen förstörd under bombanfall."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s förstördes under eldgivning mot zonen."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s förstördes under eldgivning mot zonen."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Vagnen förstörd av artillerield."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s förstördes av artillerield."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s förstördes av artillerield."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "%(attacker)s (allierad) slog ut %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "%(attacker)s (allierad) slog ut %(target)s med artillerield."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "%(attacker)s (allierad) slog ut %(target)s med bombanfall."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s slog ut %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s slog ut %(target)s med artillerield."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(attacker)s slog ut %(target)s med flyganfall."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s förstörde %(target)s (eldunderstöd)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s förstörde %(target)s (artillerield)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "%(target)s (allierad) förstördes."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "%(target)s (allierad) förstördes under artilleriangrepp."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "%(target)s (allierad) förstördes under bombanfall."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s slog ut %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(attacker)s slog ut %(target)s med artillerield."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(attacker)s slog ut %(target)s med flyganfall."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s förstörde %(target)s (eldunderstöd)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s förstörde %(target)s (artillerield)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "%(attacker)s (fiende) slog ut %(target)s (fiende)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s (fiende) förstörde %(target)s (fiende) med artillerield."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "%(attacker)s (fiende) förstörde %(target)s (fiende) genom bombanfall."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "%(target)s (fiende) förstörd."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "%(target)s (fiende) förstördes av artillerield."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "%(target)s (fiende) förstördes av bombanfall."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "%(target)s (allierad) förstörd."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "%(target)s (allierad) förstördes av artillerield."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "%(target)s (allierad) förstördes av bombanfall."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s förstörd."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s förstördes av artillerield."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s förstördes av flyganfall."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s förstörd"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s förstörd"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "Fienden (Okänd) förstörd %(target)s."
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Allierad %(target)s förstörd av dödszonen."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "%(attacker)s (allierad) kraschade %(target)s (allierad)."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s kraschade %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vagnen kraschades av %(attacker)s (allierad)."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "%(target)s (allierad) kraschade."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s kraschade %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "%(attacker)s (fiende) kraschade %(target)s (fiende)."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vagnen kraschades av %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "%(target)s (fiende) kraschade."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "%(target)s (allierad) kraschades."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s kraschades."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vagnen kraschade."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s förstörde målet %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s förstörde målet %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "Du förstörde målet %(target)s."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "Enheten [%(device)s] har skadats av brand."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "Skott från %(entity)s har skadat [%(device)s]."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "Enheten [%(device)s] har förstörts av brand."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "Skott från %(entity)s förstörde [%(device)s]."
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "Enheten [%(device)s] har reparerats."
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "Enheten [%(device)s] fungerar."
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "Enheten [%(device)s] fattade eld av ett skott från %(entity)s."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "[%(device)s] skadades av en boost."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "Enheten [%(device)s] skadades genom borttagning av hastighetsregulatorn."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "[%(device)s] förstördes av en boost."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "Enheten [%(device)s] förstördes genom borttagning av hastighetsregulatorn."
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "Branden har släckts."
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "Skott från %(entity)s skadade [%(device)s]."
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] är åter i funktion."
+
+msgid "player_messages/allied_team_name"
+msgstr "Vårt Lag"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "Allierad bas%s erövrad (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "Allierad bas%s har erövrats!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "Baserövring blockerad"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "Basen%s erövrad (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "Basen%s erövrad!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "Fientlig bas%s erövrad (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "Fientlig bas%s erövrad!"
+
+msgid "player_messages/enemy_team_name"
+msgstr "Fiendelag"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "Allierad %(name)s aktiverade den taktiska färdigheten %(equipment)s"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "Fienden aktiverade den taktiska färdigheten %(equipment)s"
+
+msgid "player_messages/postmortem_caption"
+msgstr "Spelare %(name)s (%(type)s); Träffpoäng: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "Spelare: %(name)s; Tålighet: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "Din vagn (%(type)s) förstördes"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "Kan inte avfyra: Ingen ammunition."
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "Repriskontroller:"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "Vänster musknapp: byt mellan olika kameralägen\nBlanksteg: pausa"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "Vänsterpil: spola bakåt 20 sekunder (med Ctrl: 40 sekunder)\nHögerpil: spola framåt 20 sekunder (med Ctrl: 40 sekunder)\nHome/End: hoppa till början/slutet\nUppil/Nedpil: öka/minska uppspelningshastighet"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "Fri kamera aktiverad."
+
+msgid "player_messages/replayPaused"
+msgstr "Paus"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "Låst kamera aktiverad."
+
+msgid "player_messages/replaySpeedChange"
+msgstr "Uppspelningshastiget: %(speed)sx"
+
+msgid "player_messages/tank_in_fire"
+msgstr "Brand i stridsvagnen!"
+
+msgid "players_panel/state/large/body"
+msgstr "Visa spelarnamn, utslagna mål och vagnsnamn och -ikoner"
+
+msgid "players_panel/state/large/header"
+msgstr "Full lagpanel"
+
+msgid "players_panel/state/large/note"
+msgstr "(Tryck Ctrl + Tab för att växla mellan lägen)"
+
+msgid "players_panel/state/medium/body"
+msgstr "Visa spelarnamn, utslagna mål och vagnsikoner"
+
+msgid "players_panel/state/medium/header"
+msgstr "Mellanklass"
+
+msgid "players_panel/state/medium/note"
+msgstr "(Tryck Ctrl + Tab för att växla mellan lägen)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "Visa utslagna vagnar, namn och vagnsikon."
+
+msgid "players_panel/state/medium2/header"
+msgstr "Medium 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(Tryck Ctrl + Tab för att växla mellan lägen)"
+
+msgid "players_panel/state/none/body"
+msgstr "Göm lagpaneler"
+
+msgid "players_panel/state/none/header"
+msgstr "Ingen lagpanel"
+
+msgid "players_panel/state/none/note"
+msgstr "(Tryck Ctrl + Tab för att växla mellan lägen)"
+
+msgid "players_panel/state/short/body"
+msgstr "Visa utslagna mål och vagnsikoner"
+
+msgid "players_panel/state/short/header"
+msgstr "Kort lagpanel"
+
+msgid "players_panel/state/short/note"
+msgstr "(Tryck Ctrl + Tab för att växla mellan lägen)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "Fiende"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "Esc > Tillbaka till garaget"
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "Gå i strid i en annan vagn."
+
+msgid "postmortem/tips/freecam/button"
+msgstr "BLANKSTEG"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "Fri kamera"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "Aktivera fri kamera."
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "Fri kamera ej tillgänglig"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "Kan inte aktivera fri kamera i den här striden."
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "Observatörsläge"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "Byt mellan allierade vagnar."
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "Följ vagn"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "Peka på en allierad vagn och vänsterklicka för att följa den."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "Vagnen förstörd av huvudmålet"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Vagnen förstörd av artillerield."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "Vagnen förstörd av huvudmålet"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "Vagnen förstörd av flyganfall"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "Vagnen förstörd av rövare."
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "Vagnen förstörd av Understödsrobot."
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "Vagnen förstörd av Korrosionsgranat."
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vagnen förstörd i den förbjudna zonen av allierad"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vagnen förstörd i den förbjudna zonen"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Du lämnade inte farozonen"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Modulen [%(device)s] förstörd av brand"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modulen [%(device)s] sprängdes av ett skott från spelaren"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vagnen dränkt av allierad"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vagnen drunknade"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vagnen drunknade"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "Vagnen sattes i brand av spelare"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "Vagnen förstörd av Eldring."
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Besättningen utslagen av skott från spelare"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Besättningen utslagen efter kollision med allierad vagn"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Besättningen utslagen i kollision"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Besättningen utslagen i kollision"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "Vagnen förstörd av Eldboll."
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Vagnen förstörd av minor"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "Vagnen förstörd av minor"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Vagnen vält av allierad"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Vagnen vält av fiende"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vagnen förstörd genom vältning"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Vagnen förstörd av rammning av allierad"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Vagnen förstörd av rammning"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vagnen förstörd av rammning"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "Vagnen förstörd"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Vagnen förstörd under bombanfall."
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Vagnen förstörd av artillerield."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "Vagnen förstörd av skott från spelare"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "Vagnen förstörd av flyganfall."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "Vagnen förstörd av flyganfall."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Vagnen förstörd av artillerield"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Vagnen förstörd av flyganfall"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vagnen förstörd av dödszonen"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "Vagnen förstörd av Elektrisk urladdning."
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vagnen kraschad av allierad"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vagnen kraschad av fienden"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vagnen kraschade"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "Vagnen förstörd"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "Utförande som valts för striden:"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "Välj den konfiguration du vill använda i striden innan nedräkningen tar slut."
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "Välj konfiguration"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "Val av konfiguration: {seconds} s"
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "Utförandeval:"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "Ravin"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "Observation"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "Skog"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "Stig"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "Gata"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "Ruiner"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "Bro"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "Järnväg"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "Stad"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "By"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "Torg"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "Fabrik"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "Kulle"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "Fyr"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "Centrum"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "Borg"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "Väderkvarn"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "Berg"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "Anfallsväg A"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "Anfallsväg B"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "Anfallsväg C"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "Anfallsväg D"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "Anfallsväg E"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "Dal"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "Glaciär"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "Förbifart"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "Kullar"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "Väg"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "Mountain"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "Bunker"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "Aveny"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "Vägg"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "Klippor"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "Verkstäder"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "Fält"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "Garage"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "Kol"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "Fartyg"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "Hangarfartyg"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "Skyttegravar"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "Serpentinväg"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "Norra"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "Södra"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "Västra"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "Östra"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "Åsrygg"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "Zeppelinare"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "Lagerbyggnader"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "Kust"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "Flod"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "Sjö"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "Träsk"
+
+msgid "quickReply/hint/press"
+msgstr "Använd"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "för att bekräfta"
+
+msgid "quickReply/hint/toCommend"
+msgstr "för att uppskatta tillbaka"
+
+msgid "quickReply/hint/toHelp"
+msgstr "för att assistera"
+
+msgid "quickReply/hint/toThank"
+msgstr "för att tacka"
+
+msgid "recovery/cooldown"
+msgstr "Vagnen kan överges om %(cooldown)s sekunder"
+
+msgid "recovery/hint1"
+msgstr "Håll ned"
+
+msgid "recovery/hint2"
+msgstr "för att överge vagnen"
+
+msgid "repairPoint/title"
+msgstr "Reparationer"
+
+msgid "repairPoint/unavailable"
+msgstr "Otillgänglig"
+
+msgid "respawnView/additionalTip"
+msgstr "Välj en vagn att fortsätta striden i. Om alla vagnar håller på att repareras kommer du få fortsätta striden i den först tillgängliga vagnen."
+
+msgid "respawnView/additionalTipLimited"
+msgstr "Välj en vagn för att fortsätta. Den förstörda stridsvagnen kan inte repareras förrän striden är över."
+
+msgid "respawnView/classNotAvailable"
+msgstr "Frontgränsen\nnådd"
+
+msgid "respawnView/cooldownLbl"
+msgstr "Repareras %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "Utslagen"
+
+msgid "respawnView/disabledLbl"
+msgstr "Vagnen ej tillgänglig"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "Lämplig vagn ej vald"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "Klass X vagnar är inte med i gruppen."
+
+msgid "respawnView/nextVehicleName"
+msgstr "Striden fortsätter på "
+
+msgid "respawnView/title"
+msgstr "Välj vagnar"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "SVAR: JA!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "Tack för ditt deltagande under utvecklingen av World of Tanks! Vi uppskattar verkligen just din personliga insats!"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "Tackbrev"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "Du har belönats!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "Grattis!"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "Svar: Ja!"
+
+msgid "rewardWindow/base/descText"
+msgstr "Belöning mottagen"
+
+msgid "rewardWindow/base/headerText"
+msgstr "Grattis"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "Belöning mottagen"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "Underhållspaket India"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "Underhållspaket Juliett"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "Till paket"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "Du har fått stora paket med värdefullt innehåll."
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "Du har fått paket!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "Du har fått små paket med värdefulla belöningar för slutförda uppdrag."
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "Det är dags att öppna och se vad som finns i paketet!"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "Svar: Ja!"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "Kreditinsamling i kreditreserven pausad. Förläng WoT-Premiumkontot för att fortsätta samla i kreditreserven."
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "Krediter mottagna"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "Kreditreserven öppnad"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "Grattis!"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "SVAR: JA!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "Grattis, du har mottagit luftunderstöd som medföljer Prime Gaming. Du kan nu utnyttja det på slagfältet."
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "Underhållspaket Delta"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "Du har belönats!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "REKRYTERA"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "Grattis, du har en ny rekryt som medföljer Prime Gaming."
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "Underhållspaket Alpha"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "Du har belönats!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "SVAR: JA!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "Underhållspaket Stridspass"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "SVAR: JA!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "Underhållspaket Kosmos"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "SVAR: JA!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "Underhållspaket Stjärnklart"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "Mer"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "Underhållspaket Juni"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "Underhållspaket Juli"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "Mer"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "Underhållspaket Dime"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "World of Tanks: Starlight-paket"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "Queen Maeve-paket"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "Mistel"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "Mer"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "Samlingen \"Den stora fångsten\""
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "SVAR: JA!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "Underhållspaket Charlie"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "Du har belönats!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "Paket \"G.I. JOE: Duke\""
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "Paket \"G.I. JOE: Cobra\""
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "Mer"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "\"Rock Out!\"-paketet"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "Paketet \"Den Tysta Jägaren\""
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "Mer"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "Ny look-paket"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "Mer"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "Paketet Sommarkänsla"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "Högspänningspaketet"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "Mer"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "Paketet Äkta skräck"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "Vikingar ibland oss"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "Mer"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "Nystartspaket"
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "Underhållspaket Echo"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "Mer"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "Synthvågor"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "Adepta Sororitas"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "Revolverman"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "Du har fått en unik belöning för prenumerationen: Prime Gaming"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "e-Camo"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "Stridsklar"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "Framåt Hetsare!"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "Dolk"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Du har fått en unik belöning för prenumerationen: Prime Gaming"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "Häxkonster"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "Häxtid"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "Du är i fel kvarter"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "Bit mig!"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "Du har fått en unik belöning för prenumerationen: Prime Gaming"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "Startsignal"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "Vinnande mål"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "Alla tiders klassiker"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Du har fått en unik belöning för Prime Gaming"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "Högtidskläder"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "Charmerande present"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "Tung present"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "Dubbelt firande"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "Välj belöningar"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Du har fått en unik belöning för prenumerationen: Prime Gaming"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "Sköna nya värld"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "Betraktarens öga"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "Cyborganatomi"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "Du är upptäckt"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "Underhållspaket Foxtrot"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "Underhållspaket Golf"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "Underhållspaket Hotel"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "Underhållspaket Kilo"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "Underhållspaket Lima"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "Rekrytera"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "Grattis! Du har fått ett unikt underhållspaket som medföljer Prime Gaming. Du kan använda det direkt."
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "Underhållspaket Mike"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "Belöningar mottagna"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "Uppfattat!"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "Medlemmarna i din klan litar på att du fortsätter delta\nunder hela tjänstgöringsperioden."
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "Belöning mottagen!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "Till Tjänstgöring"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "Tjänstgöring"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "Uppfattat!"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "Medlemmarna i din klan litar på att du fortsätter delta\nunder hela tjänstgöringsperioden."
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "Belöning mottagen!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "Till Tjänstgöring"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "Tjänstgöring"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "Grattis!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "Vår pluton"
+
+msgid "scorePanel/playerScore"
+msgstr "Ditt bidrag:"
+
+msgid "scorePanel/squadLbl"
+msgstr "Pluton %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s mm Pansarprojektil (AP) %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s mm Tungstensprojektil (APCR) %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s mm Pansargranat (APHE) %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s mm Spränggranat (HE) %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s mm Pansarspränggranat (HEAT) %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "Genomsnittlig skada: %(value)s TP"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "Skada per sekund: %(value)s TP/s"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "Verkansområde: %(value)s m"
+
+msgid "shells_kinds/params/header"
+msgstr "Enkel- / Full laddning"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "Genomsnittligt pansargenomslag: %(value)s mm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "Utgångshastighet: %(value)s m/s"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "Chocktid: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "för att växla till anfallsläge"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "för att växla till förflyttningsläge"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "Tangent ej angiven"
+
+msgid "siegeMode/hint/press"
+msgstr "Använd"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "för att aktivera Raketmotor (flytande bränsle)"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "för att aktivera raketmotor"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "för att aktivera sekventiell raketmotor"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "Träffa fiendevagn för att få ytterligare effekt från Lasermålvisare"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "för att växla motorläge"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "för att växla eldläge"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "för att växla körlägesinställning"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "för att aktivera Turboöverväxel"
+
+msgid "spotted/indicator"
+msgstr "Synlighetstid och mottagen skada har ökat"
+
+msgid "spotted/seconds"
+msgstr "s"
+
+msgid "statistics/exit"
+msgstr "Tryck på Esc för att återgå till garage..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "Förstörd av: %s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "Bas erövrad: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "Skadade:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "Träffar: %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "Mottagna träffar: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "Basförsvar: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "Förstörda:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(postumt)"
+
+msgid "statistics/final/personal/shots"
+msgstr "Skott: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "Upptäckta:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "Alla allierade vagnar förstörda."
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "Alla vagnar förstörda!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "Alla fiendevagnar förstörda."
+
+msgid "statistics/final/reasons/reason2"
+msgstr "Basen erövrad!"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "Tiden för striden har gått ut!"
+
+msgid "statistics/final/stats/credits"
+msgstr "Krediter:"
+
+msgid "statistics/final/stats/experience"
+msgstr "Erfarenhet:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "Erfarenhet (x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "Reparationer:"
+
+msgid "statistics/final/status/lose"
+msgstr "Förlust! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "Oavgjort! %s"
+
+msgid "statistics/final/status/win"
+msgstr "Seger! %s"
+
+msgid "statistics/header"
+msgstr "Stridsstatistik"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "Spelare"
+
+msgid "statistics/headers/header2"
+msgstr "Vagnar"
+
+msgid "statistics/headers/header3"
+msgstr "Träffpoäng"
+
+msgid "statistics/headers/header4"
+msgstr "Förstörda"
+
+msgid "statistics/playerState/0"
+msgstr "Förstörd"
+
+msgid "statistics/playerState/1"
+msgstr "Inte i striden"
+
+msgid "statistics/playerState/2"
+msgstr "Förstörd"
+
+msgid "statistics/playerState/3"
+msgstr "I strid"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "Sammansättning"
+
+msgid "statistics/tab/line_up/title"
+msgstr "Lagsammansättning"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "Personliga reserver"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "Aktivering av personliga reserver"
+
+msgid "statistics/tab/quests/header"
+msgstr "Uppdrag"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "Personliga uppdrag är ej tillgängliga i detta stridsläge"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "Gå till kampanjfliken i garaget för att välja uppdrag"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "Du har inga aktiva uppdrag för denna vagn"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "Primärmål uppfyllt"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "Alla uppdrag slutförda"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "Aktivt"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "Resultatförbättring"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "Pausat"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "Visning av framsteg i uppdrag är ej tillgänglig"
+
+msgid "statistics/tabs/group"
+msgstr "Lagprestationer"
+
+msgid "statistics/tabs/heroes"
+msgstr "Hjältemedaljer"
+
+msgid "statistics/tabs/personal"
+msgstr "Personliga Prestationer"
+
+msgid "statistics/team1title"
+msgstr "Vårt Lag"
+
+msgid "statistics/team2title"
+msgstr "Fiendelag"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "Lämna\ndödszonen!"
+
+msgid "stun/indicator"
+msgstr "Besättningen chockad"
+
+msgid "stun/seconds"
+msgstr "s"
+
+msgid "tabStatsHint"
+msgstr "— Statistik"
+
+msgid "tankmen/commander"
+msgstr "Vagnschef"
+
+msgid "tankmen/driver"
+msgstr "Förare"
+
+msgid "tankmen/gunner"
+msgstr "Skytt"
+
+msgid "tankmen/loader"
+msgstr "Laddare"
+
+msgid "tankmen/radioman"
+msgstr "Signalist"
+
+msgid "timer/battlePeriod"
+msgstr "Striden slut om:"
+
+msgid "timer/started"
+msgstr "Striden Börjar!"
+
+msgid "timer/starting"
+msgstr "Striden börjar om:"
+
+msgid "timer/waiting"
+msgstr "Väntar på spelare..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "Använd"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "för att växla siktesläge"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "Tangent ej angiven"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vagnen förstördes av %(entity)s (allierad) i en dödszon."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vagnen slogs ut av %(entity)s i en dödszon."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vagnen förstörd av farozonen."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vagnen dränktes av %(entity)s (allierad)."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vagnen dränktes av %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vangen drunknade."
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "Vagnen förstörd av brand."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Vagnen slogs ut av %(entity)s (allierad)."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Vagnen slogs ut av %(entity)s ."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Besättningen utslagen på grund av kollision med %(entity)s (allierad)."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Besättningen utslagen på grund av kollision med %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Besättningen är utslagen på grund av kollision."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Vagnen vält av %(entity)s (allierad)"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Vagnen vält av %(entity)s (fiende)"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vagnen förstörd genom vältning"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "%(entity)s (allierad) förstörde vagnen genom rammning."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "%(entity)s slog ut vagnen genom rammning."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vagnen förstördes genom rammning."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "Stridsvagnen har förstörts av ett skott från %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "%(entity)s förstörde vagnen med artillerield."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "%(entity)s förstörde vagnen genom bombangrepp."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vagnen kraschades av %(entity)s (allierad)."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vagnen kraschades av %(entity)s (fiende)."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vagnen kraschade."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "%(entity)s (allierad) skadade [%(device)s] genom rammning."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "%(entity)s (allierad) skadade [%(device)s] genom rammning."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "[%(device)s] skadad av rammning."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "%(entity)s (fiende) skadade [%(device)s] genom rammning."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "%(entity)s (fiende) skadade [%(device)s] genom rammning."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "[%(device)s] skadad av rammning."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Kollision med %(entity)s (allierad) skadade [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Kollision med %(entity)s (allierad) skadade [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Modulen [%(device)s] är skadad på grund av kollision."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Kollision med %(entity)s (fiende) skadade [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Kollision med %(entity)s (fiende) skadade [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Modulen [%(device)s] är skadad på grund av kollision."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Enheten [%(device)s] förstördes av minor."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Enheten [%(device)s] förstördes av minor."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "%(entity)s (allierad) förstörde [%(device)s] genom rammning."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "%(entity)s (allierad) förstörde [%(device)s] genom rammning."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "[%(device)s] förstördes av rammning."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "%(entity)s (fiende) förstörde [%(device)s] genom rammning."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "%(entity)s (fiende) förstörde [%(device)s] genom rammning."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "[%(device)s] förstördes av rammning."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Kollision med %(entity)s (allierad) förstörde [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Kollision med %(entity)s (allierad) förstörde [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] förstördes av kollision."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Kollision med %(entity)s (fiende) förstörde [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Kollision med %(entity)s (fiende) förstörde [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Modulen [%(device)s] förstördes av kollision."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "Rammning från %(entity)s (allierad) satte eld på [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "Rammning från %(entity)s (allierad) satte eld på [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "[%(device)s] fattade eld på grund av rammning."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "Rammning från %(entity)s (fiende) satte eld på [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "Rammning från %(entity)s (fiende) satte eld på [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "[%(device)s] började brinna på grund av rammning."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] skadad av kollision med %(entity)s (allierad)."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] skadad av kollision med %(entity)s (allierad)."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] skadad av kollision."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] skadad av kollision med %(entity)s (fiende)."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] skadad av kollision med %(entity)s (fiende)."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] skadad av kollision."
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "Den taktiska färdigheten %(equipment)s har aktiverats!"
+
+msgid "warning_zone/indicator"
+msgstr "Se upp! Du är nära farozonen."

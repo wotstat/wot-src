@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "Anuluj wyszukiwanie"
+
+msgid "buttons/cancelSearch/description"
+msgstr "Kliknij, by anulować wyszukiwanie członków plutonu."
+
+msgid "buttons/createPlatoon/caption"
+msgstr "Nowy pluton"
+
+msgid "buttons/createPlatoon/description"
+msgstr "Stwórz pluton, by zaprosić znajomych do wspólnej gry."
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "Nowy super pluton"
+
+msgid "buttons/findPlayers/caption"
+msgstr "Znajdź graczy"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "Znajdź graczy z podobnymi umiejętnościami i pojazdami, używając filtra wyszukiwania."
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "Wszystkie zaproszenia dla znajomych zostaną anulowane, jeśli rozpoczniesz poszukiwania graczy online."
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "Znajdź graczy"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "Nie możesz wyszukiwać graczy: na serwerze jest za dużo plutonów."
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "Nie możesz wyszukiwać graczy do plutonu: brak odpowiednich pojazdów."
+
+msgid "buttons/invite/player/caption"
+msgstr "Zaproś gracza"
+
+msgid "buttons/invite/player/description"
+msgstr "Kliknij, aby zaprosić gracza do plutonu."
+
+msgid "buttons/invite/players/caption"
+msgstr "Zaproś graczy"
+
+msgid "buttons/invite/players/description"
+msgstr "Kliknij, aby zaprosić graczy do plutonu."
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "Opuść pluton"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "Kliknij, aby opuścić pluton."
+
+msgid "buttons/mute/caption"
+msgstr "Wyłącz plutonowy czat głosowy"
+
+msgid "buttons/mute/description"
+msgstr "Kliknij, by wyłączyć plutonowy czat głosowy."
+
+msgid "buttons/notReady/caption"
+msgstr "Niegotowy"
+
+msgid "buttons/notReady/description"
+msgstr "Kliknij, jeżeli nie zgłaszasz jeszcze gotowości do bitwy."
+
+msgid "buttons/ready/caption"
+msgstr "Gotów!"
+
+msgid "buttons/ready/description"
+msgstr "Kliknij, jeśli zgłaszasz gotowość do bitwy."
+
+msgid "buttons/reset/caption"
+msgstr "Wyzeruj preferencje wyszukiwania"
+
+msgid "buttons/reset/description"
+msgstr "Kliknij, by przywrócić domyślne ustawienia wyszukiwania."
+
+msgid "buttons/settings/caption"
+msgstr "Ustaw preferencje wyszukiwania"
+
+msgid "buttons/settings/description"
+msgstr "Wyszukuj graczy spełniających Twoje kryteria. Im dłużej wyszukiwanie nie da wyników, tym szerzej będzie prowadzone."
+
+msgid "buttons/unMute/caption"
+msgstr "Włącz plutonowy czat głosowy"
+
+msgid "buttons/unMute/description"
+msgstr "Kliknij, by włączyć plutonowy czat głosowy."
+
+msgid "headerButton/inSquad"
+msgstr "W plutonie"
+
+msgid "headerButton/onboarding"
+msgstr "MOŻESZ TERAZ WYSZUKIWAĆ GRACZY,\nBY STWORZYĆ PLUTON"
+
+msgid "headerButton/searching"
+msgstr "Wyszukiwanie..."
+
+msgid "headerButton/squad"
+msgstr "Stwórz pluton"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "Walcz w plutonie ze znajomym. Grajcie jako drużyna przeciwko dziewięciu innym plutonom."
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "Pluton"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "Nie możesz tworzyć plutonów ani do nich dołączać, bo jesteś chwilowo zablokowany(-a) w tym trybie."
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "Nie możesz tworzyć plutonów ani do nich dołączać, bo musisz mieć w garażu przynajmniej jeden pojazd %(level)s poziomu odpowiedni dla tego trybu."
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "Tworzenie plutonu jest tymczasowo niedostępne."
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "Plutony niedostępne"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "Możesz stworzyć pluton lub dołączyć do już istniejącego. W Natarciu Light plutony mogą składać się z 2 lub 7 graczy."
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "Pluton"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "Nie możesz tworzyć plutonów ani do nich dołączać, bo nie masz w garażu odpowiedniego pojazdu %(level)s poziomu."
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "Po ukończeniu kwalifikacji będą dostępne plutony 2 i 7 graczy."
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "Nie można utworzyć plutonu."
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "Plutony niedostępne"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "Stwórz pluton lub dołącz do już istniejącego. W Natarciu Light plutony mogą składać się z 2 lub 7 graczy."
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "Pluton"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "Stwórz jednostkę taktyczną złożoną z 2 lub 3 graczy, by grać wspólnie.\n• Tryby bitwy: Rozwałka.\n• Typy bitwy: Stalowe łowy, Dominacja."
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "Pluton"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "Stwórz jednostkę taktyczną złożoną z 2 lub 3 graczy do udziału w Wielkim Wyścigu."
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "Pluton Wielkiego Wyścigu"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "Kliknij, aby otworzyć menu plutonu."
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "Misja zwiadowcza: pluton"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "Kliknij, aby otworzyć menu plutonu."
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "Pluton"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "Stwórz pluton 2 lub 3 graczy, aby wziąć udział w Misji zwiadowczej."
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "Misja zwiadowcza: pluton"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "Jednostki taktyczne nie mogą brać udziału w bitwach rankingowych."
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "Stwórz pluton"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "Wyszukiwanie graczy..."
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "Wyszukiwanie"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Stwórz jednostkę taktyczną 2 lub 3 graczy do współpracy w bitwach losowych i na Linii frontu (kiedy jest dostępna)"
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Pluton"
+
+msgid "members/card/connectionLost"
+msgstr "Połączenie zerwane"
+
+msgid "members/card/disabled"
+msgstr "Ten tryb wspiera tylko plutony dwuosobowe"
+
+msgid "members/card/disabledVertical"
+msgstr "Niedostępne w tym trybie"
+
+msgid "members/card/empty"
+msgstr "Puste miejsce"
+
+msgid "members/card/inBattle"
+msgstr "W bitwie"
+
+msgid "members/card/muted/caption"
+msgstr "Gracz wyciszony"
+
+msgid "members/card/muted/description"
+msgstr "Kliknij prawym przyciskiem, by wyłączyć wyciszenie tego gracza."
+
+msgid "members/card/notReady"
+msgstr "Niegotowy"
+
+msgid "members/card/searching"
+msgstr "Wyszukiwanie gracza..."
+
+msgid "members/card/selectVehicle"
+msgstr "Wybierz pojazd %(level)s poziomu"
+
+msgid "members/chat/chatName"
+msgstr "Kanał chatu:"
+
+msgid "members/chat/sendMessage/body"
+msgstr "Kliknij, aby wysłać wiadomość na kanale chatu."
+
+msgid "members/chat/sendMessage/header"
+msgstr "Wyślij wiadomość"
+
+msgid "members/footer/comp7Invite"
+msgstr "Zaproś"
+
+msgid "members/footer/comp7Limitations"
+msgstr "Ograniczenia plutonu"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "Maks. stopień plutonu"
+
+msgid "members/footer/getNotReady"
+msgstr "Kliknij, aby zasygnalizować brak gotowości."
+
+msgid "members/footer/getReady"
+msgstr "Potwierdź gotowość wejścia do bitwy."
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "Niekompatybilny poziom"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "Kara do doświadczenia za niepoprawny skład plutonu!"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "Osiągnięto limit pojazdów"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "Pluton osiągnął maksymalną liczbę niszczycieli czołgów"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "Pluton osiągnął maksymalną liczbę dział samobieżnych"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "Pluton osiągnął maksymalną liczbę czołgów ciężkich"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "Pluton osiągnął maksymalną liczbę czołgów średnich"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "Pluton osiągnął maksymalną liczbę czołgów lekkich"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "Pluton osiągnął maksymalną liczbę pojazdów kołowych"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "Pluton osiągnął maksymalną liczbę czołgów lekkich"
+
+msgid "members/header/battle_royal"
+msgstr ": Stalowy łowca"
+
+msgid "members/header/epic"
+msgstr ": Linia frontu"
+
+msgid "members/header/event"
+msgstr ": Waffenträger: Projekt Hyperion"
+
+msgid "members/header/mapbox"
+msgstr ": Misja zwiadowcza"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP HEADER PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr ": Bitwa losowa"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "Linia frontu jest dostępna tylko\ndla pojazdów VIII poziomu."
+
+msgid "members/header/tooltip/epic/header"
+msgstr "Zasady tworzenia plutonu"
+
+msgid "members/header/tooltip/event/body"
+msgstr "Pluton musi się składać z trzech pojazdów specjalnych dla tego trybu."
+
+msgid "members/header/tooltip/event/header"
+msgstr "Zasady tworzenia plutonu"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "Pluton powinien się składać z pojazdów tego samego poziomu."
+
+msgid "members/header/tooltip/standard/header"
+msgstr "Zasady tworzenia plutonu"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Gracze w plutonie"
+
+msgid "searching/estimated/caption"
+msgstr "Przybliżony czas"
+
+msgid "searching/estimated/lessThan"
+msgstr "mniej niż %(seconds)d s"
+
+msgid "searching/estimated/moreThan"
+msgstr "ponad %(seconds)d s"
+
+msgid "searching/expanded/body"
+msgstr "Żaden z graczy nie spełniał początkowych wymagań.\nWyszukiwanie zostało rozszerzone, by uwzględnić inne poziomy pojazdów."
+
+msgid "searching/expanded/header"
+msgstr "Rozszerzono preferencje wyszukiwania"
+
+msgid "searching/lookingFor"
+msgstr "Wyszukiwanie:"
+
+msgid "searching/playersInQueue"
+msgstr "Gracze w kolejce"
+
+msgid "searching/state"
+msgstr "Wyszukiwanie:"
+
+msgid "settings/tiers"
+msgstr "Preferowany poziom pojazdu"
+
+msgid "settings/voice"
+msgstr "Preferuj graczy z czatem głosowym"
+
+msgid "squad"
+msgstr "Pluton"

@@ -1,0 +1,7445 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "PromoPremiumIgrWindow/applyButtonLabel"
+msgstr "Razumem!"
+
+msgid "PromoPremiumIgrWindow/text"
+msgstr "Igrajući se u %(iconIgr)s, možete iznajmiti veliki broj različitih vozila i izvesti ih u borbu, bez potrebe da ih kupite prethodno. Nakon kraja specijala, ni jedno od iznajmljenih vozila neće nestati iz garaže. o bićete u mogućnosti da bezbedno demontirate svu opremu i potrošni materijal, kao i da posadu pošaljete u barake."
+
+msgid "PromoPremiumIgrWindow/title"
+msgstr "Jedinstvani specijal!"
+
+msgid "PromoPremiumIgrWindow/windowTitle"
+msgstr "Specijalna vozila u IGR"
+
+msgid "Time/timeLeftShort/days"
+msgstr "%(day)s d"
+
+msgid "Time/timeLeftShort/hours"
+msgstr "%(hour)s h"
+
+msgid "Time/timeLeftShort/lessMin"
+msgstr "manje od minuta"
+
+msgid "Time/timeLeftShort/min"
+msgstr "%(min)s min"
+
+msgid "Time/timeValue/days"
+msgstr "%(day)s d %(hour)s č %(min)s min"
+
+msgid "Time/timeValue/hours"
+msgstr "%(hour)s č %(min)s min"
+
+msgid "Time/timeValue/lessMin"
+msgstr "minut"
+
+msgid "Time/timeValue/min"
+msgstr "%(min)s min"
+
+msgid "Time/timeValueShort/days"
+msgstr "%(day)s d %(hour)s h"
+
+msgid "Time/timeValueShort/hours"
+msgstr "%(hour)sh %(min)smin"
+
+msgid "Time/timeValueShort/lessMin"
+msgstr "01 min"
+
+msgid "Time/timeValueShort/min"
+msgstr "%(min)s min"
+
+msgid "Time/timeValueShort/noLeadingZeroes/days"
+msgstr "%(day)s d %(hour)s h"
+
+msgid "Time/timeValueShort/noLeadingZeroes/hours"
+msgstr "%(hour)sh %(min)smin"
+
+msgid "Time/timeValueShort/noLeadingZeroes/lessMin"
+msgstr "1 min"
+
+msgid "Time/timeValueShort/noLeadingZeroes/min"
+msgstr "%(min)s min"
+
+msgid "Time/timeValueWithSecs/days"
+msgstr "%(day)s d %(hour)s h"
+
+msgid "Time/timeValueWithSecs/hours"
+msgstr "%(hour)sh %(min)smin"
+
+msgid "Time/timeValueWithSecs/lessMin"
+msgstr "%(sec)s s"
+
+msgid "Time/timeValueWithSecs/min"
+msgstr "%(min)s min %(sec)s s"
+
+msgid "account/profile/emptyBattleList"
+msgstr "Nije bio u borbi"
+
+msgid "accountInfo/credits"
+msgstr "Krediti:"
+
+msgid "accountInfo/crystal"
+msgstr "Obveznice:"
+
+msgid "accountInfo/eventCoin"
+msgstr "Novčići godišnjice:"
+
+msgid "accountInfo/experience"
+msgstr "Ukupno iskustvo:"
+
+msgid "accountInfo/gold"
+msgstr "Zlato:"
+
+msgid "accountTypes/base"
+msgstr "Standardni nalog"
+
+msgid "accountTypes/demo"
+msgstr "Test nalog"
+
+msgid "accountTypes/free"
+msgstr "Besplatan nalog"
+
+msgid "accountTypes/guest"
+msgstr "Gost nalog"
+
+msgid "accountTypes/premium"
+msgstr "Wargaming Premium"
+
+msgid "accountTypes/premiumPlus"
+msgstr "WoT Premium"
+
+msgid "accountTypes/premiumPlusShort"
+msgstr "WoT"
+
+msgid "accountTypes/premiumShort"
+msgstr "Wargaming"
+
+msgid "accountTypes/subscription"
+msgstr "Premijum pretplata"
+
+msgid "ammoReload/additionBuy"
+msgstr "Kupovina"
+
+msgid "ammoReload/ammunition"
+msgstr "Municija:"
+
+msgid "ammoReload/autoFill"
+msgstr "Auto-snabdevanje"
+
+msgid "ammoReload/cancel"
+msgstr "Otkaži"
+
+msgid "ammoReload/clearAmmunition"
+msgstr "Obriši municiju"
+
+msgid "ammoReload/damage/title"
+msgstr "Oštećenje:"
+
+msgid "ammoReload/damage/units"
+msgstr "?empty?"
+
+msgid "ammoReload/fill"
+msgstr "Dopuni"
+
+msgid "ammoReload/inTank"
+msgstr "U vozilu"
+
+msgid "ammoReload/onInventory"
+msgstr "U depou"
+
+msgid "ammoReload/piercingPower/title"
+msgstr "Probojnost: do"
+
+msgid "ammoReload/piercingPower/units"
+msgstr "mm"
+
+msgid "ammoReload/reloadTitle"
+msgstr "Municija za"
+
+msgid "ammoReload/title"
+msgstr "Dopuni municiju"
+
+msgid "ammoReload/totalcost"
+msgstr "Ukupno:"
+
+msgid "awardWindow/boosterAward/activateBtn/label"
+msgstr "Pregledaj lične rezerve"
+
+msgid "awardWindow/boosterAward/additional"
+msgstr "Za kompletiranje ove misije, lična rezerva ti je na raspolaganju. Možeš je aktivirati u odgovarajućem prozoru iz kontekstnog menija igračevog imena."
+
+msgid "awardWindow/boosterAward/description/tillTime"
+msgstr "Trajanje: "
+
+msgid "awardWindow/boosterAward/description/timeValue/defined"
+msgstr "%(effectTime)s (iskoristi do %(tillTime)s)"
+
+msgid "awardWindow/boosterAward/description/timeValue/undefined"
+msgstr "%(effectTime)s (ne ističe)"
+
+msgid "awardWindow/boosterAward/header"
+msgstr "Primljene lične rezerve: %(boosterName)s"
+
+msgid "awardWindow/closeButton"
+msgstr "Zatvori"
+
+msgid "awardWindow/mission/additionalComplete"
+msgstr "Sekundarni uslov je ispunjen."
+
+msgid "awardWindow/mission/additionalNotComplete"
+msgstr "Sekundarni uslov nije ispunjen."
+
+msgid "awardWindow/mission/available"
+msgstr "Dostupnih misija: %(count)s"
+
+msgid "awardWindow/mission/complete"
+msgstr "Misija završena!"
+
+msgid "awardWindow/mission/conditionComplete"
+msgstr "Uslov je ispunjen!"
+
+msgid "awardWindow/mission/mainConditionComplete"
+msgstr "Primarni uslovi su ispunjeni!"
+
+msgid "awardWindow/mission/nextButton"
+msgstr "Na misije"
+
+msgid "awardWindow/mission/nextButton/tooltip/body"
+msgstr "Klikni da vidiš misije koje su dostupne za kompletiranje."
+
+msgid "awardWindow/mission/nextButton/tooltip/header"
+msgstr "Na misije"
+
+msgid "awardWindow/okButton"
+msgstr "Razumem!"
+
+msgid "awardWindow/personalDiscountAward/activateBtn/label"
+msgstr "Prikaži misije"
+
+msgid "awardWindow/personalDiscountAward/additional/experience/rent"
+msgstr "Ako ti se dopada ovo vozilo, možeš ga kupiti i koristiti bez ograničenja."
+
+msgid "awardWindow/personalDiscountAward/additional/slot"
+msgstr "Što je veći nivo vozila koje koristiš u borbi, više kredita ćeš zaraditi po borbi; ipak, kompleksnost borbe će takodje porasti."
+
+msgid "awardWindow/personalDiscountAward/award/experience"
+msgstr "100% popust na pretvaranje u Slobodno iskustvo (do 2000 iskustva)"
+
+msgid "awardWindow/personalDiscountAward/award/slot"
+msgstr "jedan 100% popust na kupovinu slota"
+
+msgid "awardWindow/personalDiscountAward/award/training"
+msgstr "100% popust na treniranje nove posade vozila na Tenkovsku akademiju"
+
+msgid "awardWindow/personalDiscountAward/description/experience"
+msgstr "Borio si se potreban broj borbi u ovom vozilu."
+
+msgid "awardWindow/personalDiscountAward/description/experience/rent"
+msgstr "Borio si se potreban broj borbi u iznajmljenom vozilu."
+
+msgid "awardWindow/personalDiscountAward/description/slot"
+msgstr "Kupio si vozilo višeg nivoa."
+
+msgid "awardWindow/personalDiscountAward/description/training"
+msgstr "Naučio si da prebaciš borbeno iskustvo u slobodno iskustvo."
+
+msgid "awardWindow/personalDiscountAward/header"
+msgstr "Čestitamo!"
+
+msgid "awardWindow/personalDiscountAward/rewardText"
+msgstr "Nagrada\nza završetak"
+
+msgid "awardWindow/personalDiscountAward/title"
+msgstr "Čestitamo"
+
+msgid "awardWindow/personalMission/alreadyCompleted"
+msgstr " (Već kompletirano)"
+
+msgid "awardWindow/personalMission/available"
+msgstr "Sledeća misija je dostupna"
+
+msgid "awardWindow/personalMission/complete"
+msgstr "Misija Završena!"
+
+msgid "awardWindow/personalMission/completeWithHonors"
+msgstr "Misija završena\nsa počastima!"
+
+msgid "awardWindow/personalMission/mainConditionCompleted"
+msgstr "Primarni uslovi su ispunjeni!"
+
+msgid "awardWindow/personalMission/nextButton"
+msgstr "Pokaži misiju"
+
+msgid "awardWindow/personalMission/nextButton/tooltip/body"
+msgstr "Klikni da vidiš uslove sledeće misije i nagrade koje slede."
+
+msgid "awardWindow/personalMission/nextButton/tooltip/header"
+msgstr "Pokaži misiju"
+
+msgid "awardWindow/personalMission/nextButtonAward"
+msgstr "Regrutuj Ženskog člana posade"
+
+msgid "awardWindow/personalMission/nextButtonAward/tooltip/body"
+msgstr "Klikni da bi regrutovao ženskog člana posade za završetak glavnih uslova za zadnju misiju u setu."
+
+msgid "awardWindow/personalMission/nextButtonAward/tooltip/header"
+msgstr "Regrutuj"
+
+msgid "awardWindow/personalMission/sideConditionCompleted"
+msgstr "Sekundarni uslov je ispunjen!"
+
+msgid "awardWindow/personalMission/sideConditionNotCompleted"
+msgstr "Sekundarni uslov nije ispunjen"
+
+msgid "awardWindow/quests/medals/header"
+msgstr "Nagradjen si!"
+
+msgid "awardWindow/quests/taskComplete/additional"
+msgstr "Nagrada za ispunjenje sekundarnih uslova: %(award)s"
+
+msgid "awardWindow/quests/taskComplete/additionalNotComplete"
+msgstr "Sekundarni uslov nije ispunjen."
+
+msgid "awardWindow/quests/taskComplete/awardForComlete"
+msgstr "Nagrada\nza završetak"
+
+msgid "awardWindow/quests/taskComplete/awardRecieved"
+msgstr "Nagrada za ispunjenje primarnih uslova je već primljena."
+
+msgid "awardWindow/quests/taskComplete/description"
+msgstr "Za kompletiranje misije, vrhovna komanda vam zahvaljuje i šalje vam vredne nagrade."
+
+msgid "awardWindow/quests/taskComplete/header"
+msgstr "Misija \"%(taskName)s\" završena!"
+
+msgid "awardWindow/quests/taskComplete/nextTaskAutoChoice"
+msgstr "Misija \"%(taskName)s\" je započeta."
+
+msgid "awardWindow/quests/vehicle/description"
+msgstr "Za završetak svih misija u operaciji, vrhovna komanda izražava svoje zadovoljstvo i poklanja vam unikatno vozilo."
+
+msgid "awardWindow/quests/vehicle/header"
+msgstr "Tvoja nagrada %(vehicleName)s te očekuje u garaži!"
+
+msgid "awardWindow/recruitButton"
+msgstr "Regrut"
+
+msgid "awardWindow/recruiterAward/description"
+msgstr "Ispunio si sve uslove da postaneš komandir i pozoveš prijatelje da igraju sa tobom."
+
+msgid "awardWindow/recruiterAward/header"
+msgstr "Uslovi su ispunjeni!"
+
+msgid "awardWindow/recruiterAward/okButton"
+msgstr "Nastavi"
+
+msgid "awardWindow/recruiterAward/title"
+msgstr "Program preporuke"
+
+msgid "awardWindow/takeNextButton"
+msgstr "Pogledaj uslove misije"
+
+msgid "awardWindow/telecomAward/button/label/default"
+msgstr "Pogledaj u garaži"
+
+msgid "awardWindow/telecomAward/description/full/Twitchprime"
+msgstr "Čestitamo! Dobio si specijalnu pošiljku koja uključuje Prime Gaming:\n%(vehicles)s\n• Dodatno mesto u garaži."
+
+msgid "awardWindow/telecomAward/description/full/default"
+msgstr "Čestitamo! Dobio si specijalnu pošiljku koja uključuje Igrovoy tarifu:\n%(vehicles)s\n• %(prem)s tokom trajanja tarife\n• Dodatno mesto u garaži."
+
+msgid "awardWindow/telecomAward/description/prem/default"
+msgstr "WoT Premium nalog"
+
+msgid "awardWindow/telecomAward/description/withBrotherhood/Twitchprime"
+msgstr "Čestitamo! Dobio si specijalnu pošiljku koja uključuje Prime Gaming:\n%(vehicles)s\n• Posada sa odlikom Braća po oružiju.\n• Dodatno mesto u garaži."
+
+msgid "awardWindow/telecomAward/description/withBrotherhood/default"
+msgstr "Čestitamo! Dobio si specijalnu pošiljku koja uključuje Igorovoy tarifu:\n%(vehicles)s\n• Posada sa odlikom Braća po oružiju.\n• %(prem)s tokom trajanja tarife.\n• Dodatno mesto u garaži."
+
+msgid "awardWindow/telecomAward/description/withoutCrew/Twitchprime"
+msgstr "Čestitamo! Dobio si specijalnu pošiljku koja uključuje Prime Gaming:\n%(vehicles)s\n• Dodatno mesto u garaži."
+
+msgid "awardWindow/telecomAward/description/withoutCrew/default"
+msgstr "Čestitamo! Dobio si specijalnu pošiljku koja uključuje Igrovoy tarifu:\n%(vehicles)s\n• %(prem)s tokom trajanja tarife\n• Dodatno mesto u garaži."
+
+msgid "awardWindow/telecomAward/header/default"
+msgstr "Nagradjen si!"
+
+msgid "awardWindow/telecomAward/subdescription/default"
+msgstr "Obrati pažnju da ovo vozilo nemožeš prodati ili obrisati."
+
+msgid "awardWindow/telecomAward/title/default"
+msgstr "Informator"
+
+msgid "awardWindow/telecomAward/vehicles/Twitchprime"
+msgstr "• %(level)s%(nation)s%(vehicle)s%(type)s nivo sa jedinstvenim stilom."
+
+msgid "awardWindow/telecomAward/vehicles/default"
+msgstr "• %(level)s%(nation)s%(vehicle)s%(type)s sa ekskluzivnom kamuflažom."
+
+msgid "awardWindow/title/boosterAward"
+msgstr "Čestitamo na kompletiranju"
+
+msgid "awardWindow/title/credits"
+msgstr "Novčano odobrenje"
+
+msgid "awardWindow/title/newMedals"
+msgstr "Preporuka"
+
+msgid "awardWindow/title/newTankman"
+msgstr "Član posade u barakama"
+
+msgid "awardWindow/title/newVehicle"
+msgstr "Novo vozilo u garaži"
+
+msgid "awardWindow/title/taskComplete"
+msgstr "Čestitamo na kompletiranju"
+
+msgid "awardWindow/title/tokens"
+msgstr "Preporuka"
+
+msgid "awardWindow/vehicleCollector/description"
+msgstr "Čestitamo! Za sakupljanje svih kolekcionarskih vozila %(nation)s nacije, dobićeš komemorativnu medalju."
+
+msgid "awardWindow/vehicleCollector/header"
+msgstr "Kolekcija je kompletirana"
+
+msgid "awardWindow/vehicleCollector/okButton"
+msgstr "Razumem!"
+
+msgid "awardWindow/vehicleCollector/title"
+msgstr "Kolekcionarska vozila %(nation)s nacije"
+
+msgid "awardWindow/vehicleCollectorOfEverything/description"
+msgstr "Čestitamo! Za sakupljanje svih kolekcionarskih vozila svih nacija, dobićeš komemorativnu medalju."
+
+msgid "awardWindow/vehicleCollectorOfEverything/header"
+msgstr "Nagrada je zarađena!"
+
+msgid "awardWindow/vehicleCollectorOfEverything/okButton"
+msgstr "Razumem!"
+
+msgid "awardWindow/vehicleCollectorOfEverything/title"
+msgstr "Kolekcionarska vozila"
+
+msgid "badge/confirm"
+msgstr "Potvrdno!"
+
+msgid "badge/new"
+msgstr "DOBIJENA NAGRADA"
+
+msgid "badgePage/tutorial/newSuffixBadge"
+msgstr "BANER JE DOSTUPAN"
+
+msgid "barracks/btnDissmiss"
+msgstr "Povuci"
+
+msgid "barracks/btnUnload"
+msgstr "Pošalji u barake"
+
+msgid "barracks/notRecruitedActivateBefore"
+msgstr "Kroz %(date)s"
+
+msgid "battleAbility/title"
+msgstr "Borbene rezerve"
+
+msgid "blueprints/conversionView/btnCancel"
+msgstr "Otkaži"
+
+msgid "blueprints/conversionView/btnConvert"
+msgstr "Kreiraj"
+
+msgid "blueprints/conversionView/multiConversion/description"
+msgstr "Nedostajući fragmenti za kreiranje:{fragCount}"
+
+msgid "blueprints/conversionView/multiConversion/title"
+msgstr "Kreiranje fragmenata nacrta za {vehName}"
+
+msgid "blueprints/conversionView/title"
+msgstr "Kreiranje fragmenta nacrta za {vehName}"
+
+msgid "bonusType/0"
+msgstr "Nepoznat"
+
+msgid "bonusType/1"
+msgstr "Slučajne borba"
+
+msgid "bonusType/10"
+msgstr "Čarke"
+
+msgid "bonusType/11"
+msgstr "Napadi"
+
+msgid "bonusType/12"
+msgstr "Tim: Rangirane borbe"
+
+msgid "bonusType/13"
+msgstr "Globalna mapa"
+
+msgid "bonusType/16"
+msgstr "Borbeni poligon"
+
+msgid "bonusType/18"
+msgstr "Dominacija"
+
+msgid "bonusType/19"
+msgstr "Čelični lov"
+
+msgid "bonusType/2"
+msgstr "Timski trening"
+
+msgid "bonusType/20"
+msgstr "Čarke"
+
+msgid "bonusType/21"
+msgstr "Napad"
+
+msgid "bonusType/22"
+msgstr "Rangirana Borba"
+
+msgid "bonusType/24"
+msgstr "Velika Borba"
+
+msgid "bonusType/27"
+msgstr "Linija fronta"
+
+msgid "bonusType/29"
+msgstr "\"Čelični lovac\""
+
+msgid "bonusType/37"
+msgstr "Izviđačka misija"
+
+msgid "bonusType/38"
+msgstr "Topografija"
+
+msgid "bonusType/4"
+msgstr "Specijalna borba"
+
+msgid "bonusType/42"
+msgstr "\"%(modeName)s\""
+
+msgid "bonusType/43"
+msgstr "Juriš"
+
+msgid "bonusType/44"
+msgstr "Zagrevanje"
+
+msgid "bonusType/49"
+msgstr "Laki Juriš"
+
+msgid "bonusType/5"
+msgstr "Specijalna borba"
+
+msgid "bonusType/6"
+msgstr "Borbena obuka"
+
+msgid "bonusType/7"
+msgstr "Timska borba"
+
+msgid "bonusType/8"
+msgstr "Istorijska bitka"
+
+msgid "bonusType/9"
+msgstr "Specijalni režim igre"
+
+msgid "booster/bonus/booster_credits"
+msgstr "%(effectValue)s bonusa za %(effectHours)s na kredite zarađene u borbi"
+
+msgid "booster/bonus/booster_crew_xp"
+msgstr "%(effectValue)s bonusa za %(effectHours)s na iskustvo posade zarađeno u borbi"
+
+msgid "booster/bonus/booster_fl_xp"
+msgstr "%(effectValue)s bonus na %(effectHours)s na iskustvo zaradjeno u borbi u režimu Fronta"
+
+msgid "booster/bonus/booster_free_xp"
+msgstr "%(effectValue)s bonusa za %(effectHours)s na slobodno iskustvo zarađeno u borbi"
+
+msgid "booster/bonus/booster_free_xp_and_crew_xp"
+msgstr "%(effectValue)s na slobodni i iskustvo posade tokom %(effectHours)s"
+
+msgid "booster/bonus/booster_xp"
+msgstr "%(effectValue)s bonusa za %(effectHours)s na iskustvo zarađeno u borbama"
+
+msgid "booster/description/bonusValueTime/booster_credits"
+msgstr "%(effectValue)s bonusa na kredite zarađene u borbi tokom %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "%(effectValue)s bonusa na iskustvo posade zarađeno u borbi tokom %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_fl_xp"
+msgstr "%(effectValue)s bonus iskustvo zaradjeno u režimu Fronta na %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "%(effectValue)s bonusa na slobodno iskustvo zarađeno u borbi tokom %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp_and_crew_xp"
+msgstr "%(effectValue)s na slobodni i iskustvo posade tokom %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "%(effectValue)s bonusa na iskustvo zarađeno u borbi tokom %(effectTime)s"
+
+msgid "booster/description/booster_credits"
+msgstr "%(effectValue)s na kredite zarađene u borbi"
+
+msgid "booster/description/booster_crew_xp"
+msgstr "%(effectValue)s na iskustvo posade zarađeno u borbi"
+
+msgid "booster/description/booster_fl_xp"
+msgstr "%(effectValue)s na iskustvo u režimu Fronta zaradjeno u borbi"
+
+msgid "booster/description/booster_free_xp"
+msgstr "%(effectValue)s na slobodno iskustvo zarađeno u borbi"
+
+msgid "booster/description/booster_free_xp_and_crew_xp"
+msgstr "%(effectValue)s na slobodno i iskustvo posade zarađeno u borbi"
+
+msgid "booster/description/booster_repair"
+msgstr "%(effectValue)s cena popravki"
+
+msgid "booster/description/booster_xp"
+msgstr "%(effectValue)s na iskustvo zarađeno u borbi"
+
+msgid "booster/description/effectTime"
+msgstr " za %(effectTime)s"
+
+msgid "booster/description/effectValueTime"
+msgstr "%(effectValue)s na %(effectTime)s"
+
+msgid "booster/influence/booster_credits"
+msgstr "na kredite zarađene u borbi"
+
+msgid "booster/influence/booster_crew_xp"
+msgstr "na iskustvo posade zarađeno u borbi"
+
+msgid "booster/influence/booster_fl_xp"
+msgstr "na iskustvo u režimu Fronta zaradjeno u borbi"
+
+msgid "booster/influence/booster_free_xp"
+msgstr "na slobodno iskustvo zarađeno u borbi"
+
+msgid "booster/influence/booster_free_xp_and_crew_xp"
+msgstr "na slobodno i iskustvo posade zarađeno u borbi"
+
+msgid "booster/influence/booster_xp"
+msgstr "na iskustvo zarađeno u borbi"
+
+msgid "booster/label/booster_credits"
+msgstr "%(effectValue)s na kredite"
+
+msgid "booster/label/booster_crew_xp"
+msgstr "%(effectValue)s na iskustvo posade"
+
+msgid "booster/label/booster_free_xp"
+msgstr "%(effectValue)s na slobodno iskustvo"
+
+msgid "booster/label/booster_free_xp_and_crew_xp"
+msgstr "%(effectValue)s na slobodno i iskustvo posade"
+
+msgid "booster/label/booster_xp"
+msgstr "%(effectValue)s na borbeno iskustvo"
+
+msgid "booster/limit/booster_fl_xp"
+msgstr "Za režim Fronta"
+
+msgid "booster/quality/big"
+msgstr "(Veliki)"
+
+msgid "booster/quality/medium"
+msgstr "(Srednji)"
+
+msgid "booster/quality/small"
+msgstr "(Mali)"
+
+msgid "booster/userName/booster_credits"
+msgstr "Dodatni krediti po borbi"
+
+msgid "booster/userName/booster_crew_xp"
+msgstr "Dodano iskustvo posade po borbi"
+
+msgid "booster/userName/booster_fl_xp"
+msgstr "Dodatno iskustvo u režimu Fronta po borbi"
+
+msgid "booster/userName/booster_free_xp"
+msgstr "Dodatno slobodno iskustvo po borbi"
+
+msgid "booster/userName/booster_free_xp_and_crew_xp"
+msgstr "Dodatno slobodno i iskustvo posade zarađeno u borbi"
+
+msgid "booster/userName/booster_repair"
+msgstr "Popust na popravke vozila"
+
+msgid "booster/userName/booster_xp"
+msgstr "Dodatno iskustvo po borbi"
+
+msgid "boosterBuyWindow/buyButtonLabel"
+msgstr "Kupi"
+
+msgid "boosterBuyWindow/cancelButtonLabel"
+msgstr "Otkaži"
+
+msgid "boosterBuyWindow/pricePerItem"
+msgstr "Kupovna cena za 1 stvar:"
+
+msgid "boosterBuyWindow/rearmCheckboxLabel"
+msgstr "Automatska dopuna Direktiva"
+
+msgid "boosterBuyWindow/title"
+msgstr "Kupi direktive \"{name}\"?"
+
+msgid "boosterInfo/closeBtn"
+msgstr "Zatvori"
+
+msgid "boosterSelectPopover/rearmCheckBoxLabel"
+msgstr "Automatska dopuna Direktiva"
+
+msgid "boosterSellWindow/pricePerItem"
+msgstr "Prodajna cena za 1 stvar:"
+
+msgid "boosterSellWindow/title"
+msgstr "Prodaj direktive \"{name}\"?"
+
+msgid "boosters/common/effect_time"
+msgstr "Trajanje"
+
+msgid "boosters/common/effect_value"
+msgstr "Vrednost bonusa"
+
+msgid "boosters/common/name"
+msgstr "Lična Rezerva"
+
+msgid "boosters/timeLeft/days"
+msgstr "%(day)s d %(hour)s h"
+
+msgid "boosters/timeLeft/hours"
+msgstr "%(hour)sh %(min)smin"
+
+msgid "boosters/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "boosters/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "boostersWindow/activeBoosters"
+msgstr "Trenutno aktivni: %(activeNo)s/%(allNo)s"
+
+msgid "boostersWindow/boostersTable/noInfo/empty/message"
+msgstr "Nema ničega za prikaz"
+
+msgid "boostersWindow/boostersTable/noInfo/notFound/message"
+msgstr "Proveri uključene filtere ličnih rezervi (ukoliko ih ima)."
+
+msgid "boostersWindow/boostersTable/noInfo/notFound/title"
+msgstr "Ništa nije pronađeno"
+
+msgid "boostersWindow/boostersTableRenderer/activateBtnLabel"
+msgstr "Aktiviraj"
+
+msgid "boostersWindow/boostersTableRenderer/buyBtnLabel"
+msgstr "Kupi"
+
+msgid "boostersWindow/boostersTableRenderer/goToQuestBtnLabel"
+msgstr "Idi u misiju"
+
+msgid "boostersWindow/boostersTableRenderer/questForOpen"
+msgstr "Da bi dobio lične rezerve, kompletiraj %(questName)s"
+
+msgid "boostersWindow/boostersTableRenderer/time"
+msgstr "Ističe %(tillTime)s"
+
+msgid "boostersWindow/boostersTableRenderer/undefineTime"
+msgstr "Rok trajanja neograničen"
+
+msgid "boostersWindow/closeBtn/label"
+msgstr "Zatvori"
+
+msgid "boostersWindow/levelFilters/label"
+msgstr "Veličina:"
+
+msgid "boostersWindow/returnBtn/label"
+msgstr "Povratak na listu"
+
+msgid "boostersWindow/tabs/availableLabel"
+msgstr "Aktivirano: (%(count)s)"
+
+msgid "boostersWindow/tabs/buyLabel"
+msgstr "Kupi (%(count)s)"
+
+msgid "boostersWindow/tabs/notAvailableLabel"
+msgstr "Zaradjeno: (%(count)s)"
+
+msgid "boostersWindow/title"
+msgstr "Lične rezerve"
+
+msgid "boostersWindow/typeFilters/label"
+msgstr "Tip:"
+
+msgid "browser/customTitle/fort/congratulation"
+msgstr "Čestitamo"
+
+msgid "browser/customTitle/fort/offensiveResult"
+msgstr "Rezulatati napada"
+
+msgid "browser/dataUnavailable/description"
+msgstr "Informacija je trenutno nedostupna."
+
+msgid "browser/dataUnavailable/header"
+msgstr "Pažnja!"
+
+msgid "browser/window/title"
+msgstr "Pretraživač"
+
+msgid "carouselFilter/igr"
+msgstr "IGR"
+
+msgid "carousel_tank_filter/AT-SPG"
+msgstr "Lovci tenkova"
+
+msgid "carousel_tank_filter/SPG"
+msgstr "Artiljerija"
+
+msgid "carousel_tank_filter/all"
+msgstr "Sve"
+
+msgid "carousel_tank_filter/assault"
+msgstr "Juriš"
+
+msgid "carousel_tank_filter/break"
+msgstr "Proboj"
+
+msgid "carousel_tank_filter/canInstallAttachments"
+msgstr "3D dodaci"
+
+msgid "carousel_tank_filter/heavyTank"
+msgstr "Teški tenkovi"
+
+msgid "carousel_tank_filter/lightTank"
+msgstr "Laki tenkovi"
+
+msgid "carousel_tank_filter/mediumTank"
+msgstr "Srednji tenkovi"
+
+msgid "carousel_tank_filter/own3DStyle"
+msgstr "3D Stilovi"
+
+msgid "carousel_tank_filter/ready"
+msgstr "Spreman"
+
+msgid "carousel_tank_filter/sniper"
+msgstr "Snajper"
+
+msgid "carousel_tank_filter/support"
+msgstr "Podrška"
+
+msgid "carousel_tank_filter/universal"
+msgstr "Svestrani"
+
+msgid "carousel_tank_filter/wheeled"
+msgstr "Točkaš"
+
+msgid "centerIsAvailable"
+msgstr "Svi serveri su ponovo raspoloživi."
+
+msgid "centerIsUnAvailable"
+msgstr "Servisi igre su privremeno nedostupni."
+
+msgid "classes/AT-SPG"
+msgstr "Lovci tenkova"
+
+msgid "classes/SPG"
+msgstr "Artiljerija"
+
+msgid "classes/anyType"
+msgstr "Svi tipovi"
+
+msgid "classes/heavyTank"
+msgstr "Teški Tenkovi"
+
+msgid "classes/lightTank"
+msgstr "Laki Tenkovi"
+
+msgid "classes/mediumTank"
+msgstr "Srednji Tenkovi"
+
+msgid "classes/short/AT-SPG"
+msgstr "Lovci tenkova"
+
+msgid "classes/short/Alliance-France"
+msgstr "Koalicija (Francuska, Čehoslovačka, Švedska i Italija)"
+
+msgid "classes/short/Alliance-Germany"
+msgstr "Blok (Nemačka, Japan)"
+
+msgid "classes/short/Alliance-USA"
+msgstr "Alijansa (SAD. VB. i Poljska)"
+
+msgid "classes/short/Alliance-USSR"
+msgstr "Unija (SSSR, Kina)"
+
+msgid "classes/short/SPG"
+msgstr "Artiljerija"
+
+msgid "classes/short/heavyTank"
+msgstr "TT"
+
+msgid "classes/short/lightTank"
+msgstr "LT"
+
+msgid "classes/short/mediumTank"
+msgstr "ST"
+
+msgid "common/premiumBuy"
+msgstr "Poboljšaj"
+
+msgid "common/premiumContinue"
+msgstr "Produži premijum"
+
+msgid "contextMenu/acceptInvitationToSquad"
+msgstr "Prihvati poziv da se priključiš vodu"
+
+msgid "contextMenu/addToFriends"
+msgstr "Dodaj na listu prijatelja"
+
+msgid "contextMenu/addToIgnored"
+msgstr "Dodaj na \"crnu listu\""
+
+msgid "contextMenu/appeal"
+msgstr "Žalba"
+
+msgid "contextMenu/assignOfficer"
+msgstr "Unapredjenje"
+
+msgid "contextMenu/assignPrivate"
+msgstr "Ražaluj"
+
+msgid "contextMenu/bot"
+msgstr "Neaktivan/Bot"
+
+msgid "contextMenu/botNoActions"
+msgstr "Nema dostupnih akcija"
+
+msgid "contextMenu/buy"
+msgstr "Kupi"
+
+msgid "contextMenu/buyAndEquip"
+msgstr "Kupi i montiraj"
+
+msgid "contextMenu/buyOrTradeIn"
+msgstr "Kupi ili razmeni"
+
+msgid "contextMenu/cancelBuy"
+msgstr "Otkaži kupovinu"
+
+msgid "contextMenu/clanInfo"
+msgstr "Profil klana igrača"
+
+msgid "contextMenu/commendBack"
+msgstr "Uzvrati pohvalu!"
+
+msgid "contextMenu/commendFirst"
+msgstr "Pohvali!"
+
+msgid "contextMenu/compare"
+msgstr "Dodaj na poredjenje"
+
+msgid "contextMenu/copyClanName"
+msgstr "Kopiraj ime klana"
+
+msgid "contextMenu/copyToClipBoard"
+msgstr "Kopiraj na klipbord"
+
+msgid "contextMenu/createBattleRoyaleSquad"
+msgstr "Kreiraj vod za Čeličnog lovca"
+
+msgid "contextMenu/createComp7LightSquad"
+msgstr "Kreiraj vod lakog Juriš"
+
+msgid "contextMenu/createComp7Squad"
+msgstr "Kreiraj Juriš vod"
+
+msgid "contextMenu/createContactNote"
+msgstr "Kreiraj belešku"
+
+msgid "contextMenu/createEventSquad"
+msgstr "Napravi vod događaja"
+
+msgid "contextMenu/createMapboxSquad"
+msgstr "Izviđačka misija: Napravi vod"
+
+msgid "contextMenu/createPlaylist"
+msgstr "Kreiraj plejlistu"
+
+msgid "contextMenu/createPrivateChannel"
+msgstr "Pošalji poruku"
+
+msgid "contextMenu/createSquad"
+msgstr "Napravi vod"
+
+msgid "contextMenu/crewWidgetChangeCrewMember"
+msgstr "Zameni člana posade"
+
+msgid "contextMenu/crewWidgetChangeSpecialization"
+msgstr "Treniraj za vozilo"
+
+msgid "contextMenu/crewWidgetDismiss"
+msgstr "Povuci"
+
+msgid "contextMenu/crewWidgetPersonalFile"
+msgstr "Profil"
+
+msgid "contextMenu/crewWidgetQuickTraining"
+msgstr "Ubrzani trening"
+
+msgid "contextMenu/crewWidgetRetrain"
+msgstr "Retrening"
+
+msgid "contextMenu/crewWidgetSendToToBarracks"
+msgstr "Pošalji u barake"
+
+msgid "contextMenu/disableCommunications"
+msgstr "Blokiraj iz ove borbe"
+
+msgid "contextMenu/dismiss"
+msgstr "Povuci"
+
+msgid "contextMenu/editContactNote"
+msgstr "Izmeni belešku"
+
+msgid "contextMenu/enableCommunications"
+msgstr "Odblokiraj"
+
+msgid "contextMenu/equip"
+msgstr "Primeni"
+
+msgid "contextMenu/exchange"
+msgstr "Razmena"
+
+msgid "contextMenu/excludedFromSquad"
+msgstr "Isključi iz voda"
+
+msgid "contextMenu/forbiddenNick"
+msgstr "Uvredljivi nadimak ili naziv klana"
+
+msgid "contextMenu/giveArtilleryEquipmentCommander"
+msgstr "Daj artiljerijski napad"
+
+msgid "contextMenu/giveInspireEquipmentCommander"
+msgstr "Daj inspiraciju"
+
+msgid "contextMenu/giveLeadership"
+msgstr "Prenesi komandantova ovlaščenja"
+
+msgid "contextMenu/goToBlueprint"
+msgstr "Idi na nacrt"
+
+msgid "contextMenu/goToCollection"
+msgstr "Idi na kolekciju"
+
+msgid "contextMenu/goToNationTree"
+msgstr "Tehnološko stablo"
+
+msgid "contextMenu/goToNextVehicle"
+msgstr "Istraživanje modula"
+
+msgid "contextMenu/inSquad"
+msgstr "Igrač u vodu"
+
+msgid "contextMenu/incorrectBehavior"
+msgstr "Nedolično ponašanje u četu"
+
+msgid "contextMenu/invite"
+msgstr "Pozovi u taktičku jedinicu"
+
+msgid "contextMenu/kickPlayerFromPrebattle"
+msgstr "Isključiti iz taktičke jedinice"
+
+msgid "contextMenu/kickPlayerFromUnit"
+msgstr "Isključiti iz taktičke jedinice"
+
+msgid "contextMenu/leaveSquad"
+msgstr "Napusti vod"
+
+msgid "contextMenu/lockSlot"
+msgstr "Zaključaj slot"
+
+msgid "contextMenu/managePlaylists"
+msgstr "Plejliste"
+
+msgid "contextMenu/mentorAssignment"
+msgstr "Mentorski kurs"
+
+msgid "contextMenu/messenger/closeAllExceptCurrent"
+msgstr "Zatvori sve osim trenutnog"
+
+msgid "contextMenu/messenger/closeCurrent"
+msgstr "Zatvori trenutni kanal"
+
+msgid "contextMenu/messenger/minimizeAll"
+msgstr "Smanji sve kanale"
+
+msgid "contextMenu/moduleInfo"
+msgstr "Karakteristike"
+
+msgid "contextMenu/moneyTransfer"
+msgstr "Prebaci zlato"
+
+msgid "contextMenu/mutualCommendation"
+msgstr "Pohvali obe strane"
+
+msgid "contextMenu/nationChange"
+msgstr "Promena nacije"
+
+msgid "contextMenu/notFairPlay"
+msgstr "Nesportsko ponašanje"
+
+msgid "contextMenu/outgoingCommendation"
+msgstr "Pohvaljen"
+
+msgid "contextMenu/personalCase/statsBlockTitle"
+msgstr "U PREMIJUM VOZILU"
+
+msgid "contextMenu/profileVehicleCompare"
+msgstr "Dodaj na poredjenje"
+
+msgid "contextMenu/rejectFriendship"
+msgstr "Otkaži zahtev za prijateljstvo"
+
+msgid "contextMenu/rejectInvitationToSquad"
+msgstr "Otkaži poziv za pristup vodu"
+
+msgid "contextMenu/removeContactNote"
+msgstr "Izbriši belešku"
+
+msgid "contextMenu/removeFromFriends"
+msgstr "Obriši iz liste prijatelja"
+
+msgid "contextMenu/removeFromIgnored"
+msgstr "Ukloni sa \"crne liste\""
+
+msgid "contextMenu/requestFriendship"
+msgstr "Pošalji zahtev za prijateljstvo ponovo"
+
+msgid "contextMenu/restore"
+msgstr "Povrati"
+
+msgid "contextMenu/selectVehicleInHangar"
+msgstr "Izaberi vozilo u garaži"
+
+msgid "contextMenu/sell"
+msgstr "Prodaj"
+
+msgid "contextMenu/sellFromInventory"
+msgstr "Prodaj iz Depoa"
+
+msgid "contextMenu/sendClanInvite"
+msgstr "Pozovi u klan"
+
+msgid "contextMenu/sendInvitationToSquad"
+msgstr "Poziv u vod"
+
+msgid "contextMenu/setMuted"
+msgstr "Isključi glasovne poruke"
+
+msgid "contextMenu/showVehiclePreview"
+msgstr "Pregled vozila"
+
+msgid "contextMenu/showVehicleStatistics"
+msgstr "Statistika"
+
+msgid "contextMenu/takeArtilleryEquipmentCommander"
+msgstr "Uzmi artiljerijski napad"
+
+msgid "contextMenu/takeInspireEquipmentCommander"
+msgstr "Uzmi inspiraciju"
+
+msgid "contextMenu/takeLeadership"
+msgstr "Preuzmi komandirska ovlašćenja"
+
+msgid "contextMenu/telecomRent"
+msgstr "Prikaži vozila rente"
+
+msgid "contextMenu/unequip"
+msgstr "Isključeno"
+
+msgid "contextMenu/unload"
+msgstr "Pošalji na depo"
+
+msgid "contextMenu/unlock"
+msgstr "Izučavanje"
+
+msgid "contextMenu/unlockSlot"
+msgstr "Otključaj slot"
+
+msgid "contextMenu/unsetMuted"
+msgstr "Uključi glasovne poruke"
+
+msgid "contextMenu/userInfo"
+msgstr "Igračev dosije službe"
+
+msgid "contextMenu/userVehicleCompare"
+msgstr "Dodaj na poredjenje"
+
+msgid "contextMenu/vehSkillTree"
+msgstr "Ka nadogradnjama"
+
+msgid "contextMenu/vehicleBuy"
+msgstr "Na kupovinu"
+
+msgid "contextMenu/vehicleCheck"
+msgstr "Označi kao primarni"
+
+msgid "contextMenu/vehicleInfo"
+msgstr "O vozilu"
+
+msgid "contextMenu/vehicleInfoEx"
+msgstr "O vozilu"
+
+msgid "contextMenu/vehiclePostProgression"
+msgstr "Ka poljskim modifikacijama"
+
+msgid "contextMenu/vehiclePreview"
+msgstr "Pregled vozila"
+
+msgid "contextMenu/vehicleRemove"
+msgstr "Ukloniti"
+
+msgid "contextMenu/vehicleResearch"
+msgstr "Istraži"
+
+msgid "contextMenu/vehicleRestore"
+msgstr "Na povraćaj"
+
+msgid "contextMenu/vehicleSell"
+msgstr "Prodaj"
+
+msgid "contextMenu/vehicleUncheck"
+msgstr "Opozovite osnovnu oznaku"
+
+msgid "contextMenu/viewClanProfile"
+msgstr "Profil klana"
+
+msgid "contextMenu/withdrawInvitationToSquad"
+msgstr "Povuci poziv da bi se priključio vodu"
+
+msgid "copy"
+msgstr "© 2009–2026 Wargaming.net. Sva prava zadržana."
+
+msgid "counter/newCounter"
+msgstr "NOVO"
+
+msgid "crystals/info/tab/earn/events/description"
+msgstr "Bonovi se mogu zaraditi na druge načine:\n%(types)"
+
+msgid "crystals/info/tab/earn/events/descriptionContent"
+msgstr "tokom specijalnih dogadjaja u igri, za završetak dnevnih misija,\nza učešće u odredjenim specijalima i drugo."
+
+msgid "crystals/info/tab/earn/events/title"
+msgstr "BONOVI ZA DOGADJAJE"
+
+msgid "crystals/info/tab/earn/level/description"
+msgstr "Bonovi se zarađuju na %(level10And11) istraživim vozilima i %(level9) Premium vozilima\nsa aktivnim indikatorom u sledećim režimima:"
+
+msgid "crystals/info/tab/earn/level/descriptionContent/level10And11"
+msgstr "Nivo X - XI"
+
+msgid "crystals/info/tab/earn/level/descriptionContent/level9"
+msgstr "nivo IX"
+
+msgid "crystals/info/tab/earn/level/mod/0"
+msgstr "Slučajne\nBorbe"
+
+msgid "crystals/info/tab/earn/level/title"
+msgstr "NIVO VOZILA"
+
+msgid "crystals/info/tab/earn/marker/description/1"
+msgstr "Svako vozilo ima limit na zaradu %(week)."
+
+msgid "crystals/info/tab/earn/marker/description/2"
+msgstr "Vozila dostupna za zaradu bonova su označena sa\nljubičastim indikatorom u dnu panela u Garaži."
+
+msgid "crystals/info/tab/earn/marker/description/3"
+msgstr "Limit se resetuje svake nedelje."
+
+msgid "crystals/info/tab/earn/marker/descriptionContent/week"
+msgstr "bonova nedeljno"
+
+msgid "crystals/info/tab/earn/marker/title"
+msgstr "INDIKATOR ZA ZARADU BONOVA"
+
+msgid "crystals/info/tab/earnTab"
+msgstr "Kako se zaradjuje"
+
+msgid "crystals/info/tab/get/card/condition"
+msgstr "Stanje"
+
+msgid "crystals/info/tab/get/card/defeat"
+msgstr "Poraz / Nerešeno"
+
+msgid "crystals/info/tab/get/card/description"
+msgstr "Najboljih %(position)s po iskustvu"
+
+msgid "crystals/info/tab/get/card/win"
+msgstr "Pobeda"
+
+msgid "crystals/info/tab/get/description"
+msgstr "Borba u slučajnim borbama u vozilu sa aktivnim indikatorom za zaradu bonova. Što je veća pozicija na rezultatima borbe po osnovnom iskustvu, više bonova ćeš zaraditi za borbu."
+
+msgid "crystals/info/tab/get/random"
+msgstr "SLUČAJNA BORBA"
+
+msgid "crystals/info/tab/getTab"
+msgstr "Uslovi za dobijanje"
+
+msgid "crystals/info/tab/spend/card/instructions/description"
+msgstr "Poboljšava efekat postavljene opreme."
+
+msgid "crystals/info/tab/spend/card/instructions/title"
+msgstr "Direktive"
+
+msgid "crystals/info/tab/spend/card/price"
+msgstr "od  %(price)s"
+
+msgid "crystals/info/tab/spend/card/specialEquipment/description"
+msgstr "Poboljšava karakteristike vozila. Pruža jači efekat nego standardna oprema."
+
+msgid "crystals/info/tab/spend/card/specialEquipment/title"
+msgstr "Poboljšana\nOprema"
+
+msgid "crystals/info/tab/spend/card/specialTanks/description"
+msgstr "Specijalna vozila dostupna samo za bonove."
+
+msgid "crystals/info/tab/spend/card/specialTanks/title"
+msgstr "Vozila za bonove"
+
+msgid "crystals/info/tab/spend/card/toShop"
+msgstr "Ka prodavnici"
+
+msgid "crystals/info/tab/spend/description"
+msgstr "Bonovi se mogu potrošiti na specijalna vozila, direktive za opremu i poboljšanu opremu koja značajno poboljšava karakteristike vozila."
+
+msgid "crystals/info/tab/spendTab"
+msgstr "Kako utrošiti"
+
+msgid "crystals/info/title"
+msgstr "BONOVI"
+
+msgid "crystals/promoWindow/title"
+msgstr "Bonovi"
+
+msgid "cst_item_ctx_menu/activate"
+msgstr "Aktiviraj"
+
+msgid "cst_item_ctx_menu/addToCompare"
+msgstr "Dodaj na poredjenje"
+
+msgid "cst_item_ctx_menu/allowSale"
+msgstr "Izaberi"
+
+msgid "cst_item_ctx_menu/autoprolongationOff"
+msgstr "Otkaži automatsko produživanje"
+
+msgid "cst_item_ctx_menu/autoprolongationOn"
+msgstr "Produži period rente"
+
+msgid "cst_item_ctx_menu/baseStyle"
+msgstr "Vrati na podrazumevano"
+
+msgid "cst_item_ctx_menu/buy"
+msgstr "Kupi"
+
+msgid "cst_item_ctx_menu/buyMore"
+msgstr "Kupovina"
+
+msgid "cst_item_ctx_menu/convertBlueprint"
+msgstr "Kreiraj jedan fragment"
+
+msgid "cst_item_ctx_menu/convertBlueprintMax"
+msgstr "Kreiraj fragmente"
+
+msgid "cst_item_ctx_menu/convertBlueprintMaxCount"
+msgstr "Kreiraj fragmente (%(count)d)"
+
+msgid "cst_item_ctx_menu/deconstruct"
+msgstr "Rastavi"
+
+msgid "cst_item_ctx_menu/demount"
+msgstr "Ukloni na depo"
+
+msgid "cst_item_ctx_menu/demountFromSetup"
+msgstr "Demontiraj sa ovog slota"
+
+msgid "cst_item_ctx_menu/demountFromSetups"
+msgstr "Demontiraj sa svih konfiguracija"
+
+msgid "cst_item_ctx_menu/destroy"
+msgstr "Uništi"
+
+msgid "cst_item_ctx_menu/editStyle"
+msgstr "Promeni"
+
+msgid "cst_item_ctx_menu/exchange"
+msgstr "Razmena"
+
+msgid "cst_item_ctx_menu/goToCollection"
+msgstr "Idi na kolekciju"
+
+msgid "cst_item_ctx_menu/information"
+msgstr "Detalji"
+
+msgid "cst_item_ctx_menu/nationChange"
+msgstr "Promena nacije"
+
+msgid "cst_item_ctx_menu/preview"
+msgstr "Pregled vozila"
+
+msgid "cst_item_ctx_menu/previewCustomization"
+msgstr "Pregled"
+
+msgid "cst_item_ctx_menu/prohibitSale"
+msgstr "Otkaži izbor"
+
+msgid "cst_item_ctx_menu/putOnFirst"
+msgstr "Dodaj na slot 1"
+
+msgid "cst_item_ctx_menu/putOnSecond"
+msgstr "Dodaj na slot 2"
+
+msgid "cst_item_ctx_menu/putOnThird"
+msgstr "Dodaj na slot 3"
+
+msgid "cst_item_ctx_menu/remove"
+msgstr "Ukloniti"
+
+msgid "cst_item_ctx_menu/removeFromTank"
+msgstr "Ukloni sa trenutnog vozila"
+
+msgid "cst_item_ctx_menu/removeFromTank/desert"
+msgstr "Ukloni za pustinjske mape"
+
+msgid "cst_item_ctx_menu/removeFromTank/summer"
+msgstr "Ukloni za letnje mape"
+
+msgid "cst_item_ctx_menu/removeFromTank/winter"
+msgstr "Ukloni za zimske mape"
+
+msgid "cst_item_ctx_menu/rentRenew"
+msgstr "Produži period rente"
+
+msgid "cst_item_ctx_menu/restore"
+msgstr "Povrati"
+
+msgid "cst_item_ctx_menu/select"
+msgstr "Dodaj na slot"
+
+msgid "cst_item_ctx_menu/sell"
+msgstr "Prodaj"
+
+msgid "cst_item_ctx_menu/showBlueprint"
+msgstr "Na nacrt"
+
+msgid "cst_item_ctx_menu/showInHangar"
+msgstr "Pogledaj u garaži"
+
+msgid "cst_item_ctx_menu/showVehicleStatistics"
+msgstr "Statistika"
+
+msgid "cst_item_ctx_menu/styleInfo"
+msgstr "Detalji stila"
+
+msgid "cst_item_ctx_menu/takeOff"
+msgstr "Ukloni sa slota"
+
+msgid "cst_item_ctx_menu/unload"
+msgstr "Ukloni i pošalji na Depo"
+
+msgid "cst_item_ctx_menu/upgrade"
+msgstr "Poboljšaj"
+
+msgid "currentVehicleStatus/ammoNotFull"
+msgstr "Nedovoljno municije"
+
+msgid "currentVehicleStatus/ammoNotFullEvents"
+msgstr "Nedovoljno municije"
+
+msgid "currentVehicleStatus/battle"
+msgstr "U borbi"
+
+msgid "currentVehicleStatus/clanLocked"
+msgstr "?empty?"
+
+msgid "currentVehicleStatus/crewNotFull"
+msgstr "Posada je nepotpuna"
+
+msgid "currentVehicleStatus/damaged"
+msgstr "Potrebne su popravke"
+
+msgid "currentVehicleStatus/dealIsOver"
+msgstr "Nedostupno"
+
+msgid "currentVehicleStatus/destroyed"
+msgstr "Potrebne su popravke"
+
+msgid "currentVehicleStatus/disabled"
+msgstr "Nedostupno"
+
+msgid "currentVehicleStatus/exploded"
+msgstr "Potrebne su popravke"
+
+msgid "currentVehicleStatus/fallout_broken"
+msgstr "Grupa nije spremna"
+
+msgid "currentVehicleStatus/fallout_max"
+msgstr "Grupa nije spremna"
+
+msgid "currentVehicleStatus/fallout_min"
+msgstr "Grupa nije spremna"
+
+msgid "currentVehicleStatus/fallout_only"
+msgstr "Ne odgovara"
+
+msgid "currentVehicleStatus/fallout_required"
+msgstr "Grupa nije spremna"
+
+msgid "currentVehicleStatus/group_is_not_ready"
+msgstr "Grupa nije spremna"
+
+msgid "currentVehicleStatus/igrRentalIsOver"
+msgstr "Specijal je završen"
+
+msgid "currentVehicleStatus/inPrebattle"
+msgstr "U taktičkoj jedinici"
+
+msgid "currentVehicleStatus/inPremiumIgrOnly"
+msgstr "Dostupno samo u %(icon)s. Specijal se završava za: %(time)s"
+
+msgid "currentVehicleStatus/isRentable"
+msgstr "Renta vozila dostupna"
+
+msgid "currentVehicleStatus/locked"
+msgstr "?empty?"
+
+msgid "currentVehicleStatus/notValidVehicle"
+msgstr "Nekompatibilna vozila"
+
+msgid "currentVehicleStatus/notpresent"
+msgstr "Morate da\nkupite vozilo"
+
+msgid "currentVehicleStatus/rentable"
+msgstr "Iznajmljivanje vozila dostupno"
+
+msgid "currentVehicleStatus/rentableAgain"
+msgstr "Produži iznajmljivanje"
+
+msgid "currentVehicleStatus/rentalIsOver"
+msgstr "Period najama je istekao."
+
+msgid "currentVehicleStatus/rotationGroupLocked"
+msgstr "Nedostupno"
+
+msgid "currentVehicleStatus/rotationGroupUnlocked"
+msgstr "Spreman za borbu!"
+
+msgid "currentVehicleStatus/serverRestriction"
+msgstr "Limit servera"
+
+msgid "currentVehicleStatus/subscription_suspended"
+msgstr "WoT plus pretplata je suspendovana"
+
+msgid "currentVehicleStatus/undamaged"
+msgstr "Spreman za borbu!"
+
+msgid "currentVehicleStatus/unsuitableToQueue"
+msgstr "Ne odgovara"
+
+msgid "currentVehicleStatus/unsuitableToUnit"
+msgstr "Ne odgovara"
+
+msgid "currentVehicleStatus/waitingPlayer"
+msgstr "Potreban je još jedan igrač"
+
+msgid "currentVehicleStatus/willBeUnlockedInBattle"
+msgstr "Otključava se u borbi"
+
+msgid "currentVehicleStatus/wot_plus_exclusive_vehicle_disabled"
+msgstr "WoT plus ekskluzivno vozilo je nedostupno"
+
+msgid "customization/title"
+msgstr "Spoljašnost"
+
+msgid "dateTime/fromToWithYear"
+msgstr "Od {fromDay} {fromMonth} do {toDay} {toMonth}, {toYear}"
+
+msgid "dateTime/months/1"
+msgstr "januara"
+
+msgid "dateTime/months/10"
+msgstr "oktobra"
+
+msgid "dateTime/months/11"
+msgstr "novembra"
+
+msgid "dateTime/months/12"
+msgstr "decembra"
+
+msgid "dateTime/months/2"
+msgstr "februara"
+
+msgid "dateTime/months/3"
+msgstr "marta"
+
+msgid "dateTime/months/4"
+msgstr "aprila"
+
+msgid "dateTime/months/5"
+msgstr "maja"
+
+msgid "dateTime/months/6"
+msgstr "juna"
+
+msgid "dateTime/months/7"
+msgstr "jula"
+
+msgid "dateTime/months/8"
+msgstr "avgusta"
+
+msgid "dateTime/months/9"
+msgstr "septembra"
+
+msgid "dateTime/months/full/1"
+msgstr "Januar"
+
+msgid "dateTime/months/full/10"
+msgstr "Oktobar"
+
+msgid "dateTime/months/full/11"
+msgstr "Novembar"
+
+msgid "dateTime/months/full/12"
+msgstr "Decembar"
+
+msgid "dateTime/months/full/2"
+msgstr "Februar"
+
+msgid "dateTime/months/full/3"
+msgstr "Mart"
+
+msgid "dateTime/months/full/4"
+msgstr "April"
+
+msgid "dateTime/months/full/5"
+msgstr "Maj"
+
+msgid "dateTime/months/full/6"
+msgstr "Jun"
+
+msgid "dateTime/months/full/7"
+msgstr "Juli"
+
+msgid "dateTime/months/full/8"
+msgstr "Avgust"
+
+msgid "dateTime/months/full/9"
+msgstr "Septembar"
+
+msgid "dateTime/months/fullSmall/1"
+msgstr "januar"
+
+msgid "dateTime/months/fullSmall/10"
+msgstr "oktobar"
+
+msgid "dateTime/months/fullSmall/11"
+msgstr "novembar"
+
+msgid "dateTime/months/fullSmall/12"
+msgstr "decembar"
+
+msgid "dateTime/months/fullSmall/2"
+msgstr "februar"
+
+msgid "dateTime/months/fullSmall/3"
+msgstr "mart"
+
+msgid "dateTime/months/fullSmall/4"
+msgstr "april"
+
+msgid "dateTime/months/fullSmall/5"
+msgstr "maj"
+
+msgid "dateTime/months/fullSmall/6"
+msgstr "jun"
+
+msgid "dateTime/months/fullSmall/7"
+msgstr "jul"
+
+msgid "dateTime/months/fullSmall/8"
+msgstr "avgust"
+
+msgid "dateTime/months/fullSmall/9"
+msgstr "septembr"
+
+msgid "dateTime/months/short/1"
+msgstr "Jan"
+
+msgid "dateTime/months/short/10"
+msgstr "Okt"
+
+msgid "dateTime/months/short/11"
+msgstr "Nov"
+
+msgid "dateTime/months/short/12"
+msgstr "Dec"
+
+msgid "dateTime/months/short/2"
+msgstr "Feb"
+
+msgid "dateTime/months/short/3"
+msgstr "Mar"
+
+msgid "dateTime/months/short/4"
+msgstr "Apr"
+
+msgid "dateTime/months/short/5"
+msgstr "Maj"
+
+msgid "dateTime/months/short/6"
+msgstr "Jun"
+
+msgid "dateTime/months/short/7"
+msgstr "Jul"
+
+msgid "dateTime/months/short/8"
+msgstr "Avg"
+
+msgid "dateTime/months/short/9"
+msgstr "Sep"
+
+msgid "dateTime/months/shortSmall/1"
+msgstr "jan."
+
+msgid "dateTime/months/shortSmall/10"
+msgstr "okt."
+
+msgid "dateTime/months/shortSmall/11"
+msgstr "nov."
+
+msgid "dateTime/months/shortSmall/12"
+msgstr "dec."
+
+msgid "dateTime/months/shortSmall/2"
+msgstr "feb."
+
+msgid "dateTime/months/shortSmall/3"
+msgstr "mar."
+
+msgid "dateTime/months/shortSmall/4"
+msgstr "apr."
+
+msgid "dateTime/months/shortSmall/5"
+msgstr "maj"
+
+msgid "dateTime/months/shortSmall/6"
+msgstr "jun"
+
+msgid "dateTime/months/shortSmall/7"
+msgstr "jul"
+
+msgid "dateTime/months/shortSmall/8"
+msgstr "avg."
+
+msgid "dateTime/months/shortSmall/9"
+msgstr "sept."
+
+msgid "dateTime/order"
+msgstr "%(day)s %(month)s %(year)s"
+
+msgid "dateTime/shortDateFormatWithoutYear"
+msgstr "%(weekDay)s, %(month)s, %(monthDay)d"
+
+msgid "dateTime/trade_in/undefined"
+msgstr "Prikaz vremena nije moguć"
+
+msgid "dateTime/unlimited"
+msgstr "nije definisano."
+
+msgid "dateTime/weekDays/full/1"
+msgstr "Ponedeljak"
+
+msgid "dateTime/weekDays/full/2"
+msgstr "Utorak"
+
+msgid "dateTime/weekDays/full/3"
+msgstr "Sreda"
+
+msgid "dateTime/weekDays/full/4"
+msgstr "Četvrtak"
+
+msgid "dateTime/weekDays/full/5"
+msgstr "Petak"
+
+msgid "dateTime/weekDays/full/6"
+msgstr "Subota"
+
+msgid "dateTime/weekDays/full/7"
+msgstr "Nedelja"
+
+msgid "dateTime/weekDays/short/1"
+msgstr "Pon"
+
+msgid "dateTime/weekDays/short/2"
+msgstr "Uto"
+
+msgid "dateTime/weekDays/short/3"
+msgstr "Sre"
+
+msgid "dateTime/weekDays/short/4"
+msgstr "Čet"
+
+msgid "dateTime/weekDays/short/5"
+msgstr "Pet"
+
+msgid "dateTime/weekDays/short/6"
+msgstr "Sub"
+
+msgid "dateTime/weekDays/short/7"
+msgstr "Ned"
+
+msgid "demonstrator/map/disabled"
+msgstr "Mapa je nedostupna\nza izabrano vozilo"
+
+msgid "demonstrator/maps/label"
+msgstr "Mapa"
+
+msgid "demonstrator/window/any"
+msgstr "Nasumični"
+
+msgid "demonstrator/window/button"
+msgstr "Pronađi borbu"
+
+msgid "demonstrator/window/lvl"
+msgstr "Pretraga za borbama po nivou vozila:"
+
+msgid "demonstrator/window/spawn/green"
+msgstr "Zelena"
+
+msgid "demonstrator/window/spawn/red"
+msgstr "Crvena"
+
+msgid "demonstrator/window/spawnLabel"
+msgstr "Odabir baze"
+
+msgid "demonstrator/window/title"
+msgstr "Šabloni za nasumične borbe"
+
+msgid "denunciation/1"
+msgstr "Nesportsko ponašanje"
+
+msgid "denunciation/2"
+msgstr "Uvredljivi nadimak ili naziv klana"
+
+msgid "denunciation/3"
+msgstr "Neaktivan/Bot"
+
+msgid "denunciation/7"
+msgstr "Nedolično ponašanje u četu"
+
+msgid "descriptions/mutableDamageShell"
+msgstr "Prosečna šteta: %(avgMutableDamage)s"
+
+msgid "descriptions/mutableDamageShellFull"
+msgstr "Probojnost: %(avgPiercingPower)s mm\nProsečna šteta: %(avgMutableDamage)s"
+
+msgid "descriptions/shell"
+msgstr "Prosečna šteta: %(avgDamage)s"
+
+msgid "descriptions/shellFull"
+msgstr "Probojnost: %(avgPiercingPower)s mm\nProsečna šteta: %(avgDamage)s"
+
+msgid "descriptions/vehicle"
+msgstr "%(weight)s t;Oklop: do %(hullArmor)s mm; Top %(caliber)s mm"
+
+msgid "descriptions/vehicleChassis"
+msgstr "Brzina skretanja: do %(rotationSpeed)s step/s"
+
+msgid "descriptions/vehicleEngine"
+msgstr "Snaga mot.: %(enginePower)s k.s.\nŠansa za požar prilikom pogotka: %(fireStartingChance)s"
+
+msgid "descriptions/vehicleGun"
+msgstr "%(reloadTime)s granata/min.; Prosečno oštećenje: %(avgDamageList)s\nProsečna probojnost: %(avgPiercingPower)s mm"
+
+msgid "descriptions/vehicleGun/autoReload"
+msgstr "Punjenje %(autoReloadTime)s s; Prosečna šteta: %(avgDamageList)s\nProsečna penetracija: %(avgPiercingPower)s mm"
+
+msgid "descriptions/vehicleGun/autoShoot"
+msgstr "%(continuousShotsPerMinute)s granata/min. Prosečna šteta: %(avgDamageList)s\nProsečna probojnost: %(avgPiercingPower)s mm"
+
+msgid "descriptions/vehicleGun/dualGun"
+msgstr "Punjenje topa: %(reloadTimeSecs)s s; Prosečna šteta: %(avgDamageList)s\nProsečna probojnost: %(avgPiercingPower)s mm"
+
+msgid "descriptions/vehicleGun/twinGun"
+msgstr "Punjenje topa: %(reloadTimeSingleGun)s/%(reloadTimeTwinGun)s s; Prosečna šteta: %(avgDamageList)s\nProsečna probojnost: %(avgPiercingPower)s mm"
+
+msgid "descriptions/vehicleRadio"
+msgstr "Domet Signala: Do %(radioDistance)s m"
+
+msgid "descriptions/vehicleTurret"
+msgstr "Oklop: %(armor)s mm; Okretanje: %(rotationSpeed)s step/sek\nVideokrug: Prib. %(circularVisionRadius)s m"
+
+msgid "descriptions/vehicleWheeledChassis"
+msgstr "Maksimalan ugao okretanja volana: do %(maxSteeringLockAngle)s step"
+
+msgid "disconnect/codes/0"
+msgstr "<?empty?>"
+
+msgid "disconnect/codes/1001"
+msgstr "Desinhronizacija komponente vezane za \"Vozila\" (1001)"
+
+msgid "disconnect/codes/1002"
+msgstr "Desinhronizacija komponente vezane za \"Vešanje\" (1002)"
+
+msgid "disconnect/codes/1003"
+msgstr "Desinhronizacija komponente vezane za \"Kupola\" (1003)"
+
+msgid "disconnect/codes/1004"
+msgstr "Desinhronizacija komponente vezane za \"Top\" (1004)"
+
+msgid "disconnect/codes/1005"
+msgstr "Desinhronizacija komponente vezane za \"Motor\" (1005)"
+
+msgid "disconnect/codes/1006"
+msgstr "Desinhronizacija komponente vezane za \"Rezervoar\" (1006)"
+
+msgid "disconnect/codes/1007"
+msgstr "Desinhronizacija komponente vezane za \"Radio\" (1007)"
+
+msgid "disconnect/codes/1008"
+msgstr "Desinhronizacija komponente vezane za \"Posada\" (1008)"
+
+msgid "disconnect/codes/1009"
+msgstr "Desinhronizacija komponente vezane za \"Oprema\" (1009)"
+
+msgid "disconnect/codes/1010"
+msgstr "Desinhronizacija komponente vezane za \"Municija\" (1010)"
+
+msgid "disconnect/codes/1011"
+msgstr "Desinhronizacija komponente vezane za \"Potrošna Roba\" (1011)"
+
+msgid "disconnect/codes/1012"
+msgstr "Desinhronizacija komponenti vezanih za \"posadu\" (kod 1012)"
+
+msgid "disconnect/codes/1013"
+msgstr "Neusklađenost komponenti koje se odnose na \"prilagođavanje\" (1013)"
+
+msgid "disconnect/codes/1014"
+msgstr "desinhronizacija istraženih komponenti (1014)"
+
+msgid "discount/description/pet"
+msgstr "%(effectValue)s na cenu kupovine ljubimca"
+
+msgid "discount/description/vehicle"
+msgstr " %(effectValue)s popust na kupovinu %(targetName)s"
+
+msgid "discount/userName/vehicle"
+msgstr "Lični popust na kupovinu vozila"
+
+msgid "epicTraining/title"
+msgstr "Timski trening u režimu Fronta"
+
+msgid "epic_training/create/title"
+msgstr "Kreiraj trening sobu u režimu Fronta"
+
+msgid "epic_training/info/settings/title"
+msgstr "Modifikuj podešavanja trening sobe u režimu Fronta"
+
+msgid "exchange/cancel"
+msgstr "Otkaži"
+
+msgid "exchange/no_gold"
+msgstr "Nemate dovoljno zlata za pretvaranje"
+
+msgid "exchange/onhand"
+msgstr "Trenutno stanje:"
+
+msgid "exchange/rate"
+msgstr "Odnos pretvaranja:"
+
+msgid "exchange/result"
+msgstr "Preostalo stanje:"
+
+msgid "exchange/submit"
+msgstr "Razmena"
+
+msgid "exchange/title"
+msgstr "Razmeni zlato"
+
+msgid "exchange/toexchange"
+msgstr "Razmena:"
+
+msgid "exchangeXP/available"
+msgstr "Raspoloživo iskustvo:"
+
+msgid "exchangeXP/available/forFree/label"
+msgstr "  besplatno do "
+
+msgid "exchangeXP/available/forFree/value"
+msgstr "%(icon)s%(forFree)s"
+
+msgid "exchangeXP/cancel"
+msgstr "Otkaži"
+
+msgid "exchangeXP/change"
+msgstr "Pretvori ({%d} za {%d}):"
+
+msgid "exchangeXP/pay"
+msgstr "Ukupno:"
+
+msgid "exchangeXP/submit"
+msgstr "Konvertovanje"
+
+msgid "exchangeXP/title"
+msgstr "Konvertovanje u slobodno iskustvo"
+
+msgid "extraParams/desc"
+msgstr "Parametar koji ne utiče direktno na efektivnost uništenja neprijateljskih vozila."
+
+msgid "extraParams/header"
+msgstr "Bonus %(paramName)s"
+
+msgid "extraParams/multiDesc"
+msgstr "Ukupan bonus se računa koristeći i aditivne i multiplikativne modifikatore, tako da može završiti veći ili manji od vrednosti prikazanih ovde."
+
+msgid "extraParams/name/artNotificationDelayFactor"
+msgstr "Ovaj parametar pokazuje vreme između pucanja artiljerije i dobijanja upozorenja."
+
+msgid "extraParams/name/commanderLampDelay"
+msgstr "Ovaj parametar pokazuje kašnjenje pre nego što komandir prepozna da je tvoje vozilo uočeno od strane neprijatelja. Što je veća vrednost, to je kašnjenje manje."
+
+msgid "extraParams/name/crewHitChance"
+msgstr "Ovaj parametar pokazuje šansu za izbegavanje povreda članova posade."
+
+msgid "extraParams/name/crewRepeatedStunDuration"
+msgstr "Ovaj parametar pokazuje trajanje dodatnog ošamućenja na već ošamućeno vozilo."
+
+msgid "extraParams/name/crewStunDuration"
+msgstr "Ovaj parametar pokazuje trajanje primljenog ošamućenja."
+
+msgid "extraParams/name/damageAndPiercingDistributionLowerBound"
+msgstr "Ovaj parametar pokazuje šansu za minimalnu potencijalnu štetu i potencijalnu penetraciju u odnosu na osnovnu vrednost (-25%)."
+
+msgid "extraParams/name/damageAndPiercingDistributionUpperBound"
+msgstr "Ovaj parametar pokazuje promenu maksimalne potencijalne štete i potencijalne penetracije u odnosu na osnovnu vrednost (+25%)."
+
+msgid "extraParams/name/damageEnemiesByRamming"
+msgstr "Ovaj parametar pokazuje količinu štete uzrokovanu sudaranjem. Kada se vozilo sudari, sistem razmatra debljinu oklopa u tački udarca, razliku u težinama vozila i brzinama."
+
+msgid "extraParams/name/damagedModulesDetectionTime"
+msgstr "Ovaj parametar pokazuje odlaganje pre nego što komandat otkrije kritičnu štetu neprijateljskom vozilu u nišanu."
+
+msgid "extraParams/name/demaskFoliageFactor"
+msgstr "Ovaj parametar pokazuje ekspozituru neprijateljima koji su potpuno skroviti rastinjem ( izolovani ili grupno). Nanosi se na vozila u mirovanju i pokretu."
+
+msgid "extraParams/name/demaskMovingFactor"
+msgstr "Ovaj parametar pokazuje ekspozituru neprijateljskim vozilima u pokretu. Što je vrednost veća, veća je i šansa za uočavanje."
+
+msgid "extraParams/name/enemyModulesCrewCritChance"
+msgstr "Ovaj parametar pokazuje promene za šansu nanošenja kritične štete neprijateljskim posudama i modulima. Efekat radi na svim tipovima granata osim u vozilima sa automatskim topovima."
+
+msgid "extraParams/name/equipmentPreparationTime"
+msgstr "Ovaj parametar pokazuje vreme hlađenja potrošne robe."
+
+msgid "extraParams/name/fireExtinguishingRate"
+msgstr "Ovaj parametar određuje smanjenje trajanja vatre i količine štete koju šteta uzrokuje."
+
+msgid "extraParams/name/foliageMaskingFactor"
+msgstr "Ovaj parametar pokazuje efekat skrivanja iza rastinja."
+
+msgid "extraParams/name/hpRecover"
+msgstr "Ovaj parametar pokazuje povećanje u poenima izdržljivosti prilikom upotrebe kompleta za popravku. Što je veća vrednost, to će više izdržljivosti biti obnovljeno."
+
+msgid "extraParams/name/mediumGroundFactor"
+msgstr "Ovaj parametar pokazuje nosivost vešanja na srednje mekim terenima. Što je vrednost veća, manje vremena je potrebno za dostizanje linearne brzine."
+
+msgid "extraParams/name/penaltyToDamagedSurveyingDevice"
+msgstr "Ovaj parametar smanjuje kaznu na maksimalni vidokrug kada su osmatrački uređaji uništeni. Što je manja vrednost, to je vidljivost bolja."
+
+msgid "extraParams/name/piercingHEShellsDistributionUpperBound"
+msgstr "Ovaj parametar pokazuje povećanje u vrednosti maksimalne potencijalne penetracije za granate ispaljene sa distance manje od 50 m. Što je veća vrednost to je bolja penetracija."
+
+msgid "extraParams/name/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "Ovaj parametar pokazuje dodatno vreme prenosa neprijateljskih pozicija nakon što je vozilo uništeno."
+
+msgid "extraParams/name/radiomanHitChance"
+msgstr "Ovaj parametar pokazuje šansu za izbegavanje povreda radio operatera."
+
+msgid "extraParams/name/shellVelocity"
+msgstr "Ovaj parametar pokazuje povećanje brzine granata za sve tipove. Što je veća vrednost, to je brzina granate veća."
+
+msgid "extraParams/name/softGroundFactor"
+msgstr "Ovaj parametar pokazuje nosivost vešanja na mekim terenima. Što je vrednost veća, manje vremena je potrebno za dostizanje linearne brzine."
+
+msgid "extraParams/name/stunResistanceEffectFactor"
+msgstr "Ovaj parametar pokazuje stepen negativnih efekata od ošamućenja posade."
+
+msgid "extraParams/name/suspensionDamageReduction"
+msgstr "Ovaj parametar pokazuje smanjenje u nadolazećoj šteti za suspenziju. Što je veća vrednost, to je manja pretrpljena šteta."
+
+msgid "extraParams/name/vehPenaltyForDamagedAmmorack"
+msgstr "OVaj parametar pokazuje smanjenje kazne za vreme punjenja topa zbog oštećenog spremišta za municiju. Što je veća vrednost, to je vreme punjenja manje."
+
+msgid "extraParams/name/vehPenaltyForDamagedEngine"
+msgstr "OVaj parametar pokazuje smanjenje u gubitku snage oštećenog motora. Što je veća vrednost, motor gubi manje snage."
+
+msgid "extraParams/name/vehicleAmmoBayEngineFuelStrength"
+msgstr "Ovaj parametar pokazuje trajnost police municije, rezervoara i motora. Što je vrednost veća, otporniji su i moduli."
+
+msgid "extraParams/name/vehicleAmmoBayStrength"
+msgstr "Ovaj parametar pokazuje otpornost police za municiju. Što je vrednost veća, otpornija je i polica za municiju."
+
+msgid "extraParams/name/vehicleChassisFallDamage"
+msgstr "Ovaj parametar pokazuje štetu izazvanu štetom na vešanju tokom udara. Na njega ne utiče šteta naneta na stranu ili vrh kupole tokom udara."
+
+msgid "extraParams/name/vehicleChassisRepairSpeed"
+msgstr "Ovaj parametar pokazuje brzinu opravki vešanja. Što je vrednost veća, brže su i opravke."
+
+msgid "extraParams/name/vehicleChassisStrength"
+msgstr "Ovaj parametar pokazuje otpornost vešanja. Što je vrednost veća, otpornije je i vešanje od granata i udara/sudaranja."
+
+msgid "extraParams/name/vehicleEnemySpottingTime"
+msgstr "Ovaj parametar pokazuje koliko su neprijatelji vidljivi nakon što napuste vidno polje. Podrazumevana vrednost je 10 sekundi."
+
+msgid "extraParams/name/vehicleFallingDamageResistance"
+msgstr "OVaj parametar pokazuje smanjenje pretrpljene štete na vozilu nakon udara. Što je veća vrednost, to je manja pretrpljena šteta."
+
+msgid "extraParams/name/vehicleFireChance"
+msgstr "Ovaj parametar pokazuje šansu za požar motora kada je oštećen."
+
+msgid "extraParams/name/vehicleFuelTankLesionChance"
+msgstr "Ovaj parametar pokazuje otpornost rezervoara protiv kritične štete. Po uništenju, rezervoari će uvek uzrokovati požar."
+
+msgid "extraParams/name/vehicleGunShotDispersion"
+msgstr "Ovaj parametar pokazuje smanjenje preciznost topa u pokretu i okretanju trupa i kupole. Što je vrednost niža, manje je rasipanje nišana."
+
+msgid "extraParams/name/vehicleGunShotDispersionAfterShot"
+msgstr "Ovaj parametar pokazuje veličinu kruga nišana nakon pucanja."
+
+msgid "extraParams/name/vehicleGunShotDispersionChassisMovement"
+msgstr "Ovaj parametar pokazuje disperziju tokom kretanja. Što je manja vrednost, precizniji je top."
+
+msgid "extraParams/name/vehicleGunShotDispersionChassisRotation"
+msgstr "Ovaj parametar pokazuje disperziju tokom kretanja trupa. Što je manja vrednost, precizniji je top."
+
+msgid "extraParams/name/vehicleGunShotDispersionTurretRotation"
+msgstr "Ovaj parametar pokazuje disperziju tokom kretanja topa. Što je manja vrednost, precizniji je top."
+
+msgid "extraParams/name/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "Ovaj parametar pokazuje disperziju oštećenog topa. Što je vrednost veća, manja je disperzija."
+
+msgid "extraParams/name/vehicleHEShellDamageResistance"
+msgstr "Ovaj parametar pokazuje štetu primljenu od fugasnih granata. Što je više oklopa u oblasti udara, to je veći efekat."
+
+msgid "extraParams/name/vehicleInvisibilityAfterShot"
+msgstr "Ovaj parametar pokazuje prikrivenost nakon pucanja."
+
+msgid "extraParams/name/vehicleOwnSpottingTime"
+msgstr "Ovaj parametar pokazuje koliko je tvoje vozilo vidljivo nakon što napusti vidno polje neprijatelja. Podrazumevana vrednost je 10 s."
+
+msgid "extraParams/name/vehicleRamChassisDamageResistance"
+msgstr "Ovaj parametar pokazuje količinu štete uzrokovanu sudaranjem. Kada se vozilo sudari, sistem razmatra debljinu oklopa u tački udarca, razliku u težinama vozila i brzinama."
+
+msgid "extraParams/name/vehicleRamDamageResistance"
+msgstr "Ovaj parametar pokazuje količinu štete uzrokovanu sudaranjem. Kada se vozilo sudari, sistem razmatra debljinu oklopa u tački udarca, razliku u težinama vozila i brzinama."
+
+msgid "extraParams/name/vehicleReloadTimeAfterShellChange"
+msgstr "Ovaj parametar pokazuje brzinu prebacivanja između tipova granata u napunjenom topu."
+
+msgid "extraParams/name/vehicleRepairSpeed"
+msgstr "Ovaj parametar pokazuje brzinu opravki internih i eksternih modula iz \"crvenog\" u \"žuto\" stanje. Što je vrednost veća, brže su opravke."
+
+msgid "extraParams/name/vehicleSpeedGain"
+msgstr "Ovaj parametar pokazuje nosivost vešanja. Što je vrednost veća, manje vremena je potrebno za dostizanje linearne brzine."
+
+msgid "extraParams/name/wheelsRotationSpeed"
+msgstr "Ovaj parametar pokazuje brzinu promene smera vozila na točkovima."
+
+msgid "extraParams/name/woundedCrewEfficiency"
+msgstr "Ovaj parametar pokazuje smanjenje penala na glavne kvalifikacije za bilo kog člana posade kada je povređen (osim komandanta)."
+
+msgid "finalStatistic/commonStats/resultlabel/ended"
+msgstr "Bitka je gotova"
+
+msgid "finalStatistic/commonStats/resultlabel/lose"
+msgstr "Poraz"
+
+msgid "finalStatistic/commonStats/resultlabel/techWin"
+msgstr "Tehnička pobeda"
+
+msgid "finalStatistic/commonStats/resultlabel/tie"
+msgstr "Nerešeno"
+
+msgid "finalStatistic/commonStats/resultlabel/win"
+msgstr "Pobeda!"
+
+msgid "finalStatistic/tabs/commonStats"
+msgstr "Lični rezultat"
+
+msgid "finalStatistic/tabs/detailsStats"
+msgstr "Detaljan izveštaj"
+
+msgid "finalStatistic/tabs/epicStats"
+msgstr "Lični rezultat"
+
+msgid "finalStatistic/tabs/teamStats"
+msgstr "Timski rezultat"
+
+msgid "finalStatistic/window/title"
+msgstr "Borbeni rezultati"
+
+msgid "fittingListItemRenderer/replace"
+msgstr "Promena redosleda"
+
+msgid "fittingListItemRenderer/unload"
+msgstr "Pošalji na depo"
+
+msgid "fittingPopover/manageAbilities"
+msgstr "Upravljaj rezervama"
+
+msgid "fittingSelectPopover/descText"
+msgstr "Ova oprema je na raspolaganju za kupovinu za %(currencyName)s. Možeš da obaviš kupovinu na kartici \"poboljšanja\""
+
+msgid "fittingSelectPopover/descText/crystal"
+msgstr "obveznice"
+
+msgid "fortification/installName"
+msgstr "Uključeno"
+
+msgid "fortification/unloadName"
+msgstr "Isključeno"
+
+msgid "fortificationCtx/assignedPlayers"
+msgstr "Pridruženi Igrači"
+
+msgid "fortificationCtx/clanDescription/clanCrew"
+msgstr "Članovi klana"
+
+msgid "fortificationCtx/clanDescription/clanStatistics"
+msgstr "Statistika klana"
+
+msgid "fortificationCtx/clanDescription/openClanCard"
+msgstr "Otvori profil klana"
+
+msgid "fortificationCtx/prepareOrder"
+msgstr "Priprema Rezervi"
+
+msgid "hangar/ammunitionPanel/easyTankEquipBtn"
+msgstr "Brzi servis"
+
+msgid "hangar/ammunitionPanel/maitenanceBtn"
+msgstr "Popravke"
+
+msgid "hangar/ammunitionPanel/nationChangeBtn"
+msgstr "Promena nacije"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/checkboxAuto"
+msgstr "Dopuni automatski"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/label"
+msgstr "Municija"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/list/buy"
+msgstr "Kupovina"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/list/inventory"
+msgstr "U depou"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/list/price"
+msgstr "Cena"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/not_ready"
+msgstr "Za ulazak u borbu, dopuni municiju."
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/ammo"
+msgstr "Dopuni"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/apply"
+msgstr "Prihvati"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/close"
+msgstr "Zatvori"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/equipment"
+msgstr "Dopuni"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/labelTotal"
+msgstr "Ukupno:"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/repair"
+msgstr "Popravi"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/checkboxAuto"
+msgstr "Dopuni automatski"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/label"
+msgstr "Potrošna roba"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/list/buy"
+msgstr "Kupovina"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/list/inventory"
+msgstr "U depou"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/list/price"
+msgstr "Cena"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipmentDisabled"
+msgstr "Promena potrošnog materijala je nedostupna za ovo vozilo"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/repair/checkboxAuto"
+msgstr "Automatska popravka"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/repair/label"
+msgstr "Popravke"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/title"
+msgstr "Servisiranje"
+
+msgid "hangar/ammunitionPanel/tuningBtn"
+msgstr "Spoljašnost"
+
+msgid "hangar/crew/rody/dog/moreInfoLabel"
+msgstr "Detalji"
+
+msgid "hangar/crew/rody/dog/poland/name"
+msgstr "Szarik"
+
+msgid "hangar/crew/rody/dog/ussr/name"
+msgstr "Szarik"
+
+msgid "hangar/crew/tooltip/drop_skill"
+msgstr "Klik za brisanje veštine"
+
+msgid "hangar/crew/tooltip/new_skill"
+msgstr "Klik za izučavanje veštine"
+
+msgid "hangar/vehicle_locked"
+msgstr "Zaključano"
+
+msgid "hangar/xpToTmenCheckbox/tooltip"
+msgstr "Svo iskustvo stečeno ovim tenkom će biti potrošeno na trening posade. Član posade sa najmanje iskustva će biti treniran duplo brže."
+
+msgid "hangar_header/battle_quests_label/active"
+msgstr "%(total)s"
+
+msgid "hangar_header/battle_quests_label/inactive"
+msgstr "?empty?"
+
+msgid "hangar_header/mapbox_progression_label/active"
+msgstr "%(total)s"
+
+msgid "hangar_header/mapbox_progression_label/inactive"
+msgstr "?empty?"
+
+msgid "hangar_header/million"
+msgstr "%(value)s M"
+
+msgid "hangar_header/personal_quests_label/active"
+msgstr "%(current)s"
+
+msgid "hangar_header/personal_quests_label/all_done"
+msgstr "%(icon)s"
+
+msgid "hangar_header/personal_quests_label/empty"
+msgstr "- -"
+
+msgid "hangar_header/personal_quests_label/inactive"
+msgstr "?empty?"
+
+msgid "header/account/popover/achieves/battles"
+msgstr "Borbi"
+
+msgid "header/account/popover/achieves/rating"
+msgstr "Lični rejting"
+
+msgid "header/account/popover/achieves/wins"
+msgstr "Pobede"
+
+msgid "header/account/popover/boosters/blockTitle"
+msgstr "Lične rezerve"
+
+msgid "header/account/popover/clan/clanInvite"
+msgstr "Pozivi klana"
+
+msgid "header/account/popover/clan/enabled/btnLabel"
+msgstr "Profil klana"
+
+msgid "header/account/popover/clan/header"
+msgstr "Klan"
+
+msgid "header/account/popover/clan/not_enabled/btnLabel"
+msgstr "Statistika klana"
+
+msgid "header/account/popover/clan/position/commander"
+msgstr "Komandant jedinice"
+
+msgid "header/account/popover/clan/position/diplomat"
+msgstr "Obaveštajni oficir"
+
+msgid "header/account/popover/clan/position/junior"
+msgstr "Mlađi oficir"
+
+msgid "header/account/popover/clan/position/leader"
+msgstr "Komandir"
+
+msgid "header/account/popover/clan/position/private"
+msgstr "Redov"
+
+msgid "header/account/popover/clan/position/recruit"
+msgstr "Regrut"
+
+msgid "header/account/popover/clan/position/recruiter"
+msgstr "Oficir za regrutaciju"
+
+msgid "header/account/popover/clan/position/reservist"
+msgstr "Rezervista"
+
+msgid "header/account/popover/clan/position/staff"
+msgstr "Štabni oficir"
+
+msgid "header/account/popover/clan/position/treasurer"
+msgstr "Intendant"
+
+msgid "header/account/popover/clan/position/vice_leader"
+msgstr "Zamenik komandanta"
+
+msgid "header/account/popover/clan/searchClan1"
+msgstr "Potraži klan"
+
+msgid "header/account/popover/clan/searchClan2"
+msgstr "Pretraga klana"
+
+msgid "header/account/popover/crew/btnLabel"
+msgstr "Profil tima"
+
+msgid "header/account/popover/crew/header"
+msgstr "Tim"
+
+msgid "header/account/popover/crew/position/commander"
+msgstr "Komandant jedinice"
+
+msgid "header/account/popover/crew/position/diplomat"
+msgstr "Obaveštajni oficir"
+
+msgid "header/account/popover/crew/position/leader"
+msgstr "Komandir"
+
+msgid "header/account/popover/crew/position/private"
+msgstr "Redov"
+
+msgid "header/account/popover/crew/position/recruit"
+msgstr "Regrut"
+
+msgid "header/account/popover/crew/position/recruiter"
+msgstr "Oficir za regrutaciju"
+
+msgid "header/account/popover/crew/position/treasurer"
+msgstr "Intendant"
+
+msgid "header/account/popover/crew/position/vice_leader"
+msgstr "Zamenik komandanta"
+
+msgid "header/account/popover/crewButton/disabledTooltip"
+msgstr "Profil tima će biti dostupan nakom skidanja celog klijenta igre."
+
+msgid "header/account/popover/stats/fights"
+msgstr "Borbi"
+
+msgid "header/account/popover/stats/rating"
+msgstr "Lični rejting"
+
+msgid "header/account/popover/stats/ratio"
+msgstr "Pobede"
+
+msgid "header/account/popover/toAllProgress"
+msgstr "Dosije službe"
+
+msgid "header/account/popover/tutorial/newBadge"
+msgstr "DOSTUPNA MEDALJA"
+
+msgid "header/account/popover/tutorial/newSuffixBadge"
+msgstr "BANER JE DOSTUPAN"
+
+msgid "header/account/premium/days"
+msgstr "d"
+
+msgid "header/account/premium/hours"
+msgstr "h"
+
+msgid "header/customization/season/desert"
+msgstr "PUSTINJSKA"
+
+msgid "header/customization/season/summer"
+msgstr "LETNJA"
+
+msgid "header/customization/season/winter"
+msgstr "ZIMSKA"
+
+msgid "header/demonstration/btnLabel"
+msgstr "Podesi"
+
+msgid "header/demonstration/info"
+msgstr "Šabloni za nasumične borbe"
+
+msgid "header/level"
+msgstr "Nivo %(vTypeName)s"
+
+msgid "header/level/1"
+msgstr "I"
+
+msgid "header/level/10"
+msgstr "X"
+
+msgid "header/level/11"
+msgstr "XI"
+
+msgid "header/level/2"
+msgstr "II"
+
+msgid "header/level/3"
+msgstr "III"
+
+msgid "header/level/4"
+msgstr "IV"
+
+msgid "header/level/5"
+msgstr "V"
+
+msgid "header/level/6"
+msgstr "VI"
+
+msgid "header/level/7"
+msgstr "VII"
+
+msgid "header/level/8"
+msgstr "VIII"
+
+msgid "header/level/9"
+msgstr "IX"
+
+msgid "header/notificationSign"
+msgstr "!"
+
+msgid "header/serverInfo"
+msgstr "Server"
+
+msgid "header/vehicleType/AT-SPG"
+msgstr "Lovac tenkova"
+
+msgid "header/vehicleType/Alliance-France"
+msgstr "Francuska, Čehoslovačka, Švedska, Italija"
+
+msgid "header/vehicleType/Alliance-Germany"
+msgstr "Nemačka, Japan"
+
+msgid "header/vehicleType/Alliance-USA"
+msgstr "SAD, VB, Poljska"
+
+msgid "header/vehicleType/Alliance-USSR"
+msgstr "SSSR, Kina"
+
+msgid "header/vehicleType/SPG"
+msgstr "Artiljerija"
+
+msgid "header/vehicleType/elite/AT-SPG"
+msgstr "Elitni lovac tenkova"
+
+msgid "header/vehicleType/elite/SPG"
+msgstr "Elitna samohodna artiljerija"
+
+msgid "header/vehicleType/elite/heavyTank"
+msgstr "Elitni teški tenk"
+
+msgid "header/vehicleType/elite/lightTank"
+msgstr "Elitni laki tenk"
+
+msgid "header/vehicleType/elite/mediumTank"
+msgstr "Elitni srednji tenk"
+
+msgid "header/vehicleType/heavyTank"
+msgstr "Teški tenk"
+
+msgid "header/vehicleType/lightTank"
+msgstr "Laki tenk"
+
+msgid "header/vehicleType/mediumTank"
+msgstr "Srednji tenk"
+
+msgid "header/wotPlusExclusiveVehicleType/AT-SPG"
+msgstr "Lovac tenkova"
+
+msgid "header/wotPlusExclusiveVehicleType/Alliance-France"
+msgstr "Francuska, Čehoslovačka, Švedska, Italija"
+
+msgid "header/wotPlusExclusiveVehicleType/Alliance-Germany"
+msgstr "Nemačka, Japan"
+
+msgid "header/wotPlusExclusiveVehicleType/Alliance-USA"
+msgstr "SAD, VB, Poljska"
+
+msgid "header/wotPlusExclusiveVehicleType/Alliance-USSR"
+msgstr "SSSR, Kina"
+
+msgid "header/wotPlusExclusiveVehicleType/SPG"
+msgstr "Artiljerija"
+
+msgid "header/wotPlusExclusiveVehicleType/heavyTank"
+msgstr "Teški tenk"
+
+msgid "header/wotPlusExclusiveVehicleType/lightTank"
+msgstr "Laki tenk"
+
+msgid "header/wotPlusExclusiveVehicleType/mediumTank"
+msgstr "Srednji tenk"
+
+msgid "headerButtons/account/accountRefill"
+msgstr "Kupi zlato"
+
+msgid "headerButtons/account/expGathering"
+msgstr "Konvertovanje iskustva"
+
+msgid "headerButtons/account/goldExchange"
+msgstr "Razmeni zlato"
+
+msgid "headerButtons/account/premium"
+msgstr "Produži"
+
+msgid "headerButtons/barracks"
+msgstr "Barake"
+
+msgid "headerButtons/battle/availableSince"
+msgstr "Od %(datetime)s"
+
+msgid "headerButtons/battle/availableSinceSoon"
+msgstr "Dostupno za %(time)s"
+
+msgid "headerButtons/battle/availableUntil"
+msgstr "Do %(datetime)s"
+
+msgid "headerButtons/battle/availableUntilSoon"
+msgstr "Završno vreme %(time)s"
+
+msgid "headerButtons/battle/button/battle"
+msgstr "U borbu!"
+
+msgid "headerButtons/battle/menu/attention/lowPerformance"
+msgstr "Niske performanse"
+
+msgid "headerButtons/battle/menu/attention/reducedPerformance"
+msgstr "Niske performanse"
+
+msgid "headerButtons/battle/menu/battle_session"
+msgstr "Specijalna borba"
+
+msgid "headerButtons/battle/menu/epicBattle"
+msgstr "Linija fronta"
+
+msgid "headerButtons/battle/menu/event"
+msgstr "Konvoj"
+
+msgid "headerButtons/battle/menu/fallout"
+msgstr "Boj do poslednjeg"
+
+msgid "headerButtons/battle/menu/fallout/14"
+msgstr "Dominacija"
+
+msgid "headerButtons/battle/menu/fallout/15"
+msgstr "Čelični lov"
+
+msgid "headerButtons/battle/menu/historical"
+msgstr "Istorijska bitka"
+
+msgid "headerButtons/battle/menu/squad"
+msgstr "Vod"
+
+msgid "headerButtons/battle/menu/standart"
+msgstr "Slučajne borba"
+
+msgid "headerButtons/battle/menu/training"
+msgstr "Timski trening"
+
+msgid "headerButtons/battle/menu/unit"
+msgstr "Timska borba"
+
+msgid "headerButtons/battle/modeInfo"
+msgstr "{{mode}}"
+
+msgid "headerButtons/battle/types/battleRoyale"
+msgstr "Čelični lovac"
+
+msgid "headerButtons/battle/types/battleRoyale/extra/currentCycle"
+msgstr "Sezona %(season)s, epizoda %(cycle)s"
+
+msgid "headerButtons/battle/types/battleRoyale/extra/finished"
+msgstr "Sezona je završena"
+
+msgid "headerButtons/battle/types/battleRoyale/extra/frozen"
+msgstr "Režim je trenutno nedostupan"
+
+msgid "headerButtons/battle/types/battleRoyale/extra/startsAt"
+msgstr "%(time)s"
+
+msgid "headerButtons/battle/types/battleRoyaleSquad"
+msgstr "Vod Lovci"
+
+msgid "headerButtons/battle/types/battleRoyaleSquad/description"
+msgstr "Napravi vod za 2 igrača"
+
+msgid "headerButtons/battle/types/comp7LightSquad"
+msgstr "Kreiraj vod lakog Juriš"
+
+msgid "headerButtons/battle/types/comp7Squad"
+msgstr "Kreiraj Juriš vod"
+
+msgid "headerButtons/battle/types/epic"
+msgstr "\"Linija fronta\""
+
+msgid "headerButtons/battle/types/epic/descr"
+msgstr "Režim sa automatskim uparivanjem saveznika i neprijatelja."
+
+msgid "headerButtons/battle/types/epic/extra/frozen"
+msgstr "Režim je nedostupan"
+
+msgid "headerButtons/battle/types/epic/extra/startsAt"
+msgstr "Od %(time)s"
+
+msgid "headerButtons/battle/types/epicBattle"
+msgstr "Lobi \"Linije fronta\""
+
+msgid "headerButtons/battle/types/epicBattle/descr"
+msgstr "Uđi u lobi \"Linije fronta\""
+
+msgid "headerButtons/battle/types/epicTraining"
+msgstr "Timski trening"
+
+msgid "headerButtons/battle/types/epicTraining/descr"
+msgstr "Linija fronta"
+
+msgid "headerButtons/battle/types/event"
+msgstr "Borba događaja"
+
+msgid "headerButtons/battle/types/eventSquad"
+msgstr "Vod događaja"
+
+msgid "headerButtons/battle/types/fallout"
+msgstr "Boj do poslednjeg"
+
+msgid "headerButtons/battle/types/fort"
+msgstr "Utvrđenje: borbe"
+
+msgid "headerButtons/battle/types/fortLeave"
+msgstr "Utvrđenje: borbe"
+
+msgid "headerButtons/battle/types/historicalBattles"
+msgstr "Istorijska bitka"
+
+msgid "headerButtons/battle/types/historicalBattles/descr"
+msgstr "Rekonstrukcija značajnih tenkovskih bitaka."
+
+msgid "headerButtons/battle/types/historicalBattlesLeave"
+msgstr "Istorijska bitka"
+
+msgid "headerButtons/battle/types/historicalBattlesLeave/descr"
+msgstr "Kliknite za izlazak iz režima."
+
+msgid "headerButtons/battle/types/leaveFort/descr"
+msgstr "Kliknite za izlazak iz režima."
+
+msgid "headerButtons/battle/types/leaveSpec/descr"
+msgstr "Kliknite za izlazak iz režima."
+
+msgid "headerButtons/battle/types/leaveTraining/descr"
+msgstr "Kliknite za izlazak iz režima."
+
+msgid "headerButtons/battle/types/leaveUnit/descr"
+msgstr "Kliknite za izlazak iz režima."
+
+msgid "headerButtons/battle/types/mapbox"
+msgstr "Izviđačka misija"
+
+msgid "headerButtons/battle/types/mapbox/availability/days"
+msgstr "%(day)s d"
+
+msgid "headerButtons/battle/types/mapbox/availability/hours"
+msgstr "%(hour)s h"
+
+msgid "headerButtons/battle/types/mapbox/availability/lessThanHour"
+msgstr "manje od 1 h"
+
+msgid "headerButtons/battle/types/mapbox/extra/endsIn"
+msgstr "Događaj se završava za %(timeLeft)s"
+
+msgid "headerButtons/battle/types/mapbox/extra/finished"
+msgstr "Događaj je završen"
+
+msgid "headerButtons/battle/types/mapbox/extra/frozen"
+msgstr "Režim je trenutno nedostupan"
+
+msgid "headerButtons/battle/types/mapbox/extra/startsAt"
+msgstr "Od %(time)s"
+
+msgid "headerButtons/battle/types/mapboxSquad"
+msgstr "Napravi vod"
+
+msgid "headerButtons/battle/types/mapsTraining"
+msgstr "Topografija"
+
+msgid "headerButtons/battle/types/ranked"
+msgstr "Rangirana Borba"
+
+msgid "headerButtons/battle/types/ranked/availability"
+msgstr "Dostupnost režima: "
+
+msgid "headerButtons/battle/types/ranked/availability/days"
+msgstr "%(day)s d"
+
+msgid "headerButtons/battle/types/ranked/availability/ended"
+msgstr "Kraj sezone"
+
+msgid "headerButtons/battle/types/ranked/availability/frozen"
+msgstr "Režim je trenutno nedostupan"
+
+msgid "headerButtons/battle/types/ranked/availability/hours"
+msgstr "%(hour)s h"
+
+msgid "headerButtons/battle/types/ranked/availability/lessMin"
+msgstr "manje od minuta"
+
+msgid "headerButtons/battle/types/ranked/availability/min"
+msgstr "%(min)s min"
+
+msgid "headerButtons/battle/types/ranked/availability/notSet"
+msgstr "Borbe su nedostupne"
+
+msgid "headerButtons/battle/types/ranked/availability/season"
+msgstr "Sezona %(season)s"
+
+msgid "headerButtons/battle/types/ranked/availability/until"
+msgstr "Od %(date)s %(time)s."
+
+msgid "headerButtons/battle/types/ranked/availability/yearEnded"
+msgstr "Kraj sezone"
+
+msgid "headerButtons/battle/types/ranked/descr"
+msgstr "Borbe za napredovanje uz tabelu gde dobijaš rangove i nagrade.\n• Tip borbe: Standardne borbe.\n• Pogodna vozila: X nivo isključivo (izučiva i kolekcionarska vozila)."
+
+msgid "headerButtons/battle/types/rankedLeave/descr"
+msgstr "Napusti bitku"
+
+msgid "headerButtons/battle/types/rts"
+msgstr "Umetnost Strategije"
+
+msgid "headerButtons/battle/types/rts/availability/afterCycle"
+msgstr "Događaj je završen"
+
+msgid "headerButtons/battle/types/rts/availability/beforeCycle"
+msgstr "Od %(rightCycleDate)s %(rightCycleTime)s"
+
+msgid "headerButtons/battle/types/rts/availability/betweenCycles"
+msgstr "Od %(rightCycleDate)s %(rightCycleTime)s"
+
+msgid "headerButtons/battle/types/rts/availability/default"
+msgstr "Događaj dostupan"
+
+msgid "headerButtons/battle/types/rts/availability/frozen"
+msgstr "Događaj nedostupan"
+
+msgid "headerButtons/battle/types/simpleSquad"
+msgstr "Vod"
+
+msgid "headerButtons/battle/types/spec"
+msgstr "Specijalna borba"
+
+msgid "headerButtons/battle/types/spec/descr"
+msgstr "Učestvovanje u šampionatima, takmičenjima i klanskim ratovima."
+
+msgid "headerButtons/battle/types/specLeave"
+msgstr "Specijalna borba"
+
+msgid "headerButtons/battle/types/squad"
+msgstr "Vod"
+
+msgid "headerButtons/battle/types/squad/description"
+msgstr "Igranje u vodu sa 3 igrača"
+
+msgid "headerButtons/battle/types/standart"
+msgstr "Slučajne borba"
+
+msgid "headerButtons/battle/types/standart/descr"
+msgstr "Borba sa automatskim biranjem protivnika i saboraca."
+
+msgid "headerButtons/battle/types/standartLeave/descr"
+msgstr "Napusti bitku"
+
+msgid "headerButtons/battle/types/strongholds"
+msgstr "Utvrđenje: borbe"
+
+msgid "headerButtons/battle/types/training"
+msgstr "Timski trening"
+
+msgid "headerButtons/battle/types/training/descr"
+msgstr "Trening bitka sa ručnim podešavanjem saboraca i neprijatelja."
+
+msgid "headerButtons/battle/types/trainingLeave"
+msgstr "Timski trening"
+
+msgid "headerButtons/battle/types/trainingLeaveOwner"
+msgstr "Timski trening"
+
+msgid "headerButtons/battle/types/unit"
+msgstr "Timska borba"
+
+msgid "headerButtons/battle/types/unit/descr"
+msgstr "Borba između sličnih timova."
+
+msgid "headerButtons/battle/types/unitLeave"
+msgstr "Timska borba"
+
+msgid "headerButtons/battle/types/winback"
+msgstr "Nasumične borbe: Zagrevanje"
+
+msgid "headerButtons/battle/vehicleInfo"
+msgstr "Uži u {{mode}} u {{level}}{{type}}{{name}}"
+
+msgid "headerButtons/browser"
+msgstr "Pretraživač"
+
+msgid "headerButtons/btnLabel/credits"
+msgstr "Razmena"
+
+msgid "headerButtons/btnLabel/crystal"
+msgstr "Zaradi"
+
+msgid "headerButtons/btnLabel/freeXP"
+msgstr "Konvertovanje"
+
+msgid "headerButtons/btnLabel/gold"
+msgstr "Kupi"
+
+msgid "headerButtons/btnLabel/premShop"
+msgstr "Premijum prodavnica"
+
+msgid "headerButtons/btnLabel/premium"
+msgstr "Premijum"
+
+msgid "headerButtons/clan"
+msgstr "Klan"
+
+msgid "headerButtons/clans"
+msgstr "Klanovi"
+
+msgid "headerButtons/defaultCounter"
+msgstr "!"
+
+msgid "headerButtons/fightBtn/tooltip/battleRoyaleDisabled/body"
+msgstr "Primirje je aktivno na ovom serveru."
+
+msgid "headerButtons/fightBtn/tooltip/battleRoyaleDisabled/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/comp7BanIsSet/body"
+msgstr "Privremeno si blokiran na ovom režimu."
+
+msgid "headerButtons/fightBtn/tooltip/comp7BanIsSet/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/comp7BattleOnly/body"
+msgstr "Vozilo koje si izabrao se može samo koristiti u Jurišu."
+
+msgid "headerButtons/fightBtn/tooltip/comp7BattleOnly/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Disabled/body"
+msgstr "Borbe su nedostupne dok je primirje u toku"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Disabled/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightDisabled/body"
+msgstr "Primirje je aktivno na ovom serveru. Molim izaberi drugi server."
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightDisabled/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightNotSet/body"
+msgstr "Ovaj režim je nedostupan na izabranom serveru"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightNotSet/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightVehLevel/body"
+msgstr "Nema pogodnih vozila %(levels)s nivoa u garaži"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightVehLevel/delimiter"
+msgstr ", "
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightVehLevel/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/comp7NotEnoughSuitableVehicles/body"
+msgstr "Moraš da imaš najmanje %(minVehiclesRequired)s pogodna vozila za režim. Pogledaj stranicu O Jurišu za detalje."
+
+msgid "headerButtons/fightBtn/tooltip/comp7NotEnoughSuitableVehicles/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/comp7NotSet/body"
+msgstr "Ovaj režim nije dostupan na odabranom serveru, ali možeš da ga igraš na drugom."
+
+msgid "headerButtons/fightBtn/tooltip/comp7NotSet/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Offline/body"
+msgstr "Ovaj režim je nedostupan zbog greške baze podataka."
+
+msgid "headerButtons/fightBtn/tooltip/comp7Offline/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Preannounce/body"
+msgstr "Sezona nije počela"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Preannounce/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/comp7QualificationCalculation/body"
+msgstr "Može potrajati do pet minuta izračunavanje tvog rejtinga zasnovanog na kvalifikacionim rezultatima. Nakon toga dobićeš rang i možeš da nastaviš sa igranjem režima Juriš."
+
+msgid "headerButtons/fightBtn/tooltip/comp7QualificationCalculation/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/comp7SeasonEnd/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/comp7UnsuitableVehicle/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/comp7VehLevel/body"
+msgstr "Nema pogodnih vozila %(levels)s nivoa u garaži"
+
+msgid "headerButtons/fightBtn/tooltip/comp7VehLevel/delimiter"
+msgstr ", "
+
+msgid "headerButtons/fightBtn/tooltip/comp7VehLevel/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/crewNotFull/body"
+msgstr "Odsutni: <b>%(crewList)s</b>."
+
+msgid "headerButtons/fightBtn/tooltip/crewNotFull/header"
+msgstr "Posada je nepotpuna"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleSituationalVehicle/body"
+msgstr "Treba ti %(forStartBattle)s da uđeš u borbu.\n%(willBeUnlocked)s vozila će biti otključana za borbu nakon zauzimanja / gubitka tačke sa druge linije (D,E ili F)."
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleSituationalVehicle/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleSituationalVehicle/levels/forStartBattle"
+msgstr "Vozila nivoa %(levels)s"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleSituationalVehicle/levels/willBeUnlocked"
+msgstr "Nivo %(levels)s"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleVehLevel/body"
+msgstr "Treba ti %(requirements)s da bi ušao u borbu."
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleVehLevel/header"
+msgstr "Nekompatibilno vozilo"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleVehLevel/requirements"
+msgstr "Vozilo %(level)s nivoa"
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotEnoughPlayer/body"
+msgstr "Da bi ušao u borbu, komandir i još najmanje jedan član voda moraju da potvrde da su spremni."
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotEnoughPlayer/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotReady/body"
+msgstr "Izaberi vozila: možeš se priključiti borbi samo sa kompletnom grupom."
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotReady/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotSelected/body"
+msgstr "Za borbu u režimu \"Boj do poslednjeg\", izaberi tip vozila."
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotSelected/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/falloutOnly/body"
+msgstr "Izabrano vozilo je pogodno za režim \"Boj do poslednjeg\"."
+
+msgid "headerButtons/fightBtn/tooltip/falloutOnly/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/falloutVehLevelRequired/body"
+msgstr "Izaberi vozilo %(level)s nivoa"
+
+msgid "headerButtons/fightBtn/tooltip/falloutVehLevelRequired/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/falloutVehMin/body"
+msgstr "Izaberi vozilo %(level)s nivoa"
+
+msgid "headerButtons/fightBtn/tooltip/falloutVehMin/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/inPremiumIgrOnly/body"
+msgstr "Izaberi drugo vozilo."
+
+msgid "headerButtons/fightBtn/tooltip/inPremiumIgrOnly/header"
+msgstr "Vozilo je samo za %(icon)s"
+
+msgid "headerButtons/fightBtn/tooltip/noVehicle/body"
+msgstr "Kupi vozilo koje odgovara zahtevima."
+
+msgid "headerButtons/fightBtn/tooltip/noVehicle/header"
+msgstr "Nema vozila u garaži"
+
+msgid "headerButtons/fightBtn/tooltip/notSupported/body"
+msgstr "Promeni režim ili izaberi vozilo koje odgovara uslovima."
+
+msgid "headerButtons/fightBtn/tooltip/notSupported/header"
+msgstr "Vozilo nije odgovarajuće za režim"
+
+msgid "headerButtons/fightBtn/tooltip/rankedDisabled/body"
+msgstr "Policijski čas je u toku na ovom serveru."
+
+msgid "headerButtons/fightBtn/tooltip/rankedDisabled/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/rankedNotSet/body"
+msgstr "Ovaj režim je nedostupan na izabranom serveru."
+
+msgid "headerButtons/fightBtn/tooltip/rankedNotSet/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehClass/body"
+msgstr "%(forbiddenClass)s ne može da se bori u rangiranim borbama."
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehClass/header"
+msgstr "Nekompatibilian tip vozila"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehLevel/body"
+msgstr "Da bi ušao u borbu treba ti %(levelSubStr)s."
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehLevel/header"
+msgstr "Nekompatibilian nivo vozila"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehLevel/levelSubStr"
+msgstr "vozilo %(levels)s nivoa"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehType/body"
+msgstr "%(forbiddenType)s ne može da se bori u rangiranim borbama."
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehType/header"
+msgstr "Nekompatibilno vozilo"
+
+msgid "headerButtons/fightBtn/tooltip/rentalIsOver/body"
+msgstr "Izaberi drugo vozilo."
+
+msgid "headerButtons/fightBtn/tooltip/rentalIsOver/header"
+msgstr "Period iznajmljivanja je gotov"
+
+msgid "headerButtons/fightBtn/tooltip/telecomRentalIsOver/body"
+msgstr "Izaberi drugo vozilo."
+
+msgid "headerButtons/fightBtn/tooltip/telecomRentalIsOver/header"
+msgstr "Vozilo nedostupno"
+
+msgid "headerButtons/fightBtn/tooltip/unsutableToBattleRoyale/body"
+msgstr "U borbu možeš da uđeš samo u specijalnim vozilima za režim Čelični lovac."
+
+msgid "headerButtons/fightBtn/tooltip/unsutableToBattleRoyale/header"
+msgstr "Nekompatibilno vozilo"
+
+msgid "headerButtons/fightBtn/tooltip/vehicleIsBroken/body"
+msgstr "Popravi svoje vozilo."
+
+msgid "headerButtons/fightBtn/tooltip/vehicleIsBroken/header"
+msgstr "Vozilo je oštećeno"
+
+msgid "headerButtons/fightBtn/tooltip/wotPlusExclusiveUnavailable/body"
+msgstr "Izaberi drugo vozilo."
+
+msgid "headerButtons/fightBtn/tooltip/wotPlusExclusiveUnavailable/header"
+msgstr "Ekskluzivno vozilo je nedostupno"
+
+msgid "headerButtons/hangar"
+msgstr "Garaža"
+
+msgid "headerButtons/menu"
+msgstr "Meni"
+
+msgid "headerButtons/missions"
+msgstr "Misije"
+
+msgid "headerButtons/modeSelector"
+msgstr "Borbeni režimi"
+
+msgid "headerButtons/navigation/back"
+msgstr "Nazad"
+
+msgid "headerButtons/notReady"
+msgstr "Nije spreman"
+
+msgid "headerButtons/personalMissions"
+msgstr "Kampanje"
+
+msgid "headerButtons/profile"
+msgstr "Dosije službe"
+
+msgid "headerButtons/rating"
+msgstr "Rejting"
+
+msgid "headerButtons/ready"
+msgstr "Spreman"
+
+msgid "headerButtons/shop"
+msgstr "Prodavnica"
+
+msgid "headerButtons/storage"
+msgstr "Depo"
+
+msgid "headerButtons/techtree"
+msgstr "Tehnološko stablo"
+
+msgid "headerButtons/tournament"
+msgstr "Turniri"
+
+msgid "headerButtons/wiki"
+msgstr "Centar za obuku"
+
+msgid "igr/info"
+msgstr "You are playing at %(igrIcon)s."
+
+msgid "infinitySymbol"
+msgstr "∞"
+
+msgid "ingame_menu/buttons/back"
+msgstr "Povratak u borbu"
+
+msgid "ingame_menu/buttons/help"
+msgstr "Pomoć"
+
+msgid "ingame_menu/buttons/logoff"
+msgstr "Povratak u garažu"
+
+msgid "ingame_menu/buttons/replayExit"
+msgstr "Izađi"
+
+msgid "ingame_menu/buttons/settings"
+msgstr "Podešavanja"
+
+msgid "ingame_menu/links/report_bug"
+msgstr "Prijavi grešku"
+
+msgid "ingame_menu/serverStats/server"
+msgstr "Server:"
+
+msgid "ingame_menu/title"
+msgstr "MENI"
+
+msgid "internet_provider/BeelineKZ/name"
+msgstr "Beeline Казахстан"
+
+msgid "internet_provider/BeelineKZ/tariff"
+msgstr "Игровой"
+
+msgid "internet_provider/Kazakhtelecom/name"
+msgstr "Казахтелеком"
+
+msgid "internet_provider/Kazakhtelecom/tariff"
+msgstr "Игровой"
+
+msgid "internet_provider/LocalPartner2/name"
+msgstr "LocalPartner2"
+
+msgid "internet_provider/LocalPartner2/tariff"
+msgstr "Igrovoy"
+
+msgid "internet_provider/LocalPartner3/name"
+msgstr "LocalPartner3"
+
+msgid "internet_provider/LocalPartner3/tariff"
+msgstr "Igrovoy"
+
+msgid "internet_provider/LocalPartner4/name"
+msgstr "LocalPartner4"
+
+msgid "internet_provider/LocalPartner4/tariff"
+msgstr "Igrovoy"
+
+msgid "inventory/device/errors/not_removable"
+msgstr " "
+
+msgid "inventory/device/errors/reserved"
+msgstr " "
+
+msgid "inventory/errors/reserved"
+msgstr " "
+
+msgid "inventory/header/equipment/myVehicle"
+msgstr "Potrošni materijal za %(vehicle)s:"
+
+msgid "inventory/header/equipment/myVehicles"
+msgstr "Potrošni materijal za moja vozila%(nation)s:"
+
+msgid "inventory/header/equipment/otherVehicles"
+msgstr "Potrošni materijal, nekompaibilan%(nation)s:"
+
+msgid "inventory/header/module/myVehicle"
+msgstr "%(type)s za %(vehicle)s:"
+
+msgid "inventory/header/module/myVehicles"
+msgstr "%(type)s za moja vozila%(nation)s:"
+
+msgid "inventory/header/module/otherVehicles"
+msgstr "%(type)s, nekompatibilne%(nation)s:"
+
+msgid "inventory/header/optionalDevice/myVehicle"
+msgstr "Oprema za %(vehicle)s:"
+
+msgid "inventory/header/optionalDevice/myVehicles"
+msgstr "Oprema za moja vozila%(nation)s:"
+
+msgid "inventory/header/optionalDevice/otherVehicles"
+msgstr "Oprema, nekompatibilna%(nation)s:"
+
+msgid "inventory/header/shell/myInventoryGuns"
+msgstr "Granate za moje topove u depou%(nation)s:"
+
+msgid "inventory/header/shell/myVehicleGun"
+msgstr "Granate za trenutni top na %(vehicle)s:"
+
+msgid "inventory/header/shell/myVehiclesInventoryGuns"
+msgstr "Granate za moje topove%(nation)s:"
+
+msgid "inventory/header/shell/otherGuns"
+msgstr "Granate neodgovarajuće za moje topove%(nation)s:"
+
+msgid "inventory/header/vehicle"
+msgstr "Svi moji %(type)s%(nation)s:"
+
+msgid "inventory/menu/battleBooster/name"
+msgstr "Direktive"
+
+msgid "inventory/menu/battleBooster/targetType/allKind/name"
+msgstr "Sve"
+
+msgid "inventory/menu/battleBooster/targetType/forCrew/name"
+msgstr "Za posadu"
+
+msgid "inventory/menu/battleBooster/targetType/forEquipment/name"
+msgstr "Za opremu"
+
+msgid "inventory/menu/equipment/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "inventory/menu/equipment/fits/myVehicles/name"
+msgstr "Moja vozila"
+
+msgid "inventory/menu/equipment/fits/name"
+msgstr "Kompatibilno sa"
+
+msgid "inventory/menu/equipment/fits/otherVehicles/name"
+msgstr "Neodgovara mojim vozilima"
+
+msgid "inventory/menu/equipment/name"
+msgstr "Potrošna roba"
+
+msgid "inventory/menu/module/extra/name"
+msgstr "Prikaži"
+
+msgid "inventory/menu/module/extra/onVehicle/name"
+msgstr "Na vozilima"
+
+msgid "inventory/menu/module/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "inventory/menu/module/fits/myVehicles/name"
+msgstr "Moja vozila"
+
+msgid "inventory/menu/module/fits/name"
+msgstr "Kompatibilno sa:"
+
+msgid "inventory/menu/module/fits/otherVehicles/name"
+msgstr "Neodgovara mojim vozilima"
+
+msgid "inventory/menu/module/name"
+msgstr "Moduli"
+
+msgid "inventory/menu/module/types/name"
+msgstr "Tipovi modula:"
+
+msgid "inventory/menu/module/types/vehicleChassis/name"
+msgstr "Vešanje"
+
+msgid "inventory/menu/module/types/vehicleEngine/name"
+msgstr "Motor"
+
+msgid "inventory/menu/module/types/vehicleGun/name"
+msgstr "Top"
+
+msgid "inventory/menu/module/types/vehicleRadio/name"
+msgstr "Radio"
+
+msgid "inventory/menu/module/types/vehicleTurret/name"
+msgstr "Kupola"
+
+msgid "inventory/menu/optionalDevice/extra/name"
+msgstr "Prikaži"
+
+msgid "inventory/menu/optionalDevice/extra/onVehicle/name"
+msgstr "Na vozilima"
+
+msgid "inventory/menu/optionalDevice/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "inventory/menu/optionalDevice/fits/myVehicles/name"
+msgstr "Moja vozila"
+
+msgid "inventory/menu/optionalDevice/fits/name"
+msgstr "Kompatibilno sa"
+
+msgid "inventory/menu/optionalDevice/fits/otherVehicles/name"
+msgstr "Neodgovara mojim vozilima"
+
+msgid "inventory/menu/optionalDevice/name"
+msgstr "Oprema"
+
+msgid "inventory/menu/shell/fits/myInventoryGuns/name"
+msgstr "Topovi u deopu"
+
+msgid "inventory/menu/shell/fits/myVehicleGun/name"
+msgstr "Trenutni top na"
+
+msgid "inventory/menu/shell/fits/myVehiclesInventoryGuns/name"
+msgstr "Svi moji topovi"
+
+msgid "inventory/menu/shell/fits/name"
+msgstr "Kompatibilno sa"
+
+msgid "inventory/menu/shell/fits/otherGuns/name"
+msgstr "Neodgovara mojim topovima"
+
+msgid "inventory/menu/shell/kinds/ARMOR_PIERCING/name"
+msgstr "Pancirna"
+
+msgid "inventory/menu/shell/kinds/ARMOR_PIERCING_CR/name"
+msgstr "Podkalibarska"
+
+msgid "inventory/menu/shell/kinds/ARMOR_PIERCING_HE/name"
+msgstr "Pancirno eksplozivna"
+
+msgid "inventory/menu/shell/kinds/HIGH_EXPLOSIVE/name"
+msgstr "Fugasna"
+
+msgid "inventory/menu/shell/kinds/HOLLOW_CHARGE/name"
+msgstr "Kumulativna"
+
+msgid "inventory/menu/shell/kinds/name"
+msgstr "Vrste granata"
+
+msgid "inventory/menu/shell/name"
+msgstr "Granate"
+
+msgid "inventory/menu/vehicle/extra/brocken/name"
+msgstr "Oštećena vozila"
+
+msgid "inventory/menu/vehicle/extra/locked/name"
+msgstr "Vozila u akciji"
+
+msgid "inventory/menu/vehicle/extra/name"
+msgstr "Prikaži"
+
+msgid "inventory/menu/vehicle/extra/premiumIGR/name"
+msgstr "Vozila %(icon)s"
+
+msgid "inventory/menu/vehicle/extra/rentals/name"
+msgstr "Iznajmljena vozila"
+
+msgid "inventory/menu/vehicle/name"
+msgstr "Vozila"
+
+msgid "inventory/menu/vehicle/tags/all/name"
+msgstr "Svi tipovi"
+
+msgid "inventory/menu/vehicle/tags/at-spg/name"
+msgstr "Lovci tenkova"
+
+msgid "inventory/menu/vehicle/tags/heavyTank/name"
+msgstr "Teški tenkovi"
+
+msgid "inventory/menu/vehicle/tags/lightTank/name"
+msgstr "Laki tenkovi"
+
+msgid "inventory/menu/vehicle/tags/mediumTank/name"
+msgstr "Srednji tenkovi"
+
+msgid "inventory/menu/vehicle/tags/name"
+msgstr "Tip vozila"
+
+msgid "inventory/menu/vehicle/tags/spg/name"
+msgstr "Artiljerija"
+
+msgid "inventory/table/buttonSell"
+msgstr "Prodaj"
+
+msgid "inventory/table/header/count"
+msgstr "Broj"
+
+msgid "inventory/table/header/price"
+msgstr "Cena"
+
+msgid "legal"
+msgstr "Pravne informacije"
+
+msgid "legalInfo/closeBtn"
+msgstr "Zatvori"
+
+msgid "levels/1"
+msgstr "Nivo I"
+
+msgid "levels/10"
+msgstr "Nivo X"
+
+msgid "levels/11"
+msgstr "Nivo XI"
+
+msgid "levels/2"
+msgstr "Nivo II"
+
+msgid "levels/3"
+msgstr "Nivo III"
+
+msgid "levels/4"
+msgstr "Nivo IV"
+
+msgid "levels/5"
+msgstr "Nivo V"
+
+msgid "levels/6"
+msgstr "Nivo VI"
+
+msgid "levels/7"
+msgstr "Nivo VII"
+
+msgid "levels/8"
+msgstr "Nivo VIII"
+
+msgid "levels/9"
+msgstr "Nivo IX"
+
+msgid "levels/all"
+msgstr "Svi nivoi"
+
+msgid "levels/roman/1"
+msgstr "Nivo I"
+
+msgid "levels/roman/10"
+msgstr "Nivo X"
+
+msgid "levels/roman/11"
+msgstr "Nivo XI"
+
+msgid "levels/roman/2"
+msgstr "Nivo II"
+
+msgid "levels/roman/3"
+msgstr "Nivo III"
+
+msgid "levels/roman/4"
+msgstr "Nivo IV"
+
+msgid "levels/roman/5"
+msgstr "Nivo V"
+
+msgid "levels/roman/6"
+msgstr "Nivo VI"
+
+msgid "levels/roman/7"
+msgstr "Nivo VII"
+
+msgid "levels/roman/8"
+msgstr "Nivo VIII"
+
+msgid "levels/roman/9"
+msgstr "Nivo IX"
+
+msgid "loading/battleTypes/0"
+msgstr "Specijalna borba"
+
+msgid "loading/battleTypes/1"
+msgstr "Slučajne borba"
+
+msgid "loading/battleTypes/10"
+msgstr "Timska BorbaČ Rangirana"
+
+msgid "loading/battleTypes/11"
+msgstr "Borbeni poligon"
+
+msgid "loading/battleTypes/12"
+msgstr "Borbeni poligon"
+
+msgid "loading/battleTypes/13"
+msgstr "Dominacija"
+
+msgid "loading/battleTypes/14"
+msgstr "Čelični lov"
+
+msgid "loading/battleTypes/15"
+msgstr "Čarke"
+
+msgid "loading/battleTypes/16"
+msgstr "Napad"
+
+msgid "loading/battleTypes/17"
+msgstr "Rangirana Borba"
+
+msgid "loading/battleTypes/19"
+msgstr "Slučajne borba"
+
+msgid "loading/battleTypes/2"
+msgstr "Timski trening"
+
+msgid "loading/battleTypes/20"
+msgstr "Timski trening"
+
+msgid "loading/battleTypes/21"
+msgstr "\"Linija fronta\""
+
+msgid "loading/battleTypes/22"
+msgstr "\"Linija fronta\""
+
+msgid "loading/battleTypes/23"
+msgstr "Čelični lovac"
+
+msgid "loading/battleTypes/24"
+msgstr "Izviđačka misija"
+
+msgid "loading/battleTypes/25"
+msgstr "Trening mape"
+
+msgid "loading/battleTypes/26"
+msgstr "Umetnost Strategije"
+
+msgid "loading/battleTypes/28"
+msgstr "Trening Stratega"
+
+msgid "loading/battleTypes/29"
+msgstr "%(modeName)s"
+
+msgid "loading/battleTypes/30"
+msgstr "Juriš"
+
+msgid "loading/battleTypes/31"
+msgstr "Zagrevanje"
+
+msgid "loading/battleTypes/33"
+msgstr "Juriš"
+
+msgid "loading/battleTypes/34"
+msgstr "Trening Juriša"
+
+msgid "loading/battleTypes/35"
+msgstr "Laki Juriš"
+
+msgid "loading/battleTypes/4"
+msgstr "Borbena obuka"
+
+msgid "loading/battleTypes/5"
+msgstr "Timska borba"
+
+msgid "loading/battleTypes/6"
+msgstr "Istorijska bitka"
+
+msgid "loading/battleTypes/7"
+msgstr "WAFFENTRÄGER: PROJEKAT HIPERION"
+
+msgid "loading/battleTypes/8"
+msgstr "Čarke"
+
+msgid "loading/battleTypes/9"
+msgstr "Borba protiv klana"
+
+msgid "loading/battleTypes/desc/0"
+msgstr " "
+
+msgid "loading/battleTypes/desc/1"
+msgstr " "
+
+msgid "loading/battleTypes/desc/10"
+msgstr " "
+
+msgid "loading/battleTypes/desc/11"
+msgstr " "
+
+msgid "loading/battleTypes/desc/12"
+msgstr " "
+
+msgid "loading/battleTypes/desc/13"
+msgstr " "
+
+msgid "loading/battleTypes/desc/14"
+msgstr " "
+
+msgid "loading/battleTypes/desc/15"
+msgstr "Misija: osvoji neprijateljsku bazu ili uništi sva neprijateljska vozila."
+
+msgid "loading/battleTypes/desc/16"
+msgstr "Misija: osvoji neprijateljsku bazu ili uništi sva neprijateljska vozila."
+
+msgid "loading/battleTypes/desc/17"
+msgstr " "
+
+msgid "loading/battleTypes/desc/19"
+msgstr " "
+
+msgid "loading/battleTypes/desc/2"
+msgstr "Izoštrite svoje veštine sa svojim\nprijateljima. Iskustveni poeni se\nne zarađuje u ovim bitkama."
+
+msgid "loading/battleTypes/desc/20"
+msgstr " "
+
+msgid "loading/battleTypes/desc/21"
+msgstr " "
+
+msgid "loading/battleTypes/desc/22"
+msgstr " "
+
+msgid "loading/battleTypes/desc/23"
+msgstr " "
+
+msgid "loading/battleTypes/desc/24"
+msgstr " "
+
+msgid "loading/battleTypes/desc/25"
+msgstr " "
+
+msgid "loading/battleTypes/desc/26"
+msgstr " "
+
+msgid "loading/battleTypes/desc/28"
+msgstr " "
+
+msgid "loading/battleTypes/desc/29"
+msgstr " "
+
+msgid "loading/battleTypes/desc/30"
+msgstr " "
+
+msgid "loading/battleTypes/desc/31"
+msgstr " "
+
+msgid "loading/battleTypes/desc/33"
+msgstr " "
+
+msgid "loading/battleTypes/desc/34"
+msgstr " "
+
+msgid "loading/battleTypes/desc/35"
+msgstr " "
+
+msgid "loading/battleTypes/desc/4"
+msgstr " "
+
+msgid "loading/battleTypes/desc/5"
+msgstr " "
+
+msgid "loading/battleTypes/desc/6"
+msgstr " "
+
+msgid "loading/battleTypes/desc/7"
+msgstr "?empty?"
+
+msgid "loading/battleTypes/desc/8"
+msgstr " "
+
+msgid "loading/battleTypes/desc/9"
+msgstr " "
+
+msgid "loading/battleTypes/subTitle/23"
+msgstr "Trolisni sukob"
+
+msgid "loading/helpTip"
+msgstr "Za pomoć pritisnite F1."
+
+msgid "loading/team1"
+msgstr "Saveznici"
+
+msgid "loading/team2"
+msgstr "Neprijatelj"
+
+msgid "loading/teams/allies"
+msgstr "Saveznici"
+
+msgid "loading/teams/enemies"
+msgstr "Neprijatelj"
+
+msgid "lobby_menu/buttons/back"
+msgstr "Povratak u igru"
+
+msgid "lobby_menu/buttons/exit"
+msgstr "Napusti igru"
+
+msgid "lobby_menu/buttons/logoff"
+msgstr "Isključi se sa servera"
+
+msgid "lobby_menu/buttons/post"
+msgstr "Obaveštajna služba"
+
+msgid "lobby_menu/buttons/refuse-training"
+msgstr "Prekid treninga"
+
+msgid "lobby_menu/buttons/restart-training"
+msgstr "Nastavak treninga"
+
+msgid "lobby_menu/buttons/settings"
+msgstr "Podešavanja"
+
+msgid "lobby_menu/manyServers/title"
+msgstr "Server i ping (ms):"
+
+msgid "lobby_menu/oneServer/title"
+msgstr "Server: %(sName)s"
+
+msgid "lobby_menu/title"
+msgstr "MENI"
+
+msgid "login/account"
+msgstr "Nalog:"
+
+msgid "login/auto"
+msgstr "Auto"
+
+msgid "login/caps"
+msgstr "Caps"
+
+msgid "login/changeAaccount"
+msgstr "Promeni nalog"
+
+msgid "login/fastEnter"
+msgstr "Brza prijava:"
+
+msgid "login/healthNotice"
+msgstr "?empty?"
+
+msgid "login/licenses/header_1"
+msgstr "Portions of this software include the following copyrighted material, the use of which is hereby acknowledged:"
+
+msgid "login/licenses/header_2"
+msgstr "Portions of this software are copyright:"
+
+msgid "login/login"
+msgstr "Elektronska pošta:"
+
+msgid "login/ok"
+msgstr "Poveži se!"
+
+msgid "login/password"
+msgstr "Šifra:"
+
+msgid "login/quitFromAutoLogin"
+msgstr "Izađi iz reda"
+
+msgid "login/recoveryLink"
+msgstr "Prijavljivanje nije moguće?"
+
+msgid "login/registrationLink"
+msgstr "Kreiraj nalog"
+
+msgid "login/rememberPassword"
+msgstr "Zapamti me"
+
+msgid "login/rememberPasswordIgr"
+msgstr "Sačuvaj E-mail i šifru (nesigurno)"
+
+msgid "login/rememberPasswordIgrWarning"
+msgstr "Nije sigurno koristiti ovu opciju na javnim mestima."
+
+msgid "login/rss/readMore"
+msgstr "Detalji"
+
+msgid "login/server"
+msgstr "Server i ping (ms):"
+
+msgid "login/social/status/SYSTEM_ERROR"
+msgstr "Greška autorizacije preko socijalnih mreža ili Wargaming.net ID. Pokušajte prijavu klasičnom metodom, koristeći login i šifru."
+
+msgid "login/social/status/WGC_ERROR"
+msgstr "Greška autorizacije. Molim unesi email i šifru."
+
+msgid "login/social/warning/SOCIAL_NETWORK_LOGOUT"
+msgstr "Odjavio si se sa naloga %(userName)s. Zbog bezbednosnih razloga, izloguj se takođe i sa svog %(socialNetworkLink)s naloga."
+
+msgid "login/social/warning/SOCIAL_NETWORK_LOGOUT_BOTH"
+msgstr "Odjavio si se sa naloga %(userName)s. Zbog bezbednosnih razloga, izloguj se takođe i sa svog %(socialNetworkLink)s naloga %(wargamingNetLink)s."
+
+msgid "login/status/ALREADY_ONLINE_LOCALLY"
+msgstr "Klijent je već lokalno na mreži (to jest, istražuje prostor van mreže)."
+
+msgid "login/status/CANCELLED"
+msgstr "Povezivanje na server je prekinuo korisnik"
+
+msgid "login/status/CLIENT_SERVER_VERSIONS_ARE_DIFFERENT"
+msgstr "Ovaj server je trenutno nedostupan. Molimo Vas ažurirajte svoj klijent igre ili sačekajte ažuriranje po zakazanom rasporedu."
+
+msgid "login/status/CONNECTION_FAILED"
+msgstr "Povezivanje na mrežu je nemoguće"
+
+msgid "login/status/DNS_LOOKUP_FAILED"
+msgstr "Povezivanje na server nije uspelo.\nServer je možda nedostupan, ili su tvoja mrežna podešavanja pogrešna."
+
+msgid "login/status/LOGIN_BAD_PROTOCOL_VERSION"
+msgstr "Molim obnovi svoj klijent."
+
+msgid "login/status/LOGIN_CUSTOM_DEFINED_ERROR"
+msgstr "Server je nedostupan. Razlog: %(reason)s."
+
+msgid "login/status/LOGIN_MALFORMED_REQUEST"
+msgstr "Prijava na server nije uspela. Verovatno je tvoja aplikacija neispravna ili zastarela."
+
+msgid "login/status/LOGIN_REJECTED_ACTIVATING"
+msgstr "Kreiranje naloga..."
+
+msgid "login/status/LOGIN_REJECTED_ALREADY_LOGGED_IN"
+msgstr "Igrač sa istim imenom je već u igri."
+
+msgid "login/status/LOGIN_REJECTED_BAD_DIGEST"
+msgstr "Molim obnovi svoj klijent."
+
+msgid "login/status/LOGIN_REJECTED_BAN"
+msgstr "Tvoj nalog je zaključan do %(time)s. Razlog: %(reason)s."
+
+msgid "login/status/LOGIN_REJECTED_BAN_UNLIMITED"
+msgstr "Tvoj nalog je suspendovan. Razlog: %(reason)s."
+
+msgid "login/status/LOGIN_REJECTED_BASEAPPMGR_TIMEOUT"
+msgstr "Greška servera (BASEAPPMGR_TIMEOUT)"
+
+msgid "login/status/LOGIN_REJECTED_BASEAPP_OVERLOAD"
+msgstr "Server je zauzet. Molim pokušaj kasnije."
+
+msgid "login/status/LOGIN_REJECTED_BASEAPP_TIMEOUT"
+msgstr "Greška servera (BASEAPP_TIMEOUT)"
+
+msgid "login/status/LOGIN_REJECTED_CELLAPP_OVERLOAD"
+msgstr "Server je zauzet. Molim pokušaj kasnije."
+
+msgid "login/status/LOGIN_REJECTED_DBMGR_OVERLOAD"
+msgstr "Server je zauzet. Molim pokušaj kasnije."
+
+msgid "login/status/LOGIN_REJECTED_DB_GENERAL_FAILURE"
+msgstr "Greška servera (DB_GENERAL_FAILURE)"
+
+msgid "login/status/LOGIN_REJECTED_DB_NOT_READY"
+msgstr "Greška servera (DB_NOT_READY)"
+
+msgid "login/status/LOGIN_REJECTED_ILLEGAL_CHARACTERS"
+msgstr "Nadimak ili šifra sadrži nepravilne karaktere."
+
+msgid "login/status/LOGIN_REJECTED_INACCESSIBLE_REALM"
+msgstr "Izabrani server je trenutno nedostupan."
+
+msgid "login/status/LOGIN_REJECTED_INVALID_PASSWORD"
+msgstr "Pogrešan email ili netačna šifra. <a href='event:passwordRecovery'>Povrati šifru</a>"
+
+msgid "login/status/LOGIN_REJECTED_IP_ADDRESS_BAN"
+msgstr "Greška konekcije: pristup igri sa tvoje IP adrese je trenutno ograničen."
+
+msgid "login/status/LOGIN_REJECTED_LOGINS_NOT_ALLOWED"
+msgstr "Server nije trenutno dostupan usled zakazanog održavanja."
+
+msgid "login/status/LOGIN_REJECTED_LOGIN_QUEUE"
+msgstr "Server je zauzet. Čekam ne slobodno mesto. Vi ste po redu: %d."
+
+msgid "login/status/LOGIN_REJECTED_NICKNAME_ALREADY_EXIST"
+msgstr "Ovaj nadimak već koristi druga osoba. Probaj sa drugim nadimkom."
+
+msgid "login/status/LOGIN_REJECTED_NO_BASEAPPS"
+msgstr "Greška servera (NO_BASEAPPS)"
+
+msgid "login/status/LOGIN_REJECTED_NO_BASEAPP_RESPONSE"
+msgstr "Nema odgovora od Servera. Pokušaj ponovo kasnije."
+
+msgid "login/status/LOGIN_REJECTED_NO_LOGINAPP"
+msgstr "Povezivanje na server nije uspelo.\nServer je možda nedostupan, ili su tvoja mrežna podešavanja pogrešna."
+
+msgid "login/status/LOGIN_REJECTED_NO_LOGINAPP_RESPONSE"
+msgstr "Povezivanje na server nije uspelo.\nServer je možda nedostupan, ili su tvoja mrežna podešavanja pogrešna."
+
+msgid "login/status/LOGIN_REJECTED_NO_SUCH_USER"
+msgstr "Pogrešan e-mail ili šifra"
+
+msgid "login/status/LOGIN_REJECTED_RATE_LIMITED"
+msgstr "Server je zauzet. Molim pokušaj kasnije."
+
+msgid "login/status/LOGIN_REJECTED_REGISTRATION_NOT_ALLOWED"
+msgstr "Kreiranje naloga trenutno zabranjeno."
+
+msgid "login/status/LOGIN_REJECTED_REGISTRATION_NOT_CONFIRMED"
+msgstr "Nemoguće povezivanje. Proveri svoj email za potvrdu kreiranja naloga molim."
+
+msgid "login/status/LOGIN_REJECTED_SERVER_NOT_READY"
+msgstr "Server nije spreman. Molim pokušaj kasnije."
+
+msgid "login/status/LOGIN_REJECTED_UNABLE_TO_PARSE_JSON"
+msgstr "Ovaj nadimak sadrži nepravilne karaktere. Probaj sa drugim nadimkom."
+
+msgid "login/status/LOGIN_REJECTED_USERS_LIMIT"
+msgstr "Server je zauzet. Izaberi drugi server ili pokušaj ponovo kasnije."
+
+msgid "login/status/NOT_SET"
+msgstr "Isključen si sa servera."
+
+msgid "login/status/PUBLIC_KEY_LOOKUP_FAILED"
+msgstr "Ne mogu da lociram javni ključ klijenta"
+
+msgid "login/status/SESSION_END"
+msgstr "Autologin sesija je istekla, molim unesi šifru."
+
+msgid "login/status/SOCIAL_SESSION_END"
+msgstr "Greška autorizacije. Za prijavu u igri klikni Uđi."
+
+msgid "login/status/UNKNOWN_ERROR"
+msgstr "Došlo je do nepoznate greške"
+
+msgid "login/status/WGC_LOGOUT"
+msgstr "Odjavio si se sa svog naloga %(userName)s. Da se prijaviš, unesi email i šifru."
+
+msgid "login/status/accessForbiddenToPeriphery"
+msgstr "Izabrani server je nedostupan za tvoj nalog. Dostupni serveri: %(peripheries)s."
+
+msgid "login/status/accountNotReady"
+msgstr "Nalog nije sreman. Pokušaj ponovo kasnije."
+
+msgid "login/status/another_periphery"
+msgstr "Još uvek ste prijavljeni na drugi server."
+
+msgid "login/status/centerRestart"
+msgstr "Ovaj server je trenutno nedostupan. Molim sačekaj restart servera."
+
+msgid "login/status/checkout_error"
+msgstr "Greška prilikom preuzimanja korisničkih detalja. Molim pokušaj kasnije."
+
+msgid "login/status/connecting"
+msgstr "?empty?"
+
+msgid "login/status/empty_login"
+msgstr "Molimo unesi svoj email."
+
+msgid "login/status/empty_password"
+msgstr "Molim unesi šifru."
+
+msgid "login/status/empty_server"
+msgstr "Molim izaberi server."
+
+msgid "login/status/invalid_login"
+msgstr "Molim iskoristi svoju e-mail adresu za prijavljivanje."
+
+msgid "login/status/invalid_login_length"
+msgstr "Minimalan broj karaktera za nadimak: %(count)d"
+
+msgid "login/status/invalid_nickname"
+msgstr "Nadimak mora da sadrži latinična slova, brojeve i '_'."
+
+msgid "login/status/launchernotfound"
+msgstr "Fajl WOTLauncher.exe nije pronađen. Molim reinstaliraj aplikaciju."
+
+msgid "login/status/unavailable"
+msgstr "Server je nedostupan."
+
+msgid "login/status/versionMismatch"
+msgstr "Ovaj region je trenutno nedostupan. Molim sačekaj zakazano ažuriranje."
+
+msgid "login/submitBySocial"
+msgstr "Uđi"
+
+msgid "login/updateURLAvaialbleAt"
+msgstr "Molim vas obnovite svoj klijent (%s)"
+
+msgid "login/version"
+msgstr "World of Tanks"
+
+msgid "mapBlackList/timeLeftShort/days"
+msgstr "%(day)s d"
+
+msgid "mapBlackList/timeLeftShort/hours"
+msgstr "%(hour)s h"
+
+msgid "mapBlackList/timeLeftShort/lessMin"
+msgstr "1 min"
+
+msgid "mapBlackList/timeLeftShort/min"
+msgstr "%(min)s min"
+
+msgid "moduleFits/already_installed"
+msgstr "?empty?"
+
+msgid "moduleFits/center_unavailable"
+msgstr "Trenutno nedostupno"
+
+msgid "moduleFits/credits_error"
+msgstr "?empty?"
+
+msgid "moduleFits/crystal_error"
+msgstr "?empty?"
+
+msgid "moduleFits/destroyBtn/tooltip/body"
+msgstr "Uništi opremu"
+
+msgid "moduleFits/destroyBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "moduleFits/destroyDescr"
+msgstr "Uništite opremu koje se ne demontira\nda bi napravili mesta za novu"
+
+msgid "moduleFits/destroyEquipment"
+msgstr "Uništi opremu \"%(equipment)s\"?"
+
+msgid "moduleFits/gold_error"
+msgstr "?empty?"
+
+msgid "moduleFits/need_gun"
+msgstr "Nekompatibilan top"
+
+msgid "moduleFits/need_turret"
+msgstr "Nekompatibilna kupola"
+
+msgid "moduleFits/not_for_current_vehicle"
+msgstr "Nije kompatibilno sa trenutnom konfiguracijom"
+
+msgid "moduleFits/not_for_this_vehicle_type"
+msgstr "Nekompatibilan top"
+
+msgid "moduleFits/not_with_installed_equipment"
+msgstr "Nekompatibilno"
+
+msgid "moduleFits/removeDescr"
+msgstr "Uklonite opremu za kasniju upotrebu i pošaljite je na Depo"
+
+msgid "moduleFits/removeName"
+msgstr "Skini"
+
+msgid "moduleFits/removeToolTip"
+msgstr " "
+
+msgid "moduleFits/similar_device_already_installed"
+msgstr "?empty?"
+
+msgid "moduleFits/title"
+msgstr "%(moduleName)s za %(vehicleName)s"
+
+msgid "moduleFits/unlock_error"
+msgstr "Nije istražen"
+
+msgid "moduleFits/upgradeBtn/tooltip/body"
+msgstr "Nadogradnja opreme poboljšava karateristike."
+
+msgid "moduleFits/wrong_slot"
+msgstr "?empty?"
+
+msgid "moduleInfo/additionalInfo"
+msgstr "Karakteristike granata u zavisnosti od topa."
+
+msgid "moduleInfo/autoLoaderGun"
+msgstr "Top sa automatskim punjačem"
+
+msgid "moduleInfo/autoLoaderGunBoost"
+msgstr "Poboljšani automatski sistem punjenja:\nSmanjuje standardno vreme automatskog punjenja granata."
+
+msgid "moduleInfo/autoShootGun"
+msgstr "Top sa sistemom za konstantno pucanje"
+
+msgid "moduleInfo/closeBtn"
+msgstr "Zatvori"
+
+msgid "moduleInfo/compatible/clipVehicles"
+msgstr "Opremljen sistemom punjenja revolver na vozilima:"
+
+msgid "moduleInfo/compatible/guns"
+msgstr "Odgovarajući topovi:"
+
+msgid "moduleInfo/compatible/shellGuns"
+msgstr "Odgovarajući topovi:"
+
+msgid "moduleInfo/compatible/shells"
+msgstr "Odgovarajuće granate:"
+
+msgid "moduleInfo/compatible/turrets"
+msgstr "Odgovarajuće kupole:"
+
+msgid "moduleInfo/compatible/uniChargedVehicles"
+msgstr "Koristi se kao top sa jednom granatom na vozilima:"
+
+msgid "moduleInfo/compatible/vehicles"
+msgstr "Odgovarajuća vozila:"
+
+msgid "moduleInfo/damageMutable"
+msgstr "Duboko olučen top. Može da ispaljuje zvezdaste granate."
+
+msgid "moduleInfo/dualAccuracy"
+msgstr "Dvostruki sistem nišanjenja"
+
+msgid "moduleInfo/dualGun"
+msgstr "Sistem dvostrukog topa"
+
+msgid "moduleInfo/heatingZonesGun"
+msgstr "Top sa aktivnim sistemom hlađenja"
+
+msgid "moduleInfo/hydraulicChassis"
+msgstr "Hidropneumatsko vešanje:dozvoljava vozilu da prelazi između opsadnog i marševskog režima"
+
+msgid "moduleInfo/hydraulicWheeledChassis"
+msgstr "Teleskopsko hidropneumatsko vešanje: dozvoljava vozilu da promeni položaj dodatnih točkova."
+
+msgid "moduleInfo/hydroAutoSiegeChassis"
+msgstr "Hidropneumatsko vešanje: dozvoljava vozilu da nakrivi trup"
+
+msgid "moduleInfo/lowChargeShot"
+msgstr "Specijalna mehanika topa koja dozvoljava ranije pucanje po ceni efikasnosti hica."
+
+msgid "moduleInfo/magazineGun"
+msgstr "Sistem punjenja Revolver"
+
+msgid "moduleInfo/nonPiercingDamageLabel"
+msgstr "Može da nanese manju štetu čak i bez probijanja oklopa"
+
+msgid "moduleInfo/overheatGun"
+msgstr "Termalna kontrola pregrevanja automatskog topa"
+
+msgid "moduleInfo/parametersClipGunLabel"
+msgstr "<img src='%s' vspace='-4'/> Za topove sa sistemom punjenja revolver:"
+
+msgid "moduleInfo/parametersLabel"
+msgstr "Karakteristike:"
+
+msgid "moduleInfo/params/aimingTime"
+msgstr "Vreme nišanjenja"
+
+msgid "moduleInfo/params/areaRadius"
+msgstr "Oblast štete"
+
+msgid "moduleInfo/params/areaSquare"
+msgstr "Oblast štete"
+
+msgid "moduleInfo/params/armor"
+msgstr "Oklop"
+
+msgid "moduleInfo/params/artDelayRange"
+msgstr "Vreme pripreme baraža"
+
+msgid "moduleInfo/params/autoReloadTime"
+msgstr "Vreme za automatsko punjenje jedne granate"
+
+msgid "moduleInfo/params/autoReloadTime/boost"
+msgstr "Standardno vreme za automatsko punjenje jedne granate"
+
+msgid "moduleInfo/params/avgDamage"
+msgstr "Prosečna šteta"
+
+msgid "moduleInfo/params/avgDamageList"
+msgstr "Prosečna šteta"
+
+msgid "moduleInfo/params/avgDamagePerMinute"
+msgstr "Prosečna šteta po minutu"
+
+msgid "moduleInfo/params/avgDamagePerSecond"
+msgstr "Šteta po sekundi"
+
+msgid "moduleInfo/params/avgMutableDamage"
+msgstr "Prosečna šteta"
+
+msgid "moduleInfo/params/avgPiercingPower"
+msgstr "Prosečna probojnost"
+
+msgid "moduleInfo/params/bombDamage"
+msgstr "Šteta jedne bombe"
+
+msgid "moduleInfo/params/bombsNumberRange"
+msgstr "Bombi po napadu"
+
+msgid "moduleInfo/params/burstCount"
+msgstr "Broj kontejnera u šaržeru"
+
+msgid "moduleInfo/params/burstFireRate"
+msgstr "Kontejner granata"
+
+msgid "moduleInfo/params/burstSize"
+msgstr "Broj granata u kontejneru"
+
+msgid "moduleInfo/params/burstTimeInterval"
+msgstr "Vreme punjenja između granata u kontejneru"
+
+msgid "moduleInfo/params/caliber"
+msgstr "Kalibar"
+
+msgid "moduleInfo/params/chargeTime"
+msgstr "Priprema salve"
+
+msgid "moduleInfo/params/chassisRepairTime"
+msgstr "Vreme popravke vešanja"
+
+msgid "moduleInfo/params/chassisRepairTimeYoh"
+msgstr "Vreme popravke vešanja"
+
+msgid "moduleInfo/params/circularVisionRadius"
+msgstr "Vidokrug"
+
+msgid "moduleInfo/params/commonAreaRadius"
+msgstr "Radijus efekta"
+
+msgid "moduleInfo/params/commonDelay"
+msgstr "Vreme isporuke"
+
+msgid "moduleInfo/params/continuousDamagePerSecond"
+msgstr "Šteta po sekundi"
+
+msgid "moduleInfo/params/continuousShotsPerMinute"
+msgstr "Brzina konstantne vatre"
+
+msgid "moduleInfo/params/cooldownSeconds"
+msgstr "Priprema"
+
+msgid "moduleInfo/params/crewRolesFactor"
+msgstr "na glavne kvalifikacije i veštine posade"
+
+msgid "moduleInfo/params/damage"
+msgstr "Šteta"
+
+msgid "moduleInfo/params/dispertionRadius"
+msgstr "Rasipanje na 100m"
+
+msgid "moduleInfo/params/drivingControl"
+msgstr "Na upravljanje u pokretu"
+
+msgid "moduleInfo/params/dualAccuracyCoolingDelay"
+msgstr "Vreme hlađenja topa nakon pucanja"
+
+msgid "moduleInfo/params/duration"
+msgstr "Trajanje"
+
+msgid "moduleInfo/params/enginePower"
+msgstr "Snaga motora"
+
+msgid "moduleInfo/params/enginePowerPerTon"
+msgstr "Na specifičnu snagu (KS/t) "
+
+msgid "moduleInfo/params/explosionRadius"
+msgstr "Poluprečnik štete"
+
+msgid "moduleInfo/params/fireStartingChance"
+msgstr "Šansa za požar pri pogodku"
+
+msgid "moduleInfo/params/flyDelayRange"
+msgstr "Vreme leta"
+
+msgid "moduleInfo/params/forwardMaxSpeed"
+msgstr "Maksimalna brzina"
+
+msgid "moduleInfo/params/guaranteedDamage/footnote"
+msgstr "Uvek nanosi štetu ako je glavni oklop pogođen"
+
+msgid "moduleInfo/params/hullAndChassisWeight"
+msgstr "Težina"
+
+msgid "moduleInfo/params/hullArmor"
+msgstr "Oklop trupa"
+
+msgid "moduleInfo/params/hullWeight"
+msgstr "Težina trupa"
+
+msgid "moduleInfo/params/inactivationDelay"
+msgstr "Vreme pauze"
+
+msgid "moduleInfo/params/level_lbl"
+msgstr "Nivo %(level)s borbene rezerve"
+
+msgid "moduleInfo/params/maxAvgMutableDamageList"
+msgstr "Prosečna šteta na 50 m"
+
+msgid "moduleInfo/params/maxDamage"
+msgstr "Maksimalna šteta"
+
+msgid "moduleInfo/params/maxHealth"
+msgstr "Izdržljivost (HP)"
+
+msgid "moduleInfo/params/maxHullHealth"
+msgstr "Izdržljivost (HP)"
+
+msgid "moduleInfo/params/maxShotDistance"
+msgstr "Daljina dometa"
+
+msgid "moduleInfo/params/maxShotDistance/footnote"
+msgstr "* maksimalan dolet granate za ovaj top"
+
+msgid "moduleInfo/params/maxSteeringLockAngle"
+msgstr "Maksimalan ugao skretanja točkova"
+
+msgid "moduleInfo/params/minAvgMutableDamageList"
+msgstr "Prosečna šteta na %(dist)s m"
+
+msgid "moduleInfo/params/noPiercingDistance/footnote"
+msgstr " ne zavisi od distance za ovaj tip granate"
+
+msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
+msgstr ", maksimalna daljina leta - 400m"
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "Ugao normalizacije"
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "Gubitak penetracije"
+
+msgid "moduleInfo/params/penetrationLoss/footnote"
+msgstr " ovaj tip granate počinje da gubi moć penetracije tokom distance nakon prolaska kroz prvi panel"
+
+msgid "moduleInfo/params/piercingDistance"
+msgstr "%(dist)s m"
+
+msgid "moduleInfo/params/piercingDistance/footnote"
+msgstr " zavisi od distance: %(minDist)s - %(maxDist)s m"
+
+msgid "moduleInfo/params/piercingDistanceHeader"
+msgstr "Prosečna probojnost (mm) - Distanca"
+
+msgid "moduleInfo/params/piercingPower"
+msgstr "Penetracija"
+
+msgid "moduleInfo/params/radarCooldown"
+msgstr "Vreme reaktivacije radio detekcije"
+
+msgid "moduleInfo/params/radarRadius"
+msgstr "Radijus detekcije"
+
+msgid "moduleInfo/params/radioDistance"
+msgstr "Domet signala"
+
+msgid "moduleInfo/params/rateTime"
+msgstr "Vreme između pucanja i prelaska na napunjeni top"
+
+msgid "moduleInfo/params/reloadCooldownSeconds"
+msgstr "Hlađenje"
+
+msgid "moduleInfo/params/reloadMagazineTime"
+msgstr "Vreme kompletnog punjenja"
+
+msgid "moduleInfo/params/reloadTime"
+msgstr "Brzina paljbe"
+
+msgid "moduleInfo/params/reloadTimeSecs"
+msgstr "Punjenje topa"
+
+msgid "moduleInfo/params/reloadTimeSingleGun"
+msgstr "Punjenje topa u režimu pojedinačne vatre"
+
+msgid "moduleInfo/params/reloadTimeTwinGun"
+msgstr "Punjenje topa u režimu salve"
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "Ugao odbitka"
+
+msgid "moduleInfo/params/rocketAccelerationEnginePower"
+msgstr "Snaga motora (sa busterima)"
+
+msgid "moduleInfo/params/rotationSpeed"
+msgstr "Brzina rotacije"
+
+msgid "moduleInfo/params/screensArmorMultiplier"
+msgstr "Množitelj razmaknutog oklopa"
+
+msgid "moduleInfo/params/screensArmorMultiplier/footnote"
+msgstr " ovaj tip granate probija panele kao i obično, ali gubi moć penetracije jednak trostrukoj debljini oklopa panela"
+
+msgid "moduleInfo/params/screensArmorMultiplier/value"
+msgstr "x%(multiplier)s"
+
+msgid "moduleInfo/params/shellLoadingTime"
+msgstr "Punjenje redenikom municije"
+
+msgid "moduleInfo/params/shellReloadingTime"
+msgstr "Vreme punjenja između pucanja"
+
+msgid "moduleInfo/params/shellsCount"
+msgstr "Granata u magacinu"
+
+msgid "moduleInfo/params/short/crewRolesFactor"
+msgstr "Ka glavnim kvalifikacijama"
+
+msgid "moduleInfo/params/shotSpeed"
+msgstr "Brzina granate"
+
+msgid "moduleInfo/params/shotsNumberRange"
+msgstr "Granata po baražu"
+
+msgid "moduleInfo/params/stunDurationList"
+msgstr "Trajanje ošamućenja"
+
+msgid "moduleInfo/params/stunMaxDuration"
+msgstr "Maksimalno trajanje ošamućenja"
+
+msgid "moduleInfo/params/stunMaxDurationList"
+msgstr "Maksimalno trajanje ošamućenja"
+
+msgid "moduleInfo/params/stunMinDuration"
+msgstr "Minimalno trajanje ošamućenja"
+
+msgid "moduleInfo/params/stunMinDurationList"
+msgstr "Minimalno trajanje ošamućenja"
+
+msgid "moduleInfo/params/turboshaftEnginePower"
+msgstr "Snaga motora (Turbo)"
+
+msgid "moduleInfo/params/weight"
+msgstr "Težina"
+
+msgid "moduleInfo/propellantAfterburnerGun"
+msgstr "Dodatno sagorevanje indukcionog punjenja koje povećava prosečnu štetu"
+
+msgid "moduleInfo/rocketAcceleration"
+msgstr "Mlazni busteri povećavaju pokretljivost vozila"
+
+msgid "moduleInfo/stagedJetBoosters"
+msgstr "Potisnici na čvrsto gorivo koji povećavaju ubrzanje, pokretljivost i upravljivost"
+
+msgid "moduleInfo/title"
+msgstr " "
+
+msgid "moduleInfo/trackWithinTrack"
+msgstr "Rezervna gusenica: Dozvoljava delimično održanje pokretljivosti kada je glavna gusenica uništena."
+
+msgid "moduleInfo/turboshaftEngine"
+msgstr "Motor sa turbinom:\ndozvoljava vozilu da dostine veću brzinu."
+
+msgid "moduleInfo/twinGun"
+msgstr "Sistem odabira režima vatre"
+
+msgid "moduleInfo/wheeledDash"
+msgstr "Specijalna mehanika vozila značajno povećava njegovo ubrzanje snagu motora i maksimalnu brzinu u napred i u nazad na kratko vreme."
+
+msgid "nation_tree/blueprint_title/china"
+msgstr "Nacrti kineskih vozila"
+
+msgid "nation_tree/blueprint_title/czech"
+msgstr "Nacrti čehoslovačkih vozila"
+
+msgid "nation_tree/blueprint_title/france"
+msgstr "Nacrti francuskih vozila"
+
+msgid "nation_tree/blueprint_title/germany"
+msgstr "Nacrti nemačkih vozila"
+
+msgid "nation_tree/blueprint_title/italy"
+msgstr "Nacrti italijanskih vozila"
+
+msgid "nation_tree/blueprint_title/japan"
+msgstr "Nacrti japanskih vozila"
+
+msgid "nation_tree/blueprint_title/poland"
+msgstr "Nacrti poljskih vozila"
+
+msgid "nation_tree/blueprint_title/sweden"
+msgstr "Nacrti švedskih vozila"
+
+msgid "nation_tree/blueprint_title/uk"
+msgstr "Nacrti britanskih vozila"
+
+msgid "nation_tree/blueprint_title/usa"
+msgstr "Nacrti američkih vozila"
+
+msgid "nation_tree/blueprint_title/ussr"
+msgstr "Nacrti sovjetskih vozila"
+
+msgid "nation_tree/title/china"
+msgstr "Kina"
+
+msgid "nation_tree/title/czech"
+msgstr "Čehoslovačka vozila"
+
+msgid "nation_tree/title/france"
+msgstr "Francuska"
+
+msgid "nation_tree/title/germany"
+msgstr "Nemačka"
+
+msgid "nation_tree/title/italy"
+msgstr "Italija"
+
+msgid "nation_tree/title/japan"
+msgstr "Japan"
+
+msgid "nation_tree/title/poland"
+msgstr "Poljska"
+
+msgid "nation_tree/title/sweden"
+msgstr "Švedska"
+
+msgid "nation_tree/title/uk"
+msgstr "Velika Britanija"
+
+msgid "nation_tree/title/usa"
+msgstr "SAD"
+
+msgid "nation_tree/title/ussr"
+msgstr "SSSR"
+
+msgid "nations/all"
+msgstr "Sve Nacije"
+
+msgid "nations/china"
+msgstr "Kina"
+
+msgid "nations/czech"
+msgstr "Čehoslovačka"
+
+msgid "nations/france"
+msgstr "Francuska"
+
+msgid "nations/germany"
+msgstr "Nemačka"
+
+msgid "nations/italy"
+msgstr "Italija"
+
+msgid "nations/japan"
+msgstr "Japan"
+
+msgid "nations/poland"
+msgstr "Poljska"
+
+msgid "nations/sweden"
+msgstr "Švedska"
+
+msgid "nations/title"
+msgstr "Nacije"
+
+msgid "nations/uk"
+msgstr "Velika Britanija"
+
+msgid "nations/usa"
+msgstr "SAD"
+
+msgid "nations/ussr"
+msgstr "SSSR"
+
+msgid "onlineCounter/delimiter"
+msgstr " / "
+
+msgid "onlineCounter/total"
+msgstr "Ukupno"
+
+msgid "onlineCounter/unavailable"
+msgstr "- -"
+
+msgid "opponents"
+msgstr "%(firstOpponent)s vs. %(secondOpponent)s"
+
+msgid "optionalDeviceFits/title"
+msgstr "Izaberi opremu"
+
+msgid "prebattle/CompaniesTitle/ABSOLUTE"
+msgstr "Apsolutna"
+
+msgid "prebattle/CompaniesTitle/CHAMPION"
+msgstr "Šampionska"
+
+msgid "prebattle/CompaniesTitle/EVENT"
+msgstr "Čelični lov 15x15"
+
+msgid "prebattle/CompaniesTitle/EVENT_10x10"
+msgstr "Čelični lov 10x10"
+
+msgid "prebattle/CompaniesTitle/JUNIOR"
+msgstr "Junior"
+
+msgid "prebattle/CompaniesTitle/MIDDLE"
+msgstr "Srednja"
+
+msgid "prebattle/already_in_awaiting_battle"
+msgstr "Već čekate na bitku"
+
+msgid "prebattle/battleReady"
+msgstr "Spreman za borbu!"
+
+msgid "prebattle/battleRoyale/solo"
+msgstr "Za solo igranje"
+
+msgid "prebattle/battleRoyale/squad"
+msgstr "Za igru u vodu"
+
+msgid "prebattle/description"
+msgstr "prebattle/description"
+
+msgid "prebattle/exitButton"
+msgstr "Napusti bitku"
+
+msgid "prebattle/groupsLabel"
+msgstr "Tenkovske čete na čekanju:"
+
+msgid "prebattle/invitations/buttons/cancel"
+msgstr "Zatvori"
+
+msgid "prebattle/invitations/buttons/search"
+msgstr "Pretraži"
+
+msgid "prebattle/invitations/buttons/send"
+msgstr "Pozovi"
+
+msgid "prebattle/invitations/errors/addIgnoredUser"
+msgstr "Ne možeš dodati igrača koji je na \"crnoj listi\"."
+
+msgid "prebattle/invitations/errors/existsInReceiveList"
+msgstr "Ovaj igrač je već na listi za poziv"
+
+msgid "prebattle/invitations/errors/notFoundUsers"
+msgstr "Igrači koji su na serveru ili nisu na tvojoj \"crnoj listi\" nisu pronađeni."
+
+msgid "prebattle/invitations/errors/receiverListEmpty"
+msgstr "Ovaj lista za poziv je prazna"
+
+msgid "prebattle/invitations/errors/selectUserToAdd"
+msgstr "Izaberite igrača da ga dodate ne listu poziva"
+
+msgid "prebattle/invitations/errors/selectUserToRemove"
+msgstr "Izaberite igrača da ga uklonite sa liste poziva"
+
+msgid "prebattle/invitations/errors/userListEmpty"
+msgstr "Lista igrača je prazna"
+
+msgid "prebattle/invitations/errors/userOffline"
+msgstr "Korisnik mora bit na serveru ( online)"
+
+msgid "prebattle/invitations/labels/defaultInviteText"
+msgstr "Tekst poziva"
+
+msgid "prebattle/invitations/labels/defaultInviteText/tooltip"
+msgstr "Tekst mora sadržati ne više od %(maxChars)s znakova."
+
+msgid "prebattle/invitations/labels/isOnline"
+msgstr "Sakrij igrače koji nisu na mreži"
+
+msgid "prebattle/invitations/labels/mailingList"
+msgstr "Pozovi igrače"
+
+msgid "prebattle/playersLabel"
+msgstr "Igrači na čekanju:"
+
+msgid "prebattle/rts/tankLabel"
+msgstr "Tvoja uloga:"
+
+msgid "prebattle/searchPlayers"
+msgstr "Pretraga igrača"
+
+msgid "prebattle/sideA"
+msgstr "Strana A:"
+
+msgid "prebattle/sideB"
+msgstr "Strana B:"
+
+msgid "prebattle/startButton"
+msgstr "Pokreni bitku"
+
+msgid "prebattle/startingTankLabel"
+msgstr "Tvoje početno vozilo: "
+
+msgid "prebattle/tankLabel"
+msgstr "Izabrao si:"
+
+msgid "prebattle/timerLabel"
+msgstr "Proteklo vreme:"
+
+msgid "prebattle/title"
+msgstr "Standardna Bitka"
+
+msgid "prebattle/waitingTimeWarning"
+msgstr "* Ponekad pronalaženje igre za artiljeriju traje duže nego za ostale tipove vozila. Budi strpljiv."
+
+msgid "premium/bonus"
+msgstr "Krediti i Iskustvo\npo borbi"
+
+msgid "premium/buyMessage"
+msgstr "Kupi premijum nalog"
+
+msgid "premium/buyTitle"
+msgstr "Kupi premijum nalog"
+
+msgid "premium/cancel"
+msgstr "Otkaži"
+
+msgid "premium/continueMessage"
+msgstr "Produži premijum nalog"
+
+msgid "premium/continueTitle"
+msgstr "Produženje premijum naloga"
+
+msgid "premium/gold"
+msgstr "zlata"
+
+msgid "premium/ofCreditsAndExperience"
+msgstr "kredit i iskustvo"
+
+msgid "premium/packet/days1"
+msgstr "1 dan"
+
+msgid "premium/packet/days14"
+msgstr "14 dana"
+
+msgid "premium/packet/days180"
+msgstr "180 dana"
+
+msgid "premium/packet/days3"
+msgstr "3 dana "
+
+msgid "premium/packet/days30"
+msgstr "30 dana"
+
+msgid "premium/packet/days360"
+msgstr "360 dana"
+
+msgid "premium/packet/days7"
+msgstr "7 dana"
+
+msgid "premium/packet/days90"
+msgstr "90 dana"
+
+msgid "premium/packet/longDescriptionSpecial"
+msgstr "Premijum nalog dozvoljava brži napredak u igri, obezbeđujući više kredita i iskustva u borbama. Premijum nalog je zajednički za World of Tanks, World of Warships i Worlf of Warplanes, kupujući ga u jednoj od igara automatski ga kupuješ i za ostale."
+
+msgid "premium/packet/shortDescriptionSpecial"
+msgstr "+50% na iskustvo, kredite i iskustvo posade u borbama"
+
+msgid "premium/perEverButtle"
+msgstr "po svakoj borbi"
+
+msgid "premium/percentFactor"
+msgstr "+50%"
+
+msgid "premium/periods/days1"
+msgstr "Za 1 dan ( 24 časa)"
+
+msgid "premium/periods/days14"
+msgstr "Na 2 nedelje (14 dana)"
+
+msgid "premium/periods/days180"
+msgstr "Za 6 meseci (180 dana)"
+
+msgid "premium/periods/days3"
+msgstr "Za 3 dana (72 sata)"
+
+msgid "premium/periods/days30"
+msgstr "Za 1 mesec (30 dana)"
+
+msgid "premium/periods/days360"
+msgstr "Za 12 meseci (360 dana)"
+
+msgid "premium/periods/days7"
+msgstr "Za 1 nedelju (7 dana)"
+
+msgid "premium/periods/days90"
+msgstr "Na 3 meseca (90 dana)"
+
+msgid "premium/promoMessage"
+msgstr "Daje 50% više kredita i iskustva po borbi."
+
+msgid "premium/submitBuy"
+msgstr "Kupi"
+
+msgid "premium/submitContinue"
+msgstr "Produži"
+
+msgid "premium/tariffs/duration"
+msgstr "%d dana:"
+
+msgid "premium/tariffs/header"
+msgstr "Izabrano trajanje"
+
+msgid "price/bpbit"
+msgstr "Poeni borbene propusnice"
+
+msgid "price/bpcoin"
+msgstr "Žetoni Borbene propusnice"
+
+msgid "price/credits"
+msgstr "kredita"
+
+msgid "price/crystal"
+msgstr "obveznica"
+
+msgid "price/equipCoin"
+msgstr "komponente"
+
+msgid "price/eventCoin"
+msgstr "novčića godišnjice"
+
+msgid "price/gold"
+msgstr "zlata"
+
+msgid "price/received"
+msgstr "Primio si %s"
+
+msgid "price/spent"
+msgstr "Potrošio si %s"
+
+msgid "primeTime/server"
+msgstr "Dostupan server: %(server)s."
+
+msgid "primeTime/servers"
+msgstr "Dostupni serveri:"
+
+msgid "profile/clan/label"
+msgstr "Klan:"
+
+msgid "profile/creationTime"
+msgstr "Kreiran:"
+
+msgid "profile/credits"
+msgstr "Krediti:"
+
+msgid "profile/crystal"
+msgstr "Obveznice:"
+
+msgid "profile/eventCoin"
+msgstr "Novčići godišnjice:"
+
+msgid "profile/exchange"
+msgstr "Razmena"
+
+msgid "profile/gold"
+msgstr "Zlato:"
+
+msgid "profile/header/clan/joinDate"
+msgstr "Datum pridruživanja: %s"
+
+msgid "profile/header/clan/position"
+msgstr "Pozicija: %s"
+
+msgid "profile/header/clan/position/commander"
+msgstr "Komandant jedinice"
+
+msgid "profile/header/clan/position/diplomat"
+msgstr "Obaveštajni oficir"
+
+msgid "profile/header/clan/position/junior"
+msgstr "Mlađi oficir"
+
+msgid "profile/header/clan/position/leader"
+msgstr "Komandir"
+
+msgid "profile/header/clan/position/private"
+msgstr "Redov"
+
+msgid "profile/header/clan/position/recruit"
+msgstr "Regrut"
+
+msgid "profile/header/clan/position/recruiter"
+msgstr "Oficir za regrutaciju"
+
+msgid "profile/header/clan/position/reservist"
+msgstr "Rezervista"
+
+msgid "profile/header/clan/position/staff"
+msgstr "Štabni oficir"
+
+msgid "profile/header/clan/position/treasurer"
+msgstr "Intendant"
+
+msgid "profile/header/clan/position/vice_leader"
+msgstr "Zamenik komandanta"
+
+msgid "profile/header/fights"
+msgstr "Borbi"
+
+msgid "profile/header/lastBattleDateTitle"
+msgstr "Poslednji put bio u borbi:"
+
+msgid "profile/header/registrationDateTitle"
+msgstr "Kreiran:"
+
+msgid "profile/header/wins"
+msgstr "Pobede"
+
+msgid "profile/list/descr"
+msgstr "Rezultati za %s"
+
+msgid "profile/list/totalName"
+msgstr "Ukupni rezultati"
+
+msgid "profile/premiumBuy"
+msgstr "Kupi premijum nalog"
+
+msgid "profile/premiumContinue"
+msgstr "Produži premijum nalog"
+
+msgid "profile/premiunExpirationDate"
+msgstr "Ističe %s"
+
+msgid "profile/stats/blocks/battleeffect"
+msgstr "Borbena efikasnost"
+
+msgid "profile/stats/blocks/common"
+msgstr "Borbeno iskustvo"
+
+msgid "profile/stats/blocks/credits"
+msgstr "Iskustvo"
+
+msgid "profile/stats/blocks/studying"
+msgstr "Trening"
+
+msgid "profile/stats/items/avgExperience"
+msgstr "Srednje iskustvo po borbi"
+
+msgid "profile/stats/items/battlesCount"
+msgstr "Broj borbi"
+
+msgid "profile/stats/items/damageDealt"
+msgstr "Naneta štete"
+
+msgid "profile/stats/items/defender"
+msgstr "Branilac:"
+
+msgid "profile/stats/items/effectiveShots"
+msgstr "Procenat pogodaka"
+
+msgid "profile/stats/items/empty"
+msgstr "--"
+
+msgid "profile/stats/items/frags"
+msgstr "Uništeno"
+
+msgid "profile/stats/items/fragsBeast"
+msgstr "Maksimalan broj uništenih vozila"
+
+msgid "profile/stats/items/heroes"
+msgstr "Heroj Bitke:"
+
+msgid "profile/stats/items/invader"
+msgstr "Osvajač:"
+
+msgid "profile/stats/items/lastBattleTime"
+msgstr "Poslednja bitka:"
+
+msgid "profile/stats/items/losses"
+msgstr "Porazi"
+
+msgid "profile/stats/items/maxFrags"
+msgstr "Maksimalan broj uništenih vozila"
+
+msgid "profile/stats/items/maxXP"
+msgstr "Maksimalno iskustvo u borbi"
+
+msgid "profile/stats/items/medalKay"
+msgstr "Kejeva medalja:"
+
+msgid "profile/stats/items/nextSkillBattlesLeft"
+msgstr "Bitki Preostalo (približno)"
+
+msgid "profile/stats/items/nextSkillXPLeft"
+msgstr "Iskustvo potrebno za povećanje veštine"
+
+msgid "profile/stats/items/ready"
+msgstr "Veština je dostupna."
+
+msgid "profile/stats/items/readyToLearn"
+msgstr "Veštine dostupne:"
+
+msgid "profile/stats/items/scout"
+msgstr "Izviđač:"
+
+msgid "profile/stats/items/sniper"
+msgstr "Snajper:"
+
+msgid "profile/stats/items/steelwall"
+msgstr "Čelični zid:"
+
+msgid "profile/stats/items/supporter"
+msgstr "Podrška:"
+
+msgid "profile/stats/items/survivedBattles"
+msgstr "Preživeo borbi"
+
+msgid "profile/stats/items/timeUntilNextLevel"
+msgstr "Preostalo vreme (intenzivni režim posade)"
+
+msgid "profile/stats/items/unknown"
+msgstr "Nepoznato"
+
+msgid "profile/stats/items/warrior"
+msgstr "Najbolji tenkista:"
+
+msgid "profile/stats/items/wins"
+msgstr "Pobeda"
+
+msgid "profile/stats/items/xp"
+msgstr "Ukupno iskustvo"
+
+msgid "progressiveReward/widget/desc"
+msgstr "Bori se u borbama i dobij nagradu za zasluge sa nacrtima izučivih vozila i druge vredne stvari."
+
+msgid "progressiveReward/widget/title"
+msgstr "Nagrada za zasluge"
+
+msgid "promo/teaser/title"
+msgstr "Obaveštajna služba"
+
+msgid "promo/teaserTimeFormat/days"
+msgstr "%(day)sd:%(hour)s:%(min)s:%(sec)s"
+
+msgid "promo/teaserTimeFormat/hours"
+msgstr "%(hour)s:%(min)s:%(sec)s"
+
+msgid "promo/teaserTimeFormat/lessMin"
+msgstr "%(hour)s:%(min)s:%(sec)s"
+
+msgid "promo/teaserTimeFormat/min"
+msgstr "%(hour)s:%(min)s:%(sec)s"
+
+msgid "quote"
+msgstr "%(string)s"
+
+msgid "rangeDelimiter"
+msgstr "-"
+
+msgid "rating/messages/addToFriends"
+msgstr "Dodati igrača u grupu \"Prijatelji\""
+
+msgid "rating/messages/addToIgnor"
+msgstr "Dodaj igrača na \"crnu listu\""
+
+msgid "rating/messages/createPrivate"
+msgstr "Kreiraj privatni kanal"
+
+msgid "rating/messages/dropFromFriends"
+msgstr "Izbaciti igrača iz grupe \"Prijatelji\""
+
+msgid "rating/messages/dropFromIgnor"
+msgstr "Ukloni igrača sa tvoje \"crne liste\""
+
+msgid "rating/messages/userInfo"
+msgstr "Prikaži detalje o igraču"
+
+msgid "rating/table/headers/c1"
+msgstr "Br."
+
+msgid "rating/table/headers/c2"
+msgstr "Igrač"
+
+msgid "rating/table/headers/c3"
+msgstr "Učestvovao u bitkama"
+
+msgid "rating/table/headers/c4"
+msgstr "Iskustvo"
+
+msgid "rating/table/headers/c5"
+msgstr "Vozila uništeno"
+
+msgid "rating/table/headers/c6"
+msgstr "Uništen"
+
+msgid "rating/title"
+msgstr "Rejting"
+
+msgid "repair/button"
+msgstr "Popravi"
+
+msgid "repair/curiency"
+msgstr "kredita"
+
+msgid "repair/repairstatus"
+msgstr "Popravke:"
+
+msgid "report_content"
+msgstr "Prijavi sadržaj"
+
+msgid "research/labels/button/addToCompare"
+msgstr "Dodaj na poredjenje"
+
+msgid "research/labels/button/buy"
+msgstr "Kupi"
+
+msgid "research/labels/button/nationChange"
+msgstr "Promena nacije"
+
+msgid "research/labels/button/rent"
+msgstr "Iznajmi od"
+
+msgid "research/labels/button/restore"
+msgstr "Povrati"
+
+msgid "research/labels/button/showInHangar"
+msgstr "Pogledaj u garaži"
+
+msgid "research/labels/button/toCollection"
+msgstr "Ka kolekciji"
+
+msgid "research/labels/button/trade-in"
+msgstr "Razmena"
+
+msgid "research/labels/button/vehiclePreview"
+msgstr "Pregled"
+
+msgid "research/labels/freeXP"
+msgstr "Slobodno iskustvo"
+
+msgid "research/labels/totalXP"
+msgstr "Ukupno iskustva"
+
+msgid "research/labels/vehXP"
+msgstr "Borbeno iskustvo"
+
+msgid "research/premium/benefits/first"
+msgstr "Više kredita za svaku bitku"
+
+msgid "research/premium/benefits/fourth"
+msgstr "Pretvaranje borbenog iskustva u slobodno iskustvo od prve borbe"
+
+msgid "research/premium/benefits/second"
+msgstr "Više borbenog iskustva i iskustva posade za svaku borbu"
+
+msgid "research/premium/benefits/third"
+msgstr "Ubrzani trening posade i premeštanje članova posade bez penala"
+
+msgid "research/premium/discount"
+msgstr "Popust pri kupovini:"
+
+msgid "research/restore/commmonInfo"
+msgstr "Povraćaj je dostupan"
+
+msgid "research/restore/dueDate"
+msgstr "do %(date)s"
+
+msgid "research/status/historicalModules"
+msgstr "Vozilo ima istorijsku opremu."
+
+msgid "research/status/rentLeft"
+msgstr "Iznajmljeno do"
+
+msgid "research/status/tradeIn"
+msgstr "Dostupno za razmenu"
+
+msgid "roleExp/action/blockAndTakeDamage"
+msgstr "Razmeni poene izdržljivosti i blokiraj štetu."
+
+msgid "roleExp/action/blockDamage"
+msgstr "Blokiraj štetu."
+
+msgid "roleExp/action/doFarDamage"
+msgstr "Nanesi štetu sa velike distance."
+
+msgid "roleExp/action/doGroupStun"
+msgstr "Ošamuti dva ili više neprijateljska vozila jednim hicem."
+
+msgid "roleExp/action/doInvisAssist"
+msgstr "Uoči neprijateljska vozila ostajući pri tome neotkriven."
+
+msgid "roleExp/action/doNearDamage"
+msgstr "Nanesi štetu sa male distance."
+
+msgid "roleExp/action/doNearDamageSq"
+msgstr "Nanesi štetu sa male do srednje distance."
+
+msgid "roleExp/action/doOwnDamage"
+msgstr "Nanesi štetu nakon sopstevenog uočavanja."
+
+msgid "roleExp/action/doSpgDamage"
+msgstr "Nanesi štetu artiljeriji."
+
+msgid "roleExp/action/doStun"
+msgstr "Asistiraj u nanošenju štete ošamućujući neprijateljska vozila."
+
+msgid "roleExp/action/fragAssist"
+msgstr "Asistiraj u uništenju neprijateljskih vozila."
+
+msgid "roleExp/action/searchEnemy"
+msgstr "Uoči neprijateljska vozila."
+
+msgid "roleExp/roleDescr/role_ATSPG_assault"
+msgstr "Vozila sa malom pokretljivošću ali pouzdanim prednjim oklopom. Imaju dobre performanse kada se bore na prvim linijama fronta."
+
+msgid "roleExp/roleDescr/role_ATSPG_sniper"
+msgstr "Vozila sa slabim oklopom ali pristojnim topovima koja zahtevaju upotrebu taktike zasede u većini borbenih situacija."
+
+msgid "roleExp/roleDescr/role_ATSPG_support"
+msgstr "Vozila sa savršenim topovima, čija efikasna upotreba zahteva pridržavanje određenih uslova. Mogu da nanesu veliku količinu štete za kratko vreme."
+
+msgid "roleExp/roleDescr/role_ATSPG_universal"
+msgstr "Lovci tenkova sa prosečnim karakteristikama vozila koja su podjednako efikasna sa svake distance."
+
+msgid "roleExp/roleDescr/role_HT_assault"
+msgstr "Teško oklopljena vozila koja mogu efikasno da troše svoje poene izdržljivosti i zaustave napredak neprijatelja, ostajući na ivici napada."
+
+msgid "roleExp/roleDescr/role_HT_break"
+msgstr "Vozila sa dobrom pokretljivošću i pouzdanim oklopom koji ih čine efikasnim na prvoj liniji napada u pozicionoj bliskoj borbi i tokom bočnih manevara."
+
+msgid "roleExp/roleDescr/role_HT_support"
+msgstr "Vozila sa savršenim topovima, čija efikasna upotreba zahteva pridržavanje određenih uslova. Mogu da nanesu veliku količinu štete za kratko vreme."
+
+msgid "roleExp/roleDescr/role_HT_universal"
+msgstr "Višenamenski tenkovi koji se lako prilagođavaju bilo kojoj borbenoj situaciji."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Brza i pokretljiva vozila koja mogu i da izviđaju i da nanose štetu prilikom bočnih napada."
+
+msgid "roleExp/roleDescr/role_LT_wheeled"
+msgstr "Vozila sa izvanrednim dinamičkim karakteristikama čija efikasna implementacija zavisi od mape i taktičke situacije."
+
+msgid "roleExp/roleDescr/role_MT_assault"
+msgstr "Vozila sa pristojnim oklopom koji ih čini najpogodnijim za blisku borbu i držanje položaja protiv neprijateljskih teških tenkova."
+
+msgid "roleExp/roleDescr/role_MT_sniper"
+msgstr "Vozila sa izvanrednim topovima i slabim oklopom koja imaju efikasne performanse na velikim distancama."
+
+msgid "roleExp/roleDescr/role_MT_support"
+msgstr "Vozila sa savršenim topovima, čija efikasna upotreba zahteva pridržavanje određenih uslova. Mogu da nanesu veliku količinu štete za kratko vreme."
+
+msgid "roleExp/roleDescr/role_MT_universal"
+msgstr "Dobro balansirana vozila koja su sposobna da obavljaju širok dijapazon borbenih zadataka. Lako se prilagođavaju specifičnostima mape i taktičkoj situaciji."
+
+msgid "roleExp/roleDescr/role_SPG"
+msgstr "Podrška sa velike distance za savezničke napade. Pomoćna vozila čija efikasnost uglavnom zavisi od borbene situacije i akcija timova."
+
+msgid "roleExp/roleGroupName/role_ATSPG_assault"
+msgstr "Jurišni lovac tenkova"
+
+msgid "roleExp/roleGroupName/role_ATSPG_sniper"
+msgstr "Lovac tenkova snajper"
+
+msgid "roleExp/roleGroupName/role_ATSPG_support"
+msgstr "Lovac tenkova za podršku"
+
+msgid "roleExp/roleGroupName/role_ATSPG_universal"
+msgstr "Svestrani lovac tenkova"
+
+msgid "roleExp/roleGroupName/role_HT_assault"
+msgstr "Jurišni teški tenk"
+
+msgid "roleExp/roleGroupName/role_HT_break"
+msgstr "Teški tenk za proboje"
+
+msgid "roleExp/roleGroupName/role_HT_support"
+msgstr "Teški tenk za podršku"
+
+msgid "roleExp/roleGroupName/role_HT_universal"
+msgstr "Svestrani teški tenk"
+
+msgid "roleExp/roleGroupName/role_LT_universal"
+msgstr "Svestrani laki tenk"
+
+msgid "roleExp/roleGroupName/role_LT_wheeled"
+msgstr "Laki tenk sa točkovima"
+
+msgid "roleExp/roleGroupName/role_MT_assault"
+msgstr "Jurišni srednji tenk"
+
+msgid "roleExp/roleGroupName/role_MT_sniper"
+msgstr "Srednji tenk snajper"
+
+msgid "roleExp/roleGroupName/role_MT_support"
+msgstr "Srednji tenk za podršku"
+
+msgid "roleExp/roleGroupName/role_MT_universal"
+msgstr "Svestrani srednji tenk"
+
+msgid "roleExp/roleGroupName/role_SPG"
+msgstr " "
+
+msgid "roleExp/roleLabel"
+msgstr "Uloga:"
+
+msgid "roleExp/roleName/role_ATSPG_assault"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_ATSPG_sniper"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_ATSPG_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_ATSPG_universal"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_HT_assault"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_HT_break"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_HT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_HT_universal"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_wheeled"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_MT_assault"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_MT_sniper"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_MT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_MT_universal"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_SPG"
+msgstr "Artiljerija %(groupName)s"
+
+msgid "screenshot/save"
+msgstr "Slika sačuvana u %(path)s"
+
+msgid "serverStats/arenasCount"
+msgstr "Bitke:"
+
+msgid "serverStats/playersCount"
+msgstr "Igrači:"
+
+msgid "serverStats/playersInArenaCount"
+msgstr "U borbi:"
+
+msgid "shell/caliber/units"
+msgstr "mm"
+
+msgid "shop/actions/filter/label"
+msgstr "Prikaži sve specijalne ponude"
+
+msgid "shop/errors/centerIsDown"
+msgstr "Trenutno nedostupno"
+
+msgid "shop/errors/inHangar"
+msgstr "U garaži"
+
+msgid "shop/errors/lockedNation"
+msgstr "Nedostupno"
+
+msgid "shop/errors/unlockNeeded"
+msgstr "Nije istražen"
+
+msgid "shop/header/equipment/myVehicle"
+msgstr "Potrošni materijal za %(vehicle)s:"
+
+msgid "shop/header/equipment/myVehicles"
+msgstr "Potrošni materijal za moja vozila%(nation)s:"
+
+msgid "shop/header/equipment/otherVehicles"
+msgstr "Potrošni materijal%(nation)s:"
+
+msgid "shop/header/module/myVehicle"
+msgstr "%(type)s za %(vehicle)s:"
+
+msgid "shop/header/module/myVehicles"
+msgstr "%(type)s za moja vozila%(nation)s:"
+
+msgid "shop/header/module/otherVehicles"
+msgstr "%(type)s%(nation)s:"
+
+msgid "shop/header/optionalDevice/myVehicle"
+msgstr "Oprema za %(vehicle)s:"
+
+msgid "shop/header/optionalDevice/myVehicles"
+msgstr "Oprema za moja vozila%(nation)s:"
+
+msgid "shop/header/optionalDevice/otherVehicles"
+msgstr "Oprema%(nation)s:"
+
+msgid "shop/header/shell/myInventoryGuns"
+msgstr "Granate za moje topove u depou%(nation)s:"
+
+msgid "shop/header/shell/myVehicleGun"
+msgstr "Granate za trenutni top na %(vehicle)s:"
+
+msgid "shop/header/shell/myVehiclesInventoryGuns"
+msgstr "Granate za moje topove%(nation)s:"
+
+msgid "shop/header/shell/otherGuns"
+msgstr "Granate za sve topove%(nation)s:"
+
+msgid "shop/header/vehicle"
+msgstr "Sve %(type)s%(nation)s:"
+
+msgid "shop/menu/battleBooster/name"
+msgstr "Direktive"
+
+msgid "shop/menu/battleBooster/targetType/allKind/name"
+msgstr "Sve"
+
+msgid "shop/menu/battleBooster/targetType/forCrew/name"
+msgstr "Za posadu"
+
+msgid "shop/menu/battleBooster/targetType/forEquipment/name"
+msgstr "Za opremu"
+
+msgid "shop/menu/equipment/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "shop/menu/equipment/fits/myVehicles/name"
+msgstr "Moja vozila"
+
+msgid "shop/menu/equipment/fits/name"
+msgstr "Kompatibilno sa"
+
+msgid "shop/menu/equipment/fits/otherVehicles/name"
+msgstr "Sva vozila"
+
+msgid "shop/menu/equipment/name"
+msgstr "Potrošna roba"
+
+msgid "shop/menu/module/extra/inHangar/name"
+msgstr "U depou"
+
+msgid "shop/menu/module/extra/locked/name"
+msgstr "Neizučena"
+
+msgid "shop/menu/module/extra/name"
+msgstr "Prikaži"
+
+msgid "shop/menu/module/extra/onVehicle/name"
+msgstr "Na vozilima"
+
+msgid "shop/menu/module/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "shop/menu/module/fits/myVehicles/name"
+msgstr "Moja vozila"
+
+msgid "shop/menu/module/fits/name"
+msgstr "Kompatibilno sa"
+
+msgid "shop/menu/module/fits/otherVehicles/name"
+msgstr "Sva vozila"
+
+msgid "shop/menu/module/name"
+msgstr "Moduli"
+
+msgid "shop/menu/module/types/vehicleChassis/name"
+msgstr "Vešanje"
+
+msgid "shop/menu/module/types/vehicleEngine/name"
+msgstr "Motor"
+
+msgid "shop/menu/module/types/vehicleGun/name"
+msgstr "Top"
+
+msgid "shop/menu/module/types/vehicleRadio/name"
+msgstr "Radio"
+
+msgid "shop/menu/module/types/vehicleTurret/name"
+msgstr "Kupola"
+
+msgid "shop/menu/optionalDevice/extra/name"
+msgstr "Prikaži"
+
+msgid "shop/menu/optionalDevice/extra/onVehicle/name"
+msgstr "Na vozilima"
+
+msgid "shop/menu/optionalDevice/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "shop/menu/optionalDevice/fits/myVehicles/name"
+msgstr "Moja vozila"
+
+msgid "shop/menu/optionalDevice/fits/name"
+msgstr "Kompatibilno sa"
+
+msgid "shop/menu/optionalDevice/fits/otherVehicles/name"
+msgstr "Sva vozila"
+
+msgid "shop/menu/optionalDevice/name"
+msgstr "Oprema"
+
+msgid "shop/menu/shell/fits/myInventoryGuns/name"
+msgstr "Topovi u deopu"
+
+msgid "shop/menu/shell/fits/myVehicleGun/name"
+msgstr "Trenutni top na"
+
+msgid "shop/menu/shell/fits/myVehiclesInventoryGuns/name"
+msgstr "Svi moji topovi"
+
+msgid "shop/menu/shell/fits/name"
+msgstr "Kompatibilno sa"
+
+msgid "shop/menu/shell/fits/otherGuns/name"
+msgstr "Svim topovima"
+
+msgid "shop/menu/shell/kinds/ARMOR_PIERCING/name"
+msgstr "Pancirna"
+
+msgid "shop/menu/shell/kinds/ARMOR_PIERCING_CR/name"
+msgstr "Podkalibarska"
+
+msgid "shop/menu/shell/kinds/ARMOR_PIERCING_HE/name"
+msgstr "Pancirno eksplozivna"
+
+msgid "shop/menu/shell/kinds/HIGH_EXPLOSIVE/name"
+msgstr "Fugasna"
+
+msgid "shop/menu/shell/kinds/HOLLOW_CHARGE/name"
+msgstr "Kumulativna"
+
+msgid "shop/menu/shell/kinds/name"
+msgstr "Vrste granata"
+
+msgid "shop/menu/shell/name"
+msgstr "Granate"
+
+msgid "shop/menu/vehicle/extra/inHangar/name"
+msgstr "U garaži"
+
+msgid "shop/menu/vehicle/extra/locked/name"
+msgstr "Neizučena vozila"
+
+msgid "shop/menu/vehicle/extra/name"
+msgstr "Prikaži"
+
+msgid "shop/menu/vehicle/extra/rentals/name"
+msgstr "Iznajmljena vozila"
+
+msgid "shop/menu/vehicle/levels/header"
+msgstr "Nivo"
+
+msgid "shop/menu/vehicle/name"
+msgstr "Vozila"
+
+msgid "shop/menu/vehicle/obtainingType/restoreVehicle/name"
+msgstr "Povratak za kredite"
+
+msgid "shop/menu/vehicle/obtainingType/tradeInVehicle/name"
+msgstr "Razmena vozila"
+
+msgid "shop/menu/vehicle/obtainingType/vehicle/name"
+msgstr "Kupi"
+
+msgid "shop/menu/vehicle/rent/available"
+msgstr "Dostupan za iznajmljivanje od %(price)s."
+
+msgid "shop/menu/vehicle/rent/cycle"
+msgstr "Etapa %(cycle)dod %(seasonType)d"
+
+msgid "shop/menu/vehicle/rent/days"
+msgstr "za dane: %(days)d"
+
+msgid "shop/menu/vehicle/rent/discount"
+msgstr "Popust do %(discount)s"
+
+msgid "shop/menu/vehicle/rent/forever"
+msgstr "neograničeno"
+
+msgid "shop/menu/vehicle/rent/season"
+msgstr "Sezona %(season)d od %(seasonType)d"
+
+msgid "shop/menu/vehicle/restore"
+msgstr "povrati"
+
+msgid "shop/menu/vehicle/tradeInVehicle/price"
+msgstr "Do %(discountValue)s"
+
+msgid "shop/menu/vehicle/tradeInVehicle/saving"
+msgstr "Ušteda"
+
+msgid "shop/menu/vehicle/tradeInVehicle/vehForTrade"
+msgstr "Dostupno za razmenu"
+
+msgid "shop/menu/vehicle/type/header"
+msgstr "Tip vozila"
+
+msgid "shop/table/buttonBuy"
+msgstr "Kupi"
+
+msgid "shop/table/buyActionOr"
+msgstr "ili"
+
+msgid "shop/table/find"
+msgstr "Pronađeno:"
+
+msgid "shop/table/header/compare"
+msgstr "Poredi"
+
+msgid "shop/table/header/count/battleBooster"
+msgstr "Na vozilu/U Depou"
+
+msgid "shop/table/header/count/equipment"
+msgstr "Na vozilu/U Depou"
+
+msgid "shop/table/header/count/module"
+msgstr "Na vozilu/U Depou"
+
+msgid "shop/table/header/count/optionalDevice"
+msgstr "Na vozilu/U Depou"
+
+msgid "shop/table/header/count/shell"
+msgstr "U depou"
+
+msgid "shop/table/header/count/vehicle"
+msgstr "?empty?"
+
+msgid "shop/table/header/price"
+msgstr "Cena"
+
+msgid "shop/table/header/sale"
+msgstr "Popust"
+
+msgid "shop/table/notForSale"
+msgstr "Nije na prodaju"
+
+msgid "specPrebetles/listTitle"
+msgstr "Timske sobe"
+
+msgid "specPrebetles/ownerTitle"
+msgstr "Komandir tima"
+
+msgid "specPrebetles/playersTitle"
+msgstr "Igrači"
+
+msgid "specPrebetles/title"
+msgstr "Timske borbe"
+
+msgid "steam/cancel"
+msgstr "Otkaži"
+
+msgid "steam/goldPacketSelect"
+msgstr "Izaberi zlato:"
+
+msgid "steam/otherMethods"
+msgstr "drugi načini plaćanja"
+
+msgid "steam/submit"
+msgstr "Prihvati"
+
+msgid "steam/title"
+msgstr "Plati preko Steam-a"
+
+msgid "store/backButton/description"
+msgstr "KA SPECIJALIMA"
+
+msgid "store/backButton/label"
+msgstr "NAZAD"
+
+msgid "store/menu/noItems"
+msgstr "Ništa nije pronadjeno.\nMolim proverite uključene filtere pretrage."
+
+msgid "store/vehicleStates/ammoNotFull"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/ammoNotFullEvents"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/battle"
+msgstr "U borbi"
+
+msgid "store/vehicleStates/buySlot"
+msgstr "Kupi slot"
+
+msgid "store/vehicleStates/buyTank"
+msgstr "Kupi vozilo"
+
+msgid "store/vehicleStates/buyTankEmptyCount"
+msgstr "Slobodnih mesta:"
+
+msgid "store/vehicleStates/clanLocked"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/crewNotFull"
+msgstr "Posada je nepotpuna"
+
+msgid "store/vehicleStates/damaged"
+msgstr "Potrebne su popravke"
+
+msgid "store/vehicleStates/dealIsOver"
+msgstr "Nedostupno"
+
+msgid "store/vehicleStates/destroyed"
+msgstr "Potrebne su popravke"
+
+msgid "store/vehicleStates/disabled"
+msgstr "Zaključano"
+
+msgid "store/vehicleStates/exploded"
+msgstr "Potrebne su popravke"
+
+msgid "store/vehicleStates/fallout_broken"
+msgstr "Grupa nije spremna"
+
+msgid "store/vehicleStates/fallout_max"
+msgstr "Grupa nije spremna"
+
+msgid "store/vehicleStates/fallout_min"
+msgstr "Grupa nije spremna"
+
+msgid "store/vehicleStates/fallout_only"
+msgstr " "
+
+msgid "store/vehicleStates/fallout_required"
+msgstr "Grupa nije spremna"
+
+msgid "store/vehicleStates/group_is_not_ready"
+msgstr "Grupa nije spremna"
+
+msgid "store/vehicleStates/igrRentalIsOver"
+msgstr "Specijal je završen"
+
+msgid "store/vehicleStates/inPrebattle"
+msgstr "U taktičkoj jedinici"
+
+msgid "store/vehicleStates/inPremiumIgrOnly"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/locked"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/notpresent"
+msgstr "Morate da\nkupite vozilo"
+
+msgid "store/vehicleStates/rentable"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/rentable/epic"
+msgstr "Samo za \"Liniju fronta\""
+
+msgid "store/vehicleStates/rentable/ranked"
+msgstr "Samo za režim rangiranih borbi"
+
+msgid "store/vehicleStates/rentableAgain"
+msgstr "Produži iznajmljivanje"
+
+msgid "store/vehicleStates/rentableAgain/epic"
+msgstr "Produži period rente"
+
+msgid "store/vehicleStates/rentableAgain/ranked"
+msgstr "Produži period rente"
+
+msgid "store/vehicleStates/rentalIsOver"
+msgstr "Period najama je istekao."
+
+msgid "store/vehicleStates/rented/epic"
+msgstr "Iznajmljivanje za etapu %(cycles)s"
+
+msgid "store/vehicleStates/rotationGroupLocked"
+msgstr "Nedostupno"
+
+msgid "store/vehicleStates/serverRestriction"
+msgstr "Limit servera"
+
+msgid "store/vehicleStates/undamaged"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/unsuitableToQueue"
+msgstr "Ne odgovara"
+
+msgid "store/vehicleStates/willBeUnlockedInBattle"
+msgstr "?empty?"
+
+msgid "storeTab/actions"
+msgstr "Specijali"
+
+msgid "storeTab/inventory"
+msgstr "Depo"
+
+msgid "storeTab/shop"
+msgstr "Prodavnica"
+
+msgid "tankCarousel/statsStatus/unavailable"
+msgstr "Nema podataka"
+
+msgid "tankCarousel/vehicleStates/ammoNotFull"
+msgstr "Nedovoljno municije"
+
+msgid "tankCarousel/vehicleStates/ammoNotFullEvents"
+msgstr "Nedovoljno municije"
+
+msgid "tankCarousel/vehicleStates/battle"
+msgstr "U borbi"
+
+msgid "tankCarousel/vehicleStates/buySlot"
+msgstr "Kupi slot"
+
+msgid "tankCarousel/vehicleStates/buyTank"
+msgstr "Kupi vozilo"
+
+msgid "tankCarousel/vehicleStates/buyTankEmptyCount"
+msgstr "Praznih slotova: %(count)d"
+
+msgid "tankCarousel/vehicleStates/clanLocked"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/crewNotFull"
+msgstr "Posada je nepotpuna"
+
+msgid "tankCarousel/vehicleStates/damaged"
+msgstr "Potrebne su popravke"
+
+msgid "tankCarousel/vehicleStates/dealIsOver"
+msgstr "Nedostupno"
+
+msgid "tankCarousel/vehicleStates/destroyed"
+msgstr "Potrebne su popravke"
+
+msgid "tankCarousel/vehicleStates/disabled"
+msgstr "Zaključano"
+
+msgid "tankCarousel/vehicleStates/exploded"
+msgstr "Potrebne su popravke"
+
+msgid "tankCarousel/vehicleStates/fallout_broken"
+msgstr "Grupa nije spremna"
+
+msgid "tankCarousel/vehicleStates/fallout_max"
+msgstr "Grupa nije spremna"
+
+msgid "tankCarousel/vehicleStates/fallout_min"
+msgstr "Grupa nije spremna"
+
+msgid "tankCarousel/vehicleStates/fallout_only"
+msgstr "Ne odgovara"
+
+msgid "tankCarousel/vehicleStates/fallout_required"
+msgstr "Grupa nije spremna"
+
+msgid "tankCarousel/vehicleStates/group_is_not_ready"
+msgstr "Grupa nije spremna"
+
+msgid "tankCarousel/vehicleStates/igrRentalIsOver"
+msgstr "Specijal je završen"
+
+msgid "tankCarousel/vehicleStates/inPrebattle"
+msgstr "U taktičkoj jedinici"
+
+msgid "tankCarousel/vehicleStates/inPremiumIgrOnly"
+msgstr "Dostupno samo u %(icon)s"
+
+msgid "tankCarousel/vehicleStates/locked"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/notpresent"
+msgstr "Nije u Garaži"
+
+msgid "tankCarousel/vehicleStates/rentable"
+msgstr "Renta vozila dostupna"
+
+msgid "tankCarousel/vehicleStates/rentable/epic"
+msgstr "Samo za \"Liniju fronta\""
+
+msgid "tankCarousel/vehicleStates/rentable/hover"
+msgstr "Iznajmi"
+
+msgid "tankCarousel/vehicleStates/rentable/ranked"
+msgstr "Samo za režim rangiranih borbi"
+
+msgid "tankCarousel/vehicleStates/rentableAgain/epic"
+msgstr "Produži period rente"
+
+msgid "tankCarousel/vehicleStates/rentableAgain/ranked"
+msgstr "Produži period rente"
+
+msgid "tankCarousel/vehicleStates/rentalIsOver"
+msgstr "Period najama je istekao."
+
+msgid "tankCarousel/vehicleStates/restoreTank"
+msgstr "Povrati vozilo"
+
+msgid "tankCarousel/vehicleStates/restoreTankCount"
+msgstr "Dostupno: %(count)d"
+
+msgid "tankCarousel/vehicleStates/rotationGroupLocked"
+msgstr "Nedostupno"
+
+msgid "tankCarousel/vehicleStates/rotationGroupUnlocked"
+msgstr "Dostupne bitke: %(battlesLeft)s"
+
+msgid "tankCarousel/vehicleStates/serverRestriction"
+msgstr "Limit servera"
+
+msgid "tankCarousel/vehicleStates/subscription_suspended"
+msgstr "Suspendovano"
+
+msgid "tankCarousel/vehicleStates/unavailable"
+msgstr "Nedostupno"
+
+msgid "tankCarousel/vehicleStates/undamaged"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/unsuitableToQueue"
+msgstr "Nepogodan režim"
+
+msgid "tankCarousel/vehicleStates/unsuitableToUnit"
+msgstr "Ne odgovara za vod"
+
+msgid "tankCarousel/vehicleStates/willBeUnlockedInBattle"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/wot_plus_exclusive_vehicle_disabled"
+msgstr "Suspendovano"
+
+msgid "tankCarousel/vehicleStates/xpMultReceived"
+msgstr "Uzmi x%(factor)s"
+
+msgid "tankCarousel/vehicleStates/xpMultReceived/not"
+msgstr "x%(factor)s osvojeno"
+
+msgid "tankCarousel/wotPlusSelectionAvailable"
+msgstr "Rentiraj vozilo"
+
+msgid "tankCarousel/wotPlusSelectionPending"
+msgstr "Iznajmljivanje na čekanju"
+
+msgid "tank_params/accuracyDispersionCap"
+msgstr "Disperzija na maksimalnom nivou preciznosti"
+
+msgid "tank_params/accuracyDispersionPerLevel"
+msgstr "Rasipanje na 100m po nivou preciznosti"
+
+msgid "tank_params/accuracyLevelGainTime"
+msgstr "Vreme potrebno za nivo preciznosti"
+
+msgid "tank_params/accuracySpeedLimit"
+msgstr "Ograničenje brzine"
+
+msgid "tank_params/accuracyWhileMovingDispersionCap"
+msgstr "Disperzija pri kretanju / okretanju na maksimalnom nivou preciznosti"
+
+msgid "tank_params/activeCoincideceShootingCharge"
+msgstr "Punjenje elektromehaničkog slučajnog nišana (% po pogotku) (režim sukoba, aktivno)"
+
+msgid "tank_params/aimingTime"
+msgstr "Vreme nišanjenja"
+
+msgid "tank_params/aimingTimeCoincidenceElectromechanicalSight"
+msgstr "Vreme nišanjenja (s) (elektromehanički slučajni nišan)"
+
+msgid "tank_params/aimingTimeTurbo"
+msgstr "Vreme nišanjenja (s) (turbo režim)"
+
+msgid "tank_params/attainableSpeed"
+msgstr "Brzina nakon 5 sekundi ubrzanja"
+
+msgid "tank_params/autoReloadTime"
+msgstr "Vreme za automatsko punjenje jedne granate"
+
+msgid "tank_params/autoShootClipFireRate"
+msgstr "Punjenje"
+
+msgid "tank_params/autoShootClipSec"
+msgstr "(šaržer/količina)"
+
+msgid "tank_params/avgDamage"
+msgstr "Prosečna šteta"
+
+msgid "tank_params/avgDamagePerMinute"
+msgstr "Prosečna šteta po minuti"
+
+msgid "tank_params/avgDamagePerSecond"
+msgstr "Šteta po sekundi"
+
+msgid "tank_params/avgPiercingPower"
+msgstr "Prosečna probojnost"
+
+msgid "tank_params/boosterCoolingTime"
+msgstr "Vreme hlađenja bustera"
+
+msgid "tank_params/boosterDuration"
+msgstr "Trajanje bustera"
+
+msgid "tank_params/burstFireRate"
+msgstr "Šaržer granata"
+
+msgid "tank_params/burstSec"
+msgstr "(s/količina/količina)"
+
+msgid "tank_params/chargeTime"
+msgstr "Priprema salve"
+
+msgid "tank_params/chargeableBurstDispersion"
+msgstr "Disperzija drugog hica na 100 m"
+
+msgid "tank_params/chargeableBurstPenetrationCount"
+msgstr "Penetracija za aktiviranje režima"
+
+msgid "tank_params/chargeableBurstReload"
+msgstr "Punjenje režima rafala"
+
+msgid "tank_params/chargeableBurstSize"
+msgstr "Granata u kaseti"
+
+msgid "tank_params/chassisModuleRotationSpeed"
+msgstr "Brzina okretanja"
+
+msgid "tank_params/chassisRepairTime"
+msgstr "Vreme popravke vešanja"
+
+msgid "tank_params/chassisRepairTimeYoh"
+msgstr "Vreme popravke vešanja"
+
+msgid "tank_params/chassisRotationSpeed"
+msgstr "Brzina okretanja"
+
+msgid "tank_params/circularVisionRadius"
+msgstr "Vidokrug"
+
+msgid "tank_params/clipFireRate"
+msgstr "Punjenje"
+
+msgid "tank_params/clipSec"
+msgstr "(magazin/granata ili šaržer/količina)"
+
+msgid "tank_params/cnt"
+msgstr "(item(s))"
+
+msgid "tank_params/coincidenceElectromechanicalSightDuration"
+msgstr "Trajanje elektromehaničko slučajno naelektrisanje nišana"
+
+msgid "tank_params/concentrationModeCooldown"
+msgstr "Hlađenje"
+
+msgid "tank_params/concentrationModeDuration"
+msgstr "Trajanje"
+
+msgid "tank_params/continuousShotsPerMinute"
+msgstr "Brzina konstantne vatre"
+
+msgid "tank_params/coolingDelay"
+msgstr "Vreme zadrške hlađenja"
+
+msgid "tank_params/coolingTime"
+msgstr "Vreme hlađenja potpuna zagrejanog topa"
+
+msgid "tank_params/damage"
+msgstr "Šteta standardne granate"
+
+msgid "tank_params/designatorCooldownS"
+msgstr "Hlađenje"
+
+msgid "tank_params/designatorInitialCooldownS"
+msgstr "Početno hlađenje"
+
+msgid "tank_params/designatorMarkDurationS"
+msgstr "Trajanje oznake"
+
+msgid "tank_params/designatorMarkedEnemiesAdditionalDamage"
+msgstr "Dodatna šteta označenim neprijateljima"
+
+msgid "tank_params/dispersionAt100mCoincidenceElectromechanicalSight"
+msgstr "Rasipanje na 100 m (%) (elektromehaničko slučajno naelektrisanje nišana)"
+
+msgid "tank_params/dualAccuracyCoolingDelay"
+msgstr "Vreme hlašenja topa"
+
+msgid "tank_params/enginePower"
+msgstr "Snaga motora"
+
+msgid "tank_params/enginePowerPerTon"
+msgstr "Specifična snaga"
+
+msgid "tank_params/enginePowerWithBoosters"
+msgstr "Snaga motora (sa busterima)"
+
+msgid "tank_params/engineTurboPowerCap"
+msgstr "Snaga motora (k.s.) (turbo režim)"
+
+msgid "tank_params/explosionRadius"
+msgstr "Poluprečnik štete"
+
+msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
+msgstr "Vreme hlađenja topa nakon pucanja"
+
+msgid "tank_params/extraRepairSpeed"
+msgstr "na brzinu popravke"
+
+msgid "tank_params/extraShotClipReloadTime"
+msgstr "Penal na punjenje"
+
+msgid "tank_params/faceFrontBoardInMM"
+msgstr "(napred/bokovi/pozadi mm)"
+
+msgid "tank_params/factor"
+msgstr "(%)"
+
+msgid "tank_params/forwardMaxSpeed"
+msgstr "Maksimalna brzina"
+
+msgid "tank_params/furyMaxReloadEffAvgDpm"
+msgstr "Prosečna šteta po minuti na maksimalnom nivou efikasnosti punjenja"
+
+msgid "tank_params/furyMaxReloadEfficiencyLevel"
+msgstr "Maksimalan nivo efikasnosti punjenja"
+
+msgid "tank_params/furyReloadEfficiencyLevelDuration"
+msgstr "Trajanje nivoa efikasnosti punjenja"
+
+msgid "tank_params/furyReloadEfficiencyLevelPerDestruction"
+msgstr "Nivo efikasnosti punjenja po uništenju"
+
+msgid "tank_params/furyReloadEfficiencyLevelPerHit"
+msgstr "Nivo efikasnosti punjenja po udaru"
+
+msgid "tank_params/furyReloadSpeedBonusPerEfficiencyLevel"
+msgstr "Bonus brzine punjenja po nivou efikasnosti"
+
+msgid "tank_params/gps"
+msgstr "(stepeni/s)"
+
+msgid "tank_params/grads"
+msgstr "(stepeni)"
+
+msgid "tank_params/gunModuleAvgDamageList"
+msgstr "Prosečna šteta"
+
+msgid "tank_params/gunTraverseDispersionTurbo"
+msgstr "Rasipanje tokom okretanja topa (%) (turbo režim)"
+
+msgid "tank_params/gunYawLimits"
+msgstr "Limit rotiranja topa"
+
+msgid "tank_params/h"
+msgstr "(granata)"
+
+msgid "tank_params/heatAvgDmgPerLvl"
+msgstr "Prosečna šteta po nivou toplote"
+
+msgid "tank_params/heatChargeOverheatDuration"
+msgstr "Trajanje pregrevanja punjenja"
+
+msgid "tank_params/heatTimeBeforeOverheat"
+msgstr "Vreme pre pregrevanja punjenja"
+
+msgid "tank_params/heatTimeToReachLevel"
+msgstr "Vreme za dostizanje nivoa toplote"
+
+msgid "tank_params/heatingPerShot"
+msgstr "Toplota po hicu"
+
+msgid "tank_params/hullArmor"
+msgstr "Oklop Trupa"
+
+msgid "tank_params/hullTraverseDispersionTurbo"
+msgstr "Rasipanje tokom okretanja trupa (%) (turbo režim)"
+
+msgid "tank_params/improvedDamageEnemiesByRamming"
+msgstr "Naneta šteta sudaranjem"
+
+msgid "tank_params/improvedDamageEnemiesChassisByRamming"
+msgstr "Šteta sudaranjem naneta vešanju"
+
+msgid "tank_params/increaseHealth"
+msgstr "Povećanje izdržljivosti"
+
+msgid "tank_params/invisibilityMovingFactor"
+msgstr "Vozilo u pokretu (%)"
+
+msgid "tank_params/invisibilityStillFactor"
+msgstr "Vozilo u mirovanju (%)"
+
+msgid "tank_params/ionAfterburnerActiveTurboCharge"
+msgstr "Punjenje Naknadnog sagorevanja jonskog pražnjenja (% po s) (turbo režim, aktivno)"
+
+msgid "tank_params/ionAfterburnerDuration"
+msgstr "Vreme trajanja Naknadnog sagorevanja jonskog pražnjenja"
+
+msgid "tank_params/ionAfterburnerDurationEnginePower"
+msgstr "Snaga motora (k.s.) (naknadno sagorevanje jonskog pražnjenja)"
+
+msgid "tank_params/ionAfterburnerDurationSpeedCap"
+msgstr "Maksimalna brzina/brzina unazad (km/h) (naknadno sagorevanje jonskog pražnjenja)"
+
+msgid "tank_params/ionAfterburnerPassiveTurboCharge"
+msgstr "Punjenje naknadnog sagorevanja jonskog pražnjenja (% po s) (turbo režim, pasivno)"
+
+msgid "tank_params/kg"
+msgstr "(kg)"
+
+msgid "tank_params/lowChargeShotAvgDamage"
+msgstr "Prosečna šteta (poena)"
+
+msgid "tank_params/lowChargeShotBlockDuration"
+msgstr "Trajanje zaključanosti hica (s)"
+
+msgid "tank_params/lowChargeShotDispertion"
+msgstr "Rasipanje na 100m (m)"
+
+msgid "tank_params/lowChargeShotPenetration"
+msgstr "Prosečna probojnost (mm)"
+
+msgid "tank_params/lowChargeShotRateOfFire"
+msgstr "Brzina paljbe (granata/min)"
+
+msgid "tank_params/lowChargeShotVelocity"
+msgstr "Brzina granate (m/s)"
+
+msgid "tank_params/m"
+msgstr "(m)"
+
+msgid "tank_params/maxAccuracyLevel"
+msgstr "Maksimalan nivo preciznosti"
+
+msgid "tank_params/maxAmmo"
+msgstr "Municija"
+
+msgid "tank_params/maxHealth"
+msgstr "Izdržljivost (HP)"
+
+msgid "tank_params/maxSteeringLockAngle"
+msgstr "Maksimalan ugao skretanja točkova"
+
+msgid "tank_params/mm"
+msgstr "(mm)"
+
+msgid "tank_params/movementTraverseDispersionTurbo"
+msgstr "Rasipanje tokom kretanja (%) (turbo režim)"
+
+msgid "tank_params/mph"
+msgstr "(km/h)"
+
+msgid "tank_params/mps"
+msgstr "(m/s)"
+
+msgid "tank_params/no_brackets/kg"
+msgstr "kg"
+
+msgid "tank_params/no_brackets/mm"
+msgstr "mm"
+
+msgid "tank_params/no_brackets/s"
+msgstr "s"
+
+msgid "tank_params/overheatDuration"
+msgstr "Vreme hlađenja pregrejanog topa"
+
+msgid "tank_params/p"
+msgstr "(ks)"
+
+msgid "tank_params/param12"
+msgstr "Prohodnost"
+
+msgid "tank_params/passiveCoincideceShootingCharge"
+msgstr "Punjenje elektromehaničkog slučajnog nišana (% po s) (režim sukoba, aktivno)"
+
+msgid "tank_params/penetrationLoss"
+msgstr "(%/100 mm)"
+
+msgid "tank_params/perActivation"
+msgstr "(po aktivaciji)"
+
+msgid "tank_params/percent"
+msgstr " "
+
+msgid "tank_params/percent_per_s"
+msgstr "(%/s)"
+
+msgid "tank_params/piercingPower"
+msgstr "Penetracija standardne granate"
+
+msgid "tank_params/pillboxHorizontalRotationSpeed"
+msgstr "Horizontalna brzina kretanja"
+
+msgid "tank_params/pillboxSwitchOffTime"
+msgstr "Prebacivanje u režim putovanja"
+
+msgid "tank_params/pillboxSwitchOnTime"
+msgstr "Prebacivanje u režim bunkera"
+
+msgid "tank_params/pillboxVerticalRotationSpeed"
+msgstr "Vertikalna brzina kretanja"
+
+msgid "tank_params/pitchLimits"
+msgstr "Uglovi spuštanja/podizanja topa"
+
+msgid "tank_params/powerModeDuration"
+msgstr "Maksimalne performanse"
+
+msgid "tank_params/powerModeThreshold"
+msgstr "Aktiviranje režima"
+
+msgid "tank_params/preheatDispersionCap"
+msgstr "Disperzija pri punom pregrevanju"
+
+msgid "tank_params/preheatDmgCap"
+msgstr "Prosečna šteta pri punom pregrevanju"
+
+msgid "tank_params/preheatSpeedLimit"
+msgstr "Ograničenje brzine"
+
+msgid "tank_params/preheatTimeToFull"
+msgstr "Vreme za potpuno pregrevanje"
+
+msgid "tank_params/preheatTimeToZero"
+msgstr "Vreme za nula pregrevanja"
+
+msgid "tank_params/preheatTransitionDelay"
+msgstr "Trajanje tranzicije pregrevanja"
+
+msgid "tank_params/propellantChargeLimit"
+msgstr "Granica punjenja"
+
+msgid "tank_params/propellantChargeSpendingAfterShot"
+msgstr "Potrošeno punjenje po hicu"
+
+msgid "tank_params/propellantChargingPerSec"
+msgstr "Brzina skupljanja punjenja"
+
+msgid "tank_params/propellantDischargingPerSec"
+msgstr "Brzina gubitka punjenja"
+
+msgid "tank_params/propellantOverchargeSwitchCooldown"
+msgstr "Pauza paljenja/gašenja graničnika"
+
+msgid "tank_params/propellantPostLimitAimingTime"
+msgstr "Vreme nišanjenja nakon granice"
+
+msgid "tank_params/propellantPostLimitDamageBonus"
+msgstr "Maksimalan bonus štete nakon granice"
+
+msgid "tank_params/propellantPostLimitDamageSpike"
+msgstr "Vrh štete nakon granice"
+
+msgid "tank_params/propellantPostLimitDispersion"
+msgstr "Rasipanje nakon granice na 100 m"
+
+msgid "tank_params/propellantPreLimitDamageBonus"
+msgstr "Maksimalan bonus štete pre granice"
+
+msgid "tank_params/pt"
+msgstr "(ks/t)"
+
+msgid "tank_params/qpt"
+msgstr "(broj/trajanje)"
+
+msgid "tank_params/quantity"
+msgstr "(količina)"
+
+msgid "tank_params/radarCooldown"
+msgstr "Vreme reaktivacije radio detekcije"
+
+msgid "tank_params/radarRadius"
+msgstr "Radijus detekcije"
+
+msgid "tank_params/radioDistance"
+msgstr "Domet signala"
+
+msgid "tank_params/reactivationDelay"
+msgstr "Trajanje reaktivacije"
+
+msgid "tank_params/reactivationLimit"
+msgstr "Limit reaktivacije"
+
+msgid "tank_params/relativeArmor"
+msgstr "Izdržljivost"
+
+msgid "tank_params/relativeCamouflage"
+msgstr "Sakrivenost"
+
+msgid "tank_params/relativeMobility"
+msgstr "Pokretljivost"
+
+msgid "tank_params/relativePower"
+msgstr "Vatrena moć"
+
+msgid "tank_params/relativeVisibility"
+msgstr "Opažanje"
+
+msgid "tank_params/reloadTime"
+msgstr "Brzina paljbe"
+
+msgid "tank_params/reloadTimeCoincidence"
+msgstr "Vreme punjenja (%) (elektromehanički slučajni nišan)"
+
+msgid "tank_params/reloadTimeSecs"
+msgstr "Punjenje topa"
+
+msgid "tank_params/reverseSpeedReductionWithBoosters"
+msgstr "Umanjenje brzine unazad (sa busterima)"
+
+msgid "tank_params/rocketAccelerationEnginePower"
+msgstr "Snaga motora (sa busterima)"
+
+msgid "tank_params/rocketAccelerationReuseAndDuration"
+msgstr "Mlazni busteri"
+
+msgid "tank_params/rocketAccelerationSpeedLimits"
+msgstr "Maks. brzina/unazad (sa busterima)"
+
+msgid "tank_params/s"
+msgstr "(s)"
+
+msgid "tank_params/secondaryAvgDamage"
+msgstr "Prosečna šteta po granati"
+
+msgid "tank_params/secondaryAvgPiercingPower"
+msgstr "Prosečna penetracija granate"
+
+msgid "tank_params/secondaryReloadTimeSecs"
+msgstr "Punjenje pomoćnog oružja"
+
+msgid "tank_params/secondaryTotalBurstSize"
+msgstr "Granate pomoćnog oružja"
+
+msgid "tank_params/shellLoadingTime"
+msgstr "Punjenje redenikom municije"
+
+msgid "tank_params/shortened/avgPiercingPower"
+msgstr "Penetracija:"
+
+msgid "tank_params/shotDispersionAngle"
+msgstr "Rasipanje na 100m"
+
+msgid "tank_params/shotSpeed"
+msgstr "Brzina granate"
+
+msgid "tank_params/speedLimits"
+msgstr "Maksimalna brzina / brzina unazad"
+
+msgid "tank_params/spm"
+msgstr "(granata/min)"
+
+msgid "tank_params/sqm"
+msgstr "(m²)"
+
+msgid "tank_params/stagedJetBoostersChargeDuration"
+msgstr "Trajanje potisnika (s)"
+
+msgid "tank_params/stagedJetBoostersChargesCount"
+msgstr "Dostupni potisnici"
+
+msgid "tank_params/stagedJetBoostersCooldownTime"
+msgstr "Hlađenje potisnika (s)"
+
+msgid "tank_params/stagedJetBoostersEnginePower"
+msgstr "Snaga motora (sa potisnicima) (KS)"
+
+msgid "tank_params/stagedJetBoostersRotationSpeed"
+msgstr "Vreme okretanja (step./s)"
+
+msgid "tank_params/stagedJetBoostersSpeedLimits"
+msgstr "Brzina unazad (sa potisnicima) (km/h)"
+
+msgid "tank_params/stagedJetBoostersTopSpeed"
+msgstr "Maksimalna brzina (sa potisnicima) (km/h)"
+
+msgid "tank_params/stationaryReloadSwitchOffTime"
+msgstr "Prekid punjenja"
+
+msgid "tank_params/stationaryReloadSwitchOnTime"
+msgstr "Aktivacija punjenja"
+
+msgid "tank_params/stunDurationList"
+msgstr "Trajanje ošamućenja"
+
+msgid "tank_params/stunMaxDuration"
+msgstr "Maksimalno trajanje šoka"
+
+msgid "tank_params/stunMinDuration"
+msgstr "Minimalno trajanje šoka"
+
+msgid "tank_params/switchEngineModeBothModes"
+msgstr "Vreme za prebacivanje režima motora"
+
+msgid "tank_params/switchOffTime"
+msgstr "Vreme prelaska u marševski režim "
+
+msgid "tank_params/switchOnTime"
+msgstr "Vreme prelaska u opsadni režim "
+
+msgid "tank_params/switchTime"
+msgstr "Prelazak na opsadni / marševski režim"
+
+msgid "tank_params/t"
+msgstr "(t)"
+
+msgid "tank_params/temperatureAvgDamagePerMinute"
+msgstr "Prosečna šteta po minutu"
+
+msgid "tank_params/temperatureReloadTime"
+msgstr "Brzina paljbe"
+
+msgid "tank_params/timeOfReaching"
+msgstr "Vreme za prelaz 100 m"
+
+msgid "tank_params/timeToOverheat"
+msgstr "Konstantno pucanje pre pregrevanja"
+
+msgid "tank_params/topSpeedWithBoosters"
+msgstr "Maksimalna brzina (sa busterima)"
+
+msgid "tank_params/traverseSpeedReductionWithBoosters"
+msgstr "Umanjenje brzine kretanja (sa busterima)"
+
+msgid "tank_params/turboSpeedCap"
+msgstr "Maksimalna brzina/brzina unazad (km/h) (turbo režim)"
+
+msgid "tank_params/turboshaftBurstFireRate"
+msgstr "Šaržer granata (turbo)"
+
+msgid "tank_params/turboshaftEnginePower"
+msgstr "Snaga motora (Turbo)"
+
+msgid "tank_params/turboshaftInvisibilityMovingFactor"
+msgstr "Vozilo u pokretu (Turbo) (%)"
+
+msgid "tank_params/turboshaftInvisibilityStillFactor"
+msgstr "Vozilo u mirovanju (Turbo) (%)"
+
+msgid "tank_params/turboshaftSpeedModeSpeed"
+msgstr "Maksimalna brzina / brzina unazad (Turbo)"
+
+msgid "tank_params/turboshaftSwitchTime"
+msgstr "Vreme za prebacivanje režima motora"
+
+msgid "tank_params/turretArmor"
+msgstr "Oklop Kupole"
+
+msgid "tank_params/turretModuleRotationSpeed"
+msgstr "Brzina rotacije kupole"
+
+msgid "tank_params/turretRotationSpeed"
+msgstr "Brzina okretanja topa"
+
+msgid "tank_params/turretYawLimits"
+msgstr "Uglovi okretanja kupole"
+
+msgid "tank_params/twinGunReloadTime"
+msgstr "Punjenje topa (režim pojedinačne vatre/režim salve)"
+
+msgid "tank_params/twinGunSwitchFireModeTime"
+msgstr "Vreme promene režima vatre"
+
+msgid "tank_params/twinGunTopSpeed"
+msgstr "Maks. brzina napred/unazad (salvo režim)"
+
+msgid "tank_params/val"
+msgstr "(HP)"
+
+msgid "tank_params/values/param10/value0"
+msgstr "odličan"
+
+msgid "tank_params/values/param10/value1"
+msgstr "dobar"
+
+msgid "tank_params/values/param10/value2"
+msgstr "osrednji"
+
+msgid "tank_params/values/param10/value3"
+msgstr "loš"
+
+msgid "tank_params/values/param11/value0"
+msgstr "odlična"
+
+msgid "tank_params/values/param11/value1"
+msgstr "dobra"
+
+msgid "tank_params/values/param11/value2"
+msgstr "osrednja"
+
+msgid "tank_params/values/param11/value3"
+msgstr "loša"
+
+msgid "tank_params/values/param12/value0"
+msgstr "odlična"
+
+msgid "tank_params/values/param12/value1"
+msgstr "dobra"
+
+msgid "tank_params/values/param12/value2"
+msgstr "osrednja"
+
+msgid "tank_params/values/param12/value3"
+msgstr "loša"
+
+msgid "tank_params/vehicleWeight"
+msgstr "Težina"
+
+msgid "tank_params/vpm"
+msgstr "(HP/min)"
+
+msgid "tank_params/vps"
+msgstr "(Poena/s)"
+
+msgid "tank_params/wheeledDashAbilityDuration"
+msgstr "Trajanje (s)"
+
+msgid "tank_params/wheeledDashAbilityReloadTime"
+msgstr "Hlađenje (s)"
+
+msgid "tank_params/wheeledDashAbilityReloadTimeBonus"
+msgstr "Bonus hlađenja (%)"
+
+msgid "tank_params/wheeledDashEnginePower"
+msgstr "Snaga motora (%)"
+
+msgid "tank_params/wheeledDashReverseSpeed"
+msgstr "Brzina unazad (%)"
+
+msgid "tank_params/wheeledDashSpeedLimits"
+msgstr "Prag hlađenja bonus brzine (km/h)"
+
+msgid "tank_params/wheeledDashTopSpeed"
+msgstr "Maksimalna brzina (%)"
+
+msgid "tank_params/wheeledSpeedModeSpeed"
+msgstr "Maksimalna brzina/brzina u nazad (ubrzano)"
+
+msgid "tank_params/wheeledSwitchOffTime"
+msgstr "Vreme prelaska u krstrareći režim"
+
+msgid "tank_params/wheeledSwitchOnTime"
+msgstr "Vreme prelaska u brzinski režim"
+
+msgid "tank_params/wheeledSwitchTime"
+msgstr "Vreme prelaska u brzinski/krstareći režim"
+
+msgid "tank_params/yoh_s_s"
+msgstr "(glavna/rez. u s)"
+
+msgid "tankmanRecruitRenderer/commander"
+msgstr "Regrutuj komandira"
+
+msgid "tankmanRecruitRenderer/descr"
+msgstr "Regrutuj člana posade"
+
+msgid "tankmanRecruitRenderer/driver"
+msgstr "Regrutuj vozača"
+
+msgid "tankmanRecruitRenderer/gunner"
+msgstr "Regrutuj nišandžiju"
+
+msgid "tankmanRecruitRenderer/loader"
+msgstr "Regrutuj punioca"
+
+msgid "tankmanRecruitRenderer/personalCase"
+msgstr "Otvori profil"
+
+msgid "tankmanRecruitRenderer/radioman"
+msgstr "Regrutuj radio operatera"
+
+msgid "tankmanRecruitRenderer/unload"
+msgstr "Pošalji u barake"
+
+msgid "tankmanRetrainingBtn/free"
+msgstr "Besplatno"
+
+msgid "tankmanTrainingButton2/retrainingTo"
+msgstr "Preobuka do nivoa:"
+
+msgid "tankmanTrainingButton2/trainingTo"
+msgstr "Treniraj do nivoa:"
+
+msgid "tankmanTrainingWindow/academy"
+msgstr "Oklopna akademija"
+
+msgid "tankmanTrainingWindow/blank"
+msgstr "Retrening"
+
+msgid "tankmanTrainingWindow/closeBtn"
+msgstr "Otkaži"
+
+msgid "tankmanTrainingWindow/free"
+msgstr "Ubrzani kurs"
+
+msgid "tankmanTrainingWindow/free/price"
+msgstr "Besplatno"
+
+msgid "tankmanTrainingWindow/scool"
+msgstr "Pukovska škola"
+
+msgid "tankmanTrainingWindow/title"
+msgstr "Obučavanje posade"
+
+msgid "tankmanTrainingWindow/trainingTo"
+msgstr "Nivo treninga:"
+
+msgid "tankmen/AT-SPG"
+msgstr "Lovci tenkova"
+
+msgid "tankmen/SPG"
+msgstr "Artiljerija"
+
+msgid "tankmen/heavyTank"
+msgstr "Teški tenk"
+
+msgid "tankmen/lightTank"
+msgstr "Laki tenk"
+
+msgid "tankmen/lockReason/broken"
+msgstr "(Vozilo oštećeno)"
+
+msgid "tankmen/lockReason/disabled"
+msgstr "(Nedostupno)"
+
+msgid "tankmen/lockReason/inbattle"
+msgstr "(U bitci)"
+
+msgid "tankmen/lockReason/prebattle"
+msgstr "(Čeka na bitku)"
+
+msgid "tankmen/mediumTank"
+msgstr "Srednji tenk"
+
+msgid "timeLeft/full/day"
+msgstr "{day} d {hour} h"
+
+msgid "timeLeft/full/hour"
+msgstr "{hour} h {min} min"
+
+msgid "timeLeft/full/lessMin"
+msgstr "1 min"
+
+msgid "timeLeft/full/min"
+msgstr "{min} min"
+
+msgid "timeLeft/short/day"
+msgstr "{day} d"
+
+msgid "timeLeft/short/hour"
+msgstr "{hour} h"
+
+msgid "timeLeft/short/lessMin"
+msgstr "1 min"
+
+msgid "timeLeft/short/min"
+msgstr "{min} min"
+
+msgid "trade/in"
+msgstr "Dostupno za razmenu"
+
+msgid "training/additionalInfo/freeSuppliesComp7"
+msgstr "Municjia, potrošni materijal i direktive sada mogu biti korišćeni besplatno na mapama Juriša"
+
+msgid "training/additionalInfo/vehicleRequired3"
+msgstr "Moraš da imaš najmanje 3 pogodna vozila za ovaj režim. Pogledaj stranicu O Jurišu za detalje."
+
+msgid "training/create/battleTime"
+msgstr "Trajanje borbe:"
+
+msgid "training/create/battleTime/disabled/body"
+msgstr "Trajanje ovog tipa borbe ne može biti promenjeno."
+
+msgid "training/create/closeButton"
+msgstr "Zatvori"
+
+msgid "training/create/createButton"
+msgstr "Kreiraj"
+
+msgid "training/create/description"
+msgstr "Opis:"
+
+msgid "training/create/mapSelect"
+msgstr "Izaberi mapu:"
+
+msgid "training/create/maxPlayers"
+msgstr "Maksimalan broj igrača:"
+
+msgid "training/create/privacy"
+msgstr "Po pozivu"
+
+msgid "training/create/title"
+msgstr "Kreiraj trening sobu"
+
+msgid "training/createButton"
+msgstr "Kreiraj Sobu"
+
+msgid "training/description"
+msgstr "U trening bitkama ne zarađujete ni kredite ni iskustvo. Popravke i sve ostalo osim granata, potrošnog materijala i direktiva je besplatno."
+
+msgid "training/info/deleteButton"
+msgstr "Obriši sobu"
+
+msgid "training/info/exitButton"
+msgstr "Izađi iz sobe"
+
+msgid "training/info/inviteButton"
+msgstr "Pozovi..."
+
+msgid "training/info/map"
+msgstr "{%s}:"
+
+msgid "training/info/maxPlayers"
+msgstr "Igrači:"
+
+msgid "training/info/notUseChat"
+msgstr "ne"
+
+msgid "training/info/observer"
+msgstr "Gledaoc"
+
+msgid "training/info/otherLabel"
+msgstr "Neraspoređeni igrači: %(total)s"
+
+msgid "training/info/owner"
+msgstr "Komandir:"
+
+msgid "training/info/settings/okButton"
+msgstr "Promeni"
+
+msgid "training/info/settings/title"
+msgstr "Podešavanje trening sobe"
+
+msgid "training/info/settingsButton"
+msgstr "Modifikuj sobu"
+
+msgid "training/info/startButton"
+msgstr "Pokreni bitku"
+
+msgid "training/info/states/state0"
+msgstr "?empty?"
+
+msgid "training/info/states/state1"
+msgstr "otišao"
+
+msgid "training/info/states/state17"
+msgstr "nije u igri"
+
+msgid "training/info/states/state2"
+msgstr "otišao"
+
+msgid "training/info/states/state20"
+msgstr "nije u igri"
+
+msgid "training/info/states/state24"
+msgstr "nije u igri"
+
+msgid "training/info/states/state4"
+msgstr "?empty?"
+
+msgid "training/info/states/state8"
+msgstr "U bici"
+
+msgid "training/info/team1Label"
+msgstr "Tim 1 [%(total)s]"
+
+msgid "training/info/team2Label"
+msgstr "Tim 2 [%(total)s]"
+
+msgid "training/info/timeout/label"
+msgstr "Vreme Bitke:"
+
+msgid "training/info/timeout/value"
+msgstr "%(roundLength)s minuta"
+
+msgid "training/info/title"
+msgstr "Trening soba (%(arenaName)s)"
+
+msgid "training/info/useCommonVoiceChat"
+msgstr "Opšte"
+
+msgid "training/info/useSeparateVoipChat"
+msgstr "Tim"
+
+msgid "training/info/voiceChat"
+msgstr "Glasovna komunikacija:"
+
+msgid "training/invitations/title"
+msgstr "Pošalji pozive"
+
+msgid "training/joinButton"
+msgstr "Uđi"
+
+msgid "training/leaveButton"
+msgstr "Izlaz iz moda"
+
+msgid "training/listTitle"
+msgstr "Spisak trening soba"
+
+msgid "training/notificationText/freeSupplies"
+msgstr "Besplatan potrošni materijal"
+
+msgid "training/notificationText/onlyTierX"
+msgstr "Samo vozila X nivoa"
+
+msgid "training/notificationText/vehicleRequired3"
+msgstr "Potrebna su višestruka vozila"
+
+msgid "training/ownerTitle"
+msgstr "Komandir"
+
+msgid "training/playersLabel"
+msgstr "Igrača: %(playersTotal)s"
+
+msgid "training/playersTitle"
+msgstr "Igrači"
+
+msgid "training/roomsLabel"
+msgstr "Trening sobe: %(roomsTotal)s"
+
+msgid "training/title"
+msgstr "Trening bitke"
+
+msgid "unlocks/exchangeButton"
+msgstr "Konvertovanje"
+
+msgid "unlocks/unlockButton"
+msgstr "Izučavanje"
+
+msgid "unlocks/xpToTmenCheckbox"
+msgstr "Ubrzaj trening posade"
+
+msgid "validation/publicInfo/abbrev/invalid"
+msgstr "Unesen je nedozvoljeni simbol.\nDozvoljeni su: Latinična slova, brojevi 0-9, simboli \"-\" i \"_\".\nPrimer upita: \"[WG-A]\"."
+
+msgid "validation/publicInfo/abbrev/invalid/CN"
+msgstr "Netačan / previše simbola je unešeno!\nDozvoljeni su: Latinična slova,Korejski i Kineski znaci, brojevi 0-9, simboli \"-\" i \"_\".\nPrimer upita: \"[WG-A]\"."
+
+msgid "validation/publicInfo/abbrev/invalid/KR"
+msgstr "Netačan / previše simbola je unešeno!\nDozvoljeni su: Latinična slova, znaci specifični za vaš jezik, brojevi 0-9, simboli \"-\" i \"_\".\nPrimer upita: \"[WG-A]\"."
+
+msgid "validation/publicInfo/abbrev/ours"
+msgstr "Uneli ste tag svog klana. "
+
+msgid "vehParams/armor"
+msgstr "Izdržljivost"
+
+msgid "vehParams/firepower"
+msgstr "Vatrena moć"
+
+msgid "vehParams/mobility"
+msgstr "Pokretljivost"
+
+msgid "vehParams/reconnaissance"
+msgstr "Opažanje"
+
+msgid "vehicle/igrRentLeft/days"
+msgstr "dana: %(days)s"
+
+msgid "vehicle/igrRentLeft/hours"
+msgstr "sati: %(hours)s"
+
+msgid "vehicle/rentLeft/battles"
+msgstr "Borbi preostalo: %(battles)s"
+
+msgid "vehicle/rentLeft/days"
+msgstr "Dana rente: %(days)s"
+
+msgid "vehicle/rentLeft/epic/base"
+msgstr "Iznajmljivanje za FL"
+
+msgid "vehicle/rentLeft/epic/days"
+msgstr "Iznajmljivanje na %(days)s d"
+
+msgid "vehicle/rentLeft/epic/season"
+msgstr "Sezona %(season)s"
+
+msgid "vehicle/rentLeft/hours"
+msgstr "Sati rente: %(hours)s"
+
+msgid "vehicle/rentLeft/wins"
+msgstr "Preostalo pobeda: %(wins)s"
+
+msgid "vehicle/restoreCooldownLeft/days"
+msgstr "Povratak će biti dostupan za %(time)s d"
+
+msgid "vehicle/restoreCooldownLeft/hours"
+msgstr "Povratak će biti dostupan za %(time)s sati."
+
+msgid "vehicle/restoreLeft/days"
+msgstr "Dostupno za povratak za još %(time)s d"
+
+msgid "vehicle/restoreLeft/disabledByRent"
+msgstr "Nije dostupno do kraja rentiranja"
+
+msgid "vehicle/restoreLeft/hours"
+msgstr "Dostupno za povratak za još %(time)s s"
+
+msgid "vehicle/restoreLeft/unlim"
+msgstr "Povratak dostupan"
+
+msgid "vehicleIgr/days"
+msgstr "Specijalna vozila %(igrIcon)s su dostupna još, dana: %(days)s"
+
+msgid "vehicleIgr/hours"
+msgstr "Specijalna vozila %(igrIcon)s su dostupna još, sati: %(hours)s"
+
+msgid "vehicleInfo/closeBtn"
+msgstr "Zatvori"
+
+msgid "vehicleInfo/compareBtn/label"
+msgstr "Dodaj na poredjenje"
+
+msgid "vehicleInfo/compareBtn/tooltip/body"
+msgstr "Da bi dodao vozilo u poređenje, ukloni nerelevantna vozila iz liste za poređenje."
+
+msgid "vehicleInfo/compareBtn/tooltip/header"
+msgstr "Dodavanje nije moguće"
+
+msgid "vehicleInfo/nationChangeBtn/label"
+msgstr "Promena nacije"
+
+msgid "vehicleInfo/params/aimingTime"
+msgstr "Vreme nišanjenja (s)"
+
+msgid "vehicleInfo/params/autoReloadTime"
+msgstr "Vreme za automatsko punjenje jedne granate (s)"
+
+msgid "vehicleInfo/params/autoReloadTimeBoost"
+msgstr "Standardno vreme za automatsko punjenje jedne granate (a)"
+
+msgid "vehicleInfo/params/autoShootClipFireRate"
+msgstr "Punjenje (šaržer/količina)"
+
+msgid "vehicleInfo/params/avgDamage"
+msgstr "Prosečna šteta po granati"
+
+msgid "vehicleInfo/params/avgDamagePerMinute"
+msgstr "Prosečna šteta po minutu"
+
+msgid "vehicleInfo/params/avgDamagePerSecond"
+msgstr "Šteta po sekundi (poena/s)"
+
+msgid "vehicleInfo/params/avgPiercingPower"
+msgstr "Prosečna probojnost"
+
+msgid "vehicleInfo/params/burstFireRate"
+msgstr "Kontejner granata (s/količina/količina)"
+
+msgid "vehicleInfo/params/chargeTime"
+msgstr "Priprema salve (s)"
+
+msgid "vehicleInfo/params/chassisRepairTime"
+msgstr "Vreme popravke vešanja (s)"
+
+msgid "vehicleInfo/params/chassisRepairTimeYoh"
+msgstr "Vreme popravke vešanja (glavna/rez. u s)"
+
+msgid "vehicleInfo/params/chassisRotationSpeed"
+msgstr "Brzina okretanja (step/sek)"
+
+msgid "vehicleInfo/params/circularVisionRadius"
+msgstr "Vidokrug (m)"
+
+msgid "vehicleInfo/params/clipFireRate"
+msgstr "Ponovno punjenje (magazin/granata ili šaržer/količina)"
+
+msgid "vehicleInfo/params/continuousShotsPerMinute"
+msgstr "Brzina konstantne vatre (granata/min)"
+
+msgid "vehicleInfo/params/dualAccuracyCoolingDelay"
+msgstr "Vreme hlađenja topa nakon pucanja (s)"
+
+msgid "vehicleInfo/params/enginePower"
+msgstr "Snaga motora (k.s.)"
+
+msgid "vehicleInfo/params/enginePowerPerTon"
+msgstr "Snaga motora (KS/t)"
+
+msgid "vehicleInfo/params/gunYawLimits"
+msgstr "Horizontalni limit otklona topa (stepeni)"
+
+msgid "vehicleInfo/params/hullArmor"
+msgstr "Oklop trupa (napred/strane/nazad, mm)"
+
+msgid "vehicleInfo/params/invisibility"
+msgstr "Sakrivenost pokretnog/nepokretnog vozila (%)"
+
+msgid "vehicleInfo/params/invisibilityMovingFactor"
+msgstr "Skrivenost vozila u pokretu (%)"
+
+msgid "vehicleInfo/params/invisibilityStillFactor"
+msgstr "Sakrivenost nepokretnog vozila (%)"
+
+msgid "vehicleInfo/params/maxHealth"
+msgstr "Izdržljivost (HP)"
+
+msgid "vehicleInfo/params/maxSteeringLockAngle"
+msgstr "Maksimalan ugao zaokretaja točka (stepeni)"
+
+msgid "vehicleInfo/params/piercingPower"
+msgstr "Prosečna probojnost (mm)"
+
+msgid "vehicleInfo/params/pitchLimits"
+msgstr "Uglovi spuštanja/podizanja topa (step)"
+
+msgid "vehicleInfo/params/radioDistance"
+msgstr "Domet signala (m)"
+
+msgid "vehicleInfo/params/rateTime"
+msgstr "Vreme između pucanja i prelaska na napunjen top (s)"
+
+msgid "vehicleInfo/params/reloadTime"
+msgstr "Brzina paljbe (granata/min)"
+
+msgid "vehicleInfo/params/reloadTimeSecs"
+msgstr "Punjenje topa (s)"
+
+msgid "vehicleInfo/params/rocketAccelerationEnginePower"
+msgstr "Snaga motora (sa busterima) (k.s.)"
+
+msgid "vehicleInfo/params/rocketAccelerationReuseAndDuration"
+msgstr "Mlazni busteri (broj/trajanje)"
+
+msgid "vehicleInfo/params/rocketAccelerationSpeedLimits"
+msgstr "Maks. brzina/unazad (sa busterima) (km/h)"
+
+msgid "vehicleInfo/params/shotDispersionAngle"
+msgstr "Rasipanje na 100m (m)"
+
+msgid "vehicleInfo/params/shotSpeed"
+msgstr "Brzina leta"
+
+msgid "vehicleInfo/params/speedLimits"
+msgstr "Maksimalna brzina/brzina unazad (km/h)"
+
+msgid "vehicleInfo/params/stunMaxDuration"
+msgstr "Maksimalno trajanje šoka (s)"
+
+msgid "vehicleInfo/params/stunMinDuration"
+msgstr "Minimalno trajanje šoka (s)"
+
+msgid "vehicleInfo/params/switchOffTime"
+msgstr "Vreme prelaska u marševski režim (s)"
+
+msgid "vehicleInfo/params/switchOnTime"
+msgstr "Vreme prelaska u opsadni režim (s)"
+
+msgid "vehicleInfo/params/switchTime"
+msgstr "Prelazak na opsadni / marševski režim (s)"
+
+msgid "vehicleInfo/params/temperatureAvgDamagePerMinute"
+msgstr "Prosečna šteta po minutu"
+
+msgid "vehicleInfo/params/temperatureReloadTime"
+msgstr "Brzina paljbe (granata/min)"
+
+msgid "vehicleInfo/params/turboshaftBurstFireRate"
+msgstr "Kontejner granata (turbo) (s/količina/količina)"
+
+msgid "vehicleInfo/params/turboshaftEnginePower"
+msgstr "Snaga motora (Turbo) (k.s.)"
+
+msgid "vehicleInfo/params/turboshaftInvisibilityMovingFactor"
+msgstr "Skrivenost vozila u pokretu (Turbo) (%)"
+
+msgid "vehicleInfo/params/turboshaftInvisibilityStillFactor"
+msgstr "Sakrivenost nepokretnog vozila (Turbo) (%)"
+
+msgid "vehicleInfo/params/turboshaftSpeedModeSpeed"
+msgstr "Maksimalna brzina / brzina unazad (Turbo) (km/h)"
+
+msgid "vehicleInfo/params/turboshaftSwitchTime"
+msgstr "Vreme za prebacivanje režima motora (na turbo/na standard) (s)"
+
+msgid "vehicleInfo/params/turretArmor"
+msgstr "Oklop kupole (napred/strane/nazad, mm)"
+
+msgid "vehicleInfo/params/turretRotationSpeed"
+msgstr "Brzina okretanja topa (step/sek)"
+
+msgid "vehicleInfo/params/turretYawLimits"
+msgstr "Uglovi rotiranja kupole (stepeni)"
+
+msgid "vehicleInfo/params/twinGunReloadTime"
+msgstr "Punjenje topa (režim pojedinačne vatre/režim salve) (s)"
+
+msgid "vehicleInfo/params/twinGunSwitchFireModeTime"
+msgstr "Vreme promene režima vatre (s)"
+
+msgid "vehicleInfo/params/twinGunTopSpeed"
+msgstr "Maks. brzina napred/unazad (pojedinačna vatra/salvo) (km/h)"
+
+msgid "vehicleInfo/params/vehicleWeight"
+msgstr "Težina (t)"
+
+msgid "vehicleInfo/params/wheeledSpeedModeSpeed"
+msgstr "Maksimalna brzina/brzina u nazad (ubrzano, km/h)"
+
+msgid "vehicleInfo/params/wheeledSwitchOffTime"
+msgstr "Vreme prelaska u krstareći režim (s)"
+
+msgid "vehicleInfo/params/wheeledSwitchOnTime"
+msgstr "Vreme prelazka u brzinski režim (s)"
+
+msgid "vehicleInfo/params/wheeledSwitchTime"
+msgstr "Vreme prelaza na brzinski / krstareći režim (s)"
+
+msgid "vehicleInfo/stats/avgExperience"
+msgstr "Srednje iskustvo po borbi"
+
+msgid "vehicleInfo/stats/battlesCount"
+msgstr "Učetvovao u bitkama"
+
+msgid "vehicleInfo/stats/damageDealt"
+msgstr "Naneta štete"
+
+msgid "vehicleInfo/stats/defender"
+msgstr "Branilac"
+
+msgid "vehicleInfo/stats/frags"
+msgstr "Uništeno"
+
+msgid "vehicleInfo/stats/heroes"
+msgstr "Heroj bitke"
+
+msgid "vehicleInfo/stats/hits"
+msgstr "Pogoci"
+
+msgid "vehicleInfo/stats/invader"
+msgstr "Osvajač"
+
+msgid "vehicleInfo/stats/lastBattleTime"
+msgstr "Poslednja bitka"
+
+msgid "vehicleInfo/stats/losses"
+msgstr "Porazi"
+
+msgid "vehicleInfo/stats/medalKay"
+msgstr "Stepen Kejeve medalje"
+
+msgid "vehicleInfo/stats/scout"
+msgstr "Izviđač"
+
+msgid "vehicleInfo/stats/shots"
+msgstr "Hitaca"
+
+msgid "vehicleInfo/stats/sniper"
+msgstr "\"Snajper\""
+
+msgid "vehicleInfo/stats/steelwall"
+msgstr "Čelični zid"
+
+msgid "vehicleInfo/stats/supporter"
+msgstr "Podrška"
+
+msgid "vehicleInfo/stats/survivedBattles"
+msgstr "Preživeo borbi"
+
+msgid "vehicleInfo/stats/warrior"
+msgstr "Najbolji tenkista"
+
+msgid "vehicleInfo/stats/wins"
+msgstr "Pobeda"
+
+msgid "vehicleInfo/stats/xp"
+msgstr "Ukupno iskustvo"
+
+msgid "vehicleInfo/tabs/base"
+msgstr "Konfiguracija"
+
+msgid "vehicleInfo/tabs/crew"
+msgstr "Posada"
+
+msgid "vehicleInfo/tabs/properties"
+msgstr "Karakteristike"
+
+msgid "vehicleInfo/tabs/statistic"
+msgstr "Dosije službe"
+
+msgid "vehicleInfo/title"
+msgstr "- Karakteristike"
+
+msgid "vehiclePreview/endTime"
+msgstr "Ponuda je istekla"
+
+msgid "vehiclePreview/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "vehiclePreview/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "vehiclePreview/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "vehiclePreview/timeLeftShort/hours"
+msgstr "%(hour)s h"
+
+msgid "vehiclePreview/timeLeftShort/lessMin"
+msgstr "01 min"
+
+msgid "vehiclePreview/timeLeftShort/min"
+msgstr "%(min)s min"
+
+msgid "vehicleRestore/timeLeftShort/days"
+msgstr "%(day)sd"
+
+msgid "vehicleRestore/timeLeftShort/hours"
+msgstr "%(hour)sč %(min)smin"
+
+msgid "vehicleRestore/timeLeftShort/lessMin"
+msgstr "01m."
+
+msgid "vehicleRestore/timeLeftShort/min"
+msgstr "%(min)smin."
+
+msgid "vehiclesCarousel/contextMenu/vehicleCheck"
+msgstr "Označi kao primarni"
+
+msgid "vehiclesCarousel/contextMenu/vehicleInfo"
+msgstr "Detalji"
+
+msgid "vehiclesCarousel/contextMenu/vehicleResearch"
+msgstr "Tehnološko stablo"
+
+msgid "vehiclesCarousel/contextMenu/vehicleSell"
+msgstr "Prodaj"
+
+msgid "vehiclesCarousel/contextMenu/vehicleUncheck"
+msgstr "Opozovite osnovnu oznaku"
+
+msgid "viewHeader/aboutBtn/label"
+msgstr "O DOGAĐAJU"
+
+msgid "viewHeader/backBtn/descrLabel/battleMatters"
+msgstr "KA OKLOPNOJ AKADEMIJI"
+
+msgid "viewHeader/backBtn/descrLabel/hangar"
+msgstr "U GARAŽU"
+
+msgid "viewHeader/backBtn/descrLabel/preview"
+msgstr "KA PREGLEDU"
+
+msgid "viewHeader/backBtn/descrLabel/research"
+msgstr "Na %(tankName)s"
+
+msgid "viewHeader/backBtn/descrLabel/storage"
+msgstr "U DEPO"
+
+msgid "viewHeader/backBtn/descrLabel/techtree"
+msgstr "KA TEHNOLOŠKOM STABLU"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/china"
+msgstr "KA KINESKOM TEHNOLOŠKOM STABLU"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/czech"
+msgstr "KA ČEHOSLOVAČKOM TEHNOLOŠKOM STABLU"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/france"
+msgstr "KA FRANCUSKOM TEHNOLOŠKOM STABLU"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/germany"
+msgstr "KA NEMAČKOM TEHNOLOŠKOM STABLU"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/italy"
+msgstr "KA ITALIJANSKOM TEHNOLOŠKOM STABLU"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/japan"
+msgstr "KA JAPANSKOM TEHNOLOŠKOM STABLU"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/poland"
+msgstr "KA POLJSKOM TEHNOLOŠKOM STABLU"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/sweden"
+msgstr "KA ŠVEDSKOM TEHNOLOŠKOM STABLU"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/uk"
+msgstr "KA BRITANSKOM TEHNOLOŠKOM STABLU"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/usa"
+msgstr "KA SAD TEHNOLOŠKOM STABLU"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/ussr"
+msgstr "KA SSSR TEHNOLOŠKOM STABLU"
+
+msgid "viewHeader/backBtn/label"
+msgstr "NAZAD"
+
+msgid "viewHeader/closeBtn/label"
+msgstr "ZATVORI"
+
+msgid "viewHeader/infoBtn/label"
+msgstr "INFORMACIJE"

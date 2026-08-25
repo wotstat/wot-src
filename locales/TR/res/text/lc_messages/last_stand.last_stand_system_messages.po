@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Taktik Cihaz"
+
+msgid "open_artefact/server_error"
+msgstr "İşlem geçici olarak yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "%s için Taktik Cihazlar ikmal edilemedi. Teknik sorun."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "%s için Taktik Cihazlar ikmal edilemedi. Yetersiz para."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "%s için Taktik Cihazlar ikmal edildi. Harcadığınız: "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Deşifre edilebilecek kayıtlar"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Kip: Son Direniş: Terra Nord"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Son Direniş: Terra Nord (Normal)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Son Direniş: Terra Nord (İleri)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Son Direniş: Terra Nord (Vahşi)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Zorluk Seviyesi"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Normal"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "İleri"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Vahşi"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Veri"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Hedef tamamlandı!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Hedefler tamamlandı!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Araç"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Tamamlanan dalgalar: %(curPhase)s / %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "%(money)s harcandı"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Finansal İşlem"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Zorluk seviyesini Son Direniş Garajındaki zorluk panelinden seçebilirsiniz."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "İleri Zorluk Seviyesi Açıldı"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Zorluk seviyesini Son Direniş Garajındaki zorluk panelinden seçebilirsiniz."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Vahşi Zorluk Seviyesi Açıldı"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Kipi Son Direniş: Pandora Operasyonu Garajındaki zorluk panelinden seçebilirsiniz."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Son Direniş Modu Açıldı"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Alınan Deşifre Anahtarları: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Alındı"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Anahtar çıkarıldı: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Deşifre Başarılı"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Son Direniş savaşları geçici olarak devre dışı.\nDaha sonra tekrar deneyin."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "%(difficulty)s zorluktaki savaşlar geçici olarak devre dışı. Daha sonra tekrar deneyin."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Son Direniş savaşları şu anda devre dışı. Güncellemeler için oyun portalına bakın."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Takım Komutanı zorluk seviyesini %(level)s olarak değiştirdi."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "%(userName)s oyuncusu zorluk seviyelerinden birini açmadı."

@@ -1,0 +1,689 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CSAnimation/applyBtn/label"
+msgstr "Selvä!"
+
+msgid "CSAnimation/description"
+msgstr "Onneksi olkoon! Joukkueesi on siirtynyt seuraavaan divisioonaan. Niin sitä pitää!"
+
+msgid "CSAnimation/header"
+msgstr "Vaihda divisioonaa"
+
+msgid "InvitesAndRequestsWindow/accepted"
+msgstr "Hyväksytty"
+
+msgid "InvitesAndRequestsWindow/cancelled"
+msgstr "Peruutettu"
+
+msgid "InvitesAndRequestsWindow/officerDescription"
+msgstr "Joukkueen jäsenet—manuaalisesti luotu joukkue kavereita ja sopivia pelaajia."
+
+msgid "InvitesAndRequestsWindow/onlyInvitesCheckbox"
+msgstr "Näytä vain lähetetyt kutsut"
+
+msgid "InvitesAndRequestsWindow/ownerDescription"
+msgstr "Joukkueen jäsenet—manuaalisesti luotu joukkue kavereita ja sopivia pelaajia."
+
+msgid "InvitesAndRequestsWindow/playerName"
+msgstr "Nimi"
+
+msgid "InvitesAndRequestsWindow/rejected"
+msgstr "Hylätty"
+
+msgid "InvitesAndRequestsWindow/status"
+msgstr "Tila"
+
+msgid "InvitesAndRequestsWindow/title"
+msgstr "Lähetetyt kutsut ja hakemukset"
+
+msgid "InvitesAndRequestsWindow/windowTitle"
+msgstr "Hakemukset ja kutsut"
+
+msgid "StaticFormationStatsView/seasonFilter"
+msgstr "Tilastot:"
+
+msgid "TextLoading/loading"
+msgstr "Ladataan"
+
+msgid "button/chooseVehicles/info/tooltip/description/notSelected"
+msgstr "Vaunuja ei valittuna. Ei voida aloittaa automaattista hakua."
+
+msgid "button/chooseVehicles/info/tooltip/description/notValid"
+msgstr "Valittu vaunu ei ole valmis. Ei voida aloittaa automaattista hakua."
+
+msgid "button/chooseVehicles/info/tooltip/description/valid"
+msgstr "Vaaditut vaunut on valittuna. Voit aloittaa automaattisen haun."
+
+msgid "button/chooseVehicles/info/tooltip/title"
+msgstr "Vaunun valitseminen"
+
+msgid "button/chooseVehicles/selected"
+msgstr "Valittu vaunu"
+
+msgid "button/medallion/addSlotSettings"
+msgstr "Lisää"
+
+msgid "button/medallion/availableQuantity"
+msgstr "Sopivia:"
+
+msgid "button/medallion/chooseVehicle"
+msgstr "Valitse vaunu"
+
+msgid "introView/leftBlock/btnLabel"
+msgstr "Etsi"
+
+msgid "introView/leftBlock/descr"
+msgstr "Valitse sopiva joukkue olemassaolevien joukkueiden listasta. Sinun täytyy täyttää komentajan asettamat vaatimukset."
+
+msgid "introView/leftBlock/header"
+msgstr "Etsi joukkuetta"
+
+msgid "introView/rightBlock/btnLabel"
+msgstr "Luo"
+
+msgid "introView/rightBlock/descr"
+msgstr "Luo joukkue ystävien tai sopivia vaunuja omistavien pelaajien kanssa."
+
+msgid "introView/rightBlock/header"
+msgstr "Luo joukkue"
+
+msgid "rallyInfo/profileBtn/Label"
+msgstr "Joukkueen profiili"
+
+msgid "respawn/chatHeader"
+msgstr "Chat-kanava"
+
+msgid "respawn/enemyTeamStatus/Header"
+msgstr "Vihollisjoukkue:"
+
+msgid "respawn/enemyTeamStatus/notReady"
+msgstr "Ei valmis"
+
+msgid "respawn/enemyTeamStatus/ready"
+msgstr "Valmis!"
+
+msgid "respawn/fight/label"
+msgstr "Joukkue valmis!"
+
+msgid "respawn/fight/status/commander"
+msgstr "Varmista, että joukkue on valmis."
+
+msgid "respawn/fight/status/private"
+msgstr "Odotetaan taistelua..."
+
+msgid "respawn/status/info"
+msgstr "Valitse vaunu annetun ajan sisällä."
+
+msgid "respawn/status/ready"
+msgstr "Odota taistelun alkamista..."
+
+msgid "respawn/status/warning"
+msgstr "Vahvista, että olet valmis."
+
+msgid "respawn/team/points"
+msgstr "Vaunujen kokonaistaso:"
+
+msgid "respawn/team/teamMembers"
+msgstr "Joukkueen jäseniä: %(current)s / %(max)s"
+
+msgid "respawn/team/teamVehiclesStub"
+msgstr "Vaunut: VI–VIII"
+
+msgid "selectedFormation/JoinUnitSection/header"
+msgstr "Valitse taisteluhuone"
+
+msgid "squadWindow/waitingForBattle"
+msgstr "Osasto on taistelujonossa"
+
+msgid "unitView/header"
+msgstr "Taisteluhuone"
+
+msgid "window/autoSearch/confirmation/cancelLbl"
+msgstr "Peruuta"
+
+msgid "window/autoSearch/confirmation/ctxMessage"
+msgstr "Aikaa jäljellä vahvistamiseen:"
+
+msgid "window/autoSearch/confirmation/ctxSeconds"
+msgstr "s"
+
+msgid "window/autoSearch/confirmation/headerText"
+msgstr "Löydettiin joukkue"
+
+msgid "window/autoSearch/confirmation/mainText"
+msgstr "Vahvista valmius"
+
+msgid "window/autoSearch/confirmation/submitlLbl"
+msgstr "Valmis!"
+
+msgid "window/autoSearch/errorState/cancelLbl"
+msgstr "Peruuta"
+
+msgid "window/autoSearch/errorState/ctxMessage"
+msgstr "Etsi uusi joukkue?"
+
+msgid "window/autoSearch/errorState/headerText"
+msgstr "Aika loppui"
+
+msgid "window/autoSearch/errorState/mainText"
+msgstr "Löydettiin joukkue,\nmutta et vahvistanut valmiutta."
+
+msgid "window/autoSearch/errorState/submitlLbl"
+msgstr "Etsi"
+
+msgid "window/autoSearch/searchCommand/cancelLbl"
+msgstr "Peruuta"
+
+msgid "window/autoSearch/searchCommand/ctxMessage"
+msgstr "Keskimääräinen odotusaika:"
+
+msgid "window/autoSearch/searchCommand/cxtDnmMessage"
+msgstr "%d min"
+
+msgid "window/autoSearch/searchCommand/mainText"
+msgstr "Etsitään sopivaa joukkuetta"
+
+msgid "window/autoSearch/searchEnemy/mainText"
+msgstr "Odotetaan taistelua…"
+
+msgid "window/autoSearch/searchEnemyRespawn/mainText"
+msgstr "Odotetaan vihollista..."
+
+msgid "window/autoSearch/waitingPlayers/mainText"
+msgstr "Odotetaan pelaajia..."
+
+msgid "window/backBtnLbl"
+msgstr "PALAA"
+
+msgid "window/intro/auto/btn"
+msgstr "Automaattihaku"
+
+msgid "window/intro/auto/btn/tooltip/description/disabled"
+msgstr "Ei voida etsiä joukkuetta. Vaunuja ei ole valittuna tai ne eivät ole valmiina taisteluun."
+
+msgid "window/intro/auto/btn/tooltip/description/enabled"
+msgstr "Klikkaa löytääksesi joukkue automaattisesti ja liity taisteluun välittömästi."
+
+msgid "window/intro/auto/btn/tooltip/title"
+msgstr "Automaattihaku"
+
+msgid "window/intro/auto/btnLbl"
+msgstr "Aloita automaattihaku"
+
+msgid "window/intro/auto/description"
+msgstr "Joukkueen pelaajat sovitetaan automaattisesti."
+
+msgid "window/intro/auto/title"
+msgstr "Etsi automaattisesti luokituksen mukaisesti"
+
+msgid "window/intro/auto/vehicleLbl"
+msgstr "Valitut vaunut:"
+
+msgid "window/intro/create/btn/addPlayers"
+msgstr "Kutsu"
+
+msgid "window/intro/create/btn/assembleTeam"
+msgstr "Kokoa joukkue"
+
+msgid "window/intro/create/btn/joinTeam"
+msgstr "Liity"
+
+msgid "window/intro/create/btn/look"
+msgstr "Lista joukkueista"
+
+msgid "window/intro/create/btn/private/seeStaff"
+msgstr "Joukkueen jäsenet"
+
+msgid "window/intro/description"
+msgstr "Osallistujat ovat vertaisia, 7 pelaajan joukkueita.\nVaunut on rajoitettu tasoille VI–VIII. Joukkueen vaunujen kokonaistason täytyy olla 54."
+
+msgid "window/intro/search/btn"
+msgstr "Etsi"
+
+msgid "window/intro/search/description"
+msgstr "Valitse sopiva joukkue olemassaolevien joukkueiden listasta. Sinun täytyy täyttää komentajan asettamat vaatimukset."
+
+msgid "window/intro/search/title"
+msgstr "Etsi joukkuetta"
+
+msgid "window/intro/team/description/createBattleRoom"
+msgstr "Luo taisteluhuone"
+
+msgid "window/intro/title"
+msgstr "Joukkuetaistelu"
+
+msgid "window/intro/unavailableWaiting"
+msgstr "Odotetaan..."
+
+msgid "window/rosterSlotSettings/bottomResult"
+msgstr "Valitut:"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/range"
+msgstr "Raja"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/vehicle"
+msgstr "Vaunut"
+
+msgid "window/rosterSlotSettings/title"
+msgstr "Aseta vaatimukset"
+
+msgid "window/rosterSlotSettings/vehicleTab/cancelBtn"
+msgstr "Peruuta"
+
+msgid "window/rosterSlotSettings/vehicleTab/headerText"
+msgstr "Määritä vaatimukset joukkuetoverisi vaunulle."
+
+msgid "window/rosterSlotSettings/vehicleTab/nationFieldSet"
+msgstr "Kansakunta"
+
+msgid "window/rosterSlotSettings/vehicleTab/submitBtn"
+msgstr "Valitse"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleLevel"
+msgstr "Vaunun taso"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleType"
+msgstr "Vaunutyyppi"
+
+msgid "window/staticRallyInfo/cancelBtnLabel"
+msgstr "Peruuta"
+
+msgid "window/staticRallyInfo/joinBtnLabel"
+msgstr "Lähetä hakemus"
+
+msgid "window/staticRallyInfo/joinInfo/alreadyJoined"
+msgstr "Olet jo jäsen toisessa joukkueessa."
+
+msgid "window/staticRallyInfo/joinInfo/applicationCooldown"
+msgstr "Ei voida lähettää hakemusta."
+
+msgid "window/staticRallyInfo/joinInfo/inProcess"
+msgstr "Hakemus odottaa hyväksyntää"
+
+msgid "window/staticRallyInfo/joinInfo/inProcessOther"
+msgstr "Hakemus on jo lähetetty."
+
+msgid "window/staticRallyInfo/joinInfo/join"
+msgstr "Lähetä hakemus"
+
+msgid "window/staticRallyInfo/ladderInfo"
+msgstr "Liiga %(league)s. Divisioona %(division)s"
+
+msgid "window/staticRallyInfo/noAwards"
+msgstr "Ei palkintoja"
+
+msgid "window/staticRallyInfo/noRallySelected"
+msgstr "Valitse joukkue vasemmalla olevasta listasta\nnähdäksesi yksityiskohtaisen kuvauksen."
+
+msgid "window/staticRallyInfo/staticRally/statsWinsPercent"
+msgstr "Voittosuhde"
+
+msgid "window/staticRallyInfo/statsBattlesCount"
+msgstr "Taistelua"
+
+msgid "window/title"
+msgstr "Joukkuetaistelu"
+
+msgid "window/unit/applySlotsSettings"
+msgstr "Hyväksy"
+
+msgid "window/unit/autoRecruit"
+msgstr "Värvää"
+
+msgid "window/unit/cancelSlotSettings"
+msgstr "Peruuta"
+
+msgid "window/unit/candidates"
+msgstr "Vapaaehtoiset"
+
+msgid "window/unit/candidates/legionaries"
+msgstr "Legioonalaiset"
+
+msgid "window/unit/candidates/team"
+msgstr "Joukkue"
+
+msgid "window/unit/chat"
+msgstr "Chat"
+
+msgid "window/unit/closeRoom"
+msgstr "— huone näkyvissä"
+
+msgid "window/unit/description"
+msgstr "Osallistujat ovat vertaisia, 7 pelaajan joukkueita.\nVaunut on rajoitettu tasoille VI–VIII. Joukkueen vaunujen kokonaistason täytyy olla 54."
+
+msgid "window/unit/descriptionDefault"
+msgstr "Lisää kuvaus —"
+
+msgid "window/unit/fight"
+msgstr "Taistele!"
+
+msgid "window/unit/inviteFriend"
+msgstr "Kutsu pelaajia"
+
+msgid "window/unit/leave"
+msgstr "Poistu huoneesta"
+
+msgid "window/unit/lockSlot"
+msgstr "Lukitse paikka"
+
+msgid "window/unit/message/candidate"
+msgstr "Joukkueen komentaja lisää sinut joukkueeseen."
+
+msgid "window/unit/message/curfew"
+msgstr "Tulitauko"
+
+msgid "window/unit/message/falloutGroupNotReady"
+msgstr "Yksi vaunuistasi ei ole valmis taisteluun"
+
+msgid "window/unit/message/falloutLevel"
+msgstr "Tarvitset vähintään yhden tason %(level)s vaunun."
+
+msgid "window/unit/message/falloutMin/levelRange"
+msgstr "Lisää tason %(level)s vaunuja ryhmään"
+
+msgid "window/unit/message/falloutMin/requiredLevel"
+msgstr "Valitse tason %(level)s vaunu"
+
+msgid "window/unit/message/fortificationNotAvailable"
+msgstr "\"Linnake: taistelut\" -tila on väliaikaisesti poissa käytöstä"
+
+msgid "window/unit/message/getNotReady"
+msgstr "Klikkaa osoittaaksesi, että et ole valmis"
+
+msgid "window/unit/message/getReady"
+msgstr "Vahvista valmius liittyä taisteluun."
+
+msgid "window/unit/message/has_frozen_vehicles"
+msgstr "Osastossa on tuhoutunut vaunu"
+
+msgid "window/unit/message/in_players_matching"
+msgstr "Erillisosasto on valmis: kootaan legioonalaiset automaattisesti..."
+
+msgid "window/unit/message/inactivePeriphery"
+msgstr " "
+
+msgid "window/unit/message/inactivePeripheryBattle"
+msgstr "Voit vahvistaa olevasi valmis 10 minuuttia ennen hyökkäysoperaation alkamista"
+
+msgid "window/unit/message/inactivePeripherySortie"
+msgstr "Voit vahvistaa olevasi valmis 10 minuuttia ennen kahakan alkamista"
+
+msgid "window/unit/message/invalidLevelError/6"
+msgstr "Joukkueessa sallitaan vain yksi tason VI vaunu."
+
+msgid "window/unit/message/invalidLevelError/6_7"
+msgstr "Sekä tason VI ja VII vaunuja ei sallita samassa joukkueessa."
+
+msgid "window/unit/message/invalidLevelError/7"
+msgstr "Vain kaksi tason VII vaunua sallitaan per joukkue."
+
+msgid "window/unit/message/invalidLevelError/unresolved"
+msgstr "Vaatimuksia vaunujen tasoille ei ole täytetty."
+
+msgid "window/unit/message/level"
+msgstr "Vaunujen kokonaistaso ei ole riittävä. Vaaditaan: %(level)d"
+
+msgid "window/unit/message/maintenance"
+msgstr "Tila väliaikaisesti pois käytöstä"
+
+msgid "window/unit/message/minSlots"
+msgstr "Vajaa kokoonpano"
+
+msgid "window/unit/message/play_limits_is_active"
+msgstr "Aikaraja ylitetty. Et voi liittyä uuteen taisteluun."
+
+msgid "window/unit/message/previewVehicleIsPresent"
+msgstr "Palaa talliin valitaksesi vaunun"
+
+msgid "window/unit/message/ready"
+msgstr "Erillisosasto on valmis: etsitään vastustajaa..."
+
+msgid "window/unit/message/squadInBattle"
+msgstr "Osasto on taistelussa"
+
+msgid "window/unit/message/takeSlotInRoster"
+msgstr "Liity erillisosastoon"
+
+msgid "window/unit/message/unitIsFull"
+msgstr "Komentaja lisää sinut joukkueeseen."
+
+msgid "window/unit/message/unitIsLocked"
+msgstr "Et ole joukkueen jäsen. Paikat on jäädytetty."
+
+msgid "window/unit/message/vehicleInNotReady/broken"
+msgstr "Vaunu ei ole valmiina taisteluun: vaaditaan korjauksia."
+
+msgid "window/unit/message/vehicleInNotReady/crewNotFull"
+msgstr "Vaunu ei ole valmiina taisteluun: miehistö on vajaa."
+
+msgid "window/unit/message/vehicleInNotReady/isInBattle"
+msgstr "Vaunu on taistelussa"
+
+msgid "window/unit/message/vehicleInNotReady/notEnoughVehicles"
+msgstr "Ei riittävästi soveltuvia vaunuja"
+
+msgid "window/unit/message/vehicleInNotReady/rentIsOver"
+msgstr "Vaunu ei ole valmiina taisteluun: vuokra-aika on päättynyt."
+
+msgid "window/unit/message/vehicleInNotReady/rotationGroupLocked"
+msgstr "Vaunu ei ole valmis: ryhmä %(groupNum)s on lukittu."
+
+msgid "window/unit/message/vehicleInNotReady/wrongMode"
+msgstr "Valittu vaunu ei ole sopiva tähän taistelutilaan."
+
+msgid "window/unit/message/vehicleInNotReady/wrongUnitData"
+msgstr "Valittu vaunu ei vastaa osaston komentajan parametreja"
+
+msgid "window/unit/message/vehicleNotSelected"
+msgstr "Valitse vaunu, jolla osallistut taisteluun."
+
+msgid "window/unit/message/vehicleNotValid"
+msgstr "Vaunu ei ole valmis taisteluun."
+
+msgid "window/unit/message/vehicleNotValidForEvent"
+msgstr "Valittu vaunu ei sovellu tähän tapahtumaan"
+
+msgid "window/unit/message/waitCommander"
+msgstr "Odotetaan komentajan päätöstä..."
+
+msgid "window/unit/message/waiting"
+msgstr "Odotetaan pelaajia..."
+
+msgid "window/unit/notReady"
+msgstr "Ei valmis"
+
+msgid "window/unit/openRoom"
+msgstr "— huone piilotettu"
+
+msgid "window/unit/rangeValue"
+msgstr "%(minVal)s – %(maxVal)s"
+
+msgid "window/unit/ready"
+msgstr "Valmis!"
+
+msgid "window/unit/rosterSettingsView/or"
+msgstr "tai"
+
+msgid "window/unit/slot/battleRoyale"
+msgstr "Yksi pelaaja tarvitaan lisää"
+
+msgid "window/unit/slot/emptySlot"
+msgstr "Tyhjä"
+
+msgid "window/unit/slot/freezed"
+msgstr "Jäädytetty"
+
+msgid "window/unit/slot/locked"
+msgstr "Lukittu"
+
+msgid "window/unit/slot/notAllowed"
+msgstr "Lukittu"
+
+msgid "window/unit/slot/notAvailable"
+msgstr "Lukittu"
+
+msgid "window/unit/slot/required"
+msgstr "Kutsu pelaajia."
+
+msgid "window/unit/slot/takePlace"
+msgstr "Ota paikka"
+
+msgid "window/unit/slotHeaderText"
+msgstr "Aseta vaatimukset"
+
+msgid "window/unit/slotSecondText"
+msgstr "Lisää vaatimuksia, jotka ilmoittavat mitä vaunuja haluat joukkueeseen. Kun lisäät pelaajia joukkueeseen, vaunuvaatimuksia ei lasketa."
+
+msgid "window/unit/team"
+msgstr "Joukkue"
+
+msgid "window/unit/teamMembers"
+msgstr "Jäseniä: %(current)s / %(max)s"
+
+msgid "window/unit/teamPoints"
+msgstr "Kokonaistaso:"
+
+msgid "window/unit/teamVehicles"
+msgstr "Vaunut:"
+
+msgid "window/unit/teamVehiclesLbl"
+msgstr "Vaunut: %(levelsRange)s"
+
+msgid "window/unit/teamVehiclesStub"
+msgstr "Vaunut: VI–VIII"
+
+msgid "window/unit/unitListView/captain"
+msgstr "Joukkueen komentaja"
+
+msgid "window/unit/unitListView/clubName"
+msgstr "Joukkueen nimi"
+
+msgid "window/unit/unitListView/commander"
+msgstr "Komentaja"
+
+msgid "window/unit/unitListView/description"
+msgstr "Kuvaus"
+
+msgid "window/unit/unitListView/paginationDown"
+msgstr "Heikommat"
+
+msgid "window/unit/unitListView/paginationUp"
+msgstr "Vahvemmat"
+
+msgid "window/unit/unitListView/players"
+msgstr "Kokoonpano"
+
+msgid "window/unit/unitName"
+msgstr "Joukkue %(commanderName)s"
+
+msgid "window/unit/unlockSlot"
+msgstr "Avaa paikka"
+
+msgid "window/unitListView/create/btn"
+msgstr "Luo huone"
+
+msgid "window/unitListView/enterBtn/common"
+msgstr "Vapaaehtoinen"
+
+msgid "window/unitListView/enterBtn/legionary"
+msgstr "Liity"
+
+msgid "window/unitListView/enterBtn/member"
+msgstr "Liity"
+
+msgid "window/unitListView/enterText/legionary"
+msgstr "Liity legioonalaisena"
+
+msgid "window/unitListView/enterText/member"
+msgstr "Liity joukkueeseen"
+
+msgid "window/unitListView/foundTeamsDescription"
+msgstr "Alla on lista joukkueista, jotka etsivät pelaajia ja joilla on vapaita paikkoja."
+
+msgid "window/unitListView/noItems"
+msgstr "Joukkueita ei löytynyt."
+
+msgid "window/unitListView/noSearchResults/btn"
+msgstr "Takaisin listaan"
+
+msgid "window/unitListView/noSearchResults/description"
+msgstr "Tämän nimistä joukkuetta ei löytynyt."
+
+msgid "window/unitListView/noSearchResults/header"
+msgstr "Ei hakutuloksia"
+
+msgid "window/unitListView/noTeams/description"
+msgstr "Ei löydetty joukkueita, jotka täyttävät hakuehdot. Yritä myöhemmin uudelleen."
+
+msgid "window/unitListView/noTeams/header"
+msgstr "Joukkueita ei löytynyt"
+
+msgid "window/unitListView/noUnitSelected"
+msgstr "Valitse joukkue vasemmalla olevasta listasta\nnähdäksesi sen tarkemmat tiedot."
+
+msgid "window/unitListView/refreshList"
+msgstr "Päivitä lista"
+
+msgid "window/unitListView/renderer/next"
+msgstr "Seuraava"
+
+msgid "window/unitListView/renderer/previous"
+msgstr "Edellinen"
+
+msgid "window/unitListView/renderer/requiredVehicles"
+msgstr "Vaaditut vaunut"
+
+msgid "window/unitListView/renderer/showMore"
+msgstr "Näytä 20 lisää"
+
+msgid "window/unitListView/selectedTeam"
+msgstr "Joukkue"
+
+msgid "window/unitListView/sort/label"
+msgstr "Luokitus:"
+
+msgid "window/unitListView/team"
+msgstr "Kokoonpano"
+
+msgid "window/unitListView/teamDescription"
+msgstr "Joukkueen kuvaus"
+
+msgid "window/unitListView/title"
+msgstr "Taisteluhuoneet"
+
+msgid "window/unitListView/vehicles"
+msgstr "Vaunut"
+
+msgid "window/vehicleSelector/buttons/cancel"
+msgstr "Peruuta"
+
+msgid "window/vehicleSelector/buttons/select"
+msgstr "Valitse"
+
+msgid "window/vehicleSelector/filters/all"
+msgstr "Kaikki"
+
+msgid "window/vehicleSelector/filters/allLevels"
+msgstr "Kaikki tasot"
+
+msgid "window/vehicleSelector/filters/level"
+msgstr "%(levelNum)d taso"
+
+msgid "window/vehicleSelector/filters/matches"
+msgstr "Näytä vain sopivat vaunut"
+
+msgid "window/vehicleSelector/info/intro"
+msgstr "Liityt taisteluun yhdellä valituista vaunuista. Sallitut tasot: VI–VIII.\n\nPelataksesi mahdollisimman mukavasti, valitse kevyt, keskiraskas, tai raskas vaunu."
+
+msgid "window/vehicleSelector/info/respawn"
+msgstr "Valitse tason VI–VIII vaunu, jolla haluat liittyä taisteluun."
+
+msgid "window/vehicleSelector/info/search"
+msgstr "Liityt taisteluun yhdellä valituista vaunuista. Sallitut tasot: VI–VIII"
+
+msgid "window/vehicleSelector/info/unit"
+msgstr "Valitse tason VI–VIII vaunu, jolla haluat liittyä taisteluun."
+
+msgid "window/vehicleSelector/title"
+msgstr "Vaunun valitseminen"

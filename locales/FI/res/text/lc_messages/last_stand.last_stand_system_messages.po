@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Taktinen laite"
+
+msgid "open_artefact/server_error"
+msgstr "Toiminto ei ole väliaikaisesti saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Taktisten laitteiden täydennys %s vaunulle epäonnistui. Tekninen virhe."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Taktisten laitteiden täydennys %s vaunulle epäonnistui. Varat eivät riitä."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Taktiset laitteet täydennetty %s vaunuun. Olet käyttänyt "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Tallenteita saatavilla purettavaksi"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Pelimuoto: Viimeiseen mieheen: Terra Nord"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Viimeiseen mieheen: Terra Nord (tavallinen)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Viimeiseen mieheen: Terra Nord (edistynyt)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Viimeiseen mieheen: Terra Nord (brutaali)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Vaikeustaso"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Tavallisen"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Edistyneen"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Brutaali"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Data"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Tavoite suoritettu!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Tavoitteet suoritettu!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Vaunu"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Aaltoja suoritettu: %(curPhase)s/%(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Käytettiin %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Rahasiirto"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Voit valita vaikeustason Viimeiseen mieheen tallin vaikeustaso-paneelista."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Edistynyt vaikeustaso avattu"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Voit valita vaikeustason Viimeiseen mieheen tallin vaikeustaso-paneelista."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Brutaali vaikeustaso avattu"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Voit valita pelimuodon Viimeiseen mieheen: Operaatio Pandoran tallin vaikeustaso-paneelista."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "\"Viimeiseen mieheen\" -pelimuoto avattu"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Salausavaimia saatu: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Kuitti"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Avaimia poistettu: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Salauksen purku onnistui"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Viimeiseen mieheen taistelut eivät ole väliaikaisesti saatavilla.\nYritä myöhemmin uudelleen."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "%(difficulty)s vaikeustason taistelut eivät ole juuri nyt saatavilla. Yritä myöhemmin uudestaan."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Viimeiseen mieheen ei ole tällä hetkellä saatavilla. Tarkasta päivitykset pelin portaalista."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Osaston komentaja on muuttanut vaikeustasoa: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Pelaaja %(userName)s ei ole avannut yhtä vaikeustasoista."

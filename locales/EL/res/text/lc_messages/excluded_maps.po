@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "backButton/label"
+msgstr "ΠΙΣΩ"
+
+msgid "backButton/to"
+msgstr "ΣΤΟΝ ΛΟΓΑΡΙΑΣΜΟ"
+
+msgid "filteredMapsDisplayed"
+msgstr "Χάρτες σε προβολή: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Προβολή/Απόκρυψη χαρτών αυτού του τύπου."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Χάρτες με Έρημο"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Χάρτες με Καλοκαίρι"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Χάρτες με Χειμώνα"
+
+msgid "header/cooldown"
+msgstr "Μπορείτε να αντικαταστήσετε εκ νέου έναν χάρτη σε %(cooldownEndTime)."
+
+msgid "header/title"
+msgstr "Αποκλεισμένοι Χάρτες"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Μπορείτε να αντικαταστήσετε εκ νέου αυτόν το χάρτη μετά από την επαναφορά του χρονικού ορίου."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Αδύνατη Η Αλλαγή Χάρτη"
+
+msgid "mapTile/hoverExclude"
+msgstr "Αποκλεισμός του χάρτη %(mapName)?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Αποκλεισμός"
+
+msgid "mapTile/hoverInclude"
+msgstr "Να περιλαμβάνεται ο χάρτης %(mapName) στις Κανονικές Τυχαίες Μάχες?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Να Περιλαμβάνεται"
+
+msgid "mapsFilterLabel"
+msgstr "Τύποι χαρτών:"
+
+msgid "notSelected"
+msgstr "Χωρίς Επιλογή"
+
+msgid "premium"
+msgstr "Προνομιακό WoT"
+
+msgid "slot/disabledTooltipBody"
+msgstr "Θα έχετε μία πρόσθετη θέση με Προνομιακό Λογαριασμό WoT ή ενεργή συνδρομή στο WoT Plus."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "Απαιτείται Προνομιακός Λογαριασμός WoT."
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Απαιτείται ενεργή συνδρομή στο WoT Plus."
+
+msgid "slot/replaceTooltipBody"
+msgstr "Επιλέξτε έναν χάρτη της παρακάτω λίστας για να τον αντικαταστήσετε ή να τον αποκλείσετε από τις Τυχαίες Μάχες."
+
+msgid "slot/selectTooltipBody"
+msgstr "Επιλέξτε έναν χάρτη της παρακάτω λίστας για να τον αποκλείσετε από τις Τυχαίες Μάχες."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Διαθέσιμη Θέση"
+
+msgid "totalMapsDisplayed"
+msgstr "Χάρτες σε προβολή: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "Αποκλείστε 1 πρόσθετο χάρτη με %(linkPremium) και %(mapCount)s πρόσθετους χάρτες με %(linkWotPlus)."
+msgstr[1] "Αποκλείστε 1 πρόσθετο χάρτη με %(linkPremium) και %(mapCount)s πρόσθετους χάρτες με %(linkWotPlus)."
+
+msgid "unlock/premium"
+msgstr "Αποκλείστε 1 πρόσθετο χάρτη με %(linkPremium)."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "Αποκλείστε %(mapCount)s πρόσθετο χάρτη με %(linkWotPlus)."
+msgstr[1] "Αποκλείστε %(mapCount)s πρόσθετους χάρτες με %(linkWotPlus)."
+
+msgid "wotplus"
+msgstr "WoT Plus"

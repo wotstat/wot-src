@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "domain/accuracy/description"
+msgstr "Diese Werten geben an, wie effektiv das Fahrzeug auf gegnerische Fahrzeuge feuern kann."
+
+msgid "domain/accuracy/name"
+msgstr "Feuereffektivität"
+
+msgid "domain/armorPiercing/description"
+msgstr "Diese Werte geben an, wie gut das Fahrzeug die gegnerische Panzerung durchschlagen kann."
+
+msgid "domain/armorPiercing/name"
+msgstr "Durchschlagskraft"
+
+msgid "domain/battleParams/description"
+msgstr "Diese Werte geben die Kernmechanik der Spielweise an."
+
+msgid "domain/battleParams/name"
+msgstr "Gefechtswerte"
+
+msgid "domain/comp7LightSeasonModifiers/description"
+msgstr "Für den Modus spezifische Modifikatoren, die die Werte des Fahrzeugs ändern."
+
+msgid "domain/comp7LightSeasonModifiers/name"
+msgstr "Modifikatoren für Ansturm Light"
+
+msgid "domain/comp7SeasonModifiers/description"
+msgstr "Für den Modus spezifische Modifikatoren, die die Werte des Fahrzeugs ändern."
+
+msgid "domain/comp7SeasonModifiers/name"
+msgstr "Ansturm-Modifikatoren"
+
+msgid "domain/concealment/description"
+msgstr "Diese Werte geben an, wie gut das Fahrzeug unentdeckt bleiben kann."
+
+msgid "domain/concealment/name"
+msgstr "Tarnung"
+
+msgid "domain/damageDealing/description"
+msgstr "Diese Werte geben die Fähigkeit eines Fahrzeugs an, Schaden zu verursachen."
+
+msgid "domain/damageDealing/name"
+msgstr "Schaden"
+
+msgid "domain/mobility/description"
+msgstr "Diese Werte geben die dynamischen Eigenschaften und Geschwindigkeit des Fahrzeuges wieder."
+
+msgid "domain/mobility/name"
+msgstr "Manövrierfähigkeit und Dynamik"
+
+msgid "domain/randomization/description"
+msgstr "Diese Werte geben die potenzielle Schwankung von Schaden und Durchschlagskraft an."
+
+msgid "domain/randomization/name"
+msgstr "Zufallswerte"
+
+msgid "domain/sustaining/description"
+msgstr "Diese Werte geben die Wiederherstellungsgeschwindigkeit für beschädigte Module und verletzte Besatzungsmitglieder an."
+
+msgid "domain/sustaining/name"
+msgstr "Reparaturfähigkeit"
+
+msgid "domain/visibility/description"
+msgstr "Diese Werte geben die Fähigkeit eines Fahrzeugs an, gegnerische Fahrzeuge aufzuklären."
+
+msgid "domain/visibility/name"
+msgstr "Sichtweite"
+
+msgid "domain/vitality/description"
+msgstr "Diese Werte geben die Überlebensfähigkeit des Fahrzeugs im Gefecht wieder."
+
+msgid "domain/vitality/name"
+msgstr "Widerstandsfähigkeit"
+
+msgid "modifier/name/aimingTime"
+msgstr "Zielerfassung"
+
+msgid "modifier/name/ammoBayHealth"
+msgstr "Robustheit des Munitionslagers"
+
+msgid "modifier/name/autoreloadTime"
+msgstr "Nachladezeit für Fahrzeuge mit Nachladeautomat"
+
+msgid "modifier/name/battleLength"
+msgstr "Gefechtszeit"
+
+msgid "modifier/name/bkMaxSpeed"
+msgstr "Höchstgeschwindigkeit rückwärts"
+
+msgid "modifier/name/burstInterval"
+msgstr "Zeit zum Laden von Granaten ins Magazin"
+
+msgid "modifier/name/chassisHealth"
+msgstr "Robustheit des Fahrwerks"
+
+msgid "modifier/name/clipInterval"
+msgstr "Zeit zum Laden zwischen Schüssen im Magazin"
+
+msgid "modifier/name/damageRandomization"
+msgstr "Potenzielle Schwankung von Schaden"
+
+msgid "modifier/name/deviceDamageFirst"
+msgstr "Schaden bei internen Modulen"
+
+msgid "modifier/name/dispFactorAfterShot"
+msgstr "Streuung nach Schuss"
+
+msgid "modifier/name/dispFactorChassisMovement"
+msgstr "Streuung bei Bewegung"
+
+msgid "modifier/name/dispFactorChassisRotation"
+msgstr "Streuung bei Wannendrehung"
+
+msgid "modifier/name/dispFactorTurretRotation"
+msgstr "Streuung bei Turmdrehung"
+
+msgid "modifier/name/dispFactorWhileGunDamaged"
+msgstr "Streuung mit beschädigtem Geschütz"
+
+msgid "modifier/name/engineFireFactor"
+msgstr "Wahrscheinlichkeit für Motorbrand"
+
+msgid "modifier/name/engineHealth"
+msgstr "Robustheit des Motors"
+
+msgid "modifier/name/enginePower"
+msgstr "Motorleistung"
+
+msgid "modifier/name/envChassisDamage"
+msgstr "Fahrwerksschaden durch Aufprall"
+
+msgid "modifier/name/envHullDamage"
+msgstr "Wannenschaden durch Aufprall"
+
+msgid "modifier/name/envModuleDamageChance"
+msgstr "Sonstiger Modulschaden durch Aufprall"
+
+msgid "modifier/name/envTankmanDamageChance"
+msgstr "Besatzungsverletzung durch Aufprall"
+
+msgid "modifier/name/equipmentCooldown"
+msgstr "Abklingzeit von Verbrauchsmaterial"
+
+msgid "modifier/name/fuelTankHealth"
+msgstr "Robustheit des Treibstofftanks"
+
+msgid "modifier/name/fwMaxSpeed"
+msgstr "Höchstgeschwindigkeit"
+
+msgid "modifier/name/gravityFactor"
+msgstr "Fahrzeug-Gravitation"
+
+msgid "modifier/name/gunHealth"
+msgstr "Robustheit des Geschützes"
+
+msgid "modifier/name/gunRotationSpeed"
+msgstr "Richtgeschwindigkeit bei festem Aufbau"
+
+msgid "modifier/name/invisibilityOnMove"
+msgstr "Tarnung bei Bewegung"
+
+msgid "modifier/name/invisibilityOnStill"
+msgstr "Tarnung des stehenden Fahrzeugs"
+
+msgid "modifier/name/normalizationAngle"
+msgstr "Granatennormalisierung"
+
+msgid "modifier/name/piercingPowerRandomization"
+msgstr "Potenzielle Schwankung der Durchschlagskraft"
+
+msgid "modifier/name/radioDistance"
+msgstr "Funkreichweite"
+
+msgid "modifier/name/reloadTime"
+msgstr "Nachladezeit"
+
+msgid "modifier/name/repairSpeed"
+msgstr "Reparaturgeschwindigkeit"
+
+msgid "modifier/name/ricochetAngle"
+msgstr "Abprallwinkel der Granaten. Je schärfer der Winkel, desto höher die Chance auf Abpraller."
+
+msgid "modifier/name/rotationSpeedOnStill"
+msgstr "Wendegeschwindigkeit der Wanne"
+
+msgid "modifier/name/shellGravity"
+msgstr "Granatengravitation"
+
+msgid "modifier/name/shellSpeed"
+msgstr "Mündungsgeschwindigkeit"
+
+msgid "modifier/name/shotDispersionRadius"
+msgstr "Streuung auf 100 m"
+
+msgid "modifier/name/surveyingDeviceHealth"
+msgstr "Robustheit des Sichtgeräts"
+
+msgid "modifier/name/turretPressureDamage"
+msgstr "Druckschaden durch abgesprengten Turm"
+
+msgid "modifier/name/turretRammingDamage"
+msgstr "Schaden durch abgesprengten Turm"
+
+msgid "modifier/name/turretRotationSpeed"
+msgstr "Turmdrehgeschwindigkeit"
+
+msgid "modifier/name/turretRotatorHealth"
+msgstr "Robustheit des Turmdrehmechanismus"
+
+msgid "modifier/name/twinGunReloadTime"
+msgstr "Nachladezeit im Salvenmodus"
+
+msgid "modifier/name/vehicleAoIRadius"
+msgstr "Darstellungsentfernung"
+
+msgid "modifier/name/vehicleHealth"
+msgstr "Robustheit des Fahrzeugs"
+
+msgid "modifier/name/vehiclePressureDamage"
+msgstr "Schaden durch Druck"
+
+msgid "modifier/name/vehicleRammingDamage"
+msgstr "Schaden durch Rammen"
+
+msgid "modifier/name/visionMinRadius"
+msgstr "Radius der Nahbereichsaufklärung"
+
+msgid "modifier/name/visionRadius"
+msgstr "Sichtweite"
+
+msgid "modifier/name/visionTime"
+msgstr "Sichtbarbleibende Zeit"
+
+msgid "modifier/name/zeroDamage"
+msgstr "Durch Schüsse und Rammen verursachter Schaden"
+
+msgid "modifier/name/zeroEconomy"
+msgstr "In Gefechten des Modus eingesetzte und verdiente Ressourcen"
+
+msgid "modifiersDomainTooltip/restrict/max"
+msgstr "nicht&nbsp;mehr als&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/min"
+msgstr "nicht&nbsp;weniger als&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/oneRestriction"
+msgstr "(aber {restriction})"
+
+msgid "modifiersDomainTooltip/restrict/twoRestriction"
+msgstr "(aber {min}, {max})"
+
+msgid "modifiersDomainTooltip/subtitle/plural"
+msgstr "Die Modifikatoren betreffen die folgenden Werte:"
+
+msgid "modifiersDomainTooltip/subtitle/single"
+msgstr "Der Modifikator betrifft den folgenden Wert:"

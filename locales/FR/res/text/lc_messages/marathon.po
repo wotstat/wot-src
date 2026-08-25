@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "3dObject/showVideo"
+msgstr "Lire la vidéo"
+
+msgid "reward/confirm"
+msgstr "Voir dans le garage"
+
+msgid "reward/confirmStyle"
+msgstr "Affirmatif !"
+
+msgid "reward/goToVehicleBtn"
+msgstr "Voir dans le garage"
+
+msgid "reward/nameStyle"
+msgstr "Griffe du tigre"
+
+msgid "reward/nameVehicle"
+msgstr "%(level)s %(type)s %(name)s."
+
+msgid "reward/rest"
+msgstr "Et %(count)s de plus"
+
+msgid "reward/secondary"
+msgstr "À l'apparence"
+
+msgid "reward/stage"
+msgstr "CHAPITRE %(stage)s : %(text)s"
+
+msgid "reward/stageAllComplete"
+msgstr "RÉCOMPENSES POUR TOUTES LES ÉTAPES REÇUES."
+
+msgid "reward/stageCompleteLast"
+msgstr "VOUS AVEZ TERMINÉ LA DERNIÈRE ÉTAPE."
+
+msgid "reward/stageNotAllComplete"
+msgstr "RÉCOMPENSES POUR LES ÉTAPES QUE VOUS N'AVEZ PAS ENCORE ACCOMPLIES."
+
+msgid "reward/stageStyle"
+msgstr "BOND DU TIGRE"
+
+msgid "reward/styleTitle"
+msgstr "STYLE REÇU !"
+
+msgid "reward/title"
+msgstr "Épreuve du Renegade"
+
+msgid "reward/vehicleTitle"
+msgstr "VÉHICULE REÇU !"
+
+msgid "reward/viewRewardsBtn"
+msgstr "Voir les récompenses"
+
+msgid "rewardTooltip/tankmen/header"
+msgstr "Équipage complet avec l'aptitude Frères d'armes maîtrisée à 100 %"
+
+msgid "rewardTooltip/title"
+msgstr "Récompenses :"
+
+msgid "vehiclePreview/buyingPanel/buyBtn/label/buy"
+msgstr "À l'achat du véhicule"
+
+msgid "vehiclePreview/buyingPanel/buyBtn/tooltip/active/body"
+msgstr "Cliquez pour acheter cet objet."
+
+msgid "vehiclePreview/buyingPanel/buyBtn/tooltip/inactive/body"
+msgstr "Le véhicule sera disponible à l'achat après le lancement de %(event_name)s.\n%(addInfo)s"
+
+msgid "vehiclePreview/buyingPanel/buyBtn/tooltip/inactive/header"
+msgstr "Indisponible"
+
+msgid "vehiclePreview/buyingPanel/customOffer/discount"
+msgstr "Votre réduction :"
+
+msgid "vehiclePreview/buyingPanel/title"
+msgstr "Véhicule et autres récompenses des étapes inachevées"
+
+msgid "vehiclePreview/title/tooltip/body/addInfo/announce"
+msgstr ".\n%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/body/addInfo/progress"
+msgstr " jusqu'au %(endVehicleSellDate)s.\n%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/body/marathon/announce"
+msgstr "L'évènement commence le %(marathonStartDate)s."
+
+msgid "vehiclePreview/title/tooltip/body/marathon/inprogress"
+msgstr "En achetant le WZ-114, char lourd premium chinois de rang&nbsp;IX, vous recevrez des récompenses pour les étapes de l'évènement que vous n'avez pas encore accomplies."
+
+msgid "vehiclePreview/title/tooltip/header"
+msgstr "%(event_name)s"
+
+msgid "vehiclePreview/title/tooltip/info/body/announce"
+msgstr "Le véhicule et ses récompenses associées seront disponibles à l'achat durant %(event_name)s."
+
+msgid "vehiclePreview/title/tooltip/info/body/progress"
+msgstr "Le véhicule et les récompenses associées sont disponibles à l'achat durant %(event_name)s%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/info/body/progress/withDiscount"
+msgstr "Le véhicule et les récompenses associées sont disponibles durant %(event_name)s%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/rewards"
+msgstr "Ensemble de récompenses"
+
+msgid "vehiclePreview/tooltip/dateTime"
+msgstr "%(day)s %(monthName)s %(year)s, %(hour)s:%(min)s"

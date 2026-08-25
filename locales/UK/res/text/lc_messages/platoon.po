@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "Скасування пошуку"
+
+msgid "buttons/cancelSearch/description"
+msgstr "Натисніть, щоб скасувати пошук співвзводних."
+
+msgid "buttons/createPlatoon/caption"
+msgstr "Новий взвод"
+
+msgid "buttons/createPlatoon/description"
+msgstr "Створіть взвод і запросіть друзів для спільної гри."
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "Новий супервзвод"
+
+msgid "buttons/findPlayers/caption"
+msgstr "Пошук гравців"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "Знайдіть гравців зі схожим рівнем майстерності та придатною технікою."
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "Почавши пошук гравців, ви скасуєте всі відправлені друзям запрошення до взводу."
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "Пошук гравців"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "Пошук гравців до взводу недоступний: забагато взводів на сервері."
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "Пошук гравців до взводу недоступний: немає придатної техніки."
+
+msgid "buttons/invite/player/caption"
+msgstr "Запросити гравця"
+
+msgid "buttons/invite/player/description"
+msgstr "Натисніть, щоб запросити гравця до взводу"
+
+msgid "buttons/invite/players/caption"
+msgstr "Запросити гравців"
+
+msgid "buttons/invite/players/description"
+msgstr "Натисніть, щоб запросити гравців до взводу."
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "Покинути взвод"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "Натисніть, щоб вийти зі складу взводу."
+
+msgid "buttons/mute/caption"
+msgstr "Вимкнути голосовий зв’язок"
+
+msgid "buttons/mute/description"
+msgstr "Натисніть, щоб вимкнути голосовий зв’язок у взводі."
+
+msgid "buttons/notReady/caption"
+msgstr "Не готовий"
+
+msgid "buttons/notReady/description"
+msgstr "Натисніть, якщо ви не готові вступити в бій."
+
+msgid "buttons/ready/caption"
+msgstr "Готовий!"
+
+msgid "buttons/ready/description"
+msgstr "Натисніть, якщо ви готові вступити в бій."
+
+msgid "buttons/reset/caption"
+msgstr "Скинути параметри пошуку"
+
+msgid "buttons/reset/description"
+msgstr "Натисніть, щоб скинути параметри пошуку на стандартні."
+
+msgid "buttons/settings/caption"
+msgstr "Задати параметри пошуку"
+
+msgid "buttons/settings/description"
+msgstr "Шукайте гравців за вашими параметрами пошуку. Що довше триває пошук, то більше розширюються параметри пошуку."
+
+msgid "buttons/unMute/caption"
+msgstr "Увімкнути голосовий зв’язок"
+
+msgid "buttons/unMute/description"
+msgstr "Натисніть, щоб увімкнути голосовий зв’язок у взводі."
+
+msgid "headerButton/inSquad"
+msgstr "У взводі"
+
+msgid "headerButton/onboarding"
+msgstr "ПОЧНІТЬ ПОШУК ГРАВЦІВ\nДЛЯ ФОРМУВАННЯ ВЗВОДУ"
+
+msgid "headerButton/searching"
+msgstr "Виконуємо пошук..."
+
+msgid "headerButton/squad"
+msgstr "Сформувати взвод"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "Грайте у взводі з другом. Бийтеся командою проти дев'яти інших взводів."
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "Взвод"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "Ви не можете створити або приєднатися до взводу, оскільки тимчасово заблоковані в цьому режимі."
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "Ви не зможете створити або приєднатися до взводу, поки не матимете щонайменше одну машину %(level)s рівня в Гаражі, придатну для цього режиму."
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "Створення взводу тимчасово недоступне."
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "Взводи недоступні"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "Ви можете створити взвод або приєднатися до наявного. У Натиску Лайт доступні взводи з 2 або 7 гравців."
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "Взвод"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "Ви не можете створити або приєднатися до взводу, оскільки не маєте придатної машини %(level)s рівня в Гаражі."
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "Після завершення кваліфікації стануть доступні взводи на 2 або 7 гравців."
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "Не вдалося створити взвод."
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "Взводи недоступні"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "Створіть взвод або приєднайтеся до наявного. У Натиску взводи можуть складатися з 2 або 7 гравців."
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "Взвод"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "Формування загону з 2–3 гравців для спільної гри.\n• Режим бою: «Бій до останнього».\n• Типи боїв: «Сталеве полювання», «Перевага»."
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "Взвод"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "Створення формування з 2–3 гравців для спільної гри в події «Великі перегони»."
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "Взвод події «Великі перегони»"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "Натисніть, щоб перейти в меню взводу."
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "Розвідка боєм: взвод"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "Натисніть, щоб перейти в меню взводу."
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "Взвод"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "Формування взводу з 2–3 гравців для спільної гри в режимі «Розвідка боєм»."
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "Розвідка боєм: взвод"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "У Рангових боях не можна грати в складі формувань."
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "Сформувати взвод"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "Виконуємо пошук гравців..."
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "Пошук"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Створіть тактичну групу з 2 або 3 гравців для співпраці у Випадкових боях і режимі «Лінія фронту» (якщо доступно)"
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Взвод"
+
+msgid "members/card/connectionLost"
+msgstr "Втрата зв’язку"
+
+msgid "members/card/disabled"
+msgstr "У режимі доступні тільки взводи із двох гравців"
+
+msgid "members/card/disabledVertical"
+msgstr "Недоступно для цього режиму"
+
+msgid "members/card/empty"
+msgstr "Порожній слот"
+
+msgid "members/card/inBattle"
+msgstr "У бою"
+
+msgid "members/card/muted/caption"
+msgstr "Звук вимкнено"
+
+msgid "members/card/muted/description"
+msgstr "Натисніть праву кнопку миші, щоб почути цього гравця."
+
+msgid "members/card/notReady"
+msgstr "Не готовий"
+
+msgid "members/card/searching"
+msgstr "Пошук гравців..."
+
+msgid "members/card/selectVehicle"
+msgstr "Виберіть машину %(level)s рівня"
+
+msgid "members/chat/chatName"
+msgstr "Канал зв’язку:"
+
+msgid "members/chat/sendMessage/body"
+msgstr "Натисніть, щоб надіслати повідомлення в канал зв’язку."
+
+msgid "members/chat/sendMessage/header"
+msgstr "Надіслати повідомлення"
+
+msgid "members/footer/comp7Invite"
+msgstr "Запросити"
+
+msgid "members/footer/comp7Limitations"
+msgstr "Обмеження взводу"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "Макс. ранг у взводі"
+
+msgid "members/footer/getNotReady"
+msgstr "Натисніть, щоб скасувати готовність."
+
+msgid "members/footer/getReady"
+msgstr "Підтвердьте готовність вступити в бій."
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "Непридатний рівень"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "Штраф до досвіду через хибний склад взводу!"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "Досягнуто ліміту техніки"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "Досягнуто максимуму кількості ПТ-САУ у взводі"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "Досягнуто максимум САУ у взводі"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "Досягнуто максимуму кількості важких танків у взводі"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "Досягнуто максимуму кількості середніх танків у взводі"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "Досягнуто максимум легких танків у взводі"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "Досягнуто максимуму кількості колісних машин у взводі"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "Досягнуто максимум легких танків у взводі"
+
+msgid "members/header/battle_royal"
+msgstr ": Сталевий мисливець"
+
+msgid "members/header/epic"
+msgstr ": Лінія фронту"
+
+msgid "members/header/event"
+msgstr ": Ваффентрагер: проєкт «Гіперіон»"
+
+msgid "members/header/mapbox"
+msgstr ": Розвідка боєм"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP HEADER PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr ": Випадковий бій"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "Режим «Лінія фронту» доступний\nлише для техніки VIII рівня."
+
+msgid "members/header/tooltip/epic/header"
+msgstr "Правила формування взводу"
+
+msgid "members/header/tooltip/event/body"
+msgstr "Взвод має складатися з трьох спеціальних машин режиму."
+
+msgid "members/header/tooltip/event/header"
+msgstr "Правила формування взводу"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "Взвод має складатися з машин одного рівня."
+
+msgid "members/header/tooltip/standard/header"
+msgstr "Правила формування взводу"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Гравців у взводі"
+
+msgid "searching/estimated/caption"
+msgstr "Розрахунковий час"
+
+msgid "searching/estimated/lessThan"
+msgstr "менше %(seconds)d с"
+
+msgid "searching/estimated/moreThan"
+msgstr "більше %(seconds)d с"
+
+msgid "searching/expanded/body"
+msgstr "Пошук за вашими параметрам не дав результатів.\nПараметри було розширено для пошуку інших рівнів техніки."
+
+msgid "searching/expanded/header"
+msgstr "Параметри пошуку розширено"
+
+msgid "searching/lookingFor"
+msgstr "Параметр пошуку:"
+
+msgid "searching/playersInQueue"
+msgstr "Гравців у черзі"
+
+msgid "searching/state"
+msgstr "Пошук:"
+
+msgid "settings/tiers"
+msgstr "Рівень техніки"
+
+msgid "settings/voice"
+msgstr "Гравці з голосовим зв’язком"
+
+msgid "squad"
+msgstr "Взвод"

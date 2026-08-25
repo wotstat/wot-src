@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "A Battle Passról"
+
+msgid "about/position/header"
+msgstr "Battle Pass pontok kiosztása"
+
+msgid "about/position/text"
+msgstr "Minden csata után a pozíciódnak megfelelő számú Battle Pass pontot kapsz. További Battle Pass pontokat kapsz, ha növeled a Frontvonal szintedet."
+
+msgid "about/scores/header"
+msgstr "Battle Pass pontok"
+
+msgid "about/scores/text"
+msgstr "Egy speciális Battle Pass fizetőeszköz, amelyet normál csatákban és a Frontvonal módban lehet megszerezni. A Battle Pass pontokat a Frontvonal szintek eléréséért és a csataeredményekben elfoglalt helyezésedért kapod. A Frontvonal járműveknél nincs korlátozva a megszerezhető pontok száma."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Vereség"
+
+msgid "about/scoresTable/topCell"
+msgstr "Legjobb {{top}} a szerzett XP alapján"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Győzelem"
+
+msgid "about/text"
+msgstr "A Battle Pass egy hosszú távú esemény, melyben a játékosok Battle Pass pontok gyűjtésével szakaszról szakaszra haladnak. Minden teljesített szakaszért értékes jutalmakat kapnak. Bizonyos szakaszok teljesítésével a játékosok Battle Pass tokeneket kapnak – egy speciális fizetőeszközt, melyet egyedi járművekre és egyéb értékes jutalmakra válthatnak be a Bolt megfelelő részében."
+
+msgid "addons/cellRent/header"
+msgstr "Járműbérlés"
+
+msgid "addons/cellRent/text_10"
+msgstr "Több különböző {{vehiclesLevel}}. szintű, kreditért bérelhető jármű közül választhatsz. Az azonos nemzetbe tartozó és megegyező típusú járművek harckocsizóit büntetés és átképzés nélkül áthelyezheted ezekbe."
+
+msgid "addons/cellRent/text_9"
+msgstr "Több különböző {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}}. szintű, kreditért bérelhető jármű közül választhatsz. Az azonos nemzetbe tartozó és megegyező típusú járművek harckocsizóit büntetés és átképzés nélkül áthelyezheted ezekbe."
+
+msgid "addons/cellSpectator/header"
+msgstr "Megfigyelő mód"
+
+msgid "addons/cellSpectator/text"
+msgstr "Amíg vársz az újraéledésre, beléphetsz a megfigyelő módba, tanulmányozhatod a harcmezőt, és megtervezheted, hogy milyen taktikát fogsz használni."
+
+msgid "addons/cellTime/header"
+msgstr "Extra idő"
+
+msgid "addons/cellTime/text"
+msgstr "Ha egy bázist éppen foglaltok, amikor a csataidő lejár, csapatod extra időt fog kapni. Ha a védekező csapat megszakítja a bázisfoglalást, az extra idő nullázódik."
+
+msgid "addons/header"
+msgstr "További információ"
+
+msgid "levelUp/sectionHeader"
+msgstr "{{level}}. szintű járművek"
+
+msgid "levelUp/text"
+msgstr "Ahogyan korábban is, kezdetben csak {{vehiclesLevelFrom}}. szintű járművekkel indulhatsz csatába, de {{vehiclesLevelTo}}. szintű járműveket is előkészíthetsz a Garázsodban. A második vonal bármelyik bázisának (D, E és F) elfoglalása után mindkét csapat bevetheti {{vehiclesLevelTo}}. szintű járműveit."
+
+msgid "main/cellDuration/header"
+msgstr "Időtartam"
+
+msgid "main/cellDuration/text"
+msgstr "A Frontvonal {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}} napig fog tartani. A következő megjelenés dátumát külön fogjuk bejelenteni."
+
+msgid "main/cellFrontline/header"
+msgstr "Frontvonal"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Hatalmas 30v30 csaták {{vehiclesLevel}}. szintű járművekkel a {{@ colorLegacy 'FFE4C0'}}Normandy, a Kraftwerk{{/}} és a {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}} pályán. A támadóknak meg kell semmisíteniük 3-at az 5 nagy kaliberű lövegből, a védőknek pedig meg kell védeniük ezeket."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Hatalmas 30v30-csaták {{vehiclesLevelFrom}}-{{vehiclesLevelTo}}. szintű járművekkel a {{@ colorLegacy 'FFE4C0'}}Normandy, a Kraftwerk{{/}} és a {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}} pályán. A támadóknak meg kell semmisíteniük 3-at az 5 nagy kaliberű lövegből, a védőknek pedig meg kell védeniük ezeket."
+
+msgid "main/cellLevel9/header"
+msgstr "{{vehiclesLevel}}. szintű járművek"
+
+msgid "main/cellLevel9/text"
+msgstr "A második vonal egyik bázisának (D, E vagy F) elfoglalása után lehetőséged nyílik {{vehiclesLevel}}. szintű járműveket bevetni a csatában."
+
+msgid "main/cellLevels/header"
+msgstr "{{vehiclesLevel}}. szintű járművek"
+
+msgid "main/cellLevels/text_8"
+msgstr "Csak {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}}. szintű járművek érhetők el a játékmódban."
+
+msgid "main/cellLevels/text_9"
+msgstr "Csak {{vehiclesLevel}}. szintű járművek léphetnek be a csatába."
+
+msgid "main/cellPass/header"
+msgstr "Battle Pass"
+
+msgid "main/cellPass/text"
+msgstr "A Frontvonal játékmód nagyszerű lehetőség, hogy Battle Pass pontokat szerezz csatákban való részvétellel és az új Frontvonal szintek elérésével."
+
+msgid "main/cellReserves/header"
+msgstr "Harci tartalék kategóriák"
+
+msgid "main/cellReserves/text"
+msgstr "A harci tartalékoknak három kategóriája van, és mindegyik egy adott férőhelyhez kötődik. A feloldásuk és fejlesztésük sorrendje a jármű típusától függően változik."
+
+msgid "main/cellScenarios/header"
+msgstr "Forgatókönyvek"
+
+msgid "main/cellScenarios/text"
+msgstr "A Frontvonal-csaták a következő csatahelyzetek egyikét használják: {{@ colorLegacy 'FFE4C0'}}Normál csata{{/}}, {{@ colorLegacy 'FFE4C0'}}Műveleti támogatás{{/}} vagy {{@ colorLegacy 'FFE4C0'}}Sorsfordulat{{/}}. Az aktuális harci forgatókönyvre vonatkozó információkat láthatod a betöltőképernyőn, a csata előtti visszaszámlálás alatt vagy a Tab billentyű megnyomásakor."
+
+msgid "main/sectionHeader"
+msgstr "Általános tudnivalók"
+
+msgid "page/backBtn"
+msgstr "VISSZA"
+
+msgid "page/headerUpper"
+msgstr "FRONTVONAL"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "Az elért rangodtól függően Frontvonal XP-t és harci XP-t kapsz. A Frontvonal XP-t a Frontvonal-szinted növelésére használhatod fel. Összesen {{@ colorLegacy 'FFE4C0'}}20 szint{{/}} van."
+
+msgid "progression/levelsSection/header"
+msgstr "Frontvonal szintek"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "A {{@ colorLegacy 'FFE4C0'}}Frontvonal-szintekért{{/}} Battle Pass-pontokat, harcitartalék-pontokat, kötvényeket, direktívákat, átképzési parancsokat, mentorálási engedélyt és legénységi könyveket kaphatsz jutalmul."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "A {{@ colorLegacy 'FFE4C0'}}Frontvonal-szintekért{{/}} harcitartalék-pontokat, kötvényeket, direktívákat, átképzési parancsokat és legénységi könyveket kaphatsz jutalmul."
+
+msgid "progression/ranksSection/experience"
+msgstr "A {{@ colorLegacy 'FFE4C0'}}rangok{{/}} nem csak a hatékonyságodat tükrözik egy adott csatában, hanem ennek megfelelően harci XP-bónuszt is adnak. Ez a bónusz a csatában részt vevő járműveid összes alaptapasztalatára vonatkozik. Amikor te vagy a szövetségeseid elérik a tábornoki rangot, az egész csapat {{@ colorLegacy 'FFE4C0'}}1,5%{{/}}-tól {{@ colorLegacy 'FFE4C0'}}15%{{/}}-ig terjedő bónuszt kap a legénység teljesítményére (fő képzettségi szint)."
+
+msgid "progression/ranksSection/header"
+msgstr "Rangok"
+
+msgid "progression/ranksSection/text"
+msgstr "Ebben a játékmódban hat különböző rang létezik: a játékosok a közlegényi rangtól egészen a tábornoki rangig fejlődhetnek. A harcban nyújtott hatékony teljesítményért (bázisok elfoglalása vagy védelme; fő célpontok megsemmisítése) és a megszerzett tapasztalatért előléptetést kapsz. Ebbe beleszámít az összes olyan járműveden megszerzett minden tapasztalatpont, amellyel harcoltál a játék során."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Bónusz a harci tapasztalathoz"
+
+msgid "progression/ranksTable/captain"
+msgstr "Százados"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Bónusz a legénység teljesítményéhez"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Frontvonal tapasztalat"
+
+msgid "progression/ranksTable/general"
+msgstr "Tábornok"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Hadnagy"
+
+msgid "progression/ranksTable/major"
+msgstr "Őrnagy"
+
+msgid "progression/ranksTable/private"
+msgstr "Közlegény"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Őrmester"
+
+msgid "progression/sectionHeader"
+msgstr "Előrehaladás a Frontvonalban"
+
+msgid "progression/text"
+msgstr "Ebben a játékmódban a ranglétrán kell majd egyre feljebb haladnod, és Frontvonal előrehaladást kell teljesítened a különböző jutalmak megszerzéséhez."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Másodlagos"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "1. tartalékférőhely"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "2. tartalékférőhely"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "3. tartalékférőhely"
+
+msgid "reserveCategories/categories/main"
+msgstr "Elsődleges"
+
+msgid "reserveCategories/categories/support"
+msgstr "Kiegészítő"
+
+msgid "reserveCategories/config/footerText"
+msgstr "A {{@ colorLegacy 'FFE4C0'}}Sorsfordulat{{/}} csatahelyzetben a harci tartalékok feloldásának sorrendje nem függ a járműtípustól."
+
+msgid "reserveCategories/config/header"
+msgstr "Tartalékkonfigurációk járműtípusonként"
+
+msgid "reserveCategories/config/text"
+msgstr "A {{@ colorLegacy 'FFE4C0'}}Normál csata{{/}} és a {{@ colorLegacy 'FFE4C0'}}Műveleti támogatás{{/}} csatahelyzetben mindhárom harcitartalék-férőhely elérhető minden járműtípusnál. Azonban a feloldásuk sorrendje a jármű típusától függ."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "Páncélvadászok"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Nehéz harckocsik"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Könnyű harckocsik"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Közepes harckocsik"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "Önjáró lövegek"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* Ezt a szintet kizárólag a {{@ colorLegacy 'FFE4C0'}}Sorsfordulat{{/}} csatahelyzetben {{@ colorLegacy 'FFE4C0'}}megvásárolt{{/}} harci tartalékok esetében érheted el."
+
+msgid "reserveCategories/levels/header"
+msgstr "Hogyan oldd fel a férőhelyeket és fejleszd a harci tartalékokat"
+
+msgid "reserveCategories/levels/text"
+msgstr "Alapból egy harci tartalék áll a rendelkezésedre. A többit az őrmesteri és hadnagyi rangok elérésével lehet feloldani. A százados és őrnagy rangok elérése után mindhárom tartalék hatása javul."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{level}}{{/}}. vagy {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}}. szint"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Százados"
+
+msgid "reserveCategories/ranks/general"
+msgstr "Tábornok"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Hadnagy"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Őrnagy"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Őrmester"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Közlegény"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Sorsfordulat"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "A csatában a játékosok véletlenszerű tartalékok közül választhatnak, amelyek az összes járműtípushoz elérhetők. Ha a csata előtt behelyezel egy tartalékot az egyik férőhelyre, {{@ colorLegacy 'FFE4C0'}}10%{{/}}-kal megnöveled annak az esélyét, hogy megkapd a csatában. Ha megvásárolsz egy tartalékot, az {{@ colorLegacy 'FFE4C0'}}II{{/}}-esre növeli a szintjét, és lehetőséged nyílik rá, hogy {{@ colorLegacy 'FFE4C0'}}IV{{/}}-es szintre fejleszd."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Frontvonal forgatókönyvek"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Normál csata"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "A normál Frontvonal szabályok érvényesek. A harci tartalékok használatának feltételei változatlanok."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Műveleti támogatás"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "Egy tartalék feloldásakor: {{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "A csatába való visszatéréskor: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Egy pörgősebb forgatókönyv, csökkentett harci tartalék újratöltési idővel:"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "A Frontvonal mód csatái a következő csatahelyzetek egyikét használják: {{@ colorLegacy 'FFE4C0'}}Normál csata{{/}}, {{@ colorLegacy 'FFE4C0'}}Műveleti támogatás{{/}} vagy {{@ colorLegacy 'FFE4C0'}}Sorsfordulat{{/}}. A csatahelyzetek megváltoztatják a harci tartalékok használatának feltételeit a csatában. Az aktuális csatahelyzetekre vonatkozó információkat láthatod a betöltőképernyőn, a csata előtti visszaszámlálás alatt vagy a Tab billentyű megnyomásakor."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Harci tartalék kategóriák"
+
+msgid "reserveCategories/text"
+msgstr "A harci tartalékok három kategóriára oszlanak, minden kategóriában három tartalékkal. A csatába való belépéskor egy kategóriából csak egy tartalékot helyezhetsz a neki megfelelő férőhelyre."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Támadó tartalékok"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Felderítő tartalékok"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Taktikai tartalékok"
+
+msgid "reserves/sectionHeader"
+msgstr "Gyors tartalékok"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Gyors kezdés"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "A harci tartalékok felkészülési ideje a csata kezdetén 50%-kal lerövidül."
+
+msgid "reserves/sectionReload/header"
+msgstr "Azonnal elérhető"
+
+msgid "reserves/sectionReload/text"
+msgstr "A harci tartalékok azonnal használhatók, amint feloldod őket."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Megújulás"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "A harci tartalékok felkészülési ideje 70%-kal lerövidül, ha új járművel térsz vissza a harcba."
+
+msgid "rules/backToFight/header"
+msgstr "Visszatérés a csatába"
+
+msgid "rules/backToFight/text"
+msgstr "Ha a járműved megsemmisül, válassz egy másikat az elérhető járművek közül, és térj vissza a csatatérre, hogy folytasd a harcot a győzelemért. Választhatsz egyet a bevetési területek (újraéledési pontok) közül a szárnyakon, valamint a pálya hátsó részén, így kialakíthatod majd a harci tervedet. A védekező játékosoknak több lehetőség áll rendelkezésükre – választhatnak akár a vonalaik mélyén fekvő újraéledési pontok közül is, ami azt jelenti, hogy egy hirtelen áttörés esetén a nagy kaliberű ágyúk védelmére tudnak majd sietni. Egy speciális indikátor is segíteni fogja az újraéledő játékosokat: ha a kiválasztott területen veszélyes az újraéledés, akkor erről figyelmeztetést fog kapni a játékos."
+
+msgid "rules/base/header"
+msgstr "Bázisfoglalás"
+
+msgid "rules/base/textBottom"
+msgstr "A bázist foglaló járműnek (vagy moduljainak) okozott sérülés nem állítja vissza a foglalás folyamatát 0-ára, csak szünetelteti azt. A foglalási folyamat visszaállításához a védőknek meg kell semmisíteniük a foglaló járművet, vagy rá kell kényszeríteniük a kör elhagyására. A védő csapat nem foglalhatja vissza a bázist, ha azt a támadók egyszer már elfoglalták."
+
+msgid "rules/base/textTop"
+msgstr "A {FFE4C0_Start}támadó csapatnak{FFE4C0_End} sorban el kell foglalnia a bázisokat, hogy elérje a fő célpontokat. Egy elfoglalt bázis 2 perccel meghosszabbítja a csata időtartamát, az utolsó bázis elfoglalása pedig 4 percet ad."
+
+msgid "rules/sectionHeader"
+msgstr "Általános szabályok"
+
+msgid "rules/service/header"
+msgstr "Utántöltési körök"
+
+msgid "rules/service/text"
+msgstr "Az utántöltési körök helyreállítják a járműved életerejét, meggyógyítják a sérült legénységet, és újratöltik a lőszereidet. {FFE4C0_Start}Az újratöltés aránya a következő: 100 életerőpont / harckocsizó / 10%{FFE4C0_End} lőszer másodpercenként."
+
+msgid "rules/weapons/header"
+msgstr "Feladat: 3 nagy kaliberű löveg az 5-ből"
+
+msgid "rules/weapons/list/back"
+msgstr "Hátsó páncélzat: {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "A tetőt és a frontpáncélzatot {{@ colorLegacy 'FFE4C0'}}nem lehet átütni{{/}} lövedékekkel."
+
+msgid "rules/weapons/list/sides"
+msgstr "Oldalpáncélzat: {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Oldalpáncélzat: {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Sebezhető pontok: {{@ colorLegacy 'FFE4C0'}}ajtó (70 mm) és szellőző (25 mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Öt lövegállás található a védekező csapat hátsó vonalaiban, amelyek egyben a csata fő célpontjai is. A támadó csapatnak meg kell semmisítenie 3 löveget, míg a védekező csapatnak mindenáron meg kell védenie őket."
+
+msgid "subTitle/differentMonth"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}.{{/}} és {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}.{{/}} között"
+
+msgid "subTitle/differentYears"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{startYear}}. {{startMonth}} {{from}}.{{/}} és {{@ colorLegacy 'FFE4C0'}}{{endYear}}. {{endMonth}} {{to}}.{{/}} között"
+
+msgid "subTitle/sameMonth"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{from}}.{{/}} és {{@ colorLegacy 'FFE4C0'}}{{to}}.{{/}} között"
+
+msgid "winStrategy/firstLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Az első vonal{{/}} A, B és C szektorai jelentik a kezdőpontokat mindkét csapat számára."
+
+msgid "winStrategy/header"
+msgstr "Győzelmi stratégia"
+
+msgid "winStrategy/mapZones"
+msgstr "A játékmódtérképén három horizontális védelmi vonal található:"
+
+msgid "winStrategy/secondLine"
+msgstr "Az első vonal szektorainak elfoglalása után a csata {{@ colorLegacy 'FFE4C0'}}a második vonal{{/}} D, E és F szektoraiban folytatódik."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}A harmadik vonal{{/}} nincsen szektorokra osztva. Ezen a területen zajlik a csata végső fázisa. Itt találhatóak a nagy kaliberű lövegek, amelyek megsemmisítésével a támadó csapat megnyerheti a csatát. A támadók csak akkor férhetnek hozzá a fő célpontokhoz, ha már legalább egy szektort elfoglaltak a második vonalon. Egy szektor elvesztése után a védekező játékosoknak 1 percük van elhagyni a zónát a bombázás előtt. A szektorban maradó védőkre légicsapást fognak mérni. Ha egy támadó az előző szektor elfoglalása nélkül próbál meg behatolni a második vonal szektoraiba vagy a harmadik vonalra, akkor szintén megsemmisül egy légicsapásban."

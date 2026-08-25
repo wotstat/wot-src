@@ -1,0 +1,602 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleControls/casseteReload"
+msgstr "Granatenbehälter auffüllen"
+
+msgid "battleControls/closeBtnLabel"
+msgstr "SCHLIESSEN"
+
+msgid "battleControls/cruiseCtrlBackward"
+msgstr "Mit Tempomat rückwärts bewegen"
+
+msgid "battleControls/cruiseCtrlForward"
+msgstr "Mit Tempomat vorwärts bewegen"
+
+msgid "battleControls/disableLockTarget"
+msgstr "Automat. Zielen ausschalten"
+
+msgid "battleControls/fire"
+msgstr "Feuer"
+
+msgid "battleControls/hideInterface"
+msgstr "Oberfläche anzeigen/ausblenden"
+
+msgid "battleControls/hideMinimap"
+msgstr "Minikarte anzeigen/verbergen"
+
+msgid "battleControls/makeScreenshort"
+msgstr "Screenshot in Verzeichnis anlegen"
+
+msgid "battleControls/movementBackward"
+msgstr "Rückwärts bewegen"
+
+msgid "battleControls/movementForward"
+msgstr "Vorwärts bewegen"
+
+msgid "battleControls/movementLeft"
+msgstr "Links drehen/bewegen"
+
+msgid "battleControls/movementRight"
+msgstr "Rechts drehen/bewegen"
+
+msgid "battleControls/pageTitle"
+msgstr "ALLGEMEINE INFORMATIONEN"
+
+msgid "battleControls/showCursor"
+msgstr "Mauszeiger anzeigen"
+
+msgid "battleControls/showCursor/ext"
+msgstr "(für Minikarte, Spielerliste, usw.)"
+
+msgid "battleControls/showExPlayerInfo"
+msgstr "Alternative Markierung anzeigen"
+
+msgid "battleControls/stopFire"
+msgstr "Anhalten und Feuern"
+
+msgid "battleControls/switchAutorotation"
+msgstr "Wanne blockieren / Modus wechseln"
+
+msgid "battleControls/title"
+msgstr "Gefechtsmodus"
+
+msgid "battleControls/toggleAFL"
+msgstr "Panzerungsdurchleuchtung aktivieren/deaktivieren"
+
+msgid "battleControls/toggleAFL/ext"
+msgstr "Nur in der Zielfernrohransicht verfügbar"
+
+msgid "battleControls/toggleLockTarget"
+msgstr "Automat. Zielen ein-/ausschalten"
+
+msgid "battleControls/toggleLockTarget/ext"
+msgstr "(mit Fadenkreuz auf Ziel)"
+
+msgid "battleControls/togglePlayerPanelModes"
+msgstr "Teamlisten anzeigen/ausblenden"
+
+msgid "battleControls/togglePlayerPanelModes/ext"
+msgstr "oder Belobigung zu erwidern"
+
+msgid "battleControls/toggleSniperMode"
+msgstr "Ein/Aus Zielfernrohrsicht"
+
+msgid "battleControls/toggleSniperMode/ext"
+msgstr "oder Artilleriebeobachtermodus"
+
+msgid "battleControls/voiceChatMute"
+msgstr "Sprachchat einschalten"
+
+msgid "chatControls/change"
+msgstr "An Team / An Zug"
+
+msgid "chatControls/enterToChatMode"
+msgstr "Chateingabe öffnen"
+
+msgid "chatControls/exitFromChatMode"
+msgstr "Chateingabe verlassen"
+
+msgid "chatControls/send"
+msgstr "Nachricht senden"
+
+msgid "chatControls/title"
+msgstr "Chat-Modus"
+
+msgid "crosshairControls/ammoNumber"
+msgstr "Verbleibende Granaten"
+
+msgid "crosshairControls/damageIndicator"
+msgstr "Feuerrichtung"
+
+msgid "crosshairControls/dispercion"
+msgstr "Streuung"
+
+msgid "crosshairControls/example/damage"
+msgstr "-248"
+
+msgid "crosshairControls/example/hp"
+msgstr "375/720"
+
+msgid "crosshairControls/example/name"
+msgstr "T-34-85"
+
+msgid "crosshairControls/gunMarker"
+msgstr "Geschützstellung"
+
+msgid "crosshairControls/healthPlayer"
+msgstr "Spieler-Struktur"
+
+msgid "crosshairControls/hpIndicator"
+msgstr "Haltbarkeitsanzeige"
+
+msgid "crosshairControls/hpValues"
+msgstr "Zielstruktur (%/SP übrig/gesamt)"
+
+msgid "crosshairControls/marker"
+msgstr "Zielpunkt"
+
+msgid "crosshairControls/reloadIndicator"
+msgstr "Laden"
+
+msgid "crosshairControls/reloadTimer"
+msgstr "Geschütznachladezeit, in Sekunden"
+
+msgid "crosshairControls/targetClass"
+msgstr "Fahrzeugtypmarkierung"
+
+msgid "crosshairControls/targetDistance"
+msgstr "Reichweite zum Ziel"
+
+msgid "crosshairControls/targetIcon"
+msgstr "Fahrzeugsymbol"
+
+msgid "crosshairControls/targetLevel"
+msgstr "Stufe"
+
+msgid "crosshairControls/targetName"
+msgstr "Fahrzeugmodell / Spielername"
+
+msgid "crosshairControls/title"
+msgstr "Geschütz- und Fadenkreuzanzeigen"
+
+msgid "detailsHelp/default/title"
+msgstr "Hilfe"
+
+msgid "detailsHelp/devMaps/headerTitle"
+msgstr "Kartenfunktionen"
+
+msgid "detailsHelp/devMaps/markers/description"
+msgstr "Der Ort der Zufallsereignisse wird mit Rauch auf der Karte\nund mit einer Markierung auf der Minikarte gekennzeichnet.\nKarten mit Zufallsereignissen können über die Einstellungen im Reiter „Allgemein“ deaktiviert werden."
+
+msgid "detailsHelp/devMaps/title"
+msgstr "Karten mit Zufallsereignissen"
+
+msgid "detailsHelp/devMaps/zone/description"
+msgstr "Ihr Fahrzeug kann in einem Bereich für Zufallsereignisse zerstört werden (beispielsweise während eines Flugzeugabsturzes).\nKarten mit Zufallsereignissen können über die Einstellungen im Reiter „Spiel“ deaktiviert werden."
+
+msgid "detailsHelp/dualGun/quick_fire"
+msgstr "Fahrzeuge dieser Bauart feuern abwechselnd ihre Geschütze ab. Nach dem Schuss lädt das Geschütz automatisch nach, während das zweite, geladene Geschütz bereitgemacht wird."
+
+msgid "detailsHelp/dualGun/quick_fire/title"
+msgstr "Schnellfeuer"
+
+msgid "detailsHelp/dualGun/volley_fire"
+msgstr "Der besondere Salvenmodus der Fahrzeuge mit Doppelgeschütz wird aktiviert, indem Sie die entsprechende Taste drücken. Die abgefeuerten Granaten fliegen parallel nebeneinander. Die entsprechende Taste können Sie in den Einstellungen ändern."
+
+msgid "detailsHelp/dualGun/volley_fire/title"
+msgstr "Salvenfeuer"
+
+msgid "detailsHelp/engineMode/engineModePage1"
+msgstr "Sie können die Motormodi wechseln, um sich einer bestimmten taktischen Situation anzupassen. Wollen Sie in einen anderen Modus wechseln, müssen Sie erst vollständig zum Stehen kommen. Der Wechsel dauert einen bestimmten Zeitraum, der unabhängig vom Zustand des Moduls ist."
+
+msgid "detailsHelp/engineMode/engineModePage1/title"
+msgstr "Neue Bewegungsmechanik"
+
+msgid "detailsHelp/engineMode/engineModePage2"
+msgstr "Der Modus „Geladene Turbine“ steigert die Motorleistung, Höchstgeschwindigkeit vorwärts und rückwärts. Allerdings steigert dieser Modus die Sichtbarkeit Ihres Fahrzeugs und verlängert die Zielerfassungszeit."
+
+msgid "detailsHelp/engineMode/engineModePage2/title"
+msgstr "Vorteile und Nachteile"
+
+msgid "detailsHelp/mapbox/headerTitle"
+msgstr "Kartenfunktionen"
+
+msgid "detailsHelp/mapbox/localWeather/description"
+msgstr "Fahrzeuge, die in einem örtlichen Wettergebiet stecken, können Fahrzeuge außerhalb dieser Zone nicht entdecken, aber auch nicht von diesen entdeckt werden. Sie können auch keine Informationen über die Position von gegnerischen Fahrzeugen außerhalb der Zone erhalten oder weitergeben. Feuer fügt dem Fahrzeug Schaden zu."
+
+msgid "detailsHelp/mapbox/localWeather/title"
+msgstr "Örtliches Wetter"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/description"
+msgstr "Wenn Sie stehenbleiben oder sich unterhalb einer bestimmten Geschwindigkeit bewegen, kann Ihr Fahrzeug die analoge Ballistikberechnung kalibrieren und Genauigkeitsstufen steigern.\nJede Stufe steigert die Genauigkeit für den nächsten Schuss, der Effekt wird nach dem Feuern entfernt."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/title"
+msgstr "Analoge Ballistikberechnung"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/description"
+msgstr "Bei vollständiger Kalibrierung wird die höchste Genauigkeitsstufe erreicht, mit optimierter Geschützstabilisierung und minimierter Streuung bei Bewegung oder Turm-/Wannendrehung.\nDer Effekt wird durch das Feuern entfernt."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/title"
+msgstr "Vollständige Kalibrierung"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/description"
+msgstr "Ein automatisches Geschütz mit einer extrem hohen Feuerrate. Die Feuereffizienz wird durch eine Anzeige am Zielkreis angegeben."
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/title"
+msgstr "Maschinengeschütz"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/description"
+msgstr "Dieses Geschütz kann kontinuierlich Feuern, ohne zwischen Schüssen nachzuladen. Jeder Schuss erwärmt dabei den Geschützlauf, dauerhaftes Feuer wird zum Überhitzen des Geschützes führen. Erneutes Feuern ist dann erst wieder möglich, wenn das Geschütz abgekühlt ist."
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
+msgstr "Maschinenkanone mit Temperaturkontrolle gegen Überhitzen"
+
+msgid "detailsHelp/mechanics/battleFury/page1/description"
+msgstr "Wenn Sie einen Gegner mit einer Granate treffen, steigt Ihre Nachladeeffizienzstufe und Ihre Nachladegeschwindigkeit wird vorübergehend gesteigert. Die Effizienzstufe steigt durch jeden Treffer.\nWenn Sie ein gegnerisches Fahrzeug mit einer Granate zerstören, erhalten Sie zusätzliche Nachladeeffizienzstufen."
+
+msgid "detailsHelp/mechanics/battleFury/page1/title"
+msgstr "Halbautomatisches Munitionslager"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/description"
+msgstr "Wenn Ihr Geschütz geladen ist, können Sie den nächsten Schuss überhitzen. Je höher die Hitzestufe, desto größer wird der Bonus auf den mittleren Schaden.\nZum Start des Heizvorgangs drücken:"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/title"
+msgstr "Thermoballistische Überladung"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/description"
+msgstr "Auf höchster Stufe der Erhitzung beginnt ein Countdown. Sie müssen vor Ablauf den Schuss abfeuern, ansonsten können Sie mehrere Sekunden lang weder Feuern noch Granaten wechseln."
+
+msgid "detailsHelp/mechanics/chargeShot/page2/title"
+msgstr "Überhitzung"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/description"
+msgstr "Wenn Sie zwei durchschlagende Treffer an gegnerischen Fahrzeugen erzielen, aktivieren Sie den Garbenmodus. Das Geschütz lädt eine Garbenfeuerkassette, mit der Sie mit Ihrem nächsten Schuss zwei Granaten in schneller Folge abfeuern."
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
+msgstr "Garbenmodus"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/description"
+msgstr "Die pneumatische Drallstabilisierung erlaubt für kurze Zeit maximale Stabilisierung bei Wannen- und Turmdrehung und dadurch präziseres Feuer bei Bewegung und schnelle Reaktionsfähigkeit auf unerwartete Bedrohungen.\nZum Aktivieren Taste drücken:"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/title"
+msgstr "Pneumatische Drallstabilisierung"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/description"
+msgstr "Wenn das Geschütz nach dem Feuern ausreichend abkühlt, wird die Streuung reduziert. Ein zweiter Zielkreis mit kleinerem Durchmesser erscheint und bestimmt den Einschlagsbereich der Granate. Der Effekt hält bis zum nächsten abgegebenen Schuss an."
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/title"
+msgstr "Duales Zielen"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/description"
+msgstr "Das System lädt automatisch eine neue Kassette nach, wenn in der aktuellen Kassette nur noch eine Granate verbleibt.\nWenn die letzte Granate während dieses Vorgangs abgefeuert wird, verlängert sich die Nachladezeit um einige Sekunden."
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/title"
+msgstr "Kassettenladesystem"
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/description"
+msgstr "Das System hält das Geschütz kühl, um die Genauigkeit hoch zu halten. Jeder Schuss erzeugt Hitze, über den Kühlvorgang während des Nachladens kehrt das Geschütz zu den normalen Werten zurück. Je höher die Temperatur steigt, desto stärker sind die Auswirkungen auf die Geschützwerte."
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/title"
+msgstr "Aktive Geschützabkühlung"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/description"
+msgstr "Das Fahrzeug ist speziell für Rammangriffe ausgelegt. Modifikationen im Aufbau erlauben es ihm, bei Rammvorgängen mehr Schaden zu verursachen."
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/title"
+msgstr "Rammkonfiguration"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/description"
+msgstr "Das Geschütz dieses Fahrzeugs kann frühzeitig feuern: Einzelschussladungen, die während des Ladevorgangs abgefeuert werden, haben Verringerte Wirksamkeit, während Schüsse mit voller Ladung nach dem Nachladen über optimale ballistische Werte verfügen."
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/title"
+msgstr "Multipaket-Ladesystem"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/description"
+msgstr "Wenn Sie stillstehen oder sich nur langsam bewegen, wird das Waffensystem vorgewärmt, um mittleren Schaden und Genauigkeit für den nächsten Schuss zu erhöhen.\nBei einer Geschwindigkeit über dem Limit sinkt der Bonus langsam wieder ab, Feuern oder Wechseln von Granaten setzt ihn zurück."
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/title"
+msgstr "Thermokontrolle für Treibmittel"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/description"
+msgstr "Bei höchster Vorwärmstufe verursacht ein durchschlagender Treffer an einem gegnerischen Fahrzeug mit weniger SP als dem mittleren Schaden (einschließlich des Bonus durch das Vorwärmen) eine Explosion im Munitionslager, die das Fahrzeug sofort zerstört."
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/title"
+msgstr "Entscheidender Schaden"
+
+msgid "detailsHelp/mechanics/powerMode/page1/description"
+msgstr "Mit dem Direktantrieb erhalten Sie eine signifikante Verstärkung von Motorleistung und Höchstgeschwindigkeit. Je länger Sie sich vorwärts bewegen, desto mehr Geschwindigkeit bauen Sie auf und können damit leicht über das Schlachtfeld eilen."
+
+msgid "detailsHelp/mechanics/powerMode/page1/title"
+msgstr "Direktantrieb"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/description"
+msgstr "Dieses System baut automatisch über Zeit eine Ladung auf, die beim Feuern des Geschützes teilweise verbraucht wird, um den Schaden zu erhöhen. Je höher die Ladung, desto höher der Bonusschaden."
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/title"
+msgstr "Induktionstreibstoff-Nachbrenner"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/description"
+msgstr "Standardmäßig speichert das System die Ladung nur bis zu einer bestimmten Grenze. Den Begrenzer zu deaktivieren ermöglicht es, eine noch höhere Ladung aufzubauen, was einen deutlich höheren Schadensbonus gewährt, auf Kosten der Geschützhandhabung. Um den Begrenzer ein- oder auszuschalten, drücken Sie:"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/title"
+msgstr "Begrenzer"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/description"
+msgstr "Der Flüssigkeitsbooster verleiht einen Schub für die Motorleistung, die eine schnelle Bewegung über das Schlachtfeld erlaubt, allerdings die Rückwärts- und Wendegeschwindigkeit einschränkt. Der Booster kann jederzeit ein- oder ausgeschaltet werden, solange er nicht überhitzt ist.\nZum Einsetzen drücken:"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/title"
+msgstr "Flüssigkeitsbooster"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/description"
+msgstr "Der Booster erhitzt sich während des Einsatzes bis zu einer kritischen Hitzestufe, ab der er abkühlen muss, ehe er erneut eingesetzt werden kann. Planen Sie den Einsatz sorgfältig im Voraus, damit Sie nicht überrascht werden."
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/title"
+msgstr "Kritische Hitzestufe"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/description"
+msgstr "Der Einsatz von Jet-Boostern steigert die Beweglichkeit des Fahrzeugs. Damit können Sie schneller vorteilhafte Positionen einnehmen oder gefährliches Gelände überqueren. Die Jet-Booster können in jedem Gefecht nur begrenzt oft und nur für begrenzte Zeit aktiviert werden. Sie können nicht deaktiviert oder zerstört werden."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/title"
+msgstr "Jet-Booster"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/description"
+msgstr "Bei Aktivierung steigern die Jet-Booster die Motorleistung und die Höchstgeschwindigkeit vorwärts. Das Fahrzeug wird aber weniger wendig und kann nur noch langsamer rückwärts fahren."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
+msgstr "Vor- und Nachteile"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
+msgstr "Feststoff-Schubdüsen verbessern mehrere Sekunden lang die Beschleunigung, die Beweglichkeit und die Manövrierfähigkeit. Die linken und rechten Düsen können unabhängig voneinander eingesetzt werden, um so die Wendegeschwindigkeit der Wanne zu steigern, ohne die Rückwärtsbewegung einzuschränken."
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/title"
+msgstr "In Reihe geschaltete Schubdüsen"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/description"
+msgstr "Das Fahrzeug besitzt zwei Modi, den Angriffsmodus und den Turbomodus, und kann jederzeit zwischen ihnen wechseln. Der taktische Triebwerksblock sammelt Energie für den aktiven Modus an.\nZum Wechseln des Modus drücken:"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/title"
+msgstr "Zwei Modi"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/description"
+msgstr "Sobald der taktische Triebwerksblock voll aufgeladen ist, wird eine für den Modus spezifische Fähigkeit verfügbar. Das Aktivieren der Fähigkeit verbraucht die gesamte angesammelte Energie und verleiht für kurze Zeit einen mächtigen Bonus.\nZum Aktivieren der einzigartigen Fähigkeit des Modus drücken:"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/title"
+msgstr "Fähigkeiten des Modus"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/description"
+msgstr "Mit dem Modul für externe Munitionszufuhr können Sie den Nachladevorgang jederzeit unterbrechen, solange mindestens eine Granate geladen ist. Zum Unterbrechen oder Wiederaufnehmen des Nachladevorgangs drücken:"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/title"
+msgstr "Modul für externe Munitionszufuhr"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/description"
+msgstr "Während des Nachladevorgangs verankert das Modul den Turm des Fahrzeugs mit der externen Munitionsladung, was vorübergehend jegliches Zielen oder Feuern verhindert, wenn es nicht unterbrochen wird."
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/title"
+msgstr "Modul für externe Munitionszufuhr"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/description"
+msgstr "Das Fahrzeug verfügt über einen Satz Sekundärwaffen mit einem eigenen Nachladeprozess, der unabhängig vom Hauptgeschütz läuft. Damit können Sie in entscheidenden Momenten zusätzlichen Schaden verursachen. Zum Aktivieren der Sekundärwaffen drücken:"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/title"
+msgstr "Sekundärwaffen"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/description"
+msgstr "Die Laserzielerfassung fügt dem nächsten Schuss einen besonderen Effekt hinzu, der jeden Gegner betrifft, der getroffen wird. Der Effekt hängt vom Aufklärungsstatus des Gegners ab.\nZum Aktivieren der Laserzielerfassung drücken:"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/title"
+msgstr "Laserzielerfassung"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/description"
+msgstr "Wenn Sie ein aufgeklärtes gegnerisches Fahrzeug treffen, wird es markiert. Dadurch bleibt es länger aufgeklärt und erleidet zusätzlichen Schaden von folgenden Granaten.\nWenn Sie ein nicht aufgeklärtes gegnerisches Fahrzeug treffen, wird sein Standort durch einen besonderen Marker angezeigt."
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/title"
+msgstr "Zielerfassung"
+
+msgid "detailsHelp/mechanics/twinGun/page1/description"
+msgstr "Sie können den Feuermodus entsprechend der Gefechtssituation von Einzelschuss auf Salvenschuss ändern."
+
+msgid "detailsHelp/mechanics/twinGun/page1/title"
+msgstr "Mechanik zum Wechsel des Feuermodus"
+
+msgid "detailsHelp/mechanics/twinGun/page2/description"
+msgstr "Salvenfeuer verdoppelt sowohl Schaden als auch Nachladezeit und verschlechtert den Wert für Streuung auf 100 m*."
+
+msgid "detailsHelp/mechanics/twinGun/page2/title"
+msgstr "Vor- und Nachteile"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/description"
+msgstr "Diese mechanische Modifikation steigert kurzzeitig die Beschleunigung des Fahrzeugs vorwärts und rückwärts, die Motorleistung sowie die Höchstgeschwindigkeit vorwärts und rückwärts deutlich. Das Beibehalten einer hohen Fahrgeschwindigkeit beschleunigt die Abklingzeit."
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/title"
+msgstr "Hochdruck-Turbolader-Zusatzeinheit"
+
+msgid "detailsHelp/noKeysWarning"
+msgstr "Die wichtigsten Tasten wurden nicht zugewiesen. Weisen Sie diese in den Spieleinstellungen zu."
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1"
+msgstr "In diesem Modus sind Genauigkeit, Nachladegeschwindigkeit und Höhenrichtbereich drastisch gesteigert, dafür ist die Beweglichkeit (Höchstgeschwindigkeit vorwärts/rückwärts, horizontale Wendegeschwindigkeit und vertikale Hebegeschwindigkeit) stark eingeschränkt. Zum Aktivieren des Modus Taste %(pressAndHold)s:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/pressAndHold"
+msgstr "drücken und halten"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/title"
+msgstr "Bunkermodus"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2"
+msgstr "In diesem Modus sind Genauigkeit, Zielgeschwindigkeit und Höhenrichtbereich verbessert, dafür wird die Beweglichkeit (vorwärts und rückwärts) reduziert. Zum Aktivieren des Modus Taste drücken:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2/title"
+msgstr "Feuermodus"
+
+msgid "detailsHelp/role/description"
+msgstr "Erhalten Sie einen Bonus auf Erfahrung durch Erfüllen von Rollenaufgaben:"
+
+msgid "detailsHelp/role/title"
+msgstr "Rolle des Fahrzeugs im Gefecht"
+
+msgid "detailsHelp/trackWithinTrack/description"
+msgstr "Erlauben es, einen Teil der Beweglichkeit beizubehalten, wenn die Hauptkette zerstört wurde."
+
+msgid "detailsHelp/trackWithinTrack/title"
+msgstr "Reserveketten"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique"
+msgstr "Französische leichte Radfahrzeuge besitzen die höchste Geschwindigkeit und Dynamik, haben jedoch nur eine mäßige Sichtweite. Ein stehendes Radfahrzeug kann nicht wenden."
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique/title"
+msgstr "Übersicht"
+
+msgid "detailsHelp/wheeledVeh/burnout"
+msgstr "Drücken und halten Sie %(key2)s und %(key1)s gleichzeitig. Die Füllung des Energiebalkens beeinflusst die Schubstärke. Lassen Sie die Taste %(key1)s los, um den Schub zu aktivieren oder lassen Sie die Taste %(key2)s los, um den Schub abzubrechen. Der Schub gibt Ihnen eine starke Beschleunigung, mit der Sie unerwartete Angriffe und Täuschmanöver durchführen können. Achtung! Der Schub kann nur eingesetzt werden, wenn das Fahrzeug zum Stillstand gekommen ist. Die Aktivierung des Schubs beschädigt den Motor Ihres Fahrzeugs."
+
+msgid "detailsHelp/wheeledVeh/burnout/title"
+msgstr "Schub"
+
+msgid "detailsHelp/wheeledVeh/stableChassis"
+msgstr "Radfahrzeuge erhalten weniger Schaden, wenn sie auf den Rädern landen. Ein Radfahrzeug hält nicht an, wenn ein Rad zerstört wird. Je mehr Räder zerstört werden, desto stärker werden Geschwindigkeit und Bedienbarkeit verringert. Radfahrzeuge sind schwieriger bewegungsunfähig zu machen – zerstörte Räder werden nach einer bestimmten Zeit vollständig repariert."
+
+msgid "detailsHelp/wheeledVeh/stableChassis/title"
+msgstr "Haltbares Fahrwerk"
+
+msgid "detailsHelp/wheeledVeh/twoModes"
+msgstr "Drücken Sie %(key1)s, um den Modus zu wechseln. Die Fahrzeuge haben in jedem Modus unterschiedliche Geschwindigkeit, Dynamik und Handling."
+
+msgid "detailsHelp/wheeledVeh/twoModes/title"
+msgstr "Zwei Bewegungsmodi"
+
+msgid "markerColors/enemy"
+msgstr "Gegner"
+
+msgid "markerColors/friend"
+msgstr "Verbündeter"
+
+msgid "markerColors/squadPlayer"
+msgstr "Zugkamerad"
+
+msgid "markerColors/teamKiller"
+msgstr "Teamkiller"
+
+msgid "markerColors/title"
+msgstr "Markierungsfarben:"
+
+msgid "markerMarks/attack"
+msgstr "Angriff"
+
+msgid "markerMarks/follow"
+msgstr "Folgt mir!"
+
+msgid "markerMarks/help"
+msgstr "Hilfe!"
+
+msgid "markerMarks/target/sau"
+msgstr "SFL-Ziel"
+
+msgid "markerMarks/target/tank"
+msgstr "Ziel des Fahrzeugs"
+
+msgid "markerMarks/title"
+msgstr "Markierungen auf Minikarte:"
+
+msgid "radialMenu/ally_hq_defend_command"
+msgstr "Verteidigen!"
+
+msgid "radialMenu/ally_hq_defend_commit"
+msgstr "Verteidige!"
+
+msgid "radialMenu/attackAreaSPG"
+msgstr "Ziele hier!"
+
+msgid "radialMenu/attack_enemy"
+msgstr "Brauche Unterstützung!"
+
+msgid "radialMenu/attack_enemy_with_SPG"
+msgstr "Greife Ziel an!"
+
+msgid "radialMenu/attacking_base"
+msgstr "Ich erobere!"
+
+msgid "radialMenu/attacking_enemy"
+msgstr "Greife Ziel an!"
+
+msgid "radialMenu/attention_to_base_atk"
+msgstr "Erobern!"
+
+msgid "radialMenu/attention_to_base_def"
+msgstr "Verteidigen!"
+
+msgid "radialMenu/attention_to_position"
+msgstr "Achtung auf Position!"
+
+msgid "radialMenu/cancel_reply"
+msgstr "Negativ"
+
+msgid "radialMenu/defending_base"
+msgstr "Ich verteidige"
+
+msgid "radialMenu/enemy_hq_attack_command"
+msgstr "Angriff!"
+
+msgid "radialMenu/enemy_hq_attack_commit"
+msgstr "Greife an!"
+
+msgid "radialMenu/going_there"
+msgstr "Fahre zu Position!"
+
+msgid "radialMenu/helpMe"
+msgstr "Hilfe!"
+
+msgid "radialMenu/helpMeEx"
+msgstr "Ich brauche Hilfe!"
+
+msgid "radialMenu/overheated_gun"
+msgstr "Überhitzt!"
+
+msgid "radialMenu/positive"
+msgstr "Verstanden!"
+
+msgid "radialMenu/reloadingGun"
+msgstr "Lade nach!"
+
+msgid "radialMenu/reply_to_player"
+msgstr "Bestätigt!"
+
+msgid "radialMenu/supporting_ally"
+msgstr "Ich helfe Ihnen!"
+
+msgid "radialMenu/thanks"
+msgstr "Vielen Dank!"
+
+msgid "radialMenu/turn_back"
+msgstr "Rückzug!"
+
+msgid "returnToGame"
+msgstr "Esc – Zurück zum Gefecht"
+
+msgid "roleDescription/msg"
+msgstr "Erhalten Sie einen Bonus auf Erfahrung durch Erfüllen von Rollenaufgaben:"
+
+msgid "settings/button"
+msgstr "Einstellungen"
+
+msgid "settings/help"
+msgstr "Um die Spielkontrollen anzuzeigen und anzupassen, klicken Sie Einstellungen."
+
+msgid "teamComm/highlightAsActiveTarget"
+msgstr "Aktives Ziel angeben"
+
+msgid "teamComm/highlightLocation"
+msgstr "Position angeben"
+
+msgid "teamComm/show"
+msgstr "Befehlsmenü anzeigen"
+
+msgid "teamComm/show/ext"
+msgstr "(zeigt alle Befehle abhängig vom Ziel an)"
+
+msgid "teamComm/title"
+msgstr "Teamkommunikation"
+
+msgid "vehicleTypes/title"
+msgstr "Fahrzeugmarkierungen"

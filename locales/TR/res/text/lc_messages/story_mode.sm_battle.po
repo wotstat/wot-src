@@ -1,0 +1,671 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-07-20 10:00+0300\nPO-Revision-Date: 2023-07-20 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleResult/reason/1"
+msgstr "Tüm düşman araçları yok edildi"
+
+msgid "battleResult/reason/11"
+msgstr "Tüm hedefler tamamlandı"
+
+msgid "battleResult/reason/3"
+msgstr "Savaş süresi bitti"
+
+msgid "battleResult/reason/5"
+msgstr "Teknik yenilgi"
+
+msgid "battleResult/reason/8"
+msgstr "Müttefik yok edildi"
+
+msgid "battleResult/reason/9"
+msgstr "Aracınız yok edildi"
+
+msgid "battleResult/reason/default"
+msgstr "Sebep bilinmiyor"
+
+msgid "battleResult/resultLabel/tie"
+msgstr "SAVAŞ BİTTİ"
+
+msgid "battleResult/resultLabel/win"
+msgstr "ZAFER!"
+
+msgid "berlin/hint01"
+msgstr "Storm Petrel için King Tiger'ın paletlerini imha edin"
+
+msgid "berlin/hint02"
+msgstr "Bekleyin ve Çvş. Brooks'u dinleyin"
+
+msgid "berlin/objective01/header"
+msgstr "Düşman Wunderwaffe'sini bulun"
+
+msgid "berlin/objective01/subheader"
+msgstr "Dikkatli ilerleyin"
+
+msgid "berlin/objective02/header"
+msgstr "Durun!"
+
+msgid "berlin/objective02/subheader"
+msgstr "Karargâhtan gelen yönergeleri izleyin"
+
+msgid "berlin/objective03/header"
+msgstr "Düşman Wunderwaffe'sini bulun"
+
+msgid "berlin/objective03/subheader"
+msgstr "Dikkatli ilerleyin"
+
+msgid "berlin/objective03/success"
+msgstr "Harabeler temizlendi!"
+
+msgid "berlin/objective04/header"
+msgstr "Çvş. Brooks'un bombardıman uçağı çağırmasını bekleyin"
+
+msgid "berlin/objective04/subheader"
+msgstr "Konumunuzu savunun!"
+
+msgid "berlin/objective05/header"
+msgstr "Düşmanları temizleyin"
+
+msgid "berlin/objective05/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Kalan %d düşmanı yok edin"
+msgstr[1] "Kalan %d düşmanı yok edin"
+msgstr[2] "Kalan %d düşmanı yok edin"
+
+msgid "berlin/objective05/success"
+msgstr "Bombardıman uçağı geliyor! Hazırlanın!"
+
+msgid "berlin/objective06/header"
+msgstr "Görevi bitirin"
+
+msgid "berlin/objective06/subheader"
+msgstr "Jagdtiger'ın paletlerini imha edin"
+
+msgid "berlin/objective06/success"
+msgstr "JagdTiger yok edildi"
+
+msgid "berlin/objective07/header"
+msgstr "Wunderwaffe'yi ele geçirin"
+
+msgid "berlin/objective07/subheader"
+msgstr "Minik Fare'nin paletleri imha edin"
+
+msgid "berlin/objective07/success"
+msgstr "Minik Fare yok edildi ve ele geçirildi!"
+
+msgid "berlin/prebattle/header"
+msgstr "Dikkatli ilerleyin"
+
+msgid "berlin/prebattle/start"
+msgstr "Devam edin"
+
+msgid "berlin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "berlin/respawn/header"
+msgstr "Asker, beklemede kal"
+
+msgid "berlin/respawn/subheader"
+msgstr "Destek kuvvetler geliyor"
+
+msgid "berlin/respawn_over/header"
+msgstr "Bitti"
+
+msgid "berlin/respawn_over/subheader"
+msgstr "Kullanılabilecek tüm araçlar yok edildi"
+
+msgid "botNames/Brooks"
+msgstr "Çavuş Brooks"
+
+msgid "botNames/Connolly"
+msgstr "Lt. Arthur Connolly"
+
+msgid "botNames/Dubois"
+msgstr "Capt. Louis Dubois"
+
+msgid "botNames/McCormick"
+msgstr "Capt. John McCormick"
+
+msgid "botNames/McLaud"
+msgstr "Alistair MacLeod"
+
+msgid "botNames/Murphy"
+msgstr "Capt. Jack Murphy"
+
+msgid "botNames/Teddy"
+msgstr "Yzb. Miroslav Kotva"
+
+msgid "botNames/Ulysses"
+msgstr "Yzb. James Corvin"
+
+msgid "bunker"
+msgstr "Sahil Koruganı"
+
+msgid "common/battleBtn"
+msgstr "Savaş!"
+
+msgid "common/continueBtn"
+msgstr "Devam et"
+
+msgid "common/loading"
+msgstr "Yükleniyor"
+
+msgid "common/skipBtn"
+msgstr "Atla"
+
+msgid "confirmExit/exit"
+msgstr "Atla"
+
+msgid "confirmExit/exitRegular"
+msgstr "Çık"
+
+msgid "confirmExit/stay"
+msgstr "İptal"
+
+msgid "confirmExit/title"
+msgstr "Tiger Avı hikayesini atlamak istiyor musunuz?"
+
+msgid "confirmExit/titleRegular"
+msgstr "Hikayeden çıkmak istiyor musunuz?"
+
+msgid "dday/hint01"
+msgstr "Sahil koruganlarını yok etmenin bir yolunu bulun"
+
+msgid "dday/hint02"
+msgstr "Zırhlıya yardımcı olmak için duman işaretlerini kullanın"
+
+msgid "dday/objective01/header"
+msgstr "Sahilde hayatta kalın"
+
+msgid "dday/objective01/subheader"
+msgstr "Ne pahasına olursa olsun düşman ateşinden kaçının"
+
+msgid "dday/objective02/header"
+msgstr "Düşman hatlarını yarın"
+
+msgid "dday/objective02/subheader"
+msgid_plural "plural/dday/objective02/subheader"
+msgstr[0] "%d sahil koruganı yok edin"
+msgstr[1] "%d sahil koruganı yok edin"
+msgstr[2] "%d sahil koruganı yok edin"
+
+msgid "dday/objective02/success"
+msgstr "Tüm sahil koruganları yok edildi!"
+
+msgid "dday/objective03/header"
+msgstr "Tepeye tırmanın"
+
+msgid "dday/objective03/subheader"
+msgstr "B5 sektöründeki düşman savunmalarına ulaşın ve yok edin"
+
+msgid "dday/objective03/success"
+msgstr "Savunmalar yok edildi! Bu yarma harekâtından faydalanın!"
+
+msgid "dday/objective04/header"
+msgstr "Müttefiklerinizin hattı yarmalarına yardımcı olun"
+
+msgid "dday/objective04/subheader"
+msgstr "D6 sektöründeki düşman savunmalarını etkisiz hale getirin"
+
+msgid "dday/objective04/success"
+msgstr "Yüzbaşı Murphy'nin yolu temizlendi!"
+
+msgid "dday/objective05/header"
+msgstr "Yüzbaşı Dubois'e yardım edin"
+
+msgid "dday/objective05/subheader"
+msgstr "H6 sektöründeki düşman savunmalarını etkisiz hale getirin"
+
+msgid "dday/objective05/success"
+msgstr "Yüzbaşı Dubois'in yolu temizlendi!"
+
+msgid "dday/objective06/header"
+msgstr "Deniz kuvvetlerini koruyun"
+
+msgid "dday/objective06/subheader"
+msgid_plural "plural/dday/objective06/subheader"
+msgstr[0] "%d sahil topu yok edin"
+msgstr[1] "%d sahil topu yok edin"
+msgstr[2] "%d sahil topu yok edin"
+
+msgid "dday/objective06/success"
+msgstr "Tüm sahil topları yok edildi!"
+
+msgid "dday/objective07/header"
+msgstr "Bölgeyi temizleyin"
+
+msgid "dday/objective07/subheader"
+msgid_plural "plural/dday/objective07/subheader"
+msgstr[0] "Kalan %d düşmanı yok edin"
+msgstr[1] "Kalan %d düşmanı yok edin"
+msgstr[2] "Kalan %d düşmanı yok edin"
+
+msgid "dday/objective07/success"
+msgstr "Tüm düşmanlar yok edildi!"
+
+msgid "dday/objective08/header"
+msgstr "Yerinizi koruyun"
+
+msgid "dday/objective08/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "%d düşman aracı yok edin"
+msgstr[1] "%d düşman aracı yok edin"
+msgstr[2] "%d düşman aracı yok edin"
+
+msgid "dday/objective08/success"
+msgstr "Köprübaşı savunuldu!"
+
+msgid "dday/prebattle/header"
+msgstr "Taarruza hazırlanın"
+
+msgid "dday/prebattle/start"
+msgstr "Saldırın!"
+
+msgid "dday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "dday/respawn/header"
+msgstr "Asker, beklemede kal"
+
+msgid "dday/respawn/subheader"
+msgstr "Destek kuvvetler geliyor"
+
+msgid "dday/respawn_over/header"
+msgstr "Bitti"
+
+msgid "dday/respawn_over/subheader"
+msgstr "Kullanılabilecek tüm araçlar yok edildi"
+
+msgid "epilogue/text"
+msgstr "MacLeod: \"Hayatta! Brooks hayatta! Fena yanmış. Ama hayatta. Tabii ki canlı. Bana madalya sözü var. Sen kendininkini aldın. Hak ettin tabii, onu demiyorum. O King Tiger'ı çıtır çıtır yaktın. Artık ödeştik. Seni kurtardığımızda Tiger'a yaptığımız o atış tamamen şanstı. Nişan bile almadan ateş etmiştim. Bak nasıl sonuçlandı! Kendimi kurtarmışım gibi görünüyordu. Brooks'u da.\n\nArtık biraz dinlenebiliriz. Birkaç günümüz var. Tanklarımızı toparlayalım. Berlin bizi bekler.\n\nBu arada 7'ye 4 senin avantajına. Ama Almanların hâlâ o Tigerları var, kimin üstün geleceğini göreceğiz!\""
+
+msgid "epilogue/title"
+msgstr "KAPANIŞ"
+
+msgid "finish/reason/1"
+msgstr "TÜM DÜŞMAN ARAÇLARI YOK EDİLDİ"
+
+msgid "finish/reason/11"
+msgstr "TÜM HEDEFLER TAMAMLANDI"
+
+msgid "finish/reason/3"
+msgstr "SAVAŞ SÜRESİ BİTTİ"
+
+msgid "finish/reason/5"
+msgstr "HÜKMEN YENİLGİ"
+
+msgid "finish/reason/8"
+msgstr "MÜTTEFİK YOK EDİLDİ"
+
+msgid "finish/reason/9"
+msgstr "ARACINIZ YOK EDİLDİ"
+
+msgid "finish/reason/default"
+msgstr "NEDEN BİLİNMİYOR"
+
+msgid "hint_aim_weak_spots"
+msgstr "Yeşil işaret hasar verme şansının yüksek olduğunu gösterir"
+
+msgid "hint_move"
+msgstr "Araç kumandaları"
+
+msgid "hint_move_turret"
+msgstr "Kule ve nişan alma kumandaları"
+
+msgid "hint_shoot"
+msgstr "Düşman aracına nişan alın ve ateş edin"
+
+msgid "hint_sniper_enter"
+msgstr "Keskin Nişancı moduna geçmek için fare tekerini çevirin"
+
+msgid "hint_sniper_on_distance_exit"
+msgstr "Keskin Nişancı modundan çıkmak için fare tekerini çevirin"
+
+msgid "hint_sniper_weak_spots_enter"
+msgstr "Keskin Nişancı modu düşman araçlarının zayıf noktalarına daha iyi nişan alma imkanı sağlar"
+
+msgid "hint_target_unlock"
+msgstr "Otomatik nişan alma açıldı. Sağ FT ile iptal edin."
+
+msgid "ingameMenu/buttons/quit"
+msgstr "Girişi Atla"
+
+msgid "introVideo/loading"
+msgstr "Yükleniyor..."
+
+msgid "lootCapturing/equipment"
+msgstr "Ele Geçiriliyor: Mayın Tarlası Haritası"
+
+msgid "lootCapturing/plan"
+msgstr "Ele Geçiriliyor: Harita Parçası"
+
+msgid "lootCapturing/tank"
+msgstr "Düşman aracını ele geçirme"
+
+msgid "prebattle/mission/stage/1"
+msgstr "Operasyon 1"
+
+msgid "prebattle/mission/stage/2"
+msgstr "Operasyon 2"
+
+msgid "prebattle/mission/stage/3"
+msgstr "Operasyon 3"
+
+msgid "prebattle/mission/stage/4"
+msgstr "Operasyon 4"
+
+msgid "prebattle/mission/stage/5"
+msgstr "Operasyon 5"
+
+msgid "prebattle/mission/stage/6"
+msgstr "Operasyon 6"
+
+msgid "prebattle/mission/stage/7"
+msgstr "Operasyon 7"
+
+msgid "prebattle/mission/task/1"
+msgstr "Görev: Kasabaya saldırın ve tüm düşman araçlarını yok edin."
+
+msgid "prebattle/mission/task/2"
+msgstr "Görev: Kasabaya saldırın ve tüm düşman araçlarını yok edin."
+
+msgid "prebattle/mission/task/3"
+msgstr "Kasabaya saldırın ve tüm düşman araçlarını yok edin."
+
+msgid "prebattle/mission/task/4"
+msgstr "Düşman Wunderwaffe'sini bulun ve yok edin."
+
+msgid "prebattle/mission/task/5"
+msgstr "Hattı yarın, sahil toplarını yok edin ve köprübaşını ele geçirin."
+
+msgid "prebattle/mission/task/6"
+msgstr "Ateşkes emrini müttefiklerinize ulaştırın."
+
+msgid "prebattle/mission/task/7"
+msgstr "Komuta merkezine ulaşın ve füze fırlatılmasını durdurun."
+
+msgid "prebattle/mission/text/1"
+msgstr "Brooks: \"Nasılsın? Kendine gelebildin mi? Sıhhiye birazdan sana bakacak. Artık her top çok değerli. Taarruz başladı bile. Biz geç kaldığımız için düşman tüm dikkatini başka bir kanada yoğunlaştırdı. İşte fırsatımız bu. Hemen saldırıyoruz. Kasabaya dalıp onları iki taraftan sıkıştıracağız.\n\nBizi takip et. Ejderha dişlerinden kaçın. Sahada o beton dişlerden birkaç sıra var. Yine de sorun yok. Geçmeyi başaracağız. Tek yapman gereken beni dinlemek ve emirlerimi hızla ve tam olarak yerine getirmek. MacLeod ve ben seni koruyacağız.\n\nŞakalarını da aklına getirme sakın. Herkesin baş etmek için kendi yöntemi var... İleri!\""
+
+msgid "prebattle/mission/text/2"
+msgstr "MacLeod: \"Eveeet, Tigerlar - Savaş alanında karşılaşabileceğin en korkunç şeyler. Komuta kademesi sorun var diyorsa muhtemelen Tigerlardan bahsediyorlardır. İlk taarruz takımı ile iletişim kuramıyoruz, ikincisi de az önce yola çıktı. Biz de buradayız, peşlerinden gitmek üzere gönderildik.\n\nBizi de gönderiyorlarsa tek bir anlamı var demektir: Tigerlar. Karargâhta aynen böyle diyorlar: \"Şu Tiger uzmanlarını gönderin!\" İki tank için dokuz tank. Yarım yıl için hiç fena değil. 5-4 öndesin. Ama öne geçmek için fırsatım var. Ve şu lanet madalyayı almak için!\n\nHaydi - Brooks beklemeyi sevmez. Ava başlıyoruz.\""
+
+msgid "prebattle/mission/text/3"
+msgstr "MacLeod: \"Evet arkadaşlar, Çekiç ve Örs Operasyonu. Pek de basit olmayan bir iş için basit bir isim. Düşman kuvvetlerini temizlemek için şehre gidiyoruz. Kolay bir iş olmayacak, karşımızda ağır zırhlı birlikler var. Bizim de beynimiz, kas gücümüz ve takım çalışmamız var, değil mi Lucky? Haydi şu işi hızlıca yapalım, dostlar. Beşte bir fincan \"çayla\" ilgili planlarım var, ne demek istediğimi anladınız siz!\""
+
+msgid "prebattle/mission/text/4"
+msgstr "\"Sorma, Lucky. Ben de en az senin kadar bilgisizim.\n\nBu gizlilikten hoşlanmıyorum. Ben her şeyin açık olmasını isterim. Düşmanı görürsün, savaşırsın. Ama burası? Tam bir karmaşa.\n\nŞehirde müttefik tankları da olacak. Brooks dikkatli olmamızı istedi. Bu ne demek şimdi?\nÖzel bir görevimiz var. Bir çeşit Wunderwaffe bulmak, raylar üzerinde devasa bir şey. Bunu bizden başka yapacak kimse yok Lucky.\n\nHazır mısın? Hadi gidelim.\""
+
+msgid "prebattle/mission/text/5"
+msgstr "Yüzbaşı John McCormick: \"Evet beyler, gün geldi, çattı. Bu savaşı bitirme zamanı geldi ve tam da bunu yapacağız. Hepimiz birlikte: Amerikalılar, İngilizler, Fransızlar, Kanadalılar, Avustralyalılar, Belçikalılar, Çekoslovaklar, Yunanlılar, Hollandalılar, Kiviler, Norveçliler, Polonyalılar. Bu hainliğe kesin bir şekilde dur demek üzere bir araya geldik.\n\nAtlantik Duvarını delip geçeceğiz ve köprübaşımızı oluşturacağız.\n\nÇıkarmaya hazırlanın!\""
+
+msgid "prebattle/mission/text/6"
+msgstr "Yüzbaşı Smith: \"Dinleyin. Almanya teslim belgelerini daha birkaç saat önce imzaladı. Savaş yarın bitiyor. Ama dağdaki adamlarımızla telsiz bağlantısını kaybettik, savaşın bittiğini bilmiyorlar. Şafakta bu lanet kaleye saldıracaklar; içerideki Almanların da teslim olduklarından haberi yok. Anlamsız bir katliam olacak. \n\nBunu durdurabilecek bir tek biz varız. Görevimiz: Düşman hatlarından gizlice geçip ateşkes emrini iletmek. Bu bir intihar operasyonu ama kurtaracağımız her hayat buna değer. \n\nYanımızda araziyi bilen ve bu katliamı durdurmayı en az bizim kadar isteyen esir alınmış bir Alman telsizci var. \n\nHarekete geçin.\""
+
+msgid "prebattle/mission/text/7"
+msgstr "Leni Scharf: \"Durum kritik. Norveç Denizi'ndeki füze üssümüzle bağlantıyı kaybettik. Keşif uçuşu geri dönmedi ve ilk tank çıkarma kuvveti bilinmeyen bir düşman tarafından yok edildi.\n\nİstihbarat, bir balistik füze fırlatmaya hazırlandıklarını gösteriyor. Hedefi bilmiyoruz ama bu siyasi ortamda tek bir fırlatma bile küresel bir çatışmayı tetikleyebilir.\n\nEski günlerdeki gibi, değil mi? Düşman hatlarının gerisinde imkansız bir görev daha. Harekete geçin!\""
+
+msgid "prebattle/mission/title/1"
+msgstr "Çelik Çığ"
+
+msgid "prebattle/mission/title/2"
+msgstr "Tuzakçı"
+
+msgid "prebattle/mission/title/3"
+msgstr "Çekiç ve Örs"
+
+msgid "prebattle/mission/title/4"
+msgstr "Fare Kapanında Kedi"
+
+msgid "prebattle/mission/title/5"
+msgstr "Overlord Harekâtı"
+
+msgid "prebattle/mission/title/6"
+msgstr "Postacı Operasyonu"
+
+msgid "prebattle/mission/title/7"
+msgstr "Kaynama Noktası Operasyonu"
+
+msgid "ruinberg/hint01"
+msgstr "Tali bir yol bulun ve düşmanın kanadına geçin"
+
+msgid "ruinberg/objective01/header"
+msgstr "İlerleyin!"
+
+msgid "ruinberg/objective01/subheader"
+msgstr "İleri atılın ve düşman kuvvetlerini temizleyin"
+
+msgid "ruinberg/objective02/header"
+msgstr "Etrafından sinsice dolaşın"
+
+msgid "ruinberg/objective02/subheader"
+msgstr "Düşmanı iki taraftan sıkıştırın"
+
+msgid "ruinberg/objective02/success"
+msgstr "Yok Edildi!"
+
+msgid "ruinberg/objective03/header"
+msgstr "Etrafından sinsice dolaşın"
+
+msgid "ruinberg/objective03/subheader"
+msgstr "Düşmanı iki taraftan sıkıştırın"
+
+msgid "ruinberg/objective03/success"
+msgstr "Yok Edildi!"
+
+msgid "ruinberg/objective05/header"
+msgstr "İlerleyin!"
+
+msgid "ruinberg/objective05/subheader"
+msgstr "İleri atılın ve düşman kuvvetlerini temizleyin"
+
+msgid "ruinberg/objective07/header"
+msgstr "Karşı saldırıya hazırlanın!"
+
+msgid "ruinberg/objective07/subheader"
+msgstr "Konumunuzu koruyun"
+
+msgid "ruinberg/objective07/success"
+msgstr "Düşmanlar yok edildi!"
+
+msgid "ruinberg/prebattle/header"
+msgstr "Hazırlanın!"
+
+msgid "ruinberg/prebattle/start"
+msgstr "Saldırın!"
+
+msgid "ruinberg/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "ruinberg/respawn/header"
+msgstr "Asker, beklemede kal"
+
+msgid "ruinberg/respawn/subheader"
+msgstr "Destek kuvvetler geliyor"
+
+msgid "ruinberg/respawn_over/header"
+msgstr "Bitti"
+
+msgid "ruinberg/respawn_over/subheader"
+msgstr "Kullanılabilecek tüm araçlar yok edildi"
+
+msgid "settings/disabledTabsOverlay"
+msgstr "Bu ayarları açmak için Tiger Avı hikayesini tamamlayın."
+
+msgid "timersPanel/overturned"
+msgstr "Aracınız kurtarılıyor..."
+
+msgid "vday/hint01"
+msgstr "Hızla köşenin arkasına geçin"
+
+msgid "vday/hint02"
+msgstr "Gizlice yaklaşın"
+
+msgid "vday/hint03"
+msgstr "Yzb. Dubois'yı bölge keşfine gönderin"
+
+msgid "vday/hint04"
+msgstr "Ele geçirilmiş telsizi kullanarak Tiger'a sahte emir verin"
+
+msgid "vday/hint05"
+msgstr "Alman komuta merkezini kontrol edin"
+
+msgid "vday/hint06"
+msgstr "Bölge Keşfi ve Sahte Emir yetenekleri başarınızın anahtarıdır"
+
+msgid "vday/hint07"
+msgstr "Görünmeden hareket etmek için Bölge Keşfi ve Sahte Emir yeteneklerini kullanın"
+
+msgid "vday/hint08"
+msgstr "Fırla! Ya tam gaz ya tam tabut, arası yok!"
+
+msgid "vday/hint09"
+msgstr "Elit tanklar Sahte Emirle şaşırtılamaz"
+
+msgid "vday/hint10"
+msgstr "Yzb. Smith'in talimatlarını izleyin ve dikkatli hareket edin"
+
+msgid "vday/hint11"
+msgstr "Göreve dönün!"
+
+msgid "vday/objective01/header"
+msgstr "Harekete geçin!"
+
+msgid "vday/objective01/subheader"
+msgstr "Ateşkes emrini Müttefik kuvvetlere ulaştırın"
+
+msgid "vday/objective02/header"
+msgstr "Alman komuta merkezine ulaşın"
+
+msgid "vday/objective02/subheader"
+msgstr "Yzb. Smith'in talimatlarını izleyin"
+
+msgid "vday/objective02/success"
+msgstr "Mayın tarlası haritaları ele geçirildi"
+
+msgid "vday/objective03/header"
+msgstr "Geçiş haritasının parçalarını bulun"
+
+msgid "vday/objective03/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "%d harita parçası toplandı"
+msgstr[1] "%d harita parçası toplandı"
+msgstr[2] "%d harita parçası toplandı"
+
+msgid "vday/objective03/success"
+msgstr "Geçiş haritası oluşturuldu"
+
+msgid "vday/objective04/header"
+msgstr "Ateşkes emrini Müttefik kuvvetlere ulaştırın"
+
+msgid "vday/objective04/subheader"
+msgstr "Mayın tarlasında ilerleyin"
+
+msgid "vday/objective04/success"
+msgstr "Ateşkes emri ulaştırıldı!"
+
+msgid "vday/objective05/header"
+msgstr "Mayın tarlasına ulaşın"
+
+msgid "vday/objective05/subheader"
+msgstr "Düşman hatlarından sızın"
+
+msgid "vday/objective05/success"
+msgstr "Mayın tarlasına ulaşıldı"
+
+msgid "vday/prebattle/header"
+msgstr "Düşman hatlarından sızın"
+
+msgid "vday/prebattle/start"
+msgstr "Devam edin"
+
+msgid "vday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "vday/prebattleVeryHard/header"
+msgstr "Mayın tarlasında ilerleyin"
+
+msgid "vday/prebattleVeryHard/start"
+msgstr "İlerleyin"
+
+msgid "vday/prebattleVeryHard/subheader"
+msgstr "?empty?"
+
+msgid "vday/respawn/header"
+msgstr "Asker, beklemede kal"
+
+msgid "vday/respawn/subheader"
+msgstr "Destek kuvvetler geliyor"
+
+msgid "vday/respawn_over/header"
+msgstr "Bitti"
+
+msgid "vday/respawn_over/subheader"
+msgstr "Kullanılabilecek tüm araçlar yok edildi"
+
+msgid "zeppelin/hint01"
+msgstr "Aracınızın topunu şarj ederek daha yüksek hasar verin"
+
+msgid "zeppelin/hint02"
+msgstr "Azami top isabetliliği ile ateş ederek uzaktaki bir düşmana hasar verin"
+
+msgid "zeppelin/hint03"
+msgstr "Bu aracın yardımcı silahları ile nasıl ateş edileceğini öğrenin"
+
+msgid "zeppelin/objective01/failure"
+msgstr "Görev başarısız!"
+
+msgid "zeppelin/objective01/header"
+msgstr "İlerleyin!"
+
+msgid "zeppelin/objective01/subheader"
+msgstr "Füzeye ulaşın ve fırlatılmasını engelleyin"
+
+msgid "zeppelin/objective02/header"
+msgstr "Düşman bakım tesisi bulundu!"
+
+msgid "zeppelin/objective02/subheader"
+msgstr "Terk edilmiş aracı ele geçirin"
+
+msgid "zeppelin/objective02/success"
+msgstr "Araç ele geçirildi!"
+
+msgid "zeppelin/objective03/header"
+msgstr "Yeni hedef alındı!"
+
+msgid "zeppelin/objective03/subheader"
+msgstr "Fırlatma üssünü ve komuta merkezini ele geçirin"
+
+msgid "zeppelin/objective03/success"
+msgstr "Fırlatma üssü kontrol altına alındı"
+
+msgid "zeppelin/objective04/header"
+msgstr "Konumunuzu koruyun"
+
+msgid "zeppelin/objective04/subheader"
+msgstr "%d düşman aracı yok edin"
+
+msgid "zeppelin/objective04/success"
+msgstr "Düşman saldırısı püskürtüldü"
+
+msgid "zeppelin/prebattle/header"
+msgstr "Hazırlanın!"
+
+msgid "zeppelin/prebattle/start"
+msgstr "Devam edin!"
+
+msgid "zeppelin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "zeppelin/respawn/header"
+msgstr "Komutan, beklemede kalın"
+
+msgid "zeppelin/respawn/subheader"
+msgstr "Destek kuvvetler geliyor"
+
+msgid "zeppelin/respawn_over/header"
+msgstr "Bitti"
+
+msgid "zeppelin/respawn_over/subheader"
+msgstr "Kullanılabilecek tüm araçlar yok edildi"

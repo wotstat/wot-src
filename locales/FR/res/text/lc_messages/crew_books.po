@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "ACHETER"
+
+msgid "buttons/cancel"
+msgstr "Annuler"
+
+msgid "buttons/learn"
+msgstr "Étudier"
+
+msgid "buttons/postProgression/claim"
+msgstr "OBTENIR"
+
+msgid "buttons/postProgression/hint"
+msgstr "ALLER À LA POST-PROGRESSION"
+
+msgid "buttons/postProgression/howTo"
+msgstr "COMMENT OBTENIR"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Taux d'échange :{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount) %"
+
+msgid "card/freeExp/mainText"
+msgstr "Appliqué au membre d'équipage sélectionné.\nAccélère l'entraînement de l'aptitude actuelle en utilisant de l'EXP. libre."
+
+msgid "card/freeExp/title"
+msgstr "EXPÉRIENCE LIBRE"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Efficacité des aptitudes : 100 %\n• Spécialisation : %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Appliqué à tout l'équipage.\nOctroie %(xp) à chaque membre d'équipage"
+
+msgid "card/nationBook/title/brochure"
+msgstr "LIVRET D'ENTRAÎNEMENT (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "MANUEL D'ENTRAÎNEMENT (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "GUIDE D'ENTRAÎNEMENT (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Appliqué sans restrictions."
+
+msgid "card/personalBook/mainText"
+msgstr "Appliqué au membre d'équipage sélectionné.\nOctroie %(xp) à ce membre d'équipage"
+
+msgid "card/personalBook/title"
+msgstr "MANUEL D'ENTRAÎNEMENT PERSONNEL"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Efficacité des aptitudes : 100 %\n• Spécialisation : %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Appliqué à tout l'équipage.\nOctroie %(xp) à chaque membre d'équipage"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "MANUEL UNIVERSEL"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "LIVRET UNIVERSEL"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "GUIDE UNIVERSEL"
+
+msgid "confirm/crewLabel"
+msgstr "Chaque membre d'équipage recevra %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Chaque membre d'équipage recevra %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) recevra %(xpValue) supplémentaires"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) recevra %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Certains membres d'équipage recevront %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Livret d'entraînement (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Livret d'entraînement"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "LIVRET D'ENTRAÎNEMENT"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} d'EXP. d'équipage à chaque membre d'équipage."
+
+msgid "items/crewBook/Name"
+msgstr "Manuel d'entraînement (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Manuel d'entraînement"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "MANUEL D'ENTRAÎNEMENT"
+
+msgid "items/guide/Name"
+msgstr "Guide d'entraînement (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Guide d'entraînement"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "GUIDE D'ENTRAÎNEMENT"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} d'expérience au membre d'équipage sélectionné"
+
+msgid "items/personalBook/Name"
+msgstr "Manuel d'entraînement personnel"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} d'EXP. d'équipage à chaque membre d'équipage."
+
+msgid "items/universalBook/Name"
+msgstr "Manuel universel"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} d'expérience à chaque membre d'équipage."
+
+msgid "items/universalBrochure/Name"
+msgstr "Livret universel"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} d'expérience à chaque membre d'équipage."
+
+msgid "items/universalGuide/Name"
+msgstr "Guide universel"
+
+msgid "page/mentoringLicense/hint"
+msgstr "ALLER À LA LICENCE DE MENTORAT"
+
+msgid "page/mentoringLicense/title"
+msgstr "LICENCE DE MENTORAT"
+
+msgid "page/title"
+msgstr "ENTRAÎNEMENT RAPIDE"
+
+msgid "tooltip/buyManual"
+msgstr "Acheter un Manuel d'entraînement"
+
+msgid "tooltip/mouseWheel"
+msgstr "Faites défiler {mouseIcon} pour augmenter / réduire le nombre de Livres d'équipage."
+
+msgid "tooltip/outOfStock"
+msgstr "Aucun Livre d'équipage restant"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Aucun Livre d'équipage restant. Achetez ces Livres d'équipage dans le Magasin."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Appliqué au membre d'équipage sélectionné. Octroie %(xp)s d'EXP. à ce membre d'équipage."
+
+msgid "tooltip/postProgression"
+msgstr "Aller à la post-progression"
+
+msgid "tooltip/sale/header"
+msgstr "Taux d'échange rentable"
+
+msgid "tooltip/sale/newRate"
+msgstr "Nouveau taux d'échange : %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Taux d'échange précédent : %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Cliquez sur %(controlsImg) pour augmenter / réduire le niveau d'entraînement de l'aptitude de 1 %."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Appuyez sur %(pgupImg) / %(pgdownImg) pour augmenter le niveau d'entraînement de l'aptitude à&nbsp;100 % / revenir&nbsp;à l'aptitude précédente."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Appliqué à tout l'équipage. Octroie %(xp)s d'EXP. à chaque membre d'équipage."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Appliqué à tout l'équipage. Octroie %(xp)s d'EXP. à chaque membre d'équipage."

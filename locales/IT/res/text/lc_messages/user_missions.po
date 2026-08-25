@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "Fase {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Capitolo speciale"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Completato"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Visualizza la nuova progressione"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Seleziona il Capitolo"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Temporaneamente indisponibile"
+
+msgid "battle_pass_widget/title"
+msgstr "Pass di battaglia"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Forgia: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} g"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} g {{hours}} h"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} h"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} h {{minutes}} m"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} m"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Missione bonus\nCompleta 3 missioni standard per sbloccarla"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Tempo rimasto per completare la missione bonus"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Nuove missioni giornaliere tra"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "Per ora è tutto. Nuove missioni giornaliere saranno presto disponibili."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Per sbloccare questa missione devi prima completare quella precedente"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Le missioni Premium sono momentaneamente indisponibili"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Compra Premium"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Richiedono l'account Premium WoT"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Missioni Premium"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Le missioni giornaliere sono momentaneamente indisponibili"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Rigenera"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "GIORNALIERE"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Alle campagne"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Migliora il risultato"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "All'Operazione"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Una vera sfida per combattenti esperti con veicoli unici come ricompensa."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Hai completato l'Operazione {{currentOperationName}}! Puoi continuare a migliorare il tuo risultato per completarla con onori, oppure affrontare una nuova sfida nell'Operazione {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Puoi ancora migliorare il tuo risultato nell'Operazione {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Hai completato l'Operazione {{currentOperationName}} con onori! L'Operazione {{nextOperationName}} è ora disponibile."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "I Punti campagna possono essere ottenuti completando missioni personali, missioni giornaliere e missioni settimanali."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Completa tutte e {{totalProgress}} le missioni per portare a termine l'Operazione con onori e ottenere ricompense aggiuntive."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Monta tutte le parti per ricevere la tua ricompensa: il veicolo {{vehicleName}}. Per ottenere le parti del veicolo, ottieni Punti campagna completando missioni personali, missioni giornaliere e missioni settimanali."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Monta tutte le parti per ricevere la tua ricompensa: il veicolo {{vehicleName}}. Per ottenere le parti del veicolo, ottieni Punti campagna completando missioni personali, missioni giornaliere e missioni settimanali."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Missioni completate: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "La nuova campagna Settore 3 è disponibile!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Operazione: {{nextOperationName}} disponibile!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Operazione: {{currentOperationName}} completata con onori!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Operazione: {{nextOperationName}} disponibile!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Operazione: {{currentOperationName}} | Fase {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Completare l'Operazione {{currentOperationName}} con onori"
+
+msgid "hub/basic_missions/title"
+msgstr "MISSIONI REGOLARI"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "SETTIMANALI"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Aggiornate ogni {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Missione attiva"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "OPPURE"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Nuova missione in arrivo..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "COMBATTENTE"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "ASSO"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ELITE"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Esistono tre categorie di missioni: Combattente, Elite e Asso. Ogni categoria offre sfide uniche e preziose ricompense."
+
+msgid "hub/challenge_missions/header"
+msgstr "FORGIA"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Attiva"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Riavvia gratuitamente"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Riavvia"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Abbandona"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Alle missioni"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) missioni Forgia completate"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "scudi rimasti"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "riavvii gratuiti"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Completa le missioni attive della Forgia"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Terminerà tra %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Non disponibile: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "È richiesto un veicolo di livello VI o superiore."
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "ATTIVA"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Completata"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} missioni"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Missione sfida"
+
+msgid "hub/challenge_missions/new"
+msgstr "NOVITÀ"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Alla Forgia"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Alla Forgia"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "FORGIA: {{ challengeName }} COMPLETATA!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Alla Forgia"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Forgia: {{ challenge }} non completato. Riprova e cerca di ottenere nuovamente le ricompense!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Alla Forgia"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "MISSIONE {{ mission }} COMPLETATA!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Alla Forgia"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Missione {{ mission }} fallita"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "SCUDI RIMASTI"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Alla Forgia"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Entra nella Forgia e affronta una serie di missioni impegnative che riservano ricompense preziose a chi le porta a termine."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "NUOVE MISSIONI DELLA FORGIA DISPONIBILI"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Conquistati la gloria nella Forgia: affronta una serie di missioni impegnative che riservano ricompense preziose a chi le porta a termine."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "ENTRA NELLA FORGIA"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Completata"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "Set di accessori 3D"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Equipaggiamento migliorato"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "Stile 2D"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Membro dell'equipaggio"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Veicolo"
+
+msgid "hub/challenge_missions/title"
+msgstr "MISSIONI DELLA FORGIA"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "Informazioni sulla Forgia"
+
+msgid "hub/common_missions/title"
+msgstr "MISSIONI EXTRA"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Reclama ricompense"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "La ricompensa epica è momentaneamente indisponibile"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Ogni missione standard, Premium o bonus completata contribuisce ai tuoi progressi."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Disponibile"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Completa le missioni giornaliere per ottenere ricompense epiche"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Reclama ricompensa"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Reclama ricompense"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Ogni missione standard, Premium o bonus completata contribuisce ai tuoi progressi."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Disponibile"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Torna in azione! Ricompense epiche per missioni giornaliere: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Una volta completate tre missioni standard, sbloccherai una missione bonus con ricompense ancora più preziose. La missione bonus deve essere completata entro la fine del giorno, altrimenti scadrà."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Missione bonus"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Alcune missioni devono essere completate in una battaglia, mentre le altre sono cumulative e possono essere completate in qualsiasi numero di battaglie. Le missioni cumulative hanno una barra dei progressi. Le missioni possono essere completate in Battaglie Casuali."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Condizioni"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Puoi rigenerare una missione standard indesiderata per riceverne un'altra casuale. Successivamente, il pulsante Rigenerazione della missione non sarà disponibile per {{time}}. Rigenerare una missione può causare la perdita dei progressi se uno o più dei tuoi veicoli sono in battaglia."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Rigenerazione della missione"
+
+msgid "info_page/additional/reward/description"
+msgstr "Ricompensa epica è un ciclo simile a una maratona in cui ogni missione standard, Premium o bonus completata contribuisce ai suoi progressi. Una volta completato il ciclo, questo si azzera e inizia di nuovo. Il ciclo della ricompensa epica non ha limiti di tempo e può essere completato in qualsiasi momento."
+
+msgid "info_page/additional/reward/title"
+msgstr "Ricompensa epica"
+
+msgid "info_page/header"
+msgstr "INFORMAZIONI SULLE MISSIONI"
+
+msgid "info_page/main/premium/description"
+msgstr "Con l'account Premium WoT, ottieni l'accesso a tre missioni Premium sequenziali. Possono essere completate in Battaglie Casuali e Aggressione, e i loro progressi sono aggiornati dopo ogni battaglia. Durante gli eventi di gioco, le missioni Premium forniscono ricompense specifiche dell'evento."
+
+msgid "info_page/main/premium/title"
+msgstr "Missioni Premium"
+
+msgid "info_page/main/standard/description"
+msgstr "Le missioni standard sono condizioni giornaliere casuali i cui progressi vengono aggiornati dopo ogni battaglia. Ti consigliamo di completarle il giorno in cui le ricevi, perché quelle non completate vengono trasferite al giorno successivo, bloccando la generazione di nuove missioni. Le missioni standard forniscono Punti Pass di battaglia durante il Pass di battaglia e ricompense specifiche durante altri eventi in gioco."
+
+msgid "info_page/main/standard/title"
+msgstr "Missioni standard"
+
+msgid "info_page/main/weekly/description"
+msgstr "Le missioni settimanali sono un serie di incarichi disponibili ogni settimana. I progressi vengono aggiornati dopo ogni battaglia e le missioni completate vengono sostituite con nuove missioni all'inizio del ciclo settimanale successivo. Puoi completare le missioni settimanali nelle modalità Battaglie Casuali e Aggressione per ricevere bonus aggiuntivi."
+
+msgid "info_page/main/weekly/title"
+msgstr "Missioni settimanali"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Tutte le missioni regolari sono state completate per oggi"
+
+msgid "quests/daily_quests/completed"
+msgstr "Tutte le missioni giornaliere sono state completate"
+
+msgid "tooltip/common/timer"
+msgstr "Disponibile tra {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Tutte le missioni regolari completate! Puoi trovarne altre nella scheda Missioni extra."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Missione bonus"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Completata"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Missione giornaliera"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Scade tra {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Nuove missioni giornaliere tra {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Missione Premium"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Ricompense:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Puoi rigenerare una missione non voluta \nper una nuova ogni {time} ore."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Rigenerazione della missione"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Missione completata, ricompensa ricevuta."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Per sbloccare questa missione, completa quella precedente. Tutte le missioni in una serie devono essere completate in sequenza."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Clicca per ulteriori informazioni"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "Informazioni sulle missioni"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Una volta completata, questa serie di missioni potrà essere rigiocata. I tuoi progressi verranno azzerati, gli scudi verranno ripristinati e potrai ottenere nuovamente le ricompense."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Rigioca missioni"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Puoi ricominciare una serie di missioni dopo aver perso tutti gli scudi. I progressi nella missione verranno azzerati, gli scudi verranno ripristinati e potrai ottenere nuovamente le ricompense."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Costo dei riavvii successivi: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Riavvii gratuiti disponibili: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Ogni riavvio costa: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Riavvii"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Gli scudi proteggono i tuoi progressi. Ogni missione fallita costa uno scudo e, quando tutti gli scudi sono esauriti, la serie di missioni viene considerata fallita. Se la riavvii, i tuoi scudi verranno ripristinati."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Scudi"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Restrizioni sui veicoli:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Missione settimanale"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Puoi rigenerare questa missione della settimana ogni {{time}}."
+
+msgid "welcome/button"
+msgstr "Ricevuto!"

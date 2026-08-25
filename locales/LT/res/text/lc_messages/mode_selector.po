@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "button/progression"
+msgstr "Rodyti progresą"
+
+msgid "button/select"
+msgstr "Konfigūruoti"
+
+msgid "event/battlePass/name"
+msgstr "Kovinio leidimo %(seasonNum)s sezonas"
+
+msgid "event/finished"
+msgstr "%(eventName)s\nbaigėsi"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\nprasidės %(date)s"
+
+msgid "event/paused"
+msgstr "%(eventName)s\nlaikinai nepasiekiama"
+
+msgid "event/ranked/name"
+msgstr "%(seasonNum)s sezonas"
+
+msgid "hint/showProgression"
+msgstr "PERŽIŪRA PROGRESINIAME REŽIME"
+
+msgid "mode/epicBattle/condition"
+msgstr "30 prieš 30 &nbsp;{par_open}I{par_close}&nbsp;%(levels)s&nbsp;lygiai"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30 prieš 30&nbsp;{par_open}I{par_close}&nbsp;%(levels)s&nbsp;lygiai"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "Renginys\nprasidės %(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Šis režimas\nprasidės artimiausiu metu"
+
+msgid "mode/epicBattle/description"
+msgstr "Progresinis režimas su apdovanojimais."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "Renginys baigėsi"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "Dalyvaudami {whiteSpanish_open}Fronto linijoje{whiteSpanish_close} su VIII lygio mašinomis jūs uždirbsite taškų, kurie leis kilti Kovinio leidimo seka."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Kovinio leidimo taškai"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "Dalyvaudami {whiteSpanish_open}Žvalgybinėje misijoje{whiteSpanish_close} su VIII–X lygio mašinomis, jūs uždirbsite taškų, kurie leis kilti Kovinio leidimo seka."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Kovinio leidimo taškai"
+
+msgid "mode/mapbox/condition"
+msgstr "15 prieš 15 %(parSecondary_open)sI%(parSecondary_close)s VIII–X&nbsp;lygiai"
+
+msgid "mode/mapbox/description"
+msgstr "Naujos funkcijos žemėlapiuose."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Orų vizualiniai efektai priklausys nuo jūsų grafikos nustatymų. Esant žemesniems grafikos nustatymams gali pasitaikyti trikdžių ar problemų su vaizdu. Mes rekomenduojame pasirinkti didžiausią jums galimą grafikos nustatymą, priklausomai nuo jūsų kompiuterio galimybių. Žaidimo režimas reikalauja didelės kompiuterio greitaveikos. Kadrų per sekundę dažnis gali sumažėti įtemptos kovos metu."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Pažinkite žemėlapius"
+
+msgid "mode/mapsTraining/description"
+msgstr "Pažinkite žemėlapius"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "Dalyvaudami {whiteSpanish_open}Atsitiktiniuose mūšiuose{whiteSpanish_close} su IV–XI lygio mašinomis jūs uždirbsite taškų, kurie leis kilti Kovinio leidimo seka."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Kovinio leidimo taškai"
+
+msgid "mode/random/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s I–XI&nbsp;lygiai"
+
+msgid "mode/random/description"
+msgstr "Mūšiai su automatine mūšių sudarymo sistema."
+
+msgid "mode/random/setup"
+msgstr "Konfigūruoti"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "Dalyvaudami {whiteSpanish_open}Reitinguojamuose mūšiuose{whiteSpanish_close} su X lygio mašinomis jūs uždirbsite taškų, kurie leis kilti Kovinio leidimo seka."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Kovinio leidimo taškai"
+
+msgid "mode/ranked/condition"
+msgstr "10v10 %(parSecondary_open)sI%(parSecondary_close)s X&nbsp;lygis"
+
+msgid "mode/ranked/description"
+msgstr "Progresinis režimas su apdovanojimais."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Užsiregistruoti į turnyrą"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Kitas mūšis: %(date)s %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s I–X&nbsp;lygiai"
+
+msgid "mode/specBattlesList/description"
+msgstr "Globalus žemėlapis ir turnyrai."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Kovoti legionieriumi"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Kovoti klane"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7v7–15v15 %(parSecondary_open)sI%(parSecondary_close)s VI–X&nbsp;lygiai"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Klanų mūšiai dėl pramoninių išteklių."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Treniruočių kambariai: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s I–X&nbsp;lygiai"
+
+msgid "mode/trainingsList/description"
+msgstr "Įvadiniai mūšiai."
+
+msgid "novelty"
+msgstr "NAUJAS"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Mūšiai kvalifikacijoje: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "Žaisdami renginyje galite užsidirbti unikalių 3D elementų."
+
+msgid "reward/attachment/name"
+msgstr "3D elementai"
+
+msgid "reward/bones/description"
+msgstr "Apdovanojimą nulemia pasirodymas mūšyje."
+
+msgid "reward/bones/name"
+msgstr "Bonai"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Jūs galite gauti %(name)s už žaidimą režime."
+
+msgid "reward/bountyEquipment/name"
+msgstr "specialią įrangą"
+
+msgid "reward/credits/description"
+msgstr "Apdovanojimą nulemia pasirodymas mūšyje."
+
+msgid "reward/credits/name"
+msgstr "Kreditai"
+
+msgid "reward/crew/description"
+msgstr "Jūs galite gauti unikalių įgulos narių už žaidimą režime."
+
+msgid "reward/crew/name"
+msgstr "Įgulos nariai"
+
+msgid "reward/experience/description"
+msgstr "Apdovanojimą nulemia pasirodymas mūšyje."
+
+msgid "reward/experience/name"
+msgstr "Patirtis"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "Žaisdami šiame režime galite uždirbti įvairios eksperimentinės įrangos."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Speciali įranga"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Jūs galite gauti %(name)s už žaidimą režime."
+
+msgid "reward/improvedEquipment/name"
+msgstr "specialią įrangą"
+
+msgid "reward/lootBoxes/description"
+msgstr "Žaisdami šiame režime galite uždirbti dėžių."
+
+msgid "reward/lootBoxes/name"
+msgstr "Specialios dėžės"
+
+msgid "reward/other/description"
+msgstr "Jūs galite gauti daug vertingų prizų už žaidimą režime."
+
+msgid "reward/other/name"
+msgstr "Specialus apdovanojimas"
+
+msgid "reward/progressionStyle/description"
+msgstr "Šiame režime galite gauti specialų progresinį stilių."
+
+msgid "reward/progressionStyle/name"
+msgstr "Progresinis stilius"
+
+msgid "reward/random/description"
+msgstr "Žaisdami šiame režime jūs galite gauti daug vertingų prizų."
+
+msgid "reward/random/name"
+msgstr "Atsitiktinis prizas"
+
+msgid "reward/style/description"
+msgstr "Jūs galite gauti specialų 3D stilių, skirtą %(name)s, už žaidimą režime."
+
+msgid "reward/style/name"
+msgstr "3D stilius"
+
+msgid "reward/vehicle/description"
+msgstr "Jūs galite gauti %(name)s už žaidimą režime."
+
+msgid "reward/vehicle/name"
+msgstr "prizines mašinas"
+
+msgid "selectMap"
+msgstr "Konfigūracija Atsitiktiniams mūšiams"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d."
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s val."
+
+msgid "status/timeLeft/lessMin"
+msgstr "mažiau nei minutė"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min."
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "MŪŠIO REŽIMO PASIRINKIMAS"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Globalus žemėlapis"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Užimkite provincijas ir kovokite dėl globalinio dominavimo. Šis režimas pasiekiamas tik klano nariams."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Jungtis į klaną"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Mūšiai Globaliame žemėlapyje"
+
+msgid "window/battleSession/title"
+msgstr "SPECIALUS MŪŠIS"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Turnyrų sąrašas"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Šis funkcionalumas laikinai nepasiekiamas, bet ateityje atsiras. Palaukite."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Kovokite vienas ar komandoje, parodykite ko esate verti ir gaukite pelnytų apdovanojimų."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Turnyrai"

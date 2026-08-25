@@ -1,0 +1,677 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "campaignSelector/completedAll/subtitle"
+msgstr "Has completado todas las campañas con honores"
+
+msgid "campaignSelector/completedAll/title"
+msgstr "¡Enhorabuena!"
+
+msgid "campaignSelector/locked"
+msgstr "Las misiones personales solo se pueden completar con vehículos de nivel VI o superior"
+
+msgid "campaignSelector/operation/tooltip/locked"
+msgstr "Operación desactivada temporalmente"
+
+msgid "campaignSelector/status/button/activate"
+msgstr "Activar campaña"
+
+msgid "campaignSelector/status/button/switchCampaign"
+msgstr "Reanudar campaña"
+
+msgid "campaignSelector/status/button/switchCampaigns"
+msgstr "Reanudar campañas"
+
+msgid "campaignSelector/status/button/tooltip"
+msgstr "Espera a que el vehículo esté fuera de combate. No puedes cambiar de campaña u operación mientras el vehículo está en combate."
+
+msgid "campaignSelector/status/completed/firstTwo"
+msgstr "¡Has completado las campañas «{{firstCampaign}}» y «{{secondCampaign}}» con honores!"
+
+msgid "campaignSelector/status/completed/third"
+msgstr "¡Has completado la campaña «{{thirdCampaign}}» con honores!"
+
+msgid "campaignSelector/status/text/activate"
+msgstr "¡Ya está disponible la nueva campaña «{{thirdCampaign}}»!"
+
+msgid "campaignSelector/status/text/switchCampaign"
+msgstr "La campaña «{{thirdCampaign}}» está en pausa{{icon}}"
+
+msgid "campaignSelector/status/text/switchCampaigns"
+msgstr "Las campañas «{{firstCampaign}}» y «{{secondCampaign}}» están en pausa {{icon}}"
+
+msgid "campaignSelector/status/tooltip/firstTwo"
+msgstr "Cuando reanudes las campañas «Los refuerzos largamente esperados» y «Segundo frente», la campaña «Sector 3» quedará en pausa. El progreso de la campaña pausada se guardará para que lo reanudes en cualquier momento."
+
+msgid "campaignSelector/status/tooltip/third"
+msgstr "Cuando reanudes la campaña «Sector 3», las campañas «Los refuerzos largamente esperados» y «Segundo frente» quedarán en pausa. El progreso de las campañas pausadas se guardará para que lo reanudes en cualquier momento."
+
+msgid "campaignSelector/status/tooltip/title"
+msgstr "Continuación de la campaña"
+
+msgid "common/category/assault"
+msgstr "Vanguardia"
+
+msgid "common/category/sniper"
+msgstr "Emboscada"
+
+msgid "common/category/support"
+msgstr "Asistencia"
+
+msgid "common/role/assault"
+msgstr "Asaltante"
+
+msgid "common/role/breakthrough"
+msgstr "Avance"
+
+msgid "common/role/sniper"
+msgstr "Francotirador"
+
+msgid "common/role/support"
+msgstr "Apoyo"
+
+msgid "common/role/universal"
+msgstr "Versátil"
+
+msgid "conditions/requiredVehicle/bottomLabel"
+msgstr "Completa la condición con %(count)s vehículos distintos"
+
+msgid "detail/descr/historical/s3_t10_vehElement_1"
+msgstr "James Corvin, primera entrada. Hoy hemos empezado a montar mi carro, el Black Rock. Hemos instalado la torreta y soldado la construcción compuesta de elementos fundidos. Me gusta el diseño. Es práctico.\n\nEn cuanto a la investigación, tras un examen exhaustivo de la isla, concluimos que nuestra teoría carece de fundamento: no hay ningún búnker ultrasecreto construido por Moretti bajo nuestros pies.\n\nEse tipo trabajó metódicamente y creó una amplia red de instalaciones y documentos falsos para confundirnos.\n\nHemos perdido demasiado tiempo con pistas falsas. Debemos revisar nuestro enfoque y proceder con cuidado... y asegurarnos de que cada paso que damos se base en información sólida y revisada."
+
+msgid "detail/descr/historical/s3_t10_vehElement_10"
+msgstr "Hoy hemos instalado placas laterales. Un poco más de protección nunca está de más.\n\nLos registros de Moretti aclaran lo sucedido en Morgenlicht. Allí, los científicos descubrieron accidentalmente la tendencia del prototipo del KRONOS a generar resultados inesperados debido a errores probabilísticos. Esta capacidad para controlar el error podría perfeccionarse para crear soluciones poco convencionales bajo demanda.\n\nLo único que necesitaban para fabricar inventos revolucionarios era aumentar la potencia computacional y, para ello, debían agrandar el tamaño de la máquina. Literal y exponencialmente."
+
+msgid "detail/descr/historical/s3_t10_vehElement_11"
+msgstr "Hoy hemos pintado el carro de negro. El camuflaje oscuro le otorgará una ventaja psicológica adicional sobre el enemigo y potenciará su eficacia durante las operaciones nocturnas.\n\nA medida que avanza la investigación, todo empieza a cobrar sentido: KRONOS es un sistema computacional masivo y capaz de generar «mutaciones creativas». Asimismo, es la fuente de todas esas tecnologías incomprensibles que hemos encontrado en búnkeres secretos y que el Arquitecto distribuye por satélite. Es increíble.\n\nA juzgar por las notas de Moretti, paree que, al principio, admiraba su creación y creía haber construido una herramienta que podía «diseñar el futuro de la humanidad». Ahí es donde la cosa se pone interesante."
+
+msgid "detail/descr/historical/s3_t10_vehElement_12"
+msgstr "Hoy hemos instalado los morteros de humo. Parecen componentes cualesquiera, pero las cortinas de humo han salvado algunos de mis carros en más de una ocasión.\n\nEl tono de las notas de Moretti ha cambiado drásticamente. Siempre estaba alerta y no confiaba en nadie, pero, en algún momento, perdió la cabeza por completo. Sospechaba de los científicos, los ingenieros, el personal y del mismo KRONOS. Según sus escritos, estaba convencido de que la máquina había ganado conciencia y estaba manipulando a la gente.\n\nCuanto más avanzamos, más paranoicas se tornan las entradas de Moretti. Ahora nos enfrentamos a un nuevo misterio: ¿es cierto que Moretti sucumbió gradualmente a la locura o había creado algo que trascendía su programa?"
+
+msgid "detail/descr/historical/s3_t10_vehElement_13"
+msgstr "Hemos instalado un freno de boca que reducirá el retroceso considerablemente. Ahora sí, el cañón está terminado.\n\nEn su última entrada, Moretti parece haber perdido el control por completo. Escribe que la máquina finge, que «lo sabe todo». Exige su destrucción antes de que sea demasiado tarde.\n\nDespués de esa entrada, no hay nada. No hemos encontrado ni una sola prueba sobre el destino de KRONOS. ¿Acaso destruyeron la máquina o sigue operando, perdida por las nieves de la Antártida? Eso sería terrible si tenemos en cuenta las acciones del Arquitecto.\n\n¿Y si tiene en su poder un desarrollo más reciente de KRONOS que, de nuevo, presenta unas capacidades que nos superan en al menos una década?"
+
+msgid "detail/descr/historical/s3_t10_vehElement_14"
+msgstr "El carro ya dispone de todo lo esencial. Pronto estará listo.\n\nY justo a tiempo. Ahora que sabemos qué nos ocultaba Moretti y dónde encontró el Arquitecto estas tecnologías, ya podemos centrarnos en la misión principal: encontrar a KRONOS.\n\nYa estamos preparando una operación militar de búsqueda en la Antártida, pero tengo la sensación de que es otro truco de Moretti. ¿Acaso Moretti existió de verdad? Tras tantos engaños, empiezas a cuestionarlo todo y a creer en las teorías más disparatadas. Leni opina que el Arquitecto y Moretti podrían ser la misma persona, y Teddy está convencido de que el Arquitecto es el propio KRONOS.\n\nSea quien sea ese Arquitecto, nos lleva ventaja. Tenemos que encontrar a KRONOS para detener al Arquitecto."
+
+msgid "detail/descr/historical/s3_t10_vehElement_15"
+msgstr "Las orugas están instaladas. El Black Rock ya está listo. Hemos calibrado cada componente y probado cada sistema. Es una maravilla de la ingeniería lista para afrontar cualquier desafío.\n\nHe comandado varios blindados a lo largo de mi carrera, pero este es especial. Representa la culminación de nuestros esfuerzos, tecnologías recuperadas y nuestra determinación para contrarrestar la amenaza del Arquitecto.\n\nNo importan los planes que haya urdido ni los secretos que nos aguardan en la Antártida o donde sea: esta máquina mejora nuestras probabilidades de éxito.\n\nLa historia nos enseña que la preparación es un factor decisivo que puede determinar la victoria o la derrota. No me cabe duda de que esto podrá aplicarse a la batalla que se avecina."
+
+msgid "detail/descr/historical/s3_t10_vehElement_2"
+msgstr "Hoy hemos instalado los componentes de la suspensión. No son nada especial, pero el diseño es fiable y está probado.\n\nSeguimos analizando los manifiestos de carga donde aparecen los seudónimos de Moretti. Gracias a las rutas de las naves de transporte y los datos del satélite del Arquitecto, hemos localizado varias instalaciones secretas. \n\nEn ella hemos encontrado nuevos planos y registros creados como parte del Proyecto KRONOS, pero no nos ayudan a comprender cómo los científicos alemanes lograron desarrollar estos diseños, ni a encontrar el búnker principal de KRONOS, donde se estaba construyendo algo formidable y peligroso a partes iguales,"
+
+msgid "detail/descr/historical/s3_t10_vehElement_3"
+msgstr "Hoy hemos instalado las ruedas. El sistema de suspensión está casi terminado. Esta parte es simple.\n\nPero nuestra investigación sigue siendo tan complicada como siempre. ¿Y si nos estamos dejando algo? ¿En qué punto de Europa podría ocultarse un búnker secreto de semejante magnitud?\n\nTeddy sugiere que la instalación podría estar bajo el agua. Se ha percatado de que las fechas de salida de los submarinos se alineaban con cierta frecuencia con los horarios de las naves de transporte. Una observación intrigante, pero construir una base submarina en la década de 1940 probablemente escape a las capacidades de Moretti.\n\nTeddy propone otra teoría: la base secreta podría estar en la luna. La descartamos de inmediato, ya que el Arquitecto lanzó el satélite recientemente. En los años 40, los viajes espaciales eran pura fantasía."
+
+msgid "detail/descr/historical/s3_t10_vehElement_4"
+msgstr "Hemos instalado el equipamiento de observación del comandante. El periscopio giratorio proporciona una visibilidad de 360 grados. Puedo supervisar el campo de batalla sin estar en todo momento en la torreta... esto promete.\n\nHemos identificado unos patrones de actividad inusuales en una flota de naves de transporte pequeñas. Abandonaban el puerto y volvían, completamente vacías, varias horas más tarde. Según los registros de a bordo, siempre se dirigían a las mismas coordenadas en mar abierto.\n\n¿Y realmente existe una base submarina?\n\nLeni parece tan escéptica como yo ante esta teoría. No obstante, considera más plausible la transferencia de contenedores a submarinas. Debemos descubrir a dónde se dirigían los submarinos de este sector."
+
+msgid "detail/descr/historical/s3_t10_vehElement_5"
+msgstr "Hemos instalado el equipamiento de observación de la tripulación. Se trata de un sistema de observación basado en la televisión, otra pieza de tecnología de KRONOS adelantada a su tiempo.\n\nLos archivos de inteligencia indican un aumento de la actividad submarina en el Atlántico Sur, cerca de la costa de Argentina, con patrones de movimiento sospechosos hacia la Antártida. Una serie de documentos que hemos descifrado recientemente confirman esta teoría.\n\nAl parecer, la Antártida es el destino final de estos envíos. Indudablemente, la región más remota de la Tierra sería el lugar ideal para ocultar algo de tal magnitud. Ahora solo falta determinar qué quería ocultar Moretti en el hielo."
+
+msgid "detail/descr/historical/s3_t10_vehElement_6"
+msgstr "Hemos instalado un par de ametralladoras pesadas Browning M2HB. El sistema de control remoto nos permite atacar objetivos sin exponer a la tripulación al fuego enemigo, una ventaja táctica que valoro enormemente.\n\nCreíamos estar cerca de la verdad, de descubrir qué estaba creando Moretti, pero solo detectamos inconsistencias en los esquemas de esta Wunderwaffe gigante en archivos de KRONOS que desciframos recientemente. Los planos presentan errores deliberados que inutilizarían cualquier dispositivo montado.\n\n¡Maldita sea! Otra falsificación de Moretti.\n\n¿Qué trataba de esconder con esta desinformación tan elaborada? ¿Qué podría ser más secreto que una Wunderwaffe?"
+
+msgid "detail/descr/historical/s3_t10_vehElement_7"
+msgstr "Por fin hemos instalado el cañón principal. Es un ejemplar inusual de calibre especial con un eyector que garantiza una precisión y cadencia de tiro altas. Justo lo que necesito.\n\nTras analizar y separar los planos auténticos de los falsos, hemos descubierto algo revolucionario: el arma infalible que buscamos no es siquiera un arma, sino un centro computacional a escala masiva.\n\nDebo reconocer el ingenio de Moretti por haber creado una farsa que incluye proyectos falsos y bases secretas. Sin los datos del satélite del Arquitecto, aún no habríamos tenido tal revelación."
+
+msgid "detail/descr/historical/s3_t10_vehElement_8"
+msgstr "Hoy hemos instalado los guardabarros. No son nada del otro mundo, pero suponen un paso más para completar el carro.\n\nNo obstante, nuestra investigación ha revelado algo especial. Hemos descubierto los registros personales de Moretti. Escribe sobre la creación de un sistema electromecánico capaz de computar y «predecir» ideas nuevas.\n\nParece tratarse del verdadero KRONOS, la fuente de estas tecnologías increíbles. Una máquina que puede diseñar otras máquinas.\n\nPero ¿cómo es posible? ¿Se trata de otro engaño elaborado de Moretti pensado para desviar la atención del servicio de inteligencia de un arma infalible operativa?"
+
+msgid "detail/descr/historical/s3_t10_vehElement_9"
+msgstr "Focos infrarrojos conectados. Estos dispositivos facilitan las operaciones de combate por la noche. Un activo mínimo y necesario en la actualidad.\n\nSeguimos descifrando los registros de Moretti. Menciona por escrito que su máquina se ideó inicialmente como una herramienta de ingeniería gigante, pero, debido a los múltiples errores de diseño, empezó a «alucinar», generar respuestas, teorías y conceptos que no existían hasta la fecha. La mayoría de los resultados generados rozaban lo absurdo, pero, entre el caos, podían hallarse verdaderas innovaciones.\n\n«Los errores dan pie a nuevos descubrimientos. Lo perfecto carece de chispa creativa. Todo se rige por las leyes de la naturaleza. Incluso las máquinas». Mmm..."
+
+msgid "detail/descr/historical/s3_t8_vehElement_1"
+msgstr "Nebel, registro uno. Hoy empieza la construcción de mi vehículo, el Windhund.\n\nHemos instalado más blindaje espaciado. Es un componente valioso, eficaz contra proyectiles de carga hueca.\n\nHoy también empezamos la investigación. Los documentos con la palabra «KRONOS» contienen tecnologías décadas más avanzadas que nuestras capacidades actuales. Son diseños de los años 40 que no deberían existir. Algunos concuerdan con la información que transmite el satélite del Arquitecto.\n\nPor ahora, solo tenemos una pista: referencias al «Schloss Morgenlicht». Castillo del Alba. Tenemos que encontrar este lugar y averiguar qué sucedía ahí."
+
+msgid "detail/descr/historical/s3_t8_vehElement_10"
+msgstr "El radar móvil táctico terrestre de pulso Doppler. Es magnífico. Puede identificar el tamaño y la distancia al objetivo. Alguien hábil, como yo, puede distinguir entre soldados, animales y vehículos desde lejos. Es mucho más compacto que los demás objetos a nuestra disposición.\n\nTodo es gracias a un diseño de radar de 1944 que encontramos en los archivos del KRONOS. Esta pieza de tecnología no solo estaba avanzada en esa época; también lo está ahora.\n\nSi hubiera tenido esto antes, habría cambiado el rumbo de la historia..."
+
+msgid "detail/descr/historical/s3_t8_vehElement_11"
+msgstr "Sistema estándar de iluminación de blindados, espejos retrovisores y antenas de comunicación. Nada especial, solo equipamiento básico para cualquier carro de combate moderno.\n\nAunque descubrimos algo interesante a mediados de 1944. En ese momento cambió algo drásticamente en Morgenlicht: empezaron a llegar camiones de día y le entregaron otra ala de la clínica a Moranti.\n\nTodo coincide con el momento en que el Reich intentaba desarrollar su «Wunderwaffe» desesperadamente. Mmm..."
+
+msgid "detail/descr/historical/s3_t8_vehElement_12"
+msgstr "Hoy hemos instalado lanzagranadas de humo. Son útiles para desplegar cortinas de humo rápido y a corto alcance.\n\nNuestro amigo Moranti creó su propio ardid de ocultación, que aún ahora intentamos dispersar.\n\nHay documentos de esa época que mencionan un experimento «Geistesfessel» («grilletes mentales») muy exitoso y listo para expandir.\n\nSe me pone la piel de gallina cuando pienso en lo que les hizo a los científicos para conseguir esas tecnologías."
+
+msgid "detail/descr/historical/s3_t8_vehElement_13"
+msgstr "Equipamos al blindado con algunas herramientas de atrincheramiento necesarias. Aunque se tenga el sistema de radar más avanzado, a veces hace falta ensuciarse las manos para evitar problemas.\n\nEn uno de los búnkeres secretos que encontramos, había fragmentos de documentos médicos de Morgenlicht. Incluían listas con nombres de procedimientos que sonaban aterradores: «Colección de pensamientos», «Cámara de niebla», «Atrapasueños», «Puente mental», «Memoria mecánica», «Archivo sombrío».\n\nEl rompecabezas empieza a tomar forma. Siento que nos estamos acercando a la verdad, y pronto encontraremos las piezas que faltan."
+
+msgid "detail/descr/historical/s3_t8_vehElement_14"
+msgstr "El vehículo está casi completo. Hoy he conseguido mis redes de camuflaje favoritas. La ocultación es mi especialidad, ya sea a la hora de ocultarme o de encontrar a quienes están ocultos.\n\nSin embargo, encontrar a Moranti no es tan sencillo. En algún momento, desapareció de todos los documentos, como si fuera un mero testigo al que había que eliminar. De todos modos, los experimentos en Morgenlicht continuaron sin él.\n\n¿Qué sucedió realmente? ¿Otra desaparición simulada? ¿O acaso Moranti hizo algo que no debía? ¿Qué pudo hacer que traspasara incluso los límites que el Reich estaba dispuesto a aceptar?"
+
+msgid "detail/descr/historical/s3_t8_vehElement_15"
+msgstr "El Windhund está listo. Las últimas revisiones del sistema están completas.\n\nNo es un carro de combate cualquiera. Es un depredador hecho para cazar, sigiloso, letal a larga distancia y capaz de desaparecer en la oscuridad de la noche.\n\nPor fin empieza la cacería.\n\nAhora, nuestra investigación se acelera notablemente. Algunos secretos solo pueden revelarse en el campo."
+
+msgid "detail/descr/historical/s3_t8_vehElement_2"
+msgstr "Hoy se han instalado las escotillas. Su ubicación es ideal para entrar y salir rápidamente. Prácticas y eficientes; justo lo que necesito.\n\nHemos encontrado más información sobre el Schloss Morgenlicht. Se trata de una instalación médica con un ala secreta, ubicada en un castillo.\n\nLos registros mencionan a un supervisor, un tal «doctor Moranti».\n\n¿Una institución médica con un departamento secreto? Algo no cuadra. Tenemos que determinar qué relación tiene todo esto con el Proyecto KRONOS y los planos cifrados."
+
+msgid "detail/descr/historical/s3_t8_vehElement_3"
+msgstr "Primera parte del sistema de suspensión lista. Otro paso más para completar el Windhund.\n\nMientras estudiábamos los archivos, descubrimos un patrón inquietante. En 1943, se declaró a una serie de científicos e ingenieros destacados de Alemania «dementes», y seguidamente desaparecieron en la clínica Morgenlicht.\n\nDemasiado organizado para tratarse de una coincidencia. No fueron brotes repentinos de enfermedades mentales. Fue una recolección intencionada de recursos intelectuales.\n\nLa pregunta es: ¿qué hicieron con esos recursos?"
+
+msgid "detail/descr/historical/s3_t8_vehElement_4"
+msgstr "Las ruedas están instaladas. Cuatro en cada lateral. Las dos ruedas delanteras tienen llantas metálicas en lugar de caucho, ya que este material se desgastaría muy rápido dada la distribución de peso del blindado.\n\nEncontramos a un antiguo empleado de Morgenlicht cuyo testimonio fue revelador. Al ala restringida solían llegar camiones militares bien custodiados. Transportaban a gente a la que habían diagnosticado con «psicosis maniacodepresiva».\n\nAllí mantenían encerrados a científicos e ingenieros. ¿Y esta gente inventaba nuevas tecnologías bajo presión? ¿En eso consistía el Proyecto KRONOS?"
+
+msgid "detail/descr/historical/s3_t8_vehElement_5"
+msgstr "Hoy hemos montado las pantallas antipolvo en los laterales. Aumentarán la durabilidad del vehículo en las misiones más largas. Un gran activo, sin duda.\n\nEncontramos información interesante en documentos de Morgenlicht. Un ingeniero al que declararon «muerto en combate» en 1943 aparece tres semanas después en un registro de ingresos en la clínica.\n\n¿Será un caso de confinamiento forzado? Tenemos pruebas que indican que algunos especialistas fueron allí por voluntad propia y aceptaron fingir sus muertes para seguir trabajando bajo la protección de Moranti. Fue un truco ingenioso para ocultar sus investigaciones de los Aliados.\n\n¿Quién eres, doctor Moranti? ¿Por qué aún no logro averiguar nada sobre ti?"
+
+msgid "detail/descr/historical/s3_t8_vehElement_6"
+msgstr "Hoy hemos instalado un nuevo freno de boca para el cañón. Reduce considerablemente el retroceso, justo lo que necesito.\n\nHemos encontrado el diario de una enfermera de Morgenlicht. En él describe que el «doctor Moranti» daba órdenes a guardias y pacientes por igual y con total autoridad. No obstante, este doctor no aparece en ningún registro médico ni archivo militar de Alemania. Es un fantasma.\n\nEsto confirma mis sospechas: nunca existió un doctor Moranti, solo era un alias creado para el Proyecto KRONOS. Alguien prefería controlarlo todo desde las sombras."
+
+msgid "detail/descr/historical/s3_t8_vehElement_7"
+msgstr "Hoy hemos aplicado el camuflaje base. Es negro. Debo admitir que el negro es el motivo por el que me uní al Sector 3. Eso y la posibilidad de cazar a criminales de guerra. Ah, y crear el carro de combate con el que siempre he soñado. Había varios motivos.\n\nSegún los documentos que encontramos, los pacientes en Morgenlicht crearon algunos diseños revolucionarios mientras les administraban «tratamientos especiales».\n\nNo hay información sobre ellos, pero sí algunos informes que mencionan «aumentos de productividad» tras cada sesión. Sea lo que sea que les hayan hecho a esos científicos, era sistemático y dio los resultados esperados. Otro misterio que resolver."
+
+msgid "detail/descr/historical/s3_t8_vehElement_8"
+msgstr "Hemos montado la cámara de televisión de baja iluminación. Es una tecnología asombrosa, capaz de detectar objetivos casi en total oscuridad. La resolución es mejor que cualquier cosa con la que haya trabajado hasta ahora.\n\nLogramos crear un prototipo basado en diseños de un sistema de vigilancia óptico del Proyecto KRONOS. Es probable que lo hayan diseñado con ideas de los pacientes. No quiero ni imaginar qué hizo Moranti para obtener esos conceptos.\n\nEspero que aún viva para poder encontrarlo. La justicia no descansa."
+
+msgid "detail/descr/historical/s3_t8_vehElement_9"
+msgstr "Foco infrarrojo. No es nada nuevo, y funciona perfectamente; ya lo he usado. Mejora enormemente la detección de un objetivo en condiciones de poca iluminación, y trabajar en la oscuridad es lo que más me gusta.\n\nEncontramos pruebas que indican que transportaron equipamiento desde Morgenlicht a principios de 1944. Los documentos mencionan unas «cajas especiales» que estaban bien custodiadas.\n\nEso significa que en la clínica no solo «extraían conceptos científicos»; también creaban prototipos de equipamiento. Parece que Moranti ocultaba una instalación de diseño avanzado a plena vista."
+
+msgid "detail/descr/historical/s3_t9_vehElement_1"
+msgstr "Esta es la primera grabación. Soy Miroslav Kotva, pero todos me llaman Teddy. Voy a comenzar a montar mi carro, ¡el Dravec! Hoy es el turno de la torreta. Construcción soldada, blindaje laminado. ¡Qué belleza!\n\nEl proceso avanza a toda marcha, y pronto tendré un nuevo compañero blindado.\n\nSin embargo, nos topamos con un callejón sin salida durante la investigación.\n\nAprendimos mucho sobre la clínica Morgenlicht. Estábamos a nada de averiguarlo todo, pero descubrimos que, a mitad del 44, hubo un incendio en el lugar. La gente que sabía la verdad (pacientes, guardias, personal) ha desaparecido sin dejar rastro.\n\nAlgo huele muy mal. Y no me refiero al olor a quemado. ¡Ja! Perdón, tengo chistes mejores en mi repertorio."
+
+msgid "detail/descr/historical/s3_t9_vehElement_10"
+msgstr "Hoy hemos empezado a aplicar el camuflaje del blindado. Un color negro liso e imponente, como a mí me gusta. Dicen que el negro te convierte en un objetivo más visible en batalla, pero no comprenden el efecto psicológico que causa. Cuando un enemigo ve un carro negro que emerge entre la niebla, queda paralizado.\n\nLeni y los ingenieros creen que el KRONOS es un arma electromagnética. Encontramos planos de tubos de vacío enormes, generadores potentes y sistemas de refrigeración complejos.\n\nPero hay algo que no entiendo: si se trata de un potente cañón electromagnético, ¿por qué le dan un nombre tan aburrido? KRONOS. Algo no me cuadra."
+
+msgid "detail/descr/historical/s3_t9_vehElement_11"
+msgstr "Hoy el Dravec recibió el sistema 902 Tucha. ¡Un complemento perfecto para mi depredador negro! Ahora puedo desaparecer en una nube de humo en apenas un instante. Como solía decir mi abuelo: «Un guerrero astuto sabe cuándo exponerse y cuándo desaparecer».\n\nHemos rastreado envíos de equipamiento para el KRONOS a las costas del Mar del Norte, pero, a partir de ahí, el rastro se pierde.\n\nCargamentos enormes de transporte, equipamiento especializado y un sinfín de material enviado a instalaciones costeras. Pero luego... nada. No hay ni un solo registro que indique a dónde van.\n\nEse tal Moretti no quería que nadie conociera sus planes."
+
+msgid "detail/descr/historical/s3_t9_vehElement_12"
+msgstr "Hoy hemos instalado el telémetro láser. Se trata de una pieza de tecnología brillante que determina la distancia entre tu carro y el objetivo con alta precisión. ¡El arsenal de juguetes de mi Dravec no para de crecer!\n\nHablando de láseres... estamos usando tecnología KRONOS para el telémetro, aunque nuestro equipo técnico tuvo que rediseñarlo por completo. La escala de los planos originales era extraña, como si propusieran un láser de combate masivo.\n\nCuanto más indagamos, más preguntas surgen. ¿Acaso Moretti quería construir un rayo mortal? Parece un arma salida de una de las novelas de ciencia ficción que leía de pequeño... pero, a juzgar por los planos del KRONOS, podría creer cualquier cosa."
+
+msgid "detail/descr/historical/s3_t9_vehElement_13"
+msgstr "Hoy hemos instalado un nuevo freno de boca para el cañón. ¡Es una obra de arte! Reduce considerablemente el retroceso, facilitando la tarea de disparar.\n\nPero eso no es todo. Hace poco descubrimos algo... en uno de los documentos del KRONOS hallamos una descripción de un búnker masivo construido en barrancos costeros. Evidentemente, no figura la ubicación exacta (Moretti no nos lo pondría tan sumamente fácil). Aun así, el tamaño es abrumador.\n\nSi las dimensiones son precisas, habría espacio suficiente para ocultar algo gigantesco en su interior...\n\nApuesto lo que sea que Moretti montaba su Wunderwaffe en ese búnker."
+
+msgid "detail/descr/historical/s3_t9_vehElement_14"
+msgstr "Hoy hemos conseguido todo lo que podríamos necesitar para el blindado: cables de tracción, contenedores de humo, equipamiento para conducción submarina... Al igual que un buen soldado, un buen blindado debe estar listo para todo.\n\nY hay mucho para lo que prepararse. Hemos estudiado los mapas del mar del Norte...\n\nEl búnker que construyó Moretti está en alguna isla de Noruega. Sospechamos que está justo en la isla donde solía haber una base de misiles estadounidense, la que capturaron los mercenarios para lanzar el satélite.\n\n¿Tan cerca está? ¿Justo debajo de nosotros? ¡No puedo creer que hayamos estado tan cerca del búnker del KRONOS todo este tiempo!"
+
+msgid "detail/descr/historical/s3_t9_vehElement_15"
+msgstr "¡El Dravec está listo! Mi nuevo compañero de acero está armado y es peligroso. Veloz, blindado y con suficiente potencia de fuego para que los enemigos tiemblen cuando los apunte con mi cañón.\n\n¡Qué líneas tan elegante, qué figura tan temible! Los enemigos tendrán pesadillas.\n\nNos esperan muchas aventuras, ¡y tendré muchas historias que contar!\n\n¡Que empiece la cacería!"
+
+msgid "detail/descr/historical/s3_t9_vehElement_2"
+msgstr "Hemos instalado el sistema de desplazamiento. ¡La suspensión es sublime! Con ella, el blindado tendrá una marcha tan suave que podría tomar un café tranquilo mientras lo manejo sin derramar una gota. Bueno... tal vez no. Habrá algo de vibración. No deja de ser un blindado, ¿no?\n\nTambién hemos avanzado en la investigación. Creíamos que el caso del incendio de Morgenlicht estaba cerrado, pero Leni descubrió algo curioso: los planos del KRONOS que estamos usando para nuestros blindados se crearon después del incendio.\n\nComo dicen en las novelas, ¡esto se pone interesante!"
+
+msgid "detail/descr/historical/s3_t9_vehElement_3"
+msgstr "¡Por fin tengo la cúpula del comandante! Es hermosa y tiene varios dispositivos de observación que son una absoluta maravilla. Mi dispositivo favorito es el sistema de visión nocturna TKN-1. Con él puedo ver en la oscuridad como un felino.\n\nTenemos una nueva teoría sobre este asunto del KRONOS. Puede que hayan quitado el trabajo de los pacientes antes del incendio para procesarlo en otro lado, o (y aquí viene lo mejor)... ¿Y si los «científicos locos» eran una farsa? ¿Y si el origen de estas tecnologías no está relacionado con ellos?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_4"
+msgstr "Hoy hemos añadido más planchas de blindaje en la torreta: cinco bloques llenos de placas de poliuretano y acero. Son una protección excelente contra las cargas de formas particulares. ¡Me muero por probarlas en combate!\n\nMientras tanto, parece que Leni tenía razón: ¡nunca existió un «doctor Moranti»! Era un alias de los tantos que tenía el verdadero responsable: alguien llamado Alessandro Moretti.\n\n¿Por qué alguien tendría tantos nombres? ¿No podía decidir cuál le gustaba más?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_5"
+msgstr "Hoy hemos instalado el cañón principal. ¡Qué ganas de disparar! Cuando pulsas el gatillo y sientes cómo se sacude la máquina... no hay nada igual.\n\nEste tal Moretti ha resultado ser muy interesante. No era solo un ingeniero; era el mejor a la hora de construir instalaciones secretas. Después, en el año 43, desapareció por completo. No quedó ni rastro de él en los registros.\n\nY aún hay más: ¡fue en ese momento que entró en juego el «doctor Moranti»! Tras el incendio de Morgenlicht, los alias de la lista empiezan a aparecer en manifiestos de transporte y otros documentos."
+
+msgid "detail/descr/historical/s3_t9_vehElement_6"
+msgstr "Hoy hemos instalado el sistema de protección activa. Es una pieza revolucionaria, capaz de detectar proyectiles enemigos en una fracción de segundo. ¡Impresionante!\n\nPor cierto, hemos descubierto algo sorprendente sobre Morgenlicht. No era una prisión o un laboratorio de torturas tal y como pensábamos. Era solo una parte de una red bien camuflada de centros de investigación.\n\nTodo parece indicar que nuestro amigo Moretti soñaba con ser escritor de novelas de terror. Se esforzó mucho en crear esta fachada y redactó informes falsos con un gran nivel de detalle. ¡Cuánto talento desperdiciado!"
+
+msgid "detail/descr/historical/s3_t9_vehElement_7"
+msgstr "Hoy ha sido el día de instalar una funda térmica en el cañón. Es una gran pieza que impide que las condiciones climáticas afecten a la precisión del cañón.\n\nY Moretti tenía más rompecabezas en la manga. Hemos rastreado las cadenas de suministros conectadas a todos esos alias. Había decenas de fábricas vinculadas al Proyecto KRONOS. Fabricantes de sistemas electrónicos, plantas químicas, fábricas de textiles... y, curiosamente, envíos de ámbar.\n\n¿Para qué demonios necesitan ámbar? ¿Y dónde consiguió tanto? ¿Acaso Moretti asaltó la Cámara de Ámbar o algo así?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_8"
+msgstr "La instalación del sistema de protección activa Oplot-MO está lista, ¡y es todo lo que esperaba y más! El radar detecta misiles anticarro que vuelan a entre 600 y 800 m/s y activa un cañón antiaéreo de seis proyectiles que los intercepta en el aire. ¡Tenemos algunas piezas de tecnología asombrosas que no tienen nada que envidiarle al KRONOS!\n\nEste Moretti... me confunde. Estaba empezando a creerme esa historia sobre los científicos locos y sus planos raros, y ahora descubrimos que él estaba construyendo algo enorme.\n\n¿Dónde consiguió estos planos y tecnologías?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_9"
+msgstr "Mi Dravec ya está casi completo. ¡Pronto tendremos algunas aventuras dignas de una película de Hollywood!\n\nTambién haré una sobre el KRONOS, pero las entradas solo se venderán a quienes tengan acceso de nivel cinco, una audiencia exclusiva.\n\nUna lástima, porque sería algo grandioso. Hemos encontrado algo sospechoso entre los planos del KRONOS: diseños de componentes que parecen ser de una Wunderwaffe. Nadie logra descifrarlos.\n\nSea lo que sea, requiere tanta energía como para alimentar a una ciudad entera."
+
+msgid "detail/name/s3_t10_vehElement_1"
+msgstr "Torreta"
+
+msgid "detail/name/s3_t10_vehElement_10"
+msgstr "Placas laterales"
+
+msgid "detail/name/s3_t10_vehElement_11"
+msgstr "Telecámara/camuflaje"
+
+msgid "detail/name/s3_t10_vehElement_12"
+msgstr "Morteros de humo"
+
+msgid "detail/name/s3_t10_vehElement_13"
+msgstr "Freno de boca"
+
+msgid "detail/name/s3_t10_vehElement_14"
+msgstr "Htas. de atrinchera."
+
+msgid "detail/name/s3_t10_vehElement_15"
+msgstr "Orugas"
+
+msgid "detail/name/s3_t10_vehElement_2"
+msgstr "Sist. de suspensión"
+
+msgid "detail/name/s3_t10_vehElement_3"
+msgstr "Ruedas"
+
+msgid "detail/name/s3_t10_vehElement_4"
+msgstr "Periscopio principal"
+
+msgid "detail/name/s3_t10_vehElement_5"
+msgstr "Periscop. de trip."
+
+msgid "detail/name/s3_t10_vehElement_6"
+msgstr "Ametralladoras"
+
+msgid "detail/name/s3_t10_vehElement_7"
+msgstr "Cañón principal"
+
+msgid "detail/name/s3_t10_vehElement_8"
+msgstr "Guardabarros"
+
+msgid "detail/name/s3_t10_vehElement_9"
+msgstr "Focos infrarrojos"
+
+msgid "detail/name/s3_t8_vehElement_1"
+msgstr "Blindaje espaciado"
+
+msgid "detail/name/s3_t8_vehElement_10"
+msgstr "Radar"
+
+msgid "detail/name/s3_t8_vehElement_11"
+msgstr "Sist. de iluminación"
+
+msgid "detail/name/s3_t8_vehElement_12"
+msgstr "Lanzagranadas humo"
+
+msgid "detail/name/s3_t8_vehElement_13"
+msgstr "Htas. de atrinchera."
+
+msgid "detail/name/s3_t8_vehElement_14"
+msgstr "Redes de camuflaje"
+
+msgid "detail/name/s3_t8_vehElement_15"
+msgstr "Orugas"
+
+msgid "detail/name/s3_t8_vehElement_2"
+msgstr "Escotillas y ópticas"
+
+msgid "detail/name/s3_t8_vehElement_3"
+msgstr "Sist. de suspensión"
+
+msgid "detail/name/s3_t8_vehElement_4"
+msgstr "Ruedas"
+
+msgid "detail/name/s3_t8_vehElement_5"
+msgstr "Pantallas antipolvo"
+
+msgid "detail/name/s3_t8_vehElement_6"
+msgstr "Freno de boca"
+
+msgid "detail/name/s3_t8_vehElement_7"
+msgstr "Camuflaje básico"
+
+msgid "detail/name/s3_t8_vehElement_8"
+msgstr "Cámara TBI"
+
+msgid "detail/name/s3_t8_vehElement_9"
+msgstr "Foco infrarrojo"
+
+msgid "detail/name/s3_t9_vehElement_1"
+msgstr "Torreta"
+
+msgid "detail/name/s3_t9_vehElement_10"
+msgstr "Faros y camuflajes"
+
+msgid "detail/name/s3_t9_vehElement_11"
+msgstr "Sistema 902 Tucha"
+
+msgid "detail/name/s3_t9_vehElement_12"
+msgstr "Telémetro láser"
+
+msgid "detail/name/s3_t9_vehElement_13"
+msgstr "Freno de boca"
+
+msgid "detail/name/s3_t9_vehElement_14"
+msgstr "Htas. y pantallas"
+
+msgid "detail/name/s3_t9_vehElement_15"
+msgstr "Orugas"
+
+msgid "detail/name/s3_t9_vehElement_2"
+msgstr "Sist. de suspensión"
+
+msgid "detail/name/s3_t9_vehElement_3"
+msgstr "Cúp. del comandante"
+
+msgid "detail/name/s3_t9_vehElement_4"
+msgstr "Rev. de blind. extra"
+
+msgid "detail/name/s3_t9_vehElement_5"
+msgstr "Cañón principal"
+
+msgid "detail/name/s3_t9_vehElement_6"
+msgstr "SPA"
+
+msgid "detail/name/s3_t9_vehElement_7"
+msgstr "Funda térmica cañón"
+
+msgid "detail/name/s3_t9_vehElement_8"
+msgstr "SPA Oplot-MO"
+
+msgid "detail/name/s3_t9_vehElement_9"
+msgstr "Guardabarros"
+
+msgid "main/additionalMission/text/completed"
+msgstr "Has obtenido puntos de campaña adicionales."
+
+msgid "main/additionalMission/text/daily"
+msgstr "Completa misiones diarias para obtener puntos de campaña adicionales."
+
+msgid "main/additionalMission/text/weekly"
+msgstr "Completa misiones semanales para obtener puntos de campaña adicionales."
+
+msgid "main/additionalMission/title/daily"
+msgstr "Misiones diarias"
+
+msgid "main/additionalMission/title/weekly"
+msgstr "Misiones semanales"
+
+msgid "main/assembling/component"
+msgstr "Pieza"
+
+msgid "main/chain/Assault/name"
+msgstr "Vanguardia"
+
+msgid "main/chain/Sniper/name"
+msgstr "Emboscada"
+
+msgid "main/chain/Support/name"
+msgstr "Asistencia"
+
+msgid "main/complete/button"
+msgstr "A la operación"
+
+msgid "main/complete/description/campaignFinished"
+msgstr "¡Campaña «{{campaignName}}» completada! Has recibido todas las recompensas."
+
+msgid "main/complete/description/notAllCompleted"
+msgstr "¡Operación {{currentOperationName}} completada con honores! Ya está disponible la operación {{nextOperationName}}."
+
+msgid "main/complete/description/notAllCompletedWithHonor"
+msgstr "¡Operación {{currentOperationName}} {{@ split}}completada con honores! {{/}}Aún puedes mejorar tu resultado en la operación {{nextOperationName}}."
+
+msgid "main/complete/title"
+msgstr "¡Enhorabuena!"
+
+msgid "main/menuItem/state/active"
+msgstr "Comenzada"
+
+msgid "main/menuItem/state/available"
+msgstr "Disponible"
+
+msgid "main/menuItem/state/completed"
+msgstr "Vehículo recibido"
+
+msgid "main/menuItem/state/completedWithHonors"
+msgstr "Completada con honores"
+
+msgid "main/menuItem/state/unavailable"
+msgstr "No disponible"
+
+msgid "main/menuItem/tooltip/videoIntro"
+msgstr "Ve un vídeo introductorio sobre este vehículo"
+
+msgid "main/mission/counter"
+msgstr "{{currentValue}} {{@ colorLegacy 'ede6d97f'}}/ {{maxValue}}{{/}}"
+
+msgid "main/mission/mission/quest/separator"
+msgstr "O"
+
+msgid "main/mission/subtitle"
+msgstr "Misión activa"
+
+msgid "main/mission/text/alert"
+msgstr "No puedes completar esta misión por el momento. Pronto estará disponible."
+
+msgid "main/mission/text/completed"
+msgstr "Has completado\ntodas las misiones {{missionType}}."
+
+msgid "main/missions/button/tooltip/toActiveMission"
+msgstr "Haz clic para volver a la misión actual."
+
+msgid "main/missions/card/tooltip/done"
+msgstr "Misión completada, recompensa recibida."
+
+msgid "main/missions/card/tooltip/locked"
+msgstr "Para desbloquear esta misión, completa la anterior. Las misiones de una serie deben completarse en orden."
+
+msgid "main/missions/category/description"
+msgstr "Las misiones de {{category}} de la operación {{operationName}} se pueden completar en orden con {{@ colorLegacy 'ede6d9'}}vehículos de nivel {{minLevel}} a {{maxLevel}}{{/}} de los siguientes tipos:"
+
+msgid "main/missions/category/vehicles/assault"
+msgstr "{{HT}}, {{MT}} y {{TD}} con roles de {{breakthrough}}, {{assault}} y {{universal}}."
+
+msgid "main/missions/category/vehicles/sniper"
+msgstr "{{HT}}, {{MT}} y {{TD}} con roles de {{sniper}} y {{support}}."
+
+msgid "main/missions/category/vehicles/support"
+msgstr "{{LT}} y {{SPG}} independientemente de su rol."
+
+msgid "main/operation/button/available/"
+msgstr "Activar"
+
+msgid "main/operation/button/completed"
+msgstr "Mejorar resultado"
+
+msgid "main/operation/button/nextOperationAvailable"
+msgstr "A la operación"
+
+msgid "main/operation/button/paused"
+msgstr "Reanudar operación"
+
+msgid "main/operation/button/precedingOperationNotCompleted"
+msgstr "A la operación"
+
+msgid "main/operation/status/available"
+msgstr "¡La operación {{currentOperationName}} ya está disponible!"
+
+msgid "main/operation/status/completed"
+msgstr "¡Operación {{currentOperationName}} completada! Puedes completarla con honores para obtener una recompensa aún mayor."
+
+msgid "main/operation/status/nextOperationAvailable"
+msgstr "¡Operación {{currentOperationName}} completada! Ya está disponible la operación {{nextOperationName}}."
+
+msgid "main/operation/status/paused"
+msgstr "La operación {{currentOperationName}} está en pausa."
+
+msgid "main/operation/status/precedingOperationNotCompleted"
+msgstr "Operación no disponible: completa la operación anterior."
+
+msgid "main/operation/status/requiresVehicle"
+msgstr "Operación no disponible: necesitas un vehículo de nivel {{requiredVehicleLevel}} o superior."
+
+msgid "main/operation/status/vehicleIsInBattle"
+msgstr "No puedes cambiar de campaña u operación si el vehículo está en combate."
+
+msgid "main/progression/button"
+msgstr "Montar"
+
+msgid "main/progression/counter/zero"
+msgstr "0"
+
+msgid "main/progression/detail/status/active"
+msgstr "{{detailName}}: {{earnedPoint}} {{@ colorLegacy 'ede6d97f'}}/ {{maxPoint}}{{/}} {{icon}}"
+
+msgid "main/progression/detailNumber"
+msgstr "{{number}}"
+
+msgid "main/progression/mountButton/active"
+msgstr "Haz clic para montar esta pieza en el vehículo."
+
+msgid "main/progression/mountButton/disable"
+msgstr "Monta la pieza anterior primero."
+
+msgid "main/progression/reward/previewButton"
+msgstr "Ver en el garaje"
+
+msgid "main/progression/reward/status/inProgress/campaign"
+msgstr "Operaciones completadas con honores: {{completedTasks}} {{@ colorLegacy 'ede6d97f'}}/ {{tasksNumber}}{{/}}"
+
+msgid "main/progression/reward/status/inProgress/operation"
+msgstr "Misiones completadas: {{completedTasks}} {{@ colorLegacy 'ede6d97f'}}/ {{tasksNumber}}{{/}}"
+
+msgid "main/progression/reward/status/received"
+msgstr "Recibida"
+
+msgid "main/progression/reward/title/campaign"
+msgstr "Por completar la campaña con honores"
+
+msgid "main/progression/reward/title/main"
+msgstr "Recompensas principales"
+
+msgid "main/progression/reward/title/operation"
+msgstr "Por completar la operación con honores"
+
+msgid "main/progression/tooltip/detail/notDone"
+msgstr "Podrás ver la pieza tras montarla."
+
+msgid "main/progression/tooltip/rewards/campaign"
+msgstr "Completa todas las misiones de las tres operaciones de la campaña para recibir estas recompensas."
+
+msgid "main/progression/tooltip/rewards/main"
+msgstr "Completa la progresión y monta la última pieza para recibir la recompensa principal y el vehículo."
+
+msgid "main/progression/tooltip/rewards/operation"
+msgstr "Completa todas las misiones de la operación para recibir estas recompensas."
+
+msgid "main/progression/tooltip/toActiveStage"
+msgstr "Haz clic para ir a la etapa actual."
+
+msgid "plugin/post_battle/condition"
+msgstr "Condición"
+
+msgid "plugin/post_battle/openButton"
+msgstr "Haz clic para ver la información detallada."
+
+msgid "plugin/post_battle/questsSeparator"
+msgstr "O"
+
+msgid "questStatus/topLabelAlreadyUsedVehicle"
+msgstr "No disponible: ya has cumplido la condición con el vehículo seleccionado. Elige otro."
+
+msgid "questStatus/topLabelCompleted"
+msgstr "Completado"
+
+msgid "questStatus/topLabelCompletedForBattle"
+msgstr "Completado para la batalla actual"
+
+msgid "rewards/additional"
+msgstr "También recibes:"
+
+msgid "rewards/buttons/close"
+msgstr "Cerrar"
+
+msgid "rewards/buttons/confirm"
+msgstr "¡Afirmativo!"
+
+msgid "rewards/buttons/goToOperation"
+msgstr "A la operación"
+
+msgid "rewards/buttons/goToVehicle"
+msgstr "Ver en el garaje"
+
+msgid "rewards/operationUnlocked"
+msgstr "La operación {{name}} está disponible"
+
+msgid "rewards/subTitle/campaignWithHonors"
+msgstr "Campaña: {{name}}"
+
+msgid "rewards/subTitle/operationWithHonors"
+msgstr "Operación: {{name}}"
+
+msgid "rewards/subTitle/vehiclePart"
+msgstr "Operación: {{name}}"
+
+msgid "rewards/title/campaignWithHonors"
+msgstr "¡COMPLETADA CON HONORES!"
+
+msgid "rewards/title/operation"
+msgstr "¡OPERACIÓN {{name}} COMPLETADA!"
+
+msgid "rewards/title/operationWithHonors"
+msgstr "¡COMPLETADA CON HONORES!"
+
+msgid "rewards/title/vehiclePart"
+msgstr "PIEZA DISPONIBLE PARA MONTAR"
+
+msgid "tooltip/assembling/viewAnimation"
+msgstr "Haz clic para ver la animación de montaje."
+
+msgid "tooltip/assembling/zoomOut"
+msgstr "Haz clic para ocultar la descripción."
+
+msgid "tooltip/missionProgress/completed"
+msgstr "Completada: {{completed}}{{@ class $totalClass}} / {{total}}{{/}}"
+
+msgid "tooltip/missionProgress/description"
+msgstr "Para completar la misión, debes cumplir las condiciones varias veces con distintos vehículos."
+
+msgid "tooltip/missionProgress/footer"
+msgstr "Cuando un vehículo haya cumplido las condiciones, no se podrá volver a usar en esta misión hasta que se haya completado."
+
+msgid "tooltip/missionProgress/title"
+msgstr "Completar con varios vehículos"
+
+msgid "tooltip/missionProgress/unknownVehicle"
+msgstr "?"
+
+msgid "tooltip/missionsCategory/description/assault"
+msgstr "Vehículos de primera línea que pueden imponer sus propias reglas en el campo de batalla."
+
+msgid "tooltip/missionsCategory/description/sniper"
+msgstr "Vehículos de segunda línea que brindan apoyo en los ataques contra posiciones enemigas."
+
+msgid "tooltip/missionsCategory/description/support"
+msgstr "Fuego de apoyo aéreo e información sobre posiciones enemigas en el campo de batalla."
+
+msgid "tooltip/missionsCategory/footer"
+msgstr "Las misiones de la operación {{@ colorLegacy 'b2afab'}}{{operationName}}{{/}} solo se pueden completar con vehículos de nivel {{@ colorLegacy 'b2afab'}}{{minLevel}} a {{maxLevel}}{{/}}."
+
+msgid "tooltip/missionsCategory/innerBlock/description/assault"
+msgstr "Las misiones de Vanguardia se pueden completar en orden con:"
+
+msgid "tooltip/missionsCategory/innerBlock/description/sniper"
+msgstr "Las misiones de Emboscada se pueden completar en orden con:"
+
+msgid "tooltip/missionsCategory/innerBlock/description/support"
+msgstr "Las misiones de Asistencia se pueden completar en orden con:"
+
+msgid "tooltip/missionsCategory/innerBlock/noRoles"
+msgstr "Tipos de vehículo independientemente de su rol:"
+
+msgid "tooltip/missionsCategory/innerBlock/vehiclesTypes"
+msgstr "Tipos de vehículo:"
+
+msgid "tooltip/missionsCategory/innerBlock/withRoles"
+msgstr "Con roles:"
+
+msgid "tooltip/personalMissionsPoints/footer"
+msgstr "Recuerda hacer seguimiento de las etapas completadas y montar componentes de vehículos a medida que progresas."
+
+msgid "tooltip/personalMissionsPoints/innerBlock/bulletItem1"
+msgstr "Obtendrás puntos de campaña por completar misiones personales en la campaña «Sector 3»."
+
+msgid "tooltip/personalMissionsPoints/innerBlock/bulletItem2"
+msgstr "También puedes completar misiones diarias y semanales para ganar puntos de campaña."
+
+msgid "tooltip/personalMissionsPoints/innerBlock/description"
+msgstr "Progresa en la operación activa de la campaña «Sector 3»."
+
+msgid "tooltip/personalMissionsPoints/innerBlock/subTitle"
+msgstr "Cómo se obtienen"
+
+msgid "tooltip/personalMissionsPoints/innerBlock/title"
+msgstr "Puntos de campaña"
+
+msgid "tooltip/progression/description"
+msgstr "Avanza por las etapas, reúne piezas y móntalas en tu vehículo. Cuando las tengas todas, recibirás el vehículo de la operación como recompensa. Necesitarás puntos de campaña para avanzar y completar etapas."
+
+msgid "tooltip/progression/footer"
+msgstr "Recuerda hacer seguimiento de las etapas completadas y montar las piezas de vehículos a medida que progresas."
+
+msgid "tooltip/progression/innerBlock/bulletItem1"
+msgstr "Obtendrás puntos de campaña por completar misiones personales en la campaña «Sector 3»."
+
+msgid "tooltip/progression/innerBlock/bulletItem2"
+msgstr "También puedes completar misiones diarias y semanales para ganar puntos de campaña."
+
+msgid "tooltip/progression/innerBlock/title"
+msgstr "Cómo obtener puntos de campaña"
+
+msgid "tooltip/progression/title"
+msgstr "Progreso de montaje del vehículo"

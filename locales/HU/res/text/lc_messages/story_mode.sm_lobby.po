@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, a csata időtartama: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "BEZÁRÁS"
+
+msgid "battleResult/continueButton"
+msgstr "Folytatás"
+
+msgid "battleResult/damageAssisted"
+msgstr "Közreműködési\nsebzés"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Felfogott\nsebzés"
+
+msgid "battleResult/damageDealt"
+msgstr "Okozott\nsebzés"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s Ha a küldetéseket a Kíméletlen nehézségi szinten teljesíted,\nautomatikusan teljesíted őket a Normál nehézségen is.\nEz azt jelenti, hogy mindkét nehézségi szint jutalmait megkapod."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s Ha a küldetéseket a Kíméletlen nehézségi szinten teljesíted, automatikusan teljesíted őket a Normál nehézségen is.\nEz azt jelenti, hogy mindkét nehézségi szint jutalmait megkapod."
+
+msgid "battleResult/kills"
+msgstr "Megsemmisített\nellenségek"
+
+msgid "battleResult/lose/title"
+msgstr "A CSATA VÉGET ÉRT"
+
+msgid "battleResult/missionName/1"
+msgstr "TIGRISVADÁSZ: Acéllavina hadművelet"
+
+msgid "battleResult/missionName/2"
+msgstr "TIGRISVADÁSZ: Csapdász hadművelet"
+
+msgid "battleResult/missionName/3"
+msgstr "TIGRISVADÁSZ: Kalapács és üllő hadművelet"
+
+msgid "battleResult/missionName/4"
+msgstr "TIGRISVADÁSZ: Macska az egérfogóban hadművelet"
+
+msgid "battleResult/missionName/5"
+msgstr "OVERLORD HADMŰVELET"
+
+msgid "battleResult/missionName/6"
+msgstr "POSTÁS HADMŰVELET"
+
+msgid "battleResult/missionName/7"
+msgstr "FORRÁSPONT HADMŰVELET"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Nincs aktív\nküldetés"
+
+msgid "battleResult/rewards/other"
+msgstr "Ugyancsak megkaptad:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Küldetések\nteljesítve"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Túlélte{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Nem élte túl{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "GYŐZELEM!"
+
+msgid "countdown/days"
+msgstr "{days} n"
+
+msgid "countdown/daysHours"
+msgstr "{days} n {hours} ó"
+
+msgid "countdown/endsSoon"
+msgstr "Kevesebb mint {minutes} perc"
+
+msgid "countdown/hours"
+msgstr "{hours} ó"
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} ó {minutes} perc"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} ó {minutes} perc"
+
+msgid "countdown/lessThanMinute"
+msgstr "Kevesebb mint egy perc"
+
+msgid "countdown/minutes"
+msgstr "{minutes} perc"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} p"
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "Mégse"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "A hadművelet teljesítéséért nem kapsz jutalmat.\nAktív küldetések nélkül is szeretnéd végigjátszani a hadműveletet?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Megerősít"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "Nincs aktív küldetés ebben a hadműveletben"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Azonosítsd az ismeretlen fenyegetést, állítsd meg a rakétakilövést és biztosítsd, hogy az új technológia jó kezekbe kerüljön."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "Játssz egyedül, és harcolj MI vezérelte ellenségekkel ebben a lebilincselő történetben, amelyben a 3. szektor parancsnokai szerepelnek!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Teljesítsd az összes küldetést, hogy megszerezd az emlékjelvényt és -medált, a tematikus 2D-stílusokat és a többi értékes jutalmat."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "Egy új korszak hajnala"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "Egyjátékos történet"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Jutalmak"
+
+msgid "eventWelcomeScreen/header"
+msgstr "FORRÁSPONT HADMŰVELET"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s – %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Történetek"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Kíméletlen"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Normál"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Szigorú\nAknamező"
+
+msgid "missionSelection/exitButton"
+msgstr "KILÉPÉS A JÁTÉKMÓDBÓL"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "ACÉLLAVINA\nHADMŰVELET"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "PRÉMVADÁSZ\nHADMŰVELET"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "KALAPÁCS ÉS ÜLLŐ\nHADMŰVELET"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "MACSKA AZ EGÉRFOGÓBAN\nHADMŰVELET"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "OVERLORD\nHADMŰVELET"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "POSTÁS\nHADMŰVELET"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "HADMŰVELET\nFORRÁSPONT"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Brooks: „Hogy vagy? Magadhoz tértél? A dokik később megnéznek. Most minden fegyverre szükség van. A támadás már megkezdődött. És mivel elkéstünk, az ellenség minden figyelmét a másik szárnyra összpontosította. Itt az esélyünk. Máris támadunk! Betörünk a városba, és két oldalról közrefogjuk őket.\nKövess minket, és vigyázz a sárkányfogakkal. Egy rakás betonfog van szétszórva azon a mezőn. De nem baj. Át fogunk jutni. Csak annyit kell tenned, hogy figyelsz rám, és gyorsan és pontosan végrehajtod a parancsaimat. MacLeod és én fedezünk titeket.\nÉs ne foglalkozz a poénjaival! Mindenki a maga módján dolgozza fel a helyzetet... Előre!“"
+
+msgid "missionSelection/missionDescription/2"
+msgstr "MacLeod: „Á, a Tigrisek – a legrosszabb ellenfelek, akikkel a csatatéren találkozhatsz. És ha a parancsnokság azt mondja, hogy gond van, akkor valószínűleg Tigrisekre gondolnak. Nem tudunk kapcsolatba lépni az első rohamosztaggal, a második épp most indult el, és itt vagyunk mi – nekünk kellene követni őket.\nÉs ha minket küldenek, az csak egy dolgot jelenthet: Tigriseket. Ezt mondják a főhadiszálláson: „Küldjétek a Tigris-szakértőket!“ Kilenc tank jut kettőre. Fél év alatt nem is olyan rossz. 5-4-re vezetsz. De most átvehetem a vezetést. És végre megszerezhetem azt az átkozott kitüntetést!\nGyerünk – Brooks nem szeret várakozni. Kezdődjön a vadászat.“"
+
+msgid "missionSelection/missionDescription/3"
+msgstr "MacLeod: „Oké emberek, ez a Kalapács és üllő hadművelet. A név egyszerű, a feladat viszont nem annyira. A városba tartunk, hogy megtisztítsuk az ellenséges erőktől. Nem lesz sétagalopp – nehéz páncélosokkal állunk szemben. De az ész, az erő és a csapatmunka a mi oldalunkon áll, igaz, Lucky? És gyorsnak kell lennünk, emberek. Nekem öt órára „teázós“ programom van, ha értitek, mire gondolok.”"
+
+msgid "missionSelection/missionDescription/4"
+msgstr "MacLeod: „Ne is kérdezd, Lucky! Én is ugyanúgy a sötétben tapogatózom, mint te. Nem vagyok híve ennek a titkolózásnak. Szeretem tisztán látni a dolgokat. Ha meglátod az ellenséget, harcolsz vele. De ez? Ez egy katyvasz.\n\nSzövetséges tankok is lesznek a városban. Brooks megkért minket, hogy legyünk óvatosak. De mit jelentsen ez?\nKülönleges feladatunk van. Valamiféle Wunderwaffét kell megtalálnunk – valami hatalmas dolgot a síneken. Senki más nem képes rá, csak mi, Lucky.\n\nKészen állunk? Akkor előre!“"
+
+msgid "missionSelection/missionDescription/5"
+msgstr "John McCormick százados: „Bajtársak! Elérkezett a nagy nap. Itt az ideje, hogy véget vessünk ennek a háborúnak, és pontosan ezt is fogjuk tenni. Mindannyian, együtt – amerikaiak, britek, franciák, kanadaiak, ausztrálok, belgák, csehszlovákok, görögök, hollandok, kivik, norvégok, lengyelek. Egyesítjük erőinket, hogy egyszer s mindenkorra leszámoljunk a gonosszal.\n\nÁttörjük az atlanti falat, és megvetjük a lábunkat.\n\nKészüljetek fel a partraszállásra!”"
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Smith százados: „Figyelem! Németország órákkal ezelőtt aláírta a kapitulációs dokumentumokat. A háború holnap véget ér. Viszont megszakadt a rádiókapcsolat a fiúkkal a hegyekben – ők még nem tudják, hogy vége van. Hajnalban meg akarják támadni ezt az átkozott erődöt, ráadásul az odabent tartózkodó németek sem tudnak a kapitulációról. Értelmetlen vérengzésre van kilátás. \n\nÉs mi vagyunk az egyetlenek, akik megakadályozhatják. A küldetésünk: Átosonni az ellenséges vonalakon, és átadni a fegyverszüneti parancsot. Öngyilkos küldetés, de minden megmentett élet megéri. \n\nMagunkkal viszünk egy elfogott német rádióst – ő ismeri a terepet, és legalább annyi oka van rá, hogy megakadályozza ezt a vérontást, mint nekünk. \n\nIndulás!”"
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Leni Scharf: „A helyzet kritikus. Elveszítettük a kapcsolatot a Norvég-tengeren található rakétabázisunkkal. A felderítőgép nem tért vissza, az első harckocsis partraszálló egységet pedig ismeretlen ellenség semmisítette meg.\n\nA hírszerzés szerint ballisztikus rakéta kilövésére készülnek. A pontos célpontot ugyan nem ismerjük, de ebben a pattanásig feszült politikai légkörben egyetlen rakéta is globális konfliktust robbanthat ki.\n\nOlyan érzés, mint a régi szép időkben, nem igaz? Egy újabb lehetetlen küldetés az ellenséges vonalak mögött. Indulás!”"
+
+msgid "missionSelection/missionName/1"
+msgstr "ACÉLLAVINA HADMŰVELET"
+
+msgid "missionSelection/missionName/2"
+msgstr "CSAPDÁSZ HADMŰVELET"
+
+msgid "missionSelection/missionName/3"
+msgstr "KALAPÁCS ÉS ÜLLŐ HADMŰVELET"
+
+msgid "missionSelection/missionName/4"
+msgstr "MACSKA AZ EGÉRFOGÓBAN HADMŰVELET"
+
+msgid "missionSelection/missionName/5"
+msgstr "OVERLORD HADMŰVELET"
+
+msgid "missionSelection/missionName/6"
+msgstr "POSTÁS HADMŰVELET"
+
+msgid "missionSelection/missionName/7"
+msgstr "FORRÁSPONT HADMŰVELET"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Különleges jármű"
+
+msgid "missionSelection/tab/event"
+msgstr "FORRÁSPONT HADMŰVELET"
+
+msgid "missionSelection/tab/newbies"
+msgstr "GYAKORLÓ TÖRTÉNETEK"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Támadd meg a várost, és semmisítsd meg az ellenséges járműveket!"
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Támadd meg a várost, és semmisítsd meg az ellenséges járműveket!"
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Támadd meg a várost, és semmisítsd meg az ellenséges járműveket!"
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Teljesítsd a fő küldetés célkitűzéseit anélkül, hogy az ellenséges aknák sebzést okoznának."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Teljesítsd a fő küldetés célkitűzéseit jármű elvesztése nélkül!"
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Támadd meg a várost, és foglald el az ellenséges Wunderwaffét."
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Teljesítsd a küldetés fő célkitűzéseit kevesebb mint %(win_timer)s alatt."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Teljesítsd a küldetés fő célkitűzéseit, és semmisíts meg %(kill_enemies)s ellenséget a repülőgép segítségével!"
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Törj át, semmisítsd meg a tengerparti lövegeket, és foglald el a hídfőállást!"
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Teljesítsd a küldetés fő célkitűzéseit kevesebb mint %(win_timer)s alatt."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Teljesítsd a fő küldetés célkitűzéseit jármű elvesztése nélkül!"
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Add át a tűzszüneti parancsot a szövetségeseidnek."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Teljesítsd a küldetés fő célkitűzéseit, és semmisíts meg kevesebb mint %(kill_enemies)s."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Teljesítsd a küldetés fő célkitűzéseit egyetlen jármű elvesztése nélkül."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Érd el a parancsnoki központot, és állítsd le a rakétakilövést."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Teljesítsd a küldetés fő célkitűzéseit kevesebb mint %(win_timer)s alatt."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Teljesítsd a küldetés fő célkitűzéseit egyetlen jármű elvesztése nélkül."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s ellenséges járművet"
+msgstr[1] "%(value)s ellenséges járművet"
+msgstr[2] "%(value)s ellenséges járművet"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "A küldetés zárolva: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s perc"
+msgstr[1] "%(value)s perc"
+msgstr[2] "%(value)s perc"
+
+msgid "missionSelection/taskRewards"
+msgstr "Jutalom:"
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Ez a jármű csak a Történetekben érhető el."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Teljesíts még %(numBattles)s csatát Normál csata módban,\nhogy feloldd ezt a hadműveletet."
+
+msgid "mode/story_mode/callToAction"
+msgstr "Forgatókönyvek kezdőknek"
+
+msgid "mode/story_mode/description"
+msgstr "Előre megírt forgatókönyv alapján zajló helyzetek a számítógép által irányított járművek ellen."
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Elérhető a Forráspont hadművelet"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "A jelenleg kiválasztott játékmódot a garázs főmenüjének tetején találod. Kattints a mód nevére, hogy megnézd, milyen további lehetőségek érhetők el."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Kattints a &zwnbsp;{whiteSpanish_Open}Történetek{whiteSpanish_Close}&zwnbsp; gombra a játékmód kiválasztásához."
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "A Történetek módban történetvezérelt PvE-játékhelyzeteket ismerhetsz meg, a gép által irányított ellenségekkel harcolhatsz, elmerülhetsz a hősies csaták hangulatában és értékes jutalmakat szerezhetsz!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Belépés a játékmódválasztóba"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Történetek kiválasztása"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "Jó szórakozást a PvE-akcióhoz!"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "TÖRTÉNETEK"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Előre megírt játékhelyzetek várnak"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Újraindít"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "A CSATA VÉGET ÉRT"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Átugrás"
+
+msgid "onboardingQueue/skipText"
+msgstr "Minden szerver foglalt. Kérjük, várj, vagy ugord át ezt a történetet!"
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Előkészítjük a szervert neked. Kérjük, várj..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Páncélzat által felfogott sebzés {parSecondary_Start}(egység){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Felfogott sebzés"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "Az R.RO és HESH lőszerekkel elért találatok nem számítanak."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Beszámítva:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Lepattant ellenséges lövések"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Nem átütő találatok"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Közreműködési sebzés"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "A szövetségesek közreműködéseddel okozott következő sebzéseit számítjuk bele:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Sebzés a felderítéseddel"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "A lánctalp megsemmisítésének és az ellenséges jármű mozgásképtelenné tételének köszönhető sebzés"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "A szövetségeseid által okozott összes sebzés {parSecondary_Start}(egység){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Okozott sebzés"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Beszámítva:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Sebzés lövéssel"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Sebzés ütközéssel"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Tűz általi sebzés"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Ellenséges jármű lelökésével okozott sebzés"
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Összes sebzés {parSecondary_Start}(egység){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Megsemmisített ellenségek"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Beszámítva:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Megsemmisítés lövéssel"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Tűz általi megsemmisítés"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Megsemmisítés ütközéssel"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Fulladás általi megsemmisítés"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Megsemmisítés ellenséges jármű lelökésével"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Megsemmisítés felfordítással"
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Teljesített küldetések"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "A teljesített küldetések és az összes jelenleg\nelérhető küldetés száma.\nA Kíméletlen nehézségi szinten teljesített\nküldetéseket automatikusan teljesíted\nNormál szinten is."
+
+msgid "tooltips/difficulty/available"
+msgstr "Elérhető"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "Az ellenség reakcióideje és pontossága javult, és agresszívebben támadnak rád. Cserébe extra jutalmakat kapsz a küldetések teljesítéséért."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "Ha a küldetéseket {whiteSpanish_Open}szigorú{whiteSpanish_Close} nehézségi szinten teljesíted, automatikusan teljesíted őket {whiteSpanish_Open}normál{whiteSpanish_Close} nehézségi szinten is. Mindkét nehézségi szint jutalmait megkapod."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Kiegészítő feltétel"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Kíméletlen"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "A szigorú nehézségi szint feloldásához mutasd meg a képességeidet a játékmódban, és teljesítsd a hadműveletet normál nehézségi szinten."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Zárolva"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Az ellenfelek lassabbak és kevésbé pontosak, a küldetés teljesítéséért pedig normál jutalmakat kapsz."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Normál"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Kiválasztva"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "A hadművelet aknamezős szakaszának nagyobb kihívást jelentő változata – bemerészkedsz a halálos labirintusba?\nMegnövelt harci jutalmakat kínál."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Szigorú aknamező"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Azonosítsd az ismeretlen fenyegetést, állítsd meg a rakétakilövést és biztosítsd, hogy az új technológia jó kezekbe kerüljön."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Forráspont hadművelet"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "MÓD"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "– Játékmód. Kattints a felfedezéséhez"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "Játssz egyedül, és harcolj MI vezérelte ellenségekkel ebben a lebilincselő történetben, amelyben a 3. szektor parancsnokai szerepelnek!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Az esemény ennyi ideig érhető el: {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "TÖRTÉNETEK"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "MÓD"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "– Játékmód. Kattints a felfedezéséhez"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "Különleges előre megírt forgatókönyvek. Lépj be a páncélozott járművek világába, és mutasd meg, hogy mire vagy képes az MI vezérelte ellenségek ellen!"
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "Történetek"
+
+msgid "tooltips/task/active"
+msgstr "Aktív"
+
+msgid "tooltips/task/completed"
+msgstr "Teljesítve"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Ismeretlen feltételek"
+
+msgid "tooltips/task/locked"
+msgstr "Zárolva: %(timer)s"

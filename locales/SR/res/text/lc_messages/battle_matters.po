@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Nacrt"
+
+msgid "animations/crew_close"
+msgstr "ZATVORI"
+
+msgid "animations/shop"
+msgstr "Idi na kupovinu"
+
+msgid "battleMattersTab"
+msgstr "Oklopna akademija"
+
+msgid "battleResults/descr"
+msgstr "Tenkovska akademija: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Ka misijama tenkovske akademije"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Napredak u ovoj borbi"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Otkaži"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "ZATVORI"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Potvrdi"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Dobićeš {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} sa posadom i mestom u garaži."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Razmeni svoje žetone akademije za %(vehicleName)s?"
+
+msgid "entryPoint/hint"
+msgstr "SERIJA\nTRENING MISIJA"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Misija je završena:{cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Oklopna akademija"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Nagrada za završetak:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Misije su trenutno nedostupne zbog tehničkih razloga. Tvoj napredak u završavanju misija će biti sačuvan."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Sve misije su kompletirane"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Misije su trenutno nedostupne"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Uslovi:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s.%(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Razmeni žeton za bilo koje izučivo vozilo VI nivoa."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "NAZAD"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "KA MISIJAMA OKLOPNE AKADEMIJE"
+
+msgid "mainRewardsScreen/done"
+msgstr "U garaži"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Pregled"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Dana iznajmljivanja: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Završi seriju trening misija da bi dobio tri premijum vozila VIII nivoa za iznajmljivanje na {cream_Open}14 dana{cream_Close} kao glavnu nagradu."
+
+msgid "mainRewardsScreen/title"
+msgstr "OKLOPNA AKADEMIJA"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Izaberi"
+
+msgid "mainScreen/infoButton"
+msgstr "VODIČ ZA NOVAJLIJE"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "VODIČ"
+
+msgid "mainScreen/list/arrow"
+msgstr "Klikni da odeš na trenutnu misiju."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Glavna nagrada primljena"
+
+msgid "mainScreen/progress"
+msgstr "Završene misije: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Kako da završiš"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Završi prethodnu misiju"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Nedostupno"
+
+msgid "mainScreen/showMainReward"
+msgstr "Pogledaj glavnu nagradu"
+
+msgid "mainScreen/target"
+msgstr "Završi sve misije i dobij tri vozila VIII nivoa za iznajmljivanje."
+
+msgid "mainScreen/title"
+msgstr "OKLOPNA AKADEMIJA"
+
+msgid "pausedScreen/buttonText"
+msgstr "Ka garaži"
+
+msgid "pausedScreen/description"
+msgstr "Oklopna akademija je trenutno nedostupna zbog tehničkih razloga. Sav napredak će biti sačuvan. Izvinjavamo se zbog neprijatnosti."
+
+msgid "pausedScreen/title"
+msgstr "Privremeno nedostupno"
+
+msgid "rewards/additionalTitle"
+msgstr "Takođe si dobio:"
+
+msgid "rewards/footer/confirm"
+msgstr "Razumem!"
+
+msgid "rewards/footer/more"
+msgstr "Još: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Na sledeću misiju"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Pogledaj u garaži"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Uslovi misije su ispunjeni ranije"
+
+msgid "rewards/rent"
+msgstr "Dana iznajmljivanja: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "POSLEDNJA MISIJA JE ZAVRŠENA"
+
+msgid "rewards/subTitle/regular"
+msgstr "MISJA %(questNumber)s ZAVRŠENA"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "VOZILO ZA ŽETON AKADEMIJE JE PRIMLJENO"
+
+msgid "rewards/title"
+msgstr "OKLOPNA AKADEMIJA"
+
+msgid "rewards/token/action"
+msgstr "Izaberi vozilo"
+
+msgid "rewards/token/description"
+msgstr "Iskoristi žeton da odmah dobiješ bilo koje vozilo VI nivoa."
+
+msgid "rewards/token/title"
+msgstr "Razmeni žeton akademije za vozilo"
+
+msgid "tokenTooltip/condition"
+msgstr "Žetoni se dodeljuju za uspešan završetak serije trening misija i učinjen potreban napredak u okviru oklopne akademije."
+
+msgid "tokenTooltip/description"
+msgstr "Žetoni mogu biti razmenjeni za bilo koje izučivo vozilo VI nivoa. Vozilo dolazi sa posadom i mestom u garaži."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Dostupan žeton: {cream_open}%(days)s d{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Žeton dostupan do: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Dostupan žeton: {cream_open}%(hours)s h{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Dostupan žeton: {cream_open}%(minutes)s min{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Žeton akademije"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Dobićeš {cream_Open}%(crewIcon)s posadu{cream_Close} i {cream_Open}%(hangarIcon)s garažno{cream_Close} {cream_Open}mesto{cream_Close} pored tvog vozila."
+
+msgid "vehicleSelection/back"
+msgstr "NAZAD"
+
+msgid "vehicleSelection/backTo"
+msgstr "KA MISIJAMA OKLOPNE AKADEMIJE"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Dodaj na poredjenje"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Podesi prikaz vozila po njihovom tipu i naciji."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Filter po parametrima"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Klik za reset filtera na podrazumevano."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Vrati na podrazumevano"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Nacija"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Filter po parametrima"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Tip vozila"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Ništa nije pronađeno. Promeni svoja podešavanja filtera ili ih poništi na početna podešavanja."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Resetuj filter"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Izučio si sva vozila VI nivoa koja mogu biti razmenjena za žetone akademije."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Nema vozila za odabir"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Pretraži po imenu"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "Ime vozila ne može da sadrži više od %(maxLength)s slova."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Potraži po imenu"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s{par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Prikazano:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Razmeni žeton za bilo koje izučivo vozilo VI nivoa. Vozilo dolazi sa\nposadom i mestom u garaži."
+
+msgid "vehicleSelection/title"
+msgstr "Izaberi bilo koje izučivo vozilo VI nivoa"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Lovac tenkova"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "Artiljerija"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Teški tenk"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Laki tenk"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Srednji tenk"

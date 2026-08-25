@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Gefechte sind auf den Servern in %(primeDelta)s verfügbar."
+
+msgid "alertMessage/allNotSet"
+msgstr "Der Modus ist auf allen Servern nicht verfügbar."
+
+msgid "alertMessage/ban"
+msgstr "Sie sind vorübergehend für diesen Modus gesperrt. Verbleibende Zeit: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Server wechseln"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Details"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Dieser Modus ist auf Ihrem aktuellen Server nicht verfügbar. %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Dieser Modus ist auf allen Servern nicht verfügbar."
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "Sie müssen mindestens %(count)s für den Modus geeignete Fahrzeuge besitzen. Details finden Sie auf der Seite „Über Ansturm“."
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "Nicht genug geeignete Fahrzeuge"
+
+msgid "alertMessage/modeOffline"
+msgstr "Datenbankfehler. Spielmodus nicht verfügbar."
+
+msgid "alertMessage/noVehicles"
+msgstr "Keine passenden Fahrzeuge der Stufe %(levels)s in der Garage. %(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "Gefechte sind auf dem Server %(serverName)s nicht verfügbar."
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Gefechte sind auf dem Server %(serverName)s nicht verfügbar."
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "Nicht genug geeignete Fahrzeuge %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "Dieser Modus ist auf dem Server %(serverName)s nicht verfügbar."
+
+msgid "alertMessage/preannounce/first"
+msgstr "Beginn der Saison des blauen Drachen: %(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "Beginn der Saison des roten Drachen: %(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "Beginn der Saison des grünen Drachen: %(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "Warten auf Qualifikationsergebnisse, um Rang zu erhalten."
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "Die Saison des blauen Drachen ist beendet."
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "Die Saison des roten Drachen ist beendet."
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "Die Saison des grünen Drachen ist beendet."
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Gefechte sind auf diesem Server in %(primeDelta)s verfügbar."
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Dieser Modus ist auf dem Server %(serverName)s nicht verfügbar."
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s T."
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s Std. %(min)s Min."
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 Min."
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s Min."
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Keine passenden Fahrzeuge der Stufe %(levels)s in der Garage"
+
+msgid "awardsWidget/description/award"
+msgstr "Klicken Sie, um Ihre Belohnung auszuwählen und abzuholen."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Die letzten Belohnungen sind vorübergehend nicht verfügbar. Wir bitten für die Unannehmlichkeiten um Entschuldigung."
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "BELOHNUNG\nABHOLEN"
+msgstr[1] "BELOHNUNGEN\nABHOLEN"
+msgstr[2] "BELOHNUNGEN\nABHOLEN"
+
+msgid "banView/actionButtons/confirm"
+msgstr "Abstimmen"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "Sie haben bereits für den %(vehicleName)s abgestimmt."
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "Nicht ausschließen"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "Schlagen Sie ein Fahrzeug zum Ausschließen vor."
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "Sie können nur während der\nPhase der Ausschlussabstimmung abstimmen."
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "Sie schlagen vor:\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "Jemand in Ihrem Team hat das Fahrzeug\nausgewählt, das sie ausschließen möchten."
+
+msgid "banView/actionButtons/description/wait"
+msgstr "Warten Sie, bis die Phase der Ausschlussabstimmung beendet ist."
+
+msgid "banView/button/back"
+msgstr "ZURÜCK"
+
+msgid "banView/button/ban"
+msgstr "Zur Auswahl für den Ausschluss"
+
+msgid "banView/button/description"
+msgstr "ZUR FAHRZEUGAUSWAHL"
+
+msgid "banView/description/prepick"
+msgstr "Wählen Sie das passendste Fahrzeug für diese Karte und Teamaufstellung."
+
+msgid "banView/description/voting"
+msgstr "Wählen Sie ein Fahrzeug, das sie aus diesem Gefecht ausschließen möchten."
+
+msgid "banView/factory/candidate"
+msgstr "Kandidat für den Ausschluss: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "Teamausschlusskandidaten"
+
+msgid "banView/factory/noCandidates"
+msgstr "Kein Kandidat für den Ausschluss"
+
+msgid "banView/factory/pick"
+msgstr "Ihr Kandidat: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "Nicht ausschließen"
+
+msgid "banView/title/prepick"
+msgstr "Phase der Fahrzeug-Vorauswahl"
+
+msgid "banView/title/voting"
+msgstr "Phase der Ausschlussabstimmung"
+
+msgid "banView/tooltip/confirmed"
+msgstr "Abstimmung bestätigt"
+
+msgid "banView/tooltip/noAction"
+msgstr "Keine Aktion getätigt"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "Dieser Spieler hat noch kein Fahrzeug für den Ausschluss vorgeschlagen."
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "Vorgeschlagen"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "Jagdpanzer"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "Schwere Panzer"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "Leichte Panzer"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "Mittlere Panzer"
+
+msgid "banView/withoutBan"
+msgstr "Nicht ausschließen"
+
+msgid "banWidget/allies"
+msgstr "Verbündete Stimmen"
+
+msgid "banWidget/enemies"
+msgstr "Gegnerische Stimmen"
+
+msgid "banWidget/tooltip"
+msgstr "Ihr Team hat sich nicht auf ein Fahrzeug für den Ausschluss geeinigt, also wurde ein zufälliges Fahrzeug unter denen mit den meisten Stimmen ausgeschlossen."
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "Konfigurieren Sie die Fahrzeuganzeige nach Typ, Rolle und Nation."
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "Nach Parametern filtern"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "Hier werden nur Fahrzeuge angezeigt, die für den Modus genutzt werden können."
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "Keine Fahrzeuge entsprechen den gewählten Parametern."
+
+msgid "battleMessages/enableVOIP"
+msgstr "Team zusammengestellt. Wählen Sie Ihr Fahrzeug und auf ins Gefecht!\nTreten Sie dem Sprachchat bei (%(keyName)s)."
+
+msgid "battleMessages/specifyVOIP"
+msgstr "Team zusammengestellt. Wählen Sie Ihr Fahrzeug und auf ins Gefecht!\nWeisen Sie einen Hotkey zu, um dem Sprachchat schnell beizutreten."
+
+msgid "battleMessages/withoutVOIP"
+msgstr "Team zusammengestellt. Wählen Sie Ihr Fahrzeug und auf ins Gefecht!\nUm dem Sprachchat beizutreten, müssen Sie diese Funktion in Ihren Spieleinstellungen aktivieren."
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "Modusdetails (F1)"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "Sichtweite des Fahrzeugs erhöht"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "Besatzungswerte verbessert"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "Strukturpunkte werden wiederhergestellt"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "Strukturpunkte werden wiederhergestellt"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "Besatzungswerte verbessert"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "Besatzungswerte verbessert"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "Nachladegeschwindigkeit erhöht"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "Fahrzeugwerte verbessert"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "Strukturpunkte werden wiederhergestellt"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "Fahrzeugwerte verbessert"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "Fahrzeugwerte verbessert"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "Beweglichkeit verbessert"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "Strukturpunkte werden wiederhergestellt"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "Geschützstreuung verringert"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "Fahrzeugwerte verbessert"
+
+msgid "battleResult/header/deserter"
+msgstr "Sie haben eine Strafe in Wertungspunkten erhalten"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "Sie haben eine Strafe erhalten. Nach Abschluss der Qualifikation werden Ihre Wertungspunkte reduziert."
+
+msgid "battleResult/label/deserter"
+msgstr "Desertieren"
+
+msgid "battleResult/message/deserter"
+msgstr "Sie haben eine Strafe erhalten.\nAbgezogene Wertungspunkte: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "Sie sind vom Schlachtfeld desertiert.\nNach Abschluss der Qualifikation werden Ihre Wertungspunkte reduziert."
+
+msgid "battleResult/message/header/deserter"
+msgstr "Unfaire Spielweise"
+
+msgid "battleResult/personal/label"
+msgstr "Wertungspunkte"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "Zeigen den aktuellen Fortschritt des Spielers im Rangsystem. Wertungspunkte können je nach Erfolg im Modus verdient oder verloren werden."
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• Niederlagen/Unentschieden in Gefechten des Modus\n• Erhalt einer Strafe\n• Inaktivität des Rangs"
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "Wertungspunkte werden abgezogen bei:"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "Wertungspunkte"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "Qualifikationsgefecht"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s – %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "Qualifikation"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "Wertungspunkte erhalten. Um Ihren Rang als Legende zu verteidigen, müssen Sie unter den besten %(topPercentage)d %% der Spieler auf der Bestenliste bleiben."
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "Wertungspunkte erhalten. Um den Rang als Legende zu erhalten, müssen Sie unter den besten %(topPercentage)d %% der Spieler auf der Bestenliste sein."
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "Wertungspunkte erhalten"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "Wertungspunkte verloren. Um Ihren Rang als Legende zu verteidigen, müssen Sie unter den besten %(topPercentage)d %% der Spieler auf der Bestenliste bleiben."
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "Wertungspunkte verloren. Um den Rang als Legende zu erhalten, müssen Sie unter den besten %(topPercentage)d %% der Spieler auf der Bestenliste sein."
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "Wertungspunkte verloren"
+
+msgid "battleResult/subTask/rating"
+msgstr "Wertungspunkte: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "Sie wurden zurückgestuft nach %(division)s, %(rank)s"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "%(rank)s, %(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "Sie wurden befördert nach %(division)s, %(rank)s!"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "Bestrittene Gefechte (Tag): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "Inklusive:"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "Bestrittene Gefechte (Saison): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "Solo/Zug: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "Super-Zug: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "Die Saison des blauen Drachen dauert %(days)d Tag."
+msgstr[1] "Die Saison des blauen Drachen dauert %(days)d Tage."
+msgstr[2] "Die Saison des blauen Drachen dauert %(days)d Tage."
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "Die Saison des roten Drachen dauert %(days)d Tag."
+msgstr[1] "Die Saison des roten Drachen dauert %(days)d Tage."
+msgstr[2] "Die Saison des roten Drachen dauert %(days)d Tage."
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "Die Saison des grünen Drachen dauert %(days)d Tag."
+msgstr[1] "Die Saison des grünen Drachen dauert %(days)d Tage."
+msgstr[2] "Die Saison des grünen Drachen dauert %(days)d Tage."
+
+msgid "calendarDay/title"
+msgstr "Zeitplan"
+
+msgid "carousel/banned"
+msgstr "Ausgeschlossen"
+
+msgid "claimRewards/button"
+msgstr "Belohnung abholen"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "Dieser Vorgang ist vorübergehend aus technischen Gründen nicht verfügbar. Wir arbeiten daran."
+
+msgid "closeButtonLabel"
+msgstr "SCHLIESSEN"
+
+msgid "controls/compare"
+msgstr "Zum Vergleich hinzufügen"
+
+msgid "controls/preview"
+msgstr "Vorschau"
+
+msgid "countDown/text"
+msgstr "Event beginnt in:\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1 Min."
+
+msgid "crewMembersTooltip/description"
+msgstr "Diese besondere Besatzung kommt aus aller Welt, vereint unter der Führung ihres Kommandanten. Sie haben alle „Waffenbrüder“ als Null-Vorteil und genug Besatzungs-EP für zwei weitere Vorteile, mit denen sie die Leistung ihres Fahrzeugs verbessern. Und nicht zuletzt bringen sie ihre ganz persönliche Note mit aufs Schlachtfeld."
+
+msgid "crewMembersTooltip/perks"
+msgstr "Vorteile"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "Ansturm: Jahr des Drachen"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "Null-Vorteile"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "Mittlerer Schaden (Tag): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "Verhältnis des gesamten verursachten Schadens zur Anzahl bestrittener Gefechte."
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "Mittlerer Schaden (Saison): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "Tagesrekord für Schaden: %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "Maximaler im Gefecht verursachter Schaden im Fahrzeug: %(vehicleName)s."
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "Saisonrekord für Schaden: %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "–"
+
+msgid "dataError/description"
+msgstr "Wir bedauern die Unannehmlichkeiten. Versuchen Sie bitte später erneut, die Seite zu aktualisieren."
+
+msgid "dataError/title"
+msgstr "Fehler beim Laden der Daten"
+
+msgid "dayTooltip/day"
+msgstr "Tag %(index)s"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "Tag %(index)s: Keine Gefechte bestritten."
+
+msgid "dayTooltip/noBattles"
+msgstr "Si vis pacem, para bellum."
+
+msgid "dayTooltip/rankInactivity"
+msgstr "Ranginaktivität: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)s Wertungspunkt"
+msgstr[1] "%(pointsCount)s Wertungspunkte"
+msgstr[2] "%(pointsCount)s Wertungspunkte"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "Änderung an Wertungspunkten: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "Tag %(index)s (heute)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "Tag %(index)s: Heute noch keine Gefechte bestritten."
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "Division"
+
+msgid "division/text"
+msgstr "Division %(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "Diese Division ist für Spieler mit {eeede9e6_Open}%(fromScore)&nbsp;bis&nbsp;%(toScore){eeede9e6_Close}&nbsp;Wertungspunkten."
+
+msgid "divisionTooltip/heading"
+msgstr "Division %(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "Wertungspunkte"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "Gespielte Gefechte"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)sErgebnisse treffen ein ..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)sErgebnisse treffen ein"
+
+msgid "entryPointTooltip/description"
+msgstr "Ein wettbewerbsorientierter Modus mit 7v7-Gefechten in Fahrzeugen der Stufe %(levels)s. Steigen Sie im Rang auf und verdienen Sie sich einzigartige Anpassungselemente, Fahrzeuge, Anleihen und andere wertvolle Belohnungen."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MODUS"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s – Spielmodus. Zum Erforschen klicken."
+
+msgid "entryPointTooltip/status/active"
+msgstr "Verfügbar für %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Waffenruhe für %(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "Verfügbar in:\n%(timer)s"
+
+msgid "featureName"
+msgstr "Ansturm"
+
+msgid "featureNameCapitalized"
+msgstr "ANSTURM"
+
+msgid "fifthRankTooltip/description"
+msgstr "Der Rang {eeede9e6_Open}Meister{eeede9e6_Close} wird Spielern verliehen, die mindestens {eeede9e6_Open}%(fromScore){eeede9e6_Close} Wertungspunkte verdient haben."
+
+msgid "forVehicle"
+msgstr "Für: %(vehicleName)s"
+
+msgid "generalRankTooltip/body/first"
+msgstr "Der Rang {eeede9e6_Open}Eisen{eeede9e6_Close} wird Spielern verliehen, die {eeede9e6_Open}%(fromScore) bis %(toScore){eeede9e6_Close} Wertungspunkte verdient haben."
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "Der Rang {eeede9e6_Open}Gold{eeede9e6_Close} wird Spielern verliehen, die {eeede9e6_Open}%(fromScore) bis %(toScore){eeede9e6_Close} Wertungspunkte verdient haben."
+
+msgid "generalRankTooltip/body/second"
+msgstr "Der Rang {eeede9e6_Open}Bronze{eeede9e6_Close} wird Spielern verliehen, die {eeede9e6_Open}%(fromScore) bis %(toScore){eeede9e6_Close} Wertungspunkte verdient haben."
+
+msgid "generalRankTooltip/body/third"
+msgstr "Der Rang {eeede9e6_Open}Silber{eeede9e6_Close} wird Spielern verliehen, die {eeede9e6_Open}%(fromScore) bis %(toScore){eeede9e6_Close} Wertungspunkte verdient haben."
+
+msgid "generalRankTooltip/subheading"
+msgstr "Umfasst Divisionen: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "INFOS ZUM EVENT"
+
+msgid "intro/confirmButton"
+msgstr "Verstanden!"
+
+msgid "intro/description/banPhase"
+msgstr "Jedes Team kann ein Fahrzeug komplett vom Gefecht ausschließen. Koordinieren Sie die Abstimmung mit Ihren Verbündeten, um das bedrohlichste Fahrzeug auszuschließen oder eine unerwartete Aufstellung für Ihre Gegner vorzubereiten. Wenn Ihr Fahrzeug ausgeschlossen wird, können Sie stattdessen aus mehreren Mietfahrzeugen mit Vorausstattung wählen."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "In diesem Modus gibt es Modifikatoren, die bestimmte Werte des Fahrzeugs ändern, darunter die Strukturpunkte des Fahrzeugs, die Abklingzeit für Verbrauchsmaterial, die Zeit, die das Fahrzeug sichtbar bleibt und mehr."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Auf der Karte finden Sie bestimmte Bereiche, die Ihnen bei Einnahme taktische Fertigkeiten verleihen. Es gibt zwei Arten dieser Sonderziele: Die Artilleriezentrale erlaubt es Ihnen, einen Artillerieschlag auf eine bestimmte Position auszulösen. Die Kommunikationszentrale klärt alle gegnerischen Fahrzeuge auf. Je nach Karte können diese Sonderziele vorhanden sein oder nicht, und sich an unterschiedlichen Stellen befinden."
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "Bestreiten Sie %(count)s Qualifikationsgefecht, um Ihren Rang und Ihr Können zu bestimmen. Nach dem Abschluss erhalten Sie die Belohnung für den erreichten Rang sowie alle vorangehenden Ränge.\n\nDesertieren oder Unentschieden werden in der Qualifikation als Niederlage gewertet."
+msgstr[1] "Bestreiten Sie %(count)s Qualifikationsgefechte, um Ihren Rang und Ihr Können zu bestimmen. Nach dem Abschluss erhalten Sie die Belohnung für den erreichten Rang sowie alle vorangehenden Ränge.\n\nDesertieren oder Unentschieden werden in der Qualifikation als Niederlage gewertet."
+msgstr[2] "Bestreiten Sie %(count)s Qualifikationsgefechte, um Ihren Rang und Ihr Können zu bestimmen. Nach dem Abschluss erhalten Sie die Belohnung für den erreichten Rang sowie alle vorangehenden Ränge.\n\nDesertieren oder Unentschieden werden in der Qualifikation als Niederlage gewertet."
+
+msgid "intro/description/ranks"
+msgstr "Ein System, welches das Können der Spieler widerspiegelt. Sie schreiten von Eisen bis Legende durch die Ränge voran und verdienen dabei wertvolle Belohnungen. Kämpfen Sie das ganze Jahr des Drachen und holen Sie sich einzigartige Jahresbelohnungen."
+
+msgid "intro/description/roleSkills"
+msgstr "Jedes Fahrzeug besitzt eine seiner Rolle entsprechende besondere Fertigkeit mit drei Ladungsstufen. Je höher die Ladungsstufe bei Aktivierung der Fertigkeit ist, desto stärker wird der Effekt sein. Die Ladungsstufe hängt von der Anzahl Prestigepunkte ab. Diese können für beeindruckende Leistung im Gefecht erhalten werden, für das Einnehmen von Sonderzielen, für den Einsatz von taktischen Fertigkeiten und dergleichen mehr.\n\nLesen Sie sich die Bestimmungen des Modus durch, um mehr über die verschiedenen Wege zu erfahren, über die Sie Prestigepunkte verdienen können."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Sie können Gefechte in erforschbaren Fahrzeugen der Stufe %(levels)s (ausgenommen Selbstfahrlafetten) sowie in Sammlerfahrzeugen und einigen Spezialfahrzeugen bestreiten. Bereiten Sie die Fahrzeuge in der Garage vor und wählen Sie das beste Fahrzeug entsprechend der jeweiligen Karte, sobald Sie ins Gefecht ziehen. Bei der Auswahl Ihres Fahrzeugs sollten Sie auch bedenken, welche Fahrzeuge Ihre Verbündeten gewählt haben."
+
+msgid "intro/title/banPhase"
+msgstr "AUSSCHLUSS VON FAHRZEUGEN"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "ANSTURM-MODIFIKATOREN"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "SONDERZIELE"
+
+msgid "intro/title/qualification"
+msgstr "QUALIFIKATION"
+
+msgid "intro/title/ranks"
+msgstr "RANGSYSTEM"
+
+msgid "intro/title/roleSkills"
+msgstr "ROLLENFERTIGKEITEN"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "WÄHLEN SIE EIN FAHRZEUG FÜR EINE BESTIMMTE KARTE"
+
+msgid "lastUpdateNote/info"
+msgstr "Aktualisiert: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "Die Wertungspunkte des Spielers auf der untersten Position im Rang „Legende“\nwerden alle %(count)s Minuten aktualisiert."
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "Aktualisiere Daten …"
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "Die Bestenliste wird alle %(count)s Minuten aktualisiert."
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "Letzte Aktualisierung: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "Meine Position"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "Erreichen Sie den Rang „Meister“ oder „Legende“, um auf die Bestenliste zu gelangen."
+
+msgid "leaderboard/error/buttonText"
+msgstr "Aktualisieren"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "Spieler auf den Rängen „Meister“ und „Legende“ sind auf der Bestenliste vertreten. Verdienen Sie {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close} Wertungspunkte und erreichen Sie die Spitze der Bestenliste!"
+
+msgid "leaderboard/noRecords/title"
+msgstr "Für die aktuelle Saison gibt es keine Spieler auf der Bestenliste."
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "Gefechte"
+
+msgid "leaderboard/table/header/order"
+msgstr "Nr."
+
+msgid "leaderboard/table/header/player"
+msgstr "Spielername"
+
+msgid "leaderboard/table/header/score"
+msgstr "Wertungspunkte"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "Die Anzahl Gefechte, die der Spieler während der aktuellen Saison im Modus „Ansturm“ bestritten hat."
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "Gefechte"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "Die Position des Spielers in der Wertung."
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "Position"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "Der Name des Spielers mit einer Wertungsposition."
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "Spielername"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "Die Anzahl Wertungspunkte, die in der aktuellen Saison verdient wurden."
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "Wertungspunkte"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Spieler im Zug"
+
+msgid "noVehicles/howTo/premium"
+msgstr "WoT-Premiumkonto nutzen"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Persönliche Reserven aktivieren"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Aufträge abschließen"
+
+msgid "noVehicles/howTo/title"
+msgstr "Wie kann man am schnellsten Fahrzeuge der Stufe %(levels)s erhalten?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Um bei Ansturm teilzunehmen, müssen Sie mindestens ein Fahrzeug der Stufe %(levels)s in der Garage haben, das für den Modus geeignet ist.\nSie haben ein Fahrzeug der Stufe %(levels)s erforscht, nur noch nicht erhalten."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Um bei Ansturm teilzunehmen, müssen Sie mindestens ein Fahrzeug der Stufe %(levels)s in der Garage haben, das für den Modus geeignet ist.\nSie haben ein Fahrzeug der Stufe %(levels)s, das wiederhergestellt werden kann."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Um bei Ansturm teilzunehmen, müssen Sie mindestens ein Fahrzeug der Stufe %(levels)s in der Garage haben, das für den Modus geeignet ist."
+
+msgid "noVehicles/title"
+msgstr "Keine geeigneten Fahrzeuge in der Garage"
+
+msgid "page/heading/leaderboard"
+msgstr "BESTENLISTE"
+
+msgid "page/heading/progression"
+msgstr "RANGSYSTEM"
+
+msgid "page/heading/qualification"
+msgstr "QUALIFIKATION"
+
+msgid "page/heading/rankRewards"
+msgstr "BELOHNUNGEN FÜR RÄNGE"
+
+msgid "page/heading/shop"
+msgstr "ANSTURM-LADEN"
+
+msgid "page/heading/weeklyQuests"
+msgstr "WOCHENAUFTRÄGE"
+
+msgid "page/heading/yearlyRewards"
+msgstr "JAHRESBELOHNUNGEN"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "JAHRESSTATISTIKEN"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "Vorwärts"
+
+msgid "pagination/prev"
+msgstr "Zurück"
+
+msgid "pbs/bans/title"
+msgstr "AUSGESCHLOSSENE FAHRZEUGE"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "2D-STIL VON ANSTURM"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "AUFTRAG FÜR 2D-STIL ABGESCHLOSSEN!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "WOCHENAUFTRAG #%(count)s ABGESCHLOSSEN!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "WOCHENAUFTRAG ABGESCHLOSSEN!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "WÖCHENTLICHER ANSTURM"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "NIEDERLAGE, DENN SIE SIND"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "UNENTSCHIEDEN, DENN SIE SIND"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "SIEG, DOCH SIE SIND"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "Aufstieg zu %(rank)s"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "Abstieg zu %(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "Aufstieg zu %(rank)s, %(division)s"
+
+msgid "pbs/overview/qualification/description"
+msgstr "Gespielte Gefechte"
+
+msgid "pbs/overview/qualification/title"
+msgstr "Qualifikation"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "Sie haben eine Disziplinarstrafe erhalten: Abzug von Wertungspunkten."
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "Sie haben eine Disziplinarstrafe erhalten: Nach Abschluss der Qualifikation wird Ihre Wertung verringert."
+
+msgid "pbs/rankDescription/fifth"
+msgstr "Um den Rang „Legende“ zu erreichen, müssen Sie unter den {ede6d9e5_Open}besten %(topPercentage)%{ede6d9e5_Close} der Spieler auf der Bestenliste sein."
+
+msgid "pbs/rankDescription/sixth"
+msgstr "Um den Rang „Legende“ beizubehalten, müssen Sie unter den {ede6d9e5_Open}besten %(topPercentage)%{ede6d9e5_Close} der Spieler auf der Bestenliste sein."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Details finden Sie auf der Seite „Über Ansturm“."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Prestigepunkte"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Schaden verursachen\nUnterstützung durch Aufklärung\nKetten zerstören\nKritische Treffer verursachen\nGegnerfahrzeuge zerstören\nUnd mehr"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Diese besondere Ressource beeinflusst die Anzahl im Gefecht verdienter und verlorener Wertungspunkte. Prestigepunkte können durch Kampfaktionen verdient werden, darunter:"
+
+msgid "percentage"
+msgstr "%(percentageValue)s %"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "Mittlere Prestigepunkte (Tag): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "Verhältnis der gesamten verdienten Prestigepunkte zur Anzahl bestrittener Gefechte."
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "Mittlere Prestigepunkte (Saison): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "Tagesrekord für Prestigepunkte: %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "Maximale im Gefecht verdiente Prestigepunkte im Fahrzeug: %(vehicleName)s."
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "Saisonrekord für Prestigepunkte: %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Die Saison des blauen Drachen auf dem Server %(server)s ist beendet."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Die Saison des roten Drachen auf dem Server %(server)s ist beendet."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Die Saison des grünen Drachen auf dem Server %(server)s ist beendet."
+
+msgid "products/actions/buy"
+msgstr "Kaufen"
+
+msgid "products/actions/restore"
+msgstr "Zum Lager"
+
+msgid "products/actions/toCustomization"
+msgstr "Zum Stil"
+
+msgid "products/actions/toHangar"
+msgstr "In der Garage anzeigen"
+
+msgid "products/customizationUnavailable/body"
+msgstr "Konnte nicht zu Stil gehen. Dies kann passieren, weil: Sie das Fahrzeug nicht besitzen; das Fahrzeug sich in einer Formation befindet; das Fahrzeug sich im Gefecht befindet; oder Reparatur erforderlich ist."
+
+msgid "products/customizationUnavailable/title"
+msgstr "Nicht verfügbar"
+
+msgid "products/discount"
+msgstr "-%(discountPercentage)s %"
+
+msgid "products/discountDescription"
+msgstr "Bis zum Beginn der nächsten Saison haben Sie Zugang zu Gegenständen und einem Rabatt. Die genaue Höhe hängt von Ihrem {eeede9e6_Open}höchsten{eeede9e6_Close} {eeede9e6_Open}erreichten{eeede9e6_Close} {eeede9e6_Open}Rang{eeede9e6_Close} ab."
+
+msgid "products/discountSectionName"
+msgstr "ZUGANGSBEDINGUNGEN UND RABATTE"
+
+msgid "products/inProgress"
+msgstr "Bitte warten, Ihr Kauf wird verarbeitet ..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "Pro Saison zum Kauf verfügbar: %(count)s"
+
+msgid "products/message/notEnough"
+msgstr "Nicht genug Guthaben zum Kauf."
+
+msgid "products/message/rankAccess"
+msgstr "Kaufanforderungen\n%(rank)s"
+
+msgid "products/newLabel"
+msgstr "NEU"
+
+msgid "products/priceSectionName"
+msgstr "PREIS"
+
+msgid "products/productAccess"
+msgstr "Zugangs-\nrang"
+
+msgid "products/purchased"
+msgstr "Gekauft"
+
+msgid "products/rankAccess"
+msgstr "Zugangsrang: %(rank)s"
+
+msgid "products/readyToRestore"
+msgstr "Wiederherstellen verfügbar"
+
+msgid "products/readyToRestoreDescription"
+msgstr "Zum Wiederherstellen im Lager verfügbar"
+
+msgid "products/style3d"
+msgstr "3D-Stil %(name)s"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "ZURÜCK ZU DEN SAISONSTATISTIKEN"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "SAISONSTATISTIK"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "STATISTIK FÜR TAG %(day)s"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "HEUTIGE STATISTIK"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "Jede Spalte zeigt Daten für den Zeitraum zwischen der Prime Time des gewählten Tages und der Prime Time des folgenden Tages. In einigen Fällen kann dieser Wert Gefechte von zwei Kalendertagen enthalten."
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "Jede Spalte zeigt Daten für den Zeitraum zwischen der Prime Time des gewählten Tages und der Prime Time des folgenden Tages. In einigen Fällen kann dieser Wert Gefechte von zwei Kalendertagen enthalten."
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "Dieser Abschnitt wird nur aktualisiert, wenn neue Daten verfügbar sind. Sie können die Aktualisierung anfordern, indem Sie auf die Schaltfläche „Aktualisieren“ klicken."
+
+msgid "progressionPage/chartHeader/update"
+msgstr "Aktualisiert: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "Glückwunsch!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "Sie haben alle Aufträge für 2D-Stile abgeschlossen."
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s / %(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "Eine Reihe Aufträge, um neue Elemente für den progressiven 2D-Stil der aktuellen Saison freizuschalten."
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "AUFTRAG FÜR 2D-STIL: %(taskNumber)s"
+msgstr[1] "AUFTRÄGE FÜR 2D-STIL: %(taskNumber)s"
+msgstr[2] "AUFTRÄGE FÜR 2D-STIL: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "AUFTRÄGE FÜR 2D-STIL"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "Zum Stil"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "Alle Stile, die derzeit nicht verfügbaren Fahrzeugen zugewiesen sind"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "Keine verfügbaren Fahrzeuge, auf die der Stil angewandt werden kann"
+
+msgid "progressionPage/error/refresh"
+msgstr "Aktualisieren"
+
+msgid "progressionPage/error/refreshing"
+msgstr "Wird aktualisiert ..."
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "Mittlerer Schaden"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "Mittlere Prestigepunkte"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "Änderung der Wertung: %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "Der Rekord wurde an %(seasonRecordDescriptionDay)s erreicht."
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "Tag %(day)s"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "Zur gesamten Statistik"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "Umfasst:\n• Schaden durch Ihre Aufklärung (einschließlich Schaden mithilfe von Fertigkeiten)\n• Ermöglichten Schaden durch von Ihnen zerstörte Ketten an gegnerischen Fahrzeugen (einschließlich Schaden mithilfe von Fertigkeiten)\n• Schaden von Verbündeten, der durch Ihre Fertigkeiten ermöglicht wurde\n• Schaden von Verbündeten, der gegen betäubte Gegner verursacht wird (einschließlich Betäubung durch Fertigkeiten)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "Gesamtzahl bestrittener Gefechte"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "Verhältnis des gesamten verursachten Schadens zur Anzahl bestrittener Gefechte"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "Verhältnis zerstörter gegnerischer Fahrzeuge zur Anzahl eigener Zerstörungen"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "Verhältnis von verursachtem Schaden zu erlittenem Schaden"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "Verhältnis der gesamten verdienten Prestigepunkte zur Anzahl bestrittener Gefechte"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "Fahrzeuge mit den meisten bestrittenen Gefechten"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "Siegrate insgesamt"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "Mittlerer ermöglichter Schaden"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "Gefechte"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "Mittlerer verursachter Schaden"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "Abschussverhältnis"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "Schadensverhältnis"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "Mittlere Prestigepunkte pro Gefecht"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "Fahrzeugname"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "Siege"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "FAHRZEUGSTATISTIKEN"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s-%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "Tage, bis die Wertung sinkt: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "Wenn Sie nicht im Modus „Ansturm“ spielen, werden Sie {eeede9e6_Open}%(count)s{eeede9e6_Close} Wertungspunkt verlieren."
+msgstr[1] "Wenn Sie nicht im Modus „Ansturm“ spielen, werden Sie {eeede9e6_Open}%(count)s{eeede9e6_Close} Wertungspunkte verlieren."
+msgstr[2] "Wenn Sie nicht im Modus „Ansturm“ spielen, werden Sie {eeede9e6_Open}%(count)s{eeede9e6_Close} Wertungspunkte verlieren."
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(1&nbsp;Gefecht&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;Aktivitätspunkt)"
+msgstr[1] "(1&nbsp;Gefecht&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;Aktivitätspunkte)"
+msgstr[2] "(1&nbsp;Gefecht&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;Aktivitätspunkte)"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "Auf Ihrem aktuellen Rang verlieren Sie keine Wertungspunkte, wenn Sie keine weiteren Gefechte im Modus spielen. Auf den folgenden Rängen können Sie Wertungspunkte verlieren: %(rankList)s"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "Ihr Rang kann durch Inaktivität beeinflusst werden."
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "Ihr Rang wird nicht durch Inaktivität beeinflusst."
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "Rang"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "Beste %(topPercentage)s % der Spieler auf der Bestenliste"
+
+msgid "progressionTooltip/division"
+msgstr "Division %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "Diese Division ist für Spieler mit {eeede9e6_Open}%(fromScore) bis %(toScore){eeede9e6_Close} Wertungspunkten."
+
+msgid "progressionTooltip/info/fifth"
+msgstr "Der Rang Meister wird Spielern verliehen, die mindestens {eeede9e6_Open}%(fromScore){eeede9e6_Close} Wertungspunkte verdient haben."
+
+msgid "progressionTooltip/info/sixth"
+msgstr "Der Rang Legende wird den {eeede9e6_Open}besten %(topPercentage)%{eeede9e6_Close} der Spieler auf der Bestenliste verliehen."
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "Bestreiten Sie %(maxBattlesCount)s Gefecht im Modus, um Ihr Können und Ihren Rang zu bestimmen."
+msgstr[1] "Bestreiten Sie %(maxBattlesCount)s Gefechte im Modus, um Ihr Können und Ihren Rang zu bestimmen."
+msgstr[2] "Bestreiten Sie %(maxBattlesCount)s Gefechte im Modus, um Ihr Können und Ihren Rang zu bestimmen."
+
+msgid "progressionTooltip/qualificationName"
+msgstr "Spezialisierung"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "Tage, bis die Wertung sinkt: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "Wenn Sie nicht im Modus „Ansturm“ spielen, werden Sie {eeede9e6_Open}%(count)s{eeede9e6_Close} Wertungspunkt verlieren."
+msgstr[1] "Wenn Sie nicht im Modus „Ansturm“ spielen, werden Sie {eeede9e6_Open}%(count)s{eeede9e6_Close} Wertungspunkte verlieren."
+msgstr[2] "Wenn Sie nicht im Modus „Ansturm“ spielen, werden Sie {eeede9e6_Open}%(count)s{eeede9e6_Close} Wertungspunkte verlieren."
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s Ihr Rang kann durch Inaktivität beeinflusst werden."
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "Spielen Sie bis zum Ende des Tages, um Ihren Rang beizubehalten."
+
+msgid "progressionTooltip/ratingScore"
+msgstr "Wertungspunkte"
+
+msgid "purchase/affirmative"
+msgstr "Verstanden!"
+
+msgid "purchase/cancelButton"
+msgstr "Zurück"
+
+msgid "purchase/confirmButton"
+msgstr "Kaufen"
+
+msgid "purchase/error/description"
+msgstr "Kauf kann nicht abgeschlossen werden. Versuchen Sie es später noch einmal."
+
+msgid "purchase/error/title"
+msgstr "Fehler"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)sSie haben kein geeignetes Fahrzeug für diesen Stil in Ihrer Garage."
+
+msgid "purchase/price"
+msgstr "Kaufpreis:"
+
+msgid "purchase/success/heading"
+msgstr "Vielen Dank für Ihren Einkauf!"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)sDer Einkauf wird Ihrem Spielkonto in Kürze gutgeschrieben."
+
+msgid "purchase/success/style3d"
+msgstr "3D-Stil %(name)s für %(vehicleName)s"
+
+msgid "purchase/title/style3d"
+msgstr "3D-Stil %(name)s kaufen?"
+
+msgid "purchase/title/vehicle"
+msgstr "„%(name)s“ kaufen?"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "Bestreiten Sie {eeede9_Open}%(maxBattlesCount)s Gefecht{eeede9_Close} im Modus, um Ihr Können und Ihren Rang zu bestimmen."
+msgstr[1] "Bestreiten Sie {eeede9_Open}%(maxBattlesCount)s Gefechte{eeede9_Close} im Modus, um Ihr Können und Ihren Rang zu bestimmen."
+msgstr[2] "Bestreiten Sie {eeede9_Open}%(maxBattlesCount)s Gefechte{eeede9_Close} im Modus, um Ihr Können und Ihren Rang zu bestimmen."
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "Bestreiten Sie %(maxBattlesCount)s Gefecht und warten Sie auf die Berechnung der Wertung, um die Qualifikation abzuschließen. Ihre Gefechtsleistung in der Qualifikation bestimmt den endgültigen Rang, den Sie erhalten.\nDesertieren in der Qualifikation führt zu einem schlechteren Ergebnis als selbst die schlimmste Niederlage."
+msgstr[1] "Bestreiten Sie %(maxBattlesCount)s Gefechte und warten Sie auf die Berechnung der Wertung, um die Qualifikation abzuschließen. Ihre Gefechtsleistung in der Qualifikation bestimmt den endgültigen Rang, den Sie erhalten.\nDesertieren in der Qualifikation führt zu einem schlechteren Ergebnis als selbst die schlimmste Niederlage."
+msgstr[2] "Bestreiten Sie %(maxBattlesCount)s Gefechte und warten Sie auf die Berechnung der Wertung, um die Qualifikation abzuschließen. Ihre Gefechtsleistung in der Qualifikation bestimmt den endgültigen Rang, den Sie erhalten.\nDesertieren in der Qualifikation führt zu einem schlechteren Ergebnis als selbst die schlimmste Niederlage."
+
+msgid "qualification/conditionTooltip/header"
+msgstr "Qualifikationsregeln"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "Gespielte Gefechte"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s Warten auf Qualifikationsergebnisse, um Rang zu erhalten."
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "Es kann bis zu fünf Minuten dauern, bis die Wertung anhand der Qualifikationsergebnisse berechnet wurde. Danach erhalten Sie einen Rang und können weiter Ansturm spielen."
+
+msgid "qualification/rewardsButton"
+msgstr "Zu den Belohnungen"
+
+msgid "qualification/rewardsDescription"
+msgstr "Nach Abschluss der Qualifikation erhalten Sie die Belohnung für den Rang, den Sie erreicht haben, und alle vorangehenden Ränge."
+
+msgid "quotesWrapper"
+msgstr "„%(name)s“"
+
+msgid "rank/achieved"
+msgstr "Erreicht"
+
+msgid "rank/current"
+msgstr "Aktuell"
+
+msgid "rank/fifth"
+msgstr "Meister"
+
+msgid "rank/first"
+msgstr "Eisen"
+
+msgid "rank/fourth"
+msgstr "Gold"
+
+msgid "rank/qualification"
+msgstr "Qualifikation"
+
+msgid "rank/second"
+msgstr "Bronze"
+
+msgid "rank/sixth"
+msgstr "Legende"
+
+msgid "rank/text"
+msgstr "Rang „%(rank)s“"
+
+msgid "rank/third"
+msgstr "Silber"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "Spielerrang"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "Zugkameraden-Rang"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "Züge können nur aus Spielern mit ähnlicher Rangstufe bestehen."
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "Rangeinschränkungen für Züge mit %(count)s Spielern"
+
+msgid "rankInactivityTooltip/description"
+msgstr "Wenn Sie nicht in diesem Modus spielen, werden Sie Wertungspunkte verlieren."
+
+msgid "rankInactivityTooltip/heading"
+msgstr "Rang-Inaktivität"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "Tage, bis Ihre Wertung sinkt: %(count)s"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "Tägliche Wertung"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "Änderung an Wertungspunkten: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "Differenz in Wertungspunkten zwischen dem gewählten Tag und dem vorherigen Tag."
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "Tagesrekord für Wertung: %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "Maximale Wertung, die am gewählten Tag erreicht wurde."
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "Tag %(day)s"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "Der Wertungsrekord der Saison wurde an %(dayOfRecord)s erreicht."
+
+msgid "rankInfo/current/fifth"
+msgstr "Der Rang Meister wird Spielern verliehen, die mindestens {eeede9e6_Open}%(fromScore){eeede9e6_Close} Wertungspunkte verdient haben."
+
+msgid "rankInfo/current/sixth"
+msgstr "Der Rang Legende wird den {eeede9e6_Open}besten %(topPercentage)%{eeede9e6_Close} der Spieler auf der Bestenliste verliehen."
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "Um den Rang Legende zu erreichen, müssen Sie unter den {eeede9e6_Open}besten %(topPercentage)%{eeede9e6_Close} der Spieler auf der Bestenliste nach Wertungspunkten sein."
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "Um den Rang Legende zu halten, müssen Sie unter den {eeede9e6_Open}besten %(topPercentage)%{eeede9e6_Close} der Spieler auf der Bestenliste nach Wertungspunkten bleiben."
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "Um den Rang Legende zu erreichen, müssen Sie unter den {eeede9e6_Open}besten %(topPercentage)%{eeede9e6_Close} der Spieler auf der Bestenliste nach Wertungspunkten sein. Wertungspunkte des Spielers auf der untersten Position im&nbsp;Rang&nbsp;Legende: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "Um den Rang Legende zu halten, müssen Sie unter den {eeede9e6_Open}besten %(topPercentage)%{eeede9e6_Close} der Spieler auf der Bestenliste nach Wertungspunkten bleiben. Wertungspunkte des Spielers auf der untersten Position im&nbsp;Rang&nbsp;Legende: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankUpper/fifth"
+msgstr "MEISTER"
+
+msgid "rankUpper/first"
+msgstr "EISEN"
+
+msgid "rankUpper/fourth"
+msgstr "GOLD"
+
+msgid "rankUpper/second"
+msgstr "BRONZE"
+
+msgid "rankUpper/sixth"
+msgstr "LEGENDE"
+
+msgid "rankUpper/text"
+msgstr "RANG %(rank)s"
+
+msgid "rankUpper/third"
+msgstr "SILBER"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "Sie können ein Teil verbessertes Zubehör aus der folgenden Liste auswählen:\n\n• Gedämpfte Abgasanlage\n• Innovative Zielführung\n• Verbessertes Vorgelege\n• Verbesserter Kompressor\n• Gesteigerte Beschussfestigkeit\n• Verbesserte Konfiguration\n• Experimentelle Optik\n• Innovatives Ladesystem\n• Lüftungssystem\n• Verschleißfester Richtantrieb\n• Stabilisierungssystem\n• Teleskopsichtsystem\n• Taktisches Tarnnetz"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "Sie können ein Teil experimentelles Zubehör aus der folgenden Liste auswählen:\n\n• Feuerleitsystem VS3\n• Maßnahmen zur Überlebensfähigkeit VS3\n• System zur Verbesserung der Beweglichkeit VS3\n• System zur Verbesserung der Genauigkeit VS3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "Tarnmuster „%(name)s“"
+
+msgid "rewards/preview"
+msgstr "Vorschau"
+
+msgid "rewards/status/achieved"
+msgstr "Belohnung erhalten"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}Für Fahrzeuge der Stufe %(vehicleLevel)s{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}Für den Stil „%(progressionStyleName)s“{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "Stufe %(vehicleLevel)s"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "Sie erhielten außerdem:"
+
+msgid "rewardsScreen/button"
+msgstr "Verstanden!"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "Zu den Belohnungen"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "Belohnung auswählen"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "Zum Kauf"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "ANSTURM – QUALIFIKATION ABGESCHLOSSEN"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "ANSTURM: SAISON DES BLAUEN DRACHEN"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "ANSTURM: SAISON DES ROTEN DRACHEN"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "ANSTURM: SAISON DES GRÜNEN DRACHEN"
+
+msgid "rewardsScreen/description/year"
+msgstr "ANSTURM: JAHR DES DRACHEN"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "Wo ist mein Ashbringer?!"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "Kein Rang"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "Wenn Sie nach Erreichen dieses Ranges keine weiteren Gefechte im Modus „Ansturm“ bestreiten, können Sie Wertungspunkte verlieren."
+
+msgid "rewardsScreen/notice/title"
+msgstr "Rang-Inaktivität"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "Gesamte\nAnsturmfarben"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "Zubehör auswählen"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "Belohnungen auswählen"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "Im Ansturm-Laden sind neue Rabatte verfügbar!"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "Im Ansturm-Laden sind neue Gegenstände verfügbar!"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "Bis zum Beginn der nächsten Saison haben Sie Zugang zu Gegenständen und einem Rabatt. Die genaue Höhe hängt von Ihrem höchsten erreichten Rang ab."
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "Bis zum Beginn der nächsten Saison haben Sie Zugang zu Gegenständen und einem Rabatt. Die genaue Höhe hängt von Ihrem höchsten erreichten Rang ab."
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}Rang „%(rank)s“{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "Gemäß den Qualifikationsergebnissen haben Sie Belohnungen für die folgenden Ränge erhalten: {ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr ", "
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "Sie haben Belohnungen für Ihren Aufstieg auf Rang {ffe4c0_Open}„%(rank)s“{ffe4c0_Close} erhalten."
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "Belohnung für den Abschluss von {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} Wochenauftrag"
+msgstr[1] "Belohnung für den Abschluss von {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} Wochenaufträgen"
+msgstr[2] "Belohnung für den Abschluss von {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} Wochenaufträgen"
+
+msgid "rewardsScreen/title/division"
+msgstr "DIVISION %(division)s ERREICHT"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "RANG {ffe4c0_Open}„%(rankUpperName)s“{ffe4c0_Close} ERREICHT"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "BELOHNUNG FÜR ERZIELTE RÄNGE"
+
+msgid "rewardsScreen/title/rank"
+msgstr "RANG {ffe4c0_Open}„%(rankUpperName)s“{ffe4c0_Close} ERREICHT"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "BELOHNUNG FÜR NEUEN RANG"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "BELOHNUNG ERHALTEN"
+msgstr[1] "BELOHNUNGEN ERHALTEN"
+msgstr[2] "BELOHNUNGEN ERHALTEN"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "BELOHNUNGEN FÜR WOCHENAUFTRÄGE"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "JAHRESBELOHNUNGEN"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "Kommt mit:"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "ANSTURM"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "BELOHNUNG AUSWÄHLEN"
+msgstr[1] "BELOHNUNGEN AUSWÄHLEN"
+msgstr[2] "BELOHNUNGEN AUSWÄHLEN"
+
+msgid "scoreTooltip/body"
+msgstr "Im Modus „Ansturm“ bestimmen die von Ihnen verdienten Wertungspunkte Ihren Rang und Ihre Division. Gewinnen Sie Gefechte und werden Sie zum besten Kommandanten des Modus!"
+
+msgid "scoreTooltip/header"
+msgstr "Wertungspunkte"
+
+msgid "season/daysLeft"
+msgstr "Endet in %(totalDays)s T."
+
+msgid "season/hoursLeft"
+msgstr "Endet in %(hours)s Std."
+
+msgid "season/minutesLeft"
+msgstr "Endet in %(minutes)s Min."
+
+msgid "season/over"
+msgstr "%(seasonName)s ist beendet."
+
+msgid "season/range"
+msgstr "%(startDate)s–%(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "Endet in %(seconds)s Sek."
+
+msgid "seasonName/first"
+msgstr "Saison des blauen Drachen"
+
+msgid "seasonName/second"
+msgstr "Saison des roten Drachen"
+
+msgid "seasonName/third"
+msgstr "Saison des grünen Drachen"
+
+msgid "seasonPointTooltip/header"
+msgstr "Ansturmfarben"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "Erhalten"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "Nicht erhalten"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "Sie sind Anwärter auf Ansturmfarben."
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "Ungenutzte Ansturmfarben werden zu folgendem Kurs in Anleihen umgewandelt: {bond_Open}1 Ansturmfarbe{bond_Close} in {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "Zum Ende jeder Saison erhalten Sie Ansturmfarben entsprechend Ihres erreichten Rangs."
+
+msgid "seasonPointTooltip/text/year"
+msgstr "Für je 3 Ansturmfarben wird die Qualität der Belohnung verbessert, die Sie am Ende des Jahres erhalten."
+
+msgid "seasonStatistics/button/fifth"
+msgstr "Wo ist meine Trophäe?"
+
+msgid "seasonStatistics/button/first"
+msgstr "Alles ist gut"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "Mein Schatz!"
+
+msgid "seasonStatistics/button/second"
+msgstr "Verstanden!"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "Legendär!"
+
+msgid "seasonStatistics/button/third"
+msgstr "Ich komme wieder"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "Abschließende Saisonwertung"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "Position in der Bestenliste: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "ANSTURM. %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "%(points)s Ansturmfarbe erhalten"
+msgstr[1] "%(points)s Ansturmfarben erhalten"
+msgstr[2] "%(points)s Ansturmfarben erhalten"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "SAISON I: BLAUER DRACHE"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "SAISON II: ROTER DRACHE"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "SAISON III: GRÜNER DRACHE"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "Siege: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "Bestrittene\nGefechte"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "Durchschnitt: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "Höchster\nSchaden"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "Zerstörungsrate: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "Meiste Abschüsse\nin einem Gefecht"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "Durchschnitt: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "Höchste\nPrestigepunkte"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "SAISONSTATISTIK"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "Im Super-Zug: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "Siegessträhne\n(Solo/Zug)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "Gefechte"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "–"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "Keine Fahrzeuge"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "PRIMÄRFAHRZEUGE"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "Siege"
+
+msgid "seasonStatistics/title"
+msgstr "SAISONSTATISTIKEN FÜR %(name)s"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "Saison endet in:"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "–"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s–%(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "Gefechtsplan"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "Heute"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "Morgen"
+
+msgid "selectorTooltip/desc"
+msgstr "Wettbewerbsmodus. 7v7 | Stufe X"
+
+msgid "selectorTooltip/title"
+msgstr "Ansturm"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Folgen Sie den Neuigkeiten auf dem Spielportal, um auf dem aktuellen Stand hinsichtlich des Starts der neuen Saison zu bleiben."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Der Modus ist aus technischen Gründen vorübergehend nicht verfügbar."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Der Modus ist ab dem %(time)s verfügbar."
+
+msgid "shortSeasonName/first"
+msgstr "Blauer Drache"
+
+msgid "shortSeasonName/second"
+msgstr "Roter Drache"
+
+msgid "shortSeasonName/third"
+msgstr "Grüner Drache"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "Dieser Abschnitt enthält Informationen über die besten Spieler der aktuellen Saison des Modus „Ansturm“."
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Dieser Abschnitt enthält Informationen über die Qualifikation, sowie über Ihren Rang, Ihre Division und die Wertungspunkte nach Abschluss."
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "Dieser Abschnitt enthält Informationen über die verfügbaren Belohnungen für das Erreichen höherer Ränge im Modus „Ansturm“."
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "Dieser Abschnitt enthält Informationen zu Gegenständen, die im Ansturm-Laden verfügbar sind."
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "Dieser Abschnitt enthält Informationen über die Wochenaufträge im Modus „Ansturm“."
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "In diesem Abschnitt finden Sie Informationen zu den Jahresbelohnungen, die Sie durch Ansturmfarben erhalten können."
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "Dieser Abschnitt enthält Informationen über Ihre Erfolge in jeder Saison des aktuellen Jahres in Ansturm."
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "Bestenliste"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Rangsystem"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "Belohnungen für Ränge"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "Ansturm-Laden"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "Wochenaufträge"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "Jahresbelohnungen"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "Jahresstatistiken"
+
+msgid "sixthRankTooltip/description"
+msgstr "Der Rang {eeede9e6_Open}Legende{eeede9e6_Close} wird Spielern verliehen, die {eeede9e6_Open}unter den besten %(topPercentage)%{eeede9e6_Close} nach Wertungspunkten auf der Bestenliste sind."
+
+msgid "style3dTooltip/954"
+msgstr "Stacheln aus Silber"
+
+msgid "style3dTooltip/955"
+msgstr "Klauen aus Gold"
+
+msgid "style3dTooltip/956"
+msgstr "Flügel des Meisters"
+
+msgid "style3dTooltip/957"
+msgstr "Kreatur der Legenden"
+
+msgid "style3dTooltip/description"
+msgstr "Diese Bestie ist die Verkörperung eines seit Urzeiten gefürchteten Wesens in Stahl – stark wie ein Löwe, wild wie ein Drache und tödlich wie ein Skorpion."
+
+msgid "style3dTooltip/howToReceive"
+msgstr "Möglichkeiten des Erhalts"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "Verliehen für das Sammeln von mindestens 9 Ansturmfarben im Jahr des Mantikors im Modus „Ansturm“."
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "Verliehen für das Sammeln von mindestens 12 Ansturmfarben im Jahr des Mantikors im Modus „Ansturm“. Ersetzt den vorherigen Stil."
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "Verliehen für das Sammeln von mindestens 15 Ansturmfarben im Jahr des Mantikors im Modus „Ansturm“. Ersetzt den vorherigen Stil."
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "Verliehen für das Sammeln von mindestens 18 Ansturmfarben im Jahr des Mantikors im Modus „Ansturm“. Ersetzt den vorherigen Stil."
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "Passend für Fahrzeuge"
+
+msgid "system_messages/periodicReward/body"
+msgstr "Sie haben Ihre tägliche Belohnung für das Halten des Rangs „%(rank)s“ erhalten.\n%(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "Tägliche Belohnung"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Es herrscht Waffenruhe. Gefechte im Modus „Ansturm“ sind vorübergehend nicht verfügbar."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Waffenruhe"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Waffenruhe beendet. Gefechte im Modus „Ansturm“ sind wieder verfügbar."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Waffenruhe"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "Glückwunsch! Sie haben den Rang %(maxRank)s erreicht.\nSie haben Belohnungen für die folgenden Ränge erhalten: %(ranks)s:\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "Qualifikation abgeschlossen"
+
+msgid "system_messages/regularReward/body"
+msgstr "Datum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "Quittung"
+
+msgid "system_messages/shop/offer/button"
+msgstr "Zum Laden gehen"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "Im Ansturm-Laden sind neue Rabatte verfügbar!"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "Rabatte erhöht"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "Im Ansturm-Laden sind jetzt neue Gegenstände verfügbar!"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "Neue Gegenstände verfügbar"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "Zahlungsfehler. Versuchen Sie es bitte später noch einmal."
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "Datum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "Belohnungen für den Abschluss von Wochenaufträgen"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "Datum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "Belohnung für Wochenauftrag"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Über Ansturm"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "Saisonupdates"
+
+msgid "tournament/LBFinals"
+msgstr "FINALE (UNTERE HÄLFTE)"
+
+msgid "tournament/LBRound1"
+msgstr "RUNDE 1 (UNTERE HÄLFTE)"
+
+msgid "tournament/LBRound2"
+msgstr "RUNDE 2 (UNTERE HÄLFTE)"
+
+msgid "tournament/LBSemifinals"
+msgstr "HALBFINALE (UNTERE HÄLFTE)"
+
+msgid "tournament/UBFinals"
+msgstr "FINALE (OBERE HÄLFTE)"
+
+msgid "tournament/UBSemifinals"
+msgstr "HALBFINALE (OBERE HÄLFTE)"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "In Turnieren können keine Wertungspunkte verdient oder verloren werden."
+
+msgid "tournament/bestOf"
+msgstr "BESTER AUS %(number)s"
+
+msgid "tournament/cny"
+msgstr "%(amount)s CNY"
+
+msgid "tournament/cnySign"
+msgstr "%(amount)s ¥"
+
+msgid "tournament/comeBack"
+msgstr "Bitte versuchen Sie es später noch einmal"
+
+msgid "tournament/comingSoon"
+msgstr "KOMMT BALD %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "GENAUE ZEITEN ABHÄNGIG VON DAUER DER GEFECHTE"
+
+msgid "tournament/completed"
+msgstr "ABGESCHLOSSEN"
+
+msgid "tournament/douyin"
+msgstr "Auf Douyin ansehen"
+
+msgid "tournament/drops/huya"
+msgstr "Auf Huya ansehen und exklusive\nHuya-Drops verdienen!"
+
+msgid "tournament/drops/twitch"
+msgstr "Auf Twitch ansehen und exklusive\nTwitch-Drops verdienen!"
+
+msgid "tournament/dropsShort/huya"
+msgstr "Und exklusive Huya-Drops verdienen!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "Und exklusive Twitch-Drops verdienen!"
+
+msgid "tournament/error"
+msgstr "FEHLER BEIM LADEN VON DATEN"
+
+msgid "tournament/eur"
+msgstr "%(amount)s EUR"
+
+msgid "tournament/euroSign"
+msgstr "%(amount)s €"
+
+msgid "tournament/finalResult"
+msgstr "GEWINNER"
+
+msgid "tournament/fundDistribution"
+msgstr "VERTEILUNG DES PREISGELDS"
+
+msgid "tournament/grandFinals"
+msgstr "GROSSES FINALE"
+
+msgid "tournament/huya"
+msgstr "Auf Huya ansehen"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "Der Preispool ergibt sich aus den von Spielern gekauften Paketen. Zuletzt aktualisiert: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "KEINE WEITEREN GEFECHTE GEPLANT"
+
+msgid "tournament/ols/roundRobin"
+msgstr "PHASE %(phase)s RUNDE %(round)s"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s – %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "PREISGELD %(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "UND DIE CHANCE AUF EWIGEN RUHM"
+
+msgid "tournament/refresh"
+msgstr "Aktualisieren"
+
+msgid "tournament/refreshing"
+msgstr "Wird aktualisiert ..."
+
+msgid "tournament/roundOf"
+msgstr "RUNDE VON %(number)s"
+
+msgid "tournament/separator"
+msgstr "ODER"
+
+msgid "tournament/tab/overview"
+msgstr "ÜBERBLICK"
+
+msgid "tournament/tab/schedule"
+msgstr "ZEITPLAN"
+
+msgid "tournament/teamPlaceholder"
+msgstr "TBD"
+
+msgid "tournament/toShop"
+msgstr "Laden besuchen"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "Tauschen"
+
+msgid "tournament/tokenStore/ols"
+msgstr "ANSTURM-MARKEN"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "Verfügbar in:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "Über das Turnier"
+
+msgid "tournament/twitch"
+msgstr "Auf Twitch ansehen"
+
+msgid "tournament/viewFull"
+msgstr "Alle anzeigen"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "Unterstützen Sie die Ansturm-Legenden und steigern Sie das Preisgeld über die Turnierpakete!"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "Zeigen Sie Ihren E-Sports-Geist mit exklusiven thematischen Anpassungselementen und einzigartigen Panzern!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "TRAGEN SIE ZUM PREISGELD BEI"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "WCI-PAKETE"
+
+msgid "tournament/vsBestOf"
+msgstr "GEGEN\nBESTER AUS %(number)s"
+
+msgid "tournament/wci/roundRobin"
+msgstr "JEDER-GEGEN-JEDEN"
+
+msgid "tournament/winner"
+msgstr "Gewinner"
+
+msgid "tournament/youtube"
+msgstr "Auf YouTube ansehen"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "Die besten Teams aus Europa kämpfen um den Titel des Meisters der Ansturm-Legenden! Sehen Sie sich spannende 7v7-Gefechte in Ansturm an, verdienen Sie sich Twitch-Drops und unterstützen Sie das Team Ihrer Wahl, indem Sie über Pakete mit exklusiven Anpassungen zum Preisgeld beitragen."
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "Das World of Tanks Championship International in Suzhou (China) verspricht eine epische Schlacht zu werden. Unter den Regeln des Modus „Ansturm“ kämpfen hier die besten Teams der Welt um den Titel des Weltmeisters. Werden Sie live Zeuge, wie auf dem Schlachtfeld Legenden geboren werden!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "Saison 6 der OLS"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI '25"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "Livestreams sind für %(timer)s verfügbar."
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "Weitere Spiele folgen in %(timer)s"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "Im Ansturm-Training können keine Wertungspunkte verdient werden."
+
+msgid "unit/message/modeOffline"
+msgstr "Gefecht konnte nicht betreten werden: Datenbankfehler."
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "Einschränkungen für Rangunterschied überschritten"
+
+msgid "voiceChat/active"
+msgstr "Sprachchat verlassen"
+
+msgid "voiceChat/inactive"
+msgstr "Sprachchat beitreten"
+
+msgid "waitingSpinner/message"
+msgstr "Lade Inhalt ..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "Auftrag für Ansturm abgeschlossen"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "Gute Arbeit! Sie haben alle Wochenaufträge abgeschlossen. Vergessen Sie nicht, Ihre Belohnung abzuholen. Wir sehen uns in der nächsten Saison wieder!"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "Sie erhalten zusätzliche Belohnungen, wenn Sie die Aufträge {eeede9e5_Open}%(questsList)s{eeede9e5_Close} und {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close} abschließen."
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "Wochenauftrag in Ansturm"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "Abgeschlossen: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s neuer Auftrag in:"
+msgstr[1] "%(value)s neue Aufträge in:"
+msgstr[2] "%(value)s neue Aufträge in:"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "Belohnung:"
+msgstr[1] "Belohnungen:"
+msgstr[2] "Belohnungen:"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)s NEUER AUFTRAG IN %(countdown)s"
+msgstr[1] "%(value)s NEUE AUFTRÄGE IN %(countdown)s"
+msgstr[2] "%(value)s NEUE AUFTRÄGE IN %(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "NEUE AUFTRÄGE GIBT ES IN DER NÄCHSTEN SAISON!"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "Abgeschlossene Aufträge: %(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "Sie erhalten jede Woche %(value)s neuen Auftrag. Jeder abgeschlossene Auftrag zählt für die Belohnung!"
+msgstr[1] "Sie erhalten jede Woche %(value)s neue Aufträge. Jeder abgeschlossene Auftrag zählt für die Belohnung!"
+msgstr[2] "Sie erhalten jede Woche %(value)s neue Aufträge. Jeder abgeschlossene Auftrag zählt für die Belohnung!"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "Läuft"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "Abgeschlossen"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "Nicht verfügbar"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "Nicht zum Abschluss verfügbar: Der Modus ist nicht aktiv."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "Erforschen und kaufen Sie zum Freischalten ein Fahrzeug der Stufe X."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "Schließen Sie den vorherigen Auftrag ab, um diesen freizuschalten."
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "Auftrag nicht verfügbar"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "Holen Sie sich Ihre Belohnung ab!"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "Abgeschlossen: %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "Auftrag %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s neuer Auftrag in:"
+msgstr[1] "%(value)s neue Aufträge in:"
+msgstr[2] "%(value)s neue Aufträge in:"
+
+msgid "whatsNewButtonLabel"
+msgstr "SAISONUPDATES"
+
+msgid "whatsNewView/banner/description"
+msgstr "Diese Saison ist Ihre letzte Chance auf wertvolle Belohnungen, wie den exklusiven Ashbringer, einen schweren Panzer der Stufe X, mit allen einzigartigen 3D-Stilen, die Sie sich für ihn verdient haben, und einer furchtlosen Besatzung mit „Waffenbrüder“ als Null-Vorteil, sowie auf verbessertes und experimentelles Zubehör nach Wahl, einen markanten 2D-Stil und mehr. Lassen Sie sich die Gelegenheit nicht entgehen – der Sieg wartet auf dem Schlachtfeld!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "Nutzen Sie die letzten Momente im Jahr des Drachen!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "SAISON DES GRÜNEN DRACHEN"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "ANSTURM – WAS IST NEU?"
+
+msgid "whatsNewView/button/ok"
+msgstr "Verstanden!"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "Der verbesserte Bildschirm der Gefechtsergebnisse mit seinem neuen Design von Update 2.0 stellt Ihnen jetzt zusätzliche, modusspezifische Informationen nach jedem Gefecht zur Verfügung."
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "Detaillierte Gefechtsergebnisse"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "Keine Panik, wenn Ihr Lieblingsfahrzeug ausgeschlossen wird. Mietfahrzeuge werden jetzt mit voreingestellten Besatzungen, Zubehör, Granaten und Verbrauchsmaterial ausgeliefert."
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "Gefechtsbereite Mietfahrzeuge %(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "Diese Saison kann jedes Team ein Fahrzeug komplett vom Gefecht ausschließen. Koordinieren Sie die Abstimmung mit Ihren Verbündeten, um das bedrohlichste Fahrzeug auszuschließen oder eine unerwartete Aufstellung für Ihre Gegner vorzubereiten."
+
+msgid "whatsNewView/intro/heading"
+msgstr "Ausschluss von Fahrzeugen %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "Karten"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "Neue Fahrzeuge für den Modus „Ansturm“"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "Mietfahrzeuge"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "Der kürzlich veröffentlichte mittlere Panzer der Stufe X „Ares 90“ ist jetzt mit einer angepassten Rollenfertigkeit für den Modus verfügbar."
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "Rollenfertigkeit-Aktualisierung %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "Der 114 SP2 ist jetzt ab dem Rang „Silber“ im Ansturm-Laden zum Kauf verfügbar."
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "Laden-Aktualisierungen %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "AUSGESCHLOSSEN"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "IN NEUENTWICKLUNG"
+
+msgid "whatsNewView/tag/attention"
+msgstr "Achtung"
+
+msgid "whatsNewView/tag/changed"
+msgstr "Geändert"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "Experimentell"
+
+msgid "whatsNewView/tag/new"
+msgstr "Neu"
+
+msgid "whatsNewView/tag/returned"
+msgstr "Zurückgekehrt"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "Überarbeitet"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "Saisonupdate"
+
+msgid "whatsNewView/watchVideo"
+msgstr "Video ansehen"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "Siegesrate (Tag): %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "Niederlagen: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "Unentschieden: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "Siegesrate (Saison): %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "Verhältnis der gesamten Siege zur Anzahl bestrittener Gefechte.\nGefechte nach Ergebnis:"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "Siege: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "Die Belohnungen werden nach Ende der dritten Saison ausgeliefert."
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "Die Belohnungen werden bald ausgeliefert. Bitte haben Sie Geduld."
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "Jahresbelohnung erhalten. Bis nächstes Jahr!"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "Sie können Zubehör auswählen."
+
+msgid "yearlyRewards/claim"
+msgstr "Abholen"
+
+msgid "yearlyRewards/claimReward"
+msgstr "Belohnung abholen"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "Sie haben 1 %(seasonPointIcon)s für jeden Rang erhalten, den Sie am Ende der Saison innehatten."
+
+msgid "yearlyRewards/description/current"
+msgstr "Sie erhalten 1 %(seasonPointIcon)s für jeden Rang, den Sie am Ende der Saison innehaben."
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\nmit einzigartigem 3D-Stil"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "ZU DEN JAHRESBELOHNUNGEN"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "Vorschau des 2D-Stils"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "Vorschau des 3D-Stils"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "Erreichter Rang: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "Aktueller Rang: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "Vier einzigartige Besatzungsmitglieder"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "Belohnung erhalten"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "Belohnung garantiert"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "Verdienen Sie insgesamt %(count)s Farben, um Abschnittsbelohnungen zu erhalten."
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "Potenzielle Belohnung"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "Am Ende des Jahres erhalten Sie diese Belohnung garantiert."
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "Verdienen Sie die erforderliche Anzahl Ansturmfarben, um am Ende des Jahres Ihre Belohnung zu erhalten."
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "Am Ende des Jahres erhalten Sie diese Belohnung, wenn Sie Ihren aktuellen Rang halten oder bis zum Ende der Saison steigern."
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "Aktiver Abschnitt"
+
+msgid "yearlyStatistics/battles"
+msgstr "Gefechte (Solo/Zug)"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "Saisonstatistiken werden berechnet ..."
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)s auf Saisonstatistiken"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "Kein Rang"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "Rang %(rank)s"
+
+msgid "yearlyStatistics/rating"
+msgstr "Wertungspunkte"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "Herbst 2025"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "Winter 2026"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "Frühling 2026"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s–%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "Saison I: Blauer Drache"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "Saison II: Roter Drache"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "Saison III: Grüner Drache"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "Aktuell"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "Beendet"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "Gefechte (Super-Zug)"
+
+msgid "yearlyStatistics/wins"
+msgstr "Siegrate"

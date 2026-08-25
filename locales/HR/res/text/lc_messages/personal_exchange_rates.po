@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Ograničena rata"
+msgstr[1] "Ograničene rate %(index)s"
+msgstr[2] "Ograničene rate %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "Premašena je najmanje jedna granica. Dio plaćanja će biti realiziran u slijedećoj rati."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Osnovna rata razmjene"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "Slijedeća primjenjiva rata"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Broj aktivnih ograničenih rata: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Količina ukupno ograničene rate: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "Nakon razmjene:"
+
+msgid "common/cancel"
+msgstr "Odustani"
+
+msgid "common/combinedDiscount"
+msgstr "Kombinirani popust"
+
+msgid "common/exchange"
+msgstr "Razmjeni"
+
+msgid "common/exchangeRate"
+msgstr "Rata razmjene"
+
+msgid "common/limitExceeded"
+msgstr "Granica premašena. Razmjena će biti izvedena s kombiniranim popustom."
+
+msgid "common/limitOverExceeded"
+msgstr "Granica premašena: biti će korišten kombinirani popust."
+
+msgid "common/limitRestrictions"
+msgstr "SAZNAJ VIŠE"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Osnovna rata razmjene: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Opća rata razmjene: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "%(gold)s zlata uspješno razmjenjeno. Primljeno kredita: %(res)s."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Osobna rata razmjene: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Osobna rata razmjene: %(rateFrom)s = %(rateTo)s. Granica premašena"
+
+msgid "exchangeXP/information"
+msgstr "%(res)s iskustva uspješno razmjenjeno za slobodno iskustvo. Utrošeno zlata: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "Dostupno iskustvo:"
+
+msgid "experienceExchange/paid"
+msgstr "Potrošen"
+
+msgid "experienceExchange/received"
+msgstr "Primljen"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Poredaj po razinama vozila"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Poredaj po razini Terenske promjene"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Poredaj po imenima vozila"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Poredaj po nacijama"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Poredaj po tipu vozila"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Poredaj po odabranom vozilu"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Poredaj po zarađenom isksutvu"
+
+msgid "goldExchange/paid"
+msgstr "Od"
+
+msgid "goldExchange/received"
+msgstr "Na"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s zlato = %(resourceRate)s kredita"
+
+msgid "notification/discountDescription/message"
+msgstr "Osobna rata razmjene"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "U mjenjačnicu"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Dostupna je nova rata razmjene!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Osnovna rata razmjene"
+
+msgid "tooltip/common/generalRate"
+msgstr "Opća rata razmjene"
+
+msgid "tooltip/common/personalRate"
+msgstr "Osobna rata razmjene"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Povoljna rata razmjene"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Privremena rata razmjene"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "Količina se može odrediti nakon kupnje zlata."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Količina zlata nakon razmjene"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s zlato = %(resourceRate)s slobodno iskustvo"

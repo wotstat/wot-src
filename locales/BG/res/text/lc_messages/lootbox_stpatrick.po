@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Обратно към сандъците"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Изумруден сандък"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "ИЗУМРУДЕН САНДЪК"
+
+msgid "common/getButton/lowerCase"
+msgstr "Вземете сандъци"
+
+msgid "common/getButton/upperCase"
+msgstr "ВЗЕМЕТЕ САНДЪЦИ"
+
+msgid "common/loader"
+msgstr "Отваряне на сандък..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Отворете сандъци, за да видите статистиките."
+
+msgid "common/statistics/header"
+msgstr "Отворени сандъци: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Цялата информация за отворените сандъци ще бъде изтрита."
+
+msgid "entryPoint/boxes"
+msgstr "КЪМ САНДЪЦИТЕ"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Това са специални сандъци, съдържащи Премиум машини, триизмерни приставки, кредити и други ценни игрови предмети.\nМожете да ги получите от Магазина в играта."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "В момента сандъците не могат да бъдат отворени или закупени поради технически причини. Извиняваме се за временното неудобство."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Сандъците са временно недостъпни"
+
+msgid "eventName/lowerCase"
+msgstr "Славни в зелено"
+
+msgid "eventName/upperCase"
+msgstr "СЛАВНИ В ЗЕЛЕНО"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Гарантирана награда в следващия сандък!"
+
+msgid "guaranteedTitle/text"
+msgstr "Максимум сандъци до гарантирана награда: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ако не отворите сандъците преди края на събитието, те ще бъдат отворени автоматично."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ако вече притежавате всички машини от списъка с възможно съдържание на сандъка, тогава всички следващи машини, които получавате от сандъци, ще бъдат компенсирани в злато, равно на пълната им стойност."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Всеки %(guaranteed0)s сандъка гарантирано съдържат машина ниво VIII–X. Ако ги отворите без да се падне подобна машина, тогава машина ниво VIII–X, която още не притежавате, ще се падне, когато отворите %(guaranteed0)s&zwnbsp;-ия сандък. Когато това се случи, броячът се нулира."
+
+msgid "infoPage/header/description"
+msgstr "Отворете сандъка за шанс да получите ценни предмети в играта! Вижте повече подробности по-долу."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "От %(name) (%(boxesCount) отворени сандъка)"
+
+msgid "noBoxesView/description/"
+msgstr "Нямате никакви сандъци. \nМожете да ги вземете в Магазина в играта."
+
+msgid "preview/backLabel"
+msgstr "КЪМ САНДЪЦИТЕ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Налични сандъци: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Няма налични сандъци"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Ако вече притежавате всички машини от списъка с възможно съдържание на сандъка, тогава всички следващи машини, които получавате от сандъци, ще бъдат компенсирани в злато."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) сандък"
+msgstr[1] "%(remainingCount) сандъка"
+msgstr[2] "%(remainingCount) сандъка"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Гарантираната награда е машина от списъка с възможно съдържание на сандъка.\nАко отворите %(remainingCount) сандъка, без да се падне такава машина, то ще се падне, когато отворите %(count)-ия сандък. Когато това стане, броячът се нулира."

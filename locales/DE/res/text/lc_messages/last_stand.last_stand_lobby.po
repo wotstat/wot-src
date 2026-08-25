@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Trotzdem ins Gefecht"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Ausrüsten!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Taktische Geräte unvollständig"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "Dem ausgewählten Fahrzeug fehlt mindestens ein taktisches Gerät. Dies könnte erheblichen Einfluss auf Ihre Leistung im Gefecht nehmen. Wollen Sie das Gefecht trotzdem betreten?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Sie können die Voreinstellung der Tasten für Granaten und taktische Geräte neu zuweisen.\nDiese Änderung wirkt nur in Gefechten des Events und hat keinen Einfluss auf Gefechte in anderen Modi.\nSie können die Tastenzuweisung immer noch individuell über Menü – Einstellungen – Steuerung (Abschnitt „Verbrauchsmaterial“) anpassen."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Änderung der Voreinstellung der Taste für Verbrauchsmaterial"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Schließen Sie den aktuellen Auftrag ab, um ein einzigartiges Abzeichen „Letztes Gefecht: Operation Pandora“ zu erhalten:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Auftrag für epischen Erfolg"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Verringert nach Erforschung die {EDCB9E_Start}Kosten in Mirium{EDCB9E_End} für alle taktischen Geräte um {EDCB9E_Start}%(ability_cost_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Mirium-Effizienz"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Erhöht nach Erforschung die {EDCB9E_Start}Effektdauer von taktischen Geräten{EDCB9E_End} um {EDCB9E_Start}%(ability_duration_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Gerät-Effektdauer"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Erhöht nach Erforschung den {EDCB9E_Start} Effektradius von taktischen Geräten{EDCB9E_End} um {EDCB9E_Start}%(ability_radius_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Gerät-Effektradius"
+
+msgid "booster/booster_heal/description"
+msgstr "Erhöht nach Erforschung sämtliche angewandten {EDCB9E_Start}Heilungseffekte{EDCB9E_End} am Fahrzeug um {EDCB9E_Start}%(heal_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Heilungseffekte"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Erhöht nach Erforschung die Menge der {EDCB9E_Start}übertragenen Daten von Obelisken{EDCB9E_End} um {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Übertragener Obeliskschaden"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Erhöht nach Erforschung den {EDCB9E_Start}Radius zum Aufsammeln von Mirium{EDCB9E_End} um {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Radius zum Aufsammeln von Mirium"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Erhöht nach Erforschung die {EDCB9E_Start}Menge des aufgesammelten Miriums{EDCB9E_End} von zerstörten Fahrzeugen um {EDCB9E_Start}%(pick_up_souls_add_percent)s %%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Aufsammeln von Mirium"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Erhöht nach Erforschung die {EDCB9E_Start}Menge des gewährten Miriums{EDCB9E_End} für das Zerstören einer Welle um {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Mirium pro Welle"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Erhöht nach Erforschung die {EDCB9E_Start}Menge des wiederhergestellten Miriums{EDCB9E_End} bei Wiedereinstieg um {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Mirium bei Wiedereinstieg"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Erhöht nach Erforschung die {EDCB9E_Start}maximale Mirium-Kapazität des Fahrzeugs{EDCB9E_End} um {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Mirium-Kapazität"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "PAKET „VERTEIDIGER“"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Schlüssel gekauft"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Die Möglichkeit, ab dem zweiten Sieg des Tages 5× EP in einem beliebigen Fahrzeug zu verdienen."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Auftrag für 5× EP im Gefecht"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Konfigurieren Sie die Anzeige der Fahrzeuge nach Typ, Nation und anderen Parametern."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Nach Parametern filtern"
+
+msgid "common/back"
+msgstr "ZURÜCK"
+
+msgid "common/close"
+msgstr "SCHLIESSEN"
+
+msgid "common/modifierInline"
+msgstr "{value}x"
+
+msgid "common/modifierInlineTimes"
+msgstr "{value}×"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "ZUM EVENT"
+
+msgid "common/toRewardPath"
+msgstr "ZUM FORTSCHRITT"
+
+msgid "common/yes"
+msgstr "Verstanden!"
+
+msgid "difficult/daily"
+msgstr "TAGESAUFTRAG FÜR SCHLÜSSEL FREIGESCHALTET"
+
+msgid "difficult/disabled/body"
+msgstr "Sie befinden sich in einem Zug. Nur der Kommandant kann den Schwierigkeitsgrad ändern."
+
+msgid "difficult/disabled/header"
+msgstr "Schwierigkeit ändern nicht verfügbar"
+
+msgid "difficult/level_1"
+msgstr "Standard"
+
+msgid "difficult/level_2"
+msgstr "Schwer"
+
+msgid "difficult/level_3"
+msgstr "Brutal"
+
+msgid "difficult/new"
+msgstr "NEU"
+
+msgid "difficult/searching/body"
+msgstr "Während der Suche nicht verfügbar."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Gegner haben geringere Robustheit und schwächere Panzerung. Standardmenge an Daten pro Gefecht."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Gegner haben stärkere Panzerung. Die Daten pro Gefecht werden um {{modifier}} erhöht."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Es gibt mehr Gegner mit stärkerer Panzerung. Die Daten pro Gefecht werden um {{modifier}} erhöht."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Belohnungen für das erste Besiegen der letzten Welle:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Schwierigkeit „Standard“"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Schwierigkeit „Schwer“"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Schwierigkeit „Brutal“"
+
+msgid "difficult/tooltip/locked"
+msgstr "Schwierigkeit gesperrt"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Um diesen Schwierigkeitsgrad freizuschalten, müssen Sie den Modus auf Schwierigkeitsgrad „Standard“ abschließen."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Um diesen Schwierigkeitsgrad freizuschalten, müssen Sie den Modus auf Schwierigkeitsgrad „Schwer“ abschließen."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Schwierigkeit verfügbar"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Schwierigkeit ausgewählt"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Zerstörte Wellen: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "STANDARD"
+
+msgid "difficult/uppercase/level_2"
+msgstr "SCHWER"
+
+msgid "difficult/uppercase/level_3"
+msgstr "BRUTAL"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Gegner haben stärkere Panzerung. Mehr Kreditpunkte und {{modifier}}× Daten pro Gefecht."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Mehr Gegner mit stärkerer Panzerung. Mehr Kreditpunkte und {{modifier}}× Daten pro Gefecht."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Bekämpfen und besiegen Sie Wellen von Gegnern und zeigen Sie Ihr Können, indem Sie zur Spitze der Bestenliste aufsteigen. Einzigartige Belohnungen und mehr warten auf Sie."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "SCHWIERIGKEITSGRAD „SCHWER“"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "SCHWIERIGKEITSGRAD „BRUTAL“"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "MODUS „LETZTES GEFECHT“"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "SCHWER"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "BRUTAL"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "LETZTES GEFECHT"
+
+msgid "difficultyWindow/rewards"
+msgstr "Abschlussbelohnungen:"
+
+msgid "difficultyWindow/title"
+msgstr "VERFÜGBAR"
+
+msgid "hangar/exit"
+msgstr "EVENT VERLASSEN"
+
+msgid "hangar/narration"
+msgstr "Story"
+
+msgid "hangar/tooltip/about"
+msgstr "Erfahren Sie mehr über das Event „Letztes Gefecht: Terra Nord“."
+
+msgid "hangar/tooltip/narration"
+msgstr "Erfahrt mehr über die Geschichte zum Event."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "TAKTISCHE GERÄTE"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "AUSRÜSTUNG"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Letztes Gefecht"
+
+msgid "iconButton/comparison/default"
+msgstr "Fahrzeugvergleich"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Fahrzeugvergleich ist nicht verfügbar."
+
+msgid "iconButton/preview/default"
+msgstr "Fahrzeugvorschau"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Fahrzeugvorschau ist nicht verfügbar."
+
+msgid "keyCard/name"
+msgstr "Dechiffrierungs-schlüssel"
+
+msgid "meta/btn/decrypt"
+msgstr "DECHIFFRIEREN"
+
+msgid "meta/btn/skip"
+msgstr "ÜBERSPRINGEN"
+
+msgid "meta/btn/view"
+msgstr "ANZEIGEN"
+
+msgid "meta/receive/description"
+msgstr "Sammeln Sie %(keys) / %(decrypt) %(icon),\num diese Aufzeichnung zu dechiffrieren"
+
+msgid "metaIntro/description/fight"
+msgstr "Bestreiten Sie Gefechte und verdienen Sie Daten, um im Fortschritt voranzuschreiten."
+
+msgid "metaIntro/description/progress"
+msgstr "Sammeln Sie Daten, um Fahrzeugverbesserungen zu erforschen und sich größeren Herausforderungen zu stellen."
+
+msgid "metaIntro/description/reward"
+msgstr "Schließen Sie Fortschrittsstufen ab, um besondere Eventbelohnungen zu erhalten. Sehen Sie sich den Belohnungspfad für weitere Details an."
+
+msgid "metaIntro/header/fight"
+msgstr "Eventgefechte"
+
+msgid "metaIntro/header/progress"
+msgstr "Verbesserungen"
+
+msgid "metaIntro/header/reward"
+msgstr "Einzigartige Belohnungen"
+
+msgid "metaIntro/title"
+msgstr "FORTSCHRITT"
+
+msgid "missionWidget/complete"
+msgstr "Auftrag abgeschlossen.\nKommen Sie morgen wieder."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Schließen Sie den aktuellen Tagesauftrag ab, um die Belohnung zu erhalten. Alle 24 Stunden wird ein Tagesauftrag verfügbar. Heutiger Auftrag:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Tagesauftrag"
+
+msgid "narration/actions/voiceover"
+msgstr "Sprachausgabe"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}STRENG GEHEIM{{/}}{{titleParagraph}}{{@ class $highlightText}}SEKTOR: N-07 (Perimeter „Aurora“){{/}}{{pargraphStart}}Unsere Vorhersagen waren zutreffend. Die Beobachter auf den Stationen konnten die Anzeichen für das Entstehen der Anomalie bereits elf Tage vor dem Ereignis verzeichnen. Zum ersten Mal konnten wir sie vorhersehen.{{pargraphStart}}Während der Ruhe vor dem Sturm haben wir das Verfahren für die ATLAS-Komplexe weiterentwickelt. Neue Module konnten jetzt schneller zusammengebaut und präziser kalibriert werden. Wir haben Übungen vorgenommen, sind die Formationen durchgegangen und haben Ersatzteams vorbereitet. Bei ständiger voller Alarmbereitschaft.{{pargraphStart}}Aber die Anomalie hatte ihre eigenen Pläne.{{pargraphStart}}Der Trichter hat sich nicht in dem vorhergesagten Sektor geöffnet. Stattdessen erschien er hier, in dieser entlegenen nördlichen Gegend, weit von jeglichen Anlagen, die wir vorbereitet hatten. Niemand weiß, warum er hier auftauchte. In den Modellen hatte es keinen Hinweis auf dieses Gebiet gegeben. Wir haben umgehend alle Kräfte durch einen Nottransport umverlegt, aber die Distanz und das Gelände spielen uns nicht in die Karten. Einige der Fahrzeuge und Teams werden zu spät eintreffen.{{pargraphStart}}Jeder ATLAS-Komplex, der geliefert werden konnte, ist jetzt unverzichtbar.{{pargraphStart}}Diesmal sind wir für den Kampf bereit. Nur leider nicht an diesem Ort.{{pargraphStart}}UNTERZEICHNET: DER KURATOR (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Analyse-Memo 27/C „AUSWAHL DES INVASIONSORTS“{{/}}{{titleParagraph}}Nur für die interne Verwendung. Gestempelt: „Beschränkter Zugang“.{{pargraphStart}}Ich möchte eine Frage stellen, die ich beantworten sollte, aber nicht kann: Warum hier?{{pargraphStart}}Diese Region besitzt keinen strategischen Wert für den Trichter. Hier gibt es gar nichts. Keine Infrastruktur, keine Ansiedelungen. Nur eine ausgemusterte Militärbasis auf einer Insel. Echopanzer können nicht schwimmen. Warum also einen Ort einnehmen, der als Basis ungeeignet ist? {{pargraphStart}}Ich habe die kompletten Unterlagen zu den Operationen in dieser Region angefordert. Die Antwort war weitestgehend zensiert. Ganze Abschnitte sind geschwärzt worden. Meine zweite Anfrage wurde mit dem Hinweis zurückgewiesen, dass der „Zugang auf Weisung von {{@ class $highlightSecondaryText}}[ANGABE ENTFERNT]{{/}} eingeschränkt“ sei. Ich, als Leiter der Forschungseinrichtung, der über die strategische Verteidigung des Sektors entscheiden muss, erhalte keine Informationen über dieses Gebiet!{{pargraphStart}}Folgendes konnte ich aus den Felddaten schließen: Das Verhalten des Trichters entspricht nicht dem, was wir in Sektor R-22 beobachtet haben. Neue Typen der Echopanzer sind aufgetaucht. Sie scheinen unseren Scharfschützenjagdpanzern nachempfunden und sind in dem hiesigen Gelände extrem effektiv. Der Gegner scheint von unseren Taktiken gelernt zu haben und ergreift nun Gegenmaßnahmen. Jetzt sind wir am Zug, eine Antwort zu finden.{{pargraphStart}}Möglicherweise braucht er diesen Ort. Oder vielleicht das, was darunter liegt.{{pargraphStart}}Ich habe keine Ahnung. Und was mir die größten Sorgen macht, ist, dass jemand vielleicht etwas weiß und nichts sagt.{{pargraphStart}}UNTERZEICHNET: DER KURATOR (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}PERSÖNLICHE AUFZEICHNUNGEN DES KURATORS{{/}}{{pargraphStart}}Ich bin meine Hypothesen noch einmal durchgegangen. Alle drei.{{pargraphStart}}  1. Die Anomalie will uns vernichten. {{pargraphStart}}  2. Die Anomalie experimentiert. Sie erforscht unsere Taktiken, geht auf unsere Antworten ein, passt ihr Verhalten an und lernt.{{pargraphStart}}  3. Die Anomalie übt. Jede Welle dient der Erprobung einer neuen Taktik, jedes Gefecht ist ein Training unter Feldbedingungen.{{pargraphStart}}Alle drei Hypothesen gehen davon aus, dass dies eine gegen uns gerichtete Invasion ist.{{pargraphStart}}Aber was, wenn dem nicht so ist?{{pargraphStart}}Was, wenn die Anomalie etwas anderes tut und wir ihr einfach nur im Weg stehen? Wie ein Ameisenhügel, der beim Bau einer Straße eingeebnet wird. Die Bauarbeiter führen keinen Krieg gegen die Ameisen. Sie nehmen sie einfach nur nicht zur Kenntnis.{{pargraphStart}}Man kann jeden Gegner aufhalten, der einen vernichten will. Man kann mit ihnen verhandeln. Aber du kannst niemandem Angst einjagen, der deine Existenz nicht einmal zur Kenntnis nimmt. Oder ihn überlisten. Oder aufhalten. Denn du warst nie Teil seiner Berechnungen.{{pargraphStart}}Ich denke, wir haben uns immer die falsche Frage gestellt. Wir sollten nicht fragen, warum es uns angreift, sondern, ob es uns überhaupt wahrnimmt.{{pargraphStart}}UNTERZEICHNET: DER KURATOR (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}ABSCHLUSSBERICHT{{/}}{{titleParagraph}}{{@ class $highlightText}}STATUS: FREIGEGEBEN (IN TEILEN){{/}}{{pargraphStart}}Um 03:47 Uhr fiel der Trichter in sich zusammen. Die Aktivität der Anomalie hat aufgehört. Der Sektor ist sicher.{{pargraphStart}}In den letzten Sekunden vor dem Zusammenbruch konnten die Instrumente von ATLAS einen Energieanstieg verzeichnen, der über jegliche je gemessenen Werte hinaus ging. Die Besatzungen haben von einer kurzzeitigen physikalischen Manifestation im Kern der Anomalie berichtet, die für höchstens 12 Sekunden bestehen blieb. Danach schloss sich der Trichter. {{pargraphStart}}Offizielle Erklärung: Der Vorfall ist beigelegt. Das Gebiet wurde erfolgreich verteidigt. Die Quarantäne des Sektors wurde aufgehoben.{{pargraphStart}}{{@ class $highlightText}}PERSÖNLICHE ANMERKUNG DES KURATORS (Nur für Spezialisten){{/}}{{pargraphStart}}Wir haben nicht gewonnen. Es hat seine Arbeit abgeschlossen.{{pargraphStart}}Dies war nie eine Invasion. Es war ein Tarnmanöver. Ein Schutzkreis für das, was sich für wenige Sekunden im Kern des Trichters manifestierte, ehe dieser zusammenbrach.{{pargraphStart}}Dutzende Obelisken erschienen zeitgleich. Doch wir wissen immer noch nicht, wozu sie dienen. ATLAS hat alle Parameter verzeichnet, aber es wird dauern, bis diese Daten ausgewertet sind. Wir wissen nur eine Sache mit absoluter Sicherheit: Die Anomalie hat eine Art von Prozess abgeschlossen.{{pargraphStart}}Was immer sie getan hat, wir müssen für den nächsten Angriff bereit sein. Wir haben jetzt mehr als genug Daten. Unsere Ingenieure gehen die Aufzeichnungen bereits durch, und, wenn ich ehrlich bin, habe ich sie noch nie so aufgeregt gesehen. Sie meinen, wir könnten unsere Fahrzeuge noch signifikant verstärken. Das sollten wir auch tun, bevor der Trichter erneut erscheint. {{pargraphStart}}Ich muss ständig daran denken: Bei einem Vorfall an einem so entlegenen Ort und für so kurze Zeit, wer sagt, dass so etwas nicht bereits an anderen Stellen geschehen ist? An Orten, an denen wir kein ATLAS hatten und niemand es mitbekommen hat ...{{pargraphStart}}UNTERZEICHNET: DER KURATOR (PROJEKT M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Wir waren bereit"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Warum hier?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. Falsche Fragen"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Abschluss"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Schließen Sie den Schwierigkeitsgrad „Standard“ ab, um zum nächsten Teil der Geschichte fortzuschreiten."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Schließen Sie den Schwierigkeitsgrad „Schwer“ ab, um zum nächsten Teil der Geschichte fortzuschreiten."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Schließen Sie den Schwierigkeitsgrad „Brutal“ ab, um zum nächsten Teil der Geschichte fortzuschreiten."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Nächste Geschichte"
+
+msgid "preBattle/leave"
+msgstr "Gefecht verlassen"
+
+msgid "preBattle/searching"
+msgstr "SUCHE NACH VERBÜNDETEN ..."
+
+msgid "preBattle/tip"
+msgstr "Dauert es zu lange, eine Einheit zu finden? Probieren Sie einen anderen Schwierigkeitsgrad."
+
+msgid "preBattle/uppercase/leave"
+msgstr "GEFECHT VERLASSEN"
+
+msgid "promoWindow/header"
+msgstr "LETZTES GEFECHT SPIELEN"
+
+msgid "promoWindow/subheader"
+msgstr "Erkunden Sie ab dem {dateRange} ein neues Kapitel im PvE-Spielmodus „Letztes Gefecht“.\nVerdienen Sie sich einen neuen Satz thematischer {cream_open}3D-Aufsätze{cream_close}, experimentelles Zubehör und weitere exklusive Belohnungen."
+
+msgid "questCard/allCompleted"
+msgstr "Alle Tagesaufträge abgeschlossen"
+
+msgid "questCard/completed"
+msgstr "Tagesauftrag abgeschlossen.\nKommen Sie morgen wieder."
+
+msgid "reward/rest"
+msgstr "Und %(count)s weitere"
+
+msgid "rewardPath/about"
+msgstr "ÜBER ZIELE"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Erfahren Sie mehr über den Fortschritt im Event."
+
+msgid "rewardPath/boostTitle"
+msgstr "Beschleunigen Sie Ihren Fortschritt und verdienen Sie mehr Daten {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Im Nachschub ansehen"
+
+msgid "rewardPath/completed"
+msgstr "Alle Daten und Belohnungen erhalten"
+
+msgid "rewardPath/completedTitle"
+msgstr "Besuchen Sie den Nachschub für einzigartige, thematische Anpassungselemente."
+
+msgid "rewardPath/intro"
+msgstr "EINFÜHRUNG"
+
+msgid "rewardPath/introTooltip"
+msgstr "Sehen Sie sich das Einführungsvideo an."
+
+msgid "rewardPath/progress"
+msgstr "Daten auf STUFE {artefactIndex} erhalten: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "FORTSCHRITT"
+
+msgid "rewardPathCard/completed"
+msgstr "Abgeschlossen"
+
+msgid "rewardPathCard/name"
+msgstr "Belohnungspfad"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Eventpakete"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Abbrechen"
+
+msgid "squad/goToAnother/message"
+msgstr "Der Zug wird aufgelöst."
+
+msgid "squad/goToAnother/submit"
+msgstr "Verlassen"
+
+msgid "squad/goToAnother/title"
+msgstr "Event „Letztes Gefecht: Terra Nord“ verlassen?"
+
+msgid "squad/leave/cancel"
+msgstr "Abbrechen"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Der Zug wird aufgelöst."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Verstanden!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Das Event „Letztes Gefecht: Terra Nord“ ist beendet."
+
+msgid "squad/leave/message"
+msgstr "Der Zug wird aufgelöst."
+
+msgid "squad/leave/submit"
+msgstr "Verlassen"
+
+msgid "squad/leave/title"
+msgstr "Zug für „Letztes Gefecht: Terra Nord“ verlassen?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Weiter"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Sie sind im Zug und gefechtsbereit."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Sie können den Zug nicht verlassen!"
+
+msgid "stageReward/rewards/received"
+msgstr "Auch erhalten:"
+
+msgid "stageReward/special/header"
+msgstr "SCHWIERIGKEITSGRAD „BRUTAL“ ABGESCHLOSSEN!"
+
+msgid "stageReward/special/subheader"
+msgstr "Besondere Belohnung erhalten"
+
+msgid "stageReward/stage/header"
+msgstr "BELOHNUNGEN ERHALTEN"
+
+msgid "stageReward/stage/subheader"
+msgstr "Letztes Gefecht: Stufe {{number}} abgeschlossen"
+
+msgid "stageReward/stageFinal/header"
+msgstr "ALLE BELOHNUNGEN ERHALTEN"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Letztes Gefecht: Letzte Stufe abgeschlossen"

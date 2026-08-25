@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "Hyväksy"
+
+msgid "EULA/labels/agree"
+msgstr "Hyväksyn"
+
+msgid "EULA/title"
+msgstr "Käyttöoikeussopimus"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "Tämä sähköpostiosoite on jo kytketty tiliisi."
+
+msgid "accountCompletion/activate/button"
+msgstr "Lähetä koodi/Vaihda email"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "Lähetä koodi udelleen tai vaihda sähköpostisi %(timer) s kuluttua"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "Syötä sähköpostisi vielä kerran"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "Koodi vanheni. Syötä sähköpostisi vielä kerran."
+
+msgid "accountCompletion/activate/keyError"
+msgstr "Koodi ei kelpaa"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "Jos et löydä sähköpostia, tarkista sähköpostiosoitteesi kirjoitusvirheiden varalta."
+
+msgid "accountCompletion/activate/text"
+msgstr "Sähköposti, joka sisältää vahvistuskoodin Wargaming.netiltä lähetettiin osoitteeseen {whiteSpanish_Open}%(email){whiteSpanish_Close}. Syötä nelinumeroinen koodi vahvistaaksesi sähköpostisi ja viimeistelläksesi tilisi."
+
+msgid "accountCompletion/activate/title"
+msgstr "Vahvista sähköpostiosoite"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "Syötit väärän koodin liian monta kertaa."
+
+msgid "accountCompletion/add"
+msgstr "Lisää"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "Tämä sähköpostiosoite on jo kytketty tiliisi."
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "Sähköposti on jo yhdistetty"
+
+msgid "accountCompletion/cancel"
+msgstr "Myöhemmin"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "Sähköpostisi"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "Sähköposti"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "Lisää sähköpostisi saadaksesi palkinnon ja täyden pääsyn kaikkiin pelitapahtumiin."
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "SAAT TÄYDEN PÄÄSYN PELIIN"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "Lisää ja vahvista sähköpostiosoitteesi saadaksesi palkinnon ja avataksesi uusia ominaisuuksia. %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "Viimeistele tili"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "Tälle sähköpostiosoitteelle on jo rekisteröity tili."
+
+msgid "accountCompletion/emailForbidden"
+msgstr "Tämä sähköpostiosoite on kielletty."
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "Sähköpostiosoite ei saa sisältää yli %(amount)s merkkiä."
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "Sähköpostiosoitteen tulee sisältää vähintään %(amount)s merkkiä."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "Sähköpostiosoitteesi on jo vahvistettu."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "Sähköposti vahvistettu"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "Olet ylittänyt pyyntöjen määrän. Voit vaihtaa sähköpostiosoitettasi tai uudelleenlähettää sähköpostin %(timer) kuluttua"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "Tämä sähköpostipalvelu on estetty maassasi."
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "Tämä sähköpostipalvelu on kielletty maassasi."
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "Sähköpostin yhdistys ei onnistu"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "Sähköpostiosoite voi sisältää vain latinalaisia kirjaimia, numeroita, @-merkkejä, pisteitä ja alaviivoja."
+
+msgid "accountCompletion/later"
+msgstr "Myöhemmin"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "Palkinto sähköpostin vahvistamisesta"
+
+msgid "accountCompletion/submit"
+msgstr "Vahvista"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "Odotetaan jonossa palvelimelle.\nTämä voi viedä jonkin aikaa."
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) Palvelu ei ole väliaikaisesti saatavilla. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) Palvelu ei ole väliaikaisesti saatavilla.\nOle hyvä ja yritä uudelleen %(time)s kuluttua."
+
+msgid "barracksExpand/cancel"
+msgstr "Peruuta"
+
+msgid "barracksExpand/message"
+msgstr "Laajenna kasarmia %(price)s kullalla lisäämällä punkkia: %(count)s?"
+
+msgid "barracksExpand/submit"
+msgstr "Laajenna"
+
+msgid "barracksExpand/title"
+msgstr "Laajenna kasarmia"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "Ei tarpeeksi kultaa."
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "Laajenna kasarmia"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "Peruuta"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "Kaikki pelaajat eivät ole valmiita turnaukseen tai heitä on vähemmän kuin tarvitaan."
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "Aloita taistelu"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "Vajaa kokoonpano"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "Aktivoi bonus %(newBoosterName)s"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "Vahvista"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "Vahvista aktivoiminen"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "Jos henkilökohtainen reservi %(newBoosterName)s aktivoidaan, perutaan tällä hetkellä aktiivisen henkilökohtaisen reservin %(curBoosterName)s vaikutus ja se menetetään."
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "Vahvista"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "Vahvista aktivoiminen"
+
+msgid "buyConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "buyConfirmation/message"
+msgstr "Osta %(product)s %(price)s hintaan?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "Osta {%count} \"{%name}\" tavara(a)?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "Osta varuste \"%(equipment)s\"?"
+
+msgid "buyConfirmation/submit"
+msgstr "Osta"
+
+msgid "buyConfirmation/title"
+msgstr "Vahvista osto"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "yhteensopimaton"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " nykyisen moduulin kanssa."
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "Kulutustarvike \"%(conflicted)s\" lähetetään varikolle, koska se on "
+
+msgid "buyInstallConfirmation/message"
+msgstr "Osta ja ota käyttöön %(kind)s \"%(name)s\" nykyiselle vaunulle hintaan %(price)s%(creditsIcon)s? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "Osta ja ota käyttöön %(kind)s \"%(name)s\" nykyiselle vaunulle hintaan %(price)s krediittiä?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "Osta"
+
+msgid "buyInstallConfirmation/title"
+msgstr "Vahvista osto"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "Osta premium-tili %(days)s päiväksi %(gold)s kullalla?\n%(alertIcon)s %(alertColorTagOpen)s Teknisten ongelmien takia et saa ylimääräistä kokemusta tai krediittejä. Yritä valita eri taistelu tai premium-tilin ostaminen \"Osta premium-tili\" -valikosta.%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "Osta"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "Vahvista osto"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "Tallipaikka"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "buySlotConfirmation/message"
+msgstr "Osta ylimääräinen paikka talliin käyttäen %(goldCost)s?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "Osta"
+
+msgid "buySlotConfirmation/title"
+msgstr "Vahvista osto"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "Ei tarpeeksi krediittejä paikan ostamiseen."
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "Ei riittävästi krediittejä"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "Ei tarpeeksi kultaa paikan ostoon."
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "Ei riittävästi kultaa"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "Ei vapaita paikkoja tallissa. Osta lisäpaikka maksamalla {%d} krediittiä?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "Osta"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "Vahvista osto"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "Lataa standardiammukset"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "Peruuta"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Sinulla on jo miehistö tälle vaunulle."
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "Vaunun vuokra-aikana saat lisätallipaikan ilmaiseksi."
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "Ammusten lastaaminen ei onnistu: valitulla vaunulla on jo täysi ammuskuorma."
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "Ammusten lastaaminen ei onnistu: valitulla vaunulla on yhä joitain ammuksia."
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "Hinta: %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "Osta lisäpaikka talliin"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "Osta"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "Osta"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "Vaihtokauppa"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "Osta ilman miehistöä"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "Kouluta miehistöä"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "Miehistön jäsenet: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "Osta %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "Summa:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "Olet syöttänyt virheellisiä tietoja."
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "Syötä kullan määrä riviltä \"Yhteensä\""
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "Vahvista toiminto:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "Sinulla ei ole soveltuvia vaunuja\nvaihtokauppaan"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "Arvioitu arvo on %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "Kouluta miehistö: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "Yhteensä:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "Valitse vaunu"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "Valitse premium-vaunu\nvaihtokauppaa varten"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "Peruuta"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "Väliraha vaunulle %(vehiclename)s:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "Muunna"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "Osta ilman miehistöä"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "Vaihda %(vehiclename)s"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "Ostettuja varusteita ja kulutustarvikkeita ei hyvitetä kullalla, kun painat alla olevaa \"Vaihtokauppa\" -painiketta. Ole hyvä ja tarkasta kaikki yksityiskohdat huolellisesti."
+
+msgid "buyVehicleWindow/warning"
+msgstr "Ostettuja varusteita ja kulutustarvikkeita ei hyvitetä kullalla, kun painat alla olevaa \"Osta\" -painiketta. Ole hyvä ja tarkista yksityiskohdat huolellisesti."
+
+msgid "challenge_missions/activation/cancel"
+msgstr "Peruuta"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "Aktivoi"
+
+msgid "challenge_missions/activation/description"
+msgstr "Aktivoinnin jälkeen Tulikokeen tehtäväsarjan voi {{@ style (color #FFE4C0)}}suorittaa, siinä voi epäonnistua tai sen voi hylätä{{/}}. Jos epäonnistut sarjan tehtävässä, menetät yhden kilven."
+
+msgid "challenge_missions/activation/title"
+msgstr "Aktivoi Tulikoe: {{challengeName}}?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "Peruuta"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "Aloita uudelleen"
+
+msgid "challenge_missions/restart/description"
+msgstr "Tehtäväsi edistys nollautuu, kilpesi palautetaan ja voit ansaita palkintoja uudelleen. Tehtäväsarja on aktiivinen heti uudelleen aloituksen jälkeen."
+
+msgid "challenge_missions/restart/free/title"
+msgstr "Aloita uudelleen ilmaiseksi Tulikoe: {{challengeName}}?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "Aloita uudelleen Tulikoe: {{challengeName}} hintaan {{cost}}?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "Peruuta"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "Hylkää"
+
+msgid "challenge_missions/surrender/description"
+msgstr "Hylkääminen päättää tämän Tulikokeen tehtäväsarjan ja nollaa kaiken edistymisen ja kilvet. Voit aloittaa koska hyvänsä uudelleen."
+
+msgid "challenge_missions/surrender/title"
+msgstr "Hylkää Tulikoe: {{challengeName}}?"
+
+msgid "changeGraphics/cancel"
+msgstr "Peruuta"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s Grafiikoita on muutettu huomattavasti tässä päivityksessä. Voit valita grafiikka-asetukset automaattisesti tai peruuttaa ja valita asetukset itse."
+
+msgid "changeGraphics/submit"
+msgstr "Autom. valinta"
+
+msgid "changeGraphics/title"
+msgstr "Grafiikka-asetusten automaattinen valinta"
+
+msgid "changePeriphery/cancel"
+msgstr "Peruuta"
+
+msgid "changePeriphery/message"
+msgstr "Siirry toiselle palvelimelle?"
+
+msgid "changePeriphery/submit"
+msgstr "Siirry"
+
+msgid "changePeriphery/title"
+msgstr "Vahvista siirtyminen"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "Peruuta"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "Palvelinmuutokset tallennetaan. Voit ottaa tai poistaa automaattisen kirjautumisen käytöstä asetuksista."
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "Jatka"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "Siirry toiselle palvelimelle?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "Peruuta"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "Siirry toiselle palvelimelle?\n\nJos vaihdat palvelinta, sinulla on seuraavia rajoituksia:\n\t• Jotkut vaunut eivät ole saatavilla.\n\t• Tunnuksia ja kirjoituksia ei näytetä.\n\t• Tehtävät, henkilökohtaiset reservit ja \"Koekenttä\" -tila eivät ole saatavilla.\n\nSinulla voi olla virheitä ja ongelmia yhteyden laadun kanssa. Kunnioita toisen alueen pelaajia."
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "Siirry"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "Vahvista siirtyminen"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "Peruuta"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "Siirry toiselle palvelimelle?\n\nJos vaihdat palvelinta, sinulla on seuraavia rajoituksia:\n\t• Jotkut vaunut eivät ole saatavilla.\n\t• Tunnuksia ja kirjoituksia ei näytetä.\n\t• Tehtävät, henkilökohtaiset reservit ja \"Koekenttä\" -tila eivät ole saatavilla.\n\nSinulla voi olla virheitä ja ongelmia yhteyden laadun kanssa. Kunnioita toisen alueen pelaajia.\n\n\nPalvelimen muuttamiset tallennetaan.\nMene asetuksiin ottaaksesi automaattisen kirjautumisen käyttöön tai pois käytöstä."
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "Jatka"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "Vahvista siirtyminen"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "Peruuta"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sOlet liittymässä klaaniin:\n%(clanName)s\n\nVahvistamalla aikeesi liittyä klaaniin, hyväksyt automaattisesti sen säännöt ja määräykset, sekä suostut osallistumaan aktiivisesti klaanin toimintoihin ja kehittämiseen.\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "Lähdettyäsi klaanista, et voi väliaikaisesti liittyä toiseen klaaniin."
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "Vahvista"
+
+msgid "clanConfirmJoining/title"
+msgstr "Vahvista klaaniin liittyminen"
+
+msgid "clan_data_not_available/cancel"
+msgstr "Sulje"
+
+msgid "clan_data_not_available/message"
+msgstr "Tämän pelaajan klaanin profiili ei ole väliaikaisesti saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "clan_data_not_available/title"
+msgstr "Huomio!"
+
+msgid "common/cancel"
+msgstr "Peruuta"
+
+msgid "common/confirm/cancel"
+msgstr "Ei"
+
+msgid "common/confirm/submit"
+msgstr "Kyllä"
+
+msgid "common/cost"
+msgstr "Hinta:"
+
+msgid "common/error/cancel"
+msgstr "Sulje"
+
+msgid "common/submit"
+msgstr "Jatka"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "Peruuta"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "Osta"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "Osta ja asenna direktiivejä"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "Peruuta"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "Huomio! %(devices)s ei ole asennettu. Direktiivi %(font_tag_open)sEI TOIMI.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "Asenna"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "Asenna direktiivi"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "Peruuta"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "Huomio! Sinulla ei ole valitun direktiivin kanssa yhteensopivaa varustetta. Direktiivi %(font_tag_open)sEI TOIMI.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "Asenna"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "Asenna direktiivi"
+
+msgid "confirmBuy/title"
+msgstr "Osta %(moduleName)s?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "Peruuta"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "Moduuli lähetetään varastoon."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "Ostamiseen vaadittava määrä:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "Ansaitse krediittejä taisteluista, myy ylimääräisiä tavaroita varastostasi tai muunna kultaa saadaksesi lisää."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "Ei riittävästi krediittejä"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "Moduulin hinta:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "Myy korvattu moduuli (%(previousModuleName)) hintaan %(previousModulePrice)"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "Tämän moduulin kanssa yhteensopivia ovat:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "Voit myydä moduulin nyt tai se lähetetään varastoon, josta voit myöhemmin myydä sen tai ottaa sen uudelleen käyttöön."
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "Osta"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "Osta ja asenna %(moduleName)s?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "Osta ja asenna varuste \"%(equipment)s\"?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "Asenna"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "Peruuta"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "Muuntamista ei tarvita.\nSinulla on riittävästi krediittejä."
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "Ei voida ostaa: muuntaminen epäonnistui.\n%(gold)s vaaditaan lisää muuntamiseen."
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "Muunna %(gold)s vaadituksi määräksi krediittejä?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "Krediittejä tarvitaan:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "Ostamiseen tarvittava määrä: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "Vaihda"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "Vahvista muunto ostamista varten"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "Peruuta"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "Muuntamista ei tarvita.\nSinulla on riittävästi kokemusta."
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "Ei voida tutkia: muuntaminen epäonnistui.\n%(gold)s vaaditaan lisää muuntamiseen."
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "Muunna tarvittava kokemus hintaan %(gold)s?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "Kokemusta tarvitaan:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "Tutkimiseen vaadittava määrä: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "Valitse vaunu"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "Vahvista muunto tutkimista varten"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "Summa:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "Peruuta"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "Muuntamista ei vaadita palauttamiseen.\nSinulla on tarpeeksi krediittejä."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "Ei voida muuntaa palauttamista varten.\n%(gold)s vaaditaan muuntamiseen."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "Muunna %(gold)s puuttuvaksi määräksi krediittejä?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "Krediittejä tarvitaan:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "Palauttamiseen vaadittava määrä: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "Muunna"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "Vahvista muunto palauttamiseen"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "Määrä:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "Numero"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "Summa"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "Hinta:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "Hinta"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "Summa:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "Summa"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "Summa:"
+
+msgid "confirmUnlock/cancel"
+msgstr "Ei"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} (sisältäen {{freeXP}})?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "Tutki {{items}} käyttäen"
+
+msgid "confirmUnlock/item/message"
+msgstr "Tutki \"%(typeString)s %(userString)s\" hintaan %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (sisältäen %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "confirmUnlock/submit"
+msgstr "Kyllä"
+
+msgid "confirmUnlock/title"
+msgstr "Vahvista tutkiminen"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "Tutki \"%(userString)s\" hintaan %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (sisältäen %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "Peruuta"
+
+msgid "controlsWrongNotification/message"
+msgstr "Yhdelle tai useammalle näppäimelle ei ole annettu toimintoa. Tallenna ohjainasetukset?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "Tallenna"
+
+msgid "controlsWrongNotification/title"
+msgstr "Virhe"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "Peruuta"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "Valitun ilmoitusäänen tiedostot puuttuvat tai ne ovat viallisia, ilmoitusääni asetetaan vakioksi.\nYksi tai useampi näppäin ei ole asetettu. Tallenna asetukset?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "Tallenna"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "Virhe"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "createOrderConfirmation/submit"
+msgstr "Vahvista"
+
+msgid "createOrderConfirmation/title"
+msgstr "Vahvista reservin valmistelu"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "Ei riittävästi varoja ostoon."
+
+msgid "crewBookPurchase/description/crew"
+msgstr "Vaikuttaa koko miehistöön. %(book)s tarjoaa luettaessa jokaiselle miehistön jäsenelle %(exp)s."
+
+msgid "crewBookPurchase/description/personal"
+msgstr "Käytetään valitulle miehistönjäsenelle. %(book)s tarjoaa luettaessa tälle miehistön jäsenelle %(exp)s."
+
+msgid "crewBookPurchase/purchase"
+msgstr "Osta"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "Osta %(book)s?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "Peruuta"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "Kaikki käytössä olevat koristeet {season}kartoille {removed} vaunustasi,\nsillä tämä paikka ei ole saatavilla {this}"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "Vahvista"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "näillä kartoilla."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "tällä kartalla."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "Käytä tätä koristetta tässä kaikkien karttojen paikassa?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "Elementit asennetaan ostettaessa nykyiseen vaunuun. Tähdellä merkityt elementit eivät ole saatavilla muille vaunuille."
+
+msgid "customization/buy_install_bound/title"
+msgstr "Vahvistus elementtien ostamisesta"
+
+msgid "customization/change_install_bound/message"
+msgstr "Elementit asennetaan valittaessa nykyiseen vaunuun. Tähdellä merkityt elementit eivät ole saatavilla muille vaunuille."
+
+msgid "customization/change_install_bound/title"
+msgstr "Vahvistus elementtien vaihtamisesta"
+
+msgid "customization/close/cancel"
+msgstr "Peruuta"
+
+msgid "customization/close/submit"
+msgstr "Poistu"
+
+msgid "customization/close/title"
+msgstr "Palataanko talliin tallentamatta muutoksia?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "Peruuta"
+
+msgid "customization/exitToShop/submit"
+msgstr "Jatka"
+
+msgid "customization/exitToShop/title"
+msgstr "Jatka Kauppaan tallentamatta muutoksia?"
+
+msgid "customization/filter/cancel"
+msgstr "Peruuta"
+
+msgid "customization/filter/message"
+msgstr "Kaikki elementit poistetaan. Jatka?"
+
+msgid "customization/filter/submit"
+msgstr "Poista kaikki"
+
+msgid "customization/filter/title"
+msgstr "Poista elementit"
+
+msgid "customization/install_bound/cancel"
+msgstr "Peruuta"
+
+msgid "customization/install_bound/submit"
+msgstr "Jatka"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "Peruuta"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "Huomio! Kun olet asettanut elementin (%(cTypeName)s \"%(itemName)s\") nykyiseen vaunuun, voit asettaa tämän elementin enää vain %(numberLeft)s vaunuun. Aseta elementti?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "Aseta"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "Aseta elementti"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "Peruuta"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "Huomio! Kun olet asettanut elementin (%(cTypeName)s \"%(itemName)s\") nykyiseen vaunuun, et voi asettaa tätä elementtiä enää muihin vaunuihin. Aseta elementti?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "Aseta"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "Aseta elementti"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "Peruuta"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "Huomio! Kun olet asettanut elementin (%(cTypeName)s \"%(itemName)s\") nykyiseen vaunuun, et voi asettaa tätä elementtiä enää muihin vaunuihin. Elementti %(willBeDeleted)s, jos se poistetaan. Aseta elementti?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "Aseta"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "Aseta elementti"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "hävitetään"
+
+msgid "customization/remove_element/cancel"
+msgstr "Peruuta"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "Poista"
+
+msgid "customization/remove_element/title"
+msgstr "Poista elementti"
+
+msgid "customizationConfirmSell/message"
+msgstr "Myydäänkö %(name)s hintaan %(price)s%(creditsIcon)s?"
+
+msgid "customizationConfirmSell/title"
+msgstr "Vahvista myynti"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "joka %(days)s. päivä"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "joka %(days)s p %(hours)s t"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "joka %(hours)s t"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "joka %(hours)s t %(mins)s min"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "joka %(mins)s min"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "Tehtävien arpominen uusiksi on saatavilla {timeLimitMsg}"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "Arvo"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "Arvo tehtävä uusiksi?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} Jotkut vaunuistasi ovat taistelussa. Saatat menettää etenemistäsi arvottuasi tehtävän uusiksi. Tehtävän arpominen uusiksi on saatavilla {timeLimitMsg}"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "Arvo"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "Arvo tehtävä uusiksi?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "Varoitus!"
+
+msgid "dedication/headline"
+msgstr "\"Aikamme sankari\" -palkinto saatu"
+
+msgid "dedication/sub-headline"
+msgstr "{battlesNum} käydystä taistelusta"
+
+msgid "dialogTemplates/cancel"
+msgstr "Peruuta"
+
+msgid "dialogTemplates/confirm"
+msgstr "Vahvista"
+
+msgid "dialogTemplates/ok"
+msgstr "Selvä!"
+
+msgid "disconnect/cancel"
+msgstr "Ei"
+
+msgid "disconnect/message"
+msgstr "Katkaise yhteys palvelimeen?"
+
+msgid "disconnect/submit"
+msgstr "Kyllä"
+
+msgid "disconnect/title"
+msgstr "Katkaise palvelinyhteys"
+
+msgid "disconnected/cancel"
+msgstr "OK"
+
+msgid "disconnected/message"
+msgstr "Yhteys palvelimeen on katkaistu. Paina OK ottaaksesi yhteyden uudelleen."
+
+msgid "disconnected/messageBan"
+msgstr "Tilisi on jäädytetty.%(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "Tilisi on jäädytetty %(expiryTime)s asti.%(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "Yhteys palvelimeen on keskeytynyt.%(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \nSyy: %s"
+
+msgid "disconnected/title"
+msgstr "Yhteys katkaistu"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "Lähetä eläkkeelle"
+
+msgid "dismissTankman/description/perk"
+msgstr "Syötä pätevyyden koulutustaso tätä toimintoa varten: {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "Tätä toimintoa varten syötä viimeisimpänä koulutetun pätevyyden koulutustaso ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "Valitut miehistön jäsenet lähetetään eläkkeelle. Voit palauttaa heidät {whiteOrange_Open}%(time)s p{whiteOrange_Close} ajan."
+
+msgid "dismissTankman/header"
+msgstr "Miehistön jäsenen lähettäminen eläkkeelle"
+
+msgid "dismissTankman/limited"
+msgstr "Eläköitymisen raja on saavutettu. Eläkkeelle lähetetty miehistön jäsen korvaa seuraavan miehistön jäsenen: %(name)s (%(role)s, %(vehicle)s)."
+
+msgid "dismissTankman/noRecovery"
+msgstr "Palauttaminen ei ole mahdollista"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "Peruuta"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "Huomio! Lähettäessäsi eläkkeelle miehistön jäseniä (%(dismissedName)s) korvaavat he miehistön jäsenet %(deletedStr)s. Vahvista muutos?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "Vahvista"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "Vahvista muutos"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "Peruuta"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "Huomio! Kun lähetät miehistön eläkkeelle, se korvaa %(deletedStr)s ja %(extraCount)s miehistön jäsentä. Vahvista vaihto?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "Vahvista"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "Eläkkeelle lähetettyjen miehistön jäsenten puskuri on täynnä"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "Korvaa"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "Nimi"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "Sukunimi"
+
+msgid "documentChangeDialog/title"
+msgstr "Korvaa nimi ja ulkonäkö?"
+
+msgid "dropSkill/cancel"
+msgstr "Peruuta"
+
+msgid "dropSkill/message"
+msgstr "Nollaa kaikki pätevyydet?"
+
+msgid "dropSkill/submit"
+msgstr "Alusta"
+
+msgid "dropSkill/title"
+msgstr "Vahvista alustus"
+
+msgid "elementType/chassis"
+msgstr "telakoneisto"
+
+msgid "elementType/engine"
+msgstr "moottori"
+
+msgid "elementType/gun"
+msgstr "tykki"
+
+msgid "elementType/radiostation"
+msgstr "radio"
+
+msgid "elementType/turret"
+msgstr "torni"
+
+msgid "elenDisabled/cancel"
+msgstr "Sulje"
+
+msgid "elenDisabled/message"
+msgstr "Kilpailut eivät ole väliaikaisesti saatavilla normaalin ylläpidon tähden."
+
+msgid "elenDisabled/title"
+msgstr "Huomio!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "Peruuta"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "Älä näytä tätä varoitusta uudelleen"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "Tietokoneesi kokoonpanosta johtuen tulet törmäämään hitaaseen ruudunpäivitykseen ja grafiikkahäiriöihin tässä pelitilassa. Taistelun lataaminen vie pidempään ja voi johtaa pelin kaatumiseen. Haluatko silti liittyä taisteluun?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "Taistele!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "Suorituskykyvaroitus"
+
+msgid "equipmentBuyInstall/price"
+msgstr "Ostohinta:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "Pura %(equipment)s?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "Peruuta"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "Pura ja päivitä"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "Pura"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "Tämä irrotettava varuste {white_Open}tuhoutuu{white_Close}.\nSen voi irrottaa ehjänä arvopapereita käyttämällä."
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "Tämä irrotettava varuste {white_Open}tuhoutuu{white_Close}.\nSen voi irrottaa ehjänä kultaa tai irrotuspakkausta käyttämällä."
+
+msgid "equipmentDestroy/conformation"
+msgstr "Tuhoa varuste \"%(equipment)s\"?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "Asenna varuste \"%(equipment)s\"?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "Myy varuste \"%(equipment)s\"?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "Peruuta"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "Päivitä"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "Purkamiseen"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "Kokeellisia varusteita ei ole saatavilla purettavaksi."
+
+msgid "eula/p1"
+msgstr "Ole hyvä ja lue <BR/><A HREF='event:%(eulaURL)s'><U>Käyttöoikeussopimus</U></A>, ennen kuin jatkat."
+
+msgid "eula/p2"
+msgstr "KLIKKAAMALLA \"HYVÄKSY\" SINÄ TEET TIETTÄVÄKSI, ETTÄ OLET LUKENUT, YMMÄRTÄNYT JA SUOSTUNUT SITOUTUMAAN JA NOUDATTAMAAN KÄYTTÖOIKEUSSOPIMUSTA JA OLEMAAN TÄSTÄ LÄHTIEN VASTUULLINEN KAIKISTA RIKKEISTÄ. EULA JA KAIKKI NIIDEN LISÄYKSET/MUUTOKSET OVAT VELVOITTAVAT KAIKKIA PROJEKTIN JÄSENIÄ."
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "Muunna %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s hintaan %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "Muunna"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "Muunna kultaa"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "Alennusta enintään %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s kokemuksen muuntamisesta vapaaksi kokemukseksi tullaan käyttämään. Seuraavalla kerralla, kokemusta muutetaan kullalla."
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "Muunna %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s kokemusta vapaaksi kokemukseksi hintaan %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "Siirrä"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "Muunna vapaaksi kokemukseksi"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "Ei riittävästi kokemusta muunnettavaksi"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "Ei riittävästi kokemusta muunnettavaksi"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "Peruuta"
+
+msgid "fillAllPerks/button/fill"
+msgstr "Autom. valinta"
+
+msgid "fillAllPerks/checkbox"
+msgstr "Valitse kasarmilla oleville miehistöille pätevyydet automaattisesti"
+
+msgid "fillAllPerks/description"
+msgstr "Algoritmi valitsee alla olevasta taulukosta ensimmäisen pätevyyden riippuen miehistön jäsenen, jolla vapaita pätevyyspaikkoja on, roolista. Mikäli miehistön jäsenellä on jo ensimmäinen pätevyys, valitsee algoritmi sen sijaan toisen jatkaen siihen asti, kunnes kaikki tyhjät pätevyyspaikat on täytetty. Toiminto voi viedä jonkin aikaa."
+
+msgid "fillAllPerks/subTitle"
+msgstr "Pätevyydet valitaan automaattisesti vain miehistön jäsenille, jotka ovat vaunussa."
+
+msgid "fillAllPerks/title"
+msgstr "Valitse kouluttamattomat pätevyydet automaattisesti kaikille miehistön jäsenille?"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "Peruuta"
+
+msgid "finance_dialog/header"
+msgstr "Vahvista toiminto"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "Syötä maksun salasana vahvistaaksesi tämän toiminnan."
+
+msgid "finance_dialog/results/invalid"
+msgstr "Virheellinen salasana."
+
+msgid "finance_dialog/results/limit"
+msgstr "Olet syöttänyt väärän salasanan liian monta kertaa. Yritä uudelleen 24 tunnin kuluttua. <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Unohditko salasanasi?</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "Salasanan pitää olla vähintään 6 merkkiä pitkä. Salasana voi sisältää latinalaisia kirjaimia, numeroita tai '_' -merkkejä."
+
+msgid "finance_dialog/submitBtn"
+msgstr "Vahvista"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "Hanki %(product)s %(price)s hintaan?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "Hanki"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "Vahvista"
+
+msgid "fortDisabled/cancel"
+msgstr "Sulje"
+
+msgid "fortDisabled/message"
+msgstr "Tietoa klaaneista ei juuri nyt ole saatavilla aikataulun mukaisen huollon tähden."
+
+msgid "fortDisabled/title"
+msgstr "Huomio!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "OK"
+
+msgid "fortTurnedOff/message"
+msgstr "Linnake on väliaikaisesti poissa käytöstä. Yritä myöhemmin uudelleen."
+
+msgid "fortTurnedOff/title"
+msgstr "Huomio!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "Ei"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "Kyllä"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "Peruuta"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "Poistut tämänhetkisen rakennuksen %(oldBuilding)s varuskunnasta. Sinut liitetään rakennukseen %(newBuilding)s."
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "Vahvista"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "Liitä rakennukseen"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "freeObtainConfirmation/message"
+msgstr "Hanki %(product)s %(price)s hintaan?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "Hanki"
+
+msgid "freeObtainConfirmation/title"
+msgstr "Vahvista"
+
+msgid "freeSkillsLearning/message"
+msgstr "Nollapätevyyttä ei tarvitse kouluttaa kokemuspisteillä. Se tarjoaa edun vähentämällä merkittävästi miehistön jatkokoulutuksen vaatiman kokemuksen määrää."
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "Valitse \"%(skillName)s\" nollapätevyydeksi?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "Uudelleenkouluta \"%(skillName)s\" nollapätevyydeksi?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "freeSlotConfirmation/message"
+msgstr "Käytä 100% alennusta lisätäksesi talliisi ylimääräisen tallipaikan ilmaiseksi?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "Lisää"
+
+msgid "freeSlotConfirmation/title"
+msgstr "Lisää tallipaikka"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "Sulje"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "Olet saavuttanut ilmaisten vaunujen ostorajan. Yritä huomenna uudelleen."
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "Sulje"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "Ostoraja"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)sKokemus%(orangeText_close)s%(simpleText_open)s on peliresurssi, jota ansaitaan taisteluista.\n\nSe käsittää:%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)sTaistelukokemusta%(orangeText_close)s%(simpleText_open)s käytetään tutkittaessa tietyn vaunun uusia moduuleja, kuin myös edistymiseen Wargaming universumin pelissä, jossa se on ansaittu.%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sVapaata kokemusta%(orangeText_close)s%(simpleText_open)s käytetään tutkimaan mitä hyvänsä moduuleja ja vaunuja sekä nopeuttamaan miehistön koulutusta. Käytä vapaata kokemusta harkitusti. %(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "Jatka"
+
+msgid "freeXPInfo/title"
+msgstr "Kokemus"
+
+msgid "gammaDialog/cancel"
+msgstr "Aloita"
+
+msgid "gammaDialog/message/description"
+msgstr "Komentaja! Konfiguroi näyttösi oikeisiin väritasoihin ja paranna sen kuvanlaatua.\n\n "
+
+msgid "gammaDialog/message/header"
+msgstr "Konfiguroi näyttösi nyt!"
+
+msgid "gammaDialog/title"
+msgstr "Gamma-asetukset"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "Muuntamisen jälkeen:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "Ennen muuntamista:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "Peruuta"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "Muunna"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "Yhteensä:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "Miehistö"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "Vaunu"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "Kokemusta"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "Kaikki vaunut"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "Järjestä valittujen vaunujen mukaan."
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "Järjestä vaunun nimen mukaan."
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "Vaunu"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "Järjestä saatujen kokemuspisteiden mukaan."
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "Kokemusta"
+
+msgid "gatheringXPForm/title"
+msgstr "Muunna vapaaksi kokemukseksi"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "Muunna kokemusta:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "Miehistön koulutusta on nopeutettu."
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "Miehistön koulutus on normaali."
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "Summa:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "Summa:"
+
+msgid "graphics/message/alert"
+msgstr "Huomio!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "Kuva-asetukset ovat muuttuneet. Palataan edellisiin asetuksiin %(time)s sekunnin kuluttua. Tallenna asetukset?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "Tallenna"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "Tallenna kuva-asetukset"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "Ei"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "Huomio! Kaikki muutokset menetetään. Jatka joka tapauksessa?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "Kyllä"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "Tunnista grafiikka-asetukset automaattisesti"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "Ei"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "Huomio! Tiettyjen grafiikka-asetusten muuttaminen saattaa kestää hetken. Jatka?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "Kyllä"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "Muuta asetuksia"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "Sulje"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "Ei voida asettaa parametria maksimaaliseksi. Käyttäjän määrittämiä grafiikka-asetuksia käytetään sen sijaan."
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "Huomio"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "Sulje"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "Korkea tekstuurien laatu on saatavilla vain 64-bittisille järjestelmille."
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "Tekstuurien laatu ei saatavilla"
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "Myöhemmin"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "Joidenkin asetusten muutokset tulevat voimaan, kun peli käynnistetään uudelleen."
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "Käynnistä"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "Muuta asetuksia"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/message"
+msgstr "Tallissa ei ole vapaata tilaa jäljellä. Harkitse paikan ostoa tai vaunun myyntiä vapauttaaksesi tilaa vaunulle, jonka haluat ostaa."
+
+msgid "haveNoEmptySlots/submit"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/title"
+msgstr "Virhe"
+
+msgid "hof/excludeRating/cancel"
+msgstr "Peruuta"
+
+msgid "hof/excludeRating/message"
+msgstr "Muut pelaajavat eivät enää näe saavutuksiasi, mutta voit tehdä ne näkyviksi Hall of Famen etusivulla."
+
+msgid "hof/excludeRating/submit"
+msgstr "Piilota tulokset"
+
+msgid "hof/excludeRating/title"
+msgstr "Näytä tulokset tuloslistoilla"
+
+msgid "hofDisabled/cancel"
+msgstr "Sulje"
+
+msgid "hofDisabled/message"
+msgstr "Hall of Fame ei väliaikaisesti ole saatavilla. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "hofDisabled/title"
+msgstr "Huomio!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "Peruuta"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}Epätäydellinen miehistö{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}Yksi tai useampi miehistön jäsen ei sovellu vaunuun{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "Valittu vaunu ei ole soveltuva yhdestä seuraavista syistä:"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "Vain yksi miehistön jäsen voi saada bonuksen, joten se siirretään. Nykyinen vaunu:"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "Uusi vaunu:"
+
+msgid "idleCrewBonus/submit"
+msgstr "Vahvista"
+
+msgid "idleCrewBonus/title"
+msgstr "Ota käyttöön miehistön intensiivikoulutus?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "Kokeile selaimen rautakiihdytyksen poistamista asetuksista (grafiikat -välilehti)."
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "Latausvirhe"
+
+msgid "interviewQuit/cancel"
+msgstr "Takaisin"
+
+msgid "interviewQuit/message"
+msgstr "Voit kieltäytyä kyselystä nyt ja tehdä sen myöhemmin avaamalla kutsun ilmoituskeskuksesta. Viesti on aktiivinen yhden pelisession ajan."
+
+msgid "interviewQuit/submit"
+msgstr "Kieltäydy"
+
+msgid "interviewQuit/title"
+msgstr "Kieltäydy kyselystä"
+
+msgid "koreaParentNotification/cancel"
+msgstr "Selvä!"
+
+msgid "koreaParentNotification/message"
+msgstr "Lasten ja teini-ikäisten peliriippuvuuden ehkäisemiseksi taisteluun liittyminen %(preBlockTime)s jälkeen on estetty. Palvelinyhteytesi katkaistaan %(blockTime)s."
+
+msgid "koreaParentNotification/submit"
+msgstr "Selvä!"
+
+msgid "koreaParentNotification/title"
+msgstr "Peliajan rajoittaminen"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "Selvä!"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "Aikaraja ylitetty. Et voi liittyä uuteen taisteluun."
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "Selvä!"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "Vanhempien työkalut"
+
+msgid "leaveEvent/cancel"
+msgstr "Peruuta"
+
+msgid "leaveEvent/message"
+msgstr "Kilpailuun kuuluvien taistelujesi tulokset nollataan, kun tuloslistat päivitetään. Et voi sijoittua tuloslistalle ja saada palkintoja.\n\n Jätettyäsi kilpailun kesken %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "ET VOI OSALLISTUA UUDELLEEN."
+
+msgid "leaveEvent/submit"
+msgstr "Poistu kilpailusta"
+
+msgid "leaveEvent/title"
+msgstr "Poistu kilpailusta"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "Peruuta"
+
+msgid "leaveStartedEvent/message"
+msgstr "Taisteluidesi tuloksia ei lasketa mukaan tähän kilpailuun. Et voi päästä tuloslistalle ja saada palkintoja.\n\n Kun olet kerran poistunut kilpailusta, %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "Poistu kilpailusta"
+
+msgid "leaveStartedEvent/title"
+msgstr "Poistu kilpailusta"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "Peruuta"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "Olet jo taistelujonossa. Haluatko poistua hyväksyäksesi kutsun?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "Kutsu"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "Peruuta"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "Olet jo osastossa. Oletko varma, että haluat jättää nykyisen osastosi ja hyväksyä tämän kutsun?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "Kutsu"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "Peruuta"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "Olet jo harjoitushuoneessa. Oletko varma, että haluat poistua ja hyväksyä kutsun?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "Kutsu"
+
+msgid "legalInfoWindow/title"
+msgstr "Oikeudelliset tiedot"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "Peruuta"
+
+msgid "limitedUIOffNotification/message"
+msgstr "Oletko varma, että haluat ottaa pois käytöstä käyttöliittymän piilotettujen elementtien asteittaisen ilmestymisen tallissa?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "Tämän asetuksen pois kytkemisen jälkeen et voi ottaa sitä uudelleen käyttöön."
+
+msgid "limitedUIOffNotification/submit"
+msgstr "Poista käytöstä"
+
+msgid "limitedUIOffNotification/title"
+msgstr "Muuta asetuksia"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "Peruuta"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "Palvelinmuutokset tallennetaan. Voit ottaa tai poistaa automaattisen kirjautumisen käytöstä asetuksista."
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "Jatka"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "Tallenna palvelimen vaihto?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "Vaihtoehtoisessa kokoonpanossa ei ole kylliksi ammuksia. Liitytäänkö taisteluun siitä huolimatta?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "Puutteellinen ammuskuorma"
+
+msgid "lowAmmo/cancel"
+msgstr "Peruuta"
+
+msgid "lowAmmo/message"
+msgstr "Ei tarpeeksi ammuksia valitun vaunun ammustelineessä. Ammukset täydennetään automaattisesti ennen taistelun alkua."
+
+msgid "lowAmmo/submit"
+msgstr "Täydennä"
+
+msgid "lowAmmo/title"
+msgstr "Ammusten autom. täydennys"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "Peruuta"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "Valitussa vaunussa ei ole kylliksi ammuksia. Liitytäänkö taisteluun siitä huolimatta?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "Taistele!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "Puutteellinen ammuskuorma"
+
+msgid "lowFpsWarning/cancel"
+msgstr "Ei"
+
+msgid "lowFpsWarning/message"
+msgstr "Nykyiset peliasetukset aiheuttavat alhaisen pelisuorituskyvyn. Haluatko laskea grafiikoiden laatua?"
+
+msgid "lowFpsWarning/submit"
+msgstr "Kyllä"
+
+msgid "lowFpsWarning/title"
+msgstr "Alhainen pelisuorituskyky"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "Pelaajan %(userName)s tiedot on lukittu."
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "Pelaajan tiedot on lukittu"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "Käyttäjän %(userName)s tiedot eivät ole tällä hetkellä saatavilla."
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "Tiedot eivät ole tällä hetkellä saatavilla"
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "Peruuta"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)sTämän asetuksen ottaminen käyttöön heikentää tietokoneen suorituskykyä taistelussa."
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "Huomio!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "Päälle"
+
+msgid "minimapAlphaNotification/title"
+msgstr "Pienoiskartan läpinäkyvyys"
+
+msgid "moduleSale/conformation/header"
+msgstr "Myy %(moduleType)s: %(moduleName)s?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "Peruuta"
+
+msgid "moneyTransfer/labelClan"
+msgstr "Klaani:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "krediittiä"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "kultaa"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "Maksu:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "Siirrä:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "Normaali:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "krediittiä"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "kultaa"
+
+msgid "moneyTransfer/labelTo"
+msgstr "Vastaanottaja:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "Summa:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(ei ole klaanin jäsen)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "Lähetä"
+
+msgid "moneyTransfer/title"
+msgstr "Siirrä kultaa"
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "Siirrä {gold} <img src='icon_gold' /> pelaajalle {player}? Sinulta veloitetaan {fee} <img src='icon_gold' />."
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "Siirrä"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "Vahvista siirto"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Aseta maksulle salasana</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/message"
+msgstr "Kullan siirto ei ole sallittu. Syy: %s."
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "Siirron rajoitus loppuu %s."
+
+msgid "moneyTransferRestriction/submit"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/title"
+msgstr "Kullan siirto ei ole sallittu."
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "Ei"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "Osaan asetuksista tehdyt muutokset otetaan käyttöön seuraavassa taistelussa. Jatketaanko?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "Kyllä"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "Muuta asetuksia"
+
+msgid "perkLearnConfirm/desc"
+msgstr "Pätevyyden taso koulutuksen jälkeen: {yellow_Open}%(level)s%%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "Kouluta"
+
+msgid "perkLearnConfirm/title"
+msgstr "Kouluta \"%(skillName)s\" -pätevyys?"
+
+msgid "perksReset/after"
+msgstr "Nollauksen jälkeen:"
+
+msgid "perksReset/before"
+msgstr "Ennen nollausta:"
+
+msgid "perksReset/cancel"
+msgstr "Peruuta"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "Tämä vaihtoehto ei ole saatavilla sinulle, sillä sinulla on jo 100% alennus pätevyyksien nollaamiseen panssarivaunuakatemiassa."
+
+msgid "perksReset/discountTooltip/header"
+msgstr "Ei saatavilla"
+
+msgid "perksReset/free/description"
+msgstr "Pätevyydet {yellow_Open}1%{yellow_Close} asti voidaan nollata ilmaiseksi."
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "Tällä miehistön jäsenellä on ilmainen ensimmäinen pätevyyksien nollaus"
+
+msgid "perksReset/graceLabel"
+msgstr "Ilmainen pätevyyksien nollaus on saatavilla:"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "Yhteenlaskettu pätevyyksien kokemus vähenee. Saatavilla on vähemmän pätevyyksiä koulutettavaksi."
+
+msgid "perksReset/noNewPerks"
+msgstr "Kaikki kokemus koulutetuista pätevyyksistä lisätään päätaidon tasoon."
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "yhteenlasketusta pätevyyksien kokemuksesta"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "Rykmenttikoulu"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "yhteenlasketusta pätevyyksien kokemuksesta"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "Pikakurssit"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "Nollaa pätevyydet\n menettämättä kokemusta"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "Käytä krediittejä nollaaman pätevyyksiä menettämättä kokemusta"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "Panssarivaunuakatemia"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "Nollaa pätevyydet\n menettämättä kokemusta"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "Nollaa"
+
+msgid "perksReset/title"
+msgstr "Nollaa kaikki miehistön jäsenen pätevyydet?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "Peruuta"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "Valittu äänifysiikoiden laatu eroaa peliohjelman automaattisesti havaitsemista asetuksista. Tämän asetuksen käyttöön ottaminen voi vaikuttaa suorituskykyyn. Suosittelemme suorituskyvyn testaamista ennen vahvistamista. Haluatko ottaa nämä muutokset käyttöön?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "Vahvista"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "Äänifysiikoiden laatu eroaa"
+
+msgid "postmortem/cancel"
+msgstr "Poistu"
+
+msgid "postmortem/message"
+msgstr "Vaunu on tuhoutunut. Haluatko pysyä taistelussa vai poistua talliin?"
+
+msgid "postmortem/submit"
+msgstr "Pysy"
+
+msgid "postmortem/title"
+msgstr "Vaunu on tuhoutunut"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "Osta premium-tili %(days)s päiväksi %(gold)s kullalla?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "Osta"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "Vahvista osto"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "Jatka premium-tiliä %(days)s päivällä hintaan %(gold)s kultaa?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "Jatka"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "Vahvista"
+
+msgid "priceCard/credits/title"
+msgstr "Rykmenttikoulu"
+
+msgid "priceCard/free/title"
+msgstr "Pikakurssit"
+
+msgid "priceCard/gold/title"
+msgstr "Panssarivaunuakatemia"
+
+msgid "priceCard/price/free"
+msgstr "Ilmainen"
+
+msgid "priceCard/recertification/title"
+msgstr "Uudelleenkoulutuskäsky"
+
+msgid "punishmentWindow/cancel"
+msgstr "Tunnustan"
+
+msgid "punishmentWindow/header/ban"
+msgstr "Sinut on estetty %(time)s ajaksi"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "Sinua on rangaistu"
+
+msgid "punishmentWindow/header/warning"
+msgstr "Epäurheilijamainen käytös"
+
+msgid "punishmentWindow/info"
+msgstr "Mikäli tilanteesi johtui yhteysongelmista tai muista teknisistä vaikeuksista,\nole hyvä ja ota yhteyttä Pelaajatukeen."
+
+msgid "punishmentWindow/message/ban"
+msgstr "Rikoit pelisääntöjä {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} kartalla kello {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nSinua on väliaikaisesti estetty osallistumasta {whiteSpanish_Open}\"%(mode)s\"{whiteSpanish_Close} -pelimuodon taisteluihin."
+
+msgid "punishmentWindow/message/penalty"
+msgstr "Rikoit pelisääntöjä {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} kartalla kello {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nTaistelussa ansaitsemasi krediitit, kokemus ja palkinnot on poistettu."
+
+msgid "punishmentWindow/message/warning"
+msgstr "Rikoit pelisääntöjä {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} kartalla kello {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nToistuvan rikkomuksen tapauksessa sinua estettiin saamasta taistelussa ansaittuja krediittejä, kokemusta ja palkintoja."
+
+msgid "punishmentWindow/reason/afk"
+msgstr "Toimettomuus taistelussa"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "Taistelusta poistuminen ennen sen päättymistä tai vaunun tuhoutumista"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "Toimettomuus taistelussa/etuajassa taistelusta poituminen"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "Tahallinen itsetuho"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s p %(hour)s t"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 min"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s min"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "Peruuta"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "Älä kysy uudelleen"
+
+msgid "questsConfirmDialog/message"
+msgstr "Jos valitset tehtävän \"%(newQuest)s\", tehtävä \"%(oldQuest)s\" peruutetaan."
+
+msgid "questsConfirmDialog/submit"
+msgstr "Vahvista"
+
+msgid "questsConfirmDialog/title"
+msgstr "Vahvista tehtävän valitseminen"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "Peruuta"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "Kaikki edistymisesi \"%(curQuest)s\" tehtävässä nollataan.\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "Huomio! Kaikki edistymisesi nykyisessä tehtävässä menetetään."
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "Vahvista"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "Nollaa eteneminen"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "Peruuta"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "Mikäli valiset %(newQuest)s tehtävän, kaikki edistymisesi %(oldQuest)s tehtävässä nollataan.\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "Huomio! Kaikki edistymisesi nykyisessä tehtävässä menetetään."
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "Vahvista"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "Vahvista tehtävän valitseminen"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "Peruuta"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "%(quest)s tehtävä peruutetaan.\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "Huomio! Kaikki edistymisesi nykyisessä tehtävässä menetetään."
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "Vahvista"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "Vahvista tehtävän peruminen"
+
+msgid "quit/cancel"
+msgstr "Pysy"
+
+msgid "quit/submit"
+msgstr "Poistu"
+
+msgid "quit/title"
+msgstr "Poistu pelistä?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "Peruuta"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "Joukkueesi tarvitsee sinua! Taistelusta poistumista ennen sen päättymistä tai vaunusi tuhoutumista pidetään karkuruutena. Se voi johtaa rangaistukseen ja kaikkien IGR:ssä pelatun taistelun bonusten menettämiseen."
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "Karkaa"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "Karkaa taistelukentältä?"
+
+msgid "quitBattle/cancel"
+msgstr "Peruuta"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Peruuta"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Joukkueesi tarvitsee sinua! Taistelusta poistumista ennen sen päättymistä tai vaunusi tuhoutumista pidetään karkuruutena. Se voi johtaa rangaistukseen."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Karkaa"
+
+msgid "quitBattle/leaver/title"
+msgstr "Karkaa taistelukentältä?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "Peruuta"
+
+msgid "quitBattle/replay/submit"
+msgstr "Lopeta"
+
+msgid "quitBattle/replay/title"
+msgstr "Poistu tarkkailijatilasta?"
+
+msgid "quitBattle/submit"
+msgstr "Poistu"
+
+msgid "quitBattle/title"
+msgstr "Poistu taistelusta?"
+
+msgid "quitPreBattle/cancel"
+msgstr "Ei"
+
+msgid "quitPreBattle/message"
+msgstr "Oletko varma, että haluat poistua taistelujonosta?"
+
+msgid "quitPreBattle/submit"
+msgstr "Kyllä"
+
+msgid "quitPreBattle/title"
+msgstr "Poistu taistelujonosta"
+
+msgid "rally/autoSearch/cancel"
+msgstr "Ei"
+
+msgid "rally/autoSearch/message"
+msgstr "Etsi vapaita paikkoja automaattisesti?"
+
+msgid "rally/autoSearch/submit"
+msgstr "Kyllä"
+
+msgid "rally/autoSearch/title"
+msgstr "Automaattihaku"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "Peruuta"
+
+msgid "rally/changePeriphery/message"
+msgstr "Sinut siirretään automaattisesti palvelimelle (%(host)s). Jatketaanko silti?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "Siirry"
+
+msgid "rally/changePeriphery/title"
+msgstr "Siirry toiselle palvelimelle"
+
+msgid "rally/goToAnother/cancel"
+msgstr "Peruuta"
+
+msgid "rally/goToAnother/message"
+msgstr "Jos vaihdat taistelutilaa, sinut poistetaan automaattisesti taktisesta yksiköstä."
+
+msgid "rally/goToAnother/submit"
+msgstr "Siirry"
+
+msgid "rally/goToAnother/title"
+msgstr "Vaihda pelimuotoa"
+
+msgid "rally/goToIntro/cancel"
+msgstr "Peruuta"
+
+msgid "rally/goToIntro/message"
+msgstr "Oletko varma, että haluat poistua taktisesta yksiköstä?"
+
+msgid "rally/goToIntro/submit"
+msgstr "Vahvista"
+
+msgid "rally/goToIntro/title"
+msgstr "Vahvista poistuminen"
+
+msgid "rally/goToSquad/cancel"
+msgstr "Peruuta"
+
+msgid "rally/goToSquad/message"
+msgstr "Jos luot osaston, sinut poistetaan automaattisesti nykyisestä taistelumuodosta."
+
+msgid "rally/goToSquad/submit"
+msgstr "Luo"
+
+msgid "rally/goToSquad/title"
+msgstr "Luo osasto"
+
+msgid "rally/leave/cancel"
+msgstr "Peruuta"
+
+msgid "rally/leave/message"
+msgstr "Haluatko varmasti poistua taktisesta yksiköstä ja poistua pelimuodosta?"
+
+msgid "rally/leave/submit"
+msgstr "Vahvista"
+
+msgid "rally/leave/title"
+msgstr "Vahvista poistuminen"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "Jatka"
+
+msgid "rally/leaveDisabled/message"
+msgstr "Et voi poistua tilasta. Vaunusi on merkitty olevan valmiina taisteluun."
+
+msgid "rally/leaveDisabled/title"
+msgstr "Huomio"
+
+msgid "rally/startBattle/cancel"
+msgstr "Ei"
+
+msgid "rally/startBattle/message"
+msgstr "Etsi vihollista?"
+
+msgid "rally/startBattle/submit"
+msgstr "Kyllä"
+
+msgid "rally/startBattle/title"
+msgstr "Etsi vihollista"
+
+msgid "recruit/cancel"
+msgstr "Peruuta"
+
+msgid "recruit/submit"
+msgstr "Värvää"
+
+msgid "recruit/title"
+msgstr "Värvää uusi %(role)s %(vehicleName)s vaunuun?"
+
+msgid "recruit/voiceoverText"
+msgstr "Miehistön jäsenen ainutlaatuinen ääninäyttely toimii vain komentajan päätaidossa."
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "Sinun ei tarvitse värvätä miehistön jäseniä premium-vaunuihin. Voit siirtää miehistön saman tyyppiseen premium-vaunuun ilman rangaistusta."
+
+msgid "recruit/warning/slotChanged"
+msgstr "Tätä miehistön jäsentä ei voida värvätä valitulle vaunulle ja hänet lähetetään kasarmille."
+
+msgid "recruitConversionConfirm/warning"
+msgstr "Miehistön jäsenellä on vanhentuneita pätevyyksiä, jotka nollataan automaattisesti ilman kokemuspisteiden menetystä."
+
+msgid "recruitDialog/name/title"
+msgstr "Värvää uusi miehistön jäsen (%(name)s)?"
+
+msgid "recruitDialog/title"
+msgstr "Värvää uusi miehistön jäsen?"
+
+msgid "recruitWindow/cancel"
+msgstr "Peruuta"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "Ei valittu"
+
+msgid "recruitWindow/nation"
+msgstr "Kansakunta"
+
+msgid "recruitWindow/specialization"
+msgstr "Karsinnat"
+
+msgid "recruitWindow/submit"
+msgstr "Värvää"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "Vaunutyyppi"
+
+msgid "recruitWindow/vehicleType"
+msgstr "Vaunu"
+
+msgid "referralReward/cancel"
+msgstr "Peruuta"
+
+msgid "referralReward/message"
+msgstr "Ota vastaan %(product)s?"
+
+msgid "referralReward/submit"
+msgstr "Vahvista"
+
+msgid "referralReward/title"
+msgstr "Vahvistus vastaanottamisesta"
+
+msgid "refuseTraining/cancel"
+msgstr "Ei"
+
+msgid "refuseTraining/message"
+msgstr "Lopeta koulutus?"
+
+msgid "refuseTraining/submit"
+msgstr "Kyllä"
+
+msgid "refuseTraining/title"
+msgstr "Vahvista"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "Tuhoa"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "Peruuta"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "\"%(name)s\" kulutustarvike siirretään varastoon, koska se on %(reason)s nykyisen moduulin kanssa."
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "yhteensopimaton"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "Irrota"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "Vahvista irrottaminen"
+
+msgid "rentConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "rentConfirmation/event"
+msgstr "\"%(eventName)s\" pelimuotoon"
+
+msgid "rentConfirmation/message"
+msgstr "Vuokraa %(name)s %(event)s hintaan %(price)s?"
+
+msgid "rentConfirmation/submit"
+msgstr "Vahvista"
+
+msgid "rentConfirmation/title"
+msgstr "Vahvista vuokraus"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "Peruuta"
+
+msgid "rentConfirmationRenew/message"
+msgstr "Pidennä %(name)s vaunun vuokra-aikaa %(event)s hintaan %(price)s?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "Vahvista"
+
+msgid "rentConfirmationRenew/title"
+msgstr "Vahvista vuokraus"
+
+msgid "replacePassport/unique/cancel"
+msgstr "Peruuta"
+
+msgid "replacePassport/unique/message"
+msgstr "Tämä on uniikki miehistön jäsen ja hänen henkilökohtaisia tietojaan ei voida alustaa myöhemmin. Haluatko varmasti vaihtaa henkilökohtaiset tiedot hintaan %(gold)s kultaa?"
+
+msgid "replacePassport/unique/submit"
+msgstr "Vaihda"
+
+msgid "replacePassport/unique/title"
+msgstr "Vahvista vaihtaminen"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "replacePassportConfirmation/message"
+msgstr "Vaihda tämän miehistön jäsenen henkilötiedot hintaan %(gold)s kultaa?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "Vaihda"
+
+msgid "replacePassportConfirmation/title"
+msgstr "Vaihda henkilötiedot"
+
+msgid "replayNotification/cancel"
+msgstr "Ei"
+
+msgid "replayNotification/message"
+msgstr "Tämä World of Tanks versio ei tue kyseistä taistelun nauhoitusta. Tämä voi aiheuttaa virheitä toistossa. Ohita tämä ja toista kuitenkin?"
+
+msgid "replayNotification/submit"
+msgstr "Kyllä"
+
+msgid "replayNotification/title"
+msgstr "Varoitus"
+
+msgid "replayStopped/cancel"
+msgstr "Peruuta"
+
+msgid "replayStopped/message"
+msgstr "Toisto valmis. Klikkaa \"Lopeta\" poistuaksesi pelistä."
+
+msgid "replayStopped/submit"
+msgstr "Lopeta"
+
+msgid "replayStopped/title"
+msgstr "Toisto valmis"
+
+msgid "reportBug/cancel"
+msgstr "Peruuta"
+
+msgid "reportBug/message"
+msgstr "Tästä klikkaaminen avaa oletusselaimen ja vie sinut World of Tanksin Pelaajatuen verkkosivuille ilmoittamaan virheestä. Jatka?"
+
+msgid "reportBug/submit"
+msgstr "Jatka"
+
+msgid "reportBug/title"
+msgstr "Mene Pelaajatukeen"
+
+msgid "resetAllPerks/cancel"
+msgstr "Peruuta"
+
+msgid "resetAllPerks/submit"
+msgstr "Nollaa"
+
+msgid "resetAllPerks/title"
+msgstr "Nollaa kaikki pätevyydet kaikilta miehistön jäseniltä?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}Kaikkien tilisi miehistön jäsenten kaikki pätevyydet nollataan.{orangeEnd}\n{orangeStart} Tätä toimintoa ei voi peruuttaa.{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "Jatka"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)sGrafiikka-asetukset on valittu automaattisesti optimaalisen kuvanlaadun takaamiseksi.\nValitse huonompi grafiikoiden laatu asetuksista parantaaksesi suorituskykyä."
+
+msgid "resetGraphics/submit"
+msgstr "Asetukset"
+
+msgid "resetGraphics/title"
+msgstr "Muuta grafiikka-asetuksia"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "Palauta"
+
+msgid "restoreTankman/description"
+msgstr "%(name)s palautetaan."
+
+msgid "restoreTankman/free"
+msgstr "Hinta: ilmainen"
+
+msgid "restoreTankman/header"
+msgstr "Palauta tämä miehistön jäsen?"
+
+msgid "restoreTankman/price"
+msgstr "Hinta:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "Peruuta"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "Palauta %(vehiclename)s"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "Palauta"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "Ilman miehistöä"
+
+msgid "restoreVehicleDialog/title"
+msgstr "Palauta %(vehiclename)s"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "Kun klikkaat \"Palauta\", et voi muuntaa ostettuja varusteita ja kulutustarvikkeita kullaksi. Ole hyvä ja tarkista kaikki tiedot kahteen kertaan."
+
+msgid "retrain/cancel"
+msgstr "Peruuta"
+
+msgid "retrain/changeRole"
+msgstr "Vaihda päätaito"
+
+msgid "retrain/discountLabel"
+msgstr "Tämä alennus on saatavlla, koska ensimmäistä pätevyyttä ei ole koulutettu 100% tasolle."
+
+msgid "retrain/discountTooltip/body"
+msgstr "Tämä vaihtoehto ei ole saatavilla sinulle, sillä sinulla on jo 100% alennus uudelleenkoulutukseen panssarivaunuakatemiassa."
+
+msgid "retrain/discountTooltip/header"
+msgstr "Ei saatavilla"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "Uudelleenkoulutettavat miehistön jäsenet: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "Sinun ei tarvitse kouluttaa miehistön jäseniä premium-vaunuihin.\nVoit siirtää miehistön saman tyyppiseen premium-vaunuun ilman rangaistusta."
+
+msgid "retrain/price"
+msgstr "Hinta:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "Pätevyystehokkuus\nkoulutuksen jälkeen: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "Rykmenttikoulu"
+
+msgid "retrain/priceCard/free/description"
+msgstr "Pätevyystehokkuus\nkoulutuksen jälkeen: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "Pikakurssit"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "Pätevyystehokkuus\nkoulutuksen jälkeen: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "Panssarivaunuakatemia"
+
+msgid "retrain/submit"
+msgstr "Uudelleenkouluta"
+
+msgid "retrain/title/massive"
+msgstr "Uudelleenkouluta miehistö %(vehicleName)s vaunuun&zwnbsp;?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "Uudelleenkouluta %(vehicleName)s vaunuun\n ja vaihda päätaidoksi %(role)?"
+
+msgid "retrain/title/single/simple"
+msgstr "Uudelleenkouluta %(vehicleName)s vaunuun"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "Soveltumattoman päätaidon pätevyydet poistetaan käytöstä. Nollaa ne käsin."
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "Miehistö voidaan siirtää saman tyyppiseen premium-vaunuun ilman koulutusta tai rangaistusta, mutta soveltumattomat pätevyydet tulee nollata käsin."
+
+msgid "rudyInfo/message"
+msgstr "Kuolemattomia klassikkoja jo pelissä! \"Neljä vaunumiestä ja koira\" (puolaksi \"Czterej pancerni i pies\") oli puolalainen mustavalkoinen TV-sarja, joka perustui Janusz Przymanowskin saman nimiseen romaaniin. TV-sarja, jonka ensi-ilta oli 9. päivä toukokuuta vuonna 1966, esitti T-34-85 vaunun, lempinimeltään Rudy (Punainen), miehistön ja heidän Szarik koiran seikkailuita toisen maailmansodan aikana."
+
+msgid "rudyInfo/submit"
+msgstr "Selvä!"
+
+msgid "rudyInfo/title"
+msgstr "Neljä vaunumiestä ja koira"
+
+msgid "selectVehicle/counter"
+msgstr "Näytetyt vaunut:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "Valitse hyökkäävä vaunu"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "Valitse tämä vaunu"
+
+msgid "sellConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "sellConfirmation/submit"
+msgstr "Myy"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "Myy"
+
+msgid "sellModuleConfirmation/title"
+msgstr "Vahvista myynti"
+
+msgid "sellShellConfirmation/submit"
+msgstr "Myy ammus: %(shellName)s?"
+
+msgid "sendInvites/common/title"
+msgstr "Kutsu taktiseen yksikköön"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "Peruuta"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "Tämän rupeaman tilastojen automaattiseen nollaamiseen{}"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "Nollaa"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ":%(hours)s t %(minutes)s min"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "Nollaa rupeaman tilastot?"
+
+msgid "shopSyncError/cancel"
+msgstr "Jatka"
+
+msgid "shopSyncError/message"
+msgstr "Päivitä sovellus. Jos virhe toistuu, päivitä palvelin."
+
+msgid "shopSyncError/title"
+msgstr "Synkronoimaton"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "Peruuta"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "Kouluta valitut pätevyydet?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "Kouluta"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "Ota käyttöön"
+
+msgid "soundModeInvalid/cancel"
+msgstr "Peruuta"
+
+msgid "soundModeInvalid/message"
+msgstr "Valitun ilmoitusäänen tiedostot puuttuvat tai ne ovat viallisia, ilmoitusääni asetetaan vakioksi."
+
+msgid "soundModeInvalid/submit"
+msgstr "Tallenna"
+
+msgid "soundModeInvalid/title"
+msgstr "Virhe"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "Peruuta"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "Valittu äänijärjestelmä on eri kuin pelin automaattisesti määrittämä. Jotkut äänet eivät välttämättä ole saatavilla. Suosittelemme sinua kokeilemaan äänien eroa. Vahvistetaanko muutokset?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "Vahvista"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "Poikkeava äänijärjestelmä"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "Ei"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "Valittu äänijärjestelmä on eri kuin pelin automaattisesti määrittämä. Jotkut äänet eivät välttämättä ole saatavilla. Otetaanko käyttöön optimaaliset ääniasetukset?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "Kyllä"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "Poikkeava äänijärjestelmä"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "Selvä!"
+
+msgid "squad/eventDisabled/message"
+msgstr "Tapahtuma ei saatavilla. Osasto lakkautetaan."
+
+msgid "squad/eventDisabled/title"
+msgstr "Tapahtuma päättynyt"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Peruuta"
+
+msgid "squad/goToAnother/message"
+msgstr "Olet osastossa. Jos vaihdat pelimuotoa sinut poistetaan osastosta."
+
+msgid "squad/goToAnother/submit"
+msgstr "Siirry"
+
+msgid "squad/goToAnother/title"
+msgstr "Vaihda pelimuotoa"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "Peruuta"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "Pelimuotoa vaihdettaessa nykyinen osastosi hajotetaan. Haluatko todella vaihtaa taistelutyyppiä?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "Vahvista"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "Pelimuodon vaihtaminen"
+
+msgid "squad/goToSquad/cancel"
+msgstr "Peruuta"
+
+msgid "squad/goToSquad/message"
+msgstr "Poistu taktisesta yksiköstä ja luo osasto pelaajan kanssa?"
+
+msgid "squad/goToSquad/submit"
+msgstr "Luo"
+
+msgid "squad/goToSquad/title"
+msgstr "Luo osasto"
+
+msgid "squad/leave/cancel"
+msgstr "Peruuta"
+
+msgid "squad/leave/message"
+msgstr "Haluatko varmasti poistua osastosta?"
+
+msgid "squad/leave/submit"
+msgstr "Vahvista"
+
+msgid "squad/leave/title"
+msgstr "Vahvista poistuminen"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Jatka"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Et voi poistua osastosta. Olet osaston jäsen ja valmiina taisteluun."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Huomio"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "Peruuta"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "Osasto on vajaa. Yksi pelaaja lisätään automaattisesti. Liity taisteluun?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "Taistele!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "Osasto ei ole valmis"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "Peruuta"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "Osasto ei ole täynnä. Liity taisteluun tästä huolimatta?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "Taistele!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "Osasto ei ole valmis"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "Peruuta"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "Osasto on vajaa. Lisää pelaajia automaattisesti ja liity taisteluun?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "Taistele!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "Osasto ei ole valmis"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "Peruuta"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "Yksi osaston jäsenistä ei ole valmis. Liity taisteluun tästä huolimatta?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "Taistele!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "Osasto ei ole valmis"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "Peruuta"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "Pelaaja, joka ei vahvistanut valmiuttaan poistetaan taktisesta yksiköstä. Yksi pelaaja lisätään automaattisesti. Liity taisteluun?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "Taistele!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "Osasto ei ole valmis"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "Peruuta"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "Kumpikaan osaston jäsenistä ei ole valmis. Liity taisteluun tästä huolimatta?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "Taistele!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "Osasto ei ole valmis"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "Peruuta"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "Osasto on vajaa. Pelaajat, jotka eivät vahvistaneet valmiuttaan, poistetaan taktisesta yksiköstä. Lisää pelaajat automaattisesti ja liity taisteluun?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "Taistele!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "Osasto ei ole valmis"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "Virhe liityttäessä uuteen taisteluun: kaikki pelaajat eivät ole vielä palanneet. Odota nykyisen taistelun päättymistä."
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "Selvä!"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "Osasto ei ole valmis"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "OK"
+
+msgid "squadPremiumNeeded/message"
+msgstr "Vain premium-tilin käyttäjät voivat luoda osaston.\nOsaston luonut käyttäjä voi kutsua mitä tahansa tiliä käyttävän pelaajan."
+
+msgid "squadPremiumNeeded/title"
+msgstr "Vain premium-tili"
+
+msgid "steamStartNeeded/cancel"
+msgstr "Sulje peli"
+
+msgid "steamStartNeeded/message"
+msgstr "Peli täytyy käynnistää Steamin kautta kirjautumisen onnistumiseksi."
+
+msgid "steamStartNeeded/title"
+msgstr "Kirjautuminen ei onnistu"
+
+msgid "stronghold/leave/cancel"
+msgstr "Peruuta"
+
+msgid "stronghold/leave/message"
+msgstr "Oletko varma, että haluat lähteä osastosta?"
+
+msgid "stronghold/leave/submit"
+msgstr "Vahvista"
+
+msgid "stronghold/leave/title"
+msgstr "Vahvista poistuminen"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "Kun lähdet, osasto hajotetaan.\nKlaania rangaistaan siitä, ettei se saapunut taisteluun.\nOletko varma, että haluat lähteä osastosta?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "Vahvista poistuminen"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "Peruuta"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "Siirry"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "Siirry toiselle palvelimelle"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "tradeInConfirmation/message"
+msgstr "%(vehName)s annetaan vaihtokauppaan, eikä se ole palautettavissa.%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " Lisäksi, %(operations)s."
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "miehistö lähetetään kasarmille"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "kulutustarvikkeet lähetetään asevarikolle"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "varusteet irrotetaan ilmaiseksi"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "kaikki ostetut kaksoismuokkaukset peruutetaan, mutta perusmuokkausten eteneminen tallennetaan"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "ammukset lähetetään asevarikolle"
+
+msgid "tradeInConfirmation/submit"
+msgstr "Vaihtokauppa"
+
+msgid "tradeInConfirmation/title"
+msgstr "Vaunun vaihtokauppa"
+
+msgid "tradeInPopover/descr"
+msgstr "Tallissa saatavilla olevat premium-vaunut"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "Näyttää valittujen vaunujen kansakunnat."
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "Kansakunta"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "Näyttää, kuinka paljon säästät, kun valitut vaunut vaihtokaupataan"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "Vaunujen\narviointi"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "Vaunujen arviointi"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "Näyttää valittujen vaunujen tasot."
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "Taso"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "Näyttää valittujen vaunujen nimet."
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "Nimi"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "Näyttää valittujen vaunujen tyypit."
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "Tyyppi"
+
+msgid "tradeInPopover/title"
+msgstr "Valitse vaunu vaihtokauppaa varten"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "Valitse vaunu"
+
+msgid "updateNeeded/cancel"
+msgstr "Myöhemmin"
+
+msgid "updateNeeded/message"
+msgstr "Ole hyvä ja päivitä ohjelmasi."
+
+msgid "updateNeeded/submit"
+msgstr "Päivitä"
+
+msgid "updateNeeded/title"
+msgstr "Vaaditaan päivitystä"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "Kouluta miehistön jäsen {%d} kullalla?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "Kouluta"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "Vahvista koulutus"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "Ei riittävästi kultaa koulutukseen."
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "Ei riittävästi kultaa"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "Peruuta"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "Kouluta miehistön jäsen {%d} krediitillä?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "Kouluta"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "Vahvista koulutus"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "Ei riittävästi krediittejä koulutukseen."
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "Ei riittävästi krediittejä."
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "Peruuta"
+
+msgid "vehConf/exitDialog/message"
+msgstr "Muutoksia ei tallenneta. Poistu vaunun kokoonpanovalikosta?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "Vahvista"
+
+msgid "vehConf/exitDialog/title"
+msgstr "Peruuta muutokset"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "Poista %(name)s tallista"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "Peruuta"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "Huomio! Tämä on spesiaalivaunu. Jos myyt sen, sinun täytyy odottaa %(cooldown)s, jotta voit palauttaa sen. Myy vaunu?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "Vahvista"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "Vahvista myynti"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "Peruuta"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "Huomio! Tämä on spesiaalivaunu. Vaikka myisit vaunun, pystyt palauttamaan sen. Myy vaunu?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "Vahvista"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "Vahvista myynti"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "Peruuta"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "Peruuta"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "Huomio! Tämä vaunu on ainutlaatuinen, eikä sitä voi saada takaisin. Myös miehistö erotetaan pysyvästi."
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "Vahvista"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "Vahvista myynti"
+
+msgid "vehicleSell/unique/message"
+msgstr "Huomio! Tämä on spesiaalivaunu. Se ei ole ostettavissa kaupasta. Jatka?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "Kyllä"
+
+msgid "vehicleSell/unique/title"
+msgstr "Vahvista myynti"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "VAHVISTA MYYNTI"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "Vahvistaaksesi, syötä myyntihinta sarakkeesta \"Summa\" (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "Olet syöttänyt virheellisiä tietoja."
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "AMMUKSET:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "DIREKTIIVIT:"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "Peruuta"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "SUMMA:"
+
+msgid "vehicleSellDialog/count"
+msgstr "kpl"
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "Lähetä eläkkeelle"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "Lähetä kasarmille"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "MIEHISTÖ:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "ULKOASU:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "Pura"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "KULUTUSTARVIKKEET:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "Laajenna"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "VARIKOLLA:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "Käytetty:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "Sisältää kaikki vaunun kansalliset kokoonpanot!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "Moduulit"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "VARUSTEET:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "Vaunun myymisen jälkeen nykyinen kenttämuokkausten taso säilyy, mutta kaikki kaksoismuokkaukset perutaan."
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "Saatu:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "Poista"
+
+msgid "vehicleSellDialog/submit"
+msgstr "Myy"
+
+msgid "vehicleSellDialog/title"
+msgstr "Myy %(name)s"
+
+msgid "vehicleSellDialog/unload"
+msgstr "Lähetä varikolle"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "Eliitti"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "Hinta"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "Taso. "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "Rooli: "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "PST-vaunu"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "Telatykki"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "Raskas vaunu"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "Kevyt vaunu"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "Keskiraskas vaunu"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "Selvä!"
+
+msgid "voiceChatInitFailed/message"
+msgstr "Virhe äänikeskustelua käynnistettäessä: palvelu ei ole juuri nyt käytettävissä."
+
+msgid "voiceChatInitFailed/title"
+msgstr "Valmistellaan äänikeskustelua"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "OK"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "Äänikeskustelu valmisteltiin onnistuneesti."
+
+msgid "voiceChatInitSucceded/title"
+msgstr "Valmistellaan äänikeskustelua"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "Sulje"
+
+msgid "waterQualityNotPossible/message"
+msgstr "Korkealaatuinen vesi on saatavilla vain, jos 'Jälkikäsittely' on päällä."
+
+msgid "waterQualityNotPossible/title"
+msgstr "Vedenlaatu ei ole saatavilla"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "Peruuta"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "Tarkasta onko vaunuja saatavilla tallissa"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "Hinta: %(price)s %(icon)s (saatavilla: %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "Pelaaja: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "Valitut vaunut: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "Palauta palveluskelpoisuus"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "Palauta palveluskelpoisuus?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "Apuri"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "Läsnäolopalkinnot"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "Taistelubonus"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "Taistelupassi Plus"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "Estetty kartta"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "Eksklusiivinen vaunu"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "Eksklusiiviset vaunut"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "Ilmainen varusteiden irrotus"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "Kultavarasto"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "Miehistön intensiivikoulutus"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "Kohdennettava kokemuskerroin"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "Pro-boosti"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "Palvelushistorian kustomointi"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "\"Panssarimies\" -banneri"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "WOT PLUS AKTIVOITU"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "Olen valmis!"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "Jatketaan {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "WOT PLUS PERUSVERSIO AKTIVOITU"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "Lisätiedot"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "360 päivän tilaus"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "180 päivän tilaus"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}, jatketaan {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "WOT PLUS PRO AKTIVOITU"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "Aktivoi"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}Et voi tehostaa toista vaunua uudelleen vielä {{@ style (color #fff)}}{{boostInterval}} tuntiin{{/}}.{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "Pro-boostin aktivointi auttaa tätä vaunua ansaitsemaan {{@ style (color #fff)}}{{bonusPercent}} enemmän krediittejä ja kokemuspisteitä{{/}}. Vaikuttaa vain yhteen vaunuun."
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "Aktivoi Pro-boosti {{vehicle}} vaunulle?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "Vaihda"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}Vain yksi vaunu voi saada boostin. Et voi tehostaa toista vaunua uudelleen vielä {{@ style (color #fff)}}{{boostInterval}} tuntiin{{/}}.{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "Pro-boostin aktivointi auttaa tätä vaunua ansaitsemaan {{@ style (color #fff)}}{{bonusPercent}} enemmän krediittejä ja kokemuspisteitä{{/}}. Vaikuttaa vain yhteen vaunuun."
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "Vaihda Pro-boosti {{vehicle}} vaunulle?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "Peruuta"
+
+msgid "wotPlusRental/description"
+msgstr "Seuraava vaunun vuokra tulee saataville {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "Vuokraa"
+
+msgid "wotPlusRental/title"
+msgstr "Vuokraa {cream_Open}%s{cream_Close}?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "Tallenna"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "Haluatko tallentaa palvelushistorian muokkauksesi?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "Peruuta"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "Käytä kaikki tällä vaunulla ansaittu kokemus miehistön koulutukseen. Vähiten kokenut miehistön jäsen kouluttautuu kaksinkertaisella nopeudella."
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "Päällä"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "Nopeuta miehistön koulutusta?"

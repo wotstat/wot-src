@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Wyczyść filtry"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Brak pojazdów spełniających wybrane parametry.\nWyczyść ustawienia filtra, aby zobaczyć pasujące pojazdy"
+
+msgid "battleType/description/fast"
+msgstr "Scenariusz ze skróconym czasem przygotowania rezerw bojowych."
+
+msgid "battleType/description/random"
+msgstr "Scenariusz, w którym gracze wybierają pomiędzy zestawami losowych rezerw z możliwością ulepszenia ich do IV poziomu."
+
+msgid "battleType/description/standard"
+msgstr "Scenariusz ze standardowymi zasadami Linii Frontu."
+
+msgid "battleType/postBattle/title"
+msgstr "Scenariusz bitewny: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Skrócony czas przygotowania rezerw."
+
+msgid "battleType/shortDescription/random"
+msgstr "Rezerwy bojowe są przydzielane losowo."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Stosowane są standardowe zasady."
+
+msgid "battleType/title/fast"
+msgstr "Wsparcie operacyjne"
+
+msgid "battleType/title/random"
+msgstr "Zakręty losu"
+
+msgid "battleType/title/standard"
+msgstr "Bitwa standardowa"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "WRÓĆ"
+
+msgid "button/close"
+msgstr "ZAMKNIJ"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} dzień"
+msgstr[1] "{duration} dni"
+msgstr[2] "{duration} dni"
+
+msgid "filterPopover/note"
+msgstr "Tutaj wyświetlają się tylko pojazdy, których można użyć w tym trybie."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Poziomy rezerwy bojowej rosną po osiągnięciu kolejnych stopni."
+
+msgid "levelReservesTooltip/info"
+msgstr "W scenariuszu {whiteSpanish_Start}Zakręty losu{whiteSpanish_End} zakup rezerwy bojowej podnosi jej poziom o jeden i daje możliwość ulepszenia jej do poziomu {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/level"
+msgstr "Podnosi się przy osiągnięciu następującego stopnia: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Dostępny z następującym stopniem: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Poziom {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "Dla {whiteSpanish_Start}kupionych rezerw bojowych{whiteSpanish_End} w scenariuszu {whiteSpanish_Start}Zakręty losu{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/title"
+msgstr "Poziomy rezerwy bojowej"
+
+msgid "loading"
+msgstr "Ładowanie..."
+
+msgid "widget/eventStartSoon"
+msgstr "Wydarzenie niedługo się zacznie!"
+
+msgid "widget/maxTier"
+msgstr "Osiągnąłeś maksymalny poziom!"

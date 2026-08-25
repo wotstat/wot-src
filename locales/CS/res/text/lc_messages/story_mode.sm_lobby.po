@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, doba trvání bitvy: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "ZAVŘÍT"
+
+msgid "battleResult/continueButton"
+msgstr "Pokračovat"
+
+msgid "battleResult/damageAssisted"
+msgstr "Asistované\npoškození"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Zablokované\npoškození"
+
+msgid "battleResult/damageDealt"
+msgstr "Způsobené\npoškození"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s Dokončením misí na těžkou obtížnost\nautomaticky splníte mise s běžnou obtížností.\nTo znamená, že získáte odměny za obě úrovně obtížnosti."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s Dokončením misí na těžkou obtížnost automaticky splníte mise s běžnou obtížností.\nTo znamená, že získáte odměny za obě úrovně obtížnosti."
+
+msgid "battleResult/kills"
+msgstr "Nepřátel\nzničeno"
+
+msgid "battleResult/lose/title"
+msgstr "BITVA SKONČILA"
+
+msgid "battleResult/missionName/1"
+msgstr "LOVEC TIGERŮ: Operace Ocelová lavina"
+
+msgid "battleResult/missionName/2"
+msgstr "LOVEC TIGERŮ: Operace Traper"
+
+msgid "battleResult/missionName/3"
+msgstr "LOVEC TIGERŮ: Operace Kladivo a kovadlina"
+
+msgid "battleResult/missionName/4"
+msgstr "LOVEC TIGERŮ: Operace Kočka v pasti na myši"
+
+msgid "battleResult/missionName/5"
+msgstr "OPERACE OVERLORD"
+
+msgid "battleResult/missionName/6"
+msgstr "OPERACE POŠŤÁK"
+
+msgid "battleResult/missionName/7"
+msgstr "OPERACE BOD VARU"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Žádné aktivní\nmise:"
+
+msgid "battleResult/rewards/other"
+msgstr "Také získáno:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Mise\nsplněny"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s – %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Přežilo{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Nepřežilo{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "VÍTĚZSTVÍ!"
+
+msgid "countdown/days"
+msgstr "{days} d"
+
+msgid "countdown/daysHours"
+msgstr "{days} d {hours} h"
+
+msgid "countdown/endsSoon"
+msgstr "Méně než {minutes} minut"
+
+msgid "countdown/hours"
+msgstr "{hours} h"
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} h {minutes} min"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} h {minutes} min"
+
+msgid "countdown/lessThanMinute"
+msgstr "Méně než 1 minuta"
+
+msgid "countdown/minutes"
+msgstr "{minutes} min"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} m"
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "Zrušit"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "Za dokončení této operace nezískáte žádné odměny.\nChcete přesto hrát operaci bez aktivních misí?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Potvrdit"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "V této operaci nejsou aktivní žádné mise"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Identifikujte neznámou hrozbu, zastavte odpálení rakety a zajistěte, aby se nové technologie dostaly do správných rukou."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "Hrajte samostatně a bojujte proti nepřátelům řízeným umělou inteligencí v tomto epickém příběhu s veliteli ze Sektoru 3!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Dokončete všechny mise a získejte pamětní odznak a medaili, tematické 2D styly a další hodnotné odměny."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "Úsvit nové éry"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "Sólo příběh"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Odměny"
+
+msgid "eventWelcomeScreen/header"
+msgstr "OPERACE BOD VARU"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s–%(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Příběhy"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Těžká"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Běžná"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Těžká\nMinové pole"
+
+msgid "missionSelection/exitButton"
+msgstr "OPUSTIT REŽIM"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "OPERACE\nOCELOVÁ LAVINA"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "OPERACE\nTRAPER"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "OPERACE\nKLADIVO A KOVADLINA"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "OPERACE\nKOČKA V PASTI NA MYŠI"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "OPERACE\nOVERLORD"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "OPERACE\nPOŠŤÁK"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "OPERACE\nBOD VARU"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Brooks: „Tak jak ti je? Už ses vzpamatoval? Doktora navštívíš později. Teď se každé dělo počítá. Útok už začal. A protože jsme přijeli pozdě, nepřítel soustředil všechnu pozornost na druhé křídlo. To je naše šance. Rychlý útok. Vtrhneme do města a zmáčkneme je z obou stran.\nPojeď za námi – a vyhni se dračím zubům. Tamhle v poli mají hned několik řad těchhle betonových špičáků. Ale to je v pořádku. Projedeme. Jenom mě musíš poslouchat a řídit se mými rozkazy rychle a přesně. MacLeod a já tě budeme krýt.\nJeho vtípků si nevšímej. Všichni máme různé způsoby, jak se vyrovnat s realitou… Vpřed!“"
+
+msgid "missionSelection/missionDescription/2"
+msgstr "MacLeod: „Ach, Tigery – ty jsou na bojišti nejhorší. Pokud velení říká, že mají problém, téměř jistě mají na mysli Tigery. Nemůžeme kontaktovat první útočnou jednotku, druhá právě vyrazila – a tady jsme my, vyslaní v jejich stopách.\nPokud poslali nás, znamená to jediné: Tigery. To je to, co velení řeklo: „Pošlete ty experty na Tigery!“ Devět tanků na dva. To není špatné na půl roku. Vedeš 5 : 4. Ale teď mám šanci tě předběhnout. A konečně získat tu zatracenou medaili!\nHonem – Brooks nerad čeká. Náš lov začíná.“"
+
+msgid "missionSelection/missionDescription/3"
+msgstr "MacLeod: „Tak jo, je to operace Kladivo a kovadlina. Jednoduchý název pro nepříliš jednoduchou práci. Míříme do města, abychom vyčistili nepřátelské síly. Nebude to procházka růžovým sadem – stojíme proti těžkým obrněncům. Ale máme na své straně chytrost, sílu a týmovou spolupráci, že ano, Lucky? A ať je to rychlé, přátelé. Mám plány s malým šálkem „čaje“ o páté, jestli mi rozumíte!“"
+
+msgid "missionSelection/missionDescription/4"
+msgstr "MacLeod: „Neptej se, Lucky. Nemám tušení stejně jako ty. Nejsem příznivcem všech těchto tajemství. Mám rád, když jsou věci jasné. Vidíte nepřítele, bojujete. Ale tohle? To je zmatek.\n\nVe městě budou také spojenecké tanky. Brooks nás požádal, abychom postupovali opatrně. Co to má znamenat?\nMáme speciální úkol. Najít nějakou „zázračnou zbraň“ – něco obrovského na pásech. Nikdo jiný než my to neudělá, Lucky.\n\nPřipraven? Vyrážíme.“"
+
+msgid "missionSelection/missionDescription/5"
+msgstr "Kapitán John McCormick: „Tak jo, pánové, ten den nastal. Je čas ukončit tuhle válku, a to přesně uděláme. Všichni společně – Američané, Britové, Francouzi, Kanaďané, Australané, Belgičané, Čechoslováci, Řekové, Holanďané, Novozélanďané, Norové, Poláci. Spojíme se, abychom s tímto zlem jednou provždy skoncovali.\n\nProlomíme Atlantický val a upevníme své pozice.\n\nPřipravte se na vylodění!“"
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Kapitán Smith: „Poslouchejte. Německo před několika hodinami podepsalo kapitulaci. Válka zítra končí. Ale naši hoši v horách ztratili rádiové spojení – nevědí, že je konec. Za úsvitu se chystají zaútočit na tuhle zatracenou pevnost a Němci uvnitř o kapitulaci taky nevědí. Bude to zbytečná řež. \n\nJsme jediní, kdo to může zastavit. Naším úkolem je proklouznout přes nepřátelské linie a doručit rozkaz k zastavení palby. Je to sebevražedná mise, ale každý zachráněný život za to stojí. \n\nMáme s sebou zajatého německého radistu, který zná terén a má stejnou motivaci jako my zabránit tomuhle krveprolití. \n\nVyrážíme.“"
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Leni Scharf: „Situace je kritická. Ztratili jsme kontakt s naší raketovou základnou v Norském moři. Průzkumná letka se nevrátila a první tanková výsadková jednotka byla zničena neznámým nepřítelem.\n\nZpravodajské informace naznačují, že se připravují na odpálení balistické rakety. Neznáme cíl, ale v současné politické situaci by jediný odpal mohl vyvolat globální konflikt.\n\nJe to jako za starých časů, že? Další nemožná mise za nepřátelskými liniemi. Vyrážíme!“"
+
+msgid "missionSelection/missionName/1"
+msgstr "OPERACE OCELOVÁ LAVINA"
+
+msgid "missionSelection/missionName/2"
+msgstr "OPERACE TRAPER"
+
+msgid "missionSelection/missionName/3"
+msgstr "OPERACE KLADIVO A KOVADLINA"
+
+msgid "missionSelection/missionName/4"
+msgstr "OPERACE KOČKA V PASTI NA MYŠI"
+
+msgid "missionSelection/missionName/5"
+msgstr "OPERACE OVERLORD"
+
+msgid "missionSelection/missionName/6"
+msgstr "OPERACE POŠŤÁK"
+
+msgid "missionSelection/missionName/7"
+msgstr "OPERACE BOD VARU"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Speciální vozidlo"
+
+msgid "missionSelection/tab/event"
+msgstr "OPERACE BOD VARU"
+
+msgid "missionSelection/tab/newbies"
+msgstr "VÝUKOVÉ PŘÍBĚHY"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Zaútočte na město a zničte nepřátelská vozidla."
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Zaútočte na město a zničte nepřátelská vozidla."
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Zaútočte na město a zničte nepřátelská vozidla."
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Dokončete cíle hlavní mise, aniž byste byli poškozeni nepřátelskými minami."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Dokončete cíle hlavní mise bez ztráty jediného vozidla."
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Zaútočte na město a ukořistěte nepřátelskou „zázračnou zbraň“."
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Dokončete hlavní cíle mise za méně než %(win_timer)s."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Dokončete hlavní cíle mise a s pomocí letadla zničte %(kill_enemies)s."
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Prorazte, zničte pobřežní děla a obsaďte předmostí."
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Dokončete hlavní cíle mise za méně než %(win_timer)s."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Dokončete cíle hlavní mise bez ztráty jediného vozidla."
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Doručte svým spojencům rozkaz k zastavení palby."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Dokončete hlavní cíle mise a zničte méně než %(kill_enemies)s."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Dokončete cíle hlavní mise bez ztráty jediného vozidla."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Dosáhněte velitelského centra a zastavte odpálení rakety."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Dokončete hlavní cíle mise za méně než %(win_timer)s."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Dokončete cíle hlavní mise bez ztráty jediného vozidla."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s nepřátelské vozidlo"
+msgstr[1] "%(value)s nepřátelská vozidla"
+msgstr[2] "%(value)s nepřátelských vozidel"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "Mise je uzamčena: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s minutu"
+msgstr[1] "%(value)s minuty"
+msgstr[2] "%(value)s minut"
+
+msgid "missionSelection/taskRewards"
+msgstr "Odměna: "
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Toto vozidlo je dostupné pouze v příbězích."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Počet zbývajících náhodných bitev\npro odemčení této operace: %(numBattles)s."
+
+msgid "mode/story_mode/callToAction"
+msgstr "Scénáře pro začátečníky"
+
+msgid "mode/story_mode/description"
+msgstr "Dokončete naskriptované operace proti vozidlům ovládaným umělou inteligencí"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Je dostupná operace Bod varu"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "Aktuálně vybraný herní režim naleznete nahoře v hlavní nabídce v garáži. Klikněte na název režimu a zjistěte, jaké další režimy jsou vám k dispozici."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Pro vybrání tohoto herního režimu klikněte na &zwnbsp;{whiteSpanish_Open}Příběhy{whiteSpanish_Close}&zwnbsp;."
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "V příbězích můžete prozkoumávat příběhové PvE scénáře, bojovat proti nepřátelům ovládaným umělou inteligencí, ponořit se do atmosféry hrdinských bitev a získávat cenné odměny!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Vstupte do výběru režimů"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Vyberte příběhy"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "Užijte si PvE akci"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "PŘÍBĚHY"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Čekají na vás naskriptované scénáře"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Restartovat"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "BITVA SKONČILA"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Přeskočit"
+
+msgid "onboardingQueue/skipText"
+msgstr "Všechny servery jsou zaneprázdněné. Počkejte prosím, nebo tento příběh přeskočte."
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Připravujeme pro vás server. Počkejte prosím..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Poškození zablokované pancířem {parSecondary_Start}(HP){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Zablokované poškození"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "Zásahy HE a HESH granátů se nepočítají."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Počítají se:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Odrazy nepřátelských střel"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Zásahy bez poškození"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Asistované poškození"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "Počítá se následující poškození, které způsobí spojenci díky vaší asistenci:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Poškození díky vašemu odhalování"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "Poškození způsobené vámi znehybněnému vozidlu zničením jeho pásu"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "Celkové poškození způsobené spojenci\n{parSecondary_Start}(HP){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Způsobené poškození"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Počítá se:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Poškození výstřelem"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Poškození nárazem"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Poškození požárem"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Poškození způsobené shozením nepřátelského vozidla z překážky"
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Celkové poškození {parSecondary_Start}(HP){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Nepřátel zničeno"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Počítá se:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Zničení výstřelem"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Zničení požárem"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Zničení nárazem"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Zničení utopením"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Zničení vytlačením nepřátelského vozidla z překážky"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Zničení převrácením"
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Splněné mise"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "Počet splněných misí a všech právě\ndostupných misí.\nMise dokončené na těžkou obtížnost jsou\ntaké automaticky splněny na běžnou obtížnost."
+
+msgid "tooltips/difficulty/available"
+msgstr "K dispozici"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "Rychlost reakce a přesnost nepřátel byla zvýšena a budou na vás útočit agresivněji. Na oplátku za to získáte po splnění mise odměny navíc."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "Dokončením misí na {whiteSpanish_Open}těžkou{whiteSpanish_Close} obtížnost automaticky splníte mise na{whiteSpanish_Open}běžnou{whiteSpanish_Close} obtížnost. To znamená, že získáte odměny za obě úrovně obtížnosti."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Další podmínka"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Těžká"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "Pro odemčení těžké obtížnosti prokažte své schopnosti v herním režimu dokončením této operace na běžnou obtížnost."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Uzamčeno"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Protivníci jsou pomalejší a méně přesní; po splnění mise obdržíte standardní odměnu."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Běžná"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Vybrána"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "Náročnější verze fáze operace Minové pole – odvážíte se vstoupit do tohoto smrtícího bludiště?\nNabízí zvýšené odměny za bitvu."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Těžká, Minové pole"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Identifikujte neznámou hrozbu, zastavte odpálení rakety a zajistěte, aby se nové technologie dostaly do správných rukou."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Operace Bod varu"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "REŽIM"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "– herní režim. Prozkoumejte kliknutím"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "Hrajte samostatně a bojujte proti nepřátelům řízeným umělou inteligencí v tomto epickém příběhu s veliteli ze Sektoru 3!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Akce je dostupná {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "PŘÍBĚHY"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "REŽIM"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "– herní režim. Prozkoumejte kliknutím"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "Speciální naskriptované scénáře: Vydejte se na cestu do světa obrněných vozidel a v boji proti nepřátelům ovládaným umělou inteligencí ukažte, co ve vás je."
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "Příběhy"
+
+msgid "tooltips/task/active"
+msgstr "Aktivní"
+
+msgid "tooltips/task/completed"
+msgstr "Dokončeno"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Neznámé podmínky"
+
+msgid "tooltips/task/locked"
+msgstr "Uzamčeno: %(timer)s"

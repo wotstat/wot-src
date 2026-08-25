@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Ogólny"
+
+msgid "channels/battle/team"
+msgstr "Drużyna"
+
+msgid "channels/clan"
+msgstr "Klan"
+
+msgid "channels/common"
+msgstr "Ogólny"
+
+msgid "channels/epic_training"
+msgstr "Szkolenie – Linia frontu"
+
+msgid "channels/nubs"
+msgstr "Nowicjusze"
+
+msgid "channels/prebattle"
+msgstr "Przedbitewny"
+
+msgid "channels/special_battles"
+msgstr "Bitwa specjalna"
+
+msgid "channels/squad"
+msgstr "Pluton"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Utworzono pluton. Poczekaj, aż wszyscy gracze będą gotowi."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Pluton"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Utworzono pluton. Wszyscy gracze są gotowi."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Pluton"
+
+msgid "channels/system"
+msgstr "Systemowy"
+
+msgid "channels/tournament"
+msgstr "Turniej"
+
+msgid "channels/trading"
+msgstr "Handlowy"
+
+msgid "channels/training"
+msgstr "Treningowy"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Administrator czatu jest również moderatorem kanału"
+
+msgid "errors/addmoderatorowner"
+msgstr "Właściciel kanału jest również moderatorem kanału."
+
+msgid "errors/banchannelowner"
+msgstr "Właściciel kanału nie może zostać zbanowany."
+
+msgid "errors/banchatadmin"
+msgstr "Administrator czatu nie może zostać zbanowany"
+
+msgid "errors/banned"
+msgstr "Zostałeś zbanowany przez gracza %(banOwnerNick)s do %(banEndTime)s. Powód: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Zostałeś zbanowany przez gracza %(banOwnerNick)s. Powód: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Zostałeś zbanowany do %(banEndTime)s. Powód: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Zostałeś zbanowany. Powód: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Komenda %(command)s została zablokowana na %(cooldownPeriod)s s."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Administrator czatu nie może być pozbawiony praw moderatora"
+
+msgid "errors/delmoderatorowner"
+msgstr "Właściciel kanału nie może być pozbawiony praw moderatora."
+
+msgid "errors/timeincorrect"
+msgstr "Parametr 'time' (czas) musi mieć wartość dodatnią [1-1440] albo być ustawiony jako 'permanent'"
+
+msgid "errors/toomanyargs"
+msgstr "Zbyt wiele parametrów"
+
+msgid "errors/toosmallargs"
+msgstr "Za mało parametrów"
+
+msgid "errors/userbanhimself"
+msgstr "Nie możesz zbanować samego siebie"
+
+msgid "messages/userbanned"
+msgstr "Użytkownik %(banedUser)s został zbanowany przez gracza %(banOwnerNick)s do %(banEndTime)s. Powód: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "Użytkownik %(banedUser)s został zbanowany przez gracza %(banOwnerNick)s. Powód: %(banReason)s"

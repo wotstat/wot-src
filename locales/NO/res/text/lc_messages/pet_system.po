@@ -1,0 +1,233 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2025-04-22 10:00+0300\nPO-Revision-Date: 2025-04-22 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bonus/credits/description"
+msgstr "Få en creditsbonus får å få mer i kamp!"
+
+msgid "bonus/credits/title"
+msgstr "Credits"
+
+msgid "bonus/crew/description"
+msgstr "Få en besetningserfaringsbonus for å få mer i kamp!"
+
+msgid "bonus/crew/title"
+msgstr "Besetningserfaring"
+
+msgid "bonus/crystal/description"
+msgstr "Få en seddelbonus får å få mer i kamp!"
+
+msgid "bonus/crystal/title"
+msgstr "Sedler"
+
+msgid "bonus/events/description"
+msgstr "Få unike historier med belønninger underveis!"
+
+msgid "bonus/events/title"
+msgstr "Eventer"
+
+msgid "bonus/freeXP/title"
+msgstr "Fri erfaring"
+
+msgid "bonus/gold/title"
+msgstr "Gull"
+
+msgid "bonus/showoff/description"
+msgstr "Vis frem til lojale følgesvenn til verden!"
+
+msgid "bonus/showoff/title"
+msgstr "Vis frem"
+
+msgid "bonus/tankmenXP/description"
+msgstr "Få bonus på erfaringspoeng for å få mer i kamp!"
+
+msgid "bonus/tankmenXP/title"
+msgstr "Erfaringspoeng"
+
+msgid "breedName/dog_1"
+msgstr "Schæferhund"
+
+msgid "breedName/dog_2"
+msgstr "Labrador"
+
+msgid "eventView/button"
+msgstr "Bekreftet"
+
+msgid "infoPageEntryPoint"
+msgstr "Hvordan blir jeg venner med kjæledyret mitt?"
+
+msgid "message/petAdded/button"
+msgstr "Til hi"
+
+msgid "message/petAdded/header"
+msgstr "Ny %(petType)s lagt til i kontoen din"
+
+msgid "message/petAdded/text"
+msgstr "%(petBreed)s lagt til i hiet"
+
+msgid "message/petBuy/success"
+msgstr "%(petName)s ble kjøpt. Brukt %(price)s."
+
+msgid "message/server_error"
+msgstr "Handlingen er midlertidig utilgjengelig. Prøv igjen senere."
+
+msgid "message/synergyLevelUp/header"
+msgstr "%(petName)s sitt synerginivå har økt!"
+
+msgid "message/synergyLevelUp/text"
+msgstr "Nye animasjoner er nå tilgjengelige. Fortsett å samhandle for å åpne mer!"
+
+msgid "message/synergyMaxLevel/header"
+msgstr "%(petName)s sitt synerginivå har økt!"
+
+msgid "message/synergyMaxLevel/text"
+msgstr "Nye animasjoner er tilgjengelige"
+
+msgid "petDescription/dog_1"
+msgstr "Schäferhunden beveget seg lydløst over slagmarken, med skarpe sanser. Da en eksplosjon felte føreren, dro hunden den falne mannen i dekning og beskyttet ham til hjelpen kom. Såret, men lojal, forlot den aldri hans side. En sann soldats vokter."
+
+msgid "petDescription/dog_2"
+msgstr "Denne livlige labradoren er alltid klar for eventyr og er en lojal følgesvenn som bjeffer anerkjennende til lyden av menneskelig latter og logrer med halen når han får nye venner. Ryktene sier at han har blitt sett på to steder samtidig, selv om ingen ennå har funnet ut hvordan."
+
+msgid "petEventTooltip/body"
+msgstr "%(petName)s fant noe mens du var borte! Sjekk det ut!"
+
+msgid "petHouseMarker/default"
+msgstr "Kjæledyrhi"
+
+msgid "petHouseMarker/pet"
+msgstr "Hiet til: {{petName}}"
+
+msgid "petSettings/cancelButton"
+msgstr "Avbryt"
+
+msgid "petSettings/naming/subtitle"
+msgstr "Du kan gi kjæledyret ditt et nytt navn om du vil"
+
+msgid "petSettings/naming/tip/subtitle"
+msgstr "Gi kjæledyret ditt et nytt navn"
+
+msgid "petSettings/naming/tip/title"
+msgstr "Endre navn"
+
+msgid "petSettings/naming/title"
+msgstr "Navn på kjæledyret"
+
+msgid "petSettings/saveButton/label"
+msgstr "Lagre"
+
+msgid "petSettings/uniqueName/tip/subtitle"
+msgstr "Dette kjæledyret er et unikt navn som ikke kan endres."
+
+msgid "petSettings/uniqueName/tip/title"
+msgstr "Ikke tilgjengelig"
+
+msgid "petSettings/visibility/select/always"
+msgstr "Vis alltid"
+
+msgid "petSettings/visibility/select/disableAnimation"
+msgstr "Skru av animeringer"
+
+msgid "petSettings/visibility/select/onlyIntoPetPlace"
+msgstr "Bare vis i garasjen"
+
+msgid "petSettings/visibility/subtitle"
+msgstr "Du kan sende kjæledyret ditt til garasjen dersom de er uskikkelige."
+
+msgid "petSettings/visibility/tip/subtitle"
+msgstr "Endre hvor synlig ditt kjæledyr skal være"
+
+msgid "petSettings/visibility/tip/title"
+msgstr "Synlighet for kjæledyr"
+
+msgid "petSettings/visibility/title"
+msgstr "Synlighet for kjæledyr"
+
+msgid "petStorage/petBonus/title"
+msgstr "Aktivbonus:"
+
+msgid "petStorage/petBonus/tooltip/content"
+msgstr "Bonusen gjelder for belønningen uansett kampresultat. Så snart grensen er nådd, vil ikke bonusen gjelde lenger."
+
+msgid "petStorage/petCard/promo"
+msgstr "NY"
+
+msgid "petStorage/progressbarBonuses"
+msgstr "Bonusene gjelder i tilfeldige kamper."
+
+msgid "petStorage/progressbarDescription"
+msgstr "Øker belønningene for et begrenset antall kamper hver dag."
+
+msgid "petStorage/progressbarTitle"
+msgstr "Gjenværende kampbonus"
+
+msgid "petStorage/progressbarTooltip/content"
+msgstr "Antall tilgjengelige kampbonuser blir nullstilt i morgen. En bonus brukes per kamp, og belønninger gis uansett kampresultat."
+
+msgid "petStorage/progressbarTooltip/title"
+msgstr "Tilgjengelige bonuser"
+
+msgid "petStorage/progressbarWarning"
+msgstr "Modus ikke gyldig. Bonusene gjelder ikke."
+
+msgid "petStorage/status/select"
+msgstr "Velg"
+
+msgid "petStorage/status/selected"
+msgstr "Valgt"
+
+msgid "petStorage/title"
+msgstr "Hiet"
+
+msgid "petStorageTooltip/bonus/caption"
+msgstr "Gjenværende kamper. Nullstilles i morgen"
+
+msgid "petStorageTooltip/bonus/currentBonus"
+msgstr "{{value}} for hver kamp"
+
+msgid "petStorageTooltip/bonus/inProgress"
+msgstr "Gjenværende kamper"
+
+msgid "petStorageTooltip/bonus/title"
+msgstr "Bonus"
+
+msgid "petStorageTooltip/warning/unsuitableMode"
+msgstr "Modus ikke gyldig. Bonus gjelder ikke."
+
+msgid "petType/dog"
+msgstr "hund"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "promotion/bonuses/text_1"
+msgstr "Bonusene gjelder bare i tilfeldige kamper og er ikke aktive i hver kamp."
+
+msgid "promotion/bonuses/text_2"
+msgstr "Hendelsene er tilgjengelige i tilfeldige kamper."
+
+msgid "promotion/button/challenge"
+msgstr "Oppdrag"
+
+msgid "promotion/button/purchase"
+msgstr "Til butikk"
+
+msgid "promotion/challengeInfo/text_1"
+msgstr "Oppdragsinformasjon"
+
+msgid "promotion/challengeInfo/text_2"
+msgstr "Tilgjengelig for kjøp i et spesialevent pakke i butikken i spillet."
+
+msgid "promotion/challengeInfo/title_1"
+msgstr "Oppdrag"
+
+msgid "promotion/challengeInfo/title_2"
+msgstr "Hvordan motta"
+
+msgid "synergyTooltip/description/done"
+msgstr "Hvert nivå av kjæledyrsynergi styrker vennskapet ditt. Med en kamerat ved din side kunne du ikke bedt om en bedre alliert. Hvis du er inaktiv over lengre tid, vil dette nivået reduseres."
+
+msgid "synergyTooltip/description/inProgress"
+msgstr "Samhandle med kjæledyret ditt for å øke vennskapsnivået. Når du når maksimalt nivå, får du status som kamerat. Hvis du er inaktiv lenge, vil dette nivået synke."
+
+msgid "synergyTooltip/title"
+msgstr "Kameratstatus"

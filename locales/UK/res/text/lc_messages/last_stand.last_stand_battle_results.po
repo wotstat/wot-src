@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, тривалість: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "Звичайна складність"
+
+msgid "info/difficult/2"
+msgstr "Просунута складність"
+
+msgid "info/difficult/3"
+msgstr "Люта складність"
+
+msgid "info/mapName"
+msgstr "Останній рубіж • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "Кількість відроджень: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "Усі машини союзників знищені."
+
+msgid "ls_finish/reason/10/lose"
+msgstr "Вам не вдалося зупинити Зеро."
+
+msgid "ls_finish/reason/3/lose"
+msgstr "Час сплив."
+
+msgid "ls_finish/reason/5/lose"
+msgstr "Усі союзники покинули бій."
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "Чудова робота! Готові до складнішого завдання?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "Усі супротивники на звичайній складності знищені."
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "Неймовірно! Цього рівня досягають не всі."
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "Усі супротивники на лютій складності знищені."
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "Відмінно! Час для справжнього випробування."
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "Усі супротивники на просунутій складності знищені."
+
+msgid "ribbon/ban"
+msgstr "Неприйнятна поведінка в бою: бездіяльність/дезертирство.\nНагороду не видано."
+
+msgid "ribbon/banRecord"
+msgstr "Неприйнятна поведінка в бою: бездіяльність/дезертирство.\nНагороду не видано. Ваш рекорд зі знищення хвиль не оновлено."
+
+msgid "ribbon/noReward"
+msgstr "Ваша команда не змогла стримати першу хвилю.\nНагороду не видано."
+
+msgid "status/lose"
+msgstr "БІЙ ЗАВЕРШЕНО"
+
+msgid "status/win"
+msgstr "ПЕРЕМОГА"
+
+msgid "subtitle/lose"
+msgstr "Атаку не стримано"
+
+msgid "subtitle/win"
+msgstr "Гарна робота! Отримано нові дані."
+
+msgid "teamList/actions"
+msgstr "Швидкі дії"
+
+msgid "teamList/teammates"
+msgstr "Союзники"
+
+msgid "time/record"
+msgstr "НОВИЙ\nРЕКОРД!"
+
+msgid "title/lose/noWaves"
+msgstr "БІЙ ЗАВЕРШЕНО"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "%(phaseNumber)s ХВИЛЮ ЗАВЕРШЕНО"
+msgstr[1] "%(phaseNumber)s ХВИЛІ ЗАВЕРШЕНО"
+msgstr[2] "%(phaseNumber)s ХВИЛЬ ЗАВЕРШЕНО"
+
+msgid "title/win"
+msgstr "УСІ ХВИЛІ ЗАВЕРШЕНО"
+
+msgid "tooltip/ban"
+msgstr "Неприйнятна поведінка в бою: бездіяльність/дезертирство. Ваш особистий рекорд зі знищення хвиль не оновлено."

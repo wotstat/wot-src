@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "categories/body/firepower"
+msgstr "Et sæt parametre, der viser effektiviteten i at ødelægge fjendtlige køretøjer. Dette filter viser/skjuler udstyr med dette sæt parametre."
+
+msgid "categories/body/mobility"
+msgstr "Et sæt parametre, der viser hvor hurtigt køretøjet kan skifte position på slagmarken. Dette filter viser/skjuler udstyr med dette sæt parametre."
+
+msgid "categories/body/stealth"
+msgstr "Et sæt parametre, der viser effektiviteten i køretøjets sløringsevne, samt dets evne til at opdage fjendtlige køretøjer. Dette filter viser/skjuler udstyr med dette sæt parametre."
+
+msgid "categories/body/survivability"
+msgstr "Et sæt parametre, der viser køretøjets modstandskraft overfor skade. Dette filter viser/skjuler udstyr med dette sæt parametre."
+
+msgid "categories/empty"
+msgstr "Anden pladskategori"
+
+msgid "categories/firepower"
+msgstr "Ildkraft"
+
+msgid "categories/mobility"
+msgstr "Mobilitet"
+
+msgid "categories/slotEffect/empty"
+msgstr "En mulighed for at tildele en kategori til den anden udstyrsplads på dette køretøj."
+
+msgid "categories/slotEffect/firepower"
+msgstr "Standard udstyr fra Ildkraft-kategorien vil være mere effektivt ved montering på denne plads."
+
+msgid "categories/slotEffect/mobility"
+msgstr "Standard udstyr fra Mobilitet-kategorien vil være mere effektivt ved montering på denne plads."
+
+msgid "categories/slotEffect/stealth"
+msgstr "Standard udstyr fra Observering-kategorien vil være mere effektivt ved montering på denne plads."
+
+msgid "categories/slotEffect/survivability"
+msgstr "Standard udstyr fra Overlevelsesevne-kategorien vil være mere effektivt ved montering på denne plads."
+
+msgid "categories/stealth"
+msgstr "Observering"
+
+msgid "categories/survivability"
+msgstr "Overlevelsesevne"
+
+msgid "categories/universal"
+msgstr "Ingen kategori"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "Vælg et relevant direktiv fra listen."
+
+msgid "compare/section/description/consumables"
+msgstr "Vælg en relevant forbrugsvare fra listen."
+
+msgid "compare/section/description/optDevices"
+msgstr "Vælg et relevant stykke udstyr fra listen."
+
+msgid "compare/section/title/battleBoosters"
+msgstr "Direktiver til {name}"
+
+msgid "compare/section/title/consumables"
+msgstr "Forbrugsvarer til {name}"
+
+msgid "compare/section/title/optDevices"
+msgstr "Udstyr til {name}"
+
+msgid "dealPanel/autoRenew"
+msgstr "Auto-genforsyn"
+
+msgid "dealPanel/button/apply"
+msgstr "Påfør"
+
+msgid "dealPanel/button/applyType"
+msgstr "Påfør til type"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "Påfør til køretøj"
+
+msgid "dealPanel/button/cancel"
+msgstr "Fortryd"
+
+msgid "dealPanel/button/purchase"
+msgstr "Køb"
+
+msgid "dealPanel/fromStorage"
+msgstr "Fra depotet:"
+
+msgid "dealPanel/fromVehicle"
+msgstr "Monteret:"
+
+msgid "dealPanel/repair"
+msgstr "Reparationer krævet"
+
+msgid "dealPanel/toBePaid"
+msgstr "Samlet:"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "I depot"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "Monteret på køretøj"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "Utilstrækkelige midler til at gennemføre købet"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "Vil blive købt med credits"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "Vil blive købt med obligationer"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "Vil blive monteret fra depotet"
+
+msgid "deconstructionDeviceView/available"
+msgstr "Tilgængelig:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "Afbryd"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "Fortsæt"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "Fra depotet:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "Fra køretøjer:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "( %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s %(red_Open)skrævet til at opgradere%(red_Close)s )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "Vil modtages:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "AKTIVT KØRETØJ"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "I DEPOTET: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "PÅ KØRETØJER: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "Vælg det udstyr du vil skille ad til %(whiteSpanish_Open)skomponenter%(whiteSpanish_Close)s %(icon)s. De modtagne komponenter kan bruges til at opgradere eksperimentelt udstyr."
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s For at få flere komponenter skal du adskille ubrugt eksperimentelt udstyr."
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "ARBEJDSBÆNK"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "Ikke nok komponenter til at opgradere\n%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "For at fortsætte, adskil ubrugt udstyr til komponenter."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "For at fortsætte, få det krævede antal komponenter."
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "Fortryd ændringer"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "Afbryd"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "Fortryd"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "Fortryd"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "Fortryd ændringer"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "Gem"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "Køb"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "Køb og monter"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "Monter"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "Du kan afmontere udstyret for %(price)s og sende det til depotet, eller du kan ødelægge det."
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "Du kan afmontere udstyret for %(price)s, eller {whiteSpanish_Open}gratis{whiteSpanish_Close} med WoT Plus, og derefter sende det til depotet, eller du kan ødelægge det."
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "Du kan afmontere udstyret for med %(demountKit)s, for %(price)s, eller {whiteSpanish_Open}gratis{whiteSpanish_Close} med WoT Plus, og derefter sende det til depotet, eller du kan ødelægge det."
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "Du kan afmontere udstyret {whiteSpanish_Open}gratis{whiteSpanish_Close} med WoT Plus for at sende det til depotet."
+
+msgid "dialogs/confirm/demount/items"
+msgstr "Du kan afmontere udstyret og sende det til depotet."
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "VIL IKKE VIRKE"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "direktiv"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "Når du køber denne dobbelte modifikation, vil den anden blive annulleret."
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "forbrugsvare"
+
+msgid "dialogs/confirm/item/module"
+msgstr "modul"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "udstyr"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "Dobbelt modifikation"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "direktiver"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "forbrugsvarer"
+
+msgid "dialogs/confirm/items/module"
+msgstr "moduler"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "udstyr"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " og "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "Gem ændringer til direktivpladserne?"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "Gem ændring til forbrugsvarepladserne?"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "Gem ændringer til udstyrspladserne?"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "Køb %(name)s {type}?"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "Køb og monter %(name)s {type}?"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "Monter %(name)s {type}?"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "Slå %(name)s {type} til for alle %(vehicle)s?"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "Køb {type}?"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "Køb og monter {type}?"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "Monter {type}?"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "Slå {type} til for alle %(vehicle)s?"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "kampvognsjægere"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "SPG'er"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "tunge kampvogne"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "lette kampvogne"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "medium kampvogne"
+
+msgid "dialogs/confirm/warning"
+msgstr "Bemærk! %(devices)s ikke udstyret. Direktivet %(doesNotWork)s."
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "Bemærk! Efter adskillelse vil du ikke have noget eksperimentelt udstyr!"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "Afbryd"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "Adskil"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "Adskil"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "Totalt at modtage:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "Vil blive modtaget for 1 ting:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "Adskil\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "Adskil\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "Bemærk: Efter adskillelse vil du ikke kunne gendanne eller købe dette udstyr."
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "Afbryd"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "Adskil"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "Adskil følgende udstyr til komponenter?"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "Adskil det følgende udstyr og opgrader\n%(deviceName)s?"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "Vil blive adskilt fra depotet: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "Vil blive adskilt fra køretøjerne: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "Ved adskillelse vil du modtage: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "Totalt at modtage:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "Opgraderingspris:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "Bemærk! Efter adskillelse vil du ikke have noget eksperimentelt udstyr!"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "Bemærk! Eksperimentelt udstyr fra dine køretøjer vil blive adskilt."
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "Veksl"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "udstyr"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "%(credits)s yderligere krævet til at opgradere %(name)s"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "udstyr"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "%(credits)s yderligere krævet for at opgradere udstyret"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "Kan ikke opgradere udstyret. Du skal bruge %(gold)s for at veksle med credits."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "Du har ikke nok credits til at opgradere udstyret."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "Veksling ikke nødvendig"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "Du har intet eksperimentelt udstyr at adskille."
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "For at få flere komponenter, adskil eksperimentelt udstyr."
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "Opgrader\n%(name)s?"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "Krævet: %(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "Pris:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "til køb"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "til køb"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "Veksl"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "Vekselkurs: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "%(credits)s yderligere krævet til kvik-service"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "direktiv"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "forbrugsvare"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "modul"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "udstyr"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "Dobbelt modifikation"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "%(credits)s yderligere krævet {action} af %(name)s {type}"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "direktiver"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "forbrugsvarer"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "moduler"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "udstyr"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "%(credits)s yderligere krævet {action} af {type}"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "%(credits)s yderligere krævet for at reparere"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "Kan ikke købe: veksling fejlet. %(gold)s yderligere krævet til vekslingen."
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "til køb"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "til modifikation"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "Veksling ikke nødvendig — du har nok credits."
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "Nok credits {action}"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "%(credits)s yderligere krævet for at genforsyne ammunition"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "Reparer automatisk"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "Reparer"
+
+msgid "dialogs/needRepair/durability"
+msgstr "Holdbarhed:"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s%"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "Køretøjet repareres automatisk og gratis"
+
+msgid "dialogs/needRepair/price"
+msgstr "Reparationspris:"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "Ikke nok midler til at reparere"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "Bekræftet!"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "Reparationer ikke nødvendige"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "Genforsyn"
+
+msgid "dialogs/refillShells/price"
+msgstr "Genforsyningspris:"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "Genforsyn ammunition?"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "Gem ændringer til ammunitionen?"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "Bemærk: Du sælger forbedret udstyr."
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "Bemærk: Efter salg vil du ikke kunne gendanne eller købe dette udstyr."
+
+msgid "dialogs/sell/button/cancel"
+msgstr "Afbryd"
+
+msgid "dialogs/sell/button/sell"
+msgstr "Sælg"
+
+msgid "dialogs/sell/header"
+msgstr "Sælg det følgende udstyr?\n%(equipmentName)s"
+
+msgid "dialogs/sell/text"
+msgstr "Salgspris for 1 ting:"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "Ikke nok ressourcer til afmontering."
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "Anbefalinger utilgængelige for dette køretøj"
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "Ikke i stand til at montere."
+
+msgid "easyTankEquipView/applied"
+msgstr "Påført"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "Avanceret"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "Forbedret"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "Standard"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "FORBRUGSVARER"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "Ikke nok sengepladser til overførsel og ændringer af mandskab. Tilføj flere pladser i barakken."
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "x{{count}}"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "Erfarent mandskab"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "Nyt mandskab"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "{{count}}\nNyt mandskabsmedlem vil blive rekrutteret"
+msgstr[1] "{{count}}\nNye mandskabsmedlemmer vil blive rekrutteret"
+msgstr[2] "{{count}}\nNye mandskabsmedlemmer vil blive rekrutteret"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "MANDSKAB"
+
+msgid "easyTankEquipView/discount"
+msgstr "-{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "Avanceret"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "Standard"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "UDSTYR"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "Avanceret"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "Standard"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "AMMUNITION"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "Du har allerede påført en stil"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "{{battlesCount}} kampe for {{price}}"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "FORVALGTE STILE"
+
+msgid "easyTankEquipView/title"
+msgstr "KVIK-SERVICE"
+
+msgid "effects/name"
+msgstr "Effekt"
+
+msgid "effects/template"
+msgstr "%(icon)s %(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "Cooldown er %(cooldown)s&nbsp;s."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "Få komponenter"
+
+msgid "filters/shown"
+msgstr "Vist: "
+
+msgid "hints/dragAndDrop/section"
+msgstr "TRÆK OG SLIP\nUDSTYR"
+
+msgid "hints/filters/specialization"
+msgstr "YDERLIGERE\nBONUS TIL KATEGORI"
+
+msgid "hints/tabs/equipment"
+msgstr "NY TYPE\nUDSTYR"
+
+msgid "introduction/currency/deluxe"
+msgstr "obligationer"
+
+msgid "introduction/currency/modernized"
+msgstr "komponenter"
+
+msgid "introduction/message/deluxe"
+msgstr "Denne type udstyr er tilgængelig for %(currencyName)s (%(currencyIcon)s). Den kan også modtages som belønning for bestemte in-game bedrifter og under særlige spilevents."
+
+msgid "introduction/message/modernized"
+msgstr "En specialiseret type udstyr med tre opgraderingsniveauer, der gives som belønning for at fuldføre missioner og under visse in-game events. Dette stykke udstyr kan ikke blive ødelagt eller sælges, men det kan adskilles for at få særlige dele — %(currencyName)s (%(currencyIcon)s). De modtagne komponenter kan bruges til at opgradere enhver type eksperimentelt udstyr."
+
+msgid "introduction/message/trophy"
+msgstr "En særlig type udstyr, der, ved modtagelsen, har samme parametre som standard udstyr, men som kan opgraderes med credits. Du kan ikke købe erobret udstyr for in-game valuta, men du kan modtage det som en belønning under bestemte spilevents."
+
+msgid "introduction/showButton"
+msgstr "Vis udstyr"
+
+msgid "introduction/slide/1/description"
+msgstr "Nyt udstyr blev tilføjet. Derudover blev %(repairBox)s, %(wetAmmo)s, %(CO2Cistern)s og %(cycloneFilter)s kombineret til %(changedConfiguration)s udstyr. Tilsvarende til %(forcedChassis)s blev erstattet med %(forcedMetal)s. Alle gamle bonusser forblev og der blev tilføjet nye."
+
+msgid "introduction/slide/1/title"
+msgstr "NYT UDSTYR"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr "—Ildkraft"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr "—Mobilitet"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr "—Observering"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr "—Overlevelsesevne"
+
+msgid "introduction/slide/2/description"
+msgstr "Hvis udstyret er monteret i en plads i samme kategori, vil det være mere effektivt. Ellers vil det kun give en standard bonus."
+
+msgid "introduction/slide/2/subtitle"
+msgstr "KATEGORIMATCH"
+
+msgid "introduction/slide/2/title"
+msgstr "UDSTYRSKATEGORIER"
+
+msgid "introduction/slide/3/description/left"
+msgstr "Prisen på det meste udstyr vil ikke overstige 50.000 credits for niveau II-IV køretøjer, 300.000 credits for niveau V-VII køretøjer og 600.000 credits for niveau VIII-XI køretøjer."
+
+msgid "introduction/slide/3/description/right"
+msgstr "Noget af det nye udstyr har tre klasser. Selv hvis klassen er forskellig, vil udstyret have samme effekt. Jo højere klasse, jo højere pris på udstyret. Hver udstyrsklasse svarer til sin egen række af køretøjsniveauer."
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "ÆNDRINGER TIL UDSTYR"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "NYT UDSTYR"
+
+msgid "introduction/slide/3/title"
+msgstr "UDSTYRSPRIS"
+
+msgid "introduction/slide/4/description"
+msgstr "Udstyr er utilgængeligt for niveau I køretøjer. Du kan kun montere ét stykke udstyr på niveau II køretøjer, to ting på niveau III køretøjer og tre ting på niveau IV-XI køretøjer. Udstyr monteret i de fjernede pladser blev afmonteret og sendt til depotet."
+
+msgid "introduction/slide/4/title"
+msgstr "UDSTYRSPLADSER"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "Fyld tanke med CO2"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "Modificeret konfiguration"
+
+msgid "introduction/slide/confirm"
+msgstr "Bekræftet!"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "Cyklon filter"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "Forbedret affjedring"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "Forbedret hærdning"
+
+msgid "introduction/slide/repairBox"
+msgstr "Værktøjskasse"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "\"Vådt\" ammunitionsstativ"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "Forbedret udstyr"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "Eksperimentelt udstyr"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "Erobret udstyr"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "Du har ikke noget passende eksperimentelt udstyr"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "Du har ikke noget passende erobret udstyr"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "til forsinkelsen før kommandøren identificerer om dit køretøj er blevet opdaget af fjenden"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "til yderligere fortumlet varighed hvis køretøjet allerede er fortumlet"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "til sløring af fjendtlige køretøjer (både i bevægelse og stationære) bag bevoksning"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "til skudhastighed for alle typer granater"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "til straffen på ladetid, når moduler er skadet"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "til tab af motorkraft, når moduler er skadet"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "til sløring af et stationært køretøj eller køretøj i bevægelse"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "til sløring, uanset om køretøjet er stationært eller i bevægelse (effektiviteten afhænger af køretøjstypen)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "til skade på skroget efter skade på affjedringen ved træffer"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "til synsrækkevidde (op til 445 m) — at øge parameteren over 445 m gør det muligt mere effektivt at kunne opdage fjenden"
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "til skade modtaget ved fald"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "til spredning ved bevægelse og rotation af køretøjet, samt ved drejning af kanonen og efter skydning"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "til skade fra HE-granat absorberet af panser"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "til varighed dit køretøj er synligt"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "til at bibeholde hastighed\nved krydsning af enhver type terræn"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "til sløring af et stationært køretøj 3 s efter det stopper"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "til sløring af et stationært køretøj\n1,5 s efter det standser"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "til øget sløring af et stationært køretøj 3 s efter det stopper (effektiviteten afhænger af køretøjstypen)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "til øget sløring af et stationært køretøj 1,5 s efter det standser (effektiviteten afhænger af køretøjstypen)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "til synsrækkevidde på et stationært køretøj 3 s efter det stopper (op til 445 m) — at øge parameteren over 445 m gør det muligt mere effektivt at kunne opdage fjenden"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "til synsrækkevidde på et stationært køretøj 1,5 s efter det standser (op til 445 m) — at øge parameteren over 445 m gør det muligt mere effektivt at kunne opdage fjenden"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "til køretøjets hp (rundet op)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "til tårnets drejehastighed eller kanonens drejehastighed for køretøjer med stationære kabiner"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "til forsinkelsen før kommandøren identificerer om dit køretøj er blevet opdaget af fjenden"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "til yderligere fortumlet varighed hvis køretøjet allerede er fortumlet"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "til sløring af fjendtlige køretøjer, både stationære og i bevægelse, bag bevoksning"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "til skudhastighed for alle typer granater"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "til straffen på ladetid, når moduler er skadet"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "til tab af motorkraft, når moduler er skadet"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "til sløring af et stationært køretøj eller køretøj i bevægelse"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "til sløring, uanset om køretøjet er stationært eller i bevægelse (effektiviteten afhænger af køretøjstypen)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "til skade på skroget efter skade på affjedringen ved fald"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "til synsrækkevidde (op til 445 m). At øge parameteren over 445 m gør det muligt mere effektivt at kunne opdage fjenden."
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "til skade modtaget ved fald"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "til spredning ved bevægelse og rotation af køretøjet, samt ved drejning af kanonen og efter skydning"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "til skade fra HE-granat absorberet af panser"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "til varighed dit køretøj er synligt"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "til at bibeholde hastighed\nved krydsning af enhver type terræn"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "til sløring af et stationært køretøj 3 s efter det stopper"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "til sløring af et stationært køretøj\n1,5 s efter det standser"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "til sløring af et stationært køretøj 3 s efter det stopper (effektiviteten afhænger af køretøjstypen)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "til sløring af et stationært køretøj 1,5 s efter det standser (effektiviteten afhænger af køretøjstypen)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "til synsrækkevidde på et stationært køretøj 3 s efter det stopper (op til 445 m). At øge parameteren over 445 m gør det muligt mere effektivt at kunne opdage fjenden."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "til synsrækkevidde på et stationært køretøj 1,5 s efter det standser (op til 445 m). At øge parameteren over 445 m gør det muligt mere effektivt at kunne opdage fjenden"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "til køretøjets hp (rundet op)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "til tårnets drejehastighed eller kanonens drejehastighed for køretøjer med stationære kabiner"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "pause før lyddetektion\naktiveres"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "til forsinkelse på notifikation om opdagelse"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "til kanonens nedkølingstid"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "til beskyttelse af mandskabet mod skade"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "til mandskabs effektivitetsbonus"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "til yderligere fortumlet varighed"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "til fortumlet varighed"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "til minimal potentiel skade\nog gennembrydning"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "til maksimal potentiel skade\nog gennembrydning"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "til uddelt skade ved påkørsel"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "pause, før kritisk skade til\nkøretøjet i sigtekornet er vist"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "til sløring af fjendtlige køretøjer bag bevoksning"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "til sløring af fjendtlige køretøjer i bevægelse"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "til chancen for at skade fjendtlige moduler\nog såre mandskab"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "til cooldown på forbrugsvarer"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "til brandslukningshastighed"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "til sløring bag buskads"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "til hp gendannet af reparationssæt"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "til at bibeholde hastighed\npå moderat blødt terræn"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "til straffen på synsrækkevidde, når\nobservationsudstyr er slået ud"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "til maksimal potentiel gennembrydning"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "til transmissionstid på\nfjendtlige køretøjers positioner\nefter at være blevet ødelagt"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "til beskyttelse af radiooperatøren\nmod skade"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "til skudhastighed"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "til at bibeholde hastighed\npå blødt terræn"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "til negative effekter\nfra mandskabets fortumling"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "til modtaget skade til affjedring"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "til affjedringens reparationshastighed"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "til straf på ladetid"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "til straf ved skadet motor"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "til skrogets drejehastighed"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "til holdbarhed på interne moduler"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "til holdbarhed på ammunitionsstativ"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "til maksimal bakhastighed"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "til sløring"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "til øget sløring"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "til skade fra uheld"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "til affjedringens reparationshastighed"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "til holdbarhed på affjedringen"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "til synsrækkevidde"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "til varighed hvor et fjendtligt køretøj\ner synligt for dig"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "til motorkraft"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "til skade fra uheld"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "til risiko for motorbrand"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "til maksimal hastighed fremad"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "til risikoen for kritisk skade\ntil brændstoftanke"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "til sigtehastighed"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "til ladetid"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "til spredning ved bevægelse og rotation af køretøj"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "til størrelsen på sigtecirklen efter skydning"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "til spredning i bevægelse"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "til spredning ved rotation af skroget"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "til spredning ved bevægelse af kanonen"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "til spredning med en skadet kanon"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "til størrelsen på sigtecirklen"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "til skade fra HE-granat"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "til sløring efter skydning"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "til varigheden dit køretøj er synligt"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "til modtaget skade ved påkørsel\npå affjedring"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "til modtaget skade ved påkørsel"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "til hastigheden på at skifte granattyper\ni en ladet kanon"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "til reparationshastighed"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "til at bibeholde hastighed ved krydsning af alle terræntyper"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "til sløring af et stationært køretøj"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "til sløring af et stationært køretøj"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "til øget sløring af et stationært køretøj"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "til øget sløring af et stationært køretøj"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "til synsrækkevidden på et stationært køretøj"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "til synsrækkevidden på et stationært køretøj"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "til køretøjs hp"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "til tårnets drejehastighed eller kanonens drejehastighed for køretøjer med stationære kabiner"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "til tårnets drejehastighed"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "til hjuls drejehastighed"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "til straf, når et mandskabsmedlem\ner såret, undtagen kommandøren"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "pause før lyddetektion\naktiveres"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "pause, før kritisk skade til\nkøretøjet i sigtekornet er vist"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "varighed i at observere fjender\nefter dit køretøj er ødelagt"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "til skade fra HE-granat"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "til gennembrydning på HE-granat"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "til HE-mundingshastighed"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "til ammunitionskapacitet"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "til skade på alle granater"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "til skudhastighed for alle typer granater"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "pause før lyddetektion\naktiveres"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "til skade fra standard granat"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "til forsinkelse på notifikation om opdagelse"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "til kanonens nedkølingstid"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "til beskyttelse af mandskabet mod skade"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "til mandskabs effektivitetsbonus"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "til yderligere fortumlet varighed"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "til fortumlet varighed"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "til minimal potentiel skade og gennembrydning"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "til maksimal potentiel skade\nog gennembrydning"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "til uddelt skade ved påkørsel"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "pause, før kritisk skade til\nkøretøjet i sigtekornet er vist"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "til sløring af fjendtlige køretøjer bag bevoksning"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "til sløring af fjendtlige køretøjer i bevægelse"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "til chancen for at skade fjendtlige moduler\nog såre mandskab"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "til motorens hp"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "til cooldown på forbrugsvarer"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "til brandslukningshastighed"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "til sløring bag buskads"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "til brændstoftankens hp"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "til kanonens depressionsvinkel"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "til kanonens elevationsvinkel"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "til kanonens stabilisering"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "til kanonens grænser på drejevinkel"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "til hp gendannet af reparationssæt"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "til skrogets elevationshastighed"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "til at bibeholde hastighed\npå moderat blødt terræn"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "til skade fra andet end HE-granat"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "til straffen på synsrækkevidde, når\nobservationsudstyr er slået ud"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "til maksimal potentiel gennembrydning"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "til transmissionstid på\nfjendtlige køretøjers positioner\nefter at være blevet ødelagt"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "til beskyttelse af radiooperatøren\nmod skade"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "til ladetid i magasin"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "til ladetid (salveskydningstilstand)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "til ladetid (enkeltskudstilstand)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "til granatskade på fjendtlige moduler"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "til skudhastighed"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "til at bibeholde hastighed\npå blødt terræn"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "til skade fra særlig granat"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "til særlig granatgennembrydning"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "til særlig skudhastighed"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "til skade fra standard granat "
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "til standard granatgennembrydning"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "til standard skudhastighed"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "til negative effekter fra fortumlet mandskab"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "til modtaget skade til affjedring"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "til affjedringens reparationshastighed"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "til tårnets grænser på drejevinkel"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "til straf på ladetid"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "til straf ved skadet motor"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "til skrogets drejehastighed"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "til holdbarhed på interne moduler"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "til holdbarhed på ammunitionsstativ"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "til maksimal bakhastighed"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "til sløring"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "til øget sløring"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "til skade ved fald"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "til affjedringens reparationshastighed"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "til holdbarhed på affjedringen"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "til synsrækkevidde (op til 445 m)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "til varighed hvor et fjendtligt køretøj\ner synligt for dig"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "til motorkraft"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "til skade fra uheld"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "til risiko for motorbrand"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "til maksimal hastighed fremad"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "til risikoen for kritisk skade\ntil brændstoftanke"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "til sigtehastighed"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "til ladetid"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "til spredning ved bevægelse og rotation af køretøj"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "til størrelsen på sigtecirklen efter skydning"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "til spredning i bevægelse"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "til spredning ved rotation af skroget"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "til spredning ved drejning af kanonen"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "til spredning med en skadet kanon"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "til størrelsen på sigtecirklen"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "til skade fra HE-granat"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "til sløring efter skydning"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "til varigheden dit køretøj er synligt"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "til modtaget skade ved påkørsel\npå affjedring"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "til modtaget skade ved påkørsel"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "til hastigheden på at skifte granattyper\ni en ladet kanon"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "til reparationshastighed"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "til tophastighed frem og tilbage"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "til at bibeholde hastighed ved krydsning af alle terræntyper"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "til sløring af et stationært køretøj"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "til sløring af et stationært køretøj"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "til øget sløring af et stationært køretøj"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "til øget sløring af et stationært køretøj"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "til synsrækkevidden på et stationært køretøj (op til 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "til synsrækkevidden på et stationært køretøj (op til 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "til køretøjs hp"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "til tårnets drejehastighed eller kanonens drejehastighed for køretøjer med stationære kabiner"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "til tårnets drejehastighed"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "til hjuls drejehastighed"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "til straf, når et mandskabsmedlem er såret,\nundtagen kommandøren"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "til forsinkelse på notifikation om opdagelse"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "til beskyttelse af mandskabet\nmod skade"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "til mandskabs effektivitetsbonus"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "til yderligere fortumlet varighed"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "til fortumlet varighed"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "til uddelt skade ved påkørsel"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "pause, før kritisk skade til\nkøretøjet i sigtekornet er vist"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "til sløring af fjendtlige køretøjer\nbag bevoksning"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "til sløring af fjendtlige køretøjer\ni bevægelse"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "til hp gendannet af reparationssæt"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "til magasinets ladetid"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "til maksimal potentiel gennembrydning"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "til beskyttelse af radiooperatøren mod skade"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "til skudhastighed for alle typer granater"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "til kanonens spredning"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "til affjedringens reparationshastighed"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "til spredning ved bevægelse af kanonen"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "til straf på ladetid"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "til tab af motorkraft\nved skade"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "til køretøjets drejehastighed"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "til holdbarhed på interne moduler"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "til holdbarhed på ammunitionsstativ"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "til maksimal bakhastighed"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "til sløring"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "til skade fra uheld"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "til affjedringens reparationshastighed"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "til holdbarhed på affjedringen"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "til synsrækkevidde"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "til varighed hvor et fjendtligt køretøj\ner synligt for dig"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "til motorkraft"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "til skade fra uheld"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "til risiko for motorbrand"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "til maksimal hastighed fremad"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "til sigtehastighed"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "til ladetid"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "til spredning ved bevægelse og\nrotation af køretøj"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "til størrelsen på sigtecirklen efter\nskydning"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "til spredning i bevægelse"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "til spredning ved rotation af skroget"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "til spredning ved \nbevægelse af kanonen "
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "til spredning med en skadet kanon"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "til størrelsen på sigtecirklen"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "til skade fra HE-granat"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "til sløring efter skydning"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "til varigheden dit køretøj er synligt"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "til modtaget skade ved påkørsel"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "til hastigheden på at skifte granattyper"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "til reparationshastighed"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "til at bibeholde hastighed"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "til sløring af et stationært\nkøretøj"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "til sløring af et stationært\nkøretøj"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "til synsrækkevidde"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "til synsrækkevidde"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "til køretøjs hp"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "til kanonens drejehastighed"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "til tårnets drejehastighed"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "til straf, når et mandskabsmedlem er såret,\nundtagen kommandøren"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "til forsinkelse på notifikation om opdagelse"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "til beskyttelse af mandskabet\nmod skade"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "til mandskabs effektivitetsbonus"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "til mandskabs effektivitetsbonus"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "til yderligere fortumlet varighed"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "til fortumlet varighed"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "til minimal potentiel skade\nog gennembrydning"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "til uddelt skade ved påkørsel"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "til sløring af fjendtlige køretøjer\nbag bevoksning"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "til sløring af fjendtlige køretøjer\ni bevægelse"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "til chancen for at skade fjendtlige moduler og\nsåre mandskab"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "til brandslukningshastighed"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "til hp gendannet af reparationssæt"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "til magasinets ladetid"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "til sløring af køretøjet"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "til at bibeholde hastighed\npå moderat blødt terræn"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "til maksimal potentiel gennembrydning"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "til radioens signalrækkevidde"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "til beskyttelse af radiooperatøren mod skade"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "til skudhastighed for alle typer granater"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "til at bibeholde hastighed\npå blødt terræn"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "til affjedringens reparationshastighed"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "til signalrækkevidde på allieret kommunikation indenfor radioens dækningsområde"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "til straf på ladetid"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "til tab af motorkraft\nved skade"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "til køretøjets drejehastighed"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "til holdbarhed på interne moduler"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "til holdbarhed på ammunitionsstativ"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "til maksimal bakhastighed"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "til sløring"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "til skade ved fald"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "til affjedringens reparationshastighed"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "til holdbarhed på affjedringen"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "til synsrækkevidde\n(op til 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "til varighed hvor et fjendtligt køretøj\ner synligt for dig"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "til motorkraft"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "til skade fra uheld"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "til risiko for motorbrand"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "til maksimal hastighed fremad"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "til sigtehastighed"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "til ladetid"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "til spredning ved bevægelse og\nrotation af køretøj"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "til størrelsen på sigtecirklen efter\nskydning"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "til spredning i bevægelse"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "til spredning ved rotation af skroget"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "til spredning ved \nbevægelse af kanonen"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "til spredning med en skadet kanon"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "til størrelsen på sigtecirklen"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "til skade fra HE-granat"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "til sløring efter skydning"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "til varigheden dit køretøj er synligt"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "til modtaget skade ved påkørsel"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "til hastigheden på at skifte granattyper"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "til reparationshastighed"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "til at bibeholde hastighed"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "til sløring af et stationært køretøj"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "til sløring af et stationært køretøj"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "til synsrækkevidde på et stationært køretøj\n(op til 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "til synsrækkevidde på et stationært køretøj\n(op til 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "til køretøjs hp"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "til kanonens drejehastighed"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "til tårnets drejehastighed"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "til mandskabs xp optjent i kamp"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "km/t"
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "km/t"
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "s"
+
+msgid "popularLoadouts/common"
+msgstr "Populær"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "Ofte brugt"
+
+msgid "popularLoadouts/legendary"
+msgstr "Legendarisk"
+
+msgid "popularLoadouts/noData"
+msgstr "Ingen data tilgængelig"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "Ingen data tilgængelig"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)sPopulær.%(whiteSpanish_Close)s Baseret på nuværende udstyrstrends blandt alle World of Tanks-spillere"
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "Dataindsamling"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "Hvis nuværende Onslaught-sæsondata endnu ikke er tilgængeligt, vil data fra sidste sæson blive anvendt"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "Assistent er tilgængelig for %(whiteSpanish_Open)sstandard kampe%(whiteSpanish_Close)s og %(whiteSpanish_Open)sOnslaught%(whiteSpanish_Close)s"
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "Data fra alle udstyrstyper lægges sammen"
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "WoT Plus fordel"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "Modtag nøjagtig udstyrsdata baseret på millioner af spil og få det meste ud af hver eneste kamp."
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "Udstyrsassistent"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendarisk.%(whiteSpanish_Close)s Baseret på udstyr, der i øjeblikket er populært hos spillere på Legend WTR-niveau"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "Typer af udstyrssæt"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "De foreslåede udstyrssæt er baseret på udstyrssæt, som er populære på køretøjer med en lignende spillestil"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "Data for nedenstående køretøj med en lignende spillestil er vist:"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "Data for udstyrssæt er ikke tilgængeligt"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "Det valgte køretøj er utilgængeligt i denne kamptype"
+
+msgid "section/battleAbilities"
+msgstr "KAMPRESERVER"
+
+msgid "section/battleBoosters"
+msgstr "DIREKTIVER"
+
+msgid "section/consumables"
+msgstr "FORBRUGSVARER"
+
+msgid "section/modules"
+msgstr "MODULER"
+
+msgid "section/optDevices"
+msgstr "UDSTYR"
+
+msgid "section/shells"
+msgstr "AMMUNITION"
+
+msgid "section/toggleCamouflage"
+msgstr "SLØRING"
+
+msgid "section/toggleShells"
+msgstr "AMMUNITION"
+
+msgid "shells/ammunitionFull"
+msgstr "Komplet ammunition"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "Ammunition mangelfuld"
+
+msgid "shells/autoFillOff"
+msgstr "Auto-genforsyning slået fra"
+
+msgid "shells/autofillOn"
+msgstr "Auto-genforsyning slået til"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "I depot:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "I ammunitionsstativ:"
+
+msgid "shells/shortSpecification/price"
+msgstr "Køb:"
+
+msgid "shells/specification/inStorage"
+msgstr "I depot"
+
+msgid "shells/specification/inVehicle"
+msgstr "I ammunitionsstativ"
+
+msgid "shells/specification/price"
+msgstr "Køb"
+
+msgid "shells/title"
+msgstr "Ammunition"
+
+msgid "shells/type/base"
+msgstr "STANDARD (AP)"
+
+msgid "shells/type/special"
+msgstr "SÆRLIG (HE)"
+
+msgid "shells/type/tactical"
+msgstr "TAKTISK (APCR)"
+
+msgid "tabs/crew"
+msgstr "For mandskab"
+
+msgid "tabs/deluxe"
+msgstr "Forbedret"
+
+msgid "tabs/modernized"
+msgstr "Eksperimentelt"
+
+msgid "tabs/optDevice"
+msgstr "For udstyr"
+
+msgid "tabs/simple"
+msgstr "Standard"
+
+msgid "tabs/trophy"
+msgstr "Erobret"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "Direktivet bliver automatisk genopfyldt, efter køretøjet forlader kampen. Det vil enten tages fra depotet (hvis du har dette direktiv på lager), eller købes med in-game valuta."
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "Forbrugsvarer bliver automatisk genopfyldt, om nødvendigt, efter køretøjet forlader kampen."
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "Reparation vil blive udført automatisk, om nødvendigt, efter køretøjet forlader kampen."
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "Ammunition bliver automatisk genopfyldt, om nødvendigt, efter køretøjet forlader kampen."
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "Automatisk genopfyldning"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "Reparer automatisk"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "Vil blive adskilt fra depotet: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "Vil blive adskilt fra køretøjerne: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr ", "
+
+msgid "tooltips/action/description/add_one"
+msgstr "Klik for at købe yderligere ting til denne plads."
+
+msgid "tooltips/action/description/demount"
+msgstr "Klik for at afmontere udstyr fra denne plads."
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "Klik for at afmontere udstyr fra denne plads."
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "Klik for at afmontere udstyr fra alle konfigurationer."
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "Klik for gratis at afmontere udstyr fra denne plads med dit aktive WoT Plus-abonnement."
+
+msgid "tooltips/action/description/destroy"
+msgstr "Klik for at ødelægge udstyret i denne plads, eller, hvis du har et aktivt WoT Plus-abonnement, kan du gratis afmontere det."
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "Klik for at adskille udstyret til komponenter."
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "Klik for at ødelægge udstyr i denne plads."
+
+msgid "tooltips/action/description/swap"
+msgstr "Klik for at bytte ting mellem pladser."
+
+msgid "tooltips/action/description/upgrade"
+msgstr "Opgradering af udstyr forbedrer dets karakteristika."
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "Opgradering af udstyr forbedrer dets karakteristika."
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "Opgradering af udstyr forbedrer dets karakteristika."
+
+msgid "tooltips/action/title/add_one"
+msgstr "Køb"
+
+msgid "tooltips/action/title/cancel"
+msgstr "Send til depotet"
+
+msgid "tooltips/action/title/demount"
+msgstr "Afmonter"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "Afmonter"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "Afmonter fra alle konfigurationer"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "Gratis afmontering"
+
+msgid "tooltips/action/title/destroy"
+msgstr "Ødelæg"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "Adskil"
+
+msgid "tooltips/action/title/swap"
+msgstr "Skift rækkefølge"
+
+msgid "tooltips/action/title/undo"
+msgstr "Fjern fra plads"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "Opgrader"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "Opgrader"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "Opgrader"
+
+msgid "tooltips/additional"
+msgstr "Yderligere information."
+
+msgid "tooltips/categories/list"
+msgstr "Klik for at se listen over moduler."
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "Denne pladskategori kan omtildeles fra feltmodifikations-menuen eller fra skærmen for udstyrsvalg."
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "Kategori der kan omtildeles"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "Klik for at omtildele pladskategori."
+
+msgid "tooltips/equipmentList"
+msgstr "Klik for at se listen over tilgængeligt udstyr."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "Kan ikke adskille eksperimentelt udstyr til komponenter: du har ikke noget udstyr af denne type."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "Klik for at fortsætte adskillelsen af udstyr til komponenter."
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "Ved montering vil dette udstyr kun give en standard bonus, da kun kampvognsjægere og SPG'er har ildkraft-kategorien tilgængelig og dette udstyr ikke bliver monteret i en plads i ildkraft-kategorien."
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "Dit køretøj får forøgede bonusser til dets karakteristika."
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "For at øge bonussen til karakteristika, monter dette udstyr i en plads fra en af de følgende kategorier: %(category)s."
+
+msgid "tooltips/howToIncrease/single"
+msgstr "For at øge bonussen til karakteristika, monter dette udstyr i en plads fra følgende kategori: %(category)s."
+
+msgid "tooltips/placeEquipment"
+msgstr "Udstyrsplads"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "Du kan aktivere/deaktivere muligheden for at vælge sæt af granater og forbrugsvarer under nedtællingen før kamp på skærmen for feltmodifikation."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "Du kan aktivere/deaktivere muligheden for at vælge udstyrssæt og direktiver under nedtællingen før kamp på skærmen for feltmodifikation."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "Du kan aktivere/deaktivere muligheden for at vælge sæt af granater og forbrugsvarer under nedtællingen før kamp på skærmen for feltmodifikation."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "Du kan aktivere/deaktivere muligheden for at vælge sæt af granater og forbrugsvarer under nedtællingen før kamp på skærmen for opgraderinger."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "Du kan aktivere/deaktivere muligheden for at vælge udstyrssæt og direktiver under nedtællingen før kamp på skærmen for feltmodifikation."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "Du kan aktivere/deaktivere muligheden for at vælge udstyrssæt og direktiver under nedtællingen før kamp på skærmen for opgraderinger."
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "Skift mellem sæt deaktiveret"
+
+msgid "tooltips/separator/last"
+msgstr " og "
+
+msgid "tooltips/separator/other"
+msgstr ", "
+
+msgid "tooltips/specializationDesc"
+msgstr "Standard udstyr fra %(spec)s-kategorien vil være mere effektiv, hvis det monteres i denne plads. Udstyr fra andre kategorier vil kun give en standard bonus."
+
+msgid "tooltips/specializationName"
+msgstr "Kategori:"
+
+msgid "tooltips/specializationType"
+msgstr "Ildkraft"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "En værdifuld type udstyr, der har bedre karakteristika end andre typer udstyr."
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "Særligt udstyr, der har tre opgraderingsniveauer."
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "Udstyr forbedrer dit køretøjs karakteristika."
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "En type udstyr, der har samme parametre som standard udstyr, men som kan opgraderes."
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "Forbedret udstyr"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "Eksperimentelt udstyr"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "Standard udstyr"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "Erobret udstyr"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "Denne type udstyr er tilgængelig for %(whiteSpanish_Open)sobligationer%(whiteSpanish_Close)s. Den kan også modtages som belønning for bestemte in-game bedrifter og under særlige spilevents."
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "Denne type udstyr kan modtages som en belønning under bestemte spilevents."
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "Denne type udstyr er tilgængelig for køb med in-game valuta. Det kan også modtages som en belønning for bestemte in-game bedrifter og under særlige spilevents. Karakteristika som på standard udstyr kan forbedres ved at placere det i den rette plads."
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "Denne type udstyr kan modtages som en belønning under bestemte spilevents."
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "Anskaffelsesmetode"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "Anskaffelsesmetode"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "Udstyrspladser"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "Erobret udstyr kan ikke købes"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "Du kan opgradere karakteristika på eksperimentelt udstyr med %(whiteSpanish_Open)skomponenter%(whiteSpanish_Close)s, der kan modtages ved at adskille denne type udstyr."
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "Du kan opgradere karakteristika for erobret udstyr med in-game valuta."
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "Opgradering af eksperimentelt udstyr"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "Opgradering af erobret udstyr"

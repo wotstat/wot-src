@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Paliaubos galioja visuose serveriuose."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "Šiame serveryje galioja paliaubos."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Pakeisti serverį"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Plieninis medžiotojas baigėsi"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Režimas šiame serveryje nepasiekiamas"
+
+msgid "banner/info/disabled"
+msgstr "Paliaubos"
+
+msgid "banner/info/seasonActive"
+msgstr "Antras šansas ir prizai"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "Iki %(month)s %(day)s"
+
+msgid "banner/subtitle"
+msgstr "Karališka kova su vertingais prizais"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s val."
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s val. %(minutes)s min."
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s min."
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "PLIENINIS MEDŽIOTOJAS"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Mūšis tęsis, bet kitoje vietoje."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Jūs netrukus sugrįšite"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Sugrįžimas"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Nebebus dar vieno šanso."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Sugrįžti nebegalima"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Netrukus nebegalėsite sugrįžti!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Šį kartą būkite atsargesni."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Jūsų mašina paruošta mūšiui!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Sugrįžimas į mūšį"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Vyksta aktyvi kova."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Sugrįžti negalima"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Suraskite sugrįžimo užtaisą ir sugrąžinkite ją į mūšį."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Sunaikinta komandos mašina"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Sugrįžimas"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "Dvi mašinos yra geriau už vieną!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Komandos mašina sugrįžo"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Venkite kovos!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Sugrąžinamas komandos narys"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Bonusas aktyvuotas!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Apdovanojimas už pirmą vietą"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Surinkta mūšyje"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "PERGALĖ"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Skyrius nepasirinktas. Nepanaudoti Kovinio leidimo taškai: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Visi skyriai baigti. Žaiskite toliau ir kaupkite Kovinio leidimo taškus."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Pareiti į Kovinį leidimą"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Kovinis leidimas"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Pasirinkti skyrių"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Pereiti į aktyvaus skyriaus seką"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Pareiti į Kovinį leidimą"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Mūšyje įvykdytos misijos: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Misijos"
+
+msgid "battleResult/battleReward/title"
+msgstr "GAUTA UŽ MŪŠĮ"
+
+msgid "battleResult/button/hangar"
+msgstr "Į garažą"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Taškai ir apdovanojimai bus išdalinti kai visi žaidėjai baigs šį mūšį. Remiantis mūšio rezultatais bus įvertintos ir misijos."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Paspauskite %(esc) norėdami praleisti animaciją"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Pakviesti į būrį"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Sąjungininkas"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Atsitiktinis sąjungininkas"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Mūšio tipas"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "SOLO MŪŠIS"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "Su WoT Premium paskyrą gautumėte:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Bendra suma su WoT Premium paskyra"
+
+msgid "battleResult/progressStage"
+msgstr "{stage} etapo progresas"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Žaidėjo tikras žaidimo vardas ir klano žyma nerodomi kitiems žaidėjams mūšyje."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Tikras žaidėjo vardas žaidime: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Žaidėjo tikras vardas buvo pakeistas į {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Jūsų mašinos šarvais užblokuota žala."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Jūsų padarytos žalos kiekis."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Jūsų sunaikintų priešų mašinų skaičius."
+
+msgid "battleResult/stats/body/place"
+msgstr "Jūsų vieta pagal mūšio rezultatus."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Jūsų būrio sunaikintų priešo mašinų skaičius."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Užblokuota žala"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Padaryta žala"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Jūsų sunaikinta"
+
+msgid "battleResult/stats/header/place"
+msgstr "Pozicija"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Sunaikinta būrio"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Užblokuota žala"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Padaryta žala"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Jūsų sunaikinta"
+
+msgid "battleResult/stats/title/place"
+msgstr "Pozicija"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Sunaikinta būrio"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Reitingas"
+
+msgid "battleResult/tab/result"
+msgstr "Mūšio rezultatai"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "BŪRYS SUNAIKINTAS"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "MAŠINA SUNAIKINTA"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "PERGALĖ"
+
+msgid "battleResult/title/victoryOther"
+msgstr "GARBINGA VIETA"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Pasirinkite vieną iš specialių mašinų režimui Plieninis medžiotojas."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Netinkama mašina"
+
+msgid "button/modules"
+msgstr "TECHNOLOGIJŲ MEDIS"
+
+msgid "button/repair"
+msgstr "Remontuoti"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Mūšiai laikinai nepasiekiami"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Mūšiai laikinai nepasiekiami"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Režimas nepasiekiamas"
+
+msgid "ceasefire/header/schedule"
+msgstr "Mūšių tvarkaraštis"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Paliaubos vyksta visuose pasiekiamuose serveriuose. Grafiką galite pamatyti žemiau."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "Šiame serveryje vyksta paliaubos. Jūs galite pasikeisti serverį ir žaisti režimą."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Plieninis medžiotojas šiame serveryje nepasiekiamas. Jį galite žaisti pasikeitę serverį."
+
+msgid "commanderInfo/commonRank"
+msgstr "Vadas"
+
+msgid "commanderInfo/description/china"
+msgstr "\"Aš jau laimėjau. Greitai tu tai suprasi.\""
+
+msgid "commanderInfo/description/france"
+msgstr "\"Aš esu įstatymas!\""
+
+msgid "commanderInfo/description/germany"
+msgstr "\"Šiandien šlovinga diena, kuri pateks į istoriją.\""
+
+msgid "commanderInfo/description/poland"
+msgstr "\"Nėra laiko mandagybėms.\""
+
+msgid "commanderInfo/description/sweden"
+msgstr "\"Viskas eina pagal planą.\""
+
+msgid "commanderInfo/description/uk"
+msgstr "\"Kas ir kas esi, būk geriausias.\""
+
+msgid "commanderInfo/description/usa"
+msgstr "\"Karo kirvis jau iškastas, nušveistas ir pagaląstas.\""
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"Laimėtojas pasiima viską!\""
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Įgūdžiai"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nSpeciali mašina Plieniniam medžiotojui"
+
+msgid "fragPanel/squadsCount"
+msgstr "Būriai: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Reitingas"
+
+msgid "hangarResults/btns/summary"
+msgstr "Mūšio rezultatai"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "UŽDARYTI"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Modulius galima patobulinti tik mūšyje. Tobulinimų meniu atsidaro nuspaudus %(key)s mūšyje."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s ir %(highlight2)s norėdami gauti patirties. Kiekvienas pasiektas lygis leidžia žaidėjui patobulinti modulį iš Tobulinimų meniu ir taip ženkliai pagerinti mašinos charakteristikas."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Darykite žalą priešų mašinoms"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "rinkite Karo grobį žemėlapyje"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Mašinos tobulinimas mūšyje"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Jūs pradedate mūšį su I lygio mašina."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Modulius galima tobulinti mūšyje per Tobulinimų meniu (nuspaudus %(treeKey)s klavišą pagal nutylėjimą) arba nuspaudus %(leftModuleKey)s ir %(rightModuleKey)s klavišų kombinaciją.\n\nModulius galima tobulinti tik mūšyje."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "Mūšyje:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Jūsų plieninis medžiotojas gauna patirtį mūšyje už žalos darymą ir karo grobio rinkimą. Kai surenkamas reikiamas patirties kiekis, jūs galite pasiekti naują lygį ir patobulinti pasirinktą modulį."
+
+msgid "levelUp/severalTitles"
+msgstr "GAUTI LYGIAI: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "GAUTAS %(level)s LYGIS!"
+
+msgid "levelUp/twoTitles"
+msgstr "GAUTI LYGIAI: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Vykdykite misijas ir gaukite vertingus prizus."
+
+msgid "level_up/max_level_info/title"
+msgstr "Pasiekiamos naujos kasdienės misijos"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Sezonas\ngreitai prasidės"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Sezonas prasidės %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Užblokuota"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Žala"
+
+msgid "playerStats/killsStat/name"
+msgstr "Sunaikinta"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Sunaikinta"
+
+msgid "playerStats/placeStat/name"
+msgstr "Vieta"
+
+msgid "playerStats/title"
+msgstr "Asmeniniai pasiekimai"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Radio aptikimas negalimas: vyksta pasiruošimas"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Mašina pilnai veikia. Atsistatymas nebūtinas."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Kovinis robotas sunaikintas"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s sunaikino %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s sunaikino priešą %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Ugnies kamuolys sunaikintas"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Minos nebeveikia"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Padėtos minos"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Radio aptikimas paruoštas naudojimui"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Mašina pasiekė maksimalų lygį"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Pasiektas %(level)s lygis"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Sumontuota: %(moduleType)s. Patobulinta: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Korpusas"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Važiuoklė"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Variklis"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Pabūklas"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Radio aptikimas"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Bokštelis"
+
+msgid "playersPanel/title"
+msgstr "KOMANDA"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Perjungti vaizdą tarp būrio mašinų."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Stebėtojo režimas"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Grįžti į Garažą.\nEikite į mūšį su kitu tanku."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Atgal į Garažą"
+
+msgid "preBattle/buttonTitle"
+msgstr "Į MŪŠĮ!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Pasirinkite žemėlapį"
+
+msgid "preBattle/listTitle"
+msgstr "ŽAIDĖJO PASIRUOŠIMAS"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Zona 404"
+
+msgid "preBattle/mapRandom"
+msgstr "Atsitiktinis žemėlapis"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "BŪRIO MAŠINOS"
+
+msgid "preBattle/title"
+msgstr "DIDŽIOJI MEDŽIOKLĖ"
+
+msgid "preBattle/userFooterTitle"
+msgstr "PASIRINKTOS MAŠINOS"
+
+msgid "preBattle/userNotReady"
+msgstr "Nepasiruošęs"
+
+msgid "preBattle/userReady"
+msgstr "Pasiruošęs"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "%(cycleNo)s sezonas %(server)s serveryje baigėsi"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "Sezonas serveryje %(server)s baigėsi."
+
+msgid "proxyPanel/button"
+msgstr "Parduotuvė"
+
+msgid "proxyPanel/label"
+msgstr "Plieninės\nspynos"
+
+msgid "proxyPanel/store"
+msgstr "PARDUOTUVĖ"
+
+msgid "questsTooltip/timeLeft"
+msgstr "Sezonas baigiasi po %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "Radio aptikimui nenurodytas klavišas"
+
+msgid "radar/hint/press"
+msgstr "Paspauskite"
+
+msgid "radar/hint/text"
+msgstr "norėdami aktyvuoti Radio aptikimą"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Išsilaipinti"
+
+msgid "selectRespawn/button/land"
+msgstr "Išsilaipinti"
+
+msgid "selectRespawn/description"
+msgstr "Paspauskite ant vieno iš siūlomų taškų. Jeigu nepasirinksite jokio taško, išsilaipinsite bet kuriame iš šių taškų."
+
+msgid "selectRespawn/header"
+msgstr "Pasirinkite išsilaipinimo tašką"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Paspauskite ant vieno iš siūlomų taškų. Jeigu nepasirinksite jokio taško, išsilaipinsite bet kuriame iš šių taškų."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Jūsų mūšis prasidės čia"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Pasirinkite išsilaipinimo tašką"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d."
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s val. %(min)s min."
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min."
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min."
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "SIAUTĖJIMAS!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Rūgštis ėsdina šarvus!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Zona uždaryta. Išvažiuokite iš zonos, kitaip jūsų mašina bus sunaikinta!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "Zona greitai pasidarys raudona"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Mobilumas sumažėjo!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Vėl ant vikšrų..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Patvarumo taškų atstatymas"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Patvarumo taškų atstatymas"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Žalos konvertavimas"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Pagerintos techninės charakteristikos"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Sviediniai ir atsistatymas"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Siuntinys iš lėktuvo"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Remonto komplektai arba gebėjimo užkrovos"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Karo grobis"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Bendras Karo grobis: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Renkama: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Remonto zona"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Kylantis azartas!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Dūmuose"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Mūsų šarvai rūdija!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Mobilumas sumažėjo!"
+
+msgid "techParams/type/damage"
+msgstr "Žala"
+
+msgid "techParams/type/difficulty"
+msgstr "Sudėtingumas"
+
+msgid "techParams/type/mobility"
+msgstr "Mobilumas"
+
+msgid "techParams/type/spotting"
+msgstr "Aptikimas"
+
+msgid "techParams/type/survivability"
+msgstr "Išgyvenamumas"
+
+msgid "techtree/body_armor"
+msgstr "Šarvai"
+
+msgid "techtree/body_health"
+msgstr "Patvarumas"
+
+msgid "techtree/body_mobility"
+msgstr "Mobilumas"
+
+msgid "techtree/engine_acceleration"
+msgstr "Dinamika"
+
+msgid "techtree/engine_speed"
+msgstr "Maksimalus greitis"
+
+msgid "techtree/gun_alpha"
+msgstr "Šūvio žala"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Auto užtaisymas"
+
+msgid "techtree/gun_clip"
+msgstr "Kasetės užtaisymas"
+
+msgid "techtree/gun_dpm"
+msgstr "Užtaisymo greitis"
+
+msgid "techtree/gun_dualgun"
+msgstr "Dvigubas pabūklas"
+
+msgid "techtree/gun_he"
+msgstr "HE sviedinio žala"
+
+msgid "techtree/gun_machinegun"
+msgstr "Prieštankinis kulkosvaidis"
+
+msgid "techtree/gun_piercing"
+msgstr "Pramušimas"
+
+msgid "techtree/radar_cooldown"
+msgstr "Radio aptikimo atsistatymas"
+
+msgid "techtree/radar_distance"
+msgstr "Aptikimo atstumas"
+
+msgid "techtree/turret_armor"
+msgstr "Šarvai"
+
+msgid "techtree/turret_health"
+msgstr "Patvarumas"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Sukimosi greitis"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "Iki {{credits}} kreditų"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "Iki {{experience}} patirties"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Mūšio būryje bonusas"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Kovokite būryje su atsitiktiniu žaidėju. Žaiskite komandoje prieš devynis kitus būrius. Būrio misijas galite vykdyti tik šiame režime. Būrys bus automatiškai išformuotas po mūšio."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Klasikinis Plieninis medžiotojas. Kiekvienas žaidėjas kovoja už save. Rinkite resursus, tobulinkite mašiną ir išnaudodami jos unikalius gebėjimus išlikite iki galo!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Mūšis būryje su draugu. Žaiskite komandoje prieš devynis kitus būrius. Būrio misijas galite vykdyti tik šiame režime."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Atsitiktinis būrys"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Solo režimas"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Būrys su draugu"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Solo"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Būrys"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Taškų rinkimo taisyklės"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s vieta"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s vietos"
+
+msgid "tooltips/awards/achievement"
+msgstr "Medalis"
+
+msgid "tooltips/awards/badge"
+msgstr "Ženkliukas"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "Leidžia sugrįžti į mūšį tuo atveju, jei jūsų mašina sunaikinama. Sugrįžusi mašina išlieka tokio pačio lygio. Jo naudojimas mūšyje ribotas."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Sugrįžimo užtaisų galite gauti iš siuntinys iš lėktuvo."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "Kad sugrąžintumėte komandos narį, turite nekovoti {brown_Open}%(timeToResurrect)s s{brown_Close}. Ši funkcija veikia tik mūšio pirmas {brown_Open}%(duration)s min{brown_Close}. Sugrįžimo užtaisais dalinasi visi būrio nariai."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "Kai žaidžiate būryje"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Sunaikinta mašina sugrįš savaime. Ši funkcija veikia tik mūšio pirmas {brown_Open}%(duration)s min{brown_Close}."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "Kai žaidžiate solo"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Vienkartinis"
+
+msgid "tooltips/respawn/title"
+msgstr "Sugrįžimas"
+
+msgid "tooltips/vehicle/description"
+msgstr "Mašina režimui Plieninis medžiotojas"
+
+msgid "tournament/description"
+msgstr "DIDŽIOJI MEDŽIOKLĖ"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Nepasiruošęs"
+
+msgid "tournament/fightButton/ready"
+msgstr "Pasiruošęs!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Negalima patekti į turnyrą. Klaidos kodas: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Didžiosios medžioklės turnyro klaida. Klaidos kodas: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "DIDŽIOJI MEDŽIOKLĖ"
+
+msgid "tournament/type/solo"
+msgstr "Tipas: Solo"
+
+msgid "tournament/type/squad"
+msgstr "Tipas: Būrys"
+
+msgid "upgradePanel/alert/0"
+msgstr "Jūs negalite patobulinti mašinos!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Jūs negalite patobulinti mašinos aktyvios kovos metu!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Jūs negalite patobulinti mašinos. Mašina skęsta!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Jūs negalite patobulinti mašinos. Mašina apsivertė!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Paspauskite %(key)s norėdami atidaryti Tobulinimų meniu"
+
+msgid "upgradePanel/title/default"
+msgstr "Galimas naujas modulis"
+
+msgid "upgradePanel/title/hull"
+msgstr "Galimas naujas korpusas"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Galima nauja važiuoklė"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Galimas naujas variklis"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Galimas naujas ginklas"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Galimas naujas radijas"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Galimas naujas bokštelis"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "ARBA"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Šarvai"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Šūvio žala"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Užtaisymo greitis"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Patvarumas"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Pramušimas"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Radio aptikimo operacija"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Kasetinio užtaisymo sistema"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Greitis"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Mašinos savybės"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Privalumai"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Trūkumai"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Paliaubos galioja visuose serveriuose. Mūšiai bus pasiekiami po %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Pasirinkite kitą serverį"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Epizodas %(cycle)s baigėsi"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Epizodas baigėsi"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Paliaubos galioja serveryje. Mūšiai bus pasiekiami po %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Paliaubos galioja %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Epizodas %(cycle)s prasidės po %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "Pirmas epizodas prasidės po %(time)s"

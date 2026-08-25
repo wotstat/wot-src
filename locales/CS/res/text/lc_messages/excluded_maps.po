@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "backButton/label"
+msgstr "ZPĚT"
+
+msgid "backButton/to"
+msgstr "NA STATUS ÚČTU"
+
+msgid "filteredMapsDisplayed"
+msgstr "Map zobrazeno: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Ukázat/skrýt mapy tohoto typu."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Pouštní mapy"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Letní mapy"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Zimní mapy"
+
+msgid "header/cooldown"
+msgstr "Mapu můžete znovu nahradit za %(cooldownEndTime)."
+
+msgid "header/title"
+msgstr "Vyloučené mapy"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Po skončení odpočtu budete moci znovu tuto mapu nahradit."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Nahrazení mapy není k dispozici"
+
+msgid "mapTile/hoverExclude"
+msgstr "Vyloučit mapu %(mapName)?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Vyloučit"
+
+msgid "mapTile/hoverInclude"
+msgstr "Začlenit mapu %(mapName) do náhodných bitev?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Začlenit"
+
+msgid "mapsFilterLabel"
+msgstr "Typy map:"
+
+msgid "notSelected"
+msgstr "Nevybrány"
+
+msgid "premium"
+msgstr "prémiovým účtem WoT"
+
+msgid "slot/disabledTooltipBody"
+msgstr "Dodatečná pozice je dostupná pouze s aktivním prémiovým účtem WoT nebo předplatným WoT Plus."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "Odemkněte jej s prémiovým účtem WoT."
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Odemkněte jej s aktivním předplatným WoT Plus."
+
+msgid "slot/replaceTooltipBody"
+msgstr "Vyberte mapu ze seznamu níže, kterou nahradíte a vyloučíte z náhodných bitev."
+
+msgid "slot/selectTooltipBody"
+msgstr "Vyberte mapu ze seznamu níže, kterou vyloučíte z náhodných bitev."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Slot je dostupný"
+
+msgid "totalMapsDisplayed"
+msgstr "Map zobrazeno: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "Vylučte s %(linkPremium) 1 další mapu a %(mapCount)s další s %(linkWotPlus)."
+msgstr[1] "Vylučte s %(linkPremium) 1 další mapu a %(mapCount)s další s %(linkWotPlus)."
+
+msgid "unlock/premium"
+msgstr "Vylučte s %(linkPremium) 1 další mapu."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "Vylučte s %(linkWotPlus) %(mapCount)s další mapu."
+msgstr[1] "Vylučte s %(linkWotPlus) %(mapCount)s další mapy."
+
+msgid "wotplus"
+msgstr "WoT Plus"

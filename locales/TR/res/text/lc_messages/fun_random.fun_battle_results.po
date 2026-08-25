@@ -1,0 +1,254 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "closeBtn"
+msgstr "KAPAT"
+
+msgid "continueBtn"
+msgstr "Devam Et"
+
+msgid "economy/double/credits"
+msgstr "WoT Premium Hesabı kazandığınız kredi miktarını %%%(value)s artırır."
+
+msgid "economy/double/free_xp"
+msgstr "WoT Premium Hesabı kazandığınız Serbest DP miktarını %%%(value)s artırır."
+
+msgid "economy/double/tmen_xp"
+msgstr "WoT Premium Hesabı kazandığınız Mürettebat DP'si miktarını %%%(value)s artırır."
+
+msgid "economy/double/xp"
+msgstr "WoT Premium Hesabı kazandığınız Savaş DP'si miktarını %%%(value)s artırır."
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "WoT Premium Hesabı kazandığınız Savaş DP'si ve Serbest DP miktarını %%%(value)s artırır."
+
+msgid "efficiency/capturePoints"
+msgstr "Üs İşgali"
+
+msgid "efficiency/damageAssisted"
+msgstr "Yardım Edilen Hasar"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "Şok"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "Engellenen Hasar"
+
+msgid "efficiency/damageDealt"
+msgstr "Hasar"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "Üs Savunması"
+
+msgid "efficiency/empty"
+msgstr "-"
+
+msgid "efficiency/kills"
+msgstr "Yok Edilen"
+
+msgid "efficiency/spotted"
+msgstr "Tespit"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "Üs İşgali"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "Yok Etmeye Yardım"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "Şok"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "Zırh Kullanımı"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "Hasar"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "Üs Savunması"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "Yok edilen düşmanlar"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "Tespit"
+
+msgid "finish"
+msgstr "Savaş sona erdi"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "Aynı araçta en son yapılan savaşa uygulanmalıdır."
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "Bonus uygulanamaz: Hızlandırılmış mürettebat eğitimi açık."
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "Bonus uygulanamaz: Hızlandırılmış mürettebat eğitimi kapalı."
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "Çarpanlar ancak galip geldiğiniz savaşlara uygulanabilir."
+
+msgid "premiumBonus/NoCrew"
+msgstr "Yönetilebilir bonus uygulanamaz: Mürettebat bulunamadı."
+
+msgid "premiumBonus/NoVehicle"
+msgstr "Yönetilebilir bonus uygulanamaz: Araç bulunamadı."
+
+msgid "progress/title"
+msgstr "%(modeName)s: Özel Görev. Aşama: %(done)s / %(total)s"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s: Özel Görev"
+
+msgid "result/lose"
+msgstr "YENİLGİ"
+
+msgid "result/tie"
+msgstr "BERABERLİK"
+
+msgid "result/win"
+msgstr "ZAFER"
+
+msgid "resultRace/battleStatus/finished"
+msgstr "ULAŞTI"
+
+msgid "resultRace/battleStatus/inTop"
+msgstr "KONUM"
+
+msgid "resultRace/battleStatus/notFinished"
+msgstr "ULAŞAMADI"
+
+msgid "resultRace/finishReason/finished"
+msgstr "Bitiş çizgisine ulaşıldı"
+
+msgid "resultRace/finishReason/notFinished"
+msgstr "Bitiş çizgisine ulaşılamadı"
+
+msgid "resultRace/footerSubtitle/battleEnded"
+msgstr "Savaş bitti: {{time}}"
+
+msgid "resultRace/footerSubtitle/finished"
+msgstr "Fena değil!"
+
+msgid "resultRace/footerSubtitle/inTop"
+msgstr "İlk 3!"
+
+msgid "resultRace/footerSubtitle/notFinished"
+msgstr "Gelecek sefer şansınız bol olsun!"
+
+msgid "ribbon/applied"
+msgstr "Bonus başarıyla uygulandı"
+
+msgid "ribbon/errorState"
+msgstr "Uygulama hatası"
+
+msgid "ribbon/expBonus"
+msgstr "DP'ye +%(count)s %(icon)s Bonus"
+
+msgid "ribbon/timeLeft"
+msgstr "Bonus yenilemeye kalan süre:"
+
+msgid "ribbon/usesLeft"
+msgstr "Kullanım hakkı: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "Dev GENEL BAKIŞ"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "Dev EKİP SKORU"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "Oyuncular"
+
+msgid "sub_modes/fall_tanks/efficiency/checkpointsPassed"
+msgstr "Kontrol Noktaları"
+
+msgid "sub_modes/fall_tanks/efficiency/deathCount"
+msgstr "Yeniden Doğuşlar"
+
+msgid "sub_modes/fall_tanks/efficiency/finishPosition"
+msgstr "Konum"
+
+msgid "sub_modes/fall_tanks/efficiency/finishTime"
+msgstr "Süre"
+
+msgid "sub_modes/fall_tanks/efficiency/kills"
+msgstr "Dağıldı"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/checkpointsPassed"
+msgstr "Geçtiğiniz kontrol noktası sayısı"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/deathCount"
+msgstr "Aracınız dağıldıktan sonra yeniden doğuş sayınız"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/destroyed"
+msgstr "Dağıttığınız düşman aracı sayısı"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishPosition"
+msgstr "Yarış puan durumundaki son konumunuz"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishTime"
+msgstr "Bitiş çizgisine ulaşma süreniz"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/checkpointsPassed"
+msgstr "Kontrol Noktaları"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/deathCount"
+msgstr "Yeniden Doğuşlar"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/destroyed"
+msgstr "Dağıtılmalar"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishPosition"
+msgstr "Konum"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishTime"
+msgstr "Süre"
+
+msgid "sub_modes/fall_tanks/navigation/battleResults"
+msgstr "KİŞİSEL SKOR"
+
+msgid "sub_modes/fall_tanks/navigation/teamEfficiency"
+msgstr "KATILIMCILARIN SONUÇLARI"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/body"
+msgstr "Konuma göre sırala"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/header"
+msgstr "Konum"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/body"
+msgstr "Süreye göre sırala"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/header"
+msgstr "Süre"
+
+msgid "sub_modes/fall_tanks/team/singleTeam"
+msgstr "Oyuncular"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/body"
+msgstr "Araca göre sırala"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/header"
+msgstr "Araçlar"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "GENEL BAKIŞ"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "EKİP SKORU"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "Oyuncular"
+
+msgid "team/empty/finishTime"
+msgstr "-- : -- . --"
+
+msgid "team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "title"
+msgstr "SAVAŞ SONUÇLARI"

@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Piirustus koottu"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Piirustus  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Piirustus {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "Ostamiseen"
+
+msgid "blueprintScreen/button/research"
+msgstr "Tutkimukseen"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Näytä tallissa"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Voit koota piirustukset saadaksesi alennuksen haluamasi vaunun tutkimiseen. Sinun on kuitenkin täytynyt tutkia kehityspuun\nedeltävä vaunu, jotta voit käyttää alennuksen."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Selvä!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Ei voida tutkia"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "Piirustuksen palasen luomiseen tarvitset:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "valitse:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "LUO PALANEN:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Luo palasia"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Muunna\npalanen"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Muuntaminen\nei ole saatavilla"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "EI SAATAVILLA:\nEi kylliksi\nresursseja"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Mene vaunuun"
+
+msgid "blueprintScreen/or"
+msgstr "tai"
+
+msgid "blueprintScreen/research"
+msgstr "TUTKI"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Vaunun tutkiminen ilmaiseksi"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Ei voida tutkia"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Alennus tutkittaessa:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Tämä vaunu on tutkittu ja on saatavilla ostettavaksi"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Tämä vaunu on tutkittu ja ostettu"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "Varikolla:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Voit käyttää 100% alennuksen {vehicleName} vaunun tutkimiseen tutkittuasi sitä edeltävän vaunun kehityspuusta."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Piirustus koottu"
+
+msgid "blueprintScreen/unlocked"
+msgstr "VAUNU\nTUTKITTU"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Yhteenliittymä:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Blokki:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Liittouma:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Liittokunta:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Yleinen:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Yhteenliittymän"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Blokin"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Liittouman"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Liittokunnan"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Ranska, Tšekkoslovakia, Ruotsi, Italia)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Saksa, Japani)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(Yhdysvallat, Iso-Britannia, Puola)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(Neuvostoliitto, Kiina)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Valitse kansallisten palasten määrä luodaksesi vaunun piirustusten palasia.\n%(allianceIcon)%(allianceName) %(allianceNations) kansallisia palasia saatavilla."
+
+msgid "conversionView/topMessage/single"
+msgstr "Valitse yhden kansakunnan palasia luodaksesi vaunun piirustusten palasia.\n%(allianceIcon)%(allianceName) %(allianceNations) kansallisia palasia saatavilla."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Lopullinen hinta:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Piirustusten palasen hinta:"
+
+msgid "nations/china"
+msgstr "Kiina"
+
+msgid "nations/czech"
+msgstr "Tšekkoslovakia"
+
+msgid "nations/france"
+msgstr "Ranska"
+
+msgid "nations/germany"
+msgstr "Saksa"
+
+msgid "nations/italy"
+msgstr "Italia"
+
+msgid "nations/japan"
+msgstr "Japani"
+
+msgid "nations/poland"
+msgstr "Puola"
+
+msgid "nations/sweden"
+msgstr "Ruotsi"
+
+msgid "nations/uk"
+msgstr "Iso-Britannia"
+
+msgid "nations/usa"
+msgstr "Yhdysvallat"
+
+msgid "nations/ussr"
+msgstr "Neuvostoliitto"

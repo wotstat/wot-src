@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT-översättare <noreply@wargaming.net>\nLanguage-Team: WoT-teamet <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sVisa%(linkEndTag)s spelarinformation"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sMedlemskapsansökan%(titleEndTag)s\nfrån %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Visa ansökningar"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sStäng av%(linkEndTag)s meddelanden"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sAnsökningar från spelare: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sVisa%(linkEndTag)s klaninformation"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sKlaninbjudningar%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Visa inbjudningar"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sKlaninbjudningar: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "Spelaren blev medlem i klanen."
+
+msgid "clans/state/app/declined"
+msgstr "Ansökan nekades."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "Ett dygn måste ha passerat från det att spelaren lämnade sin förra klan."
+
+msgid "clans/state/invite/accepted"
+msgstr "Din ansökan accepterades."
+
+msgid "clans/state/invite/declined"
+msgstr "Inbjudan avböjd."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Karenstiden på 1 dygn från att du lämnade din förra klan har inte gått ut."
+
+msgid "errors/creationNotAllowed"
+msgstr "Tillstånd saknas för att skapa en inbjudan."
+
+msgid "errors/invalid"
+msgstr "Ogiltig inbjudan."
+
+msgid "errors/inviteNotSupported"
+msgstr "Denna typ av inbjudan finns för närvarande inte tillgänglig. Försök igen senare."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "Mottagaren av inbjudan lade till dig på sin svarta lista."
+
+msgid "errors/selfinvite"
+msgstr "Du kan inte bjuda in dig själv."
+
+msgid "errors/unknownuser"
+msgstr "Denna användare har inte registrerat sig i systemet ännu."
+
+msgid "errors/useroffline"
+msgstr "Användaren är inte uppkopplad."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "Vagnen i garaget är skadad eller låst. Välj en annan vagn."
+
+msgid "friendship/note/approved"
+msgstr "Spelaren lade till dig i sin vänlista"
+
+msgid "friendship/note/canceled"
+msgstr "Förfrågan avvisad"
+
+msgid "friendship/note/maxRoster"
+msgstr "Maximalt antal kontakter i listan: %(rosterMaxCount)s. För att lägga till spelare i vänlistan måste du först ta bort någon från listan."
+
+msgid "friendship/note/notConnected"
+msgstr "Kan inte ansluta till servern. Vänligen vänta."
+
+msgid "friendship/note/process"
+msgstr "Väntar på svar från servern"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sVänförfrågan%(titleEndTag)s\nfrån %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Acceptera"
+
+msgid "gui/buttons/cancel"
+msgstr "Avbryt"
+
+msgid "gui/buttons/reject"
+msgstr "Avböj"
+
+msgid "gui/buttons/send"
+msgstr "Skicka"
+
+msgid "gui/labels/additionalText"
+msgstr "Ytterligare inbjudningstext:"
+
+msgid "gui/labels/inviteText"
+msgstr "Inbjudningstext:"
+
+msgid "gui/labels/receiver"
+msgstr "Mottagare:"
+
+msgid "gui/titles/barter"
+msgstr "Inbjudan till handel"
+
+msgid "gui/titles/clan"
+msgstr "Inbjudan till klan"
+
+msgid "gui/titles/invite"
+msgstr "Inbjudan"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Inbjudningar"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur den taktiska enheten och överföras till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur den taktiska enheten och överföras till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "När du accepterar inbjudan kommer du automatiskt exkluderas från striden på världskartan och överföras till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur den taktiska enheten och överföras till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur den taktiska enheten och överföras till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur den taktiska enheten och överföras till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "När du accepterar inbjudan kommer du automatiskt uteslutas ur lagträningsrummet för frontstrider och överföras till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur den taktiska enheten och överföras till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "När du accepterar inbjudan kommer du gå ur lagstridsläget och flytta till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur plutonen och överföras till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "När du accepterar inbjudningen kommer du lämna Befästningsstrider och flyttas till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "När du accepterar inbjudan kommer du lämna offensiven och flyttas till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur Spaningsplutonen och överföras till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "När du accepterar inbjudan kommer du automatiskt uteslutas ur lagträningsrummet och överföras till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "När du accepterar inbjudningen kommer du lämna Befästningsstrider och flyttas till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur plutonen och överföras till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "När du accepterar inbjudan kommer du lämna enheten och flyttas till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "När du accepterar inbjudan kommer du automatiskt uteslutas ur turneringen och överföras till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "När du accepterar inbjudan kommer du automatiskt uteslutas ur lagträningsrummet och överföras till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "När du accepterar inbjudan kommer du automatiskt uteslutas ur lagträningsrummet för Pansarstorm och överföras till servern %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "När du accepterar inbjudan kommer du gå ur lagstridsläget och flytta till servern %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "När du accepterar inbjudningen kommer du lämna Pansarjakt och flyttas till servern %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "När du accepterar inbjudningen kommer du lämna Den Stora Jakten och flyttas till servern %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "När du accepterar inbjudningen kommer du lämna Pansarstorm och flyttas till servern %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "När du accepterar inbjudningen kommer du lämna Pansarstorm Light och flyttas till servern %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "När du accepterar inbjudningen kommer du lämna Frontstrider och flyttas till servern %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "När du accepterar inbjudningen kommer du lämna +++Event battle+++ och flyttas till servern %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "När du godkänner inbjudan kommer du lämna Spaningsuppdraget och flyttas till servern %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "När du accepterar inbjudningen kommer du lämna Topografi och flyttas till servern %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "När du accepterar inbjudningen kommer du lämna slumpvis matchade strider och flyttas till servern %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "När du godkänner inbjudan kommer du lämna rankade strider och flyttas till servern %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "När du accepterar inbjudningen kommer du lämna Uppvärmningen och flyttas till servern %(host)s."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "När du accepterar inbjudningen kommer du lämna Uppvärmningen och flyttas till servern %(host)s. Du kommer inte kunna starta den igen."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur den taktiska enheten."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur den taktiska enheten."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "När du accepterar inbjudan kommer du automatiskt exkluderas från striden på världskartan."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur den taktiska enheten."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur den taktiska enheten."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur den taktiska enheten."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "När du accepterar inbjudan kommer du automatiskt uteslutas ur lagträningsrummet för frontstrider."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur den taktiska enheten."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "När du accepterar inbjudan kommer du gå ur lagstridsläget."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur plutonen."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "När du accepterar inbjudningen kommer du lämna Befästningsstrider."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "När du accepterar inbjudan kommer du lämna offensiven."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur Spaningsplutonen."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "När du accepterar inbjudan kommer du automatiskt uteslutas ur lagträningsrummet."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "När du accepterar inbjudningen kommer du lämna Befästningsstrider."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "När du accepterar inbjudningen kommer du automatiskt uteslutas ur plutonen."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "När du accepterar inbjudan kommer du lämna enheten."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "När du accepterar inbjudan kommer du automatiskt uteslutas ur turneringen."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "När du accepterar inbjudan kommer du automatiskt uteslutas ur lagträningsrummet."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "När du accepterar inbjudan kommer du automatiskt uteslutas ur lagträningsrummet för Pansarstorm."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "När du accepterar inbjudan kommer du gå ur lagstridsläget."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "När du accepterar inbjudningen kommer du lämna Pansarjakt."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "När du accepterad inbjudningen kommer du lämna Den Stora Jakten."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "När du accepterad inbjudningen kommer du lämna Pansarstorm."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "När du accepterad inbjudningen kommer du lämna Pansarstorm Light."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "När du accepterad inbjudningen kommer du lämna Frontstrider."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "När du accepterar inbjudningen kommer du lämna +++Event battle+++."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "När du accepterad inbjudan kommer du lämna Spaningsuppdraget."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "När du accepterad inbjudningen kommer du lämna Topografi."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "När du accepterar inbjudningen kommer du lämna slumpvis matchade strider."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "När du godkänner inbjudan kommer du lämna rankade strider."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "När du accepterar inbjudningen kommer du lämna Uppvärmningen."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "När du accepterar inbjudningen kommer du lämna Uppvärmningen. Du kommer inte kunna starta den igen."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Serverinställningarna har nu sparats."
+
+msgid "invites/note/server_change"
+msgstr "Du kommer automatiskt flyttas till servern %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Du kan inte acceptera inbjudan. För att acceptera inbjudan, vänligen välj servern %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Du kan inte acceptera inbjudan. För att acceptera inbjudan, välj en annan server."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Du har redan gått med i plutonen."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Du har redan gått med i en strid på världskartan."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Du har redan gått med i lagträningen."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Du har redan gått med i plutonen."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Du har redan gått med i plutonen."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Du har redan gått med i laget."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Du har redan gått med i plutonen."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Du har redan gått med i turneringen."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Du har redan gått med i lagträningen."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Du har redan gått med i lagträningen."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Du har redan gått med i laget."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Inbjudan accepterad."
+
+msgid "invites/state/DECLINED"
+msgstr "Inbjudan avböjd."
+
+msgid "invites/state/ERROR"
+msgstr "Ogiltig inbjudan."
+
+msgid "invites/state/EXPIRED"
+msgstr "Ogiltig inbjudan."
+
+msgid "invites/state/REVOKED"
+msgstr "Inbjudan tillbakadragen."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Inbjudan till pansarjaktpluton"
+
+msgid "invites/text/COMP7"
+msgstr "Inbjudan till Pansarstormpluton"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Inbjudan till pluton i Pansarstorm Light"
+
+msgid "invites/text/EPIC"
+msgstr "Inbjudan till Frontpluton"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Inbjudan till lagträning i Frontstrider"
+
+msgid "invites/text/EVENT"
+msgstr "Inbjudan till pluton"
+
+msgid "invites/text/FALLOUT"
+msgstr "Inbjudan till pluton för %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Kontrollstrid"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Pansarjakt"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Inbjudan till strid"
+
+msgid "invites/text/MAPBOX"
+msgstr "Inbjudan till Spaningspluton"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Inbjudan att utforska kartor"
+
+msgid "invites/text/SORTIE"
+msgstr "Inbjudan till enhet"
+
+msgid "invites/text/SQUAD"
+msgstr "Inbjudan till pluton"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Inbjudan till enhet"
+
+msgid "invites/text/TRAINING"
+msgstr "Inbjudan till lagträning"
+
+msgid "invites/text/UNIT"
+msgstr "Inbjudan till lag"
+
+msgid "invites/text/creatorName"
+msgstr "från %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Försvarsperiod"
+
+msgid "invites/text/fort/direction"
+msgstr "Brohuvud"
+
+msgid "invites/text/fort/offence"
+msgstr "Anfall mot"
+
+msgid "invites/warning/anonymized"
+msgstr "När du accepterar inbjudan visas ditt riktiga användarnamn för medlemmarna i din taktiska enhet under striden."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Inbjudan skickad till %(name)s."

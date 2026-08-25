@@ -1,0 +1,671 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-07-20 10:00+0300\nPO-Revision-Date: 2023-07-20 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battleResult/reason/1"
+msgstr "Visos priešo mašinos sunaikintos"
+
+msgid "battleResult/reason/11"
+msgstr "Visos užduotys įvykdytos"
+
+msgid "battleResult/reason/3"
+msgstr "Baigėsi mūšio laikas"
+
+msgid "battleResult/reason/5"
+msgstr "Techninis pralaimėjimas"
+
+msgid "battleResult/reason/8"
+msgstr "Sunaikintas sąjungininkas"
+
+msgid "battleResult/reason/9"
+msgstr "Jūsų mašina sunaikinta"
+
+msgid "battleResult/reason/default"
+msgstr "Nežinoma priežastis"
+
+msgid "battleResult/resultLabel/tie"
+msgstr "MŪŠIS BAIGĖSI"
+
+msgid "battleResult/resultLabel/win"
+msgstr "PERGALĖ!"
+
+msgid "berlin/hint01"
+msgstr "Sugadinkite King Tiger vikšrus ir palikite darbą Audrapaukščiui"
+
+msgid "berlin/hint02"
+msgstr "Palauk ir paklausyk serž. Brooks"
+
+msgid "berlin/objective01/header"
+msgstr "Ieškokite priešų Wunderwaffe"
+
+msgid "berlin/objective01/subheader"
+msgstr "Važiuokite atsargiai"
+
+msgid "berlin/objective02/header"
+msgstr "Laikykitės!"
+
+msgid "berlin/objective02/subheader"
+msgstr "Sekite štabo nurodymus"
+
+msgid "berlin/objective03/header"
+msgstr "Ieškokite priešų Wunderwaffe"
+
+msgid "berlin/objective03/subheader"
+msgstr "Važiuokite atsargiai"
+
+msgid "berlin/objective03/success"
+msgstr "Griuvėsiai išvalyti!"
+
+msgid "berlin/objective04/header"
+msgstr "Palaukite, kol serž. Brooks pakvies bombonešį"
+
+msgid "berlin/objective04/subheader"
+msgstr "Išlaikykite poziciją!"
+
+msgid "berlin/objective05/header"
+msgstr "Sunaikinkite likusius priešus"
+
+msgid "berlin/objective05/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Sunaikinkite %d likusį priešą"
+msgstr[1] "Sunaikinkite %d likusius priešus"
+msgstr[2] "Sunaikinkite %d likusių priešų"
+
+msgid "berlin/objective05/success"
+msgstr "Bombonešis pakeliui! Pasiruoškite!"
+
+msgid "berlin/objective06/header"
+msgstr "Užbaikite misiją"
+
+msgid "berlin/objective06/subheader"
+msgstr "Sugadinkite Jagdtiger vikšrus"
+
+msgid "berlin/objective06/success"
+msgstr "Jagdtiger sunaikintas"
+
+msgid "berlin/objective07/header"
+msgstr "Perimkite Wunderwaffe"
+
+msgid "berlin/objective07/subheader"
+msgstr "Sunaikinkite Peliuko vikšrus"
+
+msgid "berlin/objective07/success"
+msgstr "Peliukas sunaikintas ir perimtas!"
+
+msgid "berlin/prebattle/header"
+msgstr "Važiuokite atsargiai"
+
+msgid "berlin/prebattle/start"
+msgstr "Toliau"
+
+msgid "berlin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "berlin/respawn/header"
+msgstr "Palaukite, kary"
+
+msgid "berlin/respawn/subheader"
+msgstr "Atkeliauja pastiprinimas"
+
+msgid "berlin/respawn_over/header"
+msgstr "Jau viskas"
+
+msgid "berlin/respawn_over/subheader"
+msgstr "Visos mašinos sunaikintos."
+
+msgid "botNames/Brooks"
+msgstr "Seržantas Brooks"
+
+msgid "botNames/Connolly"
+msgstr "Ltn. Arthur Connolly"
+
+msgid "botNames/Dubois"
+msgstr "Kpt. Louis Dubois"
+
+msgid "botNames/McCormick"
+msgstr "Kpt. John McCormick"
+
+msgid "botNames/McLaud"
+msgstr "Alistair MacLeod"
+
+msgid "botNames/Murphy"
+msgstr "Kpt. Jack Murphy"
+
+msgid "botNames/Teddy"
+msgstr "Kapt. Miroslav Kotva"
+
+msgid "botNames/Ulysses"
+msgstr "Kapt. James Korvin"
+
+msgid "bunker"
+msgstr "Pakrantės bunkeris"
+
+msgid "common/battleBtn"
+msgstr "Į mūšį!"
+
+msgid "common/continueBtn"
+msgstr "Pratęsti"
+
+msgid "common/loading"
+msgstr "Užkraunama"
+
+msgid "common/skipBtn"
+msgstr "Praleisti"
+
+msgid "confirmExit/exit"
+msgstr "Praleisti"
+
+msgid "confirmExit/exitRegular"
+msgstr "Išėjimas"
+
+msgid "confirmExit/stay"
+msgstr "Atšaukti"
+
+msgid "confirmExit/title"
+msgstr "Ar norite praleisti Tiger medžiotojo istoriją?"
+
+msgid "confirmExit/titleRegular"
+msgstr "Norite išeiti iš istorijos?"
+
+msgid "dday/hint01"
+msgstr "Sugalvokite būdą sunaikinti pakrantės bunkerius"
+
+msgid "dday/hint02"
+msgstr "Naudodami signalinius dūmus padėkite kariniam laivui"
+
+msgid "dday/objective01/header"
+msgstr "Išgyvenkite paplūdimyje"
+
+msgid "dday/objective01/subheader"
+msgstr "Bet kokia kaina venkite priešų šūvių"
+
+msgid "dday/objective02/header"
+msgstr "Prasiveržkite pro priešo linijas"
+
+msgid "dday/objective02/subheader"
+msgid_plural "plural/dday/objective02/subheader"
+msgstr[0] "Sunaikinkite %d pakrantės bunkerį"
+msgstr[1] "Sunaikinti %d pakrantės bunkerius"
+msgstr[2] "Sunaikinti %d pakrantės bunkerių"
+
+msgid "dday/objective02/success"
+msgstr "Visi pakrantės bunkeriai sunaikinti!"
+
+msgid "dday/objective03/header"
+msgstr "Užkopkite į kalną"
+
+msgid "dday/objective03/subheader"
+msgstr "Pasiekite ir sunaikinkite priešų pajėgas sektoriuje B5"
+
+msgid "dday/objective03/success"
+msgstr "Gynyba pralaužta! Pasinaudokite šia proga!"
+
+msgid "dday/objective04/header"
+msgstr "Padėkite sąjungininkams prasiveržti"
+
+msgid "dday/objective04/subheader"
+msgstr "Neutralizuokite priešus D6 sektoriuje"
+
+msgid "dday/objective04/success"
+msgstr "Kelias kapitonui Murphy atvertas!"
+
+msgid "dday/objective05/header"
+msgstr "Padėkite kapitonui Dubois"
+
+msgid "dday/objective05/subheader"
+msgstr "Neutralizuokite priešus H6 sektoriuje"
+
+msgid "dday/objective05/success"
+msgstr "Kelias kapitonui Dubois atvertas!"
+
+msgid "dday/objective06/header"
+msgstr "Apsaugokite jūrų pajėgas"
+
+msgid "dday/objective06/subheader"
+msgid_plural "plural/dday/objective06/subheader"
+msgstr[0] "Sunaikinkite %d pakrantės pabūklą"
+msgstr[1] "Sunaikinti %d pakrantės pabūklus"
+msgstr[2] "Sunaikinti %d pakrantės pabūklų"
+
+msgid "dday/objective06/success"
+msgstr "Visi pakrantės pabūklai sunaikinti!"
+
+msgid "dday/objective07/header"
+msgstr "Apvalykite teritoriją"
+
+msgid "dday/objective07/subheader"
+msgid_plural "plural/dday/objective07/subheader"
+msgstr[0] "Sunaikinkite %d likusį priešą"
+msgstr[1] "Sunaikinkite %d likusius priešus"
+msgstr[2] "Sunaikinti %d likusių priešų"
+
+msgid "dday/objective07/success"
+msgstr "Visi priešai sunaikinti"
+
+msgid "dday/objective08/header"
+msgstr "Atlaikykite teritoriją"
+
+msgid "dday/objective08/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Sunaikinti %d priešų mašiną"
+msgstr[1] "Sunaikinti %d priešų mašinas"
+msgstr[2] "Sunaikinkite %d priešų mašinų"
+
+msgid "dday/objective08/success"
+msgstr "Pakrantės placdarmas apsaugotas!"
+
+msgid "dday/prebattle/header"
+msgstr "Pasiruoškite puolimui"
+
+msgid "dday/prebattle/start"
+msgstr "Puolam!"
+
+msgid "dday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "dday/respawn/header"
+msgstr "Palaukite, kary"
+
+msgid "dday/respawn/subheader"
+msgstr "Atkeliauja pastiprinimas"
+
+msgid "dday/respawn_over/header"
+msgstr "Jau viskas"
+
+msgid "dday/respawn_over/subheader"
+msgstr "Visos mašinos sunaikintos."
+
+msgid "epilogue/text"
+msgstr "MacLeod: \"Gyvas! Brooks yra gyvas! Nors ir visas apdegęs. Bet jis gyvas. Taip, žinoma, kad taip. Jis prižadėjo man medalį. Tu, juk turi savo. Ir tikrai pelnytai. Tu pavertei tą King Tiger rūkstančiu metalo laužu. Dabar mes atsiskaitę. Tas tave išgelbėjęs mūsų šūvis pataikė tik dėl to, nes pasisekė. Aš šaudžiau net nesitaikydamas. Matai, kaip viskas baigėsi? Pasirodo tada išgelbėjau ne tik save, bet ir Brooks.\n\nDabar galime kiek pailsėti. Turime kelias dienas. Susitvarkom tankus. Laukia Berlynas.\n\nAi ir dar, 7-4 tavo naudai. Bet vokiečiai vis dar turi tų Tiger tankų, tad dar pažiūrėsim, kas laimės!\""
+
+msgid "epilogue/title"
+msgstr "EPILOGAS"
+
+msgid "finish/reason/1"
+msgstr "VISOS PRIEŠŲ MAŠINOS SUNAIKINTOS"
+
+msgid "finish/reason/11"
+msgstr "VISOS UŽDUOTYS ĮVYKDYTOS"
+
+msgid "finish/reason/3"
+msgstr "BAIGĖSI MŪŠIO LAIKAS"
+
+msgid "finish/reason/5"
+msgstr "TECHNINIS PRALAIMĖJIMAS"
+
+msgid "finish/reason/8"
+msgstr "SĄJUNGININKAS SUNAIKINTAS"
+
+msgid "finish/reason/9"
+msgstr "JŪSŲ MAŠINA SUNAIKINTA"
+
+msgid "finish/reason/default"
+msgstr "NEŽINOMA PRIEŽASTIS"
+
+msgid "hint_aim_weak_spots"
+msgstr "Žalias žymeklis informuoja apie didelę tikimybę padaryti žalą"
+
+msgid "hint_move"
+msgstr "Mašinos valdymas"
+
+msgid "hint_move_turret"
+msgstr "Bokštelio ir taikiklio valdymas"
+
+msgid "hint_shoot"
+msgstr "Užveskite taikiklį ant priešų mašinos ir šaukite"
+
+msgid "hint_sniper_enter"
+msgstr "Pasukite pelės ratuką norėdami pereiti į snaiperio režimą"
+
+msgid "hint_sniper_on_distance_exit"
+msgstr "Pasukite pelės ratuką norėdami išeiti iš snaiperio režimą"
+
+msgid "hint_sniper_weak_spots_enter"
+msgstr "Snaiperio režimas suteikia geresnę galimybę nusitaikyti į priešo silpnas vietas"
+
+msgid "hint_target_unlock"
+msgstr "Automatinis taikymasis. Išjunkite jį su dešiniu pelės mygtuku."
+
+msgid "ingameMenu/buttons/quit"
+msgstr "Praleisti įžangą"
+
+msgid "introVideo/loading"
+msgstr "Užkraunama..."
+
+msgid "lootCapturing/equipment"
+msgstr "Užgrobiamas: minų lauko žemėlapis"
+
+msgid "lootCapturing/plan"
+msgstr "Užgrobiamas: žemėlapio fragmentas"
+
+msgid "lootCapturing/tank"
+msgstr "Priešo bazės užgrobimas"
+
+msgid "prebattle/mission/stage/1"
+msgstr "Operacija 1"
+
+msgid "prebattle/mission/stage/2"
+msgstr "Operacija 2"
+
+msgid "prebattle/mission/stage/3"
+msgstr "Operacija 3"
+
+msgid "prebattle/mission/stage/4"
+msgstr "Operacija 4"
+
+msgid "prebattle/mission/stage/5"
+msgstr "Operacija 5"
+
+msgid "prebattle/mission/stage/6"
+msgstr "Operacija 6"
+
+msgid "prebattle/mission/stage/7"
+msgstr "Operacija 7"
+
+msgid "prebattle/mission/task/1"
+msgstr "Misija: Užpulti miestą ir sunaikinti visas priešų mašinas."
+
+msgid "prebattle/mission/task/2"
+msgstr "Misija: Užpulti miestą ir sunaikinti visas priešų mašinas."
+
+msgid "prebattle/mission/task/3"
+msgstr "Užpulti miestą ir sunaikinti visas priešų mašinas."
+
+msgid "prebattle/mission/task/4"
+msgstr "Surasti ir sunaikinti priešų Wunderwaffe."
+
+msgid "prebattle/mission/task/5"
+msgstr "Prasiveržkite į priekį, sunaikinkite pakrantės ginklus ir užimkite placdarmą."
+
+msgid "prebattle/mission/task/6"
+msgstr "Nugabenti paliaubų nurodymą savo sąjungininkams."
+
+msgid "prebattle/mission/task/7"
+msgstr "Pasiekti valdymo centrą ir sustabdyti raketos paleidimą."
+
+msgid "prebattle/mission/text/1"
+msgstr "Brooks: \"Tai kaip tau sekasi? Ar jau prisipratinai? Pas medikus keliausim vėliau. Dabar svarbus kiekvienas ginklas. Jau pradėjome ataką. O kadangi mes vėluojame, priešai susikoncentravo į kitą flangą. Tai mūsų šansas. Mes pulsime staigiai. Prasiveršime ir suspausime juos iš dviejų pusių.\n\nPaskui mus – ir venk drakono dantų. Jie tą lauką apstatė keliomis eilėmis betoninių dantų. Bet viskas gerai. Mums viskas pavyks. Tau tereikia atidžiai manęs klausyti ir atlikti tai, ką aš pasakau, greitai ir tiksliai. Aš su MacLeod tave pridengsime.\n\nIr nekreipk dėmesio į jo juokelius. Mes visi turime savo būdų kaip nors susitaikyti su šia tikrove... Pirmyn!\""
+
+msgid "prebattle/mission/text/2"
+msgstr "MacLeod: \"Ah, Tiger tankai – blogiausias dalykas, kurį gali sutikti mūšio lauke. Ir jei štabas sako, jog susidūrėme su problema, tai jie tikriausiai omenyje turi būtent juos. Mes negalime susisiekti su pirmuoju puolančiuoju pulku, o antrasis ką tik išvyko ir mūsų darbas juos sekti.\n\nO jei jie išsiunčia mus, tai tereiškia tik vieną dalyką: Tiger tankus. Štai ką jie sako štabe: \"Išsiųskite tuos Tiger ekspertus!\" Devyni tankai mudviem. Visai neblogai per pusmetį. Tu pirmauji 5-4. Bet aš pagaliau turiu progą išsiveržti į priekį. Ir pagaliau gauti tą prakeiktą medalį!\n\nNagi – Brooks nemėgsta laukti. Mūsų medžioklė prasideda.\""
+
+msgid "prebattle/mission/text/3"
+msgstr "MacLeod: \"Gerai, visi, operacija Kūjis ir priekalas. Paprastas pavadinimas ne tokiam paprastam darbui. Mes važiuosime į miestą ir sunaikinsime priešų pajėgas. Tai nebus lengvas pasivaikščiojimas – mūsų laukia tvirtos mašinos. Bet mes turime smegenis, ryžtą ir komandinį darbą, ar ne Laimės kūdiki? Tad negaiškime laiko. Penktą valandą turiu planų prie puodelio \"arbatos,\" jei suprantat apie ką aš!\""
+
+msgid "prebattle/mission/text/4"
+msgstr "MacLeod: \"Neklausk, Laimės kūdiki. Aš žinau ne ką daugiau, nei tu.\n\nMan nepatinka toks paslaptingumas. Geriau yra kai viskas aišku. Pamatai priešą, kovoji. Bet čia? Tai yra kažkokia netvarka.\n\nMieste bus ir mūsiškių mašinų. Brooks prašė važiuoti atsargiai. Ką tai turėtų reikšti?\nMes turime specialią užduotį. Surasti kažkokį Wunderwaffe — kažką didelio su vikšrais. Niekas kitas, tik mes, Laimės kūdiki.\n\nPasiruošę? Važiuojam.\""
+
+msgid "prebattle/mission/text/5"
+msgstr "Kapitonas John McCormick: \"Taigi, jau atėjo ta diena. Atėjo laikas nutraukti šitą ilgai užsitęsusį karą, tad šiandien tą ir padarysim. Mes visi kartu: amerikiečiai, britai, prancūzai, kanadiečiai, australai, belgai, čekoslovakai, graikai, olandai, norvegai, lenkai. Mes susivieniję kartu išrausime blogio šaknis visiems laikams.\n\nMes prasiveršime pro Atlanto užkardą ir sukursime vietą, kur galėsime tvirtai atsistoti.\n\nPasiruoškite išsilaipinimui!\""
+
+msgid "prebattle/mission/text/6"
+msgstr "Kapitonas Smith: \"Paklausyk. Vokietija pasirašė kapituliacijos patvirtinimą prieš kelias valandas. Rytoj karas baigiasi. Bet mūsiškiai kalnuose neteko radijo signalo — jie nežino, kad jis baigėsi. Jie pasiruošę pulti šią prakeiktą tvirtovę sulig rytojaus aušra, o vokiečiai viduje tuo labiau nežino apie karo pabaigą. Tai bus bereikšmės žudynės. \n\nMes esame vieninteliai, kurie gali tai sustabdyti. Mūsų misija: prasmukti pro priešų linijas ir pranešti apie paliaubas. Tai mirtina misija, bet kiekvieną gyvybę išgelbėti verta. \n\nMes kartu su savimi turime vokiečių radistą — jis gerai pažįsta vietovę ir turi ne ką mažesnę motyvaciją nutraukti šias skerdynes, nei mes. \n\nVažiuojam.\""
+
+msgid "prebattle/mission/text/7"
+msgstr "Leni Scharf: \"Situacija kritinė. Mes praradome ryšį su raketų baze Norvegijos jūroje. Žvalgyba taip ir nesugrįžo, o pirminės tankų pajėgos buvo sunaikintos nežinomo priešo.\n\nMūsų duomenimis jie planuoja paleisti balistinę raketą. Mes nežinome taikinio, bet esant tokiam politiniam klimatui viena raketa gali sukelti pasaulinį konfliktą.\n\nVisai kaip anais laikais, ar ne? Tik dar viena neįmanoma misija priešo teritorijoje. Važiuojam!\""
+
+msgid "prebattle/mission/title/1"
+msgstr "Plieno lavina"
+
+msgid "prebattle/mission/title/2"
+msgstr "Spąstų meistras"
+
+msgid "prebattle/mission/title/3"
+msgstr "Kūjis ir priekalas"
+
+msgid "prebattle/mission/title/4"
+msgstr "Katė pelėkautuose"
+
+msgid "prebattle/mission/title/5"
+msgstr "Operacija Overlord"
+
+msgid "prebattle/mission/title/6"
+msgstr "Operacija Paštininkas"
+
+msgid "prebattle/mission/title/7"
+msgstr "Operacija Virimo taškas"
+
+msgid "ruinberg/hint01"
+msgstr "Suraskite ilgesnį kelią ir apvažiuokite priešą"
+
+msgid "ruinberg/objective01/header"
+msgstr "Pirmyn!"
+
+msgid "ruinberg/objective01/subheader"
+msgstr "Važiuokite į priekį ir sunaikinkite priešus"
+
+msgid "ruinberg/objective02/header"
+msgstr "Likite nepastebėti"
+
+msgid "ruinberg/objective02/subheader"
+msgstr "Suspauskite priešą iš abiejų pusių"
+
+msgid "ruinberg/objective02/success"
+msgstr "Sunaikinta!"
+
+msgid "ruinberg/objective03/header"
+msgstr "Likite nepastebėti"
+
+msgid "ruinberg/objective03/subheader"
+msgstr "Suspauskite priešą iš abiejų pusių"
+
+msgid "ruinberg/objective03/success"
+msgstr "Sunaikinta!"
+
+msgid "ruinberg/objective05/header"
+msgstr "Pirmyn!"
+
+msgid "ruinberg/objective05/subheader"
+msgstr "Važiuokite į priekį ir sunaikinkite priešus"
+
+msgid "ruinberg/objective07/header"
+msgstr "Pasiruoškite kontratakai!"
+
+msgid "ruinberg/objective07/subheader"
+msgstr "Laikykite poziciją"
+
+msgid "ruinberg/objective07/success"
+msgstr "Priešai sunaikinti!"
+
+msgid "ruinberg/prebattle/header"
+msgstr "Pasiruoškite!"
+
+msgid "ruinberg/prebattle/start"
+msgstr "Puolam!"
+
+msgid "ruinberg/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "ruinberg/respawn/header"
+msgstr "Palaukite, kary"
+
+msgid "ruinberg/respawn/subheader"
+msgstr "Atkeliauja pastiprinimas"
+
+msgid "ruinberg/respawn_over/header"
+msgstr "Jau viskas"
+
+msgid "ruinberg/respawn_over/subheader"
+msgstr "Visos mašinos sunaikintos."
+
+msgid "settings/disabledTabsOverlay"
+msgstr "Šiuos nustatymus atrakinsite užbaigę Tiger medžiotojo istoriją."
+
+msgid "timersPanel/overturned"
+msgstr "Jūsų mašina atstatoma..."
+
+msgid "vday/hint01"
+msgstr "Greitai slėpkitės už kampo"
+
+msgid "vday/hint02"
+msgstr "Prisėlinkite arčiau"
+
+msgid "vday/hint03"
+msgstr "Išsiųskite Kpt. Dubois pasižvalgyti"
+
+msgid "vday/hint04"
+msgstr "Naudodami užgrobtą radiją nuviliokite Tiger su netikru nurodymu"
+
+msgid "vday/hint05"
+msgstr "Aplankykite vokiečių vado postą"
+
+msgid "vday/hint06"
+msgstr "Žvalgyba ir netikri nurodymai būtini laimėti"
+
+msgid "vday/hint07"
+msgstr "Naudodami žvalgybą ir netikrą nurodymą judėkite nepastebimi"
+
+msgid "vday/hint08"
+msgstr "Judėkite! Važiuok pirmyn arba pražūsi!"
+
+msgid "vday/hint09"
+msgstr "Elitinių tankų nenukreipsite su netikru nurodymu"
+
+msgid "vday/hint10"
+msgstr "Sekite Kpt. Smith instrukcijas ir judėkite atsargiai"
+
+msgid "vday/hint11"
+msgstr "Grįžkite į misiją!"
+
+msgid "vday/objective01/header"
+msgstr "Važiuojam!"
+
+msgid "vday/objective01/subheader"
+msgstr "Nugabenkite paliaubų nurodymus sąjungininkų pajėgoms"
+
+msgid "vday/objective02/header"
+msgstr "Pasiekite vokiečių vado postą"
+
+msgid "vday/objective02/subheader"
+msgstr "Sekite Kpt. Smith instrukcijas"
+
+msgid "vday/objective02/success"
+msgstr "Minų lauko žemėlapis pagrobtas"
+
+msgid "vday/objective03/header"
+msgstr "Suraskite pervažos žemėlapio fragmentus"
+
+msgid "vday/objective03/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Surinktas %d žemėlapio fragmentas"
+msgstr[1] "Surinkti %d žemėlapio fragmentai"
+msgstr[2] "Surinkta %d žemėlapio fragmentų"
+
+msgid "vday/objective03/success"
+msgstr "Pervažos žemėlapis surinktas"
+
+msgid "vday/objective04/header"
+msgstr "Nugabenkite paliaubų nurodymus sąjungininkų pajėgoms"
+
+msgid "vday/objective04/subheader"
+msgstr "Pravažiuokite pro minų lauką"
+
+msgid "vday/objective04/success"
+msgstr "Paliaubų nurodymas atgabentas!"
+
+msgid "vday/objective05/header"
+msgstr "Pasiekite minų lauką"
+
+msgid "vday/objective05/subheader"
+msgstr "Prasmukite pro priešų pajėgas"
+
+msgid "vday/objective05/success"
+msgstr "Minų laukas pasiektas"
+
+msgid "vday/prebattle/header"
+msgstr "Prasmukite pro priešų pajėgas"
+
+msgid "vday/prebattle/start"
+msgstr "Toliau"
+
+msgid "vday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "vday/prebattleVeryHard/header"
+msgstr "Pravažiuokite pro minų lauką"
+
+msgid "vday/prebattleVeryHard/start"
+msgstr "Judėkite"
+
+msgid "vday/prebattleVeryHard/subheader"
+msgstr "?empty?"
+
+msgid "vday/respawn/header"
+msgstr "Palaukite, kary"
+
+msgid "vday/respawn/subheader"
+msgstr "Atkeliauja pastiprinimas"
+
+msgid "vday/respawn_over/header"
+msgstr "Jau viskas"
+
+msgid "vday/respawn_over/subheader"
+msgstr "Visos mašinos sunaikintos."
+
+msgid "zeppelin/hint01"
+msgstr "Padarykite daugiau žalos įkrovę savo mašinos pabūklą"
+
+msgid "zeppelin/hint02"
+msgstr "Į tolimą priešą pataikysite su maksimaliu nusitaikymu"
+
+msgid "zeppelin/hint03"
+msgstr "Sužinokite, kaip naudoti papildomą šios mašinos ginkluotę"
+
+msgid "zeppelin/objective01/failure"
+msgstr "Misija nepavyko!"
+
+msgid "zeppelin/objective01/header"
+msgstr "Pirmyn!"
+
+msgid "zeppelin/objective01/subheader"
+msgstr "Pasiekite raketą ir neleiskite jos paleisti"
+
+msgid "zeppelin/objective02/header"
+msgstr "Priešo techninis punktas atrastas!"
+
+msgid "zeppelin/objective02/subheader"
+msgstr "Užgrobkite apleistą mašiną"
+
+msgid "zeppelin/objective02/success"
+msgstr "Mašina užgrobta!"
+
+msgid "zeppelin/objective03/header"
+msgstr "Gauta nauja užduotis!"
+
+msgid "zeppelin/objective03/subheader"
+msgstr "Užgrobkite paleidimo vietą ir valdymo centrą"
+
+msgid "zeppelin/objective03/success"
+msgstr "Paleidimo vieta užgrobta"
+
+msgid "zeppelin/objective04/header"
+msgstr "Išlaikykite poziciją"
+
+msgid "zeppelin/objective04/subheader"
+msgstr "Sunaikinti %d priešų mašinas"
+
+msgid "zeppelin/objective04/success"
+msgstr "Priešo puolimas atlaikytas"
+
+msgid "zeppelin/prebattle/header"
+msgstr "Pasiruoškite!"
+
+msgid "zeppelin/prebattle/start"
+msgstr "Pirmyn!"
+
+msgid "zeppelin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "zeppelin/respawn/header"
+msgstr "Palaukite, vade"
+
+msgid "zeppelin/respawn/subheader"
+msgstr "Atkeliauja pastiprinimas"
+
+msgid "zeppelin/respawn_over/header"
+msgstr "Jau viskas"
+
+msgid "zeppelin/respawn_over/subheader"
+msgstr "Visos mašinos sunaikintos."

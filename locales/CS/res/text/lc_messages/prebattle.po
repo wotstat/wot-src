@@ -1,0 +1,356 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleProgress/hint"
+msgstr "Stisknutím %(hintKey)s se podíváte na aktivní mise"
+
+msgid "buttons/battleSession/leave"
+msgstr "Opustit"
+
+msgid "companyListView/filterButton/label"
+msgstr "Hledat"
+
+msgid "dialogs/buttons/notReady"
+msgstr "Nepřipraven"
+
+msgid "dialogs/buttons/ready"
+msgstr "Připraven!"
+
+msgid "hints/confirmDialog/confirm"
+msgstr "Potvrzuji!"
+
+msgid "hints/confirmDialog/message"
+msgstr "Jste na cestě k tomu stát se profesionálním tankistou! Od nynějška uvidíte na obrazovkách načítání bitvy místo tipů pro začátečníky složení týmů. Tipy můžete vždy znovu zapnout v nastavení v nabídce hry."
+
+msgid "hints/confirmDialog/title"
+msgstr "Nové obrazovky načítání bitvy"
+
+msgid "hints/hint1/description"
+msgstr "Sledujte značku průbojnosti ve středu zaměřovače. Jeho barva vám napoví, kde můžete probít nepřátelský pancíř."
+
+msgid "hints/hint1/green/description"
+msgstr "Vysoká šance na probití"
+
+msgid "hints/hint1/green/header"
+msgstr "Zelená značka"
+
+msgid "hints/hint1/header"
+msgstr "Průbojnost"
+
+msgid "hints/hint1/red/description"
+msgstr "Nízká šance na probití"
+
+msgid "hints/hint1/red/header"
+msgstr "Červená značka"
+
+msgid "hints/hint10/description"
+msgstr "Dělo vašeho vozidla se vždy otáčí do středu obrazovky, ale jeho omezená rychlost otáčení znamená, že to může chvíli trvat."
+
+msgid "hints/hint10/header"
+msgstr "Zaměřovač děla"
+
+msgid "hints/hint10/penetration/description"
+msgstr "Zelená barva ukazuje slabé místo v nepřátelském pancíři"
+
+msgid "hints/hint10/penetration/header"
+msgstr "Ukazatel průbojnosti"
+
+msgid "hints/hint10/reloading/description"
+msgstr "Zelená barva při úplném nabití"
+
+msgid "hints/hint10/reloading/header"
+msgstr "Postup nabíjení děla"
+
+msgid "hints/hint10/spread/description"
+msgstr "Výstřel děla zasáhne náhodné místo uvnitř"
+
+msgid "hints/hint10/spread/header"
+msgstr "Kruh rozptylu děla"
+
+msgid "hints/hint12/description"
+msgstr "Množství pancíře, kterým musí granát projít, závisí na úhlu zásahu – úhel zásahu je rozhodujícím faktorem ovlivňujícím průbojnost granátu!"
+
+msgid "hints/hint12/header"
+msgstr "Úhlování pancíře"
+
+msgid "hints/hint12/notPenetrated/description"
+msgstr "Úhel sklopení – silnější pancíř"
+
+msgid "hints/hint12/notPenetrated/header"
+msgstr "Neprobit"
+
+msgid "hints/hint12/penetrated/description"
+msgstr "Pravý úhel – slabší pancíř"
+
+msgid "hints/hint12/penetrated/header"
+msgstr "Probit"
+
+msgid "hints/hint13/description"
+msgstr "Rádiová komunikace mezi spojenci funguje automaticky. Pokud je vozidlo odhaleno jedním nepřítelem, stane se viditelným pro všechny nepřátele v dosahu jejich signálu."
+
+msgid "hints/hint13/header"
+msgstr "Komunikace"
+
+msgid "hints/hint13/invisible/description"
+msgstr "Skrytý za objektem"
+
+msgid "hints/hint13/invisible/header"
+msgstr "Maskovaný"
+
+msgid "hints/hint13/visible/description"
+msgstr "Odhalen spojencem"
+
+msgid "hints/hint13/visible/header"
+msgstr "Odhalen"
+
+msgid "hints/hint2/description"
+msgstr "Ovládáte mocné vozidlo, ale jeho síla má svou cenu. Rychlost otáčení vašeho vozidla a věže je omezená, takže své pohyby pečlivě plánujte."
+
+msgid "hints/hint2/firing"
+msgstr "Střelba"
+
+msgid "hints/hint2/freeCam"
+msgstr "Volná kamera"
+
+msgid "hints/hint2/header"
+msgstr "Ovládání vozidla"
+
+msgid "hints/hint2/movement"
+msgstr "Pohyb"
+
+msgid "hints/hint2/turret"
+msgstr "Otáčení věže"
+
+msgid "hints/hint3/description"
+msgstr "Do odstřelovacího režimu můžete přejít rolováním kolečkem myši nebo stisknutím klávesy „Shift“."
+
+msgid "hints/hint3/header"
+msgstr "Odstřelovací režim"
+
+msgid "hints/hint3/orLabel"
+msgstr "nebo"
+
+msgid "hints/hint4/description"
+msgstr "Poškození vnějších modulů nesníží body výdrže vozidla, ale sníží jeho výkonnost v bitvě."
+
+msgid "hints/hint4/header"
+msgstr "Kritické poškození"
+
+msgid "hints/hint4/immobilized/description"
+msgstr "Kritické poškození podvozku"
+
+msgid "hints/hint4/immobilized/header"
+msgstr "Znehybněn"
+
+msgid "hints/hint4/shooting/description"
+msgstr "Kritické poškození děla"
+
+msgid "hints/hint4/shooting/header"
+msgstr "Nelze střílet"
+
+msgid "hints/hint4/view/description"
+msgstr "Kritické poškození pozorovacích zařízení"
+
+msgid "hints/hint4/view/header"
+msgstr "Snížený dohled"
+
+msgid "hints/hint5/aid/description"
+msgstr "Léčí členy posádky"
+
+msgid "hints/hint5/aid/header"
+msgstr "Lékárnička"
+
+msgid "hints/hint5/description"
+msgstr "Vybavte své vozidlo před bitvou, abyste se vypořádali s kritickým poškozením modulů, se zraněními posádky a požárem."
+
+msgid "hints/hint5/fire/description"
+msgstr "Hasí požár"
+
+msgid "hints/hint5/fire/header"
+msgstr "Hasicí přístroj"
+
+msgid "hints/hint5/header"
+msgstr "Spotřební doplňky"
+
+msgid "hints/hint5/repair/description"
+msgstr "Opravuje poškozené moduly"
+
+msgid "hints/hint5/repair/header"
+msgstr "Sada nářadí"
+
+msgid "hints/hint6/area"
+msgstr "Pohybuje se v otevřeném terénu"
+
+msgid "hints/hint6/description"
+msgstr "Vozidlo bude odhaleno pouze tehdy, pokud zůstane v dohledu nepřítele. Listoví, terén a objekty poskytují dodatečné maskování."
+
+msgid "hints/hint6/header"
+msgstr "Maskování"
+
+msgid "hints/hint6/invisible"
+msgstr "Maskovaný"
+
+msgid "hints/hint6/object"
+msgstr "Skrytý za objektem"
+
+msgid "hints/hint6/shot"
+msgstr "Odhalený po výstřelu"
+
+msgid "hints/hint6/vegetation"
+msgstr "Skrytý za vegetací"
+
+msgid "hints/hint6/visible"
+msgstr "Odhalen"
+
+msgid "hints/hint7/base"
+msgstr "Nepřátelská základna obsazena"
+
+msgid "hints/hint7/description"
+msgstr "Je mnoho způsobů, jak zvítězit. Jednejte podle situace."
+
+msgid "hints/hint7/header"
+msgstr "Podmínky vítězství"
+
+msgid "hints/hint7/orLabel"
+msgstr "NEBO"
+
+msgid "hints/hint7/vehicles"
+msgstr "Všechna nepřátelská vozidla zničena"
+
+msgid "hints/hint7/victory"
+msgstr "Vítězství!"
+
+msgid "hints/hint8/description"
+msgstr "Dělo vozidla má za pohybu větší rozptyl. Stůjte, sledujte kruh rozptylu kolem zaměřovače, a když je dělo plně zaměřené, vystřelte."
+
+msgid "hints/hint8/header"
+msgstr "Rozptyl děla"
+
+msgid "hints/hint8/high"
+msgstr "35 km/h"
+
+msgid "hints/hint8/low"
+msgstr "0 km/h"
+
+msgid "hints/hint9/description"
+msgstr "V některých pozicích vám omezení úhlu sklápění děla může zabránit v zaměření nepřítele."
+
+msgid "hints/hint9/header"
+msgstr "Úhly sklopení a náměru děla"
+
+msgid "hints/loading"
+msgstr "Načítání"
+
+msgid "hints/manual"
+msgstr "Více ve výcvikovém centru v herním menu"
+
+msgid "hints/skip"
+msgstr "Pro vstup do bitvy stiskněte libovolnou klávesu"
+
+msgid "labels/company/queue"
+msgstr "Fronta:"
+
+msgid "labels/level"
+msgstr "Úroveň"
+
+msgid "labels/members"
+msgstr "Členové: %(openTag)s%(membersCount)d%(closeTag)s / %(maxMembersCount)d"
+
+msgid "labels/player"
+msgstr "Hráč"
+
+msgid "labels/sort/byName"
+msgstr "Podle jména"
+
+msgid "labels/sort/byOrder"
+msgstr "Podle času přidání"
+
+msgid "labels/sort/byStatus"
+msgstr "Podle připravenosti"
+
+msgid "labels/sort/byVehicles"
+msgstr "Podle typu vozidla"
+
+msgid "labels/stats/level"
+msgstr "Úroveň:"
+
+msgid "labels/stats/maxPlayers"
+msgstr "Hráči:"
+
+msgid "labels/stats/sumLevel"
+msgstr "Celková úroveň:"
+
+msgid "labels/stats/totalLevel"
+msgstr "Celková úroveň: %(totalLevel)s"
+
+msgid "labels/stats/vehicleLevel"
+msgstr "Maximální úroveň vozidla:"
+
+msgid "labels/stats/vehicleSPGLevel"
+msgstr "Maximální úroveň dělostřelectva:"
+
+msgid "labels/vehicle"
+msgstr "Vozidlo"
+
+msgid "memberList/empty/label"
+msgstr "Vyberte hráče z fronty a přesuňte je do běžného týmu."
+
+msgid "stats/battleSession/commonLevel"
+msgstr "Úroveň:"
+
+msgid "stats/battleSession/required"
+msgstr "Požaduje:"
+
+msgid "stats/battleSession/vehicleType"
+msgstr "Typ:"
+
+msgid "switchPeripheryWindow/fort/applySwitchLabel"
+msgstr "Chcete-li naplánovat a zapojit se do šarvátek, přejděte na server %(server)s."
+
+msgid "switchPeripheryWindow/fort/description"
+msgstr "V současné době jste připojeni na server %(server)s. Na tomto serveru je v tuto chvíli aktivní omezení šarvátek."
+
+msgid "switchPeripheryWindow/fort/header"
+msgstr "Pozor!"
+
+msgid "switchPeripheryWindow/fort/selectServerLabel"
+msgstr "Chcete-li naplánovat a zapojit se do šarvátek, přejděte na jiný server:"
+
+msgid "switchPeripheryWindow/ranked/applySwitchLabel"
+msgstr "Chcete-li hrát v režimu hodnocených bitev, vyberte si prosím jiný server."
+
+msgid "switchPeripheryWindow/ranked/description"
+msgstr "Na serveru %(server)s je nyní v platnosti příměří. Hodnocené bitvy nejsou k dispozici."
+
+msgid "switchPeripheryWindow/ranked/header"
+msgstr "Pozor!"
+
+msgid "switchPeripheryWindow/ranked/selectServerLabel"
+msgstr "Chcete-li hrát v režimu hodnocených bitev, vyberte si prosím jiný server:"
+
+msgid "title/battleSession/arenaType"
+msgstr "Mapa:"
+
+msgid "title/battleSession/battlesLimit"
+msgstr "Bitev/Vítězství:"
+
+msgid "title/battleSession/clanBattle/startTime"
+msgstr "%(startTime)s, %(peripheryName)s, %(arenaName)s"
+
+msgid "title/battleSession/comment"
+msgstr "Popis:"
+
+msgid "title/battleSession/header/battleSettings"
+msgstr "Nastavení bitvy:"
+
+msgid "title/battleSession/header/startTime"
+msgstr "Bitva začíná za:"
+
+msgid "title/battleSession/startTime"
+msgstr "Čas zahájení:"
+
+msgid "title/battleSession/unit"
+msgstr "Rota"
+
+msgid "upButton/hint"
+msgstr "Kliknutím se připojíte"

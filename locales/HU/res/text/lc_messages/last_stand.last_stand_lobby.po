@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Így is harcolok"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Felszerelés!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "A taktikai eszközök hiányosak"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "A kiválasztott járművednél hiányzik egy vagy több taktikai eszköz. Ez jelentősen befolyásolhatja a harci teljesítményedet. Így is belépsz a csatába?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Személyre szabhatod az esemény alapértelmezett gyorsbillentyű-beállításait a lőszerekhez és a taktikai eszközökhöz.\nEz a változtatás csak az esemény csatáira vonatkozik, és nem érinti a többi játékmódot.\nAz egyes gyorsbillentyűket továbbra is módosíthatod a Menü – Beállítások – Irányítás menüpontban (a Fogyócikkek alatt)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "A fogyócikkek gyorsbillentyű-beállításainak módosítása"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s E"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Teljesítsd ezt a küldetést az egyedi „Túlélő: Pandóra hadművelet”-jelvényért:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Mesés kitüntetés küldetés"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Kifejlesztve csökkenti az összes taktikai eszköz {EDCB9E_Start}miriumköltségét{EDCB9E_End} {EDCB9E_Start}%(ability_cost_add_percent)s %-kal%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Miriumhatékonyság"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Kifejlesztve növeli a {EDCB9E_Start}taktikai eszközök hatásának időtartamát{EDCB9E_End} {EDCB9E_Start}%(ability_duration_add_percent)s%-kal%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Eszközhatás-időtartam"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Kifejlesztve növeli a {EDCB9E_Start}taktikai eszközök hatósugarát{EDCB9E_End} {EDCB9E_Start}%(ability_radius_add_percent)s%-kal%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Eszközhatósugár"
+
+msgid "booster/booster_heal/description"
+msgstr "Kifejlesztve növeli a járműre ható összes {EDCB9E_Start}gyógyító hatást{EDCB9E_End} {EDCB9E_Start}%(heal_add_percent)s%-kal%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Gyógyító hatás"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Kifejlesztve növeli az {EDCB9E_Start}obeliszkektől az ellenséges járműveknek átadott sebzés{EDCB9E_End} mértékét {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%-kal%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Obeliszkek átadott sebzése"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Kifejlesztve növeli az ellenségektől származó {EDCB9E_Start}mirium felvételének sugarát{EDCB9E_End} ennyivel: {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Mirium felvételi sugár"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Kifejlesztve növeli a megsemmisített ellenségektől {EDCB9E_Start}begyűjtött mirium mennyiségét{EDCB9E_End} {EDCB9E_Start}%(pick_up_souls_add_percent)s%-kal%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Miriumbegyűjtés"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Kifejlesztve növeli az egy hullám megsemmisítéséért járó {EDCB9E_Start}mirium mennyiségét{EDCB9E_End} ennyivel: {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Hullámonkénti mirium"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Kifejlesztve növeli az újraéledéskor visszaállított {EDCB9E_Start}mirium mennyiségét{EDCB9E_End} ennyivel: {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Mirium újraéledéskor"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Kifejlesztve növeli a {EDCB9E_Start}jármű maximális miriumkapacitását{EDCB9E_End} ennyivel: {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Miriumkapacitás"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "VÉDŐI CSOMAG"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Kulcsok megvásárolva"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Lehetőség, hogy a nap második győzelmétől kezdve 5× XP-t szerezz bármilyen járművel."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Küldetés az 5× csatában szerzett XP-ért"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Állítsd be a járművek megjelenítését a típusuk, nemzetük és egyéb paramétereik szerint!"
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Szűrés paraméterek szerint"
+
+msgid "common/back"
+msgstr "VISSZA"
+
+msgid "common/close"
+msgstr "BEZÁRÁS"
+
+msgid "common/modifierInline"
+msgstr "{value}x"
+
+msgid "common/modifierInlineTimes"
+msgstr "{value}×"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "AZ ESEMÉNYHEZ"
+
+msgid "common/toRewardPath"
+msgstr "AZ ELŐREHALADÁSHOZ"
+
+msgid "common/yes"
+msgstr "Értettem!"
+
+msgid "difficult/daily"
+msgstr "FELOLDOTTAD A NAPI KULCSOS KÜLDETÉST"
+
+msgid "difficult/disabled/body"
+msgstr "Szakasz tagjaként játszol. Csak a parancsnok változtathatja meg a nehézségi szintet."
+
+msgid "difficult/disabled/header"
+msgstr "A nehézségi szint megváltoztatása nem lehetséges"
+
+msgid "difficult/level_1"
+msgstr "Normál"
+
+msgid "difficult/level_2"
+msgstr "Haladó"
+
+msgid "difficult/level_3"
+msgstr "Brutális"
+
+msgid "difficult/new"
+msgstr "ÚJ"
+
+msgid "difficult/searching/body"
+msgstr "Keresés közben nem érhető el."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Az ellenségek ellenállóképessége alacsonyabb, a páncélzatuk pedig gyengébb. A csaták során normál mennyiségű adatot kapsz."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Az ellenségek páncélzata erősebb. A csatánkénti adatmennyiség {{modifier}} több."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Több erősebb páncélzatú ellenség. A csatánkénti adatmennyiség {{modifier}} több."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Jutalmak az utolsó hullám első alkalommal történő megsemmisítéséért:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Normál nehézségi szint"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Haladó nehézségi szint"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Brutális nehézség"
+
+msgid "difficult/tooltip/locked"
+msgstr "Nehézségi szint zárolva"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "A nehézségi szint feloldásához teljesítsd a normál nehézségi szintet."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "A nehézségi szint feloldásához teljesítsd a haladó nehézségi szintet."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Nehézség elérhető"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Nehézség kiválasztva"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Legyőzött hullámok: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "NORMÁL"
+
+msgid "difficult/uppercase/level_2"
+msgstr "HALADÓ"
+
+msgid "difficult/uppercase/level_3"
+msgstr "BRUTÁLIS"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Az ellenségek páncélzata erősebb. Több kredit és {{modifier}}× több adat csatánként."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Több erősebb páncélzatú ellenség. Több kredit és {{modifier}}× több adat csatánként."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Harcolj, és győzd le az ellenség hullámait, bizonyítsd a rátermettségedet, és érj fel a ranglista csúcsára! Egyedülálló jutalmak és még megannyi más vár rád."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "HALADÓ NEHÉZSÉGI SZINT"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "BRUTÁLIS NEHÉZSÉGI SZINT"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "TÚLÉLŐ MÓD"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "HALADÓ"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "BRUTÁLIS"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "TÚLÉLŐ"
+
+msgid "difficultyWindow/rewards"
+msgstr "Teljesítésért járó jutalom:"
+
+msgid "difficultyWindow/title"
+msgstr "ELÉRHETŐ"
+
+msgid "hangar/exit"
+msgstr "AZ ESEMÉNY ELHAGYÁSA"
+
+msgid "hangar/narration"
+msgstr "Történet"
+
+msgid "hangar/tooltip/about"
+msgstr "Itt bővebben tájékozódhatsz a Túlélő: Terra Nord eseményről."
+
+msgid "hangar/tooltip/narration"
+msgstr "Tudj meg többet az esemény történetéről."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "TAKTIKAI ESZKÖZÖK"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "KIOSZTÁS"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Túlélő"
+
+msgid "iconButton/comparison/default"
+msgstr "Jármű-összehasonlítás"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "A jármű-összehasonlítás nem érhető el"
+
+msgid "iconButton/preview/default"
+msgstr "Járműelőnézet"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "A járműelőnézet nem érhető el"
+
+msgid "keyCard/name"
+msgstr "KÓDFEJTŐ KULCSOK"
+
+msgid "meta/btn/decrypt"
+msgstr "DEKÓDOLÁS"
+
+msgid "meta/btn/skip"
+msgstr "ÁTUGRÁS"
+
+msgid "meta/btn/view"
+msgstr "MEGTEKINTÉS"
+
+msgid "meta/receive/description"
+msgstr "Gyűjts össze %(keys) / %(decrypt) %(icon)-t \na feljegyzés dekódolásához!"
+
+msgid "metaIntro/description/fight"
+msgstr "Vegyél részt az esemény csatáiban, és szerezz adatokat, hogy teljesítsd az előrehaladást!"
+
+msgid "metaIntro/description/progress"
+msgstr "Gyűjts adatokat a járműfejlesztések feloldásához, és nézz szembe az egyre fokozódó kihívásokkal!"
+
+msgid "metaIntro/description/reward"
+msgstr "Teljesítsd az előrehaladási szakaszokat a különleges eseményjutalmak megszerzéséhez. További részletekért nézd meg a jutalomsávot."
+
+msgid "metaIntro/header/fight"
+msgstr "Eseménycsaták"
+
+msgid "metaIntro/header/progress"
+msgstr "Fejlesztések"
+
+msgid "metaIntro/header/reward"
+msgstr "Egyedi jutalmak"
+
+msgid "metaIntro/title"
+msgstr "ELŐREHALADÁS"
+
+msgid "missionWidget/complete"
+msgstr "Küldetés teljesítve.\nTérj vissza holnap!"
+
+msgid "missionWidget/tooltipBody"
+msgstr "Teljesítsd az aktuális napi küldetést, amely 24 óránként változik, és szerezd meg a jutalmat! A mai küldetés:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Napi küldetés"
+
+msgid "narration/actions/voiceover"
+msgstr "Szinkronhang"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}SZIGORÚAN TITKOS{{/}}{{titleParagraph}}{{@ class $highlightText}}SZEKTOR: N-07 („Aurora” körzet){{/}}{{pargraphStart}}Az előrejelzésünk helyesnek bizonyult. Az állomás megfigyelői már 11 nappal az esemény előtt észlelték az anomália közeledtét. Most először láttuk, hogy közeledik.{{pargraphStart}}A vihar előtti csendben egységesítettük az ATLAS-komplexumok gyártását. Az új modulokat gyorsabban szereljük össze és pontosabban kalibráljuk. Kiképzéseket tartottunk, átfutottuk a formációkat és tartalékos osztagokat állítottunk fel. Teljes készültség.{{pargraphStart}}De az anomáliának saját tervei voltak.{{pargraphStart}}A Tölcsér nem a várt szektorban nyílt meg. Itt jelent meg, egy távoli északi régióban, messze a telepített infrastruktúrától. Nem világos, hogy miért ezt a helyszínt választották. A modellekben semmi sem utalt erre a területre. Azonnal megkezdődött a sürgősségi átcsoportosítás, de a terep és a távolság nem kedvez nekünk. Néhány jármű és osztag késni fog.{{pargraphStart}}Minden ATLAS-komplexum, amelyet sikerült a helyszínre szállítanunk, immár nélkülözhetetlen.{{pargraphStart}}Ezúttal készen álltunk a harcra. De egy másik helyszínen.{{pargraphStart}}ALÁÍRÁS: KURÁTOR (M-PROJEKT)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}27/C. számú elemzői feljegyzés: „AZ INVÁZIÓ HELYSZÍNÉNEK KIVÁLASZTÁSA”{{/}}{{titleParagraph}}Belső használatra. „Korlátozott hozzáférés” bélyegző.{{pargraphStart}}Felteszek egy kérdést, amelyre kötelességem lenne válaszolni, de nem tudok: Miért pont itt?{{pargraphStart}}Ez a régió stratégiai szempontból semmilyen értékkel sem bír a Tölcsér számára. Itt nincs semmi. Nincs infrastruktúra, nincsenek települések. Csak egy üzemképtelen katonai bázis található a szigeten. Az echo-tankok nem tudnak átkelni a tengeren. Akkor miért foglalnak el egy olyan helyet, ahonnan nem tudnak támadni? {{pargraphStart}}Kikértem a régió teljes műveleti előzményeit. A válasz erősen cenzúrázott volt. Egész szakaszokat kitakartak. A második kérésemre a következő megjegyzéssel válaszoltak: „A hozzáférést korlátozta a {{@ class $highlightSecondaryText}}[ADAT TÖRÖLVE]{{/}}.” Nekem, a kutatási osztály vezetőjének, akinek az ajánlásai határozzák meg ennek a szektornak a védelmi stratégiáját, megtagadják az információk kiadását a területről!{{pargraphStart}}A következőket tudom levezetni a helyszíni adatokból: a Tölcsér viselkedése nem felel meg annak, amit az R-22 szektorban megfigyeltünk. Olyan új típusú echo-tankok jelentek meg, amilyenekkel eddig még nem találkoztunk. A funkciójuk tekintetében a mi nagy hatótávolságú páncélvadászainknak felelnek meg, és rendkívül hatékonyak ezen a fajta terepen. Az ellenfél tanult a taktikánkból, és ellenlépéseket tett. Most rajtunk a sor, hogy alkalmazkodjunk.{{pargraphStart}}Lehet, hogy szükségük van erre a helyre. Vagy talán arra, ami alatta van.{{pargraphStart}}Nem tudom. És aggaszt, hogy valaki tudja, de nem mondja el.{{pargraphStart}}ALÁÍRÁS: KURÁTOR (M-PROJEKT)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}A KURÁTOR SZEMÉLYES FELJEGYZÉSE{{/}}{{pargraphStart}}Felülvizsgáltam a saját hipotéziseimet. Mind a hármat.{{pargraphStart}}  1. Az anomália el akar pusztítani minket.{{pargraphStart}}  2. Az anomália kísérletezik. Kutatja a taktikáinkat, tanulmányozza a reakcióinkat, alkalmazkodik és tanul.{{pargraphStart}}  3. Az anomália gyakorlatozik. Minden hullámmal az új taktikáit gyakorolja; minden csata gyakorlás valós körülmények között.{{pargraphStart}}Mindhárom hipotézis abból a feltételezésből indul ki, hogy mi vagyunk a támadás célpontjai.{{pargraphStart}}De mi van, ha nem mi vagyunk azok?{{pargraphStart}}Mi van, ha az anomália valami mást csinál, és mi egyszerűen csak az útjában állunk? Mint egy hangyaboly, amit elárasztanak, miközben utat építenek. Az építő nem háborúzik a hangyákkal. Egyszerűen csak nem veszi őket észre.{{pargraphStart}}Azt az ellenséget meg tudjuk állítani, aki el akar pusztítani. Tárgyalhatunk vele. De nem ijeszthetünk el olyasmit, ami nem vesz tudomást a létezésünkről; nem járhatunk túl az eszén. Nem lehet megállítani. Mert soha nem is voltunk részei a számításainak.{{pargraphStart}}Azt hiszem, eddig rossz kérdést tettünk fel. Nem azt kellene kérdeznünk, hogy miért támad ránk, hanem azt, hogy egyáltalán észrevesz-e minket.{{pargraphStart}}ALÁÍRÁS: KURÁTOR (M-PROJEKT)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}VÉGSŐ JELENTÉS{{/}}{{titleParagraph}}{{@ class $highlightText}}STÁTUSZ: TITKOSÍTÁS FELOLDVA (RÉSZLEGESEN){{/}}{{pargraphStart}}03:47-kor a Tölcsér összeomlott. Az anomália aktivitása megszűnt. A szektor biztonságos.{{pargraphStart}}Az összeomlás előtti utolsó másodpercekben az ATLAS-mérőműszerek minden eddigi értéket meghaladó energiatúlfeszültséget rögzítettek. A legénységek rövid ideig tartó fizikai jelenséget észleltek az anomália közepén, amely legfeljebb 12 másodpercig tartott. Ezt követően a Tölcsér bezárult. {{pargraphStart}}Hivatalos közlemény: Az incidens véget ért. A területet sikeresen megvédtük. Feloldottuk a szektor karanténját.{{pargraphStart}}{{@ class $highlightText}}A KURÁTOR SZEMÉLYES FELJEGYZÉSE (Kizárólag a különleges tartalékosok számára){{/}}{{pargraphStart}}Nem nyertünk. Vége van.{{pargraphStart}}Ez nem invázió volt. Csak elterelés. Egy védőgyűrű akörül, ami a Tölcsér közepén jelent meg másodpercekkel az összeomlása előtt.{{pargraphStart}}Több tucat obeliszk tűnt fel egyszerre. Még mindig nem tudjuk, hogy mit csináltak. Az ATLAS rögzítette az összes paramétert, de időbe telik, amíg értelmezni tudjuk őket. Egy dologban szinte biztosak vagyunk: az anomália befejezett valamilyen folyamatot.{{pargraphStart}}Bármit is csinált, fel kell készülnünk a következő támadásra. Most már elég adatunk van. A mérnökeink már vizsgálják a felvételeket, és őszintén szólva, még soha nem láttam őket ennyire izgatottnak. Úgy gondolják, hogy jelentősen megerősíthetjük a járműveinket. Erre szükség is lesz, mielőtt a Tölcsér visszatér. {{pargraphStart}}Egy dolog jár a fejemben: ha ez itt történt, és ilyen rövid ideig tartott, hányszor fordult már elő korábban? Olyan helyeken, ahol nem volt ATLAS, ahol senki sem látta...{{pargraphStart}}ALÁÍRÁS: KURÁTOR (M-PROJEKT)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Készen álltunk"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Miért pont itt?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. A rossz kérdés"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Vége van"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Teljesítsd a normál nehézségi szintet, hogy továbbléphess a történet következő részére."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Teljesítsd a haladó nehézségi szintet, hogy továbbléphess a történet következő részére."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Teljesítsd a brutális nehézségi szintet, hogy továbbléphess a történet következő részére."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Következő történet"
+
+msgid "preBattle/leave"
+msgstr "Kilépés a csatából"
+
+msgid "preBattle/searching"
+msgstr "SZÖVETSÉGESEK KERESÉSE..."
+
+msgid "preBattle/tip"
+msgstr "Túl sokáig tart műveleti egységet találni? Próbálj ki másik nehézségi szintet!"
+
+msgid "preBattle/uppercase/leave"
+msgstr "KILÉPÉS A CSATÁBÓL"
+
+msgid "promoWindow/header"
+msgstr "JÁTSSZ A TÚLÉLŐ MÓDDAL"
+
+msgid "promoWindow/subheader"
+msgstr "Fedezd fel a Túlélő PvE játékmód új fejezetét a következő időponttól: {dateRange}.\nSzerezz tematikus {cream_open}3D-kiegészítőket{cream_close}, kísérleti felszerelést és egyéb exkluzív jutalmakat!"
+
+msgid "questCard/allCompleted"
+msgstr "Teljesítetted az összes napi küldetést"
+
+msgid "questCard/completed"
+msgstr "Teljesítetted az összes napi küldetést.\nNézz vissza holnap."
+
+msgid "reward/rest"
+msgstr "És további %(count)s"
+
+msgid "rewardPath/about"
+msgstr "A FELADATOK"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "További tájékoztatás az esemény előrehaladásának részleteiről."
+
+msgid "rewardPath/boostTitle"
+msgstr "Gyorsítsd fel az előrehaladásodat, és szerezz több adatot {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Megtekintés a Boltban"
+
+msgid "rewardPath/completed"
+msgstr "Megszerezted az összes adatot és jutalmat"
+
+msgid "rewardPath/completedTitle"
+msgstr "Látogass el a Boltba, ahol egyedi, tematikus testreszabásokat találsz"
+
+msgid "rewardPath/intro"
+msgstr "BEVEZETÉS"
+
+msgid "rewardPath/introTooltip"
+msgstr "Nézd meg a bevezető videót!"
+
+msgid "rewardPath/progress"
+msgstr "{artefactIndex}. SZAKASZBAN megszerzett adat: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "ELŐREHALADÁS"
+
+msgid "rewardPathCard/completed"
+msgstr "Teljesítve"
+
+msgid "rewardPathCard/name"
+msgstr "Jutalomsáv"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Az esemény csomagjai"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Mégse"
+
+msgid "squad/goToAnother/message"
+msgstr "A szakaszt feloszlatjuk."
+
+msgid "squad/goToAnother/submit"
+msgstr "Kilépés"
+
+msgid "squad/goToAnother/title"
+msgstr "Elhagyod a Túlélő: Terra Nord eseményt?"
+
+msgid "squad/leave/cancel"
+msgstr "Mégse"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "A szakaszt feloszlatjuk."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Értettem!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "A Túlélő: Terra Nord esemény véget ért"
+
+msgid "squad/leave/message"
+msgstr "A szakaszt feloszlatjuk."
+
+msgid "squad/leave/submit"
+msgstr "Kilépés"
+
+msgid "squad/leave/title"
+msgstr "Elhagyod a Túlélő: Terra Nord szakaszt?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Folytatás"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Egy szakasz tagja vagy, és készen állsz a csatára."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Nem hagyhatod el a szakaszt!"
+
+msgid "stageReward/rewards/received"
+msgstr "Ugyancsak megkaptad:"
+
+msgid "stageReward/special/header"
+msgstr "BRUTÁLIS NEHÉZSÉGI SZINT TELJESÍTVE!"
+
+msgid "stageReward/special/subheader"
+msgstr "Különleges jutalmat kaptál"
+
+msgid "stageReward/stage/header"
+msgstr "MEGSZERZETT JUTALMAK"
+
+msgid "stageReward/stage/subheader"
+msgstr "Túlélő: {{number}}. szakasz teljesítve"
+
+msgid "stageReward/stageFinal/header"
+msgstr "AZ ÖSSZES JUTALMAT MEGSZEREZTED"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Túlélő: Utolsó szakasz teljesítve"

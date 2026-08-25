@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Subir des dégâts interrompt la récupération de PS.\n\nLe taux de récupération des PS et la limite maximale de récupération dépendent des PS totaux du véhicule, en prenant en compte tous les modificateurs appliqués."
+
+msgid "armorPatching/alt/info"
+msgstr "Pour les aptitudes de groupe, le niveau d'entraînement moyen parmi tous les membres d'équipage est pris en compte. Elle prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Utiliser un Kit de réparation rétablit %(hpRecover)s des {yellow_Start}PS{yellow_End} du véhicule en 5 s, jusqu'à un maximum de 20 % par bataille. Permet d'utiliser Kit de réparation sans dégâts critiques."
+
+msgid "armorPatching/hudDescription"
+msgstr "Points de structure rétablis."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée par tous les membres d'équipage, elle rétablit %(hpRecover)s des {yellow_Start}PS{yellow_End} du véhicule en 5 s après avoir utilisé un Kit de réparation, pour un maximum de 20 % par bataille. Permet d'utiliser Kit de réparation sans dégâts critiques."
+
+msgid "armorPatching/name"
+msgstr "Colmatage du blindage"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Augmente la dissimulation de base du véhicule."
+
+msgid "brotherhood/alt/description"
+msgstr "Le bonus d'efficacité de l'équipage améliore l'efficacité du membre d'équipage en bataille, ainsi que l'efficacité de toutes ses aptitudes maîtrisées, à l'exception de celle-ci. Ce paramètre peut encore être amélioré en installant de l'équipement ou des consommables avec un effet semblable, ou en utilisant la directive Purge de la ventilation. L'aptitude Urgence du chef de char, ainsi que les aptitudes Côte à côte et Expert en communications de l'opérateur radio peuvent également améliorer ce paramètre."
+
+msgid "brotherhood/alt/info"
+msgstr "Pour les aptitudes de groupe, le niveau d'entraînement moyen parmi tous les membres d'équipage est pris en compte. Elle prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "Le {greenBright_Start}bonus de l'efficacité de l'équipage{greenBright_End} de tout l'équipage est augmenté de %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Une fois maîtrisée par tous les membres d'équipage, elle augmente le {greenBright_Start}bonus d'efficacité de l'équipage{greenBright_End} de tout l'équipage de %(crewLevelIncrease)s&zwnbsp;"
+
+msgid "brotherhood/name"
+msgstr "Frères d'armes"
+
+msgid "brotherhood/shortDescription"
+msgstr "Augmente les performances générales de l'équipage."
+
+msgid "camouflage/alt/description"
+msgstr "Cette aptitude affecte la dissimulation du véhicule. Elle peut être encore renforcée par la directive Fondu dans le décor.\n\nEn outre, la dissimulation du véhicule peut être augmentée en lui appliquant un motif de camouflage ou un style, ainsi qu'en installant de l'équipement avec un effet semblable."
+
+msgid "camouflage/alt/info"
+msgstr "Pour les aptitudes de groupe, le niveau d'entraînement moyen parmi tous les membres d'équipage est pris en compte. Elle prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "La {greenBright_Start}dissimulation{greenBright_End} du véhicule est augmentée de %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée par tous les membres d'équipage, elle augmente la {greenBright_Start}dissimulation{greenBright_End} du véhicule de %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Dissimulation"
+
+msgid "camouflage/shortDescription"
+msgstr "Augmente la dissimulation de base du véhicule."
+
+msgid "commander_coordination/alt/description"
+msgstr "L'effet s'active chaque fois qu'un véhicule ennemi est repéré, mais il ne se cumule pas lorsque plusieurs véhicules sont repérés.\n\nLa vitesse de visée peut encore être augmentée en maîtrisant l'aptitude Visée rapide du tireur ou en installant de l'équipement avec un effet semblable."
+
+msgid "commander_coordination/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "La {yellow_Start}vitesse de visée{yellow_End} sera augmentée de %(vehicleGunAimSpeed)s pendant 15 s après avoir repéré un véhicule ennemi."
+
+msgid "commander_coordination/hudDescription"
+msgstr "La vitesse de visée est accrue."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente la {yellow_Start}vitesse de visée{yellow_End} de %(vehicleGunAimSpeed)s pendant 15 s après avoir repéré un véhicule ennemi.\t"
+
+msgid "commander_coordination/name"
+msgstr "Coordination"
+
+msgid "commander_coordination/shortDescription"
+msgstr "La vitesse de visée est accrue."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "La portée de vue peut encore être augmentée en maîtrisant l'aptitude Longue-vue de l'opérateur radio ou en installant de l'équipement avec un effet semblable. L'utilisation de la directive Étalonnage optique améliore l'effet."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "La {greenBright_Start}portée de vue{greenBright_End} est augmentée de %(circularVisionRadius)s&zwnbsp;. La {greenBright_Start}pénalité des appareils d'observation endommagés{greenBright_End} est réduite de %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "La pénalité des appareils d'observation endommagés est réduite."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente la {greenBright_Start}portée de vue{greenBright_End} de %(circularVisionRadius)s&zwnbsp; et réduit la {greenBright_Start}pénalité des appareils d'observation endommagés{greenBright_End} de %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Œil de lynx"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Augmente la portée de vue, en particulier lorsque les appareils d'observation sont endommagés."
+
+msgid "commander_emergency/alt/description"
+msgstr "En subissant des dégâts à plusieurs reprises de la part d'un ennemi, l'effet ne se cumule pas. Le bonus d'efficacité de l'équipage améliore l'efficacité du membre d'équipage en bataille. Ce paramètre peut encore être amélioré en installant de l'équipement ou des consommables avec un effet semblable, ou en utilisant la directive Purge de la ventilation. L'aptitude de groupe Frères d'armes, ainsi que les aptitudes Côte à côte et Expert en communications de l'opérateur radio peuvent également améliorer ce paramètre."
+
+msgid "commander_emergency/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "Le {yellow_Start}bonus d'efficacité de l'équipage{yellow_End} sera augmenté de %(crewLevelIncrease)s pendant 15 s après avoir subi des dégâts de la part d'un ennemi."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Le bonus d'efficacité de l'équipage est augmenté."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente le {yellow_Start}bonus d'efficacité de l'équipage{yellow_End} de %(crewLevelIncrease)s pendant 15 s après avoir subi des dégâts de la part d'un ennemi."
+
+msgid "commander_emergency/name"
+msgstr "Urgence"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Le bonus d'efficacité de l'équipage est augmenté."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Une alerte informant d'un tir d'artillerie ennemi s'active après le tir, mais avec un certain délai.\n\nCette aptitude peut être améliorée avec la directive Vigilance accrue."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "Une {yellow_Start}alerte informant d'un tir d'artillerie ennemi{yellow_End} et la direction de ce tir sera affichée avec un délai de %(artNotificationDelayFactor)s. Les {greenBright_Start}effets négatifs de l'étourdissement{greenBright_End} sont réduits de %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle déclenche une {yellow_Start}alerte informant d'un tir d'artillerie ennemi{yellow_End} avec un délai de %(artNotificationDelayFactor)s et identifie la direction du tir. Réduit les {greenBright_Start}effets négatifs de l'étourdissement{greenBright_End} de %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Détection sonore"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Indique un tir de canon automoteur ennemi."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Le bonus d'efficacité de l'équipage améliore l'efficacité du membre d'équipage en bataille.\n\nCe paramètre peut encore être amélioré en installant de l'équipement ou des consommables avec un effet semblable, ou en utilisant la directive Purge de la ventilation. D'autres aptitudes d'équipage peuvent également augmenter ce paramètre."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "Le {yellow_Start}bonus d'efficacité de l'équipage{yellow_End} sera augmenté de %(crewLevelIncrease)s tant que l'équipe adverse possède au moins trois véhicules de plus que vous dans la bataille&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Bonus d'efficacité de l'équipage augmenté (ennemi majoritaire)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente le {yellow_Start}bonus d'efficacité de l'équipage{yellow_End} de %(crewLevelIncrease)s tant que l'équipe adverse possède au moins trois véhicules de plus que vous dans la bataille&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Tenir le coup"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Augmente le bonus d'efficacité de l'équipage"
+
+msgid "commander_practical/alt/description"
+msgstr "L'aptitude fonctionne pour tous les types de consommables installés sur votre véhicule.\n\nSes effets peuvent encore être améliorés en utilisant la directive Préparation minutieuse."
+
+msgid "commander_practical/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "Le {greenBright_Start}temps de rechargement des consommables{greenBright_End} est réduit de %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle réduit le {greenBright_Start}temps de rechargement des consommables{greenBright_End} de %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Praticité"
+
+msgid "commander_practical/shortDescription"
+msgstr "Réduit le temps de rechargement des consommables."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Sixième sens est désactivé lorsque le chef de char est blessé. Son délai d'activation peut être réduit avec l'aptitude Interception du signal de l'opérateur radio."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Il s'agit d'une fonctionnalité spéciale du chef de char qui n'a pas besoin d'être apprise et qui est disponible par défaut pour le chef de char."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Permet au chef de char de savoir lorsque son véhicule est repéré par l'ennemi. S'active %(delay)s après la détection du véhicule."
+
+msgid "commander_sixthSense/name"
+msgstr "Sixième sens"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Permet au chef de char d'identifier si son véhicule a été repéré par les adversaires ou non."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Le bonus d'efficacité de l'équipage améliore l'efficacité du membre d'équipage en bataille.\n\nCe paramètre peut encore être amélioré en installant de l'équipement ou des consommables avec un effet semblable, ou en utilisant la directive Purge de la ventilation. D'autres aptitudes d'équipage peuvent également augmenter ce paramètre."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "Le {yellow_Start}bonus d'efficacité de l'équipage{yellow_End} augmentera de %(crewLevelIncrease)s pendant 15&nbsp;s après avoir utilisé une Trousse de premiers secours. Permet à la Trousse de premiers secours d'être utilisée même si aucun membre d'équipage n'est blessé&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Bonus d'efficacité de l'équipage augmenté (Trousse de premiers secours utilisée)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente le {yellow_Start}bonus d'efficacité de l'équipage{yellow_End} de %(crewLevelIncrease)s pendant 15 s après avoir utilisé une Trousse de premiers secours. Permet à la Trousse de premiers secours d'être utilisée même si aucun membre d'équipage n'est blessé&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Rester alerte"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Augmente le bonus d'efficacité de l'équipage"
+
+msgid "commander_tutor/alt/description"
+msgstr "Un chef de char blessé ne peut pas remplacer un autre membre d'équipage. Le bonus est uniquement appliqué à la quantité d'EXP. d'équipage de base obtenue en bataille.\n\nDe l'EXP. d'équipage supplémentaire peut être reçue en utilisant des Livres d'équipage ou en convertissant de l'EXP. libre en EXP. d'équipage."
+
+msgid "commander_tutor/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "La quantité {greenBright_Start}d'EXP.{greenBright_End} gagnée est augmentée de %(xpBonusFactorPerLevel)s pour tous les membres d'équipage. Le chef de char peut {greenBright_Start}remplacer les membres d'équipage hors de combat{greenBright_End} avec %(woundedCrewEfficiency)s d'efficacité."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Un membre d'équipage hors de combat est remplacé par le chef de char."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente la quantité {greenBright_Start}d'EXP.{greenBright_End} gagnée de %(xpBonusFactorPerLevel)s pour tous les membres d'équipage. Permet au chef de char de {greenBright_Start}remplacer les membres d'équipage hors de combat{greenBright_End} avec %(woundedCrewEfficiency)s d'efficacité."
+
+msgid "commander_tutor/name"
+msgstr "Mentor"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Un membre d'équipage hors de combat est remplacé par le chef de char."
+
+msgid "commander_universalist/alt/description"
+msgstr "Le chef de char ne peut remplacer que la qualification principale du membre d'équipage mis hors combat. L'effet du remplacement diminue pour chaque membre d'équipage mis hors combat."
+
+msgid "commander_universalist/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 %. Son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Le chef de char peut {greenBright_Start}remplacer{greenBright_End} les membres d'équipage blessés avec une efficacité de %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Le chef de char remplit le rôle d'un membre d'équipage mis hors combat."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle permet au chef de char de {greenBright_Start}remplacer{greenBright_End} les membres d'équipage blessés avec une efficacité de %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/name"
+msgstr "Multitâche"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Permet au chef de char de remplacer les membres d'équipage blessés."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Réduit les pénalités à la maniabilité et l'accélération du véhicule en évoluant sur terrain modérément meuble. Réduit fortement ces pénalités en roulant sur terrain meuble, dans la même mesure que celles sur terrain modérément meuble.\nLa maniabilité sur terrain meuble et modérément meuble ne peut excéder celle sur terrain dur."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "La {greenBright_Start}perte de vitesse sur terrain modérément meuble{greenBright_End} est réduite de %(mediumGroundFactor)s&zwnbsp;, la {greenBright_Start}perte de vitesse sur terrain meuble{greenBright_End} est réduite à %(softGroundFactor)s de la nouvelle valeur sur terrain modérément meuble."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle réduit la {greenBright_Start}perte de vitesse sur terrain modérément meuble{greenBright_End} de %(mediumGroundFactor)s&zwnbsp;, et réduit la {greenBright_Start}perte de vitesse sur terrain meuble{greenBright_End} à %(softGroundFactor)s de la nouvelle valeur sur terrain modérément meuble."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Pilote tout-terrain"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Le bonus d'efficacité de l'équipage améliore l'efficacité du membre d'équipage en bataille.\n\nCe paramètre peut encore être amélioré en installant de l'équipement ou des consommables avec un effet semblable, ou en utilisant la directive Purge de la ventilation. D'autres aptitudes d'équipage peuvent également augmenter ce paramètre."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "Le {yellow_Start}bonus d'efficacité de l'équipage{yellow_End} augmentera de %(crewLevelIncrease)s si la quantité de dégâts que vous bloquez dépasse les points de structure initiaux de votre véhicule."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Bonus d'efficacité de l'équipage augmenté (suffisamment de dégâts bloqués)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente le {yellow_Start}bonus d'efficacité de l'équipage{yellow_End} de %(crewLevelIncrease)s si la quantité de dégâts que vous bloquez dépasse les points de structure initiaux de votre véhicule."
+
+msgid "driver_bulletproof/name"
+msgstr "Pare-balles"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "La vitesse de pointe de votre véhicule peut encore être améliorée et la pénalité d'un moteur endommagé peut encore être réduite en installant de l'équipement avec un effet semblable."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "La {greenBright_Start}vitesse maximale en marche avant{greenBright_End} et {greenBright_Start}en marche arrière{greenBright_End} de votre véhicule est augmentée de %(vehicleForwardMaxSpeed)s. La {greenBright_Start}pénalité d'un moteur endommagé{greenBright_End} est réduite de %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "La pénalité d'un moteur endommagé est réduite."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente la {greenBright_Start}vitesse maximale en marche avant{greenBright_End} et {greenBright_Start}en marche arrière{greenBright_End} de votre véhicule de %(vehicleForwardMaxSpeed)s. Réduit la {greenBright_Start}pénalité d'un moteur endommagé{greenBright_End} de %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Ingénieur"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "La pénalité d'un moteur endommagé est réduite."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Cette aptitude ne fonctionne pas lorsque deux véhicules alliés se percutent.\n\nLes dégâts par collision infligés à votre véhicule peuvent encore être réduits en installant de l'équipement avec un effet semblable."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "Les {greenBright_Start}dégâts par collision infligés aux véhicules ennemis{greenBright_End} sont augmentés de %(damageEnemiesByRamming)s&zwnbsp;. Les {greenBright_Start}dégâts par collision infligés à votre véhicule{greenBright_End} sont réduits de %(vehicleRamDamageResistance)s&zwnbsp; et ceux infligés à {greenBright_Start}votre suspension{greenBright_End} de %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente les {greenBright_Start}dégâts par collision infligés aux véhicules ennemis{greenBright_End} de %(damageEnemiesByRamming)s&zwnbsp;. Réduit les {greenBright_Start}dégâts par collision infligés à votre véhicule{greenBright_End} de %(vehicleRamDamageResistance)s&zwnbsp; et ceux infligés à {greenBright_Start}votre suspension{greenBright_End} de %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Bélier"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Réduit les dégâts par collision infligés à votre véhicule et augmente les dégâts par collision infligés aux véhicules ennemis."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Les dégâts subis par des obus explosifs peuvent être encore réduits en installant de l'équipement avec un effet semblable."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}L'absorption des dégâts des obus explosifs{greenBright_End} est augmentée de %(vehicleHEShellDamageResistance)s&zwnbsp;. Le&nbsp;{greenBright_Start}risque que le moteur prenne feu{greenBright_End} est réduit de %(vehicleFireChance)s et les {greenBright_Start}dégâts à votre suspension{greenBright_End} de %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente {greenBright_Start}l'absorption des dégâts des obus explosifs{greenBright_End} de %(vehicleHEShellDamageResistance)s&zwnbsp;. Réduit le {greenBright_Start}risque que le moteur prenne feu{greenBright_End} de %(vehicleFireChance)s et les {greenBright_Start}dégâts à votre suspension{greenBright_End} de %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Placement fiable"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "N'affecte pas la précision d'un véhicule à l'arrêt ni la précision lors de la rotation de la caisse.\n\nL'aptitude peut être améliorée en utilisant la directive Boîte de vitesse complexe. La précision en tirant en mouvement peut être encore améliorée en installant de l'équipement avec un effet semblable ou en utilisant de la directive Graissage du stabilisateur."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "La {greenBright_Start}dispersion du canon{greenBright_End} en tirant en mouvement est réduite de %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle réduit la {greenBright_Start}dispersion du canon{greenBright_End} en tirant en mouvement de %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Conduite souple"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Améliore la précision lors des tirs effectués en mouvement."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Cette aptitude affecte la vitesse des réparations de la suspension de l'état rouge à jaune lorsque vous vous situez dans un rayon de 50 m d'un véhicule allié."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "La {yellow_Start}vitesse de réparation de la suspension{yellow_End} sera augmentée de %(suspensionRepairSpeed)s à une distance inférieure à 50 m d'un véhicule allié."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Vitesse de réparation de la suspension augmentée (allié proche)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente la {yellow_Start}vitesse de réparation de la suspension{yellow_End} de %(suspensionRepairSpeed)s à une distance inférieure à 50 m d'un véhicule allié."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Soutien sur le terrain"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "La résistance du véhicule aux incendies peut encore être augmentée en installant de l'équipement et des consommables avec des effets semblables. L'aptitude Lutte contre les incendies accélérera l'extinction d'un incendie à bord du véhicule."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 %. Son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "{greenBright_Start}Risque d'incendie du moteur{greenBright_End} réduit de %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle réduit le {greenBright_Start}risque d'incendie du moteur{greenBright_End} de %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Maintenance préventive"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Réduit le risque d'incendie du moteur."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "La vitesse de rotation de la caisse peut encore être augmentée en installant de l'équipement ou des consommables avec un effet semblable."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "La {greenBright_Start}vitesse de rotation de la caisse{greenBright_End} est augmentée de %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente la {greenBright_Start}vitesse de rotation de la caisse{greenBright_End} de %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "As du volant"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Augmente la vitesse de rotation de la caisse."
+
+msgid "fireFighting/alt/description"
+msgstr "Cette aptitude affecte les dégâts subis par incendie et sa durée.\n\nSi deux opérateurs radio possèdent cette aptitude, la valeur moyenne du niveau d'entraînement est appliquée.\n\nCette aptitude peut être améliorée avec la directive Pompiers expérimentés."
+
+msgid "fireFighting/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "La {greenBright_Start}vitesse d'extinction des incendies{greenBright_End} est augmentée de %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente la {greenBright_Start}vitesse d'extinction des incendies{greenBright_End} de %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Lutte contre les incendies"
+
+msgid "fireFighting/shortDescription"
+msgstr "Améliore les capacités de lutte contre les incendies."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Par défaut, la plage de la pénétration et des dégâts potentiels est de ±25 % des valeurs de base. Par exemple, si un obus peut pénétrer un blindage épais de 100 mm et infliger 100 PS de dégâts, en atteignant sa cible, la pénétration réelle pourra varier entre 75 et 125 mm et ses dégâts réels entre 75 et 125 PS de dégâts. La réduction de ce modificateur donnera des résultats de tir plus prévisibles.\n\nSi deux tireurs possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Les plages de {greenBright_Start}dégâts potentiels{greenBright_End} et de {greenBright_Start}pénétration potentielle{greenBright_End} sont réduites de {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. La {greenBright_Start}dispersion du canon{greenBright_End} est réduite de %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, réduit les plages de {greenBright_Start}dégâts potentiels{greenBright_End} et de {greenBright_Start}pénétration potentielle{greenBright_End} de {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. Réduit la {greenBright_Start}dispersion du canon{greenBright_End} de %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Armurier"
+
+msgid "gunner_focus/alt/description"
+msgstr "L'effet se produit 3 s après l'arrêt du véhicule et s'annule au moindre mouvement.\n\nSi deux tireurs possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée."
+
+msgid "gunner_focus/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "La {yellow_Start}dispersion du canon{yellow_End} d'un véhicule immobile sera réduite de %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "La dispersion du canon est réduite."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle réduit la {yellow_Start}dispersion du canon{yellow_End} lorsque le véhicule est immobile de %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Concentration"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Réduit la dispersion du canon lorsque le véhicule est immobile."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "La dispersion du canon et la vitesse de visée peuvent encore être améliorées en maîtrisant des aptitudes d'équipage ou en installant de l'équipement avec un effet semblable.\n\nSi deux tireurs possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "La {yellow_Start}dispersion du canon{yellow_End} sera augmentée de %(vehicleGunAimSpeed)s et la {yellow_Start}vitesse de visée{yellow_End} sera augmentée de %(vehicleGunAimSpeed)s tant qu'aucun véhicule allié ne se situe dans un rayon de 300 m."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Dispersion du canon et vitesse de visée améliorées (aucun allié proche)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle réduit la {yellow_Start}dispersion du canon{yellow_End} et augmente la {yellow_Start}vitesse de visée{yellow_End} de %(vehicleGunAimSpeed)s tant qu'aucun véhicule allié ne se situe dans un rayon de 300 m."
+
+msgid "gunner_loneWolf/name"
+msgstr "Loup solitaire"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Réduit la dispersion du canon. Augmente la vitesse de visée."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Par défaut, le potentiel de pénétration maximal est de +25 % de la valeur de base. Par exemple, si un obus pénètre un blindage maximal de 100 mm, en touchant sa cible, la valeur de pénétration maximale pour ce tir sera de 125 mm. Augmenter ce modificateur amène à des résultats de pénétration plus efficaces.\n\nSi deux tireurs possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "Le {yellow_Start}potentiel de pénétration maximal{yellow_End} de vos obus sera augmenté de %(piercingHEShellsDistributionUpperBound)s en tirant sur des véhicules ennemis situés à moins de 50 m."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente le {yellow_Start}potentiel de pénétration maximal{yellow_End} de %(piercingHEShellsDistributionUpperBound)s en tirant sur des véhicules ennemis situés à moins de 50 m."
+
+msgid "gunner_pointBlast/name"
+msgstr "À bout portant"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Augmente le potentiel de pénétration maximal de vos obus"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Si deux tireurs possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée.\n\nLa vitesse de visée peut encore être améliorée en maîtrisant l'aptitude Coordination du chef de char ou en installant de l'équipement avec un effet semblable.\n\nLa vitesse de rotation de la tourelle peut encore être augmentée en installant de l'équipement ou des consommables avec le même effet."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "La {greenBright_Start}vitesse de visée{greenBright_End} et la {greenBright_Start}vitesse de rotation de la tourelle{greenBright_End} sont augmentées de %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente la {greenBright_Start}vitesse de visée{greenBright_End} et la {greenBright_Start}vitesse de rotation de la tourelle{greenBright_End} de %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Visée rapide"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "La vitesse de visée est accrue."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Identifie les éléments gravement endommagés sur les véhicules ciblés à portée de vue du tireur en mode de tir direct comme indirect.\nLa zone de vision du tireur est définie par un arc de ±10° (20° au total) devant le canon du véhicule et par sa portée de vue.\nSi deux tireurs possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée.\nCette aptitude peut être encore améliorée avec la directive Concentration sur la cible. L'utilisation d'un Équipement radio amélioré augmente encore davantage le temps avant que le véhicule ennemi ne soit plus visible."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "Le {greenBright_Start}temps{greenBright_End} avant qu'un {greenBright_Start}véhicule ennemi ne soit plus visible{greenBright_End} dans la zone de vision du tireur est augmenté de %(vehicleEnemySpottingTime)s. Le temps nécessaire pour {yellow_Start}identifier les éléments endommagés{yellow_End} est réduit à %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente le {greenBright_Start}temps{greenBright_End} avant qu'un {greenBright_Start}véhicule ennemi ne soit plus visible{greenBright_End} dans la zone de vision du tireur de %(vehicleEnemySpottingTime)s. Permet d'{yellow_Start}identifier les éléments endommagés{yellow_End} après un délai de %(damageMonitoringDelay)s."
+
+msgid "gunner_rancorous/name"
+msgstr "Rancunier"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Augmente le temps avant qu'un véhicule ennemi ne soit plus visible dans la zone de vision du tireur. Permet d'identifier les éléments endommagés."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Si deux tireurs possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée.\n\nCette aptitude peut être améliorée avec la directive Main assurée. La dispersion lors de la rotation de la tourelle peut encore être réduite en installant de l'équipement avec un effet semblable ou avec l'utilisation de la directive Graissage du stabilisateur."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "La {greenBright_Start}dispersion du canon{greenBright_End} lors de la rotation de la tourelle est réduite de %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle réduit la {greenBright_Start}dispersion du canon{greenBright_End} lors de la rotation de la tourelle de %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Précision"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Réduit la dispersion du canon lors de la rotation de la tourelle."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Cet effet fonctionne pour tous les types d'obus, sauf dans les véhicules équipés de canons automatiques.\n\nSi deux tireurs possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "La {greenBright_Start}probabilité d'endommager gravement{greenBright_End} des {greenBright_Start}éléments de véhicules{greenBright_End} ennemis et de blesser des {greenBright_Start}membres d'équipage{greenBright_End} ennemis avec tous les types d'obus est augmentée de %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente la {greenBright_Start}probabilité d'endommager gravement{greenBright_End} des {greenBright_Start}éléments de véhicules{greenBright_End} ennemis et de blesser des {greenBright_Start}membres d'équipage{greenBright_End} ennemis avec tous les types d'obus de %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Coup mortel"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Par défaut, la plage minimale de pénétration et de dégâts potentiels est de -25 % des valeurs de base. Par exemple, si un obus peut pénétrer jusqu'à 100 mm de blindage et infliger 100 PS de dégâts, en atteignant sa cible, la pénétration minimale pour ce tir sera de 75 mm et le minimum de dégâts sera de 75 PS de dégâts. Augmenter ce modificateur permet d'atteindre de meilleurs résultats de tir.\n\nSi deux chargeurs possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "Le {greenBright_Start}potentiel de dégâts minimum{greenBright_End} et le {greenBright_Start}potentiel de pénétration minimum{greenBright_End} sont augmentés de %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente le {greenBright_Start}potentiel de dégâts minimum{greenBright_End} et le {greenBright_Start}potentiel de pénétration minimum{greenBright_End} de %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Réglage des munitions"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Augmente les dégâts moyens et les valeurs de pénétration."
+
+msgid "loader_desperado/alt/description"
+msgstr "Si deux chargeurs possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée.\n\nLe temps de rechargement du canon peut encore être réduit par l'entraînement de l'aptitude Combat rapproché du chargeur ou en installant de l'équipement avec un effet semblable. L'utilisation de la directive Râtelier de munitions en ordre améliore l'effet."
+
+msgid "loader_desperado/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "Le {yellow_Start}temps de rechargement du canon{yellow_End} sera réduit de %(vehicleGunReloadTime)s si votre véhicule dispose de moins de 25 % de ses points de structure."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Le temps de rechargement du canon est réduit (faible durabilité du véhicule)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle réduit le {yellow_Start}temps de rechargement du canon{yellow_End} de %(vehicleGunReloadTime)s si votre véhicule dispose de moins de 25 % de ses points de structure."
+
+msgid "loader_desperado/name"
+msgstr "Poussée d'adrénaline"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Accélère la vitesse de rechargement du canon si le véhicule dispose de moins de 25 % de ses points de structure."
+
+msgid "loader_intuition/alt/description"
+msgstr "Pour activer cette aptitude, le canon, les deux canons ou le barillet doivent être entièrement chargés. Le temps minimal de changement du type d'obus pour les canons standards est de 1 s ; pour les canons jumelés et les barillets, il est de 2,5 s.\n\nSi deux chargeurs possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée."
+
+msgid "loader_intuition/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "Le {greenBright_Start}temps de changement de type d'obus{greenBright_End} dans un canon chargé est réduit de %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Le temps de changement de type d'obus dans un canon chargé est réduit.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle réduit le {greenBright_Start}temps de changement de type d'obus{greenBright_End} dans un canon chargé de %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Intuition"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Augmente grandement la vitesse de changement de type d'obus dans un canon chargé."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Cette aptitude réduit uniquement le temps de rechargement des canons à barillet et n'affecte pas les autres systèmes de chargement.\n\nSi deux chargeurs possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "Le {greenBright_Start}temps de rechargement{greenBright_End} du barillet est réduit de %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle réduit le {greenBright_Start}temps de rechargement{greenBright_End} du barillet de %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "Maîtrise du barillet"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Réduit le temps de rechargement de vos barillets"
+
+msgid "loader_melee/alt/description"
+msgstr "Si deux chargeurs possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée.\n\nLe temps de rechargement du canon peut encore être réduit par l'entraînement de l'aptitude Poussée d'adrénaline du chargeur ou en installant de l'équipement avec un effet semblable. L'utilisation de la directive Râtelier de munitions en ordre améliore l'effet."
+
+msgid "loader_melee/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "Le {yellow_Start}temps de rechargement du canon{yellow_End} sera réduit de %(vehicleGunReloadTime)s à une distance de moins de 50 m d'un véhicule ennemi."
+
+msgid "loader_melee/hudDescription"
+msgstr "Le temps de rechargement du canon est réduit (ennemi à proximité).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle réduit le {yellow_Start}temps de rechargement du canon{yellow_End} de %(vehicleGunReloadTime)s à une distance de moins de 50 m d'un véhicule ennemi."
+
+msgid "loader_melee/name"
+msgstr "Combat rapproché"
+
+msgid "loader_melee/shortDescription"
+msgstr "Accélère le rechargement du canon en combat rapproché."
+
+msgid "loader_pedant/alt/description"
+msgstr "Un chargeur blessé n'affecte pas l'efficacité de cette aptitude.\n\nSi deux chargeurs possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée.\n\nL'aptitude peut être améliorée en utilisant la directive Organisateur d'obus. La durabilité du râtelier de munitions peut encore être améliorée en installant de l'équipement avec un effet semblable."
+
+msgid "loader_pedant/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "La {greenBright_Start}durabilité du râtelier de munitions{greenBright_End} est augmentée de %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente la {greenBright_Start}durabilité du râtelier de munitions{greenBright_End} de %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Râtelier sécurisé"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Augmente la durabilité du râtelier de munitions."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Cet effet fonctionne pour tous les types d'obus.\n\nUn chargeur blessé n'affecte pas l'efficacité de cette aptitude.\n\nSi deux chargeurs possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "La {greenBright_Start}vélocité des obus{greenBright_End} est augmentée de %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente la {greenBright_Start}vélocité des obus{greenBright_End} de %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Charge parfaite"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Cette aptitude n'a aucun effet sur les canons à barillet ni les canons automatiques, et elle ne se combine pas avec les double canons.\n\nPour les canons ayant le choix du système de chargement, si les deux canons tirent et si aucun n'inflige de dégâts, la réduction du temps de chargement du canon s'applique aux deux canons. \n\nSi deux chargeurs possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée.\n\nLe temps de chargement du canon peut encore être réduit en maîtrisant les aptitudes du chargeur Poussée d'adrénaline ou Combat rapproché, ou en installant de l'équipement avec un effet semblable. L'utilisation de la directive Râtelier de munitions en ordre améliore l'effet."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "Le {yellow_Start}temps de chargement du canon{yellow_End} sera réduit de %(vehicleGunReloadTime)s pour le prochain obus si le tir précédent n'a pas infligé de dégâts à un véhicule ennemi."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Temps de chargement du canon réduit (tir raté)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle réduit le {yellow_Start}temps de chargement du canon{yellow_End} de %(vehicleGunReloadTime)s pour le prochain obus si le tir précédent n'a pas infligé de dégâts à un véhicule ennemi."
+
+msgid "loader_secondChance/name"
+msgstr "Seconde chance"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Réduit le temps de chargement du canon"
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s %%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Fraternité du metal"
+
+msgid "perkRole/commander"
+msgstr "Chef de char"
+
+msgid "perkRole/common"
+msgstr "Groupe"
+
+msgid "perkRole/driver"
+msgstr "Pilote"
+
+msgid "perkRole/gunner"
+msgstr "Tireur"
+
+msgid "perkRole/loader"
+msgstr "Chargeur"
+
+msgid "perkRole/radioman"
+msgstr "Opérateur radio"
+
+msgid "popularity/tooltip/common"
+msgstr "de tous les joueurs"
+
+msgid "popularity/tooltip/header"
+msgstr "Pour ce véhicule, préféré par"
+
+msgid "popularity/tooltip/legendary"
+msgstr "des joueurs avec une cote WTR légendaire"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Si deux opérateurs radio possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée.\n\nL'effet peut encore être amélioré avec l'aptitude du chef de char Détection sonore."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Chaque fois que l'équipage du véhicule est étourdi, les {greenBright_Start}effets négatifs de l'étourdissement{greenBright_End} seront réduits de %(stunResistanceEffectFactor)s, pour un maximum de 30 %."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, chaque fois que l'équipage du véhicule est étourdi, elle réduit les {greenBright_Start}effets négatifs de l'étourdissement{greenBright_End} de %(stunResistanceEffectFactor)s&nbsp;, pour un maximum de 30 %."
+
+msgid "radioman_battleTempered/name"
+msgstr "Forte tête"
+
+msgid "radioman_expert/alt/description"
+msgstr "Le bonus d'efficacité de l'équipage améliore l'efficacité du membre d'équipage en bataille. Si deux opérateurs radio possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée. Ce paramètre peut encore être amélioré en installant de l'équipement ou des consommables avec un effet semblable, ou en utilisant la directive Purge de la ventilation. L'aptitude de groupe Frères d'armes, ainsi que les aptitudes Urgence du chef de char ou Côte à côte de l'opérateur radio peuvent également améliorer ce paramètre."
+
+msgid "radioman_expert/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "Le {yellow_Start}bonus d'efficacité de l'équipage{yellow_End} augmentera de %(crewLevelIncrease)s si la quantité de dégâts infligés grâce à votre aide dépasse les points de structure initiaux de votre véhicule&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Le bonus d'efficacité de l'équipage est augmenté (suffisamment de données de reconnaissance ont été transmises)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente le {yellow_Start}bonus d'efficacité de l'équipage{yellow_End} de %(crewLevelIncrease)s si la quantité de dégâts infligés grâce à votre aide dépasse les points de structure initiaux de votre véhicule&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Expert en communications"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Performances de l'équipage améliorées."
+
+msgid "radioman_finder/alt/description"
+msgstr "Si deux opérateurs radio possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée.\n\nLa portée de vue peut encore être augmentée en maîtrisant l'aptitude Œil de lynx ou en installant de l'équipement avec un effet semblable. L'utilisation de la directive Étalonnage optique améliore l'effet."
+
+msgid "radioman_finder/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "La {greenBright_Start}portée de vue{greenBright_End} est augmentée de %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente la {greenBright_Start}portée de vue{greenBright_End} de %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Longue-vue"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Augmente la portée de vue."
+
+msgid "radioman_interference/alt/description"
+msgstr "Si deux opérateurs radio possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée.\n\nLe temps pendant lequel votre véhicule reste repéré peut être encore réduit en installant de l'équipement avec un effet semblable."
+
+msgid "radioman_interference/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "Le {greenBright_Start}temps pendant lequel votre véhicule reste repéré{greenBright_End} par l'ennemi est réduit de %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle réduit le {greenBright_Start}temps pendant lequel votre véhicule reste repéré{greenBright_End} par l'ennemi de %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Brouillage"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Réduit le temps pendant lequel votre véhicule est visible pour l'ennemi."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Si deux opérateurs radio possèdent cette aptitude, seule la valeur la plus élevée s'applique. L'effet n'est actif que si l'opérateur n'est pas blessé au moment de la destruction du véhicule.\n\nCette aptitude peut encore être améliorée avec la directive Le devoir avant tout."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 %. Son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "L'opérateur radio peut {yellow_Start}signaler les positions ennemies{yellow_End} pendant %(radiomanDurationPerLevel)s de plus après la destruction de votre véhicule."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Signalement des positions."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Une fois entièrement entraînée, elle permet de {yellow_Start}signaler les positions ennemies{yellow_End} pendant %(radiomanDurationPerLevel)s de plus après la destruction de votre véhicule."
+
+msgid "radioman_lastEffort/name"
+msgstr "Appel à la vengeance"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Signale les positions adverses pendant une courte durée après la destruction de votre véhicule."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Le bonus d'efficacité de l'équipage améliore l'efficacité du membre d'équipage en bataille. Si deux opérateurs radio possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée. Ce paramètre peut encore être amélioré en installant de l'équipement ou des consommables avec un effet semblable, ou en utilisant la directive Purge de la ventilation. L'aptitude de groupe Frères d'armes, ainsi que les aptitudes Urgence du chef de char ou Expert en communications de l'opérateur radio peuvent également améliorer ce paramètre."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "Le {yellow_Start}bonus d'efficacité de l'équipage{yellow_End} sera augmenté de %(crewLevelIncrease)s à une distance de moins de 50 m d'un véhicule allié du même type&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Le bonus d'efficacité de l'équipage est augmenté (allié du même type à proximité)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente le {yellow_Start}bonus d'efficacité de l'équipage{yellow_End} de %(crewLevelIncrease)s à une distance de moins de 50 m d'un véhicule allié du même type&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Côte à côte"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Performances de l'équipage améliorées."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "L'effet améliore la fonctionnalité spéciale du chef de char Sixième sens en accélérant son activation.\n\nSi deux opérateurs radio possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Une aptitude prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "Le {greenBright_Start}temps pour déterminer{greenBright_End} si {greenBright_Start}votre véhicule a été repéré{greenBright_End} par l'ennemi est réduit de %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle réduit le {greenBright_Start}temps pour déterminer{greenBright_End} si {greenBright_Start}votre véhicule a été repéré{greenBright_End} par l'ennemi de %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Interception du signal"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Cette aptitude s'active lorsque l'alerte Sixième sens indique que votre véhicule est repéré.\n\nSi deux opérateurs radio possèdent cette aptitude, la valeur moyenne de son niveau d'entraînement est appliquée.\n\nLa portée de vue peut encore être améliorée en maîtrisant l'aptitude Œil de lynx ou Longue vue, ou en installant de l'équipement avec un effet semblable. L'utilisation de la directive Étalonnage optique améliore l'effet."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Une aptitude avec un effet situationnel prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement. L'effet situationnel se déclenche lorsque certaines conditions sont remplies en bataille."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "La {yellow_Start}portée de vue{yellow_End} sera augmentée de %(vehicleCircularVisionRadius)s pendant 5 s après avoir reçu l'alerte Sixième sens."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Portée de vue augmentée."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée, elle augmente la {yellow_Start}portée de vue{yellow_End} de %(vehicleCircularVisionRadius)s pendant 5 s après avoir reçu l'alerte Sixième sens."
+
+msgid "radioman_threatSearch/name"
+msgstr "Détecteur de menaces"
+
+msgid "repair/alt/description"
+msgstr "Cette aptitude affecte la vitesse de réparation des éléments internes et externes de l'état « rouge » à « jaune ».\n\nCe paramètre peut encore être amélioré en installant de l'équipement ou des consommables avec un effet semblable."
+
+msgid "repair/alt/info"
+msgstr "Pour les aptitudes de groupe, le niveau d'entraînement moyen parmi tous les membres d'équipage est pris en compte. Elle prend effet lorsqu'elle est maîtrisée à au moins 1 % et son efficacité augmente au fur et à mesure de l'entraînement."
+
+msgid "repair/currentLvlDescription"
+msgstr "La {greenBright_Start}vitesse de réparation{greenBright_End} des éléments endommagés du véhicule est augmentée de %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Une fois entièrement maîtrisée par tous les membres d'équipage, elle augmente la {greenBright_Start}vitesse de réparation{greenBright_End} des éléments endommagés du véhicule de %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Réparations"
+
+msgid "repair/shortDescription"
+msgstr "Augmente la vitesse de réparation des éléments endommagés."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Fraternité du metal"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Populaire"
+
+msgid "sorting/fallback"
+msgstr "Standard"
+
+msgid "sorting/legendary"
+msgstr "Légendaire"
+
+msgid "sorting/title"
+msgstr "Classé par :"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPopulaire.%(whiteSpanish_Close)s D'après les tendances actuelles des aptitudes parmi tous les joueurs de World of Tanks"
+
+msgid "sorting/tooltip/header"
+msgstr "Avantage de WoT Plus"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Recevez des données précises concernant les aptitudes d'équipage d'après des millions de parties et profitez pleinement de chaque bataille."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLégendaire.%(whiteSpanish_Close)s D'après les aptitudes actuellement préférées par les joueurs ayant une cote WTR légendaire"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Classement des aptitudes désactivé"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Aucune donnée disponible"
+
+msgid "sorting/tooltip/title"
+msgstr "Assistant de l'équipage"
+
+msgid "sorting/tooltip/types"
+msgstr "Classement des types d'aptitudes"
+
+msgid "sorting/tooltip/warning"
+msgstr "Classement des aptitudes indisponible"
+
+msgid "sorting/tooltip/warningText"
+msgstr "L'ensemble des données des aptitudes est indisponible pour ce véhicule, le classement des aptitudes par défaut a donc été appliqué."
+
+msgid "witches_brotherhood/name"
+msgstr "Assemblée"
+
+msgid "yha_brotherhood/name"
+msgstr "Fraternité des Lièvres"

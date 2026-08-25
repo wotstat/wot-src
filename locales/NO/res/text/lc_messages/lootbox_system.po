@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "Besetning og trening"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "Tilpasning"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "Utstyr og direktiver"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "Andre"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "Kjøretøy"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "Bekreftet!"
+
+msgid "autoOpenView/title"
+msgstr "MOTTATTE BELØNNINGER"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Bekreftet!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "Direktiv"
+
+msgid "bonuses/description/booster"
+msgstr "Personlig reserve"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Besetningsdrakt"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standardutstyr"
+
+msgid "bonuses/description/style"
+msgstr "2D stil"
+
+msgid "bonuses/description/style3D"
+msgstr "3D stil"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "Tegningsdel (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "Universal tegningsdel"
+
+msgid "bonuses/label/bpcoin"
+msgstr "Battle Pass pollett"
+
+msgid "boxTooltip/description/text/default"
+msgstr "Når den åpnes kan den inneholde kjøretøy, økonomiske ressurser og andre verdifulle enheter.\nEsker er tilgjengelige i butikken i spillet."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "gjenværende antall åpninger igjen til garantert belønning, hvis den ikke dukker opp før."
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "Esker er tilgjengelige i butikken i spillet."
+
+msgid "common/backButton"
+msgstr "TILBAKE"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "TAKTISK ESKE"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "TAKTISK ESKE"
+
+msgid "common/closeButton"
+msgstr "LUKK"
+
+msgid "common/footer/checkbox"
+msgstr "Åpningsanimasjon"
+
+msgid "common/getButton/lowerCase"
+msgstr "Få flere"
+
+msgid "common/getButton/upperCase"
+msgstr "Få flere"
+
+msgid "common/infoButton"
+msgstr "Hva er inni?"
+
+msgid "common/loader"
+msgstr "Eske åpnes..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) stk."
+msgstr[1] "%(count) stk."
+msgstr[2] "%(count) stk."
+
+msgid "common/rewards/multiplier"
+msgstr "x{count}"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "dag"
+msgstr[1] "dager"
+msgstr[2] "dager"
+
+msgid "common/selectTooltip"
+msgstr "Ikke nok esker til å åpne {{count}} på en gang"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Åpne esker for å se statistikk."
+
+msgid "common/statistics/header"
+msgstr "Antall åpnede esker: %(count)"
+
+msgid "common/statsButton"
+msgstr "Statistikk"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "Avbryt"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Din belønningshistorikk blir slettet."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "Nullstill"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "Nullstille statistikk?"
+
+msgid "entryPoint/boxes"
+msgstr "TIL ESKER"
+
+msgid "entryPoint/count"
+msgstr "×%(count)"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "×999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Dette er spesialesker som inneholder nye og unike enheter. De kan fås fra butikken i spillet."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Eventet avsluttes om"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Vi har tekniske problemer og har midlertidig satt eventet på pause til vi får ordnet det."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Midlertidig utilgjengelig"
+
+msgid "eventName/lowerCase"
+msgstr "FORSYNINGER TIL SLAGMARKEN"
+
+msgid "eventName/upperCase"
+msgstr "FORSYNINGER TIL SLAGMARKEN"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "hver %(count). åpning"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "kjøretøy"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "Et %(item) garanteres for %(count). Telleren nullstilles dersom et kjøretøy slippes tidligere."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Dersom alle kjøretøy allerede eies, får du gull i stedet."
+
+msgid "guaranteedTitle/text"
+msgstr "En %(name) for hver %(count). åpnede eske"
+
+msgid "guaranteedTitle/textName"
+msgstr "garantert belønning"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "Åpne"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "Eventet avsluttes om %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Dersom du ikke åpner alle eskene før eventet er ferdig, blir de automatisk åpnet senere."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Dersom du allerede eier alle kjøretøyene fra listen over mulig innhold i eskene, vil alle påfølgende kjøretøy du får fra eskene bli kompensert med gull tilsvarende deres fulle verdi."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Hver %(guaranteed0)s. eske garanteres å inneholde et kjøretøy på nivå 8–10. Dersom du åpner dem uten at et slikt kjøretøy blir sluppet, så vil et kjøretøy på nivå 8–10 som du ikke har fra før bli sluppet når du åpner den %(guaranteed0)s&zwnbsp;. esken (avhengig av type eske). Når den så slipper et kjøretøy, nullstilles telleren."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Autoåpne"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Kompensasjon"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Garantert belønning"
+
+msgid "infoPage/header/lootListLink"
+msgstr "Se liste over enheter på nettsidene"
+
+msgid "infoPage/header/probability/description"
+msgstr "Slipp sannsynlighet"
+
+msgid "infoPage/header/probability/title"
+msgstr "Gruppe"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Ikke mer en en belønning per gruppe kan bli sluppet"
+
+msgid "infoPage/header/rewards/title"
+msgstr "Belønninger"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "Åpne flere"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Fra %(name) (%(boxesCount) åpnede esker)"
+
+msgid "multipleRewardView/header/title/"
+msgstr "MOTTATTE BELØNNINGER"
+
+msgid "noBoxesView/description/"
+msgstr "Esker er tilgjengelige i butikken i spillet"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "Til butikken"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Til tilgjengelige esker"
+
+msgid "preview/backLabel"
+msgstr "TIL ESKER"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Tilgjengelig: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Ingen flere esker"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "Fortsett"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "til %(vehicleInfo)"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "3D stilen %(style)"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "\"%(eventName)s\" eventet er avsluttet."
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "Alle gjenværende mottatte esker blir åpnet. Innholdet i disse blir lagt til i kontoen din."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Se belønninger"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Belønninger mottatt"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Vi har lagt til enhetene du ikke mottok i løpet av eventet."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "Eventet er midlertidig utilgjengelig på grunn av vedlikehold."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "Eventet er tilgjengelig igjen. Vi beklager ulempen."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s stk.)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "Mottatte belønninger:"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "Feil"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "Vennligst vent til den forrige operasjonen er fullført."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "Handlingen er midlertidig utilgjengelig. Prøv igjen senere."
+
+msgid "serviceChannelMessages/start/button"
+msgstr "Gå til eventet"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "\"%(eventName)s\" eventet har begynt."
+
+msgid "serviceChannelMessages/start/text"
+msgstr "Kun frem til %(date)s: Premiumkjøretøy og verdifulle ressurser til bruk i spillet!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "Kan ikke nullstille statistikk. Vennligst prøv igjen senere."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "Samt"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "Åpne flere"
+
+msgid "singleRewardView/header/title/"
+msgstr "MOTTATTE BELØNNINGER"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "Unikt besetningsmedlem"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "3D vedheng"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "Oppdrag med x5 erfaringspoeng per kamp"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "Direktiver"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "Tegningsdeler"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "Hefter"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "Treningshefter"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "Forbruksmateriell"
+
+msgid "statisticsRewards/label/credits"
+msgstr "Credits"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "Manualer"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "Treningsmanual"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "Oppdrag med x3 besetningerfaring"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "Sedler"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "Tilpasning"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "Forbedret utstyr"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "Komponenter"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "Eksperimentelt utstyr"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "Fri erfaring"
+
+msgid "statisticsRewards/label/gold"
+msgstr "Gull"
+
+msgid "statisticsRewards/label/guide"
+msgstr "Veiledninger"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "Treningsveiledning"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "Mentorlisens"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "Standardutstyr"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "Personlige reserver"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "WoT premium konto"
+
+msgid "statisticsRewards/label/rations"
+msgstr "Rasjoner"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "Omskoleringsordrer"
+
+msgid "statisticsRewards/label/style"
+msgstr "2D stiler"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "3D stiler"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "Besetningsmedlemmer"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "Skuddpremieutstyr"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "Kjøretøy"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "Nullstill statistikk"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "Klikk for å nullstille all statistikk."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "Og ytterligere %(count) belønning."
+msgstr[1] "Og ytterligere %(count) belønninger."
+msgstr[2] "Og ytterligere %(count) belønninger."
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "«%(label)»"
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "x%(count)"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "Nasjonal tegningsdel"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). «%(label)» til %(vehicleInfo)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "Kompenserte stiler: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "Kompenserte kjøretøy: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "Kompensasjon for kjøretøyet som allerede er i garasjen din."

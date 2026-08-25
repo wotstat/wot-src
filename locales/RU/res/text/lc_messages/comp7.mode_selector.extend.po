@@ -1,0 +1,53 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "mode/comp7/battlePassTooltip/body"
+msgstr "Играя на технике X уровня в режиме {whiteSpanish_open}«Натиск»{whiteSpanish_close}, вы будете зарабатывать очки. Они нужны для продвижения по прогрессии Боевого пропуска."
+
+msgid "mode/comp7/battlePassTooltip/header"
+msgstr "Очки Боевого пропуска"
+
+msgid "mode/comp7/calendarTooltip"
+msgstr "Событие продлится до %(date)s"
+
+msgid "mode/comp7/description"
+msgstr "Соревновательный режим. 7x7 %(parSecondary_open)sI%(parSecondary_close)s X&nbsp;уровень"
+
+msgid "mode/comp7/progress"
+msgstr "%(score)s / %(scoreToNextDivision)s"
+
+msgid "mode/comp7/seasonEnd/first"
+msgstr "Сезон Лазурного дракона завершён"
+
+msgid "mode/comp7/seasonEnd/second"
+msgstr "Сезон Алого дракона завершён"
+
+msgid "mode/comp7/seasonEnd/third"
+msgstr "Сезон Нефритового дракона завершён"
+
+msgid "mode/comp7/seasonStart/first"
+msgstr "Сезон Лазурного дракона начнётся %(date)s"
+
+msgid "mode/comp7/seasonStart/second"
+msgstr "Сезон Алого дракона начнётся %(date)s"
+
+msgid "mode/comp7/seasonStart/third"
+msgstr "Сезон Нефритового дракона начнётся %(date)s"
+
+msgid "mode/comp7/warning"
+msgstr "Ранговая неактивность: %(count)s"
+
+msgid "mode/comp7/widgetDescription/qualification"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Завершите %(maxBattlesCount)s бой\nдля прохождения квалификации."
+msgstr[1] "Завершите %(maxBattlesCount)s боя\nдля прохождения квалификации."
+msgstr[2] "Завершите %(maxBattlesCount)s боёв\nдля прохождения квалификации."
+
+msgid "mode/comp7/widgetDescription/status"
+msgstr "%(rank)s\n%(division)s"
+
+msgid "mode/comp7/yearEnd"
+msgstr "Год Дракона завершился"

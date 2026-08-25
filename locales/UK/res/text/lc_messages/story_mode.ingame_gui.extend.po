@@ -1,0 +1,41 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/recon/startVehicle"
+msgstr "Повертається до машини..."
+
+msgid "abilities/recon/stopVehicle"
+msgstr "Залишає машину..."
+
+msgid "player_errors/ability/on_cooldown"
+msgstr "Недоступно. Здібність [«%(name)s»] відновлюється."
+
+msgid "player_errors/ability/other_ability"
+msgstr "Не можна використати: здібність [«%(name)s»] вже активна."
+
+msgid "player_errors/ability/unable_fire"
+msgstr "Не можна вести вогонь: здібність [«%(name)s»] активна."
+
+msgid "player_errors/ability/unable_move"
+msgstr "Не можна рухатися: здібність [«%(name)s»] активна."
+
+msgid "player_messages/BUNKER_DESTROYED"
+msgstr "Береговий бункер знищений."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BATTLESHIP"
+msgstr "Лінкор готовий до залпу."
+
+msgid "player_messages/DISTRACTION_ABILITY"
+msgstr "Здібність «Хибний наказ» готова до використання."
+
+msgid "player_messages/RECON_ABILITY"
+msgstr "Здібність «Розвідка» готова до використання."
+
+msgid "player_messages/SCC_AIRSTRIKE_ABILITY"
+msgstr "Здібність «Авіаудар» готова до використання."
+
+msgid "postmortem_messages/DEATH_FROM_BOT"
+msgstr "Машину знищено вогнем супротивника."
+
+msgid "postmortem_messages/DEATH_FROM_BUNKER"
+msgstr "Машину знищено пострілом із прибережного бункера."

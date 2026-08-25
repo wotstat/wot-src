@@ -1,0 +1,602 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleControls/casseteReload"
+msgstr "Lataa ammuskasetti"
+
+msgid "battleControls/closeBtnLabel"
+msgstr "SULJE"
+
+msgid "battleControls/cruiseCtrlBackward"
+msgstr "Liiku taaksepäin \"vakionopeudensäädin\" tilassa"
+
+msgid "battleControls/cruiseCtrlForward"
+msgstr "Liiku eteenpäin \"vakionopeudensäädin\" tilassa"
+
+msgid "battleControls/disableLockTarget"
+msgstr "Poista \"automaattitähtäys\" käytöstä"
+
+msgid "battleControls/fire"
+msgstr "Laukaise"
+
+msgid "battleControls/hideInterface"
+msgstr "Piilota/näytä käyttöliittymä"
+
+msgid "battleControls/hideMinimap"
+msgstr "Piilota/näytä kartta"
+
+msgid "battleControls/makeScreenshort"
+msgstr "Kaappaa kuva ruudusta kansioon"
+
+msgid "battleControls/movementBackward"
+msgstr "Liiku taaksepäin"
+
+msgid "battleControls/movementForward"
+msgstr "Liiku eteenpäin"
+
+msgid "battleControls/movementLeft"
+msgstr "Käänny/liiku vasemmalle"
+
+msgid "battleControls/movementRight"
+msgstr "Käänny/liiku oikealle"
+
+msgid "battleControls/pageTitle"
+msgstr "YLEISTIETOA"
+
+msgid "battleControls/showCursor"
+msgstr "Näytä kursori"
+
+msgid "battleControls/showCursor/ext"
+msgstr "(kartalle, pelaajalistalle, jne.)"
+
+msgid "battleControls/showExPlayerInfo"
+msgstr "Näytä vaihtoehtoiset merkit"
+
+msgid "battleControls/stopFire"
+msgstr "Pysähdy ja laukaise"
+
+msgid "battleControls/switchAutorotation"
+msgstr "Lukitse runko / Vaihda tilaa"
+
+msgid "battleControls/title"
+msgstr "Taistelutila"
+
+msgid "battleControls/toggleAFL"
+msgstr "Ota käyttöön/poista käytöstä panssarin osoitin"
+
+msgid "battleControls/toggleAFL/ext"
+msgstr "saatavilla vain tarkka-ampujatilasta"
+
+msgid "battleControls/toggleLockTarget"
+msgstr "Aktivoi/poista käytöstä \"automaattitähtäys\""
+
+msgid "battleControls/toggleLockTarget/ext"
+msgstr "(tähtäin kohteen päällä)"
+
+msgid "battleControls/togglePlayerPanelModes"
+msgstr "Näytä/piilota joukkuelistat"
+
+msgid "battleControls/togglePlayerPanelModes/ext"
+msgstr "tai kehu takaisin"
+
+msgid "battleControls/toggleSniperMode"
+msgstr "Aktivoi/poista käytöstä \"tarkka-ampuja\" -tila"
+
+msgid "battleControls/toggleSniperMode/ext"
+msgstr "tai \"tykistö\" -tila"
+
+msgid "battleControls/voiceChatMute"
+msgstr "Aktivoi äänikeskustelu"
+
+msgid "chatControls/change"
+msgstr "Joukkueelle / osastolle"
+
+msgid "chatControls/enterToChatMode"
+msgstr "Aktivoi \"chat\" -tila"
+
+msgid "chatControls/exitFromChatMode"
+msgstr "Poistu \"chat\" -tilasta"
+
+msgid "chatControls/send"
+msgstr "Lähetä viesti"
+
+msgid "chatControls/title"
+msgstr "Chat-tila"
+
+msgid "crosshairControls/ammoNumber"
+msgstr "Ammuksia jäljellä"
+
+msgid "crosshairControls/damageIndicator"
+msgstr "Tulituksen suunta"
+
+msgid "crosshairControls/dispercion"
+msgstr "Hajonta"
+
+msgid "crosshairControls/example/damage"
+msgstr "-248"
+
+msgid "crosshairControls/example/hp"
+msgstr "375/720"
+
+msgid "crosshairControls/example/name"
+msgstr "T-34-85"
+
+msgid "crosshairControls/gunMarker"
+msgstr "Tykin sijainti"
+
+msgid "crosshairControls/healthPlayer"
+msgstr "Pelaajan osumapisteet"
+
+msgid "crosshairControls/hpIndicator"
+msgstr "Kestävyysmittari"
+
+msgid "crosshairControls/hpValues"
+msgstr "Kohteen osumapisteet (%/HP jäljellä/kaikkiaan)"
+
+msgid "crosshairControls/marker"
+msgstr "Tähtäyspiste"
+
+msgid "crosshairControls/reloadIndicator"
+msgstr "Tykin lataus"
+
+msgid "crosshairControls/reloadTimer"
+msgstr "Tykin latausaika, sekunteina"
+
+msgid "crosshairControls/targetClass"
+msgstr "Vaunutyypin merkki"
+
+msgid "crosshairControls/targetDistance"
+msgstr "Etäisyys kohteeseen"
+
+msgid "crosshairControls/targetIcon"
+msgstr "Vaunun ikoni"
+
+msgid "crosshairControls/targetLevel"
+msgstr "Vaunun taso"
+
+msgid "crosshairControls/targetName"
+msgstr "Vaunun malli / pelaajan nimi"
+
+msgid "crosshairControls/title"
+msgstr "Tykin ja tähtäimen osoittimet"
+
+msgid "detailsHelp/default/title"
+msgstr "Ohje"
+
+msgid "detailsHelp/devMaps/headerTitle"
+msgstr "Kartan ominaisuudet"
+
+msgid "detailsHelp/devMaps/markers/description"
+msgstr "Satunnaistapahtuman sijainti merkitään\nkartalle savulla ja pienoiskartalle merkillä.\nSatunnaistapahtumia sisältävät kartat voi poistaa kierrosta asetusten \"Peli\" -välilehdeltä."
+
+msgid "detailsHelp/devMaps/title"
+msgstr "Kartat satunnaistapahtumilla"
+
+msgid "detailsHelp/devMaps/zone/description"
+msgstr "Vaunusi voi tuhoutua satunnaistapahtuman alueella (esimerkiksi lentokoneen maahansyöksyn aikana).\nSatunnaistapahtumia sisältävät kartat voi poistaa kierrosta asetusten \"Peli\" -välilehdeltä."
+
+msgid "detailsHelp/dualGun/quick_fire"
+msgstr "Tällä ampumajärjestelmällä varustetut vaunut vaihtavat tykkejä ammuttaessa. Ammuttu tykki aloittaa lataamisen automaattisesti ja toisen ladatun tykin pitää odottaa pieni hetki."
+
+msgid "detailsHelp/dualGun/quick_fire/title"
+msgstr "Sarjatuli"
+
+msgid "detailsHelp/dualGun/volley_fire"
+msgstr "Kaksipiippuisilla tykeillä varustetut vaunut saavat erityisen \"Yhteislaukaus\" -tulitusmekaniikan, joka aktivoidaan pitämällä pohjassa määritettyä näppäintä. Ammukset lentävät rinnakkain. Tätä kontrolloivaa näppäintä voidaan vaihtaa asetuksista."
+
+msgid "detailsHelp/dualGun/volley_fire/title"
+msgstr "Yhteislaukaus"
+
+msgid "detailsHelp/engineMode/engineModePage1"
+msgstr "Voit vaihtaa moottorin tilaa taktiseen tilanteeseen sopivaksi. Moottorin tilan vaihtaminen edellyttää täydellistä pysähtymistä ja vie tietyn aikaa, joka ei riipu moduulin kunnosta."
+
+msgid "detailsHelp/engineMode/engineModePage1/title"
+msgstr "Uudet liikkumismekaniikat"
+
+msgid "detailsHelp/engineMode/engineModePage2"
+msgstr "Turboahdettu tila lisää moottorin tehoa, nopeutta eteen- ja taaksepäin. Tämä tila tekee vaunustasi kuitenkin näkyvämmän, heikentää tykin vakautta ja kasvattaa tähtäysaikaa."
+
+msgid "detailsHelp/engineMode/engineModePage2/title"
+msgstr "Hyödyt ja haitat"
+
+msgid "detailsHelp/mapbox/headerTitle"
+msgstr "Kartan ominaisuudet"
+
+msgid "detailsHelp/mapbox/localWeather/description"
+msgstr "Paikallisen sääalueen sisällä olevat vaunut eivät voi havaita alueen ulkopuolella olevia vaunuja ja sama päinvastoin. Myös vihollisvaunujen sijaintitietojen vaihtaminen alueen ulkopuolelle on mahdotonta. Tulipalo vahingoittaa vaunuja."
+
+msgid "detailsHelp/mapbox/localWeather/title"
+msgstr "Paikallinen sää"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/description"
+msgstr "Paikallaan tai tiettyä nopeutta hitaampana pysytteleminen mahdollistaa vaunullesi sen analogisen ballistisen laskentalaitteen kalibroinnin ja tarkkuustasojen kerryttämisen.\nKukin taso parantaa seuraavan laukauksesi tarkkuutta ja poistetaan ammuttaessa."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/title"
+msgstr "Analoginen ballistinen laskentalaite"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/description"
+msgstr "Täydellä kalibraatiolla vaunusi saavuttaa korkeimman tarkkuustason ja saavuttaa kelpo tykin vakauden pienennetyllä hajonnalla liikkeessä tai tornia/runkoa käännettäessä.\nVaikutus poistetaan ammuttaessa."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/title"
+msgstr "Täysi kalibraatio"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/description"
+msgstr "Automaattinen tuliase, jolla on äärimmäisen suuri tulinopeus. Tulituksen tehokkuus näytetään tähtäysympyrän osoittimella."
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/title"
+msgstr "Konetykki"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/description"
+msgstr "Tämä tykki voi ampua jatkuvasti ilman tarvetta ladata välissä. Jokainen laukaus tuottaa lämpöä ja jatkuva tulitus saa tykin ylikuumenemaan, joka estää ampumisen, kunnes tykki on taas jäähtynyt."
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
+msgstr "Ylikuumenemista hallinnoiva konetykki"
+
+msgid "detailsHelp/mechanics/battleFury/page1/description"
+msgstr "Joka kerta osuessasi viholliseen ammuksella saat latauksen tehokkuustason, joka parantaa hetkellisesti tykkisi latausnopeutta. Tasoja kertyy jokaisesta osumasta.\nVihollisvaunun tuhoaminen ampumalla tarjoaa lisää lataustehokkuuden tasoja."
+
+msgid "detailsHelp/mechanics/battleFury/page1/title"
+msgstr "Puoliautomaattinen ammusteline"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/description"
+msgstr "Jos tykkisi on ladattu, voit ryhtyä lämmittämään seuraavaa laukaustasi. Mitä korkeamman lämmitystason saavutat, sitä suuremman bonuksen saat keskimääräiseen vahinkoon.\nAloittaaksesi lämmitysprosessi paina:"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/title"
+msgstr "Termoballistinen ylilataus"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/description"
+msgstr "Saavutettuasi korkeimman lämpötason käynnistyy laskuri. Mikäli et ammu ennen sen kulumista loppuun, et voi ampua muutamaan sekuntiin."
+
+msgid "detailsHelp/mechanics/chargeShot/page2/title"
+msgstr "Latauksen ylikuumeneminen"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/description"
+msgstr "Kahden panssarin läpäisevän osuman aikaan saaminen vihollisvaunuihin aktivoi sarjatilan ladaten sarjatulikasetin, joka mahdollistaa kahden ammuksen ampumisen nopeasti peräjälkeen seuraavan kerran liipasinta painettaessa."
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
+msgstr "Sarjatila"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/description"
+msgstr "Pneumaattinen gyrovakaaja tarjoaa lyhyeksi ajaksi parhaan mahdollisen vakauden runkoa ja tornia käännettäessä mahdollistaen tarkemman ampumisen liikkeestä ja nopeat reaktiot yllättäviin uhkiin.\nAktivoidaksesi paina näppäintä:"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/title"
+msgstr "Pneumaattinen gyrovakaaja"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/description"
+msgstr "Jos tykki on jäähtynyt riittävästi ampumisen jälkeen, on sen hajonta pienempi. Toinen pienempi tähtäysrengas ilmestyy määrittämään osuma-aluetta. Tämä vaikutus kestää seuraavan ammuksen ampumiseen asti."
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/title"
+msgstr "Tuplatähtäys"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/description"
+msgstr "Järjestelmä alkaa automaattisesti lataamaan uutta kasettia, kun nykyisessä on jäljellä enää yksi ammus.\nViimeisen ammuksen ampuminen kesken lataamisen lisää muutaman sekunnin jäljellä olevaan latausaikaan."
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/title"
+msgstr "Kasettilatausjärjestelmä"
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/description"
+msgstr "Järjestelmä pitää tykin viileänä ja mahdollistaa tarkan ampumisen. Tykki lämpenee ammuttaessa, mutta alkaa jäähtyä ja paremmat ominaisuudet palaavat lataamisen aikana. Mitä korkeampi sen lämpötila, sitä enemmän sen ominaisuudet muuttuvat."
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/title"
+msgstr "Aktiivinen tykin jäähdytys"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/description"
+msgstr "Vaunu on suunniteltu erityisesti törmäyshyökkäyksiin ja siinä on muokkauksia, jotka auttavat sitä aiheuttamaan enemmän törmäysvahinkoa."
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/title"
+msgstr "Törmäyskokoonpano"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/description"
+msgstr "Tämän vaunun tykin voi ampua ennenaikaisesti: kerran viritetyt laukaukset latauksen aikana ovat tehottomampia, kun täysin viritetyt laukaukset, jotka ammutaan latauksen jälkeen ja joiden ballistiset ominaisuudet ovat optimaaliset."
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/title"
+msgstr "Monipakattu viritysjärjestelmä"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/description"
+msgstr "Paikallaan pysyminen tai tietyn nopeuden alla pysyttely kerryttää esilämmitystä, joka parantaa seuraavan laukauksesi keskimääräistä vahinkoa ja tarkkuutta.\nNopeusrajoituksen ylittäminen alkaa vähitellen vähentää bonusta, kun taas ampuminen tai ammuksen vaihtaminen nollaa sen välittömästi."
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/title"
+msgstr "Lähtöpanoksen lämmönhallintajärjestelmä"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/description"
+msgstr "Suurimmalla esilämmityksen tasolla vihollisen, jolla on vähemmän kestopisteitä kuin keskimääräinen vahinkosi (kertynyt esilämmityksen bonus mukaan lukien), panssarin läpäiseminen johtaa ammustelineen ja siten vaunun välittömään tuhoutumiseen."
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/title"
+msgstr "Ratkaiseva vahinko"
+
+msgid "detailsHelp/mechanics/powerMode/page1/description"
+msgstr "Suoraveto -tila tarjoaa merkittävän lisän moottoritehoosi ja huippunopeuteesi eteenpäin. Mitä pidempään ajat eteenpäin, sitä enemmän vauhtia keräät. Näin pääset vaivatta matkaamaan halki taistelukentän."
+
+msgid "detailsHelp/mechanics/powerMode/page1/title"
+msgstr "Suoraveto"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/description"
+msgstr "Ajan kanssa järjestelmä virittyy ja viritys kuluu osittain tehostamaan vahinkoa ammuttaessa. Mitä korkeampi viritys, sitä suurempi bonus vahinkoon."
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/title"
+msgstr "Lähtöpanoksen induktiojälkipoltin"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/description"
+msgstr "Oletuksena järjestelmä säilyttää viritystä vain tiettyyn rajaan. Rajoittimen poistaminen antaa mahdollisuuden virittää vielä enemmän antaen paljon suuremman vahinkobonuksen, mutta heikentäen tykin käsiteltävyyttä. Vaihtaaksesi rajoittimen asetusta paina:"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/title"
+msgstr "Rajoitin"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/description"
+msgstr "Nestemäisen polttoaineen suihkumoottorit antavat hetkellisesti moottoritehoa mahdollistaen nopean liikkeen taistelukentän halki, mutta samalla ne rajoittavat peruutus- ja kääntönopeutta. Ne voidaan kytkeä pois päältä milloin hyvänsä paitsi kriittisellä lämpötasolla.\nAktivoidaksesi moottorit, paina ja pidä pohjassa:"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/title"
+msgstr "Nestemäisen polttoaineen suihkumoottorit"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/description"
+msgstr "Suihkumoottorit ylikuumenevat aktiivisena ollessaan, kunnes ne saavuttavat kriittisen lämpörajan, jolloin niitä ei voi aktivoida uudelleen ennen niiden jäähtymistä. Suunnittele liikkeesi huolella, ettet jää pulaan niiden takia."
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/title"
+msgstr "Kriittinen lämpötaso"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/description"
+msgstr "Käytä suihkumoottoreita parantamaan vaunun liikkuvuutta. Sen ansiosta voit päästä nopeammin hyviin asemiin tai vaaralta pakoon vikkelämmin. Suihkumoottorit voi aktivoida tietyksi ajaksi ja aktivointikertoja per taistelu on rajallinen määrä. Niitä ei voi deaktivoida tai tuhota."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/title"
+msgstr "Suihkumoottorit"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/description"
+msgstr "Aktivoitaessa suihkumoottorit lisäävät moottoritehoa ja huippunopeutta eteenpäin kuljettaessa. Vaunusta tulee kuitenkin vaikeammin ohjattava ja sen peruutusnopeus heikkenee."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
+msgstr "Hyödyt ja haitat"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
+msgstr "Kiinteällä polttoaineella toimivat suihkumoottorit, jotka tehostavat kiihtyvyyttä, liikettä ja ohjattavuutta muutaman sekunnin ajan. Vasen ja oikea moottori toimivat toisistaan erillään mahdollistaen nopeamman rungon kääntämisen. Ne eivät myöskään rajoita vaunun ohjattavuutta."
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/title"
+msgstr "Peräkkäiset rakettimoottorit"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/description"
+msgstr "Tältä vaunulta löytyy kaksi tilaa – turbo ja taistelu –, joiden välillä voidaan vaihtaa milloin hyvänsä. Taktinen voimanlähde kerryttää energiaa aktiiviseen tilaan.\nVaihtaaksesi tilojen välillä paina:"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/title"
+msgstr "Kaksi tilaa"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/description"
+msgstr "Tilan kyky tulee saataville, kun taktinen voimanlähde on täysin ladattu. Tämän kyvyn aktivoiminen kuluttaa kaiken kertyneen energian ja tarjoaa hetkellisesti merkittäviä bonuksia.\nAktivoidaksesi ainutlaatuisen tilan kyvyn paina:"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/title"
+msgstr "Tilan kyvyt"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/description"
+msgstr "Ulkoinen ammusten täydennysmoduuli antaa sinulle mahdollisuuden keskeyttää lataamisen ja ampua milloin hyvänsä, kunhan sinulla on yksi ammus ladattuna. Keskeyttääksesi latausprosessin tai jatkaaksesi sitä paina:"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/title"
+msgstr "Ulkoinen ammusten täydennysmoduuli"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/description"
+msgstr "Lataamisen aikana moduuli lukitsee vaunun tornin ja ulkoisen ammusvarastot estäen sinua hetkellisesti tähtäämästä tai ampumasta ellet keskeytä sitä."
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/title"
+msgstr "Ulkoinen ammusten täydennysmoduuli"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/description"
+msgstr "Tämä vaunu on varustettu lajitelmalla apuaseita, joiden lataussykli on päätykistä erillinen, joka mahdollistaa lisävahingon aiheuttamisen ratkaisevilla hetkillä. Aktivoidaksesi apuaseistuksen paina:"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/title"
+msgstr "Apuaseistus"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/description"
+msgstr "Kohteen laserosoitin lisää seuraavaan laukaukseesi erikoisvaikutuksen, joka tulee mihin hyvänsä viholliseen, johon osut. Vaikutus riippuu siitä, oliko vihollinen havaittuna osumahetkellä.\nAktivoidaksesi kohteen laserosoittimen paina:"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/title"
+msgstr "Kohteen laserosoitin"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/description"
+msgstr "Havaittuun vihollisvaunuun osuminen merkitsee sen pidentäen aikaa, jonka se pysyy havaittuna, ja kasvattaa sen ammuksista kärsimää vahinkoa.\nHavaitsemattomaan viholliseen osuminen puolestaan korostaa sen sijainnin erikoismerkillä."
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/title"
+msgstr "Kohteen osoitus"
+
+msgid "detailsHelp/mechanics/twinGun/page1/description"
+msgstr "Voit vaihtaa ampumatilaa kertalaukauksesta yhteislaukaukseen taistelukentän taktisesta tilanteesta riippuen."
+
+msgid "detailsHelp/mechanics/twinGun/page1/title"
+msgstr "Ampumatilan vaihtamismekaniikka"
+
+msgid "detailsHelp/mechanics/twinGun/page2/description"
+msgstr "Yhteislaukaus tuplaa sekä vahingon että latausajan ja vaunusi hajonta heikkenee 100 m* etäisyydellä."
+
+msgid "detailsHelp/mechanics/twinGun/page2/title"
+msgstr "Hyödyt ja haitat"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/description"
+msgstr "Tämä mekaaninen muokkaus antaa vaunulle lyhyeksi ajaksi merkittävästi lisää moottoritehoa, huippunopeutta eteen- ja taaksepäin sekä kiihtyvyyttä eteen- ja taaksepäin. Suuren liikenopeuden ylläpitäminen nopeuttaa sen jäähtymistä."
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/title"
+msgstr "Korkeapaineinen turboahtimen tehostin"
+
+msgid "detailsHelp/noKeysWarning"
+msgstr "Tärkeimpiä näppäimiä ei ole määritetty. Määritä ne pelin asetuksissa."
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1"
+msgstr "Tässä tilassa tykin tarkkuus, latausnopeus ja ylä-/alakoro paranevat dramaattisesti, mutta liikkuvuus (eteen- ja taaksepäin kuin myös vertikaalinen ja horisontaalinen kääntönopeus) rajoittuu merkittävästi. Aktivoidaksesi tilan %(pressAndHold)s näppäintä:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/pressAndHold"
+msgstr "paina ja pidä pohjassa"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/title"
+msgstr "Bunkkeritila"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2"
+msgstr "Tässä tilassa tykin tarkkuus, latausnopeus ja ylä-/alakoro paranevat, mutta liikkuvuus (eteen- ja taaksepäin) heikkenee. Aktivoidaksesi tilan paina näppäintä:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2/title"
+msgstr "Piiritystila"
+
+msgid "detailsHelp/role/description"
+msgstr "Saat bonusta seuraavien rooliin liittyvien toimien suorittamisesta:"
+
+msgid "detailsHelp/role/title"
+msgstr "Vaunun rooli taistelussa"
+
+msgid "detailsHelp/trackWithinTrack/description"
+msgstr "Mahdollistaa liikkuvuuden osittaisen säilyttämisen päätelan tuhoutuessa."
+
+msgid "detailsHelp/trackWithinTrack/title"
+msgstr "Varatela"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique"
+msgstr "Ranskalaiset kevyet pyörälliset ajoneuvot ovat mitä nopeimpia ja liikkuvimpia, mutta niiden näkökyky on keskinkertainen. Paikallaan oleva panssariauto ei voi kääntyä."
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique/title"
+msgstr "Summa"
+
+msgid "detailsHelp/wheeledVeh/burnout"
+msgstr "Paina ja pidä pohjassa %(key2)s ja %(key1)s näppäimiä yhtä aikaa. Tehopalkin taso vaikuttaa tehostimen vaikutukseen. Päästä %(key1)s aktivoidaksesi tehostin tai päästä %(key2)s peruuttaaksesi tehostimen käyttö. Tehostin kiihdyttää nopeasti ja sitä voi käyttää odottamattomissa hyökkäyksissä ja harhautuksissa. Huomio! Tehostin voidaan käyttää vain ajoneuvon pysähdyttyä kokonaan. Tehostimen aktivointi vahingoittaa ajoneuvosi moottoria."
+
+msgid "detailsHelp/wheeledVeh/burnout/title"
+msgstr "Tehostin"
+
+msgid "detailsHelp/wheeledVeh/stableChassis"
+msgstr "Pyörälliset ajoneuvot ottavat vähemmän vahinkoa laskeutuessaan pyörilleen. Nämä eivät pysähdy yhden pyörän tuhoutumessa. Mitä enemmän pyöriä tuhoutuu, sitä enemmän nopeus ja vaunun ohjattavuus kärsivät. Pyörällisiä ajoneuvoja on vaikeampi pysäyttää, sillä tuhoutuneet pyörät korjautuvat täysin tietyn ajan jälkeen."
+
+msgid "detailsHelp/wheeledVeh/stableChassis/title"
+msgstr "Kestävä jousitus"
+
+msgid "detailsHelp/wheeledVeh/twoModes"
+msgstr "Paina %(key1)s vaihtaaksesi liiketapaa. Vaunu käyttäytyy eri tavoin ja sen nopeus ja liikeominaisuudet ovat erilaiset eri tavoilla."
+
+msgid "detailsHelp/wheeledVeh/twoModes/title"
+msgstr "Kaksi liikkumistapaa"
+
+msgid "markerColors/enemy"
+msgstr "Vihollinen"
+
+msgid "markerColors/friend"
+msgstr "Liittolainen"
+
+msgid "markerColors/squadPlayer"
+msgstr "Osastokaveri"
+
+msgid "markerColors/teamKiller"
+msgstr "Omien tappaja"
+
+msgid "markerColors/title"
+msgstr "Merkkien värit:"
+
+msgid "markerMarks/attack"
+msgstr "Hyökkään"
+
+msgid "markerMarks/follow"
+msgstr "Seuratkaa minua!"
+
+msgid "markerMarks/help"
+msgstr "Apua!"
+
+msgid "markerMarks/target/sau"
+msgstr "Telatykin kohde"
+
+msgid "markerMarks/target/tank"
+msgstr "Vaunun kohde"
+
+msgid "markerMarks/title"
+msgstr "Merkit pienoiskartalla:"
+
+msgid "radialMenu/ally_hq_defend_command"
+msgstr "Puolusta!"
+
+msgid "radialMenu/ally_hq_defend_commit"
+msgstr "Minä puolustan!"
+
+msgid "radialMenu/attackAreaSPG"
+msgstr "Tähtään tänne!"
+
+msgid "radialMenu/attack_enemy"
+msgstr "Tarvitsen tulitukea!"
+
+msgid "radialMenu/attack_enemy_with_SPG"
+msgstr "Hyökkään kohteeseen!"
+
+msgid "radialMenu/attacking_base"
+msgstr "Minä valtaan!"
+
+msgid "radialMenu/attacking_enemy"
+msgstr "Hyökkään kohteeseen!"
+
+msgid "radialMenu/attention_to_base_atk"
+msgstr "Valtaa!"
+
+msgid "radialMenu/attention_to_base_def"
+msgstr "Puolusta!"
+
+msgid "radialMenu/attention_to_position"
+msgstr "Huomio sijaintiin!"
+
+msgid "radialMenu/cancel_reply"
+msgstr "Kieltäydy"
+
+msgid "radialMenu/defending_base"
+msgstr "Puolustan!"
+
+msgid "radialMenu/enemy_hq_attack_command"
+msgstr "Hyökkäykseen!"
+
+msgid "radialMenu/enemy_hq_attack_commit"
+msgstr "Hyökkään!"
+
+msgid "radialMenu/going_there"
+msgstr "Ajan sijaintiin!"
+
+msgid "radialMenu/helpMe"
+msgstr "Apua!"
+
+msgid "radialMenu/helpMeEx"
+msgstr "Tarvitsen apua!"
+
+msgid "radialMenu/overheated_gun"
+msgstr "Ylikuumentunut!"
+
+msgid "radialMenu/positive"
+msgstr "Selvä!"
+
+msgid "radialMenu/reloadingGun"
+msgstr "Lataan!"
+
+msgid "radialMenu/reply_to_player"
+msgstr "Vahvistettu!"
+
+msgid "radialMenu/supporting_ally"
+msgstr "Autan sinua!"
+
+msgid "radialMenu/thanks"
+msgstr "Kiitos!"
+
+msgid "radialMenu/turn_back"
+msgstr "Peräänny!"
+
+msgid "returnToGame"
+msgstr "Esc — palaa taisteluun"
+
+msgid "roleDescription/msg"
+msgstr "Saat bonusta seuraavien rooliin liittyvien toimien suorittamisesta:"
+
+msgid "settings/button"
+msgstr "Asetukset"
+
+msgid "settings/help"
+msgstr "Nähdäksesi ja muokataksesi pelin ohjainasetuksia, klikkaa \"Asetukset\"."
+
+msgid "teamComm/highlightAsActiveTarget"
+msgstr "Osoita aktiivinen kohde"
+
+msgid "teamComm/highlightLocation"
+msgstr "Osoita sijainti"
+
+msgid "teamComm/show"
+msgstr "Näytä komentovalikko"
+
+msgid "teamComm/show/ext"
+msgstr "(komentojen lista riippuu kohteesta)"
+
+msgid "teamComm/title"
+msgstr "Joukkueen viestintä"
+
+msgid "vehicleTypes/title"
+msgstr "Vaunujen merkit"

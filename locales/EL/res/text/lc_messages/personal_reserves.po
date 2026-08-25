@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Ενεργοποίηση"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Αγορά & Ενεργοποίηση"
+
+msgid "activation/activateBonus"
+msgstr "Ενεργοποίηση Αποθέματος: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Ενεργοποίηση"
+
+msgid "activation/activateButtonClan"
+msgstr "Στο Οχυρό"
+
+msgid "activation/battleXPDescription"
+msgstr "Μπόνους στα Combat XP για 1 h"
+
+msgid "activation/battleXPTitle"
+msgstr "Combat XP"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Αγορά και ενεργοποίηση του Αναβαθμισμένου Προσωπικού Αποθέματος που παρέχει %(boosterBonus)s στα %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Αγορά Gold"
+
+msgid "activation/buyGoldTitle"
+msgstr "Αγορά του απαιτούμενου gold για το Αναβαθμισμένο Προσωπικό Απόθεμα που παρέχει %(boosterBonus)s στα %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Απαιτείται gold για την αγορά του Αναβαθμισμένου Προσωπικού Αποθέματος:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Credits & Combat XP"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "Crew XP & Free XP"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Αποθέματα του Clan"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Ενεργοποίηση Αποθεμάτων στο Οχυρό"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Προβολή στο Οχυρό"
+
+msgid "activation/comboXPDescription"
+msgstr "Μπόνους στα Free & Crew XP για 1 h"
+
+msgid "activation/comboXPTitle"
+msgstr "Free & Crew XP"
+
+msgid "activation/creditsDescription"
+msgstr "Μπόνους στα credits για 1 h"
+
+msgid "activation/creditsTitle"
+msgstr "Credits"
+
+msgid "activation/footer"
+msgstr "Αποθέματα με χρονικό όριο που πρέπει να ενεργοποιηθούν: %(expirableAmount) σε %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Μπόνους στα Frontline XP για 1 h"
+
+msgid "activation/frontLineXPTitle"
+msgstr "Frontline XP"
+
+msgid "activation/informationButton"
+msgstr "ΠΛΗΡΟΦΟΡΙΕΣ"
+
+msgid "activation/price"
+msgstr "Κόστος:"
+
+msgid "activation/subFooter/depot"
+msgstr "Αποθήκη"
+
+msgid "activation/subFooter/main"
+msgstr "Τα Αποθέματα που κοντεύουν να λήξουν ενεργοποιούνται κατά προτεραιότητα. Δείτε όλα τα διαθέσιμα Αποθέματα στην %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Ενεργοποιήστε {whiteSpanish_Open}μέχρι και 3 Προσωπικά Αποθέματα{whiteSpanish_Close} για να κερδίζετε περισσότερα credits και XP από την κάθε μάχη. Αγοράστε περισσότερα Προσωπικά Αποθέματα από τον %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "Εφοδιασμό"
+
+msgid "activation/terms/booster_credits"
+msgstr "credits"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "Frontline XP"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "Free & Crew XP"
+
+msgid "activation/terms/booster_xp"
+msgstr "Combat XP"
+
+msgid "activation/title"
+msgstr "ΠΡΟΣΩΠΙΚΑ ΑΠΟΘΕΜΑΤΑ"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Το ενεργοποιημένο Βασικό Προσωπικό Απόθεμα που σας παρέχει %(previousBoosterBonus)s στα %(previousBoosterTerm)s θα χαθεί.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Θέλετε να ενεργοποιήσετε το Αναβαθμισμένο Προσωπικό Απόθεμα που παρέχει %(boosterBonus)s στα %(boosterTerm)s αντί του ενεργοποιημένου Βασικού Προσωπικού Αποθέματος?"
+
+msgid "battleView/notice"
+msgstr "Τα Προσωπικά Αποθέματα μπορούν να ενεργοποιηθούν ανά πάσα στιγμή μέσα στη μάχη. Λαμβάνετε το μπόνους από ένα ενεργοποιημένο Προσωπικό Απόθεμα ακόμη και αν αυτό λήξει μέσα στη μάχη."
+
+msgid "battleView/title"
+msgstr "Ενεργοποίηση Προσωπικών Αποθεμάτων"
+
+msgid "depot/buyButton"
+msgstr "Αγορά"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Απόθεμα του ίδιου τύπου έχει ήδη ενεργοποιηθεί."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Το συγκεκριμένο Προσωπικό Απόθεμα έληξε μέσα στη μάχη. Το μπόνους από αυτό το Προσωπικό Απόθεμα ισχύει γι αυτήν τη μάχη."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft) min"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Τα ενεργοποιημένα Προσωπικά Αποθέματα δεν δίνουν μπόνους σε αυτό το είδος μάχης."
+
+msgid "intro/buttons/close"
+msgstr "Θετικό!"
+
+msgid "intro/buttons/details"
+msgstr "Λεπτομέρειες"
+
+msgid "intro/description"
+msgstr "Τα Προσωπικά Αποθέματα με χρονικό όριο είναι διαθέσιμα για συγκεκριμένο χρονικό διάστημα μετά την απονομή τους. Μόλις λήξει η διορία χρήσης τους, θα διαγραφούν οριστικά. Τα αντίστοιχα Προσωπικά Αποθέματα χωρίς χρονικό περιορισμό δεν μπορούν να χρησιμοποιηθούν όσο έχετε στην κατοχή σας Προσωπικά Αποθέματα με χρονικό όριο."
+
+msgid "intro/title"
+msgstr "ΠΡΟΣΩΠΙΚΑ ΑΠΟΘΕΜΑΤΑ ΜΕ ΧΡΟΝΙΚΟ ΟΡΙΟ"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Δεν έχετε Προσωπικά Αποθέματα αυτού του τύπου. Μπορείτε να τα αγοράσετε αργότερα και να τα ενεργοποιήσετε στο Γκαράζ σας."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Κερδίστε Προσωπικά Αποθέματα από την ολοκλήρωση αποστολών και τη συμμετοχή σε διοργανώσεις του παιχνιδιού."
+
+msgid "noReserveTooltip/text"
+msgstr "Δεν έχετε Προσωπικά Αποθέματα αυτού του τύπου."

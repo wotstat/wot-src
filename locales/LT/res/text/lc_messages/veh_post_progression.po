@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "šaunamoji galia"
+
+msgid "categories/mobility"
+msgstr "mobilumas"
+
+msgid "categories/stealth"
+msgstr "žvalgyba"
+
+msgid "categories/survivability"
+msgstr "atsparumas"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "Taip tikrai!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "Nepritariu!"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "Atšaukus visas modifikacijas, jas vėl galėsite nusipirkti už kreditus."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "Atšaukus visas modifikacijas, jas vėl galėsite nusipirkti."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "Atšaukti visas Dvigubas modifikacijas nemokamai?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "Atšaukus modifikaciją, ją vėl galėsite nusipirkti už kreditus."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "Atšaukus modifikaciją, ją vėl galėsite nusipirkti."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "Atšaukti %(modification)s Dvigubą modifikaciją nemokamai?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "MODIFIKACIJŲ PIRKIMAS"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "PASIRINKITE VIETOS KATEGORIJĄ"
+
+msgid "hint/entryPoint"
+msgstr "PASIEKIAMOS MODIFIKACIJOS"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "PASPAUSKITE NORĖDAMI PERSIJUNGTI Į\nPAGALBINĮ IŠDĖSTYMĄ"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "PASPAUSKITE NORĖDAMI PERSIJUNGTI Į\nPAGRINDINĮ IŠDĖSTYMĄ"
+
+msgid "hint/vehiclePreview"
+msgstr "MAŠINOS CHARAKTERISTIKŲ PASIKEITIMAS"
+
+msgid "postProgressionIntro/okButton"
+msgstr "Taip tikrai!"
+
+msgid "postProgressionIntro/title"
+msgstr "PAPILDOMA MODIFIKACIJA"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "Speciali modifikacija %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "Paspauskite norėdami pamatyti mašinos charakteristikų pasikeitimus pasiekus lygį ir paryškinti pritaikytas modifikacijas."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "Dviguba modifikacija %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "Papildomos modifikacijos lygis"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "Pasiekiama nusipirkus mašiną"
+
+msgid "researchEntry/status/notResearched"
+msgstr "Pasiekiama gavus Elitinį statusą"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "Pasiekiama nusipirkus mašiną ir gavus Elitinį statusą"
+
+msgid "researchEntry/title"
+msgstr "PAPILDOMA MODIFIKACIJA"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "Pakelti"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "Atšaukti"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} ir {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "Pagalbinis išdėstymas"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "Vieta"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "Pagrindinis išdėstymas"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "Specialias modifikacijas: {name1} ir {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "Specialias modifikacijas: {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "Specialią modifikaciją: {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "Specialias modifikacijas: {name1}, {name2} ir {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "{numbers} lygio Dvigubas modifikacijas"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "{number} lygio Dvigubą modifikaciją"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "Pasieksite: {unlockedItems}."
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "Pakelti Standartinės modifikacijos lygį iki {level}?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "Pakelti Standartinės modifikacijos lygį?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "Viso:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "Priskyrimas"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "Galimos kategorijos: %(roles)."
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "Pasirinkta kategorija: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "Galimybė priskirti kategoriją antrai įrangos vietai šioje mašinoje."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "Pirmos vietos kategorijos priskyrimas"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "Priskyrimas (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "Antros vietos kategorija"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "Priskirti"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "Nupirkti ir iš naujo priskirti"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "Keisti"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "Atšaukti"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "Jūs galite iš naujo priskirti kategoriją vietai už %(price)"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "Pasirinkta kategorija bus priskirta antrai įrangos vietai. Jūs galite iš naujos priskirti kategoriją už %(price)"
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "Keitimo kursas: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "Keitimas nepavyko: trūksta %(gold)"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "Priskirti kategoriją antrai įrangos vietai"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "Iš naujo priskirti kategoriją antrai įrangos vietai"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "Nepavyko iš naujo priskirti kategorijos antrai įrangos vietai: trūksta %(credits)"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "Viso:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "Galimybė sumontuoti papildomą {cream_Open}ekipuotės{cream_Close} ir {cream_Open}instrukcijų{cream_Close} komplektą."
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "Galimybė sumontuoti papildomą {cream_Open}amunicijos{cream_Close} ir {cream_Open}ekipuotės{cream_Close} komplektą."
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "Pagalbinis išdėstymas"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "Pagrindinis išdėstymas"
+
+msgid "setupTooltipView/tip"
+msgstr "Jūs galite persijungti tarp Pagrindinės ir Alternatyvios mašinos konfigūracijos garaže ir vykstant skaičiavimui prieš mūšį."
+
+msgid "setupTooltipView/title"
+msgstr "Alternatyvi konfigūracija: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)Pagalbinis išdėstymas%(/accent) yra mašinos konfigūracijos dalis, kurioje įtraukiama %(accent)įranga ir instrukcijos%(/accent). Gavus galimybę naudotis Alternatyvia konfigūracija, jūs galėsite %(accent)persijungti tarp Pagalbinio išdėstymo konfigūracijų%(/accent) kol vyksta skaičiavimas prieš mūšį."
+
+msgid "slides/additionalEquipment/title"
+msgstr "PAGALBINIS IŠDĖSTYMAS"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "Pasiekus tam tikrą Papildomos modifikacijos lygį, mašinoje bus galima naudoti %(accent)Alternatyvią konfigūraciją%(/accent), kuri leidžia garaže paruošti %(accent)papildomą įrangos, amunicijos, ekipuotės ir instrukcijų komplektą%(/accent). Šis komplektas nepakeičia naudojamo varianto, bet suteikia naujų galimybių. Jūs galite įvertinti žemėlapį ir komandos sudėti vykstant mūšio pradžios skaičiavimui ir %(accent)pasirinkti vieną iš dviejų%(/accent) mašinos konfigūracijų. Toks pasirinkimas leis geriau prisitaikyti ir pasiruošti artėjančiam mūšiui."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "ALTERNATYVI MAŠINOS KONFIGŪRACIJA"
+
+msgid "slides/baseModifications/description"
+msgstr "%(accent)Standartinės modifikacijos%(/accent) suteikia bonusą %(accent)vienai mašinos charakteristikai%(/accent) ir atrakina Dvigubas modifikacijas. Šias modifikacijas galite įdiegti nemokamai, bet jums reikės kovinės ar laisvosios patirties norint jas išrasti."
+
+msgid "slides/baseModifications/title"
+msgstr "STANDARTINĖS MODIFIKACIJOS"
+
+msgid "slides/extraModification/description"
+msgstr "%(accent)Specialios modifikacijos%(/accent) atrakina mašinos Alternatyvią konfigūraciją ir leidžia %(accent)priskirti kategoriją%(/accent) antrai įrangos vietai (VIII–X lygio mašinoms). Jūs galėsite iš naujo vietai priskirti kategoriją už kreditus."
+
+msgid "slides/extraModification/title"
+msgstr "SPECIALIOS MODIFIKACIJOS: ROLĖS VIETA"
+
+msgid "slides/fieldModernization/description"
+msgstr "Papildoma modifikacija suteikia galimybę subtiliau sukonfigūruoti mašiną, pagal jos rolę būsimame mūšyje ir %(accent)pakeisti jos charakteristikas%(/accent) naudojant įvairias %(accent)modifikacijas%(/accent). Kiekviena nauja modifikacija atrakinama išradus prieš tai buvusią."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "PAPILDOMA MODIFIKACIJA"
+
+msgid "slides/fieldModernization/title"
+msgstr "MAŠINOS CHARAKTERISTIKŲ KEITIMAS"
+
+msgid "slides/modificationTree/description"
+msgstr "Modifikacijų medis pasiekiamas %(accent)VI–X lygio%(/accent) išrandamoms ir kolekcinėms mašinoms, kurios gavo %(accent)Elitinį statusą%(/accent). Specialioms, prizinėms, apdovanojimų ir Premium mašinoms modifikacijos pasiekiamas jas nusipirkus."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "MODIFIKACIJŲ IŠRADIMAS"
+
+msgid "slides/modificationTree/title"
+msgstr "MODIFIKACIJŲ IŠRADIMAS"
+
+msgid "slides/pairedModifications/description"
+msgstr "%(accent)Dvigubos modifikacijos pagerina vieną%(/accent) iš mašinos charakteristikų ir %(accent)sumažina kitą%(/accent). Jums reikia kovinės ar laisvosios patirties jų išradimui ir kreditų jų įdiegimui. Jūs galite %(accent)atšaukti (pašalinti iš mašinos)%(/accent) modifikaciją %(accent)nemokamai%(/accent).\nPardavus mašiną standartinės ir Specialios modifikacijos yra išsaugomos, bet Dvigubos modifikacijos yra atšaukiamos."
+
+msgid "slides/pairedModifications/title"
+msgstr "DVIGUBOS MODIFIKACIJOS"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)Pagrindinis išdėstymas%(/accent) yra mašinos konfigūracijos dalis, kurioje įtraukiama %(accent)amunicija ir ekipuotė%(/accent). Gavus galimybę naudotis Alternatyvia konfigūracija, jūs galėsite %(accent)persijungti tarp Pagrindinio išdėstymo konfigūracijų%(/accent) kol vyksta skaičiavimas prieš mūšį."
+
+msgid "slides/requiredEquipment/title"
+msgstr "PAGRINDINIS IŠDĖSTYMAS"
+
+msgid "slides/roleInBattle/description"
+msgstr "Ne taip kaip mašinos tipas, rolė tiksliau apibūdina optimalią %(accent)mūšio taktiką%(/accent) ir nulemia kaip %(accent)Modifikacijų medis%(/accent) atrodys konkrečiai mašinai."
+
+msgid "slides/roleInBattle/title"
+msgstr "MAŠINOS ROLĖ MŪŠYJE"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "Modifikacijos keičia mašinos charakteristikas, atrakina %(accent)prieigą prie Alternatyvios konfigūracijos%(/accent) ir leidžia priskirti kategoriją %(accent)antrai įrangos vietai%(/accent)."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "Alternatyvi konfigūracija - tai antras %(accent)įrangos, amunicijos, ekipuotės ir instrukcijų%(/accent) komplektas. Jūs galite persijungti tarp konfigūracijų."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "Galimybė pasirinkti ir priskirti kategoriją %(accent)antrai įrangos vietai%(/accent). Tiesiogiai įtakoja mašinos efektyvumą mūšyje."
+
+msgid "slides/specialModifications/title"
+msgstr "MODIFIKACIJOS, ALTERNATYVI KONFIGŪRACIJA IR VIETŲ KATEGORIJOS"
+
+msgid "tooltips/entry_point/description"
+msgstr "Galimybė papildomai keisti mašinos charakteristikas."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "Išrasti moduliai ir mašinos: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "Išrasti moduliai: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "Papildoma modifikacija"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "Pasiekiama nusipirkus mašiną."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "Pasiekiama gavus Elitinį statusą."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "Pasiekiama nusipirkus mašiną ir gavus Elitinį statusą."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "Atsiprašome už laikinus nesklandumus. Pabandykite vėliau."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "Specialios modifikacijos nepasiekiamos"
+
+msgid "tooltips/feature/subTitle"
+msgstr "Speciali modifikacija %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "Uždirbkite juos mūšyje, parduokite nereikalingus daiktus iš Sandėlio arba iškeiskite už auksą."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "Nepakanka kreditų"
+
+msgid "tooltips/pairModification/demount"
+msgstr "Išmontavimas"
+
+msgid "tooltips/pairModification/level"
+msgstr "Dviguba modifikacija %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "Techninių charakteristikų pasikeitimas:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "Išmontavimas (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "Pirkimas (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "Pirkimas"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "Paspauskite norėdami pamatyti mašinos techninių charakteristikų pasikeitimus nusipirkus šią modifikaciją."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "Atšaukę modifikaciją, galėsite nusipirkti bet kurią modifikaciją iš šios poros už kreditus."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "Šios modifikacijos pirkimas automatiškai atšauks vieną jau įdiegtą iš šios poros."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "Nupirkta kita modifikacija"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "Pasiekite %(level) Papildomos modifikacijos lygį, norėdami pasiekti šią modifikaciją"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "Modifikacija nepasiekiama"
+
+msgid "tooltips/priceBlock/free"
+msgstr "Nemokamai"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "reikia:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "Apytikslis skaičius. Tiksli reikšmė nurodyta charakteristikose."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "Panaudoti"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "Atšaukti"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "Atstatyti"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "%(title)s modifikacijos"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "Įtraukti į palyginimą"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "Sunaikinti visas Dvigubas modifikacijas"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "Paspauskite norėdami sunaikinti visas Dvigubas modifikacijas."
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "Sunaikinti"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "Peržiūra"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "Priskirti naujai"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "Prieš mūšį"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "Išsirinkti"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "Įjungti/išjungti galimybę pasirinkti įrangos ir instrukcijų rinkinį vykstant skaičiavimui prieš mūšį.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "Įjungti/išjungti galimybę pasirinkti sviedinių ir ekipuotės rinkinį vykstant skaičiavimui prieš mūšį.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "Išjungus, mūšyje bus naudojamas garaže pasirinktas rinkinys."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "Perjungimas prieš mūšį"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "Mašina yra mūšyje."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "Mašina užrakinta."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "Mašiną reikia suremontuoti."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "Mašina yra formuotėje."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "Negalima priskirti kategorijos vietai: mašinos nėra garaže."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "Baigėsi mašinos nuoma."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "Mašina yra mūšyje."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "Mašina užrakinta."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "Mašiną reikia suremontuoti."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "Mašina yra formuotėje."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "Negalima pirkti. Mašinos nėra garaže."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "Baigėsi mašinos nuoma."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "Paspauskite norėdami sunaikinti Dvigubą modifikaciją."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "Sunaikinti"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "arba"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "Maksimalus Papildomos modifikacijos lygis"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "Pasiekiama {minAllowedLevel}—{maxAllowedLevel} lygio mašinoms"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "Pasiekiama {allowedLevel} lygio mašinoms"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "SLĖPTI CHARAKTERISTIKAS"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "Nuolatinis bonusas: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "Nuolatinis bonusas: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "Nuolatinis bonusas: %(bonus1) ir %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "Pakelkite lygį norėdami gauti nuolatinius bonusus: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "Pakelkite lygį norėdami gauti nuolatinį bonusą: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "Pakelkite lygį norėdami gauti nuolatinius bonusus: %(bonus1) ir %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "Pakelti lygį"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "Pakelti lygį iki %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "Pakelkite lygį ir gaukite:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "Pagerintos charakteristikos"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "Specialios modifikacijos"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "Speciali modifikacija {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "Dvigubos modifikacijos"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "Dviguba modifikacija {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "Į modulius"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "Papildoma modifikacija nepasiekiama. Mašina mūšyje."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "Papildoma modifikacija nepasiekiama. Mašina užrakinta."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "Papildoma modifikacija nepasiekiama. Mašiną reikia suremontuoti."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "Galimybė papildomai pakeisti mašinos charakteristikas taps pasiekiama mašinai gavus Elitinį statusą."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "Papildoma modifikacija nepasiekiama: mašina formuotėje."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "Jūs turite turėti mašiną savo garaže norėdami išrasti modifikacijas ir pakelti Papildomos modifikacijos lygį."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "Papildoma modifikacija negalima išnuomotoms mašinoms. Nusipirkite mašiną norėdami atrakinti Papildomą modifikaciją."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "Papildoma modifikacija nepasiekiama: baigėsi mašinos nuoma. Pratęskite nuomos periodą norėdami atrakinti Papildomą modifikaciją."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "PARODYTI CHARAKTERISTIKAS"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "Galimybė papildomai pakeisti mašinos charakteristikas. Ji bus pasiekiama mašinai gavus Elitinį statusą."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "Papildoma modifikacija"

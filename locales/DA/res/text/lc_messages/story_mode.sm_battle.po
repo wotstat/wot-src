@@ -1,0 +1,671 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-07-20 10:00+0300\nPO-Revision-Date: 2023-07-20 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleResult/reason/1"
+msgstr "Alle fjendtlige køretøjer ødelagt"
+
+msgid "battleResult/reason/11"
+msgstr "Alle mål fuldført"
+
+msgid "battleResult/reason/3"
+msgstr "Kamptid udløbet"
+
+msgid "battleResult/reason/5"
+msgstr "Teknisk nederlag"
+
+msgid "battleResult/reason/8"
+msgstr "Allieret ødelagt"
+
+msgid "battleResult/reason/9"
+msgstr "Dit køretøj ødelagt"
+
+msgid "battleResult/reason/default"
+msgstr "Årsag ukendt"
+
+msgid "battleResult/resultLabel/tie"
+msgstr "KAMPEN ER FORBI"
+
+msgid "battleResult/resultLabel/win"
+msgstr "SEJR!"
+
+msgid "berlin/hint01"
+msgstr "Ødelæg King Tigerens bælter for Storm Petrel"
+
+msgid "berlin/hint02"
+msgstr "Vent og lyt til sergent Brooks"
+
+msgid "berlin/objective01/header"
+msgstr "Søg efter fjendens Wunderwaffe"
+
+msgid "berlin/objective01/subheader"
+msgstr "Ryk forsigtigt frem"
+
+msgid "berlin/objective02/header"
+msgstr "Bliv tilbage!"
+
+msgid "berlin/objective02/subheader"
+msgstr "Følg anvisningerne fra hovedkvarteret"
+
+msgid "berlin/objective03/header"
+msgstr "Søg efter fjendens Wunderwaffe"
+
+msgid "berlin/objective03/subheader"
+msgstr "Ryk forsigtigt frem"
+
+msgid "berlin/objective03/success"
+msgstr "Ruinerne ryddet!"
+
+msgid "berlin/objective04/header"
+msgstr "Vent til sergent Brooks har tilkaldt et bombefly"
+
+msgid "berlin/objective04/subheader"
+msgstr "Forsvar din position!"
+
+msgid "berlin/objective05/header"
+msgstr "Gør det af med fjenderne"
+
+msgid "berlin/objective05/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Ødelæg %d tilbageværende fjende"
+msgstr[1] "Ødelæg %d tilbageværende fjender"
+msgstr[2] "Ødelæg %d tilbageværende fjender"
+
+msgid "berlin/objective05/success"
+msgstr "Bombefly på vej! Gør dig klar!"
+
+msgid "berlin/objective06/header"
+msgstr "Gør jobbet færdigt"
+
+msgid "berlin/objective06/subheader"
+msgstr "Ødelæg Jagdtigerens bælter"
+
+msgid "berlin/objective06/success"
+msgstr "Jagdtiger ødelagt"
+
+msgid "berlin/objective07/header"
+msgstr "Erobr deres Wunderwaffe"
+
+msgid "berlin/objective07/subheader"
+msgstr "Ødelæg den lille mus' bælter"
+
+msgid "berlin/objective07/success"
+msgstr "Lille mus nedkæmpet og fanget!"
+
+msgid "berlin/prebattle/header"
+msgstr "Ryk forsigtigt frem"
+
+msgid "berlin/prebattle/start"
+msgstr "Fortsæt"
+
+msgid "berlin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "berlin/respawn/header"
+msgstr "Stå klar, soldat"
+
+msgid "berlin/respawn/subheader"
+msgstr "Forstærkninger er på vej"
+
+msgid "berlin/respawn_over/header"
+msgstr "Det er forbi"
+
+msgid "berlin/respawn_over/subheader"
+msgstr "Alle tilgængelige køretøjer er blevet ødelagt"
+
+msgid "botNames/Brooks"
+msgstr "Sgt. Brooks"
+
+msgid "botNames/Connolly"
+msgstr "Lt. Arthur Connolly"
+
+msgid "botNames/Dubois"
+msgstr "Kapt. Louis Dubois"
+
+msgid "botNames/McCormick"
+msgstr "Kapt. John McCormick"
+
+msgid "botNames/McLaud"
+msgstr "Alistair MacLeod"
+
+msgid "botNames/Murphy"
+msgstr "Kapt. Jack Murphy"
+
+msgid "botNames/Teddy"
+msgstr "Kapt. Miroslav Kotva"
+
+msgid "botNames/Ulysses"
+msgstr "Kapt. James Corvin"
+
+msgid "bunker"
+msgstr "Kystbunker"
+
+msgid "common/battleBtn"
+msgstr "Kamp!"
+
+msgid "common/continueBtn"
+msgstr "Fortsæt"
+
+msgid "common/loading"
+msgstr "Indlæser"
+
+msgid "common/skipBtn"
+msgstr "Skip"
+
+msgid "confirmExit/exit"
+msgstr "Skip"
+
+msgid "confirmExit/exitRegular"
+msgstr "Forlad"
+
+msgid "confirmExit/stay"
+msgstr "Afbryd"
+
+msgid "confirmExit/title"
+msgstr "Vil du skippe Tiger Hunter-historien?"
+
+msgid "confirmExit/titleRegular"
+msgstr "Vil du forlade historien?"
+
+msgid "dday/hint01"
+msgstr "Find en måde at ødelægge kystbunkerne på"
+
+msgid "dday/hint02"
+msgstr "Brug røgsignaler for at hjælpe slagskibet"
+
+msgid "dday/objective01/header"
+msgstr "Overlev på stranden"
+
+msgid "dday/objective01/subheader"
+msgstr "Undgå for enhver pris fjendens beskydning"
+
+msgid "dday/objective02/header"
+msgstr "Bryd gennem fjendens linjer"
+
+msgid "dday/objective02/subheader"
+msgid_plural "plural/dday/objective02/subheader"
+msgstr[0] "Ødelæg %d kystbunker"
+msgstr[1] "Ødelæg %d kystbunkere"
+msgstr[2] "Ødelæg %d kystbunkere"
+
+msgid "dday/objective02/success"
+msgstr "Alle kystbunkere ødelagt!"
+
+msgid "dday/objective03/header"
+msgstr "Bestig bakken"
+
+msgid "dday/objective03/subheader"
+msgstr "Nå frem til og ødelæg fjendens forsvar i sektor B5"
+
+msgid "dday/objective03/success"
+msgstr "Forsvar ødelagt! Udnyt dette gennembrud!"
+
+msgid "dday/objective04/header"
+msgstr "Hjælp dine allierede med at bryde igennem"
+
+msgid "dday/objective04/subheader"
+msgstr "Neutraliser fjendens forsvar i sektor D6"
+
+msgid "dday/objective04/success"
+msgstr "Vejen ryddet for kaptajn Murphy!"
+
+msgid "dday/objective05/header"
+msgstr "Hjælp kaptajn Dubois"
+
+msgid "dday/objective05/subheader"
+msgstr "Neutraliser fjendens forsvar i sektor H6"
+
+msgid "dday/objective05/success"
+msgstr "Vejen ryddet for kaptajn Dubois!"
+
+msgid "dday/objective06/header"
+msgstr "Beskyt flådestyrkerne"
+
+msgid "dday/objective06/subheader"
+msgid_plural "plural/dday/objective06/subheader"
+msgstr[0] "Ødelæg %d kystbatteri"
+msgstr[1] "Ødelæg %d kystbatterier"
+msgstr[2] "Ødelæg %d kystbatterier"
+
+msgid "dday/objective06/success"
+msgstr "Alle kystbatterier ødelagt!"
+
+msgid "dday/objective07/header"
+msgstr "Ryd op i området"
+
+msgid "dday/objective07/subheader"
+msgid_plural "plural/dday/objective07/subheader"
+msgstr[0] "Ødelæg %d tilbageværende fjende"
+msgstr[1] "Ødelæg %d tilbageværende fjender"
+msgstr[2] "Ødelæg %d tilbageværende fjender"
+
+msgid "dday/objective07/success"
+msgstr "Alle fjender ødelagt!"
+
+msgid "dday/objective08/header"
+msgstr "Hold stand"
+
+msgid "dday/objective08/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Ødelæg %d fjendtligt køretøj"
+msgstr[1] "Ødelæg %d fjendtlige køretøjer"
+msgstr[2] "Ødelæg %d fjendtlige køretøjer"
+
+msgid "dday/objective08/success"
+msgstr "Landgangsområde beskyttet!"
+
+msgid "dday/prebattle/header"
+msgstr "Gør klar til angrebet"
+
+msgid "dday/prebattle/start"
+msgstr "Angrib!"
+
+msgid "dday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "dday/respawn/header"
+msgstr "Stå klar, soldat"
+
+msgid "dday/respawn/subheader"
+msgstr "Forstærkninger er på vej"
+
+msgid "dday/respawn_over/header"
+msgstr "Det er forbi"
+
+msgid "dday/respawn_over/subheader"
+msgstr "Alle tilgængelige køretøjer er blevet ødelagt"
+
+msgid "epilogue/text"
+msgstr "MacLeod: \"I live! Brooks er i live! Han er slemt forbrændt, men han er i live. Selvfølgelig er han det. Han lovede mig en medalje. Du har fået din. Med rette, må jeg sige. Du forkullede nærmest den King Tiger. Nu står vi lige. Det skud på Tigeren, da vi reddede dig, det var rent held. Jeg skød uden at sigte. Se hvordan det gik? Jeg reddede vist mig selv. Og Brooks.\n\nNu kan vi få lidt hvile. Vi har et par dage. Lad os lappe vores kampvogne. Berlin venter.\n\nI øvrigt, den står 7-4 til dig. Men tyskerne har flere Tigere, så vi får se, hvem der løber af med sejren!\""
+
+msgid "epilogue/title"
+msgstr "EPILOG"
+
+msgid "finish/reason/1"
+msgstr "ALLE FJENDTLIGE KØRETØJER ØDELAGT"
+
+msgid "finish/reason/11"
+msgstr "ALLE MÅL FULDFØRT"
+
+msgid "finish/reason/3"
+msgstr "KAMPTID UDLØBET"
+
+msgid "finish/reason/5"
+msgstr "TEKNISK NEDERLAG"
+
+msgid "finish/reason/8"
+msgstr "ALLIERET ØDELAGT"
+
+msgid "finish/reason/9"
+msgstr "DIT KØRETØJ ØDELAGT"
+
+msgid "finish/reason/default"
+msgstr "ÅRSAG UKENDT"
+
+msgid "hint_aim_weak_spots"
+msgstr "En grøn markør indikerer en god chance for at uddele skade"
+
+msgid "hint_move"
+msgstr "Køretøjskontroller"
+
+msgid "hint_move_turret"
+msgstr "Tårn og sigtekontroller"
+
+msgid "hint_shoot"
+msgstr "Sigt på det fjendtlige køretøj og skyd"
+
+msgid "hint_sniper_enter"
+msgstr "Scroll med musehjulet for at gå i skarpskytte tilstand"
+
+msgid "hint_sniper_on_distance_exit"
+msgstr "Scroll med musehjulet for at forlade skarpskytte tilstand"
+
+msgid "hint_sniper_weak_spots_enter"
+msgstr "Skarpskytte tilstanden giver bedre sigte på svaghedspunkter på fjendtlige køretøjer"
+
+msgid "hint_target_unlock"
+msgstr "Autosigte aktiveret. Deaktiver det med HMK."
+
+msgid "ingameMenu/buttons/quit"
+msgstr "Skip intro"
+
+msgid "introVideo/loading"
+msgstr "Indlæser..."
+
+msgid "lootCapturing/equipment"
+msgstr "Erobrer: Kort over minefelt"
+
+msgid "lootCapturing/plan"
+msgstr "Erobrer: Stykke af kort"
+
+msgid "lootCapturing/tank"
+msgstr "Erobrer fjendtligt køretøj"
+
+msgid "prebattle/mission/stage/1"
+msgstr "Operation 1"
+
+msgid "prebattle/mission/stage/2"
+msgstr "Operation 2"
+
+msgid "prebattle/mission/stage/3"
+msgstr "Operation 3"
+
+msgid "prebattle/mission/stage/4"
+msgstr "Operation 4"
+
+msgid "prebattle/mission/stage/5"
+msgstr "Operation 5"
+
+msgid "prebattle/mission/stage/6"
+msgstr "Operation 6"
+
+msgid "prebattle/mission/stage/7"
+msgstr "Operation 7"
+
+msgid "prebattle/mission/task/1"
+msgstr "Mission: Angrib byen og ødelæg alle fjendtlige køretøjer."
+
+msgid "prebattle/mission/task/2"
+msgstr "Mission: Angrib byen og ødelæg alle fjendtlige køretøjer."
+
+msgid "prebattle/mission/task/3"
+msgstr "Angrib byen og ødelæg alle fjendtlige køretøjer."
+
+msgid "prebattle/mission/task/4"
+msgstr "Find og ødelæg fjendens Wunderwaffe."
+
+msgid "prebattle/mission/task/5"
+msgstr "Bryd igennem, ødelæg kystbatterierne og indtag brohovedet."
+
+msgid "prebattle/mission/task/6"
+msgstr "Aflever våbenhvile-ordren til dine allierede."
+
+msgid "prebattle/mission/task/7"
+msgstr "Nå kommandocentralen og stop missilaffyringen."
+
+msgid "prebattle/mission/text/1"
+msgstr "Brooks: \"Hvordan har du det? Er du kommet til dig selv? Du bliver tilset af sygehjælperne senere. Nu tæller hver kanon. Angrebet er allerede begyndt. Og fordi vi var sent på den, har fjenden koncentreret sig om en anden flanke. Dette er vores chance. Vi angriber straks. Kør ind i byen og pres dem fra begge sider.\n\nFølg os — og undgå dragetænderne. De har en del rækker af de betonpyramider i marken. Men det er okay. Vi skal nok komme igennem. Du skal bare lytte til mig og følge mine ordrer hurtigt og præcist. MacLeod og jeg vil dække dig.\n\nOg bare ignorer hans vittigheder. Vi har alle vores egne mekanismer til at håndtere presset... Fremad!\""
+
+msgid "prebattle/mission/text/2"
+msgstr "MacLeod: \"Ah, Tigere — det er det værste du kan møde på slagmarken. Og hvis cheferne siger de har et problem, så mener de nok Tigere. Vi har ikke kontakt til første angrebsbølge, den anden er lige taget afsted, og her er vi — til at følge dem.\n\nOg hvis de sender os ind, kan det kun betyde én ting: Tigere. Det siger de i hovedkvarteret: \"Send Tiger-eksperterne ind!\" Ni kampvogne for to. Ikke dårligt på et halvt år. Du fører 5-4. Men jeg har endnu en chance for at komme foran. Og endelig at få den fordømte medalje!\n\nKom så — Brooks bryder sig ikke om at vente. Vores jagt begynder.\""
+
+msgid "prebattle/mission/text/3"
+msgstr "MacLeod: \"Hør efter, allesammen, så er det Operation Hammer og ambolt. Simpelt navn for en ikke så simpel opgave. Vi begiver os ind i byen for at rydde den for fjendtlige styrker. Det bliver ikke nemt — de har noget tungt panser. Men vi har snilde, muskler og holdånden på vores side, ikke sandt Lucky? Nu tøver vi ikke, folkens. Jeg skal nå min kop te klokken fem, forstår I nok!\""
+
+msgid "prebattle/mission/text/4"
+msgstr "MacLeod: \"Spørg ikke, Lucky. Jeg ved lige så lidt som dig.\n\nJeg bryder mig ikke om denne hemmeligholdelse. Jeg foretrækker ren snak. Du ser fjenden, du kæmper. Men dette? Et stort rod.\n\nDer vil også være allierede kampvogne i byen. Brooks bad os være forsigtige. Hvad betyder det?\nVi har en særlig opgave. At finde en eller anden slags Wunderwaffe — et enormt bæltekøretøj. Ingen andre end os kan løse den opgave, Lucky.\n\nKlar? Vi ruller ud!\""
+
+msgid "prebattle/mission/text/5"
+msgstr "Kaptajn John McCormick: \"Okay, gutter, dagen er kommet. Nu er det på tide at sætte en stopper for denne krig, og det er præcis hvad vi vil gøre. Alle os, sammen — amerikanere, briter, franskmænd, canadiere, australiere, belgiere, tjekkoslovakker, grækere, hollændere, kiwier, nordmænd, polakker. Vi står sammen om at gør det af med denne ondskab, én gang for alle.\n\nVi vil bryde gennem Atlantvolden og etablere et fodfæste.\n\nGør klar til landgang!\""
+
+msgid "prebattle/mission/text/6"
+msgstr "Kaptajn Smith: \"Hør efter. Tyskland underskrev overgivelsespapirerne for få timer siden. Krigen slutter i morgen. Men vores drenge i bjergene har mistet radiokontakten — de aner ikke, det er forbi. De vil angribe denne fordømte fæstning ved daggry, og tyskerne, der har barrikaderet sig, kender heller ikke til overgivelsen. Det bliver et formålsløst myrderi. \n\nVi er de eneste, som kan stoppe det. Vores mission: Snig os rundt om fjendens linjer og aflever våbenhvile-ordren. Det bliver ekstremt farligt, men vi kan redde mange liv. \n\nVi har en tilfangetaget tysk radiooperatør med os — han kender området, og har lige så meget grund til at ville stoppe kampen, som vi har. \n\nRul afsted\"."
+
+msgid "prebattle/mission/text/7"
+msgstr "Leni Scharf: \"Situationen er kritisk. Vi har mistet kontakten med vores missilbase i Norskehavet. Rekognosceringsflyvningen vendte aldrig tilbage, og den første landgangsstyrke blev udslettet af en ukendt fjende.\n\nEfterretningerne antyder at de kunne være i gang med at forberede affyring af et ballistisk missil. Vi kender ikke målet, men i den nuværende politiske situation kan en enkelt affyring udløse en global konflikt.\n\nVirker som i gamle dage, ikke? Bare én umulig mission efter den anden. Rul afsted!\""
+
+msgid "prebattle/mission/title/1"
+msgstr "Stål-lavine"
+
+msgid "prebattle/mission/title/2"
+msgstr "Storvildtjæger"
+
+msgid "prebattle/mission/title/3"
+msgstr "Hammer og ambolt"
+
+msgid "prebattle/mission/title/4"
+msgstr "Kat i musefælden"
+
+msgid "prebattle/mission/title/5"
+msgstr "Operation Overlord"
+
+msgid "prebattle/mission/title/6"
+msgstr "Operation Postmand"
+
+msgid "prebattle/mission/title/7"
+msgstr "Operation Boiling Point"
+
+msgid "ruinberg/hint01"
+msgstr "Find en omvej og flanker fjenden"
+
+msgid "ruinberg/objective01/header"
+msgstr "Ryk frem!"
+
+msgid "ruinberg/objective01/subheader"
+msgstr "Bevæg dig frem og ryd fjendens styrker"
+
+msgid "ruinberg/objective02/header"
+msgstr "Snig dig rundt om"
+
+msgid "ruinberg/objective02/subheader"
+msgstr "Angrib fjenden fra begge sider"
+
+msgid "ruinberg/objective02/success"
+msgstr "Ødelagt!"
+
+msgid "ruinberg/objective03/header"
+msgstr "Snig dig rundt om"
+
+msgid "ruinberg/objective03/subheader"
+msgstr "Angrib fjenden fra begge sider"
+
+msgid "ruinberg/objective03/success"
+msgstr "Ødelagt!"
+
+msgid "ruinberg/objective05/header"
+msgstr "Ryk frem!"
+
+msgid "ruinberg/objective05/subheader"
+msgstr "Bevæg dig frem og ryd fjendens styrker"
+
+msgid "ruinberg/objective07/header"
+msgstr "Gør klar til modangrebet!"
+
+msgid "ruinberg/objective07/subheader"
+msgstr "Stå fast"
+
+msgid "ruinberg/objective07/success"
+msgstr "Fjender ødelagt!"
+
+msgid "ruinberg/prebattle/header"
+msgstr "Gør klar!"
+
+msgid "ruinberg/prebattle/start"
+msgstr "Angrib!"
+
+msgid "ruinberg/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "ruinberg/respawn/header"
+msgstr "Stå klar, soldat"
+
+msgid "ruinberg/respawn/subheader"
+msgstr "Forstærkninger er på vej"
+
+msgid "ruinberg/respawn_over/header"
+msgstr "Det er forbi"
+
+msgid "ruinberg/respawn_over/subheader"
+msgstr "Alle tilgængelige køretøjer er blevet ødelagt"
+
+msgid "settings/disabledTabsOverlay"
+msgstr "Fuldfør Tiger Hunter-historien for at åbne op for disse indstillinger."
+
+msgid "timersPanel/overturned"
+msgstr "Genopretter dit køretøj..."
+
+msgid "vday/hint01"
+msgstr "Bevæg dig hurtigt bag hjørnet"
+
+msgid "vday/hint02"
+msgstr "Snig dig tættere på"
+
+msgid "vday/hint03"
+msgstr "Send kaptajn Dubois ud at observere"
+
+msgid "vday/hint04"
+msgstr "Brug den erobrede radio til at give en falsk ordre til Tigeren"
+
+msgid "vday/hint05"
+msgstr "Undersøg den tyske kommandopost"
+
+msgid "vday/hint06"
+msgstr "Observer område- og falsk ordre-evnerne er din nøgle til succes"
+
+msgid "vday/hint07"
+msgstr "Brug observer område- og falsk ordre-evnerne til at bevæge dig uset rundt"
+
+msgid "vday/hint08"
+msgstr "Kom så! Det er fuld gas eller en fyldt kiste!"
+
+msgid "vday/hint09"
+msgstr "Elite-kampvogne kan ikke distraheres med en falsk ordre"
+
+msgid "vday/hint10"
+msgstr "Følg kaptajn Smiths instrukser og vær forsigtig"
+
+msgid "vday/hint11"
+msgstr "Vend tilbage til missionen!"
+
+msgid "vday/objective01/header"
+msgstr "Rul afsted!"
+
+msgid "vday/objective01/subheader"
+msgstr "Aflever våbenhvile-ordren til allierede styrker"
+
+msgid "vday/objective02/header"
+msgstr "Nå den tyske kommandopost"
+
+msgid "vday/objective02/subheader"
+msgstr "Følg kaptajn Smiths instrukser"
+
+msgid "vday/objective02/success"
+msgstr "Minefelt-kort erobret"
+
+msgid "vday/objective03/header"
+msgstr "Find kortstykker over den frie passage"
+
+msgid "vday/objective03/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "%d kortstykke indsamlet"
+msgstr[1] "%d kortstykker indsamlet"
+msgstr[2] "%d kortstykker indsamlet"
+
+msgid "vday/objective03/success"
+msgstr "Kort over frie passage samlet"
+
+msgid "vday/objective04/header"
+msgstr "Aflever våbenhvile-ordren til allierede styrker"
+
+msgid "vday/objective04/subheader"
+msgstr "Bevæg dig gennem minefelterne"
+
+msgid "vday/objective04/success"
+msgstr "Våbenhvile-ordre afleveret!"
+
+msgid "vday/objective05/header"
+msgstr "Nå minefelterne"
+
+msgid "vday/objective05/subheader"
+msgstr "Snig dig gennem fjendens linjer"
+
+msgid "vday/objective05/success"
+msgstr "Minefelter nået"
+
+msgid "vday/prebattle/header"
+msgstr "Snig dig gennem fjendens linjer"
+
+msgid "vday/prebattle/start"
+msgstr "Fortsæt"
+
+msgid "vday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "vday/prebattleVeryHard/header"
+msgstr "Bevæg dig gennem minefeltet"
+
+msgid "vday/prebattleVeryHard/start"
+msgstr "Flyt"
+
+msgid "vday/prebattleVeryHard/subheader"
+msgstr "?empty?"
+
+msgid "vday/respawn/header"
+msgstr "Stå klar, soldat"
+
+msgid "vday/respawn/subheader"
+msgstr "Forstærkninger er på vej"
+
+msgid "vday/respawn_over/header"
+msgstr "Det er forbi"
+
+msgid "vday/respawn_over/subheader"
+msgstr "Alle tilgængelige køretøjer er blevet ødelagt"
+
+msgid "zeppelin/hint01"
+msgstr "Oplad dit køretøjs kanon og uddel forøget skade"
+
+msgid "zeppelin/hint02"
+msgstr "Skad en fjende på lang afstand med skud med maksimal præcision på kanonen"
+
+msgid "zeppelin/hint03"
+msgstr "Find ud af, hvordan du afgiver skud med dette køretøjs sekundære bevæbning"
+
+msgid "zeppelin/objective01/failure"
+msgstr "Mission fejlet!"
+
+msgid "zeppelin/objective01/header"
+msgstr "Ryk frem!"
+
+msgid "zeppelin/objective01/subheader"
+msgstr "Nå missilet og stop affyringen"
+
+msgid "zeppelin/objective02/header"
+msgstr "Fjendtligt materielværksted fundet!"
+
+msgid "zeppelin/objective02/subheader"
+msgstr "Erobr det forladte køretøj"
+
+msgid "zeppelin/objective02/success"
+msgstr "Køretøj erobret!"
+
+msgid "zeppelin/objective03/header"
+msgstr "Nyt mål modtaget!"
+
+msgid "zeppelin/objective03/subheader"
+msgstr "Erobr affyringsstedet og kommandocentralen"
+
+msgid "zeppelin/objective03/success"
+msgstr "Affyringssted indtaget"
+
+msgid "zeppelin/objective04/header"
+msgstr "Hold din position"
+
+msgid "zeppelin/objective04/subheader"
+msgstr "Ødelæg %d fjendtlige køretøjer"
+
+msgid "zeppelin/objective04/success"
+msgstr "Fjendtligt angreb afvist"
+
+msgid "zeppelin/prebattle/header"
+msgstr "Gør klar!"
+
+msgid "zeppelin/prebattle/start"
+msgstr "Fortsæt!"
+
+msgid "zeppelin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "zeppelin/respawn/header"
+msgstr "Stå klar, kommandør"
+
+msgid "zeppelin/respawn/subheader"
+msgstr "Forstærkninger er på vej"
+
+msgid "zeppelin/respawn_over/header"
+msgstr "Det er forbi"
+
+msgid "zeppelin/respawn_over/subheader"
+msgstr "Alle tilgængelige køretøjer er blevet ødelagt"

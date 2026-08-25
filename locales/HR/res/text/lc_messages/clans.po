@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "Chat klana"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "Kliknite za pisanje i slanje poruke u chat razgvoora."
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "Chat klana"
+
+msgid "clan/header/creationDate"
+msgstr "Stvoreno %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "Prijave i pozivnice"
+
+msgid "clan/header/requestSent"
+msgstr "Prijava predana"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "Predaj prijavu"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "Kliknite za predaju vaše prijave u ovaj klan."
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "Predaj prijavu"
+
+msgid "clan/post/combatOfficer"
+msgstr "Borbeni časnik"
+
+msgid "clan/post/commander"
+msgstr "Zapovjednik"
+
+msgid "clan/post/executiveOfficer"
+msgstr "Zamjenik zapovjednika"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "Obavještajni časnik"
+
+msgid "clan/post/juniorOfficer"
+msgstr "Mlađi časnik"
+
+msgid "clan/post/personnelOfficer"
+msgstr "Stožerni oficir"
+
+msgid "clan/post/private"
+msgstr "Vojnik"
+
+msgid "clan/post/quartermaster"
+msgstr "Intendant"
+
+msgid "clan/post/recruit"
+msgstr "Novak"
+
+msgid "clan/post/recruiter"
+msgstr "Časnik unovačenja"
+
+msgid "clan/post/reservist"
+msgstr "Rezervist"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "Greška u prikazivanju imena"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "POdaci u tablici su ažurirani."
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "Zahtjevi unovačenja"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "Može se uređivati"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "Klan nema aktualnih prijava."
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "Klan nema isteklih prijava."
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "Pozovi u klan"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "Kliknite %(invite)s za slanje pozivnica\nnovim igračima."
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "Klan nije poslao nijednu pozivnicu u posljednjih 28 dana."
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "Klan nema aktualnih pozivnica u zadnjih 28 dana."
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "Klan nema isteklih pozivnica u zadnjih 28 dana."
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "Klan nema obrađenih pozivnica u zadnjih 28 dana."
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "Klan nema obrađenih prijava."
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "Podaci nisu primljeni sa servera.\nPokušajte ponovo kasnije."
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "Greška servera"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "Aktualne (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "Sve (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "Istekle (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "Dobijena odluka (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "Obrađene (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "Slobodni položaji u klanu: %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "Pozovi u klan"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "Imate tri dana za obradu prijave za ulazak u klan. Prijave i pozivnice se čuvaju 28 dana i potom automatski brišu."
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "Nije moguće pozvati igrače: klan je pun."
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "Nije moguće pozvati igrače: novačenje u klanu je trenutno zatvoreno."
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "Prihvaćeno"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "%(days)d d. za obradu"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "Odbijeno"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "Greška"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "Isteklo"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "%(hours)d s. za obradu"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "%(min)d min. za obradu"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "Poslano"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "Pozivnice (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "Prijave (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "Akcije"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "Pozovi"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "Poslano"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "Prikaži više"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "Status"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "Igrač"
+
+msgid "clanInvitesWindow/title"
+msgstr "Prijave i pozivnice"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "Kliknite za poziv igračima u klan."
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "Po obrascu pozivnice:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "Pozivnica prihvaćena."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "Pozivnica odbačena."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "Pozivnica poslana"
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "Pošiljatelj:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Ovaj gumb će se uključiti po primanju novih podataka sa servera."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Kliknite za prikaz novih prijava i pozivnica."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "Osvježi listu"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "Odluka:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "Prijava prihvaćena."
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "Prijava odbačena."
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "Prijava je istekla"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "Prijava predana."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "Nije moguće pozvati igrače: klan je pun."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Igrač je nedavno napustio klan. Možete ga prihvatiti u klan samo nakon:"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "Nije moguće pozvati nove igrače: klan je pun."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Prosječno iskustvo po bitci igrača kojem je poslana pozivnica (uključujuči premium račun)"
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Prosječno iskustvo po bitci"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Odigrano bitaka igrača kojem je poslana pozivnica."
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Bitke"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "Kliknite kako bi pozvali ovog igrača u klan."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Uključena poruka s pozivnicom u klan."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Poruka"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "Osobni rejting igrača kojem poslana pozivnica."
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "Osobni rejting"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "Datum i vrijeme kada je poslana pozivnica u klan."
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "Poslano"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Status pozivnice uz klan.\nPozivnica može biti aktualna, istekla ili obrađena."
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Status"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "Ime igrača kojem je poslana pozivnica."
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "Ime"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Odnos pobjeda igrača kojem je poslana pozivnica."
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Pobjede"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Prijava može biti ili prihvaćena ili odbijena."
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Akcije"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "Prosječno iskustvo po bitci igrača koji je predao prijavu (uključujuči premium račun)"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "Prosječno iskustvo po bitci"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "Ukupno odigrano bitaka igrača koji je predao prijavu"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "Bitke"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "Poruka od igrača, uključena uz njihovu prijavu"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "Poruka"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "Osobni rejting igrača koji je predao prijavu"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "Osobni rejting"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "Status prijave u klan.\nPrijava može biti aktualna, istekla ili obrađena."
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "Status"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "Ime igrača koji je predao prijavu."
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "Ime"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "Odnos pobjeda igrača koji je predao prijavu"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "Pobjede"
+
+msgid "clanLanding/notification/archived"
+msgstr "Poruka je poslana u arhivu."
+
+msgid "clanLanding/notification/commonError"
+msgstr "Tehnička greška: s ovom porukom nije moguće završiti operaciju."
+
+msgid "clanLanding/notification/deleted"
+msgstr "Poruka uklonjena."
+
+msgid "clanLanding/notification/edited"
+msgstr "Poruka objavljena."
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "Premašen je maksimalni broj znakova."
+
+msgid "clanLanding/notification/limitReached"
+msgstr "Maksimalni broj poruka u klanu je već objavljen."
+
+msgid "clanLanding/notification/noPermission"
+msgstr "Nedovoljna prava za upravljanje porukama klana: vaš položaj je izmjenjen."
+
+msgid "clanLanding/notification/notExist"
+msgstr "Poruka je uklonjena ili poslana u arhivu."
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "Poruka sadrži izrazi koji krše <a href=\"event:clanRulesLink\">klanska pravila</a>."
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "Aktualne pozivnice: %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "Odbaci odabrane (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "Moje pozivnice u klan"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "Primanje podataka..."
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "Još nemate pozivnica u klan."
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "Odaberi sve prijave"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "Akcije"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "Ime klana"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "Status"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "Pozivnice u klan"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Moći ćete osvježiti listu nakon zaprimanja novih podataka."
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Kliknite za osvježenje tablice."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Nedavno ste napustili klan. Možete prihvatiti pozive u klan samo nakon:"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Prosječno zarađeno iskustvo po bitci člana klana koji je poslao pozivnicu (prosjek kroz slučajne bitke)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Prosječno iskustvo po bitci"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Prosječan broj bitaka odigranih od članova klana koji je poslao pozivnicu (samo slučajne bitke)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Bitke klana"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "Ime klana koji vam je poslao pozivnicu"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "Ime klana"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Poruka od klana koji vam je poslao pozivnicu"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Poruka"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "Ukupni rejting klana koji vam je poslao pozivnicu"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "Rejting klana"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Prikazuje statuse pozivnice klana i preostalo vrijeme za obradu te pozivnice"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Status"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Odnos pobjeda klana koji je poslao pozivnicu (prosjek kroz slučajne bitke)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Pobjede klana"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Možete ili odbiti ili prihvatiti pozivnicu. Prihvaćanjem pozivnice automatski odbijate pozivnice drugih klanova."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Akcije"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "Profil klana"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "Zatvori"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "Dobrodošli u klan!"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "Sada se možete boritiu bitkama na globalnoj mapi, izgrađivati i braniti vaša utvrđenja i završavati posebne zadatke."
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "Bilten"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "Vaš klan: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "Žao nam je zbog neugodnosti. Molim, pokušajte ponovo kasnije."
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "Utvrđenje je privremeno nedostupno"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "Žao nam je zbog neugodnosti.\nPokušajte ponovo kasnije."
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "Greška u učitavanju podataka"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "Profil klana"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "Utvrđenje"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "Globalna mapa"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "Članovi klana"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "Utvrđenje"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "Sažetak"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "Pozovi igrača u klan"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "Akcija nedostupna. Možete zvati igrače u klan samo jednog po jednog."
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "Dodaj sve kontakte na listu primatelja."
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "Bitaka u zadnjih 28 dana"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "Napretci u zadnjih 28 dana"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "Zapovjednik klana"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "Još nije stvoren"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "Nema odigranih bitaka.\nNema provincija pod kontrolom."
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "Razina Utvrđenja"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "Riznica"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "Nema odigranih bitaka"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "Provincije"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Elo rejting X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Elo rejting VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Elo rejting VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "Okršaja u zadnjih 28 dana"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "Ukupno članova"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "Detalji"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "Nastavi"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "Predajte prijavu"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "Klan nema krilaticu"
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "Detalji globalne mape"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "Idi na mapu"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "Detalji su privrfemeno nedostupni"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "Nije moguće ući u klan."
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "Pregledajte zatheve novačenja %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "Već ste član\ndrugog klana."
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "Već ste dobili pozivnicu\nza ulazak u ovaj klan."
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s Privremeno ograničeno"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s Privremeno ograničeno"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "Ovaj klan ne prima prijave %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "Prijava predana"
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "Sinhroniziram podatke..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "Klanov Elo rejting u diviziji X Napredaka"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Elo rejting X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "Klanov Elo rejting u diviziji VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Elo rejting VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "Klanov Elo rejting u diviziji VIII BNapredaka"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Elo rejting VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "Klanski Napretci u zadnjih 28 dana"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "Napretci u zadnjih 28 dana"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "Razina Utvrđenja je jednaka razini njegovog zapovjednog centra."
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "Razina Utvrđenja"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "Okršaji klana u zadnjih 28 dana"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "Okršaja u zadnjih 28 dana"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "Klanov Elo rejting u diviziji X bitaka na Globalnoj mapi"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Elo rejting X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "Klanov Elo rejting u diviziji VI bitaka na Globalnoj mapi"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Elo rejting VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "Klanov Elo rejting u diviziji VIII bitaka na Globalnoj mapi"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Elo rejting VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "Odigrane bitke klana na Globalnoj mapi u zadnjih 28 dana"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "Bitaka u zadnjih 28 dana"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "Provincije na Globalnoj mapi koje trenutno zauzima klan."
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "Provincije"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "Predan je najveći mogući broj prijava."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "Nije moguće predati prijavu"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "Predan je najveći mogući broj prijava."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "Nije moguće predati prijavu"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "Klan ne prihvaća prijave."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "Nije moguće predati prijavu"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "Rejting klana nije ažuriran u zadnjih 28 dana."
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "Zastarjela informacija"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "Ukupni rejting ovisi o učinkovitosti klana u Napretcima i na Globalnoj mapi."
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "Ukupni rejting"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "Ukupni rejting"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "Profil klana"
+
+msgid "globalMap/disabled"
+msgstr "Bitke na Globalnoj Mapi su trenutno\nnedostupne u vašoj regiji"
+
+msgid "globalMapView/level10"
+msgstr "Razina X"
+
+msgid "globalMapView/level6"
+msgstr "Razina VI"
+
+msgid "globalMapView/level8"
+msgstr "Razina VIII"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "Ova provincija ne zarađuje prihod jer je prekinuta veza sa zapovjednim centrom ili je provincija opljačkana."
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "Ne zarađuje prihod"
+
+msgid "globalMapView/noProvince"
+msgstr "Klan ne posjeduje niti jednu provinciju."
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "Popularno udarno vrijeme: %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "Globalna mapa je bojište gdje se klanivi bore za stratešku nadmoć. Časnici klana ovdje provode najviše vremena planirajući taktiku i razmještajući snage za strateške manevre."
+
+msgid "globalMapView/promo/header"
+msgstr "Globalna mapa"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "Detalji globalne mape"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "Idi na mapu"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "Bitke"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "Ukupno bitaka u diviziji X na Globalnoj mapi"
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "Bitke"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Elo rejting"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "Rejting klana u bitkama u diviziji X na Globalnoj mapi"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Elo rejting"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "Omiljena mapa"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "Mapa na kojoj je klan odigrao najviše bitaka u diviziji X u zadnjih 28 dana"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "Omiljena mapa: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "Položaj na tablici"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "Položaj klana na tablici u diviziji X na Globalnoj mapi"
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "Položaj na tablici"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "Pobjede"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "Ukupan odnos pobjeda u bitkama u diviziji X na Globalnoj mapi"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "Pobjede"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "Bitke"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "Ukupno bitaka u diviziji VI na Globalnoj mapi"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "Bitke"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Elo rejting"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "Rejting klana u bitkama u diviziji VI na Globalnoj mapi"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Elo rejting"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "Omiljena mapa"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "Mapa na kojoj je klan odigrao najviše bitaka u diviziji VI u posljednjih 28 dana."
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "Omiljena mapa: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "Položaj na tablici"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "Rejting klana u bitkama u diviziji VI na Globalnoj mapi"
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "Položaj na tablici"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "Pobjede"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "Ukupan odnos pobjeda u bitkama u diviziji VI na Globalnoj mapi"
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "Pobjede"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "Bitke"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "Ukupno bitaka u diviziji VIII na Globalnoj mapi"
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "Bitke"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Elo rejting"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "Rejting klana u bitkama u diviziji VIII na Globalnoj mapi"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Elo rejting"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "Omiljena mapa"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "Mapa na kojoj je klan odigrao najviše bitaka u diviziji VIII u zadnjih 28 dana"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "Omiljena mapa: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "Položaj na tablici"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "Položaj klana na tablici u bitkama u diviziji VIII na Globalnoj mapi"
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "Položaj na tablici"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "Pobjede"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "Ukupan odnos pobjeda u bitkama u diviziji VIII na Globalnoj mapi"
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "Pobjede"
+
+msgid "globalMapView/stats/battles"
+msgstr "Bitaka na Globalnoj mapi"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "Ukupno odigranih bitaka klana na Globalnoj mapi"
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "Bitaka na Globalnoj mapi"
+
+msgid "globalMapView/stats/seized"
+msgstr "Zauzetih provincija"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "Ukupan broj provincija u vlasništvu klana. Računaju se i provincije koje su prethodno bile osvojene, ali su sada izgubljene."
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "Zauzetih provincija"
+
+msgid "globalMapView/stats/wins"
+msgstr "Pobjeda po članovima klana"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "Ukupan odnos pobjeda članova klana u bitkama na Globalnoj mapi"
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "Pobjeda po članovima klana"
+
+msgid "globalMapView/table/days"
+msgstr "Dana"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "Razdoblje u danima tijekom kojih je klan posjedovao provincije na Globalnoj mapi."
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "Dana"
+
+msgid "globalMapView/table/front"
+msgstr "Bojišnica"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "Ime odabrane bojišnice"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "Bojišnica"
+
+msgid "globalMapView/table/income"
+msgstr "Dohodak"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "Zarađeno zlata po provinciji po danu"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "Dohodak"
+
+msgid "globalMapView/table/map"
+msgstr "Mapa"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "Ime mape na kojoj se biju bitke za provinciju."
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "Mapa"
+
+msgid "globalMapView/table/primeTime"
+msgstr "Udarno vrijeme"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "Dogovoreno vrijeme kada će početi bitke za provinciju."
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "Udarno vrijeme"
+
+msgid "globalMapView/table/province"
+msgstr "Provincija"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "Ime odabrane provincije."
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "Provincija"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "Provincija je opljačkana i privremeno ne zarađuje prihod."
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "Vrijeme prije nego ponovno počete dobijati prihod:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "Provincije"
+
+msgid "globalMapView/tabs/stats"
+msgstr "Statistika"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "Rejting klana nije ažuriran u zadnjih 28 dana."
+
+msgid "globalMapView/totalIncome"
+msgstr "Ukupan dnevni prihod: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "Prosječan\nbroj bitaka"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "Broj bitaka u slučajnim bitkama i u režimu tenkovske satnije u prosjeku svih članova klana. Računaju se samo igrači koji su trenutni članovi klana."
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "Prosječan broj bitaka po članu klana"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "Prosječno iskustvo"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "Ponderirani prosjek iskustva člana klana zarađen u slučajnim bitkama i u režimu tenkovske satnije. Ukupan broj bitaka svakog igrača utječe na prosjek. Računaju se samo igrači koji su trenutni članovi klana."
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "Prosječno iskustvo po članu klana"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "Prosječni osobni rejting"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "Osobni rejting u prosjeku svih članova klana. Računaju se samo igrači koji su trenutni članovi klana."
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "Prosječni osobni rejting sivh članova klana"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "Prosječan odnos pobjeda"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "Ponderirani prosjek iskustva člana klana zarađen u slučajnim bitkama i u režimu tenkovske satnije. Ukupan broj bitaka svakog igrača utječe na prosjek. Računaju se samo igrači koji su trenutni članovi klana."
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "Prosječan odnos pobjeda po članu klana"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "Odnos ukupnog zarađenog iskustva i broja odigranih bitaka po igraču u slučajnim bitkama i u režimu tenkovske satnije"
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "Prosječno iskustvo"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "Ukupan broj slučajnih bitaka i bitaka tenkovske satnije koje je igrač odigrao"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "Ukupan broj bitaka"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "Broj igračevih dana u klanu"
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "Dana u klanu"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "Igračev osobni rejting"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "Osobni rejting"
+
+msgid "personnelView/table/player"
+msgstr "Igrač (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "Ime člana klana"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "Igrač"
+
+msgid "personnelView/table/post"
+msgstr "Položaj"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "Položaj člana u klanu"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "Položaj"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "Igračev odnos pobjeda u slučajnim bitkama i u režimu tenkovske satnije"
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "Pobjede"
+
+msgid "personnelView/title"
+msgstr "Statistika člana klana u slučajnim i bitkama tenkovske satnije:"
+
+msgid "search/clansList"
+msgstr "Klanovi na spisku: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "Nije nađeno ništa prema vašem upitu. Pokušajte pretraživati s različitim ključnim riječima."
+
+msgid "search/emptyResult/button"
+msgstr "Nazad na spisak"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "Kliknite za povratak na spisak pronađenih klanova."
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "Nazad na spisak"
+
+msgid "search/emptyResult/header"
+msgstr "Nema rezultata pretrage"
+
+msgid "search/foundClans"
+msgstr "Pronađeno klanova: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "Nije moguće ući u klan."
+
+msgid "search/info/banned/tooltip/header"
+msgstr "Nije moguće predati prijavu"
+
+msgid "search/info/clanProfileBtn"
+msgstr "Profil klana"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "Nije moguće predati prijavu za ulaz u klan."
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "Akcija nedostupna"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "Već ste dobili pozivnicu za pristup ovom klanu."
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "Nije moguće predati prijavu"
+
+msgid "search/info/ratingDescription"
+msgstr "Ukupni rejting"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "Ukupni rejting ovisi o učinkovitosti klana u Napretcima i na Globalnoj mapi."
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "Ukupni rejting"
+
+msgid "search/info/ratingTitle"
+msgstr "Statistika u svim tipovima bitaka:"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "Već ste predali pozivnicu za pristup ovom klanu."
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "Nije moguće predati prijavu"
+
+msgid "search/info/requestSent"
+msgstr "Prijava predana"
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "Klan ne prihvaća prijave."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "Nije moguće predati prijavu"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "Predan je najveći mogući broj prijava."
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "Nije moguće predati prijavu"
+
+msgid "search/info/sendRequestBtn"
+msgstr "Predaj prijavu"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "Nisu primljeni podaci sa servera. Pokušajte ponovo kasnije."
+
+msgid "search/info/serverUnavailable/header"
+msgstr "Greška servera"
+
+msgid "search/info/stats/avgExp"
+msgstr "Prosječno iskustvo"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "Ponderirani prosjek iskustva člana klana zarađeno u svim režimima bitke. Ukupan broj odigranih bitaka svakog člana utječe na prosjek. Računaju se samo trenutni članovi klana."
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "Prosječno iskustvo po članu klana"
+
+msgid "search/info/stats/battles"
+msgstr "Prosječan\nbroj bitaka"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "Prosječan broj bitaka članova klana u svim režimima bitke. Računaju se samo trenutni članovi klana."
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "Prosječan broj bitaka po članu klana"
+
+msgid "search/info/stats/wins"
+msgstr "Prosječan odnos pobjeda"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "Ponderirani prosjek iskustva člana klana zarađeno u svim režimima bitke. Ukupan broj odigranih bitaka svakog člana utječe na prosjek. Računaju se samo trenutni članovi klana."
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "Prosječan odnos pobjeda po članu klana"
+
+msgid "search/nextBtn"
+msgstr "Sljedeći"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "Kliknite za prikaz sljedećeg dijela spiska klanova."
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "Sljedeći"
+
+msgid "search/previousBtn"
+msgstr "Prethodni"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "Kliknite za prikaz prethodnog dijela spiska klanova."
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "Prethodni"
+
+msgid "search/promoText/body"
+msgstr "Unesite ime ili oznaku klana u polje pretrage i kliknite Traži kako bi pronašli klan."
+
+msgid "search/promoText/header"
+msgstr "Pretraga klana"
+
+msgid "search/requestTooShort/body"
+msgstr "Za potragu za klanom unesite najmanje dva znaka u polje i pokušajte ponovo."
+
+msgid "search/requestTooShort/button"
+msgstr "Nazad na spisak"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "Nazad na spisak"
+
+msgid "search/requestTooShort/header"
+msgstr "Nedovoljno podataka"
+
+msgid "search/searchBtn"
+msgstr "Traži"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "Unesite ime klana ili oznaku u polje nalijevo (najmanje dva znaka)."
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "Pretraga klana"
+
+msgid "search/searchInputPrompt"
+msgstr "Unesite ime ili oznaku klana"
+
+msgid "search/serverUnavailable/body"
+msgstr "Nisu primljeni podaci sa servera. Pokušajte ponovo kasnije."
+
+msgid "search/serverUnavailable/header"
+msgstr "Greška servera"
+
+msgid "search/table/clan"
+msgstr "Klan"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "Atributi klana: oznaka i ime"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "Klan"
+
+msgid "search/table/creationDate"
+msgstr "Stvoren"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "Datum stvaranja klana"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "Stvoren"
+
+msgid "search/table/players"
+msgstr "Igrači"
+
+msgid "search/table/players/tooltip/body"
+msgstr "Ukupan broj članova klana"
+
+msgid "search/table/players/tooltip/header"
+msgstr "Igrači"
+
+msgid "search/table/rating"
+msgstr "Rejting"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "Ukupni rejting klana"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "Rejting"
+
+msgid "search/title"
+msgstr "Pretraga klana"
+
+msgid "search/titleDescription"
+msgstr "Ovdje možete tražiti klan, pregledati njegove detalje,\ni predati vašu prijavu za ulaz. Možete pretraživati po imenu ili oznaci klana."
+
+msgid "search/windowTitle"
+msgstr "Pretraga klana"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "Plan"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "Statistika"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "Razina %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "nije postavljena"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "Primirje:"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "Period obrane:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "Domaći server:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "Izgrađeno struktura:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "Neutralnost:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "Najviše zarađenih industrijskih resursa"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "Najviše pobjeda zaredom"

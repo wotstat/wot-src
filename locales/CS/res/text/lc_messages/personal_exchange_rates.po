@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Výhodný kurz"
+msgstr[1] "Výhodný kurz %(index)s"
+msgstr[2] "Výhodný kurz %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "Limit alespoň jednoho výhodného směnného kurzu byl překonán. Část platby proběhne v dalším aplikovatelném směnném kurzu."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Základní směnný kurz"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "Následující vhodný kurz"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Počet aktivních výhodných kurzů: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Celkový limit výhodného kurzu: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "Po směně:"
+
+msgid "common/cancel"
+msgstr "Zrušit"
+
+msgid "common/combinedDiscount"
+msgstr "Kombinovaná sleva"
+
+msgid "common/exchange"
+msgstr "Vyměnit"
+
+msgid "common/exchangeRate"
+msgstr "Směnný kurz"
+
+msgid "common/limitExceeded"
+msgstr "Limit překročen. Směna bude provedena s kombinovanou slevou."
+
+msgid "common/limitOverExceeded"
+msgstr "Limit překročen: bude použita kombinovaná sleva."
+
+msgid "common/limitRestrictions"
+msgstr "ZJISTIT VÍCE"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Základní směnný kurz: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Obecný směnný kurz: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "%(gold)s zlaťáky úspěšně směněny. Získáno kreditů: %(res)s."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Osobní směnný kurz: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Osobní směnný kurz: %(rateFrom)s = %(rateTo)s. Limit překročen"
+
+msgid "exchangeXP/information"
+msgstr "%(res)s ZK úspěšně směněny za volné ZK. Utraceno zlaťáků: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "Dostupné ZK:"
+
+msgid "experienceExchange/paid"
+msgstr "Utraceno"
+
+msgid "experienceExchange/received"
+msgstr "Získáno"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Řadit podle úrovně vozidla"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Řadit podle úrovně polního vylepšení"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Řadit podle názvu vozidla"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Řadit podle národa"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Řadit podle typu vozidla"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Řadit podle vybraného vozidla"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Řadit podle získaných ZK"
+
+msgid "goldExchange/paid"
+msgstr "Z"
+
+msgid "goldExchange/received"
+msgstr "Na"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s zlaťák = %(resourceRate)s kreditů"
+
+msgid "notification/discountDescription/message"
+msgstr "Osobní směnný kurz"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "Na směnu"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Je dostupný nový směnný kurz!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Základní směnný kurz"
+
+msgid "tooltip/common/generalRate"
+msgstr "Obecný směnný kurz"
+
+msgid "tooltip/common/personalRate"
+msgstr "Osobní směnný kurz"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Výhodný směnný kurz"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Dočasný směnný kurz"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "Množství se dá určit pouze po zakoupení zlaťáků."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Množství zlaťáků po výměně"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s zlaťák = %(resourceRate)s volných ZK"

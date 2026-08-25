@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "Εξομάλυνση"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "Καθορίζει σε ποιο βαθμό θα γίνεται επιπλέον επεξεργασία στις λεπτές γραμμές και στο περίγραμμα των αντικειμένων του παιχνιδιού. Βελτιώνει την εξομάλυνση.\n\n• Υψηλή—FXAA\n• Μέγιστη—Temporal Supersampling Antialiasing (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "Ρυθμίσεις Δυναμικής"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "Ενεργοποίηση ή απενεργοποίηση της αυτόματης ρύθμισης των 3D γραφικών βάσει του φόρτου της κάρτας γραφικών.\n\nΗ ενεργοποίηση αυτής της παραμέτρου μπορεί να αυξήσει την απόδοση του συστήματός σας. Η ανάλυση των γραφικών στο Γκαράζ παραμένει πάντα η ίδια."
+
+msgid "EFFECTS_QUALITY"
+msgstr "Ποιότητα Πρόσθετων Εφέ"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "Καθορίζει την ποιότητα προβολής σπινθήρων από εξοστρακισμό, εκρήξεων, καπνού και άλλων οπτικών εφέ.\n\nΜειώνοντας αυτή την παράμετρο μπορεί να αυξηθεί η απόδοση του συστήματος σας."
+
+msgid "FAR_PLANE"
+msgstr "Απόσταση Σχεδίασης"
+
+msgid "FAR_PLANE/description"
+msgstr "Καθορίζει την απόσταση προβολής στοιχείων της μορφολογίας του χάρτη, κτηρίων, εχθρικών οχημάτων και άλλων αντικειμένων."
+
+msgid "FLORA_QUALITY"
+msgstr "Πυκνότητα Χλωρίδας"
+
+msgid "FLORA_QUALITY/description"
+msgstr "Καθορίζει την πυκνότητα και την ποιότητα σχεδίασης σε θάμνους και γρασίδι, σε 1ο και 3ο πρόσωπο."
+
+msgid "HAVOK_ENABLED"
+msgstr "Εμπλουτισμένα Εφέ Καταστροφής"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "Απενεργοποίηση"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "Ενεργοποίηση"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "Ενεργοποιεί ένα πιο ρεαλιστικό μοντέλο καταστροφής των αντικειμένων στο πεδίο της μάχης.\n\nΑπενεργοποιώντας αυτήν της παράμετρο μπορεί να αυξηθεί η απόδοση του συστήματος σας."
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "Θα γίνει εφαρμογή των ρυθμίσεων από την επόμενη μάχη, εάν αυτές είναι απενεργοποιημένες στην τρέχουσα μάχη."
+
+msgid "LANGUAGE_CODE"
+msgstr "el"
+
+msgid "LIGHTING_QUALITY"
+msgstr "Ποιότητα Φωτισμού"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "Καθορίζει την ποιότητα και την μέθοδο προβολής του ήλιου, των οπτικών εφέ και των εφέ φωτισμού.\n\nΑυξάνοντας αυτή την παράμετρο μπορεί να επιβαρυνθεί σημαντικά η κάρτα γραφικών σας."
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "Εφέ Θολής Κίνησης"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "Καθορίζει την ποιότητα των εφέ της θολής κίνησης ενός αντικειμένου όταν το όχημα κινείται και η κάμερα περιστρέφεται."
+
+msgid "MSAA_QUALITY"
+msgstr "Εξομάλυνση"
+
+msgid "MSAA_QUALITY/description"
+msgstr "Καθορίζει σε ποιο βαθμό θα γίνεται επιπλέον επεξεργασία στις λεπτές γραμμές και στο περίγραμμα των αντικειμένων του παιχνιδιού. Βελτιώνει την εξομάλυνση.\n\n• Χαμηλή—MSAA 2x\n• Μεσαία—MSAA 4x\n• Υψηλή—MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "Απόσταση Αντικειμένων"
+
+msgid "OBJECT_LOD/description"
+msgstr "Καθορίζει τον αριθμό των προβαλλόμενων αντικειμένων και την ποιότητά τους."
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "Post Processing"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "Καθορίζει την ποιότητα των post-processing οπτικών εφέ.\n\nΜειώνοντας αυτή την παράμετρο μπορεί να αυξηθεί η απόδοση του συστήματος σας."
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "Γραφικά"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "Βελτιωμένα: για μέγιστη ποιότητα εικόνας.\n\nΚανονικά: για μέγιστη απόδοση απλοποιώντας ή απενεργοποιώντας κάποια οπτικά εφέ."
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "Γραφικά:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "Θα πρέπει να γίνει επανεκκίνηση του client πριν γίνει εφαρμογή των αλλαγών."
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "Διαφάνεια Φυλλώματος"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "Καθορίζει το πώς προβάλλεται το φύλλωμα των κοντινών δέντρων και θάμνων.\n\nΑπενεργοποιώντας αυτήν την παράμετρο, το φύλλωμα των κοντινών δέντρων και θάμνων είναι εντελώς αόρατο, το οποίο μπορεί να αυξήσει την απόδοση του συστήματος σας."
+
+msgid "SHADER_VERSION_CAP"
+msgstr "Έκδοση shader"
+
+msgid "SHADOWS_QUALITY"
+msgstr "Ποιότητα Σκιάς"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "Καθορίζει την ποιότητα της δυναμικής επεξεργασίας σκιών σε όλη την απόσταση σχεδίασης.\n\nΜειώνοντας αυτή την παράμετρο μπορεί να αυξηθεί σημαντικά η απόδοση του συστήματος σας."
+
+msgid "SMOKE_ENABLED"
+msgstr "Καπνός"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "Πρόσθετα Εφέ σε 1ο Πρόσωπο"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "Καθορίζει την ποιότητα προβολής σπινθήρων από εξοστρακισμό, εκρήξεων, καπνού και άλλων ρεαλιστικών εφέ σε λειτουργία Στόχευσης σε 1ο Πρόσωπο.\n\nΜειώνοντας αυτή την παράμετρο μπορεί να αυξηθεί η απόδοση του συστήματος σας."
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "Γρασίδι στη Στόχευση σε 1ο Πρόσωπο"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "Προβολή του γρασιδιού στη Στόχευση σε 1ο Πρόσωπο.\n\nΑπενεργοποιώντας αυτή την παράμετρο μπορεί να αυξηθεί η απόδοση του συστήματος σας."
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "Μωσαϊκό εδάφους σε 1ο πρόσωπο"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Αυξάνει την ποιότητα του εδάφους σε ακτίνα 50 μέτρων από το όχημά σας κατά τη Στόχευση σε 1ο Πρόσωπο. Διαθέσιμο μόνο με επιλεγμένο το Μωσαϊκό Εδάφους.\n\nΑπενεργοποιώντας αυτή την παράμετρο μπορεί να αυξηθεί η απόδοση του συστήματος."
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "Ποιότητα Βλάστησης"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "Καθορίζει την ποιότητα σχεδίασης δέντρων, θάμνων και γρασιδιού."
+
+msgid "TERRAIN_QUALITY"
+msgstr "Ποιότητα Εδάφους"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "Καθορίζει την ποιότητα σχεδίασης στοιχείων της μορφολογίας του χάρτη.\n\nΧρήση της ελάχιστης ποιότητας μόνο σε περίπτωση χαμηλής απόδοσης του υπολογιστή.\n\nΜειώνοντας αυτή την παράμετρο μπορεί να προκληθεί αποσυγχρονισμός μεταξύ client και server στην προβολή του τοπίου."
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "Μπορεί να χρειαστεί λίγη ώρα για την εφαρμογή της επιλεγμένης παραμέτρου."
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "Μωσαϊκό Εδάφους"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Hardware επεξεργασία των νέων τριγώνων του πλέγματος των πολυγώνων.\n\nΗ λειτουργία είναι διαθέσιμη μόνο με:\n• Βελτιωμένα Γραφικά\n• Υψηλή, Πολύ Υψηλή ή Μέγιστη Ποιότητα Εδάφους\n• Εγκατεστημένο το DirectX 11.\n\nΟι αλλαγές στις ρυθμίσεις δεν είναι διαθέσιμες με εκδόσεις παλιότερες του DirectX 11.\n\nΑπενεργοποιώντας αυτή την παράμετρο μπορεί να αυξηθεί η απόδοση του συστήματος."
+
+msgid "TEXTURE_QUALITY"
+msgstr "Ποιότητα Γραφικών"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "Ποιότητα των επιφανειών των αντικειμένων στο παιχνίδι, ειδικά σε κοντινή απόσταση.\n\nΜειώνοντας αυτή την παράμετρο μπορεί να αυξηθεί η απόδοση του συστήματος σας."
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "Μπορεί να χρειαστεί λίγη ώρα για την εφαρμογή της επιλεγμένης παραμέτρου."
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "Συμπεριφορά Ερπυστριών"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "Καθορίζει τη συμπεριφορά της προσομοίωσης χαλασμένων και λειτουργικών ερπυστριών, καθώς και τις λεπτομέρειές τους.\n\nΗ μείωση ή η απενεργοποίηση αυτής της παραμέτρου μπορεί να αυξήσει την απόδοση του συστήματός σας."
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "Εφέ ερπύστριας και τροχών"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "Προβολή χώματος, χιονιού και παφλασμών νερού πίσω από τις ερπύστριες και τροχούς.\n\nΑπενεργοποιώντας αυτήν της παράμετρο μπορεί να αυξηθεί η απόδοση του συστήματος σας."
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "Ίχνη ερπύστριας και τροχών"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "Εμφανίζει τα ίχνη από τις ερπύστριες και τους τροχούς πάνω στο έδαφος.\n\nΜη διαθέσιμη επιλογή σε Απλοποιημένα ή Κανονικά γραφικά."
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "Απόκρυψη προσαρτημάτων 3D σε Πρώτο Πρόσωπο"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "Κάνει προσωρινά τα προσαρτήματα 3D να μην εμφανίζονται στο στόχαστρο σε Πρώτο Πρόσωπο.\n\nΜειώνει οπτικές ανωμαλίες και βελτιώνει την ακρίβεια στόχευσης."
+
+msgid "WATER_QUALITY"
+msgstr "Ποιότητα νερού"
+
+msgid "WATER_QUALITY/description"
+msgstr "Καθορίζει την ποιότητα σχεδίασης των επιφανειών με νερό."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "Μόνο αδύναμη θωράκιση"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "Όταν ενεργοποιηθεί, η Ένδειξη Διατρητικότητας σας δείχνει μόνο τα αδύναμα σημεία της θωράκισης.\n\nΜε κανονικό πράσινο χρώμα σημειώνεται η μεγάλη πιθανότητα διάτρησης, ενώ με ημιδιάφανο πράσινο χρώμα η μέτρια πιθανότητα διάτρησης. Τα χρώματα μπορεί να διαφέρουν σε λειτουργία αχρωματοψίας."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "Σήμανση Μόνο Αδύναμων Σημείων Θωράκισης"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "Μόνο ισχυρή θωράκιση"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "Όταν ενεργοποιηθεί, η Ένδειξη Διατρητικότητας σας δείχνει μόνο τα ισχυρά σημεία της θωράκισης.\n\nΜε κανονικό κόκκινο χρώμα σημειώνεται η σχεδόν μηδενική πιθανότητα διάτρησης, ενώ με ημιδιάφανο κόκκινο χρώμα η μέτρια πιθανότητα διάτρησης. Τα χρώματα μπορεί να διαφέρουν σε λειτουργία αχρωματοψίας."
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "Σήμανση Μόνο Ισχυρών Σημείων Θωράκισης"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "Όλη η θωράκιση"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "Όταν ενεργοποιηθεί, η Ένδειξη Διατρητικότητας σας δείχνει όλα τα σημεία της θωράκισης.\n\nΗ πράσινη ένδειξη δηλώνει τη μεγαλύτερη πιθανότητα διάτρησης, η κόκκινη ένδειξη δηλώνει την ουσιαστικά μηδενική πιθανότητα διάτρησης, ενώ η πορτοκαλί ένδειξη δηλώνει μέση πιθανότητα να επιτευχθεί διάτρηση της θωράκισης. Τα χρώματα μπορεί να διαφέρουν σε λειτουργία αχρωματοψίας."
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "Σήμανση Ολικής Θωράκισης"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "Σήμανση Θωράκισης"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "Ενεργοποίηση Στο Ξεκίνημα Της Μάχης"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "Η προκαθορισμένη λειτουργία της Ένδειξης Διατρητικότητας ενεργοποιείται στο ξεκίνημα της μάχης. Μπορείτε να την ενεργοποιείτε ή να την απενεργοποιείτε ανά πάσα στιγμή με το πλήκτρο που έχετε ορίσει.\n\nΌταν ενεργοποιηθεί, η Ένδειξη Διατρητικότητας λειτουργεί μόνο σε 1ο Πρόσωπο.\n\nΥποστηριζόμενα είδη μάχης:\n• Τυχαίες Μάχες και Ομαδική Εκπαίδευση\n• Πρώτη Γραμμή\n• Μάχες Arcade\n• Επέλαση\n• Συγκεκριμένες διοργανώσεις. \n\nΜπορεί μελλοντικά να υποστηρίζονται και άλλα είδη μάχης."
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "Ενεργοποίηση Στο Ξεκίνημα Της Μάχης"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "Γραφικά Ένδειξης Διατρητικότητας"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "Συμπαγές"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "Μοτίβο Διαπερατότητας"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "Πυκνότητα"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "Σκίαση"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "Προειδοποίηση Απόδοσης"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "Υψηλή"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "Χαμηλή"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "Μεσαία"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "Ανάλυση"
+
+msgid "aim/cassette"
+msgstr "Γεμιστήρας"
+
+msgid "aim/centralTag"
+msgstr "Κεντρικό Στόχαστρο"
+
+msgid "aim/centralTag/type0"
+msgstr "Ι σε σχήμα Α"
+
+msgid "aim/centralTag/type1"
+msgstr "ΙΙ σε σχήμα Α"
+
+msgid "aim/centralTag/type10"
+msgstr "I σε σχήμα Ο"
+
+msgid "aim/centralTag/type11"
+msgstr "II σε σχήμα Ο"
+
+msgid "aim/centralTag/type12"
+msgstr "IV σε σχήμα Α"
+
+msgid "aim/centralTag/type13"
+msgstr "V σε σχήμα Α"
+
+msgid "aim/centralTag/type2"
+msgstr "IΙΙ σε σχήμα Α"
+
+msgid "aim/centralTag/type3"
+msgstr "Σε σχήμα V"
+
+msgid "aim/centralTag/type4"
+msgstr "Σταυρόνημα Ι"
+
+msgid "aim/centralTag/type5"
+msgstr "Σταυρόνημα ΙΙ"
+
+msgid "aim/centralTag/type6"
+msgstr "Σε σχήμα Τ"
+
+msgid "aim/centralTag/type7"
+msgstr "Σε σχήμα Ι"
+
+msgid "aim/centralTag/type8"
+msgstr "Σημείο στόχευσης Ι"
+
+msgid "aim/centralTag/type9"
+msgstr "Σημείο στόχευσης II"
+
+msgid "aim/condition"
+msgstr "Κατάσταση"
+
+msgid "aim/gunTag"
+msgstr "Στόχαστρο Όπλου"
+
+msgid "aim/gunTag/type0"
+msgstr "Ι σε σχήμα Α (με ένδειξη διατρητικότητας)"
+
+msgid "aim/gunTag/type1"
+msgstr "ΙΙ σε σχήμα Α (με ένδειξη γεμίσματος)"
+
+msgid "aim/gunTag/type10"
+msgstr "II σε σχήμα Ο (με ένδειξη γεμίσματος)"
+
+msgid "aim/gunTag/type11"
+msgstr "III σε σχήμα Ο"
+
+msgid "aim/gunTag/type12"
+msgstr "IV σε σχήμα Α (με ένδειξη διατρητικότητας)"
+
+msgid "aim/gunTag/type13"
+msgstr "V σε σχήμα Α (με ένδειξη γεμίσματος)"
+
+msgid "aim/gunTag/type14"
+msgstr "VI σε σχήμα Α"
+
+msgid "aim/gunTag/type2"
+msgstr "IΙΙ σε σχήμα Α"
+
+msgid "aim/gunTag/type3"
+msgstr "Σταυρόνημα Ι (με ένδειξη διατρητικότητας)"
+
+msgid "aim/gunTag/type4"
+msgstr "Σταυρόνημα ΙΙ (με ένδειξη γεμίσματος)"
+
+msgid "aim/gunTag/type5"
+msgstr "Σταυρόνημα ΙΙΙ"
+
+msgid "aim/gunTag/type6"
+msgstr "Σημείο στόχευσης Ι (με ένδειξη διατρητικότητας)"
+
+msgid "aim/gunTag/type7"
+msgstr "Σημείο στόχευσης II (με ένδειξη γεμίσματος)"
+
+msgid "aim/gunTag/type8"
+msgstr "Σημείο στόχευσης III"
+
+msgid "aim/gunTag/type9"
+msgstr "I σε σχήμα Ο (με ένδειξη διατρητικότητας)"
+
+msgid "aim/mixing"
+msgstr "Στόχευση"
+
+msgid "aim/mixing/type0"
+msgstr "Κύκλος Ι (με ένδειξη γεμίσματος) "
+
+msgid "aim/mixing/type1"
+msgstr "Κύκλος ΙΙ (με μετατοπιζόμενη ένδειξη γεμίσματος)"
+
+msgid "aim/mixing/type2"
+msgstr "Κύκλος ΙΙΙ (δίχως ένδειξη γεμίσματος)"
+
+msgid "aim/mixing/type3"
+msgstr "Κύκλος IV (συμπαγής)"
+
+msgid "aim/mixing/type4"
+msgstr "Σταυρόνημα (με μετατοπιζόμενη ένδειξη γεμίσματος)"
+
+msgid "aim/mixing/type5"
+msgstr "Σταυρόνημα ΙΙ"
+
+msgid "aim/mixing/type6"
+msgstr "Δοκιμή"
+
+msgid "aim/net"
+msgstr "Ενδείξεις"
+
+msgid "aim/net/type0"
+msgstr "Διαγώνιο"
+
+msgid "aim/net/type1"
+msgstr "Οριζόντια"
+
+msgid "aim/net/type2"
+msgstr "Ακτινωτή"
+
+msgid "aim/net/type3"
+msgstr "Με παύλες"
+
+msgid "aim/reloader"
+msgstr "Γέμισμα"
+
+msgid "aim/reloaderTimer"
+msgstr "Χρονόμετρο Γεμίσματος"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "Αλλαγή σε Στόχευση Πυροβολικού"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "Πρόσφατη επιλογή"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "Κάτοψη"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "Προβολή τροχιάς"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "Αυτόματη Αλλαγή Στόχευσης"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "Όταν κουνάτε τη ροδέλα του ποντικιού και φτάνετε σε ένα συγκεκριμένο επίπεδο zoom, η στόχευση θα αλλάζει σε \"Κάτοψη\" ή \"Προβολή τροχιάς\"."
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "Αυτόματη Αλλαγή Στόχευσης"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "Ομαλό zoom κάμερας"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "Προβολή γραμμής πυρός"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "Προβολή/Απόκρυψη της ένδειξης για το κατά πόσο το επιλεγμένο βλήμα θα φτάσει στον στόχο. Εμφανίζεται επίσης ο απαιτούμενος χρόνος."
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "Ένδειξη Γραμμής Πυρός"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "Προβολή ένδειξης θέσης κάμερας"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "Προβολή/Απόκρυψη του επιπέδου του zoom της στόχευσης πυροβολικού."
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "Ένδειξη Θέσης Κάμερας"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "Χειρισμός Κάμερας"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "Εναλλακτικός"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "Τυπικός"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "Στον τυπικό χειρισμό κάμερας, η κάμερα κινείται επάνω, κάτω, αριστερά και δεξιά, Στον εναλλακτικό χειρισμό κάμερας, η κάμερα κινείται εμπρός, πίσω και γύρω από το Α/Κ Πυροβόλο."
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "Χειρισμός Κάμερας"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "Ενδείξεις Μεγέθυνσης"
+
+msgid "alternativeVoices/labels"
+msgstr "Ηχητικά Μηνύματα στη Μάχη"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Ηχητικά μηνύματα στη μάχη"
+
+msgid "apply_button"
+msgstr "Εφαρμογή"
+
+msgid "autodetectButton"
+msgstr "Προτεινόμενες"
+
+msgid "autodetectButton/description"
+msgstr "Καθορίζει τη βέλτιστη ποιότητα εικόνας για τον υπολογιστή σας.\n\nΗ εφαρμογή μπορεί να χρειαστεί λίγη ώρα."
+
+msgid "battlecomm/enableCommendations"
+msgstr "Απονομή Τιμητικών Αναφορών στη μάχη"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "Προβολή προσωπικών εντολών"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "Ένδειξη επικοινωνίας στο πάνες ομάδας"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "Προβολή σήμανσης τοποθεσιών στον χάρτη"
+
+msgid "battlecomm/showMarkers"
+msgstr "Προβολή της σήμανσης των βάσεων σε Τυχαίες Μάχες"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "Προβολή μόνιμης σήμανσης"
+
+msgid "borderlessSize"
+msgstr "Σε Παράθυρο (χωρίς περιθώρια)"
+
+msgid "borderlessSize/description"
+msgstr "Σε Παράθυρο (χωρίς περιθώρια)"
+
+msgid "cancel_button"
+msgstr "Ακύρωση"
+
+msgid "chat/censorshipMessages"
+msgstr "Λογοκρισία προσβλητικών λέξεων στα μηνύματα"
+
+msgid "chat/chatContactsListOnly"
+msgstr "Λήψη μηνυμάτων μόνο από τη λίστα Επαφών"
+
+msgid "chat/disableBattleChat"
+msgstr "Απενεργοποίηση συνομιλίας με συμπαίκτες"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "Αποθήκευση θέσης κάμερας και παραθύρων των καναλιών"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "Αποθήκευση θέσης κάμερας και υπολοίπων παραθύρων"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "Αποδοχή προσκλήσεων μόνο από επαφές στο Γκαράζ"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "Λήψη ειδοποιήσεων του clan"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "Αποδοχή αίτησης επαφής"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "Αποδοχή προσκλήσεων για Ουλαμό στη μάχη"
+
+msgid "chat/removeSpam"
+msgstr "Απόκρυψη spam"
+
+msgid "chat/showDateMessage"
+msgstr "Προβολή ημερομηνίας στα μηνύματα"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "Ειδοποίηση όταν χρήστες συνδέονται/αποσυνδέονται"
+
+msgid "chat/showTimeMessage"
+msgstr "Προβολή ώρας στα μηνύματα"
+
+msgid "colorCorrection"
+msgstr "Ρυθμίσεις Χρώματος"
+
+msgid "colorCorrectionBtn/label"
+msgstr "Διαμόρφωση"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "Ρυθμίσεις Προσαρμογής"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "Φωτεινότητα"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "Αντίθεση"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "Κορεσμός"
+
+msgid "colorSettings/tab/default"
+msgstr "Προκαθορισμένο"
+
+msgid "colorSettings/tab/filters"
+msgstr "Προκαθορισμένα Φίλτρα"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "Ένταση Φίλτρου"
+
+msgid "colorSettings/view/after"
+msgstr "Μετά"
+
+msgid "colorSettings/view/before"
+msgstr "Πριν"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "colorSettings/view/description"
+msgstr "Επιλέξτε μία ρύθμιση εικόνας"
+
+msgid "colorSettings/view/header"
+msgstr "Ρυθμίσεις Χρώματος"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "Επαναφορά"
+
+msgid "colorSettings/view/subTitle"
+msgstr "Επιλογές Ρύθμισης Εικόνας"
+
+msgid "cursor/ArcadeTitle"
+msgstr "Σε 3ο Πρόσωπο"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "Ένδειξη Διατρητικότητας"
+
+msgid "cursor/ArtyTitle"
+msgstr "Πυροβολικό"
+
+msgid "cursor/ContourTitle"
+msgstr "Περίγραμμα"
+
+msgid "cursor/ServerAim"
+msgstr "Ενεργοποίηση στόχευσης του server"
+
+msgid "cursor/SnipperTitle"
+msgstr "Σε 1ο Πρόσωπο"
+
+msgid "cursor/contour/type0"
+msgstr "Βασικό"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "Όταν στοχεύετε εχθρικό όχημα, σχηματίζεται ολόκληρο το περίγραμμά του, συμπεριλαμβανομένων και των στοιχείων που δεν αποτελούν μέρος της θωράκισης και δεν επηρεάζονται από τις βολές σας."
+
+msgid "cursor/contour/type1"
+msgstr "Απλοποιημένο"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "Όταν στοχεύετε εχθρικό όχημα, σχηματίζεται μέρος από το περίγραμμά του, συμπεριλαμβανομένων μόνο των στοιχείων που αποτελούν μέρος της θωράκισης και επηρεάζονται από τις βολές σας."
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "Αδιάτρητη περιοχή"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "Καμία"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "Γέμισμα"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "Υφή"
+
+msgid "cursor/contourLabel"
+msgstr "Τύπος Περιγράμματος"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "Διατρήσιμη περιοχή"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "Καμία"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "Γέμισμα"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "Υφή"
+
+msgid "cursor/overlapContour"
+msgstr "Γραφικά αντικειμένων"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "Η ενεργοποίηση του σχεδιασμού των γραφικών των αντικειμένων μπορεί να μειώσει τις επιδόσεις του συστήματός σας."
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "Προβολή των εμποδίων που θα συναντήσει το βλήμα όταν στοχεύετε εχθρικό όχημα.\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "Γραφικά Αντικειμένων"
+
+msgid "cursor/overlapContourLabel"
+msgstr "Γραφικά Αντικειμένων"
+
+msgid "cursorTitle"
+msgstr "Στόχευση"
+
+msgid "defaultBtn"
+msgstr "Προεπιλογή"
+
+msgid "defaultNamePrefix"
+msgstr "Παίκτης"
+
+msgid "dynamicCamera"
+msgstr "Ενεργοποίηση δυναμικής κάμερας"
+
+msgid "dynamicFov"
+msgstr "Δυναμικό FoV"
+
+msgid "dynamicFov/description"
+msgstr "Το Δυναμικό FoV επιτρέπει να ορίσετε την ελάχιστη και τη μέγιστη οπτική γωνία σε 3ο Πρόσωπο.\n\nΗ μέγιστη γωνία χρησιμοποιείται όταν η κάμερα έχει κάνει zoom out στο όχημα.\n\nΗ ελάχιστη γωνία χρησιμοποιείται όταν η κάμερα έχει κάνει zoom in στο όχημα."
+
+msgid "dynamicRenderer"
+msgstr "Ανάλυση 3D Γραφικών"
+
+msgid "dynamicRenderer/description"
+msgstr "Καθορίζει την ποιότητα των λεπτομερειών και της εμφάνισης του παιχνιδιού.\n\nΗ ανάλυση των 3D γραφικών μέσα στη μάχη μπορεί επίσης να αλλάξει με το [RShift +] και το [RShift -]. Δεν επηρεάζεται η επιφάνεια διασύνδεσης στη μάχη.\n\nΜειώνοντας αυτή την παράμετρο μπορεί να αυξηθεί η απόδοση του συστήματος όταν δεν υπάρχει ισχυρή κάρτα γραφικών."
+
+msgid "edgeDetectAA"
+msgstr "Edge detect AA"
+
+msgid "feedBack"
+msgstr "Ειδοποιήσεις Μάχης"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "Πλαίσιο Χάρτη"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "Φθορά Μετά Το Σοκ Από Εσάς"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "Πόντοι κατάληψη βάσης"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "Πόντοι υπεράσπισης βάσης"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "Φθορά που αποσοβήθηκε"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "Φωτιά σε εχθρικό όχημα"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "Κρίσιμη φθορά"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "Εντοπισμός"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "Φθορά από εντοπισμό"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "Φθορά από βολή"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "Καταστροφή εχθρικού οχήματος"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "Φθορά από εμβολισμό"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "Καταστροφή ερπύστριας"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "Γεγονότα"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "Κρίσιμη φθορά"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "Φθορά"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "Προβολή στη μάχη"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "Πληροφορίες οχήματος"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "Φθορά από πρόσκρουση"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "Όλες οι περιστασιακές ικανότητες"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "Τα 3 πιο πρόσφατα γεγονότα\nεμφανίζονται στη μάχη"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "Γεγονότα μάχης"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "Ειδοποιήσεις"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "Γεγονότα"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "Ικανότητες Πληρώματος"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "Προσλαμβανόμενη φθορά"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "Επιδόσεις στη Μάχη"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "Προσλαμβανόμενη φθορά"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "Η απόκρυψη του πλαισίου του χάρτη μπορεί να σας αποπροσανατολίσει στη μάχη."
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "Με το Alt"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "Πάντα τονισμένο"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "Χωρίς τονισμό"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "Κατά την προσέγγιση"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "Επιπρόσθετος τονισμός"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "Διακεκομμένη γραμμή"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "Να μην προβάλλεται"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "Τύπος Πλαισίου"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "Τείχος"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "Ένδειξη Κατεύθυνσης Πυρών"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "Φίλια πυρά"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "Φθορά"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "Βολή που αποκρούστηκε"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "Κρίσιμη φθορά\nστο όχημά σας"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "x3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "Προσλαμβανόμενη φθορά"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "Χαλασμένο εξάρτημα"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "Πληροφορίες"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "Κινούμενη Προβολή"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "Φθορά"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "Δυναμικές ενδείξεις"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "Πληροφορίες οχήματος"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "Προβολή στη Μάχη"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "Όλα"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "Φίλια πυρά"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "Κρίσιμα χτυπήματα"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "Εκτός κρίσιμων πληγμάτων"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "Εκτεταμένα"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "Τυπικά"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "Τύπος"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "Αρχείο Καταγραφής"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "Εξαιτίας του σοκ από εσάς"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "Αποσοβήθηκε από τη θωράκιση"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "Φθορά από εντοπισμό αντιπάλων"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "Φθορά σε αντιπάλους"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "Πάντα προβολή"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Για προβολή πιέστε το Alt"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "Να μην εμφανίζονται"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "Λεπτομέρειες φθοράς"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "Όλα τα γεγονότα κάτω"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "Η προσλαμβανόμενη φθορά επάνω"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "Θέσεις προβολής γεγονότων"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "Όλα τα γεγονότα"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "Τύπος γεγονότος"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "Προσλαμβανόμενη φθορά"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "Επιδόσεις στη Μάχη"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "Ενεργοποίηση αυτής της ρύθμισης δεν ενδείκνυται\nσε χαμηλή ανάλυση"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "Σύνοψη φθοράς"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "Ένα πεδίο με αναλυτικές πληροφορίες σχετικά με τη φθορά. Περιέχει όλες τα στοιχεία που αφορούν την αποτελεσματικότητά σας στη μάχη."
+
+msgid "feedback/tab/eventsInfo"
+msgstr "Γεγονότα μάχης"
+
+msgid "feedback/tab/questsProgress"
+msgstr "Αναφορά Μάχης & Αποστολές"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "Αποτελέσματα Μάχης"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "Λεπτομέρειες Αποστολής"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "Προβολή εικονιδίων\nοχημάτων ανά βαθμίδα"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "Προβολή μπάρας HP ομάδας"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "Προβολή διαφοράς HP\nομάδων"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "Προβολή αριθμού HP ομάδας"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "Προβολή όλων"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "Προβολή μόνο προόδου"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "Εναλλακτικό"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "Να μην προβάλλεται"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "Τυπικά"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "Προβολή αποστολών"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "Πεδίο Ορατότητας (FoV)"
+
+msgid "fov/description"
+msgstr "Καθορίζει το εύρος της ορατότητας στο παιχνίδι.\n\nΤο κανονικό πεδίο ορατότητας (FoV) είναι 95°. Όσο μικρότερο είναι το πεδίο ορατότητας τόσο πιο μεγεθυμένα είναι τα αντικείμενα ενώ μειώνεται η περιφερειακή ορατότητα.\n\nAυτή η παράμετρος δεν επηρεάζει την απόδοση του συστήματος σας."
+
+msgid "game/anonymizer"
+msgstr "Λάβετε μέρος σε μάχες ως ανώνυμος"
+
+msgid "game/battleLoadingInfo"
+msgstr "Συμβουλές στην οθόνη φόρτωσης μάχης"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "Μικρογραφία Χάρτη"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "Μόνο κείμενο"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "Εικονογραφημένες συμβουλές"
+
+msgid "game/battlePanelSettings"
+msgstr "Ρυθμίσεις Μάχης"
+
+msgid "game/carouselType"
+msgstr "Πίνακας οχημάτων"
+
+msgid "game/carouselType/double"
+msgstr "Δύο επιπέδων"
+
+msgid "game/carouselType/single"
+msgstr "Ενός επιπέδου"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "Προβολή στατιστικών με το ποντίκι πάνω από όχημα"
+
+msgid "game/commanderCamEnabled"
+msgstr "Ενεργοποίηση Στρατηγικής Προβολής"
+
+msgid "game/customizationDisplayType"
+msgstr "Προβολή στοιχείων προσαρμογής στη μάχη"
+
+msgid "game/customizationDisplayType/all"
+msgstr "Ιστορικά, Μη Ιστορικά και Φαντασίας"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "Ιστορικά"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "Ιστορικά & Μη Ιστορικά"
+
+msgid "game/displayPlatoonMembers"
+msgstr "Προβολή των οχημάτων των μελών του Ουλαμού στο Γκαράζ"
+
+msgid "game/doubleCarousel/label"
+msgstr "Δύο-Επιπέδων"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "Προσαρμόσιμο"
+
+msgid "game/doubleCarouselType/small"
+msgstr "Μινιμαλιστικό"
+
+msgid "game/dynamicCamera"
+msgstr "Ενεργοποίηση δυναμικής κάμερας"
+
+msgid "game/enableBattleNotifier"
+msgstr "Αποτελέσματα προηγούμενης μάχης στη συνομιλία"
+
+msgid "game/enableMortalPostEffect"
+msgstr "Ενεργοποίηση post effect σε λειτουργία Postmortem"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "Ενεργοποίηση οπτικών εφέ σε 1ο πρόσωπο"
+
+msgid "game/enableRepairTimer"
+msgstr "Προβολή χρόνου επισκευών χαλασμένων εξαρτημάτων"
+
+msgid "game/enableSpeedometer"
+msgstr "Προβολή του ταχύμετρου στα τροχήλατα οχήματα"
+
+msgid "game/enableVoIP"
+msgstr "Φωνητική Συνομιλία"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "Επικοινωνία Μάχης"
+
+msgid "game/fieldset/headerChat"
+msgstr "Συνομιλία"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "Μικρογραφία Χάρτη"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "Σήμανση Οχημάτων"
+
+msgid "game/hangarCamCheckbox"
+msgstr "Κινούμενη κάμερα στο Γκαράζ όταν κινείται το ποντίκι"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "Εναλλαγή αδράνειας κάμερας στο Γκαράζ"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "Κινούμενη Κάμερα στο Γκαράζ"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "Ποτέ"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 sec"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 sec"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 sec"
+
+msgid "game/horStabilizationSnp"
+msgstr "Οριζόντια σταθεροποίηση στη Στόχευση σε 1ο Πρόσωπο"
+
+msgid "game/hullLockEnabled"
+msgstr "Αυτόματο κλείδωμα σκάφους σε 1ο Πρόσωπο"
+
+msgid "game/increasedZoom/base"
+msgstr "Ενεργοποίηση %(zooms)s"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " και "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "Επιλογή server με την εκκίνηση του παιχνιδιού"
+
+msgid "game/minimapDrawRange"
+msgstr "Προβολή του κύκλου σχεδίασης"
+
+msgid "game/minimapGroupTitle"
+msgstr "Μικρογραφία Χάρτη"
+
+msgid "game/minimapMaxViewRange"
+msgstr "Προβολή του κύκλου μέγιστου εύρους ορατότητας"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "Προβολή του κύκλου εντοπισμού από εγγύτητα"
+
+msgid "game/minimapViewRange"
+msgstr "Προβολή του κύκλου εύρους ορατότητας"
+
+msgid "game/newbeeTipsTitle"
+msgstr "Συμβουλές"
+
+msgid "game/newbieBattleHints"
+msgstr "Συμβουλές για αρχάριους στις Τυχαίες Μάχες"
+
+msgid "game/newbiePrebattleHints"
+msgstr "Συμβουλές για αρχάριους στην οθόνη φόρτωσης μάχης"
+
+msgid "game/optimizeGraphics"
+msgstr "Βελτιστοποίηση γραφικών διασύνδεσης"
+
+msgid "game/playersPanelState/large"
+msgstr "Πλήρης Πίνακας"
+
+msgid "game/playersPanelState/medium"
+msgstr "Μέτριος"
+
+msgid "game/playersPanelState/none"
+msgstr "Κανένας Πίνακας"
+
+msgid "game/playersPanelState/short"
+msgstr "Μικρός Πίνακας"
+
+msgid "game/postmortemMode"
+msgstr "Λειτουργία Postmortem"
+
+msgid "game/postmortemMode/analysis"
+msgstr "Η στιγμή της καταστροφής του οχήματός σας (λεπτομερώς)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "Το όχημα που κατέστρεψε το όχημά σας"
+
+msgid "game/postmortemMode/self"
+msgstr "Το όχημά σας"
+
+msgid "game/postmortemMode/simple"
+msgstr "Η στιγμή της καταστροφής του οχήματός σας (συντόμως)"
+
+msgid "game/ppShowLevels"
+msgstr "Προβολή βαθμίδας οχήματος"
+
+msgid "game/ppShowTypes"
+msgstr "Προβολή τύπου οχήματος"
+
+msgid "game/ppStartStateLabel"
+msgstr "Τύπος"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "Ενεργοποίηση Κάμερας Αρχηγού"
+
+msgid "game/replayEnabled"
+msgstr "Ενεργοποίηση καταγραφής μάχης"
+
+msgid "game/replayEnabled/all"
+msgstr "Όλες"
+
+msgid "game/replayEnabled/last"
+msgstr "Τελευταία"
+
+msgid "game/replayEnabled/none"
+msgstr "Καμία"
+
+msgid "game/showArtyHitOnMap"
+msgstr "Προβολή της περιοχής που θα πλήξει το Α/Κ Πυροβόλο"
+
+msgid "game/showDamageIcon"
+msgstr "Εμφάνιση ειδοποιήσεων όταν δεν προκαλείται φθορά"
+
+msgid "game/showDogTag"
+msgstr "Προβολή Μεταλλικής Ταυτότητας"
+
+msgid "game/showDogTagToKiller"
+msgstr "Προβολή της Μεταβλητής Μεταλλικής Ταυτότητας"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "Προβολή πληροφοριών κατεστραμμένων οχημάτων"
+
+msgid "game/showKillersDogTag"
+msgstr "Μεταλλική Ταυτότητα του αντιπάλου που σας κατέστρεψε"
+
+msgid "game/showLanguageBar"
+msgstr "Προβολή Πίνακα Γλώσσας"
+
+msgid "game/showMarksOnGun"
+msgstr "Προβολή Διακριτικών Υπεροχής"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "Προβολή της Κινούμενης Μεταλλικής Ταυτότητας"
+
+msgid "game/showSectorOnMap"
+msgstr "Προβολή τροχιάς βολών Α/Κ Πυροβόλου"
+
+msgid "game/showVectorOnMap"
+msgstr "Προβολή κατεύθυνσης πυρών"
+
+msgid "game/showVehModelsOnMap"
+msgstr "Ενεργοποίηση διευρυμένων λειτουργιών χάρτη"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Με το πλήκτρο Alt"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "Πάντα"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "Ποτέ"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "Προβολή HP οχημάτων στο minimap"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Με το πλήκτρο Alt"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "Πάντα"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "Ποτέ"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "Προβολή HP οχημάτων στο πάνελ των ομάδων"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Με το πλήκτρο Alt"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "Πάντα"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "Ποτέ"
+
+msgid "game/showVehicleIcon"
+msgstr "Προβολή εικονιδίων οχημάτων"
+
+msgid "game/showVehicleLevel"
+msgstr "Προβολή βαθμίδας οχημάτων"
+
+msgid "game/showVehiclesCounter"
+msgstr "Προβολή σήμανσης οχημάτων στον Πίνακα Μάχης"
+
+msgid "game/showVictimsDogTag"
+msgstr "Προβολή Ταυτότητας αντιπάλων που καταστρέψατε"
+
+msgid "game/sniperModeByShift"
+msgstr "Περιορισμός αλλαγής σε 1ο Πρόσωπο μόνο με το Shift"
+
+msgid "game/sniperZoom"
+msgstr "Προτιμητέο Ζουμ Σε 1ο Πρόσωπο"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "Πιο Πρόσφατο"
+
+msgid "game/switchEquipment"
+msgstr "Αλλαγή διαμόρφωσης στην οθόνη αναμονής"
+
+msgid "game/w2gtEnable"
+msgstr "Ενεργοποιήστε τις ζώνες εμπλοκής στο minimap"
+
+msgid "gameTitle"
+msgstr "Γενικά"
+
+msgid "gameplay/devMaps"
+msgstr "Παίξτε σε χάρτες με Τυχαία Γεγονότα"
+
+msgid "gameplay/nations"
+msgstr "Μάχη Αναμέτρησης"
+
+msgid "gamma"
+msgstr "Gamma"
+
+msgid "gammaBtn/label"
+msgstr "Διαμόρφωση"
+
+msgid "gammaWizard/apply"
+msgstr "Εφαρμογή"
+
+msgid "gammaWizard/cancel"
+msgstr "Ακύρωση"
+
+msgid "gammaWizard/closeBtn"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "gammaWizard/default"
+msgstr "Προεπιλογή"
+
+msgid "gammaWizard/description"
+msgstr "Κουνήστε την μπάρα μέχρι το φόντο και το λογότυπο να έχουν την ίδια φωτεινότητα. Κλείστε μερικώς τα μάτια σας ή απομακρυνθείτε από την οθόνη, για να μην φαίνονται οι λεπτομέρειες της εικόνας."
+
+msgid "gammaWizard/header"
+msgstr "Gamma"
+
+msgid "gammaWizard/title"
+msgstr "Ρυθμίσεις Gamma"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "Επιτρέπει τη ρύθμιση της φωτεινότητας μέσα από το παιχνίδι για βελτιστοποίηση της εικόνας.\nΗ επιλογή αυτή έχει σκοπό την αντιστάθμιση των εφέ \nπου προκαλούν οι drivers της κάρτας γραφικών \nκαι οι ρυθμίσεις της οθόνη οι οποίες επηρεάζουν την ποιότητα της εικόνας."
+
+msgid "gammaWizard/tooltip/header"
+msgstr "Gamma"
+
+msgid "graficTitle"
+msgstr "Γραφικά"
+
+msgid "graphics/block/effects"
+msgstr "Εφέ"
+
+msgid "graphics/block/greenery"
+msgstr "Βλάστηση"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "Έδαφος και νερό"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "Φωτισμός και post processing"
+
+msgid "graphics/block/main"
+msgstr "Βασικά"
+
+msgid "graphics/tabAdvanced"
+msgstr "Λεπτομέρειες"
+
+msgid "graphics/tabScreen"
+msgstr "Οθόνη"
+
+msgid "graphicsQuality"
+msgstr "Ποιότητα γραφικών"
+
+msgid "graphicsQuality/description"
+msgstr "Καθορίζει την γενική ποιότητα της εικόνας. Καθορίζει τις παραμέτρους στην καρτέλα ‘Λεπτομέρειες’.\n\nΜειώνοντας την ποιότητα των γραφικών μπορεί:\n• Να αυξηθεί η απόδοση του συστήματος σας.\n• Να προκληθεί αποσυγχρονισμός μεταξύ client και server στην προβολή του τοπίου.\n\nΧρήση της ελάχιστης ποιότητας μόνο σε περίπτωση χαμηλής απόδοσης του υπολογιστή."
+
+msgid "graphicsQualityHDSD"
+msgstr "Τύποι Client"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "Ο HD Client εγκαταστάθηκε"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "Εγκατεστημένος ο Βασικός (SD) Client"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "Βασικός Client—το πλήρες παιχνίδι χωρίς τα μέγιστης ποιότητας γραφικά.\n\nHD Client—το πλήρες παιχνίδι μαζί με τα μέγιστης ποιότητας γραφικά. Απαιτείται περισσότερος χώρος στον σκληρό δίσκο από ότι με τον Βασικό Client."
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "Τύποι Client"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "HD Client—το πλήρες παιχνίδι μαζί με τα μέγιστης ποιότητας γραφικά. Απαιτείται περισσότερος χώρος στον σκληρό δίσκο από ότι με τον Βασικό Client.\n\nΒασικός Client—το πλήρες παιχνίδι χωρίς τα μέγιστης ποιότητας γραφικά."
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "Οι επιλογές Μέγιστη (SD) και Σούπερ (SD) δεν παρέχουν την καλύτερη δυνατή Ποιότητα Γραφικών. Για την καλύτερη δυνατή ποιότητα γραφικών, αλλάξτε σε HD Client από τον launcher του παιχνιδιού."
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "Ανισοτροπικό 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "Ανισοτροπικό 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "Ανισοτροπικό 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "Ανισοτροπικό 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "Διγραμμική"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "Προσαρμογή"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "Σινεμά του ‘40"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "Αντίθεση"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "Βελτιωμένη"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "Μακρινή"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "Κανονική"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "Υψηλή"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "Χαμηλή"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "Πολύ χαμηλή"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "Μέγιστη"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "Μέγιστη (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "Μεσαία"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "Ελάχιστη"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "Χωρίς Ήχο"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "Κοντινή"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "Απενεργοποίηση"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "Απενεργοποίηση"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "ΕΝΕΡΓΟΠΟΙΗΣΗ"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "Απλοποιημένη"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "Βελτιωμένη"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "Σημείο"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "Φωτοχρωματικό"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "Τυχαίο"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "Βασική"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "Βαθύ"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "Απαλά χρώματα"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "Τριγραμμική"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "Σούπερ"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "Σούπερ (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "Πολύ υψηλή"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "Πολύ υψηλή"
+
+msgid "igbHardwareAcceleration"
+msgstr "Hardware Acceleration του Browser"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "Μόλις αυτή η ρύθμιση ενεργοποιηθεί, το online περιεχόμενο θα χρησιμοποιηθεί κατά προτεραιότητα τη GPU αντί για τη CPU.\n\nΑπενεργοποιήστε αυτήν τη ρύθμιση εάν διαπιστώσετε προβλήματα σε κάποια παράθυρα.\n\nΗ αλλαγή θα γίνει αφότου κάνετε επανεκκίνηση του παιχνιδιού."
+
+msgid "interfaceScale"
+msgstr "Προσαρμογή Διασύνδεσης"
+
+msgid "interfaceScale/attention"
+msgstr "Σε δοκιμαστικό στάδιο,\nδεν επηρεάζει την απόδοση του παιχνιδιού."
+
+msgid "interfaceScale/body"
+msgstr "Αυτόματη προσαρμογή των στοιχείων της διασύνδεσης\nκατά τη μεγιστοποίηση οθόνης/παραθύρου του παιχνιδιού."
+
+msgid "interfaceScale/description"
+msgstr "Αυτόματη προσαρμογή των στοιχείων της διασύνδεσης κατά τη μεγιστοποίηση οθόνης/παραθύρου του παιχνιδιού."
+
+msgid "interfaceScale/header"
+msgstr "Προσαρμογή Διασύνδεσης"
+
+msgid "interfaceScale/warning"
+msgstr "Σε δοκιμαστικό στάδιο, δεν επηρεάζει την απόδοση του παιχνιδιού."
+
+msgid "interfaceScaleDisabled"
+msgstr "Κλίμακα Διασύνδεσης"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "Διαθέσιμη μόνο για ανάλυση 4Κ."
+
+msgid "interfaceScaleDisabled/body"
+msgstr "Αυτόματη προσαρμογή των στοιχείων διασύνδεσης\nσε μεγιστοποίηση του παραθύρου/οθόνης του παιχνιδιού."
+
+msgid "interfaceScaleDisabled/description"
+msgstr "Αυτόματη προσαρμογή των στοιχείων διασύνδεσης σε μεγιστοποίηση του παραθύρου/οθόνης του παιχνιδιού."
+
+msgid "interfaceScaleDisabled/header"
+msgstr "Κλίμακα Διασύνδεσης"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "Διαθέσιμη μόνο για ανάλυση 4Κ."
+
+msgid "isColorBlind"
+msgstr "Λειτουργία αχρωματοψίας"
+
+msgid "isColorBlind/description"
+msgstr "Προσαρμογή της παλέτας χρωμάτων για χρήστες με αχρωματοψία."
+
+msgid "keyboard/backDraftInvert"
+msgstr "Αντίθετο στρίψιμο στην όπισθεν"
+
+msgid "keyboard/keyboard"
+msgstr "Πληκτρολόγιο"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "Θετικόν!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "Αλλαγή Στόχευσης"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "Κλείδωμα Σκάφους / Αλλαγή Φάσης"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "Πίσω"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "Πίσω"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "\"Χειρόφρενο\""
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "Κάτω"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "Αριστερά"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "Δεξιά"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "Πάνω"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "Ρίψη Ομοβροντίας"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "Υποχώρηση!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "Πυρ"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "Μπροστά"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "Εμπρός"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "Εγκατάλειψη Οχήματος (στην Πρώτη Γραμμή)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "Βοήθεια!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "Σήμανση θέσης"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "Σήμανση ενεργού στόχου"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "Αναλώσιμο 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "Αναλώσιμο 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "Αναλώσιμο 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "Αναλώσιμο 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "Αναλώσιμο 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "Αναλώσιμο 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "Αναλώσιμο 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "Αναλώσιμο 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "Αναλώσιμο 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "Αναλώσιμο 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "Αριστερά"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "Αυτόματη Σκόπευση"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "Απενεργοποίηση Αυτόματης-Σκόπευσης"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "Αρνητικό!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "Ενεργοποίηση Μικροφώνου"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "Ολικό Γέμισμα Γεμιστήρα"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "Γέμισμα!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "Δεξιά"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "Απόκρυψη Επιφάνειας Διασύνδεσης Μάχης"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "Ενεργοποίηση Προσωπικών Αποθεμάτων"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "Πρόοδος Προσωπικών Αποστολών"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "Προβολή μενού εντολών / Επικύρωση εντολής"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "Σμίκρυνση"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "Μεγέθυνση"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "Ειδική Δυνατότητα"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "Στάση και Πυρ"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "Ευχαριστώ!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "Εναλλαγή Ένδειξης Διατρητικότητας"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "Προβολή Τροχιάς"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "Ορισμός ηχητικού σήματος"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "Απόκρυψη/Προβολή"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "Φωνητική συνομιλία σε Δυναμικό Ουλαμό"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "Κάμερα"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "Χειρισμός αυτόματης κίνησης"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "Αναλώσιμα"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "Πυρ"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "Μικρογραφία Χάρτη"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "Κίνηση"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "Μηνύματα"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "Επικοινωνία Ομάδας"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "Λοιπά"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "Ηχητική Συνομιλία"
+
+msgid "keyboard/mouse"
+msgstr "Ποντίκι"
+
+msgid "keyboardTitle"
+msgstr "Χειρισμοί"
+
+msgid "limitedUI/desc"
+msgstr "Σταδιακή εμφάνιση κρυφών στοιχείων στο Γκαράζ"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "Απενεργοποίηση"
+
+msgid "marker/AllyTitle"
+msgstr "Συμπαίκτες"
+
+msgid "marker/DeadTitle"
+msgstr "Κατεστραμμένο"
+
+msgid "marker/EnemyTitle"
+msgstr "Αντίπαλοι"
+
+msgid "marker/aimMarker2D"
+msgstr "Ένδειξη Αυτόματης Σκόπευσης"
+
+msgid "marker/alt"
+msgstr "Εναλλακτικό"
+
+msgid "marker/base"
+msgstr "Προεπιλογή"
+
+msgid "marker/damage"
+msgstr "Προσλαμβανόμενη φθορά"
+
+msgid "marker/dead"
+msgstr "Σήμανση κατεστραμμένων αρμάτων"
+
+msgid "marker/hp"
+msgstr "Ζωή οχήματος"
+
+msgid "marker/hp/type0"
+msgstr "Ποσοστό %"
+
+msgid "marker/hp/type1"
+msgstr "HP υπολειπόμενα/σύνολο"
+
+msgid "marker/hp/type2"
+msgstr "HP υπολειπόμενα"
+
+msgid "marker/hp/type3"
+msgstr "Απόκρυψη"
+
+msgid "marker/hpIndicator"
+msgstr "Ένδειξη Ζωής"
+
+msgid "marker/icon"
+msgstr "Εικονίδιο οχήματος"
+
+msgid "marker/level"
+msgstr "Βαθμίδα οχήματος"
+
+msgid "marker/level/tooltip/body"
+msgstr "Όταν η επιλογή αυτή είναι ενεργοποιημένη, θα εμφανίζεται η βαθμίδα του οχήματος πάνω από αυτό.\n\nΣτις Μάχες Καταδίωξης θα εμφανίζεται το τρέχον επίπεδο αναβάθμισης."
+
+msgid "marker/level/tooltip/header"
+msgstr "Βαθμίδα οχήματος"
+
+msgid "marker/name"
+msgstr "Μοντέλο οχήματος"
+
+msgid "marker/name/type2"
+msgstr "Απόκρυψη"
+
+msgid "marker/nickname"
+msgstr "Όνομα παίκτη"
+
+msgid "markerTitle"
+msgstr "Σήμανση"
+
+msgid "minimap/labels/alpha"
+msgstr "Διαφάνεια Χάρτη"
+
+msgid "minimap/labels/size"
+msgstr "Μέγιστο μέγεθος"
+
+msgid "monitor"
+msgstr "Οθόνη"
+
+msgid "monitor/description"
+msgstr "Επιλογή της πρωταρχικής οθόνης για το παιχνίδι."
+
+msgid "mouse/sensitivity/art"
+msgstr "Στόχευση Πυροβολικού"
+
+msgid "mouse/sensitivity/art2"
+msgstr "Προβολή τροχιάς"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "Ελεύθερη Κάμερα"
+
+msgid "mouse/sensitivity/header"
+msgstr "Ευαισθησία"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "Οριζόντια αντιστροφή"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "Κάθετη αντιστροφή"
+
+msgid "mouse/sensitivity/main"
+msgstr "Στόχευση σε 3ο πρόσωπο"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "Στόχευση σε 1ο πρόσωπο"
+
+msgid "mouse/startDist"
+msgstr "Θέση κάμερας"
+
+msgid "ok_button"
+msgstr "OK"
+
+msgid "otherSettings/fieldset/header"
+msgstr "Στοιχεία Ήχου Περιβάλλοντος"
+
+msgid "otherSettings/labels/bulb"
+msgstr "Ήχος \"Έκτης Αίσθησης\""
+
+msgid "otherTitle"
+msgstr "Λοιπά"
+
+msgid "physicsQuality"
+msgstr "Ποιότητα Ήχου"
+
+msgid "refreshRate"
+msgstr "Ρυθμός Σάρωσης Οθόνης"
+
+msgid "refreshRate/default"
+msgstr "Προεπιλογή"
+
+msgid "refreshRate/description"
+msgstr "Ρυθμός ανανέωσης της εικόνας στην οθόνη μέσα στο παιχνίδι.\n\nΗ επιλογή μη κατάλληλου ρυθμού σάρωσης μπορεί να προκαλέσει τρεμοπαίξιμο της οθόνης.\n\nAυτή η παράμετρος δεν επηρεάζει την απόδοση του συστήματος σας."
+
+msgid "resolution"
+msgstr "Ανάλυση Οθόνης"
+
+msgid "resolution/description"
+msgstr "Οριζόντια και κάθετη ανάλυση της οθόνης σε λειτουργία πλήρους οθόνης. Η υψηλότερη ανάλυση βελτιώνει την ποιότητα της εικόνας. Η επιλογή μη κατάλληλης ανάλυσης σε λειτουργία πλήρους οθόνης μπορεί να προκαλέσει στρέβλωση της εικόνας.\n\nΑυξάνοντας αυτή την παράμετρο μπορεί να επιβαρυνθεί η κάρτα γραφικών σας και να μειωθεί η απόδοση του συστήματος σας.\n\nΟ φόρτος της κάρτας γραφικών μπορεί μειωθεί ρυθμίζοντας την ανάλυση των 3D γραφικών."
+
+msgid "restartNewbieBattleHints"
+msgstr "Επαναφορά Συμβουλών Για Αρχάριους"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "Κάντε επαναφορά του ιστορικού των συμβουλών για αρχάριους για να γίνει ξανά προβολή συμβουλών που έχετε ήδη διαβάσει."
+
+msgid "screenMode"
+msgstr "Τύπος προβολής"
+
+msgid "screenMode/borderless"
+msgstr "Σε Παράθυρο (χωρίς περιθώρια)"
+
+msgid "screenMode/description"
+msgstr "Εναλλαγή μεταξύ πλήρους οθόνης, παραθύρου και παραθύρου (χωρίς περιθώρια). Ο τύπος προβολής σε παράθυρο μειώνει τις επιδόσεις του συστήματός σας."
+
+msgid "screenMode/fullscreen"
+msgstr "Πλήρης Οθόνη"
+
+msgid "screenMode/label"
+msgstr "Τύπος:"
+
+msgid "screenMode/windowed"
+msgstr "Σε παράθυρο"
+
+msgid "smoothing/description"
+msgstr "Καθορίζει σε ποιο βαθμό θα γίνεται επιπλέον επεξεργασία στις λεπτές γραμμές και στο περίγραμμα των αντικειμένων του παιχνιδιού. Βελτιώνει την εξομάλυνση. Το περίγραμμα των αντικειμένων φαίνεται πιο φυσικό."
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "Τυπικός"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "Ήχος χρήστη"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "Παράμετρος 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "Παράμετρος 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "Ήχος χρήστη"
+
+msgid "sound/dynamicRange/label"
+msgstr "Δυναμικό εύρος"
+
+msgid "sound/fieldset/header"
+msgstr "Ένταση"
+
+msgid "sound/players_notifications"
+msgstr "Ειδοποιήσεις από άλλους παίκτες"
+
+msgid "sound/presets/title"
+msgstr "Προεπιλογές"
+
+msgid "sound/soundModes/U01"
+msgstr "Χρήστης 1"
+
+msgid "sound/soundModes/U02"
+msgstr "Χρήστης 2"
+
+msgid "sound/soundModes/U03"
+msgstr "Χρήστης 3"
+
+msgid "sound/soundModes/U04"
+msgstr "Χρήστης 4"
+
+msgid "sound/soundModes/default"
+msgstr "Τυπικά"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "Αρχηγός"
+
+msgid "sound/special/field/set"
+msgstr "Ένταση γεγονότος"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "Ανανέωση Συσκευών"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "Τέλος Δοκιμής"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "Έναρξη Δοκιμής"
+
+msgid "sound/vivox/fade_volume"
+msgstr "Ένταση Περιβάλλοντος Κατά Τη Συνομιλία"
+
+msgid "sound/vivox/master_volume"
+msgstr "Ένταση φωνητικής συνομιλίας"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "Ευαισθησία μικροφώνου"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Δοκιμή Vivox"
+
+msgid "soundTitle"
+msgstr "Ήχος"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "Αυτόματα"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "ήχος 2.0/2.1"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "ήχος 5.1"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "ήχος 7.1"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "ακουστικά"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "Κέντρο"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "Αριστερά"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "Αριστερά πίσω"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "Αριστερά μπροστά"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "Αριστερά πλάι"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "Δεξιά"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "Δεξιά πίσω"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "Δεξιά μπροστά"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "Δεξιά πλάι"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "Subwoofer"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "laptop"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "Δοκιμή ήχου:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "Δοκιμή ήχου"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "Τα φωνητικά μηνύματα εξαρτώνται από την εθνικότητα του οχήματος και το φύλλο του αρχηγού"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "Αρχηγός"
+
+msgid "sounds/altVoice/default/body"
+msgstr "Αντρική φωνή στη γλώσσα του client"
+
+msgid "sounds/altVoice/default/header"
+msgstr "Κανονική"
+
+msgid "sounds/ambient"
+msgstr "Περιβάλλον"
+
+msgid "sounds/arena"
+msgstr "Μουσική στη Μάχη"
+
+msgid "sounds/artyBulbVoices"
+msgstr "Ηχητικός Εντοπισμός"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "Επιλέξτε μία παράμετρο για τον ήχο του Ηχητικού Εντοπισμού. Για να χρησιμοποιήσετε δικό σας ήχο, μετονομάστε το αρχείο σας .mp3 σε soundExploring και μετακινήστε το στο φάκελο res/audioww."
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "Ήχος Ενεργοποίησης Ηχητικού Εντοπισμού"
+
+msgid "sounds/bassBoost"
+msgstr "Χαμηλές συχνότητες"
+
+msgid "sounds/bassBoost/description"
+msgstr "Ενισχύει τις χαμηλές συχνότητες μέσα στο παιχνίδι ενώ η γενική ένταση του ήχου παραμένει η ίδια. Τα αποτελέσματα της εφαρμογής μπορεί να διαφέρουν ανάλογα με το επιλεγμένο σύστημα ήχου (ηχεία, ακουστικά ή laptop)."
+
+msgid "sounds/bulbVoices"
+msgstr "Έκτη Αίσθηση"
+
+msgid "sounds/bulbVoices/description"
+msgstr "Επιλέξτε μία παράμετρο για τον ήχο της Έκτης Αίσθησης. Για να χρησιμοποιήσετε δικό σας ήχο, μετονομάστε το αρχείο σας .mp3 σε sixthSense και μετακινήστε το στο φάκελο res/audioww."
+
+msgid "sounds/effects"
+msgstr "Εφέ"
+
+msgid "sounds/gui"
+msgstr "Διασύνδεση"
+
+msgid "sounds/hangar"
+msgstr "Μουσική στο Γκαράζ"
+
+msgid "sounds/masterVolume"
+msgstr "Γενική Ένταση Ήχου"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "Ενεργοποίηση ήχου"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "Η απενεργοποίηση των ηχητικών εφέ του παιχνιδιού μπορεί να αυξήσει τις επιδόσεις του συστήματός σας. Θα πρέπει να γίνει επανεκκίνηση του client πριν γίνει εφαρμογή των αλλαγών."
+
+msgid "sounds/nightMode"
+msgstr "Νυχτερινή Λειτουργία"
+
+msgid "sounds/nightMode/description"
+msgstr "Εξισορροπεί τις διαφορές στην ένταση, μειώνει την οξύτητα των ήχων και ελαχιστοποιεί τις χαμηλές συχνότητες μέσα στο παιχνίδι, προσφέροντας μέσα στη νύχτα πιο άνετο ηχητικό περιβάλλον και απαλούς ήχους."
+
+msgid "sounds/physicsQuality/attention"
+msgstr "Η ενεργοποίηση αυτής της λειτουργίας μπορεί να έχει επίδραση στις επιδόσεις του συστήματός σας."
+
+msgid "sounds/physicsQuality/body"
+msgstr "Έλεγχος της ποιότητας του ήχου.\n\nΠροσομοιώνει πώς ο ήχος αλλάζει γύρω από εμπόδια και διαπερνά τις επιφάνειες των αντικειμένων του χάρτη.\n\nΧρησιμοποιεί τη γεωμετρία του χάρτη για να δημιουργήσει πρώιμες ανακλάσεις των ήχων του οχήματος που αντανακλούνται από κοντινά αντικείμενα.\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "Ποιότητα Ήχου"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "Απενεργοποιημένη"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "Υψηλή"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "Χαμηλή"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "Μεσαία"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "Προτεινόμενη"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "Καθορίζει τη βέλτιστη ποιότητα ήχου για τον υπολογιστή σας.\n\nΗ διεργασία μπορεί να χρειαστεί κάποιον χρόνο."
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "Προτεινόμενη"
+
+msgid "sounds/sixthSense/body"
+msgstr "Προσαρμοσμένος ήχος. Μετακινήστε το αρχείο sixthSense.mp3 στον φάκελο res/audioww."
+
+msgid "sounds/sixthSense/header"
+msgstr "Προσαρμογή"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "Ήχος 2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "Προσαρμόζει τους ήχους μέσα στο παιχνίδι για εξωτερικό ζεύγος ηχείων πλήρους εύρους (2.0) ή για ζεύγος ηχείων υψηλής συχνότητας και ένα ηχείο χαμηλής συχνότητας (2.1)."
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "Ήχος 2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "Ήχος 5.1"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "Προσαρμόζει τους ήχους του παιχνιδιού για εξωτερικά ηχεία και subwoofer για πολυκάναλο σύστημα ήχου 5.1"
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "Ήχος 5.1"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "Ήχος 7.1"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "Προσαρμόζει τους ήχους του παιχνιδιού για εξωτερικά ηχεία και subwoofer για πολυκάναλο σύστημα ήχου 7.1"
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "Ήχος 7.1"
+
+msgid "sounds/soundDevice/auto"
+msgstr "Αυτόματα"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "Καθορίζει αυτόματα τη διάταξη του ήχου, με βάση τις ρυθμίσεις που έχουν καθοριστεί στο λειτουργικό σύστημα"
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "Αυτόματα"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "Ακουστικά"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "Προσαρμόζει τους ήχους του παιχνιδιού για ακουστικά."
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "Ακουστικά"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "Laptop"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "Χρησιμοποιεί την βασική αρχή του Συστήματος Ήχου 2.0/2.1 αλλά προσαρμόζει τους ήχους του παιχνιδιού για αναπαραγωγή σε μικρά ηχεία laptop με την μέγιστη δυνατή ποιότητα."
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "Laptop"
+
+msgid "sounds/soundQuality"
+msgstr "Χαμηλή ποιότητα"
+
+msgid "sounds/soundQuality/description"
+msgstr "Η μείωση της ποιότητας του ήχου μπορεί να βελτιώσει τις επιδόσεις σε παλαιότερους ή μικρών δυνατοτήτων υπολογιστές. Η ενεργοποίηση αυτής της λειτουργίας μειώνει σημαντικά το πλήθος των ήχων που επεξεργάζονται ταυτόχρονα."
+
+msgid "sounds/speakers/back/body"
+msgstr "Δοκιμή ήχου σε δεξιά/αριστερά πίσω ηχεία."
+
+msgid "sounds/speakers/back/header"
+msgstr "Δεξιά/Αριστερά πίσω ηχεία"
+
+msgid "sounds/speakers/center/body"
+msgstr "Δοκιμή ήχου στο κεντρικό ηχείο."
+
+msgid "sounds/speakers/center/header"
+msgstr "Κεντρικό ηχείο"
+
+msgid "sounds/speakers/front/body"
+msgstr "Δοκιμή ήχου σε δεξιά/αριστερά μπροστά ηχεία."
+
+msgid "sounds/speakers/front/header"
+msgstr "Δεξιά/Αριστερά μπροστά ηχεία"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "Στο σύστημα ήχου 2.0/2.1 το subwoofer είναι προαιρετική συσκευή. Δεν μπορεί να γίνει δοκιμή σε αυτό χωρίς ηχεία."
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "Προαιρετικό subwoofer"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "Δοκιμή ήχου σε δεξιά/αριστερά πλαϊνά ηχεία."
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "Δεξιά/Αριστερά πλαϊνά ηχεία"
+
+msgid "sounds/speakers/sides/body"
+msgstr "Δοκιμή ήχου σε δεξιά/αριστερά ηχεία."
+
+msgid "sounds/speakers/sides/header"
+msgstr "Δεξιά/Αριστερά ηχεία"
+
+msgid "sounds/speakers/sub/body"
+msgstr "Δοκιμή ήχου στο subwoofer."
+
+msgid "sounds/speakers/sub/header"
+msgstr "Subwoofer"
+
+msgid "sounds/subtitles"
+msgstr "Υπότιτλοι"
+
+msgid "sounds/tabCommon"
+msgstr "Γενική Ένταση"
+
+msgid "sounds/tabSpecial"
+msgstr "Γεγονός Παιχνιδιού"
+
+msgid "sounds/tabVivox"
+msgstr "Φωνητική Συνομιλία"
+
+msgid "sounds/vehicles"
+msgstr "Όχημα"
+
+msgid "sounds/voiceNotification"
+msgstr "Ηχητικές Ειδοποιήσεις"
+
+msgid "title"
+msgstr "Ρυθμίσεις"
+
+msgid "tripleBuffered"
+msgstr "Τριπλό buffering"
+
+msgid "tripleBuffered/description"
+msgstr "Μειώνει το «tearing» της οθόνης κατά την αλλαγή των frames (διαθέσιμο μόνο με ενεργοποιημένο τον κάθετο συγχρονισμό)."
+
+msgid "vertSync"
+msgstr "Κάθετος συγχρονισμός"
+
+msgid "vertSync/Off"
+msgstr "Απενεργοποίηση"
+
+msgid "vertSync/On"
+msgstr "ΕΝΕΡΓΟΠΟΙΗΣΗ"
+
+msgid "vertSync/description"
+msgstr "Συγχρονισμός του ρυθμού των frames με τον ρυθμό σάρωσης της οθόνης.\n\nΤο όριο είναι 60 frames ανά δευτερόλεπτο Χρησιμοποιείται όταν υπάρχει τρεμοπαίξιμο της εικόνας ή όταν υπάρχει καθυστέρηση στο κάτω μέρος της οθόνης σε σχέση με το επάνω."
+
+msgid "voice_chat/PTT"
+msgstr "Ενεργοποίηση Μικροφώνου"
+
+msgid "voice_chat/fieldset/header"
+msgstr "Ένταση"
+
+msgid "voice_chat/header/common"
+msgstr "Γενικά"
+
+msgid "voice_chat/header/microphone"
+msgstr "Μικρόφωνο"
+
+msgid "voice_chat/header/speakers"
+msgstr "Ακουστικά"
+
+msgid "voice_chat/microphone"
+msgstr "Μικρόφωνο"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "Μικρόφωνο"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "Ενεργοποίηση μικροφώνου"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "Ενεργοποίηση φωνητικής συνομιλίας"
+
+msgid "windowSize"
+msgstr "Μέγεθος Παραθύρου"
+
+msgid "windowSize/description"
+msgstr "Οριζόντια και κάθετη ανάλυση της οθόνης του client. Σε λειτουργία πλήρους οθόνης η ρύθμιση αλλάζει σε ‘Ανάλυση Οθόνης’."
+
+msgid "windowTitle"
+msgstr "WoT Client"

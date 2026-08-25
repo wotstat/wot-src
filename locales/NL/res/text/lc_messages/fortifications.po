@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "Naam"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "Per maand"
+
+msgid "ClanListWindow/table/role"
+msgstr "Positie"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "Per week"
+
+msgid "battleQueue/clanPosition"
+msgstr "Positie: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "Positie:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "Zoeken naar vijanden:"
+
+msgid "battleQueue/waitBattle"
+msgstr "Wachten op gevecht:"
+
+msgid "battleQueue/yourTeam"
+msgstr "Jouw afdeling:"
+
+msgid "disconnected/Warning"
+msgstr "Let op!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "Vesting is tijdelijk niet beschikbaar. Probeer het later opnieuw."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "Vesting is niet beschikbaar in roaming. Ga naar je eigen regio om toegang te krijgen tot Vesting."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "Clanleden"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "Legionairs"
+
+msgid "fortVehPopover/btnSave"
+msgstr "Sla de selectie (%(count)d) op"
+
+msgid "inspire/inspired"
+msgstr "Inspirerend"
+
+msgid "inspire/inspiring"
+msgstr "Inspirerend"
+
+msgid "mainWindow/maintenance/body"
+msgstr "Onze excuses voor het ongemak."
+
+msgid "mainWindow/maintenance/button"
+msgstr "Update"
+
+msgid "mainWindow/maintenance/header"
+msgstr "Fout bij laden van data"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "Extra voorlichting"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "Gevechtspremie"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "Militaire manoeuvres"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "Tactische training"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "Extra effect"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "Beveelt artillerie om in Schermutselingen en Offensieven voor één gevecht het geselecteerde gebied onder vuur te nemen"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "Levert in Schermutselingen en Offensieven voor één gevecht een bonus aan de hoofdkwalificatie en alle specialisaties van de voltallige bemanning van je voertuig met Inspireren, maar ook aan de bemanningen van nabije geallieerde voertuigen."
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "Een reserve kan aangezet worden voor een gevecht"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "Een reserve kan aangezet worden voor een offensief"
+
+msgid "reserves/tooltip/empty"
+msgstr "Je hebt geen reserves om aan te zetten"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s in het depot"
+
+msgid "reserves/tooltip/level"
+msgstr "Niveau %(level)s"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "Effect bij gebruik"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "Kan aangezet worden"
+
+msgid "reserves/tooltip/selected"
+msgstr "Aangezet"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "Klik om de lijst met reserves te zien die je kan activeren."
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "Reserve kan alleen worden activeert door een afdelingscommandant met de rang van commandant, uitvoerende officier, personeelsofficier of gevechtsofficier."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "Niet genoeg clanleden in de afdeling: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Gevecht begint over %(nextDate)s min"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "De begintijd wordt later bekend gemaakt"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "Gevecht eindigt over %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "Schermutselingen beschikbaar"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "Volgende gevecht zal starten op %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Gevecht begint over %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "Gevecht begint vandaag om %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "Gevecht begint morgen om %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "De begintijd wordt later bekend gemaakt"
+
+msgid "sortie/introView/title"
+msgstr "Vesting: gevechten"
+
+msgid "sortie/listView/enterBtn"
+msgstr "Toetreden"
+
+msgid "sortie/listView/enterText"
+msgstr "Treed toe als vrijwilliger"
+
+msgid "sortie/listView/notSelected"
+msgstr "Selecteer een afdeling van de lijst aan de linkerkant\nom een gedetailleerde beschrijving te zien."
+
+msgid "sortie/listView/teamMembers"
+msgstr "Leden: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "Voertuigen:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "Legionair"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "Autom. samenbrengen"
+
+msgid "sortie/room/candidates"
+msgstr "Vrijwilligers"
+
+msgid "sortie/room/chat"
+msgstr "Chatkanaal"
+
+msgid "sortie/room/description"
+msgstr "Gecreëerde afdelingen vechten in een gevecht met een willekeurige vijandelijke clan op neutraal grondgebied. voertuigniveau wordt bepaald door de geselecteerde divisie."
+
+msgid "sortie/room/fight"
+msgstr "Vecht!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "Spelers uitnodigen"
+
+msgid "sortie/room/leaveBtn"
+msgstr "GA NAAR AFDELING SAMENBRENGEN"
+
+msgid "sortie/room/level"
+msgstr "Niveau %(level)s"
+
+msgid "sortie/room/members"
+msgstr "Leden: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "Niet gereed"
+
+msgid "sortie/room/ready"
+msgstr "Gereed!"
+
+msgid "sortie/room/title"
+msgstr "Afdeling"
+
+msgid "sortie/slot/emptySlot"
+msgstr "Leeg"
+
+msgid "sortie/slot/takePlace"
+msgstr "Neem plaats"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "Selecteer een voertuig om deel te nemen aan een gevecht. Rode aanduidingen markeren voertuigen die niet klaar zijn voor gevecht."
+
+msgid "stronghold/teamHeader"
+msgstr "Afdelingsleden"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "Selecteer voertuigen voor legionairs"
+
+msgid "strongholdPopover/header"
+msgstr "Voertuigen selecteren"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "Tankselectie:"
+
+msgid "strongholdbuilds/direction"
+msgstr "%(direction)s geallieerd bruggenhoofd"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "Noordelijk"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "Oostelijk"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "Zuidelijk"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "Westelijk"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "Vijandelijk bruggenhoofd"
+
+msgid "strongholdbuilds/mapName"
+msgstr "Kaart: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "De kaart zal geselecteerd worden na de start van het offensief"
+
+msgid "strongholdbuilds/point1"
+msgstr "Citadel"
+
+msgid "strongholdbuilds/point2"
+msgstr "Reservelinie"
+
+msgid "strongholdbuilds/point3"
+msgstr "Frontlinie"
+
+msgid "strongholdbuilds/point4"
+msgstr "Frontlinie"
+
+msgid "strongholdbuilds/point5"
+msgstr "Reservelinie"
+
+msgid "strongholdbuilds/point6"
+msgstr "Citadel"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "x%(reward)s voor de eerste overwinning elke dag in offensieven op dit bruggenhoofd"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "Voor het verdedigen van de citadel met beide linies verloren"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "Voor het verdedigen van de reservelinie met de frontlinie verloren"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "Voor het verdedigen van beide linies zonder de verovering van vijandelijke linies"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "Voor het veroveren van de frontlinie"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "Voor het veroveren van beide linies zonder het veroveren van de citadel"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "Voor het veroveren van de vijandelijke citadel"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "van de vorderingsreserve"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "Beloont na het offensief"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "Verbergen voor legionairs"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "Afdeling wordt getoond"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "Laat aan legionairs zien"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "Afdeling wordt verborgen"
+
+msgid "strongholddirection/A"
+msgstr "Noordelijk"
+
+msgid "strongholddirection/B"
+msgstr "Oostelijk"
+
+msgid "strongholddirection/C"
+msgstr "Zuidelijk"
+
+msgid "strongholddirection/D"
+msgstr "Westelijk"
+
+msgid "strongholdinfo/sortie"
+msgstr "Schermutseling in divisie %(level)s"
+
+msgid "strongholdinfo/stronghold"
+msgstr "Offensief vanaf het %(direction)s bruggenhoofd"
+
+msgid "strongholdmap/randomMap"
+msgstr "Willekeurige kaart"
+
+msgid "strongholdreserve/boost"
+msgstr "Inspireren"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "Zwaar transport"
+
+msgid "strongholdreserve/requisition"
+msgstr "Vordering"
+
+msgid "strongholdreserve/support"
+msgstr "Artillerieaanval"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "In schermutselingen en offensieven, voor 1 gevecht"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "Voor de resultaten van het offensief"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "Geactiveerd aan het begin van een gevecht"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "Geactiveerd aan het begin van een offensief"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "Geactiveerd wanneer een reserve is gebruikt in een gevecht"
+
+msgid "strongholdtable/rating"
+msgstr "Beoordeling"
+
+msgid "strongholdtable/roster"
+msgstr "Samenstelling"
+
+msgid "strongholdtable/tech"
+msgstr "Voertuigen"
+
+msgid "strongholdtitle/sortie"
+msgstr "Schermutseling"
+
+msgid "strongholdtitle/stronghold"
+msgstr "Offensief vanaf het %(direction)s bruggenhoofd"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Grens{/HEADER}{BODY}Neutraal grondgebied. De winnaar zal de vijandelijke linie aanvallen in het volgende gevecht. Als het gevecht eindigt in een gelijkspel zal het aanvallende team willekeurig worden gekozen.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "Offensief vanaf het %(direction)s bruggenhoofd"
+
+msgid "strongholdtooltips/hours"
+msgstr "u"
+
+msgid "strongholdtooltips/minuts"
+msgstr "min"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "Schermutseling in divisie %(level)s"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Het type voertuig dat automatisch wordt toegewezen aan een legionair nadat je op de Vecht! knop klikt.\n\nKlik om het geselecteerde voertuigtype voor legionairs te bevestigen of annuleren."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "Legionairs zullen automatisch worden geplaatst in de open posities"

@@ -1,0 +1,302 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "autoOpenView/bottomLabel"
+msgstr "Tüm Şenlik Operasyonları kutularınızı açtık."
+
+msgid "autoOpenView/congratsLabel"
+msgstr "Tebrikler!"
+
+msgid "autoOpenView/okBtnLabel"
+msgstr "Olumlu!"
+
+msgid "buttonLabel/back"
+msgstr "Garaja Dön"
+
+msgid "buttonLabel/buy"
+msgstr "Satın Al"
+
+msgid "buttonLabel/buyMore"
+msgstr "Kutu Satın Al"
+
+msgid "buttonLabel/close"
+msgstr "Kapat"
+
+msgid "buttonLabel/open"
+msgstr "Aç"
+
+msgid "buttonLabel/openBox"
+msgstr "Kutuyu Aç"
+
+msgid "buttonLabel/quest"
+msgstr "Görevlere Git"
+
+msgid "buttonLabel/videoOff"
+msgstr "ANİMASYONU GÖSTER"
+
+msgid "buttonLabel/videoOn"
+msgstr "ANİMASYONU GÖSTERME"
+
+msgid "compensationTooltip/after/header"
+msgstr "Telafi:"
+
+msgid "compensationTooltip/before/header"
+msgstr "Benzer (x{count}):"
+
+msgid "compensationTooltip/crewSkin/header"
+msgstr "Zaten sahip olduğunuz bir mürettebat kaplaması için telafi"
+
+msgid "compensationTooltip/vehicle/bottomText"
+msgstr "Zaten sahip olduğunuz bir araç için telafi olarak verilen ödül."
+
+msgid "compensationTooltip/vehicle/header"
+msgstr "Zaten Garajınızda olan araç için telafi."
+
+msgid "entryDesc/boxesCount"
+msgstr "x{count}"
+
+msgid "entryDesc/buySlot"
+msgstr "Büyük Kutuları Premium Dükkândan satın alabilirsiniz"
+
+msgid "entryDesc/newYear_premium"
+msgstr "Büyük Kutular"
+
+msgid "entryDesc/newYear_usual"
+msgstr "Küçük Kutu"
+
+msgid "entryDesc/questSlot"
+msgstr "Görevlerin tamamlanması karşılığında Küçük Kutular alırsınız."
+
+msgid "entryDesc/restrictedMode"
+msgstr "Bu özellik geçici olarak devre dışıdır. Lütfen daha sonra tekrar deneyin."
+
+msgid "entryPoint/header"
+msgstr "Kutular"
+
+msgid "entryTooltip/body/h1"
+msgstr "Büyük Kutular Satın Alın:"
+
+msgid "entryTooltip/body/h2"
+msgstr "Küçük Kutular Kazanın:"
+
+msgid "entryTooltip/body/p1"
+msgstr "Premium Dükkândan kendiniz ve arkadaşlarınız için Yeni Yıl dekorasyonları içeren kutular satın alın."
+
+msgid "entryTooltip/body/p2"
+msgstr "Şenlik Operasyonları görevlerini tamamlama karşılığında verilir."
+
+msgid "entryTooltip/header"
+msgstr "Kutular"
+
+msgid "entryView/boxesCount"
+msgstr "{count} tane daha kutu"
+
+msgid "entryView/buyLabel"
+msgstr "KUTU SATIN AL"
+
+msgid "entryView/ended/newYear_premium"
+msgstr "Depoda hiç Büyük Kutunuz yok.\nDaha fazlasını Premium Dükkân'dan satın alın."
+
+msgid "entryView/ended/newYear_usual"
+msgstr "Hiç Küçük Kutunuz yok.\nDaha fazlasını savaşlarda kazanın."
+
+msgid "entryView/lootboxesCount"
+msgstr "x{count}"
+
+msgid "entryView/title"
+msgstr "Şenlik Operasyonları {year}"
+
+msgid "entryView/year"
+msgstr "2019"
+
+msgid "multiOpenView/applyLabel"
+msgstr "Anlaşıldı!"
+
+msgid "multiOpenView/boxesInStorage"
+msgstr "Açılabilecek kutular: {count}"
+
+msgid "multiOpenView/boxesNotAvailable"
+msgstr "Hiç kutu yok"
+
+msgid "multiOpenView/openBoxesLabel"
+msgstr "{count} kutu daha açın"
+
+msgid "multiOpenView/openedCount"
+msgstr "x{count}"
+
+msgid "multiOpenView/title"
+msgstr "Tebrikler!"
+
+msgid "notification/eventFinish/text"
+msgstr "Alınan tüm ikmal kutuları açılacak. İçerikleri hesabınıza eklenecek."
+
+msgid "notification/eventFinish/title"
+msgstr "Sıcak Bahar İkmal Kutusu etkinliği sona erdi"
+
+msgid "notification/eventStart/button"
+msgstr "Etkinliğe git"
+
+msgid "notification/eventStart/text"
+msgstr "Sadece %(date)s tarihine kadar: Premium araçlar ve değerli oyun içi varlıklar!"
+
+msgid "notification/eventStart/title"
+msgstr "Sıcak Bahar İkmal Kutusu etkinliği başladı"
+
+msgid "notification/header"
+msgstr "Tebrikler!"
+
+msgid "notification/lootBoxesAutoOpen/boxes"
+msgstr "Açılan ikmal kutuları: %(boxes)s"
+
+msgid "notification/lootBoxesAutoOpen/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "notification/lootBoxesAutoOpen/rewards"
+msgstr "Şunları aldınız:\n%(rewards)s"
+
+msgid "notification/lootBoxesAutoOpen/text"
+msgstr "Etkinliğin sonunda tüm ikmal kutularınızı açtık ve içeriklerini hesabınıza ekledik."
+
+msgid "notification/lootBoxesAutoOpen/title"
+msgstr "İkmal Kutuları Açımı"
+
+msgid "notification/lootBoxesIsDisabled/text"
+msgstr "İkmal kutularıyla ilgili işlemler bakım sebebiyle geçici olarak yapılamamaktadır."
+
+msgid "notification/lootBoxesIsDisabled/title"
+msgstr "İkmal Kutuları Açımı"
+
+msgid "notification/lootBoxesIsEnabled/button"
+msgstr "Aç"
+
+msgid "notification/lootBoxesIsEnabled/text"
+msgstr "İkmal kutularıyla ilgili işlemler tekrar açıldı."
+
+msgid "notification/lootBoxesIsEnabled/title"
+msgstr "İkmal Kutuları Açımı"
+
+msgid "notification/lootBoxesReceived/invoice"
+msgstr "Eklendi"
+
+msgid "notification/ny19man"
+msgstr "Özgün bir mürettebat üyesi: %(count)s"
+
+msgid "notification/rewards"
+msgstr "Şu ödülleri aldınız:"
+
+msgid "restrictedMessage/body"
+msgstr "Kutularla işlemler geçici olarak donduruldu. Sakin olun ve devam edin."
+
+msgid "restrictedMessage/header"
+msgstr "Dikkat!"
+
+msgid "rewardView/boxesCount"
+msgstr "Mevcut kutular: {count}"
+
+msgid "rewardView/closeBtnLabel"
+msgstr "Kapat"
+
+msgid "rewardView/congratsBtnLabel/style"
+msgstr "Stili Göster"
+
+msgid "rewardView/congratsBtnLabel/tankman"
+msgstr "Üye Al"
+
+msgid "rewardView/congratsBtnLabel/vehicle"
+msgstr "Garajda Göster"
+
+msgid "rewardView/congratsLabel/style"
+msgstr "Özgün Stil:"
+
+msgid "rewardView/congratsLabel/tankman"
+msgstr "Özgün Bir Mürettebat Üyesi"
+
+msgid "rewardView/congratsLabel/usual"
+msgstr "Tebrikler!"
+
+msgid "rewardView/congratsLabel/vehicle"
+msgstr "TAM BİR SÜRPRİZ!"
+
+msgid "rewardView/nextOpenBtnLabel"
+msgstr "Sonrakini Aç"
+
+msgid "rewardView/okOpenBtnLabel"
+msgstr "Anlaşıldı!"
+
+msgid "rewardView/openBtnLabel"
+msgstr "Anlaşıldı!"
+
+msgid "rewardView/rerollBtnLabel"
+msgstr "Yeniden Açın"
+
+msgid "rewardView/zeroBoxes"
+msgstr "Hiç kutu yok"
+
+msgid "specialReward/continueBtn"
+msgstr "Devam et"
+
+msgid "specialReward/style/goToBtn"
+msgstr "Stili Göster"
+
+msgid "specialReward/style/title"
+msgstr "Özgün Stil:"
+
+msgid "specialReward/vehicle/goToBtn"
+msgstr "Garajda Göster"
+
+msgid "tooltip/category/header/Christmas"
+msgstr "Noel Kutuları"
+
+msgid "tooltip/category/header/Fairytale"
+msgstr "Büyü Kutuları"
+
+msgid "tooltip/category/header/NewYear"
+msgstr "Yeni Yıl Kutuları"
+
+msgid "tooltip/category/header/Oriental"
+msgstr "Ay Kutuları"
+
+msgid "tooltip/category/rewards/Christmas"
+msgstr "Noel Koleksiyonu"
+
+msgid "tooltip/category/rewards/Fairytale"
+msgstr "Büyü Koleksiyonu"
+
+msgid "tooltip/category/rewards/NewYear"
+msgstr "Yeni Yıl Koleksiyonu"
+
+msgid "tooltip/category/rewards/Oriental"
+msgstr "Ay Koleksiyonu"
+
+msgid "tooltip/category/rewards/description"
+msgstr "Kutular {category} kategorisinden dekorasyonlar ve başka değerli ödüller içerir."
+
+msgid "tooltip/category/rewards/header"
+msgstr "Ödüller:"
+
+msgid "tooltip/entryView/buyBoxes"
+msgstr "Premium Dükkân'dan ek kutular satın alın."
+
+msgid "tooltip/entryView/openBoxes"
+msgstr "Aynı anda birkaç kutu birden açın."
+
+msgid "tooltip/restrictedMode"
+msgstr "İşlem geçici olarak yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "type/event_premium"
+msgstr "Şafak İkmal Kutusu"
+
+msgid "type/newYear_premium"
+msgstr "BÜYÜK KUTULAR"
+
+msgid "type/newYear_usual"
+msgstr "KÜÇÜK KUTULAR"
+
+msgid "type/wt_boss"
+msgstr "Mühendis Ateşleyicisi"
+
+msgid "type/wt_hunter"
+msgstr "Tazı Ateşleyicisi"
+
+msgid "type/wt_special"
+msgstr "Özel Sandıklar"

@@ -1,0 +1,1547 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Er is een staakt-het-vuren op alle servers. Gevechten komen over %(primeDelta)s beschikbaar"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "Seizoen %(leftSeasonName)s is afgelopen"
+
+msgid "alertMessage/allNotSet"
+msgstr "Deze modus is onbeschikbaar op de %(serverName)s-server"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Selecteer een andere server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Details"
+
+msgid "alertMessage/notAvailable"
+msgstr "Er is een staakt-het-vuren op de %(serverName)s-server"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Er is een staakt-het-vuren op de %(serverName)s-server"
+
+msgid "alertMessage/notSet"
+msgstr "Deze modus is onbeschikbaar op de %(serverName)s-server"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Er is een staakt-het-vuren op deze server. Gevechten komen over %(primeDelta)s beschikbaar"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "Seizoen %(leftSeasonName)s is afgelopen"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Deze modus is onbeschikbaar op de %(serverName)s-server"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s u %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Geen geschikte niveau %(levels)s voertuigen in de garage"
+
+msgid "awards/bonusBattles/efficiency"
+msgstr "Standaard, voor jouw prestatie in het voltooide stadium: %(amount)s"
+
+msgid "awards/bonusBattles/header"
+msgstr "Bonusgevechten ontvangen:"
+
+msgid "awards/bonusBattles/label"
+msgstr "Bonusgevechten ontvangen: %(count)s"
+
+msgid "awards/bonusBattles/steps/daily"
+msgstr " \nDagelijks, voor het aantal chevrons dat je in de kwalificatie hebt ontvangen: %(amount)s"
+
+msgid "awards/bonusBattles/steps/persistent"
+msgstr " \nStandaard, voor het aantal chevrons dat je in de kwalificatie hebt ontvangen: %(amount)s"
+
+msgid "awards/congratulation"
+msgstr "Gefeliciteerd!"
+
+msgid "awards/gotDivision"
+msgstr "Je hebt de volgende divisie bereikt"
+
+msgid "awards/gotLeague"
+msgstr "Je hebt de competities bereikt"
+
+msgid "awards/gotQualification"
+msgstr "Je hebt de kwalificatie voltooid en de derde divisie betreden."
+
+msgid "awards/gotQualificationQuest"
+msgstr "Je hebt de beloning voor kwalificatie ontvangen. Gespeelde gevechten: %(count)s"
+
+msgid "awards/gotRank"
+msgstr "Nieuwe rang ontvangen"
+
+msgid "awards/yes"
+msgstr "Positief!"
+
+msgid "battleResult/losers"
+msgstr "Verliezend team"
+
+msgid "battleResult/rank/lose"
+msgstr "Rang verloren"
+
+msgid "battleResult/rank/progress/lose"
+msgstr "Chevron verloren"
+
+msgid "battleResult/rank/progress/up"
+msgstr "Chevron ontvangen"
+
+msgid "battleResult/rank/unchanged"
+msgstr "Chevron behouden"
+
+msgid "battleResult/rank/up"
+msgstr "Rang behaald"
+
+msgid "battleResult/winners"
+msgstr "Winnend team"
+
+msgid "battleResult/yes"
+msgstr "Positief!"
+
+msgid "battleresult/bonusBattlesEarned"
+msgstr " \n\nBonusgevechten toegevoegd:"
+
+msgid "battleresult/bonusBattlesEarned/efficiency"
+msgstr " \nStandaard, voor jouw prestatie in het voltooide stadium: %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/daily"
+msgstr " \nDagelijks, voor het aantal chevrons dat je in de kwalificatie hebt ontvangen: %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/persistent"
+msgstr " \nStandaard, voor het aantal chevrons dat je in de kwalificatie hebt ontvangen: %(amount)s"
+
+msgid "battleresult/bonusBattlesUsed"
+msgstr ". Je hebt een bonusgevecht gevochten."
+
+msgid "battleresult/divisionEarned"
+msgstr "Nieuwe\ndivisie"
+
+msgid "battleresult/first/inTop/lose"
+msgstr "Je bent de topspeler van het verliezende team met verdiende ervaring"
+
+msgid "battleresult/first/inTop/win"
+msgstr "Je bent de topspeler van het winnende team met verdiende ervaring"
+
+msgid "battleresult/first/notInTop/lose"
+msgstr "Je bent niet de topspeler van het verliezende team met verdiende ervaring"
+
+msgid "battleresult/first/notInTop/win"
+msgstr "Je bent niet de topspeler van het winnende team met verdiende ervaring"
+
+msgid "battleresult/headerText"
+msgstr "Gevechtsresultaten"
+
+msgid "battleresult/inTop/lose"
+msgstr "Je zit met verdiende ervaring in de top %(topNumber)s spelers van het verliezende team"
+
+msgid "battleresult/inTop/win"
+msgstr "Je zit met verdiende ervaring in de top %(topNumber)s spelers van het winnende team"
+
+msgid "battleresult/leagueEarned"
+msgstr "Naar de\ncompetities"
+
+msgid "battleresult/leagueUnavailable"
+msgstr "Je competitie zal worden bepaald na de berekening van het klassement.\n "
+
+msgid "battleresult/notInTop/lose"
+msgstr "Je zit met verdiende ervaring niet in de top %(topNumber)s spelers van het verliezende team"
+
+msgid "battleresult/notInTop/minXP"
+msgstr "Je hebt niet de minimale hoeveelheid ervaring verdiend."
+
+msgid "battleresult/notInTop/stageSaved"
+msgstr "Je bent in dit stadium beschermd van chevronverlies"
+
+msgid "battleresult/notInTop/win"
+msgstr "Je zit met verdiende ervaring niet in de top %(topNumber)s spelers van het winnende team"
+
+msgid "battleresult/rankEarned"
+msgstr "Rang\nontvangen"
+
+msgid "battleresult/rankLost"
+msgstr "Rang\nverloren"
+
+msgid "battleresult/rankUnburnable"
+msgstr "Geen\nveranderingen"
+
+msgid "battleresult/shieldLose"
+msgstr "Rangschild\ngebroken"
+
+msgid "battleresult/shieldLoseStep"
+msgstr "Rangschild\nverzwakt"
+
+msgid "battleresult/stageEarned"
+msgstr "Chevron\nontvangen"
+
+msgid "battleresult/stageLost"
+msgstr "Chevron\nverloren"
+
+msgid "battleresult/stageNotEarned"
+msgstr "Chevron\nbehouden"
+
+msgid "battleresult/stageSaved"
+msgstr "Chevron\nbehouden"
+
+msgid "battleresult/stagesEarned"
+msgstr "Chevrons\nontvangen"
+
+msgid "battleresult/status/rankEarned"
+msgstr "Rang teruggekeerd"
+
+msgid "battleresult/status/rankLost"
+msgstr "Rang verloren"
+
+msgid "battleresult/status/rankUnburnable"
+msgstr "Geen veranderingen"
+
+msgid "battleresult/status/shieldCount"
+msgstr " \nLevenspunten behouden: %(count)s"
+
+msgid "battleresult/status/shieldLose"
+msgstr "Rangschild gebroken!"
+
+msgid "battleresult/status/shieldLoseStep"
+msgstr "Rangschild verzwakt!"
+
+msgid "battleresult/status/shieldRenew"
+msgstr " \nRangschild hersteld"
+
+msgid "battleresult/status/shieldWarning"
+msgstr " \nNog een nederlaag kan leiden tot het verlies van je rang."
+
+msgid "battleresult/status/stageEarned"
+msgstr "Chevron ontvangen"
+
+msgid "battleresult/status/stageLost"
+msgstr "Chevron verloren"
+
+msgid "battleresult/status/stageNotEarned"
+msgstr "Chevron behouden"
+
+msgid "battleresult/status/stageSaved"
+msgstr "Chevron behouden"
+
+msgid "battleresult/status/stagesEarned"
+msgstr "Chevrons ontvangen"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgstr "Seizoen %(seasonName)s zal nog %(days)s dagen duren"
+
+msgid "calendarDay/title"
+msgstr "Planning"
+
+msgid "calendarStepsTooltip/title"
+msgstr "Stadiumschema"
+
+msgid "currentVehicleStatus/unsuitableToQueue"
+msgstr "Niet geschikt voor de modus"
+
+msgid "division/bronze"
+msgstr "Derde divisie"
+
+msgid "division/classification"
+msgstr "Kwalificatie"
+
+msgid "division/gold"
+msgstr "Eerste divisie"
+
+msgid "division/silver"
+msgstr "Tweede divisie"
+
+msgid "division/status/completed"
+msgstr "Divisie voltooid"
+
+msgid "division/status/completed/description"
+msgstr "Je hebt de geselecteerde divisie succesvol voltooid."
+
+msgid "division/status/locked"
+msgstr "Divisie onbeschikbaar"
+
+msgid "division/status/locked/description"
+msgstr "De vorige divisie is niet voltooid."
+
+msgid "division/status/qualification"
+msgstr "Gespeelde gevechten: %(progress)s"
+
+msgid "division/status/qualification/progress"
+msgstr "%(current)s / %(total)s"
+
+msgid "division/status/qualificationDescr/complete"
+msgstr "Kwalificatie voltooid"
+
+msgid "division/status/qualificationDescr/progress"
+msgstr "Speel %(battlesTotal)s gevechten om de kwalificatie te voltooien.\nTijdens de kwalificatie zul je beloningen ontvangen voor het spelen van %(battlesList)s gevechten."
+
+msgid "division/tooltip/battlesDescription"
+msgstr "Bestaat uit %(battlesCount)s gevechten"
+
+msgid "division/tooltip/desc/completed/text"
+msgstr "Je hebt in deze divisie alle rangen ontvangen."
+
+msgid "division/tooltip/desc/completedFinal/text"
+msgstr "Je hebt in deze divisie alle rangen ontvangen en je gaat door naar de competities."
+
+msgid "division/tooltip/desc/completedQual/text"
+msgstr "Het benodigde aantal kwalificatiegevechten is gevochten."
+
+msgid "division/tooltip/desc/current/text"
+msgstr "Na de voltooiing zul je doorgaan naar de volgende divisie en bonusgevechten ontvangen die je voortgang zullen versnellen."
+
+msgid "division/tooltip/desc/currentFinal/text"
+msgstr "Na de voltooiing zul je doorgaan naar de competities en bonusgevechten ontvangen die je kunt gebruiken om je positie in het leidersklassement te consolideren of verbeteren."
+
+msgid "division/tooltip/desc/currentQual/text"
+msgstr "Tijdens de kwalificatie zul je beloningen ontvangen voor het spelen van %(battles)s gevechten.\nNa voltooiing van de kwalificatie zul je overstappen naar de derde divisie en bonusgevechten ontvangen die je progressie zullen versnellen."
+
+msgid "division/tooltip/desc/locked/text"
+msgstr "Na de voltooiing zul je doorgaan naar de volgende divisie en bonusgevechten ontvangen die je voortgang zullen versnellen."
+
+msgid "division/tooltip/desc/lockedFinal/text"
+msgstr "Na de voltooiing zul je doorgaan naar de competities en bonusgevechten ontvangen die je kunt gebruiken om je positie in het leidersklassement te consolideren of verbeteren."
+
+msgid "division/tooltip/desc/title"
+msgstr "Beschrijving:"
+
+msgid "division/tooltip/rankDescription"
+msgstr "Bestaat uit %(ranksCount)s rangen"
+
+msgid "division/tooltip/status/completed"
+msgstr "Divisie voltooid"
+
+msgid "division/tooltip/status/completedQual"
+msgstr "Voltooid"
+
+msgid "division/tooltip/status/current"
+msgstr "Divisie niet voltooid"
+
+msgid "division/tooltip/status/currentQual"
+msgstr "Niet voltooid"
+
+msgid "division/tooltip/status/locked"
+msgstr "Divisie onbeschikbaar"
+
+msgid "division/tooltip/status/locked/desc"
+msgstr "Voltooi eerst de vorige divisie."
+
+msgid "division/tooltip/status/locked/descQual"
+msgstr "De kwalificatie is niet voltooid."
+
+msgid "introPage/alert/beforeSeason"
+msgstr "Evenement begint over:"
+
+msgid "introPage/alert/disabled"
+msgstr "De modus is tijdelijk onbeschikbaar. Kom alsjeblieft later terug."
+
+msgid "introPage/blocks/block1/description"
+msgstr "10-tegen-10-gevechten, onder de regels van het Standaard gevecht, op een beperkt aantal kaarten, en alleen met niveau X onderzoekbare en verzamelvoertuigen."
+
+msgid "introPage/blocks/block1/title"
+msgstr "Niveau X voertuigen"
+
+msgid "introPage/blocks/block2/description"
+msgstr "Voltooi 3 divisies op je pad naar glorie en bereik een van de competities door te vechten met spelers die even goed zijn als jij."
+
+msgid "introPage/blocks/block2/title"
+msgstr "Progressie in Klassementsgevechten"
+
+msgid "introPage/blocks/block3/description"
+msgstr "Na het voltooien van een seizoen ontvang je een speciale stijl voor niveau X voertuigen. Daarnaast ontvang je na afloop van de drie seizoenen van 2021–2022 ook waardevolle beloningen en een uniek niveau X voertuig."
+
+msgid "introPage/blocks/block3/title"
+msgstr "Unieke beloningen"
+
+msgid "introPage/blocks/yearRewardDisabled"
+msgstr "Elke verdiende rang levert je een waardevolle beloning op. Daarnaast zul je een unieke stijl voor niveau X voertuigen ontvangen voor het voltooien van alle drie de seizoenen."
+
+msgid "introPage/btns/accept"
+msgstr "Begrepen!"
+
+msgid "introPage/btns/detailed"
+msgstr "Modusdetails"
+
+msgid "introPage/btns/toHangar"
+msgstr "Naar de garage"
+
+msgid "introPage/description"
+msgstr "10v10-gevechten, niveau X voertuigen, 3 divisies op je pad naar glorie."
+
+msgid "introPage/timeLeft/days"
+msgstr "%(day)s d %(hour)s u"
+
+msgid "introPage/timeLeft/hours"
+msgstr "%(hour)s u %(min)s min"
+
+msgid "introPage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "introPage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "notification/rankEarned"
+msgstr "rang ontvangen"
+
+msgid "notification/rankLost"
+msgstr "rang verloren"
+
+msgid "notification/rankedMessage"
+msgstr "Gefeliciteerd!\nJe hebt behaald rang %(rankRoman)s\nCredits ontvangen: %(creditsCount)s\nPunten verdiend: %(expCount)s\nMedailles ontvangen: %(medalsCount)s"
+
+msgid "notification/stageEarned"
+msgstr "chevron ontvangen"
+
+msgid "notification/stageLost"
+msgstr "chevron verloren"
+
+msgid "notification/stageNotEarned"
+msgstr "chevron behouden"
+
+msgid "notification/vehicleRankEarned"
+msgstr "Voertuigrang ontvangen"
+
+msgid "notification/vehicleRankLost"
+msgstr "Voertuigrang verloren"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Server %(serverName)s\nGevechten komen over %(primeDelta)s beschikbaar"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Server %(serverName)s\nSeizoen %(leftSeasonName)s is afgelopen."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Server %(serverName)s\nGevechten zullen nog %(primeDelta)s beschikbaar zijn"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Server %(serverName)s\nGevechten komen over %(primeDelta)s beschikbaar"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Server %(serverName)s\nSeizoen %(leftSeasonName)s is afgelopen."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Server %(serverName)s\nGevechten komen over %(primeDelta)s beschikbaar"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Server %(serverName)s\nSeizoen %(leftSeasonName)s is afgelopen."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s u"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "een minuut"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Er is een staakt-het-vuren op alle servers"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "Seizoen %(leftSeasonName)s op de %(serverName)s-server is afgelopen."
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Er is tot %(primeDeltaDate)s%(primeDeltaTime)s een staakt-het-vuren op de %(serverName)s-server"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Seizoen %(leftSeasonName)s op de %(serverName)s-server is afgelopen."
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Deze modus is niet beschikbaar op de %(serverName)s-server"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Er is tot %(primeDeltaDate)s%(primeDeltaTime)s een staakt-het-vuren op de %(serverName)s-server"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "Seizoen %(leftSeasonName)s op de %(serverName)s-server is afgelopen."
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Deze modus is niet beschikbaar op de %(serverName)s-server"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Gevechten op de %(serverName)s-server zullen over %(primeDelta)s beginnen"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "Seizoen %(leftSeasonName)s op de %(serverName)s-server is afgelopen."
+
+msgid "primeTimes/timeText/available"
+msgstr "Gevechten op de %(serverName)s-server zullen nog %(primeDelta)s beschikbaar zijn"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Gevechten op de %(serverName)s-server zullen over %(primeDelta)s beginnen"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "Seizoen %(leftSeasonName)s op de %(serverName)s-server is afgelopen."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Gevechten op de %(serverName)s-server zullen over %(primeDelta)s beginnen"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "Seizoen %(leftSeasonName)s op de %(serverName)s-server is afgelopen."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "qualificationRewards/battlesNeeded"
+msgstr "Speel %(battlesCount)s gevechten om de kwalificatie te voltooien."
+
+msgid "qualificationRewards/battlesPlayed"
+msgstr "Gespeelde gevechten:"
+
+msgid "qualificationRewards/description"
+msgstr "Beloningen voor het voltooien van de kwalificatie worden eenmaal uitgereikt, nadat het laatste kwalificatiegevecht is afgelopen."
+
+msgid "quests/detailed/allServersPrime"
+msgstr "Staakt-het-vuren"
+
+msgid "quests/detailed/notInLeagues"
+msgstr "Bereik eerst de competities"
+
+msgid "quests/detailed/seasonEnd/days"
+msgstr "Seizoen eindigt over %(day)s d"
+
+msgid "quests/detailed/seasonEnd/default"
+msgstr "Seizoen eindigt snel"
+
+msgid "quests/detailed/seasonEnd/hours"
+msgstr "Seizoen eindigt over %(hour)s u"
+
+msgid "quests/detailed/seasonEnd/lessMin"
+msgstr "Seizoen eindigt binnen een minuut"
+
+msgid "quests/detailed/seasonEnd/min"
+msgstr "Seizoen eindigt over %(min)s min"
+
+msgid "quests/detailed/unavailableLabel"
+msgstr "Onbeschikbaar:"
+
+msgid "quests/tooltip/unavailable/body/allServersPrime"
+msgstr "Missies komen beschikbaar nadat het staakt-het-vuren in Klassementsgevechten is afgelopen."
+
+msgid "quests/tooltip/unavailable/body/notInLeagues"
+msgstr "Bereik eerst de competities"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/days"
+msgstr "Seizoen eindigt over %(day)s d"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/default"
+msgstr "Seizoen eindigt snel"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/hours"
+msgstr "Seizoen eindigt over %(hour)s u"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/lessMin"
+msgstr "Seizoen eindigt binnen een minuut"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/min"
+msgstr "Seizoen eindigt over %(min)s min"
+
+msgid "quests/tooltip/unavailable/bottom"
+msgstr "Voltooiing niet beschikbaar"
+
+msgid "quests/tooltip/unavailable/header/allServersPrime"
+msgstr "Staakt-het-vuren"
+
+msgid "quests/tooltip/unavailable/header/notInLeagues"
+msgstr "Niet in competities"
+
+msgid "quests/tooltip/unavailable/header/seasonEnd"
+msgstr "Einde van het seizoen"
+
+msgid "questsTooltip/available"
+msgstr "Het seizoen eindigt over %(timeDelta)s"
+
+msgid "questsTooltip/available/days"
+msgstr "%(day)s d"
+
+msgid "questsTooltip/available/hours"
+msgstr "%(hour)s u"
+
+msgid "questsTooltip/available/lessMin"
+msgstr "minder dan een minuut"
+
+msgid "questsTooltip/available/min"
+msgstr "%(min)s min"
+
+msgid "questsTooltip/bottom"
+msgstr "Meer missies: %(number)d"
+
+msgid "questsTooltip/cooldown/days"
+msgstr "Nieuwe missies komen over %(day)s dag(en) beschikbaar"
+
+msgid "questsTooltip/cooldown/hours"
+msgstr "Nieuwe missies komen over %(hour)s u beschikbaar"
+
+msgid "questsTooltip/cooldown/lessMin"
+msgstr "Nieuwe missies komen over een minuut beschikbaar"
+
+msgid "questsTooltip/cooldown/min"
+msgstr "Nieuwe missies komen over %(min)s min beschikbaar"
+
+msgid "questsTooltip/header"
+msgstr "Klassementsgevechtenmissies"
+
+msgid "questsTooltip/unavailable/allServersPrime"
+msgstr "Onbeschikbaar: er is een staakt-het-vuren"
+
+msgid "questsTooltip/unavailable/notInLeagues"
+msgstr "Onbeschikbaar: bereik eerst de competities"
+
+msgid "questsTooltip/unavailable/seasonEnd/days"
+msgstr "Onbeschikbaar: het seizoen eindigt over %(day)s d"
+
+msgid "questsTooltip/unavailable/seasonEnd/hours"
+msgstr "Onbeschikbaar: het seizoen eindigt over %(hour)s u"
+
+msgid "questsTooltip/unavailable/seasonEnd/lessMin"
+msgstr "Onbeschikbaar: het seizoen eindigt binnen een minuut"
+
+msgid "questsTooltip/unavailable/seasonEnd/min"
+msgstr "Onbeschikbaar: het seizoen eindigt over %(min)s min"
+
+msgid "rankedAwards/awardsBlock/awardsHeaderTxt"
+msgstr "Beloning voor behaalde rangen"
+
+msgid "rankedAwards/awardsBlock/crystal"
+msgstr "Obligaties"
+
+msgid "rankedAwards/awardsBlock/description"
+msgstr "Je hoogste rang"
+
+msgid "rankedAwards/awardsBlock/points"
+msgstr "Punten"
+
+msgid "rankedAwards/awardsBlock/title"
+msgstr "Stadium %(cycleNumber)s resultaten"
+
+msgid "rankedBattle/title"
+msgstr "KLASSEMENTSGEVECHTEN"
+
+msgid "rankedBattleCyclesView/tabs/final"
+msgstr "Eind"
+
+msgid "rankedBattleCyclesView/tabs/ranks"
+msgstr "Rang"
+
+msgid "rankedBattleCyclesView/title"
+msgstr "Seizoensbeloningen"
+
+msgid "rankedBattleHeader/points/current"
+msgstr "Bezig"
+
+msgid "rankedBattleHeader/points/final"
+msgstr "Totaal aantal punten: %(points)s"
+
+msgid "rankedBattleHeader/points/past"
+msgstr "Punten: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/body"
+msgstr "De huidige stage zal eindigen op %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/header"
+msgstr "Stadium %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/body"
+msgstr "Alle punten verdiend in de vorige stadia worden in de finales bij elkaar opgeteld en spelers zullen hun beloningen krijgen.\nSeason finals—%(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/header"
+msgstr "Season Finals"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/body"
+msgstr "Het stadium zal beginnen op %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/header"
+msgstr "Stadium %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/body"
+msgstr "Punten verdiend: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/header"
+msgstr "Stadium %(cycle)d beëindigd"
+
+msgid "rankedBattleHeader/tooltip/date"
+msgstr "%d.%m.%y"
+
+msgid "rankedBattleMainView/bonusBattles"
+msgstr "Bonusgevechten: %(battlesCount)s"
+
+msgid "rankedBattleMainView/date/days"
+msgstr "%(day)s d tot het einde"
+
+msgid "rankedBattleMainView/date/hours"
+msgstr "%(hour)s u tot het einde"
+
+msgid "rankedBattleMainView/date/lessMin"
+msgstr "Minder dan een minuut tot het einde"
+
+msgid "rankedBattleMainView/date/min"
+msgstr "%(min)s min tot het einde"
+
+msgid "rankedBattleMainView/date/period"
+msgstr "%(start)s–%(finish)s"
+
+msgid "rankedBattleMainView/divisions/currentRank"
+msgstr "Jouw rang"
+
+msgid "rankedBattleMainView/divisions/rank"
+msgstr "Rang %(rank)s"
+
+msgid "rankedBattleMainView/emptyBubble"
+msgstr " "
+
+msgid "rankedBattleMainView/infoPage/header"
+msgstr "Niveau X voertuigen, rolervaring, bonusgevechten, vorderen door 3 divisies, en gevechten in competities."
+
+msgid "rankedBattleMainView/leaguesView/descr"
+msgstr "Verdien chevrons en verbeter je prestatie om in het klassement te stijgen en de top %(count)d te bereiken."
+
+msgid "rankedBattleMainView/leaguesView/league1"
+msgstr "Gouden competitie"
+
+msgid "rankedBattleMainView/leaguesView/league2"
+msgstr "Zilveren competitie"
+
+msgid "rankedBattleMainView/leaguesView/league3"
+msgstr "Bronzen competitie"
+
+msgid "rankedBattleMainView/leaguesView/top"
+msgstr "TOP %(count)d"
+
+msgid "rankedBattleMainView/leaguesView/topDescr"
+msgstr "Verdien chevrons en verbeter je prestatie om in het klassement te stijgen en je plek in de top %(count)d te behouden."
+
+msgid "rankedBattleMainView/leaguesView/unavailableDescr"
+msgstr "Je competitie wordt berekend. De resultaten zullen snel beschikbaar zijn."
+
+msgid "rankedBattleMainView/leaguesView/unavailableTitle"
+msgstr "Competitie niet berekend"
+
+msgid "rankedBattleMainView/leaguesView/yearLeaderboardDisabled"
+msgstr "Verdien chevrons en verbeter je prestatie om je positie in de competitie te behouden."
+
+msgid "rankedBattleMainView/season"
+msgstr "Seizoen %(season)s"
+
+msgid "rankedBattleMainView/seasonComplete"
+msgstr "Seizoen %(season)s is afgelopen"
+
+msgid "rankedBattleMainView/seasonCompleteSingle"
+msgstr "Seizoen %(season)s is afgelopen."
+
+msgid "rankedBattleMainView/seasonGap"
+msgstr "Het volgende seizoen %(newSeason)s begint op %(date)s"
+
+msgid "rankedBattleMainView/seasonGap/bannedDivision/descr"
+msgstr "Alle tijdens het seizoen verdiende rangtokens zijn verwijderd omdat je de spelregels hebt overtreden."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/descr"
+msgstr "Je bent verwijderd uit de lijst met seizoensleiders omdat je de spelregels hebt overtreden. Alle tijdens het seizoen verdiende rangtokens zijn verwijderd."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/withoutPoints/descr"
+msgstr "Je bent uitgesloten van de lijst met seizoensleiders omdat je de spelregels hebt overtreden."
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInDivisions/descr"
+msgstr "Er is een rangtoken verwijderd omdat je de spelregels hebt overtreden"
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInSeason/descr"
+msgstr "Alle tijdens het seizoen verdiende rangtokens zijn verwijderd omdat je de spelregels hebt overtreden."
+
+msgid "rankedBattleMainView/seasonGap/division/descr"
+msgstr "Je hoogst bereikte rang in dit seizoen"
+
+msgid "rankedBattleMainView/seasonGap/division/ratingBtn"
+msgstr "Seizoenleiders"
+
+msgid "rankedBattleMainView/seasonGap/division/title"
+msgstr "Rang %(rank)s (%(division)s)"
+
+msgid "rankedBattleMainView/seasonGap/league/descr"
+msgstr "Gefeliciteerd met het succesvol voltooien van dit seizoen!"
+
+msgid "rankedBattleMainView/seasonGap/league/ratingBtn"
+msgstr "Ga naar het klassement"
+
+msgid "rankedBattleMainView/seasonGap/league1"
+msgstr "Gouden competitie"
+
+msgid "rankedBattleMainView/seasonGap/league2"
+msgstr "Zilveren competitie"
+
+msgid "rankedBattleMainView/seasonGap/league3"
+msgstr "Bronzen competitie"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/descr"
+msgstr "Jouw hoogste resultaat dit seizoen"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/title"
+msgstr "Je hebt de kwalificatie voltooid"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/descr"
+msgstr "Je hebt in dit seizoen geen rangen verdiend"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/title"
+msgstr "Geen rangen"
+
+msgid "rankedBattleMainView/seasonGap/rolledDivision/descr"
+msgstr "Je bent na het herstellen van je account uit de lijst met seizoensleiders verwijderd."
+
+msgid "rankedBattleMainView/seasonGap/rolledLeague/descr"
+msgstr "Je bent na het herstellen van je account uit de lijst met seizoensleiders verwijderd."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInDivisions/descr"
+msgstr "Je bent na het herstellen van je account uit de lijst met seizoensleiders verwijderd."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInSeason/descr"
+msgstr "Je bent na het herstellen van je account uit de lijst met seizoensleiders verwijderd."
+
+msgid "rankedBattleMainView/seasonGap/stats/efficiency"
+msgstr "Prestatie"
+
+msgid "rankedBattleMainView/seasonGap/stats/outOfRating"
+msgstr "Buiten het klassement"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/descr"
+msgstr "Na de berekening zul je je eindresultaten zien en de welverdiende beloning ontvangen"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/title"
+msgstr "Resultaten worden berekend"
+
+msgid "rankedBattleMainView/specialSeason"
+msgstr "X"
+
+msgid "rankedBattleMainView/stats/battlesInLeague"
+msgstr "Gevechten in competities"
+
+msgid "rankedBattleMainView/stats/battlesTotal"
+msgstr "Totaal aantal gevechten"
+
+msgid "rankedBattleMainView/stats/divisionEfficiency"
+msgstr "Prestatie in de divisie"
+
+msgid "rankedBattleMainView/stats/qualificationEfficiency"
+msgstr "Prestatie\nin de kwalificatie"
+
+msgid "rankedBattleMainView/stats/qualificationSteps"
+msgstr "Chevrons\nin de kwalificatie"
+
+msgid "rankedBattleMainView/stats/rating/title"
+msgstr "Positie in het klassement"
+
+msgid "rankedBattleMainView/stats/rating/tooltip"
+msgstr "Het klassement wordt elke %(minutes)s minuten geüpdatet. Laatste update: %(time)s"
+
+msgid "rankedBattleMainView/stats/rating/unavailableTooltip"
+msgstr "Het klassement wordt wegens technische redenen tijdelijk niet geüpdatet."
+
+msgid "rankedBattleMainView/stats/seasonEfficiency"
+msgstr "Algemene prestatie"
+
+msgid "rankedBattleMainView/stats/stripesInLeague"
+msgstr "Chevrons in competities"
+
+msgid "rankedBattleMainView/stats/stripesTotal"
+msgstr "Totaal aantal chevrons"
+
+msgid "rankedBattleMainView/yearGap/header"
+msgstr "Jouw resultaten in 2021–2022"
+
+msgid "rankedBattlePage/closeBtn"
+msgstr "SLUITEN"
+
+msgid "rankedBattleView/awardBlock/emptyLeague"
+msgstr "—"
+
+msgid "rankedBattleView/awardBlock/points/currLeagueHeader"
+msgstr "Huidige competitie"
+
+msgid "rankedBattleView/awardBlock/points/header"
+msgstr "Seizoen leiders"
+
+msgid "rankedBattleView/awardBlock/points/noLeagueHeader"
+msgstr "Buitenklassement"
+
+msgid "rankedBattleView/awardBlock/points/noPriseHeader"
+msgstr "Houten competitie"
+
+msgid "rankedBattleView/awardBlock/points/totalLabel"
+msgstr "Totaal aantal punten: "
+
+msgid "rankedBattleView/awardBlock/pointsAlt/description"
+msgstr "Klik om de seizoenleiders te bekijken"
+
+msgid "rankedBattleView/awardBlock/quest/description/battlesLeft"
+msgstr "Effectieve gevechten te spelen:"
+
+msgid "rankedBattleView/awardBlock/quest/description/noQuest"
+msgstr "Geen actuele missies"
+
+msgid "rankedBattleView/awardBlock/quest/header"
+msgstr "Missie"
+
+msgid "rankedBattleView/awardBlock/seasonAward/description"
+msgstr "Klik om de beloningen te bekijken"
+
+msgid "rankedBattleView/awardBlock/seasonAward/header"
+msgstr "Seizoen onderscheidingen"
+
+msgid "rankedBattleView/closeBtn"
+msgstr "TERUG"
+
+msgid "rankedBattleView/closeBtnDescr"
+msgstr "NAAR GARAGE"
+
+msgid "rankedBattleView/nextStageBlock/stage"
+msgstr "Stadium %(cycleNumber)s"
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/body"
+msgstr "Klik om je reis in Klassementsgevechten te starten."
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/header"
+msgstr "Voorwaarts!"
+
+msgid "rankedBattleView/playVideoBtn"
+msgstr "Video over modus"
+
+msgid "rankedBattleView/progressBlock/bestRank"
+msgstr "Seizoensrecord"
+
+msgid "rankedBattleView/progressBlock/continue"
+msgstr "Verdien punten om beloningen te ontvangen in de finale"
+
+msgid "rankedBattleView/progressBlock/currentRank"
+msgstr "Je huidige rang: %(rank)s"
+
+msgid "rankedBattleView/progressBlock/finalRank"
+msgstr "Gefeliciteerd! Je hebt de hoogste rang %(rank)s in dit seizoen bereikt."
+
+msgid "rankedBattleView/progressBlock/steps"
+msgstr "Chevrons: %(numbers)s"
+
+msgid "rankedBattleView/progressBlock/vehicleRank"
+msgstr "Rangtokens"
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/body"
+msgstr "Klik om informatie over alle seizoen stadia te bekijken."
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/header"
+msgstr "Kalender"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/attentionText"
+msgstr "Resultaten van stadium %(cycleNumber)s over %(timeLeft)s"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/cycleItem"
+msgstr "Seizoen %(cycleNumber)s: %(day0)s/%(month0)s—%(day1)s/%(month1)s"
+
+msgid "rankedBattleView/statusBlock/statusText"
+msgstr "De seizoensresultaten zullen gefinaliseerd worden over: "
+
+msgid "rankedBattleView/title"
+msgstr "Klassementsgevecht"
+
+msgid "rankedBattlesBattleResults/animationCheckBoxLabel"
+msgstr "Toon animatie"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s kan niet aan Klassementsgevechten meedoen."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/header"
+msgstr "Ongeschikt voertuigtype"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/body"
+msgstr "Selecteer een %(levelSubStr)s om aan Klassementsgevechten mee te doen."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/header"
+msgstr "Ongeschikt voertuigniveau"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "niveau %(levels)s voertuig"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/body"
+msgstr "De %(forbiddenType)s kan niet aan Klassementsgevechten meedoen."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/header"
+msgstr "Ongeschikt voertuig"
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/body"
+msgstr "Ontvangen aan het einde van het stadium en gevuld met waardevolle beloningen. Het aantal beloningen en hun kwaliteit was afhankelijk van de positie in het klassement."
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/header"
+msgstr "Krat met beloningen"
+
+msgid "rankedBattlesCyclesView/btnClose"
+msgstr "SLUITEN"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/awardRecieved"
+msgstr "Beloning ontvangen"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/body"
+msgstr "Wordt verkregen aan het einde van een stadium en bevat verschillende beloningen. Het aantal beloningen en hun kwaliteit hangt af van de behaalde rang."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/header"
+msgstr "Krat met beloningen"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/body"
+msgstr "Kan omgeruild worden voor nieuwe unieke artikelen: persoonlijke reserves en zeldzame uitrusting. Eén obligatie kan omgeruild worden voor één set persoonlijke reserves of uitrusting. Hoe meer obligaties je verdient, hoe meer waardevolle artikelen je zult ontvangen."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/header"
+msgstr "Obligaties"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rank"
+msgstr "Rang"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rankAward"
+msgstr "Beloning voor behaalde rang"
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/body"
+msgstr "Toegekend voor het beste resultaat behaald tijdens één stadium. Het beste resultaat zal zelfs als een rang verloren wordt niet gereset worden."
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/header"
+msgstr "Beloning aan het einde van het stadium"
+
+msgid "rankedBattlesCyclesView/currentCycle/vehicleRankComment"
+msgstr "Gewone beloning"
+
+msgid "rankedBattlesCyclesView/final/btnLadder"
+msgstr "Ga naar het klassement"
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/body"
+msgstr "Klik om naar de lijst van seizoen leiders te gaan en bekijk je eigen positie."
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/header"
+msgstr "Seizoen leiders"
+
+msgid "rankedBattlesCyclesView/final/first"
+msgstr "top %(count)s spelers"
+
+msgid "rankedBattlesCyclesView/final/intermediate"
+msgstr "volgende %(count)s"
+
+msgid "rankedBattlesCyclesView/final/last"
+msgstr "Houten competitie"
+
+msgid "rankedBattlesCyclesView/final/lastComment"
+msgstr "Verdien punten om te stijgen in het klassement.\nDe uiteindelijke beloning die je zult ontvangen hangt af van\nje huidige competitie."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/noLeagueDataTooltip"
+msgstr "Informatie over je huidige competitie is tijdelijk onbeschikbaar. Probeer het later opnieuw."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/position"
+msgstr "Positie in het klassement"
+
+msgid "rankedBattlesCyclesView/final/tableHeader/seasonAward"
+msgstr "Uiteindelijke beloning"
+
+msgid "rankedBattlesCyclesView/noAchievements/future/footer"
+msgstr "van %(start)s t/m %(end)s"
+
+msgid "rankedBattlesCyclesView/noAchievements/past/footer"
+msgstr "Je hebt geen enkele rang behaald tijdens het huidige stadium.\nVerdiende punten: %(points)s"
+
+msgid "rankedBattlesUnreachableView/bottom/missions"
+msgstr "Voltooi persoonlijke missies"
+
+msgid "rankedBattlesUnreachableView/bottom/premium"
+msgstr "Gebruik %(premiumType)s Premium account"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/basic"
+msgstr "Wargaming"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/plus"
+msgstr "WoT"
+
+msgid "rankedBattlesUnreachableView/bottom/reserves"
+msgstr "Activeer persoonlijke reserves"
+
+msgid "rankedBattlesUnreachableView/bottomText"
+msgstr "Hoe kun je het snelst niveau %(levels)s voertuigen onderzoeken?"
+
+msgid "rankedBattlesUnreachableView/closeBtnLabel"
+msgstr "SLUITEN"
+
+msgid "rankedBattlesUnreachableView/subtitleText"
+msgstr "Modus onbeschikbaar"
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForBuy"
+msgstr "Je moet niveau %(levels)s voertuigen in je bezit hebben om aan Klassementsgevechten deel te nemen.\nEr zijn niveau %(levels)s voertuigen die je hebt onderzocht, maar nog niet gekocht."
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForRestore"
+msgstr "Je moet niveau %(levels)s voertuigen in je bezit hebben om aan Klassementsgevechten deel te nemen.\nEr zijn niveau %(levels)s voertuigen die je kunt terugbrengen."
+
+msgid "rankedBattlesUnreachableView/vehicleUnavailable"
+msgstr "Je moet niveau %(levels)s voertuigen in je bezit hebben om aan Klassementsgevechten deel te nemen."
+
+msgid "rankedBattlesViewHeader/tabs/current"
+msgstr "Rang"
+
+msgid "rankedBattlesViewHeader/tabs/final"
+msgstr "Eind"
+
+msgid "rankedBattlesWidget/bonusMultiplier"
+msgstr "x%(count)s"
+
+msgid "rankedBattlesWidget/bonusSteps"
+msgstr "voor bonusgevecht"
+
+msgid "rankedBattlesWidget/league0"
+msgstr "onbekende"
+
+msgid "rankedBattlesWidget/league1"
+msgstr "gouden"
+
+msgid "rankedBattlesWidget/league2"
+msgstr "zilveren"
+
+msgid "rankedBattlesWidget/league3"
+msgstr "bronzen"
+
+msgid "rankedBattlesWidget/leagueDecrease/info"
+msgstr "Je bent teruggekeerd naar de %(leagueName)s competitie"
+
+msgid "rankedBattlesWidget/leagueDecrease/title"
+msgstr "VERANDERING VAN COMPETITIE"
+
+msgid "rankedBattlesWidget/leagueIncrease/info"
+msgstr "Je hebt de %(leagueName)s competitie bereikt"
+
+msgid "rankedBattlesWidget/leagueIncrease/title"
+msgstr "VERANDERING VAN COMPETITIE"
+
+msgid "rankedBattlesWidget/leaguesAchievment/info"
+msgstr "Je kunt nu vechten voor een positie in het klassement"
+
+msgid "rankedBattlesWidget/leaguesAchievment/title"
+msgstr "COMPETITIES BESCHIKBAAR"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/info"
+msgstr "Je hebt de volgende divisie bereikt"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/title"
+msgstr "NIEUWE DIVISIE"
+
+msgid "rankedBattlesWidget/newRankCongrat"
+msgstr "Gefeliciteerd!\nRang ontvangen!"
+
+msgid "rankedBattlesWidget/noChanges"
+msgstr "Geen veranderingen"
+
+msgid "rankedBattlesWidget/qualificationIdleText"
+msgstr "Gevechten om de kwalificatie te voltooien:\n%(currentBattles)s / %(totalBattles)s"
+
+msgid "rewardsView/common/currentReward"
+msgstr "Beloningsvooruitzicht"
+
+msgid "rewardsView/tabs/leagues"
+msgstr "Beloningen voor competities"
+
+msgid "rewardsView/tabs/leagues/awardDescr/style"
+msgstr "De %(styleName)s stijl en %(badgeName)s badge"
+
+msgid "rewardsView/tabs/leagues/description"
+msgstr "Beloningsstijlen en -badges zijn tijdelijk, en beschikbaar voor een speler tot het einde van het volgende seizoen. Het recht om ze aan te brengen moet worden verdedigd door opnieuw dezelfde competitie te bereiken. Lukt dat niet, dan zijn de stijl en badge niet langer beschikbaar. Als een speler een andere competitie bereikt, worden de stijl en badge vervangen."
+
+msgid "rewardsView/tabs/leagues/description/league1"
+msgstr "De stijl wordt uitgereikt aan seizoenswinnaars die alle divisies voltooiden en behoorden tot de top 20%% van de spelers op het gebied van prestaties, of die als een van de eersten de competities bereikten. Eenmaal aangebracht op een voertuig, toont de stijl de prestatie van de eigenaar. Het recht op het aanbrengen van deze stijl moet in elk seizoen van de Klassementsgevechten-modus worden verdedigd."
+
+msgid "rewardsView/tabs/leagues/description/league2"
+msgstr "De stijl wordt toegekend aan seizoenswinnaars die zich aan het einde van het seizoen in de zilveren competitie bevinden. Aangebracht op een voertuig toont de stijl de prestatie van de eigenaar. Het recht op het aanbrengen van deze stijl moet in elk seizoen van de Klassementsgevechten-modus verdedigd worden."
+
+msgid "rewardsView/tabs/leagues/description/league3"
+msgstr "De stijl wordt toegekend aan seizoenswinnaars die zich aan het einde van het seizoen in de bronzen competitie bevinden. Aangebracht op een voertuig toont de stijl de prestatie van de eigenaar. Het recht op het aanbrengen van deze stijl moet in elk seizoen van de Klassementsgevechten-modus verdedigd worden."
+
+msgid "rewardsView/tabs/leagues/league1"
+msgstr "Gouden competitie"
+
+msgid "rewardsView/tabs/leagues/league2"
+msgstr "Zilveren competitie"
+
+msgid "rewardsView/tabs/leagues/league3"
+msgstr "Bronzen competitie"
+
+msgid "rewardsView/tabs/ranks"
+msgstr "Beloningen voor rangen"
+
+msgid "rewardsView/tabs/year"
+msgstr "Jaarlijkse beloningen"
+
+msgid "rewardsView/tabs/year/compensation/extraPoints"
+msgstr "Je hebt voor %(points)s %(rankedImg)s ter compensatie %(crystal)s %(crystalImg)s ontvangen"
+
+msgid "rewardsView/tabs/year/compensation/notEnough"
+msgstr "Je hebt ter compensatie %(crystal)s %(crystalImg)s ontvangen"
+
+msgid "rewardsView/tabs/year/current"
+msgstr "Beloningsvooruitzicht"
+
+msgid "rewardsView/tabs/year/currentChoose"
+msgstr "Selecteer beloning"
+
+msgid "rewardsView/tabs/year/currentFinal"
+msgstr "Beloning ontvangen"
+
+msgid "rewardsView/tabs/year/title/awarded"
+msgstr "Rangtokens: %(points)s"
+
+msgid "rewardsView/tabs/year/title/notAwarded"
+msgstr "Rangtokens: %(points)s"
+
+msgid "seasonComplete/bestRank"
+msgstr "Je hoogst behaalde rang"
+
+msgid "seasonComplete/bigTitle"
+msgstr "Seizoen %(season)s resultaten"
+
+msgid "seasonComplete/division/tooltip/header"
+msgstr "Rang %(rank)s (%(division)s)"
+
+msgid "seasonComplete/effectLabel"
+msgstr "Prestatie"
+
+msgid "seasonComplete/leadersButton"
+msgstr "Seizoen leiders"
+
+msgid "seasonComplete/outOfRating"
+msgstr "Buiten het klassement"
+
+msgid "seasonComplete/placeInRating"
+msgstr "Positie in het klassement"
+
+msgid "seasonComplete/smallTitle"
+msgstr "Klassementsgevecht"
+
+msgid "seasonComplete/sprinterImproved"
+msgstr "Je hebt als een van de eerste spelers de competities betreden en je zult een beloning van de gouden competitie ontvangen."
+
+msgid "seasonComplete/sprinterTop"
+msgstr "Je hebt als een van de eerste spelers de competities betreden."
+
+msgid "seasonComplete/tooltip/body"
+msgstr "Jouw resultaten in seizoen %(season)s"
+
+msgid "selectableReward/subTitle"
+msgstr "SELECTEER JE BELONING"
+
+msgid "selectableReward/title"
+msgstr "KLASSEMENTSGEVECHTEN. %(rewardName)s"
+
+msgid "selectableReward/tooltip/equipmentChoice/limit"
+msgstr "Elk item uit de lijst kan slechts één keer worden gekozen."
+
+msgid "selectableReward/tooltip/equipmentChoice/list"
+msgstr "• Ventilatiesysteem\n• Systeem met stabilisatie-uitrusting\n• Innovatief laadsysteem\n• Slijtvaste richtaandrijving\n• Experimentele optiek\n• Verbeterde indeling\n• Verbeterde compressor\n• Verhoogde granaatweerstand"
+
+msgid "selectableReward/tooltip/equipmentChoice/title"
+msgstr "Verbeterde uitrusting waaruit je kunt kiezen"
+
+msgid "selectorTooltip/desc"
+msgstr "Gevechten met niveau X onderzoekbare en verzamelvoertuigen, met de regels van een Standaard gevecht. Teams bestaan uit spelers met een min of meer gelijke rang."
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Seizoen eindigt over:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Gevechtsplanning"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Vandaag"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Morgen"
+
+msgid "selectorTooltip/title"
+msgstr "Klassementsgevecht"
+
+msgid "statistic/playersRaiting"
+msgstr "Seizoen leiders"
+
+msgid "statistic/vehicleRank"
+msgstr "Rangtokens verdiend"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s u"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "tooltip/closeButton/body"
+msgstr "De beloning zal automatisch worden toegevoegd."
+
+msgid "tooltip/closeButton/header"
+msgstr "Terug naar de garage"
+
+msgid "tooltip/step/conditions"
+msgstr "Als een speler eindigt in de top %(battlesNum)s spelers\nvan het %(team)s op basis van verdiende ervaring"
+
+msgid "tooltip/step/conditions/header"
+msgstr "Ontvangen"
+
+msgid "tooltip/step/decommission/description"
+msgstr "Als een speler zich plaatst in de plaatsen %(fromTill)s van het verliezende team op basis van verdiende ervaring."
+
+msgid "tooltip/step/decommission/header"
+msgstr "Verwijderd"
+
+msgid "tooltip/step/decommissionWin/description"
+msgstr "Als een speler zich plaatst in de plaatsen %(fromTill)s van het winnende team op basis van verdiende ervaring."
+
+msgid "tooltip/step/description"
+msgstr "Een speciaal element dat je voortgang naar de volgende rang vertegenwoordigt"
+
+msgid "tooltip/step/fromTill"
+msgstr "%(fromPlace)s–%(tillPlace)s"
+
+msgid "tooltip/step/header"
+msgstr "Chevron"
+
+msgid "tooltip/step/losers"
+msgstr "verliezende team"
+
+msgid "tooltip/step/notCharged/description"
+msgstr "Als een speler zich niet plaatst in de top %(battlesNum)s spelers van het winnende team op basis van verdiende ervaring, maar zich plaatst als %(fromTill)s."
+
+msgid "tooltip/step/notCharged/header"
+msgstr "Behouden"
+
+msgid "tooltip/step/notChargedLose/description"
+msgstr "Als een speler zich niet plaatst in de top %(battlesNum)s spelers van het verliezende team op basis van verdiende ervaring, maar zich plaatst als %(fromTill)s."
+
+msgid "tooltip/step/or"
+msgstr "of"
+
+msgid "tooltip/step/winners"
+msgstr "winnende team"
+
+msgid "welcomeScreen/btn"
+msgstr "Voorwaarts!"
+
+msgid "welcomeScreen/centerRule"
+msgstr "Behaal hogere rangen in gevechten tegen waardige tegenstanders"
+
+msgid "welcomeScreen/centerRuleTooltip/body"
+msgstr "Zowel je eigen als het vijandelijke team zal bestaan uit spelers van ongeveer dezelfde rang."
+
+msgid "welcomeScreen/centerRuleTooltip/header"
+msgstr "Waardige tegenstander"
+
+msgid "welcomeScreen/closeBtn"
+msgstr "SLUITEN"
+
+msgid "welcomeScreen/closeBtnTooltip/body"
+msgstr "Klik om het scherm te sluiten en terug te gaan naar de garage."
+
+msgid "welcomeScreen/closeBtnTooltip/header"
+msgstr "Sluiten"
+
+msgid "welcomeScreen/equalityText"
+msgstr "="
+
+msgid "welcomeScreen/header"
+msgstr "Welkom!"
+
+msgid "welcomeScreen/leftRule"
+msgstr "Vecht in je favoriete Niveau X\nvoertuigen"
+
+msgid "welcomeScreen/leftRuleTooltip/body"
+msgstr "Vecht met je favoriete niveau X onderzoekbare of\nverzamelvoertuigen"
+
+msgid "welcomeScreen/leftRuleTooltip/header"
+msgstr "Niveau X"
+
+msgid "welcomeScreen/negative/body"
+msgstr "{team}, maar eindig in de top {topNumber} spelers van je team op basis van verdiende ervaring."
+
+msgid "welcomeScreen/negative/team"
+msgstr "Verlies een gevecht"
+
+msgid "welcomeScreen/positive/body"
+msgstr "{team} en eindig in de top {topNumber} spelers van je team op basis van verdiende ervaring."
+
+msgid "welcomeScreen/positive/team"
+msgstr "Win een gevecht"
+
+msgid "welcomeScreen/rankDescr"
+msgstr "Om rang 1 te ontvangen"
+
+msgid "welcomeScreen/ranks/header"
+msgstr "Eindig in de top met ervaring verdient en behaal hogere rangen!"
+
+msgid "welcomeScreen/ranksDescr"
+msgstr "Hoe hoger de behaalde positie, hoe waardevoller de beloning die je ontvangt."
+
+msgid "welcomeScreen/rightRule"
+msgstr "Hoe hoger de rang, des te waardevoller de beloningen die je uiteindelijk ontvangt"
+
+msgid "welcomeScreen/rightRuleTooltip/body"
+msgstr "Hoe hoger de behaalde rang, hoe waardevoller de beloningen die je ontvangt."
+
+msgid "welcomeScreen/rightRuleTooltip/header"
+msgstr "Waardevolle beloningen"
+
+msgid "welcomeScreen/rulesDelimeter"
+msgstr "of"
+
+msgid "yearLeaderboard/rewardView/battleType"
+msgstr "Klassementsgevecht"
+
+msgid "yearLeaderboard/rewardView/clanDescr"
+msgstr "[%(clan)s] "
+
+msgid "yearLeaderboard/rewardView/leaderboardBtn/label"
+msgstr "Naar het klassement"
+
+msgid "yearLeaderboard/rewardView/positionDescr"
+msgstr "Positie van {name} {clan}in het klassement"
+
+msgid "yearLeaderboard/rewardView/reward/label"
+msgstr "Je hebt een speciale %(name) badge ontvangen om naast je nickname weer te geven."
+
+msgid "yearLeaderboard/rewardView/reward/nameTemplate"
+msgstr "\"{name}\""
+
+msgid "yearLeaderboard/rewardView/title"
+msgstr "Je hebt de top {total} bereikt"
+
+msgid "yearRewards/box/big/title"
+msgstr "Geavanceerde beloning"
+
+msgid "yearRewards/box/large/title"
+msgstr "Maximale beloning"
+
+msgid "yearRewards/box/medium/title"
+msgstr "Standaard beloning"
+
+msgid "yearRewards/box/small/title"
+msgstr "Kleine beloning"
+
+msgid "yearRewards/tooltip/any/reward/title"
+msgstr "Beloning"
+
+msgid "yearRewards/tooltip/box/big/title"
+msgstr "Geavanceerde beloning"
+
+msgid "yearRewards/tooltip/box/large/title"
+msgstr "Maximale beloning"
+
+msgid "yearRewards/tooltip/box/medium/title"
+msgstr "Standaard beloning"
+
+msgid "yearRewards/tooltip/box/small/title"
+msgstr "Kleine beloning"
+
+msgid "yearRewards/tooltip/box/subTitle"
+msgstr "Jaarlijkse beloning. Alleen uitgereikt wanneer de speler aan het einde van de drie seizoenen van Klassementsgevechten het benodigde aantal rangtokens heeft verdiend."
+
+msgid "yearRewards/tooltip/equipmentChoice/description/1"
+msgstr "Je kunt als beloning één stuk verbeterde uitrusting selecteren:"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/2"
+msgstr "Je kunt als beloning twee stuks verbeterde uitrusting selecteren. Elk artikel kan slechts eenmaal worden ontvangen:"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/3"
+msgstr "Je kunt als beloning drie stuks verbeterde uitrusting selecteren. Elk artikel kan slechts eenmaal worden ontvangen:"
+
+msgid "yearRewards/tooltip/equipmentChoice/list"
+msgstr "• Ventilatiesysteem\n• Systeem met stabilisatie-uitrusting\n• Innovatief laadsysteem\n• Slijtvaste richtaandrijving\n• Experimentele optiek\n• Verbeterde indeling\n• Verbeterde compressor\n• Verhoogde granaatweerstand"
+
+msgid "yearRewards/tooltip/equipmentChoice/title"
+msgstr "Verbeterde uitrusting"
+
+msgid "yearRewards/tooltip/needPoints"
+msgstr "Rangtokens benodigd"
+
+msgid "yearRewards/tooltip/status/current/description"
+msgstr "Je dingt mee naar een jaarlijkse beloning omdat je het benodigde aantal rangtokens hebt verdiend."
+
+msgid "yearRewards/tooltip/status/current/title"
+msgstr "Jouw huidige beloning"
+
+msgid "yearRewards/tooltip/status/currentChoose/description"
+msgstr "Je hebt een jaarlijkse beloning ontvangen! Klik op de 'Selecteer beloning' knop om meerdere stuks verbeterde uitrusting te selecteren."
+
+msgid "yearRewards/tooltip/status/currentChoose/title"
+msgstr "Beloning ontvangen! Je kunt nu meerdere stuks verbeterde uitrusting uitkiezen."
+
+msgid "yearRewards/tooltip/status/currentFinal/description"
+msgstr "Je hebt een jaarlijkse beloning ontvangen!"
+
+msgid "yearRewards/tooltip/status/currentFinal/title"
+msgstr "Beloning ontvangen!"
+
+msgid "yearRewards/tooltip/status/locked/description"
+msgstr "Verdien ze in Klassementsgevechten door hogere divisies te bereiken en in de competities te spelen."
+
+msgid "yearRewards/tooltip/status/locked/title"
+msgstr "Niet genoeg rangtokens"
+
+msgid "yearRewards/tooltip/status/lockedFinal/description"
+msgstr "Je hebt niet genoeg rangtokens verdiend om deze beloning te ontvangen."
+
+msgid "yearRewards/tooltip/status/lockedFinal/title"
+msgstr "Niet genoeg rangtokens"
+
+msgid "yearRewards/tooltip/status/passed/description"
+msgstr "Er ligt al een waardevollere jaarlijkse beloning voor jou in het vooruitzicht"
+
+msgid "yearRewards/tooltip/status/passed/title"
+msgstr "Beloning onbeschikbaar"
+
+msgid "yearRewards/tooltip/status/passedFinal/description"
+msgstr "Je hebt al een waardevollere jaarlijkse beloning ontvangen"
+
+msgid "yearRewards/tooltip/status/passedFinal/title"
+msgstr "Beloning onbeschikbaar"
+
+msgid "year_award/acceptButton/acceptLabel"
+msgstr "Begrepen!"
+
+msgid "year_award/acceptButton/hangarLabel"
+msgstr "Bekijken in de garage"
+
+msgid "year_award/compensationLabel"
+msgstr "Je hebt {total} {pointsIcon} verdiend. Voor {compensated} {pointsIcon} daarvan heb je ter compensatie {crystals} {crystalIcon} ontvangen."
+
+msgid "year_award/rankedLabel"
+msgstr "Klassementsgevecht"
+
+msgid "year_award/rewardSelected"
+msgstr "Beloning ontvangen"
+
+msgid "year_award/rewardsToSelect"
+msgstr "Aantal beschikbare beloningen waaruit je kunt kiezen: {count}"

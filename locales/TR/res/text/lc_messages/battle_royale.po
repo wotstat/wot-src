@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Açık tüm sunucularda ateşkes var."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "Bu sunucuda ateşkes var."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Sunucu değiştir"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Çelik Avcısı sona erdi"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Kip bu sunucuda devre dışı"
+
+msgid "banner/info/disabled"
+msgstr "Ateşkes"
+
+msgid "banner/info/seasonActive"
+msgstr "İkinci şans ve ödüller"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "%(day)s %(month)s tarihine kadar"
+
+msgid "banner/subtitle"
+msgstr "Değerli ödülleri olan battle royale"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s sa."
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s sa. %(minutes)s dk."
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s dk."
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "ÇELİK AVCISI"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Savaş yeni bir konumdan devam edecek."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Yakında Yeniden Doğacaksınız"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Yeniden Doğuş"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "İkinci bir şans olmayacak."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Yeniden Doğuş Artık Mümkün Değil"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Yeniden Doğuş Yakında Kapanacak!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Bu sefer daha dikkatli olun."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Aracınız Savaşa Hazır!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Savaşa Dönüş"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Aktif çatışma devam ediyor."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Yeniden Doğuş Mümkün Değil"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Aracı aksiyona geri döndürmek için bir Yeniden Doğuş hakkı bulun."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Müttefik Araç Yok Edildi"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Yeniden Doğuş"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "İki araç tek araçtan iyidir!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Müttefik Araç Yeniden Doğdu"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Çatışma dışında kalın!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Müttefikin Yeniden Doğması Sağlanıyor"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Bonus etkinleşti!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Birincilik ödülü"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Savaşta toplanan"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "ZAFER"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Bölüm seçilmedi. Kalan Savaş Kartı Puanı: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Tüm Bölümler tamamlandı. Oynamaya devam edip Savaş Kartı Puanı biriktirin."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Savaş Kartı'na git"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Savaş Kartı"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Bir Bölüm seçin"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Aktif Bölümün gelişimine git"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Savaş Kartı'na git"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Savaş başına tamamlanan görev: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Görevler"
+
+msgid "battleResult/battleReward/title"
+msgstr "SAVAŞ İÇİN ALINAN"
+
+msgid "battleResult/button/hangar"
+msgstr "Garaja Gidin"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Puanlar ve ödüller tüm oyuncular bu savaşı bitirdikten sonra dağıtılacaktır. Görevler de savaş sonuçlarına göre değerlendirilecektir."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Animasyonu atlamak için %(esc) tuşuna basın"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Takıma Davet Et"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Müttefik"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Rastgele Müttefik"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Savaş Türü"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "BİREYSEL SAVAŞ"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "WoT Premium Hesabı ile şunları alabilirsiniz:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "WoT Premium Hesabı ile toplam değerler"
+
+msgid "battleResult/progressStage"
+msgstr "{stage}. Aşama gelişimi"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Oyuncunun gerçek rumuzu ve klan etiketi savaşta diğer oyunculara gösterilmez."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Oyuncunun esas rumuzu: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Oyuncunun gerçek rumuzu {name} olarak değiştirildi"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Aracınızın zırhı tarafından engellenen hasar miktarı."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Tarafınızdan verilen hasar miktarı."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Tarafınızdan yok edilen düşman aracı sayısı."
+
+msgid "battleResult/stats/body/place"
+msgstr "Savaş sonuçlarına göre konumunuz."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Takımınız tarafından yok edilen düşman aracı sayısı."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Engellenen Hasar"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Verilen Hasar"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Yok Ettikleriniz"
+
+msgid "battleResult/stats/header/place"
+msgstr "Konum"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Takım Tarafından Yok Edilen"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Engellenen Hasar"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Verilen Hasar"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Yok Ettikleriniz"
+
+msgid "battleResult/stats/title/place"
+msgstr "Konum"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Takım Tarafından Yok Edilen"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Skor Tahtası"
+
+msgid "battleResult/tab/result"
+msgstr "Savaş Sonuçları"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "TAKIM YOK EDİLDİ"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "ARAÇ YOK EDİLDİ"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "ZAFER"
+
+msgid "battleResult/title/victoryOther"
+msgstr "ŞEREF KONUMU"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Çelik Avcısı için özel araçlardan birini seçin."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Uygun Olmayan Araç"
+
+msgid "button/modules"
+msgstr "TEKNOLOJİ AĞACI"
+
+msgid "button/repair"
+msgstr "Onar"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Savaşlar Geçici Olarak Devre Dışı"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Savaşlar Geçici Olarak Devre Dışı"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Kip Geçerli Değil"
+
+msgid "ceasefire/header/schedule"
+msgstr "Savaş Programı"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Açık tüm sunucularda ateşkes var. Programı aşağıda görebilirsiniz."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "Bu sunucuda ateşkes var. Kipe erişmek için başka bir sunucuya geçebilirsiniz."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Çelik Avcısı bu sunucuda geçerli değil. Erişmek için başka bir sunucuya geçebilirsiniz."
+
+msgid "commanderInfo/commonRank"
+msgstr "Komutan"
+
+msgid "commanderInfo/description/china"
+msgstr "\"Çoktan kazandım. Yakında farkına varacaksınız.\""
+
+msgid "commanderInfo/description/france"
+msgstr "\"Kanun benim!\""
+
+msgid "commanderInfo/description/germany"
+msgstr "\"Bugün, tarihe geçecek şanlı bir gün.\""
+
+msgid "commanderInfo/description/poland"
+msgstr "\"Kibarlığa vakit yok.\""
+
+msgid "commanderInfo/description/sweden"
+msgstr "\"Her şey plana uygun ilerliyor.\""
+
+msgid "commanderInfo/description/uk"
+msgstr "\"Ne olursan ol, en iyisi ol.\""
+
+msgid "commanderInfo/description/usa"
+msgstr "\"Baltalar çıkarıldı, cilalandı ve bilendi.\""
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"Kazanan hepsini alır.\""
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Yetenekler"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nÇelik Avcısı için özel araç"
+
+msgid "fragPanel/squadsCount"
+msgstr "Takımlar: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Skor Tahtası"
+
+msgid "hangarResults/btns/summary"
+msgstr "Savaş Sonuçları"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "KAPAT"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Parçalar sadece savaşta yükseltilebilir. Yükseltme Menüsünü açmak için savaşta %(key)s tuşuna basın."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "Deneyim almak için %(highlight1)s ve %(highlight2)s. Ulaşılan her seviye oyuncunun Yükseltme Menüsünden bir parça yükseltmesini ve aracın niteliklerini ciddi anlamda geliştirmesini sağlar."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Düşman araçlarına hasar verin"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "haritada Savaş Ganimetleri toplayın"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Savaşta Araç Yükseltme"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Savaşa Seviye I bir araçla gireceksiniz."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Parçalar hem savaş sırasında Yükseltme Menüsünden (normal olarak %(treeKey)s tuşu) hem de %(leftModuleKey)s ve %(rightModuleKey)s tuş bileşimine basılarak yükseltilebilir.\n\nParçalar sadece savaş sırasında yükseltilebilir."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "Savaşta:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Çelik Avcınız, savaşta hasar verme karşılığında ve Savaş Ganimetleri toplayarak deneyim alır. Gerekli miktarda deneyim biriktirdiğinizde, bir sonraki seviyeye ulaşıp parçalardan biri için bir yükseltme seçebilirsiniz."
+
+msgid "levelUp/severalTitles"
+msgstr "ALINAN BÖLÜMLER: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "%(level)s. BÖLÜM ALINDI!"
+
+msgid "levelUp/twoTitles"
+msgstr "ALINAN BÖLÜMLER: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Görevleri tamamlayın ve değerli ödüller alın."
+
+msgid "level_up/max_level_info/title"
+msgstr "Yeni Günlük Görevler Var"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Sezon\nyakında başlayacak"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Sezon %(date)s tarihinde başlayacak"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Engelleme"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Hasar"
+
+msgid "playerStats/killsStat/name"
+msgstr "Yok edilen"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Yok edilen"
+
+msgid "playerStats/placeStat/name"
+msgstr "Konum"
+
+msgid "playerStats/title"
+msgstr "Kişisel Skor"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Telsiz Tespiti devre dışı: Hazırlık devam ediyor"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Araç tamamen işlevsel. İyileşme gerekmiyor."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Savaş Alanı Robotu yok edildi"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(target)s %(attacker)s tarafından yok edildi."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s düşman %(target)s oyuncusunu yok etti."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Alev Topu yok edildi"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Mayınların süresi tükendi"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Mayınlar döşendi"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Telsiz Tespiti kullanılmaya hazır"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Araç en yüksek Seviyeye ulaştı"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "%(level)s Seviyesine ulaşıldı"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Takılı: %(moduleType)s. Yükseltildi: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Gövde"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Süspansiyon"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Motor"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Top"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Telsiz Tespiti"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Kule"
+
+msgid "playersPanel/title"
+msgstr "EKİP"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Takım araçları arasında geçiş yapın."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "İzleyici Kipi"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Garaja Geri Dön.\nBaşka bir tank ile bir savaşa katılın."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Garaja Geri Git"
+
+msgid "preBattle/buttonTitle"
+msgstr "SAVAŞ!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Bir harita seçin"
+
+msgid "preBattle/listTitle"
+msgstr "OYUNCU HAZIRLIĞI"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "404. Bölge"
+
+msgid "preBattle/mapRandom"
+msgstr "Rastgele harita"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "TAKIM ARAÇLARI"
+
+msgid "preBattle/title"
+msgstr "BÜYÜK AV"
+
+msgid "preBattle/userFooterTitle"
+msgstr "SEÇİLİ ARAÇLAR"
+
+msgid "preBattle/userNotReady"
+msgstr "Hazır değil"
+
+msgid "preBattle/userReady"
+msgstr "Hazır"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "%(server)s sunucusunda %(cycleNo)s. Sezon sona erdi"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "%(server)s sunucusunda Sezon sona erdi."
+
+msgid "proxyPanel/button"
+msgstr "Dükkân"
+
+msgid "proxyPanel/label"
+msgstr "Çelik\nMühürler"
+
+msgid "proxyPanel/store"
+msgstr "DÜKKÂN"
+
+msgid "questsTooltip/timeLeft"
+msgstr "Sezon %(time)s içinde sona erecek"
+
+msgid "radar/hint/noBinding"
+msgstr "Telsiz Tespitine atanmış tuş yok"
+
+msgid "radar/hint/press"
+msgstr "Telsiz Tespitini çalıştırmak için"
+
+msgid "radar/hint/text"
+msgstr "tuşuna basın"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Başlayın"
+
+msgid "selectRespawn/button/land"
+msgstr "Başlayın"
+
+msgid "selectRespawn/description"
+msgstr "Önerilen noktalardan birine tıklayın. Hiç nokta seçilmezse önerilen noktalardan herhangi birinde başlayacaksınız."
+
+msgid "selectRespawn/header"
+msgstr "Başlangıç Noktası Seçin"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Önerilen noktalardan birine tıklayın. Hiç nokta seçilmezse önerilen noktalardan herhangi birinde başlayacaksınız."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Savaşınız burada başlayacak"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Başlangıç Noktası Seçin"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s gün"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s sa. %(min)s dk."
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 dk."
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s dk."
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "HÜCUM!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Asit zırhı aşındırır!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Bölge kapalı! Bölgeyi terk edin yoksa aracınız yok edilecek!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "Alan yakında kırmızıya dönecek"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Hareket kabiliyeti azaldı!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Tekrar paletler üstünde..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Can puanı geri kazanılıyor"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Can puanı geri kazanılıyor"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Hasar dönüştürülüyor"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Teknik nitelikler geliştirildi"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Mermiler ve Canlandırma"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Hava İkmali"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Tamir Çantası veya Yetenek Hakkı"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Savaş Ganimeti"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Birleşik Savaş Ganimeti: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Toplanıyor: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Tamir Bölgesi"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Kabaran coşku!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Siste"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Zırhımız aşınıyor!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Hareket kabiliyeti azaldı!"
+
+msgid "techParams/type/damage"
+msgstr "Hasar"
+
+msgid "techParams/type/difficulty"
+msgstr "Zorluk Seviyesi"
+
+msgid "techParams/type/mobility"
+msgstr "Hareket Kabiliyeti"
+
+msgid "techParams/type/spotting"
+msgstr "Tespit"
+
+msgid "techParams/type/survivability"
+msgstr "Dayanıklılık"
+
+msgid "techtree/body_armor"
+msgstr "Zırh"
+
+msgid "techtree/body_health"
+msgstr "Can Puanı"
+
+msgid "techtree/body_mobility"
+msgstr "Hareket Kabiliyeti"
+
+msgid "techtree/engine_acceleration"
+msgstr "Dinamikler"
+
+msgid "techtree/engine_speed"
+msgstr "Azami Hız"
+
+msgid "techtree/gun_alpha"
+msgstr "Atış Başına Hasar"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Otomatik Yeniden Yükleyici"
+
+msgid "techtree/gun_clip"
+msgstr "Şarjör Yüklemeli"
+
+msgid "techtree/gun_dpm"
+msgstr "Yükleme Hızı"
+
+msgid "techtree/gun_dualgun"
+msgstr "Çifte Top"
+
+msgid "techtree/gun_he"
+msgstr "HE Mermi Hasarı"
+
+msgid "techtree/gun_machinegun"
+msgstr "Tanksavar Makineli Tüfek"
+
+msgid "techtree/gun_piercing"
+msgstr "Delme Gücü"
+
+msgid "techtree/radar_cooldown"
+msgstr "Telsiz Tespiti Soğuma Süresi"
+
+msgid "techtree/radar_distance"
+msgstr "Tespit Menzili"
+
+msgid "techtree/turret_armor"
+msgstr "Zırh"
+
+msgid "techtree/turret_health"
+msgstr "Can Puanı"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Dönüş Hızı"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+%15"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "{{credits}}'a kadar kredi"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "{{experience}}'e kadar DP"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Takım savaş bonusu"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Rastgele bir müttefikle Takımda savaşın. Ekip olarak dokuz düşman Takımına karşı oynayın. Takım görevleri bu kipte tamamlanabilir. Takım savaştan sonra otomatik olarak dağıtılacaktır."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Klasik Çelik Avcısı. Her oyuncu kendisi için savaşır. Kaynakları toplayın, aracınızı yükseltin ve özgün yeteneklerini kullanarak ayakta kalan son oyuncu olun!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Bir arkadaşınızla Takımda savaşın. Ekip olarak dokuz düşman Takımına karşı oynayın. Takım görevleri bu kipte tamamlanabilir."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Rastgele Takım"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Yalnız Mod"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Arkadaşla Takım"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Yalnız"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Takım"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Puan kazanma kuralları"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s. konum"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s konum"
+
+msgid "tooltips/awards/achievement"
+msgstr "Madalya"
+
+msgid "tooltips/awards/badge"
+msgstr "Bröve"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "Aracınız yok edildikten sonra savaşa geri dönmenizi sağlar. Bu gerçekleştiğinde aracın yükseltme seviyesi kaybolmaz. Savaş başına sınırlı kere kullanılabilir."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Yeniden doğuş haklarını Hava İkmallerinden alabilirsiniz."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "Bir müttefikin yeniden doğmasını sağlamak için {brown_Open}%(timeToResurrect)s sn.{brown_Close} boyunca çatışma dışında kalın. Bu mekanizma bir savaşın ilk {brown_Open}%(duration)s dk.sı{brown_Close} içinde işler. Yeniden Doğma hakları Takım üyeleri arasında paylaşılır."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "Takımda Oynarken"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Aracınız yok edildiğinde otomatik olarak yeniden doğar. Bu mekanizma savaşın ilk {brown_Open}%(duration)s dk.sı{brown_Close} içinde işler."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "Bireysel Oynarken"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Tek kullanımlık"
+
+msgid "tooltips/respawn/title"
+msgstr "Yeniden Doğma"
+
+msgid "tooltips/vehicle/description"
+msgstr "Çelik Avcısı kipi için araç"
+
+msgid "tournament/description"
+msgstr "BÜYÜK AV"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Hazır değil"
+
+msgid "tournament/fightButton/ready"
+msgstr "Hazır!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Turnuvaya girilemiyor. Hata kodu: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Büyük Av turnuvası hatası. Hata kodu: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "BÜYÜK AV"
+
+msgid "tournament/type/solo"
+msgstr "Türü: Yalnız"
+
+msgid "tournament/type/squad"
+msgstr "Türü: Takım"
+
+msgid "upgradePanel/alert/0"
+msgstr "Aracınızı yükseltemezsiniz!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Aracı aktif çatışma sırasında yükseltemezsiniz!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Aracınızı yükseltemezsiniz. Araç batıyor!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Aracınızı yükseltemezsiniz. Araç ters döndü!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Yükseltme Menüsünü açmak için %(key)s tuşuna basın"
+
+msgid "upgradePanel/title/default"
+msgstr "Yeni Parça Açıldı"
+
+msgid "upgradePanel/title/hull"
+msgstr "Yeni Gövde Açıldı"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Yeni Süspansiyon Açıldı"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Yeni Motor Açıldı"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Yeni Top Açıldı"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Yeni Telsiz Açıldı"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Yeni Kule Açıldı"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "VEYA"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Zırh"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Atış Başına Hasar"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Yükleme Hızı"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Can Puanı"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Delme Gücü"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Telsiz Tespiti Faaliyeti"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Magazin Yükleme Sistemi"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Hız"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Araç özellikleri"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Avantajları"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Dezavantajları"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Ateşkes tüm sunucularda etkin. Savaşlar %(time)s içinde açılacak"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Başka Bir Sunucu Seçin"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "%(cycle)s. Evre sona erdi"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Evre bitti"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Bu sunucuda ateşkes etkin. Savaşlar %(time)s içinde açılacak"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "%(serverName)s sunucusunda ateşkes var"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "%(cycle)s. Evre %(time)s içinde başlayacak"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "İlk Evre %(time)s içinde başlayacak"

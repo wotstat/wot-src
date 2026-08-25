@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "categories/body/firepower"
+msgstr "Düşman araçlarını yok etmedeki etkinliği gösteren parametreler seti. Bu süzgeç bu parametre setine sahip donanımları gösterir/gizler."
+
+msgid "categories/body/mobility"
+msgstr "Aracın savaş alanında konumunu ne kadar hızlı değiştirebileceğini gösteren parametreler seti. Bu süzgeç bu parametre setine sahip donanımları gösterir/gizler."
+
+msgid "categories/body/stealth"
+msgstr "Aracın gizliliğinin etkinliğini ve düşman araçlarını tespit etmedeki yeteneğini gösteren parametreler seti. Bu süzgeç bu parametre setine sahip donanımları gösterir/gizler."
+
+msgid "categories/body/survivability"
+msgstr "Aracın hasar almaya karşı dayanıklılığını gösteren parametreler seti. Bu süzgeç bu parametre setine sahip donanımları gösterir/gizler."
+
+msgid "categories/empty"
+msgstr "İkinci Yuva Kategorisi"
+
+msgid "categories/firepower"
+msgstr "Ateş Gücü"
+
+msgid "categories/mobility"
+msgstr "Hareket Kabiliyeti"
+
+msgid "categories/slotEffect/empty"
+msgstr "Bu aracın ikinci donanım yuvasına bir kategori atama imkanı."
+
+msgid "categories/slotEffect/firepower"
+msgstr "Ateş Gücü sınıfındaki standart donanım bu yuvaya takılırsa daha etkili olacaktır."
+
+msgid "categories/slotEffect/mobility"
+msgstr "Hareket Kabiliyeti sınıfındaki standart donanım bu yuvaya takılırsa daha etkili olacaktır."
+
+msgid "categories/slotEffect/stealth"
+msgstr "Gözcülük sınıfındaki standart donanım bu yuvaya takılırsa daha etkili olacaktır."
+
+msgid "categories/slotEffect/survivability"
+msgstr "Dayanıklılık sınıfındaki standart donanım bu yuvaya takılırsa daha etkili olacaktır."
+
+msgid "categories/stealth"
+msgstr "Gözcülük"
+
+msgid "categories/survivability"
+msgstr "Dayanıklılık"
+
+msgid "categories/universal"
+msgstr "Kategorisi Yok"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "Listeden uygulanabilir bir yönerge seçin."
+
+msgid "compare/section/description/consumables"
+msgstr "Listeden uygulanabilir bir sarf malzemesi seçin."
+
+msgid "compare/section/description/optDevices"
+msgstr "Listeden uygulanabilir bir donanım parçası seçin."
+
+msgid "compare/section/title/battleBoosters"
+msgstr "{name} için yönergeler"
+
+msgid "compare/section/title/consumables"
+msgstr "{name} için sarf malzemeleri"
+
+msgid "compare/section/title/optDevices"
+msgstr "{name} için donanım"
+
+msgid "dealPanel/autoRenew"
+msgstr "Otomatik olarak ikmal et"
+
+msgid "dealPanel/button/apply"
+msgstr "Uygula"
+
+msgid "dealPanel/button/applyType"
+msgstr "Türe uygula"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "Araca uygula"
+
+msgid "dealPanel/button/cancel"
+msgstr "İptal"
+
+msgid "dealPanel/button/purchase"
+msgstr "Satın Al"
+
+msgid "dealPanel/fromStorage"
+msgstr "Depodan:"
+
+msgid "dealPanel/fromVehicle"
+msgstr "Takılı:"
+
+msgid "dealPanel/repair"
+msgstr "Onarım gerekiyor"
+
+msgid "dealPanel/toBePaid"
+msgstr "Toplam:"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "Depoda"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "Araca takılı"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "Satın alımı gerçekleştirmek için yeterli para yok"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "Kredi ile satın alınacak"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "Tahvil ile satın alınacak"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "Depodan takılacak"
+
+msgid "deconstructionDeviceView/available"
+msgstr "Mevcut:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "İptal"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "Devam Et"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "Depodan:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "Araçlardan:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "( %(red_Open)sYükseltmek için%(red_Close)s %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s %(red_Open)sdaha gerekiyor%(red_Close)s )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "Alınacak:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "AKTİF ARAÇ"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "DEPODA: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "ARAÇLARDA: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "%(whiteSpanish_Open)sBileşenlerine%(whiteSpanish_Close)s %(icon)s demonte etmek istediğiniz donanımı seçin. Alacağınız bileşenleri Deneysel Donanımları yükseltmede kullanabilirsiniz."
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s Daha çok bileşen elde etmek için kullanmadığınız Deneysel Donanımları demonte edin."
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "TEZGÂH"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s donanımını\nyükseltmek için yeterli bileşen yok."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "Devam etmek için kullanmadığınız donanımları demonte edin."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "Devam etmek için gerekli bileşen miktarını toplayın."
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "Değişiklikleri İptal Et"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "İptal"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "İptal"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "İptal"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "Değişiklikleri İptal Et"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "Kaydet"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "Satın Al"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "Satın Al ve Tak"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "Tak"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "Donanımı %(price)s karşılığında söküp Depoya gönderebilirsiniz veya yok edebilirsiniz."
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "Donanımı %(price)s karşılığında veya WoT Plus ile {whiteSpanish_Open}ücretsiz olarak{whiteSpanish_Close} söküp Depoya gönderebilir veya yok edebilirsiniz."
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "Donanımı %(demountKit)s kullanarak, %(price)s karşılığında veya WoT Plus ile {whiteSpanish_Open}ücretsiz olarak{whiteSpanish_Close} söküp Depoya gönderebilir veya yok edebilirsiniz."
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "Donanımı WoT Plus ile {whiteSpanish_Open}ücretsiz olarak{whiteSpanish_Close} söküp Depoya gönderebilirsiniz."
+
+msgid "dialogs/confirm/demount/items"
+msgstr "Donanımı söküp Depoya gönderebilirsiniz."
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "ÇALIŞMAYACAK"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "yönerge"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "Bu Çift Modifikasyonu satın aldığınızda diğeri iptal edilecek."
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "sarf malzemesi"
+
+msgid "dialogs/confirm/item/module"
+msgstr "parça"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "donanım"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "Çift Modifikasyonu"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "yönergeler"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "sarf malzemeleri"
+
+msgid "dialogs/confirm/items/module"
+msgstr "parçalar"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "donanım"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " ve "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "Yönerge yuvalarındaki değişiklikler kaydedilsin mi?"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "Sarf malzemesi yuvalarındaki değişiklikler kaydedilsin mi?"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "Donanım yuvalarındaki değişiklikler kaydedilsin mi?"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "%(name)s {type} satın alınsın mı?"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "%(name)s {type} satın alınıp takılsın mı?"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "%(name)s {type} takılsın mı?"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "Tüm %(vehicle)s için %(name)s {type} etkinleştirilsin mi?"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "{type} satın alacak mısınız?"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "{type} satın alınıp takılsın mı?"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "{type} takılsın mı?"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "Tüm %(vehicle)s için {type} etkinleştirilsin mi?"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "tank avcıları"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "KMT'ler"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "ağır tanklar"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "hafif tanklar"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "orta tanklar"
+
+msgid "dialogs/confirm/warning"
+msgstr "Dikkat! %(devices)s takılı değil. Yönerge %(doesNotWork)s."
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "Dikkat! demonte ettikten sonra hiç Deneysel Donanımınız kalmayacak!"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "İptal"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "Demonte Et"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "Demonte Et"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "Toplam alınacak:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "1 ürün karşılığında alınacak:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "%(name)s\ndemonte edilsin mi?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "%(name)s\ndemonte edilsin mi?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "Lütfen dikkat: Bu donanımı demonte ettikten sonra kurtaramayacak veya satın alamayacaksınız."
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "İptal"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "Demonte Et"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "Şu donanım demonte edilsin mi?"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "Şu donanım demonte edilip yükseltilsin mi?\n%(deviceName)s"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "Depodan demonte edilecek: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "Araçlardan demonte edilecek: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "Demonte ettiğinizde alacağınız: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "Toplam alınacak:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "Yükseltme maliyeti:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "Dikkat! demonte ettikten sonra hiç Deneysel Donanımınız kalmayacak!"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "Dikkat! Araçlarınızdaki Deneysel Donanım demonte edilecek."
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "Takas Et"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "donanım"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "%(name)s yükseltmesi için %(credits)s daha gerekiyor"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "donanım"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "Donanımı yükseltmek için %(credits)s daha gerekiyor"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "Donanım yükseltilemiyor. Krediye dönüştürmek için %(gold)s daha ihtiyacınız var."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "Donanımı yükseltmek için yeterli krediniz var."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "Takas gerekmiyor"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "Demonte edebileceğiniz hiç Deneysel Donanımınız yok."
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "Daha çok bileşen elde etmek için Deneysel Donanımları demonte edin."
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "%(name)s\nyükseltilsin mi?"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "Gereken: %(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "Fiyatı:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "satın almak için"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "satın almak için"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "Takas Et"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "Dönüşüm oranı: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "Hızlı Servis için %(credits)s daha gerekiyor"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "yönerge"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "sarf malzemesi"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "parça"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "donanım"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "Çift Modifikasyonu"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "%(name)s {type} {action} %(credits)s daha gerekiyor"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "yönergeler"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "sarf malzemeleri"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "parçalar"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "donanım"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "{type} {action} %(credits)s daha gerekiyor"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "Onarım için %(credits)s daha gerekiyor"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "Satın alınamıyor: Takas başarısız oldu. Takas için %(gold)s daha gerekli."
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "satın almak için"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "Modifikasyon için"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "Takas gerekmiyor. Yeterli krediniz var."
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "{action} yeterli kredi"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "Mühimmat ikmali için %(credits)s daha gerekiyor"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "Otomatik olarak onar"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "Onar"
+
+msgid "dialogs/needRepair/durability"
+msgstr "Dayanıklılık:"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "% %(value)s"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "Araç otomatik olarak ve ücretsiz onarılır"
+
+msgid "dialogs/needRepair/price"
+msgstr "Onarım maliyeti:"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "Onarım için yeterli kaynak yok"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "Olumlu!"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "Onarım gerekmiyor"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "İkmal et"
+
+msgid "dialogs/refillShells/price"
+msgstr "İkmal maliyeti:"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "Mühimmat ikmali yapacak mısınız?"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "Mühimmat değişiklikleri kaydedilsin mi?"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "Lütfen dikkat: İyileştirilmiş Donanım satıyorsunuz."
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "Lütfen dikkat: Bu donanımı sattıktan sonra kurtaramayacak veya satın alamayacaksınız."
+
+msgid "dialogs/sell/button/cancel"
+msgstr "İptal"
+
+msgid "dialogs/sell/button/sell"
+msgstr "Sat"
+
+msgid "dialogs/sell/header"
+msgstr "Şu donanım satılsın mı?\n%(equipmentName)s"
+
+msgid "dialogs/sell/text"
+msgstr "1 parça için satış fiyatı:"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "Sökmek için yeterli kaynak yok."
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "Bu araç için öneri bulunmuyor"
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "Takılamıyor."
+
+msgid "easyTankEquipView/applied"
+msgstr "Uygulanmış"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "Gelişmiş"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "İyileştirilmiş"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "Standart"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "SARF MALZEMELERİ"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "Transfer ve mürettebat değişiklikleri için yeterli ranza yok. Kışlaya daha çok ranza ekleyin."
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "x{{count}}"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "Deneyimli mürettebat"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "Yeni mürettebat"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "{{count}}\nYeni mürettebat üyesi alınacak"
+msgstr[1] "{{count}}\nYeni mürettebat üyesi alınacak"
+msgstr[2] "{{count}}\nYeni mürettebat üyesi alınacak"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "MÜRETTEBAT"
+
+msgid "easyTankEquipView/discount"
+msgstr "-{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "Gelişmiş"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "Standart"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "DONANIM"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "Gelişmiş"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "Standart"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "MÜHİMMAT"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "Uygulanmış stiliniz zaten var"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "{{price}} karşılığında {{battlesCount}} savaş"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "HAZIR STİLLER"
+
+msgid "easyTankEquipView/title"
+msgstr "HIZLI SERVİS"
+
+msgid "effects/name"
+msgstr "Etki"
+
+msgid "effects/template"
+msgstr "%(icon)s %(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "Soğuma süresi %(cooldown)s&nbsp;sn."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "Bileşen Alın"
+
+msgid "filters/shown"
+msgstr "Gösterilen: "
+
+msgid "hints/dragAndDrop/section"
+msgstr "DONANIMI\nSÜRÜKLEYİN VE BIRAKIN"
+
+msgid "hints/filters/specialization"
+msgstr "KATEGORİYE\nEK BONUS"
+
+msgid "hints/tabs/equipment"
+msgstr "YENİ DONANIM\nTÜRÜ"
+
+msgid "introduction/currency/deluxe"
+msgstr "tahvil"
+
+msgid "introduction/currency/modernized"
+msgstr "bileşen"
+
+msgid "introduction/message/deluxe"
+msgstr "Bu donanım türü %(currencyName)s (%(currencyIcon)s) karşılığında sunulur. Ayrıca belirli oyun içi başarılar karşılığında ve özel oyun etkinlikleri sırasında alınabilir."
+
+msgid "introduction/message/modernized"
+msgstr "Görevleri tamamlama karşılığında ve bazı oyun etkinlikleri sırasında ödül olarak verilen, üç Yükseltme Seviyesi olan özel bir tür donanım. Bu donanım yok edilemez veya satılamaz ancak özel parçalar - %(currencyName)s (%(currencyIcon)s) elde etmek için demonte edilebilir. Elde edilen bileşenler herhangi bir Deneysel Donanımı yükseltmede kullanılabilir."
+
+msgid "introduction/message/trophy"
+msgstr "Alındığında standart donanımın parametrelerine sahip olan ancak kredi ile yükseltilebilen özel bir donanım türüdür. Kayra Donanımı oyun içi parayla satın alamazsınız ama bazı oyun etkinlikleri sırasında ödül olarak kazanabilirsiniz."
+
+msgid "introduction/showButton"
+msgstr "Donanımı Göster"
+
+msgid "introduction/slide/1/description"
+msgstr "Yeni donanım eklendi. Ayrıca %(repairBox)s, %(wetAmmo)s, %(CO2Cistern)s ve %(cycloneFilter)s %(changedConfiguration)s olarak birleştirildi. %(forcedChassis)s benzerleri %(forcedMetal)s ile değiştirildi. Tüm eski bonuslar kaldı ve yenileri eklendi."
+
+msgid "introduction/slide/1/title"
+msgstr "YENİ DONANIM"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr "- Ateş Gücü"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr "- Hareket Kabiliyeti"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr "- Gözcülük"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr "- Beka Kabiliyeti"
+
+msgid "introduction/slide/2/description"
+msgstr "Donanım aynı sınıftaki bir yuvaya takılırsa daha etkili olacaktır. Aksi takdirde sadece standart bir bonus sağlar."
+
+msgid "introduction/slide/2/subtitle"
+msgstr "SINIF EŞLEŞTİRME"
+
+msgid "introduction/slide/2/title"
+msgstr "DONANIM SINIFLARI"
+
+msgid "introduction/slide/3/description/left"
+msgstr "Çoğu donanımın fiyatı Seviye II-IV araçlar için 50.000 krediyi, Seviye V-VII araçlar için 300.000 krediyi ve Seviye VIII-XI araçlar için 600.000 krediyi geçmeyecektir."
+
+msgid "introduction/slide/3/description/right"
+msgstr "Yeni donanım ürünlerinin bazıları üç sınıfa sahiptir. Sınıfı farklı bile olsa donanım aynı etkiyi sağlar. Sınıf ne kadar yüksek olursa donanımın fiyatı o kadar yüksek olur. Her donanım sınıfı kendi araç seviyesi aralığına karşılık gelir."
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "DONANIMLARDA DEĞİŞİKLİKLER"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "YENİ DONANIM"
+
+msgid "introduction/slide/3/title"
+msgstr "DONANIM FİYATI"
+
+msgid "introduction/slide/4/description"
+msgstr "Seviye I araçlar için donanım açık değildir. Seviye II araçlara sadece bir donanım parçası, Seviye III araçlara iki parça ve Seviye IV-XI araçlara üç parça takabilirsiniz. Kaldırılan yuvalara takılan donanım sökülüp Depoya gönderildi."
+
+msgid "introduction/slide/4/title"
+msgstr "DONANIM YUVALARI"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "Depoları CO2 İle Doldurun"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "Değiştirilmiş Yapılandırma"
+
+msgid "introduction/slide/confirm"
+msgstr "Olumlu!"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "Siklon Filtre"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "Gelişmiş Süspansiyon"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "İyileştirilmiş Sertleştirme"
+
+msgid "introduction/slide/repairBox"
+msgstr "Alet Kutusu"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "\"Islak\" Cephanelik"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "İyileştirilmiş Donanım"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "Deneysel Donanım"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "Kayra Donanım"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "Hiç uygun Deneysel Donanımınız yok"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "Hiç uygun Kayra Donanımınız yok"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "Komutanın aracınızın düşman tarafından tespit edildiğini anlamasına olan gecikmeye"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "araç zaten şoktaysa ek şok süresine"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "yeşillik arkasındaki düşman araçlarının gizliliğine (hem hareket halindeki hem sabit duranlar)"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "tüm mermi türlerinin mermi hızına"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "parçalar hasarlıyken yükleme hızı cezasına"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "parçalar hasarlıyken motor gücü kaybına"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "sabit duran veya hareket eden bir aracın gizliliğine"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "araç ister sabit ister hareket halinde olsun gizlilik artışına (etkinliği aracın türüne bağlıdır)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "darbe sırasında hasar almış süspansiyonun yol açtığı gövde hasarına"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "görüş mesafesine (445 m'ye kadar). Parametreyi 445 m'nin ötesine artırmak düşmanların daha etkin şekilde tespit edilmesini sağlar."
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "darbeden alınan hasara"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "araç hareketi ve dönüşünün yanı sıra top dönüşü sırasında ve ateş ettikten sonra dağılıma"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "zırh tarafından soğurulan HE mermi hasarına"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "aracınızın görünür kalma süresine"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "her türlü arazide hareket\nederken hızı korumaya"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "durduktan sonra 3 sn. sabit kalan bir aracın gizliliğine"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "durduktan sonra 1,5 sn. sabit kalan\nbir aracın gizliliğine"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "durduktan sonra 3 sn. sabit kalan bir aracın gizlilik artışına (etkinliği aracın türüne bağlıdır)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "durduktan sonra 1,5 sn. sabit kalan bir aracın gizlilik artışına (etkinliği aracın türüne bağlıdır)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "durduktan sonra 3 sn. sabit kalan bir aracın görüş mesafesine (445 m'ye kadar). Parametreyi 445 m'nin ötesine artırmak düşmanların daha etkin şekilde tespit edilmesini sağlar."
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "durduktan sonra 1,5 sn. sabit kalan bir aracın görüş mesafesine (445 m'ye kadar). Parametreyi 445 m'nin ötesine artırmak düşmanların daha etkin şekilde tespit edilmesini sağlar."
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "aracın can puanına (yukarı yuvarlanır)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "kule dönüş hızına veya sabit kabine sahip araçların top dönüş hızına"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "Komutanın aracınızın düşman tarafından tespit edildiğini anlamasına olan gecikmeye"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "araç zaten şoktaysa ek şok süresine"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "yeşillik arkasında bulunan hem hareket halindeki hem sabit düşman araçlarının gizliliğine"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "tüm mermi türlerinin mermi hızına"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "parçalar hasarlıyken yükleme hızı cezasına"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "parçalar hasarlıyken motor gücü kaybına"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "sabit duran veya hareket eden bir aracın gizliliğine"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "araç ister sabit ister hareket halinde olsun gizlilik artışına (etkinliği aracın türüne bağlıdır)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "darbe sırasında hasar almış süspansiyonun yol açtığı gövde hasarına"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "görüş mesafesine (445 m'ye kadar). Parametreyi 445 m'nin ötesine artırmak düşmanların daha etkin şekilde tespit edilmesini sağlar."
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "darbeden alınan hasara"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "araç hareketi ve dönüşünün yanı sıra top dönüşü sırasında ve ateş ettikten sonra dağılıma"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "zırh tarafından soğurulan HE mermi hasarına"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "aracınızın görünür kalma süresine"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "her türlü arazide hareket\nederken hızı korumaya"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "durduktan sonra 3 sn. sabit kalan bir aracın gizliliğine"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "durduktan sonra 1,5 sn. sabit kalan\nbir aracın gizliliğine"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "durduktan sonra 3 sn. sabit kalan bir aracın gizliliğine (etkinliği aracın türüne bağlıdır)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "durduktan sonra 1,5 sn. sabit kalan bir aracın gizliliğine (etkinliği aracın türüne bağlıdır)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "durduktan sonra 3 sn. sabit kalan bir aracın görüş mesafesine (445 m'ye kadar). Parametreyi 445 m'nin ötesine artırmak düşmanların daha etkin şekilde tespit edilmesini sağlar."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "durduktan sonra 1,5 sn. sabit kalan bir aracın görüş mesafesine (445 m'ye kadar). Parametreyi 445 m'nin ötesine artırmak düşmanların daha etkin şekilde tespit edilmesini sağlar."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "aracın can puanına (yukarı yuvarlanır)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "kule dönüş hızına veya sabit kabine sahip araçlar için top dönüş hızına"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "gecikme ile\nSes Tespiti aktivasyonu"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "tespit edilme uyarısı gecikmesine"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "top soğuma süresine"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "mürettebatın yaralanmaya karşı korunmasına"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "mürettebat etkinlik bonusu"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "ek şok süresine"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "şok süresine"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "minimum potansiyel hasara\nve delme değerine"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "maksimum potansiyel hasara\nve delme değerine"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "verilen çarpma hasarına"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "gecikmeyle nişangâhtaki\naracın kritik hasarının görülmesi"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "yeşillik arkasındaki düşman araçlarının gizliliğine"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "hareket halindeki düşman araçlarının gizliliğine"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "düşman parçalarına ve mürettebat üyelerine\nhasar verme şansına"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "sarf malzemesi soğuma süresine"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "yangın söndürme hızına"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "yeşillik arkasında gizliliğe"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "Tamir Çantasının geri kazandırdığı CP miktarına"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "orta yumuşaklıktaki arazide\nhızı korumaya"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "gözetleme cihazları devre dışıyken\ngörüş mesafesi cezasına"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "maksimum potansiyel delme gücüne"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "yok edildikten sonra\ndüşman araç konumlarını\nbildirme süresine"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "telsiz operatörünün yaralanmaya karşı\nkorunmasına"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "mermi hızına"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "yumuşak arazide\nhızı korumaya"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "mürettebatın şoka\ngirmesinin olumsuz etkilerine"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "süspansiyonun aldığı hasara"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "süspansiyon onarım hızına"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "yükleme hızı cezasına"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "hasarlı motor cezasına"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "gövde dönüş hızına"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "iç parçaların dayanıklılığına"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "cephanelik dayanıklılığına"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "azami geri hıza"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "gizliliğe"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "gizlilik artışına"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "darbeden alınan hasar"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "süspansiyon onarım hızına"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "süspansiyon dayanıklılığına"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "görüş mesafesine"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "düşman aracının tarafınızdan görülebilir\nkalma süresine"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "motor gücüne"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "darbeden alınan hasar"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "motorda yangın çıkma olasılığına"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "azami ileri hıza"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "yakıt tanklarına kritik hasar\nriskine"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "nişan alma hızına"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "yükleme süresine"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "araç hareketi ve dönüşü sırasında dağılıma"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "ateş ettikten sonra nişan alma çemberi boyutuna"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "hareket sırasında dağılıma"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "gövde dönüşü sırasında dağılıma"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "top dönüşü sırasında dağılıma"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "hasarlı topun dağılımına"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "nişan alma çemberi boyutuna"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "HE mermi hasarına"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "ateş ettikten sonra gizliliğe"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "aracınızın görünür kalma süresine"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "süspansiyona alınan\nçarpma hasarına"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "alınan çarpma hasarına"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "yüklü bir topta mermi türü\ndeğiştirme hızına"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "onarım hızına"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "her türlü arazide geçiş hızını korumaya"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "sabit duran bir aracın gizliliğine"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "sabit duran bir aracın gizliliğine"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "sabit duran bir aracın gizlilik artışına"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "sabit duran bir aracın gizlilik artışına"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "sabit duran bir aracın görüş mesafesine"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "sabit duran bir aracın görüş mesafesine"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "aracın can puanına"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "kule dönüş hızına veya sabit kabine sahip araçların top dönüş hızına"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "kule dönüş hızına"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "tekerlekle dönüş hızına"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "Komutan dışında bir mürettebat üyesi\nyaralandığında yaşanan kayba"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "gecikme ile\nSes Tespiti aktivasyonu"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "gecikmeyle nişangâhtaki\naracın kritik hasarının görülmesi"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "boyunca yok edildikten sonra\ndüşman tespiti"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "HE mermi hasarına"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "HE mermi delme değerine"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "HE mermi hızına"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "mühimmat kapasitesine"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "tüm mermilerin hasarına"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "tüm mermi türlerinin mermi hızına"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "gecikme ile\nSes Tespiti aktivasyonu"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "standart mermi hasarına"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "tespit edilme uyarısı gecikmesine"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "top soğuma süresine"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "mürettebatın yaralanmaya karşı korunmasına"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "mürettebat etkinlik bonusu"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "ek şok süresine"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "şok süresine"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "minimum potansiyel hasara ve delme değerine"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "maksimum potansiyel hasara\nve delme değerine"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "verilen çarpma hasarına"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "gecikmeyle nişangâhtaki\naracın kritik hasarının görülmesi"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "yeşillik arkasındaki düşman araçlarının gizliliğine"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "hareket halindeki düşman araçlarının gizliliğine"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "düşman parçalarına ve mürettebat üyelerine\nhasar verme şansına"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "motor CP'sine"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "sarf malzemesi soğuma süresine"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "yangın söndürme hızına"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "yeşillik arkasında gizliliğe"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "yakıt deposu CP'sine"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "top eğim açısına"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "top kaldırma açısına"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "top stabilizasyonuna"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "top dönüş sınırlarına"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "Tamir Çantasının geri kazandırdığı CP miktarına"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "gövde kaldırma hızına"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "orta yumuşaklıktaki arazide\nhızı korumaya"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "HE olmayan mermi hasarına"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "gözetleme cihazları devre dışıyken\ngörüş mesafesi cezasına"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "maksimum potansiyel delme gücüne"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "yok edildikten sonra\ndüşman araç konumlarını\nbildirme süresine"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "telsiz operatörünün yaralanmaya karşı\nkorunmasına"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "şarjör içi yükleme süresine"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "yükleme süresine (Salvo Atış modu)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "yükleme süresine (Tekli Atış modu)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "düşman parçalarına mermi hasarına"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "mermi hızına"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "yumuşak arazide\nhızı korumaya"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "özel mermi hasarına"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "özel mermi delme değerine"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "özel mermi hızına"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "standart mermi hasarına "
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "standart mermi delme değerine"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "standart mermi hızına"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "mürettebatın yaralanmasının olumsuz etkilerine"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "süspansiyonun aldığı hasara"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "süspansiyon onarım hızına"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "kule dönüş sınırlarına"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "yükleme hızı cezasına"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "hasarlı motor cezasına"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "gövde dönüş hızına"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "iç parçaların dayanıklılığına"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "cephanelik dayanıklılığına"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "azami geri hıza"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "gizliliğe"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "gizlilik artışına"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "darbeden alınan hasara"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "süspansiyon onarım hızına"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "süspansiyon dayanıklılığına"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "görüş mesafesine (445 m'ye kadar)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "düşman aracının tarafınızdan görülebilir\nkalma süresine"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "motor gücüne"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "darbeden alınan hasar"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "motorda yangın çıkma olasılığına"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "azami ileri hıza"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "yakıt tanklarına kritik hasar\nriskine"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "nişan alma hızına"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "yükleme süresine"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "araç hareketi ve dönüşü sırasında dağılıma"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "ateş ettikten sonra nişan alma çemberi boyutuna"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "hareket sırasında dağılıma"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "gövde dönüşü sırasında dağılıma"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "top dönüşü sırasında dağılıma"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "hasarlı topun dağılımına"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "nişan alma çemberi boyutuna"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "HE mermi hasarına"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "ateş ettikten sonra gizliliğe"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "aracınızın görünür kalma süresine"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "süspansiyona alınan\nçarpma hasarına"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "alınan çarpma hasarına"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "yüklü bir topta mermi türü\ndeğiştirme hızına"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "onarım hızına"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "azami ileri/geri hıza"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "her türlü arazide geçiş hızını korumaya"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "sabit duran bir aracın gizliliğine"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "sabit duran bir aracın gizliliğine"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "sabit duran bir aracın gizlilik artışına"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "sabit duran bir aracın gizlilik artışına"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "sabit duran bir aracın görüş mesafesine (445 m'ye kadar)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "sabit duran bir aracın görüş mesafesine (445 m'ye kadar)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "aracın can puanına"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "kule dönüş hızına veya sabit kabine sahip araçlar için top dönüş hızına"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "kule dönüş hızına"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "tekerlekle dönüş hızına"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "Komutan dışında bir mürettebat üyesi yaralandığında\nyaşanan kayba"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "tespit edilme uyarısı gecikmesine"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "mürettebatın yaralanmaya karşı\nkorunmasına"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "mürettebat etkinlik bonusu"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "ek şok süresine"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "şok süresine"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "verilen çarpma hasarına"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "gecikmeyle nişangâhtaki\naracın kritik hasarının görülmesi"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "yeşillik arkasındaki düşman araçlarının\ngizliliğine"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "hareket halindeki düşman araçlarının\ngizliliğine"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "Tamir Çantasının geri kazandırdığı CP miktarına"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "magazin yükleme süresine"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "maksimum potansiyel delme gücüne"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "telsiz operatörünün yaralanmaya karşı korunmasına"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "tüm mermi türlerinin mermi hızına"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "top dağılımına"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "süspansiyon onarım hızına"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "top dönüşü sırasında dağılıma"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "yükleme hızı cezasına"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "hasar alındığında motor gücü\nkaybına"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "aracın dönüş hızına"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "iç parçaların dayanıklılığına"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "cephanelik dayanıklılığına"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "azami geri hıza"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "gizliliğe"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "darbeden alınan hasar"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "süspansiyon onarım hızına"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "süspansiyon dayanıklılığına"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "görüş mesafesine"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "düşman aracının tarafınızdan görülebilir\nkalma süresine"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "motor gücüne"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "darbeden alınan hasar"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "motorda yangın çıkma olasılığına"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "azami ileri hıza"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "nişan alma hızına"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "yükleme süresine"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "araç hareketi ve dönüşü sırasında dağılıma"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "ateş ettikten sonra nişan alma\nçemberi boyutuna"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "hareket sırasında dağılıma"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "gövde dönüşü sırasında dağılıma"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "top dönüşü sırasında \ndağılıma "
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "hasarlı topun dağılımına"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "nişan alma çemberi boyutuna"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "HE mermi hasarına"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "ateş ettikten sonra gizliliğe"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "aracınızın görünür kalma süresine"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "alınan çarpma hasarına"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "mermi türü değiştirme hızına"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "onarım hızına"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "hızı korumaya"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "sabit duran bir aracın\ngizliliğine"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "sabit duran bir aracın\ngizliliğine"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "görüş mesafesine"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "görüş mesafesine"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "aracın can puanına"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "top dönüş hızına"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "kule dönüş hızına"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "Komutan dışında bir mürettebat üyesi yaralandığında\nyaşanan kayba"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "tespit edilme uyarısı gecikmesine"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "mürettebatın yaralanmaya karşı\nkorunmasına"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "mürettebat etkinlik bonusu"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "mürettebat etkinlik bonusu"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "ek şok süresine"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "şok süresine"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "minimum potansiyel hasara\nve delme değerine"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "verilen çarpma hasarına"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "yeşillik arkasındaki düşman araçlarının\ngizliliğine"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "hareket halindeki düşman araçlarının\ngizliliğine"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "düşman parçalarına ve mürettebat üyelerine\nhasar verme şansına"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "yangın söndürme hızına"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "Tamir Çantasının geri kazandırdığı CP miktarına"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "magazin yükleme süresine"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "aracın gizliliğine"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "orta yumuşaklıktaki arazide\nhızı korumaya"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "maksimum potansiyel delme gücüne"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "telsiz sinyali menziline"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "telsiz operatörünün yaralanmaya karşı korunmasına"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "tüm mermi türlerinin mermi hızına"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "yumuşak arazide\nhızı korumaya"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "süspansiyon onarım hızına"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "aracın telsiz kapsamı içindeki müttefik iletişiminin sinyal menziline"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "yükleme hızı cezasına"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "hasar alındığında motor gücü\nkaybına"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "aracın dönüş hızına"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "iç parçaların dayanıklılığına"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "cephanelik dayanıklılığına"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "azami geri hıza"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "gizliliğe"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "darbeden alınan hasara"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "süspansiyon onarım hızına"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "süspansiyon dayanıklılığına"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "görüş mesafesine\n(445 m'ye kadar)"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "düşman aracının tarafınızdan görülebilir\nkalma süresine"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "motor gücüne"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "darbeden alınan hasar"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "motorda yangın çıkma olasılığına"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "azami ileri hıza"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "nişan alma hızına"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "yükleme süresine"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "araç hareketi ve dönüşü sırasında\ndağılıma"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "ateş ettikten sonra nişan alma\nçemberi boyutuna"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "hareket sırasında dağılıma"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "gövde dönüşü sırasında dağılıma"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "top dönüşü sırasında \ndağılıma"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "hasarlı topun dağılımına"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "nişan alma çemberi boyutuna"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "HE mermi hasarına"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "ateş ettikten sonra gizliliğe"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "aracınızın görünür kalma süresine"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "alınan çarpma hasarına"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "mermi türü değiştirme hızına"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "onarım hızına"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "hızı korumaya"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "sabit duran bir aracın gizliliğine"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "sabit duran bir aracın gizliliğine"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "sabit duran bir aracın görüş mesafesine\n(445 m'ye kadar)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "sabit duran bir aracın görüş mesafesine\n(445 m'ye kadar)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "aracın can puanına"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "top dönüş hızına"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "kule dönüş hızına"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "savaşta kazanılan Mürettebat Deneyimine"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "sn."
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "sn."
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "sn."
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "sn."
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "km/sa."
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "sn."
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "km/sa."
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "sn."
+
+msgid "popularLoadouts/common"
+msgstr "Popüler"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "Sıkça Kullanılan"
+
+msgid "popularLoadouts/legendary"
+msgstr "Efsanevi"
+
+msgid "popularLoadouts/noData"
+msgstr "Veri mevcut değil"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "Veri mevcut değil"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)sPopüler.%(whiteSpanish_Close)s Tüm World of Tanks oyuncuları arasındaki güncel donanım trendlerine göre."
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "Veri Toplama"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "Güncel Hücum sezonunun verisi henüz yoksa önceki sezonun verileri kullanılır"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "Yardımcı %(whiteSpanish_Open)sRastgele Savaşlar%(whiteSpanish_Close)s ve %(whiteSpanish_Open)sHücum%(whiteSpanish_Close)s kipi için geçerlidir."
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "Tüm donanım türlerinin verileri toplanır"
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "WoT Plus Avantajı"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "Milyonlarca oyundan toplanan, isabetli donanım verileri alın, her savaştan en iyi şekilde faydalanın."
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "Donanım Yardımcısı"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sEfsanevi.%(whiteSpanish_Close)s Efsane WTR seviyesindeki oyuncuların hâlihazırda tercih ettiği donanıma göre."
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "Savaş yükü türleri"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "Önerilen savaş yükleri, benzer oyun tarzına sahip araçlarda popüler olan savaş yüklerine dayanır."
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "Aşağıdaki araca benzer oyun tarzına sahip araçların verileri gösteriliyor:"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "Savaş yükü verisi yok"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "Seçili araç bu oyun kipi için geçersiz"
+
+msgid "section/battleAbilities"
+msgstr "SAVAŞ YEDEKLERİ"
+
+msgid "section/battleBoosters"
+msgstr "YÖNERGELER"
+
+msgid "section/consumables"
+msgstr "SARF MALZEMELERİ"
+
+msgid "section/modules"
+msgstr "PARÇALAR"
+
+msgid "section/optDevices"
+msgstr "DONANIM"
+
+msgid "section/shells"
+msgstr "MÜHİMMAT"
+
+msgid "section/toggleCamouflage"
+msgstr "KAMUFLAJ"
+
+msgid "section/toggleShells"
+msgstr "MÜHİMMAT"
+
+msgid "shells/ammunitionFull"
+msgstr "Tam mühimmat yükü"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "Mühimmat eksik"
+
+msgid "shells/autoFillOff"
+msgstr "Otomatik ikmal kapalı"
+
+msgid "shells/autofillOn"
+msgstr "Otomatik ikmal açık"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "Depoda:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "Cephanelikte:"
+
+msgid "shells/shortSpecification/price"
+msgstr "Satın Al:"
+
+msgid "shells/specification/inStorage"
+msgstr "Depoda"
+
+msgid "shells/specification/inVehicle"
+msgstr "Cephanelikte"
+
+msgid "shells/specification/price"
+msgstr "Satın Al"
+
+msgid "shells/title"
+msgstr "Mühimmat"
+
+msgid "shells/type/base"
+msgstr "STANDART (AP)"
+
+msgid "shells/type/special"
+msgstr "ÖZEL (HE)"
+
+msgid "shells/type/tactical"
+msgstr "TAKTİK (APCR)"
+
+msgid "tabs/crew"
+msgstr "Mürettebat için"
+
+msgid "tabs/deluxe"
+msgstr "İyileştirilmiş"
+
+msgid "tabs/modernized"
+msgstr "Deneysel"
+
+msgid "tabs/optDevice"
+msgstr "Donanım için"
+
+msgid "tabs/simple"
+msgstr "Standart"
+
+msgid "tabs/trophy"
+msgstr "Kayra"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "Yönerge araç savaştan çıktıktan sonra otomatik olarak ikmal edilecek. Ya Depodan alınacak (bu yönergeden stoğunuz varsa) ya da oyun içi para karşılığında satın alınacak."
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "Sarf malzemeleri, eğer gerekliyse, araç savaştan çıktıktan sonra otomatik olarak ikmal edilecektir."
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "Onarımlar eğer gerekliyse, araç savaştan çıktıktan sonra otomatik olarak yapılacaktır."
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "Mühimmat, eğer gerekliyse, araç savaştan çıktıktan sonra otomatik olarak ikmal edilecektir."
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "Otomatik ikmal yap"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "Otomatik olarak onar"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "Depodan demonte edilecek: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "Araçlardan demonte edilecek: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr ", "
+
+msgid "tooltips/action/description/add_one"
+msgstr "Bu yuva için ek ürünler satın almak için tıklayın."
+
+msgid "tooltips/action/description/demount"
+msgstr "Bu yuvadan donanım sökmek için tıklayın."
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "Bu yuvadan donanım sökmek için tıklayın."
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "Donanımı tüm yapılandırmalardan sökmek için tıklayın."
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "Bu yuvadaki donanımı aktif WoT Plus aboneliğiniz ile ücretsiz olarak sökmek için tıklayın."
+
+msgid "tooltips/action/description/destroy"
+msgstr "Bu yuvadaki donanımı yok etmek veya aktif bir WoT Plus aboneliğiniz varsa ücretsiz olarak sökmek için tıklayın."
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "Donanımı demonte etmek için tıklayın."
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "Bu yuvadaki donanımı yok etmek için tıklayın."
+
+msgid "tooltips/action/description/swap"
+msgstr "Yuvalar arasında ürünleri değiş tokuş yapmak için tıklayın."
+
+msgid "tooltips/action/description/upgrade"
+msgstr "Donanımı yükseltmek niteliklerini iyileştirir."
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "Donanımı yükseltmek niteliklerini iyileştirir."
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "Donanımı yükseltmek niteliklerini iyileştirir."
+
+msgid "tooltips/action/title/add_one"
+msgstr "Satın Al"
+
+msgid "tooltips/action/title/cancel"
+msgstr "Depoya Gönder"
+
+msgid "tooltips/action/title/demount"
+msgstr "Sök"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "Sök"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "Tüm Yapılandırmalardan Sök"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "Ücretsiz sökün"
+
+msgid "tooltips/action/title/destroy"
+msgstr "Yok Et"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "Demonte Et"
+
+msgid "tooltips/action/title/swap"
+msgstr "Sıralamayı değiştir"
+
+msgid "tooltips/action/title/undo"
+msgstr "Yuvadan kaldır"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "Yükselt"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "Yükselt"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "Yükselt"
+
+msgid "tooltips/additional"
+msgstr "Ek bilgi."
+
+msgid "tooltips/categories/list"
+msgstr "Parça listesini görmek için tıklayın."
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "Bu yuva kategorisi Saha Geliştirmeleri menüsünden veya donanım seçimi ekranından yeniden atanabilir."
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "Yeniden Atanabilir Kategori"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "Yuva kategorisini yeniden atamak için tıklayın."
+
+msgid "tooltips/equipmentList"
+msgstr "Uygun donanım listesini görmek için tıklayın."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "Deneysel Donanım demonte edilemiyor: Bu türden hiç donanımınız yok."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "Donanımı demonte etmeye ilerlemek için tıklayın."
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "Sadece Tank Avcıları ve KMT'ler Ateş Gücü sınıfına sahip olduğundan ve bu donanım bir Ateş Gücü sınıfı yuvaya takılmadığından, takıldığında standart bonus sağlayacaktır."
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "Aracınız niteliklerine artırılmış bonuslar alır."
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "Niteliklere gelen bonusu artırmak için bu donanımı şu sınıflardan birine sahip bir yuvaya takın: %(category)s."
+
+msgid "tooltips/howToIncrease/single"
+msgstr "Niteliklere gelen bonusu artırmak için bu donanımı şu sınıfa sahip bir yuvaya takın: %(category)s."
+
+msgid "tooltips/placeEquipment"
+msgstr "Donanım yuvası"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "Savaş öncesi geri sayım sırasında mermi ve sarf malzemeleri seti seçme imkanını Saha Geliştirmeleri arayüzünden açabilir/kapatabilirsiniz."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "Savaş öncesi geri sayım sırasında donanım ve yönergeler seti seçme imkanını Saha Geliştirmeleri arayüzünden açabilir/kapatabilirsiniz."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "Savaş öncesi geri sayım sırasında mermi ve sarf malzemeleri seti seçme imkanını Saha Geliştirmeleri arayüzünden açabilir/kapatabilirsiniz."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "Savaş öncesi geri sayım sırasında mermi ve sarf malzemeleri seti seçme imkanını Yükseltmeler arayüzünden açabilir/kapatabilirsiniz."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "Savaş öncesi geri sayım sırasında donanım ve yönergeler seti seçme imkanını Saha Geliştirmeleri arayüzünden açabilir/kapatabilirsiniz."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "Savaş öncesi geri sayım sırasında donanım ve yönergeler seti seçme imkanını Yükseltmeler arayüzünden açabilir/kapatabilirsiniz."
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "Setler Arası Geçiş Kapalı"
+
+msgid "tooltips/separator/last"
+msgstr " ve "
+
+msgid "tooltips/separator/other"
+msgstr ", "
+
+msgid "tooltips/specializationDesc"
+msgstr "%(spec)s sınıfından standart donanım bu yuvaya takılırsa daha etkili olacaktır. Diğer sınıflardan donanım sadece standart bir bonus sağlayacaktır."
+
+msgid "tooltips/specializationName"
+msgstr "Sınıf:"
+
+msgid "tooltips/specializationType"
+msgstr "Ateş Gücü"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "Diğer donanım türlerinden daha iyi niteliklere sahip, değerli bir donanım türü."
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "Üç Yükseltme Seviyesi olan özel donanım."
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "Donanım, aracınızın niteliklerini iyileştirir."
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "Standart donanımın parametrelerine sahip olan ancak yükseltilebilen bir donanım türü."
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "İyileştirilmiş Donanım"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "Deneysel Donanım"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "Standart Donanım"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "Kayra Donanım"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "Bu donanım türü %(whiteSpanish_Open)stahvil%(whiteSpanish_Close)s karşılığında sunulur. Ayrıca belirli oyun içi başarılar karşılığında ve özel oyun etkinlikleri sırasında alınabilir."
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "Bu donanım türü, bazı oyun etkinlikleri sırasında ödül olarak alınabilir."
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "Bu donanım türü oyun içi para karşılığında satın alınabilir. Ayrıca belirli oyun içi başarılar karşılığında ve özel oyun etkinliklerinde ödül olarak alınabilir. Standart donanım nitelikleri, ilgili yuvaya yerleştirme yoluyla iyileştirilebilir."
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "Bu donanım türü, bazı oyun etkinlikleri sırasında ödül olarak alınabilir."
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "Edinme Yöntemi"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "Edinme Yöntemi"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "Donanım Yuvaları"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "Kayra Donanım satın alınamaz"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "Deneysel Donanımın niteliklerini, bu tür donanımı demonte ederek elde edeceğiniz %(whiteSpanish_Open)sbileşenlerle%(whiteSpanish_Close)s yükseltebilirsiniz."
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "Kayra Donanım niteliklerini oyun içi para kullanarak yükseltebilirsiniz."
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "Deneysel Donanım Yükseltme"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "Kayra Donanım Yükseltme"

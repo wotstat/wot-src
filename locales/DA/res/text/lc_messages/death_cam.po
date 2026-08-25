@@ -1,0 +1,194 @@
+msgid "fatal_shell/penetration_range"
+msgstr "%(from)d-%(to)d mm"
+
+msgid "fatal_shell/penetration_value"
+msgstr "%(penetration)d mm"
+
+msgid "hints/camera_flow/buttonText"
+msgstr "MELLEMRUM"
+
+msgid "hints/camera_flow/pause"
+msgstr "Avanceret tilstand (%(duration))"
+
+msgid "hints/camera_flow/pauseSimplified"
+msgstr "Pause (%(duration))"
+
+msgid "hints/camera_flow/resume"
+msgstr "Genoptag (%(duration))"
+
+msgid "hints/death_reason/destroyed"
+msgstr "Køretøj ødelagt"
+
+msgid "hints/death_reason/legacyHE"
+msgstr "Splash skade"
+
+msgid "hints/death_reason/modernHE"
+msgstr "Splintskade"
+
+msgid "hints/death_reason/nonPenetrationDamage"
+msgstr "Overfladeskade"
+
+msgid "hints/death_reason/penetration"
+msgstr "Direkte træffer"
+
+msgid "hints/follow_pt1"
+msgstr "Venstreklik"
+
+msgid "hints/follow_pt2"
+msgstr "for at følge dette køretøj"
+
+msgid "hints/free_cam/return_previous"
+msgstr "Højreklik for at gå tilbage til det forrige køretøj"
+
+msgid "hints/height/label"
+msgstr "Højde"
+
+msgid "hints/height/text"
+msgstr "Juster kamerahøjden inden for en vis grænse."
+
+msgid "hints/movement/label"
+msgstr "Bevægelse"
+
+msgid "hints/movement/text"
+msgstr "For at bevæge kameraet, benyt %(forward)s, %(left)s, %(backward)s, %(right)s-tasterne."
+
+msgid "hints/skip/buttonText"
+msgstr "ESC"
+
+msgid "hints/skip/label"
+msgstr "Skip"
+
+msgid "hints/spectatorDown"
+msgstr "SHIFT"
+
+msgid "hints/spectatorUp"
+msgstr "SPACE"
+
+msgid "hints/speed/label"
+msgstr "Hastighed"
+
+msgid "hints/speed/text"
+msgstr "Juster kamerahastigheden."
+
+msgid "hints/spotted_status/spotted"
+msgstr "Opdaget"
+
+msgid "hints/spotted_status/unspotted"
+msgstr "Blindt skud"
+
+msgid "marker/paramName/angleFailure"
+msgstr "Vinkel uden gennembrydning"
+
+msgid "marker/paramName/angleImpact"
+msgstr "Vinkel med gennembrydning"
+
+msgid "marker/paramName/angleRicochet"
+msgstr "Vinkel med rikochet"
+
+msgid "marker/paramName/armorNominal"
+msgstr "Nominelt panser {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/armorRelative"
+msgstr "Panser {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/damageDistanceModifier"
+msgstr "Afstandsmodifikator {colorTagOpen}(hp){colorTagClose}"
+
+msgid "marker/paramName/deathReason/crew"
+msgstr "Mandskab slået ud!"
+
+msgid "marker/paramName/deathReason/detonation"
+msgstr "Ammunitionsstativ eksploderet!"
+
+msgid "marker/paramName/deathReason/ignition"
+msgstr "Udbrudt brand!"
+
+msgid "marker/paramName/is2CaliberRuleApplied"
+msgstr "2-kaliber regel"
+
+msgid "marker/paramName/is3CaliberRuleApplied"
+msgstr "3-kaliber regel"
+
+msgid "marker/paramName/nonArmored"
+msgstr "Intet panser"
+
+msgid "marker/paramName/shellArmorAngleGain"
+msgstr "Øget panser fra vinkel {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellCaliber"
+msgstr "Kaliber {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBasic"
+msgstr "Gennemsnitlig skade {colorTagOpen}(hp){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBurst"
+msgstr "Potentiel skade {colorTagOpen}(hp){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/legacyHE"
+msgstr "Splash skade uddelt {colorTagOpen}(hp){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/modernHE"
+msgstr "Splintskade uddelt {colorTagOpen}(hp){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/nonPenetrationDamage"
+msgstr "Overfladeskade uddelt {colorTagOpen}(hp){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/penetration"
+msgstr "Skade uddelt {colorTagOpen}(hp){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossDistance"
+msgstr "Reduceret fra afstand {colorTagOpen}(hp){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionHe"
+msgstr "Blokeret af panser {colorTagOpen}(hp){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionSpallLiner"
+msgstr "Reduceret af udstyr {colorTagOpen}(hp){colorTagClose}"
+
+msgid "marker/paramName/shellDamageRandomizationFactor"
+msgstr "Tilfældighed af skade {colorTagOpen}(hp){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationBasic"
+msgstr "Gennemsnitlig gennembrydning {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationEffective"
+msgstr "Gennembrydning {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellVelocityBasic"
+msgstr "Skudhastighed {colorTagOpen}(m/s){colorTagClose}"
+
+msgid "marker/paramName/shootDistance"
+msgstr "Afstand {colorTagOpen}(m){colorTagClose}"
+
+msgid "marker/paramName/shootDistanceUnspotted"
+msgstr "Fjende ikke opdaget"
+
+msgid "marker/value/angle/exact"
+msgstr "%(value)s°"
+
+msgid "marker/value/angle/less"
+msgstr "< %(value)s°"
+
+msgid "marker/value/angle/more"
+msgstr "> %(value)s°"
+
+msgid "marker/value/applied"
+msgstr "Påført"
+
+msgid "marker/value/dashes"
+msgstr "--"
+
+msgid "marker/value/failed"
+msgstr "Nej"
+
+msgid "marker/value/notAffected"
+msgstr "--"
+
+msgid "marker/value/signNegative"
+msgstr "- %(value)s"
+
+msgid "marker/value/signPositive"
+msgstr "+ %(value)s"
+
+msgid "marker/value/unspotted"
+msgstr "Uopdaget"

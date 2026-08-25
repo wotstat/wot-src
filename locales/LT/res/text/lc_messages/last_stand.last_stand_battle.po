@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "Energijos sviedinys paruoštas."
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "Siurbiantis šūvis paruoštas."
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "Apkurtinantis sviedinys paruoštas."
+
+msgid "LS_damageShieldReady"
+msgstr "Energijos skydas paruoštas."
+
+msgid "LS_doubleDamageReady"
+msgstr "Dviguba žala paruošta."
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "Gebėjimas Situacinė žala paruoštas."
+
+msgid "LS_fastReloadReady"
+msgstr "Greitas užtaisymas paruoštas."
+
+msgid "LS_healSituationalReady"
+msgstr "Gebėjimas Situacinis remontas paruoštas."
+
+msgid "LS_invisibilityReady"
+msgstr "Užmaskuotas gydymas paruoštas."
+
+msgid "LS_nitroReady"
+msgstr "Turbokompresorius paruoštas."
+
+msgid "LS_pickupSouls"
+msgstr "Jūs surinkote %(souls)s vnt. Mirium"
+
+msgid "LS_selfRepairReady"
+msgstr "Avarinis remontas paruoštas."
+
+msgid "LS_situationalNitroReady"
+msgstr "Gebėjimas Situacinis mobilumas paruoštas."
+
+msgid "LS_teamRepairKitReady"
+msgstr "Grupinis remontas paruoštas."
+
+msgid "LS_teamRepairKitUsed"
+msgstr "%(player)s aktyvavo Grupinį remontą."
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "Grupinis remontas aktyvuotas."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "Dėmesio į zoną: %(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "Apginkite ATLASĄ!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "Apginkite ATLASĄ"
+
+msgid "arena/marker/move_to_camp"
+msgstr "Važiuoju į zoną!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "ATLASAS ginamas"
+
+msgid "arena/phase"
+msgstr "Fazė %(current)s iš %(total)s"
+
+msgid "arena/wave"
+msgstr "Banga %(current)s iš %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Dygliuočiai&nbsp;atvažiuoja!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Alfa Dygliuotis&nbsp;atvažiuoja!"
+
+msgid "battleHint/clearTheArea"
+msgstr "Išvalykite vietą!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "Paskubėkite! Nulis yra arti&nbsp;ATLASO!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "Nulis sunaikintas!\nLiko priešų: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "Liko priešų: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "duomenų, %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "mašinos suremontuotos"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "suteikiamas skydas"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "priešai apkurtinti"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "%(name)s obeliskas sunaikintas!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Atstatymo"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "Barjero"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "Trikdžio"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "Atsiradimo taškai aptikti! Priešai artinasi!"
+
+msgid "battleHint/hunter"
+msgstr "Medžiotojai&nbsp;atvažiuoja!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "Banga sunaikinta"
+
+msgid "battleHint/leftToDestroy"
+msgstr "Likę priešai:"
+
+msgid "battleHint/missing_squad"
+msgstr "Prarastasis būrys artinasi!"
+
+msgid "battleHint/newWave"
+msgstr "Banga {current} iš {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "Atsirado obeliskas!"
+
+msgid "battleHint/stopConvoy"
+msgstr "Sustabdykite Nulį!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "Sustabdykite Nulį,\nkol jis nepasiekė ATLASO!"
+
+msgid "battleHint/trapper"
+msgstr "Kai sunaikinsite Spąstų meistrą, sunaikinimo&nbsp;zonos nebeatsiras."
+
+msgid "battleHint/turret"
+msgstr "Moskitai prabudo!"
+
+msgid "battleHint/waveFinished"
+msgstr "Banga sunaikinta!\nPersigrupuokite ir pasiruoškite!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "Persigrupuokite ir pasiruoškite!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "Priešų pastiprinimas&nbsp;pasirodė!"
+
+msgid "common/close"
+msgstr "UŽDARYTI"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "Trukmė: %(time)s s"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Zonos žala"
+
+msgid "damageLog/static_death_zone"
+msgstr "Zonos žala"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "Uždegtas Pirokineze"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "Žala energijos smūgiu"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "Žala sprogimu"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "Žala Vampyrizmu"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "Situacinė žala aktyvuota"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "Situacinis remontas aktyvuotas"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "Žala Energijos sviediniu"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "Žala Siurbiančiu šūviu"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "Žala Apkurtinančiu sviediniu"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "Modulių nepažeidžiamumas"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "Situacinis mobilumas aktyvuotas"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "Atstatymas"
+
+msgid "efficiencyRibbons/repair"
+msgstr "Mašina suremontuota"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "Mašina suremontuota"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "Mašina suremontuota saviškio"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "Suremontuoti saviškiai"
+
+msgid "eventStats/activeWave"
+msgstr "Banga %(num)s"
+
+msgid "eventStats/difficulty"
+msgstr "Sudėtingumo lygis: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "Paskutinis mūšis: Terra Nord"
+
+msgid "eventStats/globalTask"
+msgstr "Misija: sunaikinti visas priešų bangas"
+
+msgid "eventStats/mission"
+msgstr "Sunaikinti visas priešų bangas"
+
+msgid "eventStats/tableCaption"
+msgstr "Būrio nariai"
+
+msgid "help/description_0"
+msgstr "Laimėkite sunaikinę puolančių priešų bangas.\nSu kiekviena priešai tik stiprėja."
+
+msgid "help/description_1"
+msgstr "Teisinga taktinių prietaisų kombinacija gali būti labai galinga.\nAtminkite: instrukcijas ir visų tipų sviedinius galite naudoti režime Paskutinis mūšis."
+
+msgid "help/description_2"
+msgstr "Darydami žalą obeliskui dalį žalos perduodate priešų mašinoms, o sunaikinę gaunate atsitiktinį bonusą."
+
+msgid "help/description_3"
+msgstr "Bet kokia kaina apginkite ATLASĄ nuo paskutinio šešėlinio tanko: Nulio. Pasiekęs ATLASĄ jis jį sunaikins ir mūšis bus pralaimėtas."
+
+msgid "help/title"
+msgstr "PASKUTINIS MŪŠIS: TERRA NORD"
+
+msgid "help/title_0"
+msgstr "PRIEŠŲ PUOLIMO BANGOS"
+
+msgid "help/title_1"
+msgstr "PATARIMAI IŠGYVENIMUI"
+
+msgid "help/title_2"
+msgstr "MŪŠYJE NAUDOKITĖS OBELISKAIS"
+
+msgid "help/title_3"
+msgstr "APGINKITE ATLASĄ"
+
+msgid "helpScreen/hint/description"
+msgstr "norėdami peržiūrėti režimo taisykles"
+
+msgid "helpScreen/hint/press"
+msgstr "Paspauskite,"
+
+msgid "hitMarker/useless"
+msgstr "Nenaudojamas!"
+
+msgid "loading/description_0"
+msgstr "Laimėkite sunaikinę puolančių priešų bangas.\nSu kiekviena priešai tik stiprėja."
+
+msgid "loading/description_1"
+msgstr "Teisinga taktinių prietaisų kombinacija gali būti labai galinga.\nAtminkite: instrukcijas ir visų tipų sviedinius galite naudoti režime Paskutinis mūšis."
+
+msgid "loading/description_2"
+msgstr "Darydami žalą obeliskui dalį žalos perduodate priešų mašinoms, o sunaikinę gaunate atsitiktinį bonusą."
+
+msgid "loading/description_3"
+msgstr "Bet kokia kaina apginkite ATLASĄ nuo paskutinio šešėlinio tanko: Nulio. Pasiekęs ATLASĄ jis jį sunaikins ir mūšis bus pralaimėtas."
+
+msgid "loading/title"
+msgstr "Užkraunama..."
+
+msgid "loading/title_0"
+msgstr "PRIEŠŲ PUOLIMO BANGOS"
+
+msgid "loading/title_1"
+msgstr "PATARIMAI IŠGYVENIMUI"
+
+msgid "loading/title_2"
+msgstr "MŪŠYJE NAUDOKITĖS OBELISKAIS"
+
+msgid "loading/title_3"
+msgstr "APGINKITE ATLASĄ"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "Negalima naudoti [%(name)s]: variklis sunaikintas."
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "Negalima panaudoti [%(name)s]: pabūklas pažeistas."
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "Ginklas užtaisytas."
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "Negalima naudoti [%(name)s]: prietaiso aktyvavimui nepakanka Mirium."
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "Mašina nepažeista."
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "Negalima panaudoti [%(name)s]: mašina skęsta."
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "Negalima panaudoti [%(name)s]: mašina dega."
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "Negalima panaudoti [%(name)s]: mašina apversta."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Mūsiškį %(target)s sunaikino priešininko (%(attacker)s) sprogimas."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Mūsiškis %(target)s sudužo."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Mūsiškį %(target)s sunaikino sunaikinimo zona."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Mūsiškis %(target)s sunaikintas."
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "Jei jūsų būrys sugeba įveikti bangą."
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "JŪS SUGRĮŠITE"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "Jūsų kova baigėsi.\nPasirodėte puikiai!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Mašiną sunaikino sunaikinimo zona"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "Mašiną sunaikino Energijos smūgis"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "Mašiną sunaikino Pirokinezė"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "Mašiną sunaikino Vampyrizmas"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "Mašiną sunaikino sprogimas"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "Mašina sudužo"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modulį [%(device)s] susprogdino žaidėjo šūvis"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "Mašina sudegė"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Marina sunaikinta. Laikas baigėsi."
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "Mašiną sunaikino priešo šūvis"
+
+msgid "prebattle/description/message"
+msgstr "Misija: sunaikinti visas priešų bangas"
+
+msgid "prebattle/description/title"
+msgstr "Paskutinis mūšis: %(difficulty)s sudėtingumo lygis"
+
+msgid "prebattle/difficulty/107"
+msgstr "Įprastas"
+
+msgid "prebattle/difficulty/108"
+msgstr "Pasunkintas"
+
+msgid "prebattle/difficulty/109"
+msgstr "Brutalus"
+
+msgid "prebattle/waiting/title"
+msgstr "Laukiame žaidėjų..."
+
+msgid "radialMenu/attention_here"
+msgstr "Paprašyti apginti"
+
+msgid "radialMenu/cancel"
+msgstr "Atšaukti"
+
+msgid "radialMenu/confirm"
+msgstr "Tikrai taip!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "Važiuoju į zoną!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "Važiuoju ginti"
+
+msgid "radialMenu/obelisk"
+msgstr "Aš sunaikinsiu obeliską!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "Sunaikinkite obeliską!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "Energijos skydas"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "Vėl ant vikšrų..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "Palikite\npavojaus zoną!"
+
+msgid "teamList/teammates"
+msgstr "Saviškiai"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "Išjungti balso pokalbius"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "Įjungti balso pokalbius"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "Kalbėti paspaudus"

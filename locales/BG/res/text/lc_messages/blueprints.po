@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Чертежът е събран"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Чертеж  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Чертеж {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "Към покупка"
+
+msgid "blueprintScreen/button/research"
+msgstr "Към изследване"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Покажи в Парка"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Можете да съберете чертеж, за да получите отстъпка при изследване на желана машина. Но ще трябва да изследвате предходната машина\nв разклонението, за да използвате отстъпката."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Тъй вярно!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Изследването е недостъпно"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "За създаване на фрагмент от чертеж се нуждаете от:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "избери:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "СЪЗДАЙ ФРАГМЕНТ:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Създай фрагменти"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Прехвърли\nфрагмент"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Прехвърлянето\nневъзможно"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "НЕДОСТЪПНО:\nНедостатъчно\nресурси"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Отиди на машината"
+
+msgid "blueprintScreen/or"
+msgstr "или"
+
+msgid "blueprintScreen/research"
+msgstr "ИЗСЛЕДВАЙ"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Безплатно изследване на машината"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Изследването е недостъпно"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Отстъпка при изследване:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Тази машина е изследвана и е достъпна за покупка"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Тази машина е изследвана и купена"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "В Склада:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Можете да използвате 100% отстъпка при изследване на {vehicleName}, след като сте изследвали предходната машина в разклонението."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Чертежът е събран"
+
+msgid "blueprintScreen/unlocked"
+msgstr "МАШИНАТА\nЕ ИЗСЛЕДВАНА"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Коалиция:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Блок:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Алианс:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Съюз:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Универсални:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Коалиция"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Блок"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Алианс"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Съюз"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Франция, Чехословакия, Швеция, Италия)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Германия, Япония)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(САЩ, Великобритания, Полша)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(СССР, Китай)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Изберете броя национални фрагменти за създаване на фрагменти от чертеж на машина.\nДостъпни са национални фрагменти за%(allianceIcon)%(allianceName) %(allianceNations)."
+
+msgid "conversionView/topMessage/single"
+msgstr "Изберете фрагменти за една от нациите за създаване на фрагменти от чертеж на машина.\nДостъпни са национални фрагменти за%(allianceIcon)%(allianceName) %(allianceNations)."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Крайна стойност:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Стойност на фрагмент от чертеж:"
+
+msgid "nations/china"
+msgstr "Китай"
+
+msgid "nations/czech"
+msgstr "Чехословакия"
+
+msgid "nations/france"
+msgstr "Франция"
+
+msgid "nations/germany"
+msgstr "Германия"
+
+msgid "nations/italy"
+msgstr "Италия"
+
+msgid "nations/japan"
+msgstr "Япония"
+
+msgid "nations/poland"
+msgstr "Полша"
+
+msgid "nations/sweden"
+msgstr "Швеция"
+
+msgid "nations/uk"
+msgstr "Великобритания"
+
+msgid "nations/usa"
+msgstr "САЩ"
+
+msgid "nations/ussr"
+msgstr "СССР"

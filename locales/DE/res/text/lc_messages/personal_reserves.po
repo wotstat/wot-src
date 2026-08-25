@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Aktivieren"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Kaufen und aktivieren"
+
+msgid "activation/activateBonus"
+msgstr "Reserve aktivieren: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Reserve aktivieren"
+
+msgid "activation/activateButtonClan"
+msgstr "Zur Festung"
+
+msgid "activation/battleXPDescription"
+msgstr "Bonus auf Gefechts-EP für 1 Stunde"
+
+msgid "activation/battleXPTitle"
+msgstr "Gefechts-EP"
+
+msgid "activation/bonus"
+msgstr "+%(bonus) %"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Verbesserte persönliche Reserve kaufen und aktivieren, die +%(boosterBonus)s auf %(boosterTerm)s bietet?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Gold kaufen"
+
+msgid "activation/buyGoldTitle"
+msgstr "Gold kaufen, das für die verbesserte persönliche Reserve notwendig ist, die +%(boosterBonus)s auf %(boosterTerm)s bietet?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Zum Kauf der verbesserten persönlichen Reserve erforderliches Gold:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Kreditpunkte und Gefechts-EP"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "Besatzungs-EP und Freie EP"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Clanreserven"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Reserven in Festung aktivieren"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "In Festung ansehen"
+
+msgid "activation/comboXPDescription"
+msgstr "Bonus auf Freie EP und Besatzungs-EP für 1 Stunde"
+
+msgid "activation/comboXPTitle"
+msgstr "Freie/Besatzungs-EP"
+
+msgid "activation/creditsDescription"
+msgstr "Bonus auf Kreditpunkte für 1 Stunde"
+
+msgid "activation/creditsTitle"
+msgstr "Kreditpunkte"
+
+msgid "activation/footer"
+msgstr "Ablaufende Reserven müssen aktiviert werden: %(expirableAmount) in %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Bonus auf Frontlinien-EP für 1 Stunde"
+
+msgid "activation/frontLineXPTitle"
+msgstr "Frontlinien-EP"
+
+msgid "activation/informationButton"
+msgstr "INFORMATION"
+
+msgid "activation/price"
+msgstr "Preis:"
+
+msgid "activation/subFooter/depot"
+msgstr "Lager"
+
+msgid "activation/subFooter/main"
+msgstr "Die zuerst ablaufende Reserve wird zuerst aktiviert. Sie können alle verfügbaren Reserven im %(depot) einsehen."
+
+msgid "activation/subTitle/main"
+msgstr "Aktivieren Sie {whiteSpanish_Open}bis zu 3 persönliche Reserven{whiteSpanish_Close}, um mehr Kreditpunkte und Erfahrung im Gefecht zu verdienen. Weitere persönliche Reserven können Sie im %(store)s erwerben."
+
+msgid "activation/subTitle/store"
+msgstr "Nachschub"
+
+msgid "activation/terms/booster_credits"
+msgstr "Kreditpunkte"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "Frontlinien-EP"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "Freie und Besatzungs-EP"
+
+msgid "activation/terms/booster_xp"
+msgstr "Gefechts-EP"
+
+msgid "activation/title"
+msgstr "PERSÖNLICHE RESERVEN"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Die aktivierte normale persönliche Reserve, die +%(previousBoosterBonus)s auf %(previousBoosterTerm)s bietet, geht verloren.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Wollen Sie statt der aktivierten normalen persönlichen Reserve die verbesserte persönliche Reserve aktivieren, die +%(boosterBonus)s auf %(boosterTerm)s bietet?"
+
+msgid "battleView/notice"
+msgstr "Persönliche Reserven können jederzeit im Gefecht aktiviert werden. Sie erhalten den Bonus auch, wenn die Reserve während des Gefechts abläuft."
+
+msgid "battleView/title"
+msgstr "Aktivierung persönlicher Reserven"
+
+msgid "depot/buyButton"
+msgstr "Zum Kauf"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Eine andere Reserve dieses Typs ist bereits aktiv."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Die persönliche Reserve ist während des Gefechts abgelaufen. Der Bonus der persönlichen Reserve wird auf dieses Gefecht noch angewandt."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)Min."
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus) %"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "In diesem Modus haben aktivierte persönliche Reserven keinen Effekt."
+
+msgid "intro/buttons/close"
+msgstr "Verstanden!"
+
+msgid "intro/buttons/details"
+msgstr "Details"
+
+msgid "intro/description"
+msgstr "Ablaufende persönliche Reserven sind für begrenzte Zeit nach Erhalt verfügbar. Wenn sie während dieses Zeitraums nicht aktiviert wurden, verfallen sie. Solange ablaufende persönliche Reserven verfügbar sind, werden nicht ablaufende persönliche Reserven desselben Typs nicht genutzt."
+
+msgid "intro/title"
+msgstr "ABLAUFENDE PERSÖNLICHE RESERVEN"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Keine persönlichen Reserven dieses Typs im Lager. Sie können sie später kaufen oder in der Garage aktivieren."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Schließen Sie Aufträge ab und nehmen Sie an Spielevents teil, um persönliche Reserven zu verdienen."
+
+msgid "noReserveTooltip/text"
+msgstr "Keine persönlichen Reserven dieses Typs im Lager."

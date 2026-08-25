@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Extindere"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Demobilizarea celor slab antrenați"
+
+msgid "barracks/bunks/title"
+msgstr "Paturi:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Specifică numărul de paturi de cumpărat. Paturi disponibile în Cazarmă: %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Preţ redus"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Noul preț: %(currency)s per %(bunksCount)s paturi"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Prețul anterior: %(currency)s per %(bunksCount)s paturi"
+
+msgid "barracks/enlarge/header"
+msgstr "Mărești Cazarma?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Membrii de echipaj insuficient antrenați din Cazarmă care au mai puțin decât {whiteSpanish_Open}210.060{whiteSpanish_Close}{icon} puncte de EXP necesare pentru a-și antrena primul talent la {whiteSpanish_Open}100%{whiteSpanish_Close} pot fi demobilizați."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Membrii de echipaj insuficient antrenați"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Nu deții membri de echipaj insuficient antrenați"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "No vei primi compensații pentru demobilizarea membrilor de echipaj insuficient antrenaț. Odată demobilizați, aceștia nu pot fi recuperați, iar EXP acestora se va pierde."
+
+msgid "barracks/title"
+msgstr "CAZARMA"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Clic pentru a mări Cazarma."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Mărește Cazarma"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Locație"
+
+msgid "common/imageNotAvailable"
+msgstr "Imagine indisponibilă"
+
+msgid "common/inBarracks"
+msgstr "În Cazarmă"
+
+msgid "common/inBattle"
+msgstr "În luptă"
+
+msgid "common/inPrebattle"
+msgstr "În unitatea operativă"
+
+msgid "common/navigation/aboutCrew"
+msgstr "DESPRE ECHIPAJ"
+
+msgid "common/navigation/toBarracks"
+msgstr "SPRE CAZARMĂ"
+
+msgid "common/navigation/toGarage"
+msgstr "SPRE GARAJ"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "SPRE PROFIL"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Recepționat!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Membrii tăi de echipaj au fost transformați în cărți de echipaj."
+
+msgid "conversionAwards/title"
+msgstr "CONVERSIE CU SUCCES"
+
+msgid "conversionAwards/underTitle"
+msgstr "Următoarele articole au fost adăugate în contul tău."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Anulează"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Demobilizează"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Membri de echipaj care vor fi demobilizați: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Demobilizezi membrii de echipaj insuficient antrenați?"
+
+msgid "conversionConfirm/warning"
+msgstr "No vei primi compensații pentru demobilizarea membrilor de echipaj insuficient antrenaț. Odată demobilizați, aceștia nu pot fi recuperați, iar EXP acestora se va pierde."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Autoselectare a talentelor"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Nu există membri de echipaj cu talente neantrenate."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Nu pot autoselecta talentele"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Toate talentele neantrenate cu semnul plus vor fi înlocuite cu talente selectate automat cu logică specială pentru toate echipajele."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Autoselectează talente neantrenate pentru toți"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Resetează talente pentru toți"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Nu există membri de echipaj cu talente antrenate."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Nu pot reseta talentele"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Toate talentele vor fi resetate pentru toți membrii de echipaj din contul tău. Această operație nu poate fi anulată."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Resetează talente pentru toți"
+
+msgid "crewBanner/infoText"
+msgstr "Resetare gratuită a talentelor sau autoselectarea talentelor neantrenate pentru toți membrii de echipaj din contul tău"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Pregătirea accelerată a echipajului este activată"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Bonus la eficiență: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Eficiența talentelor"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Talentele sunt indisponibile deoarece membrul de echipaj nu este antrenat pentru acest vehicul."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Specializare:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Talente indisponibile"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Talente bonus:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Talentele calificării majore:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(China)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Cehoslovacia)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Franța)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Germania)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Italia)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japonia)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Polonia)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Suedia)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(U.K.)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(SUA)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(URSS)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Toate antitancurile premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Toate artileriile premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Toate tancurile grele premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Toate tancurile ușoare premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Toate tancurile medii premium\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Detalii"
+
+msgid "filter/group/details/title"
+msgstr "Detalii"
+
+msgid "filter/group/nation/title"
+msgstr "Națiune"
+
+msgid "filter/group/other/title"
+msgstr "Altele"
+
+msgid "filter/group/special/title"
+msgstr "Special"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Calificări"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Generaţie"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Generaţie"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specializarea"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Tip vehicul"
+
+msgid "filter/popup/button/title"
+msgstr "Filtru"
+
+msgid "filter/popup/default/title"
+msgstr "Filtru"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Filtrează după națiune"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Filtrează după vehicule"
+
+msgid "filter/reset"
+msgstr "Resetare filtru"
+
+msgid "filter/search/placeholder"
+msgstr "Caută după nume"
+
+msgid "filter/search/tooltip/header"
+msgstr "Caută după nume"
+
+msgid "filter/title"
+msgstr "Afișat:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Arată/ascunde membri de echipaj în vehicule cu toate modulele şi ramurile tehnice disponibile cercetate."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Vehicule Elită"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Arată/ascunde membri de echipaj antrenați pentru vehicule premium."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Vehicule Premium"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Arată/ascunde membri de echipaj în vehiculele principale."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Vehicule principale"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Arată/ascunde membrii de echipaj pentru acest tip de vehicul."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Arată/ascunde membrii de echipaj ai acestei naţiuni."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Arată/ascunde fețele de echipaj ale acestei naţiuni."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Arată/ascunde vehiculele acestei naţiuni."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Arată/ascunde „demobilizați”."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Demobilizați"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Afișează recruții."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Recruţi"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Afișează membrii de echipaj."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Membrii de echipaj"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Arată/ascunde membrii de echipaj cu această calificare."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Afişează/ascunde vehiculele premium."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Vehicule Premium"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Arată/ascunde vehiculele de acest tip."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Antitancuri"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Artilerii"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Tancuri grele"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Tancuri ușoare"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Tancuri medii"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nu s-au găsit vehicule care să îndeplinească\ncriteriul de căutare"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sortare după numele vehiculelor."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Nume"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sortare după generaţia vehiculelor."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Generaţie"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sortare după tipurile vehiculelor."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Tip"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Nume"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Clic pentru a reseta filtrele."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Resetează toate filtrele"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Recepționat!"
+
+msgid "junkTankmen/description"
+msgstr "Acești membri de echipaj au mai puțin decât {bond_Open}210.060{bond_Close}{icon} puncte de EXP necesare pentru a-și antrena primul talent la {whiteSpanish_Open}100%{whiteSpanish_Close}.\nAceștia vor fi eliminați din contul tău."
+
+msgid "junkTankmen/title"
+msgstr "Demobilizezi membrii de echipaj insuficient antrenați?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Se impune o limită de {whiteSpanish_Open}trei{whiteSpanish_Close} talente pentru fiecare calificare suplimentară. Accesul la un nou talent bonus va fi activat după atingerea {whiteSpanish_Open}primului{whiteSpanish_Close}, celui de-al {whiteSpanish_Open}treilea{whiteSpanish_Close}, respectiv al {whiteSpanish_Open}cincilea{whiteSpanish_Close} talent al calificării majore."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Talentele bonus"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "La reantrenarea unui membru de echipaj pentru alt vehicul cu un set diferit de calificări, vei putea alege din nou talentele pentru o nouă calificare suplimentară."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Talentele bonus sunt antrenate de două ori mai lent decât talentele calificării majore."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Nu este necesară EXP pentru antrenarea talentelor bonus."
+
+msgid "matrix/freeResetButton"
+msgstr "Resetează gratuit"
+
+msgid "matrix/increaseButton"
+msgstr "Accelerează antrenamentul"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Membrul de echipaj a atins limita antrenamentului."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Nu pot accelera antrenamentul"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Antrenează talente contra EXP liberă și cărți de echipaj."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Antrenament rapid"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Calificare incompatibilă"
+
+msgid "matrix/qualification/1"
+msgstr "Calificarea majoră"
+
+msgid "matrix/qualification/2"
+msgstr "A doua calificare"
+
+msgid "matrix/qualification/3"
+msgstr "A treia calificare"
+
+msgid "matrix/qualification/4"
+msgstr "A patra calificare"
+
+msgid "matrix/qualification/5"
+msgstr "A cincea calificare"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Talentele zero sunt indisponibile pentru a doua calificare"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Talentele zero sunt indisponibile pentru a treia calificare"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Talentele zero sunt indisponibile pentru a patra calificare"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "A doua calificare este indisponibilă pentru acest vehicul"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "A treia calificare este indisponibilă pentru acest vehicul"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "A patra calificare este indisponibilă pentru acest vehicul"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "A cincea calificare este indisponibilă pentru acest vehicul"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Fiecare calificare suplimentară este limitată la {whiteSpanish_Open}trei{whiteSpanish_Close} talente bonus. Pot fi selectate în acest scop doar talentele specifice calificării suplimentare."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Talentele calificării majore au limita de {whiteSpanish_Open}șase{whiteSpanish_Close} (inclusiv talentele zero)."
+
+msgid "matrix/resetButton"
+msgstr "Resetare"
+
+msgid "matrix/resetButtonHint"
+msgstr "CLIC PENTRU A RESETA TALENTELE"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Nu ai talente antrenate."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Nu pot reseta talentele"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Clic pentru resetarea talentelor."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Resetare talente"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Talent bonus disponibil pentru antrenare"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Nu este necesară EXP de echipaj pentru antrenarea talentelor bonus."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Indisponibil"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Deblocat la antrenarea celui de-al treilea talent al calificării majore. Nu necesită EXP."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Deblocat la antrenarea celui de-al cincilea talent al calificării majore. Nu necesită EXP."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Nivelul antrenamentului"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "Cantitatea totală de EXP necesară este redusă deoarece membrul de echipaj are un talent zero."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "Cantitatea totală de EXP necesară este redusă deoarece membrul de echipaj are două talente zero."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Talent disponibil pentru antrenament"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Indisponibil"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Talentul anterior trebuie antrenat la 100%."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Talent zero disponibil pentru antrenare"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "talentele zero sunt întotdeauna antrenate primele, chiar dacă mai multe talente sunt selectate simultan. Nu este necesară EXP de echipaj pentru a le antrena."
+
+msgid "matrix/skills/allSkills"
+msgstr "Toate talentele suplimentare antrenate pentru acest vehicul"
+
+msgid "matrix/skills/available"
+msgstr "Talente disponibile pentru antrenament"
+
+msgid "matrix/skills/bonus"
+msgstr "Talentele bonus"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Talentele nu sunt disponibile"
+
+msgid "matrix/skills/locked"
+msgstr "Talentele nu sunt disponibile"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Toate talentele sunt dezactivate pentru acest vehicul"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Talentele calificării majore"
+
+msgid "matrix/skills/reduced"
+msgstr "Eficiența talentelor este redusă"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Talentele comandantului"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Talentele șoferului"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Talentele comandantului"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Talentele șoferului"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Talentele tunarului"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Talentele servantului"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Talentele transmisionistului"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Talentele tunarului"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Talentele servantului"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Talentele transmisionistului"
+
+msgid "matrix/skills/training"
+msgstr "Antrenarea talentelor"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Talente zero disponibile pentru antrenament:"
+
+msgid "memberChange/action/recruit"
+msgstr "Recrutare {role}"
+
+msgid "memberChange/discount"
+msgstr "REDUCERE DE {discountAmount}% LA SCHIMBAREA CALIFICĂRII"
+
+msgid "memberChange/title"
+msgstr "SELECTEAZĂ {role}: {vehicle}"
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}În Depozit{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "După confirmare, membrul de echipaj care își transferă EXP-ul va fi eliminat din contul tău."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Licența de Mentor îți permite să transferi EXP de la un membru de echipaj către alt membru de echipaj din aceeași națiune."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "LICENȚA DE MENTOR"
+
+msgid "personalData/card/edit"
+msgstr "Editare"
+
+msgid "personalData/card/remove"
+msgstr "Elimină"
+
+msgid "personalData/card/restrictions"
+msgstr "Restricții: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Clic pentru a înlocui numele și înfățișarea unui membru de echipaj."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Înfățișare"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Acest membru de echipaj are deja un nume și o înfățișare unice."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Nu pot înlocui numele și înfăpțișarea"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Nu s-a găsit nimic. Schimbă setările sau resetează filtrul."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Configurează afișarea figurilor după națiune."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Filtru după parametri"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Afișează documentele."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Documente"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Afișează figurile potrivite."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Figuri potrivite"
+
+msgid "personalData/filter/type/title"
+msgstr "Tip"
+
+msgid "personalData/title"
+msgstr "ÎNLOCUIEȘTE NUMELE ȘI ÎNFĂȚIȘAREA"
+
+msgid "personalFile/changeVehicle"
+msgstr "Schimbă"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Nu pot antrena acest membru de echipaj pentru un alt vehicul."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Operaţiune indisponibilă"
+
+msgid "personalFile/discount/full"
+msgstr "Reducere disponibilă pentru recalificarea echipajului"
+
+msgid "personalFile/discount/short"
+msgstr "Reducere disponibilă"
+
+msgid "personalFile/inVehicle"
+msgstr "În vehicul: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Mărește"
+
+msgid "personalFile/isUntrained"
+msgstr "Nu este antrenat pentru acest vehicul"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Vehicule {icon} premium"
+
+msgid "personalFile/retrain"
+msgstr "Recalific"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Eficiența talentelor: "
+
+msgid "personalFile/specialization"
+msgstr "Specializare:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Specializarea"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Clic pentru a asculta un eșantion de voce a comandantului."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Voce unică"
+
+msgid "postProgression/button/claim"
+msgstr "Revendică recompensa"
+
+msgid "postProgression/description"
+msgstr "Toți membrii de echipaj care au antrenate toate cele șase talente ale calificării majore obțin acces la Progresul ulterior comun. La fiecare 100.000 EXP obținută în Progresul ulterior, vei primi un Ghid universal care poate fi utilizat pentru antrenarea altor echipaje."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "Progresul ulterior constă într-o scară unică a tuturor membrilor de echipaj cu șase talente complet antrenate ale calificării majore din contul jucătorului."
+
+msgid "postProgression/tips/2"
+msgstr "Progresul ulterior ia în considerare doar EXP de luptă. Jumătate din EXP de luptă obținută din lupte de un membru de echipaj se împarte la numărul total al membrilor de echipaj din vehicul și se adaugă la scara Progresului ulterior."
+
+msgid "postProgression/tips/3"
+msgstr "Pierderea de EXP din talente sau eficiență nu afectează Progresul ulterior."
+
+msgid "postProgression/title"
+msgstr "PROGRESUL ULTERIOR AL ECHIPAJULUI"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Toți membrii de echipaj care au avut acces la Progresul ulterior au eficiență scăzută a talentelor."
+
+msgid "postProgression/warning/retire"
+msgstr "Toți membrii de echipaj care au avut acces la Progresul ulterior au fost demobilizați sau au pierdut EXP din talentele lor finale."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Toate antitancurile premium"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Toate artileriile premium"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Antitancuri premium"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Artilerii premium"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Tancuri grele premium"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Tancuri ușoare premium"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Tancuri medii premium"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Toate tancurile grele premium"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Toate tancurile ușoare premium"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Toate tancurile medii premium"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "RECOMPENSELE"
+
+msgid "serviceRecord/averageXP"
+msgstr "Experienţă medie pe luptă"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Lupte purtate"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Fără distincţii sau medalii câştigate în luptă."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Rata totală a punctelor de experiență obținută, per totalul luptelor portate în vehiculul căruia îi este asignat membrul de echipaj."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Experienţă medie pe luptă"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Gradul unui membru de echipaj depinde de experiență și numărul de talente antrenate."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Grad"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Membrul de echipaj a antrenat toate talentele pentru acest vehicul"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Talente disponibile pentru antrenament"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Toate talentele dezactivate pentru acest vehicul"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Nu este necesară EXP pentru antrenarea de talente suplimentare ale calificării, care sunt antrenate de două ori mai lent decât talentele calificării majore."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Anulează"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Antrenează"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "CALIFICAREA BONUS"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "CALIFICAREA MAJORĂ"
+
+msgid "tankChange/title"
+msgstr "ANTRENEAZĂ PENTRU VEHICUL"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Afișează vehiculele din Garaj."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "În Garaj"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Configurează afișarea vehiculelor după tip și generație."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Filtru după parametri"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Nu trebuie să antrenezi membri de echipaj pentru vehicule premium. Poți transfera echipajul fără penalizare către un vehicul premium de același tip."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Vehicul premium"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Numele vehiculului poate conține maxim %(maxLength)s caractere."
+
+msgid "tankman/action/dismiss/title"
+msgstr "DEMOBILIZEAZĂ"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Trimite acest membru de echipaj în demobilizare."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Nu pot demobiliza acest membru de echipaj."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Operaţiune indisponibilă"
+
+msgid "tankman/action/recruit/title"
+msgstr "RECRUTEAZĂ"
+
+msgid "tankman/action/restore/title"
+msgstr "RECUPEREAZĂ"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Recuperează acest membru de echipaj."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Clic pentru a asculta un eșantion de voce a comandantului."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Voce unică"
+
+msgid "tankman/recruit"
+msgstr "Recrutare"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Înfățișare"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profil"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Dosar de serviciu"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Recrutare"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Resetare filtru"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Nu s-a găsit nimic. Schimbă setările sau resetează filtrul."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Nu s-a găsit nimic. Recrutează un membru de echipaj."
+
+msgid "tankmanList/filter/title"
+msgstr "Membri de echipaj:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Locuri insuficiente în cazarmă"
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Arată/ascunde doar membrii de echipaj demobilizați."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Demobilizați"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Afișează membrii de echipaj din Cazarmă."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "În cazarmă"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Afișează membrii de echipaj din vehicule."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "În vehicule"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Arată/ascunde fețele de echipaj ale acestei naţiuni."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Configurează afișarea de membri de echipaj după calificare, specializare și alți parametri."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Filtru după parametri"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Recrutează un nou membri de echipaj."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Numele poate conține maxim %(maxLength)s caractere."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Menținerea cursorului deasupra unui talent afișează cum îi sunt afectate caracteristicile corespunzătoare la antrenarea la 100% cu nivelul actual de eficiență a talentului."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Recepționat!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Au fost introduse două talente noi pentru fiecare calificare, „Amplasare corectă” a fost refăcut și o opțiune nouă îți permite să ascunzi talentele în interfața din lupte."
+
+msgid "welcomeScreen/item2/description"
+msgstr "O operațiune nouă, convenabilă, îți permite să demobilizezi membrii de echipaj insuficient antrenați cu un singur clic."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Talentele pot fi acum resetate contra credite, fără a pierde EXP."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Au fost adăugate caracteristici și talente noi și un talent existent a fost actualizat."
+
+msgid "welcomeScreen/title"
+msgstr "ACTUALIZĂRI ALE ECHIPAJELOR"

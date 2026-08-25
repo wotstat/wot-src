@@ -1,0 +1,1124 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "comparison/fullUpgrades/title"
+msgstr "Pilnai išrastas"
+
+msgid "comparison/partialUpgrades/title"
+msgstr "Dabartinė"
+
+msgid "comparison/title"
+msgstr "Patobulinimai"
+
+msgid "comparison/tooltip/body"
+msgstr "Konfigūracijos ekranas parodo jums, kaip patobulinimai paveiks mašinos charakteristikas. Pasirinkite Pilnai išrastas ir pamatykite, kaip visi patobulinimai paveikia mašiną."
+
+msgid "comparison/tooltip/header"
+msgstr "Patobulinimai"
+
+msgid "comparison/zeroUpgrades/title"
+msgstr "Neišrasta"
+
+msgid "dialog/altConfiguration/description"
+msgstr "Jei paliksite šiuos nustatymus įjungtus, galėsite pasikeisti savo konfigūraciją prieš mūšį."
+
+msgid "dialog/altConfiguration/info"
+msgstr "Šiuos nustatymus pakeisti galite bet kada."
+
+msgid "dialog/altConfiguration/optDevBoostersSwitch"
+msgstr "Pagalbinis išdėstymas"
+
+msgid "dialog/altConfiguration/shellsConsumablesSwitch"
+msgstr "Būtina konfigūracija"
+
+msgid "dialog/altConfiguration/title"
+msgstr "Alternatyvi konfigūracija"
+
+msgid "dialog/common/accept"
+msgstr "Patvirtinti"
+
+msgid "dialog/confirmation/researchPerks"
+msgid_plural "plural/dialog/confirmation/researchPerks"
+msgstr[0] "%(perks)s"
+msgstr[1] "%(perks)s langeliai"
+msgstr[2] "%(perks)s langelių"
+
+msgid "footer/button/label"
+msgstr "Išrasti"
+
+msgid "footer/description/text/allResearched"
+msgstr "Visi langeliai išrasti. Dabar atrakinote elitinių apdovanojimų sistemą."
+
+msgid "footer/description/text/emergencyModeEnabled"
+msgstr "WG Wallet laikinai nepasiekiama. Atsiprašome už nepatogumus."
+
+msgid "footer/description/text/inBattle"
+msgstr "Langelis nepasiekiamas. Mašina mūšyje."
+
+msgid "footer/description/text/inFormation"
+msgstr "Langelis nepasiekiamas. Mašina formuotėje."
+
+msgid "footer/description/text/needsRepair"
+msgstr "Langelis nepasiekiamas. Mašinai reikalingas remontas."
+
+msgid "footer/description/text/notInInventory"
+msgstr "Šios mašinos langelius išrasti galite tik ją turėdami"
+
+msgid "footer/description/text/researchAvailable"
+msgstr "Pasirinkite langelį ar šaką, kurią norite išrasti"
+
+msgid "footer/text/amountItems"
+msgstr "{{amount}} langeliai"
+
+msgid "footer/text/selectedItem"
+msgstr "Pasirinkta: {{selectedItem}}"
+
+msgid "footer/tooltip/body/emergencyModeEnabled"
+msgstr "WG Wallet laikinai nepasiekiama. Atsiprašome už nepatogumus."
+
+msgid "footer/tooltip/body/inBattle"
+msgstr "Langelis nepasiekiamas. Mašina mūšyje."
+
+msgid "footer/tooltip/body/inFormation"
+msgstr "Langelis nepasiekiamas. Mašina formuotėje."
+
+msgid "footer/tooltip/body/needsRepair"
+msgstr "Langelis nepasiekiamas. Mašinai reikalingas remontas."
+
+msgid "footer/tooltip/body/notEnoughExp"
+msgstr "Nepakanka patirties pasirinktiems moduliams."
+
+msgid "footer/tooltip/body/researchInProgress"
+msgstr "Šiuo metu išrandama, palaukite..."
+
+msgid "footer/tooltip/header/emergencyModeEnabled"
+msgstr "Nepasiekiama"
+
+msgid "footer/tooltip/header/info"
+msgstr "Pasirinkti langeliai"
+
+msgid "footer/tooltip/listSelectedPerks"
+msgid_plural "plural/footer/tooltip/listSelectedPerks"
+msgstr[0] "• {{selectedPerks}},"
+msgstr[1] "• {{selectedPerks}}."
+msgstr[2] "• {{selectedPerks}}."
+
+msgid "intro/button"
+msgstr "Tikrai taip!"
+
+msgid "intro/button/tooltip"
+msgstr "Apie patobulinimus"
+
+msgid "intro/improvements/description"
+msgstr "Kaupkite kovinę patirtį ir atrakinkite langelius, kurie pagerina jūsų mašinos charakteristikas. Finalinės charakteristikos gali būti geresnės ar prastesnės, nei nurodytos vertės, nes papildomi modifikatoriai gali koreguoti šias vertes."
+
+msgid "intro/improvements/title"
+msgstr "Kaip tai veikia"
+
+msgid "intro/progression/description"
+msgstr "Tai tik XI lygio mašinoms skirta funkcija. Patobulinimai leidžia jums dar labiau padidinti mašinos charakteristikas."
+
+msgid "intro/progression/title"
+msgstr "Patobulinimai"
+
+msgid "intro/vanity/description"
+msgstr "Išradę visus langelius galėsite uždirbti elitinius apdovanojimus, kuriuos gausite pasiekę tam tikrą elitinį lygį. Apdovanojimus apima unikalus erdvinius stilius, statistikos sekiklis ir ginklo mova!"
+
+msgid "intro/vanity/title"
+msgstr "Elitiniai apdovanojimai"
+
+msgid "kpi/bonus/valueTypes/cnt"
+msgstr "vnt."
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/gps"
+msgstr " laipsn./s"
+
+msgid "kpi/bonus/valueTypes/grads"
+msgstr " laipsn."
+
+msgid "kpi/bonus/valueTypes/m"
+msgstr " m"
+
+msgid "kpi/bonus/valueTypes/mm"
+msgstr " mm"
+
+msgid "kpi/bonus/valueTypes/mph"
+msgstr " km/h"
+
+msgid "kpi/bonus/valueTypes/mps"
+msgstr " m/s"
+
+msgid "kpi/bonus/valueTypes/p"
+msgstr " p. t."
+
+msgid "kpi/bonus/valueTypes/s"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/val"
+msgstr "PT"
+
+msgid "notifications/perkAvailable/disabledButtonTooltip"
+msgstr "Šis funkcionalumas šiuo metu nepasiekiamas"
+
+msgid "notifications/perkAvailable/goToProgression"
+msgstr "Į patobulinimus"
+
+msgid "notifications/perkAvailable/title"
+msgstr "Jūs neturite pakankamai patirties patobulinti mašinai!"
+
+msgid "rewardScreen/button/accept"
+msgstr "Tikrai taip"
+
+msgid "rewardScreen/button/check"
+msgstr "Pamatyti mašinos išvaizdą"
+
+msgid "rewardScreen/rewardName"
+msgstr "{{rarity}} {{rewardName}}"
+
+msgid "rewardScreen/subtitle"
+msgstr "Už pasiektą elitinį lygį {{prestigeLevel}} su {{level}} {{type}} {{name}}"
+
+msgid "rewardScreen/title"
+msgstr "ELITINIS APDOVANOJIMAS"
+
+msgid "tooltips/backToMainProgressionEntryPoint/text"
+msgstr "Tai tik XI lygio mašinoms skirta funkcija. Patobulinimai leidžia jums dar labiau padidinti mašinos charakteristikas."
+
+msgid "tooltips/backToMainProgressionEntryPoint/title"
+msgstr "Patobulinimai"
+
+msgid "tooltips/common/cost"
+msgstr "Kaina: {{amount}}"
+
+msgid "tooltips/description/HEDamageAbsorption"
+msgstr "Pagerina jūsų mašinos gebėjimą sugerti fugasinius sviedinius ir tarano žalą."
+
+msgid "tooltips/description/HEShellDamage"
+msgstr "Padidina fugasinių sviedinių daromą žalą."
+
+msgid "tooltips/description/HEshellVelocity"
+msgstr "Padidina fugasinių sviedinių greitį."
+
+msgid "tooltips/description/a179_mechanic_0"
+msgstr "Sumažina antro šūvio išbarstymą Greito šaudymo režime {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a179_mechanic_1"
+msgstr "Sumažina laiko tarpą tarp šūvių Greito šaudymo režime {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_0"
+msgstr "Padidina užtaisymo efektyvumo lygio bonusą {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_1"
+msgstr "Prailgina užtaisymo efektyvumo lygių trukmę {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_2"
+msgstr "Prailgina užtaisymo efektyvumo lygių trukmę {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_3"
+msgstr "Padidina užtaisymo efektyvumo lygio bonusą {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_0"
+msgstr "Sumažina atsistatymo laiką, iki kol ši funkcija vėl naudojama, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_1"
+msgstr "Sumažina atsistatymo laiką, iki kol ši funkcija vėl naudojama, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_2"
+msgstr "Prailgina funkcijos veikimo laiką {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_3"
+msgstr "Prailgina funkcijos veikimo laiką {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_1"
+msgstr "Sumažina sklaidą ties 100 m vienos užkrovos šūviams {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_2"
+msgstr "Padidina vienos užkrovos šūvių daromą žalą standartiniais ir specialiais sviediniais {colorTagOpen}{value} patvarumo taškų{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_3"
+msgstr "Padidina vienos užkrovos sviedinių greitį {colorTagOpen}{value} m/s{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_4"
+msgstr "Sumažina vienos užkrovos sviedinių užtaisymo laiką {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/advancedChassisProtection"
+msgstr "Padidina važiuoklės patvarumą ir remonto greitį."
+
+msgid "tooltips/description/advancedModuleAndCrewProtection"
+msgstr "Sumažina efektyvumo praradimą, kai mašinos amunicijos skyrius ar variklis pažeistas ir sumažina įgulos sužalojimo tikimybę, kai mašina pažeidžiama."
+
+msgid "tooltips/description/aimingCircleSize"
+msgstr "Sumažina jūsų taikymosi apskritimą po šūvio."
+
+msgid "tooltips/description/aimingTime"
+msgstr "Sumažina mašinos taikymosi laiką."
+
+msgid "tooltips/description/aimingTimeSalvo"
+msgstr "Sumažina mašinos taikymosi laiką šaudant pavieniais šūviais."
+
+msgid "tooltips/description/allShellDamage"
+msgstr "Padidina visų sviedinių daromą žalą."
+
+msgid "tooltips/description/allShellsVelocity"
+msgstr "Padidina jūsų sviedinių greitį."
+
+msgid "tooltips/description/ammoRackHP"
+msgstr "Padidina amunicijos skyriaus patvarumą."
+
+msgid "tooltips/description/ammoRackPenalty"
+msgstr "Sumažina nuobaudą, kai amunicijos skyrius pažeistas."
+
+msgid "tooltips/description/basicShellDamage"
+msgstr "Padidina standartinių sviedinių daromą žalą."
+
+msgid "tooltips/description/ch67_mechanic_0"
+msgstr "Padidina važiavimo greitį, kai greitintuvai aktyvuoti, {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_1"
+msgstr "Padidina maksimalų greitį, kai greitintuvai aktyvuoti, {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_2"
+msgstr "Sumažina laiką, per kurį greitintuvai pilnai užsikrauna, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_3"
+msgstr "Prailgina maksimalią greitintuvo trukmę {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_0"
+msgstr "Padidina bonusą variklio galiai, kurį suteikia greitintuvai {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_1"
+msgstr "Sumažina atsistatymo laiką, iki kol greitintuvai vėl gali būti naudojami, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_2"
+msgstr "Padidina bonusą variklio galiai, kurį suteikia greitintuvai {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_3"
+msgstr "Leidžia mūšyje panaudoti greitintuvus dar {colorTagOpen}{value}{colorTagClose} kartus."
+
+msgid "tooltips/description/crewProtection"
+msgstr "Sumažina įgulos nario traumos šansą, kai mašina pažeidžiama."
+
+msgid "tooltips/description/damagedGunDispersion"
+msgstr "Sumažina nuobaudą išbarstymui, kai pabūklas pažeistas."
+
+msgid "tooltips/description/driveModeForwardSpeed"
+msgstr "Padidina mašinos greitį į priekį Keliavimo režime."
+
+msgid "tooltips/description/driveModeReverseSpeed"
+msgstr "Padidina mašinos greitį atbuliniu Keliavimo režime."
+
+msgid "tooltips/description/enginePenalty"
+msgstr "Sumažina nuobaudą, kai mašinos variklis pažeistas."
+
+msgid "tooltips/description/enginePower"
+msgstr "Padidina variklio galią, kas leidžia mašinai greičiau važiuoti įkalnėje."
+
+msgid "tooltips/description/f135_mechanic_0"
+msgstr "Sumažina laiką, iki kol pradedamas užsitaisymas, {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f135_mechanic_1"
+msgstr "Sumažina laiką iki šūvio, po to kai užsitaisymas nutrauktas, {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f136_mechanic_0"
+msgstr "Sumažina nuobaudą užsitaisymo laikui po to, kai iššaunate paskutinį sviedinį kasetėje, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_0"
+msgstr "Sumažina nuobaudą sklaidai ties 100 m {colorTagOpen}{value0}%{colorTagClose} ir pabūklo taikymosi laikui {colorTagOpen}{value1}%{colorTagClose}, kai riba yra viršyta."
+
+msgid "tooltips/description/f143_mechanic_1"
+msgstr "Padidina užkrovos generavimo greitį {colorTagOpen}{value}%/s{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_2"
+msgstr "Sumažina po šūvio prarandamos užkrovos kiekį {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_3"
+msgstr "Padidina užribio žalos šuolį {colorTagOpen}{value0} patvarumo taškų{colorTagClose} ir maksimalų bonusą žalai už ribos {colorTagOpen}{value1}%{colorTagClose}."
+
+msgid "tooltips/description/forwardSpeed"
+msgstr "Padidina mašinos greitį važiuojant į priekį."
+
+msgid "tooltips/description/g185_mechanic_0"
+msgstr "Padidina taiklumo lygio suteikiamą bonusą išbarstymui {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g185_mechanic_1"
+msgstr "Padidina maksimalų greitį, kuriuo važiuojant gaunami efektyvumo lygiai, {colorTagOpen}{value} km/h{colorTagClose}."
+
+msgid "tooltips/description/g185_mechanic_2"
+msgstr "Sumažina laiką, per kurį pasiekiamas kitas taiklumo lygis, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g185_mechanic_3"
+msgstr "Padidina stabilizavimo bonusą su maksimaliu taiklumo lygiu {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g187_mechanic_0"
+msgstr "Sumažina pagalbinių ginklų užsitaisymo greitį {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g187_mechanic_1"
+msgstr "Sumažina pagalbinių ginklų užsitaisymo greitį {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_0"
+msgstr "Prailgina laiką, kurį pažymėtas priešas išlieka matomas, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_1"
+msgstr "Sumažina atsistatymo laiką, iki kol ši funkcija vėl naudojama, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_2"
+msgstr "Sumažina atsistatymo laiką, vos prasidėjus mūšiui, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_3"
+msgstr "Padidina papildomą žalą, kurią daro jūsų komandos narių sviediniai pažymėtam priešui, {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_0"
+msgstr "Padidina maksimalų greitį, kuriuo važiuojant vis dar generuojamas įkaitimas, {colorTagOpen}{value} km/h{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_1"
+msgstr "Padidina bonusą įkaitimo lygio maksimaliam išbarstymui {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_2"
+msgstr "Padidina įkaitimo lygio maksimalios žalos bonusą {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_3"
+msgstr "Sumažina laiką, per kurį pasiekiamas maksimalus įkaitimas, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb147_mechanic_0"
+msgstr "Sumažina pabūklo išbarstymą šaudant salvėmis {colorTagOpen}{value} metrais{colorTagClose}."
+
+msgid "tooltips/description/gb147_mechanic_1"
+msgstr "Padidina bokštelio sukimosi greitį šaudant salvėmis {colorTagOpen}{value} laipsniais/s{colorTagClose}."
+
+msgid "tooltips/description/gb147_mechanic_2"
+msgstr "Sumažina taikymosi laiką šaudant salvėmis {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb147_mechanic_3"
+msgstr "Padidina maksimalų greitį į priekį {colorTagOpen}{value} km/h{colorTagClose} šaudant salvėmis."
+
+msgid "tooltips/description/gb152_mechanic_0"
+msgstr "Sumažina laiką, per kurį aktyvuojamas tiesioginio važiavimo režimas, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb152_mechanic_1"
+msgstr "Sumažina laiką, per kurį pasiekiamas maksimalus manevringumas tiesioginio važiavimo režime, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb152_mechanic_2"
+msgstr "Padidina variklio galingumą tiesioginio važiavimo režime {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/gb152_mechanic_3"
+msgstr "Padidina maksimalų greitį tiesioginio važiavimo režime {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_0"
+msgstr "Padidina turbokompresoriaus suteikiamą bonusą variklio galingumui {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_1"
+msgstr "Padidina maksimalų greitį atbuliniu su aktyviu turbokompresoriaus stiprintuvu {colorTagOpen}{value} km/h{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_2"
+msgstr "Padidina turbokompresoriaus stiprintuvo veikimo trukmę {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_3"
+msgstr "Sumažina turbokompresoriaus stiprintuvo atsistatymo laiką {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gunDepression"
+msgstr "Padidina pabūklo išbarstymo kampą."
+
+msgid "tooltips/description/gunDispersion"
+msgstr "Pagerina sviedinių grupavimąsi taikymosi apskritime."
+
+msgid "tooltips/description/gunDispersionSalvo"
+msgstr "Padidina sviedinių grupavimąsi taikymosi apskritime šaudant pavieniais šūviais."
+
+msgid "tooltips/description/gunStabilization"
+msgstr "Padidina pabūklo stabilizavimą visose situacijose."
+
+msgid "tooltips/description/gunStabilizationFromHull"
+msgstr "Padidina pabūklo stabilizavimą judant ir sukant korpusą."
+
+msgid "tooltips/description/gunStabilizationFromHullMovement"
+msgstr "Padidina pabūklo stabilizavimą važiuojant."
+
+msgid "tooltips/description/gunStabilizationFromHullRotation"
+msgstr "Padidina pabūklo stabilizavimą sukant korpusą."
+
+msgid "tooltips/description/gunStabilizationFromHullSalvo"
+msgstr "Padidina pabūklo stabilizavimą važiuojant ir sukant korpusą šaudant pavieniais šūviais."
+
+msgid "tooltips/description/gunStabilizationFromTurret"
+msgstr "Pagerina pabūklo stabilizavimą bokštelio sukimosi metu."
+
+msgid "tooltips/description/gunStabilizationFromTurretSalvo"
+msgstr "Pagerina pabūklo stabilizavimą bokštelio sukimosi metu šaudant pavieniais šūviais."
+
+msgid "tooltips/description/gunTraverse"
+msgstr "Padidina maksimalius horizontalius pabūklo kampus."
+
+msgid "tooltips/description/hitPoints"
+msgstr "Padidina mašinos išgyvenamumą, kas leidžia mūšyje padaryti daugiau žalos priešams."
+
+msgid "tooltips/description/innerClipReloadTime"
+msgstr "Sumažina sviediniu užtaisymo greitį apkaboje."
+
+msgid "tooltips/description/invisibilityWhenShooting"
+msgstr "Sumažina tikimybę priešams jus aptikti, kai šaunate."
+
+msgid "tooltips/description/j52_mechanic_0"
+msgstr "Sumažina laiką iki kol pabūklas pradeda vėsti {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j52_mechanic_1"
+msgstr "Sumažina šūvio generuojamą šilumą {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j52_mechanic_2"
+msgstr "Padidina įkaitusio pabūklo aušimo greitį {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/nonHEShellDamage"
+msgstr "Padidina ne fugasinių sviedinių daromą žalą."
+
+msgid "tooltips/description/opt_dev_boosters_switch"
+msgstr "Leidžia sukurti alternatyvią įrangos ir įsakymų konfigūraciją."
+
+msgid "tooltips/description/overheat_coolingDelay"
+msgstr "Sumažina laiką iki kol pabūklas pradeda vėsti {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/overheat_coolingPerSec"
+msgstr "Padidina įkaitusio ir perkaitusio pabūklo aušinimo greitį {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/overheat_heatingPerShot"
+msgstr "Sumažina šūvio generuojamą šilumą {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/overheat_overheatedCoolingPerSec"
+msgstr "Padidina perkaitusio pabūklo aušinimo greitį {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_0"
+msgstr "Sumažina laiką, per kurį pakeičiamas režimas, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_1"
+msgstr "Padidina pasyviai per sekundę generuojamos energijos kiekį Turbo režime {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_2"
+msgstr "Padidina pasyviai per sekundę generuojamos energijos kiekį Koviniame režime {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_3"
+msgstr "Prailgina efekto veikimo laiką {colorTagOpen}{value} s{colorTagClose} Turbo ir Koviniame režime."
+
+msgid "tooltips/description/r228_mechanic_0"
+msgstr "Padidina priešams daromą tarano žalą {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_1"
+msgstr "Padidina priešų važiuoklėms daromą tarano žalą {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_2"
+msgstr "Padidina priešams daromą tarano žalą {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_3"
+msgstr "Padidina priešams daromą tarano žalą {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_0"
+msgstr "Sumažina laiką iki kito šūvio po įkrovos perkaitimo {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_1"
+msgstr "Padidina laiką, per kurį pasiruošiama šauti su maksimaliu įkaitimo lygiu, {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_2"
+msgstr "Sumažina laiką iki kito šūvio po įkrovos perkaitimo {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_3"
+msgstr "Padidina įkaitimo lygio suteikiamą papildomą žalą {colorTagOpen}{value0}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value1}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value2}%{colorTagClose}."
+
+msgid "tooltips/description/reducedRammingDamage"
+msgstr "Sumažina priešų daromą žalą jums taranu."
+
+msgid "tooltips/description/reloadTimeTwinGun"
+msgstr "Sumažina pabūklo užtaisymo laiką šaudant pavieniais šūviais ir salvėmis."
+
+msgid "tooltips/description/reverseSpeed"
+msgstr "Padidina mašinos greitį atbuliniu."
+
+msgid "tooltips/description/roleSlot"
+msgstr "Priskirti kategoriją antrai įrangos vietai."
+
+msgid "tooltips/description/s36_mechanic_0"
+msgstr "Padidina korpuso sukimosi ir pabūklo pakėlimo greitį Įsitvirtinimo režime {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s36_mechanic_1"
+msgstr "Sumažina laiką, per kurį išeinama iš Įsitvirtinimo režimo {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/s36_mechanic_2"
+msgstr "Sumažina pabūklo išbarstymą Įsitvirtinimo režime {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/s36_mechanic_3"
+msgstr "Sumažina užsitaisymo laiką Įsitvirtinimo režime {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/selectiveModuleHPBoost"
+msgstr "Padidina jūsų mašinos kuro bako ir variklio patvarumo taškus."
+
+msgid "tooltips/description/selectiveModuleProtection"
+msgstr "Sumažina pažeistos amunicijos saugyklos ir variklio nuobaudą."
+
+msgid "tooltips/description/shellModuleDamage"
+msgstr "Padidina jūsų sviedinių daromą žalą priešo moduliams."
+
+msgid "tooltips/description/shells_consumables_switch"
+msgstr "Leidžia susidėti alternatyvią amunicijos ir ekipuotės konfigūraciją."
+
+msgid "tooltips/description/specialShellDamage"
+msgstr "Padidina specialių sviedinių daromą žalą."
+
+msgid "tooltips/description/specialShellPenetration"
+msgstr "Padidina specialių sviedinių pramušimą."
+
+msgid "tooltips/description/specialShellVelocity"
+msgstr "Padidina specialių sviedinių greitį."
+
+msgid "tooltips/description/spottingBonusFoliage"
+msgstr "Sumažina už augmenijos besislepiančių priešų maskuotę."
+
+msgid "tooltips/description/spottingBonusMovement"
+msgstr "Sumažina judančių priešų mašinų maskuotę."
+
+msgid "tooltips/description/standardShellDamage"
+msgstr "Padidina standartinių sviedinių daromą žalą."
+
+msgid "tooltips/description/standardShellPenetration"
+msgstr "Padidina standartinių sviedinių pramušimą."
+
+msgid "tooltips/description/standardShellVelocity"
+msgstr "Padidina standartinių sviedinių greitį."
+
+msgid "tooltips/description/stunDuration"
+msgstr "Sumažina laiką, kurį jūsų mašina lieka apkurtinta."
+
+msgid "tooltips/description/turretTraverse"
+msgstr "Padidina maksimalius horizontalius bokštelio kampus."
+
+msgid "tooltips/description/turretTraverseStability"
+msgstr "Sumažina pabūklo išbarstymą Koviniame režime."
+
+msgid "tooltips/description/vehicleSpeed"
+msgstr "Padidina mašinos greitį važiuojant pirmyn ir atgal."
+
+msgid "tooltips/description/viewRange"
+msgstr "Leidžia jums iš toliau aptikti priešus."
+
+msgid "tooltips/large/eliteStatus"
+msgstr "Suteikia mašinai elitinį statusą"
+
+msgid "tooltips/large/perksResearchRequired"
+msgstr "Šį langelį išrasti galite tik išradę visus kitus."
+
+msgid "tooltips/paramNameWithUnit"
+msgstr "{paramName} ({unit})"
+
+msgid "tooltips/perk/category/concealment"
+msgstr "Kategorija: Maskuotė"
+
+msgid "tooltips/perk/category/firepower"
+msgstr "Kategorija: Šaunamoji galia"
+
+msgid "tooltips/perk/category/mechanics"
+msgstr "Mechaninis patobulinimas"
+
+msgid "tooltips/perk/category/mobility"
+msgstr "Kategorija: Mobilumas"
+
+msgid "tooltips/perk/category/special"
+msgstr "Specialus patobulinimas"
+
+msgid "tooltips/perk/category/spotting"
+msgstr "Kategorija: Aptikimas"
+
+msgid "tooltips/perk/category/survivability"
+msgstr "Kategorija: Išgyvenamumas"
+
+msgid "tooltips/special/tapToModify"
+msgstr "Išradę šį langelį galite jį koreguoti."
+
+msgid "tooltips/title/HEDamageAbsorption"
+msgstr "Fugasinių sviedinių sugėrimas"
+
+msgid "tooltips/title/HEShellDamage"
+msgstr "Fugasinių sviedinių žala"
+
+msgid "tooltips/title/HEShellPenetration"
+msgstr "Fugasinių sviedinių pramušimas"
+
+msgid "tooltips/title/HEshellVelocity"
+msgstr "Fugasinių sviedinių greitis"
+
+msgid "tooltips/title/a179_mechanic_0"
+msgstr "Pusiau aktyvus aušintuvas"
+
+msgid "tooltips/title/a179_mechanic_1"
+msgstr "Grandininis tarano stiprintuvas"
+
+msgid "tooltips/title/a182_mechanic_0"
+msgstr "Puriau automatinis sukibimo stiprintuvas"
+
+msgid "tooltips/title/a182_mechanic_1"
+msgstr "Kovinio skyriaus oro filtravimas"
+
+msgid "tooltips/title/a182_mechanic_2"
+msgstr "Centrifuginis slėgio pūstuvas"
+
+msgid "tooltips/title/a182_mechanic_3"
+msgstr "Modifikuoti amunicijos spaustuvai"
+
+msgid "tooltips/title/a183_mechanic_0"
+msgstr "Didelio padavimo kompresorius"
+
+msgid "tooltips/title/a183_mechanic_1"
+msgstr "6000 kv. colių kompresorius"
+
+msgid "tooltips/title/a183_mechanic_2"
+msgstr "6000 kv. colių pneumatinė sistema"
+
+msgid "tooltips/title/a183_mechanic_3"
+msgstr "Papildomas slėginis cilindras"
+
+msgid "tooltips/title/a195_mechanic_1"
+msgstr "Pagerintas balistinis nuoseklumas"
+
+msgid "tooltips/title/a195_mechanic_2"
+msgstr "Didesnė užkrova"
+
+msgid "tooltips/title/a195_mechanic_3"
+msgstr "Suspausta užkrova"
+
+msgid "tooltips/title/a195_mechanic_4"
+msgstr "Lengvas užkrovų skirtukas"
+
+msgid "tooltips/title/additionalShellAmmoCapacity"
+msgstr "Papildoma amunicijos talpa"
+
+msgid "tooltips/title/advancedChassisProtection"
+msgstr "Pagerinta važiuoklės apsauga"
+
+msgid "tooltips/title/advancedModuleAndCrewProtection"
+msgstr "Pagerinta modulių ir įgulos apsauga"
+
+msgid "tooltips/title/aimingCircleSize"
+msgstr "Taikymosi apskritimo dydis"
+
+msgid "tooltips/title/aimingTime"
+msgstr "Taikymosi laikas"
+
+msgid "tooltips/title/aimingTimeSalvo"
+msgstr "Taikymosi laikas"
+
+msgid "tooltips/title/allShellDamage"
+msgstr "Visų sviedinių žala"
+
+msgid "tooltips/title/allShellsVelocity"
+msgstr "Sviedinio greitis"
+
+msgid "tooltips/title/ammoRackHP"
+msgstr "Amunicijos skyriaus patvarumas"
+
+msgid "tooltips/title/ammoRackPenalty"
+msgstr "Amunicijos skyriaus nuobauda"
+
+msgid "tooltips/title/basicShellDamage"
+msgstr "Standartinio sviedinio žala"
+
+msgid "tooltips/title/ch67_mechanic_0"
+msgstr "Traukos vektorius"
+
+msgid "tooltips/title/ch67_mechanic_1"
+msgstr "Aukšto padavimo pompa"
+
+msgid "tooltips/title/ch67_mechanic_2"
+msgstr "Garinis aušinimas"
+
+msgid "tooltips/title/ch67_mechanic_3"
+msgstr "Kondensacija aušinami purkštuvai"
+
+msgid "tooltips/title/ch70_mechanic_0"
+msgstr "Energetiškesnis kuras"
+
+msgid "tooltips/title/ch70_mechanic_1"
+msgstr "Pusiau automatinis greitintuvo stiprintuvas"
+
+msgid "tooltips/title/ch70_mechanic_2"
+msgstr "Šerdies formos optimizacija"
+
+msgid "tooltips/title/ch70_mechanic_3"
+msgstr "Didesnė kuro talpykla"
+
+msgid "tooltips/title/chassisHP"
+msgstr "Pakabos patvarumas"
+
+msgid "tooltips/title/chassisRepairSpeed"
+msgstr "Pakabos remonto greitis"
+
+msgid "tooltips/title/crewProtection"
+msgstr "Įgulos apsauga"
+
+msgid "tooltips/title/damagedGunDispersion"
+msgstr "Situacinis pabūklo išbarstymas"
+
+msgid "tooltips/title/driveModeForwardSpeed"
+msgstr "Keliavimo režimo greitis pirmyn"
+
+msgid "tooltips/title/driveModeReverseSpeed"
+msgstr "Keliavimo režimo greitis atgal"
+
+msgid "tooltips/title/engineFireChance"
+msgstr "Variklio užsidegimo tikimybė"
+
+msgid "tooltips/title/engineHP"
+msgstr "Variklio patvarumas"
+
+msgid "tooltips/title/enginePenalty"
+msgstr "Variklio nuobauda"
+
+msgid "tooltips/title/enginePower"
+msgstr "Variklio galingumas"
+
+msgid "tooltips/title/f135_mechanic_0"
+msgstr "Hidraulinės talpos optimizavimas"
+
+msgid "tooltips/title/f135_mechanic_1"
+msgstr "Užtaisymo sekos optimizavimas"
+
+msgid "tooltips/title/f136_mechanic_0"
+msgstr "Pagerintas užtaisymo mechanizmas"
+
+msgid "tooltips/title/f143_mechanic_0"
+msgstr "Terminė pabūklo izoliacija"
+
+msgid "tooltips/title/f143_mechanic_1"
+msgstr "Didelio galingumo generatorius"
+
+msgid "tooltips/title/f143_mechanic_2"
+msgstr "Mažos varžos laidininkai"
+
+msgid "tooltips/title/f143_mechanic_3"
+msgstr "Modifikuotas ribotuvas"
+
+msgid "tooltips/title/forwardSpeed"
+msgstr "Greitis į priekį"
+
+msgid "tooltips/title/fuelTankHP"
+msgstr "Kuro bako patvarumas"
+
+msgid "tooltips/title/g185_mechanic_0"
+msgstr "Koriolio efekto jutiklis"
+
+msgid "tooltips/title/g185_mechanic_1"
+msgstr "Giroskopinis pakėlimo jutiklis"
+
+msgid "tooltips/title/g185_mechanic_2"
+msgstr "Pagerintas valdymo terminalas"
+
+msgid "tooltips/title/g185_mechanic_3"
+msgstr "Didelio tikslumo sukimosi jutiklis"
+
+msgid "tooltips/title/g187_mechanic_0"
+msgstr "Pagerinta pagalbinė sviedinių saugykla"
+
+msgid "tooltips/title/g187_mechanic_1"
+msgstr "Pagalbinio ginklo užtaisymas"
+
+msgid "tooltips/title/g188_mechanic_0"
+msgstr "Pagerintas sekimo mechanizmas"
+
+msgid "tooltips/title/g188_mechanic_1"
+msgstr "Aukšto efektyvumo aušintuvas"
+
+msgid "tooltips/title/g188_mechanic_2"
+msgstr "Didelių amperų generatorius"
+
+msgid "tooltips/title/g188_mechanic_3"
+msgstr "Didelio tikslumo rubino lazeris"
+
+msgid "tooltips/title/g189_mechanic_0"
+msgstr "Modifikuotas galio reguliatorius"
+
+msgid "tooltips/title/g189_mechanic_1"
+msgstr "Dvigubas terminis sensorius"
+
+msgid "tooltips/title/g189_mechanic_2"
+msgstr "Tikslus temperatūros valdiklis"
+
+msgid "tooltips/title/g189_mechanic_3"
+msgstr "Didelio galingumo generatorius"
+
+msgid "tooltips/title/gb147_mechanic_0"
+msgstr "Iš anksto paruošti sviediniai"
+
+msgid "tooltips/title/gb147_mechanic_1"
+msgstr "Pažangi sukimosi sistema"
+
+msgid "tooltips/title/gb147_mechanic_2"
+msgstr "Pakėlimo kontrolės sistema"
+
+msgid "tooltips/title/gb147_mechanic_3"
+msgstr "Neribojamas variklio galingumas"
+
+msgid "tooltips/title/gb152_mechanic_0"
+msgstr "Pavarų santykio pakoregavimas"
+
+msgid "tooltips/title/gb152_mechanic_1"
+msgstr "Turbinos geometrijos optimizavimas"
+
+msgid "tooltips/title/gb152_mechanic_2"
+msgstr "Padavimo cilindrų optimizacija"
+
+msgid "tooltips/title/gb152_mechanic_3"
+msgstr "Modifikuotas apsukų valdiklis"
+
+msgid "tooltips/title/gb158_mechanic_0"
+msgstr "Pakoreguotas slėgio reguliatorius"
+
+msgid "tooltips/title/gb158_mechanic_1"
+msgstr "Modernizuota išmetimo sistema"
+
+msgid "tooltips/title/gb158_mechanic_2"
+msgstr "Didesnio tūrio oro bakas"
+
+msgid "tooltips/title/gb158_mechanic_3"
+msgstr "Didelio efektyvumo oro kompresorius"
+
+msgid "tooltips/title/gunDepression"
+msgstr "Pabūklo sklaida"
+
+msgid "tooltips/title/gunDispersion"
+msgstr "Pabūklo sklaida"
+
+msgid "tooltips/title/gunDispersionSalvo"
+msgstr "Pabūklo sklaida"
+
+msgid "tooltips/title/gunElevation"
+msgstr "Pabūklo pakilimas"
+
+msgid "tooltips/title/gunStabilization"
+msgstr "Visiškas pabūklo stabilizavimas"
+
+msgid "tooltips/title/gunStabilizationFromHull"
+msgstr "Dalinis pabūklo stabilizavimas"
+
+msgid "tooltips/title/gunStabilizationFromHullMovement"
+msgstr "Judėjimo stabilizavimas"
+
+msgid "tooltips/title/gunStabilizationFromHullRotation"
+msgstr "Sukimosi stabilizavimas"
+
+msgid "tooltips/title/gunStabilizationFromHullSalvo"
+msgstr "Dalinis pabūklo stabilizavimas"
+
+msgid "tooltips/title/gunStabilizationFromTurret"
+msgstr "Dalinis pabūklo stabilizavimas"
+
+msgid "tooltips/title/gunStabilizationFromTurretSalvo"
+msgstr "Dalinis pabūklo stabilizavimas"
+
+msgid "tooltips/title/gunTraverse"
+msgstr "Pagerintas pabūklo sukimasis"
+
+msgid "tooltips/title/hitPoints"
+msgstr "Patvarumo taškai (PT)"
+
+msgid "tooltips/title/hullElevationSpeed"
+msgstr "Korpuso pakėlimo greitis"
+
+msgid "tooltips/title/hullTraverseSpeed"
+msgstr "Korpuso sukimosi greitis"
+
+msgid "tooltips/title/innerClipReloadTime"
+msgstr "Užsitaisymo greitis apkaboje"
+
+msgid "tooltips/title/invisibilityWhenShooting"
+msgstr "Maskuotė po šūvio"
+
+msgid "tooltips/title/j52_mechanic_0"
+msgstr "Žemos temperatūros aušinimo skystis"
+
+msgid "tooltips/title/j52_mechanic_1"
+msgstr "Aukšto šiluminio laidumo kasetė"
+
+msgid "tooltips/title/j52_mechanic_2"
+msgstr "Šiluminio vamzdžio optimizacija"
+
+msgid "tooltips/title/nonHEShellDamage"
+msgstr "Ne fugasinių sviedinių žala"
+
+msgid "tooltips/title/opt_dev_boosters_switch"
+msgstr "Įrangos ir įsakymų konfigūracija"
+
+msgid "tooltips/title/overheat_coolingDelay"
+msgstr "Chromo danga"
+
+msgid "tooltips/title/overheat_coolingPerSec"
+msgstr "Aukšto šiluminio laidumo pabūklas"
+
+msgid "tooltips/title/overheat_heatingPerShot"
+msgstr "Žemos degimo temperatūros sprogmuo"
+
+msgid "tooltips/title/overheat_overheatedCoolingPerSec"
+msgstr "Priverstinio aušinimo sistema"
+
+msgid "tooltips/title/pl37_mechanic_0"
+msgstr "Lengvas turbinos rotorius"
+
+msgid "tooltips/title/pl37_mechanic_1"
+msgstr "Galingas pagalbinis generatorius"
+
+msgid "tooltips/title/pl37_mechanic_2"
+msgstr "Pažangus galios valdiklis"
+
+msgid "tooltips/title/pl37_mechanic_3"
+msgstr "Hibridinė kondensatorių plokštė"
+
+msgid "tooltips/title/r228_mechanic_0"
+msgstr "Kampų grūdinimas"
+
+msgid "tooltips/title/r228_mechanic_1"
+msgstr "Plieno lydinio vikšrai"
+
+msgid "tooltips/title/r228_mechanic_2"
+msgstr "Gilus karburizavimas"
+
+msgid "tooltips/title/r228_mechanic_3"
+msgstr "Paviršinis karburizavimas"
+
+msgid "tooltips/title/r230_mechanic_0"
+msgstr "Tikslus terminis jutiklis"
+
+msgid "tooltips/title/r230_mechanic_1"
+msgstr "Mažos inercijos šildytuvai"
+
+msgid "tooltips/title/r230_mechanic_2"
+msgstr "Mechanizuotas pakeitimas"
+
+msgid "tooltips/title/r230_mechanic_3"
+msgstr "Temperatūros kontrolės perkrova"
+
+msgid "tooltips/title/reducedRammingDamage"
+msgstr "Sumažinta tarano žala"
+
+msgid "tooltips/title/reloadTime"
+msgstr "Užtaisymo laikas"
+
+msgid "tooltips/title/reloadTimeTwinGun"
+msgstr "Užtaisymo laikas"
+
+msgid "tooltips/title/reverseSpeed"
+msgstr "Greitis atbuliniu"
+
+msgid "tooltips/title/roleSlot"
+msgstr "Antros vietos kategorija"
+
+msgid "tooltips/title/s36_mechanic_0"
+msgstr "Stūmoklinė hidraulinė pompa"
+
+msgid "tooltips/title/s36_mechanic_1"
+msgstr "Kelių cilindrų sinchronizatorius"
+
+msgid "tooltips/title/s36_mechanic_2"
+msgstr "Tikslumui skirtas motoras"
+
+msgid "tooltips/title/s36_mechanic_3"
+msgstr "Hidraulinis grūstuvas"
+
+msgid "tooltips/title/selectiveModuleHPBoost"
+msgstr "Pasirenkamo modulio patvarumas"
+
+msgid "tooltips/title/selectiveModuleProtection"
+msgstr "Pasirinkto modulio apsauga"
+
+msgid "tooltips/title/shellModuleDamage"
+msgstr "Sviedinio modulio žala"
+
+msgid "tooltips/title/shells_consumables_switch"
+msgstr "Amunicijos ir ekipuotės konfigūracija"
+
+msgid "tooltips/title/specialShellDamage"
+msgstr "Specialaus sviedinio žala"
+
+msgid "tooltips/title/specialShellPenetration"
+msgstr "Specialių sviedinių pramušimas"
+
+msgid "tooltips/title/specialShellVelocity"
+msgstr "Specialių sviedinių greitis"
+
+msgid "tooltips/title/spottingBonusFoliage"
+msgstr "Aptikimo bonusas: Augalija"
+
+msgid "tooltips/title/spottingBonusMovement"
+msgstr "Aptikimo bonusas: Judėjimas"
+
+msgid "tooltips/title/standardShellDamage"
+msgstr "Standartinio sviedinio žala"
+
+msgid "tooltips/title/standardShellPenetration"
+msgstr "Standartinių sviedinių pramušimas"
+
+msgid "tooltips/title/standardShellVelocity"
+msgstr "Standartinių sviedinių greitis"
+
+msgid "tooltips/title/stunDuration"
+msgstr "Apkurtinimo trukmė"
+
+msgid "tooltips/title/turretTraverse"
+msgstr "Pagreitintas bokštelio sukimasis"
+
+msgid "tooltips/title/turretTraverseSpeed"
+msgstr "Bokštelio sukimosi greitis"
+
+msgid "tooltips/title/turretTraverseStability"
+msgstr "Bokštelio sukimosi stabilizavimas"
+
+msgid "tooltips/title/vehicleSpeed"
+msgstr "Mašinos greitis"
+
+msgid "tooltips/title/viewRange"
+msgstr "Padidintas matymo laukas"
+
+msgid "tooltips/vanityEntryPoint/statusInfo"
+msgstr "Atrakinkite išradę paskutinį langelį"
+
+msgid "tooltips/vanityEntryPoint/text"
+msgstr "Gaukite ypatingų apdovanojimų, skirtų XI lygio tankams, tarp kurių yra erdvinis stilius, statistikos sekiklis ir pabūklo mova."
+
+msgid "tooltips/vanityEntryPoint/title"
+msgstr "Elitiniai apdovanojimai"
+
+msgid "vanity/available/subtitle"
+msgstr "Gaukite daiktų už jūsų mašinos elitinį lygį"
+
+msgid "vanity/available/tooltip"
+msgstr "Dabartinis elitinis lygis"
+
+msgid "vanity/completed/subtitle"
+msgstr "Sveikiname! Gauti visi apdovanojimai."
+
+msgid "vanity/completed/tooltip"
+msgstr "Dabartinis elitinis lygis"
+
+msgid "vanity/disabled/subtitle"
+msgstr "Galima uždirbti išradus paskutinį langelį"
+
+msgid "vanity/disabled/tooltip"
+msgstr "Mašina neturi elitinio statuso"
+
+msgid "vanity/reward/level/tooltip"
+msgstr "Apdovanojimas reikalauja Elitinio lygio"
+
+msgid "vanity/rewardType/description/attachment"
+msgstr "Ypatinga pabūklo mova, kuri leis jūsų mašinai išsiskirti iš kitų."
+
+msgid "vanity/rewardType/description/stattracker"
+msgstr "Unikalus naujas pritaikomasis elementas, kuris parodo, kiek mašinų sunaikinote."
+
+msgid "vanity/rewardType/description/style"
+msgstr "Specialus 2D stilius su unikaliu efektu, kuris suteikia 3D stiliau efektą, skirtas tik XI lygio mašinoms."
+
+msgid "vanity/rewardType/title/attachment"
+msgstr "3D elementas pabūklo mova"
+
+msgid "vanity/rewardType/title/stattracker"
+msgstr "Statistikos sekiklis"
+
+msgid "vanity/rewardType/title/style"
+msgstr "Erdvinis stilius"
+
+msgid "vanity/title"
+msgstr "ELITINIAI APDOVANOJIMAI"

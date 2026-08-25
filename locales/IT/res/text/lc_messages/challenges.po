@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Ricevuto anche:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Questa serie di missioni può essere giocata nuovamente."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Affermativo!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Chiudi"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Vedi in Officina"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Gioca nuovamente"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Alla Forgia"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "Account Premium WoT"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Veicolo Premium"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Veicolo a noleggio"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "e stile \"{{styleName}}\""
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) giorno"
+msgstr[1] "%(day) giorni"
+msgstr[2] "%(day) giorni"
+
+msgid "awards_view/title"
+msgstr "FORGIA COMPLETATA!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Missione Exp ×5 per battaglia"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Frammento di cianografia (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Frammento di cianografia universale"
+
+msgid "bonuses/bpcoin"
+msgstr "Gettone Pass di battaglia"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Missione Exp dell'equipaggio ×3"
+
+msgid "bonuses/description/attachments_set"
+msgstr "Set di accessori 3D"
+
+msgid "bonuses/description/booster"
+msgstr "Riserva personale"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Equipaggiamento premio"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Aspetto dell'equipaggio"
+
+msgid "bonuses/description/directive"
+msgstr "Direttiva"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Equipaggiamento sperimentale"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Equipaggiamento migliorato"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "e stile \"%(styleName)s\""
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Equipaggiamento standard"
+
+msgid "bonuses/description/style"
+msgstr "Stile 2D"
+
+msgid "bonuses/description/style_3d"
+msgstr "Stile 3D"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Membro dell'equipaggio donna"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Recluta"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Membro dell'equipaggio"
+
+msgid "condition/achievement"
+msgstr "Ottieni l'onorificenza %(achievement)s"
+
+msgid "condition/achievement/title"
+msgstr "Eroi di battaglia"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Causa un totale di %(goal)s HP di danno diretto e su assistenza"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Causa, ricevi e blocca un totale di %(goal)s HP di danno"
+
+msgid "condition/aggregated/title"
+msgstr "Condizione complessa"
+
+msgid "condition/classes/AT-SPG"
+msgstr "Cacciacarri"
+
+msgid "condition/classes/SPG"
+msgstr "A-SMV"
+
+msgid "condition/classes/heavyTank"
+msgstr "Carri pesanti"
+
+msgid "condition/classes/lightTank"
+msgstr "Carri leggeri"
+
+msgid "condition/classes/mediumTank"
+msgstr "Carri medii"
+
+msgid "condition/critsCount"
+msgstr "Causa %(goal)s colpi critici a moduli interni o esterni di veicoli nemici"
+
+msgid "condition/critsCount/title"
+msgstr "Immobilizza"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Blocca %(goal)s HP di danno"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Blocca una quantità di danni superiore a %(goal)s volte gli HP del tuo veicolo"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Blocco"
+
+msgid "condition/damageDealt"
+msgstr "Causa %(goal)s HP di danno a veicoli nemici"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Causa una quantità di danni superiore a %(goal)s volte gli HP del tuo veicolo"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Colpisci veicoli nemici da una distanza pari o inferiore a %(distance)s m %(goal)s volte"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Colpisci veicoli nemici da una distanza pari o superiore a %(distance)s m %(goal)s volte"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Causa danni a veicoli nemici speronandoli %(goal)s volte"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Colpisci veicoli nemici entro il raggio visivo del tuo veicolo %(goal)s volte"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Causa %(goal)s HP di danno entro i primi %(timeLimit)s minuti di battaglia"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Causa %(goal)s HP di danno a veicoli nemici da una distanza pari o inferiore a %(distance)s m"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Causa %(goal)s HP di danno a veicoli nemici da una distanza pari o superiore a %(distance)s m"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Causa %(goal)s HP di danno tramite speronamento"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Speronamento"
+
+msgid "condition/damageDealt/title"
+msgstr "Danno"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Causa %(goal)s HP di danno a veicoli nemici non avvistati"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Causa %(goal)s HP di danno a veicoli nemici all'interno del raggio visivo del tuo veicolo"
+
+msgid "condition/kills"
+msgstr "Distruggi %(goal)s veicoli nemici"
+
+msgid "condition/kills/classes"
+msgstr "Distruggi %(goal)s %(vehicleClass)s nemici"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Distruggi %(goal)s veicoli nemici di %(classCount)s tipi differenti"
+
+msgid "condition/kills/title"
+msgstr "Distruzione"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Distruggi %(goal)s veicoli nemici senza ricevere alcun danno"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Distruggi %(goal)s veicoli nemici senza farti avvistare"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Causa il %(goal)s%% del danno totale causato dalla tua squadra"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Danno"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Perfora la corazza nemica %(goal)s volte"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Perforazione"
+
+msgid "condition/spotted"
+msgstr "Avvista %(goal)s veicoli nemici"
+
+msgid "condition/spotted/title"
+msgstr "Avvistamento"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Avvista %(goal)s veicoli senza farti avvistare"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Avvistamento"
+
+msgid "condition/top/damageDealt"
+msgstr "Posizionati tra i primi %(rank)s giocatori della tua squadra in ordine di danno causato"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Posizionati tra i primi %(rank)s giocatori di entrambe le squadre in ordine di danno causato"
+
+msgid "condition/top/title"
+msgstr "Miglior giocatore"
+
+msgid "condition/top/xp"
+msgstr "Posizionati tra i primi %(rank)s giocatori della tua squadra in ordine di esperienza ottenuta"
+
+msgid "condition/unknown"
+msgstr "Ricerca della missione più adatta..."
+
+msgid "condition/unknown/title"
+msgstr "In attesa"
+
+msgid "postbattle/name"
+msgstr "FORGIA: "

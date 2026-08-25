@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "{{level}}. trinn"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Spesialkapittel"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Fullført"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Se den nye fremgangen"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Velg kapittel"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Midlertidig utilgjengelig"
+
+msgid "battle_pass_widget/title"
+msgstr "Battle Pass"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Crucible: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} d"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} d {{hours}} t"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} t"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} t {{minutes}} m"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} m"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Bonusoppdrag\nFullfør 3 standardoppdrag for å åpne"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Gjenværende tid til å fullføre bonusoppdrag"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Nye daglige oppdrag om"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "Det er alt for nå. Nye daglige oppdrag blir snart tilgjengelige."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Fullfør det forrige oppdraget for å åpne dette"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Premiumoppdrag er midlertidig utilgjengelig"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Kjøp premium"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Krev WoT premiumkonto"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Premiumoppdrag"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Daglige oppdrag er midlertidig utilgjengelig"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Endre"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "DAGLIG"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Til kampanjer"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Forbedre resultat"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "Til operasjon"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "En ekte utfordring for erfarne spillere med et unikt kjøretøy i belønning."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Du har fullført operasjonen {{currentOperationName}}! Du kan fortsette med å forbedre resultatet ditt for å fullføre med bravur—eller ta for deg en ny utfordring i operasjon {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Du kan fremdeles forbedre resultatene dine i {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Du har fullført operasjonen {{currentOperationName}} med bravur! Operasjon {{nextOperationName}} er nå tilgjengelig."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Kampanjepoeng kan tjenes ved å fullføre personlige oppdrag, daglige oppdrag og ukesoppdrag."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Fullfør alle {{totalProgress}} oppdragene for å fullføre operasjonen med bravur og tjene ekstra belønninger."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Monter alle delene for å få belønningen din—{{vehicleName}}. For å samle deler til kjøretøyet må du tjene kampanjepoeng ved å fullføre personlige oppdrag i tillegg til daglige- og ukesoppdrag."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Monter alle delene for å få belønningen din—{{vehicleName}}. For å samle deler til kjøretøyet må du tjene kampanjepoeng ved å fullføre personlige oppdrag i tillegg til daglige- og ukesoppdrag."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Fullførte oppdrag: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "Den nye kampanjen Sector 3 er tilgjengelig!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Operasjon: {{nextOperationName}} er tilgjengelig!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Operasjon: {{currentOperationName}} fullført med bravur!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Operasjon: {{nextOperationName}} er tilgjengelig!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Operasjon: {{currentOperationName}} | {{stageNumber}}. trinn"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Fullførelse av operasjon {{currentOperationName}} med bravur"
+
+msgid "hub/basic_missions/title"
+msgstr "VANLIG OPPDRAG"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "UKENTLIG"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Oppdateres hver {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Aktivert oppdrag"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "ELLER"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Nye oppdrag kommer snart..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "KJEMPER"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "ESS"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ELITE"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Det finnes tre kategorier av oppdrag: Kjemper, Elite og Ess. Hver kategori byr på unike utfordringer og verdifulle belønninger."
+
+msgid "hub/challenge_missions/header"
+msgstr "Crucible"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Aktivér"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Restart gratis"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Start på nytt"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Droppe"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Til oppdrag"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) Crucible oppdrag fullført"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "gjenværende skjold"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "gratis restarter"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Fullfør de aktive Crucible oppdragene"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Avsluttes om %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Ikke tilgjengelig: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Kjøretøy på nivå 6 eller høyere påkrevet"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "AKTIV"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Fullført"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} oppdrag"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Utfordringsoppdrag"
+
+msgid "hub/challenge_missions/new"
+msgstr "NYTT"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Til Crucible"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Til Crucible"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "CRUCIBLE: {{ challengeName }} FULLFØRT!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Til Crucible"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Crucible: {{ challenge }} ikke fullført. Restart den og prøv å ta belønningene igjen!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Til Crucible"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "OPPDRAG {{ mission }} FULLFØRT!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Til Crucible"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Oppdrag {{ mission }} feilet"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "gjenværende skjold"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Til Crucible"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Gå løs på Crucible og utfør sett med krevende oppdrag med verdifulle belønninger for de som klarer dem."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "NYE CRUCIBLE OPPDRAG TILGJENGELIG!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Smi din vei til ære i Crucible: Fullfør sett med krevende oppdrag der verdifulle belønninger venter på de som klarer dem."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "GÅ TIL CRUCIBLE"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Fullført"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "Sett med 3D vedheng"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Forbedret utstyr"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "2D stil"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Besetningsmedlem"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "kjøretøy"
+
+msgid "hub/challenge_missions/title"
+msgstr "CRUCIBLE OPPDRAG"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "Om Crucible"
+
+msgid "hub/common_missions/title"
+msgstr "EKSTRAOPPDRAG"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Hent belønninger"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "Episk belønning er midlertidig utilgjengelig"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Hvert fullførte standard-, premium- eller bonusoppdrag teller med i fremgangen din."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Tilgjengelig"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Fullfør daglige oppdrag for å tjene episke belønninger"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Hent belønning"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Hent belønninger"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Hvert fullførte standard-, premium- eller bonusoppdrag teller med i fremgangen din."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Tilgjengelig"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Fullfør daglige oppdrag for å tjene episke belønninger: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Etter å ha fullført 3 standardoppdrag blir et bonusoppdrag tilgjengelig som byr på enda mer verdifulle belønninger. Bonusoppdraget må fullføres før dagen er omme. Etter det utløper bonusoppdraget."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Bonusoppdrag"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Noen oppdrag må fullføres i løpet av én kamp, mens andre er kumulative og kan fullføres i løpet av så mange kamper som trengs. Kumulative oppdrag har en fremgangsviser. Du kan fullføre oppdrag i tilfeldige kamper."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Tilstand"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Du kan endre et uønsket standardoppdrag for å få et tilfeldig nytt oppdrag. Etter det blir knappen for endring ikke lenger tilgjengelig i {{time}}. Å endre et oppdrag kan gjøre at du mister fremgangen din dersom ett eller flere av kjøretøyene dine er i kamp."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Endring av oppdrag"
+
+msgid "info_page/additional/reward/description"
+msgstr "Episk belønning er en maratonliknende syklus, der hvert eneste fullførte standard-, premium og bonusoppdrag teller med i fremgangen. Så snart syklusen er fullført, nullstilles den og begynner på nytt. Syklusen for episk belønning har ingen tidsbegrensing og kan fullføres når som helst."
+
+msgid "info_page/additional/reward/title"
+msgstr "Episk belønning"
+
+msgid "info_page/header"
+msgstr "OM OPPDRAG"
+
+msgid "info_page/main/premium/description"
+msgstr "Med WoT premiumkonto får du tilgang til tre påfølgende premiumoppdrag. Disse kan fullføres i tilfeldige kamper og Onslaught, med fremgang oppdatert etter hver kamp. I løpet av spilleventer gir premiumoppdrag eventspesifikke belønninger."
+
+msgid "info_page/main/premium/title"
+msgstr "Premiumoppdrag"
+
+msgid "info_page/main/standard/description"
+msgstr "Standardoppdrag er tilfeldige daglige vilkår der fremgangen oppdateres etter hver kamp. Vi anbefaler at du fullfører dem samme dag du får dem, siden ikke fullførte oppdrag videreføres til neste dag og blokkerer for nye. Standardoppdrag gir poeng til Battle Pass i løpet av Battle Pass og event-spesifikke belønninger i løpet av andre spilleventer."
+
+msgid "info_page/main/standard/title"
+msgstr "Standardoppdrag"
+
+msgid "info_page/main/weekly/description"
+msgstr "Ukeoppdrag er et sett med oppgaver som blir tilgjengelig hver uke. Fremgang oppdateres etter hver kamp og fullførte oppdrag erstattes med nye når den neste ukentlige syklusen begynner. Du kan fullføre ukesoppdrag i tilfeldige kamper og i Onslaught modusen for å få ytterligere bonuser."
+
+msgid "info_page/main/weekly/title"
+msgstr "Ukeoppdrag"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Alle vanlige oppdrag fullført for i dag"
+
+msgid "quests/daily_quests/completed"
+msgstr "Alle daglige oppdrag fullført"
+
+msgid "tooltip/common/timer"
+msgstr "Tilgjengelig om {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Alle vanlige oppdrag fullført! Du finner mer i fanen for ekstraoppdrag."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Bonusoppdrag"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Fullført"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Daglig oppdrag"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Utløper om {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Nye daglige oppdrag om {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Premiumoppdrag"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Belønninger:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Du kan endre et uønsket oppdrag \nfor å få et nytt hver {time}. time."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Endring av oppdrag"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Oppdrag fullført, belønning mottatt."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Fullfør det foregående oppdraget for å åpne dette. Alle oppdrag i en serie må fullføres i tur og orden."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Klikk for ytterligere informasjon"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "Om oppdrag"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Denne serien med oppdrag kan spilles på nytt etter fullførelse. Fremgangen din nullstilles, skjoldene gjenopprettes og du kan tjene belønningene på nytt."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Spill oppdragene på nytt"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Du kan starte en serie med oppdrag på nytt etter at du har mistet alle skjoldene dine. Oppdragsfremdriften blir nullstilt, skjoldene dine gjenopprettet og du vil kunne tjene belønningene på nytt."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Påfølgende restarter koster: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Gratis restart tilgjengelig: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Hver restart koster: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Restarter"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Skjold beskytter fremgangen din. Hvert mislykkede oppdrag koster ett skjold. Når alle skjoldene er tapt er hele oppdragsserien mislykket. Hvis du starter på nytt blir skjoldene dine gjenopprettet."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Skjold"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Restriksjoner på kjøretøy:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Ukeoppdrag"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Du kan gjenoppta dette ukentlige oppdraget hver {{time}}."
+
+msgid "welcome/button"
+msgstr "Bekreftet!"

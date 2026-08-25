@@ -1,0 +1,4475 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "Käyttäjätilisi palautettiin onnistuneesti"
+
+msgid "achievements/server_error"
+msgstr "Muutoksia arvokkaiden palkintojen palkintonauhaan ei ole tallennettu."
+
+msgid "actionAchievement/title"
+msgstr "Mitali spesiaaleille"
+
+msgid "actionAchievements/title"
+msgstr "Mitalit spesiaaleille"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "Virhe koulutettaessa pätevyyttä. Väärä vaunu."
+
+msgid "add_tankman_skill/server_error"
+msgstr "Uuden pätevyyden kouluttaminen ei onnistu.\nPalvelin ei ole saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "add_tankman_skill/success"
+msgstr "Uusi pätevyys koulutettu: %(skill)s"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "Virhe tutkittaessa pätevyyttä. Vaunu on lukittu."
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "Virhe tutkittaessa pätevyyttä. Korjaa vaunusi."
+
+msgid "add_tankman_skills/server_error"
+msgstr "Uusien pätevyyksien kouluttaminen ei onnistu.\nPalvelin ei ole saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "add_tankman_skills/success"
+msgstr "Uusia pätevyyksiä koulutettu: %(skill)s"
+
+msgid "another_periphery"
+msgstr "Olet edelleen kirjautuneena toiselle palvelimelle."
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "Virhe taisteluun liityttäessä: olet jo liittynyt joukkueeseen."
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "Virhe liityttäessä taisteluun: väärä joukkueen numero."
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "Liittymisvirhe. Toiminto on väliaikaisesti estetty. Yritä myöhemmin uudelleen."
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "Tämä tapahtuma ei ole tällä hetkellä saatavilla. Seuraa viimeisimpiä uutisia peliportaalissa."
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "Virhe taisteluun liityttäessä: kutsu on rauennut."
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "Liittymisvirhe: ei tarpeeksi oikeuksia."
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "Taisteluun liittyminen ei onnistu. Jono ei ole tällä hetkellä saatavilla. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "Toiminto ei saatavilla. Jono on tällä hetkellä täynnä. Ole hyvä ja yritä myöhemmin uudestaan."
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "Virhe taisteluun liityttäessä: joukkue on jo muodostettu."
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "Virhe taisteluun liityttäessä: yhteys on aikakatkaistu."
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "Liittymisvirhe: ei saatavilla tälle tilityypille."
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "Virhe taisteluun liityttäessä."
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "Liittymisvirhe: WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "Liittymisvirhe: valittu historiallinen taistelu ei ole saatavilla."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "Yhteysvirhe. Ole hyvä ja valitse %s palvelin."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "Yhteysvirhe. Ole hyvä ja valitse toinen palvelin."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "Virhe liityttäessä taisteluun: nykyinen vaunu ei ole valmis."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "Virhe: tämän tason vaunut eivät voi osallistua tähän pelimuotoon."
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "Ei voida liittyä taisteluun: vaunu ei ole valmis."
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "Ole hyvä ja osta vaunu liittyäksesi taisteluun."
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "Virhe liityttäessä taisteluun (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "Virhe liityttäessä taisteluun (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "Virhe liityttäessä taisteluun (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "Virhe liityttäessä taisteluun (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "Virhe liityttäessä taisteluun (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "Virhe liityttäessä taisteluun (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "Virhe liityttäessä taisteluun (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "Virhe liityttäessä taisteluun (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "Virhe liityttäessä taisteluun (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "Virhe liityttäessä taisteluun (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "Virhe liityttäessä taisteluun (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "Maksimi jonotusaika taisteluun on täyttynyt. Valitse toinen vaunu tai yritä myöhemmin uudelleen."
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "Tyypin %(kind)s \"%(name)s\" ei sovi tähän vaunuun."
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "Väärä vaunu. %(kind)s \"%(name)s\" ei asennettu."
+
+msgid "artefact_apply/money_success"
+msgstr "%(kind)s \"%(name)s\" irrotettiin vaunustasi. Kulutit %(money)s."
+
+msgid "artefact_apply/server_error"
+msgstr "Palvelinvirhe asennettaessa %(kind)s \"%(name)s\". Yritä myöhemmin uudelleen."
+
+msgid "artefact_apply/success"
+msgstr "%(kind)s \"%(name)s\" asennettiin vaunuun."
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "Vaunu on lukittu. %(kind)s \"%(name)s\" ei asennettu."
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "Vaunu on vaurioitunut. %(kind)s \"%(name)s\" ei asennettu. Korjaa vaunu ja yritä uudelleen."
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "Tyypin %(kind)s \"%(name)s\" ei sovi tähän vaunuun."
+
+msgid "artefact_buy/invalid_module"
+msgstr "Ei voida ostaa tyypin %(kind)s \"%(name)s\". Väärä moduuli."
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "Väärä vaunu. Ei voida ostaa ja asentaa %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "Ei voida ostaa \"%(name)s\" tyyppiä %(kind)s. Liian vähän krediittejä."
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "Ei voida ostaa \"%(name)s\" tyyppiä %(kind)s. Ei riittävästi arvopapereita."
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "Ei voida ostaa \"%(name)s\" tyyppiä: %(kind)s. Ei riittävästi Vuosipäiväkolikoita."
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "Ei voida ostaa \"%(name)s\" tyyppiä %(kind)s. Liian vähän kultaa."
+
+msgid "artefact_buy/server_error"
+msgstr "Ei voida ostaa \"%(name)s\" tyyppiä %(kind)s. Yritä myöhemmin uudelleen."
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "Ei voida ostaa \"%(name)s\" tyyppiä %(kind)s. Palvelin ei ole tilapäisesti saatavilla."
+
+msgid "artefact_buy/success"
+msgstr "\"%(name)s\" tyyppiä %(kind)s ostettiin onnistuneesti (%(count)s kappale(tta)). Käytettiin %(money)s."
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "Vaunu lukittu. \"%(name)s\" tyyppiä %(kind)s ei voitu ostaa ja asentaa."
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "Ei voida ostaa \"%(name)s\" tyyppiä %(kind)s ja asentaa sitä. Korjaa vaunu ja yritä uudestaan."
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "Ei voida purkaa %(name)s -varustetta. Väärä moduuli."
+
+msgid "artefact_deconstructing/server_error"
+msgstr "Ei voida purkaa %(name)s -varustetta. Yritä myöhemmin uudelleen."
+
+msgid "artefact_deconstructing/success"
+msgstr "Varuste purettu: %(name)s (x%(count)s). Sait %(money)s."
+
+msgid "artefact_deconstructingMult/success"
+msgstr "Varuste purettu: %(names)s. Sait %(money)s."
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "\"%(equipment)s\" varustetta ei irrotettu. Ei varaa siihen."
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "Väärä vaunu. %(kind)s \"%(name)s\" ei tuhottu."
+
+msgid "artefact_destroy/server_error"
+msgstr "Palvelinvirhe tuhottaessa %(kind)s \"%(name)s\". Yritä myöhemmin uudelleen."
+
+msgid "artefact_destroy/success"
+msgstr "%(kind)s \"%(name)s\" tuhottiin irrotettaessa."
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "Vaunu on lukittu. %(kind)s \"%(name)s\" ei tuhottu."
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "Vaunu on vaurioitunut. %(kind)s \"%(name)s\" ei tuhottu. Korjaa vaunu ja yritä uudelleen."
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "\"%(name)s\" %(kind)s irrotettiin vaunusta. Käytit irrotuspakkauksen."
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "Kulutustarvike \"%s\" lähetetty varikolle, koska se ei ole yhteensopiva nykyisen moduulin kanssa."
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "Väärä vaunu. %(kind)s \"%(name)s\" ei irrotettu."
+
+msgid "artefact_remove/money_success"
+msgstr "%(kind)s \"%(name)s\" irrotettiin vaunustasi. Kulutit %(money)s."
+
+msgid "artefact_remove/server_error"
+msgstr "Palvelinvirhe irrotettaessa %(kind)s \"%(name)s\". Yritä myöhemmin uudelleen."
+
+msgid "artefact_remove/success"
+msgstr "\"%(name)s\" %(kind)s irrotettiin vaunusta."
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "Vaunu on lukittu. %(kind)s \"%(name)s\" ei irrotettu."
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "Vaunu on vaurioitunut. %(kind)s \"%(name)s\" ei irrotettu. Korjaa vaunu ja yritä uudelleen."
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "%(kind)s\"%(name)s\" irrotettiin vaunusta ilmaiseksi aktiivisen WoT Plus -tilauksesi ansiosta."
+
+msgid "artefact_sell/invalid_module"
+msgstr "Ei voida myydä: %(kind)s \"%(name)s\". Väärä moduuli."
+
+msgid "artefact_sell/server_error"
+msgstr "Ei voida myydä: %(kind)s \"%(name)s\". Yritä myöhemmin uudelleen."
+
+msgid "artefact_sell/success"
+msgstr "\"%(name)s\" %(kind)s myyty onnistuneesti (%(count)s kappale(tta)). Saatu %(money)s."
+
+msgid "artefact_upgrade/server_error"
+msgstr "Virhe päivittäessä varustetta. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "artefact_upgrade/success"
+msgstr "\"%(name)s\" tyyppiä %(kind)s päivitetty onnistuneesti. Ominaisuudet parantuneet. Kulutettiin: %(money)s."
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "\"%(name)s\" %(kind)s päivitettiin onnistuneesti ja ominaisuudet parantuivat. Kulutettiin %(money)s.\n\nSamanlainen varuste vaihtoehtoisesta kokoonpanosta lähetettiin varastoon."
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "Vaunu on vaurioitunut. \"%(name)s\" tyyppiä %(kind)s ei päivitetty. Korjaa vaunu ja yritä uudelleen."
+
+msgid "badges/select/server_error"
+msgstr "Palvelinvirhe"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "Toiminto ei saatavilla. Ole hyvä ja odota, kunnes nykyinen toiminto on valmis."
+
+msgid "battle/request/SEND_INVITES"
+msgstr "Lähetä kutsut"
+
+msgid "battleAbilities_apply/error"
+msgstr "Taistelureservien konfigurointivirhe. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "battleBooster_buy/credits_error"
+msgstr "Epäonnistuttiin ostamaan \"%(name)s\" %(kind)s. Ei riittävästi krediittejä."
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "Epäonnistuttiin ostamaan \"%(name)s\" %(kind)s. Ei riittävästi arvopapereita."
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "Tyypin %(kind)s \"%(name)s\" ei sovi tähän vaunuun."
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "Ei voida ostaa \"%(name)s\" tyyppiä: %(kind)s. Ei riittävästi Vuosipäiväkolikoita."
+
+msgid "battleBooster_buy/gold_error"
+msgstr "Epäonnistuttiin ostamaan \"%(name)s\" %(kind)s. Ei riittävästi kultaa."
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "Epäonnistuttiin ostamaan \"%(name)s\" tyyppiä %(kind)s. Väärä moduuli."
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "Epäonnistuttiin ostamaan ja asentamaan \"%(name)s\" tyyppiä %(kind)s. Väärä vaunu."
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "Epäonnistuttiin ostamaan \"%(name)s\" tyyppiä %(kind)s. Ei riittävästi krediittejä."
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "Epäonnistuttiin ostamaan \"%(name)s\" tyyppiä %(kind)s. Ei riittävästi arvopapereita."
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "Ei voida ostaa \"%(name)s\" tyyppiä: %(kind)s. Ei riittävästi Vuosipäiväkolikoita."
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "Epäonnistuttiin ostamaan \"%(name)s\" tyyppiä %(kind)s. Ei riittävästi kultaa."
+
+msgid "battleBooster_buy/server_error"
+msgstr "Direktiivien toiminnot ovat väliaikaisesti pois käytöstä huoltotoimien tähden."
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "Epäonnistuttiin ostamaan \"%(name)s\" tyyppiä %(kind)s. Palvelin ei ole juuri nyt saatavilla."
+
+msgid "battleBooster_buy/success"
+msgstr "\"%(name)s\" tyyppiä %(kind)s ostettiin onnistuneesti (%(count)s kpl). Käytit %(money)s."
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "Vaunu on lukittu. Epäonnistuttiin ostamaan ja asentamaan \"%(name)s\" tyyppiä %(kind)s."
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "Epäonnistuttiin ostamaan ja asentamaan \"%(name)s\" tyyppiä %(kind)s. Korjaa vaunu ja yritä uudelleen."
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "battleBooster_sell/server_error"
+msgstr "Direktiivien toiminnot ovat väliaikaisesti pois käytöstä huoltotoimien tähden."
+
+msgid "battleBooster_sell/success"
+msgstr "\"%(name)s\" %(kind)s myyty (%(count)s tavara(a)). Saatu: %(money)s."
+
+msgid "battleBoosters_apply/error"
+msgstr "Direktiivien toimintovirhe. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "Direktiivien toimintovirhe: Ei riittävästi varoja ostoon."
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kultasi on käytettävissä, kun WG Walletin toiminta on palautettu."
+
+msgid "battlePass/activateChapter/success"
+msgstr "\"%(chapter)s\" luku aktivoitu"
+
+msgid "battlePass/extraFinish/body"
+msgstr "\"%(name)s\" -tapahtuma on päättynyt. Kiitos osallistumisestasi!"
+
+msgid "battlePass/extraFinish/header"
+msgstr "Taistelupassi: Luku \"%(name)s\""
+
+msgid "battlePass/extraStarted/body"
+msgstr "Komentaja! Taistelupassissa on alkanut \"%(name)s\" -tapahtuma, jonka aikana voit saada erikoispalkinnon!"
+
+msgid "battlePass/extraStarted/header"
+msgstr "Taistelupassi: Uusi Luku on saatavilla!"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "Komentaja! Luvun \"%(name)s\" päättymiseen on vain tovi aikaa. Pidä kiirettä!"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "Taistelupassi: Luku \"%(name)s\""
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "Komentajat! Älkää unohtako, että voitte ansaita Taistelupassin pisteitä luokitetuissa taisteluissa!"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "Komentajat! Älkää unohtako, että voitte ansaita Taistelupassin pisteitä etulinjalla!"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "Komentajat! Älkää unohtako, että voitte ansaita Taistelupassin pisteitä tiedustelutehtävässä!"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "Komentajat! Älkää unohtako, että voitte ansaita Taistelupassin pisteitä Rynnistyksessä!"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "Taistelupassin kausi %(seasonNum)d"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "Virhe palkintoja valitessa. Ole hyvä ja yritä uudelleen."
+
+msgid "battlePass/seasonEnd/text"
+msgstr "Taistelupassin kausi on päättynyt. Kaikki palkinnot, joita et valinnut kauden aikana on myönnetty sinulle oletusvalintojen mukaan:"
+
+msgid "battlePass/switchChapter/error"
+msgstr "Virhe Lukua valitessa. Ole hyvä ja yritä uudelleen."
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "Valitse Luku. Voit vaihtaa toisiin Lukuihin milloin hyvänsä."
+
+msgid "battlePass/switchChapter/success"
+msgstr "Vaihdoit toiseen lukuun. \"%(chapter)s\" luku on nyt aktiivinen."
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "Taistelupassi ei hetkellisesti ole saatavilla Teräksen metsästyksessä ylläpitotoimen tähden. Pahoittelemme aiheutunutta häiriötä."
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "Taistelupassin pisteitä ei voi ansaita tällä hetkellä \"Rynnistys\" -pelimuodossa ylläpitotoimien tähden."
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "Taistelupassin pisteitä ei voi ansaita tällä hetkellä \"Kevyt-Rynnistys\" -pelimuodossa ylläpitotoimien tähden."
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "Taistelupassi ei hetkellisesti ole saatavilla Etulinjalla ylläpitotoimen tähden."
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "Taistelupassi ei hetkellisesti ole saatavilla luokitetuissa taisteluissa ylläpitotoimen tähden."
+
+msgid "battlePass/switch_enabled/body"
+msgstr "Taistelupassi on jälleen saatavilla. Pahoittelemme aiheutuneesta häiriöstä.\nKautta pidennetty %(expiryTime)s asti."
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "Taistelupassin pisteitä voi jälleen ansaita Rynnistyksessä. Pahoittelemme aiheutunutta häiriötä."
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "Taistelupassin pisteitä voi jälleen ansaita Kevyt-Rynnistyksessä. Pahoittelemme aiheutunutta häiriötä."
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "Taistelupassi on taas saatavilla Etulinjalla. Pahoittelemme aiheutunutta häiriötä."
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "Taistelupassi on taas saatavilla luokitetuissa taisteluissa. Pahoittelemme aiheutunutta häiriötä."
+
+msgid "battlePass/switch_pause/body"
+msgstr "Taistelupassi ei hetkellisesti ole saatavilla ylläpitotoimen tähden."
+
+msgid "battlePass/switch_started/body"
+msgstr "Komentajat! On jälleen aika taistella ainutlaatuisista Taistelupassin palkinnoista!"
+
+msgid "battlePass/switch_started/title"
+msgstr "Taistelupassin kausi %(seasonNum)d"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "Taistelupassi: %(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "Taistelupassin kausi on päättynyt. Kaikki palkinnot, joita et valinnut on myönnetty sinulle oletusvalintojen mukaan:"
+
+msgid "battlePassH/switch_disable/body"
+msgstr "Luku on päättynyt. Ensi kertaan!"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "Taistelupassi: %(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "Taistelupassi on taas saatavilla. Pahoittelemme aiheutunutta häiriötä."
+
+msgid "battlePassH/switch_started/body"
+msgstr "Komentajat! Kuten pian teille selviää, tämä on erikoistaistelupassi.\n\nEdistymisen suorittamisesta saat premium-vaunun ainutlaatuisella kolmiulotteisella tyylillä, muokkauselementtejä ja paljon muita palkintoja!"
+
+msgid "battlePassH/switch_started/title"
+msgstr "Taistelupassi: %(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "Virhe ostaessa edistymisen vaiheita. Ole hyvä ja yritä uudelleen."
+
+msgid "battlePass_buy/server_error"
+msgstr "Virhe ostettaessa Parempaa passia. Ole hyvä ja yritä uudelleen."
+
+msgid "battleResults/sharing/success"
+msgstr "Linkki on kopioitu leikepöydällesi. Voit joko liittää sen chattiin painamalla Ctrl+V tai käyttää sitä pelin ulkopuolella."
+
+msgid "battleSession/kickedFromQueue"
+msgstr "Nykyiselle erikoistaistelulle ei löydetä vastustajia. Harkitse joukkueesi uudelleenjärjestelyä."
+
+msgid "battleSession/memberJoined"
+msgstr "%s on liittynyt joukkueeseen."
+
+msgid "battleSession/memberLeave"
+msgstr "%s on lähtenyt joukkueesta."
+
+msgid "battleSession/memberNotReady"
+msgstr "%s ei ole valmiina taistelemaan joukkueen puolesta."
+
+msgid "battleSession/memberOffline"
+msgstr "Yhteys pelaajaan %s katkesi."
+
+msgid "battleSession/memberReady"
+msgstr "%s on valmis taistelemaan joukkueen puolesta."
+
+msgid "battlesession/error/AddObserver"
+msgstr "Maksimimäärä tarkkailijoita joukkueessa: %(numPlayers)s."
+
+msgid "battlesession/error/AddPlayer"
+msgstr "Maksimimäärä pelaajia joukkueessa: %(numPlayers)s."
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "Ei riittäviä oikeuksia siirtää muita pelaajia."
+
+msgid "battlesession/error/Limits"
+msgstr "Maksimimäärä pelaajia joukkueessa on ylitetty."
+
+msgid "blueprints/conversion/disable"
+msgstr "Ei tarpeeksi palasia muuntoon."
+
+msgid "blueprints/conversion/error"
+msgstr "Ei voitu lähettää eläkkeelle: palvelin ei ole saatavilla. Yritä myöhemmin uudestaan."
+
+msgid "blueprints/switch_off"
+msgstr "Vaunujen piirustukset: tämä ominaisuus on väliaikaisesti pois käytöstä. Pahoittelemme tästä aiheutuvaa häiriötä."
+
+msgid "blueprints/switch_on"
+msgstr "Vaunujen piirustukset ovat jälleen saatavilla."
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "Toiminto ei saatavilla. Henkilökohtainen reservi on jo käytetty."
+
+msgid "booster_activate/DISABLED"
+msgstr "Ei voida aktivoida henkilökohtaista reserviä. Toiminto ei saatavilla."
+
+msgid "booster_activate/EXCEPTION"
+msgstr "Ei voida aktivoida henkilökohtaista reserviä. Toiminto ei saatavilla."
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "Toiminto ei saatavilla. Henkilökohtainen reservi ei ole saatavilla tai valittuna."
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "Ei voida aktivoida henkilökohtaista reserviä. Toiminto ei saatavilla."
+
+msgid "booster_activate/server_error"
+msgstr "Ei voida aktivoida henkilökohtaista reserviä. Yritä myöhemmin uudelleen."
+
+msgid "booster_activate/success"
+msgstr "Henkilökohtainen reservi \"%(boosterName)s\" aktivoitu: Aikaa jäljellä: %(time)s."
+
+msgid "booster_buy/not_enough_credits"
+msgstr "Ei voida ostaa henkilökohtaista reserviä \"%(boosterName)s\". Ei riittävästi krediittejä."
+
+msgid "booster_buy/not_enough_gold"
+msgstr "Ei voida ostaa henkilökohtaista reserviä \"%(boosterName)s\". Ei riittävästi kultaa."
+
+msgid "booster_buy/server_error"
+msgstr "Ei voida ostaa henkilökohtaista reserviä \"%(boosterName)s\"."
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "Ei voida ostaa henkilökohtaista reserviä \"%(boosterName)s\". Palvelin ei väliaikaisesti ole saatavilla."
+
+msgid "booster_buy/success"
+msgstr "Henkilökohtaista reserviä \"%(boosterName)s\" ostettu onnistuneesti (%(count)s kappale(tta)). Käytetty %(money)s."
+
+msgid "booster_buy/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "booster_sell/server_error"
+msgstr "Ei voida myydä henkilökohtaista reserviä \"%(boosterName)s\". Yritä myöhemmin uudelleen."
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "Ei voida myydä henkilökohtaista reserviä \"%(boosterName)s\". Yritä myöhemmin uudelleen."
+
+msgid "booster_sell/success"
+msgstr "Henkilökohtaista reserviä \"%(boosterName)s\" myyty onnistuneesti (%(count)s kappale(tta)). Saatu %(money)s."
+
+msgid "buttons/goToPoll"
+msgstr "Avaa äänestys"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "Miehistönjäsenen värväys ja siirto ei onnistunut: vaunulla on ainutlaatuinen, pysyvä miehistö."
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "Olet saavuttanut ilmaisten miehistön jäsenten rajan tälle päivälle."
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "Ei voida värvätä ja siirtää miehistön jäsentä. Väärä vaunu."
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "Et voi värvätä ja siirtää miehistön jäsentä. Ei tarpeeksi krediittejä."
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "Et voi värvätä ja siirtää miehistön jäsentä. Ei tarpeeksi kultaa."
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "Et voi värvätä ja siirtää miehistön jäsentä. Yritä myöhemmin uudelleen."
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "Et voi värvätä ja siirtää miehistön jäsentä. Vaunu on lukittu."
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "Miehistönjäsenen värväys ja siirto ei onnistunut: vaunulla on ainutlaatuinen, pysyvä miehistö."
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "Olet saavuttanut ilmaisten miehistön jäsenten rajan tälle päivälle."
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "Ei voida värvätä ja korvata miehistön jäsentä. Väärä vaunu."
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "Et voi värvätä ja korvata miehistön jäsentä. Ei tarpeeksi krediittejä."
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "Et voi värvätä ja korvata miehistön jäsentä. Ei tarpeeksi kultaa."
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "Virhe värvättäessä ja korvattaessa miehistön jäsentä. Värvätäksesi miehistön jäsenen, sinulla tulee olla vapaa punkka. Ole hyvä ja vapauta punkka tai osta lisäpunkkia Kasarmilla."
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "Et voi värvätä ja korvata miehistön jäsentä. Yritä myöhemmin uudelleen."
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "Et voi värvätä ja korvata miehistön jäsentä. Vaunu on lukittu."
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "Olet saavuttanut ilmaisten vaunujen ostorajan. Yritä huomenna uudelleen."
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "Virhe laajennettaessa kasarmia. Ei tarpeeksi krediittejä."
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "Virhe laajennettaessa kasarmia. Ei tarpeeksi kultaa."
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "Kasarmin laajentaminen ei onnistu. Yritä myöhemmin uudelleen."
+
+msgid "buy_tankmen_berths/success"
+msgstr "Kasarmia laajennettu.\nKultaa käytetty: %(money)s."
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "buy_vehicle_slot_error"
+msgstr "%s vaunun ostaminen epäonnistui. Ei vapaita paikkoja tallissa. Harkitse vaunun myymistä vapauttaaksesi paikan, tai osta uusi paikka."
+
+msgid "buy_vehicle_slot_error2"
+msgstr "%s vaunun ostaminen epäonnistui. Ei vapaita paikkoja tallissa. Ole hyvä ja vapauta paikka."
+
+msgid "challenges/activate/serverError"
+msgstr "Tulikokeen tehtävien aktivointi ei onnistu. Yritä myöhemmin uudelleen."
+
+msgid "challenges/activate/success/text"
+msgstr "Tämän sarjan ensimmäinen tehtävä on saatavilla suoritettavaksi. Lähde taisteluun ja vastaa haasteeseen!"
+
+msgid "challenges/activate/success/title"
+msgstr "Tulikoe: %(challengeName)s aktivoitu!"
+
+msgid "challenges/challengeEnd/button"
+msgstr "Tulikokeeseen"
+
+msgid "challenges/challengeEnd/text"
+msgstr "Suorita se nyt ja saat palkintosi."
+
+msgid "challenges/challengeEnd/title"
+msgstr "Tulikokeen tehtävät päättyvät pian!"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "Onneksi olkoon!"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "Suoritit Tulikokeen: %(challengeName)s! Saadut palkinnot:"
+
+msgid "challenges/formatter/spent/credits"
+msgstr "Krediittejä käytetty:"
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "Arvopapereita käytetty:"
+
+msgid "challenges/formatter/spent/gold"
+msgstr "Kultaa käytetty:"
+
+msgid "challenges/restart/free/text"
+msgstr "Yksi ilmainen uudelleenaloitus on käytetty ja tehtävässä edistyminen on nollattu."
+
+msgid "challenges/restart/free/title"
+msgstr "Tulikoe: %(challengeName)s aloitettu uudelleen ilmaiseksi"
+
+msgid "challenges/restart/paid/title"
+msgstr "Tulikoe: %(challengeName)s aloitettu uudelleen"
+
+msgid "challenges/restart/serverError"
+msgstr "Tulikokeen tehtävien uudelleen aloittaminen ei onnistu. Yritä myöhemmin uudelleen."
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "Toiminto ei saatavilla. Ole hyvä ja odota, kunnes nykyinen toiminto on valmis."
+
+msgid "challenges/surrender/serverError"
+msgstr "Tulikokeen tehtävien hylkääminen ei onnistu. Yritä myöhemmin uudelleen."
+
+msgid "challenges/surrender/success/text"
+msgstr "Olet hylännyt Tulikokeen: %(challengeName)s. Tehtäväsarja on epäonnistunut."
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "Miehistönjäsenen päätaidon muuttaminen ei onnistunut: vaunulla on ainutlaatuinen, pysyvä miehistö."
+
+msgid "change_tankman_role/invalid_role"
+msgstr "Päätaitoa ei voitu vaihtaa. Yritä myöhemmin uudelleen."
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "Päätaitoa ei voitu vaihtaa. Väärä vaunu."
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "Vaunu ei ole tallissa. Uudelleen koulutettu miehistön jäsen lähetetään kasarmille."
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "Ei voida vaihtaa miehistön jäsenen päätaitoa. Ei riittävästi krediittejä."
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "Ei voida vaihtaa miehistön jäsenen päätaitoa. Ei riittävästi kultaa."
+
+msgid "change_tankman_role/server_error"
+msgstr "Päätaitoa ei voitu vaihtaa.\nYritä myöhemmin uudelleen."
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "%(vehicle)s vaunussa on jo %(role)s. Uudelleen koulutettu miehistön jäsen lähetetään kasarmille."
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "Ei voida vaihtaa päätaitoa. Yritä myöhemmin uudelleen."
+
+msgid "charge/credits_error"
+msgstr "%s krediittiä ja %s kultaa vaaditaan lisää. Lastaa ammukset manuaalisesti."
+
+msgid "charge/credits_error_credits"
+msgstr "%s krediittiä vaaditaan lisää. Lastaa ammukset manuaalisesti."
+
+msgid "charge/credits_error_gold"
+msgstr "%s kultaa vaaditaan lisää. Lastaa ammukset manuaalisesti."
+
+msgid "charge/inventory_error"
+msgstr "Ammuksia ei ole lastattu %(vehicle)s vaunuun. Lastaa ammukset manuaalisesti."
+
+msgid "charge/money_spent"
+msgstr "%s käytetty ammuksiin yhteensä."
+
+msgid "charge/server_error"
+msgstr "Virhe lastattaessa ammuksia. Yritä myöhemmin uudelleen."
+
+msgid "charge/server_error_save"
+msgstr "Virhe tallennettaessa ammuksia. Yritä myöhemmin uudelleen."
+
+msgid "charge/success"
+msgstr "Ammukset lastattu onnistuneesti."
+
+msgid "charge/success_save"
+msgstr "Ammukset tallennettu onnistuneesti."
+
+msgid "checkout_error"
+msgstr "Virhe vastaanottaessa käyttäjätietoja. Ole hyvä ja yritä uudelleen."
+
+msgid "clans/isClanProfileDisabled"
+msgstr "Toiminto ei saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "clans/notifications/accept"
+msgstr "Hyväksy"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "Klaanikutsu on jo lähetetty pelaajalle %(userName)s."
+
+msgid "clans/notifications/decline"
+msgstr "Kieltäydy"
+
+msgid "clans/notifications/from"
+msgstr "pelaajalta %(user)s"
+
+msgid "clans/notifications/info"
+msgstr "Näytä klaanin tiedot"
+
+msgid "clans/notifications/invite"
+msgstr "Kutsu klaaniin"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "Klaanikutsu hyväksytty."
+
+msgid "clans/notifications/invite/declined"
+msgstr "Klaanikutsu hylätty."
+
+msgid "clans/notifications/invite/expired"
+msgstr "Klaanikutsu on virheellinen."
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s hyväksyi klaanikutsun."
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s hylkäsi klaanikutsun."
+
+msgid "clans/notifications/inviteSendError"
+msgstr "Ei voida lähettää klaanikutsua pelaajalle %(userName)s."
+
+msgid "clans/notifications/inviteSent"
+msgstr "Klaanikutsu lähetetty pelaajalle %(userName)s."
+
+msgid "clans/notifications/invites"
+msgstr "Klaanikutsut: %(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "Poista ilmoitukset käytöstä"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "Näytä kutsut"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "Klaanikutsuja ei lähetetty %(userCount)d pelaajalle."
+
+msgid "clans/notifications/invitesSent"
+msgstr "Kutsut lähetettiin %(userCount)d pelaajalle."
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "Sinut on hyväksytty klaaniin\n%(nameStartTag)s%(name)s%(nameEndTag)s."
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "Hakemuksesi klaaniin\n%(nameStartTag)s%(name)s%(nameEndTag)s on hylätty."
+
+msgid "clans/notifications/request"
+msgstr "Hakemus klaaniin"
+
+msgid "clans/notifications/request/accepted"
+msgstr "Hakemus hyväksytty."
+
+msgid "clans/notifications/request/declined"
+msgstr "Hakemus hylätty."
+
+msgid "clans/notifications/requestSent"
+msgstr "Hakemus lähetetty klaaniin:\n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "Kutsuja pelaajilta: %(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "Näytä hakemukset"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "%(userName)s on jo kutsuttu klaaniisi."
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "Toiminto ei saatavilla. Pelaaja ei vastaa rekrytointivaatimuksia."
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "Yhden päivän karenssi edellisestä klaanista lähtemisestäsi ei ole vielä päättynyt."
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "Toiminto ei saatavilla. Virheellinen tili."
+
+msgid "clans/request/errors/Account is banned"
+msgstr "Toiminto ei saatavilla. Tili on porttikiellossa."
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "Tämä pelaaja on jo jäsenenä klaanissa."
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "Toiminto ei saatavilla. Pelaaja ei ole klaanin jäsen."
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "Toiminto ei saatavilla. Hakemusta ei ole olemassa."
+
+msgid "clans/request/errors/Application is not active"
+msgstr "Toiminto ei saatavilla. Hakemus on vanhentunut."
+
+msgid "clans/request/errors/Bad request"
+msgstr "Toiminto ei saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "Ei riittävästi oikeuksia lähettää hakemus klaaniin."
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "Klaanin rekrytointi on suljettu."
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "Klaani on täynnä."
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "Toiminto ei saatavilla. Klaania ei ole olemassa."
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "Toiminto ei saatavilla. Klaani on täynnä."
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "Toiminto ei saatavilla. Klaani on hajotettu."
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "Toiminto ei saatavilla. Klaani ei ole aktiivinen."
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "Toiminto ei saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "Toiminto ei saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "Toiminto ei ole saatavilla tämän tyyppisille tileille."
+
+msgid "clans/request/errors/Forbidden"
+msgstr "Toiminto ei saatavilla. Sinulla on riittämättömät oikeudet."
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "Toiminto ei saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "Toiminto ei saatavilla. Kutsua ei ole olemassa."
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "Toiminto ei saatavilla. Kutsu on vanhentunut."
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "Toiminto ei saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "Toiminto ei saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "Toiminto ei saatavilla. Linnake ei ole saatavilla."
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "Toiminto ei saatavilla. Maksimimäärä hakemuksia lähetetty."
+
+msgid "clans/request/errors/Too many invites"
+msgstr "Toiminto ei saatavilla. Maksimimäärä kutsuja lähetetty."
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "Toiminto ei saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "Toiminto ei saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "Toiminto ei saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "Toiminto ei saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "%(userName)s on jo jäsenenä klaanissa."
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s \"%s\" ei sovi tähän vaunuun."
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s \"%s\" ei sovi tähän tykkitorniin. Vaihda tykkitorni."
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s \"%s\" on väärää tyyppiä."
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s \"%s\" on väärää kansallisuutta."
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s \"%s\" ei sovi tähän vaunuun."
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s \"%s\" on väärää tyyppiä."
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s \"%s\" on väärää kansallisuutta."
+
+msgid "client_inactive"
+msgstr "Peliohjelma ei ole aktiivinen"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "Kokoelmat eivät ole väliaikaisesti saatavilla ylläpitotoimien tähden."
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "Kokoelmat eivät saatavilla"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "Kokoelmat on korjattu. Pahoittelemme aiheutunutta häiriötä."
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "Kokoelmat ovat jälleen saatavilla"
+
+msgid "connected"
+msgstr "Tervetuloa World of Tanks %s palvelimelle!"
+
+msgid "consumables_apply/error"
+msgstr "Kulutustarvikkeiden konfigurointivirhe. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "consumables_apply/not_enough_money"
+msgstr "Kulutustarvikkeiden toimintovirhe: Ei riittävästi varoja ostoon."
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kultasi on käytettävissä, kun WG Walletin toiminta on palautettu."
+
+msgid "conversion/error"
+msgstr "Ei voitu lähettää eläkkeelle: palvelin ei ole saatavilla. Yritä myöhemmin uudestaan."
+
+msgid "conversion/header"
+msgstr "Päivämäärä: %(at)s\nLisättiin:"
+
+msgid "conversion/success"
+msgstr "Alikoulutettuja miehistön jäseniä lähetetty eläkkeelle: %(number)s"
+
+msgid "conversion/title"
+msgstr "Kuitti"
+
+msgid "conversionPerks/header"
+msgstr "Päiväys: %(at)s\nKokemuksen muuntaminen rajan ylittäneistä miehistöpätevyyksistä. Saatiin:"
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "Yksityisviestit eivät ole saatavilla maasi pelaajille."
+
+msgid "crewBooks/failed"
+msgstr "Tämän miehistön koulutus ei onnistu.\nYritä myöhemmin uudelleen."
+
+msgid "crewBooks/server_error"
+msgstr "Miehistön jäsen(t)en koulutus epäonnistui palvelinvirheen vuoksi. Yritä myöhemmin uudelleen."
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s."
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "crewBooksNotification/success"
+msgstr "Miehistö koulutettu.\nKäytettiin:"
+
+msgid "crewBooks_buy/server_error"
+msgstr "Ei voida ostaa miehistökirjaa palvelinvirheen takia. Yritä myöhemmin uudelleen."
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s (%(count)s kappale(tta)).\nKrediittejä käytetty: %(money)s."
+
+msgid "crewBooks_sell/server_error"
+msgstr "Ei voida myydä miehistökirjaa palvelinvirheen takia. Yritä myöhemmin uudelleen."
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s (%(count)s kappale(tta)).\nKrediittejä saatu: %(money)s."
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "Miehistöskini vaihdettu."
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "Miehistöskinejä lisätty: %(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "Nykyinen vaunu on korvattu %s vaunulla."
+
+msgid "customization/added/attachment"
+msgstr "\"%s\" -kolmiulotteinen lisävaruste lisätty"
+
+msgid "customization/added/attachmentValue"
+msgstr "\"%s\" -kolmiulotteinen lisävaruste lisätty: (x%s)"
+
+msgid "customization/added/camouflage"
+msgstr "\"%s\" -maastokuvio lisätty"
+
+msgid "customization/added/camouflageValue"
+msgstr "\"%s\" -maastokuvio lisätty: (x%s)"
+
+msgid "customization/added/decal"
+msgstr "\"%s\" -koriste lisätty"
+
+msgid "customization/added/decalValue"
+msgstr "\"%s\" -koriste lisätty: (x%s)"
+
+msgid "customization/added/emblem"
+msgstr "\"%s\" -tunnus lisätty"
+
+msgid "customization/added/emblemValue"
+msgstr "\"%s\" -tunnus lisätty (x%s)"
+
+msgid "customization/added/inscription"
+msgstr "\"%s\" -kirjoitus lisätty"
+
+msgid "customization/added/inscriptionValue"
+msgstr "\"%s\" -kirjoitus lisätty (x%s)"
+
+msgid "customization/added/modification"
+msgstr "\"%s\" -efekti lisätty"
+
+msgid "customization/added/modificationValue"
+msgstr "\"%s\" -efekti lisätty: (x%s)"
+
+msgid "customization/added/paint"
+msgstr "\"%s\" -maali lisätty"
+
+msgid "customization/added/paintValue"
+msgstr "\"%s\" -maali lisätty: (x%s)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "\"%s\" yksinumeroinen luku lisätty"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "\"%s\" yksinumeroinen luku lisätty: (x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "\"%s\" kaksinumeroinen luku lisätty"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "\"%s\" kaksinumeroinen luku lisätty: (x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "\"%s\" kolminumeroinen luku lisätty"
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "\"%s\" kolminumeroinen luku lisätty: (x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "\"%s\" -koriste lisätty"
+
+msgid "customization/added/projectionDecalValue"
+msgstr "\"%s\" -koriste lisätty: (x%s)"
+
+msgid "customization/added/statTracker"
+msgstr "Tilaston seuraaja: %s lisätty"
+
+msgid "customization/added/statTrackerValue"
+msgstr "Tilaston seuraajat: %s lisätty: (x%s)"
+
+msgid "customization/added/style"
+msgstr "\"%s\" tyyli lisätty"
+
+msgid "customization/added/styleValue"
+msgstr "\"%s\" tyyli lisätty: (x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "Ei voida muokata. Ei tarpeeksi krediittejä tai kultaa."
+
+msgid "customization/credits_not_enough"
+msgstr "Ei voida muokata. Ei tarpeeksi krediittejä."
+
+msgid "customization/currency_not_enough"
+msgstr "Ei riittävästi valuuttaa tavaran ostamiseen."
+
+msgid "customization/gold_not_enough"
+msgstr "Ei voida muokata. Ei tarpeeksi kultaa."
+
+msgid "customization/igr_type_changed_error"
+msgstr "Muutos IGR-tilassa. Tämänhetkinen toiminto peruutettiin."
+
+msgid "customization/invalidVehicle"
+msgstr "Käyttöönotto ei onnistu: sopimaton vaunu"
+
+msgid "customization/personal_number_prohibited"
+msgstr "Numero %(value)s ei ole saatavilla.\n\"%(itemType)s%(itemName)s\" poistettiin %(seasonName)s kartalta."
+
+msgid "customization/progression/down/style"
+msgstr "\"%s\" -tyyliä heikennettiin tasolle %s"
+
+msgid "customization/progression/up/style"
+msgstr "\"%s\" -tyyli päivitettiin tasolle %s"
+
+msgid "customization/prohibited"
+msgstr "Asentaminen ei onnistu: %(itemName)s ei ole varastossasi."
+
+msgid "customization/removed/attachment"
+msgstr "\"%s\" -kolmiulotteinen lisävaruste poistettu"
+
+msgid "customization/removed/attachmentValue"
+msgstr "\"%s\" -kolmiulotteinen lisävaruste poistettu: (x%s)"
+
+msgid "customization/removed/camouflage"
+msgstr "\"%s\" maastokuvio poistettu"
+
+msgid "customization/removed/camouflageValue"
+msgstr "\"%s\" maastokuvio poistettu: (x%s)"
+
+msgid "customization/removed/decal"
+msgstr "\"%s\" koriste poistettu"
+
+msgid "customization/removed/decalValue"
+msgstr "\"%s\" koriste poistettu: (x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "\"%s\" tunnus poistettu"
+
+msgid "customization/removed/emblemValue"
+msgstr "\"%s\" tunnus poistettu: (x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "\"%s\" kirjoitus poistettu"
+
+msgid "customization/removed/inscriptionValue"
+msgstr "\"%s\" kirjoitus poistettu: (x%s)"
+
+msgid "customization/removed/modification"
+msgstr "\"%s\" efekti poistettu"
+
+msgid "customization/removed/modificationValue"
+msgstr "\"%s\" efekti poistettu: (x%s)"
+
+msgid "customization/removed/paint"
+msgstr "\"%s\" maali poistettu"
+
+msgid "customization/removed/paintValue"
+msgstr "\"%s\" maali poistettu: (x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "\"%s\" yksinumeroinen luku poistettu"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "\"%s\" yksinumeroinen luku poistettu: (x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "\"%s\" kaksinumeroinen luku poistettu"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "\"%s\" kaksinumeroinen luku poistettu: (x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "\"%s\" kolminumeroinen luku poistettu"
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "\"%s\" kolminumeroinen luku poistettu: (x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "\"%s\" koriste poistettu"
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "\"%s\" koriste poistettu: (x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "Tilaston seuraaja: %s poistettu"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "Tilaston seuraajat: %s poistettu: (x%s)"
+
+msgid "customization/removed/style"
+msgstr "\"%s\" tyyli poistettu"
+
+msgid "customization/removed/styleValue"
+msgstr "\"%s\" tyyli poistettu: (x%s)"
+
+msgid "customization/server_error"
+msgstr "Muokkaus ei onnistu."
+
+msgid "customization/unavailable"
+msgstr "Vaunujen kustomointi -toiminto on väliaikaisesti pois käytöstä teknisten ongelmien vuoksi."
+
+msgid "customization/vehicle_damaged"
+msgstr "Ei voida muokata. Vaunu on vaurioitunut. Korjauksia vaaditaan."
+
+msgid "customization/vehicle_destroyed"
+msgstr "Ei voida muokata. Vaunu on tuhoutunut. Korjauksia vaaditaan."
+
+msgid "customization/vehicle_exploded"
+msgstr "Ei voida muokata. Vaunu on tuhoutunut. Korjauksia vaaditaan."
+
+msgid "customization/vehicle_locked"
+msgstr "Ei voida muokata. Vaunu on lukittu."
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "Tavallisen tehtävän uudelleen arpominen ei onnistu: tehtävä on jo suoritettu."
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "Tavallisen tehtävän uudelleen arpominen ei onnistu: toiminto estetty."
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "Tavallisen tehtävän uudelleen arpominen ei onnistu: toiminto keskeytetty."
+
+msgid "daily_quests/reroll/success"
+msgstr "Tavallinen tehtävä arvottu uudelleen onnistuneesti."
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "Tavallisen tehtävän uudelleen arpominen ei onnistu. Yritä myöhemmin uudelleen."
+
+msgid "daily_quests/switch_off/body"
+msgstr "Tämä toiminnallisuus ei ole saatavilla teknisistä syistä.\nPahoittelemme häiriötä."
+
+msgid "daily_quests/switch_off/title"
+msgstr "Tavalliset tehtävät eivät väliaikaisesti ole saatavilla"
+
+msgid "daily_quests/switch_on/body"
+msgstr "Tekniset seikat on ratkaistu. Pahoittelemme aiheutunutta häiriötä."
+
+msgid "daily_quests/switch_on/title"
+msgstr "Tavalliset tehtävät ovat jälleen saatavilla"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "Tämä toiminnallisuus ei ole saatavilla teknisistä syistä.\nPahoittelemme häiriötä."
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "Kohdennettava bonus kokemukseen ei väliaikaisesti ole saatavilla"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "Tekniset seikat on ratkaistu. Pahoittelemme aiheutuneesta häiriöstä."
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "Kohdennettava bonus kokemukseen on jälleen saatavilla"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "Irrotuspakkausten käyttö on väliaikaisesti mahdotonta huoltotoimien tähden."
+
+msgid "demountKit_restored/switchedOn"
+msgstr "Irrotuspakkausten käyttö on jälleen mahdollista. Pahoittelemme häiriötä."
+
+msgid "denunciation/success"
+msgstr "Valitus %(name)s pelaajasta koskien \"%(topic)s\" hyväksytty."
+
+msgid "disconnected"
+msgstr "Ohjelman yhteys palvelimeen on katkennut."
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "Miehistönjäsenen erottaminen ei onnistunut: vaunulla on ainutlaatuinen, pysyvä miehistö."
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "Virhe erotettaessa miehistön jäsentä. Väärä vaunu."
+
+msgid "dismiss_tankman/server_error"
+msgstr "Tämän miehistön jäsenen eläkkeelle lähettäminen ei onnistu.\nYritä myöhemmin uudelleen."
+
+msgid "dismiss_tankman/success"
+msgstr "Miehistön jäsen lähetetty eläkkeelle."
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "Virhe erotettaessa miehistön jäsentä. Vaunu on lukittu."
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "Virhe erotettaessa miehistön jäsentä. Korjaa vaunusi."
+
+msgid "dog_tags/switch_off/body"
+msgstr "Tämä toiminnallisuus ei ole saatavilla teknisistä syistä.\nPahoittelemme häiriötä."
+
+msgid "dog_tags/switch_off/title"
+msgstr "Tuntolaatat eivät väliaikaisesti ole saatavilla"
+
+msgid "dog_tags/switch_on/body"
+msgstr "Tekniset seikat on ratkaistu. Pahoittelemme aiheutunutta häiriötä."
+
+msgid "dog_tags/switch_on/title"
+msgstr "Tuntolaatat ovat jälleen saatavilla"
+
+msgid "dossiers_unavailable"
+msgstr "Tili ei ole valmis (DOSSIERS_UNAVAILABLE)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "Kaikki pätevyydet nollattiin.\nKrediittejä käytetty: %(money)s."
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "Kaikki pätevyydet nollattiin.\nKultaa käytetty: %(money)s."
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "Virhe alustettaessa pätevyyksiä. Väärä vaunu."
+
+msgid "drop_tankman_skill/server_error"
+msgstr "Pätevyyksien alustus ei mahdollista. Yritä myöhemmin uudelleen."
+
+msgid "drop_tankman_skill/success"
+msgstr "Kaikki pätevyydet on nollattu."
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "Virhe alustettaessa pätevyyksiä. Vaunu on lukittu."
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "Virhe alustettaessa pätevyyksiä. Korjaa vaunusi."
+
+msgid "drr_scale/step_down"
+msgstr "Dynaaminen resoluution laskettiin tasolle %(scale)d%%."
+
+msgid "drr_scale/step_up"
+msgstr "Dynaaminen resoluution nostettiin tasolle %(scale)d%%."
+
+msgid "earning/button/multiple"
+msgstr "Saavutuksiin"
+
+msgid "earning/button/single"
+msgstr "Saavutukseen"
+
+msgid "earning/common/multiple"
+msgstr "%(value)s saavutusta avattu!"
+
+msgid "earning/common/single"
+msgstr "\"%(value)s\" saavutus avattu!"
+
+msgid "earning/title"
+msgstr "Onneksi olkoon!"
+
+msgid "earning/trophy/multiple"
+msgstr "%(value)s pokaalia ansaittu!"
+
+msgid "earning/trophy/single"
+msgstr "\"%(value)s\" palkinto ansaittu!"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "Pikahuolto on jälleen saatavilla. Pahoittelemme aiheutunutta harmia."
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "Pikahuolto ei hetkellisesti ole saatavilla ylläpitotoimen tähden."
+
+msgid "easyTankEquip_apply/error"
+msgstr "Virhe otettaessa käyttöön pikahuollon konfiguraatiota. Ole hyvä ja yritä uudelleen."
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "Virhe otettaessa käyttöön pikahuollon konfiguraatiota. Varat eivät riitä ostamiseen."
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "Pikahuolto ei saatavilla. Kultasi on käytettävissä, kun WG Walletin toiminta on palautettu."
+
+msgid "epicBattles/levelUp/awards"
+msgstr "Palkinto saatu:"
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "Saavutit Etulinjan edistymisessä tason <font color='#E9E2BF'>%(tier)s</font>."
+
+msgid "epicBattles/levelUp/title"
+msgstr "Onneksi olkoon!"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "Etulinja ei ole saatavilla. Seuraa päivityksiä pelin portaalissa."
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "Virhe palkintoja valitessa. Ole hyvä ja yritä uudelleen."
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "%(name)s saatu"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "Direktiivejä varusteille saatu: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "Kokeellinen varuste saatu: %(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "Etulinjan kausi on päättynyt.<br/>Kaikki palkinnot, joita et valinnut kauden aikana on myönnetty sinulle oletusvalintojen mukaan:"
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "Etulinja"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "Miehistönjäsenen siirto ei onnistu: vaunulla on ainutlaatuinen, pysyvä miehistö."
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "Virhe siirrettäessä miehistön jäsentä vaunuun. Väärä vaunu."
+
+msgid "equip_tankman/not_enough_space"
+msgstr "Miehistön jäsentä ei voida lähettää Kasarmille. Kasarmilla ei ole vapaita punkkia."
+
+msgid "equip_tankman/server_error"
+msgstr "Miehistön jäsenen siirto vaunuun ei onnistunut. Yritä myöhemmin uudelleen."
+
+msgid "equip_tankman/success"
+msgstr "Miehistön jäsen siirrettiin %(vehName)s vaunuun."
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "Virhe siirrettäessä miehistön jäsentä vaunuun. Vaunu on lukittu."
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "Virhe siirrettäessä miehistön jäsentä vaunuun. Korjaa vaunusi."
+
+msgid "exchange/not_enough_gold"
+msgstr "Ei riittävästi kultaa siirtoon."
+
+msgid "exchange/server_error"
+msgstr "Virhe muunnettaessa %(gold)s kultaa. Yritä myöhemmin uudelleen."
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "Ei riittävästi kultaa %(xp)s kokemuksen muuntamiseen."
+
+msgid "exchangeXP/server_error"
+msgstr "Virhe muunnettaessa %(xp)s kokemuspistettä. Yritä myöhemmin uudelleen."
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "filling_untrained_perks/server_error"
+msgstr "Uusien pätevyyksien kouluttaminen ei onnistu.\nPalvelin ei ole saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "filling_untrained_perks/success"
+msgstr "Uudet pätevyydet koulutettu kaikille miehistön jäsenille."
+
+msgid "fortification/addOrder"
+msgstr "%(count)s reservin valmistelu aloitettu. Aikaa jäljellä: %(time)s."
+
+msgid "fortification/buildingProcess"
+msgstr "Rakennuksen %(buildingName)s rakentaminen aloitettu. Kuljeta vaadittu määrä teollisuusresursseja varmistaaksesi keskeytymättömän rakentamisen."
+
+msgid "fortification/created"
+msgstr "Onneksi olkoon!\nLinnake luotu onnistuneesti."
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "Linnakkeesi puolustus poistetaan käytöstä 48 tunnin kuluttua. Tämän ajan sisällä voit ottaa puolustuksen uudelleen käyttöön linnakkeen asetuksissa."
+
+msgid "fortification/defenceHourSet"
+msgstr "Puolustusvaihetta säädetään 14 päivän kuluttua. Uusi puolustusvaihe: %(defenceHour)s."
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "Tulitauon päivää säädetään 14 päivän kuluttua. Tulitauon uusi päivä—ei asetettu."
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "Tulitauon päivää säädetään 14 päivän kuluttua. Tulitauon uusi päivä—%(offDay)s."
+
+msgid "fortification/demountBuilding"
+msgstr "Rakennus %(buildingName)s purettiin."
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "Toiminto ei saatavilla. Olet jo liittynyt tähän rakennukseen."
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "Toiminto ei saatavilla. Linnake on jo luotu."
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "Toiminto ei saatavilla. Klaani on jo kirjanmerkittyjen listalla."
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "Toiminto ei saatavilla. Et voi suunnitella enempää kuin yhden hyökkäyksen samaan klaaniin."
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "Toiminto ei saatavilla. Hyökkäyksen tietoja ei ole ladattu."
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "Toiminto ei saatavilla. Edellisestä hyökkäyksestä valittuun klaaniin täytyy olla kulunut yksi viikko."
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "Toiminto ei saatavilla. Toinen erillisosasto hallitsee sillanpäätä."
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "Toiminto ei saatavilla. Hyökkäystä ei ole suunniteltu."
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "Toiminto ei saatavilla. Voit vain suunnitella hyökkäyksen, joka alkaa vähintään 15 minuutin kuluttua."
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "Hyökkäyksen suunnittelu valitulle päivälle ei onnistu."
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "Toiminto ei saatavilla. Virheellinen klaanin ID."
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "Toiminto ei saatavilla. Virheellinen tulitaukopäivän arvo."
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "Toiminto ei saatavilla. Virheellinen päivämäärä."
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "Toiminto ei käytettävissä. Virheellinen hyökkäysoperaation ID."
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "Toiminto ei saatavilla. Virheellinen puolustusvaiheen arvo."
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "Ei voida hyökätä valittuun klaaniin: Linnakkeen tason ero on enemmän kuin yksi. Valitse toinen klaani."
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "Toiminto ei saatavilla. Virheellinen määrä reservejä."
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "Toiminto ei käytettävissä. Siirretty virheellinen määrä teollisuusresursseja."
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "Toiminto ei saatavilla. Virheellinen jaosto."
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "Toiminto ei saatavilla. Tietoja kahakasta ei saatu."
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "Taistelut on toistaiseksi rajattu tälle palvelimelle."
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "Toiminto ei käytettävissä. Virheellinen puolueettomuuden kesto."
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "Toiminto ei käytettävissä. Virheellinen puolueettomuuden päivämäärä."
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "Toiminto ei saatavilla. Korjaa komentokeskus."
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "Toiminto ei saatavilla. Komentokeskus on tuhoutunut."
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "Toiminto ei saatavilla. Komentokeskus ei ole vaurioitunut."
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "Toiminto ei saatavilla. Taistelua ei ole olemassa."
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "Pahoittelen, taistelun tulokset eivät ole saatavilla."
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "Ei voida poistaa. Linnakkeessa on rakennuksia."
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "Toiminto ei saatavilla. Rakennus on vaurioitunut."
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "Toiminto ei saatavilla. Rakennusta ei ole rakennettu."
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "Toiminto ei saatavilla. Ei voida noutaa klaanin tietoja."
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "Toiminto ei saatavilla. Ei voida löytää klaania."
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "Toiminto ei saatavilla. Kuljetusta ei saatavilla."
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "Toiminto ei saatavilla. Ei voida päivittää rakennusta."
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "Toiminto evättiin. Palvelin on tilapäisesti poissa käytöstä."
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "Toiminto ei saatavilla. Klaani on ottanut käyttöön tulitaukopäivän."
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "Toiminto ei saatavilla. Klaani on ottanut käyttöön puolueettomuuden."
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "Toiminto ei käytettävissä. Ei voida asettaa puolustusvaihetta sovittuun aikaan."
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "Toiminto ei saatavilla. Toinen erillisosasto hallitsee sillanpäätä."
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "Toiminto ei saatavilla. Puolustusta ei ole suunniteltu."
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "Toiminto ei käytettävissä. Virheelliset tiedot."
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "Toiminto ei saatavilla. Puolustus ei ole käytössä."
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "Linnake ei väliaikaisesti ole käytettävissä."
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "Toiminto ei saatavilla. Rakennus on jo rakennettu."
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "Toiminto ei saatavilla. Ole hyvä ja odota, kunnes nykyinen toiminto on valmis."
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "Toiminto ei saatavilla. Hyökkäät toiseen klaaniin kyseisenä aikana."
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "Hyökkäyksen suunnittelu tätä klaania vastaan pyydettynä ajankohtana ei onnistu."
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "Virhe. Linnake on väliaikaisesti poissa käytöstä."
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "Toiminto ei saatavilla. Linnakkeen taso liian alhainen."
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "Toiminto ei saatavilla. Kaikkien rakennusten rakentaminen on pysäytetty."
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "Toiminto ei saatavilla. Ei sallittu."
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "Toiminto ei saatavilla. Ei voida liittyä taktiseen yksikköön."
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "Toiminto ei saatavilla tilapäisesti."
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "Toiminto ei saatavilla. Aikaa ei ole synkronoitu."
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "Toiminto ei saatavilla. Sinua ei ole liitetty rakennukseen."
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "Toiminto ei saatavilla. Pelaaja ei ole klaanin jäsen."
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "Toiminto ei saatavilla. Ei tarpeeksi pelaajia klaanissa."
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "Toiminto ei ole saatavilla. Ei tarpeeksi teollisuusresursseja rakennuksen varastossa."
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "Toiminto ei saatavilla. Klaani ei ole kirjanmerkittyjen listalla."
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "Toiminto ei saatavilla. Rakennusta ei ole rakennettu."
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "Toiminto ei saatavilla. Et ole minkään klaanin jäsen."
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "Toiminto ei saatavilla. Reserviä ei voida tällä hetkellä aktivoida."
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "Toiminto ei käytettävissä. Väärä rakennus."
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "Toiminto ei saatavilla. Reservi ei ole saatavilla tai valittuna."
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "Toiminto ei saatavilla. Väärä reservi."
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "Toiminto ei saatavilla. Väärä reservi."
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "Toiminto ei saatavilla. Rakennusta ollaan jo rakentamassa."
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "Toiminto ei saatavilla. Hyökkäystä ei ole olemassa."
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "Toiminto ei saatavilla. Reservi on jo käytössä."
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "Toiminto ei saatavilla. Reserviä valmistellaan jo."
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "Toiminto ei saatavilla. Rakentaminen on jo pysäytetty."
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "Toiminto ei saatavilla. Reservi ei ole saatavilla."
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "Toiminto ei saatavilla. Rakentamista ei ole pysäytetty."
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "Toiminto ei saatavilla. Palvelin on offline-tilassa."
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "Toiminto ei saatavilla. Paikka on jo miehitetty."
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "Toiminto ei saatavilla. Puolustus on jo poistettu käytöstä."
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "Toiminto ei saatavilla. Puolustusta ei ole vielä poistettu käytöstä."
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "Toiminto ei saatavilla. Koulutus ei ole valmis."
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "Toiminto ei saatavilla. Varasto on täynnä."
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "Toiminto ei saatavilla. Puolustus on jo suunniteltu tälle päivälle."
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "Kirjanmerkittyjen klaanien määrä on saavutettu."
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "Toiminto ei saatavilla. Valmisteltujen reservien maksimimäärä saavutettu."
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "Toiminto ei saatavilla. Rakennuksen varuskunta on täynnä."
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "Toiminto ei saatavilla. Kahakoiden määrä on saavutettu."
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "Toiminto ei saatavilla. Kuljetusta ei saatavilla tilapäisesti."
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "Toiminto ei saatavilla. Kuljetusten määrä ylitetty."
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "Toiminto ei saatavilla. Pelaaja ei ole valmis."
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "Toiminto ei saatavilla. Ei voida purkaa komentokeskusta."
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "Toiminto ei saatavilla. Virheellinen klaani."
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "Toiminto ei saatavilla. Virheellinen palvelin."
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "Toiminto ei saatavilla. Ei voida rakentaa rakennusta tälle alueelle."
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "Sinut on liitetty rakennukseen %(buildingName)s."
+
+msgid "fortification/fortBattleFinished"
+msgstr "Hyökkäysoperaatio pysäytettiin palvelimen teknisen vian takia."
+
+msgid "fortification/modernizationBuilding"
+msgstr "Päivitys tehty onnistuneesti. Rakennuksen %(buildingName)s taso nousi tasolle %(buildingLevel)s."
+
+msgid "fortification/notification/turnedOff"
+msgstr "Linnake on väliaikaisesti poissa käytöstä. Yritä myöhemmin uudelleen."
+
+msgid "fortification/notification/turnedOn"
+msgstr "\"Linnake: taistelut\" -pelimuoto on jälleen saatavilla."
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "Aktivoi reservi"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "Rakenna rakennus"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "Kirjanmerkitse klaani"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "Lisää reservi"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "Lisää pelaaja varuskuntaan"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "Ota puolustusvaihe uudelleen käyttöön"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "Säädä puolustusvaihetta"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "Säädä tulitaukoa"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "Vaihda palvelin"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "Muuta asetuksia"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "Säätä puolueettomuutta"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "Luo linnake"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "Luo erillisosasto"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "Poista rakennus"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "Poista linnake"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "Ajasta hyökkäys"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "Poista kirjanmerkitty klaani"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "Näytä klaanin tiedot"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "Näytä tietoja klaaneista"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "Pyydä erillisosaston tietoja"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "Poista puolustusvaihe käytöstä"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "Kuljetus"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "Rakennuksen päivitys"
+
+msgid "fortification/transport"
+msgstr "Kuljetus tehty onnistuneesti. %(res)s teollisuusresurssia kuljetettu rakennuksesta %(fromBuilding)s rakennukseen %(toBuilding)s."
+
+msgid "fortification/vacationSet"
+msgstr "Linnake säilyttää puolueettomuutensa %(vacationPeriod)s."
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "Toimenpide ei ole saatavilla."
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "Virhe koulutettaessa miehistön jäsentä. Ei tarpeeksi vapaata kokemusta."
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "Virhe koulutettaessa miehistön jäsentä. Tätä miehistön jäsentä ei ole olemassa."
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "Virhe koulutettaessa miehistön jäsentä. Yritä myöhemmin uudelleen."
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "Virhe koulutettaessa miehistön jäsentä. Yritä myöhemmin uudelleen."
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "Miehistön jäsenen kouluttaminen vapaalla kokemuksella ei onnistu.\nYritä myöhemmin uudelleen."
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "Miehistön jäsen koulutettiin.\nVapaata kokemusta käytetty: %(money)s."
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "Lasten ja teini-ikäisten peliriippuvuuden ehkäisemiseksi taisteluun liittyminen estetään. Palvelinyhteytesi katkaistaan %(blockTime)s."
+
+msgid "gameSessionControl/korea/note"
+msgstr "Excessive video game playing may interfere with your daily life."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "Peli-istunnon aikaa jäljellä: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "Aikaraja ylitetty. Et voi liittyä sen takia uuteen taisteluun. Palvelinyhteytesi katkaistaan kello %s."
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "Peli-istunnon pituus: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "Aikaa jäljellä keskiyöhön: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "Peliaikasi on päättynyt. Et voi lähteä uuteen taisteluun. Yhteytesi palvelimeen katkaistaan %(kickTime)s."
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "Peliajan rajoitus on poistettu tililtäsi"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "Vanhempien työkalujen asetuksia on vaihdettu."
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "Yhteytesi palvelimeen katkaistaan %(timeLimit)s."
+
+msgid "graficsOptionsFail"
+msgstr "Näytönohjain ei ole yhteensopiva. Virhe otettaessa käyttöön seuraavia grafiikka-asetuksia: %s."
+
+msgid "graficsPresetFail"
+msgstr "Näytönohjain ei ole yhteensopiva. Virhe otettaessa käyttöön valittua grafiikan tasoa."
+
+msgid "igr/customization/begin"
+msgstr "Ilmaiset maastokuviot, kirjoitukset ja tunnukset on saatavilla %(igrIcon)s."
+
+msgid "igr/customization/end"
+msgstr "%(igrIcon)s on erääntynyt. Ilmaiset maastokuviot, kirjoitukset ja tunnukset poistetaan vaunustasi."
+
+msgid "info/noAvailable"
+msgstr "Lisätietoja ei ole saatavilla."
+
+msgid "install_component"
+msgstr "%s \"%s\" asennettu vaunuun."
+
+msgid "install_vehicle_broken"
+msgstr "Ei voida asentaa moduulia %s \"%s\": vaunu on vaurioitunut. Korjaa vaunusi ja yritä uudelleen."
+
+msgid "install_vehicle_locked"
+msgstr "Vaunu on lukittu, ei voida asentaa moduulia %s \"%s\"."
+
+msgid "inventory/item/already_exists"
+msgstr "Moduuli %(typeString)s \"%(userString)s\" on jo saatavilla varikolla."
+
+msgid "inventory/item/equip_in_processing"
+msgstr "Pyyntö varusteen asentamiseksi lähetetty. Odotetaan palvelimen vastausta."
+
+msgid "inventory/item/not_found"
+msgstr "Moduulia %(typeString)s \"%(userString)s\" ei löydetty varikolta."
+
+msgid "inventory/vehicle/already_exists"
+msgstr "Vaunu %(userString)s on jo saatavilla varikolla."
+
+msgid "inventory/vehicle/not_found"
+msgstr "Vaunua %(userString)s ei löydetty varikolta."
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "Kutsua legioonalaiselle %(name)s ei voida lähettää."
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "Kutsua pelaajalle %(name)s ei voida lähettää: väärä klaani."
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Ei voida täydentää kulutustarvikkeita. Yritä myöhemmin uudestaan."
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Ei voida täydentää kulutustarvikkeita. Yritä myöhemmin uudestaan."
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Ei voida täydentää kulutustarvikkeita. Yritä myöhemmin uudestaan."
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Ei voida täydentää ammuksia. Yritä myöhemmin uudestaan."
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Ei voida täydentää ammuksia. Suurin määrä ammuksia on jo lastattuna."
+
+msgid "layout_apply/Component is not in shop"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Ei voida täydentää kulutustarvikkeita. Yritä myöhemmin uudestaan."
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Ei tarpeeksi krediittejä kulutustarvikkeiden ostamiseen. Yritä myöhemmin uudestaan."
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Ei tarpeeksi arvopapereita kulutustarvikkeiden ostamiseen."
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Ei tarpeeksi kultaa kulutustarvikkeiden ostamiseen. Yritä myöhemmin uudestaan."
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Ei voida täydentää kulutustarvikkeita. Yritä myöhemmin uudestaan."
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Väärä vaunu."
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Ei tarpeeksi krediittejä ammusten ostamiseen."
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Ei tarpeeksi kultaa ammusten ostamiseen."
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Vaunu on lukittu."
+
+msgid "layout_apply/error"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Yritä myöhemmin uudelleen."
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Väärä vaunu."
+
+msgid "layout_apply/success_money_spent"
+msgstr "Kaikkiaan käytetty ammuksiin %(money)s."
+
+msgid "layout_apply/vehicle_locked"
+msgstr "Virhe huollettaessa \"%(vehName)s\". Vaunu on lukittu."
+
+msgid "layout_apply/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "limitedUI/switchOff"
+msgstr "Piilotettujen käyttöliittymäelementtien vähitellen ilmestyminen on väliaikaisesti pois käytöstä."
+
+msgid "limitedUI/switchOn"
+msgstr "Piilotettujen käyttöliittymäelementtien vähitellen ilmestyminen on jälleen käytössä. Voit ottaa sen pois päältä asetuksista."
+
+msgid "locked_vehicle_error"
+msgstr "Tämä toiminto ei ole mahdollinen esiasetetuille vaunuille."
+
+msgid "login_to_other_game_unknown"
+msgstr "nykyinen peli-istunto keskeytettiin. Wargaming.net&nbsp;ID-tunnustasi käytettiin kirjautumisessa toiseen peliin"
+
+msgid "login_to_other_game_web"
+msgstr "nykyinen peli-istunto keskeytettiin. Yhteytesi palvelimeen katkaistiin pelin verkkosivujen kautta."
+
+msgid "login_to_other_game_wot"
+msgstr "nykyinen peli-istunto keskeytettiin. Wargaming.net&nbsp;ID-tunnustasi käytettiin kirjautumisessa peliin World&nbsp;of&nbsp;Tanks"
+
+msgid "login_to_other_game_wotb"
+msgstr "nykyinen peli-istunto keskeytettiin. Wargaming.net&nbsp;ID-tunnustasi käytettiin kirjautumisessa peliin World&nbsp;of&nbsp;Tanks&nbsp;Blitz"
+
+msgid "login_to_other_game_wotg"
+msgstr "nykyinen peli-istunto keskeytettiin. Wargaming.net&nbsp;ID-tunnustasi käytettiin kirjautumisessa peliin World&nbsp;of&nbsp;Tanks&nbsp;Generals"
+
+msgid "login_to_other_game_wowp"
+msgstr "nykyinen peli-istunto keskeytettiin. Wargaming.net&nbsp;ID-tunnustasi käytettiin kirjautumisessa peliin World&nbsp;of&nbsp;Warplanes"
+
+msgid "login_to_other_game_wows"
+msgstr "nykyinen peli-istunto keskeytettiin. Wargaming.net&nbsp;ID-tunnustasi käytettiin kirjautumisessa peliin World&nbsp;of&nbsp;Warships"
+
+msgid "lootboxes/open/server_error"
+msgstr "Virhe lahjaa vastaanotettaessa: palvelinvirhe."
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "Virhe lahjaa vastaanotettaessa. Ole hyvä ja odota, kunnes edellinen toiminto valmistuu."
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "Toiminto ei ole väliaikaisesti saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "mapbox/notification/primeTime"
+msgstr "Tiedustelutehtävä ei ole saatavilla ennen tulitauon päättymistä."
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "Tulitauko"
+
+msgid "maps_black_list/select/server_error"
+msgstr "Palvelinvirhe"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "Toiminto ei saatavilla. Ole hyvä ja odota, kunnes nykyinen toiminto on valmis."
+
+msgid "maps_black_list/select/success"
+msgstr "%(mapName)s -kartta estettiin satunnaistaisteluista. Voit vaihtaa valintaasi %(time)s kuluttua."
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "%(mapName)s kartta estettiin satunnaistaisteluista. Voit vaihtaa valintaasi %(time)s kuluttua tai avata ylimääräisen eston aktivoimalla WoT Premium-tilin tai tilaamalla WoT Plussan."
+
+msgid "maps_black_list/select/success/premium"
+msgstr "%(mapName)s kartta estettiin satunnaistaisteluista. Voit vaihtaa valintaasi %(time)s kuluttua tai avata ylimääräisen eston tilaamalla WoT Plussan."
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "%(mapName)s kartta estettiin satunnaistaisteluista. Voit vaihtaa valintaasi %(time)s kuluttua tai avata ylimääräisen eston aktivoimalla WoT Premium-tilin."
+
+msgid "maps_black_list/switch_off/body"
+msgstr "Tämä toiminnallisuus ei ole saatavilla teknisistä syistä.\nPahoittelemme häiriötä."
+
+msgid "maps_black_list/switch_off/title"
+msgstr "Karttojen estäminen ei väliaikaisesti ole saatavilla"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "Tekniset seikat on ratkaistu. Pahoittelemme aiheutuneesta häiriöstä."
+
+msgid "maps_black_list/switch_on/title"
+msgstr "Karttojen estäminen on jälleen saatavilla"
+
+msgid "maps_training/switch/title"
+msgstr "Maantieto"
+
+msgid "maps_training/switch_off/body"
+msgstr "Tämä pelimuoto on pois käytöstä."
+
+msgid "maps_training/switch_on/body"
+msgstr "Tämä pelimuoto on käytössä."
+
+msgid "memberRosterChangedMain"
+msgstr "%s siirsi pelaajan %s vakituiseen joukkueeseen."
+
+msgid "memberRosterChangedSecond"
+msgstr "%s siirsi pelaajan %s varajoukkueeseen."
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "Ei riittävästi muistia. Ole hyvä ja käynnistä peli uudelleen."
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "Ei tarpeeksi muistia. Alhainen tekstuurien laatu."
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "Ei tarpeeksi muistia. Keskitason tekstuurien laatu."
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "Ei riittävästi muistia. Grafiikka-asetuksia on muutettu. Käynnistä peli uudelleen."
+
+msgid "missingEvents/button"
+msgstr "Avaa"
+
+msgid "missingEvents/header"
+msgstr "Tapahtumat"
+
+msgid "missingEvents/text"
+msgstr "Tärkeitä tapahtumia, joita sinulta jäi väliin: "
+
+msgid "module_apply/error_is_current"
+msgstr "Moduuli %(kind)s \"%(name)s\" on jo asennettu."
+
+msgid "module_apply/error_need_gun"
+msgstr "Ei voida asentaa %(kind)s \"%(name)s\" vaunuun nykyisellä tykillä."
+
+msgid "module_apply/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" ei ole yhteensopiva nykyisen tykkitornin kanssa. Vaihda tykkitorni."
+
+msgid "module_apply/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" ei asennettu. Ei yhteensopivaa tykkiä varikolla."
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" ei ole yhteensopiva nykyisen tykkitornin kanssa. Vaihda tykkitorni."
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "Tyypin %(kind)s \"%(name)s\" ei sovi tähän vaunuun."
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "Moduuli %(kind)s \"%(name)s\" ei ole yhteensopiva kulutustarvikkeen \"%s\" kanssa."
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" on väärää tyyppiä."
+
+msgid "module_apply/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" on väärää kansallisuutta."
+
+msgid "module_apply/incompatibleEqs"
+msgstr "Kulutustarvike \"%(items)s\" lähetettiin varikolle nykyisen moduulin yhteensopimattomuuden takia."
+
+msgid "module_apply/invalid_vehicle"
+msgstr "Väärä vaunu. Ei voida asentaa moduulia %(kind)s \"%(name)s\"."
+
+msgid "module_apply/server_error"
+msgstr "Palvelin virhe asennettaessa moduulia %(kind)s \"%(name)s\". Yritä myöhemmin uudestaan."
+
+msgid "module_apply/success"
+msgstr "%(kind)s \"%(name)s\" asennettiin vaunuun."
+
+msgid "module_apply/success_gun_change"
+msgstr "%(kind)s \"%(name)s\" asennettiin vaunuun \"%(gun)s\" tykin kanssa."
+
+msgid "module_apply/vehicle_locked"
+msgstr "Vaunu on lukittu, ei voida asentaa moduulia %(kind)s \"%(name)s\"."
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "Ei voida asentaa moduulia %(kind)s \"%(name)s\": vaunu on vaurioitunut. Korjaa vaunusi ja yritä uudelleen."
+
+msgid "module_buy/error_is_current"
+msgstr "Moduuli %(kind)s \"%(name)s\" on jo asennettu."
+
+msgid "module_buy/error_need_gun"
+msgstr "Ei voida asentaa %(kind)s \"%(name)s\" vaunuun nykyisellä tykillä."
+
+msgid "module_buy/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" ei ole yhteensopiva nykyisen tykkitornin kanssa. Vaihda tykkitorni."
+
+msgid "module_buy/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" ei asennettu. Ei yhteensopivaa tykkiä varikolla."
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" ei mahdu tykkitorniin. Vaihda tykkitorni."
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "Tyypin %(kind)s \"%(name)s\" ei sovi tähän vaunuun."
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "Moduuli %(kind)s \"%(name)s\" ei ole yhteensopiva kulutustarvikkeen \"%s\" kanssa."
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" on väärää tyyppiä."
+
+msgid "module_buy/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" on väärää kansallisuutta."
+
+msgid "module_buy/invalid_module"
+msgstr "Ei voida ostaa tyypin %(kind)s \"%(name)s\". Väärä moduuli."
+
+msgid "module_buy/invalid_vehicle"
+msgstr "Väärä vaunu. Ei voida ostaa ja asentaa %(kind)s \"%(name)s\"."
+
+msgid "module_buy/not_enough_credits"
+msgstr "Ei voida ostaa \"%(name)s\" tyyppiä %(kind)s. Liian vähän krediittejä."
+
+msgid "module_buy/not_enough_gold"
+msgstr "Ei voida ostaa \"%(name)s\" tyyppiä %(kind)s. Liian vähän kultaa."
+
+msgid "module_buy/server_error"
+msgstr "Ei voida ostaa \"%(name)s\" tyyppiä %(kind)s. Yritä myöhemmin uudelleen."
+
+msgid "module_buy/server_error_centerDown"
+msgstr "Ei voida ostaa \"%(name)s\" tyyppiä %(kind)s. Palvelin ei ole tilapäisesti saatavilla."
+
+msgid "module_buy/success"
+msgstr "Moduuli %(kind)s \"%(name)s\" ostettu onnistuneesti (%(count)s kappale(tta)). Käytetty %(money)s."
+
+msgid "module_buy/vehicle_locked"
+msgstr "Vaunu lukittu. \"%(name)s\" tyyppiä %(kind)s ei voitu ostaa ja asentaa."
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "Ei voida ostaa \"%(name)s\" tyyppiä %(kind)s ja asentaa sitä. Korjaa vaunu ja yritä uudestaan."
+
+msgid "module_buy/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "module_sell/invalid_module"
+msgstr "Ei voida myydä: %(kind)s \"%(name)s\". Väärä moduuli."
+
+msgid "module_sell/server_error"
+msgstr "Ei voida myydä: %(kind)s \"%(name)s\". Yritä myöhemmin uudelleen."
+
+msgid "module_sell/success"
+msgstr "Moduuli %(kind)s \"%(name)s\" myyty onnistuneesti (%(count)s kappale(tta)). Saatu %(money)s."
+
+msgid "multipleSelling/success"
+msgstr "Saatiin %(money)s"
+
+msgid "nation_change/FAILED"
+msgstr "Virhe kokoonpanoa vaihdettaessa"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "Virhe kokoonpanoa vaihdettaessa"
+
+msgid "nation_change/error"
+msgstr "Virhe kokoonpanoa vaihdettaessa"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: kansallinen kokoonpano vaihdettu"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "Päivittäisiä tehtäviä päivitetään teknisistä syistä. Tehtävissä edistyminen on tallennettu."
+
+msgid "notrecruit_window/success"
+msgstr "Miehistön jäsen värvätty.\n%(colorTagOpen)s%(rank)s %(fullName)s\n(%(role)s, %(vehicleName)s)%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "Toiminto ei ole väliaikaisesti saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "Virhe lahjaa vastaanotettaessa: palvelinvirhe"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "Virhe lahjaa vastaanotettaessa: jotkut palkinnot viivästyivät – yritä ottaa ne vastaan myöhemmin."
+
+msgid "offers/switch_off/body"
+msgstr "\"Kotirintaman tarvikkeita\" -palvelu ei ole tällä hetkellä saatavilla."
+
+msgid "offers/unavailable_many"
+msgstr "Spesiaalit, jotka eivät ole saatavilla: %(count)s kappaletta."
+
+msgid "offers/unavailable_one"
+msgstr "Spesiaali ei saatavilla."
+
+msgid "optionalDevices_apply/error"
+msgstr "Varusteiden konfigurointivirhe. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "Varusteiden toimintovirhe: Ei riittävästi varoja ostoon."
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kultasi on käytettävissä, kun WG Walletin toiminta on palautettu."
+
+msgid "optionalDevices_remove/error"
+msgstr "Varusteiden konfigurointivirhe. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "Yksityisviestit pelaajilta, jotka eivät ole kaverilistallasi, eivät ole saatavilla tililläsi."
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "Yksityisviestit eivät ole saatavilla tililläsi."
+
+msgid "parentControl/linkText"
+msgstr "Anna päivä"
+
+msgid "parentControl/mainText"
+msgstr "Ole hyvä ja anna syntymäpäiväsi."
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "Yksityisviestit pelaajilta, jotka eivät ole kaverilistallasi, on estetty vanhempien työkaluilla."
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "Yksityisviestit on estetty vanhempien työkaluilla."
+
+msgid "parentControl/title"
+msgstr "Iän vahvistus"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "Siirto ei ole saatavilla. Palvelimen määrittäminen ei onnistu."
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "Palkinto saatu:"
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "Mene operaatioon"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "Tehtävä suoritettu"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "Vaihda vaunuja jatkaaksesi tehtävän suorittamista."
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "Operaatio: %(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "Suoritettu: %(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "\"%(campaignName)s\" kampanja suoritettu ansiokkaasti!"
+
+msgid "personalMission/operationComplete/title"
+msgstr "\"%(operationName)s\" operaatio suoritettu!"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "\"%(operationName)s\" operaatio suoritettu ansiokkaasti!"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "Kampanjat eivät ole väliaikaisesti saatavilla ylläpitotoimien tähden."
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "Kampanjat ovat taas saatavilla. Pahoittelemme häiriötä."
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "\"%(campaignName)s\" kampanja on väliaikaisesti pois käytöstä huoltotoimien tähden."
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "\"%(campaignName)s\" kampanja on jälleen saatavilla. Pahoittelemme häiriötä."
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "\"%(missionName)s\" -tehtävä \"%(operationName)s\" operaatiossa ei ole väliaikaisesti saatavilla huoltotoimien tähden."
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "\"%(missionName)s\" -tehtävä \"%(operationName)s\" operaatiossa on jälleen saatavilla. Pahoittelemme häiriötä."
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "\"%(operationName)s\" operaatio \"%(campaignName)s\" kampanjassa ei ole väliaikaisesti saatavilla huoltotoimien tähden."
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "\"%(operationName)s\" operaatio \"%(campaignName)s\" kampanjassa on jälleen saatavilla. Pahoittelemme häiriötä."
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "Virhe kampanjoita vaihdettaessa. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "personalMissions/badge"
+msgstr "Merkki %(name)s saatu."
+
+msgid "personalMissions/camouflageGiven"
+msgstr "Ainutlaatuinen maastokuvio saatu vaunulle %(vehicleName)s."
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "Ainutlaatuinen maastokuvio vaunulle %(vehicleName)s on saatavilla kaikille seuraavan kansakunnan vaunuille: %(nation)s."
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "Kaikki operaation edistyminen on tallennettu. Voit palata kampanjoihin koska hyvänsä."
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "\"%(campaignName1)s\" ja \"%(campaignName2)s\" kampanjat tauotettu"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "Tauotettuihin operaatioihin ja niiden tehtäviin on palattu."
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "\"%(campaignName1)s\" ja \"%(campaignName2)s\" kampanjoihin palattu"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "Kaikki operaation edistyminen on tallennettu. Voit palata kampanjaan koska hyvänsä."
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "\"%(campaignName)s\" kampanja tauotettu"
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "Tauotettuihin operaatioihin on palattu."
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "\"%(campaignName)s\" kampanjaan palattu"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "%(detailName)s on otettu käyttöön onnistuneesti."
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "Operaatio: %(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "Tehtävän aloittaminen alusta ei onnistu. Yritä myöhemmin uudelleen."
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "Toiminto ei saatavilla. Tehtävät ovat väliaikaisesti poissa käytöstä."
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "Tehtävän aloittaminen alusta ei onnistu tällä hetkellä. Yritä myöhemmin uudelleen."
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Tehtävän aloittaminen alusta ei onnistu tällä hetkellä. Ole hyvä ja odota, kunnes tämän tyyppinen vaunu ei ole taistelussa."
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Tehtävän aloittaminen alusta ei onnistu tällä hetkellä. Ole hyvä ja odota, kunnes vaunuryhmä ei ole taistelussa."
+
+msgid "personalMissions/discard/success"
+msgstr "Tehtävä %(quest)s on onnistuneesti aloitettu alusta."
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "Käskyjä saatu: %(count)s"
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "Käskyjä palautettu: %(count)s.\nNe voidaan käyttää uudelleen."
+
+msgid "personalMissions/operationActivation/body"
+msgstr "Ensimmäinen tehtävä kustakin sarjasta on aktivoitu."
+
+msgid "personalMissions/operationActivation/title"
+msgstr "\"%(operationName)s\" operaatio aktivoitu!"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "Palkinto saatu: \n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "\"%(name)s\" operaatio suoritettu!"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "Kaikki tehtävän edistyminen on tallennettu. Voit palata operaatioon koska hyvänsä."
+
+msgid "personalMissions/operationPaused/title"
+msgstr "\"%(operationName)s\" operaatio tauotettu"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "Tauotettuihin tehtäviin on palattu."
+
+msgid "personalMissions/operationResumed/title"
+msgstr "\"%(operationName)s\" operaatioon palattu"
+
+msgid "personalMissions/pause/server_error"
+msgstr "Tehtävää ei asetettu tauolle. Yritä myöhemmin uudelleen."
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "Toiminto ei saatavilla. Tehtävät ovat väliaikaisesti poissa käytöstä."
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "Tehtävän asettaminen tauolle ei tällä hetkellä onnistu. Yritä myöhemmin uudelleen."
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Tehtävän asettaminen tauolle ei tällä hetkellä onnistu. Ole hyvä ja odota, kunnes tämän tyyppinen vaunu ei ole taistelussa."
+
+msgid "personalMissions/pause/success_pause"
+msgstr "Tehtävä \"%(quest)s\" on asetettu onnistuneesti tauolle."
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "Tehtävän \"%(quest)s\" suorittamiseen on palattu onnistuneesti."
+
+msgid "personalMissions/pawn/server_error"
+msgstr "Virhe. Käskyn käyttäminen ei juuri nyt onnistu."
+
+msgid "personalMissions/pawn/success"
+msgstr "Käskyjä käytetty tehtävään \"%(questName)s\": %(count)s."
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "Virhe palkintoja saadessa. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s on otettu käyttöön onnistuneesti."
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "Ei voida ottaa vastaan palkintoa. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "Toiminto ei saatavilla. Tehtävät ovat väliaikaisesti poissa käytöstä."
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "Ei voida ottaa vastaan palkintoa. Palkinto ei ole saatavilla."
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "Ei voida ottaa vastaan palkintoa. Palkinto ei ole saatavilla."
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "Ei voida ottaa vastaan palkintoa. Virheellinen data."
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "Ei voida ottaa vastaan palkintoa. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "Toiminto ei saatavilla. Tehtävät ovat väliaikaisesti poissa käytöstä."
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "Ei voida ottaa vastaan palkintoa. Palkinto ei ole saatavilla."
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "Ei voida ottaa vastaan palkintoa. Palkinto ei ole saatavilla."
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "Ei voida ottaa vastaan palkintoa. Virheellinen data."
+
+msgid "personalMissions/select/server_error"
+msgstr "Tehtäviä ei ole valittu: %(questNames)s. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "Toiminto ei saatavilla. Tehtävät ovat väliaikaisesti poissa käytöstä."
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "Tehtäviä ei ole valittu: %(questNames)s. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Huomio! Vaihtaaksesi tehtävää odota, kunnes kaikki vaunut, joille tämä tehtävä on aktiivinen, ovat palanneet talliin."
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "Tehtäviä ei ole valittu: %(questNames)s. Suorita edeltävä operaatio."
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "Tehtäviä ei ole valittu: %(questNames)s. Ei tarpeeksi paikkoja."
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "Tehtäviä ei ole valittu: %(questNames)s. Ole hyvä ja ota vastaan palkinto."
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "Tehtäviä ei ole valittu: %(questNames)s. Tehtävä ei ole saatavilla."
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "Tehtäviä ei ole valittu: %(questNames)s. Tehtävä on jo suoritettu."
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "Tehtäviä ei ole valittu: %(questNames)s."
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "Tehtäviä ei ole valittu: %(questNames)s. Tämän sarjan tehtävä on jo valittu."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "Tehtäviä ei ole valittu: %(questNames)s. Tiedot virheellisiä."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "Tehtäviä ei ole valittu: %(questNames)s. Tiedot virheellisiä."
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Et voi juuri nyt valita tehtävää. Ole hyvä ja odota, kunnes vaunuryhmä ei ole taistelussa."
+
+msgid "personalMissions/select/success"
+msgstr "Tehtävät valittu onnistuneesti. Tällä hetkellä valitut tehtävät: %(questNames)s."
+
+msgid "personalMissions/tankmenGain"
+msgstr "Lisätty: naismiehistön jäsen"
+
+msgid "personalMissions30/select/server_error"
+msgstr "Virhe aktivoitaessa operaatiota. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "piggyBank/piggyBankFull"
+msgstr "Krediittivarasto on täynnä, mutta sen aukeamiseen on %(timeValue)s"
+
+msgid "piggybank/switch_off/body"
+msgstr "Tämä toiminnallisuus ei ole saatavilla teknisistä syistä.\nPahoittelemme häiriötä."
+
+msgid "piggybank/switch_off/title"
+msgstr "Krediittivarasto ei ole väliaikaisesti saatavilla"
+
+msgid "piggybank/switch_on/body"
+msgstr "Tekniset seikat on ratkaistu. Pahoittelemme aiheutuneesta häiriöstä."
+
+msgid "piggybank/switch_on/title"
+msgstr "Krediittivarasto on taas saatavilla"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "Tämä toiminnallisuus ei ole saatavilla teknisistä syistä.\nPahoittelemme häiriötä."
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "Pelaajatilaukset eivät ole enää saatavilla!"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "Tekniset seikat on ratkaistu. Pahoittelemme aiheutunutta häiriötä."
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "Pelaajatilaukset ovat nyt saatavilla"
+
+msgid "post_progression/server_error"
+msgstr "Palkinto miehistön jälkiedistymisestä\non jo saatu"
+
+msgid "post_progression/success"
+msgstr "Päiväys: %(at)s\nLisättiin varastoon: %(book_name)s (x%(amount)s).\nJälkiedistymisen kokemus muunnettiin."
+
+msgid "post_progression/success/title"
+msgstr "Kuitti"
+
+msgid "prebattle/hasLockedState"
+msgstr "Et voi hyväksyä kutsua, koska odotat jo taistelua. Poistu taistelujonosta tai taistele taistelu loppuun ja yritä uudelleen."
+
+msgid "prebattle/invites/sendInvite"
+msgstr "Kutsu lähetetty pelaajalle."
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "Kutsu pelaajalle %(name)s lähetetty."
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "Virhe ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "Virhe AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "Virhe BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "Virhe CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "Komentaja on poistunut joukkueesta."
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "Joukkue on hajotettu."
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "Pelimuoto ei väliaikaisesti oel saatavilla"
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "Kotiuttaminen."
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "Virhe PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "Aikaa kulunut."
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "Tuntematon virhe."
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "Virhe VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "Sinut on poistettu osastosta."
+
+msgid "prebattle/kick/type/unknown"
+msgstr "Sinut on poistettu joukkueesta."
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "Sinulla tulee olla vähintään kolme pelimuotoon soveltuvaa vaunua. Tutustu Rynnistyksestä -sivuun saadaksesi lisätietoja."
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "Automaattihaku"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "Vaihda puhekeskustelu"
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "Vaihda divisioonaa"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "Pelimuodon valinta"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "Alalajin vaihto"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "Pelimuodon valinta"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "Vaihda asetukset"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "Muokkaa joukkuetta"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "Vaihda tarkkailijatilaa"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "Lukitse paikka"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "Etsi"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "Kutsu joukkueeseen"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "Vahvista valmius"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "Vahvista joukkueen valmius"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "Valitse vaunut"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "Vaihda joukkueet"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "Etsi"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "Ainoastaan joukkueet, joilla on vähimmäismäärä vaunuja, voivat liittyä taisteluun: %(minCount)d."
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "Ainoastaan joukkueet, joilla on yhteenlaskettu taso välillä %(minTotalLevel)d ja %(maxTotalLevel)d, voivat liittyä taisteluun."
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "Ainoastaan vaunut tasolta %(minLevel)d tasoon %(maxLevel)d sallitaan."
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "Tämä vaunu ei ole sopiva tähän taisteluun."
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "Kaikki joukkueen jäsenet eivät voi olla tarkkailijoita."
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "Valittua vaunua voi käyttää vain \"Etulinja\" -pelimuodossa."
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "Valittu vaunu soveltuu vain \"Teräsmyrsky\" -pelimuotoon."
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "Valittuun vaunuun ladatut ammukset ja kulutustavarat eivät noudata taistelun ehtoja."
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "Väärä vaunun taso tähän taisteluun. Minimitaso tälle tyypille: %s. Maksimi vaunun taso tälle luokalle: %s."
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "Väärä vaunutyyppi tähän taisteluun. Sallitut tyypit: %s."
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "Vaunuun asennetut komponentit eivät noudata taistelun ehtoja."
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "Väärä vaunun taso tähän taisteluun. Minimitaso: %s. Maksimitaso: %s."
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "Tämän kansakunnan vaunut eivät voi liittyä tähän taisteluun. Sallitut kansakunnat: %s."
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "Yhteensopimaton vaunu"
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "Vaunuun ladatut ammukset eivät noudata taistelun ehtoja."
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "Yhteensopimaton vaunu"
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "Väärä vaunu tähän taisteluun."
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "Valittu vaunu ei ole valmis."
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "Toiminto ei saatavilla. Valitse vaunu ensin."
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "Joukkueeseen liittyminen epäonnistui."
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "Yhteensopimaton vaunu"
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "Valittu vaunu avataan taistelun aikana."
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "Nykyiselle joukkueelle ei löydetty vastustajia. Harkitse joukkueesi uudelleen järjestämistä."
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "Nykyiselle osastolle ei löydetty vastustajia. Harkitse joukkueesi uudelleen järjestämistä."
+
+msgid "premium/buyingSuccess"
+msgstr "Premium-tili ostettiin %(period)d päiväksi. %(money)s käytetty."
+
+msgid "premium/continueSuccess"
+msgstr "Premium-tiliä jatkettiin %(period)d päivää. %(money)s käytetty."
+
+msgid "premium/not_enough_gold"
+msgstr "Liian vähän kultaa ostaaksesi premium-tilin %(period)d päiväksi."
+
+msgid "premium/post_battle_premium"
+msgstr "Premium-tilin ostamisesta ansaitset %(xpDiff)d kokemusta ja %(creditDiff)d krediittejä."
+
+msgid "premium/server_error"
+msgstr "Ei voida ostaa premium-tiliä %(period)d päiväksi. Yritä myöhemmin uudelleen."
+
+msgid "premium/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "Toiminto ei saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "Toiminto ei saatavilla. Ole hyvä ja odota, kunnes nykyinen toiminto on valmis."
+
+msgid "premium_quests/switch_off/body"
+msgstr "Tämä toiminnallisuus ei ole saatavilla teknisistä syistä.\nPahoittelemme häiriötä."
+
+msgid "premium_quests/switch_off/title"
+msgstr "Premium-tehtävät eivät väliaikaisesti ole saatavilla"
+
+msgid "premium_quests/switch_on/body"
+msgstr "Tekniset seikat on ratkaistu. Pahoittelemme aiheutuneesta häiriöstä."
+
+msgid "premium_quests/switch_on/title"
+msgstr "Premium-tehtävät ovat jälleen saatavilla"
+
+msgid "progressiveReward/error"
+msgstr "Toiminto ei väliaikaisesti ole käytettävissä. Yritä myöhemmin uudelleen."
+
+msgid "progressiveReward/switch_off"
+msgstr "Suorituspalkinnot: tämä ominaisuus on väliaikaisesti pois käytöstä. Pahoittelemme tästä aiheutuvaa häiriötä."
+
+msgid "progressiveReward/switch_on"
+msgstr "Suorituspalkinnot ovat jälleen saatavilla."
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "Tehtävä vanhentui. Tarkempia tietoja ei ole saatavilla."
+
+msgid "queue/isInQueue"
+msgstr "Toiminto ei väliaikaisesti ole käytettävissä. Yritä myöhemmin uudelleen."
+
+msgid "rally/leaveDisabled"
+msgstr "Toiminto ei saatavilla.\nEt voi poistua pelimuodosta. Olet taktisen yksikön jäsen ja valmiina taisteluun."
+
+msgid "ranked/notification/available"
+msgstr "Tulitauko on päättynyt: luokitetut taistelut ovat jälleen saatavilla."
+
+msgid "ranked/notification/available/title"
+msgstr "Luokitetut taistelut ovat saatavilla"
+
+msgid "ranked/notification/congratulations"
+msgstr "Onneksi olkoon!"
+
+msgid "ranked/notification/notAvailable"
+msgstr "Luokitetut taistelut eivät ole saatavilla. Seuraa päivityksiä pelin portaalissa."
+
+msgid "ranked/notification/notSet"
+msgstr "Tämä pelimuoto ei ole saatavilla valitulla palvelimella."
+
+msgid "ranked/notification/notSet/title"
+msgstr "Luokitetut taistelut eivät ole saatavilla"
+
+msgid "ranked/notification/primeTime"
+msgstr "Luokitetut taistelut eivät ole saatavilla ennen ulkonaliikkumiskiellon päättymistä."
+
+msgid "ranked/notification/primeTime/title"
+msgstr "Tulitauko"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "Suoriuduit häikäisevästi luokitettujen taisteluiden kausilla 2020/2021 ansaiten paikkasi parhaiden pelaajien joukossa!"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "Onneksi olkoon!"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "Suoriuduit häikäisevästi luokitettujen taisteluiden kausilla 2020/2021 ansaiten paikkasi %(playerPosition)s parhaan pelaajien joukossa!"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "Onneksi olkoon!"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "Arvomerkki saatu:"
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "Arvomerkkejä saatu:"
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "Krediittejä saatu:"
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "Arvopapereita saatu:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "Vuosipäiväkolikoita saatu:"
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "Kultaa saatu:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "Paranneltu varuste lisätty valittavien joukkoon: %(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "Tyyli saatu:"
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "Tyylejä saatu:"
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "Luokituspoletteja saatu: %(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "Päivä Wargaming premium-tiliä"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "Päivä Wargaming premium-tiliä (x%(daysCount)s)"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "Päivä WoT Premium-tiliä"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "Päivä WoT Premium-tiliä (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "Vaiheen %(number)s tulokset"
+
+msgid "ranked/notifications/league"
+msgstr "Liiga: %(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "Kultainen"
+
+msgid "ranked/notifications/league2"
+msgstr "Hopeinen"
+
+msgid "ranked/notifications/league3"
+msgstr "Pronssinen"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "Kultaisen liigan luokituspoletteja saatu: %(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "Korkein sijoitusluokka: %(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s, %(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "Sijoitus tuloslistalla: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "Suoritit karsinnan"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "Kauden luokituspoletteja saatu: %(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "Tulokset luokitettujen taisteluiden kaudelta %(seasonNumber)s"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "Saavutit sijoitusluokan %(rankName)s (%(divisionName)s)"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "Pikakiitäjän merkki saatu. Palkinnot paranivat."
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "Pikakiitäjän merkki saatu"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "Uuden miehistönjäsenen värväys ei onnistu: vaunulla on ainutlaatuinen, pysyvä miehistö."
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "Ei voida värvätä uutta miehistön jäsentä. Palvelu ei väliaikaisesti ole saatavilla."
+
+msgid "recruit_window/financial_success"
+msgstr "Miehistön jäsen värvättiin %(vehName)s vaunuun. Krediittejä käytetty: %(credits)s."
+
+msgid "recruit_window/financial_success_credits"
+msgstr "Miehistön jäsen värvättiin %(vehName)s vaunuun.\nKrediittejä käytetty: %(price)s."
+
+msgid "recruit_window/financial_success_gold"
+msgstr "Miehistön jäsen värvättiin %(vehName)s vaunuun.\nKultaa käytetty: %(price)s."
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "Olet saavuttanut ilmaisten miehistön jäsenten rajan tälle päivälle."
+
+msgid "recruit_window/not_enough_credits"
+msgstr "Virhe miehistön jäsenen värväyksessä. Ei tarpeeksi krediittejä."
+
+msgid "recruit_window/not_enough_gold"
+msgstr "Virhe miehistön jäsenen värväyksessä. Ei tarpeeksi kultaa."
+
+msgid "recruit_window/not_enough_space"
+msgstr "Virhe värvätessä ja siirrettäessä miehistön jäsentä vaunuun. Ei riittävästi punkkia kasarmilla. Vapauta punkka tai osta lisää punkkia kasarmilla."
+
+msgid "recruit_window/server_error"
+msgstr "Miehistön jäsenen värvääminen ei onnistu. Yritä myöhemmin uudelleen."
+
+msgid "recruit_window/success"
+msgstr "Miehistön jäsen värvättiin %(vehName)s vaunuun ilmaiseksi."
+
+msgid "recruit_window/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "Miehistönjäsenen siirto ei onnistu: vaunulla on ainutlaatuinen, pysyvä miehistö."
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "Virhe korvattaessa miehistön jäsentä. Väärä vaunu."
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "Miehistön jäsentä ei voida lähettää Kasarmille. Kasarmilla ei ole vapaita punkkia."
+
+msgid "reequip_tankman/server_error"
+msgstr "Miehistön jäsentä ei voida korvata. Yritä myöhemmin uudelleen."
+
+msgid "reequip_tankman/success"
+msgstr "Miehistön jäsenen korvattiin."
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "Virhe korvatessa miehistön jäsentä. Vaunu on lukittu."
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "Virhe korvatessa miehistön jäsentä. Korjaa vaunu."
+
+msgid "remove_component"
+msgstr "%s \"%s\" poistettiin vaunusta."
+
+msgid "remove_vehicle_broken"
+msgstr "Ei voida poistaa %s \"%s\": vaunu on vaurioitunut. Korjaa vaunusi ja yritä uudelleen."
+
+msgid "remove_vehicle_locked"
+msgstr "Ei voida poistaa %s \"%s\": vaunu on lukittu."
+
+msgid "repair/credits_error"
+msgstr "%s krediittiä vaaditaan lisää '%s' korjaamiseksi."
+
+msgid "repair/server_error"
+msgstr "Virhe korjattaessa \"%s\". Yritä myöhemmin uudelleen."
+
+msgid "repair/success"
+msgstr "%s korjattu. Olet käyttänyt %s."
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "Miehistönjäsenen henkilötietojen korvaaminen ei onnistu: vaunulla on ainutlaatuinen, pysyvä miehistö."
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "Virhe vaihdettaessa henkilötietoja. Väärä vaunu."
+
+msgid "replace_tankman/not_enough_money"
+msgstr "Virhe vaihdettaessa henkilötietoja. Ei riittävästi krediittejä."
+
+msgid "replace_tankman/server_error"
+msgstr "Henkilötietojen vaihtaminen epäonnistui. Yritä myöhemmin uudelleen."
+
+msgid "replace_tankman/success"
+msgstr "Ulkonäkö korvattu onnistuneesti."
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "Virhe vaihdettaessa henkilötietoja. Vaunu on lukittu."
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "Virhe vaihdettaessa henkilötietoja. Korjaa vaunusi."
+
+msgid "request/isInCoolDown"
+msgstr "Operaatio \"%(request)s\" on pois käytöstä %(coolDown)s s. ajan."
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "Pätevyyksien nollaaminen ei onnistu.\nPalvelin ei ole saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "Kaikkien miehistön jäsenten kaikki pätevyydet on\nnollattu ilmaiseksi."
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "Virhe resursseja käytettäessä. Ole hyvä ja yritä uudelleen."
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "Resursseja palauttaessa tapahtui virhe. Ole hyvä ja yritä uudelleen."
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "Sinulla on vielä palautettavia vaunuja. Mene Kauppaan lähettääksesi vastaavat vaunut takaisin Talliin."
+
+msgid "restore_tankman/DISABLED"
+msgstr "Miehistön jäsenen palauttaminen ei väliaikaisesti ole saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "Ei voida palauttaa miehistön jäsentä."
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "Ei riittävästi kultaa miehistön jäsenen palauttamiseen."
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "Ei voida palauttaa miehistön jäsentä. Toiminnon aika on umpeutunut."
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "Ei voida palauttaa miehistön jäsentä. Yritä myöhemmin uudelleen."
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "Ei voida palauttaa miehistön jäsentä. Miehistön jäsenen palauttaminen ei väliaikaisesti ole saatavilla."
+
+msgid "restore_tankman/error"
+msgstr "Seuraavaa miehistön jäsentä ei voida enää palauttaa: %(tankman)s."
+
+msgid "restore_tankman/financial_success"
+msgstr "Miehistön jäsen palautettu.\nKrediittejä käytetty: %(money)s."
+
+msgid "restore_tankman/not_enough_space"
+msgstr "Ei voida palauttaa miehistön jäsentä. Ei riittävästi punkkia Kasarmilla."
+
+msgid "restore_tankman/server_error"
+msgstr "Ei voida palauttaa tätä miehistön jäsentä. Yritä myöhemmin uudelleen."
+
+msgid "restore_tankman/success"
+msgstr "Miehistön jäsen palautettu."
+
+msgid "retraining_change_tankman_role/success"
+msgstr "Miehistön jäsenen päätaito vaihdettiin."
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "Miehistön uudelleenkoulutus ei onnistu: vaunulla on ainutlaatuinen, pysyvä miehistö."
+
+msgid "retraining_crew/empty_list"
+msgstr "Virhe miehistön uudelleenkoulutuksessa. Miehistön jäseniä ei ole valittu."
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "Krediittejä käytetty: %(money)s."
+
+msgid "retraining_crew/financial_success_free"
+msgstr "Miehistö uudelleenkoulutettiin %(vehName)s vaunuun ilmaiseksi."
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "Kultaa käytetty: %(money)s."
+
+msgid "retraining_crew/invalid_operation"
+msgstr "Virhe koulutettaessa miehistöä uudelleen. Toiminto ei ole saatavilla."
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "Virhe miehistön uudelleenkoulutuksessa. Väärä vaunu."
+
+msgid "retraining_crew/server_error"
+msgstr "Miehistöä ei voitu uudelleenkouluttaa. Yritä myöhemmin uudelleen."
+
+msgid "retraining_crew/success"
+msgstr "Miehistö uudelleenkoulutettiin %(vehName)s vaunuun."
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "Virhe miehistön uudelleenkoulutuksessa. Vaunu on lukittu."
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "Virhe miehistön uudelleenkoulutuksessa. Korjaa vaunusi."
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "Miehistönjäsenen uudelleenkoulutus ei onnistu: vaunulla on ainutlaatuinen, pysyvä miehistö."
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "Krediittejä käytetty: %(money)s."
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "Miehistön jäsen uudelleenkoulutettiin %(vehName)s vaunuun ilmaiseksi."
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "Kultaa käytetty: %(money)s."
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "Virhe miehistön jäsenen uudelleenkoulutuksessa. Toiminto ei ole saatavilla."
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "Virhe miehistön jäsenen uudelleenkoulutuksessa. Väärä vaunu."
+
+msgid "retraining_tankman/server_error"
+msgstr "Miehistön jäsenen uudelleenkoulutus ei onnistu.\nYritä myöhemmin uudelleen."
+
+msgid "retraining_tankman/success"
+msgstr "Miehistön jäsen uudelleenkoulutettiin %(vehName)s vaunuun."
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "Virhe miehistön jäsenen uudelleenkoulutuksessa. Vaunu on lukittu."
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "Virhe miehistön jäsenen uudelleenkoulutuksessa. Korjaa vaunusi."
+
+msgid "return_crew/FORBIDDEN"
+msgstr "Miehistön palauttamaminen ei onnistu: vaunulla on ainutlaatuinen, pysyvä miehistö."
+
+msgid "return_crew/invalid_vehicle"
+msgstr "Virhe miehistön palauttamisessa. Väärä vaunu."
+
+msgid "return_crew/not_enough_space"
+msgstr "Miehistön jäsentä ei voida lähettää Kasarmille. Kasarmilla ei ole vapaita punkkia."
+
+msgid "return_crew/return_unavailable"
+msgstr "Osaa miehistön jäsenistä ei voida palauttaa vaunuun."
+
+msgid "return_crew/server_error"
+msgstr "Miehistöä ei voitu palauttaa. Yritä myöhemmin uudestaan."
+
+msgid "return_crew/success"
+msgstr "Miehistö siirrettiin onnistuneesti."
+
+msgid "return_crew/vehicle_locked"
+msgstr "Virhe miehistön palauttamisessa. Vaunu on lukittu."
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "Virhe miehistön palauttamisessa. Korjaa vaunusi."
+
+msgid "rotation/lock"
+msgstr "Seuraavat ryhmät on lukittu ja eivät ole enää saatavilla taisteluihin: %(groupNum)s."
+
+msgid "rotation/unlock"
+msgstr "Seuraavat ryhmät eivät ole lukittuja ja ovat saatavilla taisteluihin: %(groupNum)s."
+
+msgid "rotation/vehicleIsLocked"
+msgstr "Vaunu on lukittu eikä ole saatavilla taisteluihin."
+
+msgid "royale/notification/congratulations"
+msgstr "Onneksi olkoon!"
+
+msgid "royale/notification/primeTime"
+msgstr "\"Teräksen metsästäjä\" -pelimuodon taistelut eivät ole saatavilla ennen tulitauon loppumista. Tarkista aikataulu kalenterista."
+
+msgid "royale/notification/primeTime/title"
+msgstr "Tulitauko"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "Taso saavutettu: %(level)s"
+
+msgid "rts/notification/available"
+msgstr "Strategian taidon taistelut ovat saatavilla jälleen tällä palvelimella."
+
+msgid "rts/notification/available/title"
+msgstr "Taistelut ovat saatavilla"
+
+msgid "rts/notification/notAvailable"
+msgstr "Strategian taito -tapahtuma ei ole saatavilla. Seuraa uutisia pelin portaalissa."
+
+msgid "rts/notification/notSet"
+msgstr "Strategian taidon taistelut eivät ole saatavilla valitulla palvelimella."
+
+msgid "rts/notification/notSet/title"
+msgstr "Taistelut eivät ole saatavilla"
+
+msgid "rts/notification/primeTime"
+msgstr "Tulitauko voimassa. Strategian taidon taistelut eivät väliaikaisesti ole saatavilla."
+
+msgid "rts/notification/primeTime/title"
+msgstr "Tulitauko"
+
+msgid "securityMessage/bad_email"
+msgstr "Olet rekisteröinyt sähköpostiosoitteesi epäilyttävälle palvelimelle. Ole hyvä ja vaihda sähköpostia turvallisuussyistä. %(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "Muuta suojausasetuksia"
+
+msgid "securityMessage/no_phone"
+msgstr "Turvallisuussyistä, ole hyvä ja lisää tilitietoihin puhelinnumerosi. %(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "Salasanasi palauttamiseksi, ole hyvä ja aseta tilillesi turvallisuuskysymys tilin hallinnasta. %(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "Et ole vaihtanut salasanaasi kuukauteen. Ole hyvä ja vaihda salasanasi turvallisuussyistä. %(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "Tiliä luodessa määrittelemäsi salasana ei ole tarpeeksi vahva. Ole hyvä ja vaihda salasana. %(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "Ei voida myydä %s: vaunu on vaurioitunut. Korjaa vaunusi ja yritä uudelleen."
+
+msgid "sell_vehicle_locked"
+msgstr "Ei voida myydä %s: vaunu on lukittu."
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "Hyvin ansaittu palkinto -tapahtuma on taas käynnissä. Pahoittelemme häiriötä."
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "Hyvin ansaittu palkinto -tapahtuma on väliaikaisesti tauolla huoltotoimien tähden."
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "Virhe palkintoja vastaanotettaessa. Toiminto ei väliaikaisesti ole saatavilla."
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "Virhe palkintoa vastaanotettaessa. Ole hyvä ja yhteyttä Pelaajatukeen."
+
+msgid "seniority_awards/selection_timeout"
+msgstr "Palkinnot palvelusvuosistasi ovat myöhässä. Yritä myöhemmin uudelleen."
+
+msgid "serverInstallError"
+msgstr "Palvelinvirhe asennettaessa moduulia %s \"%s\". Yritä myöhemmin uudelleen."
+
+msgid "serverRemoveError"
+msgstr "Virhe irrotettaessa moduulia %s \"%s\". Yritä myöhemmin uudelleen."
+
+msgid "server_shut_down"
+msgstr "Pelipalvelinta käynnistetään uudelleen."
+
+msgid "session_tracker_kick"
+msgstr "Wargaming.net&nbsp;ID-tunnustasi käytettiin kirjautumisessa toiseen peliin. Nykyinen peli-istunto keskeytettiin."
+
+msgid "shell_buy/invalid_module"
+msgstr "Ei voida ostaa %(name)s. Väärä ammus."
+
+msgid "shell_buy/not_enough_credits"
+msgstr "Ei voida ostaa %(name)s. Liian vähän krediittejä."
+
+msgid "shell_buy/not_enough_gold"
+msgstr "Ei voida ostaa %(name)s. Liian vähän kultaa."
+
+msgid "shell_buy/server_error"
+msgstr "Ei voida ostaa %(name)s. Yritä myöhemmin uudelleen."
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "Ei voida ostaa %(name)s ammuksia. Palvelin ei väliaikaisesti ole saatavilla."
+
+msgid "shell_buy/success"
+msgstr "Ammuksia %(name)s ostettu onnistuneesti (%(count)s kappale(tta)). Käytetty %(money)s."
+
+msgid "shell_buy/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "shell_sell/invalid_module"
+msgstr "Ei voida myydä \"%(name)s\". Väärä ammus."
+
+msgid "shell_sell/server_error"
+msgstr "Ei voida myydä \"%(name)s\". Yritä myöhemmin uudelleen."
+
+msgid "shell_sell/success"
+msgstr "\"%(name)s\" ammuksia myyty onnistuneesti (%(count)s kappale(tta)). Saatu %(money)s."
+
+msgid "shells_apply/error"
+msgstr "Ammusten konfigurointivirhe. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "shells_apply/not_enough_money"
+msgstr "Ammusten toimintovirhe: Ei riittävästi varoja ostoon."
+
+msgid "shells_apply/success_money_spent"
+msgstr "Kaikkiaan käytetty ammuksiin %(money)s."
+
+msgid "shells_apply/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kultasi on käytettävissä, kun WG Walletin toiminta on palautettu."
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "Pyyntö moduulin ostosta ja asentamisesta lähetetty. Odotetaan palvelimen vastausta."
+
+msgid "shop/item/buy_server_error"
+msgstr "%(typeString)s \"%(userString)s\" Ostaminen ei onnistu. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "shop/item/buy_success"
+msgstr "Moduuli %(typeString)s \"%(userString)s\" ostettu onnistuneesti (%(count)d). Olet käyttänyt %(price)s."
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "Toiminto ei väliaikaisesti ole käytettävissä."
+
+msgid "shop/item/not_enough_money"
+msgstr "Ostaaksesi %(typeString)s \"%(userString)s\" tarvitset %(price)s lisää."
+
+msgid "shop/item/not_found"
+msgstr "Moduulia %(typeString)s \"%(userString)s\" ei löydetty kaupasta. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "Toiminto ei väliaikaisesti ole käytettävissä."
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "Ostaaksesi %(userString)s tarvitset %(price)s lisää."
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "Vuokrataksesi %(userString)s, tarvitset %(price)s enemmän."
+
+msgid "shop/vehicle/not_found"
+msgstr "Vaunua %(userString)s ei löydetty kaupasta. Yritä myöhemmin uudelleen."
+
+msgid "shop_resync"
+msgstr "Käyttöliittymä päivitettiin %(date)s kello %(time)s palvelin muutosten takia."
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "<font color='#E9E2BF'>\"{oldName}\"</font> ({amount}) muunnettiin: <font color='#E9E2BF'>\"{newName}\"</font> ({amount})"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "Päiväys: %(date)s\nDirektiivejä muunnettu: %(items)s."
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "Kuitti"
+
+msgid "squad/createError"
+msgstr "Vain premium-tilin käyttäjät voivat luoda osastoja."
+
+msgid "squad/kickedFromQueue"
+msgstr "Nykyiselle osastolle ei löydetty vastustajia. Harkitse joukkueesi uudelleen järjestämistä."
+
+msgid "squad/leaveDisabled"
+msgstr "Toiminto ei saatavilla.\nEt voi poistua osastosta. Olet osaston jäsen ja valmiina taisteluun."
+
+msgid "squad/memberJoined"
+msgstr "%s liittyi taktiseen yksikköön."
+
+msgid "squad/memberLeave"
+msgstr "%s poistui taktisesta yksiköstä."
+
+msgid "squad/memberNotReady"
+msgstr "%s ei ole valmis."
+
+msgid "squad/memberOffline"
+msgstr "Yhteys pelaajaan %s katkesi."
+
+msgid "squad/memberReady"
+msgstr "%s on valmis."
+
+msgid "squad/notSetReadyStatus"
+msgstr "Ei voida liittyä taisteluun osaston kanssa."
+
+msgid "squad/notValidDeleted"
+msgstr "%(vehName)s poistettiin osastosta, koska sen taso ei vastaa komentajan vaunun tasoa. Valitse saman tasoinen vaunu."
+
+msgid "squad/notValidDeletedFilter"
+msgstr "%(vehName)s poistettiin osastosta, koska komentaja vaihtoi vaatimuksia."
+
+msgid "squad/notValidEnqueueData"
+msgstr "Sinut poistettiin osastosta, koska komentaja vaihtoi vaatimuuksia tai et voi liittyä, koska vaunusi ei vastaa vaatimuksia. Ole hyvä ja valitse toinen vaunu."
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "%(vehName)s on poistettu sen perusteella, kuinka monta näitä vaunuja sallitaan per osasto. Valitse eri vaunu."
+
+msgid "squad_bonus/switch_off/body"
+msgstr "Tämä toiminnallisuus ei ole saatavilla teknisistä syistä.\nPahoittelemme häiriötä."
+
+msgid "squad_bonus/switch_off/title"
+msgstr "Osastobonus ei ole väliaikaisesti saatavilla"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "Tekniset seikat on ratkaistu. Pahoittelemme aiheutuneesta häiriöstä."
+
+msgid "squad_bonus/switch_on/title"
+msgstr "Osastobonus on jälleen saatavilla"
+
+msgid "ssr/unavailable"
+msgstr "Tallenteen lataaminen ei onnistu"
+
+msgid "steam_login_not_allowed"
+msgstr "Et voi käyttää tätä sovellusta pelaamiseen: Steam-tilisi on jo linkitetty Wargaming.net -tiliin. Saat lisää tietoa Pelaajatuesta."
+
+msgid "tankman/tankmanToRemove"
+msgstr "Miehistön jäsen erotettu."
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s p"
+
+msgid "techtree/action/header"
+msgstr "\"%(actionName)s\" -spesiaali"
+
+msgid "techtree/action/text"
+msgstr "Spesiaalin loppumiseen "
+
+msgid "techtree/action/text/closest"
+msgstr "Seuraavan spesiaalin päättymiseen: "
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "Syy: tämä vaunu on saatavilla vain Prime Gamingin jäsenille. Ole hyvä ja tarkasta Prime Gaming -tilauksesi tila."
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "Vaunu ei saatavilla"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "Päiväys: %(datetime)s\nVaunuja lisätty: %(vehicles)s\nLisätty: tallipaikka,%(crew)s 3D-tyyli."
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "Päivämärää: %(datetime)s\nVaunuja lisätty: %(vehicles)s\nLisätty: tallipaikka,%(crew)s ainutlaatuinen maastokuvio."
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr "100%% miehistö%(skills)s,"
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "Vaunuja lisätty"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "Päivämäärä: %(datetime)s\nPoistettu: %(vehicles)s, tallipaikka."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "Syy: tämä vaunu on saatavilla vain Prime Gamingin jäsenille. Ole hyvä ja tarkasta Prime Gaming -tilauksesi tila."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "Vaunuja poistettu"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "Vaunu on jälleen saatavilla"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "T-44-100 Igrovoy vaunu lisätty. Poistettiin: %(tanks)s."
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "Tehtäviä voi nyt suorittaa T-44-100 Igrovoy vaunulla."
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " ja "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)s krediittiä"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "Kaikki %(tanks)s vaunun miehistön jäsenet uudelleenkoulutettiin T-44-100 Igrovoy vaunuun."
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "Varusteet irrotettiin ja lähetettiin varastoon.\nMuokkauselementit lähetettiin varastoon.\nAmmukset ja direktiivit lähetettiin varastoon."
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "Varustus, muokkauselementit, taistelukokemus, tilastot ja palkinnot siirrettiin %(mergedTank)s vaunulta T-44-100 Igrovoy vaunulle."
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)s vapaata kokemusta"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr ", "
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "Kenttämuokkauksen kokemus hyvitettiin: %(compensation)s lisättiin."
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "Ostetut edistyvät koristeet hyvitettiin: %(value)s kultaa lisättiin."
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "Pelitilastot ja palkinnot %(mergedTank)s vaunulta siirrettiin T-44-100 Igrovoy vaunulle."
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "Taistelukokemus laskettiin yhteen ja siirrettiin T-44-100 Igrovoy vaunulle."
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "Hyvää onnea taistelukentälle!"
+
+msgid "telecomMergeResults/title"
+msgstr "Muutokset \"Igrovoy\" -tariffiin"
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "Vaunun valinta ja vuokraaminen on keskeytetty."
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "Vaunujen vuokraaminen ei ole tällä hetkellä saatavilla"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "Vaunun vuokraaminen on saatavilla"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "Onneksi olkoon! Sait %(count)s polettia."
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "Virhe siirrettäessä kultaa. Vastaanottava osapuoli kieltäytyi siirrosta."
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "Kullan siirto ei ole käytettävissä."
+
+msgid "tradingError/NO_WARES"
+msgstr "Virhe siirrettäessä kultaa. Ei tarpeeksi kultaa."
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "Olet saavuttanut siirtojen rajan. Yritä huomenna uudelleen."
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "Virhe siirrettäessä kultaa. Yritä myöhemmin uudelleen."
+
+msgid "training/error/AddPlayer"
+msgstr "Harjoitushuonevirhe. Maksimimäärä pelaajia joukkueessa on ylitetty."
+
+msgid "training/error/doAction"
+msgstr "Harjoitushuonevirhe. Yritä myöhemmin uudelleen."
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "Harjoitushuoneen virhe: Suurin joukkuekoko Rynnistys -pelimuodossa: %(numPlayers)s."
+
+msgid "training/error/selectObserver"
+msgstr "Harjoitushuonevirhe. Maksimimäärä pelaajia joukkueessa: %(numPlayers)s."
+
+msgid "training/error/swapTeams"
+msgstr "Palvelinvirhe yritettäessä vaihtaa joukkueita. Yritä myöhemmin uudestaan."
+
+msgid "transferXP/server_error"
+msgstr "Toiminto ei ole saatavilla. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "Toiminto ei saatavilla. Ei riittäviä oikeuksia sen suorittamiseen."
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "Toiminto ei saatavilla. Et ole minkään klaanin jäsen."
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "Virhe: valitun vaunun palveluskelpoisuuden palauttaminen ei onnistu."
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "Virhe: ei riittävästi korjausosia vaunun palveluskelpoisuuden palauttamiseksi."
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "Virhe: valitun vaunun palauttamisen hinta on muuttunut."
+
+msgid "unit/error/wgshEvent/common"
+msgstr "Virhe: toiminnon suorittaminen loppuun ei onnistu."
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "Virhe liityttäessä osastoon: tililtäsi on väliaikaisesti estetty tämän pelimuodon pelaaminen."
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "Toiminto ei saatavilla. Tili on palautettu."
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "Pelaaja ei voi liittyä joukkueeseen."
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "Toiminto ei saatavilla. Paikka on jo varattu."
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "Pelaaja on jo liittynyt joukkueeseen."
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "Ei voida siirtää komentajan oikeuksia."
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "Toiminto ei saatavilla. Virheellinen tilityyppi."
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "Toiminto ei käytettävissä. Virheellinen klaani."
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "Et voi liittyä joukkueeseen."
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "Vaunujen kokonaistaso on ylitetty."
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "Toiminto ei saatavilla. Virheellinen lista erillisosaston jäsenistä."
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "Virheellinen tallipaikan numero"
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "Toiminto ei saatavilla. Väärä vaunutyyppi osastossa taistelemiseen."
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "Virhe liityttäessä joukkueeseen. Vaunun taso on virheellinen."
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "Disivisioonan vaihtaminen ei ole saatavilla määriteltynä aikana."
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "Ei löydetä joukkuetta."
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "Ei voida lähettää kutsua."
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "Virhe liityttäessä osastoon: osastossa pelaaminen ei ole mahdollista ennen kuin karsinnat on suoritettu."
+
+msgid "unit/errors/COOLDOWN"
+msgstr "Toiminto on väliaikaisesti poissa käytöstä."
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "Viimeisimmän joukkueen toiminnon suorittaminen epäonnistui."
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "Vaunu ei ole valmiina taisteluun tai tallissa ei ole vaunuja."
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "Ei voitu määrittää vaunua paikkaan."
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "Toiminto ei saatavilla. Osa erillisosaston jäsenistä on vielä taistelussa."
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "Ei oikeuksia tähän toimintoon."
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "Tili lukittu."
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "Joukkue on jonossa tai hakutuloksissa."
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "Ei voida liittyä joukkueeseen. Pääsy estetty."
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "Joukkue ei ole jonossa."
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "Joukkue ei ole hakutuloksissa."
+
+msgid "unit/errors/NOT_READY"
+msgstr "Joukkue ei ole valmis."
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "Virhe liityttäessä osastoon: sinulla ei ole pelimuotoon soveltuvaa vaunua."
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "Ei voida lisätä pelaajaa joukkueen jäseneksi."
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "Toiminto ei saatavilla. Pelaajaa ei löytynyt."
+
+msgid "unit/errors/NO_UNIT"
+msgstr "Joukkuetta ei löytynyt."
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "Joukkuetta ei ole olemassa."
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "Toiminto ei saatavilla. Virhe näytettäessä vaunulistaa."
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "Toiminto ei saatavilla. Pelaaja on offline-tilassa."
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "Olet komentajan mustalla listalla."
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "Toiminto ei saatavilla. Edellinen taistelu ei ole vielä päättynyt."
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "Et voi poistaa pelaajaa joukkueesta."
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "Toiminto ei saatavilla. Yksi tai useampi pelaaja ei ole vielä hyväksynyt kutsua."
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "Toiminto ei saatavilla legioonalaisille."
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "Toiminto ei saatavilla. Paikka on lukittu."
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "Toiminto ei saatavilla. Paikka on jo varattu."
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "Toiminto ei saatavilla tälle paikalle."
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "Kahakoita ei ole sallittu määriteltynä aikana."
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "Ei voida vaihtaa eri pelimuotoon. Osastojäsenten määrä ylitetty."
+
+msgid "unit/errors/TIMEOUT"
+msgstr "Toiminto ei saatavilla. Aika on päättynyt."
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "Toiminto ei saatavilla. Maksimimäärä paikkoja lukittu."
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "Toiminto ei saatavilla. Maksimimäärä legioonalaisia."
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "Et voi luoda joukkuetta tai liittyä siihen."
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "Et voi luoda joukkuetta."
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "Toiminto ei saatavilla. Erillisosasto on palautettu."
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "Toiminto ei saatavilla. Vaunu ei täytä vaatimuksia."
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "Toiminto ei saatavilla. Valitse vaunu ensin."
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "Joukkuetta ei ole olemassa."
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "Toiminto ei saatavilla. Vaunu ei ole valmiina tai se ei täytä vaatimuksia."
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Sinulle on annettu oikeus hallita taistelureservejä."
+
+msgid "unit/notification/changeDivision"
+msgstr "Komentaja %(name)s valitsi %(division)s divisioonan."
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "Rajoittamaton"
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "Mestaritaso"
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "Keskitaso"
+
+msgid "unit/notification/giveLeadership"
+msgstr "%(userName)s on nimitetty joukkueen komentajaksi."
+
+msgid "unit/notification/playerAdded"
+msgstr "%(userName)s liittyi erillisosastoon."
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "%(userName)s liittyi osastoon taistelemaan tason %(tierRange)s vaunulla."
+
+msgid "unit/notification/playerOffline"
+msgstr "Yhteys pelaajaan %(userName)s katosi."
+
+msgid "unit/notification/playerOnline"
+msgstr "Yhteys pelaajaan %(userName)s palautui."
+
+msgid "unit/notification/playerRemoved"
+msgstr "%(userName)s poistui erillisosastosta."
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "Kutsu on jo lähetetty."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "Johtajan oikeudet on siirretty toiselle pelaajalle."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Komentajan taistelureservien luvat ja hallinta on siirretty toiselle pelaajalle."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Oikeus hallita taistelureservejä on siirretty toiselle pelaajalle."
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "Sinut poistettiin erillisosastosta: erillisosasto hajotettiin."
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "Sinut on poistettu erillisosastosta. Klaani on vaihtunut."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "Peliaikasi on päättynyt. Et voi lähteä uuteen taisteluun. Yhteytesi palvelimeen katkaistaan %(expiredTime)s."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "Yhdellä pelaajista on liian vähän peliaikaa jäljellä taistelun pelaamiseen kokonaan. Osasto on nyt valmisteluvaiheessa."
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "Legioonalaisten haku keskeytetty."
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "Toiminto ei ole saatavilla. Odotusaika umpeutui."
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "Virhe liityttäessä joukkueeseen. Sinut poistettiin joukkueesta."
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "Sinut poistettiin automaattisesti vapaaehtoisten listasta."
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "Komentaja poisti sinut."
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "Sinut poistettiin erillisosastosta: erillisosasto hajotettiin."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "Sinusta tuli erillisosaston komentaja."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Sinusta tuli erillisosaston komentaja.\nSinulle on annettu taistelureservien hallinta."
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "Toinen sillanpää on valittu hyökkäysoperaatiota varten."
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "Toinen taistelutyyppi on valittu."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "Haku on väliaikaisesti pois käytöstä: palvelimella on liian monta osastoa."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "Ei voida löytää pelaajia palvelinvirheen takia. Yritä myöhemmin uudelleen."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "Haku peruutettu: vähintään yhdellä osaston jäsenellä ei ole valittuun pelimuotoon soveltuvaa vaunua."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "Hakuaika päättyi. Vaadittuja pelaajia ei löytynyt."
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "Pelaajien liittyminen käynnissä. Ole hyvä ja odota."
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "Palveluskelpoiseksi palautettu vaunu: %(vehicleName)s"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "Ei voida vahvistaa valmiutta liittyä joukkueeseen."
+
+msgid "unload/button"
+msgstr "Mene kasarmeille"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "Miehistön lähettäminen kasarmille ei onnistu: vaunulla on ainutlaatuinen, pysyvä miehistö."
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "Virhe lähetettäessä miehistöä kasarmille. Väärä vaunu."
+
+msgid "unload_crew/server_error"
+msgstr "Miehistöä ei voida lähettää kasarmille. Yritä myöhemmin uudelleen."
+
+msgid "unload_crew/success"
+msgstr "Miehistö lähetettiin kasarmille."
+
+msgid "unload_crew/vehicle_locked"
+msgstr "Virhe lähetettäessä miehistöä kasarmille. Vaunu on lukittu."
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "Virhe lähetettäessä miehistöä kasarmille. Korjaa vaunu."
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "Miehistönjäsenen lähettäminen kasarmille ei onnistu: vaunulla on ainutlaatuinen, pysyvä miehistö."
+
+msgid "unload_tankman/button"
+msgstr "Mene kasarmeille"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "Virhe lähetettäessä miehistön jäsentä kasarmille. Väärä vaunu."
+
+msgid "unload_tankman/not_enough_space"
+msgstr "Tätä miehistön jäsentä ei voida lähettää kasarmille. Kasarmilla ei ole riittävästi punkkia."
+
+msgid "unload_tankman/server_error"
+msgstr "Miehistön jäsentä ei voida lähettää kasarmille. Yritä myöhemmin uudelleen."
+
+msgid "unload_tankman/success"
+msgstr "Miehistön jäsen lähetettiin kasarmille."
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "Virhe lähetettäessä miehistön jäsentä kasarmille. Korjaa vaunu."
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "Virhe lähetettäessä miehistön jäsentä kasarmille. Korjaa vaunu."
+
+msgid "unlocks/drawFailed"
+msgstr "Väärät asetukset. Kehityspuu on lukittu."
+
+msgid "unlocks/item/already_unlocked"
+msgstr "Moduuli %(typeString)s \"%(userString)s\" on tutkittu."
+
+msgid "unlocks/item/in_processing"
+msgstr "Tutkimispyyntö lähetetty. Odotetaan palvelimen vastausta."
+
+msgid "unlocks/item/server_error"
+msgstr "Palvelinvirhe tutkittaessa moduulia %(typeString)s \"%(userString)s\". Yritä myöhemmin uudestaan."
+
+msgid "unlocks/item/unlock_success"
+msgstr "Moduuli %(typeString)s \"%(userString)s\" tutkittu. Kokemusta käytetty: %(vehXP)s. Vapaata kokemusta käytetty: %(freeXP)s."
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "Vaunu %(userString)s on tutkittu."
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "Tutkimispyyntö lähetetty. Odotetaan palvelimen vastausta."
+
+msgid "unlocks/vehicle/server_error"
+msgstr "Palvelinvirhe tutkittaessa vaunua %(userString)s. Yritä myöhemmin uudestaan."
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "Vaunu %(userString)s tutkittu. Kokemusta käytetty: %(vehXP)s. Vapaata kokemusta käytetty: %(freeXP)s."
+
+msgid "upgradeTankman/server_error"
+msgstr "Virhe koulutettaessa miehistön jäsentä. Yritä myöhemmin uudelleen."
+
+msgid "upgradeTankman/success"
+msgstr "Koulutus saatettu päätökseen onnistuneesti."
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "Palkkiovarusteiden päivittäminen ei hetkellisesti ole saatavilla teknisistä syistä. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "Palkkiovarusteiden päivittäminen on jälleen saatavilla. Pahoittelemme aiheutuneesta häiriöstä."
+
+msgid "vehicle/restore/finished"
+msgstr "%(vehicleName)s ei ole saatavilla hylättäväksi: aika toimintoa varten on loppunut."
+
+msgid "vehicle/restoreDuration/days"
+msgstr "Voit palauttaa vaunun Kaupassa %(time)s päivän ajan."
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "Voit palauttaa vaunun Kaupassa %(time)s tunnin ajan."
+
+msgid "vehicleCompare/disabled"
+msgstr "Toiminto ei ole väliaikaisesti saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "%(vehicle)s esikatselu on saatavilla vain täyden pelin lataamisen jälkeen."
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "Pyyntö varusteen asentamiseksi lähetetty. Odotetaan palvelimen vastausta."
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "%(typeString)s \"%(userString)s\" Ostaminen ei onnistu. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "Moduuli %(typeString)s \"%(userString)s\" ostettu onnistuneesti (%(count)d). Olet käyttänyt %(price)s."
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "Moduuli %(typeString)s \"%(userString)s\" on jo saatavilla varikolla."
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "Moduuli %(typeString)s \"%(userString)s\" on tutkittu."
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "Ostaaksesi %(typeString)s \"%(userString)s\" tarvitset %(price)s lisää."
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "Moduulia %(typeString)s \"%(userString)s\" ei löydetty varikolta."
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "Moduulia %(typeString)s \"%(userString)s\" ei löydetty kaupasta. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "%(typeString)s \"%(userString)s\" tutkittu. Kokemusta kulutettu: %(unspentXP)s. Vapaata Kokemusta kulutettu: %(freeXP)s."
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "Tutkimispyyntö lähetetty. Odotetaan palvelimen vastausta."
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "Vaunu %(userString)s on jo saatavilla varikolla."
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "Vaunu %(userString)s on tutkittu."
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "Ostaaksesi %(userString)s tarvitset %(price)s lisää."
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "Vaunua %(userString)s ei löydetty varikolta."
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "Vaunua %(userString)s ei löydetty kaupasta. Yritä myöhemmin uudelleen."
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "%(userString)s tutkittu. Kokemusta käytetty: %(unspentXP)s. Vapaata Kokemusta käytetty: %(freeXP)s."
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "Eliittipalkintojen järjestelmä on nyt saatavilla %(vehicle)s vaunulle."
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "Eliittipalkinnot"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "\"%(modification)s\" muokkaus ostettiin onnistuneesti %(vehicle)s vaunulle."
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "Muokkaus ostettu"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "%(vehicle)s vaunun toiselle paikalle asetettiin onnistuneesti \"%(category)s\" kategoria."
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "Paikan kategorian asettaminen"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "Krediittejä kulutettu: %(value)s."
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Kaikki %(vehicle)s vaunun kaksoismuokkaus peruutettiin."
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "\"%(modification)s\" muokkaus peruutettiin %(vehicle)s vaunulle."
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "Muokkaus peruutettu"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "\"%(modifications)s\" muokkaukset peruutettiin %(vehicle)s vaunulle."
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "Taistelukokemusta kulutettu: %(value)s."
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "Vapaata kokemusta kulutettu: %(value)s."
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "Muokkauspuun virhe. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "Virhe"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "Perusmuokkaustaso %(level)s %(vehicle)s vaunulle tutkittiin ja ostettiin onnistuneesti."
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "Perusmuokkaustasot %(levels)s %(vehicle)s vaunulle tutkittiin ja ostettiin onnistuneesti."
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "Muokkaus tutkittu"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "%(vehicle)s vaunun toiselle paikalle asetettiin onnistuneesti \"%(category)s\" kategoria."
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "Paikan kategorian asettaminen"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "Avustava varustus on nyt saatavilla %(vehicle)s vaunulle."
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "Avustava varustus"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "Toisen paikan kategorian asettaminen %(vehicle)s vaunulle on nyt saatavilla."
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "Paikan kategorian saatavuus"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "Oleellinen varustus on nyt saatavilla %(vehicle)s vaunulle."
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "Oleellinen varustus"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "Muokkauspuu on nyt saatavilla %(vehicle)s vaunulle."
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "Kenttämuokkaus"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "Vaunun muokkauspuu on saatavilla. Voit muokata vaunujasi niiden roolien mukaan ja muuttaa niiden ominaisuuksia erilaisia muokkauksia käytämällä."
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "Päivitysvirhe. Ole hyvä ja yritä myöhemmin uudestaan."
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "Virhe"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "\"%(perk)s\" noodi tutkittu onnistuneesti %(vehicle)s vaunulle."
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "Noodi tutkittu"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "%(perk)s noodia onnistuneesti tutkittu %(vehicle)s vaunulle."
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "Noodeja tutkittu"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "Toiminto ei ole saatavilla. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "Ei voida ostaa %(vehName)s vaunua. Väärä vaunu."
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "Ei voida ostaa %(vehName)s vaunua. Ei riittävästi krediittejä."
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "Ei voida ostaa %(vehName)s vaunua. Ei riittävästi kultaa."
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "Operaatio ei saatavilla. Tämän kansakunnan vaunuja ei ole tutkittu."
+
+msgid "vehicle_buy/server_error"
+msgstr "Ei voida ostaa %(vehName)s vaunua palvelinvirheen takia. Yritä myöhemmin uudelleen."
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "Ei voida ostaa %(vehName)s vaunua. Palvelin on tilapäisesti poissa käytöstä."
+
+msgid "vehicle_buy/success"
+msgstr "%(vehName)s ostettu onnistuneesti. Käytetty %(price)s."
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "%(vehName)s vaunun poistaminen ei onnistu. Yritä myöhemmin uudelleen."
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "Ei voida poistaa %(vehName)s vaunua. Väärä vaunu."
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "Ei voida poistaa %(vehName)s vaunua. Ei riittävästi krediittejä."
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "Ei voida poistaa %(vehName)s vaunua. Ei riittävästi kultaa."
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "Ei voida poistaa %(vehName)s vaunua. Ei riittävästi punkkia kasarmilla."
+
+msgid "vehicle_remove/server_error"
+msgstr "Ei voida myydä %(vehName)s vaunua. Varmista, että vaunu ei ole missään taktisessa yksikössä tai yritä myöhemmin uudelleen."
+
+msgid "vehicle_remove/success/default"
+msgstr "%(vehName)s on poistettu onnistuneesti.\n%(money)s."
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "%(vehName)s on poistettu onnistuneesti."
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "%(vehName)s poistettiin onnistuneesti.\n%(gainMoney)s.\n%(spendMoney)s."
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "Ei voida poistaa %(vehName)s vaunua. Vaunu poistetaan automaattisesti."
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "Ei voida poistaa %(vehName)s vaunua. Vaunu on estetty."
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "Ei voida poistaa %(vehName)s vaunua. Vaunu tarvitsee korjauksia."
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "Ei voida poistaa %(vehName)s vaunua. Olet saavuttanut vaunujen päivärajan."
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "vehicle_rent/buyOption"
+msgstr "Huomio Mikäli haluat ostaa sen myöhemmin, on vaunu tarjolla sinulle alennettuun hintaan."
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "Ei voida vuokrata %(vehName)s vaunua. Väärä vaunu."
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "Ei voida vuokrata %(vehName)s vaunua. Ei riittävästi krediittejä."
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "Ei voida vuokrata %(vehName)s vaunua. Ei riittävästi kultaa."
+
+msgid "vehicle_rent/server_error"
+msgstr "Ei voida vuokrata %(vehName)s vaunua palvelinvirheen takia. Yritä myöhemmin uudelleen."
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "Ei voida vuokrata %(vehName)s vaunua. Vaunun vuokraus ei tilapäisesti ole käytettävissä."
+
+msgid "vehicle_rent/success"
+msgstr "Olet vuokrannut %(vehName)s vaunun %(rentPackageName)s. Käytit %(price)s. %(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "%(days)d päiväksi"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "vehicle_repair/credits_error"
+msgstr "%(needed)s vaaditaan %(vehName)s vaunun korjaamiseen."
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "%(needed)s vaaditaan %(vehName)s vaunun korjaamiseen."
+
+msgid "vehicle_repair/server_error"
+msgstr "Virhe korjattaessa %(vehName)s vaunua. Yritä myöhemmin uudelleen."
+
+msgid "vehicle_repair/success"
+msgstr "%(vehName)s korjattu. Olet käyttänyt %(money)s."
+
+msgid "vehicle_restore/DISABLED"
+msgstr "Vaunun palauttaminen ei väliaikaisesti ole saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "Ei voida palauttaa %(vehName)s. Vaunun palauttaminen ei väliaikaisesti ole saatavilla."
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "Ei voida palauttaa %(vehName)s. Väärä vaunu."
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "Ei voida palauttaa %(vehName)s. Ei riittävästi krediittejä."
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "Ei voida palauttaa %(vehName)s. Ei riittävästi kultaa."
+
+msgid "vehicle_restore/server_error"
+msgstr "Ei voida palauttaa %(vehName)s palvelinvirheen takia. Yritä myöhemmin uudelleen."
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "Ei voida palauttaa %(vehName)s. Vaunun palauttaminen ei väliaikaisesti ole saatavilla."
+
+msgid "vehicle_restore/success"
+msgstr "%(vehName)s palautettiin onnistuneesti. %(price)s käytetty."
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "Irrotuspakkaus käytettiin (x%(countDK)s)"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "%(vehName)s vaunun myyminen ei onnistu. Yritä myöhemmin uudelleen."
+
+msgid "vehicle_sell/disabledService"
+msgstr "%(vehName)s vaunun myyminen ei onnistu. Yritä myöhemmin uudelleen."
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "Ei voida myydä %(vehName)s vaunua. Ei tarpeeksi komponentteja varusteen irrottamiseen."
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "%(vehName)s vaunun myyminen ei onnistu. Väärä vaunu."
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "%(vehName)s vaunun myyminen ei onnistu. Ei riittävästi krediittejä."
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "%(vehName)s vaunun myyminen ei onnistu. Ei riittävästi kultaa."
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "%(vehName)s vaunun myyminen ei onnistu. Liian vähän punkkia kasarmilla."
+
+msgid "vehicle_sell/server_error"
+msgstr "Ei voida myydä %(vehName)s vaunua. Varmista, että vaunu ei ole missään taktisessa yksikössä tai yritä myöhemmin uudelleen."
+
+msgid "vehicle_sell/success"
+msgstr "%(vehName)s myytiin onnistuneesti.\n%(money)s.\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "%(vehName)s myytiin onnistuneesti.\n%(gainMoney)s.\n%(spendMoney)s.\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "Ei voida myydä %(vehName)s vaunua. Vaunu poistetaan automaattisesti."
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "Ei voida myydä %(vehName)s vaunua. Vaunu on lukittu."
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "Ei voida myydä %(vehName)s vaunua. Korjaa vaunusi."
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "Ei voida myydä %(vehName)s vaunua. Olet saavuttanut vaunujen päivärajan."
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "Virhe ostettaessa vaunupaikkaa. Ei riittävästi krediittejä."
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "Virhe ostettaessa vaunupaikkaa. Ei riittävästi kultaa."
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "Virhe ostettaessa paikkaa. Yritä myöhemmin uudelleen."
+
+msgid "vehicle_slot_buy/success"
+msgstr "Lisäpaikka ostettu talliisi. Käytetty %(money)s."
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "Virhe muutettaessa %(vehName)s vaunun nopeutettua miehistön koulutusta. Väärä vaunu."
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "%(vehName)s vaunun nopeutetun miehistön koulutuksen muuttaminen ei onnistu. Yritä myöhemmin uudelleen."
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "Nopeutettu miehistön kouluttaminen %(vehName)s vaunulla on pois päältä."
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "Nopeutettu miehistön kouluttaminen %(vehName)s vaunulla on päällä."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "Virhe muutettaessa %(vehName)s vaunun nopeutettua miehistön koulutusta. Vaunu on lukittu."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "Virhe muutettaessa %(vehName)s vaunun nopeutettua miehistön koulutusta. Korjaa vaunu."
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "Vaunun %(vehName)s vaihtokauppa epäonnistui. Väärä vaunu valittu."
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "%(vehName)s vaunun vaihtokauppa epäonnistui. Ei riittävästi krediittejä."
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "%(vehName)s vaunun vaihtokauppa epäonnistui. Ei riittävästi kultaa."
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "%(tradeOffVehName)s vaunun vaihtokauppa epäonnistui. Ei riittävästi tilaa kasarmilla."
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "Vaihtokauppatarjous on nyt saatavilla!"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "Vaihtokauppatarjous ei ole enää saatavilla!"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "Vaunun %(vehName)s vaihtokauppa epäonnistui. Palvelinvirhe. Ole hyvä ja yritä myöhemmin uudelleen."
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "Vaunun %(vehName)s vaihtokauppa epäonnistui. Osto/vaihto-kauppa-palvelu on väliaikaisesti pois käytöstä."
+
+msgid "vehicle_trade_in/success"
+msgstr "%(tradeOffVehName)s vaunu on poistettu. %(vehName)s on ostettu hintaan %(price)s."
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "Vaunun %(tradeOffVehName)s luovutus vaihtokauppaan epäonnistui. Vaunu poistetaan automaattisesti."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "Vaunun %(vehName)s vaihtokauppa epäonnistui. Vaunua ei voida vastaanottaa vaihtokaupassa."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "%(tradeOffVehName)s vaunun luovutus vaihtokauppaan ei onnistu. Vaunu ei ole vaihtokaupan kohde."
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "%(tradeOffVehName)s vaunun luovutus vaihtokauppaan ei onnistu. Vaunu ei ole saatavilla."
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "%(tradeOffVehName)s vaunun luovutus vaihtokauppaan ei onnistu. Korjaa vaunu."
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "%(tradeOffVehName)s vaunun luovutus vaihtokauppaan ei onnistu. Vaunu ei ole varastossa."
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "Toiminto ei saatavilla. Kaikki kultasi on käytettävissä, kun WG Walletin toiminta on palautettu automaattisesti."
+
+msgid "video/error"
+msgstr "Videon toistovirhe. Virhekoodi: %(code)s."
+
+msgid "w2gt/switchOff/description"
+msgstr "Pienoiskartan taistelualueet eivät ole väliaikaisesti saatavilla."
+
+msgid "w2gt/switchOff/header"
+msgstr "Teknisiä ongelmia"
+
+msgid "w2gt/switchOn/description"
+msgstr "Pienoiskartan taistelualueet ovat nyt saatavilla. Taisteluun!"
+
+msgid "w2gt/switchOn/header"
+msgstr "Toiminnallisuus palautettu"
+
+msgid "wallet/available"
+msgstr "WG Wallet synkronoitu onnistuneesti. Kaikki kultasi, arvopaperisi, krediittisi ja vapaa kokemuksesi ovat nyt saatavilla."
+
+msgid "wallet/available_freexp"
+msgstr "WG Wallet synkronoitu onnistuneesti. Kaikki vapaa kokemuksesi on nyt käytettävissä."
+
+msgid "wallet/available_gold"
+msgstr "WG Wallet synkronoitu onnistuneesti. Kaikki kultasi on nyt käytettävissä."
+
+msgid "wallet/not_available"
+msgstr "Saldon vastaanottaminen käynnissä. Kaikki kultasi, arvopaperisi, krediittisi ja vapaa kokemuksesi ovat pian saatavilla."
+
+msgid "wallet/not_available_freexp"
+msgstr "Palautetaan tilin saldoja. Kaikki vapaa kokemuksesi on pian saatavilla."
+
+msgid "wallet/not_available_gold"
+msgstr "Saldon vastaanottaminen käynnissä. Kaikki kultasi on kohta käytettävissä."
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "Viikoittaisen tehtävän uudelleen arpominen ei onnistu: toiminto estetty."
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "Viikoittaisen tehtävän uudelleen arpominen ei onnistu: epäkelpo tehtävä."
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "Viikoittaisen tehtävän uudelleen arpominen ei onnistu: tehtävä on jo suoritettu."
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "Viikoittaisen tehtävän uudelleen arpominen ei onnistu: toiminto ei käytössä."
+
+msgid "weekly_quests/reroll/success"
+msgstr "Viikoittainen tehtävä arvottu uudelleen onnistuneesti."
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "Viikoittaisen tehtävän uudelleen arpominen ei onnistu. Yritä myöhemmin uudelleen."
+
+msgid "weekly_quests/switch_off/body"
+msgstr "Viikoittaiset tehtävät eivät ole väliaikaisesti saatavilla. Pahoittelemme sen aiheuttamaa häiriötä."
+
+msgid "weekly_quests/switch_on/body"
+msgstr "Viikoittaiset tehtävät ovat taas saatavilla. Pahoittelemme häiriötä."
+
+msgid "winback/turnOffBattlesError"
+msgstr "Lämmittelystä poistuminen ei onnistu. Yritä myöhemmin uudestaan."
+
+msgid "window/buttons/close"
+msgstr "Sulje"
+
+msgid "wrong_slot"
+msgstr "%s \"%s\" ei sovi paikkaan %s."

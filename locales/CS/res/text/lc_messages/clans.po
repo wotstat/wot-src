@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "Klanový chat"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "Klikněte, abyste napsali a odeslali zprávu do klanového chatu."
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "Klanový chat"
+
+msgid "clan/header/creationDate"
+msgstr "Založen %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "Přihlášky a pozvánky"
+
+msgid "clan/header/requestSent"
+msgstr "Přihláška podána"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "Podat přihlášku"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "Klikněte, abyste podali svou přihlášku do tohoto klanu."
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "Podat přihlášku"
+
+msgid "clan/post/combatOfficer"
+msgstr "Bojový důstojník"
+
+msgid "clan/post/commander"
+msgstr "Velitel"
+
+msgid "clan/post/executiveOfficer"
+msgstr "Výkonný důstojník"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "Zpravodajský důstojník"
+
+msgid "clan/post/juniorOfficer"
+msgstr "Mladší důstojník"
+
+msgid "clan/post/personnelOfficer"
+msgstr "Posádkový důstojník"
+
+msgid "clan/post/private"
+msgstr "Vojín"
+
+msgid "clan/post/quartermaster"
+msgstr "Proviantní důstojník"
+
+msgid "clan/post/recruit"
+msgstr "Rekrut"
+
+msgid "clan/post/recruiter"
+msgstr "Náborový důstojník"
+
+msgid "clan/post/reservist"
+msgstr "Záložník"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "Chyba při zobrazení jména"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "Údaje v tabulce byly aktualizovány."
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "Požadavky náboru"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "Lze editovat"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "Klan nemá žádné čekající přihlášky."
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "Klan nemá žádné propadlé přihlášky."
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "Pozvat do klanu"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "Klikněte na tlačítko %(invite)s, abyste odeslali pozvánky\nnovým hráčům."
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "Klan neposlal za posledních 28 dní žádné pozvánky."
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "Klan nemá za posledních 28 dní žádné čekající pozvánky."
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "Klan nemá za posledních 28 dní žádné propadlé pozvánky."
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "Klan nemá za posledních 28 dní žádné zpracované pozvánky."
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "Klan nemá žádné zpracované přihlášky."
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "Ze serveru nebyly získány žádné údaje. \nZkuste to později."
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "Chyba serveru"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "Čekající (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "Všechny (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "Propadlé (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "Obdrženo rozhodnutí (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "Zpracované (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "Volné pozice v klanu: %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "Pozvat do klanu"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "Máte tři dny na to, abyste zpracovali přihlášky ke vstupu do klanu. Přihlášky a pozvánky se ukládají na 28 dní, a pak jsou automaticky odstraněny."
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "Nelze pozvat hráče: klan je plný."
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "Nelze pozvat hráče: nábor klanu je v tuto chvíli uzavřen."
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "Přijata"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "%(days)d d ke zpracování"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "Odmítnuta"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "Chyba"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "Propadla"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "%(hours)d h ke zpracování"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "%(min)d min ke zpracování"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "Odeslána"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "Pozvánky (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "Přihlášky (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "Akce"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "Pozvat"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "Odeslána"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "Ukázat více"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "Stav"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "Hráč"
+
+msgid "clanInvitesWindow/title"
+msgstr "Přihlášky a pozvánky"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "Klikněte, abyste pozvali hráče do klanu."
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "Podle pozvánky od:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "Pozvánka přijata."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "Pozvánka odmítnuta."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "Pozvánka odeslána."
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "Odesilatel:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Toto tlačítko se zapne při přijetí nových údajů ze serveru."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Klikněte pro zobrazení nových přihlášek a pozvánek."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "Obnovit seznam"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "Původce rozhodnutí:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "Přihláška přijata."
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "Přihláška odmítnuta."
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "Přihláška propadla"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "Přihláška podána."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "Nelze přidat nové hráče: klan je plný."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Hráč nedávno opustil klan. Do klanu ho můžete přijmout až po:"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "Nelze pozvat nové hráče: klan je plný."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Průměrné zkušenosti za bitvu hráče, kterému byla pozvánka odeslána (včetně prémiového účtu)."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Průměrné zkušenosti za bitvu"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Bitvy odehrané hráčem, kterému byla pozvánka odeslána."
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Bitvy"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "Klikněte, abyste pozvali tohoto hráče do klanu."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Zpráva obsažená v pozvánce od klanu."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Zpráva"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "Osobní hodnocení hráče, kterému byla pozvánka odeslána."
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "Osobní hodnocení"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "Datum a čas, kdy byla pozvánka do klanu odeslána."
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "Odeslána"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Stav pozvánky do klanu.\nPozvánka může být buď čekající, propadlá nebo zpracovaná."
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Stav"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "Jméno hráče, kterému byla pozvánka odeslána."
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "Hráč"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Míra vítězství hráče, kterému byla pozvánka odeslána."
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Vítězství"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Přihláška může být buď přijata, nebo odmítnuta."
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Akce"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "Průměrné zkušenosti za bitvu hráče, který přihlášku podal (včetně prémiového účtu)"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "Průměrné zkušenosti za bitvu"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "Celkový počet odehraných bitev hráče, který přihlášku podal"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "Bitvy"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "Zpráva od hráče, která je obsažená v jeho přihlášce"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "Zpráva"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "Osobní hodnocení hráče, který přihlášku podal"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "Osobní hodnocení"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "Stav přihlášky do klanu.\nPřihláška může být buď čekající, propadlá nebo zpracovaná."
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "Stav"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "Jméno hráče, který přihlášku podal."
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "Hráč"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "Míra vítězství hráče, který přihlášku podal"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "Vítězství"
+
+msgid "clanLanding/notification/archived"
+msgstr "Zpráva byla poslána do archivu."
+
+msgid "clanLanding/notification/commonError"
+msgstr "Technická chyba: nelze dokončit operaci se zprávou."
+
+msgid "clanLanding/notification/deleted"
+msgstr "Zpráva odstraněna."
+
+msgid "clanLanding/notification/edited"
+msgstr "Zpráva zveřejněna."
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "Byl překročen maximální počet znaků."
+
+msgid "clanLanding/notification/limitReached"
+msgstr "V klanu byl již zveřejněn maximální počet zpráv."
+
+msgid "clanLanding/notification/noPermission"
+msgstr "Nedostatečná oprávnění ke správě klanových zpráv: vaše pozice byla změněna."
+
+msgid "clanLanding/notification/notExist"
+msgstr "Zpráva byla odstraněna a poslána do archivu."
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "Zpráva obsahuje výrazy porušující <a href=\"event:clanRulesLink\">klanová pravidla</a>."
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "Čekající pozvánky: %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "Odmítnout vybrané (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "Moje pozvánky do klanu"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "Získávání údajů..."
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "Ještě nemáte žádné pozvánky do klanu."
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "Vybrat všechny přihlášky"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "Akce"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "Název klanu"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "Stav"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "Pozvánky do klanu"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Seznam budete moci aktualizovat po získání nových údajů."
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Klikněte pro aktualizaci tabulky."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Nedávno jste opustili klan. Pozvánky do klanu můžete přijmout až po:"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Průměrné zkušenosti získané za bitvu členy klanu, který pozvánku poslal (vážený průměr v režimu náhodné bitvy)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Průměrné zkušenosti za bitvu"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Průměrný počet bitev odehraných členy klanu, který pozvánku poslal (pouze v režimu náhodné bitvy)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Bitvy klanu"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "Název klanu, který vám pozvánku poslal"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "Název klanu"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Zpráva od klanu, který vám pozvánku poslal"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Zpráva"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "Celkové hodnocení klanu, který vám pozvánku poslal"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "Hodnocení klanu"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Zobrazuje stav pozvánky do klanu a čas, který ke zpracování dané pozvánky zbývá."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Stav"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Míra vítězství členů klanu, který pozvánku poslal (vážený průměr v režimu náhodné bitvy)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Vítězství klanu"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Pozvánku můžete buď přijmout, nebo odmítnout. Přijetím pozvánky automaticky odmítnete pozvánky od ostatních klanů."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Akce"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "Profil klanu"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "Zavřít"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "Vítejte v klanu!"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "Nyní můžete bojovat v bitvách na globální mapě, budovat a bránit své opevnění a plnit speciální mise."
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "Zpravodaj"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "Váš klan: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "Omlouváme se za nepříjemnosti. Zkuste to prosím později."
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "Opevnění je dočasně nedostupné"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "Omlouváme se za nepříjemnosti.\nZkuste to později."
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "Chyba při načítání údajů"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "Profil klanu"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "Opevnění"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "Globální mapa"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "Členové klanu"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "Opevnění"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "Shrnutí"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "Pozvat hráče do klanu"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "Akce není k dispozici. Hráče můžete zvát do klanu pouze po jednom."
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "Přidat všechny kontakty na seznam příjemců."
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "Bitvy za posledních 28 dní"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "Ofenzívy za posledních 28 dní"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "Velitel klanu"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "Ještě není založeno"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "Žádné odehrané bitvy.\nŽádné vlastněné provincie."
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "Úroveň opevnění"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "Pokladnice"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "Žádné odehrané bitvy"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "Provincie"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Elo hodnocení X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Elo hodnocení VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Elo hodnocení VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "Šarvátky za posledních 28 dní"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "Celkem členů"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "Detaily"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "Detaily"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "Podat přihlášku"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "Klan nemá žádné motto."
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "Detaily globální mapy"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "Přejít na mapu"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "Podrobnosti jsou dočasně nedostupné"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "Nelze vstoupit do klanu."
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "Přehled požadavků náboru %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "Už jste členem\njiného klanu."
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "Už jste dostali pozvánku\nke vstupu do tohoto klanu."
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s Dočasně omezeno"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s Dočasně omezeno"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "Tento klan nepřijímá přihlášky %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "Přihláška podána."
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "Synchronizace údajů..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "Elo hodnocení klanu v X. divizi ofenzív"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Elo hodnocení X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "Elo hodnocení klanu v VI. divizi"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Elo hodnocení VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "Elo hodnocení klanu v VIII. divizi ofenzív"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Elo hodnocení VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "Ofenzívy klanu za posledních 28 dní"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "Ofenzívy za posledních 28 dní"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "Úroveň opevnění je stejná jako úroveň jeho velitelského centra."
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "Úroveň opevnění"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "Šarvátky klanu za posledních 28 dní"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "Šarvátky za posledních 28 dní"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "Elo hodnocení klanu v X. divizi bitev na globální mapě"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Elo hodnocení X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "Elo hodnocení klanu v VI. divizi bitev na globální mapě"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Elo hodnocení VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "Elo hodnocení klanu v VIII. divizi bitev na globální mapě"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Elo hodnocení VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "Bitvy odehrané klanem na globální mapě za posledních 28 dní"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "Bitvy za posledních 28 dní"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "Provincie na globální mapě, které klan v současné chvíli vlastní."
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "Provincie"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "Byl podán maximální počet přihlášek."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "Nelze podat přihlášku"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "Byl podán maximální počet přihlášek."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "Nelze podat přihlášku"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "Klan přihlášky nepřijímá."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "Nelze podat přihlášku"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "Hodnocení klanu nebylo za posledních 28 dní aktualizováno."
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "Zastaralé informace"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "Celkové hodnocení závisí na efektivnosti klanu v režimu opevnění a na globální mapě."
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "Celkové hodnocení"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "Celkové hodnocení"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "Profil klanu"
+
+msgid "globalMap/disabled"
+msgstr "Bitvy na globální mapě jsou ve vašem regionu\nmomentálně nedostupné"
+
+msgid "globalMapView/level10"
+msgstr "X. úroveň"
+
+msgid "globalMapView/level6"
+msgstr "VI. úroveň"
+
+msgid "globalMapView/level8"
+msgstr "VIII. úroveň"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "Tato provincie vám nepřináší žádné příjmy, protože její propojení s velitelským centrem bylo ztraceno, nebo byla provincie vypleněna."
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "Nepřináší žádné příjmy"
+
+msgid "globalMapView/noProvince"
+msgstr "Klan nevlastní žádné provincie"
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "Oblíbený hlavní čas: %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "Globální mapa je bojištěm, na kterém klany soutěží o strategickou nadvládu. Klanoví důstojníci zde tráví nejvíce času plánováním taktiky a nasazováním sil pro strategické manévry."
+
+msgid "globalMapView/promo/header"
+msgstr "Globální mapa"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "Detaily globální mapy"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "Přejít na mapu"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "Bitvy"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "Celkový počet bitev v X. divizi na globální mapě"
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "Bitvy"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Elo hodnocení"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "Hodnocení klanu v X. divizi na globální mapě"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Elo hodnocení"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "Oblíbená mapa"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "Mapa, na které klan odehrál nejvíce bitev v X. divizi za posledních 28 dní"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "Oblíbená mapa: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "Pozice v hodnocení"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "Pozice klanu v X. divizi bitev na globální mapě"
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "Pozice v hodnocení"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "Vítězství"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "Celková míra vítězství v X. divizi na globální mapě"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "Vítězství"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "Bitvy"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "Celkový počet bitev v VI. divizi na globální mapě"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "Bitvy"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Elo hodnocení"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "Hodnocení klanu v bitvách VI. divize na globální mapě"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Elo hodnocení"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "Oblíbená mapa"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "Mapa, na které klan odehrál nejvíce bitev v VI. divizi za posledních 28 dní."
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "Oblíbená mapa: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "Pozice v hodnocení"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "Pozice klanu v hodnocení bitev VI. divize na globální mapě"
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "Pozice v hodnocení"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "Vítězství"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "Celková míra vítězství v bitvách VI. divize na globální mapě"
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "Vítězství"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "Bitvy"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "Celkový počet bitev v VIII. divizi na globální mapě"
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "Bitvy"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Elo hodnocení"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "Hodnocení klanu v bitvách VIII. divize na globální mapě"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Elo hodnocení"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "Oblíbená mapa"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "Mapa, na které klan odehrál nejvíce bitev v VIII. divizi za posledních 28 dní"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "Oblíbená mapa: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "Pozice v hodnocení"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "Pozice klanu v hodnocení bitev VIII. divize na globální mapě"
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "Hodnocení klanu"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "Vítězství"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "Celková míra vítězství v bitvách VIII. divize na globální mapě"
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "Vítězství"
+
+msgid "globalMapView/stats/battles"
+msgstr "Bitvy na globální mapě"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "Celkový počet bitev, které klan odehrál na globální mapě"
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "Bitvy na globální mapě"
+
+msgid "globalMapView/stats/seized"
+msgstr "Vlastněno provincií"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "Celkový počet provincií, které klan vlastní. Počítají se také provincie, které klan vlastnil dříve, ale od té doby byly ztraceny."
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "Vlastněno provincií"
+
+msgid "globalMapView/stats/wins"
+msgstr "Vítězství napříč členy klanu"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "Celková míra vítězství členů klanu v bitvách na globální mapě"
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "Vítezství klanu"
+
+msgid "globalMapView/table/days"
+msgstr "Dny"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "Časový úsek ve dnech, během kterého klan vlastní provincii na globální mapě."
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "Dny"
+
+msgid "globalMapView/table/front"
+msgstr "Fronta"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "Název vybrané fronty"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "Fronta"
+
+msgid "globalMapView/table/income"
+msgstr "Příjmy"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "Zlaťáky, které provincie vydělá za jeden den"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "Příjmy"
+
+msgid "globalMapView/table/map"
+msgstr "Mapa"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "Název mapy, na které probíhají bitvy o provincii."
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "Mapa"
+
+msgid "globalMapView/table/primeTime"
+msgstr "Hlavní čas"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "Naplánovaný čas, kdy začnou bitvy o provincii."
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "Hlavní čas"
+
+msgid "globalMapView/table/province"
+msgstr "Provincie"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "Název vybrané provincie."
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "Provincie"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "Provincie byla vypleněna a dočasně vám nepřináší žádné příjmy."
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "Čas do doby, než budete opět dostávat příjmy:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "Provincie"
+
+msgid "globalMapView/tabs/stats"
+msgstr "Statistiky"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "Hodnocení klanu nebylo za posledních 28 dní aktualizováno."
+
+msgid "globalMapView/totalIncome"
+msgstr "Celkové denní příjmy: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "Průměrný\npočet bitev"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "Počet bitev, odehraných v režimu náhodné bitvy a bitvy v rotě, zprůměrovaný napříč všemi členy klanu. Počítají se pouze hráči, kteří jsou v současné chvíli členy klanu."
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "Průměrný počet bitev odehraných členy klanu"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "Průměrné zkušenosti"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "Vážený průměr zkušeností členů klanu, získaných v režimu náhodné bitvy a bitvy v rotě. Koeficient ovlivňuje celkový počet bitev každého hráče. Počítají se pouze hráči, kteří jsou v současné chvíli členy klanu."
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "Průměrné zkušenosti členů klanu"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "Průměrné osobní hodnocení"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "Osobní hodnocení zprůměrované napříč všemi členy klanu. Počítají se pouze hráči, kteří jsou v současné chvíli členy klanu."
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "Průměrné osobní hodnocení členů klanu"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "Průměrná míra vítězství"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "Vážený průměr míry vítězství členů klanu v režimu náhodné bitvy a bitvy v rotě. Koeficient ovlivňuje celkový počet bitev každého hráče. Počítají se pouze hráči, kteří jsou v současné chvíli členy klanu."
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "Průměrná míra vítězství členů klanu"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "Poměr celkem získaných zkušeností a počtu bitev, které hráč odehrál v režimu náhodné bitvy a bitvy v rotě"
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "Průměrné zkušenosti"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "Celkový počet náhodných bitev a bitev v rotě, které hráč odehrál"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "Celkový počet bitev"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "Počet dní, po které byl hráč v klanu"
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "Dní v klanu"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "Osobní hodnocení hráče"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "Osobní hodnocení"
+
+msgid "personnelView/table/player"
+msgstr "Hráč (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "Jméno člena klanu"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "Hráč"
+
+msgid "personnelView/table/post"
+msgstr "Pozice"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "Hodnost člena v klanu"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "Pozice"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "Míra vítězství hráče v režimu náhodné bitvy a bitvy v rotě"
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "Vítězství"
+
+msgid "personnelView/title"
+msgstr "Statistiky člena klanu napříč náhodnými bitvami a bitvami v rotě:"
+
+msgid "search/clansList"
+msgstr "Uvedené klany: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "Nebylo nalezeno nic, co by odpovídalo dotazu. Zkuste vyhledávat pomocí jiných klíčových slov."
+
+msgid "search/emptyResult/button"
+msgstr "Zpět na seznam"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "Klikněte pro návrat na seznam nalezených klanů."
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "Zpět na seznam"
+
+msgid "search/emptyResult/header"
+msgstr "Žádné výsledky hledání"
+
+msgid "search/foundClans"
+msgstr "Klanů nalezeno: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "Nelze vstoupit do klanu."
+
+msgid "search/info/banned/tooltip/header"
+msgstr "Nelze podat přihlášku"
+
+msgid "search/info/clanProfileBtn"
+msgstr "Profil klanu"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "Nelze podat přihlášku ke vstupu do klanu."
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "Akce není k dispozici"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "Už jste dostali pozvánku ke vstupu do tohoto klanu."
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "Nelze podat přihlášku"
+
+msgid "search/info/ratingDescription"
+msgstr "Celkové hodnocení"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "Efektivita klanu v režimu opevnění a bitvách na globální mapě ovlivňuje to, jak se celkové hodnocení zvýší."
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "Celkové hodnocení"
+
+msgid "search/info/ratingTitle"
+msgstr "Statistiky ve všech typech bitev:"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "Už jste podali svou přihlášku do tohoto klanu."
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "Nelze podat přihlášku"
+
+msgid "search/info/requestSent"
+msgstr "Přihláška podána."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "Klan přihlášky nepřijímá."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "Nelze podat přihlášku"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "Byl odeslán maximální počet přihlášek."
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "Nelze podat přihlášku"
+
+msgid "search/info/sendRequestBtn"
+msgstr "Podat přihlášku"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "Nebyly získány údaje ze serveru. Zkuste to později."
+
+msgid "search/info/serverUnavailable/header"
+msgstr "Chyba serveru"
+
+msgid "search/info/stats/avgExp"
+msgstr "Průměrné zkušenosti"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "Vážený průměr zkušeností členů klanu, získaných ve všech režimech bitvy. Koeficient ovlivňuje celkový počet bitev každého hráče. Počítají se pouze hráči, kteří jsou v současné chvíli členy klanu."
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "Průměrné zkušenosti členů klanu"
+
+msgid "search/info/stats/battles"
+msgstr "Průměrný\npočet odehraných bitev"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "Průměrný počet bitev odehraných členy klanu ve všech režimech bitvy. Počítají se pouze hráči, kteří jsou v současné chvíli členy klanu."
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "Průměrný počet bitev odehraných členy klanu"
+
+msgid "search/info/stats/wins"
+msgstr "Průměrná míra vítězství"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "Vážený průměr členů klanu ve všech režimech bitvy. Koeficient ovlivňuje celkový počet bitev každého hráče. Počítají se pouze hráči, kteří jsou v současné chvíli členy klanu."
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "Průměrná míra vítězství členů klanu"
+
+msgid "search/nextBtn"
+msgstr "Další"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "Klikněte pro zobrazení další části seznamu klanů."
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "Další"
+
+msgid "search/previousBtn"
+msgstr "Předchozí"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "Klikněte pro zobrazení předchozí části seznamu klanů."
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "Předchozí"
+
+msgid "search/promoText/body"
+msgstr "Chcete-li vyhledat klan, zadejte jeho název nebo značku do pole pro vyhledávání a klikněte na tlačítko „Hledat“."
+
+msgid "search/promoText/header"
+msgstr "Hledání klanu"
+
+msgid "search/requestTooShort/body"
+msgstr "Chcete-li najít klan, zadejte do pole alespoň 2 znaky a zkuste to znovu."
+
+msgid "search/requestTooShort/button"
+msgstr "Zpět na seznam"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "Zpět na seznam"
+
+msgid "search/requestTooShort/header"
+msgstr "Nedostatek údajů"
+
+msgid "search/searchBtn"
+msgstr "Hledat"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "Zadejte název nebo značku klanu do pole na levé straně (minimálně 2 znaky)."
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "Hledání klanu"
+
+msgid "search/searchInputPrompt"
+msgstr "Zadejte název nebo značku klanu"
+
+msgid "search/serverUnavailable/body"
+msgstr "Nebyly získány údaje ze serveru. Zkuste to později."
+
+msgid "search/serverUnavailable/header"
+msgstr "Chyba serveru"
+
+msgid "search/table/clan"
+msgstr "Klan"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "Atributy klanu: značka a název"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "Klan"
+
+msgid "search/table/creationDate"
+msgstr "Založen"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "Datum založení klanu"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "Založen"
+
+msgid "search/table/players"
+msgstr "Hráči"
+
+msgid "search/table/players/tooltip/body"
+msgstr "Celkový počet členů klanu"
+
+msgid "search/table/players/tooltip/header"
+msgstr "Hráči"
+
+msgid "search/table/rating"
+msgstr "Hodnocení"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "Celkové hodnocení klanu"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "Hodnocení"
+
+msgid "search/title"
+msgstr "Hledání klanu"
+
+msgid "search/titleDescription"
+msgstr "Zde můžete vyhledat klan, projít si jeho podrobnosti\na podat svou přihlášku ke vstupu. Vyhledávat můžete jek podle názvu, tak i podle značky klanu."
+
+msgid "search/windowTitle"
+msgstr "Hledání klanu"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "Plán"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "Statistiky"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "Úroveň %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "nenastaveno"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "Příměří:"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "Čas obrany:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "Domovský server:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "Budov postaveno:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "Neutralita:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "Nejvíce získaných průmyslových zdrojů"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "Nejvíce vítězství v řadě"

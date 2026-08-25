@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "Klanchatt"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "Klicka för att skriva och skicka meddelanden till klanchatten."
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "Klanchatt"
+
+msgid "clan/header/creationDate"
+msgstr "Skapad den %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "Ansökningar och inbjudningar"
+
+msgid "clan/header/requestSent"
+msgstr "Ansökan skickad"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "Ansök"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "Klicka för att skicka din ansökan till denna klan."
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "Ansök"
+
+msgid "clan/post/combatOfficer"
+msgstr "Stridsledare"
+
+msgid "clan/post/commander"
+msgstr "Befälhavare"
+
+msgid "clan/post/executiveOfficer"
+msgstr "Stf. Befälhavare"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "Underrättelseofficer"
+
+msgid "clan/post/juniorOfficer"
+msgstr "Underbefäl"
+
+msgid "clan/post/personnelOfficer"
+msgstr "Personalofficer"
+
+msgid "clan/post/private"
+msgstr "Menig"
+
+msgid "clan/post/quartermaster"
+msgstr "Kvartermästare"
+
+msgid "clan/post/recruit"
+msgstr "Rekryt"
+
+msgid "clan/post/recruiter"
+msgstr "Rekryterare"
+
+msgid "clan/post/reservist"
+msgstr "Reservist"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "Kan inte visa namnet"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "Data i tabellen har uppdaterats"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "Rekryteringskrav"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "Kan ändras"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "Klanen har inga obesvarade ansökningar."
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "Klanen har inga utgångna ansökningar."
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "Bjud in till klan"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "Klicka på %(invite)s för att skicka\ninbjudningar till nya spelare."
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "Klanen skickade inga inbjudningar de senaste 28 dagarna."
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "Klanen har inga obesvarade inbjudningar från de senaste 28 dagarna."
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "Klanen har inga utgångna inbjudningar från de senaste 28 dagarna."
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "Klanen har inga besvarade inbjudningar från de senaste 28 dagarna."
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "Klanen har inga besvarade ansökningar."
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "Ingen data mottogs från servern.\nFörsök igen senare."
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "Serverfel"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "Obehandlade (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "Alla (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "Utgångna (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "Beslut mottaget (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "Besvarade (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "Lediga platser i klanen %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "Bjud in till klanen"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "Du har tre dagar på dig att besvara en ansökning till klanen. Ansökningar och inbjudningar sparas i 28 dagar och raderas sedan."
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "Kan inte bjuda in spelare: klanen är full."
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "Kan inte bjuda in spelare: klanrekryteringen är stängd för tillfället."
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "Godkänd"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "Svarstid %(days)d d"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "Avböjd"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "Fel"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "Utgången"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "Svarstid %(hours)d h"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "Svarstid %(min)d m"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "Skickad"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "Inbjudningar (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "Ansökningar (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "Svar"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "Bjud in"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "Skickad"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "Visa fler"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "Status"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "Spelare"
+
+msgid "clanInvitesWindow/title"
+msgstr "Ansökningar och inbjudningar"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "Klicka för att bjuda in spelare till klanen."
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "Genom inbjudan från:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "Inbjudan godkänd."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "Inbjudan avböjd."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "Inbjudan skickad"
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "Avsändare:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Denna knapp aktiveras när data från servern mottagits."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Klicka för att visa nya ansökningar och inbjudningar."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "Uppdatera listan"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "Beslutsfattare:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "Ansökan godkänd."
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "Ansökan avslagen."
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "Ansökan har gått ut"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "Ansökan skickad."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "Kan inte bjuda in spelare: klanen är full."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Spelaren har nyligen lämnat en klan. Du kan ta emot dem i klanen om:"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "Kan inte bjuda in nya spelare: klanen är full."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Genomsnittlig Erfarenhet per strid (inklusive bonus för Premiumkonto) för spelaren som inbjudan skickats till."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Genomsnittlig Erfarenhet per strid"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Genomförda strider för spelaren som inbjudan skickats till."
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Strider"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "Klicka för att bjuda in spelaren till klanen."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Inbjudningsmeddelande från klanen."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Meddelande"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "Spelarbetyg för spelaren som inbjudan skickats till."
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "Spelarbetyg"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "Datum och tid då inbjudan skickades."
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "Skickad"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Status för klaninbjudan.\nEn inbjudan kan vara obesvarad, utgången eller besvarad."
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Status"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "Namnet på spelaren som inbjudan skickats till."
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "Spelare"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Segerförhållande för spelaren som inbjudan skickats till."
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Segrar"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "En ansökan kan antingen godkännas eller avslås."
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Svar"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "Genomsnittlig Erfarenhet per strid (inklusive bonus för Premiumkonto) för spelaren som inbjudan skickats till"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "Genomsnittlig Erfarenhet per strid"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "Totalt antal strider genomförda av spelaren som skickat ansökan"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "Strider"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "Meddelande från spelaren som skickat ansökan"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "Meddelande"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "Spelarbetyg för spelaren som skickat ansökan"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "Spelarbetyg"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "Klanansökningsstatus.\nEn ansökan kan vara besvarad, obesvarad eller utgången."
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "Status"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "Namn på spelaren som skickat ansökan."
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "Spelare"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "Segerförhållande för spelaren som skickat ansökan"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "Segrar"
+
+msgid "clanLanding/notification/archived"
+msgstr "Meddelandet skickades till arkivet."
+
+msgid "clanLanding/notification/commonError"
+msgstr "Tekniskt fel: kunde inte slutföra hanteringen av meddelandet."
+
+msgid "clanLanding/notification/deleted"
+msgstr "Meddelande borttaget."
+
+msgid "clanLanding/notification/edited"
+msgstr "Meddelande postat."
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "Du har nått gränsen för tillåtna tecken."
+
+msgid "clanLanding/notification/limitReached"
+msgstr "Maximalt antal meddelanden har redan postats i klanen."
+
+msgid "clanLanding/notification/noPermission"
+msgstr "Tillstånd saknas för att hantera klanmeddelanden: din roll har ändrats."
+
+msgid "clanLanding/notification/notExist"
+msgstr "Meddelandet togs bort eller skickades till arkivet."
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "Meddelandet innehåller uttryck som bryter mot <a href=\"event:clanRulesLink\">klanens regler</a>."
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "Obesvarade inbjudningar: %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "Avböjda inbjudningar %(count)s"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "Mina klaninbjudningar"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "Tar emot data..."
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "Du har inga inbjudningar än."
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "Välj alla inbjudningar"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "Svar"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "Klannamn"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "Status"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "Klaninbjudningar"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Du kan uppdatera listan när du mottagit ny data."
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Klicka för att uppdatera tabellen."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Du har nyligen lämnat en klan. Du kan anta en ny klaninbjudan om:"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Genomsnittlig Erfarenhet intjänad i strid av medlemmarna i den klan som skickat inbjudan (viktat genomsnitt av slumpvis matchade strider)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Genomsnittlig Erfarenhet per strid"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Genomsnittlig Erfarenhet intjänad i strid av medlemmarna i den klan som skickat inbjudan (endast slumpvis matchade strider)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Klanstrider"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "Namnet på klanen som skickat inbjudan"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "Klannamn"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Meddelande från klanen som skickat inbjudan"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Meddelande"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "Totalt rankning på klanen som skickat inbjudan"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "Klanrankning"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Visar status på- och tid kvar för att besvara inbjudningen"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Status"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Segerförhållande för medlemmar i klanen som skickat inbjudan (viktat genomsnitt av slumpvis matchade strider)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Klansegrar"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Du kan antingen godkänna eller avböja inbjudan. Om du godkänner inbjudan kommer du automatiskt avböja alla andra inbjudningar från andra klaner."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Svar"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "Klanprofil"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "Stäng"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "Välkommen till klanen!"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "Du kan nu delta i strider på världskartan, bygga och försvara din fästning och utföra specialuppdrag."
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "Nyheter"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "Din klan: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "Vi ber om ursäkt för eventuella olägenheter. Vänligen försök igen senare."
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "Befästningen är inte tillgänglig för tillfället"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "Vi ber om ursäkt för ev. olägenheter.\nFörsök igen senare."
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "Fel vid hämtning av data"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "Klanprofil"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "Befästning"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "Världskarta"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "Klanmedlemmar"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "Befästning"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "Sammanfattning"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "Bjud in spelare till klanen"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "Funktionen ej tillgänglig. Du kan bara bjuda in en spelare till klanen i taget."
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "Lägg till alla kontakter som mottagare."
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "Antal strider under de senaste 28 dagarna"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "Antal offensiver de senaste 28 dagarna"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "Klanbefälhavare"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "Inte skapad än"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "Inga strider funna.\nInga ägda provinser."
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "Befästningsnivå"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "Kassa"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "Inga strider genomförda"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "Provinser"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Elo-rating X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Elo-rating VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Elo-rating VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "Antal skärmytslingar de senaste 28 dagarna"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "Totalt antal medlemmar"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "Information"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "Fortsätt"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "Skicka ansökan"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "Klanen har inget motto."
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "Information om världskartan"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "Gå till karta"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "Informationen ej tillgänglig för tillfället"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "Kan inte gå med i klanen."
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "Visa rekryteringskrav %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "Du är redan medlem\ni en annan klan."
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "Du har redan mottagit en inbjudan\ntill denna klan."
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s Tillfälligt begränsad"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s Tillfälligt begränsad"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "Klanen tar inte emot ansökningar %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "Ansökan skickad"
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "Synkroniserar data..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "Klanens Elo-rating i offensiver i division X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Elo-rating X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "Klanens Elo-rating i division VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Elo-rating VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "Klanens Elo-rating i offensiver i division VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Elo-rating VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "Klanens offensiver under de senaste 28 dagarna"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "Antal offensiver de senaste 28 dagarna"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "Befästningsnivån är lika med nivån på högkvarteret."
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "Befästningsnivå"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "Klanens skärmytslingar under de senaste 28 dagarna"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "Antal skärmytslingar de senaste 28 dagarna"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "Klanens Elo-rating i division X på världskartan"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Elo-rating X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "Klanens Elo-rating i division VI på världskartan"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Elo-rating VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "Klanens Elo-rating i division VIII på världskartan"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Elo-rating VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "Klanens strider på världskartan under de senaste 28 dagarna"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "Antal strider under de senaste 28 dagarna"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "Provinser på världskartan som ägs av klanen"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "Provinser"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "Maximalt antal ansökningar skickade."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "Kan inte skicka ansökan"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "Maximalt antal ansökningar skickade."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "Kan inte skicka ansökan"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "Klanen tar inte emot ansökningar."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "Kan inte skicka ansökan"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "Klanens rating har inte uppdaterats de senaste 28 dagarna."
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "Informationen är gammal"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "Total rating beror på klanens effektivitet i Befästningsstrider och på världskartan."
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "Total rating"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "Total rating"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "Klanprofil"
+
+msgid "globalMap/disabled"
+msgstr "Strider på världskartan är för närvarande\nej tillgängliga"
+
+msgid "globalMapView/level10"
+msgstr "Klass X"
+
+msgid "globalMapView/level6"
+msgstr "Klass VI"
+
+msgid "globalMapView/level8"
+msgstr "Klass VIII"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "Provinsen ger ingen inkomst eftersom den inte längre är ansluten till högkvarteret eller har plundrats."
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "Inkomst stoppad"
+
+msgid "globalMapView/noProvince"
+msgstr "Klanen äger inga provinser."
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "Populär prime-time: %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "Världskartan är slagfältet där klanerna kämpar om strategiskt herravälde. Klanledningen spenderar mycket tid här med att planera och leda styrkorna i strategiska manövrer."
+
+msgid "globalMapView/promo/header"
+msgstr "Världskarta"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "Information om världskartan"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "Gå till karta"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "Strider"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "Antal strider i division X på världskartan"
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "Strider"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Elo rating"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "Klanens Elo-rating i division X på världskartan."
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Elo rating"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "Favoritkarta"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "Den karta som klanen utkämpat flest strider i division X under de senaste 28 dagarna"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "Favoritkarta: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "Tabellplats"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "Klanens plats i tabellen för strider på världskartan i division X"
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "Tabellplats"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "Segrar"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "Totalt segerförhållande i strider i division X på världskartan"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "Segrar"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "Strider"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "Klanens plats i tabellen för strider på världskartan i division VI"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "Strider"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Elo rating"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "Klanens Elo-rating i division VI på världskartan."
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Elo rating"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "Favoritkarta"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "Kartan på vilken klanen utkämpat flest strider världskartan i division VI"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "Favoritkarta: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "Tabellplats"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "Klanens position i tabellen för division VI på världskartan."
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "Tabellplats"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "Segrar"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "Totalt segerförhållande i strider i division VI på världskartan"
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "Segrar"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "Strider"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "Antal strider i division VIII på världskartan"
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "Strider"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Elo rating"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "Klanens Elo-rating i division VIII på världskartan."
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Elo rating"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "Favoritkarta"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "Den karta som klanen utkämpat flest strider i division VIII under de senaste 28 dagarna"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "Favoritkarta: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "Tabellplats"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "Klanens position i tabellen för division VIII på världskartan."
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "Tabellplats"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "Segrar"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "Totalt segerförhållande i strider i division VIII på världskartan"
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "Segrar"
+
+msgid "globalMapView/stats/battles"
+msgstr "Strider på världskartan"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "Totalt antal strider klanen utkämpat på världskartan"
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "Strider på världskartan"
+
+msgid "globalMapView/stats/seized"
+msgstr "Ägda provinser"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "Totalt antal provinser klanen äger. Provinser klanen ägt men förlorat räknas."
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "Ägda provinser"
+
+msgid "globalMapView/stats/wins"
+msgstr "Segrar för alla klanmedlemmar"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "Totalt segerförhållande för alla klanmedlemmar i strider på världskartan"
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "Klanens segrar"
+
+msgid "globalMapView/table/days"
+msgstr "Dagar"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "Antal dagar som klanen ägt provinser på världskartan."
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "Dagar"
+
+msgid "globalMapView/table/front"
+msgstr "Front"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "Namn på den valda fronten"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "Front"
+
+msgid "globalMapView/table/income"
+msgstr "Inkomst"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "Guld genereras av provinsen varje dygn"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "Inkomst"
+
+msgid "globalMapView/table/map"
+msgstr "Karta"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "Namnet på den karta som strider om provinsen utkämpas på."
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "Karta"
+
+msgid "globalMapView/table/primeTime"
+msgstr "Prime-time"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "Schemalagd tid då strider om provinsen börjar."
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "Prime-time"
+
+msgid "globalMapView/table/province"
+msgstr "Provins"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "Namnet på den valda provinsen."
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "Provins"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "Provinsen är plundrad och ger för närvarande ingen inkomst."
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "Tid kvar innan provinsen tjänar inkomst:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "Provinser"
+
+msgid "globalMapView/tabs/stats"
+msgstr "Statistik"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "Klanens rating har inte uppdaterats de senaste 28 dagarna."
+
+msgid "globalMapView/totalIncome"
+msgstr "Daglig inkomst: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "Genomsnittligt\nantal strider"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "Genomsnittligt antal strider utkämpade i slumpvis matchade strider och kompanistrider för alla klanmedlemmar. Endast nuvarande klanmedlemmar räknas."
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "Genomsnittligt antal utkämpade strider för alla klanmedlemmar"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "Genomsnittlig erfarenhet"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "Viktat genomsnitt av intjänad Erfarenhet i slumpvis matchade strider och kompanistrider. Totalt antal strider en spelare genomfört påverkar viktningen. Endast nuvarande klanmedlemmar räknas."
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "Genomsnittlig Erfarenhet för alla klanmedlemmar"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "Genomsnittligt spelarbetyg"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "Genomsnittligt spelarbetyg för alla klanmedlemmar. Endast nuvarande klanmedlemmar räknas."
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "Genomsnittligt spelarbetyg för alla klanmedlemmar"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "Genomsnittligt vinstförhållande"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "Viktat genomsnitt av klanmedlemmarnas vinstförhållande i slumpvis matchade strider och kompanistrider. Totalt antal strider en spelare genomfört påverkar viktningen. Endast nuvarande klanmedlemmar räknas."
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "Genomsnittligt vinstförhållande för alla klanmedlemmar"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "Förhållande mellan total intjänad erfarenhet och totalt antal strider i slumpvis matchade strider och kompanistrider."
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "Genomsnittlig erfarenhet"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "Totalt antal slumpmässigt matchade strider och kompanistrider som spelaren utkämpat"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "Totalt antal strider"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "Antal dagar spelaren har varit medlem i klanen"
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "Dagar i klanen"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "Spelarens individuella betyg"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "Spelarbetyg"
+
+msgid "personnelView/table/player"
+msgstr "Spelare (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "Klanmedlemmens namn"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "Spelare"
+
+msgid "personnelView/table/post"
+msgstr "Position"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "Medlemmens roll i klanen"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "Position"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "Spelarens vinstförhållande i slumpvis matchade strider och kompanistrider"
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "Segrar"
+
+msgid "personnelView/title"
+msgstr "Statistik för klanmedlemmar i slumpvis matchade strider och kompanistrider:"
+
+msgid "search/clansList"
+msgstr "Listade klaner: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "Hittar inget som matchar din sökning. Försök med andra söktermer."
+
+msgid "search/emptyResult/button"
+msgstr "Tillbaka till listan"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "Klicka för att återvända till listan med sökresultat."
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "Tillbaka till listan"
+
+msgid "search/emptyResult/header"
+msgstr "Inga sökresultat"
+
+msgid "search/foundClans"
+msgstr "Klaner funna: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "Kan inte gå med i klanen."
+
+msgid "search/info/banned/tooltip/header"
+msgstr "Kan inte skicka ansökan"
+
+msgid "search/info/clanProfileBtn"
+msgstr "Klanprofil"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "Kan inte skicka ansökan om medlemskap till klanen."
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "Funktionen ej tillgänglig"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "Du har redan tagit emot en inbjudan till denna klanen."
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "Kan inte skicka ansökan"
+
+msgid "search/info/ratingDescription"
+msgstr "Total rating"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "Total rating beror på klanens effektivitet i Befästningsstrider och på världskartan."
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "Total rating"
+
+msgid "search/info/ratingTitle"
+msgstr "Statistik för alla stridstyper:"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "Du har redan skickat en ansökan till denna klanen."
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "Kan inte skicka ansökan"
+
+msgid "search/info/requestSent"
+msgstr "Ansökan skickad"
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "Klanen tar inte emot ansökningar."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "Kan inte skicka ansökan"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "Maximalt antal ansökningar skickade."
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "Kan inte skicka ansökan"
+
+msgid "search/info/sendRequestBtn"
+msgstr "Ansök"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "Ingen serverdata mottagen. Försök igen senare."
+
+msgid "search/info/serverUnavailable/header"
+msgstr "Serverfel"
+
+msgid "search/info/stats/avgExp"
+msgstr "Genomsnittlig erfarenhet"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "Viktat genomsnitt av intjänad Erfarenhet i slumpvis matchade strider och kompanistrider. Totalt antal strider en spelare genomfört påverkar viktningen. Endast nuvarande klanmedlemmar räknas."
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "Genomsnittlig Erfarenhet för alla klanmedlemmar"
+
+msgid "search/info/stats/battles"
+msgstr "Genomsnittligt\nantal strider"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "Genomsnittligt antal strider utkämpade av klanmedlemmarna i alla stridstyper. Endast nuvarande klanmedlemmar räknas."
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "Genomsnittligt antal utkämpade strider för alla klanmedlemmar"
+
+msgid "search/info/stats/wins"
+msgstr "Genomsnittligt vinstförhållande"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "Viktat genomsnitt av klanmedlemmarnas segerförhållande i alla stridstyper. Totalt antal strider en spelare genomfört påverkar viktningen. Endast nuvarande klanmedlemmar räknas."
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "Genomsnittligt vinstförhållande för alla klanmedlemmar"
+
+msgid "search/nextBtn"
+msgstr "Nästa"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "Klicka för att visa nästa del av klanlistan."
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "Nästa"
+
+msgid "search/previousBtn"
+msgstr "Föregående"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "Klicka för att visa föregående del av klanlistan."
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "Föregående"
+
+msgid "search/promoText/body"
+msgstr "Ange ett klannamn eller en klantagg i sökfältet och klicka \"sök\" för att hitta en klan."
+
+msgid "search/promoText/header"
+msgstr "Klansökning"
+
+msgid "search/requestTooShort/body"
+msgstr "För att söka efter en klan måste du ange minst 2 tecken i sökfältet och försöka igen."
+
+msgid "search/requestTooShort/button"
+msgstr "Tillbaka till listan"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "Tillbaka till listan"
+
+msgid "search/requestTooShort/header"
+msgstr "Otillräcklig data"
+
+msgid "search/searchBtn"
+msgstr "Sök"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "Ange ett klannamn eller -tagg i fältet till vänster (minst 2 tecken)."
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "Klansökning"
+
+msgid "search/searchInputPrompt"
+msgstr "Ange ett klannamn eller -tagg"
+
+msgid "search/serverUnavailable/body"
+msgstr "Ingen serverdata mottagen. Försök igen senare."
+
+msgid "search/serverUnavailable/header"
+msgstr "Serverfel"
+
+msgid "search/table/clan"
+msgstr "Klan"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "Klanattribut: tagg och namn"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "Klan"
+
+msgid "search/table/creationDate"
+msgstr "Skapad"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "Datum då klanen skapades"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "Skapad"
+
+msgid "search/table/players"
+msgstr "Spelare"
+
+msgid "search/table/players/tooltip/body"
+msgstr "Antal spelare i klanen"
+
+msgid "search/table/players/tooltip/header"
+msgstr "Spelare"
+
+msgid "search/table/rating"
+msgstr "Rankning"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "Total rankning för klanen"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "Rankning"
+
+msgid "search/title"
+msgstr "Klansökning"
+
+msgid "search/titleDescription"
+msgstr "Här kan du söka efter en klan, läsa information om klanen och skicka en ansökan att gå med i klanen.\nDu kan söka efter klan med namn eller tagg."
+
+msgid "search/windowTitle"
+msgstr "Klansökning"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "Plan"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "Statistik"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "Nivå %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "inte bestämd"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "Vapenvila:"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "Försvarsperiod:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "Hemmaserver:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "Antal byggnader:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "Neutralitet:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "Största mängd intjänade industriresurser"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "Flest antal segrar i rad"

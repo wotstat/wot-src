@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} in de clan"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "NAAR ACCOUNTSTATUS"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "TERUG"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Je kunt een kaart vervangen over {}."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Toon/verberg kaarten van dit type."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Woestijnkaarten"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Zomerkaarten"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Winterkaarten"
+
+msgid "mapsBlacklist/header"
+msgstr "Uitgesloten kaarten"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Sluit een ongewenste kaart uit van de matchmaker. Sluit nog een kaart uit met WoT Premium en nog %(mapCount)s met WoT Plus. Als een van die twee vervalt, zullen de uitgesloten kaarten weer aan de matchmaker worden toegevoegd, beginnend met de meest rechtse."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Uitgesloten kaarten"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Deze kaarten worden alleen van Willekeurige gevechten uitgesloten."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Je kunt om de %(maxCooldownTimeStr)s een uitgesloten kaart vervangen."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Deze feature is beschikbaar voor voertuigen van niveau IV en hoger."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "In pelotons worden alleen de door de pelotoncommandant geselecteerde kaarten uitgesloten."
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Kaarten getoond: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Kaarten getoond: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Kaarttypes:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Annuleren"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Sluiten"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "De geselecteerde kaart zal worden vervangen door de {mapNameStr}-kaart. Je kunt je keuze wijzigen over {cooldownStr}."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Welke kaart wil je vervangen?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Uitsluiten"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Selecteer een kaart die je wilt vervangen"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Annuleren"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Sluiten"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Je kunt je keuze wijzigen over {cooldownStr}."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "De {mapNameStr} kaart uitsluiten van Willekeurige gevechten?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Uitsluiten"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Uitsluiten"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "De {mapNameStr}-kaart uitsluiten?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Gebruiken"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "De {mapNameStr}-kaart gebruiken voor Willekeurige gevechten?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Je kunt deze kaart vervangen over {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Kaartvervanging onbeschikbaar"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Je kunt deze kaart vervangen over {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Kaartvervanging onbeschikbaar"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Niet geselecteerd"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Klik om een kaart te selecteren die van Willekeurige gevechten zal worden uitgesloten."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Kaart niet geselecteerd"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "De uitgesloten {mapName}-kaart kan worden vervangen door een andere."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Kaartvervanging beschikbaar"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Je kunt de {mapName}-kaart vervangen over {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Kaartvervanging onbeschikbaar"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Alleen met een actief WoT Premium account komt er een extra plek beschikbaar."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Plek onbeschikbaar"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Selecteer een kaart uit de onderstaande lijst om uit te sluiten van Willekeurige gevechten."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Kaart niet geselecteerd"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Selecteer een kaart uit de onderstaande lijst om uit te sluiten van Willekeurige gevechten."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Kaartvervanging beschikbaar"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Je kunt deze kaart vervangen over {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Kaartvervanging onbeschikbaar"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "Alleen met een actief WoT Premium account komt er een extra plek beschikbaar voor het uitsluiten van een kaart."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Plek onbeschikbaar"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Annuleren"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Je kunt je keuze wijzigen over {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Vervangen"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Uitsluiten"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "De %(mapName)s kaart uitsluiten van Willekeurige gevechten?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "De geselecteerde kaart zal worden vervangen door de {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}-kaart. Je kunt je keuze wijzigen over %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Welke kaart wil je vervangen?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Deze kaart zal worden vervangen door de {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}-kaart. Je kunt je keuze wijzigen over %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Wil je deze kaart vervangen?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Ouderlijk toezicht is voor dit account ingeschakeld.\nJe kunt {link} meer te weten komen over de beperkingen van het ouderlijk toezicht."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Ouderlijk toezicht"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "op de spelwebsite"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Creditreserve"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s u"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s min"

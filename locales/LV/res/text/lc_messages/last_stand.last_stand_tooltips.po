@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "Notikums pieejams vēl %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — Spēles režīms. Noklikšķini, lai izpētītu"
+
+msgid "bannerTooltip/description"
+msgstr "Īpašs PvE režīms, kurā tu cīnies pret ienaidnieka spēku viļņiem. Izvēlies savu mīļāko tehniku, iznīcini atbalss tankus un aizturi uzbrukumu. Ekskluzīvas balvas un vēl daudz kas cits tevi gaida!"
+
+msgid "bannerTooltip/header"
+msgstr "Pēdējā Pretošanās: Terra Nord"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Jūsu datorsistēmas veiktspēja nav pietiekama šim režīmam. Jūs variet piedzīvot problēmas ar grafiku un tanku pārvietošanos. Ir iespējama arī spēles klienta nobrukšana."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Šis režīms ir prasīgs pret datorsistēmas veiktspēju. Jūs piedzīvosiet problēmas ar karšu ielādi, grafiku, bruņutehnikas pārvietošanos. Nepietiekamas veiktspējas gadījumā pamēģiniet zemākus grafikas iestatījumus."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Zema Veiktspēja"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Iespējama Samazināta Veiktspēja"
+
+msgid "battlePass/playGame"
+msgstr "Pelni punktus Pēdējā Pretestība režīmā, virzoties caur pasākumu (nepieciešami VIII līmeņa tanki)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Jūs jau esiet Draugi."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Gaida Draudzības uzaicinājuma apstiprināšanu."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Izdzēst spēlētāju no jūsu Melnā Saraksta."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Pievienot Draugu sarakstam."
+
+msgid "battleResult/interaction/menu"
+msgstr "Nospiediet, lai atvērtu mijiedarbības izvēlni ar šo spēlētāju."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Pievienot Vienībai."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Spēlētājs jau ir Vadā."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Uzaicinājums jau ir nosūtīts."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Tikai Vada Komandieris var uzaicināts spēlētājus pievienoties Vadam."
+
+msgid "booster/activated"
+msgstr "Aktivizēts"
+
+msgid "booster/howItWorks"
+msgstr "Kā Tas Strādā"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Atjaunošanas laiks: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Mirium maksa: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "Laiks līdz dienas misijas izpildei"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "Laiks līdz nākamajai dienas misijai"
+
+msgid "dailyQuests/completed"
+msgstr "Izpildīts"
+
+msgid "dailyQuests/completedAll"
+msgstr "Tu esi izpildījis visas šī pasākuma dienas misijas."
+
+msgid "dailyQuests/completedDescr"
+msgstr "Tu esi izpildījis šo dienas misiju. Jauna būs pieejama rīt."
+
+msgid "dailyQuests/rewards"
+msgstr "Balvas:"
+
+msgid "dailyQuests/status"
+msgstr "Jauna dienas misija pēc %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "Notikums pieejams vēl %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Izvēlieties pieejamu tanku, lai dotos kaujā."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Nav pieejams"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Kaujas izvēlētajā grūtības pakāpē/režīmā īslaicīgi nav pieejamas tehnisku iemeslu dēļ."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Nav pieejams"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Gaidiet, kad Vads atgriezīsies no iepriekšējās kaujas, lai dotos jaunā kaujā."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Nav pieejams"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Nesaderīga grūtības pakāpe Vadam."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Nav pieejams"
+
+msgid "points/accrued"
+msgstr "Saņemts"
+
+msgid "points/battles"
+msgstr "• Cīnies pasākuma kaujās"
+
+msgid "points/body"
+msgstr "Dati tiek izmantoti, lai progresētu caur Pēdējā Pretošanās un iegūtu vērtīgus resursus. Tos var nopelnīt, cīnoties pasākumu kaujās, pabeidzot ikdienas misijas vai iegādājoties \"{{bundle_name}}\"."
+
+msgid "points/bottom"
+msgstr "Pasākums beidzas: (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• Katru dienu izpildi jaunas dienas misijas"
+
+msgid "points/effective"
+msgstr "• Efektivitāte kaujā:"
+
+msgid "points/gold"
+msgstr "• Iegādājies \"{{bundle_name}}\" veikalā"
+
+msgid "points/header"
+msgstr "Dati"
+
+msgid "points/howToEarn"
+msgstr "Kā Nopelnīt"
+
+msgid "points/missionDaily"
+msgstr "• Ikdienas misija izpildīta:"
+
+msgid "points/obelisk"
+msgstr "• Obelisks iznīcināts:"
+
+msgid "points/vehicleDaily"
+msgstr "• Saņemts dienas tanka bonuss:"
+
+msgid "rewardPath/info/first"
+msgstr "Jūs varat nopelnīt vairāk datu, izpildot ikdienas misijas, kas tiek atjauninātas katru dienu visa pasākuma laikā."
+
+msgid "rewardPath/info/header"
+msgstr "Papildu dati"
+
+msgid "rewardPath/info/second"
+msgstr "Speciālie pasākumu komplekts, pieejams Veikalā, arī satur datus, lai veicinātu jūsu progresu."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "Tanka bonuss:"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "Citas atlīdzības:"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}Tanka bonuss{EDCB9E_End} — {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "Visa saņemtā informācija un atlīdzības"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "Saņemtie Dati {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "Vāciet datus kaujā un progresējiet caur Pēdējā Pretošanās. Katrs posms apbalvo jūs ar vērtīgiem priekšmetiem un tanka bonusu, lai palīdzētu jums uzvarēt spēcīgākus ienaidniekus."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "Pēdējais posms"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "Pašreizējā Stadija"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "Notikums pieejams vēl {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "Progresija"
+
+msgid "shopWidget/body"
+msgstr "Noklikšķini, lai atvērtu īpašu Veikala sadaļu ar ekskluzīviem pasākuma priekšmetiem."
+
+msgid "shopWidget/header"
+msgstr "Notikuma komplekti"
+
+msgid "teamList/actions/body"
+msgstr "Ātrās darbības vada izveidei un draugu pievienošanai/noņemšanai."
+
+msgid "teamList/actions/header"
+msgstr "Ātras Darbības"
+
+msgid "teamList/damage/body"
+msgstr "Kārtot pēc izdarītiem bojājumiem."
+
+msgid "teamList/damage/header"
+msgstr "Izdarītie Bojājumi"
+
+msgid "teamList/keys/body"
+msgstr "Kārtot pēc nopelnītajiem datiem. Parādītā vērtība neietver papildu datus, kas saņemti par dienas misiju izpildi vai dienas tehnikas bonusi."
+
+msgid "teamList/keys/header"
+msgstr "Dati"
+
+msgid "teamList/kills/body"
+msgstr "Kārtot pēc iznīcinātiem pretinieku tankiem."
+
+msgid "teamList/kills/header"
+msgstr "Iznīcinātie Pretinieku Tanki"
+
+msgid "teamList/name/header"
+msgstr "Spēlētāja vārds"
+
+msgid "teamList/place/body"
+msgstr "Kārtot pēc pozīcijas komandā."
+
+msgid "teamList/place/header"
+msgstr "Pozīcija Komandā"
+
+msgid "teamList/squad/header"
+msgstr "Vads ir taktiska vienība spēlētājiem, lai sadarbotos kaujās."
+
+msgid "teamList/vehicle/body"
+msgstr "Kārtot pēc tanku veida un nosaukuma."
+
+msgid "teamList/vehicle/header"
+msgstr "Tanki"
+
+msgid "teamList/warned/body"
+msgstr "Šis spēlētājs ir sodīts par bezdarbību/dezertēšanu un par šo kauju nav saņēmis nekādas atlīdzības."
+
+msgid "teamList/warned/header"
+msgstr "Brīdinājums"
+
+msgid "teamList/warned/self/body"
+msgstr "Tu esi sodīts par bezdarbību/dezertēšanu un neesi saņēmis nekādas balvas par šo kauju."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Zema apkalpes efektivitāte"
+
+msgid "vehicle/rentState"
+msgstr "Slēgts"
+
+msgid "vehicleDaily/header"
+msgstr "Dienas tanka bonuss"

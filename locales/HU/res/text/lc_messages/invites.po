@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Fordító <noreply@wargaming.net>\nLanguage-Team: WoT Csapat <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "Játékos adatainak %(linkStartTag)smegtekintése%(linkEndTag)s"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sJelentkezés a klánba%(titleEndTag)s\ntőle %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Jelentkezések megtekintése"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sKikapcsolni%(linkEndTag)s az értesítéseket"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sJátékosok jelentkezései: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "Klán adatainak %(linkStartTag)smegtekintése%(linkEndTag)s"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sMeghívó klánba%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Meghívások megtekintése"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sKlán meghívók: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "A játékost felvették a klánba."
+
+msgid "clans/state/app/declined"
+msgstr "Jelentkezés elutasítva."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "A játékos egy napos eltiltása klán elhagyásért még nem járt le."
+
+msgid "clans/state/invite/accepted"
+msgstr "Felvettek a klánba."
+
+msgid "clans/state/invite/declined"
+msgstr "Meghívás elutasítva."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Az előző klánod elhagyásáért kirótt egy napos eltiltás még nem járt le."
+
+msgid "errors/creationNotAllowed"
+msgstr "Nincs jogosultságod, hogy meghívót küldj"
+
+msgid "errors/invalid"
+msgstr "Meghívás érvénytelen."
+
+msgid "errors/inviteNotSupported"
+msgstr "Ez a típusú meghívás jelenleg nem elérhető. Próbálkozz később."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "A meghívott hozzáadott a feketelistájához."
+
+msgid "errors/selfinvite"
+msgstr "Magadat nem tudod meghívni."
+
+msgid "errors/unknownuser"
+msgstr "Ez a felhasználó nincs regisztrálva a rendszerben."
+
+msgid "errors/useroffline"
+msgstr "A felhasználó nem elérhető."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "A jármű a garázsban sérült vagy nem elérhető. Válassz másik járművet."
+
+msgid "friendship/note/approved"
+msgstr "Játékos hozzáadva a barátlistához"
+
+msgid "friendship/note/canceled"
+msgstr "Felkérés elutasítva"
+
+msgid "friendship/note/maxRoster"
+msgstr "A listán szereplő kapcsolatok maximális száma: %(rosterMaxCount)s. Először el kell távolítanod valakit a listáról, hogy új embert adhass hozzá."
+
+msgid "friendship/note/notConnected"
+msgstr "Nem lehet csatlakozni a szerverhez. Kérlek, várj."
+
+msgid "friendship/note/process"
+msgstr "Várakozás a szerver válaszára"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sBarátfelkérés%(titleEndTag)s\ntőle %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Elfogad"
+
+msgid "gui/buttons/cancel"
+msgstr "Mégse"
+
+msgid "gui/buttons/reject"
+msgstr "Elutasít"
+
+msgid "gui/buttons/send"
+msgstr "Küldés"
+
+msgid "gui/labels/additionalText"
+msgstr "Hozzácsatolt üzenet:"
+
+msgid "gui/labels/inviteText"
+msgstr "Meghívó üzenet:"
+
+msgid "gui/labels/receiver"
+msgstr "Címzett:"
+
+msgid "gui/titles/barter"
+msgstr "Kereskedelmi meghívó"
+
+msgid "gui/titles/clan"
+msgstr "Klán meghívás"
+
+msgid "gui/titles/invite"
+msgstr "Meghívás"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Meghívók"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a taktikai egységet és átirányítunk a(z) %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Amint elfogadod a meghívást, automatikusan elhagyod a taktikai egységet és átirányítunk a(z) %(host)s szerverre."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "Ahogy elfogadtad a meghívást automatikusan kijelentkezel a Globális térképen zajló csatából és átirányít %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "Amint elfogadod a meghívást, automatikusan elhagyod a taktikai egységet és átirányítunk a(z) %(host)s szerverre."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Amint elfogadod a meghívást, automatikusan elhagyod a taktikai egységet, és átirányítunk erre a szerverre: %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a taktikai egységet és átirányítunk a(z) %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Ahogy elfogadtad a meghívást, automatikusan kijelentkezel a frontvonal mód, csapat gyakorlószobájából és át leszel irányítva a(z) %(host)s szerverre."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a taktikai egységet és átirányítunk a(z) %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Ha elfogadod a meghívást, akkor automatikusan ki leszel zárva a csapatból és átkerülsz a(z) %(host)s szerverre."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a szakaszt és átirányítunk a(z) %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod az Erődítmény: Csatákat és átirányítunk a(z) %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "A meghívás elfogadásával elhagyod az Előrenyomulás módot és átkerülsz a(z) %(host)s szerverre."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a felderítő küldetést és átirányítunk a(z) %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "Ahogy elfogadtad a meghívást, automatikusan kilépsz a csapat gyakorlószobából és át leszel irányítva %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod az Erődítmény: Csatákat és átirányítunk a(z) %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a szakaszt és átirányítunk a(z) %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "A meghívás elfogadásával elhagyod az osztagot és átkerülsz a(z) %(host)s szerverre."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Ha elfogadtad a meghívást automatikusan kijelentkezel a versenyből és átirányít %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "Ahogy elfogadtad a meghívást, automatikusan kijelentkezel a csapat gyakorlószobából és át leszel irányítva a(z) %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Amint elfogadod a meghívást, automatikusan kiléptetünk a Roham mód csapat gyakorlószobájából és átirányítunk erre a szerverre: %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Ha elfogadod a meghívást, akkor automatikusan ki leszel zárva a csapatból és átkerülsz a(z) %(host)s szerverre."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod az Acélvadász módot és átirányítunk a(z) %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Amint elfogadod a meghívást, elhagyod a Nagy vadászatot és átirányítunk a(z) %(host)s szerverre."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "Amint elfogadod a meghívást, automatikusan elhagyod a Roham módot és átirányítunk a(z) %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "Amint elfogadod a meghívást, automatikusan elhagyod a Roham Light módot, és átirányítunk erre a szerverre: %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a Frontvonal módot és átirányítunk a(z) %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a(z) +++Esemény csatát+++ és átirányítunk a(z) %(host)s szerverre."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "Amint elfogadod a meghívást, elhagyod a felderítő küldetést és átirányítunk a(z) %(host)s szerverre."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a Térképészet módot és átirányítunk a(z) %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a normál csatákat és átirányítunk a(z) %(host)s szerverére."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "A meghívás elfogadásakor kilépsz a rangsorolt csata módból és átkerülsz a(z) %(host)s szerverre."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "Amint elfogadtad a meghívást, elhagyod a Bemelegítés módot, és átirányítunk a(z) %(host)s szerverre."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "Amint elfogadtad a meghívást, elhagyod a Bemelegítés módot, és átirányítunk a(z) %(host)s szerverre. Ha kilépsz a Bemelegítésből, nem tudod újrakezdeni."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a taktikai egységet."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Amint elfogadod a meghívást, automatikusan elhagyod a taktikai egységet."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "Ahogy elfogadtad a meghívást automatikusan kijelentkezel Globális térképen zajló csatából."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "Amint elfogadod a meghívást, automatikusan elhagyod a taktikai egységet."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Amint elfogadod a meghívást, automatikusan elhagyod a taktikai egységet."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a taktikai egységet."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Ahogy elfogadtad a meghívást, automatikusan kijelentkezel a frontvonal mód, csapat gyakorlószobájából."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "Amint elfogadod a meghívást, automatikusan elhagyod a taktikai egységet."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Ha elfogadod a meghívást, akkor automatikusan ki leszel zárva a csapatból."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a szakaszt."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod az Erődítmény: Csatákat."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "A meghívás elfogadásával elhagyod az Előrenyomulás módot."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a felderítő küldetés szakaszt."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "Ahogy elfogadtad a meghívást, automatikusan kilépsz a csapat gyakorlószobából."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod az Erődítmény: Csatákat."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a szakaszt."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "A meghívás elfogadásával elhagyod az osztagot."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "Ahogy elfogadtad a meghívást automatikusan kijelentkezel a versenyből."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "Ahogy elfogadtad a meghívást, automatikusan kijelentkezel a csapat gyakorlószobából."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Amint elfogadod a meghívást, automatikusan kiléptetünk a Roham mód csapat gyakorlószobájából."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Ha elfogadod a meghívást, akkor automatikusan ki leszel zárva a csapatból."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod az Acélvadász módot."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Amint elfogadod a meghívást, automatikusan kilépsz a Nagy vadászatból."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "Amint elfogadod a meghívást, automatikusan elhagyod a Roham módot."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "Amint elfogadod a meghívást, automatikusan elhagyod a Roham Light módot."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a Frontvonal módot."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "Amint elfogadtad a meghívást, elhagyod a(z) +++Esemény csatát+++."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "A meghívó elfogadásával elhagyod a felderítő küldetést."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a Térképészet módot."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "Amint elfogadtad a meghívást, automatikusan elhagyod a normál csatákat."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "Amint elfogadod a meghívást ki fogsz lépni a Rangsorolt csata módból."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "Amint elfogadtad a meghívást, elhagyod a Bemelegítés módot."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "Amint elfogadtad a meghívást, elhagyod a Bemelegítés módot. Ha kilépsz a Bemelegítésből, nem tudod újrakezdeni."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "A szerverváltások most el lesznek mentve."
+
+msgid "invites/note/server_change"
+msgstr "Automatikus átirányítunk a %(host)s szerverre."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Nem tudod elfogadni a meghívást. Hogy elfogadhasd, menj át %(host)s szerverre."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Nem tudod elfogadni a meghívást. Kérlek, menj át egy másik szerverre."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Már csatlakoztál a szakaszhoz."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Már csatlakoztál a csatához a globális térképen."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Már csatlakoztál a csapat gyakorlószobához."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Már csatlakoztál a szakaszhoz."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Már csatlakoztál a szakaszhoz."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Már csatlakoztál az osztaghoz."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Már csatlakoztál a szakaszhoz."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Már csatlakoztál a versenyhez."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Már csatlakoztál a csapat gyakorlószobához."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Már csatlakoztál a csapat gyakorlószobához."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Már csatlakoztál a csapathoz."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Meghívás elfogadva."
+
+msgid "invites/state/DECLINED"
+msgstr "Meghívás elutasítva."
+
+msgid "invites/state/ERROR"
+msgstr "Meghívás érvénytelen."
+
+msgid "invites/state/EXPIRED"
+msgstr "Meghívás érvénytelen."
+
+msgid "invites/state/REVOKED"
+msgstr "Meghívás visszavonva."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Meghívás Acélvadász szakaszba"
+
+msgid "invites/text/COMP7"
+msgstr "Meghívás Roham-szakaszba"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Meghívás Roham Light-szakaszba"
+
+msgid "invites/text/EPIC"
+msgstr "Meghívás Frontvonal-szakaszba"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Meghívás gyakorló csatába Frontvonal módban"
+
+msgid "invites/text/EVENT"
+msgstr "Meghívás szakaszba"
+
+msgid "invites/text/FALLOUT"
+msgstr "Meghívás %(battleType)s szakaszba"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Dominancia"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Acél vadászat"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Meghívás csatába"
+
+msgid "invites/text/MAPBOX"
+msgstr "Meghívás Felderítő küldetés szakaszba"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Meghívás a pályák felfedezésére"
+
+msgid "invites/text/SORTIE"
+msgstr "Meghívás osztagba"
+
+msgid "invites/text/SQUAD"
+msgstr "Meghívás szakaszba"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Meghívás osztagba"
+
+msgid "invites/text/TRAINING"
+msgstr "Meghívás gyakorló csatába"
+
+msgid "invites/text/UNIT"
+msgstr "Meghívás csapatba"
+
+msgid "invites/text/creatorName"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s játékostól"
+
+msgid "invites/text/fort/defence"
+msgstr "Védelmi periódus"
+
+msgid "invites/text/fort/direction"
+msgstr "Hídfő"
+
+msgid "invites/text/fort/offence"
+msgstr "Támadás itt"
+
+msgid "invites/warning/anonymized"
+msgstr "Ahogy elfogadtad a meghívást, a valós neved és klán rövidítésed látható lesz a taktikai egység tagjai számára a csata ideje alatt."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Meghívó elküldve a következőnek: %(name)s."

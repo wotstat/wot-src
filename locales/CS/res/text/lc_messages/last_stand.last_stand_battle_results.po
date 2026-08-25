@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, doba trvání: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "Běžná obtížnost"
+
+msgid "info/difficult/2"
+msgstr "Pokročilá obtížnost"
+
+msgid "info/difficult/3"
+msgstr "Brutální obtížnost"
+
+msgid "info/mapName"
+msgstr "Poslední vzdor • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "Doba znovuobjevení: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "Všechna spojenecká vozidla byla zničena."
+
+msgid "ls_finish/reason/10/lose"
+msgstr "Nepodařilo se vám zastavit Zmar."
+
+msgid "ls_finish/reason/3/lose"
+msgstr "Čas vypršel."
+
+msgid "ls_finish/reason/5/lose"
+msgstr "Všichni spojenci opustili bitvu."
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "Dobrá práce! Jste připraveni na těžší misi?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "Všichni nepřátelé na běžné obtížnosti byli zničeni."
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "Vynikající výkon! Této úrovně dosáhne jen pár hráčů."
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "Všichni nepřátelé na brutální obtížnosti byli zničeni."
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "Skvělá práce! Teď přijde ta opravdová výzva."
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "Všichni nepřátelé na pokročilé obtížnosti byli zničeni."
+
+msgid "ribbon/ban"
+msgstr "Nepřijatelný výkon: neaktivita/dezerce.\nOdměna nebyla získána."
+
+msgid "ribbon/banRecord"
+msgstr "Nepřijatelný výkon: nečinnost/dezerce.\nOdměna nebyla získána. Váš rekord v ničení vln nebyl aktualizován."
+
+msgid "ribbon/noReward"
+msgstr "Váš tým nezvládl odrazit první vlnu.\nOdměna nebyla získána."
+
+msgid "status/lose"
+msgstr "BITVA SKONČILA"
+
+msgid "status/win"
+msgstr "VÍTĚZSTVÍ"
+
+msgid "subtitle/lose"
+msgstr "Útok nebyl odražen"
+
+msgid "subtitle/win"
+msgstr "Skvělá práce! Shromáždili jsme nové údaje."
+
+msgid "teamList/actions"
+msgstr "Rychlé akce"
+
+msgid "teamList/teammates"
+msgstr "Spojenci"
+
+msgid "time/record"
+msgstr "NOVÝ\nREKORD!"
+
+msgid "title/lose/noWaves"
+msgstr "BITVA SKONČILA"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "%(phaseNumber)s VLNA DOKONČENA"
+msgstr[1] "%(phaseNumber)s VLNY DOKONČENY"
+msgstr[2] "%(phaseNumber)s VLN DOKONČENO"
+
+msgid "title/win"
+msgstr "VŠECHNY VLNY DOKONČENY"
+
+msgid "tooltip/ban"
+msgstr "Nepřijatelný výkon: nečinnost/dezerce. Váš osobní rekord v ničení vln nebyl aktualizován."

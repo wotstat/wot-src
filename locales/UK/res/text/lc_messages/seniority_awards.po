@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2011-03-18 10:00+0300\nPO-Revision-Date: 2011-03-18 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "notifications/count"
+msgstr "×{count}"
+
+msgid "notifications/manualClaim/button"
+msgstr "Забрати нагороди"
+
+msgid "notifications/manualClaim/title"
+msgstr "Нагороди за вислугу років чекають на вас!"
+
+msgid "notifications/selectVehicles/button"
+msgstr "Вибрати"
+
+msgid "notifications/selectVehicles/title"
+msgstr "Машина доступна\nза вислугу років"
+
+msgid "notifications/tokens/button"
+msgstr "У Магазин"
+
+msgid "notifications/tokens/title"
+msgstr "Міняйте жетони за вислугу років на нагороди!"
+
+msgid "notifications/vehicleSelectionAvailable/title"
+msgstr "Виберіть машину!"
+
+msgid "rewardsView/applyBtn"
+msgstr "Так!"
+
+msgid "rewardsView/exchangeCoins"
+msgstr "Обміняйте жетони на нагороди в Магазині."
+
+msgid "rewardsView/gotoHangarBtn"
+msgstr "Подивитися в Гаражі"
+
+msgid "rewardsView/gotoRewardsBtn"
+msgstr "У Магазин"
+
+msgid "rewardsView/info"
+msgstr "Детальніше про звання"
+
+msgid "rewardsView/moreRewardsBtn"
+msgstr "Більше нагород!"
+
+msgid "rewardsView/moreRewardsWithCountBtn"
+msgstr "Більше нагород! ({count})"
+
+msgid "rewardsView/selection/available"
+msgstr "Доступна {{count}} машина на вибір за вислугу років"
+
+msgid "rewardsView/selection/received"
+msgstr "НАГОРОДУ ОТРИМАНО"
+
+msgid "rewardsView/subTitle/otherRewards"
+msgstr "Також отримано:"
+
+msgid "rewardsView/subTitle/rank/ctg1"
+msgstr "РЕКРУТ"
+
+msgid "rewardsView/subTitle/rank/ctg2"
+msgstr "БОЄЦЬ"
+
+msgid "rewardsView/subTitle/rank/ctg3"
+msgstr "КОМАНДИР"
+
+msgid "rewardsView/subTitle/rank/ctg4"
+msgstr "ОФІЦЕР"
+
+msgid "rewardsView/subTitle/rank/ctg5"
+msgstr "ВЕТЕРАН"
+
+msgid "rewardsView/subTitle/rank/ctg6"
+msgstr "ЛЕГЕНДА"
+
+msgid "rewardsView/subTitle/text"
+msgstr "ДОСЯГНУТО ЗВАННЯ «{rank}»"
+
+msgid "rewardsView/textButton/select"
+msgstr "Вибрати"
+
+msgid "rewardsView/title"
+msgstr "ВІТАЄМО!"
+
+msgid "rewardsView/wdrcoin/counter"
+msgstr "×%(count)s"
+
+msgid "specialItem/body"
+msgstr "Видають за бойові заслуги. По завершенні події залишок жетонів буде списано."
+
+msgid "specialItem/header"
+msgstr "Жетон за вислугу років: {count}"
+
+msgid "tooltip/congratulation/ctg1"
+msgstr "Вітаємо зі званням «Рекрут»"
+
+msgid "tooltip/congratulation/ctg2"
+msgstr "Вітаємо зі званням «Боєць»"
+
+msgid "tooltip/congratulation/ctg3"
+msgstr "Вітаємо зі званням «Командир»"
+
+msgid "tooltip/congratulation/ctg4"
+msgstr "Вітаємо зі званням «Офіцер»"
+
+msgid "tooltip/congratulation/ctg5"
+msgstr "Вітаємо зі званням «Ветеран»"
+
+msgid "tooltip/congratulation/ctg6"
+msgstr "Вітаємо зі званням «Легенда»"
+
+msgid "tooltip/medalBlock/label/and"
+msgstr "{abLabel} і {yearsLabel}"
+
+msgid "tooltip/medalBlock/label/ca"
+msgstr "За участь в альфа-тестуванні"
+
+msgid "tooltip/medalBlock/label/cb"
+msgstr "За участь у бета-тестуванні"
+
+msgid "tooltip/medalBlock/label/duration"
+msgid_plural "plural/tooltip/medalBlock/label/duration"
+msgstr[0] "{{count}} рік у лавах"
+msgstr[1] "{{count}} роки в лавах"
+msgstr[2] "{{count}} років у лавах"
+
+msgid "tooltip/rank/ctg1"
+msgstr "Рекрут"
+
+msgid "tooltip/rank/ctg2"
+msgstr "Боєць"
+
+msgid "tooltip/rank/ctg3"
+msgstr "Командир"
+
+msgid "tooltip/rank/ctg4"
+msgstr "Офіцер"
+
+msgid "tooltip/rank/ctg5"
+msgstr "Ветеран"
+
+msgid "tooltip/rank/ctg6"
+msgstr "Легенда"
+
+msgid "tooltip/segment/ctg1"
+msgstr "Менше року"
+
+msgid "tooltip/segment/ctg2"
+msgstr "1–3 роки"
+
+msgid "tooltip/segment/ctg3"
+msgstr "4–6 років"
+
+msgid "tooltip/segment/ctg4"
+msgstr "7–9 років"
+
+msgid "tooltip/segment/ctg5"
+msgstr "10–14 років"
+
+msgid "tooltip/segment/ctg6"
+msgstr "15 років"
+
+msgid "vehicle/A134_M24E2_SuperChaffee"
+msgstr "Легендарний і дуже зручний у керуванні легкий танк. У нього гідна шкода на хвилину та комфортні кути вертикального наведення, що дають змогу ефективно використовувати рельєф у бою."
+
+msgid "vehicle/G158_VK2801_105_SPXXI"
+msgstr "Має великокаліберну гармату й непогане бронювання, що позначається на динаміці та маневреності. Машина досить громіздка і тому дуже ефективна для тарану легкоброньованих цілей."
+
+msgid "vehicle/R160_T_50_2"
+msgstr "Легкий танк для активної розвідки на всіх стадіях бою. Компактність і висока швидкість дозволяють уникати вогню, що дуже важливо з огляду на доволі скромні ТТХ гармати, які диктують обережну гру."
+
+msgid "vehicle/R197_KV_1S_MZ"
+msgstr "Єдина на рівні машина з механізмом зворотного дозаряджання. Ця особливість забезпечує неймовірну ефективність, коли треба швидко завдати шкоди або підтримати вогнем союзників."

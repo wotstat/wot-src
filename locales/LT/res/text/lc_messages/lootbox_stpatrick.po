@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Atgal prie skrynių"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Smaragdo skrynia"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "SMARAGDO SKRYNIA"
+
+msgid "common/getButton/lowerCase"
+msgstr "Gauti skrynių"
+
+msgid "common/getButton/upperCase"
+msgstr "GAUTI SKRYNIŲ"
+
+msgid "common/loader"
+msgstr "Atidaromos skrynios..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Statistiką pamatysite atidarę skrynias."
+
+msgid "common/statistics/header"
+msgstr "Atidaryta skrynių: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Visa informacija apie atidarytas skrynias bus ištrinta."
+
+msgid "entryPoint/boxes"
+msgstr "PRIE SKRYNIŲ"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Tai yra ypatingos skrynios, kuriose yra Premium mašinų, 3D elementų, kreditų ir kitų vertingų žaidimo daiktų.\nJų galite rasti žaidimo parduotuvėje."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Šiuo metu negalima atidaryti ar pirkti skrynių dėl techninių nesklandumų. Mes atsiprašome už laikinus sutrikimus."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Skrynios laikinai nepasiekiamos"
+
+msgid "eventName/lowerCase"
+msgstr "Šlovingoji žalia"
+
+msgid "eventName/upperCase"
+msgstr "ŠLOVINGOJI ŽALIA"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garantuotas prizas kitoje skrynioje!"
+
+msgid "guaranteedTitle/text"
+msgstr "Daugiausia skrynių iki garantuoto prizo: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Jei iki renginio pabaigos neatidarysite skrynių, jos bus atidarytos automatiškai."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Jei jau turite visas mašinas, kurias galite gauti iš skrynių, tai toliau gaunamų mašinų vertė bus pilnai kompensuojama auksu."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Kas %(guaranteed0)s skrynių garantuotai gausite VIII–X lygio mašiną. Jei atidarinėdami skrynias, negaunate tokios mašinos, tai VIII–X lygio mašiną, kurios dar neturite, būtinai gausite atidarę %(guaranteed0)s-&zwnbsp;tą skrynią. Gavus mašiną dėžės bus skaičiuojamos iš naujo."
+
+msgid "infoPage/header/description"
+msgstr "Skrynios viduje gali būti vertingų žaidimo daiktų! Sužinokite daugiau žemiau."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Iš %(name) (iš viso atidaryta %(boxesCount))"
+
+msgid "noBoxesView/description/"
+msgstr "Jūs neturite skrynių.\nJų galite gauti žaidimo parduotuvėje."
+
+msgid "preview/backLabel"
+msgstr "PRIE SKRYNIŲ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Pasiekiamos skrynios: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nėra skrynių"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Jei jau turite visas mašinas, kurias galite gauti iš skrynių, tai toliau gaunamų mašinų vertė bus pilnai kompensuojama auksu."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) skrynia"
+msgstr[1] "%(remainingCount) skrynios"
+msgstr[2] "%(remainingCount) skrynių"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Garantuotas prizas yra mašina iš prizų sąrašo.\nJei atidarėte %(remainingCount) skrynias ir mašinos dar negavote, tai gausite ją atidarę %(count) skrynią. Kai ją gausite, skaičiuoklis pradės skaičiuoti iš naujo."

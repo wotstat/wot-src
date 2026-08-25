@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Έχετε κερδίσει το όχημα"
+
+msgid "awardView/end"
+msgstr "Η ΔΙΟΡΓΑΝΩΣΗ ΤΕΛΕΙΩΣΕ"
+
+msgid "awardView/info"
+msgstr "Αριθμός Τεχνοτροπίας"
+
+msgid "awardView/toHangar"
+msgstr "Προβολή στο Γκαράζ"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "Το %(vehicleInfo) Με Αριθμημένη Τεχνοτροπία"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "Έχετε κερδίσει το όχημα"
+
+msgid "awardView/vehicleTitle"
+msgstr "Έχετε κερδίσει το όχημα"
+
+msgid "commonTexts/aboutButton"
+msgstr "ΣΧΕΤΙΚΑ ΜΕ ΤΗ ΔΙΟΡΓΑΝΩΣΗ"
+
+msgid "commonTexts/closeBtn"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "commonTexts/eventTitle"
+msgstr "ΣΥΝΕΡΓΕΙΟ ΣΥΝΑΡΜΟΛΟΓΗΣΗΣ"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Άκυρο"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Κόστος"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Δεν έχουν απομείνει οχήματα με αριθμημένη τεχνοτροπία. Θα παραλάβετε ένα %(vehicleName)s της μαζικής παραγωγής.\nΘέλετε να καταναλώσετε τους συγκεκριμένους πόρους?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "Θα παραλάβετε ένα %(vehicleName)s της μαζικής παραγωγής"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Πίσω στο Γκαράζ"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Σύντομα, θα σας επιστραφούν όλοι οι πόροι που καταναλώσατε."
+
+msgid "confirm/NoVehicles/title"
+msgstr "Δεν Υπάρχει Πλέον Διαθέσιμο Όχημα"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Άκυρο"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Κόστος"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Μετά την αφαίρεση του κόστους: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Να γίνει κατανάλωση των πόρων?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Επιστροφή Πόρων"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Θα σας επιστραφούν όλοι οι πόροι που καταναλώσατε και η πρόοδος της συναρμολόγησης θα μηδενιστεί. Όσο διαρκεί η διοργάνωση, θα μπορείτε να ξεκινήσετε νέα συναρμολόγηση ξοδεύοντας πόρους, για να αποκτήσετε ένα όχημα."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Επιστροφή όλων των πόρων που ξοδέψατε?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Θα σας επιστραφούν όλοι οι πόροι που καταναλώσατε και η πρόοδος της συναρμολόγησης θα μηδενιστεί. Όσο διαρκεί η διοργάνωση, μπορείτε να ξεκινήσετε νέα συναρμολόγηση ξοδεύοντας πόρους, για να αποκτήσετε το %(vehicleName)."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Επιστροφή όλων των πόρων και επιλογή του %(vehicleName)?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Επιλογή Οχήματος"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "Μπορείτε να αποκτήσετε και τα 2 οχήματα της διοργάνωσης."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "Κατά τη διάρκεια της διοργάνωσης θα μπορείτε να αγοράσετε ένα ειδικό πακέτο που περιέχει ένα όχημα μαζί με μία αριθμημένη τεχνοτροπία 3D."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "Οι πρώτοι %(styleTanksCount) παίκτες θα παραλάβουν ένα όχημα που θα έχει μια αποκλειστική αριθμημένη τεχνοτροπία 3D.{{@ class $br}}{{/}}Τα επόμενα %(withoutStyleTanksCount) οχήματα θα είναι μαζικής παραγωγής, χωρίς την αριθμημένη τεχνοτροπία."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "Η ΔΙΟΡΓΑΝΩΣΗ ΤΕΛΕΙΩΣΕ"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "ΤΑ ΟΧΗΜΑΤΑ ΑΠΟΝΕΜΗΘΗΚΑΝ!"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "Έχετε κερδίσει το όχημα"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Διαθέσιμα οχήματα"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Έχετε ήδη στην κατοχή σας αυτό το όχημα"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Έχετε κερδίσει το όχημα"
+
+msgid "eventInfo/tanksOver"
+msgstr "ΤΕΛΟΣ ΑΠΟΘΕΜΑΤΟΣ"
+
+msgid "eventInfo/top/styleText"
+msgstr "Αριθμημένη"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Διαθέσιμα οχήματα αποκλειστικής σειράς"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "Η παράδοση των %(regularRewardVehiclesCount) οχημάτων της μαζικής παραγωγής θα ξεκινήσει\nμόλις εξαντληθούν τα οχήματα της αριθμημένης σειράς."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "Με την αρχική διαμόρφωση"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Διαθέσιμα οχήματα"
+
+msgid "mainView/affirmative/button"
+msgstr "Θετικόν!"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "Στην Επιστροφή Πόρων"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Πόροι που συλλέχθηκαν:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Πόροι που συλλέχθηκαν για το:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Πίσω στο Γκαράζ"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Επιλέξτε Πόρους"
+
+msgid "mainView/footer/description/text"
+msgstr "Εάν έχει εξαντληθεί το απόθεμα των οχημάτων, θα σας επιστραφούν όλοι οι πόροι που καταναλώσατε."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "Δεν μπορείτε να λάβετε μέρος στη διοργάνωση με αυτού του τύπου τον λογαριασμό."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Αδύνατη Η Συμμετοχή"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Μπορείτε να αγοράσετε και τα 2 οχήματα, αλλά μπορείτε να επενδύσετε πόρους μόνο για 1 όχημα κάθε φορά."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Επιλέξτε ένα όχημα για να συναρμολογήσετε καταναλώνοντας πόρους του παιχνιδιού—μην χάνετε χρόνο!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Μαζέψτε γρήγορα τους απαιτούμενους πόρους για να συναρμολογήσετε ένα %(vehicleName)!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Σύντομα, θα σας επιστραφούν όλοι οι πόροι που καταναλώσατε."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "Δεν Υπάρχει Πλέον Διαθέσιμο Όχημα"
+
+msgid "mainView/navbar/backBtn"
+msgstr "ΣΤΟ ΣΥΝΕΡΓΕΙΟ ΣΥΝΑΡΜΟΛΟΓΗΣΗΣ"
+
+msgid "mainView/navbar/title"
+msgstr "ΣΥΝΕΡΓΕΙΟ ΣΥΝΑΡΜΟΛΟΓΗΣΗΣ"
+
+msgid "mainView/preview/label"
+msgstr "Προεπισκόπηση"
+
+msgid "mainView/timer/lastUntil"
+msgstr "Μέχρι"
+
+msgid "mainView/timer/leftTime"
+msgstr "Διαθέσιμος χρόνος:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Κλείσιμο"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Κατανάλωση Πόρων"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Μη διαθέσιμα δεδομένα προσωρινά"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Δεν υπάρχει άλλο διαθέσιμο όχημα"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Διαθέσιμα οχήματα της αριθμημένης σειράς: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Διαθέσιμα οχήματα: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Γενικής Χρήσης"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Μέγιστη ποσότητα πόρων %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "Μέγιστη ποσότητα %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Πόροι που συλλέχθηκαν %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Τμήματα Μηχανολογικών Σχεδίων"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Νομίσματα"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "ΣΥΛΛΟΓΗ ΠΟΡΩΝ"
+
+msgid "tankPreview/button"
+msgstr "Επιλέξτε Πόρους"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "Κατά τη διάρκεια της διοργάνωσης θα μπορείτε να αγοράσετε ένα ειδικό πακέτο που περιέχει ένα όχημα μαζί με μία αριθμημένη τεχνοτροπία 3D."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "Οι πρώτοι %(topPlayers) παίκτες θα παραλάβουν ένα όχημα που θα έχει μια αποκλειστική αριθμημένη 3D τεχνοτροπία καμουφλάζ.\nΤα επόμενα %(basePlayers) οχήματα θα είναι μαζικής παραγωγής, χωρίς την αριθμημένη τεχνοτροπία."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "Μπορείτε να αποκτήσετε και τα 2 οχήματα της διοργάνωσης."
+
+msgid "tankPreview/title"
+msgstr "Συγκεντρώστε και καταναλώστε το 100% των απαιτούμενων πόρων για να παραλάβετε ένα %(vehicleInfo)!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Μπορείτε να δείτε ανά πάσα στιγμή τους πόρους που έχετε ξοδέψει και να τους πάρετε πίσω αν θέλετε πατώντας το κουμπί Επιστροφή Πόρων.\nΗ πρόοδος της συναρμολόγησης θα μηδενιστεί, ενώ θα μπορείτε να ξεκινήσετε νέα συναρμολόγηση ξοδεύοντας πόρους, για να αποκτήσετε ένα όχημα."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Επιστροφή Πόρων"
+
+msgid "tooltips/counter/error/text"
+msgstr "Προσωρινή μη διαθεσιμότητα δεδομένων.\nΕργαζόμαστε για την επίλυση του προβλήματος."
+
+msgid "tooltips/counter/warning/text"
+msgstr "Ο αριθμός εμφανίζεται με καθυστέρηση και μπορεί να διαφέρει από τον πραγματικό αριθμό του οχήματος."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Λάβετε μέρος στη διοργάνωση και αποκτήστε ένα %(vehicleName1) και ένα %(vehicleName2), ξοδεύοντας πόρους του παιχνιδιού. Το απόθεμα των οχημάτων είναι περιορισμένο."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Έχετε την ευκαιρία να γίνεται κάτοχος ενός %(vehicleName) με μία αριθμημένη τεχνοτροπία 3D. Το απόθεμα των οχημάτων είναι περιορισμένο."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Διαθεσιμότητα: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s - %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Διαθεσιμότητα για %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Διαθεσιμότητα σε: %(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "Συνεργείο Συναρμολόγησης"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Κάντε κλικ για να μάθετε περισσότερα σχετικά με τη διοργάνωση"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Επιλέξτε ένα όχημα για να συναρμολογήσετε καταναλώνοντας πόρους του παιχνιδιού.\nΕάν έχετε καταναλώσει πόρους για κάποιο άλλο όχημα, τότε οι πόροι που δεσμεύσατε θα επιστραφούν άμεσα στον λογαριασμό σας."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Διαθέσιμος χρόνος: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "Για τη συναρμολόγηση ενός οχήματος θα πρέπει να καταναλώσετε το 100% των απαιτούμενων πόρων. Η αναλογία των απαιτούμενων πόρων μπορεί να αλλάξει."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "Εάν έχει εξαντληθεί το απόθεμα των οχημάτων, θα σας επιστραφούν όλοι οι πόροι που καταναλώσατε."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Επιλέχθηκε"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Καταναλώθηκαν"
+
+msgid "tooltips/progressbar/title"
+msgstr "ΣΥΛΛΟΓΗ ΠΟΡΩΝ"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "Η κατανάλωση πόρων είναι προσωρινά μη διαθέσιμη. Προσπαθήστε ξανά αργότερα."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Τμήματα σχεδίων γενικής χρήσης & εθνών."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Τμήματα Μηχανολογικών Σχεδίων"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Απονέμονται με βάση τις ενέργειές σας στις μάχες. Μπορούν να αγοραστούν και με πραγματικά χρήματα."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Νομίσματα"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Καταναλώθηκαν:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "Μέγιστη ποσότητα αυτών των πόρων που μπορούν να καταναλωθούν: %(maxAmount)d."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Έχετε συλλέξει την απαιτούμενη ποσότητα πόρων για να συναρμολογήσετε ένα όχημα. Αν θέλετε, μπορείτε να αντικαταστήσετε έναν τύπο πόρων με κάποιον άλλον."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Συγκεντρωμένοι Πόροι"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "Αυτό είναι ένα αποκλειστικό όχημα με μοναδικό αριθμό και ειδική εξωτερική εμφάνιση."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "Ο μοναδικός αριθμός εμφανίζεται στις δύο πλευρές του πυροβόλου και στο πίσω μέρος του σκάφους. Οι σειριακοί αριθμοί είναι μοναδικοί και δεν επαναλαμβάνονται, ενώ η διαθεσιμότητά τους είναι περιορισμένη."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "Μπορείτε να αποκρύψετε τον μοναδικό σειριακό αριθμό του οχήματός σας αφαιρώντας την αποκλειστική τεχνοτροπία 3D από τον τομέα Εξωτερική Όψη."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Όχημα Με Μοναδικό Αριθμό"

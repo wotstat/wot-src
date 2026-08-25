@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "Chat do Clã"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "Clique para escrever e enviar uma mensagem para o chat do clã."
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "Chat do Clã"
+
+msgid "clan/header/creationDate"
+msgstr "Criado em %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "Candidaturas e Convites"
+
+msgid "clan/header/requestSent"
+msgstr "Candidatura submetida"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "Submeter Candidatura"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "Clique para submeter a sua candidatura para este clã."
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "Submeter Candidatura"
+
+msgid "clan/post/combatOfficer"
+msgstr "Oficial de Combate"
+
+msgid "clan/post/commander"
+msgstr "Comandante"
+
+msgid "clan/post/executiveOfficer"
+msgstr "Oficial Executivo"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "Oficial de Informação"
+
+msgid "clan/post/juniorOfficer"
+msgstr "Oficial Júnior"
+
+msgid "clan/post/personnelOfficer"
+msgstr "Oficial de Pessoal"
+
+msgid "clan/post/private"
+msgstr "Soldado"
+
+msgid "clan/post/quartermaster"
+msgstr "Contramestre"
+
+msgid "clan/post/recruit"
+msgstr "Recruta"
+
+msgid "clan/post/recruiter"
+msgstr "Oficial de Recrutamento"
+
+msgid "clan/post/reservist"
+msgstr "Reservista"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "Erro ao mostrar o nome"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "Os dados na tabela foram actualizados."
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "Requisitos de Recrutamento"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "Pode ser editado"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "O clã não tem candidaturas pendentes."
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "O clã não tem candidaturas expiradas."
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "Convidar para o Clã"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "Clique %(invite)s para enviar convites\n a jogadores novos."
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "O clã não enviou qualquer convite nos últimos 28 dias."
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "O clã não tem qualquer convite pendente nos últimos 28 dias."
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "O clã não tem qualquer convite expirado nos últimos 28 dias."
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "O clã não tem qualquer convite processado nos últimos 28 dias."
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "O clã não tem candidaturas processadas."
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "Nenhum dado recebido do servidor.\nTente de novo mais tarde."
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "Erro no Servidor"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "Pendentes (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "Todos (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "Expirados (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "Decisões recebidas (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "Processados (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "Lugares livres no clã: %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "Convidar para o Clã"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "Tem três dias para processar uma candidatura para o clã. As candidaturas e convites ficam guardados por 28 dias, depois são apagados automaticamente."
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "Incapaz de convidar jogadores: o clã está cheio."
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "Incapaz de convidar jogadores: o recrutamento do clã está fechado no momento."
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "Aceite"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "%(days)d d para processar"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "Recusado"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "Erro"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "Expirado"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "%(hours)d h para processar"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "%(min)d min para processar"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "Enviado"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "Convites (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "Candidaturas (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "Acções"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "Convidar"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "Enviado"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "Mostrar Mais"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "Estado"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "Jogador"
+
+msgid "clanInvitesWindow/title"
+msgstr "Candidaturas e Convites"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "Clique para convidar jogadores para o clã."
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "Por convite de:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "Convite aceite."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "Convite recusado."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "Convite enviado."
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "Remetente:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Este botão ficará activo após receber novos dados do servidor."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Clique para ver as novas candidaturas e convites."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "Actualizar a lista"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "Decisor:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "Candidatura aceite."
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "Candidatura recusada."
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "A candidatura expirou"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "Candidatura submetida."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "Incapaz de adicionar novos jogadores: o clã está cheio."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "O jogador deixou recentemente um clã. Apenas o pode aceitar no clã após:"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "Incapaz de convidar novos jogadores: o clã está cheio."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Experiência média por batalha do jogador a quem foi enviado o convite (incluindo Conta Premium)."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Experiência Média por Batalha"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Batalhas combatidas pelo jogador a quem o convite foi enviado."
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Batalhas"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "Clique para convidar este jogador para o clã."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Mensagem incluída na sua candidatura ao clã."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Mensagem"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "Classificação Pessoal do jogador a quem foi enviado o convite."
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "Classificação Pessoal"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "Data e hora do envio do convite do clã."
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "Enviado"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Estado da candidatura ao clã.\nUma candidatura pode estar pendente, expirada ou processada."
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Estado"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "Nome do jogador a quem foi enviado o convite do clã."
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "Jogador"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Taxa de vitórias do jogador a quem foi enviado o convite."
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Vitórias"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Uma candidatura poder ser aceite ou recusada."
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Acções"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "Experiência média por batalha do jogador que submeteu a candidatura (incluindo Conta Premium)"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "Experiência Média por Batalha"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "Batalhas totais combatidas pelo jogador que submeteu a candidatura"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "Batalhas"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "Mensagem do jogador, incluída na sua candidatura"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "Mensagem"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "Classificação Pessoal do jogador que submeteu a candidatura"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "Classificação Pessoal"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "Estado da candidatura ao clã.\nUma candidatura pode estar pendente, expirada ou processada."
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "Estado"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "Nome do jogador que submeteu a candidatura."
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "Jogador"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "Taxa de vitórias do jogador que submeteu a candidatura"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "Vitórias"
+
+msgid "clanLanding/notification/archived"
+msgstr "A mensagem foi enviada para o arquivo."
+
+msgid "clanLanding/notification/commonError"
+msgstr "Erro técnico: não foi possível concluir a operação com a mensagem."
+
+msgid "clanLanding/notification/deleted"
+msgstr "Mensagem removida."
+
+msgid "clanLanding/notification/edited"
+msgstr "Mensagem postada."
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "O número máximo de caracteres foi excedido."
+
+msgid "clanLanding/notification/limitReached"
+msgstr "O número máximo de mensagens já foi postado no clã."
+
+msgid "clanLanding/notification/noPermission"
+msgstr "Permissões insuficientes para gerir as mensagens do clã: a sua posição foi modificada."
+
+msgid "clanLanding/notification/notExist"
+msgstr "A mensagem foi removida ou enviada para o arquivo."
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "A mensagem contém expressões que violam as <a href=\"event:clanRulesLink\">regras do clã</a>."
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "Convites Pendentes: %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "Recusar os Selecionados (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "Os Meus Convites de Clãs"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "A receber dados…"
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "Ainda não recebeu qualquer convite para clãs."
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "Selecionar todas as candidaturas"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "Acções"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "Nome do Clã"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "Estado"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "Convites de Clãs"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Conseguirá actualizar a lista após receber novos dados."
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Clique para actualizar a tabela."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Saiu recentemente de um clã. Apenas pode aceitar convites de clãs após:"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Experiência média ganha por batalha pelos membros do clã que enviou o convite (média medida no modo de Batalha Aleatória)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Experiência Média por Batalha"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Número médio de batalhas travadas pelos membros do clã que enviou o convite (apenas no modo de Batalha Aleatória)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Batalhas do Clã"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "Nome do clã que lhe enviou um convite"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "Nome do Clã"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Mensagem do clã que lhe enviou um convite"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Mensagem"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "Classificação total do clã que lhe enviou um convite"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "Classificação do Clã"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Mostrar o estado do convite do clã e tempo restante para processar o convite"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Estado"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Taxa de vitórias dos membros do clã que enviou o convite (média medida no modo de Batalha Aleatória)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Vitórias do Clã"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Pode aceitar ou recusar o convite. Ao aceitar um convite, recusará automaticamente todos os convites e outros clãs."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Acções"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "Perfil do Clã"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "Fechar"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "Bem-vindo ao Clã!"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "Agora pode lutar em batalhas no Mapa Global, construir e defender a sua Fortificação e completar missões especiais."
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "Boletim"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "O seu clã: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "Lamentamos pela inconveniência. Por favor tente mais tarde."
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "A Fortificação está temporariamente indisponível"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "Lamentamos o inconveniente.\nTente de novo mais tarde."
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "Erro ao Carregar os Dados"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "Perfil do Clã"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "Fortificação"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "Mapa Global"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "Membros do Clã"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "Fortificação"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "Resumo"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "Convidar Jogador para o Clã"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "Acção indisponível. Só pode convidar um jogador de cada vez para o clã."
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "Adicionar todos os contactos à lista de destinatários."
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "Batalhas nos últimos 28 Dias"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "Avanços nos últimos 28 Dias"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "Comandante do Clã"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "Ainda não criado"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "Sem batalhas combatidas.\nNão possui províncias."
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "Nível da Fortificação"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "Tesouraria"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "Sem batalhas combatidas"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "Províncias"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Classificação Elo X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Classificação Elo VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Classificação Elo VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "Escaramuças nos últimos 28 Dias"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "Total de membros"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "Detalhes"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "Proceder"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "Submeter Candidatura"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "O clã não tem um mote."
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "Detalhes do Mapa Global"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "Ir para o Mapa"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "Os detalhes estão temporariamente indisponíveis"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "Incapaz de se juntar ao clã."
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "Rever os requisitos de recrutamento %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "Você já é membro\nde outro clã."
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "Já recebeu anteriormente um convite \npara se juntar a este clã."
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s Temporariamente restrito"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s Temporariamente restrito"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "Este clã nã aceita mais candidaturas %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "Candidatura submetida."
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "A sincronizar dados..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "Classificação Elo do clã na divisão X dos Avanços"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Classificação Elo X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "Classificação Elo do Clã na divisão VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Classificação Elo VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "Classificação Elo do clã na divisão VIII dos Avanços"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Classificação Elo VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "Avanços do Clã nos últimos 28 dias"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "Avanços nos Últimos 28 Dias"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "O nível da Fortificação é igual ao nível do seu Centro de Comando."
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "Nível da Fortificação"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "Escaramuças do Clã nos últimos 28 dias"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "Escaramuças nos Últimos 28 Dias"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "Classificação Elo do clã em batalhas de divisão X no Mapa Global"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Classificação Elo X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "Classificação Elo do clã em batalhas de divisão VI no Mapa Global"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Classificação Elo VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "Classificação Elo do clã em batalhas de divisão VIII no Mapa Global"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Classificação Elo VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "Batalhas combatidas pelo clã no Mapa Global nos últimos 28 dias"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "Batalhas nos últimos 28 Dias"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "Províncias no Mapa Global actualmente detidas pelo clã."
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "Províncias"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "Número máximo de candidaturas submetidas."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "Incapaz de Submeter a Candidatura"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "Número máximo de candidaturas submetidas."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "Incapaz de Submeter a Candidatura"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "O clã não aceita candidaturas."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "Incapaz de Submeter a Candidatura"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "A classificação do clã não foi actualizada nos últimos 28 dias."
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "Informação Desactualizada"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "A classificação total depende na eficácia do clã no modo de Fortificação e no Mapa Global."
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "Classificação Total"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "Classificação Total"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "Perfil do Clã"
+
+msgid "globalMap/disabled"
+msgstr "As batalhas no Mapa Global estão\nindisponíveis actualmente na sua região"
+
+msgid "globalMapView/level10"
+msgstr "Nível X"
+
+msgid "globalMapView/level6"
+msgstr "Nível VI"
+
+msgid "globalMapView/level8"
+msgstr "Nível VIII"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "Esta Província não produz rendimento porque a ligação com o Centro de Comando foi perdida, ou a Província foi pilhada."
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "Não Produz Rendimento"
+
+msgid "globalMapView/noProvince"
+msgstr "O clã não possui qualquer província."
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "Horário nobre popular: %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "O Mapa Global é um campo de batalha onde os clãs competem por superioridade estratégica. Os Oficiais dos clãs passam muito do seu tempo a planear tácticas e a destacar forças em manobras estratégicas."
+
+msgid "globalMapView/promo/header"
+msgstr "Mapa Global"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "Detalhes do Mapa Global"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "Ir para o Mapa"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "Batalhas"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "Total de batalhas na divisão X no Mapa Global"
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "Batalhas"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Classificação Elo"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "Classificação do clã em batalhas da divisão X no Mapa Global"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Classificação Elo"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "Mapa favorito"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "O mapa onde o clã mais combateu em batalhas da divisão X nos últimos 28 dias"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "Mapa Favorito: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "Posição na classificação"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "Posição do clã na classificação em batalhas na divisão X no Mapa Global"
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "Posição na classificação"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "Vitórias"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "Taxa total de vitórias em batalhas da divisão X no Mapa Global"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "Vitórias"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "Batalhas"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "Total de batalhas na divisão VI no Mapa Global"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "Batalhas"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Classificação Elo"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "Classificação do clã em batalhas da divisão VI no Mapa Global"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Classificação Elo"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "Mapa favorito"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "O mapa onde o clã lutou a maioria das batalhas da divisão VI nos últimos 28 dias."
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "Mapa Favorito: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "Posição na classificação"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "Posição do clã na classificação de batalhas da divisão VI no Mapa Global"
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "Posição na Classificação"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "Vitórias"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "Taxa total de vitórias em batalhas da divisão VI no Mapa Global"
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "Vitórias"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "Batalhas"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "Total de batalhas na divisão VIII no Mapa Global"
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "Batalhas"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Classificação Elo"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "Classificação do clã em batalhas da divisão VIII no Mapa Global"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Classificação Elo"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "Mapa favorito"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "O mapa onde o clã mais combateu em batalhas da divisão VIII nos últimos 28 dias."
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "Mapa Favorito: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "Posição na classificação"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "Posição do clã na classificação de batalhas da divisão VIII no Mapa Global"
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "Posição na Classificação"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "Vitórias"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "Taxa total de vitórias em batalhas da divisão VIII no Mapa Global"
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "Vitórias"
+
+msgid "globalMapView/stats/battles"
+msgstr "Batalhas no Mapa Global"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "Total de batalhas combatidas pelo clã no Mapa Global"
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "Batalhas no Mapa Global"
+
+msgid "globalMapView/stats/seized"
+msgstr "Províncias Detidas"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "Total de Províncias detidas pelo clã. As províncias que pertenciam anteriormente ao clã mas que foram perdidas entretanto também contam."
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "Províncias Detidas"
+
+msgid "globalMapView/stats/wins"
+msgstr "Vitórias Entre os Membros do Clã"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "Taxa total de vitórias dos membros do clã em batalhas no Mapa Global"
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "Vitórias do Clã"
+
+msgid "globalMapView/table/days"
+msgstr "Dias"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "Período de tempo em dias, durante o qual o clã possuiu a Província no Mapa Global."
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "Dias"
+
+msgid "globalMapView/table/front"
+msgstr "Frente"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "Nome da Frente selecionada"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "Frente"
+
+msgid "globalMapView/table/income"
+msgstr "Rendimento"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "Ouro ganho pela Província por dia"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "Rendimento"
+
+msgid "globalMapView/table/map"
+msgstr "Mapa"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "Nome do mapa onde são combatidas as batalhas pelo Província."
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "Mapa"
+
+msgid "globalMapView/table/primeTime"
+msgstr "Horário Nobre"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "Hora programada do início das batalhas pela Província."
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "Horário Nobre"
+
+msgid "globalMapView/table/province"
+msgstr "Província"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "Nome da Província selecionada."
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "Província"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "A Província foi pilhada e temporariamente não tem rendimentos."
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "Tempo que falta para começar a receber rendimentos novamente:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "Províncias"
+
+msgid "globalMapView/tabs/stats"
+msgstr "Estatísticas"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "A classificação do clã não foi actualizada nos últimos 28 dias."
+
+msgid "globalMapView/totalIncome"
+msgstr "Rendimento diário total: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "Número\nmédio de batalhas"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "Número de batalhas combatidas em Batalhas Aleatórias e Batalhas de Companhia de Tanques entre todos os membros do clã. Apenas os jogadores actualmente no clã são contabilizados."
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "Média de Batalhas Combatidas entre os Membros do Clã"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "Experiência média"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "Média ponderada da experiência ganha pelos membros do clã nos modos de Batalhas Aleatórias e Batalhas da Companhia de Tanques. O número total de batalhas combatidas por cada jogador afecta o cálculo. Apenas os jogadores actualmente membros do clã são contabilizados."
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "Experiência Média Entre Todos os Membros do Clã"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "Classificação Pessoal Média"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "Classificação Pessoal média de todos os membros do clã. Apenas os jogadores actualmente no clã são contabilizados."
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "Classificação Pessoal Média Entre os Membros do Clã"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "Taxa média de vitórias"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "Média ponderada da taxa de vitórias dos membros do clã nos modos de Batalhas Aleatórias e Batalhas da Companhia de Tanques. O número total de batalhas combatidas por cada jogador afecta o cálculo. Apenas os jogadores actualmente membros do clã são contabilizados."
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "Taxa Média de Vitórias dos Membros do Clã"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "Rácio entre o total de experiência ganha e o número de batalhas combatidas pelo jogador no modo de Batalhas Aleatórias e Batalhas em Companhia de Tanques."
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "Experiência Média"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "Número total de Batalhas Aleatórias e Batalhas de Companhias de Tanques combatidas pelo jogador"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "Número Total de Batalhas"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "O número de dias que o jogador está no clã"
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "Dias no Clã"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "Classificação Pessoal do Jogador"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "Classificação Pessoal"
+
+msgid "personnelView/table/player"
+msgstr "Jogador (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "Nome do membro do clã"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "Jogador"
+
+msgid "personnelView/table/post"
+msgstr "Posição"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "Posição do membro no clã"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "Posição"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "Taxa de vitórias do jogador nos modos de Batalhas Aleatórias e Batalhas de Companhia de Tanques"
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "Vitórias"
+
+msgid "personnelView/title"
+msgstr "Estatísticas dos Membros do Clã Em Todas as Batalhas e Batalhas Companhia de Tanques:"
+
+msgid "search/clansList"
+msgstr "Clãs Listados: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "Nenhum resultado encontrado. Tente procurar utilizando outros critérios."
+
+msgid "search/emptyResult/button"
+msgstr "Voltar à Lista"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "Clique para regressar à lista de clãs encontrados."
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "Voltar à Lista"
+
+msgid "search/emptyResult/header"
+msgstr "Sem Resultados da Procura"
+
+msgid "search/foundClans"
+msgstr "Clãs Encontrados: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "Incapaz de se juntar ao clã."
+
+msgid "search/info/banned/tooltip/header"
+msgstr "Incapaz de Submeter a Candidatura"
+
+msgid "search/info/clanProfileBtn"
+msgstr "Perfil do Clã"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "Incapaz de submeter a candidatura para se juntar ao clã."
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "Acção Indisponível"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "Já recebeu anteriormente um convite para se juntar a este clã."
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "Incapaz de Submeter a Candidatura"
+
+msgid "search/info/ratingDescription"
+msgstr "Classificação Total"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "A eficácia do clã no modo de Fortificação e batalhas no Mapa Global afectam como aumenta a classificação total."
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "Classificação Total"
+
+msgid "search/info/ratingTitle"
+msgstr "Estatísticas do Membro do Clã Entre Batalhas Aleatórias e de Companhia de Tanques:"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "Já submeteu uma candidatura para este clã."
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "Incapaz de Submeter a Candidatura"
+
+msgid "search/info/requestSent"
+msgstr "Candidatura submetida."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "O clã não aceita candidaturas."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "Incapaz de Submeter a Candidatura"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "Número máximo de candidaturas enviadas."
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "Incapaz de Submeter a Candidatura"
+
+msgid "search/info/sendRequestBtn"
+msgstr "Submeter Candidatura"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "Sem receber dados do servidor. Tente de novo mais tarde."
+
+msgid "search/info/serverUnavailable/header"
+msgstr "Erro no Servidor"
+
+msgid "search/info/stats/avgExp"
+msgstr "Experiência média"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "Média ponderada da experiência ganha pelos membros do clã em todos os modos de batalha. O número total de batalhas combatidas por cada jogador afecta o cálculo. Apenas os jogadores actualmente membros do clã são contabilizados."
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "Experiência Média Entre Todos os Membros do Clã"
+
+msgid "search/info/stats/battles"
+msgstr "Número\nmédio de batalhas"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "Número médio de batalhas combatidas pelos membros do clã entre todos os modos de batalha. Apenas os jogadores que estão actualmente no clã são contabilizados."
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "Média de Batalhas Combatidas pelos Membros do Clã"
+
+msgid "search/info/stats/wins"
+msgstr "Taxa média de vitórias"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "Média ponderada da taxa de vitórias dos membros do clã em todos os modos de batalha. O número total de batalhas combatidas por cada jogador afecta o cálculo. Apenas os jogadores actualmente membros do clã são contabilizados."
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "Taxa Média de Vitórias dos Membros do Clã"
+
+msgid "search/nextBtn"
+msgstr "Seguinte"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "Clique para mostrar a parte seguinte da lista de clãs."
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "Seguinte"
+
+msgid "search/previousBtn"
+msgstr "Anterior"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "Clique para mostrar a parte anterior da lista de clãs."
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "Anterior"
+
+msgid "search/promoText/body"
+msgstr "Para procurar um clã, introduza o seu nome ou tag no campo e clique Procurar."
+
+msgid "search/promoText/header"
+msgstr "Procura de Clã"
+
+msgid "search/requestTooShort/body"
+msgstr "Para pesquisar um clã, insira pelo menos 2 caracteres no campo e tente de novo."
+
+msgid "search/requestTooShort/button"
+msgstr "Voltar à Lista"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "Voltar à Lista"
+
+msgid "search/requestTooShort/header"
+msgstr "Dados insuficientes"
+
+msgid "search/searchBtn"
+msgstr "Procurar"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "Introduza o nome ou tag do clã no campo da esquerda (pelo menos 2 caracteres)."
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "Procura de Clãs"
+
+msgid "search/searchInputPrompt"
+msgstr "Introduza o nome ou tag do clã"
+
+msgid "search/serverUnavailable/body"
+msgstr "Sem receber dados do servidor. Tente de novo mais tarde."
+
+msgid "search/serverUnavailable/header"
+msgstr "Erro no Servidor"
+
+msgid "search/table/clan"
+msgstr "Clã"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "Atributos do Clã: tag e nome"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "Clã"
+
+msgid "search/table/creationDate"
+msgstr "Criado"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "Data de criação do clã"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "Criado"
+
+msgid "search/table/players"
+msgstr "Jogadores"
+
+msgid "search/table/players/tooltip/body"
+msgstr "Número total de membros do clã"
+
+msgid "search/table/players/tooltip/header"
+msgstr "Jogadores"
+
+msgid "search/table/rating"
+msgstr "Classificação"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "Classificação total do clã"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "Classificação"
+
+msgid "search/title"
+msgstr "Procura de Clã"
+
+msgid "search/titleDescription"
+msgstr "Aqui pode procurar por um clã, rever os seus detalhes e\nsubmeter a candidatura para se juntar. Pode procurar pelo nome ou tag do clã."
+
+msgid "search/windowTitle"
+msgstr "Procura de Clã"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "Plano"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "Estatísticas"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "Nível %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "não definido"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "Cessar-fogo:"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "Período de Defesa:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "Servidor Doméstico:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "Estruturas construídas:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "Neutralidade:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "Maior número de Recurso Industrial ganho"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "Maior número de vitórias seguidas"

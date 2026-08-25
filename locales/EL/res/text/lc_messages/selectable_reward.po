@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "error/button"
+msgstr "Θετικόν!"
+
+msgid "error/description"
+msgstr "Πληροφορίες προσωρινά μη διαθέσιμες. Λυπούμαστε για την ταλαιπωρία. Προσπαθήστε ξανά αργότερα."
+
+msgid "error/title"
+msgstr "Προσωρινά Αδύνατη Η Επιλογή Επάθλου"
+
+msgid "footer/closeBtn/label"
+msgstr "Επιλέξτε Αργότερα"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "Επιλέξτε έπαθλο από τις διαθέσιμες κατηγορίες."
+msgstr[1] "Επιλέξτε έπαθλα από τις διαθέσιμες κατηγορίες."
+msgstr[2] "Επιλέξτε έπαθλα από τις διαθέσιμες κατηγορίες."
+
+msgid "footer/okBtn/label"
+msgstr "Επιλογή"
+
+msgid "footer/rewardsSelected"
+msgstr "Επιλεγμένα έπαθλα:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "Επιλέξτε έπαθλο από τις διαθέσιμη κατηγορία."
+msgstr[1] "Επιλέξτε έπαθλα από τις διαθέσιμη κατηγορία."
+msgstr[2] "Επιλέξτε έπαθλα από τις διαθέσιμη κατηγορία."
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "Φτάσατε στο ανώτατο όριο"
+
+msgid "reward/state_received"
+msgstr "Έχει απομεμηθεί"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "Φτάσατε το μέγιστο όριο επιλεγμένων αντικειμένων από αυτήν την κατηγορία. Μπορείτε να ακυρώσετε την επιλογή ενός αντικειμένου για να επιλέξετε κάποιο άλλο."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "Ανώτατο Όριο"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "Οδηγίες\nεξοπλισμού"
+
+msgid "tabs/items/battle_booster"
+msgstr "Οδηγίες Εξοπλισμού"
+
+msgid "tabs/items/blueprint"
+msgstr "Τμήματα Σχεδίων"
+
+msgid "tabs/items/brochure"
+msgstr "Φυλλάδιο Εκπαίδευσης"
+
+msgid "tabs/items/crewbook"
+msgstr "Εγχειρίδιο Εκπαίδευσης"
+
+msgid "tabs/items/deluxe"
+msgstr "Βελτιωμένος Εξοπλισμός"
+
+msgid "tabs/items/expequipments"
+msgstr "Πειραματικός\nΕξοπλισμός"
+
+msgid "tabs/items/guide"
+msgstr "Οδηγός Εκπαίδευσης"
+
+msgid "tabs/items/modernized_device"
+msgstr "Πειραματικός Εξοπλισμός"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "Πειραματικός Εξοπλισμός Τ1"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "Πειραματικός Εξοπλισμός Τ2"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "Πειραματικός Εξοπλισμός Τ3"
+
+msgid "tabs/items/new_device"
+msgstr "Κανονικός Εξοπλισμός"
+
+msgid "tabs/items/trophy"
+msgstr "Αναβαθμίσιμος Εξοπλισμός"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "Κάντε κλικ στο Επιλογή για να παραλάβετε τα έπαθλα που επιλέξατε."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "Επιλέχθηκαν τα έπαθλα: %(white_open)s%(count)s%(white_close)s"

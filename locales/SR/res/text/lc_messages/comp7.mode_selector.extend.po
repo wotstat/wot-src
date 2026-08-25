@@ -1,0 +1,53 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "mode/comp7/battlePassTooltip/body"
+msgstr "Boreći se u vozilima X nivoa u {whiteSpanish_open}Jurišu{whiteSpanish_close}, zaradićeš poene koji ti dozvoljavaju da napreduješ kroz progbres borbene propusnice."
+
+msgid "mode/comp7/battlePassTooltip/header"
+msgstr "Poeni borbene propusnice"
+
+msgid "mode/comp7/calendarTooltip"
+msgstr "Dogadjaj se završava %(date)s"
+
+msgid "mode/comp7/description"
+msgstr "7 na 7 režim %(parSecondary_open)sI%(parSecondary_close)s nivo&nbsp;X"
+
+msgid "mode/comp7/progress"
+msgstr "%(score)s/%(scoreToNextDivision)s"
+
+msgid "mode/comp7/seasonEnd/first"
+msgstr "Sezona Azurnog zmaja se završila"
+
+msgid "mode/comp7/seasonEnd/second"
+msgstr "Sezona Grimiznog zmaja se završila"
+
+msgid "mode/comp7/seasonEnd/third"
+msgstr "Sezona Žad zmaja se završila"
+
+msgid "mode/comp7/seasonStart/first"
+msgstr "Sezona Azurnog zmaja će početi %(date)s"
+
+msgid "mode/comp7/seasonStart/second"
+msgstr "Sezona Grimiznog zmaja će početi %(date)s"
+
+msgid "mode/comp7/seasonStart/third"
+msgstr "Sezona Žad zmaja će početi %(date)s"
+
+msgid "mode/comp7/warning"
+msgstr "Neaktivnost ranga: %(count)s"
+
+msgid "mode/comp7/widgetDescription/qualification"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Bori se u %(maxBattlesCount)s borbi\nda završiš kvalifikacije."
+msgstr[1] "Bori se u %(maxBattlesCount)s borbi\nda završiš kvalifikacije."
+msgstr[2] "Bori se u %(maxBattlesCount)s borbi\nda završiš kvalifikacije."
+
+msgid "mode/comp7/widgetDescription/status"
+msgstr "%(rank)s\n%(division)s"
+
+msgid "mode/comp7/yearEnd"
+msgstr "Godina zmaja se završila"

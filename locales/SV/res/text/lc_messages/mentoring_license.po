@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "Ange mängden erfarenhet som den valda besättningsmedlemmen har för att bekräfta."
+
+msgid "assignmentDialog/price"
+msgstr "Pris:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Överför alla besättningserfarenhet mellan besättningsmedlemmar"
+
+msgid "assignmentDialog/title"
+msgstr "Bekräfta mentorskurs"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Den här besättningsmedlemmen tas bort\nfrån ditt konto och kan inte återställas."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} extra erfarenhet går förlorad."
+
+msgid "dialogue/description"
+msgstr "En förnödenhet som låter dig överföra all besättningserfarenhet mellan besättningsmedlemmar med samma nationalitet."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}Förlorad extra erfarenhet:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "VÄLJ"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Total erfarenhet: %(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Mentorslicens(er):{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Inga lämpliga besättningsmedlemmar"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Väl den besättningsmedlem som ska överföra sin erfarenhet\ntill {cream_Open}%(name)s{cream_Close} och tas bort från ditt konto."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "När erfarenheten överförts kommer {cream_Open}%(name)s{cream_Close} nå gränsen för sina förmågor. Alla erfarenhet över gränsen går förlorad."
+
+msgid "mentorAssigment/title"
+msgstr "VÄLJ MENTOR"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close} har nått gränsen för sina förmågor och kan inte väljas för erfarenhetsöverföring."
+
+msgid "multipleUserName"
+msgstr "Mentorslicenser"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Använda mentorslicenser: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "Överförd besättningserfarenhet: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "Mentorskurs"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>Extra besättningserfarenhet förlorad: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Låter dig överföra all besättningserfarenhet mellan besättningsmedlemmar\nmed samma nationalitet."
+
+msgid "storage/userName"
+msgstr "Mentorslicens"
+
+msgid "userName"
+msgstr "Mentorslicens"

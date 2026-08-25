@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "Nume"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "Pe lună"
+
+msgid "ClanListWindow/table/role"
+msgstr "Funcție"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "Pe săptămână"
+
+msgid "battleQueue/clanPosition"
+msgstr "Poziție: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "Poziție:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "În căutarea inamicului:"
+
+msgid "battleQueue/waitBattle"
+msgstr "În așteptarea luptei:"
+
+msgid "battleQueue/yourTeam"
+msgstr "Detașamentul tău:"
+
+msgid "disconnected/Warning"
+msgstr "Atenție!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "Fortul este temporar indisponibil. Încearcă din nou mai târziu."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "Fortul nu este disponibil în roaming. Pentru a avea acces la Fort, revino în regiunea proprie."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "Membrii clanului"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "Mercenari"
+
+msgid "fortVehPopover/btnSave"
+msgstr "Salvează selecția (%(count)d)"
+
+msgid "inspire/inspired"
+msgstr "Inspiră"
+
+msgid "inspire/inspiring"
+msgstr "Inspiră"
+
+msgid "mainWindow/maintenance/body"
+msgstr "Ne cerem scuze pentru deranjament."
+
+msgid "mainWindow/maintenance/button"
+msgstr "Actualizează"
+
+msgid "mainWindow/maintenance/header"
+msgstr "Eroare la încărcarea datelor"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "Instructaj suplimentar"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "Venituri din luptă"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "Manevre militare"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "Antrenament tactic"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "Efect suplimentar"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "Comandă artileriei să acopere o zonă cu foc în Raiduri și Ofensive timp de o luptă"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "Conferă un bonus la calificările majore și talentele întregului echipaj al vehiculului cu Inspirație, precum și ale echipajelor vehiculelor apropiate, în Raiduri și Ofensive timp de o luptă"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "O rezervă poate fi activată înainte de luptă"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "O rezervă poate fi activată înainte de Ofensivă"
+
+msgid "reserves/tooltip/empty"
+msgstr "Nu ai rezerve de activat"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s în Depozit"
+
+msgid "reserves/tooltip/level"
+msgstr "Generația %(level)s"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "Efect la utilizare"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "Poate fi activată"
+
+msgid "reserves/tooltip/selected"
+msgstr "Activată"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "Clic pentru a vedea lista de Rezerve pe care le poți activa."
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "Rezerva poate fi activată doar de Comandantul detașamentului cu grad de Comandant, Comandant adjunct, Ofițer cadre sau Comandant de unitate."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "Nu există suficienți membri de clan pentru a detașament: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Lupta începe în %(nextDate)s min"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "Ora de început va fi specificată mai târziu"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "Lupta se termină la %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "Raiduri disponibile"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "Următoarea luptă va începe la %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Lupta începe la %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "Lupta începe azi la %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "Lupta începe mâine la %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "Ora de început va fi specificată mai târziu"
+
+msgid "sortie/introView/title"
+msgstr "Ofensivă"
+
+msgid "sortie/listView/enterBtn"
+msgstr "Intră"
+
+msgid "sortie/listView/enterText"
+msgstr "Poţi intra în echipă ca voluntar"
+
+msgid "sortie/listView/notSelected"
+msgstr "Alege un detaşament din lista din stânga\npentru a vedea descrierea detaliată."
+
+msgid "sortie/listView/teamMembers"
+msgstr "Poziţii: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "Vehicule:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "Mercenar"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "Rrecrutare automată"
+
+msgid "sortie/room/candidates"
+msgstr "Voluntari"
+
+msgid "sortie/room/chat"
+msgstr "Canal de chat"
+
+msgid "sortie/room/description"
+msgstr "Detaşamentul creat poartă o luptă cu un clan inamic aleator, pe teritoriu neutru. Generaţia vehiculului depinde de divizia aleasă."
+
+msgid "sortie/room/fight"
+msgstr "Luptă!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "Invită jucători"
+
+msgid "sortie/room/leaveBtn"
+msgstr "LA ANSAMBLARE DETAŞAMENT"
+
+msgid "sortie/room/level"
+msgstr "Generația %(level)s"
+
+msgid "sortie/room/members"
+msgstr "Membri: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "Nu-s gata"
+
+msgid "sortie/room/ready"
+msgstr "Sunt gata!"
+
+msgid "sortie/room/title"
+msgstr "Detaşament"
+
+msgid "sortie/slot/emptySlot"
+msgstr "Disponibil"
+
+msgid "sortie/slot/takePlace"
+msgstr "Ocupă poziţie"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "Alege un vehicul pentru a intra în luptă. Vehiculele care nu sunt gata sunt marcate cu un indicator roșu."
+
+msgid "stronghold/teamHeader"
+msgstr "Membrii detașament"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "Selectează vehicule pentru mercenari"
+
+msgid "strongholdPopover/header"
+msgstr "Selectare vehicule"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "Veh. selectate:"
+
+msgid "strongholdbuilds/direction"
+msgstr "Cap de pod aliat %(direction)s"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "nordic"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "estic"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "sudic"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "vestic"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "Cap de pod inamic"
+
+msgid "strongholdbuilds/mapName"
+msgstr "Harta: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "Harta va fi selectată după începerea Ofensivei"
+
+msgid "strongholdbuilds/point1"
+msgstr "Citadelă"
+
+msgid "strongholdbuilds/point2"
+msgstr "Linia de rezervă"
+
+msgid "strongholdbuilds/point3"
+msgstr "Linia frontului"
+
+msgid "strongholdbuilds/point4"
+msgstr "Linia frontului"
+
+msgid "strongholdbuilds/point5"
+msgstr "Linia de rezervă"
+
+msgid "strongholdbuilds/point6"
+msgstr "Citadelă"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "x%(reward)s pentru prima victorie a zilei în Ofensive pe acest cap de pod"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "Pentru apărarea Citadelei după ce s-au pierdut ambele linii"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "Pentru apărarea Liniei de rezervă după ce s-a pierdut Linia frontului"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "Pentru apărarea ambelor linii fără a captura o linie inamică"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "Pentru capturarea doar a Liniei de front"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "Pentru capturarea ambelor linii fără capturarea Citadelei"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "Pentru capturarea Citadelei inamice"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "din rezerva de Rechiziții"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "Se acordă după Ofensivă"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "Ascunde de Legionari"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "Detașamentul e afișat"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "Afișează Legionarilor"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "Detașamentul nu e afișat"
+
+msgid "strongholddirection/A"
+msgstr "nordic"
+
+msgid "strongholddirection/B"
+msgstr "estic"
+
+msgid "strongholddirection/C"
+msgstr "sudic"
+
+msgid "strongholddirection/D"
+msgstr "vestic"
+
+msgid "strongholdinfo/sortie"
+msgstr "Raid în divizia %(level)s"
+
+msgid "strongholdinfo/stronghold"
+msgstr "Ofensivă dinspre capul de pod %(direction)s"
+
+msgid "strongholdmap/randomMap"
+msgstr "Hartă aleatorie"
+
+msgid "strongholdreserve/boost"
+msgstr "Inspirație"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "Transport de mare capacitate"
+
+msgid "strongholdreserve/requisition"
+msgstr "Rechiziție"
+
+msgid "strongholdreserve/support"
+msgstr "Foc de artilerie"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "În Raiduri și Ofensive, pentru 1 luptă"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "Pentru rezultatele din Ofensivă"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "Activată la începutul luptei"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "Activată la începutul Ofensivei"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "Activată când o rezervă este folosită într-o luptă"
+
+msgid "strongholdtable/rating"
+msgstr "Scor"
+
+msgid "strongholdtable/roster"
+msgstr "Compoziție"
+
+msgid "strongholdtable/tech"
+msgstr "Vehicule"
+
+msgid "strongholdtitle/sortie"
+msgstr "Raid"
+
+msgid "strongholdtitle/stronghold"
+msgstr "Ofensivă dinspre capul de pod %(direction)s"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Granița{/HEADER}{BODY}Neutră de teritoriu. Câștigătorul va ataca linia inamicului în lupta următoare. Dacă lupta se termină într-o remiză, echipa care atacă va fi selectată aleatoriu.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "Ofensivă dinspre capul de pod %(direction)s"
+
+msgid "strongholdtooltips/hours"
+msgstr "h"
+
+msgid "strongholdtooltips/minuts"
+msgstr "min"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "Raid în divizia %(level)s"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Tipul de vehicul este automat asignat unui legionar după ce dai clic pe butonul „Luptă!”.\n\nClic pentru a confirma sau anula tipul de vehicul selectat pentru legionari."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "Mercenarii vor fi adăugați automat în pozițiile vacante"

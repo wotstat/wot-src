@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "Etap {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Specjalny rozdział"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Ukończono"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Zobacz nowe postępy"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Wybierz rozdział"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Czasowo niedostępne"
+
+msgid "battle_pass_widget/title"
+msgstr "Przepustka bitewna"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Tygiel: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} dn."
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} dn. {{hours}} godz."
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} godz."
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} godz. {{minutes}} min"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} min"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Misja bonusowa\nWypełnij 3 standardowe misje, aby ją odblokować"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Czas pozostały na wypełnienie misji bonusowej"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Nowe misje dzienne za"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "To na razie wszystko. Nowe misje dzienne będą dostępne wkrótce."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Aby odblokować tę misję, ukończ poprzednią"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Misje premium są tymczasowo niedostępne"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Kup premium"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Wymaga konta premium WoT"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Misje premium"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Misje dzienne są tymczasowo niedostępne"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Zamień"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "DZIENNA"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Do kampanii"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Popraw wynik"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "Do operacji"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Prawdziwe wyzwanie dla doświadczonych wojowników zapewniające w nagrodę unikalne pojazdy."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Ukończono operację {{currentOperationName}}! Możesz nadal poprawiać swój wynik, aby ukończyć ją z wyróżnieniem – lub podjąć nowe wyzwanie w operacji {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Nadal możesz poprawić wyniki w operacji {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Ukończono operację {{currentOperationName}} z wyróżnieniem! Operacja {{nextOperationName}} jest teraz dostępna."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Punkty kampanii można zdobyć, wypełniając misje osobiste, misje dzienne i misje tygodniowe."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Ukończ wszystkie {{totalProgress}} misji, aby ukończyć operację z wyróżnieniem i zdobyć dodatkowe nagrody."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Zamontujcie wszystkie części, aby otrzymać nagrodę – {{vehicleName}}. Aby zebrać części pojazdu, zdobywajcie punkty kampanii, wypełniając misje osobiste, misje dzienne i misje tygodniowe."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Zamontujcie wszystkie części, aby otrzymać nagrodę – {{vehicleName}}. Aby zebrać części pojazdu, zdobywajcie punkty kampanii, wypełniając misje osobiste, misje dzienne i misje tygodniowe."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Ukończone misje: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "Dostępna jest nowa kampania „3. Sektor”!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Operacja: {{nextOperationName}} dostępna!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Operacja: {{currentOperationName}} ukończona z wyróżnieniem!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Operacja: {{nextOperationName}} dostępna!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Operacja: {{currentOperationName}} | Etap {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Ukończenie operacji {{currentOperationName}} z wyróżnieniem"
+
+msgid "hub/basic_missions/title"
+msgstr "ZWYKŁE MISJE"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "TYGODNIOWE"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Aktualizowane co {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Aktywna misja"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "LUB"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Nowe misje wkrótce się pojawią..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "WOJOWNIK"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "AS"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ELITA"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Istnieją trzy kategorie misji: wojownik, elita i as. Każda z nich wiąże się z wyjątkowymi wyzwaniami i cennymi nagrodami."
+
+msgid "hub/challenge_missions/header"
+msgstr "TYGIEL"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Aktywuj"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Zrestartuj za darmo"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Restartuj"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Porzuć"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Do misji"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) ukończonych misji Tygla"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "pozostało tarcz"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "darmowe restarty"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Ukończ aktywne misje Tygla"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Skończy się za %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Niedostępne: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Wymagany pojazd przynajmniej VI poziomu"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "AKTYWNE"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Ukończone"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} misji"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Misja wyzwania"
+
+msgid "hub/challenge_missions/new"
+msgstr "NOWOŚĆ"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Do Tygla"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Do Tygla"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "UKOŃCZONO TYGIEL: {{ challengeName }}!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Do Tygla"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Nie ukończono Tygiel: {{ challenge }}. Zrestartuj i jeszcze raz spróbuj zdobyć nagrody!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Do Tygla"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "UKOŃCZONO MISJĘ {{ mission }}!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Do Tygla"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Nie udało się ukończyć misji {{ mission }}"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "POZOSTAŁE TARCZE"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Do Tygla"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Wkrocz do Tygla i podejmij się zestawów wymagających misji z cennymi nagrodami dla tych, którzy je ukończą."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "DOSTĘPNE SĄ NOWE MISJE TYGLA!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Wykuj sobie drogę do chwały w Tyglu: podejmij się zestawów wymagających misji z cennymi nagrodami dla tych, którzy je ukończą."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "WKROCZ DO TYGLA"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Ukończone"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "Zestaw dodatków 3D"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Ulepszone wyposażenie"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "Styl 2D"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Członek załogi"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Pojazd"
+
+msgid "hub/challenge_missions/title"
+msgstr "MISJE TYGLA"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "O Tyglu"
+
+msgid "hub/common_missions/title"
+msgstr "DODATKOWE MISJE"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Odbierz nagrody"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "Epicka nagroda jest tymczasowo niedostępna"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Każda ukończona misja standardowa, premium lub bonusowa przyczynia się do postępów."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Dostępne"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Wypełniaj misje dzienne, aby zdobywać epickie nagrody"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Odbierz nagrodę"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Odbierz nagrody"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Każda ukończona misja standardowa, premium lub bonusowa przyczynia się do postępów."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Dostępne"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Powrót do akcji! Wypełniaj misje dzienne za epickie nagrody: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Po wypełnieniu trzech misji standardowych staje się dostępna misja bonusowa z jeszcze cenniejszymi nagrodami. Misję bonusową należy wypełnić przed końcem dnia albo straci ważność."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Misja bonusowa"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Niektóre misje należy wypełnić w jednej bitwie, a inne są kumulacyjne i można je wypełnić w dowolnej liczbie bitew. Misje kumulacyjne mają pasek postępu. Misje możesz wypełniać w bitwach losowych."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Warunki"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Możesz zamienić niechcianą misję standardową, aby otrzymać nową losową misję. Po tym działaniu przycisk Zamiana misji będzie niedostępny przez {{time}}. Zamiana misji może spowodować utratę postępów, jeśli któryś Twój pojazd jest w bitwie."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Zamiana misji"
+
+msgid "info_page/additional/reward/description"
+msgstr "Epicka nagroda to cykl na kształt maratonu, w którym każda wypełniona misja standardowa, premium i bonusowa liczy się do postępów. Po osiągnięciu końca cyklu następuje reset i wszystko zaczyna się od nowa. Cykl epickiej nagrody nie ma ograniczenia czasowego i można go ukończyć w dowolnym momencie."
+
+msgid "info_page/additional/reward/title"
+msgstr "Epicka nagroda"
+
+msgid "info_page/header"
+msgstr "O MISJACH"
+
+msgid "info_page/main/premium/description"
+msgstr "Konto premium WoT zapewnia dostęp do trzech kolejnych misji premium. Można je ukończyć w bitwach losowych i Natarciu, przy czym postępy są aktualizowane po każdej bitwie. Podczas wydarzeń w grze misje premium zapewniają nagrody specyficzne dla danego wydarzenia."
+
+msgid "info_page/main/premium/title"
+msgstr "Misje premium"
+
+msgid "info_page/main/standard/description"
+msgstr "Misje standardowe to losowe dzienne warunki, których postępy są aktualizowane po każdej bitwie. Zalecamy wypełnianie ich w dniu otrzymania, bo nieukończone misje przechodzą na następny dzień i blokują nowe. Standardowe misje zapewniają punkty Przepustki bitewnej podczas Przepustki bitewnej i nagrody związane z wydarzeniem podczas innych wydarzeń w grze."
+
+msgid "info_page/main/standard/title"
+msgstr "Misje standardowe"
+
+msgid "info_page/main/weekly/description"
+msgstr "Misje tygodniowe to zbiór zadań dostępnych co tydzień. Postępy są aktualizowane po każdej bitwie, a ukończone misje są zastępowane nowymi, gdy rozpoczyna się nowy cykl. Misje tygodniowe można wypełniać w bitwach losowych i trybie Natarcie, aby otrzymać dodatkowe premie."
+
+msgid "info_page/main/weekly/title"
+msgstr "Misje tygodniowe"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Ukończono wszystkie misje standardowe na dzisiaj"
+
+msgid "quests/daily_quests/completed"
+msgstr "Ukończono wszystkie misje dzienne"
+
+msgid "tooltip/common/timer"
+msgstr "Dostępne za {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Ukończono wszystkie misje standardowe! Więcej znajdziesz w zakładce Dodatkowe misje."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Misja bonusowa"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Ukończono"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Misja dzienna"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Wygasa za {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Nowe misje dzienne za {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Misja premium"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Nagrody:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Możesz zamienić niechcianą misję\nna nową co {time} godzin."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Zamiana misji"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Misja ukończona, otrzymano nagrodę."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Aby odblokować tę misję, wypełnij poprzednią. Wszystkie misje w serii trzeba wypełniać po kolei."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Kliknij, aby uzyskać dodatkowe informacje"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "O misjach"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Po ukończeniu tej serii misji można rozegrać ją ponownie. Twoje postępy zostaną zresetowane, tarcze zostaną przywrócone, a nagrody będzie można zdobyć ponownie."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Powtórz misje"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Możesz zrestartować serię misji, gdy utracisz wszystkie tarcze. Postępy w misjach zostaną zresetowane, tarcze zostaną przywrócone, a nagrody będzie można zdobyć ponownie."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Koszt kolejnych restartów: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Dostępne darmowe restarty: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Koszt każdego restartu: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Restarty"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Tarcze chronią Twoje postępy. Każda nieudana misja kosztuje jedną tarczę, a gdy utracisz wszystkie tarcze, seria misji skończy się niepowodzeniem. Jeśli ją zrestartujesz, Twoje tarcze zostaną przywrócone."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Tarcze"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Ograniczenia dotyczące pojazdów:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Misja tygodniowa"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Tę misję dzienną możesz wylosować ponownie co {{time}}"
+
+msgid "welcome/button"
+msgstr "Tak jest!"

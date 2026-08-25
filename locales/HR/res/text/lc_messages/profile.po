@@ -1,0 +1,1712 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "profile/dropdown/battlesType"
+msgstr "Režim bitke:"
+
+msgid "profile/dropdown/existence"
+msgstr "Dostupno:"
+
+msgid "profile/dropdown/labels/all"
+msgstr "Slučajna, tenkovska satnija"
+
+msgid "profile/dropdown/labels/battleRoyaleSolo"
+msgstr "Čelični lovac, solo"
+
+msgid "profile/dropdown/labels/battleRoyaleSquad"
+msgstr "Čelični lovac, vod"
+
+msgid "profile/dropdown/labels/clan"
+msgstr "Globalna mapa"
+
+msgid "profile/dropdown/labels/comp7"
+msgstr "Navala"
+
+msgid "profile/dropdown/labels/comp7_archive_Griffin"
+msgstr "Godina Griffina"
+
+msgid "profile/dropdown/labels/comp7_archive_Manticore"
+msgstr "Godina Mantikore"
+
+msgid "profile/dropdown/labels/comp7_archive_Pegasus"
+msgstr "Godina Pegaza"
+
+msgid "profile/dropdown/labels/comp7_season_1"
+msgstr "Sezorna Azurnog Zmaja"
+
+msgid "profile/dropdown/labels/comp7_season_2"
+msgstr "Sezona Grimiznog Zmaja"
+
+msgid "profile/dropdown/labels/comp7_season_3"
+msgstr "Sezona Zmaja od žada"
+
+msgid "profile/dropdown/labels/epicRandom"
+msgstr "Velika bitka"
+
+msgid "profile/dropdown/labels/fallout"
+msgstr "Divljanje"
+
+msgid "profile/dropdown/labels/fortifications"
+msgstr "Utvrđenje: bitke"
+
+msgid "profile/dropdown/labels/fortifications/battles"
+msgstr "Napredak"
+
+msgid "profile/dropdown/labels/fortifications/sorties"
+msgstr "Okršaji"
+
+msgid "profile/dropdown/labels/historical"
+msgstr "Povijesni"
+
+msgid "profile/dropdown/labels/random"
+msgstr "Slučajna bitka"
+
+msgid "profile/dropdown/labels/ranked"
+msgstr "Rangirane bitke 15 na 15"
+
+msgid "profile/dropdown/labels/ranked_10x10"
+msgstr "Rangirana bitka"
+
+msgid "profile/dropdown/labels/staticTeam"
+msgstr "Tim: rangirane bitke"
+
+msgid "profile/dropdown/labels/staticTeam/season"
+msgstr "Tim: rangirane bitke"
+
+msgid "profile/dropdown/labels/team"
+msgstr "Tim: nerangirane bitke"
+
+msgid "profile/params/tooltip/achievementsCount/body"
+msgstr "Primljene nagrade u kategoriji Bojište"
+
+msgid "profile/params/tooltip/achievementsCount/header"
+msgstr "Nagrade"
+
+msgid "profile/params/tooltip/armorUsing/body"
+msgstr "Odnos štete blokrane od oklopa od neprobijajućih granata i rikošeta od AP, HEAT i APCR granata prema šteti primljenoj od ovih tipova granata. Potencijalna šteta od HE i HESH granata se ne računa.\n• Prosječna blokirana šteta od oklopa od ovih tipova granata: %(value_0)s"
+
+msgid "profile/params/tooltip/armorUsing/header"
+msgstr "Učinkovitost korištenja oklopa"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/body"
+msgstr "Ukupna količina štete nanešena ošamućenim vozilima"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/header"
+msgstr "Šteta neprijateljskim vozilima koje je ošamutio igrač"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/body"
+msgstr "Ukupna količina štete nanešena ošamućenim vozilima"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/header"
+msgstr "Šteta neprijateljskim vozilima koje ste ošamutili"
+
+msgid "profile/params/tooltip/avgAssistedDamage/body"
+msgstr "Uključujuči:\n• Šteta po vašem otkrivanju\n• Šteta po vašem uništenju gusjenice i imobiliziranja neprijateljskog vozila."
+
+msgid "profile/params/tooltip/avgAssistedDamage/header"
+msgstr "Prosječna šteta nanesena uz vašu pomoć"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/body"
+msgstr "Uključujuči:\n• Šteta po otkrivanju igrača\n• Šteta po vašem uništenju gusjenice i imobiliziranja neprijateljskog vozila."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/header"
+msgstr "Šteta uzrokovana s igračevom pomoći"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/body"
+msgstr "Uključujuči:\n• Šteta po vašem otkrivanju\n• Šteta po vašem uništenju gusjenice i imobiliziranja neprijateljskog vozila."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/body"
+msgstr "Uključuje:\n• Šteta po vašem otkrivanju (uključujući štetu uz pomoć vještina)\n• Šteta po vašem uništenju gusjenice i imobiliziranja neprijateljskog vozila (uključujući štetu uz pomoć vještina)\n• Šteta nanešena od strane saveznika uz pomoć vaših vještina."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/header"
+msgstr "Šteta uzrokovana vašom pomoći"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/header"
+msgstr "Šteta uzrokovana vašom pomoći"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/body"
+msgstr "Odnos između ukupne štete nanešene ošamućenom neprijatelju (uključujući ošamućenja uz pomoć vještina) i broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/header"
+msgstr "Šteta neprijateljskim vozilima koje je ošamutio igrač"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/body"
+msgstr "Odnos između ukupne štete nanešene ošamućenom neprijatelju (uključujući ošamućenja uz pomoć vještina) i broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/header"
+msgstr "Šteta neprijateljskim vozilima koje ste ošamutili"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/body"
+msgstr "Odnos ukupno nanešene štete ošamućenim neprijateljskim vozilima i broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/header"
+msgstr "Šteta neprijateljskim vozilima koje je ošamutio igrač"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/body"
+msgstr "Odnos ukupno nanešene štete ošamućenim neprijateljskim vozilima i broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/header"
+msgstr "Šteta neprijateljskim vozilima koje ste ošamutili"
+
+msgid "profile/params/tooltip/avgDamage/body"
+msgstr "Odnos ukupne nanesene štete i broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgDamage/header"
+msgstr "Prosječna šteta po bitci"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/body"
+msgstr "Odnos ukupnog broja uništenih neprijateljskih vozila i ukupnog broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/body"
+msgstr "Odnos između ukupnog broja uništenih neprijateljskih vozila (uključujući uništena vozila uz pomoć vještina) i broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/header"
+msgstr "Uništeno neprijateljskih vozila"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/header"
+msgstr "Uništeno neprijateljskih vozila"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/body"
+msgstr "Odnos ukupnog broja otkrivenih neprijateljskih vozila i ukupnog broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/body"
+msgstr "Odnos između ukupno otkrivenih neprijateljskih vozila (uključujući vozila otkrivena uz pomoć vještina) i broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/header"
+msgstr "Otkriveno neprijateljskih vozila"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/header"
+msgstr "Otkriveno neprijateljskih vozila"
+
+msgid "profile/params/tooltip/avgDmg/short/body"
+msgstr "Odnos ukupne nanesene štete i broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgDmg/short/header"
+msgstr "Nanesena šteta"
+
+msgid "profile/params/tooltip/avgEx/short/body"
+msgstr "Odnos ukupno zarađenog iskustva i broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgEx/short/header"
+msgstr "Iskustvo"
+
+msgid "profile/params/tooltip/avgExp/body"
+msgstr "Odnos ukupno zarađenog iskustva i broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgExp/header"
+msgstr "Prosječno iskustvo po bitci"
+
+msgid "profile/params/tooltip/avgHealthRepair/body"
+msgstr "Odnos između ukupno obnovljenog HP i broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgHealthRepair/header"
+msgstr "Obnovljeno HP"
+
+msgid "profile/params/tooltip/avgPoiCaptured/body"
+msgstr "Odnos između broja osvojenih Točaka interesa i broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgPoiCaptured/header"
+msgstr "Osvojeno Točaka interesa"
+
+msgid "profile/params/tooltip/avgPrestigePoints/body"
+msgstr "Odnos između ukupno osvojenih bodova Prestiža i broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgPrestigePoints/header"
+msgstr "Prosječan broj bodova Prestiža po bitci"
+
+msgid "profile/params/tooltip/avgReceivedDamage/body"
+msgstr "Odnos ukupne primljene štete i ukupnog broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgReceivedDamage/header"
+msgstr "Primljena šteta"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/body"
+msgstr "Odnos između ukupnog broja iskorištenih vještina uloga i broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/header"
+msgstr "Iskorišteno Vještina uloga"
+
+msgid "profile/params/tooltip/avgStunNumber/body"
+msgstr "Odnos ukupnog broja hitaca koji su ošamutili neprijateljsku posadu i broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/body"
+msgstr "Odnos između ukupnog broja pogodaka (uključujući pogotke uz pomoć vještina) s ošamućivanjem neprijateljske posade i ukupnog broja odigranih bitaka"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/header"
+msgstr "Broj ošamućenja"
+
+msgid "profile/params/tooltip/avgStunNumber/header"
+msgstr "Broj ošamućenja"
+
+msgid "profile/params/tooltip/avgVictoryPoints/body"
+msgstr "Odnos ukupno zarađenih bodova pobjede i broja bitaka"
+
+msgid "profile/params/tooltip/avgVictoryPoints/header"
+msgstr "Prosječan broj bodova pobjede"
+
+msgid "profile/params/tooltip/battlesCount/body"
+msgstr "Ukupan broj odigranih bitaka, uključujuči:\n• Pobjede: %(value_0)s\n• Porazi: %(value_1)s\n• Nerješeno: %(value_2)s"
+
+msgid "profile/params/tooltip/battlesCount/header"
+msgstr "Bitke"
+
+msgid "profile/params/tooltip/brAverageLevel/body"
+msgstr "Odnos zbroja svih dosegnutih razina i broja odigranih bitaka."
+
+msgid "profile/params/tooltip/brAverageLevel/header"
+msgstr "Prosječna razina"
+
+msgid "profile/params/tooltip/brAverageRank/body"
+msgstr "Odnos zbroja svih plasmana u rezultatima bitke i broja odigranih bitaka."
+
+msgid "profile/params/tooltip/brAverageRank/header"
+msgstr "Prosječni plasman"
+
+msgid "profile/params/tooltip/brAvgDamage/body"
+msgstr "Odnos ukupno nanešene štete i broja odigranih bitaka."
+
+msgid "profile/params/tooltip/brAvgDamage/header"
+msgstr "Nanešena šteta"
+
+msgid "profile/params/tooltip/brBattlesCount/body"
+msgstr "Ukupan broj odigranih bitaka."
+
+msgid "profile/params/tooltip/brBattlesCount/header"
+msgstr "Bitaka"
+
+msgid "profile/params/tooltip/brMaxDamage/body"
+msgstr "Najveća šteta nanešena neprijateljskim vozilima u bitci.\nRekord ostvaren u %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxDamage/header"
+msgstr "Najveća šteta u bitci"
+
+msgid "profile/params/tooltip/brMaxExp/body"
+msgstr "Najveće iskustvo zarađeno u bitci s WoT premium računom.\nRekord ostvaren u %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxExp/header"
+msgstr "Najveće iskustvo u bitci"
+
+msgid "profile/params/tooltip/brMaxFrags/body"
+msgstr "Najveći broj neprijateljskih vozila osobno uništenih u bitci.\nRekord ostvaren u %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxFrags/header"
+msgstr "Najviše uništenih vozila u bitci"
+
+msgid "profile/params/tooltip/brWins/body"
+msgstr "Ukupan broj pobjeda."
+
+msgid "profile/params/tooltip/brWins/header"
+msgstr "Pobjede"
+
+msgid "profile/params/tooltip/capturePoints/body"
+msgstr "Broj zarađenih bodova zauzimanja neprijateljske baze"
+
+msgid "profile/params/tooltip/capturePoints/header"
+msgstr "Bodovi zauzimanja baze"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/body"
+msgstr "Odnos \"Nanešene štete\" i \"Primljene štete\" za sve razine bitaka, uzevši u o9bzir::\n• Nanesena šteta: %(value_0)s\n• Primljena šteta: %(value_1)s"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/header"
+msgstr "Prosječan odnos štete"
+
+msgid "profile/params/tooltip/damageCoeff/body"
+msgstr "Odnos \"Nanesene štete\" i \"Primljene štete uzevši u obzir:\n• Nanesena šteta: %(value_0)s\n• Primljena šteta: %(value_1)s"
+
+msgid "profile/params/tooltip/damageCoeff/header"
+msgstr "Odnos štete"
+
+msgid "profile/params/tooltip/destroyCoeff/body"
+msgstr "Odnos uništenih neprijateljskih vozila i koliko je puta igračevo vozilo uništeno uzevši u obzir:\n• Uništeno neprijateljskih vozila: %(value_0)s\n• Uništeno igračevo vozilo: %(value_1)s"
+
+msgid "profile/params/tooltip/destroyCoeff/header"
+msgstr "Odnos uništenja"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/body"
+msgstr "Odnos blokirane štete od oklopa i primljene štete, od neprobijajućih hitaca i rikošeta od pancirnih, kumulativnih i potkalibarskih granata. Ne računa se šteta od borbenih pričuva, fugasnih i HESH granata.\n• Prosječna šteta blokirana od oklopa ovih tipova granata: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/header"
+msgstr "Učinkovitost korištenja oklopa"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/body"
+msgstr "Odnos ukupno nanešene štete (uključujuči i borbene pričuve) i broja bitaka."
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/header"
+msgstr "Prosječna šteta po bitci"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body"
+msgstr "Odnos ukupno uništenih neprijateljskih vozila (uključujuči i borbene pričuve) i broja bitaka"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header"
+msgstr "Uništeno neprijateljskih vozila"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body"
+msgstr "Odnos ukupno uništenih neprijateljskih vozila (ne uključujuči i borbene pričuve) i broja bitaka"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header"
+msgstr "Uništeno neprijateljskih vozila"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/body"
+msgstr "Odnos ukupno nanešene štete (uključujuči i od borbene pričuve) i broja bitaka."
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/header"
+msgstr "Nanesena šteta"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body"
+msgstr "Odnos ukupno nanešene štete (ne uključujuči i od borbene pričuve) i broja bitaka."
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header"
+msgstr "Nanesena šteta"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/body"
+msgstr "Odnos ukupno primljene štete (uključujuči i od borbene pričuve) i broja bitaka."
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/header"
+msgstr "Primljena šteta"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/body"
+msgstr "Ukupan broj bitaka, uključujuči:\n• Pobjede: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/header"
+msgstr "Bitke"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/body"
+msgstr "Odnos \"Nanešene štete\" i \"Primljene štete\" (uključujuči i od borbene pričuve), imajući na umu da: \n• Nanesena šteta od strane vaših vozila: %(value_0)s\n• Nanesena šteta od borbenih pričuva: %(value_2)s\n• Primljena šteta od neprijateljskih vozila i borbenih pričuva: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/header"
+msgstr "Odnos štete"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body"
+msgstr "Odnos \"Nanešene štete\" i \"Primljene štete\" (ne uključujuči i od borbene pričuve), imajući na umu da: \n• Nanesena šteta: %(value_0)s\n• Primljena šteta: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header"
+msgstr "Odnos štete"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/body"
+msgstr "Odnos uništenih neprijateljskih vozila i broja puta kada je uništeno igračevo vozilo (uključujuči i od borbene pričuve), imajući na umu da:\n• Uništena neprijateljska vozila od strane vaših vozila: %(value_0)s\n• Uništena neprijateljska vozila od strane borbenih pričuva: %(value_2)s\n• Uništena igračeva vozila od strane neprijateljskih vozila i borbenih pričuva: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/header"
+msgstr "Odnos uništenja"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body"
+msgstr "Odnos uništenih neprijateljskih vozila i broja puta kada je uništeno igračevo vozilo (ne uključujuči i od borbene pričuve), imajući na umu da:\n• Uništena neprijateljska vozila: %(value_0)s\n• Uništena igračeva vozila: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header"
+msgstr "Odnos uništenja"
+
+msgid "profile/params/tooltip/dif/fallout/hits/body"
+msgstr "Preciznost paljbe na neprijateljska vozila (ne uključujuči borbene pričuve)"
+
+msgid "profile/params/tooltip/dif/fallout/hits/header"
+msgstr "Pogoci"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/body"
+msgstr "Postavljeni rekord uključuje borbene pričuve."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/header"
+msgstr "Najveća šteta u bitci"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/body"
+msgstr "Postavljeni rekord ne uključuje borbene pričuve."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/header"
+msgstr "Najveća šteta u bitci"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/body"
+msgstr "Postavljeni rekord uključuje borbene pričuve."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/header"
+msgstr "Najviše uništenih vozila"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body"
+msgstr "Postavljeni rekord ne uključuje borbene pričuve."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header"
+msgstr "Najviše uništenih vozila"
+
+msgid "profile/params/tooltip/dif/fallout/wins/body"
+msgstr "Ukupan broj pobjeda"
+
+msgid "profile/params/tooltip/dif/fallout/wins/header"
+msgstr "Pobjede"
+
+msgid "profile/params/tooltip/droppedCapturePoints/body"
+msgstr "Broj zarađenih bodova obrane savezničke baze"
+
+msgid "profile/params/tooltip/droppedCapturePoints/header"
+msgstr "Bodovi poništenja zauzeća"
+
+msgid "profile/params/tooltip/flagsAbsorbed/body"
+msgstr "Ukupno uništenih zastava"
+
+msgid "profile/params/tooltip/flagsAbsorbed/header"
+msgstr "Uništeno zastava"
+
+msgid "profile/params/tooltip/flagsDelivered/body"
+msgstr "Broj zastava isporučenih u vašu bazu"
+
+msgid "profile/params/tooltip/flagsDelivered/header"
+msgstr "Isporučeno zastava"
+
+msgid "profile/params/tooltip/fort/battles/body"
+msgstr "Ukupno Napredaka, uključujuči:\n• Pobjede: %(value_0)s\n• Porazi: %(value_1)s\n• Nerješeno: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/battles/header"
+msgstr "Napretci"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/body"
+msgstr "Ukupan odnos pobjeda u Napretcima"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/header"
+msgstr "Pobjeda u Napretcima"
+
+msgid "profile/params/tooltip/fort/looting/body"
+msgstr "Ukupan broj uspješno opljačkanih neprijateljskih utvrđenja"
+
+msgid "profile/params/tooltip/fort/looting/header"
+msgstr "Pljačke"
+
+msgid "profile/params/tooltip/fort/resource/body"
+msgstr "Odnos ukupnih Industrijskih Resursa zarađenih u Okršajima i broja odigrnaih Okršaja"
+
+msgid "profile/params/tooltip/fort/resource/header"
+msgstr "Prosječna pljačka po Okršaju"
+
+msgid "profile/params/tooltip/fort/sortie/body"
+msgstr "Ukupan broj odigranih Okršaja uključujuči:\n• Pobjede: %(value_0)s\n• Porazi: %(value_1)s\n• Nerješeno: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/sortie/header"
+msgstr "Okršaji"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/body"
+msgstr "Ukupan odnos pobjeda u Okršajima"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/header"
+msgstr "Pobjeda u Okršajima"
+
+msgid "profile/params/tooltip/fortBattles/attacks/body"
+msgstr "Ukupan broj napada na neprijateljsko Utvrđenje.\nRačuna se samo ako ste se borili u najmanje jednom okršaju tijekom napada."
+
+msgid "profile/params/tooltip/fortBattles/attacks/header"
+msgstr "Napadi"
+
+msgid "profile/params/tooltip/fortBattles/defences/body"
+msgstr "Ukupan broj obrambenih akcija u vašem Utvrđenju.\nračuna se samo ako ste se borili u najmanje jednom okršaju tijekom perioda obrane."
+
+msgid "profile/params/tooltip/fortBattles/defences/header"
+msgstr "Obrambene akcije"
+
+msgid "profile/params/tooltip/fortBattlesWins/body"
+msgstr "Ukupan odnos pobjeda u Napretcima"
+
+msgid "profile/params/tooltip/fortBattlesWins/header"
+msgstr "Pobjeda u Napretcima"
+
+msgid "profile/params/tooltip/fortSortieWins/body"
+msgstr "Ukupan odnos pobjeda u Okršajima"
+
+msgid "profile/params/tooltip/fortSortieWins/header"
+msgstr "Pobjeda u Okršajima"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/body"
+msgstr "Odnos ukupno zarađenih Industrijskih Resursa i ukupno odigranih Okršaja"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/header"
+msgstr "Prosječna pljačka po Okršaju"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/body"
+msgstr "Ukupan broj Industrijskih Resursa zarađen u svim Okršajima"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/header"
+msgstr "Ukupna količina pljačke zarađena u okršajima"
+
+msgid "profile/params/tooltip/hits/body"
+msgstr "Preciznost u pucanju na neprijateljska vozila"
+
+msgid "profile/params/tooltip/hits/header"
+msgstr "Pogoci"
+
+msgid "profile/params/tooltip/kdr/body"
+msgstr "Odnos uništenih neprijateljskih vozila i broja puta kada je uništeno igračevo vozilo (uključujuči i od borbene pričuve), imajući na umu da:\n• Uništena neprijateljska vozila od strane vaših vozila: %(value_0)s\n• Uništena neprijateljska vozila od strane borbenih pričuva: %(value_1)s\n• Uništena igračeva vozila od strane neprijateljskih vozila i borbenih pričuva: %(value_2)s"
+
+msgid "profile/params/tooltip/kdr/header"
+msgstr "Odnos uništenja"
+
+msgid "profile/params/tooltip/markOfMastery/body"
+msgstr "Dobijene majstorske značke As tenkist u svim važećim režimima igre / Broj vozila koja su se borila u barem jednoj slučajnoj bitci"
+
+msgid "profile/params/tooltip/markOfMastery/header"
+msgstr "Značka majstorstva: As tenkist"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/body"
+msgstr "Značke majstorstva se ne dodjeljuju u ovom režimu bitke."
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/header"
+msgstr "Značka majstorstva: As tenkist"
+
+msgid "profile/params/tooltip/maxDamage/body"
+msgstr "Rekord postavljen na %(value_0)s"
+
+msgid "profile/params/tooltip/maxDamage/header"
+msgstr "Najveća šteta u bitci"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/body"
+msgstr "Najviše štete nanešeno neprijateljskim vozilima u bitci."
+
+msgid "profile/params/tooltip/maxDamage/vehicle/header"
+msgstr "Najveća šteta u bitci"
+
+msgid "profile/params/tooltip/maxDestroyed/body"
+msgstr "Rekord postavljen na %(value_0)s"
+
+msgid "profile/params/tooltip/maxDestroyed/header"
+msgstr "Najviše uništenih vozila"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/body"
+msgstr "Najviše neprijateljskih vozila uništeno u bitci."
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/header"
+msgstr "Najviše uništenih vozila"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/body"
+msgstr "Najveća šteta nanešena i sa vještinama uloga i Taktičkim vještinama u jednoj bitci."
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/header"
+msgstr "Najveća šteta nanešena vještinama po bitci"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/body"
+msgstr "Uključena je šteta nanešena i vještinama uloga i taktičkim vještinama.\nRekord je u %(value_0)s"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/header"
+msgstr "Najveća šteta nanešena vještinama po bitci"
+
+msgid "profile/params/tooltip/maxExp/body"
+msgstr "Rekord postavljen na %(value_0)s"
+
+msgid "profile/params/tooltip/maxExp/header"
+msgstr "Najviše iskustva u bitci"
+
+msgid "profile/params/tooltip/maxExp/vehicle/body"
+msgstr "Najviše iskustva zarađeno u bitci, uključujuči i premium račun."
+
+msgid "profile/params/tooltip/maxExp/vehicle/header"
+msgstr "Najviše iskustva u bitci"
+
+msgid "profile/params/tooltip/maxExpDisabled/body"
+msgstr "Najveće iskustvo se ne prikazuje u ovom režimu bitke."
+
+msgid "profile/params/tooltip/maxExpDisabled/header"
+msgstr "Najviše iskustva u bitci"
+
+msgid "profile/params/tooltip/maxHealthRepair/body"
+msgstr "Najveći broj HP obnovljen za vaše vozilo i saveznička vozila u jednoj bitci."
+
+msgid "profile/params/tooltip/maxHealthRepair/header"
+msgstr "Najviše obnovljenih HP po bitci"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/body"
+msgstr "Najveći broj HP obnovljen za vaše vozilo i saveznička vozila u jednoj bitci.\nRekord je u %(value_0)s"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/header"
+msgstr "Najviše obnovljenih HP po bitci"
+
+msgid "profile/params/tooltip/maxPrestigePoints/body"
+msgstr "Najveći broj bodova Prestiža osvojenih u jednoj bitci."
+
+msgid "profile/params/tooltip/maxPrestigePoints/header"
+msgstr "Najveći broj bodova Prestiža po bitci"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/body"
+msgstr "Rekord je u %(value_0)s"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/header"
+msgstr "Najveći broj bodova Prestiža po bitci"
+
+msgid "profile/params/tooltip/maxVictoryPoints/body"
+msgstr "Najviše zarađenih bodova pobjede po bitci kroz sve odigrane bitke"
+
+msgid "profile/params/tooltip/maxVictoryPoints/header"
+msgstr "Najviše zarađenih bodova pobjede po bitci"
+
+msgid "profile/params/tooltip/maxWinPoints/body"
+msgstr "Najviše zarađenih bodova pobjede po bitci kroz sve odigrane bitke"
+
+msgid "profile/params/tooltip/maxWinPoints/header"
+msgstr "Najviše zarađenih bodova pobjede po bitci"
+
+msgid "profile/params/tooltip/maxWinSeries/body"
+msgstr "Najviše pobjeda zaredom ostvaren u režimu solo i u vodu/vodu od 7 igrača."
+
+msgid "profile/params/tooltip/maxWinSeries/header"
+msgstr "Najviše pobjeda zaredom (solo i vod/super vod)"
+
+msgid "profile/params/tooltip/poiCaptured/body"
+msgstr "Broj osvojenih točaka interesa"
+
+msgid "profile/params/tooltip/poiCaptured/header"
+msgstr "Osvojeno Točaka interesa"
+
+msgid "profile/params/tooltip/ranked/avgFrags/body"
+msgstr "Prosječan broj neprijateljskih vozila uništen u bitkama"
+
+msgid "profile/params/tooltip/ranked/avgFrags/header"
+msgstr "Prosječan broj uništenih vozila"
+
+msgid "profile/params/tooltip/ranked/avgPoints/body"
+msgstr "Postotni odnos broja primljenih ševrona u odnosu na ukupan broj odigranih bitaka u režimu rangiranih bitaka. \n• Ukupno ševrona: %(value_0)s\n• Ukupno bitaka: %(value_1)s"
+
+msgid "profile/params/tooltip/ranked/avgPoints/header"
+msgstr "Učinkovitost u rangiranim bitkama"
+
+msgid "profile/params/tooltip/ranked/points/body"
+msgstr "Ukupan broj zarađenih bodova"
+
+msgid "profile/params/tooltip/ranked/points/header"
+msgstr "Bodovi ranga"
+
+msgid "profile/params/tooltip/stunNumber/body"
+msgstr "Ukupan broj hitaca koji je ošamutio neprijateljsku posadu"
+
+msgid "profile/params/tooltip/stunNumber/header"
+msgstr "Broj ošamućenja"
+
+msgid "profile/params/tooltip/survival/body"
+msgstr "Postotak bitaka u kojima igraćevo vozilo nije uništeno"
+
+msgid "profile/params/tooltip/survival/header"
+msgstr "Preživjelih bitaka"
+
+msgid "profile/params/tooltip/totalVehs/body"
+msgstr "Ukupan broj korištenih različitih vozila"
+
+msgid "profile/params/tooltip/totalVehs/header"
+msgstr "Korištena vozila"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/body"
+msgstr "Ukupan broj Napredaka.\n\nParametar je nedostupan u trenutnom ažuriranju."
+
+msgid "profile/params/tooltip/unavailable/fort/battles/header"
+msgstr "Napretci"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/body"
+msgstr "Ukupan postotak pobjeda u Napretcima.\n\nParametar je nedostupan u trenutnom ažuriranju."
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/header"
+msgstr "Pobjeda u Napretcima"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/body"
+msgstr "Nema bitaka od uvođenje parametra"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/header"
+msgstr "Podaci nisu raspoloživi"
+
+msgid "profile/params/tooltip/usedTechnics/body"
+msgstr "Vozila koja su se borila barem u jednoj povijesnoj bitci."
+
+msgid "profile/params/tooltip/usedTechnics/header"
+msgstr "Korištena vozila"
+
+msgid "profile/params/tooltip/wins/body"
+msgstr "Ukupan odnos pobjeda"
+
+msgid "profile/params/tooltip/wins/header"
+msgstr "Pobjede"
+
+msgid "profile/ranked/seasonsdropdown/1"
+msgstr "Sezona 1, 2021-2022"
+
+msgid "profile/ranked/seasonsdropdown/2"
+msgstr "Sezona 2, 2021-2022"
+
+msgid "profile/ranked/seasonsdropdown/3"
+msgstr "Sezona 3, 2021-2022"
+
+msgid "profile/ranked/seasonsdropdown/archive"
+msgstr "Arhivirani podaci"
+
+msgid "profile/seasonsdropdown/all"
+msgstr "Sve sezone"
+
+msgid "profile/seasonsdropdown/current"
+msgstr "Trenutna sezona"
+
+msgid "profile/seasonsdropdown/specific"
+msgstr "Sezona %(date1)s – %(date2)s"
+
+msgid "profile/section/statistics/scores/maxHealthRepair"
+msgstr "Najviše obnovljenih HP po bitci"
+
+msgid "profile/summary/clan/btnLabel"
+msgstr "Profil klana"
+
+msgid "profile/summary/clan/joinDate"
+msgstr "Datum pristupa"
+
+msgid "profile/summary/clan/post"
+msgstr "Položaj:"
+
+msgid "profile/summary/club/btnLabel"
+msgstr "Profil tima"
+
+msgid "profile/summary/club/ladder"
+msgstr "Ljestvica:"
+
+msgid "profile/summary/club/ladderInfo"
+msgstr "Liga %(league)s, Division %(division)s"
+
+msgid "profile/summary/club/post"
+msgstr "Položaj:"
+
+msgid "profile/summary/nextAwards/tooltip/body"
+msgstr "Nadolazeće nagrade će biti pričvršćene na traku."
+
+msgid "profile/summary/nextAwards/tooltip/header"
+msgstr "Sljedeće nagrade"
+
+msgid "profile/summary/noGroups"
+msgstr "Igrač nema stalnu taktičku jedinicu."
+
+msgid "profile/summary/significantAwards/tooltip/body"
+msgstr "Igračeve najznačajnije nagrade će biti pričvršćene na traku."
+
+msgid "profile/summary/significantAwards/tooltip/header"
+msgstr "Vrijedne nagrade"
+
+msgid "profile/tabs/tooltip/advancedAchievements/body"
+msgstr "Pogledajte katalog dostignuća"
+
+msgid "profile/tabs/tooltip/advancedAchievements/header"
+msgstr "Dostignuća"
+
+msgid "profile/tabs/tooltip/awards/body"
+msgstr "Pregledaj nagrade i njihov opis"
+
+msgid "profile/tabs/tooltip/awards/header"
+msgstr "Nagrade"
+
+msgid "profile/tabs/tooltip/collections/body"
+msgstr "Pogledaj zbirke"
+
+msgid "profile/tabs/tooltip/collections/header"
+msgstr "Zbirke"
+
+msgid "profile/tabs/tooltip/formations/body"
+msgstr "Pregledaj detalje o taktičkim jedinicama u kojima si bio član."
+
+msgid "profile/tabs/tooltip/formations/header"
+msgstr "Taktičke jedinice"
+
+msgid "profile/tabs/tooltip/hof/body"
+msgstr "Pregledaj rejtinge u Kući slavnih"
+
+msgid "profile/tabs/tooltip/hof/header"
+msgstr "Kuća slavnih"
+
+msgid "profile/tabs/tooltip/hofDisabled/body"
+msgstr "Kuća slavnih je privremeno nedostupna. Molim, pokušajte ponovo kasnije."
+
+msgid "profile/tabs/tooltip/hofDisabled/header"
+msgstr "Pozor"
+
+msgid "profile/tabs/tooltip/statistics/body"
+msgstr "Pogledaj statistiku bitaka na vozilima svih tipova"
+
+msgid "profile/tabs/tooltip/statistics/header"
+msgstr "Statistika"
+
+msgid "profile/tabs/tooltip/summary/body"
+msgstr "Pregledaj borbenu efikasnost"
+
+msgid "profile/tabs/tooltip/summary/header"
+msgstr "Sažetak"
+
+msgid "profile/tabs/tooltip/technique/body"
+msgstr "Pogledaj statistiku bitaka na vozilima svih tipova"
+
+msgid "profile/tabs/tooltip/technique/header"
+msgstr "Vozila"
+
+msgid "profile/title"
+msgstr "Statistika igrača %s"
+
+msgid "seasons/comp7_dropdown_label"
+msgstr "Godina/Sezona:"
+
+msgid "seasons/dropdown_label"
+msgstr "Sezona:"
+
+msgid "section/advancedAchievements/title"
+msgstr "Dostignuća"
+
+msgid "section/awards/dropdown/labels/all"
+msgstr "Svi"
+
+msgid "section/awards/dropdown/labels/inProcess"
+msgstr "Primljeno"
+
+msgid "section/awards/dropdown/labels/none"
+msgstr "Nije primljeno"
+
+msgid "section/awards/dropdown/tooltip/body"
+msgstr "Omogući filter za pregled svih nagrada ili primljenih nagrada ili nagrada koje još nisu primljene"
+
+msgid "section/awards/dropdown/tooltip/header"
+msgstr "Sortiranje nagrada"
+
+msgid "section/awards/labels/battleHeroes"
+msgstr "Junaci bitke"
+
+msgid "section/awards/labels/epic"
+msgstr "Epske medalje"
+
+msgid "section/awards/labels/group"
+msgstr "Grupne nagrade"
+
+msgid "section/awards/labels/honorary"
+msgstr "Počasna zvanja"
+
+msgid "section/awards/labels/marksOnGun"
+msgstr "Oznake izvrsnosti"
+
+msgid "section/awards/labels/memory"
+msgstr "Memorijalne oznake"
+
+msgid "section/awards/labels/special"
+msgstr "Posebna"
+
+msgid "section/awards/labels/stage"
+msgstr "Nagrade etapa"
+
+msgid "section/awards/title"
+msgstr "Nagrade"
+
+msgid "section/collections/title"
+msgstr "Zbirke"
+
+msgid "section/formations/clan/none"
+msgstr "Nemate klan."
+
+msgid "section/formations/clan/none/thirdperson"
+msgstr "Igrač nije član niti jednog klana."
+
+msgid "section/formations/clan/type"
+msgstr "Klan"
+
+msgid "section/formations/fort/battles"
+msgstr "Napretci"
+
+msgid "section/formations/fort/create"
+msgstr "Stvori Utvrđenje"
+
+msgid "section/formations/fort/level"
+msgstr "Razina utvrđenja: %s"
+
+msgid "section/formations/fort/link"
+msgstr "Dostignuća u Utvrđenju"
+
+msgid "section/formations/fort/none"
+msgstr "Utvrđenje nije stvoreno"
+
+msgid "section/formations/fort/none/thirdperson"
+msgstr "Igračev klan nema utvrđenje."
+
+msgid "section/formations/fort/resourceRating"
+msgstr "Rejting lovca na resurse"
+
+msgid "section/formations/fort/sorties"
+msgstr "Okršaji"
+
+msgid "section/formations/history/battles"
+msgstr "Bitaka kao član"
+
+msgid "section/formations/history/dates"
+msgstr "Datum ulaska/odlaska"
+
+msgid "section/formations/history/datesPattern"
+msgstr "%(date1)s – %(date2)s"
+
+msgid "section/formations/history/team"
+msgstr "Tim"
+
+msgid "section/formations/history/title"
+msgstr "Zapisnik igračeva tima"
+
+msgid "section/formations/joinDate"
+msgstr "Datum ulaska: %s"
+
+msgid "section/formations/rank"
+msgstr "Igračev položaj: %s"
+
+msgid "section/formations/team/completedSeason"
+msgstr "Sezona %s (završena)"
+
+msgid "section/formations/team/find"
+msgstr "Idi na pretragu Stalnih timova"
+
+msgid "section/formations/team/league"
+msgstr "Tablica: %(league)s. Divizija: %(division)s. Mjesto: %(position)s."
+
+msgid "section/formations/team/none"
+msgstr "Nemate Stalnih timova."
+
+msgid "section/formations/team/none/thirdperson"
+msgstr "Igrač nema Stalne timove"
+
+msgid "section/formations/team/season"
+msgstr "Sezona %s"
+
+msgid "section/formations/team/seasonBattles"
+msgstr "Rangirane bitke"
+
+msgid "section/formations/team/seasonWinRate"
+msgstr "Pobjea u sezoni"
+
+msgid "section/formations/team/title"
+msgstr "Tim \"%s\""
+
+msgid "section/formations/team/type"
+msgstr "Tim"
+
+msgid "section/formations/title"
+msgstr "Taktičke jedinice"
+
+msgid "section/formations/tooltip/fort/battles/body"
+msgstr "Ukupan broj Napredaka, uključujuči:\n• Pobjeda: %(wins)s\n• Poraza %(losses)s\n• Nerješeno: %(draws)s"
+
+msgid "section/formations/tooltip/fort/battles/header"
+msgstr "Napretci"
+
+msgid "section/formations/tooltip/fort/level/body"
+msgstr "Razina Utvrđenja je jednaka razini njegovog zapovjednog centra."
+
+msgid "section/formations/tooltip/fort/level/header"
+msgstr "Razina Utvrđenja"
+
+msgid "section/formations/tooltip/fort/link/body"
+msgstr "Kliknite za pregled dostignuća Utvrđenja klana."
+
+msgid "section/formations/tooltip/fort/link/header"
+msgstr "Dostignuća u Utvrđenju"
+
+msgid "section/formations/tooltip/fort/resourceRating/body"
+msgstr "Vaše mjesto"
+
+msgid "section/formations/tooltip/fort/resourceRating/header"
+msgstr "Rejting lovca na resurse"
+
+msgid "section/formations/tooltip/fort/sorties/body"
+msgstr "Ukupan broj Okršaja, uključujuči:\n• Pobjeda: %(wins)s\n• Poraza %(losses)s\n• Nerješeno: %(draws)s"
+
+msgid "section/formations/tooltip/fort/sorties/header"
+msgstr "Okršaji"
+
+msgid "section/formations/tooltip/team/link/body"
+msgstr "Klikni za pregled timskog profila."
+
+msgid "section/formations/tooltip/team/link/header"
+msgstr "Timski profil"
+
+msgid "section/formations/tooltip/team/seasonBattles/body"
+msgstr "Ukupan broj odigranih rangiranih bitaka kao član ovog tima, uključujuči:\n• Pobjeda: %(wins)s\n• Poraza %(losses)s\n• Nerješeno: %(draws)s"
+
+msgid "section/formations/tooltip/team/seasonBattles/header"
+msgstr "Rangirane bitke"
+
+msgid "section/formations/tooltip/team/seasonWinRate/body"
+msgstr "Ukupan odnos pobjeda u rangiranim bitkama"
+
+msgid "section/formations/tooltip/team/seasonWinRate/header"
+msgstr "Pobjede"
+
+msgid "section/hof/BrowserView/closeBtn"
+msgstr "ZATVORI"
+
+msgid "section/hof/achievementsRatingsBtn"
+msgstr "Idi na poredak"
+
+msgid "section/hof/achievementsRatingsTitle"
+msgstr "Poredak po dostignućima\nu slučajnim bitkama"
+
+msgid "section/hof/betaBtn"
+msgstr "BETA"
+
+msgid "section/hof/betaTooltip"
+msgstr "Kuća slavnih i World of Tanks rejting\nsu u BETA testiranju"
+
+msgid "section/hof/mainDescription"
+msgstr "Pregledajte svoje izvedbe u bitci i položaj na rejtinzima među ostalim igračima za odabrane periode."
+
+msgid "section/hof/mainTitle"
+msgstr "Kuća slavnih"
+
+msgid "section/hof/notAvailable/tooltip/body"
+msgstr "Kuća slavnih je privremeno nedostupna. Molim, pokušajte ponovo kasnije."
+
+msgid "section/hof/notAvailable/tooltip/header"
+msgstr "Pozor"
+
+msgid "section/hof/statusBtn/hideResults"
+msgstr "Prikaži rezultate"
+
+msgid "section/hof/statusBtn/showResults"
+msgstr "Sakrij rezultate"
+
+msgid "section/hof/statusDescription/exclusion"
+msgstr "Prijava za skrivanje vaših rezultata u rejtinzima je predana i biti će obrađena tijekom slijedećeg podešavanja rezultata."
+
+msgid "section/hof/statusDescription/hideResults"
+msgstr "Vaši rezultati rejtinga su sada skriveni od ostalih igrača."
+
+msgid "section/hof/statusDescription/inclusion"
+msgstr "Prijava je predana i biti će obrađena tijekom slijedećeg podešavanja položaja rejtinga. Vaši rezultati rejtinga su sada vidljivi ostalim igračima."
+
+msgid "section/hof/statusDescription/showResults"
+msgstr "Vaši rezultati rejtinga su prikazani svim igračima, prijateljima i članovima klana."
+
+msgid "section/hof/title"
+msgstr "Kuća slavnih"
+
+msgid "section/hof/vehiclesRatingsBtn"
+msgstr "Idi na poredak"
+
+msgid "section/hof/vehiclesRatingsTitle"
+msgstr "Poredak po vozilima\nu slučajnim bitkama"
+
+msgid "section/statistics/bodyBar/label/charts"
+msgstr "Infografika"
+
+msgid "section/statistics/bodyBar/label/clan10"
+msgstr "Razina X"
+
+msgid "section/statistics/bodyBar/label/clan6"
+msgstr "Razina VI"
+
+msgid "section/statistics/bodyBar/label/clan8"
+msgstr "Razina VIII"
+
+msgid "section/statistics/bodyBar/label/detailed"
+msgstr "Statistika"
+
+msgid "section/statistics/bodyBar/label/fortBattles"
+msgstr "Detalji o Napretcima"
+
+msgid "section/statistics/bodyBar/label/fortSortie"
+msgstr "Detalji o Okršajima"
+
+msgid "section/statistics/bodyBar/label/specific"
+msgstr "Posebna"
+
+msgid "section/statistics/bodyParams/label/average"
+msgstr "Prosječan rezultat po bitci"
+
+msgid "section/statistics/bodyParams/label/common"
+msgstr "Opći parametri"
+
+msgid "section/statistics/bodyParams/label/fortBattles"
+msgstr "Napretci"
+
+msgid "section/statistics/bodyParams/label/fortSortie"
+msgstr "Okršaji"
+
+msgid "section/statistics/bodyParams/label/record"
+msgstr "Rekordni rezultat"
+
+msgid "section/statistics/bodyParams/label/resource"
+msgstr "Industrijski resurs"
+
+msgid "section/statistics/chart/class/tooltip/body"
+msgstr "Ukupan broj bitaka u vozili ove klase"
+
+msgid "section/statistics/chart/class/tooltip/header"
+msgstr "Klasa vozila: %(value)s"
+
+msgid "section/statistics/chart/level/tooltip/body"
+msgstr "Broj bitaka u vozilu ove razine"
+
+msgid "section/statistics/chart/level/tooltip/header"
+msgstr "Razina vozila: %(value)s"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/body"
+msgstr "U ovom režimu bitke se mogu boriti samo vozila razine VI-VIII."
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/header"
+msgstr "Razina vozila: %(value)s"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/body"
+msgstr "Samo se vozila razine VIII-X mogu boriti u ovom režimu bitke."
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/header"
+msgstr "Razina vozila: %(value)s"
+
+msgid "section/statistics/chart/nation/tooltip/body"
+msgstr "Broj bitaka u vozilu ove nacije"
+
+msgid "section/statistics/chart/nation/tooltip/header"
+msgstr "Nacija vozila: %(value)s"
+
+msgid "section/statistics/chart/place/tooltip/body"
+msgstr "Ukupan broj bitaka s ovim zauzetim mjestom"
+
+msgid "section/statistics/chart/place/tooltip/header"
+msgstr "Zauzeto mjesto: %(value)s"
+
+msgid "section/statistics/chart/type/tooltip/body"
+msgstr "Broj bitaka u vozilu ovog tipa"
+
+msgid "section/statistics/chart/type/tooltip/header"
+msgstr "Tip vozila: %(value)s"
+
+msgid "section/statistics/charts/byClassLabel"
+msgstr "Po klasi"
+
+msgid "section/statistics/charts/byLevelLabel"
+msgstr "Po razini"
+
+msgid "section/statistics/charts/byNationLabel"
+msgstr "Po naciji"
+
+msgid "section/statistics/charts/byPlaceLabel"
+msgstr "Po zauzetom mjestu"
+
+msgid "section/statistics/charts/byTypeLabel"
+msgstr "Po tipu"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortOther"
+msgstr "Šteta neprijateljskim vozilima koje je ošamutio igrač"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortSelf"
+msgstr "Šteta neprijateljskim vozilima koje ste ošamutili"
+
+msgid "section/statistics/detailed/avgDamage"
+msgstr "Nanesena šteta"
+
+msgid "section/statistics/detailed/avgDestroyedVehicles"
+msgstr "Uništeno neprijateljskih vozila"
+
+msgid "section/statistics/detailed/avgDetectedEnemies"
+msgstr "Otkriveno neprijateljskih vozila"
+
+msgid "section/statistics/detailed/avgHealthRepaired"
+msgstr "Obnovljeno HP"
+
+msgid "section/statistics/detailed/avgPoiCaptured"
+msgstr "Osvojeno Točaka interesa"
+
+msgid "section/statistics/detailed/avgPrestigePoints"
+msgstr "Bodovi Prestiža"
+
+msgid "section/statistics/detailed/avgReceivedDamage"
+msgstr "Primljena šteta"
+
+msgid "section/statistics/detailed/avgRoleSkillUsed"
+msgstr "Iskorišteno Vještina uloga"
+
+msgid "section/statistics/detailed/damageCoefficient"
+msgstr "Odnos štete"
+
+msgid "section/statistics/detailed/dealOutDamage"
+msgstr "Šteta"
+
+msgid "section/statistics/detailed/destroyed"
+msgstr "Uništen"
+
+msgid "section/statistics/detailed/destructionCoefficient"
+msgstr "Odnos uništenja"
+
+msgid "section/statistics/detailed/killed"
+msgstr "Uništen"
+
+msgid "section/statistics/detailed/maxDestroyedVehicles"
+msgstr "Najviše uništenih vozila"
+
+msgid "section/statistics/detailed/receivedDamage"
+msgstr "Primljena šteta"
+
+msgid "section/statistics/detailed/stunNumber"
+msgstr "Broj ošamućenja"
+
+msgid "section/statistics/headerText/all"
+msgstr "Slučajna i tenkovska satnija"
+
+msgid "section/statistics/headerText/battleRoyaleSolo"
+msgstr "Čelični lovac"
+
+msgid "section/statistics/headerText/battleRoyaleSquad"
+msgstr "Čelični lovac"
+
+msgid "section/statistics/headerText/clan"
+msgstr "Globalna mapa"
+
+msgid "section/statistics/headerText/comp7"
+msgstr "Navala"
+
+msgid "section/statistics/headerText/epicRandom"
+msgstr "Velika bitka"
+
+msgid "section/statistics/headerText/fallout"
+msgstr "Divljanje"
+
+msgid "section/statistics/headerText/fortifications"
+msgstr "Utvrđenje: bitke"
+
+msgid "section/statistics/headerText/historical"
+msgstr "Povijesne bitke"
+
+msgid "section/statistics/headerText/ranked_10x10"
+msgstr "Rangirana bitka"
+
+msgid "section/statistics/headerText/ranked_15x15"
+msgstr "Rangirane bitke 15 na 15"
+
+msgid "section/statistics/headerText/staticTeam"
+msgstr "Tim: rangirane bitke"
+
+msgid "section/statistics/headerText/team"
+msgstr "Tim: nerangirane bitke"
+
+msgid "section/statistics/labels/battlesOnTech"
+msgstr "Bitaka u vozilima"
+
+msgid "section/statistics/scores/achievementsCount"
+msgstr "Nagrade"
+
+msgid "section/statistics/scores/armorUsing"
+msgstr "Učinkovitost korištenja oklopa"
+
+msgid "section/statistics/scores/avgAssistedDamage"
+msgstr "Prosječna šteta nanesena uz vašu pomoć"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortOther"
+msgstr "Šteta uzrokovana s igračevom pomoći"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortSelf"
+msgstr "Šteta uzrokovana vašom pomoći"
+
+msgid "section/statistics/scores/avgDamage"
+msgstr "Prosječna šteta po bitci"
+
+msgid "section/statistics/scores/avgExperience"
+msgstr "Prosječno iskustvo po bitci"
+
+msgid "section/statistics/scores/avgExperience/short"
+msgstr "Iskustvo"
+
+msgid "section/statistics/scores/avgPrestigePoints"
+msgstr "Prosječan broj bodova Prestiža po bitci"
+
+msgid "section/statistics/scores/avgVictoryPoints"
+msgstr "Prosječan broj bodova pobjede"
+
+msgid "section/statistics/scores/capturePoints"
+msgstr "Bodovi zauzimanja baze"
+
+msgid "section/statistics/scores/clan/summaryDamageCoefficient"
+msgstr "Prosječan odnos štete"
+
+msgid "section/statistics/scores/coolSigns"
+msgstr "Majstorske značke: As tenkist"
+
+msgid "section/statistics/scores/droppedCapturePoints"
+msgstr "Bodovi poništenja zauzeća"
+
+msgid "section/statistics/scores/flagsAbsorbed"
+msgstr "Uništeno zastava"
+
+msgid "section/statistics/scores/flagsDelivered"
+msgstr "Isporučeno zastava"
+
+msgid "section/statistics/scores/fort/battles"
+msgstr "Napretci"
+
+msgid "section/statistics/scores/fort/battlesWinsEfficiency"
+msgstr "Pobjede"
+
+msgid "section/statistics/scores/fort/resource"
+msgstr "Prosječna pljačka po Okršaju"
+
+msgid "section/statistics/scores/fort/sortie"
+msgstr "Okršaji"
+
+msgid "section/statistics/scores/fort/sortieWinsEfficiency"
+msgstr "Pobjeda u Okršajima"
+
+msgid "section/statistics/scores/fortBattles/attacks"
+msgstr "Napadi"
+
+msgid "section/statistics/scores/fortBattles/defences"
+msgstr "Obrambene akcije"
+
+msgid "section/statistics/scores/fortBattlesTotalWins"
+msgstr "Pobjeda u Napretcima"
+
+msgid "section/statistics/scores/fortSortie"
+msgstr "Okršaji"
+
+msgid "section/statistics/scores/fortSortieTotalWins"
+msgstr "Pobjeda u Okršajima"
+
+msgid "section/statistics/scores/fortSorties/AvgResources"
+msgstr "Prosječna pljačka po Okršaju"
+
+msgid "section/statistics/scores/fortSorties/totalResources"
+msgstr "Ukupna količina pljačke zarađena u okršajima"
+
+msgid "section/statistics/scores/fortTotalBattles"
+msgstr "Napretci"
+
+msgid "section/statistics/scores/hits"
+msgstr "Pogoci"
+
+msgid "section/statistics/scores/killDeathRatio"
+msgstr "Odnos uništenja"
+
+msgid "section/statistics/scores/looting"
+msgstr "Pljačke"
+
+msgid "section/statistics/scores/maxDamage"
+msgstr "Najveća šteta u bitci"
+
+msgid "section/statistics/scores/maxEquipmentDamageDealt"
+msgstr "Najveća šteta nanešena vještinama po bitci"
+
+msgid "section/statistics/scores/maxExperience"
+msgstr "Najviše iskustva u bitci"
+
+msgid "section/statistics/scores/maxPrestigePoints"
+msgstr "Najveći broj bodova Prestiža po bitci"
+
+msgid "section/statistics/scores/maxVictoryPoints"
+msgstr "Najviše zarađenih bodova pobjede po bitci"
+
+msgid "section/statistics/scores/maxWinSeries"
+msgstr "Najviše pobjeda zaredom (solo i vod/super vod)"
+
+msgid "section/statistics/scores/poiCaptured"
+msgstr "Osvojeno Točaka interesa"
+
+msgid "section/statistics/scores/ranked/avgFrags"
+msgstr "Prosječan broj uništenih vozila"
+
+msgid "section/statistics/scores/ranked/avgPoints"
+msgstr "Učinkovitost u rangiranim bitkama"
+
+msgid "section/statistics/scores/ranked/points"
+msgstr "Bodovi ranga"
+
+msgid "section/statistics/scores/survival"
+msgstr "Preživjelih bitaka"
+
+msgid "section/statistics/scores/totalBattles"
+msgstr "Bitke"
+
+msgid "section/statistics/scores/totalVehs"
+msgstr "Korištena vozila"
+
+msgid "section/statistics/scores/totalWins"
+msgstr "Pobjede"
+
+msgid "section/statistics/scores/usedTechnics"
+msgstr "Korištena vozila"
+
+msgid "section/statistics/title"
+msgstr "Statistika"
+
+msgid "section/summary/errorText/nextAwards"
+msgstr "Nema sljedećih nagrada"
+
+msgid "section/summary/errorText/significantAwards"
+msgstr "Nema vrijednih nagrada"
+
+msgid "section/summary/labels/nextAwards"
+msgstr "Sljedeće nagrade"
+
+msgid "section/summary/labels/significantAwards"
+msgstr "Vrijedne nagrade"
+
+msgid "section/summary/scores/averageLevel"
+msgstr "Prosječna razina"
+
+msgid "section/summary/scores/averageRank"
+msgstr "Prosječni plasman"
+
+msgid "section/summary/scores/avgDamage"
+msgstr "Prosječna šteta po bitci"
+
+msgid "section/summary/scores/avgExperience"
+msgstr "Prosječno iskustvo po bitci"
+
+msgid "section/summary/scores/coolSigns"
+msgstr "Majstorske značke: As tenkist"
+
+msgid "section/summary/scores/damageDealt"
+msgstr "Nanešena šteta"
+
+msgid "section/summary/scores/hits"
+msgstr "Pogoci"
+
+msgid "section/summary/scores/maxDestroyed"
+msgstr "Najviše uništenih vozila"
+
+msgid "section/summary/scores/maxExperience"
+msgstr "Najviše iskustva u bitci"
+
+msgid "section/summary/scores/personalScore"
+msgstr "Osobni rejting"
+
+msgid "section/summary/scores/totalBattles"
+msgstr "Bitke"
+
+msgid "section/summary/scores/totalWins"
+msgstr "Pobjede"
+
+msgid "section/summary/title"
+msgstr "Sažetak"
+
+msgid "section/technique/awards/noAchievements"
+msgstr "Nagrade još nisu primljene"
+
+msgid "section/technique/buttonBar/avgExperience"
+msgstr "Prosječno XP\npo bitci"
+
+msgid "section/technique/buttonBar/classiness"
+msgstr "Majstorstvo"
+
+msgid "section/technique/buttonBar/totalBattles"
+msgstr "Bitke"
+
+msgid "section/technique/buttonBar/totalWins"
+msgstr "Pobjede"
+
+msgid "section/technique/buttonBar/vehicleName"
+msgstr "Ime"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/body"
+msgstr "Pregledaj vozila u garaži"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/header"
+msgstr "U Garaži"
+
+msgid "section/technique/emptyScreenLabel/battleType/all"
+msgstr "Nema vozila u Garaži koja su se borila u slučajnim i bitkama tenkovskih satnija."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSolo"
+msgstr "Nema vozila u Garaži koja su se borila u Čeličnom lovcu."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSquad"
+msgstr "Nema vozila u Garaži koja su se borila u Čeličnom lovcu."
+
+msgid "section/technique/emptyScreenLabel/battleType/comp7"
+msgstr "Nema vozila koja su se borila u režimu Navale."
+
+msgid "section/technique/emptyScreenLabel/battleType/epicRandom"
+msgstr "Niti jedno vozilo u Garaži se nije borilo u režimu Velike bitke"
+
+msgid "section/technique/emptyScreenLabel/battleType/fallout"
+msgstr "Nijedno vozilo u vašoj Garaži nije bilo u režimu Divljanje."
+
+msgid "section/technique/emptyScreenLabel/battleType/fortBattles"
+msgstr "Nema vozila u Garaži koja su se borila u Napretcima"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortSorties"
+msgstr "Nema vozila u Garaži koja su bila u Okršajima."
+
+msgid "section/technique/emptyScreenLabel/battleType/globalMap"
+msgstr "Nema vozila u Garaži koja su se borila na globalnoj mapi"
+
+msgid "section/technique/emptyScreenLabel/battleType/historical"
+msgstr "Nemate vozila u Garaži koja su se borila u povijesnim bitkama."
+
+msgid "section/technique/emptyScreenLabel/battleType/ranked"
+msgstr "U Garaži nema vozila koja su se borila u rangiranim bitkama"
+
+msgid "section/technique/emptyScreenLabel/battleType/staticTeam"
+msgstr "Nema vozila u Garaži koja su bila u rangiranim bitkama."
+
+msgid "section/technique/emptyScreenLabel/battleType/team"
+msgstr "Nema vozila u Garaži koja su se borila u timskim bitkama."
+
+msgid "section/technique/sort/tooltip/avgDamage/body"
+msgstr "Sortiraj po prosječnoj šteti u bitci."
+
+msgid "section/technique/sort/tooltip/avgDamage/header"
+msgstr "Prosječna šteta"
+
+msgid "section/technique/sort/tooltip/avgFrags/body"
+msgstr "Sortiraj po prosječnom broju neprijateljskih vozila uništenih u bitci."
+
+msgid "section/technique/sort/tooltip/avgFrags/header"
+msgstr "Uništeno neprijateljskih vozila"
+
+msgid "section/technique/sort/tooltip/avgexp/body"
+msgstr "Sortiraj po prosječnom iskustvu u bitci"
+
+msgid "section/technique/sort/tooltip/avgexp/header"
+msgstr "Prosječno iskustvo"
+
+msgid "section/technique/sort/tooltip/battlesCount/body"
+msgstr "Sortiraj po broju bitaka"
+
+msgid "section/technique/sort/tooltip/battlesCount/header"
+msgstr "Bitke"
+
+msgid "section/technique/sort/tooltip/class/body"
+msgstr "Sortiraj po klasi vozila"
+
+msgid "section/technique/sort/tooltip/class/header"
+msgstr "Klasa"
+
+msgid "section/technique/sort/tooltip/lvl/body"
+msgstr "Poredaj po razinama vozila."
+
+msgid "section/technique/sort/tooltip/lvl/header"
+msgstr "Razina"
+
+msgid "section/technique/sort/tooltip/marksofmastery/body"
+msgstr "Sortiraj po značkama majstorstva"
+
+msgid "section/technique/sort/tooltip/marksofmastery/header"
+msgstr "Majstorstvo"
+
+msgid "section/technique/sort/tooltip/name/body"
+msgstr "Poredaj po imenima vozila."
+
+msgid "section/technique/sort/tooltip/name/header"
+msgstr "Ime"
+
+msgid "section/technique/sort/tooltip/nation/body"
+msgstr "Poredaj po naciji vozila."
+
+msgid "section/technique/sort/tooltip/nation/header"
+msgstr "Nacija"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/body"
+msgstr "Poredaj po elitnoj razini"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/header"
+msgstr "Elitni sustav"
+
+msgid "section/technique/sort/tooltip/prestigePoints/body"
+msgstr "Poredaj po prosječnom broju bodova Prestiža po bitci"
+
+msgid "section/technique/sort/tooltip/prestigePoints/header"
+msgstr "Prosječan broj bodova Prestiža po bitci"
+
+msgid "section/technique/sort/tooltip/technique/body"
+msgstr "Poredaj po tipu vozila."
+
+msgid "section/technique/sort/tooltip/technique/header"
+msgstr "Tip"
+
+msgid "section/technique/sort/tooltip/winRate/body"
+msgstr "Poredaj po odnosu pobjeda"
+
+msgid "section/technique/sort/tooltip/winRate/header"
+msgstr "Pobjede"
+
+msgid "section/technique/sort/tooltip/wins/body"
+msgstr "Sortiraj po broju pobjeda"
+
+msgid "section/technique/sort/tooltip/wins/header"
+msgstr "Pobjede"
+
+msgid "section/technique/statistics/accuracy"
+msgstr "Pogoci"
+
+msgid "section/technique/statistics/assistedStunDamage/shortOther"
+msgstr "Šteta neprijateljskim vozilima koje je ošamutio igrač"
+
+msgid "section/technique/statistics/assistedStunDamage/shortSelf"
+msgstr "Šteta neprijateljskim vozilima koje ste ošamutili"
+
+msgid "section/technique/statistics/avgAssistedStunDamage"
+msgstr "Šteta neprijateljskim vozilima koje ste ošamutili"
+
+msgid "section/technique/statistics/avgDamage"
+msgstr "Nanesena šteta"
+
+msgid "section/technique/statistics/avgDestroyedVehicles"
+msgstr "Uništeno neprijateljskih vozila"
+
+msgid "section/technique/statistics/avgDetectedEnemies"
+msgstr "Otkriveno neprijateljskih vozila"
+
+msgid "section/technique/statistics/avgExperience"
+msgstr "Iskustvo"
+
+msgid "section/technique/statistics/avgReceivedDamage"
+msgstr "Primljena šteta"
+
+msgid "section/technique/statistics/avgScoutingDamage"
+msgstr "Šteta uzrokovana s igračevom pomoći"
+
+msgid "section/technique/statistics/avgStats"
+msgstr "Prosječan rezultat po bitci"
+
+msgid "section/technique/statistics/avgStunNumber"
+msgstr "Broj ošamućenja"
+
+msgid "section/technique/statistics/common"
+msgstr "Opći parametri"
+
+msgid "section/technique/statistics/damageCoefficient"
+msgstr "Odnos štete"
+
+msgid "section/technique/statistics/destructionCoefficient"
+msgstr "Odnos uništenja"
+
+msgid "section/technique/statistics/maxDamage"
+msgstr "Najveća šteta u bitci"
+
+msgid "section/technique/statistics/maxDestroyedVehicles"
+msgstr "Najviše uništenih vozila"
+
+msgid "section/technique/statistics/maxExperience"
+msgstr "Najviše iskustva u bitci"
+
+msgid "section/technique/statistics/records"
+msgstr "Rekordni rezultat"
+
+msgid "section/technique/statistics/stunNumber"
+msgstr "Broj ošamućenja"
+
+msgid "section/technique/statistics/survival"
+msgstr "Preživjelih bitaka"
+
+msgid "section/technique/statistics/tankingCoefficient"
+msgstr "Učinkovitost korištenja oklopa"
+
+msgid "section/technique/statistics/totalBattles"
+msgstr "Bitke"
+
+msgid "section/technique/statistics/totalWins"
+msgstr "Pobjede"
+
+msgid "section/technique/tabBtn/achievements"
+msgstr "Nagrade"
+
+msgid "section/technique/tabBtn/awards/tooltip/body"
+msgstr "Pregledaj nagrade za odabrana vozila"
+
+msgid "section/technique/tabBtn/awards/tooltip/header"
+msgstr "Nagrade"
+
+msgid "section/technique/tabBtn/statistic"
+msgstr "Statistika"
+
+msgid "section/technique/tabBtn/statistic/tooltip/body"
+msgstr "Pregledaj statistiku za odabrana vozila"
+
+msgid "section/technique/tabBtn/statistic/tooltip/header"
+msgstr "Statistika"
+
+msgid "section/technique/title"
+msgstr "Vozila"
+
+msgid "section/technique/window/hangarVehiclesLabel"
+msgstr "U Garaži"
+
+msgid "tooltip/dropdown/battleType/body"
+msgstr "Omogući filter za pregled statistike u režimima bitke."
+
+msgid "tooltip/dropdown/battleType/header"
+msgstr "Sortiraj po režimima bitke"

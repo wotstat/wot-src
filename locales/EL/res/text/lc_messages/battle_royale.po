@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Υπάρχει Εκεχειρία σε όλους τους διαθέσιμους servers."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "Υπάρχει εκεχειρία σε αυτόν τον server."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Αλλαγή Server"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Οι Μάχες Καταδίωξης τελείωσαν"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Οι μάχες αυτές δεν είναι διαθέσιμες στον επιλεγμένο server"
+
+msgid "banner/info/disabled"
+msgstr "Εκεχειρία"
+
+msgid "banner/info/seasonActive"
+msgstr "Δεύτερη ευκαιρία και έπαθλα"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "Μέχρι %(day)s %(month)s"
+
+msgid "banner/subtitle"
+msgstr "Μάχες του τύπου Battle Royale με πολύτιμα έπαθλα"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s h"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s h %(minutes)s min"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s min"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "ΜΑΧΕΣ ΚΑΤΑΔΙΩΞΗΣ"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Η μάχη θα συνεχιστεί από νέα θέση."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Θα Γίνει Επανεκκίνηση Λίαν Συντόμως"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Επανεκκίνηση"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Δεν θα υπάρξει δεύτερη ευκαιρία."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Δεν Υπάρχει Πλέον Δυνατότητα Επανεκκίνησης"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Επανεκκίνηση Μη Διαθέσιμη Λίαν Συντόμως!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Περισσότερη προσοχή αυτήν τη φορά."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Το Όχημα Είναι Έτοιμο Για Μάχη!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Επιστροφή Στη Μάχη"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Ενεργή συμμετοχή στη μάχη σε λίγο."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Επανεκκίνηση Μη Διαθέσιμη"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Βρείτε μία Επανεκκίνηση για να επιστρέψετε στη δράση."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Καταστροφή Οχήματος Συμπαίκτη"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Επανεκκίνηση"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "2 οχήματα είναι καλύτερα από 1!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Επανεκκίνηση Οχήματος Συμπαίκτη"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Μείνετε εκτός μάχης!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Επανεκκίνηση Συμπαίκτη"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Το μπόνους ενεργοποιήθηκε!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Έπαθλο για την 1η θέση"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Συλλέχθηκαν στη μάχη"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "ΝΙΚΗ"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Δεν Επιλέχθηκε Κεφάλαιο. Διαθέσιμοι Πόντοι Battle Pass: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Όλα Τα Κεφάλαια Ολοκληρώθηκαν. Συνεχίστε να μαζεύετε Πόντους Battle Pass."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Battle Pass"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Battle Pass"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Επιλογή Κεφαλαίου"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Άνοιγμα της προόδου του ενεργού Κεφαλαίου"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Battle Pass"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Ολοκληρώσεις αποστολών ανά μάχη: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Αποστολές"
+
+msgid "battleResult/battleReward/title"
+msgstr "ΚΕΡΔΙΣΑΤΕ ΑΠΟ ΤΗ ΜΑΧΗ"
+
+msgid "battleResult/button/hangar"
+msgstr "Γκαράζ"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Οι πόντοι και τα έπαθλα απονέμονται όταν όλοι οι παίκτες τελειώσουν τη μάχη. Η πρόοδος των αποστολών θα εκτιμηθεί με βάση τα αποτελέσματα της μάχης."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Πιέστε %(esc) για να παραλείψετε την κινούμενη προβολή"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Πρόσκληση σε Ουλαμό"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Συμπαίκτης"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Τυχαίος Συμπαίκτης"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Τύπος Μάχης"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "ΜΑΧΗ ΑΝΕΞΑΡΤΗΤΩΝ ΠΑΙΚΤΩΝ"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "Με Προνομιακό Λογαριασμό WoT, θα λαμβάνατε:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Συνολικές αξίες με Προνομιακό Λογαριασμό WoT"
+
+msgid "battleResult/progressStage"
+msgstr "Πρόοδος Φάσης {stage}"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Το πραγματικό όνομα στο παιχνίδι και η ετικέτα του clan δεν θα εμφανίζονται στους άλλους παίκτες μέσα στη μάχη."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Πραγματικό όνομα παίκτη: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Το πραγματικό όνομα στο παιχνίδι άλλαξε σε {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Η φθορά που αποσόβησε η θωράκιση του οχήματός σας."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Η φθορά που προκαλέσατε σε αντιπάλους."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Οι καταστροφές των εχθρικών οχημάτων από εσάς."
+
+msgid "battleResult/stats/body/place"
+msgstr "Η θέσης σας με βάση τα αποτελέσματα μάχης."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Οι συνολικές καταστροφές εχθρικών οχημάτων από τον Ουλαμό σας."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Φθορά Που Αποκρούστηκε"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Φθορά Σε Αντιπάλους"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Καταστροφές Αντιπάλων"
+
+msgid "battleResult/stats/header/place"
+msgstr "Θέση"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Καταστροφές Αντιπάλων Από Τον Ουλαμό"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Φθορά Που Αποκρούστηκε"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Φθορά Σε Αντιπάλους"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Καταστροφές Αντιπάλων"
+
+msgid "battleResult/stats/title/place"
+msgstr "Θέση"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Καταστροφές Αντιπάλων Από Τον Ουλαμό"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Πίνακας Κατάταξης"
+
+msgid "battleResult/tab/result"
+msgstr "Αποτελέσματα Μάχης"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "Ο ΟΥΛΑΜΟΣ ΚΑΤΣΤΡΑΦΗΚΕ"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "ΤΟ ΟΧΗΜΑ ΚΑΤΑΣΤΡΑΦΗΚΕ"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "ΝΙΚΗ"
+
+msgid "battleResult/title/victoryOther"
+msgstr "PLACE OF HONOR"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Επιλέξτε ένα από τα ειδικά οχήματα των Μαχών Καταδίωξης."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Ασύμβατο Όχημα"
+
+msgid "button/modules"
+msgstr "ΠΙΝΑΚΑΣ ΤΕΧΝΟΛΟΓΙΑΣ"
+
+msgid "button/repair"
+msgstr "Επισκευή"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Μάχες Προσωρινά Μη Διαθέσιμες"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Μάχες Προσωρινά Μη Διαθέσιμες"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Μάχες Μη Διαθέσιμες"
+
+msgid "ceasefire/header/schedule"
+msgstr "Πρόγραμμα Μαχών"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Εκεχειρία σε όλους τους διαθέσιμους servers. Πληροφορίες σχετικά με τη διαθεσιμότητα θα βρείτε παρακάτω."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "Εκεχειρία στον επιλεγμένο server. Μπορείτε να αλλάξετε server για να λάβετε μέρος στις μάχες αυτού του είδους."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Οι Μάχες Καταδίωξης δεν είναι διαθέσιμες στον επιλεγμένο server. Μπορείτε να αλλάξετε server για να λάβετε μέρος στις μάχες αυτού του είδους."
+
+msgid "commanderInfo/commonRank"
+msgstr "Αρχηγός"
+
+msgid "commanderInfo/description/china"
+msgstr "Έχω ήδη κερδίσει. Θα το συνειδητοποιήσετε σύντομα."
+
+msgid "commanderInfo/description/france"
+msgstr "\"Εγώ είμαι ο νόμος!\""
+
+msgid "commanderInfo/description/germany"
+msgstr "\"Σήμερα είναι μια ημέρα δόξας. Θα μας γράψει η ιστορία.\""
+
+msgid "commanderInfo/description/poland"
+msgstr "Δεν υπάρχει χρόνος για αβρότητες."
+
+msgid "commanderInfo/description/sweden"
+msgstr "Όλα πάνε βάσει σχεδίου"
+
+msgid "commanderInfo/description/uk"
+msgstr "\" Σε ότι και αν κάνετε να είστε οι καλύτεροι.\""
+
+msgid "commanderInfo/description/usa"
+msgstr "\"Η καταπακτή είναι έτοιμη και φρεσκογυαλισμένη.\""
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"Ο νικητής κερδίζει τα πάντα!\""
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Ικανότητες"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nΕδικό όχημα για Μάχες Καταδίωξης"
+
+msgid "fragPanel/squadsCount"
+msgstr "Ουλαμοί: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Πίνακας Κατάταξης"
+
+msgid "hangarResults/btns/summary"
+msgstr "Αποτελέσματα Μάχης"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Τα εξαρτήματα αναβαθμίζονται μόνο στη μάχη. Για να ανοίξετε το Μενού Αναβάθμισης, πιέστε το %(key)s μέσα στη μάχη."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s και %(highlight2)s για να κερδίσετε experience. Κάνε νέα βαθμίδα δίνει τη δυνατότητα για αναβάθμιση ενός εξαρτήματος από το Μενού Αναβάθμισης και βελτιώνει σημαντικά τα χαρακτηριστικά του οχήματος."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Προκαλέστε φθορά σε εχθρικά οχήματα"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "συλλέξτε Λάφυρα Πολέμου από τον χάρτη"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Αναβάθμιση Οχήματος Στη Μάχη"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Μπαίνετε στη μάχη με όχημα Βαθμίδας I."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Τα εξαρτήματα μπορούν να αναβαθμιστούν και από το Μενού Αναβάθμισης μέσα στη μάχη (με το πλήκτρο %(treeKey)s ως προκαθορισμένο) και πιέζοντας ταυτόχρονα %(leftModuleKey)s και %(rightModuleKey)s.\n\nΤα εξαρτήματα αναβαθμίζονται μόνο στη μάχη."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "Σε μάχη:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Τα οχήματα του Steel Hunter κερδίζουν experience από τη μάχη προκαλώντας φθορά και συλλέγοντας Λάφυρα Πολέμου. Μόλις συγκεντρωθούν τα απαιτούμενα XP, το όχημα ανεβαίνει στην επόμενη βαθμίδα και επιλέγετε την αναβάθμιση κάποιου εξαρτήματος."
+
+msgid "levelUp/severalTitles"
+msgstr "ΚΕΡΔΙΣΜΕΝΑ ΕΠΙΠΕΔΑ: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "ΚΕΡΔΙΣΑΤΕ ΤΟ ΕΠΙΠΕΔΟ %(level)s!"
+
+msgid "levelUp/twoTitles"
+msgstr "ΚΕΡΔΙΣΜΕΝΑ ΕΠΙΠΕΔΑ: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Ολοκληρώστε αποστολές και κερδίστε πολύτιμα έπαθλα."
+
+msgid "level_up/max_level_info/title"
+msgstr "Νέες Ημερήσιες Αποστολές"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Η Περίοδος\nθα ξεκινήσει σύντομα"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Η Περίοδος θα ξεκινήσει στις %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Αποσόβηση"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Φθορά"
+
+msgid "playerStats/killsStat/name"
+msgstr "Καταστροφές"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Καταστροφές"
+
+msgid "playerStats/placeStat/name"
+msgstr "Θέση"
+
+msgid "playerStats/title"
+msgstr "Προσωπικό Σκορ"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Ανίχνευση Ασυρμάτου μη διαθέσιμη: προετοιμασία σε εξέλιξη"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Το όχημα είναι πλήρως λειτουργικό. Δεν απαιτείται ανάκτηση."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Το Ρομπότ Μάχης καταστράφηκε"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "Το %(attacker)s κατέστρεψε τον %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "Το %(attacker)s κατέστρεψε τον αντίπαλο %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Η Βολίδα καταστράφηκε"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Οι νάρκες έληξαν"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Οι νάρκες τοποθετήθηκαν"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Η Ανίχνευση Ασυρμάτου είναι έτοιμη προς χρήση"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Το όχημα έφτασε στη μέγιστη Βαθμίδα"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Φτάσατε στη Βαθμίδα %(level)s"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Τοποθέτηση: %(moduleType)s. Αναβάθμιση: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Σκάφος"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Ανάρτηση"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Κινητήρας"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Πυροβόλο"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Ανίχνευση Ασυρμάτου"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Πυργίσκος"
+
+msgid "playersPanel/title"
+msgstr "ΟΜΑΔΑ"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Εναλλαγή μεταξύ οχημάτων Ουλαμού."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Λειτουργία Θεατή"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Πίσω στο Γκαράζ.\nΕίσοδος σε μάχη με άλλο όχημα."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Πίσω στο Γκαράζ"
+
+msgid "preBattle/buttonTitle"
+msgstr "ΜΑΧΗ!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Επιλέξτε χάρτη"
+
+msgid "preBattle/listTitle"
+msgstr "ΕΤΟΙΜΟΤΗΤΑ ΠΑΙΚΤΩΝ"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Dreamland"
+
+msgid "preBattle/mapRandom"
+msgstr "Τυχαίος χάρτης"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "ΟΧΗΜΑΤΑ ΟΥΛΑΜΟΥ"
+
+msgid "preBattle/title"
+msgstr "BIG HUNT"
+
+msgid "preBattle/userFooterTitle"
+msgstr "ΕΠΙΛΕΓΜΕΝΑ ΟΧΗΜΑΤΑ"
+
+msgid "preBattle/userNotReady"
+msgstr "Όχι έτοιμος"
+
+msgid "preBattle/userReady"
+msgstr "Έτοιμος"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Η Περίοδος %(cycleNo)s στον server %(server)s τελείωσε"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "Η τρέχουσα Περίοδος στον server %(server)s τελείωσε."
+
+msgid "proxyPanel/button"
+msgstr "Εφοδιασμός"
+
+msgid "proxyPanel/label"
+msgstr "Steel\nSeals"
+
+msgid "proxyPanel/store"
+msgstr "ΕΦΟΔΙΑΣΜΟΣ"
+
+msgid "questsTooltip/timeLeft"
+msgstr "Λήξη Περιόδου σε %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "Δεν ορίστηκε πλήκτρο για την Ανίχνευση Ασυρμάτου"
+
+msgid "radar/hint/press"
+msgstr "Πιέστε"
+
+msgid "radar/hint/text"
+msgstr "για να ενεργοποιήσετε την Ανίχνευση Ασυρμάτου"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Εκκίνηση"
+
+msgid "selectRespawn/button/land"
+msgstr "Εκκίνηση"
+
+msgid "selectRespawn/description"
+msgstr "Κάντε κλικ σε ένα από τα προτεινόμενα σημεία. Εάν δεν επιλεγεί κάποιο σημείο, θα προσγειωθείτε τυχαία σε ένα από τα προτεινόμενα σημεία."
+
+msgid "selectRespawn/header"
+msgstr "Επιλέξτε Σημείο Εκκίνησης"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Κάντε κλικ σε ένα από τα προτεινόμενα σημεία. Εάν δεν επιλεγεί κάποιο σημείο, θα προσγειωθείτε τυχαία σε ένα από τα προτεινόμενα σημεία."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Η μάχη ξεκινάει από εδώ"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Επιλέξτε Σημείο Εκκίνησης"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "ΕΦΟΡΜΗΣΗ!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Το οξύ διαβρώνει τη θωράκιση!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Η ζώνη έκλεισε! Εγκαταλείψτε τη ζώνη αλλιώς το όχημά σας θα καταστραφεί!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "Η ζώνη θα γίνει κόκκινη λίαν συντόμως"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Η ευκινησία μειώθηκε!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Και πάλι στη σωστή θέση..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Επανάκτηση hit points"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Επανάκτηση hit points"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Μετατροπή της φθοράς"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Βελτίωση τεχνικών χαρακτηριστικών"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Βλήματα & Ανάκτηση"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Αεροπορικός Εφοδιασμός"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Κουτί Επισκευών ή Επανάληψη Δυνατότητας"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Λάφυρα Πολέμου"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Συνολικά Λάφυρα Πολέμου: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Συλλογή: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Ζώνη Επισκευών"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Αυξανόμενη Ένταση!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Σε καπνό"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Η θωράκισή μας διαβρώνεται!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Η ευκινησία μειώθηκε!"
+
+msgid "techParams/type/damage"
+msgstr "Φθορά"
+
+msgid "techParams/type/difficulty"
+msgstr "Δυσκολία"
+
+msgid "techParams/type/mobility"
+msgstr "Ευκινησία"
+
+msgid "techParams/type/spotting"
+msgstr "Εντοπισμός"
+
+msgid "techParams/type/survivability"
+msgstr "Αντοχή"
+
+msgid "techtree/body_armor"
+msgstr "Θωράκιση"
+
+msgid "techtree/body_health"
+msgstr "Hit Points"
+
+msgid "techtree/body_mobility"
+msgstr "Ευκινησία"
+
+msgid "techtree/engine_acceleration"
+msgstr "Δυναμική"
+
+msgid "techtree/engine_speed"
+msgstr "Μέγιστη Ταχύτητα"
+
+msgid "techtree/gun_alpha"
+msgstr "Φθορά ανά Βολή"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Αυτόματη Γέμιση"
+
+msgid "techtree/gun_clip"
+msgstr "Γέμιση Γεμιστήρα"
+
+msgid "techtree/gun_dpm"
+msgstr "Ταχύτητα Γέμισης"
+
+msgid "techtree/gun_dualgun"
+msgstr "Διπλό Πυροβόλο"
+
+msgid "techtree/gun_he"
+msgstr "Φθορά Βλημάτων HE"
+
+msgid "techtree/gun_machinegun"
+msgstr "Αντιαρματικό Πολυβόλο"
+
+msgid "techtree/gun_piercing"
+msgstr "Διατρητικότητα"
+
+msgid "techtree/radar_cooldown"
+msgstr "Επαναφορά Ανίχνευσης Ασυρμάτου"
+
+msgid "techtree/radar_distance"
+msgstr "Εύρος Ανίχνευσης"
+
+msgid "techtree/turret_armor"
+msgstr "Θωράκιση"
+
+msgid "techtree/turret_health"
+msgstr "Hit Points"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Ταχύτητα Περιστροφής"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "Έως και {{credits}} credits"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "Έως και {{experience}} XP"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Μπόνους μάχης για Ουλαμό"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Μπείτε στη μάχη φτιάχνοντας Ουλαμό μαζί με κάποιον τυχαίο συμπαίκτη. Αντιμετωπίστε στη μάχη 9 εχθρικούς Ουλαμούς. Οι αποστολές για Ουλαμό μπορούν να ολοκληρωθούν σε αυτό το είδος μάχης. Ο Ουλαμός θα διαλυθεί αυτομάτως μετά τη μάχη."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Κλασσική Μάχη Καταδίωξης. Ο κάθε παίκτης παίζει για τον εαυτό του. Συγκεντρώστε πόρους, αναβαθμίστε το όχημά σας και προσπαθήστε να είστε ο τελευταίος επιζών στο πεδίο της μάχης!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Μπείτε στη μάχη φτιάχνοντας Ουλαμό μαζί με κάποιον φίλο σας. Αντιμετωπίστε στη μάχη 9 εχθρικούς Ουλαμούς. Οι αποστολές για Ουλαμό μπορούν να ολοκληρωθούν σε αυτό το είδος μάχης."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Τυχαίος Ουλαμός"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Ανεξάρτητος Παίκτης"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Ουλαμός Με Φίλο"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Ανεξάρτητος Παίκτης"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Ουλαμός"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Κανόνες Κερδισμένων Πόντων"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "Θέση %(place)s"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "Θέσεις %(place)s"
+
+msgid "tooltips/awards/achievement"
+msgstr "Μετάλλιο"
+
+msgid "tooltips/awards/badge"
+msgstr "Παράσημο"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "Σας δίνει τη δυνατότητα να επιστρέψετε στη μάχη εάν καταστραφεί το όχημά σας, χωρίς να χάνεται το επίπεδο αναβάθμισης του οχήματος. Έχει περιορισμένο αριθμό χρήσεων ανά μάχη."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Ένας Αεροπορικός Εφοδιασμός μπορεί να περιέχει Επανεκκινήσεις."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "Για να γίνει ανάκτηση ενός συμπαίκτη, θα πρέπει να μείνετε εκτός μάχης {brown_Open}για %(timeToResurrect)s{brown_Close}. Ο μηχανισμός αυτός λειτουργεί μέσα στα {brown_Open}πρώτα %(duration)s min{brown_Close} της μάχης. Οι επαναλήψεις της Επανεκκίνησης μοιράζονται ανάμεσα στα μέλη ενός Ουλαμού."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "Στη Μάχη Ως Μέλος Ουλαμού"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Θα ανακτάτε αυτόματα το όχημά σας, μόλις αυτό καταστραφεί. Ο μηχανισμός αυτός λειτουργεί μέσα στα {brown_Open}πρώτα %(duration)s min{brown_Close} της μάχης."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "Στη Μάχη Ως Ανεξάρτητος Παίκτης"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Μία μόνο χρήση"
+
+msgid "tooltips/respawn/title"
+msgstr "Επανεκκίνηση"
+
+msgid "tooltips/vehicle/description"
+msgstr "Όχημα για Μάχες Καταδίωξης"
+
+msgid "tournament/description"
+msgstr "BIG HUNT"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Όχι έτοιμος"
+
+msgid "tournament/fightButton/ready"
+msgstr "Έτοιμος!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Αδύνατη η είσοδος στο τουρνουά. Κωδικός σφάλματος: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Σφάλμα στο τουρνουά Big Hunt. Κωδικός σφάλματος: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "BIG HUNT"
+
+msgid "tournament/type/solo"
+msgstr "Τύπος: Ανεξάρτητος παίκτης"
+
+msgid "tournament/type/squad"
+msgstr "Τύπος : Ουλαμός"
+
+msgid "upgradePanel/alert/0"
+msgstr "Δεν μπορείτε να αναβαθμίσετε το όχημά σας!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Δεν γίνεται αναβάθμιση του οχήματος κατά τη διάρκεια πυρών!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Δεν μπορείτε να αναβαθμίσετε το όχημά σας. Το όχημα πνίγεται!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Δεν μπορείτε να αναβαθμίσετε το όχημά σας. Το όχημα είναι αναποδογυρισμένο!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Πιέστε το %(key)s για να ανοίξετε το Μενού Αναβάθμισης"
+
+msgid "upgradePanel/title/default"
+msgstr "Νέο Εξάρτημα Διαθέσιμο"
+
+msgid "upgradePanel/title/hull"
+msgstr "Νέο Σκάφος Διαθέσιμο"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Νέα Ανάρτηση Διαθέσιμη"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Νέος Κινητήρας Διαθέσιμος"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Νέο Πυροβόλο Διαθέσιμο"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Νέος Ασύρματος Διαθέσιμος"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Νέος Πυργίσκος Διαθέσιμος"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "ή"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Θωράκιση"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Φθορά ανά Βολή"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Ταχύτητα Γέμισης"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Hit Points"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Διατρητικότητα"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Ανίχνευση Ασυρμάτου"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Σύστημα Αυτόματης Γέμισης"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Ταχύτητα"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Χαρακτηριστικά οχήματος"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Πλεονεκτήματα"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Μειονεκτήματα"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Η Εκεχειρία ισχύει για όλους τους servers. Οι μάχες θα είναι διαθέσιμες σε %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Επιλέξτε Άλλον Server"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Το Επεισόδιο %(cycle)s τελείωσε"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Τέλος Επεισοδίου"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Εκεχειρία στον συγκεκριμένο server. Οι μάχες θα είναι διαθέσιμες σε %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Εκεχειρία στον server %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Το Επεισόδιο %(cycle)s θα ξεκινήσει σε %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "Το πρώτο Επεισόδιο θα ξεκινήσει σε %(time)s"

@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: <translator name> <<translator email>>\nLanguage-Team: <language team name> <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "Artilērijas trieciens"
+
+msgid "attackReason/artillery_sector"
+msgstr "Artilērijas trieciens"
+
+msgid "attackReason/bombers"
+msgstr "Uzlidojums"
+
+msgid "battleCommunication/hint/description"
+msgstr "lai norādītu pozīciju vai novietotu atzīmi"
+
+msgid "battleCommunication/hint/press"
+msgstr "Nospiediet"
+
+msgid "battleEndWarning/text"
+msgstr "Līdz kaujas beigām:"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "Teksta un balss ziņojumi no šī spēlētāja līdz kaujas beigām tiks paslēpti."
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "Bloķēt ziņojumus no spēlētāja"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "Ziņojumi no spēlētājiem melnajā sarakstā ir bloķēti."
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "Darbība nav pieejama"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "Teksta un balss ziņojumi no šī spēlētāja\nlīdz kaujas beigām tiks paslēpti."
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "Atbloķēt ziņojumus no spēlētāja"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "Tehniska problēma, iegūstot kaujas zonas datus."
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "Šīs kartes dati par kaujas zonas tanki nav pieejami."
+
+msgid "battleProgress/hint/description"
+msgstr "lai skatītu personālās misijas"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "Galvenie taustiņi nav iestatīti"
+
+msgid "battleProgress/hint/press"
+msgstr "Nospiediet"
+
+msgid "battle_notifier/lose"
+msgstr "Sakāve!"
+
+msgid "battle_notifier/tie"
+msgstr "Neizšķirts!"
+
+msgid "battle_notifier/win"
+msgstr "Uzvara!"
+
+msgid "bot/boss"
+msgstr "Boss"
+
+msgid "bot/elite"
+msgstr "Elites"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "BOJĀJUMU BRĪDINĀJUMS"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "DZINĒJS BOJĀTS"
+
+msgid "chat_example/affirmative"
+msgstr "Tieši tā!"
+
+msgid "chat_example/attack_enemy"
+msgstr "Atbalstiet ar uguni pa <Enemy Name>!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "Uzbrūku <Enemy Name>!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "Ieņemiet bāzi!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "Aizsargājiet bāzi!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "Uzmanību <Sektors minikartē>!"
+
+msgid "chat_example/attention_to_position"
+msgstr "Uzmanību pozīcijai!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "Iznīciniet mērķus"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "Glābiet savus tankus!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "Ieņemiet zonu"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "Aizsargājiet mērķus"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "Glābiet savus tankus!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "Aizsargājiet zonas"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "Papildspēku zona"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "Papildspēku zona"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "Papildspēku zona"
+
+msgid "chat_example/going_there"
+msgstr "Braucu šeit!"
+
+msgid "chat_example/help_me"
+msgstr "Palīgā!"
+
+msgid "chat_example/help_me_ex"
+msgstr "<Sabiedrotā vārds>, palīdzi!"
+
+msgid "chat_example/negative"
+msgstr "Nebūt ne!"
+
+msgid "chat_example/overheated_gun"
+msgstr "Ierocis pārkarsis! Nevar šaut <Reload Time> s"
+
+msgid "chat_example/positive"
+msgstr "Tieši tā!"
+
+msgid "chat_example/reloading_cassette"
+msgstr "Gatavs atklāt uguni pēc <Pārlādes Laiks> s, lādiņi magazīnā: <Lādiņu Skaits> gab."
+
+msgid "chat_example/reloading_gun"
+msgstr "Pārlādēju! <Pārlādes Laiks> s atlikušas!"
+
+msgid "chat_example/reloading_ready"
+msgstr "Gatavs atklāt uguni!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "Gatavs atklāt uguni! Lādiņi magazīnā: <Lādiņu Skaits> gab."
+
+msgid "chat_example/reloading_unavailable"
+msgstr "Nav munīcijas."
+
+msgid "chat_example/spg_aim_area"
+msgstr "Tēmēju <sektors minikartē>!"
+
+msgid "chat_example/supporting_ally"
+msgstr "<Ally Name>, es palīdzēšu tev!"
+
+msgid "chat_example/thanks"
+msgstr "<Ally Name>, paldies!"
+
+msgid "chat_example/turn_back"
+msgstr "<Sabiedrotā vārds>, atpakaļ!"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "Tieši tā!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "Atbalstiet ar uguni pa %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "Gatavs šaut! Uzbrūku %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "Munīcija ir tukša! Pieprasu uguni %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "Uzbrūku %(target)s! Pārlādēju %(reloadTime)d s atlikušas!"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "Es ieņemšu bāzi!"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "Es ieņemu bāzi %(strArg1)s!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "Uzbrūku %(target)s!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "Ieņemiet bāzi!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "Ieņemiet bāzi %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "Aizsargājiet bāzi!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "Aizsargājiet bāzi %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "Uzmanību %(cellName)s!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Iznīciniet mērķi %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "Es uzbrūku mērķim %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Aizsargājiet mērķi %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "Es aizsargāju mērķi %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Uzmanību pozīcijai!"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "Uzmanību uz %(gridId)s"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "Es aizsargāšu bāzi!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "Es aizsargāju bāzi %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "Iznīciniet mērķus!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "Mums pietiek laika, glabiet savus tankus!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "Laiks iztek! Ieņemiet zonas no visiem spēkiem!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "Aizsargājiet objektus!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "Mums jānoturas, glābiet savus tankus!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "Laiks iztek! Aizsargājiet zonas no visiem spēkiem!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "Nepieciešams atbalsts zonā %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "Nepieciešams atbalsts zonā %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "Nepieciešams atbalsts zonā %(strArg1)s!"
+
+msgid "chat_shortcuts/going_there"
+msgstr "Braucu uz pozīciju!"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "Kustos uz %(gridId)s"
+
+msgid "chat_shortcuts/help_me"
+msgstr "Palīgā!"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s, palīdzi!"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "Kustieties uz mērķi: %(target)s"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "Es kustos uz mērķi: %(target)s!"
+
+msgid "chat_shortcuts/negative"
+msgstr "Nebūt ne!"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "Ierocis pārkarsis! Nevar šaut %(floatArg1)d s"
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s, tieši tā!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "Gatavs šaušanai pēc %(floatArg1)d s; lādiņi magazīnā: %(int32Arg1)s gab."
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "Pārlādēju! %(floatArg1)d s atlikušas!"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "Gatavs atklāt uguni!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "Gatavs atklāt uguni! Lādiņi magazīnā: %(int32Arg1)s gab."
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "Nav munīcijas."
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "Mērķēju pa pozīciju. Gatavs šaut!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "Novēroju %(gridId)s! Munīcija ir tukša!"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "Tēmēju uz %(gridId)s. Gatavs šaut!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "Mērķēju uz pozīciju. Pārlādēju, %(reloadTime)d s atlikušas!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "Tēmēju uz %(gridId)s. Pārlādēju, %(reloadTime)d s atlikušas!"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s, es palīdzēšu tev!"
+
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s, paldies!"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s, atpakaļ!"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "Iet uz iestatījumiem"
+
+msgid "commanderCam/hint/description"
+msgstr "Attāliniet, lai ieiet Taktiskajā Skatā"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "Atjaunošanas laiks: %(cooldownSeconds)s s"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "Slots aprīkojumam"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "km/h"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "BS"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "ZK"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "ŠF"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "ŠF"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "KML"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "Komandieris ir ievainots. Tehniskās īpašības samazinātas."
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "Komandieris"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "Vadītājs ir ievainots. Pārvietošanās un korpusa griešanās ātrums samazināts."
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "Mehāniķis-vadītājs"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "Šāvējs ir ievainots. Precizitāte samazināta."
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "Tēmētājs"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "Otrais šāvējs ir ievainots. Precizitāte samazināta."
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "Otrais tēmētājs"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "Lādētājs ir ievainots. Lādēšanas laiks samazināts."
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "Lādētājs"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "Otrais lādētājs ir ievainots. Lādēšanas laiks samazināts."
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "Otrais lādētājs"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "Sakarnieks ir ievainots. Signāla attālums samazināts."
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "Sakarnieks"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "Otrais sakarnieks ir ievainots. Signāla attālums samazināts."
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "Otrais sakarnieks"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "Munīcija ir bojāta. Lādēšanas laiks samazināts."
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "Munīcija ir iznīcināta."
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "Munīcija ir vesela."
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "Šasija ir sabojāta."
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "Imobilizēts: šasija iznīcināta."
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "Ritošā iekārta ir vesela."
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "Dzinējs ir sabojāts. Jauda samazināta."
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "Imobilizēts: dzinējs iznīcināts."
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "Dzinējs ir vesels."
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "Degvielas tvertne ir sabojāta."
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "Degvielas tvertne iznīcināta."
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "Degvielas tvertne ir vesela."
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "Lielgabals ir bojāts. Šaušanas precizitāte ir samazināta."
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "Ierocis ir iznīcināts. Šaušana nav iespējama."
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "Lielgabals ir vesels."
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "Radiostacija ir sabojāta."
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "Radio iznīcināts. Signāla attālums samazināts."
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "Radiostacija ir vesela."
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "Novērošanas rīki ir sabojāti."
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "Novērošanas rīki iznīcināti. Skata attālums samazināts."
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "Novērošanas rīki ir veseli."
+
+msgid "damage_panel/devices/track/critical"
+msgstr "Šasija ir sabojāta."
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "Imobilizēts: šasija iznīcināta."
+
+msgid "damage_panel/devices/track/normal"
+msgstr "Ritošā iekārta ir vesela."
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "Tornis ir sabojāts. Griešanās ātrums ir samazināts."
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "Tornis ir iznīcināts. pagriešana nav iespējama."
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "Tornis ir vesels."
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "Šasija ir sabojāta."
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "Imobilizēts: šasija iznīcināta."
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "Šasija ir neskarta."
+
+msgid "danger_zone/indicator"
+msgstr "Jūsu tanks var tikt iznīcināts - pametiet bīstamo zonu!"
+
+msgid "destroyTimer/liftOver"
+msgstr "Atpakaļ uz pareizā ceļa..."
+
+msgid "devMaps/hint/description"
+msgstr "lai skatītu kartes funkcijas"
+
+msgid "devMaps/hint/press"
+msgstr "Nospiediet"
+
+msgid "devMaps/mapInfo/info"
+msgstr "Šajā kartē var notikt nejauši notikumi. Šādas kartes var atspējot spēles iestatījumos."
+
+msgid "devMaps/mapInfo/text"
+msgstr "Karte ar nejaušiem notikumiem"
+
+msgid "devices/ammo_bay"
+msgstr "Munīcija"
+
+msgid "devices/chassis"
+msgstr "Ritošā iekārta"
+
+msgid "devices/engine"
+msgstr "Dzinējs"
+
+msgid "devices/fuel_tank"
+msgstr "Degvielas tvertne"
+
+msgid "devices/gun"
+msgstr "Lielgabals"
+
+msgid "devices/left_track"
+msgstr "Kreisā kāpurķēde"
+
+msgid "devices/radio"
+msgstr "Radiostacija"
+
+msgid "devices/right_track"
+msgstr "Labā kāpurķēde"
+
+msgid "devices/surveing_device"
+msgstr "Novērošanas rīki"
+
+msgid "devices/track"
+msgstr "%(type)s Kāpurķēdes"
+
+msgid "devices/track/left"
+msgstr "Kreisās"
+
+msgid "devices/track/main"
+msgstr "Rezerves"
+
+msgid "devices/track/outer"
+msgstr "Galvenās"
+
+msgid "devices/track/right"
+msgstr "Labās"
+
+msgid "devices/turret_rotator"
+msgstr "Torņa griešanās"
+
+msgid "devices/wheel"
+msgstr "Ritenis"
+
+msgid "distance/meters"
+msgstr "%(meters)d m"
+
+msgid "dynamicSquad/ally/add"
+msgstr "Uzspiediet, lai ielūgtu spēlētāju pievienoties vadam.\nSpēlētājs varēs apstiprināt jūsu ielūgumu kaujas laikā vai pēc tās beigām.%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\nUzmanību! Jūsu īstai segvārds un klana nozīmīte tiks parādīti vada locekļiem."
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\nUzmanību! Jūsu īstai segvārds tiks parādīts vada locekļiem."
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "Šo sabiedroto nevar ielūgt vadā."
+
+msgid "dynamicSquad/ally/received"
+msgstr "Uzspiediet, lai apstiprinātu ielūgumu pievienoties vadam.\nVads tiks izveidots kaujas laikā."
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "Ielūgums spēlētājam nosūtīts.\nJa tas tiks apstiprināts, spēlētājs pievienosies vadam kaujas laikā vai pēc tās beigām."
+
+msgid "dynamicSquad/enemy/add"
+msgstr "Uzspiediet, lai apstiprinātu ielūgumu pievienoties vadam.\nSpēlētājs varēs apstiprināt jūsu ielūgumu tikai pēc kaujas beigām.%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "Vadā nevar ielūgt pretinieku."
+
+msgid "dynamicSquad/enemy/received"
+msgstr "Uzspiediet, lai apstiprinātu ielūgumu pievienoties vadam.\nVads tiks izveidots tikai pēc kaujas beigām."
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "Ielūgums spēlētājam nosūtīts.\nJa tas tiek apstiprināts, spēlētājs pievienosies vadam pēc kaujas beigām."
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "Nospiediet"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "lai ieslēgtu balss komunikāciju"
+
+msgid "dynamicSquad/invite"
+msgstr "Ielūgums pievienoties vadam"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "Bojājumi no Gaisa Trieciena"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "Bojājumi no Artilērijas Trieciena"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "Bojājumi no Galvenā Mērķa"
+
+msgid "efficiencyRibbons/armor"
+msgstr "Bojājumi bloķēti"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "Kaujas rezervju atbalsts"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "Bojājumi pa atklātajiem"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "Bojājumi pēc jūsu veiktas apdullināšanas"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "Noķēdēts"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "Bojājumi no Berserkera"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "Lomu pieredze"
+
+msgid "efficiencyRibbons/burn"
+msgstr "Aizdedzināšana"
+
+msgid "efficiencyRibbons/capture"
+msgstr "Bāzes ieņemšana"
+
+msgid "efficiencyRibbons/crits"
+msgstr "Kritiski bojājumi"
+
+msgid "efficiencyRibbons/damage"
+msgstr "Bojājumi no šāviena"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "Kaujas kuģa zalves bojājumi"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "U.S.S. Frankford bojājumi"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "Bojājumi no Mīnām"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "Bojājumi no Kaujas Lauka Robota"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "Bojājumi no Skābes Čaulītes"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "Bojājumi no Uguns Apļa"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "Bojājumi no Elektriskās Izlādes"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "Bojājumi no Zonas"
+
+msgid "efficiencyRibbons/defence"
+msgstr "Bāzes aizsardzība"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "Zona nosargāta"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "Izdarīti bojājumi"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "Mērķi iznīcināti"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "Mērķi nosargāti"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "Zona ieņemta"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "Bojājumi no uguns zonas"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "Tanks salabots"
+
+msgid "efficiencyRibbons/kill"
+msgstr "Iznīcināts"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "Mīnu lauka bojājumi"
+
+msgid "efficiencyRibbons/ram"
+msgstr "Taranēšana"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "Bojājumi no ugunsgrēka"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "Bojājumi no Kaujas Lauka Robota"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "Bojājumi no Skābes Čaulītes"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "Bojājumi no Uguns Apļa"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "Bojājumi no Mīnām"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "Bojājumi no Rūsas Miglas"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "Bojājumi no Elektriskās Izlādes"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "Kritisks bojājums"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "Bojājumi no šāviena"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "Bojājumi no Ugunsbumbas"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "Bojājumi no taranēšanas"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "Bojājumi no trieciena"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "Bojājumi no Ugunsbumbas"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "Atklāts"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "Bojājumi No Iznīcības Zonas"
+
+msgid "efficiencyRibbons/stun"
+msgstr "Apdullinājums"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "Bruņutehnika pamesta"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "Bojājumi no Trieciena"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "Sniega Vētra"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "Uguns"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "Migla"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "Stiprs Lietus"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "Smilšu Vētra"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "Dūmi"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "Tornado"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "Paslēpt komandu paneļus"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "Paslēpt paneli"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Nospiediet Ctrl+Tab, lai pārslēgtos starp režīmiem)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "Atainot spēlētāju vārdus, iznīcinātos mērķus un bruņutehnikas ikonas"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "Vidējs panelis 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Nospiediet Ctrl+Tab, lai pārslēgtos starp režīmiem)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "Atainot spēlētāja iznīcinātos mērķus, tā bruņutehnikas nosaukumu ikonu."
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "Vidējs panelis 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Nospiediet Ctrl+Tab, lai pārslēgtos starp režīmiem)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "Atainot iznīcinātos mērķus un bruņutehnikas ikonas"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "Mazs panelis"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Nospiediet Ctrl+Tab, lai pārslēgtos starp režīmiem)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "Tikai jūsu vai visu trīs atdzimšanas grupu spēlētāju atainošana."
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "Kolonnu ieslēgšana"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Nospiediet Ctrl+Tab, lai pārslēgtos starp režīmiem)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "Jūs iznīcinājāt karogu!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "Karogs sagrābts!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "Karogs nogādāts."
+
+msgid "flagNotification/flagInbase"
+msgstr "Nogādājiet karogu štābā."
+
+msgid "flags/timer"
+msgstr "%(time)s s..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "s..."
+
+msgid "grille/status/reload"
+msgstr "PĀRLĀDĒŠANA..."
+
+msgid "grille/status/speedlimit"
+msgstr "ĀTRUMA IEROBEŽOJUMS"
+
+msgid "helpScreen/hint/description"
+msgstr "lai skatītu tanka īpašības"
+
+msgid "helpScreen/hint/press"
+msgstr "Nospiediet"
+
+msgid "helpScreen/mapbox/description"
+msgstr "lai skatītu kartes funkcijas"
+
+msgid "helpScreen/mapbox/press"
+msgstr "Nospiediet"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "aktivizēt Cietokšņa/<font color='#F4B12C'><b>Ilglaicīgā ugunspunkta</b></font> režīmu"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "lai aktivizētu Cietokšņa/<font color='#F4B12C'><b>Ceļojuma</b></font> režīmu"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "aktivizēt Ceļojuma/<font color='#F4B12C'><b>Ilglaicīgā ugunspunkta</b></font> režīmu"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "Režīma pārslēgšanas taustiņš nav piešķirts"
+
+msgid "helpScreen/pillbox/press"
+msgstr "Nospiediet un <font color='#F4B12C'><b>Turēt</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "Galvenie taustiņi nav iestatīti"
+
+msgid "hitMarker/blocked"
+msgstr "Bruņas netika cauršautas"
+
+msgid "hitMarker/critical"
+msgstr "Kritiski bojājumi"
+
+msgid "hitMarker/missArmor"
+msgstr "Netrāpīts bruņām"
+
+msgid "hitMarker/ricochet"
+msgstr "Rikošets"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "Ekrāns netika cauršauts"
+
+msgid "hitMarker/trackBlocked"
+msgstr "Kāpurķēdes netika cauršautas"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "Ritenis netika cauršauts"
+
+msgid "levelProgress/maxLevel"
+msgstr "MAKSIMĀLAIS TANKA LĪMENIS"
+
+msgid "marker/meters"
+msgstr "m"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "Munīcijas plaukta detonāciju novērsa %(device)s iekārta"
+
+msgid "optDeviceResurrection/engine"
+msgstr "Dzinēja iznīcināšanu novērsa %(device)s iekārta"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "Aizdegšanos novērsa %(device)s iekārta"
+
+msgid "penetration/high"
+msgstr "Augsta"
+
+msgid "penetration/low"
+msgstr "Zems"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "Sekundārie nosacījumi:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "Primārie nosacījumi:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "Šim kaujas režīmam nav uzsāktu misiju."
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "Šim bruņutehnikas veidam nav uzsāktu misiju."
+
+msgid "personal_reserves/hint/description"
+msgstr "lai aktivizētu Personālās Rezerves"
+
+msgid "personal_reserves/hint/press"
+msgstr "Nospiediet"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "Kustība nav iespējama: ritošā iekārta ir sabojāta."
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "Kustība nav iespējama: apkalpe ir iznīcināta."
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "Kustība nav iespējama: dzinējs ir sabojāts."
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "Imobilizēts: tanks iznīcināts."
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "Šaušana nav iespējama: apkalpe ir iznīcināta."
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "Šaušana nav iespējama: lielgabals ir sabojāts."
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "Nevar Šaut."
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "Nevar šaut: ierocis pārkarsis."
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "Ielādē ieroci."
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "Notiek ielādes pabeigšana."
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "Šaušana nav iespējama: nav munīcijas."
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "Šaušana nav iespējama: bruņutehnika ir iznīcināta."
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "Režīma maiņa nav pieejama: dzinējs ir iznīcināts."
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "Maiņa nav pieejama: ierocis iznīcināts"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "Maiņa nav pieejama: atlikusi tikai viena čaulīte"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] ir jau aktīvs."
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "Aprīkojums [%(name)s] nav aktivizēts: ugunsgrēka nav."
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] nav pieejams sagatavošanas laikā."
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "Apkalpe nav cietusi, medicīniskā palīdzība nav nepieciešama."
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] nav nepieciešama medicīniskā palīdzība."
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "Rezerve vēl nav gatava."
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "Sagūstiet %(name)s, lai aktivizētu Taktisko Spēju."
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "Moduļiem un Komandierim ir pilni dzīvības punkti. Nav nepieciešami labojumi vai ārstēšana."
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "Neviena ierīce nav bojāta, remonts nav nepieciešams."
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] ir lieliskā stāvoklī, remonts nav nepieciešams."
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "Nevar aktivizēt koaksiālo ieroci."
+
+msgid "player_messages/ALLY_HIT"
+msgstr "Trāpīts sabiedrotajam %(entity)s!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s] ir gatavs lietošanai."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "Artilērijas baterija ir izvērsta un gatava raidīt zalvi."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "Lidmašīnas ir klāt un gatavs bombardēšanai."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "Mūsu apkalpe ir gatava iedvesmot citus tiem apkārt."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "Mīnu lauks gatavs izvietošanai."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "Lidmašīna ir gaisā un gatava izlūkošanai."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "Lauks Remonts gatavs lietošanai."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "Dūmu palaišanas baterija ir izvērsta un gatava šaut."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "Sargs gatavs lietošanai."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "%(player)s artilērijas baterija raidīja zalvi."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "%(player)s bumbvedēji ceļā."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s izveido Atjaunošanas zonu."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s aktivizēja iedvesmošanu."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s izvietoja Mīnu Lauku."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "%(player)s izsauca izlūklidmašīnu."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s izmantoja Lauka Remontu."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s izvērsa dūmu aizsegu."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s aktivizē Sargu."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s iznīcināja artilērijas trieciens."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s iznīcināja artilērijas trieciens."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s iznīcināja artilērijas trieciens."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s iznīcināja artilērijas trieciens."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s iznīcināja artilērijas trieciens."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s iznīcināja artilērijas trieciens."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Tanks iznīcināts no artilērijas trieciena."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s iznīcināja artilērijas trieciens."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s iznīcināja artilērijas trieciens."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s iznīcināja uzlidojums."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s iznīcināja uzlidojums."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "Sabiedroto %(target)s iznīcināja sabiedrotais %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(attacker)s iznīcināja %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Bruņutehniku iznīcināja sabiedrotais %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Sabiedroto %(target)s iznīcināja zona."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(attacker)s iznīcināja %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "Pretinieks %(attacker)s iznīcināja pretinieku %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Bruņutehniku iznīcināja pretinieks %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s iznīcināja zona."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "Sabiedrotais %(target)s iznīcināts."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s iznīcināts."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Bruņutehnika iznīcināta."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Ierīce [%(device)s] eksplodēja ugunsgrēkā."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Ierīce [%(device)s] eksplodēja no %(entity)s šāviena."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "Sabiedrotais %(attacker)s noslīcināja sabiedroto %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(attacker)s noslīcināja %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Bruņutehniku noslīcināja sabiedrotais %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "Sabiedrotais %(target)s noslīka."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(attacker)s noslīcināja %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "Pretinieks %(attacker)s noslīcināja pretinieku %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Bruņutehniku noslīcināja pretinieks %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "Pretinieks %(target)s noslīka."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "Sabiedrotais %(target)s noslīcināts."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "%(target)s noslīcināts."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Bruņutehnika noslīka."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "Sabiedroto %(target)s iznīcināja sabiedrotais %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(attacker)s iznīcināja %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Bruņutehniku iznīcināja sabiedrotais %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(attacker)s iznīcināja %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "Pretinieks %(attacker)s iznīcināja pretinieku %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Bruņutehniku iznīcināja pretinieks %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "Sabiedrotais %(target)s iznīcināts."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s iznīcināts."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "Apkalpe iznīcināta."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Apkalpi iznīcināja %(entity)s šāviens."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Sabiedrotā %(target)s apkalpi iznīcināja sabiedrotais %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(target)s apkalpi iznīcināja %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Apkalpi iznīcināja sabiedrotais %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Sabiedrotais %(target)s iznīcināja savu apkalpi."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(target)s apkalpi iznīcināja %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Pretinieka %(target)s apkalpi iznīcināja pretinieks %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Apkalpi iznīcināja pretinieks %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Pretinieks %(target)s iznīcināja savu apkalpi."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "Sabiedrotā %(target)s apkalpe iznīcināta."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s apkalpe iznīcināta."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Apkalpe iznīcināta."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Sabiedrotais %(target)s iznīcināts ar mīnu lauku."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s iznīcināts."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(attacker)s iznīcināja %(target)s ar mīnām."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(attacker)s iznīcināja %(target)s ar mīnām."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s iznīcināja ar mīnām."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "Sabiedrotais %(attacker)s apgāza sabiedroto %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s apgāza %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Bruņutehniku apgāza sabiedrotais %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "Sabiedrotais %(target)s apgāzās"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s apgāza %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "Pretinieks %(attacker)s apgāza pretinieku %(target)s."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Bruņutehniku apgāza un iznīcināja %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "Pretinieks %(target)s apgāzās."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "Sabiedrotais %(target)s apgāzts"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s apgāzts"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Bruņutehniku apgāzta un iznīcināta"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "Sabiedrotais %(attacker)s iznīcināja sabiedroto %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(attacker)s iznīcināja %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Bruņutehniku iznīcināja sabiedrotais %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "Sabiedrotais %(target)s avarēja."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(attacker)s iznīcināja %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "Pretinieks %(attacker)s iznīcināja pretinieku %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Bruņutehniku iznīcināja pretinieks %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "Pretinieks %(target)s avarēja."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "Sabiedrotais %(target)s iznīcināts."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s iznīcināts."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Bruņutehnika iznīcināta."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s pameta savu bruņutehniku."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s pameta savu bruņutehniku."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Tanks iznīcināts zonas bombardēšanas laikā."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s tika iznīcināts bombartēšanas laikā."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s tika iznīcināts bombartēšanas laikā."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Tanks iznīcināts no artilērijas trieciena."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s iznīcināja artilērijas trieciens."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s iznīcināja artilērijas trieciens."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "Sabiedrotais %(attacker)s iznīcināja %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "Sabiedrotais %(attacker)s iznīcināja %(target)s ar artilērijas triecienu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "Sabiedrotais %(attacker)s iznīcināja %(target)s ar bombardēšanu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s iznīcināja %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s iznīcināja %(target)s ar Artilērijas Triecienu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(attacker)s iznīcināja %(target)s ar Gaisa Triecienu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s iznīcināja %(target)s (Uguns Aizsegs)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s iznīcināja %(target)s (Artilērijas Trieciens)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "Sabiedrotais %(target)s pašiznīcinājās."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "Sabiedrotais %(target)s pašiznīcinājās ar artilērijas triecienu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "Sabiedrotais %(target)s pašiznīcinājās ar bombardēšanu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s iznīcināja %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(attacker)s iznīcināja %(target)s ar Artilērijas Triecienu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(attacker)s iznīcināja %(target)s ar Gaisa Triecienu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s iznīcināja %(target)s (Uguns Aizsegs)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s iznīcināja %(target)s (Artilērijas Trieciens)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "Pretinieks %(attacker)s iznīcināja pretinieku %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "Pretinieks %(attacker)s iznīcināja pretinieku %(target)s ar artilērijas triecienu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "Pretinieks %(attacker)s iznīcināja pretinieku %(target)s ar bombardēšanu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "Pretinieks %(target)s pašiznīcinājās."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "Pretinieks %(target)s pašiznīcinājās ar artilērijas triecienu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "Pretinieks %(target)s pašiznīcinājās ar bombardēšanu."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "Sabiedrotais %(target)s iznīcināts."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "Sabiedrotais %(target)s iznīcināts ar artilērijas triecienu."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "Sabiedrotais %(target)s iznīcināts ar bombardēšanu."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s iznīcināts."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s iznīcināts ar artilērijas triecienu."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s iznīcināja ar Gaisa Triecienu."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s iznīcināts"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s iznīcināts"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "Ienaidnieks (Nezināms) iznīcināja %(target)s."
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Sabiedroto %(target)s iznīcināja iznīcības zona."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Sabiedrotais %(attacker)s sasita sabiedroto %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s sasita %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Bruņutehniku sasita sabiedrotais %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Sabiedrotais %(target)s avarēja."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s sasita %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Pretinieks %(attacker)s sasita pretinieku %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Bruņutehniku iznīcināja pretinieks %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Pretinieks %(target)s avarēja."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "Sabiedrotais %(target)s avarēja."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s avarēja."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Bruņutehnika avarēja."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s iznīcināja objektu %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s iznīcināja objektu %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "Jūs iznīcinājāt mērķi %(target)s."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "Ierīce [%(device)s] sabojāta ugunsgrēkā."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "%(entity)s šāviens sabojāja ierīci [%(device)s]."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "Ierīce [%(device)s] iznīcināta ugunsgrēkā."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "%(entity)s iznīcināja ierīci [%(device)s]."
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "Ierīce [%(device)s] ir salabota."
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "Ierīce [%(device)s] atkal darbojas."
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "%(entity)s šāviens aizdedzināja ierīci [%(device)s]."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "[%(device)s] ierīce tika bojāta dēļ pastiptinātāja."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "Ierīce [%(device)s] ir sabojāta, jo tika noņemts apgriezienu ierobežotājs."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "[%(device)s] ierīce tika iznīcināta dēļ pastiptinātāja."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "Ierīce [%(device)s] ir iznīcināta, jo tika noņemts apgriezienu ierobežotājs."
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "Ugunsgrēks nodzēsts."
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "%(entity)s šāviens ievainoja [%(device)s]."
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] atkal ierindā."
+
+msgid "player_messages/allied_team_name"
+msgstr "Sabiedrotie"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "Mūsu bāzes%s ieņemšana (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "Mūsu bāze%s ieņemta!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "Bāzes ieņemšana bloķēta"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "Bāzes%s ieņemšana (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "Bāze%s ieņemta!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "Pretinieku bāzes%s ieņemšana (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "Pretinieku bāze%s ieņemta!"
+
+msgid "player_messages/enemy_team_name"
+msgstr "Pretinieki"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "Jūsu sabiedrotais %(name)s izmantoja %(equipment)s Taktisko Spēju"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "Pretinieks izmantoja %(equipment)s Taktisko Spēju"
+
+msgid "player_messages/postmortem_caption"
+msgstr "Spēlētājs: %(name)s (%(type)s); Izturība: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "Spēlētājs: %(name)s; Izturība: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "Jūsu bruņutehnika (%(type)s) iznīcināta"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "Šaušana nav iespējama: nav munīcijas."
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "Atskaņošanas vadība:"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "Kreisā peles poga: pārslēgt kameras režīmus\nSpace: apturēt"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "Kreisā bultiņa: attīt 20 sekundes (ar Ctrl – 40 s)\nLabā bultiņa: tīt uz priekšu 20 sekundes (ar Ctrl – 40 s)\nHome/End: pārlēkt uz sākumu/beigām\nBultiņa uz augšu/uz leju: atskaņošanas ātrums"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "Brīvā kamera aktivizēta"
+
+msgid "player_messages/replayPaused"
+msgstr "Pauze"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "Saglabātā kamera aktivizēta"
+
+msgid "player_messages/replaySpeedChange"
+msgstr "Atskaņošanas ātrums: %(speed)sx"
+
+msgid "player_messages/tank_in_fire"
+msgstr "Bruņutehnika deg!"
+
+msgid "players_panel/state/large/body"
+msgstr "Rādīt spēlētāju vārdus, iznīcinātos mērķus, bruņutehnikas ikonas un nosaukumus"
+
+msgid "players_panel/state/large/header"
+msgstr "Pilna izmēra"
+
+msgid "players_panel/state/large/note"
+msgstr "(Izmantojiet Ctrl + Tab, lai pārslēgtu režīmus)"
+
+msgid "players_panel/state/medium/body"
+msgstr "Rādīt spēlētāju vārdus, iznīcinātos mērķus un bruņutehnikas ikonas"
+
+msgid "players_panel/state/medium/header"
+msgstr "Vidējs panelis"
+
+msgid "players_panel/state/medium/note"
+msgstr "(Izmantojiet Ctrl + Tab, lai pārslēgtu režīmus)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "Rādīt iznīcinātos mērķus, bruņutehnikas ikonas un nosaukumus."
+
+msgid "players_panel/state/medium2/header"
+msgstr "Vidējs panelis 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(Izmantojiet Ctrl + Tab, lai pārslēgtu režīmus)"
+
+msgid "players_panel/state/none/body"
+msgstr "Paslēpt komandu paneļus"
+
+msgid "players_panel/state/none/header"
+msgstr "Bez paneļa"
+
+msgid "players_panel/state/none/note"
+msgstr "(Izmantojiet Ctrl + Tab, lai pārslēgtu režīmus)"
+
+msgid "players_panel/state/short/body"
+msgstr "Rādīt iznīcinātos mērķus un bruņutehniku ikonas"
+
+msgid "players_panel/state/short/header"
+msgstr "Mazs panelis"
+
+msgid "players_panel/state/short/note"
+msgstr "(Izmantojiet Ctrl + Tab, lai pārslēgtu režīmus)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "Pretinieki"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "Esc > Atgriezties Garāžā."
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "Dodieties kaujā citā tankā."
+
+msgid "postmortem/tips/freecam/button"
+msgstr "SPACE"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "Brīvā Kamera"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "Aktivizējiet brīvo kameru."
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "Brīvā Kamera Nav Pieejama"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "Nevar aktivizēt brīvo kameru šajā režīmā."
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "Skatītāja režīms"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "Pārslēgties starp sabiedroto bruņutehniku."
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "Sekot Tankam"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "Uzlieciet kursoru uz sabiedroto tanku un nospiediet kreiso taustiņu, lai sekotu tam."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "Tanku iznīcināja galvenais mērķis"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Tanks iznīcināts no artilērijas trieciena."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "Tanku iznīcināja galvenais mērķis"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "Tanku iznīcināja Gaisa Trieciens"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "Tanku iznīcināja Marodieris."
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "Tanks iznīcināts no Kaujas Lauka Robota."
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "Tanks iznīcināts no Skābes Čaulītes."
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Bruņutehniku iznīcināja sabiedrotais aizliegtajā zonā"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Bruņutehnika iznīcināta aizliegtajā zonā"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Jums neizdevās pamest bīstamo zonu"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Ierīce [%(device)s] eksplodēja ugunsgrēkā."
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Ierīce [%(device)s] eksplodēja no spēlētāja šāviena"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Sabiedrotais noslīcināja bruņutehniku"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Bruņutehnika noslīka"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Bruņutehnika noslīka"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "Tanku aizdedzināja spēlētājs"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "Tanks iznīcināts no Uguns Apļa."
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Apkalpi iznīcināja spēlētāja šāviens"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Apkalpi iznīcināja spēcīgs sabiedrotā trieciens"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Apkalpi iznīcināja spēcīgs trieciens"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Apkalpe izsista no ierindas spēcīga trieciena rezultātā"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "Tanks iznīcināts no Uguns Bumbas."
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Tanks iznīcināts mīnu laukā"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "Tanku iznīcināja mīnas"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Bruņutehniku apgāza sabiedrotais"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Bruņutehniku apgāza pretinieks"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Bruņutehnika iznīcināta no apgāšanās"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Bruņutehnika iznīcināta no sabiedroto taranēšanas"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Bruņutehnika iznīcināta ar taranēšanu"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Bruņutehnika iznīcināta ar taranēšanu"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "Jūsu bruņutehnika iznīcināta"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Tanks iznīcināts zonas bombardēšanas laikā."
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Tanks iznīcināts no artilērijas trieciena."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "Bruņutehnika iznīcināta ar spēlētāja šāvienu"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "Tanku iznīcināja Gaisa Trieciens."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "Tanku iznīcināja Gaisa Trieciens."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Bruņutehnika iznīcināta artilērijas triecienā"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Tanku iznīcināja Gaisa Trieciens"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Tanku iznīcināja iznīcības zona"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "Tanks iznīcināts no Elektriskās Izlādes."
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Tanku avarēja sabiedrotais"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Tanku avarēja pretinieks"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Tanks avarējis"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "Jūsu bruņutehnika iznīcināta"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "Izvēlētā konfigurācija tiek izmantota kaujā:"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "Izvēlieties konfigurāciju, kas tiks izmantota kaujā pirms atskaites beigām."
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "Izvēlieties Konfigurāciju"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "Konfigurācijas izvēle: {seconds} s"
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "Konfigurācijas izvēle:"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "Aiza"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "Novērojums"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "Mežs"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "Taka"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "Iela"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "Drupas"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "Tilts"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "Dzelzceļš"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "Pilsēta"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "Ciems"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "Laukums"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "Rūpnīca"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "Pakalns"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "Bāka"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "Centrs"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "Pils"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "Vējdzirnavas"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "Kalni"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "Maršruts A"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "Maršruts B"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "Maršruts C"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "Maršruts D"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "Maršruts E"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "Ieleja"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "Ledājs"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "Apvedceļš"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "Pakalni"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "Ceļš"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "Kalns"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "Bunkurs"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "Avēnija"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "Siena"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "Akmeņi"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "Darbnīcas"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "Lauks"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "Garāža"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "Ogles"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "Kuģi"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "Gaisa Pārvadātājs"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "Tranšejas"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "Serpentīns"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "Ziemeļi"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "Dienvidi"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "Rietumi"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "Austrumi"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "Grēda"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "Cepelīns"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "Noliktavas"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "Krasts"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "Upe"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "Ezers"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "Purvs"
+
+msgid "quickReply/hint/press"
+msgstr "Nospiediet"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "lai apstiprinātu"
+
+msgid "quickReply/hint/toCommend"
+msgstr "sniegt atzinumu atpakaļ"
+
+msgid "quickReply/hint/toHelp"
+msgstr "lai palīdzētu"
+
+msgid "quickReply/hint/toThank"
+msgstr "lai pateiktos"
+
+msgid "recovery/cooldown"
+msgstr "Jūs varēsiet pamest bruņutehniku pēc %(cooldown)s sekundēm"
+
+msgid "recovery/hint1"
+msgstr "Turiet"
+
+msgid "recovery/hint2"
+msgstr "lai pamestu bruņutehniku"
+
+msgid "repairPoint/title"
+msgstr "Remonts"
+
+msgid "repairPoint/unavailable"
+msgstr "Nav pieejams"
+
+msgid "respawnView/additionalTip"
+msgstr "Izvēlieties bruņutehniku, ar kuru turpināsiet kauju. Ja visas vienības tiek remontētas, jūs turpināsiet kauju ar pirmo pieejamo bruņutehniku."
+
+msgid "respawnView/additionalTipLimited"
+msgstr "Izvēlieties bruņutehniku, ar kuru turpināsiet kauju. Iznīcinātās vienības nevar salabot, līdz kauja ir beigusies."
+
+msgid "respawnView/classNotAvailable"
+msgstr "Sasniegts virziena\nlimits"
+
+msgid "respawnView/cooldownLbl"
+msgstr "Remontā %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "Iznīcināts"
+
+msgid "respawnView/disabledLbl"
+msgstr "Bruņutehnika nav pieejama"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "Nav izvēlēta atbilstoša bruņutehnika"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "Grupā nav X līmeņa bruņutehnika."
+
+msgid "respawnView/nextVehicleName"
+msgstr "Kauja turpinās ar "
+
+msgid "respawnView/title"
+msgstr "Bruņutehnikas izvēle"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "JĀ, SER!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "Paldies jums par piedalīšanos World of Tanks attīstībā! Mēs augsti novērtējam jūsu personīgo ieguldījumu!"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "Atzinības vēstule"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "Jūs tikāt apbalvots!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "Apsveicam!"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "Tieši tā!"
+
+msgid "rewardWindow/base/descText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/base/headerText"
+msgstr "Apsveicam"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "Aprūpes paka India"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "Aprūpes paka Juliett"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "Uz Kastēm"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "Jūs saņēmāt lielas kastes ar vērtīgām balvām."
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "Jūs saņēmāt kastes!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "Jūs saņēmāt Mazās Kastes ar vērtīgām balvām par misiju izpildi."
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "Ir laiks uzzināt kas ir kastē!"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "Tieši tā!"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "Kredītu uzkrāšana pārtraukta. Pagariniet WoT Premium kontu, lai turpinātu jūsu Kredītu Rezerves papildināšanu."
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "Kredīti saņemti"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "Kredītu Rezerve atvērta"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "Apsveicam!"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "JĀ, SER!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "Apsveicam, jūs saņēmāt īpašu piegādi iekļautu Prime Gaming. Tagad, pielietojiet to kaujas laukā."
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "Aprūpes paka Delta"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "Jūs tikāt apbalvots!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "REKRUTĒT"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "Apsveicam, jums ir jauns īpašs rekrūtis iekļauts Prime Gaming."
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "Aprūpes paka Alfa"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "Jūs tikāt apbalvots!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "JĀ, SER!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "Aprūpes pakas Kaujas Caurlaide"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "JĀ, SER!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "Aprūpes paka Kosmoss"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "JĀ, SER!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "Aprūpes paka Zvaigžņota Nakts"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "Vairāk"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "Aprūpes Paka Jūnijs"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "Aprūpes Paka Jūlijs"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "Vairāk"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "Aprūpes Paka Desmitnieks"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "WoT: Zvaigžņu Gaismas Komplekts"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "Queen Maeve Komplekts"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "Skūpstīšanās Zara Kolekcija"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "Vairāk"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "Lielā Ķēriena Kolekcija"
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "JĀ, SER!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "Apsveicam, jūs saņēmāt īpašu piegādi iekļautu Prime Gaming. Tagad, pielietojiet to kaujas laukā."
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "Aprūpes paka Čārlijs"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "Jūs tikāt apbalvots!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "\"G.I. JOE: Duke\" Saišķis"
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "\"G.I. JOE: Cobra\" Saišķis"
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "Vairāk"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "Rokojam! Saišķis"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "Klusās Mednieces Paka"
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "Vairāk"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "Svaiga Izskata Saišķis"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "Vairāk"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "Vasaras Izjūtas Saišķis"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "Augstsprieguma Paka"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "Vairāk"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "Patiesi Baisi Saišķis"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "Vikingi Starp Mums"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "Vairāk"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "Svaiga Sākuma Paka"
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "Atbalsta paka Eko"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "Vairāk"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "Retro Viļņi"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "Adepta Sororitas"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "Šāvējs"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "Jūs saņēmāt unikālu balvu par abonementu: Prime Gaming"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "e-Kamuflāža"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "Kaujas Gatavs"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "Aiziet Harrier!"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "Duncis"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Jūs saņēmāt unikālu balvu par abonementu: Prime Gaming"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "Burvestība"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "Saieta Laiks"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "Tu Atnāci uz Nepareizo Apkārtni"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "Iekod Man!"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "Jūs saņēmāt unikālu balvu par abonementu: Prime Gaming"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "Sākuma Svilpe"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "Uzvaras Vārti"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "Visu Laiku Klasika"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Jūs saņēmāt unikālu balvu par programmu: Prime Gaming"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "Svētku Apģērbs"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "Burvīga Dāvana"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "Smaga Dāvana"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "Dubultsvētki"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "Izvēlieties Balvas"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Jūs saņēmāt unikālu balvu par abonementu: Prime Gaming"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "Drosmīga Jauna Pasaule"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "Skatītāja Acs"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "Kiborga Anatomija"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "Jūs Tikāt Pamanīts"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "Aprūpes paka Foxtrot"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "Aprūpes paka Golf"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "Aprūpes paka Hotel"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "Aprūpes paka Kilo"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "Aprūpes paka Lima"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "Rekrutēt"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "Apsveicam! Jūs saņēmāt īpašu piegādi kopā ar Prime Gaming. Tagad, izmantojiet to."
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "Aprūpes paka Mike"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "Balvas saņemtas"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "Tieši tā!"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "Jūsu klana locekļi uzticas jūsu tālākai līdzdalībai\nprogresēšanai cauri Dežūrai."
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "Balva Saņemta!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "Uz Dežūru"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "Dežūra"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "Tieši tā!"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "Jūsu klana locekļi uzticas jūsu tālākai līdzdalībai\nprogresēšanai cauri Dežūrai."
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "Balva Saņemta!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "Uz Dežūru"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "Dežūra"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "Apsveicam!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "Mūsu vads"
+
+msgid "scorePanel/playerScore"
+msgstr "Jūsu ieguldījums:"
+
+msgid "scorePanel/squadLbl"
+msgstr "Vads %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s mm bruņusitēja lādiņš %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s mm bruņusitēja zemkalibra lādiņš %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s mm bruņusitēja kamora lādiņš %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s mm šķembu-fugasa lādiņš %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s mm kumulatīvais lādiņš %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "Vidējie bojājumi: %(value)s dzīvības punkti"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "Bojājumi Sekundē: %(value)s dzīvības punkti/s"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "Bojājumu rādiuss: %(value)s m"
+
+msgid "shells_kinds/params/header"
+msgstr "Pilna / Vienreizēja uzlāde"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "Vidējā cauršaušana: %(value)s mm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "Čaulītes ātrums: %(value)s m/s"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "Apdullināšanas ilgums: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "pārslēgšanās uz ielenkšanas režīmu"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "pārslēgšanās uz braukšanas režīmu"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "Galvenie taustiņi nav iestatīti"
+
+msgid "siegeMode/hint/press"
+msgstr "Nospiediet"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "lai aktivizētu Šķidro degvielas paātrinātājus"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "lai aktivizētu reaktīvo dzinēju pastiprinātājus"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "aktivizēt Secīgos Raķešu paātrinātājus"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "Trāpīt ienaidnieka tankam, lai iegūtu papildu efektu no Lāzera mērķēšanas iekārtas"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "lai mainītu dzinēja režīmus"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "lai mainītu šaušanas režīmu"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "lai mainītu pārvietošanās režīmu"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "aktivizēt Turbokompresora palīgsistēmu"
+
+msgid "spotted/indicator"
+msgstr "Atklāšanas laiks un saņemtie bojājumi palielināti"
+
+msgid "spotted/seconds"
+msgstr "s"
+
+msgid "statistics/exit"
+msgstr "Spiediet Esc, lai izietu uz angāru..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "Iznīcināja: %s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "Bāzes ieņemšana: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "Sabojāti:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "Trāpījumi mērķī: %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "Saņemti šāvieni: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "Bāzes aizsardzība: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "Iznīcināti:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(pēc nāves)"
+
+msgid "statistics/final/personal/shots"
+msgstr "Šāvieni: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "Atrasti:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "Visa sabiedroto bruņutehnika iznīcināta."
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "Visa bruņutehnika iznīcināta!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "Visa pretinieku bruņutehnika iznīcināta."
+
+msgid "statistics/final/reasons/reason2"
+msgstr "Bāze ieņemta!"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "Kaujas laiks beidzies!"
+
+msgid "statistics/final/stats/credits"
+msgstr "Kredīti:"
+
+msgid "statistics/final/stats/experience"
+msgstr "Pieredze:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "Pieredze (x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "Remonts:"
+
+msgid "statistics/final/status/lose"
+msgstr "Sakāve! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "Neizšķirts! %s"
+
+msgid "statistics/final/status/win"
+msgstr "Uzvara! %s"
+
+msgid "statistics/header"
+msgstr "Kaujas statistika"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "Spēlētājs"
+
+msgid "statistics/headers/header2"
+msgstr "Bruņutehnika"
+
+msgid "statistics/headers/header3"
+msgstr "Stāvoklis"
+
+msgid "statistics/headers/header4"
+msgstr "Iznīcināja"
+
+msgid "statistics/playerState/0"
+msgstr "iznīcināts"
+
+msgid "statistics/playerState/1"
+msgstr "ārpus kaujas"
+
+msgid "statistics/playerState/2"
+msgstr "iznīcināts"
+
+msgid "statistics/playerState/3"
+msgstr "kaujā"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "Sastāvs"
+
+msgid "statistics/tab/line_up/title"
+msgstr "Komandas sastāvs"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "Personālās Rezerves"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "Personālo Rezervju Aktivizācija"
+
+msgid "statistics/tab/quests/header"
+msgstr "Misijas"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "Personālās misijas nav pieejamas šajā kaujas režīmā"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "Ejiet uz Kampaņas logu garāžā lai izvēlētos misiju"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "Jums nav aktīvu misiju šim tankam"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "Pirmārie nosacījumi izpildīti"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "Visas misijas izpildītas"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "Uzsākta"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "Rezultāta uzlabošana"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "Nopauzēts"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "Misiju progresa rādīšana nav pieejama"
+
+msgid "statistics/tabs/group"
+msgstr "Komandas sasniegumi"
+
+msgid "statistics/tabs/heroes"
+msgstr "Kaujas varoņi"
+
+msgid "statistics/tabs/personal"
+msgstr "Personīgie sasniegumi"
+
+msgid "statistics/team1title"
+msgstr "Sabiedrotie"
+
+msgid "statistics/team2title"
+msgstr "Pretinieki"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "Pametiet\niznīcības zonu!"
+
+msgid "stun/indicator"
+msgstr "Apkalpe apdullināta"
+
+msgid "stun/seconds"
+msgstr "s"
+
+msgid "tabStatsHint"
+msgstr "– Statistika"
+
+msgid "tankmen/commander"
+msgstr "Komandieris"
+
+msgid "tankmen/driver"
+msgstr "Braucējs"
+
+msgid "tankmen/gunner"
+msgstr "Šāvējs"
+
+msgid "tankmen/loader"
+msgstr "Lādētājs"
+
+msgid "tankmen/radioman"
+msgstr "Radio Operators"
+
+msgid "timer/battlePeriod"
+msgstr "Līdz kaujas beigām:"
+
+msgid "timer/started"
+msgstr "Kauja sākas!"
+
+msgid "timer/starting"
+msgstr "Līdz kaujas sākumam:"
+
+msgid "timer/waiting"
+msgstr "Gaida spēlētājus..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "Nospiediet"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "lai pārslēgtu tēmēšanas režīmu"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "Galvenie taustiņi nav iestatīti"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Bruņutehniku iznīcināja sabiedrotais %(entity)s aizliegtajā zonā."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Bruņutehniku iznīcināja %(entity)s aizliegtajā zonā."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Tanku iznīcināja bīstamā zona."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Bruņutehniku noslīcināja sabiedrotais %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Bruņutehniku noslīcināja pretinieks %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Bruņutehnika noslīka."
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "Bruņutehnika iznīcināta ugunsgrēkā."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Bruņutehniku iznīcināja sabiedrotais %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Bruņutehniku iznīcināja %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Apkalpi izsista no ierindas sabiedrotā %(entity)s trieciens."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Apkalpi izsista no ierindas pretinieka %(entity)s trieciens."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Apkalpe izsista no ierindas spēcīga trieciena rezultātā."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Bruņutehniku apgāza sabiedrotais %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Bruņutehniku apgāza pretinieks %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Bruņutehnika iznīcināta no apgāšanās"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Sabiedrotais %(entity)s iznīcināja bruņutehniku ar taranēšanu."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "%(entity)s iznīcināja bruņutehniku ar taranēšanu."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Bruņutehnika iznīcināta ar taranēšanu."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "Bruņutehniku iznīcināja %(entity)s šāviens."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "%(entity)s iznīcināja bruņutehniku ar artilērijas triecienu."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "%(entity)s iznīcināja bruņutehniku ar bombardēšanu."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Bruņutehniku sasita sabiedrotais %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Bruņutehniku sasita pretinieks %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Bruņutehnika avarēja."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "Sabiedrotais %(entity)s ar taranēšanu sabojāja ierīci [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "Sabiedrotais %(entity)s ar taranēšanu sabojāja ierīci [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Ierīce [%(device)s] sabojāta taranēšanas rezultātā."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "Pretinieks %(entity)s ar taranēšanu sabojāja ierīci [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "Pretinieks %(entity)s ar taranēšanu sabojāja ierīci [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "Ierīce [%(device)s] sabojāta taranēšanas rezultātā."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Sabiedrotā %(entity)s trieciens sabojāja ierīci [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Sabiedrotā %(entity)s trieciens sabojāja ierīci [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Ierīce [%(device)s] ir bojāta spēcīga trieciena rezultātā."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Pretinieka %(entity)s trieciens sabojāja ierīci [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Pretinieka %(entity)s trieciens sabojāja ierīci [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Ierīce [%(device)s] ir bojāta spēcīga trieciena rezultātā."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "[%(device)s] ierīce tika iznīcināta mīnu laukā."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "[%(device)s] ierīce tika iznīcināta mīnu laukā."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "Sabiedrotais %(entity)s ar taranēšanu iznīcināja ierīci [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "Sabiedrotais %(entity)s ar taranēšanu iznīcināja ierīci [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Ierīce [%(device)s] iznīcināta taranēšanas rezultātā."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "Pretinieks %(entity)s ar taranēšanu iznīcināja ierīci [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "Pretinieks %(entity)s ar taranēšanu iznīcināja ierīci [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "Ierīce [%(device)s] iznīcināta taranēšanas rezultātā."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Sabiedrotā %(entity)s trieciens iznīcināja ierīci [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Sabiedrotā %(entity)s trieciens iznīcināja ierīci [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Ierīce [%(device)s] iznīcināta trieciena rezultātā."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Pretinieka %(entity)s trieciens iznīcināja ierīci [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Pretinieka %(entity)s trieciens iznīcināja ierīci [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Ierīce [%(device)s] iznīcināta trieciena rezultātā."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "Ierīce [%(device)s] aizdegās no sabiedrotā %(entity)s tarāna."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "Ierīce [%(device)s] aizdegās no sabiedrotā %(entity)s tarāna."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Ierīce [%(device)s] aizdegās taranēšanas rezultātā."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "Ierīce [%(device)s] aizdegās no pretinieka %(entity)s tarāna."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "Ierīce [%(device)s] aizdegās no pretinieka %(entity)s tarāna."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "Ierīce [%(device)s] aizdegās taranēšanas rezultātā."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] ievainots no sabiedrotā %(entity)s trieciena."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] ievainots no sabiedrotā %(entity)s trieciena."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] ievainots trieciena rezultātā."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] ievainots no pretinieka %(entity)s trieciena."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] ievainots no pretinieka %(entity)s trieciena."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] ievainots trieciena rezultātā."
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "%(equipment)s Taktiskā Spēja tika aktivizēta!"
+
+msgid "warning_zone/indicator"
+msgstr "Uzmanieties! Jūs esiet bīstamajā zonā."

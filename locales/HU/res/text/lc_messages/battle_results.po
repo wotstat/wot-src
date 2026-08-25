@@ -1,0 +1,1532 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "allVehicles"
+msgstr "Mind"
+
+msgid "battleRating/tooltip/better/body"
+msgstr "Ez a csata most élvezetesebb, kiegyensúlyozottabb vagy szórakoztatóbb volt a szokásosnál."
+
+msgid "battleRating/tooltip/better/header"
+msgstr "A szokásosnál jobb"
+
+msgid "battleRating/tooltip/usual/body"
+msgstr "Átlagos csata – semmi váratlan nem történt."
+
+msgid "battleRating/tooltip/usual/header"
+msgstr "Szokásos"
+
+msgid "battleRating/tooltip/worse/body"
+msgstr "Ez a csata most frusztrálóbb, kiegyensúlyozatlanabb vagy igazságtalanabb volt a szokásosnál."
+
+msgid "battleRating/tooltip/worse/header"
+msgstr "A szokásosnál rosszabb"
+
+msgid "battleResult/battleRating/better/header"
+msgstr "A SZOKÁSOSNÁL JOBB"
+
+msgid "battleResult/battleRating/none/header"
+msgstr "értékeld a csatádat:"
+
+msgid "battleResult/battleRating/usual/header"
+msgstr "SZOKÁSOS"
+
+msgid "battleResult/battleRating/worse/header"
+msgstr "A SZOKÁSOSNÁL ROSSZABB"
+
+msgid "battleResult/comp7Light/team/prestigePoints/body"
+msgstr "Rendezés tekintélypontok szerint."
+
+msgid "battleResult/comp7Light/team/prestigePoints/header"
+msgstr "Tekintélypontok"
+
+msgid "battleResult/navigation/battleResults"
+msgstr "Áttekintés"
+
+msgid "battleResult/navigation/financialReport"
+msgstr "Pénzügyi jelentés"
+
+msgid "battleResult/navigation/missionsProgress"
+msgstr "Küldetés előrehaladása"
+
+msgid "battleResult/navigation/teamEfficiency"
+msgstr "Csapatpontszám"
+
+msgid "battleResult/team/prestigePoints/body"
+msgstr "Rendezés a tekintélypontok alapján. A tekintélypontok hatással vannak a csatában szerzett vagy elveszített értékelési pontok számára."
+
+msgid "battleResult/team/prestigePoints/header"
+msgstr "Tekintélypontok"
+
+msgid "common/arena/fullName"
+msgstr "{0} – {1}"
+
+msgid "common/arena/nameAndMode"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/battleEfficiency/allies"
+msgstr "Szövetséges:"
+
+msgid "common/battleEfficiency/allyBase"
+msgstr "Bázisvédés"
+
+msgid "common/battleEfficiency/baseCapture"
+msgstr "Bázisfoglalás:"
+
+msgid "common/battleEfficiency/bases"
+msgstr "Bázisok"
+
+msgid "common/battleEfficiency/enemyBase"
+msgstr "Bázis foglalás"
+
+msgid "common/battleEfficiency/neutralBase"
+msgstr "Semleges bázis"
+
+msgid "common/battleEfficiency/noEfficiency"
+msgstr "Nem csináltál semmit ebben a csatában."
+
+msgid "common/battleEfficiency/none"
+msgstr "Nincs megsemmisített vagy felfedezett ellenséges jármű."
+
+msgid "common/battleEfficiency/technique"
+msgstr "Járművek"
+
+msgid "common/battleEfficiency/title"
+msgstr "Harci teljesítmény"
+
+msgid "common/battleEfficiency/uppercased_title"
+msgstr "HARCI TELJESÍTMÉNY"
+
+msgid "common/battleEfficiencyWithSkills/title"
+msgstr "Csata teljesítmény (beleértve a használt képességeket)"
+
+msgid "common/battleEfficiencyWithoutOreders/title"
+msgstr "Csata teljesítmény (A harci tartalékok nem számítanak)"
+
+msgid "common/battleType/sortie"
+msgstr "Csatározás klán ellen "
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "common/crewMember/description"
+msgstr "%(role)s, %(name)s"
+
+msgid "common/crewMember/newSkill"
+msgstr "Új készség"
+
+msgid "common/details/buyPremiumBtn"
+msgstr "Prémium előfizetés vásárlása"
+
+msgid "common/details/creditsTitle"
+msgstr "Kredit"
+
+msgid "common/details/crystal"
+msgstr "Kötvények"
+
+msgid "common/details/getPremBtn"
+msgstr "Részletek"
+
+msgid "common/details/noPremTitle"
+msgstr "Alap felhasználói fiók"
+
+msgid "common/details/premTitle"
+msgstr "WoT Prémium"
+
+msgid "common/details/premiumAdvertising/bonus"
+msgstr "{{@ split}}{{multiplier}}x tapasztalati bónuszt ad a kiválasztott győztes csatákra WoT prémium fiókkal.{{/}}"
+
+msgid "common/details/premiumAdvertising/credits"
+msgstr "{{@ split}}Akár {{bonusCredits}} szerezhető {{@ style}}{{durationInDays}} naponta{{/}} WoT Prémium fiókkal.{{/}}"
+
+msgid "common/details/premiumPlus/bonus"
+msgstr "%(multiplier)dx tapasztalati bónuszt ad a kiválasztott győztes csatákra WoT Prémium fiókkal."
+
+msgid "common/details/premiumPlus/credits"
+msgstr "Szerezz akár %(bonusCredits)s %(durationInDays)d naponta WoT Prémium fiókkal."
+
+msgid "common/details/premiumPlus/premium"
+msgstr "További tapasztalat, kredit, Prémium küldetések és szakasz bónuszok WoT Prémium fiókkal."
+
+msgid "common/details/premiumPlus/quests"
+msgstr "Oldj fel különleges küldetéseket WoT Prémium fiókkal."
+
+msgid "common/details/premiumPlus/squad"
+msgstr "Szerezz több kreditet szakaszban való játékkal WoT Prémium fiókkal."
+
+msgid "common/details/xpTitle"
+msgstr "Tapasztalat"
+
+msgid "common/details/xpTitleSquad"
+msgstr "Tapasztalat %(img)s"
+
+msgid "common/fitting/purchase"
+msgstr "Modul vásárlás"
+
+msgid "common/fitting/research"
+msgstr "Modul fejlesztés"
+
+msgid "common/mainFinishReasonTitle"
+msgstr "Fő csata fázis:"
+
+msgid "common/missions/noProgress/button"
+msgstr "A küldetésekhez"
+
+msgid "common/missions/noProgress/description"
+msgstr "Küldetés előrehaladásának megtekintése"
+
+msgid "common/missions/noProgress/header"
+msgstr "Nincs előrehaladás a küldetések, illetve a járműfejlesztés terén."
+
+msgid "common/newSkillPrediction"
+msgstr "Hátralévő csaták (kb.): %(battles)s"
+
+msgid "common/noIncome/alert/text"
+msgstr "Miután 10 csatát játszottál, már nem kapsz több kreditet, tapasztalati pontot vagy kitüntetést ebben a játékmódban. A csata eredményeid sem kerülnek be a szolgálati feljegyzésedbe."
+
+msgid "common/noIncome/alert/title"
+msgstr "Figyelem!"
+
+msgid "common/noProgress"
+msgstr "Nincs haladás a küldetések, jármű fejlesztés és legénység képzés terén."
+
+msgid "common/overtimeFinishReasonTitle"
+msgstr "Hosszabbítás:"
+
+msgid "common/player/nameWithClan"
+msgstr "{{name}} [{{clan}}]"
+
+msgid "common/plusBonus/bonusLeftAdditionalText"
+msgstr "Oldj fel többet"
+
+msgid "common/plusBonus/earnedMessage"
+msgstr "Ma ezt szerezted:"
+
+msgid "common/plusBonus/earningsInformation"
+msgstr "%(count)s XP-t gyűjtöttél ma"
+
+msgid "common/plusBonus/premiumPlusAdd"
+msgstr "WoT plusszal vagy WoT prémiummal oldható fel"
+
+msgid "common/plusBonus/wotPlus"
+msgstr "WoT plusszal"
+
+msgid "common/plusBonus/wotPremium"
+msgstr "WoT prémiummal"
+
+msgid "common/plusBonus/youRock"
+msgstr "Király vagy!"
+
+msgid "common/premiumBonus"
+msgstr "Többet szeretnél kapni?"
+
+msgid "common/premiumBonus/appliedBonus"
+msgstr "Bónusz sikeresen felhasználva"
+
+msgid "common/premiumBonus/applyBonusBtn"
+msgstr "Felhasznál"
+
+msgid "common/premiumBonus/bonusLeft"
+msgstr "Ma fennmaradó: %(count)s"
+
+msgid "common/premiumBonus/bonusMultiplier"
+msgstr "{{value}}×"
+
+msgid "common/premiumBonus/description"
+msgstr "Kiosztható XP-szorzó"
+
+msgid "common/premiumBonus/earnMore"
+msgstr "Többet szeretnél kapni?"
+
+msgid "common/premiumBonus/expiredBattleResult"
+msgstr "Az ugyanazzal a járművel megvívott legutóbbi csatára kell alkalmazni."
+
+msgid "common/premiumBonus/isXPToTmenDisabled"
+msgstr "A bonuszt nem lehet felhasználni: a gyorsított legénységi képzés nincs engedélyezve."
+
+msgid "common/premiumBonus/isXPToTmenDisabledWithInfo"
+msgstr "{{@ split}}A bónuszt nem lehet felhasználni: a gyorsított legénységi képzés {{@ style}}nincs engedélyezve.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/isXPToTmenEnabled"
+msgstr "A bonuszt nem lehet felhasználni: a gyorsított legénységi képzés engedélyezve van."
+
+msgid "common/premiumBonus/isXPToTmenEnabledWithInfo"
+msgstr "{{@ split}}A bónuszt nem lehet felhasználni: a gyorsított legénységi képzés {{@ style}}engedélyezve van.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/rule"
+msgstr "A szorzók csak a győztes csatákra alkalmazhatók. Több szerencsét legközelebb!"
+
+msgid "common/premiumBonus/tankStateChanged"
+msgstr "A kiosztható bónuszt nem lehet felhasználni: jármű nem található."
+
+msgid "common/premiumBonus/tankStateChangedWithInfo"
+msgstr "{{@ split}}A kiosztható bónuszt nem lehet felhasználni: nem {{@ style}}található jármű.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/tankmenStateChanged"
+msgstr "A kiosztható bónuszt nem lehet felhasználni: legénység nem található."
+
+msgid "common/premiumBonus/tankmenStateChangedWithInfo"
+msgstr "{{@ split}}A kiosztható bónuszt nem lehet felhasználni: nem {{@ style}}található legénység.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/unavailable"
+msgstr "A szorzók nem érhetők el ebben a játékmódban."
+
+msgid "common/progressTitle"
+msgstr "Jármű fejlesztés és küldetés állapota"
+
+msgid "common/quests/noprogress"
+msgstr "Nem voltak új események a küldetésekben"
+
+msgid "common/researchPrediction"
+msgstr "Hátralévő csaták (kb.): %(battles)s"
+
+msgid "common/resultsShareBtn"
+msgstr "Link kérése"
+
+msgid "common/startTime"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/tooltip/armor/description"
+msgstr "Beleszámít:\n• Az ellenség lepattanó lövései\n• Nem átütő találatok\n\nA repesz-romboló és HESH lőszerekkel elért találatok nem számítanak."
+
+msgid "common/tooltip/armor/header"
+msgstr "Felfogott sérülés"
+
+msgid "common/tooltip/armor/part1"
+msgstr "Lepattanók"
+
+msgid "common/tooltip/armor/part2"
+msgstr "Nem átütők"
+
+msgid "common/tooltip/armor/part3"
+msgstr "Páncél által felfogott sebzés %(vals)s"
+
+msgid "common/tooltip/assist/description"
+msgstr "A csapattársak által ellenséges járműveknek okozott sebzés típusai:\n• Sebzés a felderítésednek köszönhetően\n• Sebzés az ellenséges jármű lánctalpa megsemmisítésének és mozgásképtelenné tételének köszönhetően"
+
+msgid "common/tooltip/assist/header"
+msgstr "Sebzés a közreműködésednek köszönhetően"
+
+msgid "common/tooltip/assist/part1"
+msgstr "Felderítés általi sebzés %(vals)s"
+
+msgid "common/tooltip/assist/part2"
+msgstr "Sebzés az ellenséges jármű lánctalpa megsemmisítésének és mozgásképtelenné tételének köszönhetően %(vals)s"
+
+msgid "common/tooltip/assist/total"
+msgstr "A csapattársak által okozott össz. sebzés %(vals)s"
+
+msgid "common/tooltip/capture/description"
+msgstr "Beleszámít:\n• Ellenséges bázis foglalási pontok\n• Semleges bázis foglalási pontok"
+
+msgid "common/tooltip/capture/header"
+msgstr "Bázis foglalás"
+
+msgid "common/tooltip/capture/totalPoints"
+msgstr "Összes bázisfoglalási pont"
+
+msgid "common/tooltip/counter"
+msgstr "A csatában szerzett kitüntetések száma: %(count)s"
+
+msgid "common/tooltip/counter/forEnemy"
+msgstr "Ezért az ellenséges járműért, a csatában szerzett kitüntetések száma: %(count)s"
+
+msgid "common/tooltip/counter/noItems"
+msgstr "A kitüntetést nem szerezted meg a csatában."
+
+msgid "common/tooltip/crits/critDamage"
+msgstr "Megsemmisített:"
+
+msgid "common/tooltip/crits/critDestruction"
+msgstr "Megsemmisített:"
+
+msgid "common/tooltip/crits/critWound"
+msgstr "Megsebesült:"
+
+msgid "common/tooltip/crits/description"
+msgstr "Beleszámít:\n• Ellenséges járművek külső és belső moduljainak sérülése\n• Ellenséges járművek külső és belső moduljainak megsemmisítése\n• Az ellenséges jármű legénységének sérülése."
+
+msgid "common/tooltip/crits/header"
+msgstr "Kritikus sebzés"
+
+msgid "common/tooltip/crits/total"
+msgstr "Összesen:"
+
+msgid "common/tooltip/damage/description"
+msgstr "Beleszámít:\n• Lövések által okozott sérülés\n• Ütközés által okozott sérülés\n• Tűz által okozott sérülés\n• Erős becsapódás által okozott sérülés"
+
+msgid "common/tooltip/damage/header"
+msgstr "Sebzés"
+
+msgid "common/tooltip/damage/part1"
+msgstr "Összes sebzés %(vals)s"
+
+msgid "common/tooltip/damage/part2"
+msgstr "Összes páncélátütés"
+
+msgid "common/tooltip/defence/description"
+msgstr "Beleszámít:\n• Szövetség bázis védelmi pontjai\n• Semleges bázis védelmi pontjai"
+
+msgid "common/tooltip/defence/header"
+msgstr "Bázisvédés"
+
+msgid "common/tooltip/defence/totalPoints"
+msgstr "Összes védelmi pont"
+
+msgid "common/tooltip/kill/header"
+msgstr "Ellenséges jármű megsemmisítve"
+
+msgid "common/tooltip/kill0/description"
+msgstr "Ellenséges jármű megsemmisült lövés hatására"
+
+msgid "common/tooltip/kill1/description"
+msgstr "Ellenséges jármű megsemmisült tűz hatására"
+
+msgid "common/tooltip/kill2/description"
+msgstr "Ellenséges jármű megsemmisült nekihajtás hatására"
+
+msgid "common/tooltip/kill3/description"
+msgstr "Ellenséges jármű megsemmisült roncsolás hatására"
+
+msgid "common/tooltip/kill4/description"
+msgstr "Ellenséges jármű megsemmisült halálzóna hatására"
+
+msgid "common/tooltip/kill5/description"
+msgstr "Ellenséges jármű megfulladt"
+
+msgid "common/tooltip/kill6/description"
+msgstr "Tűzviharban megsemmisítve"
+
+msgid "common/tooltip/kill7/description"
+msgstr "Az ellenséges jármű felborítva."
+
+msgid "common/tooltip/killCommon/description"
+msgstr "Beleszámít:\n• Megsemmisítve lövés által\n• Megsemmisítve tűz által\n• Megsemmisítve ütközés által\n• Megsemmisítve fulladás által\n• Megsemmisítés az ellenséges jármű lelökése által\n• Megsemmisítés felborítás által"
+
+msgid "common/tooltip/params/val"
+msgstr "(HP)"
+
+msgid "common/tooltip/params/val/seconds"
+msgstr "(mp)"
+
+msgid "common/tooltip/spotted/description"
+msgstr "Az ellenséges járművek első felderítése számít."
+
+msgid "common/tooltip/spotted/header"
+msgstr "Felderítés"
+
+msgid "common/tooltip/stun/description"
+msgstr "A számolt sebzés:\n• Az általad elkábított ellenségnek okozott sebzés a szövetségeseidtől."
+
+msgid "common/tooltip/stun/header"
+msgstr "Kábítás"
+
+msgid "common/tooltip/stun/part1"
+msgstr "Összes sebzés %(vals)s"
+
+msgid "common/tooltip/stun/part2"
+msgstr "Kábítások száma"
+
+msgid "common/tooltip/stun/part3"
+msgstr "Az okozott kábítások összesített időtartama: %(vals)s"
+
+msgid "common/tooltip/teamKill-1/description"
+msgstr "Csapattárs járműve megsemmisült"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "Csapattárs megsemmisítve"
+
+msgid "common/tooltip/teamKill0/description"
+msgstr "Csapattárs megsemmisült lövés hatására"
+
+msgid "common/tooltip/teamKill1/description"
+msgstr "Csapattárs megsemmisült tűz hatására"
+
+msgid "common/tooltip/teamKill2/description"
+msgstr "Csapattárs megsemmisült nekihajtás hatására"
+
+msgid "common/tooltip/teamKill3/description"
+msgstr "Csapattárs megsemmisült roncsolás hatására"
+
+msgid "common/tooltip/teamKill4/description"
+msgstr "Csapattárs megsemmisült halálzóna hatására"
+
+msgid "common/tooltip/teamKill5/description"
+msgstr "Csapattárs megfulladt"
+
+msgid "common/tooltip/xpTitleSquad"
+msgstr "További tapasztalatot kaptál a szakaszban való játékért ebben a csatában."
+
+msgid "common/totalTooltip/armor/part1"
+msgstr "Lepattanók"
+
+msgid "common/totalTooltip/armor/part2"
+msgstr "Nem átütők"
+
+msgid "common/totalTooltip/armor/part3"
+msgstr "Páncélzat által felfogott sebzés"
+
+msgid "common/totalTooltip/assist/part1"
+msgstr "A felderítésednek köszönhető sebzés"
+
+msgid "common/totalTooltip/assist/part2"
+msgstr "A lánctalp megsemmisítésének és az ellenséges jármű mozgásképtelenné tételének köszönhető sebzés"
+
+msgid "common/totalTooltip/assist/total"
+msgstr "A szövetségesek által az ellenséges járműveknek okozott összes sebzés"
+
+msgid "common/totalTooltip/damage/part1"
+msgstr "Összes sebzés"
+
+msgid "common/totalTooltip/damage/part2"
+msgstr "Összes páncélátütés"
+
+msgid "common/totalTooltip/stun/part1"
+msgstr "Összes sebzés"
+
+msgid "common/totalTooltip/stun/part2"
+msgstr "Kábítások száma"
+
+msgid "common/totalTooltip/stun/part3"
+msgstr "Az okozott kábítások összesített időtartama"
+
+msgid "common/vehicle/details"
+msgstr "%(vehicle)s, %(type)s"
+
+msgid "common/vehicle/purchase"
+msgstr "Jármű vásárlása"
+
+msgid "common/vehicle/research"
+msgstr "Jármű fejlesztése"
+
+msgid "common/vehicleState/alive"
+msgstr "Túlélt"
+
+msgid "common/vehicleState/dead0"
+msgstr "Megsemmisítve találat által"
+
+msgid "common/vehicleState/dead0_with_killername"
+msgstr "Lövés semmisítette meg ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead0_with_killername_and_clan"
+msgstr "Lövés semmisítette meg ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead1"
+msgstr "Megsemmisülve tűz által"
+
+msgid "common/vehicleState/dead12"
+msgstr "Önmegsemmisítve"
+
+msgid "common/vehicleState/dead13"
+msgstr "Megsemmisítve a játékos képessége által"
+
+msgid "common/vehicleState/dead1_with_killername"
+msgstr "Tűz semmisítette meg ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead1_with_killername_and_clan"
+msgstr "Tűz semmisítette meg ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead2"
+msgstr "Megsemmisülve nekihajtás által"
+
+msgid "common/vehicleState/dead27"
+msgstr "Tüzérségi csapás által megsemmisítve"
+
+msgid "common/vehicleState/dead29"
+msgstr "Szétroncsolva"
+
+msgid "common/vehicleState/dead2_with_killername"
+msgstr "Ütközés semmisítette meg ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead2_with_killername_and_clan"
+msgstr "Ütközés semmisítette meg ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead3"
+msgstr "Szétroncsolva"
+
+msgid "common/vehicleState/dead30"
+msgstr "Megsemmisítve találat által"
+
+msgid "common/vehicleState/dead30_with_killername"
+msgstr "Lövés semmisítette meg ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead30_with_killername_and_clan"
+msgstr "Lövés semmisítette meg ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead35"
+msgstr "Szétroncsolva"
+
+msgid "common/vehicleState/dead3_with_killername"
+msgstr "Lezuhant ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead3_with_killername_and_clan"
+msgstr "Lezuhant ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead4"
+msgstr "Megsemmisítve a halál zónában"
+
+msgid "common/vehicleState/dead5"
+msgstr "Jármű megfulladt"
+
+msgid "common/vehicleState/dead5_with_killername"
+msgstr "Jármű elmerült ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead5_with_killername_and_clan"
+msgstr "Jármű elmerült ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead6"
+msgstr "Tűzviharban megsemmisítve"
+
+msgid "common/vehicleState/dead7"
+msgstr "Borulás által megsemmisítve"
+
+msgid "common/vehicleState/dead7_with_killername"
+msgstr "Felborulás miatt semmisült meg ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead7_with_killername_and_clan"
+msgstr "Felborulás miatt semmisült meg ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/prematureLeave"
+msgstr "Kilépés a csata vége előtt"
+
+msgid "common/vehicleState/victory"
+msgstr "Győzelem!"
+
+msgid "common/wotPlusBonus/bonusLeft"
+msgstr "Ma fennmaradó: %(count)s"
+
+msgid "common/xpMultiplierSign"
+msgstr "x"
+
+msgid "comms/likes/pbs/text/01"
+msgstr "A csatában kapott elismerések"
+
+msgid "comms/likes/pbs/tooltip/body"
+msgstr "{{var}} csapattárs elismerésben részesített."
+
+msgid "comms/likes/pbs/tooltip/bodySingle"
+msgstr "{{var}} csapattárs elismerésben részesített."
+
+msgid "comms/likes/pbs/tooltip/header"
+msgstr "Elismerést kaptál"
+
+msgid "conditions/type/and"
+msgstr "ÉS"
+
+msgid "conditions/type/or"
+msgstr "VAGY"
+
+msgid "customizationProgress/award/newLevel"
+msgstr "%(level)s. szintű \"%(name)s\" matrica elérhető."
+
+msgid "customizationProgress/award/received"
+msgstr "\"%(name)s\" matrica megszerezve %(count)s."
+
+msgid "customizationProgress/descr"
+msgstr "%(level)s. szintű \"%(name)s\" matrica"
+
+msgid "cyberSport/btnToTeamProfile"
+msgstr "Csapat profil"
+
+msgid "cyberSport/points"
+msgstr "Pontok:"
+
+msgid "cyberSport/status/lose"
+msgstr "Vereség"
+
+msgid "cyberSport/status/tie"
+msgstr "Döntetlen"
+
+msgid "cyberSport/status/win"
+msgstr "Győzelem!"
+
+msgid "details/calculations/additionalBonus"
+msgstr "Kiosztható XP bónusz"
+
+msgid "details/calculations/aogasFactor"
+msgstr "Csökkentő tényező (AOGAS)"
+
+msgid "details/calculations/autoBoosters"
+msgstr "Direktívák automatikus utántöltése"
+
+msgid "details/calculations/autoEquip"
+msgstr "Automatikus fogyócikk újratöltés"
+
+msgid "details/calculations/autoLoad"
+msgstr "Lőszer automatikus újratöltése"
+
+msgid "details/calculations/autoRepair"
+msgstr "Automatikus javítás"
+
+msgid "details/calculations/autoResupply"
+msgstr "Automatikus újratöltés"
+
+msgid "details/calculations/base"
+msgstr "Csatában megszerezve"
+
+msgid "details/calculations/battlePayments"
+msgstr "Csata fizetségek"
+
+msgid "details/calculations/boosters"
+msgstr "Személyes tartalék bónusz"
+
+msgid "details/calculations/crystal/events"
+msgstr "Küldetések teljesítéséért"
+
+msgid "details/calculations/crystal/total"
+msgstr "A jármű különleges képessége miatt"
+
+msgid "details/calculations/event"
+msgstr "Jutalom a teljesített küldetésért és eseményekért"
+
+msgid "details/calculations/fairPlayViolation/afk"
+msgstr "Büntetés inaktivitásért a csatában"
+
+msgid "details/calculations/fairPlayViolation/comp7_deserter"
+msgstr "Büntetés dezertálásért"
+
+msgid "details/calculations/fairPlayViolation/comp7_light_deserter"
+msgstr "Büntetés dezertálásért"
+
+msgid "details/calculations/fairPlayViolation/deserter"
+msgstr "Büntetés dezertálásért"
+
+msgid "details/calculations/fairPlayViolation/epic_deserter"
+msgstr "Büntetés dezertálásért"
+
+msgid "details/calculations/fairPlayViolation/event_afk"
+msgstr "Büntetés inaktivitásért a csatában"
+
+msgid "details/calculations/fairPlayViolation/event_deserter"
+msgstr "Büntetés dezertálásért"
+
+msgid "details/calculations/fairPlayViolation/suicide"
+msgstr "Büntetés szándékos önmegsemmisítésért"
+
+msgid "details/calculations/firstWin"
+msgstr "A nap első győztes csatájáért"
+
+msgid "details/calculations/fortOrder"
+msgstr "Bónusz a használt tartalékért"
+
+msgid "details/calculations/friendlyFireCompensation"
+msgstr "Kompenzálás csapattárstól kapott sebzésért"
+
+msgid "details/calculations/friendlyFirePenalty"
+msgstr "Büntetés a csapattárs sebzéséért"
+
+msgid "details/calculations/friendlyFireRankedXpPenalty"
+msgstr "Büntetés szövetségesek megsebzéséért vagy elkábításáért"
+
+msgid "details/calculations/heavyTrucks"
+msgstr "Nagy kapacitású szállítás"
+
+msgid "details/calculations/igrBonus"
+msgstr "%(igrIcon)s való játékért járó jutalom"
+
+msgid "details/calculations/igrBonus/simpleLabel"
+msgstr "IGR-bónusz"
+
+msgid "details/calculations/intermediateTotal"
+msgstr "Összes csata:"
+
+msgid "details/calculations/manageableXpBonus"
+msgstr "Kiosztható XP-bónusz"
+
+msgid "details/calculations/maximum"
+msgstr "maximum"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "A katonai manőverekért"
+
+msgid "details/calculations/multiplierInfo/body"
+msgstr "Megnövelt tapasztalati pont a napi első győzelemért hozzáadva a következő járművekhez:"
+
+msgid "details/calculations/multiplierInfo/header"
+msgstr "A nap első győztes csatájáért"
+
+msgid "details/calculations/multiplierInfo/vehicleSeparator"
+msgstr "• "
+
+msgid "details/calculations/noPenalty"
+msgstr "A hősies védekezésért"
+
+msgid "details/calculations/petCredits/fullLabel"
+msgstr "A kedvenc bónusza (%(bonusFactor)d%)"
+
+msgid "details/calculations/petCredits/simpleLabel"
+msgstr "A kedvenc bónusza"
+
+msgid "details/calculations/piggyBankInfo"
+msgstr "Hozzáadva a készlettartalékokhoz"
+
+msgid "details/calculations/playerRankXP"
+msgstr "Rang bónusz"
+
+msgid "details/calculations/premiumVehicleXP"
+msgstr "Bónusz Prémium jármű szintért"
+
+msgid "details/calculations/referralBonus"
+msgstr "Ajánló bónusz (%(bonusFactor)d%%)"
+
+msgid "details/calculations/referralBonus/fullLabel"
+msgstr "Ajánlói bónusz (%(bonusFactor)d%)"
+
+msgid "details/calculations/referralBonus/simpleLabel"
+msgstr "Ajánlási bónusz"
+
+msgid "details/calculations/squad/restrictions/title"
+msgstr "Szakaszban való játékhoz"
+
+msgid "details/calculations/squadBonus"
+msgstr "Bónusz szakaszban való játékért"
+
+msgid "details/calculations/squadXP"
+msgstr "Szakaszban játszva"
+
+msgid "details/calculations/squadXPPenalty"
+msgstr "Büntetés a nem megfelelő szakasz összeállítás miatt"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "A taktikai kiképzésért"
+
+msgid "details/calculations/title/base"
+msgstr "Csatában megszerezve"
+
+msgid "details/calculations/title/expenses"
+msgstr "Kiadások"
+
+msgid "details/calculations/title/total"
+msgstr "Összesen"
+
+msgid "details/calculations/total"
+msgstr "Összesen:"
+
+msgid "details/calculations/wotPlus"
+msgstr "WoT plusz csatabónusz"
+
+msgid "details/calculations/wotPlusBonus"
+msgstr "WoT plusz csatabónusz"
+
+msgid "details/calculations/wotPlusProBoost"
+msgstr "WoT Plusz Pro gyorsító"
+
+msgid "details/calculations/xpRecord"
+msgstr "Szerzett (%(color_tag_open)s maximum %(color_tag_close)s)"
+
+msgid "details/calculations/xpRecordSimple"
+msgstr "Megszerezve (%(maximum)s)"
+
+msgid "details/credits"
+msgstr "Kredit"
+
+msgid "details/crystal"
+msgstr "Kötvények"
+
+msgid "details/noPrem"
+msgstr "Alap felhasználói fiók"
+
+msgid "details/prem"
+msgstr "Wargaming Prémium"
+
+msgid "details/premPlus"
+msgstr "WoT Prémium"
+
+msgid "details/resource"
+msgstr "Ipari nyersanyag"
+
+msgid "details/stats"
+msgstr "Statisztika"
+
+msgid "details/time"
+msgstr "idő"
+
+msgid "details/time/lbl_arenaCreateTimeOnlyStr"
+msgstr "Kezdés ideje"
+
+msgid "details/time/lbl_basesCaptured"
+msgstr "Zónák elfoglalva"
+
+msgid "details/time/lbl_duration"
+msgstr "Csata időtartama"
+
+msgid "details/time/lbl_objectivesDestroyed"
+msgstr "Célpontok megsemmisítve"
+
+msgid "details/time/lbl_objectivesReached"
+msgstr "Elért célpontok"
+
+msgid "details/time/lbl_playerKilled"
+msgstr "Megsemmisítés ideje"
+
+msgid "details/time/val_no"
+msgstr "Nem"
+
+msgid "details/time/val_yes"
+msgstr "Igen"
+
+msgid "details/time/value"
+msgstr "%(min)s perc %(sec)s mp"
+
+msgid "details/time_epic"
+msgstr "Csata"
+
+msgid "details/xp"
+msgstr "Tapasztalat"
+
+msgid "details/xp_abbr"
+msgstr "xp"
+
+msgid "exterminationVictory/allies"
+msgstr "A csapatod megsemmisítette az összes ellenséges járművet"
+
+msgid "exterminationVictory/enemies"
+msgstr "Az ellenség megsemmisítette csapatod összes járművét"
+
+msgid "fallout/classic/lose/cap"
+msgstr "Az ellenséges csapat több győzelmi pontot gyűjtött a csapatodnál"
+
+msgid "fallout/classic/lose/extermination"
+msgstr "Az ellenség megsemmisítette csapatod összes járművét"
+
+msgid "fallout/classic/lose/points"
+msgstr "Az ellenséges csapat több győzelmi pontot gyűjtött a csapatodnál"
+
+msgid "fallout/classic/tie"
+msgstr "A két csapat ugyanannyi győzelmi pontot gyűjtött"
+
+msgid "fallout/classic/win/cap"
+msgstr "A csapatod több győzelmi pontot szerzett, mint az ellenség"
+
+msgid "fallout/classic/win/extermination"
+msgstr "A csapatod megsemmisítette az összes ellenséges járművet"
+
+msgid "fallout/classic/win/points"
+msgstr "A csapatod több győzelmi pontot szerzett, mint az ellenség"
+
+msgid "fallout/multiteam/ended"
+msgstr "A küldetés nem teljesült"
+
+msgid "fallout/multiteam/noPlayerSelected"
+msgstr "A részletek megtekintéséhez\nválassz egy játékost a listáról."
+
+msgid "fallout/multiteam/win/cap"
+msgstr "A csapatod több győzelmi pontot szerzett, mint az ellenség"
+
+msgid "fallout/multiteam/win/extermination"
+msgstr "Az összes ellenséges osztag megsemmisítve"
+
+msgid "fallout/multiteam/win/points"
+msgstr "A csapatod több győzelmi pontot szerzett, mint az ellenség"
+
+msgid "finish/clanBattle_reason_attack/1lose"
+msgstr "%(buildingName)s épületet az ellenség nem foglalta el"
+
+msgid "finish/clanBattle_reason_attack/1tie"
+msgstr "%(buildingName)s épület elfoglalása sikeres"
+
+msgid "finish/clanBattle_reason_attack/1win"
+msgstr "Épület elfoglalva: %(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1lose"
+msgstr "%(buildingName)s épületet elfoglalta az ellenség"
+
+msgid "finish/clanBattle_reason_def/1tie"
+msgstr "%(buildingName)s épületet az ellenség nem foglalta el"
+
+msgid "finish/clanBattle_reason_def/1win"
+msgstr "Épület megvédve: %(buildingName)s"
+
+msgid "finish/clarification/finishAllPlayersLeft"
+msgstr "Az eredményt a csapatokról fennmaradó információ alapján számítjuk ki"
+
+msgid "finish/overtime/lose"
+msgstr "Ellenség túlélte"
+
+msgid "finish/overtime/win"
+msgstr "Ellenség megsemmisítve"
+
+msgid "finish/playerTank/separator"
+msgstr "–"
+
+msgid "finish/reason/0"
+msgstr "Indok ismeretlen"
+
+msgid "finish/reason/10lose"
+msgstr "A célpontok túlélték"
+
+msgid "finish/reason/10win"
+msgstr "Célpontok megsemmisítve"
+
+msgid "finish/reason/1lose"
+msgstr "Összes szövetséges jármű megsemmisült"
+
+msgid "finish/reason/1tie"
+msgstr "Összes jármű megsemmisítve"
+
+msgid "finish/reason/1win"
+msgstr "Minden ellenséges jármű megsemmisült"
+
+msgid "finish/reason/2"
+msgstr "Bázis foglalás"
+
+msgid "finish/reason/3"
+msgstr "Csata ideje lejárt"
+
+msgid "finish/reason/4"
+msgstr "Csata befejezve rendszerhiba miatt"
+
+msgid "finish/reason/5"
+msgstr "Technikai vereség"
+
+msgid "finish/reason/8"
+msgstr "Csapattárs megsemmisítve"
+
+msgid "finish/reason/9"
+msgstr "A járműved megsemmisült"
+
+msgid "garage/uniqueDamage"
+msgstr "Csak az egyedi kritikus találat számít."
+
+msgid "getPremiumPopover/actionBtn/label"
+msgstr "Időtartam kiválasztása"
+
+msgid "getPremiumPopover/award"
+msgstr "+50% kredit és tapasztalat"
+
+msgid "getPremiumPopover/descriptionText"
+msgstr "Vásárolj %(prem)s -t és szerezz %(award)s bónuszt az összes csatában"
+
+msgid "getPremiumPopover/headerText"
+msgstr "Ezért a csatáért szerezhetsz:"
+
+msgid "getPremiumPopover/prem"
+msgstr "Prémium fiók"
+
+msgid "missionsProgress/aboutVehicle/button"
+msgstr "A fejlesztéshez"
+
+msgid "missionsProgress/aboutVehicle/description"
+msgstr "Kifejleszthető"
+
+msgid "missionsProgress/aboutVehicle/prediction"
+msgstr "Hátralévő csaták (körülbelül): {{prediction}}"
+
+msgid "missionsProgress/aboutVehicle/title"
+msgstr "A JÁRMŰ RÉSZLETEI"
+
+msgid "missionsProgress/battleMatters/doneInfo"
+msgstr "{{name}}. küldetés teljesítve."
+
+msgid "missionsProgress/battleMatters/title"
+msgstr "TANKAKADÉMIA"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/module"
+msgstr "ÚJ MODUL FELOLDVA!"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/vehicle"
+msgstr "ÚJ JÁRMŰ FELOLDVA!"
+
+msgid "missionsProgress/notificationsTabs/battleMatters"
+msgstr "AKADÉMIAI KÜLDETÉS TELJESÍTVE!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/chapterComplete"
+msgstr "FEJEZET TELJESÍTVE!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/stageComplete"
+msgstr "SZAKASZ TELJESÍTVE!"
+
+msgid "missionsProgress/notificationsTabs/challenge"
+msgstr "PRÓBATÉTEL KÜLDETÉS TELJESÍTVE!"
+
+msgid "missionsProgress/notificationsTabs/common"
+msgstr "KÜLDETÉS TELJESÍTVE!"
+
+msgid "missionsProgress/notificationsTabs/daily"
+msgstr "NAPI KÜLDETÉS TELJESÍTVE!"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/maxLevel"
+msgstr "MAXIMÁLIS ELIT SZINT"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/newLevel"
+msgstr "ÚJ ELIT SZINT"
+
+msgid "missionsProgress/notificationsTabs/epic"
+msgstr "MESÉS KÜLDETÉS TELJESÍTVE!"
+
+msgid "missionsProgress/notificationsTabs/personalMissions/operation_mission_complete"
+msgstr "MŰVELETI KÜLDETÉS TELJESÍTVE!"
+
+msgid "missionsProgress/notificationsTabs/premium"
+msgstr "PRÉMIUM KÜLDETÉS TELJESÍTVE!"
+
+msgid "missionsProgress/notificationsTabs/weekly"
+msgstr "HETI KÜLDETÉS TELJESÍTVE!"
+
+msgid "noData"
+msgstr "Sajnálom. A csata eredménye nem elérhető"
+
+msgid "personalQuest/bonus/descr"
+msgstr "az előrehaladásod az elsődleges feltételben %(value)sx nagyobb lesz ebben a csatában."
+
+msgid "personalQuest/bonus/multiplier"
+msgstr "x%(value)s szorzó:"
+
+msgid "personalQuest/failed/attention"
+msgstr "Figyelem!"
+
+msgid "personalQuest/failed/descr"
+msgstr "Le lesz nullázva a küldetésben elért előrehaladásod. A teljesítéshez szükséges feltétel újraindul."
+
+msgid "players/enemy/unknown"
+msgstr "Ellenség"
+
+msgid "players/teammate/unknown"
+msgstr "Játékos"
+
+msgid "prestige/common/description"
+msgstr "Megszerzett elit pontok:"
+
+msgid "prestige/max/description"
+msgstr "Elérted a maximális elit szintet."
+
+msgid "prestige/maxLevelReached/description"
+msgstr "Elérted a maximális elit szintet"
+
+msgid "prestige/newLevelAchieved/description"
+msgstr "Új elit szintet értél el"
+
+msgid "prestige/title"
+msgstr "Elit rendszer"
+
+msgid "progression/completed"
+msgstr "Teljesítve"
+
+msgid "progression/completedPointsFrom/withLabel"
+msgstr "{{@class $labelClass}}Teljesítve:{{/}} {{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/completedPointsFrom/withoutLabel"
+msgstr "{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/linkBtn/info"
+msgstr "Kattints a részletes tájékoztatás megtekintéséhez."
+
+msgid "progression/missionsCompleteCounter"
+msgstr "{{@class $labelClass}}Teljesítve:{{/}} {{completed}}"
+
+msgid "progression/progressUnavailable"
+msgstr "Az elit rendszer jelenleg nem érhető el. Próbálkozz újra később!"
+
+msgid "progression/totalEarned"
+msgstr "Összes megszerzett: {{value}}"
+
+msgid "progressiveReward/descr"
+msgstr "Harcolj csatákban és szerezz jutalmakat. Minél többet játszol, annál közelebb kerülsz a jutalmakhoz."
+
+msgid "selectVehicle"
+msgstr "Járművek kiválasztása"
+
+msgid "status/lose"
+msgstr "VERESÉG"
+
+msgid "status/tie"
+msgstr "DÖNTETLEN"
+
+msgid "status/win"
+msgstr "GYŐZELEM"
+
+msgid "tankSelector/next"
+msgstr "Következő jármű"
+
+msgid "team/damageAndConsumablesHeader/body"
+msgstr "Rendezés az okozott sebzés alapján,\nbeleértve a harci tartalékok által okozott sebzést."
+
+msgid "team/damageAndConsumablesHeader/header"
+msgstr "Okozott sebzés"
+
+msgid "team/damageHeader/body"
+msgstr "Rendezés az ellenséges járműveknek okozott sebzés alapján."
+
+msgid "team/damageHeader/header"
+msgstr "Okozott sebzés"
+
+msgid "team/damageHeaderNoSort/header"
+msgstr "Okozott sebzés"
+
+msgid "team/deaths/body"
+msgstr "Rendezés játékos járművének kilövése alapján."
+
+msgid "team/deaths/header"
+msgstr "Megsemmisített járművek"
+
+msgid "team/deathsNoSort/header"
+msgstr "Megsemmisített járművek"
+
+msgid "team/epicRankHeader/body"
+msgstr "Rendezés a csatában elért rangok alapján."
+
+msgid "team/epicRankHeader/header"
+msgstr "Rang"
+
+msgid "team/epicRespawnHeader/body"
+msgstr "Rendezés a bevetések száma alapján."
+
+msgid "team/epicRespawnHeader/header"
+msgstr "Bevetések száma"
+
+msgid "team/falloutFragHeader/body"
+msgstr "Rendezés a megsemmisített ellenséges járművek szerint,\nbeleértve a harci tartalékok által okozott sérüléseket."
+
+msgid "team/falloutFragHeader/header"
+msgstr "Megsemmisített ellenséges járművek"
+
+msgid "team/falloutResourcePoints/body"
+msgstr "Rendezés az összegyűjtött erőforrások szerint."
+
+msgid "team/falloutResourcePoints/header"
+msgstr "Erőforrások"
+
+msgid "team/flags/body"
+msgstr "Rendezés a leszállított zászlók száma szerint."
+
+msgid "team/flags/header"
+msgstr "Leszállított zászlók"
+
+msgid "team/flagsNoSort/header"
+msgstr "Leszállított zászlók"
+
+msgid "team/fragHeader/body"
+msgstr "Rendezés a megsemmisített járművek száma alapján."
+
+msgid "team/fragHeader/header"
+msgstr "Megsemmisített ellenséges járművek"
+
+msgid "team/fragHeaderNoSort/header"
+msgstr "Megsemmisített ellenséges járművek"
+
+msgid "team/healthHeader/body"
+msgstr "Rendezés megmaradt életerő alapján."
+
+msgid "team/healthHeader/header"
+msgstr "Életerő"
+
+msgid "team/medalHeader/body"
+msgstr "Rendezés kapott kitüntetések száma alapján."
+
+msgid "team/medalHeader/header"
+msgstr "Kitüntetések"
+
+msgid "team/playerHeader/body"
+msgstr "Rendezés játékos név alapján."
+
+msgid "team/playerHeader/header"
+msgstr "Játékos"
+
+msgid "team/playerHeaderNoSort/header"
+msgstr "Játékos"
+
+msgid "team/playerNumber/body"
+msgstr "Rendszerezés a csapat játékosainak száma alapján."
+
+msgid "team/playerNumber/header"
+msgstr "Sorszám"
+
+msgid "team/rankHeader/body"
+msgstr "Rendezés rang szerint."
+
+msgid "team/rankHeader/header"
+msgstr "Rang"
+
+msgid "team/resourceHeader/body"
+msgstr "Rendezés szerzett ipari nyersanyag szerint."
+
+msgid "team/resourceHeader/header"
+msgstr "Ipari nyersanyag"
+
+msgid "team/squadHeader/body"
+msgstr "Rendezés szakasz alapján."
+
+msgid "team/squadHeader/header"
+msgstr "Szakasz"
+
+msgid "team/squadHeaderNoSort/header"
+msgstr "Szakasz"
+
+msgid "team/stats/allies"
+msgstr "Csapattársak"
+
+msgid "team/stats/close"
+msgstr "Bezárás"
+
+msgid "team/stats/enemies"
+msgstr "Ellenségek"
+
+msgid "team/stats/enemyTeam"
+msgstr "Ellenség"
+
+msgid "team/stats/infotip_xpForAssist/body"
+msgstr "Támogatásnak számít:\n• A szövetségesek által okozott sebzés az általad felderített, mozgásképtelenné tett vagy elkábított járműveknek\n• Bázisok elfoglalása\n• Ellenséges járművek első felderítése."
+
+msgid "team/stats/infotip_xpForAssist/header"
+msgstr "Közreműködésért"
+
+msgid "team/stats/infotip_xpForAttack/body"
+msgstr "Hozzájárulásnak számít:\n• Az általad okozott sebzés\n• Az általad megsemmisített járművek\n• A megsemmisített modulok\n• Bónusz a csapatod által okozott sebzésért\n• Büntetés a megsebzett vagy elkábított szövetségesekért."
+
+msgid "team/stats/infotip_xpForAttack/header"
+msgstr "Kiosztott sebzésért és megsemmisített járművekért"
+
+msgid "team/stats/infotip_xpOther/body"
+msgstr "További bónuszok a hatékony részvételért, melyek nem voltak meghatározva az előző részekben."
+
+msgid "team/stats/infotip_xpOther/header"
+msgstr "A jármű szerepének megfelelő játékért"
+
+msgid "team/stats/labels_artilleryFortEquipDamageDealt"
+msgstr "\ttüzérségi csapás által"
+
+msgid "team/stats/labels_atkObjectives"
+msgstr "Elfoglalt zónák / megsemmisített célpontok"
+
+msgid "team/stats/labels_capturePointsVal"
+msgstr "Bázis foglalási/védelmi pontok"
+
+msgid "team/stats/labels_capturedPointsOfInterest"
+msgstr "Elfoglalt fontos pontok"
+
+msgid "team/stats/labels_damageAssisted"
+msgstr "Sebzés közreműködésednek köszönhetően"
+
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "Sebzés a közreműködésed által"
+
+msgid "team/stats/labels_damageAssistedStun"
+msgstr "Játékos által elkábított ellenséges járműveknek okozott sebzés"
+
+msgid "team/stats/labels_damageAssistedStunSelf"
+msgstr "Általad elkábított ellenséges járműveknek okozott sebzés"
+
+msgid "team/stats/labels_damageBlockedByArmor"
+msgstr "Páncél által felfogott sérülés"
+
+msgid "team/stats/labels_damageDealt"
+msgstr "Összes sebzés:"
+
+msgid "team/stats/labels_damageDealtByOrder"
+msgstr "\tBeleértve a harci tartalékokat"
+
+msgid "team/stats/labels_damageDealtBySkills"
+msgstr "\tbeleértve a használt képességeket"
+
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\tellenséges csapatnak okozott sebzés"
+
+msgid "team/stats/labels_damagedKilled"
+msgstr "Megsebesített/kilőtt ellenséges járművek"
+
+msgid "team/stats/labels_deaths"
+msgstr "A csatában megsemmisített járműveid száma"
+
+msgid "team/stats/labels_defObjectives"
+msgstr "Megvédett zónák / célpontok"
+
+msgid "team/stats/labels_destroyRecoveryRatio"
+msgstr "Saját, megsemmisült / kivont járművek száma"
+
+msgid "team/stats/labels_destructiblesDamageDealt"
+msgstr "\ttovább a célpontokhoz"
+
+msgid "team/stats/labels_directHits"
+msgstr "\tközvetlen találatok"
+
+msgid "team/stats/labels_directHitsReceived"
+msgstr "Elszenvedett találatok"
+
+msgid "team/stats/labels_equipmentDamageAssisted"
+msgstr "\ta harci tartalék hatásainak következtében"
+
+msgid "team/stats/labels_equipmentDamageDealt"
+msgstr "\tharci tartalékokkal"
+
+msgid "team/stats/labels_explosionHits"
+msgstr "\trobbanás okozta sérülés"
+
+msgid "team/stats/labels_explosionHitsReceived"
+msgstr "Robbanási sérüléstől elszenvedett találatok"
+
+msgid "team/stats/labels_flags"
+msgstr "Zászlók leszállítva"
+
+msgid "team/stats/labels_healed"
+msgstr "Életerő pontok visszaállítva (tiéd/szövetségeseké)"
+
+msgid "team/stats/labels_hits"
+msgstr "\tközvetlen találatok/átütések"
+
+msgid "team/stats/labels_killed"
+msgstr "Megsemmisített ellenséges járművek"
+
+msgid "team/stats/labels_killsByOrder"
+msgstr "\tBeleértve a harci tartalékokat"
+
+msgid "team/stats/labels_mileage"
+msgstr "Megtett távolság"
+
+msgid "team/stats/labels_noDamageDirectHitsReceived"
+msgstr "\tnincs páncélátütés"
+
+msgid "team/stats/labels_piercingHits"
+msgstr "\tpáncélátütés"
+
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\tpáncélátütés"
+
+msgid "team/stats/labels_roleSkillUsed"
+msgstr "Szerep képességek használva"
+
+msgid "team/stats/labels_shots"
+msgstr "Kilőtt lövedékek"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\t300 méternél nagyobb távolságból"
+
+msgid "team/stats/labels_spotted"
+msgstr "Ellenséges járművek felderítve"
+
+msgid "team/stats/labels_stunDuration"
+msgstr "Az okozott kábítások összesített időtartama, s"
+
+msgid "team/stats/labels_stunNum"
+msgstr "Okozott kábítások"
+
+msgid "team/stats/labels_teamHitsDamage"
+msgstr "Csapattársnak okozott sebzés (kilőtt/É.erő)"
+
+msgid "team/stats/labels_timesDestroyed"
+msgstr "Megsemmisített járművek száma"
+
+msgid "team/stats/labels_xp"
+msgstr "Összes szerzett XP"
+
+msgid "team/stats/labels_xpForAssist"
+msgstr "\tközreműködésért"
+
+msgid "team/stats/labels_xpForAttack"
+msgstr "\tsebzés okozásáért"
+
+msgid "team/stats/labels_xpOther"
+msgstr "\ta jármű szerepének megfelelő játékért"
+
+msgid "team/stats/mileage"
+msgstr "?empty?"
+
+msgid "team/stats/ownTeam"
+msgstr "Csapattársak"
+
+msgid "team/stats/parameter/artilleryFortEquipDamageDealt"
+msgstr "tüzérségi csapás által"
+
+msgid "team/stats/parameter/capturePointsVal"
+msgstr "Bázis foglalási/védelmi pontok"
+
+msgid "team/stats/parameter/damageAssisted"
+msgstr "Sebzés közreműködésednek köszönhetően"
+
+msgid "team/stats/parameter/damageAssistedSelf"
+msgstr "Sebzés a közreműködésed által"
+
+msgid "team/stats/parameter/damageAssistedStun"
+msgstr "Játékos által elkábított ellenséges járműveknek okozott sebzés"
+
+msgid "team/stats/parameter/damageAssistedStunSelf"
+msgstr "Általad elkábított ellenséges járműveknek okozott sebzés"
+
+msgid "team/stats/parameter/damageBlockedByArmor"
+msgstr "Páncél által felfogott sérülés"
+
+msgid "team/stats/parameter/damageDealt"
+msgstr "Összes sebzés"
+
+msgid "team/stats/parameter/damagedKilled"
+msgstr "Megsebesített/kilőtt ellenséges járművek"
+
+msgid "team/stats/parameter/directHitsReceived"
+msgstr "Elszenvedett találatok"
+
+msgid "team/stats/parameter/explosionHits"
+msgstr "robbanás okozta sebzés"
+
+msgid "team/stats/parameter/explosionHitsReceived"
+msgstr "Robbanási sérüléstől elszenvedett találatok"
+
+msgid "team/stats/parameter/hits"
+msgstr "közvetlen találatok/átütések"
+
+msgid "team/stats/parameter/mileage"
+msgstr "Megtett távolság"
+
+msgid "team/stats/parameter/noDamageDirectHitsReceived"
+msgstr "nem átütő"
+
+msgid "team/stats/parameter/piercingsReceived"
+msgstr "átütések"
+
+msgid "team/stats/parameter/shots"
+msgstr "Kilőtt lövedékek"
+
+msgid "team/stats/parameter/sniperDamageDealt"
+msgstr "300 méternél nagyobb távolságból"
+
+msgid "team/stats/parameter/spotted"
+msgstr "Ellenséges járművek felderítve"
+
+msgid "team/stats/parameter/stunDuration"
+msgstr "Az okozott kábítások összesített időtartama, s"
+
+msgid "team/stats/parameter/stunNum"
+msgstr "Okozott kábítások"
+
+msgid "team/stats/parameter/teamHitsDamage"
+msgstr "Csapattársnak okozott sebzés (kilőtt/É.erő)"
+
+msgid "team/tankHeader/body"
+msgstr "Rendezés a csapatban elfoglalt pozíció szerint."
+
+msgid "team/tankHeader/header"
+msgstr "Járművek"
+
+msgid "team/teamInfluenceTotal"
+msgstr "Az osztag által gyűjtött Befolyás: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamResourceTotal"
+msgstr "Osztag által szerzett nyersanyag: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamScore/body"
+msgstr "Rendezés az összegyűjtött győzelmi pontok szerint."
+
+msgid "team/teamScore/header"
+msgstr "Csapat győzelmi pontjai"
+
+msgid "team/victoryScore/body"
+msgstr "Rendezés az összegyűjtött győzelmi pontok szerint."
+
+msgid "team/victoryScore/header"
+msgstr "Játékos győzelmi pontjai"
+
+msgid "team/victoryScoreNoSort/header"
+msgstr "Játékos győzelmi pontjai"
+
+msgid "team/xpHeader/body"
+msgstr "Rendezés XP alapján"
+
+msgid "team/xpHeader/header"
+msgstr "Tapasztalat"
+
+msgid "team/xpHeaderNoSort/header"
+msgstr "Tapasztalat"
+
+msgid "tooltips/stats/footer/text"
+msgstr "%(label)s&nbsp;%(type)s"
+
+msgid "victoryScore"
+msgstr "Győzelmi pontok összegyűjtve"

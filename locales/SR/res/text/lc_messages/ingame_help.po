@@ -1,0 +1,602 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleControls/casseteReload"
+msgstr "Napuni šaržer municijom"
+
+msgid "battleControls/closeBtnLabel"
+msgstr "ZATVORI"
+
+msgid "battleControls/cruiseCtrlBackward"
+msgstr "Kretanje unazad u režimu automatskog kretanja"
+
+msgid "battleControls/cruiseCtrlForward"
+msgstr "Kretanje unapred u režimu automatskog kretanja"
+
+msgid "battleControls/disableLockTarget"
+msgstr "Isključivanje Automatskog nišanjenja"
+
+msgid "battleControls/fire"
+msgstr "Vatra"
+
+msgid "battleControls/hideInterface"
+msgstr "Prikaži/Sakrij interfejs"
+
+msgid "battleControls/hideMinimap"
+msgstr "Prikaži/sakrij mini mapu"
+
+msgid "battleControls/makeScreenshort"
+msgstr "Snimanje slike u fasciklu"
+
+msgid "battleControls/movementBackward"
+msgstr "Kretanje unazad"
+
+msgid "battleControls/movementForward"
+msgstr "Kretanje unapred"
+
+msgid "battleControls/movementLeft"
+msgstr "Skretanje / kretanje ulevo"
+
+msgid "battleControls/movementRight"
+msgstr "Skretanje / kretanje udesno"
+
+msgid "battleControls/pageTitle"
+msgstr "OPŠTA INFORMACIJA"
+
+msgid "battleControls/showCursor"
+msgstr "Prikaži pokazivač"
+
+msgid "battleControls/showCursor/ext"
+msgstr "(za minimapu, listu igrača, itd.)"
+
+msgid "battleControls/showExPlayerInfo"
+msgstr "Prikaži alternativni marker"
+
+msgid "battleControls/stopFire"
+msgstr "Stani i pucaj"
+
+msgid "battleControls/switchAutorotation"
+msgstr "Zaključavanje trupa / promena režima"
+
+msgid "battleControls/title"
+msgstr "Režim borbe:"
+
+msgid "battleControls/toggleAFL"
+msgstr "Uključi/isključi lampu oklopa"
+
+msgid "battleControls/toggleAFL/ext"
+msgstr "samo dostupno u snajper modu"
+
+msgid "battleControls/toggleLockTarget"
+msgstr "Uključivanje automatskog nišanjenja"
+
+msgid "battleControls/toggleLockTarget/ext"
+msgstr "(sa nišanom na meti)"
+
+msgid "battleControls/togglePlayerPanelModes"
+msgstr "Prikazivanje / Sakrivanje liste tima"
+
+msgid "battleControls/togglePlayerPanelModes/ext"
+msgstr "ili uzvrati pohvalu"
+
+msgid "battleControls/toggleSniperMode"
+msgstr "Uključivanje / Isključivanje Snajper režima"
+
+msgid "battleControls/toggleSniperMode/ext"
+msgstr "ili artiljeriskog režima"
+
+msgid "battleControls/voiceChatMute"
+msgstr "Pokretanje glasovne komunikacije"
+
+msgid "chatControls/change"
+msgstr "Ka timu / vodu"
+
+msgid "chatControls/enterToChatMode"
+msgstr "Ulaz u čet režim"
+
+msgid "chatControls/exitFromChatMode"
+msgstr "Izlaz iz čet režima"
+
+msgid "chatControls/send"
+msgstr "Pošalji poruku"
+
+msgid "chatControls/title"
+msgstr "Čet mod:"
+
+msgid "crosshairControls/ammoNumber"
+msgstr "Ostalo Granata"
+
+msgid "crosshairControls/damageIndicator"
+msgstr "Indikator smera pogotka"
+
+msgid "crosshairControls/dispercion"
+msgstr "Rasipanje"
+
+msgid "crosshairControls/example/damage"
+msgstr "-248"
+
+msgid "crosshairControls/example/hp"
+msgstr "375/720"
+
+msgid "crosshairControls/example/name"
+msgstr "T-34-85"
+
+msgid "crosshairControls/gunMarker"
+msgstr "Pozicija topa"
+
+msgid "crosshairControls/healthPlayer"
+msgstr "Indikator zdravlja igrača"
+
+msgid "crosshairControls/hpIndicator"
+msgstr "Indikator jačine"
+
+msgid "crosshairControls/hpValues"
+msgstr "Zdravlje mete (%/HP ostalo/ukupno)"
+
+msgid "crosshairControls/marker"
+msgstr "Mesto nišanjenja"
+
+msgid "crosshairControls/reloadIndicator"
+msgstr "Punjenje topa"
+
+msgid "crosshairControls/reloadTimer"
+msgstr "Vreme punjenja topa, u sekundama"
+
+msgid "crosshairControls/targetClass"
+msgstr "Marker tipa vozila"
+
+msgid "crosshairControls/targetDistance"
+msgstr "Razdaljina do mete"
+
+msgid "crosshairControls/targetIcon"
+msgstr "Ikona vozila"
+
+msgid "crosshairControls/targetLevel"
+msgstr "Nivo"
+
+msgid "crosshairControls/targetName"
+msgstr "Model vozila/ Ime vozača"
+
+msgid "crosshairControls/title"
+msgstr "Indikatori Nišana i Topa"
+
+msgid "detailsHelp/default/title"
+msgstr "Pomoć"
+
+msgid "detailsHelp/devMaps/headerTitle"
+msgstr "Odlike mape"
+
+msgid "detailsHelp/devMaps/markers/description"
+msgstr "Lokacija slučajnog događaja biće označena sa \ndimom na mapi i markerom na minimapi.\nMape sa slučajnim događajima se mogu isključiti u podešavanjima igre."
+
+msgid "detailsHelp/devMaps/title"
+msgstr "Mape sa slučajnim događajima"
+
+msgid "detailsHelp/devMaps/zone/description"
+msgstr "Tvoje vozilo može biti uništeno u zoni slujanog događaja (na primer tokom pada aviona).\nMape sa slučajnim događajima se mogu isključiti u podešavanjima igre."
+
+msgid "detailsHelp/dualGun/quick_fire"
+msgstr "Vozila sa ovim sistemom vatre menjanju topove nakon pucanja. Jedan ispaljeni top počinje da se puni automatski dok drugi napunjeni top čeka malo."
+
+msgid "detailsHelp/dualGun/quick_fire/title"
+msgstr "Brza paljba"
+
+msgid "detailsHelp/dualGun/volley_fire"
+msgstr "Vozila sa dvocevnim sistemom topova imaju specijalnu mehaniku vatre, salvu, koja se aktivira držanjem dodeljenog tastera. Ispaljene granate lete paralelno jedna sa drugom. Taster za kontrolu pucanja može biti promenjen u podešavanjima."
+
+msgid "detailsHelp/dualGun/volley_fire/title"
+msgstr "Pucanje u salvi"
+
+msgid "detailsHelp/engineMode/engineModePage1"
+msgstr "Možeš da prebaciš režim motora kako bi više odgovarao situaciji. Promena režima motora zahteva zaustavljanje i odredjeno vreme koje ne zavisi od stanja modula."
+
+msgid "detailsHelp/engineMode/engineModePage1/title"
+msgstr "Nove mehanike kretanja"
+
+msgid "detailsHelp/engineMode/engineModePage2"
+msgstr "Punjenje turbine povećava snagu motora, brzinu unapred, brzinu unazad. Ipak ovaj režim čini vozilo vidljivijim, smanjuje stabilizaciju topa i povećava vreme nišanjenja."
+
+msgid "detailsHelp/engineMode/engineModePage2/title"
+msgstr "Prednosti i mane"
+
+msgid "detailsHelp/mapbox/headerTitle"
+msgstr "Odlike mape"
+
+msgid "detailsHelp/mapbox/localWeather/description"
+msgstr "Vozila unutar lokalne vremenske zone ne mogu da uoče vozila izvan zone i obrnuto, ili da razmene informacije o pozicijama neprijateljskih vozila van zone. Vatra oštećuje vozila."
+
+msgid "detailsHelp/mapbox/localWeather/title"
+msgstr "Lokalno vreme"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/description"
+msgstr "Mirovanje ili kretanje ispod određene brzine dozvoljava tvom vozilu da kalibriše Analogni uređaj za računanje balistike i dobije nivoe preciznosti.\nSvaki nivo povećava preciznost sledećeg pogotka i uklanja se nakon pucanja."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/title"
+msgstr "Analogni uređaj za računanje balistike"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/description"
+msgstr "Pri punoj kalibraciji, tvoje vozilo dostiže najveći nivo preciznosti i dobija pristojnu stabilizaciju topa, sa smanjenim rasipanjem tokom pokreta ili okretanja kupole/trupa.\nEfekat se uklanja nakon pucanja."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/title"
+msgstr "Puna kalibracija"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/description"
+msgstr "Tip automatskog vatrenog oružija sa veoma visokom brzinom vatre. Efikasnost pucanja je pokazana indikatorom u nišanskom krugu."
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/title"
+msgstr "Autotop"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/description"
+msgstr "Ovaj top može da puca bez potrebe za punjenjem. Svaki hitac stvara toplotu i konstantno pucanje će prouzrokovati pregrevanje topa, sprečavajući dalje pucanje dok se ne ohladi."
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
+msgstr "Termalna kontrola pregrevanja automatskog topa"
+
+msgid "detailsHelp/mechanics/battleFury/page1/description"
+msgstr "Svaki put kada pogodiš protivnika granatom, dobijaš nivo efikasnosti punjenja, koji privremeno pojačavaju brzinu punjenja topa. Nivoi se akumuliraju sa svakim pogotkom.\nUništenje neprijatelja granatom dodaje dodatne nivoe efikasnosti punjenja."
+
+msgid "detailsHelp/mechanics/battleFury/page1/title"
+msgstr "Polu automatska polica municije"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/description"
+msgstr "Ako je top napunjen, možeš da zagrevaš sledeći pucanj. Što je veći nivo toplote, veći je bonus štete.\nDa počneš proces grejanja pritisni:"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/title"
+msgstr "Termobalističko nad punjenje"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/description"
+msgstr "Kada dostugneš maksimalan nivo toplote, odbrojavanje počinje. Ako ne pucaš pre kraja, nećeš moći da pucaš ili menjaš granate nekoliko sekundi."
+
+msgid "detailsHelp/mechanics/chargeShot/page2/title"
+msgstr "Pregrevanje punjenja"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/description"
+msgstr "Postizanje dva pogotka koji su probili oklop neprijateljskim vozilima aktivira rafalni režim, ubacuje rafalnu kasetu koja omogućava da budu ispaljene dve granate u brzom vremenskom roku sa sledećim hicem."
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
+msgstr "Rafalni režim"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/description"
+msgstr "Pneumatski giro-stabilizator pruža maksimalnu stabilnost tokom pokreta trupa i kupole na kratko vreme, što dozvoljava preciznije gađanje u pokretu i bržu reakciju na iznenadne napade.\nDa aktiviraš, pritisni:"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/title"
+msgstr "Pneumatski giro-stabilizator"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/description"
+msgstr "Ako se top ohladio dovoljno nakon pucanja njegovo rasipanje će biti smanjeno. Drugi krug nišanjenja sa smanjenim prečnikom će se pojaviti što će odrediti oblast udara. Ovaj efekat traje dok sledeći hitac nije ispaljen."
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/title"
+msgstr "Duplo nišanjenje"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/description"
+msgstr "Sistem automatski počinje sa punjenjem druge kasete kada jedna granata preostane u trenutnoj.\nIspaljivanje finalne granate dok se nova kaseta puni dodaje nekoliko sekundi na preostalo vreme punjenja."
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/title"
+msgstr "Kasetni sistem punjenja"
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/description"
+msgstr "Sistem drži top ohlađenim, dozvoljavajući veoma precizno pucanje. Top se zagreva tokom pucanja, ali počinje da se hladi i vraća se na poboljšane parametre tokom punjenja. što je veća temperatura, to su više izmenjeni njegovi parametri."
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/title"
+msgstr "Aktivno hlađenje topa"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/description"
+msgstr "Ovo vozilo je specijalno podešeno za napade udarima, sa serijom modifikacija dizajna koje mu pomažu da nanese više štete udarom."
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/title"
+msgstr "Konfiguracija za sudaranje"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/description"
+msgstr "Top ovog vozila može da puca ranije: pucnji jednog punjenja, ispaljeni tokom ponovnog punjenja imaju smanjenu efikasnost, dok regularni pucnji sa punim punjenjem nakon završenog punjenja imaju optimalne balističke parametre."
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/title"
+msgstr "Sistem punjenja sa višestrukim pakovanjem"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/description"
+msgstr "Mirovanje ili kretanje ispod određene brzine generiše predgrevanje, koje povećava prosečnu štetu i preciznost sledećeg pogotka.\nPrelazak limita polako smanjuje bonus, dok pucanje ili menjanje granata instant resetuje bonus."
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/title"
+msgstr "Sistem termičke kontrole pogonskog goriva"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/description"
+msgstr "Na maksimalnom nivou predgrevanja, penetracija neprijateljskog oklopa sa manje poena zdravlja od tvoje prosečne štete - uključujući akumulirani bonus predgrevanja - odmah izaziva eksploziju police municije, što instant uništava vozilo."
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/title"
+msgstr "Odlučujuća šteta"
+
+msgid "detailsHelp/mechanics/powerMode/page1/description"
+msgstr "Režim direktni pogon pruža značajno povećanje snage motora i maksimalne brzine kretanja napred. Što duže voziš napred, veća je skupljena brzina, što ti omogućava da se krećeš preko bojnog polja sa lakoćom."
+
+msgid "detailsHelp/mechanics/powerMode/page1/title"
+msgstr "Direktna pogon"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/description"
+msgstr "Tokom vremena, sistem automatski akumulira punjenje, koje se delimično troši da pojača štetu tokom pucanja. Što je veće punjenje, to je veća bonus šteta."
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/title"
+msgstr "Dodatno sagorevanje indukcionog punjenja"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/description"
+msgstr "Po početnim uslovima, sistem čuva punjenje do određene granice. Isključivanje graničnika dozvoljava sakupljanje još veće količine punjenja, što daje mnogo veći bonus šteti ali smanjuje ponašanje topa. Da uključiš ili ugasiš graničnik, pritisni:"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/title"
+msgstr "Graničnik"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/description"
+msgstr "Busteri tečnog goriva dozvoljavaju juriš snage motora, koji dozvoljava brzo kretanje bojnim poljem - ali uz ograničenje brzine nazad i brzine okretanja. Mogu se uključiti i isključiti bilo kada, osim na kritičnom nivou toplote.\nZa pojačanje pritisni:"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/title"
+msgstr "Busteri tečnog goriva"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/description"
+msgstr "Busteri se pregrevaju dok su aktivni dok ne dostignu kritičan limit toplote, kada postaju nedostupni za reaktivaciju dok se ne ohlade. Planiraj svoje pokrete pažljivo kako te ne bi uhvatili iznenada."
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/title"
+msgstr "Kritičan nivo toplote"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/description"
+msgstr "Upotreba mlaznih bustera povećava pokretljivost vozila. Dozvoljava ti da zauzmeš pozicije koje daju prednost ili da pređeš opasna područja brže. Mlazni busteri mogu biti aktivirani na određeno vreme i ograničen broj puta po borbi. Ne mogu biti deaktivirani ili uništeni."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/title"
+msgstr "Mlazni busteri"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/description"
+msgstr "Nakon aktiviranja mlazni busteri povećavaju snagu motora i maksimalnu brzinu napred. Međutim, vozilo postaje manje upravljivo i gubi brzinu unazad."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
+msgstr "Prednosti i mane"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
+msgstr "Potisnici na čvrsto gorivo koji povećavaju ubrzanje, pokretljivost i upralvjivost tokom nekoliko sekundi. Levi i desni potisnici mogu da rade nezavisno jedan od drugoga za brže okretanje trupa i ne smanjuju sposobnost hoda unazad."
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/title"
+msgstr "Sekvencijalni raketni potisnici"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/description"
+msgstr "Ovo vozilo ima dva režima - Turbo i Sukob - koji se mogu menjati bilo kada. Taktično pakovanje snage akumulira energiju za aktivan režim.\nDa se prebaciš između režima, pritisni:"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/title"
+msgstr "Dva režima"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/description"
+msgstr "Kada je Taktično pakovanje snage napunjeno, sposobnost režima postaje dostupna. Aktiviranje ove sposobnosti troši svu akumuliranu energiju i pruža snažne bonuse na kratko vreme.\nDa aktiviraš jedinstvenu sposobnost režima, pritisni:"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/title"
+msgstr "Sposobnosti režima"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/description"
+msgstr "Modul \"Eksterna dopuna municije\" ti dozvoljava da prekineš punjenje i pucaš u bilo kom momentu, sve dok imaš još uvek jednu granatu napunjenu. Da prekineš ili nastaviš proces punjenja, pritisni taster:"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/title"
+msgstr "Modul za eksternu dopunu municije"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/description"
+msgstr "Tokom punjenja modul zaključava kupolu i eksterna spremišta sa municijom, prvremeno te sprečavajući da nišaniš ili pucaš ukoliko ga ne prekineš."
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/title"
+msgstr "Modul za eksternu dopunu municije"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/description"
+msgstr "Ovo vozilo je opremljeno kompletom pomoćnog oružja čiji ciklus punjenja je odvojen od glavnog topa, što ti dozvoljava da naneseš dodatnu štetu u ključnim momentima. Da aktiviraš pomoćno oružije, pritisni taster:"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/title"
+msgstr "Pomoćno oružje"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/description"
+msgstr "Laserski nišan dodaje specijalan efekat sledećem pogotku, primenjuje se na sve protivnike koje pogodiš. Efekat varira da li je neprijatelj uočen u trenutku udara.\nDa aktiviraš laserski nišan, pritisni:"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/title"
+msgstr "Laserski nišan"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/description"
+msgstr "Pogađanje uočenog neprijateljskog vozila će ga obeležiti, produžavajući vreme koje ostaje uočeno i povećavajući štetu koju dobija od granata.\nPogađanje neprimećenog neprijateljskog vozila će istaknuti njegovu lokaciju posebnim markerom."
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/title"
+msgstr "Označena meta"
+
+msgid "detailsHelp/mechanics/twinGun/page1/description"
+msgstr "Možeš da promeniš režim vatre od pojedinačnog režima u salva režim u zavisnosti od taktičke situacije na bojištu."
+
+msgid "detailsHelp/mechanics/twinGun/page1/title"
+msgstr "Mehanika promene režima vatre"
+
+msgid "detailsHelp/mechanics/twinGun/page2/description"
+msgstr "Salva režim vatre duplira štetu i vreme punjenja, i tvoje vozilo dobija na rasipanju hica na 100 m*."
+
+msgid "detailsHelp/mechanics/twinGun/page2/title"
+msgstr "Prednosti i mane"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/description"
+msgstr "Ova mehanička izmena značajno povećava ubrzanje vozila u napred i u nazad, snagu motora i maksimalnu brzinu u napred i u nazad na kratko vreme. Održavanje visoke brzine kretanja ubrzava njegovo ponovno punjenje."
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/title"
+msgstr "Pomoć turbo punjača visokog pritiska"
+
+msgid "detailsHelp/noKeysWarning"
+msgstr "Osnovni tasnteri nisu dodeljeni. Dodeli ih u podešavanjima."
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1"
+msgstr "U ovom režimu, preciznost topa, brzina punjenja i uglovi elevacije/depresije su drastično povećani, ali mobilnost (brzina napred/nazad i vertikalna/horizontalna brzina okretanja) su umnogome ograničeni. Da aktiviraš ovaj režim, %(pressAndHold)s taster:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/pressAndHold"
+msgstr "pritisni i drži"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/title"
+msgstr "Režim bunkera"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2"
+msgstr "U ovom režimu, preciznost, vreme nišanjenja i uglovi elevacije/depresije su povećani, ali mobilnost (brzina napred i nazad) je smanjena. Da aktiviraš ovaj režim, pritisni taster:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2/title"
+msgstr "Opsadni režim"
+
+msgid "detailsHelp/role/description"
+msgstr "Dobij bonus na iskustvo obavljajući akcije uloge:"
+
+msgid "detailsHelp/role/title"
+msgstr "Uloga vozila u borbi"
+
+msgid "detailsHelp/trackWithinTrack/description"
+msgstr "Dozvoljava delimično održanje pokretljivosti kada je glavna gusenica uništena."
+
+msgid "detailsHelp/trackWithinTrack/title"
+msgstr "Rezervna gusenica"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique"
+msgstr "Francuska vozila sa točkovima imaju najveću brzinu i dinamiku ali imaju veoma prosečan vidokrug. Stacionarno vozilo sa točkovima ne može da se okreće."
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique/title"
+msgstr "Ukupno"
+
+msgid "detailsHelp/wheeledVeh/burnout"
+msgstr "Pritisni i drži %(key2)s i %(key1)s istovremeno. Nivo na skali snage određuje jačinu pojačanja. Otpusti %(key1)s taster da bi aktivirao pojačanje ili otpusti taster%(key2)s da otkažeš pojačanje. Pojačanje obezbeđuje brže ubrzanje koje može da se koristi za iznenadne napade i trik manevre. Pažnja! Pojačanje može da se koristi samo nakon što se vozilo kompletno zaustavilo. Aktiviranje pojačanja oštećuje motor tvog vozila."
+
+msgid "detailsHelp/wheeledVeh/burnout/title"
+msgstr "Pojačanje"
+
+msgid "detailsHelp/wheeledVeh/stableChassis"
+msgstr "Vozila sa točkovima trpe manju štetu kada slete na točkove. Vozilo sa točkovima ne staje kada je jedan od točkova uništen. Kako se gubi više točkova brzina i upravljivost vozila se smanjuju. Vozila sa točkovima su teška za zaustavljanje - uništeni točkovi se potpuno popravljaj nakon nekog vremena."
+
+msgid "detailsHelp/wheeledVeh/stableChassis/title"
+msgstr "Izdržljivo vešanje"
+
+msgid "detailsHelp/wheeledVeh/twoModes"
+msgstr "Pritisni %(key1)s za promenu režima. Vozila imaju različitu brzinu, dinamiku i upravljanje u svakom režimu."
+
+msgid "detailsHelp/wheeledVeh/twoModes/title"
+msgstr "Dva režima kretanja"
+
+msgid "markerColors/enemy"
+msgstr "Neprijateljski igrač"
+
+msgid "markerColors/friend"
+msgstr "Prijateljski igrač"
+
+msgid "markerColors/squadPlayer"
+msgstr "Igrač iz tvog voda"
+
+msgid "markerColors/teamKiller"
+msgstr "Igrač koji je uništio saigrača"
+
+msgid "markerColors/title"
+msgstr "Boje markera:"
+
+msgid "markerMarks/attack"
+msgstr "Napadam"
+
+msgid "markerMarks/follow"
+msgstr "Zamnom!"
+
+msgid "markerMarks/help"
+msgstr "Upomoć!"
+
+msgid "markerMarks/target/sau"
+msgstr "Meta Artiljerije"
+
+msgid "markerMarks/target/tank"
+msgstr "Meta vozila"
+
+msgid "markerMarks/title"
+msgstr "Prečice na mini mapi:"
+
+msgid "radialMenu/ally_hq_defend_command"
+msgstr "Odbrani!"
+
+msgid "radialMenu/ally_hq_defend_commit"
+msgstr "Branim!"
+
+msgid "radialMenu/attackAreaSPG"
+msgstr "Nišanim ovde!"
+
+msgid "radialMenu/attack_enemy"
+msgstr "Treba mi pomoć!"
+
+msgid "radialMenu/attack_enemy_with_SPG"
+msgstr "Napadam metu!"
+
+msgid "radialMenu/attacking_base"
+msgstr "Zauzimam!"
+
+msgid "radialMenu/attacking_enemy"
+msgstr "Napadam metu!"
+
+msgid "radialMenu/attention_to_base_atk"
+msgstr "Zauzmi!"
+
+msgid "radialMenu/attention_to_base_def"
+msgstr "Odbrani!"
+
+msgid "radialMenu/attention_to_position"
+msgstr "Pažnja na lokaciju!"
+
+msgid "radialMenu/cancel_reply"
+msgstr "Odbij"
+
+msgid "radialMenu/defending_base"
+msgstr "Braniću!"
+
+msgid "radialMenu/enemy_hq_attack_command"
+msgstr "U Napad!"
+
+msgid "radialMenu/enemy_hq_attack_commit"
+msgstr "Napadam!"
+
+msgid "radialMenu/going_there"
+msgstr "Vozim na lokaciju!"
+
+msgid "radialMenu/helpMe"
+msgstr "Upomoć!"
+
+msgid "radialMenu/helpMeEx"
+msgstr "Treba mi pomoć!"
+
+msgid "radialMenu/overheated_gun"
+msgstr "Pregrejano!"
+
+msgid "radialMenu/positive"
+msgstr "Razumem!"
+
+msgid "radialMenu/reloadingGun"
+msgstr "Punim!"
+
+msgid "radialMenu/reply_to_player"
+msgstr "Potvrdjujem!"
+
+msgid "radialMenu/supporting_ally"
+msgstr "Pomoći ću ti!"
+
+msgid "radialMenu/thanks"
+msgstr "Hvala!"
+
+msgid "radialMenu/turn_back"
+msgstr "Povlačenje!"
+
+msgid "returnToGame"
+msgstr "Esc—Nazad u Igru"
+
+msgid "roleDescription/msg"
+msgstr "Dobij bonus na iskustvo obavljajući akcije uloge:"
+
+msgid "settings/button"
+msgstr "Podešavanja"
+
+msgid "settings/help"
+msgstr "Za pregled i promenu kontrola, kliknite Podešavanja"
+
+msgid "teamComm/highlightAsActiveTarget"
+msgstr "Označi aktivnu metu"
+
+msgid "teamComm/highlightLocation"
+msgstr "Označi poziciju"
+
+msgid "teamComm/show"
+msgstr "Komandni Meni"
+
+msgid "teamComm/show/ext"
+msgstr "(spisak komandi zavisi od mete)"
+
+msgid "teamComm/title"
+msgstr "Komunikacija tima"
+
+msgid "vehicleTypes/title"
+msgstr "Markeri tipa vozila"

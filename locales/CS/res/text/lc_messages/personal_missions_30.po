@@ -1,0 +1,677 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "campaignSelector/completedAll/subtitle"
+msgstr "Všechny kampaně byly dokončeny s vyznamenáním"
+
+msgid "campaignSelector/completedAll/title"
+msgstr "Blahopřejeme!"
+
+msgid "campaignSelector/locked"
+msgstr "Osobní mise lze splnit s vozidly VI. nebo vyšší úrovně"
+
+msgid "campaignSelector/operation/tooltip/locked"
+msgstr "Operace je dočasně nedostupná"
+
+msgid "campaignSelector/status/button/activate"
+msgstr "Aktivovat kampaň"
+
+msgid "campaignSelector/status/button/switchCampaign"
+msgstr "Pokračovat v kampani"
+
+msgid "campaignSelector/status/button/switchCampaigns"
+msgstr "Pokračovat v kampaních"
+
+msgid "campaignSelector/status/button/tooltip"
+msgstr "Počkejte, až vozidlo opustí bitvu. Když je vozidlo v bitvě, nemůžete změnit kampaně nebo operace."
+
+msgid "campaignSelector/status/completed/firstTwo"
+msgstr "Kampaně „{{firstCampaign}}“ a „{{secondCampaign}}“ byly dokončeny s vyznamenáním!"
+
+msgid "campaignSelector/status/completed/third"
+msgstr "Kampaň „{{thirdCampaign}}“ byla dokončena s vyznamenáním!"
+
+msgid "campaignSelector/status/text/activate"
+msgstr "Je dostupná nová kampaň „{{thirdCampaign}}“!"
+
+msgid "campaignSelector/status/text/switchCampaign"
+msgstr "Kampaň „{{thirdCampaign}}“ je pozastavena {{icon}}"
+
+msgid "campaignSelector/status/text/switchCampaigns"
+msgstr "Kampaně „{{firstCampaign}}“ a „{{secondCampaign}}“ jsou pozastaveny {{icon}}"
+
+msgid "campaignSelector/status/tooltip/firstTwo"
+msgstr "Po obnovení kampaní „Dlouho očekávaná podpora“ a „Druhá fronta“ bude kampaň „Sektor 3“ pozastavena. Veškerý postup v pozastavené kampani bude uložen a můžete ho kdykoli obnovit."
+
+msgid "campaignSelector/status/tooltip/third"
+msgstr "Po obnovení kampaně „Sektor 3“ budou kampaně „Dlouho očekávaná podpora“ a „Druhá fronta“ pozastaveny. Veškerý postup v pozastavených kampaních bude uložen a budete je moci kdykoli obnovit."
+
+msgid "campaignSelector/status/tooltip/title"
+msgstr "Obnovení kampaně"
+
+msgid "common/category/assault"
+msgstr "Předvoj"
+
+msgid "common/category/sniper"
+msgstr "Léčka"
+
+msgid "common/category/support"
+msgstr "Pomoc"
+
+msgid "common/role/assault"
+msgstr "Útočný"
+
+msgid "common/role/breakthrough"
+msgstr "Průlomový"
+
+msgid "common/role/sniper"
+msgstr "Odstřelovací"
+
+msgid "common/role/support"
+msgstr "Podpůrný"
+
+msgid "common/role/universal"
+msgstr "Všestranný"
+
+msgid "conditions/requiredVehicle/bottomLabel"
+msgstr "Splňte podmínky v %(count)s různých vozidel"
+
+msgid "detail/descr/historical/s3_t10_vehElement_1"
+msgstr "James Corvin, první záznam. Dnes jsme zahájili montáž mého tanku Black Rock. Nainstalovali jsme věž. Svařili jsme kompozitní konstrukci z odlévaných prvků. Tento design se mi líbí. Je praktický.\n\nPokud jde o naše vyšetřování, důkladná prohlídka ostrova vyvrátila naši teorii. Pod námi se nenachází žádný přísně tajný Morettiho bunkr.\n\nMoretti postupoval metodicky a vytvořil celou síť falešných zařízení a padělaných dokumentů, aby nás zmátl.\n\nZtratili jsme příliš mnoho času sledováním falešné stopy. Musíme přehodnotit náš přístup a jednat promyšleněji – a každý náš krok zakládat na pevných, ověřených faktech."
+
+msgid "detail/descr/historical/s3_t10_vehElement_10"
+msgstr "Dnes byly nainstalovány boční pláty. Trocha ochrany navíc není nikdy na škodu.\n\nMorettiho záznamy vrhají světlo na události v Morgenlichtu. Právě tam vědci náhodou objevili, že prototyp KRONOS má tendenci generovat neočekávané výsledky tím, že dělá pravděpodobnostní chyby. Tuto schopnost kontrolované chyby by bylo možné doladit a zdokonalit, aby podle potřeby generovala nekonvenční řešení.\n\nVše, co potřebovali k objevení skutečně průlomových vynálezů, bylo zvýšení výpočetního výkonu. Jednoduše tím, že zvětšili velikost stroje. Exponenciálně."
+
+msgid "detail/descr/historical/s3_t10_vehElement_11"
+msgstr "Dnes jsme tank natřeli černou barvou. Tmavá kamufláž nám poskytne další psychologickou výhodu nad nepřítelem a zvýší účinnost při nočních operacích.\n\nV našem vyšetřování se vše vyjasnilo: KRONOS je kolosální výpočetní systém schopný „kreativních mutací“. A je skutečně zdrojem všech těch nemožných technologií, které jsme našli v tajných bunkrech a které Architekt distribuuje přes satelit. Neuvěřitelné.\n\nMorettiho poznámky ukazují, že zpočátku své dílo obdivoval a věřil, že vytvořil nástroj schopný „navrhnout budoucnost lidstva“. Ale pak to začíná být zajímavější."
+
+msgid "detail/descr/historical/s3_t10_vehElement_12"
+msgstr "Dnes jsem nainstaloval vrhače dýmových granátů. Na první pohled nenápadná součást. Ale kouřové clony už vícekrát zachránily mé tanky před zničením.\n\nTón Morettiho poznámek se dramaticky mění. Vždy byl opatrný a nikomu příliš nedůvěřoval. Ale v určitém okamžiku se stává zcela paranoidním. Podezřívá nejen vědce, inženýry a zaměstnance, ale i samotný KRONOS. Doslova píše, že je přesvědčen, že stroj získal „sebeuvědomění“ a manipuluje s lidmi.\n\nČím dál čteme, tím více se Morettiho záznamy stávají paranoidními. Nyní čelíme nové záhadě: upadal Moretti sám postupně do šílenství, nebo skutečně vytvořil něco, co přesahovalo své naprogramované schopnosti?"
+
+msgid "detail/descr/historical/s3_t10_vehElement_13"
+msgstr "Nainstalovali jsme úsťovou brzdu, která výrazně sníží zpětný ráz. Tím je dělo hotové.\n\nV Morettiho posledním záznamu se zdá, že nad sebou zcela ztratil kontrolu. Píše, že stroj předstírá, že „všechno ví“. Výslovně vyzývá k jeho zničení, než bude příliš pozdě.\n\nAle po tomto záznamu už nic dalšího není. Nenašli jsme jediný důkaz o tom, co se s KRONOSem stalo dál. Byl ten stroj opravdu zničen, nebo stále funguje někde v zasněžených končinách Antarktidy? To by bylo děsivé, zejména s ohledem na jednání Architekta.\n\nCo když disponuje ještě vyvinutějšími zařízeními KRONOS, která jsou opět o deset let napřed ve srovnání s našimi schopnostmi?"
+
+msgid "detail/descr/historical/s3_t10_vehElement_14"
+msgstr "Tank je nyní vybaven vším nezbytným. Brzy bude připraven.\n\nA právě včas. Nyní, když víme, co před námi Moretti skrýval a odkud Architekt získal všechny tyto technologie, nám zbývá naše hlavní mise – najít KRONOS.\n\nUž připravujeme vojenskou pátrací operaci v Antarktidě. Ale proč mám pocit, že je to další z Morettiho podvodů? Existoval Moretti vůbec? Po všech těch jeho podvodech začnete zpochybňovat všechno a uvažovat i o těch nejabsurdnějších teoriích. Leni navrhla, že Architekt a Moretti by mohli být jedna a táž osoba. A Teddy je naprosto přesvědčen, že Architekt je ve skutečnosti samotný KRONOS.\n\nAť už je Architekt kdokoli, má před námi několik kroků náskok. Musíme najít KRONOS, abychom Architekta zastavili."
+
+msgid "detail/descr/historical/s3_t10_vehElement_15"
+msgstr "Jsou nainstalovány pásy. Black Rock je konečně hotový. Každá součástka je zkalibrována, každý systém otestován. Technický zázrak připravený čelit jakékoli výzvě.\n\nBěhem své kariéry jsem velel mnoha tankům, ale tento je něco zvláštního. Představuje vyvrcholení našich snah, obnovených technologií a našeho odhodlání čelit hrozbě, kterou představuje Architekt.\n\nAť už má v plánu cokoli, ať už nás v Antarktidě nebo jinde čekají jakákoli tajemství, tento stroj zvyšuje naše šance na úspěch.\n\nHistorie nás učí, že příprava je rozhodujícím faktorem mezi vítězstvím a porážkou. Jsem přesvědčen, že to bude platit i v nadcházející bitvě."
+
+msgid "detail/descr/historical/s3_t10_vehElement_2"
+msgstr "Dnes jsme nainstalovali součásti odpružení. Nic neobvyklého. Ale design je spolehlivý, otestovaný v boji.\n\nStále prověřujeme nákladní listy, ve kterých se objevují Morettiho pseudonymy. Díky trasám transportních lodí a údajům ze satelitu Architekta jsme lokalizovali několik desítek tajných zařízení.\n\nV nich jsme našli nové plány a záznamy vytvořené v rámci projektu KRONOS. To nám však nijak nepomáhá pochopit, jak se německým vědcům podařilo vyvinout všechny tyto návrhy, ani najít hlavní bunkr KRONOSu, kde se stavělo něco opravdu velkolepého a nebezpečného."
+
+msgid "detail/descr/historical/s3_t10_vehElement_3"
+msgstr "Dnes jsme nainstalovali pojezdová kola. Systém podvozku je téměř hotový. Tato část je jednoduchá.\n\nNaše vyšetřování však zůstává náročné. Co nám uniká? Kde v Evropě by mohl být ukryt tajný bunkr takového rozsahu, že se nám ho dosud nepodařilo najít?\n\nTeddy naznačuje, že zařízení by mohlo být pod vodou. Poznamenal, že data odplutí ponorek se často shodovala s jízdními řády transportních lodí. Zajímavá pozorování, ale výstavba podvodní základny ve 40. letech 20. století by byla nad možnosti i Morettiho.\n\nTeddy navrhl jinou teorii – že tajná základna by mohla být na Měsíci. Tuto teorii jsme okamžitě zamítli. Architektovi se teprve nedávno podařilo vypustit satelit. Ve 40. letech 20. století byly vesmírné lety pouhou fantazií."
+
+msgid "detail/descr/historical/s3_t10_vehElement_4"
+msgstr "Nainstalováno pozorovací zařízení pro velitele. Otočný periskop poskytuje kompletní 360stupňový výhled. Mohu sledovat bojiště, aniž bych musel být přímo ve věži – to zní slibně.\n\nZjistili jsme neobvyklé vzorce činnosti u flotily malých nákladních lodí. Opouštěly přístav a o několik hodin později se vracely prázdné. Podle lodních deníků vždy směřovaly ke stejným souřadnicím na otevřeném moři.\n\nMohla by to být opravdu podvodní základna?\n\nLeni sdílí můj skepticismus ohledně této teorie. Přesun kontejnerů na ponorky však považuje za pravděpodobnější. Musíme zjistit, kam ponorky z tohoto sektoru směřovaly."
+
+msgid "detail/descr/historical/s3_t10_vehElement_5"
+msgstr "Dnes bylo nainstalováno pozorovací vybavení pro posádku. Jeho jádrem je televizní pozorovací systém – další technologie KRONOSu, která je o desítky let napřed ve srovnání se svou dobou.\n\nZpravodajské archivy naznačují zvýšenou aktivitu ponorek v jižním Atlantiku poblíž argentinského pobřeží, s podezřelými vzory pohybu směrem k Antarktidě. Nedávno dešifrované dokumenty tuto teorii potvrzují.\n\nAntarktida se jeví jako konečná destinace těchto zásilek. Nejodlehlejší místo na Zemi by skutečně bylo ideálním místem pro ukrytí něčeho takového rozsahu. Nyní už jen musíme zjistit, co přesně chtěl Moretti v ledu skrýt."
+
+msgid "detail/descr/historical/s3_t10_vehElement_6"
+msgstr "Nainstalována dvojice těžkých kulometů Browning M2HB. Systém dálkového ovládání nám umožňuje zasáhnout cíle, aniž by byla posádka vystavena palbě – což je taktická výhoda, kterou velmi oceňuji.\n\nMysleli jsme si, že se blížíme k odhalení pravdy o tom, co Moretti stavěl, ale v nedávno dešifrovaných archivech KRONOSu jsme objevili nesrovnalosti ve schématech této gigantické Wunderwaffe. Plány obsahují úmyslné chyby, které by znemožnily fungování jakéhokoli sestaveného zařízení.\n\nSakra! Další z Morettiho padělků.\n\nCo přesně skrýval za tak propracovanou dezinformací? Co by mohlo být tajnější než Wunderwaffe?"
+
+msgid "detail/descr/historical/s3_t10_vehElement_7"
+msgstr "Hlavní dělo konečně nainstalováno. Velmi neobvyklý exemplář speciální ráže s ejektorem, který zajistí vysokou přesnost a rychlost palby. Přesně to, co potřebuji.\n\nPo analýze a oddělení autentických plánů od padělků jsme učinili průlomový objev: „zázračná zbraň“, kterou jsme hledali, není vůbec zbraní, ale výpočetním centrem neuvěřitelných rozměrů.\n\nMusím uznat Morettiho genialitu při vytváření tak propracované kouřové clony falešných projektů a tajných základen. Bez dat ze satelitu Architekta bychom byli od tohoto odhalení ještě daleko."
+
+msgid "detail/descr/historical/s3_t10_vehElement_8"
+msgstr "Dnes jsme namontovali blatníky a kryty. Nic zvláštního, ale je to další krok k dokončení tanku.\n\nNaše vyšetřování však přineslo něco zvláštního. Objevili jsme Morettiho osobní záznamy. Píše v nich o vytvoření mechanicko-elektronického systému, který je schopen nejen počítat, ale také „předpovídat“ nové nápady.\n\nZdá se, že toto je skutečný KRONOS – pravý zdroj všech těchto neuvěřitelných technologií. Stroj, který dokázal navrhovat jiné stroje.\n\nAle jak je to možné? Nebo je to jen další z Morettiho propracovaných podvodů – možná s cílem odvést pozornost zpravodajských služeb od skutečné funkční „zázračné zbraně“?"
+
+msgid "detail/descr/historical/s3_t10_vehElement_9"
+msgstr "Připojené infračervené reflektory připojeny. Tato zařízení umožňují bojové operace v nočních podmínkách. Podle dnešních standardů nezbytné minimum.\n\nStále ještě dešifrujeme Morettiho záznamy. Píše, že jeho stroj byl původně koncipován jako obrovský inženýrský nástroj, ale kvůli četným konstrukčním vadám začal „halucinovat“ a generovat odpovědi, teorie a koncepty, které předtím neexistovaly. Většina těchto výstupů byla nesmyslná, ale mezi tím chaosem se objevily i skutečné inovace.\n\n„Chyby vedou k novým objevům. Dokonalost postrádá tvůrčí jiskru. Vše se řídí přírodními zákony. Dokonce i stroje.“ Hmm..."
+
+msgid "detail/descr/historical/s3_t8_vehElement_1"
+msgstr "Hlasí se Nebel, záznam číslo jedna. Dnes byla zahájena stavba mého vozidla Windhund.\n\nNainstalovala jsem dodatečné vrstvené pancéřování. Jedná se o cennou součást. Takové pancéřování je účinné proti kumulativním granátům.\n\nDnes také začalo naše vyšetřování. Dokumenty označené jako „KRONOS“ obsahují technologie, které jsou o desítky let před našimi současnými schopnostmi. Návrhy ze 40. let, které by prostě neměly existovat. Některé se shodují s daty přenášenými satelitem Architekta.\n\nZatím jsme našli pouze jednu stopu: odkazy na „Schloss Morgenlicht“. Hrad Ranní světlo. Musíme toto místo najít a zjistit, k jakým aktivitám tam docházelo."
+
+msgid "detail/descr/historical/s3_t8_vehElement_10"
+msgstr "Mobilní taktický pozemní pulzní Dopplerův radar. Impozantní technologie. Dokáže identifikovat velikost a vzdálenost cíle. Zkušený operátor, jako jsem já, samozřejmě dokáže rozlišit osoby, zvířata a vozidla na značné vzdálenosti. Je mnohem kompaktnější než cokoli, co máme dnes k dispozici.\n\nA to vše díky schématu radaru z roku 1944, který jsme našli v archivu KRONOS. Tato technologie není pokroková jen na svou dobu, ale předbíhá dokonce i naši současnost.\n\nKdybych ji měla tehdy v rukou, změnila bych běh dějin..."
+
+msgid "detail/descr/historical/s3_t8_vehElement_11"
+msgstr "Standardní osvětlení tanku, zpětná zrcátka a komunikační antény. Nic pozoruhodného – jen základní výbava každého moderního bojového vozidla.\n\nPozoruhodné však je to, co jsme se dozvěděli o polovině roku 1944. V Morgenlichtu se tehdy něco dramaticky změnilo: začaly přijíždět nákladní vozy i za denního světla a další křídlo kliniky bylo zcela předáno do rukou Morantimu.\n\nNačasování se přesně shoduje s obdobím, kdy se Říše zoufale snažila vyvinout svou „Wunderwaffe“. Hmm..."
+
+msgid "detail/descr/historical/s3_t8_vehElement_12"
+msgstr "Dnes byly nainstalovány vrhače kouřových granátů. Účinné pro rychlé nasazení maskovacích kouřových clon na krátkou vzdálenost.\n\nNáš Moranti vytvořil vlastní maskovací clonu, kterou se stále snažíme rozptýlit.\n\nV dokumentech z tohoto období jsme našli zmínky o tom, že jeho experiment „Geistesfessel“ („Pouta mysli“) byl úspěšný a připravený k rozšíření.\n\nBěhá mi mráz po zádech, když si představím, co musel těm vědcům udělat, aby získal všechny tyhle technologie."
+
+msgid "detail/descr/historical/s3_t8_vehElement_13"
+msgstr "Vybavili jsme tank nezbytným nářadím pro budování zákopů. Můžete mít sebemodernější radarový systém, ale někdy se z potíží dostanete jen s rukama od hlíny.\n\nV jednom z tajných bunkrů jsme objevili fragmenty morgenlichtské lékařské dokumentace. Obsahovala seznam znepokojivých názvů procedur: „Sběr myšlenek“, „Mlžná komora“, „Lapač snů“, „Most mysli“, „Mechanická paměť“, „Stínový archiv“.\n\nSkládačka do sebe pomalu zapadá. Cítím, že se blížíme k pravdě – a brzy najdeme chybějící kousky."
+
+msgid "detail/descr/historical/s3_t8_vehElement_14"
+msgstr "Vozidlo je téměř hotové. Dnes jsem sehnala své oblíbené maskovací sítě. Maskovací techniky jsou moje specialita – umím se ukrýt i najít ty, co se snaží zmizet.\n\nAle vypátrat Morantiho se ukázalo být mnohem obtížnější. V určitém okamžiku náhle zmizel ze všech dokumentů, jako by byl odstraněn jako nepotřebný svědek. Ale experimenty v Morgenlichtu pokračovaly i bez něj.\n\nCo se skutečně stalo? Další zinscenované zmizení? Nebo Moranti překročil nějakou hranici? Co mohl udělat, co by bylo nepřijatelné i pro Třetí říši?"
+
+msgid "detail/descr/historical/s3_t8_vehElement_15"
+msgstr "Windhund je připraven. Byla dokončena závěrečná kontrola systémů.\n\nToto není jen další bojové vozidlo. Je to dravec stvořený k lovu – nenápadný, smrtící na velké vzdálenosti a schopný splynout s nocí.\n\nLov konečně začíná.\n\nNyní se naše vyšetřování výrazně zrychlí. Některá tajemství lze odhalit pouze prací v terénu."
+
+msgid "detail/descr/historical/s3_t8_vehElement_2"
+msgstr "Dnes byly nainstalovány poklopy. Praktické umístění pro rychlý vstup a výstup. Praktické, efektivní. Přesně to, co potřebuji.\n\nNašla jsem další informace o Schloss Morgenlicht. Jedná se o zdravotnické zařízení s tajným křídlem, které se nachází v zámku.\n\nZáznamy zmiňují vedoucího zařízení – „doktora Morantiho“.\n\nZdravotnická instituce s tajným oddělením? Něco tu nesedí. Musíme zjistit, jak to souvisí s projektem KRONOS a zašifrovanými plány."
+
+msgid "detail/descr/historical/s3_t8_vehElement_3"
+msgstr "První část podvozku je nainstalována. Další krok k dokončení tanku Windhund.\n\nPři studiu archivů jsme objevili znepokojivý vzorec. V roce 1943 byli významní němečtí vědci a inženýři systematicky prohlašováni za „duševně choré“ a mizeli v klinice Morgenlicht.\n\nPříliš organizované na to, aby to byla náhoda. Nejednalo se o náhodné výskyty duševních nemocí. Jednalo se o záměrné shromažďování intelektuálních zdrojů.\n\nOtázka zní: co přesně s těmito zdroji dělali?"
+
+msgid "detail/descr/historical/s3_t8_vehElement_4"
+msgstr "Kola namontována. Čtyři na každé straně. Přední pár má místo gumových ráfků kovové. Standardní guma by se při takovém rozložení hmotnosti příliš rychle opotřebovala.\n\nNašla jsem bývalého zřízence z Morgenlichtu. Jeho výpověď je velmi zajímavá. Do uzavřeného křídla pravidelně přijížděly vojenské nákladní vozy s ozbrojenou stráží. Přivážely lidi s diagnózou „maniodepresivní psychóza“.\n\n Takže drželi vědce a inženýry pod zámkem. A pod tlakem tito vězni vynalézali nové technologie? O tom byl projekt KRONOS?"
+
+msgid "detail/descr/historical/s3_t8_vehElement_5"
+msgstr "Dnes byly na boky namontovány prachové clony. Ty zvýší výdrž vozidla během dlouhých misí. Rozhodně vítané vylepšení.\n\nV získaných dokumentech z Morgenlichtu jsem našla zajímavé informace. Inženýr, který byl v roce 1943 oficiálně prohlášen za „padlého v boji“, se o tři týdny později objevuje v přijímacích záznamech kliniky.\n\nAle šlo opravdu o nucené zadržování? Některé důkazy naznačují, že někteří odborníci tam odešli dobrovolně a souhlasili se zinscenovanou smrtí, aby pod Morantiho ochranou mohli pokračovat v práci. Chytrý trik, jak skrýt svůj výzkum před spojeneckou rozvědkou.\n\nKdo tedy jste, doktore Moranti? A jak to, že o vás stále nic nevím?"
+
+msgid "detail/descr/historical/s3_t8_vehElement_6"
+msgstr "Na hlavní dělo jsme nainstalovali úsťovou brzdu. Výrazně snižuje zpětný ráz. Přesně to jsem potřebovala.\n\nNašla jsem deník zdravotní sestry z Morgenlichtu. Popisuje „doktora Morantiho“, který s absolutní autoritou velel strážcům i pacientům. Tento lékař se však neobjevuje v žádném německém lékařském registru ani ve vojenském archivu. Skutečný fantom.\n\nTo jen potvrzuje mé podezření – žádný doktor Moranti neexistoval, byl to jen pseudonym vytvořený speciálně pro projekt KRONOS. Někdo raději tahal za nitky ze zákulisí."
+
+msgid "detail/descr/historical/s3_t8_vehElement_7"
+msgstr "Nanesena základní kamufláž. Černá. Musím přiznat, že tahle černá barva je důvod, proč jsem se přidala k Sektoru 3. To a možnost dopadnout pár dalších válečných zločinců. A postavit si bojové vozidlo svých snů. No dobře, bylo to z několika důvodů.\n\nDokumenty, které jsme objevili, ukazují, že pacienti v Morgenlichtu vytvářeli revoluční návrhy, zatímco byli podrobováni „speciálním procedurám“.\n\nNebylo vysvětleno, co tyto procedury obnášely, ale zprávy zaznamenávají „zvýšení produktivity“ po každém sezení. Ať už těm vědcům dělali cokoli, bylo to systematické a přinášelo očekávané výsledky. Další záhada, kterou musíme vyřešit."
+
+msgid "detail/descr/historical/s3_t8_vehElement_8"
+msgstr "Dnes byla nainstalována televizní kamera pro nízkou úroveň osvětlení. Pozoruhodná technologie. Dokáže odhalovat cíle v téměř úplné tmě. Rozlišení převyšuje vše, s čím jsem dosud pracovala.\n\nNa základě schémat optického sledovacího systému z projektu KRONOS se nám podařilo vyrobit prototyp. Návrhy byly pravděpodobně vytvořeny na základě nápadů pacientů. Ani nechci pomyslet na to, jakými metodami z nich Moranti tyto koncepty vytáhl.\n\nDoufám, že je ještě naživu, abychom ho mohli najít. Spravedlnost je neúnavná."
+
+msgid "detail/descr/historical/s3_t8_vehElement_9"
+msgstr "Infračervený reflektor. Osvědčená technologie. Už jsem je použila. Výrazně zlepšují zaměřování cíle ve tmě. A práce ve tmě mě baví nejvíc.\n\nObjevili jsme důkazy o tom, že na začátku roku 1944 bylo z Morgenlichtu odvezeno vybavení. Dokumenty zmiňují „speciální bedny“ přepravované pod dohledem ozbrojené stráže.\n\nTo znamená, že klinika nebyla jen místem pro „získávání vědeckých poznatků“. Vytvářeli tam také prototypy zařízení. Vypadá to, že Moranti skrýval pokročilou konstrukční kancelář všem na očích."
+
+msgid "detail/descr/historical/s3_t9_vehElement_1"
+msgstr "První záznam, hlásí se Miroslav Kotva, ale všichni mi říkají Teddy. Konečně jsem začal se stavbou svého tanku – Dravce! Dnes jsme namontovali věž. Svařovaná konstrukce, válcovaný pancíř. Je to krása!\n\nProces běží na plné obrátky a brzy budu mít nového ocelového kamaráda.\n\nNaše vyšetřování však zřejmě uvízlo ve slepé uličce.\n\nO klinice Morgenlicht jsme se dozvěděli spoustu věcí. Skoro jsme tomu přišli na kloub. A pak jsme najednou zjistili, že v polovině roku 1944 tam vypukl požár. Všichni, kdo znali pravdu – pacienti, stráže, personál – jsou oficiálně vedeni jako nezvěstní.\n\nSmrdí to jako rybí trh v plamenech. Ha! To není můj nejlepší vtip."
+
+msgid "detail/descr/historical/s3_t9_vehElement_10"
+msgstr "Dnes jsme konečně začali nanášet kamufláž na tank. Čistě černá – elegantní a zastrašující, přesně tak, jak to mám rád. Někteří říkají, že černá barva z vás dělá viditelnější cíl, ale oni nechápou psychologický efekt. Když nepřítel uvidí z mlhy se vynořující temně černý tank, ztuhne.\n\nLeni a naši inženýři jsou stále více přesvědčeni, že KRONOS je nějaká elektromagnetická zbraň. Našli jsme plány obrovských rádiových trubic, výkonných generátorů a složitých chladicích systémů.\n\nJe tu jen jedna věc, kterou nechápu – pokud je to tak silné elektromagnetické dělo, proč mu dali tak nudný název? „KRONOS.“ Něco mi tu nesedí."
+
+msgid "detail/descr/historical/s3_t9_vehElement_11"
+msgstr "Dnes dostal Dravec svůj systém 902 Tucha. Perfektní doplněk k mému černému predátorovi! Teď můžu zmizet v oblaku kouře během několika vteřin. Jak říkal můj dědeček: „Chytrý bojovník ví, kdy se ukázat a kdy zmizet“.\n\nVysledovali jsme dodávky vybavení KRONOS na pobřeží Severního moře, ale tam stopa končí.\n\nObrovské náklady, specializované vybavení, tuny materiálu – vše dodáno do pobřežních zařízení... a pak nic. Žádné záznamy o tom, kam se vše dostalo dál.\n\nTenhlecten Moretti opravdu nechtěl, aby ho někdo vystopoval."
+
+msgid "detail/descr/historical/s3_t9_vehElement_12"
+msgstr "Dnes jsme nainstalovali laserový dálkoměr. Je to úžasná technologie – s neuvěřitelnou přesností určuje vzdálenost k cíli. Můj Dravec dostává každý den nové hračky!\n\nKdyž už mluvíme o laserech – pro tento dálkoměr používáme technologii KRONOS. Naši technici však museli vše přepracovat. Původní plány byly nakresleny v podivném měřítku. Skoro jako by se mělo jednat o obrovský bojový laser.\n\nČím hlouběji se dostáváme, tím více otázek máme. Snažil se Moretti sestrojit nějaký druh smrtícího paprsku? Zní to jako něco z těch sci-fi knížek, které jsem četl jako kluk... ale když se podívám na schémata KRONOSu, jsem připraven uvěřit čemukoli."
+
+msgid "detail/descr/historical/s3_t9_vehElement_13"
+msgstr "Dnes jsme na dělo nainstalovali novou úsťovou brzdu. Je to mistrovské dílo! Výrazně snižuje zpětný ráz, díky čemuž je střelba mnohem pohodlnější.\n\nAle to není všechno. Nedávno jsme v jednom z dokumentů ke KRONOSu objevili popis obrovského bunkru vybudovaného v pobřežních útesech. Přesná poloha samozřejmě není uvedena – Moretti by nám takový dárek nedal – ale samotný rozsah je ohromující.\n\nPokud jsou rozměry přesné, je tam dost místa, aby se tam ukrylo něco opravdu obrovského. \n\nVsadím se, že právě tam Moretti budoval svou Wunderwaffe."
+
+msgid "detail/descr/historical/s3_t9_vehElement_14"
+msgstr "Dnes jsme k tanku připevnili vše, co bychom mohli potřebovat: tažná lana, dýmovnice, vybavení pro jízdu pod vodou – prostě všechno. Dobrý tank, stejně jako dobrý voják, musí být připraven na všechno.\n\nA máme se na co připravit. Studovali jsme mapy Severního moře...\n\nTen bunkr, který postavil Moretti, se nachází někde na norských ostrovech. A máme silné podezření, že je na stejném ostrově, kde dřív stála americká raketová základna – ta, kterou obsadili žoldáci a odkud vypustili satelit.\n\nTakže to máme někde pod nosem? Přímo pod námi? Celou tu dobu jsme seděli nad hlavním bunkrem KRONOSu?!"
+
+msgid "detail/descr/historical/s3_t9_vehElement_15"
+msgstr "Dravec je připraven! Můj nový ocelový přítel je ozbrojený a nebezpečný. Rychlý, obrněný a s dostatečnou palebnou silou, aby nepřátelům proběhl život před očima, když na ně namířím hlaveň.\n\nPodívejte se na ty elegantní linie a hrozivou siluetu! Bude naše nepřátele strašit ve snech.\n\nJaká dobrodružství nás čekají – a jaké příběhy budu moci později vyprávět!\n\nLov může začít!"
+
+msgid "detail/descr/historical/s3_t9_vehElement_2"
+msgstr "Namontovali jsme podvozek. Je to mistrovské dílo! Jízda bude tak plynulá, že si budu moct vychutnat kafe, aniž bych rozlil jedinou kapku. No... samozřejmě ne doslova. Nějaké vibrace tam budou. Je to přece jen tank.\n\nNaše vyšetřování mezitím opět pokročilo. Mysleli jsme, že případ požáru v Morgenlichtu je uzavřen, ale pak Leni objevila něco podivného – plány KRONOSu, které používáme k výrobě našich tanků, vznikly až PO požáru.\n\nJak se říká v detektivkách – zápletka houstne!"
+
+msgid "detail/descr/historical/s3_t9_vehElement_3"
+msgstr "Konečně jsem dostal velitelskou kupoli! Je naprosto úžasná – obsahuje kompletní sadu pozorovacích zařízení, o kterých sní každý tankista. Nejvíc se mi líbí noční vidění TKN-1 – díky němu vidím ve tmě jako kočka.\n\nVymysleli jsme novou teorii ohledně celé záležitosti s KRONOSem. Buď byla práce pacientů před požárem odstraněna a vypracována někde jinde, nebo – a tady to začíná být zajímavé – co když byli tito „šílení vědci“ jen zástěrkou? Co když skutečný zdroj těchto technologií nejsou oni?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_4"
+msgstr "Dnes jsme kolem věže přidali další pancéřování – pět silných bloků vyplněných polyuretanem a ocelovými deskami. Skvělá ochrana proti kumulativním náložím. Nemůžeme se dočkat, až uvidíme, jak obstojí v boji!\n\nMezitím se ukázalo, že Leni měla celou dobu pravdu. Žádný „doktor Moranti“ nikdy neexistoval! Byl to jen jeden z desítek pseudonymů, které používal skutečný strůjce všeho zla – někdo jménem Alessandro Moretti.\n\nProč by jeden člověk potřeboval tolik jmen? Nemohl se rozhodnout, které se mu nejvíc líbí?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_5"
+msgstr "Dnes jsme nainstalovali hlavní dělo a já se nemůžu dočkat, až ho vyzkouším! Když stisknete spoušť a cítíte, jak se celý stroj otřese... nic se tomu pocitu nevyrovná.\n\nUkázalo se, že Moretti je velmi zajímavá postava. Nebyl jen inženýrem, ale také mistrem ve stavbě tajných zařízení. A pak, v roce 1943, úplně zmizel ze všech oficiálních záznamů.\n\nA hádejte co? Právě v tu chvíli se náhle objeví náš „doktor Moranti“! Poté, po požáru v Morgenlichtu, se pseudonymy z našeho seznamu náhle začnou objevovat v nákladních listech a dalších dokumentech."
+
+msgid "detail/descr/historical/s3_t9_vehElement_6"
+msgstr "Dnes jsme nainstalovali systém aktivní ochrany. Je to absolutní revoluce – dokáže během zlomku sekundy detekovat přilétající granáty. Úžasné!\n\nMimochodem, objevili jsme něco nečekaného o Morgenlichtu. Ukázalo se, že to nebyla věznice ani mučírna, jak jsme si mysleli. Byl to jen jeden z článků sítě pečlivě maskovaných výzkumných center.\n\nZdá se, že náš přítel Moretti snil o tom, že se stane autorem hororů. Tolik úsilí vloženého do utajení, tolik detailů ve falešných zprávách. Takový talent přichází vniveč!"
+
+msgid "detail/descr/historical/s3_t9_vehElement_7"
+msgstr "Dnes jsme na hlaveň děla nainstalovali termální kryt. Je to užitečná součást výbavy, která zabraňuje vlivu povětrnostních podmínek na přesnost hlavně.\n\nA Moretti nám stále předkládá nové hádanky. Vysledovali jsme dodavatelské řetězce spojené se všemi těmito pseudonymy. Do projektu KRONOS byly zapojeny desítky továren – výrobci elektroniky, chemické závody, textilky... a kupodivu také obrovské dodávky jantaru.\n\nNa co sakra potřebují jantar? A kde ho vzal tolik? Moretti snad ukradl Jantarovou komnatu nebo co?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_8"
+msgstr "Dnes jsme nainstalovali systém aktivní ochrany Oplot-MO a je to opravdu něco! Radar detekuje protitankové střely letící rychlostí 600–800 m/s a automaticky aktivuje šestihlavňové protiletadlové dělo, které je sestřelí přímo ve vzduchu. KRONOS má konkurenci, protože máme vlastní velmi působivou technologii!\n\nTen Moretti mě úplně zmátl. Už už jsem začínal věřit jeho příběhu o šílených vědcích, kteří mu kreslili bláznivé plány, a teď zjišťujeme, že stavěl něco velkého.\n\nAle odkud vzal všechny ty plány a technologie?"
+
+msgid "detail/descr/historical/s3_t9_vehElement_9"
+msgstr "Můj Dravec se blíží svému dokončení. Kamaráde, brzy se vydáme na dobrodružství hodná hollywoodského velkofilmu!\n\nTaky bych natočil film o KRONOSu. Ale lístky by se prodávaly jen lidem s bezpečnostní prověrkou na úrovni pět – exkluzivnímu publiku.\n\nŠkoda, protože by to byla pořádná podívaná. Mezi plány KRONOSu jsme našli něco podezřelého – schémata součástek, která poukazují na nějakou zázračnou zbraň. Nikdo nedokáže přijít na to, o co přesně jde.\n\nAle ať už to bylo cokoli, potřebovalo to množství energie, které by stačilo na napájení menšího města."
+
+msgid "detail/name/s3_t10_vehElement_1"
+msgstr "Věž"
+
+msgid "detail/name/s3_t10_vehElement_10"
+msgstr "Boční pláty"
+
+msgid "detail/name/s3_t10_vehElement_11"
+msgstr "TV kamera a kamufláž"
+
+msgid "detail/name/s3_t10_vehElement_12"
+msgstr "Vrhače kouř. granátů"
+
+msgid "detail/name/s3_t10_vehElement_13"
+msgstr "Úsťová brzda"
+
+msgid "detail/name/s3_t10_vehElement_14"
+msgstr "Polní nářadí"
+
+msgid "detail/name/s3_t10_vehElement_15"
+msgstr "Pásy"
+
+msgid "detail/name/s3_t10_vehElement_2"
+msgstr "Systém podvozku"
+
+msgid "detail/name/s3_t10_vehElement_3"
+msgstr "Pojezdová kola"
+
+msgid "detail/name/s3_t10_vehElement_4"
+msgstr "Hlavní periskop"
+
+msgid "detail/name/s3_t10_vehElement_5"
+msgstr "Periskopy posádky"
+
+msgid "detail/name/s3_t10_vehElement_6"
+msgstr "Kulomety"
+
+msgid "detail/name/s3_t10_vehElement_7"
+msgstr "Hlavní dělo"
+
+msgid "detail/name/s3_t10_vehElement_8"
+msgstr "Blatníky"
+
+msgid "detail/name/s3_t10_vehElement_9"
+msgstr "IR reflektory"
+
+msgid "detail/name/s3_t8_vehElement_1"
+msgstr "Vrstvený pancíř"
+
+msgid "detail/name/s3_t8_vehElement_10"
+msgstr "Radar"
+
+msgid "detail/name/s3_t8_vehElement_11"
+msgstr "Osvětlovací systém"
+
+msgid "detail/name/s3_t8_vehElement_12"
+msgstr "Vrhače kouř. granátů"
+
+msgid "detail/name/s3_t8_vehElement_13"
+msgstr "Polní nářadí"
+
+msgid "detail/name/s3_t8_vehElement_14"
+msgstr "Maskovací sítě"
+
+msgid "detail/name/s3_t8_vehElement_15"
+msgstr "Pásy"
+
+msgid "detail/name/s3_t8_vehElement_2"
+msgstr "Poklopy a optika"
+
+msgid "detail/name/s3_t8_vehElement_3"
+msgstr "Podvozek"
+
+msgid "detail/name/s3_t8_vehElement_4"
+msgstr "Pojezdová kola"
+
+msgid "detail/name/s3_t8_vehElement_5"
+msgstr "Prachové clony"
+
+msgid "detail/name/s3_t8_vehElement_6"
+msgstr "Úsťová brzda"
+
+msgid "detail/name/s3_t8_vehElement_7"
+msgstr "Podkladová kamufláž"
+
+msgid "detail/name/s3_t8_vehElement_8"
+msgstr "Nízkoúrovňová kamera"
+
+msgid "detail/name/s3_t8_vehElement_9"
+msgstr "IR reflektor"
+
+msgid "detail/name/s3_t9_vehElement_1"
+msgstr "Věž"
+
+msgid "detail/name/s3_t9_vehElement_10"
+msgstr "Světlomety a kamufl."
+
+msgid "detail/name/s3_t9_vehElement_11"
+msgstr "Systém 902 Tucha"
+
+msgid "detail/name/s3_t9_vehElement_12"
+msgstr "Laserový dálkoměr"
+
+msgid "detail/name/s3_t9_vehElement_13"
+msgstr "Úsťová brzda"
+
+msgid "detail/name/s3_t9_vehElement_14"
+msgstr "Nářadí a clony"
+
+msgid "detail/name/s3_t9_vehElement_15"
+msgstr "Pásy"
+
+msgid "detail/name/s3_t9_vehElement_2"
+msgstr "Systém podvozku"
+
+msgid "detail/name/s3_t9_vehElement_3"
+msgstr "Velitelská kupole"
+
+msgid "detail/name/s3_t9_vehElement_4"
+msgstr "Extra pancéřování"
+
+msgid "detail/name/s3_t9_vehElement_5"
+msgstr "Hlavní dělo"
+
+msgid "detail/name/s3_t9_vehElement_6"
+msgstr "APS"
+
+msgid "detail/name/s3_t9_vehElement_7"
+msgstr "Termální kryt děla"
+
+msgid "detail/name/s3_t9_vehElement_8"
+msgstr "APS Oplot-MO"
+
+msgid "detail/name/s3_t9_vehElement_9"
+msgstr "Blatníky"
+
+msgid "main/additionalMission/text/completed"
+msgstr "Získány další body kampaně."
+
+msgid "main/additionalMission/text/daily"
+msgstr "Splňte denní mise a získejte další body kampaně."
+
+msgid "main/additionalMission/text/weekly"
+msgstr "Splňte týdenní mise a získejte další body kampaně."
+
+msgid "main/additionalMission/title/daily"
+msgstr "Denní mise"
+
+msgid "main/additionalMission/title/weekly"
+msgstr "Týdenní mise"
+
+msgid "main/assembling/component"
+msgstr "Díly"
+
+msgid "main/chain/Assault/name"
+msgstr "Předvoj"
+
+msgid "main/chain/Sniper/name"
+msgstr "Léčka"
+
+msgid "main/chain/Support/name"
+msgstr "Pomoc"
+
+msgid "main/complete/button"
+msgstr "Na operaci"
+
+msgid "main/complete/description/campaignFinished"
+msgstr "Kampaň „{{campaignName}}“ dokončena! Všechny odměny získány."
+
+msgid "main/complete/description/notAllCompleted"
+msgstr "Operace „{{currentOperationName}}“ dokončena s vyznamenáním! Nyní je dostupná operace „{{nextOperationName}}“."
+
+msgid "main/complete/description/notAllCompletedWithHonor"
+msgstr "Operace „{{currentOperationName}}“ {{@ split}}dokončena s vyznamenáním! {{/}}Můžete stále vylepšit svůj výsledek v operaci „{{nextOperationName}}“."
+
+msgid "main/complete/title"
+msgstr "Blahopřejeme!"
+
+msgid "main/menuItem/state/active"
+msgstr "Spuštěno"
+
+msgid "main/menuItem/state/available"
+msgstr "K dispozici"
+
+msgid "main/menuItem/state/completed"
+msgstr "Vozidlo získáno"
+
+msgid "main/menuItem/state/completedWithHonors"
+msgstr "Dokončeno s vyznamenáním"
+
+msgid "main/menuItem/state/unavailable"
+msgstr "Není k dispozici"
+
+msgid "main/menuItem/tooltip/videoIntro"
+msgstr "Podívejte se na video představující toto vozidlo"
+
+msgid "main/mission/counter"
+msgstr "{{currentValue}} {{@ colorLegacy 'ede6d97f'}}/ {{maxValue}}{{/}}"
+
+msgid "main/mission/mission/quest/separator"
+msgstr "NEBO"
+
+msgid "main/mission/subtitle"
+msgstr "Aktivní mise"
+
+msgid "main/mission/text/alert"
+msgstr "Mise aktuálně nejde splnit. Bude brzy dostupná."
+
+msgid "main/mission/text/completed"
+msgstr "Všechny mise {{missionType}}\nbyly splněny."
+
+msgid "main/missions/button/tooltip/toActiveMission"
+msgstr "Kliknutím přejdete na stávající aktivní misi."
+
+msgid "main/missions/card/tooltip/done"
+msgstr "Mise splněna, odměna získána"
+
+msgid "main/missions/card/tooltip/locked"
+msgstr "Pro odemčení této mise splňte předcházející misi. Všechny mise v sérii musí být splněny postupně."
+
+msgid "main/missions/category/description"
+msgstr "Mise kampaně „{{category}}“ v operaci „{{operationName}}“ lze dokončit postupně s {{@ colorLegacy 'ede6d9'}}vozidly {{minLevel}}.–{{maxLevel}}. úrovně{{/}} následujících typů:"
+
+msgid "main/missions/category/vehicles/assault"
+msgstr "{{HT}}, {{MT}}, {{TD}} s úlohami {{breakthrough}}, {{assault}}, {{universal}}."
+
+msgid "main/missions/category/vehicles/sniper"
+msgstr "{{HT}}, {{MT}}, {{TD}} s úlohami {{sniper}}, {{support}}."
+
+msgid "main/missions/category/vehicles/support"
+msgstr "{{LT}}, {{SPG}} bez ohledu na úlohu."
+
+msgid "main/operation/button/available/"
+msgstr "Aktivovat"
+
+msgid "main/operation/button/completed"
+msgstr "Zlepšit výsledek"
+
+msgid "main/operation/button/nextOperationAvailable"
+msgstr "Na operaci"
+
+msgid "main/operation/button/paused"
+msgstr "Pokračovat v operaci"
+
+msgid "main/operation/button/precedingOperationNotCompleted"
+msgstr "Na operaci"
+
+msgid "main/operation/status/available"
+msgstr "Je dostupná operace „{{currentOperationName}}“!"
+
+msgid "main/operation/status/completed"
+msgstr "Operace „{{currentOperationName}}“ dokončena! Můžete ji dokončit s vyznamenáním a získat ještě lepší odměnu."
+
+msgid "main/operation/status/nextOperationAvailable"
+msgstr "Operace „{{currentOperationName}}“ dokončena! Nyní je dostupná operace „{{nextOperationName}}“."
+
+msgid "main/operation/status/paused"
+msgstr "Operace „{{currentOperationName}}“ byla pozastavena."
+
+msgid "main/operation/status/precedingOperationNotCompleted"
+msgstr "Operace není dostupná: dokončete předchozí operaci."
+
+msgid "main/operation/status/requiresVehicle"
+msgstr "Operace není dostupná: je vyžadováno vozidlo {{requiredVehicleLevel}}. nebo vyšší úrovně."
+
+msgid "main/operation/status/vehicleIsInBattle"
+msgstr "Dokud je vozidlo v bitvě, nemůžete měnit kampaně nebo operace."
+
+msgid "main/progression/button"
+msgstr "Namontovat"
+
+msgid "main/progression/counter/zero"
+msgstr "0"
+
+msgid "main/progression/detail/status/active"
+msgstr "{{detailName}}: {{earnedPoint}} {{@ colorLegacy 'ede6d97f'}}/ {{maxPoint}}{{/}} {{icon}}"
+
+msgid "main/progression/detailNumber"
+msgstr "{{number}}"
+
+msgid "main/progression/mountButton/active"
+msgstr "Kliknutím namontujete tento díl na vozidlo."
+
+msgid "main/progression/mountButton/disable"
+msgstr "Nejprve namontujte předchozí díl."
+
+msgid "main/progression/reward/previewButton"
+msgstr "Zobrazit v garáži"
+
+msgid "main/progression/reward/status/inProgress/campaign"
+msgstr "Operace dokončené s vyznamenáním: {{completedTasks}} {{@ colorLegacy 'ede6d97f'}}/ {{tasksNumber}}{{/}}"
+
+msgid "main/progression/reward/status/inProgress/operation"
+msgstr "Splněné mise: {{completedTasks}} {{@ colorLegacy 'ede6d97f'}}/ {{tasksNumber}}{{/}}"
+
+msgid "main/progression/reward/status/received"
+msgstr "Získáno"
+
+msgid "main/progression/reward/title/campaign"
+msgstr "Za dokončení kampaně s vyznamenáním"
+
+msgid "main/progression/reward/title/main"
+msgstr "Hlavní odměny"
+
+msgid "main/progression/reward/title/operation"
+msgstr "Za dokončení operace s vyznamenáním"
+
+msgid "main/progression/tooltip/detail/notDone"
+msgstr "Po namontování si budete moci díl prohlédnout."
+
+msgid "main/progression/tooltip/rewards/campaign"
+msgstr "Splňte všechny mise ve všech třech operacích kampaně a získejte tyto odměny."
+
+msgid "main/progression/tooltip/rewards/main"
+msgstr "Dokončete postup, namontujte poslední díl a získejte hlavní odměnu a vozidlo."
+
+msgid "main/progression/tooltip/rewards/operation"
+msgstr "Splňte všechny mise operace a získejte tyto odměny."
+
+msgid "main/progression/tooltip/toActiveStage"
+msgstr "Kliknutím přejdete na stávající fázi."
+
+msgid "plugin/post_battle/condition"
+msgstr "Stav"
+
+msgid "plugin/post_battle/openButton"
+msgstr "Klikněte pro zobrazení podrobných informací."
+
+msgid "plugin/post_battle/questsSeparator"
+msgstr "NEBO"
+
+msgid "questStatus/topLabelAlreadyUsedVehicle"
+msgstr "Není k dispozici: Ve vybraném vozidle jste již podmínku splnili. Vyberte prosím jiné vozidlo."
+
+msgid "questStatus/topLabelCompleted"
+msgstr "Splněna"
+
+msgid "questStatus/topLabelCompletedForBattle"
+msgstr "Splněna pro stávající bitvu"
+
+msgid "rewards/additional"
+msgstr "Také získáno:"
+
+msgid "rewards/buttons/close"
+msgstr "Zavřít"
+
+msgid "rewards/buttons/confirm"
+msgstr "Potvrzuji!"
+
+msgid "rewards/buttons/goToOperation"
+msgstr "Přejít na operaci"
+
+msgid "rewards/buttons/goToVehicle"
+msgstr "Ukázat v garáži"
+
+msgid "rewards/operationUnlocked"
+msgstr "Je dostupná operace „{{name}}“"
+
+msgid "rewards/subTitle/campaignWithHonors"
+msgstr "Kampaň: „{{name}}“"
+
+msgid "rewards/subTitle/operationWithHonors"
+msgstr "Operace: „{{name}}“"
+
+msgid "rewards/subTitle/vehiclePart"
+msgstr "Operace: „{{name}}“"
+
+msgid "rewards/title/campaignWithHonors"
+msgstr "DOKONČENA S VYZNAMENÁNÍM!"
+
+msgid "rewards/title/operation"
+msgstr "OPERACE: „{{name}}“ DOKONČENA!"
+
+msgid "rewards/title/operationWithHonors"
+msgstr "DOKONČENA S VYZNAMENÁNÍM!"
+
+msgid "rewards/title/vehiclePart"
+msgstr "DÍL DOSTUPNÝ PRO NAMONTOVÁNÍ"
+
+msgid "tooltip/assembling/viewAnimation"
+msgstr "Kliknutím se podíváte na animaci montáže."
+
+msgid "tooltip/assembling/zoomOut"
+msgstr "Kliknutím skryjete popisek."
+
+msgid "tooltip/missionProgress/completed"
+msgstr "Splněno: {{completed}}{{@ class $totalClass}} / {{total}}{{/}}"
+
+msgid "tooltip/missionProgress/description"
+msgstr "Ke splnění mise musíte několikrát pomocí různých vhodných vozidel splnit její podmínky."
+
+msgid "tooltip/missionProgress/footer"
+msgstr "Jakmile vozidlo splní podmínky, nelze ho pro tuto misi znovu použít, dokud není mise splněna."
+
+msgid "tooltip/missionProgress/title"
+msgstr "Splnění s různými vozidly"
+
+msgid "tooltip/missionProgress/unknownVehicle"
+msgstr "?"
+
+msgid "tooltip/missionsCategory/description/assault"
+msgstr "Vozidla první linie, která mohou na bojišti prosazovat vlastní pravidla."
+
+msgid "tooltip/missionsCategory/description/sniper"
+msgstr "Vozidla druhé linie, která posilují útoky na nepřátelské pozice."
+
+msgid "tooltip/missionsCategory/description/support"
+msgstr "Letecká palebná podpora a zpravodajské informace o pozicích nepřítele na bojišti."
+
+msgid "tooltip/missionsCategory/footer"
+msgstr "Mise operace {{@ colorLegacy 'b2afab'}}„{{operationName}}“{{/}} lze splnit pouze s vozidly {{@ colorLegacy 'b2afab'}}{{minLevel}}.–{{maxLevel}}.{{/}} úrovně."
+
+msgid "tooltip/missionsCategory/innerBlock/description/assault"
+msgstr "Mise Předvoje lze plnit postupně za:"
+
+msgid "tooltip/missionsCategory/innerBlock/description/sniper"
+msgstr "Mise Léčky lze plnit postupně za:"
+
+msgid "tooltip/missionsCategory/innerBlock/description/support"
+msgstr "Mise Pomoci lze plnit postupně za:"
+
+msgid "tooltip/missionsCategory/innerBlock/noRoles"
+msgstr "Typy vozidel bez ohledu na úlohy:"
+
+msgid "tooltip/missionsCategory/innerBlock/vehiclesTypes"
+msgstr "Typy vozidel:"
+
+msgid "tooltip/missionsCategory/innerBlock/withRoles"
+msgstr "S úlohami:"
+
+msgid "tooltip/personalMissionsPoints/footer"
+msgstr "Nezapomeňte sledovat dokončené fáze a při postupu těmito fázemi montovat díly vozidla."
+
+msgid "tooltip/personalMissionsPoints/innerBlock/bulletItem1"
+msgstr "Body kampaně jsou udělovány za plnění osobních misí v kampani „Sektor 3“."
+
+msgid "tooltip/personalMissionsPoints/innerBlock/bulletItem2"
+msgstr "Body kampaně můžete získat také plněním denních a týdenních misí."
+
+msgid "tooltip/personalMissionsPoints/innerBlock/description"
+msgstr "Pokračujte ve svém postupu aktivní operací v kampani „Sektor 3“."
+
+msgid "tooltip/personalMissionsPoints/innerBlock/subTitle"
+msgstr "Jak je získat"
+
+msgid "tooltip/personalMissionsPoints/innerBlock/title"
+msgstr "Body kampaně"
+
+msgid "tooltip/progression/description"
+msgstr "Postupujte jednotlivými fázemi, sbírejte díly a montujte je na své vozidlo. Jakmile budete mít všechny díly, získáte jako odměnu funkční vozidlo. K postupu a dokončení fází budete potřebovat body kampaně."
+
+msgid "tooltip/progression/footer"
+msgstr "Nezapomeňte sledovat dokončené fáze a při postupu těmito fázemi montovat díly vozidla."
+
+msgid "tooltip/progression/innerBlock/bulletItem1"
+msgstr "Body kampaně jsou udělovány za plnění osobních misí v kampani „Sektor 3“."
+
+msgid "tooltip/progression/innerBlock/bulletItem2"
+msgstr "Body kampaně můžete získat také plněním denních a týdenních misí."
+
+msgid "tooltip/progression/innerBlock/title"
+msgstr "Jak získat body kampaně"
+
+msgid "tooltip/progression/title"
+msgstr "Postup sestavení vozidla"

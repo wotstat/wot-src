@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "Ödülleri Seçin"
+
+msgid "banner/giftsAvailable"
+msgstr "Malzemeler Teslim Edildi!"
+
+msgid "banner/giftsForOffer"
+msgstr "\"%(name)s\" teklifine katılım ödülleri."
+
+msgid "banner/selectNowOrLater"
+msgstr "Ödüllerinizi şimdi veya daha sonra Depoda seçin."
+
+msgid "banner/title"
+msgstr "Vatan Cephesi Malzemeleri"
+
+msgid "description/rentValue/battles"
+msgstr "%(value)s savaş için"
+
+msgid "description/rentValue/days"
+msgstr "%(value)s gün için"
+
+msgid "description/rentValue/wins"
+msgstr "%(value)s zafer için"
+
+msgid "giftDescription/tank/base"
+msgstr "Seçilen araca ek olarak ayrıca ücretsiz %(items)s alacaksınız."
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}mürettebat{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}mürettebat{neutralClose} ve {neutralOpen}Garaj yuıvası{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}Garaj yuvası{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "İptal"
+
+msgid "giftDialog/description/newRent"
+msgstr "%(tankName)s %(rentValue)s kiralanacak"
+
+msgid "giftDialog/description/noRent"
+msgstr "%(tankName)s Garaja gönderilecek"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "%(tankName)s kiralaması %(rentValue)s uzatılacak"
+
+msgid "giftDialog/submit"
+msgstr "Onayla"
+
+msgid "giftDialog/title/common"
+msgstr "\"%(name)s\" Alma\nOnayı"
+
+msgid "giftDialog/title/tank"
+msgstr "Araç Alma"
+
+msgid "giftDialog/title/tankRent"
+msgstr "Araç Kiralama"
+
+msgid "giftsWindow/availableCount"
+msgstr "Kullanılabilir: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "Geçerlilik süresi: %(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "Alınabilir ödüller: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "Garajda"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "Şunun için aç:"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "Ön İzleme"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value) savaş"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value) gün"
+
+msgid "giftsWindow/rent/title"
+msgstr "Kiralama dönemi: %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value) zafer"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "Al"
+
+msgid "giftsWindow/tokens"
+msgstr "Kullanılabilir: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "Kullanılabilir jetonlar: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "Geçerli değil"
+
+msgid "rewardWindow/btnLabel"
+msgstr "Tamam!"
+
+msgid "rewardWindow/title"
+msgstr "Ödül Alındı"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "Al!"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "Kiralamayı Uzat!"
+
+msgid "tankPreview/description/newRent"
+msgstr "Ücretsiz %(rentValue)s %(tankName)s kiralama"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s, mürettebatla birlikte"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s, mürettebat ve Garaj yuvasıyla birlikte"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s, Garaj yuvasıyla birlikte"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "%(tankName)s kiralamasını %(rentValue)s uzat"

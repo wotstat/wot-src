@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "Osta"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "Seuraavat kulutustarvikkeet lastataan mukaan: %(consumables)s."
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "Osta kulutustarvikkeita"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s miehistön jäsentä"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Sinulla on jo miehistö tälle vaunulle"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s miehistön jäsentä."
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "Värvää uusia miehistön jäseniä"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "täältä."
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Wargaming käyttää T-34 kirjainyhdistelmää sen yleisessä käyttötarkoituksessa viittaamaan oikeisiin vaunuihin, eikä se ole missään yhteydessä mihinkään saman nimistä tuotemerkkiä ja tekijänoikeuksia hallinnoivaan tahoon. Lisätietoa: {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "Lataa ammukset"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "Lastaa kulutustarvikkeet"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "Tallipaikka"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "Vaihtokauppa"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "Ilmainen"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "Värvää %(count)s miehistön jäsentä"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "Vuokravaunu"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "Vuokraa"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "Vuokraa 30 päiväksi"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "Vuokraa 3 päiväksi"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "Vuokraa 7 päiväksi"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "Vuoraa %(days)s päiväksi"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "Etulinjan vaihe"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "Etulinjan kausi"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "Luokitettujen taisteluiden vaihe"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "Luokitettujen taisteluiden kausi"
+
+msgid "buyVehicleWindow/restore"
+msgstr "Palauta"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "Rajaton"
+
+msgid "buyVehicleWindow/title"
+msgstr "Kokoonpano"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "Palauttaminen"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "Osta"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "Vaihtokauppa"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "Vaihtokauppa"
+
+msgid "carousel/filters/allVehicle"
+msgstr "Kaikki vaununi"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "Miehistö"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "Ominaisuudet"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} taistelu"
+msgstr[1] "{{count}} taistelua"
+msgstr[2] "{{count}} taistelua"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} päivä"
+msgstr[1] "{{count}} päivää"
+msgstr[2] "{{count}} päivää"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} tunti"
+msgstr[1] "{{count}} tuntia"
+msgstr[2] "{{count}} tuntia"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} voitto"
+msgstr[1] "{{count}} voittoa"
+msgstr[2] "{{count}} voittoa"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "Klikkaa mennäksesi vaunujen pelilistoihisi"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "Minun vaununi"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "Miehistön koulutus, uudelleenkoulutus ja hallinnointi."
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "Miehistön hallinnointi"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "Vaunun muokkauselementit: kaksi-/kolmiulotteisten tyylien ja muiden elementtien käyttö."
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "Muokkauselementit"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "Paina avataksesi"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "Vaunun tiedot, tutkiminen, vertailu ja korjaus."
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "Vaunun hallinnointi"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "VAUNUSTA"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "PANSSAROINTI"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "VERTAA"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "AUTOMAATTINEN PALAUTUS"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "PALAUTA MIEHISTÖ"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "LÄHETÄ KASARMILLE"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "UUDELLEENKOULUTA MIEHISTÖ"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "PIKAHUOLTO"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "KENTTÄMUOKKAUS"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "VAIHDA KANSAKUNTAA"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "AKTIIVINEN"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "PRO-BOOSTI {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "PIKAKOULUTUS"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "KORJAUKSET"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "TUTKI"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "PÄIVITYKSET"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "Voit vaihtaa tätä valintaa milloin hyvänsä."
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "Pro-boosti aktiivinen tälle vaunulle"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "Voit boostata vaunuja vain satunnaistaisteluissa, Rynnistyksessä, Linnakkeessa, maailmankartalla ja turnauksissa."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "Pro-boostin kanssa yhteensopimaton pelimuoto"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "Voit boostata vain tasojen I–X tutkittavia ja keräilijöiden vaunuja."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "Pro-boostin kanssa yhteensopimaton vaunu"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "Pro-boostisi on tällä hetkellä aktiivinen {{vehicle}} vaunulla. Voit vaihtaa tätä valintaa {{time}} kuluttua."
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "Palaa myöhemmin takaisin!"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "Voit vaihtaa tätä valintaa {{time}} kuluttua."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "Pro-boosti aktiivinen tälle vaunulle"

@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Wejdź do bitwy mimo to"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Wyposaż!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Urządzenia taktyczne niekompletne"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "W wybranym pojeździe brakuje przynajmniej jednego urządzenia taktycznego. Może to znacząco wpłynąć na Twoją skuteczność bojową. Czy mimo to chcesz wejść do bitwy?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Można dostosować domyślne ustawienia klawiszy skrótu wydarzenia dla pocisków i urządzeń taktycznych.\nTa zmiana dotyczy tylko bitew wydarzenia i nie będzie miała wpływu na inne tryby.\nPoszczególne skróty klawiszowe można nadal modyfikować poprzez Menu – Ustawienia – Sterowanie (w dziale Materiały eksploatacyjne)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Zmiana ustawień klawisza skrótu dla materiałów eksploatacyjnych"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Ukończ tę misję, aby otrzymać unikalną odznakę Ostatni bastion: Operacja Pandora:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Misja Epickie osiągnięcie"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Po zbadaniu zmniejsza {EDCB9E_Start}koszt Mirium{EDCB9E_End} wszystkich urządzeń taktycznych o {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Skuteczność Mirium"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Po zbadaniu zwiększa {EDCB9E_Start}czas działania efektu urządzeń taktycznych{EDCB9E_End} o {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Czas trwania efektu urządzenia"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Po zbadaniu zwiększa {EDCB9E_Start}promień działania efektu urządzeń taktycznych{EDCB9E_End} o {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Promień działania efektu urządzenia"
+
+msgid "booster/booster_heal/description"
+msgstr "Po zbadaniu zwiększa wszystkie {EDCB9E_Start}efekty leczenia{EDCB9E_End} zastosowane do pojazdu o {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Efekty leczenia"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Po zbadaniu zwiększa ilość {EDCB9E_Start}uszkodzeń przenoszonych z obelisków{EDCB9E_End} na pojazdy przeciwnika o {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Przenoszone uszkodzenia obelisku"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Po zbadaniu zwiększa {EDCB9E_Start}promień zbierania Mirium{EDCB9E_End} od przeciwników o {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Promień zbierania Mirium"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Po zbadaniu zwiększa {EDCB9E_Start}ilość Mirium zbieranego{EDCB9E_End} ze zniszczonych pojazdów o {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Zbieranie Mirium"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Po zbadaniu zwiększa {EDCB9E_Start}ilość Mirium{EDCB9E_End} przyznawanego za zniszczenie fali o {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Mirium na falę"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Po zbadaniu zwiększa {EDCB9E_Start}ilość Mirium{EDCB9E_End} przywracanego po odrodzeniu o {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Mirium po odrodzeniu"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Po zbadaniu zwiększa {EDCB9E_Start}maksymalną pojemność Mirium pojazdu{EDCB9E_End} o {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Pojemność Mirium"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "ZESTAW OBROŃCY"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Kupiono klucze"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Możliwość zdobycia 5× PD, poczynając od drugiego zwycięstwa dnia w dowolnym pojeździe."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Misja 5× PD zdobywane w bitwie"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Ustaw wyświetlanie pojazdów według ich typu, narodowości i innych parametrów."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Filtruj wg parametrów"
+
+msgid "common/back"
+msgstr "WRÓĆ"
+
+msgid "common/close"
+msgstr "ZAMKNIJ"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "DO WYDARZENIA"
+
+msgid "common/toRewardPath"
+msgstr "DO POSTĘPÓW"
+
+msgid "common/yes"
+msgstr "Tak jest!"
+
+msgid "difficult/daily"
+msgstr "ODBLOKOWANO DZIENNĄ MISJĘ KLUCZY"
+
+msgid "difficult/disabled/body"
+msgstr "Jesteś w plutonie. Tylko dowódca plutonu może zmienić poziom trudności."
+
+msgid "difficult/disabled/header"
+msgstr "Zmiana poziomu trudności niedostępna"
+
+msgid "difficult/level_1"
+msgstr "Zwykły"
+
+msgid "difficult/level_2"
+msgstr "Zaawansowany"
+
+msgid "difficult/level_3"
+msgstr "Brutalny"
+
+msgid "difficult/new"
+msgstr "NOWOŚĆ"
+
+msgid "difficult/searching/body"
+msgstr "Niedostępne podczas wyszukiwania."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Przeciwnicy mają mniejszą wytrzymałość i słabszy pancerz. Standardowa ilość danych na bitwę."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Przeciwnicy mają mocniejszy pancerz. Dane na bitwę są zwiększone o {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Pojawia się więcej przeciwników z mocniejszym pancerzem. Dane na bitwę są zwiększone o {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Nagrody za zniszczenie ostatniej fali po raz pierwszy:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Zwykły poziom trudności"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Zaawansowany poziom trudności"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Brutalny poziom"
+
+msgid "difficult/tooltip/locked"
+msgstr "Poziom trudności zablokowany"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Aby odblokować ten poziom trudności, ukończ poziom zwykły."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Aby odblokować ten poziom trudności, ukończ poziom zaawansowany."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Poziom trudności dostępny"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Wybrano poziom trudności"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Zniszczone fale: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "ZWYKŁY"
+
+msgid "difficult/uppercase/level_2"
+msgstr "ZAAWANSOWANY"
+
+msgid "difficult/uppercase/level_3"
+msgstr "BRUTALNY"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Przeciwnicy mają mocniejszy pancerz. Więcej kredytów i ×{{modifier}} danych za bitwę."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Pojawia się więcej przeciwników z mocniejszym pancerzem. Więcej kredytów i ×{{modifier}} danych za bitwę."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Walcz z falami przeciwnika i pokonuj je, pokaż swoją sprawność, zajmując najlepsze miejsca w klasyfikacji. Czekają na Ciebie unikalne nagrody i o wiele więcej."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "ZAAWANSOWANY POZIOM TRUDNOŚCI"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "POZIOM TRUDNOŚCI: BRUTALNY"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "TRYB OSTATNI BASTION"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "ZAAWANSOWANY"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "BRUTALNY"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "OSTATNI BASTION"
+
+msgid "difficultyWindow/rewards"
+msgstr "Nagrody za ukończenie:"
+
+msgid "difficultyWindow/title"
+msgstr "DOSTĘPNE"
+
+msgid "hangar/exit"
+msgstr "OPUŚĆ WYDARZENIE"
+
+msgid "hangar/narration"
+msgstr "Historia"
+
+msgid "hangar/tooltip/about"
+msgstr "Dowiedz się więcej o wydarzeniu Ostatni bastion: Terra Nord."
+
+msgid "hangar/tooltip/narration"
+msgstr "Dowiedz się więcej o historii wydarzenia."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "URZĄDZENIA TAKTYCZNE"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "WYPOSAŻENIE"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Ostatni bastion"
+
+msgid "iconButton/comparison/default"
+msgstr "Porównanie pojazdów"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Porównanie pojazdów jest niedostępne"
+
+msgid "iconButton/preview/default"
+msgstr "Podgląd pojazdu"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Podgląd pojazdu jest niedostępny"
+
+msgid "keyCard/name"
+msgstr "Klucze deszyfrujące"
+
+msgid "meta/btn/decrypt"
+msgstr "ODSZYFRUJ"
+
+msgid "meta/btn/skip"
+msgstr "POMIŃ"
+
+msgid "meta/btn/view"
+msgstr "OBEJRZYJ"
+
+msgid "meta/receive/description"
+msgstr "Zbierz %(keys) / %(decrypt) %(icon), \naby odszyfrować to nagranie"
+
+msgid "metaIntro/description/fight"
+msgstr "Walcz w bitwach wydarzenia i zdobywaj dane, aby robić postępy."
+
+msgid "metaIntro/description/progress"
+msgstr "Zbieraj dane, aby badać ulepszenia pojazdów i podejmować się trudniejszych wyzwań."
+
+msgid "metaIntro/description/reward"
+msgstr "Wypełniaj etapy postępów, aby otrzymać specjalne nagrody wydarzenia. Więcej informacji znajdziesz w dziale Ścieżka nagród."
+
+msgid "metaIntro/header/fight"
+msgstr "Bitwy wydarzenia"
+
+msgid "metaIntro/header/progress"
+msgstr "Ulepszenia"
+
+msgid "metaIntro/header/reward"
+msgstr "Unikalne nagrody"
+
+msgid "metaIntro/title"
+msgstr "POSTĘPY"
+
+msgid "missionWidget/complete"
+msgstr "Misja ukończona.\nWróć ponownie jutro."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Ukończ bieżącą misję dzienną, która jest dostępna co 24 godziny, aby otrzymać nagrodę. Dzisiejsza misja:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Misja dzienna"
+
+msgid "narration/actions/voiceover"
+msgstr "Podkład głosowy"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}ŚCIŚLE TAJNE{{/}}{{titleParagraph}}{{@ class $highlightText}}SEKTOR: N-07 (Obwód „Aurora”){{/}}{{pargraphStart}}Nasze przewidywania okazały się słuszne. Obserwatorzy stacji zarejestrowali zbliżanie się anomalii 11 dni przed zdarzeniem. Po raz pierwszy widzieliśmy, jak się zbliża.{{pargraphStart}}W ciszy przed burzą ustandaryzowano produkcję kompleksów ATLAS. Nowe moduły są montowane szybciej i kalibrowane z większą precyzją. Przeprowadziliśmy szkolenia, przećwiczyliśmy formacje i przygotowaliśmy oddziały rezerwowe. Pełna gotowość.{{pargraphStart}}Jednak anomalia miała własne plany.{{pargraphStart}}Lejek nie otworzył się w przewidywanym sektorze. Pojawił się tutaj, w odległym regionie północnym, z dala od rozstawionej infrastruktury. Nie jest jasne, dlaczego wybrana została właśnie ta lokalizacja. Nic w modelach nie wskazywało na ten obszar. Natychmiast rozpoczęto awaryjne przegrupowanie, ale ukształtowanie terenu i odległość nam nie sprzyjają. Niektóre pojazdy i oddziały dotrą z opóźnieniem.{{pargraphStart}}Każdy kompleks ATLAS, który udało nam się dostarczyć, jest teraz niezbędny.{{pargraphStart}}Tym razem byliśmy gotowi do walki. Ale do walki w innym miejscu.{{pargraphStart}}PODPIS: KURATOR (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Notatka analityczna 27/C „WYBÓR MIEJSCA INWAZJI”{{/}}{{titleParagraph}}Do użytku wewnętrznego. Pieczęć „Ograniczony dostęp”.{{pargraphStart}}Zadaję pytanie, na które muszę odpowiedzieć, ale nie potrafię: dlaczego właśnie tutaj?{{pargraphStart}}Ten region nie ma żadnej wartości strategicznej dla Lejka. Nie ma tu nic. Żadnej infrastruktury, żadnych osad. Tylko nieczynna baza wojskowa na wyspie. Czołgi echa nie mogą przeprawić się przez morze. Dlaczego więc zajmować miejsce, z którego nie mogą atakować? {{pargraphStart}}Poprosiłem o pełną historię operacyjną tego regionu. Odpowiedź była mocno ocenzurowana. Całe sekcje zostały zamazane. Drugi wniosek został odesłany z adnotacją „dostęp ograniczony na mocy uprawnień {{@ class $highlightSecondaryText}}[DANE USUNIĘTE]{{/}}”. Mnie, szefowi działu badawczego, którego zalecenia determinują strategię obronną tego sektora, odmawia się informacji o tym terytorium!{{pargraphStart}}Oto, co mogę wywnioskować z danych terenowych: zachowanie Lejka nie odpowiada temu, co zaobserwowaliśmy w sektorze R-22. Pojawiły się nowe rodzaje czołgów echa, z którymi wcześniej nie mieliśmy do czynienia. Pod względem funkcji odpowiadają one naszym niszczycielom czołgów dalekiego zasięgu i są niezwykle skuteczne na tego rodzaju terenie. Przeciwnik wyciągnął wnioski z naszej taktyki i podjął środki zaradcze. Teraz nasza kolej, by się dostosować.{{pargraphStart}}Być może potrzebuje tego miejsca. A może tego, co się pod nim znajduje.{{pargraphStart}}Nie wiem. Martwi mnie, że ktoś wie, ale nie chce powiedzieć.{{pargraphStart}}PODPIS: KURATOR (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}OSOBISTY ZAPIS KURATORA{{/}}{{pargraphStart}}Przeanalizowałem swoje hipotezy. Wszystkie trzy.{{pargraphStart}}  1. Anomalia dąży do zniszczenia nas. {{pargraphStart}}  2. Anomalia prowadzi eksperymenty. Bada nasze taktyki, analizuje nasze reakcje, dostosowuje się i uczy.{{pargraphStart}}  3. Anomalia trenuje.  Każda fala to ćwiczenie nowych taktyk, a każda bitwa to trening w warunkach polowych.{{pargraphStart}}Wszystkie trzy hipotezy opierają się na założeniu, że to my jesteśmy celem tej inwazji.{{pargraphStart}}Ale co, jeśli tak nie jest?{{pargraphStart}}Co, jeśli anomalia robi coś innego, a my po prostu stoimy jej na drodze? Jak mrowisko zalane podczas budowy ulicy. Budowniczy nie prowadzi wojny z mrówkiami. Po prostu ich nie zauważa.{{pargraphStart}}Można powstrzymać wroga, który chce nas zniszczyć. Można z nim negocjować. Ale nie da się przestraszyć czegoś, co nie uznaje naszego istnienia, nie da się tego przechytrzyć. Nie da się tego powstrzymać. Bo nigdy nie byliśmy częścią jego kalkulacji.{{pargraphStart}}Myślę, że zadajemy niewłaściwe pytanie. Nie powinniśmy pytać, dlaczego nas atakuje, ale czy w ogóle nas dostrzega.{{pargraphStart}}PODPIS: KURATOR (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}RAPORT KOŃCOWY{{/}}{{titleParagraph}}{{@ class $highlightText}}STATUS: ODTAJNIONE (CZĘŚCIOWO){{/}}{{pargraphStart}}O godz. 03:47 Lejek się zapadł. Aktywność anomalii ustała. Sektor jest czysty.{{pargraphStart}}W ostatnich sekundach przed zapadnięciem się Lejka mierniki kompleksu ATLAS zarejestrowały skok energii, który przekroczył wszystkie dotychczas zapisane wartości. Załogi zaobserwowały krótkotrwałą fizyczną manifestację w centrum anomalii, która trwała nie dłużej niż 12 sekund. Następnie Lejek się zamknął. {{pargraphStart}}Oficjalne oświadczenie: Incydent został zakończony. Terytorium udało się obronić. Zniesiono kwarantannę w tym sektorze.{{pargraphStart}}{{@ class $highlightText}}OSOBISTA NOTATKA KURATORA (Tylko dla rezerw specjalnych){{/}}{{pargraphStart}}Nie wygraliśmy. To się skończyło.{{pargraphStart}}To nie była inwazja. To była przykrywka. Obwód ochronny wokół tego, co pojawiło się w centrum Lejka na kilka sekund przed jego zapadnięciem się.{{pargraphStart}}Jednocześnie pojawiły się dziesiątki obelisków. Nadal nie wiemy, co one robiły. ATLAS zarejestrował wszystkie parametry, ale ich interpretacja zajmie trochę czasu. Jedno wiemy niemal na pewno: anomalia zakończyła jakiś proces.{{pargraphStart}}Cokolwiek to było, musimy przygotować się na następny atak. Mamy teraz wystarczająco dużo danych. Nasi inżynierowie już przeglądają nagrania. Szczerze mówiąc, nigdy nie widziałem ich takich podekscytowanych. Uważają, że możemy poważnie wzmocnić nasze pojazdy. Musimy to zrobić, zanim Lejek powróci. {{pargraphStart}}Nie mogę przestać myśleć o jednej rzeczy: jeśli to się wydarzyło tutaj i trwało tak krótko, to ile razy miało to miejsce wcześniej? W miejscach, gdzie nie było kompleksów ATLAS, gdzie nikt tego nie widział...{{pargraphStart}}PODPIS: KURATOR (PROJEKT M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Byliśmy gotowi"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Dlaczego tu?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. Niewłaściwe pytanie"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Skończyło się"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Ukończ zwykły poziom trudności, aby przejść do kolejnej części historii."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Ukończ zaawansowany poziom trudności, aby przejść do kolejnej części historii."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Ukończ brutalny poziom trudności, aby przejść do ostatniej części historii."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Następna historia"
+
+msgid "preBattle/leave"
+msgstr "Opuść bitwę"
+
+msgid "preBattle/searching"
+msgstr "SZUKANIE SOJUSZNIKÓW..."
+
+msgid "preBattle/tip"
+msgstr "Znalezienie oddziału operacyjnego trwa zbyt długo? Spróbuj zmienić poziom trudności."
+
+msgid "preBattle/uppercase/leave"
+msgstr "OPUŚĆ BITWĘ"
+
+msgid "promoWindow/header"
+msgstr "ZAGRAJ W OSTATNIM BASTIONIE"
+
+msgid "promoWindow/subheader"
+msgstr "Od {dateRange} nowy rozdział trybu PvE Ostatni bastion będzie gotowy do eksploracji.\nDo zdobycia są tematyczne zestawy {cream_open}dodatków 3D{cream_close}, wyposażenie eksperymentalne i więcej ekskluzywnych nagród."
+
+msgid "questCard/allCompleted"
+msgstr "Ukończono wszystkie misje dzienne"
+
+msgid "questCard/completed"
+msgstr "Ukończono misje dzienne.\nWróć jutro."
+
+msgid "reward/rest"
+msgstr "I jeszcze %(count)s"
+
+msgid "rewardPath/about"
+msgstr "O CELACH"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Dowiedz się więcej o postępach wydarzenia."
+
+msgid "rewardPath/boostTitle"
+msgstr "Przyspiesz swoje postępy i zdobądź więcej danych {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Obejrzyj w sklepie"
+
+msgid "rewardPath/completed"
+msgstr "Otrzymano wszystkie dane i nagrody"
+
+msgid "rewardPath/completedTitle"
+msgstr "Zajrzyj do Sklepu, w którym znajdziesz unikalne, tematyczne elementy personalizacji"
+
+msgid "rewardPath/intro"
+msgstr "WPROWADZENIE"
+
+msgid "rewardPath/introTooltip"
+msgstr "Obejrzyj film wprowadzający."
+
+msgid "rewardPath/progress"
+msgstr "Dane otrzymane na ETAPIE {artefactIndex}: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "POSTĘPY"
+
+msgid "rewardPathCard/completed"
+msgstr "Ukończono"
+
+msgid "rewardPathCard/name"
+msgstr "Ścieżka nagród"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Zestawy wydarzenia"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Anuluj"
+
+msgid "squad/goToAnother/message"
+msgstr "Pluton zostanie rozwiązany."
+
+msgid "squad/goToAnother/submit"
+msgstr "Opuść"
+
+msgid "squad/goToAnother/title"
+msgstr "Czy opuścić wydarzenie Ostatni bastion: Terra Nord?"
+
+msgid "squad/leave/cancel"
+msgstr "Anuluj"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Pluton zostanie rozwiązany."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Tak jest!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Wydarzenie Ostatni bastion: Terra Nord zakończyło się"
+
+msgid "squad/leave/message"
+msgstr "Pluton zostanie rozwiązany."
+
+msgid "squad/leave/submit"
+msgstr "Opuść"
+
+msgid "squad/leave/title"
+msgstr "Czy opuścić pluton wydarzenia Ostatni bastion: Terra Nord?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Kontynuuj"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Jesteś w plutonie i gotowy do bitwy."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Nie możesz opuścić plutonu!"
+
+msgid "stageReward/rewards/received"
+msgstr "Otrzymano również:"
+
+msgid "stageReward/special/header"
+msgstr "UKOŃCZONO BRUTALNY POZIOM TRUDNOŚCI!"
+
+msgid "stageReward/special/subheader"
+msgstr "Otrzymano nagrodę specjalną!"
+
+msgid "stageReward/stage/header"
+msgstr "OTRZYMANO NAGRODY"
+
+msgid "stageReward/stage/subheader"
+msgstr "Ukończono Ostatni bastion: etap {{number}}"
+
+msgid "stageReward/stageFinal/header"
+msgstr "OTRZYMANO WSZYSTKIE NAGRODY"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Ukończono ostatni etap wydarzenia Ostatni bastion"

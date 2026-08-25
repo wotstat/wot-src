@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Også mottatt:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Denne serien med oppdrag kan gjentas."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Bekreftet!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Avslutt"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Vis i garasjen"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Reprise"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Til Crucible"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "WoT premium konto"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Premiumkjøretøy"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Leiekjøretøy"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "og stil “{{styleName}}”"
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) dag"
+msgstr[1] "%(day) dager"
+msgstr[2] "%(day) dager"
+
+msgid "awards_view/title"
+msgstr "CRUCIBLE FULLFØRT!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Oppdrag med ×5 erfaringspoeng per kamp"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Tegningsdel: (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Universal tegningsdel"
+
+msgid "bonuses/bpcoin"
+msgstr "Battle Pass pollett"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Oppdrag med ×3 besetningserfaring"
+
+msgid "bonuses/description/attachments_set"
+msgstr "Sett med 3D vedheng"
+
+msgid "bonuses/description/booster"
+msgstr "Personlig reserve"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Skuddpremieutstyr"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Besetningsdrakt"
+
+msgid "bonuses/description/directive"
+msgstr "Direktiv"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Eksperimentelt utstyr"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Forbedret utstyr"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "og stilen “%(styleName)s”"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standardutstyr"
+
+msgid "bonuses/description/style"
+msgstr "2D stil"
+
+msgid "bonuses/description/style_3d"
+msgstr "3D stil"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Kvinnelig besetningsmedlem"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Rekrutt"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Besetningsmedlem"
+
+msgid "condition/achievement"
+msgstr "Få utmerkelsen %(achievement)s"
+
+msgid "condition/achievement/title"
+msgstr "Battle Heroes"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Forårsak og assister med totalt %(goal)s helsepoeng i skade"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Forårsak, motta, og blokker totalt %(goal)s helsepoeng med skade"
+
+msgid "condition/aggregated/title"
+msgstr "Komplekst vilkår"
+
+msgid "condition/classes/AT-SPG"
+msgstr "Panserjager"
+
+msgid "condition/classes/SPG"
+msgstr "SPG"
+
+msgid "condition/classes/heavyTank"
+msgstr "Tung tanks"
+
+msgid "condition/classes/lightTank"
+msgstr "Lett tanks"
+
+msgid "condition/classes/mediumTank"
+msgstr "Medium tanks"
+
+msgid "condition/critsCount"
+msgstr "Forårsak %(goal)s kritiske treff på interne eller eksterne moduler på fiendtlige kjøretøy"
+
+msgid "condition/critsCount/title"
+msgstr "Immobiliser"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Blokker %(goal)s helsepoeng med skade"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Blokkér %(goal)s ganger mer skade enn antall helsepoeng på ditt kjøretøy"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Blokkering"
+
+msgid "condition/damageDealt"
+msgstr "Forårsak %(goal)s helsepoeng i skade på fiendtlige kjøretøy"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Forårsak %(goal)s ganger mer skade enn antall helsepoeng på ditt kjøretøy"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Treff fiendtlige kjøretøy på en avstand på %(distance)s m eller mindre %(goal)s ganger"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Treff fiendtlige kjøretøy på en avstand på %(distance)s m eller mer %(goal)s ganger"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Forårsak skade på fiendtlige kjøretøy ved å kollidere dem %(goal)s ganger"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Treff fiendtlige kjøretøy innenfor synsrekkevidden til ditt kjøretøy %(goal)s ganger"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Forårsak %(goal)s helsepoeng i skade i løpet av de første %(timeLimit)s minuttene av kampen"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Forårsak %(goal)s helsepoeng i skade på fiendtlige tanks på en avstand på %(distance)s m eller mindre"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Forårsak %(goal)s helsepoeng i skade på fiendtlige kjøretøy på en avstand på %(distance)s m eller mer"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Forårsak %(goal)s helsepoeng i skade ved kollisjon"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Kollisjon"
+
+msgid "condition/damageDealt/title"
+msgstr "Skade"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Forårsak %(goal)s helsepoeng i skade på uoppdagede fiendtlige kjøretøy"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Forårsak %(goal)s helsepoeng i skade på fiendtlige kjøretøy innen synsrekkevidden for ditt kjøretøy"
+
+msgid "condition/kills"
+msgstr "Bekjemp %(goal)s fiendtlige kjøretøy"
+
+msgid "condition/kills/classes"
+msgstr "Bekjemp %(goal)s fiendtlige %(vehicleClass)s"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Bekjemp %(goal)s fiendtlige kjøretøy av %(classCount)s ulike typer"
+
+msgid "condition/kills/title"
+msgstr "Bekjemp"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Bekjemp %(goal)s fiendtlige kjøretøy uten å få noen skade"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Bekjemp %(goal)s fiendtlige kjøretøy mens du forblir uoppdaget"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Forårsak %(goal)s%% av den totale mengde skade forårsaket av ditt lag"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Skade"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Penetrer fiendtlig pansring %(goal)s ganger"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Penetrasjon"
+
+msgid "condition/spotted"
+msgstr "Oppdag %(goal)s fiendtlige kjøretøy"
+
+msgid "condition/spotted/title"
+msgstr "Oppdag"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Oppdag %(goal)s fiendtlige kjøretøy mens du forblir uoppdaget"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Oppdag"
+
+msgid "condition/top/damageDealt"
+msgstr "Vær blant de %(rank)s beste spillerne på laget ditt etter forårsaket skade"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Vær blant de %(rank)s beste spillerne på begge lagene etter forårsaket skade"
+
+msgid "condition/top/title"
+msgstr "Beste spiller"
+
+msgid "condition/top/xp"
+msgstr "Vær blant de %(rank)s beste spillerne på laget ditt etter tjent erfaring"
+
+msgid "condition/unknown"
+msgstr "Finner det mest passende oppdraget..."
+
+msgid "condition/unknown/title"
+msgstr "Venter"
+
+msgid "postbattle/name"
+msgstr "CRUCIBLE: "

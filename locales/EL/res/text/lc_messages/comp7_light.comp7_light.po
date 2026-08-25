@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Αλλαγή server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Λεπτομέρειες"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Οι μάχες αυτού του είδους δεν είναι διαθέσιμες στον επιλεγμένο server %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Οι μάχες αυτές δεν είναι διαθέσιμες σε όλους τους servers"
+
+msgid "alertMessage/modeOffline"
+msgstr "Σφάλμα βάσης δεδομένων. Είδος μαχών μη διαθέσιμο."
+
+msgid "alertMessage/noVehicles"
+msgstr "Κανένα κατάλληλο όχημα στο Γκαράζ σας %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "ΘΕΤΙΚΟΝ!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "Ελαφρά Επέλαση"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "Η ΤΕΛΙΚΗ ΦΑΣΗ ΟΛΟΚΛΗΡΩΘΗΚΕ!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "Η ΦΑΣΗ %(level)s ΟΛΟΚΛΗΡΩΘΗΚΕ!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Όλες οι αποστολές ολοκληρώθηκαν!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Ολοκληρώθηκε"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Λήξη σε %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Αποστολή Ελαφράς Επέλασης"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Νέα Αποστολή Ελαφράς Επέλασης σε: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Έπαθλο:"
+msgstr[1] "Έπαθλα:"
+msgstr[2] "Έπαθλα:"
+
+msgid "battleResult/header/deserter"
+msgstr "Σας επιβλήθηκε ποινή"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "ΠΡΟΟΔΟΣ ΕΛΑΦΡΑΣ ΕΠΕΛΑΣΗΣ"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Η Ελαφρά Επέλαση θα διαρκέσει %(days)d ημέρα"
+msgstr[1] "Η Ελαφρά Επέλαση θα διαρκέσει %(days)d ημέρες"
+msgstr[2] "Η Ελαφρά Επέλαση θα διαρκέσει %(days)d ημέρες"
+
+msgid "calendarDay/title"
+msgstr "Πρόγραμμα"
+
+msgid "closeButtonLabel"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "countDown/text"
+msgstr "Η διοργάνωση ξεκινά σε:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Ανταγωνιστικές μάχες 7v7 με οχήματα Βαθμίδας %(levels)s. Απολαύστε τις γνήσιες μάχες Επέλασης χωρίς Προκριματικά, Σύστημα Κατάταξης και καταγραφή στατιστικών, διεκδικώντας τα έπαθλα των ημερήσιων αποστολών της διοργάνωσης."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MODE"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — Είδος μαχών. Κλικ για περισσότερες πληροφορίες"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Ελαφρά Επέλαση"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Οι μάχες αυτές θα είναι διαθέσιμες για %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Εκεχειρία %(timer)s"
+
+msgid "featureName"
+msgstr "Ελαφρά Επέλαση"
+
+msgid "featureNameCapitalized"
+msgstr "ΕΛΑΦΡΑ ΕΠΕΛΑΣΗ"
+
+msgid "intro/confirmButton"
+msgstr "ΘΕΤΙΚΟΝ!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Απολαύστε τις γνήσιες Μάχες Επέλασης χωρίς Προκριματικά, Σύστημα Κατάταξης και Καταγραφή Στατιστικών."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Σε αυτό το είδος μάχης έχουν αλλάξει παράμετροι των οχημάτων, όπως η αντοχή, ο χρόνος επαναφοράς των αναλώσιμων, ο χρόνος που ένα όχημα παραμένει εντοπισμένο, κλπ."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Μόλις καταλάβετε συγκεκριμένες περιοχές του χάρτη, μπορείτε να χρησιμοποιήσετε τις Στρατηγικές Ικανότητες. Σημεία-Κλειδιά υπάρχουν 2 τύπων: το Αρχηγείο Πυροβολικού με την κατάληψη του οποίου μπορείτε να διατάξετε μπαράζ πυροβολικού σε κάποια συγκεκριμένη περιοχή του χάρτη και το Κέντρο Διαβιβάσεων με την κατάληψη του οποίου μπορείτε να δείτε όλα τα εχθρικά οχήματα στον χάρτη. Η ύπαρξη και η τοποθεσία των Σημείων-Κλειδιών αλλάζουν σε κάθε χάρτη."
+
+msgid "intro/description/roleSkills"
+msgstr "Ανάλογα με τον ρόλο του στη μάχη, το κάθε όχημα διαθέτει ειδικές ικανότητες, με 3 επίπεδα η κάθε μία από αυτές. Όσο μεγαλύτερο το επίπεδο της ικανότητας, τόσο μεγαλύτερη η επίδρασή της όταν ενεργοποιηθεί. Το επίπεδο της κάθε ικανότητας εξαρτάται από τους Πόντους Αίγλης που κερδίζετε με βάση τις επιδόσεις σας στη μάχη, από την κατάληψη Σημείων-Κλειδιών, από τη χρήση Στρατηγικών Ικανοτήτων, κλπ.\n\nΔιαβάστε τους κανονισμούς της διοργάνωσης για να μάθετε περισσότερα για τους Πόντους Αίγλης."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Μόνο οχήματα Βαθμίδας %(levels)s είναι κατάλληλα οχήματα γι αυτό είδος μάχης (εκτός από Α/Κ Πυροβόλα και κάποια άλλα οχήματα). Προετοιμάστε κατάλληλα τα οχήματά σας και επιλέξτε αυτό που ταιριάζει περισσότερο σε κάποιον συγκεκριμένο χάρτη. Αφότου επιλέξετε όχημα, μελετήστε ποια οχήματα έχουν επιλέξει τα υπόλοιπα μέλη της ομάδας σας."
+
+msgid "intro/title/lightGameplay"
+msgstr "ΧΩΡΙΣ ΤΟ ΑΓΧΟΣ ΤΗΣ ΚΑΤΑΤΑΞΗΣ"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ ΜΑΧΗΣ"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "ΣΗΜΕΙΑ-ΚΛΕΙΔΙΑ"
+
+msgid "intro/title/roleSkills"
+msgstr "ΙΚΑΝΟΤΗΤΕΣ ΡΟΛΟΥ"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "ΕΠΙΛΕΞΤΕ ΟΧΗΜΑ ΓΙΑ ΚΑΠΟΙΟΝ ΣΥΓΚΕΚΡΙΜΕΝΟ ΧΑΡΤΗ"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Νίκη"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Ήττα/Ισοπαλία"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Μπράβο, συνεχίστε έτσι!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Ολοκληρώστε αποστολές για να φτάσετε στις κορυφαίες θέσεις των μαχών της Ελαφράς Επέλασης και για να αυξήσετε την πρόοδό σας στη διοργάνωση."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Οι κερδισμένοι Πόντοι Προόδου εξαρτώνται από τους Πόντους Αίγλης που έχετε στη μάχη."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Οι μάχες αυτές θα λήξουν σε %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Ολοκλήρωση Βασικής Προόδου"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Ελαφρά Επέλαση"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Οι 2 κορυφαίοι στους Πόντους Αίγλης"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Οι 5 κορυφαίοι στους Πόντους Αίγλης"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Οι 7 κορυφαίοι στους Πόντους Αίγλης"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Χρησιμοποιήστε Προνομιακό Λογαριασμό WoT"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Ενεργοποιήστε Προσωπικά Αποθέματα"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Ολοκληρώστε Αποστολές"
+
+msgid "noVehicles/howTo/title"
+msgstr "Ποιος είναι ο γρηγορότερος τρόπος για να φτάσετε στα οχήματα της Βαθμίδας %(levels)s?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Για να λάβετε μέρος στις μάχες Ελαφράς Επέλασης, θα πρέπει να έχετε τουλάχιστον ένα κατάλληλο όχημα της Βαθμίδας %(levels)s.\nΜπορείτε να αγοράσετε Προνομιακά Οχήματα Βαθμίδας %(levels)s μέσα από τον Πίνακα Τεχνολογίας ή από τον Εφοδιασμό του παιχνιδιού."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Για να λάβετε μέρος στις μάχες Ελαφράς Επέλασης, θα πρέπει να έχετε τουλάχιστον ένα κατάλληλο όχημα της Βαθμίδας %(levels)s.\nΈχετε ένα όχημα της Βαθμίδας %(levels)s διαθέσιμο για ανάκτηση."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Για να λάβετε μέρος στις μάχες Ελαφράς Επέλασης, θα πρέπει να έχετε τουλάχιστον ένα κατάλληλο όχημα της Βαθμίδας %(levels)s."
+
+msgid "noVehicles/title"
+msgstr "Κανένα κατάλληλο όχημα στο Γκαράζ σας"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Περισσότερες πληροφορίες θα βρείτε στη σελίδα «Σχετικά Με Τις Μάχες Ελαφράς Επέλασης»."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Πόντοι Αίγλης"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Πρόκληση φθοράς\nΕντοπισμό αντιπάλων\nΚαταστροφή ερπυστριών\nΚρίσιμα πλήγματα \nΚαταστροφές εχθρικών οχημάτων\nΚαι λοιπά"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Οι Πόντοι Αίγλης κερδίζονται από:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Η τρέχουσα περίοδος τελείωσε στον server %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Η τρέχουσα περίοδος τελείωσε στον server %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Η τρέχουσα περίοδος τελείωσε στον server %(server)s."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Ολοκλήρωση Βασικής Προόδου!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Φάση %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s ή %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Νέες αποστολές σε:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "ΛΗΞΗ ΔΙΟΡΓΑΝΩΣΗΣ ΣΕ:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Ανανέωση αποστολών σε"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Όλες οι ημερήσιες αποστολές ολοκληρώθηκαν."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Ολοκλήρωση Βασικής Προόδου. Λάβετε μέρος σε μάχες Ελαφράς Επέλασης για να κερδίσετε περισσότερα έπαθλα."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Ολοκληρώστε αποστολές για να φτάσετε στις κορυφαίες θέσεις των μαχών της Ελαφράς Επέλασης\nκαι για να αυξήσετε την πρόοδό σας στη διοργάνωση. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Απονέμονται από την ολοκλήρωση ειδικών αποστολών και τη συμμετοχή σε μάχες της Ελαφράς Επέλασης. Χρησιμοποιούνται για να αυξηθεί η πρόοδος στη διοργάνωση."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Πόντοι Προόδου Ελαφράς Επέλασης"
+
+msgid "selectorTooltip/desc"
+msgstr "Μάχες χωρίς κατάταξη: 7v7 | Βαθμίδας %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Ελαφρά Επέλαση"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Μάθετε τις πιο πρόσφατες ειδήσεις από το portal του παιχνιδιού και μείνετε ενήμεροι για την έναρξη της νέας Περιόδου."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Οι συγκεκριμένες μάχες είναι προσωρινά μη διαθέσιμες λόγω τεχνικών προβλημάτων."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Οι μάχες αυτές θα είναι διαθέσιμες στις %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Κερδισμένοι Πόντοι Προόδου"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Λεπτομέρειες"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Ελαφρά Επέλαση"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Παραλάβατε τα έπαθλα:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Ολοκληρώσατε τη Φάση Προόδου %(stage)s στην %(progressionName)s."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Συγχαρητήρια!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Εκεχειρία. Οι μάχες Ελαφράς Επέλασης είναι προσωρινά μη διαθέσιμες."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Εκεχειρία"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Λήξη Εκεχειρίας. Οι μάχες Ελαφράς Επέλασης είναι και πάλι διαθέσιμες."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Εκεχειρία"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Σχετικά Με Τις Μάχες Ελαφράς Επέλασης"

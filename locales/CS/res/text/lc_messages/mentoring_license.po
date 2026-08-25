@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "Po potvrzení zadejte počet ZK člena posádky vybraného pro přesun."
+
+msgid "assignmentDialog/price"
+msgstr "Cena:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Přesuňte všechny ZK posádky mezi členy posádky"
+
+msgid "assignmentDialog/title"
+msgstr "Potvrdit Školení"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Tato posádka bude odstraněna\nz vašeho účtu bez možnosti obnovení."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "Bude ztraceno {xpLose} extra ZK."
+
+msgid "dialogue/description"
+msgstr "Spotřební doplněk, který vám umožňuje přesunout všechny ZK posádky mezi členy posádky stejného národa."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}Bude ztraceno extra ZK:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "VYBRAT"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Celkem ZK: %(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Školení:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Žádní vhodní členové posádky"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Vyberte člena posádky, který přesune své ZK\nna {cream_Open}%(name)s{cream_Close} a bude odstraněn z vašeho účtu."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "Po přesunutí ZK posádky dosáhne {cream_Open}%(name)s{cream_Close} limitu schopností a všechny ZK nad limit budou ztraceny."
+
+msgid "mentorAssigment/title"
+msgstr "VYBRAT ŠKOLITELE"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close} dosáhl limitu schopností a nelze ho vybrat pro přesun ZK."
+
+msgid "multipleUserName"
+msgstr "Školící oprávnění"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Použito Školících oprávnění: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "Přesunuto ZK posádky: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "Školení"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>Ztraceno extra ZK posádky: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Umožňuje vám přesunout všechny ZK posádky\nmezi členy posádky stejného národa."
+
+msgid "storage/userName"
+msgstr "Školící oprávnění"
+
+msgid "userName"
+msgstr "Školící oprávnění"

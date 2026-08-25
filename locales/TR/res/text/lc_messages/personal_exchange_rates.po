@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Sınırlı oran"
+msgstr[1] "Sınırlı oran %(index)s"
+msgstr[2] "Sınırlı oran %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "En az bir sınır aşıldı. Ödemenin bir kısmı bir sonraki orandan yapılacak."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Temel dönüştürme oranı"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "Sonraki geçerli oran"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Aktif sınırlı oran sayısı: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Toplam sınırlı oran miktarı: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "Dönüşüm sonrası:"
+
+msgid "common/cancel"
+msgstr "İptal"
+
+msgid "common/combinedDiscount"
+msgstr "Bileşik İndirim"
+
+msgid "common/exchange"
+msgstr "Dönüştür"
+
+msgid "common/exchangeRate"
+msgstr "Dönüşüm oranı"
+
+msgid "common/limitExceeded"
+msgstr "Limit aşıldı. Dönüşüm bileşik indirimle gerçekleştirilecek."
+
+msgid "common/limitOverExceeded"
+msgstr "Limit aşıldı: Bileşik indirim kullanılacak."
+
+msgid "common/limitRestrictions"
+msgstr "DAHA FAZLA BİLGİ"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Temel dönüşüm oranı: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Genel dönüşüm oranı: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "%(gold)s altın başarıyla dönüştürüldü. Alınan kredi: %(res)s."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Kişisel dönüşüm oranı: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Kişisel dönüşüm oranı: %(rateFrom)s = %(rateTo)s. Limit aşıldı"
+
+msgid "exchangeXP/information"
+msgstr "%(res)s DP başarıyla Serbest DP'ye dönüştürüldü. Harcanan altın: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "Kullanılabilir DP:"
+
+msgid "experienceExchange/paid"
+msgstr "Harcandı"
+
+msgid "experienceExchange/received"
+msgstr "Alındı"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Araç seviyelerine göre sırala"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Saha Geliştirmesi seviyesine göre sırala"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Araç isimlerine göre sırala"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Ülkelere göre sırala"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Araç türüne göre sırala"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Seçili araca göre sırala"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Kazanılan DP'ye göre sırala"
+
+msgid "goldExchange/paid"
+msgstr "Bu kaynaktan"
+
+msgid "goldExchange/received"
+msgstr "Şuna"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s altın = %(resourceRate)s kredi"
+
+msgid "notification/discountDescription/message"
+msgstr "Kişisel dönüşüm oranı"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "Dönüştürmeye Git"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Yeni dönüştürme oranı kullanabilirsiniz!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Temel dönüştürme oranı"
+
+msgid "tooltip/common/generalRate"
+msgstr "Genel dönüştürme oranı"
+
+msgid "tooltip/common/personalRate"
+msgstr "Kişisel dönüşüm oranı"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Tercihli dönüştürme oranı"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Geçici dönüştürme oranı"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "Tutar ancak altın satın aldıktan sonra belirlenebilir."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Dönüşümden sonraki altın miktarı"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s altın = %(resourceRate)s Serbest DP"

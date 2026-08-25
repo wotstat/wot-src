@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Staakt-het-vuren {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Het evenement is beschikbaar vanaf"
+
+msgid "bannerTooltip/description"
+msgstr "Massale 30v30-gevechten met niveau {{vehicleTier}} voertuigen op de kaarten Normandië, Kraftwerk en Fata Morgana. De aanvallers moeten 3 van de 5 zware kanonnen vernietigen, terwijl de verdedigers deze kanonnen moeten beschermen."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Toon je dapperheid in intense strijd voor faam en waardevolle beloningen, en om hogere rangen te bereiken."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Het evenement is afgelopen en je kunt beloningen voor voltooide Frontlinieniveaus ophalen."
+
+msgid "bannerTooltip/header"
+msgstr "Frontlinie"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Frontlinie | niveau {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} – spelmodus. Klik en ontdek"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Deze modus vereist een hoge computerprestatie. Je zult problemen ervaren met de graphics, voertuigbeweging en het laden van de kaart. Probeer in het geval van een onvoldoende prestatie om in de instellingen de graphics te verlagen."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Mogelijk verminderde prestatie"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Selecteer beloningen voor voltooide niveaus ({{value}})"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Onvoldoende valuta voor de aankoop."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "De veranderingen zullen op alle tankjagers worden toegepast."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "De veranderingen zullen op alle artillerie worden toegepast."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "De veranderingen zullen op alle zware tanks worden toegepast."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "De veranderingen zullen op alle lichte tanks worden toegepast."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "De veranderingen zullen op alle medium tanks worden toegepast."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Ongeschikt voertuig"
+
+msgid "battleAbilities/points/body"
+msgstr "Verzamel het benodigde aantal punten en activeer de Frontliniegevechtsreserves."
+
+msgid "battleAbilities/points/header"
+msgstr "Gevechtsreservepunten"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Bekijk aanvalsreserves"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Aanvalsreserves"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Bekijk verkenningsreserves"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Verkenningsreserves"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Bekijk tactische reserves"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Tactische reserves"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Het gevechtsreserveniveau wordt verhoogd nadat de kapitein en majoor rangen in het gevecht zijn bereikt. Het maximale niveau hangt af van het gevechtsscenario."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Extra informatie"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Aanvalsreserves"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Verkenningsreserves"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Tactische reserves"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Permanente eigenschappen:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Een in deze plek geplaatste gevechtsreserve verhoogt de kans dat die in het {{@ colorLegacy 'FFE4C0'}}Wending van het lot{{/}} scenario wordt aangeboden met {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Reserveniveau:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Niet gekocht!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Het evenement is afgelopen."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Het evenement zal binnenkort beginnen!"
+
+msgid "infoButton/body"
+msgstr "Klik voor meer informatie."
+
+msgid "infoButton/header"
+msgstr "Over het evenement"
+
+msgid "levelReserves/desc"
+msgstr "De gevechtsreserveniveaus nemen bij het bereiken van nieuwe rangen toe:"
+
+msgid "levelReserves/info"
+msgstr "In het {{@ colorLegacy 'FFE4C0'}}Wending van het lot{{/}} scenario verhoogt het kopen van een gevechtsreserve het niveau ervan met één, en geeft dat je de mogelijkheid om de reserve naar niveau {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}} te verbeteren."
+
+msgid "levelReserves/level"
+msgstr "Neemt toe bij het bereiken van de volgende rang: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Beschikbaar met de volgende rang: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Niveau - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "Voor {{@ colorLegacy 'FFE4C0'}}gekochte gevechtsreserves{{/}} in het {{@ colorLegacy 'FFE4C0'}}Wending van het lot{{/}} scenario."
+
+msgid "levelReserves/title"
+msgstr "Gevechtsreserveniveaus"
+
+msgid "playlist/warning/body"
+msgstr "Deze speellijst bevat voertuigen die niet geschikt zijn voor deze spelmodus of niet in je garage staan."
+
+msgid "playlist/warning/header"
+msgstr "Voertuigen onbeschikbaar (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Gevechtsreserve-eigenschappen verbeterd"
+
+msgid "randomReserve/disable"
+msgstr "De gevechtsreserveplek is gebruikt."
+
+msgid "randomReserve/notPurchased"
+msgstr "Gevechtsreserve niet gekocht"
+
+msgid "randomReserve/purchased"
+msgstr "Gevechtsreserve gekocht"
+
+msgid "skillOrderTooltip/body"
+msgstr "Elk voertuigtype heeft zijn eigen volgorde voor het ontgrendelen van reserves:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Ontgrendelingsvolgorde van gevechtsreserves"
+
+msgid "skillOrderTooltip/info"
+msgstr "In het {{@ colorLegacy 'whiteSpanish'}}Wending van het lot{{/}} scenario hangt de volgorde van het ontgrendelen van de gevechtsreserves niet af van het voertuigtype."

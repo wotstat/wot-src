@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Schemat złożony"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Schemat  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Schemat {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "Kup"
+
+msgid "blueprintScreen/button/research"
+msgstr "Zbadaj"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Wyświetl w garażu"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Możesz złożyć schemat, aby zdobyć prawo do zniżki na zbadanie wybranego pojazdu. Będziesz musiał jednak zbadać pojazd\npoprzedzający go w gałęzi, aby wykorzystać zniżkę."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Tak jest!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Badanie niemożliwe"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "Aby stworzyć fragment schematu, potrzebujesz:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "wybierz:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "STWÓRZ FRAGMENT:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Stwórz fragmenty"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Zamień\nfragment"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Zamiana \nniedostępna"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "NIEDOSTĘPNE:\nZa mało\nzasobów"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Przejdź do pojazdu"
+
+msgid "blueprintScreen/or"
+msgstr "lub"
+
+msgid "blueprintScreen/research"
+msgstr "BADAJ"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Badanie pojazdu za darmo"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Badanie niemożliwe"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Zniżka na badanie:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Ten pojazd został zbadany i można go kupić"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Ten pojazd został zbadany i kupiony"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "W magazynie:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Możesz wykorzystać 100% zniżki na zbadanie {vehicleName}, kiedy zbadasz poprzedni pojazd w gałęzi."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Schemat złożony"
+
+msgid "blueprintScreen/unlocked"
+msgstr "POJAZD\nZBADANY"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Koalicja:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Blok:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Alianci:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Unia:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Uniwersalny:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Koalicja"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Blok"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Alianci"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Unia"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Francja, Czechosłowacja, Szwecja, Włochy)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Niemcy, Japonia)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(USA, Wielka Brytania, Polska)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(ZSRR, Chiny)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Wybierz liczbę fragmentów narodowych, aby stworzyć fragmenty schematów pojazdów.\nDostępne fragmenty narodowe: %(allianceIcon)%(allianceName) %(allianceNations)."
+
+msgid "conversionView/topMessage/single"
+msgstr "Wybierz fragmenty jednego z krajów, aby stworzyć fragment schematu pojazdu.\nDostępne fragmenty narodowe: %(allianceIcon)%(allianceName) %(allianceNations)."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Ostateczny koszt:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Koszt fragmentu schematu:"
+
+msgid "nations/china"
+msgstr "Chiny"
+
+msgid "nations/czech"
+msgstr "Czechosłowacja"
+
+msgid "nations/france"
+msgstr "Francja"
+
+msgid "nations/germany"
+msgstr "Niemcy"
+
+msgid "nations/italy"
+msgstr "Włochy"
+
+msgid "nations/japan"
+msgstr "Japonia"
+
+msgid "nations/poland"
+msgstr "Polska"
+
+msgid "nations/sweden"
+msgstr "Szwecja"
+
+msgid "nations/uk"
+msgstr "Wielka Brytania"
+
+msgid "nations/usa"
+msgstr "USA"
+
+msgid "nations/ussr"
+msgstr "ZSRR"

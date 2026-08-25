@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "Voer om te bevestigen de hoeveelheid XP van het bemanningslid in die zal worden overgezet."
+
+msgid "assignmentDialog/price"
+msgstr "Kosten:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Zet alle Bemannings-XP tussen bemanningsleden over"
+
+msgid "assignmentDialog/title"
+msgstr "Bevestig mentorcursus"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Dit bemanningslid zal zonder herstel\nvan je account worden verwijderd."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} extra XP zal verloren gaan."
+
+msgid "dialogue/description"
+msgstr "Een verbruiksartikel dat je in staat stelt om alle Bemannings-XP tussen bemanningsleden van dezelfde natie over te zetten."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}Extra XP zal verloren gaan:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "SELECTEREN"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Totale hoeveelheid XP:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Mentorlicentie(s):{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Geen geschikte bemanningsleden"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Selecteer het bemanningslid waarvan de XP zal worden overgezet\nnaar {cream_Open}%(name)s{cream_Close} en dat van je account zal worden verwijderd."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "Nadat de Bemannings-XP is overgezet, zal {cream_Open}%(name)s{cream_Close} de specialisatielimiet bereiken, waardoor alle XP voorbij de limiet verloren zal gaan."
+
+msgid "mentorAssigment/title"
+msgstr "SELECTEER MENTOR"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close} heeft de specialisatielimiet bereikt en kan niet worden geselecteerd voor het overzetten van XP."
+
+msgid "multipleUserName"
+msgstr "Mentorlicenties"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Mentorlicentie(s) gebruikt: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "Bemannings-XP overgezet: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "Mentorcursus"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>Extra Bemannings-XP verloren: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Stelt je in staat om Bemannings-XP tussen\nbemanningsleden van dezelfde natie over te zetten."
+
+msgid "storage/userName"
+msgstr "Mentorlicentie"
+
+msgid "userName"
+msgstr "Mentorlicentie"

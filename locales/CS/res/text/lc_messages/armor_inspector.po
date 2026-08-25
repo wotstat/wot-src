@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Hlavní pancíř"
+
+msgid "armorValues/title/no_damage"
+msgstr "Žádné poškození"
+
+msgid "armorValues/title/other"
+msgstr "Ostatní"
+
+msgid "armorValues/title/penetration"
+msgstr "Šance na probití"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Odražení"
+
+msgid "armorValues/title/spaced"
+msgstr "Vrstvený pancíř"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Konfigurace útočníka"
+
+msgid "attackerTooltip/body"
+msgstr "Kliknutím změníte útočící vozidlo"
+
+msgid "attackerTooltip/header"
+msgstr "Útočící vozidlo"
+
+msgid "menu/header"
+msgstr "Typ překrytí"
+
+msgid "menu/no_armor"
+msgstr "Žádné překrytí"
+
+msgid "menu/nominal"
+msgstr "Nominální pancíř"
+
+msgid "menu/penetration"
+msgstr "Šance na probití"
+
+msgid "modules/current"
+msgstr "Aktuální konfigurace"
+
+msgid "modules/custom"
+msgstr "Vlastní konfigurace"
+
+msgid "modules/standard"
+msgstr "Standardní konfigurace"
+
+msgid "modules/title"
+msgstr "Moduly vozidla"
+
+msgid "modules/top"
+msgstr "Nejlepší konfigurace"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}} °"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} {{count}}x)"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Podvozek"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Dělo"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Mantlet děla"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Korba"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Clona"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Pozorovací zařízení"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Věž"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Kola"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}×"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Žádné pošokození"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Průbojnost"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}} % "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Odražení"
+
+msgid "tooltip/minor/angle/description"
+msgstr "Úhel mezi trajektorií granátu a přímkou kolmou k pancíři.\n\nTrajektorie granátu se počítá tak, jako by se granát pohyboval po přímce od středu obrazovky."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Úhel zásahu"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Šance na probití pancíře nepřítele a na poškození vozidla."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Šance na probití"
+
+msgid "tooltip/minor/effective/description"
+msgstr "U jedné vrstvy pancíře se efektivní pancíř rovná nominálnímu pancíři upravenému úhlem dopadu a normalizací granátu.\n\nPokud se v místě dopadu nachází více vrstev pancíře, výsledek je součtem efektivních hodnot pro každou vrstvu."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Efektivní pancíř"
+
+msgid "tooltip/minor/header"
+msgstr "Legenda"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Zásah vrstveného pancíře vozidlo nepoškodí, pokud granát nezasáhne a poté neprobije i hlavní pancíř."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Žádné poškození"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Skutečná šířka hlavní nebo vrstvené pancéřové desky (desek)."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Nominální pancíř"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Granáty, které zasáhnou nepřátelský pancíř pod velkým úhlem, se od něj odrazí. Mohou však zasáhnout jiné vozidlo, nebo dokonce stejné vozidlo."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Odražení"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Ovlivňuje výpočet efektivního pancíře a šanci na probití.\n\nPro všechny výpočty se používá vzdálenost 100 m (AP a APCR granáty ztrácejí s rostoucí vzdáleností průbojnost).\n\nSchopnosti posádky a vylepšení útočícího vozidla výpočty neovlivňují."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Konfigurace útočníka"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Šance na probití nepřátelského pancíře a poškození vozidla.\n\nZásah vrstveného pancíře vozidlo nepoškodí, pokud granát nezasáhne a poté neprobije i hlavní pancíř."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Šance na probití"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Vozidlo je poškozeno pouze v případě, že je zasažen a probit jeho hlavní pancíř. HE granáty mohou způsobit vozidlu snížené poškození, a to i bez toho, aby probily pancíř, avšak stále musí zasáhnout hlavní pancíř vozidla."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Hlavní pancíř"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Zásah vrstveného pancíře vozidlo nepoškodí, pokud granát nezasáhne a poté neprobije i hlavní pancíř.\n\nZasažení a probití vnějších modulů tyto moduly rovnou zničí: pro znehybnění vozidla zasáhněte pás, pro vyřazení děla zasáhněte dělo a pro snížení dohledu vozidla zasáhněte pozorovací zařízení."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Žádné poškození"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "Úhel odrazu činí 70 stupňů pro AP a APCR granáty a 85 stupňů pro HEAT granáty.\n\nHE granáty se neodráží, zatímco AP a APCR granáty po odrazu ztratí 25 % ze své průbojnosti.\n\nK odrazu nedojde, pokud je ráže granátu třikrát větší, než je nominální tloušťka pancíře v místě dopadu (platí pouze pro AP a APCR granáty)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Odražení"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Zásah vrstveného pancíře vozidlo nepoškodí, pokud granát nezasáhne a poté neprobije i hlavní pancíř.\n\nZasažení a probití vnějších modulů tyto moduly rovnou zničí: pro znehybnění vozidla zasáhněte pás, pro vyřazení děla zasáhněte dělo a pro snížení dohledu vozidla zasáhněte pozorovací zařízení.\n\nÚhel dopadu se nevztahuje na vnější moduly (například pásy a dělo), v takovém případě se efektivní pancíř rovná nominálnímu pancíři."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Vrstvený pancíř"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Podívejte se na video o mechanice probití pancíře"

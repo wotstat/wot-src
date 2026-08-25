@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_light_aggressive_detection/descr/active"
+msgstr "Görüş mesafesini {colorTagOpen}%(duration)s sn.{colorTagClose} boyunca {colorTagOpen}%%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%{colorTagClose} artırır.\n\nTespitiniz sayesinde bir düşman aracı yok edildiğinde sayaç sıfırlanır."
+
+msgid "comp7_light_aggressive_detection/name"
+msgstr "Aktif Keşif"
+
+msgid "comp7_light_ally_support/descr/active"
+msgstr "{colorTagOpen}%(duration)s sn.{colorTagClose} boyunca mürettebatınız, ekibinizde farklı rolü olan her araç için etkinliğe {colorTagOpen}%%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%{colorTagClose} bonus alır.\n\nBu bonusun hesabında kendi aracınız her zaman dâhil edilir."
+
+msgid "comp7_light_ally_support/name"
+msgstr "Hepimiz Birimiz İçin"
+
+msgid "comp7_light_aoe_heal/descr/active"
+msgstr "{colorTagOpen}%(duration)s sn.{colorTagClose} boyunca aracınızın etrafında kendi aracınız ve müttefik araçlar için {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} can puanı geri kazandıran {colorTagOpen}%(radius)s m{colorTagClose} yarıçapında bir alan oluşturur."
+
+msgid "comp7_light_aoe_heal/name"
+msgstr "Sahra Onarımları"
+
+msgid "comp7_light_aoe_inspire/descr/active"
+msgstr "{colorTagOpen}%(duration)s sn.{colorTagClose} boyunca mürettebatınız ve müttefik mürettebatlar etkinliklerine {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} bonus kazanır."
+
+msgid "comp7_light_aoe_inspire/name"
+msgstr "İlham"
+
+msgid "comp7_light_berserk/descr/active"
+msgstr "{colorTagOpen}%(duration)s sn.{colorTagClose} boyunca topun yükleme süresi {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose} kısalır. Ayrıca atış sonrası, hareket hâli ve gövde ile kule dönüşündeki top dağılımını {colorTagOpen}%%(shotDispersionFactorsBuff_1)s/%%(shotDispersionFactorsBuff_2)s/%%(shotDispersionFactorsBuff_3)s%{colorTagClose} azaltır.\n\nÇarparak veya {colorTagOpen}%(damageDistance)s m{colorTagClose}'den kısa mesafeden ateş ederek hasar verdiğinizde sayaç sıfırlanır."
+
+msgid "comp7_light_berserk/name"
+msgstr "Fury"
+
+msgid "comp7_light_concentration/descr/active"
+msgstr "Hareket, gövde dönüşü ve kule sırasında nişan alma süresi ve top dağılımını {colorTagOpen}%(duration)s sn.{colorTagClose} boyunca {colorTagOpen}%%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%{colorTagClose} azaltır.\n\nBu Rol Becerisi etkinken atış arası yükleme süresini {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s sn.{colorTagClose} azaltır."
+
+msgid "comp7_light_concentration/name"
+msgstr "Hedefe Odaklan"
+
+msgid "comp7_light_fast_recharge/descr/active"
+msgstr "• Magazin yükleme sistemi için: \nKalan magazin yükleme süresi azaltılır: {colorTagOpen}%%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%{colorTagClose}\n\n• Otomatik yükleme sistemi için: \nMevcut döngüde ateşlenen tüm mermiler yüklenir: {colorTagOpen}%%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%{colorTagClose}\n\nBeceri yalnızca yükleme işlemi sırasında etkinleştirilebilir.\n\n• Termal Aşırı Isınma Kontrollü Otomatik Top için: \nTopun ısısı olası maksimumunun {colorTagOpen}%%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%{colorTagClose} kadarı düşürülür.\n\nBeceri yalnızca top ısıtılmışsa etkinleştirilebilir."
+
+msgid "comp7_light_fast_recharge/name"
+msgstr "El Çabukluğu"
+
+msgid "comp7_light_hunter/descr/active"
+msgstr "Atışlarla hasar verilmiş düşman aracı sayısını sıfırlar.\n\n{colorTagOpen}%(duration)s sn.{colorTagClose} boyunca aracınız, etkinleştirme anında bir atış hasarı vermiş olduğunuz her düşman aracı için {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} can puanı yeniler."
+
+msgid "comp7_light_hunter/descr/passive"
+msgstr "Top yükleme süresini, atış hasarı vermiş olduğunuz her düşman aracı için {colorTagOpen}%%%(gunReloadTimeBuff)s%{colorTagClose} azaltır."
+
+msgid "comp7_light_hunter/name"
+msgstr "Ödül Avcısı"
+
+msgid "comp7_light_juggernaut/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s sn.{colorTagClose} boyunca:\n• Alınan hasar {colorTagOpen}%%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%{colorTagClose} azalır\n• Azami ileri hız {colorTagOpen}%(fwMaxSpeedBonus)s km/sa.{colorTagClose} artar\n• Azami geri hız {colorTagOpen}%(bkMaxSpeedBonus)s km/sa.{colorTagClose} artar\n• Motor gücü {colorTagOpen}%%(enginePowerBuff)s%{colorTagClose} artar\n• Düşman araçlarına çarpmadan alınan hasar {colorTagOpen}%%(rammingDamageBuff)s%{colorTagClose}\n\nBu Rol Becerisi aktifken paletleriniz tek bir atışla yok edilir."
+
+msgid "comp7_light_juggernaut/name"
+msgstr "İzbandut"
+
+msgid "comp7_light_march/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s sn.{colorTagClose} boyunca, aracınızın motor gücünü {colorTagOpen}%%(enginePowerBuff)s%{colorTagClose} artırır, azami hızını {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/sa. artırır ve gizlenme değerini {colorTagOpen}%%%(invisibilityFactor)s%{colorTagClose} artırır."
+
+msgid "comp7_light_march/name"
+msgstr "Cebri Yürüyüş"
+
+msgid "comp7_light_recon/descr/active"
+msgstr "{colorTagOpen}%(delay)s sn.{colorTagClose} içinde seçili alan üzerinden bir keşif uçağı uçar. {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} yarıçapı içinde tespit edilen düşman araçları {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;sn.{colorTagClose} boyunca tespit edilmiş kalır. Bu beceri tarafından tespit edilen bir oyuncu için {colorTagOpen}%(lampDelay)s sn.{colorTagClose} gecikme ile ayrı bir simge gösterilir.\n\nBu beceri savaş başladıktan {colorTagOpen}%(startupDelay)s sn.{colorTagClose} sonra kullanılabilir hâle gelir."
+
+msgid "comp7_light_recon/name"
+msgstr "Keşif Uçuşu"
+
+msgid "comp7_light_redline/descr/active"
+msgstr "Seçili alan {colorTagOpen}%(delay)s sn.{colorTagClose} içinde bir topçu saldırısına maruz kalır.\n\n{colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} yarıçap içinde hasar gören hedefler {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} CP hasar alır ve {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s sn.{colorTagClose} boyunca şoka sokulur."
+
+msgid "comp7_light_redline/name"
+msgstr "Destek Ateşi"
+
+msgid "comp7_light_risky_attack/descr/active"
+msgstr "İvmelenme\n\n{colorTagOpen}%(duration)s sn.{colorTagClose} boyunca, motor gücünü {colorTagOpen}%%(enginePowerBuff)s%{colorTagClose} artırır, azami hızı {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/sa. artırır ve azami geri hızı {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/sa. artırır.\n\nYenilenme\n\n{colorTagOpen}%(healDuration)s sn.{colorTagClose} boyunca, aracınız{colorTagOpen}%(baseHeal)s{colorTagClose} can puanı yeniler ve İvmelenme etkinken kaybedilen can puanlarını da {colorTagOpen}+%%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%{colorTagClose} yeniler."
+
+msgid "comp7_light_risky_attack/name"
+msgstr "Toparlanma"
+
+msgid "comp7_light_role_skill/descr/startLevel"
+msgstr " \n\nSavaşın başında Rol Becerisinin şarj seviyesi {colorTagOpen}%(startLevel)s{colorTagClose} olur."
+
+msgid "comp7_light_sniper/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s sn.{colorTagClose} boyunca, 100 m'deki dağılım {colorTagOpen}%(dispersionFactor)s m{colorTagClose} olur.\n\nAracınız atış anında tespit edilmemişse merminizin vereceği hasar {colorTagOpen}%%(damageFactors_1)s/%%(damageFactors_2)s%%(damageFactors_3)s%{colorTagClose} artar.\n\n{colorTagOpen}%(damageDistance)s m{colorTagClose} üzeri mesafeden ateş ederek verilen hasar sayacı sıfırlar."
+
+msgid "comp7_light_sniper/name"
+msgstr "Tam İsabet"
+
+msgid "comp7_light_sure_shot/descr/active"
+msgstr "Hareket, gövde dönüşü ve kule dönüşündeki top dağılımını {colorTagOpen}%(duration)s sn.{colorTagClose} boyunca {colorTagOpen}%%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%{colorTagClose} azaltır.\n\nBu beceri etkinken ateş ederek hasar verildiğinde topun yüklenme süresini düşman aracındaki can puanı kaybı oranının {colorTagOpen}%%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%{colorTagClose} kadarında azaltır.\n\nBir düşman aracını yok etmek topun yüklenme süresini {colorTagOpen}%%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%{colorTagClose} azaltır."
+
+msgid "comp7_light_sure_shot/name"
+msgstr "Düzgün Atış"

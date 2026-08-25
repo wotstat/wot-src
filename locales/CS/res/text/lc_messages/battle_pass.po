@@ -1,0 +1,1652 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "awardsWidget/description/award"
+msgstr "Kliknutím vyberete a vyzvednete své odměny."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Odměny jsou dočasně nedostupné. Omlouváme se za nepříjemnosti."
+
+msgid "awardsWidget/description/coin"
+msgstr "Kliknutím se podíváte na hodnotné předměty za žetony Battle Passu."
+
+msgid "awardsWidget/description/collection"
+msgstr "Kliknutím se podíváte na sbírku Battle Passu."
+
+msgid "awardsWidget/description/collectionCompleted"
+msgstr "Gratulujeme! Nashromáždili jste všechny prvky sbírky Battle Passu."
+
+msgid "awardsWidget/description/commander"
+msgstr "Klikněte pro zobrazení všech členů posádky určených pro akce."
+
+msgid "awardsWidget/description/taler"
+msgstr "Kliknutím se podíváte na předměty z předchozích sezón Battle Passu, které jsou dostupné za mince nebo zlaťáky."
+
+msgid "awardsWidget/description/ticket"
+msgstr "Kliknutím setřete poukazy a získáte odměny."
+
+msgid "awardsWidget/title/awardMultiple"
+msgstr "ZÍSKAT\nODMĚNY"
+
+msgid "awardsWidget/title/awardSingle"
+msgstr "ZÍSKAT\nODMĚNU"
+
+msgid "awardsWidget/title/coin"
+msgstr "PŘEDMĚTY ZA ŽETONY"
+
+msgid "awardsWidget/title/collection"
+msgstr "SBÍRKA"
+
+msgid "awardsWidget/title/commander"
+msgstr "ČLENOVÉ POSÁDKY"
+
+msgid "awardsWidget/title/taler"
+msgstr "POKLADNICE"
+
+msgid "awardsWidget/title/ticket"
+msgstr "SETŘÍT\nPOUKAZY"
+
+msgid "battleBonusX5"
+msgstr "Mise na 5× ZK"
+
+msgid "battlePassAwardsView/additionalRewards/bpBuyLevelAwardsText"
+msgstr "Získali jste vylepšenou odměnu za dokončení fáze hlavního postupu. Pokračujte v získávání bodů a dostanete více odměn."
+
+msgid "battlePassAwardsView/additionalRewards/bpRemainLevelsAwardsText"
+msgstr "%(remainingAwardsCount)s Další"
+
+msgid "battlePassAwardsView/additionalRewards/button"
+msgstr "Potvrzuji!"
+
+msgid "battlePassAwardsView/additionalRewards/seeMoreButtonText"
+msgstr "Ukázat odměny"
+
+msgid "battlePassAwardsView/additionalRewards/subText"
+msgstr "Získali jste také:"
+
+msgid "battlePassAwardsView/footer/acceptButton"
+msgstr "Potvrzuji!"
+
+msgid "battlePassAwardsView/footer/allChaptersText"
+msgstr "Odemkli jste všechny odměny Vylepšeného Passu za tři kapitoly."
+
+msgid "battlePassAwardsView/footer/boughtChapterText"
+msgstr "Máte k dispozici všechny odměny za zakoupenou fázi."
+
+msgid "battlePassAwardsView/footer/bpButtonTitle"
+msgstr "Koupit Vylepšený Pass"
+
+msgid "battlePassAwardsView/footer/bpDescriptionGotStyle"
+msgstr "Na začátku každé kapitoly získáte styl, který můžete postupem kapitolou vylepšovat. Nedokončené styly lze případně vylepšit i po skončení stávající sezóny Battle Passu."
+
+msgid "battlePassAwardsView/footer/bpInProgressTitle"
+msgstr "Kupte si Vylepšený Pass pro stávající kapitolu a získáte vylepšené odměny za již dokončené fáze. Za dokončení budoucích fází také obdržíte vylepšené odměny."
+
+msgid "battlePassAwardsView/footer/bpLastStagesTitle"
+msgstr "Kupte si Vylepšený Pass pro stávající kapitolu a okamžitě získáte vylepšené odměny za již dokončené fáze."
+
+msgid "battlePassAwardsView/footer/bpMoreTitle"
+msgstr "STÁLE MÁTE ŠANCI!"
+
+msgid "battlePassAwardsView/footer/bpTitle"
+msgstr "VYLEPŠENÝ PASS"
+
+msgid "battlePassAwardsView/footer/getRewardsButton"
+msgstr "Vyzvednout odměny"
+
+msgid "battlePassAwardsView/footer/postProgressionButton"
+msgstr "Na Elitní okruh"
+
+msgid "battlePassAwardsView/footer/postProgressionText"
+msgstr "Nyní máte přístup k Elitnímu okruhu"
+
+msgid "battlePassAwardsView/header/bpAllChapters"
+msgstr "Všechny kapitoly"
+
+msgid "battlePassAwardsView/header/bpBoughtText"
+msgstr "VYLEPŠENÝ PASS ZAKOUPEN!"
+
+msgid "battlePassAwardsView/header/bpFinalLevelText"
+msgstr "ZÁVĚREČNÁ FÁZE DOKONČENA!"
+
+msgid "battlePassAwardsView/header/bpLevelReceivedText"
+msgstr "%(currentLevel)s. FÁZE DOKONČENA!"
+
+msgid "battlePassAwardsView/header/bpLevelsText"
+msgstr "ODMĚNY ZÍSKÁNY"
+
+msgid "battlePassAwardsView/header/bpRewardText"
+msgstr "ODMĚNA ZÍSKÁNA"
+
+msgid "battlePassAwardsView/header/bpTitle"
+msgstr "BATTLE PASS: KAPITOLA „%(chapter)s“"
+
+msgid "battlePassAwardsView/header/bpTitleWithoutChapter"
+msgstr "BATTLE PASS"
+
+msgid "battlePassAwardsView/header/styleReceivedText"
+msgstr "STYL ZÍSKÁN"
+
+msgid "battlePassAwardsView/header/styleUpgradedText"
+msgstr "STYL VYLEPŠEN"
+
+msgid "battlePassAwardsView/mainReward/battlePassNewDeviceGiftToken"
+msgstr "Standardní vybavení na výběr"
+
+msgid "battlePassAwardsView/mainReward/battlePassTrophyGiftToken"
+msgstr "Trofejní vybavení na výběr"
+
+msgid "battlePassAwardsView/mainReward/bpBuyAwardsCaption"
+msgstr "Odemkli jste všechny odměny Vylepšeného Passu pro kapitolu „%(chapter)s“."
+
+msgid "battlePassAwardsView/mainReward/bpBuyWithLevels"
+msgstr "Získali jste všechny odměny pro kapitolu „%(chapter)s“."
+
+msgid "battlePassAwardsView/mainReward/commander"
+msgstr "Člen posádky: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonText"
+msgstr "Přejít na výběr"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonTitle"
+msgstr "V sekci „Zásoby z domácí fronty“ ve skladu"
+
+msgid "battlePassAwardsView/mainReward/reward"
+msgstr "Medaile: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/style"
+msgstr "3D styl: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/styleLevel1"
+msgstr "První úroveň stylu „%(styleName)s“"
+
+msgid "battlePassAwardsView/mainReward/styleLevel2"
+msgstr "Nová úroveň stylu „%(styleName)s“"
+
+msgid "battlePassAwardsView/mainReward/styleLevel3"
+msgstr "Maximální úroveň stylu „%(styleName)s“"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonText"
+msgstr "Přejít na výběr"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonTitle"
+msgstr "V sekci „Zásoby z domácí fronty“ ve skladu"
+
+msgid "battlePassBuyLevels/chapter"
+msgstr "Kapitola „%(name)s“"
+
+msgid "battlePassBuyLevels/levelsSelected"
+msgid_plural "plural/battlePassBuyLevels/levelsSelected"
+msgstr[0] "%(count)s fáze pro"
+msgstr[1] "%(count)s fáze pro"
+msgstr[2] "%(count)s fází pro"
+
+msgid "battlePassBuyView/btnCancel"
+msgstr "Zrušit"
+
+msgid "battlePassBuyView/btnRewards"
+msgstr "Zobrazit všechny odměny: \n%(count)s"
+
+msgid "battlePassBuyView/confirm/btnBuy"
+msgstr "Koupit"
+
+msgid "battlePassBuyView/confirm/checkbox/stage"
+msgid_plural "plural/battlePassBuyView/confirm/checkbox/stage"
+msgstr[0] "Společně s %(stagesNumber)s zbývající fází"
+msgstr[1] "Společně se %(stagesNumber)s zbývajícími fázemi"
+msgstr[2] "Společně s %(stagesNumber)s zbývajícími fázemi"
+
+msgid "battlePassBuyView/confirm/description"
+msgstr "Vylepšený Pass odemyká:"
+
+msgid "battlePassBuyView/confirm/descriptionCheckboxChecked"
+msgstr "Okamžitě dostanete všechny odměny kapitoly:"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/buy"
+msgstr "Zobrazit nabídky"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/description"
+msgstr "Tato nabídka platí, dokud nebude\nvylepšena žádná z kapitol sezóny."
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/headline"
+msgstr "%(count)s v 1"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/packsAmount"
+msgstr "%(amount)sx"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/title"
+msgstr "Vylepšené Passy pro\nvšechny kapitoly sezóny"
+
+msgid "battlePassBuyView/confirm/starterPack/description"
+msgstr "Bonus %(purchaseText)s"
+
+msgid "battlePassBuyView/confirm/starterPack/purchaseText"
+msgstr "k zakoupení:"
+
+msgid "battlePassBuyView/descr"
+msgstr "Zakoupením fáze postupu okamžitě odemknete a získáte všechny odměny, které jsou v této fázi obsaženy."
+
+msgid "battlePassBuyView/reward/descriptionFutureRewards"
+msgstr "Tyto odměny vám budou uděleny po dokončení nadcházejících fází."
+
+msgid "battlePassBuyView/reward/descriptionNowRewards"
+msgstr "Budou vám uděleny následující odměny za fáze %(steps)s"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
+msgstr "Okamžitě dostanete všechny následující odměny"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
+msgstr "Budou vám uděleny následující odměny za fázi %(steps)s"
+
+msgid "battlePassBuyView/reward/titleFutureRewards"
+msgstr "BUDOU ODEMČENY"
+
+msgid "battlePassBuyView/reward/titleNowRewards"
+msgstr "BUDOU OBDRŽENY OKAMŽITĚ"
+
+msgid "battlePassStatus/activateChapter"
+msgstr "Aktivovat kapitolu Battle Passu"
+
+msgid "battlePassStatus/improve"
+msgstr "Stále můžete zakoupit Vylepšený Pass"
+
+msgid "battlePassVehicleAwardView/button"
+msgstr "Potvrzuji!"
+
+msgid "battlePassVehicleAwardView/content/description"
+msgstr "DOSAŽENO LIMITU BODŮ"
+
+msgid "battlePassVehicleAwardView/content/postTitle"
+msgstr "ELITNÍ POSTUP BATTLE PASSU"
+
+msgid "battlePassVehicleAwardView/content/subTitle"
+msgstr "Dostali jste odměny:"
+
+msgid "battlePassVehicleAwardView/content/title"
+msgstr "BATTLE PASS"
+
+msgid "battlepassTab"
+msgstr "Battle Pass"
+
+msgid "chapter/fullName/10021"
+msgstr "Carmen de Bisonte"
+
+msgid "chapter/fullName/1114"
+msgstr "Carmen de Bisonte"
+
+msgid "chapter/fullName/200"
+msgstr "Elitní okruh"
+
+msgid "chapter/fullName/201"
+msgstr "Ztracený čas"
+
+msgid "chapter/fullName/202"
+msgstr "C'est Notre Destin"
+
+msgid "chapter/fullName/203"
+msgstr "Pouštní velení"
+
+msgid "chapter/fullName/205"
+msgstr "Far Cry"
+
+msgid "chapter/fullNameUppercased/10021"
+msgstr "CARMEN DE BISONTE"
+
+msgid "chapter/fullNameUppercased/1114"
+msgstr "CARMEN DE BISONTE"
+
+msgid "chapter/fullNameUppercased/201"
+msgstr "ZTRACENÝ ČAS"
+
+msgid "chapter/fullNameUppercased/202"
+msgstr "C'EST NOTRE DESTIN"
+
+msgid "chapter/fullNameUppercased/203"
+msgstr "POUŠTNÍ VELENÍ"
+
+msgid "chapter/fullNameUppercased/205"
+msgstr "FAR CRY"
+
+msgid "chapter/title"
+msgstr "KAPITOLA „%(chapter)s“"
+
+msgid "chapterChoice/about"
+msgstr "O BATTLE PASSU"
+
+msgid "chapterChoice/activeChapter/postprogression/text"
+msgstr "Aktivní"
+
+msgid "chapterChoice/activeChapter/text"
+msgstr "Aktivní kapitola"
+
+msgid "chapterChoice/chapterCompleted"
+msgstr "Kapitola dokončena"
+
+msgid "chapterChoice/chapterInfo/buttons/toChapter"
+msgstr "Na kapitolu"
+
+msgid "chapterChoice/chapterInfo/buttons/toCrewMembers"
+msgstr "Zobrazit členy posádky"
+
+msgid "chapterChoice/chapterInfo/buttons/toPostProgression"
+msgstr "Na postup"
+
+msgid "chapterChoice/chapterInfo/deadline/date"
+msgstr "Potrvá do %(endDate)s"
+
+msgid "chapterChoice/chapterInfo/deadline/time"
+msgstr "Skončí za %(endTime)s"
+
+msgid "chapterChoice/confirmation/button/cancel"
+msgstr "Zrušit"
+
+msgid "chapterChoice/confirmation/button/submit"
+msgstr "Aktivovat"
+
+msgid "chapterChoice/confirmation/button/switch"
+msgstr "Přepnout"
+
+msgid "chapterChoice/confirmation/description/select"
+msgstr "Kdykoliv můžete přepnout na jiné kapitoly."
+
+msgid "chapterChoice/confirmation/description/switch"
+msgstr "Kapitolu „%(chName)s“ jste již aktivovali. Bude pozastavena."
+
+msgid "chapterChoice/confirmation/extraChapterDescription/highlightText"
+msgstr "bude nedostupný"
+
+msgid "chapterChoice/confirmation/extraChapterDescription/text"
+msgstr "%(icon)Jakmile je aktivována speciální kapitola, Elitní okruh %(highlightText) do té doby, než kapitola skončí nebo nedokončíte její postup."
+
+msgid "chapterChoice/confirmation/title/select"
+msgstr "Aktivovat kapitolu „%(chName)s“?"
+
+msgid "chapterChoice/confirmation/title/switch"
+msgstr "Přepnout na kapitolu „%(chName)s“?"
+
+msgid "chapterChoice/crewMember/reward"
+msgstr "Členové posádky"
+
+msgid "chapterChoice/crewMember/reward/subTitle"
+msgstr "a další členové posádky uvnitř"
+
+msgid "chapterChoice/eliteCircuit/reward/subTitle"
+msgstr "v rámci postupu"
+
+msgid "chapterChoice/eliteCircuit/reward/title"
+msgstr "Bony, mince a poukazy"
+
+msgid "chapterChoice/extraChapter/reward"
+msgstr "Prémiové vozidlo"
+
+msgid "chapterChoice/freePoints/text"
+msgstr "Neutracené body"
+
+msgid "chapterChoice/freePoints/tooltip/body"
+msgstr "Body se hromadí postupem Battle Passem, a to i když není aktivována žádná kapitola. Jakmile aktivujete kapitolu, body budou započítány do jejího postupu."
+
+msgid "chapterChoice/freePoints/tooltip/header"
+msgstr "Nevyužité body Battle Passu"
+
+msgid "chapterChoice/postprogression/locked"
+msgstr "Pro odemčení dokončete všechny \n{{count}} kapitoly sezóny"
+
+msgid "chapterChoice/postprogression/name"
+msgstr "Elitní okruh"
+
+msgid "chapterChoice/postprogression/unlocked/cycle"
+msgstr "%(cycle)s. cyklus"
+
+msgid "chapterChoice/stages/additional"
+msgstr " / %(level)s fáze"
+
+msgid "chapterChoice/stages/complete/improved"
+msgstr "Dokončené a vylepšené"
+
+msgid "chapterChoice/stages/complete/unimproved"
+msgstr "%(count)s dalších odměn uvnitř"
+
+msgid "chapterChoice/stylePreview/reward/subTitle"
+msgstr "pro %(vehicleName)s"
+
+msgid "chapterChoice/stylePreview/reward/title"
+msgstr "3D styl „%(styleName)s“"
+
+msgid "chapterChoice/vehicle/reward/subTitle"
+msgstr "%(vehicleName)s"
+
+msgid "chapterChoice/vehicle/reward/title"
+msgstr "Prémiové vozidlo"
+
+msgid "chapterChoice/vehicleStyle/reward/subTitle"
+msgstr "a 3D styl „%(styleName)s“"
+
+msgid "chapterChoice/vehicleStyle/reward/title"
+msgstr "%(vehicleName)s"
+
+msgid "chapterStatus/notSelected"
+msgstr "Není vybrána kapitola"
+
+msgid "chosenBonuses/bonus/battle_booster_gift"
+msgstr "Směrnice na výběr"
+
+msgid "chosenBonuses/bonus/blueprint_gift"
+msgstr "Fragmenty národních plánů na výběr"
+
+msgid "chosenBonuses/bonus/brochure_gift"
+msgstr "Výcvikové brožury na výběr"
+
+msgid "chosenBonuses/bonus/crewbook_gift"
+msgstr "Výcvikové manuály na výběr"
+
+msgid "chosenBonuses/bonus/guide_gift"
+msgstr "Průvodci výcvikem na výběr"
+
+msgid "chosenBonuses/bonus/modernized_device_gift"
+msgstr "Experimentální vybavení na výběr"
+
+msgid "chosenBonuses/bonus/new_device_gift"
+msgstr "Standardní vybavení na výběr"
+
+msgid "chosenBonuses/bonus/trophy_gift"
+msgstr "Trofejní vybavení na výběr"
+
+msgid "common/collectionText"
+msgstr "(Prvek sbírky)"
+
+msgid "common/comma"
+msgstr ", "
+
+msgid "common/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "commonProgression/body/ended"
+msgstr "Sezóna Battle Passu skončila"
+
+msgid "crewBonusX3"
+msgstr "Mise na 3× ZK posádky"
+
+msgid "equipCoinBonus"
+msgstr "Součásti: %(count)s"
+
+msgid "finalReward/tankman/roles/commander"
+msgstr "Velitel"
+
+msgid "finalReward/tankman/roles/driver"
+msgstr "Řidič"
+
+msgid "finalReward/tankman/roles/gunner"
+msgstr "Střelec"
+
+msgid "finalReward/tankman/roles/loader"
+msgstr "Nabíječ"
+
+msgid "finalReward/tankman/roles/radioman"
+msgstr "Radista"
+
+msgid "holidayFinalScreen/buyState/buyButton"
+msgstr "Koupit Vylepšený Pass"
+
+msgid "holidayFinalScreen/buyState/description"
+msgstr "Zakoupením Vylepšeného Passu okamžitě získáte prémiové vozidlo s jedinečným 3D stylem a všechny odměny Vylepšeného Passu."
+
+msgid "holidayFinalScreen/buyState/moreRewards"
+msgstr "Další odměny: %(count)s"
+
+msgid "holidayFinalScreen/buyState/title"
+msgstr "Získejte odměny Vylepšeného Passu"
+
+msgid "holidayFinalScreen/chapter"
+msgstr "„%(chapterName)s“"
+
+msgid "holidayFinalScreen/completed"
+msgstr "KAPITOLA DOKONČENA"
+
+msgid "holidayFinalScreen/finalState/button/showHangar"
+msgstr "Zpět do garáže"
+
+msgid "holidayFinalScreen/finalState/button/showVehicle"
+msgstr "Ukázat v garáži"
+
+msgid "holidayFinalScreen/finalState/label"
+msgstr "Všechny odměny akce získány"
+
+msgid "holidayFinalScreen/selectableRewardsState/button"
+msgstr "Vyzvednout odměny"
+
+msgid "holidayFinalScreen/selectableRewardsState/label"
+msgstr "Stále máte odměny k výběru."
+
+msgid "holidayFinalScreen/tankmenState/description"
+msgstr "Během této akce jsou v obchodě dostupné balíčky obsahující jedinečné členy posádky."
+
+msgid "holidayFinalScreen/tankmenState/tankmenButton"
+msgstr "Poslechnout si dabing"
+
+msgid "holidayFinalScreen/tankmenState/title"
+msgstr "Nasbírejte všechny členy posádky!"
+
+msgid "howToEarnPoints/battleRoyal/platoon"
+msgstr "V četě"
+
+msgid "howToEarnPoints/battleRoyal/solo"
+msgstr "Sólo"
+
+msgid "howToEarnPoints/battleTypeTitle/1"
+msgstr "Náhodná bitva"
+
+msgid "howToEarnPoints/battleTypeTitle/27"
+msgstr "Frontová linie"
+
+msgid "howToEarnPoints/battleTypeTitle/29"
+msgstr "Ocelový lovec"
+
+msgid "howToEarnPoints/battleTypeTitle/43"
+msgstr "Nápor"
+
+msgid "howToEarnPoints/battleTypeTitle/49"
+msgstr "Lehký Nápor"
+
+msgid "howToEarnPoints/bonus"
+msgstr "+%(bonus)s"
+
+msgid "howToEarnPoints/card/battle/linkText"
+msgstr "Přejít na mise"
+
+msgid "howToEarnPoints/card/battle/text"
+msgstr "Splňte mise v akci Ocelový lovec a získejte dodatečné body."
+
+msgid "howToEarnPoints/card/battle/title"
+msgstr "Denní mise"
+
+msgid "howToEarnPoints/card/comp7/text"
+msgstr "Splňte mise v akci Nápor a získejte dodatečné body."
+
+msgid "howToEarnPoints/card/comp7/title"
+msgstr "Denní mise"
+
+msgid "howToEarnPoints/card/comp7Light/text"
+msgstr "Splňte mise v režimu „Lehký Nápor“ a získejte dodatečné body."
+
+msgid "howToEarnPoints/card/comp7Light/title"
+msgstr "Denní mise"
+
+msgid "howToEarnPoints/card/daily/linkText"
+msgstr "Zobrazit mise"
+
+msgid "howToEarnPoints/card/daily/text"
+msgstr "Získejte za plnění denních misí ještě více bodů."
+
+msgid "howToEarnPoints/card/daily/title"
+msgstr "Denní mise"
+
+msgid "howToEarnPoints/card/epicBattlePoints/text"
+msgstr "Za dosažení úrovní Frontové linie získáte další body Battle Passu."
+
+msgid "howToEarnPoints/card/epicBattlePoints/title"
+msgstr "Odměna za úrovně Frontové linie"
+
+msgid "howToEarnPoints/card/limitPoints/text"
+msgstr "Každé vozidlo má limit bodů. Dosáhněte tohoto limitu a získejte body navíc."
+
+msgid "howToEarnPoints/card/limitPoints/title"
+msgstr "Odměna za dosažení limitu bodů"
+
+msgid "howToEarnPoints/card/specialVehicle/text"
+msgstr "Používání hlavních vozidel sezóny vám vynese body navíc."
+
+msgid "howToEarnPoints/card/specialVehicle/title"
+msgstr "Hlavní vozidla sezóny"
+
+msgid "howToEarnPoints/condition/43"
+msgstr "Podle bodů prestiže"
+
+msgid "howToEarnPoints/condition/49"
+msgstr "Podle bodů prestiže"
+
+msgid "howToEarnPoints/condition/default"
+msgstr "Výsledek podle ZK"
+
+msgid "howToEarnPoints/conditions"
+msgstr "Podmínky získání"
+
+msgid "howToEarnPoints/description"
+msgstr "Postupujte kapitolami a získáváním bodů Battle Passu z různých režimů sbírejte odměny:"
+
+msgid "howToEarnPoints/earned"
+msgstr "{{icon}}"
+
+msgid "howToEarnPoints/extraPoints"
+msgstr "Body navíc"
+
+msgid "howToEarnPoints/lose/1"
+msgstr "Porážka/remíza"
+
+msgid "howToEarnPoints/lose/27"
+msgstr "Porážka"
+
+msgid "howToEarnPoints/lose/43"
+msgstr "Porážka/remíza"
+
+msgid "howToEarnPoints/lose/49"
+msgstr "Porážka/remíza"
+
+msgid "howToEarnPoints/plusBanner/line1"
+msgstr "Získejte s %(link)s více bodů"
+
+msgid "howToEarnPoints/plusBanner/line2"
+msgstr "pro všechny běžné kapitoly."
+
+msgid "howToEarnPoints/plusBanner/link"
+msgstr "WoT Plus Pro"
+
+msgid "howToEarnPoints/points"
+msgstr "Body"
+
+msgid "howToEarnPoints/rangeLevels/29"
+msgstr "Pozice %(startLevel)d–%(endLevel)d"
+
+msgid "howToEarnPoints/rating"
+msgstr "Nejlepších %(place)d"
+
+msgid "howToEarnPoints/rating/1"
+msgstr "Top %(level)d podle ZK"
+
+msgid "howToEarnPoints/rating/27"
+msgstr "%(level)d nejlepších podle ZK"
+
+msgid "howToEarnPoints/rating/29"
+msgstr "Top %(level)d podle ZK"
+
+msgid "howToEarnPoints/rating/43"
+msgstr "%(level)d nejlepších podle bodů prestiže"
+
+msgid "howToEarnPoints/rating/49"
+msgstr "%(level)d nejlepších podle bodů prestiže"
+
+msgid "howToEarnPoints/singleLevel/29"
+msgstr "Pozice %(level)d"
+
+msgid "howToEarnPoints/solo/29"
+msgstr "Hraní sólo"
+
+msgid "howToEarnPoints/squad/29"
+msgstr "Hraní v četě"
+
+msgid "howToEarnPoints/text/1"
+msgstr "%(startLevel)s.–%(endLevel)s. úroveň"
+
+msgid "howToEarnPoints/text/27"
+msgstr "%(level)s. úroveň"
+
+msgid "howToEarnPoints/text/29"
+msgstr "Speciální vozidla"
+
+msgid "howToEarnPoints/text/43"
+msgstr "%(level)s. úroveň"
+
+msgid "howToEarnPoints/text/49"
+msgstr "%(level)s. úroveň"
+
+msgid "howToEarnPoints/title"
+msgstr "Jak získat body navíc"
+
+msgid "howToEarnPoints/vehicle"
+msgstr "Vozidlo"
+
+msgid "howToEarnPoints/vehicles"
+msgstr "Speciální vozidla"
+
+msgid "howToEarnPoints/win/1"
+msgstr "Vítězství"
+
+msgid "howToEarnPoints/win/27"
+msgstr "Vítězství"
+
+msgid "howToEarnPoints/win/43"
+msgstr "Vítězství"
+
+msgid "howToEarnPoints/win/49"
+msgstr "Vítězství"
+
+msgid "intro/affirmative/button"
+msgstr "Potvrzuji!"
+
+msgid "intro/next/button"
+msgstr "Další"
+
+msgid "intro/seasonDescription/text"
+msgstr "V XVIII. sezóně Battle Passu můžete získat exkluzivní 3D styly pro hlavní vozidla sezóny: Maus, IS-7 a AMX&nbsp;50&nbsp;B."
+
+msgid "intro/seasonDescription/title"
+msgstr "Nové tematické 3D styly"
+
+msgid "intro/title"
+msgstr "XVIII. SEZÓNA: CESTA K DOKONALOSTI"
+
+msgid "lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "navigation/buyLevels"
+msgstr "KOUPIT FÁZI"
+
+msgid "navigation/buyLevelsRewards"
+msgstr "ODMĚNY ZA FÁZE"
+
+msgid "navigation/buyPass"
+msgstr "NÁKUP VYLEPŠENÉHO PASSU"
+
+msgid "navigation/buyPassConfirm"
+msgstr "KOUPIT VYLEPŠENÝ PASS"
+
+msgid "navigation/buyPassRewards"
+msgstr "ODMĚNY VYLEPŠENÉHO PASSU"
+
+msgid "navigation/chapterChoice"
+msgstr "%(seasonNum)s. SEZÓNA BATTLE PASSU"
+
+msgid "navigation/holidayFinal"
+msgstr "BATTLE PASS"
+
+msgid "navigation/intro"
+msgstr "%(seasonNum)s. SEZÓNA BATTLE PASSU"
+
+msgid "navigation/postProgression"
+msgstr "ELITNÍ OKRUH BATTLE PASSU"
+
+msgid "navigation/progression"
+msgstr "KAPITOLA BATTLE PASSU"
+
+msgid "navigation/tankmenScreen"
+msgstr "JEDINEČNÍ ČLENOVÉ POSÁDKY"
+
+msgid "points/top"
+msgstr "%(vehicle): %(bonus) pro %(top) podle ZK."
+
+msgid "points/topCount"
+msgstr "%(top)s nejlepších"
+
+msgid "points/transfer"
+msgstr "Volných bodů přidáno:"
+
+msgid "postProgressionView/footer/button/text"
+msgstr "Na kapitoly"
+
+msgid "postProgressionView/footer/description/text"
+msgstr "Dostupná po dokončení všech kapitol. Kapitol dokončeno: %(completedChapters)/%(chaptersAmount)"
+
+msgid "postProgressionView/footer/extraChapter/description/text"
+msgstr "Získejte prémiové vozidlo a exkluzivní prvky na úpravu vzhledu."
+
+msgid "postProgressionView/footer/extraChapter/title/text"
+msgstr "Battle Pass: Far Cry je tady!"
+
+msgid "postProgressionView/footer/purchaseIP/banner/text"
+msgstr "Kupte si Vylepšený Pass a získejte víc odměn!"
+
+msgid "postProgressionView/footer/purchaseIP/button/text"
+msgstr "Koupit"
+
+msgid "postProgressionView/header/description/active"
+msgstr "Sbírejte body v bitvě a jako odměnu získejte bony a poukazy"
+
+msgid "postProgressionView/header/description/onPause/highlight"
+msgstr "POZASTAVENO."
+
+msgid "postProgressionView/header/description/onPause/regular"
+msgstr "Bude dostupný poté, co dokončíte postup speciální kapitolou."
+
+msgid "postProgressionView/header/headline/deadline"
+msgstr "Potrvá do %(endDate)s"
+
+msgid "postProgressionView/header/headline/unlocked"
+msgstr "Všechny kapitoly dokončeny"
+
+msgid "postProgressionView/header/title"
+msgstr "ELITNÍ OKRUH"
+
+msgid "postProgressionView/progression/currentStep"
+msgstr "Stávající fáze"
+
+msgid "postProgressionView/progression/cyclesCompleted"
+msgstr "Dokončeno cyklů:"
+
+msgid "postProgressionView/progression/cyclicalProgression"
+msgstr "Cyklický postup"
+
+msgid "postProgressionView/toolbar/aboutBattlePass"
+msgstr "O BATTLE PASSU"
+
+msgid "postProgressionView/toolbar/howToEarnPoints"
+msgstr "JAK ZÍSKAT BODY"
+
+msgid "prestige/top"
+msgstr "%(vehicle): %(bonus) za umístění mezi nejlepšími hráči %(top) podle získaných bodů prestiže."
+
+msgid "progression/about"
+msgstr "O BATTLE PASSU"
+
+msgid "progression/aboutExtra"
+msgstr "O AKCI"
+
+msgid "progression/activateChapter"
+msgstr "Aktivovat kapitolu"
+
+msgid "progression/activateChapterDescr"
+msgstr "Za dokončení aktivní kapitoly obdržíte body Battle Passu a další odměny."
+
+msgid "progression/activateExtraChapterDescr"
+msgstr "Za dokončení aktivní kapitoly obdržíte body Battle Passu a další odměny."
+
+msgid "progression/activatePausedExtraChapterDescr"
+msgstr "Za dokončení aktivní kapitoly obdržíte body Battle Passu a odměny."
+
+msgid "progression/backToCurrentStageArrow/descr"
+msgstr "Kliknutím přejdete na stávající fázi."
+
+msgid "progression/backToPotentialStageArrow/descr"
+msgstr "Kliknutím přejdete na odemknutelnou fázi."
+
+msgid "progression/baseProgressionDescr"
+msgstr "ZÁKLADNÍ ODMĚNY"
+
+msgid "progression/battlePassBuyBtn"
+msgstr "Koupit Vylepšený Pass"
+
+msgid "progression/battlePassBuyDescr"
+msgstr "Vylepšený Pass odemyká panel vylepšených odměn pro stávající kapitolu."
+
+msgid "progression/battlePassBuyDescrStarterPack"
+msgstr "Odemkněte si vylepšené odměny\na získejte bonus"
+
+msgid "progression/battlePassBuyHolidayDescr"
+msgstr "Vylepšený Pass odemyká panel vylepšených odměn."
+
+msgid "progression/battlePassNextChapterBuyDescr"
+msgstr "Dokončete předchozí kapitolu a kupte si pro ni Vylepšený Pass."
+
+msgid "progression/battlePassNextChapterEpisodesDescr"
+msgstr "Dokončete předchozí kapitolu a kupte si fáze v této kapitole."
+
+msgid "progression/btnExtras"
+msgstr "DALŠÍ\nMATERIÁLY"
+
+msgid "progression/btnExtrasTooltip"
+msgstr "Dokončete fáze a odemkněte si nové materiály. Odemčené materiály: %(opened)/%(total)."
+
+msgid "progression/btnNoExtrasTooltip"
+msgstr "Dokončete fáze a odemkněte si nové materiály."
+
+msgid "progression/btnRewardSelect"
+msgstr "VYZVEDNOUT ODMĚNU"
+
+msgid "progression/btnRewardSelectTooltip"
+msgstr "Kliknutím vyberete a vyzvednete své odměny."
+
+msgid "progression/btnRewardsSelect"
+msgstr "VYZVEDNOUT ODMĚNY"
+
+msgid "progression/btnRewardsUnavailable"
+msgstr "Tato operace je z technických důvodů dočasně nedostupná. Na opravě problému pracujeme."
+
+msgid "progression/btnTokensStore"
+msgstr "PŘEDMĚTY\nZA ŽETONY"
+
+msgid "progression/btnTokensStoreTooltip"
+msgstr "Kliknutím se podíváte na hodnotné předměty za žetony Battle Passu.\nDostupné žetony: %(bpcoinCount)."
+
+msgid "progression/chapterText"
+msgstr "%(chapter)s. KAPITOLA: „%(chapterName)s“"
+
+msgid "progression/currentStep"
+msgstr "Stávající fáze"
+
+msgid "progression/currentStepLocked"
+msgstr "VYLEPŠENÁ ODMĚNA"
+
+msgid "progression/episodeBuyBtn"
+msgstr "Koupit fáze"
+
+msgid "progression/episodeBuyDescr"
+msgstr "Za každou zakoupenou fázi získáte odměny."
+
+msgid "progression/episodeBuyDisableDescr"
+msgstr "Můžete si zakoupit libovolný počet fází za %(day)"
+
+msgid "progression/error"
+msgstr "Battle Pass je z technických důvodů dočasně nedostupný.\nVeškerý postup bude uložen. Omlouváme se za nepříjemnosti."
+
+msgid "progression/errorBtn"
+msgstr "Do garáže"
+
+msgid "progression/extraChapterWidget/commanderVoices"
+msgstr "Na další"
+
+msgid "progression/extraChapterWidget/forLabel"
+msgstr "Pro %(vehicleName)s"
+
+msgid "progression/extraChapterWidget/inHangarTooltip"
+msgstr "V garáži"
+
+msgid "progression/extraChapterWidget/labelWithBP"
+msgstr "S Vylepšeným Passem"
+
+msgid "progression/extraChapterWidget/style3DTitle"
+msgstr "3D styl"
+
+msgid "progression/extraChapterWidget/styleName"
+msgstr "„%(styleName)s“"
+
+msgid "progression/extraChapterWidget/styleRemark"
+msgstr "S Vylepšeným Passem"
+
+msgid "progression/extraChapterWidget/styleSubTitle"
+msgstr "a mise pro %(vehicleName)s"
+
+msgid "progression/extraChapterWidget/styleTitle"
+msgstr "Styl"
+
+msgid "progression/extraChapterWidget/tank"
+msgstr "Prémiové vozidlo"
+
+msgid "progression/extraChapterWidget/tank/description/14"
+msgstr "Na připomenutí si 80 let\nod Dne D"
+
+msgid "progression/extraChapterWidget/tankName"
+msgstr "%(vehicleName)s"
+
+msgid "progression/extraChapterWidget/tankman"
+msgstr "Člen posádky"
+
+msgid "progression/extraChapterWidget/timer"
+msgstr "Zbývající čas do konce kapitoly Battle Passu"
+
+msgid "progression/extraChapterWidget/vehicleCaption"
+msgstr "Prémiové vozidlo"
+
+msgid "progression/extraChapterWidget/vehicleSubTitle"
+msgstr "a 3D styl „%(styleName)s“"
+
+msgid "progression/extraChapterWidget/voiceoverTooltip"
+msgstr "Kliknutím si poslechnete dabing člena posádky."
+
+msgid "progression/footer/starter_pack/equal"
+msgstr "="
+
+msgid "progression/footer/status/inactive"
+msgstr "Kapitola neaktivní"
+
+msgid "progression/footer/status/paused"
+msgstr "Kapitola pozastavena."
+
+msgid "progression/freePointsDescr"
+msgstr "Nevyužité body Battle Passu: "
+
+msgid "progression/header/chapter/status"
+msgstr "Kapitola „%(chapterName)s“"
+
+msgid "progression/header/inactive"
+msgstr "neaktivní"
+
+msgid "progression/header/paused"
+msgstr "pozastavena"
+
+msgid "progression/howToEarnPoints/title"
+msgstr "JAK ZÍSKAT BODY"
+
+msgid "progression/pausedStep"
+msgstr "Fáze"
+
+msgid "progression/postProgressionDescr"
+msgstr "ELITNÍ POSTUP"
+
+msgid "progression/premiumProgressionDescr"
+msgstr "VYLEPŠENÉ ODMĚNY"
+
+msgid "progression/progressionArrow"
+msgstr "UKÁZAT\nVŠECHNY FÁZE"
+
+msgid "progression/progressionChapterArrow"
+msgstr "KAPITOLA %(chapter)"
+
+msgid "progression/progressionChapterGoTo"
+msgstr "PŘEJÍT NA"
+
+msgid "progression/season/end/normal"
+msgstr "%(seasonNum)s. sezóna: %(seasonName)s potrvá do %(endDate)s"
+
+msgid "progression/season/end/special"
+msgstr "Potrvá do: %(endTime)s"
+
+msgid "progression/seasonEndingDescr"
+msgstr "Akce končí za "
+
+msgid "progression/seasonEndingTooltip"
+msgstr "Do konce zbývá: {day} d"
+
+msgid "progression/takeReward"
+msgstr "Vyzvednout odměnu"
+
+msgid "progression/universalCommander"
+msgstr "Jedinečný člen posádky"
+
+msgid "progression/widget3dStyle/currentStyle"
+msgstr "Styl „%(name)“"
+
+msgid "progression/widget3dStyle/forVehicle"
+msgstr "Pro "
+
+msgid "progression/widget3dStyle/titleForClosedChapter"
+msgstr "Dokončete předchozí kapitolu\na vyberte si styl"
+
+msgid "progression/widget3dStyle/titleForLastChapter"
+msgstr "Vyberte si styl za kapitolu.\nDá se okamžitě použít"
+
+msgid "progression/widget3dStyle/titleNoChapterSelected"
+msgstr "Aktivujte kapitolu, abyste získali 3D styl"
+
+msgid "progression/widget3dStyle/viewStyles"
+msgstr "Ukázat všechny styly"
+
+msgid "questChainBonus"
+msgstr "Série misí"
+
+msgid "randomQuestBonus"
+msgstr "Mise pro %(vehicle)s"
+
+msgid "reward/postBattle/comp7/progress"
+msgstr "Body za umístění mezi nejlepšími hráči podle získaných bodů prestiže:"
+
+msgid "reward/postBattle/comp7/progress/tooltip"
+msgstr "Body za umístění mezi nejlepšími hráči podle získaných bodů prestiže: %(points)d"
+
+msgid "reward/postBattle/progress"
+msgstr "Postup fáze:"
+
+msgid "reward/postBattle/progress/battle/tooltip"
+msgstr "Za umístění mezi nejlepšími hráči"
+
+msgid "reward/postBattle/progress/bonus/tooltip"
+msgstr "Za dosažení limitu bodů vozidla"
+
+msgid "reward/postBattle/progress/points"
+msgstr "Battle Pass. Získávání bodů"
+
+msgid "reward/postBattle/progress/points/battle"
+msgstr "Za umístění mezi nejlepšími hráči:"
+
+msgid "reward/postBattle/progress/points/bonus"
+msgstr "Za dosažení limitu bodů vozidla:"
+
+msgid "reward/postBattle/progress/points/quest"
+msgstr "Za plnění misí:"
+
+msgid "reward/postBattle/progress/points/wotPlusCore"
+msgstr "Bonus WoT Plus Pro:"
+
+msgid "reward/postBattle/progress/points/wotPlusPro"
+msgstr "Bonus WoT Plus Pro:"
+
+msgid "reward/postBattle/progress/pointsAux"
+msgstr "Získané body:"
+
+msgid "reward/postBattle/progress/pointsAux/tooltip"
+msgstr "Přidány body zdarma"
+
+msgid "reward/postBattle/progress/quests/tooltip"
+msgstr "Za plnění misí"
+
+msgid "reward/postBattle/progress/tooltip"
+msgstr "Postup fáze"
+
+msgid "reward/postBattle/title"
+msgstr "%(level)d. fáze kapitoly „%(chapter)s“"
+
+msgid "reward/postBattle/title/free"
+msgstr "Battle Pass: Získávání bodů zdarma"
+
+msgid "reward/postBattle/title/postProgression"
+msgstr "%(level)d. fáze Elitního okruhu"
+
+msgid "rewardChoice/crewBook/rewardDescription"
+msgstr "zkušeností pro každého člena posádky ve vybraném vozidle národa %(nation)s"
+
+msgid "rewardChoice/subTitle"
+msgstr "VYBERTE SVOU ODMĚNU"
+
+msgid "rewardChoice/title"
+msgstr "BATTLE PASS"
+
+msgid "rewardChoice/titleChapter"
+msgstr "BATTLE PASS: KAPITOLA „%(chapter)s“"
+
+msgid "rewardChoice/titleChapterLevel"
+msgstr "BATTLE PASS: KAPITOLA „%(chapter)s“, %(level)s. FÁZE"
+
+msgid "season/fullName/1002"
+msgstr "Carmen de Bisonte"
+
+msgid "season/fullName/20"
+msgstr "Hledání v písku"
+
+msgid "season/fullNameUppercased/1002"
+msgstr "CARMEN DE BISONTE"
+
+msgid "season/fullNameUppercased/20"
+msgstr "HLEDÁNÍ V PÍSKU"
+
+msgid "selectBonus/battle_booster_gift"
+msgstr "Směrnice na výběr"
+
+msgid "selectBonus/blueprint_gift"
+msgstr "Fragmenty plánů na výběr"
+
+msgid "selectBonus/brochure_gift"
+msgstr "Výcvikové brožury na výběr"
+
+msgid "selectBonus/crewbook_gift"
+msgstr "Výcvikové manuály na výběr"
+
+msgid "selectBonus/guide_gift"
+msgstr "Průvodci výcvikem na výběr"
+
+msgid "selectBonus/modernized_device_gift"
+msgstr "Experimentální vybavení na výběr"
+
+msgid "selectBonus/new_device_gift"
+msgstr "Standardní vybavení na výběr"
+
+msgid "selectBonus/trophy_gift"
+msgstr "Trofejní vybavení na výběr"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "styleProgressBonus"
+msgstr "Vylepšete styl „%(styleName)s“ na úroveň %(level)s"
+
+msgid "styleProgression/finalLevel"
+msgstr "Maximální úroveň stylu „%(styleName)s“"
+
+msgid "styleProgression/newLevel"
+msgstr "Nová úroveň stylu „%(styleName)s“"
+
+msgid "styleProgression/newStyle"
+msgstr "První úroveň stylu „%(styleName)s“"
+
+msgid "tankmenVoiceover/chapterButton"
+msgstr "Na kapitolu"
+
+msgid "tankmenVoiceover/inShop"
+msgstr "Ve speciálním balíčku"
+
+msgid "tankmenVoiceover/listen"
+msgstr "Poslechnout"
+
+msgid "tankmenVoiceover/notFull"
+msgstr "%(availableCount)s z %(count)s dostupných"
+
+msgid "tankmenVoiceover/progression"
+msgstr "Ve fázi postupu %(progressionLevel)s"
+
+msgid "tankmenVoiceover/received"
+msgstr "Získáno"
+
+msgid "tankmenVoiceover/shopButton"
+msgstr "Do obchodu"
+
+msgid "tankmenVoiceover/title"
+msgstr "JEDINEČNÍ ČLENOVÉ POSÁDKY"
+
+msgid "tankmenVoiceover/unavailable"
+msgstr "Není k dispozici"
+
+msgid "title/earningPoints"
+msgstr "Získávání bodů"
+
+msgid "title/freePoints"
+msgstr "Volné body"
+
+msgid "title/stage"
+msgstr "{{level}}. fáze"
+
+msgid "tooltip/cardButton/disabled/body"
+msgstr "Akce je aktuálně nedostupná. Zkuste to později."
+
+msgid "tooltip/freePoints/body"
+msgstr "Volné body se hromadí a automaticky se připíší na váš účet po aktivaci nové kapitoly Battle Passu."
+
+msgid "tooltip/freePoints/header"
+msgstr "Volné body"
+
+msgid "tooltip/lock"
+msgstr "Odměny jsou nedostupné. Pro jejich získání si kupte Vylepšený Pass."
+
+msgid "tooltips/RandomQuestTooltip/condition"
+msgstr "Podmínka: %(condition)"
+
+msgid "tooltips/RandomQuestTooltip/expireTime"
+msgstr "Mise je dostupná %(whiteSpanish_Open)sdo %(day)s. %(month)s %(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/consumables"
+msgstr "%(whiteSpanish_Open)sSpotřební doplňky:%(whiteSpanish_Close)s Lékárničky, sady nářadí a hasicí přístroje"
+
+msgid "tooltips/RandomQuestTooltip/rewards/directives"
+msgstr "%(whiteSpanish_Open)sSměrnice%(whiteSpanish_Close)s pro vybavení"
+
+msgid "tooltips/RandomQuestTooltip/rewards/money"
+msgstr "%(whiteSpanish_Open)sKredity, bony a volné ZK%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/personal_reserves"
+msgstr "%(whiteSpanish_Open)sOsobní záloha%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/premium"
+msgstr "%(whiteSpanish_Open)sDny prémiového účtu WoT%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/standardEquipment"
+msgstr "%(whiteSpanish_Open)sStandardní vybavení%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewardsTitle"
+msgstr "Jednou za den můžete za dokončení mise získat jednu z následujících odměn:"
+
+msgid "tooltips/RandomQuestTooltip/title"
+msgstr "Mise pro %(vehicleName)"
+
+msgid "tooltips/battlePassCoins/secondaryText"
+msgstr "Žetony se budou udělovat v průběhu tří sezón Battle Passu tohoto roku. Využijte je moudře."
+
+msgid "tooltips/battlePassCoins/text"
+msgstr "Cenná herní měna, která se uděluje za dokončení fází Battle Passu. V obchodě lze v sekci „Předměty za žetony“ vyměnit žetony za speciální odměny."
+
+msgid "tooltips/battlePassCoins/title"
+msgstr "Žeton Battle Passu"
+
+msgid "tooltips/battlePassPoints/completed"
+msgstr "Všechny kapitoly a fáze postupu v Battle Passu dokončeny."
+
+msgid "tooltips/battlePassPoints/description"
+msgstr "Automaticky se připisují k postupu Battle Passu."
+
+msgid "tooltips/battlePassPoints/title"
+msgstr "Body Battle Passu"
+
+msgid "tooltips/battlePassQuestsChain/secondaryText"
+msgstr "Mise lze dokončit v náhodných a velkých bitvách."
+
+msgid "tooltips/battlePassQuestsChain/text"
+msgstr "Odemyká série misí, za jejichž dokončení můžete získat další herní zdroje: "
+
+msgid "tooltips/battlePassQuestsChain/title"
+msgstr "Přístup k sérii misí"
+
+msgid "tooltips/battlePassTaler/secondaryText"
+msgstr "Postupem Battle Passem získávejte mince"
+
+msgid "tooltips/battlePassTaler/text"
+msgstr "Mince lze v Pokladnici použít na nákup prvků na úpravu vzhledu a členů posádky z předchozích sezón, ekonomických zdrojů a mnohého dalšího."
+
+msgid "tooltips/battlePassTaler/title"
+msgstr "Mince"
+
+msgid "tooltips/claimRewards/0"
+msgstr "Základní odměny získány"
+
+msgid "tooltips/claimRewards/1"
+msgstr "Vyberte odměny za dokončenou fázi"
+
+msgid "tooltips/claimRewards/multiple"
+msgstr "Vyberte si odměny za dokončené fáze"
+
+msgid "tooltips/commanders/chose"
+msgstr "NEBO"
+
+msgid "tooltips/commanders/descr"
+msgstr "Dokončete závěrečnou fázi a získejte za odměnu jednoho z jedinečných členů posádky."
+
+msgid "tooltips/commanders/title"
+msgstr "Jeden ze dvou členů posádky"
+
+msgid "tooltips/completed/claimRewards"
+msgstr "Všechny odměny získány"
+
+msgid "tooltips/completed/finalLevel"
+msgstr "Všechny kapitoly a fáze postupu dokončeny"
+
+msgid "tooltips/completed/got"
+msgstr "Odměna získána"
+
+msgid "tooltips/completed/message"
+msgstr "Nasbírané body Battle Passu nyní můžete využít v herním obchodě v sekci „Předměty za body“."
+
+msgid "tooltips/completed/oneChapterSubTitle"
+msgstr "KAPITOLA DOKONČENA"
+
+msgid "tooltips/completed/rewardsObtained"
+msgstr "Základní odměny získány"
+
+msgid "tooltips/completed/subTitle"
+msgstr "VŠECHNY KAPITOLY DOKONČENY"
+
+msgid "tooltips/completed/tankmenNotRecieved"
+msgstr "V obchodě jsou dostupné balíčky obsahující jedinečné členy posádky."
+
+msgid "tooltips/completed/title"
+msgstr "Battle Pass"
+
+msgid "tooltips/entryPoint/disabled/body"
+msgstr "Battle Pass je z technických důvodů dočasně nedostupný.\nVeškerý postup bude uložen. Omlouváme se za nepříjemnosti."
+
+msgid "tooltips/entryPoint/disabled/header"
+msgstr "Battle Pass je dočasně nedostupný"
+
+msgid "tooltips/entryPoint/disabled/mapbox"
+msgstr "Battle Pass je v Průzkumné misi z technických důvodů dočasně nedostupný.\nVeškerý postup bude uložen. Omlouváme se za nepříjemnosti."
+
+msgid "tooltips/extra/daysAndHours"
+msgstr "%(D)s d %(H)s h"
+
+msgid "tooltips/extra/min"
+msgstr "%(m)s min"
+
+msgid "tooltips/footerBuyBtn/activateChapter/descr"
+msgstr "Za dokončení aktivní kapitoly získáte body Battle Passu a další odměny."
+
+msgid "tooltips/footerBuyBtn/battlePass/descr"
+msgstr "Vylepšený Pass si můžete zakoupit kdykoliv. Okamžitě vám poskytne přístup ke všem vylepšeným odměnám stávající kapitoly za již dokončené fáze. Získáte také základní a vylepšené odměny za dokončení každé následné fáze."
+
+msgid "tooltips/footerBuyBtn/battlePass/nextChapter"
+msgstr "Dokončete předchozí kapitolu a kupte si fáze v této kapitole."
+
+msgid "tooltips/footerBuyBtn/episode/descr"
+msgstr "Zakoupením fází okamžitě získáte jejich základní a vylepšené odměny. Fáze se kupují pro každou kapitolu samostatně."
+
+msgid "tooltips/footerBuyBtn/episode/holidayDescr"
+msgstr "Zakoupením fází okamžitě získáte jejich základní a vylepšené odměny."
+
+msgid "tooltips/goldMission/description"
+msgstr "%(highlight)s Pokud nějaký den vynecháte, nedostanete za něj žádné zlaťáky."
+
+msgid "tooltips/goldMission/highlightedDescription"
+msgstr "Poznámka:"
+
+msgid "tooltips/goldMission/text"
+msgstr "%(duration)s můžete získat %(count)s %(icon)s zlaťáků za každý den, kdy odehrajete náhodnou bitvu."
+
+msgid "tooltips/goldMission/textDuration"
+msgstr "Po dobu %(days)s dní"
+
+msgid "tooltips/goldMission/title"
+msgstr "Každodenní zlaťáky"
+
+msgid "tooltips/iconLock/descr1"
+msgstr "Seznam odměn za plnění fází můžete rozšířit zakoupením Vylepšeného Passu. Ten se kupuje samostatně pro každou kapitolu a funguje pouze v jejím rámci. S Vylepšeným Passem získáte za dosažení každé následující fáze základní i vylepšené odměny."
+
+msgid "tooltips/iconLock/descr2"
+msgstr "Vylepšený Pass si můžete zakoupit kdykoliv. Okamžitě vám poskytne všechny vylepšené odměny za dokončené fáze kapitoly, pro kterou jste si ho koupili. Své odměny můžete na hlavní obrazovce Battle Passu vylepšit kliknutím na tlačítko „Koupit Vylepšený Pass“."
+
+msgid "tooltips/iconLock/holidayDescr1"
+msgstr "Seznam odměn za fáze můžete rozšířit zakoupením Vylepšeného Passu. S Vylepšeným Passem budete za dokončení každé následující fáze dostávat základní i vylepšené odměny."
+
+msgid "tooltips/iconLock/holidayDescr2"
+msgstr "Vylepšený Pass si můžete zakoupit kdykoliv. Okamžitě vám zajistí všechny vylepšené odměny za již dokončené fáze. Své odměny můžete vylepšit na hlavní obrazovce Battle Passu kliknutím na tlačítko „Koupit Vylepšený Pass“."
+
+msgid "tooltips/iconLock/title"
+msgstr "Vylepšená odměna Battle Passu"
+
+msgid "tooltips/inProgress/baseReward"
+msgstr "Základní odměna"
+
+msgid "tooltips/inProgress/battleRoyale"
+msgstr "„Ocelový lovec“"
+
+msgid "tooltips/inProgress/chapter"
+msgstr "Kapitola „%(name)“"
+
+msgid "tooltips/inProgress/epic"
+msgstr "Frontová linie"
+
+msgid "tooltips/inProgress/getPointsFrom"
+msgstr "Pravidla získávání bodů v režimu „%(battleType)s“."
+
+msgid "tooltips/inProgress/hurryUp"
+msgstr "Kupte si Vylepšený Pass a dostanete všechny vylepšené odměny za dokončené fáze!"
+
+msgid "tooltips/inProgress/improvedReward"
+msgstr "Vylepšená odměna"
+
+msgid "tooltips/inProgress/level"
+msgstr "Stávající fáze"
+
+msgid "tooltips/inProgress/playGame/comp7"
+msgstr "Pravidla pro získávání bodů s vozidly X. úrovně v %(bond_Open)sNáporu%(bond_Close)s."
+
+msgid "tooltips/inProgress/playGame/comp7_light"
+msgstr "Pravidla pro získávání bodů s vozidly VIII. úrovně v %(bond_Open)sLehkém Náporu%(bond_Close)s."
+
+msgid "tooltips/inProgress/playGame/mapbox"
+msgstr "Pravidla přidávání bodů Battle Passu v %(bond_Open)sPrůzkumné misi%(bond_Close)s pro vozidla VIII.–X. úrovně."
+
+msgid "tooltips/inProgress/playGame/randoms"
+msgstr "Pravidla pro získávání bodů v %(bond_Open)snáhodných bitvách%(bond_Close)s s vozidly IV.–XI. úrovně."
+
+msgid "tooltips/inProgress/playGame/ranked"
+msgstr "Pravidla pro získávání bodů v hodnocených bitvách s vozidly X. úrovně."
+
+msgid "tooltips/inProgress/playGame/winback"
+msgstr "Pravidla pro získávání bodů v %(bond_Open)snáhodné bitvě: Rozcvička%(bond_Close)s s vozidly IV.–XI. úrovně."
+
+msgid "tooltips/inProgress/postProgression/header"
+msgstr "Elitní okruh"
+
+msgid "tooltips/inProgress/timeLeft"
+msgstr "Zbývající čas do konce Battle Passu"
+
+msgid "tooltips/inProgress/wotPlusProFooter"
+msgstr "Zisky s WoT Plus Pro"
+
+msgid "tooltips/notChosen/description"
+msgstr "Pokud chcete postupovat a získávat hodnotné odměny, musíte si zvolit kapitolu."
+
+msgid "tooltips/notChosen/points"
+msgstr "Nevyužité body Battle Passu: %(points)"
+
+msgid "tooltips/notChosen/subTitle"
+msgstr "ZVOLIT KAPITOLU"
+
+msgid "tooltips/notChosen/title"
+msgstr "Battle Pass"
+
+msgid "tooltips/notStarted/date"
+msgstr "%(day)s. %(month)s"
+
+msgid "tooltips/plusBanner/text"
+msgstr "{{@ style (color $color1)}}Battle Pass Plus:{{/}} Dostupný s {{@ style (color $color2)}}WoT Plus Pro{{/}}. Získejte více bodů Battle Passu (vyjma speciálních kapitol)."
+
+msgid "tooltips/points/footer"
+msgstr "Více se o získávání bodů v různých režimech hry dozvíte v nabídce „Jak získat body“."
+
+msgid "tooltips/points/rules"
+msgstr "V náhodných bitvách získáte body následujícím způsobem:"
+
+msgid "tooltips/points/specialVehicles"
+msgstr "Hlavní vozidla sezóny vynášejí více bodů:"
+
+msgid "tooltips/points/subtitle"
+msgstr "Body Battle Passu vám umožňují pokračovat postupem. Body můžete získávat bojováním s vozidly IV.–XI. úrovně v náhodných bitvách a dalších režimech hry a také plněním speciálních misí a dosažením limitu bodů vozidla."
+
+msgid "tooltips/points/title"
+msgstr "Body Battle Passu"
+
+msgid "tooltips/pointsTable/header"
+msgstr "Podmínky získání"
+
+msgid "tooltips/pointsTable/lose"
+msgstr "Porážka a remíza"
+
+msgid "tooltips/pointsTable/loseWithoutDraw"
+msgstr "Porážka"
+
+msgid "tooltips/pointsTable/place"
+msgstr "%(place). pozice"
+
+msgid "tooltips/pointsTable/places"
+msgstr "%(place). pozice"
+
+msgid "tooltips/pointsTable/solo"
+msgstr "Sólo"
+
+msgid "tooltips/pointsTable/squad"
+msgstr "Četa"
+
+msgid "tooltips/pointsTable/topPlace"
+msgstr "%(place) nejlepších podle získaných ZK"
+
+msgid "tooltips/pointsTable/win"
+msgstr "Vítězství"
+
+msgid "tooltips/postProgress/body"
+msgstr "Elitní postup začíná po dokončení %(maxLevelBase). fáze hlavního postupu. Poskytuje možnost získat hodnotnou herní měnu. Dokončení fází elitního postupu nevyžaduje Vylepšený Pass."
+
+msgid "tooltips/postProgress/header"
+msgstr "Elitní postup"
+
+msgid "tooltips/prestigePoints/lose"
+msgstr "Porážka a remíza"
+
+msgid "tooltips/prestigePoints/loseWithoutDraw"
+msgstr "Porážka"
+
+msgid "tooltips/prestigePoints/topPlace"
+msgstr "%(place) nejlepších podle bodů prestiže"
+
+msgid "tooltips/prestigePoints/win"
+msgstr "Vítězství"
+
+msgid "tooltips/progression/freePoints/body"
+msgstr "Pokud není zvolena žádná kapitola, budete sbírat nevyužité body Battle Passu, které mohou být později před koncem stávající sezóny Battle Passu přidány do jakékoliv aktivované kapitoly. Jinak budou tyto body odstraněny."
+
+msgid "tooltips/progression/freePoints/bodyExceptExtra"
+msgstr "Pokud není zvolena žádná kapitola, budete sbírat nevyužité body Battle Passu, které mohou být později před koncem stávající sezóny Battle Passu přidány do jakékoliv aktivované kapitoly (kromě dodatečné kapitoly). Jinak budou tyto body odstraněny."
+
+msgid "tooltips/progression/freePoints/header"
+msgstr "Nevyužité body Battle Passu"
+
+msgid "tooltips/rewardCompensation/description/credits"
+msgstr "Hlavní herní měna.\nZískává se v bitvách nebo se kupuje za zlaťáky."
+
+msgid "tooltips/rewardCompensation/description/gold"
+msgstr "Hodnotná herní měna. Můžete ji využít k nákupu prémiového účtu WoT, vozidel nebo ke konverzi zkušeností atd."
+
+msgid "tooltips/rewardCompensation/footer"
+msgstr "Kompenzace za předmět, který již máte."
+
+msgid "tooltips/styleUpgrade/chosen/levelWord"
+msgstr "úroveň"
+
+msgid "tooltips/styleUpgrade/chosen/subtitle"
+msgstr "Vhodné pro vozidla"
+
+msgid "tooltips/styleUpgrade/chosen/text"
+msgstr "Vylepšuje styl kapitoly na %(level). %(levelWord)"
+
+msgid "tooltips/styleUpgrade/chosen/title"
+msgstr "Vylepšení stylu „%(styleName)“"
+
+msgid "tooltips/styleUpgrade/notChosen/text"
+msgstr "Styl vyberte kliknutím na tlačítko „Vybrat styl“ na začátku postupu v kapitole Battle Passu."
+
+msgid "tooltips/styleUpgrade/notChosen/title"
+msgstr "Vylepšení progresivního stylu kapitoly"
+
+msgid "tooltips/styleUpgrade/notChosen/warning"
+msgstr "Styl kapitoly není vybrán."
+
+msgid "tooltips/styleUpgrade/paragraphBottom"
+msgstr "Pokud nemůžete styl vylepšit na maximální úroveň během postupu Battle Passem, na konci stávající sezóny budete mít příležitost k jeho vylepšení na obrazovce vnějšího vzhledu v garáži."
+
+msgid "tooltips/styleUpgrade/paragraphTop"
+msgstr "Vybraný styl kapitoly bude při dokončení této fáze automaticky vylepšen o jednu úroveň."
+
+msgid "tooltips/styles/descr"
+msgstr "Po dokončení závěrečné fáze si budete moci vybrat jeden ze stylů za odměnu."
+
+msgid "tooltips/styles/footer"
+msgstr "Zakoupení Vylepšeného Passu vám zajistí oba styly, jakmile si vyberete svou závěrečnou odměnu."
+
+msgid "tooltips/styles/name"
+msgstr "Vhodný pro %(name)"
+
+msgid "tooltips/styles/style"
+msgstr "Styl „%(name)“"
+
+msgid "tooltips/styles/title"
+msgstr "Jeden ze dvou 3D stylů"
+
+msgid "tooltips/unlockBattlePass"
+msgstr "Kupte si Vylepšený Pass, abyste si odemkli panel vylepšených odměn."
+
+msgid "tooltips/unlockBattlePassForPostProgression"
+msgstr "Kupte si Vylepšený Pass pro každou kapitolu a získejte víc odměn."
+
+msgid "tooltips/vehiclePoints/award"
+msgstr "Odměna za dosažení limitu bodů"
+
+msgid "tooltips/vehiclePoints/comp7"
+msgstr "Bojujte v režimu „Nápor“, vyslužte si body za efektivní hraní, dokončujte fáze postupu Battle Passu a získávejte odměny."
+
+msgid "tooltips/vehiclePoints/comp7_light"
+msgstr "Shromažďujte body za efektivní akce v bitvách Lehkého Náporu, postupujte fázemi Battle Passu a získejte odměny."
+
+msgid "tooltips/vehiclePoints/continuePlaying"
+msgstr "Pro další postup ve fázích bojujte s ostatními vozidly."
+
+msgid "tooltips/vehiclePoints/descr"
+msgstr "Bojujte v náhodných bitvách, získávejte body za efektivní hraní, dokončujte fáze postupu Battle Passu a získávejte odměny."
+
+msgid "tooltips/vehiclePoints/mapbox"
+msgstr "Bojujte v Průzkumné misi, vyslužte si body za efektivní hraní, dokončujte fáze postupu Battle Passu a získávejte odměny."
+
+msgid "tooltips/vehiclePoints/pointsObtained"
+msgstr "Dosaženo limitu bodů"
+
+msgid "tooltips/vehiclePoints/ranked"
+msgstr "Bojujte v hodnocených bitvách, vyslužte si body za efektivní hraní, dokončujte fáze postupu Battle Passu a získávejte odměny."
+
+msgid "tooltips/vehiclePoints/special/descr"
+msgstr "Bojování s hlavními vozidly sezóny vám vynese více bodů postupu."
+
+msgid "tooltips/vehiclePoints/title"
+msgstr "Body Battle Passu"
+
+msgid "trophyDeviceUpgradeConfim/cancel"
+msgstr "Zrušit"
+
+msgid "trophyDeviceUpgradeConfim/message"
+msgstr "Vlastnosti vybavení se změní:"
+
+msgid "trophyDeviceUpgradeConfim/submit"
+msgstr "Vylepšení"
+
+msgid "trophyDeviceUpgradeConfim/submitTooltip"
+msgstr "Nedostatek kreditů na vylepšení"
+
+msgid "trophyDeviceUpgradeConfim/title"
+msgstr "Vylepšit vybavení \n„{deviceName}“?"
+
+msgid "trophyDeviceUpgradeConfim/title/template"
+msgstr "{deviceName}"
+
+msgid "universalTankmanBonus"
+msgstr "Univerzální člen posádky: %(name)s"

@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "main/backText"
+msgstr "КЪМ ИНФО ЗА КЛАНА"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "За изпълнение на мисии печелите точки за поход, които са необходими за изследване на нови региони."
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "Точки за поход"
+
+msgid "main/infoPageButtonLabel"
+msgstr "ЗА БОЕН ПОХОД"
+
+msgid "main/mdash"
+msgstr "—"
+
+msgid "messages/claimRewards/error"
+msgstr "Действието е временно недостъпно. Опитайте отново по-късно."
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "Обнови"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "Съжаляваме за временното неудобство."
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "Грешка при зареждане на данни"
+
+msgid "progressionPage/header/heading"
+msgstr "БОЕН ПОХОД"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "БОЙНИЯТ ПОХОД ПРИКЛЮЧИ"
+
+msgid "progressionPage/header/subheading"
+msgstr "Печелете точки за поход, като изпълнявате мисии на клана. Точките за поход се използват за изследване на нови региони и получаване на ценни награди. В края на обиколката можете да получите машина ниво X."
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "Получена е машина %(vehicle)s"
+
+msgid "progressionPage/loading"
+msgstr "Зареждане на съдържание..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "Изследвайте предишния свързан регион."
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "Регионът вече е изследван."
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "Получена награда:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "Изследвайте предишния свързан регион."
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "Изследването на региона е недостъпно"
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "Грешка при зареждане на данни"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "Изследвайте регион"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "Нужни са още %(value)s точки за поход, за да изследвате региона."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "Изследването на региона е недостъпно"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "Изследвайте предишния свързан регион."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "Изследването на региона е недостъпно"
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "Получи награда"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "Зареждане на съдържание..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "Изчакване за добавяне на наградата..."
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "Обнови"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "НАГРАДА ЗА ИЗСЛЕДВАНЕ НА РЕГИОН:"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "ПОЛУЧЕНА Е НАГРАДА:"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "Преглед"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "Обнови"
+
+msgid "questsPage/errorScreen/description"
+msgstr "Съжаляваме за временното неудобство."
+
+msgid "questsPage/errorScreen/heading"
+msgstr "Грешка при зареждане на данни"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "Получи награда"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "Към авто търсене на клан"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "Присъединете се към клан, за да изпълнявате мисии и да получавате наградата."
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "Напредъкът на мисията е в пауза. Вземете наградата си, за да продължите: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "ПОХОДНИ МИСИИ"
+
+msgid "questsPage/header/subheading"
+msgstr "Изпълнявайте мисии и печелете награди. Втората и третата мисия могат да се изпълнят само във взвод/отряд с играч от вашия клан."
+
+msgid "questsPage/loading"
+msgstr "Зареждане на съдържание..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "С машини ниво VIII–XI спечелете поне {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} чист опит в битка при игра във взвод или спечелете битка в отряд."
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "Сражавайки се с машини ниво VI–XI, спечелете поне {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} чист опит в битка или спечелете битка в отряд."
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "С машини ниво VIII–XI унищожете {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} вражески машини в битка при игра във взвод или спечелете битка в отряд."
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "Сражавайки се с машини ниво VI–XI, унищожете {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} вражески машини в битка или спечелете битка в отряд."
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "С машини ниво VIII–XI нанесете или помогнете за нанасянето на {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} т. поражения в битка при игра във взвод или спечелете битка в отряд."
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "С машини ниво VI–XI нанесете или помогнете за нанасянето на {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} т. поражения в битка или спечелете битка в отряд."
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "Производствен ресурс"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "Точки за поход"
+
+msgid "questsPage/questCard/status/available"
+msgstr "Можете да получите наградата"
+
+msgid "questsPage/questCard/status/completed"
+msgstr "Наградата е получена"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "Недостъпен"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "Наградата ще бъде добавена към акаунта ви в най-скоро време."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "Получете награди за предишни мисии."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "Изпълнете предходната мисия."
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "Мисията е недостъпна"
+
+msgid "questsPage/timer/dash"
+msgstr "—"
+
+msgid "questsPage/timer/heading"
+msgstr "Останало време за събиране на точки за поход"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "За изпълнение на мисии печелите точки за поход, които са необходими за изследване на нови региони."
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "Точки за поход"
+
+msgid "rewardsView/additionalRewards"
+msgstr "Получихте и:"
+
+msgid "rewardsView/button/close"
+msgstr "ЗАТВОРИ"
+
+msgid "rewardsView/button/confirm"
+msgstr "Тъй вярно!"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "Покажи в Парка"
+
+msgid "rewardsView/heading"
+msgstr "ПОЛУЧЕНИ СА НАГРАДИ"
+
+msgid "rewardsView/style/317"
+msgstr "Двуизмерен стил \"Пламък\""
+
+msgid "rewardsView/style/345"
+msgstr "Двуизмерен стил \"Пророчество\""
+
+msgid "rewardsView/style/435"
+msgstr "Двуизмерен стил \"Възмездие\""
+
+msgid "rewardsView/style/436"
+msgstr "Двуизмерен стил \"Косата на Смъртта\""
+
+msgid "rewardsView/subheading"
+msgstr "БОЕН ПОХОД"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Напредък в \"Боен поход\""
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "Напредък в походните мисии"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Боен поход"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "Походни мисии"

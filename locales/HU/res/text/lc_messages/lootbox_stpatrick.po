@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Vissza a ládákhoz"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Smaragdláda"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "SMARAGDLÁDA"
+
+msgid "common/getButton/lowerCase"
+msgstr "Szerezz ládákat"
+
+msgid "common/getButton/upperCase"
+msgstr "SZEREZZ LÁDÁKAT"
+
+msgid "common/loader"
+msgstr "Ládanyitás folyamatban..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Nyiss ki ládákat a statisztika megtekintéséhez."
+
+msgid "common/statistics/header"
+msgstr "Kinyitott ládák: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "A kinyitott ládákkal kapcsolatos összes információ törlődik."
+
+msgid "entryPoint/boxes"
+msgstr "TOVÁBB A LÁDÁKHOZ"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Ezek a különleges ládák prémium járműveket, 3D-kiegészítőket, kreditet és egyéb értékes játékbeli tárgyakat tartalmaznak.\nA játékon belüli boltban vásárolhatod meg őket."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Technikai okokból jelenleg nem nyithatsz ki vagy vásárolhatsz ládákat. Elnézést kérünk az átmeneti kellemetlenségért."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "A ládák átmenetileg nem érhetők el"
+
+msgid "eventName/lowerCase"
+msgstr "Dicső zöldben"
+
+msgid "eventName/upperCase"
+msgstr "DICSŐ ZÖLDBEN"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garantált jutalom a következő ládában!"
+
+msgid "guaranteedTitle/text"
+msgstr "A ládák maximális száma, mielőtt garantált jutalmat kapsz: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ha nem nyitod ki a ládákat az esemény végéig, automatikusan kinyitjuk őket."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ha már rendelkezel a ládák lehetséges tartalmának listáján szereplő összes járművel, akkor a ládákból kapott minden további jármű teljes értékét aranyban kompenzáljuk."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Minden %(guaranteed0)s. láda garantáltan tartalmaz egy VIII–IX-es szintű járművet. Ha a ládák kinyitásakor nem kapsz egy ilyen járművet sem, akkor %(guaranteed0)s&zwnbsp;. ládád kinyitásakor kapsz egy olyan VIII–IX-es szintű járművet, amellyel még nem rendelkezel. Amikor egy ilyen járművet kapsz, a számláló visszaáll alaphelyzetbe."
+
+msgid "infoPage/header/description"
+msgstr "Nyisd ki a ládát, hogy értékes játékbeli tárgyakat szerezz! További részleteket alább olvashatsz."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Ebből: %(name) (%(boxesCount) láda kinyitva)"
+
+msgid "noBoxesView/description/"
+msgstr "Nincsenek ládáid.\nA játékbeli Boltban vásárolhatod meg őket."
+
+msgid "preview/backLabel"
+msgstr "TOVÁBB A LÁDÁKHOZ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Elérhető ládák: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nincs elérhető láda"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Ha már rendelkezel az összes járművel a láda lehetséges tartalmainak listájáról, akkor a ládákból kapott minden további járműért aranykompenzációt kapsz."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) láda"
+msgstr[1] "%(remainingCount) láda"
+msgstr[2] "%(remainingCount) láda"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "A garantált jutalom egy jármű a láda lehetséges tartalmainak listájáról.\nHa kinyitsz %(remainingCount) ládát anélkül, hogy kapnál egy ilyen járművet, akkor %(count). ládád kinyitásakor kapsz egyet. Amikor kapsz egy ilyen járművet, a számláló visszaáll alaphelyzetbe."

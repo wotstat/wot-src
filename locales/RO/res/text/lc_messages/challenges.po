@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "S-au mai obținut:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Această serie de misiuni poate fi reluată."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Recepționat!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Închide"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Afișează în Garaj"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Reluare"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Spre Creuzet"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "Cont Premium WoT"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Vehicul premium"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Vehicul de închiriat"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "și stilul „{{styleName}}”"
+
+msgid "awards_view/reward/multi"
+msgstr "{{count}}×"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) zi"
+msgstr[1] "%(day) zile"
+msgstr[2] "%(day) zile"
+
+msgid "awards_view/title"
+msgstr "CREUZET FINALIZAT"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Misiune pentru 5× EXP per luptă"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Fragment de proiect: (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Fragment universal de proiect"
+
+msgid "bonuses/bpcoin"
+msgstr "Jeton al Certificatului de luptă"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Misiune pentru 3× EXP de echipaj"
+
+msgid "bonuses/description/attachments_set"
+msgstr "Set de Atașamente 3D"
+
+msgid "bonuses/description/booster"
+msgstr "Rezervă personală"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Echipament recompensă"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Figură de echipaj"
+
+msgid "bonuses/description/directive"
+msgstr "Directivă"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Echipament experimental"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Echipament îmbunătățit"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "și stilul „%(styleName)s”"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Echipament standard"
+
+msgid "bonuses/description/style"
+msgstr "Stil 2D"
+
+msgid "bonuses/description/style_3d"
+msgstr "Stil 3D"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Membru de echipaj feminin"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Recrut"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Membru de echipaj"
+
+msgid "condition/achievement"
+msgstr "Obține realizarea %(achievement)s"
+
+msgid "condition/achievement/title"
+msgstr "Eroi ai luptei"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Provoacă și ajută la provocarea de daune totalizând %(goal)s HP"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Provoacă, suferă și blochează daune totalizând %(goal)s HP"
+
+msgid "condition/aggregated/title"
+msgstr "Condiție complexă"
+
+msgid "condition/classes/AT-SPG"
+msgstr "Antitanc"
+
+msgid "condition/classes/SPG"
+msgstr "Artilerie"
+
+msgid "condition/classes/heavyTank"
+msgstr "Tanc greu"
+
+msgid "condition/classes/lightTank"
+msgstr "Tanc uşor"
+
+msgid "condition/classes/mediumTank"
+msgstr "Tanc mediu"
+
+msgid "condition/critsCount"
+msgstr "Provoacă %(goal)s lovituri critice modulelor interne și externe ale vehiculelor inamice"
+
+msgid "condition/critsCount/title"
+msgstr "Imobilizează"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Blochează daune de %(goal)s HP"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Blochează de %(goal)s ori mai multe daune ca punctele de integritate ale vehiculului tău"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Blochează"
+
+msgid "condition/damageDealt"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Provoacă de %(goal)s ori mai multe daune ca punctele de integritate ale vehiculului tău"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Lovește de %(goal)s ori vehicule inamice de la o distanță de maxim %(distance)s m"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Lovește de %(goal)s ori vehicule inamice de la o distanță de minim %(distance)s m"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Provoacă de %(goal)s ori daune prin coliziuni vehiculelor inamice"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Lovește de %(goal)s ori vehicule aflate în raza vizuală a vehiculului tău"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Provoacă daune de %(goal)s HP în primele %(timeLimit)s minute ale luptei"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice de la o distanță de maxim %(distance)s m"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice de la o distanță de minim %(distance)s m"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Provoacă daune de %(goal)s HP prin coliziuni"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Coliziuni"
+
+msgid "condition/damageDealt/title"
+msgstr "Daune"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice nedescoperite"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Provoacă daune de %(goal)s HP vehiculelor inamice din raza vizuală a vehiculului tău"
+
+msgid "condition/kills"
+msgstr "Distruge %(goal)s vehicule inamice"
+
+msgid "condition/kills/classes"
+msgstr "Distruge %(goal)s %(vehicleClass)s inamice"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Distruge %(goal)s vehicule inamice de %(classCount)s tipuri diferite"
+
+msgid "condition/kills/title"
+msgstr "Distruge"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Distruge %(goal)s vehicule inamice fără să suferi daune"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Distruge %(goal)s vehicule, rămânând nedescoperit"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Provoacă %(goal)s%% din totalul daunelor provocate de echipa ta"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Daune"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Penetrează de %(goal)s ori blindajul inamicilor"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Penetrare"
+
+msgid "condition/spotted"
+msgstr "Descoperă %(goal)s vehicule inamice"
+
+msgid "condition/spotted/title"
+msgstr "Descoperă"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Descoperă %(goal)s vehicule, rămânând nedescoperit"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Descoperă"
+
+msgid "condition/top/damageDealt"
+msgstr "Clasează-te între primii %(rank)s jucători din echipa ta, după daunele provocate"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Clasează-te între primii %(rank)s jucători din ambele echipe, după daunele provocate"
+
+msgid "condition/top/title"
+msgstr "Jucător de top"
+
+msgid "condition/top/xp"
+msgstr "Clasează-te între primii %(rank)s jucători din echipa ta, după experiența obținută"
+
+msgid "condition/unknown"
+msgstr "Se caută misiunea cea mai potrivită..."
+
+msgid "condition/unknown/title"
+msgstr "În așteptare"
+
+msgid "postbattle/name"
+msgstr "CREUZET: "

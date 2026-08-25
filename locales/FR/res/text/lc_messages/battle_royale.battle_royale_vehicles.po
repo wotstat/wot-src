@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "abilities/adaptationHealthRestore"
+msgstr "Blindage adaptatif"
+
+msgid "abilities/adaptationHealthRestoreDescription"
+msgstr "Restaure instantanément une partie des points de structure de votre véhicule. Pendant toute la durée de la capacité, tous les dégâts subis par des obus et des capacités de combat s'accumuleront et seront convertis en points de structure, avec un bonus de PS supplémentaires équivalent à une partie du total des dégâts subis lorsque la capacité prend fin. La récupération des PS convertis affecte également les véhicules alliés dans un petit rayon."
+
+msgid "abilities/airstrike"
+msgstr "Frappe aérienne"
+
+msgid "abilities/airstrikeDescription"
+msgstr "Étourdit les véhicules ennemis et inflige des dégâts par l'explosion de bombes dans la zone sélectionnée."
+
+msgid "abilities/berserk"
+msgstr "Berserker"
+
+msgid "abilities/berserkDescription"
+msgstr "Renforce fortement les caractéristiques et la pénétration de votre véhicule, mais diminue les points de structure de votre véhicule pendant un certain temps."
+
+msgid "abilities/brander"
+msgstr "Boule de feu"
+
+msgid "abilities/branderDescription"
+msgstr "Déploie une mine autopropulsée qui traque l'ennemi le plus proche et inflige des dégâts dans un petit rayon lors de sa détonation. Les ennemis peuvent détruire votre Boule de feu en tirant dessus ou en la percutant. La Boule de feu inflige des dégâts par collision supplémentaires en atteignant sa cible."
+
+msgid "abilities/clingBrander"
+msgstr "Robot de champ de bataille"
+
+msgid "abilities/clingBranderDescription"
+msgstr "Appelle un char autonome équipé d'un système d'identification Ami ou Ennemi. Il traquera et attaquera l'ennemi le plus proche. Ce char peut être détruit."
+
+msgid "abilities/corrodingShot"
+msgstr "Obus d'acide"
+
+msgid "abilities/corrodingShotDescription"
+msgstr "Ajoute des propriétés corrosives à un obus. En infligeant des dégâts à un véhicule ennemi, l'obus lui applique un effet temporaire qui inflige des dégâts supplémentaires sur la durée. Kit de réparation retire cet effet."
+
+msgid "abilities/extremeConcentration"
+msgstr "Suivi de la cible"
+
+msgid "abilities/extremeConcentrationDescription"
+msgstr "Réduit temporairement la dispersion et le temps de visée du canon tout en améliorant la stabilisation du canon et la cadence de tir. N'affecte pas le temps entre le tir d'un obus et le chargement de l'obus suivant dans le barillet, le canon ou le conteneur."
+
+msgid "abilities/fireCircle"
+msgstr "Anneau de feu"
+
+msgid "abilities/fireCircleDescription"
+msgstr "Enveloppe le véhicule ennemi d'une aura ardente qui inflige des dégâts et réduit la mobilité du véhicule dans la zone d'effet de cette Capacité."
+
+msgid "abilities/minefield"
+msgstr "Champ de mines"
+
+msgid "abilities/minefieldDescription"
+msgstr "Déploie un champ de mines actif dans la zone sélectionnée pendant un certain temps. Les véhicules ennemis qui entrent en contact avec les mines seront étourdis et subiront des dégâts par explosion. Les mines peuvent être détruites en leur tirant dessus. Les mines déployées sous les véhicules ennemis n'exploseront PAS."
+
+msgid "abilities/nitro"
+msgstr "Turbocompresseur"
+
+msgid "abilities/nitroDescription"
+msgstr "Augmente temporairement la puissance du moteur, la vitesse maximale et la vitesse de rotation de votre véhicule."
+
+msgid "abilities/recoveryDot"
+msgstr "Zone de réparation"
+
+msgid "abilities/recoveryDotDescription"
+msgstr "Crée une zone statique temporaire qui répare tous les éléments endommagés, retire TOUS les effets négatifs et rétablit les points de structure. Les véhicules alliés situés dans la zone d'effet récupèrent également des PS."
+
+msgid "abilities/recoveryKit"
+msgstr "Récupération"
+
+msgid "abilities/recoveryKitDescription"
+msgstr "Restaure les points de structure des véhicules endommagés."
+
+msgid "abilities/recoveryZone"
+msgstr "Zone de récupération"
+
+msgid "abilities/recoveryZoneDescription"
+msgstr "Crée une zone autour de votre véhicule. Dans celle-ci, un certain pourcentage des points de structure des véhicules du joueur et de ceux de son peloton est récupéré chaque seconde."
+
+msgid "abilities/repairKit"
+msgstr "Kit de réparation"
+
+msgid "abilities/repairKitDescription"
+msgstr "Répare les éléments et retire les effets négatifs."
+
+msgid "abilities/rustCloud"
+msgstr "Brume corrosive"
+
+msgid "abilities/rustCloudDescription"
+msgstr "Ajoute un bonus à la dissimulation pour tous les véhicules situés à portée de ce consommable, et endommage aussi TOUS les véhicules à sa portée. Elle n'interrompt pas le ramassage d'un butin et ne détruit pas les véhicules, les laissant au pire à 1 PS."
+
+msgid "abilities/shotPassion"
+msgstr "Ferveur décuplée"
+
+msgid "abilities/shotPassionDescription"
+msgstr "Alors que les valeurs de visée et de stabilisation sont réduites pendant un certain temps, chaque coup pénétrant ou impact de Décharge électrique augmente les dégâts infligés aux véhicules ennemis par les obus. Les dégâts peuvent ainsi être multipliés jusqu'au quintuple. Les coups n'infligeant pas de dégâts et les tirs manqués réinitialisent le paramètre des dégâts à sa valeur de base."
+
+msgid "abilities/thunderStrike"
+msgstr "Décharge électrique"
+
+msgid "abilities/thunderStrikeDescription"
+msgstr "Crée une zone dans laquelle une série de décharges électriques frappent à grande fréquence. Chaque décharge inflige des dégâts et réduit temporairement la mobilité des véhicules ennemis dans la zone d'effet de cette capacité. Il y a un délai entre l'activation de la capacité et la première décharge. Son effet négatif peut être retiré avec un Kit de réparation."
+
+msgid "abilities/trap"
+msgstr "Piège"
+
+msgid "abilities/trapDescription"
+msgstr "Crée une zone qui réduit les caractéristiques de dynamisme des véhicules ennemis."
+
+msgid "tanks/britain/description"
+msgstr "Les ingénieurs britanniques continuent de montrer comment ils fabriquent des véhicules parfaits qui attirent les commandants expérimentés et terrifient leurs ennemis. Et ce chasseur ne fait pas exception à la règle. Son acier britannique légendaire est prêt à prouver sa supériorité sur le champ de bataille, une fois de plus."
+
+msgid "tanks/britain/title"
+msgstr "Harbinger Mk. IV"
+
+msgid "tanks/china/description"
+msgstr "Les Chinois se vantent d'avoir un réseau d'agents parfait pour les aider à adopter les meilleures options en matière de conception de chars. Et la possibilité de tester leur nouveau matériel dans les conditions extrêmes de Traqueur d'acier représente une véritable aubaine pour leurs ingénieurs."
+
+msgid "tanks/china/title"
+msgstr "Bái Láng"
+
+msgid "tanks/france/description"
+msgstr "Légèreté, formes lisses, et grâce sont les trois piliers qui définissent la construction de chars français. Ce véhicule n'a été basé sur aucun modèle emprunté ni aucune technologie obtenue par espionnage industriel. Il n'est fait que d'idées et de solutions aussi originales qu'efficaces."
+
+msgid "tanks/france/title"
+msgstr "Arlequin"
+
+msgid "tanks/germany/description"
+msgstr "Les Allemands maîtrisent depuis longtemps l'ingénierie métallurgique et l'assemblage de grande qualité. Ce véhicule est parfait pour les loups solitaires : indépendant, polyvalent et pouvant facilement s'adapter à toute situation en combat pour s'en sortir."
+
+msgid "tanks/germany/title"
+msgstr "Walküre"
+
+msgid "tanks/poland/description"
+msgstr "Les ingénieurs polonais savent que mettre l'accent sur un atout du véhicule entraîne automatiquement des faiblesses dans d'autres caractéristiques. C'est pour cela qu'ils donnent autant d'importance à l'armement du véhicule qu'aux capacités de combat, pour empêcher que l'ennemi ne vise ses points faibles. L'Histoire a fini par prouver que c'était la bonne décision."
+
+msgid "tanks/poland/title"
+msgstr "Huragan"
+
+msgid "tanks/sweden/description"
+msgstr "Les Suédois n'ont jamais négligé les nouvelles tendances de conception de chars, et rejoindre Traqueur d'acier a donné libre cours à leurs meilleurs ingénieurs. Ce véhicule rassemble leurs idées les plus risquées et les plus ingénieuses. Il peut infliger d'importants dégâts autant que les encaisser, et cela semble parfait."
+
+msgid "tanks/sweden/title"
+msgstr "Beowulf"
+
+msgid "tanks/usa/description"
+msgstr "Ce véhicule est le parfait équilibre entre le moderne et le classique. Entre les technologies qui ont fait leurs preuves et les dernières avancées qui ont servi de base à ce char, c'est un véritable plaisir à piloter. Enfin, si le métal rouillé ne vous dérange pas."
+
+msgid "tanks/usa/title"
+msgstr "Raven"
+
+msgid "tanks/ussr/description"
+msgstr "Ce char, assemblé à partir de pièces mises au rebut et de composants de diverses usines de chars, représente une grande menace pour n'importe quel véhicule ennemi. Un véritable monstre peut être créé sur le champ de bataille en jetant au vent plans et documentations techniques."
+
+msgid "tanks/ussr/title"
+msgstr "Varyag"

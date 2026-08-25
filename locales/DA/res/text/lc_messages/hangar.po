@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "Køb"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "Følgende forbrugsvarer vil blive påført: %(consumables)s."
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "Køb forbrugsvarer"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s mandskabsmedlemmer"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Du har allerede mandskab til dette køretøj"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s mandskabsmedlemmer."
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "Rekrutter nye mandskabsmedlemmer"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "her."
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Wargaming bruger den alfanumeriske T-34-kombination i dens almindelige brug som henvisning til virkelige kampvogne og er ikke på nogen måde relateret til rettighedsindehavere af varemærker med samme navn. Læs mere {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "Lad ammunition"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "Påfør forbrugsvarer"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "Garageplads"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "Byt"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "Gratis"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "Rekrutter %(count)s mandskabsmedlemmer"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "Lejekøretøj"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "Lej"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "Lej i 30 dage"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "Lej i 3 dage"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "Lej i 7 dage"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "Lej i %(days)s dage"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "Frontlinje stadie"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "Frontlinje sæson"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "Stadie af rangerede kampe"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "Sæson af rangerede kampe"
+
+msgid "buyVehicleWindow/restore"
+msgstr "Genopret"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "Ubegrænset"
+
+msgid "buyVehicleWindow/title"
+msgstr "Konfiguration"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "Genopretning"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "Køb"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "Bytte"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "Bytte"
+
+msgid "carousel/filters/allVehicle"
+msgstr "Alle mine køretøjer"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "Mandskab"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "Karakteristika"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} kamp"
+msgstr[1] "{{count}} kampe"
+msgstr[2] "{{count}} kampe"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} dag"
+msgstr[1] "{{count}} dage"
+msgstr[2] "{{count}} dage"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} time"
+msgstr[1] "{{count}} timer"
+msgstr[2] "{{count}} timer"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} sejr"
+msgstr[1] "{{count}} sejre"
+msgstr[2] "{{count}} sejre"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "Klik for at gå til dine køretøjs-playlister"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "Mine køretøjer"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "Træning af mandskab, omskoling og administration."
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "Mandskabsadministration"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "Køretøjstilpasning: påføring af 2D/3D-stile og andre elementer."
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "Tilpasning"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "Tryk for at åbne"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "Køretøjsinformation, forskning, sammenligning og reparation."
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "Køretøjsadministration"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "OM KØRETØJ"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "PANSER"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "SAMMENLIGN"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "AUTO-RETURNER"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "RETURNER MANDSKAB"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "SEND TIL BARAKKEN"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "OMSKOL MANDSKAB"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "KVIK-SERVICE"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "FELTMODIFIKATION"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "SKIFT NATION"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "AKTIV"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "PRO BOOST {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "HURTIG TRÆNING"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "REPARATIONER"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "FORSKNING"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "OPGRADERINGER"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "Du kan til enhver tid ændre dette valg."
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "Pro-boost aktivt for dette køretøj"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "Du kan kun booste køretøjer i standard kampe, Onslaught-kamptyper, befæstning, kampe på det globale kort og i turneringer."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "Inkompatibel kamptype til Pro-boost"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "Du kan kun booste køretøjer, der kan udforskes og samlerkøretøjer på niveau I–X."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "Inkompatibelt køretøj til Pro-boost"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "Dit Pro-boost er i øjeblikket aktivt for {{vehicle}}. Du kan ændre dette valg om {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "Kom tilbage senere!"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "Du kan ændre dette valg om {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "Pro-boost aktivt for dette køretøj"

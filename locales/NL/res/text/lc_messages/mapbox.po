@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "Begrepen!"
+
+msgid "awardsView/subTitle"
+msgstr "GEVECHTEN GESPEELD: {number}"
+
+msgid "awardsView/title"
+msgstr "VERKENNINGSMISSIE"
+
+msgid "buttonDisable/tooltip"
+msgstr "Onbeschikbaar"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Rooster"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "Gevecht betreden niet mogelijk"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "Gevechten zijn afgelopen"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "Gevecht betreden niet mogelijk"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "Er is een staakt-het-vuren op deze server. Selecteer alsjeblieft een andere server."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "Je kunt alleen in %(levelSubStr)s een gevecht betreden."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "Ongeschikt voertuigniveau"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "niveau %(levels)s voertuigen"
+
+msgid "intro/button"
+msgstr "Begrepen!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "Je antwoorden helpen ons om de slagvelden te verbeteren. Deel je mening over de nieuwe kaartfeatures, en we zullen de beste ideeën aan het spel toevoegen."
+
+msgid "intro/interviewInfoTitle"
+msgstr "Cruciale feedback"
+
+msgid "intro/modeInfoDescription"
+msgstr "Speel met niveau VIII–X voertuigen op kaarten met nieuwe features, vul enquêtes in en word beloond. Over een week zal de progressie worden gereset en kun je opnieuw beloningen verdienen."
+
+msgid "intro/modeInfoTitle"
+msgstr "Help ons met het ontwikkelen van nieuwe features!"
+
+msgid "intro/startEvent"
+msgstr "Evenement begint over: "
+
+msgid "intro/taskInfoDescription"
+msgstr "Wanneer je in Verkenningsmissie vecht, kun je dagelijkse en Vechtpas-missies voltooien, en aan de voorwaarden van progressieve stickers voldoen."
+
+msgid "intro/taskInfoTitle"
+msgstr "Vecht onder de regels van het Standaard gevecht"
+
+msgid "intro/time/period/day"
+msgstr "{day} d"
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} d {hours} u"
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} u {min} min"
+
+msgid "intro/time/period/minute"
+msgstr "{min} min"
+
+msgid "intro/title"
+msgstr "VERKENNINGSMISSIE"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s kan niet aan Verkenningsmissie meedoen."
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "Ongeschikt voertuigtype"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "Selecteer een %(levelSubStr)s om aan Verkenningsmissie mee te doen."
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "Ongeschikt voertuigniveau"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Niveau %(levels)s voertuig"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "De %(forbiddenType)s kan niet aan Verkenningsmissie meedoen."
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "Incompatibel voertuig"
+
+msgid "mapboxTab"
+msgstr "Verkenningsmissie"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Het stadium op de %(server)s-server is afgelopen"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "%(server)s-server\nGevechten zullen nog %(time)s beschikbaar zijn"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "%(server)s-server\nGevechten komen over %(time)s beschikbaar"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Er is een staakt-het-vuren op alle servers"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Deze modus is op de %(server)s-server niet beschikbaar"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Gevechten zullen op de %(server)s-server nog %(time)s beschikbaar zijn"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Gevechten zullen op de %(server)s-server over %(time)s beginnen"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "Gevechten in deze modus zijn onbeschikbaar: het seizoen is afgelopen."
+
+msgid "primeTimeView/status/untill"
+msgstr "Er is tot %(startTime)s een staakt-het-vuren op de %(server)s-server"
+
+msgid "primeTimeView/title"
+msgstr "VERKENNINGSMISSIE"
+
+msgid "primeTimes/availableServer"
+msgstr "Beschikbare server:"
+
+msgid "primeTimes/availableServers"
+msgstr "Beschikbare servers:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "Gevechten zijn afgelopen"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Deze modus is op de %(serverName)s-server niet beschikbaar"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "Speel gevechten"
+
+msgid "progression/cardTitle/rating"
+msgstr "Eindig met verdiende XP bij de beste {rating} spelers"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "Eindig met verdiende XP bij de beste {rating} spelers op kaarten met brand"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "Eindig met verdiende XP bij de beste {rating} spelers op kaarten met mist"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "Eindig met verdiende XP bij de beste {rating} spelers op kaarten met zware regenval"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "Eindig met verdiende XP bij de beste {rating} spelers op kaarten met zandstormen"
+
+msgid "progression/changeAnswer"
+msgstr "Wijzig antwoord"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Speel met niveau VIII–X voertuigen op kaarten met nieuwe features, vul enquêtes in en word beloond."
+
+msgid "progression/info/restart"
+msgstr "De progressie richting beloningen zal over %(leftTime)s worden gereset"
+
+msgid "progression/info/title"
+msgstr "Eindig met verdiende XP bij de beste %(rating) spelers: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "OVER HET EVENEMENT"
+
+msgid "progression/map_01_karelia"
+msgstr "KARELIË"
+
+msgid "progression/map_02_malinovka"
+msgstr "MALINOVKA"
+
+msgid "progression/map_05_prohorovka"
+msgstr "PROKHOROVKA"
+
+msgid "progression/map_18_cliff"
+msgstr "WESTFIELD"
+
+msgid "progression/map_all"
+msgstr "SPEL-\nMECHANICA"
+
+msgid "progression/map_fire"
+msgstr "BRAND"
+
+msgid "progression/map_fog"
+msgstr "MIST"
+
+msgid "progression/map_heavy_rain"
+msgstr "ZWARE REGENVAL"
+
+msgid "progression/map_sandstorm"
+msgstr "ZANDSTORM"
+
+msgid "progression/redirect"
+msgstr "Ga naar de modus"
+
+msgid "progression/startInterview"
+msgstr "Enquête invullen"
+
+msgid "progression/startInterviewTooltip"
+msgstr "Voldoe aan de bovenstaande voorwaarde om een enquête in te kunnen vullen."
+
+msgid "progression/startSpecialInterview"
+msgstr "Enquête invullen"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "Voldoe aan de bovenstaande voorwaarde om een enquête in te kunnen vullen."
+
+msgid "progression/subtitle"
+msgstr "Hier kun je een enquête invullen over de nieuwe features"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s u %(min)s min"
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "progression/title"
+msgstr "VERKENNINGSMISSIE"
+
+msgid "progressionError/description/line1"
+msgstr "Je progressie is opgeslagen. Je kunt doorgaan met spelen."
+
+msgid "progressionError/description/line2"
+msgstr "Je kunt binnenkort je progressie bekijken en een enquête invullen."
+
+msgid "progressionError/title"
+msgstr "Verkenningsmissie-gegevens zijn tijdelijk onbeschikbaar"
+
+msgid "questFlag/complete"
+msgstr "Alle beloningen ontvangen"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "Speel met %(highlightedText)s, vul enquêtes in en ontvang beloningen."
+
+msgid "questFlag/frozen/header"
+msgstr "Verkenningsmissie onbeschikbaar"
+
+msgid "questFlag/frozen/text"
+msgstr "Verkenningsmissie-gevechten zijn wegens technische redenen onbeschikbaar."
+
+msgid "questFlag/highlightedText"
+msgstr "Niveau VIII–X voertuigen op kaarten met nieuwe features"
+
+msgid "questFlag/incomplete"
+msgstr "Hoeveel gevechten je nog moet spelen om de volgende beloning te ontvangen: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "Gevechten gespeeld:"
+
+msgid "questFlag/surveysTitle"
+msgstr "Enquêtes ingevuld: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "De verkenning van kaarten met nieuwe features gaat van start op %(day)s"
+
+msgid "selector/tooltip/body"
+msgstr "De verkenning van kaarten met nieuwe features duurt nog tot %(day)s"
+
+msgid "selector/tooltip/title"
+msgstr "Rooster"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Seizoen eindigt over:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Gevechtsrooster"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Vandaag"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Morgen"
+
+msgid "serverAlertMessage/button"
+msgstr "Selecteer andere server"
+
+msgid "survey/backBtn"
+msgstr "Terug"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "tankjagers"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "artillerie"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "zware tanks"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "lichte tanks"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "medium tanks"
+
+msgid "survey/fire/question/q1"
+msgstr "Vond je het leuk om gevechten met brand te spelen op de Murovanka-kaart?"
+
+msgid "survey/fire/question/q2"
+msgstr "Wat vind je van het visuele ontwerp van de brand op de Murovanka-kaart?"
+
+msgid "survey/fire/question/q3"
+msgstr "Moet de invloed van brand op de gameplay op Murovanka worden aangepast?"
+
+msgid "survey/fire/question/q4"
+msgstr "Hoe zou je de invloed van brand op de gameplay op Murovanka willen aanpassen?"
+
+msgid "survey/fire/question/q5"
+msgstr "Met welke voertuigtypes heb je op de Murovanka-kaart gespeeld?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "Hoe is de gameplay van {value} op de Murovanka-kaart veranderd?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "Hoe is de gameplay van {value} op de Murovanka-kaart veranderd?"
+
+msgid "survey/fire/question/q7"
+msgstr "Wil je dat er brand plaatsvindt op de kaarten van Willekeurige gevechten?"
+
+msgid "survey/fire/question/q8"
+msgstr "Wat vond je niet leuk aan de brand op de Murovanka-kaart?"
+
+msgid "survey/fire/question/q9"
+msgstr "Geef aan wat er moet worden verbeterd."
+
+msgid "survey/fire/response/q1_1"
+msgstr "Ja"
+
+msgid "survey/fire/response/q1_2"
+msgstr "Nee"
+
+msgid "survey/fire/response/q1_3"
+msgstr "Weet ik niet"
+
+msgid "survey/fire/response/q2_1"
+msgstr "Leuk"
+
+msgid "survey/fire/response/q2_2"
+msgstr "Prima"
+
+msgid "survey/fire/response/q2_3"
+msgstr "Niet leuk"
+
+msgid "survey/fire/response/q2_4"
+msgstr "Weet ik niet"
+
+msgid "survey/fire/response/q3_1"
+msgstr "Ja"
+
+msgid "survey/fire/response/q3_2"
+msgstr "Nee"
+
+msgid "survey/fire/response/q3_3"
+msgstr "Weet ik niet"
+
+msgid "survey/fire/response/q4_1"
+msgstr "Groter effect"
+
+msgid "survey/fire/response/q4_2"
+msgstr "Kleiner effect"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "Tankjagers"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "Artillerie"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "Zware tanks"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "Lichte tanks"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "Medium tanks"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "Weet ik niet meer"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "Beter geworden"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "Slechter geworden"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "Niet veranderd"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "Weet ik niet"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "Beter geworden"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "Slechter geworden"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "Niet veranderd"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "Weet ik niet"
+
+msgid "survey/fire/response/q7_1"
+msgstr "Ja"
+
+msgid "survey/fire/response/q7_2"
+msgstr "Nee"
+
+msgid "survey/fire/response/q7_3"
+msgstr "Weet ik niet"
+
+msgid "survey/fire/response/q8_1"
+msgstr "Brand vermindert het aantal beschikbare posities aanzienlijk"
+
+msgid "survey/fire/response/q8_10"
+msgstr "Een van de teams verkrijgt een voordeel"
+
+msgid "survey/fire/response/q8_11"
+msgstr "Technische problemen"
+
+msgid "survey/fire/response/q8_12"
+msgstr "Anders"
+
+msgid "survey/fire/response/q8_2"
+msgstr "Brand veroorzaakt te veel schade"
+
+msgid "survey/fire/response/q8_3"
+msgstr "Vijanden buiten de zone kunnen mijn voertuig niet zien, en ik die van hen ook niet"
+
+msgid "survey/fire/response/q8_4"
+msgstr "De locatie van brand op de kaart"
+
+msgid "survey/fire/response/q8_5"
+msgstr "Hoe de brand eruitziet"
+
+msgid "survey/fire/response/q8_6"
+msgstr "Te veel invloed op de gameplay"
+
+msgid "survey/fire/response/q8_7"
+msgstr "Te weinig invloed op de gameplay"
+
+msgid "survey/fire/response/q8_8"
+msgstr "Hoe de brand eruitziet verstoort de strijd"
+
+msgid "survey/fire/response/q8_9"
+msgstr "De brand forceert je om van dichterbij te vechten"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "Buitenpost"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "Fjorden"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "Buitenpost"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "Fjorden"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "Buitenpost"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "Fjorden"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "tankjagers"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "artillerie"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "zware tanks"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "lichte tanks"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "medium tanks"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "tankjagers"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "artillerie"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "zware tanks"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "lichte tanks"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "medium tanks"
+
+msgid "survey/fog/question/q1"
+msgstr "Vond je het leuk om gevechten met mist te spelen op de volgende kaarten?"
+
+msgid "survey/fog/question/q10"
+msgstr "Wil je dat er mist plaatsvindt op de kaarten van Willekeurige gevechten?"
+
+msgid "survey/fog/question/q11"
+msgstr "Wat vond je niet leuk aan de mist op de Fjorden-kaart?"
+
+msgid "survey/fog/question/q12"
+msgstr "Wat vond je niet leuk aan de mist op de Buitenpost-kaart?"
+
+msgid "survey/fog/question/q13"
+msgstr "Geef aan wat er moet worden verbeterd."
+
+msgid "survey/fog/question/q2"
+msgstr "Wat vind je van het visuele ontwerp van de mist op de volgende kaarten?"
+
+msgid "survey/fog/question/q3"
+msgstr "Moet de invloed van mist op de kaart-gameplay worden aangepast?"
+
+msgid "survey/fog/question/q4"
+msgstr "Hoe zou je de invloed van mist op de gameplay op Fjorden willen aanpassen?"
+
+msgid "survey/fog/question/q5"
+msgstr "Hoe zou je de invloed van mist op de gameplay op Buitenpost willen aanpassen?"
+
+msgid "survey/fog/question/q6"
+msgstr "Met welke voertuigtypes heb je op de Fjorden-kaart gespeeld?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "Hoe is de gameplay van {value} op de Fjorden-kaart veranderd?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "Hoe is de gameplay van {value} op de Fjorden-kaart veranderd?"
+
+msgid "survey/fog/question/q8"
+msgstr "Met welke voertuigtypes heb je op de Buitenpost-kaart gespeeld?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "Hoe is de gameplay van {value} op de Buitenpost-kaart veranderd?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "Hoe is de gameplay van {value} op de Buitenpost-kaart veranderd?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "Ja"
+
+msgid "survey/fog/response/q10_2"
+msgstr "Nee"
+
+msgid "survey/fog/response/q10_3"
+msgstr "Weet ik niet"
+
+msgid "survey/fog/response/q11_1"
+msgstr "Vijanden buiten de zone kunnen mijn voertuig niet zien, en ik die van hen ook niet"
+
+msgid "survey/fog/response/q11_10"
+msgstr "Anders"
+
+msgid "survey/fog/response/q11_2"
+msgstr "De locatie van mist op de kaart"
+
+msgid "survey/fog/response/q11_3"
+msgstr "Hoe de mist eruitziet"
+
+msgid "survey/fog/response/q11_4"
+msgstr "Te veel invloed op de gameplay"
+
+msgid "survey/fog/response/q11_5"
+msgstr "Te weinig invloed op de gameplay"
+
+msgid "survey/fog/response/q11_6"
+msgstr "Hoe de mist eruitziet verstoort de strijd"
+
+msgid "survey/fog/response/q11_7"
+msgstr "De mist forceert je om van dichterbij te vechten"
+
+msgid "survey/fog/response/q11_8"
+msgstr "Een van de teams verkrijgt een voordeel"
+
+msgid "survey/fog/response/q11_9"
+msgstr "Technische problemen"
+
+msgid "survey/fog/response/q12_1"
+msgstr "Vijanden buiten de zone kunnen mijn voertuig niet zien, en ik die van hen ook niet"
+
+msgid "survey/fog/response/q12_10"
+msgstr "Anders"
+
+msgid "survey/fog/response/q12_2"
+msgstr "De locatie van mist op de kaart"
+
+msgid "survey/fog/response/q12_3"
+msgstr "Hoe de mist eruitziet"
+
+msgid "survey/fog/response/q12_4"
+msgstr "Te veel invloed op de gameplay"
+
+msgid "survey/fog/response/q12_5"
+msgstr "Te weinig invloed op de gameplay"
+
+msgid "survey/fog/response/q12_6"
+msgstr "Hoe de mist eruitziet verstoort de strijd"
+
+msgid "survey/fog/response/q12_7"
+msgstr "De mist forceert je om van dichterbij te vechten"
+
+msgid "survey/fog/response/q12_8"
+msgstr "Een van de teams verkrijgt een voordeel"
+
+msgid "survey/fog/response/q12_9"
+msgstr "Technische problemen"
+
+msgid "survey/fog/response/q1_1"
+msgstr "Ja"
+
+msgid "survey/fog/response/q1_2"
+msgstr "Nee"
+
+msgid "survey/fog/response/q1_3"
+msgstr "Weet ik niet"
+
+msgid "survey/fog/response/q2_1"
+msgstr "Leuk"
+
+msgid "survey/fog/response/q2_2"
+msgstr "Prima"
+
+msgid "survey/fog/response/q2_3"
+msgstr "Niet leuk"
+
+msgid "survey/fog/response/q2_4"
+msgstr "Weet ik niet"
+
+msgid "survey/fog/response/q3_1"
+msgstr "Ja"
+
+msgid "survey/fog/response/q3_2"
+msgstr "Nee"
+
+msgid "survey/fog/response/q3_3"
+msgstr "Weet ik niet"
+
+msgid "survey/fog/response/q4_1"
+msgstr "Groter effect"
+
+msgid "survey/fog/response/q4_2"
+msgstr "Kleiner effect"
+
+msgid "survey/fog/response/q5_1"
+msgstr "Groter effect"
+
+msgid "survey/fog/response/q5_2"
+msgstr "Kleiner effect"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "Tankjagers"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "Artillerie"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "Zware tanks"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "Lichte tanks"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "Medium tanks"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "Weet ik niet meer"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "Beter geworden"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "Slechter geworden"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "Niet veranderd"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "Weet ik niet"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "Beter geworden"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "Slechter geworden"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "Niet veranderd"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "Weet ik niet"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "Tankjagers"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "Artillerie"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "Zware tanks"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "Lichte tanks"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "Medium tanks"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "Weet ik niet meer"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "Beter geworden"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "Slechter geworden"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "Niet veranderd"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "Weet ik niet"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "Beter geworden"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "Slechter geworden"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "Niet veranderd"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "Weet ik niet"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "Vissersbaai"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "Vissersbaai"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "Vissersbaai"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "tankjagers"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "artillerie"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "zware tanks"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "lichte tanks"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "medium tanks"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "tankjagers"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "artillerie"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "zware tanks"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "lichte tanks"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "medium tanks"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "Vond je het leuk om gevechten met zware regenval te spelen op de volgende kaarten?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "Wil je dat er zware regenval plaatsvindt op de kaarten van Willekeurige gevechten?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "Wat vond je niet leuk aan de zware regenval op de Westfield-kaart?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "Wat vond je niet leuk aan de zware regenval op de Vissersbaai-kaart?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "Geef aan wat er moet worden verbeterd."
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "Wat vind je van het visuele ontwerp van de zware regenval op de volgende kaarten?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "Moet de invloed van zware regenval op de kaart-gameplay worden aangepast?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "Hoe zou je de invloed van zware regenval op de gameplay op Westfield willen aanpassen?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "Hoe zou je de invloed van zware regenval op de gameplay op Vissersbaai willen aanpassen?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "Met welke voertuigtypes heb je op de Westfield-kaart gespeeld?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "Hoe is de gameplay van {value} op de Westfield-kaart veranderd?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "Hoe is de gameplay van {value} op de Westfield-kaart veranderd?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "Met welke voertuigtypes heb je op de Vissersbaai-kaart gespeeld?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "Hoe is de gameplay van {value} op de Vissersbaai-kaart veranderd?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "Hoe is de gameplay van {value} op de Vissersbaai-kaart veranderd?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "Ja"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "Nee"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "Weet ik niet"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "Het is te glad in de zone met zware regenval"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "Technische problemen"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "Anders"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "Vijanden buiten de zone kunnen mijn voertuig niet zien, en ik die van hen ook niet"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "De locatie van zware regenval op de kaart"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "Hoe de zware regenval eruitziet"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "Te veel invloed op de gameplay"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "Te weinig invloed op de gameplay"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "Hoe de zware regenval eruitziet verstoort de strijd"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "De zware regenval forceert je om van dichterbij te vechten"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "Een van de teams verkrijgt een voordeel"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "Het is te glad in de zone met zware regenval"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "Technische problemen"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "Anders"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "Vijanden buiten de zone kunnen mijn voertuig niet zien, en ik die van hen ook niet"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "De locatie van zware regenval op de kaart"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "Hoe de zware regenval eruitziet"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "Te veel invloed op de gameplay"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "Te weinig invloed op de gameplay"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "Hoe de zware regenval eruitziet verstoort de strijd"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "De zware regenval forceert je om van dichterbij te vechten"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "Een van de teams verkrijgt een voordeel"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "Ja"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "Nee"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "Weet ik niet"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "Leuk"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "Prima"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "Niet leuk"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "Weet ik niet"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "Ja"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "Nee"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "Weet ik niet"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "Groter effect"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "Kleiner effect"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "Groter effect"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "Kleiner effect"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "Tankjagers"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "Artillerie"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "Zware tanks"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "Lichte tanks"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "Medium tanks"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "Weet ik niet meer"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "Beter geworden"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "Slechter geworden"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "Niet veranderd"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "Weet ik niet"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "Beter geworden"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "Slechter geworden"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "Niet veranderd"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "Weet ik niet"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "Tankjagers"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "Artillerie"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "Zware tanks"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "Lichte tanks"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "Medium tanks"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "Weet ik niet meer"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "Beter geworden"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "Slechter geworden"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "Niet veranderd"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "Weet ik niet"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "Beter geworden"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "Slechter geworden"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "Niet veranderd"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "Weet ik niet"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "Volgende"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "Begrepen!"
+
+msgid "survey/required"
+msgstr "Beantwoord de vraag om door te gaan."
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "tankjagers"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "artillerie"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "zware tanks"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "lichte tanks"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "medium tanks"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "Vond je het leuk om gevechten met zandstorm te spelen op de Zandrivier-kaart?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "Wat vind je van het visuele ontwerp van de zandstorm op de Zandrivier-kaart?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "Moet de invloed van zandstormen op de gameplay op Zandrivier worden aangepast?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "Hoe zou je de invloed van zandstormen op de gameplay op Zandrivier willen aanpassen?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "Met welke voertuigtypes heb je op de Zandrivier-kaart gespeeld?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "Hoe is de gameplay van {value} op de Zandrivier-kaart veranderd?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "Hoe is de gameplay van {value} op de Zandrivier-kaart veranderd?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "Wil je dat er zandstormen plaatsvinden op de kaarten van Willekeurige gevechten?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "Wat vond je niet leuk aan de zandstormen op de Zandrivier-kaart?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "Geef aan wat er moet worden verbeterd."
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "Ja"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "Nee"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "Weet ik niet"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "Leuk"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "Prima"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "Niet leuk"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "Weet ik niet"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "Ja"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "Nee"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "Weet ik niet"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "Groter effect"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "Kleiner effect"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "Tankjagers"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "Artillerie"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "Zware tanks"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "Lichte tanks"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "Medium tanks"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "Weet ik niet meer"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "Beter geworden"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "Slechter geworden"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "Niet veranderd"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "Weet ik niet"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "Beter geworden"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "Slechter geworden"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "Niet veranderd"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "Weet ik niet"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "Ja"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "Nee"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "Weet ik niet"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "Vijanden buiten de zone kunnen mijn voertuig niet zien, en ik die van hen ook niet"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "Anders"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "De locatie van de zandstorm op de kaart"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "Hoe de zandstormen eruitzien"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "Te veel invloed op de gameplay"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "Te weinig invloed op de gameplay"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "Hoe de zandstorm eruitziet verstoort de strijd"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "De zandstorm forceert je om van dichterbij te vechten"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "Een van de teams verkrijgt een voordeel"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "Technische problemen"
+
+msgid "survey/subTitle"
+msgstr "Bedankt dat je de tijd neemt om deze enquête in te vullen! Dit zal ongeveer twee minuten duren. Je antwoorden zullen alleen worden verwerkt voor het uitvoeren van deze enquête. Alle persoonlijke gegevens zullen worden verwijderd, geheel volgens ons privacybeleid."
+
+msgid "survey/template/final/title"
+msgstr "Bedankt dat je de tijd neemt om deze enquête in te vullen!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "KLIK OP DE KAART OM EEN POSITIE TE SELECTEREN"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "JE KUNT OP DE KAART MAXIMAAL DRIE POSITIES SELECTEREN"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "Gedetailleerde beschrijving (maximaal %(maxLength)s tekens)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "Positie"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "Verwijder positie"
+
+msgid "survey/template/opened/description"
+msgstr "Gedetailleerde beschrijving van het probleem (maximaal %(maxLength)s tekens)"
+
+msgid "survey/title/common"
+msgstr "Beoordeel alsjeblieft de nieuwe features"
+
+msgid "survey/title/map"
+msgstr "Evaluatie van de %(map)s-kaart"

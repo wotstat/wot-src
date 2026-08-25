@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "Taistelupassista"
+
+msgid "about/position/header"
+msgstr "Taistelupassin pisteiden jakautuminen"
+
+msgid "about/position/text"
+msgstr "Kunkin taistelun jälkeen saat taistelupassin pisteitä sijoituksesi mukaan. Saat lisää taistelupassin pisteitä, jos onnistut kasvattamaan Etulinjan tasoasi."
+
+msgid "about/scores/header"
+msgstr "Taistelupassin pisteet"
+
+msgid "about/scores/text"
+msgstr "Erityistä Taistelupassin valuuttaa, jota voi ansaita Satunnaistaistelu ja Etulinja -pelimuodoista. Taistelupassin pisteitä myönnetään Etulinjan tasojen saavuttamisesta ja sijoituksestasi taistelun tuloksissa. Etulinjan vaunuilla ei ole rajoja siinä, kuinka paljon pisteitä ne voivat ansaita."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Tappio"
+
+msgid "about/scoresTable/topCell"
+msgstr "{{top}} eniten kokemusta ansainnutta"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Voitto"
+
+msgid "about/text"
+msgstr "Taistelupassi on pitkäkestoinen tapahtuma, jossa pelaajat etenevät vaiheesta toiseen ansaitsemalla taistelupassin pisteitä. Kukin suoritettu vaihe tuo heille arvokkaita palkintoja. Tiettyjen vaiheiden suorittamisesta pelaajat voivat saada Taistelupassin poletteja. Ne ovat erikoisvaluuttaa, joita voi käyttää ainutlaatuisten vaunujen ja muiden arvokkaiden palkintojen ostamiseen tapahtuman osastolta kaupasta."
+
+msgid "addons/cellRent/header"
+msgstr "Vaunun vuokraaminen"
+
+msgid "addons/cellRent/text_10"
+msgstr "Tarjolla on krediiteillä vuokrattavaksi useita erilaisia tason {{vehiclesLevel}} vaunuja. Saman tyyppisistä ja saman kansakunnan vaunuista voi siirtää miehistön jäseniä ilman rangaistuksia tai tarvetta uudelleenkoulutukseen."
+
+msgid "addons/cellRent/text_9"
+msgstr "Tarjolla on krediiteillä vuokrattavaksi useita erilaisia tason {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} vaunuja. Saman tyyppisistä ja saman kansakunnan vaunuista voi siirtää miehistön jäseniä ilman rangaistuksia tai tarvetta uudelleenkoulutukseen."
+
+msgid "addons/cellSpectator/header"
+msgstr "Tarkkailija-tila"
+
+msgid "addons/cellSpectator/text"
+msgstr "Odottaessasi paluuta taisteluun voit valita Katselija -tilan tarkkaillaksesi taistelukenttää ja suunnitellaksesi taistelutaktiikkaasi."
+
+msgid "addons/cellTime/header"
+msgstr "Lisäaika"
+
+msgid "addons/cellTime/text"
+msgstr "Joukkueesi saa lisäaikaa, jos tukikohtaa vallataan taisteluajan loppuessa. Lisäaika päättyy, mikäli puolustava joukkue onnistuu keskeyttämään valtauksen."
+
+msgid "addons/header"
+msgstr "Lisätietoa"
+
+msgid "levelUp/sectionHeader"
+msgstr "Tason {{level}} vaunut"
+
+msgid "levelUp/text"
+msgstr "Kuten aiemminkin voit aluksi viedä taisteluun vain tason {{vehiclesLevelFrom}} vaunuja, mutta voit valmistella tallissasi myös tason {{vehiclesLevelTo}} vaunut. Kun toisen linjan mikä hyvänsä tukikohta (D, E, F) vallataan, voivat molemmat joukkueet ottaa käyttön tason {{vehiclesLevelTo}} vaunuja."
+
+msgid "main/cellDuration/header"
+msgstr "Kesto"
+
+msgid "main/cellDuration/text"
+msgstr "Etulinja kestää {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}} päivää. Seuraavan kerran päivämäärä ilmoitetaan erikseen."
+
+msgid "main/cellFrontline/header"
+msgstr "Etulinja"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Massiivisia 30v30 taisteluita tason {{vehiclesLevel}} vaunuilla {{@ colorLegacy 'FFE4C0'}}Normandy, Kraftwerk,{{/}} ja {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}} kartoilla. Hyökkääjien tulee tuhota kolme viidestä suurikaliiperisesta tykistä, kun puolustajien täytyy suojella niitä."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Massiivisia 30v30 taisteluita tason {{vehiclesLevelFrom}}–{{vehiclesLevelTo}} vaunuilla {{@ colorLegacy 'FFE4C0'}}Normandy, Kraftwerk{{/}} ja {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}} kartoilla. Hyökkääjien tulee tuhota kolme viidestä suurikaliiperisesta tykistä, kun puolustajien täytyy suojella niitä."
+
+msgid "main/cellLevel9/header"
+msgstr "Tason {{vehiclesLevel}} vaunut"
+
+msgid "main/cellLevel9/text"
+msgstr "Voit liittyä taisteluun tason {{vehiclesLevel}} vaunulla, kun yksi toisen linjan tukikohdista (D, E tai F) vallataan."
+
+msgid "main/cellLevels/header"
+msgstr "Tason {{vehiclesLevel}} vaunut"
+
+msgid "main/cellLevels/text_8"
+msgstr "Vain tason {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} vaunut ovat saatavilla pelimuodossa."
+
+msgid "main/cellLevels/text_9"
+msgstr "Vain tason {{vehiclesLevel}} vaunut voivat liittyä taisteluun."
+
+msgid "main/cellPass/header"
+msgstr "Taistelupassi"
+
+msgid "main/cellPass/text"
+msgstr "Etulinja tarjoaa mahtavan tilaisuuden ansaita Taistelupassin pisteitä taisteluihin osallistumisesta ja uusien Etulinjan tasojen saavuttamisesta."
+
+msgid "main/cellReserves/header"
+msgstr "Taistelureservien kategoriat"
+
+msgid "main/cellReserves/text"
+msgstr "Tarjolla on kolme taistelureservien kategoriaa, joista kukin on sidottu tiettyyn paikkaan. Niiden avausjärjestys ja parantuminen riippuvat vaunutyypistä."
+
+msgid "main/cellScenarios/header"
+msgstr "Skenaariot"
+
+msgid "main/cellScenarios/text"
+msgstr "Taistelut Etulinja -pelimuodossa käyttävät yhtä seuraavista skenaarioista: {{@ colorLegacy 'FFE4C0'}}Normaalitaistelu{{/}}, {{@ colorLegacy 'FFE4C0'}}Operatiivinen tuki{{/}} tai {{@ colorLegacy 'FFE4C0'}}Kohtalon oikku{{/}}. Tieto sen hetkisestä taisteluskenaariosta näytetään latausruudulla, taistelua edeltävän lähtölaskennan aikana tai painamalla Tab -näppäintä."
+
+msgid "main/sectionHeader"
+msgstr "Yleiset tiedot"
+
+msgid "page/backBtn"
+msgstr "TAKAISIN"
+
+msgid "page/headerUpper"
+msgstr "ETULINJA"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "Saavuttamastasi sotilasarvosta riippuen saat taistelukokemusta sekä Etulinjan kokemusta. Etulinjan kokemusta käytetään Etulinjan tasojen kasvattamiseen. Kaikkiaan tarjolla on {{@ colorLegacy 'FFE4C0'}}20 tasoa{{/}}."
+
+msgid "progression/levelsSection/header"
+msgstr "Etulinjan tasot"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Etulinjan tasot{{/}} palkitsevat sinut Taistelupassin pisteillä, taistelureservipisteillä, arvopapereilla, direktiiveillä, uudelleenkoulutuskäskyillä, opetusluvalla sekä miehistökirjoilla."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Etulinjan tasot{{/}} palkitsevat sinut taistelureservipisteillä, arvopapereilla, direktiiveillä, uudelleenkoulutuskäskyillä sekä miehistökirjoilla."
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Sotilasarvot{{/}} eivät ainoastaan kuvasta tehokkuuttasi tietyssä taistelussa, vaan tarjoavat myös kokemusbonuksen. Tämä bonus lasketaan kaikilla taisteluun osallistumillasi vaunuilla keräämääsi peruskokemukseen. Kun sinä tai liittolaisesi saavutatte kenraalin sotilasarvon, saa koko joukkue bonuksen miehistön suorituskykyyn (päätaidon tasoon) väliltä {{@ colorLegacy 'FFE4C0'}}1,5%{{/}}–{{@ colorLegacy 'FFE4C0'}}15%{{/}}."
+
+msgid "progression/ranksSection/header"
+msgstr "Sotilasarvot"
+
+msgid "progression/ranksSection/text"
+msgstr "Pelimuoto käsittää kuuden sotilasarvon järjestelmän, jonka sisällä pelaajat etenevät aina alokkaan sotilasarvosta kenraaliksi asti. Saat ylennyksiä tehokkaasta toiminnasta taistelussa (tukikohtien valtaaminen/puolustaminen, pääkohteiden tuhoaminen) ja kokemuksen ansaitsemisesta. Kaikilla taistelussa käyttämilläsi vaunuilla ansaittu kokemus huomioidaan."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Bonus taistelukokemukseen"
+
+msgid "progression/ranksTable/captain"
+msgstr "Kapteeni"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Bonus miehistön suorituskykyyn"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Etulinjan kokemus"
+
+msgid "progression/ranksTable/general"
+msgstr "Kenraali"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Luutnantti"
+
+msgid "progression/ranksTable/major"
+msgstr "Majuri"
+
+msgid "progression/ranksTable/private"
+msgstr "Yksityinen"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Kersantti"
+
+msgid "progression/sectionHeader"
+msgstr "Edistyminen Etulinjalla"
+
+msgid "progression/text"
+msgstr "Tätä pelimuotoa pelatessasi kohoat sotilasarvoissa, etenet Etulinjan edistymisen läpi ja ansaitset palkintoja."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Toissijainen"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Reservipaikka 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Reservipaikka 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Reservipaikka 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Ensisijainen"
+
+msgid "reserveCategories/categories/support"
+msgstr "Avustava"
+
+msgid "reserveCategories/config/footerText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}\"Kohtalon oikku\"{{/}} -skenaariossa taistelureservien avausjärjestys ei riipu vaunun tyypistä."
+
+msgid "reserveCategories/config/header"
+msgstr "Reservikokoonpanot vaunutyypeittäin"
+
+msgid "reserveCategories/config/text"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Normaalitaistelussa{{/}} ja {{@ colorLegacy 'FFE4C0'}}Operatiivisessa tuessa{{/}} kaikki kolme taistelureservien paikkaa ovat saatavilla kaikille vaunutyypeille. Järjestys, jossa ne avataan, riippuu kuitenkin vaunutyypistä."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "PST-vaunut"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Raskaat vaunut"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Kevyet vaunut"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Keskiraskaat vaunut"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "Telatykit"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* Parantaminen tälle tasolle on saatavilla vain {{@ colorLegacy 'FFE4C0'}}ostetuille{{/}} taistelureserveille {{@ colorLegacy 'FFE4C0'}}\"Kohtalon oikku\"{{/}} -skenaariossa."
+
+msgid "reserveCategories/levels/header"
+msgstr "Kuinka avata paikkoja ja parantaa taistelureservejä"
+
+msgid "reserveCategories/levels/text"
+msgstr "Oletusarvoisesti sinulle on tarjolla yksi taistelureservi. Muut avataan saavuttamalla kersantin ja luutnantin sotilasarvot. Kaikkia kolmea reserviä parannetaan saavutettaessa kapteenin ja majurin arvot."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} tai {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}} taso"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Kapteeni"
+
+msgid "reserveCategories/ranks/general"
+msgstr "Kenraali"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Luutnantti"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Majuri"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Kersantti"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Yksityinen"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Kohtalon oikku"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "Taisteluissa pelaajat voivat valita satunnaisista reserveistä, jotka ovat saatavilla kaiken tyyppisille vaunuille. Reservin sijoittaminen paikkaan ennen taistelua lisää todennäköisyyttä sen saamisesta taistelussa {{@ colorLegacy 'FFE4C0'}}10%{{/}}. Reservin ostaminen kasvattaa sen tasoa tasolle {{@ colorLegacy 'FFE4C0'}}II{{/}} ja tarjoaa mahdollisuuden parantaa sen tasoa tasolle {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Etulinjan skenaariot"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Normaalitaistelu"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Tavallisia Etulinjan sääntöjä sovelletaan. Ehdot taistelureservien käyttämiseen ovat muuttumattomia."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Operatiivinen tuki"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "Avattaessa reservi: {{@ colorLegacy 'FFE4C0'}}–50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "Palattaessa taisteluun: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Nopeampi tempoinen skenaario lyhennetyllä taistelureservien jäähtymisajalla."
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Taistelut Etulinja -pelimuodossa käyttävät yhtä seuraavista skenaarioista: {{@ colorLegacy 'FFE4C0'}}Normaalitaistelu{{/}}, {{@ colorLegacy 'FFE4C0'}}Operatiivinen tuki{{/}} tai {{@ colorLegacy 'FFE4C0'}}Kohtalon oikku{{/}}. Skenaariot muuttavat ehtoja taistelureservien käyttämisestä taistelussa. Tieto sen hetkisestä taisteluskenaariosta näytetään latausruudulla, taistelua edeltävän lähtölaskennan aikana tai painamalla Tab -näppäintä."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Taistelureservien kategoriat"
+
+msgid "reserveCategories/text"
+msgstr "Taistelureservit jaetaan kolmeen kolmen reservin kategoriaan. Taisteluun liityttäessä voit asettaa vain yhden kategorian reservin sitä vastaavaan paikkaan."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Hyökkäysreservit"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Tiedustelureservit"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Taktiset reservit"
+
+msgid "reserves/sectionHeader"
+msgstr "Nopeat reservit"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Pikastartti"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Taistelureservien valmisteluaikaa on lyhennetty taistelun alussa 50%."
+
+msgid "reserves/sectionReload/header"
+msgstr "Välitön saatavuus"
+
+msgid "reserves/sectionReload/text"
+msgstr "Taistelureservit ovat valmiita käyttöön heti, kun ne on avattu."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Toinen yritys"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Taistelureservien valmisteluaika lyhenee 70% palatessa taisteluun uudella vaunulla."
+
+msgid "rules/backToFight/header"
+msgstr "Taisteluun palaaminen"
+
+msgid "rules/backToFight/text"
+msgstr "Jos vaunusi tuhoutuu, valitse mikä hyvänsä saatavilla oleva vaunu ja lähde takaisin taistelukentälle jatkamaan taistelua voitosta. Voit valita yhden sijoitusalueista (paluupisteistä) sivustoilla sekä selustasta, josta käsin voit suunnitella paremmin taisteluasi. Puolustavilla pelaajilla on laajempi valikoima paluupisteitä syvällä linjojen takana, joka tarkoittaa, että he voivat kerääntyä suurikaliiperisten tykkien avuksi äkillisen läpimurron tapahtuessa. Järjestelmä tarjoaa pelaajille myös osoittimen, joka varoittaa pelaajia, mikäli valittu paluupiste on vaaralle alttiina."
+
+msgid "rules/base/header"
+msgstr "Tukikohdan valtaus"
+
+msgid "rules/base/textBottom"
+msgstr "Tukikohtaa valtaamassa olevan vaunun (tai sen moduulien) vahingoittaminen ei nollaa valtausta. Sen sijaan valtausprosessi keskeytyy väliaikaisesti. Valtauksen nollaamiseksi puolustajien tulee tuhota kaikki vihollisvaunut tukikohdan kehästä tai pakottaa se ulos kehästä. Puolustava joukkue ei voi vallata takaisin tukikohtaa, jonka hyökkääjät onnistuvat valtaamaan."
+
+msgid "rules/base/textTop"
+msgstr "{FFE4C0_Start}Hyökkäävän joukkueen{FFE4C0_End} tulee vallata tukikohdat järjestyksessä saavuttaakseen pääkohteet. Vallattu tukikohta lisää 2 minuuttia taistelun kestoon, viimeisen tukikohdan valtaus lisää 4 minuuttia."
+
+msgid "rules/sectionHeader"
+msgstr "Yleiset säännöt"
+
+msgid "rules/service/header"
+msgstr "Täydennyskehät"
+
+msgid "rules/service/text"
+msgstr "Täydennyskehät palauttavat vaunun kestopisteitä, hoitavat kaikki loukkaantuneet miehistön jäsenet ja täydentävät ammukset. {FFE4C0_Start}Täydennyksiä tulee seuraavaan tahtiin: 100 kestopistettä / yksi miehistön jäsen / 10%{FFE4C0_End} ammuksista per sekunti."
+
+msgid "rules/weapons/header"
+msgstr "Tavoite: kolme viidestä suurikaliiperisesta tykistä"
+
+msgid "rules/weapons/list/back"
+msgstr "Takapanssari: {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "Katon panssaria ja etupanssaria {{@ colorLegacy 'FFE4C0'}}ei voida läpäistä{{/}} ampumalla."
+
+msgid "rules/weapons/list/sides"
+msgstr "Sivupanssari: {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Sivupanssari: {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Haavoittuvat kohdat: {{@ colorLegacy 'FFE4C0'}}ovi (70 mm) ja ilmastointi (25 mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Syvällä puolustavan joukkueen selustassa on viisi tykkibunkkeria, jotka ovat taistelun pääkohteita. Hyökkäävän joukkueen tulee tuhota kolme tykkitornia, kun puolustajien täytyy turvata ne hinnalla millä hyvänsä."
+
+msgid "subTitle/differentMonth"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{from}}. {{startMonth}}{{/}} – {{@ colorLegacy 'FFE4C0'}}{{to}}. {{endMonth}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{from}}. {{startMonth}} {{startYear}}{{/}} – {{@ colorLegacy 'FFE4C0'}}{{to}}. {{endMonth}} {{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{from}}.{{/}}–{{@ colorLegacy 'FFE4C0'}}{{to}}. {{endMonth}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Ensimmäisen linjan{{/}} sektorit A, B ja C toimivat kummankin joukkueen aloituspisteinä."
+
+msgid "winStrategy/header"
+msgstr "Voittava strategia"
+
+msgid "winStrategy/mapZones"
+msgstr "Pelimuodon kartta tarjoaa kolme horisontaalista puolustuslinjaa:"
+
+msgid "winStrategy/secondLine"
+msgstr "Kun ensimmäisen linjan sektorit on vallattu, jatkuu taistelu {{@ colorLegacy 'FFE4C0'}}toisen linjan{{/}} sektoreille D, E ja F."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Kolmatta linjaa{{/}} ei ole jaettu sektoreihin; se on alue, jolla taistelun viimeinen vaihe käydään. Suurikaliiperiset tykit on sijoitettu tänne ja niiden tuhoaminen tuo voiton hyökkäävälle joukkueelle. Hyökkääjät pääsevät käsiksi pääkohteisiin vasta onnistuttuaan valtaamaan vähintään yhden toisen linjan sektoreista. Kun sektori on vallattu, on puolustavilla pelaajilla 1 minuutti aikaa poistua ennen kuin sektori pommitetaan. Ilmaisku osuu kaikkiin sektorille jääneisiin puolustajiin. Kaikki hyökkääjät, jotka koettavat päästä toisen tai kolmannen linjan sektoreille valtaamatta edellistä sektoria, tuhoutuvat ilmaiskuissa."

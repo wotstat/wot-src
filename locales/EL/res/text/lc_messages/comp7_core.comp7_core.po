@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "Επιλέξτε ένα όχημα που θέλετε να αποκλείσετε από αυτή τη μάχη"
+
+msgid "prebattleTimer/ban/header"
+msgstr "Ψηφοφορία Για Αποκλεισμό"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "Επικύρωση Επιλογής"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "Μετά την επικύρωση, δεν θα μπορείτε να επιλέξετε κάποιο άλλο όχημα."
+
+msgid "prebattleTimer/pick/header"
+msgstr "Φάση Επικύρωσης"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "Επιλέξτε το πλέον κατάλληλο όχημα με βάση τον χάρτη και τη σύνθεση της ομάδας"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "Προεπιλογή Οχημάτων"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "Επιλέξτε το καταλληλότερο όχημα ανάλογα με τον χάρτη και την ομάδα σας."
+
+msgid "prebattleTimer/wait/header"
+msgstr "Αναμονή παικτών…"
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "Επιλέξτε όχημα"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Η Φάση στον server %(server)s τελείωσε"
+
+msgid "primeTimeView/server"
+msgstr "Διαθέσιμος server: %(server)s."
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Server %(server)s\nΟι μάχες θα είναι διαθέσιμες για ακόμη %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Server %(server)s\nΟι μάχες θα είναι διαθέσιμες σε %(time)s"
+
+msgid "primeTimeView/servers"
+msgstr "Διαθέσιμοι servers:"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Οι μάχες αυτές δεν είναι διαθέσιμες σε όλους τους servers"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Οι μάχες αυτές δεν είναι διαθέσιμες στον server %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Οι μάχες αυτές στον server %(server)s θα είναι διαθέσιμες για ακόμη %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Οι μάχες στον server %(server)s θα ξεκινήσουν σε %(time)s"
+
+msgid "primeTimeView/status/untill"
+msgstr "Οι μάχες αυτές στον server %(server)s δεν θα είναι διαθέσιμες μέχρι τις %(startTime)s"

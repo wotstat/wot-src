@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Allgemein"
+
+msgid "channels/battle/team"
+msgstr "Team"
+
+msgid "channels/clan"
+msgstr "Clan"
+
+msgid "channels/common"
+msgstr "Allgemein"
+
+msgid "channels/epic_training"
+msgstr "Ausbildung – Frontlinie"
+
+msgid "channels/nubs"
+msgstr "Anfänger"
+
+msgid "channels/prebattle"
+msgstr "Warteraum"
+
+msgid "channels/special_battles"
+msgstr "Spezialgefecht"
+
+msgid "channels/squad"
+msgstr "Zug"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Zug erstellt. Warten Sie, bis alle Spieler bereit sind."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Zug"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Zug erstellt. Alle Spieler bereit."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Zug"
+
+msgid "channels/system"
+msgstr "System"
+
+msgid "channels/tournament"
+msgstr "Turnier"
+
+msgid "channels/trading"
+msgstr "Handel"
+
+msgid "channels/training"
+msgstr "Übung"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Chat-Administrator ist auch Channel-Moderator."
+
+msgid "errors/addmoderatorowner"
+msgstr "Channel-Besitzer ist auch Channel-Moderator."
+
+msgid "errors/banchannelowner"
+msgstr "Channel-Besitzer kann nicht ausgeschlossen werden."
+
+msgid "errors/banchatadmin"
+msgstr "Chat-Administrator kann nicht ausgeschlossen werden."
+
+msgid "errors/banned"
+msgstr "Benutzer %(banOwnerNick)s hat Sie bis %(banEndTime)s gesperrt. Grund: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Benutzer %(banOwnerNick)s hat Sie gesperrt. Grund: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Sie wurden bis %(banEndTime)s gesperrt. Grund: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Sie wurden gesperrt. Grund: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Befehl %(command)s wurde für %(cooldownPeriod)s Sekunden gesperrt."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Moderatoren-Rechte können dem Chat-Administrator nicht entzogen werden."
+
+msgid "errors/delmoderatorowner"
+msgstr "Moderatoren-Rechte können dem Channel-Besitzer nicht entzogen werden."
+
+msgid "errors/timeincorrect"
+msgstr "Der ‘time’-Parameter muss zwischen 1 und 1440 liegen oder auf ‘permanent’ gesetzt sein"
+
+msgid "errors/toomanyargs"
+msgstr "Zu viele Parameter."
+
+msgid "errors/toosmallargs"
+msgstr "Zu wenige Parameter."
+
+msgid "errors/userbanhimself"
+msgstr "Sie können sich nicht selbst sperren."
+
+msgid "messages/userbanned"
+msgstr "Benutzer %(banedUser)s wurde von Benutzer %(banOwnerNick)s bis %(banEndTime)s gesperrt. Grund: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "Benutzer %(banedUser)s wurde von Benutzer %(banOwnerNick)s gesperrt. Grund: %(banReason)s"

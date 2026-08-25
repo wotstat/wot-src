@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Punkte, die die Gesamterfolgswertung anheben."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Erfolgspunkte"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Sie haben alle Schritte für diesen Erfolg abgeschlossen und alle verfügbaren Belohnungen erhalten."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Drücken Sie %(escIcon)s, um zur vorangehenden Stufe in der ÜBERSICHT zurückzukehren."
+
+msgid "catalog/rootLink"
+msgstr "ÜBERSICHT"
+
+msgid "category/achievementsScore/title"
+msgstr "ERFOLGSWERTUNG"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "Die Hauptanzeige für den Fortschritt in der Sammlung der Erfolge. Jeder neue Erfolg (ausgenommen Trophäen) steigert die Gesamterfolgswertung."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Gesamterfolgswertung: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "NEUSTE\nERFOLGE"
+
+msgid "category/title"
+msgstr "SAMMLUNG DES SPIELERS"
+
+msgid "category/upcoming/title"
+msgstr "KOMMENDE\nERFOLGE"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s und mehr"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Erfolg freigeschaltet!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "%(count)s Erfolge freigeschaltet!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s und mehr"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Neue Trophäe verdient!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "%(count)s Trophäen verdient!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "Die automatische Anzeige sortiert Auszeichnungen aller Kategorien nach ihrem Wert für die Anzeige auf dem Band „Bedeutende Auszeichnungen“. Sie wird deaktiviert, wenn Sie die Auszeichnungen manuell anordnen."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "Die automatische Anzeige sortiert die Auszeichnungen aller Kategorien nach ihrem Wert für die Anzeige auf dem Band „Bedeutende Auszeichnungen“. Wenn Sie diese Einstellung aktivieren, setzen Sie die manuelle Ordnung zurück."
+
+msgid "editConfirm/description/error"
+msgstr "Wir untersuchen das Problem. Bitte versuchen Sie es mit der Bearbeitung später noch einmal. Bis dahin werden Sie zur Zusammenfassung weitergeleitet."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Speichern"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Abbrechen"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Verstanden!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Automatische Anzeige deaktiviert"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Automatische Anzeige aktiviert"
+
+msgid "editConfirm/title/error"
+msgstr "Fehler erkannt"
+
+msgid "editConfirm/title/normal"
+msgstr "Änderungen am Band „Bedeutende Auszeichnungen“ anwenden?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Änderungen verwerfen"
+
+msgid "editView/footer/button/save"
+msgstr "Anbringen und verlassen"
+
+msgid "editView/header/checkbox"
+msgstr "Automatische Anzeige"
+
+msgid "editView/header/close"
+msgstr "SCHLIESSEN"
+
+msgid "editView/header/title/idle"
+msgstr "Auszeichnungen zur Anzeige auf dem Band auswählen"
+
+msgid "editView/header/title/selecting"
+msgstr "Zu ersetzende Auszeichnung auswählen"
+
+msgid "editView/header/title/tutorial"
+msgstr "Platz für Auszeichnung auswählen"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Abbrechen"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Ersetzen"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "IHRE ERFOLGE\nSIND HIER"
+
+msgid "hint/profile"
+msgstr "IHRE ERFOLGE\nSIND HIER"
+
+msgid "hint/summary/customizationButton"
+msgstr "Bearbeiten verfügbar"
+
+msgid "notifications/editingEnabled/button"
+msgstr "Zum Band"
+
+msgid "notifications/editingEnabled/title"
+msgstr "Bearbeiten des Bands „Bedeutende Auszeichnungen“ verfügbar"
+
+msgid "notifications/firstEntry/button"
+msgstr "Zum Wehrpass"
+
+msgid "notifications/firstEntry/text"
+msgstr "World-of-Tanks-Wertung,\nBearbeitung von Auszeichnungen."
+
+msgid "notifications/firstEntry/title"
+msgstr "Wehrpass wird aktualisiert"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "Zum Wehrpass"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Bearbeiten von Auszeichnungen\nund visuelles Design."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Wehrpass wird aktualisiert"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "Zum Wehrpass"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Ihre Stufe: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Ihre Wertung wurde berechnet!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "Zum Wehrpass"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "Ihre World-of-Tanks-Wertung hat sich geändert. Alle Details finden Sie im Abschnitt Wehrpass."
+
+msgid "notifications/ratingUp/button"
+msgstr "Zum Wehrpass"
+
+msgid "notifications/ratingUp/text"
+msgstr "Sie haben die folgende Stufe erreicht: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Ihre Wertung ist angestiegen!"
+
+msgid "playerInfo/clan/button"
+msgstr "Clanprofil"
+
+msgid "playerInfo/clan/date"
+msgstr "Beitrittsdatum:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "Der Spieler hat keine permanenten taktischen Einheiten."
+
+msgid "playerInfo/clan/post"
+msgstr "Rang:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "Die persönliche Hundemarke ist\nvorübergehend nicht verfügbar."
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "Die Spielerwertung wurde noch nicht berechnet: Es wurden weniger als %(amount)s Gefechte bestritten."
+
+msgid "ratingWidget/status/initial"
+msgstr "Bestreiten Sie %(amount)s Gefechte, um Ihre World-of-Tanks-Wertung zu berechnen."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "Die Spielerwertung wurde noch nicht berechnet."
+
+msgid "ratingWidget/status/progress"
+msgstr "Berechnung Ihrer World-of-Tanks-Wertung. Verbleibende Gefechte: %(amount)s."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Ziehen Sie ins Gefecht und wir berechnen Ihre Wertung."
+
+msgid "rewardView/button/achievements"
+msgstr "Zu den Erfolgen"
+
+msgid "rewardView/button/dogTag"
+msgstr "Zur Hundemarke"
+
+msgid "rewardView/button/dogTags"
+msgstr "Zu den Hundemarken"
+
+msgid "rewardView/button/moreRewards"
+msgstr "%(value)s weitere sehen"
+
+msgid "rewardView/reward/dogTag"
+msgstr "%(value)s Hundemarke"
+
+msgid "rewardView/title/multi"
+msgstr "BELOHNUNGEN FÜR ERFOLG ERHALTEN"
+
+msgid "rewardView/title/single"
+msgstr "BELOHNUNG FÜR ERFOLG ERHALTEN"
+
+msgid "section/action"
+msgstr "Spezial"
+
+msgid "section/battle"
+msgstr "Auszeichnungen"
+
+msgid "section/class"
+msgstr "Abschnitts-Erfolge"
+
+msgid "section/epic"
+msgstr "Epische Medaillen"
+
+msgid "section/group"
+msgstr "Gruppen-Auszeichnungen"
+
+msgid "section/memorial"
+msgstr "Erinnerungsabzeichen"
+
+msgid "section/special"
+msgstr "Ehrenränge"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "ZU DEN ERFOLGEN"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Letztes Gefecht: %(lastVisitDate)s um %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Kontoerstellung: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Hintergrund"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Standard"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Feuer"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Gold"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Legendär"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Retro"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Explosiv"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Änderungen verwerfen"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Band"
+
+msgid "summary/achievements/customization/save"
+msgstr "Anbringen und verlassen"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "Aus technischen Gründen ist das Anpassen der Ansicht für den Wehrpass derzeit nicht verfügbar. Wir versuchen, dieses Problem schnellstmöglich zu beheben. Aktualisieren Sie die Ansicht oder versuchen Sie es später erneut."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Anpassung momentan nicht verfügbar"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Bedeutende Auszeichnungen"
+
+msgid "summary/achievements/total"
+msgstr "Gesamt: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Einzigartig: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Mittelwert: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Siege: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Mittelwert: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Mittelwert: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Rekord: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Mittelwert: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Ziehen Sie ins Gefecht, wir bereiten derweil Ihre Daten vor."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Informationen sind vorübergehend nicht verfügbar."
+
+msgid "summary/disabled/title"
+msgstr "Mehr Informationen werden später verfügbar."
+
+msgid "summary/main/assistance"
+msgstr "UNTERSTÜTZUNGS-\nREKORD"
+
+msgid "summary/main/battles"
+msgstr "BESTRITTENE\nGEFECHTE"
+
+msgid "summary/main/blocked"
+msgstr "MAXIMAL\nABGEWEHRT"
+
+msgid "summary/main/damage"
+msgstr "SCHADENS-\nREKORD"
+
+msgid "summary/main/destroyed"
+msgstr "ZERSTÖRTE\nFAHRZEUGE"
+
+msgid "summary/main/experience"
+msgstr "ERFAHRUNGS-\nREKORD"
+
+msgid "summary/statistic/title"
+msgstr "World-of-Tanks-Wertung"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Persönliche Wertung"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Maximaler ermöglichter Schaden."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Maximaler ermöglichter Schaden im Gefecht in Fahrzeug: %(tankName)s."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Unterstützungsrekord: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Das Verhältnis des gesamten durch Ihre Unterstützung ermöglichten Schadens an Gegnerfahrzeugen zur Gesamtzahl bestrittener Gefechte. Als Beitrag gewertet:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Schaden durch Ihre Aufklärung\n• Schaden durch Zerstören der Kette und Bewegungsunfähigmachen des Gegnerfahrzeugs"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Mittlere Unterstützung: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Das Verhältnis der gesamten Siege zur Anzahl bestrittener Gefechte."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Inklusive:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Siege: %(wins)s\n• Niederlagen: %(loses)s\n• Unentschieden: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Siegesrate: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Bestrittene Gefechte: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Maximaler abgewehrter Schaden."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Maximaler im Gefecht abgewehrter Schaden im Fahrzeug: %(tankName)s."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Maximal abgewehrt: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Das Verhältnis des gesamten durch die Panzerung abgewehrten Schadens von nicht durchschlagenden Treffern und Abprallern von AP-, HEAT- und APCR-Granaten zur Anzahl bestrittener Gefechte."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Mittlerer abgewehrter Schaden: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Maximaler verursachter Schaden."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Maximaler im Gefecht verursachter Schaden im Fahrzeug: %(tankName)s."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Schadensrekord: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Das Verhältnis des gesamten verursachten Schadens zur Anzahl bestrittener Gefechte."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Mittlerer Schaden: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Maximale Anzahl zerstörter Fahrzeuge."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "Maximale Anzahl im Gefecht zerstörter Gegnerfahrzeuge im Fahrzeug: %(tankName)s."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Maximal zerstört: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Gesamtzahl zerstörter Gegnerfahrzeuge in allen Gefechten."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Zerstörte Fahrzeuge: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Maximale verdiente Erfahrung."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "Maximale im Gefecht verdiente Erfahrung im Fahrzeug: %(tankName)s."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Erfahrungsrekord: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Das Verhältnis der gesamten verdienten Erfahrung zur Anzahl bestrittener Gefechte."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Mittlere Erfahrung: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Weder Sieg noch Niederlage beeinflussen die Berechnung Ihrer World-of-Tanks-Wertung."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Spielen Sie in verschiedenen Fahrzeugen, um Ihre effizientesten Fahrzeuge gemäß den folgenden Leistungsparametern zu bestimmen:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "WTR ist ein Bewertungssystem, das die individuelle Bewertung für jedes Fahrzeug berechnet und diese nutzt, um die allgemeine Leistung eines Spielers zu bestimmen. Das System reagiert flexibel auf Änderungen in der Gefechtsstrategie und vergleicht die Statistiken des Spielers mit dem Servermittelwert."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Verursachter Schaden"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Ermöglichter Schaden"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Anzahl zerstörter Gegnerfahrzeuge"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Abgewehrter Schaden und Überlebensrate"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "WTR steigern"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "World-of-Tanks-Wertung"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Verbleibende Gefechte zur Berechnung der Wertung: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Stufe: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Limit erreicht!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Verbleibende Punkte, um Ihre Stufe zu steigern: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "Bronze %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "Silber %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "Gold %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "Ass %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "Legende %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Stufe"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Punktezahl"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "World-of-Tanks-Wertung"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "Bei Aktivieren der Einstellung wird die eingestellte Ordnung %(whiteSpanish_Open)szurückgesetzt%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "Bei Deaktivieren der Einstellung oder manueller Auswahl werden die Auszeichnungen auf dem Band %(whiteSpanish_Open)snicht mehr%(whiteSpanish_Close)s %(whiteSpanish_Open)sautomatisch%(whiteSpanish_Close)s %(whiteSpanish_Open)saktualisiert%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "Auszeichnungen %(whiteSpanish_Open)saller Kategorien%(whiteSpanish_Close)s automatisch nach ihrem Wert für die Anzeige auf dem Band „Bedeutende Auszeichnungen“ sortieren."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Automatische Anzeige"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "Bearbeiten des Bands „Bedeutende Auszeichnungen“ ist vorübergehend nicht verfügbar. Bitte versuchen Sie es später erneut."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Sie haben noch keine Auszeichnungen gewählt, die hier angezeigt werden sollen. Sie erhalten diese %(whiteSpanish_Open)sin Gefechten%(whiteSpanish_Close)s oder %(whiteSpanish_Open)sfür die Teilnahme%(whiteSpanish_Close)s %(whiteSpanish_Open)san Spielevents.%(whiteSpanish_Close)s"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "Bearbeiten des Bands „Bedeutende Auszeichnungen“ wird verfügbar, sobald %(whiteSpanish_Open)s%(amount)s oder mehr Auszeichnungen%(whiteSpanish_Close)s jeglicher Kategorie erhalten wurden."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Keine Auszeichnungen zur Anzeige verfügbar."
+
+msgid "tooltips/mastery/body"
+msgstr "In allen relevanten Gefechtsmodi erhaltene Überlegenheitsabzeichen „Panzerass“ / Anzahl Fahrzeuge, die mindestens ein Gefecht bestritten haben"
+
+msgid "tooltips/mastery/header"
+msgstr "Überlegenheitsabzeichen: Panzerass"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "Die persönliche Wertung ist ein Maßstab für die Fähigkeiten und Erfahrung eines Spieler und basiert auf folgenden Informationen:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "Die persönliche Wertung wird mit jedem weiteren bestrittenen Gefecht aktualisiert."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Siege\n• Ermöglichter Schaden\n• Mittlerer Schaden pro Gefecht\n• Mittlere Erfahrung pro Gefecht\n• Überlebte Gefechte"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Persönliche Wertung"

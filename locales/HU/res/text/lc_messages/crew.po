@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Bővítés"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Alulképzettek leszerelése"
+
+msgid "barracks/bunks/title"
+msgstr "Férőhelyek:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Add meg a megvásárolni kívánt férőhelyek számát. Elérhető férőhelyek a Barakkban: %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Kedvezményes ár"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Új ár: %(currency)s %(bunksCount)s férőhelyenként"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Előző ár: %(currency)s %(bunksCount)s férőhelyenként"
+
+msgid "barracks/enlarge/header"
+msgstr "Bővíted a Barakkot?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "A Barakkjaidban tartózkodó azon alulképzett harckocsizók, akiknek kevesebb van az első legénységi készségük{whiteSpanish_Open}100%{whiteSpanish_Close}-osra történő elsajátításához szükséges {whiteSpanish_Open}210 060{whiteSpanish_Close}{icon} XP-nél, leszerelhetnek."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Alulképzett harckocsizók"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Nincsenek alulképzett harckocsizóid"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Az alulképzett harckocsizók eltávolításáért nem kapsz semmilyen kompenzációt. Ha egyszer leszereltek, nem szerezheted vissza őket, és minden XP-jük elvész."
+
+msgid "barracks/title"
+msgstr "BARAKK"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Kattints a Barakk bővítéséhez."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Barakk bővítése"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Hely"
+
+msgid "common/imageNotAvailable"
+msgstr "A kép nem érhető el"
+
+msgid "common/inBarracks"
+msgstr "Barakkban"
+
+msgid "common/inBattle"
+msgstr "Csatában"
+
+msgid "common/inPrebattle"
+msgstr "Taktikai egységben"
+
+msgid "common/navigation/aboutCrew"
+msgstr "A LEGÉNYSÉGRŐL"
+
+msgid "common/navigation/toBarracks"
+msgstr "A BARAKKHOZ"
+
+msgid "common/navigation/toGarage"
+msgstr "A GARÁZSBA"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "A PROFILHOZ"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Értettem!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "A harckocsizóidat átváltottuk legénységi könyvekre."
+
+msgid "conversionAwards/title"
+msgstr "SIKERES ÁTVÁLTÁS"
+
+msgid "conversionAwards/underTitle"
+msgstr "A következő tárgyakat adtuk a fiókodhoz."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Mégse"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Leszerelés"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Leszerelésre váró harckocsizók: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Leszereled az alulképzett harckocsizókat?"
+
+msgid "conversionConfirm/warning"
+msgstr "Az alulképzett harckocsizók eltávolításáért nem kapsz semmilyen kompenzációt. Ha egyszer leszereltek, nem szerezheted vissza őket, és minden XP-jük elvész."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Készségek autom. kiválasztása"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Nincsenek kiképzetlen készséggel rendelkező harckocsizók."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "A készségek autom. kiválasztása nem lehetséges"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Az összes pluszjellel jelölt kiképzetlen készség helyébe automatikusan különleges logikával kiválasztott készségek kerülnek minden harckocsizó számára."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Kiképzetlen készségek autom. kiválasztása mindenkinek"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Készségek visszaállítása mindenkinél"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Nincsenek kiképzett készséggel rendelkező harckocsizók."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "A készségek visszaállítása nem lehetséges"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "A fiókodon lévő összes harckocsizó minden készségét visszaállítod. Ezt a műveletet nem lehet visszavonni."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Készségek visszaállítása mindenkinél"
+
+msgid "crewBanner/infoText"
+msgstr "Ingyenes készség-visszaállítás vagy kiképzetlen készség automatikus kiválasztása minden harckocsizó számára a fiókodon"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "A Gyorsított legénységi képzés be van kapcsolva"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Hatékonysági bónusz: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Készséghatékonyság"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "A készségek nem érhetők el, mert a harckocsizó nincs kiképezve erre a járműre."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Specializáció:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "A készségek nem érhetők el"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Bónuszkészségek:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "A fő képzettség készségei:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(Kína)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Csehszlovákia)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Franciaország)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Németország)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Olaszország)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japán)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Lengyelország)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Svédország)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(Egyesült Királyság)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(Egyesült Államok)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(Szovjetunió)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Az összes prémium páncélvadász {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Az összes prémium önjáró löveg {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Az összes prémium nehéz harckocsi\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Az összes prémium könnyű harckocsi\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Az összes prémium közepes harckocsi\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Részletek"
+
+msgid "filter/group/details/title"
+msgstr "Részletek"
+
+msgid "filter/group/nation/title"
+msgstr "Nemzet"
+
+msgid "filter/group/other/title"
+msgstr "Egyéb"
+
+msgid "filter/group/special/title"
+msgstr "Különleges"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Képzettség"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Szint"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Szint"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specializáció"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Járműtípus"
+
+msgid "filter/popup/button/title"
+msgstr "Szűrő"
+
+msgid "filter/popup/default/title"
+msgstr "Szűrő"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Szűrés nemzet szerint"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Szűrés járművek szerint"
+
+msgid "filter/reset"
+msgstr "Szűrő visszaállítása"
+
+msgid "filter/search/placeholder"
+msgstr "Keresés név alapján"
+
+msgid "filter/search/tooltip/header"
+msgstr "Keresés név alapján"
+
+msgid "filter/title"
+msgstr "Megjelenített:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Azon harckocsizók megjelenítése/elrejtése, akik olyan járművekben vannak, amelyeknek minden modulja és technikai ága ki van fejlesztve."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Elit járművek"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "A prémium járművekre kiképzett harckocsizók megjelenítése/elrejtése."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Prémium járművek"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Az elsődleges járművekben lévő harckocsizók megjelenítése/elrejtése."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Elsődleges járművek"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Az ilyen típusú járművek harckocsizóinak megjelenítése/elrejtése."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Az ilyen nemzetiségű harckocsizók megjelenítése/elrejtése."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Az ilyen nemzetiségű kinézetek megjelenítése/elrejtése."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Ilyen nemzetiségű járművek megjelenítése/elrejtése."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "A leszerelt harckocsizók megjelenítése/elrejtése."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Leszerelt"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Újoncok megjelenítése."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Újoncok"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Harckocsizók megjelenítése."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Harckocsizók"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Az ilyen képzettségű harckocsizók megjelenítése/elrejtése."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "A prémium járművek megjelenítése/elrejtése."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Prémium járművek"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Az ilyen típusú járművek megjelenítése/elrejtése."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Páncélvadászok"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Önjáró lövegek"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Nehéz harckocsik"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Könnyű harckocsik"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Közepes harckocsik"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nem találtunk a keresési feltételeknek\nmegfelelő járművet"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Rendezés a járművek neve szerint."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Név"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Rendezés a járművek szintje szerint."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Szint"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Rendezés a járművek típusa szerint."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Típus"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Név"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Kattints a szűrőbeállítások törléséhez."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Az összes szűrő törlése"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Értettem!"
+
+msgid "junkTankmen/description"
+msgstr "Ezeknek a harckocsizóknak kevesebb XP-je van, mint az első legénységi készségük{whiteSpanish_Open}100%{whiteSpanish_Close}-osra történő elsajátításához szükséges {bond_Open}210 060{bond_Close}{icon}.\nEltávolítjuk őket a fiókodból."
+
+msgid "junkTankmen/title"
+msgstr "Leszereled az alulképzett harckocsizókat?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Minden további másodlagos képzettséghez legfeljebb {whiteSpanish_Open}három{whiteSpanish_Close} készség választható. Az új bónuszkészséghez való hozzáférés az {whiteSpanish_Open}első{whiteSpanish_Close}, a {whiteSpanish_Open}harmadik{whiteSpanish_Close} és az {whiteSpanish_Open}ötödik{whiteSpanish_Close} főképzettségi készség elérésekor nyílik meg."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Bónuszkészségek"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Ha átképzel egy harckocsizót egy másik járműre, amely más képzettségeket igényel, lehetőséged lesz újból kiválasztani a készségeket az új másodlagos képzettségéhez."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "A bónuszkészségek elsajátítása kétszer lassabb, mint a fő képzettség készségei esetében."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Nincs szükség XP-re a bónuszkészségek elsajátításához."
+
+msgid "matrix/freeResetButton"
+msgstr "Ingyenes visszaállítás"
+
+msgid "matrix/increaseButton"
+msgstr "Gyorsított képzés"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "A harckocsizó elérte a képzési korlátot."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "A képzés gyorsítása nem lehetséges"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Képezz ki készségeket szabad XP és legénységi könyvek felhasználásával!"
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Gyors kiképzés"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Nem kompatibilis képzettség"
+
+msgid "matrix/qualification/1"
+msgstr "Fő képzettség"
+
+msgid "matrix/qualification/2"
+msgstr "Második képzettség"
+
+msgid "matrix/qualification/3"
+msgstr "Harmadik képzettség"
+
+msgid "matrix/qualification/4"
+msgstr "Negyedik képzettség"
+
+msgid "matrix/qualification/5"
+msgstr "Ötödik képesítés"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "A nulladik készségek nem érhetők el a második képzettséghez"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "A nulladik készségek nem érhetők el a harmadik képzettséghez"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "A nulladik készségek nem érhetők el a negyedik képzettséghez"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "A második képesítés nem érhető el ennél a járműnél"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "A harmadik képesítés nem érhető el ennél a járműnél"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "A negyedik képesítés nem érhető el ennél a járműnél"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Az ötödik képesítés nem érhető el ennél a járműnél"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Minden további másodlagos képzettség esetén legfeljebb {whiteSpanish_Open}három{whiteSpanish_Close} bónuszkészség választható. Csak az adott képzettséghez tartozó készségek válaszhatók ki bónuszkészségként."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Legfeljebb {whiteSpanish_Open}hat{whiteSpanish_Close} főképzettségi készség választható ki (beleértve a nulladikat is)."
+
+msgid "matrix/resetButton"
+msgstr "Visszaállítás"
+
+msgid "matrix/resetButtonHint"
+msgstr "KATTINTS A KÉSZSÉGEK VISSZAÁLLÍTÁSÁHOZ!"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Nincs megtanult készséged."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "A készségek visszaállítása nem lehetséges"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Kattints a készségek visszaállításához."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Készségek visszaállítása"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Elsajátítható bónuszkészség"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Nincs szükség legénységi XP-re a bónuszkészségek elsajátításához."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Nem érhető el"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "A harmadik főképzettségi készség elsajátításakor nyílik meg. Nem igényel XP-t."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Az ötödik főképzettségi készség elsajátításakor nyílik meg. Nem igényel XP-t."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Képzési szint"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "A szükséges XP mennyisége kevesebb, mert a harckocsizó rendelkezik egy nulladik készséggel."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "A szükséges XP mennyisége kevesebb, mert a harckocsizó rendelkezik két nulladik készséggel."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Elsajátítható készség"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Nem érhető el"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Az előző készséget 100%-ra kell képezni."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Megtanulható nulladik készség"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Mindig a nulladik készségek képzése történik meg először, még akkor is, ha egyszerre több készség került kiválasztásra. Nincs szükség legénységi XP-re a képzésükhöz."
+
+msgid "matrix/skills/allSkills"
+msgstr "Az összes további kiképzett készség ezen a járművön"
+
+msgid "matrix/skills/available"
+msgstr "Megtanulható készségek:"
+
+msgid "matrix/skills/bonus"
+msgstr "Bónuszkészségek"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "A készségek nem érhetők el"
+
+msgid "matrix/skills/locked"
+msgstr "A készségek nem érhetők el"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Minden készség le van tiltva ezen a járművön"
+
+msgid "matrix/skills/main/enabled"
+msgstr "A fő képzettség készségei"
+
+msgid "matrix/skills/reduced"
+msgstr "Csökkent a készséghatékonyság"
+
+msgid "matrix/skills/roles/commander"
+msgstr "A parancsnok készségei"
+
+msgid "matrix/skills/roles/driver"
+msgstr "A vezető készségei"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "A parancsnok készségei"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "A vezető készségei"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "A lövegkezelő készségei"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "A töltő készségei"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "A rádiós készségei"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "A lövegkezelő készségei"
+
+msgid "matrix/skills/roles/loader"
+msgstr "A töltő készségei"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "A rádiós készségei"
+
+msgid "matrix/skills/training"
+msgstr "Készség képzése"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Megtanulható nulladik készségek:"
+
+msgid "memberChange/action/recruit"
+msgstr "Újonc {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount}% KEDVEZMÉNY A KÉPZETTSÉG MEGVÁLTOZTATÁSÁRA"
+
+msgid "memberChange/title"
+msgstr "KIVÁLASZTÁS – {role}: {vehicle} "
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}a depóban{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "A megerősítés után azt a harckocsizót, aki átadja az XP-jét egy másiknak, eltávolítjuk a fiókodból."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "A Mentorálási engedély lehetővé teszi, hogy az egyik harckocsizó által gyűjtött legénységi XP-t átadd egy másik, azonos nemzethez tartozó harckocsizónak."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Mentorálási engedély"
+
+msgid "personalData/card/edit"
+msgstr "Szerkesztés"
+
+msgid "personalData/card/remove"
+msgstr "Eltávolítás"
+
+msgid "personalData/card/restrictions"
+msgstr "Korlátozások: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Kattints a harckocsizó nevének és megjelenésének megváltoztatásához."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Megjelenés"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Ez a harckocsizó már egyedi névvel és megjelenéssel rendelkezik."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Nem lehet módosítani a nevet és a megjelenést"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Nincs találat. Változtasd meg a beállításokat, vagy állítsd vissza a szűrőt."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "A kinézetek megjelenítésének beállítása a nemzetiségük szerint."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Szűrés paraméterek szerint"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "A dokumentumok megjelenítése."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Dokumentumok"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Az alkalmazható kinézetek megjelenítése."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Alkalmazható kinézetek"
+
+msgid "personalData/filter/type/title"
+msgstr "Típus"
+
+msgid "personalData/title"
+msgstr "NÉV ÉS MEGJELENÉS MÓDOSÍTÁSA"
+
+msgid "personalFile/changeVehicle"
+msgstr "Módosítás"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Ezt a harckocsizót nem lehet átképezni egy másik járműre."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "A művelet nem hajtható végre"
+
+msgid "personalFile/discount/full"
+msgstr "Elérhető kedvezmény a legénység átképzésére"
+
+msgid "personalFile/discount/short"
+msgstr "Elérhető kedvezmény"
+
+msgid "personalFile/inVehicle"
+msgstr "Ebben a járműben: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Növelés"
+
+msgid "personalFile/isUntrained"
+msgstr "Nincs kiképezve erre a járműre"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Prémium járművek {icon}"
+
+msgid "personalFile/retrain"
+msgstr "Átképzés"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Készséghatékonyság:"
+
+msgid "personalFile/specialization"
+msgstr "Specializáció:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Specializáció"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Kattints a parancsnok szinkronhangmintájának meghallgatásához."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Egyedi szinkronhang"
+
+msgid "postProgression/button/claim"
+msgstr "Jutalom begyűjtése"
+
+msgid "postProgression/description"
+msgstr "Minden olyan harckocsizónak, aki elsajátította mind a hat fő képzettséghez tartozó készséget, megnyílik az utólagos előrehaladás. Az utólagos előrehaladásban minden 100 000 megszerzett XP után kapsz egy univerzális útmutatót, amelyet más harckocsizók kiképzésére használhatsz fel."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "Az utólagos előrehaladás egyesített skálát tartalmaz minden olyan harckocsizónak, aki teljesen elsajátított hat főképzettségi készséggel rendelkezik a játékos fiókján."
+
+msgid "postProgression/tips/2"
+msgstr "Csak a harci XP számít bele az utólagos előrehaladásba. A harckocsizó által a csatában szerzett harci XP felét elosztjuk a járműben található legénységi tagok számával, és hozzáadjuk az utólagos előrehaladás skálájához."
+
+msgid "postProgression/tips/3"
+msgstr "A készségekből vagy a hatékonyságból elveszített XP nincs hatással az utólagos előrehaladásra."
+
+msgid "postProgression/title"
+msgstr "LEGÉNYSÉGI UTÓLAGOS ELŐREHALADÁS"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Minden olyan harckocsizó, aki részt vett az utólagos előrehaladásban, alacsony készséghatékonysággal rendelkezik."
+
+msgid "postProgression/warning/retire"
+msgstr "Minden olyan harckocsizó, aki részt vett az utólagos előrehaladásban, leszerelt vagy XP-t vesztett az utolsó készségéből vagy készségeiből."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Az összes prémium páncélvadász"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Az összes prémium önjáró löveg"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Prémium páncélvadászok"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Prémium önjáró lövegek"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Prémium nehéz tankok"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Prémium könnyű tankok"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Prémium közepes tankok"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Az összes prémium nehéz harckocsi"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Az összes prémium könnyű harckocsi"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Az összes prémium közepes harckocsi"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "KITÜNTETÉSEK"
+
+msgid "serviceRecord/averageXP"
+msgstr "Átlagos tapasztalati pont csatánként"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Megvívott csaták"
+
+msgid "serviceRecord/noAchievements"
+msgstr "A csaták során nem szerzett kitüntetéseket vagy díjakat."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Az összes megszerzett tapasztalati pont és az azzal járművel megvívott csaták számának aránya, amelyhez a harckocsizó tartozik."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Átlagos tapasztalati pont csatánként"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "A harckocsizó rangja a tapasztalatától és a megtanult készségek számától függ."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Rang"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "A harckocsizó elsajátította az összes készséget ehhez a járműhöz"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Megtanulható készségek:"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Minden készség le van tiltva ezen a járművön"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Nincs szükség XP-re a másodlagos képzettség készségeinek képzéséhez. Ezek elsajátítása fele olyan gyorsan történik, mint a főképzettségi készségeké."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Mégse"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Kiképzés"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "BÓNUSZ KÉPZETTSÉG"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "FŐ KÉPZETTSÉG"
+
+msgid "tankChange/title"
+msgstr "KIKÉPZÉS JÁRMŰRE"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "A Garázsban lévő járművek megjelenítése."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "Garázsban"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "A járművek megjelenítésének beállítása a típusuk és a szintjük szerint."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Szűrés paraméterek szerint"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "A prémium járművekhez nem kell átképezned a harckocsizókat. A legénységet büntetés nélkül áthelyezheted egy azonos típusú prémium járműre."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Prémium jármű"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "A jármű neve legfeljebb %(maxLength)s karakterből állhat."
+
+msgid "tankman/action/dismiss/title"
+msgstr "LESZERELÉS"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Harckocsizó leszerelése."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Nem lehet leszerelni ezt a harckocsizót."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "A művelet nem hajtható végre"
+
+msgid "tankman/action/recruit/title"
+msgstr "ÚJONC"
+
+msgid "tankman/action/restore/title"
+msgstr "VISSZAÁLLÍTÁS"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "A harckocsizó visszaállítása."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Kattints a parancsnok szinkronhangmintájának meghallgatásához."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Egyedi szinkronhang"
+
+msgid "tankman/recruit"
+msgstr "Újonc"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Megjelenés"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profil"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Szolgálati feljegyzés"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Újonc"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Szűrő visszaállítása"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Nincs találat. Változtasd meg a beállításokat, vagy állítsd vissza a szűrőt."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Nincs találat. Toborozz egy új harckocsizót."
+
+msgid "tankmanList/filter/title"
+msgstr "Harckocsizók:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Nincs elég hely a Barakkban."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Csak a leszerelt harckocsizók megjelenítése/elrejtése."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Leszerelt"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "A Barakkban lévő harckocsizók megjelenítése."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "Barakkban"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "A járművekben lévő harckocsizók megjelenítése."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "Járművekben"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Az ilyen nemzetiségű kinézetek megjelenítése/elrejtése."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "A harckocsizók megjelenítésének beállítása a képzettségük, a specializációjuk és egyéb paraméterek szerint."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Szűrés paraméterek szerint"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Toborozz egy új harckocsizót!"
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "A név legfeljebb %(maxLength)s karakterből állhat."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Ha a készség fölé viszed az egeredet, akkor láthatod, hogy az 100%-ra képezve hogyan hat a kapcsolódó tulajdonságokra a készséghatékonyság jelenlegi szintjén."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Értettem!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Minden képzettséghez két új készséget adtunk, a Megbízható elhelyezés átdolgozásra került, és egy új opció lehetővé teszi a készségek elrejtését a harci felületen."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Egy kényelmes új művelet lehetővé teszi, hogy egyetlen kattintással leszereld az alulképzett harckocsizókat."
+
+msgid "welcomeScreen/item3/description"
+msgstr "A készségek mostantól csak kreditért, XP elvesztése nélkül is visszaállíthatók."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Új készségeket és funkciókat adtunk a játékhoz, továbbá egy meglévő készség frissült."
+
+msgid "welcomeScreen/title"
+msgstr "LEGÉNYSÉGET ÉRINTŐ VÁLTOZÁSOK"

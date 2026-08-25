@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Yleinen"
+
+msgid "channels/battle/team"
+msgstr "Joukkue"
+
+msgid "channels/clan"
+msgstr "Klaani"
+
+msgid "channels/common"
+msgstr "Yleinen"
+
+msgid "channels/epic_training"
+msgstr "Koulutus–Etulinja"
+
+msgid "channels/nubs"
+msgstr "Alokkaat"
+
+msgid "channels/prebattle"
+msgstr "Taistelujono"
+
+msgid "channels/special_battles"
+msgstr "Erikoistaistelu"
+
+msgid "channels/squad"
+msgstr "Osasto"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Osasto on luotu. Ole hyvä ja odota, että kaikki pelaajat ovat valmiina."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Osasto"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Osasto on luotu. Kaikki pelaajat ovat valmiina."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Osasto"
+
+msgid "channels/system"
+msgstr "Järjestelmä"
+
+msgid "channels/tournament"
+msgstr "Turnaus"
+
+msgid "channels/trading"
+msgstr "Kaupankäynti"
+
+msgid "channels/training"
+msgstr "Harjoittelu"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Chatin administraattori on myös kanavan moderaattori."
+
+msgid "errors/addmoderatorowner"
+msgstr "Kanavan omistaja on myös kanavan moderaattori."
+
+msgid "errors/banchannelowner"
+msgstr "Kanavan omistajalle ei voi antaa porttikieltoa."
+
+msgid "errors/banchatadmin"
+msgstr "Chatin administraattorille ei voi antaa porttikieltoa."
+
+msgid "errors/banned"
+msgstr "Olet saanut porttikiellon käyttäjältä %(banOwnerNick)s %(banEndTime)s asti. Syy: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Olet saanut porttikiellon käyttäjältä %(banOwnerNick)s. Syy: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Olet saanut porttikiellon %(banEndTime)s saakka. Syy: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Olet saanut porttikiellon. Syy: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Komento %(command)s on estetty %(cooldownPeriod)s sekunniksi."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Moderaattorin oikeuksia ei voida peruuttaa chatin administraattorilta."
+
+msgid "errors/delmoderatorowner"
+msgstr "Moderaattorin oikeuksia ei voida peruuttaa kanavan omistajalta."
+
+msgid "errors/timeincorrect"
+msgstr "'Aika' parametrin pitää olla positiivinen arvo minuutteina [1-1440] tai 'pysyvä'."
+
+msgid "errors/toomanyargs"
+msgstr "Liian monta parametria."
+
+msgid "errors/toosmallargs"
+msgstr "Riittämätön määrä parametreja."
+
+msgid "errors/userbanhimself"
+msgstr "Et voi antaa porttikieltoa itsellesi."
+
+msgid "messages/userbanned"
+msgstr "Käyttäjä %(banedUser)s on saanut porttikiellon käyttäjältä %(banOwnerNick)s %(banEndTime)s asti. Syy: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "Käyttäjä %(banedUser)s on saanut porttikiellon käyttäjältä %(banOwnerNick)s. Syy: %(banReason)s"

@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "Klana čats"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "Uzspiediet, lai ievadītu un aizsūtītu ziņojumu šim klanam."
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "Klana čats"
+
+msgid "clan/header/creationDate"
+msgstr "Izveidots %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "Pieteikumi un ielūgumi"
+
+msgid "clan/header/requestSent"
+msgstr "Pieteikums iesniegts."
+
+msgid "clan/header/sendRequestBtn"
+msgstr "Iesniegt pieteikumu"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "Uzspiediet, lai iesniegtu pieteikumu šim klanam."
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "Iesniegt pieteikumu"
+
+msgid "clan/post/combatOfficer"
+msgstr "Apakšnodaļas komandieris"
+
+msgid "clan/post/commander"
+msgstr "Komandieris"
+
+msgid "clan/post/executiveOfficer"
+msgstr "Komandiera vietnieks"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "Izlūkošanas virsnieks"
+
+msgid "clan/post/juniorOfficer"
+msgstr "Jaunākais virsnieks"
+
+msgid "clan/post/personnelOfficer"
+msgstr "Personāla virsnieks"
+
+msgid "clan/post/private"
+msgstr "Kareivis"
+
+msgid "clan/post/quartermaster"
+msgstr "Kvartirmeistars"
+
+msgid "clan/post/recruit"
+msgstr "Jauniesauktais"
+
+msgid "clan/post/recruiter"
+msgstr "Rekrutēšanas speciālists"
+
+msgid "clan/post/reservist"
+msgstr "Rezervists"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "Kļūda atainojot vārdu"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "Dati tabulā ir izmainīti"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "Rekrutēšanas nosacījumi"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "Var rediģēt"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "Klanam nav aktuālu pieteikumu."
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "Klanam nav novecojušu pieteikumu."
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "Uzaicināt klanā"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "Uzspiediet %(invite)s, lai aizsūtītu ielūgumus\njauniem spēlētājiem."
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "Klans nav izsūtījis ielūgumus pēdējās 28 dienās."
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "Klanam nav aktuālu ielūgumu pēdējās 28 dienās."
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "Klanam nav novecojušu ielūgumu pēdējās 28 dienās."
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "Klanam nav izskatītu ielūgumu pēdējās 28 dienās."
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "Klanam nav izskatītu pieteikumu."
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "Dati no servera netika saņemti.\nMēģiniet vēlāk."
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "Servera kļūda"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "Aktuāli (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "Visi (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "Novecojuši (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "Saņemta atbilde (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "Izskatīti (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "Brīvas vietas klanā: %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "Uzaicināt klanā"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "Jums ir 3 dienas, lai izskatītu pieteikumu iestāties klanā. Pieteikumi un ielūgumi tiek uzglabāti 28 dienas, bet pēc tam – automātiski izdzēsti."
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "Nevar ielūgt spēlētājus: klanā nav brīvu vietu."
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "Nevar ielūgt spēlētājus: rekrutēšana klanā ir slēgta."
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "Apstiprināts"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "%(days)d d izskatīšanai"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "Noraidīts"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "Kļūda"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "Novecojis"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "%(hours)d h izskatīšanai"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "%(min)d min izskatīšanai"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "Aizsūtīts"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "Ielūgumi (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "Pieteikumi (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "Darbības"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "Uzaicināt"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "Aizsūtīts"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "Parādīt vēl"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "Statuss"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "Spēlētājs"
+
+msgid "clanInvitesWindow/title"
+msgstr "Pieteikumi un ielūgumi"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "Uzspiediet, lai uzaicinātu spēlētājus klanā."
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "Pēc ielūguma no:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "Ielūgums apstiprināts."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "Ielūgums noraidīts."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "Ielūgums aizsūtīts."
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "Sūtītājs:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Šī poga kļūs aktīva pēc jaunu datu saņemšanas no servera."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Uzspiediet, lai parādītu jaunus pieteikumus un ielūgumus."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "Atsvaidziniet sarakstu."
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "Lēmējs:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "Pieteikums apstiprināts."
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "Pieteikums noraidīts."
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "Pieteikuma termiņš beidzies"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "Pieteikums iesniegts."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "Nevar ielūgt spēlētājus: klanā nav brīvu vietu."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Spēlētājs nesen ir pametis klanu. Jūs varēsiet viņu pieņemt klanā ne ātrāk kā:"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "Nevar ielūgt jaunus spēlētājus: klanā nav brīvu vietu."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Ielūgtā spēlētāja vidējā pieredze kaujā (ieskaitot premium konta bonusu)."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Vidējā pieredze kaujā"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Ielūgtā spēlētāja aizvadītās kaujas."
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Kaujas"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "Uzspiediet, lai ielūgtu šo spēlētāju klanā."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Ziņojums, kas iekļauts kopā ar ielūgumu no klana."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Ziņojumi"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "Ielūgtā spēlētāja personīgais reitings."
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "Personīgais reitings"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "Datums un laiks, kad klans aizsūtīja ielūgumu."
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "Aizsūtīts"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Klana ielūguma statuss.\nIelūgums var būt aktuāls, novecojis vai izskatīts."
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Statuss"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "Spēlētāja vārds, kuram tika aizsūtīts ielūgums."
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "Vārds"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Ielūgtā spēlētāja uzvaru procents."
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Uzvaras"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Pieteikumus var tikai apstiprināt vai noraidīt."
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Darbības"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "Pieteikuma iesniedzēja vidējā pieredze kaujā (ieskaitot premium konta bonusu)."
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "Vidējā pieredze kaujā"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "Pieteikuma iesniedzēja aizvadītās kaujas."
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "Kaujas"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "Ziņojums no spēlētāja, kas iekļauts kopā ar pieteikumu."
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "Ziņojumi"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "Pieteikuma iesniedzēja personīgais reitings."
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "Personīgais reitings"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "Pieteikuma klanā statuss.\nPieteikums var būt aktuāls, novecojis vai izskatīts."
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "Statuss"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "Pieteikuma iesniedzēja vārds."
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "Vārds"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "Pieteikuma iesniedzēja uzvaru procents."
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "Uzvaras"
+
+msgid "clanLanding/notification/archived"
+msgstr "Ziņa tika nosūtīta uz arhīvu."
+
+msgid "clanLanding/notification/commonError"
+msgstr "Tehniska kļūda: nevar pabeigt operāciju ar ziņu."
+
+msgid "clanLanding/notification/deleted"
+msgstr "Ziņa noņemta."
+
+msgid "clanLanding/notification/edited"
+msgstr "Ziņa nosūtīta."
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "Ir pārsniegts maksimālais rakstzīmju skaits."
+
+msgid "clanLanding/notification/limitReached"
+msgstr "Klānā jau ir izlikts maksimālais ziņojumu skaits."
+
+msgid "clanLanding/notification/noPermission"
+msgstr "Nepietiekamas atļaujas klana ziņojumu pārvaldīšanai: jūsu pozīcija tika mainīta."
+
+msgid "clanLanding/notification/notExist"
+msgstr "Ziņa tika noņemta vai nosūtīta uz arhīvu."
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "Ziņojumā ir izteicieni, kas pārkāpj <a href=\"event:clanRulesLink\">klana noteikumus</a>."
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "Aktuālie ielūgumi: %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "Noraidīt izvēlētos (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "Mani ielūgumi klanā"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "Saņem datus..."
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "Jums pašlaik vēl nav ielūgumu iestāties klanā."
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "Izvēlēties visus pieteikumus"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "Darbības"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "Klana nosaukums"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "Statuss"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "Ielūgumi klanā"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Jūs varēsiet atjaunināt sarakstu pēc jaunu datu saņemšanas."
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Uzspiediet, lai atjauninātu tabulu."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Jūs nesen pametāt klanu. Apstiprināt klana ielūgumus varēsiet ne ātrāk kā pēc:"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Klana biedru, kas aizsūtīja ielūgumu, vidējā pieredze kaujā (svērtā vidējā vērtība gadījuma kaujās)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Vidējā pieredze kaujā"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Vidējais klana biedru, kas aizsūtīja ielūgumu, aizvadīto kauju skaits (tikai gadījuma kaujas)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Klana kaujas"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "Klana nosaukums, kas atsūtīja jums ielūgumu."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "Klana nosaukums"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Ziņojums no klana, kas jums atsūtīja ielūgumu."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Ziņojumi"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "Klana, kurš jums atsūtīja ielūgumu, kopējais reitings."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "Klana reitings"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Rādīt klana ielūgumu statusu un atlikušo laiku izskatīšanai."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Statuss"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Klana biedru, kas aizsūtīja ielūgumu, vidējais uzvaru procents (svērtā vidējā vērtība gadījuma kaujās)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Klana uzvaras"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Jūs varat vai nu apstiprināt vai noraidīt ielūgumus. Apstiprinot ielūgumu, jūs automātiski noraidīsiet citu klanu ielūgumus."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Darbības"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "Klana profils"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "Aizvērt"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "Laipni lūgti klanā!"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "Tagad jūs varat cīnīties globālās kartes kaujās, būvēt un aizsargāt savu cietoksni un pildīt īpašās misijas."
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "Ziņojumu lapa"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "Jūsu klans: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "Atvainojiet par sagādātajām neērtībām. Mēģiniet vēlāk."
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "Cietoksnis uz laiku nav pieejams"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "Atvainojiet par sagādātajām neērtībām.\nMēģiniet vēlāk."
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "Kļūda ielādējot datus"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "Klana profils"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "Cietoksnis"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "Globālā karte"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "Klana biedri"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "Cietoksnis"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "Kopsavilkums"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "Uzaicināt spēlētāju klanā"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "Darbība nav pieejama. Jūs varat ielūgt spēlētājus klanā tikai pa vienam."
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "Pievienot visus kontaktus saņēmēju sarakstam."
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "Kaujas pēdējās 28 dienās"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "Uzbrukumi pēdējās 28 dienās"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "Klana komandieris"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "Vēl nav izveidots"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "Kaujas nav bijušas.\nPārvaldītu provinču nav."
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "Cietokšņa līmenis"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "Kase"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "Nav aizvadītu kauju"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "Provinces"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Elo reitings X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Elo reitings VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Elo reitings VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "Sadursmes pēdējās 28 dienās"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "Kopā spēlētāju"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "Plašāk"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "Plašāk"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "Iesniegt pieteikumu"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "Klanam nav devīzes."
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "Sīkāk par globālo karti"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "Pāriet pie kartes"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "Dati īslaicīgi nav pieejami"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "Neizdodas iestāties klanā."
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "Iepazīties ar rekrutēšanas nosacījumiem %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "Jūs jau esat\ncita klana sastāvā."
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "Jūs jau saņēmāt ielūgumu\npievienoties šim klanam."
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s uz laiku aizliegts"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s uz laiku aizliegts"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "Šis klans nepieņem pieteikumus %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "Pieteikums iesniegts."
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "Sinhronizē datus..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "Klana Elo reitings X divīzijā"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Elo reitings X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "Klana Elo reitings VI divīzijā"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Elo reitings VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "Klana Elo reitings VIII divīzijā"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Elo reitings VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "Klana uzbrukumi pēdējās 28 dienās"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "Uzbrukumi pēdējās 28 dienās"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "Cietokšņa līmeni nosaka tā komandcentra līmenis."
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "Cietokšņa līmenis"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "Klana sadursmes pēdējās 28 dienās."
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "Sadursmes pēdējās 28 dienās"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "Klana Elo reitings X divīzijas kaujās globālajā kartē."
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Elo reitings X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "Klana Elo reitings VI divīzijas kaujās globālajā kartē."
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Elo reitings VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "Klana Elo reitings VIII divīzijas kaujās globālajā kartē."
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Elo reitings VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "Klana kaujas globālajā kartē pēdējās 28 dienās."
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "Kaujas pēdējās 28 dienās"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "Klana pārvaldīto provinču skaits dotajā brīdī."
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "Provinces"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "Iesniegts maksimālais pieteikumu skaits."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "Neizdodas iesniegt pieteikumu"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "Iesniegts maksimālais pieteikumu skaits."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "Neizdodas iesniegt pieteikumu"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "Klans nepieņem pieteikumus."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "Neizdodas iesniegt pieteikumu"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "Klana reitings pēdējās 28 dienās nav atjaunināts."
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "Novecojusi informācija"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "Kopējais reitings atkarīgs no klana efektivitātes cietokšņa režīmā un globālajā kartē."
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "Kopējais reitings"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "Kopējais reitings"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "Klana profils"
+
+msgid "globalMap/disabled"
+msgstr "Kaujas Globālajā Kartē pašreiz\nnav pieejamas jūsu reģionā"
+
+msgid "globalMapView/level10"
+msgstr "X līmenis"
+
+msgid "globalMapView/level6"
+msgstr "VI līmenis"
+
+msgid "globalMapView/level8"
+msgstr "VIII līmenis"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "Šī province nedod ienākumus, jo nepastāv savienojuma ar komandcentru, vai šī province ir izlaupīta."
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "Nedod ienākumus"
+
+msgid "globalMapView/noProvince"
+msgstr "Klans nekontrolē nevienu provinci."
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "Populārs ieplānotais laiks: %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "Globālā karte ir kaujas lauks, kurā klani cīnās par stratēģisku pārsvaru. Tieši šeit klanu oficieri pavada lielāko daļu laika, plānojot taktikas un izvēršot spēkus stratēģiskiem manevriem."
+
+msgid "globalMapView/promo/header"
+msgstr "Globālā karte"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "Sīkāk par globālo karti"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "Pāriet pie kartes"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "Kaujas"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "Aizvadīto kauju kopskaits X divīzijā globālajā kartē."
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "Kaujas"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Elo reitings"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "Klana reitings X divīzijas kaujās globālajā kartē."
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Elo reitings"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "Iecienītākā karte"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "Karte, kurā klans aizvadīja visvairāk X divīzijas kaujas pēdējās 28 dienās."
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "Iecienītākā karte: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "Klana reitings"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "Klana reitings globālās kartes X divīzijas kaujās."
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "Klana reitings"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "Uzvaras"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "Kopējais uzvaru procents X divīzijas kaujās globālajā kartē."
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "Uzvaras"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "Kaujas"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "Aizvadīto kauju kopskaits VI divīzijā globālajā kartē."
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "Kaujas"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Elo reitings"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "Klana reitings VI divīzijas kaujās globālajā kartē."
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Elo reitings"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "Iecienītākā karte"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "Karte, kurā klans aizvadīja visvairāk VI divīzijas kaujas pēdējās 28 dienās."
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "Iecienītākā karte: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "Klana reitings"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "Klana reitings globālās kartes VI divīzijas kaujās."
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "Klana reitings"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "Uzvaras"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "Kopējais uzvaru procents VI divīzijas kaujās globālajā kartē."
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "Uzvaras"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "Kaujas"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "Aizvadīto kauju kopskaits VIII divīzijā globālajā kartē."
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "Kaujas"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Elo reitings"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "Klana reitings VIII divīzijas kaujās globālajā kartē."
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Elo reitings"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "Iecienītākā karte"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "Karte, kurā klans aizvadīja visvairāk VIII divīzijas kaujas pēdējās 28 dienās."
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "Iecienītākā karte: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "Klana reitings"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "Klana reitings globālās kartes VIII divīzijas kaujās."
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "Klana reitings"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "Uzvaras"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "Kopējais uzvaru procents VIII divīzijas kaujās globālajā kartē."
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "Uzvaras"
+
+msgid "globalMapView/stats/battles"
+msgstr "Kaujas globālajā kartē"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "Klana aizvadīto kauju kopskaits globālajā kartē."
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "Kaujas globālajā kartē"
+
+msgid "globalMapView/stats/seized"
+msgstr "Iekarotas provinces"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "Klana pārvaldīto provinču skaits. Tiek ieskaitītas arī provinces, kas agrāk tika pārvaldītas, bet tika zaudētas."
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "Iekarotas provinces"
+
+msgid "globalMapView/stats/wins"
+msgstr "Klana uzvaras"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "Vidējais klana biedru uzvaru procents globālajā kartē."
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "Klana uzvaras"
+
+msgid "globalMapView/table/days"
+msgstr "Dienas"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "Dienas, cik ilgi klans pārvalda provinci globālajā kartē."
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "Dienas"
+
+msgid "globalMapView/table/front"
+msgstr "Fronte"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "Izvēlētās frontes nosaukums."
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "Fronte"
+
+msgid "globalMapView/table/income"
+msgstr "Ienākumi"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "No provinces iegūtais zelta apjoms diennaktī."
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "Ienākumi"
+
+msgid "globalMapView/table/map"
+msgstr "Karte"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "Kartes nosaukums, kurā risinās kaujas par provinci."
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "Karte"
+
+msgid "globalMapView/table/primeTime"
+msgstr "Ieplānotais laiks"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "Ieplānotais laiks, kad sāksies kaujas par provinci."
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "Ieplānotais laiks"
+
+msgid "globalMapView/table/province"
+msgstr "Province"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "Izvēlētās provinces nosaukums."
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "Province"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "Šī province tika izlaupīta un uz laiku jums nenes ienākumus."
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "Laiks līdz ienesīguma atjaunošanai:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "Provinces"
+
+msgid "globalMapView/tabs/stats"
+msgstr "Statistika"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "Klana reitings pēdējās 28 dienās nav atjaunināts."
+
+msgid "globalMapView/totalIncome"
+msgstr "Kopējie ienākumi diennaktī: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "Vidējais\nkauju skaits"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "Klana biedru vidējais aizvadīto kauju skaits gadījuma un rotu kaujās. Tiek ņemti vērā biedri, kuri pašlaik ir klana sastāvā."
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "Vidējais klana biedru aizvadīto kauju skaits"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "Vidējā pieredze"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "Klana biedru gadījuma un rotu kaujās nopelnītās pieredzes svērtā vidējā vērtība. Kopējais katra spēlētāja aizvadīto kauju skaits ietekmē vērtību. Tiek ņemti vērā tikai spēlētāji, kuri šobrīd ir klana sastāvā."
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "Vidējā klana biedru pieredze"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "Vidējais personīgais reitings"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "Visu klana biedru personīgā reitinga vidējā aritmētiskā vērtība. Tiek ņemti vērā biedri, kuri pašlaik ir klana sastāvā."
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "Klana biedru vidējais personīgais reitings"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "Vidējais uzvaru procents"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "Klana biedru uzvaru procenta gadījuma un rotu kaujās svērtā vidējā vērtība. Kopējais katra spēlētāja aizvadīto kauju skaits ietekmē vērtību. Tiek ņemti vērā tikai spēlētāji, kuri šobrīd ir klana sastāvā."
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "Visu klana biedru vidējais uzvaru procents"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "Attiecība starp saņemto bojājumu kopsummu un aizvadīto gadījuma un rotu kauju skaitu."
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "Vidējā pieredze"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "Aizvadīto gadījuma un rotu kauju kopskaits."
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "Kauju skaits"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "Dienu skaits, cik ilgi spēlētājs atrodas klanā."
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "Dienas klanā"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "Spēlētāja personīgais reitings."
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "Personīgais reitings"
+
+msgid "personnelView/table/player"
+msgstr "Spēlētājs (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "Klana biedra vārds."
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "Spēlētājs"
+
+msgid "personnelView/table/post"
+msgstr "Pakāpe"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "Spēlētāja pakāpe klanā."
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "Pakāpe"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "Spēlētāja uzvaru procents gadījuma un rotu kaujās."
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "Uzvaras"
+
+msgid "personnelView/title"
+msgstr "Klana Locekļu Statistika Nejaušajās un Tanku Kompānijas Kaujās:"
+
+msgid "search/clansList"
+msgstr "Klani sarakstā: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "Jūsu pieprasījums nedeva rezultātus. Mēģiniet izmantot citus atslēgas vārdus."
+
+msgid "search/emptyResult/button"
+msgstr "Atgriezties pie saraksta"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "Uzspiediet, lai pārietu pie atrasto klanu saraksta."
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "Atgriezties pie saraksta"
+
+msgid "search/emptyResult/header"
+msgstr "Nekas netika atrasts"
+
+msgid "search/foundClans"
+msgstr "Atrasti klani: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "Neizdodas iestāties klanā."
+
+msgid "search/info/banned/tooltip/header"
+msgstr "Neizdodas iesniegt pieteikumu"
+
+msgid "search/info/clanProfileBtn"
+msgstr "Klana profils"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "Neizdodas iesniegt pieteikumu iestāties klanā."
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "Darbība nav pieejama"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "Jūs jau saņēmāt ielūgumu pievienoties šim klanam."
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "Neizdodas iesniegt pieteikumu"
+
+msgid "search/info/ratingDescription"
+msgstr "Kopējais reitings"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "Kopējais reitings atkarīgs no klana efektivitātes cietokšņa režīmā un globālajā kartē."
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "Kopējais reitings"
+
+msgid "search/info/ratingTitle"
+msgstr "Statistika visos kauju veidos:"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "Jūs jau iesniedzāt pieteikumu šim klanam."
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "Neizdodas iesniegt pieteikumu"
+
+msgid "search/info/requestSent"
+msgstr "Pieteikums iesniegts."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "Klans nepieņem pieteikumus."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "Neizdodas iesniegt pieteikumu"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "Iesniegts maksimālais pieteikumu skaits."
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "Neizdodas iesniegt pieteikumu"
+
+msgid "search/info/sendRequestBtn"
+msgstr "Iesniegt pieteikumu"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "Nav saņemti dati no servera. Mēģiniet vēlāk."
+
+msgid "search/info/serverUnavailable/header"
+msgstr "Servera kļūda"
+
+msgid "search/info/stats/avgExp"
+msgstr "Vidējā pieredze"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "Klana biedru visos kauju režīmos nopelnītās pieredzes svērtā vidējā vērtība. Kopējais katra spēlētāja aizvadīto kauju skaits ietekmē vērtību. Tiek ņemti vērā tikai spēlētāji, kuri šobrīd ir klana sastāvā."
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "Vidējā klana biedru pieredze"
+
+msgid "search/info/stats/battles"
+msgstr "Vidējais\nkauju skaits"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "Vidējais klana biedru aizvadīto kauju skaits visos kauju režīmos. Tiek ņemti vērā biedri, kuri pašlaik ir klana sastāvā."
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "Vidējais klana biedru aizvadīto kauju skaits"
+
+msgid "search/info/stats/wins"
+msgstr "Vidējais uzvaru procents"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "Klana biedru uzvaru procenta visos kauju režīmos svērtā vidējā vērtība. Kopējais katra spēlētāja aizvadīto kauju skaits ietekmē vērtību. Tiek ņemti vērā tikai spēlētāji, kuri šobrīd ir klana sastāvā."
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "Visu klana biedru vidējais uzvaru procents"
+
+msgid "search/nextBtn"
+msgstr "Nākamie"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "Uzspiediet, lai atainotu nākamo klanu saraksta daļu."
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "Nākamie"
+
+msgid "search/previousBtn"
+msgstr "Iepriekšējie"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "Uzspiediet, lai atainotu iepriekšējo klanu saraksta daļu."
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "Iepriekšējie"
+
+msgid "search/promoText/body"
+msgstr "Lai atrastu klanu, ievadiet teksta laukā tā nosaukumu vai tagu, pēc tam nospiediet „Meklēt”."
+
+msgid "search/promoText/header"
+msgstr "Klana meklēšana"
+
+msgid "search/requestTooShort/body"
+msgstr "Lai meklētu klanu, ievadiet vismaz 2 simbolus un mēģiniet vēlreiz."
+
+msgid "search/requestTooShort/button"
+msgstr "Atgriezties pie saraksta"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "Atgriezties pie saraksta"
+
+msgid "search/requestTooShort/header"
+msgstr "Pietrūkst datu"
+
+msgid "search/searchBtn"
+msgstr "Meklēšana"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "Ievadiet klana nosaukumu vai tagu ievadlaukā pa kreisi (vismaz 2 simbolus)."
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "Klana meklēšana"
+
+msgid "search/searchInputPrompt"
+msgstr "Klana nosaukums vai tags"
+
+msgid "search/serverUnavailable/body"
+msgstr "Nav saņemti dati no servera. Mēģiniet vēlāk."
+
+msgid "search/serverUnavailable/header"
+msgstr "Servera kļūda"
+
+msgid "search/table/clan"
+msgstr "Klans"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "Klana atribūti: tags un nosaukums"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "Klans"
+
+msgid "search/table/creationDate"
+msgstr "Izveidots"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "Klana izveides datums"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "Izveidots"
+
+msgid "search/table/players"
+msgstr "Spēlētāji"
+
+msgid "search/table/players/tooltip/body"
+msgstr "Klana biedru kopskaits"
+
+msgid "search/table/players/tooltip/header"
+msgstr "Spēlētāji"
+
+msgid "search/table/rating"
+msgstr "Reitings"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "Klana kopējais reitings"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "Reitings"
+
+msgid "search/title"
+msgstr "Klana meklēšana"
+
+msgid "search/titleDescription"
+msgstr "Šeit jūs varat atrast klanu, izvērtēt tā informāciju\nun iesniegt savu pieteikumu iestāties klanā. Meklēt var pēc klana nosaukuma vai taga."
+
+msgid "search/windowTitle"
+msgstr "Klana meklēšana"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "Shēma"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "Statistika"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "%(level)s līmenis\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "nav iestatīts"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "Uguns pārtraukšana:"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "Aizsardzības periods:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "Mājas serveris:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "Uzceltas ēkas:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "Neitralitāte:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "Nopelnīto industriālo resursu rekords"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "Visvairāk uzvaras pēc kārtas"

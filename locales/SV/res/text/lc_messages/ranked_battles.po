@@ -1,0 +1,1547 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Vapenvila råder på alla servrar. Strider åter tillgängliga om %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "Säsong %(leftSeasonName)s har avslutats"
+
+msgid "alertMessage/allNotSet"
+msgstr "Striderna ej tillgängliga på servern %(serverName)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Välj en annan server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Information"
+
+msgid "alertMessage/notAvailable"
+msgstr "Vapenvila råder på servern %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Vapenvila råder på servern %(serverName)s"
+
+msgid "alertMessage/notSet"
+msgstr "Striderna ej tillgängliga på servern %(serverName)s"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Vapenvila råder på denna server. Strider åter tillgängliga om %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "Säsong %(leftSeasonName)s har avslutats"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Striderna ej tillgängliga på servern %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)st %(min)smin"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Inga lämpliga vagnar klass %(levels)s i garaget"
+
+msgid "awards/bonusBattles/efficiency"
+msgstr "Standard, för dina resultat i den slutförda fasen: %(amount)s"
+
+msgid "awards/bonusBattles/header"
+msgstr "Mottagna bonusstrider:"
+
+msgid "awards/bonusBattles/label"
+msgstr "Bonusstrider mottagna: %(count)s"
+
+msgid "awards/bonusBattles/steps/daily"
+msgstr " \nDagliga, för antalet vinklar som erhållits i kvalificering: %(amount)s"
+
+msgid "awards/bonusBattles/steps/persistent"
+msgstr " \nStandard, för antalet vinklar som erhållits i kvalificering: %(amount)s"
+
+msgid "awards/congratulation"
+msgstr "Grattis!"
+
+msgid "awards/gotDivision"
+msgstr "Du har flyttat till nästa division"
+
+msgid "awards/gotLeague"
+msgstr "Du har nått ligaspelet"
+
+msgid "awards/gotQualification"
+msgstr "Du slutförde kvalet och placerades i tredje divisionen."
+
+msgid "awards/gotQualificationQuest"
+msgstr "Din belöning för kvalet: Utkämpade strider: %(count)s"
+
+msgid "awards/gotRank"
+msgstr "Ny grad uppnådd"
+
+msgid "awards/yes"
+msgstr "Uppfattat!"
+
+msgid "battleResult/losers"
+msgstr "Förlorande lag"
+
+msgid "battleResult/rank/lose"
+msgstr "Grad förlorad"
+
+msgid "battleResult/rank/progress/lose"
+msgstr "Armvinkel förlorad"
+
+msgid "battleResult/rank/progress/up"
+msgstr "Armvinkel mottagen"
+
+msgid "battleResult/rank/unchanged"
+msgstr "Armvinkel bibehållen"
+
+msgid "battleResult/rank/up"
+msgstr "Grad uppnådd"
+
+msgid "battleResult/winners"
+msgstr "Vinnande lag"
+
+msgid "battleResult/yes"
+msgstr "Uppfattat!"
+
+msgid "battleresult/bonusBattlesEarned"
+msgstr " \n\nBonusstrider tillagda:"
+
+msgid "battleresult/bonusBattlesEarned/efficiency"
+msgstr " \nStandard, för dina resultat i den slutförda fasen: %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/daily"
+msgstr " \nDagliga, för antalet vinklar som erhållits i kvalificering: %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/persistent"
+msgstr " \nStandard, för antalet vinklar som erhållits i kvalificering: %(amount)s"
+
+msgid "battleresult/bonusBattlesUsed"
+msgstr ". Du utkämpade en bonusstrid."
+
+msgid "battleresult/divisionEarned"
+msgstr "Ny\ndivision"
+
+msgid "battleresult/first/inTop/lose"
+msgstr "Du är den spelare i det förlorande laget som tjänat mest erfarenhet"
+
+msgid "battleresult/first/inTop/win"
+msgstr "Du är den spelare i det vinnande laget som tjänat mest erfarenhet"
+
+msgid "battleresult/first/notInTop/lose"
+msgstr "Du är inte den spelare i det förlorande laget som tjänat mest erfarenhet"
+
+msgid "battleresult/first/notInTop/win"
+msgstr "Du är inte den spelare i det vinnande laget som tjänat mest erfarenhet"
+
+msgid "battleresult/headerText"
+msgstr "Stridsresultat"
+
+msgid "battleresult/inTop/lose"
+msgstr "Du är bland de %(topNumber)s spelare i det förlorande laget som tjänat mest erfarenhet"
+
+msgid "battleresult/inTop/win"
+msgstr "Du är bland de %(topNumber)s spelare i det vinnande laget som tjänat mest erfarenhet"
+
+msgid "battleresult/leagueEarned"
+msgstr "Flytta till \nligaspel"
+
+msgid "battleresult/leagueUnavailable"
+msgstr "Din liga kommer beräknas när tabellen uppdaterats.\n "
+
+msgid "battleresult/notInTop/lose"
+msgstr "Du är inte bland de %(topNumber)s spelare i det förlorande laget som tjänat mest erfarenhet"
+
+msgid "battleresult/notInTop/minXP"
+msgstr "Du har inte tjänat tillräckligt med erfarenhet."
+
+msgid "battleresult/notInTop/stageSaved"
+msgstr "Du är skyddad mot förlust av armvinklar i detta stadiet"
+
+msgid "battleresult/notInTop/win"
+msgstr "Du är inte bland de %(topNumber)s spelare i det vinnande laget som tjänat mest erfarenhet"
+
+msgid "battleresult/rankEarned"
+msgstr "Grad\nmottagen"
+
+msgid "battleresult/rankLost"
+msgstr "Grad\nförlorad"
+
+msgid "battleresult/rankUnburnable"
+msgstr "Inga\nförändringar"
+
+msgid "battleresult/shieldLose"
+msgstr "Gradskyddet\nförstört"
+
+msgid "battleresult/shieldLoseStep"
+msgstr "Gradskyddet\nförsvagat"
+
+msgid "battleresult/stageEarned"
+msgstr "Armvinkel\nmottagen"
+
+msgid "battleresult/stageLost"
+msgstr "Armvinkel\nförlorad"
+
+msgid "battleresult/stageNotEarned"
+msgstr "Armvinkel\nbibehållen"
+
+msgid "battleresult/stageSaved"
+msgstr "Armvinkel\nbibehållen"
+
+msgid "battleresult/stagesEarned"
+msgstr "Armvinklar\nmottagna"
+
+msgid "battleresult/status/rankEarned"
+msgstr "Grad återtagen"
+
+msgid "battleresult/status/rankLost"
+msgstr "Grad förlorad"
+
+msgid "battleresult/status/rankUnburnable"
+msgstr "Inga förändringar"
+
+msgid "battleresult/status/shieldCount"
+msgstr " \nTräffpoäng kvar: %(count)s"
+
+msgid "battleresult/status/shieldLose"
+msgstr "Gradskyddet förstört!"
+
+msgid "battleresult/status/shieldLoseStep"
+msgstr "Gradskyddet försvagat!"
+
+msgid "battleresult/status/shieldRenew"
+msgstr " \nGradskydd återställt"
+
+msgid "battleresult/status/shieldWarning"
+msgstr " \nYtterligare en förlust kan medföra att du förlorar din grad."
+
+msgid "battleresult/status/stageEarned"
+msgstr "Armvinkel mottagen"
+
+msgid "battleresult/status/stageLost"
+msgstr "Armvinkel förlorad"
+
+msgid "battleresult/status/stageNotEarned"
+msgstr "Armvinkel bibehållen"
+
+msgid "battleresult/status/stageSaved"
+msgstr "Armvinkel bibehållen"
+
+msgid "battleresult/status/stagesEarned"
+msgstr "Mottagna armvinklar"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgstr "Säsong %(seasonName)s pågår under %(days)s dagar"
+
+msgid "calendarDay/title"
+msgstr "Schema"
+
+msgid "calendarStepsTooltip/title"
+msgstr "Stadieschema"
+
+msgid "currentVehicleStatus/unsuitableToQueue"
+msgstr "Ej lämpligt för läget"
+
+msgid "division/bronze"
+msgstr "Tredje divisionen"
+
+msgid "division/classification"
+msgstr "Kvalificering"
+
+msgid "division/gold"
+msgstr "Första divisionen"
+
+msgid "division/silver"
+msgstr "Andra divisionen"
+
+msgid "division/status/completed"
+msgstr "Division slutförd"
+
+msgid "division/status/completed/description"
+msgstr "Du har slutfört aktuell division."
+
+msgid "division/status/locked"
+msgstr "Division ej tillgänglig"
+
+msgid "division/status/locked/description"
+msgstr "Föregående division har ej slutförts."
+
+msgid "division/status/qualification"
+msgstr "Utkämpade strider: %(progress)s"
+
+msgid "division/status/qualification/progress"
+msgstr "%(current)s / %(total)s"
+
+msgid "division/status/qualificationDescr/complete"
+msgstr "Kvalifikation slutförd"
+
+msgid "division/status/qualificationDescr/progress"
+msgstr "Utkämpa %(battlesTotal)s strider för att slutföra kvalet.\nNär du slutför kvalet får du belöningar för att ha utkämpat %(battlesList)s strider."
+
+msgid "division/tooltip/battlesDescription"
+msgstr "Består av %(battlesCount)s strider"
+
+msgid "division/tooltip/desc/completed/text"
+msgstr "Du har mottagit alla grader i denna division."
+
+msgid "division/tooltip/desc/completedFinal/text"
+msgstr "Du har mottagit alla grader i denna division och får nu flytta till ligaspel."
+
+msgid "division/tooltip/desc/completedQual/text"
+msgstr "Antalet kvalstrider som krävs har genomförts."
+
+msgid "division/tooltip/desc/current/text"
+msgstr "När du slutfört denna division flyttar du vidare till nästa och får bonusstrider som ökar dina framsteg."
+
+msgid "division/tooltip/desc/currentFinal/text"
+msgstr "När du slutfört denna division flyttar du vidare till ligaspelet och får bonusstrider som kan konsolidera eller förbättra din placering bland säsongens ledare."
+
+msgid "division/tooltip/desc/currentQual/text"
+msgstr "När du slutför kvalet får du belöningar för att ha utkämpat %(battles)s strider.\nEfter slutförandet flyttas du upp till tredje divisionen och får bonusstrider som du kan använda för att snabba på dina framsteg."
+
+msgid "division/tooltip/desc/locked/text"
+msgstr "När du slutfört denna division flyttar du vidare till nästa och får bonusstrider som ökar dina framsteg."
+
+msgid "division/tooltip/desc/lockedFinal/text"
+msgstr "När du slutfört denna division flyttar du vidare till ligaspelet och får bonusstrider som kan konsolidera eller förbättra din placering bland säsongens ledare."
+
+msgid "division/tooltip/desc/title"
+msgstr "Beskrivning:"
+
+msgid "division/tooltip/rankDescription"
+msgstr "Består av %(ranksCount)s grader"
+
+msgid "division/tooltip/status/completed"
+msgstr "Division slutförd"
+
+msgid "division/tooltip/status/completedQual"
+msgstr "Slutförda"
+
+msgid "division/tooltip/status/current"
+msgstr "Division ej slutförd"
+
+msgid "division/tooltip/status/currentQual"
+msgstr "Ej slutförda"
+
+msgid "division/tooltip/status/locked"
+msgstr "Division ej tillgänglig"
+
+msgid "division/tooltip/status/locked/desc"
+msgstr "Slutför föregående division först."
+
+msgid "division/tooltip/status/locked/descQual"
+msgstr "Kval har ej slutförts."
+
+msgid "introPage/alert/beforeSeason"
+msgstr "Evenemanget börjar om:"
+
+msgid "introPage/alert/disabled"
+msgstr "Striderna är inte tillgängliga för tillfället. Kom tillbaka senare."
+
+msgid "introPage/blocks/block1/description"
+msgstr "Strider med 10 mot 10 spelare, under reglerna för standardstrider, på ett begränsat antal kartor och endast i forskningsbara- och samlarvagnar klass X."
+
+msgid "introPage/blocks/block1/title"
+msgstr "Vagnar klass X"
+
+msgid "introPage/blocks/block2/description"
+msgstr "Slutför 3 divisioner på vägen mot äran och en av ligorna genom att kämpa mot spelare med samma förmåga."
+
+msgid "introPage/blocks/block2/title"
+msgstr "Framsteg i rankade strider"
+
+msgid "introPage/blocks/block3/description"
+msgstr "När var och en av de tre säsongerna avslutats får du en speciell stil för vagnar klass X. Du får även värdefulla belöningar och en unik vagn klass X efter alla säsongerna 2021–2022."
+
+msgid "introPage/blocks/block3/title"
+msgstr "Unika belöningar"
+
+msgid "introPage/blocks/yearRewardDisabled"
+msgstr "Varje grad du uppnår ger dig en värdefull belöning. Dessutom får du en unik stil för vagnar klass X när du slutför alla tre säsonger."
+
+msgid "introPage/btns/accept"
+msgstr "Svar: Ja!"
+
+msgid "introPage/btns/detailed"
+msgstr "Stridsregler"
+
+msgid "introPage/btns/toHangar"
+msgstr "Till garaget"
+
+msgid "introPage/description"
+msgstr "Strider 10 mot 10, vagnar klass X, 3 divisioner på vägen mot ära."
+
+msgid "introPage/timeLeft/days"
+msgstr "%(day)s d %(hour)s t"
+
+msgid "introPage/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "introPage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "introPage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "notification/rankEarned"
+msgstr "grad uppnådd"
+
+msgid "notification/rankLost"
+msgstr "grad förlorad"
+
+msgid "notification/rankedMessage"
+msgstr "Grattis!\nDu uppnådde grad %(rankRoman)s\nMottagna krediter: %(creditsCount)s\nIntjänade poäng: %(expCount)s\nMottagna utmärkelser: %(medalsCount)s"
+
+msgid "notification/stageEarned"
+msgstr "märke mottaget"
+
+msgid "notification/stageLost"
+msgstr "märke förlorat"
+
+msgid "notification/stageNotEarned"
+msgstr "armvinkel bibehållen"
+
+msgid "notification/vehicleRankEarned"
+msgstr "vagnsgrad mottagen"
+
+msgid "notification/vehicleRankLost"
+msgstr "vagnsgrad förlorad"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Server %(serverName)s\nStrider tillgängliga om %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Server %(serverName)s\nSäsong %(leftSeasonName)s har avslutats."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Server %(serverName)s\nStrider tillgängliga i ytterligare %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Server %(serverName)s\nStrider tillgängliga om %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Server %(serverName)s\nSäsong %(leftSeasonName)s har avslutats."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Server %(serverName)s\nStrider tillgängliga om %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Server %(serverName)s\nSäsong %(leftSeasonName)s har avslutats."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "en minut"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Vapenvila råder på alla servrar"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "Säsong %(leftSeasonName)s på servern %(serverName)s har avslutats."
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Vapenvila råder på servern %(serverName)s tills %(primeDeltaDate)s kl.%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Säsong %(leftSeasonName)s på servern %(serverName)s har avslutats."
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Striderna ej tillgängliga på servern %(serverName)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Vapenvila råder på servern %(serverName)s tills %(primeDeltaDate)s kl.%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "Säsong %(leftSeasonName)s på servern %(serverName)s har avslutats."
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Striderna ej tillgängliga på servern %(serverName)s"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Strider på servern %(serverName)s börjar om %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "Säsong %(leftSeasonName)s på servern %(serverName)s har avslutats."
+
+msgid "primeTimes/timeText/available"
+msgstr "Strider på servern %(serverName)s är tillgängliga under ytterligare %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Strider på servern %(serverName)s börjar om %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "Säsong %(leftSeasonName)s på servern %(serverName)s har avslutats."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Strider på servern %(serverName)s börjar om %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "Säsong %(leftSeasonName)s på servern %(serverName)s har avslutats."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "qualificationRewards/battlesNeeded"
+msgstr "Utkämpa %(battlesCount)s strider för att slutföra kvalet."
+
+msgid "qualificationRewards/battlesPlayed"
+msgstr "Utkämpade strider:"
+
+msgid "qualificationRewards/description"
+msgstr "Belöningar för kvalet delas ut efter sista kvalstriden avslutas."
+
+msgid "quests/detailed/allServersPrime"
+msgstr "Eld upphör"
+
+msgid "quests/detailed/notInLeagues"
+msgstr "Ta dig till ligor först"
+
+msgid "quests/detailed/seasonEnd/days"
+msgstr "Säsongen slutar om %(day)s d"
+
+msgid "quests/detailed/seasonEnd/default"
+msgstr "Säsongen slutar snart"
+
+msgid "quests/detailed/seasonEnd/hours"
+msgstr "Säsongen slutar om %(hour)s t"
+
+msgid "quests/detailed/seasonEnd/lessMin"
+msgstr "Säsongen slutar om mindre än en minut"
+
+msgid "quests/detailed/seasonEnd/min"
+msgstr "Säsongen slutar om %(min)s min"
+
+msgid "quests/detailed/unavailableLabel"
+msgstr "Ej tillgänglig:"
+
+msgid "quests/tooltip/unavailable/body/allServersPrime"
+msgstr "Uppdrag blir tillgängliga efter eld upphör i rankade strider."
+
+msgid "quests/tooltip/unavailable/body/notInLeagues"
+msgstr "Ta dig till ligor först"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/days"
+msgstr "Säsongen slutar om %(day)s d"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/default"
+msgstr "Säsongen slutar snart"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/hours"
+msgstr "Säsongen slutar om %(hour)s t"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/lessMin"
+msgstr "Säsongen slutar om mindre än en minut"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/min"
+msgstr "Säsongen slutar om %(min)s min"
+
+msgid "quests/tooltip/unavailable/bottom"
+msgstr "Slutförande ej tillgängligt"
+
+msgid "quests/tooltip/unavailable/header/allServersPrime"
+msgstr "Eld upphör"
+
+msgid "quests/tooltip/unavailable/header/notInLeagues"
+msgstr "Inte i ligor"
+
+msgid "quests/tooltip/unavailable/header/seasonEnd"
+msgstr "Slut på säsongen"
+
+msgid "questsTooltip/available"
+msgstr "Säsongen slutar om %(timeDelta)s"
+
+msgid "questsTooltip/available/days"
+msgstr "%(day)s d"
+
+msgid "questsTooltip/available/hours"
+msgstr "%(hour)s t"
+
+msgid "questsTooltip/available/lessMin"
+msgstr "mindre än en minut"
+
+msgid "questsTooltip/available/min"
+msgstr "%(min)s min"
+
+msgid "questsTooltip/bottom"
+msgstr "Fler uppdrag: %(number)d"
+
+msgid "questsTooltip/cooldown/days"
+msgstr "Nya uppdrag finns tillgängliga om %(day)s d"
+
+msgid "questsTooltip/cooldown/hours"
+msgstr "Nya uppdrag finns tillgängliga om %(hour)s t"
+
+msgid "questsTooltip/cooldown/lessMin"
+msgstr "Nya uppdrag finns tillgängliga om en minut"
+
+msgid "questsTooltip/cooldown/min"
+msgstr "Nya uppdrag finns tillgängliga om %(min)s min"
+
+msgid "questsTooltip/header"
+msgstr "Rankade stridsuppdrag"
+
+msgid "questsTooltip/unavailable/allServersPrime"
+msgstr "Ej tillgänglig: eld upphör gäller nu"
+
+msgid "questsTooltip/unavailable/notInLeagues"
+msgstr "Ej tillgängligt: nå ligaspelet först"
+
+msgid "questsTooltip/unavailable/seasonEnd/days"
+msgstr "Ej tillgängligt: säsongen slutar om %(day)s d"
+
+msgid "questsTooltip/unavailable/seasonEnd/hours"
+msgstr "Ej tillgängligt: säsongen slutar om %(hour)s t"
+
+msgid "questsTooltip/unavailable/seasonEnd/lessMin"
+msgstr "Ej tillgängligt: säsongen slutar om mindre än en minut"
+
+msgid "questsTooltip/unavailable/seasonEnd/min"
+msgstr "Ej tillgängligt: säsongen slutar om %(min)s min"
+
+msgid "rankedAwards/awardsBlock/awardsHeaderTxt"
+msgstr "Belöning för uppnådd grad"
+
+msgid "rankedAwards/awardsBlock/crystal"
+msgstr "Obligationer"
+
+msgid "rankedAwards/awardsBlock/description"
+msgstr "Din högsta grad"
+
+msgid "rankedAwards/awardsBlock/points"
+msgstr "Poäng"
+
+msgid "rankedAwards/awardsBlock/title"
+msgstr "Resultat för stadie %(cycleNumber)s"
+
+msgid "rankedBattle/title"
+msgstr "RANKADE STRIDER"
+
+msgid "rankedBattleCyclesView/tabs/final"
+msgstr "Final"
+
+msgid "rankedBattleCyclesView/tabs/ranks"
+msgstr "Grad"
+
+msgid "rankedBattleCyclesView/title"
+msgstr "Säsongsbelöningar"
+
+msgid "rankedBattleHeader/points/current"
+msgstr "Pågående"
+
+msgid "rankedBattleHeader/points/final"
+msgstr "Totalpoäng: %(points)s"
+
+msgid "rankedBattleHeader/points/past"
+msgstr "Poäng: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/body"
+msgstr "Nuvarande stadie kommer avslutas den %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/header"
+msgstr "Stadie %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/body"
+msgstr "Alla poäng intjänade under föregående stadier läggs samman i finalen och spelare får sina belöningar.\nFinalsäsong—%(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/header"
+msgstr "Säsongsfinal"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/body"
+msgstr "Stadiet börjar den %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/header"
+msgstr "Stadie %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/body"
+msgstr "Intjänade poäng: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/header"
+msgstr "Stadie %(cycle)d är slut"
+
+msgid "rankedBattleHeader/tooltip/date"
+msgstr "%d.%m.%y"
+
+msgid "rankedBattleMainView/bonusBattles"
+msgstr "Bonusstrider: %(battlesCount)s"
+
+msgid "rankedBattleMainView/date/days"
+msgstr "%(day)s d kvar till avslutning"
+
+msgid "rankedBattleMainView/date/hours"
+msgstr "%(hour)s t kvar till avslutning"
+
+msgid "rankedBattleMainView/date/lessMin"
+msgstr "Mindre än en minut kvar till avslutning"
+
+msgid "rankedBattleMainView/date/min"
+msgstr "%(min)s min kvar till avslutning"
+
+msgid "rankedBattleMainView/date/period"
+msgstr "%(start)s–%(finish)s"
+
+msgid "rankedBattleMainView/divisions/currentRank"
+msgstr "Din grad"
+
+msgid "rankedBattleMainView/divisions/rank"
+msgstr "Grad %(rank)s"
+
+msgid "rankedBattleMainView/emptyBubble"
+msgstr " "
+
+msgid "rankedBattleMainView/infoPage/header"
+msgstr "Vagnar klass X, rollerfarenhet, bonusstrider, 3 divisioner med ökande svårighet och ligastrider."
+
+msgid "rankedBattleMainView/leaguesView/descr"
+msgstr "Tjäna armvinklar och förbättra ditt resultat för att förbättra din placering i tabellen och nå topp %(count)d."
+
+msgid "rankedBattleMainView/leaguesView/league1"
+msgstr "Guldligan"
+
+msgid "rankedBattleMainView/leaguesView/league2"
+msgstr "Silverligan"
+
+msgid "rankedBattleMainView/leaguesView/league3"
+msgstr "Bronsligan"
+
+msgid "rankedBattleMainView/leaguesView/top"
+msgstr "TOPP %(count)d"
+
+msgid "rankedBattleMainView/leaguesView/topDescr"
+msgstr "Tjäna armvinklar och förbättra ditt resultat för att förbättra din placering i tabellen behålla din plats i topp %(count)d."
+
+msgid "rankedBattleMainView/leaguesView/unavailableDescr"
+msgstr "Beräknar din liga. Resultatet blir tillgängligt inom kort."
+
+msgid "rankedBattleMainView/leaguesView/unavailableTitle"
+msgstr "Liga ej beräknas"
+
+msgid "rankedBattleMainView/leaguesView/yearLeaderboardDisabled"
+msgstr "Förtjäna armvinklar och förbättra ditt resultat för att behålla din placering i ligan."
+
+msgid "rankedBattleMainView/season"
+msgstr "Säsong %(season)s"
+
+msgid "rankedBattleMainView/seasonComplete"
+msgstr "Säsong %(season)s har avslutats"
+
+msgid "rankedBattleMainView/seasonCompleteSingle"
+msgstr "Säsong %(season)s har avslutats."
+
+msgid "rankedBattleMainView/seasonGap"
+msgstr "Nästa säsong %(newSeason)s börjar om %(date)s"
+
+msgid "rankedBattleMainView/seasonGap/bannedDivision/descr"
+msgstr "Alla gradmarker intjänade under säsongen har tagits bort på grund av brott mot spelets regler."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/descr"
+msgstr "Du har uteslutits från ledartabellen för säsongen på grund av brott mot spelets regler. Alla gradmarker intjänade under säsongen har tagits bort."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/withoutPoints/descr"
+msgstr "Du har exkluderats från säsongens ledartabell på grund av brott mot spelets regler."
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInDivisions/descr"
+msgstr "Alla dina gradmarker har tagits bort på grund av brott mot spelets regler"
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInSeason/descr"
+msgstr "Alla gradmarker intjänade under säsongen har tagits bort på grund av brott mot spelets regler."
+
+msgid "rankedBattleMainView/seasonGap/division/descr"
+msgstr "Din högsta uppnådda grad denna säsong"
+
+msgid "rankedBattleMainView/seasonGap/division/ratingBtn"
+msgstr "Säsongsledare"
+
+msgid "rankedBattleMainView/seasonGap/division/title"
+msgstr "Grad %(rank)s (%(division)s)"
+
+msgid "rankedBattleMainView/seasonGap/league/descr"
+msgstr "Grattis till slutförandet av säsongen!"
+
+msgid "rankedBattleMainView/seasonGap/league/ratingBtn"
+msgstr "Gå till poängtabellen"
+
+msgid "rankedBattleMainView/seasonGap/league1"
+msgstr "Guldligan"
+
+msgid "rankedBattleMainView/seasonGap/league2"
+msgstr "Silverligan"
+
+msgid "rankedBattleMainView/seasonGap/league3"
+msgstr "Bronsligan"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/descr"
+msgstr "Högsta resultat under säsongen"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/title"
+msgstr "Du har slutfört kvalet"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/descr"
+msgstr "Du har inte uppnått några grader denna säsong"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/title"
+msgstr "Inga grader"
+
+msgid "rankedBattleMainView/seasonGap/rolledDivision/descr"
+msgstr "Du har uteslutits från listan över säsongsledare efter återskapande av ditt konto."
+
+msgid "rankedBattleMainView/seasonGap/rolledLeague/descr"
+msgstr "Du har uteslutits från listan över säsongsledare efter återskapande av ditt konto."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInDivisions/descr"
+msgstr "Du har uteslutits från listan över säsongsledare efter återskapande av ditt konto."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInSeason/descr"
+msgstr "Du har uteslutits från listan över säsongsledare efter återskapande av ditt konto."
+
+msgid "rankedBattleMainView/seasonGap/stats/efficiency"
+msgstr "Resultat"
+
+msgid "rankedBattleMainView/seasonGap/stats/outOfRating"
+msgstr "Utanför tabellen"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/descr"
+msgstr "När alla beräkningar är klara kommer du se ditt slutresultat och få din välförtjänta belöning"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/title"
+msgstr "Beräknar resultat"
+
+msgid "rankedBattleMainView/specialSeason"
+msgstr "X"
+
+msgid "rankedBattleMainView/stats/battlesInLeague"
+msgstr "Strider i ligaspel"
+
+msgid "rankedBattleMainView/stats/battlesTotal"
+msgstr "Totalt antal strider"
+
+msgid "rankedBattleMainView/stats/divisionEfficiency"
+msgstr "Prestation i divisionsstrider"
+
+msgid "rankedBattleMainView/stats/qualificationEfficiency"
+msgstr "Resultat\ni kvalet"
+
+msgid "rankedBattleMainView/stats/qualificationSteps"
+msgstr "Vinklar\ni kvalet"
+
+msgid "rankedBattleMainView/stats/rating/title"
+msgstr "Tabellplats"
+
+msgid "rankedBattleMainView/stats/rating/tooltip"
+msgstr "Tabellen uppdateras med %(minutes)s minuters mellanrum. Senast uppdaterad: %(time)s"
+
+msgid "rankedBattleMainView/stats/rating/unavailableTooltip"
+msgstr "Tabellen är för tillfället ej uppdaterad på grund av tekniska problem."
+
+msgid "rankedBattleMainView/stats/seasonEfficiency"
+msgstr "Allmän utvärdering"
+
+msgid "rankedBattleMainView/stats/stripesInLeague"
+msgstr "Armvinklar i ligaspel"
+
+msgid "rankedBattleMainView/stats/stripesTotal"
+msgstr "Totalt antal armvinklar"
+
+msgid "rankedBattleMainView/yearGap/header"
+msgstr "Ditt resultat under 2021–2022"
+
+msgid "rankedBattlePage/closeBtn"
+msgstr "STÄNG"
+
+msgid "rankedBattleView/awardBlock/emptyLeague"
+msgstr "—"
+
+msgid "rankedBattleView/awardBlock/points/currLeagueHeader"
+msgstr "Nuvarande liga"
+
+msgid "rankedBattleView/awardBlock/points/header"
+msgstr "Säsongsledare"
+
+msgid "rankedBattleView/awardBlock/points/noLeagueHeader"
+msgstr "Utanför tabellen"
+
+msgid "rankedBattleView/awardBlock/points/noPriseHeader"
+msgstr "Träligan"
+
+msgid "rankedBattleView/awardBlock/points/totalLabel"
+msgstr "Poäng totalt: "
+
+msgid "rankedBattleView/awardBlock/pointsAlt/description"
+msgstr "Klicka för att se säsongens ledare"
+
+msgid "rankedBattleView/awardBlock/quest/description/battlesLeft"
+msgstr "Effektiva strider att spela:"
+
+msgid "rankedBattleView/awardBlock/quest/description/noQuest"
+msgstr "Inga pågående uppdrag"
+
+msgid "rankedBattleView/awardBlock/quest/header"
+msgstr "Uppdrag"
+
+msgid "rankedBattleView/awardBlock/seasonAward/description"
+msgstr "Klicka för att se belöningar"
+
+msgid "rankedBattleView/awardBlock/seasonAward/header"
+msgstr "Säsongsbelöningar"
+
+msgid "rankedBattleView/closeBtn"
+msgstr "BAKÅT"
+
+msgid "rankedBattleView/closeBtnDescr"
+msgstr "TILL GARAGE"
+
+msgid "rankedBattleView/nextStageBlock/stage"
+msgstr "Stadie %(cycleNumber)s"
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/body"
+msgstr "Klicka för att påbörja din resa i rankade strider."
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/header"
+msgstr "Framåt!"
+
+msgid "rankedBattleView/playVideoBtn"
+msgstr "Videoinstruktioner"
+
+msgid "rankedBattleView/progressBlock/bestRank"
+msgstr "Säsongsrekord"
+
+msgid "rankedBattleView/progressBlock/continue"
+msgstr "Tjäna poäng för att få belöningar i finalen"
+
+msgid "rankedBattleView/progressBlock/currentRank"
+msgstr "Nuvarande grad: %(rank)s"
+
+msgid "rankedBattleView/progressBlock/finalRank"
+msgstr "Grattis! Du har uppnått högsta grad %(rank)s under denna säsongen."
+
+msgid "rankedBattleView/progressBlock/steps"
+msgstr "Märken: %(numbers)s"
+
+msgid "rankedBattleView/progressBlock/vehicleRank"
+msgstr "Gradmarker"
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/body"
+msgstr "Klicka för att se information om de olika stadierna i en säsong."
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/header"
+msgstr "Kalender"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/attentionText"
+msgstr "Resultat av stadie %(cycleNumber)s om %(timeLeft)s"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/cycleItem"
+msgstr "Säsong %(cycleNumber)s: %(day0)s.%(month0)s—%(day1)s.%(month1)s"
+
+msgid "rankedBattleView/statusBlock/statusText"
+msgstr "Säsongsresultatet kommer sammanställas om: "
+
+msgid "rankedBattleView/title"
+msgstr "Rankad strid"
+
+msgid "rankedBattlesBattleResults/animationCheckBoxLabel"
+msgstr "Visa animation"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s får inte delta i rankade strider."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/header"
+msgstr "Icke-kompatibel vagnstyp"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/body"
+msgstr "Välj en %(levelSubStr)s för att delta i rankade strider."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/header"
+msgstr "Icke-kompatibel vagnsklass"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Vagn klass %(levels)s"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s får inte delta i rankade strider."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/header"
+msgstr "Icke-kompatibel vagn"
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/body"
+msgstr "Delades ut i slutet av ett stadie och innehöll värdefulla belöningar. Antalet belöningar och deras kvalitet berodde på din position i tabellen."
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/header"
+msgstr "Prislåda"
+
+msgid "rankedBattlesCyclesView/btnClose"
+msgstr "STÄNG"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/awardRecieved"
+msgstr "Belöning mottagen"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/body"
+msgstr "Delas ut i slutet av ett stadie och innehåller diverse belöningar. Antalet belöningar och deras värde beror på uppnådd grad."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/header"
+msgstr "Prislåda"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/body"
+msgstr "Kan bytas mot nya unika belöningar: Personliga reserver och specialutrustning. En obligation kan bytas mot en uppsättning Personliga reserver eller utrustning. Ju fler obligationer du tjänar desto mer värdefulla belöningar får du."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/header"
+msgstr "Obligationer"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rank"
+msgstr "Grad"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rankAward"
+msgstr "Belöning för uppnådd grad"
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/body"
+msgstr "Delas ut för bästa resultat under ett stadie. Ditt bästa resultat kvarstår även om du förlorar en grad."
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/header"
+msgstr "Belöning för stadie"
+
+msgid "rankedBattlesCyclesView/currentCycle/vehicleRankComment"
+msgstr "Standardbelöning"
+
+msgid "rankedBattlesCyclesView/final/btnLadder"
+msgstr "Gå till poängtabellen"
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/body"
+msgstr "Klicka för att gå till poängtabellen och se din position."
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/header"
+msgstr "Säsongsledare"
+
+msgid "rankedBattlesCyclesView/final/first"
+msgstr "%(count)s av de bästa spelarna"
+
+msgid "rankedBattlesCyclesView/final/intermediate"
+msgstr "nästa %(count)s"
+
+msgid "rankedBattlesCyclesView/final/last"
+msgstr "Träligan"
+
+msgid "rankedBattlesCyclesView/final/lastComment"
+msgstr "Du tjänar poäng när du stiger i poängtabellen.\nDu får en slutgiltig belöning baserat på\nden liga du spelar i."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/noLeagueDataTooltip"
+msgstr "Information om nuvarande liga är för tillfället ej tillgänglig. Försök igen senare."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/position"
+msgstr "Tabellplats"
+
+msgid "rankedBattlesCyclesView/final/tableHeader/seasonAward"
+msgstr "Slutbelöning"
+
+msgid "rankedBattlesCyclesView/noAchievements/future/footer"
+msgstr "Från %(start)s till och med %(end)s"
+
+msgid "rankedBattlesCyclesView/noAchievements/past/footer"
+msgstr "Du uppnådde inte någon grad under detta stadiet.\nIntjänade poäng: %(points)s"
+
+msgid "rankedBattlesUnreachableView/bottom/missions"
+msgstr "Slutför personliga uppdrag"
+
+msgid "rankedBattlesUnreachableView/bottom/premium"
+msgstr "Använd %(premiumType)s-Premiumkonto"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/basic"
+msgstr "Wargaming"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/plus"
+msgstr "WoT"
+
+msgid "rankedBattlesUnreachableView/bottom/reserves"
+msgstr "Aktivera personliga reserver"
+
+msgid "rankedBattlesUnreachableView/bottomText"
+msgstr "Vilket är det snabbaste sätter att forska fram vagnar klass %(levels)s?"
+
+msgid "rankedBattlesUnreachableView/closeBtnLabel"
+msgstr "STÄNG"
+
+msgid "rankedBattlesUnreachableView/subtitleText"
+msgstr "Rankade strider ej tillgängliga"
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForBuy"
+msgstr "Du måste ha vagnar klass %(levels)s i ditt garage för att delta i Rankade strider.\nDu har forskat fram vagnar klass %(levels)s som du inte har köpt än."
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForRestore"
+msgstr "Du måste ha vagnar klass %(levels)s i ditt garage för att delta i Rankade strider.\nDu har forskat fram vagnar klass %(levels)s som du kan återställa."
+
+msgid "rankedBattlesUnreachableView/vehicleUnavailable"
+msgstr "Du måste ha vagnar klass %(levels)s i ditt garage för att delta i Rankade strider."
+
+msgid "rankedBattlesViewHeader/tabs/current"
+msgstr "Grad"
+
+msgid "rankedBattlesViewHeader/tabs/final"
+msgstr "Final"
+
+msgid "rankedBattlesWidget/bonusMultiplier"
+msgstr "x%(count)s"
+
+msgid "rankedBattlesWidget/bonusSteps"
+msgstr "för bonusstrid"
+
+msgid "rankedBattlesWidget/league0"
+msgstr "Grader"
+
+msgid "rankedBattlesWidget/league1"
+msgstr "Guld"
+
+msgid "rankedBattlesWidget/league2"
+msgstr "Silver"
+
+msgid "rankedBattlesWidget/league3"
+msgstr "Brons"
+
+msgid "rankedBattlesWidget/leagueDecrease/info"
+msgstr "Du har återvänt till %(leagueName)sligan"
+
+msgid "rankedBattlesWidget/leagueDecrease/title"
+msgstr "LIGA ÄNDRAD"
+
+msgid "rankedBattlesWidget/leagueIncrease/info"
+msgstr "Du har flyttat till %(leagueName)sligan"
+
+msgid "rankedBattlesWidget/leagueIncrease/title"
+msgstr "LIGA ÄNDRAD"
+
+msgid "rankedBattlesWidget/leaguesAchievment/info"
+msgstr "Du kan nu kämpa om en plats i tabellen"
+
+msgid "rankedBattlesWidget/leaguesAchievment/title"
+msgstr "LIGASPEL TILLGÄNGLIGT"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/info"
+msgstr "Du har flyttat till nästa division"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/title"
+msgstr "NY DIVISION"
+
+msgid "rankedBattlesWidget/newRankCongrat"
+msgstr "Grattis!\nDu har fått en ny grad!"
+
+msgid "rankedBattlesWidget/noChanges"
+msgstr "Inga förändringar"
+
+msgid "rankedBattlesWidget/qualificationIdleText"
+msgstr "Strider för att slutföra kvalet:\n%(currentBattles)s / %(totalBattles)s"
+
+msgid "rewardsView/common/currentReward"
+msgstr "Potentiell belöning"
+
+msgid "rewardsView/tabs/leagues"
+msgstr "Belöningar för ligaspel"
+
+msgid "rewardsView/tabs/leagues/awardDescr/style"
+msgstr "Stilen %(styleName)s och märket %(badgeName)s"
+
+msgid "rewardsView/tabs/leagues/description"
+msgstr "Belöningsstilar och -märken är tillfälliga och tillgängliga för spelare tills slutet av nästa säsong. För att försvara rätten att använda dem måste spelaren nå samma liga igen. Om spelaren inte uppnår en av ligorna kommer stilen och märket inte längre vara tillgängliga. Om en spelare uppnår en annan liga kommer stilen och märket ersättas med den ligans respektive stil och märke."
+
+msgid "rewardsView/tabs/leagues/description/league1"
+msgstr "Stilen tilldelas alla spel som uppvisat utmärkande resultat: slutfört alla divisioner och varit bland de 20%% av spelare som haft bäst resultat, eller varit först att avancera till ligaspel. När den används på en vagn visar den ägarens prestationer. För att få fortsätta använda stilen måste spelaren försvara den i varje säsong av rankade strider."
+
+msgid "rewardsView/tabs/leagues/description/league2"
+msgstr "Stilen tilldelas säsongens vinnare som uppvisat tillbörlig nivå av färdighet och uthållighet för att uppnå silverligan vid säsongens slut. När den används på en vagn visar den ägarens prestationer. För att få fortsätta använda stilen måste spelaren försvara den i varje säsong av rankade strider."
+
+msgid "rewardsView/tabs/leagues/description/league3"
+msgstr "Stilen tilldelas säsongens vinnare som uppvisat tillbörlig nivå av färdighet och uthållighet för att uppnå bronsligan vid säsongens slut. När den används på en vagn visar den ägarens prestationer. För att få fortsätta använda stilen måste spelaren försvara den i varje säsong av rankade strider."
+
+msgid "rewardsView/tabs/leagues/league1"
+msgstr "Guldligan"
+
+msgid "rewardsView/tabs/leagues/league2"
+msgstr "Silverligan"
+
+msgid "rewardsView/tabs/leagues/league3"
+msgstr "Bronsligan"
+
+msgid "rewardsView/tabs/ranks"
+msgstr "Belöningar för grader"
+
+msgid "rewardsView/tabs/year"
+msgstr "Årliga belöningar"
+
+msgid "rewardsView/tabs/year/compensation/extraPoints"
+msgstr "För %(points)s %(rankedImg)s, har du fått %(crystal)s %(crystalImg)s som kompensation"
+
+msgid "rewardsView/tabs/year/compensation/notEnough"
+msgstr "Du har fått %(crystal)s %(crystalImg)s som kompensation"
+
+msgid "rewardsView/tabs/year/current"
+msgstr "Potentiell belöning"
+
+msgid "rewardsView/tabs/year/currentChoose"
+msgstr "Välj belöning"
+
+msgid "rewardsView/tabs/year/currentFinal"
+msgstr "Belöning mottagen"
+
+msgid "rewardsView/tabs/year/title/awarded"
+msgstr "Gradmarker: %(points)s"
+
+msgid "rewardsView/tabs/year/title/notAwarded"
+msgstr "Gradmarker: %(points)s"
+
+msgid "seasonComplete/bestRank"
+msgstr "Din högsta uppnådda grad"
+
+msgid "seasonComplete/bigTitle"
+msgstr "Resultat för säsong %(season)s"
+
+msgid "seasonComplete/division/tooltip/header"
+msgstr "Grad %(rank)s (%(division)s)"
+
+msgid "seasonComplete/effectLabel"
+msgstr "Resultat"
+
+msgid "seasonComplete/leadersButton"
+msgstr "Säsongsledare"
+
+msgid "seasonComplete/outOfRating"
+msgstr "Utanför tabellen"
+
+msgid "seasonComplete/placeInRating"
+msgstr "Tabellplats"
+
+msgid "seasonComplete/smallTitle"
+msgstr "Rankad strid"
+
+msgid "seasonComplete/sprinterImproved"
+msgstr "Du är en av de första spelarna som nått ligaspel och kommer därför få en belöning från guldligan."
+
+msgid "seasonComplete/sprinterTop"
+msgstr "Du är en av de första spelarna som nått ligaspelet."
+
+msgid "seasonComplete/tooltip/body"
+msgstr "Ditt resultat säsong %(season)s"
+
+msgid "selectableReward/subTitle"
+msgstr "VÄLJ BELÖNING"
+
+msgid "selectableReward/title"
+msgstr "RANKADE STRIDER. %(rewardName)s"
+
+msgid "selectableReward/tooltip/equipmentChoice/limit"
+msgstr "Du kan bara välja varje sak i listan en gång."
+
+msgid "selectableReward/tooltip/equipmentChoice/list"
+msgstr "• Avluftningssystem\n• Kanonstabilisator\n• Innovativt laddningssystem\n• Extra slitstark eldriktningsmotor\n• Experimentell optik\n• Förbättrad säkerhetsanpassning\n• Förbättrad kompressor\n• Ökad granattålighet"
+
+msgid "selectableReward/tooltip/equipmentChoice/title"
+msgstr "Förbättrad utrustning att välja mellan"
+
+msgid "selectorTooltip/desc"
+msgstr "Strider i forskningsbara- och samlarvagnar klass X under reglerna för Standardstrider. Lagen består av spelare med ungefär samma rankning."
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Säsongen slutar om:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Stridschema"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Idag"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Imorgon"
+
+msgid "selectorTooltip/title"
+msgstr "Rankad strid"
+
+msgid "statistic/playersRaiting"
+msgstr "Säsongsledare"
+
+msgid "statistic/vehicleRank"
+msgstr "Gradmarker förtjänad"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "tooltip/closeButton/body"
+msgstr "Din belöning kommer automatiskt delas ut."
+
+msgid "tooltip/closeButton/header"
+msgstr "Återvänd till garaget"
+
+msgid "tooltip/step/conditions"
+msgstr "Om en spelare är bland de %(battlesNum)s spelare\nsom tjänat mest erfarenhet i det %(team)s"
+
+msgid "tooltip/step/conditions/header"
+msgstr "Mottaget"
+
+msgid "tooltip/step/decommission/description"
+msgstr "Om en spelare i det förlorande laget rankas %(fromTill)s efter intjänad erfarenhet."
+
+msgid "tooltip/step/decommission/header"
+msgstr "Borttaget"
+
+msgid "tooltip/step/decommissionWin/description"
+msgstr "Om en spelare i det vinnande laget rankas %(fromTill)s efter intjänad erfarenhet."
+
+msgid "tooltip/step/description"
+msgstr "Märke som representerar dina framsteg på vägen mot nästa grad"
+
+msgid "tooltip/step/fromTill"
+msgstr "%(fromPlace)s–%(tillPlace)s"
+
+msgid "tooltip/step/header"
+msgstr "Armvinkel"
+
+msgid "tooltip/step/losers"
+msgstr "förlorande laget"
+
+msgid "tooltip/step/notCharged/description"
+msgstr "Om en spelare inte är en av de %(battlesNum)s i det vinnande laget som tjänat mest erfarenhet, men rankas %(fromTill)s."
+
+msgid "tooltip/step/notCharged/header"
+msgstr "Sparat"
+
+msgid "tooltip/step/notChargedLose/description"
+msgstr "Om en spelare inte är bland de %(battlesNum)s i det förlorande laget som tjänat mest erfarenhet, men rankas %(fromTill)s."
+
+msgid "tooltip/step/or"
+msgstr "eller"
+
+msgid "tooltip/step/winners"
+msgstr "vinnande laget"
+
+msgid "welcomeScreen/btn"
+msgstr "Framåt!"
+
+msgid "welcomeScreen/centerRule"
+msgstr "Uppnå högre grad i strider mot värdiga motståndare"
+
+msgid "welcomeScreen/centerRuleTooltip/body"
+msgstr "Både ditt eget lag och fiendelaget kommer bestå av spelare med ungefär samma grad som du själv."
+
+msgid "welcomeScreen/centerRuleTooltip/header"
+msgstr "Värdig motståndare"
+
+msgid "welcomeScreen/closeBtn"
+msgstr "STÄNG"
+
+msgid "welcomeScreen/closeBtnTooltip/body"
+msgstr "Klicka för att stänga fönstret och återvända till garaget."
+
+msgid "welcomeScreen/closeBtnTooltip/header"
+msgstr "Stäng"
+
+msgid "welcomeScreen/equalityText"
+msgstr "="
+
+msgid "welcomeScreen/header"
+msgstr "Välkommen!"
+
+msgid "welcomeScreen/leftRule"
+msgstr "Delta i strider i din\nfavoritvagn i klass X"
+
+msgid "welcomeScreen/leftRuleTooltip/body"
+msgstr "Kämpa i dina bästa forskningsbara- och samlarvagnar\nklass X"
+
+msgid "welcomeScreen/leftRuleTooltip/header"
+msgstr "Klass X"
+
+msgid "welcomeScreen/negative/body"
+msgstr "{team}, och var en av de {topNumber} i laget som tjänar mest erfarenhet."
+
+msgid "welcomeScreen/negative/team"
+msgstr "Förlora en strid"
+
+msgid "welcomeScreen/positive/body"
+msgstr "{team}, och var en av de {topNumber} i laget som tjänar mest erfarenhet."
+
+msgid "welcomeScreen/positive/team"
+msgstr "Vinn en strid"
+
+msgid "welcomeScreen/rankDescr"
+msgstr "För att uppnå grad 1"
+
+msgid "welcomeScreen/ranks/header"
+msgstr "Var en av de spelare som tjänar mest erfarenhet för att öka din grad"
+
+msgid "welcomeScreen/ranksDescr"
+msgstr "Ju högre position du uppnår desto mer värdefulla belöningar får du."
+
+msgid "welcomeScreen/rightRule"
+msgstr "Ju högre grad du uppnår desto mer värdefulla belöningar får du"
+
+msgid "welcomeScreen/rightRuleTooltip/body"
+msgstr "Ju högre grad du uppnår desto mer värdefulla belöningar får du."
+
+msgid "welcomeScreen/rightRuleTooltip/header"
+msgstr "Värdefulla belöningar"
+
+msgid "welcomeScreen/rulesDelimeter"
+msgstr "eller"
+
+msgid "yearLeaderboard/rewardView/battleType"
+msgstr "Rankad strid"
+
+msgid "yearLeaderboard/rewardView/clanDescr"
+msgstr "[%(clan)s] "
+
+msgid "yearLeaderboard/rewardView/leaderboardBtn/label"
+msgstr "Gå till poängtabellen"
+
+msgid "yearLeaderboard/rewardView/positionDescr"
+msgstr "Tabellplats för {name} {clan}"
+
+msgid "yearLeaderboard/rewardView/reward/label"
+msgstr "Du har mottagit specialmärket %(name) som du kan visa bredvid ditt namn i spelet."
+
+msgid "yearLeaderboard/rewardView/reward/nameTemplate"
+msgstr "\"{name}\""
+
+msgid "yearLeaderboard/rewardView/title"
+msgstr "Du har nått topp {total}"
+
+msgid "yearRewards/box/big/title"
+msgstr "Stor belöning"
+
+msgid "yearRewards/box/large/title"
+msgstr "Maximal belöning"
+
+msgid "yearRewards/box/medium/title"
+msgstr "Standardbelöning"
+
+msgid "yearRewards/box/small/title"
+msgstr "Liten belöning"
+
+msgid "yearRewards/tooltip/any/reward/title"
+msgstr "Belöning"
+
+msgid "yearRewards/tooltip/box/big/title"
+msgstr "Stor belöning"
+
+msgid "yearRewards/tooltip/box/large/title"
+msgstr "Maximal belöning"
+
+msgid "yearRewards/tooltip/box/medium/title"
+msgstr "Standardbelöning"
+
+msgid "yearRewards/tooltip/box/small/title"
+msgstr "Liten belöning"
+
+msgid "yearRewards/tooltip/box/subTitle"
+msgstr "Årsbelöning. Tilldelas endast spelare som tjänat tillräckligt med gradmarker efter de tre säsongerna av rankade strider avslutats."
+
+msgid "yearRewards/tooltip/equipmentChoice/description/1"
+msgstr "Du kan välja en förbättrad utrustning som belöning:"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/2"
+msgstr "Du kan välja två förbättrade utrustningar som belöning. Du kan inte välja samma utrustning mer än en gång:"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/3"
+msgstr "Du kan välja tre förbättrade utrustningar som belöning. Du kan inte välja samma utrustning mer än en gång:"
+
+msgid "yearRewards/tooltip/equipmentChoice/list"
+msgstr "• Avluftningssystem\n• Kanonstabilisator\n• Innovativt laddningssystem\n• Extra slitstark eldriktningsmotor\n• Experimentell optik\n• Förbättrad säkerhetsanpassning\n• Förbättrad kompressor\n• Ökad granattålighet"
+
+msgid "yearRewards/tooltip/equipmentChoice/title"
+msgstr "Förbättrad utrustning"
+
+msgid "yearRewards/tooltip/needPoints"
+msgstr "Gradmarker som krävs"
+
+msgid "yearRewards/tooltip/status/current/description"
+msgstr "Du har möjlighet att få en årlig belöning eftersom du förtjänat tillräckligt många gradmarker."
+
+msgid "yearRewards/tooltip/status/current/title"
+msgstr "Din nuvarande belöning"
+
+msgid "yearRewards/tooltip/status/currentChoose/description"
+msgstr "Du har fått en årlig belöningar! Klicka på knappen Välj belöning för att välja vilken förbättrad utrustning du vill ha som belöning."
+
+msgid "yearRewards/tooltip/status/currentChoose/title"
+msgstr "Belöning mottagen! Du kan välja vilken förbättrad utrustning du vill ha som belöning."
+
+msgid "yearRewards/tooltip/status/currentFinal/description"
+msgstr "Du har fått en årsbelöning!"
+
+msgid "yearRewards/tooltip/status/currentFinal/title"
+msgstr "Belöning mottagen!"
+
+msgid "yearRewards/tooltip/status/locked/description"
+msgstr "Förtjäna dem i rankade strider genom att kämpa dig igenom divisionerna och spela i ligaspelet."
+
+msgid "yearRewards/tooltip/status/locked/title"
+msgstr "Gradmarker saknas"
+
+msgid "yearRewards/tooltip/status/lockedFinal/description"
+msgstr "Du har inte tjänat tillräckligt med gradmarker för att få denna belöning."
+
+msgid "yearRewards/tooltip/status/lockedFinal/title"
+msgstr "Gradmarker saknas"
+
+msgid "yearRewards/tooltip/status/passed/description"
+msgstr "Du kommer potentiellt redan motta en mer värdefull årsbelöning"
+
+msgid "yearRewards/tooltip/status/passed/title"
+msgstr "Belöning ej tillgänglig"
+
+msgid "yearRewards/tooltip/status/passedFinal/description"
+msgstr "Du har redan mottagit en mer värdefull årsbelöning"
+
+msgid "yearRewards/tooltip/status/passedFinal/title"
+msgstr "Belöning ej tillgänglig"
+
+msgid "year_award/acceptButton/acceptLabel"
+msgstr "Svar: Ja!"
+
+msgid "year_award/acceptButton/hangarLabel"
+msgstr "Visa i garaget"
+
+msgid "year_award/compensationLabel"
+msgstr "Du tjänade {total} {pointsIcon}. För {compensated} {pointsIcon} av dem har du fått {crystals} {crystalIcon} som kompensation."
+
+msgid "year_award/rankedLabel"
+msgstr "Rankad strid"
+
+msgid "year_award/rewardSelected"
+msgstr "Belöning mottagen"
+
+msgid "year_award/rewardsToSelect"
+msgstr "Belöningar att välja mellan: {count}"

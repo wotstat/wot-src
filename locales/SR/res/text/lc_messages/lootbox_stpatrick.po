@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Povratak na sanduke"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Smaragdni sanduk"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "SMARAGDNI SANDUK"
+
+msgid "common/getButton/lowerCase"
+msgstr "Uzmi sanduke"
+
+msgid "common/getButton/upperCase"
+msgstr "UZMI SANDUKE"
+
+msgid "common/loader"
+msgstr "Otvaranje sanduka..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Otvori sanduke da bi video statistiku."
+
+msgid "common/statistics/header"
+msgstr "Otvoreno sanduka: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Sve informacije o otvaranju sanduka će biti obrisane."
+
+msgid "entryPoint/boxes"
+msgstr "KA SANDUCIMA"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Ovo su specijalni sanduci koji sadrže premijum vozila, 3D dodatke, kredite i druge vredne stvari iz igre.\nMožeš ih nabaviti u prodavnici u igri."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Sanduci trenutno ne mogu biti otvoreni zbog tehničkih razloga. Izvinjavamo se zbog neprijatnosti."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Sanduci su trenutno nedostupni"
+
+msgid "eventName/lowerCase"
+msgstr "Slavno u zelenom"
+
+msgid "eventName/upperCase"
+msgstr "SLAVNO U ZELENOM"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garantovana nagrada je u sledećem sanduku!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maksimalno sanduka pre zagarantovane nagrade: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ako ne otvoriš sanduke do kraja događaja, oni će biti otvoreni automatski."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ako već imaš sva vozila sa liste mogućih iz sanduka, onda će sva sledeća vozila koja dobiješ iz kutija biti kompenzovana u zlatu jednako njihovoj punoj vrednosti."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Svaki %(guaranteed0)s sanduk garantovano sadrži vozila nivoa VIII - IX. Ako ih otvoriš bez dobijenog vozila, onda će vozilo VIII - IX nivoa koje ne poseduješ ispasti kada otvoriš %(guaranteed0)s&zwnbsp;. sanduk. Kada se to dogodi, brojač se poništava."
+
+msgid "infoPage/header/description"
+msgstr "Otvori sanduk za šansu da dobiješ vredne stvari iz igre! Pogledaj detalje ispod."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Iz %(name) (%(boxesCount) otvorenih sanduka)"
+
+msgid "noBoxesView/description/"
+msgstr "Nemaš više sanduka.\nMožeš da ih nabaviš u prodavnici u igri."
+
+msgid "preview/backLabel"
+msgstr "KA SANDUCIMA"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Dostupno sanduka: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nema dostupnih sanduka"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Ako već imaš sva vozila sa liste mogućih iz sanduka, onda će sva sledeća vozila koja dobiješ iz sanduka biti kompenzovana u zlatu."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) sanduk"
+msgstr[1] "%(remainingCount) sanduka"
+msgstr[2] "%(remainingCount) sanduka"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Zagarntovana nagrada je vozilo sa liste mogućeg sadržaja sanduka.\nAko otvoriš %(remainingCount) sanduka a takvo vozilo ne dobiješ, dobićeš ga kada otvoriš %(count). sanduk. Kada ga dobiješ brojač se poništava."

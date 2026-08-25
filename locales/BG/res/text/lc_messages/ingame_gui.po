@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Екип <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "Артилерийски залп"
+
+msgid "attackReason/artillery_sector"
+msgstr "Артилерийски залп"
+
+msgid "attackReason/bombers"
+msgstr "Въздушен удар"
+
+msgid "battleCommunication/hint/description"
+msgstr ", за да посочите позиция или да сложите маркер"
+
+msgid "battleCommunication/hint/press"
+msgstr "Натиснете"
+
+msgid "battleEndWarning/text"
+msgstr "До края:"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "Текстовите и гласовите съобщения от този играч ще бъдат скривани до края на битката."
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "Блокирай съобщения от играча"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "Съобщенията от играчи от списък \"Игнорирани\" са блокирани."
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "Действието е недостъпно"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "Текстовите и гласовите съобщения от този играч\nотново ще бъдат достъпни."
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "Разблокирай съобщения от играча"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "Технически проблем при извличане на данни за бойната зона."
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "Данните за бойната зона за тази машина не са налични на тази карта."
+
+msgid "battleProgress/hint/description"
+msgstr "за преглед на лични мисии"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "Основните клавиши не са зададени"
+
+msgid "battleProgress/hint/press"
+msgstr "Натиснете"
+
+msgid "battle_notifier/lose"
+msgstr "Поражение!"
+
+msgid "battle_notifier/tie"
+msgstr "Реми!"
+
+msgid "battle_notifier/win"
+msgstr "Победа!"
+
+msgid "bot/boss"
+msgstr "Бос"
+
+msgid "bot/elite"
+msgstr "Елитен"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "ОПАСНОСТ ОТ ПОВРЕДА"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "ДВИГАТЕЛЯТ Е ПОВРЕДЕН"
+
+msgid "chat_example/affirmative"
+msgstr "Тъй вярно!"
+
+msgid "chat_example/attack_enemy"
+msgstr "Прикривайте ме от <Enemy Name>!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "Атакувам <Enemy Name>!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "Завладейте базата!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "Пазете базата!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "Внимание към <Квадрант на миникартата>!"
+
+msgid "chat_example/attention_to_position"
+msgstr "Внимание към позиция!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "Унищожавайте цели"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "Не губете танковете си!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "Завладейте зоната"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "Отбранявайте целите"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "Не губете танковете си!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "Отбранявайте зони"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "В зоната е нужно подкрепление"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "В зоната е нужно подкрепление"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "В зоната е нужно подкрепление"
+
+msgid "chat_example/going_there"
+msgstr "Движа се насам!"
+
+msgid "chat_example/help_me"
+msgstr "Помощ!"
+
+msgid "chat_example/help_me_ex"
+msgstr "<Име на съюзник>, помогни!"
+
+msgid "chat_example/negative"
+msgstr "Съвсем не!"
+
+msgid "chat_example/overheated_gun"
+msgstr "Оръжието е прегряло! Не може да се стреля в продължение на <Reload Time> сек"
+
+msgid "chat_example/positive"
+msgstr "Тъй вярно!"
+
+msgid "chat_example/reloading_cassette"
+msgstr "Готов за стрелба след <Време за презареждане> сек., снаряди в касетата: <Брой снаряди> бр."
+
+msgid "chat_example/reloading_gun"
+msgstr "Презареждам! Остават <Време за презареждане> сек.!"
+
+msgid "chat_example/reloading_ready"
+msgstr "Готов за стрелба!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "Готов за стрелба! Снаряди в касетата: <Брой снаряди> бр."
+
+msgid "chat_example/reloading_unavailable"
+msgstr "Боекомплектът е празен."
+
+msgid "chat_example/spg_aim_area"
+msgstr "Целя се в<Квадрант на миникартата>!"
+
+msgid "chat_example/supporting_ally"
+msgstr "<Ally Name>, ще ти помогна!"
+
+msgid "chat_example/thanks"
+msgstr "<Ally Name>, благодаря!"
+
+msgid "chat_example/turn_back"
+msgstr "<Име на съюзник>, назад!"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "Тъй вярно!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "Поддържайте огъня по %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "Готов за стрелба! Атакувам %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "Боекомплектът е празен! Стреляйте по %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "Атакувам %(target)s! Презареждам, остават %(reloadTime)d сек.!"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "Ще завладея базата!"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "Завладявам база %(strArg1)s!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "Атакувам %(target)s!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "Завладейте базата!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "Завладейте база %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "Пазете базата!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "Защитавай база %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "Внимание към %(cellName)s!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Унищожете цел %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "Атакувам цел %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Защитавайте цел %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "Защитавам цел %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Внимание към позиция!"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "Внимание към %(gridId)s"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "Ще отбранявам базата!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "Защитавам база %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "Унищожете целите!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "Имаме достатъчно време, не губете танковете си!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "Времето изтича, дайте всичко от себе си и завладейте зона!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "Отбранявайте целите!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "Трябва да удържим, не губете танковете си!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "Времето изтича, отбранявайте зоните на всяка цена!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "Нужно е подкрепление в зона %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "Нужно е подкрепление в зона %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "Нужно е подкрепление в зона %(strArg1)s!"
+
+msgid "chat_shortcuts/going_there"
+msgstr "Придвижвам се към позиция!"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "Движа се към %(gridId)s"
+
+msgid "chat_shortcuts/help_me"
+msgstr "Помощ!"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s, помогни!"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "Придвижване до целта: %(target)s"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "Придвижвам се към целта: %(target)s!"
+
+msgid "chat_shortcuts/negative"
+msgstr "Съвсем не!"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "Оръжието е прегряло! Не може да се стреля в продължение на %(floatArg1)d сек"
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s, тъй вярно!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "Готов за стрелба след %(floatArg1)d сек.; снаряди в касетата: %(int32Arg1)s бр."
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "Презареждам! Остават %(floatArg1)d сек.!"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "Готов за стрелба!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "Готов за стрелба! Снаряди в касетата: %(int32Arg1)s бр."
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "Боекомплектът е празен."
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "Прицелвам се в позицията. Готов за стрелба!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "Следя %(gridId)s! Боекомплектът е празен!"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "Целя се в %(gridId)s. Готов за стрелба!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "Прицелвам се в позицията. Презареждам, още %(reloadTime)d сек.!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "Целя се в %(gridId)s. Презареждам, остават %(reloadTime)d сек.!"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s, ще ти помогна!"
+
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s, благодаря ти!"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s, назад!"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "Отиди на настройките"
+
+msgid "commanderCam/hint/description"
+msgstr "Отдалечете изгледа за влизане в тактически изглед"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "Охлаждане: %(cooldownSeconds)s секунди"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "Слот за снаряжение"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "км/ч"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "ББ"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "БП"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "ОФ"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "ОФ"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "КС"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "Командирът е ранен. Техническите показатели са намалени."
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "Командир"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "Водачът е ранен. Скоростта на движение и завъртане е намалена."
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "Водач"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "Мерачът е ранен. Точността на стрелба е намалена."
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "Мерач"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "Мерач 2 е ранен. Точността на стрелба е намалена."
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "Мерач 2"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "Пълначът е ранен. Скоростта на презареждане е намалена."
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "Пълнач"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "Пълнач 2 е ранен. Скоростта на презареждане е намалена."
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "Пълнач 2"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "Радистът е ранен. Обхватът на връзката е намален."
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "Радист"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "Радист 2 е ранен. Обхватът на връзката е намален."
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "Радист 2"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "Боезарядът е повреден. Скоростта на презареждане е намалена."
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "Боезарядът се взриви."
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "Боезарядът е непокътнат."
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "Окачването е повредено."
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "Обездвижен: окачването е унищожено."
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "Окачването е непокътнато."
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "Двигателят е повреден. Мощността е понижена."
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "Обездвижен: двигателят е унищожен."
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "Двигателят е непокътнат."
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "Резервоарът е повреден."
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "Резервоарът е унищожен."
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "Резервоарът е непокътнат."
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "Оръдието е повредено. Точността на стрелба е понижена."
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "Оръдието е повредено. Стрелбата е невъзможна."
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "Оръдието е непокътнато."
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "Радиостанцията е повредена."
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "Радиостанцията е унищожена. Обхватът на връзката е намален."
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "Радиостанцията е непокътната."
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "Приборите за наблюдение са повредени."
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "Приборите за наблюдение са унищожени. Обзорът е намален."
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "Приборите за наблюдение не са повредени."
+
+msgid "damage_panel/devices/track/critical"
+msgstr "Окачването е повредено."
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "Обездвижен: окачването е унищожено."
+
+msgid "damage_panel/devices/track/normal"
+msgstr "Окачването е непокътнато."
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "Куполът е повреден. Скоростта на въртене е понижена."
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "Завъртането е невъзможно: куполът е унищожен."
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "Куполът е непокътнат."
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "Окачването е повредено."
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "Ходовата част е унищожена. Движението е невъзможно."
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "Ходовата част не е повредена."
+
+msgid "danger_zone/indicator"
+msgstr "Машината ви може да бъде унищожена - напуснете опасната зона!"
+
+msgid "destroyTimer/liftOver"
+msgstr "Обратно в строя..."
+
+msgid "devMaps/hint/description"
+msgstr "за преглед на особеностите на картата"
+
+msgid "devMaps/hint/press"
+msgstr "Натиснете"
+
+msgid "devMaps/mapInfo/info"
+msgstr "На тази карта могат да се случат произволни събития. Такива карти могат да бъдат деактивирани в настройките на играта."
+
+msgid "devMaps/mapInfo/text"
+msgstr "Карта с произволни събития"
+
+msgid "devices/ammo_bay"
+msgstr "Боезаряд"
+
+msgid "devices/chassis"
+msgstr "Окачване"
+
+msgid "devices/engine"
+msgstr "Двигател"
+
+msgid "devices/fuel_tank"
+msgstr "Горивен резервоар"
+
+msgid "devices/gun"
+msgstr "Оръдие"
+
+msgid "devices/left_track"
+msgstr "Лява верига"
+
+msgid "devices/radio"
+msgstr "Радиостанция"
+
+msgid "devices/right_track"
+msgstr "Дясна верига"
+
+msgid "devices/surveing_device"
+msgstr "Прибори за наблюдение"
+
+msgid "devices/track"
+msgstr "%(type)s верига"
+
+msgid "devices/track/left"
+msgstr "Лява"
+
+msgid "devices/track/main"
+msgstr "Резервна"
+
+msgid "devices/track/outer"
+msgstr "Основна"
+
+msgid "devices/track/right"
+msgstr "Дясна"
+
+msgid "devices/turret_rotator"
+msgstr "Въртене на купола"
+
+msgid "devices/wheel"
+msgstr "Колело"
+
+msgid "distance/meters"
+msgstr "%(meters)d м"
+
+msgid "dynamicSquad/ally/add"
+msgstr "Натиснете, за да поканите играча във взвода.\nИграчът може да приеме поканата ви или по време на битката, или след края й.%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\nВнимание! Членовете на взвода ще видят истинското ви игрово име и кланов таг."
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\nВнимание! Членовете на взвода ще видят истинското ви игрово име."
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "Неуспешна покана за присъединяване на този съюзник към взвода."
+
+msgid "dynamicSquad/ally/received"
+msgstr "Натиснете, за да приемете поканата за взвод.\nВзводът ще бъде създаден по време на битката."
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "До играча беше изпратена покана. Ако я приеме, той/тя ще влезе във взвода ви или по време на битката, или след края й."
+
+msgid "dynamicSquad/enemy/add"
+msgstr "Натиснете, за да поканите играча във взвода.\nИграчът може да приеме поканата ви или по време на битката, или след края й.%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "Не можете да поканите противник във взвода."
+
+msgid "dynamicSquad/enemy/received"
+msgstr "Натиснете, за да приемете поканата за взвод.\nВзводът ще бъде създаден след края на битката."
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "До играча беше изпратена покана. Ако я приеме, той/тя ще влезе във взвода ви след края на битката."
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "Натиснете"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr ", за да включите гласовия чат"
+
+msgid "dynamicSquad/invite"
+msgstr "Покана за присъединяване към взвод"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "Поражения от въздушен удар"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "Поражения от артилерийски залп"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "Поражения от основна цел"
+
+msgid "efficiencyRibbons/armor"
+msgstr "Спрени поражения"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "Поддръжка от бойни резерви"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "Поражения при откриване"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "Поражения след ваше зашеметяване"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "Унищожена верига"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "Поражения от полярна мечка"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "Ролеви опит"
+
+msgid "efficiencyRibbons/burn"
+msgstr "Запалване"
+
+msgid "efficiencyRibbons/capture"
+msgstr "Завладяване на база"
+
+msgid "efficiencyRibbons/crits"
+msgstr "Критично попадение"
+
+msgid "efficiencyRibbons/damage"
+msgstr "Нанесени поражения"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "Поражения от залп на боен кораб"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "Поражения от U.S.S. Frankford"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "Поражения от мини"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "Поражения от боен робот"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "Поражения от киселинен снаряд"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "Поражения от огнен пръстен"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "Поражения от електрически разряд"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "Поражения от зоната"
+
+msgid "efficiencyRibbons/defence"
+msgstr "Защита на база"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "Зоната е защитена"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "Нанесени са поражения"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "Целта е унищожена"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "Целта е зашитена"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "Зоната е завладяна"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "Поражения от зоната на пожар"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "Машината е поправена"
+
+msgid "efficiencyRibbons/kill"
+msgstr "Унищожени"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "Поражения от минно поле"
+
+msgid "efficiencyRibbons/ram"
+msgstr "Таран"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "Поражения от пожар"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "Поражения от боен робот"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "Поражения от киселинен снаряд"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "Поражения от огнен пръстен"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "Поражения от мини"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "Поражения от разяждаща мъгла"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "Поражения от електрически разряд"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "Критични поражения"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "Поражения от изстрел"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "Поражения от кълбовидна мълния"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "Поражения от таран"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "Поражения от сблъсък"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "Поражения от кълбовидна мълния"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "Открити"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "Поражения от Зона на унищожение"
+
+msgid "efficiencyRibbons/stun"
+msgstr "Зашеметяване"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "Машината е изоставена"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "Поражения от удар"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "Снежна буря"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "Пожар"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "Мъгла"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "Силен дъжд"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "Пясъчна буря"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "Дим"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "Торнадо"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "Скрий отборните панели"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "Без панел"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Натиснете Ctrl + Tab за превключване между режимите)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "Показвай името на играча, унищожените цели и иконите на машините"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "Среден панел 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Натиснете Ctrl + Tab за превключване между режимите)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "Показвай машините, унищожени от играча, името и иконата на машината му."
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "Среден панел 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Натиснете Ctrl + Tab за превключване между режимите)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "Показвай унищожените цели и иконите на машините"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "Кратък панел"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Натиснете Ctrl + Tab за превключване между режимите)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "Смяна между показване на вашата или на всички три групи играчи."
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "Превключване на колони"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Натиснете Ctrl + Tab за превключване между режимите)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "Унищожихте знамето!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "Знамето е пленено!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "Знамето е занесено."
+
+msgid "flagNotification/flagInbase"
+msgstr "Занесете знамето в щаба."
+
+msgid "flags/timer"
+msgstr "%(time)s сек..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "сек..."
+
+msgid "grille/status/reload"
+msgstr "ПРЕЗАРЕЖДАНЕ..."
+
+msgid "grille/status/speedlimit"
+msgstr "ОГРАНИЧЕНИЕ НА СКОРОСТТА"
+
+msgid "helpScreen/hint/description"
+msgstr "за запознаване с особеностите на машината"
+
+msgid "helpScreen/hint/press"
+msgstr "Натиснете"
+
+msgid "helpScreen/mapbox/description"
+msgstr "за преглед на особеностите на картата"
+
+msgid "helpScreen/mapbox/press"
+msgstr "Натиснете"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "за активиране на режим Обсада/<font color='#F4B12C'><b>Бункер</b></font>"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "за активиране на режим Обсада/<font color='#F4B12C'><b>Походен</b></font>"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "за активиране на режим Пътуване/<font color='#F4B12C'><b>Бункер</b></font>"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "Клавишът за превключване на режима не е определен"
+
+msgid "helpScreen/pillbox/press"
+msgstr "Натиснете/<font color='#F4B12C'><b>Задръжте</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "Основните клавиши не са зададени"
+
+msgid "hitMarker/blocked"
+msgstr "Бронята не е пробита"
+
+msgid "hitMarker/critical"
+msgstr "Критично попадение"
+
+msgid "hitMarker/missArmor"
+msgstr "Бронята не е уцелена"
+
+msgid "hitMarker/ricochet"
+msgstr "Рикошет"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "Екранът не е пробит"
+
+msgid "hitMarker/trackBlocked"
+msgstr "Веригата не е пробита"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "Колелото не е пробито"
+
+msgid "levelProgress/maxLevel"
+msgstr "МАКСИМАЛНО НИВО НА МАШИНА"
+
+msgid "marker/meters"
+msgstr "м"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "Взривяването на боекомплекта е предотвратено от оборудване \"%(device)s\""
+
+msgid "optDeviceResurrection/engine"
+msgstr "Унищожаването на двигателя е предотвратено от оборудване \"%(device)s\""
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "Запалването е предотвратено от оборудване \"%(device)s\""
+
+msgid "penetration/high"
+msgstr "Високо"
+
+msgid "penetration/low"
+msgstr "Ниска"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "Допълнително условие:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "Основно условие:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "Няма започнати мисии за този режим на битка."
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "Няма започнати мисии за този вид машина."
+
+msgid "personal_reserves/hint/description"
+msgstr "за активиране на лични резерви"
+
+msgid "personal_reserves/hint/press"
+msgstr "Натиснете"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "Движението е невъзможно: повредена е ходовата част."
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "Движението е невъзможно: екипажът е ранен."
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "Движението е невъзможно: двигателят е повреден."
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "Обездвижен: машината е унищожена."
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "Стрелбата е невъзможна: екипажът е ранен."
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "Стрелбата е невъзможна: оръдието е повредено."
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "Стрелбата е невъзможна."
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "Стрелбата е невъзможна: оръдието е прегряло."
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "Оръдието се презарежда."
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "Завършване на зареждането."
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "Стрелбата е невъзможна: няма снаряди."
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "Стрелбата е невъзможна: танкът е унищожен."
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "Превключването е недостъпно: двигателят е унищожен."
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "Превключването не е налично: оръдието е унищожено"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "Превключването не е налично: останал е само един снаряд"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] вече действа."
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "Снаряжение [%(name)s] не е активно: няма пожар."
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] е недостъпно по време на подготовката."
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "Няма нужда от медицинска помощ: няма ранени танкисти."
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] не се нуждае от медицинска помощ."
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "Резервът още не е готов."
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "Уловете %(name)s, за да активирате тактическото умение."
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "Модулите и командирът са с пълни точки живот. Няма нужда от ремонт или лечение."
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "Не е необходим ремонт: нищо не е засегнато."
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] работи нормално, няма нужда от ремонт."
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "Невъзможно е да се активира коаксиално оръжие."
+
+msgid "player_messages/ALLY_HIT"
+msgstr "Уцелихте съюзник %(entity)s!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "Готово за употреба: [%(equipment)s]"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "Артилерийската батарея е на позиция и е готова за стрелба."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "Самолетите наближават и са готови за бомбардировка."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "Нашият екипаж е готов да въодушеви другите около себе си."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "Минното поле е готово за разполагане."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "Самолетът приближава и е готов да разузнава."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "\"Полеви ремонт\" е готов за употреба."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "Батареята за димната завеса е готова за стрелба."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "\"Часовой\" е готов за употреба."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "Артилерийската батарея на %(player)s произведе залп."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "Самолетите на %(player)s наближават."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s създава зона за възстановяване."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s активира въодушевление."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s разположи минно поле."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "%(player)s повика разузнавателен самолет."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s използва Полеви ремонт."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s пуска димна завеса."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s активира \"Часовой\"."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s е унищожен от артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s е унищожен от артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s е унищожен от артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s е унищожен от артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s е унищожен от артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s е унищожен от артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Машината е унищожена от артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s е унищожен от артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s е унищожен от артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s е унищожен от въздушен удар."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s е унищожен от въздушен удар."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "Съюзник %(target)s е унищожен от съюзник %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(attacker)s унищожи %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Машината е унищожена от съюзник %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Съюзник %(target)s е унищожен от зоната."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(attacker)s унищожи %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "Враг %(attacker)s унищожи враг %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Машината е унищожена от враг %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s е унищожен от зоната."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "Съюзник %(target)s е унищожен."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s е унищожен."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Машината е унищожена."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Устройство [%(device)s] е унищожено от пожар"
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Устройство [%(device)s] е унищожено от изстрел на %(entity)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "Съюзник %(attacker)s потопи съюзник %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(attacker)s потопи %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Машината е потопена от съюзник %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "Съюзник %(target)s се потопи."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(attacker)s потопи %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "Враг %(attacker)s потопи враг %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Машината е потопена от %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "Враг %(target)s се потопи."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "Съюзник %(target)s беше потопен."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "%(target)s беше потопен."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Машината потъна."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "Съюзник %(target)s е унищожен от съюзник %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(attacker)s унищожи %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Машината е унищожена от съюзник %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(attacker)s унищожи %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "Враг %(attacker)s унищожи враг %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Машината е унищожена от враг %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "Съюзник %(target)s е унищожен."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s е унищожен."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "Екипажът е извън строя."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Екипажът е ранен от изстрел на %(entity)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Екипажът на съюзник %(target)s е унищожен от съюзник %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "Екипажът на %(target)s беше унищожен от %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Екипажът е унищожен от съюзник %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Съюзник %(target)s унищожи своя екипаж."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Екипажът на %(target)s беше унищожен от %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Екипажът на враг %(target)s беше унищожен от враг %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Екипажът беше унищожен от %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Враг %(target)s унищожи своя екипаж."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "Екипажът на съюзник %(target)s беше унищожен."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "Екипажът на %(target)s беше унищожен."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Екипажът е унищожен."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Съюзник %(target)s е унищожен от минно поле."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s е унищожен."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(attacker)s е унищожен %(target)s от мини."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(attacker)s е унищожен %(target)s от мини."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s е унищожен от мини."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "Съюзник %(attacker)s преобърна съюзник %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s преобърна %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Машината е преобърната от съюзник %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "Съюзник %(target)s се преобърна"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s преобърна %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "Враг %(attacker)s преобърна враг %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Машината е преобърната и унищожена от %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "Враг %(target)s се преобърна"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "Съюзник %(target)s е преобърнат"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s е преобърнат"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Машината е преобърната и унищожена"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "Съюзник %(attacker)s унищожи съюзник %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(attacker)s унищожи %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Машината е унищожена от съюзник %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "Съюзник %(target)s се разби."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(attacker)s унищожи %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "Враг %(attacker)s унищожи враг %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Машината е унищожена от враг %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "Враг %(target)s се разби."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "Съюзник %(target)s е унищожен."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s е унищожен."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Машината е унищожена."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s изостави машината си."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s изостави машината си."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Машината е унищожена от бомбардировка."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s е унищожен при бомбардировка на зона."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s е унищожен при бомбардировка на зона."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Машината е унищожена от артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s е унищожен от артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s е унищожен от артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "Съюзник %(attacker)s унищожи %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "Съюзник %(attacker)s унищожи %(target)s с артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "Съюзник %(attacker)s унищожи %(target)s с бомбардировка."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s унищожи %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s е унищожен %(target)s от артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(attacker)s е унищожен %(target)s от въздушна атака."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s унищожен %(target)s (огнева поддръжка)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s унищожен %(target)s (артилерийски залп)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "Съюзник %(target)s загина в бой."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "Съюзник %(target)s загина в битка след артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "Съюзник %(target)s загина в битка след бомбардировка."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s унищожи %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(attacker)s е унищожен %(target)s от артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(attacker)s е унищожен %(target)s от въздушна атака."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s унищожен %(target)s (огнева поддръжка)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s унищожен %(target)s (артилерийски залп)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "Враг %(attacker)s унищожи враг %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "Враг %(attacker)s унищожи враг %(target)s с артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "Враг %(attacker)s унищожи враг %(target)s с бомбардировка."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "Враг %(target)s загина в бой."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "Враг %(target)s загина в битка след артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "Враг %(target)s загина в битка след бомбардировка."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "Съюзник %(target)s е унищожен."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "Съюзник %(target)s е унищожен от артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "Съюзник %(target)s е унищожен с бомбардировка."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s е унищожен."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s е унищожен от артилерийски залп."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s е унищожен от въздушна атака."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s унищожен"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s унищожен"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "Враг (неизвестен) унищожи %(target)s."
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Съюзник %(target)s е унищожен от зоната на унищожение."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Съюзник %(attacker)s разби съюзник %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s разби %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Машината беше разбита от съюзник %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Съюзник %(target)s се разби."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s разби %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Враг %(attacker)s разби враг %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Машината беше разбита от %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Враг %(target)s се разби."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "Съюзник %(target)s беше разбит."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s беше разбит."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Машината се разби."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s унищожи цел %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s унищожи цел %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "Унищожихте цел %(target)s."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "Устройство [%(device)s] е повредено от огъня."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "Изстрел на %(entity)s повреди [%(device)s]."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "Устройство [%(device)s] е унищожено от огъня."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "Устройство [%(device)s] беше унищожено от %(entity)s."
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "Устройство [%(device)s] е ремонтирано."
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "Устройство [%(device)s] отново работи."
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "Устройство [%(device)s] бе подпалено от изстрел на %(entity)s."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "Устройство [%(device)s] е повредено от форсиране."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "Устройство [%(device)s] е повредено от премахването на регулатора на скоростта."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "Устройство [%(device)s] е унищожено от форсиране."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "Устройство [%(device)s] е унищожено от премахването на регулатора на скоростта."
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "Пожарът е потушен."
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "Изстрел на %(entity)s рани [%(device)s]."
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] отново работи."
+
+msgid "player_messages/allied_team_name"
+msgstr "Нашият отбор"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "Завладяване на нашата база%s (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "Базата%s ни е завладяна!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "Завладяването на база е блокирано"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "Завладяване на базата%s (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "База%s е завладяна!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "Завладяване на вражеската%s база (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "Вражеската база%s е завладяна!"
+
+msgid "player_messages/enemy_team_name"
+msgstr "Вражеският отбор"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "Вашият съюзник %(name)s използва техническо умение %(equipment)s"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "Врагът използва техническо умение %(equipment)s"
+
+msgid "player_messages/postmortem_caption"
+msgstr "Играч %(name)s (%(type)s); Живот: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "Играч: %(name)s; точки живот: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "Вашата машина (%(type)s) е унищожена"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "Стрелбата е невъзможна: няма снаряди."
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "Управление на възпроизвеждането:"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "ляв бутон мишка: превключване между режими на камери\nSpace: пауза"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "Стрелка наляво: превърта назад 20 секунди (със Ctrl: 40 секунди)\nСтрелка надясно: превърта напред 20 секунди (със Ctrl: 40 секунди)\nHome/End: прескача в началото/в края\nСтрелка нагоре/стрелка надолу: +/- скорост на възпроизвеждане"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "Свободната камера е активирана."
+
+msgid "player_messages/replayPaused"
+msgstr "Пауза"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "Фиксираната камера е активирана."
+
+msgid "player_messages/replaySpeedChange"
+msgstr "Скорост на възпроизвеждане: %(speed)sx"
+
+msgid "player_messages/tank_in_fire"
+msgstr "Танкът гори!"
+
+msgid "players_panel/state/large/body"
+msgstr "Покажи името на играча, убийствата му, иконата и името на танка"
+
+msgid "players_panel/state/large/header"
+msgstr "Пълен панел"
+
+msgid "players_panel/state/large/note"
+msgstr "(Натисни Ctrl + Tab за превключване между режимите)"
+
+msgid "players_panel/state/medium/body"
+msgstr "Покажи името на играча, убийствата му и иконата на танка"
+
+msgid "players_panel/state/medium/header"
+msgstr "Среден"
+
+msgid "players_panel/state/medium/note"
+msgstr "(Натисни Ctrl + Tab за превключване между режимите)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "Покажи убийствата на играча, име и иконата на танка му."
+
+msgid "players_panel/state/medium2/header"
+msgstr "Среден 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(Натисни Ctrl + Tab за превключване между режимите)"
+
+msgid "players_panel/state/none/body"
+msgstr "Скрий отборните панели"
+
+msgid "players_panel/state/none/header"
+msgstr "Без панел"
+
+msgid "players_panel/state/none/note"
+msgstr "(Натисни Ctrl + Tab за превключване между режимите)"
+
+msgid "players_panel/state/short/body"
+msgstr "Покажи убийствата и иконите на танковете"
+
+msgid "players_panel/state/short/header"
+msgstr "Кратък панел"
+
+msgid "players_panel/state/short/note"
+msgstr "(Натисни Ctrl + Tab за превключване между режимите)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "Враг"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "Esc > Обратно в Парка."
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "Влезте в битка с друга машина."
+
+msgid "postmortem/tips/freecam/button"
+msgstr "SPACE"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "Свободна камера"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "Активирай свободна камера."
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "Свободната камера не е достъпна"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "Не може да се активира свободна камера в този режим."
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "Режим на зрител"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "Прехвърляне между танковете на съюзниците."
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "Следвай машина"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "Насочете курсора към машината на съюзник и щракнете с левия бутон, за да го последвате."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "Машината е унищожена от основната цел"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Машината е унищожена от артилерийски залп."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "Машината е унищожена от основната цел"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "Машината е унищожена от въздушен удар"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "Машината е унищожена от мародер."
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "Машината е унищожена от боен робот."
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "Машината е унищожена от киселинен снаряд."
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Машината е унищожена в забранена зона от съюзник"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Машината е унищожена в забранена зона"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Не успяхте да напуснете опасната зона"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Устройство [%(device)s] е унищожено от пожар"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Устройство [%(device)s] експлоадира при изстрел на играча"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Машината е потопена от съюзник"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Машината потъна"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Машината потъна"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "Машината беше подпалена от играч"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "Машината е унищожена от огнен пръстен."
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Екипажът е извън строя след изстрел на играч"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Екипажът е извън строя след силен сблъсък със съюзник"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Екипажът е извън строя след силен сблъсък"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Екипажът е извън строя след силен сблъсък"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "Машината е унищожена от кълбовидна мълния."
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Машината е унищожена на минно поле"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "Машината е унищожена от мини"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Машината е преобърната от съюзник"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Машината е преобърната от враг"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Машината е унищожена при преобръщане"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Машината е унищожена от таран на съюзник"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Машината е унищожена от таран"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Машината е унищожена от таран"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "Вашата машина е унищожена"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Машината е унищожена от бомбардировка."
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Машината е унищожена от артилерийски залп."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "Машината е унищожена от изстрел на играча"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "Машината е унищожена от въздушен удар."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "Машината е унищожена от въздушен удар."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Машината е унищожена от артилерийски залп"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Машината е унищожена от въздушен удар"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Машината е унищожена от зоната на унищожение"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "Машината е унищожена от електрически разряд."
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Машината е разбита от съюзник"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Машината е разбита от враг"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Машината се разби"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "Вашата машина е унищожена"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "Избраната конфигурация се използва в битка:"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "Изберете конфигурация, която ще бъде използвана в битка, преди края на отброяването."
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "Изберете конфигурация"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "Избор на конфигурация: {seconds} сек."
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "Избор на конфигурация:"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "Пролом"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "Обзор"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "Гора"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "Пътека"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "Улица"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "Руини"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "Мост"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "Жп. линия"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "Град"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "Село"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "Площад"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "Завод"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "Хълм"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "Фар"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "Център"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "Замък"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "Вятърна мелница"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "Планини"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "Маршрут A"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "Маршрут B"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "Маршрут C"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "Маршрут D"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "Маршрут E"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "Долина"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "Ледник"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "Обход"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "Хълмове"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "Път"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "Планина"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "Бункер"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "Алея"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "Стена"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "Камъни"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "Цехове"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "Поле"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "Хангар"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "Въглища"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "Кораби"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "Самолетоносач"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "Окопи"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "Серпантина"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "Север"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "Юг"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "Запад"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "Изток"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "Хребет"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "Дирижабъл"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "Складове"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "Бряг"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "Река"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "Езеро"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "Блато"
+
+msgid "quickReply/hint/press"
+msgstr "Натиснете"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr ", за да потвърдите"
+
+msgid "quickReply/hint/toCommend"
+msgstr ", за да похвалите в отговор"
+
+msgid "quickReply/hint/toHelp"
+msgstr ", за да помогнете"
+
+msgid "quickReply/hint/toThank"
+msgstr ", за да благодарите"
+
+msgid "recovery/cooldown"
+msgstr "Ще можете да изоставите машината след %(cooldown)s сек."
+
+msgid "recovery/hint1"
+msgstr "Задръжте"
+
+msgid "recovery/hint2"
+msgstr "за изоставяне на машината"
+
+msgid "repairPoint/title"
+msgstr "Ремонт"
+
+msgid "repairPoint/unavailable"
+msgstr "Недостъпен"
+
+msgid "respawnView/additionalTip"
+msgstr "Изберете машина, за да продължите. Ако всички машини са за ремонт, ще продължите битката с първата достъпна машина."
+
+msgid "respawnView/additionalTipLimited"
+msgstr "Изберете машина, за да продължите. Унищожената машина не може да бъде ремонтирана до края на битката."
+
+msgid "respawnView/classNotAvailable"
+msgstr "Достигнат е лимитът\nна направления"
+
+msgid "respawnView/cooldownLbl"
+msgstr "В ремонт %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "Унищожено"
+
+msgid "respawnView/disabledLbl"
+msgstr "Машината е недостъпна"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "Не е избрана подходяща машина"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "В групата няма машина ниво Х."
+
+msgid "respawnView/nextVehicleName"
+msgstr "Битката продължава на "
+
+msgid "respawnView/title"
+msgstr "Изберете машина"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "ТЪЙ ВЯРНО!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "Благодарим ви за участието в развитието на World of Tanks! Високо ценим вашия личен принос!"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "Благодарствено писмо"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "Получихте награда!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "Поздравления!"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "Тъй вярно!"
+
+msgid "rewardWindow/base/descText"
+msgstr "Получени са награди"
+
+msgid "rewardWindow/base/headerText"
+msgstr "Поздравления"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "Получени са награди"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "Пакет Индия"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "Пакет Джулиет"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "Към кутиите"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "Получихте големи кутии с ценни награди."
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "Получихте кутии!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "За изпълнение на мисии получихте малки кутии с ценни награди."
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "Време е да разберете какво има вътре!"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "Тъй вярно!"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "Натрупването на кредити е спряно. Удължете Танковия премиум акаунт, за да продължите да попълвате вашето Хранилище за кредити."
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "Получени са кредити"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "Хранилището за кредити е отворено"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "Поздравления!"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "ТЪЙ ВЯРНО!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "Поздравления, получихте специални припаси, включени в Prime Gaming. Сега я използвайте на бойното поле."
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "Пакет Делта"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "Получихте награда!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "НАЗНАЧЕТЕ Я СЕГА!"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "Поздравления, получихте нов специален командир, включен в Prime Gaming."
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "Пакет Алфа"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "Получихте награда!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "ТЪЙ ВЯРНО!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "Пакет Боен пропуск"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "ТЪЙ ВЯРНО!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "Пакет Космос"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "ТЪЙ ВЯРНО!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "Пакет Звездна нощ"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "Още"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "Пакет \"Юни\""
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "Пакет \"Юли\""
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "Още"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "Пакет \"Десетка\""
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "World of Tanks: Набор \"Старлайт\""
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "Набор Кралица Мейв"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "Колекция \"Целувка под имела\""
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "Още"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "Пакет \"Голям улов\""
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "ТЪЙ ВЯРНО!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "Поздравления, получихте специални припаси, включени в Prime Gaming. Сега я използвайте на бойното поле."
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "Пакет Чарли"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "Получихте награда!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "Пакет \"G.I. JOE: Дюк\""
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "Пакет \"G.I. JOE: Кобра\""
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "Още"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "Пакет \"Танк рок\""
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "Пакет \"Безшумна ловджийка\""
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "Още"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "Пакет \"Прясна боя\""
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "Още"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "Пакет \"Лятно настроение\""
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "Пакет \"Високо напрежение\""
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "Още"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "Пакет \"Сладост или гадост\""
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "Викинги сред нас"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "Още"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "Пакет \"Нов старт\""
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "Специален пакет \"Ехо\""
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "Още"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "Ретро вълни"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "Адепта Сороритас"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "Най-добър стрелец"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "Получихте уникална награда за абонамента: Prime Gaming"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "Дизелово-електрически"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "Готов за битка"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "Давайте, Хрътки!"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "Кинжал"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Получихте уникална награда за абонамента: Prime Gaming"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "Вещерство"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "Часът на ковъна"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "Дошъл си в грешния квартал"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "Ухапи ме!"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "Получихте уникална награда за абонамента: Prime Gaming"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ференц"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "Начален сигнал"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "Победен гол"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "Вечна класика"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Получихте уникална награда за програмата: Prime Gaming"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "Празнично облекло"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "Очарователен подарък"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "Тежък подарък"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "Двоен празник"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "Изберете награди"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Получихте уникална награда за абонамента: Prime Gaming"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "Прекрасният нов свят"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "Окото на наблюдателя"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "Анатомия на киборга"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "Вие сте забелязани"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "Пакет Фокстрот"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "Пакет Голф"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "Пакет Хотел"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "Пакет Кило"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "Пакет Лима"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "Набор"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "Поздравления! Получихте специална доставка, включена в Prime Gaming. Сега я използвайте добре."
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "Пакет Майк"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "Наградата е получена"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "Тъй вярно!"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "Членовете на вашия клан разчитат на по-нататъшното ви участие\nв напредъка през Бойния поход."
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "Получен е трофей!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "Към Боен поход"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "Боен поход"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "Тъй вярно!"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "Членовете на вашия клан разчитат на по-нататъшното ви участие\nв напредъка през Бойния поход."
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "Получена е награда!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "Към Боен поход"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "Боен поход"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "Поздравления!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "Нашият взвод"
+
+msgid "scorePanel/playerScore"
+msgstr "Вашият принос:"
+
+msgid "scorePanel/squadLbl"
+msgstr "Взвод %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s мм бронебоен снаряд %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s мм бронебоен подкалибрен снаряд %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s мм бронебоен високоексплозивен снаряд %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s мм осколъчно-фугасен снаряд %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s мм кумулативен снаряд %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "Средни поражения: %(value)s ТЖ"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "Поражения на секунда: %(value)s живот/сек"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "Радиус на поражения: %(value)s м."
+
+msgid "shells_kinds/params/header"
+msgstr "Пълно / Еднократно зареждане"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "Средна бронебойност: %(value)s mm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "Скорост на снаряда: %(value)s m/s"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "Продължителност на зашеметяване: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "за превключване в обсаден режим"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "за превключване в походен режим"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "Основните клавиши не са зададени"
+
+msgid "siegeMode/hint/press"
+msgstr "Натиснете"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "за активиране на бустери за течно гориво"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "за активиране на реактивни ускорители"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "за активиране на последователни ракетни двигатели"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "Ударете вражеска машина, за да получите допълнителен ефект от лазерния целеуказател"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "за смяна на режима на работа на двигателя"
+
+msgid "siegeMode/hint/twinGun"
+msgstr ", за да смените режима на стрелба"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "за смяна на режима на движение"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "за активиране на асистента на турбокомпресора"
+
+msgid "spotted/indicator"
+msgstr "Времето открити и получените поражения са увеличени"
+
+msgid "spotted/seconds"
+msgstr "сек"
+
+msgid "statistics/exit"
+msgstr "Натисни Esc за връщане в парка..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "Унищожен: %s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "Завладяване на базата: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "Повредил:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "Изстрели в целта: %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "Получени попадения: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "Защита на базата: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "Унищожил:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(посмъртно)"
+
+msgid "statistics/final/personal/shots"
+msgstr "Произведени изстрели: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "Открил:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "Всички съюзнически танкове са унищожени."
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "Всички танкове са унищожени!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "Всички вражески танкове са унищожени."
+
+msgid "statistics/final/reasons/reason2"
+msgstr "Базата е завладяна!"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "Времето изтече!"
+
+msgid "statistics/final/stats/credits"
+msgstr "Кредити:"
+
+msgid "statistics/final/stats/experience"
+msgstr "Опит:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "Опит (x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "Ремонт:"
+
+msgid "statistics/final/status/lose"
+msgstr "Поражение! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "Реми! %s"
+
+msgid "statistics/final/status/win"
+msgstr "Победа! %s"
+
+msgid "statistics/header"
+msgstr "Статистика за битката"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "Играч"
+
+msgid "statistics/headers/header2"
+msgstr "Машини"
+
+msgid "statistics/headers/header3"
+msgstr "Състояние"
+
+msgid "statistics/headers/header4"
+msgstr "Унищожени"
+
+msgid "statistics/playerState/0"
+msgstr "унищожен"
+
+msgid "statistics/playerState/1"
+msgstr "извън битката"
+
+msgid "statistics/playerState/2"
+msgstr "унищожен"
+
+msgid "statistics/playerState/3"
+msgstr "в битка"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "Състав"
+
+msgid "statistics/tab/line_up/title"
+msgstr "Състав на отбора"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "Лични резерви"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "Активиране на лични резерви"
+
+msgid "statistics/tab/quests/header"
+msgstr "Мисии"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "Личните мисии са недостъпни в този игрови режим"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "Отидете в полето \"Кампания\" в Парка, за да изберете мисия"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "Нямате активни мисии за тази машина"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "Основните условия са изпълнени"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "Всички мисии са изпълнени"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "Започната"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "Подобрение на резултата"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "Поставена на пауза"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "Показването на напредъка по мисии е недостъпно"
+
+msgid "statistics/tabs/group"
+msgstr "Отборни постижения"
+
+msgid "statistics/tabs/heroes"
+msgstr "Герои на битката"
+
+msgid "statistics/tabs/personal"
+msgstr "Лични постижения"
+
+msgid "statistics/team1title"
+msgstr "Нашият отбор"
+
+msgid "statistics/team2title"
+msgstr "Вражеският отбор"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "Напуснете\nзоната на унищожение!"
+
+msgid "stun/indicator"
+msgstr "Екипажът е зашеметен"
+
+msgid "stun/seconds"
+msgstr "сек"
+
+msgid "tabStatsHint"
+msgstr "- Статистика"
+
+msgid "tankmen/commander"
+msgstr "Командир"
+
+msgid "tankmen/driver"
+msgstr "Водач"
+
+msgid "tankmen/gunner"
+msgstr "Мерач"
+
+msgid "tankmen/loader"
+msgstr "Пълнач"
+
+msgid "tankmen/radioman"
+msgstr "Радист"
+
+msgid "timer/battlePeriod"
+msgstr "До края:"
+
+msgid "timer/started"
+msgstr "Битката започва!"
+
+msgid "timer/starting"
+msgstr "Битката започва след:"
+
+msgid "timer/waiting"
+msgstr "Чакат се играчи..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "Натиснете"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "за смяна на режима на прицелване"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "Основните клавиши не са зададени"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Машината беше унищожена от съюзник %(entity)s в забранена зона."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Машината беше унищожена от %(entity)s в забранена зона."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Машината е унищожена от опасната зона."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Машината беше потопена от съюзник %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Машината беше потопена от %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Машината потъна."
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "Танкът е унищожен от пожара."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Машината е унищожена от съюзник %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Машината е унищожена от %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Екипажът е извън строя заради удар със съюзник %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Екипажът е извън строя заради удар с враг %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Екипажът е извън строя заради удар."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Машината е преобърната от съюзник %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Машината е преобърната от враг %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Машината е унищожена при преобръщане"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Съюзник %(entity)s унищожи машината с таран."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Враг %(entity)s унищожи машината с таран."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Машината беше унищожена с таран."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "Танкът е унищожен от изстрел на %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "%(entity)s унищожи машина с артилерийски залп."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "%(entity)s унищожи машина с бомбардировка."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Машината беше разбита от съюзник %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Машината беше разбита от враг %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Машината се разби."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "Съюзник %(entity)s повреди устройство [%(device)s] с таран."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "Съюзник %(entity)s повреди устройство [%(device)s] с таран."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Устройство [%(device)s] е повредено от таран."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "Враг %(entity)s повреди устройство [%(device)s] с таран."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "Враг %(entity)s повреди устройство [%(device)s] с таран."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "Устройство [%(device)s] е повредено от таран."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Удар със съюзник %(entity)s повреди устройство [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Удар със съюзник %(entity)s повреди устройство [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Устройство [%(device)s] е повредено в резултат на удар."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Удар с враг %(entity)s повреди устройство [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Удар с враг %(entity)s повреди устройство [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Устройство [%(device)s] е повредено в резултат на удар."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Устройството [%(device)s] е унищожено на минното поле."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Устройството [%(device)s] е унищожено на минното поле."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "Съюзник %(entity)s унищожи устройство [%(device)s] с таран."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "Съюзник %(entity)s унищожи устройство [%(device)s] с таран."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Устройство [%(device)s] беше унищожено с таран."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "Враг %(entity)s унищожи устройство [%(device)s] с таран."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "Враг %(entity)s унищожи устройство [%(device)s] с таран."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "Устройство [%(device)s] беше унищожено с таран."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Удар със съюзник %(entity)s унищожи устройство [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Удар със съюзник %(entity)s унищожи устройство [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Устройство [%(device)s] беше унищожено от удар."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Удар с враг %(entity)s унищожи устройство [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Удар с враг %(entity)s унищожи устройство [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Устройство [%(device)s] беше унищожено от удар."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "Устройство [%(device)s] се запали поради таран от съюзник %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "Устройство [%(device)s] се запали поради таран от съюзник %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Устройство [%(device)s] се запали поради таран."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "Устройство [%(device)s] се запали поради таран от враг %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "Устройство [%(device)s] се запали поради таран от враг %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "Устройство [%(device)s] се запали поради таран."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] е ранен при удар със съюзник %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] е ранен при удар със съюзник %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] е ранен при удар."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] е ранен при удар с враг %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] е ранен при удар с враг %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] е ранен при удар."
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "Техническо умение %(equipment)s е активирано!"
+
+msgid "warning_zone/indicator"
+msgstr "Внимавайте! Вие сте близо до опасната зона."

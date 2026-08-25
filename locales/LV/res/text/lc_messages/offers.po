@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "Izvēlieties Balvas"
+
+msgid "banner/giftsAvailable"
+msgstr "Materiāli Piegādāti!"
+
+msgid "banner/giftsForOffer"
+msgstr "Balvas par piedalīšanos \"%(name)s\"."
+
+msgid "banner/selectNowOrLater"
+msgstr "Izvēlieties jūsu balvas tagad vai vēlāk Noliktavā."
+
+msgid "banner/title"
+msgstr "Mājas Materiāli"
+
+msgid "description/rentValue/battles"
+msgstr "uz kaujām: %(value)s"
+
+msgid "description/rentValue/days"
+msgstr "uz dienām: %(value)s"
+
+msgid "description/rentValue/wins"
+msgstr "uz uzvarām: %(value)s"
+
+msgid "giftDescription/tank/base"
+msgstr "Papildus izvēlētajam tankam, jūs arī saņemsiet %(items)s par brīvu."
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}apkalpi{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}apkalpi{neutralClose} un {neutralOpen}Garāžas vietu{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}Garāžas vieta{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "Atcelt"
+
+msgid "giftDialog/description/newRent"
+msgstr "%(tankName)s tiks nomāts %(rentValue)s"
+
+msgid "giftDialog/description/noRent"
+msgstr "%(tankName)s tiks nosūtīts uz Garāžu"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "%(tankName)s noma tiks pagarināta %(rentValue)s"
+
+msgid "giftDialog/submit"
+msgstr "Apstiprināt"
+
+msgid "giftDialog/title/common"
+msgstr "\"%(name)s\"\nSaņemšanas Apstiprināšana"
+
+msgid "giftDialog/title/tank"
+msgstr "Tanka Saņemšana"
+
+msgid "giftDialog/title/tankRent"
+msgstr "Tanka Noma"
+
+msgid "giftsWindow/availableCount"
+msgstr "Pieejamas: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "Pieejams caur: %(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "Pieejamās balvas: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "Garāžā"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "Atvērt par"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "Pirmsapskate"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value) kaujām"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value) d"
+
+msgid "giftsWindow/rent/title"
+msgstr "Noma uz: %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value) uzvarām"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "Iegūt"
+
+msgid "giftsWindow/tokens"
+msgstr "Pieejamas: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "Tokeni pieejami: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "Nav pieejams"
+
+msgid "rewardWindow/btnLabel"
+msgstr "Tieši tā!"
+
+msgid "rewardWindow/title"
+msgstr "Balvas Saņemtas"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "Saņemt!"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "Pagarināt Nomu!"
+
+msgid "tankPreview/description/newRent"
+msgstr "Bezmaksas %(tankName)s noma %(rentValue)s"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s ar apkalpi"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s ar apkalpi un Garāžas vietu"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s ar Garāžas vietu"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "Pagarināt %(tankName)s nomu %(rentValue)s"

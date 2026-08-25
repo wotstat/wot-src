@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Lehetővé teszi, hogy egy sor lövedéket egyesével lőj ki a tárból, az egyes lövedékek pedig idővel automatikusan újratöltődnek."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Lehetővé teszi, hogy egy sor lövedéket egyesével lőj ki a tárból, az egyes lövedékek pedig idővel automatikusan újratöltődnek. Bónuszt ad a következő lövedék töltési sebességéhez az újratöltés során."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Gyors sorozatokat lő ki, amelyekkel rövid idő alatt nagy sebzést okoz, de ez a páncélátütés és a pontosság rovására megy. Közelharcban a leghatékonyabb."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Barázdált lövedékeket lő ki, amelyek 50 m-en belül maximális sebzést okoznak. A lövedékek sebzése a távolsággal csökken, ezért közelharcban a leghatékonyabbak."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Egyedi hűtőrendszer, amely lehetővé teszi a kettős célzást: az újratöltés utáni várakozás révén a löveg pontosabban tüzel. A továbbfejlesztett pontosságot egy második, kisebb célzókör jelzi."
+
+msgid "abilities/common/description/dualGun"
+msgstr "Kettős lövegrendszer, amely képes mindkét csővel külön-külön vagy egyszerre tüzelni. A dupla lövések komoly sorozatsebzést okoznak, de hosszabb újratöltést igényelnek."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Lehetővé teszi a járműtest kitérítési szögének megváltoztatását, így a harc során több pozícióból is tüzelhetsz. Aktiválása különböző feltételektől függ."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "A kerekek helyzetének megváltoztatása révén jelentősen növeli a sebességet, de a manőverezhetőség rovására. Legjobban nagyobb távolságok leküzdésére és rohamszerű támadásokhoz használható."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Lehetővé teszi egy sor lövedék kilövését a tárból, mielőtt teljes újratöltésre lenne szükség. Magas sorozatsebzést okoz, de a jármű sebezhetővé válik az újratöltés során. Csak a teljes tárat lehet újratölteni."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "A löveg képes folyamatosan, újratöltés nélkül tüzelni. Minden lövés hőt termel: minél magasabb a löveg hőmérséklete, annál nagyobb mértékben változnak az egyes paraméterei. A folyamatos tüzelés a löveg túlmelegedéséhez vezet, ami megakadályozza a további tüzelést, amíg a löveg le nem hűl."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Növeli a motorteljesítményt és a végsebességet a csatatéren való gyors mozgáshoz. Aktiváláskor a sugárhajtóművek csökkentik a manőverezőképességet, és manuálisan nem kapcsolhatók ki."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "Aktiválásakor ez a speciális mód megnövel, illetve megváltoztat bizonyos harci paramétereket. Legjobb akkor aktiválni, amikor már a megfelelő pozícióban vagy, és készen állsz az ellenség megtámadására."
+
+msgid "abilities/common/description/stun"
+msgstr "Elkábítja az ellenséges járműveket egy bizonyos robbanási sugárban akár közvetlen találat nélkül is, ezzel rövid időre lerontja a mobilitásukat, a pontosságukat és az újratöltési idejüket. Az elkábított ellenségeket egy külön jelölő jelzi."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Csökkentett sebességgel mozgásban tartja a járművet, amikor a fő lánctalp megsemmisül. Egy további külső lánctalp elvesztése tovább csökkenti a mobilitást, de a jármű továbbra is képes lesz fordulni és mozogni."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "A fegyverkezelési paraméterek komoly csökkenése árán lehetővé teszi, hogy a jármű jelentősen gyorsabban haladjon."
+
+msgid "abilities/common/description/twinGun"
+msgstr "Aktiválásakor ez a speciális mód dupla sebzést okoz, és megnövel, illetve megváltoztat bizonyos harci paramétereket. Legjobban közelharcban használható."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Automata újratöltő"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "Fejlesztett automata újratöltő"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Gépágyú"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Mélyen huzagolt löveg"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Löveghűtés"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Dupla löveg"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Hidropneumatikus felfüggesztés"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Gyors mód"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Automata töltő"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Túlmelegedés-szabályozott gépágyú"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Sugárhajtóművek"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Ostrom mód"
+
+msgid "abilities/common/name/stun"
+msgstr "Kábítás"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Tartalék lánctalp"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Turbó mód"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Sortűz mód"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "Ha mozdulatlan maradsz vagy lassan mozogsz, pontossági szinteket építhetsz fel, amelyekkel megnöveled a következő lövésed pontosságát.\nA legmagasabb pontossági szinten közel tökéletes lövegkezelést kapsz csökkentett szórással, még mozgás vagy a torony/járműtest forgatása közben is."
+
+msgid "abilities/special/description/battleFury"
+msgstr "Minden alkalommal, amikor eltalálsz egy ellenséges járművet egy lövedékkel, újratöltési hatékonysági szintet szerzel, amely átmenetileg megnöveli a löveged újratöltési sebességét. A szintek minden egyes találattal gyarapodnak. \nHa megsemmisítesz egy ellenséges járművet egy lövéssel, akkor további újratöltési hatékonysági szinteket kapsz."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Ha betöltötted a löveged, elkezdheted felmelegíteni a következő lövésedet a megnövelt sebzésért – minél magasabb a hőszint, annál nagyobb a hatás.\nMaximális hőszinten néhány másodperced van tüzelni – ha nem lősz, átmenetileg nem fogsz tudni tüzelni."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Ha kétszer átütőd az ellenséges járművek páncélját, az aktiválja a Rövid sorozat módot. Ekkor a járműved egy sorozatlövő kazettát tölt be, amellyel a következő lövéseddel két lövedéket lőhetsz ki gyors egymásutánban, és ezzel hatalmas sebzést okozhatsz."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "A pneumatikus girostabilizátor maximális stabilizációt biztosít mozgás, illetve a járműtest és a torony forgatása közben, így pontosabban tüzelhetsz, valamint gyorsabban tudsz reagálni a hirtelen fenyegetésekre és hatékonyabban támadhatsz fedezékből."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "A rendszer automatikusan elkezdi az új kazetta betöltését, amikor a jelenlegi kazettában még egy lőszer van, így mindig készen állhatsz a harcra. Az utolsó lőszert ki tudod lőni a betöltés alatt, de ez néhány másodperccel meghosszabbítja a hátralévő újratöltési időt."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "A rendszer lehűti a löveget, rendkívül pontos tüzelést biztosítva. A löveg tüzeléskor felhevül, de újratöltés közben elkezd lehűlni, és visszatér a jobb paraméterekhez. Minél magasabb a löveg hőmérséklete, annál nagyobb mértékben változnak az egyes paraméterei."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "A korábbi modellek tervezési tapasztalataiból merítve, ezt a járművet kifejezetten a halálos ütközéses támadásokhoz alakították ki. A szerkezeti erősítések lehetővé teszik, hogy nagyobb sebzést okozhass, amikor nekiütközöl az ellenséges járműveknek, és kevesebb sebzést szenvedj el, ami előnyt jelent közelharcban."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "A jármű lövege korábban tud tüzelni: az újratöltés közben leadott egyszeri töltésű lövések csökkentett hatékonyságúak, míg az újratöltés után leadott, teljes töltésű lövések optimális ballisztikai paraméterekkel rendelkeznek."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "A löveg képes folyamatosan, újratöltés nélkül tüzelni. Minden lövés hőt termel: minél magasabb a löveg hőmérséklete, annál nagyobb mértékben változnak az egyes paraméterei. A folyamatos tüzelés a löveg túlmelegedéséhez vezet, ami megakadályozza a további tüzelést, amíg a löveg le nem hűl."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Maradj mozdulatlan vagy mozogj lassan az előmelegítéshez, amely növeli a következő lövésed sebzését és pontosságát. Ha maximális előmelegítés mellett átütöd egy olyan ellenséges jármű páncélzatát, amelynek kevesebb életereje van, mint az átlagsebzésed, akkor felrobban a jármű lőszerrekesze és megsemmisül."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Ez a mód egy megerősített lövegállássá alakítja a járművedet, ami kiváló pontosságot és gyorsabb újratöltést biztosít számodra. A megnövelt tűzerőért cserébe a jármű mozgékonysága – az előre- és hátrameneti sebesség, a függőleges döntés és a vízszintes forgás – erősen lecsökken."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Ez a mód jelentősen növeli a motorteljesítményt és a végsebességet. Minél tovább mész előre, annál nagyobb sebességet érhetsz el, így könnyedén végigszáguldhatsz a csatatéren, és nagy távolságokat tehetsz meg."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "A rendszer idővel felhalmoz egy töltést, és minél magasabb a töltés szintje, annál nagyobb bónuszt ad a sebzésre. A töltés szintjét egy korlátozó szabályozza, amely kikapcsolható a még nagyobb sebzésbónusz érdekében, azonban ez a löveg kezelhetőségének romlásával jár."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "A folyékony üzemanyagú hajtóműveket bármikor aktiválhatod, ha nagyobb sebességre van szükséged. A hajtóművek felmelegednek, és le kell hűlniük, mielőtt újra használhatnád őket, a kritikus hőmérsékleti szint átlépése pedig átmenetileg teljesen kikapcsolja őket."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Szilárd üzemanyaggal működő hajtóművek, amelyek néhány másodpercre növelik a gyorsulást, a mobilitást és a manőverezhetőséget. A bal és jobb oldali hajtóművek egymástól függetlenül működtethetők a járműtest gyorsabb forgatásához, és nem korlátozzák a tolatási képességet."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "Az aktív üzemmódtól és a töltési szinttől függően a jármű kétféle képességet aktiválhat: \nIonkisüléses utánégető: Növeli a motor teljesítményét és a sebességet. \nKépfedéses elektromechanikus célkereszt: Csökkenti a szórást és az újratöltési időt, valamint javítja a pontosságot."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Ezzel a modullal a harcban maradhatsz, mivel bármikor megszakíthatod az újratöltést, ha legalább egy lőszer be van töltve. Nyomd meg a gyorsbillentyűt az újratöltés leállításához, rövid késleltetés után tüzelj, majd folytasd az újratöltést manuálisan, vagy hagyd, hogy a tár automatikusan újratöltsön, amikor kiürül!"
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Az aktiváló gomb megnyomásával a jármű kiegészítő fegyverei tüzet nyitnak a célpontra. A kiegészítő fegyverzetnek saját újratöltési ciklusa van, függetlenül a fő lövegtől."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "A következő lövésed az ellenség felderítettségi állapotától függően egy különleges hatást fejt ki. Ha egy felderített ellenséget találsz el, akkor megjelölöd azt – hosszabb ideig marad felderítve, és több sebzést kap. Ha egy felderítetlen ellenséget találsz el, akkor egy speciális jelölő megmutatja a helyzetét."
+
+msgid "abilities/special/description/twinGun"
+msgstr "Kétszeres sebzést és jobb stabilizációt kínál a mobilitás, a pontosság, a toronyforgási sebesség és a célzási idő rovására. Legjobb közelharcban használni."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Ez a mechanikai módosítás rövid időre jelentősen növeli a jármű gyorsulását, motorteljesítményét, valamint a vég- és a tolatási sebességét egyaránt, így gyorsan reagálhatsz az ellenséges támadásokra, és meglepheted az ellenséget dinamikus manőverekkel."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Analóg ballisztikus számítási eszköz"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Félautomata lőszerrekesz"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Termo-ballisztikus túltöltés"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Rövid sorozat mód"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Pneumatikus girostabilizátor"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Kazettás töltőrendszer"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Aktív löveghűtés"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Ütközési konfiguráció"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "Többcsomagos töltési rendszer"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Túlmelegedés-szabályozott gépágyú"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "Hajtóanyag-hőszabályozó rendszer"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Bunker mód"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Közvetlen meghajtás"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "Indukciós hajtóanyag-utánégető"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Folyékony üzemanyagú hajtóművek"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "Szekvenciális rakétahajtómű"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Taktikai erőcsomag"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Külső lőszerellátó modul"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Kiegészítő fegyverzet"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Lézeres célmegjelölő"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Sortűz mód"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Nagynyomású turbótöltő-rásegítés"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Megnöveli a következő lövésed pontosságát, remek stabilizálással, teljesen kalibrálva."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Minden ellenséges járművet érő találat korlátozott ideig megnöveli a löveg újratöltési sebességét."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Növeli a hőszintet, hogy a következő lövéseddel nagyobb sebzést okozz az ellenséges járműveknek."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "Egy sorozatlövő-kazetta, amellyel két lövedéket lőhetsz ki gyors egymásutánban."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Maximalizálja a stabilizációt mozgás és forgás közben a pontosabb tüzelés érdekében."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Automatikusan elkezdi az újratöltést az utolsó lőszernél, amelyet még kilőhetsz az újratöltés közben."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "Aktív löveghűtő rendszer, amely javítja a pontosságot a löveg lehűlése során."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Megnöveli az ellenséges járműveknek ütközéssel okozott sebzést."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "Különleges lövegmechanika, amellyel korábban tüzelhetsz a lövés hatékonyságának rovására."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "A rendszer lehetővé teszi a folyamatos tüzelést újratöltés nélkül, és szabályozza a löveg hőtermelését tüzelés közben."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "A mozdulatlanság vagy a lassú mozgás növeli a következő lövés sebzését és pontosságát."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Drasztikusan növeli a löveg pontosságát és az újratöltési sebességet, de erősen korlátozza a jármű mobilitását."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Növeli a motor teljesítményét, és menet közben folyamatosan növeli a végsebességet."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "A rendszer feltöltődik, hogy növelje a sebzésedet. Minél magasabb a töltés szintje, annál nagyobb lesz a sebzés."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "A hajtóművek bármikor aktiválhatók, hogy egy hirtelen sebességlöketet biztosítsanak."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "Szilárd üzemanyaggal működő hajtóművek, amelyek növelik a gyorsulást, a mobilitást és a manőverezhetőséget."
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Feltölti a két egyedi képesség egyikét, növelve a sebességet vagy javítva a löveg pontosságát."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "Lehetővé teszi, hogy kritikus pillanatokban megszakítsd az újratöltést és visszalőhess."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Néhány kiegészítő fegyver, amelyek megnövelt tűzerőt biztosítanak a fő löveg mellett."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Növeli az ellenségek felderítettségi idejét és az általuk elszenvedett sebzést, vagy megjelöli őket egy különleges jelölővel."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Lehetővé teszi az egyidejű tüzelést mindkét löveggel, az újratöltési idő megnövekedése árán."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "Egy különleges mechanika, amely rövid időre megnöveli a jármű motorteljesítményét, gyorsulását és végsebességét."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Ha mozdulatlan maradsz, vagy egy bizonyos sebesség alatt haladsz, a járműved képes bekalibrálni az analóg ballisztikai számítógépet, amely javítja a következő lövésed pontosságát. Ha túlléped a sebességhatárt, a pontosság javulása szünetel, amíg le nem lassítasz. A legmagasabb pontossági szinten a járműved jó lövegstabilizálásra tesz szert, ami csökkenti a mozgásból vagy a torony és a járműtest forgásából eredő szórást. A hatás tüzeléskor megszűnik."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "Minden alkalommal, amikor eltalálsz egy látható ellenséges járművet egy lövedékkel, újratöltési hatékonysági szintet szerzel, amely átmenetileg megnöveli a löveged újratöltési sebességét. A szintek minden lövéssel halmozódnak, ha pedig megsemmisítesz egy ellenséges járművet egy lövedékkel, akkor további újratöltési hatékonysági szinteket kapsz."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Ha a löveged be van töltve, elkezdheted előmelegíteni a következő lövésedet. Minél magasabb hőszintet érsz el, annál nagyobb lesz az átlagos sebzésre kapott bónusz. Az előmelegítés során nem válthatsz lőszert. Amikor eléred a maximális hőszintet, elindul egy visszaszámlálás. Ha a visszaszámlálás vége előtt nem adsz le lövést, néhány másodpercig nem tüzelhetsz."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Két, az ellenséges járművek páncélját átütő találattal aktiválod a Rövid sorozat módot. Ekkor a járműved egy sorozatlövő kazettát tölt be, amellyel a következő tüzeléskor két lövedéket lőhetsz ki gyors egymásutánban."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "A pneumatikus girostabilizátor rövid időre maximális stabilizációt biztosít a járműtest és a torony forgatása közben, lehetővé téve a pontosabb tüzelést menet közben és a hirtelen fenyegetésekre való gyors reagálást."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "A rendszer automatikusan elkezd betölteni egy új kazettát, amikor az aktuális kazettában már csak egy lőszer maradt. Ha az utolsó lőszer kilövése közben az új kazetta betöltése folyamatban van, az több másodperccel meghosszabbítja a fennmaradó újratöltési időt. A „Lőszertároló újratöltése” gyorsbillentyű lenyomásával az utolsó kivételével az összes megmaradt lőszert elveted. A gyorsbillentyű kétszeri lenyomásával visszaállíthatod a teljesen feltöltött kazettát."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "A rendszer lehűti a löveget, rendkívül pontos tüzelést biztosítva. A löveg tüzeléskor felhevül, de újratöltés közben elkezd lehűlni, és visszatér a jobb paraméterekhez. Minél magasabb a löveg hőmérséklete, annál nagyobb mértékben változnak az egyes paraméterei."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Ezt a járművet kifejezetten az ütközéses támadásokra konfigurálták, egy sor olyan módosítással, amelyek segítségével több sebzést tud okozni az ellenséges járműveknek ütközéssel."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "A jármű lövege korábban tud tüzelni: az újratöltés közben leadott egyszeri töltésű lövések csökkentett hatékonyságúak, míg az újratöltés után leadott, teljes töltésű lövések optimális ballisztikai paraméterekkel rendelkeznek."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "A löveg képes folyamatosan, újratöltés nélkül tüzelni. Minden lövés hőt termel: minél magasabb a löveg hőmérséklete, annál nagyobb mértékben változnak az egyes paraméterei. A folyamatos tüzelés a löveg túlmelegedéséhez vezet, ami megakadályozza a további tüzelést, amíg a löveg le nem hűl."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "Ha mozdulatlan maradsz, vagy egy bizonyos sebesség alatt haladsz, elkezdődik az előmelegítés, ami növeli a következő lövésed átlagos sebzését és pontosságát. A sebességhatár túllépése fokozatosan csökkenti a bónuszt, míg a lövés vagy a lőszerváltás azonnal visszaállítja azt. Ha maximális előmelegítési szinten átütöd egy olyan ellenséges jármű páncélzatát, amelynek életereje alacsonyabb, mint az átlagos sebzésed – beleértve a felhalmozott előmelegítési bónuszt is –, az felrobbantja a jármű lőszerrekeszét, így a célpont azonnal megsemmisül."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "Ebben a módban a löveg pontossága, újratöltési sebessége, valamint lövegkitérítési szögei jelentősen megnőnek, viszont a jármű mobilitása (a vég- és a tolatási sebessége, valamint a függőleges döntési és vízszintes forgási sebessége) jelentősen korlátozott. A százalékos értékeket az Ostrom módhoz képest adtuk meg."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "A közvetlen meghajtás mód jelentősen növeli a motorteljesítményt és a végsebességet. Minél tovább mész előre, annál nagyobb sebességet érhetsz el, így könnyedén végigszáguldhatsz a csatatéren."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "Idővel a rendszer automatikusan felhalmoz egy töltést, amelyet tüzeléskor részben felhasznál a sebzés növelése érdekében. Minél nagyobb a töltés, annál nagyobb a bónuszsebzés. Alapértelmezés szerint a rendszer csak egy bizonyos határig tudja eltárolni a töltést. A korlátozó kikapcsolásával még nagyobb töltést halmozhatsz fel, ami sokkal nagyobb sebzésbónuszt biztosít, de rontja a löveg kezelhetőségét."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "A folyékony üzemanyagú hajtóművek olyan motorteljesítmény-löketet biztosítanak, amellyel pozíciós előnyre tehetsz szert a csatatéren – de korlátozzák a jármű tolatási és forgási sebességét. A hajtóműveket bármikor be- és kikapcsolhatod, kivéve, ha elérik az újraaktiválási korlátot. A hajtóművek használat esetén felmelegszenek, és nem használhatod őket, amíg le nem hűlnek, úgyhogy nem működhetnek folyamatosan – a kritikus hőmérsékleti szint átlépése ideiglenesen teljesen kikapcsolja őket. Gondosan tervezd meg a lépéseidet, hogy sose maradj védtelenül!"
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "A szilárd üzemanyagú hajtóművek néhány másodpercre növelik a jármű gyorsulását, mobilitását és manőverezhetőségét. A hagyományos hajtóművekkel ellentétben a bal és jobb oldali hajtóművek egymástól függetlenül működtethetők a járműtest gyorsabb forgatása érdekében, valamint így nem korlátozzák a tolatási képességet. Csatánként többször is használhatod őket, de az újraaktiválásukhoz meg kell várnod a visszatöltési idejüket."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "Az aktív üzemmódtól és a töltési szinttől függően a jármű kétféle képesség egyikét aktiválhatja: az ionkisüléses utánégetőt vagy a képfedéses elektromechanikus célkeresztet.\nAz ionkisüléses utánégető átmenetileg megnöveli a jármű motorteljesítményét, végsebességét és tolatási sebességét. A képfedéses elektromechanikus célkereszt átmenetileg megnöveli a löveg pontosságát, és csökkenti az újratöltési idejét."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "A külső lőszerellátó modullal megszakíthatod az újratöltést, és bármikor tüzelhetsz, amíg legalább egy lőszer be van töltve. Az újratöltés alatt a modul zárolja a jármű tornyát és külső lőszertárolóit, és ideiglenesen megakadályozza a célzást és a tüzelést, hacsak meg nem szakítod a folyamatot."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "A jármű egy sor kiegészítő fegyverrel van felszerelve, amelyek saját, a fő lövegtől független újratöltési ciklussal rendelkeznek, és amelyekkel extra sebzést okozhatsz a kulcsfontosságú pillanatokban."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "A lézeres célmegjelölő speciális hatással ruházza fel a következő lövésedet, amely minden eltalált ellenségre kihat. A hatás attól függően változik, hogy az ellenség a találat pillanatában fel volt-e derítve. Ha egy felderített ellenséges járművet találsz el, azzal megjelölöd, ami meghosszabbítja a felderítettségi idejét, és megnöveli a járműnek lövésekkel okozott sebzést, míg ha egy felderítetlen ellenséges járművet találsz el, akkor egy különleges jelölő felfedi a helyzetét."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "Kétszeres sebzést és jobb stabilizációt kínál a mobilitás, a pontosság, a toronyforgási sebesség és a célzási idő rovására. Közelharcban használható a leghatékonyabban."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Ez a mechanikai módosítás rövid időre jelentősen megnöveli a jármű gyorsulását, motorteljesítményét, valamint a vég- és a tolatási sebességét, így gyorsan reagálhatsz az ellenséges támadásokra, és meglepheted az ellenséget dinamikus manőverekkel. A magas sebesség fenntartása felgyorsítja a mechanika visszatöltését."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Az itt feltüntetett értékek a járművel elérhető maximális értékek. A felszerelések, a direktívák és a fogyócikkek módosíthatják ezeket az értékeket, de ezek a változások itt nem jelennek meg."
+
+msgid "characteristics/templates/upTo"
+msgstr "Akár %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Vásárlás és felszerelés"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Harctéri módosítás"
+
+msgid "modules/controls/button/mount"
+msgstr "Felszerel"
+
+msgid "modules/controls/button/research"
+msgstr "Fejlesztés"
+
+msgid "modules/controls/button/sell"
+msgstr "Eladás a depóból"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Ez a jármű csatában van. Moduljait a csata végeztével módosíthatod."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Ez a jármű sérült. Javítsd meg, hogy módosítani tudd a moduljait."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Nem sikerült felszerelni a modult. Nem kompatibilis {{module}}."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Ez a jármű egy taktikai egységben van."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "Vásárold meg ezt a járművet a moduljai módosításához."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "Fejleszd ki az előző modulokat, hogy kifejleszthesd ezt a modult."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "Fejleszd ki ezt a járművet, hogy kifejleszthesd a moduljait."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Az összes modul ki lett fejlesztve."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Ez a modul már fel van szerelve."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Válassz egy kifejlesztendő modult vagy járművet."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Ez a jármű csatában van. Moduljait a csata végeztével módosíthatod."
+
+msgid "modules/controls/name"
+msgstr "Kiválasztott: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Alváz"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Motor"
+
+msgid "modules/name/vehicleGun"
+msgstr "Löveg"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Rádió"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Torony"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Kerekek"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Gyűjtői járművek"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Megszerezhető"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "kredit minden csatáért"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "legénységáthelyezés büntetés nélkül"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "harci és legénységi tapasztalat"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Kötvények"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Több"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Ingyen"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Több"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Szerezz kötvényeket"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Több kredit"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Ingyenes áthelyezés"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Több tapasztalat"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Ingyen javítókészlet"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Megszerezhető"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "kredit minden csatáért"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "legénységáthelyezés bármelyik járműosztályból büntetés nélkül"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "harci és legénységi tapasztalat"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "kötvények"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Több"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Ingyenes"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Több"
+
+msgid "overview/crew/name"
+msgstr "Legénység {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Mechanika megtekintése"
+
+msgid "overview/title/generalDescription"
+msgstr "Járműleírás"
+
+msgid "overview/title/historicalReference"
+msgstr "Történelmi hivatkozás"
+
+msgid "researchPurchase/discountTimer"
+msgstr "Eddig: {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "A visszaállítás eddig érhető el: {{date}}"
+
+msgid "tabs/armor"
+msgstr "Páncélzat"
+
+msgid "tabs/modules"
+msgstr "Modulok"
+
+msgid "tabs/overview"
+msgstr "Áttekintés"
+
+msgid "tabs/stats"
+msgstr "Jellemzők"
+
+msgid "tabs/vehSkillTree"
+msgstr "Fejlesztések"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "A bérleti idő lejárt"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Előfizetés felfüggesztve"

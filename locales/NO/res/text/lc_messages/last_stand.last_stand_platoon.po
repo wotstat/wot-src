@@ -1,0 +1,77 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Opprett en taktisk enhet med 2 til 5 spillere for å samarbeide\ni Last Stand."
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Tropp"
+
+msgid "members/header/last_stand"
+msgstr ": Last Stand: Terra Nord"
+
+msgid "members/header/tooltip/last_stand/body"
+msgstr "For å gå til en eventkamp må alle troppsmedlemmer ha tilgang til vanskelighetsnivået som velges av kommandør."
+
+msgid "members/header/tooltip/last_stand/header"
+msgstr "Regler for opprettelse av tropp"
+
+msgid "platoon/commander/difficulty_body"
+msgstr "Du kan velge hvilken som helst av de tilgjengelige vanskelighetsgradene."
+
+msgid "platoon/difficulty/error_body_1"
+msgstr "Tilgjengelige vanskelighetsgrader: Vanlig."
+
+msgid "platoon/difficulty/error_body_2"
+msgstr "Tilgjengelige vanskelighetsgrader: Vanlig, Høy."
+
+msgid "platoon/difficulty/error_header"
+msgstr "Vanskelighetsgrad ikke tilgjengelig"
+
+msgid "platoon/difficulty/level_1"
+msgstr "Vanskelighetsgrad: Vanlig"
+
+msgid "platoon/difficulty/level_2"
+msgstr "Vanskelighetsgrad: Høy"
+
+msgid "platoon/difficulty/level_3"
+msgstr "Vanskelighetsgrad: Brutal"
+
+msgid "platoon/difficulty/level_4"
+msgstr "Vanskelighetsgrad: Last Stand"
+
+msgid "platoon/difficulty/lock_header"
+msgstr "Vanskelighetsgrad låst"
+
+msgid "platoon/difficulty/maxAvailable"
+msgstr "Tilgjengelig vanskelighetsgrad {%(icon)s}"
+
+msgid "platoon/difficulty/warning_body"
+msgstr "En eller flere troppsmedlemmer har ikke åpnet denne vanskelighetsgraden."
+
+msgid "platoon/difficulty/warning_header"
+msgstr "Inkompatibel vanskelighetsgrad"
+
+msgid "platoon/dropdown/difficulty_1"
+msgstr "Vanlig %(icon)s"
+
+msgid "platoon/dropdown/difficulty_2"
+msgstr "Høy %(icon)s"
+
+msgid "platoon/dropdown/difficulty_3"
+msgstr "Brutal %(icon)s"
+
+msgid "platoon/dropdown/header/difficulty"
+msgstr "{whiteSpanish_Open}Vanskelighetsgrad: {whiteSpanish_Close}%(difficulty)s"
+
+msgid "platoon/player/difficulty_body"
+msgstr "Kun troppskommandøren kan endre vanskelighetsgrad."
+
+msgid "platoon/simpleState/difficultyDisabled"
+msgstr "Ikke tilgjengelig av tekniske årsaker."
+
+msgid "platoon/simpleState/lockVehicle"
+msgstr "Det valgte kjøretøyet er ikke tilgjengelig."
+
+msgid "platoon/simpleState/notAvailableLevel"
+msgstr "Inkompatibelt vanskelighetsgradsnivå for troppen."

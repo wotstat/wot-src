@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "Les batailles de %(leftDetailedSeasonName)s sont terminées"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Cessez-le-feu effectif sur tous les serveurs. Batailles disponibles dans %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "Les batailles de %(leftDetailedSeasonName)s sont terminées"
+
+msgid "alertMessage/allNotSet"
+msgstr "Ce mode n'est plus disponible sur le serveur %(serverName)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Choisissez un autre serveur"
+
+msgid "alertMessage/notAvailable"
+msgstr "Le Cessez-le-feu est effectif sur le serveur %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Le Cessez-le-feu est effectif sur le serveur %(serverName)s"
+
+msgid "alertMessage/notSet"
+msgstr "Ce mode n'est plus disponible sur le serveur %(serverName)s"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Le Cessez-le-feu est effectif sur ce serveur. Les batailles seront disponibles dans %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "Les batailles de %(leftDetailedSeasonName)s sont terminées"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Ce mode n'est plus disponible sur le serveur %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s j"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Aucun véhicule adéquat"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Horaires"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "MODE"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} — passage à un autre mode de jeu"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "Le mode sera disponible"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "Cessez-le-feu {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "Les batailles sont terminées"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "Le mode n'est plus disponible"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "Le mode sera disponible pendant {{timer}}"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "Un %(forbiddenClass)s ne peut pas combattre en batailles %(modeName)s."
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "Type de véhicule incompatible"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "Sélectionnez un véhicule de %(levelSubStr)s pour prendre part au mode %(modeName)s."
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "Rang de véhicule incompatible"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "rang %(levels)s"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "Le %(forbiddenType)s ne peut pas combattre dans le mode %(modeName)s."
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "Véhicule incompatible"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "Le Cessez-le-feu est effectif sur ce serveur. Veuillez sélectionner un autre serveur."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "Impossible d'entrer en bataille"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "Ce mode est indisponible sur le serveur sélectionné."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "Impossible d'entrer en bataille"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "Les batailles de %(subModeName)s sont terminées"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "Impossible d'entrer en bataille"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "Changez de mode ou choisissez un véhicule répondant aux exigences."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "Véhicule inapproprié pour ce mode"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "Créez une unité tactique de 2 ou 3 joueurs pour coopérer en batailles %(modeName)s."
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "Peloton"
+
+msgid "invite/text/detailedTitle"
+msgstr "Invitation à rejoindre le peloton %(detailedModeName)s"
+
+msgid "invite/tooltip/noVehicles"
+msgstr "Vous devez avoir au moins un véhicule dans votre garage."
+
+msgid "lootboxTooltip/chance"
+msgstr "Taux de butin : %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "Un objet en jeu de la liste ci-dessous :"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "TOUTES LES ÉTAPES SONT FINIES"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "TOUTES LES ÉTAPES DE LA MISSION\nACTUELLE ONT ÉTÉ ACCOMPLIES"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "Récompenses de la prochaine étape : se déverrouillent à %(stagePoints)s Points"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "Récompense de l'étape suivante"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "%(time)s avant la fin de la phase active"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "%(time)s avant le prochain lancement"
+
+msgid "modeSelector/notStarted"
+msgstr "Ce mode commencera bientôt"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s j"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "AUX MODES"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "Indisponible pour des raisons techniques"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "Vous avez terminé toutes les étapes de la mission actuelle"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "Récompenses : %(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "Les batailles sont terminées"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "À venir"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "Il commencera dans"
+
+msgid "modeSubSelector/subtitle"
+msgstr "SÉLECTIONNEZ UN SOUS-MODE"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "Dev Toutes les étapes ont été accomplies"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "Dev Mise à jour de la Progression"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "Rejoignez l'action !"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "Entrez dans la mêlée !"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "Les évènements Borne d'arcade sont des activités uniques à durée limitée qui offrent quelque chose de différent ! Combattez dans des modes exclusifs avec des règles innovantes, accomplissez des missions et gagnez des récompenses rares."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Description risques élevés de dev."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Performances faibles de dev"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Description risques moyens de dev."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Performances réduites de dev"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Description risques élevés de dev."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Performances faibles de dev"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Performances faibles de dev"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Description risques moyens de dev."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Performances réduites de dev"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Performances réduites de dev"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Dev Vous avez terminé la progression"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "Dev Recevez autant de récompenses que possible :"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "Dev Points obtenus : {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "Accomplies :"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "Répétable"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Pour l'accomplissement :"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "En cas de défaite :"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "En cas de victoire :"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Points :"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Reçus :"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "Toutes les missions actuellement disponibles ont été accomplies"
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "Les missions apparaîtront au commencement de la Progression"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "Vous avez terminé toutes les missions disponibles pour le moment. D'autres apparaîtront à la prochaine rotation."
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "Disponible pendant {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "Disponible pendant {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "Nouvelles missions disponibles dans {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "Statut {{eventName}}"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "Mission {{eventName}}"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "Toutes les étapes ont été accomplies"
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "Mise à jour de la Progression"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "NEON DASH"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "La ligne d'arrivée vous attend !"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "Prêt pour la course ?"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "Neon Dash est un évènement unique à durée limitée qui propose une expérience inédite ! Foncez et combattez sur des circuits périlleux, accomplissez des missions et remportez des récompenses."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Ce mode nécessite des performances élevées de l'ordinateur. Vous risquez de subir des problèmes avec le chargement des cartes, les graphismes et le déplacement du véhicule. Si les performances ne sont pas suffisantes, essayez de choisir une qualité graphique plus basse dans les paramètres."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Possible réduction des performances"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Ce mode nécessite des performances élevées de l'ordinateur. Vous risquez de subir des problèmes avec le chargement des cartes, les graphismes et le déplacement du véhicule. Si les performances ne sont pas suffisantes, essayez de choisir une qualité graphique plus basse dans les paramètres."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Possible réduction des performances"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "Récompense aléatoire épique"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "Récompense aléatoire légendaire"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "Récompense aléatoire commune"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "Récompense aléatoire rare"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "Récompense aléatoire inhabituelle"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "Mission Neon Dash, Étape : %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "Votre progression est comptabilisée lors de n'importe quelle course Neon Dash."
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "MISSION NEON DASH"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "Votre progression est comptabilisée dans tous les sous-modes de Borne d'arcade."
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "avant qu'une nouvelle mission de Borne d'arcade soit disponible"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15–30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "Frayez-vous un chemin jusqu'à la ligne d'arrivée dans ce mode de course en chacun pour soi."
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Tous les rangs"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "Avec des paramètres graphiques bas, des artefacts et problèmes visuels peuvent se produire. Nous vous recommandons de sélectionner les paramètres graphiques les plus élevés pour profiter de la meilleure expérience possible, à condition que la configuration de votre ordinateur réponde aux exigences. Ce mode demande de grandes performances de l'ordinateur. Le taux de FPS peut chuter lors des combats intenses."
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "De plus hauts paramètres graphiques sont recommandés"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) De plus hauts paramètres graphiques sont recommandés"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "Avec des paramètres graphiques bas, des artefacts et problèmes visuels peuvent se produire. Nous vous recommandons de sélectionner les paramètres graphiques les plus élevés pour profiter de la meilleure expérience possible, à condition que la configuration de votre ordinateur réponde aux exigences. Ce mode demande de grandes performances de l'ordinateur. Le taux de FPS peut chuter lors des combats intenses."
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "De plus hauts paramètres graphiques sont recommandés"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) De plus hauts paramètres graphiques sont recommandés"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "Une nouvelle mission Neon Dash sera disponible dans :"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "Le sous-mode %(subModeName)s est terminé. La progression a été réinitialisée."
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "Le sous-mode %(subModeName)s est terminé."
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "De nouvelles récompenses et le sous-mode %(subModeName)s sont disponibles."
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "Un nouveau sous-mode est disponible : %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "Le sous-mode %(subModeName)s est indisponible en raison d'une maintenance."
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "Le sous-mode %(subModeName)s est à nouveau disponible."
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "Liste des récompenses"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "Félicitations !"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "Vous avez terminé la Progression"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "Félicitations !"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "Post-progression infinie"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "Vous avez terminé la progression principale"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "Accomplissez cette étape autant de fois que vous le pouvez."
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "Points obtenus : {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Points obtenus :"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "MISSIONS NEON DASH"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "Accomplies :"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "Répétable"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Pour l'accomplissement :"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "En cas de défaite :"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "En cas de victoire :"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Points :"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Reçus :"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "Toutes les missions actuellement disponibles ont été accomplies"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "Les missions apparaîtront au commencement de la Progression"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "Vous avez terminé toutes les missions disponibles pour le moment. D'autres apparaîtront à la prochaine rotation."
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "Disponible pendant {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "Disponible pendant {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "Nouvelles missions disponibles dans {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "Statut {{eventName}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "Mission {{eventName}}"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "RÉCOMPENSE LÉGENDAIRE REÇUE"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "%(subModeName)s est à nouveau disponible."
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "Arrêt au stand"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s est terminé."
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "Arrêt au stand"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "C'est l'heure de l'arrêt au stand ! Les courses %(subModeName)s sont temporairement indisponibles."
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "Arrêt au stand"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "Chaque récompense aléatoire est un objet de la liste ci-dessous, décerné avec une certaine probabilité."
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "Que trouve-t-on à l'intérieur ?"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "Tous les véhicules sont disponibles dans Neon Dash."
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "Véhicules de Neon Dash"
+
+msgid "modes/fall_tanks/userName"
+msgstr "Neon Dash"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "Toutes les Étapes ont été accomplies"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "Mise à jour de la Progression"
+
+msgid "modes/undefined/capsUserName"
+msgstr "BORNE D'ARCADE"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s : %(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "Rejoignez l'action !"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "Entrez dans la mêlée !"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "Les évènements Borne d'arcade sont des activités uniques à durée limitée qui offrent quelque chose de différent ! Combattez dans des modes exclusifs avec des règles innovantes, accomplissez des missions et gagnez des récompenses rares."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Ce mode nécessite des performances élevées de l'ordinateur. Vous risquez de subir des problèmes avec le chargement des cartes, les graphismes et le déplacement du véhicule. Si les performances ne sont pas suffisantes, essayez de diminuer la qualité graphique dans les paramètres."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Possible réduction des performances"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Ce mode nécessite des performances élevées de l'ordinateur. Vous risquez de subir des problèmes avec le chargement des cartes, les graphismes et le déplacement du véhicule. Si les performances ne sont pas suffisantes, essayez de diminuer la qualité graphique dans les paramètres."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Possible réduction des performances"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "Récompense aléatoire épique"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "Récompense aléatoire légendaire"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "Récompense aléatoire commune"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "Récompense aléatoire rare"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "Récompense aléatoire inhabituelle"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "Mission de Borne d'arcade, étape : %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "Votre progression est comptabilisée dans tous les sous-modes de Borne d'arcade."
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "Mission de Borne d'arcade"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "Votre progression est comptabilisée dans tous les sous-modes de Borne d'arcade."
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "avant qu'une nouvelle mission de Borne d'arcade soit disponible"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15c15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "Batailles expérimentales aux règles inhabituelles."
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Rangs&nbsp;%(levels)s"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "Avec des paramètres graphiques bas, des artefacts et problèmes visuels peuvent se produire. Nous vous recommandons de sélectionner les paramètres graphiques les plus élevés pour profiter de la meilleure expérience possible, à condition que la configuration de votre ordinateur réponde aux exigences. Ce mode demande de grandes performances de l'ordinateur. Le taux de FPS peut chuter lors des combats intenses."
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "De plus hauts paramètres graphiques sont recommandés"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) De plus hauts paramètres graphiques sont recommandés"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "Avec des paramètres graphiques bas, des artefacts et problèmes visuels peuvent se produire. Nous vous recommandons de sélectionner les paramètres graphiques les plus élevés pour profiter de la meilleure expérience possible, à condition que la configuration de votre ordinateur réponde aux exigences. Ce mode demande de grandes performances de l'ordinateur. Le taux de FPS peut chuter lors des combats intenses."
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "De plus hauts paramètres graphiques sont recommandés"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) De plus hauts paramètres graphiques sont recommandés"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "Une nouvelle mission de Borne d'arcade sera disponible dans :"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "Le sous-mode %(subModeName)s est terminé. La progression a été réinitialisée."
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "Le sous-mode %(subModeName)s est terminé."
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "De nouvelles récompenses et le sous-mode %(subModeName)s sont disponibles."
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "Un nouveau sous-mode est disponible : %(subModeName)s."
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "Le sous-mode %(subModeName)s est indisponible en raison d'une maintenance."
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "Le sous-mode %(subModeName)s est à nouveau disponible."
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "Liste des récompenses"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "Félicitations !"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "Vous avez terminé la progression"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "Félicitations !"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "Étape répétable"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "Vous avez terminé la progression principale"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "Recevez autant de récompenses que possible :"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "Points obtenus : {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Points obtenus :"
+
+msgid "modes/undefined/progression/title"
+msgstr "MISSIONS DE BORNE D'ARCADE"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "Accomplies :"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "Répétable"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Pour l'accomplissement :"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "En cas de défaite :"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "En cas de victoire :"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Points :"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Reçus :"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "Toutes les missions actuellement disponibles ont été accomplies"
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "Les missions apparaîtront au commencement de la Progression"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "Vous avez terminé toutes les missions disponibles pour le moment. D'autres apparaîtront à la prochaine rotation."
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "Disponible pendant {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "Disponible pendant {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "Nouvelles missions disponibles dans {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "Statut {{eventName}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "Mission {{eventName}}"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "RÉCOMPENSE LÉGENDAIRE REÇUE"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "Les batailles %(subModeName)s sont à nouveau disponibles."
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "Cessez-le-feu"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "Les batailles de %(subModeName)s sont terminées"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "Cessez-le-feu"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "Le cessez-le-feu est effectif. Les batailles %(subModeName)s sont temporairement indisponibles."
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "Cessez-le-feu"
+
+msgid "modes/undefined/tierList/description"
+msgstr "Chaque récompense aléatoire est un objet de la liste ci-dessous que vous pouvez recevoir avec une certaine probabilité."
+
+msgid "modes/undefined/tierList/title"
+msgstr "Que trouve-t-on à l'intérieur ?"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "Afficher/masquer les véhicules appropriés pour le mode Borne d'arcade."
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "Véhicules de Borne d'arcade"
+
+msgid "modes/undefined/userName"
+msgstr "Borne d'arcade"
+
+msgid "notification/congratulation"
+msgstr "Félicitations !"
+
+msgid "notification/finishSubModes"
+msgstr "L'évènement %(modeName)s est terminé."
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "Les sous-modes %(subModesNames)s sont terminés. La progression a été réinitialisée."
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "Les sous-modes %(subModesNames)s sont terminés."
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "Récompense aléatoire"
+
+msgid "notification/newProgression"
+msgstr "La progression de l'évènement a été réinitialisée, vous pouvez à nouveau recevoir des récompenses !"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "La progression de l'évènement a été réinitialisée. De nouveaux sous-modes sont disponibles : %(subModesNames)s."
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "De nouveaux sous-modes sont disponibles : %(subModesNames)s."
+
+msgid "notification/progressionComplete"
+msgstr "Vous avez terminé toutes les missions de %(modeName)s disponibles. Récompense reçue :"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "Vous avez terminé toutes les missions de %(modeName)s disponibles. Étape répétable disponible. Récompense reçue :"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "La progression sera réinitialisée dans moins de 1 jour. Après cela, vous pourrez à nouveau accomplir des missions."
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "La progression sera réinitialisée dans %(days)d jours. Après cela, vous pourrez à nouveau accomplir des missions."
+
+msgid "notification/progressionStageComplete"
+msgstr "Vous avez terminé l'étape %(stage)s de %(modeName)s. Récompense reçue :"
+
+msgid "notification/subModesSeparator"
+msgstr ", "
+
+msgid "notification/switchOffSubModes"
+msgstr "Les sous-modes %(subModesNames)s sont indisponibles en raison d'une maintenance."
+
+msgid "notification/switchOnSubModes"
+msgstr "Les sous-modes %(subModesNames)s sont à nouveau disponibles."
+
+msgid "platoonView/title"
+msgstr "Peloton : %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "Serveur disponible : %(server)s."
+
+msgid "primeTimes/availableServers"
+msgstr "Serveurs disponibles :"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Serveur %(serverName)s\nLes batailles seront disponibles dans %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Serveur%(serverName)s\nLes batailles de %(leftDetailedSeasonName)s sont terminées."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Serveur %(serverName)s\nLes batailles seront disponibles pendant encore %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Serveur %(serverName)s\nLes batailles seront disponibles dans %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Serveur%(serverName)s\nLes batailles de %(leftDetailedSeasonName)s sont terminées."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Serveur %(serverName)s\nLes batailles seront disponibles dans %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Serveur%(serverName)s\nLes batailles de %(leftDetailedSeasonName)s sont terminées."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s j"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Le Cessez-le-feu est effectif sur tous les serveurs.\nLes batailles seront disponibles dans %(primeDelta)s"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "Les batailles de %(leftDetailedSeasonName)s sont terminées"
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "Ce mode n'est plus disponible sur le serveur %(serverName)s"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Le cessez-le-feu est effectif sur le serveur %(serverName)s jusqu'au %(primeDeltaDate)s%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Le cessez-le-feu est effectif sur le serveur %(serverName)s"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Ce mode n'est plus disponible sur le serveur %(serverName)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Le cessez-le-feu est effectif sur le serveur %(serverName)s.\nLes batailles seront disponibles dans %(primeDelta)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "Les batailles de %(leftDetailedSeasonName)s sont terminées"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Ce mode n'est plus disponible sur le serveur %(serverName)s"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Les batailles sur le serveur %(serverName)s commenceront dans %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "Les batailles de %(leftDetailedSeasonName)s sur le serveur %(serverName)s sont terminées."
+
+msgid "primeTimes/timeText/available"
+msgstr "Les batailles sur le serveur %(serverName)s seront disponibles pendant encore %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Les batailles sur le serveur %(serverName)s commenceront dans %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "Les batailles de %(leftDetailedSeasonName)s sur le serveur %(serverName)s sont terminées."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Les batailles sur le serveur %(serverName)s commenceront dans %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "Les batailles de %(leftDetailedSeasonName)s sur le serveur %(serverName)s sont terminées."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "points"
+
+msgid "progression/complete/affirmative"
+msgstr "Affirmatif !"
+
+msgid "progression/defaultCondition/text"
+msgstr "Gagnez des Points et avancez dans la progression."
+
+msgid "progression/infinite/pointsEarned"
+msgstr "Points obtenus :"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "La phase active est terminée. Les batailles sont finies"
+
+msgid "progression/questsList/quest/completed"
+msgstr "Accomplies :"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "Répétable"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "Pour l'accomplissement :"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "En cas de défaite :"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "En cas de victoire :"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "Reçus :"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "La phase active se termine dans : {{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "La phase active se termine dans :"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "Prochain lancement dans :"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "Récompenses de la prochaine Étape : se déverrouillent à %(count)d Points"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Vous avez également reçu :"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Affirmatif !"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "Le chef de peloton est passé en sous-mode %(subModeName)s."
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "Changement de sous-mode"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Rangs&nbsp;%(levels)s"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Description risques élevés de dev."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Performances faibles de dev"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Performances faibles de dev"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Description risques moyens de dev."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Performances réduites de dev"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Performances réduites de dev"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "NEON DASH"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "Foncez vers la ligne d'arrivée et empêchez les autres de l'atteindre. Utilisez les capacités Précipitation et Bouclier pour semer encore plus le chaos !"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "Attention : plateformes mouvantes"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "Évitez les lasers et effectuez les sauts au bon moment pour filer vers l'arrivée !"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "Attention : lasers et sauts"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "pour en savoir plus sur ce mode"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "Appuyez sur"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "Neon Dash"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15–30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "Frayez-vous un chemin\njusqu'à la ligne d'arrivée"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Tous les rangs"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "Avec des paramètres graphiques bas, des artefacts visuels et d'autres problèmes peuvent se produire. Nous vous recommandons de sélectionner les paramètres graphiques les plus élevés pour profiter de la meilleure expérience possible, à condition que la configuration de votre ordinateur réponde aux exigences. Ce mode demande de grandes performances et vos FPS peuvent chuter lors des moments intenses."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "De plus hauts paramètres graphiques sont recommandés"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) De plus hauts paramètres graphiques sont recommandés"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "Avec des paramètres graphiques bas, des artefacts visuels et d'autres problèmes peuvent se produire. Nous vous recommandons de sélectionner les paramètres graphiques les plus élevés pour profiter de la meilleure expérience possible, à condition que la configuration de votre ordinateur réponde aux exigences. Ce mode demande de grandes performances de l'ordinateur. Vos FPS peuvent chuter lors des moments intenses."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "De plus hauts paramètres graphiques sont recommandés"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) De plus hauts paramètres graphiques sont recommandés"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "Neon Dash"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "Neon Dash"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "Neon Dash"
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Rangs&nbsp;%(levels)s"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "Avec des paramètres graphiques bas, des artefacts et problèmes visuels peuvent se produire. Nous vous recommandons de sélectionner les paramètres graphiques les plus élevés pour profiter de la meilleure expérience possible, à condition que la configuration de votre ordinateur réponde aux exigences. Ce mode demande de grandes performances de l'ordinateur. Le taux de FPS peut chuter lors des combats intenses."
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "De plus hauts paramètres graphiques sont recommandés"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) De plus hauts paramètres graphiques sont recommandés"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "Avec des paramètres graphiques bas, des artefacts et problèmes visuels peuvent se produire. Nous vous recommandons de sélectionner les paramètres graphiques les plus élevés pour profiter de la meilleure expérience possible, à condition que la configuration de votre ordinateur réponde aux exigences. Ce mode demande de grandes performances de l'ordinateur. Le taux de FPS peut chuter lors des combats intenses."
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "De plus hauts paramètres graphiques sont recommandés"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) De plus hauts paramètres graphiques sont recommandés"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

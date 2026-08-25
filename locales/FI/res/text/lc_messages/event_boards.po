@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "Palkinnot PST-vaunuille"
+
+msgid "awards/class/SPG"
+msgstr "Palkinnot telatykeille"
+
+msgid "awards/class/heavyTank"
+msgstr "Palkinnot raskaille vaunuille"
+
+msgid "awards/class/lightTank"
+msgstr "Palkinnot kevyille vaunuille"
+
+msgid "awards/class/mediumTank"
+msgstr "Palkinnot keskiraskaille vaunuille"
+
+msgid "awards/level"
+msgstr "Palkinnot tason %(level)s vaunuille"
+
+msgid "awards/nation/china"
+msgstr "Palkinno kiinalaisille vaunuille"
+
+msgid "awards/nation/czech"
+msgstr "Palkinnot tsekkoslovakialaisille vaunuille"
+
+msgid "awards/nation/france"
+msgstr "Palkinnot ranskalaisille vaunuille"
+
+msgid "awards/nation/germany"
+msgstr "Palkinnot saksalaisille vaunuille"
+
+msgid "awards/nation/japan"
+msgstr "Palkinnot japanilaisille vaunuille"
+
+msgid "awards/nation/poland"
+msgstr "Palkinnot puolalaisille vaunuille"
+
+msgid "awards/nation/sweden"
+msgstr "Palkinnot ruotsalaisille vaunuille"
+
+msgid "awards/nation/uk"
+msgstr "Palkinnot brittien vaunuille"
+
+msgid "awards/nation/usa"
+msgstr "Palkinnot amerikkalaisille vaunuille"
+
+msgid "awards/nation/ussr"
+msgstr "Palkinnot neuvostoliittolaisille vaunuille"
+
+msgid "awards/tooltip/class"
+msgstr "Klikkaa näyttääksesi palkinnot tälle vaunutyypille."
+
+msgid "awards/tooltip/level"
+msgstr "Klikkaa näytttääksesi palkinnot tämän tason vaunuille."
+
+msgid "awards/tooltip/nation"
+msgstr "Klikkaa näyttääksesi palkinnot tälle kansakunnalle."
+
+msgid "awards/vehicle"
+msgstr "Palkinnot valitulle vaunulle"
+
+msgid "badge/tooltip/description"
+msgstr "Arvomerkki on ainutlaatuinen ikoni, joka näytetään pelinimesi vieressä taistelussa. Arvomerkki näkyy molempien joukkueiden pelaajille ja on osoitus huomionarvoisesta suoriutumisesta Kansakuntien marssi -tapahtumassa."
+
+msgid "badgesGroup/tooltip/header"
+msgstr "Kunnioittavat arvomerkit"
+
+msgid "block/award"
+msgstr "Pääpalkinnot"
+
+msgid "block/objective"
+msgstr "Ehdot"
+
+msgid "block/task"
+msgstr "Tehtävä"
+
+msgid "button/awards"
+msgstr "Kaikki palkinnot"
+
+msgid "button/awards/tooltip"
+msgstr "Klikkaa näyttääksesi lista kilpailun kaikista palkinnoista."
+
+msgid "button/regulations"
+msgstr "Vaatimukset"
+
+msgid "button/regulations/tooltip"
+msgstr "Klikkaa näyttääksesi kilpailun täysi kuvaus."
+
+msgid "condition/battletype/random"
+msgstr "Satunnaistaistelu 15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "Luokitettu taistelu"
+
+msgid "condition/battletype/squadallowed"
+msgstr "Osastot sallittu"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "Osastoja ei sallita"
+
+msgid "condition/primetime/any"
+msgstr "Mikä hyvänsä palvelin ja aika"
+
+msgid "condition/primetime/chosen"
+msgstr "Vain määritetyillä palvelimilla"
+
+msgid "condition/vehicle/chosen"
+msgstr "Vain tietyillä vaunuilla:"
+
+msgid "condition/vehicle/exist"
+msgstr "Tallissa"
+
+msgid "condition/vehicle/missing"
+msgstr "Ei tallissa"
+
+msgid "condition/vehicle/single"
+msgstr "Vaunussa %(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "Palkinto"
+
+msgid "excel/btnClose"
+msgstr "KILPAILUUN"
+
+msgid "excel/group/title"
+msgstr "Ryhmä"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "Päästäksesi tuloslistalle sinun tulee taistella enemmän taisteluita: %(number)s"
+
+msgid "excel/noData"
+msgstr "Palkintosijoja ei ole vielä otettu."
+
+msgid "excel/participate/join"
+msgstr "Taistele"
+
+msgid "excel/participate/notParticipated"
+msgstr "Et sijoittunut tällä tuloslistalle"
+
+msgid "excel/subHeader"
+msgstr "Kilpailu: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "Liity"
+
+msgid "header/participate/button/leave"
+msgstr "Poistu kilpailusta"
+
+msgid "header/participate/finished"
+msgstr "Kilpailu on päättynyt"
+
+msgid "header/participate/notStarted"
+msgstr "Olet liittynyt"
+
+msgid "header/participate/reason/byAge"
+msgstr "Tili luotu %date% jälkeen"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "Kilpailu ei saatavilla"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "Olet poistunut tästä kilpailusta"
+
+msgid "header/participate/started"
+msgstr "Osallistut"
+
+msgid "header/timer"
+msgstr "Päättyy:"
+
+msgid "maintenance/body"
+msgstr "Olemme pahoillamme väliaikaisesta häiriöstä."
+
+msgid "maintenance/title"
+msgstr "Virhe ladattaessa tietoja"
+
+msgid "maintenance/update"
+msgstr "Päivitä"
+
+msgid "notification/buttons/details"
+msgstr "Tiedot"
+
+msgid "notification/eventFinished/body"
+msgstr "Kilpailu \"%(eventName)s\" on päättynyt. Voittajat selviävät seuraavien muutaman päivän aikana, jonka jälkeen he saavat ansaitsemansa palkinnot."
+
+msgid "notification/eventFinished/header"
+msgstr "Kilpailu on päättynyt"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "Taisteluidesi tulokset lasketaan nyt mukaan kilpailuun, joten voit sijoittua tuloslistalle ja ansaita palkinnon."
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "Olet liittynyt osallistujaksi kilpailuun"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "Taisteluidesi tulokset otetaan huomioon, kunhan kilpailu alkaa, jota voit sijoittua tuloslistalle ja ansaita palkinnon."
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "Olet liittynyt osallistujaksi kilpailuun"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "Et voi liittyä osallistujaksi: vaatimukset eivät täyty."
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "Et voi liittyä osallistujaksi: rekisteröitymisaika on päättynyt."
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "Tilastosi kilpailuissa nollataan, kun tuloslistat päivitetään."
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "Olet poistunut kilpailusta"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "Tuloksiasi ei lasketa mukaan tähän kilpailuun."
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "Olet poistunut kilpailusta"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "Kilpailusta poistuminen ei onnistu: annettu aika on kulunut loppuun."
+
+msgid "notification/eventStarted/body"
+msgstr "Kilpailu \"%(eventName)s\" on alkanut! Pelaajat, jotka pääsevät palkintosijoille kilpailun päättymiseen mennessä saavat arvokkaita palkintoja."
+
+msgid "notification/eventStarted/header"
+msgstr "Kilpailu on alkanut"
+
+msgid "notification/unknownError/body"
+msgstr "Toiminnon suoritus ei onnistu."
+
+msgid "orders/title"
+msgstr "Vaatimukset"
+
+msgid "popover/buttons/cancel"
+msgstr "Peruuta"
+
+msgid "popover/buttons/rating"
+msgstr "Mene tuloslistaan"
+
+msgid "popover/buttons/select"
+msgstr "Valitse"
+
+msgid "popover/noVehicles"
+msgstr "Yksikään vaunu ei osu valittuihin suotimiin."
+
+msgid "popover/resetFilter"
+msgstr "Alusta suodatin"
+
+msgid "popover/title"
+msgstr "Tuloslistat"
+
+msgid "popover/title/vehicle"
+msgstr "Tuloslistat"
+
+msgid "popover/tooltip/class"
+msgstr "Mene valitun tyyppisten vaunujen tuloslistalle."
+
+msgid "popover/tooltip/level"
+msgstr "Mene valitun tason vaunujen tuloslistalle."
+
+msgid "popover/tooltip/nation"
+msgstr "Mene valitun kansakunnan vaunujen tuloslistalle."
+
+msgid "server/list"
+msgstr "Jotta taistelusi lasketaan mukaan kilpailuun, sinun tulee siirtyä seuraavalle palvelimelle:"
+
+msgid "server/noSuitable/body"
+msgstr "Taistelutulokset lasketaan seuraavan kerran: %(data)s. Kilpailun aikataulu"
+
+msgid "server/noSuitable/header"
+msgstr "Taisteluiden tulokset otetaan huomioon kilpailuun tähän aikaan"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s palvelimella %(server)s"
+
+msgid "status/bestResults/many"
+msgstr "Parhaat tulokseni"
+
+msgid "status/bestResults/one"
+msgstr "Tulokseni"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "Kilpailu ei ole saatavilla:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "Sinun ei ole sallittu osallistua tähän kilpailuun sääntörikkomuksiesi tähden"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "tili luotu %(date)s jälkeen"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "et ole osallistunut vaadittuun määrään satunnaistaisteluita: %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "voittoprosenttisi satunnaistaisteluissa ylittää %(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "et ole saavuttanut seuraavaa voittoprosenttia satunnaistaisteluissa: %(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "Rekisteröintiaika on päättynyt"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "Et voi osallistua tähän kilpailuun."
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "Olet poistunut tästä kilpailusta"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "Taisteluidesi tuloksia ei enää oteta huomioon tässä kilpailussa. Et voi enää sijoittua tuloslistalla ja ansaita palkintoa.\nEt voi osallistua tähän kilpailuun uudelleen."
+
+msgid "status/cantJoin/reason/many"
+msgstr "vaatimuksia ei täytetty %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "vaatimuksia ei täytetty (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "Et sijoittunut tuloslistalle"
+
+msgid "status/cantJoin/reason/special"
+msgstr "Et voi osallistua kilpailuun tällä tilillä."
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "ei soveltuvia vaunuja"
+
+msgid "status/participate/cantJoin"
+msgstr "Kilpailu ei saatavilla"
+
+msgid "status/participate/needMoreBattles"
+msgstr "Kun täytät määritetyt vaatimukset taisteluissa, tuloksesi näytetään täällä, kunhan tuloslista ensin päivitetään."
+
+msgid "status/participate/notParticipated"
+msgstr "Et osallistunut tälle tuloslistalle"
+
+msgid "summary/averagedamage"
+msgstr "Keskimääräinen vahinko"
+
+msgid "summary/averagedamageassisted"
+msgstr "Keskimäärin vahinkoa avustuksellasi"
+
+msgid "summary/averagexp"
+msgstr "Keskimääräinen kokemus"
+
+msgid "summary/battles"
+msgstr "Taisteluita kilpailussa"
+
+msgid "summary/damage"
+msgstr "Vahinko"
+
+msgid "summary/damageassist"
+msgstr "Vahinkoa avustuksellasi"
+
+msgid "summary/damageblocked"
+msgstr "Torjuttu vahinko"
+
+msgid "summary/description/awards/title/award"
+msgstr "PALKINTO KILPAILUN PÄÄTTYESSÄ"
+
+msgid "summary/description/awards/title/group"
+msgstr "RYHMÄ"
+
+msgid "summary/description/awards/title/position"
+msgstr "SIJOITUS"
+
+msgid "summary/description/max/class"
+msgstr "Taistelit parhaan taistelusi seuraavalla vaunuluokalla: %(value)s"
+
+msgid "summary/description/max/level"
+msgstr "Taistelit parhaan taistelusi tason %(value)s vaunulla"
+
+msgid "summary/description/max/nation"
+msgstr "Taistelit parhaan taistelusi seuraavan kansakunnan vaunulla: %(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "Taistelit parhaan taistelusi seuraavalla vaunulla: %(value)s"
+
+msgid "summary/description/sum/class"
+msgstr "Tilastosi kilpailussa vaunuluokalla: %(value)s"
+
+msgid "summary/description/sum/level"
+msgstr "Tilastosi kilpailussa tason %(value)s vaunuilla"
+
+msgid "summary/description/sum/nation"
+msgstr "Tilastosi kilpailussa seuraavan kansakunnan vaunuilla: %(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "Tilastosi kilpailussa seuraavalla vaunulla: %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "Paras taistelusarjasi vaunuluokalla: %(value)s"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "Paras taistelusarjasi tason %(value)s vaunuilla"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "Paras taistelusarjasi seuraavan kansakunnan vaunuilla: %(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "Paras taistelusarjasi vaunulla: %(value)s"
+
+msgid "summary/description/sumN/class"
+msgstr "Parhaat taistelusi vaunuluokalla: %(value)s"
+
+msgid "summary/description/sumN/level"
+msgstr "Parhaat taistelusi tason %(value)s vaunuilla"
+
+msgid "summary/description/sumN/nation"
+msgstr "Parhaat taistelusi seuraavan kansakunnan vaunulla: %(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "Parhaat taistelusi vaunulla: %(value)s"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "Paras taistelusarjasi vaunuluokalla: %(value)s"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "Paras taistelusarjasi tason %(value)s vaunuilla"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "Paras taistelusarjasi seuraavan kansakunnan vaunuilla: %(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "Paras taistelusarjasi vaunulla: %(value)s"
+
+msgid "summary/destroyedvehicles"
+msgstr "Vihollisvaunuja tuhottu"
+
+msgid "summary/fightInSquaad"
+msgstr "Taistelu osastossa"
+
+msgid "summary/fightNotInSquaad"
+msgstr "Taistelu ilman osastoa"
+
+msgid "summary/originalXP"
+msgstr "Peruskokemus"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "Vahinkoa aiheutettu pelaajan avustuksella"
+
+msgid "summary/param/max/damageDealt"
+msgstr "Vahinko"
+
+msgid "summary/param/max/originalXP"
+msgstr "Peruskokemus"
+
+msgid "summary/param/max/xp"
+msgstr "Kokemus"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "Keskimääräinen pelaajan avustuksella aiheutettu vahinko"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "Keskimääräinen vahinko"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "Keskimääräinen peruskokemus"
+
+msgid "summary/param/sumAll/wins"
+msgstr "Voittoja"
+
+msgid "summary/param/sumAll/xp"
+msgstr "Keskimääräinen kokemus"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "Keskimääräinen pelaajan avustuksella aiheutettu vahinko"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "Vahinko yhteensä"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "Peruskokemus yhteensä"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "Kokemus yhteensä"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "Pelaajan avustuksella aiheutetun vahingon kokonaismäärä"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "Vahinko yhteensä"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "Peruskokemus yhteensä"
+
+msgid "summary/param/sumN/xp"
+msgstr "Kokemus yhteensä"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "Keskimääräinen pelaajan avustuksella aiheutettu vahinko"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "Vahinko yhteensä"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "Peruskokemus yhteensä"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "Kokemus yhteensä"
+
+msgid "summary/position"
+msgstr "Sijoitus tuloslistalla: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "Tasapeli"
+
+msgid "summary/result/loss"
+msgstr "Tappio"
+
+msgid "summary/result/win"
+msgstr "Voitto"
+
+msgid "summary/status"
+msgstr "Päivitettu %(day)s kello %(time)s"
+
+msgid "summary/winrate"
+msgstr "Voittoja"
+
+msgid "table/header/player"
+msgstr "Pelaaja"
+
+msgid "table/header/position"
+msgstr "No"
+
+msgid "table/selectParticipateBtn"
+msgstr "Poistu kilpailusta"
+
+msgid "table/selectRatingBtn"
+msgstr "Tuloslistat"
+
+msgid "table/selectRegistrationBtn"
+msgstr "Liity osallistujaksi"
+
+msgid "table/stripe/bronze/title"
+msgstr "Ryhmä III (sijat %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/gold/title"
+msgstr "Ryhmä I (sijat %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "Ryhmä I"
+
+msgid "table/stripe/iron/title"
+msgstr "Ryhmä IV (sijat %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/silver/title"
+msgstr "Ryhmä II (sijat %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/wood/title"
+msgstr "Sijoitukset, joista ei saa palkintoa"
+
+msgid "task/eventtype/all"
+msgstr "Yleinen tuloslista kaikille osallistujille"
+
+msgid "task/eventtype/class"
+msgstr "Jokaisella vaunutyypillä on oma tuloslistansa"
+
+msgid "task/eventtype/level"
+msgstr "Jokaisella vaunujen tasolla on oma tuloslistansa"
+
+msgid "task/eventtype/nation"
+msgstr "Jokaisella kansakunnalla on oma tuloslistansa"
+
+msgid "task/eventtype/vehicle"
+msgstr "Jokaisella vaunulla on oma tuloslistansa"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "Sijoitu tuloslistalle avustuksellasi aiheutetun vahingon mukaan"
+
+msgid "task/objective/max/damageDealt"
+msgstr "Sijoitu tuloslistalle aiheuttamasi vahingon mukaan"
+
+msgid "task/objective/max/originalXP"
+msgstr "Sijoitu tuloslistalle ansaitsemasi peruskokemuksen mukaan"
+
+msgid "task/objective/max/xp"
+msgstr "Sijoitu tuloslistalle ansaitsemasi kokemuksen mukaan"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "Sijoitu tuloslistalle avustuksellasi yhteensä aiheutetun vahingon mukaan"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "Sijoitu tuloslistalle yhteensä aiheuttamasi vahingon mukaan"
+
+msgid "task/objective/sum/originalXP"
+msgstr "Sijoitu tuloslistalle yhteensä ansaitsemasi peruskokemuksen mukaan"
+
+msgid "task/objective/sum/wins"
+msgstr "Sijoitu tuloslistalle voittomäärän perusteella"
+
+msgid "task/objective/sum/xp"
+msgstr "Sijoitu tuloslistalle yhteensä ansaitsemasi kokemuksen mukaan"
+
+msgid "task/objparam/damageAssisted"
+msgstr "avustuksellasi aiheutettu vahinko"
+
+msgid "task/objparam/damageDealt"
+msgstr "aiheutettu vahinko"
+
+msgid "task/objparam/originalXP"
+msgstr "ansaittu peruskokemus"
+
+msgid "task/objparam/wins"
+msgstr "voittojen määrä"
+
+msgid "task/objparam/xp"
+msgstr "kokemus"
+
+msgid "task/selection/max"
+msgstr "Paras taistelusi otetaan huomioon"
+
+msgid "task/selection/sumAll"
+msgstr "Kaikki taistelusi otetaan huomioon"
+
+msgid "task/selection/sumMSeqN"
+msgstr "Parhaat (%(cardinality)s) taistelut sarjassa otetaan huomioon. Taisteluita sarjassa: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "Parhaat taistelusi otetaan huomioon: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "Parhaat taistelusarjasi otetaan huomioon. Taisteluita sarjassa: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "tänään"
+
+msgid "time/day/tomorrow"
+msgstr "huomenna"
+
+msgid "time/day/yesterday"
+msgstr "eilen"
+
+msgid "time/eventFinished"
+msgstr "Kilpailu päättyi: %(date)s"
+
+msgid "time/period/day"
+msgstr "p"
+
+msgid "time/period/hour"
+msgstr "t"
+
+msgid "time/period/minute"
+msgstr "min"
+
+msgid "time/timeTo/end"
+msgstr "Päätty: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "Rekisteröitymisaika päättyy: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "Alkaa: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "Palkinto myönnetään kilpailun päättyessä ja se riippuu sijoituksestasi tuloslistalla.\nNähdäksesi listan kaikista palkinnoista tässä kilpailussa klikkaa \"Kaikki palkinnot\"."
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "Huomioon otetun kokemuksen määrään ei lasketa mitään ylimääräistä kokemusta, jota saat premium-tilin, premium-vaunun, henkilökohtaisten reservien, ensimmäisen voiton kertoimien tai muiden spesiaalien ansiosta."
+
+msgid "tooltip/top/amount/xp"
+msgstr "Huomioon otetun kokemuksen määrään ei lasketa mitään ylimääräistä kokemusta, jota saat premium-vaunun, henkilökohtaisten reservien, ensimmäisen voiton kertoimien tai muiden spesiaalien ansiosta.\nPremium-tilistä saatava kokemus otetaan huomioon."
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "Viimeisellä palkintosijalla olevan pelaajan avustuksella aiheutetun vahingon määrä: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "Viimeisellä palkintosijalla olevan pelaajan aiheuttaman vahingon määrä: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "Viimeisellä palkintosijalla olevan pelaajan ansaitseman peruskokemuksen määrä: %(number)s\nHuomioon otetun kokemuksen määrään ei lasketa mitään ylimääräistä kokemusta, jota saat premium-tilin, premium-vaunun, henkilökohtaisten reservien, ensimmäisen voiton kertoimien tai muiden spesiaalien ansiosta."
+
+msgid "tooltip/top/description/max/xp"
+msgstr "Viimeisellä palkintosijalla olevan pelaajan ansaitseman kokemuksen määrä: %(number)s\nHuomioon otetun kokemuksen määrään ei lasketa mitään ylimääräistä kokemusta, jota saat premium-vaunun, henkilökohtaisten reservien, ensimmäisen voiton kertoimien tai muiden spesiaalien ansiosta.\nPremium-tilistä saatava kokemus otetaan huomioon."
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "Viimeisellä palkintosijalla olevan pelaajan avustuksella aiheutetun vahingon määrä yhteensä: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "Viimeisellä palkintosijalla olevan pelaajan aiheuttaman vahingon määrä yhteensä: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "Viimeisellä palkintosijalla olevan pelaajan ansaitseman peruskokemuksen määrä yhteensä: %(number)s\nHuomioon otetun kokemuksen määrään ei lasketa mitään ylimääräistä kokemusta, jota saat premium-tilin, premium-vaunun, henkilökohtaisten reservien, ensimmäisen voiton kertoimien tai muiden spesiaalien ansiosta."
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "Viimeisellä palkintosijalla olevan pelaajan voittojen määrä: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "Viimeisellä palkintosijalla olevan pelaajan ansaitseman kokemuksen määrä yhteensä: %(number)s\nHuomioon otetun kokemuksen määrään ei lasketa mitään ylimääräistä kokemusta, jota saat premium-vaunun, henkilökohtaisten reservien, ensimmäisen voiton kertoimien tai muiden spesiaalien ansiosta.\nPremium-tilistä saatava kokemus otetaan huomioon."
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "Palkinnoton sija"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "Ryhmä %(group)s (sijat %(min)s-%(max)s)"
+
+msgid "top/averageXP"
+msgstr "Viimeisellä palkintosijalla olevan pelaajan keskimäärin ansaitsema kokemus:"
+
+msgid "top/participation/notParticipated"
+msgstr "Et osallistunut tähän kilpailuun"
+
+msgid "top/participation/notfull"
+msgstr "Et päässyt tuloslistalle"
+
+msgid "top/participation/notintop"
+msgstr "Et ole palkintosijalla"
+
+msgid "top/position"
+msgstr "Sijoituksesi:"
+
+msgid "top/reason/notfull"
+msgstr "Taistele enemmän taisteluita päästäksesi tuloslistalle:"
+
+msgid "vehicles/level"
+msgstr "Tason %(level)s vaunut"
+
+msgid "vehicles/tooltip/class"
+msgstr "Klikkaa näyttääksesi tämän tyyppiset vaunut, jotka osallistuvat kilpailuun."
+
+msgid "vehicles/tooltip/level"
+msgstr "Klikkaa näyttääksesi tämän tason vaunut, jotka osallistuvat kilpailuun."
+
+msgid "vehicles/tooltip/nation"
+msgstr "Klikkaa näyttääksesi tämän kansakunnan vaunut, jotka osallistuvat kilpailuun."
+
+msgid "vehicles/vehicle"
+msgstr "Kilpailun vaunut"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "Klikkaa näyttääksesi lista kilpailussa sallituista vaunuista."

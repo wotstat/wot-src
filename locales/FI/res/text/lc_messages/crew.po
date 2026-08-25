@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Laajenna"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Lähetä alikoulutetut eläkkeelle"
+
+msgid "barracks/bunks/title"
+msgstr "Petipaikat:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Määritä ostettavien petipaikkojen määrä. Petipaikkoja saatavilla kasarmilla: %(freeBunksCount)s / %(allBunksCount)s"
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Alennushinta"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Uusi hinta: %(currency)s per %(bunksCount)s petipaikkaa"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Edellinen hinta: %(currency)s per %(bunksCount)s petipaikkaa"
+
+msgid "barracks/enlarge/header"
+msgstr "Laajenna kasarmia?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Alikoulutetut miehistön jäsenet kasarmillasi, kenellä on vähemmän kuin {whiteSpanish_Open}210 060{whiteSpanish_Close}{icon} kokemuspistettä, joka vaaditaan ensimmäisen pätevyyden kouluttamiseen {whiteSpanish_Open}100%{whiteSpanish_Close} tasolle, voidaan lähettää eläkkeelle."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Alikoulutetut miehistön jäsenet"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Sinulla ei ole alikoulutettuja miehistön jäseniä"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Et saa mitään hyvitystä alikoulutetuista miehistön jäsenistä, jotka lähetetään eläkkeelle. Eläkkeelle lähettämisen jälkeen heitä ei voi enää palauttaa ja kaikki heidän kokemuksensa menetetään."
+
+msgid "barracks/title"
+msgstr "KASARMI"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Klikkaa laajentaaksesi kasarmia."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Laajenna kasarmia"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Sijainti"
+
+msgid "common/imageNotAvailable"
+msgstr "Kuva ei saatavilla"
+
+msgid "common/inBarracks"
+msgstr "Kasarmilla"
+
+msgid "common/inBattle"
+msgstr "Taistelussa"
+
+msgid "common/inPrebattle"
+msgstr "Taktisessa yksikössä"
+
+msgid "common/navigation/aboutCrew"
+msgstr "MIEHISTÖSTÄ"
+
+msgid "common/navigation/toBarracks"
+msgstr "KASARMISTA"
+
+msgid "common/navigation/toGarage"
+msgstr "TALLIIN"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "PROFIILIIN"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Selvä!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Miehistön jäsenesi on muunnettu miehistökirjoiksi."
+
+msgid "conversionAwards/title"
+msgstr "MUUNTAMINEN ONNISTUI"
+
+msgid "conversionAwards/underTitle"
+msgstr "Seuraavat tavarat on lisätty tilillesi."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Peruuta"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Lähetä eläkkeelle"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Eläkkeelle lähetettäviä miehistön jäseniä: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Lähetä alikoulutetut miehistön jäsenet eläkkeelle?"
+
+msgid "conversionConfirm/warning"
+msgstr "Et saa mitään hyvitystä alikoulutetuista miehistön jäsenistä, jotka lähetetään eläkkeelle. Eläkkeelle lähettämisen jälkeen heitä ei voi enää palauttaa ja kaikki heidän kokemuksensa menetetään."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Valitse pätevyydet automaattisesti"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Miehistönjäseniä, joilla olisi kouluttamattomia pätevyyksiä, ei ole."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Pätevyyksien automaattinen valinta ei onnistu"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Kaikki kouluttamattomat, plusmerkillä merkityt pätevyydet korvataan erikoislogiikalla automaattisesti valituilla pätevyyksillä kaikille miehistöille."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Valitse kouluttamattomat pätevyydet automaattisesti kaikille"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Nollaa kaikkien pätevyydet"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Miehistönjäseniä, joilla olisi koulutettuja pätevyyksiä, ei ole."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Pätevyyksien nollaaminen ei onnistu"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Kaikkien tilisi miehistön jäsenten kaikki pätevyydet nollataan. Tätä toimintoa ei voi peruuttaa."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Nollaa kaikkien pätevyydet"
+
+msgid "crewBanner/infoText"
+msgstr "Ilmainen pätevyyksien nollaus tai kouluttamattomien pätevyyksien automaattinen valinta kaikille tilisi miehistön jäsenille"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Nopeutettu miehistön koulutus on käytössä"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Tehokkuusbonus: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Pätevyystehokkuus"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Pätevyydet eivät ole saatavilla, koska miehistön jäsen ei ole koulutettu tähän vaunuun."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Erikoistuminen:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Pätevyydet eivät ole saatavilla"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Bonuspätevyydet:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Päätaidon pätevyydet"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(Kiina)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Tšekkoslovakia)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Ranska)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Saksa)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Italia)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japani)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Puola)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Ruotsi)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(Iso-Britannia)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(Yhdysvallat)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(Neuvostoliitto)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Kaikki premium PST-vaunut\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Kaikki premium-telatykit {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Kaikki raskaat premium-vaunut {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Kaikki kevyt premium-vaunut {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Kaikki keskiraskaat premium-vaunut\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Lisätiedot"
+
+msgid "filter/group/details/title"
+msgstr "Lisätiedot"
+
+msgid "filter/group/nation/title"
+msgstr "Kansakunta"
+
+msgid "filter/group/other/title"
+msgstr "Muu"
+
+msgid "filter/group/special/title"
+msgstr "Erikoiset"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Karsinnat"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Taso"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Taso"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Erikoistuminen"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Vaunutyyppi"
+
+msgid "filter/popup/button/title"
+msgstr "Suodatin"
+
+msgid "filter/popup/default/title"
+msgstr "Suodatin"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Suodata kansakunnan mukaan"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Suodata vaunujen mukaan"
+
+msgid "filter/reset"
+msgstr "Alusta suodatin"
+
+msgid "filter/search/placeholder"
+msgstr "Etsi nimen perusteella"
+
+msgid "filter/search/tooltip/header"
+msgstr "Etsi nimen perusteella"
+
+msgid "filter/title"
+msgstr "Näytetään:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Näytä/piilota miehistön jäsenet, joiden kaikki moduulit ja tekniset haarat on tutkittu."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Eliittivaunut"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Näytä/piilota miehistön jäsenet, jotka on koulutettu premium-vaunuihin."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Premium-vaunut"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Näytä/piilota miehistön jäsenet, jotka on koulutettu ensisijaisiin vaunuihin."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Ensisijaiset vaunut"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Näytä/piilota tämän vaunutyypin miehistön jäsenet"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Näytä/piilota tämän kansakunnan miehistön jäsenet."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Näytä/piilota tämän kansakunnan skinit."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Näytä/piilota tämän kansakunnan vaunut."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Näytä/piilota eläköityneet."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Eläköityneet"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Näytä tulokkaat."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Värvätyt"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Näytä miehistön jäsenet."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr " Miehistön jäsenet"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Näytä/piilota tämän päätaidon omaavat miehistön jäsenet."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Näytä/piilota premium-vaunut"
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Premium-vaunut"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Näytä/piilota tämän tyyppiset vaunut."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "PST-vaunut"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Telatykit"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Raskaat vaunut"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Kevyet vaunut"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Keskiraskaat vaunut"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Hakukriteerit täyttäviä\nvaunuja ei löytynyt"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Järjestä vaunun nimen mukaan."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Nimi"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Järjestä vaunun tason mukaan."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Taso"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Järjestä vaunutyypin mukaan."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Tyyppi"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Nimi"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Klikkaa nollataksesi suodattimen asetukset."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Nollaa kaikki suodattimet"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Selvä!"
+
+msgid "junkTankmen/description"
+msgstr "Näillä miehistön jäsenillä on vähemmän kuin {bond_Open}210 060{bond_Close}{icon} kokemuspistettä, joka vaaditaan ensimmäisen pätevyyden kouluttamiseen {whiteSpanish_Open}100%{whiteSpanish_Close} tasolle.\nHeidät poistetaan tililtäsi."
+
+msgid "junkTankmen/title"
+msgstr "Lähetä alikoulutetut miehistön jäsenet eläkkeelle?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Kullakin ylimääräisellä taidolla on {whiteSpanish_Open}kolmen{whiteSpanish_Close} pätevyyden raja. Pääsy uuteen bonuspätevyyteen aukeaa {whiteSpanish_Open}ensimmäisen{whiteSpanish_Close}, {whiteSpanish_Open}kolmannen{whiteSpanish_Close} ja {whiteSpanish_Open}viidennen{whiteSpanish_Close} päätaidon pätevyyden saavuttamisen myötä."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Bonuspätevyydet"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Uudelleen koulutettaessa miehistön jäsentä toiseen vaunuun, jossa on eri valikoima päätaitoja, voit valita pätevyydet ylimääräiselle taidolle uudelleen."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Bonuspätevyydet koulutetaan kaksi kertaa hitaammin kuin päätaidon pätevyydet."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Bonuspätevyyksien kouluttamiseen ei tarvita kokemuspisteitä."
+
+msgid "matrix/freeResetButton"
+msgstr "Nolla ilmaiseksi"
+
+msgid "matrix/increaseButton"
+msgstr "Nopeuta koulutusta"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Miehistön jäsen on saavuttanut koulutusrajan."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Koulutuksen nopeuttaminen ei onnistu"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Kouluta pätevyyksiä käyttämällä vapaata kokemusta ja miehistökirjoja."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Pikakoulutus"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Yhteensopimaton päätaito"
+
+msgid "matrix/qualification/1"
+msgstr "Tärkein päätaito"
+
+msgid "matrix/qualification/2"
+msgstr "Toinen päätaito"
+
+msgid "matrix/qualification/3"
+msgstr "Kolmas päätaito"
+
+msgid "matrix/qualification/4"
+msgstr "Neljäs päätaito"
+
+msgid "matrix/qualification/5"
+msgstr "Viides päätaito"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Nollapätevyydet eivät ole saatavilla toiselle päätaidolle"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Nollapätevyydet eivät ole saatavilla kolmannelle päätaidolle"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Nollapätevyydet eivät ole saatavilla neljännelle päätaidolle"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Toinen päätaito ei ole saatavilla tälle vaunulle"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Kolmas päätaito ei ole saatavilla tälle vaunulle"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Neljäs päätaito ei ole saatavilla tälle vaunulle"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Viides päätaito ei ole saatavilla tälle vaunulle"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Kullekin ylimääräiselle taidolle on {whiteSpanish_Open}kolmen{whiteSpanish_Close} pätevyyden raja. Bonuspätevyydeksi voi valita vain tämän taidon pätevyyksiä."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Päätaidolle on {whiteSpanish_Open}kuuden{whiteSpanish_Close} pätevyyden raja (nollapätevyys mukaan lukien)."
+
+msgid "matrix/resetButton"
+msgstr "Nollaa"
+
+msgid "matrix/resetButtonHint"
+msgstr "KLIKKAA ALUSTAAKSESI PÄTEVYYDET"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Sinulla ei ole koulutettuja pätevyyksiä."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Pätevyyksien nollaaminen ei onnistu"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Klikkaa alustaaksesi pätevyydet."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Alusta pätevyydet"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Bonuspätevyys saatavilla koulutettavaksi"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Bonuspätevyyksien kouluttamiseen ei tarvita miehistökokemusta."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Ei saatavilla"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Avataan, kun kolmas päätaidon pätevyys koulutetaan. Ei vaadi kokemusta."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Avataan, kun viides päätaidon pätevyys koulutetaan. Ei vaadi kokemusta."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Koulutustaso"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "Vaaditun kokemuksen kokonaismäärää on alennettu, koska miehistön jäsenellä on nollapätevyys."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "Vaaditun kokemuksen kokonaismäärää on alennettu, koska miehistön jäsenellä on kaksi nollapätevyyttä."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Pätevyys saatavilla koulutettavaksi"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Ei saatavilla"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Edellisen pätevyyden täytyy olla koulutettu 100% tasolle."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Nollapätevyys saatavilla koulutettavaksi"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Nollapätevyydet koulutetaan aina ensin, vaikka useita pätevyyksiä valittaisiin kerralla. Niiden kouluttamiseen ei tarvita miehistökokemusta."
+
+msgid "matrix/skills/allSkills"
+msgstr "Kaikki ylimääräiset tälle vaunulle koulutetut pätevyydet"
+
+msgid "matrix/skills/available"
+msgstr "Koulutettavissa olevat pätevyydet:"
+
+msgid "matrix/skills/bonus"
+msgstr "Bonuspätevyydet"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Pätevyyksiä ei ole saatavilla"
+
+msgid "matrix/skills/locked"
+msgstr "Pätevyyksiä ei ole saatavilla"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Kaikki pätevyydet on poistettu käytöstä tälle vaunulle"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Päätaidon pätevyydet"
+
+msgid "matrix/skills/reduced"
+msgstr "Pätevyystehokkuutta vähennetty"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Komentajan pätevyydet"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Ajajan pätevyydet"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Komentajan pätevyydet"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Ajajan pätevyydet"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Ampujan pätevyydet"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Lataajan pätevyydet"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Radistin pätevyydet"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Ampujan pätevyydet"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Lataajan pätevyydet"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Radistin pätevyydet"
+
+msgid "matrix/skills/training"
+msgstr "Pätevyyksien koulutus"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Koulutettavissa olevat nollapätevyydet:"
+
+msgid "memberChange/action/recruit"
+msgstr "Värvää {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount}% ALENNUS PÄÄTAIDON VAIHTAMISEEN"
+
+msgid "memberChange/title"
+msgstr "VALITSE {role}: {vehicle} "
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}varastossa{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Vahvistuksen jälkeen miehistön jäsen, joka siirtää kokemuksensa, poistetaan tililtäsi."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Opetuslupa mahdollistaa miehistökokemuksen siirtämisen yhdeltä miehistön jäseneltä toiselle saman kansakunnan miehistön jäsenelle."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Opetuslupa"
+
+msgid "personalData/card/edit"
+msgstr "Muokkaa"
+
+msgid "personalData/card/remove"
+msgstr "Poista"
+
+msgid "personalData/card/restrictions"
+msgstr "Rajoitukset: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Klikkaa korvataksesi miehistön jäsenen nimi ja ulkonäkö."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Ulkonäkö"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Tällä miehistön jäsenellä on jo ainutlaatuinen nimi ja ulkonäkö."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Nimen ja ulkonäön korvaaminen ei onnistu"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Mitään ei löytynyt. Vaihda asetuksia tai alusta suodattimet."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Konfiguroi skinien näyttäminen niiden kansakunnan mukaan."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Suodata param. mukaan"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Näytä dokumentit."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Dokumentit"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Näytä soveltuvat skinit."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Soveltuvat skinit"
+
+msgid "personalData/filter/type/title"
+msgstr "Tyyppi"
+
+msgid "personalData/title"
+msgstr "KORVAA NIMI JA ULKONÄKÖ"
+
+msgid "personalFile/changeVehicle"
+msgstr "Vaihda"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Tämän miehistön jäsenen kouluttaminen eri vaunuun ei onnistu."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Toiminto ei saatavilla"
+
+msgid "personalFile/discount/full"
+msgstr "Alennus miehistön uudelleenkouluttamisesta saatavilla"
+
+msgid "personalFile/discount/short"
+msgstr "Alennus saatavilla"
+
+msgid "personalFile/inVehicle"
+msgstr "Vaunussa: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Kartuta"
+
+msgid "personalFile/isUntrained"
+msgstr "Ei koulutettu tähän vaunuun"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Kaikki {icon} premium-vaunut"
+
+msgid "personalFile/retrain"
+msgstr "Uudelleenkouluta"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Pätevyystehokkuus:"
+
+msgid "personalFile/specialization"
+msgstr "Erikoistuminen:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Erikoistuminen"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Klikkaa kuunnellaksesi näyte tämän komentajan ääninäyttelystä."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Ainutlaatuinen ääninäyttely"
+
+msgid "postProgression/button/claim"
+msgstr "Ota vastaan palkkio"
+
+msgid "postProgression/description"
+msgstr "Kaikki miehistön jäsenet, joilla on kaikki kuusi päätaidon pätevyyttä koulutettuna saavat pääsyn yhteiseen jälkiedistymiseen. Jokaista jälkiedistymisessä ansaittua 100 000 kokemuspistettä kohden saat yleisen koulutusoppaan, jota voi käyttää muiden miehistöjen kouluttamiseen."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "Jälkiedistyminen koostuu yhteisestä mittarista kaikille pelaajan tilin miehistön jäsenille, joilla on kuusi täysin koulutettua päätaidon pätevyyttä."
+
+msgid "postProgression/tips/2"
+msgstr "Vain taistelukokemus lasketaan jälkiedistymiseen. Puolet miehistön jäsenen taistelussa ansaitsemasta taistelukokemuksesta jaetaan vaunun miehistön jäsenten määrällä ja lisätään jälkiedistymisen mittariin."
+
+msgid "postProgression/tips/3"
+msgstr "Kokemuksen menettäminen pätevyyksistä tai tehokkuudesta ei vaikuta jälkiedistymiseen."
+
+msgid "postProgression/title"
+msgstr "MIEHISTÖN JÄLKIEDISTYMINEN"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Kaikilla miehistön jäsenillä, joilla oli pääsy jälkiedistymiseen on matala pätevyystehokkuus."
+
+msgid "postProgression/warning/retire"
+msgstr "Kaikki miehistön jäsenet, joilla oli pääsy jälkiedistymiseen on lähetetty eläkkeelle tai menettivät kokemusta viimeisestä pätevyydestään."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Kaikki premium PST-vaunut"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Kaikki premium-telatykit"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Premium PST-vaunut"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Premium-telatykit"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Raskaat premium-vaunut"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Kevyet premium-vaunut"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Keskiraskaat premium-vaunut"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Kaikki raskaat premium-vaunut"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Kaikki kevyet premium-vaunut"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Kaikki keskiraskaat premium-vaunut"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "PALKINNOT"
+
+msgid "serviceRecord/averageXP"
+msgstr "Keskim. kokemus per taistelu"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Taisteluita"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Saavutuksia tai palkintoja ei ole ansaittu taisteluista."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Ansaitun kokonaiskokemuksen suhde käytyihin taisteluihin tällä vaunulla, johon miehistön jäsen on määrätty."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Keskimääräinen kokemus per taistelu"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Miehistön jäsenen sotilasarvo riippuu hänen kokemuksestaan ja koulutettujen pätevyyksien määrästä."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Sotilasarvo"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Miehistön jäsen on oppinut kaikki pätevyydet tälle vaunulle"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Koulutettavissa olevat pätevyydet"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Kaikki pätevyydet poistettu käytöstä tälle vaunulle"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Ylimääräisen taidon pätevyyksien kouluttamiseen ei tarvita kokemusta. Ne koulutetaan kaksi kertaa päätaidon pätevyyksiä hitaammin."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Peruuta"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Kouluta"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "BONUS PÄÄTAITOON"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "PÄÄTAITO"
+
+msgid "tankChange/title"
+msgstr "KOULUTA VAUNULLE"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Näytä vaunut tallissa."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "Tallissa"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Muuta, miten vaunut näytetään niiden tyypin ja tason perusteella."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Suodata param. mukaan"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Sinun ei tarvitse kouluttaa miehistön jäseniä premium-vaunuihin. Voit siirtää miehistön saman tyyppiseen premium-vaunuun ilman rangaistusta."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Premium-vaunu"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Vaunun nimi voi sisältää korkeintaan %(maxLength)s merkkiä."
+
+msgid "tankman/action/dismiss/title"
+msgstr "LÄHETÄ ELÄKKEELLE"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Lähetä tämä miehistön jäsen eläkkeelle."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Tämän miehistön jäsenen lähettäminen eläkkeelle ei onnistu."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Toiminto ei saatavilla"
+
+msgid "tankman/action/recruit/title"
+msgstr "VÄRVÄÄ"
+
+msgid "tankman/action/restore/title"
+msgstr "PALAUTA"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Palauta tämä miehistön jäsen."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Klikkaa kuunnellaksesi näyte tämän komentajan ääninäyttelystä."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Ainutlaatuinen ääninäyttely"
+
+msgid "tankman/recruit"
+msgstr "Värvää"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Ulkonäkö"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profiili"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Palvelushistoria"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Värvää"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Alusta suodatin"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Mitään ei löytynyt. Vaihda asetuksia tai alusta suodattimet."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Mitään ei löytynyt. Värvää miehistön jäsen."
+
+msgid "tankmanList/filter/title"
+msgstr "Miehistön jäsenet:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Ei riittävästi punkkia kasarmilla."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Näytä/piilota vain eläköityneet miehistön jäsenet."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Eläköityneet"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Näytä miehistön jäsenet, jotka ovat kasarmilla."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "Kasarmilla"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Näytä miehistön jäsenet, jotka ovat vaunuissa."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "Vaunuissa"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Näytä/piilota tämän kansakunnan skinit."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Muokkaa miehistön jäsenten näyttämistä heidän päätaitonsa, erikoistumisensa ja muiden parametrien mukaan."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Suodata param. mukaan"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Värvää uusi miehistön jäsen."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Nimi voi sisältää korkeintaan %(maxLength)s merkkiä."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Kursorin pitäminen pätevyyden päällä näyttää, kuinka se vaikuttaa nykyisellä pätevyystehokkuudella sitä vastaaviin ominaisuuksiin 100% tasolle koulutettuna."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Selvä!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Kullekin päätaidolle on esitelty kaksi uutta pätevyyttä, luotettava sijoittelu on tehty uusiksi ja uusi asetus mahdollistaa pätevyyksien piilottamisen taistelunäkymässä."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Näppärä uusi toiminto mahdollistaa alikoulutettujen miehistön jäsenten lähettämisen eläkkeelle yhdellä klikkauksella."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Pätevyydet voi nyt nollata vain krediiteillä ilman kokemuksen menettämistä."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Uusia pätevyyksiä ja ominaisuuksia on lisätty ja olemassa olevaa pätevyyttä on päivitetty."
+
+msgid "welcomeScreen/title"
+msgstr "PÄIVITYKSIÄ MIEHISTÖÖN"

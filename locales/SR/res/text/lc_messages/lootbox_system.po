@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "Posada i trening"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "Prilagođavanje"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "Oprema i direktive"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "Ostalo"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "Vozila"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "Razumem!"
+
+msgid "autoOpenView/title"
+msgstr "PRIMLJENE NAGRADE"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Razumem!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "Direktiva"
+
+msgid "bonuses/description/booster"
+msgstr "Lična Rezerva"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Izgled posade"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standardna oprema"
+
+msgid "bonuses/description/style"
+msgstr "2D stil"
+
+msgid "bonuses/description/style3D"
+msgstr "3D stil"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "Fragment nacrta (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "Univerzalni fragment nacrta"
+
+msgid "bonuses/label/bpcoin"
+msgstr "Žeton borbene propusnice"
+
+msgid "boxTooltip/description/text/default"
+msgstr "Prilikom otvaranja može da da vozila, ekonomske resurse i druge vredne stvari.\nKutije su dostupne u prodavnici u igri."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "otvaranja preostalo do zagarantovane nagrade, ako ne ispadne ranije."
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "Kutije su dostupne u prodavnici u igri."
+
+msgid "common/backButton"
+msgstr "NAZAD"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "Taktička kutija"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "TAKTIČKA KUTIJA"
+
+msgid "common/closeButton"
+msgstr "ZATVORI"
+
+msgid "common/footer/checkbox"
+msgstr "Početna animacija"
+
+msgid "common/getButton/lowerCase"
+msgstr "Uzmi još"
+
+msgid "common/getButton/upperCase"
+msgstr "UZMI JOŠ"
+
+msgid "common/infoButton"
+msgstr "Šta je unutra?"
+
+msgid "common/loader"
+msgstr "Otvaranje kutije..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) kom."
+msgstr[1] "%(count) kom."
+msgstr[2] "%(count) kom."
+
+msgid "common/rewards/multiplier"
+msgstr "x{count}"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "dan"
+msgstr[1] "dana"
+msgstr[2] "dana"
+
+msgid "common/selectTooltip"
+msgstr "Nema dovoljno kutija da otvoriš {{count}} odjednom"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Otvori kutije da bi video statistiku."
+
+msgid "common/statistics/header"
+msgstr "Kutija otvoreno: %(count)"
+
+msgid "common/statsButton"
+msgstr "Statistika"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "Otkaži"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Tvoja istorija nagrada će biti obrisana."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "Poništi"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "Resetuj statistiku?"
+
+msgid "entryPoint/boxes"
+msgstr "NA KUTIJE"
+
+msgid "entryPoint/count"
+msgstr "×%(count)"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "×999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Ove specijalne kutije sadrže nove i jedinstvene stvari., Mogu se nabaviti u prodavnici u igri."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Događaj se završava za"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Imamo tehničkih poteškoća i pauzirali smo privremeno događaj dok ne otklonimo problem."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Trenutno nedostupno"
+
+msgid "eventName/lowerCase"
+msgstr "Potrepštine sa bojišta"
+
+msgid "eventName/upperCase"
+msgstr "POTREPŠTINE SA BOJIŠTA"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "svako %(count) otvaranje"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "Vozilo"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "%(item) je zagarantovano %(count). Brojač se poništava ako jedno ispadne ranije."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Ako već imaš sva vozila, dobićeš nagradu u zlatu."
+
+msgid "guaranteedTitle/text"
+msgstr "%(name) za %(count) otvaranja"
+
+msgid "guaranteedTitle/textName"
+msgstr "Garantovana nagrada"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "Otvori"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "Događaj se završava za %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ako ne otvoriš sve kutije pre završetka događaja, biće otvorene automatski kasnije."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ako već imaš sva vozila sa liste mogućih iz kutije, onda će sva sledeća vozila koja dobiješ iz kutija biti kompenzovana u zlatu jednako njihovoj punoj vrednosti."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Svaka %(guaranteed0)s kutija garantovano sadrži vozila nivoa VIII - X. Ako ih otvoriš bez dobijenog vozila, onda će vozilo VIII-X nivoa koje ne poseduješ ispasti kada otvoriš %(guaranteed0)s&zwnbsp;. kutiju (u zavisnosti od tipa kutije). Kada se to dogodi, brojač se poništava."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Automatsko otvaranje"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Kompenzacija"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Garantovana nagrada"
+
+msgid "infoPage/header/lootListLink"
+msgstr "Pogledaj listu stvari na portalu igre"
+
+msgid "infoPage/header/probability/description"
+msgstr "Verovatnoća dropa"
+
+msgid "infoPage/header/probability/title"
+msgstr "Grupa"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Moguć je drop samo jedne nagrade po grupi"
+
+msgid "infoPage/header/rewards/title"
+msgstr "Nagrade"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "Otvori još"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Iz %(name) (%(boxesCount) otvorenih kutija)"
+
+msgid "multipleRewardView/header/title/"
+msgstr "PRIMLJENE NAGRADE"
+
+msgid "noBoxesView/description/"
+msgstr "Kutije su dostupne u prodavnici u igri"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "Na prodavnicu"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Na dostupne kutije"
+
+msgid "preview/backLabel"
+msgstr "NA KUTIJE"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Dostupno: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nema više kutija"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "Nastavi"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "za %(vehicleInfo)"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "%(style) 3D stila"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "Događaj «%(eventName)s» se završio"
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "Sve preostale kutije će biti otvorene. Njihov sadržaj će biti dodat na tvoj nalog."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Pogledaj nagrade"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Dobijene nagrade"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Dodali smo stvari koje nisi dobi tokom događaja."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "Događaj je trenutno nedostupan zbog održavanja."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "Događaj je ponovo dostupan. Izvinjavamo se zbog neugodnosti."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s kom.)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "Greška"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "Molim sačekaj dok se prethodna operacija ne završi."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "Akcija je trenutno nedostupna. Pokušaj ponovo kasnije."
+
+msgid "serviceChannelMessages/start/button"
+msgstr "Idi na događaj"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "Događaj «%(eventName)s» je počeo"
+
+msgid "serviceChannelMessages/start/text"
+msgstr "Samo do %(date)s: Premium vozila i vredne stvari iz igre!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "Poništavanje statistike je nemoguće. Molim pokušaj ponovo kasnije."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "I takođe"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "Otvori još"
+
+msgid "singleRewardView/header/title/"
+msgstr "PRIMLJENE NAGRADE"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "Jedinstveni član posade"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "3D dodaci"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "Misije za x5 iskustva po borbi"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "Direktive"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "Fragmenti nacrta"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "Knjižice"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "Trening knjižice"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "Potrošni materijal"
+
+msgid "statisticsRewards/label/credits"
+msgstr "Krediti"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "Uputstva"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "Trening uputstva"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "Misije za x3 iskustva posade"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "Bonovi"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "Prilagođavanje"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "Poboljšana oprema"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "Komponente"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "Eksperimentalna oprema"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "Slobodno iskustvo"
+
+msgid "statisticsRewards/label/gold"
+msgstr "Zlato"
+
+msgid "statisticsRewards/label/guide"
+msgstr "Vodiči"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "Trening vodič"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "Mentorska licenca"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "Standardna oprema"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "Lične rezerve"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "WoT Premium nalog"
+
+msgid "statisticsRewards/label/rations"
+msgstr "Sledovanja"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "Retrening naređenja"
+
+msgid "statisticsRewards/label/style"
+msgstr "2D stilovi"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "3D stilovi"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "Članovi posade"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "Nagradna oprema"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "Vozila"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "Poništavanje statistike"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "Klikni da poništiš svu statistiku."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "I još %(count) nagrada."
+msgstr[1] "I još %(count) nagrade"
+msgstr[2] "I još %(count) nagrada"
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "«%(label)»"
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "x%(count)"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "Nacionalni fragment nacrta"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). «%(label)» za %(vehicleInfo)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "Kompenzovani stilovi: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "Kompenzovana vozila: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "Kompenzacija za vozilo koje je već u tvojoj garaži."

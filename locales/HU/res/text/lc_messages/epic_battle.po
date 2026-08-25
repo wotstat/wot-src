@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "Tartalékok elosztása"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "Kattints egy elérhető Harci tartalék kiválasztásához."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "Bombák"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "Becsapódási zóna"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "Bénítás"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "Bevetés"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "Aknák száma"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "Aknamező időtartama"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "Bénítás"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "Sebzési kör"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "Időtartam"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "Lőszerek"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "Újratöltődés"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "Bevetés"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "Időtartam"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "Visszatöltött életerő"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "Azonnali életerő visszaállítás aktiváláskor"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "Csökkentett aknák által okozott sérülés"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "Bónusz az életerő visszaállítás sebességéhez az Utántöltési körön belül"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "Legénység teljesítménye"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "Időtartam"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "Kikapcsolási idő"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "Hatósugár"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "Jármű legénységének teljesítménye"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "Fokozott védelem"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "Foglalási bónusz"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "Utántöltési kör újratöltődése"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "Lőszer-utánpótlás sebessége"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "Érkezési idő"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "Becsapódási zóna"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750 m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "Felderítés időtartama"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "Csökkent legénységi teljesítmény"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "Füst gránátok"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "Becsapódási zóna"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "Időtartam"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "Csökkentett látótávolság az ellenséges járműveknek"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "Csökkentett növényzet mögötti álcázás az ellenséges járműveknek"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "Csökkentett álcázás a mozgó ellenséges járműveknek"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "Időtartam"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "Bónusz a mozdulatlan jármű álcázásához"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "Passzív bónusz a látótávolsághoz"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "Tartalék szintje"
+
+msgid "abilityInfo/properties/static"
+msgstr "Állandó jellemzők"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "mp"
+
+msgid "advance_message_txt"
+msgstr "Tovább a Frontvonalhoz"
+
+msgid "advance_mission_txt"
+msgstr "Tovább a Frontvonalhoz"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "A FORGATÓKÖNYV RÉSZLETEI"
+
+msgid "awards/acceptButton"
+msgstr "Értettem!"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "JUTALMAK MEGSZEREZVE"
+
+msgid "awards/subTitle2"
+msgstr "JUTALOM MEGSZEREZVE"
+
+msgid "awards/title"
+msgstr "FRONTVONAL"
+
+msgid "base/contested_atk"
+msgstr "Vitatott terület"
+
+msgid "base/contested_def"
+msgstr "Támadás alatt"
+
+msgid "battleResults/armor"
+msgstr "Felfogott sebzés"
+
+msgid "battleResults/assistance"
+msgstr "Közreműködés"
+
+msgid "battleResults/crits"
+msgstr "Kritikus sérülés"
+
+msgid "battleResults/damage"
+msgstr "Sebzés"
+
+msgid "battleResults/kill"
+msgstr "Megsemmisítve"
+
+msgid "battleResults/spotting"
+msgstr "Felderítve"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "1x Személyes tartalék: %(effectValue)s legénységi tapasztalat %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "1x Személyes tartalék: %(effectValue)s szabad tapasztalat %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "1x Személyes tartalék: %(effectValue)s harci tapasztalat %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Támadd meg a(z) %(int32Arg1)s célpontot"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Védd meg a(z) %(int32Arg1)s célpontot"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Figyelem a területre!"
+
+msgid "command_shortcut/title"
+msgstr "Parancsok"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "Front blokkolva van - elérte a játékos limitet"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "Veszélyzóna"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "Front blokkolva van - elérte a jármű típus limitet"
+
+msgid "dialogs/quotedName"
+msgstr "„%(name)s“"
+
+msgid "dialogs/title/buy/item"
+msgstr "Megvásárolod a(z) %(name)s %(type)sot?"
+
+msgid "dialogs/title/buy/items"
+msgstr "Megvásárolod a %(type)sot?"
+
+msgid "dialogs/title/install/item"
+msgstr "Aktiválod a(z) %(name)s %(type)sot?"
+
+msgid "dialogs/title/install/items"
+msgstr "Aktiválod a %(type)sot?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "Gyűjtsd össze a megfelelő mennyiségű pontot és aktiváld a frontvonal harci tartalékokat."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "Gyűjtsd össze a megfelelő mennyiségű pontot és aktiváld a frontvonal harci tartalékokat."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "Harci tartalék pontok"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "%(level)s járművek a második vonal (D, E vagy F) bármely pontjának elfoglalása/elvesztése után lesznek feloldva."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "%(lvl)s szintű"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "Válassz egy VIII-as szintű járművet a Frontvonal módhoz."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "Nem kompatibilis jármű"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "Megszerez"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "Max."
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "Harci tartalékok"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "Parancsnok szintje"
+
+msgid "epictraining/info/otherLabel"
+msgstr "Elosztásra váró játékosok: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "Támadók ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "Védők ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "Minden ellenséges jármű megsemmisült"
+
+msgid "game/all_hqs_destroyed"
+msgstr "Minden célpont megsemmisült"
+
+msgid "game/all_tanks_defeated"
+msgstr "Összes szövetséges jármű megsemmisült"
+
+msgid "game/defeat"
+msgstr "Vereség!"
+
+msgid "game/draw"
+msgstr "Döntetlen!"
+
+msgid "game/time_over"
+msgstr "Épségben maradt célpontok"
+
+msgid "game/victory"
+msgstr "Győzelem!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "Semmisítsd meg a célpontokat!"
+
+msgid "global_msg/atk/time_short"
+msgstr "Foglalj el egy zónát!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "Védd a célpontokat!"
+
+msgid "global_msg/def/time_short"
+msgstr "Védd a zónákat!"
+
+msgid "global_msg/lane/center_short"
+msgstr "Erősítést kérek a(z) %(strArg1)s zónába!"
+
+msgid "global_msg/lane/east_short"
+msgstr "Erősítést kérek a(z) %(strArg1)s zónába!"
+
+msgid "global_msg/lane/west_short"
+msgstr "Erősítést kérek a(z) %(strArg1)s zónába!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "Óvd a tankjaid!"
+
+msgid "help_window/communication"
+msgstr "Kommunikációs terület"
+
+msgid "help_window/communication/description"
+msgstr "Csak a kistérképen látható csapattársaktól kaphatsz parancsokat vagy akkor, ha a parancs célpontja azon a területen van."
+
+msgid "help_window/overview_map"
+msgstr "Áttekintő térkép"
+
+msgid "help_window/overview_map/description"
+msgstr "Az áttekintő térképpel taktikai és stratégiai nézetben is megnézheted a csatamezőt. Mikor megnyitod az áttekintő térképet, az egész csapat kommunikációjához hozzáférsz és üzeneteket is küldhetsz nekik."
+
+msgid "help_window/recovery"
+msgstr "Visszaállítás"
+
+msgid "help_window/recovery/description"
+msgstr "A kivonás használatával a beszorult jármű önmegsemmisítést hajt végre. Ez a játékelem azért szükséges, hogy a megnövekedett csata idő és újraéledési lehetőségek miatt a játékosok folyamatos összecsapása tarható legyen."
+
+msgid "help_window/reserves"
+msgstr "Jármű tartalékok"
+
+msgid "help_window/reserves/description"
+msgstr "Néhány percenként egy jármű adódik hozzá a tartalékodhoz. A tartalékod maximum két járműből állhat. Ha nem maradt járműved, nem tudsz játszani, meg kell várnod, amíg új járművet kapsz."
+
+msgid "hq/under_attack_atk"
+msgstr "Támadás alatt"
+
+msgid "hq/under_attack_def"
+msgstr "Támadás alatt"
+
+msgid "in_game_rank/experience_text"
+msgstr "XP"
+
+msgid "lane_central_name"
+msgstr "Középső"
+
+msgid "lane_east_name"
+msgstr "Kelet"
+
+msgid "lane_west_name"
+msgstr "Nyugat"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "Szint: %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "Nem lehet megszerezni: Nincs elég harci tartalék pontod."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "A harci tartalék elérte a maximális szintjét."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "Fejlesztés nem elérhető: Nincs elég harci tartalék pontod."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "Nem vásároltad meg a harci tartalékot"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "A harci tartalék szintje megnő, amint eléred a százados és őrnagy rangokat a csatában. A maximális szintet a harci szituáció határozza meg."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "Vételár: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "Fő célpont"
+
+msgid "mission/title"
+msgstr "Küldetés"
+
+msgid "mission/zone_closing_atk"
+msgstr "Zóna megnyitásáig hátravan: "
+
+msgid "mission/zone_closing_def"
+msgstr "Ellenséges csapásig hátravan: "
+
+msgid "missions/primary/atk/base"
+msgstr "Foglald el a zónát"
+
+msgid "missions/primary/atk/hq"
+msgstr "Semmisítsd meg a célpontot"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s / %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "Megsemmisített célpontok:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "Foglald el a zónákat, hogy elérd a fő célpontokat. Semmisítsd meg a fő célpontokat."
+
+msgid "missions/primary/def/base"
+msgstr "Védd meg a zónát"
+
+msgid "missions/primary/def/hq"
+msgstr "Védd meg a célpontot"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s / %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "Elvesztett célpontok:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "Védd meg a fő célpontokat, amíg lejár az idő vagy semmisíts meg minden támadót."
+
+msgid "missions/unlockTankLevel"
+msgstr "IX-es szintű járművek elérhetőek"
+
+msgid "overtime/label"
+msgstr "HOSSZABBÍTÁS"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "Nem aktiválhatsz két azonos tartalékot"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "Nem lehet aknamezőt telepíteni. Az aknamezők keresztezik egymást."
+
+msgid "primeTime/applyBtn"
+msgstr "Folytatás"
+
+msgid "primeTime/cancelBtn"
+msgstr "Mégse"
+
+msgid "primeTime/continueBtn"
+msgstr "Folytatás"
+
+msgid "primeTime/endOfCycle"
+msgstr "A játékmód a(z) %(server)s szerveren befejeződött."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "Elérhető szerverek:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "Elérhető szerver: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "A(z) %(server)s szerveren a csaták elérhetőek lesznek további %(time)s-ig"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "Következő csaták a(z) %(server)s szerveren %(time)s belül indulnak"
+
+msgid "primeTime/serverTooltip"
+msgstr "%(server)s szerveren \na csaták elérhetőek lesznek további %(time)s-ig"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Csaták elérhetőek lesznek: %(time)s"
+
+msgid "primeTime/servers"
+msgstr "Elérhető szerverek: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "A csaták a(z) %(server)s szerveren befejeződtek"
+
+msgid "primeTime/status/disable"
+msgstr "Át tudsz váltani egy Frontvonal szerverre, hogy folytathasd a csata előtti előkészületeket."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "A játékmód nem elérhető a(z) %(server)s szerveren"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "Tűzszünet van érvényben a(z) %(server)s szerveren %(startTime)s időpontig"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "Tűzszünet van érvényben minden szerveren"
+
+msgid "primeTime/status/thisEnable"
+msgstr "%(server)s szerveren a frontvonal játékmód elérhető további %(time)s-ig."
+
+msgid "primeTime/steelhunter/title"
+msgstr "ACÉLVADÁSZ"
+
+msgid "primeTime/title"
+msgstr "FRONTVONAL"
+
+msgid "primeTime/titleWelcome"
+msgstr "ÜDVÖZLÜNK\nA FRONTVONALON"
+
+msgid "progress_timers/active"
+msgstr "Aktív"
+
+msgid "progress_timers/fully_equipped"
+msgstr "Teljesen felszerelve"
+
+msgid "progress_timers/resupply"
+msgstr "Utántöltési kör"
+
+msgid "progress_timers/unavailable"
+msgstr "Nem elérhető"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "Frontvonal küldetések"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "kevesebb, mint 1 nap"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "érd el %(level)s. szintet"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "Új küldetések lesznek elérhetőek, ekkor: %(time)s"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "Acélvadász-küldetések"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "Frontvonal véget ér ekkor: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "Nem elérhető: %(reason)s."
+
+msgid "rank/allReserveUpgraded"
+msgstr "Az összes harci tartalék szintje megnövekedett"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "A legénység teljesítményének csapatbónusza +%(percent)s%%-ra nőtt"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "A legénység elérte a maximális teljesítményét +%(percent)s%%-nál"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "A legénység teljesítményének csapatbónusza +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "Játékos"
+
+msgid "rank/promotion"
+msgstr "előléptetve %(rank)s%(placeholder)s rangra"
+
+msgid "rank/rank1"
+msgstr "Közlegény"
+
+msgid "rank/rank2"
+msgstr "Őrmester"
+
+msgid "rank/rank3"
+msgstr "Hadnagy"
+
+msgid "rank/rank4"
+msgstr "Százados"
+
+msgid "rank/rank5"
+msgstr "Őrnagy"
+
+msgid "rank/rank6"
+msgstr "Ezredes"
+
+msgid "rank/recerveUnlocked"
+msgstr "%(reserveName)s harci tartalék feloldva"
+
+msgid "rank/reserveUpgraded"
+msgstr "%(reserveName)s harci tartalék fejlesztve"
+
+msgid "rank/slotUnlocked"
+msgstr "%(slotNumber)s harci tartalék feloldva"
+
+msgid "rank/slot_2"
+msgstr "A 2."
+
+msgid "rank/slot_3"
+msgstr "A 3."
+
+msgid "recovery/Blocked"
+msgstr "Átmenetileg\nblokkolva"
+
+msgid "recovery/disabled"
+msgstr "Kivonás nem érhető el"
+
+msgid "recovery_panel/base_text"
+msgstr "Nyomd meg a \"J\"-t\na kivonáshoz"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "Mozogj vagy tüzelj a megszakításhoz."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "Kivonás\nvisszavonva"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "Kivonás\nkérvényezve"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "Foglald el a következő bázist"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "Erősítés: "
+
+msgid "reinforcement/unavailable"
+msgstr "Erősítés nem érhető el"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s mp van hátra az automatikus bevetésig."
+
+msgid "respawn/deploy_button"
+msgstr "Csata!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "Fejlesztett fogyócikkeket nem vásárolhatsz a csatában."
+
+msgid "respawn/shop_title"
+msgstr "Szerviz"
+
+msgid "respawn/tanks_left"
+msgstr "megmaradt járművek"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "Válassz egy járművet és belépési területet"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "Veszélyes ezen a területen belépni a csatába."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s másodperc"
+
+msgid "retreat_message_txt"
+msgstr "Visszavonulás"
+
+msgid "retreat_mission_txt"
+msgstr "Vonulj vissza a következő zónába"
+
+msgid "rewardSelection/subTitle"
+msgstr "VÁLASZD KI A JUTALMAD"
+
+msgid "rewardSelection/title"
+msgstr "FRONTVONAL"
+
+msgid "scorePanel/stage1"
+msgstr "1. szakasz"
+
+msgid "scorePanel/stage2"
+msgstr "2. szakasz"
+
+msgid "scorePanel/stage3"
+msgstr "3. szakasz"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "A számítógéped teljesítménye nem megfelelő ehhez a módhoz. Problémákat tapasztalhatsz a grafikával és a jármű mozgásában. Előfordulhat, hogy kifagy a játék kliens."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "Alacsony teljesítmény"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "Ha elégedetlen vagy a teljesítménnyel, próbálj ki egy alacsonyabb minőségű grafikai beállítást."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "Ez a mód nagy teljesítményt igényel a számítógéptől"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "Ez a játékmód nagy teljesítményű számítógépet igényel. Problémákat tapasztalhatsz a pálya betöltésekor, a grafikával és a jármű mozgásában. Ha nem megfelelő a teljesítmény, akkor próbáld meg csökkenteni a grafika minőségét a beállításaidban."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "Alacsony teljesítmény"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "30v30 csaták %(bodyVehicleLevel)s. Használd ki az újraéledési mechanikát, a harci tartalékokat és az utántöltési köröket."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "%(level)s. szintű járművekkel"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "30v30 csaták, %(bodyVehicleLevel)s. Használd ki az újraéledési mechanikát, a harci tartalékokat és a javítást a csatában."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "A játékmód átmenetileg nem érhető el, technikai problémák miatt."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "Frontvonal"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "A csaták elkezdődnek: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "A csaták véget érnek: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "Csata beosztás"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "Ma"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "Holnap"
+
+msgid "skill/category/firesupport"
+msgstr "Támadó tartalékok"
+
+msgid "skill/category/reconnaissance"
+msgstr "Felderítő tartalékok"
+
+msgid "skill/category/tactics"
+msgstr "Taktikai tartalékok"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "Nézelődő mód kamera"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "Irányítsd a kamera forgását az egereddel."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "Használd a W,A,S,D gombokat a kamera irányításához a pályán."
+
+msgid "spectator_mode/follow_text"
+msgstr "Kattints a bal egérgombbal a követéshez."
+
+msgid "spectator_mode/follow_title"
+msgstr "Követés"
+
+msgid "spectator_mode/msg_text"
+msgstr "A jármű érkezéséig hátra van:"
+
+msgid "spectator_mode/msg_title"
+msgstr "Összes tank megsemmisítve!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "Kattints újra a követés leállításához."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "Követés leállítása"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s nap"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s óra"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 perc"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s perc"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "Blokkolva"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Hagyd el a zónát!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Életerő visszaállítása"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Életerő visszaállítása"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Ösztönzés"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "Ösztönzés"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Utántöltési kör"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Füstön belül: álcázva."
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "Füstben. A látótáv és a legénység teljesítménye csökkentve."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "Kikapcsolási idő. A látótáv és a legénység teljesítménye csökkentve."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "Sentinel aktiválva"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "%(activationDelay)s mp után aktiválódik, miután a jármű megállt"
+
+msgid "super_platoon_panel/title"
+msgstr "Szakasz"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "– a legénység teljesítményének csapatbónusza egy tábornok jelenlétében."
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "Minden fronton"
+
+msgid "tab_screen/show_my_lane"
+msgstr "Az én frontom"
+
+msgid "team1Name"
+msgstr "Támadók"
+
+msgid "team2Name"
+msgstr "Védők"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "Válassz jutalmakat a teljesített Frontvonal szintekért (%(number)s)."
+
+msgid "tooltips/common/disabled"
+msgstr "Mód nem elérhető"
+
+msgid "tooltips/common/title"
+msgstr "Frontvonal"
+
+msgid "tooltips/end"
+msgstr "Az esemény véget ért"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "a harci tartalékok feloldásának sorrendje a jármű típusától függ. Egy harci tartalék már a kezdetektől elérhető, míg a többi az őrmesteri, illetve hadnagyi rangok elérésekor oldódik fel."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "Feloldás: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "A <font color='#E9E2BF'>Sorsfordulat</font> szituáció során vásárolt harci tartalékok szintje 1-gyel nő, és lehetőség van a <font color='#E9E2BF'>IV</font>. szintre való fejlesztésükre is."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "Egy harci tartalékot a csata előtt ebbe a férőhelybe helyezve, <font color='#E9E2BF'>10%-kal</font> növelheted annak megszerzési esélyét a <font color='#E9E2BF'>Sorsfordulat</font> szituáció során."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "Tartalékok feloldása és fejlesztése a csatában"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "A harci tartalékok a csatában oldódnak fel és fejlődnek, a jármű típusától és az elért rangodtól függően."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "Tartalék konfigurációk páncélvadászok számára"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "Tartalék konfigurációk önjáró lövegek számára"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "Tartalék konfigurációk nehéz tankok számára"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "Tartalék konfigurációk könnyű tankok számára"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "Tartalék konfigurációk közepes tankok számára"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "miután feloldottad az összes harci tartalékot új rangok elérésével, ezek a harci tartalékok fejlődnek. Az először feloldott harci tartalék III. szintre, míg a másodikként feloldott harci tartalék II. szintre fejleszthető."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "Fejlődés: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "A férőhelyet a(z) %(rank)s rang elérésekor oldod fel."
+
+msgid "tooltips/timeToEnd"
+msgstr "Mód elérhető: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "A csaták elkezdődnek: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "Az esemény véget ért"
+
+msgid "tooltips/widget/level"
+msgstr "Szint: %(level)s"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "Maximum szint elérve."
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "HARCI TARTALÉKOK"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Tűzszünet van érvényben az összes szerveren. A csaták %(time)s múlva lesznek elérhetőek"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "A csaták hamarosan elkezdődnek"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Válassz másik szervert"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "Részletek"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "A Frontvonal mód véget ért."
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "Frontvonal forgatókönyvek"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Tűzszünet van érvényben ezen a szerveren. A csaták %(time)s múlva lesznek elérhetőek"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Tűzszünet van érvényben: %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "A csaták elkezdődnek: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "Kattints ide, hogy további részleteket olvashass a Frontvonal\nforgatókönyvekről és a különbségeikről."
+
+msgid "zone/arrived_text"
+msgstr "Megérkezett!"
+
+msgid "zone/capture_text"
+msgstr "Foglalás"
+
+msgid "zone/captured_text"
+msgstr "Elfoglalva"
+
+msgid "zone/defend_text"
+msgstr "Védekezés"
+
+msgid "zone/destroy_text"
+msgstr "Semmisíts meg"
+
+msgid "zone/destroyed_text"
+msgstr "Megsemmisített"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "Ellenséges erősítés"
+
+msgid "zone/headquarters_text"
+msgstr "Célpontok"
+
+msgid "zone/leave_zone"
+msgstr "Hagyd el a zónát!"
+
+msgid "zone/lost_text"
+msgstr "Elveszítve"
+
+msgid "zone/reached_text"
+msgstr "Elérve"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "Ellenséges erősítés:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "Erősítés:"
+
+msgid "zone/reinforcements_text"
+msgstr "Erősítés"
+
+msgid "zone/time_added"
+msgstr "Perc hozzáadva: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "%(minutes)s perc maradt"
+
+msgid "zone/zone_text"
+msgstr "Zóna"

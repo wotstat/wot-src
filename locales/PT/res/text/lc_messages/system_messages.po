@@ -1,0 +1,4475 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: Equipa WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "A sua conta foi recuperada com sucesso"
+
+msgid "achievements/server_error"
+msgstr "As alterações feitas na fita dos prémios valiosos não foram gravadas."
+
+msgid "actionAchievement/title"
+msgstr "Medalha dos Especiais"
+
+msgid "actionAchievements/title"
+msgstr "Medalhas dos Especiais"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "Erro a treinar para uma aptidão. Veículo errado."
+
+msgid "add_tankman_skill/server_error"
+msgstr "Incapaz de treinar uma nova aptidão.\nServidor indisponível. Tente de novo mais tarde."
+
+msgid "add_tankman_skill/success"
+msgstr "Nova aptidão treinada: %(skill)s"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "Erro a treinar a aptidão. O veículo está bloqueado."
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "Erro a treinar a aptidão. Repare o seu veículo."
+
+msgid "add_tankman_skills/server_error"
+msgstr "Incapaz de treinar novas aptidões.\nServidor indisponível. Tente de novo mais tarde."
+
+msgid "add_tankman_skills/success"
+msgstr "Novas aptidões treinadas: %(skill)s"
+
+msgid "another_periphery"
+msgstr "Ainda está ligado a outro servidor."
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "Erro ao juntar-se à batalha: já entrou para a equipa."
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "Erro ao juntar-se à batalha: número da equipa errado."
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "Erro ao juntar-se. A operação está temporariamente suspensa. Tente novamente mais tarde."
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "Este evento está actualmente indisponível. Siga as últimas notícias no portal do jogo."
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "Erro ao juntar-se à batalha: o convite expirou."
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "Erro ao juntar-se, não têm permissões suficientes."
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "Incapaz de entrar na batalha. A fila está indisponível de momento. Por favor, tente novamente mais tarde."
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "Acção indisponível. A fila está cheia de momento. Por favor, tente novamente mais tarde."
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "Erro ao juntar-se à batalha, a equipa já foi formada."
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "Erro ao juntar-se à batalha: a tempo de ligação expirou."
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "Erro ao juntar-se, indisponível para este Tipo de Conta."
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "Erro a juntar-se à batalha."
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "Erro ao juntar-se, WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "Erro ao juntar-se: a Batalha Histórica selecionada está indisponível."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "Ligação falhou. Por favor selecione o servidor %s."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "Erro na ligação. Por favor selecione outro servidor."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "Erro a juntar-se à batalha: o veículo actual não está pronto."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "Erro: os veículos deste nível não podem combater neste modo de jogo."
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "Incapaz de se juntar à batalha: o veículo não está pronto."
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "Por favor adquira um veículo para entrar numa batalha."
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "Erro ao juntar-se à batalha (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "Erro ao juntar-se à batalha (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "Erro ao juntar-se à batalha (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "Erro ao juntar-se à batalha (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "Erro ao juntar-se à batalha (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "Erro ao juntar-se à batalha (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "Erro ao juntar-se à batalha (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "Erro ao juntar-se à batalha (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "Erro ao juntar-se à batalha (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "Erro ao juntar-se à batalha (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "Erro ao juntar-se à batalha (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "O tempo máximo da fila de espera para batalha expirou. Selecione outro veículo ou tente mais tarde."
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" não encaixa neste veículo."
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "Veículo errado. %(kind)s \"%(name)s\" não está montado."
+
+msgid "artefact_apply/money_success"
+msgstr "%(kind)s \"%(name)s\" foi desmontado do veículo. Gastou %(money)s."
+
+msgid "artefact_apply/server_error"
+msgstr "Erro no servidor ao montar %(kind)s \"%(name)s\". Tente de novo mais tarde."
+
+msgid "artefact_apply/success"
+msgstr "%(kind)s \"%(name)s\" montado no veículo."
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "Veículo bloqueado. %(kind)s \"%(name)s\" não está montado."
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "Veículo danificado. %(kind)s \"%(name)s\" não está montado. Repare o veículo e tente novamente."
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" não encaixa neste veículo."
+
+msgid "artefact_buy/invalid_module"
+msgstr "Incapaz de adquirir %(kind)s \"%(name)s\". Módulo errado."
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "Veículo errado. Incapaz de adquirir e montar %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "Incapaz de adquirir %(kind)s \"%(name)s\". Sem créditos suficientes."
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "Incapaz de adquirir %(kind)s \"%(name)s\". Sem títulos suficientes."
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "Incapaz de adquirir %(kind)s \"%(name)s\". Sem Moedas de Aniversário disponíveis."
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "Incapaz de adquirir %(kind)s \"%(name)s\". Sem ouro suficiente."
+
+msgid "artefact_buy/server_error"
+msgstr "Incapaz de adquirir %(kind)s \"%(name)s\". Tente novamente mais tarde."
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "Incapaz de adquirir %(kind)s \"%(name)s\". O servidor está temporáriamente indisponível."
+
+msgid "artefact_buy/success"
+msgstr "%(kind)s \"%(name)s\" adquirido com sucesso (%(count)s item(s)). Gasto %(money)s."
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "Veículo bloqueado. Incapaz de adquirir e montar %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "Incapaz de adquirir e montar %(kind)s \"%(name)s\". Repare o veículo e tente novamente."
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "Incapaz de desmanchar %(name)s. Módulo errado."
+
+msgid "artefact_deconstructing/server_error"
+msgstr "Incapaz de desmanchar %(name)s. Tente de novo mais tarde."
+
+msgid "artefact_deconstructing/success"
+msgstr "Equipamento desmanchado: %(name)s (x%(count)s). Recebeu %(money)s."
+
+msgid "artefact_deconstructingMult/success"
+msgstr "Equipamento desmanchado: %(names)s. Recebeu %(money)s."
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "'%(equipment)s' não desmontado. Fundos insuficientes."
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "Veículo errado. %(kind)s \"%(name)s\" não está destruído."
+
+msgid "artefact_destroy/server_error"
+msgstr "Erro no servidor ao destruir %(kind)s \"%(name)s\". Tente de novo mais tarde."
+
+msgid "artefact_destroy/success"
+msgstr "%(kind)s \"%(name)s\" destruído com a desmontagem."
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "Veículo bloqueado. %(kind)s \"%(name)s\" não foi destruído."
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "Veículo danificado. %(kind)s \"%(name)s\" não foi destruído. Repare o veículo e tente de novo."
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "%(kind)s \"%(name)s\" desmontado do veículo. Gastou um Kit de Desmontagem."
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "O consumível \"%s\" foi enviado para o Armazém devido à incompatibilidade com o módulo actual."
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "Veículo errado. %(kind)s \"%(name)s\" não foi desmontado."
+
+msgid "artefact_remove/money_success"
+msgstr "%(kind)s \"%(name)s\" foi desmontado do veículo. Gastou %(money)s."
+
+msgid "artefact_remove/server_error"
+msgstr "Erro no servidor ao desmontar %(kind)s \"%(name)s\". Tente de novo mais tarde."
+
+msgid "artefact_remove/success"
+msgstr "%(kind)s \"%(name)s\" desmontado do veículo."
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "Veículo bloqueado. %(kind)s \"%(name)s\" não foi desmontado."
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "Veículo danificado. %(kind)s \"%(name)s\" não foi desmontado. Repare o veículo e tente de novo."
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "%(kind)s \"%(name)s\" foi desmontado do veículo gratuitamente através da sua subscrição activa do WoT Plus."
+
+msgid "artefact_sell/invalid_module"
+msgstr "Incapaz de vender %(kind)s \"%(name)s\". Módulo errado."
+
+msgid "artefact_sell/server_error"
+msgstr "Incapaz de vender %(kind)s \"%(name)s\". Tente de novo mais tarde."
+
+msgid "artefact_sell/success"
+msgstr "%(kind)s \"%(name)s\" (%(count)s item(ns)). Recebido %(money)s."
+
+msgid "artefact_upgrade/server_error"
+msgstr "Erro ao melhorar o equipamento. Por favor tente mais tarde."
+
+msgid "artefact_upgrade/success"
+msgstr "%(kind)s \"%(name)s\" melhorado com sucesso. Características melhoradas. Gasto: %(money)s."
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "O %(name)s %(kind)s foi melhorado com sucesso e as características foram melhoradas. %(money)s gstaos.\n\nO equipamento similar do conjunto alternativo foi enviado para o Armazém."
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "Veículo danificado. %(kind)s \"%(name)s\" não foi melhorado. Repare o veículo e tente novamente."
+
+msgid "badges/select/server_error"
+msgstr "Erro no Servidor"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "Acção indisponível. Por favor espere até que a operação actual esteja concluída."
+
+msgid "battle/request/SEND_INVITES"
+msgstr "Enviar convites"
+
+msgid "battleAbilities_apply/error"
+msgstr "Erro na configuração das Reservas de Combate. Por favor tente de novo mais tarde."
+
+msgid "battleBooster_buy/credits_error"
+msgstr "Falha na aquisição de %(kind)s \"%(name)s\". Sem créditos suficientes."
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "Falha na aquisição de %(kind)s \"%(name)s\". Sem títulos suficientes."
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" não é adequado para este veículo."
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "Incapaz de adquirir %(kind)s \"%(name)s\". Sem Moedas de Aniversário disponíveis."
+
+msgid "battleBooster_buy/gold_error"
+msgstr "Falha na aquisição de %(kind)s \"%(name)s\". Sem ouro suficiente."
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "Falha na aquisição de %(kind)s \"%(name)s\". Módulo errado."
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "Falha na aquisição e montagem de %(kind)s \"%(name)s\". Veículo errado."
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "Falha na aquisição de %(kind)s \"%(name)s\". Sem créditos suficientes."
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "Falha na aquisição de %(kind)s \"%(name)s\". Títulos insuficientes."
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "Incapaz de adquirir %(kind)s \"%(name)s\". Sem Moedas de Aniversário disponíveis."
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "Falha na aquisição de %(kind)s \"%(name)s\". Sem ouro suficiente."
+
+msgid "battleBooster_buy/server_error"
+msgstr "As operações com directivas estão temporariamente indisponíveis devido à manutenção."
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "Falha na aquisição de %(kind)s \"%(name)s\". O servidor está temporariamente indisponível."
+
+msgid "battleBooster_buy/success"
+msgstr "%(kind)s \"%(name)s\" foi adquirido com sucesso (%(count)s item(s)). Gastou %(money)s."
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "O veículo está bloqueado. Falha ao comprar e montar %(kind)s \"%(name)s\"."
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "Falha na aquisição e montagem de %(kind)s \"%(name)s\". Repare o veículo e tente de novo."
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "Operação indisponível. Todo o seu ouro ficará disponível após a operabilidade da WG Wallet for restaurada automaticamente."
+
+msgid "battleBooster_sell/server_error"
+msgstr "As operações com directivas estão temporariamente indisponíveis devido à manutenção."
+
+msgid "battleBooster_sell/success"
+msgstr "%(kind)s \"%(name)s\" vendido (%(count)s item(ns)). Recebido: %(money)s."
+
+msgid "battleBoosters_apply/error"
+msgstr "Erro na operação das Directivas. Por favor tente de novo mais tarde."
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "Erro na operação das Directivas. Fundos insuficientes para fazer a compra."
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "Operação indisponível. O seu ouro ficará disponível após a operabilidade da WG Wallet for restabelecida."
+
+msgid "battlePass/activateChapter/success"
+msgstr "Capítulo %(chapter)s ativado"
+
+msgid "battlePass/extraFinish/body"
+msgstr "O evento %(name)s terminou. Obrigado pela sua participação!"
+
+msgid "battlePass/extraFinish/header"
+msgstr "Passe de Batalha: Capítulo \"%(name)s\""
+
+msgid "battlePass/extraStarted/body"
+msgstr "Comandante! No Passe de Batalha, o evento %(name)s começou, durante o qual pode receber uma recompensa especial!"
+
+msgid "battlePass/extraStarted/header"
+msgstr "Passe de Batalha: Um Novo Capítulo Está Disponível!"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "Comandante! Falta pouco tempo para que o capítulo \"%(name)s\" termine. Apresse-se!"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "Passe de Batalha: Capítulo \"%(name)s\""
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "Comandantes! Não se esqueçam que podem ganhar Pontos do Passe de Batalha nas Batalhas Classificadas!"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "Comandantes! Não se esqueçam que podem ganhar Pontos do Passe de Batalha na Linha da Frente!"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "Comandantes! Não se esqueçam que podem ganhar Pontos do Passe de Batalha na Missão de Reconhecimento!"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "Comandantes! Não se esqueça que pode Pontos de Passe de Batalha no Massacre!"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "Temporada do Passe de Batalha %(seasonNum)d"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "Erro ao seleccionar as recompensas. Por favor tente de novo."
+
+msgid "battlePass/seasonEnd/text"
+msgstr "A Temporada do Passe de Batalha terminou. Todas as recompensas que não escolheu durante a Temporada foram-lhe atribuídas a si por defeito:"
+
+msgid "battlePass/switchChapter/error"
+msgstr "Erro ao seleccionar o Capítulo. Por favor tente de novo."
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "Selecione um Capítulo. Pode mudar para outros Capítulos a qualquer momento."
+
+msgid "battlePass/switchChapter/success"
+msgstr "Trocou para outro Capítulo. O Capítulo %(chapter)s está agora ativo."
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "Passe de Batalha temporariamente indisponível no Caçador de Aço devido à manutenção. Pedimos desculpa pelo inconveniente."
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "Os Pontos de Passe de Batalha não podem ser ganhos no modo Massacre no momento devido a manutenção."
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "Pontos do Passe de Batalha não podem ser ganhos no modo Massacre Ligeiro de momento devido a manutenção."
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "O Passe de Batalha está temporariamente indisponível na Linha da Frente devido a manutenção."
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "O Passe de Batalha está temporariamente indisponível nas Batalhas Classificadas devido a manutenção."
+
+msgid "battlePass/switch_enabled/body"
+msgstr "O Passe de Batalha está novamente disponível. Pedimos desculpas pela inconveniência.\nA Temporada foi extendida até %(expiryTime)s."
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "Os Pontos de Passe de Batalha podem ser ganhos no Massacre de novo. Pedimos desculpa pelo inconveniente."
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "Pontos do Passe de Batalha podem ser ganhos no Massacre Ligeiro de novo. Pedimos desculpa pelo inconveniente."
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "O Passe de Batalha está disponível novamente na Linha da Frente. Pedimos desculpas pelo inconveniente."
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "Passe de Batalha disponível de novo nas Batalhas Classificadas. Pedimos desculpa pelo inconveniente."
+
+msgid "battlePass/switch_pause/body"
+msgstr "O Passe de Batalha está temporariamente indisponível devido a manutenção."
+
+msgid "battlePass/switch_started/body"
+msgstr "Comandantes! Chegou a hora de lutar mais uma vez por recompensas exclusivas do Passe de Batalha!"
+
+msgid "battlePass/switch_started/title"
+msgstr "Temporada %(seasonNum)d do Passe de Batalha"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "Passe de Batalha: %(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "O Passe de Batalha terminou. Todas as recompensas que não escolheu foram-lhe atribuídas a si por defeito:"
+
+msgid "battlePassH/switch_disable/body"
+msgstr "O Capítulo terminou. Até ao próximo!"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "Passe de Batalha: %(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "O Passe de Batalha está disponível de novo. Pedimos desculpa pelo inconveniente."
+
+msgid "battlePassH/switch_started/body"
+msgstr "Comandantes! Como estão prestes a descobrir, este é um Passe de Batalha especial.\n\nAo completarem a Progressão, receberão um veículo Premium vestido com um estilo 3D único, elementos de personalização e muitas mais recompensas!"
+
+msgid "battlePassH/switch_started/title"
+msgstr "Passe de Batalha: %(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "Erro ao adquirir Fases da Progressão. Por favor tente novamente."
+
+msgid "battlePass_buy/server_error"
+msgstr "Erro ao adquirir o Passe Melhorado. Por favor tente de novo."
+
+msgid "battleResults/sharing/success"
+msgstr "Link copiado para a área de transferência. Pode colá-lo no canal de conversação, usando Ctrl+V, ou usá-lo fora do cliente de jogo."
+
+msgid "battleSession/kickedFromQueue"
+msgstr "Incapaz de encontrar oponentes para a actual Companhia de Tanques. Considere reorganizar a sua equipa."
+
+msgid "battleSession/memberJoined"
+msgstr "%s juntou-se à equipa."
+
+msgid "battleSession/memberLeave"
+msgstr "%s saiu da equipa."
+
+msgid "battleSession/memberNotReady"
+msgstr "%s não está pronto para combater pela equipa."
+
+msgid "battleSession/memberOffline"
+msgstr "Ligação interrompida com %s."
+
+msgid "battleSession/memberReady"
+msgstr "%s está pronto para combater pela equipa."
+
+msgid "battlesession/error/AddObserver"
+msgstr "Número máximo de espectadores numa equipa: %(numPlayers)s."
+
+msgid "battlesession/error/AddPlayer"
+msgstr "Número máximo de jogadores numa equipa: %(numPlayers)s."
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "Sem permissões suficientes para mover outros jogadores."
+
+msgid "battlesession/error/Limits"
+msgstr "Número máximo de jogadores numa equipa foi excedido."
+
+msgid "blueprints/conversion/disable"
+msgstr "Sem fragmentos suficientes para conversão."
+
+msgid "blueprints/conversion/error"
+msgstr "Não foi possível reformar: servidor indisponível. Tente novamente mais tarde."
+
+msgid "blueprints/switch_off"
+msgstr "Diagramas de veículos: este recurso foi temporariamente desativado. Pedimos desculpas pelo inconveniente."
+
+msgid "blueprints/switch_on"
+msgstr "Os diagramas de veículos estão disponíveis novamente."
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "Acção indisponível. A Reserva Pessoal já está em uso."
+
+msgid "booster_activate/DISABLED"
+msgstr "Incapaz de activar a Reserva Pessoal. Acção indisponível."
+
+msgid "booster_activate/EXCEPTION"
+msgstr "Incapaz de activar a Reserva Pessoal. Acção indisponível."
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "Acção indisponível. A Reserva Pessoal não está disponível ou selecionada."
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "Incapaz de activar a Reserva Pessoal. Acção indisponível."
+
+msgid "booster_activate/server_error"
+msgstr "Incapaz de activar a Reserva Pessoal. Tente de novo mais tarde."
+
+msgid "booster_activate/success"
+msgstr "A Reserva Pessoal \"%(boosterName)s\" foi activada. Tempo restante: %(time)s."
+
+msgid "booster_buy/not_enough_credits"
+msgstr "Incapaz de adquirir a Reserva Pessoal \"%(boosterName)s\". Não tem créditos suficientes."
+
+msgid "booster_buy/not_enough_gold"
+msgstr "Incapaz de adquirir a Reserva Pessoal \"%(boosterName)s\". Não tem ouro suficiente."
+
+msgid "booster_buy/server_error"
+msgstr "Incapaz de adquirir a Reserva Pessoal \"%(boosterName)s\"."
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "Incapaz de adquirir a Reserva Pessoal \"%(boosterName)s\". O servidor está temporariamente indisponível."
+
+msgid "booster_buy/success"
+msgstr "A Reserva Pessoal \"%(boosterName)s\" foi adquirida com sucesso (%(count)s item(s)). Gasto %(money)s."
+
+msgid "booster_buy/wallet_not_available"
+msgstr "Operação indisponível. Todo o seu ouro ficará disponível após a operacionalidade do WG Wallet for restaurada."
+
+msgid "booster_sell/server_error"
+msgstr "Incapaz de vender a Reserva Pessoal \"%(boosterName)s\". Tente de novo mais tarde."
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "Incapaz de vender a Reserva Pessoal \"%(boosterName)s\". Tente de novo mais tarde."
+
+msgid "booster_sell/success"
+msgstr "A Reserva Pessoal \"%(boosterName)s\" foi vendida com sucesso (%(count)s item(s)). Recebido %(money)s."
+
+msgid "buttons/goToPoll"
+msgstr "Ir para a Votação"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "Incapaz de recrutar e transferir o membro da tripulação: o tanque tem uma tripulação permanente única."
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "Você atingiu o limite de compra de membros da tripulação gratuitos por hoje."
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "Incapaz de recrutar e transferir um membro da tripulação. Veículo errado."
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "Incapaz de recrutar e transferir um membro da tripulação. Créditos insuficientes."
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "Incapaz de recrutar e transferir um membro da tripulação. Ouro insuficiente."
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "Incapaz de recrutar e transferir um membro da tripulação. Tente de novo mais tarde."
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "Incapaz de recrutar e transferir um membro da tripulação. O veículo está bloqueado."
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "Incapaz de recrutar e transferir o membro da tripulação: o tanque tem uma tripulação permanente única."
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "Você atingiu o limite de compra de membros da tripulação gratuitos por hoje."
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "Incapaz de recrutar e substituir um membro da tripulação. Veículo errado."
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "Incapaz de recrutar e substituir um membro da tripulação. Créditos insuficientes."
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "Incapaz de recrutar e substituir um membro da tripulação. Ouro insuficiente."
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "Incapaz de recrutar e substituir um membro da tripulação. Para recrutar um membro da tripulação você precisa de uma cama livre. Por favor liberte uma cama ou compre camas adicionais no Quartel."
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "Incapaz de recrutar e substituir um membro da tripulação. Tente de novo mais tarde."
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "Incapaz de recrutar e substituir um membro da tripulação. O veículo está bloqueado."
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "Você atingiu o limite de compra de veículos gratuitos. Tente novamente amanhã."
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "Erro ao aumentar o Quartel. Sem créditos suficientes."
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "Erro ao aumentar o Quartel. Sem ouro suficiente."
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "Incapaz de aumentar o Quartel. Tente novamente mais tarde."
+
+msgid "buy_tankmen_berths/success"
+msgstr "Quartel aumentado.\nOuro gasto: %(money)s."
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "buy_vehicle_slot_error"
+msgstr "Incapaz de adquirir \"%s\". Não há lugares disponíveis na Garagem. Considere vender um veículo para libertar um lugar ou adquirir um novo lugar."
+
+msgid "buy_vehicle_slot_error2"
+msgstr "Incapaz de adquirir \"%s\". Sem lugares disponíveis na Garagem. Por favor liberte um lugar."
+
+msgid "challenges/activate/serverError"
+msgstr "Não foi possível ativar as missões do Cadinho. Por favor, tente novamente mais tarde."
+
+msgid "challenges/activate/success/text"
+msgstr "A primeira missão desta série está disponível para ser concluída. Entre na batalha e enfrente o desafio!"
+
+msgid "challenges/activate/success/title"
+msgstr "Cadinho: %(challengeName)s ativado!"
+
+msgid "challenges/challengeEnd/button"
+msgstr "Para o Cadinho"
+
+msgid "challenges/challengeEnd/text"
+msgstr "Conclua-o agora e receba as suas recompensas."
+
+msgid "challenges/challengeEnd/title"
+msgstr "As missões do Cadinho terminam em breve!"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "Parabéns!"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "Concluiu o Cadinho: %(challengeName)s! Recompensas recebidas:"
+
+msgid "challenges/formatter/spent/credits"
+msgstr "Créditos gastos:"
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "Títulos gastos:"
+
+msgid "challenges/formatter/spent/gold"
+msgstr "Ouro gasto:"
+
+msgid "challenges/restart/free/text"
+msgstr "Já foi utilizado um novo reinício gratuito e o progresso da missão foi reiniciado."
+
+msgid "challenges/restart/free/title"
+msgstr "O Cadinho: %(challengeName)s foi reiniciado gratuitamente"
+
+msgid "challenges/restart/paid/title"
+msgstr "O Cadinho: %(challengeName)s foi reiniciado"
+
+msgid "challenges/restart/serverError"
+msgstr "Não foi possível reiniciar as missões do Cadinho. Por favor, tente novamente mais tarde."
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "Acção indisponível. Por favor espere até que a operação actual esteja concluída."
+
+msgid "challenges/surrender/serverError"
+msgstr "Não é possível abandonar as missões do Cadinho. Por favor, tente novamente mais tarde."
+
+msgid "challenges/surrender/success/text"
+msgstr "Abandonou o Cadinho: %(challengeName)s. A série de missões falhou."
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "Incapaz de alterar a qualificação do membro da tripulação: o tanque tem uma tripulação permanente única."
+
+msgid "change_tankman_role/invalid_role"
+msgstr "Incapaz de alterar a qualificação. Tente de novo mais tarde."
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "Incapaz de alterar a qualificação. Veículo errado."
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "O veículo não está na Garagem. O membro da tripulação requalificado será enviado para o Quartel."
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "Impossível alterar a qualificação do membro da tripulação. Sem créditos suficientes."
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "Impossível alterar a qualificação do membro da tripulação. Sem créditos suficientes."
+
+msgid "change_tankman_role/server_error"
+msgstr "Incapaz de alterar a qualificação.\nTente de novo mais tarde."
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "Já existe um %(role)s no %(vehicle)s. O membro da tripulação requalificado será enviado para o Quartel."
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "Impossível alterar a qualificação. Tente novamente mais tarde."
+
+msgid "charge/credits_error"
+msgstr "%s créditos e %s moedas de ouro são necessários. Defina a munição manualmente."
+
+msgid "charge/credits_error_credits"
+msgstr "Mais %s créditos são necessários. Defina a munição manualmente."
+
+msgid "charge/credits_error_gold"
+msgstr "Mais %s moedas de ouro são necessárias. Defina a munição manualmente."
+
+msgid "charge/inventory_error"
+msgstr "A munição para o %(vehicle)s não está carregada. Carregue as munições manualmente."
+
+msgid "charge/money_spent"
+msgstr "%s total gasto com munição."
+
+msgid "charge/server_error"
+msgstr "Erro ao carregar munição. Tente novamente mais tarde."
+
+msgid "charge/server_error_save"
+msgstr "Erro ao salvar munição. Tente novamente mais tarde."
+
+msgid "charge/success"
+msgstr "Munição carregada com sucesso."
+
+msgid "charge/success_save"
+msgstr "Munição salvada com sucesso."
+
+msgid "checkout_error"
+msgstr "Erro a receber a informação do utilizador. Por favor tente mais tarde."
+
+msgid "clans/isClanProfileDisabled"
+msgstr "Acção indisponível. Tente de novo mais tarde."
+
+msgid "clans/notifications/accept"
+msgstr "Aceitar"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "Convite do clã já enviado a %(userName)s."
+
+msgid "clans/notifications/decline"
+msgstr "Recusado"
+
+msgid "clans/notifications/from"
+msgstr "de %(user)s"
+
+msgid "clans/notifications/info"
+msgstr "Ver os detalhes do clã"
+
+msgid "clans/notifications/invite"
+msgstr "Convite para o Clã"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "O convite do clã foi aceite."
+
+msgid "clans/notifications/invite/declined"
+msgstr "O convite do clã foi recusado."
+
+msgid "clans/notifications/invite/expired"
+msgstr "O convite do clã é inválido."
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s aceitou o convite do clã."
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s recusou o convite do clã."
+
+msgid "clans/notifications/inviteSendError"
+msgstr "Incapaz de enviar um convite do clã a %(userName)s."
+
+msgid "clans/notifications/inviteSent"
+msgstr "Convite do clã enviado a %(userName)s."
+
+msgid "clans/notifications/invites"
+msgstr "Convites do clã: %(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "Desactivar as notificações"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "Ver Convites"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "Os convites do clã não foram enviados a %(userCount)d jogadores."
+
+msgid "clans/notifications/invitesSent"
+msgstr "Convites foram enviados a %(userCount)d jogadores."
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "Foi aceite no clã %(nameStartTag)s%(name)s%(nameEndTag)s."
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "A sua candidatura para o clã %(nameStartTag)s%(name)s%(nameEndTag)s foi recusada."
+
+msgid "clans/notifications/request"
+msgstr "Candidatura ao clã"
+
+msgid "clans/notifications/request/accepted"
+msgstr "Candidatura aceite."
+
+msgid "clans/notifications/request/declined"
+msgstr "Candidatura recusada."
+
+msgid "clans/notifications/requestSent"
+msgstr "Candidatura submetida ao clã:\n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "Convites dos jogadores: %(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "Ver Candidaturas"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "%(userName)s já foi convidado para o seu clã."
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "Acção indisponível. O jogador não preenche os requisitos de recrutamento."
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "A penalidade de um-dia por ter saído do clã anterior ainda não expirou."
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "Acção indisponível. Conta incorrecta."
+
+msgid "clans/request/errors/Account is banned"
+msgstr "Acção indisponível. A conta foi banida."
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "Este jogador já é membro do clã."
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "Acção indisponível. O jogador não é membro de um clã."
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "Acção indisponível. A aplicação não existe."
+
+msgid "clans/request/errors/Application is not active"
+msgstr "Acção indisponível. A candidatura expirou."
+
+msgid "clans/request/errors/Bad request"
+msgstr "Acção indisponível. Tente de novo mais tarde."
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "Permissões insuficientes para submeter um convite ao clã."
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "O recrutamento do Clã está fechado."
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "O clã está cheio."
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "Acção indisponível. O clã não existe."
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "Acção indisponível. O clã está cheio."
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "Acção indisponível. O clã foi desmobilizado."
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "Acção indisponível. O clã está inactivo."
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "Acção indisponível. Tente de novo mais tarde."
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "Acção indisponível. Tente de novo mais tarde."
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "Acção indisponível para contas deste tipo."
+
+msgid "clans/request/errors/Forbidden"
+msgstr "Acção indisponível. Não tem permissões suficientes."
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "Acção indisponível. Tente de novo mais tarde."
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "Acção indisponível. O convite não existe."
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "Acção indisponível. O convite expirou."
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "Acção indisponível. Tente de novo mais tarde."
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "Acção indisponível. Tente de novo mais tarde."
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "Acção indisponível. A Fortaleza está indisponível."
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "Acção indisponível. Número máximo de candidaturas submetidas."
+
+msgid "clans/request/errors/Too many invites"
+msgstr "Acção indisponível. Número máximo de convites enviados."
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "Acção indisponível. Tente de novo mais tarde."
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "Acção indisponível. Tente de novo mais tarde."
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "Acção indisponível. Tente de novo mais tarde."
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "Acção indisponível. Tente de novo mais tarde."
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "%(userName)s já é membro do clã."
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s \"%s\" não encaixa neste veículo."
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s \"%s\" não encaixa nesta torre. Substitua a torre."
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s \"%s\" é do tipo errado."
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s \"%s\" é da nação errada."
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s \"%s\" não encaixa neste veículo."
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s \"%s\" é do tipo errado."
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s \"%s\" é da nação errada."
+
+msgid "client_inactive"
+msgstr "Cliente inactivo"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "As Colecções estão temporariamente indisponíveis devida a manutenção."
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "Colecções Indisponíveis"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "As Colecções foram arranjadas. Pedimos desculpa pelo incomodo."
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "As Colecções estão novamente disponíveis"
+
+msgid "connected"
+msgstr "Bem-vindo ao servidor %s do World of Tanks!"
+
+msgid "consumables_apply/error"
+msgstr "Erro na configuração dos Consumíveis. Por favor tente de novo mais tarde."
+
+msgid "consumables_apply/not_enough_money"
+msgstr "Erro na operação dos Consumíveis. Fundos insuficientes para fazer a compra."
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "Operação indisponível. O seu ouro ficará disponível após a operabilidade da WG Wallet for restabelecida."
+
+msgid "conversion/error"
+msgstr "Não foi possível reformar: servidor indisponível. Tente novamente mais tarde."
+
+msgid "conversion/header"
+msgstr "Data: %(at)s\nAdicionado:"
+
+msgid "conversion/success"
+msgstr "Tripulantes sem formação adequada reformados: %(number)s"
+
+msgid "conversion/title"
+msgstr "Recibo"
+
+msgid "conversionPerks/header"
+msgstr "Data: %(at)s\nA converter EXP das aptidões da tripulação acima do limite. Recebido: "
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "As mensagens privadas não estão disponíveis para jogadores do seu país."
+
+msgid "crewBooks/failed"
+msgstr "Incapaz de retreinar esta tripulação.\n Tente de novo mais tarde."
+
+msgid "crewBooks/server_error"
+msgstr "O treino dos membros da tripulação falhou devido a um erro no servidor. Tente de novo mais tarde."
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s."
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "crewBooksNotification/success"
+msgstr "Tripulação treinada.\nGasto:"
+
+msgid "crewBooks_buy/server_error"
+msgstr "Incapaz de adquirir o Livro da Tripulação devido a um erro no servidor. Tente de novo mais tarde."
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s (%(count)s item(ns)).\nCréditos gastos: %(money)s."
+
+msgid "crewBooks_sell/server_error"
+msgstr "Incapaz de vender o Livro da Tripulação devido a um erro no servidor. Tente de novo mais tarde."
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s (%(count)s item(ns)).\nCréditos recebidos: %(money)s."
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "Imagem de tripulação alterada."
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "Imagens de tripulação adicionadas: %(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "O veículo actual é substituído pelo %s."
+
+msgid "customization/added/attachment"
+msgstr "Acessório 3D %s adicionado"
+
+msgid "customization/added/attachmentValue"
+msgstr "Acessório 3D %s adicionado: (x%s)"
+
+msgid "customization/added/camouflage"
+msgstr "Camuflagem %s adicionada"
+
+msgid "customization/added/camouflageValue"
+msgstr "Camuflagem %s adicionada: (x%s)"
+
+msgid "customization/added/decal"
+msgstr "Decalque %s adicionado"
+
+msgid "customization/added/decalValue"
+msgstr "Decalque %s adicionado: (x%s)"
+
+msgid "customization/added/emblem"
+msgstr "Emblema %s adicionado"
+
+msgid "customization/added/emblemValue"
+msgstr "Emblema %s adicionado: (x%s)"
+
+msgid "customization/added/inscription"
+msgstr "Inscrição %s adicionada"
+
+msgid "customization/added/inscriptionValue"
+msgstr "Inscrição %s adicionada: (x%s)"
+
+msgid "customization/added/modification"
+msgstr "Efeito %s adicionado"
+
+msgid "customization/added/modificationValue"
+msgstr "Efeito %s adicionado: (x%s)"
+
+msgid "customization/added/paint"
+msgstr "Pintura %s adicionada"
+
+msgid "customization/added/paintValue"
+msgstr "Pintura %s adicionada: (x%s)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "%s número de um dígito adicionado"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "%s número de um dígito adicionado: (x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "%s número de dois dígitos adicionado"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "%s número de dois dígitos adicionado: (x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "Número de 3 dígitos %s adicionado"
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "Número de 3 dígitos %s adicionado: (x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "Decalque %s adicionado"
+
+msgid "customization/added/projectionDecalValue"
+msgstr "Decalque %s adicionado: (x%s)"
+
+msgid "customization/added/statTracker"
+msgstr "Rastreador de Estatísticas: %s adicionado"
+
+msgid "customization/added/statTrackerValue"
+msgstr "Rastreadores de Estatísticas: %s adicionado: (x%s)"
+
+msgid "customization/added/style"
+msgstr "Estilo %s adicionado"
+
+msgid "customization/added/styleValue"
+msgstr "Estilo %s adicionado: (x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "Incapaz de personalizar. Sem créditos e ouro suficientes."
+
+msgid "customization/credits_not_enough"
+msgstr "Incapaz de personalizar. Sem créditos suficientes."
+
+msgid "customization/currency_not_enough"
+msgstr "Moeda insuficiente para adquirir o item."
+
+msgid "customization/gold_not_enough"
+msgstr "Incapaz de personalizar. Sem ouro suficiente."
+
+msgid "customization/igr_type_changed_error"
+msgstr "Estatuto IGR alterado. Operação corrente cancelada."
+
+msgid "customization/invalidVehicle"
+msgstr "Incapaz de aplicar: veículo inelegível"
+
+msgid "customization/personal_number_prohibited"
+msgstr "O número %(value)s está indisponível.\nO %(itemType)s%(itemName)s foi removido do mapa de %(seasonName)s."
+
+msgid "customization/progression/down/style"
+msgstr "Estilo %s reduzido para Nível %s"
+
+msgid "customization/progression/up/style"
+msgstr "Estilo %s melhorado para Nível %s"
+
+msgid "customization/prohibited"
+msgstr "Incapaz de aplicar: %(itemName)s não está no inventário."
+
+msgid "customization/removed/attachment"
+msgstr "Acessório 3D %s removido"
+
+msgid "customization/removed/attachmentValue"
+msgstr "Acessório 3D %s removido: (x%s)"
+
+msgid "customization/removed/camouflage"
+msgstr "Camuflagem %s removida"
+
+msgid "customization/removed/camouflageValue"
+msgstr "Camuflagem %s removida: (x%s)"
+
+msgid "customization/removed/decal"
+msgstr "Decalque %s removido"
+
+msgid "customization/removed/decalValue"
+msgstr "Decalque %s removido: (x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "Emblema %s removido"
+
+msgid "customization/removed/emblemValue"
+msgstr "Emblema %s removido: (x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "Inscrição %s removida"
+
+msgid "customization/removed/inscriptionValue"
+msgstr "Inscrição %s removida: (x%s)"
+
+msgid "customization/removed/modification"
+msgstr "Efeito \"%s\" removido"
+
+msgid "customization/removed/modificationValue"
+msgstr "Efeito %s removido: (x%s)"
+
+msgid "customization/removed/paint"
+msgstr "Pintura \"%s\" removida"
+
+msgid "customization/removed/paintValue"
+msgstr "Pintura %s removida: (x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "%s número de um dígito removido"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "%s número de um dígito removido: (x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "\"%s\" número de dois dígitos removido"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "%s número de dois dígitos removido: (x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "Número de 3 dígitos %s removido"
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "Número de 3 dígitos %s removido: (x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "Decalque %s removido"
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "Decalque %s removido: (x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "Rastreador de Estatísticas: %s removido"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "Rastreadores de Estatísticas: %s removido: (x%s)"
+
+msgid "customization/removed/style"
+msgstr "Estilo \"%s\" removido"
+
+msgid "customization/removed/styleValue"
+msgstr "Estilo %s removido: (x%s)"
+
+msgid "customization/server_error"
+msgstr "Incapaz de personalizar."
+
+msgid "customization/unavailable"
+msgstr "A funcionalidade de personalização de veículos está temporariamente desactivada devido a razões técnicas."
+
+msgid "customization/vehicle_damaged"
+msgstr "Incapaz de personalizar. Veículo danificado. São necessárias reparações."
+
+msgid "customization/vehicle_destroyed"
+msgstr "Incapaz de personalizar. Veículo incapacitado. São necessárias reparações."
+
+msgid "customization/vehicle_exploded"
+msgstr "Incapaz de personalizar. Veículo destruído. São necessárias reparações."
+
+msgid "customization/vehicle_locked"
+msgstr "Incapaz de personalizar. Veículo bloqueado."
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "Incapaz de reiniciar a Missão Normal: a missão já foi concluída."
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "Incapaz de reiniciar a Missão Normal: operação bloqueada."
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "Incapaz de reiniciar a Missão Normal: operação suspensa."
+
+msgid "daily_quests/reroll/success"
+msgstr "Missão Normal reiniciada com sucesso."
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "Incapaz de reiniciar a Missão Normal. Tente de novo mais tarde."
+
+msgid "daily_quests/switch_off/body"
+msgstr "Esta funcionalidade está temporariamente indisponível por motivos técnicos.\n Pedimos desculpa pelo incómodo."
+
+msgid "daily_quests/switch_off/title"
+msgstr "As Missões Normais estão temporariamente indisponíveis"
+
+msgid "daily_quests/switch_on/body"
+msgstr "Os problemas técnicos foram resolvidos. Lamentamos o inconveniente."
+
+msgid "daily_quests/switch_on/title"
+msgstr "As Missões Normais estão disponíveis novamente"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "Esta funcionalidade está temporariamente indisponível por motivos técnicos.\n Pedimos desculpa pelo incómodo."
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "O bónus gerenciável para a experiência está temporariamente indisponível"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "Os problemas técnicos foram resolvidos. Lamentamos o inconveniente."
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "O bónus gerenciável para a experiência está novamente disponível"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "Operações com Kits de Desmontagem estão temporariamente indisponíveis devido a manutenção."
+
+msgid "demountKit_restored/switchedOn"
+msgstr "Operações com Kits de Desmontagem estão disponíveis novamente. Pedimos desculpa pelo inconveniente."
+
+msgid "denunciation/success"
+msgstr "A queixa contra %(name)s sobre \"%(topic)s\" foi aceite."
+
+msgid "disconnected"
+msgstr "O cliente está disconectado do servidor."
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "Incapaz de dispensar o membro da tripulação: o tanque tem uma tripulação permanente única."
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "Erro ao dispensar um membro da tripulação. Veículo errado."
+
+msgid "dismiss_tankman/server_error"
+msgstr "Incapaz de dispensar este membro da tripulação.\n Tente de novo mais tarde."
+
+msgid "dismiss_tankman/success"
+msgstr "Membro da tripulação dispensado."
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "Erro ao dispensar um membro da tripulação. O veículo está bloqueado."
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "Erro ao dispensar um membro da tripulação. Repare o seu veículo."
+
+msgid "dog_tags/switch_off/body"
+msgstr "Esta funcionalidade está temporariamente indisponível por motivos técnicos.\nPedimos desculpa pelo inconveniente."
+
+msgid "dog_tags/switch_off/title"
+msgstr "As Chapas de Identificação estão temporariamente indisponíveis"
+
+msgid "dog_tags/switch_on/body"
+msgstr "Os problemas técnicos foram resolvidos. Pedimos desculpa pelo inconveniente."
+
+msgid "dog_tags/switch_on/title"
+msgstr "As Chapas de Identificação estão disponíveis novamente"
+
+msgid "dossiers_unavailable"
+msgstr "A conta não está pronta (DOSSIERS_UNAVAILABLE)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "Todas as habilidades foram reiniciadas.\nCréditos gastos:%(money)s"
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "Todas as habilidades foram reiniciadas.\nOuro gasto:%(money)s"
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "Erro a reiniciar aptidões. Veículo errado."
+
+msgid "drop_tankman_skill/server_error"
+msgstr "Incapaz de reiniciar a aptidão. Tente de novo mais tarde."
+
+msgid "drop_tankman_skill/success"
+msgstr "Todas as aptidões foram reiniciadas."
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "Erro a reiniciar aptidões. O veículo está bloqueado."
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "Erro a reiniciar aptidões. Repare o seu veículo."
+
+msgid "drr_scale/step_down"
+msgstr "Resolução dinâmica é diminuída até %(scale)d%%."
+
+msgid "drr_scale/step_up"
+msgstr "Resolução dinâmica é aumentada até %(scale)d%%."
+
+msgid "earning/button/multiple"
+msgstr "Para as Conquistas"
+
+msgid "earning/button/single"
+msgstr "Para as Conquistas"
+
+msgid "earning/common/multiple"
+msgstr "%(value)s conquistas desbloqueadas!"
+
+msgid "earning/common/single"
+msgstr "Conquista %(value)s desbloqueada!"
+
+msgid "earning/title"
+msgstr "Parabéns!"
+
+msgid "earning/trophy/multiple"
+msgstr "%(value)s troféus ganhos!"
+
+msgid "earning/trophy/single"
+msgstr "Troféu %(value)s recebido!"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "O Serviço Rápido está disponível de novo. Pedimos desculpa por qualquer inconveniente causado."
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "O Serviço Rápido está temporariamente indisponível devido a manutenção."
+
+msgid "easyTankEquip_apply/error"
+msgstr "Erro ao aplicar a configuração do Serviço Rápido. Por favor, tente mais tarde."
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "Erro ao aplicar a configuração do Serviço Rápido. Fundos insuficientes para fazer a compra."
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "Operação serviço Rápido indisponível. O seu ouro ficará disponível após a operabilidade da WG Wallet for restabelecida."
+
+msgid "epicBattles/levelUp/awards"
+msgstr "Recompensa recebida:"
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "Alcançou o Nível <font color='#E9E2BF'>%(tier)s</font> da Progressão da Linha da Frente."
+
+msgid "epicBattles/levelUp/title"
+msgstr "Parabéns!"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "A Linha da Frente está indisponível. Siga as actualizações no portal do jogo."
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "Erro ao seleccionar as recompensas. Por favor tente de novo."
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "%(name)s recebido"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "Directivas para equipamento recebido: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "Equipamento Experimental recebido: %(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "A Temporada da Linha da Frente terminou.<br/>Todas as recompensas que não escolheu durante a Temporada foram-lhe atribuídas a sia por defeito:"
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "Linha da Frente"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "Incapaz de transferir o membro da tripulação: o tanque tem uma tripulação permanente única."
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "Erro ao transferir um membro da tripulação para o veículo. Veículo errado."
+
+msgid "equip_tankman/not_enough_space"
+msgstr "Incapaz de enviar o membro da tripulação para o Quartel. Sem camas suficientes no Quartel."
+
+msgid "equip_tankman/server_error"
+msgstr "Incapaz de transferir o membro da tripulação. Tente de novo mais tarde."
+
+msgid "equip_tankman/success"
+msgstr "Membro da tripulação transferido para o %(vehName)s."
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "Erro ao transferir o tripulante para o veículo. O veículo está bloqueado."
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "Erro ao transferir o tripulante para o veículo. Por favor repare o veículo."
+
+msgid "exchange/not_enough_gold"
+msgstr "Sem ouro suficiente para a troca."
+
+msgid "exchange/server_error"
+msgstr "Erro ao converter %(gold)s moedas de ouro. Tente novamente mais tarde."
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "Sem ouro suficiente para a conversão de %(xp)s XP."
+
+msgid "exchangeXP/server_error"
+msgstr "Erro ao converter %(xp)s pontos de Experiência. Tente novamente mais tarde."
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "filling_untrained_perks/server_error"
+msgstr "Incapaz de treinar novas aptidões.\nServidor indisponível. Tente de novo mais tarde."
+
+msgid "filling_untrained_perks/success"
+msgstr "Novas aptidões treinadas para todos membros da tripulação."
+
+msgid "fortification/addOrder"
+msgstr "Preparação da %(count)s Reserva(s) começou. Timpo restante: %(time)s."
+
+msgid "fortification/buildingProcess"
+msgstr "A construção da estrutura %(buildingName)s começou. Transporte a quantidade necessária de Recurso Industrial para garantir uma construção ininterrupta."
+
+msgid "fortification/created"
+msgstr "Parabéns!\nFortificação criada com sucesso."
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "A Defesa da sua Fortificação será desactivada em 48 horas. Durante este tempo, pode reactivar a defesa nas configurações da Fortificação."
+
+msgid "fortification/defenceHourSet"
+msgstr "O Período de Defesa será ajustado em 14 dias. Novo período de defesa: %(defenceHour)s."
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "O Cessar-fogo será ajustado em 14 dias. Novo dia do Cessar-fogo - não definido."
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "O Cessar-fogo será ajustado em 14 dias. Novo dia do Cessar-fogo - %(offDay)s."
+
+msgid "fortification/demountBuilding"
+msgstr "Estrutura %(buildingName)s demolida."
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "Acção indisponível. Já se anexou a esta estrutura."
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "Acção indisponível. Fortificação já criada."
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "Acção indisponível. O clã já está na lista de clãs marcados."
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "Acção indisponível. Não pode planear mais do que um ataque ao mesmo clã."
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "Acção indisponível. Os dados do ataque não foram carregados."
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "Acção indisponível. Tem de passar uma semana até que possa atacar aquele clã novamente."
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "Acção indisponível. Outro destacamento já controla a cabeça de ponte."
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "Acção indisponível. O ataque não está programado."
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "Acção indisponível. Só pode planear um ataque que se inicie em, pelo menos, 15 minutos."
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "Incapaz de marcar um ataque no dia selecionado."
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "Acção indisponível. ID do clã incorrecto."
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "Acção indisponível. Valor do dia do Cessar-fogo está incorrecto."
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "Acção indisponível. Data incorrecta."
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "Acção indisponível. ID do Avanço incorrecto."
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "Acção indisponível. Valor do Período de Defesa incorrecto."
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "Incapaz de atacar o clã selecionado: a diferença do nível da Fortificação é maior que um. Selecione outro clã."
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "Acção indisponível. Número de Reservas incorrecto."
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "Acção indisponível. Montante inválido de Recurso Industrial transferido."
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "Acção indisponível. Divisão incorrecta."
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "Acção indisponível. Detalhes da Escaramuça não recebidos."
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "As batalhas estão restritas a este servidor, no momento."
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "Acção indisponível. Período de Neutralidade inválido."
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "Acção indisponível. Data da Neutralidade inválida."
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "Acção indisponível. Repare o Centro de Comando."
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "Acção indisponível. O Centro de Comando está destruído."
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "Acção indisponível. O Centro de Comando não está danificado."
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "Acção indisponível. A batalha não existe."
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "Desculpe, resultados da batalha indisponíveis."
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "Não é possível remover. A Fortificação contém estruturas."
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "Acção indisponível. A estrutura está danificada."
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "Acção indisponível. Estrutura não construída."
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "Acção indisponível. Incapaz de recolher os detalhes do clã."
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "Acção indisponível. Incapaz de encontrar um clã."
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "Acção indisponível. Transporte não disponível."
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "Acção indisponível. Não é possível actualizar a estrutura."
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "Operação rejeitada. O servidor está temporariamente indisponível."
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "Acção indisponível. O clã activou o dia de Cessar-fogo."
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "Acção indisponível. O clã activou o dia da Neutralidade."
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "Acção indisponível. Incapaz de definir o Período de Defesa no horário indicado."
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "Acção indisponível. Outro destacamento já controla a cabeça de ponte."
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "Acção indisponível. A defesa não está programada."
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "Acção indisponível. Dados inválidos."
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "Acção indisponível. A Defesa não está activada."
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "A Fortificação está temporariamente indisponível."
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "Acção indisponível. Estrutura já construída."
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "Acção indisponível. Por favor espere até que a operação actual esteja concluída."
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "Acção indisponível. Está a atacar outro clã a essa hora."
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "Incapaz de marcar um ataque a este clã no horário solicitado."
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "Erro. A Fortificação está temporariamente indisponível."
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "Acção indisponível. Nível da Fortificação muito baixo."
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "Acção indisponível. A construção de todas as estruturas está pausada."
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "Acção indisponível. Não autorizado."
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "Ação indisponível. Impossível juntar-se à unidade tática."
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "Acção temporariamente indisponível."
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "Acção indisponível. O tempo não está sincronizado."
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "Acção indisponível. Não está anexado a esta estrutura."
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "Acção indisponível. O jogador não é membro do clã."
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "Acção indisponível. Não há jogadores suficientes no clã."
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "Acção indisponível. Não há Recurso Industrial suficiente no armazém da estrutura."
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "Acção indisponível. O clã não está na lista de clã marcados."
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "Acção indisponível. Estrutura ainda não está construída."
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "Acção indisponível. Você não é membro de nenhum clã."
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "Acção indisponível. As Reservas não podem ser activadas de momento."
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "Acção indisponível. Estrutura errada."
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "Acção indisponível. Reserva não disponível ou não selecionada."
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "Acção indisponível. Reserva Errada."
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "Acção indisponível. Reserva Errada."
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "Acção indisponível. A estrutura já está a ser construída."
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "Acção indisponível. O ataque não existe."
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "Acção indisponível. Reserva já está a ser utilizada."
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "Acção indisponível. Reserva já está a ser preparada."
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "Acção indisponível. A construção já está pausada."
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "Acção indisponível. A Reserva não está disponível."
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "Acção indisponível. A construção não está pausada."
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "Acção indisponível. O servidor está offline."
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "Acção indisponível. O lugar já está ocupado."
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "Acção indisponível. A defesa já está desactivada."
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "Acção indisponível. A defesa ainda não está desactivada."
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "Acção indisponível. O treino não está completo."
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "Acção indisponível. O Armazém está cheio."
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "Acção indisponível. A defesa já está programada para este dia."
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "O limite de clãs marcados foi atingido."
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "Acção indisponível. Atingido o número máximo de Reservas preparadas."
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "Acção indisponível. A guarnição da Estrutura está cheia."
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "Acção indisponível. Limite de Escaramuças excedido."
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "Acção indisponível. Transporte temporariamente indisponível."
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "Acção indisponível. Limite de Transporte excedido."
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "Acção indisponível. O jogador não está pronto."
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "Acção indisponível. Não é possível demolir o Centro de Comando."
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "Acção indisponível. Clã incorrecto."
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "Acção indisponível. Servidor incorrecto."
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "Acção indisponível. Não é possível construir uma estrutura nesta área."
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "Está anexado à estrutura %(buildingName)s."
+
+msgid "fortification/fortBattleFinished"
+msgstr "O Avanço foi interrompido devido a problemas técnicos no servidor."
+
+msgid "fortification/modernizationBuilding"
+msgstr "Melhoramento completado com sucesso. Nível da Estrutura %(buildingName)s aumentado em %(buildingLevel)s."
+
+msgid "fortification/notification/turnedOff"
+msgstr "A Fortificação está temporariamente indisponível. Tente de novo mais tarde."
+
+msgid "fortification/notification/turnedOn"
+msgstr "O modo Fortificação: Batalhas está disponível de novo."
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "Activar Reserva"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "Construir Estrutura"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "Marcar o clã"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "Adicionar Reserva"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "Adicionar jogador à guarnição"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "Reactivar o Período de Defesa"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "Ajustar o Período de Defesa"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "Ajustar o Cessar-fogo"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "Mudar de servidor"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "Mudar as configurações"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "Ajustar a Neutralidade"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "Criar Fortificação"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "Criar destacamento"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "Remover estrutura"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "Remover Fortificação"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "Programar o ataque"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "Remover o clã marcado"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "Ver os detalhes do clã"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "Ver os detalhas dos clãs"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "Requisitar detalhes do destacamento"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "Desactivar o Período de Defesa"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "Transporte"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "Melhoramento da Estrutura"
+
+msgid "fortification/transport"
+msgstr "Transporte completado com sucesso. %(res)s Recurso Industrial transportado desde a estrutura %(fromBuilding)s até à estrutura %(toBuilding)s."
+
+msgid "fortification/vacationSet"
+msgstr "A Fortificação mantém a Neutralidade %(vacationPeriod)s."
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "Operação não está disponível."
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "Erro ao treinar membro da tripulação. Não tem Experiência Livre suficiente."
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "Erro ao treinar membro da tripulação. Este membro não existe."
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "Erro a treinar membro da tripulação. Tente novamente mais tarde."
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "Erro a treinar membro da tripulação. Tente novamente mais tarde."
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "Incapaz de treinar um membro da tripulação com EXP Livre.\nTente de novo mais tarde."
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "Membro da tripulação treinado.\nEXP Livre gasta: %(money)s."
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "Para evitar a dependência dos jogos em crianças e adolescentes, a entrada em batalha está banida. Você será desligado do servidor às %(blockTime)s."
+
+msgid "gameSessionControl/korea/note"
+msgstr "Excessive video game playing may interfere with your daily life."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "Tempo restante da sessão de jogo: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "O tempo limite expirou por isso não pode entrar numa nova batalha. Irá ser desligado do servidor às %s."
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "Duração da sessão de jogo: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "Tempo restante até à meia-noite: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "O seu tempo limite terminou. Não pode entrar em batalha. Irá ser desligado do servidor às %(kickTime)s."
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "O tempo limite de jogo foi retirado da sua conta"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "As definições do controlo parental foram alteradas."
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "Será desconectado do servidor às %(timeLimit)s."
+
+msgid "graficsOptionsFail"
+msgstr "Placa de vídeo incompatível. Falha a aplicar as configurações de gráficos seguintes: %s."
+
+msgid "graficsPresetFail"
+msgstr "Placa de vídeo incompatível. Falha a aplicar a qualidade de gráficos selecionada."
+
+msgid "igr/customization/begin"
+msgstr "Camuflagem gratuíta, Inscrições e Emblemas estão disponíveis em %(igrIcon)s."
+
+msgid "igr/customization/end"
+msgstr "%(igrIcon)s expirou. Camuflagem Gratuita, Inscrições e Emblemas serão removidos do seu veículo."
+
+msgid "info/noAvailable"
+msgstr "A informação detalhada está indisponível."
+
+msgid "install_component"
+msgstr "%s \"%s\" montado no veículo."
+
+msgid "install_vehicle_broken"
+msgstr "Incapaz de montar o módulo %s \"%s\": o veículo está danificado. Repare o seu veículo e tente novamente."
+
+msgid "install_vehicle_locked"
+msgstr "O veículo está bloqueado, incapaz de montar o módulo %s \"%s\"."
+
+msgid "inventory/item/already_exists"
+msgstr "O Módulo %(typeString)s \"%(userString)s\" já está disponível no Armazém."
+
+msgid "inventory/item/equip_in_processing"
+msgstr "Requisição de montagem do equipamento enviada. Aguardando resposta do servidor."
+
+msgid "inventory/item/not_found"
+msgstr "O Módulo %(typeString)s \"%(userString)s\" não foi encontrado no Armazém."
+
+msgid "inventory/vehicle/already_exists"
+msgstr "Veículo %(userString)s já se encontra disponível no Armazém."
+
+msgid "inventory/vehicle/not_found"
+msgstr "Veículo %(userString)s não se encontra no Armazém."
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "O Convite para o legionário %(name)s não pode ser enviado."
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "O Convite para o jogador %(name)s não pode ser enviado: clã errado."
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "Erro de Serviço '%(vehName)s'. Incapaz de reabastecer os consumíveis. novamente mais tarde."
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "Erro de Serviço '%(vehName)s'. Incapaz de reabastecer os consumíveis. novamente mais tarde."
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "Erro de Serviço '%(vehName)s'. Incapaz de reabastecer os consumíveis. novamente mais tarde."
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "Erro de Serviço '%(vehName)s'. Incapaz de reabastecer as munições. novamente mais tarde."
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "Erro de Serviço '%(vehName)s'. Incapaz de reabastecer as munições. Número máximo de munições carregadas."
+
+msgid "layout_apply/Component is not in shop"
+msgstr "Erro de Serviço '%(vehName)s'. Incapaz de reabastecer os consumíveis. novamente mais tarde."
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "Erro de Serviço '%(vehName)s'. Sem créditos suficientes para adquirir consumíveis. Tente novamente mais tarde."
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "Erro de Serviço: \"%(vehName)s\". Sem títulos suficientes para adquirir consumíveis."
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "Erro de Serviço: \"%(vehName)s\". Sem ouro suficiente para adquirir consumíveis. Tente novamente mais tarde."
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "Erro de Serviço '%(vehName)s'. Incapaz de reabastecer os consumíveis. novamente mais tarde."
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "Erro de Serviço \"%(vehName)s\". Veículo errado."
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "Erro de Serviço '%(vehName)s'. Sem créditos suficientes para adquirir munições."
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "Erro de Serviço '%(vehName)s'. Sem ouro suficiente para adquirir munições."
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "Erro de Serviço \"%(vehName)s\". O veículo está bloqueado."
+
+msgid "layout_apply/error"
+msgstr "Erro de Serviço \"%(vehName)s\". Tente novamente mais tarde."
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "Erro de Serviço \"%(vehName)s\". Veículo errado."
+
+msgid "layout_apply/success_money_spent"
+msgstr "Total gasto em munições %(money)s."
+
+msgid "layout_apply/vehicle_locked"
+msgstr "Erro de Serviço \"%(vehName)s\". O veículo está bloqueado."
+
+msgid "layout_apply/wallet_not_available"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "limitedUI/switchOff"
+msgstr "O aparecimento gradual de elementos ocultos da interface está temporariamente desactivado."
+
+msgid "limitedUI/switchOn"
+msgstr "O aparecimento gradual de elementos ocultos da interface está activado novamente. Pode desactivá-lo nas Configurações."
+
+msgid "locked_vehicle_error"
+msgstr "Esta ação não é possível para veículos pré-configurados."
+
+msgid "login_to_other_game_unknown"
+msgstr "a sessão de jogo actual foi interrompida. O seu Wargaming.net&nbsp;ID foi usado para entrar em outro jogo"
+
+msgid "login_to_other_game_web"
+msgstr "a sessão corrente do jogo foi interrompida. Foi desconectado do servidor através do portal do jogo."
+
+msgid "login_to_other_game_wot"
+msgstr "a sessão de jogo actual foi interrompida. O seu Wargaming.net&nbsp;ID foi usado para entrar no World&nbsp;of&nbsp;Tanks"
+
+msgid "login_to_other_game_wotb"
+msgstr "a sessão de jogo actual foi interrompida. O seu Wargaming.net&nbsp;ID foi usado para entrar no World&nbsp;of&nbsp;Tanks&nbsp;Blitz"
+
+msgid "login_to_other_game_wotg"
+msgstr "a sessão de jogo actual foi interrompida. O seu Wargaming.net&nbsp;ID foi usado para entrar no World&nbsp;of&nbsp;Tanks&nbsp;Generals"
+
+msgid "login_to_other_game_wowp"
+msgstr "a sessão de jogo actual foi interrompida. O seu Wargaming.net&nbsp;ID foi usado para entrar no World&nbsp;of&nbsp;Warplanes"
+
+msgid "login_to_other_game_wows"
+msgstr "a sessão de jogo actual foi interrompida. O seu Wargaming.net&nbsp;ID foi usado para entrar no World&nbsp;of&nbsp;Warships"
+
+msgid "lootboxes/open/server_error"
+msgstr "Erro ao receber o presente: erro do servidor."
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "Erro ao receber o presente: Por favor espere até a operação anterior estar concluída."
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "A acção está indisponível temporariamente. Tente novamente mais tarde."
+
+msgid "mapbox/notification/primeTime"
+msgstr "A Missão de Reconhecimento está indisponível até o fim do cessar-fogo."
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "Cessar-Fogo"
+
+msgid "maps_black_list/select/server_error"
+msgstr "Erro no Servidor"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "Acção indisponível. Por favor espere até que a operação actual esteja concluída."
+
+msgid "maps_black_list/select/success"
+msgstr "O mapa %(mapName)s foi excluído das Batalhas Aleatórias. Pode mudar a sua seleção em %(time)s."
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "O mapa %(mapName)s foi excluído das Batalhas Aleatórias. Pode mudar a sua seleção em %(time)s, ou pode desbloquear uma slot adicional ativando uma Conta WoT Premium ou subscrevendo o WoT Plus."
+
+msgid "maps_black_list/select/success/premium"
+msgstr "O mapa %(mapName)s foi excluído das Batalhas Aleatórias. Pode mudar a sua seleção em %(time)s, ou pode desbloquear uma slot adicional subscrevendo o WoT Plus."
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "O mapa %(mapName)s foi excluído das Batalhas Aleatórias. Pode mudar a sua seleção em %(time)s, ou pode desbloquear uma slot adicional ativando uma Conta WoT Premium."
+
+msgid "maps_black_list/switch_off/body"
+msgstr "Esta funcionalidade está temporariamente indisponível por motivos técnicos.\n Pedimos desculpa pelo incómodo."
+
+msgid "maps_black_list/switch_off/title"
+msgstr "A exclusão de Mapas está temporariamente indisponível"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "Os problemas técnicos foram resolvidos. Lamentamos o inconveniente."
+
+msgid "maps_black_list/switch_on/title"
+msgstr "A exclusão de Mapas está disponível novamente"
+
+msgid "maps_training/switch/title"
+msgstr "Topografia"
+
+msgid "maps_training/switch_off/body"
+msgstr "Este modo está desactivado."
+
+msgid "maps_training/switch_on/body"
+msgstr "Este modo está activado."
+
+msgid "memberRosterChangedMain"
+msgstr "%s transferiu %s para a equipa regular."
+
+msgid "memberRosterChangedSecond"
+msgstr "%s transferiu %s para a equipa reservada."
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "Não há memória suficiente. Por favor reinicie o jogo."
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "Sem memória suficiente. Qualidade de texturas baixa."
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "Sem memória suficiente. Qualidade de texturas média."
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "Não há memória suficiente.Definições dos gráficos foram alteradas. Por favor reinicie o jogo."
+
+msgid "missingEvents/button"
+msgstr "Abrir"
+
+msgid "missingEvents/header"
+msgstr "Eventos"
+
+msgid "missingEvents/text"
+msgstr "Eventos importantes que perdeu: "
+
+msgid "module_apply/error_is_current"
+msgstr "O módulo %(kind)s \"%(name)s\" já está montado."
+
+msgid "module_apply/error_need_gun"
+msgstr "Incapaz de montar %(kind)s \"%(name)s\" no veículo com a arma actual."
+
+msgid "module_apply/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" não é compatível com a torre actual. Substitua a torre."
+
+msgid "module_apply/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" não está montado. Sem arma compatível no Armazém."
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" não é compatível com a torre actual. Substitua a torre."
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" não encaixa neste veículo."
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "O módulo %(kind)s \"%(name)s\" não é compatível com os consumíveis '%s'."
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" é do tipo errado."
+
+msgid "module_apply/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" é da nação errada."
+
+msgid "module_apply/incompatibleEqs"
+msgstr "O consumível \"%(items)s\" foi enviado para o Armazém devido à incompatibilidade com o módulo actual."
+
+msgid "module_apply/invalid_vehicle"
+msgstr "Veículo errado. Incapaz de montar o módulo %(kind)s \"%(name)s\"."
+
+msgid "module_apply/server_error"
+msgstr "Erro do servidor ao montar o módulo %(kind)s \"%(name)s\". Tente de novo mais tarde."
+
+msgid "module_apply/success"
+msgstr "%(kind)s \"%(name)s\" montado no veículo."
+
+msgid "module_apply/success_gun_change"
+msgstr "%(kind)s \"%(name)s\" montado no veículo com a arma \"%(gun)s\"."
+
+msgid "module_apply/vehicle_locked"
+msgstr "O veículo está bloqueado, impossível montar o módulo %(kind)s \"%(name)s\"."
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "Incapaz de montar o módulo %(kind)s \"%(name)s\": o veículo está danificado. Repare o seu veículo e tente de novo."
+
+msgid "module_buy/error_is_current"
+msgstr "O módulo %(kind)s \"%(name)s\" já está montado."
+
+msgid "module_buy/error_need_gun"
+msgstr "Incapaz de montar %(kind)s \"%(name)s\" no veículo com a arma actual."
+
+msgid "module_buy/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" não é compatível com a torre actual. Substitua a torre."
+
+msgid "module_buy/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" não está montado. Sem arma compatível no Armazém."
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" não cabe nesta torre. Substitua a torre."
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" não encaixa neste veículo."
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "O módulo %(kind)s \"%(name)s\" não é compatível com os consumíveis \"%s\"."
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" é do tipo errado."
+
+msgid "module_buy/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" é da nação errada."
+
+msgid "module_buy/invalid_module"
+msgstr "Incapaz de adquirir %(kind)s \"%(name)s\". Módulo errado."
+
+msgid "module_buy/invalid_vehicle"
+msgstr "Veículo errado. Incapaz de adquirir e montar %(kind)s \"%(name)s\"."
+
+msgid "module_buy/not_enough_credits"
+msgstr "Incapaz de adquirir %(kind)s \"%(name)s\". Sem créditos suficientes."
+
+msgid "module_buy/not_enough_gold"
+msgstr "Incapaz de adquirir %(kind)s \"%(name)s\". Sem ouro suficiente."
+
+msgid "module_buy/server_error"
+msgstr "Incapaz de adquirir %(kind)s \"%(name)s\". Tente novamente mais tarde."
+
+msgid "module_buy/server_error_centerDown"
+msgstr "Incapaz de adquirir %(kind)s \"%(name)s\". O servidor está temporáriamente indisponível."
+
+msgid "module_buy/success"
+msgstr "Módulo %(kind)s \"%(name)s\" adquirido com sucesso (%(count)s item(s)). Gasto %(money)s."
+
+msgid "module_buy/vehicle_locked"
+msgstr "Veículo bloqueado. Incapaz de adquirir e montar %(kind)s \"%(name)s\"."
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "Incapaz de adquirir e montar %(kind)s \"%(name)s\". Repare o veículo e tente novamente."
+
+msgid "module_buy/wallet_not_available"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "module_sell/invalid_module"
+msgstr "Incapaz de vender %(kind)s \"%(name)s\". Módulo errado."
+
+msgid "module_sell/server_error"
+msgstr "Incapaz de vender %(kind)s \"%(name)s\". Tente de novo mais tarde."
+
+msgid "module_sell/success"
+msgstr "Módulo %(kind)s \"%(name)s\" (%(count)s item(ns)). Recebido %(money)s."
+
+msgid "multipleSelling/success"
+msgstr "Adquirido %(money)s"
+
+msgid "nation_change/FAILED"
+msgstr "Erro a mudar a configuração"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "Erro a mudar a configuração"
+
+msgid "nation_change/error"
+msgstr "Erro a mudar a configuração"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: configuração nacional mudada"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "As Missões Diárias atualizaram por questões técnicas. O progresso da Missão foi guardado."
+
+msgid "notrecruit_window/success"
+msgstr "Membro da tripulação necessário.\n%(colorTagOpen)s%(rank)s %(fullName)s\n(%(role)s, %(vehicleName)s)%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "A acção está indisponível temporariamente. Tente de novo mais tarde."
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "Erro a receber presente: erro do servidor"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "Erro ao receber o presente: Algumas das recompensas estão atrasadas - tente reclamá-las mais tarde."
+
+msgid "offers/switch_off/body"
+msgstr "O serviço Abastecimentos da Frente Nacional está actualmente indisponível."
+
+msgid "offers/unavailable_many"
+msgstr "Especiais Indisponíveis: %(count)sitens."
+
+msgid "offers/unavailable_one"
+msgstr "Especial indisponível."
+
+msgid "optionalDevices_apply/error"
+msgstr "Erro na configuração dos Equipamentos. Por favor tente de novo mais tarde."
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "Erro na operação dos Equipamentos. Fundos insuficientes para fazer a compra."
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "Operação indisponível. O seu ouro ficará disponível após a operabilidade da WG Wallet for restabelecida."
+
+msgid "optionalDevices_remove/error"
+msgstr "Erro na configuração dos Equipamentos. Por favor tente de novo mais tarde."
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "As mensagens privadas com jogadores que não constam da sua lista de Contactos não estão disponíveis na sua conta."
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "As mensagens privadas não estão disponíveis na sua conta."
+
+msgid "parentControl/linkText"
+msgstr "Especificar Data"
+
+msgid "parentControl/mainText"
+msgstr "Por favor especifique a sua data de nascimento."
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "As mensagens privadas com jogadores que não constam da sua lista de Contactos são proibidas pelo controlo parental."
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "As mensagens privadas são proibidas pelo controlo parental."
+
+msgid "parentControl/title"
+msgstr "Confirmação da Idade"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "Transferência indisponível. Incapaz de definir o servidor."
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "Recompensa recebida:"
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "Ir para a Operação"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "Missão concluída"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "Troque de veículo para continuar a completar a missão."
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "Operação: %(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "Concluído: %(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "Campanha %(campaignName)s concluída com honras!"
+
+msgid "personalMission/operationComplete/title"
+msgstr "Operação %(operationName)s concluída!"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "Operação %(operationName)s concluída com honras!"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "As Campanhas estão temporariamente indisponíveis devido a manutenção."
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "As Campanhas estão disponíveis de novo. Pedimos desculpa pelo inconveniente."
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "A campanha %(campaignName)s está temporariamente indisponível devido à manutenção."
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "A campanha %(campaignName)s está disponível novamente. Pedimos desculpas pelo inconveniente."
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "A missão %(missionName)s na operação %(operationName)s está temporariamente indisponível devido a manutenção."
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "A missão %(missionName)s na operação %(operationName)s está novamente disponível. Pedimos desculpa pelo inconveniente."
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "A operação %(operationName)s na campanha %(campaignName)s está temporariamente indisponível devido a manutenção."
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "A operação %(operationName)s na campanha %(campaignName)s está novamente disponível. Pedimos desculpa pelo inconveniente."
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "Erro ao trocar campanhas. Tente novamente mais tarde."
+
+msgid "personalMissions/badge"
+msgstr "Crachá %(name)s recebido."
+
+msgid "personalMissions/camouflageGiven"
+msgstr "Recebida a Camuflagem exclusiva para %(vehicleName)s."
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "Está disponível a Camuflagem rara do %(vehicleName)s para todos os veículos da nação: %(nation)s."
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "Todo o progresso da operação foi guardado. Pode retomar as campanhas a qualquer momento."
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "As campanhas %(campaignName1)s e %(campaignName2)s foram colocadas em pausa"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "As operações pausadas e as suas missões foram retomadas."
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "As campanhas %(campaignName1)s e %(campaignName2)s foram retomadas"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "Todo o progresso da operação foi guardado. Pode retomar a campanha a qualquer momento."
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "Campanha %(campaignName)s pausada"
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "As operações em pausa foram retomadas."
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "Campanha %(campaignName)s retomada"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "O %(detailName)s foi montado com sucesso."
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "Operação: %(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "Incapaz de reiniciar a missão. Tente de novo mais tarde."
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "Ação indisponível. Missões temporariamente desativadas."
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "De momento, é incapaz de reiniciar a missão. Tente de novo mais tarde."
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "De momento, é incapaz de reiniciar a missão. Por favor espere até o veículo deste tipo não estar em batalha."
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "De momento, é incapaz de reiniciar a missão. Por favor espere até o grupo de veículos deste tipo não estar em batalha."
+
+msgid "personalMissions/discard/success"
+msgstr "A missão %(quest)s foi reiniciada com sucesso."
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "Ordens recebidas: %(count)s"
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "Ordens devolvidas: %(count)s\nPodem ser utilizadas novamente."
+
+msgid "personalMissions/operationActivation/body"
+msgstr "A primeira missão de cada série foi ativada."
+
+msgid "personalMissions/operationActivation/title"
+msgstr "Operação %(operationName)s ativada!"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "Recompensa recebida: \n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "Operação %(name)s concluída!"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "Todo o progresso da missão foi guardado. Pode retomar a operação a qualquer momento."
+
+msgid "personalMissions/operationPaused/title"
+msgstr "Operação %(operationName)s pausada"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "As missões pausadas foram retomadas."
+
+msgid "personalMissions/operationResumed/title"
+msgstr "Operação %(operationName)s retomada"
+
+msgid "personalMissions/pause/server_error"
+msgstr "A missão não foi pausada. Tente de nosso mais tarde."
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "Ação indisponível. Missões temporariamente desativadas."
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "De momento, está incapaz de pausar a missão. Tente de novo mais tarde."
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "De momento, está incapaz de pausar a missão. Por favor espere até o veículo deste tipo deixar de estar em batalha."
+
+msgid "personalMissions/pause/success_pause"
+msgstr "A missão %(quest)s foi pausada com sucesso."
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "A conclusão da missão %(quest)s foi restabelecida com sucesso."
+
+msgid "personalMissions/pawn/server_error"
+msgstr "Erro. Incapaz de aplicar uma ordem neste momento."
+
+msgid "personalMissions/pawn/success"
+msgstr "Ordens aplicadas à missão %(questName)s: %(count)s"
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "Erro ao receber recompensas. Tente novamente mais tarde."
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "O %(detail_name)s foi montado com sucesso."
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "Impossível reclamar recompensa. Por favor, tente novamente mais tarde."
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "Ação indisponível. Missões temporariamente desativadas."
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "Impossível reclamar recompensa. Recompensa indisponível."
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "Impossível reclamar recompensa. Recompensa indisponível."
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "Impossível reclamar recompensa. Dados incorretos."
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "Impossível reclamar recompensa. Por favor, tente novamente mais tarde."
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "Ação indisponível. Missões temporariamente desativadas."
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "Impossível reclamar recompensa. Recompensa indisponível."
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "Impossível reclamar recompensa. Recompensa indisponível."
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "Impossível reclamar recompensa. Dados incorretos."
+
+msgid "personalMissions/select/server_error"
+msgstr "Missões não selecionadas: %(questNames)s. Por favor, tente novamente mais tarde."
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "Ação indisponível. Missões temporariamente desativadas."
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "Missões não selecionadas: %(questNames)s. Por favor, tente novamente mais tarde."
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Atenção! Para mudar a missão, espere até que todos os veículos para os quais esta missão esteja activa regressem à Garagem."
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "Missões não selecionadas: %(questNames)s. Complete a operação anterior."
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "Missões não selecionadas: %(questNames)s. Lugares insuficientes."
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "Missões não selecionadas: %(questNames)s. Por favor, reclame a recompensa."
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "Missões não selecionadas: %(questNames)s. Missão indisponível."
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "Missões não selecionadas: %(questNames)s. Missão já concluída."
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "Missões não selecionadas: %(questNames)s."
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "Missões não selecionadas: %(questNames)s. Missão neste conjunto já selecionada."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "Missões não selecionadas: %(questNames)s. Dados incorretos."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "Missões não selecionadas: %(questNames)s. Dados incorretos."
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Actualmente é incapaz de selecionar a missão. Por favor espere até o grupo de veículos deixar de estar em batalha."
+
+msgid "personalMissions/select/success"
+msgstr "As missões foram selecionadas com sucesso. Missões actualmente selecionadas: %(questNames)s."
+
+msgid "personalMissions/tankmenGain"
+msgstr "Adicionado: membro da tripulação feminina"
+
+msgid "personalMissions30/select/server_error"
+msgstr "Erro ao ativar a operação. Tente novamente mais tarde."
+
+msgid "piggyBank/piggyBankFull"
+msgstr "A Reserva de Créditos está cheia, mas vai abrir em %(timeValue)s"
+
+msgid "piggybank/switch_off/body"
+msgstr "Esta funcionalidade está temporariamente indisponível por motivos técnicos.\n Pedimos desculpa pelo incómodo."
+
+msgid "piggybank/switch_off/title"
+msgstr "A Reserva de Créditos está temporariamente indisponível"
+
+msgid "piggybank/switch_on/body"
+msgstr "Os problemas técnicos foram resolvidos. Lamentamos o inconveniente."
+
+msgid "piggybank/switch_on/title"
+msgstr "A Reserva de Créditos está disponível novamente"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "Esta funcionalidade está temporariamente indisponível por motivos técnicos.\nPedimos desculpa pelo inconveniente."
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "As Subscrições de Jogadores já não estão disponíveis!"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "Os problemas técnicos foram resolvidos. Pedimos desculpa pelo inconveniente."
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "As Subscrições de Jogadores estão agora disponíveis"
+
+msgid "post_progression/server_error"
+msgstr "A recompensa pela Pós-Progressão da tripulação\njá foi recebida"
+
+msgid "post_progression/success"
+msgstr "Data: %(at)s\nAdicionado ao Armazém: %(book_name)s (X%(amount)s).\nEXP da Pós-Progressão trocada."
+
+msgid "post_progression/success/title"
+msgstr "Recibo"
+
+msgid "prebattle/hasLockedState"
+msgstr "Não é possivel aceitar o convite pois já se encontra à espera de uma batalha. Saia do Lobby ou termine a batalha e tente novamente."
+
+msgid "prebattle/invites/sendInvite"
+msgstr "Convite para o jogador enviado."
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "Convite para o jogador %(name)s enviado."
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "Erro ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "Erro AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "Erro BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "Erro CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "O Comandante saiu da equipa."
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "A equipa foi dispensada."
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "O modo está temporariamente indisponível"
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "Desmobilização."
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "Erro PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "O tempo acabou."
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "Erro desconhecido."
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "Erro VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "Você foi excluído do pelotão."
+
+msgid "prebattle/kick/type/unknown"
+msgstr "Você foi excluído da equipa."
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "Tem de ter pelo menos 3 veículos adequados para o modo. Consulte a página Sobre o Massacre para obter detalhes."
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "Pesquisa Automática"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "Alterar o voice chat"
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "Mudar de Divisão"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "Selecção de modo"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "Mudar de Submodo"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "Selecção de modo"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "Definições de alteração"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "Editar equipa"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "Modificar o modo de Espectador"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "Bloquear lugar"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "Procura"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "Convidar para a equipa"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "Confirmar prontidão"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "Confirmar prontidão da equipa"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "Selecionar Veículos"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "Alterar Equipas"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "Procura"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "Apenas as equipas com número mínimo de veículos pode entrar em batalha: %(minCount)d."
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "Apenas as equipas com um um nível entre %(minTotalLevel)d e %(maxTotalLevel)d podem entrar em batalha."
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "Apenas veículos de nível %(minLevel)d a %(maxLevel)d são permitidos."
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "O veículo não é adequado para esta batalha."
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "Todos os membros da equipa não podem ser Espectadores."
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "O veículo seleccionado é adequado apenas para o modo Linha da Frente."
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "O veículo selecionado apenas é adequado para o modo Fúria."
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "As munições e os consumíveis carregados no veículo selecionado não cumprem as condições da batalha."
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "Nível do veículo errado para esta batalha. Nível mínimo para este tipo: %s. Nível do veículo máximo para esta clase: %s."
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "Tipo de veículo errado para esta batalha. Tipos permitidos: %s."
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "Os componentes montados no veículo selecionado não cumprem as condições da batalha."
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "Nível de veículo errado para esta batalha. Nível Mínimo: %s. Nível Máximo: %s."
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "A nacionalidade deste veículo é errada para esta batalha. Nações permitidas %s."
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "Veículo incompatível"
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "As munições carregadas no veículo selecionado não cumprem as condições da batalha."
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "Veículo incompatível"
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "Veículo errado para esta batalha."
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "O veículo selecionado não está pronto."
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "Acção indisponível. Selecione um veículo primeiro."
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "Incapaz de se juntar à equipa."
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "Veículo incompatível"
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "O veículo seleccionado será desbloqueado durante a batalha."
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "Incapaz de encontrar oponentes para a equipa actual. Considere reorganizar a sua equipa."
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "Não foi possível encontrar rivais para o Pelotão actual, considere reorganizar a sua equipa."
+
+msgid "premium/buyingSuccess"
+msgstr "Conta Premium foi comprada por %(period)d dia(s). Gasto %(money)s ."
+
+msgid "premium/continueSuccess"
+msgstr "Conta Premium foi prolongada por %(period)d dia(s). Gasto %(money)s ."
+
+msgid "premium/not_enough_gold"
+msgstr "Sem ouro suficiente para comprar Conta Premium por %(period)d dia(s)."
+
+msgid "premium/post_battle_premium"
+msgstr "Por adquirir a Conta Premium você ganha %(xpDiff)d EXP e %(creditDiff)d créditos."
+
+msgid "premium/server_error"
+msgstr "Incapaz de adquirir uma Conta Premium por %(period)d dia(s). Tente mais tarde."
+
+msgid "premium/wallet_not_available"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "Ação indisponível. Tente de novo mais tarde."
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "Acção indisponível. Por favor espere até que a operação actual esteja concluída."
+
+msgid "premium_quests/switch_off/body"
+msgstr "Esta funcionalidade está temporariamente indisponível por motivos técnicos.\n Pedimos desculpa pelo incómodo."
+
+msgid "premium_quests/switch_off/title"
+msgstr "Missões Premium estão temporariamente indisponíveis"
+
+msgid "premium_quests/switch_on/body"
+msgstr "Os problemas técnicos foram resolvidos. Lamentamos o inconveniente."
+
+msgid "premium_quests/switch_on/title"
+msgstr "Missões Premium estão disponíveis novamente"
+
+msgid "progressiveReward/error"
+msgstr "Operação actualmente indisponível. Tente de novo mais tarde."
+
+msgid "progressiveReward/switch_off"
+msgstr "Recompensas por Mérito: este recurso foi temporariamente desativado. Pedimos desculpas pelo inconveniente."
+
+msgid "progressiveReward/switch_on"
+msgstr "Recompensas por Mérito estão disponíveis novamente."
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "Missão expirada. Descrição detalhada indisponível."
+
+msgid "queue/isInQueue"
+msgstr "Operação actualmente indisponível. Tente de novo mais tarde."
+
+msgid "rally/leaveDisabled"
+msgstr "Ação indisponível.\nNão pode sair do modo. Você é membro da unidade tática e está pronto para a batalha."
+
+msgid "ranked/notification/available"
+msgstr "Fim do Cessar Fogo: As Batalhas Classificadas estão disponíveis novamente."
+
+msgid "ranked/notification/available/title"
+msgstr "Batalhas Classificadas Disponíveis"
+
+msgid "ranked/notification/congratulations"
+msgstr "Parabéns!"
+
+msgid "ranked/notification/notAvailable"
+msgstr "As Batalhas Classificadas não estão disponíveis. Siga as actualizações no portal do jogo."
+
+msgid "ranked/notification/notSet"
+msgstr "Este modo está indisponível no servidor seleccionado."
+
+msgid "ranked/notification/notSet/title"
+msgstr "Batalhas Classificadas Indisponíveis"
+
+msgid "ranked/notification/primeTime"
+msgstr "As Batalhas Classificadas não estão disponíveis até o final do Cessar-Fogo."
+
+msgid "ranked/notification/primeTime/title"
+msgstr "Cessar-Fogo"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "Demonstrou excelentes resultados nas Temporadas de Batalhas Classificadas 2020/2021, conquistando uma posição entre os melhores jogadores!"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "Parabéns!"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "Demonstrou excelentes resultados nas Temporadas de Batalhas Classificadas 2020/2021, conquistando a posição %(playerPosition)s entre os melhores jogadores!"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "Parabéns!"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "Crachá recebido:"
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "Crachás recebidos:"
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "Créditos ganhos:"
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "Títulos recebidos:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "Moedas de Aniversário recebidas:"
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "Ouro recebido:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "Equipamento melhorado adicionado a seleccionar: %(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "Estilo recebido:"
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "Estilos recebidos:"
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "Tokens de Posto recebidos: %(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "Dias de Conta Wargaming Premium"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "Dias de Conta Wargaming Premium (x%(daysCount)s)"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "Dias de Conta WoT Premium"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "Dias de Conta WoT Premium (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "Resultados da Fase %(number)s"
+
+msgid "ranked/notifications/league"
+msgstr "Liga: %(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "Dourada"
+
+msgid "ranked/notifications/league2"
+msgstr "Prata"
+
+msgid "ranked/notifications/league3"
+msgstr "Bronze"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "Tokens de Posto recebidos para a Liga Dourada: %(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "Posto Máximo: %(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s, %(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "Posição na Tabela de Classificação: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "Concluiu a qualificação"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "Tokens de Posto recebidos para a Temporada: %(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "Resultados das Batalhas Classificadas, Temporada %(seasonNumber)s"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "Você alcançou o Posto %(rankName)s (%(divisionName)s)"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "Marca Corredor recebida. As recompensas foram melhoradas."
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "Marca Corredor recebida"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "Incapaz de recrutar um novo membro da tripulação: o tanque tem uma tripulação permanente única."
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "Incapaz de recrutar um membro da tripulação. O serviço está temporariamente indisponível."
+
+msgid "recruit_window/financial_success"
+msgstr "Membro da tripulação recrutado para o %(vehName)s. Créditos gastos: %(credits)s."
+
+msgid "recruit_window/financial_success_credits"
+msgstr "Membro da tripulação recrutado para o %(vehName)s. \nCréditos gastos: %(price)s."
+
+msgid "recruit_window/financial_success_gold"
+msgstr "Membro da tripulação recrutado para o %(vehName)s. \nOuro gasto: %(price)s."
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "Você atingiu o limite de compra de membros da tripulação gratuitos por hoje."
+
+msgid "recruit_window/not_enough_credits"
+msgstr "Erro ao recrutar um membro da tripulação- Sem créditos suficientes."
+
+msgid "recruit_window/not_enough_gold"
+msgstr "Erro ao recrutar um membro da tripulação. Sem ouro suficiente."
+
+msgid "recruit_window/not_enough_space"
+msgstr "Erro ao recrutar e transferir um membro da tripulação para o veículo. Não há camas suficientes no Quartel. Por favor liberte uma cama ou compre camas adicionais no Quartel."
+
+msgid "recruit_window/server_error"
+msgstr "Incapaz de recrutar um membro da tripulação. Tente de novo mais tarde."
+
+msgid "recruit_window/success"
+msgstr "Membro da tripulação recrutado para o %(vehName)s gratuito."
+
+msgid "recruit_window/wallet_not_available"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "Incapaz de transferir o membro da tripulação: o tanque tem uma tripulação permanente única."
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "Erro ao substituir o membro da tripulação. Veículo errado."
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "Incapaz de enviar o membro da tripulação para o Quartel. Sem camas suficientes no Quartel."
+
+msgid "reequip_tankman/server_error"
+msgstr "Incapaz de substituir um membro de tripulação. Tente novamente mais tarde."
+
+msgid "reequip_tankman/success"
+msgstr "Membro da tripulação substituído."
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "Erro ao substituir o membro da tripulação. O veículo está bloqueado."
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "Erro ao substituir o membro da tripulação. Repare o veículo."
+
+msgid "remove_component"
+msgstr "%s \"%s\" desmontado do veículo."
+
+msgid "remove_vehicle_broken"
+msgstr "Incapaz de remover %s \"%s\": o veículo está danificado. Repare o veículo e tente novamente."
+
+msgid "remove_vehicle_locked"
+msgstr "Incapaz de remover %s \"%s\": o veículo está bloqueado."
+
+msgid "repair/credits_error"
+msgstr "São necessários mais %s créditos para reparar o tanque '%s'."
+
+msgid "repair/server_error"
+msgstr "Erro ao reparar o tanque %s. Tente novamente mais tarde."
+
+msgid "repair/success"
+msgstr "O %s está reparado. Você gastou %s."
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "Incapaz de substituir a Informação Pessoal do seu membro da tripulação: o tanque tem uma tripulação permanente única."
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "Erro ao substituir Dados Pessoais. Veículo errado."
+
+msgid "replace_tankman/not_enough_money"
+msgstr "Erro ao substituir Dados Pessoais. Sem créditos suficientes."
+
+msgid "replace_tankman/server_error"
+msgstr "Falha ao substituir Dados Pessoais. Tente novamente mais tarde."
+
+msgid "replace_tankman/success"
+msgstr "Aparência substituída com sucesso."
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "Erro ao substituir Dados Pessoais. O veículo está bloqueado."
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "Erro ao substituir Dados Pessoais. Repare o veículo."
+
+msgid "request/isInCoolDown"
+msgstr "A operação \"%(request)s\" está bloqueada por %(coolDown)s s."
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "Incapaz de reiniciar as aptidões.\nServidor indisponível. Tente de novo mais tarde."
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "Todas as aptidões de todos os membros da tripulação\nforam reiniciadas gratuitamente."
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "Erro ao gastar recursos. Por favor tente de novo."
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "Ocorreu um erro ao devolver recursos. Por favor, tente novamente."
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "Ainda tem veículos disponíveis para recuperar. Vá à Loja para enviar os veículos correspondentes de volta para a Garagem."
+
+msgid "restore_tankman/DISABLED"
+msgstr "Recuperação do membro da tripulação está temporariamente indisponível. Tente novamente mais tarde."
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "Incapaz de recuperar o membro da tripulação."
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "Sem ouro suficiente para recuperar o membro da tripulação."
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "Incapaz de recrutar o membro da tripulação. O prazo para a operação expirou."
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "Incapaz de recrutar o membro da tripulação. Tente novamente mais tarde."
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "Incapaz de recrutar o membro da tripulação. A recuperação do membro da tripulação está temporariamente indisponível."
+
+msgid "restore_tankman/error"
+msgstr "%(tankman)s já não pode ser recuperado."
+
+msgid "restore_tankman/financial_success"
+msgstr "Membro da tripulação recuperado.\nCréditos gastos: %(money)s."
+
+msgid "restore_tankman/not_enough_space"
+msgstr "Incapaz de recrutar o membro da tripulação. Não tem camas suficientes no Quartel."
+
+msgid "restore_tankman/server_error"
+msgstr "Incapaz de recuperar este membro da tripulação. Tente de novo mais tarde."
+
+msgid "restore_tankman/success"
+msgstr "Membro da tripulação recuperado."
+
+msgid "retraining_change_tankman_role/success"
+msgstr "A qualificação do membro da tripulação foi alterada."
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "Incapaz de re-treinar a tripulação: o tanque tem uma tripulação permanente única."
+
+msgid "retraining_crew/empty_list"
+msgstr "Erro ao retreinar a tripulação. Os membros da tripulação não estão selecionados."
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "Créditos gastos: %(money)s."
+
+msgid "retraining_crew/financial_success_free"
+msgstr "Tripulação treinada para o %(vehName)s gratuitamente."
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "Ouro gasto: %(money)s."
+
+msgid "retraining_crew/invalid_operation"
+msgstr "Erro ao retreinar a tripulação. A operação está indisponível."
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "Erro ao retreinar a tripulação. Veículo errado."
+
+msgid "retraining_crew/server_error"
+msgstr "Incapaz de requalificar a tripulação. Tente de novo mais tarde."
+
+msgid "retraining_crew/success"
+msgstr "Tripulação treinada para o %(vehName)s."
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "Erro ao retreinar a tripulação. O veículo está bloqueado."
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "Erro ao retreinar a tripulação. Repare o veículo."
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "Incapaz de re-treinar o seu membro da tripulação: o tanque tem uma tripulação permanente única."
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "Créditos gastos: %(money)s."
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "Membro de tripulação retreinado para o %(vehName)s gratuitamente."
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "Ouro gasto: %(money)s."
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "Erro ao retreinar o membro da tripulação. A operação está indisponível."
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "Erro ao retreinar um membro da tripulação. Veículo errado."
+
+msgid "retraining_tankman/server_error"
+msgstr "Incapaz de retreinar um membro da tripulação.\nTente de novo mais tarde. "
+
+msgid "retraining_tankman/success"
+msgstr "Membro da tripulação retreinado para o %(vehName)s."
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "Erro ao retreinar um membro da tripulação. O veículo está bloqueado."
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "Erro ao retreinar um membro da tripulação. Repare o veículo."
+
+msgid "return_crew/FORBIDDEN"
+msgstr "Incapaz de devolver a tripulação: o tanque tem uma tripulação permanente única."
+
+msgid "return_crew/invalid_vehicle"
+msgstr "Erro ao recuperar a tripulação. Veículo errado."
+
+msgid "return_crew/not_enough_space"
+msgstr "Incapaz de enviar a tripulação para o Quartel. Não há camas suficientes no Quartel."
+
+msgid "return_crew/return_unavailable"
+msgstr "Alguns membros da tripulação não podem regressar ao veículo."
+
+msgid "return_crew/server_error"
+msgstr "Incapaz de recuperar a tripulação. Tente de novo mais tarde."
+
+msgid "return_crew/success"
+msgstr "Tripulação transferida com sucesso."
+
+msgid "return_crew/vehicle_locked"
+msgstr "Erro ao recuperar a tripulação. O veículo está bloqueado."
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "Erro ao recuperar a tripulação. Repare o veículo."
+
+msgid "rotation/lock"
+msgstr "Os seguintes grupos estão bloqueados e indisponíveis para batalhas: %(groupNum)s."
+
+msgid "rotation/unlock"
+msgstr "Os seguintes grupos estão desbloqueados e agora disponíveis para batalhas: %(groupNum)s."
+
+msgid "rotation/vehicleIsLocked"
+msgstr "O veículo está bloqueado e indisponível para batalhas."
+
+msgid "royale/notification/congratulations"
+msgstr "Parabéns!"
+
+msgid "royale/notification/primeTime"
+msgstr "As batalhas do Caçador de Aço não estão disponíveis até ao fim do Cessar-fogo. Veja o horário no calendário."
+
+msgid "royale/notification/primeTime/title"
+msgstr "Cessar-Fogo"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "Nível alcançado: %(level)s"
+
+msgid "rts/notification/available"
+msgstr "O evento Batalhas da Arte da Estratégia está disponível novamente neste servidor."
+
+msgid "rts/notification/available/title"
+msgstr "Batalhas disponíveis"
+
+msgid "rts/notification/notAvailable"
+msgstr "O evento Arte da Estratégia não está disponível. Acompanhe as novidades no portal do jogo."
+
+msgid "rts/notification/notSet"
+msgstr "As batalhas Arte da Estratégia não estão disponíveis no servidor seleccionado."
+
+msgid "rts/notification/notSet/title"
+msgstr "Batalhas indisponíveis"
+
+msgid "rts/notification/primeTime"
+msgstr "Cessar-fogo em efeito. As batalhas da Arte da Estratégia estão temporariamente indisponíveis."
+
+msgid "rts/notification/primeTime/title"
+msgstr "Cessar-Fogo"
+
+msgid "securityMessage/bad_email"
+msgstr "Registou o seu endereço de email num servidor suspeito. Por favor altere o seu email por questões de segurança. %(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "Altere as definições de segurança"
+
+msgid "securityMessage/no_phone"
+msgstr "Por questões de segurança, por favor adicione um número de telefone à sua conta. %(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "Para repor a palavra-passe, por favor indique uma questão de segurança na Gestão da sua Conta. %(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "Não alterou a sua palavra-passe em 30 dias, por favor altere a sua palavra-passe por questões de segurança. %(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "A palavra-passe que especificou ao criar a sua conta não é suficientemente forte. Por favor, altere a palavra-passe. %(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "Incapaz de vender o %s: o veículo está danificado. Repare o veículo e tente novamente."
+
+msgid "sell_vehicle_locked"
+msgstr "Incapaz de vender o %s: o veículo está bloqueado."
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "O evento Recompensa Bem Merecida foi retomado. Lamentamos o inconveniente."
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "O evento Recompensa Bem Merecida está temporariamente suspenso devido a manutenção."
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "Erro ao receber recompensas. A operação está temporariamente indisponível."
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "Erro a receber a recompensa. Entre em contacto com o Apoio ao Jogador."
+
+msgid "seniority_awards/selection_timeout"
+msgstr "As recompensas pelos seus anos de serviço estão atrasadas. Tente mais tarde."
+
+msgid "serverInstallError"
+msgstr "Erro no servidor ao montar o módulo %s \"%s\". Tente novamente mais tarde."
+
+msgid "serverRemoveError"
+msgstr "Erro ao remover o módulo %s \"%s\". Tente novamente mais tarde."
+
+msgid "server_shut_down"
+msgstr "A reiniciar o servidor do jogo"
+
+msgid "session_tracker_kick"
+msgstr "O seu Wargaming.net&nbsp;ID foi usado para entrar noutro jogo. A sessão de jogo atual foi interrompida."
+
+msgid "shell_buy/invalid_module"
+msgstr "Incapaz de comprar %(name)s. Munição errada."
+
+msgid "shell_buy/not_enough_credits"
+msgstr "Incapaz de comprar %(name)s. Sem créditos suficientes."
+
+msgid "shell_buy/not_enough_gold"
+msgstr "Incapaz de comprar %(name)s. Sem ouro suficiente."
+
+msgid "shell_buy/server_error"
+msgstr "Incapaz de comprar %(name)s. Tente de novo mais tarde."
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "Incapaz de comprar a munição %(name)s. O servidor está temporariamente indisponível."
+
+msgid "shell_buy/success"
+msgstr "A munição %(name)s foi comprada com sucesso (%(count)s itens). Gasto %(money)s."
+
+msgid "shell_buy/wallet_not_available"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "shell_sell/invalid_module"
+msgstr "Incapaz de vender \"%(name)s\". Munição errada."
+
+msgid "shell_sell/server_error"
+msgstr "Incapaz de vender \"%(name)s\". Tente de novo mais tarde."
+
+msgid "shell_sell/success"
+msgstr "Munição \"%(name)s\" (%(count)s item(ns)). Recebido %(money)s."
+
+msgid "shells_apply/error"
+msgstr "Erro na configuração da Munição. Por favor tente de novo mais tarde."
+
+msgid "shells_apply/not_enough_money"
+msgstr "Erro na operação da Munição. Fundos insuficientes para fazer a compra."
+
+msgid "shells_apply/success_money_spent"
+msgstr "Total gasto em munições %(money)s."
+
+msgid "shells_apply/wallet_not_available"
+msgstr "Operação indisponível. O seu ouro ficará disponível após a operabilidade da WG Wallet for restabelecida."
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "Pedido de compra e montagem do módulo enviado. A aguardar resposta do servidor."
+
+msgid "shop/item/buy_server_error"
+msgstr "Incapaz de adquirir %(typeString)s \"%(userString)s\". Por favor tente novamente mais tarde."
+
+msgid "shop/item/buy_success"
+msgstr "Módulo %(typeString)s \"%(userString)s\" adquirido com sucesso (%(count)d). Gasto %(price)s."
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "Operação atualmente indisponível."
+
+msgid "shop/item/not_enough_money"
+msgstr "Para adquirir %(typeString)s \"%(userString)s\" necessita de mais %(price)s."
+
+msgid "shop/item/not_found"
+msgstr "O Módulo %(typeString)s \"%(userString)s\" não foi encontrado na Loja. Por favor tente novamente mais tarde."
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "Operação atualmente indisponível."
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "Para comprar %(userString)s precisa de mais %(price)s ."
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "Para alugar o %(userString)s, necessitade mais %(price)s."
+
+msgid "shop/vehicle/not_found"
+msgstr "Veículo %(userString)s não se encontra na Loja. Por favor tente mais tarde."
+
+msgid "shop_resync"
+msgstr "Actualização da Interface em %(date)s ás %(time)s devido a mudanças no servidor."
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "<font color='#E9E2BF'>\"{oldName}\"</font> ({amount}) foi convertido em <font color='#E9E2BF'>\"{newName}\"</font> ({amount})"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "Data: %(date)s\nDiretivas convertidas: %(items)s."
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "Recibo"
+
+msgid "squad/createError"
+msgstr "Apenas os usuários com Conta Premium podem criar Pelotões."
+
+msgid "squad/kickedFromQueue"
+msgstr "Não foi possível encontrar rivais para o Pelotão actual, considere reorganizar a sua equipa."
+
+msgid "squad/leaveDisabled"
+msgstr "Acção indisponível.\nNão pode sair do Pelotão. Você é um membro do Pelotão e está pronto para a batalha."
+
+msgid "squad/memberJoined"
+msgstr "%s juntou-se à unidade tática."
+
+msgid "squad/memberLeave"
+msgstr "%s abandonou a unidade tática."
+
+msgid "squad/memberNotReady"
+msgstr "%s não está pronto."
+
+msgid "squad/memberOffline"
+msgstr "Ligação interrompida com %s."
+
+msgid "squad/memberReady"
+msgstr "%s está pronto."
+
+msgid "squad/notSetReadyStatus"
+msgstr "Incapaz de entrar em batalha com o Pelotão."
+
+msgid "squad/notValidDeleted"
+msgstr "O %(vehName)s foi excluído do Pelotão porque o seu nível não combina com o nível do veículo do Comandante. Selecione um veículo do mesmo nível."
+
+msgid "squad/notValidDeletedFilter"
+msgstr "O %(vehName)s foi excluído do Pelotão porque o Comandante alterou os requisitos."
+
+msgid "squad/notValidEnqueueData"
+msgstr "Foi removido do Pelotão porque o Comandante alterou os requisitos ou não conseguiu juntar-se porque o veículo não corresponde aos requisitos. Por favor escolha outro veículo."
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "O %(vehName)s foi removido devido a restrições quanto ao número de veículos deste tipo permitido por pelotão. Selecione um veículo diferente."
+
+msgid "squad_bonus/switch_off/body"
+msgstr "Esta funcionalidade está temporariamente indisponível por motivos técnicos.\n Pedimos desculpa pelo incómodo."
+
+msgid "squad_bonus/switch_off/title"
+msgstr "O bónus de Pelotão está temporariamente indisponível"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "Os problemas técnicos foram resolvidos. Lamentamos o inconveniente."
+
+msgid "squad_bonus/switch_on/title"
+msgstr "O bónus de Pelotão está novamente disponível"
+
+msgid "ssr/unavailable"
+msgstr "Incapaz de descarregar a repetição"
+
+msgid "steam_login_not_allowed"
+msgstr "Não pode utilizar esta aplicação para jogar: A sua conta Steam já está ligada a uma conta Wargaming.net. Saiba mais no Apoio ao Jogador."
+
+msgid "tankman/tankmanToRemove"
+msgstr "Membro da tripulação dispensado."
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s d"
+
+msgid "techtree/action/header"
+msgstr "\"%(actionName)s\" Especial"
+
+msgid "techtree/action/text"
+msgstr "O especial termina em "
+
+msgid "techtree/action/text/closest"
+msgstr "O próximo especial termina em: "
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "Razão: este veículo só está disponível para membros do Prime Gaming. Por favor, verifique o estado da sua subscrição do Prime Gaming."
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "Veículo indisponível"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "Data: %(datetime)s\nVeículos adicionados: %(vehicles)s\nAdicionado: um lugar na Garagem,%(crew)s estilo 3D."
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "Data: %(datetime)s\nVehicles adicionados: %(vehicles)s\nAdicionado: um lugar na Garagem,%(crew)s uma camuflagem exclusiva."
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr " uma tripulação a 100%%%(skills)s,"
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "Veículos adicionados"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "Data: %(datetime)s\nRemovido: %(vehicles)s, um lugar na Garagem."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "Razão: este veículo só está disponível para membros do Prime Gaming. Por favor, verifique o estado da sua subscrição do Prime Gaming."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "Veículos removidos"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "O veículo está disponível de novo"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "Adicionado o tanque T-44-100 Igrovoy. Removido: %(tanks)s."
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "As missões podem agora ser concluídas no T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " e "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)s créditos"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "Todos os membros da tripulação do %(tanks)s retreinados para o T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "Equipamento desmontado e enviado para o Armazém.\nElementos de personalização enviados para o Armazém.\nMunições e directivas enviadas para o Armazém."
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "Carregamento, elementos de personalização, Experiência de Combate, estatísticas e prémios transferidos do %(mergedTank)s para o T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)s Experiência Livre"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr ", "
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "Experiência para Modificação de Campo compensada: %(compensation)s adicionada."
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "Decalques progressivos adquiridos compensados: %(value)s ouro adicionado."
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "Estatísticas de jogo e prémios do %(mergedTank)s transferidos para o T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "Experiência de Combate somada e transferida para o T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "Boa sorte no campo de batalha!"
+
+msgid "telecomMergeResults/title"
+msgstr "Alterações à Tarifa \"Igrovoy\""
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "A selecção e aluguer de veículos estão suspensas."
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "O aluguer de veículos está actualmente indisponível"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "O aluguer de veículos está disponível"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "Parabéns! Recebeu %(count)s token(s)."
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "Falha a transferir ouro. O receptor recusou a transação."
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "Transferência de ouro está indisponível."
+
+msgid "tradingError/NO_WARES"
+msgstr "Não é possível transferir ouro. Não tem ouro suficiente."
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "Você atingiu o limite de transferências. Tente novamente amanhã."
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "Falha a transferir ouro. Tente novamente mais tarde."
+
+msgid "training/error/AddPlayer"
+msgstr "Erro da sala de Treino. O número máximo de jogadores numa equipa foi excedido."
+
+msgid "training/error/doAction"
+msgstr "Erro na Sala de Treino. Tente mais tarde."
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "Erro na sala de treino. Capacidade máxima da equipa no modo Massacre: %(numPlayers)s."
+
+msgid "training/error/selectObserver"
+msgstr "Erro da sala de Treino. Número máximo de jogadores numa equipa: %(numPlayers)s."
+
+msgid "training/error/swapTeams"
+msgstr "Erro de servidor a tentar trocar as equipas. Tente novamente mais tarde."
+
+msgid "transferXP/server_error"
+msgstr "Operação está indisponível. Por favor tente de novo mais tarde."
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "Ação indisponível. Permissões insuficientes."
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "Acção indisponível. Você não é membro de nenhum clã."
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "Erro: Incapaz de restaurar o veículo selecionado ao serviço."
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "Erro: Sem Peças de Reparação suficientes para restaurar o veículo ao serviço."
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "Erro: O preço de restauração do veículo selecionado foi alterado."
+
+msgid "unit/error/wgshEvent/common"
+msgstr "Erro: Incapaz de concluir a ação."
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "Erro ao juntar-se ao Pelotão: A sua conta foi bloqueada temporariamente neste modo de jogo."
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "Acção indisponível. A conta está recuperada."
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "O jogador não consegue juntar-se à equipa."
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "Acção indisponível. O lugar já está preenchido."
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "O jogador já se juntou à equipa."
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "Incapaz de transferir as permissões do Comandante."
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "Acção indisponível. Tipo de conta inválida."
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "Acção indisponível. Clã inválido."
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "Não é possivel juntar-se à equipa."
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "Nível máximo dos veículos foi excedido."
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "Acção indisponível. Lista de membros do destacamento inválida."
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "Número de lugares incorrecto"
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "Acção indisponível. Tipo errado de veículo para combater num Pelotão."
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "Erro ao juntar-se à equipa. Veículo de nível errado."
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "Mudar a Divisão está indisponível à hora especificada."
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "Não é possivel encontrar equipas."
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "Não é possivel enviar convite."
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "Erro ao juntar ao Pelotão: Jogar num Pelotão está indisponível até a Qualificação estar concluída."
+
+msgid "unit/errors/COOLDOWN"
+msgstr "Operação temporariamente indisponível."
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "Falha ao concluir a última operação com a equipa."
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "Veículo não está pronto para a batalha ou não existe veículo na garagem."
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "Não é possível definir um veículo no lugar."
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "Acção indisponível. Alguns dos membros do destacamento ainda estão em batalha."
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "Sem permissões para esta operação."
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "Conta bloqueada."
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "A equipa está em espera ou nos resultados da pesquisa."
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "Não é possivel juntar-se à equipa. Acesso negado."
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "A equipa não está em espera."
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "A equipa não está nos resultados da pesquisa."
+
+msgid "unit/errors/NOT_READY"
+msgstr "A equipa não está pronta."
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "Erro ao juntar-se ao Pelotão: Não tem um veículo adequado para o modo de jogo seleccionado."
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "Incapaz de adicionar o jogador aos membros da equipa."
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "Acção indisponível. Jogador não foi encontrado."
+
+msgid "unit/errors/NO_UNIT"
+msgstr "A equipa não foi encontrada."
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "A equipa não existe."
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "Acção indisponível. Erro ao mostrar a lista de veículos."
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "Acção indisponível. O jogador está desligado."
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "Você está na lista negra do Comandante."
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "Acção indisponível. A batalha anterior ainda não terminou."
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "Não é possivel excluir o jogador da equipa."
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "Acção indisponível. Um ou mais jogadores ainda não aceitaram o convite."
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "Acção indisponível para legionários."
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "Acção indisponível. O lugar não está bloqueado."
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "Acção indisponível. O lugar já está ocupado."
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "Acção indisponível para este lugar."
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "Escaramuças não serão permitidas à hora especificada."
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "Incapaz de mudar para outro modo de jogo. O limite de membros do pelotão foi excedido."
+
+msgid "unit/errors/TIMEOUT"
+msgstr "Acção indisponível. O tempo expirou."
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "Acção indisponível. Número máximo de lugares bloqueado."
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "Acção indisponível. Número máximo de legionários."
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "Não é possivel criar uma equipa ou juntar-se a uma."
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "Não é possivel criar uma equipa."
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "Acção indisponível. O destacamento está recuperado."
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "Acção indisponível. O veículo não preenche os requisitos."
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "Acção indisponível. Primeiro, selecione um veículo."
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "A equipa não existe."
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "Acção indisponível. O veículo não está pronto ou não respeita os requisitos necessários."
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Foi-lhe concedido o controlo das Reservas de Combate."
+
+msgid "unit/notification/changeDivision"
+msgstr "O Comandante %(name)s selecionou a Divisão %(division)s."
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "Absoluto"
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "Campeão"
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "Médio"
+
+msgid "unit/notification/giveLeadership"
+msgstr "%(userName)s foi nomeado Comandante da equipa."
+
+msgid "unit/notification/playerAdded"
+msgstr "%(userName)s juntou-se ao destacamento."
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "%(userName)s juntoiu-se ao Pelotão para lutar num veículo de Nível %(tierRange)s."
+
+msgid "unit/notification/playerOffline"
+msgstr "Ligação com %(userName)s perdida."
+
+msgid "unit/notification/playerOnline"
+msgstr "Ligação com %(userName)s restabelecida."
+
+msgid "unit/notification/playerRemoved"
+msgstr "%(userName)s deixou o destacamento."
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "O convite já foi enviado."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "As permissões do Comandante foram transferidas para outro jogador."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "As permissões de Comandante e o controlo sobre as Reservas de Combate foram transferidas para outro jogador."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "O controlo sobre as Reservas de Combate foi transferido para outro jogador."
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "Foi excluído do destacamento: destacamento dispensado."
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "Você foi excluído do destacamento. Clã mudou."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "O seu tempo de jogo terminou. Não pode entrar numa nova batalha. Vai ser desligado do servidor às %(expiredTime)s."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "Um dos jogadores tem tempo de sessão de jogo restante insuficiente para terminar a batalha. O Pelotão está agora em estado de preparação."
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "Formação de legionários suspensa."
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "Ação indisponível. Tempo de espera decorrido."
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "Erro ao juntar-se à equipa. Você foi excluido da equipa."
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "Você foi automaticamente excluído da lista de voluntários."
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "Você foi excluido pelo Comandante."
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "Foi excluído do destacamento: destacamento dispensado."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "Tornou-se num Comandante de Destacamento."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Tornou-se num Comandante de Destacamento.\nFoi-lhe concedido o controlo sobre as Reservas de Combate."
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "Foi selecionada outra cabeça de ponte para o Avanço."
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "Foi selecionado outro tipo de batalha."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "Pesquisa temporariamente indisponível: demasiados Pelotões no servidor."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "Incapaz de encontrar jogadores devido a um erro do servidor. Tente de novo mais tarde."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "Pesquisa cancelada: pelo menos um membro do Pelotão não tem um veículo adequado para o modo de jogo seleccionado."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "Tempo de pesquisa expirado. Não foram encontrados jogadores necessários."
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "A juntar-se aos jogadores. Por favor aguarde."
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "Veículo restaurado ao serviço: %(vehicleName)s"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "Não é possivel confirmar a prontidão da equipa."
+
+msgid "unload/button"
+msgstr "Ir para o Quartel"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "Incapaz de enviar o membro da tripulação para o Quartel: o tanque tem uma tripulação permanente única."
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "Erro ao enviar a tripulação para o Quartel. Veículo errado."
+
+msgid "unload_crew/server_error"
+msgstr "Erro ao enviar a tripulação para o Quartel. Tente mais tarde."
+
+msgid "unload_crew/success"
+msgstr "Tripulação enviada para o Quartel."
+
+msgid "unload_crew/vehicle_locked"
+msgstr "Erro ao enviar a tripulação para o Quartel. O veículo está bloqueado."
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "Erro ao enviar a tripulação para o Quartel. Repare o veículo."
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "Incapaz de enviar um membro da tripulação para o Quartel: o tanque tem uma tripulação permanente única."
+
+msgid "unload_tankman/button"
+msgstr "Ir para o Quartel"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "Erro ao enviar um membro da tripulação para o Quartel. Veículo errado."
+
+msgid "unload_tankman/not_enough_space"
+msgstr "Não é possível enviar este membro da tripulação para o Quartel. Sem camas suficientes no Quartel."
+
+msgid "unload_tankman/server_error"
+msgstr "Incapaz de enviar um membro da tripulação para o Quartel. Tente novamente mais tarde."
+
+msgid "unload_tankman/success"
+msgstr "Membro da tripulação enviado para o Quartel."
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "Erro ao enviar um membro da tripulação para o Quartel. O veículo está bloqueado."
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "Erro ao enviar um membro da tripulação para o Quartel. Repare o veículo."
+
+msgid "unlocks/drawFailed"
+msgstr "Configurações erradas. A Árvore Tecnológica está bloqueada."
+
+msgid "unlocks/item/already_unlocked"
+msgstr "Módulo %(typeString)s \"%(userString)s\" pesquisado."
+
+msgid "unlocks/item/in_processing"
+msgstr "Pedido de pesquisa submetido. A aguardar uma resposta do servidor."
+
+msgid "unlocks/item/server_error"
+msgstr "Erro de servidor a pesquisar o módulo %(typeString)s \"%(userString)s\". Tente novamente mais tarde."
+
+msgid "unlocks/item/unlock_success"
+msgstr "Módulo %(typeString)s \"%(userString)s\" pesquisado. Experiência não distribuída gasta: %(vehXP)s. Experiência Llivre gasta: %(freeXP)s."
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "Veículo %(userString)s está pesquisado."
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "Pedido de pesquisa submetido. A aguardar uma resposta do servidor."
+
+msgid "unlocks/vehicle/server_error"
+msgstr "Erro de servidor a pesquisar o veículo %(userString)s.Tente novamente mais tarde."
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "Veículo %(userString)s pesquisado. Experiência não distribuída gasta: %(vehXP)s. FExperiência livre gasta: %(freeXP)s."
+
+msgid "upgradeTankman/server_error"
+msgstr "Erro na treinar um membro da tripulação. Tente novamente mais tarde."
+
+msgid "upgradeTankman/success"
+msgstr "Formação concluída com êxito."
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "O Melhoramento de Equipamento de Recompensa está temporariamente indisponível por razões técnicas. Por favor tente de novo mais tarde."
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "O Melhoramento de Equipamento de Recompensa está disponível de novo. Pedimos desculpa pela inconveniência."
+
+msgid "vehicle/restore/finished"
+msgstr "O %(vehicleName)s não está disponível para recuperação: o tempo para a acção expirou."
+
+msgid "vehicle/restoreDuration/days"
+msgstr "Será capaz de recuperar o veículo o veículo na Loja durante mais %(time)s d."
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "Será capaz de recuperar o veículo o veículo na Loja durante mais %(time)s h."
+
+msgid "vehicleCompare/disabled"
+msgstr "A acção está indisponível temporariamente. Tente de novo mais tarde."
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "A pré-visualização do %(vehicle)s estará disponível apenas após descarregar o cliente completo."
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "Requisição de montagem do equipamento enviada. Aguardando resposta do servidor."
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "Incapaz de adquirir %(typeString)s \"%(userString)s\". Por favor tente novamente mais tarde."
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "Módulo %(typeString)s \"%(userString)s\" adquirido com sucesso (%(count)d). Gasto %(price)s."
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "O Módulo %(typeString)s \"%(userString)s\" já está disponível no Armazém."
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "Módulo %(typeString)s \"%(userString)s\" pesquisado."
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "Para adquirir %(typeString)s \"%(userString)s\" necessita de mais %(price)s."
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "O Módulo %(typeString)s \"%(userString)s\" não foi encontrado no Armazém."
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "O Módulo %(typeString)s \"%(userString)s\" não foi encontrado na Loja. Por favor tente novamente mais tarde."
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "%(typeString)s \"%(userString)s\" pesquisado. Experiência não distribuída gasta: %(unspentXP)s. Experiência Llivre gasta: %(freeXP)s."
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "Pedido de pesquisa submetido. A aguardar uma resposta do servidor."
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "Veículo %(userString)s já se encontra disponível no Armazém."
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "Veículo %(userString)s está pesquisado."
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "Para comprar %(userString)s precisa de mais %(price)s ."
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "Veículo %(userString)s não se encontra no Armazém."
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "Veículo %(userString)s não se encontra na Loja. Por favor tente mais tarde."
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "O tanque %(userString)s pesquisado. Experiência gasta: %(unspentXP)s. Experiência Livre gasta: %(freeXP)s."
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "O sistema de Recompensas Elite está agora disponível para o %(vehicle)s."
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "Recompensas Elite"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "A modificação %(modification)s para o %(vehicle)s foi adquirido com sucesso."
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "Modificação Adquirida"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "A categoria %(category)s para o segundo lugar do %(vehicle)s atribuída com sucesso."
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "Atribuição da Categoria do Lugar"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "Créditos gastos: %(value)s."
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Todas as Modificações Duplas para o %(vehicle)s canceladas."
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "A modificação %(modification)s para o %(vehicle)s foi cancelada."
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "Modificação Cancelada"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "As modificações %(modifications)s para o %(vehicle)s foram canceladas."
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "Experiência de Combate gasta: %(value)s."
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "Experiência Livre gasta: %(value)s."
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "Erro na Àrvore de Modificações. Por favor tente mais tarde."
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "Erro"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "Modificação Normal de Nível %(level)s para o %(vehicle)s pesquisada e adquirido com sucesso."
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "Modificação Normal de Níveis %(levels)s para o %(vehicle)s pesquisadas e adquiridos com sucesso."
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "Modificação Pesquisada"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "A categoria %(category)s para o segundo lugar do %(vehicle)s atribuída com sucesso."
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "Atribuição da Categoria do Lugar"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "O Carregamento Auxiliar está agora disponível para o %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "Carregamento Auxiliar"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "Atribuição da categoria do segundo lugar está agora disponível para o %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "Disponibilidade do Lugar da Categoria"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "O Carregamento Essencial está agora disponível para o %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "Carregamento Essencial"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "A Árvore de Modificação está agora disponível para o %(vehicle)s."
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "Modificação de Campo"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "Árvore de Modificação do Veículo disponível. Pode configurar os seus veículos de acordo com as suas funções e alterar as suas características utilizando várias modificações."
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "Erro no melhoramento. Por favor, tente mais tarde."
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "Erro"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "\"%(perk)s\" nódulo pesquisado com sucesso para o %(vehicle)s."
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "Nódulos Pesquisados"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "%(perk)s nódulos pesquisados com sucesso para o %(vehicle)s."
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "Nódulos Pesquisados"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "Operação está indisponível. Por favor tente de novo mais tarde."
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "Incapaz de adquirir o %(vehName)s. Veículo errado."
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "Incapaz de adquirir o %(vehName)s. Sem créditos suficientes."
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "Incapaz de adquirir o %(vehName)s. Sem ouro suficiente."
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "Operação indisponível. Os veículos desta nação não estão pesquisados."
+
+msgid "vehicle_buy/server_error"
+msgstr "Incapaz de adquirir o %(vehName)s devido a um erro no servidor. Tente de novo mais tarde."
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "Incapaz de adquirir o veículo %(vehName)s. O servidor está temporariamente indisponível."
+
+msgid "vehicle_buy/success"
+msgstr "O %(vehName)s foi adquirido com sucesso. Gasto %(price)s."
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "Incapaz de remover o %(vehName)s. Tente novamente mais tarde."
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "Incapaz de remover o %(vehName)s. Veículo errado."
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "Incapaz de remover o %(vehName)s. Não tem créditos suficientes."
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "Incapaz de remover o %(vehName)s. Não tem ouro suficiente."
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "Incapaz de remover o %(vehName)s. Sem camas suficientes no Quartel."
+
+msgid "vehicle_remove/server_error"
+msgstr "Incapaz de vender o %(vehName)s. Certifique-se que o veículo não está em nenhuma unidade táctica ou tente novamente mais tarde."
+
+msgid "vehicle_remove/success/default"
+msgstr "O %(vehName)s foi removido com sucesso.\n%(money)s."
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "O %(vehName)s foi removido com sucesso."
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "O %(vehName)s foi removido com sucesso.\n%(gainMoney)s.\n%(spendMoney)s."
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "Incapaz de remover o %(vehName)s. O veículo será removido automaticamente."
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "Incapaz de remover o%(vehName)s. Veículo bloqueado."
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "Incapaz de remover o %(vehName)s. O veículo necessita de reparações."
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "Incapaz de remover o %(vehName)s. Atingiu o limite para os veículos de hoje."
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "Operação indisponível. Todo o seu ouro estará disponível após a operacionalidade do WG Wallet ser restaurada automaticamente."
+
+msgid "vehicle_rent/buyOption"
+msgstr "Atenção! Caso decida adquiri-lo mais tarde, o veículo estará disponível para si com um desconto."
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "Incapaz de alugar o %(vehName)s. Veículo errado."
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "Incapaz de alugar o %(vehName)s. Sem créditos suficientes."
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "Incapaz de alugar o %(vehName)s. Sem ouro suficiente."
+
+msgid "vehicle_rent/server_error"
+msgstr "Incapaz de alugar o %(vehName)s devido a um erro do servidor. Tente mais tarde."
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "Incapaz de alugar o %(vehName)s. A opção de aluguer de veículos está temporariamente indisponível."
+
+msgid "vehicle_rent/success"
+msgstr "Alugou o %(vehName)s %(rentPackageName)s. Gastou %(price)s. %(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "por %(days)d d"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "vehicle_repair/credits_error"
+msgstr "São necessários %(needed)s para reparar %(vehName)s."
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "São necessários %(needed)s para reparar %(vehName)s."
+
+msgid "vehicle_repair/server_error"
+msgstr "Erro ao reparar o%(vehName)s. Tente de novo mais tarde."
+
+msgid "vehicle_repair/success"
+msgstr "O %(vehName)s foi reparado. Gastou %(money)s."
+
+msgid "vehicle_restore/DISABLED"
+msgstr "Recuperação do veículo está temporariamente indisponível. Tente novamente mais tarde."
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "Incapaz de recuperar o %(vehName)s. A recuperação do veículo está temporariamente indisponível."
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "Incapaz de recuperar o %(vehName)s. Veículo errado."
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "Incapaz de recuperar o %(vehName)s. Não tem créditos suficientes."
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "Incapaz de recuperar o %(vehName)s. Não tem ouro suficiente."
+
+msgid "vehicle_restore/server_error"
+msgstr "Incapaz de recuperar o '%(vehName)s' devido a um erro do servidor. Tente mais tarde."
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "Incapaz de recuperar o %(vehName)s. A recuperação do veículo está temporariamente indisponível."
+
+msgid "vehicle_restore/success"
+msgstr "O %(vehName)s foi recuperado com sucesso. %(price)s gasto."
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "Operação indisponível. Todo seu ouro estará disponível após a operacionalidade do WG Wallet ser restaurada automaticamente."
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "Kit de Desmontagem (x%(countDK)s)"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "Incapaz de vender o %(vehName)s. Tente de novo mais tarde."
+
+msgid "vehicle_sell/disabledService"
+msgstr "Incapaz de vender o %(vehName)s. Tente de novo mais tarde."
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "Incapaz de vender o %(vehName)s. Sem elementos suficientes para desmontar o equipamento."
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "Incapaz de vender o %(vehName)s. Veículo errado."
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "Incapaz de vender o %(vehName)s. Não tem créditos suficientes."
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "Incapaz de vender o %(vehName)s. Não tem ouro suficiente."
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "Incapaz de vender o %(vehName)s. Não tem beliches suficientes no Quartel."
+
+msgid "vehicle_sell/server_error"
+msgstr "Incapaz de vender o %(vehName)s. Certifique-se que o veículo não está em nenhuma unidade táctica ou tente novamente mais tarde."
+
+msgid "vehicle_sell/success"
+msgstr "O %(vehName)s foi vendido com sucesso.\n%(money)s.\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "O %(vehName)s foi vendido com sucesso.\n%(gainMoney)s.\n%(spendMoney)s.\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "Incapaz de vender o %(vehName)s. O veículo vai ser automaticamente removido."
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "Incapaz de vender o %(vehName)s. O veículo está bloqueado."
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "Incapaz de vender o %(vehName)s. Repare o seu veículo."
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "Incapaz de vender o %(vehName)s. Atingiu o limite para os veículos de hoje."
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "Erro a adquirir uma slot. Sem créditos suficientes."
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "Erro ao comprar uma slot. Sem ouro suficiente."
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "Erro na aquisição da slot. Tente novamente mais tarde."
+
+msgid "vehicle_slot_buy/success"
+msgstr "Slot adicional na Garagem foi comprada. Gasto %(money)s."
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "Erro ao alterar o treino acelerado da tripulação do %(vehName)s. Veículo errado."
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "Incapaz de alterar o treino acelerado da tripulação do %(vehName)s. Tente novamente mais tarde."
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "O treino acelerado da tripulação do %(vehName)s está desligado."
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "O treino acelerado da tripulação do %(vehName)s está ligado."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "Erro ao alterar o treino acelerado da tripulação do %(vehName)s. O veículo está bloqueado."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "Erro ao alterar o treino acelerado da tripulação do %(vehName)s. Repare o veículo."
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "Falhou ao trocar o %(vehName)s. Veículo incorrecto selecionado."
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "Incapaz de trocar pelo %(vehName)s. Sem créditos suficientes."
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "Incapaz de trocar pelo %(vehName)s. Sem ouro suficiente."
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "Incapaz de trocar o %(tradeOffVehName)s. Sem camas suficientes no Quartel."
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "Oferta de Troca está agora disponível!"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "A oferta de Troca já não está disponível!"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "Falhou ao trocar o %(vehName)s. Erro no servidor. Por favor tente mais tarde."
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "Falhou ao trocar o %(vehName)s. O serviço de compra/troca está temporariamente indisponível."
+
+msgid "vehicle_trade_in/success"
+msgstr "O %(tradeOffVehName)s foi removido. O %(vehName)s foi adquirido por %(price)s."
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "Falhou ao trocar o %(tradeOffVehName)s. O veículo será removido automaticamente."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "Falhou ao trocar o %(vehName)s. O veículo não pode recebido por troca."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "Incapaz de trocar o %(tradeOffVehName)s. O veículo não está sujeito a troca."
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "Incapaz de trocar o %(tradeOffVehName)s. O veículo está indisponível."
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "Incapaz de trocar o %(tradeOffVehName)s. Repare o veículo."
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "Incapaz de trocar o %(tradeOffVehName)s. O veículo não está no Armazém."
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "Operação impossível. Todo o seu ouro ficará disponível assim que a operacionalidade do WG Wallet seja restaurada automaticamente."
+
+msgid "video/error"
+msgstr "Erro de reprodução de vídeo. Código de erro: %(code)s."
+
+msgid "w2gt/switchOff/description"
+msgstr "As zonas de combate do minimapa estão temporariamente indisponíveis."
+
+msgid "w2gt/switchOff/header"
+msgstr "Problemas Técnicos"
+
+msgid "w2gt/switchOn/description"
+msgstr "As zonas de combate do minimapa estão agora disponíveis. Combata!"
+
+msgid "w2gt/switchOn/header"
+msgstr "Funcionalidade Restaurada"
+
+msgid "wallet/available"
+msgstr "WG Wallet sincronizado com sucesso. Todo o seu ouro, títulos créditos e Experiência Livre já estão agora disponíveis."
+
+msgid "wallet/available_freexp"
+msgstr "WG Wallet sincronizado com sucesso. Toda a Experiência Livre já está disponível."
+
+msgid "wallet/available_gold"
+msgstr "WG Wallet sincronizado com sucesso. Todo o ouro já está disponível."
+
+msgid "wallet/not_available"
+msgstr "A aquisição dos dados de balanço está em progresso. Todo o seu ouro, títulos créditos e Experiência Livre já estão agora disponíveis."
+
+msgid "wallet/not_available_freexp"
+msgstr "A aquisição dos dados de balanço está em progresso. Toda a Experiência Livre estaráo disponível em breve."
+
+msgid "wallet/not_available_gold"
+msgstr "A aquisição dos dados de saldo está em progresso. Todo o seu ouro estará disponível em breve."
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "Incapaz de reiniciar a Missão Semanal: operação bloqueada."
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "Incapaz de reiniciar a Missão Semanal: missão inválida."
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "Incapaz de reiniciar a Missão Semanal: a missão já foi concluída."
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "Incapaz de reiniciar a Missão Semanal: operação suspensa."
+
+msgid "weekly_quests/reroll/success"
+msgstr "Missão Semanal reiniciada com sucesso."
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "Incapaz de reiniciar a Missão Semanal. Tente de novo mais tarde."
+
+msgid "weekly_quests/switch_off/body"
+msgstr "As Missões Semanais estão temporariamente indisponíveis. Pedimos desculpa pelo inconveniente."
+
+msgid "weekly_quests/switch_on/body"
+msgstr "As Missões Semanais estão disponíveis de novo. Pedimos desculpa pelo inconveniente."
+
+msgid "winback/turnOffBattlesError"
+msgstr "Incapaz de sair do Aquecimento. Por favor tente novamente mais tarde."
+
+msgid "window/buttons/close"
+msgstr "Fechar"
+
+msgid "wrong_slot"
+msgstr "O %s \"%s\" não combina com o lugar %s."

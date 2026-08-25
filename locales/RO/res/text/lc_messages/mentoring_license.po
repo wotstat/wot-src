@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "pentru a confirma, introdu cantitatea de EXP a membrului de echipaj selectat pentru transfer."
+
+msgid "assignmentDialog/price"
+msgstr "Cost:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Transferă întreaga EXP de echipaj între membri de echipaj"
+
+msgid "assignmentDialog/title"
+msgstr "Confirmă Cursul de Mentor"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Acest membru de echipaj va fi eliminat din\ncontul tău fără posibilitatea de recuperare."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} EXP suplimentară se va pierde."
+
+msgid "dialogue/description"
+msgstr "Un consumabil care îți permite să transferi tot EXP de echipaj între membri de echipaj din aceeași națiune."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}EXP suplimentară se va pierde:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "ALEGE"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "EXP total:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Licențe de mentor:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "nu ai membri de echipaj potriviți"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Alege membrul de echipaj care își va transfera EXP\ncătre {cream_Open}%(name)s{cream_Close} și va fi apoi eliminat din cont."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "După transferul de EXP de echipaj, {cream_Open}%(name)s{cream_Close} va atinge limita de talente și toată EXP peste această limită se va pierde."
+
+msgid "mentorAssigment/title"
+msgstr "ALEGE MENTORUL"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close} a atins limita talentelor și nu poate fi ales pentru transferul de EXP."
+
+msgid "multipleUserName"
+msgstr "Licențele de mentor"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Licențele de mentor utilizate: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "EXP de echipaj transferată: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "Cursul de Mentor"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>EXP de echipaj suplimentară pierdută: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Îți permite să transferi tot EXP de echipaj între membri\nde echipaj din aceeași națiune."
+
+msgid "storage/userName"
+msgstr "Licența de mentor"
+
+msgid "userName"
+msgstr "Licența de mentor"

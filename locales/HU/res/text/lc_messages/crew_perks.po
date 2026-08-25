@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Az életerő visszaállítása során elszenvedett sebzés megszakítja a folyamatot.\n\nAz életerő-visszaállítás sebessége és a maximálisan visszaállított érték a jármű teljes életerején múlik, beleértve az összes módosítót."
+
+msgid "armorPatching/alt/info"
+msgstr "Csoportos készségeknél a legénység összes tagjának átlagos képzési szintje számít. Akkor lép hatályba, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "A javítókészlet használatával visszaállítasz %(hpRecover)s-ot a jármű {yellow_Start}életerejéből{yellow_End} 5 mp-en át, de legfeljebb 20%-ot csatánként. Lehetővé teszi a javítókészlet használatát kritikus sérülés nélkül is."
+
+msgid "armorPatching/hudDescription"
+msgstr "Életerő visszaállítva."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve a legénység összes tagjánál, a javítókészlet használata visszaállít %(hpRecover)s-ot a jármű {yellow_Start}életerejéből{yellow_End} 5 mp-en át, de legfeljebb 20%-ot csatánként. Lehetővé teszi a javítókészlet használatát kritikus sérülés nélkül is."
+
+msgid "armorPatching/name"
+msgstr "Páncélfoltozás"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Növeli a jármű álcázási alapértékét."
+
+msgid "brotherhood/alt/description"
+msgstr "A legénység hatékonysági bónusza növeli a harckocsizó hatékonyságát a csatában, valamint az összes elsajátított készsége hatékonyságát, ezt az egyet kivéve. Ez az érték tovább növelhető hasonló hatással rendelkező felszerelésekkel vagy fogyócikkekkel, illetve a Légtelenítő direktíva használatával. A parancsnok Vészhelyzet készsége, valamint a rádiós Vállvetve és Kommunikációs szakértő készségei is növelhetik az értéket."
+
+msgid "brotherhood/alt/info"
+msgstr "A csoportos készségeknél a legénység összes tagjának átlagos képzési szintje számít. Akkor lép hatályba, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "A teljes legénység {greenBright_Start}hatékonyságbónusza{greenBright_End} megnövelve %(crewLevelIncrease)s-kal&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve a legénység összes tagjánál, akkor a {greenBright_Start}legénység hatékonysági bónusza{greenBright_End} %(crewLevelIncrease)s-kal nő&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Bajtársak"
+
+msgid "brotherhood/shortDescription"
+msgstr "Növeli a legénység általános teljesítményét."
+
+msgid "camouflage/alt/description"
+msgstr "Ez a készség befolyásolja a jármű álcázását. Ez tovább növelhető a Természetes fedezék direktívával.\n\nEzen kívül a jármű álcázása javítható álcafestéssel vagy egy stílus alkalmazásával, valamint hasonló hatású felszerelések használatával."
+
+msgid "camouflage/alt/info"
+msgstr "A csoportos készségeknél a legénység összes tagjának átlagos képzési szintje számít. Akkor lép hatályba, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "A jármű {greenBright_Start}álcázását{greenBright_End} megnöveli %(maskingFactor)s-kal&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve a legénység összes tagjánál, akkor a {greenBright_Start}jármű álcázása{greenBright_End} %(maskingFactor)s-kal nő&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Álcázás"
+
+msgid "camouflage/shortDescription"
+msgstr "Növeli a jármű álcázási alapértékét."
+
+msgid "commander_coordination/alt/description"
+msgstr "Hatása akkor aktiválódik, ha egy ellenséges járművet felderítenek, de nem adódik össze akkor sem, ha egyszerre több jármű is fel van derítve.\n\nA célzási sebesség tovább növelhető a lövegkezelő Gyors célzás készségével vagy egy hasonló hatású felszereléssel."
+
+msgid "commander_coordination/alt/info"
+msgstr "A helyzetfüggő hatású készség akkor lép életbe, ha legalább 1%-os képzettségű és a hatékonysága a további képzéssel nő. A helyzetfüggő hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "A {yellow_Start}célzási sebesség{yellow_End} %(vehicleGunAimSpeed)s-kal nő 15 másodpercig, miután felderítesz egy ellenséges járművet."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Megnövekedett célzási sebesség."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Amikor teljesen ki van képezve, %(vehicleGunAimSpeed)s-kal növeli a {yellow_Start}célzási sebességet{yellow_End} 15 másodpercig, miután felderítesz egy ellenséges járművet.\t"
+
+msgid "commander_coordination/name"
+msgstr "Koordináció"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Megnövekedett célzási sebesség."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "A látótávolság tovább növelhető a rádiós Helyzetfelismerés készségével, valamint hasonló hatású felszerelések használatával. Az Optikai kalibráció direktíva növeli a hatást."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "A {greenBright_Start}látótávolság{greenBright_End} %(circularVisionRadius)s-kal nő&zwnbsp;. A {greenBright_Start}sérült megfigyelőeszközök miatti büntetés{greenBright_End} %(penaltyToDamagedSurveyingDevice)s-kal csökken&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Csökkentett sérült megfigyelőeszközök miatti büntetés."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(circularVisionRadius)s-kal&zwnbsp; növeli a {greenBright_Start}látótávolságot{greenBright_End} és csökkenti a {greenBright_Start}sérült megfigyelőeszközök miatti büntetést{greenBright_End} %(penaltyToDamagedSurveyingDevice)s-kal&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Felderítés"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Megnöveli a látótávolságot, főleg abban az esetben, ha a megfigyelőeszközök sérültek."
+
+msgid "commander_emergency/alt/description"
+msgstr "Az ellenségtől elszenvedett ismételt sebzés hatása nem adódik össze. A legénység hatékonysági bónusza növeli a harckocsizó hatékonyságát a csatában. Ez az érték tovább növelhető hasonló hatással rendelkező felszerelésekkel vagy fogyócikkekkel, illetve a Légtelenítő direktíva használatával. A Bajtársak csoportos készség, valamint a rádiós Vállvetve és Kommunikációs szakértő készségei szintén növelhetik az értéket."
+
+msgid "commander_emergency/alt/info"
+msgstr "A helyzetfüggő hatású készség akkor lép életbe, ha legalább 1%-os képzettségű és a hatékonysága a további képzéssel nő. A helyzetfüggő hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "A {yellow_Start}legénység hatékonysági bónusza{yellow_End} %(crewLevelIncrease)s-kal nő 15 másodpercig, miután egy ellenfél megsebez."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Megnövekedett legénységhatékonysági bónusz."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(crewLevelIncrease)s-kal növeli a {yellow_Start}legénység hatékonysági bónuszát{yellow_End} 15 másodpercig, miután egy ellenfél megsebez."
+
+msgid "commander_emergency/name"
+msgstr "Vészhelyzet"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Megnövekedett legénységhatékonysági bónusz."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Ellenséges önjáró löveg lövésére figyelmeztető riasztás aktiválódik némi késéssel.\n\nA készség tovább erősíthető a Fokozott éberség direktívával."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "A helyzetfüggő hatású készség akkor lép életbe, ha legalább 1%-os képzettségű és a hatékonysága a további képzéssel nő. A helyzetfüggő hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "Egy {yellow_Start}ellenséges önjáró löveg lövésére{yellow_End}, valamint a lövés irányára figyelmeztető riasztás aktiválódik %(artNotificationDelayFactor)s késleltetéssel. A {greenBright_Start}kábítás negatív hatása{greenBright_End} %(stunResistanceEffectFactor)s-kal csökken&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, {yellow_Start}figyelmeztet az ellenséges önjáró lövegek lövésére{yellow_End} %(artNotificationDelayFactor)s késleltetéssel, és megmutatja a lövés irányát. Csökkenti a {greenBright_Start}kábítás negatív hatását{greenBright_End} %(stunResistanceEffectFactor)s-kal&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Hanglokátor"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Jelzi egy ellenséges önjáró löveg lövését."
+
+msgid "commander_holdLine/alt/description"
+msgstr "A legénység hatékonysági bónusza javítja a legénység tagjainak hatékonyságát a csatában.\n\nEz az érték tovább növelhető hasonló hatású felszerelések vagy fogyócikkek használatával, illetve a Légtelenítő direktíva alkalmazásával. A legénység más készségei szintén növelhetik ezt az értéket."
+
+msgid "commander_holdLine/alt/info"
+msgstr "A helyzetfüggő hatású készség akkor lép életbe, ha legalább 1%-os képzettségű, és a hatékonysága a további képzéssel nő. A helyzetfüggő hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "A {yellow_Start}legénység hatékonysági bónusza{yellow_End} %(crewLevelIncrease)s-kal nő, ha az ellenséges csapatnak legalább hárommal több járműve van csatában, mint a saját csapatodnak.&zwnbsp;"
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Megnövekedett legénységhatékonysági bónusz (ellenséges többség)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, a {yellow_Start}legénység hatékonysági bónusza{yellow_End} %(crewLevelIncrease)s-kal nő, ha az ellenséges csapatnak legalább hárommal több járműve van csatában, mint a saját csapatodnak.&zwnbsp;"
+
+msgid "commander_holdLine/name"
+msgstr "Tartsd a vonalat"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Növeli a legénység hatékonysági bónuszát"
+
+msgid "commander_practical/alt/description"
+msgstr "A készség a járműre felszerelt összes fogyócikktípussal működik.\n\nA hatása tovább növelhető az Alapos felkészülés direktívával. "
+
+msgid "commander_practical/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}A fogyócikk visszatöltési ideje{greenBright_End} %(equipmentPreparationTime)s-kal csökken&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(equipmentPreparationTime)s-cel csökkenti a járműved {greenBright_Start}fogyócikkeinek visszatöltési idejét{greenBright_End}&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Praktikusság"
+
+msgid "commander_practical/shortDescription"
+msgstr "Csökkenti a fogyócikkek visszatöltési idejét."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "A Hatodik érzék nem működik, ha a parancsnok megsérül. Az aktiválása felgyorsítható a rádiós Jelelfogás készségével."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Ez egy speciális parancsnoki tulajdonság, amely nem igényel képzést, és alapértelmezés szerint a parancsnok rendelkezésére áll."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Lehetővé teszi a parancsnoknak, hogy megállapítsa, az ellenség felderítette-e a járművet. A jármű felderítése után %(delay)s elteltével aktiválódik."
+
+msgid "commander_sixthSense/name"
+msgstr "Hatodik érzék"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Lehetővé teszi a parancsnoknak, hogy megállapítsa, az ellenség felderítette-e a járművet."
+
+msgid "commander_staySharp/alt/description"
+msgstr "A legénység hatékonysági bónusza javítja a legénység tagjainak hatékonyságát a csatában.\n\nEz az érték tovább növelhető hasonló hatású felszerelések vagy fogyócikkek használatával, illetve a Légtelenítő direktíva alkalmazásával. A legénység más készségei szintén növelhetik ezt az értéket."
+
+msgid "commander_staySharp/alt/info"
+msgstr "A helyzetfüggő hatású készség akkor lép életbe, ha legalább 1%-os képzettségű, és a hatékonysága a további képzéssel nő. A helyzetfüggő hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "A {yellow_Start}legénység hatékonysági bónusza{yellow_End} %(crewLevelIncrease)s-kal nő 15&nbsp;mp-en át egy elsősegélykészlet felhasználását követően. Lehetővé teszi az elsősegélykészlet használatát akkor is, ha a legénység egyik tagja sem sérült meg&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Megnövekedett legénységhatékonysági bónusz (elsősegélykészlet használata)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, a {yellow_Start}legénység hatékonysági bónusza{yellow_End} %(crewLevelIncrease)s-kal nő 15 mp-en át egy elsősegélykészlet felhasználását követően. Lehetővé teszi az elsősegélykészlet használatát akkor is, ha a legénység egyik tagja sem sérült meg&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Maradj éber"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Növeli a legénység hatékonysági bónuszát"
+
+msgid "commander_tutor/alt/description"
+msgstr "Sérült parancsnok nem helyettesíthet más harckocsizót. A bónusz csak a csata során szerzett alap legénységi XP-re vonatkozik.\n\nTovábbi legénységi XP szerezhető legénységi könyvek használatával vagy szabad XP átváltásával legénységi XP-re."
+
+msgid "commander_tutor/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "A szerzett {greenBright_Start}XP{greenBright_End} mennyisége %(xpBonusFactorPerLevel)s-kal nő a teljes legénységnél. A parancsnok {greenBright_Start}helyettesítheti a harcképtelen harckocsizókat{greenBright_End} %(woundedCrewEfficiency)s-os hatékonysággal."
+
+msgid "commander_tutor/hudDescription"
+msgstr "A harcképtelen harckocsizó helyét a parancsnok veszi át."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, a szerzett {greenBright_Start}XP{greenBright_End} mennyisége %(xpBonusFactorPerLevel)s-kal nő a teljes legénység számára. Lehetővé teszi a parancsnok számára, hogy {greenBright_Start}helyettesítse a harcképtelen harckocsizókat{greenBright_End} %(woundedCrewEfficiency)s-os hatékonysággal."
+
+msgid "commander_tutor/name"
+msgstr "Mentor"
+
+msgid "commander_tutor/shortDescription"
+msgstr "A harcképtelen harckocsizó helyét a parancsnok veszi át."
+
+msgid "commander_universalist/alt/description"
+msgstr "A parancsnok csak a sérült legénységi tag fő képzettségét helyettesítheti. A csere hatásfoka minden egyes sérült legénységi taggal csökken."
+
+msgid "commander_universalist/alt/info"
+msgstr "Egy készség akkor lép életbe, ha legalább 1%-os képzettségű. Hatékonysága a további képzéssel nő."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "A parancsnok képes {greenBright_Start}helyettesíteni a kiütött{greenBright_End} legénységi tagokat %(woundedCrewEfficiency)s-os hatékonysággal."
+
+msgid "commander_universalist/hudDescription"
+msgstr "A parancsnok tölti be a legénység sérült tagjának szerepét."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, akkor a parancsnok képes {greenBright_Start}helyettesíteni a kiütött{greenBright_End} legénységi tagokat %(woundedCrewEfficiency)s-os hatékonysággal."
+
+msgid "commander_universalist/name"
+msgstr "Ezermester"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Lehetővé teszi a parancsnok számára a kiütött legénységi tagok helyettesítését."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Csökkenti a jármű manőverezhetőségi és gyorsulási büntetését közepesen puha talajon. Jelentősen csökkenti a büntetést puha talajon haladva, így az értékek összhangban vannak a közepesen puha talajon tapasztaltakkal.\nA közepesen puha és puha talajon mért manőverezhetőség nem haladhatja meg a kemény terepen elérhető manőverezhetőséget."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}Közepesen puha talajon a sebességveszteség{greenBright_End} ennyivel csökken: %(mediumGroundFactor)s&zwnbsp;, a {greenBright_Start}puha talajon keletkező sebességveszteséget{greenBright_End} a közepesen puha talaj értékének %(softGroundFactor)s-ára csökkenti."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(mediumGroundFactor)s-kal csökkenti a {greenBright_Start}közepesen puha talajon a sebességveszteséget{greenBright_End}&zwnbsp;, míg a {greenBright_Start}puha talajon keletkező sebességveszteséget{greenBright_End} a közepesen puha talaj értékének%(softGroundFactor)s-ára csökkenti."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Off-Road vezetés"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "A legénység hatékonysági bónusza javítja a legénység tagjainak hatékonyságát a csatában.\n\nEz az érték tovább növelhető hasonló hatású felszerelések vagy fogyócikkek használatával, illetve a Légtelenítő direktíva alkalmazásával. A legénység más készségei szintén növelhetik ezt az értéket."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "A helyzetfüggő hatású készség akkor lép életbe, ha legalább 1%-os képzettségű, és a hatékonysága a további képzéssel nő. A helyzetfüggő hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "A {yellow_Start}legénység hatékonysági bónusza{yellow_End} %(crewLevelIncrease)s-kal nő, ha a felfogott sebzés meghaladja a járműved kezdeti életerejét."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Megnövelt legénységhatékonysági bónusz (elegendő felfogott sebzés esetén)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(crewLevelIncrease)s-kal növeli a {yellow_Start}legénység hatékonysági bónuszát{yellow_End}, amennyiben a felfogott sebzés meghaladja a járműved kezdeti életerejét."
+
+msgid "driver_bulletproof/name"
+msgstr "Golyóálló"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "A járműved végsebességét tovább növelheted és a sérült motor miatti büntetést csökkentheted hasonló hatású felszerelések használatával."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "A jármű {greenBright_Start}végsebessége{greenBright_End} és {greenBright_Start}maximális tolatási sebessége{greenBright_End} %(vehicleForwardMaxSpeed)s-val nő. A {greenBright_Start}sérült motor miatti büntetés{greenBright_End} %(vehPenaltyForDamagedEngine)s-kal csökken&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Csökkentett büntetés a sérült motorra."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(vehicleForwardMaxSpeed)s-val növeli a jármű {greenBright_Start}végsebességét{greenBright_End} és {greenBright_Start}maximális tolatási sebességét{greenBright_End}. A {greenBright_Start}sérült motor miatti büntetés{greenBright_End} %(vehPenaltyForDamagedEngine)s-kal csökken&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Mérnök"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Csökkentett büntetés a sérült motorra."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "A képesség hatástalan, ha két csapattárs járműve ütközik.\n\nA járművet érő ütközési sebzést tovább csökkentheted hasonló hatású felszerelések használatával."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "Az {greenBright_Start}ellenséges járműveknek ütközéssel okozott sebzés{greenBright_End} %(damageEnemiesByRamming)s-kal nő&zwnbsp;. A {greenBright_Start}járműved ütközésekből elszenvedett sérülése{greenBright_End} %(vehicleRamDamageResistance)s-kal&zwnbsp; csökken és a {greenBright_Start}felfüggesztés{greenBright_End} tartóssága %(vehicleRamChassisDamageResistance)s-kal nő&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(damageEnemiesByRamming)s-kal növeli az {greenBright_Start}ellenséges járműveknek ütközéssel okozott sebzést{greenBright_End}&zwnbsp;. Csökkenti a {greenBright_Start}járműved ütközésekből elszenvedett sérülését{greenBright_End} %(vehicleRamDamageResistance)s-kal&zwnbsp;, valamint növeli a {greenBright_Start}felfüggesztés{greenBright_End} tartósságát %(vehicleRamChassisDamageResistance)s-kal&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Irányított ütközés"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Csökkenti az ütközés által elszenvedett sebzést, növeli az ellenséges járműnek ütközéssel okozott sebzésedet."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "A R.RO lövedékek révén elszenvedett sérülés tovább csökkenthető hasonló hatású felszerelések használatával."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "Az {greenBright_Start}R.RO gránát-sebzéselnyelés{greenBright_End} %(vehicleHEShellDamageResistance)s-kal nő&zwnbsp;. A&nbsp;{greenBright_Start}motortűz esélye{greenBright_End} %(vehicleFireChance)s-kal csökken, míg a {greenBright_Start}felfüggesztés elszenvedett sebzése{greenBright_End} %(suspensionDamageReduction)s-kal&zwnbsp; csökken."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, az {greenBright_Start}R.RO gránát-sebzéselnyelés{greenBright_End} %(vehicleHEShellDamageResistance)s-kal nő&zwnbsp;. A {greenBright_Start}motortűz esélye{greenBright_End} %(vehicleFireChance)s-kal, míg a {greenBright_Start}felfüggesztés elszenvedettsebzése{greenBright_End} %(suspensionDamageReduction)s-kal&zwnbsp; csökken."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Megbízható elhelyezés"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Nem befolyásolja az álló jármű pontosságát és a járműtest forgása közbeni pontosságot.\n\nA készség hatása növelhető a Sebességváltó finomítás direktívával. A menet közbeni tüzelés pontossága tovább növelhető hasonló hatású felszerelésekkel vagy a Stabilizátorkenési direktívával."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "A {greenBright_Start}löveg szórása{greenBright_End} %(vehicleGunShotDispersionChassisMovement)s-kal csökken mozgás közben tüzelve&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(vehicleGunShotDispersionChassisMovement)s-kal csökkenti a {greenBright_Start}löveg szórását{greenBright_End} mozgás közben tüzeléskor&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Sima utazás"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Javítja a mozgás közbeni tüzelés pontosságát."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Ez a készség befolyásolja a felfüggesztés javításának sebességét pirosból sárga állapotba, ha egy szövetséges jármű 50 méteres körzetében vagy."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "A helyzetfüggő hatású készség akkor lép életbe, ha legalább 1%-os képzettségű, és a hatékonysága a további képzéssel nő. A helyzetfüggő hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "A {yellow_Start}felfüggesztés javításának sebessége{yellow_End} %(suspensionRepairSpeed)s-kal nő, ha egy szövetséges járműtől 50 méternél kisebb távolságra tartózkodsz."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "A felfüggesztés javítási sebessége megnövekedett (szövetséges a közelben)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, a {yellow_Start}felfüggesztés javításának sebessége{yellow_End} %(suspensionRepairSpeed)s-kal nő, ha egy szövetséges járműtől 50 méternél kisebb távolságra tartózkodsz."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Harctéri támogatás"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "A jármű tűzzel szembeni ellenállósága tovább növelhető hasonló hatású felszerelések és fogyócikkek használatával. A Tűzoltás készség felgyorsítja az esetleges tűz eloltását."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Egy készség akkor lép életbe, ha legalább 1%-os képzettségű. Hatékonysága a további képzéssel nő."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "%(vehicleFireChance)s-kal csökkenti a {greenBright_Start}motortűz esélyét{greenBright_End}&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(vehicleFireChance)s-kal csökkenti a {greenBright_Start}motortűz esélyét{greenBright_End}&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Megelőző karbantartás"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Csökkenti a motortűz esélyét."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "A járműtest forgási sebessége tovább növelhető hasonló hatású felszerelések vagy fogyócikkek használatával."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "A {greenBright_Start}járműtest forgási sebessége{greenBright_End} %(vehicleAllGroundRotationSpeed)s-kal nő&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(vehicleAllGroundRotationSpeed)s-kal növeli a {greenBright_Start}járműtest forgási sebességét{greenBright_End}."
+
+msgid "driver_virtuoso/name"
+msgstr "Kuplungégető"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Növeli a járműtest forgási sebességét."
+
+msgid "fireFighting/alt/description"
+msgstr "A készség hatással van a tűz miatt elszenvedett sérülésre és a tűz időtartamára.\n\nAmennyiben két rádiós is rendelkezik a készséggel, a képzettségük átlagértéke számít.\n\nA készség erősíthető a Tapasztalt tűzoltók direktívával."
+
+msgid "fireFighting/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "A {greenBright_Start}tűzoltás sebessége{greenBright_End} %(fireExtinguishingRate)s-kal nő&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(fireExtinguishingRate)s-kal nő a {greenBright_Start}tűzoltás sebessége{greenBright_End}&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Tűzoltás"
+
+msgid "fireFighting/shortDescription"
+msgstr "Javítja a tűzoltási képességet."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Alapértelmezetten a lehetséges sebzés és páncélátütés ±25%-kal tér el az alapértékektől. Például, ha egy lőszer 100 mm páncél átütésére és 100 életerő sebzésre képes, akkor találatkor a valós átütés 75 és 125 mm közötti, míg a sebzés 75 és 125 közötti érték lehet. Ennek a módosítónak a csökkenése kiszámíthatóbb lövéseket eredményez.\n\nAmennyiben két lövegkezelő is rendelkezik a készséggel, a képzettségük átlagértéke kerül alkalmazásra."
+
+msgid "gunner_armorer/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "A {greenBright_Start}potenciális sebzés{greenBright_End} és a {greenBright_Start}potenciális páncélátütés{greenBright_End} tartománya {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s-kal csökken. A {greenBright_Start}löveg szórása{greenBright_End} %(shotDispersionAngle)s-kal csökken&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s-kal csökkenti a {greenBright_Start}potenciális sebzés{greenBright_End} és a {greenBright_Start}potenciális páncélátütés{greenBright_End} tartományát. A {greenBright_Start}löveg szórását{greenBright_End} %(shotDispersionAngle)s-kal csökkenti&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Fegyverkovács"
+
+msgid "gunner_focus/alt/description"
+msgstr "A hatása a jármű megállása után 3 másodperccel érvényesül, és elinduláskor megszűnik.\n\nAmennyiben két lövegkezelő is rendelkezik a készséggel, a képzettségük átlagértéke számít."
+
+msgid "gunner_focus/alt/info"
+msgstr "A helyzetfüggő hatású készség akkor lép életbe, ha legalább 1%-os képzettségű és a hatékonysága a további képzéssel nő. A helyzetfüggő hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "A mozdulatlan jármű {yellow_Start}lövegének szórása{yellow_End} %(shotDispersionAngle)s-kal csökken&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Csökkentett lövegszórás."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(shotDispersionAngle)s-kal csökkenti a mozdulatlan jármű {yellow_Start}lövegének szórását{yellow_End}&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Koncentráció"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Csökkenti a mozdulatlan jármű lövegének szórását."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "A löveg szórása és célzási sebessége tovább javítható a legénységi készségekkel vagy hasonló hatású felszerelések használatával.\n\nHa két lövész is rendelkezik ezzel a készséggel, a képzettségi szintjük átlagértéke számít."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "A helyzetfüggő hatású készség akkor lép életbe, ha legalább 1%-os képzettségű, és a hatékonysága a további képzéssel nő. A helyzetfüggő hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "A {yellow_Start}löveg szórása{yellow_End} %(vehicleGunAimSpeed)s-kal csökken, míg a {yellow_Start}célzási sebesség{yellow_End} %(vehicleGunAimSpeed)s-kal nő, amíg 300 m-es körzetben nincsenek szövetséges járművek."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "A löveg szórása és célzási sebessége javult (nincs szövetséges a közelben)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, csökken a {yellow_Start}löveg szórása{yellow_End}, míg a {yellow_Start}célzási sebesség{yellow_End} %(vehicleGunAimSpeed)s-kal nő, amíg 300 m-es körzetben nincsenek szövetséges járművek."
+
+msgid "gunner_loneWolf/name"
+msgstr "Magányos farkas"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ A löveg szórása csökken. A célzási sebesség megnövekedett."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Alapértelmezés szerint a lehetséges maximális páncélátütés az alapérték+25% lehet. Például, ha egy lövedék 100 mm páncél átütésére képes, a célpont eltalálásakor a lövés maximális lehetséges átütési értéke 125 mm lehet. Ennek a módosítónak a növelése hatékonyabb páncélátütést eredményezhet.\n\nHa két lövész is rendelkezik ezzel a készséggel, a képzettségi szintjük átlagértéke számít."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "A helyzetfüggő hatású készség akkor lép életbe, ha legalább 1%-os képzettségű, és a hatékonysága a további képzéssel nő. A helyzetfüggő hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "A lövedék {yellow_Start}maximális potenciális átütése{yellow_End} %(piercingHEShellsDistributionUpperBound)s-kal nő, ha 50 méternél közelebb lévő ellenséges járműre tüzelsz."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, a lövedék {yellow_Start}maximális potenciális átütése{yellow_End} %(piercingHEShellsDistributionUpperBound)s-kal nő, ha 50 méternél közelebb lévő ellenséges járműre tüzelsz."
+
+msgid "gunner_pointBlast/name"
+msgstr "Közvetlen közelről"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Növeli a lövedékek maximális potenciális átütését"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Amennyiben két lövegkezelő is rendelkezik a készséggel, a képzettségük átlagértéke számít.\n\nA célzási sebesség tovább növelhető a parancsnok Koordináció készségével, valamint hasonló hatású felszerelések használatával.\n\nA torony forgási sebessége tovább növelhető hasonló hatású felszerelések vagy fogyócikkek felszerelésével."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "A {greenBright_Start}célzási sebesség{greenBright_End} és a {greenBright_Start}torony forgási sebessége{greenBright_End} %(vehicleGunAimSpeed)s-kal nő&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(vehicleGunAimSpeed)s-kal növeli a {greenBright_Start}célzási sebességet{greenBright_End} és a {greenBright_Start}torony forgási sebességét{greenBright_End}&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Gyors célzás"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Megnövekedett célzási sebesség."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Lehetővé teszi a lövegkezelő látótávolságán belül tartózkodó becélzott járművek kritikusan sérült moduljainak felismerését közvetett és közvetlen tüzelési módban egyaránt.\nA lövegkezelő látóterét a jármű lövege előtti ±10°-os tartomány (összesen 20°) és a látótávolsága határozza meg.\nAmennyiben két lövegkezelő is rendelkezik ezzel a készséggel, a képzettségük átlagértéke számít.\nA készség tovább javítható az Összpontosítás a célpontra direktívával. A Fejlesztett rádióberendezés használata tovább növeli az ellenség láthatóságának idejét."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "A lövegkezelő látóterében tartózkodó {greenBright_Start}ellenséges jármű eltűnése{greenBright_End} előtti {greenBright_Start}idő{greenBright_End} %(vehicleEnemySpottingTime)s-cel nő. A {yellow_Start}sérült modulok beazonosításához{yellow_End} szükséges idő %(damageMonitoringDelay)s-re csökken&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(vehicleEnemySpottingTime)s-cel növeli a lövegkezelő látóterében tartozkodó {greenBright_Start}ellenséges jármű eltűnése{greenBright_End} előtti {greenBright_Start}időt{greenBright_End}. Lehetővé teszi a {yellow_Start}sérült modulok beazonosítását{yellow_End} %(damageMonitoringDelay)s késleltetéssel."
+
+msgid "gunner_rancorous/name"
+msgstr "Célmegjelölő"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Megnöveli a lövegkezelő látóterében tartózkodó ellenséges jármű eltűnése előtti időt. Lehetővé teszi a sérült modulok beazonosítását."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Ha két lövegkezelő is rendelkezik a készséggel, a képzettségük átlagértéke számít.\n\nA készség tovább javítható a Biztos kéz direktívával. A toronyforgás közbeni szórás tovább csökkenthető hasonló hatású felszerelésekkel vagy a Stabilizátorkenés direktíva használatával."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "A {greenBright_Start}lövegszórás{greenBright_End} %(turretAimingDispersion)s-kal csökken a torony forgása közben&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(turretAimingDispersion)s-kal csökkenti a {greenBright_Start}lövegszórást{greenBright_End} a torony forgása közben&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Pillanatkép"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Csökkenti a löveg szórását a torony forgása közben."
+
+msgid "gunner_sniper/alt/description"
+msgstr "A hatás minden lőszertípussal működik, kivéve gépágyúval rendelkező járművek esetében.\n\nHa két lövegkezelő is rendelkezik a készséggel, a képzettségük átlagértéke számít."
+
+msgid "gunner_sniper/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "Az {greenBright_Start}ellenséges jármű moduljainak{greenBright_End} okozott {greenBright_Start}kritikus sebzés esélye{greenBright_End} és az ellenséges {greenBright_Start}legénységnek{greenBright_End} okozott sebzés esélye az összes lőszertípussal %(enemyModulesCrewCritChance)s-kal nő&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(enemyModulesCrewCritChance)s-kal növeli az {greenBright_Start}ellenséges jármű moduljainak{greenBright_End} okozott {greenBright_Start}kritikus sebzés esélyét{greenBright_End} és az ellenséges {greenBright_Start}legénységnek{greenBright_End} okozott sebzés esélyét az összes lőszertípussal&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Mesterlövész"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Alapértelmezetten a lehetséges minimális sebzés és páncélátütés tartománya 25%-kal csökken az alapértékhez képest. Például, ha egy lövedék legfeljebb 100 mm-es páncélátütésre és 100-as sebzésre képes, akkor találat esetén a lövés minimális átütése 75 mm, míg a minimális sebzése 75 lehet. Ennek a módosítónak a növelése hatékonyabb lövéseket eredményez.\n\nAmennyiben két töltő is rendelkezik a készséggel, a képzettségük átlagértéke számít."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "A {greenBright_Start}minimális potenciális sebzés{greenBright_End} és a {greenBright_Start}minimális potenciális páncélátütés{greenBright_End} %(damageAndPiercingDistributionLowerBound)s-kal nő&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(damageAndPiercingDistributionLowerBound)s-kal növeli a {greenBright_Start}minimális potenciális sebzést{greenBright_End} és a {greenBright_Start}minimális potenciális páncélátütést{greenBright_End}&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Lőszerbeállítás"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Növeli az átlagos sebzési és átütési értékeket."
+
+msgid "loader_desperado/alt/description"
+msgstr "Amennyiben két töltő is rendelkezik a készséggel, a képzettségük átlagértéke számít.\n\nA löveg töltési ideje tovább csökkenthető a töltő Közelharc készségével, valamint hasonló hatású felszerelések használatával. A Rendszeresített lőszerrekesz direktíva növeli a hatást."
+
+msgid "loader_desperado/alt/info"
+msgstr "A helyzetfüggő hatású készség akkor lép életbe, ha legalább 1%-os képzettségű és a hatékonysága a további képzéssel nő. A helyzetfüggő hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "A {yellow_Start}löveg újratöltési ideje{yellow_End} %(vehicleGunReloadTime)s-kal csökken, ha a járműnek kevesebb, mint 25% életereje maradt."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Csökkentett lövegújratöltési idő (alacsony járműtartósság)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(vehicleGunReloadTime)s-kal csökkenti a {yellow_Start}löveg újratöltési idejét{yellow_End}, ha a járműnek kevesebb, mint 25% életereje maradt."
+
+msgid "loader_desperado/name"
+msgstr "Adrenalinroham"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Gyorsítja a löveg újratöltését, ha a jármű életereje 25% alá csökken."
+
+msgid "loader_intuition/alt/description"
+msgstr "A készség aktiválásához a lövegnek, mindkét lövegnek vagy a tárnak teljesen töltve kell lennie. A lőszertípusok cseréjének minimális ideje normál löveg esetén 1 mp; duplacsövű löveg és automata táras löveg esetén 2,5 mp.\n\nAmennyiben két töltő is rendelkezik a készséggel, a képzettségük átlagértéke számít."
+
+msgid "loader_intuition/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "A {greenBright_Start}lőszertípusok közötti váltás ideje{greenBright_End} betöltött lövegnél %(vehicleReloadTimeAfterShellChange)s-kal csökken&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Csökkentett idő a lőszertípusok közötti váltásnál betöltött löveg esetén.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(vehicleReloadTimeAfterShellChange)s-kal csökkenti a {greenBright_Start}lőszertípusok közötti váltás idejét{greenBright_End} betöltött löveg esetén&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Megérzés"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Jelentősen növeli a lőszertípusok közötti váltás sebességét betöltött lövegnél."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Ez a készség csak a táras lövegek újratöltési idejét csökkenti, más fegyverrendszerekre nincs hatással.\n\nHa két töltő is rendelkezik ezzel a készséggel, a képzettségi szintjük átlagértéke számít."
+
+msgid "loader_magMastery/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "A tár {greenBright_Start}újratöltési ideje{greenBright_End} %(magazineGunReloadSpeed)s-kal csökken."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, a tár {greenBright_Start}újratöltési ideje{greenBright_End} %(magazineGunReloadSpeed)s-kal csökken."
+
+msgid "loader_magMastery/name"
+msgstr "Tármester"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Csökkenti a tárak újratöltési idejét"
+
+msgid "loader_melee/alt/description"
+msgstr "Amennyiben két töltő is rendelkezik a készséggel, a képzettségük átlagértéke számít.\n\nA löveg töltési ideje tovább csökkenthető a töltő Adrenalinroham készségével, valamint hasonló hatású felszerelések használatával. A Rendszeresített lőszerrekesz direktíva növeli a hatást."
+
+msgid "loader_melee/alt/info"
+msgstr "A helyzetfüggő hatású készség akkor lép életbe, ha legalább 1%-os képzettségű és a hatékonysága a további képzéssel nő. A helyzetfüggő hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "A {yellow_Start}löveg töltési ideje{yellow_End} %(vehicleGunReloadTime)s-kal csökken, ha az ellenséges jármű 50 méternél közelebb van."
+
+msgid "loader_melee/hudDescription"
+msgstr "Csökkentett lövegtöltési idő (közeli ellenség).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, a {yellow_Start}löveg töltési ideje{yellow_End} %(vehicleGunReloadTime)s-kal csökken, ha az ellenséges jármű 50 méternél közelebb van."
+
+msgid "loader_melee/name"
+msgstr "Közelharc"
+
+msgid "loader_melee/shortDescription"
+msgstr "Gyorsítja a löveg újratöltését közelharcban."
+
+msgid "loader_pedant/alt/description"
+msgstr "A sérült töltő nem befolyásolja a készség hatékonyságát.\n\nAmennyiben két töltő is rendelkezik a készséggel, a képzettségük átlagértéke számít.\n\nA készség javítható a Lőszerrendező direktíva használatával. A lőszerrekesz tartóssága tovább növelhető hasonló hatású felszerelésekkel."
+
+msgid "loader_pedant/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "A {greenBright_Start}lőszerrekesz tartóssága{greenBright_End} %(vehicleAmmoBayStrength)s-kal nő&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(vehicleAmmoBayStrength)s-kal növeli a {greenBright_Start}lőszerrekesz tartósságát{greenBright_End}&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Biztonságos elhelyezés"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Növeli a lőszerrekesz ellenállóságát."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "A hatás minden lőszertípussal működik.\n\nA sérült töltő nem befolyásolja a készség hatékonyságát.\n\nAmennyiben két töltő is rendelkezik a készséggel, a képzettségük átlagértéke számít."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "A {greenBright_Start}lövedék sebessége{greenBright_End} %(shellVelocity)s-kal nő&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(shellVelocity)s-kal növeli a {greenBright_Start}lövedéksebességet{greenBright_End}&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Tökéletes töltet"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Ennek a készségnek nincs hatása táras lövegekre vagy gépágyúkra, és a hatása nem adódik össze dupla csövű lövegek esetén.\n\nA szelektív töltőrendszerrel rendelkező lövegek esetében, ha mindkét csővel tüzeltél, és egyik sem okozott sebzést, a löveg töltési idejének csökkenése mindkét csőre vonatkozik.\n\nHa két töltő is rendelkezik ezzel a készséggel, a képzettségi szintjük átlagértéke számít.\n\nA löveg töltési ideje tovább csökkenthető a töltő Adrenalinroham és Közelharc készségeivel vagy hasonló hatású felszerelés használatával. A Rendszeresített lőszerrekesz direktíva használata szintén növeli a hatását."
+
+msgid "loader_secondChance/alt/info"
+msgstr "A helyzetfüggő hatású készség akkor lép életbe, ha legalább 1%-os képzettségű, és a hatékonysága a további képzéssel nő. A helyzetfüggő hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "A következő lőszer {yellow_Start}töltési ideje{yellow_End} %(vehicleGunReloadTime)s-kal csökken, ha az előző lövés nem okozott sebzést ellenséges járműnek."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "A löveg töltési ideje csökkent (elhibázott lövés)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, a következő lőszer {yellow_Start}töltési ideje{yellow_End} %(vehicleGunReloadTime)s-kal csökken, ha az előző lövés nem okozott sebzést ellenséges járműnek."
+
+msgid "loader_secondChance/name"
+msgstr "Második esély"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Csökkenti a löveg töltési idejét "
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s mp"
+
+msgid "offspring_brotherhood/name"
+msgstr "Testvériség"
+
+msgid "perkRole/commander"
+msgstr "Parancsnok"
+
+msgid "perkRole/common"
+msgstr "Csoportos"
+
+msgid "perkRole/driver"
+msgstr "Vezető"
+
+msgid "perkRole/gunner"
+msgstr "Lövegkezelő"
+
+msgid "perkRole/loader"
+msgstr "Töltő"
+
+msgid "perkRole/radioman"
+msgstr "Rádiós"
+
+msgid "popularity/tooltip/common"
+msgstr "preferálja az összes játékos közül"
+
+msgid "popularity/tooltip/header"
+msgstr "Ehhez a járműhöz"
+
+msgid "popularity/tooltip/legendary"
+msgstr "preferálja a WTR-legenda játékosok közül"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Ha két rádiós is rendelkezik ezzel a készséggel, a képzettségi szintjük átlagértéke számít.\n\nA hatása tovább növelhető a parancsnok Hanglokátor készségével."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Minden alkalommal, amikor a legénység elkábul, {greenBright_Start}a kábítás negatív hatása{greenBright_End} %(stunResistanceEffectFactor)s-kal csökken, de legfeljebb 30%-kal."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, minden alkalommal, amikor a legénység elkábul, {greenBright_Start}a kábítás negatív hatása{greenBright_End} %(stunResistanceEffectFactor)s-kal&nbsp;csökken, de legfeljebb 30%-kal."
+
+msgid "radioman_battleTempered/name"
+msgstr "Harcedzett"
+
+msgid "radioman_expert/alt/description"
+msgstr "A legénység hatékonysági bónusza növeli a harckocsizó hatékonyságát a csatában. Ha két rádiós is rendelkezik ezzel a készséggel, a képzettségük átlagértéke számít. Ez az érték tovább növelhető hasonló hatással rendelkező felszerelésekkel vagy fogyócikkekkel, illetve a Légtelenítő direktíva használatával. A Bajtársak csoportos készség, valamint a parancsnok Vészhelyzet vagy a rádiós Vállvetve készségei tovább növelhetik az értéket."
+
+msgid "radioman_expert/alt/info"
+msgstr "A helyzetfüggő hatású készség akkor lép életbe, ha legalább 1%-os képzettségű és a hatékonysága a további képzéssel nő. A helyzetfüggő hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "A {yellow_Start}legénység hatékonysági bónusza{yellow_End} %(crewLevelIncrease)s-kal nő, ha a közreműködésednek köszönhető sebzés meghaladja a járműved kezdeti életerejét&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Megnövelt legénységhatékonysági bónusz (elegendő felderítési információ került továbbításra)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(crewLevelIncrease)s-kal növeli a {yellow_Start}legénység hatékonysági bónuszát{yellow_End}, ha a közreműködésednek köszönhető sebzés meghaladja a járműved kezdeti életerejét&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Kommunikációs szakértő"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Megnövelt legénységi teljesítmény."
+
+msgid "radioman_finder/alt/description"
+msgstr "Amennyiben két rádiós is rendelkezik a készséggel, a képzettségük átlagértéke számít.\n\nA látótávolság tovább növelhető a Felderítés készség kiképzésével vagy hasonló hatású felszerelések használatával. Az Optikai kalibráció direktíva használata erősíti a hatást."
+
+msgid "radioman_finder/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "A {greenBright_Start}látótávolság{greenBright_End} %(vehicleCircularVisionRadius)s-kal nő&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(vehicleCircularVisionRadius)s-rel növeli a {greenBright_Start}látótávolságot{greenBright_End}&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Helyzetfelismerés"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Növeli a látótávolságot."
+
+msgid "radioman_interference/alt/description"
+msgstr "Amennyiben két rádiós is rendelkezik a készséggel, a képzettségük átlagértéke számít.\n\nHasonló hatású felszerelések használatával tovább csökkenthető az az idő, ameddig a járműved felderítve marad."
+
+msgid "radioman_interference/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "A {greenBright_Start}járműved felderítettségi ideje{greenBright_End} %(vehicleOwnSpottingTime)s-cel csökken&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(vehicleOwnSpottingTime)s-cel csökkenti a {greenBright_Start}járműved felderítettségi idejét{greenBright_End}&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Zavarás"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Csökkenti azt az időt, ameddig a járműved látható az ellenség számára."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Ha két rádiós is rendelkezik a készséggel, akkor csak a magasabb szintű készség lesz aktív. A hatás csak akkor aktív, ha a rádiós sértetlen a jármű megsemmisülésekor.\n\nA készség tovább javítható az Első a kötelesség direktívával."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Egy készség szituációs hatással, amely akkor lép életbe, ha legalább 1%-os képzettségű. Hatékonysága a további képzéssel nő. A szituációs hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "A rádiós képes {yellow_Start}jelenteni az ellenség pozícióit{yellow_End} a jármű megsemmisülését követő %(radiomanDurationPerLevel)s-ben."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Pozíciók jelentése."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, a rádiós képes {yellow_Start}jelenteni az ellenség pozícióit{yellow_End} a jármű megsemmisülését követő %(radiomanDurationPerLevel)s-ben."
+
+msgid "radioman_lastEffort/name"
+msgstr "Bosszúálló"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "A jármű megsemmisülését követően rövid ideig jelenti az ellenség pozícióit."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "A legénység hatékonysági bónusza növeli a harckocsizó hatékonyságát a csatában. Ha két rádiós is rendelkezik a készséggel, a képzettségük átlagértéke számít. Ez az érték tovább növelhető hasonló hatással rendelkező felszerelésekkel vagy fogyócikkekkel, illetve a Légtelenítő direktíva használatával. A Bajtársak csoportos készség, valamint a parancsnok Vészhelyzet vagy a rádiós Kommunikációs szakértő készségei tovább növelhetik az értéket."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "A helyzetfüggő hatású készség akkor lép életbe, ha legalább 1%-os képzettségű és a hatékonysága a további képzéssel nő. A helyzetfüggő hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "A {yellow_Start}legénység hatékonysági bónuszát{yellow_End} %(crewLevelIncrease)s-kal növeli, ha legfeljebb 50 méterre vagy egy azonos típusú szövetséges járműtől&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Megnövelt legénységhatékonysági bónusz (azonos típusú szövetséges jármű a közelben)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(crewLevelIncrease)s-kal növeli a {yellow_Start}legénység hatékonysági bónuszát{yellow_End}, ha legfeljebb 50 méterre vagy egy azonos típusú szövetséges járműtől&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Vállvetve"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Megnövelt legénységi teljesítmény."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "A hatás javítja a parancsnok különleges Hatodik érzék tulajdonságát, felgyorsítva az aktiválását.\n\nHa két rádiós is rendelkezik a készséggel, akkor az átlagos képzettségi szint számít."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "A készség akkor lép életbe, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "A {greenBright_Start}járműved felderítettségének{greenBright_End} {greenBright_Start}megállapításához szükséges idő{greenBright_End} %(commanderLampDelay)s-cel csökken."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, akkor csökkenti a {greenBright_Start}járműved felderítettségének{greenBright_End} {greenBright_Start}megállapításához szükséges időt{greenBright_End} %(commanderLampDelay)s-cel."
+
+msgid "radioman_signalInterception/name"
+msgstr "Jelelfogás"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Ez a készség akkor aktiválódik, amikor a Hatodik érzék figyelmeztet, hogy felderítettek.\n\nHa két rádiós is rendelkezik ezzel a készséggel, a képzettségi szintjük átlagértéke számít.\n\nA látótávolság tovább növelhető a Felderítés vagy Helyzetfelismerés készségekkel, illetve hasonló hatású felszereléssel. Az Optikai kalibráció direktíva szintén növeli a hatását."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "A helyzetfüggő hatású készség akkor lép életbe, ha legalább 1%-os képzettségű, és a hatékonysága a további képzéssel nő. A helyzetfüggő hatás akkor lép működésbe, ha bizonyos feltételek teljesülnek a csatában."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "A {yellow_Start}látótávolság{yellow_End} %(vehicleCircularVisionRadius)s-kal nő 5 mp-en át a Hatodik érzék figyelmeztetésének felbukkanását követően."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "A látótávolság növekedett."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, a {yellow_Start}látótávolság{yellow_End} %(vehicleCircularVisionRadius)s-kal nő 5 mp-en át a Hatodik érzék figyelmeztetésének felbukkanását követően."
+
+msgid "radioman_threatSearch/name"
+msgstr "Veszélykereső"
+
+msgid "repair/alt/description"
+msgstr "Ez a készség befolyásolja a belső és külső modulok javításának sebességét „vörösről“ „sárga“ szintre.\n\nEz a paraméter tovább növelhető hasonló hatású felszerelések vagy fogyócikkek felszerelésével."
+
+msgid "repair/alt/info"
+msgstr "A csoportos készségeknél a legénység összes tagjának átlagos képzési szintje számít. Akkor lép hatályba, ha legalább 1%-os képzettségű, a további képzés pedig növeli a hatékonyságát."
+
+msgid "repair/currentLvlDescription"
+msgstr "A jármű sérült moduljainak {greenBright_Start}javítási sebessége{greenBright_End} %(vehicleRepairSpeed)s-kal nőtt&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Ha teljesen ki van képezve, %(vehicleRepairSpeed)s-kal növeli a jármű sérült moduljainak {greenBright_Start}javítási sebességét{greenBright_End}&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Javítás"
+
+msgid "repair/shortDescription"
+msgstr "Növeli a sérült modulok javítási sebességét."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Testvériség"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Népszerű"
+
+msgid "sorting/fallback"
+msgstr "Alapértelmezett"
+
+msgid "sorting/legendary"
+msgstr "Legendás"
+
+msgid "sorting/title"
+msgstr "Rendezés:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sNépszerű.%(whiteSpanish_Close)s A World of Tanks összes játékosának jelenlegi készségtrendjei alapján"
+
+msgid "sorting/tooltip/header"
+msgstr "WoT plusz előny"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Pontos adatokat kaphatsz a legénységi készségekről több millió játék alapján, hogy a legtöbbet hozhasd ki minden csatádból."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendás.%(whiteSpanish_Close)s A Legenda WTR-értékelésű játékosok által jelenleg preferált készségek alapján"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "A készség rendezése ki van kapcsolva"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Nem áll rendelkezésre adat"
+
+msgid "sorting/tooltip/title"
+msgstr "Legénységi segéd"
+
+msgid "sorting/tooltip/types"
+msgstr "A készségrendezés típusai"
+
+msgid "sorting/tooltip/warning"
+msgstr "A készségrendezés nem érhető el"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Nem érhető el teljes készségadat ehhez a járműhöz, ezért az alapértelmezett készségrendezést alkalmaztuk."
+
+msgid "witches_brotherhood/name"
+msgstr "Gyülekezet"
+
+msgid "yha_brotherhood/name"
+msgstr "Nyulak testvérisége"

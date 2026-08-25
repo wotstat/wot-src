@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Змінити сервер"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Докладніше"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Режим недоступний на цьому сервері %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Режим недоступний на всіх серверах"
+
+msgid "alertMessage/modeOffline"
+msgstr "Помилка бази даних. Режим недоступний."
+
+msgid "alertMessage/noVehicles"
+msgstr "У Гаражі немає придатної техніки %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Так!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "НАТИСК ЛАЙТ"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "ФІНАЛЬНИЙ ЕТАП ПРОЙДЕНО!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "ЕТАП %(level)s ПРОЙДЕНО!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Усі завдання виконано!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Виконано"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Зникне через: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Завдання Натиску Лайт"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Нове завдання Натиску Лайт через: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Нагорода:"
+msgstr[1] "Нагороди:"
+msgstr[2] "Нагород:"
+
+msgid "battleResult/header/deserter"
+msgstr "Ви отримали штраф"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "ПРОГРЕСІЯ НАТИСКУ ЛАЙТ"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s – %(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Натиск Лайт триватиме %(days)d день"
+msgstr[1] "Натиск Лайт триватиме %(days)d дні"
+msgstr[2] "Натиск Лайт триватиме %(days)d днів"
+
+msgid "calendarDay/title"
+msgstr "Розклад"
+
+msgid "closeButtonLabel"
+msgstr "ЗАКРИТИ"
+
+msgid "countDown/text"
+msgstr "До початку події:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Динамічний режим у форматі «7 на 7» на техніці %(levels)s рівня. Насолоджуйтеся ґеймплеєм класичного Натиску без кваліфікації, рангів і досягнень та здобувайте нагороди за виконання щоденних завдань."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "РЕЖИМ"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — ігровий режим. Натисніть для подробиць"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Натиск Лайт"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Режим доступний протягом %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Припинення вогню%(timer)s"
+
+msgid "featureName"
+msgstr "Натиск Лайт"
+
+msgid "featureNameCapitalized"
+msgstr "НАТИСК ЛАЙТ"
+
+msgid "intro/confirmButton"
+msgstr "Так!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Насолоджуйтеся геймплеєм класичного Натиску без кваліфікації, рангів і досягнень."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "У режимі діють модифікатори, що змінюють певні параметри техніки, як-от очки міцності, час перезаряджання спорядження, час у виявленні й інші."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "На мапі є області, захоплення яких дозволяє застосувати тактичні навички. Існує 2 типи ключових позицій: Артилерійський штаб дасть можливість завдати артудару по певній ділянці території, а Вузол зв’язку допоможе виявити всю техніку супротивника. Залежно від мапи наявність та розташування ключових позицій можуть мінятися."
+
+msgid "intro/description/roleSkills"
+msgstr "Залежно від ролі кожна машина має особливу навичку з трьома рівнями заряду. Що вищий рівень заряду в момент активації навички, то сильнішою буде її дія. На рівень заряду впливає кількість очок престижу, які можна отримати за результативні дії в бою, захоплення ключових позицій, використання тактичних навичок тощо.\n\nУсі способи здобування очок престижу можна дізнатися в регламенті події."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "У цьому режимі можна використовувати лише техніку %(levels)s рівня (САУ й деякі окремі машини недоступні). Підготуйте техніку в Гаражі й виберіть найкращу прямо в бою з урахуванням особливостей мапи. Під час вибору також звертайте увагу на техніку союзників."
+
+msgid "intro/title/lightGameplay"
+msgstr "РОЗСЛАБТЕСЯ, КОМАНДИРЕ"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "МОДИФІКАТОРИ НАТИСКУ"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "КЛЮЧОВІ ПОЗИЦІЇ"
+
+msgid "intro/title/roleSkills"
+msgstr "РОЛЬОВІ НАВИЧКИ"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "ВИБИРАЙТЕ МАШИНУ ДЛЯ КОНКРЕТНОЇ МАПИ"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Перемога"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Поразка/Нічия"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Гарна робота, бійцю, так тримати!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Виконуйте завдання й посідайте місця в топі гравців у боях режиму «Натиск Лайт», щоб просуватися рівнями прогресії."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Кількість очок прогресії залежить від місця за очками престижу, здобутими в бою."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Режим завершиться за %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Основну прогресію пройдено"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Натиск Лайт"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Топ-2 за очками престижу"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Топ-5 за очками престижу"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Топ-7 за очками престижу"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Використовуйте Танковий Преміум акаунт"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Активуйте особисті резерви"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Виконуйте бойові завдання"
+
+msgid "noVehicles/howTo/title"
+msgstr "Як швидше отримати техніку %(levels)s рівня?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Для участі в Натиску Лайт у Гаражі має бути хоча б одна машина %(levels)s рівня, що підходить для гри в режимі.\nВи можете придбати техніку %(levels)s рівня в Дереві досліджень чи в ігровому Магазині."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Для участі в Натиску Лайт у Гаражі має бути хоча б одна машина %(levels)s рівня, що підходить для гри в режимі.\nВи маєте техніку %(levels)s рівня, доступну для відновлення."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Для участі в Натиску Лайт у Гаражі має бути хоча б одна машина %(levels)s рівня, що підходить для гри в режимі."
+
+msgid "noVehicles/title"
+msgstr "У Гаражі немає придатної техніки"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Подробиці дивіться на сторінці «Про Натиск Лайт»."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Очки престижу"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Заподіяння шкоди\nДопомога розвідданими\nЗнищення гусениць\nКритична шкода\nЗнищення техніки супротивника\nІ не тільки"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Очки престижу можна отримати за дії в бою, як-от:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Сезон на сервері %(server)s завершено."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Сезон на сервері %(server)s завершено."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Сезон на сервері %(server)s завершено."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Основну прогресію пройдено!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Етап %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s або %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Нові завдання за:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "До кінця події залишилося:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Завдання оновляться через"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Усі щоденні завдання виконано."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Прогресію пройдено! Грайте в Натиск Лайт і здобувайте ще більше нагород."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Виконуйте завдання й посідайте місця в топі гравців у боях\nрежиму «Натиск Лайт», щоб підвищувати рівень прогресії. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Нагорода за виконання спеціальних завдань і бої в режимі «Натиск Лайт». Завдяки їм ви можете просуватися прогресією."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Очки прогресії в Натиску Лайт"
+
+msgid "selectorTooltip/desc"
+msgstr "Режим без рейтингу. 7×7 | %(tier)s рівень"
+
+msgid "selectorTooltip/title"
+msgstr "Натиск Лайт"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Стежте за новинами на порталі гри, щоб не пропустити інформацію про старт нового сезону."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Режим тимчасово вимкнено з технічних причин."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Режим стане доступний %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Отримано очки прогресії"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Докладніше"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Натиск Лайт"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Отримано нагороди:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Ви пройшли %(stage)s-й етап прогресії режиму «%(progressionName)s»."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Вітаємо!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Бої в Натиску Лайт недоступні до завершення режиму припинення вогню."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Режим припинення вогню"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Бої в Натиску Лайт знову доступні. Режим припинення вогню закінчено."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Режим припинення вогню"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Про Натиск Лайт"

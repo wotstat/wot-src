@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Vynulovat filtry"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Vybraným parametrům neodpovídají žádná vozidla.\nPro zobrazení vhodných vozidel je potřeba vynulovat filtr."
+
+msgid "battleType/description/fast"
+msgstr "Scénář se sníženou dobou obnovení bojové zálohy."
+
+msgid "battleType/description/random"
+msgstr "Scénář, ve kterém si hráči zvolí ze sad náhodných záloh s možností je vylepšit na IV. úroveň."
+
+msgid "battleType/description/standard"
+msgstr "Scénář se standardními pravidly Frontové linie."
+
+msgid "battleType/postBattle/title"
+msgstr "Bojový scénář: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Snížená doba obnovení bojové zálohy."
+
+msgid "battleType/shortDescription/random"
+msgstr "Bojové zálohy jsou přiřazeny náhodně."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Platí standardní pravidla."
+
+msgid "battleType/title/fast"
+msgstr "Operační podpora"
+
+msgid "battleType/title/random"
+msgstr "Vrtochy osudu"
+
+msgid "battleType/title/standard"
+msgstr "Standardní bitva"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "ZPĚT"
+
+msgid "button/close"
+msgstr "ZAVŘÍT"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} den"
+msgstr[1] "{duration} dny"
+msgstr[2] "{duration} dní"
+
+msgid "filterPopover/note"
+msgstr "Jsou zde zobrazena pouze ta vozidla, která mohou být v režimu použita."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Úrovně bojových záloh se zvýší při dosažení nových hodností."
+
+msgid "levelReservesTooltip/info"
+msgstr "Ve scénáři {whiteSpanish_Start}„Vrtochy osudu“{whiteSpanish_End} zvýší zakoupení bojové zálohy její úroveň o jednu a poskytne příležitost zálohu vylepšit na {whiteSpanish_Start}%(lvl)s.{whiteSpanish_End} úroveň."
+
+msgid "levelReservesTooltip/level"
+msgstr "Zvýší se po dosažení následující hodnosti: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Dostupné s následující hodností: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "{whiteSpanish_Start}%(lvl)s{whiteSpanish_End}. úroveň"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "Pro {whiteSpanish_Start}zakoupené bojové zálohy{whiteSpanish_End} scénáře {whiteSpanish_Start}„Vrtochy osudu“{whiteSpanish_End}&zwnbsp;."
+
+msgid "levelReservesTooltip/title"
+msgstr "Úrovně bojových záloh"
+
+msgid "loading"
+msgstr "Načítání…"
+
+msgid "widget/eventStartSoon"
+msgstr "Akce brzy začne!"
+
+msgid "widget/maxTier"
+msgstr "Dosáhli jste nejvyšší úrovně!"

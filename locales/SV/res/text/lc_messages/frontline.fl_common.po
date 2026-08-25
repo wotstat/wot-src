@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Återställ filter"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Inga vagnar matchar filterinställningarna.\nÅterställ filtret för att se vagnarna"
+
+msgid "battleType/description/fast"
+msgstr "Ett scenario med snabbare nedkylning av stridsreserver."
+
+msgid "battleType/description/random"
+msgstr "Ett scenario där spelare väljer mellan slumpade uppsättningar av reserver med möjlighet att uppgradera dem till nivå IV."
+
+msgid "battleType/description/standard"
+msgstr "Ett scenario med standardregler för frontstrider."
+
+msgid "battleType/postBattle/title"
+msgstr "Stridsscenario: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Snabbare reservnedkylning."
+
+msgid "battleType/shortDescription/random"
+msgstr "Slumpade stridsreserver."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Standardregler gäller."
+
+msgid "battleType/title/fast"
+msgstr "Operativt Stöd"
+
+msgid "battleType/title/random"
+msgstr "Ödets Nyck"
+
+msgid "battleType/title/standard"
+msgstr "Standardstrid"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "TILLBAKA"
+
+msgid "button/close"
+msgstr "STÄNG"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} dag"
+msgstr[1] "{duration} dagar"
+msgstr[2] "{duration} dagar"
+
+msgid "filterPopover/note"
+msgstr "Endast vagnar som kan användas i striderna visas här."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Nivån för stridsreserver höjs när du når nya grader."
+
+msgid "levelReservesTooltip/info"
+msgstr "Under scenariot {whiteSpanish_Start}Ödets Nyck{whiteSpanish_End} höjs nivån på stridsreserver ett steg när du köper den, och ger dessutom möjlighet att höja den till nivå {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/level"
+msgstr "Ökas när du når följande grad: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Tillgänglig från följande grad: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Nivå {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "För {whiteSpanish_Start}köp av stridsreserver{whiteSpanish_End} under scenariot {whiteSpanish_Start}Ödets Nyck{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/title"
+msgstr "Stridsreservsnivåer"
+
+msgid "loading"
+msgstr "Laddar…"
+
+msgid "widget/eventStartSoon"
+msgstr "Evenemanget börjar snart!"
+
+msgid "widget/maxTier"
+msgstr "Du har uppnått högsta klass!"

@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "Besatzung und Ausbildung"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "Anpassung"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "Zubehör und Direktiven"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "Sonstiges"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "Fahrzeuge"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "Verstanden!"
+
+msgid "autoOpenView/title"
+msgstr "ERHALTENE BELOHNUNGEN"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Verstanden!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "Direktive"
+
+msgid "bonuses/description/booster"
+msgstr "Persönliche Reserve"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Besatzungsskin"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standardzubehör"
+
+msgid "bonuses/description/style"
+msgstr "2D-Stil"
+
+msgid "bonuses/description/style3D"
+msgstr "3D-Stil"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "Blaupausenfragment (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "Universelles Blaupausenfragment"
+
+msgid "bonuses/label/bpcoin"
+msgstr "Marke für den Battle Pass"
+
+msgid "boxTooltip/description/text/default"
+msgstr "Kann bei Öffnen Fahrzeuge, wirtschaftliche Ressourcen oder andere wertvolle Gegenstände bringen.\nKisten sind im Nachschub verfügbar."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "Kisten bis zur garantierten Belohnung, falls diese nicht bereits zuvor erhalten wird."
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "Kisten sind im Nachschub verfügbar."
+
+msgid "common/backButton"
+msgstr "ZURÜCK"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "Taktikkiste"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "TAKTIKKISTE"
+
+msgid "common/closeButton"
+msgstr "SCHLIESSEN"
+
+msgid "common/footer/checkbox"
+msgstr "Öffnungsanimation"
+
+msgid "common/getButton/lowerCase"
+msgstr "Mehr erhalten"
+
+msgid "common/getButton/upperCase"
+msgstr "MEHR ERHALTEN"
+
+msgid "common/infoButton"
+msgstr "Was ist drin?"
+
+msgid "common/loader"
+msgstr "Kiste wird geöffnet ..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) Stk."
+msgstr[1] "%(count) Stk."
+msgstr[2] "%(count) Stk."
+
+msgid "common/rewards/multiplier"
+msgstr "{count}x"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "Tag"
+msgstr[1] "Tage"
+msgstr[2] "Tage"
+
+msgid "common/selectTooltip"
+msgstr "Nicht genug Kisten, um {{count}} gleichzeitig zu öffnen."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Öffnen Sie Kisten, um die Statistik zu sehen."
+
+msgid "common/statistics/header"
+msgstr "Geöffnete Kisten: %(count)"
+
+msgid "common/statsButton"
+msgstr "Statistik"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "Abbrechen"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Ihr Belohnungsverlauf wird gelöscht."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "Zurücksetzen"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "Statistiken zurücksetzen?"
+
+msgid "entryPoint/boxes"
+msgstr "ZU DEN KISTEN"
+
+msgid "entryPoint/count"
+msgstr "%(count)×"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "999×+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Dies sind besondere Kisten, die neue und einzigartige Gegenstände enthalten. Sie sind im Nachschub verfügbar."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Das Event endet in"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Das Event musste aufgrund technischer Schwierigkeiten unterbrochen werden, bis das Problem behoben ist."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Vorübergehend nicht verfügbar"
+
+msgid "eventName/lowerCase"
+msgstr "Schlachtfeld-Nachschub"
+
+msgid "eventName/upperCase"
+msgstr "SCHLACHTFELD-NACHSCHUB"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "Nach spätestens %(count) geöffneten Kisten"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "Fahrzeug"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "%(count) ist ein %(item) garantiert. Der Zähler wird zurückgesetzt, wenn vorher bereits ein Fahrzeug erhalten wurde."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Wenn Sie alle Fahrzeuge bereits besitzen, erhalten Sie eine Vergütung in Gold."
+
+msgid "guaranteedTitle/text"
+msgstr "%(name) für jeweils %(count) geöffnete Kisten"
+
+msgid "guaranteedTitle/textName"
+msgstr "Garantierte Belohnung"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "Öffnen"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "Das Event endet in %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Wenn Sie zum Ende des Events noch nicht alle Kisten geöffnet haben, geschieht dies danach automatisch."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Wenn Sie bereits alle Fahrzeuge aus der Liste möglicher Inhalte besitzen, werden alle folgenden in Kisten gefundenen Fahrzeuge mit ihrem vollen Wert in Gold vergütet."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Jede %(guaranteed0)s. Kiste enthält garantiert ein Fahrzeug der Stufe VIII–X. Wenn Sie Kisten öffnen und kein solches Fahrzeug erhalten, dann erhalten Sie in der %(guaranteed0)s&zwnbsp;. Kiste (abhängig von der Art der Kiste), die Sie öffnen, garantiert ein Fahrzeug der Stufe VIII–X, das Sie noch nicht besitzen. Wenn das passiert, wird der Zähler zurückgesetzt."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Auto-Öffnen"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Vergütung"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Garantierte Belohnung"
+
+msgid "infoPage/header/lootListLink"
+msgstr "Sehen Sie sich die Liste der Gegenstände auf dem Portal an"
+
+msgid "infoPage/header/probability/description"
+msgstr "Fundwahrscheinlichkeit"
+
+msgid "infoPage/header/probability/title"
+msgstr "Gruppe"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Aus jeder Gruppe wird maximal eine Belohnung enthalten sein."
+
+msgid "infoPage/header/rewards/title"
+msgstr "Belohnungen"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "Mehr öffnen"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Aus %(name) (%(boxesCount) Kisten geöffnet)"
+
+msgid "multipleRewardView/header/title/"
+msgstr "ERHALTENE BELOHNUNGEN"
+
+msgid "noBoxesView/description/"
+msgstr "Kisten sind im Nachschub verfügbar."
+
+msgid "noBoxesView/getBoxes/"
+msgstr "Zum Nachschub"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Zu den verfügbaren Kisten"
+
+msgid "preview/backLabel"
+msgstr "ZU DEN KISTEN"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Verfügbar: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Keine Kisten mehr vorhanden"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "Weiter"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "für %(vehicleInfo)"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "3D-Stil „%(style)“"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "Das Event „%(eventName)s“ ist beendet."
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "Alle verbleibenden Kisten werden geöffnet und ihr Inhalt Ihrem Konto gutgeschrieben."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Belohnungen"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Belohnungen erhalten"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Wir haben die Gegenstände hinzugefügt, die Sie während des Events nicht erhalten haben."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "Dieses Event ist aufgrund von Wartungsarbeiten vorübergehend nicht verfügbar."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "Das Event ist wieder verfügbar. Wir bitten für die Unannehmlichkeiten um Entschuldigung."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s Stück)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "Belohnungen erhalten:"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "Fehler"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "Bitte warten Sie, bis der vorherige Vorgang abgeschlossen ist."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "Aktion vorübergehend nicht verfügbar. Versuchen Sie es später erneut."
+
+msgid "serviceChannelMessages/start/button"
+msgstr "Zum Event"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "Das Event „%(eventName)s“ hat begonnen."
+
+msgid "serviceChannelMessages/start/text"
+msgstr "Nur bis zum %(date)s: Premiumfahrzeuge und wertvolle Spielgegenstände!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "Die Statistiken konnten nicht zurückgesetzt werden. Versuchen Sie es später noch einmal."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "Sowie"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "Mehr öffnen"
+
+msgid "singleRewardView/header/title/"
+msgstr "ERHALTENE BELOHNUNGEN"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "Einzigartiges Besatzungsmitglied"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "3D-Aufsätze"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "Aufträge für 5x EP pro Gefecht"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "Direktiven"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "Blaupausenfragmente"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "Broschüren"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "Ausbildungsbroschüren"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "Verbrauchsmaterial"
+
+msgid "statisticsRewards/label/credits"
+msgstr "Kreditpunkte"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "Handbücher"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "Ausbildungshandbücher"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "Aufträge für 3x Besatzungs-EP"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "Anleihen"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "Anpassung"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "Verbessertes Zubehör"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "Komponenten"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "Experimentelles Zubehör"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "Freie EP"
+
+msgid "statisticsRewards/label/gold"
+msgstr "Gold"
+
+msgid "statisticsRewards/label/guide"
+msgstr "Ratgeber"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "Ausbildungsratgeber"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "Mentorlizenz"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "Standardzubehör"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "Persönliche Reserven"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "WoT-Premiumkonto"
+
+msgid "statisticsRewards/label/rations"
+msgstr "Rationen"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "Umschulungsbefehle"
+
+msgid "statisticsRewards/label/style"
+msgstr "2D-Stile"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "3D-Stile"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "Besatzungsmitglieder"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "Erbeutetes Zubehör"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "Fahrzeuge"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "Statistiken zurücksetzen"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "Klicken Sie hier, um alle Statistiken zurückzusetzen."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "Und %(count) weitere Belohnung."
+msgstr[1] "Und %(count) weitere Belohnungen."
+msgstr[2] "Und %(count) weitere Belohnungen."
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "„%(label)“"
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "%(count)x"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "Nationales Blaupausenfragment"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). „%(label)“ für %(vehicleInfo)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "Vergütete Stile: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "Vergütete Fahrzeuge: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "Vergütung für ein Fahrzeug, das Sie bereits in Ihrer Garage haben"

@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Promeni server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detalji"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Ovaj režim je nedostupan na serveru %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Ovaj režim je nedostupan na svim serverima"
+
+msgid "alertMessage/modeOffline"
+msgstr "Greška baze podataka. Režim nedostupan."
+
+msgid "alertMessage/noVehicles"
+msgstr "Nema pogodnog vozila u tvojoj garaži %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Razumem!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "LAKI JURIŠ"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "FINALNA ETAPA ZAVRŠENA!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "ETAPA %(level)s JE ZAVRŠENA"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Sve misije su završene!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Završeno"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Ističe za: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Misije lakog Juriša"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Nova misija Lakog Juriša za: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Nagrada:"
+msgstr[1] "Nagrada:"
+msgstr[2] "Nagrada:"
+
+msgid "battleResult/header/deserter"
+msgstr "Dobio si kaznu"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "LAKI JURIŠ NAPREDAK"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s - %(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Laki juriš će trajati još %(days)d dan"
+msgstr[1] "Laki juriš će trajati još %(days)d dana"
+msgstr[2] "Laki juriš će trajati još %(days)d dana"
+
+msgid "calendarDay/title"
+msgstr "Raspored"
+
+msgid "closeButtonLabel"
+msgstr "ZATVORI"
+
+msgid "countDown/text"
+msgstr "Događaj počinje za:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Brz režim koji sadrži borbe 7 na 7 u vozililma %(levels)s nivoa. Uživaj u igranju originalnog Juriš režima bez kvalifikacija, rankova ili dosijea službe i zaradi nagrade u dnevnim misijama."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "REŽIM"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s - Režim igre. Klik za proširenje"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Laki Juriš"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Režim je dostupan za %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Primirje%(timer)s"
+
+msgid "featureName"
+msgstr "Laki Juriš"
+
+msgid "featureNameCapitalized"
+msgstr "LAKI JURIŠ"
+
+msgid "intro/confirmButton"
+msgstr "Razumem!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Uživaj u stilu igre originalnog režima Juriša bez kvalifikacija, rankova ili dosijea službe"
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Režim ima modifikatore koji menjaju određene parametre vozila poput poena izdržljivosti vozila, vremena hlađenja potrošnog materijala, vremena koliko je vozilo vidljivo i drugog."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Kada zarobiš određene zone mape, moći ćeš da koristiš taktičke veštine. Postoje dve vrste interesnih tačaka: štab artiljerije će ti omogućiti da usmeriš artiljerijski udar na određenu poziciju, a centar za komunikaciju će uočiti sva neprijateljska vozila. U zavisnosti od mape, prisustvo i lokacija ovih interesnih tačaka se mogu promeniti."
+
+msgid "intro/description/roleSkills"
+msgstr "U zavisnosti od uloge, svako vozilo ima posebnu veštinu sa tri nivoa punjenja. Što je veći nivo punjenja kada je veština aktivirana, to će biti jači efekat. Nivo punjenja će zavisiti od broja poena prestiža koji se mogu zaraditi za impresivne performanse u borbi, zauzimanje tački interesa, korišćenje taktičkih veština, itd.\n\nPogledaj propise događaja da bi saznao više o različitim načinima na koje možeš zaraditi poena prestiža."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Samo vozila %(levels)s nivoa mogu biti korišćena u režimu (Artiljerija i drugi tenkovi nisu dostupni). Pripremi svoja vozila u garaži, potom izaberi najbolje u zavisnosti od odlika trenutne mape kada jednom uđeš u borbu. Prilikom odabira vozila, takođe uzmi u obzir koja vozila su tvoji saveznici odabrali."
+
+msgid "intro/title/lightGameplay"
+msgstr "ODMORI, KOMANDIRU"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "MODIFIKATORI JURIŠA"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "TAČKE INTERESA"
+
+msgid "intro/title/roleSkills"
+msgstr "VEŠTINE ULOGA"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "IZABERI VOZILO ZA ODREĐENU MAPU"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Pobeda"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Poraz/Nerešeno"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Solidan posao, komandiru, nastavi tako!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Završi misije i dostigni vrhunske pozicije u borbama Lakog juriša da povećaš svoj nivo napretka."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Broj poena napretka koje zaradiš zavisi od mesta poena prestiža u borbi."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Režim se završava za %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Glavno progres završen"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Laki Juriš"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Najboljih 2 po poenima prestiža"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Najboljih 5 po poenima prestiža"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Najboljih 7 po poenima prestiža"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Koristi WoT Premium nalog"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktiviraj lične rezerve"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Završi misije"
+
+msgid "noVehicles/howTo/title"
+msgstr "Koji je najbrži način da izučiš vozila %(levels)s nivoa?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Da učestvuješ u Lakom Jurišu, moraš imati najmanje jedno vozilo %(levels)s nivoa u garaži koje je pogodno za režim.\nMožeš da kupiš Premium vozila %(levels)s nivoa u razvojnom stablu ili u prodavnici u igri."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Da učestvuješ u Lakom jurišu, treba ti najmanje jedno vozilo nivoa %(levels)s u garaži koje je adekvatno za režim.\nImaš vozila nivoa %(levels)s koja se mogu povratiti."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Da učestvuješ u Lakom jurišu, treba ti najmanje jedno vozili nivoa %(levels)s u garaži koje je pogodno za režim."
+
+msgid "noVehicles/title"
+msgstr "Nema pogodnog vozila u tvojoj garaži"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Pogledaj stranicu o Lakom jurišu za detalje."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Poeni prestiža"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Nanošenje štete\nAsistencija uočavanja\nUništavanje gusenica\nNanošenje kritičnih pogodaka\nUništavanje neprijatlejskih vozila\nI ostalo"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Poeni prestiža mogu biti zarađeni za obavljanje borbenih akcija uključujući:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Sezona se završila na %(server)s serveru."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Sezona se završila na %(server)s serveru."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Sezona se završila na %(server)s serveru."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Glavni progres je završen!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Etapa %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s ili %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Nove misije za:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Događaj se završava za:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Misije će biti ažurirane za"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Sve dnevne misije su završene."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Progres je završen. Igraj Laki Juriš da zaradiš još nagrada."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Završi misije i dostigni vrhunske pozicije u borbama\nLakog juriša da povećaš svoj nivo napretka. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Dodeljuju se za završavanje specijalnih misija i vođenje borbi u Lakom Jurišu. Dozvoljavaju ti da napreduješ kroz progres."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Poeni progresa Lakog juriša"
+
+msgid "selectorTooltip/desc"
+msgstr "Ne-rangiran režim. 7 na 7 | %(tier)s nivo"
+
+msgid "selectorTooltip/title"
+msgstr "Laki Juriš"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Prati najnovije vesti na portalu igre za početak nove sezone."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Režim je trenutno nedostupan zbog tehničkih problema."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Režim će biti dostupan %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Poeni napretka primljeni"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Detalji"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Laki Juriš"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Primljene nagrade:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Završio si etapu progresa %(stage)s u režimu %(progressionName)s."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Čestitamo!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Primirje je u toku. Borbe Lakog juriša su privremeno nedostupne."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Primirje"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Primirje je završeno. Borbe Lakog juriša su dostupne ponovo."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Primirje"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "O lakom Jurišu"

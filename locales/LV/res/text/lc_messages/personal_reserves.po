@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Aktivizēt"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Pirkt un Aktivizēt"
+
+msgid "activation/activateBonus"
+msgstr "Aktivizēt Rezervi: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Aktivizēt Rezerves"
+
+msgid "activation/activateButtonClan"
+msgstr "Uz Cietoksni"
+
+msgid "activation/battleXPDescription"
+msgstr "Bonuss Kaujas Pieredze uz 1 h"
+
+msgid "activation/battleXPTitle"
+msgstr "Kaujas Pieredze"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Pirkt un aktivizēt Uzlaboto Personālo Rezervi, kas sniedz %(boosterBonus)s %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Pirkt Zeltu"
+
+msgid "activation/buyGoldTitle"
+msgstr "Pirkt nepieciešamo zeltu priekš Uzlabotās Personālās Rezerves, kas sniedz %(boosterBonus)s %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Nepieciešams zelts, lai pirktu Uzlaboto Personālo Rezervi:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Kredīti un Kaujas Pieredze"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "Apkalpes Pieredze un Brīvā Pieredze"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Klana Rezerves"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Aktivizēt Rezervi Cietoksnī"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Skatīt Cietoksnī"
+
+msgid "activation/comboXPDescription"
+msgstr "Bonuss Brīvajai un Apkalpes Pieredzei uz 1 h"
+
+msgid "activation/comboXPTitle"
+msgstr "Brīvā & Apkalpes XP"
+
+msgid "activation/creditsDescription"
+msgstr "Bonuss kredītiem uz 1 h"
+
+msgid "activation/creditsTitle"
+msgstr "Kredīti"
+
+msgid "activation/footer"
+msgstr "Rezerves, kas var beigties jāaktivizē: %(expirableAmount) laikā %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Bonuss Frontes Līnijas Pieredzei uz 1 h"
+
+msgid "activation/frontLineXPTitle"
+msgstr "Frontes Līnijas Pieredze"
+
+msgid "activation/informationButton"
+msgstr "INFORMĀCIJA"
+
+msgid "activation/price"
+msgstr "Cena:"
+
+msgid "activation/subFooter/depot"
+msgstr "Noliktavā"
+
+msgid "activation/subFooter/main"
+msgstr "Rezerves tuvāk beigšanās datumam tiek aktivizētas pirmās. Jūs variet skatīt visas jūsu pieejamās Rezerves %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Aktivizējiet {whiteSpanish_Open}līdz 3 Personālajām Rezervēm{whiteSpanish_Close}, lai pelnītu vairāk kredītus un pieredzi kaujās. Pērciet vairāk Personālās Rezerves %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "Veikalā"
+
+msgid "activation/terms/booster_credits"
+msgstr "kredītiem"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "Frontes Līnijas Pieredzei"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "Brīvajai un Apkalpes Pieredzei"
+
+msgid "activation/terms/booster_xp"
+msgstr "Kaujas Pieredzei"
+
+msgid "activation/title"
+msgstr "PERSONĀLĀS REZERVES"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Aktivizētā Standarta Personālā Rezerve, kas sniedz %(previousBoosterBonus)s %(previousBoosterTerm)s tiks zaudēta.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Vai vēlieties aktivizēt Uzlaboto Personālo Rezervi, kas sniedz %(boosterBonus)s %(boosterTerm)s aktivizētās Standarta Personālās Rezerves vietā?"
+
+msgid "battleView/notice"
+msgstr "Personālās Rezerves var aktivizēt jebkurā laikā kaujā. Jūs saņemsiet bonusu pat ja Rezerve beidzas kaujas laikā."
+
+msgid "battleView/title"
+msgstr "Personālo Rezervju Aktivizācija"
+
+msgid "depot/buyButton"
+msgstr "Uz Pirkumu"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Jau ir aktivizēta cita šī veida Rezerve."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Šī Personālā Rezerve beidzās kaujas laikā. Bonuss no Personālās Rezerves joprojām paliek šai kaujai."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)min"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Aktivizētās Personālās Rezerves netiek piemērotas šajā režīmā."
+
+msgid "intro/buttons/close"
+msgstr "Sapratu!"
+
+msgid "intro/buttons/details"
+msgstr "Detaļas"
+
+msgid "intro/description"
+msgstr "Personālās Rezerves, kas var beigties ir pieejamas uz ierobežotu laiku pēc to saņemšanas. Ja tās netiek aktivizētas šajā laikā, tās tiks zaudētas. Personālās Rezerves, kas nevar beigties, nevar izmantot kamēr jums ir pieejamas tāda paša veida Personālās Rezerves, kas var beigties."
+
+msgid "intro/title"
+msgstr "PERSONĀLĀS REZERVES, KAS VAR BEIGTIES"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Nav šāda veida Personālās Rezerves Noliktavā. Jūs variet nopirkt tās vēlāk, lai aktivizētu Garāžā."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Izpildiet misijas un piedalieties spēles pasākumos, lai nopelnītu Personālās Rezerves."
+
+msgid "noReserveTooltip/text"
+msgstr "Nav šāda veida Personālās Rezerves Noliktavā."

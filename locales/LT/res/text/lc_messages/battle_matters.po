@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Brėžinys"
+
+msgid "animations/crew_close"
+msgstr "UŽDARYTI"
+
+msgid "animations/shop"
+msgstr "Pereiti į pirkimą"
+
+msgid "battleMattersTab"
+msgstr "Tankų akademija"
+
+msgid "battleResults/descr"
+msgstr "Tankų akademija: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Į tankų akademijos misijas"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Progresas šiame mūšyje"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Atšaukti"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "UŽDARYTI"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Patvirtinti"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Jūs gausite {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} su įgula ir garažo vieta."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Iškeisti jūsų Akademijos žetonus į %(vehicleName)s?"
+
+msgid "entryPoint/hint"
+msgstr "MOKOMŲJŲ MISIJŲ\nSERIJOS"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Įvykdytos misijos: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Tankų akademija"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Apdovanojimas už įvykdymą:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Šiuo metu misijos nepasiekiamos dėl techninių nesklandumų. Jūsų misijų progresas bus išsaugotas."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Visos misijos įvykdytos"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Misijos laikinai nepasiekiamos"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Sąlygos:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Iškeiskite žetoną į bet kurią išrandamą VI lygio mašiną."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "ATGAL"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "Į TANKŲ AKADEMIJOS MISIJAS"
+
+msgid "mainRewardsScreen/done"
+msgstr "Garaže"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Peržiūra"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Nuomos dienos: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Įvykdykite mokomųjų misijų serijas ir kaip pagrindinį prizą gaukite tris VIII lygio Premium mašinas {cream_Open}14 dienų{cream_Close} nuomai."
+
+msgid "mainRewardsScreen/title"
+msgstr "TANKŲ AKADEMIJA"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Pasirinkti"
+
+msgid "mainScreen/infoButton"
+msgstr "GIDAS NAUJOKAMS"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "GIDAS"
+
+msgid "mainScreen/list/arrow"
+msgstr "Paspauskite norėdami pereiti į dabartinę misiją."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Pagrindinis apdovanojimas gautas"
+
+msgid "mainScreen/progress"
+msgstr "Įvykdytos misijos: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Kaip įvykdyti"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Įvykdykite ankstesnę misiją"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Nepasiekiama"
+
+msgid "mainScreen/showMainReward"
+msgstr "Peržiūrėti pagrindinį prizą"
+
+msgid "mainScreen/target"
+msgstr "Įvykdykite visas misijas ir gaukite tris VIII lygio mašinas nuomai."
+
+msgid "mainScreen/title"
+msgstr "TANKŲ AKADEMIJA"
+
+msgid "pausedScreen/buttonText"
+msgstr "Į garažą"
+
+msgid "pausedScreen/description"
+msgstr "Tankų akademija laikinai nepasiekiama dėl techninių priežasčių. Visas progresas bus išsaugotas. Atsiprašome už nepatogumus."
+
+msgid "pausedScreen/title"
+msgstr "Laikinai nepasiekiama"
+
+msgid "rewards/additionalTitle"
+msgstr "Jūs dar gavote:"
+
+msgid "rewards/footer/confirm"
+msgstr "Tikrai taip!"
+
+msgid "rewards/footer/more"
+msgstr "Dar: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Į kitą misiją"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Peržiūrėti garaže"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Misijos sąlygos buvo įvykdytos anksčiau"
+
+msgid "rewards/rent"
+msgstr "Nuomos dienos: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "PASKUTINĖ MISIJA ĮVYKDYTA"
+
+msgid "rewards/subTitle/regular"
+msgstr "%(questNumber)s MISIJA ĮVYKDYTA"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "GAUTA MAŠINA UŽ AKADEMIJOS ŽETONUS"
+
+msgid "rewards/title"
+msgstr "TANKŲ AKADEMIJA"
+
+msgid "rewards/token/action"
+msgstr "Mašinos pasirinkimas"
+
+msgid "rewards/token/description"
+msgstr "Panaudokite žetoną ir akimirksniu gaukite VI lygio mašiną."
+
+msgid "rewards/token/title"
+msgstr "Iškeiskite Akademijos žetoną į mašiną"
+
+msgid "tokenTooltip/condition"
+msgstr "Žetonai suteikiami sėkmingai įvykdžius mokomųjų misijų serijas ir pasiekiant reikiamą progreso lygį tankų akademijoje."
+
+msgid "tokenTooltip/description"
+msgstr "Žetonai gali būti iškeisti į bet kurią išrandamą VI lygio mašiną. Mašina gaunama su įgula ir garažo vieta."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Žetonai pasiekiami: {cream_open}%(days)s d.{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Žetonai pasiekiami iki: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Žetonai pasiekiami: {cream_open}%(hours)s val.{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Žetonai pasiekiami: {cream_open}%(minutes)s min.{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Akademijos žetonai"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Jūs gausite {cream_Open}%(crewIcon)s įgulą{cream_Close} ir {cream_Open}%(hangarIcon)s garažo{cream_Close} {cream_Open}vietą{cream_Close} kartu su mašina."
+
+msgid "vehicleSelection/back"
+msgstr "ATGAL"
+
+msgid "vehicleSelection/backTo"
+msgstr "Į TANKŲ AKADEMIJOS MISIJAS"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Įtraukti į palyginimą"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Mašinų vaizdavimo konfigūravimas, atsižvelgiant į jų tipą ir naciją."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Filtravimo parametrai"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Paspauskite norėdami atstatyti filtro parametrus."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Nustatyti numatytuosius"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Nacija"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Filtravimo parametrai"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Mašinos tipas"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Nieko nerasta. Pakeiskite filtro nustatymus arba pašalinkite filtravimą."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Pašalinti filtrą"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Jūs išradote visas VI lygio mašinas, kurias galima iškeisti už Akademijos žetonus."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Nėra mašinos pasirinkimui"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Paieška pagal pavadinimą"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "Mašinos pavadinimas negali turėti daugiau nei %(maxLength)s simbolių."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Paieška pagal vardą"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Rodoma:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Iškeiskite žetoną į bet kurią išrandamą VI lygio mašiną. Mašina gaunama su\nįgula ir garažo vieta."
+
+msgid "vehicleSelection/title"
+msgstr "Pasirinkite bet kurią išrandamą VI lygio mašiną"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Prieštankinis"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "ARTILERIJA"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Sunkusis tankas"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Lengvasis tankas"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Vidutinis tankas"

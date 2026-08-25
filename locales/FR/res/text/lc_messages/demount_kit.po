@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "demountConfirmation/submit"
+msgstr "Retirer"
+
+msgid "demountKit/gained/count"
+msgstr "Kit de démantèlement (x%(count)s)"
+
+msgid "demountKit/sell/header"
+msgstr "Vendu :"
+
+msgid "demountKit/sell_success"
+msgstr "Consommable « Kit de démantèlement » (%(count)s unité(s)). Crédits reçus : %(count)s."
+
+msgid "demountKit/tooltip/description/common"
+msgstr "Retire une pièce d'équipement."
+
+msgid "dialogue/description/common"
+msgstr "Retire une pièce d'équipement standard ou d'Équipement de prime."
+
+msgid "discounts/tooltips/noSaleProfit"
+msgstr "Le prix de vente est inférieur à la normale, vous pouvez l'acheter au rabais."
+
+msgid "equipmentDemount/confirmation/description"
+msgstr "L'équipement retiré sera envoyé au dépôt."
+
+msgid "equipmentDemount/confirmation/descriptionForInappropriateClass"
+msgstr "Attention ! Cette pièce d'équipement a changé de classe en raison du type de véhicule actuel.\nCet objet d'équipement peut être retiré gratuitement, mais si vous le retirez, vous {red_Open}ne pourrez pas{red_Close} le réinstaller sur ce véhicule."
+
+msgid "equipmentDemount/confirmation/title"
+msgstr "Retirer l'équipement « %(equipment)s » ?"
+
+msgid "equipmentDemount/confirmationForFitting/title"
+msgstr "Retirer %(equipment)s pour installer le nouvel équipement ?"
+
+msgid "equipmentDemount/notEnoughBonds/description"
+msgstr "Gagnez-les en batailles ou recevez-les en récompense lors d'évènements du jeu."
+
+msgid "equipmentDemount/notEnoughBonds/text"
+msgstr "Pas assez d'obligations"
+
+msgid "equipmentDemount/optionFree"
+msgstr "Gratuit"
+
+msgid "equipmentDemount/wotPlus"
+msgstr "WoT Plus"
+
+msgid "equipmentDemountFromSlot/confirmation/cancel"
+msgstr "Annuler"
+
+msgid "equipmentDemountFromSlot/confirmation/description"
+msgstr "Cette copie de l'équipement installée est un ensemble alternatif qui peut être retiré gratuitement."
+
+msgid "equipmentDemountFromSlot/confirmation/submit"
+msgstr "Retirer"
+
+msgid "equipmentDemountFromSlot/confirmation/title"
+msgstr "Retirer l'équipement %(equipment)s de cet emplacement ?"
+
+msgid "equipmentDemountFromSlot/confirmationForFitting/title"
+msgstr "Retirer %(equipment)s actuel pour installer le nouvel équipement ?"
+
+msgid "equipmentDemountPrice"
+msgstr "Coût de retrait :"
+
+msgid "equipmentInstall/demount"
+msgstr "%(count)s"
+
+msgid "equipmentInstall/demountNoKitOr"
+msgstr "%(count)s <br /> ou %(wotPlus)s"
+
+msgid "equipmentInstall/demountWithKit"
+msgstr "%(count)s ou %(countDK)s"
+
+msgid "equipmentInstall/demountWithKitOr"
+msgstr "%(count)s, %(countDK)s <br /> ou %(wotPlus)s"
+
+msgid "shop/DemountOptions/bonds"
+msgstr "Peut être retiré pour le vendre ou l'installer sur un autre véhicule contre %(count)s, ou être détruit."
+
+msgid "shop/DemountOptions/common"
+msgstr "Peut être retiré pour le vendre ou l'installer sur un autre véhicule contre %(count)s avec %(iconDK)s Kit de démantèlement, ou être détruit."
+
+msgid "storage/description/common"
+msgstr "Retire un équipement standard ou Équipement de prime. Consommé lors de l'activation."
+
+msgid "storage/userName/common"
+msgstr "Kit de démantèlement"
+
+msgid "tooltips:vehicle/action_prc"
+msgstr "Réduction : %(actionPrc)s ; prix précédent : %(oldPrice)s"
+
+msgid "userName/common"
+msgstr "Kit de démantèlement"

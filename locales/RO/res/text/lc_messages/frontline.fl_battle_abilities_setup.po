@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Aplică tuturor {{icon}} {{type}}"
+
+msgid "header/points"
+msgstr "Punctele rezervelor de luptă: {{value}}"
+
+msgid "header/title"
+msgstr "REZERVE DE LUPTĂ"
+
+msgid "infoPanel/category/firesupport"
+msgstr "Rezerve de atac"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "Rezervele de recunoaștere"
+
+msgid "infoPanel/category/tactics"
+msgstr "Rezervele tactice"
+
+msgid "infoPanel/category/title"
+msgstr "Categorie: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "În scenariul {{@ colorLegacy 'FFE4C0'}}Întoarcerea sorții{{/}}, cumpărarea unei rezerve de luptă îi va crește nivelul cu unu și va oferi oportunitatea de a-i crește nivelul la {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "infoPanel/description/unlocked"
+msgstr "În scenariul {{@ colorLegacy 'FFE4C0'}}Întoarcerea sorții{{/}}, șansa ca fiecare rezervă de luptă să fie amplasată în locaș înaintea apariției în luptă crește cu {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "infoPanel/level"
+msgstr "Nivel:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}}m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}}%"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}}%/s"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}}s"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "Rezerva de luptă nu a fost cumpărată"
+
+msgid "infoPanel/status/unlocked"
+msgstr "Rezerva de luptă a fost cumpărată"

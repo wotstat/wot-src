@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "Όνομα παίκτη"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "Ανά μήνα"
+
+msgid "ClanListWindow/table/role"
+msgstr "Θέση"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "Ανά εβδομάδα"
+
+msgid "battleQueue/clanPosition"
+msgstr "Θέση: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "Θέση:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "Αναζήτηση αντιπάλων:"
+
+msgid "battleQueue/waitBattle"
+msgstr "Αναμονή για μάχη:"
+
+msgid "battleQueue/yourTeam"
+msgstr "Το απόσπασμά σας:"
+
+msgid "disconnected/Warning"
+msgstr "Προσοχή!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "Το Οχυρό είναι προσωρινά μη διαθέσιμο. Προσπαθήστε ξανά αργότερα."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "Το Οχυρό δεν είναι διαθέσιμο σε περιαγωγή. Για να αποκτήσετε πρόσβαση στο οχυρό πηγαίνετε στην περιοχή σας."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "Μέλη του clan"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "Μισθοφόροι"
+
+msgid "fortVehPopover/btnSave"
+msgstr "Αποθήκευση της επιλογής (%(count)d)"
+
+msgid "inspire/inspired"
+msgstr "Με Έμπνευση"
+
+msgid "inspire/inspiring"
+msgstr "Δίνει Έμπνευση"
+
+msgid "mainWindow/maintenance/body"
+msgstr "Μας συγχωρείτε για την ταλαιπωρία."
+
+msgid "mainWindow/maintenance/button"
+msgstr "Ενημέρωση"
+
+msgid "mainWindow/maintenance/header"
+msgstr "Σφάλμα Φόρτωσης Δεδομένων"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "Πρόσθετη Ενημέρωση"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "Απολαβές Μάχης"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "Στρατιωτικοί Ελιγμοί"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "Εκπαίδευση στην Τακτική"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "Πρόσθετη Επίδραση"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "Δίνει διαταγή στο πυροβολικό να ρίξει πυρά στην επιλεγμένη περιοχή για μία μάχη σε Αψιμαχίες και Προωθήσεις"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "Βελτιώνει τα πληρώματα του ίδιου του οχήματος αλλά και των άλλων οχημάτων της ομάδας, μέσα σε μία καθορισμένη περιοχή, δίνοντας μπόνους στην κύρια ειδικότητα και τις ικανότητες του κάθε μέλους για μία μάχη, σε Αψιμαχίες και Προωθήσεις"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "Ένα Απόθεμα μπορεί να ενεργοποιηθεί πριν τη μάχη"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "Ένα Απόθεμα μπορεί να ενεργοποιηθεί πριν τη Προώθηση"
+
+msgid "reserves/tooltip/empty"
+msgstr "Δεν έχετε Αποθέματα για ενεργοποίηση"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s στην Αποθήκη"
+
+msgid "reserves/tooltip/level"
+msgstr "Βαθμίδα %(level)s"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "Επιδρά Όταν Χρησιμοποιηθεί"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "Μπορεί να επιλεχθεί"
+
+msgid "reserves/tooltip/selected"
+msgstr "Επιλέχθηκε"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "Κλικ για προβολή της λίστας με τα Αποθέματα που μπορείτε να επιλέξετε."
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "Ένα Απόθεμα μπορεί να επιλεχθεί από τον Αρχηγό Αποσπάσματος με βαθμό Αρχηγού, Υπαρχηγού, Προσωπάρχη ή Διοικητή Μάχης."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "Όχι αρκετά μέλη του clan στο απόσπασμα: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Εκκίνηση μάχης σε %(nextDate)s min"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "Η ώρα εκκίνησης θα οριστεί αργότερα"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "Λήξη μάχης σε %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "Διαθέσιμες Αψιμαχίες"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "Επερχόμενη μάχη στις %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Εκκίνηση μάχης σε %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "Η μάχη ξεκινάει σήμερα στις %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "Η μάχη ξεκινάει αύριο στις %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "Η ώρα εκκίνησης θα οριστεί αργότερα"
+
+msgid "sortie/introView/title"
+msgstr "Οχυρό: Μάχες"
+
+msgid "sortie/listView/enterBtn"
+msgstr "Ένταξη"
+
+msgid "sortie/listView/enterText"
+msgstr "Ένταξη στην ομάδα ως εθελοντής"
+
+msgid "sortie/listView/notSelected"
+msgstr "Επιλέξτε ένα απόσπασμα από την λίστα στα αριστερά\nγια να δείτε λεπτομερή περιγραφή."
+
+msgid "sortie/listView/teamMembers"
+msgstr "Θέσεις: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "Οχήματα:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "Μισθοφόρος"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "Αυτόματη εύρεση"
+
+msgid "sortie/room/candidates"
+msgstr "Εθελοντές"
+
+msgid "sortie/room/chat"
+msgstr "Κανάλι Συνομιλίας"
+
+msgid "sortie/room/description"
+msgstr "Τα αποσπάσματα που δημιουργήθηκαν λαμβάνουν μέρος σε μάχη με τυχαίο εχθρικό clan σε ουδέτερη περιοχή. Η βαθμίδα των οχημάτων καθορίζεται από την επιλεγμένη κατηγορία."
+
+msgid "sortie/room/fight"
+msgstr "Μάχη!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "Πρόσκληση Παικτών"
+
+msgid "sortie/room/leaveBtn"
+msgstr "ΣΥΓΚΡΟΤΗΣΗ ΑΠΟΣΠΑΣΜΑΤΩΝ"
+
+msgid "sortie/room/level"
+msgstr "Βαθμίδα %(level)s"
+
+msgid "sortie/room/members"
+msgstr "Μέλη: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "Όχι έτοιμος"
+
+msgid "sortie/room/ready"
+msgstr "Έτοιμος!"
+
+msgid "sortie/room/title"
+msgstr "Απόσπασμα"
+
+msgid "sortie/slot/emptySlot"
+msgstr "Κενή"
+
+msgid "sortie/slot/takePlace"
+msgstr "Λάβετε Θέση"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "Επιλέξτε ένα όχημα για συμμετοχή σε μάχη. Με κόκκινη σήμανση τα οχήματα που δεν είναι έτοιμα για μάχη."
+
+msgid "stronghold/teamHeader"
+msgstr "Μέλη Αποσπάσματος"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "Επιλογή Οχημάτων Μισθοφόρων"
+
+msgid "strongholdPopover/header"
+msgstr "Επιλογή Οχημάτων"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "Οχήματα:"
+
+msgid "strongholdbuilds/direction"
+msgstr "%(direction)s συμμαχικό προγεφύρωμα"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "Βόρειο"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "Ανατολικό"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "Νότιο"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "Δυτικό"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "Εχθρικό προγεφύρωμα"
+
+msgid "strongholdbuilds/mapName"
+msgstr "Χάρτης: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "Ο χάρτης θα επιλεχθεί μετά την έναρξη της Προώθησης"
+
+msgid "strongholdbuilds/point1"
+msgstr "Φρούριο"
+
+msgid "strongholdbuilds/point2"
+msgstr "Γραμμή Αποθεμάτων"
+
+msgid "strongholdbuilds/point3"
+msgstr "Πρώτη Γραμμή"
+
+msgid "strongholdbuilds/point4"
+msgstr "Πρώτη Γραμμή"
+
+msgid "strongholdbuilds/point5"
+msgstr "Γραμμή Αποθεμάτων"
+
+msgid "strongholdbuilds/point6"
+msgstr "Φρούριο"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "x%(reward)s για την πρώτη νίκη κάθε ημέρας σε Προωθήσεις στο συγκεκριμένο προγεφύρωμα"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "Για την υπεράσπιση του Φρουρίου με χαμένες και τις 2 γραμμές"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "Για την υπεράσπιση της Γραμμής Αποθεμάτων με χαμένη την Πρώτη Γραμμή"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "Για την υπεράσπιση και των 2 γραμμών χωρίς κατάληψη εχθρικών γραμμών"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "Για κατάληψη μόνο της Πρώτης Γραμμής"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "Για την κατάληψη και των 2 γραμμών χωρίς κατάληψη του Φρουρίου"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "Για την κατάληψη του εχθρικού Φρουρίου"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "από την Ανάκτηση Αποθέματος"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "Έπαθλα μετά την Προώθηση"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "Απόκρυψη Από Τους Μισθοφόρους"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "Εμφάνιση αποσπάσματος"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "Εμφάνιση Στους Μισθοφόρους"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "Απόκρυψη αποσπάσματος"
+
+msgid "strongholddirection/A"
+msgstr "Βόρειο"
+
+msgid "strongholddirection/B"
+msgstr "Ανατολικό"
+
+msgid "strongholddirection/C"
+msgstr "Νότιο"
+
+msgid "strongholddirection/D"
+msgstr "Δυτικό"
+
+msgid "strongholdinfo/sortie"
+msgstr "Αψιμαχία στην κατηγορία %(level)s"
+
+msgid "strongholdinfo/stronghold"
+msgstr "Προώθηση από το %(direction)s προγεφύρωμα"
+
+msgid "strongholdmap/randomMap"
+msgstr "Τυχαίος χάρτης"
+
+msgid "strongholdreserve/boost"
+msgstr "Έμπνευση"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "Μεταφορά Υψηλής Χωρητικότητας"
+
+msgid "strongholdreserve/requisition"
+msgstr "Ανάκτηση"
+
+msgid "strongholdreserve/support"
+msgstr "Μπαράζ Πυροβολικού"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "Σε Αψιμαχίες και Προωθήσεις, για 1 μάχη"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "Για τις επιδόσεις στην Προώθηση"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "Ενεργοποιείται στη αρχή μιας μάχης"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "Ενεργοποιείται στη αρχή μιας Προώθησης"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "Ενεργοποιείται όταν χρησιμοποιηθεί Απόθεμα σε μάχη"
+
+msgid "strongholdtable/rating"
+msgstr "Κατάταξη"
+
+msgid "strongholdtable/roster"
+msgstr "Ομάδα"
+
+msgid "strongholdtable/tech"
+msgstr "Οχήματα"
+
+msgid "strongholdtitle/sortie"
+msgstr "Αψιμαχία"
+
+msgid "strongholdtitle/stronghold"
+msgstr "Προώθηση από το %(direction)s προγεφύρωμα"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Σύνορο{/HEADER}{BODY}Ουδέτερη περιοχή. Ο νικητής θα επιτεθεί στη γραμμή του αντιπάλου στην επόμενη μάχη. Εάν η μάχη λήξει ισόπαλη, η επιτιθέμενη ομάδα θα επιλεχθεί τυχαία.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "Προώθηση από το %(direction)s προγεφύρωμα"
+
+msgid "strongholdtooltips/hours"
+msgstr "h"
+
+msgid "strongholdtooltips/minuts"
+msgstr "min"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "Αψιμαχία στην κατηγορία %(level)s"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Ο τύπος οχήματος που αυτομάτως ανατίθεται σε έναν μισθοφόρο αφού πατηθεί το κουμπί Μάχη!\n\nΕπικυρώστε ή ακυρώστε τον επιλεγμένο τύπο οχήματος για τους μισθοφόρους."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "Οι μισθοφόροι θα συμπληρώσουν αυτόματα τις κενές θέσεις"

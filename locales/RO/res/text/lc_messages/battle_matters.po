@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Proiect"
+
+msgid "animations/crew_close"
+msgstr "ÎNCHIDE"
+
+msgid "animations/shop"
+msgstr "Mergi la achiziție"
+
+msgid "battleMattersTab"
+msgstr "Academie militară"
+
+msgid "battleResults/descr"
+msgstr "Academia militară: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Spre misiunile Academiei militare"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Progresul în acestă luptă"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Anulează"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "ÎNCHIDE"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Confirmă"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Vei primi {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} cu echipaj și loc în Garaj."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Schimbi jetonul de Academie contra %(vehicleName)s?"
+
+msgid "entryPoint/hint"
+msgstr "O SERIE DE\nMISIUNI DE ANTRENAMENT"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Misiuni finalizate: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Academie militară"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Recompensă pentru finalizare:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Misiunile sunt temporar indisponibile din motive tehnice. Progresul misiunilor finalizate îți va fi salvat."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Toate misiunile finalizate"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Misiunile sunt momentan indisponibile"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Condiții:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Schimbă un jeton contra oricărui vehicul cercetabil de generația VI."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "ÎNAPOI"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "SPRE MISIUNILE ACADEMIEI MILITARE"
+
+msgid "mainRewardsScreen/done"
+msgstr "În Garaj"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Previzualizare"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Zile de închiriat: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Finalizează o serie de misiuni de antrenament pentru a obține trei vehicule premium de generația VIII de închiriat timp de {cream_Open}14 zile{cream_Close} ca recompensă principală."
+
+msgid "mainRewardsScreen/title"
+msgstr "ACADEMIA MILITARĂ"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Selectare"
+
+msgid "mainScreen/infoButton"
+msgstr "GHIDUL NOU-VENIȚILOR"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "GHID"
+
+msgid "mainScreen/list/arrow"
+msgstr "Clic pentru a merge la misiunea curentă."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Recompensa principală primită"
+
+msgid "mainScreen/progress"
+msgstr "Misiuni finalizate: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Cum se finalizează"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Finalizează misiunea anterioară"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Indisponibil"
+
+msgid "mainScreen/showMainReward"
+msgstr "Vezi recompensa principală"
+
+msgid "mainScreen/target"
+msgstr "Finalizează toate misiunile și obține trei vehicule de generația VIII de închiriat."
+
+msgid "mainScreen/title"
+msgstr "ACADEMIA MILITARĂ"
+
+msgid "pausedScreen/buttonText"
+msgstr "Spre Garaj"
+
+msgid "pausedScreen/description"
+msgstr "Academia militară e momentan indisponibilă din motive tehnice.Întreg progresul va fi salvat. Ne oferim scuze pentru deranj."
+
+msgid "pausedScreen/title"
+msgstr "Temporar indisponibil"
+
+msgid "rewards/additionalTitle"
+msgstr "Ai primit de asemenea:"
+
+msgid "rewards/footer/confirm"
+msgstr "Recepționat!"
+
+msgid "rewards/footer/more"
+msgstr "Încă: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Spre misiunea următoare"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Vezi în Garaj"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Condițiile misiunii au fost îndeplinite anterior"
+
+msgid "rewards/rent"
+msgstr "Zile de închiriat: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "MISIUNEA FINALĂ FINALIZATĂ"
+
+msgid "rewards/subTitle/regular"
+msgstr "MISIUNEA %(questNumber)s FINALIZATĂ"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "S-A OBȚINUT VEHICULUL CONTRA JETONUL ACADEMIEI"
+
+msgid "rewards/title"
+msgstr "ACADEMIA MILITARĂ"
+
+msgid "rewards/token/action"
+msgstr "Selectează vehiculul"
+
+msgid "rewards/token/description"
+msgstr "Folosește un jeton pentru a obține instantaneu orice vehicul de generația VI."
+
+msgid "rewards/token/title"
+msgstr "Schimbă un jeton al Academiei contra unui vehicul"
+
+msgid "tokenTooltip/condition"
+msgstr "Jetoanele se conferă pentru finalizarea cu succes a unei serii de misiuni de antrenament și a efectuării progresului necesar în Academia militară."
+
+msgid "tokenTooltip/description"
+msgstr "Jetoanele pot fi schimbate contra oricărui vehicul cercetabil de generația VI. Vehiculul vine cu echipaj și loc în Garaj."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Jeton disponibil: {cream_open}%(days)s z{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Jeton disponibil până la: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Jeton disponibil: {cream_open}%(hours)s h{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Jeton disponibil: {cream_open}%(minutes)s min{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Jetonul Academiei"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Vei primi un {cream_Open}%(crewIcon)s echipaj{cream_Close} și un {cream_Open}loc{cream_Close} în %(hangarIcon)s {cream_Open}Garaj{cream_Close} pe lângă vehiculul în sine."
+
+msgid "vehicleSelection/back"
+msgstr "ÎNAPOI"
+
+msgid "vehicleSelection/backTo"
+msgstr "SPRE MISIUNILE ACADEMIEI MILITARE"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Adaugă la comparare"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Configurează afișarea vehiculelor după tip și națiune."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Filtru după parametri"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Clic pentru a reseta filtrele la valoarea implicită."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Setare implicită"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Națiune"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Filtru după parametri"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Tip vehicul"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Nu s-a găsit nimic. Schimbă filtrele de căutare sau resetează-le la starea inițială."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Resetare filtru"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Ai cercetat toate vehiculele de generația VI care pot fi schimbate contra unui jeton al Academiei."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Niciun vehicul de selectat"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Caută după nume"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "Numele vehiculului nu poate conține peste %(maxLength)s caractere."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Căutare după nume"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Afișat:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Schimbă un jeton contra oricărui vehicul cercetabil de generația VI. Vehiculul vine cu\nechipaj și loc în Garaj."
+
+msgid "vehicleSelection/title"
+msgstr "Selectează orice vehicul cercetabil de generația VI"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Antitanc"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "SPG"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Tanc greu"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Tanc ușor"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Tanc mediu"

@@ -1,0 +1,236 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "banner/button"
+msgstr "A Boltba"
+
+msgid "banner/title"
+msgstr "Itt van Milo!"
+
+msgid "bannerTooltip/description"
+msgstr "Ünnepeld a World of Tanks 16. évfordulóját egy ünnepi utazással a játék legnépszerűbb helyszínei között! Teljesítsd a különleges évfordulós küldetéseket, fedezd fel az eseménytérképet, és szerezz értékes jutalmakat, köztük egy prémium járművet és egy 3D-kiegészítőkészletet!"
+
+msgid "bannerTooltip/status/active"
+msgstr "Az esemény végéig hátravan: {{timer}}"
+
+msgid "bannerTooltip/status/ended"
+msgstr "Az esemény már nem érhető el"
+
+msgid "bannerTooltip/status/suspended"
+msgstr "Az esemény átmenetileg nem érhető el"
+
+msgid "confirm"
+msgstr "Értettem!"
+
+msgid "introView/infoBlock/first/subtitle"
+msgstr "Teljesíts különleges küldetéseket, hogy üzemanyagot szerezz az eseménytérképen keresztül vezető utazásodhoz!"
+
+msgid "introView/infoBlock/first/title"
+msgstr "Tankolj fel az útra!"
+
+msgid "introView/infoBlock/second/subtitle"
+msgstr "Használd a kulcsokat, hogy hozzáférj a térkép új részeihez, és fedezd fel a World of Tanks legikonikusabb helyszínei mögött rejlő történeteket!"
+
+msgid "introView/infoBlock/second/title"
+msgstr "Fedezd fel a térképet!"
+
+msgid "introView/infoBlock/third/subtitle"
+msgstr "Az utazásaid során lehetőséged nyílik megszerezni az esemény két fő jutalmát – a VII-es szintű Chi-Go prémium közepes harckocsit és az Expedíciós alapfelszerelés 3D-kiegészítőkészletet –, továbbá megannyi más értékes játékbeli tárgyat."
+
+msgid "introView/infoBlock/third/title"
+msgstr "Szerezz jutalmakat!"
+
+msgid "keyTooltip/description"
+msgstr "A kulcsokkal feloldhatod a {{@ style (color $color)}}{{icon}}lezárt útvonalakat{{/}}. Gyűjtsd őket az utazásod során, és izgalmas új helyszínekhez férhetsz hozzá, amelyek értékes jutalmakat rejtenek!"
+
+msgid "lockToken/key1/name"
+msgstr "Kulcs"
+
+msgid "lockedTooltip/description"
+msgstr "A térképen található {{@ style (color $color)}}{{keyIcon}}kulcs{{/}} oldja fel."
+
+msgid "lockedTooltip/header"
+msgstr "Lezárt útvonal"
+
+msgid "lockedTooltip/unlocked"
+msgstr "Feloldva"
+
+msgid "longName"
+msgstr "Évfordulós utazás"
+
+msgid "longNameUpperCase"
+msgstr "ÉVFORDULÓS UTAZÁS"
+
+msgid "lore/description/Medium_02"
+msgstr "Régi, fából épített szélmalom tornyosul a végtelen mezők fölé. Bár törékenynek tűnhet, de a helyiek azt állítják, hogy az évek során több tüzérségi találatot élt túl, mint bármelyik közeli kőépület. A sziluettje már régóta tájékozódási pontként szolgál a madarak, az utazók, sőt még a vidék felett átrepülő pilóták számára is. A három barát megállt itt pihenni, és jó ideig vitatkoztak arról, mi a lenyűgözőbb: a szélmalom kora, vagy az a képessége, hogy ellenáll mindennek, ami körülötte történik.\n\n„Te is hallod a kutyát?”\n„Már tíz perce hallom.”\n„De hiszen nincs is itt senki.”\n„Talán valami helyi legenda?”\n„Meglehet. Vagy talán csak jobban tudja nálunk, hogy hová kell elbújni a tüzérségi támadások elől.”"
+
+msgid "lore/description/Medium_05"
+msgstr "A Pearl River volt az utazásuk utolsó állomása. Itt az idő mintha magától lelassult volna. A smaragdszínű domboldalak, a zuhogó vízesések, az ősi pagodák és a víz felett gomolygó köd élő festménnyé varázsolták a tájat. Még a csoport legbeszédesebb tagjai is elhallgattak egy időre, hogy magukba szívják a látványt. Az összes meglátogatott hely közül, itt gondoltak a legkevésbé a harckocsikra. A Pearl River emlékeztette őket arra, hogy néha a legértékesebb felfedezéseket nem a csatatéren, hanem az oda vezető úton teszik.\n\n„Mik azok a furcsa fák?”\n„Páfrányfenyők. Gyakran megtalálhatók templomok és pagodák közelében.”\n„Nem csoda, hogy ilyen gyönyörű itt a környék.”\n„Igen. Ez az első hely, ahol egyáltalán nem beszéltünk tankokról.”\n„Akkor ez a hely tényleg valami különleges...”"
+
+msgid "lore/description/Medium_16"
+msgstr "Régen ez a világítótorony vezette át a hajókat a veszélyes part menti sziklák között. Ma már másfajta utazókat szolgál. Azt mondják, hogy a harckocsizók mérföldekről is láthatják a fényét, és mindig magához vonzza a legkíváncsibb felderítőket. A helyiek azzal viccelődnek, hogy aki elsőként éri el a világítótornyot, az máris irányítása alatt tartja a part felét. Éppen ezért a három utazó tovább időzött itt, mint bárhol máshol. Túlságosan lélegzetelállító volt a kilátás a Cliff szívének tartott helyről ahhoz, hogy hátrahagyják.\n\n„Vicces, hogy a világítótorony mintha vonzaná a könnyű harckocsikat.”\n„És a szentjánosbogarakat is.”\n„Szóval ezért rohannak mindig ide elsőként. Valószínűleg azt hiszik, hogy ez a természetes élőhelyük.”"
+
+msgid "lore/description/Medium_21"
+msgstr "Az utazókat egy homokdűnék között megbúvó kisvárosba vezette az útjuk. A szél lustán fújt az elhagyatott utcákon, port sodorva az épületek között, és egy egykoron nyüzsgő város képét idézte fel. Most úgy tűnt, mintha valahol a múlt és a jelen között létezne: a terek, a sikátorok és a piacok az időben megdermedve álltak a végtelen sivatagi nap alatt. Itt nem volt ok a sietségre. Minden kanyar új kilátást tárt a szemük elé, és minden utca mintha azoknak az embereknek a történetét mesélte volna el, akik valamikor az otthonuknak nevezték ezt a helyet.\n\n„Tudod, hogy milyen színű álcázás bizonyult meglepően hatékonynak a sivatagban?”\n„A homokszínű?”\n„A rózsaszín.\n„A rózsaszín?”\n„Pontosan. Napkeltekor és napnyugtakor jobban beleolvadt a tájba, mint bárki is hitte volna.”\n„Tehát megannyi éven át alábecsültük a csillogás erejét...”"
+
+msgid "lore/name/Medium_02"
+msgstr "Malinovka: Az öreg szélmalom"
+
+msgid "lore/name/Medium_05"
+msgstr "Pearl River: A völgy"
+
+msgid "lore/name/Medium_16"
+msgstr "Cliff: A világítótorony"
+
+msgid "lore/name/Medium_21"
+msgstr "Sand River: A sivatagi város"
+
+msgid "loreTooltip/description"
+msgstr "Oldj fel egy különleges történetet, és megtudhatod, milyen érzések töltötték el a három utazót ezen a közkedvelt helyszínen!"
+
+msgid "loreTooltip/title"
+msgstr "Az utazás története"
+
+msgid "loreTooltip/unlocked"
+msgstr "Feloldva"
+
+msgid "lsm/mapView/backButton"
+msgstr "Az évfordulóhoz"
+
+msgid "lsm/mapView/title"
+msgstr "ÉVFORDULÓ"
+
+msgid "mainRewards/additionalRewardsHeader"
+msgstr "Ugyancsak megkaptad:"
+
+msgid "mainRewards/subTitle"
+msgstr "JUTALOM MEGSZEREZVE"
+
+msgid "mapView/completed"
+msgstr "Felfedezted a teljes térképet!"
+
+msgid "mapView/largeNode/customLabel/LARGE_02"
+msgstr "Expedíciós alapfelszerelés\n3D-kiegészítőkészlet"
+
+msgid "mapView/lockedPopover/button/unlock"
+msgstr "Feloldás"
+
+msgid "mapView/lockedPopover/title"
+msgstr "Az útvonal feloldása"
+
+msgid "mapView/navigation/attachment"
+msgstr "{{rarity}} 3D-kiegészítő"
+
+msgid "mapView/popover/button/explore"
+msgstr "Felfedezés"
+
+msgid "mapView/popover/button/toKey"
+msgstr "A kulcshoz"
+
+msgid "mapView/popover/keyAlert"
+msgstr "Egy kulcsra van szükséged, hogy továbbhaladhass ezen az útvonalon. A kulcsok a pálya különböző pontjain találhatók."
+
+msgid "mapView/popover/rewardTitle"
+msgstr "{{label}}: {{@ class $classCount}}{{count}}{{/}}"
+
+msgid "mapView/popover/subtitle"
+msgid_plural "plural/mapView/popover/subtitle"
+msgstr[0] "A jutalmak megszerzése {{@ class $classCount}}{{count}}{{/}} kiválasztott csomópontból:"
+msgstr[1] "A jutalmak megszerzése {{@ class $classCount}}{{count}}{{/}} kiválasztott csomópontból:"
+msgstr[2] "A jutalmak megszerzése {{@ class $classCount}}{{count}}{{/}} kiválasztott csomópontból:"
+
+msgid "mapView/popover/title"
+msgstr "Fedezd fel a térképet!"
+
+msgid "mapView/quests/header"
+msgstr "A küldetések naponta visszaállnak"
+
+msgid "mapView/quests/points"
+msgstr "+{{points}}{{icon}}"
+
+msgid "mapView/quests/progress"
+msgstr "{{current}} {{@ class $classProgressTotal}}/ {{total}}{{/}}"
+
+msgid "mapView/quests/questCompleted/header"
+msgstr "Minden mai küldetést teljesítettél!"
+
+msgid "mapView/quests/questCompleted/timer"
+msgstr "{{timer}} múlva új küldetések érkeznek"
+
+msgid "mapView/subtitle"
+msgstr "A térképet üzemanyag felhasználásával fedezheted fel, amit a napi bejelentkezésért és a küldetések teljesítéséért kaphatsz,\nvalamint a vadonatúj évfordulós háziállat Garázsodba való megvásárlásával szerezhetsz."
+
+msgid "mapView/timer"
+msgstr "Az esemény végéig hátralévő idő: {{timer}}"
+
+msgid "notifications/daily_reward/description"
+msgstr "Üzemanyag felhasználásával járhatod be a térképet az utazásod során."
+
+msgid "notifications/daily_reward/subtitle"
+msgstr "Megszerezted a napi jutalmakat!"
+
+msgid "preview"
+msgstr "Előnézet"
+
+msgid "rewardsTooltip/title/set"
+msgstr "Jutalmak"
+
+msgid "rewardsTooltip/title/single"
+msgstr "Jutalom"
+
+msgid "systemMessage/actionUnavailable/text"
+msgstr "A művelet átmenetileg nem érhető el. Próbálkozz újra később!"
+
+msgid "systemMessage/anniversaryPresent/header"
+msgstr "Évfordulós jutalom megszerezve:"
+
+msgid "systemMessage/available/text"
+msgstr "Az esemény újra elérhető."
+
+msgid "systemMessage/coinReceipt/header"
+msgstr "Nyugta"
+
+msgid "systemMessage/coinReceipt/text/add"
+msgstr "Évfordulós utazás üzemanyag hozzáadva"
+
+msgid "systemMessage/coinReceipt/text/draw"
+msgstr "Évfordulós utazás üzemanyag eltávolítva"
+
+msgid "systemMessage/disabled/text"
+msgstr "Az %(longName)s eseményt kikapcsoltuk."
+
+msgid "systemMessage/missionCompleted/header"
+msgstr "Küldetés teljesítve"
+
+msgid "systemMessage/missionCompleted/text"
+msgstr "Évfordulós utazás üzemanyag megszerezve"
+
+msgid "systemMessage/nodeUnlocked/header"
+msgstr "Gratulálunk!"
+
+msgid "systemMessage/nodeUnlocked/text"
+msgid_plural "plural/systemMessage/nodeUnlocked/text"
+msgstr[0] "Feloldottad az útvonalat, és elköltöttél <font color='#D6D7D4'>%(keysCount)s</font> kulcsot"
+msgstr[1] "Feloldottad az útvonalat, és elköltöttél <font color='#D6D7D4'>%(keysCount)s</font> kulcsot"
+msgstr[2] "Feloldottad az útvonalat, és elköltöttél <font color='#D6D7D4'>%(keysCount)s</font> kulcsot"
+
+msgid "systemMessage/nodeUnlocked/tman/text"
+msgstr "<font color='#8C8C7E'>Univerzális harckocsizó: </font><font color='#D6D7D4'>%(name)s</font>"
+
+msgid "systemMessage/nodesExplored/header"
+msgstr "Gratulálunk!"
+
+msgid "systemMessage/nodesExplored/text"
+msgid_plural "plural/systemMessage/nodesExplored/text"
+msgstr[0] "Felfedeztél %(nodesCount)s csomópontot, és ezt kaptad:\n%(bonuses)s"
+msgstr[1] "Felfedeztél %(nodesCount)s csomópontot, és ezt kaptad:\n%(bonuses)s"
+msgstr[2] "Felfedeztél %(nodesCount)s csomópontot, és ezt kaptad:\n%(bonuses)s"
+
+msgid "systemMessage/paused/text"
+msgstr "Az %(longName)s esemény technikai okok miatt nem érhető el."
+
+msgid "tokenTooltip/text"
+msgstr "Az utazásodhoz és a térkép bejárásához üzemanyagra van szükséged. Üzemanyagot a napi bejelentkezéssel és a küldetések teljesítésével szerezhetsz, valamint ha megvásárolod a Garázsodba a vadonatúj évfordulós háziállatot."

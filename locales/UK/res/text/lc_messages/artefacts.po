@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "actionStub/name"
+msgstr "Модифікація"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "Миттєво відновлює %(immediatelyRestore)s від загальної міцності техніки. Протягом %(duration)s с дії вміння вся шкода, отримана від снарядів і бойових умінь, накопичуватиметься. Коли час спливе, вона конвертується в очки міцності плюс %(restoringCoefficient)s від отриманої шкоди додатково.\n\n*Відновлення міцності впливає і на техніку союзників поблизу."
+
+msgid "adaptationHealthRestore/descr"
+msgstr "Миттєво відновлює %(immediatelyRestore)s від загальної міцності техніки. Протягом %(duration)s с дії вміння вся шкода, отримана від снарядів і бойових умінь, накопичуватиметься. Коли час спливе, вона конвертується в очки міцності плюс %(restoringCoefficient)s від отриманої шкоди додатково.\n\n*Відновлення міцності впливає і на техніку союзників поблизу."
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "Миттєво {green_Open}відновлює %(immediatelyRestore)s{green_Close} від загальної міцності техніки. Протягом {whiteSpanish_Open}%(duration)s с{whiteSpanish_Close} дії вміння вся шкода, отримана від снарядів і бойових умінь, накопичуватиметься. Коли час спливе, вона конвертується в очки міцності плюс {green_Open}%(restoringCoefficient)s від отриманої шкоди додатково{green_Close}.\n\n*Відновлення міцності впливає і на техніку союзників поблизу."
+
+msgid "adaptationHealthRestore/name"
+msgstr "Адаптивна броня"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "Миттєво {green_Open}відновлює %(immediatelyRestore)s{green_Close} від загальної міцності техніки. Протягом {whiteSpanish_Open}%(duration)s с{whiteSpanish_Close} дії вміння вся шкода, отримана від снарядів і бойових умінь, накопичуватиметься. Коли час спливе, вона конвертується в очки міцності плюс {green_Open}%(restoringCoefficient)s від отриманої шкоди додатково{green_Close}.\n\n*Відновлення міцності впливає і на техніку союзників поблизу."
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s до скритості як нерухомої машини, так і рухомої із встановленим обладнанням «Малошумна система вихлопу» (будь-якого класу) або «Трофейна система вихлопу»."
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2 %"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2 %"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "Витрачається за 1 бій. Збільшує ефект обладнання «Малошумна система вихлопу» чи «Трофейна система вихлопу». Настанова діє лише із встановленим обладнанням відповідного типу."
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "Азбестова обмотка"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "Збільшує скритість нерухомої та рухомої машини"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "Ефективність залежить від типу техніки. Збільшує скритість як нерухомої, так і рухомої машини. Корисно для активної розвідки, а також для пасивного спостереження з ризикованіших позицій."
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "Малошумна система вихлопу"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "Збільшує скритість нерухомої та рухомої машини."
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "Малошумна система вихлопу (Клас 1)"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "Малошумна система вихлопу (Клас 2)"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "Малошумна система вихлопу (Клас 3)"
+
+msgid "additional_armor_plates_1/name"
+msgstr "Додаткові бронепластини (Тип 1)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "Додаткові бронепластини (Тип 2)"
+
+msgid "afterburning/descr"
+msgstr "На короткий час значно збільшує швидкість та поліпшує динаміку розгону."
+
+msgid "afterburning/name"
+msgstr "Турбонагнітач"
+
+msgid "aimingStabilizer/long_special"
+msgstr "Зменшення розкиду — важливий фактор, адже чим меншим буде початковий розкид гармати, тим з меншого за діаметром кола почнеться зведення, тобто воно відбуватиметься швидше. Крім того, «завчасний» постріл (постріл без зведення або на ходу) також буде точнішим."
+
+msgid "aimingStabilizer/name"
+msgstr "Стабілізатор вертикальної наводки"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s від розкиду після пострілу, під час руху й повороту башти з встановленим обладнанням «Стабілізатор вертикальної наводки», «Комплекс стабілізаційного обладнання» чи «Трофейний стабілізатор»."
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5 %"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5 %"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "Витрачається за 1 бій. Посилює ефект обладнання «Стабілізатор вертикальної наводки» (будь-якого класу), «Комплекс стабілізаційного обладнання» та «Трофейний стабілізатор». Коли встановлюється настанова, це обладнання має бути на техніці, інакше настанова не працюватиме."
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "Змазування стабілізаторів"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "Посилює ефект від стабілізатора"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "Стабілізатор вертикальної наводки (Клас 1)"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "Стабілізатор вертикальної наводки (Клас 2)"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "Стабілізатор вертикальної наводки (Клас 1)"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "Стабілізатор вертикальної наводки (Клас 2)"
+
+msgid "antifragmentationLining/long_special"
+msgstr "Абсорбція — поглинання; простіше кажучи, підбій зменшує шкоду від зіткнень з іншою технікою та від влучень у машину осколково-фугасних снарядів. Підбій стане в пригоді на важких танках ближнього бою з міцною бронею та потужним таранним потенціалом."
+
+msgid "antifragmentationLining/name"
+msgstr "Протиосколковий підбій"
+
+msgid "antifragmentationLining/short_special"
+msgstr "Захищає від ОФ снарядів, тарана, поранень й оглушення"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "Надважкий протиосколковий підбій"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "Важкий протиосколковий підбій"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "Середній протиосколковий підбій"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "Легкий протиосколковий підбій"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "Система вихлопу"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "Стабілізатор"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "Протиосколковий підбій"
+
+msgid "archetype/camouflageNet/name"
+msgstr "Маскувальна сітка"
+
+msgid "archetype/coatedOptics/name"
+msgstr "Оптика"
+
+msgid "archetype/commandersView/name"
+msgstr "Оглядовий прилад"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "Механізми наводки"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "Загартування"
+
+msgid "archetype/grousers/name"
+msgstr "Ґрунтозачепи"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "Компонування"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "Радіообладнання"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "Механізми повороту"
+
+msgid "archetype/improvedSights/name"
+msgstr "Приціл"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "Вентиляція"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "Система керування вогнем"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "Комплекс поліпшення живучості"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "Система підвищення влучності"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "Система підвищення мобільності"
+
+msgid "archetype/stereoscope/name"
+msgstr "Стереотруба"
+
+msgid "archetype/tankRammer/name"
+msgstr "Досилач"
+
+msgid "archetype/template"
+msgstr "Обладнання категорії «%(name)s»"
+
+msgid "archetype/turbocharger/name"
+msgstr "Турбонагнітач"
+
+msgid "artillery/longDescr"
+msgstr "Артилерійська батарея здійснює залп осколково-фугасними снарядами по невеликій області. Техніка в центрі зони ураження зазнає значних пошкоджень. Особливо ефективний проти важкоброньованої техніки."
+
+msgid "artillery/name"
+msgstr "Артобстріл"
+
+msgid "artillery/shortDescr"
+msgstr "Завдає значної шкоди техніці супротивника в невеликому радіусі."
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s від імовірності займання двигуна"
+
+msgid "autoExtinguishers/descr"
+msgstr "Автоматично гасить пожежу у власній машині."
+
+msgid "autoExtinguishers/long_special"
+msgstr "Автоматично гасить загоряння. Також пасивно зменшує шанс загоряння. Не вимагає ручної активації. Пасує до всіх типів техніки будь-якої нації."
+
+msgid "autoExtinguishers/name"
+msgstr "Автоматичний вогнегасник"
+
+msgid "autoExtinguishers/onUse"
+msgstr "Автоматично гасить пожежу у власній машині. Використовується багаторазово за бій. Спорядження списують після бою, якщо його хоч раз застосували."
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "Автоматично гасить пожежу"
+
+msgid "berserker/battleDescr"
+msgstr "Збільшує пробиття й скорострільність у %(gunPiercing)s разів, а також ефективність і стабілізацію механізму наводки на %(gunAimingTime)s, але забирає %(healthDebuff)s від загальної кількості очок міцності вашої техніки на %(duration)s с, протягом яких діє вміння.\n\n*Шкода, заподіяна вмінням «Берсерк», не може знищити вашу техніку."
+
+msgid "berserker/descr"
+msgstr "Збільшує пробиття й скорострільність у %(gunPiercing)s р., а також ефективність і стабілізацію механізму наводки на %(gunAimingTime)s, але забирає %(healthDebuff)s від загальної кількості очок міцності вашої техніки на час дії в %(duration)s с.\n\n*Шкода, заподіяна вмінням «Берсерк», не може знищити вашу техніку."
+
+msgid "berserker/longDescr"
+msgstr "Збільшує пробиття й скорострільність {green_Open}у %(gunPiercing)s р.{green_Close}, а також поліпшує ефективність і стабілізацію гармати {green_Open}на %(gunAimingTime)s{green_Close}, але забирає {red_Open}%(healthDebuff)s{red_Close} від загальної кількості очок міцності вашої техніки на час дії в {whiteSpanish_Open}%(duration)s с{whiteSpanish_Close}.\n\n*Шкода, заподіяна вмінням «Берсерк», не може знищити вашу техніку."
+
+msgid "berserker/name"
+msgstr "Берсерк"
+
+msgid "berserker/shortDescr"
+msgstr "Збільшує пробиття й скорострільність {green_Open}у %(gunPiercing)s р.{green_Close}, а також поліпшує ефективність і стабілізацію гармати {green_Open}на %(gunAimingTime)s{green_Close}, але забирає {red_Open}%(healthDebuff)s{red_Close} від загальної кількості очок міцності вашої техніки на час дії в {whiteSpanish_Open}%(duration)s с{whiteSpanish_Close}.\n\n*Шкода, заподіяна вмінням «Берсерк», не може знищити вашу техніку."
+
+msgid "blackout_headlights_1/name"
+msgstr "Світломаскування фар (Тип 1)"
+
+msgid "bomber/longDescr"
+msgstr "Бомбардувальник здійснює удар по вказаній зоні, завдаючи шкоди техніці супротивника й оглушаючи її екіпажі. Техніка в центрі зони ураження зазнає значних пошкоджень. Особливо ефективний проти легко- та середньоброньованої техніки."
+
+msgid "bomber/name"
+msgstr "Авіаудар"
+
+msgid "bomber/shortDescr"
+msgstr "Завдає середньої шкоди техніці супротивника у значному радіусі й оглушує її."
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "Поступово відновлює %(healPerTickDuration)s од. міцності техніки протягом %(duration)s с. Переривається отриманням шкоди."
+
+msgid "brRegenerationKit/descr"
+msgstr "Поступово відновлює %(healPerTickDuration)s од. міцності техніки протягом %(duration)s с. Переривається отриманням шкоди."
+
+msgid "brRegenerationKit/long_special"
+msgstr "Поступово {green_Open}відновлює %(healPerTickDuration)s{green_Close} од. міцності техніки {whiteSpanish_Open}протягом %(duration)s с.{whiteSpanish_Close} Переривається отриманням шкоди."
+
+msgid "brRegenerationKit/name"
+msgstr "Відновлення"
+
+msgid "brRegenerationKit/short_special"
+msgstr "Поступово {green_Open}відновлює %(healPerTickDuration)s{green_Close} од. міцності техніки {whiteSpanish_Open}протягом %(duration)s с.{whiteSpanish_Close} Переривається отриманням шкоди."
+
+msgid "brRepairkit/descr"
+msgstr "Ремонтує модулі й усуває негативні ефекти."
+
+msgid "brRepairkit/long_special"
+msgstr "Ремонтує модулі й усуває негативні ефекти."
+
+msgid "brRepairkit/name"
+msgstr "Ремкомплект"
+
+msgid "brRepairkit/short_special"
+msgstr "Ремонтує модулі й усуває негативні ефекти."
+
+msgid "br_bomber/battleDescr"
+msgstr "Оглушує й заподіює від %(minDamage)s до %(maxDamage)s од. шкоди техніці супротивника. Техніка в центрі зони ураження зазнає більших пошкоджень.\n\n*Спрацьовує із затримкою в %(delay)s с."
+
+msgid "br_bomber/descr"
+msgstr "Оглушує й заподіює від %(minDamage)s до %(maxDamage)s од. шкоди техніці супротивника. Техніка в центрі зони ураження зазнає більших пошкоджень.\n\n*Спрацьовує із затримкою в %(delay)s с."
+
+msgid "br_bomber/longDescr"
+msgstr "Оглушує й завдає {whiteSpanish_Open}від %(minDamage)s до %(maxDamage)s од. шкоди{whiteSpanish_Close} техніці супротивника. Техніка в центрі зони ураження зазнає більших пошкоджень.\n\n*Спрацьовує із затримкою в %(delay)s с."
+
+msgid "br_bomber/name"
+msgstr "Авіаудар"
+
+msgid "br_bomber/shortDescr"
+msgstr "Оглушує й завдає {whiteSpanish_Open}від %(minDamage)s до %(maxDamage)s од. шкоди{whiteSpanish_Close} техніці супротивника. Техніка в центрі зони ураження зазнає більших пошкоджень.\n\n*Спрацьовує із затримкою в %(delay)s с."
+
+msgid "br_minefield/battleDescr"
+msgstr "Розміщує в зазначеній області мінне поле на %(duration)s с. Натрапивши на нього, техніка супротивника зазнає шкоди від вибуху, а її екіпаж буде оглушено.\n\n*Міни можна знищувати пострілами. Міни, розміщені прямо під танками суперника, НЕ вибухнуть."
+
+msgid "br_minefield/descr"
+msgstr "Розміщує в зазначеній області мінне поле на %(duration)s с. Натрапивши на нього, техніка супротивника зазнає шкоди від вибуху, а її екіпаж буде оглушено.\n\n*Міни можна знищувати пострілами. Міни, розміщені прямо під танками суперника, НЕ вибухнуть."
+
+msgid "br_minefield/longDescr"
+msgstr "Розміщує в зазначеній області мінне поле {whiteSpanish_Open}на %(duration)s с{whiteSpanish_Close}. Натрапивши на нього, техніка супротивника зазнає шкоди від вибуху, а її екіпаж буде оглушено.\n\n*Міни можна знищувати пострілами. Міни, розміщені прямо під танками суперника, НЕ вибухнуть."
+
+msgid "br_minefield/name"
+msgstr "Мінне поле"
+
+msgid "br_minefield/shortDescr"
+msgstr "Розміщує в зазначеній області мінне поле {whiteSpanish_Open}на %(duration)s с{whiteSpanish_Close}. Натрапивши на нього, техніка супротивника зазнає шкоди від вибуху, а її екіпаж буде оглушено.\n\n*Міни можна знищувати пострілами. Міни, розміщені прямо під танками суперника, НЕ вибухнуть."
+
+msgid "br_respawn/name"
+msgstr "Відродження"
+
+msgid "br_respawn/platoon/descr"
+msgstr "Дає змогу повернутися до бою після того, як ваша машина була знищена. Механіка діє протягом перших %(duration)s хв битви.\n\nЩоб відродити союзника, не вступайте в бій протягом %(timeToResurrect)s с. Для взводу заряд Відродження загальний."
+
+msgid "br_respawn/solo/descr"
+msgstr "Дає змогу повернутися до бою після того, як ваша машина була знищена. Механіка діє протягом перших %(duration)s хв битви.\n\nВідродження відбувається автоматично після знищення техніки."
+
+msgid "br_smoke/battleDescr"
+msgstr "На %(duration)s секунд додає бонус до маскування всій техніці, що потрапила в зону дії."
+
+msgid "br_smoke/descr"
+msgstr "Додає бонус до маскування всій техніці, що потрапила в зону дії."
+
+msgid "br_smoke/longDescr"
+msgstr "На %(duration)s секунд додає бонус до маскування всій техніці, що потрапила в зону дії."
+
+msgid "br_smoke/name"
+msgstr "Димова завіса"
+
+msgid "br_smoke/shortDescr"
+msgstr "Додає бонус до маскування всій техніці, що потрапила в зону дії."
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "Дає бонус до маскування всій техніці в області дії, а також завдає шкоди ВСІЙ техніці в цій же області в розмірі %(damagePerTick)s від загальної кількості її очок міцності за секунду. Триває %(duration)s с.\n\n*Кородувальна хмара не перериває збір здобичі й не може знищити танк, залишаючи тому щонайменше 1 од. міцності."
+
+msgid "br_smoke_with_damage/descr"
+msgstr "Дає бонус до маскування всій техніці в області дії, а також завдає шкоди ВСІЙ техніці в цій же області в розмірі %(damagePerTick)s від загальної кількості її очок міцності за секунду. Триває %(duration)s с.\n\n*Кородувальна хмара не перериває збір здобичі й не може знищити танк, залишаючи тому щонайменше 1 од. міцності."
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "Дає бонус до маскування всій техніці в області дії, а також завдає шкоди ВСІЙ техніці в цій же області {whiteSpanish_Open}в розмірі %(damagePerTick)s{whiteSpanish_Close} від загальної кількості її очок міцності за секунду. Триває {whiteSpanish_Open}%(duration)s с.{whiteSpanish_Close}\n\n*Кородувальна хмара не перериває збір здобичі й не може знищити танк, залишаючи тому щонайменше 1 од. міцності."
+
+msgid "br_smoke_with_damage/name"
+msgstr "Кородувальна хмара"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "Дає бонус до маскування всій техніці в області дії, а також завдає шкоди ВСІЙ техніці в цій же області {whiteSpanish_Open}в розмірі %(damagePerTick)s{whiteSpanish_Close} від загальної кількості її очок міцності за секунду. Триває {whiteSpanish_Open}%(duration)s с.{whiteSpanish_Close}\n\n*Кородувальна хмара не перериває збір здобичі й не може знищити танк, залишаючи тому щонайменше 1 од. міцності."
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s до швидкості ремонту модулів"
+
+msgid "builtinRepairkit/long_special"
+msgstr "Дозволяє відновити всі пошкоджені модулі одразу. Також пасивно збільшує швидкість ремонту. Вимагає ручної активації. Пасує до визначної техніки."
+
+msgid "builtinRepairkit/name"
+msgstr "Загальний великий ремкомплект"
+
+msgid "builtinRepairkit/onUse"
+msgstr "Ремонтує всі пошкоджені модулі. Використовується багаторазово за бій. Не витрачається. \nЦе спорядження не можна прибрати, але можна перепризначити в інший слот."
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "Дає додаткові 10% до маскування машини"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "Дає 100%-ву навичку «Маскування» всьому екіпажу"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "Навичка «Маскування» збільшує скритість як рухомої, так і нерухомої машини. Витрачається за один бій. Якщо навичку вивчено, то встановлена передбойова настанова посилює її дію. За відсутності відповідної навички — повністю її заміняє."
+
+msgid "camouflageBattleBooster/name"
+msgstr "Природні укриття"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "Дає вивчену на 100% навичку «Маскування» або посилює її"
+
+msgid "camouflageNet/battleDescr"
+msgstr "Збільшує скритість нерухомої машини через 3 с після зупинки"
+
+msgid "camouflageNet/long_special"
+msgstr "Ефективність залежить від типу техніки. Сітка корисна для малопомітних машин: САУ та ПТ-САУ з низьким силуетом. Вона посилює дію навички «Маскування», тому ліпше застосовувати їх разом. Активується на нерухомій машині за 3 секунди після зупинки."
+
+msgid "camouflageNet/name"
+msgstr "Маскувальна сітка"
+
+msgid "camouflageNet/short_special"
+msgstr "Збільшує скритість нерухомої машини"
+
+msgid "camouflageNet_tier2/name"
+msgstr "Маскувальна сітка (Клас 2)"
+
+msgid "camouflageNet_tier3/name"
+msgstr "Маскувальна сітка (Клас 3)"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} до бонусу ефективності екіпажу на один бій."
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} до бонусу ефективності екіпажу."
+
+msgid "chocolate/long_special"
+msgstr "Автоматично активується з початком бою та діє протягом всього бою. Пасує лише до техніки Німеччини."
+
+msgid "chocolate/name"
+msgstr "Шоколад"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "Лише для техніки Німеччини."
+
+msgid "chocolate/short_special"
+msgstr "Підвищує ефективність німецьких екіпажів"
+
+msgid "clingBrander/battleDescr"
+msgstr "Викликає автономний танк, оснащений системою «свій-чужий», який переслідуватиме й атакуватиме найближчого супротивника. Атака може тривати до %(botLifeTime)s с поспіль.\n\n*Танк можна знищити."
+
+msgid "clingBrander/descr"
+msgstr "Викликає автономний танк, оснащений системою «свій-чужий», який переслідуватиме й атакуватиме найближчого супротивника. Атака може тривати до %(botLifeTime)s с поспіль.\n\n*Танк можна знищити."
+
+msgid "clingBrander/longDescr"
+msgstr "Викликає автономний танк, оснащений системою «свій-чужий», який переслідуватиме й атакуватиме найближчого супротивника. Атака може тривати {whiteSpanish_Open}до %(botLifeTime)s с.{whiteSpanish_Close}\n\n*Танк можна знищити."
+
+msgid "clingBrander/name"
+msgstr "Бойовий робот"
+
+msgid "clingBrander/shortDescr"
+msgstr "Викликає автономний танк, оснащений системою «свій-чужий», який переслідуватиме й атакуватиме найближчого супротивника. Атака може тривати {whiteSpanish_Open}до %(botLifeTime)s с.{whiteSpanish_Close}\n\n*Танк можна знищити."
+
+msgid "clutches_replace_1/name"
+msgstr "Заміна фрикціонів (Тип 1)"
+
+msgid "clutches_replace_2/name"
+msgstr "Заміна фрикціонів (Тип 2)"
+
+msgid "coatedOptics/long_special"
+msgstr "На відміну від стереотруби, просвітлена оптика (будь-якого типу) дає меншу надбавку, але працює постійно, а не лише після зупинки машини. Тому така оптика потрібна машинам, які активно діють на полі бою, насамперед — легким і середнім танкам."
+
+msgid "coatedOptics/name"
+msgstr "Просвітлена оптика"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s до радіусу огляду, але не більше ніж 445 м, за умови встановленого обладнання «Просвітлена оптика» (будь-якого класу), «Юстована оптика» чи «Трофейна оптика»."
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2,5 %"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2,5 %"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "Витрачається за 1 бій. Збільшує ефект обладнання «Просвітлена оптика», «Юстована оптика» чи «Трофейна оптика». Під час встановлення настанови це обладнання має бути на техніці, інакше настанова не працюватиме."
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "Калібрування оптики"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "Посилює ефект від оптики"
+
+msgid "coatedOptics_tier1/name"
+msgstr "Просвітлена оптика (Клас 1)"
+
+msgid "coatedOptics_tier2/name"
+msgstr "Просвітлена оптика (Клас 2)"
+
+msgid "coatedOptics_tier3/name"
+msgstr "Просвітлена оптика (Клас 3)"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} до бонусу ефективності екіпажу на один бій."
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} до бонусу ефективності екіпажу."
+
+msgid "cocacola/long_special"
+msgstr "Автоматично активується з початком бою та діє протягом всього бою. Пасує лише до техніки США."
+
+msgid "cocacola/name"
+msgstr "Ящик Коли"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "Лише для техніки США."
+
+msgid "cocacola/short_special"
+msgstr "Підвищує ефективність американських екіпажів"
+
+msgid "commandersView/long_special"
+msgstr "Зменшує скритість супротивника, який рухається, та маскувальні коефіцієнти рослинності під час вистежування цілі. Дає змогу з більшої дистанції виявляти рухомі цілі й ефективніше виявляти супротивника, скритого кущами чи поваленим деревом."
+
+msgid "commandersView/name"
+msgstr "Командирський оглядовий прилад"
+
+msgid "commandersView/short_special"
+msgstr "Зменшує скритість супротивника, що рухається та перебуває за рослинністю"
+
+msgid "corrodingShot/battleDescr"
+msgstr "Додає снаряду їдких властивостей, збільшуючи його пробиття й потенційну шкоду. У випадку враження техніки супротивника снаряд спричиняє тимчасовий ефект, що забирає до %(damagePerDotEffectDuration)s міцності машини протягом %(dotEffectDuration)s с.\n\n*Негативний ефект можна усунути за допомогою ремкомплекту."
+
+msgid "corrodingShot/descr"
+msgstr "Додає снаряду їдких властивостей, збільшуючи його пробиття й потенційну шкоду. У випадку ураження техніки супротивника снаряд спричиняє тимчасовий ефект, що забирає до %(damagePerDotEffectDuration)s міцності машини протягом %(dotEffectDuration)s с.\n\n*Негативний ефект можна усунути за допомогою ремкомплекту."
+
+msgid "corrodingShot/longDescr"
+msgstr "Додає снаряду їдких властивостей, збільшуючи його пробиття й потенційну шкоду. У разі враження техніки супротивника снаряд спричиняє тимчасовий ефект, що забирає {whiteSpanish_Open}до %(damagePerDotEffectDuration)s{whiteSpanish_Close} міцності машини {whiteSpanish_Open}протягом %(dotEffectDuration)s с{whiteSpanish_Close}.\n\n*Негативний ефект можна усунути за допомогою ремкомплекту."
+
+msgid "corrodingShot/name"
+msgstr "Кислотний снаряд"
+
+msgid "corrodingShot/shortDescr"
+msgstr "Додає снаряду їдких властивостей, збільшуючи його пробиття й потенційну шкоду. У разі враження техніки супротивника снаряд спричиняє тимчасовий ефект, що забирає {whiteSpanish_Open}до %(damagePerDotEffectDuration)s{whiteSpanish_Close} міцності машини {whiteSpanish_Open}протягом %(dotEffectDuration)s с{whiteSpanish_Close}.\n\n*Негативний ефект можна усунути за допомогою ремкомплекту."
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "Поліпшує"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "Особливість командира"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} «{name}»"
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "навичку"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "Дає"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "навичку"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "Удосконалена версія стабілізатора вертикальної наводки ({colorTagOpen}–20%{colorTagClose} від розкиду після пострілу, під час руху та повороту башти), має сильніший ефект: {colorTagOpen}–27,5%{colorTagClose} від розкиду під час руху й обертання башти. Пасує до всіх націй і певних типів техніки, можна демонтувати лише за бони."
+
+msgid "deluxAimingStabilizer/name"
+msgstr "Комплекс стабілізаційного обладнання"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "Удосконалена версія просвітленої оптики ({colorTagOpen}+10 %{colorTagClose} до радіуса огляду), має сильніший ефект: {colorTagOpen}+13,5 %{colorTagClose} до радіуса огляду. Пасує до всіх націй і типів техніки, можна демонтувати лише за бони."
+
+msgid "deluxCoatedOptics/name"
+msgstr "Юстована оптика"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "Удосконалена версія посилених механізмів наводки ({colorTagOpen}+10 %{colorTagClose} до швидкості зведення), має сильніший ефект: {colorTagOpen}+13,5 %{colorTagClose} до швидкості зведення. Пасують до всіх націй і типів техніки, можна демонтувати лише за бони."
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "Зносостійкі механізми наводки"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "Аналог «Зміненого компонування», дає більший ефект. Пасує до всіх націй і типів техніки, можна демонтувати лише за бони."
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "Удосконалене компонування"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "Пришвидшує ремонт, захищає боєукладку, баки та двигун"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "Удосконалена версія Вентиляції ({colorTagOpen}+5%{colorTagClose}до бонусу ефективності екіпажу), має більший ефект: {colorTagOpen}+8,5%{colorTagClose} до ефективності екіпажу. Підходить для всіх націй і типів техніки. Демонтується тільки за бони."
+
+msgid "deluxImprovedVentilation/name"
+msgstr "Система відведення порохових газів"
+
+msgid "deluxRammer/long_special"
+msgstr "Удосконалена версія досилача ({colorTagOpen}–10 %{colorTagClose} від часу заряджання), має сильніший ефект: {colorTagOpen}–13,5 %{colorTagClose} від часу заряджання. Пасує до всіх націй і типів техніки, можна демонтувати лише за бони."
+
+msgid "deluxRammer/name"
+msgstr "Експериментальна система заряджання"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "Поліпшена версія обладнання «Малошумна система вихлопу», що дає кращий ефект: підвищує маскування як на місця, так і під час руху. Корисно для активної розвідки, а також для пасивного виявлення супротивника з небезпечних позицій.\nОбладнання можна встановлювати на техніку всіх класів і націй, однак ефективність залежить від типу машини. Демонтується лише за бони."
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "Закрита система вихлопу"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "Поліпшує маскування машини під час руху чи на місці на {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose}"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "Збільшує скритість нерухомої машини через 1,5 с після зупинки"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "Поліпшений варіант маскувальної сітки, ефективність якої залежить від типу техніки. Корисна для малопомітних машин: САУ й ПТ-САУ з низьким силуетом. Посилює дію навички «Маскування», тому ліпше застосовувати їх разом. Активується на нерухомій машині за 1,5 с після зупинки."
+
+msgid "deluxeCamouflageNet/name"
+msgstr "Тактична маскувальна система"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17,5{colorTagClose}/{colorTagOpen}12,5{colorTagClose}/{colorTagOpen}7,5%{colorTagClose} до маскування нерухомої машини"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "Повністю відновлює міцність шасі після ремонту."
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "Відновлює шасі після ремонту."
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "Удосконалена версія Поліпшеного загартування, має більший ефект: {colorTagOpen}+12,5%{colorTagClose} до запасу міцності машини, {colorTagOpen}+75%{colorTagClose} до міцності шасі, {colorTagOpen}+30%{colorTagClose} до швидкості ремонту шасі, {colorTagOpen}–75%{colorTagClose} від шкоди, яку отримує корпус через пошкодження шасі в разі падіння. Також дає змогу повністю відновити міцність шасі після ремонту. Зменшує шанс знищення гусениці, якщо вона зазнала шкоди, та дозволяє довше залишатися на ходу. Пасує до всіх націй і типів техніки (крім САУ), можна демонтувати лише за бони."
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "Збільшена снарядостійкість"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "Збільшує міцність машини й захищає шасі."
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "Удосконалена версія механізмів повороту, має більший ефект: {colorTagOpen}+17,5% {colorTagClose}до швидкості горизонтального наведення, {colorTagOpen}+17,5% {colorTagClose}до швидкості повороту ходової, {colorTagOpen}-17,5% {colorTagClose}від розкиду під час руху та поворотів. Підходить до всіх націй та типів техніки, може бути демонтована лише за бони."
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "Удосконалена бортова передача"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "Збільшує швидкість повороту та зменшує розкид гармати під час руху та поворотів"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "Удосконалена версія Поліпшеного прицілу має більший ефект: зменшує розмір кола зведення як для повністю зведеної гармати, так і в процесі зведення на {colorTagOpen}9%{colorTagClose}. У результаті постріл буде точнішим. Підходить для всіх націй і типів техніки, окрім САУ. Демонтується тільки за бони."
+
+msgid "deluxeImprovedSights/name"
+msgstr "Експериментальний приціл"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "Зменшує розкид гармати"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "Збільшує огляд нерухомої машини через 1,5 с після зупинки, але не більше за 445 метрів"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "Поліпшений варіант стереотруби. Гарний огляд — важлива перевага в грі. Цей вид обладнання корисний для засадних ПТ-САУ з низьким силуетом і влучними гарматами. Активується на нерухомій машині через 1,5 с секунди після зупинки."
+
+msgid "deluxeStereoscope/name"
+msgstr "Телескопічна система спостереження"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27,5%{colorTagClose} до огляду нерухомої машини (але не більше за 445 м)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "Удосконалена версія турбонагнітача ({colorTagOpen}+7,5 %{colorTagClose} до потужності двигуна, {colorTagOpen}+4 км/год{colorTagClose} до максимальної швидкості вперед, {colorTagOpen}+2 км/год{colorTagClose} до максимальної швидкості назад), має більший ефект: {colorTagOpen}+12,5 %{colorTagClose} до потужності двигуна, {colorTagOpen}+6 км/год{colorTagClose} до максимальної швидкості вперед, {colorTagOpen}+4 км/год{colorTagClose} до максимальної швидкості назад. Пасує до всіх націй і типів техніки (крім колісних машин), можна демонтувати лише за бони."
+
+msgid "deluxeTurbocharger/name"
+msgstr "Поліпшений компресор"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "Збільшує потужність двигуна та максимальну швидкість"
+
+msgid "eb_minefield/descr"
+msgstr "На певний час розміщує в зазначеній області мінне поле."
+
+msgid "eb_minefield/long_descr"
+msgstr "На певний час розміщує в зазначеній області мінне поле. Під час детонації міни ушкоджують і оглушають техніку супротивника. Супротивник виявить міни або з близької відстані, або за допомогою резервів «Літак-розвідник» і «Дозор». Міни можна знищувати пострілами чи вибухом."
+
+msgid "eb_minefield/name"
+msgstr "Мінне поле"
+
+msgid "eb_minefield/short_descr"
+msgstr "На певний час розміщує в зазначеній області мінне поле."
+
+msgid "eb_regenerationKit/descr"
+msgstr "Поступово відновлює фіксований відсоток міцності вашої машини."
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "Поступово відновлює фіксований відсоток міцності вашої машини. Збільшує швидкість ремонту в зонах обслуговування. Також під час дії резерву зменшується шкода, яка зазнається від мін."
+
+msgid "eb_regenerationKit/name"
+msgstr "Польовий ремонт"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "Поступово відновлює фіксований відсоток міцності вашої машини."
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "Слот"
+
+msgid "empty_slot/name"
+msgstr "Слот"
+
+msgid "empty_slot/short_descr"
+msgstr "Слот бойового резерву використано."
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "Посилює ефект навички «Звукова розвідка» в 1,5 рази"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "Дає вивчену на 100% навичку «Звукова розвідка»"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "Навичка «Звукова розвідка» сповіщає про стрільбу САУ супротивника й зменшує негативні наслідки оглушення. Якщо вивчена на 100%, встановлена передбойова настанова поліпшує її ефект. Якщо ні, настанова дає вивчену на 100% навичку."
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "Насторожі"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "Дає вивчену на 100% навичку «Звукова розвідка» або посилює її"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "Пришвидшення зведення зменшує час, що витрачається на прицілювання, тому машина, обладнана посиленими механізмами наводки, стріляє точніше (і частіше, адже перезаряджання іноді відбувається швидше, ніж зведення)."
+
+msgid "enhancedAimDrives/name"
+msgstr "Посилені механізми наводки"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s до швидкості зведення за умови встановленого обладнання «Посилені механізми наводки» (будь-якого класу), «Зносостійкі механізми наводки», «Трофейні механізми наводки» чи «Система керування вогнем»."
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2,5 %"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2,5 %"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "Витрачається за 1 бій. Збільшує ефект обладнання «Трофейні механізми наводки», «Посилені механізми наводки» чи «Зносостійкі механізми наводки». Під час встановлення настанови це обладнання має бути на техніці, інакше настанова не працюватиме."
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "Налаштування прицілу"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "Посилює ефект від механізмів наводки"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "Посилені механізми наводки (Клас 1)"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "Посилені механізми наводки (Клас 2)"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "Посилені механізми наводки (Клас 3)"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "Посилені шайби Бельвілля"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "Повністю відновлює міцність шасі після ремонту."
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Повністю відновлює міцність шасі після ремонту"
+
+msgid "enhancedLevers/name"
+msgstr "Посилені балансири"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "Посилені поздовжні торсіони"
+
+msgid "enhancedSprings/name"
+msgstr "Посилені ресори"
+
+msgid "enhancedTorsions1t/name"
+msgstr "Посилені торсіони (Клас 1 т)"
+
+msgid "enhancedTorsions3t/name"
+msgstr "Посилені торсіони (Клас 3 т)"
+
+msgid "enhancedTorsions5t/name"
+msgstr "Посилені торсіони (Клас 5 т)"
+
+msgid "exampleAbility/descr"
+msgstr "Тестова абілка на Visual Script"
+
+msgid "exampleAbility/name"
+msgstr "Тестова абілка"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s до потужності двигуна й швидкості обертання башти на один бій."
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} до потужності двигуна та швидкості обертання башти."
+
+msgid "excellentFuel/long_special"
+msgstr "Додає {colorTagOpen}10%{colorTagClose} до потужності двигуна й швидкості обертання башти на один бій. Автоматично активується на початку битви й діє протягом усього бою."
+
+msgid "excellentFuel/name"
+msgstr "Відмінне пальне"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "Додає {colorTagOpen}10 %{colorTagClose} до потужності двигуна та швидкості обертання башти"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "Повністю відновлює міцність шасі після ремонту."
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "Відновлює шасі після ремонту."
+
+msgid "extraHealthReserve/long_special"
+msgstr "Збільшує міцність машини й швидкість ремонту, а також зменшує шкоду, якої зазнає корпус через пошкодження шасі в разі падіння. Також дає змогу повністю відновити міцність шасі після ремонту. Зменшує шанс знищення гусениці, якщо вона зазнала шкоди, та дозволяє довше залишатися на ходу."
+
+msgid "extraHealthReserve/name"
+msgstr "Поліпшене загартування"
+
+msgid "extraHealthReserve/short_special"
+msgstr "Збільшує міцність машини й захищає шасі."
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "Поліпшене загартування (Клас 1)"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "Поліпшене загартування (Клас 2)"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "Поліпшене загартування (Клас 3)"
+
+msgid "fireCircle/battleDescr"
+msgstr "Створює навколо вашої машини вогняне коло, яке зменшує рухливість техніки супротивника в області дії й заподіює шкоду до %(damagePerTickForInterval)s від її загальної міцності протягом %(timer)s с.\n\n*Вогняне коло не рухається разом із вашою машиною."
+
+msgid "fireCircle/descr"
+msgstr "Створює навколо вашої машини вогняне коло, яке зменшує рухливість техніки супротивника в області дії й заподіює шкоду до %(damagePerTickForInterval)s від її загальної міцності протягом %(timer)s с.\n\n*Вогняне коло не рухається разом із вашою машиною."
+
+msgid "fireCircle/longDescr"
+msgstr "Створює навколо вашої машини вогняне коло, яке зменшує рухливість техніки супротивника в області дії й завдає шкоди {whiteSpanish_Open}до %(damagePerTickForInterval)s{whiteSpanish_Close} від її загальної міцності {whiteSpanish_Open}протягом %(timer)s с{whiteSpanish_Close}.\n\n*Вогняне коло не рухається разом із вашою машиною."
+
+msgid "fireCircle/name"
+msgstr "Вогняне кільце"
+
+msgid "fireCircle/shortDescr"
+msgstr "Створює навколо вашої машини вогняне коло, яке зменшує рухливість техніки супротивника в області дії й завдає шкоди {whiteSpanish_Open}до %(damagePerTickForInterval)s{whiteSpanish_Close} від її загальної міцності {whiteSpanish_Open}протягом %(timer)s с{whiteSpanish_Close}.\n\n*Вогняне коло не рухається разом із вашою машиною."
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "Посилює ефект навички «Пожежогасіння» в 1,5 рази"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "Дає вивчену на 100% навичку «Пожежогасіння»"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "Навичка «Пожежогасіння» прискорює гасіння пожежі у власній машині. Витрачається за один бій. Якщо навичку вивчено, то встановлена передбойова настанова посилює її дію. За відсутності відповідної навички заміняє її повною мірою."
+
+msgid "fireFightingBattleBooster/name"
+msgstr "Мистецтво вогнеборця"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "Дає вивчену на 100% навичку «Пожежогасіння» або посилює її"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "Залп артбатареї, снаряди якого завдають шкоди всій техніці у вказаній вами області."
+
+msgid "fort_aoe_artillery/name"
+msgstr "Артобстріл"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "Залп артбатареї, снаряди якого завдають шкоди всій техніці у вказаній вами області."
+
+msgid "fort_inspire/longDescr"
+msgstr "Бонус до основних спеціальностей та всіх навичок екіпажу вашої машини та екіпажів найближчих союзників."
+
+msgid "fort_inspire/name"
+msgstr "Наснага"
+
+msgid "fort_inspire/shortDescr"
+msgstr "Бонус до основних спеціальностей та всіх навичок екіпажу вашої машини та екіпажів найближчих союзників."
+
+msgid "fuel_system_revision_1/name"
+msgstr "Ревізія паливної системи (Тип 1)"
+
+msgid "grousers/long_special"
+msgstr "Збільшує швидкість повороту машини, а також збереження набраної швидкості під час перетинання всіх типів поверхні. Ефект помітніший на середніх та грузьких ґрунтах. Працює ефективніше з навичками «Віртуоз» і «Король бездоріжжя»."
+
+msgid "grousers/name"
+msgstr "Додаткові ґрунтозачепи"
+
+msgid "grousers/short_special"
+msgstr "Збільшує швидкість повороту машини, поліпшує набирання швидкості"
+
+msgid "grousers_tier1/name"
+msgstr "Додаткові ґрунтозачепи (Клас 1)"
+
+msgid "grousers_tier2/name"
+msgstr "Додаткові ґрунтозачепи (Клас 2)"
+
+msgid "grousers_tier3/name"
+msgstr "Додаткові ґрунтозачепи (Клас 3)"
+
+msgid "gun_balancing_1/name"
+msgstr "Балансування гармати (Тип 1)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "Гасить пожежу у власній машині."
+
+msgid "handExtinguishers/long_special"
+msgstr "Дозволяє загасити пожежу у власній машині. Вимагає ручної активації. Пасує до всіх типів техніки будь-якої нації. Списується після закінчення бою, якщо був застосований."
+
+msgid "handExtinguishers/name"
+msgstr "Ручний вогнегасник"
+
+msgid "handExtinguishers/onUse"
+msgstr "Гасить пожежу у власній машині. Використовується багаторазово за бій. Спорядження списують після бою, якщо його хоч раз застосували."
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "Гасить пожежу"
+
+msgid "healPoint/battleDescr"
+msgstr "Створює область навколо вашої машини, в межах якої і ви, і члени взводу відновлюватимете %(healPerTick)s од. міцності щосекунди впродовж %(duration)s с."
+
+msgid "healPoint/descr"
+msgstr "Створює область навколо вашої машини, в межах якої і ви, і члени взводу відновлюватимете %(healPerTick)s од. міцності щосекунди впродовж %(duration)s с."
+
+msgid "healPoint/longDescr"
+msgstr "Створює область навколо вашої машини, в межах якої і ви, і члени взводу {green_Open}відновлюватимете %(healPerTick)s{green_Close} од. міцності щосекунди впродовж {whiteSpanish_Open}%(duration)s с.{whiteSpanish_Close}"
+
+msgid "healPoint/name"
+msgstr "Зона відновлення"
+
+msgid "healPoint/shortDescr"
+msgstr "Створює область навколо вашої машини, в межах якої і ви, і члени взводу {green_Open}відновлюватимете %(healPerTick)s{green_Close} од. міцності щосекунди впродовж {whiteSpanish_Open}%(duration)s с.{whiteSpanish_Close}"
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s до бонусу ефективності екіпажу на один бій."
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} до бонусу ефективності екіпажу."
+
+msgid "hotCoffee/long_special"
+msgstr "Автоматично активується з початком бою та діє протягом всього бою. Пасує лише до техніки Франції."
+
+msgid "hotCoffee/name"
+msgstr "Міцна кава"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "Лише для техніки Франції."
+
+msgid "hotCoffee/short_special"
+msgstr "Підвищує ефективність французьких екіпажів"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "По одному разу за бій запобігає вибуху боєукладки, займанню баків і виведенню двигуна з ладу, якщо ці модулі втратили всі очки міцності."
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "По одному разу за бій запобігає вибуху боєукладки, займанню баків і виведенню двигуна з ладу, якщо ці модулі втратили всі очки міцності."
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "Боєукладка захищена від підривання"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "Підриву боєукладки запобігли"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "Двигун захищено"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "Виведенню двигуна з ладу запобігли"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "Баки захищено від займання"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "Займанню баків запобігли"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "По одному разу за бій запобігає вибуху боєукладки, займанню баків і виведенню двигуна з ладу, якщо ці модулі втратили всі очки міцності."
+
+msgid "improvedConfiguration/long_special"
+msgstr "Пришвидшує ремонт. Збільшує міцність боєукладки, баків і двигуна. Зменшує штраф до швидкості заряджання та втрату потужності в разі пошкодження відповідних модулів. Зменшує імовірність займання двигуна. Також один раз за бій запобігає вибуху боєукладки, займанню баків і виведенню двигуна з ладу, якщо вони втратили всі очки міцності. Працює ефективніше з навичками «Ремонт», «Безконтактна боєукладка», «Чистота й порядок»."
+
+msgid "improvedConfiguration/name"
+msgstr "Змінене компонування"
+
+msgid "improvedConfiguration/short_special"
+msgstr "Пришвидшує ремонт, захищає боєукладку, баки та двигун"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s до швидкості ремонту за умови встановленого обладнання «Змінене компонування» (будь-якого класу), «Вдосконалене компонування» чи «Трофейні технології захисту»."
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10 %"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10 %"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "Витрачається за 1 бій. Збільшує ефект обладнання «Змінене компонування», «Удосконалене компонування» чи «Трофейні технології захисту». Під час встановлення настанови це обладнання має бути на техніці, інакше настанова не працюватиме."
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "Передбойове ТО"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "Збільшує ефект від зміненого компонування"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "Змінене компонування (Клас 1)"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "Змінене компонування (Клас 2)"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "Дає змогу довше передавати інформацію про позиції супротивника після його зникнення з прямої видимості. Зменшує час видимості вашої машини для супротивника. Працює ефективніше з навичками «Злопам’ятний» та «З останніх сил»."
+
+msgid "improvedRadioCommunication/name"
+msgstr "Поліпшене радіообладнання"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "Збільшує час показу супротивника та зменшує час вашої видимості"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "Збільшує швидкість повороту корпусу та башти для машин із баштою чи швидкість переміщення гармати для машин із нерухомою рубкою. Зменшує розкид гармати під час руху, поворотів корпусу та башти машини, а також після пострілу. Працює ефективніше з навичкою «Віртуоз»."
+
+msgid "improvedRotationMechanism/name"
+msgstr "Поліпшені механізми повороту"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "Збільшує швидкість повороту та зменшує розкид гармати під час руху та поворотів"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "Поліпшені механізми повороту (Клас 1)"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "Поліпшені механізми повороту (Клас 2)"
+
+msgid "improvedSights/long_special"
+msgstr "Зменшення розміру кола зведення збільшує влучність як повністю зведеної гармати, так і в процесі зведення, що дасть змогу частіше влучати в ціль."
+
+msgid "improvedSights/name"
+msgstr "Поліпшений приціл"
+
+msgid "improvedSights/short_special"
+msgstr "Зменшує розкид гармати"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s від розміру кола зведення зі встановленим обладнанням «Поліпшений приціл» (будь-якого класу), «Трофейний приціл» або «Система підвищення влучності»."
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2 %"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2 %"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "Витрачається за 1 бій. Збільшує ефект обладнання «Поліпшений приціл» або «Трофейний приціл». Настанова діє лише із встановленим обладнанням відповідного типу."
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "Очищення лінз"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "Зменшує розмір кола зведення"
+
+msgid "improvedSights_tier1/name"
+msgstr "Поліпшений приціл (Клас 1)"
+
+msgid "improvedSights_tier2/name"
+msgstr "Поліпшений приціл (Клас 2)"
+
+msgid "improvedSights_tier3/name"
+msgstr "Поліпшений приціл (Клас 3)"
+
+msgid "improvedVentilation/long_special"
+msgstr "Поліпшує багато показників машини: огляд, скорострільність, час зведення, динамічні характеристики тощо. Однак сама надбавка дуже мала й буде помітна лише разом із навичкою «Бойове братерство», яка вивчена екіпажем."
+
+msgid "improvedVentilation/name"
+msgstr "Поліпшена вентиляція"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s до бонусу ефективності екіпажу зі встановленим обладнанням «Поліпшена вентиляція» (будь-якого класу), «Система відведення порохових газів» або «Трофейна вентиляція»."
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2,5 %"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2,5 %"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "Витрачається за 1 бій. Збільшує ефект обладнання «Поліпшена вентиляція» (будь-якого класу), «Система відведення порохових газів» або «Трофейна вентиляція». Під час встановлення настанови це обладнання має бути на техніці, інакше настанова не працюватиме."
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "Продування повітропроводів"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "Посилює ефект від вентиляції"
+
+msgid "improvedVentilation_class1/name"
+msgstr "Поліпшена вентиляція (Клас 1)"
+
+msgid "improvedVentilation_class2/name"
+msgstr "Поліпшена вентиляція (Клас 2)"
+
+msgid "improvedVentilation_class3/name"
+msgstr "Поліпшена вентиляція (Клас 3)"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "Поліпшена вентиляція (Клас 1)"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "Поліпшена вентиляція (Клас 2)"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "Поліпшена вентиляція (Клас 3)"
+
+msgid "improved_suspension_1/name"
+msgstr "Поліпшена підвіска (Тип 1)"
+
+msgid "improved_suspension_2/name"
+msgstr "Поліпшена підвіска (Тип 2)"
+
+msgid "inspire/longDescr"
+msgstr "Додає наснаги екіпажу машини гравця та найближчих союзників у певному радіусі, надаючи бонус у % до основної спеціальності кожного члена екіпажу. Гравець, який застосував уміння, отримає посилений ефект."
+
+msgid "inspire/name"
+msgstr "Наснага"
+
+msgid "inspire/shortDescr"
+msgstr "Додає бонус до основних спеціальностей екіпажів гравця та союзників."
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "Гаубичний досилач великого калібру"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "Гарматний досилач великого калібру"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s від часу оглушення екіпажу\n%(crewHitChance)s до захисту екіпажу від поранень"
+
+msgid "largeMedkit/descr"
+msgstr "Лікує всіх поранених членів екіпажу та приводить до тями оглушений екіпаж."
+
+msgid "largeMedkit/long_special"
+msgstr "Лікує всіх поранених членів екіпажу одразу та приводить до тями оглушений екіпаж. Також пасивно поліпшує захист екіпажу від поранень. Потребує ручної активації. Пасує до всіх типів техніки будь-якої нації."
+
+msgid "largeMedkit/name"
+msgstr "Велика аптечка"
+
+msgid "largeMedkit/onUse"
+msgstr "Лікує всіх поранених членів екіпажу. Використовується багаторазово за бій. Спорядження списують після бою, якщо його хоч раз застосували."
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "Лікує всіх поранених членів екіпажу та приводить до тями оглушений екіпаж. Використовується багаторазово за бій. Спорядження списують після бою, якщо його хоч раз застосували."
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "Лікує всіх поранених членів екіпажу й приводить до тями оглушений екіпаж"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s до швидкості ремонту модулів"
+
+msgid "largeRepairkit/descr"
+msgstr "Ремонтує всі пошкоджені модулі."
+
+msgid "largeRepairkit/long_special"
+msgstr "Дозволяє відновити всі пошкоджені модулі одразу. Також пасивно збільшує швидкість ремонту. Вимагає ручної активації. Пасує до всіх типів техніки будь-якої нації."
+
+msgid "largeRepairkit/name"
+msgstr "Великий ремкомплект"
+
+msgid "largeRepairkit/onUse"
+msgstr "Ремонтує всі пошкоджені модулі. Використовується багаторазово за бій. Спорядження списують після бою, якщо його хоч раз застосували."
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "Ремонтує всі модулі"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "Додає до поточного рівня навички «З останніх сил» додаткові 50%"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "Дає 100%-ву навичку «З останніх сил»"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "Навичка «З останніх сил» дозволяє передавати розвіддані протягом додаткових 2 секунд після знищення машини. Витрачається за 1 бій. Якщо навичку вивчено до 100 %, то встановлена передбойова настанова додає до часу її дії 1 секунду (3 секунди сумарного ефекту). У разі відсутності відповідної навички чи часткового її вивчення — замінює її повною мірою (стандартні 2 секунди)."
+
+msgid "lastEffortBattleBooster/name"
+msgstr "Обов’язок понад усе"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "Дає навичку «З останніх сил» чи посилює її"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "Гаубичний досилач середнього калібру"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "Гарматний досилач середнього калібру"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "Система керування вогнем Т1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "Система керування вогнем Т1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "Система керування вогнем Т1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "Система керування вогнем Т2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "Система керування вогнем Т2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "Система керування вогнем Т2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "Система керування вогнем Т3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "Система керування вогнем Т3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "Система керування вогнем Т3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "Комплекс поліпшення живучості Т1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "Комплекс поліпшення живучості Т1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "Комплекс поліпшення живучості Т1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "Комплекс поліпшення живучості Т2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "Комплекс поліпшення живучості Т2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "Комплекс поліпшення живучості Т2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "Комплекс поліпшення живучості Т3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "Комплекс поліпшення живучості Т3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "Комплекс поліпшення живучості Т3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "Система підвищення влучності T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "Система підвищення влучності T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "Система підвищення влучності T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "Система підвищення влучності T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "Система підвищення влучності T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "Система підвищення влучності T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "Система підвищення влучності T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "Система підвищення влучності T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "Система підвищення влучності T3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "Система підвищення рухливості Т1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "Система підвищення рухливості Т1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "Система підвищення рухливості Т1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "Система підвищення рухливості Т2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "Система підвищення рухливості Т2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "Система підвищення рухливості Т2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "Система підвищення рухливості Т3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "Система підвищення рухливості Т3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "Система підвищення рухливості Т3"
+
+msgid "nitro/battleDescr"
+msgstr "Тимчасово збільшує потужність двигуна вашої техніки на %(enginePowerFactor)s і максимальну швидкість у %(maxSpeedFactor)s рази на %(consumeSeconds)s с."
+
+msgid "nitro/descr"
+msgstr "Тимчасово збільшує потужність двигуна вашої техніки на %(enginePowerFactor)s і максимальну швидкість у %(maxSpeedFactor)s рази на %(consumeSeconds)s с."
+
+msgid "nitro/long_special"
+msgstr "Тимчасово збільшує потужність двигуна вашої техніки {green_Open}на %(enginePowerFactor)s{green_Close} і максимальну швидкість {green_Open}у %(maxSpeedFactor)s рази{green_Close} {whiteSpanish_Open}на %(consumeSeconds)s с.{whiteSpanish_Close}"
+
+msgid "nitro/name"
+msgstr "Форсаж"
+
+msgid "nitro/short_special"
+msgstr "Тимчасово збільшує потужність двигуна вашої техніки {green_Open}на %(enginePowerFactor)s{green_Close} і максимальну швидкість {green_Open}у %(maxSpeedFactor)s рази{green_Close} {whiteSpanish_Open}на %(consumeSeconds)s с.{whiteSpanish_Close}"
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "Альтернативна комплектація — додаткове оснащення"
+
+msgid "passive_engineering/longDescr"
+msgstr "Виклик спецзагону, який пришвидшує захоплення бази чи швидше відновлює контроль над нею. Також зменшує час приготування зон обслуговування та час їхньої роботи."
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "Цей бойовий резерв не можна застосувати для САУ."
+
+msgid "passive_engineering/name"
+msgstr "Диверсійний загін"
+
+msgid "passive_engineering/shortDescr"
+msgstr "Бонус до захоплення/захисту, а також до ефективності зон обслуговування."
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "Нагороди для САУ"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "Потроює ефект навички «Безконтактна боєукладка»"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "Дає вивчену на 100% навичку «Безконтактна боєукладка»"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "Навичка «Безконтактна боєукладка» додає міцності боєукладці. Витрачається за один бій. Якщо навичку вивчено до 100 %, то встановлена передбойова настанова посилює її дію. У разі відсутності відповідної навички чи часткового її вивчення — замінює її повною мірою."
+
+msgid "pedantBattleBooster/name"
+msgstr "Розкладання снарядів"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "Дає вивчену на 100% навичку «Безконтактна боєукладка» чи посилює її"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "За {colorTagOpen}%(delay)d с{colorTagClose} по вибраній вами області буде завдано Артилерійського удару. Уражені цілі в радіусі {colorTagOpen}%(radius)d м{colorTagClose} отримають{colorTagOpen}%(damage)d{colorTagClose} од. шкоди та будуть оглушені на {colorTagOpen}%(stunDuration)d с{colorTagClose}."
+
+msgid "poi_artillery_aoe/name"
+msgstr "Артилерійський удар"
+
+msgid "poi_radar/descr"
+msgstr "Під час активації вся техніка супротивника залишатиметься виявленою протягом {colorTagOpen}%(duration)d с{colorTagClose}."
+
+msgid "poi_radar/name"
+msgstr "Запит розвідданих"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "Подвоює ефект від навички «Практичність»"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "Дає вивчену на 100% навичку «Практичність»"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "Навичка «Практичність» зменшує час підготовки спорядження на один бій. Якщо вивчена на 100%, встановлена передбойова настанова поліпшує її ефект. Якщо ні, настанова дає вивчену на 100% навичку."
+
+msgid "practicalityBattleBooster/name"
+msgstr "Ретельна підготовка"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "Дає вивчену на 100% навичку «Практичність» або посилює її"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s до потужності двигуна й швидкості обертання башти на один бій."
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5 %{colorTagClose} до потужності двигуна та швидкості обертання башти."
+
+msgid "qualityFuel/long_special"
+msgstr "Додає {colorTagOpen}5%{colorTagClose} до потужності двигуна й швидкості обертання башти на один бій. Автоматично активується на початку битви й діє протягом всього бою."
+
+msgid "qualityFuel/name"
+msgstr "Якісне пальне"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "Додає {colorTagOpen}5 %{colorTagClose} до потужності двигуна та швидкості обертання башти"
+
+msgid "radar/descr"
+msgstr "Дає змогу виявити супротивника та здобич на міні-мапі."
+
+msgid "radar/name"
+msgstr "Радар"
+
+msgid "rammer/long_special"
+msgstr "Скорострільність є найважливішою бойовою характеристикою. Цей вид обладнання є одним з найкорисніших у грі, який радимо встановлювати на будь-яку техніку. На більшість машин з магазинною системою заряджання досилач встановити не можна."
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s від часу заряджання гармати з встановленим обладнанням «Досилач» (будь-якого типу гармати та калібру), «Експериментальна система заряджання» чи «Трофейний досилач»."
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2,5 %"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2,5 %"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "Витрачається за 1 бій. Збільшує ефект обладнання «Досилач» (будь-якого типу гармати та калібру), «Експериментальна система заряджання» чи «Трофейний досилач». Під час встановлення настанови це обладнання має бути на техніці, інакше настанова не працюватиме."
+
+msgid "rammerBattleBooster/name"
+msgstr "Раціональна боєукладка"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "Посилює ефект від досилача"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "Подвоює ефект від навички «Злопам'ятний»"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "Дає вивчену на 100% навичку «Злопам'ятний»"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "Навичка «Злопам’ятний» дає навіднику змогу в зоні огляду спостерігати машину супротивника в прицілі протягом додаткових двох секунд. Витрачається за 1 бій. Якщо навичку вивчено, то встановлена передбойова настанова посилює її дію. У разі відсутності відповідної навички чи часткового її вивчення — замінює її повною мірою."
+
+msgid "rancorousBattleBooster/name"
+msgstr "Концентрація на цілі"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "Дає вивчену на 100% навичку «Злопам'ятний» або посилює її"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s до бонусу ефективності екіпажу на один бій."
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} до бонусу ефективності екіпажу."
+
+msgid "ration/long_special"
+msgstr "Автоматично активується з початком бою та діє протягом всього бою. Пасує лише до техніки СРСР."
+
+msgid "ration/name"
+msgstr "Додатковий пайок"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "Лише для техніки СРСР."
+
+msgid "ration/short_special"
+msgstr "Підвищує ефективність радянських екіпажів"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s до бонусу ефективності екіпажу на один бій."
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} до бонусу ефективності екіпажу."
+
+msgid "ration_china/long_special"
+msgstr "Автоматично активується з початком бою та діє протягом всього бою. Пасує лише до техніки Китаю."
+
+msgid "ration_china/name"
+msgstr "Поліпшений раціон"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "Лише для техніки Китаю."
+
+msgid "ration_china/short_special"
+msgstr "Підвищує ефективність китайських екіпажів"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s до бонусу ефективності екіпажу на один бій."
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} до бонусу ефективності екіпажу."
+
+msgid "ration_czech/long_special"
+msgstr "Автоматично активується з початком бою та діє протягом всього бою. Пасує лише до техніки Чехословаччини."
+
+msgid "ration_czech/name"
+msgstr "Бухти"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "Лише для техніки Чехословаччини."
+
+msgid "ration_czech/short_special"
+msgstr "Підвищує ефективність чехословацьких екіпажів"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s до бонусу ефективності екіпажу на один бій."
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} до бонусу ефективності екіпажу."
+
+msgid "ration_italy/long_special"
+msgstr "Автоматично активується з початком бою та діє протягом всього бою. Пасує лише до техніки Італії."
+
+msgid "ration_italy/name"
+msgstr "Спагеті з м’ясним соусом"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "Лише для техніки Італії."
+
+msgid "ration_italy/short_special"
+msgstr "Підвищує ефективність італійських екіпажів"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s до бонусу ефективності екіпажу на один бій."
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} до бонусу ефективності екіпажу."
+
+msgid "ration_japan/long_special"
+msgstr "Автоматично активується з початком бою та діє протягом всього бою. Пасує лише до техніки Японії."
+
+msgid "ration_japan/name"
+msgstr "Оніґірі"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "Лише для техніки Японії."
+
+msgid "ration_japan/short_special"
+msgstr "Підвищує ефективність японських екіпажів"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s до бонусу ефективності екіпажу на один бій."
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} до бонусу ефективності екіпажу."
+
+msgid "ration_poland/long_special"
+msgstr "Автоматично активується з початком бою та діє протягом всього бою. Пасує лише до техніки Польщі."
+
+msgid "ration_poland/name"
+msgstr "Хліб зі смальцем"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "Лише для техніки Польщі."
+
+msgid "ration_poland/short_special"
+msgstr "Підвищує ефективність польських екіпажів"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s до бонусу ефективності екіпажу на один бій."
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} до бонусу ефективності екіпажу."
+
+msgid "ration_sweden/long_special"
+msgstr "Автоматично активується з початком бою та діє протягом всього бою. Пасує лише до техніки Швеції."
+
+msgid "ration_sweden/name"
+msgstr "Кава з печивом"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "Лише для техніки Швеції."
+
+msgid "ration_sweden/short_special"
+msgstr "Підвищує ефективність шведських екіпажів"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s до бонусу ефективності екіпажу на один бій."
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} до бонусу ефективності екіпажу."
+
+msgid "ration_uk/long_special"
+msgstr "Автоматично активується з початком бою та діє протягом всього бою. Пасує лише до техніки Великобританії."
+
+msgid "ration_uk/name"
+msgstr "Пудинг із чаєм"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "Лише для техніки Великобританії."
+
+msgid "ration_uk/short_special"
+msgstr "Підвищує ефективність британських екіпажів"
+
+msgid "recon/longDescr"
+msgstr "Виклик літака-розвідника, який виявляє техніку супротивника у визначеному квадраті та залишає її видимою на деякий час. Також виявляє мінні поля."
+
+msgid "recon/name"
+msgstr "Літак-розвідник"
+
+msgid "recon/shortDescr"
+msgstr "Визначає позиції техніки супротивника та розташування мінних полів."
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} до потужності двигуна. Пошкоджує двигун у разі використання."
+
+msgid "removedRpmLimiter/long_special"
+msgstr "Підвищує потужність двигуна на {colorTagOpen}10 %{colorTagClose}, але в разі постійного використання — пошкоджує його. Можна вмикати та вимикати багаторазово протягом бою. Не витрачається. Пасує лише до радянської та китайської техніки."
+
+msgid "removedRpmLimiter/name"
+msgstr "Підкручений регулятор обертів"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "Підвищує потужність двигуна на %(vehicleEnginePower)s, але пошкоджує його. Використовується багаторазово."
+
+msgid "removedRpmLimiter/restriction"
+msgstr "Лише для техніки СРСР і Китаю."
+
+msgid "removedRpmLimiter/short_special"
+msgstr "Додає {colorTagOpen}10 %{colorTagClose} до потужності двигуна, але пошкоджує його"
+
+msgid "repairpoint/battleDescr"
+msgstr "Створює тимчасову статичну область, яка забезпечує ремонт усіх пошкоджених модулів, знімає ВСІ негативні ефекти й відновлює %(healPerTick)s міцності техніки кожну секунду впродовж %(timer)s с.\n\n*Техніка союзників в області дії також відновить очки міцності."
+
+msgid "repairpoint/descr"
+msgstr "Створює тимчасову статичну область, яка забезпечує ремонт усіх пошкоджених модулів, знімає ВСІ негативні ефекти й відновлює %(healPerTick)s міцності техніки кожну секунду впродовж %(timer)s с.\n\n*Техніка союзників в області дії також відновить очки міцності."
+
+msgid "repairpoint/long_special"
+msgstr "Створює тимчасову статичну область, яка забезпечує ремонт усіх пошкоджених модулів, знімає ВСІ негативні ефекти й {green_Open}відновлює %(healPerTick)s{green_Close} міцності техніки {whiteSpanish_Open}кожну секунду впродовж %(timer)s с{whiteSpanish_Close}.\n\n*Техніка союзників в області дії також відновить очки міцності."
+
+msgid "repairpoint/name"
+msgstr "Дільниця ремонту"
+
+msgid "repairpoint/short_special"
+msgstr "Створює тимчасову статичну область, яка забезпечує ремонт усіх пошкоджених модулів, знімає ВСІ негативні ефекти й {green_Open}відновлює %(healPerTick)s{green_Close} міцності техніки {whiteSpanish_Open}кожну секунду впродовж %(timer)s с{whiteSpanish_Close}.\n\n*Техніка союзників в області дії також відновить очки міцності."
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "Чищення нарізів ствола (Тип 1)"
+
+msgid "roleSlot/name"
+msgstr "Категорія другого слота для обладнання"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "Система пасивної безпеки"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "Система пасивної\nбезпеки"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "Перекомпонування БК"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "Перекомпонування\nБК"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "Ремонтопридатні гусениці"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "Ремонтопридатні\nгусениці"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "Доопрацювання МТВ"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "Доопрацювання\nМТВ"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "Поліпшене шасі"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "Поліпшене\nшасі"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "Полегшене шасі"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "Полегшене\nшасі"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "Притирання шестерень наведення"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "Притирання шестерень\nнаведення"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "Будування паралакса"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "Будування\nпаралакса"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "Налаштування ежектора"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "Налаштування\nежектора"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "Штанговий перископ"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "Штанговий\nперископ"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "Налаштування механізму заряджання"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "Налаштування механізму\nзаряджання"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "Налаштування механізму прицілювання"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "Налаштування механізму\nприцілювання"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "Налаштування КОМ"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "Налаштування\nКОМ"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "Електропривод наведення"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "Електропривод\nнаведення"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "Нові шестерні наведення"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "Нові шестерні\nнаведення"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "Доопрацювання казенника"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "Доопрацювання\nказенника"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "Загальне зменшення маси"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "Загальне зменшення\nмаси"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "Загальне збільшення міцності"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "Загальне збільшення\nміцності"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "Матові фарби"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "Матові\nфарби"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "Додаткова задня передача"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "Додаткова задня\nпередача"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "Верхневальний двигун"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "Верхневальний\nдвигун"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "Габаритний досилач"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "Габаритний\nдосилач"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "Додаткова шумоізоляція"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "Додаткова\nшумоізоляція"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "Демонтаж обшивки"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "Демонтаж\nобшивки"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "Додаткова система безпеки"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "Додаткова система\nбезпеки"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "Полегшені вузли кріплення"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "Полегшені вузли\nкріплення"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "Перерозподіл енергоживлення (Схема 1)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "Перерозподіл\nенергоживлення (Схема 1)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "Перерозподіл енергоживлення (Схема 2)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "Перерозподіл\nенергоживлення (Схема 2)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "Поліпшена платформа"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "Поліпшена\nплатформа"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "Полегшена платформа"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "Полегшена\nплатформа"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "Акцент на рухливість"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "Акцент на\nрухливість"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "Акцент на стрільбу"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "Акцент на\nстрільбу"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "Обтяжена гармата"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "Обтяжена\nгармата"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "Полегшена гармата"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "Полегшена\nгармата"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "Налаштування відбору потужності (Схема 1)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "Налаштування відбору\nпотужності (Схема 1)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "Налаштування відбору потужності (Схема 2)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "Налаштування відбору\nпотужності (Схема 2)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "Посилений корпус"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "Посилений\nкорпус"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "Полегшений корпус"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "Полегшений\nкорпус"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Антиблікове маскування оптики"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Антиблікове\nмаскування оптики"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Виносні оглядові прилади"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Виносні\nоглядові прилади"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Панорамні триплекси"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Панорамні\nтриплекси"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Вузькокутовий оглядовий прилад"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Вузькокутовий\nоглядовий прилад"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "Укріплення силового каркаса"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "Укріплення\nсилового каркаса"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "Розширення бойового відділення"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "Розширення\nбойового відділення"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "Розвідкомплект"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "Розвідкомплект"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "Штурмовий комплект"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "Штурмовий\nкомплект"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "Комплексне посилення міцності"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "Комплексне посилення\nміцності"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "Комплексне пришвидшення зведення"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "Комплексне пришвидшення\nзведення"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "Додаткові прилади спостереження"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "Додаткові прилади\nспостереження"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "Укріпленні з’єднання"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "Укріпленні\nз’єднання"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "Налаштування механізму заряджання"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "Налаштування механізму\nзаряджання"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "Налаштування механізму прицілювання"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "Налаштування механізму\nприцілювання"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "Налаштування КОМ"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "Налаштування\nКОМ"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "Електропривод наведення"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "Електропривод\nнаведення"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "Доопрацювання казенника"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "Доопрацювання\nказенника"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "Нові шестерні наведення"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "Нові шестерні\nнаведення"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "Налаштування системи впорскування"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "Налаштування системи\nвпорскування"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "Налаштування секторів огляду"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "Налаштування секторів\nогляду"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "Збільшення життєздатності модулів"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "Збільшення життєздатності\nмодулів"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "Легкосплавні вузли кріплення"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "Легкосплавні вузли\nкріплення"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "Доопрацювання казенника"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "Доопрацювання\nказенника"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "Нові шестерні наведення"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "Нові шестерні\nнаведення"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "Жиклери великого перерізу"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "Жиклери великого\nперерізу"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "Чутлива оптика"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "Чутлива\nоптика"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "Посилені опорні катки"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "Посилені опорні\nкатки"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "Полегшені опорні катки"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "Облегшені опорні\nкатки"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "Доопрацювання шасі"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "Доопрацювання\nшасі"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "Доопрацювання двигуна"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "Доопрацювання\nдвигуна"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "Комплекс «Мисливець-С»"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "Комплекс\n«Мисливець-С»"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "Комплекс «Мисливець-М»"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "Комплекс\n«Мисливець-М»"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "Налаштування гідравліки (Схема 1)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "Налаштування гідравліки\n(Схема 1)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "Налаштування гідравліки (Схема 2)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "Налаштування гідравліки\n(Схема 2)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "Налаштування механізму заряджання"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "Налаштування механізму\nзаряджання"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "Налаштування механізму прицілювання"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "Налаштування механізму\nприцілювання"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "Збільшення живучості"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "Збільшення\nживучості"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "Полегшення конструкції"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "Полегшення\nконструкції"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "Всюдихідне шасі"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "Всюдихідне\nшасі"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "Полегшене шасі"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "Полегшене\nшасі"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "Будування паралакса"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "Будування\nпаралакса"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "Притирання шестерень наведення"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "Притирання шестерень\nнаведення"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "Звукоізоляція"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "Звукоізоляція"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "Електропривод перископа"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "Електропривод\nперископа"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "Налаштування клапанів (Схема 1)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "Налаштування клапанів\n(Схема 1)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "Налаштування клапанів (Схема 2)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "Налаштування клапанів\n(Схема 2)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "Налаштування механізму заряджання"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "Налаштування механізму\nзаряджання"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "Налаштування механізму прицілювання"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "Налаштування механізму\nприцілювання"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "Додатковий протиосколковий захист"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "Додатковий\nпротиосколковий захист"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "Полегшений протиосколковий захист"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "Полегшений\nпротиосколковий захист"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "Збільшення життєздатності модулів"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "Збільшення життєздатності\nмодулів"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "Легкосплавні вузли кріплення"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "Легкосплавні вузли\nкріплення"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "Налаштування важелів підвіски"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "Налаштування важелів\nпідвіски"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "«Плаваючий» приціл"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "«Плаваючий»\nприціл"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "Налаштування турбонагнітача"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "Налаштування\nтурбонагнітача"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "Антиблікове маскування фар"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "Антиблікове\nмаскування фар"
+
+msgid "selfBuff/battleDescr"
+msgstr "На %(duration)s с зменшує розкид і час зведення гармати на %(gunAimingTime)s, а також поліпшує стабілізацію та скорострільність.\n\n*Не впливає на проміжок часу між пострілом і дозаряджанням наступного снаряда в магазині, гарматі або контейнері."
+
+msgid "selfBuff/descr"
+msgstr "На %(duration)s с зменшує розкид і час зведення гармати на %(gunAimingTime)s, а також поліпшує стабілізацію та скорострільність.\n\n*Не впливає на проміжок часу між пострілом і дозаряджанням наступного снаряда в магазині, гарматі або контейнері."
+
+msgid "selfBuff/longDescr"
+msgstr "{whiteSpanish_Open}На %(duration)s с{whiteSpanish_Close} зменшує розкид і час зведення гармати {green_Open}на %(gunAimingTime)s{green_Close}, а також поліпшує стабілізацію та скорострільність.\n\n*Не впливає на проміжок часу між пострілом і дозаряджанням наступного снаряда в магазині, гарматі або контейнері."
+
+msgid "selfBuff/name"
+msgstr "Гранична концентрація"
+
+msgid "selfBuff/shortDescr"
+msgstr "{whiteSpanish_Open}На %(duration)s с{whiteSpanish_Close} зменшує розкид і час зведення гармати {green_Open}на %(gunAimingTime)s{green_Close}, а також поліпшує стабілізацію та скорострільність.\n\n*Не впливає на проміжок часу між пострілом і дозаряджанням наступного снаряда в магазині, гарматі або контейнері."
+
+msgid "shells_consumables_switch/name"
+msgstr "Альтернативна комплектація — потрібне оснащення"
+
+msgid "shotPassion/battleDescr"
+msgstr "На %(duration)s с зменшує ефективність і стабілізацію механізму наводки на %(gunAimingTime)s, проте кожне ваше пробиття збільшує заподіяну шкоду на %(damageIncreasePerShot)s. Ефект складається до 5 разів. Влучення, що не завдають шкоди, і промахи скидають ефект до 0.\n\n*Влучення Електричним розрядом також враховуються."
+
+msgid "shotPassion/descr"
+msgstr "На %(duration)s с зменшує ефективність гармати й стабілізацію механізму наведення на %(gunAimingTime)s, проте кожне ваше пробиття збільшує заподіювану шкоду на %(damageIncreasePerShot)s. Ефект складається до 5 разів. Влучення, що не завдають шкоди, і промахи скидають ефект до 0.\n\n*Влучення Електричним розрядом також враховуються."
+
+msgid "shotPassion/longDescr"
+msgstr "{whiteSpanish_Open}На %(duration)s с{whiteSpanish_Close} зменшує ефективність і стабілізацію гармати {red_Open}на %(gunAimingTime)s{red_Close}, проте кожне ваше пробиття збільшує завдану шкоду {green_Open}на %(damageIncreasePerShot)s. {green_Close}Ефект складається {whiteSpanish_Open}до 5 разів{whiteSpanish_Close}. Влучення, що не завдають шкоди, і промахи скидають бонус до шкоди до 0.\n\n*Влучення Електричним розрядом також враховуються."
+
+msgid "shotPassion/name"
+msgstr "Щораз більший азарт"
+
+msgid "shotPassion/shortDescr"
+msgstr "{whiteSpanish_Open}На %(duration)s с{whiteSpanish_Close} зменшує ефективність і стабілізацію гармати {red_Open}на %(gunAimingTime)s{red_Close}, проте кожне ваше пробиття збільшує завдану шкоду {green_Open}на %(damageIncreasePerShot)s. {green_Close}Ефект складається {whiteSpanish_Open}до 5 разів{whiteSpanish_Close}. Влучення, що не завдають шкоди, і промахи скидають бонус до шкоди до 0.\n\n*Влучення Електричним розрядом також враховуються."
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "Зменшує час спрацьовування «Шостого відчуття» на 1 с"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "Особливість командира «Шосте відчуття» дозволяє визначати, чи виявлена машина супротивником. Спрацьовує за 3 секунди з моменту виявлення."
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "«Шосте відчуття» дозволяє командирові визначити, чи виявлено вашу машину супротивником. Витрачається за один бій. Установлена передбойова настанова підсилює його дію."
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "Підвищена увага"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "Підсилює особливість командира «Шосте відчуття»"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "Лікування всіх поранених членів екіпажу й приведення до тями оглушених танкістів."
+
+msgid "smallMedkit/long_special"
+msgstr "Дозволяє вилікувати всіх поранених членів екіпажу й приводить до тями оглушених танкістів. Пасує до всіх типів техніки будь-якої нації. Списується після закінчення бою, якщо була застосована."
+
+msgid "smallMedkit/name"
+msgstr "Мала аптечка"
+
+msgid "smallMedkit/onUse"
+msgstr "Лікування всіх поранених членів екіпажу й приведення до тями оглушених танкістів."
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "Лікування всіх поранених членів екіпажу й приведення до тями оглушених танкістів."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "Лікує всіх поранених членів екіпажу й приводить до тями оглушених танкістів."
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "Ремонт усіх пошкоджених модулів."
+
+msgid "smallRepairkit/long_special"
+msgstr "Ремонтує всі пошкоджені модулі при активації. Пасує до всіх типів техніки будь-якої нації. Списується після закінчення бою, якщо був застосований."
+
+msgid "smallRepairkit/name"
+msgstr "Малий ремкомплект"
+
+msgid "smallRepairkit/onUse"
+msgstr "Ремонт усіх пошкоджених модулів. Пасує до всіх типів техніки будь-якої нації. Списується після закінчення бою, якщо був застосований."
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "Ремонтує всі пошкоджені модулі."
+
+msgid "smoke/longDescr"
+msgstr "Встановлення димової завіси, яка замаскує всю техніку, що перебуває в димах і поза ними. Супротивник у димах отримає штраф до огляду й ефективності екіпажу."
+
+msgid "smoke/name"
+msgstr "Димова завіса"
+
+msgid "smoke/shortDescr"
+msgstr "Приховує всю техніку в димах. Супротивники всередині отримують штраф до огляду й ефективності екіпажу."
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "Подвоює ефект від навички «Плавний хід»"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "Дає вивчену на 100% навичку «Плавний хід»"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "Навичка «Плавний хід» зменшує розкид гармати під час стрільби на ходу. Витрачається за один бій. Якщо навичку вивчено, то встановлена передбойова настанова підсилює її дію. У разі відсутності відповідної навички заміняє її повною мірою."
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "Секрети роботи КПП"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "Дає вивчену на 100% навичку «Плавний хід» або посилює її"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "Подвоює ефект від навички «Плавне обертання башти»"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "Дає вивчену на 100% навичку «Плавне обертання башти»"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "Навичка «Плавне обертання башти» зменшує розкид гармати під час обертання башти. Витрачається за один бій. Якщо навичку вивчено до 100 %, то встановлена передбойова настанова підсилює її дію. У разі відсутності відповідної навички заміняє її повною мірою."
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "Без різких рухів"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "Дає вивчену на 100% навичку «Плавне обертання башти» або посилює її"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "Запускає самохідну міну, яка переслідуватиме найближчу техніку супротивника до %(botLifeTime)s с і заподіє від 400 до 600 од. шкоди в разі детонації.\n\n*Супротивники можуть знищити її пострілами й тараном. Міна завдає додаткової шкоди тараном у разі влучення в ціль."
+
+msgid "spawn_kamikaze/descr"
+msgstr "Запускає самохідну міну, яка переслідуватиме найближчу техніку супротивника до %(botLifeTime)s с і заподіє від 400 до 600 од. шкоди в разі детонації.\n\n*Супротивники можуть знищити її пострілами й тараном. Міна завдає додаткової шкоди тараном у разі влучення в ціль."
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "Запускає самохідну міну, яка переслідуватиме найближчу техніку супротивника до {whiteSpanish_Open}%(botLifeTime)s с{whiteSpanish_Close} і заподіє {whiteSpanish_Open}від 400 до 600 од. шкоди{whiteSpanish_Close} в разі детонації.\n\n*Супротивники можуть знищити її пострілами й тараном. Міна завдає додаткової шкоди тараном у разі влучення в ціль."
+
+msgid "spawn_kamikaze/name"
+msgstr "Брандер"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "Запускає самохідну міну, яка переслідуватиме найближчу техніку супротивника до {whiteSpanish_Open}%(botLifeTime)s с{whiteSpanish_Close} і заподіє {whiteSpanish_Open}від 400 до 600 од. шкоди{whiteSpanish_Close} в разі детонації.\n\n*Супротивники можуть знищити її пострілами й тараном. Міна завдає додаткової шкоди тараном у разі влучення в ціль."
+
+msgid "stealthRadar/descr"
+msgstr "Дає бонус до огляду та маскування, зменшує маскування супротивника."
+
+msgid "stealthRadar/long_descr"
+msgstr "Через %(activationDelay)s секунд після зупинки збільшує показники маскування своєї машини та зменшує маскування супротивника. Також дає пасивний бонус до огляду та виявляє міни супротивника. Не діє під час руху."
+
+msgid "stealthRadar/name"
+msgstr "Дозор"
+
+msgid "stealthRadar/short_descr"
+msgstr "Дає бонус до огляду та маскування, зменшує маскування супротивника."
+
+msgid "stereoscope/battleDescr"
+msgstr "Збільшує огляд нерухомої машини через 3 с після зупинки, але не більш ніж 445 метрів"
+
+msgid "stereoscope/long_special"
+msgstr "Гарний огляд — важлива перевага в грі. Цей вид обладнання корисний для засадних ПТ-САУ з низьким силуетом і влучними гарматами. Активується на нерухомій машині через 3 секунди після зупинки."
+
+msgid "stereoscope/name"
+msgstr "Стереотруба"
+
+msgid "stereoscope_tier1/name"
+msgstr "Стереотруба (Клас 1)"
+
+msgid "stereoscope_tier2/name"
+msgstr "Стереотруба (Клас 2)"
+
+msgid "stereoscope_tier3/name"
+msgstr "Стереотруба (Клас 3)"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "Заміна елементів підвіски (Тип 1)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "Заміна елементів підвіски (Тип 2)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "Притирання механізмів повороту (Тип 1)"
+
+msgid "tankRammer/name"
+msgstr "Гарматний досилач"
+
+msgid "tankRammer_tier1/name"
+msgstr "Гарматний досилач (Клас 1)"
+
+msgid "tankRammer_tier2/name"
+msgstr "Гарматний досилач (Клас 2)"
+
+msgid "thunderStrike/battleDescr"
+msgstr "Створює зону, в яку б'є низка з %(thunderCount)s електричних розрядів із короткими інтервалами між ними. Кожен завдає %(damage)s од. шкоди й тимчасово зменшує рухливість техніки супротивника в межах зони ураження.\n\n*Перший розряд вдарить за %(delay)s с після активації вміння. Негативний ефект можна усунути за допомогою ремкомплекту."
+
+msgid "thunderStrike/descr"
+msgstr "Створює зону, в яку б'є низка з %(thunderCount)s електричних розрядів із короткими інтервалами між ними. Кожен завдає %(damage)s од. шкоди й тимчасово зменшує рухливість техніки супротивника в межах зони ураження.\n\n*Перший розряд вдарить за %(delay)s с після активації вміння. Негативний ефект можна усунути за допомогою ремкомплекту."
+
+msgid "thunderStrike/longDescr"
+msgstr "Створює зону, в яку б'є низка з %(thunderCount)s електричних розрядів із короткими інтервалами між ними. Кожен завдає {whiteSpanish_Open}%(damage)s од. шкоди{whiteSpanish_Close} й тимчасово зменшує рухливість техніки супротивника в межах зони ураження.\n\n*Перший розряд вдарить за %(delay)s с після активації вміння. Негативний ефект можна усунути за допомогою ремкомплекту."
+
+msgid "thunderStrike/name"
+msgstr "Електричний розряд"
+
+msgid "thunderStrike/shortDescr"
+msgstr "Створює зону, в яку б'є низка з %(thunderCount)s електричних розрядів із короткими інтервалами між ними. Кожен завдає {whiteSpanish_Open}%(damage)s од. шкоди{whiteSpanish_Close} й тимчасово зменшує рухливість техніки супротивника в межах зони ураження.\n\n*Перший розряд вдарить за %(delay)s с після активації вміння. Негативний ефект можна усунути за допомогою ремкомплекту."
+
+msgid "trappoint/battleDescr"
+msgstr "На %(duration)s с створює область, у якій показники рухливості усієї техніки супротивників зменшуються на %(vehicleMaxSpeed)s, а час перезаряджання й зведення гармат збільшується на %(gunReloadTime)s."
+
+msgid "trappoint/descr"
+msgstr "На %(duration)s с створює область, у якій зменшуються параметри техніки супротивника: показники рухливості — на %(vehicleMaxSpeed)s, час перезаряджання й зведення гармати — на %(gunReloadTime)s."
+
+msgid "trappoint/long_special"
+msgstr "{whiteSpanish_Open}На %(duration)s с{whiteSpanish_Close} створює область, у якій зменшуються параметри техніки супротивника: показники рухливості — {whiteSpanish_Open}на %(vehicleMaxSpeed)s{whiteSpanish_Close}, час перезаряджання й зведення {whiteSpanish_Open}гармати — на %(gunReloadTime)s{whiteSpanish_Close}."
+
+msgid "trappoint/name"
+msgstr "Пастка"
+
+msgid "trappoint/short_special"
+msgstr "{whiteSpanish_Open}На %(duration)s с{whiteSpanish_Close} створює область, у якій показники рухливості усієї техніки супротивників зменшуються {whiteSpanish_Open}на %(vehicleMaxSpeed)s{whiteSpanish_Close}, а час перезаряджання й зведення гармат збільшується {whiteSpanish_Open}на %(gunReloadTime)s{whiteSpanish_Close}."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "Ефективність залежить від типу техніки. Збільшує скритість як нерухомої, так і рухомої машини. Корисно для активної розвідки, а також для пасивного спостереження з ризикованіших позицій."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "Трофейна система вихлопу"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "Збільшує скритість нерухомої та рухомої машини."
+
+msgid "trophyBasicAimDrives/name"
+msgstr "Трофейні механізми наводки"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "Пришвидшують зведення гармати, дають змогу швидше зробити прицільний постріл."
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "Трофейний стабілізатор"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "Зменшує розкид гармати під час стрільбі на ходу, а також під час поворотів машини."
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "Трофейна оптика"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "Збільшує радіус огляду як рухомої, так і нерухомої машини."
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "Повністю відновлює міцність шасі після ремонту."
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "Відновлює шасі після ремонту."
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "Збільшує міцність машини й швидкість ремонту, а також зменшує шкоду, якої зазнає корпус через пошкодження шасі в разі падіння. Також дає змогу повністю відновити міцність шасі після ремонту. Зменшує шанс знищення гусениці, якщо вона зазнала шкоди, та дозволяє довше залишатися на ходу."
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "Трофейне загартування"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "Збільшує міцність машини й захищає шасі."
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "Трофейні технології захисту"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "Трофейні механізми повороту"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "Зменшення розміру кола зведення збільшує влучність як повністю зведеної гармати, так і в процесі зведення, що дасть змогу частіше влучати в ціль."
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "Трофейний приціл"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "Зменшує розкид гармати"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "Трофейна вентиляція"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "Поліпшує ефективність екіпажу, що позитивно впливає на більшість ТТХ машини."
+
+msgid "trophyBasicTankRammer/name"
+msgstr "Трофейний досилач"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "Пришвидшує перезаряджання гармати. Універсальний, не має класових обмежень."
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "Збільшує потужність двигуна, даючи змогу швидше набирати швидкість, маневрувати та долати підйоми. Збільшує максимальну швидкість машини вперед і назад, що дає змогу швидше займати позицію й уникати вогню у відповідь."
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "Трофейний турбонагнітач"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "Збільшує потужність двигуна та максимальну швидкість"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10 %{colorTagClose} {arrow} до огляду, але не більш ніж 445 м"
+
+msgid "trophyOptics/name"
+msgstr "Трофейна оптика"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "Трофейна система вихлопу"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "Трофейні механізми наводки"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "Трофейний стабілізатор"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "Трофейна оптика"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "Повністю відновлює міцність шасі після ремонту."
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Відновлює шасі після ремонту."
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "Трофейне загартування"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "Трофейні технології захисту"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "Трофейні механізми повороту"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "Трофейний приціл"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "Трофейна вентиляція"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "Трофейний досилач"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "Трофейний турбонагнітач"
+
+msgid "turbocharger/long_special"
+msgstr "Збільшує потужність двигуна, даючи змогу швидше набирати швидкість, маневрувати та долати підйоми. Збільшує максимальну швидкість машини вперед і назад, що дає змогу швидше займати позицію й уникати вогню у відповідь."
+
+msgid "turbocharger/name"
+msgstr "Турбонагнітач"
+
+msgid "turbocharger/short_special"
+msgstr "Збільшує потужність двигуна та максимальну швидкість"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s до потужності двигуна за умови встановленого обладнання «Турбонагнітач» (будь-якого класу), «Трофейний турбонагнітач», «Поліпшений компресор» або «Система підвищення рухливості»."
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4 %"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4 %"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "Витрачається за 1 бій. Посилює ефект обладнання «Турбонагнітач» (будь-якого класу), «Трофейний турбонагнітач» або «Поліпшений компресор». Настанова діє лише із встановленим обладнанням відповідного типу."
+
+msgid "turbochargerBattleBooster/name"
+msgstr "Заміна паливних фільтрів"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "Збільшує потужність двигуна"
+
+msgid "turbocharger_tier1/name"
+msgstr "Турбонагнітач (Клас 1)"
+
+msgid "turbocharger_tier2/name"
+msgstr "Турбонагнітач (Клас 2)"
+
+msgid "turbocharger_tier3/name"
+msgstr "Турбонагнітач (Клас 3)"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "Подвоює ефект від навички «Віртуоз»"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "Дає вивчену на 100% навичку «Віртуоз»"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "Навичка «Віртуоз» пришвидшує повертання машини, як на місці, так і в русі. Витрачається за один бій. Якщо навичку вивчено, то встановлена передбойова настанова підсилює її дію. У разі відсутності відповідної навички заміняє її повною мірою."
+
+msgid "virtuosoBattleBooster/name"
+msgstr "Смуга перешкод"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "Дає вивчену на 100% навичку «Віртуоз» або посилює її"

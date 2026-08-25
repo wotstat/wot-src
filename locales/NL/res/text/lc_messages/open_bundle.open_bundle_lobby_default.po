@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Begrepen!"
+
+msgid "attachments_preview/description"
+msgstr "Set 3D-attachments"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Epische 3D-attachment"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Legendarische 3D-attachment"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Zeldzame 3D-attachment"
+
+msgid "bundle/name"
+msgstr "Mysteriemarkt"
+
+msgid "bundle/name_uppercased"
+msgstr "MYSTERIEMARKT"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Annuleren"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Kopen"
+
+msgid "confirmation/description"
+msgstr "Bevestig om obligaties en een nieuwe celbeloning te ontvangen."
+
+msgid "confirmation/purchase"
+msgstr "Kopen voor {{price}} ?"
+
+msgid "entryPoint/button"
+msgstr "Naar evenement"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} is hier. Neem snel een kijkje!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Als je tijdens de {{eventName}} obligaties koopt, zul je als bonus een beloning ontvangen uit een van de ongeopende cellen. Cellen bevatten waardevolle in-game items, waaronder de hoofdbeloning van het evenement: een Premium voertuig."
+
+msgid "intro/cards/description/c_2"
+msgstr "De beloningen worden in willekeurige volgorde uitgereikt. Elke ongeopende cel heeft zijn eigen kans om te worden geselecteerd, waarbij de kansen samen altijd 100% zijn. Als een cel is geopend, kan die niet nogmaals worden geopend, wat betekent dat de kans om de andere beloningen te ontvangen toeneemt."
+
+msgid "intro/cards/description/c_3"
+msgstr "Elke stap kost een bepaalde hoeveelheid goud. Het aantal ontvangen obligaties en de prijs van de stap variëren naarmate je vordert."
+
+msgid "intro/cards/link"
+msgstr "Bekijk de voorwaarden en prijzen van elke stap op de {{@ class 'linkPart'}}website.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Obligaties kopen"
+
+msgid "intro/cards/title/c_2"
+msgstr "Cellen en kansen"
+
+msgid "intro/cards/title/c_3"
+msgstr "Prijzen van stappen"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "JE BELONING WACHT"
+
+msgid "main/alt/description"
+msgstr "Bekijk kans"
+
+msgid "main/alt/tooltip/body"
+msgstr "Druk de Alt-toets in om de kans op elke cel te zien."
+
+msgid "main/alt/tooltip/header"
+msgstr "Kans tonen"
+
+msgid "main/cell/probability"
+msgstr "{{num}}%"
+
+msgid "main/completed"
+msgstr "GEFELICITEERD! \n JE HEBT ALLE BELONINGEN ONTVANGEN"
+
+msgid "main/footer/button"
+msgstr "Kopen"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}Beloning uit een cel"
+
+msgid "main/footer/receive"
+msgstr "Je ontvangt: {{item}}"
+
+msgid "main/header/description"
+msgstr "Doe van {{startDate}} tot {{endDate}} mee aan het evenement en pak beloningen!"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Ga naar aanpassing"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Naar de stijl"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Naar het voertuig"
+
+msgid "notifications/specialReward/title"
+msgstr "De hoofdbeloning van de {{eventName}} is van jou!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Extra beloningen:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Ontvangen:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Deze handeling is wegens technische redenen tijdelijk onbeschikbaar. Probeer het later alsjeblieft opnieuw."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Naar het evenement"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s sluit bijna!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Het evenement is beschikbaar tot: %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "%(eventName)s-cel geopend"
+
+msgid "tooltips/entry/description"
+msgstr "Je beloning wacht! Bij elke aankoop van obligaties krijg je als geschenk een willekeurige beloning uit een cel. Je opent elke keer een nieuwe cel, want de reeds geopende doen niet meer mee."
+
+msgid "tooltips/entry/timer"
+msgstr "Het evenement zal beschikbaar zijn voor {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "Over het evenement"
+
+msgid "tooltips/steps/description"
+msgstr "Voor elke aankoop krijg je meer {{currency}}. Hoeveel je ontvangt neemt bij bepaalde stappen toe."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} voor elke aankoop"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Stappen:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} – {{end}}"

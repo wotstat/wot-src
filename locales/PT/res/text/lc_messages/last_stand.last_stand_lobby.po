@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Batalhe de Qualquer Forma"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Equipar!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Dispositivos Táticos Incompletos"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "O seu veículo selecionado não possui uma ou mais Dispositivos Táticos. Isto pode impactar significativamente o seu desempenho em batalha. Deseja entrar na batalha mesmo assim?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Pode personalizar as predefinições das teclas de atalho do evento padrão para projéteis e Dispositivos Táticos.\nEsta alteração aplica-se apenas a batalhas de eventos e não afetará quaisquer outros modos.\nPode ainda modificar teclas de atalho individuais em Menu — Definições — Controlos (sob Consumíveis)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Alteração de Predefinições de Teclas de Atalho dos Consumíveis"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Conclua esta missão para receber um crachá exclusivo Última Posição: Operação Pandora:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Missão de Conquista Épica"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Quando pesquisado, reduz o {EDCB9E_Start}custo de Mirium{EDCB9E_End} de todos os Dispositivos Táticos em {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Eficiência de Mirium"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Quando pesquisado, aumenta a {EDCB9E_Start}duração do efeito dos Dispositivos Táticos{EDCB9E_End} em {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Duração do Efeito do Dispositivo"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Quando pesquisado, aumenta o {EDCB9E_Start}raio do efeito dos Dispositivos Táticos{EDCB9E_End} em {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Duração do Raio do Dispositivo"
+
+msgid "booster/booster_heal/description"
+msgstr "Quando pesquisado, aumenta todos os{EDCB9E_Start}efeitos de cura{EDCB9E_End} aplicados ao veículo em{EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Efeitos de Cura"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Quando pesquisado, aumenta a quantidade de {EDCB9E_Start}dano transmitido pelos Obeliscos{EDCB9E_End} aos veículos inimigos em {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Dano Transmitido pelo Obelisco"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Quando pesquisado, aumenta o {EDCB9E_Start}raio de recolha de Mirium{EDCB9E_End} de inimigos em {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Raio de Recolha de Mirium"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Quando pesquisado, aumenta a{EDCB9E_Start}quantidade de Mirium recolhido{EDCB9E_End} de veículos destruídos em{EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Recolha de Mirium"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Quando pesquisado, aumenta a {EDCB9E_Start}quantidade de Mirium{EDCB9E_End} concedida por destruir uma onda em {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Mirium por Onda"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Quando pesquisado, aumenta o {EDCB9E_Start}montante de Mirium{EDCB9E_End} restaurado no ressurgimento em {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Mirium no Ressurgimento"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Quando pesquisado, aumenta a {EDCB9E_Start}capacidade máxima do veículo de Mirium{EDCB9E_End} em {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Capacidade de Mirium"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "PACOTE DEFENSOR"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Chaves adquiridas"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "A opção de ganhar x5 EXP após a segunda vitória do dia em qualquer veículo."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Missão para ×5 EXP ganha em batalha"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Configure a forma de ver os veículos pelo seu tipo, nação e outros parâmetros."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Filtrar por Parâmetros"
+
+msgid "common/back"
+msgstr "VOLTAR"
+
+msgid "common/close"
+msgstr "FECHAR"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "PARA O EVENTO"
+
+msgid "common/toRewardPath"
+msgstr "PARA A PROGRESSÃO"
+
+msgid "common/yes"
+msgstr "Afirmativo!"
+
+msgid "difficult/daily"
+msgstr "MISSÃO DE CHAVES DIÁRIAS DESBLOQUEADA"
+
+msgid "difficult/disabled/body"
+msgstr "Está num Pelotão. Apenas o Comandante pode alterar o nível de dificuldade."
+
+msgid "difficult/disabled/header"
+msgstr "Mudança de Dificuldade Indisponível"
+
+msgid "difficult/level_1"
+msgstr "Regular"
+
+msgid "difficult/level_2"
+msgstr "Avançada"
+
+msgid "difficult/level_3"
+msgstr "Brutal"
+
+msgid "difficult/new"
+msgstr "NOVO"
+
+msgid "difficult/searching/body"
+msgstr "Indisponível durante a pesquisa."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Os inimigos têm menos resistência e uma blindagem mais fraca. Volume normal de dados por batalha."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Os inimigos têm blindagem mais forte. Os Dados por batalha aumentam em {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Existem mais inimigos com blindagem mais forte. Os Dados por batalha aumentam em {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Recompensas por destruir a última onda pela primeira vez:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Dificuldade Regular"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Dificuldade Avançada"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Dificuldade Brutal"
+
+msgid "difficult/tooltip/locked"
+msgstr "Dificuldade Bloqueada"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Para desbloquear este nível de dificuldade, conclua o nível de dificuldade Regular."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Para desbloquear este nível de dificuldade, conclua o nível de dificuldade Avançada."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Dificuldade Disponível"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Dificuldade Selecionada"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Ondas destruídas: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "REGULAR"
+
+msgid "difficult/uppercase/level_2"
+msgstr "AVANÇADA"
+
+msgid "difficult/uppercase/level_3"
+msgstr "BRUTAL"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Os inimigos têm blindagem mais forte. Mais créditos e ×{{modifier}} de dados por batalha."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Mais inimigos com blindagem mais forte. Mais créditos e ×{{modifier}} de dados por batalha."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Combata e derrote ondas de inimigos e mostre a sua astúcia ao alcançar o topo da Tabela de Classificação. Recompensas únicas e muito mais esperam-no."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "NÍVEL DE DIFICULDADE AVANÇADA"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "NÍVEL DE DIFICULDADE BRUTAL"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "MODO ÚLTIMA POSIÇAO"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "AVANÇADA"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "BRUTAL"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "'ÚLTIMA POSIÇÃO'"
+
+msgid "difficultyWindow/rewards"
+msgstr "Recompensas pela conclusão:"
+
+msgid "difficultyWindow/title"
+msgstr "DISPONÍVEL"
+
+msgid "hangar/exit"
+msgstr "SAIR DO EVENTO"
+
+msgid "hangar/narration"
+msgstr "História"
+
+msgid "hangar/tooltip/about"
+msgstr "Saiba mais sobre o evento Última Posição: Terra Nord."
+
+msgid "hangar/tooltip/narration"
+msgstr "Saiba mais sobre a história do evento."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "DISPOSITIVOS TÁTICOS"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "CARREGAMENTO"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Última Posição"
+
+msgid "iconButton/comparison/default"
+msgstr "Comparação de veículos"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "A comparação de veículos está indisponível"
+
+msgid "iconButton/preview/default"
+msgstr "Pré-visualização do veículo"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "A pré-visualização do veículo está indisponível"
+
+msgid "keyCard/name"
+msgstr "Chaves de Descodificação"
+
+msgid "meta/btn/decrypt"
+msgstr "DESCODIFICAR"
+
+msgid "meta/btn/skip"
+msgstr "SALTAR"
+
+msgid "meta/btn/view"
+msgstr "VER"
+
+msgid "meta/receive/description"
+msgstr "Recolha %(keys) / %(decrypt) %(icon) \npara descodificar este Registo"
+
+msgid "metaIntro/description/fight"
+msgstr "Combata em batalhas de evento e ganhe dados para avançar na Progressão."
+
+msgid "metaIntro/description/progress"
+msgstr "Recolha dados para pesquisar melhoramentos de veículos e enfrentar desafios maiores."
+
+msgid "metaIntro/description/reward"
+msgstr "Conclua as Fases de Progressão para receber recompensas especiais do evento. Consulte o Caminho de Recompensas para mais detalhes."
+
+msgid "metaIntro/header/fight"
+msgstr "Batalhas de Evento"
+
+msgid "metaIntro/header/progress"
+msgstr "Melhoramentos"
+
+msgid "metaIntro/header/reward"
+msgstr "Recompensas Únicas"
+
+msgid "metaIntro/title"
+msgstr "PROGRESSÃO"
+
+msgid "missionWidget/complete"
+msgstr "Missão concluída.\nVote amanhã."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Conclua a Missão Diária atual, disponível a cada 24 horas para receber a recompensa. Missão de hoje:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Missão Diária"
+
+msgid "narration/actions/voiceover"
+msgstr "Voz"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}ULTRASECRETO{{/}}{{titleParagraph}}{{@ class $highlightText}}SETOR: N-07 (Perímetro \"Aurora\"){{/}}{{pargraphStart}}A nossa previsão estava correta. Os observadores da estação registaram a aproximação da anomalia 11 dias antes do evento. Pela primeira vez, vimo-la a chegar.{{pargraphStart}}Durante a calmaria antes da tempestade, a produção dos complexos ATLAS foi padronizada. Os novos módulos são montados mais rapidamente e calibrados com maior precisão. Realizámos treinos, ensaiámos formações e preparámos esquadrões de reforço. Alerta total.{{pargraphStart}}Mas a anomalia tinha os seus próprios planos.{{pargraphStart}}O Funil não se abriu no setor previsto. Apareceu aqui, numa região remota do norte, longe da infraestrutura implantada. Não é claro por que razão este local foi escolhido. Nada nos modelos indicava esta área. A reimplantação de emergência foi iniciada imediatamente, mas o terreno e a distância não estão a nosso favor. Alguns veículos e esquadrões chegarão atrasados.{{pargraphStart}}Cada complexo ATLAS que conseguimos entregar é agora indispensável.{{pargraphStart}}Desta vez, estávamos prontos para o combate. Mas para o combate num local diferente.{{pargraphStart}}ASSINATURA: CURADOR (PROJETO M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Nota Analítica 27/C \"SELEÇÃO DO LOCAL DE INVASÃO\"{{/}}{{titleParagraph}}Para uso interno. Carimbo \"Acesso Restrito\".{{pargraphStart}}Faço uma pergunta à qual sou obrigado a responder, mas não consigo: Porquê aqui?{{pargraphStart}} Esta região não tem valor estratégico para o Funil. Não há nada aqui. Nenhuma infraestrutura, nenhum povoado. Apenas uma base militar inoperacional na ilha. Os tanques Eco não conseguem atravessar o mar. Então, porquê capturar um local de onde não podem atacar? {{pargraphStart}}Solicitei o histórico operacional completo da região. A resposta foi fortemente censurada. Secções inteiras tinham sido apagadas. Um segundo pedido foi devolvido com a nota \"acesso restrito pela autoridade de {{@ class $highlightSecondaryText}}[DADOS REMOVIDOS]{{/}}\". Eu, o chefe do departamento de investigação, cujas recomendações determinam a estratégia de defesa deste setor, estou a ser privado de informações sobre este território!{{pargraphStart}} Eis o que consigo deduzir a partir dos dados de campo: o comportamento do Funil não corresponde ao que observámos no setor R-22. Surgiram novos tipos de tanques eco que nunca tínhamos encontrado antes. Correspondem, em termos de função, aos nossos antitanques de longo alcance e são extremamente eficazes neste tipo de terreno. O adversário aprendeu com as nossas táticas e tomou contramedidas. Agora é a nossa vez de nos adaptarmos.{{pargraphStart}}Pode ser que ele precise deste lugar. Ou talvez do que está por baixo dele.{{pargraphStart}}Não sei. E preocupa-me que alguém saiba, mas não diga.{{pargraphStart}}ASSINATURA: CURADOR (PROJETO M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}REGISTO PESSOAL DO CURADOR{{/}}{{pargraphStart}}Revi as minhas próprias hipóteses. Todas as três.{{pargraphStart}}  1. A anomalia procura destruir-nos. {{pargraphStart}}  2. A anomalia está a fazer experiências. Ela investiga as nossas táticas, estuda a nossa resposta, ajusta-se e aprende.{{pargraphStart}}  3. A anomalia está a treinar. Cada onda é um exercício das suas novas táticas; cada batalha é um treino em condições de campo.{{pargraphStart}}As três hipóteses partilham a suposição de que somos o alvo desta invasão.{{pargraphStart}}Mas e se não formos?{{pargraphStart}} E se a anomalia estiver a fazer outra coisa, e nós estivermos simplesmente no seu caminho? Como um formigueiro inundado enquanto se constrói uma estrada. O construtor não entra em guerra com as formigas. Simplesmente não repara nelas.{{pargraphStart}}Podes deter um inimigo que te quer destruir. Podes negociar com ele. Mas não podes assustar algo que não reconhece a tua existência; não podes ser mais esperto do que ele. Não pode ser detido. Porque nunca fizeste parte dos seus cálculos.{{pargraphStart}}Acho que temos vindo a fazer a pergunta errada. Não devíamos perguntar por que nos está a atacar, mas se repara em nós sequer.{{pargraphStart}}ASSINATURA: CURADOR (PROJETO M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}RELATÓRIO FINAL{{/}}{{titleParagraph}}{{@ class $highlightText}}ESTADO: DESCLASSIFICADO (PARCIALMENTE){{/}}{{pargraphStart}}Às 03:47, o Funil colapsou. A atividade da anomalia cessou. O setor está limpo.{{pargraphStart}}Nos segundos finais antes do colapso, os medidores ATLAS registaram um pico de energia que excedeu todos os valores anteriormente registados. As tripulações observaram uma manifestação física de curta duração no centro da anomalia, que não durou mais de 12 segundos. Depois disso, o Funil fechou-se. {{pargraphStart}}Declaração oficial: O incidente terminou. O território foi defendido com sucesso. A quarentena foi levantada do setor.{{pargraphStart}}{{@ class $highlightText}}NOTA PESSOAL DO CURADOR (Apenas para reservas especiais){{/}}{{pargraphStart}}Não vencemos. Acabou.{{pargraphStart}}Isto não foi uma invasão. Foi um disfarce. Um perímetro de proteção em torno do que se manifestou no centro do Funil segundos antes do seu colapso.{{pargraphStart}}Dezenas de Obeliscos apareceram simultaneamente. Ainda não sabemos o que estavam a fazer. O ATLAS registou todos os parâmetros, mas levará tempo a interpretá-los. Sabemos uma coisa com quase toda a certeza: a anomalia completou algum tipo de processo.{{pargraphStart}}Fosse o que fosse que estivesse a fazer, precisamos de nos preparar para o próximo ataque. Temos dados suficientes agora. Os nossos engenheiros já estão a analisar as gravações e, para ser sincero, nunca os vi tão entusiasmados. Acham que podemos reforçar significativamente os nossos veículos. Precisamos de o fazer antes que o Funil regresse. {{pargraphStart}}Não consigo parar de pensar numa coisa: se isto aconteceu aqui e durou tão pouco tempo, quantas vezes já terá acontecido antes? Em locais onde não havia o ATLAS, ninguém para ver o que se passava...{{pargraphStart}}ASSINATURA: CURADOR (PROJETO M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Estamos Prontos"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Porquê Aqui?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. A Pergunta Errada"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Terminou"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Conclua o nível de dificuldade Regular para prosseguir para a próxima parte da História."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Conclua o nível de dificuldade Avançada para prosseguir para a próxima parte da História."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Conclua o nível de dificuldade Brutal para prosseguir para a próxima parte da História."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Próxima História"
+
+msgid "preBattle/leave"
+msgstr "Sair da Batalha"
+
+msgid "preBattle/searching"
+msgstr "À PROCURA DE ALIADOS"
+
+msgid "preBattle/tip"
+msgstr "A demorar demasiado a encontrar uma Força Operacional? Tente mudar o nível de dificuldade."
+
+msgid "preBattle/uppercase/leave"
+msgstr "SAIR DA BATALHA"
+
+msgid "promoWindow/header"
+msgstr "JOGUE A ÚLTIMA POSIÇÃO"
+
+msgid "promoWindow/subheader"
+msgstr "Explore um novo capítulo do modo de jogo PvE Última Posição de {dateRange}.\nGanhe um conjunto de {cream_open}acessórios 3D{cream_close} temáticos, Equipamento Experimental e mais recompensas exclusivas."
+
+msgid "questCard/allCompleted"
+msgstr "Todas as missões diárias concluídas"
+
+msgid "questCard/completed"
+msgstr "Missão diária concluída.\nVolte amanhã."
+
+msgid "reward/rest"
+msgstr "E mais %(count)s"
+
+msgid "rewardPath/about"
+msgstr "SOBRE OS OBJETIVOS"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Saiba mais sobre a Progressão do evento."
+
+msgid "rewardPath/boostTitle"
+msgstr "Acelere o seu progresso e ganhe mais dados {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Ver na Loja"
+
+msgid "rewardPath/completed"
+msgstr "Todos os dados e recompensas recebidos"
+
+msgid "rewardPath/completedTitle"
+msgstr "Visite a Loja para obter elementos de personalização únicos e temáticos"
+
+msgid "rewardPath/intro"
+msgstr "INTRODUÇÃO"
+
+msgid "rewardPath/introTooltip"
+msgstr "Veja o vídeo introdutório."
+
+msgid "rewardPath/progress"
+msgstr "Dados recebidos na FASE {artefactIndex}: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "PROGRESSÃO"
+
+msgid "rewardPathCard/completed"
+msgstr "Concluída"
+
+msgid "rewardPathCard/name"
+msgstr "Caminho de Recompensas"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Pacotes de Evento"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Cancelar"
+
+msgid "squad/goToAnother/message"
+msgstr "O Pelotão vai ser dispensado."
+
+msgid "squad/goToAnother/submit"
+msgstr "Sair"
+
+msgid "squad/goToAnother/title"
+msgstr "Sair do evento Última Posição: Terra Nord?"
+
+msgid "squad/leave/cancel"
+msgstr "Cancelar"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "O Pelotão vai ser dispensado."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Afirmativo!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "O evento Última Posição: Terra Nord terminou"
+
+msgid "squad/leave/message"
+msgstr "O Pelotão vai ser dispensado."
+
+msgid "squad/leave/submit"
+msgstr "Sair"
+
+msgid "squad/leave/title"
+msgstr "Sair do Pelotão de Última Posição: Terra Nord?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Continuar"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Está no Pelotão e pronto para a batalha."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Não pode sair do Pelotão!"
+
+msgid "stageReward/rewards/received"
+msgstr "Também recebeu:"
+
+msgid "stageReward/special/header"
+msgstr "NÍVEL DE DIFICULDADE BRUTAL CONCLUÍDO!"
+
+msgid "stageReward/special/subheader"
+msgstr "Recompensa especial recebida"
+
+msgid "stageReward/stage/header"
+msgstr "RECOMPENSAS RECEBIDAS"
+
+msgid "stageReward/stage/subheader"
+msgstr "Última Posição: Fase {{number}} concluída"
+
+msgid "stageReward/stageFinal/header"
+msgstr "TODAS AS RECOMPENSAS RECEBIDAS"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Última Posição: Fase Final concluída"

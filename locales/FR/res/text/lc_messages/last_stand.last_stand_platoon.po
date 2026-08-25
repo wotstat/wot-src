@@ -1,0 +1,77 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Créez une unité tactique de 2 à 5 joueurs pour coopérer\ndans Ultime combat."
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Peloton"
+
+msgid "members/header/last_stand"
+msgstr " : Ultime combat : Grand Nord"
+
+msgid "members/header/tooltip/last_stand/body"
+msgstr "Pour entrer en bataille d'évènement, tous les membres du peloton doivent avoir accès au niveau de difficulté sélectionné par le chef du peloton."
+
+msgid "members/header/tooltip/last_stand/header"
+msgstr "Règles de création d'un peloton"
+
+msgid "platoon/commander/difficulty_body"
+msgstr "Vous pouvez sélectionner n'importe lequel des niveaux de difficulté disponibles."
+
+msgid "platoon/difficulty/error_body_1"
+msgstr "Niveaux de difficulté disponibles : Normal."
+
+msgid "platoon/difficulty/error_body_2"
+msgstr "Niveaux de difficulté disponibles : Normal, Avancé."
+
+msgid "platoon/difficulty/error_header"
+msgstr "Difficulté indisponible"
+
+msgid "platoon/difficulty/level_1"
+msgstr "Difficulté : Normale"
+
+msgid "platoon/difficulty/level_2"
+msgstr "Difficulté : Avancée"
+
+msgid "platoon/difficulty/level_3"
+msgstr "Difficulté : Brutale"
+
+msgid "platoon/difficulty/level_4"
+msgstr "Difficulté : Ultime combat"
+
+msgid "platoon/difficulty/lock_header"
+msgstr "Niveau de difficulté verrouillé"
+
+msgid "platoon/difficulty/maxAvailable"
+msgstr "Difficulté disponible {%(icon)s}"
+
+msgid "platoon/difficulty/warning_body"
+msgstr "Un ou plusieurs membres du peloton n'ont pas déverrouillé ce niveau de difficulté."
+
+msgid "platoon/difficulty/warning_header"
+msgstr "Difficulté incompatible"
+
+msgid "platoon/dropdown/difficulty_1"
+msgstr "Normale %(icon)s"
+
+msgid "platoon/dropdown/difficulty_2"
+msgstr "Avancée %(icon)s"
+
+msgid "platoon/dropdown/difficulty_3"
+msgstr "Brutale %(icon)s"
+
+msgid "platoon/dropdown/header/difficulty"
+msgstr "{whiteSpanish_Open}Difficulté : {whiteSpanish_Close}%(difficulty)s"
+
+msgid "platoon/player/difficulty_body"
+msgstr "Seul le chef du peloton peut changer le niveau de difficulté."
+
+msgid "platoon/simpleState/difficultyDisabled"
+msgstr "Indisponible pour des raisons techniques."
+
+msgid "platoon/simpleState/lockVehicle"
+msgstr "Le véhicule sélectionné n'est pas disponible."
+
+msgid "platoon/simpleState/notAvailableLevel"
+msgstr "Niveau de difficulté incompatible pour le peloton."

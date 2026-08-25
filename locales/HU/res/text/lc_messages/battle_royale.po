@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Az összes elérhető szerveren tűzszünet van hatályban."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "Ezen a szerveren tűzszünet van hatályban."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Szerverváltás"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Az Acélvadász mód véget ért"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "A mód nem érhető el ezen a szerveren"
+
+msgid "banner/info/disabled"
+msgstr "Tűzszünet"
+
+msgid "banner/info/seasonActive"
+msgstr "Második esély és jutalmak"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "%(month)s %(day)s-ig"
+
+msgid "banner/subtitle"
+msgstr "Battle royale értékes jutalmakkal"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s ó"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s ó %(minutes)s p"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s perc"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "ACÉLVADÁSZ"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "A csata egy új pozícióból folytatódik majd."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Hamarosan újraéledsz"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Újraéledés"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Nem lesz második esélyed."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Az újraéledés már nem elérhető"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Az újraéledés már nem sokáig érhető el!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Ezúttal legyél óvatosabb."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "A járműved készen áll a csatára!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Visszatérés a csatába"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Aktív küzdelem folyik."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Az újraéledés nem elérhető"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Találj egy újraéledési töltetet, hogy visszahozd a harcba."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Szövetséges jármű megsemmisítve"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Újraéledés"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "Két jármű jobb, mint egy!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "A szövetséges jármű újraéledt"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Maradj ki a harcból!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Szövetséges újraélesztése"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Bónusz aktiválva!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Jutalom az első helyért"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Csatában begyűjtve"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "GYŐZELEM"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Nincs kiválasztva fejezet. El nem költött Battle Pass pontok: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Minden fejezet teljesítve. Játssz tovább és gyűjts Battle Pass pontokat."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Menj a Battle Pass-hoz"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Battle Pass"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Válassz ki egy fejezetet"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Menj az aktív fejezet előrehaladásához"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Menj a Battle Pass-hoz"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "A csatában teljesített küldetések: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Küldetések"
+
+msgid "battleResult/battleReward/title"
+msgstr "CSATÁBAN MEGSZEREZVE"
+
+msgid "battleResult/button/hangar"
+msgstr "A Garázsba"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "A pontok és jutalmak az után lesznek elosztva, hogy minden játékos befejezte a csatát. A küldetések a csata eredmények alapján lesznek értékelve."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Nyomd meg az %(esc) gombot az animáció átugrásához"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Meghívás szakaszba"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Szövetséges"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Véletlenszerű szövetséges"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Csatatípus"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "EGYÉNI CSATA"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "WoT Prémium fiókkal a következőket kaphatod:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Teljes értékek WoT Prémium fiókkal"
+
+msgid "battleResult/progressStage"
+msgstr "{stage}. szakasz állapota"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "A játékos valós beceneve és klánrövidítése nem jelenik meg a többi játékos számára a csatában."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Játékos valós beceneve: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "A játékos valós beceneve a következőre változott: {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "A járműved páncélzata által felfogott sérülés mennyisége."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Az általad okozott sérülés."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Az általad megsemmisített ellenséges járművek száma."
+
+msgid "battleResult/stats/body/place"
+msgstr "Helyezésed a csataeredmények alapján."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "A szakaszod által megsemmisített ellenséges járművek száma."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Felfogott sebzés"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Okozott sebzés"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Általad megsemmisítve"
+
+msgid "battleResult/stats/header/place"
+msgstr "Helyezés"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Szakasz által megsemmisítve"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Felfogott sebzés"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Okozott sebzés"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Általad megsemmisítve"
+
+msgid "battleResult/stats/title/place"
+msgstr "Helyezés"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Szakasz által megsemmisítve"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Rangsor"
+
+msgid "battleResult/tab/result"
+msgstr "Csata eredmények"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "SZAKASZ MEGSEMMISÜLT"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "JÁRMŰ MEGSEMMISÍTVE"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "GYŐZELEM"
+
+msgid "battleResult/title/victoryOther"
+msgstr "DICSŐSÉGES HELYEZÉS"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Válassz egyet a különleges járművek közül az Acélvadász módhoz."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Nem kompatibilis jármű"
+
+msgid "button/modules"
+msgstr "FEJLESZTÉS"
+
+msgid "button/repair"
+msgstr "Javítás"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "A csaták átmenetileg nem érhetők el"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "A csaták átmenetileg nem érhetők el"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "A mód nem érhető el"
+
+msgid "ceasefire/header/schedule"
+msgstr "Csata-időbeosztás"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Az összes elérhető szerveren tűzszünet van hatályban. Alább láthatod a menetrendet."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "Ezen a szerveren tűzszünet van hatályban. Másik szerverre átváltva hozzáférhetsz a módhoz."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Az Acélvadász nem érhető el ezen a szerveren. Másik szerverre átváltva hozzáférhetsz."
+
+msgid "commanderInfo/commonRank"
+msgstr "Parancsnok"
+
+msgid "commanderInfo/description/china"
+msgstr "\"Már nyertem. Hamarosan rá fogsz jönni.\""
+
+msgid "commanderInfo/description/france"
+msgstr "\"Én vagyok a törvény!\""
+
+msgid "commanderInfo/description/germany"
+msgstr "\"Dicsőséges nap a mai, ami be fog vonulni a történelembe.\""
+
+msgid "commanderInfo/description/poland"
+msgstr "\"Nincs idő az udvariasságra.\""
+
+msgid "commanderInfo/description/sweden"
+msgstr "\"Minden a terv szerint történik.\""
+
+msgid "commanderInfo/description/uk"
+msgstr "\"Akárki is vagy, légy a legjobb.\""
+
+msgid "commanderInfo/description/usa"
+msgstr "\"A fejsze bekészítve, frissen fényesítve és élesítve.\""
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"A győztes mindent visz!\""
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Készségek"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nKülönleges jármű az Acélvadász módhoz"
+
+msgid "fragPanel/squadsCount"
+msgstr "Szakaszok: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Rangsor"
+
+msgid "hangarResults/btns/summary"
+msgstr "Csata eredmények"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "BEZÁRÁS"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "A modulokat csak csatában lehet fejleszteni. A fejlesztés menü megnyitásához nyomd meg a(z) %(key)s gombot a csatában."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s és %(highlight2)s, hogy tapasztalatot gyűjts. Minden egyes elért szint lehetővé teszi, hogy modulokat fejlessz a fejlesztés menüből és jelentősen javítsd a járműved karakterisztikáját."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Okozz sérülést ellenséges járműveknek"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "gyűjts hadizsákmányt a pályán"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Jármű fejlesztés a csatában"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Egy I-es szintű járművel indulsz csatába."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "A modulokat a Fejlesztés menüből a csatában (%(treeKey)s gomb alapértelmezetten) és a %(leftModuleKey)s - %(rightModuleKey)s billentyűkombinációval fejlesztheted.\n\nModulokat csak csatában fejleszthetsz."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "Csatában:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Az Acélvadászod tapasztalatot szerez a csatában a kiosztott sebzésért és az összegyűjtött hadizsákmányokért. Amint a szükséges mennyiségű tapasztalat összegyűlt, elérheted a következő szintet és kiválaszthatsz egy fejlesztést valamelyik modulhoz."
+
+msgid "levelUp/severalTitles"
+msgstr "MEGSZERZETT SZINTEK: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "%(level)s. SZINT MEGSZEREZVE!"
+
+msgid "levelUp/twoTitles"
+msgstr "MEGSZERZETT SZINTEK: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Teljesíts küldetéseket és szerezz értékes jutalmakat."
+
+msgid "level_up/max_level_info/title"
+msgstr "Új napi küldetések érhetőek el"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "A szezon\nhamarosan indul"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "A szezon kezdete: %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Blokkolás"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Sebzés"
+
+msgid "playerStats/killsStat/name"
+msgstr "Megsemmisítve"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Megsemmisítve"
+
+msgid "playerStats/placeStat/name"
+msgstr "Pozíció"
+
+msgid "playerStats/title"
+msgstr "Személyes pontszám"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Rádió észlelés nem elérhető: előkészítés folyamatban"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "A jármű teljesen működőképes. Nem szükséges visszaállítás."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Harctéri robot megsemmisítve"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s megsemmisítette %(target)s -t."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s megsemmisítette %(target)s ellenséget."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Tűzlabda megsemmisült"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Aknák lejártak"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Aknák lerakva"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Rádió észlelés használatra kész"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "A jármű elérte a maximális szintet"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "%(level)s. szint elérve"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Felszerelve: %(moduleType)s. Fejlesztve: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Járműtest"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Felfüggesztés"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Motor"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Löveg"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Rádió észlelés"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Torony"
+
+msgid "playersPanel/title"
+msgstr "CSAPAT"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Válts a szakasz járművei között."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Megfigyelő mód"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Vissza a garázsba.\nLépj be egy csatába másik járművel."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Vissza a garázsba"
+
+msgid "preBattle/buttonTitle"
+msgstr "CSATA!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Válassz egy pályát"
+
+msgid "preBattle/listTitle"
+msgstr "JÁTÉKOS KÉSZENLÉT"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Dreamland"
+
+msgid "preBattle/mapRandom"
+msgstr "Véletlenszerű pálya"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "SZAKASZ JÁRMŰVEK"
+
+msgid "preBattle/title"
+msgstr "NAGY VADÁSZAT"
+
+msgid "preBattle/userFooterTitle"
+msgstr "KIVÁLASZTOTT JÁRMŰVEK"
+
+msgid "preBattle/userNotReady"
+msgstr "Nincs kész"
+
+msgid "preBattle/userReady"
+msgstr "Kész"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "A(z) %(cycleNo)s. szezon a(z) %(server)s szerveren befejeződött"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "A szezon a(z) %(server)s szerveren befejeződött."
+
+msgid "proxyPanel/button"
+msgstr "Bolt"
+
+msgid "proxyPanel/label"
+msgstr "Acélpecsétek"
+
+msgid "proxyPanel/store"
+msgstr "BOLT"
+
+msgid "questsTooltip/timeLeft"
+msgstr "A szezon végéig hátra van: %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "Nincs gomb hozzárendelve a Rádió észleléshez"
+
+msgid "radar/hint/press"
+msgstr "Nyomd meg a(z)"
+
+msgid "radar/hint/text"
+msgstr "gombot, hogy aktiváld a Rádió észlelést"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Partraszállás"
+
+msgid "selectRespawn/button/land"
+msgstr "Partraszállás"
+
+msgid "selectRespawn/description"
+msgstr "Kattints a javasolt pontok egyikére. Ha nem választasz pontot, akkor a javasolt pontok egyikén fogsz partraszállni."
+
+msgid "selectRespawn/header"
+msgstr "Válassz egy partraszállási pontot"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Kattints a javasolt pontok egyikére. Ha nem választasz pontot, akkor a javasolt pontok egyikén fogsz partraszállni."
+
+msgid "selectRespawn/text/startHere"
+msgstr "A csatád itt kezdődik"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Válassz egy partraszállási pontot"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s n"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s ó %(min)s perc"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 perc"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s perc"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "DÜHÖNGÉS!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "A sav korrodálja a páncélt!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Zóna lezárva! Hagyd el a zónát, különben a járműved meg fog semmisülni!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "A zóna hamarosan vörösre vált"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "A mobilitás csökkent!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Újra talpon..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Életerő visszaállítása"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Életerő visszaállítása"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Sebzés átalakítása"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Technikai karakterisztikák fejlesztve"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Lőszerek és visszaállítás"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Légi szállítmány"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Javítókészlet vagy képességtöltet"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Hadizsákmány"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Kombinált hadizsákmány: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Begyűjtés: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Javító zóna"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Hullámzó hevület!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Füstben"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "A páncélunk rozsdásodik!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "A mobilitás csökkent!"
+
+msgid "techParams/type/damage"
+msgstr "Sebzés"
+
+msgid "techParams/type/difficulty"
+msgstr "Nehézség"
+
+msgid "techParams/type/mobility"
+msgstr "Mobilitás"
+
+msgid "techParams/type/spotting"
+msgstr "Felderítés"
+
+msgid "techParams/type/survivability"
+msgstr "Túlélőképesség"
+
+msgid "techtree/body_armor"
+msgstr "Páncél"
+
+msgid "techtree/body_health"
+msgstr "Életerő"
+
+msgid "techtree/body_mobility"
+msgstr "Mozgékonyság"
+
+msgid "techtree/engine_acceleration"
+msgstr "Dinamika"
+
+msgid "techtree/engine_speed"
+msgstr "Végsebesség"
+
+msgid "techtree/gun_alpha"
+msgstr "Lövésenkénti sebzés"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Automata újratöltő"
+
+msgid "techtree/gun_clip"
+msgstr "Tártöltő"
+
+msgid "techtree/gun_dpm"
+msgstr "Töltési sebesség"
+
+msgid "techtree/gun_dualgun"
+msgstr "Dupla löveg"
+
+msgid "techtree/gun_he"
+msgstr "R.RO lövedék sebzés"
+
+msgid "techtree/gun_machinegun"
+msgstr "Páncéltörő géppuska"
+
+msgid "techtree/gun_piercing"
+msgstr "Páncélátütés"
+
+msgid "techtree/radar_cooldown"
+msgstr "Rádió észlelés visszatöltés"
+
+msgid "techtree/radar_distance"
+msgstr "Észlelési távolság"
+
+msgid "techtree/turret_armor"
+msgstr "Páncél"
+
+msgid "techtree/turret_health"
+msgstr "Életerő"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Forgási sebesség"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "Akár {{credits}} kredit"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "Akár {{experience}} XP"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Szakaszcsatabónusz"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Csatázz szakaszban egy véletlenszerűen választott szövetségessel! Játsszatok csapatként kilenc ellenséges szakasz ellen! A szakaszküldetéseket teljesítheted ebben a módban. A szakasz a csata után automatikusan felbomlik."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Klasszikus Acélvadász. Minden játékos önmagáért küzd. Gyűjts nyersanyagokat, fejleszd a járművedet, és használd ki az egyedi képességeit, hogy te maradj talpon a legvégén!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Csatázz szakaszban egy barátoddal! Játsszatok csapatként kilenc ellenséges szakasz ellen! A szakaszküldetéseket teljesítheted ebben a módban."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Véletlenszerű szakasz"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Egyedüli mód"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Szakasz baráttal"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Szóló"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Szakasz"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "A pontszerzés szabályai"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s. helyezés"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s. helyezés"
+
+msgid "tooltips/awards/achievement"
+msgstr "Medál"
+
+msgid "tooltips/awards/badge"
+msgstr "Jelvény"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "Lehetővé teszi számodra, hogy visszatérj a csatába, miután a járműved megsemmisült. Ha ez megtörténik, a jármű fejlesztési szintje nem veszik el. Korlátozott alkalommal használható egy csatában."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Újraéledési tölteteket légi szállítmányokból szerezhetsz."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "Egy szövetséges újraélesztéséhez maradj ki a harcból {brown_Open}%(timeToResurrect)s másodpercig{brown_Close}. Ez a mechanika a csata első{brown_Open} %(duration)s percében{brown_Close} működik. Az újraéledési töltetek megoszlanak a szakasz tagjai között."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "Szakaszban játszva"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Ha megsemmisült, a járműved automatikusan újraéled. Ez a mechanika a csata első {brown_Open}%(duration)s percében{brown_Close} működik."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "Egyedül játszva"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Egyszeri használat"
+
+msgid "tooltips/respawn/title"
+msgstr "Újraéledés"
+
+msgid "tooltips/vehicle/description"
+msgstr "Jármű az Acélvadász módhoz"
+
+msgid "tournament/description"
+msgstr "NAGY VADÁSZAT"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Nincs kész"
+
+msgid "tournament/fightButton/ready"
+msgstr "Kész!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Nem sikerült belépni a versenyre. Hibakód: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Nagy vadászat verseny hiba. Hibakód: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "NAGY VADÁSZAT"
+
+msgid "tournament/type/solo"
+msgstr "Típus: Egyedüli"
+
+msgid "tournament/type/squad"
+msgstr "Típus: Szakasz"
+
+msgid "upgradePanel/alert/0"
+msgstr "Nem fejlesztheted a járműved!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Nem fejlesztheted a járművet aktív harcban!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Nem fejlesztheted a járműved. A jármű víz alatt van!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Nem fejlesztheted a járműved. A jármű felborult!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Nyomd meg a(z) %(key)s gombot a Fejlesztés menü megnyitásához"
+
+msgid "upgradePanel/title/default"
+msgstr "Új modul érhető el"
+
+msgid "upgradePanel/title/hull"
+msgstr "Új járműtest érhető el"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Új felfüggesztés érhető el"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Új motor érhető el"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Új löveg érhető el"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Új rádió érhető el"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Új torony érhető el"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "VAGY"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Páncél"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Lövésenkénti sebzés"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Töltési sebesség"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Életerő"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Páncélátütés"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Rádió észlelési művelet"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Tár töltőrendszer"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Sebesség"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Jármű jellemzői"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Erősségek"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Gyengeségek"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Tűzszünet van érvényben az összes szerveren. A csaták %(time)s múlva lesznek elérhetőek"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Válassz másik szervert"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "%(cycle)s epizód befejeződött"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Az epizód lezárult"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Tűzszünet van érvényben ezen a szerveren. A csaták %(time)s múlva lesznek elérhetőek"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Tűzszünet van érvényben: %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Epizód %(cycle)s kezdetéig hátravan: %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "Az első epizód kezdetéig: %(time)s"

@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Begrenset kurs"
+msgstr[1] "Begrenset kurs %(index)s"
+msgstr[2] "Begrenset kurs %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "Minst en grenset overskredet. Del av betalingen gjøres ved neste veksling."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Basis vekslingskurs"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "Den neste gjeldende kursen"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Antall aktive begrensede vekslinger: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Totalbegrensning på veksling: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "Etter veksling:"
+
+msgid "common/cancel"
+msgstr "Avbryt"
+
+msgid "common/combinedDiscount"
+msgstr "Kombinert rabatt"
+
+msgid "common/exchange"
+msgstr "Veksle"
+
+msgid "common/exchangeRate"
+msgstr "Vekslingskurs"
+
+msgid "common/limitExceeded"
+msgstr "Grense oversteget. Veksling vil bli utført med kombinert rabatt."
+
+msgid "common/limitOverExceeded"
+msgstr "Grense oversteget: Kombinert rabatt vil bli benyttet."
+
+msgid "common/limitRestrictions"
+msgstr "FINN UT MER"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Basis vekslingskurs: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Generell vekslingskurs: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "%(gold)s gull vekslet. Credits mottatt: %(res)s."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Personlig vekslingskurs: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Personlig vekslingskurs: %(rateFrom)s = %(rateTo)s. Grense overskredet"
+
+msgid "exchangeXP/information"
+msgstr "%(res)s erfaringspoeng vekslet til fri erfaring. Gull benyttet: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "Tilgjengelig mengde erfaringspoeng:"
+
+msgid "experienceExchange/paid"
+msgstr "Brukt"
+
+msgid "experienceExchange/received"
+msgstr "Mottatt"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Sorter etter kjøretøyenes nivå"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Sorter etter nivå på feltmodifikasjoner"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Sorter etter kjøretøyenes navn"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Sorter etter nasjoner"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Sorter etter type kjøretøy"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Sorter etter valgte kjøretøy"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Sorter etter tjente erfaringspoeng"
+
+msgid "goldExchange/paid"
+msgstr "Fra"
+
+msgid "goldExchange/received"
+msgstr "Til"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s gull = %(resourceRate)s credits"
+
+msgid "notification/discountDescription/message"
+msgstr "Personlig vekslingskurs"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "Til veksling"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Ny vekslingskurs!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Basis vekslingskurs"
+
+msgid "tooltip/common/generalRate"
+msgstr "Generell vekslingskurs"
+
+msgid "tooltip/common/personalRate"
+msgstr "Personlig vekslingskurs"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Gunstig vekslingskurs"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Midlertidig vekslingskurs"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "Mengde kan bare vises etter at man har kjøpt gull."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Mengde gull etter veksling"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s gull = %(resourceRate)s fri erfaring"

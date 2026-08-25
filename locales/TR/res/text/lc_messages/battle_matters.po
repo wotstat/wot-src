@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Taslak"
+
+msgid "animations/crew_close"
+msgstr "KAPAT"
+
+msgid "animations/shop"
+msgstr "Satın Almaya Git"
+
+msgid "battleMattersTab"
+msgstr "Tank Akademisi"
+
+msgid "battleResults/descr"
+msgstr "Tank Akademisi: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Tank Akademisi Görevlerine Git"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Bu savaştaki gelişim"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "İptal"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "KAPAT"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Onayla"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "{whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} aracını mürettebat ve bir Garaj yuvası ile alacaksınız."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Akademi Jetonlarınızı %(vehicleName)s ile takas etmek istiyor musunuz?"
+
+msgid "entryPoint/hint"
+msgstr "EĞİTİM GÖREVLERİ\nSERİSİ"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Görev tamamlandı: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Tank Akademisi"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Tamamlama ödülü:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Görevler şu anda teknik nedenlerle devre dışıdır. Tamamlanan görevlerdeki gelişiminiz kaydedilecektir."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Tüm görevler tamamlandı"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Görevler geçici olarak devre dışı"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Koşullar:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Jetonu herhangi bir araştırılabilir Seviye VI araçla takas edin."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "GERİ DÖN"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "TANK AKADEMİSİ GÖREVLERİNE"
+
+msgid "mainRewardsScreen/done"
+msgstr "Garajda"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Ön İzleme"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Kiralama günü: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Ana ödül olarak {cream_Open}14 günlüğüne{cream_Close} kiralık üç adet Premium Seviye VIII araç alacağınız eğitim görevleri serisini tamamlayın."
+
+msgid "mainRewardsScreen/title"
+msgstr "TANK AKADEMİSİ"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Seçin"
+
+msgid "mainScreen/infoButton"
+msgstr "YENİ BAŞLAYANLAR REHBERİ"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "REHBER"
+
+msgid "mainScreen/list/arrow"
+msgstr "Mevcut göreve gitmek için tıklayın."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Ana ödül alındı"
+
+msgid "mainScreen/progress"
+msgstr "Tamamlanan görevler: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Nasıl Tamamlanır"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Önceki görevi tamamlayın"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Kapalı"
+
+msgid "mainScreen/showMainReward"
+msgstr "Ana Ödüle Bakın"
+
+msgid "mainScreen/target"
+msgstr "Tüm görevleri tamamlayın ve üç adet kiralık Seviye VIII araç alın."
+
+msgid "mainScreen/title"
+msgstr "TANK AKADEMİSİ"
+
+msgid "pausedScreen/buttonText"
+msgstr "Garaja"
+
+msgid "pausedScreen/description"
+msgstr "Tank Akademisi, teknik nedenlerle geçici olarak devre dışıdır. Tüm gelişim kaydedilecektir. Verdiğimiz rahatsızlık nedeniyle özür dileriz."
+
+msgid "pausedScreen/title"
+msgstr "Geçici Olarak Devre Dışı"
+
+msgid "rewards/additionalTitle"
+msgstr "Ayrıca şunları aldınız:"
+
+msgid "rewards/footer/confirm"
+msgstr "Olumlu!"
+
+msgid "rewards/footer/more"
+msgstr "Diğer: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Sonraki Göreve"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Garajda Bak"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Görev koşulları daha önce karşılandı"
+
+msgid "rewards/rent"
+msgstr "Kiralama günü: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "SON GÖREV TAMAMLANDI"
+
+msgid "rewards/subTitle/regular"
+msgstr "%(questNumber)s GÖREVİ TAMAMLANDI"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "AKADEMİ JETONU KARŞILIĞI ARAÇ ALINDI"
+
+msgid "rewards/title"
+msgstr "TANK AKADEMİSİ"
+
+msgid "rewards/token/action"
+msgstr "Araç Seçin"
+
+msgid "rewards/token/description"
+msgstr "İstediğiniz herhangi bir Seviye VI aracı anında almak için bir jeton kullanın."
+
+msgid "rewards/token/title"
+msgstr "Akademi Jetonunu bir araç ile takas edin"
+
+msgid "tokenTooltip/condition"
+msgstr "Jetonlar bir seri eğitim görevini başarıyla tamamlayıp Tank Akademisinde gerekli gelişmeyi gösterme karşılığında verilir."
+
+msgid "tokenTooltip/description"
+msgstr "Jetonlar herhangi bir Seviye VI araç ile takas edilebilir. Araç, mürettebat ve bir Garaj yuvası ile birlikte gelmektedir."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Jeton süresi: {cream_open}%(days)s gün{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Jetonların geçerliliği: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Jeton süresi: {cream_open}%(hours)s sa.{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Jeton süresi: {cream_open}%(minutes)s dk.{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Akademi Jetonu"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Aracınıza ek olarak {cream_Open}%(crewIcon)smürettebat{cream_Close} ve bir {cream_Open}%(hangarIcon)sGaraj{cream_Close} {cream_Open}yuvası{cream_Close} alacaksınız."
+
+msgid "vehicleSelection/back"
+msgstr "GERİ DÖN"
+
+msgid "vehicleSelection/backTo"
+msgstr "TANK AKADEMİSİ GÖREVLERİNE"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Karşılaştırmaya Ekle"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Araçların gösterimini türlerine ve ülkelerine göre düzenleyin."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Parametrelere Göre Filtreleme"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Süzgeçi varsayılan değerlere sıfırlamak için tıklayın."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Varsayılana Sıfırla"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Ülke"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Parametrelere Göre Filtreleme"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Araç Türü"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Bir şey bulunamadı. Süzgeç ayarlarınızı değiştirin veya varsayılana sıfırlayın."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Süzgeci Sıfırlayın"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Akademi Jetonu ile takas edebileceğiniz tüm Seviye VI araçları araştırdınız."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Seçilecek Araç Yok"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "İsimle ara"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "Araç adı %(maxLength)s karakterden fazlasını içeremez."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "İsimle Ara"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Gösterilen:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Jetonu herhangi bir Seviye VI araç ile takas edin. Araç, \nmürettebat ve bir Garaj yuvası ile birlikte gelmektedir."
+
+msgid "vehicleSelection/title"
+msgstr "Herhangi bir araştırılabilir Seviye VI araç seçin"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Tank avcısı"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "KMT"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Ağır tank"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Hafif tank"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Orta tank"

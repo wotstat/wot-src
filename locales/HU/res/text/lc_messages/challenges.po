@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Ugyancsak megkaptad:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Ezt a küldetéssorozatot újrajátszhatod."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Értettem!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Bezárás"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Megtekintés a Garázsban"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Újrajátszás"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Tovább a Próbatételhez"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "WoT prémium fiók"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Prémium jármű"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Bérelhető jármű"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "és „{{styleName}}” stílus"
+
+msgid "awards_view/reward/multi"
+msgstr "{{count}}×"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) nap"
+msgstr[1] "%(day) nap"
+msgstr[2] "%(day) nap"
+
+msgid "awards_view/title"
+msgstr "PRÓBATÉTEL TELJESÍTVE!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Küldetés csatánként 5× XP-ért"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Tervrajztöredék: (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Univerzális tervrajztöredék"
+
+msgid "bonuses/bpcoin"
+msgstr "Battle Pass-token"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Küldetés 3× legénységi XP-ért"
+
+msgid "bonuses/description/attachments_set"
+msgstr "3D-kiegészítő készlet"
+
+msgid "bonuses/description/booster"
+msgstr "Személyes tartalék"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Jutalomfelszerelés"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Legénységi kinézet"
+
+msgid "bonuses/description/directive"
+msgstr "Direktíva"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Kísérleti felszerelés"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Fejlesztett felszerelés"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "és „%(styleName)s” stílus"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Normál felszerelés"
+
+msgid "bonuses/description/style"
+msgstr "2D-stílus"
+
+msgid "bonuses/description/style_3d"
+msgstr "3D-stílus"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Női harckocsizó"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Újonc"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Harckocsizó"
+
+msgid "condition/achievement"
+msgstr "Szerezd meg ezt a kitüntetést: %(achievement)s"
+
+msgid "condition/achievement/title"
+msgstr "A csata hősei"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Az okozott és a közreműködési sebzésed összesen érjen el ennyit: %(goal)s HP"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Okozz, szenvedj el és fogj fel összesen %(goal)s HP sebzést!"
+
+msgid "condition/aggregated/title"
+msgstr "Komplex feltétel"
+
+msgid "condition/classes/AT-SPG"
+msgstr "páncélvadászt"
+
+msgid "condition/classes/SPG"
+msgstr "önjáró löveget"
+
+msgid "condition/classes/heavyTank"
+msgstr "nehéz harckocsit"
+
+msgid "condition/classes/lightTank"
+msgstr "könnyű harckocsit"
+
+msgid "condition/classes/mediumTank"
+msgstr "közepes harckocsit"
+
+msgid "condition/critsCount"
+msgstr "Okozz %(goal)s kritikus találatot ellenséges járművek belső vagy külső moduljainak"
+
+msgid "condition/critsCount/title"
+msgstr "Mozgásképtelenné tétel"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Fogj fel %(goal)s HP sebzést"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Fogj fel %(goal)sx több sebzést, mint amennyi HP a járműved életereje "
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Blokkolás"
+
+msgid "condition/damageDealt"
+msgstr "Okozz %(goal)s HP sebzést ellenséges járműveknek"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Okozz %(goal)sx több sebzést, mint amennyi HP a járműved életereje"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Találj el ellenséges járműveket legfeljebb %(distance)s méteres távolságból %(goal)s alkalommal"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Találj el ellenséges járműveket legalább %(distance)s méteres távolságból %(goal)s alkalommal"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Okozz sebzést ellenséges járműveknek ütközéssel %(goal)s alkalommal"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Találj el ellenséges járműveket a harckocsid látótávolságán belül %(goal)s alkalommal"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Okozz %(goal)s HP sebzést a csata első %(timeLimit)s percében"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Okozz %(goal)s HP sebzést ellenséges járműveknek legfeljebb %(distance)s méteres távolságból"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Okozz %(goal)s HP sebzést ellenséges járműveknek legalább %(distance)s méteres távolságból"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Okozz %(goal)s HP sebzést ütközéssel"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Ütközés"
+
+msgid "condition/damageDealt/title"
+msgstr "Sebzés"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Okozz %(goal)s HP sebzést felderítetlen ellenséges járműveknek"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Okozz %(goal)s HP sebzést a harckocsid látótávolságán belül tartózkodó ellenséges járműveknek"
+
+msgid "condition/kills"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet"
+
+msgid "condition/kills/classes"
+msgstr "Semmisíts meg %(goal)s ellenséges %(vehicleClass)s"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet %(classCount)s különböző típusból"
+
+msgid "condition/kills/title"
+msgstr "Megsemmisítés"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet sebzés elszenvedése nélkül"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Semmisíts meg %(goal)s ellenséges járművet anélkül, hogy felderítenének"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Az általad okozott sebzés érje el a csapatod által okozott összes sebzés %(goal)s%%-át!"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Sebzés"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Üsd át ellenséges járművek páncélzatát %(goal)s alkalommal"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Páncélátütés"
+
+msgid "condition/spotted"
+msgstr "Deríts fel %(goal)s ellenséges járművet"
+
+msgid "condition/spotted/title"
+msgstr "Felderítés"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Deríts fel %(goal)s járművet anélkül, hogy felderítenének"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Felderítés"
+
+msgid "condition/top/damageDealt"
+msgstr "Legyél a legjobb %(rank)s játékos között a csapatodban az okozott sebzés alapján"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Legyél a legjobb %(rank)s játékos között a csatában az okozott sebzés alapján"
+
+msgid "condition/top/title"
+msgstr "Legjobb játékos"
+
+msgid "condition/top/xp"
+msgstr "Legyél a legjobb %(rank)s játékos között a csapatodban a szerzett tapasztalat alapján"
+
+msgid "condition/unknown"
+msgstr "A legmegfelelőbb küldetés keresése..."
+
+msgid "condition/unknown/title"
+msgstr "Várakozás"
+
+msgid "postbattle/name"
+msgstr "PRÓBATÉTEL: "

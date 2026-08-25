@@ -1,0 +1,194 @@
+msgid "fatal_shell/penetration_range"
+msgstr "%(from)d–%(to)d mm"
+
+msgid "fatal_shell/penetration_value"
+msgstr "%(penetration)d mm"
+
+msgid "hints/camera_flow/buttonText"
+msgstr "LEERTASTE"
+
+msgid "hints/camera_flow/pause"
+msgstr "Fortgeschrittener Modus (%(duration))"
+
+msgid "hints/camera_flow/pauseSimplified"
+msgstr "Anhalten (%(duration))"
+
+msgid "hints/camera_flow/resume"
+msgstr "Fortfahren (%(duration))"
+
+msgid "hints/death_reason/destroyed"
+msgstr "Fahrzeug zerstört"
+
+msgid "hints/death_reason/legacyHE"
+msgstr "Flächenschaden"
+
+msgid "hints/death_reason/modernHE"
+msgstr "Splitterschaden"
+
+msgid "hints/death_reason/nonPenetrationDamage"
+msgstr "Oberflächenschaden"
+
+msgid "hints/death_reason/penetration"
+msgstr "Direkter Treffer"
+
+msgid "hints/follow_pt1"
+msgstr "Klicken Sie mit der linken Maustaste,"
+
+msgid "hints/follow_pt2"
+msgstr "um diesem Fahrzeug zu folgen."
+
+msgid "hints/free_cam/return_previous"
+msgstr "Klicken Sie mit der rechten Maustaste, um zum vorherigen Fahrzeug zurückzukehren."
+
+msgid "hints/height/label"
+msgstr "Höhe"
+
+msgid "hints/height/text"
+msgstr "Beschränkte Anpassung der Kamerahöhe."
+
+msgid "hints/movement/label"
+msgstr "Bewegung"
+
+msgid "hints/movement/text"
+msgstr "Nutzen Sie die Tasten %(forward)s, %(left)s, %(backward)s und %(right)s, um die Kamera zu bewegen."
+
+msgid "hints/skip/buttonText"
+msgstr "ESC"
+
+msgid "hints/skip/label"
+msgstr "Überspringen"
+
+msgid "hints/spectatorDown"
+msgstr "UMSCH."
+
+msgid "hints/spectatorUp"
+msgstr "LEER"
+
+msgid "hints/speed/label"
+msgstr "Geschwindigkeit"
+
+msgid "hints/speed/text"
+msgstr "Passt die Kamerageschwindigkeit an."
+
+msgid "hints/spotted_status/spotted"
+msgstr "Aufgeklärt"
+
+msgid "hints/spotted_status/unspotted"
+msgstr "Schuss ins Blinde"
+
+msgid "marker/paramName/angleFailure"
+msgstr "Kein Durchschlagswinkel"
+
+msgid "marker/paramName/angleImpact"
+msgstr "Durchschlagswinkel"
+
+msgid "marker/paramName/angleRicochet"
+msgstr "Abprallwinkel"
+
+msgid "marker/paramName/armorNominal"
+msgstr "Nominelle Panzerung {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/armorRelative"
+msgstr "Panzerung {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/damageDistanceModifier"
+msgstr "Distanzmodifikator {colorTagOpen}(SP){colorTagClose}"
+
+msgid "marker/paramName/deathReason/crew"
+msgstr "Besatzung ausgeschaltet!"
+
+msgid "marker/paramName/deathReason/detonation"
+msgstr "Munitionslager explodiert!"
+
+msgid "marker/paramName/deathReason/ignition"
+msgstr "Brand ausgebrochen!"
+
+msgid "marker/paramName/is2CaliberRuleApplied"
+msgstr "2-Kaliber-Regel"
+
+msgid "marker/paramName/is3CaliberRuleApplied"
+msgstr "3-Kaliber-Regel"
+
+msgid "marker/paramName/nonArmored"
+msgstr "Keine Panzerung"
+
+msgid "marker/paramName/shellArmorAngleGain"
+msgstr "Panzerungsgewinn durch Schrägung {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellCaliber"
+msgstr "Kaliber {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBasic"
+msgstr "Mittlerer Schaden {colorTagOpen}(SP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBurst"
+msgstr "Potenzieller Schaden {colorTagOpen}(SP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/legacyHE"
+msgstr "Verursachter Flächenschaden {colorTagOpen}(SP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/modernHE"
+msgstr "Verursachter Splitterschaden {colorTagOpen}(SP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/nonPenetrationDamage"
+msgstr "Verursachter Oberflächenschaden {colorTagOpen}(SP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/penetration"
+msgstr "Verursachter Schaden {colorTagOpen}(SP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossDistance"
+msgstr "Durch Distanz verringert {colorTagOpen}(SP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionHe"
+msgstr "Durch Panzerung abgewehrt {colorTagOpen}(SP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionSpallLiner"
+msgstr "Durch Zubehör verringert {colorTagOpen}(SP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageRandomizationFactor"
+msgstr "Schadensschwankung {colorTagOpen}(SP){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationBasic"
+msgstr "Mittlerer Durchschlag {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationEffective"
+msgstr "Durchschlag {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellVelocityBasic"
+msgstr "Mündungsgeschwindigkeit {colorTagOpen}(m/s){colorTagClose}"
+
+msgid "marker/paramName/shootDistance"
+msgstr "Distanz {colorTagOpen}(m){colorTagClose}"
+
+msgid "marker/paramName/shootDistanceUnspotted"
+msgstr "Gegner nicht aufgeklärt"
+
+msgid "marker/value/angle/exact"
+msgstr "%(value)s°"
+
+msgid "marker/value/angle/less"
+msgstr "< %(value)s°"
+
+msgid "marker/value/angle/more"
+msgstr "> %(value)s°"
+
+msgid "marker/value/applied"
+msgstr "Angewandt"
+
+msgid "marker/value/dashes"
+msgstr "--"
+
+msgid "marker/value/failed"
+msgstr "Kein"
+
+msgid "marker/value/notAffected"
+msgstr "--"
+
+msgid "marker/value/signNegative"
+msgstr "- %(value)s"
+
+msgid "marker/value/signPositive"
+msgstr "+ %(value)s"
+
+msgid "marker/value/unspotted"
+msgstr "Nicht aufgeklärt"

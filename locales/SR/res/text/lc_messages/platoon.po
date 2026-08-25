@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "Otkaži pretragu"
+
+msgid "buttons/cancelSearch/description"
+msgstr "Klikni da otkažeš pretragu za članove voda."
+
+msgid "buttons/createPlatoon/caption"
+msgstr "Novi vod"
+
+msgid "buttons/createPlatoon/description"
+msgstr "Kreiraj vod da pozoveš prijatelje za zajedničku igru."
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "Novi super vod"
+
+msgid "buttons/findPlayers/caption"
+msgstr "Pronadji igrače"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "Pronadji igrače sličnog majstorstva i vozila koristeći filtere pretrage."
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "Svi pozivi za prijatelje biće otkazani ako započneš pretragu za igrače."
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "Pronadji igrače"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "Ne možeš tražiti igrače: previše vodova na serveru."
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "Ne možeš tražiti igrače za vod: nema pogodnih vozila."
+
+msgid "buttons/invite/player/caption"
+msgstr "Pozovi igrača"
+
+msgid "buttons/invite/player/description"
+msgstr "Klikni da pozoveš igrača u vod."
+
+msgid "buttons/invite/players/caption"
+msgstr "Pozovi igrače"
+
+msgid "buttons/invite/players/description"
+msgstr "Klikni za poziv igrača u vod."
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "Napusti vod"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "Kliknite za izlazak iz voda."
+
+msgid "buttons/mute/caption"
+msgstr "Isključi glasovni čet u vodu"
+
+msgid "buttons/mute/description"
+msgstr "Klik da isključiš glasovni čet u vodu."
+
+msgid "buttons/notReady/caption"
+msgstr "Nije spreman"
+
+msgid "buttons/notReady/description"
+msgstr "Kliknite ako niste spremni za ulazak u borbu."
+
+msgid "buttons/ready/caption"
+msgstr "Spreman!"
+
+msgid "buttons/ready/description"
+msgstr "Kliknite ako ste spremni za ulazak u borbu."
+
+msgid "buttons/reset/caption"
+msgstr "Reset preferenci pretrage"
+
+msgid "buttons/reset/description"
+msgstr "Klik za reset preferenci pretrage na podrazumevano."
+
+msgid "buttons/settings/caption"
+msgstr "Podesi preference pretrage"
+
+msgid "buttons/settings/description"
+msgstr "Pretraži igrače koji podležu tvojim preferensama. Što duže nema igrača, veći deo pretrage je proširen."
+
+msgid "buttons/unMute/caption"
+msgstr "Pokretanje glasovni čet u vodu"
+
+msgid "buttons/unMute/description"
+msgstr "Klik da uključiš glasovni čet u vodu."
+
+msgid "headerButton/inSquad"
+msgstr "U vodu"
+
+msgid "headerButton/onboarding"
+msgstr "SADA MOŽEŠ PRETRAŽITI IGRAČE\nDA FORMIRAŠ VOD"
+
+msgid "headerButton/searching"
+msgstr "Pretraga u toku..."
+
+msgid "headerButton/squad"
+msgstr "Kreiraj vod"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "Borba u vodsu sa prijateljem. Igrajte kao tim protiv devet neprijateljskih vodova."
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "Vod"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "Ne možeš da kreiraš ili da se pridružiš vodu jer si privremeno blokiran u ovom režimu."
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "Nećeš moći da kreiraš ili se pridružiš vodu jer moraš imati najmanje jedno vozilo nivoa %(level)s u garaži koje odgovara ovom režimu."
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "Kreiranje vodova je trenutno nedostupno."
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "Vodovi nisu dostupni"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "Možeš da kreiraš vod ili se pridružiš postojećem. U Jurišu, vodovi se sastoje od 2 ili 7 igrača."
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "Vod"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "Ne možeš da kreiraš ili se pridružiš vodu jer nemaš odgovarajuće vozilo %(level)s nivoa u garaži."
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "Nakon kraja kvalifikacija, vodovi od 2 i 7 igrača će biti dostupni."
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "Nije moguće kreirati vod."
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "Vodovi nisu dostupni"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "Kreiraj vod ili se pridruži postojećem. U Jurišu, vodovi se sastoje od 2 ili 7 igrača."
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "Vod"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "Napravi taktičku jedinicu od 2 ili 3 igrača za zajedničku igru.\n• Borbeni režim: Boj do poslednjeg\n• Tipovi borbi: Čelični lov, Dominacija."
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "Vod"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "Kreiraj taktičku jedinicu od 2 ili 3 igrača za učešće u Velikoj trci."
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "Vod Velike trke"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "Kliknite da otvorite meni voda."
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "Izviđačka misija: Vod"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "Kliknite da otvorite meni voda."
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "Vod"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "Kreiraj vod sa 2 ili 3 igrača za učešće u izviđačkoj misiji."
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "Izviđačka misija: Vod"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "Taktičke jedinice nisu dozvoljene u rangiranm borbama."
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "Kreiraj vod"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "Tražim igrače..."
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "Pretraga"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "Kreiraj taktičku jedinicu od 2 ili 3 igrača za zajedničko učešće u slučajnim borbama i Frontu (kada je dostupan)"
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "Vod"
+
+msgid "members/card/connectionLost"
+msgstr "Konekcija je prekinuta"
+
+msgid "members/card/disabled"
+msgstr "Ovaj režim samo podržava vodove od dva igrača"
+
+msgid "members/card/disabledVertical"
+msgstr "Nedostupno za ovaj režim"
+
+msgid "members/card/empty"
+msgstr "Oslobodi mesto"
+
+msgid "members/card/inBattle"
+msgstr "U borbi"
+
+msgid "members/card/muted/caption"
+msgstr "Igrač mutiran"
+
+msgid "members/card/muted/description"
+msgstr "Desni klik da odmutiraš ovog igrača."
+
+msgid "members/card/notReady"
+msgstr "Nije spreman"
+
+msgid "members/card/searching"
+msgstr "Tražim igrače..."
+
+msgid "members/card/selectVehicle"
+msgstr "Izaberi vozilo %(level)s nivoa"
+
+msgid "members/chat/chatName"
+msgstr "Čet kanal:"
+
+msgid "members/chat/sendMessage/body"
+msgstr "Kliknite da pošaljete poruku na čet kanal."
+
+msgid "members/chat/sendMessage/header"
+msgstr "Pošalji poruku"
+
+msgid "members/footer/comp7Invite"
+msgstr "Pozovi"
+
+msgid "members/footer/comp7Limitations"
+msgstr "Restrikcije najvišeg ranga"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "Najviši rang igračkog voda"
+
+msgid "members/footer/getNotReady"
+msgstr "Klkinite da naznačite da niste spremni."
+
+msgid "members/footer/getReady"
+msgstr "Potvrdite da ste spremni za bitku."
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "Nivo nije dozvoljen"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "Kazna na iskustvo zbog nepravilnog sastava voda!"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "Limit vozila je dostignut"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "Vod je dostigao maksimalan broj lovaca tenkova"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "Vod je dostigao maksimalan broj artiljerija"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "Vod je dostigao maksimalan broj teških tenkova"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "Vod je dostigao maksimalan broj srednjih tenkova"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "Vod je dostigao maksimalan broj lakih tenkova"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "Vod je dostigao maksimalan broj vozila sa točkovima"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "Vod je dostigao maksimalan broj lakih tenkova"
+
+msgid "members/header/battle_royal"
+msgstr ": Čelični lovac"
+
+msgid "members/header/epic"
+msgstr ": Linija fronta"
+
+msgid "members/header/event"
+msgstr ": Waffenträger: Projekat Hiperion"
+
+msgid "members/header/mapbox"
+msgstr ":Izviđačka misija"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP HEADER PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr ": Nasumična bitka"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "Režim fronta je dostupan \nsamo za vozila VIII nivoa."
+
+msgid "members/header/tooltip/epic/header"
+msgstr "Pravila za kreiranje voda"
+
+msgid "members/header/tooltip/event/body"
+msgstr "Vod bi trebalo da se sastoji od tri specijalna vozila za ovaj režim."
+
+msgid "members/header/tooltip/event/header"
+msgstr "Pravila za kreiranje voda"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "Vod bi trebalo da bude sačinjen od vozila istog nivoa."
+
+msgid "members/header/tooltip/standard/header"
+msgstr "Pravila za kreiranje voda"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Igrači u vodu"
+
+msgid "searching/estimated/caption"
+msgstr "Procenjeno vreme"
+
+msgid "searching/estimated/lessThan"
+msgstr "manje od %(seconds)d s"
+
+msgid "searching/estimated/moreThan"
+msgstr "više od %(seconds)d s"
+
+msgid "searching/expanded/body"
+msgstr "Nema igrača za date preference.\nPretraga je proširena da uključi ostale nivoe."
+
+msgid "searching/expanded/header"
+msgstr "Preference pretrage proširene"
+
+msgid "searching/lookingFor"
+msgstr "Pretraga za:"
+
+msgid "searching/playersInQueue"
+msgstr "Igrači na čekanju"
+
+msgid "searching/state"
+msgstr "Pretraga:"
+
+msgid "settings/tiers"
+msgstr "Preferiran nivo vozila"
+
+msgid "settings/voice"
+msgstr "Preferirani igrači sa glasovnim četom"
+
+msgid "squad"
+msgstr "Vod"

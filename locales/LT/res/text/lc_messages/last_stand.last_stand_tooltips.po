@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "Renginys pasiekiamas dar %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — žaidimo režimas. Paspauskite iš pažinkite"
+
+msgid "bannerTooltip/description"
+msgstr "Specialus PvE režimas, kuris privers jus susiremti su priešo pajėgų bangomis. Pasirinkite savo mėgstamiausią mašiną, naikinkite šešėlinius tankus ir atremkite išpuolius. Ypatingi prizai ir daugiau laukia jūsų!"
+
+msgid "bannerTooltip/header"
+msgstr "Paskutinis mūšis: Terra Nord"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Jūsų kompiuterio galingumo šiam režimui nepakanka. Jus galite pamatyti grafikos iškraipymus bei patirti nesklandumų judant mašinai. Gali nulūžti žaidimo klientas."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Šis režimas reikalauja daug kompiuterio resursų. Jūs galite turėti problemų užkraunant žemėlapį, išvysti grafikos iškraipymus ir patirti nesklandumų judant mašinai. Jeigu žaidimas veikia lėtai, pabandykite sumažinti grafikos kokybę nustatymuose."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Žema greitaveika"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Galimai sumažinta greitaveika"
+
+msgid "battlePass/playGame"
+msgstr "Uždirbkite taškų Paskutiniame mūšyje vykdydami renginio seką (būtina VIII lygio mašina)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Jūs jau esate draugai."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Laukiama draugystės patvirtinimo."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Pašalinti žaidėją iš juodojo sąrašo."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Įtraukti į draugų sąrašą."
+
+msgid "battleResult/interaction/menu"
+msgstr "Paspauskite ir atidarykite sąsajos langą su šiuo žaidėju."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Įtraukti į būrį."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Žaidėjas jau būryje."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Pakvietimas jau išsiųstas."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Tik būrio vadas gali pakviesti žaidėjus į būrį."
+
+msgid "booster/activated"
+msgstr "Aktyvuotas"
+
+msgid "booster/howItWorks"
+msgstr "Kaip tai veikia"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Atsistatymo laikas: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Mirium kaina: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "Kasdienei misijai įvykdyti likęs laikas"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "Laikas iki kitos kasdienės misijos"
+
+msgid "dailyQuests/completed"
+msgstr "Įvykdyta"
+
+msgid "dailyQuests/completedAll"
+msgstr "Jūs įvykdėte visas kasdienes renginio misijas."
+
+msgid "dailyQuests/completedDescr"
+msgstr "Jūs įvykdėte šią dienos misiją. Kitą galėsite įvykdyti rytoj."
+
+msgid "dailyQuests/rewards"
+msgstr "Apdovanojimai:"
+
+msgid "dailyQuests/status"
+msgstr "Nauja kasdienė misija po %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "Renginys pasiekiamas dar %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Pasirinkite tinkamą mašiną prieš įeidami į mūšį."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Nepasiekiama"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Mūšiai pasirinktu sudėtingumo lygiu/režime laikinai nepasiekiami dėl techninių kliūčių."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Nepasiekiama"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Palaukite, kol būrys sugrįš iš praeito mūšio ir tik tada pradėkite naują."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Nepasiekiama"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Būriui netinkamas sudėtingumo lygis."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Nepasiekiama"
+
+msgid "points/accrued"
+msgstr "Gauta"
+
+msgid "points/battles"
+msgstr "• Kovokite renginio mūšiuose"
+
+msgid "points/body"
+msgstr "Duomenys yra naudojami Paskutinio mūšio sekoje, kur už juos gaunate vertingų resursų. Jų gausite kovodami renginio mūšiuose, vykdydami misijas arba nusipirkę \"{{bundle_name}}\"."
+
+msgid "points/bottom"
+msgstr "Renginio pabaiga: (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• Įvykdykite po naują misiją kasdien"
+
+msgid "points/effective"
+msgstr "• Efektyvumas mūšyje:"
+
+msgid "points/gold"
+msgstr "• Nusipirkite \"{{bundle_name}}\" parduotuvėje"
+
+msgid "points/header"
+msgstr "Duomenys"
+
+msgid "points/howToEarn"
+msgstr "Kaip uždirbti"
+
+msgid "points/missionDaily"
+msgstr "• Dienos misija įvykdyta:"
+
+msgid "points/obelisk"
+msgstr "• Obeliskas sunaikintas:"
+
+msgid "points/vehicleDaily"
+msgstr "• Gautas kasdienis mašinos bonusas:"
+
+msgid "rewardPath/info/first"
+msgstr "Daugiau duomenų galite gauti vykdydami misijas, kurios atsinaujina kiekvieną renginio dieną."
+
+msgid "rewardPath/info/header"
+msgstr "Papildomi duomenys"
+
+msgid "rewardPath/info/second"
+msgstr "Parduotuvėje esantis ypatingas renginio rinkinys, jame taip pat yra duomenų."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "Mašinos bonusas:"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "Kiti apdovanojimai:"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}Mašinos bonusas{EDCB9E_End} — {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "Už duomenis gauti visi apdovanojimai"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "Gauta duomenų {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "Rinkite duomenis ir vykdykite Paskutinio mūšio seką. Kiekviename etape gausite vertingų daiktų ir mašinos bonusų, kurie padės įveikti vis grėsmingesnius priešus."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "Paskutinis etapas"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "Dabartinis etapas"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "Iki renginio pabaigos liko {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "Seka"
+
+msgid "shopWidget/body"
+msgstr "Paspaudę atidarysite specialų žaidimo parduotuvės skyrių, kuriame yra renginio daiktai."
+
+msgid "shopWidget/header"
+msgstr "Renginio rinkiniai"
+
+msgid "teamList/actions/body"
+msgstr "Greitieji mygtukai būrio sukūrimui ir draugų pridėjimui/išmetimui."
+
+msgid "teamList/actions/header"
+msgstr "Greiti veiksmai"
+
+msgid "teamList/damage/body"
+msgstr "Rikiuoti pagal padarytą žalą."
+
+msgid "teamList/damage/header"
+msgstr "Padaryta žala"
+
+msgid "teamList/keys/body"
+msgstr "Rikiuokite pagal uždirbtus duomenis. Rodoma vertė be papildomų duomenų, kurie gaunami už kasdienę misiją ar dienos mašinos bonusą."
+
+msgid "teamList/keys/header"
+msgstr "Duomenys"
+
+msgid "teamList/kills/body"
+msgstr "Rikiuoti pagal sunaikintas mašinas."
+
+msgid "teamList/kills/header"
+msgstr "Sunaikinta priešo mašinų"
+
+msgid "teamList/name/header"
+msgstr "Žaidėjo vardas"
+
+msgid "teamList/place/body"
+msgstr "Rikiuoti pagal vietą komandoje."
+
+msgid "teamList/place/header"
+msgstr "Vieta komandoje"
+
+msgid "teamList/squad/header"
+msgstr "Būrys yra taktinis vienetas, skirtas geresniam žaidėjų bendradarbiavimui mūšyje."
+
+msgid "teamList/vehicle/body"
+msgstr "Rūšiuoti pagal mašinos tipą ir pavadinimą."
+
+msgid "teamList/vehicle/header"
+msgstr "Mašinos"
+
+msgid "teamList/warned/body"
+msgstr "Šis žaidėjas buvo nubaustas už neaktyvumą/dezertyravimą ir jam nesuteikti jokie apdovanojimai."
+
+msgid "teamList/warned/header"
+msgstr "Dėmesio"
+
+msgid "teamList/warned/self/body"
+msgstr "Jūs buvote nubausti už neaktyvumą/dezertyravimą ir jums nesuteikti jokie apdovanojimai."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Mažas įgulos efektyvumas"
+
+msgid "vehicle/rentState"
+msgstr "Užrakinta"
+
+msgid "vehicleDaily/header"
+msgstr "Kasdienis mašinos bonusas"

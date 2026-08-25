@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "Navn"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "Per måned"
+
+msgid "ClanListWindow/table/role"
+msgstr "Stilling"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "Per uke"
+
+msgid "battleQueue/clanPosition"
+msgstr "Posisjon: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "Posisjon:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "Søker etter fiende:"
+
+msgid "battleQueue/waitBattle"
+msgstr "Venter på kamp:"
+
+msgid "battleQueue/yourTeam"
+msgstr "Din avdeling:"
+
+msgid "disconnected/Warning"
+msgstr "Obs!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "Forsvarsverk er midlertidig utilgjengelig. Prøv på nytt senere."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "Forsvarsverk er ikke tilgjengelig i roaming. For å få tilgang til forsvarsverk, må du logge på i din region."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "Klanmedlemmer"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "Legionærer"
+
+msgid "fortVehPopover/btnSave"
+msgstr "Lagre utvalget (%(count)d)"
+
+msgid "inspire/inspired"
+msgstr "Inspirerende"
+
+msgid "inspire/inspiring"
+msgstr "Inspirerende"
+
+msgid "mainWindow/maintenance/body"
+msgstr "Vi beklager uleiligheten."
+
+msgid "mainWindow/maintenance/button"
+msgstr "Oppdatér"
+
+msgid "mainWindow/maintenance/header"
+msgstr "Feil ved lasting av data"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "Ytterligere briefing"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "Kamputbetalinger"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "Militære manøvre"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "Taktisk trening"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "Ytterligere effekt"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "Beordrer artilleri til å bombardere det valgte området i trefninger og fremrykkinger i en kamp"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "Gir bonus på hovedkvalifikasjonene og alle fordelene til hele besetningen i kjøretøyet ditt med inspirasjon, i tillegg til besetningene i allierte kjøretøy i nærheten i trefninger og fremrykkinger i en kamp."
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "En reserve kan aktiveres før en kamp"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "En reserve kan aktiveres før fremrykkingen"
+
+msgid "reserves/tooltip/empty"
+msgstr "Du har ingen reserver å aktivere"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s i depotet"
+
+msgid "reserves/tooltip/level"
+msgstr "Nivå %(level)s"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "Effekt ved bruk"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "Kan aktiveres"
+
+msgid "reserves/tooltip/selected"
+msgstr "Aktivert"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "Klikk for å se listen over reserver du kan aktivere."
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "Reserver kan bare aktiveres av en avdelingskommandør med rang av kommandør, stedfortredende leder, personalsjef eller kampoffisér."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "Ikke nok klanmedlemmer i avdelingen: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Kampen begynner om %(nextDate)s min"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "Starttidspunkt blir annonsert senere"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "Kampen slutter om %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "Trefninger tilgjengelig"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "Neste kamp starter %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Kampen begynner om %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "Kampen begynner i dag kl. %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "Kampen begynner i morgen kl. %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "Starttidspunkt blir annonsert senere"
+
+msgid "sortie/introView/title"
+msgstr "Forsvarsverk: Kamper"
+
+msgid "sortie/listView/enterBtn"
+msgstr "Bli med"
+
+msgid "sortie/listView/enterText"
+msgstr "Du kan bli med på laget som frivillig"
+
+msgid "sortie/listView/notSelected"
+msgstr "Velg en avdeling fra listen til venstre\nfor å se en detaljert beskrivelse."
+
+msgid "sortie/listView/teamMembers"
+msgstr "Medlemmer: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "Kjøretøy:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "Legionær"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "Automatisk samling"
+
+msgid "sortie/room/candidates"
+msgstr "Frivillige"
+
+msgid "sortie/room/chat"
+msgstr "Chattekanal"
+
+msgid "sortie/room/description"
+msgstr "Opprettede avdelinger kjemper mot tilfeldige klaner på nøytralt territorium. Nivå på kjøretøyene bestemmes ut i fra hvilken divisjon som er valgt."
+
+msgid "sortie/room/fight"
+msgstr "Kamp!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "Invitér spillere"
+
+msgid "sortie/room/leaveBtn"
+msgstr "GÅ TIL LISTEN OVER AVDELINGER"
+
+msgid "sortie/room/level"
+msgstr "Nivå %(level)s"
+
+msgid "sortie/room/members"
+msgstr "Medlemmer: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "Ikke klar"
+
+msgid "sortie/room/ready"
+msgstr "Klar!"
+
+msgid "sortie/room/title"
+msgstr "Avdeling"
+
+msgid "sortie/slot/emptySlot"
+msgstr "Ledig"
+
+msgid "sortie/slot/takePlace"
+msgstr "Ta plassen"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "Velg et kjøretøy til en kamp. Rød indikator betyr at kjøretøyet ikke er klart til kamp."
+
+msgid "stronghold/teamHeader"
+msgstr "Avdelingsmedlemmer"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "Velg kjøretøy for legionærene"
+
+msgid "strongholdPopover/header"
+msgstr "Velg kjøretøy"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "Kjøretøy valgt:"
+
+msgid "strongholdbuilds/direction"
+msgstr "%(direction)s alliert brohode"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "Nordlige"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "Østlige"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "Sørlige"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "Vestlige"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "Fiendtlilg brohode"
+
+msgid "strongholdbuilds/mapName"
+msgstr "Kart: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "Kartet blir valgt etter at fremrykkingen har startet"
+
+msgid "strongholdbuilds/point1"
+msgstr "Festning"
+
+msgid "strongholdbuilds/point2"
+msgstr "Reservelinje"
+
+msgid "strongholdbuilds/point3"
+msgstr "Frontlinje"
+
+msgid "strongholdbuilds/point4"
+msgstr "Frontlinje"
+
+msgid "strongholdbuilds/point5"
+msgstr "Reservelinje"
+
+msgid "strongholdbuilds/point6"
+msgstr "Festning"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "x%(reward)s for den første seieren hver dag i fremrykkinger på dette brohodet"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "For forsvar av festningen der begge linjene gikk tapt"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "For forsvar av reservelinjen der frontlinjen gikk tapt"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "For forsvar av begge linjene uten å ha erobret fiendtlige linjer"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "For erobring av bare frontlinjen"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "For erobring av begge linjene uten å ha erobret festningen"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "For erobring av den fiendtlige festningen"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "fra rekvisisjonsreserven"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "Tildelt etter fremrykkingen"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "Skjul fra legionærer"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "Legionærer kan se avdelingen"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "Vis til legionærer"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "Avdelingen er skjult"
+
+msgid "strongholddirection/A"
+msgstr "Nordlige"
+
+msgid "strongholddirection/B"
+msgstr "Østlige"
+
+msgid "strongholddirection/C"
+msgstr "Sørlige"
+
+msgid "strongholddirection/D"
+msgstr "Vestlige"
+
+msgid "strongholdinfo/sortie"
+msgstr "Trefning i divisjon %(level)s"
+
+msgid "strongholdinfo/stronghold"
+msgstr "Rykk frem fra det %(direction)s brohodet"
+
+msgid "strongholdmap/randomMap"
+msgstr "Tilfeldig kart"
+
+msgid "strongholdreserve/boost"
+msgstr "Inspirér"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "Høykapasitetstransport"
+
+msgid "strongholdreserve/requisition"
+msgstr "Rekvisisjoner"
+
+msgid "strongholdreserve/support"
+msgstr "Artilleriangrep"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "I trefninger og fremrykkinger, i 1 kamp"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "For fremrykkingens resultat"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "Aktivert i begynnelsen av en kamp"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "Aktivert i begynnelsen av en fremrykking"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "Aktivert når en reserve benyttes i en kamp"
+
+msgid "strongholdtable/rating"
+msgstr "Rangering"
+
+msgid "strongholdtable/roster"
+msgstr "Komposisjon"
+
+msgid "strongholdtable/tech"
+msgstr "Kjøretøy"
+
+msgid "strongholdtitle/sortie"
+msgstr "Trefning"
+
+msgid "strongholdtitle/stronghold"
+msgstr "Rykk frem fra det %(direction)s brohodet"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Border{/HEADER}{BODY}Nøytralt territorie. Vinneren vil angripe den fiendtlige linjen i den neste kampen. Hvis en kamp ender uavgjort, blir det angripende laget valgt tilfeldig.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "Rykk frem fra det %(direction)s brohodet"
+
+msgid "strongholdtooltips/hours"
+msgstr "t"
+
+msgid "strongholdtooltips/minuts"
+msgstr "min"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "Trefning i divisjon %(level)s"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Typen kjøretøy som automatisk passer for legionærer etter at du klikker Kamp!-knappen.\n\nKlikk for å bekrefte eller avbryte den valgte kjøretøytypen for legionærer."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "Legionærer legges automatisk til i de ledige posisjonene"

@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Основна броня"
+
+msgid "armorValues/title/no_damage"
+msgstr "Без поражения"
+
+msgid "armorValues/title/other"
+msgstr "Друго"
+
+msgid "armorValues/title/penetration"
+msgstr "Шанс за пробиване"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Рикошет"
+
+msgid "armorValues/title/spaced"
+msgstr "Екранирана броня"
+
+msgid "armorValues/title/values"
+msgstr "(мм)"
+
+msgid "attackerTitle"
+msgstr "Конфигурация на атакуващия"
+
+msgid "attackerTooltip/body"
+msgstr "Натиснете, за да смените атакуващата машина"
+
+msgid "attackerTooltip/header"
+msgstr "Атакуваща машина"
+
+msgid "menu/header"
+msgstr "Вид овърлей"
+
+msgid "menu/no_armor"
+msgstr "Без овърлей"
+
+msgid "menu/nominal"
+msgstr "Номинална броня"
+
+msgid "menu/penetration"
+msgstr "Шанс за пробиване"
+
+msgid "modules/current"
+msgstr "Текуща конфигурация"
+
+msgid "modules/custom"
+msgstr "Персонализирана конфигурация"
+
+msgid "modules/standard"
+msgstr "Стандартна конфигурация"
+
+msgid "modules/title"
+msgstr "Модули на машина"
+
+msgid "modules/top"
+msgstr "Топ конфигурация"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Шаси"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Оръдие"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Маска на оръдието"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Корпус"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Екран"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Прибори за наблюдение"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Купол"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Колела"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Без поражения"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Бронебойност"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Рикошет"
+
+msgid "tooltip/minor/angle/description"
+msgstr "Ъгълът между траекторията на снаряда и линията, перпендикулярна на бронираната плоча.\n\nТраекторията на снаряда се изчислява така, сякаш снарядът се движи по права линия от центъра на екрана."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Ъгъл на удара"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Шансът за пробиване на вражеската броня и причиняване на поражения на машината."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Шанс за пробиване"
+
+msgid "tooltip/minor/effective/description"
+msgstr "За единичен брониран слой, ефективната броня е номиналната броня, модифицирана от ъгъла на удара и нормализирането на снаряда.\n\nАко в точката на удара има няколко бронирани слоя, резултатът е сумата от ефективните стойности за всеки слой."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Ефективна броня"
+
+msgid "tooltip/minor/header"
+msgstr "Легенда"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Попадението в екранирана броня не поврежда машината, освен ако снаряд не уцели и след това не пробие основната броня."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Без поражения"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Действителната ширина на основната или екранираната бронирана плоча/и."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Номинална броня"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Снарядите, които уцелят вражеска броня под кос ъгъл, ще рикошират от нея. Въпреки това, те все пак могат да уцелят друга машина или дори същата."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Рикошет"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Влияе на изчисленията на ефективната броня и шанса за пробиване.\n\nЗа всички изчисления се използва разстояние от 100 m (бронебойни и подкалибрени снаряди губят проникваща сила с увеличаване на разстоянието).\n\nУлесненията на екипажа и подобренията на атакуващите машини не влияят на изчисленията."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Конфигурация на атакуващия"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Шансът за пробиване на вражеска броня и причиняване на поражения на машината.\n\nПопадението в екранирана броня не поврежда машината, освен ако снаряд не уцели и след това не пробие основната броня."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Шанс за пробиване"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Машината е повредена, само ако основната й броня е уцелена и пробита. ОФ снарядите могат да причинят намалени поражения на машината дори без пробиване; те обаче все пак трябва да достигнат основната броня."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Основна броня"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Попадението в екранираната броня не поврежда машината, освен ако снаряд не удари и след това не пробие основната броня.\n\nПопадението и пробива във външни модули уврежда директно тези модули: попадение във веригата, за да обездвижи машината, попадение в оръдието, за да го деактивира, или попадение в прибора за наблюдение, за да намали обзора на машината."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Без поражения"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "Ъгълът на рикошет е 70 градуса за бронебойни и подкалибрени снаряди и 85 градуса за кумулативни снаряди.\n\nОФ снарядите не рикошират, докато бронебойните и подкалибрените снаряди губят 25% от бронебойната си сила след рикошет.\n\nРикошет няма да се получи, ако калибърът на снаряда е по-голям от три пъти номиналната дебелина на бронята в точката на удара (това се отнася само за бронебойни и подкалибрени снаряди)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Рикошет"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Попадението в екранираната броня не поврежда машината, освен ако снаряд не удари и след това не пробие основната броня.\n\nПопадението и пробива във външни модули уврежда директно тези модули: попадение във веригата, за да обездвижи машината, попадение в оръдието, за да го деактивира, или попадение в прибора за наблюдение, за да намали обзора на машината.\n\nЪгълът на попадение не се прилага за външни модули (като вериги и оръдие) — тук ефективната броня е равна на номиналната броня."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Екранирана броня"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Гледайте видео за механиката на пробиване на броня"

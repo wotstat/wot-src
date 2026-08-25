@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Битки на сървърите ще има след %(primeDelta)s"
+
+msgid "alertMessage/allNotSet"
+msgstr "Този режим не е наличен на всички сървъри"
+
+msgid "alertMessage/ban"
+msgstr "Временно сте блокирани от този режим. Оставащо време: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Смени сървъра"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Подробности"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Този режим не е наличен на текущия ви сървър %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Този режим не е наличен на всички сървъри."
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "Трябва да имате поне %(count)s подходящи машини за режима. Вижте страницата \"За Атака\" за подробности."
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "Няма достатъчно подходящи машини"
+
+msgid "alertMessage/modeOffline"
+msgstr "Грешка в базата данни. Игровият режим е недостъпен."
+
+msgid "alertMessage/noVehicles"
+msgstr "В Парка няма подходящи машини ниво %(levels)s %(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "Битките не са налични на сървъра %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Битките не са налични на сървъра %(serverName)s"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "Няма достатъчно подходящи машини %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "Този режим не е наличен на сървър %(serverName)s"
+
+msgid "alertMessage/preannounce/first"
+msgstr "Сезонът на Лазурния дракон започва на: %(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "Сезонът на Пурпурния дракон започва на: %(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "Сезонът на Нефритения дракон започва на: %(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "Изчакване на резултатите от квалификацията, за да получите вашия ранг"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "Сезонът на Лазурния дракон приключи"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "Сезонът на Пурпурния дракон приключи"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "Сезонът на Нефритения дракон приключи"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Битките на този сървър ще бъдат достъпни в %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Този режим не е наличен на сървър %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s д."
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s ч. %(min)s мин."
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 мин."
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s мин."
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "В Парка няма подходящи машини ниво %(levels)s"
+
+msgid "awardsWidget/description/award"
+msgstr "Натиснете, за да изберете и получите наградите си."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Финалните награди са временно недостъпни. Извиняваме се за неудобството."
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "ВЗЕМЕТЕ\nНАГРАДА"
+msgstr[1] "ВЗЕМЕТЕ\nНАГРАДИ"
+msgstr[2] "ВЗЕМЕТЕ\nНАГРАДИ"
+
+msgid "banView/actionButtons/confirm"
+msgstr "Гласувай"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "Вече сте гласували за %(vehicleName)s"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "Не забранявай"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "Предложете машина за забрана"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "Можете да гласувате само\nпо време на етапа на гласуване за забрана"
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "Вие предлагате:\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "Някой от вашия отбор\nе избрал машината, която искате да забраните"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "Изчакайте края на етапа на гласуване за забрана"
+
+msgid "banView/button/back"
+msgstr "НАЗАД"
+
+msgid "banView/button/ban"
+msgstr "Към избор на забрана"
+
+msgid "banView/button/description"
+msgstr "КЪМ ИЗБОР НА МАШИНА"
+
+msgid "banView/description/prepick"
+msgstr "Изберете най-подходящата машина за тази карта и състава на вашия отбор"
+
+msgid "banView/description/voting"
+msgstr "Изберете машина, която искате да изключите от тази битка"
+
+msgid "banView/factory/candidate"
+msgstr "Кандидат за забрана: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "Отборни кандидати за бан"
+
+msgid "banView/factory/noCandidates"
+msgstr "Няма кандидат за забрана"
+
+msgid "banView/factory/pick"
+msgstr "Ваш кандидат: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "Не забранявай"
+
+msgid "banView/title/prepick"
+msgstr "Етап на предварителна селекция"
+
+msgid "banView/title/voting"
+msgstr "Етап на гласуване за забрана"
+
+msgid "banView/tooltip/confirmed"
+msgstr "Гласуването е потвърдено"
+
+msgid "banView/tooltip/noAction"
+msgstr "Не са предприети действия"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "Този играч още не е предложил машина за забрана."
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "Предложено"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "ПТ-САУ"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "Тежки танкове"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "Леки танкове"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "Средни танкове"
+
+msgid "banView/withoutBan"
+msgstr "Не забранявай"
+
+msgid "banWidget/allies"
+msgstr "Съюзнически гласувания"
+
+msgid "banWidget/enemies"
+msgstr "Вражески гласувания"
+
+msgid "banWidget/tooltip"
+msgstr "Отборът не се е съгласил коя машина да бъде забранена, така че е забранена случайна машина измежду тези с най-много гласове."
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "Конфигурирайте показването на машини по тип, роля и нация."
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "Филтър по параметри"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "Тук се показват само машини, които могат да се използват в този режим."
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "Няма машини, отговарящи на избраните параметри."
+
+msgid "battleMessages/enableVOIP"
+msgstr "Отборът е събран. Изберете своята машина и да се бием!\nПрисъединете се към гласовия чат (%(keyName)s)"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "Отборът е събран. Изберете своята машина и да се бием!\nЗадайте бърз бутон, за да се присъедините бързо към гласовия чат."
+
+msgid "battleMessages/withoutVOIP"
+msgstr "Отборът е събран. Изберете своята машина и да се бием!\nЗа да се присъедините към гласовия чат, активирайте функцията в настройките на вашата игра."
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "Подробности за режима (F1)"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "Обзорът на машината е увеличен"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "Характеристиките на екипажа са подобрени"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "Възстановяване на точки живот"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "Възстановяване на точки живот"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "Характеристиките на екипажа са подобрени"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "Характеристиките на екипажа са подобрени"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "Скоростта на презареждане е повишена"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "Характеристиките на машината са подобрени"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "Възстановяване на точки живот"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "Характеристиките на машината са подобрени"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "Характеристиките на машината са подобрени"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "Мобилността е подобрена"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "Възстановяване на точки живот"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "Разсейката на оръдието е намалена"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "Характеристиките на машината са подобрени"
+
+msgid "battleResult/header/deserter"
+msgstr "Получихте наказание към рейтингови точки"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "Наказани сте. След завършване на квалификацията рейтингът ви ще бъде намален."
+
+msgid "battleResult/label/deserter"
+msgstr "Дезертиране"
+
+msgid "battleResult/message/deserter"
+msgstr "Наказани сте.\nИзгубени рейтонгови точки: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "Напуснахте бойното поле.\nСлед завършване на квалификацията, вашият рейтинг ще бъде намален."
+
+msgid "battleResult/message/header/deserter"
+msgstr "Неспортсменско поведение"
+
+msgid "battleResult/personal/label"
+msgstr "Рейтингови точки"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "Отразява текущия напредък на играча в класацията. Рейтинг точките могат да бъдат спечелени или загубени, в зависимост от вашия успех в режима."
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• Загуби/равенства в режимни битки\n• Получаване на наказание\n• Рейтингова неактивност."
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "Рейтингови точки са премахнати за:"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "Рейтингови точки"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "Квалификационна битка"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s — %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "Квалификация"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "Получени са рейтингови точки. За да защитите своя ранг на Легенда, останете в топ %(topPercentage)d%% от играчите в класацията."
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "Получени са рейтингови точки. За да защитите своя ранг на Легенда, бъдете сред топ %(topPercentage)d%% от играчите в класацията."
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "Получени са рейтингови точки"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "Изгубени са рейтингови точки. За да защитите своя ранг на Легенда, останете в топ %(topPercentage)d%% от играчите в класацията."
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "Изгубени са рейтингови точки. За да защитите своя ранг на Легенда, бъдете сред топ %(topPercentage)d%% от играчите в класацията."
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "Изгубени са рейтингови точки"
+
+msgid "battleResult/subTask/rating"
+msgstr "Рейтингови точки: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "Вие сте понижени до %(division)s. %(rank)s"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "%(rank)s. %(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "Вие сте повишени до %(division)s. %(rank)s!"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "Проведени битки (ден): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "Включително:"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "Проведени битки (сезон): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "Соло/взвод: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "Супер взвод: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "Сезонът на Лазурния дракон ще продължи %(days)d ден"
+msgstr[1] "Сезонът на Лазурния дракон ще продължи %(days)d дни"
+msgstr[2] "Сезонът на Лазурния дракон ще продължи %(days)d дни"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "Сезонът на Пурпурния дракон ще продължи %(days)d ден"
+msgstr[1] "Сезонът на Пурпурния дракон ще продължи %(days)d дни"
+msgstr[2] "Сезонът на Пурпурния дракон ще продължи %(days)d дни"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "Сезонът на Нефритения дракон ще продължи %(days)d ден"
+msgstr[1] "Сезонът на Нефритения дракон ще продължи %(days)d дни"
+msgstr[2] "Сезонът на Нефритения дракон ще продължи %(days)d дни"
+
+msgid "calendarDay/title"
+msgstr "Разписание"
+
+msgid "carousel/banned"
+msgstr "Забранено"
+
+msgid "claimRewards/button"
+msgstr "Получи награда"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "Тази операция е временно недостъпна поради технически причини. Работим по отстраняване на проблема."
+
+msgid "closeButtonLabel"
+msgstr "ЗАТВОРИ"
+
+msgid "controls/compare"
+msgstr "Добави за сравнение"
+
+msgid "controls/preview"
+msgstr "Преглед"
+
+msgid "countDown/text"
+msgstr "Събитието започва след:\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1 мин"
+
+msgid "crewMembersTooltip/description"
+msgstr "Този специален екипаж се състои от танкисти от цял ​​свят, обединени под ръководството на своя командир. Всички те имат \"Братя по оръжие\" като нулево умение и достатъчно опит на екипажа, за да изучат още две умения, което им позволява да подобрят представянето на машината, както и да внесат своя личен нюх на бойното поле."
+
+msgid "crewMembersTooltip/perks"
+msgstr "Умения"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "Атака. Година на дракона"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "Нулеви умения"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "Средни поражения (ден): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "Съотношението между общите нанесени поражения спрямо броя изиграни битки."
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "Средни поражения (сезон): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "Рекорд на дневни поражения: %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "Максимални поражения, нанесени с %(vehicleName)s"
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "Рекорд на сезонни поражения: %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "—"
+
+msgid "dataError/description"
+msgstr "Извиняваме се за временното неудобство. Моля, опитайте да актуализирате страницата по-късно."
+
+msgid "dataError/title"
+msgstr "Грешка при зареждане на данни"
+
+msgid "dayTooltip/day"
+msgstr "Ден %(index)s"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "Ден %(index)s: Няма проведени битки."
+
+msgid "dayTooltip/noBattles"
+msgstr "Si vis pacem, para bellum"
+
+msgid "dayTooltip/rankInactivity"
+msgstr "Рангова неактивност: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)s рейтингова точка"
+msgstr[1] "%(pointsCount)s рейтингови точки"
+msgstr[2] "%(pointsCount)s рейтингови точки"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "Промяна на рейтинговите точки: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "Ден %(index)s (днес)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "Ден %(index)s: Няма проведени битки днес."
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "Дивизии"
+
+msgid "division/text"
+msgstr "Дивизия %(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "Тази дивизия е за играчи с от {eeede9e6_Open}%(fromScore)&nbsp;до&nbsp;%(toScore){eeede9e6_Close}&nbsp;рейтингови точки."
+
+msgid "divisionTooltip/heading"
+msgstr "Дивизия %(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "Рейтингови точки"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "Изиграни битки"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)sРезултатите пристигат..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)sРезултатите пристигат"
+
+msgid "entryPointTooltip/description"
+msgstr "Състезателен режим с битки 7х7 с машини ниво %(levels)s. Издигнете се в класацията, за да спечелите уникални елементи за персонализация, машини, бонове и други ценни награди."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "РЕЖИМ"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s - режим на игра. Натиснете, за да разучите"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Наличен за%(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Примирие%(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "Ще бъде достъпен:\n%(timer)s"
+
+msgid "featureName"
+msgstr "Атака"
+
+msgid "featureNameCapitalized"
+msgstr "АТАКА"
+
+msgid "fifthRankTooltip/description"
+msgstr "Рангът {eeede9e6_Open}Шампион{eeede9e6_Close} се присъжда на играчи, спечелили поне {eeede9e6_Open}%(fromScore){eeede9e6_Close} рейтингови точки."
+
+msgid "forVehicle"
+msgstr "За: %(vehicleName)s"
+
+msgid "generalRankTooltip/body/first"
+msgstr "Рангът {eeede9e6_Open}Желязо{eeede9e6_Close} се присъжда на играчи, спечелили от {eeede9e6_Open}%(fromScore) до %(toScore){eeede9e6_Close} рейтингови точки."
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "Рангът {eeede9e6_Open}Злато{eeede9e6_Close} се присъжда на играчи, спечелили от {eeede9e6_Open}%(fromScore) до %(toScore){eeede9e6_Close} рейтингови точки."
+
+msgid "generalRankTooltip/body/second"
+msgstr "Рангът {eeede9e6_Open}Бронз{eeede9e6_Close} се присъжда на играчи, спечелили от {eeede9e6_Open}%(fromScore) до %(toScore){eeede9e6_Close} рейтингови точки."
+
+msgid "generalRankTooltip/body/third"
+msgstr "Рангът {eeede9e6_Open}Сребро{eeede9e6_Close} се присъжда на играчи, спечелили от {eeede9e6_Open}%(fromScore) до %(toScore){eeede9e6_Close} рейтингови точки."
+
+msgid "generalRankTooltip/subheading"
+msgstr "Включва дивизии: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "ЗА СЪБИТИЕТО"
+
+msgid "intro/confirmButton"
+msgstr "Тъй вярно!"
+
+msgid "intro/description/banPhase"
+msgstr "Всеки отбор може напълно да забрани машина от битка. Координирайте гласовете със съюзниците си, за да изключите най-нежеланата си машина или да подготвите неочакван състав за враговете. Ако машината ви е забранена, можете да избирате от няколко предварително конфигурирани под наем."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Режимът има модификатори, които променят определени параметри на машината, като живот, време за подготовка на снаряжението, оставащо време видим и др."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "След като завладеете определени области от картата, ще можете да използвате тактически умения. Има два вида важни точки: щабът на артилерията ще ви позволи да насочите артилерийски залп към определена позиция, а комуникационният център ще открие всички вражески машини. В зависимост от картата, присъствието и местоположението на тези важни точки може да се променя."
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "Проведете %(count)s квалификационна битка, за да определите вашето ниво на умения и ранг. След завършване ще получите награди за постигнатия ранг и всички предишни рангове.\n\nДезертиране или равенство в квалификацията ще се счита за поражение."
+msgstr[1] "Проведете %(count)s квалификационни битки, за да определите вашето ниво на умения и ранг. След завършване ще получите награди за постигнатия ранг и всички предишни рангове.\n\nДезертиране или равенство в квалификацията ще се счита за поражение."
+msgstr[2] "Проведете %(count)s квалификационни битки, за да определите вашето ниво на умения и ранг. След завършване ще получите награди за постигнатия ранг и всички предишни рангове.\n\nДезертиране или равенство в квалификацията ще се счита за поражение."
+
+msgid "intro/description/ranks"
+msgstr "Система, която отразява уменията на играча. Напредвайте в ранговете от Желязо до Легенда и спечелете ценни награди. Бийте се през годината на Дракона, за да получите уникални годишни награди."
+
+msgid "intro/description/roleSkills"
+msgstr "В зависимост от ролята, всяка машина има специално умение с три нива на заряд. Колкото по-високо е нивото на заряд при активиране на умението, толкова по-силен ще бъде ефектът. Нивото на заряд ще зависи от броя точки престиж, които могат да бъдат спечелени за впечатляващо представяне в битка, превземане на важни точки, използване на тактически умения и т.н.\n\nВижте правилата на събитието, за да научите повече за различните начини, по които можете да спечелите точки престиж."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Можете да влезете в битка с изследваеми машини ниво %(levels)s (с изключение на САУ), както и колекционерски и някои специални. Подгответе машините си в Парка, след което изберете най-добрата въз основа на характеристиките на дадената карта, след като влезете в битка. Когато избирате машината си, вземете предвид също кои машини са избрали вашите съюзници."
+
+msgid "intro/title/banPhase"
+msgstr "ЗАБРАНИ ЗА МАШИНИ"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "МОДИФИКАТОРИ НА АТАКА"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "ВАЖНИ ТОЧКИ"
+
+msgid "intro/title/qualification"
+msgstr "КВАЛИФИКАЦИЯ"
+
+msgid "intro/title/ranks"
+msgstr "РАНГОВА СИСТЕМА"
+
+msgid "intro/title/roleSkills"
+msgstr "РОЛЕВИ УМЕНИЯ"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "ИЗБЕРЕТЕ МАШИНА ЗА ОПРЕДЕЛЕНА КАРТА"
+
+msgid "lastUpdateNote/info"
+msgstr "Обновено: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "Рейтинговите точки на последния играч в класацията за ранг Легенда\nсе обновяват на всеки %(count)s минути."
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "Обновяване на данните..."
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "Класацията се обновява на всеки %(count)s минути."
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "Последно обновяване: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "Моята позиция"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "Постигнете ранг Шампион или Легенда, за да влезете в класацията."
+
+msgid "leaderboard/error/buttonText"
+msgstr "Обнови"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "Играчите с ранговете на Шампион и Легенда ще бъдат включени в класацията. Спечелете {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close} рейтингови точки и достигнете върха на класацията!"
+
+msgid "leaderboard/noRecords/title"
+msgstr "Няма играчи в класацията за текущия сезон"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "Битки"
+
+msgid "leaderboard/table/header/order"
+msgstr "#"
+
+msgid "leaderboard/table/header/player"
+msgstr "Име на играч"
+
+msgid "leaderboard/table/header/score"
+msgstr "Рейтингови точки"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "Броят битки, водени от играча в режим Атака през текущия сезон."
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "Битки"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "Позиция на играча в класирането."
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "Позиция"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "Името на играча, заемащ позиция в класирането."
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "Име на играч"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "Броят на спечелените рейтингови точки от текущия сезон."
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "Рейтингови точки"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Играчи във взвод"
+
+msgid "noVehicles/howTo/premium"
+msgstr "Използвайте Танков премиум акаунт"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Активирай лични резерви"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Завършени мисии"
+
+msgid "noVehicles/howTo/title"
+msgstr "Кой е най-бързият начин да вземете машини от %(levels)s ниво?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "За да участвате в Атака, трябва да имате поне една машина от ниво %(levels)s в Парка, която да е подходяща за този режим.\n Имате проучена машина от ниво %(levels)s, която не е получена."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "За да участвате в Атака, трябва да имате поне една машина от ниво%(levels)s в Парка, която да е подходяща за този режим.\n Имате машина ниво %(levels)s на разположение за възстановяване."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "За да участвате в Атака, трябва да имате поне една машина от ниво %(levels)s в Парка, която да е подходяща за този режим."
+
+msgid "noVehicles/title"
+msgstr "Няма подходящи машини в Парка ви"
+
+msgid "page/heading/leaderboard"
+msgstr "КЛАСАЦИЯ"
+
+msgid "page/heading/progression"
+msgstr "РАНГОВА СИСТЕМА"
+
+msgid "page/heading/qualification"
+msgstr "КВАЛИФИКАЦИЯ"
+
+msgid "page/heading/rankRewards"
+msgstr "НАГРАДИ ЗА РАНГОВЕ"
+
+msgid "page/heading/shop"
+msgstr "МАГАЗИН АТАКА"
+
+msgid "page/heading/weeklyQuests"
+msgstr "СЕДМИЧНИ МИСИИ"
+
+msgid "page/heading/yearlyRewards"
+msgstr "ГОДИШНИ НАГРАДИ"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "ГОДИШНА СТАТИСТИКА"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "Напред"
+
+msgid "pagination/prev"
+msgstr "Назад"
+
+msgid "pbs/bans/title"
+msgstr "ЗАБРАНЕНИ МАШИНИ"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "ДВУИЗМЕРЕН СТИЛ ЗА АТАКА"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "МИСИЯТА ЗА ДВУИЗМЕРЕН СТИЛ Е ИЗПЪЛНЕНА!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "СЕДМИЧНА МИСИЯ #%(count)s Е ИЗПЪЛНЕНА!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "СЕДМИЧНАТА МИСИЯ Е ИЗПЪЛНЕНА!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "СЕДМИЧНА АТАКА"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "ЗАГУБА, ЗАЩОТО ВИЕ"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "РЕМИ, ЗАЩОТО ВИЕ"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "ПОБЕДА, ЗАЩОТО ВИЕ"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "Повишен до %(rank)s"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "Понижен до %(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "Повишен до %(rank)s, %(division)s"
+
+msgid "pbs/overview/qualification/description"
+msgstr "Изиграни битки"
+
+msgid "pbs/overview/qualification/title"
+msgstr "Квалификация"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "Получихте дисциплинарно наказание: наказание с рейтингови точки"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "Получихте дисциплинарно наказание: След завършване на квалификацията рейтингът ви ще бъде намален"
+
+msgid "pbs/rankDescription/fifth"
+msgstr "За да се сдобиете с ранг Легенда, бъдете сред {ede6d9e5_Open}топ %(topPercentage)%{ede6d9e5_Close} от играчите в класацията."
+
+msgid "pbs/rankDescription/sixth"
+msgstr "За да задържите ранг Легенда, бъдете сред {ede6d9e5_Open}топ %(topPercentage)%{ede6d9e5_Close} от играчите в класацията."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Вижте страницата \"За Атака\" за подробности."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Точки престиж"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Нанасяне на поражения\nПомощ при откриване\nУнищожаване на вериги\nНанасяне на критични попадения\nУнищожаване на вражески машини\nИ други"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Този специален ресурс влияе върху броя на спечелените и загубените рейтингови точки в битка. Точки престиж могат да бъдат спечелени за извършване на бойни действия, включително:"
+
+msgid "percentage"
+msgstr "%(percentageValue)s%"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "Средни точки престиж (за ден): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "Съотношение на общия брой спечелени точки престиж спрямо броя на проведените битки."
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "Средни точки престиж (за сезон): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "Дневен рекорд на точки престиж: %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "Максимум точки престиж, спечелени в битка с %(vehicleName)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "Сезонен рекорд на точки престиж: %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Сезонът на Лазурния дракон приключи на сървъра %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Сезонът на Пурпурния дракон приключи на сървъра %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Сезонът на Нефритения дракон приключи на сървъра %(server)s."
+
+msgid "products/actions/buy"
+msgstr "Купи"
+
+msgid "products/actions/restore"
+msgstr "Към Склада"
+
+msgid "products/actions/toCustomization"
+msgstr "Към стила"
+
+msgid "products/actions/toHangar"
+msgstr "Покажи в Парка"
+
+msgid "products/customizationUnavailable/body"
+msgstr "Не може да се премине към стил. Това може да се дължи на: все още не притежавате тази машина, машината е във формирование, машината е в битка или са необходими ремонти."
+
+msgid "products/customizationUnavailable/title"
+msgstr "Недостъпен"
+
+msgid "products/discount"
+msgstr "-%(discountPercentage)s%"
+
+msgid "products/discountDescription"
+msgstr "До началото на следващия сезон ще имате достъп до артикули и отстъпка в зависимост от {eeede9e6_Open}най-високия{eeede9e6_Close} ви {eeede9e6_Open}постигнат{eeede9e6_Close} {eeede9e6_Open}ранг{eeede9e6_Close}."
+
+msgid "products/discountSectionName"
+msgstr "УСЛОВИЯ ЗА ДОСТЪП И ОТСТЪПКИ"
+
+msgid "products/inProgress"
+msgstr "Моля, изчакайте, вашата покупка се обработва..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "Достъпно за покупка на сезон: %(count)s"
+
+msgid "products/message/notEnough"
+msgstr "Недостатъчни средства за покупка."
+
+msgid "products/message/rankAccess"
+msgstr "Изискване за покупка\n%(rank)s"
+
+msgid "products/newLabel"
+msgstr "НОВО"
+
+msgid "products/priceSectionName"
+msgstr "ЦЕНА"
+
+msgid "products/productAccess"
+msgstr "Достъп до\nранг"
+
+msgid "products/purchased"
+msgstr "Купено"
+
+msgid "products/rankAccess"
+msgstr "Достъп до ранг %(rank)s"
+
+msgid "products/readyToRestore"
+msgstr "Възстановяването е достъпно"
+
+msgid "products/readyToRestoreDescription"
+msgstr "Предлага се за възстановяване в Склада"
+
+msgid "products/style3d"
+msgstr "Триизмерен стил %(name)s"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "ОБРАТНО КЪМ СЕЗОННАТА СТАТИСТИКА"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "СТАТИСТИКА ЗА СЕЗОНА"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "СТАТИСТИКА ЗА ДЕН %(day)s"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "СТАТИСТИКА ЗА ДНЕС"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "Всяка колонка показва данни за периода между праймтайма на избрания ден и праймтайма на следващия ден. В някои случаи може да включва битки от два календарни дни."
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "Всяка колонка показва данни за периода между праймтайма на избрания ден и праймтайма на следващия ден. В някои случаи може да включва битки от два календарни дни."
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "Този раздел се актуализира само когато са налични нови данни. Можете да заявите актуализация, като натиснете бутона за обновяване."
+
+msgid "progressionPage/chartHeader/update"
+msgstr "Актуализирано: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "Поздравления!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "Изпълнихте всички мисии за двуизмерен стил."
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s / %(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "Серия мисии за отключване на нови елементи за прогресивния двуизмерен стил на текущия сезон."
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "МИСИЯ ЗА ДВУИЗМЕРЕН СТИЛ: %(taskNumber)s"
+msgstr[1] "МИСИИ ЗА ДВУИЗМЕРЕН СТИЛ: %(taskNumber)s"
+msgstr[2] "МИСИИ ЗА ДВУИЗМЕРЕН СТИЛ: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "МИСИИ ЗА ДВУИЗМЕРЕН СТИЛ"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "Към стила"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "Всички стилове в момента се прилагат за неналични машини"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "Няма налични машини, към които да се приложи стил"
+
+msgid "progressionPage/error/refresh"
+msgstr "Обнови"
+
+msgid "progressionPage/error/refreshing"
+msgstr "Обновяване..."
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "Средни поражения"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "Средни точки престиж"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "Промяна на рейтинга %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "Рекордът е поставен на %(seasonRecordDescriptionDay)s"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "ден %(day)s"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "Към всички статистики"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "Включва:\n • Поражения чрез откриване от вас (включително поражения с помощта на умения)\n • Поражения при унищожаване на верига и обездвижване на вражеска машина (включително поражения с помощта на умения)\n • Поражения, нанесени от съюзници с помощта на вашите умения\n • Поражения, нанесени от съюзници на зашеметен враг (включително зашеметявания с помощта на вашите умения)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "Общ брой проведени битки"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "Съотношение на общите нанесени поражения спрямо броя проведени битки"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "Съотношение на унищожените вражески машини спрямо броя на унищожаванията на машината на играча"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "Съотношение на \"Причинени поражения\" спрямо \"Получени поражения\""
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "Съотношение на общия брой спечелени точки престиж спрямо броя на проведените битки"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "Машини с най-много проведени битки"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "Общ процент победи"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "Средни поражения, нанесени с ваша помощ"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "Битки"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "Средни нанесени поражения"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "Коефициент на унищожение"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "Коефициент на поражения"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "Среден брой точки престиж на битка"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "Име на машина"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "Победи"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "СТАТИСТИКА ЗА МАШИНА"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s-%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "Дни до понижаване на рейтинга: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "Неактивността в режим Атака ще ви изгуби {eeede9e6_Open}%(count)s{eeede9e6_Close} рейтинг точка."
+msgstr[1] "Неактивността в режим Атака ще ви изгуби {eeede9e6_Open}%(count)s{eeede9e6_Close} рейтинг точки."
+msgstr[2] "Неактивността в режим Атака ще ви изгуби {eeede9e6_Open}%(count)s{eeede9e6_Close} рейтинг точки."
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(1&nbsp;битка&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;точка активност)"
+msgstr[1] "(1&nbsp;битка&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;точки активност)"
+msgstr[2] "(1&nbsp;битка&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;точки активност)"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "Няма да загубите рейтингови точки, ако не играете в режима на текущия си ранг, но може да загубите, ако достигнете следните рангове: %(rankList)s"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "Вашият ранг се влияе от неактивност"
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "Вашият ранг не се влияе от неактивност"
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "Ранг"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "Топ %(topPercentage)s% от играчите в класацията"
+
+msgid "progressionTooltip/division"
+msgstr "Дивизия %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "Тази дивизия е за играчи с от {eeede9e6_Open}%(fromScore) до %(toScore){eeede9e6_Close} рейтингови точки."
+
+msgid "progressionTooltip/info/fifth"
+msgstr "Рангът Шампион се присъжда на играчи, спечелили поне {eeede9e6_Open}%(fromScore){eeede9e6_Close} рейтингови точки."
+
+msgid "progressionTooltip/info/sixth"
+msgstr "Рангът Легенда се присъжда на {eeede9e6_Open}топ %(topPercentage)%{eeede9e6_Close} от играчите в класацията."
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "Проведете %(maxBattlesCount)s битка в режима, за да определите вашето ниво на умения и ранг."
+msgstr[1] "Проведете %(maxBattlesCount)s битки в режима, за да определите вашето ниво на умения и ранг."
+msgstr[2] "Проведете %(maxBattlesCount)s битки в режима, за да определите вашето ниво на умения и ранг."
+
+msgid "progressionTooltip/qualificationName"
+msgstr "Квалификация"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "Дни до понижаване на рейтинга: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "Неактивността в режим Атака ще ви изгуби {eeede9e6_Open}%(count)s{eeede9e6_Close} рейтинг точка."
+msgstr[1] "Неактивността в режим Атака ще ви изгуби {eeede9e6_Open}%(count)s{eeede9e6_Close} рейтинг точки."
+msgstr[2] "Неактивността в режим Атака ще ви изгуби {eeede9e6_Open}%(count)s{eeede9e6_Close} рейтинг точки."
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s Вашият рейтинг се влияе от неактивност в ранга."
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "Играйте до края на деня, за да запазите ранга си."
+
+msgid "progressionTooltip/ratingScore"
+msgstr "Рейтингови точки"
+
+msgid "purchase/affirmative"
+msgstr "Тъй вярно!"
+
+msgid "purchase/cancelButton"
+msgstr "Назад"
+
+msgid "purchase/confirmButton"
+msgstr "Купи"
+
+msgid "purchase/error/description"
+msgstr "Неуспешно извършване на покупка. Опитайте отново по-късно."
+
+msgid "purchase/error/title"
+msgstr "Грешка"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)sНямате подходяща машина за този стил в Парка"
+
+msgid "purchase/price"
+msgstr "Покупна цена:"
+
+msgid "purchase/success/heading"
+msgstr "Благодарим ви за покупката!"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)sПокупката ще постъпи във вашия игрови акаунт в най-скоро време"
+
+msgid "purchase/success/style3d"
+msgstr "Триизмерен стил %(name)s за %(vehicleName)s"
+
+msgid "purchase/title/style3d"
+msgstr "Купи триизмерен стил %(name)s?"
+
+msgid "purchase/title/vehicle"
+msgstr "Купи %(name)s?"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "Проведете {eeede9_Open}%(maxBattlesCount)s битка{eeede9_Close} в режима, за да определите вашето ниво на умения и ранг."
+msgstr[1] "Проведете {eeede9_Open}%(maxBattlesCount)s битки{eeede9_Close} в режима, за да определите вашето ниво на умения и ранг."
+msgstr[2] "Проведете {eeede9_Open}%(maxBattlesCount)s битки{eeede9_Close} в режима, за да определите вашето ниво на умения и ранг."
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "За да завършите квалификацията, проведете %(maxBattlesCount)s битка и изчакайте рейтингът да бъде изчислен. Вашето бойно представяне по време на квалификацията влияе на крайния ранг, който ще получите.\nДезертирането в квалификацията ще доведе до по-лош резултат дори от най-тежкото поражение."
+msgstr[1] "За да завършите квалификацията, проведете %(maxBattlesCount)s битки и изчакайте рейтингът да бъде изчислен. Вашето бойно представяне по време на квалификацията влияе на крайния ранг, който ще получите.\nДезертирането в квалификацията ще доведе до по-лош резултат дори от най-тежкото поражение."
+msgstr[2] "За да завършите квалификацията, проведете %(maxBattlesCount)s битки и изчакайте рейтингът да бъде изчислен. Вашето бойно представяне по време на квалификацията влияе на крайния ранг, който ще получите.\nДезертирането в квалификацията ще доведе до по-лош резултат дори от най-тежкото поражение."
+
+msgid "qualification/conditionTooltip/header"
+msgstr "Правила на квалификацията"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "Изиграни битки"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s Изчакване на резултатите от квалификацията, за да получите вашия ранг"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "Изчисляването на рейтинга ви въз основа на резултатите от квалификацията може да отнеме до пет минути. След това ще получите ранг и можете да продължите да играете в Атака."
+
+msgid "qualification/rewardsButton"
+msgstr "Към наградите"
+
+msgid "qualification/rewardsDescription"
+msgstr "След завършване на квалификацията ще получите награди за ранга, който сте постигнали, и всички предишни рангове."
+
+msgid "quotesWrapper"
+msgstr "\"%(name)s\""
+
+msgid "rank/achieved"
+msgstr "Постигнати"
+
+msgid "rank/current"
+msgstr "Текущ"
+
+msgid "rank/fifth"
+msgstr "Шампион"
+
+msgid "rank/first"
+msgstr "Желязо"
+
+msgid "rank/fourth"
+msgstr "Злато"
+
+msgid "rank/qualification"
+msgstr "Квалификация"
+
+msgid "rank/second"
+msgstr "Бронз"
+
+msgid "rank/sixth"
+msgstr "Легенда"
+
+msgid "rank/text"
+msgstr "Ранг %(rank)s"
+
+msgid "rank/third"
+msgstr "Сребро"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "Ранг на играча"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "Ранг на играч(и) от взвода"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "Взводовете могат да се състоят само от играчи със сходни рангове."
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "Рангови ограничения за взводове от %(count)s играча"
+
+msgid "rankInactivityTooltip/description"
+msgstr "Ако не играете в режима, ще загубите рейтингови точки."
+
+msgid "rankInactivityTooltip/heading"
+msgstr "Рангова неактивност"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "Дни до падането на вашия рейтинг: %(count)s"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "Дневен рейтинг"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "Промяна на рейтинговите точки: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "Разлика в рейтинговите точки между избрания ден и деня преди него."
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "Дневен рейтинг: %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "Максималната оценка, достигната за избрания ден."
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "ден %(day)s"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "Сезонен рекорд на рейтинг, поставен на ден %(dayOfRecord)s"
+
+msgid "rankInfo/current/fifth"
+msgstr "Рангът Шампион се присъжда на играчи, спечелили поне {eeede9e6_Open}%(fromScore){eeede9e6_Close} рейтингови точки."
+
+msgid "rankInfo/current/sixth"
+msgstr "Рангът Легенда се присъжда на {eeede9e6_Open}топ %(topPercentage)%{eeede9e6_Close} от играчите в класацията."
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "За да постигнете ранг Легенда, бъдете сред {eeede9e6_Open}топ %(topPercentage)%{eeede9e6_Close} на играчите в класацията по рейтингови точки."
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "За да задържите ранга си Легенда, останете в {eeede9e6_Open}топ %(topPercentage)%{eeede9e6_Close} на играчите в класацията по рейтингови точки."
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "За да постигнете ранг Легенда, бъдете сред {eeede9e6_Open}топ %(topPercentage)%{eeede9e6_Close} на играчите в класацията по рейтингови точки. Рейтингови точки, спечелени от последния играч в класацията за ранг &nbsp;Легенда&nbsp;: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "За да задържите ранга си Легенда, останете в {eeede9e6_Open}топ %(topPercentage)%{eeede9e6_Close} на играчите в класацията по рейтингови точки. Рейтингови точки, спечелени от последния играч в класацията за ранг &nbsp;Легенда&nbsp;: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankUpper/fifth"
+msgstr "ШАМПИОН"
+
+msgid "rankUpper/first"
+msgstr "ЖЕЛЯЗО"
+
+msgid "rankUpper/fourth"
+msgstr "ЗЛАТО"
+
+msgid "rankUpper/second"
+msgstr "БРОНЗ"
+
+msgid "rankUpper/sixth"
+msgstr "ЛЕГЕНДА"
+
+msgid "rankUpper/text"
+msgstr "РАНГ %(rank)s"
+
+msgid "rankUpper/third"
+msgstr "СРЕБРО"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "Можете да изберете една бройка подобрено оборудване от списъка по-долу:\n\n• Стелт ауспух\n• Иновативно насочване\n• Подобрена раздатъчна кутия\n• Подобрен компресор\n• Повишена устойчивост на снаряди\n• Подобрена конфигурация\n• Експериментална оптика\n• Иновативна система за зареждане\n• Вентилационна система\n• Устойчив на износване прицел на оръдието\n• Система стабилизиращо оборудване\n• Телескопична система за наблюдение\n• Тактическа маскировъчна мрежа"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "Можете да изберете една бройка експериментално оборудване от списъка по-долу:\n\n• Система за управление на огъня T3\n• Подобрена система за оцеляване T3\n• Подобрена система за мобилност T3\n• Подобрена система за точност T3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "Камуфлаж \"%(name)s\""
+
+msgid "rewards/preview"
+msgstr "Преглед"
+
+msgid "rewards/status/achieved"
+msgstr "Наградата е получена"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}За машини от ниво %(vehicleLevel)s{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}За %(progressionStyleName)s стил{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "Ниво %(vehicleLevel)s"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "Получихте и:"
+
+msgid "rewardsScreen/button"
+msgstr "Тъй вярно!"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "Към наградите"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "Изберете награда"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "Към покупка"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "АТАКА. КВАЛИФИКАЦИЯТА Е ЗАВЪРШЕНА"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "АТАКА. СЕЗОН НА ЛАЗУРНИЯ ДРАКОН"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "АТАКА. СЕЗОН НА ПУРПУРНИЯ ДРАКОН"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "АТАКА. СЕЗОН НА НЕФРИТЕНИЯ ДРАКОН"
+
+msgid "rewardsScreen/description/year"
+msgstr "АТАКА. ГОДИНА НА ДРАКОНА"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "Къде ми е Ashbringer-а?!"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "Няма ранг"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "След като получите този ранг, можете да загубите рейтингови точки, ако спрете да играете в режим Атака."
+
+msgid "rewardsScreen/notice/title"
+msgstr "Рангова неактивност"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "Общо цветове\nна Атака"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "Избор на оборудване"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "Изберете награди"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "Предлагат се нови отстъпки в Магазина на Атака!"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "Има нови налични артикули в Магазина на Атака!"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "До началото на следващия сезон ще имате достъп до артикули и отстъпка в зависимост от най-високия ви постигнат ранг."
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "До началото на следващия сезон ще имате достъп до артикули и отстъпка в зависимост от най-високия ви постигнат ранг."
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}Ранг %(rank)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "Въз основа на резултатите от квалификацията вие сте получили награди за следните рангове: {ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr ", "
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "Получихте награди за повишението си в ранг {ffe4c0_Open}%(rank)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "Награда за изпълнение на седмична мисия {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close}"
+msgstr[1] "Награда за изпълнение на седмични мисии {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close}"
+msgstr[2] "Награда за изпълнение на седмични мисии {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/title/division"
+msgstr "ДОСТИГНАТА Е ДИВИЗИЯ %(division)s"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "ДОСТИГНАТ Е РАНГ {ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "НАГРАДИ ЗА ПОСТИГНАТИ РАНГОВЕ"
+
+msgid "rewardsScreen/title/rank"
+msgstr "ДОСТИГНАТ Е РАНГ {ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "НАГРАДА ЗА НОВИЯ ВИ РАНГ"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "ПОЛУЧЕНА Е НАГРАДА"
+msgstr[1] "ПОЛУЧЕНИ СА НАГРАДИ"
+msgstr[2] "ПОЛУЧЕНИ СА НАГРАДИ"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "НАГРАДИ ЗА СЕДМИЧНИ МИСИИ"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "ГОДИШНИ НАГРАДИ"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "Идва с:"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "АТАКА"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "ИЗБЕРЕТЕ НАГРАДА"
+msgstr[1] "ИЗБЕРЕТЕ НАГРАДИ"
+msgstr[2] "ИЗБЕРЕТЕ НАГРАДИ"
+
+msgid "scoreTooltip/body"
+msgstr "Рейтинговите точки, които спечелите, ще определят вашия ранг и дивизия в режим Атака. Печелете битки, за да станете най-добрият!"
+
+msgid "scoreTooltip/header"
+msgstr "Рейтингови точки"
+
+msgid "season/daysLeft"
+msgstr "Приключва след %(totalDays)s дни"
+
+msgid "season/hoursLeft"
+msgstr "Приключва след %(hours)s часа"
+
+msgid "season/minutesLeft"
+msgstr "Приключва след %(minutes)s минути"
+
+msgid "season/over"
+msgstr "%(seasonName)s завърши"
+
+msgid "season/range"
+msgstr "%(startDate)s–%(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "Приключва след %(seconds)s секунди"
+
+msgid "seasonName/first"
+msgstr "Сезон на Лазурния дракон"
+
+msgid "seasonName/second"
+msgstr "Сезон на Пурпурния дракон"
+
+msgid "seasonName/third"
+msgstr "Сезон на Нефритения дракон"
+
+msgid "seasonPointTooltip/header"
+msgstr "Цветове на Атака"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "Получено"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "Неполучено"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "Вие сте претендент за получаване на Цветове на Атака"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "Неизползваните цветове на Атака се конвертират в бонове при следния курс: {bond_Open}1 цвят на Атака{bond_Close} в {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "В края на всеки сезон ще получите Цветове на Атака според вашия ранг."
+
+msgid "seasonPointTooltip/text/year"
+msgstr "Всеки 3 цвята на Атака подобряват наградата, която получавате в края на годината."
+
+msgid "seasonStatistics/button/fifth"
+msgstr "Къде ми е трофеят?!"
+
+msgid "seasonStatistics/button/first"
+msgstr "Всичко е наред"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "Безценното ми!"
+
+msgid "seasonStatistics/button/second"
+msgstr "Тъй вярно!"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "Легендарно!"
+
+msgid "seasonStatistics/button/third"
+msgstr "Ще се върна"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "Краен рейтигнг за сезона"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "Позиция в Класацията: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "АТАКА. %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "Получени %(points)s Цвят на Атака"
+msgstr[1] "Получени %(points)s Цветове на Атака"
+msgstr[2] "Получени %(points)s Цветове на Атака"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "СЕЗОН I. ЛАЗУРЕН ДРАКОН"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "СЕЗОН II. ПУРПУРЕН ДРАКОН"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "СЕЗОН III. НЕФРИТЕН ДРАКОН"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "Победи: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "Изиграни\nбитки"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "Средно: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "Рекордни\nпоражения"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "Коефициент на унищожение: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "Максимум унищожени машини\nв битка"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "Средно: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "Рекордни\nточки престиж"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "СТАТИСТИКА ЗА СЕЗОНА"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "В супер взвод: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "Победна серия\n(соло/взвод)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "Битки"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "—"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "Няма машини"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "ОСНОВНИ МАШИНИ"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "Победи"
+
+msgid "seasonStatistics/title"
+msgstr "СТАТИСТИКА ЗА СЕЗОНА %(name)s"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "Сезонът завършва след:"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "—"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s–%(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "График на битките"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "Днес"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "Утре"
+
+msgid "selectorTooltip/desc"
+msgstr "Състезателен режим. 7v7 | Ниво X"
+
+msgid "selectorTooltip/title"
+msgstr "Атака"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Следете последните новини в портала на играта, за да бъдете в течение за началото на новия сезон."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Режимът е временно недостъпен по технически причини."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Този режим ще бъде достъпен на %(time)s"
+
+msgid "shortSeasonName/first"
+msgstr "Лазурен дракон"
+
+msgid "shortSeasonName/second"
+msgstr "Пурпурен дракон"
+
+msgid "shortSeasonName/third"
+msgstr "Нефритен дракон"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "Този раздел съдържа информация за най-добрите играчи на текущия сезон в режим Атака."
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Този раздел съдържа информация за квалификацията, както и вашия ранг, дивизия и рейтингови точки след нейното завършване."
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "Този раздел съдържа информация за наличните награди за постигане на по-високи рангове в режим Атака."
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "Този раздел съдържа информация за налични артикули в Магазина на Атака"
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "Този раздел съдържа информация за седмичните мисии в режим Атака."
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "Този раздел съдържа подробности за годишните награди, които можете да получите, като спечелите цветовете на Атака."
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "Този раздел съдържа информация за вашите постижения във всеки от сезоните на текущата година на Атака."
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "Класация"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Рангова система"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "Награди за рангове"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "Магазин Атака"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "Седмични мисии"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "Годишни награди"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "Годишна статистика"
+
+msgid "sixthRankTooltip/description"
+msgstr "Рангът {eeede9e6_Open}Легенда{eeede9e6_Close} се присъжда на {eeede9e6_Open}топ %(topPercentage)%{eeede9e6_Close} на играчите в класацията по рейтингови точки."
+
+msgid "style3dTooltip/954"
+msgstr "Сребърни шипове"
+
+msgid "style3dTooltip/955"
+msgstr "Златни нокти"
+
+msgid "style3dTooltip/956"
+msgstr "Криле на шампион"
+
+msgid "style3dTooltip/957"
+msgstr "Легендарно същество"
+
+msgid "style3dTooltip/description"
+msgstr "Силен като лъв, яростен като дракон и смъртоносен като скорпион, този звяр е въплъщение от метал на съществото, от което се страхуват от древни времена."
+
+msgid "style3dTooltip/howToReceive"
+msgstr "Как се получават"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "Дава се за събиране на най-малко 9 цвята на Атака в Годината на мантикората в режим Атака."
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "Дава се за събиране на най-малко 12 цвята на Атака в Годината на мантикората в режим Атака. Замества предишния стил."
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "Дава се за събиране на най-малко 15 цвята на Атака в Годината на мантикората в режим Атака. Замества предишния стил."
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "Дава се за събиране на най-малко 18 цвята на Атака в Годината на мантикората в режим Атака. Замества предишния стил."
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "Подходящо за машини"
+
+msgid "system_messages/periodicReward/body"
+msgstr "Получихте ежедневната си награда за запазване на ранг %(rank)s.\n%(rewards)s."
+
+msgid "system_messages/periodicReward/title"
+msgstr "Ежедневна награда"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "В сила е примирие. Битките в Атака са временно недостъпни."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Примирие"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Примирието приключи. Битките в Атака отново са достъпни."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Примирие"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "Честито! Достигнахте ранг %(maxRank)s.\nПолучихте награди за следните рангове: %(ranks)s:\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "Завършена квалификация"
+
+msgid "system_messages/regularReward/body"
+msgstr "Дата: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "Квитанция"
+
+msgid "system_messages/shop/offer/button"
+msgstr "Към Магазина"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "Предлагат се нови отстъпки в Магазина на Атака!"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "Отстъпките са увеличени"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "Нови артикули вече са налични в Магазина на Атака!"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "Нови налични артикули"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "Грешка при плащането. Моля, опитайте отново по-късно."
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "Дата: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "Награди за изпълнение на седмични мисии"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "Дата: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "Награда за седмична мисия"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "За Атака"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "Сезонни актуализации"
+
+msgid "tournament/LBFinals"
+msgstr "ДД ФИНАЛИ"
+
+msgid "tournament/LBRound1"
+msgstr "ДД РУНД 1"
+
+msgid "tournament/LBRound2"
+msgstr "ДД РУНД 2"
+
+msgid "tournament/LBSemifinals"
+msgstr "ДД ПОЛУФИНАЛИ"
+
+msgid "tournament/UBFinals"
+msgstr "ГД ФИНАЛИ"
+
+msgid "tournament/UBSemifinals"
+msgstr "ГД ПОЛУФИНАЛИ"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "В турнир не може да се печелят или губят рейтинг точки."
+
+msgid "tournament/bestOf"
+msgstr "НАЙ-ДОБРОТО ОТ %(number)s"
+
+msgid "tournament/cny"
+msgstr "%(amount)s CNY"
+
+msgid "tournament/cnySign"
+msgstr "%(amount)s ¥"
+
+msgid "tournament/comeBack"
+msgstr "Моля, опитайте по-късно"
+
+msgid "tournament/comingSoon"
+msgstr "СКОРО %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "ВРЕМЕТО ЗАВИСИ ОТ ДЪЛЖИНАТА НА МАЧА"
+
+msgid "tournament/completed"
+msgstr "ЗАВЪРШЕНА"
+
+msgid "tournament/douyin"
+msgstr "Гледайте в Douyin"
+
+msgid "tournament/drops/huya"
+msgstr "Гледайте в Huya и спечелете ексклузивни\nHuya доставки!"
+
+msgid "tournament/drops/twitch"
+msgstr "Гледайте в Twitch и спечелете ексклузивни\nTwitch доставки!"
+
+msgid "tournament/dropsShort/huya"
+msgstr "И спечелете ексклузивни Huya доставки!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "И спечелете ексклузивни Twitch доставки!"
+
+msgid "tournament/error"
+msgstr "ГРЕШКА ПРИ ЗАРЕЖДАНЕ НА ДАННИ"
+
+msgid "tournament/eur"
+msgstr "%(amount)s EUR"
+
+msgid "tournament/euroSign"
+msgstr "%(amount)s €"
+
+msgid "tournament/finalResult"
+msgstr "ПОБЕДИТЕЛ"
+
+msgid "tournament/fundDistribution"
+msgstr "РАЗПРЕДЕЛЕНИЕ НА НАГРАДНИЯ ФОНД"
+
+msgid "tournament/grandFinals"
+msgstr "ГРАНД ФИНАЛ"
+
+msgid "tournament/huya"
+msgstr "Гледайте в Huya"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "Наградният фонд се формира от покупките на пакети от играчите. Последна актуализация: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "НЯМА ПОВЕЧЕ ПЛАНИРАНИ МАЧОВЕ"
+
+msgid "tournament/ols/roundRobin"
+msgstr "ФАЗА %(phase)s РУНД %(round)s"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s - %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "НАГРАДЕН ФОНД %(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "И ШАНСЪТ ДА СПЕЧЕЛИТЕ ВЕЧНА СЛАВА"
+
+msgid "tournament/refresh"
+msgstr "Обнови"
+
+msgid "tournament/refreshing"
+msgstr "Обновяване..."
+
+msgid "tournament/roundOf"
+msgstr "%(number)s-НА ФИНАЛИ"
+
+msgid "tournament/separator"
+msgstr "ИЛИ"
+
+msgid "tournament/tab/overview"
+msgstr "ПРЕГЛЕД"
+
+msgid "tournament/tab/schedule"
+msgstr "ПРОГРАМА"
+
+msgid "tournament/teamPlaceholder"
+msgstr "ОЧАКВА СЕ"
+
+msgid "tournament/toShop"
+msgstr "Посетете Магазина"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "Обмени"
+
+msgid "tournament/tokenStore/ols"
+msgstr "СЛА ЖЕТОНИ"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "Достъпно след:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "За турнира"
+
+msgid "tournament/twitch"
+msgstr "Гледайте в Twitch"
+
+msgid "tournament/viewFull"
+msgstr "Вижте всички"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "Подкрепете Сериите Легенди на Атака, като същевременно увеличите наградния фонд с турнирни пакети!"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "Покажете своя е-спорт дух с ексклузивни тематични елементи за персонализация и уникални танкове!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "ЗАРЕДЕТЕ НАГРАДНИЯ ФОНД"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "ПАКЕТИ WCI"
+
+msgid "tournament/vsBestOf"
+msgstr "СРЕЩУ\nНАЙ-ДОБРИТЕ %(number)s"
+
+msgid "tournament/wci/roundRobin"
+msgstr "КРЪГОВА СИСТЕМА"
+
+msgid "tournament/winner"
+msgstr "Победител"
+
+msgid "tournament/youtube"
+msgstr "Гледайте в Youtube"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "Най-добрите европейски отбори се борят за титлата шампион на Серии Легенди на Атака! Гледайте вълнуващи мачове 7 на 7 Атака, печелете Twitch доставки и подкрепете любимите си отбори, като увеличите наградния фонд чрез ексклузивни пакети за персонализация."
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "Епичен сблъсък предстои на Международното първенство по танкове World of Tanks в Суджоу, Китай, където най-свирепите отбори от цял ​​свят ще се изправят един срещу друг по правилата на режима Атака, всички състезаващи се за престижната титла световен шампион. Изживейте тръпката, докато легендите се раждат на бойното поле!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "СЛА сезон 6"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI'25"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "Стриймовете на живо ще бъдат достъпни за %(timer)s"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "Още мачове след %(timer)s"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "Точките за рейтинг не могат да се печелят в обучението на Атака."
+
+msgid "unit/message/modeOffline"
+msgstr "Невъзможно присъединяване към битката: грешка в базата данни."
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "Надвишена е разликата в ранговите ограничения"
+
+msgid "voiceChat/active"
+msgstr "Напуснете гласовия чат"
+
+msgid "voiceChat/inactive"
+msgstr "Присъединете се към гласовия чат"
+
+msgid "waitingSpinner/message"
+msgstr "Зареждане на съдържание..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "Мисиите на Атака са изпълнени"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "Чудесна работа! Изпълнихте всички седмични мисии. Не забравяйте да вземете наградата си и ще се видим следващия сезон!"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "Ще получите допълнителни награди за изпълнението на {eeede9e5_Open}%(questsList)s{eeede9e5_Close} и {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close} мисии"
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "Седмична мисия на Атака"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "Изпълнени: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s нова мисия след:"
+msgstr[1] "%(value)s нови мисии след:"
+msgstr[2] "%(value)s нови мисии след:"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "Награда:"
+msgstr[1] "Награди:"
+msgstr[2] "Награди:"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)s НОВА МИСИЯ СЛЕД %(countdown)s"
+msgstr[1] "%(value)s НОВИ МИСИИ СЛЕД %(countdown)s"
+msgstr[2] "%(value)s НОВИ МИСИИ СЛЕД %(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "НОВИ МИСИИ СЛЕДВАЩИЯ СЕЗОН!"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "Изпълнени мисии: %(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "Ще получавате по %(value)s нова мисия всяка седмица. Всяка изпълнена мисия се отчита за наградата ви!"
+msgstr[1] "Ще получавате по %(value)s нови мисии всяка седмица. Всяка изпълнена мисия се отчита за наградата ви!"
+msgstr[2] "Ще получавате по %(value)s нови мисии всяка седмица. Всяка изпълнена мисия се отчита за наградата ви!"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "В ход"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "Изпълнено"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "Недостъпно"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "Недостъпно за завършване: Режимът не е активен."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "За да отключите, изследвайте и закупете машина ниво X."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "Изпълнете предишната мисия, за да отключите тази."
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "Мисията е недостъпна"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "Вземете наградата си!"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "Изпълнени: %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "Мисия %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s нова мисия след:"
+msgstr[1] "%(value)s нови мисии след:"
+msgstr[2] "%(value)s нови мисии след:"
+
+msgid "whatsNewButtonLabel"
+msgstr "СЕЗОННИ АКТУАЛИЗАЦИИ"
+
+msgid "whatsNewView/banner/description"
+msgstr "Този сезон бележи последния ви шанс да получите ценни награди, включително ексклузивния тежък танк Ashbringer ниво X с всички уникални триизмерни стилове, които сте спечелили за него, и безстрашен екипаж с \"Братя по оръжие\" като нулево умение, плюс подобрено и експериментално оборудване, от което да избирате, привличащ вниманието двуизмерен стил и други. Не пропускайте – победата ви очаква на бойното поле!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "Грабнете последните моменти от годината на Дракона!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "СЕЗОН НА НЕФРИТЕНИЯ ДРАКОН"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "АТАКА. КАКВО НОВО?"
+
+msgid "whatsNewView/button/ok"
+msgstr "Бан-тастично!"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "Подобреният екран с резултати след битка, с новия си дизайн от Актуализация 2.0, вече ще ви предоставя допълнителна информация, свързана с режима, след всяка битка."
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "Подробни резултати от битки"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "Не се притеснявайте, ако любимата ви машина е била изключена. Наемите вече се предлагат с предварително конфигуриран екипаж, оборудване, снаряди и снаряжение."
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "Готови за битка машини под наем %(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "Този сезон всеки отбор може напълно да забрани дадена машина от битка. Координирайте гласовете със съюзниците си, за да изключите най-страшната за вас машина или да подготвите неочакван състав за враговете."
+
+msgid "whatsNewView/intro/heading"
+msgstr "Забрани за машина %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "Карти"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "Нови машини, налични в Атака"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "Машини под наем"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "Наскоро пуснатият американски среден танк Ares 90 ниво X вече е достъпен в режим с променено ролево умение."
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "Актуализация на ролево умение %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "114 SP2 вече е наличен за закупуване при ранг Сребро в Магазина на Атака."
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "Актуализация на Магазина %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "ИЗКЛЮЧЕНО"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "В ПРЕРАЗРАБОТКА"
+
+msgid "whatsNewView/tag/attention"
+msgstr "Внимание"
+
+msgid "whatsNewView/tag/changed"
+msgstr "Променено"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "Експериментално"
+
+msgid "whatsNewView/tag/new"
+msgstr "Ново"
+
+msgid "whatsNewView/tag/returned"
+msgstr "Върнато"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "Обновено"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "Сезонна актуализация"
+
+msgid "whatsNewView/watchVideo"
+msgstr "Гледай видео"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "Процент победи (ден): %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "Загуби: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "Ремита: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "Процент победи (сезон): %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "Съотношение на общия брой победи спрямо броя на проведените битки.\nБитки по резултат:"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "Победи: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "Наградите се доставят в края на третия сезон."
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "Наградите ще бъдат доставени скоро. Моля изчакайте."
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "Получена е годишна награда. Ще се видим догодина!"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "Имате оборудване, от което да избирате"
+
+msgid "yearlyRewards/claim"
+msgstr "Получи"
+
+msgid "yearlyRewards/claimReward"
+msgstr "Получи награда"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "Получихте 1%(seasonPointIcon)s за всеки ранг в края на сезона."
+
+msgid "yearlyRewards/description/current"
+msgstr "Ще получите 1%(seasonPointIcon)s за всеки ранг в края на сезона."
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\nс уникални триизмерни стилове"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "КЪМ ГОДИШНИТЕ НАГРАДИ"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "Показване на двуизмерен стил"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "Показване на триизмерен стил"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "Постигнат ранг: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "Текущ ранг: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "Четири уникални членове на екипажа"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "Наградата е получена"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "Наградата е гарантирана"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "Спечелете общо %(count)s цветове, за да спечелите награди за етапа"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "Възможна награда"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "Гарантирано ще получите тази награда в края на годината."
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "Спечелете необходимия брой Цветове на Атака, за да получите наградата си в края на годината."
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "Ще получите тази награда в края на годината, ако запазите текущия си ранг или го повишите преди края на сезона."
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "Активен етап"
+
+msgid "yearlyStatistics/battles"
+msgstr "Битки (соло/взвод)"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "Изчисляване на статистиката за сезона..."
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)sКъм статистиката на сезона"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "Няма ранг"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "Ранг %(rank)s"
+
+msgid "yearlyStatistics/rating"
+msgstr "Рейтингови точки"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "Есен 2025"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "Зима 2026"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "Пролет 2026"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s–%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "Сезон I. Лазурен дракон"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "Сезон II. Пурпурен дракон"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "Сезон III. Нефритен дракон"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "Текущ"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "Завършен"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "Битки (супер взвод)"
+
+msgid "yearlyStatistics/wins"
+msgstr "Процент победи"

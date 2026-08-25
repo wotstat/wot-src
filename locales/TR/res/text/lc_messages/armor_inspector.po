@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Ana zırh"
+
+msgid "armorValues/title/no_damage"
+msgstr "Hasar yok"
+
+msgid "armorValues/title/other"
+msgstr "Diğer"
+
+msgid "armorValues/title/penetration"
+msgstr "Delme olasılığı"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Sekme"
+
+msgid "armorValues/title/spaced"
+msgstr "Aralıklı zırh"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Saldıran yapılandırması"
+
+msgid "attackerTooltip/body"
+msgstr "Saldıran aracı değiştirmek için tıklayın"
+
+msgid "attackerTooltip/header"
+msgstr "Saldıran araç"
+
+msgid "menu/header"
+msgstr "Katman türü"
+
+msgid "menu/no_armor"
+msgstr "Katman yok"
+
+msgid "menu/nominal"
+msgstr "Nominal zırh"
+
+msgid "menu/penetration"
+msgstr "Delme olasılığı"
+
+msgid "modules/current"
+msgstr "Mevcut yapılandırma"
+
+msgid "modules/custom"
+msgstr "Özel yapılandırma"
+
+msgid "modules/standard"
+msgstr "Standart yapılandırma"
+
+msgid "modules/title"
+msgstr "Araç parçaları"
+
+msgid "modules/top"
+msgstr "En iyi yapılandırma"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Şasi"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Top"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Top Kalkanı"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Gövde"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Perde"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Gözetleme Aygıtı"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Kule"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Tekerlekler"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Hasar yok"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Delme"
+
+msgid "tooltip/dcc/percent"
+msgstr "%{{value}} "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Sekme"
+
+msgid "tooltip/minor/angle/description"
+msgstr "Mermi yolu ile zırh plakasına dik olan hattın arasındaki açı.\n\nMermi yolu, mermi ekranın ortasından düz bir çizgide ilerlemiş gibi hesaplanır."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Vuruş açısı"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Düşman zırhını delip araca hasar verme olasılığı."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Delme olasılığı"
+
+msgid "tooltip/minor/effective/description"
+msgstr "Tek bir zırh katmanı için etkin zırh, isabet açıcı ve mermi normalizasyonuna göre düzenlenen nominal zırhtır.\n\nVuruş noktasında çok sayıda zırh katmanı varsa, sonuç, her katmanın etkin değerlerinin toplamıdır."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Etkin zırh"
+
+msgid "tooltip/minor/header"
+msgstr "Lejant"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Bir mermi aralıklı zırha isabet ettiğinde ardından ana zırhı da delmiyorsa aralıklı zırhı vurmak araca hasar vermez."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Hasar yok"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Ana veya aralıklı zırh plaka(lar)ının gerçek kalınlığı."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Nominal zırh"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Düşman zırhını sıyırma açısıyla vuran mermiler seker. Ancak hâlâ başka bir aracı ve hatta aynı aracı vurabilir."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Sekme"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Etkin zırh ve delme olasılığı hesaplamalarını etkiler.\n\nTüm hesaplamalar için 100 m mesafe kullanılır (AP ve APCR mermiler mesafe ile delme gücünü kaybeder).\n\nMürettebat yetenekleri ve saldıran araç yükseltmeleri hesaplamaları etkilemez."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Saldıran yapılandırması"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Düşman zırhını delme ve araca hasar verme olasılığı.\n\nBir mermi aralıklı zırha isabet ettiğinde ardından ana zırhı da delmiyorsa aralıklı zırhı vurmak araca hasar vermez."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Delme olasılığı"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Bir araç ancak ana zırhı isabet alıp delinirse hasar alır. HE mermiler delemese bile bir araca azaltılmış hasar verebilir ancak yine de ana zırha ulaşması gerekir."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Ana zırh"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Bir mermi aralıklı zırha isabet ettiğinde ardından ana zırhı da delmiyorsa aralıklı zırhı vurmak araca hasar vermez.\n\nDış parçaları vurmak ve delmek o parçalara doğrudan hasar verir: Aracı hareketsiz bırakmak için paletini vurun, topu devre bırakmak için topu vurun veya aracın görüş mesafesini azaltmak için gözetleme aygıtını vurun."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Hasar yok"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "Sekme açısı zırh delici ve APCR mermiler için 70 derece, HEAT mermiler için 85 derecedir.\n\nHE mermiler sekmez. AP ve APCR mermiler ise sektikten sonra delme gücünün %25'ini kaybeder.\n\nMerminin kalibresi temas noktasındaki nominal zırh kalınlığının üç katından fazlaysa sekme gerçekleşmez (bu sadece AP ve APCR mermiler için geçerlidir)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Sekme"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Bir mermi aralıklı zırha isabet ettiğinde ardından ana zırhı da delmiyorsa aralıklı zırhı vurmak araca hasar vermez.\n\nDış parçaları vurmak ve delmek o parçalara doğrudan hasar verir: Aracı hareketsiz bırakmak için paletini vurun, topu devre bırakmak için topu vurun veya aracın görüş mesafesini azaltmak için gözetleme aygıtını vurun.\n\nİsabet açısı paletler ve top gibi dış parçalar için geçerli değildir. Burada etkin zırh nominal zırha eşittir."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Aralıklı zırh"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Zırh delme mekaniği hakkında video izleyin"

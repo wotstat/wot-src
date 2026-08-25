@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "closeButtonLabel"
+msgstr "AIZVĒRT"
+
+msgid "featureName"
+msgstr "ATKĀRTOJUMI"
+
+msgid "filter/apply"
+msgstr "Piemērot Filtru"
+
+msgid "filter/group/nation/title"
+msgstr "Nācija"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Līmenis"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Līmenis"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specializācija"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Tanka Veids"
+
+msgid "filter/reset"
+msgstr "Atiestatīt filtru"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Rādīt/slēpt šīs nācijas apkalpes locekļus."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Rādīt/slēpt šīs nācijas skinus."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Rādīt/slēpt šīs nācijas tankus."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Rādīt/slēpt šī veida tankus."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Tanku Iznīcinātāji"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Artilērijas"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Smagie Tanki"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Vieglie Tanki"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Vidējie Tanki"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nav atrasts neviens tanks kas atbilst\nmeklēšanas kritērijiem"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Kārtot pēc tanka nosaukuma."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Nosaukums"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Kārtot pēc tanku līmeņiem."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Līmenis"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Kārtot pēc tanku veida."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Veids"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Nosaukums"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Nospiediet, lai piemērotu filtra iestatījumus."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Piemērot izvēlētos filtrus"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Nospiediet, lai atiestatītu filtra iestatījumus."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Atiestatīt Visus Filtrus"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Rādīt tikai labākā laika atkārtojumus"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "Pēdējā %(count)s diena"
+msgstr[1] "Pēdējās %(count)s dienas"
+msgstr[2] "Pēdējās %(count)s dienas"
+
+msgid "filterPopover/title"
+msgstr "Atkārtojumu filtrs"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Konfigurējiet atkārtojumu filtru pēc tanka veida, līmeņa, nācijas, utt."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Filtrēt pēc parametriem"
+
+msgid "findReplay/buttonText/find"
+msgstr "Atrast atkārtojumu"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Notīrīt ievadi"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Skatīt atkārtojumu!"
+
+msgid "findReplay/errorMessage"
+msgstr "Nekas nav atrasts. Lūdzu mainiet pieprasījumu"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Lūdzu ievadiet ARENA_ID šeit..."
+
+msgid "findReplay/successMessage"
+msgstr "AI atrada atkārtojumu, kas jūs interesē! Izbaudi skatīšanos"
+
+msgid "page/heading/bestReplays"
+msgstr "LABĀKIE ATKĀRTOJUMI"
+
+msgid "page/heading/findReplay"
+msgstr "ATRAST ATKĀRTOJUMU (PRIEKŠ DEV)"
+
+msgid "page/heading/myReplays"
+msgstr "MANI ATKĀRTOJUMI"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Šī sadaļa satur informāciju par Labākajiem Atkārtojumiem no visiem WoT spēlētājiem"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Šī sadaļa ir priekš atkārtojumu atrašanas pēc dažiem parametriem"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Šī sadaļa satur informāciju par JŪSU labākajiem atkārtojumiem"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "LABĀKIE ATKĀRTOJUMI"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Atrast atkārtojumu"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "MANI ATKĀRTOJUMI"
+
+msgid "statsParam/damageAssisted"
+msgstr "Top 1 iznīcināšanas Palīdzēšanā"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Top 1 Bloķētajos bojājumos"
+
+msgid "statsParam/damageDealt"
+msgstr "Top 1 Izdarītajos bojājumos"
+
+msgid "statsParam/earnedXp"
+msgstr "Top 1 Nopelnītajā pieredzē"
+
+msgid "statsParam/kills"
+msgstr "Top 1 iznīcinātos Tankos"
+
+msgid "table/error/buttonText"
+msgstr "Atjaunināt"
+
+msgid "table/error/description"
+msgstr "Mēs atvainojamies par īslaicīgām neērtībām. Lūdzu mēģiniet atjaunināt lapu vēlāk."
+
+msgid "table/error/title"
+msgstr "Kļūda lādējot datus"
+
+msgid "table/header/damageAssisted"
+msgstr "Palīdzība"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Bloķētie bojājumi"
+
+msgid "table/header/damageDealt"
+msgstr "Bojājumi"
+
+msgid "table/header/date"
+msgstr "Datums"
+
+msgid "table/header/earnedXp"
+msgstr "Nopelnītā Pieredze"
+
+msgid "table/header/kills"
+msgstr "Iznīcināto tanku skaits"
+
+msgid "table/header/map"
+msgstr "Karte"
+
+msgid "table/header/marksOfMastery"
+msgstr "Meistarības žetoni"
+
+msgid "table/header/player"
+msgstr "Spēlētāja Vārds"
+
+msgid "table/header/vehicle"
+msgstr "Tanks"
+
+msgid "table/noRecords/buttonText"
+msgstr "Atiestatīt filtru"
+
+msgid "table/noRecords/title"
+msgstr "Nekas nav atrasts. Lūdzu nomainiet iestatījumus vai atiestatiet filtru."
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Nospiediet, lai atiestatītu filtra iestatījumus."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Atiestatīt visus filtrus"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Spēlētāja palīdzētie bojājumi šajā atkārtojumā"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Palīdzēti Bojājumi"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Spēlētāja bloķētie bojājumi šajā atkārtojumā"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Ar Bruņām Bloķētie Bojājumi"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Spēlētāja izdarītie bojājumi šajā atkārtojumā"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Izdarītie Bojājumi"
+
+msgid "table/tooltip/date/body"
+msgstr "Atkārtojuma ierakstīšanas datums."
+
+msgid "table/tooltip/date/header"
+msgstr "Atkārtojuma datums"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Spēlētāja nopelnītās pieredzes daudzums šajā atkārtojumā"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Nopelnītā pieredze"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Spēlētāja nopelnītas episkas medaļas"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Episkās Medaļas"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Nospiediet, lai pievienotu šo atkārtojumu Mīļākajiem atkārtojumiem."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Mīļākie"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Nospiediet, lai noņemtu šo atkārtojumu Mīļākajiem atkārtojumiem."
+
+msgid "table/tooltip/kills/body"
+msgstr "Spēlētāja iznīcināto tanku skaits šajā atkārtojumā"
+
+msgid "table/tooltip/kills/header"
+msgstr "Iznīcinājumi"
+
+msgid "table/tooltip/map/body"
+msgstr "Atkārtojuma karte."
+
+msgid "table/tooltip/map/header"
+msgstr "Karte"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Spēlētāja nopelnīti svarīgi žetoni šajā atkārtojumā"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Meistarības žetoni"
+
+msgid "table/tooltip/player/body"
+msgstr "Spēlētāja vārds no atkārtojuma."
+
+msgid "table/tooltip/player/header"
+msgstr "Spēlētāja Vārds"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Spēlētāja tanks, ar kuru tika ierakstīts atkārtojums."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Tanks"
+
+msgid "tableInfo/amount"
+msgstr "Atkārtojumi parādīti: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Filtrs"
+
+msgid "waitingSpinner/message"
+msgstr "Ielādē saturu..."

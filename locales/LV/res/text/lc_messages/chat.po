@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: <language team name> <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Kopējais Čats"
+
+msgid "channels/battle/team"
+msgstr "Komandu"
+
+msgid "channels/clan"
+msgstr "Klans"
+
+msgid "channels/common"
+msgstr "Kopējais Čats"
+
+msgid "channels/epic_training"
+msgstr "Treniņš—Frontes līnija"
+
+msgid "channels/nubs"
+msgstr "Iesācēji"
+
+msgid "channels/prebattle"
+msgstr "Pirms kaujas"
+
+msgid "channels/special_battles"
+msgstr "Speciālā kauja"
+
+msgid "channels/squad"
+msgstr "Vads"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Vads ir izveidots. Lūdzu, uzgaidiet, līdz visi spēlētāji ir gatavi."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Vads"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Vads ir izveidots. Visi spēlētāji ir gatavi."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Vads"
+
+msgid "channels/system"
+msgstr "Sistēmas"
+
+msgid "channels/tournament"
+msgstr "Turnīrs"
+
+msgid "channels/trading"
+msgstr "Tirdzniecība"
+
+msgid "channels/training"
+msgstr "Trenēšanās"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Čata administrators ir arī kanāla moderators."
+
+msgid "errors/addmoderatorowner"
+msgstr "Kanāla īpašnieks ir arī kanāla moderators."
+
+msgid "errors/banchannelowner"
+msgstr "Nevar nobanot kanāla īpašnieku."
+
+msgid "errors/banchatadmin"
+msgstr "Nevar nobanot čata administratoru."
+
+msgid "errors/banned"
+msgstr "Jūs nobanoja spēlētājs %(banOwnerNick)s līdz %(banEndTime)s. Iemesls: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Jūs nobanoja spēlētājs %(banOwnerNick)s. Iemesls: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Jūs esat nobanots līdz %(banEndTime)s. Iemesls: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Jūs esat nobanots. Iemesls: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Komanda %(command)s iesaldēta uz %(cooldownPeriod)s s."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Čata administratoram nevar atņemt moderatora tiesības."
+
+msgid "errors/delmoderatorowner"
+msgstr "Kanāla īpašniekam nevar atņemt moderatora tiesības."
+
+msgid "errors/timeincorrect"
+msgstr "Parametram 'laiks' ir jābūt pozitīvai vērtībai minūtēs [1-1440] vai 'permanent'."
+
+msgid "errors/toomanyargs"
+msgstr "Pārāk daudz parametru."
+
+msgid "errors/toosmallargs"
+msgstr "Pietrūkst parametru."
+
+msgid "errors/userbanhimself"
+msgstr "Nevar nobanot pašam sevi."
+
+msgid "messages/userbanned"
+msgstr "Lietotāju %(banedUser)s nobanoja lietotājs %(banOwnerNick)s līdz %(banEndTime)s. Iemesls: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "Lietotāju %(banedUser)s nobanoja lietotājs %(banOwnerNick)s. Iemesls: %(banReason)s"

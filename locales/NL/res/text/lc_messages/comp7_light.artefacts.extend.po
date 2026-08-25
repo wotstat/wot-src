@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_light_aggressive_detection/descr/active"
+msgstr "Het zichtbereik zal {colorTagOpen}%(duration)s s{colorTagClose} lang met {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose} worden verhoogd.\n\nDe timer wordt gereset wanneer een door jou verkend voertuig wordt vernietigd."
+
+msgid "comp7_light_aggressive_detection/name"
+msgstr "Actieve verkenning"
+
+msgid "comp7_light_ally_support/descr/active"
+msgstr "Je bemanning ontvangt {colorTagOpen}%(duration)s s{colorTagClose} lang een bonus van {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} bij de efficiëntie voor elk voertuig in je team dat een andere rol heeft.\n\nJe eigen voertuig wordt altijd meegenomen in de berekening van deze bonus."
+
+msgid "comp7_light_ally_support/name"
+msgstr "Eén voor allen"
+
+msgid "comp7_light_aoe_heal/descr/active"
+msgstr "Rond je voertuig zal {colorTagOpen}%(duration)s s{colorTagClose} lang een gebied met een straal van {colorTagOpen}%(radius)s m{colorTagClose} worden gecreëerd dat voor jouw voertuig en geallieerde voertuigen {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} levenspunten herstelt."
+
+msgid "comp7_light_aoe_heal/name"
+msgstr "Veldreparaties"
+
+msgid "comp7_light_aoe_inspire/descr/active"
+msgstr "Je eigen bemanning en geallieerde bemanningen ontvangen {colorTagOpen}%(duration)s s{colorTagClose} lang een bonus van {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} bij de efficiëntie."
+
+msgid "comp7_light_aoe_inspire/name"
+msgstr "Inspireren"
+
+msgid "comp7_light_berserk/descr/active"
+msgstr "De herlaadtijd van het kanon wordt {colorTagOpen}%(duration)s s{colorTagClose} lang met {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose} verlaagd. Daarnaast wordt de kanonspreiding na het vuren en tijdens het bewegen en draaien van de romp en koepel met {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose} verlaagd.\n\nDe timer wordt gereset wanneer je schade veroorzaakt door te rammen of door op een vijand binnen {colorTagOpen}%(damageDistance)s m{colorTagClose} te vuren."
+
+msgid "comp7_light_berserk/name"
+msgstr "Furie"
+
+msgid "comp7_light_concentration/descr/active"
+msgstr "De kanonspreiding en richttijd tijdens beweging en het draaien van de romp en koepel zullen {colorTagOpen}%(duration)s s{colorTagClose} lang met {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose} worden verlaagd.\n\nZolang deze rolvaardigheid actief is, wordt de herlaadtijd tussen schoten met {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s s{colorTagClose} verminderd."
+
+msgid "comp7_light_concentration/name"
+msgstr "Focus op het doelwit"
+
+msgid "comp7_light_fast_recharge/descr/active"
+msgstr "• Voor een magazijnlaadsysteem:\nDe resterende magazijnherlaadtijd wordt verminderd met: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n• Voor een autoherlaadsysteem:\nAlle afgevuurde granaten van de huidige cyclus zullen worden herladen: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\nDe vaardigheid kan alleen tijdens het herladen worden geactiveerd.\n\n• Voor oververhittingsbeheer automatisch kanon:\nKanonhitte wordt verminderd met {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose} van het mogelijke maximum.\n\nDe vaardigheid kan alleen worden geactiveerd wanneer het kanon verhit is."
+
+msgid "comp7_light_fast_recharge/name"
+msgstr "Vingervlug"
+
+msgid "comp7_light_hunter/descr/active"
+msgstr "Reset het aantal vijandelijke voertuigen dat door schoten is beschadigd.\n\nJe voertuig herstelt gedurende {colorTagOpen}%(duration)s s{colorTagClose} {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} levenspunten voor elk vijandelijk voertuig dat op het moment van activering door een schot is beschadigd."
+
+msgid "comp7_light_hunter/descr/passive"
+msgstr "De kanonherlaadtijd wordt voor elk vijandelijk voertuig dat door een schot is beschadigd, met {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose} verminderd."
+
+msgid "comp7_light_hunter/name"
+msgstr "Premiejager"
+
+msgid "comp7_light_juggernaut/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose} lang:\n• Wordt de ontvangen schade verminderd met {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• Wordt de voorwaartse topsnelheid verhoogd met {colorTagOpen}%(fwMaxSpeedBonus)s km/u{colorTagClose}\n• Wordt de achterwaartse topsnelheid verhoogd met {colorTagOpen}%(bkMaxSpeedBonus)s km/u{colorTagClose}\n• Wordt het motorvermogen verhoogd met {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• Wordt de schade door het rammen van vijanden verhoogd met {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\nWanneer deze rolvaardigheid actief is, worden je rupsbanden door één schot vernietigd."
+
+msgid "comp7_light_juggernaut/name"
+msgstr "Kolos"
+
+msgid "comp7_light_march/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose} lang zal je motorvermogen met {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose} worden verhoogd, je topsnelheid met {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/u worden verhoogd, en je verborgenheidswaarde met {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose} worden verhoogd."
+
+msgid "comp7_light_march/name"
+msgstr "Opmars"
+
+msgid "comp7_light_recon/descr/active"
+msgstr "Er zal na {colorTagOpen}%(delay)s s{colorTagClose} een verkenningsvliegtuig over het geselecteerde gebied vliegen. Gedetecteerde vijandelijke voertuigen binnen een straal van {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} zullen {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s/&nbsp;s{colorTagClose} lang verkend blijven. Na een vertraging van {colorTagOpen}%(lampDelay)s s{colorTagClose} wordt er een apart icoon getoond voor een speler die met deze vaardigheid is verkend.\n\nDeze vaardigheid komt {colorTagOpen}%(startupDelay)s s{colorTagClose} na het begin van het gevecht beschikbaar."
+
+msgid "comp7_light_recon/name"
+msgstr "Verkenningsvlucht"
+
+msgid "comp7_light_redline/descr/active"
+msgstr "Het geselecteerde gebied zal binnen {colorTagOpen}%(delay)s s{colorTagClose} door een artillerieaanval worden aangevallen.\n\nDe doelwitten die binnen een straal van {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} worden beschadigd, ontvangen {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} HP schade en zullen voor {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s s{colorTagClose} worden verdoofd."
+
+msgid "comp7_light_redline/name"
+msgstr "Vuurdekking"
+
+msgid "comp7_light_risky_attack/descr/active"
+msgstr "Acceleratie\n\n{colorTagOpen}%(duration)s s{colorTagClose} lang zal het motorvermogen met {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose} worden verhoogd, en de topsnelheid met {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/u en de achteruitrijsnelheid met {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/u worden verhoogd.\n\nHerstel\n\nJe voertuig zal gedurende {colorTagOpen}%(healDuration)s s{colorTagClose} {colorTagOpen}%(baseHeal)s{colorTagClose} levenspunten herstellen {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose} van de levenspunten die je hebt verloren in de tijd dat Acceleratie actief was."
+
+msgid "comp7_light_risky_attack/name"
+msgstr "Tweede wind"
+
+msgid "comp7_light_role_skill/descr/startLevel"
+msgstr " \n\nAan het begin van het gevecht is het ladingslevel van de rolvaardigheid gelijk aan{colorTagOpen} %(startLevel)s{colorTagClose}."
+
+msgid "comp7_light_sniper/descr/active"
+msgstr "Spreiding op 100 m is {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose} lang gelijk aan {colorTagOpen}%(dispersionFactor)s m{colorTagClose}.\n\nAls je voertuig op het moment van vuren niet is verkend, zal de veroorzaakte schade door je granaat met {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose} toenemen. \n\nDe timer wordt gereset wanneer je schade veroorzaakt door over een afstand van meer dan {colorTagOpen}%(damageDistance)s m{colorTagClose} te vuren."
+
+msgid "comp7_light_sniper/name"
+msgstr "In de roos"
+
+msgid "comp7_light_sure_shot/descr/active"
+msgstr "De kanonspreiding tijdens beweging en het draaien van de romp en koepel zal {colorTagOpen}%(duration)s s{colorTagClose} lang met {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose} worden verlaagd.\n\nZolang deze vaardigheid actief is, vermindert schade door te vuren de kanonherlaadtijd met {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose} van het percentage waarmee het aantal levenspunten van het vijandelijk voertuig is afgenomen.\n\nHet vernietigen van een vijandelijk voertuig vermindert de kanonherlaadtijd met {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}."
+
+msgid "comp7_light_sure_shot/name"
+msgstr "Zuiver schot"

@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "Name"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "Je Monat"
+
+msgid "ClanListWindow/table/role"
+msgstr "Position"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "Je Woche"
+
+msgid "battleQueue/clanPosition"
+msgstr "Platz: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "Platz:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "Suche nach Gegner:"
+
+msgid "battleQueue/waitBattle"
+msgstr "Warte auf Gefecht:"
+
+msgid "battleQueue/yourTeam"
+msgstr "Ihre Abteilung:"
+
+msgid "disconnected/Warning"
+msgstr "Achtung!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "Festung ist vorübergehend nicht verfügbar. Versuchen Sie es später noch einmal."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "Festung ist im Roaming nicht verfügbar. Sie erhalten Zugriff auf das Festung, wenn Sie zu Ihrer Region zurückkehren."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "Clanmitglieder"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "Legionäre"
+
+msgid "fortVehPopover/btnSave"
+msgstr "Auswahl speichern (%(count)d)"
+
+msgid "inspire/inspired"
+msgstr "Wird inspiriert"
+
+msgid "inspire/inspiring"
+msgstr "Wird inspiriert"
+
+msgid "mainWindow/maintenance/body"
+msgstr "Wir bitten für die Unannehmlichkeiten um Entschuldigung."
+
+msgid "mainWindow/maintenance/button"
+msgstr "Aktualisieren"
+
+msgid "mainWindow/maintenance/header"
+msgstr "Fehler beim Laden der Daten"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "Zusätzliche Einweisung"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "Gefechtszahlungen"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "Militärmanöver"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "Taktische Ausbildung"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "Zusätzlicher Effekt"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "Befiehlt der Artillerie, in Scharmützeln und Vorstößen in einem Gefecht den ausgewählten Bereich zu beschießen"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "Bietet einen Bonus auf die Hauptspezialisierung und alle Vorteile der gesamten Besatzung des Fahrzeugs mit Inspiration, wie auch der Besatzungen der verbündeten Fahrzeuge in der Nähe für ein Gefecht in Scharmützeln und Vorstößen."
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "Eine Reserve kann vor einem Gefecht aktiviert werden"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "Eine Reserve kann vor einem Vorstoß aktiviert werden"
+
+msgid "reserves/tooltip/empty"
+msgstr "Sie haben keine Reserven zum Aktivieren"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s im Lager"
+
+msgid "reserves/tooltip/level"
+msgstr "Stufe %(level)s"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "Effekt bei Einsatz"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "Kann aktiviert werden"
+
+msgid "reserves/tooltip/selected"
+msgstr "Aktiviert"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "Klicken Sie hier, um die Liste der aktivierbaren Reserven einzusehen."
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "Die Reserve kann nur von einem Abteilungskommandanten im Rang eines Kommandanten, ausführenden, Personal- oder Kampfoffiziers aktiviert werden."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "Nicht genug Clanmitglieder in der Abteilung: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Gefecht beginnt in %(nextDate)s Min."
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "Die Anfangszeit wird später festgelegt"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "Gefecht endet in %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "Scharmützel verfügbar"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "Das kommende Gefecht startet am %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Gefecht beginnt in %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "Gefecht beginnt heute um %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "Gefecht beginnt morgen um %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "Die Anfangszeit wird später festgelegt"
+
+msgid "sortie/introView/title"
+msgstr "Festung: Gefechte"
+
+msgid "sortie/listView/enterBtn"
+msgstr "Beitreten"
+
+msgid "sortie/listView/enterText"
+msgstr "Sie können als Freiwilliger beitreten"
+
+msgid "sortie/listView/notSelected"
+msgstr "Wählen Sie eine Abteilung aus der linken Liste,\num eine detaillierte Beschreibung zu sehen."
+
+msgid "sortie/listView/teamMembers"
+msgstr "Mitglieder: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "Fahrzeuge:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "Legionäre"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "Auto. Suche"
+
+msgid "sortie/room/candidates"
+msgstr "Freiwillige"
+
+msgid "sortie/room/chat"
+msgstr "Chat-Kanal"
+
+msgid "sortie/room/description"
+msgstr "Die erstellte Abteilung kämpft gegen einen zufällig gewählten Gegnerclan auf neutralem Gebiet. Die Fahrzeugstufe wird durch die gewählte Division vorgegeben."
+
+msgid "sortie/room/fight"
+msgstr "Gefecht!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "Spieler einladen"
+
+msgid "sortie/room/leaveBtn"
+msgstr "ZUR ABTEILUNGSZUSAMMENSTELLUNG GEHEN"
+
+msgid "sortie/room/level"
+msgstr "Stufe %(level)s"
+
+msgid "sortie/room/members"
+msgstr "Mitglieder: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "Nicht bereit"
+
+msgid "sortie/room/ready"
+msgstr "Bereit!"
+
+msgid "sortie/room/title"
+msgstr "Abteilung"
+
+msgid "sortie/slot/emptySlot"
+msgstr "Leer"
+
+msgid "sortie/slot/takePlace"
+msgstr "Beitreten"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "Wählen Sie ein Fahrzeug, mit dem Sie ins Gefecht gehen wollen. Rot markierte Fahrzeuge sind nicht kampfbereit."
+
+msgid "stronghold/teamHeader"
+msgstr "Abteilungsmitglieder"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "Fahrzeuge für Legionäre auswählen"
+
+msgid "strongholdPopover/header"
+msgstr "Fahrzeuge auswählen"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "Fahrzeugwahl:"
+
+msgid "strongholdbuilds/direction"
+msgstr "Verbündeter Brückenkopf %(direction)s"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "Nord"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "Ost"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "Süd"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "West"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "Gegnerischer Brückenkopf"
+
+msgid "strongholdbuilds/mapName"
+msgstr "Karte: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "Die Karte wird nach Beginn des Vorstoßes ausgewählt"
+
+msgid "strongholdbuilds/point1"
+msgstr "Zitadelle"
+
+msgid "strongholdbuilds/point2"
+msgstr "Reservelinie"
+
+msgid "strongholdbuilds/point3"
+msgstr "Frontlinie"
+
+msgid "strongholdbuilds/point4"
+msgstr "Frontlinie"
+
+msgid "strongholdbuilds/point5"
+msgstr "Reservelinie"
+
+msgid "strongholdbuilds/point6"
+msgstr "Zitadelle"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "%(reward)sx für den ersten Tagessieg in Vorstößen auf diesem Brückenkopf"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "Für das Verteidigen der Zitadelle nach Verlust beider Linien"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "Für das Verteidigen der Reservelinie nach Verlust der Frontlinie"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "Für das Verteidigen beider Linien, ohne gegnerische Linien zu erobern"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "Für das Erobern der Frontlinie"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "Für das Erobern beider Linien ohne Erobern der Zitadelle"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "Für das Erobern der gegnerischen Zitadelle"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "aus der Reserve „Beschlagnahme“"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "Nach dem Vorstoß verliehen"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "Vor Legionären verbergen"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "Die Abteilung wird angezeigt"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "Legionären anzeigen"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "Die Abteilung ist versteckt"
+
+msgid "strongholddirection/A"
+msgstr "Nord"
+
+msgid "strongholddirection/B"
+msgstr "Ost"
+
+msgid "strongholddirection/C"
+msgstr "Süd"
+
+msgid "strongholddirection/D"
+msgstr "West"
+
+msgid "strongholdinfo/sortie"
+msgstr "Scharmützel in Division %(level)s"
+
+msgid "strongholdinfo/stronghold"
+msgstr "Vorstoß vom Brückenkopf %(direction)s"
+
+msgid "strongholdmap/randomMap"
+msgstr "Zufallskarte"
+
+msgid "strongholdreserve/boost"
+msgstr "Inspiration"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "Großraumtransport"
+
+msgid "strongholdreserve/requisition"
+msgstr "Beschlagnahme"
+
+msgid "strongholdreserve/support"
+msgstr "Artillerieschlag"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "In Scharmützeln und Vorstößen, für 1 Gefecht"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "Für das Vorstoßergebnis"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "Wird zu Beginn eines Gefechts aktiviert"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "Wird zu Beginn eines Vorstoßes aktiviert"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "Wird aktiviert, sobald die Reserve im Gefecht verwendet wird"
+
+msgid "strongholdtable/rating"
+msgstr "Wertung"
+
+msgid "strongholdtable/roster"
+msgstr "Zusammenstellung"
+
+msgid "strongholdtable/tech"
+msgstr "Fahrzeuge"
+
+msgid "strongholdtitle/sortie"
+msgstr "Scharmützel"
+
+msgid "strongholdtitle/stronghold"
+msgstr "Vorstoß vom Brückenkopf %(direction)s"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Grenze{/HEADER}{BODY}Neutrales Territorium. Der Sieger greift im nächsten Gefecht die gegnerische Linie an. Endet das Gefecht unentschieden, wird das angreifende Team zufällig bestimmt.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "Vorstoß vom Brückenkopf %(direction)s"
+
+msgid "strongholdtooltips/hours"
+msgstr "Std"
+
+msgid "strongholdtooltips/minuts"
+msgstr "Min."
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "Scharmützel in Division %(level)s"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Ein Legionär erhält automatisch den Fahrzeugtyp zugewiesen, nachdem Sie die Schaltfläche „Gefecht!“ angeklickt haben.\n\nKlicken Sie hier, um den gewählten Fahrzeugtyp für Legionäre zu bestätigen oder zu verwerfen."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "Die leeren Plätze werden automatisch mit Legionären belegt"

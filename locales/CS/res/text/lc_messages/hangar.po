@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "Koupit"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "Budou naloženy následující spotřební doplňky: %(consumables)s."
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "Koupit spotřební doplňky"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s členů posádky"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Pro toto vozidlo již máte posádku"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s členů posádky."
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "Naverbovat nového člena posádky"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "zde."
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Společnost Wargaming používá alfanumerickou kombinaci T-34 v jejím běžném významu k označení skutečných tanků a není nijak spojena s držiteli autorských práv k ochranným známkám se stejným názvem. Více zjistíte na {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "Naložit munici"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "Naložit spotřební doplňky"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "Stání v garáži"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "Vyměnit"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "Zdarma"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "Naverbovat %(count)s členů posádky"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "Nájemní"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "Pronajmout"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "Pronajmout na 30 dní"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "Pronajmout na 3 dny"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "Pronajmout na 7 dní"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "Pronajmout na %(days)s dny/dní"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "Fáze Frontové linie"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "Sezóna Frontové linie"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "Fáze hodnocených bitev"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "Sezóna hodnocených bitev"
+
+msgid "buyVehicleWindow/restore"
+msgstr "Obnovit"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "Neomezeno"
+
+msgid "buyVehicleWindow/title"
+msgstr "Konfigurace"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "Obnovení"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "Koupit"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "Výměna"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "Výměna"
+
+msgid "carousel/filters/allVehicle"
+msgstr "Všechna má vozidla"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "Posádka"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "Charakteristiky"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} bitva"
+msgstr[1] "{{count}} bitvy"
+msgstr[2] "{{count}} bitev"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} den"
+msgstr[1] "{{count}} dny"
+msgstr[2] "{{count}} dní"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} hodina"
+msgstr[1] "{{count}} hodiny"
+msgstr[2] "{{count}} hodin"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} vítězství"
+msgstr[1] "{{count}} vítězství"
+msgstr[2] "{{count}} vítězství"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "Klikněte pro přechod na své seznamy oblíbených vozidel"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "Moje vozidla"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "Výcvik posádky, přeškolení a správa."
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "Správa posádky"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "Úprava vzhledu vozidla: nanesení 2D/3D stylů a dalších prvků."
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "Úprava vzhledu"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "Stisknutím otevřete"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "Informace o vozidle, výzkum, porovnání a opravy."
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "Správa vozidla"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "O VOZIDLE"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "PANCÍŘ"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "POROVNAT"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "AUTOMATICKÉ VRÁCENÍ"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "VRÁTIT POSÁDKU"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "POSLAT DO KASÁREN"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "PŘEŠKOLENÍ POSÁDKY"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "RYCHLÝ SERVIS"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "POLNÍ VYLEPŠENÍ"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "ZMĚNIT NÁROD"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "AKTIVNÍ"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "POSÍLENÍ PRO {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "RYCHLÝ VÝCVIK"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "OPRAVY"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "VYZKOUMAT"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "VYLEPŠENÍ"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "Tuto volbu můžete kdykoli změnit."
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "Posílení Pro je pro toto vozidlo aktivní"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "Posílit můžete pouze vozidla v náhodných bitvách, v režimech „Nápor“, v Opevnění, na Globální mapě a v turnajích."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "Nekompatibilní režim pro posílení Pro"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "Posílit můžete pouze vyzkoumatelná a sběratelská vozidla I.–X. úrovně."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "Nekompatibilní vozidlo pro posílení Pro"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "Vaše posílení Pro je právě aktivní pro {{vehicle}}. Tuto volbu můžete změnit za {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "Vraťte se později!"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "Tuto volbu můžete změnit za {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "Posílení Pro je pro toto vozidlo aktivní"

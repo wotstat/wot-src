@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Voltar aos Tesouros"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "Tesouro Ardente"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "TESOURO ARDENTE"
+
+msgid "common/getButton/lowerCase"
+msgstr "Obtenha Tesouros"
+
+msgid "common/getButton/upperCase"
+msgstr "OBTENHA TESOUROS"
+
+msgid "common/loader"
+msgstr "A abrir Tesouro Ardente..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Abrir Tesouros Ardentes para ver estatísticas."
+
+msgid "common/statistics/header"
+msgstr "Tesouros Ardentes abertos: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Todas as informações sobre Tesouros Ardentes abertos serão eliminadas."
+
+msgid "entryPoint/boxes"
+msgstr "PARA OS TESOUROS"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Estas são caixas especiais que contêm itens novos e exclusivos, incluindo veículos Premium, estilos 2D e mais. Pode obtê-las na Loja do jogo."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Por motivos técnicos, os Tesouros Ardentes não podem ser abertos ou adquiridos no momento. Pedimos desculpas pelo inconveniente temporário."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Tesouros Ardentes Temporariamente Indisponíveis"
+
+msgid "eventName/lowerCase"
+msgstr "Recompensa Lunar"
+
+msgid "eventName/upperCase"
+msgstr "RECOMPENSA LUNAR"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Recompensa Garantida no próximo Tesouro!"
+
+msgid "guaranteedTitle/text"
+msgstr "Máximo de Tesouros Ardentes antes de uma Recompensa Garantida: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Se não abrir os Tesouros Ardentes antes do fim do evento, eles serão abertos automaticamente."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Se já possui todos os veículos da lista de conteúdos possíveis dos Tesouros Ardentes, todos os veículos subsequentes que receber dos Tesouros Ardentes serão compensados em ouro equivalente ao seu valor total."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Cada %(guaranteed0)s Tesouros Ardentes é garantido conter um veículo de Nível VIII–X. Se as abrir sem uma delas conter tal veículo, então, um veículo de Nível VIII–X que ainda não possua vai sair quando abrir o %(guaranteed0)s&zwnbsp;º Tesouro Ardente. Quando sair, o contador é reiniciado."
+
+msgid "infoPage/header/description"
+msgstr "Abra Tesouros Ardentes para ter a oportunidade de receber valiosos itens do jogo! Veja mais detalhes abaixo."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Dos %(name) (%(boxesCount) Tesouros Ardentes abertos)"
+
+msgid "noBoxesView/description/"
+msgstr "Não tem nenhum Tesouro Ardente.\nPode obtê-los na Loja do jogo."
+
+msgid "preview/backLabel"
+msgstr "PARA OS TESOUROS"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Tesouros disponíveis: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Sem Tesouros disponíveis"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Se já possuir todos os veículos da lista de conteúdos possíveis de Tesouro Ardente, então todos os veículos subsequentes que receber de Tesouros Ardentes serão compensados em ouro."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) Tesouro Ardente"
+msgstr[1] "%(remainingCount) Tesouros Ardentes"
+msgstr[2] "%(remainingCount) Tesouros Ardentes"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "A Recompensa Garantida é um veículo da lista de possíveis conteúdos de Tesouro Ardente.\nSe abrir %(remainingCount) sem que um veículo tenha saído, ele sairá quando abrir o %(count) Tesouro Ardente. Quando isso acontecer, o contador é reiniciado."

@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Точки, които увеличават общия резултат за постижения."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Точки за постижения"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Вие завършихте всички стъпки в това постижение и получихте всички налични награди."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Натиснете %(escIcon)s, за да се върнете към предишното ниво КАТАЛОГ."
+
+msgid "catalog/rootLink"
+msgstr "КАТАЛОГ"
+
+msgid "category/achievementsScore/title"
+msgstr "РЕЗУЛТАТ ЗА ПОСТИЖЕНИЯТА"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "Основният индикатор за напредък в събирането на постижения. Всяко ново постижение увеличава общия резултат за постиженията, с изключение на трофеите."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Общ резултат за постиженията: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "СКОРОШНИ\nПОСТИЖЕНИЯ"
+
+msgid "category/title"
+msgstr "КОЛЕКЦИЯ НА ИГРАЧА"
+
+msgid "category/upcoming/title"
+msgstr "ПРЕДСТОЯЩИ\nПОСТИЖЕНИЯ"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s и други"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Отключено е постижение!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "Отключени са %(count)s постижения!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s и други"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Спечелен е нов трофей!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "Спечелени са %(count)s трофеи!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "Автоматичното показване сортира наградите от всички категории по тяхната стойност, за да се покаже на лентата с ценни награди. Той е деактивиран, ако пренаредите наградите ръчно."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "Автоматичното показване сортира наградите от всички категории по тяхната стойност, за да се покаже на лентата с ценни награди. При активиране на настройката ръчното подреждане се нулира."
+
+msgid "editConfirm/description/error"
+msgstr "Проучваме проблема. Моля, опитайте да редактирате по-късно. Междувременно ще бъдете пренасочени към Резюме."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Запази"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Отмени"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Тъй вярно!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Автоматичното показване е деактивирано"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Автоматичното показване е активирано"
+
+msgid "editConfirm/title/error"
+msgstr "Възникна грешка"
+
+msgid "editConfirm/title/normal"
+msgstr "Прилагане на промени в лентата с ценни награди?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Отмени промените"
+
+msgid "editView/footer/button/save"
+msgstr "Приложи и излез"
+
+msgid "editView/header/checkbox"
+msgstr "Автоматично показване"
+
+msgid "editView/header/close"
+msgstr "ЗАТВОРИ"
+
+msgid "editView/header/title/idle"
+msgstr "Изберете награди, които да се показват на лентата"
+
+msgid "editView/header/title/selecting"
+msgstr "Изберете награда за подмяна"
+
+msgid "editView/header/title/tutorial"
+msgstr "Изберете слот за награда"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Отмени"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Подмени"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "ВАШИТЕ ПОСТИЖЕНИЯ\nСА ТУК"
+
+msgid "hint/profile"
+msgstr "ВАШИТЕ ПОСТИЖЕНИЯ\nСА ТУК"
+
+msgid "hint/summary/customizationButton"
+msgstr "Налично редактиране"
+
+msgid "notifications/editingEnabled/button"
+msgstr "Към лентата"
+
+msgid "notifications/editingEnabled/title"
+msgstr "Редактиране на лентата с ценни награди е налично"
+
+msgid "notifications/firstEntry/button"
+msgstr "Към личното досие"
+
+msgid "notifications/firstEntry/text"
+msgstr "Рейтинг на World of Tanks,\nредактиране на награди."
+
+msgid "notifications/firstEntry/title"
+msgstr "Актуализация на личното досие"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "Към личното досие"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Редактиране на награди\nи визуално оформление."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Актуализация на личното досие"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "Към личното досие"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Вашето ниво: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Рейтингът ви беше изчислен!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "Към личното досие"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "Вашият рейтинг в World of Tanks се промени. Отидете в секцията Лично досие, за да разберете всички подробности."
+
+msgid "notifications/ratingUp/button"
+msgstr "Към личното досие"
+
+msgid "notifications/ratingUp/text"
+msgstr "Достигнахте следното ниво: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Вашият рейтинг се е повишил!"
+
+msgid "playerInfo/clan/button"
+msgstr "Профил на клана"
+
+msgid "playerInfo/clan/date"
+msgstr "Дата на присъединяване:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "Играчът не е в постоянни формирования"
+
+msgid "playerInfo/clan/post"
+msgstr "Място:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "Персоналната плочка е\nвременно недостъпна"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "Рейтингът на играча не е изчислен: По-малко от %(amount)s изиграни битки."
+
+msgid "ratingWidget/status/initial"
+msgstr "Изиграйте %(amount)s битки, за да се изчисли рейтингът ви в World of Tanks."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "Рейтингът на играча все още не е изчислен"
+
+msgid "ratingWidget/status/progress"
+msgstr "Изчисляване на вашия рейтинг в World of Tanks. Оставащи битки: %(amount)s"
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Влезте в битка и ние ще изчислим рейтинга ви."
+
+msgid "rewardView/button/achievements"
+msgstr "Към постижения"
+
+msgid "rewardView/button/dogTag"
+msgstr "Към плочката"
+
+msgid "rewardView/button/dogTags"
+msgstr "Към плочките"
+
+msgid "rewardView/button/moreRewards"
+msgstr "Виж %(value)s повече"
+
+msgid "rewardView/reward/dogTag"
+msgstr "%(value)s плочки"
+
+msgid "rewardView/title/multi"
+msgstr "ПОЛУЧЕНИ НАГРАДИ ЗА ПОСТИЖЕНИЯ"
+
+msgid "rewardView/title/single"
+msgstr "ПОЛУЧЕНА НАГРАДА ЗА ПОСТИЖЕНИЯ"
+
+msgid "section/action"
+msgstr "Акция"
+
+msgid "section/battle"
+msgstr "Герои на битката"
+
+msgid "section/class"
+msgstr "Етапни награди"
+
+msgid "section/epic"
+msgstr "Епични медали"
+
+msgid "section/group"
+msgstr "Групови награди"
+
+msgid "section/memorial"
+msgstr "Паметни знаци"
+
+msgid "section/special"
+msgstr "Почетни звания"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "КЪМ ПОСТИЖЕНИЯ"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Последна битка: %(lastVisitDate)s в %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Създаване на акаунта: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Фон"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Стандартни"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Пожар"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Злато"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Легендарни"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Ретро"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Експлозив"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Отмени промените"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Лента"
+
+msgid "summary/achievements/customization/save"
+msgstr "Приложи и излез"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "Поради технически проблеми, персонализирането на екрана ви за служебна история в момента не е налично. Работим по отстраняването му. Обновете екрана или се върнете по-късно."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Персонализацията е временно недостъпна"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Значими награди"
+
+msgid "summary/achievements/total"
+msgstr "Общо: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Уникални: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Средно: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Победи: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Средно: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Средно: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Рекорд: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Средно: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Влезте в битка, докато ние подготвим данните ви."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Информацията е временно недостъпна."
+
+msgid "summary/disabled/title"
+msgstr "Повече информация ще бъде налична по-късно"
+
+msgid "summary/main/assistance"
+msgstr "РЕКОРДНИ\nАСИСТЕНЦИИ"
+
+msgid "summary/main/battles"
+msgstr "ИЗИГРАНИ\nБИТКИ"
+
+msgid "summary/main/blocked"
+msgstr "РЕКОРДНИ\nБЛОКИРАНИ"
+
+msgid "summary/main/damage"
+msgstr "РЕКОРДНИ\nПОРАЖЕНИЯ"
+
+msgid "summary/main/destroyed"
+msgstr "УНИЩОЖЕНИ\nМАШИНИ"
+
+msgid "summary/main/experience"
+msgstr "РЕКОРДЕН\nОПИТ"
+
+msgid "summary/statistic/title"
+msgstr "Рейтинг в World of Tanks"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Личен рейтинг"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Максимални поражения, нанесени с ваша помощ."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Максимални поражения, нанесени с ваша помощ в битка с %(tankName)s."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Рекордни асистенции: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Съотношението на общите поражения, причинени на вражеските машини с ваша помощ, към общия брой водени битки. Отчита се като принос:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Поражения при откриване от вас\n• Поражения при унищожаване на вериги и обездвижване на вражеската машина от вас"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Средно асистенции: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Съотношението между общия брой победи спрямо броя изиграни битки."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Включително:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Победи: %(wins)s\n• Загуби: %(loses)s\n• Ремита: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Процент на победи: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Изиграни битки: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Максимални блокирани поражения."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Максимални блокирани поражения в битка с %(tankName)s."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Максимални блокирани: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Съотношението на общите поражения, блокирани от броня от непробили попадения и рикошети на ББ, кумулативни и подкалибрени снаряди към броя на проведените битки."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Средни блокирани поражения: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Максимални нанесени поражения."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Максимални нанесени поражения в битка с %(tankName)s."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Рекордни поражения: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Съотношението между общите нанесени поражения спрямо броя изиграни битки."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Средни поражения: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Максимален брой унищожени машини."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "Максимален брой унищожени вражески машини в битка с %(tankName)s."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Максимум унищожени: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Общо унищожени вражески машини във всички битки."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Унищожени машини: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Максимално количество спечелен опит."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "Максимално количество спечелен опит в битка с %(tankName)s."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Рекорден опит: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Съотношение на общия спечелен опит към броя водени битки."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Среден опит: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Нито победата, нито поражението влияят на изчисляването на вашия рейтинг в World of Tanks."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Играйте с различни машини, за да определите най-ефективните за вас според следните параметри на ефективност:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "WTR е система за рейтинг, която изчислява индивидуален рейтинг за всяка машина и след това го използва, за да определи общото представяне на играча. Системата реагира гъвкаво на промените в бойната стратегия и сравнява статистиката на играча със средната стойност на сървъра."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Нанесени поражения"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Поражения, нанесени с ваша помощ"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Брой унищожени вражески машини"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Блокирани поражения и процент на оцеляване"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "Увеличаване на WTR"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "Рейтинг в World of Tanks"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Оставащи битки за изчисляване на рейтинга: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Ниво: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Достигнат е максимумът!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Оставащи точки до повишаване на нивото ви: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "Бронз %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "Сребро %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "Злато %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "Ас %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "Легенда %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Ниво"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Брой точки"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "Рейтинг в World of Tanks"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "При активиране на настройката редът, която сте задали, %(whiteSpanish_Open)sще бъде нулиран%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "При деактивиране на настройката или ръчно настройване, наградите на лентата %(whiteSpanish_Open)sще спрат%(whiteSpanish_Close)s %(whiteSpanish_Open)sда се актуализират%(whiteSpanish_Close)s %(whiteSpanish_Open)sавтоматично%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "Автоматично сортиране наградите %(whiteSpanish_Open)sот всички категории%(whiteSpanish_Close)s според тяхната стойност, за да се покажат на лентата с ценни награди."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Автоматично показване"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "Редактирането на лентата с ценни награди е временно недостъпно. Моля, опитайте отново по-късно."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Все още нямате награди за поставяне тук. Получавайте ги %(whiteSpanish_Open)sв битки%(whiteSpanish_Close)s или %(whiteSpanish_Open)sза участие в%(whiteSpanish_Close)s %(whiteSpanish_Open)sигрови събития.%(whiteSpanish_Close)s"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "Редактирането на лентата с ценни награди ще бъде достъпно след получаване на %(whiteSpanish_Open)s%(amount)s или повече награди%(whiteSpanish_Close)s от която и да е категория."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Няма награди за поставяне тук."
+
+msgid "tooltips/mastery/body"
+msgstr "Получени значки за майсторство \"Танков ас\" във всички допустими режими на битка / Брой машини с проведена поне една Случайна битка"
+
+msgid "tooltips/mastery/header"
+msgstr "Значки за майсторство: Танков ас"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "Личният рейтинг е мярка за уменията и опита на играча и се базира на следното:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "Личният рейтинг се актуализира с всяка следваща битка."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Победи\n• Поражения, причинени с ваша помощ\n• Средни поражения на битка\n• Среден опит на битка\n• Преживени битки"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Личен рейтинг"

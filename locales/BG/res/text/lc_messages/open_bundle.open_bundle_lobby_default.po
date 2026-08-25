@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Тъй вярно!"
+
+msgid "attachments_preview/description"
+msgstr "Набор от триизмерни приставки"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Епична триизмерна приставка"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Легендарна триизмерна приставка"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Рядка триизмерна приставка"
+
+msgid "bundle/name"
+msgstr "Мистериозен пазар"
+
+msgid "bundle/name_uppercased"
+msgstr "МИСТЕРИОЗЕН ПАЗАР"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Отмени"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Купи"
+
+msgid "confirmation/description"
+msgstr "Потвърдете, за да получите бонове и нова награда от таблото."
+
+msgid "confirmation/purchase"
+msgstr "Купете за {{price}} ?"
+
+msgid "entryPoint/button"
+msgstr "Към събитие"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} е тук. Вижте го!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Когато закупите бонове по време на {{eventName}}, ще получите една неотворена награда от таблото като бонус подарък. Наградите от таблото съдържат ценни предмети в играта, включително основната награда на събитието: Премиум машина."
+
+msgid "intro/cards/description/c_2"
+msgstr "Наградите се дават на случаен принцип. Всяка неотворена награда има своя собствена вероятност да бъде избрана и всички вероятности винаги се равняват на 100%. След като наградата бъде отворена, тя не може да бъде отворена отново и шансовете за получаване на останалите награди се увеличават."
+
+msgid "intro/cards/description/c_3"
+msgstr "Всяка стъпка струва определено количество злато. Както броят на получените бонове, така и цената на стъпката варират с напредването ви."
+
+msgid "intro/cards/link"
+msgstr "Вижте условията и цените за всяка стъпка в {{@ class 'linkPart'}}портала.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Купуване на бонове"
+
+msgid "intro/cards/title/c_2"
+msgstr "Награди от таблото и вероятност"
+
+msgid "intro/cards/title/c_3"
+msgstr "Цени на стъпките"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "НАГРАДАТА ВИ ОЧАКВА"
+
+msgid "main/alt/description"
+msgstr "Вероятност за преглед"
+
+msgid "main/alt/tooltip/body"
+msgstr "Натиснете клавиша Alt, за да видите вероятността за получаване на всяка награда от таблото."
+
+msgid "main/alt/tooltip/header"
+msgstr "Вероятностен дисплей"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "ЧЕСТИТО! \n ПОЛУЧИХТЕ ВСИЧКИ НАГРАДИ"
+
+msgid "main/footer/button"
+msgstr "Купи"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}Награда от таблото"
+
+msgid "main/footer/receive"
+msgstr "Получихте: {{item}}"
+
+msgid "main/header/description"
+msgstr "Участвайте в събитието от {{startDate}} до {{endDate}} и грабнете награди!"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Отиди на Персонализация"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Отиди на стил"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Отиди на машината"
+
+msgid "notifications/specialReward/title"
+msgstr "Основната награда от {{eventName}} е ваша!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Допълнителни награди:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Получено:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Тази функция е временно недостъпна поради технически причини. Моля опитайте отново по-късно."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Към събитието"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s скоро ще приключи!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Събитието е налично до: %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "Отворена е наградата %(eventName)s"
+
+msgid "tooltips/entry/description"
+msgstr "Вашата награда ви очаква! Всяка покупка на бонове ви дава една произволна награда от таблото като подарък. Всеки път отваряте нова награда, тъй като вече отворените се елиминират."
+
+msgid "tooltips/entry/timer"
+msgstr "Режимът ще бъде достъпен за {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "За събитието"
+
+msgid "tooltips/steps/description"
+msgstr "За всяка покупка получавате повече {{currency}}. Сумата, която получавате, се увеличава на определени етапи от покупката."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} за всяка покупка"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Стъпки:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} – {{end}}"

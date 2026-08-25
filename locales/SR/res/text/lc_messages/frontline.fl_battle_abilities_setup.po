@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Primeni na sve {{icon}} {{type}}"
+
+msgid "header/points"
+msgstr "Poeni borbenih rezervi: {{value}}"
+
+msgid "header/title"
+msgstr "BORBENE REZERVE"
+
+msgid "infoPanel/category/firesupport"
+msgstr "Rezerve napada"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "Rezerve izviđanja"
+
+msgid "infoPanel/category/tactics"
+msgstr "Taktičke rezerve"
+
+msgid "infoPanel/category/title"
+msgstr "Kategorija: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "U scenariju {{@ colorLegacy 'FFE4C0'}}Obrt sudbine{{/}} kupovina borbene rezerve će podići njen nivo za jedan i obezbediti priliku za njeno poboljšanje na {{@ colorLegacy 'FFE4C0'}}IV{{/}} nivo."
+
+msgid "infoPanel/description/unlocked"
+msgstr "U scenariju {{@ colorLegacy 'FFE4C0'}}Obrt sudbine{{/}} šansa za svaku borbenu rezervu koja je smeštena u slot pre nego što borba bude ponuđena je povećana za {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "infoPanel/level"
+msgstr "Nivo:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}}m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}}%"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}}%/s"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}}s"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "Borbene rezerve nisu kupljene"
+
+msgid "infoPanel/status/unlocked"
+msgstr "Borbena rezerve su kupljene"

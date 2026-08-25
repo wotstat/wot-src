@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "O Borbenoj propusnici"
+
+msgid "about/position/header"
+msgstr "Raspodela poena Borbene propusnice"
+
+msgid "about/position/text"
+msgstr "Nakon svake borbe dobićeš određeni broj poena Borbene propusnice koji odgovaraju tvojoj poziciji. Dobićeš dodatne poene Borbene propusnice ako povećaš svoj nivo Linije fronta."
+
+msgid "about/scores/header"
+msgstr "Poeni borbene propusnice"
+
+msgid "about/scores/text"
+msgstr "Specijalna valuta Borbene propusnice koja može da se zaradi u nasumičnim borbama i u režimu Linije fronta. Poeni Borbene propusnice se dodeljuju za dostizanje nivoa Linije fronta i na osnovu tvoje pozicije u borbenim rezultatima. Vozila Linije fronta nemaju ograničenje na broj poena koje mogu da zarade."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Poraz"
+
+msgid "about/scoresTable/topCell"
+msgstr "Najboljih {{top}} po zarađenom iskustvu"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Pobeda"
+
+msgid "about/text"
+msgstr "Borbena propusnica je događaj u kome igrači napreduju iz etape u etapu zarađujući poene. Svaka završena etapa daje im vredne nagrade. Nakon završetka nekoliko etapa, igrači dobijaju žetone Borbene propusnice - specijalnu valutu koja može da se upotrebi za kupovinu jedinstvenih vozila i drugih vrednih nagrada u odgovarajućoj sekciji prodavnice."
+
+msgid "addons/cellRent/header"
+msgstr "Iznajmljivanje vozila"
+
+msgid "addons/cellRent/text_10"
+msgstr "Postoje brojna vozila nivoa {{vehiclesLevel}} dostupna za rentu za kredite. Članovi posada sa vozila istog tipa i nacije se mogu prebaciti bez kazni i potrebe za retreningom."
+
+msgid "addons/cellRent/text_9"
+msgstr "Postoje brojna vozila nivoa {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} dostupna za rentu za kredite. Članovi posada sa vozila istog tipa i nacije se mogu prebaciti bez kazni i potrebe za retreningom."
+
+msgid "addons/cellSpectator/header"
+msgstr "Režim posmatrača"
+
+msgid "addons/cellSpectator/text"
+msgstr "Dok čekaš na ponovni ulazak u borbu, možeš da uđeš u posmatrački režim da proučiš bojište, i napraviš plan za bitku."
+
+msgid "addons/cellTime/header"
+msgstr "Dodatno vreme"
+
+msgid "addons/cellTime/text"
+msgstr "Kada se baza zauzima a vreme borbe istekne, tvoj tim će dobiti dodatno vreme. Ako branioci prekinu zauzimanje njihove baze dodatno vreme pada na nulu."
+
+msgid "addons/header"
+msgstr "Dodatne informacije"
+
+msgid "levelUp/sectionHeader"
+msgstr "Vozila nivoa {{level}}"
+
+msgid "levelUp/text"
+msgstr "Kao i pre, početno možeš da uvedeš u borbu samo vozila {{vehiclesLevelFrom}} nivoa, ali vozila {{vehiclesLevelTo}} nivoa takođe mogu biti pripremljena u tvojoj garaži. Kada je jednom bilo koja baza sa druge linije (D, E i F) zauzeta, oba tima mogu da ubace svoja vozila {{vehiclesLevelTo}} nivoa."
+
+msgid "main/cellDuration/header"
+msgstr "Trajanje"
+
+msgid "main/cellDuration/text"
+msgstr "Linija fronta će trajati {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}} dana. Datum sledećeg starta će biti objavljen odvojeno."
+
+msgid "main/cellFrontline/header"
+msgstr "Linija fronta"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Masovne borbe 30 na 30 u vozilima {{vehiclesLevel}} nivoa na mapama {{@ colorLegacy 'FFE4C0'}}Normandija, Kraftwerk{{/}} i {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Napadači moraju da unište 3 od 5 topova velikog kalibra dok branioci moraju da ih odbrane."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Masovne borbe 30 na 30 u vozilima {{vehiclesLevelFrom}}- {{vehiclesLevelTo}} nivoa na mapama {{@ colorLegacy 'FFE4C0'}}Normandija, Kraftwerk{{/}} i {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Napadači moraju da unište 3 od 5 topova velikog kalibra dok branioci moraju da ih odbrane."
+
+msgid "main/cellLevel9/header"
+msgstr "Vozila {{vehiclesLevel}} nivoa"
+
+msgid "main/cellLevel9/text"
+msgstr "Nakon što je jedna od baza sa druge linije zauzeta (D, E ili F), moći ćeš da uđeš u borbu u vozilu {{vehiclesLevel}} nivoa."
+
+msgid "main/cellLevels/header"
+msgstr "Vozila {{vehiclesLevel}} nivoa"
+
+msgid "main/cellLevels/text_8"
+msgstr "Samo vozila {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} nivoa su dostupna u režimu."
+
+msgid "main/cellLevels/text_9"
+msgstr "Samo vozila {{vehiclesLevel}} nivoa mogu da uđu u borbu."
+
+msgid "main/cellPass/header"
+msgstr "Borbena propusnica"
+
+msgid "main/cellPass/text"
+msgstr "Linija fronta je odlična prilika da zaradiš poene Borbene propusnice za učešće u borbama i dostizanje novih nivoa Linije fronta."
+
+msgid "main/cellReserves/header"
+msgstr "Kategorije borbene rezerve"
+
+msgid "main/cellReserves/text"
+msgstr "Postoje tri kategorije borbenih rezervi, svaka vezana za određeni slot. Redosled njihovog otključavanja, i poboljšavanja zavisi od tipa vozila."
+
+msgid "main/cellScenarios/header"
+msgstr "Scenariji"
+
+msgid "main/cellScenarios/text"
+msgstr "Borbe u režimu Linija fronta koriste jedan od sledećih scenarija: {{@ colorLegacy 'FFE4C0'}}Standardna borba{{/}}, {{@ colorLegacy 'FFE4C0'}}Operaciona podrška{{/}}, ili {{@ colorLegacy 'FFE4C0'}}Obrt sudbine{{/}}. Informacije o trenutnom borbenom scenariju se prokazuju na ekranu učitavanja, tokom odbrojavanja pred bitku ili nakon pritiskanja Tab tastera."
+
+msgid "main/sectionHeader"
+msgstr "Opšte informacije"
+
+msgid "page/backBtn"
+msgstr "NAZAD"
+
+msgid "page/headerUpper"
+msgstr "LINIJA FRONTA"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "U zavisnosti od ranga koji dostigneš, dobićeš iskustvo Linije fronta kao i borbeno iskustvo. Iskustvo Linije fronta se koristi za povećanje tvog nivoa Linije fronta. Sve ukupno postoji {{@ colorLegacy 'FFE4C0'}}20 nivoa{{/}}."
+
+msgid "progression/levelsSection/header"
+msgstr "Nivoi Linije fronta"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Nivoi Linije fronta{{/}} te nagrađuju sa poenima Borbene propusnice, poenima borbene rezerve, bonovima, direktivama, retrening naređenjima, mentorskom licencom i knjigama posade."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Nivoi Linije fronta{{/}} te nagrađuju sa poenima borbenih rezervi, bonovima, direktivama, naređenjima za preobuku i knjigama posade."
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Rangovi{{/}} ne samo da pokazuju tvoju efikasnost u određenoj borbi već i pružaju bonus borbenog iskustva kao rezultat. Ovaj bonus se primenjuje na ukupno osnovno iskustvo zarađeno na svim tvojim vozilima koja su bila u borbi. Kada ti ili saveznik dostignete nivo Generala, ceo tim dobija bonus na performanse posade (glavni nivo kvalifikacija) od {{@ colorLegacy 'FFE4C0'}}1.5%{{/}} do {{@ colorLegacy 'FFE4C0'}}15%{{/}}."
+
+msgid "progression/ranksSection/header"
+msgstr "Rangovi"
+
+msgid "progression/ranksSection/text"
+msgstr "Režim ima sistem od šest rangova, gde igrači napreduju od čina redova do ranga generala. Bićeš unapređen za efikasan učinak u borbi (zauzimanje ili odbrana baza; uništavanje glavnih ciljeva) i sticanje iskustva. Računa se ukupno iskustvo stečeno u svim vozilima u kojima si se borio."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Bonus na borbeno iskustvo"
+
+msgid "progression/ranksTable/captain"
+msgstr "Kapetan"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Bonus na performanse posade"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Iskustvo Linije fronta"
+
+msgid "progression/ranksTable/general"
+msgstr "General"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Poručnik"
+
+msgid "progression/ranksTable/major"
+msgstr "Major"
+
+msgid "progression/ranksTable/private"
+msgstr "Redov"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Narednik"
+
+msgid "progression/sectionHeader"
+msgstr "Napredak u Liniji fronta"
+
+msgid "progression/text"
+msgstr "Kada igraš u ovom režimu, penjaćeš se kroz rangove, napredovaćeš kroz progres Linije fronta i zaraditi nagrade."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Sekundarna"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Slot rezerve 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Slot rezerve 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Slot rezerve 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Primarna"
+
+msgid "reserveCategories/categories/support"
+msgstr "Pomoćna"
+
+msgid "reserveCategories/config/footerText"
+msgstr "U {{@ colorLegacy 'FFE4C0'}}Obrt sudbine{{/}} scenariju, red po kome se borbene rezerve otključavaju ne zavisi od tipa vozila."
+
+msgid "reserveCategories/config/header"
+msgstr "Konfiguracije rezervi po tipu vozila"
+
+msgid "reserveCategories/config/text"
+msgstr "U {{@ colorLegacy 'FFE4C0'}}Standardna borba{{/}} i {{@ colorLegacy 'FFE4C0'}}Operacionalna podrška{{/}} scenarijima, sva tri slota borbenih rezervi su dostupna za sve tipove vozila. Međutim redosled po kom se oni otključavaju zavisi od tipa vozila."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "Lovci tenkova"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Teški tenkovi"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Laki tenkovi"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Srednji tenkovi"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "Artiljeija"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* Poboljšanje ovog nivoa je dostupno samo {{@ colorLegacy 'FFE4C0'}}kupljenim{{/}} borbenim rezervama u scenariju {{@ colorLegacy 'FFE4C0'}}Obrt sudbine{{/}}."
+
+msgid "reserveCategories/levels/header"
+msgstr "Kako otključati slotove i poboljšati borbene rezerve"
+
+msgid "reserveCategories/levels/text"
+msgstr "U startu jedna borbena rezerva ti je dostupna. Ostale se otključavaju nakon dostizanja ranga narednika i poručnika. Sve tri rezerve će biti poboljšane nakon dostizanja ranga kapetana i majora."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} ili {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}} nivo"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Kapetan"
+
+msgid "reserveCategories/ranks/general"
+msgstr "General"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Poručnik"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Major"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Narednik"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Redov"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Obrt sudbine"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "U borbi igrači mogu da izaberu od nasumičnih rezervi koje su dostupne za vozila svih tipova. Postavljanje rezerve u slot pre borbe povećava šansu dobijanja iste u borbi za {{@ colorLegacy 'FFE4C0'}}10%{{/}}. Kupovina rezerve će povećati njen nivo na {{@ colorLegacy 'FFE4C0'}}II{{/}} i povećati priliku za njeno poboljšanje na nivo {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Scenariji Linije fronta"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Standardna bitka"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Primenjuju se standardna pravila Linije fronta. Uslovi za korišćenje borbenih rezervi su nepromenjeni."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Operaciona podrška"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "Nakon otključavanja rezerve: {{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "Nakon povratka u borbu: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Scenario sa bržom dinamikom i smanjenim vremenom hlađenja borbene rezerve:"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Borbe u režimu Linija fronta koriste jedan od sledećih scenarija: {{@ colorLegacy 'FFE4C0'}}Standardna borba{{/}}, {{@ colorLegacy 'FFE4C0'}}Operaciona podrška{{/}}, ili {{@ colorLegacy 'FFE4C0'}}Obrt sudbine{{/}}. Scenariji menjaju uslove za upotrebu borbenih rezervi u borbi. Informacije o trenutnom borbenom scenariju se prokazuju na ekranu učitavanja, tokom odbrojavanja pred bitku ili nakon pritiskanja Tab tastera."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Kategorije borbene rezerve"
+
+msgid "reserveCategories/text"
+msgstr "Borbene rezerve su podeljene u tri kategorije po tri rezerve svaka. Prilikom ulaska u borbu možeš da postaviš samo jednu rezervu iz kategorije u odgovarajući slot."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Rezerve napada"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Rezerve izviđanja"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Taktičke rezerve"
+
+msgid "reserves/sectionHeader"
+msgstr "Brze rezerve"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Brzi Start"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Vreme pripreme za borbene rezerve je skraćeno za 50% na početku borbe."
+
+msgid "reserves/sectionReload/header"
+msgstr "Instant dostupnost"
+
+msgid "reserves/sectionReload/text"
+msgstr "Borbene rezerve će biti spremne čim se otključaju."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Drugi vetar"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Vreme pripreme za borbene rezerve je skraćeno za 70% po povratku u borbu u novom vozilu."
+
+msgid "rules/backToFight/header"
+msgstr "Povratak u borbu"
+
+msgid "rules/backToFight/text"
+msgstr "Ako je tvoje vozilo uništeno, odaberi bilo koje drugo dostupno vozilo i vrati se na bojno polje da bi nastavio da se boriš za pobedu. Možeš izabrati jedno od nekoliko područja početka (tačke ponovne borbe) na bokovima, kao i u pozadini, što će ti pomoći da odrediš svoj borbeni plan. Odbrambeni igrači imaju širi izbor mesta za ponovno kretanje duboko iza svojih linija, što znači da se u slučaju iznenadnog proboja mogu okupiti za odbranu topova velikog kalibra. Sistem takođe poseduje poseban indikator koji upozorava igrače ako je izabrana tačka ulaska opasna za početak."
+
+msgid "rules/base/header"
+msgstr "Zauzimanje baze"
+
+msgid "rules/base/textBottom"
+msgstr "Oštećivanje vozila (ili njegovih modula) koje zauzima bazu ne poništava napredak zauzimanja nego ga samo suspenduje. Da bi poništili zauzimanje baze branioci moraju da unište bilo koje neprijateljsko vozilo u krugu baze ili da ga nateraju da napusti krug baze. Branioci ne mogu da ponovo zauzmu bazu kada je jednom zauzeta od strane napadača."
+
+msgid "rules/base/textTop"
+msgstr "{FFE4C0_Start}Napadački tim{FFE4C0_End} mora da zauzme baze u nizu da bi stigao do glavnih ciljeva. Zauzeta baza dodaje 2 minuta na trajanje borbe. Zauzimanje poslednje baze dodaje 4 minuta."
+
+msgid "rules/sectionHeader"
+msgstr "Opšta pravila"
+
+msgid "rules/service/header"
+msgstr "Krugovi dopune"
+
+msgid "rules/service/text"
+msgstr "Krugovi dopune obnavljaju poene izdržljivosti vozila, tretiraju sve povređene članove posade i dopunjavaju municiju. {FFE4C0_Start}Brzina dopune je sledeća: 100 poena izdržljivosti / jedan član posade / 10%{FFE4C0_End} municije po sekundi."
+
+msgid "rules/weapons/header"
+msgstr "Cilj: 3 od 5 topova velikog kalibra"
+
+msgid "rules/weapons/list/back"
+msgstr "Zadnji oklop: {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "Gornja oklopna ploča i prednji oklop {{@ colorLegacy 'FFE4C0'}}ne mogu biti probijeni{{/}}granatama."
+
+msgid "rules/weapons/list/sides"
+msgstr "Bočni oklop: {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Bočni oklop: {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Ranjive tačke: {{@ colorLegacy 'FFE4C0'}}vrata (70 mm) i ventilacija (25 mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Postoji pet topovskih kupola lociranih duboko u pozadini odbrambenog tima koji predstavljaju glavne ciljeve u borbi. Napadački tim mora da uništi 3 kupole, dok branioci moraju da ih zaštite po svaku cenu."
+
+msgid "subTitle/differentMonth"
+msgstr "od {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}{{/}} do {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "od {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}, {{startYear}},{{/}} do {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}, {{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "od {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{from}}{{/}} do{{@ colorLegacy 'FFE4C0'}}{{to}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "Sektori A, B i C {{@ colorLegacy 'FFE4C0'}}na prvoj liniji{{/}} predstavljaju početne pozicije za oba tima."
+
+msgid "winStrategy/header"
+msgstr "Pobednička strategija"
+
+msgid "winStrategy/mapZones"
+msgstr "Mapa režima pruža tri horizontalne linije odbrane:"
+
+msgid "winStrategy/secondLine"
+msgstr "Kada su sektori na prvoj liniji jednom zauzeti, bitka se nastavlja ka sektorima D, E i F {{@ colorLegacy 'FFE4C0'}} na drugoj liniji {{/}}."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Treća linija{{/}} nije podeljena u sektore. To je oblast gde se finalna etapa borbe odvija. Ovde se nalaze topovi velikog kalibra čije uništenje daje pobedu napadačkom timu. Napadači dobijaju pristup do glavnih ciljeva tek pošto uspeju da zauzmu najmanje jedan sektor u drugoj liniji. Kada je sektor jednom izgubljen, odbrambeni igrači imaju 1 minut da ga napuste pre nego što je sektor bombardovan. Svi branioci koji su ostali u sektoru će biti uništeni u vazdušnom udaru. Napadači koji pokušaju da dosegnu sektore na drugoj ili trećoj liniji bez zauzimanja prethodnih sektora će takođe biti uništeni u vazdušnom udaru."

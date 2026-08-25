@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Låter dig avfyra en serie granater från magasinet, en efter en, där varje granat laddas om automatiskt efter hand."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Låter dig avfyra en serie granater från magasinet, en efter en, där varje granat laddas om automatiskt efter hand. Ger en bonus till omladdningen av nästa granat."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Avfyrar snabba salvor av granater som åsamkar stor skada på kort tid, på bekostnad av genomslag och träffsäkerhet. Effektivast på kort håll."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Avfyrar stjärnflänsprojektiler som har störst skadeverkan inom 50 m håll. Skadeverkan minskar med avståndet, vilket gör dem mest effektiva i närstrid."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Ett unikt kylsystem som tillåter dubbelt sikte: efter omladdning blir kanonen träffsäkrare över tid. Den förbättrade precisionen visas genom en andra, mindre cirkel."
+
+msgid "abilities/common/description/dualGun"
+msgstr "En dubbelpjäs som kan avfyra en granat åt gången, eller båda på en gång. Dubbelskott åsamkar stor skada, men kräver en längre omladdningstid."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Ändrar skrovets eleveringsvinkel, vilket ger ökade möjligheter att utnyttja terrängen för fördelaktiga eldställningar. Aktivering beror på flera villkor."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "Flyttar extrahjul i position för att öka hastigheten avsevärt på bekostnad av manöverförmågan. Effektivast för långa förflyttningar och snabba stormanfall."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Låter dig avfyra en serie granater från magasinet innan det laddas om helt. Ger en hög skadepotential för en salva, men gör vagnen sårbar under omladdningen. Kan bara ladda om hela magasinet på en gång."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "Kanonen kan avfyras kontinuerligt utan omladdning. Varje skott genererar värmde: ju högre temperatur, desto mer påverkas egenskapsvärdena. Ihållande eld överhettar kanonen och orsakar eldavbrott tills den kylts ned."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Ökar motorstyrkan och topphastigheten för snabb förflyttning över slagfältet. Raketmotorerna minskar manöverförmågan och kan inte stängas av när de aktiverats."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "Det här specialläget förbättrar och/eller förändrar vissa stridsegenskaper vid aktivering. Aktiveras helst när vagnen är i ställning och redo att bekämpa fienden."
+
+msgid "abilities/common/description/stun"
+msgstr "Chockar fiendevagnar inom verkansområdet, även utan direktträff. Chock minskar rörlighet, träffsäkerhet och ökar omladdningstiden. Chockade fiender markeras med en chockikon."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Låter vagnen fortsätta röra sig långsamt även med ett trasigt huvudband. Om fler yttre band förstörs minskas hastigheten ytterligare, men vagnen kan fortfarande röra sig."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "Låter vagnen köra avsevärt snabbare på bekostnad av försämrad kanonhantering."
+
+msgid "abilities/common/description/twinGun"
+msgstr "Det här specialläget dubblar vagnens skadepotential och/eller förändrar vissa stridsegenskaper vid aktivering. Används med fördel i närstrid."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Automatladdare"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "Förbättrad automatladdare"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Automatkanon"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Djupräfflad kanon"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Kanonkylsystem"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Dubbelpjäs"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Hydropneumatisk upphängning"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Förflyttningsläge"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Magasinautomatladdare"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Överhettningsskyddad automatkanon"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Raketmotor"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Anfallsläge"
+
+msgid "abilities/common/name/stun"
+msgstr "Chock"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Reservband"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Turboläge"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Salveld"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "När du står still, eller rör dig långsamt, bygger du upp din precision i nivåer som ökar träffsäkerheten för nästa skott.\nVid maximal precisionsnivå har du förbättrad kanonhantering med mindre siktesspridning även under rörelse eller skrov/tornrotation."
+
+msgid "abilities/special/description/battleFury"
+msgstr "Varje gång du träffar en fiende med en granat ökar din omladdningseffektivitet, vilket tillfälligt minskar omladdningstiden. Nivån höjs för varje träff.\nFörstör du en fiende med en granat får du extra effektnivåer."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Om kanonen är laddad kan du börja värma nästa granat för ökad skadeverkan. Ju högre värmenivå desto större effekt.\nVid högsta nivå har du några sekunder på dig att ge eld innan kanonen överhettas och du hindras från att ge eld under en kort stund."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Träffar du en fiende med två granater som slår igenom pansaret går du in i salveldsläge som gör att nästa gång du ger eld avfyras två granater i snabb följd med enorm skadeverkan."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "En Pneumatisk gyrostabilisator ger maximal stabilitet under en kort tid vid skrov- och tornrotation, vilket ger bättre träffsäkerhet i rörelse, vid snabba reaktionsskott och när du duellerar från skyddad ställning."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "Systemet börjar automatiskt ladda en ny kassett när en granat återstår, vilket gör att du alltid är eldberedd. Du kan avfyra den sista granater när du vill, men om du gör det kommer omladdningen fördröjas med flera sekunder."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "Systemet håller kanonen nedkyld, vilket möjliggör extremt träffsäker eld. Kanonen värms upp vid eldgivning, men kyls ned och återgår till sitt utgångsläge under omladdningen. Ju högre temperatur, desto mer påverkas egenskapsvärdena."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "Designen utnyttjar erfarenheter från tidigare modeller och är specialbyggd för dödliga rammningsattacker. Den förstärkta konstruktionen gör att den åsamkar mer skada när den rammar fienden, vilket ger den ett övertag i närstrid."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "Den här kanonen kan avfyras i förtid: enkelladdade skott, avfyrade under omladdning, har sämre effekt, medan fulladdade skott, avfyrade efter omladdning, har optimala ballistiska egenskaper."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "Kanonen kan avfyras kontinuerligt utan omladdning. Varje skott genererar värmde: ju högre temperatur, desto mer påverkas egenskapsvärdena. Ihållande eld överhettar kanonen och orsakar eldavbrott tills den kylts ned."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Stå still, eller rör dig väldigt långsamt, för att bygga upp förvärmning som ökar träffsäkerhet och skadeverkan för nästa skott. Med maximal förvärmning kommer en träff som slår igenom pansaret på en fiendevagn med färre träffpoäng än din genomsnittliga skadeverkan detonera ammunitionsstället, vilket förstör vagnen."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Det här läget förvandlar din vagn till en fast vapenplattform med oöverträffad träffsäkerhet och högre eldhastighet. För att kompensera för den ökade eldkraften blir vagnens rörlighet – topphastighet/backhastighet och rotationshastigheten – avsevärt begränsad."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Det här läget ger en avsevärd ökning av motorstyrka och topphastighet framåt. Ju längre du kör framåt, desto mer hastighet bygger du upp, vilket låter dig storma fram över slagfältet och ta dig dit du vill på nolltid."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "Systemet genererar automatiskt laddning över tid. Ju högre laddning, desto större skadebonus. Laddningen begränsas normalt, men laddbegränsaren kan stängas av för en högre skadebonus, men försämrad kanonhantering."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "Aktivera raketmotorn (flytande bränsle) för extra fart när du behöver det som mest. Raketmotorn blir varm och måste kylas ned innan den kan användas igen, och om den överstiger kritisk värmenivå måste den tillfälligt stängas av helt för att kallna."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Fastbränsleraketer som ökar accelerationsförmåga, rörlighet och manöverförmåga i flera sekunder. Höger och vänster raket aktiveras oberoende av varandra för bättre skrovrotation och begränsar inte backförmågan."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "Beroende på aktuellt läge och laddningsnivå kan vagnen aktivera en av två förmågor:\n Plasmaefterbrännkammare: ökar motorstyrka och hastighet.\nKoincidensbaserat elektromekaniskt sikte: Minskar siktesspridningen och omladdningstiden samt förbättrar träffsäkerheten."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Den här modulen håller dig i striden genom att låta dig avbryta omladdningen när som helst så länge minst en granat är laddad. Tryck på den angivna tangenten för att avbryta omladdningen, ge eld efter en kort fördröjning och därefter återuppta omladdningen manuellt, eller automatiskt när magasinet är tomt."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Aktiveringstangenten avfyrar vagnens förstärkningsvapen mot målet. Förstärkningsvapen har sin egen omladdningstid oberoende av huvudkanonens."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "Nästa skott får en effekt baserat på observationsstatusen för målet: Träffar du en synlig fiendevagn blir den markerad – den förblir synlig längre och tar mer skada. Träffar du en osynlig fiendevagn markeras dess position med en specialmarkör."
+
+msgid "abilities/special/description/twinGun"
+msgstr "Ger dubbel skada och ökar kanonstabiliteten, men minskar rörlighet, träffsäkerhet och kanonrotation, samt ökar sikttiden. Effektivast i närstrid."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Den här mekaniska överväxeln ökar avsevärt accelerationsförmåga, motorstyrka och topphastighet, både framåt och bakåt, under en kort tid så du kan reagera snabbt på fiendens anfall och överraska motståndaren med dynamiska manövrer."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Analog skjutelementräknare"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Semiautomatiskt ammunitionsställ"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Termo-ballistisk överladdning"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Salveldsläge"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Pneumatisk gyrostabilisator"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Salveldskassett"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Aktivt kanonkylsystem"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Rammkonstruktion"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "Flerladdningssystem"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Överhettningsskyddad automatkanon"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "Drivladdningsvärmare"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Förskansningsläge"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Direktverkan"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "Drivgasefterbrännkammare"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Raketmotor (flytande bränsle)"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "Sekventiell raketmotor"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Taktisk extrakraft"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Extern ammunitionskassett"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Förstärkningsvapen"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Lasermålvisare"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Salveldsläge"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Högtrycksturboöverväxel"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Ökar träffsäkerheten för nästa skott och full kalibrering förbättrar stabiliseringen."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Varje träff på en fiendevagn ökar kanonens omladdningshastighet under en begränsad tid."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Bygger upp värmenivåer som ger ökad skadeverkan för nästa granat."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "En salveldskassett som låter dig avfyra två skott i snabb följd."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Maximerar stabiliseringen under förflyttning och skrovrotation för ökad träffsäkerhet."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Laddar automatisk om magasinet när en granat återstår, och den kan avfyras under omladdningen."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "Ett aktivt kanonkylsystem som förbättrar träffsäkerheten när kanonen är nedkyld."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Ökar skadan åsamkad fiendevagnar vid rammning."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "En spelmekanik som gör det möjligt att avfyra kanon i förtid till priset av sämre effekt."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "Systemet låter kanonen ge kontinuerlig eld utan omladdning och kontrollerar hur kanonen genererar värme vid eldgivning."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "Ökar långsamt skadeverkan och träffsäkerhet för nästa granat när vagnen står still eller rör sig väldigt långsamt."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Ökar drastiskt träffsäkerhet och eldhastighet, men begränsar rörligheten."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Ökar motorstyrkan och bygger högre topphastighet ju längre vagnen rör sig."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "Systemet laddar för att öka skadan. Ju mer laddning, desto större skada."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "Raketmotor som kan aktiveras när som helst för extra motorstyrka och topphastighet."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "Fastbränsleraketer som ökar acceleration, rörlighet och manöverförmåga."
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Laddar en av två unika förmågor som antingen ökar vagnens hastighet eller träffsäkerhet."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "Låter dig avbryta omladdningen och ge eld i nödfall."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Extra förstärkningsvapen ger ökad eldkraft som komplement huvudkanonen."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Förlänger tiden fienden förblir synlig och hur mycket skada de tar, eller markerar dem mer en specialmarkör."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Låter dig avfyra båda pjäserna samtidigt på bekostnad av ökad omladdningstid."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "En specialmekanik som ökar motorstyrka, accelerationsförmåga och topphastighet under en kort tid."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Om du står still eller rör under en viss hastighet så kalibreras vagnens analoga eldriktningssystem, vilket ökar precisionsnivån och träffsäkerheten för nästa skott. Om du överskrider hastighetsgränsen pausas kalibreringen tills du saktar ned igen. Vid maximal precisionsnivå har du nästan perfekt kanonhantering med minimal siktesspridning även under rörelse eller skrov/tornrotation. Effekten upphör när du ger eld."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "Varje gång du träffar en synlig fiende med en granat ökar din omladdningseffektivitet, vilket tillfälligt minskar omladdningstiden. Nivån höjs för varje träff. Förstör du en fiende med en granat får du extra effektnivåer."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Om kanonen är laddad kan du börja värma nästa granat för ökad skadeverkan. Ju högre uppvärmningsnivå desto större effekt på genomsnittsskadan. Du kan inte byta granattyp under förvärmningen. När du når högsta nivån börjar en nedräkning. Om du inte avfyrar granaten innan nedräkningen när noll överhettas kanonen och kan inte avfyras på flera sekunder."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Träffar du en fiende med två granater som slår igenom pansaret går du in i salveldsläge som gör att nästa gång du ger eld avfyras två granater i snabb följd."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "En Pneumatisk gyrostabilisator ger maximal stabilitet under en kort tid vid skrov- och tornrotation, vilket ger bättre träffsäkerhet i rörelse och vid snabba reaktionsskott."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "Systemet börjar automatiskt ladda om när en granat återstår i magasinet. Om du avfyrar den sista granaten under omladdningen fördröjs omladdningen med flera sekunder. Om du trycker på tangenten för att ladda om magasinet töms alla granater utom den sista. Tryck två gånger för att ladda om hela magasinet."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "Systemet håller kanonen nedkyld, vilket möjliggör extremt träffsäker eld. Kanonen värms upp vid eldgivning, men kyls ned och återgår till sitt utgångsläge under omladdningen. Ju högre temperatur, desto mer påverkas egenskapsvärdena."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Vagnen är specialförstärkt för att kunna ramma fienden, med hel rad modifikationer som låter den åsamka mer skada när den rammar fiendevagnar."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "Den här kanonen kan avfyras i förtid: enkelladdade skott, avfyrade under omladdning, har sämre effekt, medan fulladdade skott, avfyrade efter omladdning, har optimala ballistiska egenskaper."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "Kanonen kan avfyras kontinuerligt utan omladdning. Varje skott genererar värmde: ju högre temperatur, desto mer påverkas egenskapsvärdena. Ihållande eld överhettar kanonen och orsakar eldavbrott tills den kylts ned."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "När vagnen står stilla, eller rör sig väldigt långsamt, förvärms nästa granat, vilket ger ökad skadeverkan och träffsäkerhet. Om du överskrider hastighetsgränsen minskar bonusen gradvis, och om du avfyrar granaten, eller byter ammunition, nollställs förvärmningen direkt. Vid högsta nivå av uppvärmning så kommer en granat som slår igenom pansaret, vars genomsnittliga skadeverkan (inkl. bonusen från förvärmningen) överskrider målets träffpoäng, detonera ammunitionsstället och omedelbart förstöra fiendevagnen."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "I det här läget ökas träffsäkerhet, eldhastighet och dumpning/eleveringsvinkeln drastiskt, men rörligheten (hastigheten framåt/bakåt och vertikal/horisontell skrovrotation) begränsas avsevärt. Procentvärden anges i jämförelse med anfallsläge."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "Direktverkansläge ger en avsevärd ökning av motorstyrka och topphastighet framåt. Ju längre du kör framåt desto mer hastighet bygger du upp, vilket tar dig dit du vill på nolltid."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "Över tid genererar systemet automatiskt laddning, som delvis förbrukas för att öka skadeverkan vid eldgivning. Ju högre laddning, desto större skadebonus. Som standard laddar bara systemet upp till en viss gräns. Begränsningen kan stängas av för att låta systemet ladda fullt, vilket ger en avsevärt större skadebonus, men försämrar samtidigt kanonhanteringen."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "Raketmotor (flytande bränsle) ger ett ordentligt tillskott av motorstyrka när du behöver nå en viktig position på slagfältet. Den begränsar dock vagnens hastighet bakåt och även dess rotationsförmåga. Raketmotorn kan stängas av och sättas på när som helst, om den inte har nått reaktiveringsgränsen. Raketmotorn blir varmare när den används och kan inte aktiveras igen förrän den kylts ned, vilket betyder att den inte kan användas hela tiden. Om den når kritisk värmenivå måste den tillfälligt stängas av helt för att kallna. Planera dina manövrer för att undvika att hamna i svåra situationer."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "Fastbränsleraketer som ökar accelerationsförmåga, rörlighet och manöverförmåga i flera sekunder. Till skillnad från vanliga raketmotorer kan höger och vänster raket aktiveras oberoende av varandra för bättre skrovrotation och de begränsar inte backförmågan. De kan aktiveras flera gånger per strid, men måste kylas ned innan de aktiveras igen."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "Beroende på aktuellt läge och laddningsnivå kan vagnen aktivera en av två förmågor: \nPlasmaefterbrännkammare: ökar motorstyrka och hastighet. Koincidensbaserat elektromekaniskt sikte: Minskar siktesspridningen och omladdningstiden samt förbättrar träffsäkerheten."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "Den externa ammunitionskassetten låter dig avbryta omladdningen och öppna eld när du vill så länge du har minst en granat laddad. Under omladdningen låses tornet vilket hindrar dig från att sikta och öppna eld om du inte aktiv avbryter omladdningen."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "Vagnen är utrustad med förstärkningsvapen vars omladdningstid är separat från huvudkanonen, vilket ger dig en extra eldreserv i kritiska ögonblick."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "Lasermålvisaren markerar målet nästa gång du öppnar eld. Exakt effekt beror på om målet är synligt eller ej. Om du träffar en synlig fiendevagn markeras den, vilket gör att den förblir synlig längre och tar mer skada från granater. Om du träffar en osynlig fiendevagn markeras dess position med en specialmarkör."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "Ger dubbel skada och ökar kanonstabiliteten, men minskar rörlighet, träffsäkerhet och kanonrotation, samt ökar sikttiden. Effektivast i närstrid."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Den här mekaniska överväxeln ökar avsevärt accelerationsförmåga, motorstyrka och topphastighet, både framåt och bakåt, under en kort tid så du kan reagera snabbt på fiendens anfall och överraska motståndaren med dynamiska manövrer. Bibehållen hög hastighet ökar nedkylningstakten."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Alla värden är de högsta möjliga för vagnen. Utrustning, anvisningar och förnödenheter kan ändra värdena, men det visas inte här."
+
+msgid "characteristics/templates/upTo"
+msgstr "Upp till %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Köp och montera"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Fältanpassning"
+
+msgid "modules/controls/button/mount"
+msgstr "Montera"
+
+msgid "modules/controls/button/research"
+msgstr "Forskning"
+
+msgid "modules/controls/button/sell"
+msgstr "Sälj från förrådet"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Vagnen är i strid. Du kan byta dess moduler när striden är över."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Vagnen är skadad. För att ändra dess moduler måste den först repareras."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Kan inte montera modulen. Inkompatibel {{module}}."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Vagnen ingår i en taktiskt enhet."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "För att ändra moduler måste du först köpa vagnen."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "För att forska fram den här modulen måste du först forska fram föregående moduler."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "För att forska fram moduler måste du först forska fram vagnen."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Alla moduler har blivit framforskade."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Modulen är redan monterad."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Välj en modul eller vagn att forska fram."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Vagnen är i strid. Du kan byta dess moduler när striden är över."
+
+msgid "modules/controls/name"
+msgstr "Vald: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Chassi"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Motor"
+
+msgid "modules/name/vehicleGun"
+msgstr "Kanon"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Radio"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Torn"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Hjul"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Samlarvagnar"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Möjlighet att tjäna"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "krediter för varje strid"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "flytta besättningar fritt"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "stridserfarenhet och besättningserfarenhet"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Obligationer"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Mer"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Gratis"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Mer"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Tjäna obligationer"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Mer krediter"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Fri förflyttning"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Mer erfarenhet"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Gratis reparationslåda"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Möjlighet att tjäna"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "krediter för varje strid"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "fri flytt av besättningar oavsett vagnstyp"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "stridserfarenhet och besättningserfarenhet"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "Obligationer"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Mer"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Gratis"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Mer"
+
+msgid "overview/crew/name"
+msgstr "Besättning {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Visa mekanik"
+
+msgid "overview/title/generalDescription"
+msgstr "Vagnsbeskrivning"
+
+msgid "overview/title/historicalReference"
+msgstr "Historisk referens"
+
+msgid "researchPurchase/discountTimer"
+msgstr "Till {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "Återställning tillgänglig till {{date}}"
+
+msgid "tabs/armor"
+msgstr "Pansar"
+
+msgid "tabs/modules"
+msgstr "Moduler"
+
+msgid "tabs/overview"
+msgstr "Översikt"
+
+msgid "tabs/stats"
+msgstr "Egenskaper"
+
+msgid "tabs/vehSkillTree"
+msgstr "Uppgraderingar"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "Hyresperioden över"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Prenumerationen avstängd"

@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "Etapas {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Specialus skyrius"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Įvykdyta"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Pamatyti naują seką"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Pasirinkti skyrių"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Laikinai nepasiekiama"
+
+msgid "battle_pass_widget/title"
+msgstr "Kovinis leidimas"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Kalvė: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} d"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} d. {{hours}} val."
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} val."
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} val. {{minutes}} min."
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} min."
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Papildoma misija\nAtrakinsite įvykdę 3 standartines misijas"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Papildomai misijai įvykdyti likęs laikas"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Nauja kasdienė misija už"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "Kol kas viskas. Nauja dienos misija atsidarys jau greitai."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Šią misiją atrakinsite įvykdę ankstesnę"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Premium misijos laikinai nepasiekiamos"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Pirkti Premium"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Reikalau WoT Premium paskyros"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Premium misijos"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Kasdienės misijos laikinai nepasiekiamos"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Prasukti misiją"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "KASDIENĖ"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Į kampanijas"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Pagerinti rezultatą"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "Į Operaciją"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Tikras iššūkis patyrusiems kariams, kur galėsite užsidirbti unikalių mašinų."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Jūs užbaigėte operaciją {{currentOperationName}}! Galite bandyti pagerinti savo rezultatą ir įvykdyti ją su pagyrimais arba pradėti naują operacijos {{nextOperationName}} iššūkį."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Jūs vis dar galite pagerinti savo rezultatą operacijoje {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Jūs užbaigėte operaciją {{currentOperationName}} su pagyrimais! Dabar galite vykdyti operaciją {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Kampanijos taškų galite uždirbti vykdydami asmenines, kasdienes ir savaitines misijas."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Įvykdykite visas {{totalProgress}} misijas, įvykdykite operaciją su pagyrimais ir gaukite daugiau apdovanojimų."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Sumontavę visas detales gausite apdovanojimą — {{vehicleName}}. Detales gausite uždirbdami kampanijos taškus iš asmeninių, kasdienių ir savaitinių misijų."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Sumontavę visas detales gausite apdovanojimą — {{vehicleName}}. Detales gausite uždirbdami kampanijos taškus iš asmeninių, kasdienių ir savaitinių misijų."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Įvykdytos misijos: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "Nauja kampanija 3 Sektorius pasiekiama!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Operacija: {{nextOperationName}} pasiekiama!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Operacija: {{currentOperationName}} įvykdyta su pagyrimais!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Operacija: {{nextOperationName}} pasiekiama!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Operacija: {{currentOperationName}} | Etapas {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Operacijos {{currentOperationName}} įvykdymas su pagyrimais"
+
+msgid "hub/basic_missions/title"
+msgstr "ĮPRASTOS MISIJOS"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "SAVAITINĖ"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Atnaujinama kas {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Aktyvi misija"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "ARBA"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Naujos misijos jau greitai..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "KOVOTOJAS"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "ASAS"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ELITINIS"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Yra trijų kategorijų misijos: kovotojo, elitinės ir aso. Kiekviena kategorija turi savų iššūkių ir vertingų apdovanojimų."
+
+msgid "hub/challenge_missions/header"
+msgstr "KALVĖ"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Aktyvuoti"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Atstatyti nemokamai"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Pradėti iš naujo"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Apleisti"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Į misijas"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "Įvykdėte %(completeIcon) Kalvės misijų"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "likę skydai"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "nemokami atstatymai"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Įvykdykite aktyvias Kalvės misijas"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Iki pabaigos liko %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Nepasiekiama: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Būtina turėti VI ar aukštesnio lygio mašiną"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "AKTYVI"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Įvykdyta"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} misijų"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Iššūkio misija"
+
+msgid "hub/challenge_missions/new"
+msgstr "NAUJOS"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Į Kalvę"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Į Kalvę"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "KALVĖ: {{ challengeName }} ĮVYKDYTA"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Į Kalvę"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Kalvė: {{ challenge }} neįvykdyta. Atstatykite ją ir pabandykite dar kartą!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Į Kalvę"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "MISIJA {{ mission }} ĮVYKDYTA"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Į Kalvę"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Misijos {{ mission }} įvykdyti nepavyko"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "LIKĘ SKYDAI"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Į Kalvę"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Ženkite į Kalvę ir pasirinkite sudėtingų misijų seką, kurią įveikusių laukia vertingi apdovanojimai."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "PASIEKIAMA NAUJA KALVĖS MISIJA!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Nukalkite savo kelią į šlovę Kalvėje: vykdykite sudėtingas misijas su pačių geriausių vertais apdovanojimais."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "ŽENKITE Į KALVĘ"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Įvykdyta"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "3D elementų rinkinys"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Pagerinta įranga"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "2D stilius"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Įgulos narys"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Mašina"
+
+msgid "hub/challenge_missions/title"
+msgstr "KALVĖS MISIJOS"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "Apie Kalvę"
+
+msgid "hub/common_missions/title"
+msgstr "PAPILDOMOS MISIJOS"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Gauti apdovanojimus"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "Epinis apdovanojimas laikinai nepasiekiamas"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Kiekviena įvykdyta standartinė, Premium ar papildoma misijas pastumia jus pirmyn."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Pasiekiama"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Įvykdykite kasdienę misiją ir gaukite epinį apdovanojimą"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Gauti apdovanojimą"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Gauti apdovanojimus"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Kiekviena įvykdyta standartinė, Premium ar papildoma misijas pastumia jus pirmyn."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Pasiekiama"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Atgal į kovą! Įvykdykite kasdienę misiją ir gaukite epinį prizą: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Įvykdę tris standartines misijas galėsite vykdyti papildomas misijas, už kurias gausite dar geresnių apdovanojimų. Papildomas misijas turite įvykdyti iki dienos galo, kitaip jos dingsta."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Papildoma misija"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Kai kurios misijos turi būti įvykdytos viename mūšyje, kitos yra suminės ir jas galima įvykdyti per bet kokį mūšių skaičių. Suminės misijos turi progreso juostą. Misijas galima vykdyti Atsitiktiniuose mūšiuose."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Sąlygos"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Jūs galite prasukti nemėgstamą standatinę misiją ir gauti naują. Po to prasukimo mygtukas neveiks {{time}}. Prasukdami misiją galite netekti progreso, jei bent viena jūsų mašina vis dar mūšyje."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Misijos prasukimas"
+
+msgid "info_page/additional/reward/description"
+msgstr "Epinis apdovanojimas yra tarsi maratono ratas, su kiekviena įvykdyta standartine, Premium ir papildoma misija vis priartėjate arčiau jo. Įvykdę vieną ratą pradedate kitą. Epinio apdovanojimo ciklas neturi laiko limito ir jį galite vykdyti bet kada."
+
+msgid "info_page/additional/reward/title"
+msgstr "Epinis apdovanojimas"
+
+msgid "info_page/header"
+msgstr "APIE MISIJAS"
+
+msgid "info_page/main/premium/description"
+msgstr "Su WoT Premium paskyra jūs galite vykdyti tris nuoseklias Premium misijas. Jas galite vykdyti Atsitiktiniuose mūšiuose ir Prasiveržime, o misijų progresas atnaujinimas po kiekvieno mūšio. Žaidimo renginių metu Premium misijos suteikia renginiams skirtų apdovanojimų."
+
+msgid "info_page/main/premium/title"
+msgstr "Premium misijos"
+
+msgid "info_page/main/standard/description"
+msgstr "Standartinės misijos yra atsitiktinės kasdienės sąlygos, kurių progresas atnaujinamas po kiekvieno mūšio. Mes rekomenduojame jas įvykdyti tą dieną, kurią ją gaunate, nes nepabaigtos misijos nusikelia į kitą dieną ir neleidžia atsirasti naujoms. Standartinės misijos suteikia Kovinio leidimo taškų jam vykstant, o kitų renginių metu gausite ir renginiams skirtų apdovanojimų."
+
+msgid "info_page/main/standard/title"
+msgstr "Standartinės misijos"
+
+msgid "info_page/main/weekly/description"
+msgstr "Savaitinės misijos yra kiekvieną savaitę atsinaujinančios užduotys. Jų progresas atnaujinamas po kiekvieno mūšio, o įvykdytas misijas pakeičia naujos prasidėjus naujai savaitei. Savaitines misijas dėl papildomų apdovanojimų galite vykdyti Atsitiktiniuose mūšiuose ir Prasiveržime."
+
+msgid "info_page/main/weekly/title"
+msgstr "Savaitinės misijos"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Visos reguliarios šiandienos misijos įvykdytos"
+
+msgid "quests/daily_quests/completed"
+msgstr "Visos kasdienės misijos įvykdytos"
+
+msgid "tooltip/common/timer"
+msgstr "Pasiekia po {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Visos įprastos misijos įvykdytos! Daugiau rasite Papildomų misijų lange."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Papildoma misija"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Įvykdyta"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Kasdienė misija"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Pradingsta po {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Nauja kasdienė misija po {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Premium misija"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Apdovanojimai:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Jūs galite prasukti nenorimą misiją \nį naują kas {time} valandas."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Misijos prasukimas"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Misija įvykdyta, apdovanojimas gautas."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Šią misiją atrakinsite įvykdę ankstesnę. Visos šios serijos misijos vykdomos nuosekliai."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Paspaudę sužinosite daugiau"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "Apie misijas"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Įvykdę misijų seriją galite ją vykdyti iš naujo. Jūsų progresas bus panaikintas, skydai atstatyti, o apdovanojimus galėsite uždirbti dar kartą."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Kartokite misijas"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Praradę visus skydus galite atstatyti misijų seriją. Misijas teks vykdyti iš naujo, tačiau atgausite visus skydus ir galėsite vėl uždirbti apdovanojimus."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Kito atstatymo kaina: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Likę nemokami atstatymai: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Kiekvienas atstatymas kainuoja: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Atstatymai"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Skydai apsaugo jūsų progresą. Kiekvieną kartą neįvykdę misijos prarandate vieną skydą, o kai nelieka nė vieno, misijų serija laikoma neįvykdyta. Jei atnaujinsite ją, atgausite visus skydus."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Skydai"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Ribojimai mašinoms:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Savaitės misija"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Jūs galite pakeisti šią savaitės misiją kas {{time}}."
+
+msgid "welcome/button"
+msgstr "Tikrai taip!"

@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "error/button"
+msgstr "Uppfattat!"
+
+msgid "error/description"
+msgstr "Informationen är för tillfället inte tillgänglig. Vi ber om ursäkt för besväret. Vänligen försök igen senare."
+
+msgid "error/title"
+msgstr "Kan inte öppna belöningssektionen"
+
+msgid "footer/closeBtn/label"
+msgstr "Välj senare"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "Välj belöning från de tillgängliga kategorierna."
+msgstr[1] "Välj belöningar från de tillgängliga kategorierna."
+msgstr[2] "Välj belöningar från de tillgängliga kategorierna."
+
+msgid "footer/okBtn/label"
+msgstr "Ta emot"
+
+msgid "footer/rewardsSelected"
+msgstr "Vald belöning:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "Välj belöning från tillgänglig kategori."
+msgstr[1] "Välj belöningar från tillgänglig kategori."
+msgstr[2] "Välj belöningar från tillgänglig kategori."
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "Gräns uppnådd"
+
+msgid "reward/state_received"
+msgstr "Redan mottagen"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "Gränsen för antal val i denna kategorin har uppnåtts. Du kan välja bort något för att lägga till ett nytt val."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "Gräns uppnådd"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "Anvisningar\nför utrustning"
+
+msgid "tabs/items/battle_booster"
+msgstr "Utrustningsanvisningar"
+
+msgid "tabs/items/blueprint"
+msgstr "Ritningsfragment"
+
+msgid "tabs/items/brochure"
+msgstr "Utbildningshäfte"
+
+msgid "tabs/items/crewbook"
+msgstr "Lärobok"
+
+msgid "tabs/items/deluxe"
+msgstr "Förbättrad utrustning"
+
+msgid "tabs/items/expequipments"
+msgstr "Experimentell\nutrustning"
+
+msgid "tabs/items/guide"
+msgstr "Läroplan"
+
+msgid "tabs/items/modernized_device"
+msgstr "Experimentell utrustning"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "Experimentell utrustning Klass 1"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "Experimentell utrustning Klass 2"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "Experimentell utrustning Klass 3"
+
+msgid "tabs/items/new_device"
+msgstr "Standardutrustning"
+
+msgid "tabs/items/trophy"
+msgstr "Erövrad utrustning"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "Klicka på knappen Ta emot för att ta emot belöningarna du valt."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "Valda belöningar: %(white_open)s%(count)s%(white_close)s"

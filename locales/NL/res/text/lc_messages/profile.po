@@ -1,0 +1,1712 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "profile/dropdown/battlesType"
+msgstr "Gevechtstype:"
+
+msgid "profile/dropdown/existence"
+msgstr "Beschikbaar:"
+
+msgid "profile/dropdown/labels/all"
+msgstr "Willekeurig, tankcompagnie"
+
+msgid "profile/dropdown/labels/battleRoyaleSolo"
+msgstr "Staaljager, solo"
+
+msgid "profile/dropdown/labels/battleRoyaleSquad"
+msgstr "Staaljager, peloton"
+
+msgid "profile/dropdown/labels/clan"
+msgstr "Wereldkaart"
+
+msgid "profile/dropdown/labels/comp7"
+msgstr "Bestorming"
+
+msgid "profile/dropdown/labels/comp7_archive_Griffin"
+msgstr "Jaar van de Griffioen"
+
+msgid "profile/dropdown/labels/comp7_archive_Manticore"
+msgstr "Jaar van de Manticore"
+
+msgid "profile/dropdown/labels/comp7_archive_Pegasus"
+msgstr "Jaar van de Pegasus"
+
+msgid "profile/dropdown/labels/comp7_season_1"
+msgstr "Azuurblauwe Draak"
+
+msgid "profile/dropdown/labels/comp7_season_2"
+msgstr "Karmozijnrode Draak"
+
+msgid "profile/dropdown/labels/comp7_season_3"
+msgstr "Jaden Draak"
+
+msgid "profile/dropdown/labels/epicRandom"
+msgstr "Groots gevecht"
+
+msgid "profile/dropdown/labels/fallout"
+msgstr "Razernij"
+
+msgid "profile/dropdown/labels/fortifications"
+msgstr "Vesting: gevechten"
+
+msgid "profile/dropdown/labels/fortifications/battles"
+msgstr "Offensief"
+
+msgid "profile/dropdown/labels/fortifications/sorties"
+msgstr "Schermutselingen"
+
+msgid "profile/dropdown/labels/historical"
+msgstr "Historisch gevecht"
+
+msgid "profile/dropdown/labels/random"
+msgstr "Willekeurig gevecht"
+
+msgid "profile/dropdown/labels/ranked"
+msgstr "Klassementsgevecht 15v15"
+
+msgid "profile/dropdown/labels/ranked_10x10"
+msgstr "Klassementsgevecht"
+
+msgid "profile/dropdown/labels/staticTeam"
+msgstr "Team: Klassementsgevechten"
+
+msgid "profile/dropdown/labels/staticTeam/season"
+msgstr "Team: Klassementsgevechten"
+
+msgid "profile/dropdown/labels/team"
+msgstr "Team: Ongeklasseerde gevechten"
+
+msgid "profile/params/tooltip/achievementsCount/body"
+msgstr "Onderscheidingen ontvangen in slagveld-categorie"
+
+msgid "profile/params/tooltip/achievementsCount/header"
+msgstr "Onderscheidingen"
+
+msgid "profile/params/tooltip/armorUsing/body"
+msgstr "Verhouding van schade tegengehouden door pantser tot schade ontvangen, van niet-penetrerende treffers en ricochets van AP, HEAT en APCR granaten. Potentiële schade van HE en HESH granaten wordt niet meegeteld.\n• Gemiddelde schade van dit type granaten tegengehouden door pantser: %(value_0)s"
+
+msgid "profile/params/tooltip/armorUsing/header"
+msgstr "Pantser-gebruiksefficiëntie"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/body"
+msgstr "Totale hoeveelheid schade veroorzaakt aan verdoofde vijandelijke voertuigen"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/header"
+msgstr "Schade aan door de speler verdoofde vijandelijke voertuigen"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/body"
+msgstr "Totale hoeveelheid schade veroorzaakt aan verdoofde vijandelijke voertuigen"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/header"
+msgstr "Schade aan door jou verdoofde vijandelijke voertuigen"
+
+msgid "profile/params/tooltip/avgAssistedDamage/body"
+msgstr "Inclusief:\n• Schade door jouw verkenning\n• Schade door jouw vernietiging van een rupsband en immobilisatie van het vijandelijk voertuig."
+
+msgid "profile/params/tooltip/avgAssistedDamage/header"
+msgstr "Gemiddelde schade veroorzaakt door jouw hulp"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/body"
+msgstr "Inclusief:\n• Schade door verkenning door de speler\n• Schade door jouw vernietiging van een rupsband en immobilisatie van het vijandelijk voertuig."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/header"
+msgstr "Schade veroorzaakt met hulp van de speler"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/body"
+msgstr "Inclusief:\n• Schade door jouw verkenning\n• Schade door jouw vernietiging van een rupsband en immobilisatie van het vijandelijk voertuig."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/body"
+msgstr "Omvat:\n• Schade door jouw verkenning (inclusief schade met behulp van vaardigheden)\n• Schade door jouw vernietiging van een rupsband en immobilisatie van een vijandelijk voertuig (inclusief schade met behulp van vaardigheden)\n• Schade veroorzaakt door teamgenoten met behulp van jouw vaardigheden."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/header"
+msgstr "Schade veroorzaakt door jouw hulp"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/header"
+msgstr "Schade veroorzaakt met jouw hulp"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/body"
+msgstr "De verhouding tussen de totale veroorzaakte schade aan een verdoofde vijand (inclusief verdovingen met behulp van vaardigheden) en het aantal gespeelde gevechten"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/header"
+msgstr "Schade aan door de speler verdoofde vijandelijke voertuigen"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/body"
+msgstr "De verhouding tussen de totale veroorzaakte schade aan een verdoofde vijand (inclusief verdovingen met behulp van vaardigheden) en het aantal gespeelde gevechten"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/header"
+msgstr "Schade aan door jou verdoofde vijandelijke voertuigen"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/body"
+msgstr "Ratio van totale schade veroorzaakt aan verdoofde vijandelijke voertuigen tot hoeveelheid gevochten gevechten"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/header"
+msgstr "Schade aan door de speler verdoofde vijandelijke voertuigen"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/body"
+msgstr "Ratio van totale schade veroorzaakt aan verdoofde vijandelijke voertuigen tot hoeveelheid gevochten gevechten"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/header"
+msgstr "Schade aan door jou verdoofde vijandelijke voertuigen"
+
+msgid "profile/params/tooltip/avgDamage/body"
+msgstr "Verhouding tussen de totaal veroorzaakte schade en het aantal gestreden gevechten"
+
+msgid "profile/params/tooltip/avgDamage/header"
+msgstr "Gemiddelde schade per gevecht"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/body"
+msgstr "Verhouding van totaal aantal vijandelijke voertuigen vernietigd tot aantal gevochten gevechten"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/body"
+msgstr "De verhouding tussen het totale aantal vernietigde vijandelijke voertuigen (inclusief vernietigingen met behulp van vaardigheden) en het aantal gespeelde gevechten"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/header"
+msgstr "Vijandelijke voertuigen vernietigd"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/header"
+msgstr "Vijandelijke voertuigen vernietigd"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/body"
+msgstr "Verhouding van totaal aantal vijandelijke voertuigen ontdekt tot aantal gevochten gevechten"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/body"
+msgstr "De verhouding tussen het totale aantal verkende vijandelijke voertuigen (inclusief verkenningen met behulp van vaardigheden) en het aantal gespeelde gevechten"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/header"
+msgstr "Vijandelijke voertuigen verkend"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/header"
+msgstr "Vijandelijke voertuigen verkend"
+
+msgid "profile/params/tooltip/avgDmg/short/body"
+msgstr "Verhouding tussen de totaal veroorzaakte schade en het aantal gestreden gevechten"
+
+msgid "profile/params/tooltip/avgDmg/short/header"
+msgstr "Schade veroorzaakt"
+
+msgid "profile/params/tooltip/avgEx/short/body"
+msgstr "Verhouding tussen het totaal aantal ervaringspunten en het aantal gestreden gevechten"
+
+msgid "profile/params/tooltip/avgEx/short/header"
+msgstr "Ervaring"
+
+msgid "profile/params/tooltip/avgExp/body"
+msgstr "Verhouding tussen het totaal aantal ervaringspunten en het aantal gestreden gevechten"
+
+msgid "profile/params/tooltip/avgExp/header"
+msgstr "Gemiddelde ervaring per gevecht"
+
+msgid "profile/params/tooltip/avgHealthRepair/body"
+msgstr "De verhouding tussen de totale hoeveelheid herstelde levenspunten en het aantal gespeelde gevechten"
+
+msgid "profile/params/tooltip/avgHealthRepair/header"
+msgstr "Levenspunten hersteld"
+
+msgid "profile/params/tooltip/avgPoiCaptured/body"
+msgstr "De verhouding tussen het aantal veroverde belangrijke locaties en het aantal gespeelde gevechten"
+
+msgid "profile/params/tooltip/avgPoiCaptured/header"
+msgstr "Belangrijke locaties veroverd"
+
+msgid "profile/params/tooltip/avgPrestigePoints/body"
+msgstr "De verhouding tussen de totale hoeveelheid verdiende prestigepunten en het aantal gespeelde gevechten"
+
+msgid "profile/params/tooltip/avgPrestigePoints/header"
+msgstr "Gemiddeld aantal prestigepunten per gevecht"
+
+msgid "profile/params/tooltip/avgReceivedDamage/body"
+msgstr "Verhouding van totale schade ontvangen tot aantal gevochten gevechten"
+
+msgid "profile/params/tooltip/avgReceivedDamage/header"
+msgstr "Schade ontvangen"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/body"
+msgstr "De verhouding tussen het totale aantal gebruikte rolvaardigheden en het aantal gespeelde gevechten"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/header"
+msgstr "Rolvaardigheden gebruikt"
+
+msgid "profile/params/tooltip/avgStunNumber/body"
+msgstr "Ratio van totale hoeveelheid treffers die de vijand verdoofden tot hoeveelheid gevochten gevechten"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/body"
+msgstr "De verhouding tussen het totale aantal treffers (inclusief treffers met behulp van vaardigheden) met verdoving van de vijandelijke bemanning en het aantal gespeelde gevechten"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/header"
+msgstr "Aantal verdovingen"
+
+msgid "profile/params/tooltip/avgStunNumber/header"
+msgstr "Hoeveelheid verdovingen"
+
+msgid "profile/params/tooltip/avgVictoryPoints/body"
+msgstr "Ratio van aantal verdiende overwinningspunten tot aantal gevochten gevechten."
+
+msgid "profile/params/tooltip/avgVictoryPoints/header"
+msgstr "Gemiddeld aantal overwinningspunten"
+
+msgid "profile/params/tooltip/battlesCount/body"
+msgstr "Totaal aantal gestreden gevechten, inclusief:\n• Overwinningen: %(value_0)s\n• Nederlagen: %(value_1)s\n• Gelijkspel: %(value_2)s"
+
+msgid "profile/params/tooltip/battlesCount/header"
+msgstr "Gevechten"
+
+msgid "profile/params/tooltip/brAverageLevel/body"
+msgstr "De verhouding van de som van alle bereikte levels tot het aantal gespeelde gevechten."
+
+msgid "profile/params/tooltip/brAverageLevel/header"
+msgstr "Gemiddeld level"
+
+msgid "profile/params/tooltip/brAverageRank/body"
+msgstr "De verhouding van de som van alle posities in de gevechtsresultaten tot het aantal gespeelde gevechten."
+
+msgid "profile/params/tooltip/brAverageRank/header"
+msgstr "Gemiddelde positie"
+
+msgid "profile/params/tooltip/brAvgDamage/body"
+msgstr "De verhouding van totale veroorzaakte schade tot het aantal gespeelde Klassementsgevechten."
+
+msgid "profile/params/tooltip/brAvgDamage/header"
+msgstr "Schade veroorzaakt"
+
+msgid "profile/params/tooltip/brBattlesCount/body"
+msgstr "Het totale aantal deelgenomen gevechten."
+
+msgid "profile/params/tooltip/brBattlesCount/header"
+msgstr "Gevechten"
+
+msgid "profile/params/tooltip/brMaxDamage/body"
+msgstr "Maximale schade die in een gevecht aan vijandelijke voertuigen is toegebracht.\nRecord gevestigd met de %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxDamage/header"
+msgstr "Maximale schade in een gevecht"
+
+msgid "profile/params/tooltip/brMaxExp/body"
+msgstr "De maximale hoeveelheid ervaring die met WoT Premium account in een gevecht is verdiend.\nRecord gevestigd met de %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxExp/header"
+msgstr "Maximale ervaring in een gevecht"
+
+msgid "profile/params/tooltip/brMaxFrags/body"
+msgstr "Het maximale aantal vijandelijke voertuigen dat door jou in een gevecht is vernietigd.\nRecord gevestigd met de %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxFrags/header"
+msgstr "Meeste vernietigd in een gevecht"
+
+msgid "profile/params/tooltip/brWins/body"
+msgstr "Het totale aantal overwinningen."
+
+msgid "profile/params/tooltip/brWins/header"
+msgstr "Overwinningen"
+
+msgid "profile/params/tooltip/capturePoints/body"
+msgstr "Aantal vijandelijke basis veroverpunten verdiend"
+
+msgid "profile/params/tooltip/capturePoints/header"
+msgstr "Basisveroverpunten"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/body"
+msgstr "Verhouding van \"Schade toegebracht\" en \"Schade ontvangen\" voor alle gevechtsniveaus, gegeven dat:\n• Schade toegebracht: %(value_0)s\n• Schade ontvangen: %(value_1)s"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/header"
+msgstr "Gemiddelde schadeverhouding"
+
+msgid "profile/params/tooltip/damageCoeff/body"
+msgstr "Verhouding van \"Schade toegebracht\" en \"Schade ontvangen\", gegeven dat:\n• Schade toegebracht: %(value_0)s\n• Schade ontvangen: %(value_1)s"
+
+msgid "profile/params/tooltip/damageCoeff/header"
+msgstr "Schadeverhouding"
+
+msgid "profile/params/tooltip/destroyCoeff/body"
+msgstr "Verhouding tussen het aantal vernietigde vijandelijke voertuigen en het aantal keer dat de speler vernietigd werd, gegeven dat:\n• Vijandelijke voertuigen vernietigd: %(value_0)s\n• Spelersvoertuigen vernietigd: %(value_1)s"
+
+msgid "profile/params/tooltip/destroyCoeff/header"
+msgstr "Vernietigingsverhouding"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/body"
+msgstr "Verhouding van schade tegengehouden door pantser tot schade ontvangen, van niet-penetrerende treffers en ricochets van AP, HEAT en APCR granaten. Schade van gevechtsreserves, HE en HESH granaten wordt niet meegeteld.\n• Gemiddelde schade van dit type granaten tegengehouden door pantser: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/header"
+msgstr "Pantser-gebruiksefficiëntie"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/body"
+msgstr "Verhouding van totale veroorzaakte schade (inclusief gevechtsreserves) tot aantal gevochten gevechten."
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/header"
+msgstr "Gemiddelde schade per gevecht"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body"
+msgstr "Verhouding van totaal aantal vijandelijke voertuigen vernietigd (inclusief door gevechtsreserves) tot aantal gevochten gevechten."
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header"
+msgstr "Vijandelijke voertuigen vernietigd"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body"
+msgstr "Verhouding van totaal aantal vijandelijke voertuigen vernietigd (exclusief door gevechtsreserves) tot aantal gevochten gevechten."
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header"
+msgstr "Vijandelijke voertuigen vernietigd"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/body"
+msgstr "Verhouding van totale veroorzaakte schade (inclusief door gevechtsreserves) tot aantal gevochten gevechten"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/header"
+msgstr "Schade veroorzaakt"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body"
+msgstr "Verhouding van totale veroorzaakte schade (exclusief door gevechtsreserves) tot aantal gevochten gevechten"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header"
+msgstr "Schade veroorzaakt"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/body"
+msgstr "Verhouding van totale ontvangen schade (inclusief door gevechtsreserves) tot aantal gevochten gevechten"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/header"
+msgstr "Schade ontvangen"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/body"
+msgstr "Totaal aantal gevochten gevechten, inclusief: \n• Overwinningen: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/header"
+msgstr "Gevechten"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/body"
+msgstr "Verhouding van schade veroorzaakt tot schade ontvangen (inclusief door gevechtsreserves), gebaseerd op: \n• Schade veroorzaakt door jouw voertuigen: %(value_0)s\n• Schade veroorzaakt door gevechtsreserves: %(value_2)s\n• Schade ontvangen van vijandelijke voertuigen en gevechtsreserves: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/header"
+msgstr "Schadeverhouding"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body"
+msgstr "Verhouding van schade veroorzaakt tot schade ontvangen (exclusief door gevechtsreserves), gebaseerd op: \n• Schade veroorzaakt: %(value_0)s\n• Schade ontvangen: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header"
+msgstr "Schadeverhouding"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/body"
+msgstr "Verhouding van vijandelijke voertuigen vernietigt tot het aantal keer dat het voertuig van de speler werd vernietigd (inclusief door gevechtsreserves), gebaseerd op:\n• Vijandelijke voertuigen vernietigt door jouw voertuigen: %(value_0)s\n• Vijandelijke voertuigen vernietigt door gevechtsreserves: %(value_2)s\n• Voertuigen van de speler vernietigt door vijandelijke voertuigen en gevechtsreserves: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/header"
+msgstr "Vernietigingsverhouding"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body"
+msgstr "Verhouding van vijandelijke voertuigen vernietigd tot het aantal keer dat het voertuig van de speler werd vernietigd (exclusief door gevechtsreserves), gebaseerd op:\n• Vijandelijke voertuigen vernietigd: %(value_0)s\n• Voertuigen van de speler vernietigd: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header"
+msgstr "Vernietigingsverhouding"
+
+msgid "profile/params/tooltip/dif/fallout/hits/body"
+msgstr "Nauwkeurigheid van vuren op vijandelijke voertuigen (exclusief gevechtsreserves)"
+
+msgid "profile/params/tooltip/dif/fallout/hits/header"
+msgstr "Treffers"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/body"
+msgstr "Bereikt record omvat gevechtsreserves."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/header"
+msgstr "Meeste schade in een gevecht"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/body"
+msgstr "Bereikt record omvat geen gevechtsreserves."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/header"
+msgstr "Meeste schade in een gevecht"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/body"
+msgstr "Bereikt record omvat gevechtsreserves."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/header"
+msgstr "Meeste voertuigen vernietigd per gevecht"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body"
+msgstr "Bereikt record omvat geen gevechtsreserves."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header"
+msgstr "Meeste voertuigen vernietigd per gevecht"
+
+msgid "profile/params/tooltip/dif/fallout/wins/body"
+msgstr "Totaal aantal overwinningen"
+
+msgid "profile/params/tooltip/dif/fallout/wins/header"
+msgstr "Overwinningen"
+
+msgid "profile/params/tooltip/droppedCapturePoints/body"
+msgstr "Aantal vriendschappelijke basisverdedigingspunten verdiend"
+
+msgid "profile/params/tooltip/droppedCapturePoints/header"
+msgstr "Basisverdedigingspunten"
+
+msgid "profile/params/tooltip/flagsAbsorbed/body"
+msgstr "Totaal aantal vlaggen vernietigd"
+
+msgid "profile/params/tooltip/flagsAbsorbed/header"
+msgstr "Vlaggen vernietigd"
+
+msgid "profile/params/tooltip/flagsDelivered/body"
+msgstr "Aantal vlaggen naar je basis gebracht"
+
+msgid "profile/params/tooltip/flagsDelivered/header"
+msgstr "Vlaggen afgeleverd"
+
+msgid "profile/params/tooltip/fort/battles/body"
+msgstr "Totaal aantal Offensieven, waarvan:\n• Overwinningen: %(value_0)s\n• Nederlagen: %(value_1)s\n• Gelijkspel: %(value_2)s."
+
+msgid "profile/params/tooltip/fort/battles/header"
+msgstr "Offensieven"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/body"
+msgstr "Totaalhoeveelheid overwinningen in Offensieven"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/header"
+msgstr "Overwinningen in Offensieven"
+
+msgid "profile/params/tooltip/fort/looting/body"
+msgstr "Totaal aantal vijandelijke Vestingen succesvol geplunderd"
+
+msgid "profile/params/tooltip/fort/looting/header"
+msgstr "Plunderingen"
+
+msgid "profile/params/tooltip/fort/resource/body"
+msgstr "Verhouding van totale hoeveelheid industriële grondstoffen verdiend in Schermutselingen tot de hoeveelheid Schermutselingen"
+
+msgid "profile/params/tooltip/fort/resource/header"
+msgstr "Gemiddelde hoeveelheid buit per Schermutseling"
+
+msgid "profile/params/tooltip/fort/sortie/body"
+msgstr "Totaalhoeveelheid Schermutselingen, inclusief:\n• Overwinningen: %(value_0)s\n• Nederlagen: %(value_1)s\n• Gelijkspel: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/sortie/header"
+msgstr "Schermutselingen"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/body"
+msgstr "Totaalhoeveelheid overwinningen in Schermutselingen"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/header"
+msgstr "Overwinningen in Schermutselingen"
+
+msgid "profile/params/tooltip/fortBattles/attacks/body"
+msgstr "Totaal aantal aanvallen op vijandelijke Vestingen.\nAlleen geteld als je aan tenminste een slag hebt meegedaan tijdens de Verdedigingsperiode."
+
+msgid "profile/params/tooltip/fortBattles/attacks/header"
+msgstr "Aanvallen"
+
+msgid "profile/params/tooltip/fortBattles/defences/body"
+msgstr "Totaal aantal defensieve acties in je Vesting.\nAlleen geteld als je aan minstens één slag hebt meegedaan tijdens de Verdedigingsperiode."
+
+msgid "profile/params/tooltip/fortBattles/defences/header"
+msgstr "Defensieve acties"
+
+msgid "profile/params/tooltip/fortBattlesWins/body"
+msgstr "Totaalhoeveelheid overwinningen in Offensieven"
+
+msgid "profile/params/tooltip/fortBattlesWins/header"
+msgstr "Overwinningen in Offensieven"
+
+msgid "profile/params/tooltip/fortSortieWins/body"
+msgstr "Totaalhoeveelheid overwinningen in Schermutselingen"
+
+msgid "profile/params/tooltip/fortSortieWins/header"
+msgstr "Overwinningen in Schermutselingen"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/body"
+msgstr "Verhouding van totale hoeveelheid industriële grondstoffen verdiend in Schermutselingen tot de hoeveelheid Schermutselingen"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/header"
+msgstr "Gemiddelde hoeveelheid buit per Schermutseling"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/body"
+msgstr "Totaalhoeveelheid industriële grondstoffen verdiend in alle Schermutselingen"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/header"
+msgstr "Totaalhoeveelheid buit verdiend in alle Schermutselingen"
+
+msgid "profile/params/tooltip/hits/body"
+msgstr "Nauwkeurigheid in het vuren op vijandelijke voertuigen"
+
+msgid "profile/params/tooltip/hits/header"
+msgstr "Precisie"
+
+msgid "profile/params/tooltip/kdr/body"
+msgstr "Verhouding van vijandelijke voertuigen vernietigt tot het aantal keer dat het voertuig van de speler werd vernietigd (inclusief door gevechtsreserves), gebaseerd op:\n• Vijandelijke voertuigen vernietigt door jouw voertuigen: %(value_0)s\n• Vijandelijke voertuigen vernietigt door gevechtsreserves: %(value_1)s\n• Voertuigen van de speler vernietigt door vijandelijke voertuigen en gevechtsreserves: %(value_2)s"
+
+msgid "profile/params/tooltip/kdr/header"
+msgstr "Vernietigingsverhouding"
+
+msgid "profile/params/tooltip/markOfMastery/body"
+msgstr "Ontvangen tank-aas meesterschapsbadges in alle relevante gevechtsmodi / Het aantal voertuigen dat in minstens één Willekeurig gevecht heeft gestreden"
+
+msgid "profile/params/tooltip/markOfMastery/header"
+msgstr "Meesterschapsbadge: Tank-aas"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/body"
+msgstr "Meesterschapsbadges worden niet toegewezen in deze gevechtsmodus."
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/header"
+msgstr "Meesterschapsbadge: Tank-aas"
+
+msgid "profile/params/tooltip/maxDamage/body"
+msgstr "Record behaald in %(value_0)s"
+
+msgid "profile/params/tooltip/maxDamage/header"
+msgstr "Maximale schade in een gevecht"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/body"
+msgstr "Meeste schade veroorzaakt aan vijandelijke voertuigen in een gevecht."
+
+msgid "profile/params/tooltip/maxDamage/vehicle/header"
+msgstr "Meeste schade"
+
+msgid "profile/params/tooltip/maxDestroyed/body"
+msgstr "Record behaald in %(value_0)s"
+
+msgid "profile/params/tooltip/maxDestroyed/header"
+msgstr "Meeste vernietigd in een gevecht"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/body"
+msgstr "Meeste vijandelijke voertuigen vernietigd in een gevecht."
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/header"
+msgstr "Meeste voertuigen vernietigd"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/body"
+msgstr "Maximale schade veroorzaakt door zowel rolvaardigheden als tactische vaardigheden in één gevecht."
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/header"
+msgstr "Maximale schade veroorzaakt door vaardigheden per gevecht"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/body"
+msgstr "De schade veroorzaakt door zowel rolvaardigheden als tactische vaardigheden is inbegrepen.\nHet record is gevestigd in de %(value_0)s"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/header"
+msgstr "Maximale schade veroorzaakt door vaardigheden per gevecht"
+
+msgid "profile/params/tooltip/maxExp/body"
+msgstr "Record behaald in %(value_0)s"
+
+msgid "profile/params/tooltip/maxExp/header"
+msgstr "Maximale ervaring per gevecht"
+
+msgid "profile/params/tooltip/maxExp/vehicle/body"
+msgstr "Meeste ervaring verdiend in een gevecht, inclusief Premiumaccount."
+
+msgid "profile/params/tooltip/maxExp/vehicle/header"
+msgstr "Meeste ervaring"
+
+msgid "profile/params/tooltip/maxExpDisabled/body"
+msgstr "Maximale ervaring wordt niet getoond in deze gevechtsmodus."
+
+msgid "profile/params/tooltip/maxExpDisabled/header"
+msgstr "Maximale ervaring per gevecht"
+
+msgid "profile/params/tooltip/maxHealthRepair/body"
+msgstr "Maximum aantal herstelde levenspunten voor jouw voertuig en geallieerde voertuigen in één gevecht."
+
+msgid "profile/params/tooltip/maxHealthRepair/header"
+msgstr "Maximum aantal herstelde levenspunten per gevecht"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/body"
+msgstr "Maximum aantal herstelde levenspunten voor jouw voertuig en geallieerde voertuigen in één gevecht.\nHet record is gevestigd in de %(value_0)s"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/header"
+msgstr "Maximum aantal herstelde levenspunten per gevecht"
+
+msgid "profile/params/tooltip/maxPrestigePoints/body"
+msgstr "Maximum aantal verdiende prestigepunten in één gevecht."
+
+msgid "profile/params/tooltip/maxPrestigePoints/header"
+msgstr "Maximum aantal prestigepunten per gevecht"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/body"
+msgstr "Het record is gevestigd in de %(value_0)s"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/header"
+msgstr "Maximum aantal prestigepunten per gevecht"
+
+msgid "profile/params/tooltip/maxVictoryPoints/body"
+msgstr "Meeste overwinningspunten verdiend per gevecht over alle gevochten gevechten"
+
+msgid "profile/params/tooltip/maxVictoryPoints/header"
+msgstr "Meeste overwinningspunten verdiend per gevecht"
+
+msgid "profile/params/tooltip/maxWinPoints/body"
+msgstr "Meeste overwinningspunten verdiend per gevecht over alle gevochten gevechten"
+
+msgid "profile/params/tooltip/maxWinPoints/header"
+msgstr "Meeste overwinningspunten verdiend per gevecht"
+
+msgid "profile/params/tooltip/maxWinSeries/body"
+msgstr "De langste reeks opeenvolgende overwinningen behaald in de solomodus en in een normaal peloton of peloton van 7 spelers."
+
+msgid "profile/params/tooltip/maxWinSeries/header"
+msgstr "Langste reeks opeenvolgende overwinningen (solo en peloton/superpeloton)"
+
+msgid "profile/params/tooltip/poiCaptured/body"
+msgstr "Aantal belangrijke locaties veroverd"
+
+msgid "profile/params/tooltip/poiCaptured/header"
+msgstr "Belangrijke locaties veroverd"
+
+msgid "profile/params/tooltip/ranked/avgFrags/body"
+msgstr "Gemiddeld aantal vijandelijke voertuigen vernietigd in een gevecht"
+
+msgid "profile/params/tooltip/ranked/avgFrags/header"
+msgstr "Gemiddeld aantal voertuigen vernietigd"
+
+msgid "profile/params/tooltip/ranked/avgPoints/body"
+msgstr "Percentageverhouding van het aantal ontvangen chevrons tot het totale aantal deelgenomen gevechten in de Klassementsgevechten-modus.\n• Totaal aantal chevrons: %(value_0)s\n• Totaal aantal gevechten: %(value_1)s"
+
+msgid "profile/params/tooltip/ranked/avgPoints/header"
+msgstr "Efficiëntie in Klassementsgevechten"
+
+msgid "profile/params/tooltip/ranked/points/body"
+msgstr "Totaal aantal punten verdiend"
+
+msgid "profile/params/tooltip/ranked/points/header"
+msgstr "Rangpunten"
+
+msgid "profile/params/tooltip/stunNumber/body"
+msgstr "Totaal aantal treffers die de vijandelijke bemanning verdoofden"
+
+msgid "profile/params/tooltip/stunNumber/header"
+msgstr "Hoeveelheid verdovingen"
+
+msgid "profile/params/tooltip/survival/body"
+msgstr "Percentage gevechten waarin het voertuig van de speler niet vernietigd werd"
+
+msgid "profile/params/tooltip/survival/header"
+msgstr "Overleefde gevechten"
+
+msgid "profile/params/tooltip/totalVehs/body"
+msgstr "Totaal aantal verschillende gebruikte voertuigen"
+
+msgid "profile/params/tooltip/totalVehs/header"
+msgstr "Gebruikte voertuigen"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/body"
+msgstr "Totaal aantal Offensieven\n\nParameter is niet beschikbaar in de huidige update."
+
+msgid "profile/params/tooltip/unavailable/fort/battles/header"
+msgstr "Offensieven"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/body"
+msgstr "Totaal percentage van overwinningen in Offensieven.\n\nParameter is niet beschikbaar in de huidige update."
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/header"
+msgstr "Overwinningen in Offensieven"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/body"
+msgstr "Geen gevechten sinds de introductie van de parameter"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/header"
+msgstr "Data niet beschikbaar"
+
+msgid "profile/params/tooltip/usedTechnics/body"
+msgstr "Voertuigen die minstens één Historisch gevecht hebben gevochten."
+
+msgid "profile/params/tooltip/usedTechnics/header"
+msgstr "Gebruikte voertuigen"
+
+msgid "profile/params/tooltip/wins/body"
+msgstr "Totaalpercentage van overwinningen"
+
+msgid "profile/params/tooltip/wins/header"
+msgstr "Overwinningen"
+
+msgid "profile/ranked/seasonsdropdown/1"
+msgstr "Seizoen 1, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/2"
+msgstr "Seizoen 2, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/3"
+msgstr "Seizoen 3, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/archive"
+msgstr "Gearchiveerde data"
+
+msgid "profile/seasonsdropdown/all"
+msgstr "Alle seizoenen"
+
+msgid "profile/seasonsdropdown/current"
+msgstr "Huidig seizoen"
+
+msgid "profile/seasonsdropdown/specific"
+msgstr "Seizoen %(date1)s – %(date2)s"
+
+msgid "profile/section/statistics/scores/maxHealthRepair"
+msgstr "Maximum aantal herstelde levenspunten per gevecht"
+
+msgid "profile/summary/clan/btnLabel"
+msgstr "Clanprofiel"
+
+msgid "profile/summary/clan/joinDate"
+msgstr "Toetredingsdatum:"
+
+msgid "profile/summary/clan/post"
+msgstr "Positie:"
+
+msgid "profile/summary/club/btnLabel"
+msgstr "Teamprofiel"
+
+msgid "profile/summary/club/ladder"
+msgstr "Klassement:"
+
+msgid "profile/summary/club/ladderInfo"
+msgstr "Ladder %(league)s, Divisie %(division)s"
+
+msgid "profile/summary/club/post"
+msgstr "Positie:"
+
+msgid "profile/summary/nextAwards/tooltip/body"
+msgstr "Aankomende onderscheidingen zijn aan het lint vastgemaakt."
+
+msgid "profile/summary/nextAwards/tooltip/header"
+msgstr "Volgende onderscheidingen"
+
+msgid "profile/summary/noGroups"
+msgstr "De speler heeft geen permanente tactische eenheden."
+
+msgid "profile/summary/significantAwards/tooltip/body"
+msgstr "De spelers meest belangrijke onderscheidingen zijn aan het lint vastgemaakt."
+
+msgid "profile/summary/significantAwards/tooltip/header"
+msgstr "Waardevolle onderscheidingen"
+
+msgid "profile/tabs/tooltip/advancedAchievements/body"
+msgstr "Bekijk de onderscheidingscatalogus."
+
+msgid "profile/tabs/tooltip/advancedAchievements/header"
+msgstr "Onderscheidingen"
+
+msgid "profile/tabs/tooltip/awards/body"
+msgstr "Bekijk onderscheidingen en hun beschrijving"
+
+msgid "profile/tabs/tooltip/awards/header"
+msgstr "Onderscheidingen"
+
+msgid "profile/tabs/tooltip/collections/body"
+msgstr "Bekijk collecties"
+
+msgid "profile/tabs/tooltip/collections/header"
+msgstr "Collecties"
+
+msgid "profile/tabs/tooltip/formations/body"
+msgstr "Bekijk details over tactische eenheden waarvan jij lid was."
+
+msgid "profile/tabs/tooltip/formations/header"
+msgstr "Tactische eenheden"
+
+msgid "profile/tabs/tooltip/hof/body"
+msgstr "Bekijk beoordelingen in de Hall of Fame"
+
+msgid "profile/tabs/tooltip/hof/header"
+msgstr "Hall of Fame"
+
+msgid "profile/tabs/tooltip/hofDisabled/body"
+msgstr "De Hall of Fame is tijdelijk onbeschikbaar. Probeer het later alsjeblieft opnieuw."
+
+msgid "profile/tabs/tooltip/hofDisabled/header"
+msgstr "Let op"
+
+msgid "profile/tabs/tooltip/statistics/body"
+msgstr "Bekijk gevechtsstatistieken van alle voertuigtypen"
+
+msgid "profile/tabs/tooltip/statistics/header"
+msgstr "Statistieken"
+
+msgid "profile/tabs/tooltip/summary/body"
+msgstr "Bekijk gevechtsprestaties"
+
+msgid "profile/tabs/tooltip/summary/header"
+msgstr "Samenvatting"
+
+msgid "profile/tabs/tooltip/technique/body"
+msgstr "Bekijk gevechtsstatistieken van elk voertuig"
+
+msgid "profile/tabs/tooltip/technique/header"
+msgstr "Voertuigen"
+
+msgid "profile/title"
+msgstr "Spelerstatistieken %s"
+
+msgid "seasons/comp7_dropdown_label"
+msgstr "Jaar/seizoen:"
+
+msgid "seasons/dropdown_label"
+msgstr "Seizoen:"
+
+msgid "section/advancedAchievements/title"
+msgstr "Onderscheidingen"
+
+msgid "section/awards/dropdown/labels/all"
+msgstr "Allen"
+
+msgid "section/awards/dropdown/labels/inProcess"
+msgstr "Ontvangen"
+
+msgid "section/awards/dropdown/labels/none"
+msgstr "Niet ontvangen"
+
+msgid "section/awards/dropdown/tooltip/body"
+msgstr "Activeer het filter om of alle onderscheidingen te zien, of de ontvangen, of de niet ontvangen onderscheidingen"
+
+msgid "section/awards/dropdown/tooltip/header"
+msgstr "Onderscheidingsfilter"
+
+msgid "section/awards/labels/battleHeroes"
+msgstr "Gevechtshelden"
+
+msgid "section/awards/labels/epic"
+msgstr "Epische medailles"
+
+msgid "section/awards/labels/group"
+msgstr "Groepsonderscheidingen"
+
+msgid "section/awards/labels/honorary"
+msgstr "Eervolle vermeldingen"
+
+msgid "section/awards/labels/marksOnGun"
+msgstr "Markeringen van uitmuntendheid"
+
+msgid "section/awards/labels/memory"
+msgstr "Herinneringsmedailles"
+
+msgid "section/awards/labels/special"
+msgstr "Actie"
+
+msgid "section/awards/labels/stage"
+msgstr "Niveau-onderscheidingen"
+
+msgid "section/awards/title"
+msgstr "Onderscheidingen"
+
+msgid "section/collections/title"
+msgstr "Collecties"
+
+msgid "section/formations/clan/none"
+msgstr "Je bent geen lid van een clan."
+
+msgid "section/formations/clan/none/thirdperson"
+msgstr "De speler is geen lid van een clan."
+
+msgid "section/formations/clan/type"
+msgstr "Clan"
+
+msgid "section/formations/fort/battles"
+msgstr "Offensieven"
+
+msgid "section/formations/fort/create"
+msgstr "Creëer Vesting"
+
+msgid "section/formations/fort/level"
+msgstr "Vesting niveau: %s"
+
+msgid "section/formations/fort/link"
+msgstr "Vesting onderscheidingen"
+
+msgid "section/formations/fort/none"
+msgstr "Vesting niet gecreëerd"
+
+msgid "section/formations/fort/none/thirdperson"
+msgstr "Clan van de speler heeft geen Vesting."
+
+msgid "section/formations/fort/resourceRating"
+msgstr "Grondstofjager klassering"
+
+msgid "section/formations/fort/sorties"
+msgstr "Schermutselingen"
+
+msgid "section/formations/history/battles"
+msgstr "Gevechten als lid"
+
+msgid "section/formations/history/dates"
+msgstr "Datum toetreden/verlaten"
+
+msgid "section/formations/history/datesPattern"
+msgstr "%(date1)s–%(date2)s"
+
+msgid "section/formations/history/team"
+msgstr "Team"
+
+msgid "section/formations/history/title"
+msgstr "Team log van de speler"
+
+msgid "section/formations/joinDate"
+msgstr "Toetredingsdatum: %s"
+
+msgid "section/formations/rank"
+msgstr "Positie speler: %s"
+
+msgid "section/formations/team/completedSeason"
+msgstr "Seizoen %s (geëindigd)"
+
+msgid "section/formations/team/find"
+msgstr "Ga naar permanent team zoeken"
+
+msgid "section/formations/team/league"
+msgstr "Ladder: %(league)s. Divisie: %(division)s. Plaats: %(position)s."
+
+msgid "section/formations/team/none"
+msgstr "Je hebt geen permanente teams."
+
+msgid "section/formations/team/none/thirdperson"
+msgstr "De speler heeft geen permanente teams."
+
+msgid "section/formations/team/season"
+msgstr "Seizoen %s"
+
+msgid "section/formations/team/seasonBattles"
+msgstr "Klassementsgevechten"
+
+msgid "section/formations/team/seasonWinRate"
+msgstr "Overwinningen in het seizoen"
+
+msgid "section/formations/team/title"
+msgstr "Team \"%s\""
+
+msgid "section/formations/team/type"
+msgstr "Team"
+
+msgid "section/formations/title"
+msgstr "Tactische eenheden"
+
+msgid "section/formations/tooltip/fort/battles/body"
+msgstr "Totaal aantal Offensieven, inclusief:\n• Overwinningen: %(wins)s\n• Verliezen: %(losses)s\n• Gelijkspel: %(draws)s"
+
+msgid "section/formations/tooltip/fort/battles/header"
+msgstr "Offensieven"
+
+msgid "section/formations/tooltip/fort/level/body"
+msgstr "Het niveau van de Vesting is gelijk aan het niveau van het commandocentrum."
+
+msgid "section/formations/tooltip/fort/level/header"
+msgstr "Niveau Vesting"
+
+msgid "section/formations/tooltip/fort/link/body"
+msgstr "Klik om de Vesting onderscheidingen van de clan te bekijken."
+
+msgid "section/formations/tooltip/fort/link/header"
+msgstr "Vesting onderscheidingen"
+
+msgid "section/formations/tooltip/fort/resourceRating/body"
+msgstr "Je plaats"
+
+msgid "section/formations/tooltip/fort/resourceRating/header"
+msgstr "Grondstofjager klassering"
+
+msgid "section/formations/tooltip/fort/sorties/body"
+msgstr "Totaal aantal Schermutselingen, inclusief:\n• Overwinningen: %(wins)s\n• Verliezen: %(losses)s\n• Gelijke spelen: %(draws)s"
+
+msgid "section/formations/tooltip/fort/sorties/header"
+msgstr "Schermutselingen"
+
+msgid "section/formations/tooltip/team/link/body"
+msgstr "Klik om het profiel van het team te zien."
+
+msgid "section/formations/tooltip/team/link/header"
+msgstr "Teamprofiel"
+
+msgid "section/formations/tooltip/team/seasonBattles/body"
+msgstr "Totaal aantal gespeelde Klassementsgevechten als lid van dit team, inclusief:\n• Overwinningen: %(wins)s\n• Verliezen: %(losses)s\n• Gelijke spelen: %(draws)s"
+
+msgid "section/formations/tooltip/team/seasonBattles/header"
+msgstr "Klassementsgevechten"
+
+msgid "section/formations/tooltip/team/seasonWinRate/body"
+msgstr "Totaal percentage van overwinningen in Klassementsgevechten"
+
+msgid "section/formations/tooltip/team/seasonWinRate/header"
+msgstr "Overwinningen"
+
+msgid "section/hof/BrowserView/closeBtn"
+msgstr "SLUITEN"
+
+msgid "section/hof/achievementsRatingsBtn"
+msgstr "Ga naar beoordeling"
+
+msgid "section/hof/achievementsRatingsTitle"
+msgstr "Beoordeling op prestaties\nin Willekeurige gevechten"
+
+msgid "section/hof/betaBtn"
+msgstr "BETA"
+
+msgid "section/hof/betaTooltip"
+msgstr "De Hall of Fame en de World of Tanks beoordeling\nzijn in de BETA testfase"
+
+msgid "section/hof/mainDescription"
+msgstr "Bekijk je gevechtsprestatie en beoordelingspositie ten opzichte van andere spelers voor de geselecteerde periodes."
+
+msgid "section/hof/mainTitle"
+msgstr "Hall of Fame"
+
+msgid "section/hof/notAvailable/tooltip/body"
+msgstr "De Hall of Fame is tijdelijk onbeschikbaar. Probeer het later alsjeblieft opnieuw."
+
+msgid "section/hof/notAvailable/tooltip/header"
+msgstr "Let op"
+
+msgid "section/hof/statusBtn/hideResults"
+msgstr "Resultaten tonen"
+
+msgid "section/hof/statusBtn/showResults"
+msgstr "Resultaten verbergen"
+
+msgid "section/hof/statusDescription/exclusion"
+msgstr "De aanvraag om je resultaten in de beoordelingen te verbergen is ingediend en zal verwerkt worden tijdens de volgende aanpassing van resultaten."
+
+msgid "section/hof/statusDescription/hideResults"
+msgstr "Je beoordelingsresultaten zijn nu verborgen van andere spelers."
+
+msgid "section/hof/statusDescription/inclusion"
+msgstr "De aanvraag is ingediend en zal verwerkt worden tijdens de volgende aanpassing van beoordelingsposities. Je beoordelingsresultaten worden nu weergegeven aan andere spelers."
+
+msgid "section/hof/statusDescription/showResults"
+msgstr "Je beoordelingsresultaten worden weergegeven aan alle spelers, vrienden en clanleden."
+
+msgid "section/hof/title"
+msgstr "Hall of Fame"
+
+msgid "section/hof/vehiclesRatingsBtn"
+msgstr "Ga naar beoordeling"
+
+msgid "section/hof/vehiclesRatingsTitle"
+msgstr "Beoordeling op voertuigen\nin Willekeurige gevechten"
+
+msgid "section/statistics/bodyBar/label/charts"
+msgstr "Infographics"
+
+msgid "section/statistics/bodyBar/label/clan10"
+msgstr "Niveau X"
+
+msgid "section/statistics/bodyBar/label/clan6"
+msgstr "Niveau VI"
+
+msgid "section/statistics/bodyBar/label/clan8"
+msgstr "Niveau VIII"
+
+msgid "section/statistics/bodyBar/label/detailed"
+msgstr "Statistieken"
+
+msgid "section/statistics/bodyBar/label/fortBattles"
+msgstr "Details over Offensieven"
+
+msgid "section/statistics/bodyBar/label/fortSortie"
+msgstr "Details over Schermutselingen"
+
+msgid "section/statistics/bodyBar/label/specific"
+msgstr "Actie"
+
+msgid "section/statistics/bodyParams/label/average"
+msgstr "Gemiddelde score per gevecht"
+
+msgid "section/statistics/bodyParams/label/common"
+msgstr "Algemene parameters"
+
+msgid "section/statistics/bodyParams/label/fortBattles"
+msgstr "Offensieven"
+
+msgid "section/statistics/bodyParams/label/fortSortie"
+msgstr "Schermutselingen"
+
+msgid "section/statistics/bodyParams/label/record"
+msgstr "Record score"
+
+msgid "section/statistics/bodyParams/label/resource"
+msgstr "Industriële grondstof"
+
+msgid "section/statistics/chart/class/tooltip/body"
+msgstr "Het totale aantal gevechten in voertuigen van deze klasse."
+
+msgid "section/statistics/chart/class/tooltip/header"
+msgstr "Voertuigklasse: %(value)s"
+
+msgid "section/statistics/chart/level/tooltip/body"
+msgstr "Aantal gevechten in voertuigen van dit niveau"
+
+msgid "section/statistics/chart/level/tooltip/header"
+msgstr "Voertuigniveau: %(value)s"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/body"
+msgstr "Alleen voertuigen van niveau VI–VIII kunnen vechten in deze gevechtsmodus."
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/header"
+msgstr "Voertuigniveau: %(value)s"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/body"
+msgstr "Alleen niveau VIII-X voertuigen kunnen deelnemen aan deze gevechtsmodus."
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/header"
+msgstr "Voertuigniveau: %(value)s"
+
+msgid "section/statistics/chart/nation/tooltip/body"
+msgstr "Aantal gevechten in voertuigen van dit land"
+
+msgid "section/statistics/chart/nation/tooltip/header"
+msgstr "Voertuig land: %(value)s"
+
+msgid "section/statistics/chart/place/tooltip/body"
+msgstr "Het totale aantal gevechten met deze positie als resultaat"
+
+msgid "section/statistics/chart/place/tooltip/header"
+msgstr "Positie: %(value)s"
+
+msgid "section/statistics/chart/type/tooltip/body"
+msgstr "Aantal gevechten in voertuigen van dit type"
+
+msgid "section/statistics/chart/type/tooltip/header"
+msgstr "Voertuigtype: %(value)s"
+
+msgid "section/statistics/charts/byClassLabel"
+msgstr "Op klasse"
+
+msgid "section/statistics/charts/byLevelLabel"
+msgstr "Per niveau"
+
+msgid "section/statistics/charts/byNationLabel"
+msgstr "Per land"
+
+msgid "section/statistics/charts/byPlaceLabel"
+msgstr "Op bereikte positie"
+
+msgid "section/statistics/charts/byTypeLabel"
+msgstr "Per type"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortOther"
+msgstr "Schade aan door de speler verdoofde vijandelijke voertuigen"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortSelf"
+msgstr "Schade aan door jou verdoofde vijandelijke voertuigen"
+
+msgid "section/statistics/detailed/avgDamage"
+msgstr "Schade toegebracht"
+
+msgid "section/statistics/detailed/avgDestroyedVehicles"
+msgstr "Vijandelijke voertuigen vernietigd"
+
+msgid "section/statistics/detailed/avgDetectedEnemies"
+msgstr "Vijandelijke voertuigen verkend"
+
+msgid "section/statistics/detailed/avgHealthRepaired"
+msgstr "Levenspunten hersteld"
+
+msgid "section/statistics/detailed/avgPoiCaptured"
+msgstr "Belangrijke locaties veroverd"
+
+msgid "section/statistics/detailed/avgPrestigePoints"
+msgstr "Prestigepunten"
+
+msgid "section/statistics/detailed/avgReceivedDamage"
+msgstr "Schade ontvangen"
+
+msgid "section/statistics/detailed/avgRoleSkillUsed"
+msgstr "Rolvaardigheden gebruikt"
+
+msgid "section/statistics/detailed/damageCoefficient"
+msgstr "Schadeverhouding"
+
+msgid "section/statistics/detailed/dealOutDamage"
+msgstr "Beschadig"
+
+msgid "section/statistics/detailed/destroyed"
+msgstr "Vernietigd"
+
+msgid "section/statistics/detailed/destructionCoefficient"
+msgstr "Vernietigingsverhouding"
+
+msgid "section/statistics/detailed/killed"
+msgstr "Vijanden vernietigd"
+
+msgid "section/statistics/detailed/maxDestroyedVehicles"
+msgstr "Maximum vernietigd in een gevecht"
+
+msgid "section/statistics/detailed/receivedDamage"
+msgstr "Schade ontvangen"
+
+msgid "section/statistics/detailed/stunNumber"
+msgstr "Aantal verdovingen"
+
+msgid "section/statistics/headerText/all"
+msgstr "Willekeurig en tankcompagnie"
+
+msgid "section/statistics/headerText/battleRoyaleSolo"
+msgstr "Staaljager"
+
+msgid "section/statistics/headerText/battleRoyaleSquad"
+msgstr "Staaljager"
+
+msgid "section/statistics/headerText/clan"
+msgstr "Wereldkaart"
+
+msgid "section/statistics/headerText/comp7"
+msgstr "Bestorming"
+
+msgid "section/statistics/headerText/epicRandom"
+msgstr "Groots gevecht"
+
+msgid "section/statistics/headerText/fallout"
+msgstr "Razernij"
+
+msgid "section/statistics/headerText/fortifications"
+msgstr "Vesting: gevechten"
+
+msgid "section/statistics/headerText/historical"
+msgstr "Historische gevechten"
+
+msgid "section/statistics/headerText/ranked_10x10"
+msgstr "Klassementsgevecht"
+
+msgid "section/statistics/headerText/ranked_15x15"
+msgstr "Klassementsgevecht 15v15"
+
+msgid "section/statistics/headerText/staticTeam"
+msgstr "Team: Klassementsgevechten"
+
+msgid "section/statistics/headerText/team"
+msgstr "Team: Ongeklasseerde gevechten"
+
+msgid "section/statistics/labels/battlesOnTech"
+msgstr "Gevechten gestreden in voertuig"
+
+msgid "section/statistics/scores/achievementsCount"
+msgstr "Onderscheidingen"
+
+msgid "section/statistics/scores/armorUsing"
+msgstr "Pantser-gebruiksefficiëntie"
+
+msgid "section/statistics/scores/avgAssistedDamage"
+msgstr "Gemiddelde schade veroorzaakt met jouw hulp"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortOther"
+msgstr "Schade veroorzaakt met hulp van de speler"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortSelf"
+msgstr "Schade veroorzaakt door jouw hulp"
+
+msgid "section/statistics/scores/avgDamage"
+msgstr "Gemiddelde schade per gevecht"
+
+msgid "section/statistics/scores/avgExperience"
+msgstr "Gemiddelde ervaring per gevecht"
+
+msgid "section/statistics/scores/avgExperience/short"
+msgstr "Ervaring"
+
+msgid "section/statistics/scores/avgPrestigePoints"
+msgstr "Gemiddeld aantal prestigepunten per gevecht"
+
+msgid "section/statistics/scores/avgVictoryPoints"
+msgstr "Gemiddeld aantal overwinningspunten"
+
+msgid "section/statistics/scores/capturePoints"
+msgstr "Basisveroveringspunten"
+
+msgid "section/statistics/scores/clan/summaryDamageCoefficient"
+msgstr "Gemiddelde schadecoëfficiënt"
+
+msgid "section/statistics/scores/coolSigns"
+msgstr "Meesterschapsbadges: Tank-aas"
+
+msgid "section/statistics/scores/droppedCapturePoints"
+msgstr "Basisverdedigingspunten"
+
+msgid "section/statistics/scores/flagsAbsorbed"
+msgstr "Vlaggen vernietigd"
+
+msgid "section/statistics/scores/flagsDelivered"
+msgstr "Vlaggen afgeleverd"
+
+msgid "section/statistics/scores/fort/battles"
+msgstr "Offensieven"
+
+msgid "section/statistics/scores/fort/battlesWinsEfficiency"
+msgstr "Overwinningen"
+
+msgid "section/statistics/scores/fort/resource"
+msgstr "Gemiddelde hoeveelheid buit per Schermutseling"
+
+msgid "section/statistics/scores/fort/sortie"
+msgstr "Schermutselingen"
+
+msgid "section/statistics/scores/fort/sortieWinsEfficiency"
+msgstr "Overwinningen in Schermutselingen"
+
+msgid "section/statistics/scores/fortBattles/attacks"
+msgstr "Aanvallen"
+
+msgid "section/statistics/scores/fortBattles/defences"
+msgstr "Defensieve acties"
+
+msgid "section/statistics/scores/fortBattlesTotalWins"
+msgstr "Overwinningen in Offensieven"
+
+msgid "section/statistics/scores/fortSortie"
+msgstr "Schermutselingen"
+
+msgid "section/statistics/scores/fortSortieTotalWins"
+msgstr "Overwinningen in Schermutselingen"
+
+msgid "section/statistics/scores/fortSorties/AvgResources"
+msgstr "Gemiddelde hoeveelheid buit per Schermutseling"
+
+msgid "section/statistics/scores/fortSorties/totalResources"
+msgstr "Totaalhoeveelheid buit verdiend in Schermutselingen"
+
+msgid "section/statistics/scores/fortTotalBattles"
+msgstr "Offensieven"
+
+msgid "section/statistics/scores/hits"
+msgstr "Treffers"
+
+msgid "section/statistics/scores/killDeathRatio"
+msgstr "Vernietigingsverhouding"
+
+msgid "section/statistics/scores/looting"
+msgstr "Plunderingen"
+
+msgid "section/statistics/scores/maxDamage"
+msgstr "Maximale schade per gevecht"
+
+msgid "section/statistics/scores/maxEquipmentDamageDealt"
+msgstr "Maximale schade veroorzaakt door vaardigheden per gevecht"
+
+msgid "section/statistics/scores/maxExperience"
+msgstr "Maximale ervaring per gevecht"
+
+msgid "section/statistics/scores/maxPrestigePoints"
+msgstr "Maximum aantal prestigepunten per gevecht"
+
+msgid "section/statistics/scores/maxVictoryPoints"
+msgstr "Meeste aantal overwinningspunten verdient in een gevecht"
+
+msgid "section/statistics/scores/maxWinSeries"
+msgstr "Langste reeks opeenvolgende overwinningen (solo en peloton/superpeloton)"
+
+msgid "section/statistics/scores/poiCaptured"
+msgstr "Belangrijke locaties veroverd"
+
+msgid "section/statistics/scores/ranked/avgFrags"
+msgstr "Gemiddeld aantal vernietigde voertuigen"
+
+msgid "section/statistics/scores/ranked/avgPoints"
+msgstr "Efficiëntie in Klassementsgevechten"
+
+msgid "section/statistics/scores/ranked/points"
+msgstr "Rangpunten"
+
+msgid "section/statistics/scores/survival"
+msgstr "Gevechten overleefd"
+
+msgid "section/statistics/scores/totalBattles"
+msgstr "Gevechten"
+
+msgid "section/statistics/scores/totalVehs"
+msgstr "Voertuigen"
+
+msgid "section/statistics/scores/totalWins"
+msgstr "Overwinningen"
+
+msgid "section/statistics/scores/usedTechnics"
+msgstr "Voertuigen gebruikt"
+
+msgid "section/statistics/title"
+msgstr "Statistieken"
+
+msgid "section/summary/errorText/nextAwards"
+msgstr "Geen volgende onderscheidingen"
+
+msgid "section/summary/errorText/significantAwards"
+msgstr "Geen waardevolle onderscheidingen"
+
+msgid "section/summary/labels/nextAwards"
+msgstr "Volgende onderscheidingen"
+
+msgid "section/summary/labels/significantAwards"
+msgstr "Waardevolle onderscheidingen"
+
+msgid "section/summary/scores/averageLevel"
+msgstr "Gemiddeld level"
+
+msgid "section/summary/scores/averageRank"
+msgstr "Gemiddelde positie"
+
+msgid "section/summary/scores/avgDamage"
+msgstr "Gemiddelde schade per gevecht"
+
+msgid "section/summary/scores/avgExperience"
+msgstr "Gemiddelde ervaring per gevecht"
+
+msgid "section/summary/scores/coolSigns"
+msgstr "Meesterschapsb.: Tank-aas"
+
+msgid "section/summary/scores/damageDealt"
+msgstr "Schade veroorzaakt"
+
+msgid "section/summary/scores/hits"
+msgstr "Precisie"
+
+msgid "section/summary/scores/maxDestroyed"
+msgstr "Maximum vernietigd in een gevecht"
+
+msgid "section/summary/scores/maxExperience"
+msgstr "Maximale ervaring per gevecht"
+
+msgid "section/summary/scores/personalScore"
+msgstr "Persoonlijke beoordeling"
+
+msgid "section/summary/scores/totalBattles"
+msgstr "Gevechten"
+
+msgid "section/summary/scores/totalWins"
+msgstr "Overwinningen"
+
+msgid "section/summary/title"
+msgstr "Samenvatting"
+
+msgid "section/technique/awards/noAchievements"
+msgstr "Nog geen onderscheidingen ontvangen"
+
+msgid "section/technique/buttonBar/avgExperience"
+msgstr "Gemiddelde XP\nper gevecht"
+
+msgid "section/technique/buttonBar/classiness"
+msgstr "Meesterschap"
+
+msgid "section/technique/buttonBar/totalBattles"
+msgstr "Gevechten"
+
+msgid "section/technique/buttonBar/totalWins"
+msgstr "Overwinningen"
+
+msgid "section/technique/buttonBar/vehicleName"
+msgstr "Naam"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/body"
+msgstr "Bekijk voertuigen in de garage"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/header"
+msgstr "In de garage"
+
+msgid "section/technique/emptyScreenLabel/battleType/all"
+msgstr "Geen voertuigen in de garage die hebben gevochten in Willekeurige en tankcompagnie gevechten."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSolo"
+msgstr "Geen voertuigen in de garage die in Staaljager hebben gevochten."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSquad"
+msgstr "Geen voertuigen in de garage die in Staaljager hebben gevochten."
+
+msgid "section/technique/emptyScreenLabel/battleType/comp7"
+msgstr "Er zijn geen voertuigen die in de Bestorming-modus hebben gestreden."
+
+msgid "section/technique/emptyScreenLabel/battleType/epicRandom"
+msgstr "Geen enkel voertuig in de garage heeft gestreden in de Groots gevecht modus"
+
+msgid "section/technique/emptyScreenLabel/battleType/fallout"
+msgstr "Je hebt geen voertuigen in de garage staan die in de razernij mode hebben gevochten."
+
+msgid "section/technique/emptyScreenLabel/battleType/fortBattles"
+msgstr "Geen voertuigen in de garage die gevochten hebben in Offensieven"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortSorties"
+msgstr "Geen voertuigen in de garage die meegedaan hebben aan Schermutselingen"
+
+msgid "section/technique/emptyScreenLabel/battleType/globalMap"
+msgstr "Geen voertuigen in de garage die hebben gevochten op de wereldkaart."
+
+msgid "section/technique/emptyScreenLabel/battleType/historical"
+msgstr "Geen voertuigen in de garage die hebben gevochten in Historische gevechten."
+
+msgid "section/technique/emptyScreenLabel/battleType/ranked"
+msgstr "Geen voertuigen in de garage die gevochten hebben in Klassementsgevechten"
+
+msgid "section/technique/emptyScreenLabel/battleType/staticTeam"
+msgstr "Geen voertuigen in de garage die hebben meegedaan aan Klassementsgevechten."
+
+msgid "section/technique/emptyScreenLabel/battleType/team"
+msgstr "Geen voertuigen in de garage die in Teamgevechten hebben gevochten."
+
+msgid "section/technique/sort/tooltip/avgDamage/body"
+msgstr "Sorteer op gemiddelde schade per gevecht."
+
+msgid "section/technique/sort/tooltip/avgDamage/header"
+msgstr "Gemiddelde schade"
+
+msgid "section/technique/sort/tooltip/avgFrags/body"
+msgstr "Sorteer op aantal vijandelijke voertuigen vernietigd in een gevecht."
+
+msgid "section/technique/sort/tooltip/avgFrags/header"
+msgstr "Vijandelijke voertuigen vernietigd"
+
+msgid "section/technique/sort/tooltip/avgexp/body"
+msgstr "Sorteer op gemiddelde ervaring per gevecht."
+
+msgid "section/technique/sort/tooltip/avgexp/header"
+msgstr "Gemiddelde ervaring"
+
+msgid "section/technique/sort/tooltip/battlesCount/body"
+msgstr "Sorteer op aantal gevechten."
+
+msgid "section/technique/sort/tooltip/battlesCount/header"
+msgstr "Gevechten"
+
+msgid "section/technique/sort/tooltip/class/body"
+msgstr "Sorteer op voertuigklasse"
+
+msgid "section/technique/sort/tooltip/class/header"
+msgstr "Klasse"
+
+msgid "section/technique/sort/tooltip/lvl/body"
+msgstr "Sorteer op voertuigniveau."
+
+msgid "section/technique/sort/tooltip/lvl/header"
+msgstr "Niveau"
+
+msgid "section/technique/sort/tooltip/marksofmastery/body"
+msgstr "Sorteer op meesterschapsbadges."
+
+msgid "section/technique/sort/tooltip/marksofmastery/header"
+msgstr "Meesterschap"
+
+msgid "section/technique/sort/tooltip/name/body"
+msgstr "Sorteer op voertuignaam."
+
+msgid "section/technique/sort/tooltip/name/header"
+msgstr "Naam"
+
+msgid "section/technique/sort/tooltip/nation/body"
+msgstr "Sorteer op land."
+
+msgid "section/technique/sort/tooltip/nation/header"
+msgstr "Natie"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/body"
+msgstr "Sorteer op elite level"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/header"
+msgstr "Elite systeem"
+
+msgid "section/technique/sort/tooltip/prestigePoints/body"
+msgstr "Sorteer op gemiddeld aantal prestigepunten per gevecht"
+
+msgid "section/technique/sort/tooltip/prestigePoints/header"
+msgstr "Gemiddeld aantal prestigepunten per gevecht"
+
+msgid "section/technique/sort/tooltip/technique/body"
+msgstr "Sorteer op voertuigtype."
+
+msgid "section/technique/sort/tooltip/technique/header"
+msgstr "Type"
+
+msgid "section/technique/sort/tooltip/winRate/body"
+msgstr "Sorteer op aantal overwinningen"
+
+msgid "section/technique/sort/tooltip/winRate/header"
+msgstr "Overwinningen"
+
+msgid "section/technique/sort/tooltip/wins/body"
+msgstr "Sorteer op aantal overwinningen."
+
+msgid "section/technique/sort/tooltip/wins/header"
+msgstr "Overwinningen"
+
+msgid "section/technique/statistics/accuracy"
+msgstr "Treffers"
+
+msgid "section/technique/statistics/assistedStunDamage/shortOther"
+msgstr "Schade aan door de speler verdoofde vijandelijke voertuigen"
+
+msgid "section/technique/statistics/assistedStunDamage/shortSelf"
+msgstr "Schade aan door jou verdoofde vijandelijke voertuigen"
+
+msgid "section/technique/statistics/avgAssistedStunDamage"
+msgstr "Schade veroorzaakt aan door jou verdoofde vijandelijke voertuigen"
+
+msgid "section/technique/statistics/avgDamage"
+msgstr "Schade toegebracht"
+
+msgid "section/technique/statistics/avgDestroyedVehicles"
+msgstr "Vijandelijke voertuigen vernietigd"
+
+msgid "section/technique/statistics/avgDetectedEnemies"
+msgstr "Vijandelijke voertuigen verkend"
+
+msgid "section/technique/statistics/avgExperience"
+msgstr "Ervaring"
+
+msgid "section/technique/statistics/avgReceivedDamage"
+msgstr "Schade ontvangen"
+
+msgid "section/technique/statistics/avgScoutingDamage"
+msgstr "Schade veroorzaakt met hulp van de speler"
+
+msgid "section/technique/statistics/avgStats"
+msgstr "Gemiddelde score per gevecht"
+
+msgid "section/technique/statistics/avgStunNumber"
+msgstr "Aantal verdovingen"
+
+msgid "section/technique/statistics/common"
+msgstr "Algemene parameters"
+
+msgid "section/technique/statistics/damageCoefficient"
+msgstr "Schadeverhouding"
+
+msgid "section/technique/statistics/destructionCoefficient"
+msgstr "Vernietigingsverhouding"
+
+msgid "section/technique/statistics/maxDamage"
+msgstr "Maximale schade per gevecht"
+
+msgid "section/technique/statistics/maxDestroyedVehicles"
+msgstr "Maximum vernietigd in een gevecht"
+
+msgid "section/technique/statistics/maxExperience"
+msgstr "Maximale ervaring per gevecht"
+
+msgid "section/technique/statistics/records"
+msgstr "Record score"
+
+msgid "section/technique/statistics/stunNumber"
+msgstr "Aantal verdovingen"
+
+msgid "section/technique/statistics/survival"
+msgstr "Overleefde gevechten"
+
+msgid "section/technique/statistics/tankingCoefficient"
+msgstr "Pantser-gebruiksefficiëntie"
+
+msgid "section/technique/statistics/totalBattles"
+msgstr "Gevechten"
+
+msgid "section/technique/statistics/totalWins"
+msgstr "Overwinningen"
+
+msgid "section/technique/tabBtn/achievements"
+msgstr "Onderscheidingen"
+
+msgid "section/technique/tabBtn/awards/tooltip/body"
+msgstr "Bekijk onderscheidingen voor geselecteerd voertuig."
+
+msgid "section/technique/tabBtn/awards/tooltip/header"
+msgstr "Onderscheidingen"
+
+msgid "section/technique/tabBtn/statistic"
+msgstr "Statistieken"
+
+msgid "section/technique/tabBtn/statistic/tooltip/body"
+msgstr "Bekijk statistieken voor geselecteerd voertuig."
+
+msgid "section/technique/tabBtn/statistic/tooltip/header"
+msgstr "Statistieken"
+
+msgid "section/technique/title"
+msgstr "Voertuigen"
+
+msgid "section/technique/window/hangarVehiclesLabel"
+msgstr "In de garage"
+
+msgid "tooltip/dropdown/battleType/body"
+msgstr "Zet filter aan om statistieken over gevechtsmodi te zien."
+
+msgid "tooltip/dropdown/battleType/header"
+msgstr "Sorteer op gevechtsmodi"

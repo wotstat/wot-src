@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "Nom"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "Par mois"
+
+msgid "ClanListWindow/table/role"
+msgstr "Grade"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "Par semaine"
+
+msgid "battleQueue/clanPosition"
+msgstr "Position : %(position)s"
+
+msgid "battleQueue/position"
+msgstr "Position :"
+
+msgid "battleQueue/searchEnemy"
+msgstr "En recherche d'un adversaire :"
+
+msgid "battleQueue/waitBattle"
+msgstr "En attente de bataille :"
+
+msgid "battleQueue/yourTeam"
+msgstr "Votre détachement :"
+
+msgid "disconnected/Warning"
+msgstr "Attention !"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "Le Bastion est temporairement indisponible. Réessayez plus tard."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "Le bastion est indisponible en itinérance. Pour accéder au bastion, allez dans votre région."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "Membres du clan"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "Légionnaires"
+
+msgid "fortVehPopover/btnSave"
+msgstr "Enregistrer la sélection (%(count)d)"
+
+msgid "inspire/inspired"
+msgstr "Inspirant"
+
+msgid "inspire/inspiring"
+msgstr "Inspirant"
+
+msgid "mainWindow/maintenance/body"
+msgstr "Nous nous excusons de la gêne occasionnée."
+
+msgid "mainWindow/maintenance/button"
+msgstr "Mise à jour"
+
+msgid "mainWindow/maintenance/header"
+msgstr "Erreur lors du chargement des données"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "Briefing supplémentaire"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "Paiements des batailles"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "Manœuvres militaires"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "Entraînement tactique"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "Effet supplémentaire"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "Demande à l'artillerie d'effectuer des tirs dans la zone sélectionnée en Escarmouches et en Incursions durant une bataille"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "Octroie un bonus aux qualifications principales et à toutes les aptitudes de tout l'équipage de votre véhicule avec Inspirer, ainsi qu'aux équipages des véhicules alliés à proximité, en Escarmouches et en Incursions durant une bataille"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "Une réserve peut être activée avant une bataille"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "Une réserve peut être activée avant une incursion"
+
+msgid "reserves/tooltip/empty"
+msgstr "Vous n'avez pas de réserve à activer"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s dans le Dépôt"
+
+msgid "reserves/tooltip/level"
+msgstr "Rang %(level)s"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "Effet à l'utilisation"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "Peut être activé"
+
+msgid "reserves/tooltip/selected"
+msgstr "Activée"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "Cliquez pour voir la liste des réserves que vous pouvez activer."
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "La réserve ne peut être activée que par le commandant d'un détachement ayant le grade de commandant, commandant en second, officier du personnel ou officier de combat."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "Pas assez de membres du clan dans le détachement : %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "La bataille commence dans %(nextDate)s min"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "L'heure de lancement sera indiquée plus tard"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "La bataille se termine dans %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "Escarmouches disponibles"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "La prochaine bataille commencera le %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "La bataille commence dans %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "La bataille commence aujourd'hui à %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "La bataille commence demain à %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "L'heure de lancement sera indiquée plus tard"
+
+msgid "sortie/introView/title"
+msgstr "Batailles de bastion"
+
+msgid "sortie/listView/enterBtn"
+msgstr "Rejoindre"
+
+msgid "sortie/listView/enterText"
+msgstr "Vous pouvez rejoindre l'équipe en tant que volontaire"
+
+msgid "sortie/listView/notSelected"
+msgstr "Choisissez un détachement depuis la liste sur la gauche\npour voir sa description détaillée."
+
+msgid "sortie/listView/teamMembers"
+msgstr "Places : %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "Véhicules :"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "Légionnaires"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "Formation auto."
+
+msgid "sortie/room/candidates"
+msgstr "Volontaires"
+
+msgid "sortie/room/chat"
+msgstr "Canal de discussion"
+
+msgid "sortie/room/description"
+msgstr "Les détachements créés livrent une bataille avec un clan ennemi sur un territoire neutre. Le rang de véhicule est déterminé par la division choisie."
+
+msgid "sortie/room/fight"
+msgstr "Combattre !"
+
+msgid "sortie/room/inviteFriends"
+msgstr "Inviter des joueurs"
+
+msgid "sortie/room/leaveBtn"
+msgstr "ALLER À LA FORMATION DU DÉTACHEMENT"
+
+msgid "sortie/room/level"
+msgstr "Rang %(level)s"
+
+msgid "sortie/room/members"
+msgstr "Places : %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "Pas prêt"
+
+msgid "sortie/room/ready"
+msgstr "Prêt !"
+
+msgid "sortie/room/title"
+msgstr "Détachement"
+
+msgid "sortie/slot/emptySlot"
+msgstr "Libre"
+
+msgid "sortie/slot/takePlace"
+msgstr "Prendre place"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "Choisissez un véhicule pour entrer en bataille. Les véhicules qui ne sont pas prêts à combattre sont marqués d'un indicateur rouge."
+
+msgid "stronghold/teamHeader"
+msgstr "Membres du détachement"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "Sélectionner les véhicules pour les légionnaires"
+
+msgid "strongholdPopover/header"
+msgstr "Choix des véhicules"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "Chars choisis :"
+
+msgid "strongholdbuilds/direction"
+msgstr "Tête de pont alliée %(direction)s"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "Nord"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "Est"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "Sud"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "West"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "Tête de pont ennemie"
+
+msgid "strongholdbuilds/mapName"
+msgstr "Carte : %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "La carte sera sélectionnée après le lancement de l'incursion"
+
+msgid "strongholdbuilds/point1"
+msgstr "Citadelle"
+
+msgid "strongholdbuilds/point2"
+msgstr "Ligne de réserve"
+
+msgid "strongholdbuilds/point3"
+msgstr "Ligne de front"
+
+msgid "strongholdbuilds/point4"
+msgstr "Ligne de front"
+
+msgid "strongholdbuilds/point5"
+msgstr "Ligne de réserve"
+
+msgid "strongholdbuilds/point6"
+msgstr "Citadelle"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "x%(reward)s pour la première victoire chaque jour en incursions sur cette tête de pont"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "Pour la défense de la citadelle en ayant perdu les deux lignes"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "Pour la défense de la ligne de réserve en ayant perdu la ligne de front"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "Pour la défense des deux lignes sans capturer de ligne ennemie"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "Pour la capture uniquement de la ligne de front"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "Pour la capture des deux lignes sans capturer la citadelle"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "Pour la capture de la citadelle ennemie"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "depuis la réserve Réquisition"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "Décernée après l'incursion"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "Masquer pour les légionnaires"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "Le détachement est visible"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "Afficher pour les légionnaires"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "Le détachement est caché"
+
+msgid "strongholddirection/A"
+msgstr "Nord"
+
+msgid "strongholddirection/B"
+msgstr "Est"
+
+msgid "strongholddirection/C"
+msgstr "Sud"
+
+msgid "strongholddirection/D"
+msgstr "Ouest"
+
+msgid "strongholdinfo/sortie"
+msgstr "Escarmouche en division %(level)s"
+
+msgid "strongholdinfo/stronghold"
+msgstr "Incursion depuis la tête de pont %(direction)s"
+
+msgid "strongholdmap/randomMap"
+msgstr "Carte aléatoire"
+
+msgid "strongholdreserve/boost"
+msgstr "Inspirer"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "Transport de grande capacité"
+
+msgid "strongholdreserve/requisition"
+msgstr "Réquisition"
+
+msgid "strongholdreserve/support"
+msgstr "Frappe d'artillerie"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "En escarmouches et incursions, pour une bataille"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "Pour le résultat d'une incursion"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "Activée au début d'une bataille"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "Activée au début d'une incursion"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "Activée lorsqu'une réserve est utilisée lors d'une bataille"
+
+msgid "strongholdtable/rating"
+msgstr "Classement"
+
+msgid "strongholdtable/roster"
+msgstr "Composition"
+
+msgid "strongholdtable/tech"
+msgstr "Véhicules"
+
+msgid "strongholdtitle/sortie"
+msgstr "Escarmouche"
+
+msgid "strongholdtitle/stronghold"
+msgstr "Incursion depuis la tête de pont %(direction)s"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Frontière{/HEADER}{BODY}Territoire neutre. Le vainqueur attaquera la ligne ennemie à la prochaine bataille. Si une bataille se termine sur une égalité, l'équipe attaquante sera choisie aléatoirement.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "Incursion depuis la tête de pont %(direction)s"
+
+msgid "strongholdtooltips/hours"
+msgstr "h"
+
+msgid "strongholdtooltips/minuts"
+msgstr "min"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "Escarmouche en division %(level)s"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Le type de véhicule assigné automatiquement au légionnaire après avoir cliqué sur le bouton « Combattre »! ».\n\nCliquez pour confirmer ou annuler le type de véhicule sélectionné pour les légionnaires."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "Des légionnaires seront ajoutés automatiquement dans les places libres"

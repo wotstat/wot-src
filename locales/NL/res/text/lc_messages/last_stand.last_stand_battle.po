@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "Energieschot is klaar voor gebruik."
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "Vampierschot is klaar voor gebruik."
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "Verdovingsschot is klaar voor gebruik."
+
+msgid "LS_damageShieldReady"
+msgstr "Energieschild is klaar voor gebruik."
+
+msgid "LS_doubleDamageReady"
+msgstr "Dubbele dosis is klaar voor gebruik."
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "Situationele schade is gereed."
+
+msgid "LS_fastReloadReady"
+msgstr "Snel herladen is klaar voor gebruik."
+
+msgid "LS_healSituationalReady"
+msgstr "Situationele reparaties is gereed."
+
+msgid "LS_invisibilityReady"
+msgstr "Schaduwgenezing is klaar voor gebruik."
+
+msgid "LS_nitroReady"
+msgstr "Turbocompressor is klaar voor gebruik."
+
+msgid "LS_pickupSouls"
+msgstr "Je hebt %(souls)s Mirium item(s) verzameld"
+
+msgid "LS_selfRepairReady"
+msgstr "Noodreparaties is klaar voor gebruik."
+
+msgid "LS_situationalNitroReady"
+msgstr "Situationele mobiliteit is gereed."
+
+msgid "LS_teamRepairKitReady"
+msgstr "Groepsreparatie is klaar voor gebruik."
+
+msgid "LS_teamRepairKitUsed"
+msgstr "%(player)s activeerde Groepsreparatie."
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "Groepsreparatie geactiveerd."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "Let op zone %(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "Verdedig ATLAS!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "VERDEDIG ATLAS"
+
+msgid "arena/marker/move_to_camp"
+msgstr "Op weg naar de zone!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "ATLAS verdedigen"
+
+msgid "arena/phase"
+msgstr "Fase %(current)s van %(total)s"
+
+msgid "arena/wave"
+msgstr "Golf %(current)s van %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Egels op&nbsp;komst!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Alfa Egel op&nbsp;komst!"
+
+msgid "battleHint/clearTheArea"
+msgstr "Veeg het gebied schoon!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "Schiet op! De Zero is vlakbij&nbsp;ATLAS!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "Zero vernietigd!\nResterende vijanden: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "Vijanden te vernietigen: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "data, %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "voertuigen gerepareerd"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "schild geactiveerd"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "vijanden verdoofd"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "%(name)s-obelisk vernietigd!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Regeneratie"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "Barrière"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "Hapering"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "Spawnplekken gedetecteerd! Vijand op komst!"
+
+msgid "battleHint/hunter"
+msgstr "Jagers op&nbsp;komst!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "Golf vernietigd!"
+
+msgid "battleHint/leftToDestroy"
+msgstr "Vijanden nog te vernietigen:"
+
+msgid "battleHint/missing_squad"
+msgstr "Het verloren peloton is op komst!"
+
+msgid "battleHint/newWave"
+msgstr "Golf {current} van {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "Er is een obelisk verschenen!"
+
+msgid "battleHint/stopConvoy"
+msgstr "Stop de Zero!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "Stop de Zero\nvoor hij ATLAS bereikt!"
+
+msgid "battleHint/trapper"
+msgstr "Vernietig de Vallenzetter om te voorkomen&nbsp;dat er verwoestingszones verschijnen."
+
+msgid "battleHint/turret"
+msgstr "De muggen zijn ontwaakt!"
+
+msgid "battleHint/waveFinished"
+msgstr "Golf vernietigd!\nHergroepeer en bereid je voor!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "Hergroepeer en bereid je voor!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "Vijandelijke versterkingen&nbsp;zijn gearriveerd!"
+
+msgid "common/close"
+msgstr "SLUITEN"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "Duur: %(time)s s"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Schade door zone"
+
+msgid "damageLog/static_death_zone"
+msgstr "Schade door zone"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "In brand gezet met Pyrokinese"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "Schade door Energieslag"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "Schade door explosie"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "Schade door Levensroof"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "Situationele schade geactiveerd"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "Situationele reparaties geactiveerd"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "Schade door Energieschot"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "Schade door Vampierschot"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "Schade door Verdovingsschot"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "Module-onkwetsbaarheid"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "Situationele mobiliteit geactiveerd"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "Herstel"
+
+msgid "efficiencyRibbons/repair"
+msgstr "Voertuig gerepareerd"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "Voertuig gerepareerd door"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "Voertuig gerepareerd door geallieerde"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "Geallieerden gerepareerd"
+
+msgid "eventStats/activeWave"
+msgstr "Golf %(num)s"
+
+msgid "eventStats/difficulty"
+msgstr "Moeilijkheidsgraad: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "Laatste verweer: Terra Nord"
+
+msgid "eventStats/globalTask"
+msgstr "Doel: vernietig alle vijandelijke golven"
+
+msgid "eventStats/mission"
+msgstr "Vernietig alle vijandelijke golven"
+
+msgid "eventStats/tableCaption"
+msgstr "Squadleden"
+
+msgid "help/description_0"
+msgstr "Vernietig alle vijandelijke golven om te winnen.\nElke volgende golf wordt de vijand sterker."
+
+msgid "help/description_1"
+msgstr "De juiste combinatie tactische apparaten kan extreem effectief zijn.\nOnthoud: gevechtsbevelen en alle granaattypes kunnen gratis worden gebruikt in de Laatste verweer modus."
+
+msgid "help/description_2"
+msgstr "Bij beschadiging van een obelisk wordt een deel van die schade overgedragen aan vijandelijke voertuigen, terwijl de vernietiging een willekeurige bonus toekent."
+
+msgid "help/description_3"
+msgstr "Bescherm ATLAS tegen de laatste echotank, Zero. Als Zero ATLAS bereikt, zal hij die vernietigen en is het gevecht verloren."
+
+msgid "help/title"
+msgstr "LAATSTE VERWEER: TERRA NORD"
+
+msgid "help/title_0"
+msgstr "VIJANDELIJKE AANVALSGOLVEN"
+
+msgid "help/title_1"
+msgstr "TIPS OM TE OVERLEVEN"
+
+msgid "help/title_2"
+msgstr "GEBRUIK OBELISKEN IN HET GEVECHT"
+
+msgid "help/title_3"
+msgstr "VERDEDIG ATLAS"
+
+msgid "helpScreen/hint/description"
+msgstr "om de regels van de modus te bekijken"
+
+msgid "helpScreen/hint/press"
+msgstr "Druk op"
+
+msgid "hitMarker/useless"
+msgstr "Heeft geen zin!"
+
+msgid "loading/description_0"
+msgstr "Vernietig alle vijandelijke golven om te winnen.\nElke volgende golf wordt de vijand sterker."
+
+msgid "loading/description_1"
+msgstr "De juiste combinatie tactische apparaten kan extreem effectief zijn.\nOnthoud: gevechtsbevelen en alle granaattypes kunnen gratis worden gebruikt in de Laatste verweer modus."
+
+msgid "loading/description_2"
+msgstr "Bij beschadiging van een obelisk wordt een deel van die schade overgedragen aan vijandelijke voertuigen, terwijl de vernietiging een willekeurige bonus toekent."
+
+msgid "loading/description_3"
+msgstr "Bescherm ATLAS tegen de laatste echotank, Zero. Als Zero ATLAS bereikt, zal hij die vernietigen en is het gevecht verloren."
+
+msgid "loading/title"
+msgstr "Laden..."
+
+msgid "loading/title_0"
+msgstr "VIJANDELIJKE AANVALSGOLVEN"
+
+msgid "loading/title_1"
+msgstr "TIPS OM TE OVERLEVEN"
+
+msgid "loading/title_2"
+msgstr "GEBRUIK OBELISKEN IN HET GEVECHT"
+
+msgid "loading/title_3"
+msgstr "VERDEDIG ATLAS"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "[%(name)s] kan niet worden gebruikt: de motor is verwoest."
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "[%(name)s] kan niet worden gebruikt: kanon is beschadigd."
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "Het kanon is geladen."
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "[%(name)s] kan niet worden gebruikt: niet genoeg Mirium om het apparaat te activeren."
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "Voertuig is niet beschadigd."
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "[%(name)s] kan niet worden gebruikt: het voertuig verdrinkt."
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "[%(name)s] kan niet worden gebruikt: het voertuig staat in brand."
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "[%(name)s] kan niet worden gebruikt: het voertuig is omgeslagen."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Bondgenoot %(target)s vernietigd door vijandelijke explosie (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Bondgenoot %(target)s is verongelukt."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Bondgenoot %(target)s vernietigd door de verwoestingszone."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Bondgenoot %(target)s is vernietigd."
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "Als je squad erin slaagt om deze golf te elimineren."
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "JE ZULT RESPAWNEN"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "Je gevecht is afgelopen.\nJe hebt het goed gedaan!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Voertuig vernietigd door de verwoestingszone"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "Voertuig vernietigd door Energieslag"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "Voertuig vernietigd door Pyrokinese"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "Voertuig vernietigd door Levensroof"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "Voertuig vernietigd door een explosie"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "Voertuig verongelukt"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Module [%(device)s] ontploft door schot van speler"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "Voertuig vernietigd door brand"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Voertuig vernietigd. De tijd is om."
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "Voertuig vernietigd door een vijandelijk schot"
+
+msgid "prebattle/description/message"
+msgstr "Doel: vernietig alle vijandelijke golven"
+
+msgid "prebattle/description/title"
+msgstr "Laatste verweer: moeilijkheidsgraad %(difficulty)s"
+
+msgid "prebattle/difficulty/107"
+msgstr "regulier"
+
+msgid "prebattle/difficulty/108"
+msgstr "geavanceerd"
+
+msgid "prebattle/difficulty/109"
+msgstr "Bruut"
+
+msgid "prebattle/waiting/title"
+msgstr "Wachtend op spelers..."
+
+msgid "radialMenu/attention_here"
+msgstr "Verzoek verdediging"
+
+msgid "radialMenu/cancel"
+msgstr "Annuleren"
+
+msgid "radialMenu/confirm"
+msgstr "Begrepen!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "Op weg naar de zone!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "Verdedigen"
+
+msgid "radialMenu/obelisk"
+msgstr "Ik pak de obelisk!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "Vernietig de obelisk!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "Energieschild"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "Terug op het juiste pad..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "Verlaat\nde gevarenzone!"
+
+msgid "teamList/teammates"
+msgstr "Geallieerden"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "Schakel voice-chat uit"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "Schakel voice-chat in"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "Druk in om te praten"

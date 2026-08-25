@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Gevecht toch starten"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Uitrusten!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Tactische apparaten incompleet"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "Je geselecteerde voertuig mist één of meer tactische apparaten. Dit kan je prestatie op het slagveld aanzienlijk beïnvloeden. Toch ten strijde trekken?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Je kunt de vooringestelde evenement-sneltoetsen voor granaten en tactische apparaten aanpassen.\nDeze wijziging is alleen van toepassing op evenementgevechten en niet op andere modi.\nJe kunt de individuele sneltoetsen aanpassen in Menu – Instellingen – Bediening (onder Verbruiksartikelen)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Sneltoetsen voor verbruiksartikelen wijzigen"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s k"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Voltooi deze missie om een unieke \"Laatste verweer: operatie Pandora\" badge te ontvangen:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Epische onderscheiding missie"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Indien onderzocht, wordt de benodigde {EDCB9E_Start}mirium{EDCB9E_End} van alle tactische apparaten met {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End} verminderd."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Miriumefficiëntie"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Indien onderzocht, wordt de {EDCB9E_Start}werkingsduur van tactische apparaten{EDCB9E_End} met {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End} verlengd."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Effectieve duur apparaat"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Indien onderzocht, wordt de {EDCB9E_Start}effectieve straal van tactische apparaten{EDCB9E_End} met {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End} vergroot."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Effectieve straal apparaat"
+
+msgid "booster/booster_heal/description"
+msgstr "Indien onderzocht, worden alle {EDCB9E_Start}genezingseffecten{EDCB9E_End} op het voertuig met {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End} vergroot."
+
+msgid "booster/booster_heal/name"
+msgstr "Genezingseffecten"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Indien onderzocht, wordt de hoeveelheid {EDCB9E_Start}overgedragen schade van obelisken{EDCB9E_End} aan vijandelijke voertuigen met {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End} verhoogd."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Overgedragen obeliskschade"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Indien onderzocht, wordt de {EDCB9E_Start}opraapstraal van mirium{EDCB9E_End} van vijanden met {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End} verhoogd."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Opraapstraal mirium"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Indien onderzocht, wordt de {EDCB9E_Start}hoeveelheid verzamelde mirium{EDCB9E_End} van vernietigde voertuigen met {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End} verhoogd."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Meer Mirium"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Indien onderzocht, wordt de {EDCB9E_Start}hoeveelheid mirium{EDCB9E_End} voor het vernietigen van een golf met {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End} verhoogd."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Mirium per golf"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Indien onderzocht, wordt de {EDCB9E_Start}hoeveelheid herstelde mirium{EDCB9E_End} bij een respawn met {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End} verhoogd."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Mirium bij respawn"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Indien onderzocht, wordt de {EDCB9E_Start}maximale miriumcapaciteit van het voertuig{EDCB9E_End} met {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End} verhoogd."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Miriumcapaciteit"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "VERDEDIGERSBUNDEL"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Sleutels gekocht"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "De mogelijkheid om ×5 XP te verdienen vanaf de tweede overwinning van de dag met elk voertuig."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Missie voor ×5 verdiende XP in een gevecht"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Configureer de weergave van voertuigen op type, natie en andere parameters."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Filter op parameters"
+
+msgid "common/back"
+msgstr "TERUG"
+
+msgid "common/close"
+msgstr "SLUITEN"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "NAAR HET EVENEMENT"
+
+msgid "common/toRewardPath"
+msgstr "NAAR PROGRESSIE"
+
+msgid "common/yes"
+msgstr "Begrepen!"
+
+msgid "difficult/daily"
+msgstr "DAGELIJKSE SLEUTELMISSIE ONTGRENDELD"
+
+msgid "difficult/disabled/body"
+msgstr "Je zit in een peloton. Alleen de commandant kan de moeilijkheidsgraad veranderen."
+
+msgid "difficult/disabled/header"
+msgstr "Moeilijkheid veranderen onbeschikbaar"
+
+msgid "difficult/level_1"
+msgstr "Regulier"
+
+msgid "difficult/level_2"
+msgstr "Geavanceerd"
+
+msgid "difficult/level_3"
+msgstr "Bruut"
+
+msgid "difficult/new"
+msgstr "NIEUW"
+
+msgid "difficult/searching/body"
+msgstr "Onbeschikbaar tijdens zoeken."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Vijanden hebben minder levenspunten en zwakker pantser. Standaard hoeveelheid data per gevecht."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Vijanden hebben sterker pantser. Data per gevecht is verhoogd met {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Er zijn meer vijanden met sterker pantser. Data per gevecht is verhoogd met {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Beloningen wanneer je de laatste golf voor het eerst vernietigt:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Moeilijkheidsgraad regulier"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Moeilijkheidsgraad geavanceerd"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Moeilijkheidsgraad bruut"
+
+msgid "difficult/tooltip/locked"
+msgstr "Moeilijkheidsgraad vergrendeld"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Voltooi eerst moeilijkheidsgraad regulier om deze moeilijkheidsgraad te ontgrendelen."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Voltooi eerst moeilijkheidsgraad geavanceerd om deze moeilijkheidsgraad te ontgrendelen."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Moeilijkheidsgraad onbeschikbaar"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Moeilijkheidsgraad geselecteerd"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Golven vernietigd: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "REGULIER"
+
+msgid "difficult/uppercase/level_2"
+msgstr "GEAVANCEERD"
+
+msgid "difficult/uppercase/level_3"
+msgstr "BRUUT"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Vijanden hebben sterker pantser. Meer credits en ×{{modifier}} data per gevecht."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Meer vijanden met sterker pantser. Meer credits en ×{{modifier}} data per gevecht."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Vecht en versla golven vijanden, en laat zien hoe goed je bent door de top van het klassement te bereiken. Unieke beloningen liggen in het verschiet."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "MOEILIJKHEIDSGRAAD GEAVANCEERD"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "MOEILIJKHEIDSGRAAD BRUUT"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "LAATSTE VERWEER MODUS"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "GEAVANCEERD"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "BRUUT"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "'LAATSTE VERWEER'"
+
+msgid "difficultyWindow/rewards"
+msgstr "Beloningen bij voltooiing:"
+
+msgid "difficultyWindow/title"
+msgstr "BESCHIKBAAR"
+
+msgid "hangar/exit"
+msgstr "VERLAAT EVENEMENT"
+
+msgid "hangar/narration"
+msgstr "Verhaal"
+
+msgid "hangar/tooltip/about"
+msgstr "Leer meer over het \"Laatste verweer: Terra Nord\" evenement."
+
+msgid "hangar/tooltip/narration"
+msgstr "Leer meer over het verhaal van het evenement."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "TACTISCHE APPARATEN"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "CONFIGURATIE"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Laatste verweer"
+
+msgid "iconButton/comparison/default"
+msgstr "Voertuigvergelijking"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Voertuigvergelijking is onbeschikbaar"
+
+msgid "iconButton/preview/default"
+msgstr "Voorvertoning voertuig"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Voorvertoning voertuig is onbeschikbaar"
+
+msgid "keyCard/name"
+msgstr "Ontcijferingssleutels"
+
+msgid "meta/btn/decrypt"
+msgstr "ONTCIJFEREN"
+
+msgid "meta/btn/skip"
+msgstr "OVERSLAAN"
+
+msgid "meta/btn/view"
+msgstr "BEKIJKEN"
+
+msgid "meta/receive/description"
+msgstr "Verzamel %(keys) / %(decrypt) %(icon) \nom dit dossier te ontcijferen"
+
+msgid "metaIntro/description/fight"
+msgstr "Speel evenementgevechten en verdien data om door de progressie te vorderen."
+
+msgid "metaIntro/description/progress"
+msgstr "Verzamel data om voertuigupgrades te onderzoeken en grotere uitdagingen aan te gaan."
+
+msgid "metaIntro/description/reward"
+msgstr "Voltooi progressiestadia om speciale evenementbeloningen te ontvangen. Bekijk het beloningspad voor meer informatie."
+
+msgid "metaIntro/header/fight"
+msgstr "Evenementgevechten"
+
+msgid "metaIntro/header/progress"
+msgstr "Upgrades"
+
+msgid "metaIntro/header/reward"
+msgstr "Unieke beloningen"
+
+msgid "metaIntro/title"
+msgstr "PROGRESSIE"
+
+msgid "missionWidget/complete"
+msgstr "Missie voltooid.\nKom morgen terug."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Voltooi de huidige dagelijkse missie die elke 24 uur beschikbaar is om de beloning te ontvangen. Missie van vandaag:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Dagelijkse missie"
+
+msgid "narration/actions/voiceover"
+msgstr "Voice-over"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}UITERST GEHEIM{{/}}{{titleParagraph}}{{@ class $highlightText}}SECTOR: N-07 (\"Aurora\" perimeter){{/}}{{pargraphStart}}Onze voorspelling was juist. Stationswaarnemers registreerden de nadering van de anomalie 11 dagen voor de gebeurtenis. Voor het eerst zagen we het aankomen.{{pargraphStart}}Tijdens de kalmte voor de storm werd de productie van ATLAS-complexen gestandaardiseerd. Nieuwe modules worden sneller geassembleerd en nauwkeuriger gekalibreerd. We hebben trainingen uitgevoerd, formaties geoefend en reserveteams voorbereid. Volledige paraatheid.{{pargraphStart}}Maar de anomalie had haar eigen plannen.{{pargraphStart}}De Trechter is niet in de voorspelde sector geopend. Hij verscheen hier, in een afgelegen noordelijke regio, ver van de infrastructuur. Het is niet duidelijk waarom. Geen van de modellen had dit gebied aangeduid. De noodverplaatsing werd meteen gestart, maar het terrein en de afstand werken niet in ons voordeel. Sommige voertuigen en teams zullen later aankomen.{{pargraphStart}}Elk ATLAS-complex dat we hebben geleverd is nu onmisbaar.{{pargraphStart}}Ditmaal stonden we klaar voor de strijd. Maar voor strijd op een andere locatie.{{pargraphStart}}HANDTEKENING: CURATOR (PROJECT M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Analytisch memo 27/C \"SELECTIE VAN INVASIELOCATIE\"{{/}}{{titleParagraph}}Voor intern gebruik. \"Vertrouwelijk\" stempel.{{pargraphStart}}Ik stel een vraag die ik moet beantwoorden, maar dat kan ik niet: waarom hier?{{pargraphStart}}Deze regio is niet van strategisch belang voor de Trechter. Hier is niks. Geen infrastructuur, geen dorpen. Er staat alleen een niet-operationele militaire basis op het eiland. Echotanks kunnen de zee niet oversteken, dus waarom deze locatie veroveren vanwaar ze niet kunnen aanvallen?{{pargraphStart}}Ik heb de operationele geschiedenis van de regio opgevraagd. Het antwoord bevatte veel weggelakte tekst. Hele secties waren onleesbaar. Een tweede verzoek kwam terug met het bericht \"Verboden toegang door de autoriteit van {{@ class $highlightSecondaryText}}[GEGEVENS VERWIJDERD]{{/}}.\" Ik, het hoofd van de onderzoeksafdeling, wiens aanbevelingen de verdedigingsstrategie van deze sector bepalen, krijg geen informatie over dit gebied!{{pargraphStart}}Het volgende kan ik afleiden uit de velddata: het gedrag van de Trechter komt niet overeen met wat we in sector R-22 hebben waargenomen. Er zijn nieuwe soorten echotanks verschenen die we nog niet eerder zijn tegengekomen. Qua functie komen ze overeen met onze tankjagers en ze zijn uiterst effectief op dit terrein. De tegenstander heeft van onze tactieken geleerd en maatregelen genomen. Nu moeten wij ons aanpassen.{{pargraphStart}}Misschien heeft het deze plek nodig. Of misschien wat eronder ligt.{{pargraphStart}}Ik weet het niet. En het zit me dwars dat iemand het wel weet, maar niks zegt.{{pargraphStart}}HANDTEKENING: CURATOR (PROJECT M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}CURATORS PERSOONLIJK DOSSIER{{/}}{{pargraphStart}}Ik heb mijn hypotheses geëvalueerd. Alle drie.{{pargraphStart}}  1. De anomalie wil ons vernietigen. {{pargraphStart}}  2. De anomalie experimenteert, onderzoekt onze tactieken, bestudeert onze reacties, past zich aan en leert.{{pargraphStart}}  3. De anomalie oefent. Elke golf is een oefening van nieuwe tactieken; elk gevecht is oefenen in het veld.{{pargraphStart}}In al deze hypotheses neem ik aan dat wij het doelwit zijn van deze invasie.{{pargraphStart}}Maar wat als dat niet zo is?{{pargraphStart}}Wat als de anomalie wat anders doet, en wij daarbij in de weg staan? Als een overspoeld mierennest tijdens het aanleggen van een weg. De bouwer voert geen oorlog met de mieren; ze worden simpelweg niet opgemerkt.{{pargraphStart}}Een vijand die je wilt vernietigen, kun je stoppen. Je kunt met hem onderhandelen. Maar iets dat je bestaan niet heeft opgemerkt, kun je niet bang maken of verschalken. Het kan niet worden gestopt, want het hield nooit rekening met jou.{{pargraphStart}}Ik denk dat we al die tijd de verkeerde vraag hebben gesteld. We moeten niet vragen waarom het ons aanvalt, maar of het ons wel opmerkt.{{pargraphStart}}HANDTEKENING: CURATOR (PROJECT M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}EINDVERSLAG{{/}}{{titleParagraph}}{{@ class $highlightText}}STATUS: OPENBAAR (GEDEELTELIJK){{/}}{{pargraphStart}}Om 03:47 stortte de Trechter in. De anomalie is niet meer actief en de sector is vrij.{{pargraphStart}}In de laatste paar seconden voor de ineenstorting registreerde ATLAS-meters een energiepiek die hoger was dan alle eerdere metingen. De bemanningen zagen een korte fysieke manifestatie in het midden van de anomalie, die zo'n 12 seconden duurde. Daarna sloot de Trechter.{{pargraphStart}}Officiële verklaring: Het incident is voorbij. Het gebied is met succes verdedigd. De quarantaine in de sector is opgeheven.{{pargraphStart}}{{@ class $highlightText}}CURATORS PERSOONLIJKE NOTITIE (alleen voor speciale reserves){{/}}{{pargraphStart}}We hebben niet gewonnen. Het eindigde.{{pargraphStart}}Dit was geen invasie. Het was een dekmantel. Een beschermende perimeter rond wat zich seconden voor de ineenstorting in het midden van de Trechter manifesteerde.{{pargraphStart}}Er verschenen tientallen obelisken. We weten nog steeds niet wat ze deden. ATLAS heeft alle parameters geregistreerd, maar het kost tijd om dit te interpreteren. Eén ding weten we vrijwel zeker: de anomalie heeft een soort proces voltooid.{{pargraphStart}}Wat het ook deed, we moeten ons voorbereiden op de volgende aanval. We hebben nu genoeg data. Onze ingenieurs analyseren de opnames al en eerlijk gezegd heb ik ze nog nooit zo enthousiast gezien. Ze denken dat we onze voertuigen aanzienlijk kunnen versterken. Dat moeten we doen voordat de Trechter terugkeert.{{pargraphStart}}Ik blijf aan één ding denken: als dit hier gebeurde en zo kort duurde, hoe vaak is het dan eerder gebeurd? Op plekken waar geen ATLAS was en niemand die het zag gebeuren...{{pargraphStart}}HANDTEKENING: CURATOR (PROJECT M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. We stonden klaar"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Waarom hier?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. De verkeerde vraag"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Het eindigde"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Voltooi moeilijkheidsgraad regulier om door te gaan naar het volgende deel van het verhaal."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Voltooi moeilijkheidsgraad geavanceerd om door te gaan naar het volgende deel van het verhaal."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Voltooi moeilijkheidsgraad bruut om door te gaan naar het laatste deel van het verhaal."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Volgende verhaal"
+
+msgid "preBattle/leave"
+msgstr "Gevecht verlaten"
+
+msgid "preBattle/searching"
+msgstr "OP ZOEK NAAR GEALLIEERDEN..."
+
+msgid "preBattle/tip"
+msgstr "Duurt het te lang om een team te vinden? Probeer dan een andere moeilijkheidsgraad."
+
+msgid "preBattle/uppercase/leave"
+msgstr "GEVECHT VERLATEN"
+
+msgid "promoWindow/header"
+msgstr "SPEEL LAATSTE VERWEER"
+
+msgid "promoWindow/subheader"
+msgstr "Ontdek van {dateRange} het nieuwe hoofdstuk van de Laatste verweer PvE-spelmodus.\nVerdien een set thematische {cream_open}3D-attachments{cream_close} van het evenement, experimentele uitrusting en andere exclusieve beloningen."
+
+msgid "questCard/allCompleted"
+msgstr "Alle dagelijkse missies zijn voltooid"
+
+msgid "questCard/completed"
+msgstr "Dagelijkse missie voltooid.\nKom morgen terug."
+
+msgid "reward/rest"
+msgstr "En nog %(count)s"
+
+msgid "rewardPath/about"
+msgstr "OVER DOELSTELLINGEN"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Leer meer over de evenementprogressie."
+
+msgid "rewardPath/boostTitle"
+msgstr "Versnel je voortgang en verdien meer data {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Bekijk in de winkel"
+
+msgid "rewardPath/completed"
+msgstr "Alle data en beloningen zijn ontvangen"
+
+msgid "rewardPath/completedTitle"
+msgstr "Bezoek de winkel voor unieke thema-aanpassingselementen"
+
+msgid "rewardPath/intro"
+msgstr "INTRODUCTIE"
+
+msgid "rewardPath/introTooltip"
+msgstr "Bekijk de introductievideo."
+
+msgid "rewardPath/progress"
+msgstr "Data ontvangen in STADIUM {artefactIndex}: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "PROGRESSIE"
+
+msgid "rewardPathCard/completed"
+msgstr "Voltooid"
+
+msgid "rewardPathCard/name"
+msgstr "Beloningspad"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Evenementbundels"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Annuleren"
+
+msgid "squad/goToAnother/message"
+msgstr "Het peloton zal worden opgeheven."
+
+msgid "squad/goToAnother/submit"
+msgstr "Verlaten"
+
+msgid "squad/goToAnother/title"
+msgstr "Het \"Laatste verweer: Terra Nord\" evenement verlaten?"
+
+msgid "squad/leave/cancel"
+msgstr "Annuleren"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Het peloton zal worden opgeheven."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Begrepen!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Het \"Laatste verweer: Terra Nord\" evenement is afgelopen"
+
+msgid "squad/leave/message"
+msgstr "Het peloton zal worden opgeheven."
+
+msgid "squad/leave/submit"
+msgstr "Verlaten"
+
+msgid "squad/leave/title"
+msgstr "Het \"Laatste verweer: Terra Nord\" peloton verlaten?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Doorgaan"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Je zit in het peloton en bent gevechtsklaar."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Je kunt het peloton niet verlaten!"
+
+msgid "stageReward/rewards/received"
+msgstr "Ook ontvangen:"
+
+msgid "stageReward/special/header"
+msgstr "MOEILIJKHEIDSGRAAD BRUUT VOLTOOID!"
+
+msgid "stageReward/special/subheader"
+msgstr "Speciale beloning ontvangen"
+
+msgid "stageReward/stage/header"
+msgstr "BELONINGEN ONTVANGEN"
+
+msgid "stageReward/stage/subheader"
+msgstr "Laatste verweer: stadium {{number}} voltooid"
+
+msgid "stageReward/stageFinal/header"
+msgstr "ALLE BELONINGEN ZIJN ONTVANGEN"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Laatste verweer: eindstadium voltooid"

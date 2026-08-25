@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "closeButtonLabel"
+msgstr "ЗАКРИТИ"
+
+msgid "featureName"
+msgstr "ПОВТОРИ"
+
+msgid "filter/apply"
+msgstr "Застосувати фільтр"
+
+msgid "filter/group/nation/title"
+msgstr "Нація"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Рівень"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Рівень"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Спеціалізація"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Тип техніки"
+
+msgid "filter/reset"
+msgstr "Скинути фільтр"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Показати/приховати членів екіпажу цієї нації."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Показати/приховати образи цієї нації."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Показати/приховати техніку цієї нації."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Показати/приховати техніку цього типу."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "САУ"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Важкі танки"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Легкі танки"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Середні танки"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Не знайдено техніки, що задовольняє\nумовам пошуку"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Упорядкувати за назвою машин."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Назва"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Упорядкувати за рівнем техніки."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Рівень"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Упорядкувати за типом техніки."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Тип"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Назва"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Натисніть, щоб застосувати фільтр."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Застосувати обрані фільтри"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Натисніть, щоб скинути фільтр."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Скинути всі фільтри"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Показати лише повтори боїв під час прайм-тайму"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "За останній день"
+msgstr[1] "За останні %(count)s дні"
+msgstr[2] "За останні %(count)s днів"
+
+msgid "filterPopover/title"
+msgstr "Фільтр повторів"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Налаштування фільтра повторів за типом, рівнем, нацією техніки тощо."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Фільтр за параметрами"
+
+msgid "findReplay/buttonText/find"
+msgstr "Знайти повтор"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Очистити поле"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Дивитися повтор!"
+
+msgid "findReplay/errorMessage"
+msgstr "Нічого не знайдено. Будь ласка, змініть пошуковий запит"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Введіть ARENA_ID тут..."
+
+msgid "findReplay/successMessage"
+msgstr "ШІ знайшов повтор, який ви шукали! Приємного перегляду"
+
+msgid "page/heading/bestReplays"
+msgstr "НАЙКРАЩІ ПОВТОРИ"
+
+msgid "page/heading/findReplay"
+msgstr "ЗНАЙТИ ПОВТОР (ДЛЯ РОЗРОБНИКІВ)"
+
+msgid "page/heading/myReplays"
+msgstr "МОЇ ПОВТОРИ"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "У цьому розділі міститься інформація про найкращі повтори всіх гравців WoT"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Цей розділ призначений для пошуку повтору за певними параметрами"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "У цьому розділі міститься інформація про ВАШІ найкращі повтори"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "Найкращі повтори"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Знайти повтор"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "Мої повтори"
+
+msgid "statsParam/damageAssisted"
+msgstr "Топ-1 за допомогою в знищенні"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Топ-1 за заблокованою шкодою"
+
+msgid "statsParam/damageDealt"
+msgstr "Топ-1 за завданою шкодою"
+
+msgid "statsParam/earnedXp"
+msgstr "Топ-1 за здобутим досвідом"
+
+msgid "statsParam/kills"
+msgstr "Топ-1 за знищеною технікою"
+
+msgid "table/error/buttonText"
+msgstr "Оновити"
+
+msgid "table/error/description"
+msgstr "Вибачте за тимчасові незручності, спробуйте оновити сторінку пізніше."
+
+msgid "table/error/title"
+msgstr "Помилка завантаження даних"
+
+msgid "table/header/damageAssisted"
+msgstr "Допомога"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Заблокована шкода"
+
+msgid "table/header/damageDealt"
+msgstr "Шкода"
+
+msgid "table/header/date"
+msgstr "Дата"
+
+msgid "table/header/earnedXp"
+msgstr "Здобутий досвід"
+
+msgid "table/header/kills"
+msgstr "Кількість знищеної техніки"
+
+msgid "table/header/map"
+msgstr "Мапа"
+
+msgid "table/header/marksOfMastery"
+msgstr "Знаки класності"
+
+msgid "table/header/player"
+msgstr "Ім’я гравця"
+
+msgid "table/header/vehicle"
+msgstr "Машина"
+
+msgid "table/noRecords/buttonText"
+msgstr "Скинути фільтр"
+
+msgid "table/noRecords/title"
+msgstr "Нічого не знайдено. Будь ласка, змініть або скиньте налаштування фільтра"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Натисніть, щоб скинути фільтр."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Скинути всі фільтри"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Кількість шкоди, завданої за допомогою гравця в цьому повторі"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Допомога"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Кількість шкоди, заблокованої гравцем у цьому повторі"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Шкода, заблокована бронею"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Кількість шкоди, завданої гравцем у цьому повторі"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Завдана шкода"
+
+msgid "table/tooltip/date/body"
+msgstr "Дата запису повтору."
+
+msgid "table/tooltip/date/header"
+msgstr "Дата повтору"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Кількість досвіду, здобутого гравцем у цьому повторі"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Здобутий досвід"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Епічні медалі, здобуті гравцем у цьому повторі"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Епічні медалі"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Натисніть, щоб додати цей повтор до вибраних."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Вибране"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Натисніть, щоб видалити цей повтор із вибраних."
+
+msgid "table/tooltip/kills/body"
+msgstr "Кількість техніки, знищеної гравцем у цьому повторі"
+
+msgid "table/tooltip/kills/header"
+msgstr "Знищення"
+
+msgid "table/tooltip/map/body"
+msgstr "Мапа повтору."
+
+msgid "table/tooltip/map/header"
+msgstr "Мапа"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Важливі відзнаки, здобуті гравцем у цьому повторі"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Знаки класності"
+
+msgid "table/tooltip/player/body"
+msgstr "Ім’я гравця з повтору."
+
+msgid "table/tooltip/player/header"
+msgstr "Ім’я гравця"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Машина гравця, на якій було записано повтор."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Машина"
+
+msgid "tableInfo/amount"
+msgstr "Показано повторів: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Фільтр"
+
+msgid "waitingSpinner/message"
+msgstr "Завантажуємо вміст..."

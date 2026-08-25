@@ -1,0 +1,53 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "mode/comp7/battlePassTooltip/body"
+msgstr "Při bojování s vozidly X. úrovně v {whiteSpanish_open}Náporu{whiteSpanish_close} získáte body, které vám umožní pokročit v postupu Battle Passem."
+
+msgid "mode/comp7/battlePassTooltip/header"
+msgstr "Body Battle Passu"
+
+msgid "mode/comp7/calendarTooltip"
+msgstr "Akce skončí %(date)s"
+
+msgid "mode/comp7/description"
+msgstr "Soutěžní režim: 7 proti 7 %(parSecondary_open)sI%(parSecondary_close)s X&nbsp;. úroveň"
+
+msgid "mode/comp7/progress"
+msgstr "%(score)s/%(scoreToNextDivision)s"
+
+msgid "mode/comp7/seasonEnd/first"
+msgstr "Sezóna azurového Draka skončila"
+
+msgid "mode/comp7/seasonEnd/second"
+msgstr "Sezóna karmínového Draka skončila"
+
+msgid "mode/comp7/seasonEnd/third"
+msgstr "Sezóna nefritového Draka skončila"
+
+msgid "mode/comp7/seasonStart/first"
+msgstr "Sezóna azurového Draka začne %(date)s"
+
+msgid "mode/comp7/seasonStart/second"
+msgstr "Sezóna karmínového Draka začne %(date)s"
+
+msgid "mode/comp7/seasonStart/third"
+msgstr "Sezóna nefritového Draka začne %(date)s"
+
+msgid "mode/comp7/warning"
+msgstr "Neaktivita hodnosti: %(count)s"
+
+msgid "mode/comp7/widgetDescription/qualification"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Pro dokončení kvalifikace\nodehrajte %(maxBattlesCount)s bitvu."
+msgstr[1] "Pro dokončení kvalifikace\nodehrajte %(maxBattlesCount)s bitvy."
+msgstr[2] "Pro dokončení kvalifikace\nodehrajte %(maxBattlesCount)s bitev."
+
+msgid "mode/comp7/widgetDescription/status"
+msgstr "%(rank)s\n%(division)s"
+
+msgid "mode/comp7/yearEnd"
+msgstr "Rok Draka skončil"

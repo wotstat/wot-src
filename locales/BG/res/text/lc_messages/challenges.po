@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Също така получени:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Тази поредица от мисии може да се преиграе."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Тъй вярно!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Затвори"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Покажи в Парка"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Повторение"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Към Ужас"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "Танков премиум акаунт"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Премиум машина"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Машина под наем"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "и стил \"{{styleName}}\""
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) ден"
+msgstr[1] "%(day) дни"
+msgstr[2] "%(day) дни"
+
+msgid "awards_view/title"
+msgstr "УЖАС Е ЗАВЪРШЕН!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Мисия за ×5 опит на битка"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Фрагмент от чертеж: (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Универсален фрагмент от чертеж"
+
+msgid "bonuses/bpcoin"
+msgstr "Жетон за Боен пропуск"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Мисия за ×3 опит на екипажа"
+
+msgid "bonuses/description/attachments_set"
+msgstr "Набор триизмерни приставки"
+
+msgid "bonuses/description/booster"
+msgstr "Личен резерв"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Наградно оборудване"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Облик на екипажа"
+
+msgid "bonuses/description/directive"
+msgstr "Директива"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Експериментално оборудване"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Усъвършенствано оборудване"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "и стил: \"%(styleName)s\""
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Стандартно оборудване"
+
+msgid "bonuses/description/style"
+msgstr "Двуизмерен стил"
+
+msgid "bonuses/description/style_3d"
+msgstr "Триизмерен стил"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Жена член на екипаж"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Набор"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Член на екипажа"
+
+msgid "condition/achievement"
+msgstr "Спечелете наградата %(achievement)s"
+
+msgid "condition/achievement/title"
+msgstr "Герои на битката"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Нанесете и помогнете при нанасянето на общо %(goal)s точки поражения"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Нанесете, получете и блокирайте общо %(goal)s точки поражения"
+
+msgid "condition/aggregated/title"
+msgstr "Комплексно условие"
+
+msgid "condition/classes/AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "condition/classes/SPG"
+msgstr "САУ"
+
+msgid "condition/classes/heavyTank"
+msgstr "Тежък танк"
+
+msgid "condition/classes/lightTank"
+msgstr "Лек танк"
+
+msgid "condition/classes/mediumTank"
+msgstr "Среден танк"
+
+msgid "condition/critsCount"
+msgstr "Нанесете %(goal)s критични попадения по вътрешни или външни модули на вражески машини"
+
+msgid "condition/critsCount/title"
+msgstr "Обездвижване"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Блокирайте %(goal)s точки поражения"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Блокирайте %(goal)s пъти поражения повече от точките живот на вашата машина"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Блокиране"
+
+msgid "condition/damageDealt"
+msgstr "Нанесете %(goal)s точки поражения на вражески машини"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Нанесете %(goal)s пъти поражения повече от точките живот на вашата машина"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Уцелете вражески машини от разстояние %(distance)s m или по-малко %(goal)s пъти"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Уцелете вражески машини от разстояние %(distance)s m или повече %(goal)s пъти"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Нанесете поражения на вражески машини чрез таран %(goal)s пъти"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Уцелете вражески машини в обзора на машината ви %(goal)s пъти"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Нанесете %(goal)s точки поражения в първите %(timeLimit)s минути от битката"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Нанесете %(goal)s точки поражения на вражески машини от разстояние %(distance)s m или по-малко"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Нанесете %(goal)s точки поражения на вражески машини от разстояние %(distance)s m или повече"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Нанесете %(goal)s точки поражения чрез таран"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Таран"
+
+msgid "condition/damageDealt/title"
+msgstr "Поражения"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Нанесете %(goal)s точки поражения на неоткрити вражески машини"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Нанесете %(goal)s точки поражения на вражески машини в рамките на обзора на машината ви"
+
+msgid "condition/kills"
+msgstr "Унищожете %(goal)s вражески машини"
+
+msgid "condition/kills/classes"
+msgstr "Унищожете %(goal)s вражески %(vehicleClass)s"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Унищожете %(goal)s вражески машини от %(classCount)s различни вида"
+
+msgid "condition/kills/title"
+msgstr "Унищожи"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Унищожете %(goal)s вражески машини без да получите никакви поражения"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Унищожете %(goal)s вражески машини, оставайки неоткрити"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Нанесете %(goal)s%% от общото количество поражения, нанесени от вашия отбор."
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Поражения"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Пробийте вражеска броня %(goal)s пъти"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Бронебойност"
+
+msgid "condition/spotted"
+msgstr "Открийте %(goal)s вражески машини"
+
+msgid "condition/spotted/title"
+msgstr "Открий"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Открийте %(goal)s вражески машини, оставайки неоткрит(а)"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Открий"
+
+msgid "condition/top/damageDealt"
+msgstr "Бъдете сред топ %(rank)s играчи от вашия отбор по нанесени поражения"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Бъдете сред топ %(rank)s играчи от двата отбора по нанесени поражения"
+
+msgid "condition/top/title"
+msgstr "Топ играч"
+
+msgid "condition/top/xp"
+msgstr "Бъдете сред топ %(rank)s играчи от вашия отбор по спечелен опит"
+
+msgid "condition/unknown"
+msgstr "Намиране на най-подходящата мисия..."
+
+msgid "condition/unknown/title"
+msgstr "Изчакване"
+
+msgid "postbattle/name"
+msgstr "УЖАС: "

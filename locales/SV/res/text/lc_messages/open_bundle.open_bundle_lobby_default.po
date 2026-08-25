@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Svar: Ja!"
+
+msgid "attachments_preview/description"
+msgstr "3D-tillbehörsset"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Episkt 3D-tillbehör"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Legendariskt 3D-tillbehör"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Sällsynt 3D-tillbehör"
+
+msgid "bundle/name"
+msgstr "Hemliga marknaden"
+
+msgid "bundle/name_uppercased"
+msgstr "HEMLIGA MARKNADEN"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Avbryt"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Köp"
+
+msgid "confirmation/description"
+msgstr "Bekräfta för att få obligationer och en ny cellbelöning."
+
+msgid "confirmation/purchase"
+msgstr "Köp för {{price}}?"
+
+msgid "entryPoint/button"
+msgstr "Till evenemang"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} är här. Kolla in!"
+
+msgid "intro/cards/description/c_1"
+msgstr "När du köper obligationer under {{eventName}} får du en belöning från en av de oöppnade cellerna som premie. Celler innehåller värdefullt spelinnehåll – inklusive evenemangets huvudbelöning: en Premiumvagn."
+
+msgid "intro/cards/description/c_2"
+msgstr "Belöningar delas ut i slumpvis ordning. Varje oöppnad cell har sin egen sannolikhet att väljas och alla sannolikheter sammanräknade blir totalt 100%. När en cell öppnas kan den inte öppnas igen och chansen att få övriga belöningar ökar."
+
+msgid "intro/cards/description/c_3"
+msgstr "Varje steg kostar en viss mängd guld. Både antalet mottagna obligationer och stegpriset förändras efter hand."
+
+msgid "intro/cards/link"
+msgstr "Visa villkor och priser för varje steg på {{@ class 'linkPart'}}spelportalen.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Köper obligationer"
+
+msgid "intro/cards/title/c_2"
+msgstr "Celler och sannolikheter"
+
+msgid "intro/cards/title/c_3"
+msgstr "Stegpriser"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "DIN BELÖNING VÄNTAR"
+
+msgid "main/alt/description"
+msgstr "Visa sannolikhet"
+
+msgid "main/alt/tooltip/body"
+msgstr "Tryck Alt för att se sannolikheten att få varje cell."
+
+msgid "main/alt/tooltip/header"
+msgstr "Visa sannolikhet"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "GRATTIS! \n DU HAR FÅTT ALLA BELÖNINGAR"
+
+msgid "main/footer/button"
+msgstr "Köp"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}Belöning från en cell"
+
+msgid "main/footer/receive"
+msgstr "Du har fått: {{item}}"
+
+msgid "main/header/description"
+msgstr "Delta i evenemanget från {{startDate}} till {{endDate}} och ta hem belöningar!"
+
+msgid "main/multi"
+msgstr "{{count}} st"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "{{count}} st"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Gå till anpassning"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Gå till stil"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Gå till vagn"
+
+msgid "notifications/specialReward/title"
+msgstr "Huvudbelöningen för {{eventName}} är din!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Extra belöningar:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Mottaget:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Funktionen är tillfälligt ej tillgänglig på grund av tekniskt fel. Försök igen senare."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Till evenemanget"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s avslutas snart!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Evenemanget är tillgängligt till %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "Cell från %(eventName)s öppnad"
+
+msgid "tooltips/entry/description"
+msgstr "Dina belöningar väntar! Varje köp av obligationer ger dig en slumpvis belöning från en cell som premie. Du öppnar en ny cell varje gång och celler du redan öppnas tas bort."
+
+msgid "tooltips/entry/timer"
+msgstr "Evenemanget blir tillgängliga i {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "Om evenemanget"
+
+msgid "tooltips/steps/description"
+msgstr "För varje köp får du fler {{currency}}. Mängden du får ökas i en köptrappa."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} för varje köp"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Steg:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} – {{end}}"

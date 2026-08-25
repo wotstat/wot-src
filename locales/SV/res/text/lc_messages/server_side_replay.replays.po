@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "closeButtonLabel"
+msgstr "STÄNG"
+
+msgid "featureName"
+msgstr "INSPELNINGAR"
+
+msgid "filter/apply"
+msgstr "Filtrera"
+
+msgid "filter/group/nation/title"
+msgstr "Nation"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Klass"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Klass"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specialisering"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Vagnstyp"
+
+msgid "filter/reset"
+msgstr "Återställ filter"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Visa/göm besättningsmedlemmar av den här nationaliteten."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Visa/göm utseenden för den här nationaliteten."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Visa/göm vagnar från denna nation."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Visa/göm vagnar av denna typ."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Pansarvärnskanonvagnar"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Artillerivagnar"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Tunga stridsvagnar"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Lätta stridsvagnar"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Medeltunga stridsvagnar"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Inga vagnar uppfyller\nsökkriterierna"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sortera efter vagnsnamn."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Namn"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sortera efter klass."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Klass"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sortera efter vagnstyp."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Typ"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Namn"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Klicka för att filtrera."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Använd angivna filter"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Klicka för att återställa filterinställningar."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Återställ alla filter"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Visa bara inspelningar från Prime time"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "Senaste %(count)s dygnet"
+msgstr[1] "Senaste %(count)s dygnen"
+msgstr[2] "Senaste %(count)s dygnen"
+
+msgid "filterPopover/title"
+msgstr "Inspelningsfilter"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Filtrera på vagnstyp, klass, nation osv."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Filtrera efter parameter"
+
+msgid "findReplay/buttonText/find"
+msgstr "Sök inspelning"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Rensa"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Se inspelning!"
+
+msgid "findReplay/errorMessage"
+msgstr "Inget sökresultat. Ändra din sökning och försök igen"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Ange ARENA_ID här..."
+
+msgid "findReplay/successMessage"
+msgstr "AI hittade en inspelning du är intresserad av! Mycket nöje"
+
+msgid "page/heading/bestReplays"
+msgstr "BÄSTA INSPELNINGAR"
+
+msgid "page/heading/findReplay"
+msgstr "SÖK INSPELNING (FÖR DEV)"
+
+msgid "page/heading/myReplays"
+msgstr "MINA INSPELNINGAR"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Den h är sektionen innehåller information om alla WoT-spelares bästa inspelningar"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Den här sektionen är till för att söka en inspelning efter vissa parametrar"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Den här sektionen innehåller information om DINA bästa inspelningar"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "Bästa inspelningar"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Sök inspelning"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "Mina inspelningar"
+
+msgid "statsParam/damageAssisted"
+msgstr "Topp 1 i Assistans i förstörande"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Topp 1 i Blockerad skada"
+
+msgid "statsParam/damageDealt"
+msgstr "Topp 1 i Åsamkad skada"
+
+msgid "statsParam/earnedXp"
+msgstr "Topp 1 i Intjänad erfarenhet"
+
+msgid "statsParam/kills"
+msgstr "Topp 1 i Förstörda vagnar"
+
+msgid "table/error/buttonText"
+msgstr "Uppdatera"
+
+msgid "table/error/description"
+msgstr "Vi ber om ursäkt för besväret. Försök uppdatera sidan igen senare."
+
+msgid "table/error/title"
+msgstr "Fel vid laddning av data"
+
+msgid "table/header/damageAssisted"
+msgstr "Assistans"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Blockerad skada"
+
+msgid "table/header/damageDealt"
+msgstr "Åsamka skada"
+
+msgid "table/header/date"
+msgstr "Datum"
+
+msgid "table/header/earnedXp"
+msgstr "Intjänad erf."
+
+msgid "table/header/kills"
+msgstr "Antal förstörda vagnar"
+
+msgid "table/header/map"
+msgstr "Karta"
+
+msgid "table/header/marksOfMastery"
+msgstr "Förtjänsttecken"
+
+msgid "table/header/player"
+msgstr "Spelarnamn"
+
+msgid "table/header/vehicle"
+msgstr "Vagn"
+
+msgid "table/noRecords/buttonText"
+msgstr "Återställ filter"
+
+msgid "table/noRecords/title"
+msgstr "Inget sökresultat. Ändra eller återställ sökfiltret"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Klicka för att återställa filterinställningar."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Återställ alla filter"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Assistansskadan åsamkad av spelaren i den här inspelningen"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Assistansskada"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Skada blockerad av spelaren i den här inspelningen"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Skada blockerad av pansar"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Skadan åsamkad av spelaren i den här inspelningen"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Åsamkad skada"
+
+msgid "table/tooltip/date/body"
+msgstr "Datum för inspelningen."
+
+msgid "table/tooltip/date/header"
+msgstr "Inspelningsdatum"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Erfarenhet intjänad av spelaren i den här inspelningen"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Intjänad erf."
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Episka medaljer förtjänade av spelaren i den här inspelningen"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Episka medaljer"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Klicka för att lägga till den här inspelningen i dina favoriter."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Favorit"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Klicka för att ta bort den här inspelningen från dina favoriter."
+
+msgid "table/tooltip/kills/body"
+msgstr "Antal vagnar förstörda av spelaren i den här inspelningen"
+
+msgid "table/tooltip/kills/header"
+msgstr "Förstörda vagnar"
+
+msgid "table/tooltip/map/body"
+msgstr "Kartan för inspelningen."
+
+msgid "table/tooltip/map/header"
+msgstr "Karta"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Förtjänsttecken förtjänade av spelaren i den här inspelningen"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Förtjänsttecken"
+
+msgid "table/tooltip/player/body"
+msgstr "Namnet på spelaren i den här inspelningen."
+
+msgid "table/tooltip/player/header"
+msgstr "Spelarnamn"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Vagnen spelaren använde i den här inspelningen."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Vagn"
+
+msgid "tableInfo/amount"
+msgstr "Hittade inspelningar: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Filter"
+
+msgid "waitingSpinner/message"
+msgstr "Laddar innehåll..."

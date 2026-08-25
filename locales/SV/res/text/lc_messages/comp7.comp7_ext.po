@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Strider tillgängliga om %(primeDelta)s"
+
+msgid "alertMessage/allNotSet"
+msgstr "Striderna är inte tillgängliga på någon server"
+
+msgid "alertMessage/ban"
+msgstr "Du är tillfälligt avstängd från de här striderna. Tid kvar: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Byt server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Information"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Striderna är inte tillgängliga på servern %(button)s för tillfället"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Striderna är inte tillgängliga på någon server."
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "Du behöver ha minst %(count)s godkända vagnar för striderna. Se sidan Om Pansarstorm för mer information."
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "Godkända vagnar saknas"
+
+msgid "alertMessage/modeOffline"
+msgstr "Databasfel. Striderna ej tillgängliga."
+
+msgid "alertMessage/noVehicles"
+msgstr "Inga godkända vagnar klass %(levels)s i garaget %(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "Striderna ej tillgängliga på servern %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Striderna ej tillgängliga på servern %(serverName)s"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "Du har inte tillräckligt många godkända vagnar %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "Striderna ej tillgängliga på servern %(serverName)s"
+
+msgid "alertMessage/preannounce/first"
+msgstr "Säsong Drake Blå börjar: %(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "Säsong Drake Röd börjar: %(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "Säsong Drake Grön börjar: %(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "Väntar på kvalresultat för att avgöra din grad"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "Säsong Drake Blå har avslutats"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "Säsong Drake Röd har avslutats"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "Säsong Drake Grön har avslutats"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Strider tillgängliga på servern om %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Striderna ej tillgängliga på servern %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Inga lämpliga vagnar klass %(levels)s i garaget"
+
+msgid "awardsWidget/description/award"
+msgstr "Klicka för att välja och ta emot dina belöningar."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Slutbelöningar ej tillgängliga för tillfället. Vi ber om ursäkt för besväret."
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "TA EMOT\nBELÖNING"
+msgstr[1] "TA EMOT\nBELÖNINGAR"
+msgstr[2] "TA EMOT\nBELÖNINGAR"
+
+msgid "banView/actionButtons/confirm"
+msgstr "Rösta"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "Du har redan röstat på %(vehicleName)s"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "Uteslut inte"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "Nominera en vagn att utesluta"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "Du kan bara rösta\nunder omröstningsfasen"
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "Du har nominerat:\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "Någon i ditt lag\nhar valt vagnen du vill utesluta"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "Vänta tills omröstningen avslutats"
+
+msgid "banView/button/back"
+msgstr "TILLBAKA"
+
+msgid "banView/button/ban"
+msgstr "Till uteslutningar"
+
+msgid "banView/button/description"
+msgstr "TILL VAGNSVAL"
+
+msgid "banView/description/prepick"
+msgstr "Välj den lämpligaste vagnen för den här kartan och laguppställningen"
+
+msgid "banView/description/voting"
+msgstr "Välj en vagn du vill utesluta från den här striden"
+
+msgid "banView/factory/candidate"
+msgstr "Nominerad för uteslutning: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "Lagets nominerade vagnar"
+
+msgid "banView/factory/noCandidates"
+msgstr "Inga vagnar nominerade för uteslutning"
+
+msgid "banView/factory/pick"
+msgstr "Din nominering: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "Uteslut inte"
+
+msgid "banView/title/prepick"
+msgstr "Nomineringsfas"
+
+msgid "banView/title/voting"
+msgstr "Omröstningsfas"
+
+msgid "banView/tooltip/confirmed"
+msgstr "Röstresultat"
+
+msgid "banView/tooltip/noAction"
+msgstr "Ingen nominerad"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "Spelaren har inte nominerat någon vagn än."
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "Nominerad"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "Pansarvärnskanonvagnar"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "Tunga stridsvagnar"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "Lätta stridsvagnar"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "Medeltunga stridsvagnar"
+
+msgid "banView/withoutBan"
+msgstr "Uteslut inte"
+
+msgid "banWidget/allies"
+msgstr "Lagets röster"
+
+msgid "banWidget/enemies"
+msgstr "Fienderöster"
+
+msgid "banWidget/tooltip"
+msgstr "Laget kunde inte komma överens om en vagn att utesluta, så en slumpvis vagn av de med flest röster har uteslutits."
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "Anpassa visningen efter typ, roll och nationalitet."
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "Filtrera efter parameter"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "Endast vagnar som kan användas i striderna visas här."
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "Inga vagnar matchar angivna parametrar"
+
+msgid "battleMessages/enableVOIP"
+msgstr "Lag mönstrat. Välj vagn och gå i strid!\nGå med i röstchatten (%(keyName)s)"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "Lag mönstrat. Välj vagn och gå i strid!\nAnge en snabbknapp för att gå med i röstchatten enklare."
+
+msgid "battleMessages/withoutVOIP"
+msgstr "Lag mönstrat. Välj vagn och gå i strid!\nAktivera röstchatten i spelinställningarna för att samverka med laget."
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "Stridsregler (F1)"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "Vagnens siktsträcka ökad"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "Besättningens egenskaper förbättrade"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "Återställer träffpoäng"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "Återställer träffpoäng"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "Besättningens egenskaper förbättrade"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "Besättningens egenskaper förbättrade"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "Omladdningstiden minskad"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "Vagnens egenskaper förbättrade"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "Återställer träffpoäng"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "Vagnens egenskaper förbättrade"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "Vagnens egenskaper förbättrade"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "Rörlighet förbättrad"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "Återställer träffpoäng"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "Siktesspridning minskad"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "Vagnens egenskaper förbättrade"
+
+msgid "battleResult/header/deserter"
+msgstr "Gradpoängsavdrag utfärdat"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "Du har fått ett straff: Efter kvalet kommer din grad sänkas."
+
+msgid "battleResult/label/deserter"
+msgstr "Desertering"
+
+msgid "battleResult/message/deserter"
+msgstr "Du har fått ett straff.\nGradpoäng avdragna: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "Du har deserterat strider.\nEfter kvalet kommer din grad sänkas."
+
+msgid "battleResult/message/header/deserter"
+msgstr "Osportsligt uppträdande"
+
+msgid "battleResult/personal/label"
+msgstr "Gradpoäng"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "Anger en spelares aktuella framsteg i gradsystemet. Gradpoäng kan erhållas eller förloras beroende på dina framgångar i strid."
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• Förluster/oavgjorda strider\n• Utfärdade straff\n• Inaktiv gradutveckling."
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "Gradpoäng dras av för:"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "Gradpoäng"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "Kvalstrid"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s — %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "Kvalificering"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "Gradpoäng mottagna. För att försvara graden Legend behöver du hålla dig bland topp %(topPercentage)d%% på topplistan."
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "Gradpoäng mottagna. För att uppnå graden Legend behöver du placera dig i topp %(topPercentage)d%% på topplistan."
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "Gradpoäng mottagna"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "Gradpoäng förlorade. För att försvara graden Legend behöver du hålla dig bland topp %(topPercentage)d%% på topplistan."
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "Gradpoäng förlorade. För att uppnå graden Legend behöver du placera dig i topp %(topPercentage)d%% på topplistan."
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "Gradpoäng förlorade"
+
+msgid "battleResult/subTask/rating"
+msgstr "Gradpoäng: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "Du har degraderats till %(division)s. %(rank)s"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "%(rank)s. %(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "Du har befordrats till %(division)s. %(rank)s!"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "Utkämpade strider (dygn): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "Inkluderar:"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "Utkämpade strider (säsong): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "Solo/Pluton: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "Superpluton: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "Säsong Drake Blå pågår i %(days)d dag"
+msgstr[1] "Säsong Drake Blå pågår i %(days)d dagar"
+msgstr[2] "Säsong Drake Blå pågår i %(days)d dagar"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "Säsong Drake Röd pågår i %(days)d dag"
+msgstr[1] "Säsong Drake Röd pågår i %(days)d dagar"
+msgstr[2] "Säsong Drake Röd pågår i %(days)d dagar"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "Säsong Drake Grön pågår i %(days)d dag"
+msgstr[1] "Säsong Drake Grön pågår i %(days)d dagar"
+msgstr[2] "Säsong Drake Grön pågår i %(days)d dagar"
+
+msgid "calendarDay/title"
+msgstr "Schema"
+
+msgid "carousel/banned"
+msgstr "Utesluten"
+
+msgid "claimRewards/button"
+msgstr "Ta emot belöning"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "Funktionen är tillfälligt ej tillgänglig på grund av tekniska problem. Vi arbetar med att lösa problemet."
+
+msgid "closeButtonLabel"
+msgstr "STÄNG"
+
+msgid "controls/compare"
+msgstr "Lägg till i jämförelselista"
+
+msgid "controls/preview"
+msgstr "Förhandsvisa"
+
+msgid "countDown/text"
+msgstr "Evenemanget börjar om:\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1 min"
+
+msgid "crewMembersTooltip/description"
+msgstr "Den här specialbesättningen består av pansarsoldater från hela världen, under deras vagnschefs befäl. Alla har Vapenbröder som nollförmåga och nog med besättningserfarenhet att träna ytterligare två förmågor, vilket ökar vagnens prestanda, samtidigt som de sätter sin personliga prägel på vagnen i strid."
+
+msgid "crewMembersTooltip/perks"
+msgstr "Förmågor"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "Pansarstorm. Drakens år"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "Nollförmågor"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "Genomsnittlig skada (dygn): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "Förhållandet mellan total åsamkad skada och antalet utkämpade strider."
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "Genomsnittlig skada (säsong): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "Skaderekord för dagen: %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "Maximal åsamkad skada under strider i %(vehicleName)s"
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "Skaderekord för säsongen: %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "—"
+
+msgid "dataError/description"
+msgstr "Vi ber om ursäkt för besväret. Försök uppdatera sidan igen senare."
+
+msgid "dataError/title"
+msgstr "Fel vid hämtning av data"
+
+msgid "dayTooltip/day"
+msgstr "Dag %(index)s"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "Dag %(index)s: Inga strider utkämpade."
+
+msgid "dayTooltip/noBattles"
+msgstr "Si vis pacem, para bellum"
+
+msgid "dayTooltip/rankInactivity"
+msgstr "Inaktiv gradutveckling: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)s gradpoäng"
+msgstr[1] "%(pointsCount)s gradpoäng"
+msgstr[2] "%(pointsCount)s gradpoäng"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "Förändring av gradpoäng: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "Dag %(index)s (idag)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "Dag %(index)s: Inga strider utkämpade idag."
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "Division"
+
+msgid "division/text"
+msgstr "Division %(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "Division för spelare med mellan {eeede9e6_Open}%(fromScore)&nbsp;och&nbsp;%(toScore){eeede9e6_Close}&nbsp;Gradpoäng."
+
+msgid "divisionTooltip/heading"
+msgstr "Division %(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "Gradpoäng"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "Utkämpade strider"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)sResultat kommer..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)sResultat kommer"
+
+msgid "entryPointTooltip/description"
+msgstr "En tävling med strider 7 mot 7 i vagnar klass %(levels)s. Kämpa dig upp genom graderna för att förtjäna unika utseendeelement, vagnar, obligationer och andra värdefulla belöningar."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "LÄGE"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s - Stridsläge. Klicka för att utforska"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Tillgängligt i%(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Vapenvila%(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "Blir tillgänglig:\n%(timer)s"
+
+msgid "featureName"
+msgstr "Pansarstorm"
+
+msgid "featureNameCapitalized"
+msgstr "PANSARSTORM"
+
+msgid "fifthRankTooltip/description"
+msgstr "Graden {eeede9e6_Open}Mästare{eeede9e6_Close} tilldelas spelare som tjänat minst {eeede9e6_Open}%(fromScore){eeede9e6_Close} Gradpoäng."
+
+msgid "forVehicle"
+msgstr "Gäller: %(vehicleName)s"
+
+msgid "generalRankTooltip/body/first"
+msgstr "Grad {eeede9e6_Open}Järn{eeede9e6_Close} tilldelas spelare som tjänat mellan {eeede9e6_Open}%(fromScore) och %(toScore){eeede9e6_Close} Gradpoäng."
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "Grad {eeede9e6_Open}Guld{eeede9e6_Close} tilldelas spelare som tjänat mellan {eeede9e6_Open}%(fromScore) och %(toScore){eeede9e6_Close} Gradpoäng."
+
+msgid "generalRankTooltip/body/second"
+msgstr "Grad {eeede9e6_Open}Brons{eeede9e6_Close} tilldelas spelare som tjänat mellan {eeede9e6_Open}%(fromScore) och %(toScore){eeede9e6_Close} Gradpoäng."
+
+msgid "generalRankTooltip/body/third"
+msgstr "Grad {eeede9e6_Open}Silver{eeede9e6_Close} tilldelas spelare som tjänat mellan {eeede9e6_Open}%(fromScore) och %(toScore){eeede9e6_Close} Gradpoäng."
+
+msgid "generalRankTooltip/subheading"
+msgstr "Inkluderade divisioner: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "OM EVENEMANGET"
+
+msgid "intro/confirmButton"
+msgstr "Uppfattat!"
+
+msgid "intro/description/banPhase"
+msgstr "Varje lag kan utesluta en vagn helt från en strid. Samarbeta med laget för att utesluta det största hotet, eller för att överraska fienden med en oväntad laguppställning. Om din vagn blir utesluten kan du välja en hyrvagn från ett förutbestämt urval istället."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Striderna har förändrade regler som påverkar vissa av vagnarnas egenskapsvärden, t.ex träffpoäng, nedkylningstid för förnödenheter, synlighetstid osv."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "När du lyckats erövra vissa områden på kartan kommer du kunna använda taktiska färdigheter. Det finns två sorters nyckelpunkter: Eldledningsplatsen som låter dig leda in artillerield mot en viss position och Sambandsplatsen som låter dig upptäcka fiendevagnar. Förekomst och placering av nyckelpunkterna varierar beroende på kartan."
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "Utkämpa %(count)s kvalstrid för att avgöra din färdighetsnivå och grad. När du slutfört den får du belöningar för din grad och alla tidigare grader.\n\nI kvalet räknas både oavgjort och desertering som förlust."
+msgstr[1] "Utkämpa %(count)s kvalstrider för att avgöra din färdighetsnivå och grad. När du slutfört dem får du belöningar för din grad och alla tidigare grader.\n\nI kvalet räknas både oavgjort och desertering som förlust."
+msgstr[2] "Utkämpa %(count)s kvalstrider för att avgöra din färdighetsnivå och grad. När du slutfört dem får du belöningar för din grad och alla tidigare grader.\n\nI kvalet räknas både oavgjort och desertering som förlust."
+
+msgid "intro/description/ranks"
+msgstr "Ett system som representerar en spelares färdighet. Gå upp i grad från Järn till Legend och förtjäna massor av belöningar. Kämpa under hela Drakens år för att få en unik årsbelöning."
+
+msgid "intro/description/roleSkills"
+msgstr "Alla vagnar har en specialfärdighet med tre laddningsgrader baserat på deras roll. Ju högre laddningsgrad färdigheten har när den aktiveras, desto större verkan har den. Laddningsgraden beror på antalet Prestigepoäng som kan tjänas genom imponerande prestationer i strid, erövrande av nyckelpunkter, användande av taktiska färdigheter osv.\n\nSe stridsreglerna för mer information om olika sätt du kan tjäna Prestigepoäng."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Du kan delta i strider i vagnar klass %(levels)s från teknologiträdet (förutom artillerivagnar), samlarvagnar och vissa specialvagnar. Förbered dina vagnar i garaget och välj sen den bästa baserat på vilken karta du får spela på. Du bör även ta hänsyn till vilka vagnar dina lagkamrater valt när du väljer vagn."
+
+msgid "intro/title/banPhase"
+msgstr "UTESLUTNA VAGNAR"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "FÖRÄNDRINGAR I PANSARSTORM"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "Nyckelpunkter"
+
+msgid "intro/title/qualification"
+msgstr "KVALIFICERING"
+
+msgid "intro/title/ranks"
+msgstr "GRADSYSTEM"
+
+msgid "intro/title/roleSkills"
+msgstr "ROLLFÄRDIGHETER"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "VÄLJ VAGN EFTER KARTA"
+
+msgid "lastUpdateNote/info"
+msgstr "Uppdaterad: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "Gradpoängen för den lägst placerade spelaren med grad Legend\nuppdateras var %(count)s:e min."
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "Uppdaterar data..."
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "Topplistan uppdateras var %(count)s:e minut."
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "Senast uppdaterad: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "Min placering"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "Nå grad Mästare eller Legend för placering på topplistan."
+
+msgid "leaderboard/error/buttonText"
+msgstr "Uppdatera"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "Spelare med grad Mästare och Legend placerar sig på topplistan. Tjäna {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close} Gradpoäng och nå toppen av listan!"
+
+msgid "leaderboard/noRecords/title"
+msgstr "Det finns inga spelare på topplistan för den aktuella säsongen"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "Strider"
+
+msgid "leaderboard/table/header/order"
+msgstr "#"
+
+msgid "leaderboard/table/header/player"
+msgstr "Spelarnamn"
+
+msgid "leaderboard/table/header/score"
+msgstr "Gradpoäng"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "Antalet utkämpade strider under den pågående säsongen av Pansarstorm."
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "Strider"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "Spelarens placering på topplistan."
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "Placering"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "Namnet på spelare med en placering."
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "Spelarnamn"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "Antalet Gradpoäng intjänade under den pågående säsongen."
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "Gradpoäng"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Spelare i plutonen"
+
+msgid "noVehicles/howTo/premium"
+msgstr "Använd WoT-Premiumkonto"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktivera personliga reserver"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Slutför uppdrag"
+
+msgid "noVehicles/howTo/title"
+msgstr "Vilket är det snabbaste sättet att skaffa att vagnar klass %(levels)s?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "För att delta i Pansarstorm måste du ha minst en godkänd vagn klass %(levels)s ditt garage.\nDet finns minst en vagn klass %(levels)s framforskad men inte köpt."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "För att delta i Pansarstorm måste du ha minst en godkänd vagn klass %(levels)s ditt garage.\nDet finns minst en vagn klass %(levels)s som går att återställa."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "För att delta i Pansarstorm måste du ha minst en godkänd vagn klass %(levels)s ditt garage."
+
+msgid "noVehicles/title"
+msgstr "Inga godkända vagnar i garaget"
+
+msgid "page/heading/leaderboard"
+msgstr "TOPPLISTAN"
+
+msgid "page/heading/progression"
+msgstr "GRADSYSTEM"
+
+msgid "page/heading/qualification"
+msgstr "KVALIFICERING"
+
+msgid "page/heading/rankRewards"
+msgstr "BELÖNINGAR FÖR GRADER"
+
+msgid "page/heading/shop"
+msgstr "PANSARSTORMAFFÄREN"
+
+msgid "page/heading/weeklyQuests"
+msgstr "VECKOUPPDRAG"
+
+msgid "page/heading/yearlyRewards"
+msgstr "ÅRLIGA BELÖNINGAR"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "ÅRLIG STATISTIK"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "Framåt"
+
+msgid "pagination/prev"
+msgstr "Bakåt"
+
+msgid "pbs/bans/title"
+msgstr "UTESLUTNA VAGNAR"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "2D-STIL FÖR PANSARSTORM"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "UPPDRAG FÖR 2D-STIL SLUTFÖRT!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "VECKOUPPDRAG #%(count)s SLUTFÖRT!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "VECKOUPPDRAG SLUTFÖRT!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "VECKOUPPDRAG PANSARSTORM"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "FÖRLUST PÅ GRUND AV ATT DU"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "OAVGJORT PÅ GRUND AV ATT DU"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "SEGER, TROTS ATT DU"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "Befordrad till %(rank)s"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "Nedgraderad till %(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "befordrad till %(rank)s, %(division)s"
+
+msgid "pbs/overview/qualification/description"
+msgstr "Utkämpade strider"
+
+msgid "pbs/overview/qualification/title"
+msgstr "Kvalificering"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "Disciplinstraff utfärdat: Gradpoängsavdrag"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "Du har fått ett disciplinstraff: Efter kvalet kommer din grad reduceras."
+
+msgid "pbs/rankDescription/fifth"
+msgstr "För att nå graden Legend måste du placera dig som en av de {ede6d9e5_Open}%(topPercentage) bästa%{ede6d9e5_Close} spelarna på topplistan."
+
+msgid "pbs/rankDescription/sixth"
+msgstr "För att behålla graden Legend måste du placera dig som en av de {ede6d9e5_Open}%(topPercentage) bästa%{ede6d9e5_Close} spelarna på topplistan."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Se sidan Om Pansarstorm för mer information."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Prestigepoäng"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Åsamka skada\nAssistans under observation\nFörstöra band\nÅsamka kritisk skada\nFörstöra fiendevagnar\nmed mera"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Den här specialresursen påverkar antalet gradpoäng som intjänas eller förloras i strid. Prestigepoäng erhålls genom följande stridshandlingar:"
+
+msgid "percentage"
+msgstr "%(percentageValue)s%"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "Genomsnittlig prestigepoäng (dygn): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "Förhållandet mellan totalt intjänade prestigepoäng och antalet utkämpade strider."
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "Genomsnittlig prestigepoäng (säsong): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "Prestigepoängrekord för dagen: %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "Maximalt antal prestigepoäng intjänade Prestigepoäng under strider i %(vehicleName)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "Prestigepoängrekord för säsongen: %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Säsong Drake Blå har avslutats på servern %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Säsong Drake Röd har avslutats på servern %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Säsong Drake Grön har avslutats på servern %(server)s."
+
+msgid "products/actions/buy"
+msgstr "Köp"
+
+msgid "products/actions/restore"
+msgstr "Till förrådet"
+
+msgid "products/actions/toCustomization"
+msgstr "Till stilen"
+
+msgid "products/actions/toHangar"
+msgstr "Visa i garaget"
+
+msgid "products/customizationUnavailable/body"
+msgstr "Kan inte gå till stilen. Det kan bero på att du inte äger vagnen än, att vagnen ingår i en taktisk enhet, deltar i en strid eller behöver repareras."
+
+msgid "products/customizationUnavailable/title"
+msgstr "Ej tillgänglig"
+
+msgid "products/discount"
+msgstr "-%(discountPercentage)s%"
+
+msgid "products/discountDescription"
+msgstr "Fram till nästa säsong börjar har du tillgång till innehåll och rabatt baserad på din {eeede9e6_Open}högsta{eeede9e6_Close} {eeede9e6_Open}uppnådda{eeede9e6_Close} {eeede9e6_Open}grad{eeede9e6_Close}."
+
+msgid "products/discountSectionName"
+msgstr "TILLGÄNGLIGHET OCH RABATTER"
+
+msgid "products/inProgress"
+msgstr "Vänligen vänta. Ditt köp hanteras..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "Antal tillgängliga köp per säsong: %(count)s"
+
+msgid "products/message/notEnough"
+msgstr "Tillgångar saknas för köp."
+
+msgid "products/message/rankAccess"
+msgstr "%(rank)s\nKrävs"
+
+msgid "products/newLabel"
+msgstr "NY"
+
+msgid "products/priceSectionName"
+msgstr "PRIS"
+
+msgid "products/productAccess"
+msgstr "Grad\nKrävs"
+
+msgid "products/purchased"
+msgstr "Köpt"
+
+msgid "products/rankAccess"
+msgstr "Grad %(rank)s krävs"
+
+msgid "products/readyToRestore"
+msgstr "Tillgänglig för återställning i förrådet"
+
+msgid "products/readyToRestoreDescription"
+msgstr "Återställ"
+
+msgid "products/style3d"
+msgstr "3D-stilen %(name)s"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "TILLBAKA TILL SÄSONGSSTATISTIK"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "SÄSONGSSTATISTIK"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "STATISTISK FÖR DAG %(day)s"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "DAGENS STATISTIK"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "Kolumnerna visar data för perioden mellan Prime time för den valda dagen och Prime time följande dag. I vissa fall kan detta inkludera strider utkämpade under två kalenderdagar."
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "Kolumnerna visar data för perioden mellan Prime time för den valda dagen och Prime time följande dag. I vissa fall kan detta inkludera strider utkämpade under två kalenderdagar."
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "Sektionen uppdateras bara när ny data är tillgänglig. Du kan uppdatera manuellt med knappen uppdatera."
+
+msgid "progressionPage/chartHeader/update"
+msgstr "Uppdaterad: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "Grattis!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "Du har slutfört alla 2D-stiluppdrag."
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s / %(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "En serie uppdrag för att låsa upp nya element för säsongens progressiva 2D-stil."
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "2D-STILUPPDRAG: %(taskNumber)s"
+msgstr[1] "2D-STILUPPDRAG: %(taskNumber)s"
+msgstr[2] "2D-STILUPPDRAG: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "2D-STILUPPDRAG"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "Till stilen"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "Alla stilar används för närvarande på otillgängliga vagnar"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "Inga tillgängliga vagnar för stilen"
+
+msgid "progressionPage/error/refresh"
+msgstr "Uppdatera"
+
+msgid "progressionPage/error/refreshing"
+msgstr "Uppdaterar..."
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "Genomsnittlig skada"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "Snittprestigepoäng"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "Förändring av gradpoäng %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "Rekord satt %(seasonRecordDescriptionDay)s"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "dag %(day)s"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "Till all statistik"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "Inklusive:\n • Skada åsamkad under din observation (inkl. skada från dina förmågor)\n • Skada åsamkad vagnar du immobiliserat genom att förstöra deras band (inkl. skada från dina förmågor)\n • Skada åsamkad av allierade med hjälp av dina förmågor\n • Skada åsamkad chockade fiender av allierade (inkl. chockade av dina förmågor)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "Totalt antal utkämpade strider"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "Förhållandet mellan total åsamkad skada och antalet strider"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "Förhållandet mellan förstörda fiendevagnar och antal gången spelarvagnen förstörts"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "Förhållandet mellan åsamkad skada och mottagen skada"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "Förhållandet mellan totalt intjänade prestigepoäng och antalet utkämpade strider"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "Vagnen som flest strider utkämpats i"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "Totalt antal segrar"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "Genomsnittlig skada med din assistans"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "Strider"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "Genomsnittlig åsamkad skada"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "Utslagningsförhållande"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "Skadeförhållande"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "Genomsnittligt antal Prestigepoäng per strid"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "Vagnsnamn"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "Segrar"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "VAGNSSTATISTIK"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s-%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "Dagar kvar till nedflyttning: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "Du förlorar {eeede9e6_Open}%(count)s{eeede9e6_Close} gradpoäng om du inte deltar i Pansarstorm"
+msgstr[1] "Du förlorar {eeede9e6_Open}%(count)s{eeede9e6_Close} gradpoäng om du inte deltar i Pansarstorm."
+msgstr[2] "Du förlorar {eeede9e6_Open}%(count)s{eeede9e6_Close} gradpoäng om du inte deltar i Pansarstorm."
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(1&nbsp;strid&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktivitetspoäng)"
+msgstr[1] "(1&nbsp;strid&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktivitetspoäng)"
+msgstr[2] "(1&nbsp;strid&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktivitetspoäng)"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "På din nuvarande grad förlorar du inga gradpoäng om du inte deltar i strider. Du börjar förlora gradpoäng när du når följande grad: %(rankList)s"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "Din grad påverkas av inaktivitet"
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "Din grad påverkas inte av inaktivitet"
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "Grad"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "Topp %(topPercentage)s% spelare i tabellen"
+
+msgid "progressionTooltip/division"
+msgstr "Division %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "Divisionen är för spelare med {eeede9e6_Open}%(fromScore) till %(toScore){eeede9e6_Close} Gradpoäng."
+
+msgid "progressionTooltip/info/fifth"
+msgstr "Mästargraden tilldelas spelare som tjänat minst {eeede9e6_Open}%(fromScore){eeede9e6_Close} Gradpoäng."
+
+msgid "progressionTooltip/info/sixth"
+msgstr "Graden Legend tilldelas de {eeede9e6_Open}%(topPercentage) bästa%{eeede9e6_Close} spelarna på topplistan."
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "Utkämpa %(maxBattlesCount)s strid för avgöra din skicklighet och grad."
+msgstr[1] "Utkämpa %(maxBattlesCount)s strider för avgöra din skicklighet och grad."
+msgstr[2] "Utkämpa %(maxBattlesCount)s strider för avgöra din skicklighet och grad."
+
+msgid "progressionTooltip/qualificationName"
+msgstr "Kvalificering"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "Dagar kvar till nedflyttning: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "Du förlorar {eeede9e6_Open}%(count)s{eeede9e6_Close} gradpoäng om du inte deltar i Pansarstorm."
+msgstr[1] "Du förlorar {eeede9e6_Open}%(count)s{eeede9e6_Close} gradpoäng om du inte deltar i Pansarstorm."
+msgstr[2] "Du förlorar {eeede9e6_Open}%(count)s{eeede9e6_Close} gradpoäng om du inte deltar i Pansarstorm."
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s Din grad påverkas av inaktiv gradutveckling"
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "Spela innan dagen är slut för att behålla din grad."
+
+msgid "progressionTooltip/ratingScore"
+msgstr "Gradpoäng"
+
+msgid "purchase/affirmative"
+msgstr "Uppfattat!"
+
+msgid "purchase/cancelButton"
+msgstr "Tillbaka"
+
+msgid "purchase/confirmButton"
+msgstr "Köp"
+
+msgid "purchase/error/description"
+msgstr "Kan inte slutföra köpet. Försök igen senare."
+
+msgid "purchase/error/title"
+msgstr "Fel"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)sDu har inga vagnar i garaget som kan använda den här stilen"
+
+msgid "purchase/price"
+msgstr "Inköpspris:"
+
+msgid "purchase/success/heading"
+msgstr "Tack för ditt köp!"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)sKöpet kommer krediteras ditt spelkonto inom kort."
+
+msgid "purchase/success/style3d"
+msgstr "3D-stilen %(name)s för %(vehicleName)s"
+
+msgid "purchase/title/style3d"
+msgstr "Köp 3D-stilen %(name)s?"
+
+msgid "purchase/title/vehicle"
+msgstr "Köp %(name)s?"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "Utkämpa {eeede9_Open}%(maxBattlesCount)s strid{eeede9_Close} för avgöra din skicklighet och grad."
+msgstr[1] "Utkämpa {eeede9_Open}%(maxBattlesCount)s strider{eeede9_Close} för avgöra din skicklighet och grad."
+msgstr[2] "Utkämpa {eeede9_Open}%(maxBattlesCount)s strider{eeede9_Close} för avgöra din skicklighet och grad."
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "För att avsluta kvalet måste du utkämpa %(maxBattlesCount)s strid och vänta tills din grad beräknats. Ditt stridsresultat under kvalet påverkar vilken grad du får.\nDesertering under kvalet leder till värre resultat än den värsta förlust."
+msgstr[1] "För att avsluta kvalet måste du utkämpa %(maxBattlesCount)s strider och vänta tills din grad beräknats. Ditt stridsresultat under kvalet påverkar vilken grad du får.\nDesertering under kvalet leder till värre resultat än den värsta förlust."
+msgstr[2] "För att avsluta kvalet måste du utkämpa %(maxBattlesCount)s strider och vänta tills din grad beräknats. Ditt stridsresultat under kvalet påverkar vilken grad du får.\nDesertering under kvalet leder till värre resultat än den värsta förlust."
+
+msgid "qualification/conditionTooltip/header"
+msgstr "Kvalregler"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "Utkämpade strider"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s Väntar på kvalresultat för att avgöra din grad"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "Det kan ta upp till fem minuter att beräkna din grad baserat på kvalresultatet. Därefter tilldelas du din grad och kan fortsätta delta i Pansarstorm."
+
+msgid "qualification/rewardsButton"
+msgstr "Till belöningar"
+
+msgid "qualification/rewardsDescription"
+msgstr "När du slutför kvalet kommer du få belöningar för den grad du uppnått och alla grader under den."
+
+msgid "quotesWrapper"
+msgstr "%(name)s"
+
+msgid "rank/achieved"
+msgstr "Uppnådd"
+
+msgid "rank/current"
+msgstr "Nuvarande"
+
+msgid "rank/fifth"
+msgstr "Mästare"
+
+msgid "rank/first"
+msgstr "Järn"
+
+msgid "rank/fourth"
+msgstr "Guld"
+
+msgid "rank/qualification"
+msgstr "Kvalificering"
+
+msgid "rank/second"
+msgstr "Brons"
+
+msgid "rank/sixth"
+msgstr "Legend"
+
+msgid "rank/text"
+msgstr "Grad %(rank)s"
+
+msgid "rank/third"
+msgstr "Silver"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "Spelargrad"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "Plutonskamrats grad"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "Plutonen kan bara bestå av spelare med liknande grad."
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "Gradbegränsningar för plutoner med %(count)s spelare"
+
+msgid "rankInactivityTooltip/description"
+msgstr "Om du inte deltar i striderna förlorar du Gradpoäng."
+
+msgid "rankInactivityTooltip/heading"
+msgstr "Inaktiv gradutveckling"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "Dagar kvar innan du förlorar en grad: %(count)s"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "Daglig grad"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "Förändring av gradpoäng: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "Förändringen av gradpoäng mellan den valda dagen och föregående dag."
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "Dagligt gradrekord: %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "Högsta graden uppnådd under den valda dagen."
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "dag %(day)s"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "Säsongens gradrekord satt %(dayOfRecord)s"
+
+msgid "rankInfo/current/fifth"
+msgstr "Mästargraden tilldelas spelare som tjänat minst {eeede9e6_Open}%(fromScore){eeede9e6_Close} Gradpoäng."
+
+msgid "rankInfo/current/sixth"
+msgstr "Graden Legend tilldelas de {eeede9e6_Open}%(topPercentage) bästa%{eeede9e6_Close} spelarna på topplistan."
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "För att nå graden Legend måste du vara en av de {eeede9e6_Open}topp %(topPercentage)%{eeede9e6_Close} spelare med flest gradpoäng på topplistan."
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "För att försvara din grad Legend måste du behålla din plats som en av de {eeede9e6_Open}topp %(topPercentage)%{eeede9e6_Close} spelare med flest gradpoäng på topplistan."
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "För att nå graden Legend måste du vara en av de {eeede9e6_Open}topp %(topPercentage)%{eeede9e6_Close} spelare med flest gradpoäng på topplistan. Spelare i botten av grad&nbsp;Legend&nbsp;tjänar {eeede9e6_Open}%(pointsCount){eeede9e6_Close} Gradpoäng"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "För att försvara din grad Legend måste du behålla din plats som en av de {eeede9e6_Open}topp %(topPercentage)%{eeede9e6_Close} spelare med flest gradpoäng på topplistan. Spelare i botten av grad&nbsp;Legend&nbsp;tjänar {eeede9e6_Open}%(pointsCount){eeede9e6_Close} Gradpoäng"
+
+msgid "rankUpper/fifth"
+msgstr "MÄSTARE"
+
+msgid "rankUpper/first"
+msgstr "JÄRN"
+
+msgid "rankUpper/fourth"
+msgstr "GULD"
+
+msgid "rankUpper/second"
+msgstr "BRONS"
+
+msgid "rankUpper/sixth"
+msgstr "LEGEND"
+
+msgid "rankUpper/text"
+msgstr "GRAD %(rank)s"
+
+msgid "rankUpper/third"
+msgstr "SILVER"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "Du kan välja en förbättrad utrustning från följande lista:\n\n• Tystat avgassystem\n• Innovativt riktmedel\n• Förbättrad kardanaxel\n• Förbättrad kompressor\n• Ökad granattålighet\n• Förbättrad säkerhetsanpassning\n• Experimentell optik\n• Innovativt laddningssystem\n• Avluftningssystem\n• Extra slitstark eldriktningsmotor\n• Kanonstabilisator\n• Spaningsteleskopsystem\n• Taktiskt maskeringsnät"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "Du kan välja en experimentell utrustning från listan nedan:\n\n• Eldledningssystem T3\n• Skyddsförbättringspaket T3\n•Mobilitetsförbättringspaket T3\n• Precisionsförbättringssystem T3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "Kamouflaget %(name)s"
+
+msgid "rewards/preview"
+msgstr "Förhandsvisa"
+
+msgid "rewards/status/achieved"
+msgstr "Belöning mottagen"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}För vagnar klass %(vehicleLevel)s{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}För stilen %(progressionStyleName)s{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "Klass %(vehicleLevel)s"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "Du har även fått:"
+
+msgid "rewardsScreen/button"
+msgstr "Uppfattat!"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "Till belöningar"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "Välj belöning"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "Gå till kassan"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "KVAL FÖR PANSARSTORM SLUTFÖRT"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "PANSARSTORM, SÄSONG DRAKE BLÅ"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "PANSARSTORM, SÄSONG DRAKE RÖD"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "PANSARSTORM, SÄSONG DRAKE GRÖN"
+
+msgid "rewardsScreen/description/year"
+msgstr "PANSARSTORM. DRAKENS ÅR"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "Var är min Askbringare?!"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "Ingen grad"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "När du uppnår den här graden kan du förlora Gradpoäng om du slutar spela Pansarstorm."
+
+msgid "rewardsScreen/notice/title"
+msgstr "Inaktiv gradutveckling"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "Totalt antal\nPansarstormfanor"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "Välj utrustning"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "Välj belöningar"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "Nya rabatter tillgängliga i Pansarstormaffären!"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "Nytt sortiment tillgängligt i Pansarstormaffären!"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "Fram till nästa säsong börjar har du tillgång till innehåll och rabatt baserad på din högsta uppnådda grad."
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "Fram till nästa säsong börjar har du tillgång till innehåll och rabatt baserad på din högsta uppnådda grad."
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}Grad %(rank)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "Baserat på ditt kvalresultat har du förtjänat belöningar för följande grader: {ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr ", "
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "Du har fått belöningar för din befordran till {ffe4c0_Open}graden %(rank)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "Belöning för slutförande av {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} veckouppdrag"
+msgstr[1] "Belöning för slutförande av {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} veckouppdrag"
+msgstr[2] "Belöning för slutförande av {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} veckouppdrag"
+
+msgid "rewardsScreen/title/division"
+msgstr "DIVISION %(division)s UPPNÅDD"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "GRAD {ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close} NÅDD"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "BELÖNING FÖR UPPNÅDD GRAD"
+
+msgid "rewardsScreen/title/rank"
+msgstr "GRAD {ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close} NÅDD"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "BELÖNINGAR FÖR DIN NYA GRAD"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "BELÖNING MOTTAGEN"
+msgstr[1] "BELÖNINGAR MOTTAGNA"
+msgstr[2] "BELÖNINGAR MOTTAGNA"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "BELÖNING FÖR VECKOUPPDRAG"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "ÅRLIGA BELÖNINGAR"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "Kommer med:"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "PANSARSTORM"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "VÄLJ BELÖNING"
+msgstr[1] "VÄLJ BELÖNINGAR"
+msgstr[2] "VÄLJ BELÖNINGAR"
+
+msgid "scoreTooltip/body"
+msgstr "Gradpoängen du tjänar avgör din grad och division i Pansarstorm. Vinn strider för att nå toppen!"
+
+msgid "scoreTooltip/header"
+msgstr "Gradpoäng"
+
+msgid "season/daysLeft"
+msgstr "Avslutas om %(totalDays)s d"
+
+msgid "season/hoursLeft"
+msgstr "Avslutas om %(hours)s t"
+
+msgid "season/minutesLeft"
+msgstr "Avslutas om %(minutes)s min"
+
+msgid "season/over"
+msgstr "%(seasonName)s har avslutats"
+
+msgid "season/range"
+msgstr "%(startDate)s–%(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "Avslutas om %(seconds)s s"
+
+msgid "seasonName/first"
+msgstr "Säsong Drake Blå"
+
+msgid "seasonName/second"
+msgstr "Säsong Drake Röd"
+
+msgid "seasonName/third"
+msgstr "Säsong Drake Jade"
+
+msgid "seasonPointTooltip/header"
+msgstr "Pansarstormfanor"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "Mottagen"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "Ej mottagen"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "Du tävlar om att få Pansarstormfanor"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "Oförbrukade Pansarstormfanor växlas in mot obligationer med följande kurs: {bond_Open}1 Pansarstormfana{bond_Close} till {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "I slutet av varje säsong får du Pansarstormfanor baserat på uppnådd grad."
+
+msgid "seasonPointTooltip/text/year"
+msgstr "För varje 3 Pansarstormfanor du äger förbättras belöningen du får i slutet av året."
+
+msgid "seasonStatistics/button/fifth"
+msgstr "Var är min trofé?!"
+
+msgid "seasonStatistics/button/first"
+msgstr "Det är bra"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "Min skatt!"
+
+msgid "seasonStatistics/button/second"
+msgstr "Uppfattat!"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "Legendariskt!"
+
+msgid "seasonStatistics/button/third"
+msgstr "I'll Be Back"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "Slutgiltigt säsongsresultat"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "Placering i tabellen: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "PANSARSTORM. %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "Mottagit %(points)s Pansarstormfanor"
+msgstr[1] "Mottagit %(points)s Pansarstormfanor"
+msgstr[2] "Mottagit %(points)s Pansarstormfanor"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "SÄSONG I. DRAKE BLÅ"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "SÄSONG II. DRAKE RÖD"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "SÄSONG III. DRAKE GRÖN"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "Segrar: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "Utkämpade\nstrider"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "Segrar: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "Skade-\nrekord"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "Utslagningsrekord: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "Högsta antal förstörda vagnar\ni en enda strid"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "Segrar: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "Prestigepoängs-\nrekord"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "SÄSONGSSTATISTIK"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "I superpluton: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "Segersvit\n(solo/pluton)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "Strider"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "—"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "Inga vagnar"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "PRIMÄRA VAGNAR"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "Segrar"
+
+msgid "seasonStatistics/title"
+msgstr "STATISTIK FÖR SÄSONG %(name)s"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "Säsongen slutar om:"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "—"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s–%(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "Matchschema"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "Idag"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "Imorgon"
+
+msgid "selectorTooltip/desc"
+msgstr "Tävlingsstrider. 7v7 | Klass X"
+
+msgid "selectorTooltip/title"
+msgstr "Pansarstorm"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Följ de senaste nyheterna på spelportalen för att hålla dig uppdaterad om starten på den nya säsongen."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Striderna ej tillgängliga för tillfället på grund av tekniska problem."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Striderna blir tillgängliga igen den %(time)s"
+
+msgid "shortSeasonName/first"
+msgstr "Drake Blå"
+
+msgid "shortSeasonName/second"
+msgstr "Drake Röd"
+
+msgid "shortSeasonName/third"
+msgstr "Drake Grön"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "Den här sektionen innehåller information om de bästa spelarna i den pågående säsongen av Pansarstorm."
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Den här sektionen innehåller information om kvalificering, din grad, division och Gradpoäng när du slutfört kvalet."
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "Den här sektionen innehåller information om belöningar du kan få när du blir befordrad i Pansarstorm."
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "Sektionen innehåller information om sortimentet i Pansarstormaffären"
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "Sektionen innehåller information om veckans uppdrag i Pansarstorm."
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "Sektionen innehåller information om årliga belöningar för Pansarstormfanor."
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "Den här sektionen innehåller information om dina prestationer i varje säsong under det innevarande Pansarstormåret."
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "Topplista"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Gradsystem"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "Belöningar för grader"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "Pansarstormaffären"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "Veckouppdrag"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "Årliga belöningar"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "Årlig statistik"
+
+msgid "sixthRankTooltip/description"
+msgstr "Graden {eeede9e6_Open}Legend{eeede9e6_Close} tilldelas de {eeede9e6_Open}topp %(topPercentage)%{eeede9e6_Close} av spelarna som tjänat flest Gradpoäng på topplistan."
+
+msgid "style3dTooltip/954"
+msgstr "Silvergadd"
+
+msgid "style3dTooltip/955"
+msgstr "Guldklor"
+
+msgid "style3dTooltip/956"
+msgstr "Mästarvingar"
+
+msgid "style3dTooltip/957"
+msgstr "Legendariskt odjur"
+
+msgid "style3dTooltip/description"
+msgstr "Det här pansarodjuret är en legendarisk varelse återskapad i stål, stark som ett lejon, vildsint som en drake och giftig som en skorpion."
+
+msgid "style3dTooltip/howToReceive"
+msgstr "Hur du erhåller"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "Tilldelas spelare som samlat minst 9 Pansarstormfanor under Mantikorans år i Pansarstorm."
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "Tilldelas spelare som samlat minst 12 Pansarstormfanor under Mantikorans år i Pansarstorm. Ersätter föregående stil."
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "Tilldelas spelare som samlat minst 15 Pansarstormfanor under Mantikorans år i Pansarstorm. Ersätter föregående stil."
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "Tilldelas spelare som samlat minst 18 Pansarstormfanor under Mantikorans år i Pansarstorm. Ersätter föregående stil."
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "Lämplig för vagnar"
+
+msgid "system_messages/periodicReward/body"
+msgstr "Du har fått din dagliga belöning för att du bibehållit graden %(rank)s.\n%(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "Daglig belöning"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Vapenvila råder. Pansarstorm är ej tillgängligt för tillfället."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Vapenvila"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Vapenvilan över. Pansarstorm är åter tillgängligt."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Vapenvila"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "Grattis! Du kan nått graden %(maxRank)s.\nDu har fått belöningar för följande grader: %(ranks)s:\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "Kvalifikation slutförd"
+
+msgid "system_messages/regularReward/body"
+msgstr "Datum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "Kvitto"
+
+msgid "system_messages/shop/offer/button"
+msgstr "Gå till affären"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "Nya rabatter tillgängliga i Pansarstormaffären!"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "Höjd rabatt"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "Nytt sortiment är nu tillgängligt i Pansarstormaffären!"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "Nytt innehåll tillgängligt"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "Fel vid betalning. Försök igen senare."
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "Datum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "Belöningar för slutförande av veckouppdrag"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "Datum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "Belöning för veckouppdrag"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Om Pansarstorm"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "Säsongsuppdateringar"
+
+msgid "tournament/LBFinals"
+msgstr "FB FINAL"
+
+msgid "tournament/LBRound1"
+msgstr "FB OMGÅNG 1"
+
+msgid "tournament/LBRound2"
+msgstr "FB OMGÅNG 2"
+
+msgid "tournament/LBSemifinals"
+msgstr "FB SEMI-FINAL"
+
+msgid "tournament/UBFinals"
+msgstr "VB FINAL"
+
+msgid "tournament/UBSemifinals"
+msgstr "VB SEMI-FINAL"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "Gradpoäng kan inte tjänas eller förloras under en turnering."
+
+msgid "tournament/bestOf"
+msgstr "BÄST AV %(number)s"
+
+msgid "tournament/cny"
+msgstr "%(amount)s CNY"
+
+msgid "tournament/cnySign"
+msgstr "¥%(amount)s"
+
+msgid "tournament/comeBack"
+msgstr "Försök igen senare"
+
+msgid "tournament/comingSoon"
+msgstr "KOMMER SNART %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "TIDERNA KAN VARIERA BEROENDE PÅ MATCHLÄNGD"
+
+msgid "tournament/completed"
+msgstr "SLUTFÖRD"
+
+msgid "tournament/douyin"
+msgstr "Titta på Douyin"
+
+msgid "tournament/drops/huya"
+msgstr "Titta på Huya och få exklusiva\nHuya Drops!"
+
+msgid "tournament/drops/twitch"
+msgstr "Titta på Twitch och få exklusiva\nTwitch Drops!"
+
+msgid "tournament/dropsShort/huya"
+msgstr "Och få exklusiva Huya Drops!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "Och få exklusiva Twitch Drops!"
+
+msgid "tournament/error"
+msgstr "FEL VID LADDNING AV DATA"
+
+msgid "tournament/eur"
+msgstr "%(amount)s EUR"
+
+msgid "tournament/euroSign"
+msgstr "€%(amount)s"
+
+msgid "tournament/finalResult"
+msgstr "VINNARE"
+
+msgid "tournament/fundDistribution"
+msgstr "PRISPOTTSFÖRDELNING"
+
+msgid "tournament/grandFinals"
+msgstr "FINAL"
+
+msgid "tournament/huya"
+msgstr "Titta på Huya"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "Prispotten fylls på när spelarna köper paket. Senast uppdaterad: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "INGA FLER MATCHER SCHEMALAGDA"
+
+msgid "tournament/ols/roundRobin"
+msgstr "FAS %(phase)s OMGÅNG %(round)s"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s - %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "PRISPOTT %(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "OCH CHANSEN ATT VINNA EVIG ÄRA"
+
+msgid "tournament/refresh"
+msgstr "Uppdatera"
+
+msgid "tournament/refreshing"
+msgstr "Uppdaterar..."
+
+msgid "tournament/roundOf"
+msgstr "OMGÅNGEN AV %(number)s"
+
+msgid "tournament/separator"
+msgstr "ELLER"
+
+msgid "tournament/tab/overview"
+msgstr "ÖVERSIKT"
+
+msgid "tournament/tab/schedule"
+msgstr "SCHEMA"
+
+msgid "tournament/teamPlaceholder"
+msgstr "TBD"
+
+msgid "tournament/toShop"
+msgstr "Besök affären"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "Växla"
+
+msgid "tournament/tokenStore/ols"
+msgstr "PLS-MARKER"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "Tillgängligt om:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "Om turneringen"
+
+msgid "tournament/twitch"
+msgstr "Titta på Twitch"
+
+msgid "tournament/viewFull"
+msgstr "Visa alla"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "Heja på Pansarstorm Legendarserien och fyll prispotten när du köper turneringspaket!"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "Visa din esportanda med exklusiva temautseenden och unika vagnar!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "FYLL PRISPOTTEN"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "WCI-PAKET"
+
+msgid "tournament/vsBestOf"
+msgstr "VS\nBÄSTA AV %(number)s"
+
+msgid "tournament/wci/roundRobin"
+msgstr "ALLA MÖTER ALLA"
+
+msgid "tournament/winner"
+msgstr "Vinnare"
+
+msgid "tournament/youtube"
+msgstr "Titta på Youtube"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "De bästa europeiska lagen kämpar om titeln Mästare i Pansarstorm Legendarserien! Se spännande 7v7-strider i Pansarstorm, tjäna Twitch Drops och stöd ditt favoritlag genom att fylla prispotten genom exklusiva utseendepaket."
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "En episk uppgörelse väntar då världsmästerskapen i World of Tanks avgöras i Suzhou i Kina och de bästa lagen från hela världen möts i Pansarstorm-strider för att ta hem segern. Känn spänningen när legender föds på slagfältet!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "PLS Säsong 6"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI'25"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "Livesändningar tillgängliga i %(timer)s"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "Fler matcher om %(timer)s"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "Du kan inte tjäna gradpoäng i Pansarstormträning."
+
+msgid "unit/message/modeOffline"
+msgstr "Kan inte delta i strid: Databasfel."
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "Gradskillnaden är för stor"
+
+msgid "voiceChat/active"
+msgstr "Lämna röstchatt"
+
+msgid "voiceChat/inactive"
+msgstr "Gå med i röstchatt"
+
+msgid "waitingSpinner/message"
+msgstr "Laddar innehåll..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "Pansarstormuppdrag slutförda"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "Bra jobbat! Du har slutfört veckouppdragen. Glöm inte att ta emot din belöning. Vi ses nästa säsong!"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "Du får ytterligare belöningar för slutförande av {eeede9e5_Open}%(questsList)s{eeede9e5_Close}och {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close}"
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "Pansarstorms veckouppdrag"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "Slutförda: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s nytt uppdrag om:"
+msgstr[1] "%(value)s nya uppdrag om:"
+msgstr[2] "%(value)s nya uppdrag om:"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "Belöning:"
+msgstr[1] "Belöningar:"
+msgstr[2] "Belöningar:"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)s NYTT UPPDRAG OM %(countdown)s"
+msgstr[1] "%(value)s NYA UPPDRAG OM %(countdown)s"
+msgstr[2] "%(value)s NYA UPPDRAG OM %(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "NYA UPPDRAG NÄSTA SÄSONG!"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "Uppdrag slutförda: %(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "Du får %(value)s nytt uppdrag varje vecka. Varje slutfört uppdrag räknas för din belöning!"
+msgstr[1] "Du får %(value)s nya uppdrag varje vecka. Varje slutfört uppdrag räknas för din belöning!"
+msgstr[2] "Du får %(value)s nya uppdrag varje vecka. Varje slutfört uppdrag räknas för din belöning!"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "Pågår"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "Slutfört"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "Ej tillgängligt"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "Kan ej slutföras. Stridsläget ej aktivt."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "Forska fram och köp en vagn klass X för att låsa upp."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "Slutför tidigare uppdrag för att låsa upp detta."
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "Uppdraget ej tillgängligt"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "Ta emot din belöning!"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "Slutförda: %(current)s / %(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "Uppdrag %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s nytt uppdrag om:"
+msgstr[1] "%(value)s nya uppdrag om:"
+msgstr[2] "%(value)s nya uppdrag om:"
+
+msgid "whatsNewButtonLabel"
+msgstr "SÄSONGSUPPDATERING"
+
+msgid "whatsNewView/banner/description"
+msgstr "Den här säsongen är sista chansen att ta emot värdefulla belöningar, bland annat den exklusiva tunga stridsvagnen Ashbringer, klass X, med alla unika 3D-stilar du låst upp för den, samt en tapper besättning med Vapenbröder som nollförmåga, en häftig 2D-stil och mycket mer. Missa inte chansen, segern väntar på slagfältet!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "Ta sista chansen i Drakens år!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "SÄSONG DRAKE GRÖN"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "NYHETER I PANSARSTORM"
+
+msgid "whatsNewView/button/ok"
+msgstr "Uteslutande bra!"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "Den nya stridsresultatsidan har förbättrats med 2.0-design som ger dig mer relevant information för stridstypen du valt."
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "Detaljerat stridsresultat"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "Oroa dig inte om din favoritvagn blir utesluten. Hyrvagnar kommer nu komplett med besättning, utrustning, granater och förnödenheter."
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "Stridsklara hyrvagnar %(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "Under den här säsongen kan varje lag utesluta en vagn helt från striden. Samarbeta med laget för att utesluta det största hotet, eller för att överraska fienden med en oväntad laguppställning."
+
+msgid "whatsNewView/intro/heading"
+msgstr "Uteslut vagnar %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "Kartor"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "Nya vagnar tillgängliga i Pansarstorm"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "Hyrvagnar"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "Den nya amerikanska medeltunga vagnen Ares 90, klass X, är nu tillgänglig i Pansarstorm med en anpassad rollfärdighet."
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "Uppdaterad rollfärdighet %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "114 SP2 är nu tillgänglig för köp vid grad Silver i Pansarstormaffären."
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "Uppdatering i affären %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "EJ TILLGÄNGLIG"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "UNDER UTVECKLING"
+
+msgid "whatsNewView/tag/attention"
+msgstr "Obs"
+
+msgid "whatsNewView/tag/changed"
+msgstr "Ändring"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "Experimentell"
+
+msgid "whatsNewView/tag/new"
+msgstr "Nytt"
+
+msgid "whatsNewView/tag/returned"
+msgstr "Tillbaka"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "Omarbetad"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "Säsongsuppdatering"
+
+msgid "whatsNewView/watchVideo"
+msgstr "Se video"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "Segerförhållande (dygn): %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "Förluster: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "Oavgjorda: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "Segerförhållande (säsong): %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "Förhållande mellan totalt antal segrar och antalet utkämpade strider\n: Strider efter resultat:"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "Segrar: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "Belöningarna levereras i slutet av tredje säsongen."
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "Belöningarna levereras snart. Vänligen vänta."
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "Årlig belöning mottagen. Vi ses igen nästa år!"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "Du har utrustning att välja"
+
+msgid "yearlyRewards/claim"
+msgstr "Ta emot"
+
+msgid "yearlyRewards/claimReward"
+msgstr "Ta emot belöning"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "Du fick 1%(seasonPointIcon)s för varje grad när säsongen avslutades."
+
+msgid "yearlyRewards/description/current"
+msgstr "Du får 1%(seasonPointIcon)s för varje grad när säsongen avslutas."
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\nMed unika 3D-stilar"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "TILL ÅRLIGA BELÖNINGAR"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "Förhandsvisa 2D-stil"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "Förhandsvisa 3D-stil"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "Grad uppnådd: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "Aktuell grad: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "Fyra unika besättningsmedlemmar"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "Belöning mottagen"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "Belöning garanterad"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "Tjäna totalt %(count)s fanor för att få belöningen för delmomentet"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "Potentiell belöning"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "Du kommer garanterat få den här belöningen i slutet av året."
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "Tjäna tillräckligt många Pansarstormfanor för att få din belöning i slutet av året."
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "Om du behåller eller ökar din grad innan säsongen är över kommer du få den här belöningen i slutet av året."
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "Aktivt delmoment"
+
+msgid "yearlyStatistics/battles"
+msgstr "Strider (solo/pluton)"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "Beräknar säsongsstatistik..."
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)sTill säsongsstatistik"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "Ingen grad"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "Grad %(rank)s"
+
+msgid "yearlyStatistics/rating"
+msgstr "Gradpoäng"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "Hösten 2025"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "Vintern 2026"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "Sommaren 2026"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s–%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "Säsong I. Drake Blå"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "Säsong II. Drake Röd"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "Säsong III. Drake Grön"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "Nuvarande"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "Slutförd"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "Strider (superpluton)"
+
+msgid "yearlyStatistics/wins"
+msgstr "Segerförhållande"

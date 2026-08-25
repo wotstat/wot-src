@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Aktywuj"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Kup i aktywuj"
+
+msgid "activation/activateBonus"
+msgstr "Aktywuj rezerwę: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Aktywuj rezerwę"
+
+msgid "activation/activateButtonClan"
+msgstr "Do twierdzy"
+
+msgid "activation/battleXPDescription"
+msgstr "Premia do PD bojowego przez 1 godz."
+
+msgid "activation/battleXPTitle"
+msgstr "PD bojowego"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Kupić i aktywować ulepszoną rezerwę osobistą dającą %(boosterBonus)s do %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Kup złoto"
+
+msgid "activation/buyGoldTitle"
+msgstr "Kupić złoto potrzebne do ulepszonej rezerwy osobistej dającej %(boosterBonus)s do %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Złoto potrzebne do zakupu ulepszonej rezerwy osobistej:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Kredyty i PD bojowego"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "PD załogi i wolne PD"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Rezerwy klanu"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Aktywuj rezerwę w Twierdzy"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Wyświetl w Twierdzy"
+
+msgid "activation/comboXPDescription"
+msgstr "Premia do wolnych PD i PD załogi przez 1 godz."
+
+msgid "activation/comboXPTitle"
+msgstr "Wolne PD i PD załogi"
+
+msgid "activation/creditsDescription"
+msgstr "Premia do kredytów przez 1 godz."
+
+msgid "activation/creditsTitle"
+msgstr "Kredyty"
+
+msgid "activation/footer"
+msgstr "Należy aktywować rezerwy z ograniczonym terminem: %(expirableAmount) za %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Premia do PD Linii frontu przez 1 godz."
+
+msgid "activation/frontLineXPTitle"
+msgstr "PD Linii frontu"
+
+msgid "activation/informationButton"
+msgstr "INFORMACJE"
+
+msgid "activation/price"
+msgstr "Cena:"
+
+msgid "activation/subFooter/depot"
+msgstr "Magazyn"
+
+msgid "activation/subFooter/main"
+msgstr "W pierwszej kolejności aktywowane są rezerwy najbliższe wygaśnięcia. Wszystkie dostępne rezerwy można obejrzeć w %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Aktywuj {whiteSpanish_Open}do 3 rezerw osobistych{whiteSpanish_Close}, by zdobywać więcej kredytów i doświadczenia w bitwach. Więcej rezerw osobistych kupisz w %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "Sklepie"
+
+msgid "activation/terms/booster_credits"
+msgstr "Kredytów"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "PD Linii frontu"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "Wolnych PD i PD załogi"
+
+msgid "activation/terms/booster_xp"
+msgstr "PD bojowego"
+
+msgid "activation/title"
+msgstr "REZERWY OSOBISTE"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Aktywowana rezerwa osobista dająca %(previousBoosterBonus)s do %(previousBoosterTerm)s zostanie utracona.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Chcesz aktywować ulepszoną rezerwę osobistą dającą %(boosterBonus)sdo %(boosterTerm)s zamiast aktywowanej standardowej rezerwy osobistej?"
+
+msgid "battleView/notice"
+msgstr "Rezerwy osobiste można aktywować w dowolnym momencie w bitwie. Otrzymasz premię, nawet jeśli rezerwa wygaśnie w trakcie bitwy."
+
+msgid "battleView/title"
+msgstr "Aktywacja rezerw osobistych"
+
+msgid "depot/buyButton"
+msgstr "Do zakupu"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Inna rezerwa tego typu jest już aktywna."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Ta rezerwa osobista przestała działać w trakcie bitwy. Premia tej rezerwy dalej stosuje się do tej bitwy."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)min"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Aktywowane rezerwy osobiste nie działają w tym trybie."
+
+msgid "intro/buttons/close"
+msgstr "Tak jest!"
+
+msgid "intro/buttons/details"
+msgstr "Szczegóły"
+
+msgid "intro/description"
+msgstr "Rezerwy osobiste z ograniczonym terminem są dostępne przez ograniczony czas od ich otrzymania. Jeśli gracz nie aktywuje ich w tym czasie, zostaną utracone. Rezerw osobistych bez ograniczonego terminu nie można użyć, jeśli posiada się rezerwy osobiste z ograniczonym terminem tego samego typu."
+
+msgid "intro/title"
+msgstr "REZERWY OSOBISTE Z OGRANICZONYM TERMINEM"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Nie ma w magazynie rezerw osobistych tego typu. Możesz kupić je później lub aktywować w garażu."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Aby zdobyć rezerwy osobiste, wypełniaj misje i bierz udział w wydarzeniach w grze."
+
+msgid "noReserveTooltip/text"
+msgstr "Nie ma w magazynie rezerw osobistych tego typu."

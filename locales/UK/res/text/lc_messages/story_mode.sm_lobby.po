@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, тривалість бою: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "ЗАКРИТИ"
+
+msgid "battleResult/continueButton"
+msgstr "Продовжити"
+
+msgid "battleResult/damageAssisted"
+msgstr "Шкода\nз вашою допомогою"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Заблокована\nшкода"
+
+msgid "battleResult/damageDealt"
+msgstr "Завдана\nшкода"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s Завдання, виконані на суворій складності,\nавтоматично виконуються й на звичайній.\nТобто ви отримаєте нагороди за обидва рівні складності."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s Завдання, виконані на суворій складності, автоматично виконуються й на звичайній.\nТобто ви отримаєте нагороди за обидва рівні складності."
+
+msgid "battleResult/kills"
+msgstr "Супротивників\nзнищено"
+
+msgid "battleResult/lose/title"
+msgstr "БІЙ ЗАВЕРШЕНО"
+
+msgid "battleResult/missionName/1"
+msgstr "МИСЛИВЕЦЬ НА ТИГРІВ: Операція «Сталева лавина»"
+
+msgid "battleResult/missionName/2"
+msgstr "МИСЛИВЕЦЬ НА ТИГРІВ: Операція «Звіролов»"
+
+msgid "battleResult/missionName/3"
+msgstr "МИСЛИВЕЦЬ НА ТИГРІВ: Операція «Молот і наковальня»"
+
+msgid "battleResult/missionName/4"
+msgstr "МИСЛИВЕЦЬ НА ТИГРІВ: Операція «Кіт у мишоловці»"
+
+msgid "battleResult/missionName/5"
+msgstr "ОПЕРАЦІЯ «ОВЕРЛОРД»"
+
+msgid "battleResult/missionName/6"
+msgstr "ОПЕРАЦІЯ «ЛИСТОНОША»"
+
+msgid "battleResult/missionName/7"
+msgstr "ОПЕРАЦІЯ «ТОЧКА КИПІННЯ»"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Немає активних\nзавдань"
+
+msgid "battleResult/rewards/other"
+msgstr "Також отримано:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Завдання\nвиконані"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s — %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Вижив{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Не вижив{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "ПЕРЕМОГА!"
+
+msgid "countdown/days"
+msgstr "{days} д"
+
+msgid "countdown/daysHours"
+msgstr "{days} д {hours} год"
+
+msgid "countdown/endsSoon"
+msgstr "Менше {minutes} хв"
+
+msgid "countdown/hours"
+msgstr "{hours} год"
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} год {minutes} хв"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} год {minutes} хв"
+
+msgid "countdown/lessThanMinute"
+msgstr "Менше хвилини"
+
+msgid "countdown/minutes"
+msgstr "{minutes} хв"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} хв"
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "Скасувати"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "Ви не отримаєте нагород за завершення цієї операції.\nВи хочете розпочати операцію без активних бойових завдань?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Підтвердити"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "Немає активних завдань для цієї операції"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Визначте невідому загрозу, зупиніть пуск ракети й переконайтеся, що нові технології потраплять до правильних рук."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "Грайте наодинці й боріться проти керованих ШІ супротивників у цій епічній історії за участю командирів із «Сектора 3»!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Виконайте всі завдання, щоб отримати пам'ятні нашивку й медаль, тематичні 2D-стилі та інші цінності."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "Настає нова ера"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "Однокористувацька історія"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Нагороди"
+
+msgid "eventWelcomeScreen/header"
+msgstr "ОПЕРАЦІЯ «ТОЧКА КИПІННЯ»"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s – %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Історії"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Сувора"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Звичайна"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Сувора\nМінне поле"
+
+msgid "missionSelection/exitButton"
+msgstr "ПОКИНУТИ РЕЖИМ"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "ОПЕРАЦІЯ\n«СТАЛЕВА ЛАВИНА»"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "ОПЕРАЦІЯ\n«ЗВІРОЛОВ»"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "ОПЕРАЦІЯ\n«МОЛОТ І НАКОВАЛЬНЯ»"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "ОПЕРАЦІЯ\n«КІТ У МИШОЛОВЦІ»"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "ОПЕРАЦІЯ\n«ОВЕРЛОРД»"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "ОПЕРАЦІЯ\n«ЛИСТОНОША»"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "ОПЕРАЦІЯ\n«ТОЧКА КИПІННЯ»"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Брукс: «Ну як? Отямився? Медикам потім покажешся. Наразі важлива кожна гармата. Штурм уже розпочався. Через те що ми запізнилися, вся увага супротивника зосереджена на іншому фланзі. Це наш шанс. Атакуємо відразу. Вриваємося в місто й затискаємо супротивника з двох боків.\nЇдь за нами й не потрап у «зуби дракона». Цими бетонними «іклами» усіяне все поле в кілька рядів. Нічого. Прорвемося. Головне, слухай мене та виконуй накази швидко й чітко. Ми з МакЛаудом тебе прикриємо.\nІ так, не зважай на його жарти. У кожного свій спосіб долати стрес. Вперед!»"
+
+msgid "missionSelection/missionDescription/2"
+msgstr "МакЛауд, із характерною говіркою: «Тигри. Найхуже, що можна зустріти на полі бою. І якщо командування каже, що в них проблема, — це Тигри. Перша штурмова група не виходить на связь. Друга тільки виїхала. Нас посилають за ними.\nА якщо посилають нас, це означає тільки одне — «Тигри». У штабі так і кажуть: «Відправте цих експертів з Тигрів». 9 штук на двох. Непаганий у нас результат за півроку. 5-4 в твою пользу. Я маю шанс вирватися вперед. І получити, накінець, цю драну медаль!\nПішли, Брукс не любить ждати. Охота починається»."
+
+msgid "missionSelection/missionDescription/3"
+msgstr "МакЛауд: «Значить, хлопчики й дівчатка, збираємось на операцію «Молот і наковальня». Проста назва для не дуже простої роботи. Наша задача — зачистити город від сил противника. Буде непросто, нас ждуть добре броньовані залізяки. Але в нас є голова на плечах, кінські сили і командна робота. Да, Везунчику? Зробимо все швидко, хлопці. У мене по плану зустріч з келихом «чаю» в п'ять, якщо ви поняли, про що я!»"
+
+msgid "missionSelection/missionDescription/4"
+msgstr "МакЛауд: «Не питай, Везунчику. Я сам нічого не понімаю. Не люблю я цієї секретності. Я люблю, коли все просто. Ось противник, і з ним і воюй. А тут якась путаниця.\n\nВ городі будуть танки союзників. Брукс просив бути осторожнішими. Що б це значило?\nУ нас особлива задача. Знайти якусь Вундерваффе. Щось здоровенне і на гусеницях. Крім нас нікому, Везунчику.\n\nГотовий? Поїхали»."
+
+msgid "missionSelection/missionDescription/5"
+msgstr "Капітан Джон Маккормік: «Що ж, хлопці, ваш день настав. З війною час закінчувати. Цим ми зараз і займемося. Усі ми: американці, британці, французи, канадці, австралійці, бельгійці, чехословаки, греки, голландці, новозеландці, норвежці, поляки. Разом ми покінчимо зі злом раз і назавжди.\n\nПрорвемо Атлантичний вал і закріпимося на ньому.\n\nПриготуватися до висадки!»"
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Капітан Сміт: «Все просто. Кілька годин тому Німеччина капітулювала. Завтра війні кінець. Але ми втратили радіозв'язок із нашими хлопцями в горах, і вони не знають, що ми вже перемогли. В них наказ атакувати цю кляту фортецю на світанку. Німецький гарнізон теж ще не отримав наказу скласти зброю. Це буде безглузда бійня. \n\nМи і тільки ми можемо це зупинити. Наше завдання: пройти крізь ворожі позиції й доставити наказ про відміну штурму. Це самовбивча місія, але врятовані життя того варті. \n\nЗ нами буде полонений німецький радист, він знає місцевість і хоче зупинити цю м'ясорубку так само, як і ми. \n\nРушаємо»."
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Лені Шарф: «Наразі ситуація критична. Ми втратили зв’язок із нашою ракетною базою в Норвезькому морі. Розвідувальний літак так і не повернувся, а першу десантну групу було повністю знищено невідомим супротивником.\n\nЗа даними розвідки, вони готуються до запуску балістичної ракети. Ціль нам невідома, але за поточних відносин навіть один запуск може призвести до глобального конфлікту.\n\nЯк у старі добрі… Чергове нездійсненне завдання в тилу ворога. Висувайтесь!»"
+
+msgid "missionSelection/missionName/1"
+msgstr "ОПЕРАЦІЯ «СТАЛЕВА ЛАВИНА»"
+
+msgid "missionSelection/missionName/2"
+msgstr "ОПЕРАЦІЯ «ЗВІРОЛОВ»"
+
+msgid "missionSelection/missionName/3"
+msgstr "ОПЕРАЦІЯ «МОЛОТ І НАКОВАЛЬНЯ»"
+
+msgid "missionSelection/missionName/4"
+msgstr "ОПЕРАЦІЯ «КІТ У МИШОЛОВЦІ»"
+
+msgid "missionSelection/missionName/5"
+msgstr "ОПЕРАЦІЯ «ОВЕРЛОРД»"
+
+msgid "missionSelection/missionName/6"
+msgstr "ОПЕРАЦІЯ «ЛИСТОНОША»"
+
+msgid "missionSelection/missionName/7"
+msgstr "ОПЕРАЦІЯ «ТОЧКА КИПІННЯ»"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Спеціальна техніка"
+
+msgid "missionSelection/tab/event"
+msgstr "ОПЕРАЦІЯ «ТОЧКА КИПІННЯ»"
+
+msgid "missionSelection/tab/newbies"
+msgstr "НАВЧАЛЬНІ ІСТОРІЇ"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Атакуйте місто й знищте машини супротивника."
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Атакуйте місто й знищте машини супротивника."
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Атакуйте місто й знищте машини супротивника."
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Виконайте головні цілі завдання, не зазнавши шкоди від мін супротивника."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Виконайте головні цілі завдання, не втративши жодної машини."
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Атакуйте місто й захопіть ворожу «Вундерваффе»."
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Виконайте головні цілі завдання менше як за %(win_timer)s."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Виконайте головні цілі завдання та знищте %(kill_enemies)s за допомогою літака."
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Прорвіть оборону, знищте прибережні гармати й займіть плацдарм."
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Виконайте головні цілі завдання менше як за %(win_timer)s."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Виконайте головні цілі завдання, не втративши жодної машини."
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Доставте союзникам наказ про припинення вогню."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Виконайте головні цілі завдання й знищте менше як %(kill_enemies)s."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Виконайте головні цілі завдання, не втративши жодної машини."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Дістаньтеся командного центру й зупиніть запуск ракети."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Виконайте головні цілі завдання менше як за %(win_timer)s."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Виконайте головні цілі завдання, не втративши жодної машини."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s машина супротивника"
+msgstr[1] "%(value)s машини супротивника"
+msgstr[2] "%(value)s машин супротивника"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "Завдання недоступне: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s хв"
+msgstr[1] "%(value)s хв"
+msgstr[2] "%(value)s хв"
+
+msgid "missionSelection/taskRewards"
+msgstr "Нагорода:"
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Машина доступна лише в режимі «Історії»."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Залишилося Випадкових боїв\nдля доступу до цієї операції: %(numBattles)s"
+
+msgid "mode/story_mode/callToAction"
+msgstr "Сценарії для початківців"
+
+msgid "mode/story_mode/description"
+msgstr "Виконайте сюжетні операції проти машин під керуванням ШІ."
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Доступна операція «Точка кипіння»"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "Вибраний режим гри можна знайти вгорі головного меню Гаража. Натисніть на назву режиму, щоб побачити, які ще доступні."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Натисніть на &zwnbsp;{whiteSpanish_Open}«Історії»{whiteSpanish_Close}&zwnbsp;, щоб вибрати цей режим гри."
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "У режимі «Історії» ви можете проходити сюжетні PvE-сценарії, б'ючись із супротивниками, керованими ШІ, в атмосфері героїчних баталій, і отримувати цінні нагороди!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Зайдіть у меню вибору режиму бою"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Обирайте «Історії»"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "Насолоджуйтеся боями в PvE"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "ІСТОРІЇ"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Сюжетні сценарії чекають на вас"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Перезавантажити"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "БІЙ ЗАВЕРШЕНО"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Пропустити"
+
+msgid "onboardingQueue/skipText"
+msgstr "Сервери перевантажені. Зачекайте або пропустіть цю історію."
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Підготовка сервера. Будь ласка, зачекайте…"
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Шкода, заблокована бронею: {parSecondary_Start}(од.){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Заблокована шкода"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "Влучення осколково-фугасними та HESH снарядами не враховуються."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Зараховуються:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Рикошети снарядів супротивника"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Непробиття"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Допомога"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "Зараховується наступна шкода, завдана союзниками за вашої допомоги:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Шкода за розвідданими"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "Шкода, заподіяна після знищення гусениці й знерухомлення техніки супротивника вашим пострілом"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "Сумарно шкоди, заподіяної союзниками {parSecondary_Start}(од.){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Заподіяна шкода"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Зараховується:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Шкода від пострілу"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Шкода тараном"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Шкода пожежею"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Шкода внаслідок зіштовхування супротивника з перешкоди"
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Сумарно шкоди: {parSecondary_Start}(од.){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Знищена техніка"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Зараховується:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Знищення пострілом"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Знищення пожежею"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Знищення тараном"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Знищення потопленням"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Знищення внаслідок зіштовхування супротивника з перешкоди"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Знищення перевертанням"
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Виконані завдання"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "Кількість завершених завдань і всіх\nпоточних доступних завдань.\nЗавдання, виконані на суворій складності,\nавтоматично виконуються й на звичайній."
+
+msgid "tooltips/difficulty/available"
+msgstr "Доступно"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "Швидкість реакції та точність супротивників зростають, і вони атакуватимуть агресивніше. Натомість ви отримаєте додаткові нагороди після виконання завдань."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "Виконуючи завдання на {whiteSpanish_Open}суворій{whiteSpanish_Close} складності, ви автоматично завершуєте їх на {whiteSpanish_Open}звичайній{whiteSpanish_Close}. Ви отримаєте нагороди за обидва рівні складності."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Додаткова умова"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Сувора"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "Щоб розблокувати сувору складність, продемонструйте майстерність у цьому режимі, пройшовши звичайну операцію."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Заблоковано"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Супротивники повільніші й стріляють менш влучно. За виконання завдання ви отримаєте звичайні нагороди."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Звичайна"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Вибрано"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "Ускладнена версія етапу «Мінне поле» — чи наважитеся ви увійти до смертельного лабіринту?\nДає збільшені бойові нагороди."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Сувора: Мінне поле"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Визначте невідому загрозу, зупиніть пуск ракети й переконайтеся, що нові технології потраплять до правильних рук."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Операція «Точка кипіння»"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "РЕЖИМ"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "— ігровий режим. Натисніть для подробиць"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "Грайте наодинці й боріться проти керованих ШІ супротивників у цій епічній історії за участю командирів із «Сектора 3»!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Подія доступна протягом {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "ІСТОРІЇ"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "РЕЖИМ"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "— ігровий режим. Натисніть для подробиць"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "Спеціальні сюжетні сценарії. Вирушайте в подорож до світу бронетехніки й доведіть свою вправність у боях із супротивниками, керованими ШІ."
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "Історії"
+
+msgid "tooltips/task/active"
+msgstr "Активно"
+
+msgid "tooltips/task/completed"
+msgstr "Виконано"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Умови невідомі"
+
+msgid "tooltips/task/locked"
+msgstr "Недоступно: %(timer)s"

@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "Patvirtinkite įrašykite įgulos patirties kiekį, kurį perduosite kitam įgulos nariui."
+
+msgid "assignmentDialog/price"
+msgstr "Kaina:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Perduoti visą patirtį kitam įgulos nariui"
+
+msgid "assignmentDialog/title"
+msgstr "Patvirtinti Mentorystės kursus"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Šis įgulos narys bus pašalintas iš\njūsų paskyros be kompensacijos."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} perteklinės patirties bus prarasta."
+
+msgid "dialogue/description"
+msgstr "Vienkartinis daiktas, leidžiantis perduoti visą vieno įgulos nario patirtį kitam tos pačios nacijos nariui."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}Prarasite perteklinės patirties:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "PASIRINKTI"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Visa patirtis:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Mentorystės licencija:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Nėra tinkamų įgulos narių"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Pasirinkite įgulos narį, kuris atiduos savo \npatirtį {cream_Open}%(name)s{cream_Close} ir bus pašalintas iš jūsų paskyros."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "Pardavus įgulos patirtį, {cream_Open}%(name)s{cream_Close} pasieks įgūdžių limitą ir perteklinė patirtis bus prarasta."
+
+msgid "mentorAssigment/title"
+msgstr "PASIRINKITE MOKYTOJĄ"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close} jau pasiekė įgūdžių limitą ir jam negalima perduoti patirties."
+
+msgid "multipleUserName"
+msgstr "Mentorystės licencijos"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Panaudota Mentorystės licencija(-ų): %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "Perduota įgulos patirties: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "MENTORYSTĖS KURSAI"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>Prarasta perteklinės įgulos patirties: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Leidžia perduoti vieno įgulos\nnario patirtį kitam tos pačios nacijos nariui."
+
+msgid "storage/userName"
+msgstr "Mentorystės licencija"
+
+msgid "userName"
+msgstr "Mentorystės licencija"

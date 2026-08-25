@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT prevodilac <noreply@wargaming.net>\nLanguage-Team: WoT tim <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "Omekšavanje ivica(antialiasing)"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "Utvrdjuje stepen dodatnog procesiranja tankih linija i kontura objekata u igri. Umanjuje efekat preplitanja.\n\n• High—FXAA\n• Maksimum—Temporal Supersampling Antialiasing (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "Dinamičko podešavanje"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "Uključuje ili isključuje automatsko podešavanje rezoluciju 3D prikaza u zavisnosti od opterećenja grafičke kartice.\n\nUključivanje ovog parametra može da poboljša performanse igre. Rezolucija prikaza u garaži uvek ostaje ista."
+
+msgid "EFFECTS_QUALITY"
+msgstr "Kvalitet ekstra efekata"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "Određuje kvalitet prikaza varnica od rikošeta, eksplozije, dim i druge vizuelne efekte.\n\nSmanjenjem vrednosti ovog parametra može se poboljšati kvalitet igre."
+
+msgid "FAR_PLANE"
+msgstr "Daljina iscrtavanja"
+
+msgid "FAR_PLANE/description"
+msgstr "Određuje daljinu prikaza reljefa, zgrada, neprijateljskih vozila i drugih objekata u igri."
+
+msgid "FLORA_QUALITY"
+msgstr "Gustina trave"
+
+msgid "FLORA_QUALITY/description"
+msgstr "Određuje gustinu trave prikazane u arkadnom i snajper režimu."
+
+msgid "HAVOK_ENABLED"
+msgstr "Poboljšana fizika uništavanja"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "Isključeno"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "Uključeno"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "Omogućava mnogo realističniji model uništavanja i međusobne interakcije objekata na mapama.\n\nIsključivanje ovog parametra može povećati perforamnse igre."
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "Podešavanje će biti primenjeno u sledećoj borbi ako je isključeno u trenutnoj borbi."
+
+msgid "LANGUAGE_CODE"
+msgstr "sr"
+
+msgid "LIGHTING_QUALITY"
+msgstr "Kvalitet osvetljenja"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "Određuje kvalitet i metod prikaza sunčevih zraka i optičke efekte.\n\nPovećanje ovog parametra dovodi do povećane upotrebe grafičke kartice."
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "Efekat zamućenja pokreta"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "Određuje kvalitet pokreta, efekat zamućenja slike kada se vozilo kreće i kamera rotira."
+
+msgid "MSAA_QUALITY"
+msgstr "Omekšavanje ivica(antialiasing)"
+
+msgid "MSAA_QUALITY/description"
+msgstr "Određuje stepen dodatnog procesiranja tankih linija i kontura objekata u igri. Smanjuje efekat \"ivica\".\n\n• Mali—MSAA 2x\n• Srednji—MSAA 4x\n• Visok—MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "Nivo detalja objekata"
+
+msgid "OBJECT_LOD/description"
+msgstr "Određuje broj prikazanih objekata i njihov kvalitet."
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "Post procesi"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "Odredjuje kvalitet post efekata: toplote, efekta udarnog talasa, hromatskihodstupanja, vinjeta, film šuma itd.\n\nSmanjenjem vrednosti ovog parametra može se poboljšati kvalitet igre."
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "Grafika"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "Poboljšano: omogućava maksimalan kvalitet slike.\n\nStandardno: omogućava maksimalne performanse uprošćavanjem ili onemogućavanjem nekih vizuelnih efekata."
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "Grafika:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "Promene ovog parametra će biti primenjene nakon restarta igre."
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "Providnost rastinja"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "Određuje kako se prikazuje rastinje na obližnjim stablima i grmlju.\n\nIsključivanje ovog parametra prikazuje rastinje na obližnjim stablima i žbunju kao potpuno providno, što može doprineti performansama igre."
+
+msgid "SHADER_VERSION_CAP"
+msgstr "Verzija Shader-a"
+
+msgid "SHADOWS_QUALITY"
+msgstr "Kvalitet senki"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "Određuje kvalitet procesuiranja dinamičkih senki na celom rastojanju ocrtavanja.\n\nSmanjenjem ovog parametra može se poboljšati kvalitet igre."
+
+msgid "SMOKE_ENABLED"
+msgstr "Dim"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "Ekstra efekti u Snajper režimu"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "Određuje kvalitet prikaza varnica od rikošeta, eksplozije, dim i druge realistične efekte u Snajper režimu.\n\nSmanjenje vrednosti ovog parametra može poboljšati kvalitet igre."
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "Prikaži travu u Snajperskom režimu"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "Prikazuje travu u Snajper režimu.\n\nOnemogućavanje ovog parametra može popraviti kvalitet igre."
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "Teselacija terena u snajperskom režimu"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Povećava kvalitet terna u prečniku od 50 metara od tvog vozila u režimu snajpera. Dostupno samo uz uključenu opciju tesalacije terena.\n\nGašenje ovog parametra može da poboljša performanse igre."
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "Kvalitet detalja rastinja"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "Određuje kvalitet prikazivanja drveća, žbunja i trave."
+
+msgid "TERRAIN_QUALITY"
+msgstr "Kvalitet terena"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "Određuje kvalitet ocrtavanja osobine reljefa na mapi.\n\nKoristite najmanji kvalitet pejzaža u slučaju ako imate slab računar.\n\nSmanjenje vrednosti ovog parametra može poboljšati kvalitet igre."
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "Primena označenog parametra može potrajati neko vreme."
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "Teselacija terena"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Hardverski ubrzan proces dodavanja novih trouglova na mrežu poligona da bi se povećao nivo detalja.\n\nOva funkcija će raditi samo uz sledeća podešavanja:\n• Poboljšanu grafiku\n• Kvalitet terena podešen na visok, maksimalan ili ultra\n• Instaliran DirectX 11\n\nPromene ovog podešavanja su nedostupne sa verzijama starijim od DirectX 11.\n\nIsključivanje ovog parametra može poboljšati performanse igre."
+
+msgid "TEXTURE_QUALITY"
+msgstr "Kvalitet tekstura"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "Kvalitet površina objekata u igri, posebno kod bliskog proučavanja.\n\nSmanjenje vrednosti ovog parametra može popraviti kvalitet igre."
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "Primena označenog parametra može potrajati neko vreme."
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "Fizika gusenica"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "Određuje kvalitet fizičke simulacije za prekinute i ispravne gusenice, kao i za detalje gusenice.\n\nSmanjivanje ili isključivanje ovog parametra može da poboljša performanse igre."
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "Omogući efekat gusenica i točkova"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "Prikazuje zemlju, sneg i prskanje vode iza gusenica i točkova.\n\nIsključenje ovog parametra može popraviti kvalitet igre."
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "Omogući tragove gusenica i točkova"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "Pokazuje tragove gusenica i guma na zemlji.\n\nNije dostupno uz Pojednostavljenu grafiku ili nizak nivo dekala."
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "Sakrij 3D dodatke u snajper režimu"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "Privremeno sakriva 3D dodatke vozila sa nišana topa u snajperskom režimu.\n\nSmanjuje vizuelne prepreke i poboljšava preciznost nišanjenja."
+
+msgid "WATER_QUALITY"
+msgstr "Kvalitet vode"
+
+msgid "WATER_QUALITY/description"
+msgstr "Određuje kvalitet iscrtavanja vodenih površina."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "Samo slab oklop"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "Ako je aktivna, lampa označava samo slab oklop mete.\n\nOklop sa velikom šansom penetracije je označen punom zelenom bojom, dok je oklop sa osrednjom šansom za penetraciju označen polu providnom zelenom. Boje se mogu razlikovati u režimu slepila za boje."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "Označi samo slab oklop"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "Samo jak oklop"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "Ako je aktivna, lampa označava samo jak oklop mete.\n\nOklop sa malom šansom penetracije je označen punom crvenom bojom, dok je oklop sa osrednjom šansom za penetraciju označen polu providnom crvenom. Boje se mogu razlikovati u režimu slepila za boje."
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "Označi samo jak oklop"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "Sav oklop"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "Ako je aktivna, lampa označava sav oklop mete.\n\nOklop sa malom do nula šanse penetracije je označen crvenom bojom, dok je oklop sa velikom šansom za penetraciju označen zelenom, a oklop sa osrednjom šansom, žutom. Boje se mogu razlikovati u režimu slepila za boje."
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "Obrlrži sav oklop"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "Obeležen oklop"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "Uključi na početku borbe"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "Podrazumevano stanje Lampe na početku borbe. Možeš uključiti ili isključiti lampu upotrebom dodeljenog tastera bilo kada.\n\nKada je uključena, funkcioniše samo u modu snajpera.\n\nPodržani režimi:\n• Slučajne borbe i Timski trening;\n• Front;\n• Arkadne borbe;\n• Juriš;\n• Određeni drugi režimi i događaji.\n\nDodatni režimi i događaji mogu biti podržani u budućnosti."
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "Uključi na početku borbe"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "Tekstura lampe"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "Puna"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "Oskudna šema"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "Gusta šema"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "Providnost"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "Upozorenje na performanse"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "Visoko"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "Nisko"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "Srednje"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "Rezolucija lampe"
+
+msgid "aim/cassette"
+msgstr "Kontejneri"
+
+msgid "aim/centralTag"
+msgstr "Centralni marker"
+
+msgid "aim/centralTag/type0"
+msgstr "A oblika I"
+
+msgid "aim/centralTag/type1"
+msgstr "A oblika II"
+
+msgid "aim/centralTag/type10"
+msgstr "O oblika I"
+
+msgid "aim/centralTag/type11"
+msgstr "O oblika II"
+
+msgid "aim/centralTag/type12"
+msgstr "A oblika IV"
+
+msgid "aim/centralTag/type13"
+msgstr "A oblika V"
+
+msgid "aim/centralTag/type2"
+msgstr "A oblika III"
+
+msgid "aim/centralTag/type3"
+msgstr "V oblika"
+
+msgid "aim/centralTag/type4"
+msgstr "Krstatsti I"
+
+msgid "aim/centralTag/type5"
+msgstr "Krstatsti II"
+
+msgid "aim/centralTag/type6"
+msgstr "T oblika"
+
+msgid "aim/centralTag/type7"
+msgstr "I oblika"
+
+msgid "aim/centralTag/type8"
+msgstr "Nišanska taška I"
+
+msgid "aim/centralTag/type9"
+msgstr "Nišanska tačka II"
+
+msgid "aim/condition"
+msgstr "Stanje"
+
+msgid "aim/gunTag"
+msgstr "Marker topa"
+
+msgid "aim/gunTag/type0"
+msgstr "A oblika ( sa indikatorom probojnosti oklopa)"
+
+msgid "aim/gunTag/type1"
+msgstr "A oblika II ( bez indiktora punjenja)"
+
+msgid "aim/gunTag/type10"
+msgstr "O oblika II (sa indikatorom punjenja)"
+
+msgid "aim/gunTag/type11"
+msgstr "O oblika III"
+
+msgid "aim/gunTag/type12"
+msgstr "A oblika IV (sa indikatorom probojnosti oklopa)"
+
+msgid "aim/gunTag/type13"
+msgstr "A oblika V (sa indikatorom punjenja)"
+
+msgid "aim/gunTag/type14"
+msgstr "A oblika VI"
+
+msgid "aim/gunTag/type2"
+msgstr "A oblika III"
+
+msgid "aim/gunTag/type3"
+msgstr "Krstasti I (sa indikatorom probojnosti oklopa)"
+
+msgid "aim/gunTag/type4"
+msgstr "Krstasti II (sa indikatorom punjenja)"
+
+msgid "aim/gunTag/type5"
+msgstr "Krstasti III"
+
+msgid "aim/gunTag/type6"
+msgstr "Nišanska tačka I (sa indikatorom probojnosti oklopa)"
+
+msgid "aim/gunTag/type7"
+msgstr "Nišanska tačka II (sa indikatorom punjenja)"
+
+msgid "aim/gunTag/type8"
+msgstr "Nišanska tačka III"
+
+msgid "aim/gunTag/type9"
+msgstr "O oblika I (sa indikatorom probojnosti oklopa)"
+
+msgid "aim/mixing"
+msgstr "Nišanjenje"
+
+msgid "aim/mixing/type0"
+msgstr "Krug I (sa indikatorom punjenja) "
+
+msgid "aim/mixing/type1"
+msgstr "Krug II (sa promenljivim indikatorom punjenja)"
+
+msgid "aim/mixing/type2"
+msgstr "Krug III (bez indikatora punjenja)"
+
+msgid "aim/mixing/type3"
+msgstr "Krug IV (pun)"
+
+msgid "aim/mixing/type4"
+msgstr "Krstasti (sa promenljivim indikatorom punjenja)"
+
+msgid "aim/mixing/type5"
+msgstr "Krstatsti II"
+
+msgid "aim/mixing/type6"
+msgstr "Test"
+
+msgid "aim/net"
+msgstr "Indikator"
+
+msgid "aim/net/type0"
+msgstr "Dijagonalna"
+
+msgid "aim/net/type1"
+msgstr "Horizonatalni"
+
+msgid "aim/net/type2"
+msgstr "Kružni"
+
+msgid "aim/net/type3"
+msgstr "Isprekidani"
+
+msgid "aim/reloader"
+msgstr "Punjenje"
+
+msgid "aim/reloaderTimer"
+msgstr "Merač punjenja"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "Prebacivanje na artiljerijski nišan"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "Poslednji korišćen"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "Pogled odozgo"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "Prikaz trajektorije"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "Automatska promena režima nišanjenja"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "Prilikom pomeranja točkića miša i dostizanja određenog nivoa zuma nišan će se prebaciti u \"pogled odozgo\" ili u \"prikaz trajektorije\"."
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "Automatska promena režima nišanjenja"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "Meki zum kamere"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "Prikaži indikatore linije vatre"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "Prikazuje/sakriva indikatore koji prikazuju da li će izabrana granata dostići nišansku tačku. Takođe prikazuju vreme leta granate."
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "Indikatori linije vatre"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "Prikaži indikator pozicije kamere"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "Prikazuje / sakriva indikator koji prikazuje nivo zuma kamere artiljerijskog nišana."
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "Indikator pozicije kamere"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "Kontrole kamere"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "Alternativno"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "Standard"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "U režimu standardnih kontrola kamere, kamera se pomera gore, dole, levo, i desno. U alternativnom režimu kontrole kamere, kamera se pomera napred, nazad i oko pozicije artiljerije."
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "Kontrole kamere"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "Zum pokazatelj"
+
+msgid "alternativeVoices/labels"
+msgstr "Glasovne poruke u borbi"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Glasovne poruke u borbi"
+
+msgid "apply_button"
+msgstr "Primeni"
+
+msgid "autodetectButton"
+msgstr "Preporučeno"
+
+msgid "autodetectButton/description"
+msgstr "Određivanje optimalnog kvaliteta slike za Vaš računar.\n\nOvo može da potraje neko vreme."
+
+msgid "battlecomm/enableCommendations"
+msgstr "Dobij pohvale u borbi"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "Pokaži lične komande"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "Prikaži komunikaciju na timskom panelu"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "Prikaži markere lokacije na mapi"
+
+msgid "battlecomm/showMarkers"
+msgstr "Prikaži borbene markere u Slučajnim borbama"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "Prikaži lepljive markere"
+
+msgid "borderlessSize"
+msgstr "U prozoru (bez ivica)"
+
+msgid "borderlessSize/description"
+msgstr "U prozoru (bez ivica)"
+
+msgid "cancel_button"
+msgstr "Otkaži"
+
+msgid "chat/censorshipMessages"
+msgstr "Čet filter za cenzurisanje uvredljivih reči"
+
+msgid "chat/chatContactsListOnly"
+msgstr "Primaj poruke samo od osoba sa liste Kontakata"
+
+msgid "chat/disableBattleChat"
+msgstr "Isključi čet sa saveznicima"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "Zapamti poziciju kamere i prozora kanala"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "Zapamti poziciju kamere i ostalih prozora"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "Prihvati pozive samo od prijatelja u garaži"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "Primaj notifikacije klana"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "Prihvati zahtev za prijateljstvo"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "Prihvati pozive za Vod u borbi"
+
+msgid "chat/removeSpam"
+msgstr "Sakrij spam"
+
+msgid "chat/showDateMessage"
+msgstr "Prikaži datum u poruci"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "Obavesti kada se korisnik uključi/isključi"
+
+msgid "chat/showTimeMessage"
+msgstr "Prikaži vreme u poruci"
+
+msgid "colorCorrection"
+msgstr "Podešavanje Boje"
+
+msgid "colorCorrectionBtn/label"
+msgstr "Izmeni"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "Lična Podešavanja"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "Svetlina"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "Kontrast"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "Saturacija"
+
+msgid "colorSettings/tab/default"
+msgstr "Podrazumevano"
+
+msgid "colorSettings/tab/filters"
+msgstr "Preset Filteri"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "Intenzitet Filtera"
+
+msgid "colorSettings/view/after"
+msgstr "Posle"
+
+msgid "colorSettings/view/before"
+msgstr "Pre"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "ZATVORI"
+
+msgid "colorSettings/view/description"
+msgstr "Izaberi jednu opciju podešavanja prikaza"
+
+msgid "colorSettings/view/header"
+msgstr "Podešavanje Boje"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "Reset"
+
+msgid "colorSettings/view/subTitle"
+msgstr "Opcije podešavanja prikaza"
+
+msgid "cursor/ArcadeTitle"
+msgstr "Arkada"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "Lampa oklopa"
+
+msgid "cursor/ArtyTitle"
+msgstr "Artiljerija"
+
+msgid "cursor/ContourTitle"
+msgstr "Ocrtavanje"
+
+msgid "cursor/ServerAim"
+msgstr "Uključi nišan servera"
+
+msgid "cursor/SnipperTitle"
+msgstr "Snajper"
+
+msgid "cursor/contour/type0"
+msgstr "Standardno"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "Pri nišanjenju na neprijateljsko vozilo, njegova cela kontura je ocrtana, uključujući i primenjene neoklopljene elemente sa kojima granata ne može da ima kontakta."
+
+msgid "cursor/contour/type1"
+msgstr "Pojednostavljeno"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "Pri nišanjenju na neprijateljsko vozilo, deo njegove konture je ocrtan, uključujući samo oklopljene elemente koje granata može da pogodi."
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "Neprobojna zona"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "Ništa"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "Ispunjeno"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "Tekstura"
+
+msgid "cursor/contourLabel"
+msgstr "Tip ocrtavanja"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "Probojna zona"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "Ništa"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "Ispunjeno"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "Tekstura"
+
+msgid "cursor/overlapContour"
+msgstr "Iscrtavanje prepreka"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "Uključivanje iscrtavanja može da smanji performanse."
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "Prikazuje prepreke granata prilikom nišanjenja na neprijateljsko vozilo.\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "Iscrtavanje prepreka"
+
+msgid "cursor/overlapContourLabel"
+msgstr "Iscrtavanje prepreka"
+
+msgid "cursorTitle"
+msgstr "Nišan"
+
+msgid "defaultBtn"
+msgstr "Standardno"
+
+msgid "defaultNamePrefix"
+msgstr "Igrač"
+
+msgid "dynamicCamera"
+msgstr "Omogući dinamičku kameru"
+
+msgid "dynamicFov"
+msgstr "Dinamično Vidno Polje (FoV)"
+
+msgid "dynamicFov/description"
+msgstr "Dinamično vidno polje dozvoljava podešavanje minimalnog i maksimalnog ugla pogleda u arkadnom pogledu.\n\nMinimalni ugao se koristi kada je kamera odzumirana dalje od vozila.\n\nMaksimalni ugao se koristi kada je je zumirana na vozilo."
+
+msgid "dynamicRenderer"
+msgstr "3D Render Rezolucija"
+
+msgid "dynamicRenderer/description"
+msgstr "Određuje kvalitet detalja scene.\n\nDinamička rezolucija u borbi može biti promenjena upotrebom tastera [desni Shift + i [desni Shift -].\n\nSmanjenjem ovog parametra može se popraviti učinkovitost igre ya računare sa slabijim grafičkim karticama."
+
+msgid "edgeDetectAA"
+msgstr "AA detekcijom ivica"
+
+msgid "feedBack"
+msgstr "Informacije u borbi"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "Granica mape"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "Šteta nakon nanesenog šoka"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "Poeni zauzimanja baze"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "Resetovanje poena zauzimanja"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "Šteta blokirana"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "Zapaljeno neprijateljsko vozilo"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "Kritična šteta"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "Otkrivanje"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "Naneta šteta prilikom uočavanja"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "Šteta pogodkom"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "Neprijateljskih vozila uništeno"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "Šteta nakon sudaranja"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "Gusenica uništeno"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "Naziv dogadjaja"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "Kritična šteta"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "Šteta"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "Prikaži u borbi"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "Informacije o vozilu"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "Šteta od udara"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "Sve situacione veštine"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "3 najskorija događaja\nsu prikazana u borbi"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "Dogadjaji u borbi"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "Notifikacije"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "Događaji"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "Veštine posade"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "Primljena šteta"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "Borbena efikasnost"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "Primljena šteta"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "Sakrivanje granice mape može rezultovati gubitkom orijentacije u borbi."
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "Nakon pritiskanja Alt"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "Uvek osvetljena"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "Ne osvetljavaj"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "Prilikom prilaska"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "Dodatno osvetljavanje"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "Istačkana linija"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "Ne prikazuj"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "Tip granice"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "Zid"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "Indikator smera paljbe"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "Prijateljska vatra"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "Količina štete"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "Pogodak blokiran"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "Kritičan pogodak\nu tvoje vozilo"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "x3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "Primljena šteta"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "Modul oštećen"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "Informacije"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "Animacija prikaza"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "Količina štete"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "Dinamični indikatori"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "Informacije o vozilu"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "Prikaži u borbi"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "Sve"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "Prijateljska vatra"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "Kritični pogoci"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "Bez kritičnih"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "Prošireno"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "Standardno"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "Tip"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "Istorija"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "Naneseno nakon što si šokirao neprijatelja"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "Blokirano oklopom"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "Šteta po tvom otkivanju"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "Šteta koju si uzrokovao"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "Uvek prikaži"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Pritisni Alt za prikaz"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "Ne prikazuj"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "Detaljni prikaz"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "Svi dogadjaji na dnu"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "Primljena šteta na vrhu"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "Pozicija za dogadjaje"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "Svi dogadjaji"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "Tip dogadjaja"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "Primljena šteta"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "Borbena efikasnost"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "Uključenje ove opcije se ne savetuje\nza monitore sa niskom rezolucijom"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "Zbirna šteta"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "Blok za detaljne informacije o šteti. Prikazuje kompletne informacije i tvojoj efektivnosti u borbi."
+
+msgid "feedback/tab/eventsInfo"
+msgstr "Dogadjaji u borbi"
+
+msgid "feedback/tab/questsProgress"
+msgstr "Borbeni izveštaj & misije"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "Borbeni rezultat"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "Detalji misije"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "Prikaži ikonice vozila\npo nivou"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "Prikaži liniju izdržljivosti\ntima"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "Prikaži razliku izdržljivosti\ntima"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "Prikaži vrednost izdržljivosti\ntima"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "Prikaži sve"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "Prikaži samo napredak"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "Alternativno"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "Ne prikazuj"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "Standardno"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "Prikaži misije"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "Vidno polje (FoV)"
+
+msgid "fov/description"
+msgstr "Određuje vidno polje kamere.\n\n95° je normalno FoV (vidno polje). Sto je manji FoV, objekti su bliži ali se smanjuje periferni vid.\n\nNe utiče na performanse igre."
+
+msgid "game/anonymizer"
+msgstr "Sakriva tvoj nadimak u borbi"
+
+msgid "game/battleLoadingInfo"
+msgstr "Saveti na ekranu učitavanja bitke"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "Minimapa"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "Samo tekst"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "Ilustrovani saveti"
+
+msgid "game/battlePanelSettings"
+msgstr "Borbeni interfejs"
+
+msgid "game/carouselType"
+msgstr "Panel vozila"
+
+msgid "game/carouselType/double"
+msgstr "Dva nivoa"
+
+msgid "game/carouselType/single"
+msgstr "Jedan nivo"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "Prikazuje statistiku kada je kursor iznad mesta u garaži"
+
+msgid "game/commanderCamEnabled"
+msgstr "Omogući taktički pogled"
+
+msgid "game/customizationDisplayType"
+msgstr "Prikaži elemente prilagođavanja u borbi"
+
+msgid "game/customizationDisplayType/all"
+msgstr "Istorijski, ne istorijski i fikcija"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "Istorijski"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "Istorijski i neistorijski"
+
+msgid "game/displayPlatoonMembers"
+msgstr "Prikaži vozila članova voda u garaži"
+
+msgid "game/doubleCarousel/label"
+msgstr "Panel vozila u dva nivoa"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "Adaptivni"
+
+msgid "game/doubleCarouselType/small"
+msgstr "Minimalistični"
+
+msgid "game/dynamicCamera"
+msgstr "Omogući dinamičku kameru"
+
+msgid "game/enableBattleNotifier"
+msgstr "Prikaži prethodne borbene rezultate u četu"
+
+msgid "game/enableMortalPostEffect"
+msgstr "Omugući post-efekte posle smrti"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "Uključuje optičke efekte u Snajper režimu."
+
+msgid "game/enableRepairTimer"
+msgstr "Prikaži vreme opravke za oštećene module"
+
+msgid "game/enableSpeedometer"
+msgstr "Prikaz brzinomera za vozila sa točkovima"
+
+msgid "game/enableVoIP"
+msgstr "Glasovni čet"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "Borbena komunikacija"
+
+msgid "game/fieldset/headerChat"
+msgstr "Čet"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "Minimapa"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "Markeri Vozila"
+
+msgid "game/hangarCamCheckbox"
+msgstr "Animacija kamere u garaži pri pomeranju miša"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "Rotacija kamere u garaži bez aktivnosti za"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "Animacija kamere garaže"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "Nikada"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 sekundi"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 sekundi"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 sekundi"
+
+msgid "game/horStabilizationSnp"
+msgstr "Horizontalna stabilizacija u snajperskom režimu"
+
+msgid "game/hullLockEnabled"
+msgstr "Uključi zaključ. trupa u snajperskom režimu"
+
+msgid "game/increasedZoom/base"
+msgstr "Uključi %(zooms)s"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " i "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "Prikaži izbor servera nakon starta igre"
+
+msgid "game/minimapDrawRange"
+msgstr "Prikaži iscrtan krug"
+
+msgid "game/minimapGroupTitle"
+msgstr "Minimapa"
+
+msgid "game/minimapMaxViewRange"
+msgstr "Prikaži krug maksimalnog vidnog polja"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "Prikaži krug uočavanja"
+
+msgid "game/minimapViewRange"
+msgstr "Prikaži krug videokruga"
+
+msgid "game/newbeeTipsTitle"
+msgstr "Saveti"
+
+msgid "game/newbieBattleHints"
+msgstr "Omogući savete za početnike u nasumičnim borbama"
+
+msgid "game/newbiePrebattleHints"
+msgstr "Omogući savete za početnike na ekranu učitavanja borbe"
+
+msgid "game/optimizeGraphics"
+msgstr "Optimizuj grafiku interfejsa"
+
+msgid "game/playersPanelState/large"
+msgstr "Dug"
+
+msgid "game/playersPanelState/medium"
+msgstr "Srednji"
+
+msgid "game/playersPanelState/none"
+msgstr "Bez"
+
+msgid "game/playersPanelState/short"
+msgstr "Kratki"
+
+msgid "game/postmortemMode"
+msgstr "Posmrtni režim"
+
+msgid "game/postmortemMode/analysis"
+msgstr "Pokaži momenat kada je tvoje vozilo uništeno (detaljno)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "Pokaži neprijateljsko vozilo koje je uništilo tvoje vozilo"
+
+msgid "game/postmortemMode/self"
+msgstr "Pokaži tvoje vozilo"
+
+msgid "game/postmortemMode/simple"
+msgstr "Pokaži momenat kada je tvoje vozilo uništeno (kratko)"
+
+msgid "game/ppShowLevels"
+msgstr "Prikaži nivo vozila"
+
+msgid "game/ppShowTypes"
+msgstr "Prikaži vrstu vozila"
+
+msgid "game/ppStartStateLabel"
+msgstr "Tip"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "Omogući kameru komandira"
+
+msgid "game/replayEnabled"
+msgstr "Uključi snimanje bitke"
+
+msgid "game/replayEnabled/all"
+msgstr "Sve"
+
+msgid "game/replayEnabled/last"
+msgstr "Poslednje"
+
+msgid "game/replayEnabled/none"
+msgstr "Ne"
+
+msgid "game/showArtyHitOnMap"
+msgstr "Prikaži oblast pogotka artiljerije"
+
+msgid "game/showDamageIcon"
+msgstr "Prikaži obaveštenje kada šteta nije naneta"
+
+msgid "game/showDogTag"
+msgstr "Prikaži pločicu"
+
+msgid "game/showDogTagToKiller"
+msgstr "Prikaži svoju primenjenu prilagođenu pločicu"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "Prikaži info o uništenim vozilima"
+
+msgid "game/showKillersDogTag"
+msgstr "Prikaži pločice igrača koji te je uništio"
+
+msgid "game/showLanguageBar"
+msgstr "Prikaži panel za jezike"
+
+msgid "game/showMarksOnGun"
+msgstr "Prikaži Ocene Izvrsnosti"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "Pogledaj svoju animiranu pločicu"
+
+msgid "game/showSectorOnMap"
+msgstr "Prikaži polje vatre za artiljeriju"
+
+msgid "game/showVectorOnMap"
+msgstr "Prikaži vektor kamere"
+
+msgid "game/showVehModelsOnMap"
+msgstr "Omogući dodatne funkcije na minimapi"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Nakon pritiska Alt"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "Uvek"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "Nikada"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "Prikaži izdržljivost vozila na mini mapi"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Nakon pritiska Alt"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "Uvek"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "Nikada"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "Prikaži izdržljivost vozila na prikazu timova"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Nakon pritiska Alt"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "Uvek"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "Nikada"
+
+msgid "game/showVehicleIcon"
+msgstr "Prikaći ikone vozila"
+
+msgid "game/showVehicleLevel"
+msgstr "Prikaži nivo vozila"
+
+msgid "game/showVehiclesCounter"
+msgstr "Prikaži markere vozila na ekranu sa rezultatima borbe"
+
+msgid "game/showVictimsDogTag"
+msgstr "Prikaži pločice neprijatelja koje si ti uništio"
+
+msgid "game/sniperModeByShift"
+msgstr "Ograniči prebacivanje u snajper mod na \"Shift\" taster"
+
+msgid "game/sniperZoom"
+msgstr "Preferirano povećanje u snajper režimu"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "Poslednje upotrebljeno"
+
+msgid "game/switchEquipment"
+msgstr "Menjanje konfiguracije na ekranu učitavanja"
+
+msgid "game/w2gtEnable"
+msgstr "Uključi borbene zone na mapi"
+
+msgid "gameTitle"
+msgstr "Igra"
+
+msgid "gameplay/devMaps"
+msgstr "Igraj na mapama sa slučajnim događajima"
+
+msgid "gameplay/nations"
+msgstr "Sukobljavanje"
+
+msgid "gamma"
+msgstr "Gama"
+
+msgid "gammaBtn/label"
+msgstr "Konfiguriši"
+
+msgid "gammaWizard/apply"
+msgstr "Primeni"
+
+msgid "gammaWizard/cancel"
+msgstr "Otkaži"
+
+msgid "gammaWizard/closeBtn"
+msgstr "ZATVORI"
+
+msgid "gammaWizard/default"
+msgstr "Standardno"
+
+msgid "gammaWizard/description"
+msgstr "Pomeraj klizač dok pozadina i logo ne dostignu istu osvetljenost. Zatvori oči ili okreni glavu od monitora privremeno da bi ti detalji slike bili jedva uočljivi."
+
+msgid "gammaWizard/header"
+msgstr "Gama"
+
+msgid "gammaWizard/title"
+msgstr "Gama podešavanja"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "Dozvoljava podešavanje osvetljenja u igri, radi dostizanja optimalnog kvaliteta slike na ekranu. Cilj ove opciej je da\nkompenzuje efekte video drajvera i\npodešavanja ekrana koji utiču na vizuelni kvalitet igre."
+
+msgid "gammaWizard/tooltip/header"
+msgstr "Gama"
+
+msgid "graficTitle"
+msgstr "Grafika"
+
+msgid "graphics/block/effects"
+msgstr "Efekti"
+
+msgid "graphics/block/greenery"
+msgstr "Vegetacija"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "Teren i voda"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "Osvetljenje i post efekti"
+
+msgid "graphics/block/main"
+msgstr "Osnovni"
+
+msgid "graphics/tabAdvanced"
+msgstr "Detalji"
+
+msgid "graphics/tabScreen"
+msgstr "Ekran"
+
+msgid "graphicsQuality"
+msgstr "Kvalitet grafike"
+
+msgid "graphicsQuality/description"
+msgstr "Određuje opšti kvalitet slike. Određuje parametre u \"Detaljima\".\n\nSmanjenje vrednosti ovog parametra:\n• Može popraviti performanse igre.\n• Može da dovede do desinhronizacije u prikazivanju terena između klijenta i servera.\n\nUpotrebite minimalna grafička podešavanja samo ako vaš kompjuter ima male performanse."
+
+msgid "graphicsQualityHDSD"
+msgstr "Tipovi klijenta"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "HD klijent je instaliran"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "Standardni (SD) klijent je instaliran"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "Standardni klijent - puna igra bez tekstura maksimalnog kvaliteta.\n\nHD klijent - puna igra uključujući maksimalno kvalitetne teksture. Zahteva više mesta na hard disku od Standardnog klijenta."
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "Tipovi klijenta"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "HD klijent - puna igra uključujući maksimalno kvalitetne teksture. Zahteva više mesta na hard disku od Standardnog klijenta.\n\nStandardni klijent (SD) - puna igra bez tekstura maksimalnog kvaliteta."
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "Maksimalna (SD) i Ultra (HD) grafička podešavanja ne pružaju maksimalne vrednosti kvaliteta tekstura. Da bi se prikazale maksimalne teksture, prebaci se na HD klijent u pokretaču."
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "Anizotropsko 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "Anizotropsko 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "Anizotropsko 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "Anizotropsko 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "Blinearno"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "Ručna podešavanja"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "Efekat filma 1940te"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "Kontrast"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "Poboljšano"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "Daleko"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "Standardno"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "Visoko"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "Nisko"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "Veoma Nisko"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "Maksimum"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "Maksimalna (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "Srednje"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "Minimum"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "Prigušen"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "Blisko"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "Isključeno"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "Isključeno"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "Uključeno"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "Pojednostavljeno"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "Poboljšano"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "Tačkasta"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "Fotohromatski"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "Nasumične"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "Standard"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "Zasićenost"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "Blage Boje"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "Trilinearno"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "Ultra"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "Ultra (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "Veoma Visoko"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "Veoma Visoko"
+
+msgid "igbHardwareAcceleration"
+msgstr "Hardversko ubrzanje pretraživača"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "Kada je ovo podešavanje uključeno, sadržaj sa interneta će biti prikazan koristeći grafičku kartu umesto procesora.\n\nIsključi ga ako imaš probleme pri prikazivanju sadržaja nekih prozora.\n\nPromena će biti primenjena nakon ponovnog pokretanja igre."
+
+msgid "interfaceScale"
+msgstr "Skaliranje interfejsa"
+
+msgid "interfaceScale/attention"
+msgstr "Opcija je trenutno u test fazi;\nne utiče na performanse igre."
+
+msgid "interfaceScale/body"
+msgstr "Automatsko povećanje veličine elemenata interfejsa\nkada se poveća ekran/prozor igre."
+
+msgid "interfaceScale/description"
+msgstr "Automatsko povećanje veličine elemenata interfejsa kada se poveća ekran/prozor igre."
+
+msgid "interfaceScale/header"
+msgstr "Skaliranje interfejsa"
+
+msgid "interfaceScale/warning"
+msgstr "Opcija je trenutno u test fazi; ne utiče na performanse igre."
+
+msgid "interfaceScaleDisabled"
+msgstr "Skaliranje interfejsa"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "Dostupno samo za 4K monitore."
+
+msgid "interfaceScaleDisabled/body"
+msgstr "Automatsko povećanje veličine elemenata interfejsa\nkada se poveća ekran/prozor igre."
+
+msgid "interfaceScaleDisabled/description"
+msgstr "Automatsko povećanje veličine elemenata interfejsa kada se poveća ekran/prozor igre."
+
+msgid "interfaceScaleDisabled/header"
+msgstr "Skaliranje interfejsa"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "Dostupno samo za 4K monitore."
+
+msgid "isColorBlind"
+msgstr "Mod za daltoniste"
+
+msgid "isColorBlind/description"
+msgstr "Prilagođavanje palete boja za daltonizam."
+
+msgid "keyboard/backDraftInvert"
+msgstr "Obrnuta inverzija"
+
+msgid "keyboard/keyboard"
+msgstr "Tastatura"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "Potvrdno!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "Specijalni nišan"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "Fiksiranje trupa / prebacivanje režima"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "Nazad"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "Nazad"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "\"Ručna kočnica\""
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "Dole"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "Levo"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "Desno"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "Gore"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "Ispali salvu"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "Povlačenje!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "Pucaj"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "Napred"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "Napred"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "Napušteno vozilo (u Frontu)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "Upomoć!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "Označi poziciju"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "Označi aktivnu metu"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "Potrošni mat. 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "Potrošni mat. 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "Potrošni mat. 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "Potrošni mat. 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "Potrošni mat. 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "Potrošni mat. 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "Potrošni mat. 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "Potrošna roba 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "Potrošna roba 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "Potrošni mat. 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "Levo"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "Auto nišan"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "Isključi auto nišan"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "Ne!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "Pritisni-za-govor"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "Napuni šaržer granatama"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "Punim!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "Desno"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "Sakrij interfejs borbe"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "Aktiviranje ličnih rezervi"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "Napredak za lične misije"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "Prikaži komandni meni / Potvrdi komandu"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "Veličina - smanji"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "Veličina - povećaj"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "Specijalna sposobnost"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "Stani i pucaj"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "Hvala!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "Menjaj lampu oklopa"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "Prikaz trajektorije"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "Podesi zvučni signal"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "Sakrij/Prikaži"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "Uključi / Isključi glasovne poruke u dinamičnim vodovima"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "Kamera"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "Kontrola kretanja"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "Potrošna roba"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "Paljba"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "Minimapa"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "Kretanje"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "Poruke"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "Komunikacija tima"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "Ostalo"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "Glasovni čet"
+
+msgid "keyboard/mouse"
+msgstr "Miš"
+
+msgid "keyboardTitle"
+msgstr "Kontrole"
+
+msgid "limitedUI/desc"
+msgstr "Postepeni prikaz skrivenih elemenata interfejsa u garaži"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "Isključeno"
+
+msgid "marker/AllyTitle"
+msgstr "Saveznici"
+
+msgid "marker/DeadTitle"
+msgstr "Uništen"
+
+msgid "marker/EnemyTitle"
+msgstr "Neprijatelj"
+
+msgid "marker/aimMarker2D"
+msgstr "Indikator auto nišanjenja"
+
+msgid "marker/alt"
+msgstr "Alternativno"
+
+msgid "marker/base"
+msgstr "Normalno"
+
+msgid "marker/damage"
+msgstr "Primljena šteta"
+
+msgid "marker/dead"
+msgstr "Prikaži za uništene"
+
+msgid "marker/hp"
+msgstr "Jačina vozila"
+
+msgid "marker/hp/type0"
+msgstr "Procenat %"
+
+msgid "marker/hp/type1"
+msgstr "HP ostalo / ukupno"
+
+msgid "marker/hp/type2"
+msgstr "HP ostalo"
+
+msgid "marker/hp/type3"
+msgstr "Ne prikazuj"
+
+msgid "marker/hpIndicator"
+msgstr "Indikator jačine"
+
+msgid "marker/icon"
+msgstr "Ikona vozila"
+
+msgid "marker/level"
+msgstr "Nivo"
+
+msgid "marker/level/tooltip/body"
+msgstr "Kada se ova opcija uključi, nivo će se prikazivati iznad vozila.\n\nU Čeličnom lovcu, trenutni nivo nadogradnje je prikazan."
+
+msgid "marker/level/tooltip/header"
+msgstr "Nivo"
+
+msgid "marker/name"
+msgstr "Ime vozila"
+
+msgid "marker/name/type2"
+msgstr "Ne prikazuj"
+
+msgid "marker/nickname"
+msgstr "Igrač"
+
+msgid "markerTitle"
+msgstr "Marker"
+
+msgid "minimap/labels/alpha"
+msgstr "Prozračnost minimape"
+
+msgid "minimap/labels/size"
+msgstr "Maksimalna veličina"
+
+msgid "monitor"
+msgstr "Monitor"
+
+msgid "monitor/description"
+msgstr "Odaberi primarni monitor za igru."
+
+msgid "mouse/sensitivity/art"
+msgstr "Artiljerijski nišan"
+
+msgid "mouse/sensitivity/art2"
+msgstr "Prikaz trajektorije"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "Slobodna kamera"
+
+msgid "mouse/sensitivity/header"
+msgstr "Osetljivost"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "Horizontalna inverzija"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "Vertikalna inverzija"
+
+msgid "mouse/sensitivity/main"
+msgstr "Arkadni nišan"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "Snajperski nišan"
+
+msgid "mouse/startDist"
+msgstr "Položaj kamere"
+
+msgid "ok_button"
+msgstr "OK"
+
+msgid "otherSettings/fieldset/header"
+msgstr "Elementi zvuka okoline"
+
+msgid "otherSettings/labels/bulb"
+msgstr "Zvuk aktivacije Šestog čula"
+
+msgid "otherTitle"
+msgstr "Ostalo"
+
+msgid "physicsQuality"
+msgstr "Kvalitet fizike zvuka"
+
+msgid "refreshRate"
+msgstr "Rata Osvežavanja Monitora"
+
+msgid "refreshRate/default"
+msgstr "Standardno"
+
+msgid "refreshRate/description"
+msgstr "Osvežavanje slike na monitoru.\n\nNizak nivo osvežavanja može prouzrokovati treptanje ekrana.\n\nNe utiče na performanse igre."
+
+msgid "resolution"
+msgstr "Rezolucija ekrana"
+
+msgid "resolution/description"
+msgstr "Horizontalna i vertikalna rezolucija ekrana u režimu preko celog ekrana. Veća rezolucija povećava kvalitet slike. Pogrešan izbor rezolucije u režimu preko celog ekrana može dovesti do pogrešnog prikaza.\n\nPovećanje ovog parametra utiče na povećanje optrećenja na grafičku karticu i može dovesti do smanjenja perfromansi igre.\n\nOpterećenje na grafičku karticu se može smanjiti upotrebom 3D rezolucija."
+
+msgid "restartNewbieBattleHints"
+msgstr "Poništi savete za početnike"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "Poništi istoriju saveta za početnike da bi dobio ponovo savete koji su ti već prikazani."
+
+msgid "screenMode"
+msgstr "Režim igre"
+
+msgid "screenMode/borderless"
+msgstr "U prozoru (bez ivica)"
+
+msgid "screenMode/description"
+msgstr "Prebacivanje izmedju režima preko punog ekrana, u prozoru i prozoru (bez ivica). Režim u prozoru će umanjiti performanse igre."
+
+msgid "screenMode/fullscreen"
+msgstr "Preko celog ekrana"
+
+msgid "screenMode/label"
+msgstr "Režim:"
+
+msgid "screenMode/windowed"
+msgstr "U Prozoru"
+
+msgid "smoothing/description"
+msgstr "Određuje stepen dodatnog precesiranja tankih linija i kontura objekata u igri i scene. Smanjuje Aliasing efekat. Konture objrekata izgledaju prirodnije."
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "Standardno"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "Korisnički zvuci"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "Varijanta 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "Varijanta 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "Korisnički zvuci"
+
+msgid "sound/dynamicRange/label"
+msgstr "Dinamični domet"
+
+msgid "sound/fieldset/header"
+msgstr "Jačina"
+
+msgid "sound/players_notifications"
+msgstr "Obaveštenja od ostalih igrača"
+
+msgid "sound/presets/title"
+msgstr "Predlošci"
+
+msgid "sound/soundModes/U01"
+msgstr "Korisnički 1"
+
+msgid "sound/soundModes/U02"
+msgstr "Korisnički 2"
+
+msgid "sound/soundModes/U03"
+msgstr "Korisnički 3"
+
+msgid "sound/soundModes/U04"
+msgstr "Korisnički 4"
+
+msgid "sound/soundModes/default"
+msgstr "Standard"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "Komandir"
+
+msgid "sound/special/field/set"
+msgstr "Jačina zvuka dogadjaja u igri"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "Osvežavanje uređaja"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "Završi test"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "Počni test"
+
+msgid "sound/vivox/fade_volume"
+msgstr "Opšti nivo okoline tokom razgovora"
+
+msgid "sound/vivox/master_volume"
+msgstr "Jačina glasovnog četa"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "Osetljivost mikrofona"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Test glasa"
+
+msgid "soundTitle"
+msgstr "Zvuk"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "Auto izbor"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "2.0/2.1 zvučnici"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "5.1 zvučnici"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "7.1 zvučnici"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "slušalice"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "Centar"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "Levi"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "Levi zadnji"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "Levi prednji"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "Levi strana"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "Desni"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "Desni zadnji"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "Desni prednji"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "Desni strana"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "Subwoofer"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "laptop"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "Test zvučnika:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "Test zvuka"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "Glasovne poruke zavise od nacije vozila i pola komandira"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "Komandir"
+
+msgid "sounds/altVoice/default/body"
+msgstr "Muški glas u jeziku klijenta igre"
+
+msgid "sounds/altVoice/default/header"
+msgstr "Standardno"
+
+msgid "sounds/ambient"
+msgstr "Ambijent"
+
+msgid "sounds/arena"
+msgstr "Muzika u borbi"
+
+msgid "sounds/artyBulbVoices"
+msgstr "Otkrivanje zvuka"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "Izaberi jednu od varijanti alarma prilikom aktiviranja otkrivanja zvuka. Da bi upotrebio svoj sopstveni alarm, preimenuj svoj .mp3 fajl u \"soundExploring\" i premesti ga u \"res/audioww\" direktorijum."
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "Alarm aktiviranja otkrivanja zvuka"
+
+msgid "sounds/bassBoost"
+msgstr "Pojačanje niskih frekvencija"
+
+msgid "sounds/bassBoost/description"
+msgstr "Pojačava niske frekvencije u igri dok glavna jačina zvuka ostaje ista. Implementacija moda zavisi od izabranog zvučnog sistema (zvučnici, slušalice ili laptop)."
+
+msgid "sounds/bulbVoices"
+msgstr "Šesto čulo"
+
+msgid "sounds/bulbVoices/description"
+msgstr "Izaberi jednu od varijanti za zvuk akcivacije šetog čula. Da bi koristio svoj zvuk, preimenuj svoj .mp3 fajl u sixtSense i premesti ga u res/audioww folder."
+
+msgid "sounds/effects"
+msgstr "Efekti"
+
+msgid "sounds/gui"
+msgstr "Interfejs"
+
+msgid "sounds/hangar"
+msgstr "Muzika u garaži"
+
+msgid "sounds/masterVolume"
+msgstr "Opšti nivo jačine"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "Uključi zvuk"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "Gašenje zvučnih efekata može poboljšati performanse igre. Restart klijenta je potreban da bi se primenula podešavanja."
+
+msgid "sounds/nightMode"
+msgstr "Noćni režim"
+
+msgid "sounds/nightMode/description"
+msgstr "Izjednačuje razlike u jačini zvuka, smanjuje oštre zvuke, i uklanja niske frekvencije iz igre, pružajući komforan zvučni ugodjaj za kasno noćno igranje."
+
+msgid "sounds/physicsQuality/attention"
+msgstr "Uključivanje ove opcije može da utiče na performanse."
+
+msgid "sounds/physicsQuality/body"
+msgstr "Kontroliše kvalitet fizike zvuka. \n\nSimulira kako se zvuk savija oko prepreka i prolazi kroz površine na mapi.\n\nKoristi geometriju mape da generiše refleksije zvuka tenkova koji se odbijaju o obližnje objekte\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "Kvalitet fizike zvuka"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "Isključeno"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "Visoko"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "Nisko"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "Srednje"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "Preporučeno"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "Određuje optimalan kvalitet fizike zvuka za tvoj kompjuter.\n\nOvo može potrajati."
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "Preporučeno"
+
+msgid "sounds/sixthSense/body"
+msgstr "Korisnički prilagođen zvuk. Prebaci sixtSense.mp3 fajl u res/audioww folder."
+
+msgid "sounds/sixthSense/header"
+msgstr "Jedinstveni"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "2.0/2.1 Zvučnici"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "Menja zvučne efekte u igri za eksterne uparene zvučnike celog spektra (2.0) ili uparene zvučnike visokih frekvencija plus jedan zvučnik niskih frekvencija (2.1)."
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "2.0/2.1 Zvučnici"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "5.1 Zvučnici"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "Podesi pozicioniranje zvuka u igri za eksterne zvučnike i subwoofer u multikanalnom 5.1 sistemu."
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "5.1 Zvučnici"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "7.1 Zvučnici"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "Podesi pozicioniranje zvuka u igri za eksterne zvučnike i subwoofer u multikanalnom 7.1 sistemu."
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "7.1 Zvučnici"
+
+msgid "sounds/soundDevice/auto"
+msgstr "Auto izbor"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "Automatski bira podešavanja audio konfiguracije prema oprativnom sistemu"
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "Auto izbor"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "Slušalice"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "Menja zvukove u igri za slušalice."
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "Slušalice"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "Laptop"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "Koristi pozicioni princip za 2.0/2.1 zvučni sistem ali menja zvuk u igri za prikaz na malim zvučnicima laptopa sa što većim kvalitetom."
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "Laptop"
+
+msgid "sounds/soundQuality"
+msgstr "Zvuk niskog kvaliteta (LQ)"
+
+msgid "sounds/soundQuality/description"
+msgstr "Smanjenje kvaliteta zvuka može poboljšati opšte performanse igre na slabijim računarima. Uključivanje ovog režima značajno umanjuje broj zvukova koji se reprodukuju istovremeno."
+
+msgid "sounds/speakers/back/body"
+msgstr "Test zvuka na desnom/levom zadnjem zvučniku."
+
+msgid "sounds/speakers/back/header"
+msgstr "Desni/Levi zadnji zvučnik"
+
+msgid "sounds/speakers/center/body"
+msgstr "Test zvuka na centralnom zvučniku."
+
+msgid "sounds/speakers/center/header"
+msgstr "Centralni zvučnik"
+
+msgid "sounds/speakers/front/body"
+msgstr "Test zvuka na desnom/levom prednjem zvučniku."
+
+msgid "sounds/speakers/front/header"
+msgstr "Desni/Levi prednji zvučnik"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "U 2.0/2.1 sistemu, subwoofer predstavlja opcioni uredjaj. Nemože biti testiran bez zvučnika."
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "Opcioni subwoofer"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "Test zvuka na desnom/levom zvučniku sa strane."
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "Desni/Levi zvučnik sa strane"
+
+msgid "sounds/speakers/sides/body"
+msgstr "Test zvuka na desnom/levom zvučniku."
+
+msgid "sounds/speakers/sides/header"
+msgstr "Desni/Levi zvučnik"
+
+msgid "sounds/speakers/sub/body"
+msgstr "Test zvuka na subwooferu."
+
+msgid "sounds/speakers/sub/header"
+msgstr "Subwoofer"
+
+msgid "sounds/subtitles"
+msgstr "Titlovi"
+
+msgid "sounds/tabCommon"
+msgstr "Glavni zvuk"
+
+msgid "sounds/tabSpecial"
+msgstr "Dogadjaj u igri"
+
+msgid "sounds/tabVivox"
+msgstr "Glasovni čet"
+
+msgid "sounds/vehicles"
+msgstr "Vozila"
+
+msgid "sounds/voiceNotification"
+msgstr "Glasovne notifikacije"
+
+msgid "title"
+msgstr "Podešavanja"
+
+msgid "tripleBuffered"
+msgstr "Trostruki bafer"
+
+msgid "tripleBuffered/description"
+msgstr "Smanjuje cepanje slike prilikom iscrtavanja novog frejma (moguće samo sa uključenom vertikalnom sinhronizacijom)."
+
+msgid "vertSync"
+msgstr "Vertikalna sinhronizacija"
+
+msgid "vertSync/Off"
+msgstr "Isk."
+
+msgid "vertSync/On"
+msgstr "Uklj."
+
+msgid "vertSync/description"
+msgstr "Sinhronizacija broja frejmova sa ratom osvežavanja monitora.\n\n60 frejmova po sekundi je limit. Može se koristiti u slučaju efekta drhtave slike ili kašnjenja slike na dnu u odnosu na vrh."
+
+msgid "voice_chat/PTT"
+msgstr "Pritisni-za-govor"
+
+msgid "voice_chat/fieldset/header"
+msgstr "Jačina"
+
+msgid "voice_chat/header/common"
+msgstr "Glavno"
+
+msgid "voice_chat/header/microphone"
+msgstr "Mikrofon"
+
+msgid "voice_chat/header/speakers"
+msgstr "Slušalice"
+
+msgid "voice_chat/microphone"
+msgstr "Mikrofon"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "Mikrofon"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "Uključi Mikrofon"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "Uključivanje glasovne komunikacije"
+
+msgid "windowSize"
+msgstr "Veličina prozora"
+
+msgid "windowSize/description"
+msgstr "Horizontalna i vertikalna rezolucija prozora klijenta igre. Kada se pređe u režim preko celog ektrana podešavanje postaje \"Rezolucija Ekrana\"."
+
+msgid "windowTitle"
+msgstr "WoT Client"

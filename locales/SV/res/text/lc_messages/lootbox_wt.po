@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "%(count) återstående modul"
+msgstr[1] "%(count) återstående moduler"
+msgstr[2] "%(count) återstående moduler"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Tillbaka till moduler"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "Modulerna kan innehålla Premiumvagnar, spelvaluta eller annat värdefullt spelinnehåll."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "Du kan köpa Paradoxmoduler i affären eller Premiumaffären."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Paradoxmodul"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "PARADOXMODUL"
+
+msgid "common/getButton/lowerCase"
+msgstr "Skaffa moduler"
+
+msgid "common/getButton/upperCase"
+msgstr "SKAFFA MODULER"
+
+msgid "common/loader"
+msgstr "Modulöppning..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Öppna moduler för att se statistik."
+
+msgid "common/statistics/header"
+msgstr "Öppnade moduler: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "All information om öppnade moduler raderas."
+
+msgid "entryPoint/boxes"
+msgstr "TILL MODULER"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Detta är specialmoduler med nytt och unikt innehåll, bl.a Premiumvagnar, utseendeelement, spelvaluta och andra värdefulla saker m.m.\nDu kan köpa moduler i affären i spelet eller i Premiumaffären."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Moduler kan inte öppnas eller erhållas för tillfället på grund av tekniska problem. Vi ber om ursäkt för besväret."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Moduler tillfälligt ej tillgängliga"
+
+msgid "eventName/lowerCase"
+msgstr "Bryt paradoxen"
+
+msgid "eventName/upperCase"
+msgstr "BRYT PARADOXEN"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garanterad belöning i nästa modul!"
+
+msgid "guaranteedTitle/text"
+msgstr "Max antal moduler innan garanterad belöning: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Om du inte öppnar alla moduler innan evenemanget avslutas kommer de öppnas automatiskt."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Om du redan äger alla vagnar i listan över möjligt innehåll kommer alla vagnar du får från moduler kompenseras med respektive värde i guld."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Du är garanterad en Premiumvagn för varje %(guaranteed0)s moduler du öppnar. Om du öppnar så många moduler utan att få en vagn så kommer den %(guaranteed0)s:e modulen innehålla en Premiumvagn du inte redan äger. Därefter nollställs räkningen."
+
+msgid "infoPage/header/description"
+msgstr "Öppna modulen för en chans att få värdefullt spelinnehåll! Läs mer nedan."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Från %(name) (%(boxesCount) öppnade moduler)"
+
+msgid "noBoxesView/description/"
+msgstr "Du har inga moduler. Du kan köpa dem\ni affären i spelet eller Premiumaffären."
+
+msgid "preview/backLabel"
+msgstr "TILL MODULER"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Tillgängliga moduler: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Inga moduler tillgängliga"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Om du redan äger alla vagnar i listan över möjligt innehåll kommer alla vagnar du får från moduler kompenseras med respektive värde i guld."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) modul"
+msgstr[1] "%(remainingCount) moduler"
+msgstr[2] "%(remainingCount) moduler"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Den garanterade belöningen är en vagn från listan över möjligt innehåll.\nOm du öppnar %(remainingCount) utan att få en vagn från listan kommer du få en när du öppnar den %(count):e modulen. Därefter återställs räkningen."

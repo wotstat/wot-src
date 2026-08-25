@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Zurück zu den Kisten"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Smaragdkiste"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "SMARAGDKISTE"
+
+msgid "common/getButton/lowerCase"
+msgstr "Kisten holen"
+
+msgid "common/getButton/upperCase"
+msgstr "KISTEN HOLEN"
+
+msgid "common/loader"
+msgstr "Kiste wird geöffnet ..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Öffnen Sie Kisten, um die Statistik zu sehen."
+
+msgid "common/statistics/header"
+msgstr "Geöffnete Kisten: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Alle Informationen zu geöffneten Kisten werden gelöscht."
+
+msgid "entryPoint/boxes"
+msgstr "ZU DEN KISTEN"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Dies sind besondere Kisten, die Premiumfahrzeuge, 3D-Aufsätze, Kreditpunkte und andere wertvolle Spielgegenstände enthalten.\nSie können sie im Nachschub erhalten."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Derzeit können Kisten aus technischen Gründen nicht gekauft oder geöffnet werden. Wir bitten für die Unannehmlichkeiten um Entschuldigung."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Kisten sind vorübergehend nicht verfügbar"
+
+msgid "eventName/lowerCase"
+msgstr "Glorreich in Grün"
+
+msgid "eventName/upperCase"
+msgstr "GLORREICH IN GRÜN"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garantierte Belohnung in der nächsten Kiste!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maximale Kisten bis zur garantierten Belohnung: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Wenn Sie die Kisten vor dem Ende des Events nicht geöffnet haben, werden diese automatisch geöffnet."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Wenn Sie bereits alle Fahrzeuge von der Liste möglicher Inhalte besitzen, werden alle folgenden in Kisten gefundenen Fahrzeuge mit ihrem vollen Wert in Gold vergütet."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Spätestens jede %(guaranteed0)s. Kiste enthält garantiert ein Fahrzeug der Stufe VIII–IX. Wenn Sie also zuvor noch keins erhalten haben, wird spätestens die %(guaranteed0)s&zwnbsp;. Kiste garantiert ein Fahrzeug der Stufe VIII–IX enthalten, das Sie noch nicht besitzen. Der Zähler wird durch den Erhalt zurückgesetzt."
+
+msgid "infoPage/header/description"
+msgstr "Öffnen Sie die Kiste für eine Chance auf wertvolle Spielgegenstände! Weitere Details finden Sie unten."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Aus %(name) (%(boxesCount) Kisten geöffnet)"
+
+msgid "noBoxesView/description/"
+msgstr "Sie haben keine Kisten.\nSie können diese im Nachschub erhalten."
+
+msgid "preview/backLabel"
+msgstr "ZU DEN KISTEN"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Verfügbare Kisten: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Keine Kisten verfügbar"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Wenn Sie bereits alle Fahrzeuge von der Liste der möglichen Inhalte der Kiste besitzen, werden alle folgenden Fahrzeuge, die Sie aus den Kisten erhalten, in Gold vergütet."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) Kiste"
+msgstr[1] "%(remainingCount) Kisten"
+msgstr[2] "%(remainingCount) Kisten"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Die garantierte Belohnung ist ein Fahrzeug von der Liste der möglichen Inhalte der Kiste.\nWenn Sie %(remainingCount) Kisten öffnen, ohne ein solches Fahrzeug zu erhalten, ist es garantiert in der %(count). Kiste enthalten. Der Zähler wird durch den Erhalt zurückgesetzt."

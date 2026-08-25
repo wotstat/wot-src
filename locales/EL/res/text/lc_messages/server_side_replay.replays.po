@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "closeButtonLabel"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "featureName"
+msgstr "REPLAYS"
+
+msgid "filter/apply"
+msgstr "Εφαρμογή Φίλτρου"
+
+msgid "filter/group/nation/title"
+msgstr "Έθνος"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Βαθμίδα"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Βαθμίδα"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Ειδίκευση"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Τύπος Οχήματος"
+
+msgid "filter/reset"
+msgstr "Επαναφορά Φίλτρου"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Προβολή/Απόκρυψη μελών πληρώματος αυτού του έθνους."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Προβολή/Απόκρυψη προσώπων πληρώματος αυτού του έθνους."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Προβολή/Απόκρυψη οχημάτων αυτού του έθνους."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Εμφάνιση/Απόκρυψη οχημάτων αυτού του τύπου."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Αντιαρματικά"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Α/Κ Πυροβόλα"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Βαρέα Άρματα"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Ελαφρά Άρματα"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Μέσα Άρματα"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Δεν βρέθηκαν οχήματα με βάση\nτα κριτήρια αναζήτησης"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Ταξινόμηση με βάση την ονομασία των οχημάτων."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Ονομασία"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Ταξινόμηση με βάση τις βαθμίδες των οχημάτων."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Βαθμίδα"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Ταξινόμηση με βάση τον τύπο οχήματος."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Τύπος"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Ονομασία"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Κλικ για εφαρμογή του φίλτρου."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Εφαρμογή επιλεγμένων φίλτρων"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Κλικ για επαναφορά του φίλτρου."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Επαναφορά Όλων Των Φίλτρων"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Προβολή μόνο των replay από την ώρα αιχμής"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "Απομένει %(count)s ημέρα"
+msgstr[1] "Απομένουν %(count)s ημέρες"
+msgstr[2] "Απομένουν %(count)s ημέρες"
+
+msgid "filterPopover/title"
+msgstr "Φίλτρα Replay"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Βρείτε τα replays με βάση τον τύπο, το έθνος, τη βαθμίδα των οχημάτων, κλπ."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Φίλτρο παραμέτρων"
+
+msgid "findReplay/buttonText/find"
+msgstr "Εύρευση replay"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Διαγραφή"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Προβολή replay!"
+
+msgid "findReplay/errorMessage"
+msgstr "Κανένα αποτέλεσμα. Κάντε νέα αναζήτηση"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Εισάγετε εδώ το ARENA_ID..."
+
+msgid "findReplay/successMessage"
+msgstr "Το AI βρήκε το replay που θέλατε! Καλή διασκέδαση"
+
+msgid "page/heading/bestReplays"
+msgstr "ΠΡΟΤΕΙΝΟΜΕΝΑ REPLAYS"
+
+msgid "page/heading/findReplay"
+msgstr "ΕΥΡΕΥΣΗ REPLAY (DEV)"
+
+msgid "page/heading/myReplays"
+msgstr "ΤΑ REPLAYS ΜΟΥ"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Ο τομέας αυτός περιέχει όλα τα Προτεινόμενα Replays από όλους τους παίκτες του WoT"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Στον τομέα αυτόν θα βρείτε replays με βάση τις επιλεγμένες παραμέτρους"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Ο τομέας αυτός περιέχει όλα τα δικά σας Προτεινόμενα Replays"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "ΠΡΟΤΕΙΝΟΜΕΝΑ REPLAYS"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Εύρευση replay"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "ΤΑ REPLAYS ΜΟΥ"
+
+msgid "statsParam/damageAssisted"
+msgstr "Κορυφαίος στη συνεισφορά"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Κορυφαίος στην αποσόβηση φθοράς"
+
+msgid "statsParam/damageDealt"
+msgstr "Κορυφαίος στην πρόκληση φθοράς"
+
+msgid "statsParam/earnedXp"
+msgstr "Κορυφαίος στα κερδισμένα XP"
+
+msgid "statsParam/kills"
+msgstr "Κορυφαίος στις καταστροφές οχημάτων"
+
+msgid "table/error/buttonText"
+msgstr "Ενημέρωση"
+
+msgid "table/error/description"
+msgstr "Μας συγχωρείτε για το προσωρινό πρόβλημα. Προσπαθήστε να ενημερώσετε τη σελίδα λίγο αργότερα."
+
+msgid "table/error/title"
+msgstr "Σφάλμα στη φόρτωση δεδομένων"
+
+msgid "table/header/damageAssisted"
+msgstr "Συνεισφορά"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Αποσόβηση Φθοράς"
+
+msgid "table/header/damageDealt"
+msgstr "Φθορά"
+
+msgid "table/header/date"
+msgstr "Ημερομηνία"
+
+msgid "table/header/earnedXp"
+msgstr "Κερδισμένα XP"
+
+msgid "table/header/kills"
+msgstr "Καταστροφές Οχημάτων"
+
+msgid "table/header/map"
+msgstr "Χάρτης"
+
+msgid "table/header/marksOfMastery"
+msgstr "Παράσημα Μαεστρίας"
+
+msgid "table/header/player"
+msgstr "Όνομα Παίκτη"
+
+msgid "table/header/vehicle"
+msgstr "Όχημα"
+
+msgid "table/noRecords/buttonText"
+msgstr "Επαναφορά Φίλτρου"
+
+msgid "table/noRecords/title"
+msgstr "Κανένα αποτέλεσμα αναζήτησης. Αλλαγή ρυθμίσεων ή επαναφορά του φίλτρου"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Κλικ για επαναφορά του φίλτρου."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Επαναφορά όλων των φίλτρων"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Φθορά από συνεισφορά του παίκτη σε αυτό το replay"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Φθορά Από Συνεισφορά"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Φθορά που αποσοβήθηκε από τον παίκτη σε αυτό το replay"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Φθορά Που Αποσόβησε Η Θωράκιση"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Φθορά στα εχθρικά οχήματα από τον παίκτη σε αυτό το replay"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Φθορά Σε Αντιπάλους"
+
+msgid "table/tooltip/date/body"
+msgstr "Ημερομηνία εγγραφής replay."
+
+msgid "table/tooltip/date/header"
+msgstr "Ημερομηνία Replay"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Κερδισμένα XP από τον παίκτη σε αυτό το replay"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Κερδισμένα XP"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Κερδισμένα επικά μετάλλια από τον παίκτη σε αυτό το replay"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Επικά Μετάλλια"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Κλικ για να προσθέσετε το συγκεκριμένο replay στα Αγαπημένα σας."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Αγαπημένα"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Κλικ για να αφαιρέσετε το συγκεκριμένο replay από τα Αγαπημένα σας."
+
+msgid "table/tooltip/kills/body"
+msgstr "Καταστροφές εχθρικών οχημάτων από τον παίκτη σε αυτό το replay"
+
+msgid "table/tooltip/kills/header"
+msgstr "Καταστροφές Οχημάτων"
+
+msgid "table/tooltip/map/body"
+msgstr "Ο χάρτης που διεξήχθη η μάχη σε αυτό το replay"
+
+msgid "table/tooltip/map/header"
+msgstr "Χάρτης"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Κερδισμένα σημαντικά μετάλλια από τον παίκτη σε αυτό το replay"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Παράσημα Μαεστρίας"
+
+msgid "table/tooltip/player/body"
+msgstr "Το όνομα του παίκτη σε αυτό το replay."
+
+msgid "table/tooltip/player/header"
+msgstr "Όνομα Παίκτη"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Το όχημα του παίκτη σε αυτό το replay."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Όχημα"
+
+msgid "tableInfo/amount"
+msgstr "Προβολή Replay: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Φίλτρο"
+
+msgid "waitingSpinner/message"
+msgstr "Φόρτωση περιεχομένου…"

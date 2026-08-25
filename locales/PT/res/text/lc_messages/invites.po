@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: Tradutor WoT <noreply@wargaming.net>\nLanguage-Team: Equipa WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sVer%(linkEndTag)s os detalhes do jogador"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sCondidatura para o Clã%(titleEndTag)s\nde %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Ver Candidaturas"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sDesactivar%(linkEndTag)s notificações"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sCandidaturas dos Jogadores: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sVer%(linkEndTag)s os detalhes do clã"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sConvite para o Clã%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Ver Convites"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sConvites de Clã: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "O jogador foi aceite no clã."
+
+msgid "clans/state/app/declined"
+msgstr "Candidatura recusado."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "A penalidade de um-dia do jogador por ter saído do clã anterior ainda não expirou."
+
+msgid "clans/state/invite/accepted"
+msgstr "Foi aceite no clã."
+
+msgid "clans/state/invite/declined"
+msgstr "Convite recusado."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "A penalidade de um-dia por ter saído do clã anterior ainda não expirou."
+
+msgid "errors/creationNotAllowed"
+msgstr "Sem permissões suficientes para criar um convite."
+
+msgid "errors/invalid"
+msgstr "Convite inválido."
+
+msgid "errors/inviteNotSupported"
+msgstr "Este tipo de convite não está disponível no momento. Tente novamente mais tarde."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "O destinatário do convite adicionou-o à sua lista de Ignorados."
+
+msgid "errors/selfinvite"
+msgstr "Não se pode convidar si próprio."
+
+msgid "errors/unknownuser"
+msgstr "Este usuário ainda não está registado no sistema."
+
+msgid "errors/useroffline"
+msgstr "Usuário está offline."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "O veículo na Garagem está danificado ou bloqueado. Selecione outro veículo."
+
+msgid "friendship/note/approved"
+msgstr "Jogador adicionado à lista de Amigos"
+
+msgid "friendship/note/canceled"
+msgstr "Pedido recusado"
+
+msgid "friendship/note/maxRoster"
+msgstr "Número máximo de contactos na lista: %(rosterMaxCount)s. Para adicionar este jogador à lista de Amigos, remova primeiro alguém da lista."
+
+msgid "friendship/note/notConnected"
+msgstr "Impossível conectar ao servidor. Por favor, aguarde."
+
+msgid "friendship/note/process"
+msgstr "A aguardar resposta do servidor"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sPedido de Amizade%(titleEndTag)s\nde %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Aceitar"
+
+msgid "gui/buttons/cancel"
+msgstr "Cancelar"
+
+msgid "gui/buttons/reject"
+msgstr "Recusar"
+
+msgid "gui/buttons/send"
+msgstr "Enviar"
+
+msgid "gui/labels/additionalText"
+msgstr "Texto adicional do convite:"
+
+msgid "gui/labels/inviteText"
+msgstr "Texto do Convite:"
+
+msgid "gui/labels/receiver"
+msgstr "Destinatário:"
+
+msgid "gui/titles/barter"
+msgstr "Convite de Troca"
+
+msgid "gui/titles/clan"
+msgstr "Convite de Clã"
+
+msgid "gui/titles/invite"
+msgstr "Convite"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Convites"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Assim que aceitar o convite, será removido automaticamente da unidade táctica e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Assim que aceitar o convite, será removido automaticamente da unidade táctica e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "Uma vez que aceite o convite, será automaticamente excluído da batalha no Mapa Global, e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "Assim que aceitar o convite, será removido automaticamente da unidade táctica e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Assim que aceitar o convite, será removido automaticamente da unidade tática e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "Assim que aceitar o convite, será removido automaticamente da unidade táctica e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Assim que aceitar o convite, será automaticamente excluído do treino de equipa no modo Linha da Frente e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "Assim que aceitar o convite, será removido automaticamente da unidade táctica e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Assim que aceitar o convite, sairá do modo de Batalha de Equipa e será transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "Assim que aceitar o convite, será removido automaticamente do Pelotão e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "Assim que aceitar o convite, irá sair do modo Fortificação: Batalhas e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "Ao aceitar o convite, irá deixar o modo dos Avanços e será transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "Após aceitar o convite, irá ser automaticamente removido do Pelotão de Missão de Reconhecimento e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "Assim que aceitar o convite, será automaticamente excluído do treino de equipa, e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "Assim que aceitar o convite, irá sair do modo Fortificação: Batalhas e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "Assim que aceitar o convite, será removido automaticamente do Pelotão e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "Ao aceitar o convite, irá deixar o destacamento actual e será transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Uma vez que aceite o convite, será automaticamente excluído do torneio, e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "Assim que aceitar o convite, será automaticamente excluído do treino de equipa, e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Assim que aceitar o convite, será automaticamente excluído do treino de equipa no modo Massacre e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Assim que aceitar o convite, sairá do modo de Batalha de Equipa e será transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "Assim que aceitar o convite, irá sair do modo Caçador de Aço e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Assim que aceitar o convite, irá sair da Grande Caçada e será transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "Assim que aceitar o convite, irá sair do Massacre e será transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "Assim que aceitar o convite, irá sair do Massacre Ligeiro e será transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "Assim que aceitar o convite, irá sair do modo Linha da Frente e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "Assim que aceitar o convite, irá sair da +++Batalha de Evento+++ e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "Após aceitar o convite, irá sair da Missão de Reconhecimento e será transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "Assim que aceitar o convite, irá sair da Topografia e será transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "Assim que aceitar o convite, irá sair das Batalhas Aleatórias e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "Após aceitar o convite, sairá do modo Batalha Classificadas e será transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "Assim que aceitar o convite, irá sair do Aquecimento e transferido para o servidor %(host)s."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "Assim que aceitar o convite, irá sair do Aquecimento e transferido para o servidor %(host)s. Não poderá começar de novo."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Assim que aceitar o convite, será removido automaticamente da unidade táctica."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Assim que aceitar o convite, será removido automaticamente da unidade táctica."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "Uma vez que aceite o convite, será automaticamente excluído da batalha do Mapa Global."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "Assim que aceitar o convite, será removido automaticamente da unidade táctica."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Assim que aceitar o convite, será removido automaticamente da unidade tática."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "Assim que aceitar o convite, será removido automaticamente da unidade táctica."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Assim que aceitar o convite, será automaticamente excluído do treino de equipa no modo Linha da Frente."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "Assim que aceitar o convite, será removido automaticamente da unidade táctica."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Assim que aceitar o convite, sairá do modo de Batalha de Equipa."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "Ao aceitar o convite, será automaticamente removido do Pelotão."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "Assim que aceitar o convite, irá sair do modo Fortificação: Batalhas."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "Ao aceitar o convite, irá deixar o modo dos Avanços."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "Após aceitar o convite, será removido automaticamente do Pelotão da Missão de Reconhecimento."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "Assim que aceitar o convite, será automaticamente excluído do treino de equipa."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "Assim que aceitar o convite, irá sair do modo Fortificação: Batalhas."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "Ao aceitar o convite, será automaticamente removido do Pelotão."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "Ao aceitar o convite, irá deixar o destacamento actual."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "Uma vez que aceite o convite, será automaticamente excluído do torneio."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "Assim que aceitar o convite, será automaticamente excluído do treino de equipa."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Assim que aceitar o convite, será automaticamente excluído do treino de equipa no modo Massacre."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Assim que aceitar o convite, sairá do modo de Batalha de Equipa."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "Assim que aceitar o convite, irá sair do modo Caçador de Aço."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Assim que aceitar o convite, irá sair da Grande Caçada."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "Assim que aceitar o convite, irá sair do Massacre."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "Assim que aceitar o convite, irá sair do Massacre Ligeiro."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "Ao aceitar o convite, irá sair do modo Linha da Frente."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "Assim que aceitar o convite, irá sair da +++Batalha de Evento+++."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "Após aceitar o convite, irá sair da Missão de Reconhecimento."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "Assim que aceitar o convite, irá sair da Topografia."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "Assim que aceitar o convite, irá sair das Batalhas Aleatórias."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "Assim que aceitar o convite, sairá do modo Batalhas Classificadas."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "Assim que aceitar o convite, irá sair do Aquecimento."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "Assim que aceitar o convite, irá sair do Aquecimento. Não poderá começar de novo."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "As alterações do servidor não serão guardadas."
+
+msgid "invites/note/server_change"
+msgstr "Será transferido automaticamente para o servidor %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "É incapaz de aceitar o convite. Para aceitar o convite, por favor selecione o servidor %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "É incapaz de aceitar o convite. Para aceitar o convite, por favor selecione outro servidor."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Já se juntou ao Pelotão."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Você já se juntou à batalha no Mapa Global."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Você já se juntou ao treino de equipa."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Você já se juntou ao Pelotão."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Você já se juntou ao Pelotão."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Você já se juntou a um destacamento."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Você já se juntou ao Pelotão."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Você já se juntou ao torneio."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Você já se juntou ao treino de equipa."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Já se juntou ao treino de equipa."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Você já se juntou à equipa."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Convite aceite."
+
+msgid "invites/state/DECLINED"
+msgstr "Convite recusado."
+
+msgid "invites/state/ERROR"
+msgstr "Convite inválido."
+
+msgid "invites/state/EXPIRED"
+msgstr "Convite inválido."
+
+msgid "invites/state/REVOKED"
+msgstr "Convite retirado."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Convite Para se Juntar ao Pelotão Caçador de Aço"
+
+msgid "invites/text/COMP7"
+msgstr "Convite Para Se Juntar ao Pelotão de Massacre"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Convite para se juntar ao Pelotão de Massacre Ligeiro"
+
+msgid "invites/text/EPIC"
+msgstr "Convite para se Juntar ao Pelotão da Linha da Frente"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Convite Para se Juntar a Equipa de Treino no Modo Linha da Frente"
+
+msgid "invites/text/EVENT"
+msgstr "Convite para o Pelotão"
+
+msgid "invites/text/FALLOUT"
+msgstr "Convite Para se Juntar ao Pelotão para %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Domínio"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Caça ao Aço"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Convite para a Batalha"
+
+msgid "invites/text/MAPBOX"
+msgstr "Convite Para se Juntar ao Pelotão da Missão de Reconhecimento"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Convite Para Explorar os Mapas"
+
+msgid "invites/text/SORTIE"
+msgstr "Convite Para se Juntar ao Destacamento"
+
+msgid "invites/text/SQUAD"
+msgstr "Convite para o Pelotão"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Convite Para se Juntar ao Destacamento"
+
+msgid "invites/text/TRAINING"
+msgstr "Convite Para se Juntar a Equipa de Treino"
+
+msgid "invites/text/UNIT"
+msgstr "Convite Para se Juntar à Equipa"
+
+msgid "invites/text/creatorName"
+msgstr "de %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Período de Defesa"
+
+msgid "invites/text/fort/direction"
+msgstr "Cabeça de ponte"
+
+msgid "invites/text/fort/offence"
+msgstr "Ataque activo"
+
+msgid "invites/warning/anonymized"
+msgstr "Após aceitar o convite, a sua alcunha e etiqueta do clã actuais serão exibidos aos membros da unidade táctica durante a batalha."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Convite enviado para %(name)s."

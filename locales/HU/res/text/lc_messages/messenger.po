@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Fordító <<noreply@wargaming.net>\nLanguage-Team: WoT Csapat <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "Új üzenetek megtekintése"
+
+msgid "battle/history/header"
+msgstr "Ellenség"
+
+msgid "battle/history/latestMessage"
+msgstr "Utolsó üzenet megtekintése"
+
+msgid "battle/history/title"
+msgstr "Beszélgetés előzmények:"
+
+msgid "battle/history/upMessage"
+msgstr "Régebbi üzenetek megtekintése"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)sCHAT KIKAPCSOLVA%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "A csata közbeni csevegés nem érhető el az országod játékosai számára."
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "A csata közbeni csevegés nem érhető el számodra."
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "A csata közbeni csevegés nem érhető el a szülői felügyelet beállításai miatt."
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "Csata közbeni chat-et a játék beállításokban lehet engedélyezni."
+
+msgid "battle/receivers/common"
+msgstr "MINDENKI"
+
+msgid "battle/receivers/squad"
+msgstr "Szakasz"
+
+msgid "battle/receivers/team"
+msgstr "CSAPAT"
+
+msgid "battle/toolTips/cancel"
+msgstr "mégse"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "vevőkészülék csere"
+
+msgid "battle/toolTips/default"
+msgstr "az előző címzettel"
+
+msgid "battle/toolTips/duringChat"
+msgstr "Chat közben:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "Letilthatod az üzeneteket a kiválasztott játékostól az üzenete melletti gombra kattintva a chatben."
+
+msgid "battle/toolTips/send"
+msgstr "küldés"
+
+msgid "battle/toolTips/startChat"
+msgstr "Chat indítása:"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "Jelenthetsz egy üzenetet, ha rákattintasz és kiválasztod a megfelelő indokot. Ez az opció egyúttal lehetővé teszi a chat letiltását vagy csapat chatre váltását. A Szakasz chat továbbra is állandóan elérhető lesz."
+
+msgid "battle/toolTips/usingChat"
+msgstr "Chat"
+
+msgid "battle/toolTips/withSquad"
+msgstr "szakasszal"
+
+msgid "battle/unknown/ally"
+msgstr "Szövetséges"
+
+msgid "battle/unknown/enemy"
+msgstr "Ellenség"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "%(curfewTime)s-kor lecsatlakoztatunk a szerverről. A játék véget ér %(timeLeft)s perc múlva."
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "Elérted a napi maximális játékidőt. A játék véget ér %(timeLeft)s perc múlva."
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "Elérted a heti maximális játékidőt. A játék véget ér %(timeLeft)s perc múlva."
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "Elérted a játékidő-korlátot. A munkamenet %(timeLeft)s perc múlva véget ér."
+
+msgid "chat/personalMessage/warningBody"
+msgstr "Az ismeretlen játékosoktól kapott üzenetek rosszindulatú hivatkozásokat tartalmazhatnak. Ne nyisd meg őket és ne add meg senkinek a jelszavad."
+
+msgid "chat/personalMessage/warningHead"
+msgstr "Figyelem!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "Csata eredmények"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "%(playerName)s üzenetei le vannak tiltva."
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "Üzenet küldése"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "Üzenet küldése"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "Játékos keresése"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "Hang kommunikáció beállítások"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "nem tudod saját magad kizárni."
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "Hiba a(z) \"%(actionName)s\" futtatásakor."
+
+msgid "chat_error/IS_BUSY"
+msgstr "A szerver elfoglalt."
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "Nincs elég jogosultságod a művelet elvégzéséhez."
+
+msgid "chat_error/NOT_READY"
+msgstr "\"%(actionName)s\" művelet nem hajtható végre."
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "a felhasználó nem létezik."
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "helytelen paraméter."
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "A hangkommunikáció ki van kapcsolva. A szakasztársaiddal való kommunikációhoz engedélyezd a hangkommunikációt a következő megnyomásával: %(keyName)s!"
+
+msgid "client/COMP7/disableVOIP"
+msgstr "Hang kommunikáció kikapcsolva. A szakasztársakkal való kommunikációhoz engedélyezd a hang kommunikációt (%(keyName)s)."
+
+msgid "client/commendations/comms_mutual"
+msgstr "Te és %(player)s elismertétek egymást."
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)s elismert téged."
+
+msgid "client/commendations/comms_sent"
+msgstr "Elismerted őt: %(player)s."
+
+msgid "client/dynSquad/created/allies"
+msgstr "Csapattársad létrehozta %(squadNum)s szakaszt."
+
+msgid "client/dynSquad/created/enemies"
+msgstr "Az ellenfél csapata létrehozta %(squadNum)s szakaszt."
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "%(squadNum)s szakasz létrehozva. A szakasz chat és hang kommunikáció mostantól elérhető. A hang kommunikáció letiltásához nyomd meg a(z) %(keyName)s gombot."
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "%(squadNum)s szakasz létrehozva. A szakasz chat és hang kommunikáció mostantól elérhető. A hang kommunikáció engedélyezéséhez nyomd meg a(z) %(keyName)s gombot."
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "%(squadNum)s szakasz létrehozva. A szakasz chat és hang kommunikáció mostantól elérhető. Állíts be egy billentyűt a hang kommunikáció engedélyezéséhez/letiltásához."
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "%(squadNum)s szakasz létrehozva. A szakasz chat mostantól elérhető."
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "Csatlakoztál a(z) %(squadNum)s szakaszhoz. A szakasz chat és hang kommunikáció mostantól elérhető. A hang kommunikáció letiltásához nyomd meg a(z) %(keyName)s gombot."
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "Csatlakoztál a(z) %(squadNum)s szakaszhoz. A szakasz chat és hang kommunikáció mostantól elérhető. A hang kommunikáció engedélyezéséhez nyomd meg a(z) %(keyName)s gombot."
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "Csatlakoztál a(z) %(squadNum)s szakaszhoz. A szakasz chat és hang kommunikáció mostantól elérhető. Állíts be egy billentyűt a hang kommunikáció engedélyezéséhez/letiltásához."
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "Csatlakoztál %(squadNum)s szakaszhoz. A szakasz chat mostantól elérhető."
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "Hang kommunikáció kikapcsolva. A csapattársakkal való kommunikációhoz engedélyezd a hang kommunikációt %(keyName)s gomb megnyomásával."
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "Hang kommunikáció engedélyezve."
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "Csatlakoztál a(z) %(squadNum)s szakaszhoz. A szakasz chat és hang kommunikáció mostantól elérhető. A hang kommunikáció letiltásához nyomd meg a(z) %(keyName)s gombot."
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "Csatlakoztál a(z) %(squadNum)s szakaszhoz. A szakasz chat és hang kommunikáció mostantól elérhető. A hang kommunikáció engedélyezéséhez nyomd meg a(z) %(keyName)s gombot."
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "Csatlakoztál a(z) %(squadNum)s szakaszhoz. A szakasz chat és hang kommunikáció mostantól elérhető. Állíts be egy billentyűt a hang kommunikáció engedélyezéséhez/letiltásához."
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "Csatlakoztál %(squadNum)s szakaszhoz. A szakasz chat mostantól elérhető."
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s csatlakozott %(squadNum)s szakaszhoz."
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s meghívott szakaszba."
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)s meghívott a szakaszba.\nFigyelem! A valós neved és klán rövidítésed látható lesz a szakasz tagjai számára."
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s meghívva a szakaszba."
+
+msgid "client/error/broadcastInCooldown"
+msgstr "Nem küldhetsz üzeneteket %s másodpercig."
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "\"%s\" parancs felfüggesztve %s másodpercig."
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "\"%s\" parancs felfüggesztve."
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "Üzenet függőben. Kérlek, várj %s mp-t."
+
+msgid "client/information/addToFriends/message"
+msgstr "A kérés %s játékos hozzáadására a Barátlistához elmentve."
+
+msgid "client/information/addToIgnored/message"
+msgstr "Elmentettük a(z) %s játékos feketelistára való felvételére vonatkozó kérésedet. A játékossal való csevegést letiltottuk, a játékos üzeneteit pedig elrejtettük."
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "Chat vele %s letiltva; a játékos üzeneteit elrejtettük."
+
+msgid "client/information/emptySearchResult/message"
+msgstr "Nincs találat."
+
+msgid "client/information/removeFromFriends/message"
+msgstr "A kérés %s játékos eltávolítására a Barátlistáról elmentve."
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "Elmentettük a(z) %s játékos feketelistáról való eltávolítására vonatkozó kérésedet. A játékossal való csevegést teljesen visszaállítottuk."
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "Chat vele %s újra elérhető"
+
+msgid "client/information/setMuted/message"
+msgstr "%s felhasználó nem küldhet neked hangüzenetet."
+
+msgid "client/information/unsetMuted/message"
+msgstr "%s felhasználó küldhet neked hangüzenetet."
+
+msgid "client/warning/AFKWarning/message"
+msgstr "A tétlenség büntetést von maga után!\nA győzelemhez csapatmunkára van szükség!"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "Üres lekérdezés"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "Felhasználók keresése"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "Érvénytelen hossz vagy érvénytelen karakter a kereső mezőben. Megengedett karakterszám %d-%d karakter."
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "Felhasználók keresése"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "Játékos hozzáadása a barátlistához"
+
+msgid "client_action/ADD_GROUP"
+msgstr "Csoport létrehozása"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "Játékos hozzáadása a tiltólistához"
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "Barátfelkérés megerősítése"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "Barátfelkérés elutasítása"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "Csoport szerkesztése"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "Játékos csatorna létrehozása"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "Játékos keresése"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "Csatlakozás a játékos csatornához"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "Játékos csatorna elhagyása"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "Játékos eltávolítása a barátlistáról"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "Játékos eltávolítása a tiltólistáról"
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "Megjegyzés törlése"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "Barátfelkérés küldése"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "Előző küldetések megtekintése"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "Játékos csatornák keresése"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "Üzenet küldése"
+
+msgid "client_action/SET_MUTE"
+msgstr "Hangüzenetek kikapcsolása"
+
+msgid "client_action/SET_NOTE"
+msgstr "Megjegyzés hozzáadása/szerkesztése"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "Hangüzenetek bekapcsolása"
+
+msgid "client_error/action/in_cooldown"
+msgstr "\"%(actionName)s\" művelet felfüggesztve %(floatArg1)s s időre."
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "\"%(actionName)s\" művelet átmenetileg nem hajtható végre. Próbáld újra később."
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "Elérted a maximálisan engedélyezett csatorna számot. Kérjük zárd be a felesleges csatornákat és próbáld újra."
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "\"%(strArg1)s\" csatorna már létezik."
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "Nincs név megadva a csatornához."
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "\"%(strArg1)s\" érvénytelen csatornanév."
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "A megerősítő jelszó nem egyezik a megadott jelszóval."
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "Nincs jelszó megadva a csatornához."
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "Érvénytelen csatornajelszó."
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "Jelszó megerősítés nincs megadva."
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "Érvénytelen jelszó megerősítés."
+
+msgid "client_error/command/generic_error"
+msgstr "Hiba a parancs futtatásakor \"%(strArg1)s\"."
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "parancs befagyasztva %(floatArg1)s."
+
+msgid "client_error/command/not_supported"
+msgstr "%(strArg1)s parancsot nem támogatja a kliens."
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "helytelen kitiltási időszak %(int64Arg1)s."
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "helytelen kitiltási típus %(int32Arg1)s."
+
+msgid "client_error/command/wrong_player_name"
+msgstr "Helytelen játékos név %(strArg1)s."
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "\"%(strArg1)s\" játékos a tiltólistádon van."
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "\"%(strArg1)s\" játékos nincs a tiltólistádon."
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "Nincs találat a játékosra."
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "Már megerősítetted \"%(strArg1)s\" barátfelkérését."
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "Már elutasítottad \"%(strArg1)s\" barátfelkérését."
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "\"%(strArg1)s\" barátfelkérésére adott válaszod feldolgozás alatt van."
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "A csoport neve nincs megadva."
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "\"%(strArg1)s\" csoport már létezik."
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "A csoport neve érvénytelen \"%(strArg1)s\""
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "\"%(strArg1)s\" csoport nem található."
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "Hangüzenetek engedélyezve \"%(strArg1)s\" játékosnak."
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "Megjegyzés nincs hozzáadva."
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "\"%(strArg1)s\" játékoshoz nincs megjegyzés"
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "\"%(strArg1)s\" játékos a barátod."
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "\"%(strArg1)s\" játékos nincs a barátlistádon."
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "A csatorna nevének %(int32Arg1)s–%(int32Arg2)s karakterekből kell állnia."
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "A csoport neve nem lépheti túl a %(int32Arg2)s karaktert."
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "A tiltólistán lévő játékosok maximális száma %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "Létrehozott csoportok maximális száma %(int32Arg2)s."
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "Sajnos csak %(int32Arg2)s játékos lehet a barátlistádon. Töröld a listáról azokat a játékosokat, akikkel nem játszol."
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "A megjegyzés szövege nem lépheti túl a %(int32Arg2)s karaktert."
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "A jelszó %(int32Arg1)s–%(int32Arg2)s karakterekből állhat."
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "Érvénytelen játékos ID"
+
+msgid "client_error/shared/GENERIC"
+msgstr "Hiba a(z) \"%(actionName)s\" futtatásakor."
+
+msgid "client_error/shared/LOCKED"
+msgstr "\"%(actionName)s\" művelet átmenetileg nem elérhető. Próbáld újra később."
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "Játékos név nincs megadva."
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "Érvénytelen játékos név %(strArg1)s"
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "Csatlakozás a chatszerverhez nem lehetséges. Próbáld újra később."
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "\"%(actionName)s\" műveletet nem támogatja a játék kliens."
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "Egy hiba lépett fel, próbálkozz újra később."
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "Néhány funkciót letiltottunk a visszaszámlálás kezdetéig."
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "Érvénytelen adat."
+
+msgid "command/acceptInvite"
+msgstr "Meghívás Elfogadása"
+
+msgid "command/addFriend"
+msgstr "Játékos hozzáadása a Barátlistához"
+
+msgid "command/addIgnored"
+msgstr "Játékos hozzáadása a tiltólistához"
+
+msgid "command/broadcast"
+msgstr "Üzenet küldése"
+
+msgid "command/createChatChannel"
+msgstr "Csatorna Létrehozása"
+
+msgid "command/createInvite"
+msgstr "Meghívás Létrehozása"
+
+msgid "command/createPrivate"
+msgstr "Magán csatorna létrehozása"
+
+msgid "command/findChatChannels"
+msgstr "Csatornák Keresése"
+
+msgid "command/findUser"
+msgstr "Játékos keresése"
+
+msgid "command/getActiveInvites"
+msgstr "Meghívó lista lekérése"
+
+msgid "command/getArchiveInvites"
+msgstr "Archív meghívó lista lekérése"
+
+msgid "command/getMembersCount"
+msgstr "Csatornán lévő játékosok számának lekérése"
+
+msgid "command/leaveChatChannel"
+msgstr "Csatorna Elhagyása"
+
+msgid "command/rejectInvite"
+msgstr "Meghívás Elutasítása"
+
+msgid "command/removeFriend"
+msgstr "Játékos eltávolítása a Barátlistáról"
+
+msgid "command/removeIgnored"
+msgstr "Játékos eltávolítása a tiltólistáról"
+
+msgid "command/requestChatChannelMembers"
+msgstr "Klán tagjainak listázása"
+
+msgid "command/requestSystemChatChannels"
+msgstr "Rendszer csatorna listázása"
+
+msgid "command/setMuted"
+msgstr "Hangüzenetek kikapcsolása"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s kitiltva."
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s már nincs kitiltva."
+
+msgid "command/unsetMuted"
+msgstr "Hangüzenetek bekapcsolása"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "Kattints a kapcsolati csoport létrehozásához."
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "Létrehozás"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "Kattints a létrehozás megszakításához és a kapcsolatokhoz való visszatéréshez."
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "Bezárás"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "Kattints a kapcsolati csoport törléséhez."
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "Kizárás"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "Kattints a törlés megszakításához és a kapcsolatokhoz való visszatéréshez."
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "Mégse"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "Kattints a csoport új néven történő elmentéséhez."
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "Mentés"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "Kattints a szerkesztés megszakításához és a kapcsolatokhoz való visszatéréshez."
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "Bezárás"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "A név nem lehet több %(maxChars)s karakternél."
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "Kattints a játékos barátlistához való hozzáadásához."
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "Hozzáadás"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "Kattints a játékos keresésének megszakításához és a kapcsolatokhoz való visszatéréshez."
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "Bezárás"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "Kattints játékos kereséséhez név alapján."
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "Keresés"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "A névnek minimum %(minChars)s, maximum %(maxChars)s karaktert vagy számjegyet kell tartalmaznia."
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "A keresés felfüggesztve %(time)s másodpercig a túl gyakori lekérdezések miatt."
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "Kattints a kiválasztott beállítások elmentéséhez."
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "Használ"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "Kattints a változtatások elvetéséhez és a kapcsolatokhoz való visszatéréshez."
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "Mégse"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "Kattints a csoport létrehozásához."
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "Csoport létrehozása"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "Kattints játékos kereséséhez név alapján a kapcsolatokon kívül."
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "Kapcsolatokon kívül keres"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "Kattints egy játékos megtaláláshoz és hozzáadásához a kapcsolataidhoz."
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "Játékos keresése"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "Kattints a kapcsolatlista beállításainak megváltoztatásához."
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "Beállítások"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "A név maximum %(maxChars)s karaktert tartalmazhat."
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "Parancs elküldése"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "Kizárás a csapatból"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "Bezárás"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "Csatorna Létrehozása"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "Keresés és belépés"
+
+msgid "dialogs/channels/title"
+msgstr "Csatornák"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "Bezárás"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "Csatlakozás"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "A jelszóban 3-12 közötti szimbólum megengedett"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "Érvénytelen jelszó."
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "Egy titkos csatornához %s próbálsz meg csatlakozni."
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "Jelszó:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "Figyelmeztetés"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "Csatlakozás a csatornához"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "Meghívás klánba"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "Hozzáadás a Barátlistához"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "Hozzáadás a tiltólistához"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "Másolás vágólapra"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "Magán csatorna létrehozása"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "Arany átutalása"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "Eltávolítás a Barátlistáról"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "Eltávolítás a tiltólistáról"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "Részletek megtekintése"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "Név szerinti rendezés."
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "Státusz szerinti rendezés."
+
+msgid "dialogs/contacts/title"
+msgstr "Kapcsolat lista"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "Klán"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "Barátok"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "Barátfelkérés"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "Tiltólista"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "Hang üzenet kikapcsolva"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "Bezárás"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "Létrehozás"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "Automatikusan létrejön"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "Add meg a jelszavad"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "Csatorna név"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "Jelszó"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "Erősítsd meg a jelszavad"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "Jelszó igénylése"
+
+msgid "dialogs/createChannel/title"
+msgstr "Csatorna létrehozása"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "%(vehName)s kiválasztása"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "Válassz egy %(level)s szintű járművet"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "Válassz ki járműveket"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "Válassz egy %(level)s szintű járművet"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "Járművek: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "Bezárás"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "Csatlakozás"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "Keresés"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "A keresés eredményei (első %d):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "Keresés"
+
+msgid "dialogs/searchChannel/title"
+msgstr "Csatorna keresése"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "Hozzáadás"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "Tiltólista"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "Bezárás"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "Keresés"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "Információ"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "A keresés eredményei:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "Keresés"
+
+msgid "dialogs/searchContact/title"
+msgstr "Felhasználó keresése"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "Kiszolgáló csatorna"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "Válassz ki egy VIII-as szintű járművet"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "Az elsődleges feladat, hogy a szakaszod legyen az utolsó, aki játékban marad."
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "A frontvonal mód csak \nVIII-as szintű járművek számára elérhető."
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ esemény +++\n+++ esemény +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "További tapasztalat csatánként a IV-es vagy magasabb szintű járművekhez"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "Játssz azonos szintű járművekkel IV-es szinttől kezdve és további XP-t kapsz"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "Amint a játékosok elfogadták a meghívást a valós neved és klán rövidítésed látható lesz számukra a csata ideje alatt."
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "Chat csatorna"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "Kísérleti modulok felszerelve a járművekre: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "Állapot: Szünetet tart"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "Állapot: Csatában"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "Állapot: Nem kész"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "Állapot: Offline"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "Állapot: Kész"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "Feloszlat"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "Meghívás"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "bűnös"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "gyanúsított"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "Csapattárs kilőve: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "Hangüzenetek kikapcsolása"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "Felvétel barátlistára"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "Hozzáadás a tiltólistához"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "Bezárás"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "Magán csatorna létrehozása"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "Hangüzenetek engedélyezése"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "Összes"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "Létrehozott"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "Utolsó csata"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "Állapot:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s - Játékos Adatok"
+
+msgid "events/enterChannel"
+msgstr "[%s] csatlakozott a csatornához"
+
+msgid "events/leaveChannel"
+msgstr "[%s] elhagyta a csatornát"
+
+msgid "keyboardChat"
+msgstr "Chat"
+
+msgid "listView/emptyList/info"
+msgstr "értesítés"
+
+msgid "listView/emptyList/invite"
+msgstr "meghívók"
+
+msgid "listView/emptyList/offer"
+msgstr "akciók"
+
+msgid "listView/emptyList/template"
+msgstr "Még nincsenek %(listType)s."
+
+msgid "listView/news/checkNewsBtn"
+msgstr "A hírekhez"
+
+msgid "listView/news/header"
+msgstr "ÚJDONSÁGOK"
+
+msgid "listView/title"
+msgstr "Értesítés központ"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "Csata idő: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "Küldés"
+
+msgid "lobby/buttons/channels"
+msgstr "Csatornák"
+
+msgid "lobby/buttons/contacts"
+msgstr "Kapcsolatok"
+
+msgid "lobby/buttons/send"
+msgstr "Küldés"
+
+msgid "lobby/channels/actions/remove"
+msgstr "Csatorna bezárása"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "Dátum megjelenítése az üzenetekben"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "Idő megjelenítése az üzenetekben"
+
+msgid "lobby/faq/close"
+msgstr "Bezárás"
+
+msgid "lobby/faq/title"
+msgstr "GYIK"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "Játékos hozzáadása a barátlistához"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "Játékos hozzáadása a tiltólistához"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "Másolás vágólapra"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "Magán csatorna létrehozása"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "Játékos adatainak megjelenítése"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "Kapcsolatokon kívül keres"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "Mégse"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "Csoport szerkesztése"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "Törlés a csoportból"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "Csoport törlése"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "Kattints a létrehozás megszakításához és a kapcsolatokhoz való visszatéréshez."
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "Bezárás"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "Kattints a játékossal kapcsolatos feljegyzés elmentéséhez."
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "Létrehozás"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "Húzd ide a kapcsolatokat"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "Kattints a szerkesztés megszakításához és a kapcsolatokhoz való visszatéréshez."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "Bezárás"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "Kattints a játékossal kapcsolatos feljegyzés szerkesztésének elmentéséhez."
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "Mentés"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "Nincs találat a keresésedre."
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "Állandó taktikai egység"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "Barátok"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "Egyéb"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "Tiltólista"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "Barátfelkérés"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "Keress egy játékost a listán"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "Még nem adtál hozzá játékost."
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "A kapcsolatlista üres"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "Jelenleg egy kapcsolatod sem online"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "Próbálj a kapcsolatlistán kívül keresni."
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "Nincs találat"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "Add meg a játékos nevét."
+
+msgid "messenger/contacts/title"
+msgstr "Kapcsolatok"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "Bezárás"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "Hozzáadás"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "A csoport már létezik."
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "Játékos keresése"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "Bezárás"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "Létrehozás"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "Feljegyzés létrehozása"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "Bezárás"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "Mentés"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "A név nem lehet több %(maxChars)s karakternél."
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "Feljegyzés szerkesztése"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "részére "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "Bezárás"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "Létrehozás"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "Csoport létrehozása"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "Írj be egy nevet (max. %(symbols)s szimbólum)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "A csoporton belüli kapcsolatok között is"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "Mégse"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "Kizárás"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "Csoport törlése"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "Bezárás"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "Mentés"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "Csoport szerkesztése"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "Írj be egy nevet (max. %(symbols)s szimbólum)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "Add meg a leírást (egészen %(symbols)s karakterig)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "A leírás nem lehet több %(maxChars)s karakternél."
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "Játékos keresése"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "Az összes megjelenítése egy ablakban"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "Offline játékosok mutatása"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "\"Egyéb\" kategória mutatása"
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "Üzenetek azoktól a játékosoktól, akik nincsenek a kapcsolatok között:"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "Elfogadás másik ablakban"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "Mégse"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "Használ"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "Beállítások"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "Komponens hozzáadva"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "Battle Pass pontok eltávolítva"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "Zsetonok eltávolítva"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "Manőverek tokenek eltávolítva"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "Komponens eltávolítva"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "Személyeshírnév-pontok eltávolítva"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "Szabad Tapasztalat elköltve"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "Kötelességpont levonva"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "A szolgálatban eltöltött évekért járó tokenek el lettek távolítva"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "Battle Pass pontok hozzáadva"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "Zsetonok hozzáadva"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "Manőverek tokenek hozzáadva"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "Komponens hozzáadva"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "Személyeshírnév-pontok hozzáadva"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "Szerzett szabad tapasztalati pont"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "Kötelességpont hozzáadva"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "A szolgálatban eltöltött évekért tokeneket kaptál"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "Kapcsolatok hozzáadása a címzettekhez."
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "Kiválasztott kapcsolat hozzáadása."
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "Minden kapcsolat törlése a címzettek közül."
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "Kiválasztott kapcsolat törlése a címzettek közül."
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "Ez a művelet %(action)s meg lett szakítva %(cooldownPeriod)s másodpercig."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "Chat hiba"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "Elérted a maximális nyitott csatornák számát. Kérlek, zárd be a nem használt csatornákat."
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "Hiba"
+
+msgid "server/errors/addFriendError/message"
+msgstr "Hiba a játékos barátlistába való felvétele közben"
+
+msgid "server/errors/addFriendError/title"
+msgstr "Hiba"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "Hiba a játékos tiltólistára való felvétele közben."
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "Hiba"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "Már létezik csatorna ilyen névvel"
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "Hiba a csatorna létrehozása közben"
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "A csatorna eltávolítva"
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "Hiba a csatlakozáskor"
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "Chat hiba"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "Hiba a chat parancsban: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "Chat hiba"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "Ez a parancs %(command)s felfüggesztve %(cooldownPeriod)s másodpercig."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "Chat hiba"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "Üzenet függőben. Túl sok üzenet."
+
+msgid "server/errors/connectTimeout/message"
+msgstr "A csatornához való kapcsolódási kísérlet túllépte a megengedett időt"
+
+msgid "server/errors/connectTimeout/title"
+msgstr "Chat hiba"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "Jelenleg nem lehet magán csatornát létrehozni: a felhasználó jelenleg offline."
+
+msgid "server/errors/createPrivateError/title"
+msgstr "Chat hiba"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "Érvénytelen szimbólum"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "Hiba"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "Érvénytelen paraméter %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "Hiba"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "Hibás jelszó a biztonságos csatornához."
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "Hiba a csatlakozáskor"
+
+msgid "server/errors/initializationFailure/message"
+msgstr "Hiba a chat inicializálásánál"
+
+msgid "server/errors/initializationFailure/title"
+msgstr "Chat hiba"
+
+msgid "server/errors/internalError/message"
+msgstr "Belső hiba, próbálkozz később"
+
+msgid "server/errors/internalError/title"
+msgstr "Hiba a csatorna létrehozása közben"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "Helytelen csatorna név."
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "Chat hiba"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "Hiba a futtatási parancs végrehajtása közben."
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "Hiba"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "A %(user)s már korábban letiltva lett"
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "Chat hiba"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "A %(user)s már chat moderátor"
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "Chat hiba"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "Chat hiba"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "A felhasználó nincs kapcsolódva"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "Chat hiba"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "A %(user)s nem csatorna moderátor"
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "Chat hiba"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "A maximális felhasználók létszáma ezen a csatornán elérve"
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "Hiba a csatornára való csatlakozás közben"
+
+msgid "server/errors/notAllowed/message"
+msgstr "Nincs elég jogosultságod ehhez a művelethez"
+
+msgid "server/errors/notAllowed/title"
+msgstr "Chat hiba"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "Add meg a jelszavad, hogy a biztonságos csatornához csatlakozhass."
+
+msgid "server/errors/passwordRequired/title"
+msgstr "Hiba a csatlakozáskor"
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "Ennek a beállításnak a megváltoztatása jelenleg nem elérhető."
+
+msgid "server/errors/sqlError/message"
+msgstr "Hiba az adatbázis elérése közben"
+
+msgid "server/errors/sqlError/title"
+msgstr "Hiba"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "Ez a felhasználó hozzáadott a tiltólistájához."
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "Hiba"
+
+msgid "server/errors/userNotExists/message"
+msgstr "A felhasználó nem létezik"
+
+msgid "server/errors/userNotExists/title"
+msgstr "Hiba"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "Elérted a maximális felhasználószámot a Partnerlistában"
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "Hiba"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "Elérted a maximálisan engedélyezett csatorna számot."
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "Elérted a maximálisan engedélyezett csatorna név karakterszámot."
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "Elérted a maximálisan engedélyezett jelszó karakterszámot."
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "\"%(strArg1)s\" csatorna már létezik."
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "Érvénytelen karakterek a csatorna nevében."
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "Sértő szavak a csatorna nevében."
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "Acélvadász"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "Ezek az Acélvadász mód különleges járművei. Lépj be az Acélvadász módba és nézd meg, hogy mire képesek ezek a járművek."
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "Jármű megsemmisítve"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "Elért szint"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "Elért pontok"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "Győzelem"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "Hozzáadva"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "Értettem!"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "Tovább a hadművelethez"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "Szolgálati feljegyzés"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "Esemény"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "Az akció véget ért."
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "WoT plusz kiosztható XP-szorzó érhető el"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "WoT plusz kiosztható XP-szorzó nem elérhető"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "Nem sikerült a fogyócikkek újratöltése a(z) %s járművön. Az aranyad akkor lesz elérhető, ha a WG Wallet működése automatikusan helyreállt."
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "%s járműnél nem sikerült a direktívák utántöltése. Karbantartás miatt a művelet átmenetileg nem elérhető."
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "Az irányító újratöltése sikertelen ezen: %s. Fedezethiány."
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "Sikertelen direktíva újratöltés ezen: %s. Kérlek, töltsd újra manuálisan."
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "A direktíva a(z) %s járművön sikeresen utántöltve. Elköltöttél "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "%s fogyócikkeinek feltöltése sikertelen volt. Vásárolj fogyócikket aranyért."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Nem sikerült pótolni a fogyócikkeket %s járművön. Nincs elég kredited."
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "Nem sikerült a fogyócikkek újratöltése a(z) %s járművön. Az aranyad akkor lesz elérhető, ha a WG Wallet működése automatikusan helyreállt."
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "%s fogyócikkeinek automata újratöltése sikertelen. Próbáld meg manuálisan."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Fogyócikkek a %s járművön sikeresen utántöltve. Elköltöttél "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "%s lőszerei újratöltése sikertelen volt. Tekintsd meg az aranyért vásárolható lőszereket.."
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "Nem sikerült pótolni a lőszereket a %s járművön. Nincs elég kredited."
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "Nem sikerült a lőszer újratöltése a(z) %s. Az aranyad akkor lesz elérhető, ha a WG Wallet működése automatikusan helyreállt."
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "%s lőszereinek automata újratöltése sikertelen. Próbáld meg manuálisan."
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "A lőszerek %s járművön sikeresen pótolva. Elköltöttél "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "Nem sikerült meghosszabbítani a stílus kölcsönzését %s napra. Vásárold meg a stílust aranyért."
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "Nem sikerült meghosszabbítani a stílus kölcsönzését %s napra. Nincs elegendő pénzed."
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "Nem sikerült meghosszabbítani a stílus kölcsönzését %s napra. Az aranyad akkor lesz elérhető, ha a WG Wallet működése automatikusan helyreállt."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "Bérleti idő meghosszabbítása"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "Hamarosan lejár a(z) %s bérelt stílus a(z) %s járműre: 3 csata van hátra."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "A(z) %s stílus bérlése a(z) %s járműre 3 csatát követően automatikusan meghosszabbodik további %s csatára."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "A megjelenéshez"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "Az alkalmazott %s stílus bérleti ideje lejárt a(z) %s járművön. A Kinézet képernyőn meghosszabbíthatod a stílus bérlését."
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "Nem sikerült meghosszabbítani a stílus kölcsönzését %s napra. Vásárold meg manuálisan."
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "Stílus kölcsönzése sikeresen meghosszabbítva %s napra. Elköltve "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "%s javítása sikertelen volt."
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "%s jármű javítása sikertelen. Nincs elég kredited."
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "Nem sikerült a javítás %s. Az aranyad akkor lesz elérhető, ha a WG Wallet működése automatikusan helyreállt."
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "%s automatikus javítása sikertelen. Próbáld meg manuálisan."
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "%s jármű javítása sikeres. Elköltöttél "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "WoT plusz harckocsizó banner érhető el"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "WoT plusz harckocsizó banner nem elérhető"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "Jelvények hozzáadva"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "WoT plusz csatabónusz érhető el"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "WoT plusz csatabónusz nem elérhető"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "Küldetés teljesítve: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "Teljesítetted a Tankakadémia küldetéssorozatát."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "A tokenek bármelyik VI. szintű kifejleszthető járműre beválthatók."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "Tovább a jármű kiválasztáshoz"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "Gratulálunk!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "Teljesített Tankakadémia küldetések: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "Megszerzett jutalom:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "Akadémia token felhasználva."
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "Megszerzett jutalom:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "Férőhely a garázsban: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "Bérelt járművek: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "Szerezz járműveket és hasznos nyersanyagokat gyakorlóküldetések teljesítésével."
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "Tovább a Tankakadémiához"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "MINDEN, AMI\nAZ INDULÁSHOZ KELL"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "Akadémia token"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "Fel nem használt pont elköltve"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "Az elit kör aktiválásakor felhasznált el nem költött pontok: %(points)s."
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "Fel nem használt pontok elköltve: %(points)s a(z) %(chapter)s fejezethez."
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "Normál felszerelés, amiből választani lehet"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "Aktiváltad az elit kört"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "Az elit kör szünetel."
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "Ponthatár elérve"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "Összegyűjtötted a maximális számú pontot a(z) %(vehName)s járművel.\nJutalom a ponthatár eléréséért: %(bonusPoints)s.\nJátssz egy másik járművel, hogy további pontokat gyűjthess."
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "Gratulálunk!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "%(name)s stílus megszerezve. Azonnal használhatod a járműveden és a Battle Pass előrehaladás során fejlesztheted azt."
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "Jutalom felszerelés, amiből választani lehet"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "Részletek"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "Részletek"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "Teljesítetted a Battle Pass %(chapter)s fejezetét!\nMegszerzett jutalmak:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "Teljesítetted a Battle Pass %(chapter)s fejezetét!\nMegszerzett jutalmak:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "Teljesítetted Battle Pass %(newLevel)s. előrehaladási szakaszát.\n\nMegszerzett jutalom:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "Szakaszok hozzáadva a(z) %(chapter)s fejezethez: %(levelCount)s\nElérted a(z) %(currentLevel)s. szintet.\nMegszerzett jutalmak:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "Jutalmakat kaptál a Battle Pass korábban már teljesített szakaszaiért:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "Mostantól az alap és megnövelt jutalomsáv jutalmait is megkapod."
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "Az el nem költött pontok felhasználásával jutalmat kaptál a teljesített szakaszokért:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "Teljesítetted a(z) %(chapter)s fejezetet.\nMegszerzett jutalom:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "Folytasd a harcot és gyűjtsd a pontokat!"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "Teljesítetted a Battle Pass %(season)s. szezonjának összes fő fejezetét.\nMegszerzett jutalmak:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "Teljesítetted a(z) %(chapter)s fejezet %(newLevel)s. előrehaladási szakaszát.\nMegszerzett jutalom:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "Részletek"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "Elköltött szabad tapasztalat:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "Arany elköltve:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "Megvásároltad az Improved Passt és az összes szakaszt a(z) %(chapter)s fejezethez.\nA fejezet összes szakaszáért megszerzett jutalmak:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "Bónuszt kaptál az Improved Passok megvásárlásáért:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "Mostantól az alap és megnövelt jutalmakat egyaránt megkapod a szezon minden fejezeténél."
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "Szakaszok hozzáadva a(z) %(chapter)s fejezethez: %(levelCount)s\nElérted a(z) %(currentLevel)s. szakaszt.\nMegszerzett jutalmak:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "Bónuszt kaptál az Improved Pass megvásárlásáért:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "Ez az Improved Pass csak a(z) %(chapter)s fejezetre vonatkozik."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "Jutalmakat kaptál a Battle Pass korábban már teljesített szakaszaiért:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "Ez az Improved Pass csak a(z) %(chapter)s fejezetben működik."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "Mostantól az alap és megnövelt jutalomsáv jutalmait is megkapod a(z) %(chapter)s fejezetben."
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "Alapjutalom hozzáadva:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "Improved Pass megvásárolva"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "Improved Pass megvásárolva"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "Szakaszok megvásárolva"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "Gratulálunk!"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "Jutalom megszerezve"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "Teljesítetted az elit kör egy szakaszát.\nMegszerzett jutalom:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "Teljesítetted az elit kör több szakaszát: %(amount)s.\nMegszerzett jutalom:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "Harckocsizó:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "Csatában elért kitüntetések"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "Szerzett %s a(z) '%s' akcióban"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "Szerzett %s a(z) '%s' akcióban"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s token"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s kredit"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s kötvények"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "%s évfordulós érme"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s Szabad tapasztalat"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s arany"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "Csata"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "Kapott Battle Pass pontok: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "Tokenek megszerezve"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "Részletek"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "kárpótlás a baráti tűz által okozott sérülésekért: %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "Szerzett kredit: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "Megszerzett kötvények"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "Vereség"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "x%d minden nap az első csatáért"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "Döntetlen"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "Csata véget ért"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "Harci tartalék pontok"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "Komponens megszerezve"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "Évfordulós érméket kaptál"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "Szerzett tapasztalat: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "Előrenyomulás"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "Épület"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "Megszerzett ipari nyersanyag"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "klán szerint"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "játékos szerint"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "Szerzett szabad tapasztalati pont"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "Megszerzett arany"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "A(z) %(campaignName)s kampányban való részvételedért kitüntettünk %(nameMedal)s medállal."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "Gratulálunk!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "Sikeresen teljesítettél 45 küldetést a(z) %(campaignName)s kampány %(categoryName)s sorozatában, ezért a következő medállal tüntettünk ki: %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "Sikeresen teljesítettél 30 küldetést a(z) %(campaignName)s kampány %(categoryName)s sorozatában, ezért a következő medállal tüntettünk ki: %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "Sikeresen teljesítettél 15 küldetést a(z) %(campaignName)s kampány %(categoryName)s sorozatábanban, ezért a következő medállal tüntettünk ki: %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "bírság a csapattársaknak okozott sérülésekért: %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "Gratulálunk!\nA személyes küldetések sikeres teljesítéséért a következő jutalmakat kapod"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "Gratulálunk!\nA Rég várt utánpótlás kampány személyes küldetéseinek sikeres teljesítéséért a következő jutalmakat kapod"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "Gratulálunk!\nA Második front kampány személyes küldetéseinek sikeres teljesítéséért a következő jutalmakat kapod"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "Gratulálunk!\nMindkét kampány személyes küldetéseinek sikeres teljesítéséért a következő jutalmakat kapod"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "Hozzáadva a kredit tartalékhoz"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Küldetés teljesítve! Jutalom"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "Szolgálati feljegyzés"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "Kapott Battle Pass pontok: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "Férőhelyek hozzáadva a barakkhoz"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "Tokenek hozzáadva"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "Kreditet kaptál"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "Kötvények hozzáadva"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "Komponens hozzáadva"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "Évfordulós érmék hozzáadva"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "Szabad XP hozzáadva"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "Arany hozzáadva"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "Hozzáadva"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "Kampánypontok: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "Megszerzett kedvencek"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "Wargaming Prémium fiók nap hozzáadva"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "WoT Prémium fiók nap hozzáadva"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "Bónusz csaták hozzáadva: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "%(count)s napi"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "%(count)s normál"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "Helyek hozzáadva"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "Bónusz csaták hozzáadva"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \nNormál, a teljesített szakaszban nyújtott teljesítményedért: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \nKüldetések teljesítéséért: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \nNapi, a kvalifikáció során szerzett stráfokért: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \nNormál, a kvalifikáció során szerzett stráfokért: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "Rangváltozások"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \nStráfok megszerezve"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \nStráfok megszerezve"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \nÁtjutás a divízióba: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \nÁtjutás ligákba"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \nStráf megtartva"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \nMegszerezted a(z) %(rankName)s rangot (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \nElvesztetted a(z) %(rankName)s rangot (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \nA rangpáncél meggyengült"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \nNincs változás"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \nA rangpáncél megsemmisült"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \nStráf megtartva"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \nStráf megszerezve"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \nStráf elveszítve"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \nStráfok megszerezve"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "Értékelési pontok"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "A szolgálatban eltöltött évekért a következő jutalmakat kaptad"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "Gratulálunk!"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "Toborzás"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "Járművek"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "Női harckocsizó"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "Technikai vereség"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "Technikai győzelem"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "Győzelem"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "Egy férőhely el lett távolítva a kizárt pályák közül. A(z) %(mapName)s pálya visszatért a körforgásba."
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "A(z) %(mapNames)s kizárt pálya el lett távolítva a játékból. Kizárhatsz egy újabb pályát."
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "Egy férőhely el lett távolítva a kizárt pályák közül. A(z) %(mapNames)s pálya visszatért a körforgásba."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "Az akció elkezdődött!\nCsak 10 napig, váltsd be a tervrajzaid más értékes tárgyakra."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "Részletek"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "Az akció befejeződött"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "Váltsd be a tervrajzaid"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "A tervrajz beváltás karbantartás miatt szünetel."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "A tervrajz beváltás helyreállt."
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "Ne felejtsd el átvenni a jutalmadat!"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "A választáshoz"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "A folyamatban lévő csaták bónuszai nem számítanak bele."
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "%(boosterName)s személyes tartalék letiltva technikai okok miatt."
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: a személyes tartalék fel lett használva"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "Elvesztett tartalék:"
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "Lejárt tartalékok"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "kredit"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "Szabad XP"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "Legénységi XP"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "Harci XP"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "Összes %(resourceName)s bónusz:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "Bezárás"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "Elhagytad vagy kizártak a klánból:"
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "%(element_name)s hozzáadva"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "„%(element_name)s” medál hozzáadva"
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "„%(element_name)s” sáv hozzáadva"
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "Jutalom megszerezve"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "Elismerést kaptál"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "Az élőcímkék jelenleg nem érhetők el"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "Az élőcímkék elérhetők a csatában"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "Az elismerések jelenleg nem érhetők el"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "Az elismerések elérhetők a csatában"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "Kaptál %(gold)s aranyat és %(credits)s kreditet."
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "Kaptál %(credits)s kreditet."
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "A legénységi segéd elérhető"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "A legénységi segéd nem érhető el"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "A kredit- és aranytartalék kinyílt!"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "Aukció"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "Battle Pass"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "Dátum"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "Tokenek eltávolítva"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "Levont kredit"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "Kötvények eltávolítva"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "Komponens eltávolítva"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "Évfordulós érmék eltávolítva"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "Szabad Tapasztalat elköltve"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "Arany levonva"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "Pénzügyi Tranzakció"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "Aukció"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "Tokenek megszerezve"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "Szerzett kredit"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "Megszerzett kötvények"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "Komponens megszerezve"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "Évfordulós érméket kaptál"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "Szerzett szabad tapasztalati pont"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "Érkezett arany"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "Korunk hőse kitüntetés"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "%(medalName)s kitüntetés megszerezve %(battlesCount)s megvívott csatáért\nMatricák megszerezve %(battlesCount)s megvívott csatáért (x%(decalsCount)s)"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "Karbantartás miatt átmenetileg nem érhetőek el a leszerelő készlettel kapcsolatos műveletek."
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "A leszerelő készlettel kapcsolatos műveletek újra elérhetőek. Elnézést kérünk a kellemetlenségért."
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "Dögcédula háttér feloldva: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "Dögcédula gravírozás feloldva: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "%(name)s dögcédula"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "elért szint"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "Új szint"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "Feloldva"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "Háttér"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "Gravírozás"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "Wargaming Prémium fiók %(expiryTime)s időpontban lejár."
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "Email megerősítése"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "Email nincs megerősítve"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "Kísérleti modul felhasználva"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "Minden kísérleti modul eltávolítva"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "Kísérleti modulok eltávolítva a következő járművekről"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "Szituáció"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• Választható felszerelés direktívák"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• Battle Pass pontok"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• Univerzális füzet"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• Kötvények"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• Harci tartalék pontok"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• Kísérleti felszerelések, amelyek közül választani lehet"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• Mentorálási engedély"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• Átképzési parancsok"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• Univerzális kézikönyv"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "Évfordulós érméket kaptál: %(eventCoin)s."
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "Egy extra férőhely feloldva a pályák kizárásához"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "Nem lehetséges a pályák kizárása WoT plusszal"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "Ok"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "A Boosteroid-előfizetés lejárt."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "Az előfizetés lejárt."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "Harcképtelen jármű"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "Jármű"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "A jármű elérhető"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "Jármű"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "Előrehaladás visszaállítás"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "Ugrás a küldetéshez"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "Figyelem! A(z) %(missionShortName)s küldetésben elért előrehaladás törölve lett. A feltétel teljesítése elölről fog kezdődni."
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "Küldetés: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "Hadművelet: %(operation)s"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "Részletek"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "Átmenetileg kitiltásra kerültél a következő mód csatáiból: %(mode)s. A tiltás ekkor ér véget: %(date)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "Az átmeneti tiltásodat feloldottuk. Újra játszhatsz a következő módban: %(mode)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "A(z) %(mode)s játékmódban elkövetett %(reason)s miatt eltávolítottuk a csatában megszerzett kreditjeidet, tapasztalati pontjaidat és jutalmaidat."
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "Figyelmeztetést kaptál a következő módban: %(mode)s. Indok: %(reason)s"
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "Tiltás"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "Tiltás vége"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "Büntetést kaptál"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "Sportszerűtlen viselkedés"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "Hadüzenetet küldtél a(z) %(clan)s klánnak!\nAz előrenyomulás dátuma: %(date)s időpontja: %(time)s."
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "Áttörtek a védelmen!\nMinden támadás megszakítva. Az erőd működése érdekében töltsd fel az Irányító központ tartósság jelzőjét."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "A(z) %(clan)s klánnal való csata elmarad."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "A %(date)s napon %(time)s -kor tervezett Előrenyomulás a %(clan)s klán ellen törölve: az erődítmények közötti szintkülönbség nagyobb, mint 1."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "%(building)s épület megsérült! Az épület működése érdekében töltsd fel a tartósság jelzőt."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "Az Irányító központ megsérült! Az erőd működése érdekében töltsd fel az épület tartósság jelzőjét. Ha az Irányító központ további sérülést szenved, áttörnek a védelmeden."
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "%(clan)s klán hadat üzent nektek!\nAz Előrenyomulása dátuma: %(date)s időpontja: %(time)s."
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "Védekezési időszak megadva: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "Védekezési időszak megváltoztatva. Új védekezési időszak: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "Az erődítmény védelme ki van kapcsolva. Az összes épület és tartalék szintje IV-es szintre csökkent."
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "Gratulálunk! Az erődöd VIII-as szintre fejlesztetted."
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "Gratulálok! Az erődítmény teljesen működőképessé vált a klán részére."
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "A tűzszüneti nap megváltoztatva. Nincs megadva új tűzszüneti nap."
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "A tűzszüneti nap beállítva: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "%(building)s épület szintje növekedett.\n%(order)s tartalék átalakult ipari nyersanyaggá és az építmény raktárába került."
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "%(orderTypeName)s tartalék kompenzálva és készen áll az aktiválásra."
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "Hazai szerver megváltozott a következőre: %(peripheryName)s."
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "Ipari nyersanyag hozzáadva: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "Ipari nyersanyag levonva: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "Csatlakoztál az épülethez %(building)s."
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "Tartalék hozzáadva: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "Tartalék levonva: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "Tartalék %(order)s felhasználva. Hátralévő idő: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "Tartalék aktiválva"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "Tartalék %(order)s teljesen felhasználva."
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "%(count)s tartalék felkészítése %(order)s sikeres."
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "A tartalék evakuálási ideje lejárt.\n\n%(additional)s\nÖsszesen a klánodnak: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "A következő mennyiséget a klán mentette meg: %(resInc)s\nAz ellenség aktiválta a tartalék követelést és a következő mennyiséget rabolta el: %(resDec)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "A tartalék követelés ideje lejárt.\n\n%(additional)s\nÖsszesen a klánodnak: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "További zsákmány a klánodnak: %(resInc)s\nAz ellenség aktiválta a Tartalék evakuációt és megőrzött: %(resDec)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "%(building)s épület raktára megtelt.\nHasználj ipari nyersanyagot a tartalék készítéséhez vagy szállítsd át egy másik épületbe."
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "Az erőd semleges időtartama véget ért.\nA többi klán most már megtámadhat—légy résen!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "Az erőd semleges állapotba lépett.\nA többi klán nem tud most megtámadni téged. A semleges időtartam véget ér: %(finish)s."
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "%(defResCount)s egységnyi ipari nyersanyag hozzáadva a parancsnoki központ raktárához."
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "Az eseményhez"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "az előrehaladáshoz"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "Kaptál %(gold)s aranyat."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "Aukció: A licited alacsonyabb, mint a versenytársaké."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "Az esélyed, hogy megnyerd a jelenlegi aukciót, csökkent: A licited jelenleg alacsonyabb, mint a versenytársaké."
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "Az eseményhez"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "A licited vesztett. Visszatérítés:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "Más játékosok túllicitáltak. A licited hamarosan visszakerül a fiókodba."
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "Hiba"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "Licitálási hiba. Nem vontunk le semmilyen összeget. Kérjük, próbáld meg újra."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "A licitálás hamarosan lezárul."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "Siess és tedd meg licited!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "Siess és tedd meg licited. A tételek száma korlátozott."
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "A licitálás az új tételre elkezdődött!"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "Férőhely hozzáadva a barakkhoz"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "Férőhely eltávolítva a barakkból"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "Személyes tartalékok"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "Személyes tartalékok eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "Tokenek hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "Tokenek eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "Kompenzáció a következőért:"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "tokenekkel"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "Álcafestés"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "kreditek"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "kötvénnyel"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "Embléma"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "évfordulós érmével"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "arany"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "Felirat"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "Effekt"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "Festés"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "Egyjegyű szám"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "Kétjegyű szám"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "Háromjegyű szám"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "Matrica"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "Stílus"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "Kreditet kaptál"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "A krediteket levontuk a számládról"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "Legénységi könyvek hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "legénység barakkba küldve"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "legénység %d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "Legénység kinézet hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "Legénység kinézet eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "legénység %d%% barakkba küldve"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "legénység eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "Kötvényeket kaptál"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "Kötvények eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "Személyes kedvezmények"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "Díjak hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "Eltávolított kitüntetések"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "Kísérleti modulok hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "Kísérleti modulok eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "Hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "Eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "Komponens hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "Komponens eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "Fogyócikkek"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "Fogyócikk eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "Évfordulós érmék hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "Évfordulós érmék eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "Lejáró személyes tartalékok"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "Parancsok hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "Parancsok levonva"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "Szabad tapasztalat"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "Szabad XP hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "Szabad Tapasztalat elköltve"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "Aranyat kaptál"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "Arany levonva"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "Univerzális töredék hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "Univerzális töredék eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "Nyugta"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "Hozzáadva a Depóhoz"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "Fogyócikk eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "Járműveken"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "A(z) %(nationName)s járművek tervrajz töredékei hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "A(z) %(nationName)s járművek tervrajz töredékei eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "Hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "Eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "tételek"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "Wargaming Prémium fiók nap hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "Wargaming Prémium fiók nap eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "Wargaming Prémium fiók"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "A(z) %(vehicleName)s %(xpCount)s elit pontot kapott."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "A(z) %(vehicleName)s elérte a(z) %(level)s. elit szintet és a(z) %(xpCount)s elit pontot."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "A(z) %(vehicleName)s elérte a(z) %(level)s. elit szintet."
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "Tárgyak ebből"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "Steam DLC"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Steam raktár"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "Bónusz csaták hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "Bónusz csaták eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "bérleti nap: "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "Helyek hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "Hely eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "WoT Prémium fiók"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "WoT Prémium fiók nap hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "WoT Prémium fiók nap eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "Újoncok"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "Kiosztatlan tapasztalat hozzáadva a legénységi tagokhoz"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "El lett távolítva a legénységi tagok között szét nem osztott XP"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "Elküldve"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "Az összes modul kifejlesztve"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "A(z) %(vehicleName)s jármű tervrajz töredékei hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "A(z) %(vehicleName)s jármű tervrajz töredékei eltávolítva"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "Jármű hozzáadva"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "Eltávolított járművek"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "Kölcsönzött járművek hozzáadva"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "Megkaptad a következő felszerelést: %(typeName)s \"%(itemName)s\" - %(amount)d árucikk(ek)."
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "A dobozokhoz"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "Kattints a gombra a tartalom megtekintéséhez."
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "Csomagot kaptál:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Megtekintés"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "%(count)sx"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "Kapuk aktiválva: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "Kapuk aktiválása"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "Megszerzett tárgyak:\n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "Aktiváltuk az összes kapudat, tartalmukat pedig hozzáadtuk a fiókodhoz:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Jutalmakat kaptál"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Kinyitottuk az összes dobozodat, és jóváírtuk az ünnepi hadműveleti jutalmaidat"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "Jutalmakat kaptál"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "Matricák hozzáadva: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "Matrica hozzáadva: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "A kérdőívhez"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "Gratulálunk!"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "A felderítő küldetés befejeződött. Köszönjük, hogy részt vettél az új pályák fejlesztésében!"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "A felderítő küldetés befejeződött\n\nKöszönjük, hogy részt vettél az új pályák fejlesztésében!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "A felderítő küldetés elkezdődött.\n\nHarcolj a fejlesztés alatt álló pályákon VIII-X-es szintű járművekkel, oszd meg a véleményedet a kérdőívekben, és szerezz jutalmakat!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "Végső jutalom:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "%(battles)s csatát vívtál meg felderítő küldetésben."
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "Megszerzett jutalom:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "Kitöltheted a Felderítő küldetés játékmód mechanikáihoz tartozó kérdőívet."
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "Kérdőív elérhető"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "Kitöltheted a Felderítő küldetés %(mapName)s pályájához tartozó kérdőívet."
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (%(count)sx)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "Tovább a barakkba"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "Eltávolított harckocsizók: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "Homefront utánpótlás"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "A felszerelési segéd elérhető"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "A felszerelési segéd nem érhető el"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "Új tartalékaid vannak:"
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "Értesítés"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "Lejáró tartalékok: "
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "Elveszíted a lejáró tartalékokat"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "Kapott kredit: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "Dátum: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "Pénzügyi tranzakció:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "A depóhoz adva: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "Nyugta"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "Új gyűjtési ciklus kezdődött."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "Új gyűjtési ciklus kezdődött. A kreditek megszerzéséhez aktiváld a WoT prémium fiókot."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "Új gyűjtési ciklus kezdődött. Az arany megszerzéséhez fizess elő a WoT pluszra."
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "A kredit felhalmozása a kredit tartalékban felfüggesztve."
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "A kredittartalék kinyílt!"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "Jutalom begyűjtése"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "Teljesítetted az utólagos előrehaladást!"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "az előrehaladáshoz"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "Utólagos előrehaladás"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "Hozzáférést szereztél egy különleges jutalomhoz."
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "Klán Csata"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "Csata eredmények"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "Bajnokság"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "Vereség"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "Döntetlen"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "Eredmény nincs meghatározva"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "Győzelem!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "Törölt tulajdonos"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "Technikai hiba"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "Kizártak"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "Technikai vereség"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "Technikai döntetlen"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "Eredmény nincs meghatározva"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "Technikai Győzelem!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "Időkérés lejárt"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "Teljesítve"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(csata %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "Részleges Eredmény"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "Eredmény"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "Wargaming Prémium fiókot kaptál. Lejárati idő: %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "Wargaming Prémium fiók módosítva. Lejárati idő: %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "Wargaming Prémium fiók lejárt."
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "Wargaming Prémium fiók meghosszabbítva. Lejárati idő: %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "WoT Prémium fiókot kaptál. Lejárati idő: %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "WoT Prémium fiók módosítva. Lejárati idő: %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "WoT Prémium fiók lejárt."
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "WoT Prémium fiók meghosszabbítva. Lejárati idő: %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "Wargaming Prémium fiókot kaptál %(days)d napra."
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "Az elit rendszerhez"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "Elit szintek és elit jelzések megszerezve."
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "Elit rendszer"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "A járművekhez"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "Elit szint megszerezve"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "Hiba történt az elit jutalom igénylése során."
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "%(rewardName)s %(typeReward)s megszerezve a(z) %(lvl)s elit szint eléréséért."
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "Elit jutalom megszerezve"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "Figyelem!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "Részletek"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "Álcafestés"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "matrica"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "embléma"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "Felirat"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(level)s%(name)s %(typeName)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "És még %(count)s további"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr "%(level)s. szintű "
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "festés"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "matrica"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "Kaptál:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "%(name)s stílus"
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "Gratulálunk!"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "Részletek"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "Jutalom az érdemeidért"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "Harcolj csatákban és szerezz jutalmakat. Minél többet játszol, annál közelebb kerülsz a jutalmakhoz."
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "Nagy jutalom megszerezve:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "Részletek"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "%(surplusPoints)s Rang token átváltva %(count)s kötvényre."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "Gratulálunk!"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "Maximális jutalom megszerezve:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "Általános jutalom megszerezve:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "Kis jutalom megszerezve:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "2021–2022-ben %(points)s rang tokent gyűjtöttél."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "Éves jutalom"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "Megérkezett az erősítés!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "Egy legénységet kaptál a(z) %(event)s eseményhez."
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "%(count)s nem toborzott harckocsizód van. El lesznek távolítva: %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "Nem toborzott legénységi tagjaid vannak: %(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "Jelvények eltávolítva"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "Kompenzáció"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "Kredit hozzáadva a kihasználatlan idő miatt %(vehicleName)s jármű kölcsönzése során."
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "Arany hozzáadva a kihasználatlan idő miatt %(vehicleName)s jármű kölcsönzése során."
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "%(vehicleName)s jármű kölcsönzési ideje véget ért."
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " %(count)sx"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "Tervrajz töredékek: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "Kredit: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "Kötvény: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "Részletek"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "Szabad XP: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "Arany: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "univerzális töredék"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "Jelenlegi folyamat: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "Az Összeszerelő műhely projektre fordított nyersanyag:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "Elköltött nyersanyag"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "Nyersanyag elköltése"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "Az Összeszerelő műhely által visszaküldött nyersanyag:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "Visszaküldött nyersanyag"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "Választható képzési füzetek"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "Választható képzési útmutatók"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "Álcafestés"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "A %s működése meghosszabbodik a karbantartási munkák miatt."
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "Jelvények"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "Címkék"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "Wargaming Prémium fiók"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "WoT Prémium fiók"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "Kölcsönzés"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "A játék szerver leáll: %(date)s időpontban."
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "A játék szerver bontja a kapcsolatot %(date)s belül."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "A szolgálati feljegyzés testreszabása elérhető"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "Ezt a funkciót felfüggesztettük."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "A szolgálati feljegyzés testreszabása jelenleg nem érhető el"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "Univerzális töredék (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "Nemzeti töredék (%(nationName)s) (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "Speciális jutalom"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "Tervrajz töredék %(vehicleName)s járműhöz (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "Megkaptad az e-mail-cím megerősítéséért járó jutalmat:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "Gratulálunk!"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "Kárpótlás a kifejlesztett járművek tervrajz töredékeiért:"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "Álcafestés megváltoztatva"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "Kapott kredit: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "Levont kredit: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "Kötvények: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "Kötvények: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "Külső elemek megváltoztak."
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "Testreszabási elemek megváltoztatva. Megvásárolt elemek: %(count)s. Elköltve: %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "Emblémák megváltoztatva"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "Évfordulós érmék hozzáadva: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "Évfordulós érmék eltávolítva: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "Kapott szabad XP: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "Levont szabad XP: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "Kapott arany: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "Levont arany: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "Feliratok megváltoztatva"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "Univerzális töredékek"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "%(nationName)s nemzeti töredék"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "A frissítést követően minden matricát eltávolítottunk a járművekről és visszakerültek a Depóba, a Külső részbe."
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "Hozzáadott férőhelyek: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "Eltávolított férőhelyek: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "Figyelem!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "Hozzáadott járművek: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "Eltávolított járművek: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "A következő testreszabási elemeket vásároltad meg:\n%(items)s\nElköltve: %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "\"%(itemName)s\" %(itemType)s sikeresen megvásárolva.\nElköltve: %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "%(name)s stílus %(level)s. szintje sikeresen megvásárolva.\n%(money)s elköltve."
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "A jármű testreszabási elemei megváltoztak."
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "\"%(itemName)s\" %(itemType)s (%(count)s darab)"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "%(level)s. szintű %(styleName)s stílus"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "Testreszabási elemek lettek eltávolítva a járműről."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "Gratulálunk!\nA progresszív matricák segítségével a(z) %(vehicleName)s járművön változtathatsz az előre összeállított stílusokon."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "Gratulálunk!\nKaptál egy I-es szintű \"%(itemName)s\" matricát a következő járműhöz: %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "Gratulálunk!\nKaptál egy I-es szintű \"%(itemName)s\" matricát."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "%(level)s. szintű \"%(itemName)s\" matrica elérhető a következőhöz: %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "Kinézethez"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "%(level)s. szintű \"%(itemName)s\" matrica elérhető."
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Elköltve: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "Sivatagi pálya: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "Nyári pálya: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "Téli pálya: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Kaptál: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "Felszerelés szétszerelve"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "Külsőhöz"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "Modul csere miatt a következő testreszabási elemek el lettek távolítva a(z) %(vehicle)s járműről."
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "Személyre szabás:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "Felszerelés szétszerelve"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "Leszerelve:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "Hiba:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "Pénzügyi Tranzakció:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "Árucikkek eladása a depóból:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "%(method)s\" fizetési lehetőség hozzáadva"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "%(method)s\" fizetési lehetőség eltávolítva"
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "Kifejlesztve:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "Megvásárolva:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "Eltávolítás a garázsból:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "Javítás:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "Visszaállítva:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "Eladva:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "Felszerelés fejlesztése"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "WoT Prémium fiókot kaptál %(days)d napra."
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "A tartalékokhoz"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "Álca %(vehicleName)s járművön lejárt."
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "Embléma %(vehicleName)s járművön lejárt."
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "Felirat %(vehicleName)s járművön lejárt."
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "Gyűjtemény elérhető"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "Gratulálunk!\nKifejlesztettél egy %(level)s szintű %(nation)s járművet. Most már megvásárolhatod az azonos szintű és nemzetiségű gyűjtői járműveket a boltban."
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "Jármű megsemmisítve. %(vehicleName)s nem használható klán csatára még %(expireTime)s."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "Megnyitva. %(vehicleName)s használható a klánháborúhoz."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "A(z) %(vehicle)s jármű minden kettős módosítása törölve."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "Módosítás törölve"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "letiltva"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "engedélyezve"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "A felszerelések és direktívák közötti váltás %(state)s a csata előtti visszaszámlálás során a következő járműhöz: %(tankName)s."
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "A lőszer készletek és fogyócikkek közötti váltás %(state)s a csata előtti visszaszámlálás során a következő járműhöz: %(tankName)s."
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "Kaptál egy prémium járművet: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "Nem lehet kibérelni a járművet. Nincs elég fedezet."
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "%(vehicleName)s jármű kibérelve. Lejárati idő: %(expiryTime)s."
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "Lezárás feloldva. A járművek már használhatóak a klán csatákra."
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "Játékos %(srcName)s átutalt %(srcWares)s aranyat a számládra."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s arany átutalva %(dstName)s játékosnak. Költség: %(fee)s."
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "Kedvezmény egy %(level)s. szintű járműre"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "Az Újra akcióban előrehaladás teljesítéséért járó jutalmak:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "Válassz jutalmat"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "Kedvezmény egy %(level)s. szintű járműre"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% és %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "Megszerzett kedvezmények a vásárlásra és a fejlesztésre: "
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "Gratulálunk!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "%(level)s. szintű jármű"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "Válassz jutalmakat az elérhető kategóriákból."
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "Kiválaszt"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "Jutalmak megszerezve!"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "A Battle Pass Plusz-kedvezményeket felfüggesztettük."
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "A Battle Pass Plusz jelenleg nem érhető el"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "A Battle Pass Plusz elérhető"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "Ne felejts el bejelentkezni a játékba, hogy további jutalmakat szerezz!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "Különleges bejelentkezési jutalom megszerezve!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "Teljesítetted a ciklust"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "Jelentkezz be a játékba, hogy jutalmakat szerezz."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "A ciklus elkezdődött!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "Bejelentkezési jutalom"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "Térj vissza holnap egy újabb jutalomért!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "Bejelentkezés feljegyezve!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "A bejelentkezési jutalom funkciót felfüggesztettük."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "A bejelentkezési jutalmak nem érhetők el"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "A bejelentkezési jutalmak elérhetők"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "Elérhető az exkluzív <font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s."
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "A WoT plusz exkluzív <font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s jelenleg nem érhető el."
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "A WoT plusz Core lejárt ekkor: %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "A felszerelések ingyenes leszerelése nem elérhető"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "Hosszabbítsd meg a WoT plusz előfizetésedet, hogy minden előnyét kiaknázhasd."
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "A WoT plusz lejárt ekkor: %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "A WoT plusz Pro lejárt ekkor: %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "Az arany gyűjtését felfüggesztettük."
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "Az aranytartalék jelenleg nem elérhető"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "Az aranytartalék elérhető"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "Az aranytartalék megtelt: nem gyűjthetsz több aranyat"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "Az aranytartalék kinyílt!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "A kedvezmények mostantól elérhetők.\nMeghosszabbodik ekkor: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "Meghosszabbodik ekkor: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "A 180 napos csomag mostantól aktív. Jó szórakozást!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "A 360 napos csomag mostantól aktív. Jó szórakozást!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "A 180 napos csomag mostantól aktív. Jó szórakozást!\nMeghosszabbodik ekkor: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "A 360 napos csomag mostantól aktív. Jó szórakozást!\nMeghosszabbodik ekkor: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "Az Intenzív legénységi képzés kikapcsolt ennél a járműnél: <font color='#E9E2BF'>%(vehicleName)s</font>. Nézd meg a jármű legénységét!"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "A(z) <font color='#E9E2BF'>%(vehicleName)s</font> jármű legénységének egy vagy több tagja nem felel meg az Intenzív legénységi képzés követelményeinek, így nem gyűjt legénységi XP-t."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "Intenzív legénységi képzés"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "Az Intenzív legénységi képzés bekapcsolva a(z) %(vehicleName)s jármű legénységének."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "Az Intenzív legénységi képzés kikapcsolva a(z) %(vehicleName)s jármű legénységének."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "A legénységi XP gyűjtését felfüggesztettük."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "Az Intenzív legénységi képzés jelenleg nem érhető el"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "Az Intenzív legénységi képzés elérhető"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "Válassz egy járművet, hogy ingyenes bónuszt szerezz a legénységi XP-re."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "Az Intenzív legénységi képzés áthelyezve a(z) <font color='#E9E2BF'>%(oldVehName)s</font> járműről a(z) <font color='#E9E2BF'>%(newVehName)s</font> járműre. A(z) <font color='#E9E2BF'>%(oldVehName)s</font> legénysége abbahagyta az XP gyűjtését."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "Az Intenzív legénységi képzés áthelyezve"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "A legénységi XP-bónusz nem alkalmazható a legénység egy vagy több tagján."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "Értékes legénységi XP-ről maradsz le!"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "A választásodat %(cooldown)s óra múlva változtathatod meg ismét."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "Pro gyorsító aktiválva ehhez: %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "A gyorsítót egy másik járművön használhatod helyette."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "Pro gyorsító kikapcsolva ennél: %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "A Pro gyorsítóból származó bevételek fel lettek függesztve."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "A Pro gyorsító jelenleg nem érhető el"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "A Pro gyorsító elérhető"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)s már nincs gyorsítva. A választásodat %(cooldown)s óra múlva változtathatod meg ismét."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "A Pro gyorsító át lett váltva erre: %(vehicleNameTo)s"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "A WoT plusz hosszabbítás dátuma megváltozott"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "A bérléshez válassz egy járművet a listáról."
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "Nincs kiválasztva bérelhető jármű"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "A(z) %(vehicle)s hamarosan hozzá lesz adva a fiókodhoz."
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "Kibérelve!"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "A kedvezményeket kikapcsoltuk."
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "A WoT plusz nem érhető el"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "WoT plusz Core aktiválva"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "A felszerelések ingyenes leszerelése elérhető"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "WoT plusz aktiválva"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT plusz Pro"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "A WoT plusz Pro verzióra frissült!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "Hosszabbítás"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "Kaptál %(freeXP)s szabad XP-t."
+
+msgid "status/offline"
+msgstr "Offline"
+
+msgid "status/online"
+msgstr "Online"
+
+msgid "xmpp_error/action"
+msgstr "\"%(actionName)s\" végrehajtása sikertelen. Próbáld újra később."
+
+msgid "xmpp_error/simple"
+msgstr "Próbáld újra később."
+
+msgid "xmpp_error/user_room_creation"
+msgstr "\"%(strArg1)s\" játékos csatorna létrehozása nem lehetséges."

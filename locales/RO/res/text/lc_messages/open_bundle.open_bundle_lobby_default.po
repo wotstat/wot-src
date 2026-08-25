@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Recepționat!"
+
+msgid "attachments_preview/description"
+msgstr "Set de atașamente 3D"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Atașament 3D epic"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Atașament 3D legendar"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Atașament 3D rar"
+
+msgid "bundle/name"
+msgstr "PIAȚA CU MISTERE"
+
+msgid "bundle/name_uppercased"
+msgstr "PIAȚA CU MISTERE"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Anulează"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Cumpără"
+
+msgid "confirmation/description"
+msgstr "Confirmă pentru a obține bonduri și o recompensă nouă de celulă."
+
+msgid "confirmation/purchase"
+msgstr "Cumperi contra {{price}}?"
+
+msgid "entryPoint/button"
+msgstr "Spre eveniment"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} a sosit. Aruncă o privire!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Atunci când cumperi bonduri pe perioada evenimentului {{eventName}}, vei primi o recompensă drept bonus cadou de la una dintre celulele nedeschise. Celulele conțin articole valoroase în joc, inclusiv recompensa principală a evenimentului: un vehicul premium."
+
+msgid "intro/cards/description/c_2"
+msgstr "Recompensele se acordă în ordine aleatorie. Fiecare celulă nedeschisă are propria probabilitate de selecție, iar toate probabilitățile însumează întotdeauna 100%. Odată ce o celulă e deschisă, aceasta nu mai poate fi deschisă din nou, iar șansa de a obține recompensele rămase crește."
+
+msgid "intro/cards/description/c_3"
+msgstr "Fiecare pas costă o anumită cantitate de aur. Atât numărul de bonduri primite, cât și pasul de creștere a prețului variază pe măsură ce avansezi."
+
+msgid "intro/cards/link"
+msgstr "Afișează pe {{@ class 'linkPart'}}portal{{/}} condițiile și prețurile fiecărui pas.{{icon}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Cumpărarea de bonduri"
+
+msgid "intro/cards/title/c_2"
+msgstr "Celulele și probabilitățile"
+
+msgid "intro/cards/title/c_3"
+msgstr "Prețurile pașilor"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "TE AȘTEAPTĂ RECOMPENSA"
+
+msgid "main/alt/description"
+msgstr "Afișează probabilitatea"
+
+msgid "main/alt/tooltip/body"
+msgstr "Apasă tasta Alt pentru a afișa probabilitatea de obținere a fiecărei celule."
+
+msgid "main/alt/tooltip/header"
+msgstr "Afișarea probabilităților"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "FELICITĂRI! \n AI OBȚINUT TOATE RECOMPENSELE"
+
+msgid "main/footer/button"
+msgstr "Cumpără"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}Recompensă dintr-o celulă"
+
+msgid "main/footer/receive"
+msgstr "Obții: {{item}}"
+
+msgid "main/header/description"
+msgstr "Participă la eveniment între {{startDate}} și {{endDate}} pentru a obține recompense!"
+
+msgid "main/multi"
+msgstr "{{count}}x"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "{{count}}x"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Spre Personalizare"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Spre stil"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Spre vehicul"
+
+msgid "notifications/specialReward/title"
+msgstr "Recompensa principală din {{eventName}} este a ta!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Recompense suplimentare:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Obținute:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Operațiunea este indisponibilă temporar din motive tehnice. Încearcă mai târziu."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Spre eveniment"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s se va încheia în curând!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Evenimentul este disponibil până pe: %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "%(eventName)s celulă deschisă"
+
+msgid "tooltips/entry/description"
+msgstr "Te așteaptă recompensele! Fiecare achiziție de bonduri îți conferă o recompensă cadou aleatorie dintr-o celulă. De fiecare dată deschizi o celulă nouă. deoarece cele deschise deja sunt eliminate."
+
+msgid "tooltips/entry/timer"
+msgstr "Modul va fi disponibil timp de {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "Despre eveniment"
+
+msgid "tooltips/steps/description"
+msgstr "Pentru fiecare achiziție, obții mai multe {{currency}}. Cantitatea obținută crește la anumiți pași ai achizițiilor."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} pentru fiecare achiziție"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Pași:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} — {{end}}"

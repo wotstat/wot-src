@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "ισχύς πυρός"
+
+msgid "categories/mobility"
+msgstr "ευκινησία"
+
+msgid "categories/stealth"
+msgstr "ανίχνευση"
+
+msgid "categories/survivability"
+msgstr "αντοχή"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "Θετικόν!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "Αρνητικό!"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "Μετά την ακύρωση των τροποποιήσεων, θα μπορείτε να τις αγοράσετε εκ νέου πληρώνοντας με credits."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "Μετά την ακύρωση των τροποποιήσεων, θα μπορείτε να τις αγοράσετε εκ νέου."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "Ακύρωση όλων των Αμφίδρομων Τροποποιήσεων δωρεάν?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "Μετά την ακύρωση της τροποποίησης, θα μπορείτε να την αγοράσετε εκ νέου πληρώνοντας με credits."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "Μετά την ακύρωση της τροποποίησης, θα μπορείτε να την αγοράσετε εκ νέου."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "Ακύρωση όλων της Αμφίδρομης Τροποποίησης %(modification)s δωρεάν?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "ΑΓΟΡΑ ΤΡΟΠΟΠΟΙΗΣΕΩΝ"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "ΕΠΙΛΕΞΤΕ ΚΑΤΗΓΟΡΙΑ ΘΕΣΗΣ"
+
+msgid "hint/entryPoint"
+msgstr "ΤΡΟΠΟΠΟΙΗΣΕΙΣ ΔΙΑΘΕΣΙΜΕΣ"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "ΚΛΙΚ ΓΙΑ ΑΛΛΑΓΗ ΣΕ\nΕΠΙΚΟΥΡΙΚΟ ΦΟΡΤΙΟ"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "ΚΛΙΚ ΓΙΑ ΑΛΛΑΓΗ ΣΕ\nΒΑΣΙΚΟ ΦΟΡΤΙΟ"
+
+msgid "hint/vehiclePreview"
+msgstr "ΑΛΛΑΓΕΣ ΣΤΑ ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ ΤΟΥ ΟΧΗΜΑΤΟΣ"
+
+msgid "postProgressionIntro/okButton"
+msgstr "Θετικόν!"
+
+msgid "postProgressionIntro/title"
+msgstr "ΤΡΟΠΟΠΟΙΗΣΕΙΣ ΜΑΧΗΣ"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "Ειδική Τροποποίηση Επιπέδου %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "Κάντε κλικ εδώ για να δείτε τις αλλαγές στα τεχνικά χαρακτηριστικά του οχήματος μετά το συγκεκριμένο Επίπεδο και να τονίσετε τις επιλεγμένες τροποποιήσεις."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "Αμφίδρομη Τροποποίηση Επιπέδου %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "Επίπεδο Τροποποίησης Μάχης"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "Διαθεσιμότητα μετά την αγορά του οχήματος"
+
+msgid "researchEntry/status/notResearched"
+msgstr "Διαθεσιμότητα αφότου γίνει Επίλεκτο"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "Διαθεσιμότητα μετά την αγορά του οχήματος και αφότου γίνει Επίλεκτο"
+
+msgid "researchEntry/title"
+msgstr "ΤΡΟΠΟΠΟΙΗΣΕΙΣ ΜΑΧΗΣ"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "Αύξηση"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "Άκυρο"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} και {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "Επικουρικό Φορτίο"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "Θέση"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "Βασικό Φορτίο"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "πρόσβαση στις Ειδικές Τροποποιήσεις {name1} και {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "πρόσβαση στις Ειδικές Τροποποιήσεις {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "πρόσβαση στην Ειδική Τροποποίηση {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "πρόσβαση στις Ειδικές Τροποποιήσεις {name1}, {name2} και {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "πρόσβαση στις Αμφίδρομες Τροποποιήσεις Επιπέδου {numbers}"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "πρόσβαση στη Αμφίδρομη Τροποποίηση Επιπέδου {number}"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "Θα αποκτήσετε: {unlockedItems}."
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "Αύξηση Επιπέδου της Τυπικής Τροποποίησης σε {level}?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "Αύξηση Επιπέδου της Τυπικής Τροποποίησης?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "Σύνολο:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "Ορισμός"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "Διαθέσιμες κατηγορίες: %(roles)."
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "Επιλεγμένη κατηγορία: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "Δυνατότητα να ορίσετε κατηγορία για τη 2η θέση εξοπλισμού του συγκεκριμένου οχήματος."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "Ορισμός κατηγορίας 1ης θέσης"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "Ορισμός (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "Κατηγορία 2ης Θέσης"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "Ορισμός"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "Αγορά και Επανακαθορισμός"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "Ανταλλαγή"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "Άκυρο"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "Μπορείτε να επαναπροσδιορίσετε την κατηγορία της θέσης για %(price)"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "Η επιλεγμένη κατηγορία θα οριστεί για τη 2η θέση εξοπλισμού. Μπορείτε να επανακαθορίσετε την κατηγορία της θέσης για %(price)"
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "Αναλογία ανταλλαγής: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "Αποτυχία ανταλλαγής: απαιτούνται ακόμη %(gold)"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "Ορισμός κατηγορίας στη 2η θέση εξοπλισμού"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "Επανακαθορισμός κατηγορίας στη 2η θέση εξοπλισμού"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "Αδύνατος ο επανακαθορισμός της κατηγορίας για τη 2η θέση εξοπλισμού: απαιτούνται ακόμη %(credits)"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "Σύνολο:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "Δυνατότητα για ένα πρόσθετο σετ {cream_Open}εξοπλισμού{cream_Close} και {cream_Open}οδηγιών.{cream_Close}"
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "Δυνατότητα για ένα πρόσθετο σετ {cream_Open}βλημάτων{cream_Close} και {cream_Open}αναλώσιμων.{cream_Close}"
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "Επικουρικό Φορτίο"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "Βασικό Φορτίο"
+
+msgid "setupTooltipView/tip"
+msgstr "Μπορείτε να αλλάζετε μεταξύ Κύριας και Εναλλασσόμενης Διαμόρφωσης στο Γκαράζ ή κατά τη διάρκεια της αντίστροφης μέτρησης πριν τη μάχη."
+
+msgid "setupTooltipView/title"
+msgstr "Εναλλασσόμενη Διαμόρφωση: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "Το %(accent)Επικουρικό Φορτίο%(/accent) είναι μέρος της διαμόρφωσης του οχήματος που περιλαμβάνει %(accent)εξοπλισμό και οδηγίες%(/accent). Αφότου αποκτήσετε πρόσβαση στην Εναλλασσόμενη Διαμόρφωση, μπορείτε να %(accent)αλλάξετε τη διαμόρφωση%(/accent) του Επικουρικού Φορτίου κατά τη διάρκεια της αντίστροφης μέτρησης πριν τη μάχη."
+
+msgid "slides/additionalEquipment/title"
+msgstr "ΕΠΙΚΟΥΡΙΚΟ ΦΟΡΤΙΟ"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "Αφότου ανακαλύψετε ένα συγκεκριμένο επίπεδο Τροποποίησης Μάχης, θα γίνει διαθέσιμη για το συγκεκριμένο όχημα η %(accent)Εναλλασσόμενη Διαμόρφωση%(/accent) και θα μπορείτε να προετοιμάσετε %(accent)ένα πρόσθετο σετ εξοπλισμού, πυρομαχικών, αναλώσιμων και οδηγιών%(/accent) όσο βρίσκεστε στο Γκαράζ. Δεν αντικαθιστά την Κύρια Διαμόρφωση, αλλά δίνει επιπλέον δυνατότητες. Θα μπορείτε να κάνετε εκτίμηση για τον χάρτη και τις ομάδες κατά τη διάρκεια της αντίστροφης μέτρησης πριν τη μάχη και να %(accent)επιλέξετε 1 από τις 2%(/accent) διαμορφώσεις του οχήματος, αυτή που θα σας δώσει το μεγαλύτερο πλεονέκτημα στην επερχόμενη μάχη."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "ΕΝΑΛΛΑΣΣΟΜΕΝΗ ΔΙΑΜΟΡΦΩΣΗ ΟΧΗΜΑΤΟΣ"
+
+msgid "slides/baseModifications/description"
+msgstr "Οι %(accent)Τυπικές Τροποποιήσεις%(/accent) παρέχουν μπόνους %(accent)σε 1 από τα τεχνικά χαρακτηριστικά του οχήματος%(/accent) και ξεκλειδώνουν τις Αμφίδρομες Τροποποιήσεις. Η εγκατάσταση αυτών των τροποποιήσεων γίνεται χωρίς κόστος και χρειάζεστε Combat XP ή Free XP για την ανακάλυψη αυτών."
+
+msgid "slides/baseModifications/title"
+msgstr "ΤΥΠΙΚΕΣ ΤΡΟΠΟΠΟΙΗΣΕΙΣ"
+
+msgid "slides/extraModification/description"
+msgstr "Οι %(accent)Ειδικές Τροποποιήσεις%(/accent) ξεκλειδώνουν την Εναλλασσόμενη Διαμόρφωση για το συγκεκριμένο όχημα και σας δίνουν τη δυνατότητα να %(accent)καθορίσετε κατηγορία%(/accent) για τη 2η θέση εξοπλισμού (σε οχήματα Βαθμίδας VIII–X). Μπορείτε να επανακαθορίσετε την κατηγορία της θέσης ξοδεύοντας credits."
+
+msgid "slides/extraModification/title"
+msgstr "ΕΙΔΙΚΕΣ ΤΡΟΠΟΠΟΙΗΣΕΙΣ: ΘΕΣΗ ΡΟΛΟΥ"
+
+msgid "slides/fieldModernization/description"
+msgstr "Οι Τροποποιήσεις Μάχης σας δίνουν τη δυνατότητα να δώσετε στα οχήματά σας έναν ξεχωριστό τόνο ανάλογα με τον ρόλο τους στη μάχη %(accent)αλλάζοντας τα τεχνικά χαρακτηριστικά τους%(/accent) με χρήση των διαφόρων %(accent)τροποποιήσεων%(/accent). Κάθε τροποποίηση γίνεται διαθέσιμη αφότου ανακαλύψετε την προηγούμενη."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "ΤΡΟΠΟΠΟΙΗΣΕΙΣ ΜΑΧΗΣ"
+
+msgid "slides/fieldModernization/title"
+msgstr "ΑΛΛΑΓΗ ΧΑΡΑΚΤΗΡΙΣΤΙΚΩΝ ΟΧΗΜΑΤΟΣ"
+
+msgid "slides/modificationTree/description"
+msgstr "Οι Τροποποιήσεις Μάχης είναι διαθέσιμες για οχήματα που ανακαλύπτετε ή για Συλλεκτικά οχήματα των %(accent)Βαθμίδων VI–X%(/accent) που γίνονται %(accent)Επίλεκτα%(/accent). Οι Τροποποιήσεις είναι άμεσα διαθέσιμες με την απόκτηση ενός ειδικού οχήματος ή ενός οχήματος επιβράβευσης, καθώς και με την αγορά ενός Προνομιακού οχήματος."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "ΑΝΑΚΑΛΥΨΗ ΤΡΟΠΟΠΟΙΗΣΕΩΝ"
+
+msgid "slides/modificationTree/title"
+msgstr "ΑΝΑΚΑΛΥΨΗ ΤΡΟΠΟΠΟΙΗΣΕΩΝ"
+
+msgid "slides/pairedModifications/description"
+msgstr "Οι %(accent)Αμφίδρομες Τροποποιήσεις βελτιώνουν 1 από τα τεχνικά χαρακτηριστικά του οχήματος%(/accent) αλλά ταυτόχρονα %(accent)υποβαθμίζουν κάποιο άλλο%(/accent). Χρειάζεστε Combat XP ή Free XP για την ανακάλυψη αυτών και credits για την εγκατάστασή τους. Μπορείτε να %(accent)ακυρώσετε (αφαιρέσετε από το όχημα)%(/accent) κάποια τροποποίηση %(accent)χωρίς κόστος%(/accent).\nΕάν πωληθεί το όχημα, οι Τυπικές και οι Ειδικές Τροποποιήσεις αποθηκεύονται, αλλά οι Αμφίδρομες Τροποποιήσεις ακυρώνονται."
+
+msgid "slides/pairedModifications/title"
+msgstr "ΑΜΦΙΔΡΟΜΕΣ ΤΡΟΠΟΠΟΙΗΣΕΙΣ"
+
+msgid "slides/requiredEquipment/description"
+msgstr "Το %(accent)Βασικό Φορτίο%(/accent) είναι μέρος της διαμόρφωσης του οχήματος που περιλαμβάνει %(accent)πυρομαχικά και αναλώσιμα%(/accent). Αφότου αποκτήσετε πρόσβαση στην Εναλλασσόμενη Διαμόρφωση, μπορείτε να %(accent)αλλάξετε τη διαμόρφωση%(/accent) του Βασικού Φορτίου κατά τη διάρκεια της αντίστροφης μέτρησης πριν τη μάχη."
+
+msgid "slides/requiredEquipment/title"
+msgstr "ΒΑΣΙΚΟ ΦΟΡΤΙΟ"
+
+msgid "slides/roleInBattle/description"
+msgstr "Αντίθετα με τον τύπο του οχήματος, ο ρόλος του οχήματος στη μάχη δηλώνει με μεγαλύτερη ακρίβεια τις κατάλληλες %(accent)τακτικές%(/accent) και καθορίζει τον %(accent)Πίνακα Τροποποιήσεων%(/accent) που θα είναι διαθέσιμος για το συγκεκριμένο όχημα."
+
+msgid "slides/roleInBattle/title"
+msgstr "ΡΟΛΟΣ ΟΧΗΜΑΤΟΣ ΣΤΗ ΜΑΧΗ"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "Οι Τροποποιήσεις αλλάζουν τα τεχνικά χαρακτηριστικά ενός οχήματος, ξεκλειδώνουν την %(accent)Εναλλασσόμενη Διαμόρφωση%(/accent) και δίνουν τη δυνατότητα να οριστεί κατηγορία για τη %(accent)2η θέση εξοπλισμού%(/accent)."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "Η Εναλλασσόμενη Διαμόρφωση είναι ένα πρόσθετο σετ %(accent)εξοπλισμού, πυρομαχικών, αναλώσιμων και οδηγιών%(/accent). Μπορείτε να αλλάζετε μεταξύ των διαμορφώσεων."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "Η δυνατότητα να επιλέξετε και να ορίσετε κατηγορία για τη %(accent)2η θέση εξοπλισμού%(/accent). Επηρεάζει άμεσα τις επιδόσεις του οχήματος στη μάχη."
+
+msgid "slides/specialModifications/title"
+msgstr "ΤΡΟΠΟΠΟΙΗΣΕΙΣ, ΕΝΑΛΛΑΣΣΟΜΕΝΗ ΔΙΑΜΟΡΦΩΣΗ, ΚΑΤΗΓΟΡΙΑ ΘΕΣΗΣ"
+
+msgid "tooltips/entry_point/description"
+msgstr "Η δυνατότητα να αλλάξετε επιπλέον τεχνικά χαρακτηριστικά ενός οχήματος."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "Εξαρτήματα και οχήματα που έχουν ανακαλυφθεί: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "Εξαρτήματα που έχουν ανακαλυφθεί: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "Τροποποιήσεις Μάχης"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "Διαθεσιμότητα μετά την αγορά του οχήματος."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "Διαθεσιμότητα αφότου γίνει Επίλεκτο."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "Διαθεσιμότητα μετά την αγορά του οχήματος και αφότου γίνει Επίλεκτο."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "Λυπούμαστε για την προσωρινή ταλαιπωρία. Προσπαθήστε ξανά αργότερα."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "Ειδικές Τροποποιήσεις Μη Διαθέσιμες"
+
+msgid "tooltips/feature/subTitle"
+msgstr "Ειδική Τροποποίηση Επιπέδου %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "Κερδίστε τα από μάχες, από ανταλλαγή gold, ή πουλήστε τυχόν πλεόνασμα από την Αποθήκη."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "Δεν Επαρκούν Τα Credits"
+
+msgid "tooltips/pairModification/demount"
+msgstr "Αποσύνδεση"
+
+msgid "tooltips/pairModification/level"
+msgstr "Αμφίδρομη Τροποποίηση Επιπέδου %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "Αλλαγές στα τεχνικά χαρακτηριστικά:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "Αποσύνδεση (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "Αγορά (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "Αγορά"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "Κλικ για να δείτε τις αλλαγές στα τεχνικά χαρακτηριστικά του οχήματος μετά την αγορά της συγκεκριμένης τροποποίησης."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "Μόλις ακυρώσετε την τροποποίηση, θα μπορείτε να αγοράσετε την άλλη αυτού του ζεύγους."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "Η αγορά αυτής της τροποποίησης θα ακυρώσει αυτόματα την άλλη τροποποίηση του ζεύγους που έχετε τοποθετήσει."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "Αγορά Άλλης Τροποποίησης"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "Φτάστε στο Επίπεδο %(level) των Τροποποιήσεων Μάχης για να ξεκλειδώσετε αυτήν την τροποποίηση"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "Μη Διαθέσιμη Τροποποίηση"
+
+msgid "tooltips/priceBlock/free"
+msgstr "Δωρεάν"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "απαιτούνται:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "Κατά προσέγγιση. Οι ακριβείς τιμές αναφέρονται στα τεχνικά χαρακτηριστικά."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "Εφαρμογή"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "Άκυρο"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "Επαναφορά"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "Τροποποιήσεις %(title)s"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "Σύγκριση"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "Ακύρωση Όλων Των Αμφίδρομων Τροποποιήσεων"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "Κάντε κλικ για να ακυρώσετε όλες τις Αμφίδρομες Τροποποιήσεις."
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "Ακύρωση"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "Προεπισκόπηση"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "Επανακαθορισμός"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "Πριν τη μάχη"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "Επιλογή"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "Επιλογή εξοπλισμού και οδηγιών κατά τη διάρκεια της αντίστροφης μέτρησης πριν τη μάχη.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "Επιλογή βλημάτων και αναλώσιμων κατά τη διάρκεια της αντίστροφης μέτρησης πριν τη μάχη.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "Όταν απενεργοποιηθεί η επιλογή αυτή, θα χρησιμοποιηθεί στη μάχη το σετ που έχετε επιλέξει στο Γκαράζ."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "Αλλαγή Πριν Τη Μάχη"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "Το όχημα είναι σε μάχη."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "Το όχημα είναι κλειδωμένο."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "Απαιτείται επισκευή του οχήματος."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "Το όχημα είναι σε επιχειρησιακή μονάδα."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "Αδύνατος ο ορισμός κατηγορίας θέσης: Το όχημα δεν βρίσκεται στο Γκαράζ."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "Η μίσθωση του οχήματος έληξε."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "Το όχημα είναι σε μάχη."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "Το όχημα είναι κλειδωμένο."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "Απαιτείται επισκευή του οχήματος."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "Το όχημα είναι σε επιχειρησιακή μονάδα."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "Αδύνατη η αγορά: Το όχημα δεν βρίσκεται στο Γκαράζ."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "Η μίσθωση του οχήματος έληξε."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "Κάντε κλικ για να ακυρώσετε μία Αμφίδρομη Τροποποίηση."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "Ακύρωση"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "ή"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "Μέγιστο Επίπεδο Τροποποιήσεων Μάχης"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "Διαθεσιμότητα για Οχήματα Βαθμίδας {minAllowedLevel}—{maxAllowedLevel}"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "Διαθεσιμότητα για Οχήματα Βαθμίδας {allowedLevel}"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "ΑΠΟΚΡΥΨΗ ΧΑΡΑΚΤΗΡΙΣΤΙΚΩΝ"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "Μόνιμα μπόνους: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "Μόνιμο μπόνους: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "Μόνιμα μπόνους: %(bonus1) και %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "Αύξηση του Επιπέδου για μόνιμα μπόνους: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "Αύξηση του Επιπέδου για μόνιμο μπόνους: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "Αύξηση του Επιπέδου για μόνιμα μπόνους %(bonus1) και %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "Αύξηση Επιπέδου"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "Αύξηση Επιπέδου σε %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "Αυξήστε το Επίπεδο για να λάβετε:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "Βελτιωμένα χαρακτηριστικά"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "Ειδικές Τροποποιήσεις"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "Ειδική Τροποποίηση Επιπέδου {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "Αμφίδρομες Τροποποιήσεις"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "Αμφίδρομη Τροποποίηση Επιπέδου {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "Εξαρτήματα"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "Τροποποιήσεις Μάχης μη διαθέσιμες: Το όχημα βρίσκεται σε μάχη."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "Τροποποιήσεις Μάχης μη διαθέσιμες: Το όχημα είναι κλειδωμένο."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "Τροποποιήσεις Μάχης μη διαθέσιμες: Απαιτούνται επισκευές στο όχημα."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "Η δυνατότητα να αλλάξετε επιπλέον τεχνικά χαρακτηριστικά ενός οχήματος γίνεται διαθέσιμη μόλις το όχημα γίνει Επίλεκτο."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "Τροποποιήσεις Μάχης μη διαθέσιμες: το όχημα είναι σε επιχειρησιακή μονάδα."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "Το όχημα πρέπει να βρίσκεται στο Γκαράζ για να μπορείτε να ανακαλύψετε τροποποιήσεις και να αυξήσετε το επίπεδό τους."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "Οι Τροποποιήσεις Μάχης δεν είναι διαθέσιμες για μισθωμένα οχήματα. Πρέπει να αγοράστε το όχημα για να ξεκλειδώσετε τις Τροποποιήσεις Μάχης."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "Τροποποιήσεις Μάχης μη διαθέσιμες: Η μίσθωση του οχήματος έληξε. Επεκτείνετε την περίοδο μίσθωσης για να ξεκλειδώσετε τις Τροποποιήσεις Μάχης."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "ΠΡΟΒΟΛΗ ΧΑΡΑΚΤΗΡΙΣΤΙΚΩΝ"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "Η δυνατότητα να αλλάξετε επιπλέον τεχνικά χαρακτηριστικά ενός οχήματος. Γίνεται διαθέσιμη μόλις το όχημα γίνει Επίλεκτο."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "Τροποποιήσεις Μάχης"

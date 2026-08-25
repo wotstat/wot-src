@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Ricevere danni interrompe il ripristino degli HP.\n\nIl tasso di ripristino degli HP e il limite massimo di recupero si basano sugli HP totali del veicolo, inclusi tutti i modificatori applicati."
+
+msgid "armorPatching/alt/info"
+msgstr "Per i talenti di gruppo, viene preso in considerazione il livello medio di addestramento tra tutti i membri dell'equipaggio. Ha effetto quando viene addestrato almeno all'1% e la sua efficacia aumenta con l'aumentare dell'addestramento."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Usare un Kit di riparazione ripristina %(hpRecover)s degli {yellow_Start}HP{yellow_End} del veicolo nel corso di 5 s, fino a un massimo di 20% per battaglia. Permette di usare il Kit di riparazione senza danni critici."
+
+msgid "armorPatching/hudDescription"
+msgstr "Integrità ripristinata."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Una volta addestrato completamente per tutti i membri dell'equipaggio, ripristina %(hpRecover)s degli {yellow_Start}HP{yellow_End}del veicolo nel corso di 5 s dopo aver usato un Kit di riparazione, fino a un massimo di 20% per battaglia. Permette di usare il Kit di riparazione senza danni critici."
+
+msgid "armorPatching/name"
+msgstr "Rattoppo della corazza"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Aumenta il mimetismo base del veicolo."
+
+msgid "brotherhood/alt/description"
+msgstr "Il bonus di efficienza dell'equipaggio migliora l'efficacia del membro dell'equipaggio in battaglia, così come l'efficacia di tutti i suoi talenti imparati, a eccezione di questo. Questo parametro può essere ulteriormente aumentato montando equipaggiamento o consumabili con un effetto simile, o utilizzando la direttiva Pulizia ventilazione. Anche il talento Emergenza del Capocarro, così come i talenti Spalla a spalla ed Esperto di comunicazioni del Radiofonista, possono aumentare il parametro."
+
+msgid "brotherhood/alt/info"
+msgstr "Per i talenti di gruppo, viene preso in considerazione il livello di addestramento medio tra tutti i membri dell'equipaggio. Ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "Il {greenBright_Start}bonus di efficienza dell'equipaggio{greenBright_End} dell'intero equipaggio è aumentato del %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Una volta addestrato completamente per tutti i membri dell'equipaggio, aumenta il {greenBright_Start}bonus di efficienza dell'equipaggio{greenBright_End} dell'intero equipaggio del %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Spirito di squadra"
+
+msgid "brotherhood/shortDescription"
+msgstr "Aumenta le prestazioni generali dell'equipaggio."
+
+msgid "camouflage/alt/description"
+msgstr "Questo talento influisce sul mimetismo del veicolo. Può essere migliorato ulteriormente con la direttiva Copertura naturale.\n\nInoltre, il mimetismo del veicolo può essere aumentato applicando uno schema mimetico o uno stile, oltre che montando equipaggiamento con un effetto simile."
+
+msgid "camouflage/alt/info"
+msgstr "Per i talenti di gruppo, viene preso in considerazione il livello di addestramento medio tra tutti i membri dell'equipaggio. Ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "Il {greenBright_Start}mimetismo{greenBright_End} del veicolo è aumentato del %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Una volta addestrato completamente per tutti i membri dell'equipaggio, aumenta il {greenBright_Start}mimetismo{greenBright_End} del veicolo del %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Mimetismo"
+
+msgid "camouflage/shortDescription"
+msgstr "Aumenta il mimetismo base del veicolo."
+
+msgid "commander_coordination/alt/description"
+msgstr "L'effetto si attiva ogni volta che un veicolo nemico viene avvistato e non si accumula quando più veicoli vengono avvistati.\n\nLa velocità di puntamento può essere ulteriormente aumentata addestrando il talento Puntamento rapido del Cannoniere o montando equipaggiamento con un effetto simile."
+
+msgid "commander_coordination/alt/info"
+msgstr "Un talento con un effetto situazionale entra in vigore quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "La {yellow_Start}velocità di puntamento{yellow_End} sarà aumentata del %(vehicleGunAimSpeed)s per 15 s dopo aver avvistato un veicolo nemico."
+
+msgid "commander_coordination/hudDescription"
+msgstr "La velocità di puntamento è aumentata."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta la {yellow_Start}velocità di puntamento{yellow_End} del %(vehicleGunAimSpeed)s per 15 s dopo aver avvistato un veicolo nemico.\t"
+
+msgid "commander_coordination/name"
+msgstr "Coordinazione"
+
+msgid "commander_coordination/shortDescription"
+msgstr "La velocità di puntamento è aumentata."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Il raggio visivo può essere aumentato ulteriormente addestrando il talento Percezione amplificata del Radiofonista o montando equipaggiamento con un effetto simile. L'utilizzo della direttiva Calibrazione ottiche ne migliora l'effetto."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "Il {greenBright_Start}raggio visivo{greenBright_End} è aumentato del %(circularVisionRadius)s&zwnbsp;. La {greenBright_Start}penalità ai dispositivi di osservazione danneggiati{greenBright_End} è ridotta del %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "La penalità ai dispositivi di osservazione danneggiati è ridotta."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta il {greenBright_Start}raggio visivo{greenBright_End} del %(circularVisionRadius)s&zwnbsp; e riduce la {greenBright_Start}penalità ai dispositivi di osservazione danneggiati{greenBright_End} del %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Ricognitore"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Aumenta il raggio visivo, soprattutto quando i dispositivi di osservazione sono danneggiati."
+
+msgid "commander_emergency/alt/description"
+msgstr "Se ricevi ripetutamente danno da un nemico, l'effetto non si cumula. Il bonus di efficienza dell'equipaggio migliora l'efficacia del membro dell'equipaggio in combattimento. Questo parametro può essere ulteriormente aumentato montando equipaggiamento o consumabili con un effetto simile, oppure utilizzando la direttiva Pulizia ventilazione. Anche il talento di gruppo Spirito di squadra, nonché i talenti Spalla a spalla ed Esperto di comunicazioni del Radiofonista, possono aumentare questo parametro."
+
+msgid "commander_emergency/alt/info"
+msgstr "Un talento con un effetto situazionale entra in vigore quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "Il {yellow_Start}bonus di efficienza dell'equipaggio{yellow_End} sarà aumentato del %(crewLevelIncrease)s per 15 s dopo aver ricevuto danno da un nemico."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Il bonus di efficienza dell'equipaggio viene aumentato."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta il {yellow_Start}bonus di efficienza dell'equipaggio{yellow_End} del %(crewLevelIncrease)s per 15 s dopo aver ricevuto danno da un nemico."
+
+msgid "commander_emergency/name"
+msgstr "Emergenza"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Il bonus di efficienza dell'equipaggio viene aumentato."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Un avviso al fuoco dell'artiglieria nemica che viene attivato nel momento in cui questa fa fuoco, ma con un certo ritardo.\n\nIl talento può essere migliorato con la direttiva Vigilanza rafforzata."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Un talento con un effetto situazionale entra in vigore quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "Un {yellow_Start}avviso sul fuoco dell'artiglieria nemica{yellow_End} e sulla direzione del suo colpo sarà emesso con un ritardo di %(artNotificationDelayFactor)s. L'{greenBright_Start}effetto negativo dello stordimento{greenBright_End} è ridotto del %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Una volta addestrato completamente, emette un {yellow_Start}avviso sul fuoco dell'artiglieria nemica{yellow_End} con un ritardo di %(artNotificationDelayFactor)s e identifica la direzione del colpo. Riduce l'{greenBright_Start}effetto negativo dello stordimento{greenBright_End} del %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Rilevamento sonoro"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Indica un colpo sparato da un'A-SMV nemica."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Il bonus di efficienza dell'equipaggio migliora l'efficacia del membro dell'equipaggio in battaglia.\n\nQuesto parametro può essere ulteriormente aumentato montando equipaggiamento o consumabili con un effetto simile, o utilizzando la direttiva Pulizia ventilazione. Anche vari altri talenti dell'equipaggio possono aumentare il parametro."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Un talento con un effetto situazionale può attivarsi se viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "Il {yellow_Start}bonus di efficienza dell'equipaggio{yellow_End} verrà aumentato del %(crewLevelIncrease)s mentre la squadra nemica ha almeno tre veicoli in più in battaglia rispetto alla tua.&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Il bonus di efficienza dell'equipaggio viene aumentato (superiorità nemica)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta il {yellow_Start}bonus di efficienza dell'equipaggio{yellow_End} del %(crewLevelIncrease)s mentre la squadra nemica ha almeno tre veicoli in più in battaglia rispetto alla tua&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Mantenere la linea"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Aumenta il bonus di efficienza dell'equipaggio"
+
+msgid "commander_practical/alt/description"
+msgstr "Il talento funziona per tutti i tipi di consumabili montati sul tuo veicolo.\n\nIl suo effetto può essere ulteriormente aumentato utilizzando la direttiva Preparativi accurati."
+
+msgid "commander_practical/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "Il {greenBright_Start}tempo di ricarica dei consumabili{greenBright_End} è ridotto del %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Una volta addestrato completamente, riduce il {greenBright_Start}tempo di caricamento dei consumabili{greenBright_End} del %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Praticità"
+
+msgid "commander_practical/shortDescription"
+msgstr "Riduce il tempo di caricamento dei consumabili."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Sesto senso è disabilitato mentre il Capocarro è ferito. Il suo tempo di attivazione si può ridurre con il talento Intercettazione radio del Radiofonista."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "È una caratteristica speciale del Capocarro che non richiede addestramento ed è disponibile al Capocarro per impostazione predefinita."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Consente al Capocarro di capire se il proprio veicolo è stato avvistato dal nemico. Si attiva %(delay)s dopo che il veicolo viene avvistato."
+
+msgid "commander_sixthSense/name"
+msgstr "Sesto senso"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Permette al Capocarro di capire se il proprio veicolo è stato avvistato dal nemico."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Il bonus di efficienza dell'equipaggio migliora l'efficacia del membro dell'equipaggio in battaglia.\n\nQuesto parametro può essere ulteriormente aumentato montando equipaggiamento o consumabili con un effetto simile, o utilizzando la direttiva Pulizia ventilazione. Anche vari altri talenti dell'equipaggio possono aumentare il parametro."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Un talento con un effetto situazionale può attivarsi se viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "Il {yellow_Start}bonus di efficienza dell'equipaggio{yellow_End} verrà aumentato del %(crewLevelIncrease)s per 15&nbsp;secondi dopo aver utilizzato un Kit di pronto soccorso. Consente l'utilizzo di un Kit di pronto soccorso anche se non ci sono membri dell'equipaggio feriti&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Il bonus di efficienza dell'equipaggio viene aumentato (Kit di pronto soccorso utilizzato)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta il {yellow_Start}bonus di efficienza dell'equipaggio{yellow_End} del %(crewLevelIncrease)s per 15 secondi dopo aver utilizzato un Kit di pronto soccorso. Consente l'utilizzo di un Kit di pronto soccorso anche se non ci sono membri dell'equipaggio feriti&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Occhi aperti"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Aumenta il bonus di efficienza dell'equipaggio"
+
+msgid "commander_tutor/alt/description"
+msgstr "Un Capocarro ferito non può sostituire un altro membro dell'equipaggio. Il bonus viene applicato solo all'ammontare base dell'Exp dell'equipaggio ottenuta in battaglia.\n\nÈ possibile ottenere Exp dell'equipaggio aggiuntiva utilizzando i Libretti per equipaggio o convertendo l'Exp tecnica in Exp dell'equipaggio."
+
+msgid "commander_tutor/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "La quantità di {greenBright_Start}Exp{greenBright_End} ottenuta da tutti i membri dell'equipaggio è aumentata del %(xpBonusFactorPerLevel)s. Il Capocarro può {greenBright_Start}sostituire i membri dell'equipaggio tramortiti{greenBright_End} con un'efficacia del %(woundedCrewEfficiency)s."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Membro dell'equipaggio tramortito viene sostituito dal Capocarro."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta la quantità di {greenBright_Start}Exp{greenBright_End} ottenuta da tutti i membri dell'equipaggio del %(xpBonusFactorPerLevel)s. Consente al Capocarro di {greenBright_Start}sostituire i membri dell'equipaggio tramortiti{greenBright_End} con un'efficacia del %(woundedCrewEfficiency)s."
+
+msgid "commander_tutor/name"
+msgstr "Mentore"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Membro dell'equipaggio tramortito viene sostituito dal Capocarro."
+
+msgid "commander_universalist/alt/description"
+msgstr "Il Capocarro può sostituire solo la qualificazione primaria del membro dell'equipaggio tramortito. L'efficacia della sostituzione diminuisce per ogni membro dell'equipaggio tramortito."
+
+msgid "commander_universalist/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1%. La sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Il Capocarro può {greenBright_Start}sostituire i membri dell'equipaggio tramortiti{greenBright_End} con un'efficacia del %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Il Capocarro svolge il ruolo del membro dell'equipaggio tramortito."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Una volta addestrato completamente, permette al Capocarro di {greenBright_Start}sostituire i membri dell'equipaggio tramortiti{greenBright_End} con un'efficacia del %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/name"
+msgstr "Tuttofare"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Permette al Capocarro di sostituire i membri dell'equipaggio tramortiti."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Riduce le penalità a manovrabilità e accelerazione del veicolo durante la guida su terreni moderatamente soffici. Riduce significativamente queste penalità durante la guida su terreni soffici, portandole in linea con quelle dei terreni moderatamente soffici.\nLa manovrabilità su terreni soffici e moderatamente soffici non può superare quella sui terreni duri."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}Perdita di velocità su terreni moderatamente soffici{greenBright_End} ridotta del %(mediumGroundFactor)s&zwnbsp;, {greenBright_Start}perdita di velocità su terreni soffici{greenBright_End} ridotta al %(softGroundFactor)s del valore risultate su terreni moderatamente soffici."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Una volta addestrato completamente, riduce la {greenBright_Start}perdita di velocità su terreni moderatamente soffici{greenBright_End} del %(mediumGroundFactor)s&zwnbsp;, riduce la {greenBright_Start}perdita di velocità su terreni soffici{greenBright_End} al %(softGroundFactor)s del valore risultate su terreni moderatamente soffici."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Pilota da fuoristrada"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Il bonus di efficienza dell'equipaggio migliora l'efficacia del membro dell'equipaggio in battaglia.\n\nQuesto parametro può essere ulteriormente aumentato montando equipaggiamento o consumabili con un effetto simile, o utilizzando la direttiva Pulizia ventilazione. Anche vari altri talenti dell'equipaggio possono aumentare il parametro."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Un talento con un effetto situazionale può attivarsi se viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "Il {yellow_Start}bonus di efficienza dell'equipaggio{yellow_End} aumenta del %(crewLevelIncrease)s se i tuoi danni bloccati superano l'integrità iniziale del tuo veicolo."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Il bonus di efficienza dell'equipaggio è aumentato (sufficienti danni sono stati bloccati)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta il {yellow_Start}bonus di efficienza dell'equipaggio{yellow_End} del %(crewLevelIncrease)s se i tuoi danni bloccati superano l'integrità iniziale del tuo veicolo."
+
+msgid "driver_bulletproof/name"
+msgstr "Antiproiettile"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "La velocità massima del tuo veicolo può essere ulteriormente aumentata e la penalità di un motore danneggiato può essere ulteriormente ridotta montando equipaggiamento con un effetto simile."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "{greenBright_Start}Velocità massima in avanti{greenBright_End} e {greenBright_Start}in retromarcia{greenBright_End} del tuo veicolo sono aumentate del %(vehicleForwardMaxSpeed)s. La {greenBright_Start}penalità di un motore danneggiato{greenBright_End} è ridotta del %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "La penalità di un motore danneggiato è ridotta."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta la {greenBright_Start}velocità massima in avanti{greenBright_End} e {greenBright_Start}in retromarcia{greenBright_End} del tuo veicolo del %(vehicleForwardMaxSpeed)s. Riduce la {greenBright_Start}penalità di un motore danneggiato{greenBright_End} del %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Ingegnere"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "La penalità di un motore danneggiato è ridotta."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Il talento non ha effetto se la collisione riguarda due veicoli alleati.\n\nI danni da speronamento al tuo veicolo possono essere ridotti ulteriormente montando equipaggiamento con un effetto simile."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "I {greenBright_Start}danni da speronamento causati a veicoli nemici{greenBright_End} sono aumentati del %(damageEnemiesByRamming)s&zwnbsp;. I {greenBright_Start}danni da speronamento causati al tuo veicolo{greenBright_End} sono ridotti del %(vehicleRamDamageResistance)s&zwnbsp; e quelli alle {greenBright_Start}tue sospensioni{greenBright_End} del %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta i {greenBright_Start}danni da speronamento causati a veicoli nemici{greenBright_End} del %(damageEnemiesByRamming)s&zwnbsp;. Riduce i {greenBright_Start}danni da speronamento causati al tuo veicolo{greenBright_End} del %(vehicleRamDamageResistance)s&zwnbsp;, e quelli alle {greenBright_Start}tue sospensioni{greenBright_End} del %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Speronatore"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Riduce il danno da speronamento al tuo veicolo e aumenta il danno da speronamento ai veicoli nemici."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Il danno ricevuto dai proiettili HE può essere ulteriormente ridotto montando equipaggiamento con un effetto simile."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "L'{greenBright_Start}assorbimento dei danni dei proiettili HE{greenBright_End} verrà aumentato del %(vehicleHEShellDamageResistance)s&zwnbsp;. La&nbsp;{greenBright_Start}probabilità di incendio del motore{greenBright_End} verrà ridotta del %(vehicleFireChance)s e i {greenBright_Start}danni alle tue sospensioni{greenBright_End} verranno ridotti del %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta l'{greenBright_Start}assorbimento dei danni dei proiettili HE{greenBright_End} del %(vehicleHEShellDamageResistance)s&zwnbsp;. Riduce la {greenBright_Start}probabilità di incendio del motore{greenBright_End} del %(vehicleFireChance)s e i {greenBright_Start}danni alle tue sospensioni{greenBright_End} del %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Posizionamento tattico"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Non influenza la precisione di un veicolo stazionario e la precisione durante la rotazione dello scafo.\n\nQuesto talento può essere migliorato utilizzando la direttiva Pratica col cambio. La precisione di fuoco in movimento può essere aumentata ulteriormente montando equipaggiamento con un effetto simile o utilizzando la direttiva Ingrassaggio stabilizzatore."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "La {greenBright_Start}dispersione del cannone{greenBright_End} sparando in movimento è ridotta del %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Una volta addestrato completamente, riduce la {greenBright_Start}dispersione del cannone{greenBright_End} sparando in movimento del %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Campione di guida"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Aumenta la precisione di fuoco in movimento."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Questo talento influenza la velocità di riparazione delle sospensioni dallo stato rosso a quello giallo quando ci si trova entro 50 m da un veicolo alleato."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Un talento con un effetto situazionale può attivarsi se viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "La {yellow_Start}velocità di riparazione delle sospensioni{yellow_End} verrà aumentata del %(suspensionRepairSpeed)s a una distanza inferiore a 50 m da un veicolo alleato."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "La velocità di riparazione delle sospensioni è aumentata (alleato nelle vicinanze)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta la {yellow_Start}velocità di riparazione delle sospensioni{yellow_End} del %(suspensionRepairSpeed)s a una distanza inferiore a 50 m da un veicolo alleato."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Assistenza sul campo"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "La resistenza del veicolo agli incendi può essere ulteriormente aumentata montando equipaggiamento e consumabili con effetti simili. Il talento Lotta antincendio accelererà lo spegnimento di eventuali incendi."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1%. La sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "{greenBright_Start}Probabilità di incendio del motore{greenBright_End} ridotte del %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Una volta addestrato completamente, riduce le {greenBright_Start}probabilità di incendio del motore{greenBright_End} del %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Meccanico pignolo"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Riduce le probabilità di incendio del motore."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "La velocità di rotazione dello scafo può essere aumentata ulteriormente montando equipaggiamento o consumabili con un effetto simile."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "La {greenBright_Start}velocità di rotazione dello scafo{greenBright_End} è aumentata del %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta la {greenBright_Start}velocità di rotazione dello scafo{greenBright_End} del %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Pilota virtuoso"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Aumenta la velocità di rotazione dello scafo."
+
+msgid "fireFighting/alt/description"
+msgstr "Questo talento influenza i danni ricevuti dagli incendi e la loro durata.\n\nSe due Radiofonisti possiedono questo talento, viene applicato il valore medio del suo livello di addestramento.\n\nIl talento può essere migliorato con la direttiva Pratica antincendio."
+
+msgid "fireFighting/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "La {greenBright_Start}velocità di spegnimento degli incendi{greenBright_End} è aumentata del %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta la {greenBright_Start}velocità di spegnimento degli incendi{greenBright_End} del %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Lotta antincendio"
+
+msgid "fireFighting/shortDescription"
+msgstr "Migliora le abilità di spegnimento degli incendi."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Di base, la variazione di danno e perforazione potenziali è del ±25% rispetto ai valori base. Ad esempio, se un proiettile perfora corazze fino a 100 mm e causa 100 HP di danno, quando si colpisce un bersaglio, la perforazione effettiva per questo singolo colpo può variare da 75 a 125 mm, e il danno effettivo può variare da 75 a 125 HP. Ridurre questo modificatore offrirà risultati di tiro più prevedibili.\n\nSe due Cannonieri possiedono questo talento, viene applicato il valore medio del suo livello di addestramento."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Le variazioni di {greenBright_Start}danno potenziale{greenBright_End} e {greenBright_Start}perforazione potenziale{greenBright_End} sono ridotte del {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. La {greenBright_Start}dispersione del cannone{greenBright_End} è ridotta del %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Una volta addestrato completamente, riduce le variazioni di {greenBright_Start}danno potenziale{greenBright_End} e {greenBright_Start}perforazione potenziale{greenBright_End} del {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. Riduce la {greenBright_Start}dispersione del cannone{greenBright_End} del %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Armaiolo"
+
+msgid "gunner_focus/alt/description"
+msgstr "L'effetto inizia 3 s dopo l'arresto del veicolo e si azzera con il movimento.\n\nSe due Cannonieri possiedono questo talento, viene applicato il valore medio del suo livello di addestramento."
+
+msgid "gunner_focus/alt/info"
+msgstr "Un talento con un effetto situazionale entra in vigore quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "La {yellow_Start}dispersione del cannone{yellow_End} di un veicolo stazionario è ridotta del %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Dispersione del cannone ridotta."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Una volta addestrato completamente, riduce la {yellow_Start}dispersione del cannone{yellow_End} di un veicolo stazionario del %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Concentrazione"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Riduce la dispersione del cannone di un veicolo stazionario."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Dispersione del cannone e velocità di puntamento possono essere ulteriormente migliorate addestrando talenti dell'equipaggio e montando equipaggiamenti con effetti simili.\n\nSe due Cannonieri possiedono questo talento, viene applicato il valore medio del suo livello di addestramento."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Un talento con un effetto situazionale può attivarsi se viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "La {yellow_Start}dispersione del cannone{yellow_End} verrà ridotta del %(vehicleGunAimSpeed)s e la {yellow_Start}velocità di puntamento{yellow_End} verrà aumentata del %(vehicleGunAimSpeed)s fintanto che non ci sono veicoli alleati entro 300 m."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Dispersione e velocità di puntamento del cannone è migliorata (nessun alleato nelle vicinanze)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Una volta addestrato completamente, riduce la {yellow_Start}dispersione del cannone{yellow_End} e aumenta la {yellow_Start}velocità di puntamento{yellow_End} del %(vehicleGunAimSpeed)s fintanto che non ci sono veicoli alleati entro 300 m."
+
+msgid "gunner_loneWolf/name"
+msgstr "Lupo solitario"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Riduce la dispersione del cannone. Aumenta la velocità di puntamento."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Di base, la perforazione massima potenziale è pari al +25% del valore base. Ad esempio, se un proiettile perfora fino a 100 mm di corazza, colpendo un bersaglio, il valore massimo di perforazione per quel singolo colpo può essere 125 mm. Aumentando questo modificatore si possono ottenere risultati di perforazione più efficaci.\n\nSe due Cannonieri possiedono questo talento, viene applicato il valore medio del suo livello di addestramento."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Un talento con un effetto situazionale può attivarsi se viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "La {yellow_Start}perforazione potenziale massima{yellow_End} dei tuoi proiettili verrà aumentata del %(piercingHEShellsDistributionUpperBound)s quando spari a veicoli nemici entro 50 m di distanza."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta la {yellow_Start}perforazione potenziale massima{yellow_End} del %(piercingHEShellsDistributionUpperBound)s quando si spara a veicoli nemici entro 50 m di distanza."
+
+msgid "gunner_pointBlast/name"
+msgstr "Bruciapelo"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Aumenta la perforazione potenziale massima dei tuoi proiettili"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Se due Cannonieri possiedono questo talento, viene applicato il valore medio del suo livello di addestramento.\n\nLa velocità di puntamento può essere aumentata ulteriormente addestrando il talento Coordinazione del Capocarro o montando equipaggiamento con un effetto simile.\n\nLa velocità di brandeggio della torretta può essere aumentata ulteriormente montando equipaggiamento o consumabili con un effetto simile."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}Velocità di puntamento{greenBright_End} e {greenBright_Start}velocità di brandeggio della torretta{greenBright_End} sono aumentate del %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta la {greenBright_Start}velocità di puntamento{greenBright_End} e la {greenBright_Start}velocità di brandeggio della torretta{greenBright_End} del %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Puntamento rapido"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "La velocità di puntamento è aumentata."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Identifica i moduli con danni critici dei veicoli presi di mira all'interno del raggio visivo del Cannoniere, sia in modalità di fuoco diretto che indiretto.\nL'area di visuale del Cannoniere è definita dal settore di ±10° (20° in totale) di fronte al cannone del veicolo e nel suo raggio visivo.\nSe due Cannonieri possiedono questo talento, viene applicato il valore medio del suo livello di addestramento.\nIl talento può essere migliorato ulteriormente con la direttiva Concentrazione sul bersaglio. L'utilizzo di Gruppo radio migliorato aumenta ulteriormente il tempo in cui il veicolo nemico rimane visibile."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "Il {greenBright_Start}tempo{greenBright_End} in cui un {greenBright_Start}veicolo nemico rimane visibile{greenBright_End} all'interno dell'area di visuale del Cannoniere è aumentato del %(vehicleEnemySpottingTime)s. Il tempo necessario per {yellow_Start}identificare i moduli danneggiati{yellow_End} è ridotto a %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta il {greenBright_Start}tempo{greenBright_End} in cui un {greenBright_Start}veicolo nemico rimane visibile{greenBright_End} all'interno dell'area di visuale del Cannoniere del %(vehicleEnemySpottingTime)s. Consente di {yellow_Start}identificare i moduli danneggiati{yellow_End} con un ritardo di %(damageMonitoringDelay)s."
+
+msgid "gunner_rancorous/name"
+msgstr "Undici decimi"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Aumenta la durata di tempo in cui un veicolo nemico rimane visibile all'interno dell'area di visuale del Cannoniere. Consente di identificare i moduli danneggiati."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Se due Cannonieri possiedono questo talento, viene applicato il valore medio del suo livello di addestramento.\n\nQuesto talento può essere migliorato con la direttiva Riflessi pronti. La dispersione durante il brandeggio della torretta può essere ridotta ulteriormente montando equipaggiamento con un effetto simile o utilizzando la direttiva Ingrassaggio stabilizzatore."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "La {greenBright_Start}dispersione del cannone{greenBright_End} durante il brandeggio della torretta è ridotta del %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Una volta addestrato completamente, riduce la {greenBright_Start}dispersione del cannone{greenBright_End} durante il brandeggio della torretta del %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Mano ferma"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Riduce la dispersione del cannone durante il brandeggio della torretta."
+
+msgid "gunner_sniper/alt/description"
+msgstr "L'effetto funziona per tutti i tipi di proiettili, tranne nei veicoli con cannoni automatici.\n\nSe due Cannonieri possiedono questo talento, viene applicato il valore medio del suo livello di addestramento."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "La {greenBright_Start}probabilità di causare danni critici{greenBright_End} ai {greenBright_Start}moduli dei veicoli{greenBright_End} nemici e di ferire i {greenBright_Start}membri dell'equipaggio{greenBright_End} nemici con tutti i tipi di proiettili è aumentata del %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta la {greenBright_Start}probabilità di causare danni critici{greenBright_End} ai {greenBright_Start}moduli dei veicoli{greenBright_End} nemici e di ferire i {greenBright_Start}membri dell'equipaggio{greenBright_End} nemici con tutti i tipi di proiettili del %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Letale"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Di base, la variazione minima di danno e perforazione potenziali è del -25% rispetto ai valori base. Ad esempio, se un proiettile perfora corazze fino a 100 mm e causa 100 HP di danno, quando colpisce un bersaglio, il valore minimo possibile di perforazione del singolo proiettile può essere di 75 mm, e il valore minimo possibile di danno può essere di 75 HP. Aumentare questo modificatore porta a risultati di tiro più efficaci.\n\nSe due Serventi possiedono questo talento, viene applicato il valore medio del suo livello di addestramento."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "Il {greenBright_Start}danno minimo potenziale{greenBright_End} e la {greenBright_Start}perforazione minima potenziale{greenBright_End} sono aumentati del %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta il {greenBright_Start}danno minimo potenziale{greenBright_End} e la {greenBright_Start}perforazione minima potenziale{greenBright_End} del %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Taratura munizioni"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Aumenta i valori medi di danno e perforazione."
+
+msgid "loader_desperado/alt/description"
+msgstr "Se due Serventi possiedono questo talento, viene applicato il valore medio del suo livello di addestramento.\n\nIl tempo di ricarica del cannone può essere ulteriormente ridotto addestrando il talento Combattimento ravvicinato del Servente o montando equipaggiamento con un effetto simile. Utilizzare la direttiva Riordino stiva munizioni ne migliora l'effetto."
+
+msgid "loader_desperado/alt/info"
+msgstr "Un talento con un effetto situazionale entra in vigore quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "Il {yellow_Start}tempo di ricarica del cannone{yellow_End} è ridotto del %(vehicleGunReloadTime)s se il tuo veicolo ha meno del 25% d'integrità rimanente."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Tempo di ricarica del cannone ridotto (bassa integrità del veicolo)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Una volta addestrato completamente, riduce il {yellow_Start}tempo di ricarica del cannone{yellow_End} del %(vehicleGunReloadTime)s se il tuo veicolo ha meno del 25% d'integrità rimanente."
+
+msgid "loader_desperado/name"
+msgstr "Scarica di adrenalina"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Accelera la ricarica del cannone se il veicolo ha meno del 25% d'integrità rimanente."
+
+msgid "loader_intuition/alt/description"
+msgstr "Per attivare il talento, il cannone, entrambi i cannoni o il caricatore devono essere completamente carichi. Il tempo minimo di cambio del tipo di proiettile per i cannoni standard è di 1 s; per i cannoni a doppia canna e a caricatore è di 2,5 s.\n\nSe due Serventi possiedono questo talento, viene applicato il valore medio del suo livello di addestramento."
+
+msgid "loader_intuition/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "Il {greenBright_Start}tempo necessario per cambiare tipo di proiettili{greenBright_End} con cannone carico è ridotto del %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Il tempo necessario per cambiare tipo di proiettili con cannone carico è ridotto.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Una volta addestrato completamente, riduce il {greenBright_Start}tempo necessario per cambiare tipo di proiettili{greenBright_End} con cannone carico del %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Preveggenza"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Aumenta notevolmente la velocità di cambio del tipo di proiettili con cannone carico."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Questo talento riduce il tempo di ricarica solo per i cannoni con caricatore, senza influenzare gli altri sistemi d'arma.\n\nSe due Cannonieri possiedono questo talento, viene applicato il valore medio del suo livello di addestramento."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "Il {greenBright_Start}tempo di ricarica{greenBright_End} del caricatore viene ridotto del %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Una volta addestrato completamente, riduce il {greenBright_Start}tempo di ricarica{greenBright_End} del caricatore del %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "Maestria del caricatore"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Riduce il tempo di ricarica dei tuoi caricatori"
+
+msgid "loader_melee/alt/description"
+msgstr "Se due Serventi possiedono questo talento, viene applicato il valore medio del suo livello di addestramento.\n\nIl tempo di ricarica del cannone può essere ridotto ulteriormente addestrando il talento Scarica di adrenalina del Servente o montando equipaggiamento con un effetto simile. Utilizzare la direttiva Riordino stiva munizioni ne migliora l'effetto."
+
+msgid "loader_melee/alt/info"
+msgstr "Un talento con un effetto situazionale entra in vigore quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "Il {yellow_Start}tempo di ricarica del cannone{yellow_End} è ridotto del %(vehicleGunReloadTime)s a distanze inferiori a 50 m dal veicolo nemico."
+
+msgid "loader_melee/hudDescription"
+msgstr "Il tempo di ricarica del cannone è ridotto (nemico nelle vicinanze).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Una volta addestrato completamente, riduce il {yellow_Start}tempo di ricarica del cannone{yellow_End} del %(vehicleGunReloadTime)s a distanze inferiori a 50 m dal veicolo nemico."
+
+msgid "loader_melee/name"
+msgstr "Combattimento ravvicinato"
+
+msgid "loader_melee/shortDescription"
+msgstr "Accelera la ricarica del cannone nei combattimenti ravvicinati."
+
+msgid "loader_pedant/alt/description"
+msgstr "Un Servente ferito non influenza l'efficienza del talento.\n\nSe due Serventi possiedono questo talento, viene applicato il valore medio del suo livello di addestramento.\n\nIl talento può essere migliorato utilizzando la direttiva Organizzazione munizioni. La resistenza della stiva munizioni può essere aumentata ulteriormente montando equipaggiamento con un effetto simile."
+
+msgid "loader_pedant/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "La {greenBright_Start}resistenza della stiva munizioni{greenBright_End} è aumentata del %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta la {greenBright_Start}resistenza della stiva munizioni{greenBright_End} del %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Servente meticoloso"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Aumenta la resistenza della stiva munizioni."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "L'effetto funziona per tutti i tipi di proiettili.\n\nUn Servente ferito non influenza l'efficienza del talento.\n\nSe due Serventi possiedono questo talento, viene applicato il valore medio del suo livello di addestramento."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "La {greenBright_Start}velocità dei proiettili{greenBright_End} è aumentata del %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta la {greenBright_Start}velocità dei proiettili{greenBright_End} del %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Carica perfetta"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Questo talento non ha effetto su cannoni con caricatore o cannoni automatici e non si cumula per i cannoni a doppia canna.\n\nPer i cannoni con sistema di ricarica selettivo, se entrambe le canne hanno sparato e nessuna delle due ha causato danni, la riduzione del tempo di ricarica si applica a entrambe.\n\nSe due Cannonieri possiedono questo talento, viene applicato il valore medio del suo livello di addestramento.\n\nIl tempo di ricarica del cannone può essere ulteriormente ridotto addestrando i talenti del Servente Scarica di adrenalina o Combattimento ravvicinato, oppure montando equipaggiamenti con effetti simili. L'utilizzo della direttiva Riordino stiva munizioni migliora l'effetto."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Un talento con un effetto situazionale può attivarsi se viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "Il {yellow_Start}tempo di ricarica del cannone{yellow_End} verrà ridotto del %(vehicleGunReloadTime)s per il colpo successivo se quello precedente non ha causato danni a un veicolo nemico."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Tempo di ricarica del cannone ridotto (colpo mancato)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Una volta addestrato completamente, riduce il {yellow_Start}tempo di ricarica del cannone{yellow_End} del %(vehicleGunReloadTime)s per il colpo successivo se quello precedente non ha causato danni a un veicolo nemico."
+
+msgid "loader_secondChance/name"
+msgstr "Seconda occasione"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Riduce il tempo di ricarica del cannone"
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Fratelli al fronte"
+
+msgid "perkRole/commander"
+msgstr "Capocarro"
+
+msgid "perkRole/common"
+msgstr "Gruppo"
+
+msgid "perkRole/driver"
+msgstr "Pilota"
+
+msgid "perkRole/gunner"
+msgstr "Cannoniere"
+
+msgid "perkRole/loader"
+msgstr "Servente"
+
+msgid "perkRole/radioman"
+msgstr "Radiofonista"
+
+msgid "popularity/tooltip/common"
+msgstr "di tutti i giocatori"
+
+msgid "popularity/tooltip/header"
+msgstr "Per questo veicolo, preferito dal"
+
+msgid "popularity/tooltip/legendary"
+msgstr "di tutti i giocatori WTR Leggenda"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Se due Radiofonisti possiedono questo talento, viene applicato il valore medio del suo livello di addestramento.\n\nL'effetto può essere ulteriormente migliorato con il talento del Capocarro Rilevamento sonoro."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Ogni volta che l'equipaggio del veicolo viene stordito, gli {greenBright_Start}effetti negativi dello stordimento{greenBright_End} verranno ridotti del %(stunResistanceEffectFactor)s, fino a un massimo del 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Una volta addestrato completamente, ogni volta che l'equipaggio del veicolo viene stordito, riduce gli {greenBright_Start}effetti negativi dello stordimento{greenBright_End} del %(stunResistanceEffectFactor)s&nbsp;, fino a un massimo del 30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Temprato dalla battaglia"
+
+msgid "radioman_expert/alt/description"
+msgstr "Il bonus di efficienza dell'equipaggio migliora l'efficacia del membro dell'equipaggio in combattimento. Se due Radiofonisti possiedono questo talento, viene applicato il valore medio del suo livello di addestramento. Questo parametro può essere aumentato ulteriormente montando equipaggiamento o consumabili con un effetto simile, oppure utilizzando la direttiva Pulizia ventilazione. Anche il talento di gruppo Spirito di squadra, nonché i talenti Emergenza del Capocarro o Spalla a spalla del Radiofonista, possono aumentare questo parametro."
+
+msgid "radioman_expert/alt/info"
+msgstr "Un talento con un effetto situazionale entra in vigore quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "Il {yellow_Start}bonus di efficienza dell'equipaggio{yellow_End} aumenta del %(crewLevelIncrease)s se i tuoi danni su assistenza superano l'integrità iniziale del tuo veicolo&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Il bonus di efficienza dell'equipaggio è aumentato (sufficienti dati da ricognizione sono stati tradotti)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta il {yellow_Start}bonus di efficienza dell'equipaggio{yellow_End} del %(crewLevelIncrease)s se i tuoi danni su assistenza superano l'integrità iniziale del tuo veicolo&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Esperto di comunicazioni"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Prestazioni dell'equipaggio migliorate."
+
+msgid "radioman_finder/alt/description"
+msgstr "Se due Radiofonisti possiedono questo talento, viene applicato il valore medio del suo livello di addestramento.\n\nIl raggio visivo può essere aumentato ulteriormente addestrando il talento Ricognitore o montando equipaggiamento con un effetto simile. Utilizzare la direttiva Calibrazione ottiche ne migliora l'effetto."
+
+msgid "radioman_finder/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "Il {greenBright_Start}raggio visivo{greenBright_End} è aumentato del %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta il {greenBright_Start}raggio visivo{greenBright_End} del %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Percezione amplificata"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Aumenta il raggio visivo."
+
+msgid "radioman_interference/alt/description"
+msgstr "Se due Radiofonisti possiedono questo talento, viene applicato il valore medio del suo livello di addestramento.\n\nIl tempo in cui il tuo veicolo rimane visibile può essere ulteriormente ridotto montando equipaggiamento con un effetto simile."
+
+msgid "radioman_interference/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "Il {greenBright_Start}tempo in cui il tuo veicolo rimane visibile{greenBright_End} al nemico è ridotto del %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Una volta addestrato completamente, riduce il {greenBright_Start}tempo in cui il tuo veicolo rimane visibile{greenBright_End} al nemico del %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Disturbo delle frequenze"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Riduce il periodo di tempo in cui il tuo veicolo rimane visibile al nemico."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Quando due Radiofonisti possiedono questo talento, viene applicato solo il valore più alto. L'effetto si attiva solo se il Radiofonista è illeso quando il veicolo viene distrutto.\n\nQuesto talento può essere migliorato ulteriormente con la direttiva Il dovere prima di tutto."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Un talento con un effetto situazionale che entra in vigore quando viene addestrato almeno all'1%. La sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Il Radiofonista può {yellow_Start}segnalare le posizioni nemiche{yellow_End} per altri %(radiomanDurationPerLevel)s dopo che il tuo veicolo è stato distrutto."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Segnalazione delle posizioni."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Una volta addestrato completamente, permette di {yellow_Start}segnalare le posizioni nemiche{yellow_End} per altri %(radiomanDurationPerLevel)s dopo che il tuo veicolo è stato distrutto."
+
+msgid "radioman_lastEffort/name"
+msgstr "Vendicativo"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Segnala le posizioni nemiche per un breve periodo di tempo dopo la distruzione del tuo veicolo."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Il bonus di efficienza dell'equipaggio migliora l'efficacia del membro dell'equipaggio in combattimento. Se due Radiofonisti possiedono questo talento, viene applicato il valore medio del suo livello di addestramento. Questo parametro può essere ulteriormente aumentato montando equipaggiamento o consumabili con un effetto simile, oppure utilizzando la direttiva Pulizia ventilazione. Anche il talento di gruppo Spirito di squadra, nonché i talenti Emergenza del Capocarro o Esperto di comunicazioni del Radiofonista, possono aumentare questo parametro."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Un talento con un effetto situazionale entra in vigore quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "Il {yellow_Start}bonus di efficienza dell'equipaggio{yellow_End} verrà aumentato del %(crewLevelIncrease)s a distanze inferiori a 50 m da un veicolo alleato dello stesso tipo&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Il bonus di efficienza dell'equipaggio è aumentato (alleato dello stesso tipo nelle vicinanze)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta il {yellow_Start}bonus di efficienza dell'equipaggio{yellow_End} del %(crewLevelIncrease)s a distanze inferiori a 50 m da un veicolo alleato dello stesso tipo&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Spalla a spalla"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Prestazioni dell'equipaggio migliorate."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "L'effetto migliora la caratteristica speciale del Capocarro Sesto senso, velocizzandone l'attivazione.\n\nSe due Radiofonisti possiedono questo talento, viene applicato il valore medio del suo livello di addestramento."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Un talento ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "Il {greenBright_Start}tempo necessario per determinare{greenBright_End} se {greenBright_Start}il tuo veicolo è stato avvistato{greenBright_End} dal nemico è ridotto del %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Una volta addestrato completamente, riduce il {greenBright_Start}tempo necessario per determinare{greenBright_End} se {greenBright_Start}il tuo veicolo è stato avvistato{greenBright_End} dal nemico del %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Intercettazione radio"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Questo talento si attiva quando l'avviso di Sesto senso indica che il tuo veicolo è stato avvistato.\n\nSe due Radiofonisti possiedono questo talento, viene applicato il valore medio del suo livello di addestramento.\n\nIl raggio visivo può essere ulteriormente aumentato addestrando i talenti Ricognizione o Percezione amplificata, oppure montando equipaggiamenti con effetti simili. L'utilizzo della direttiva Calibrazione ottiche migliora l'effetto."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Un talento con un effetto situazionale può attivarsi se viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento. L'effetto situazionale si attiva quando vengono soddisfatte determinate condizioni in battaglia."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "Il {yellow_Start}raggio visivo{yellow_End} verrà aumentato del %(vehicleCircularVisionRadius)s per 5 secondi dopo aver ricevuto l'avviso di Sesto senso."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Raggio visivo aumentato."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Una volta addestrato completamente, aumenta il {yellow_Start}raggio visivo{yellow_End} del %(vehicleCircularVisionRadius)s per 5 s dopo aver attivato l'avviso di Sesto senso."
+
+msgid "radioman_threatSearch/name"
+msgstr "Rilevamento minacce"
+
+msgid "repair/alt/description"
+msgstr "Questo talento influenza la velocità di riparazione di moduli interni ed esterni dallo stato \"rosso\" a quello \"giallo\".\n\nQuesto parametro può essere aumentato ulteriormente montando equipaggiamento o consumabili con un effetto simile."
+
+msgid "repair/alt/info"
+msgstr "Per i talenti di gruppo, viene preso in considerazione il livello di addestramento medio tra tutti i membri dell'equipaggio. Ha effetto quando viene addestrato almeno all'1% e la sua efficacia cresce con l'aumentare dell'addestramento."
+
+msgid "repair/currentLvlDescription"
+msgstr "La {greenBright_Start}velocità di riparazione{greenBright_End} dei moduli danneggiati del veicolo è aumentata del %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Una volta addestrato completamente per tutti i membri dell'equipaggio, aumenta la {greenBright_Start}velocità di riparazione{greenBright_End} dei moduli danneggiati del veicolo del %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Riparazioni"
+
+msgid "repair/shortDescription"
+msgstr "Aumenta la velocità di riparazione dei moduli danneggiati."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Fratelli al fronte"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Popolare"
+
+msgid "sorting/fallback"
+msgstr "Predefinito"
+
+msgid "sorting/legendary"
+msgstr "Leggendario"
+
+msgid "sorting/title"
+msgstr "Ordinati per:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPopolare.%(whiteSpanish_Close)s In base alle tendenze attuali sui talenti tra tutti i giocatori di World of Tanks"
+
+msgid "sorting/tooltip/header"
+msgstr "Beneficio di WoT Plus"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Ricevi dati precisi sui talenti dell'equipaggio in base a milioni di partite e ottieni il massimo da ogni battaglia."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLeggendario.%(whiteSpanish_Close)s In base ai talenti al momento preferiti dai giocatori al livello WTR Leggenda"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Ordinamento dei talenti disattivato"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Nessun dato disponibile"
+
+msgid "sorting/tooltip/title"
+msgstr "Assistente all'equipaggio"
+
+msgid "sorting/tooltip/types"
+msgstr "Ordinamento dei tipi di talenti"
+
+msgid "sorting/tooltip/warning"
+msgstr "Ordinamento dei talenti indisponibile"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Dati completi sui talenti indisponibili per questo veicolo, perciò è stato applicato l'ordinamento dei talenti Predefinito."
+
+msgid "witches_brotherhood/name"
+msgstr "Congrega"
+
+msgid "yha_brotherhood/name"
+msgstr "Fratellanza delle Lepri"

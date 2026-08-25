@@ -1,0 +1,254 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "closeBtn"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "continueBtn"
+msgstr "Συνέχεια"
+
+msgid "economy/double/credits"
+msgstr "Ο Προνομιακός Λογαριασμός WoT αυξάνει τα κερδισμένα credits κατά %(value)s%%."
+
+msgid "economy/double/free_xp"
+msgstr "Ο Προνομιακός Λογαριασμός WoT αυξάνει τα κερδισμένα Free XP κατά %(value)s%%."
+
+msgid "economy/double/tmen_xp"
+msgstr "Ο Προνομιακός Λογαριασμός WoT αυξάνει τα κερδισμένα Crew XP κατά %(value)s%%."
+
+msgid "economy/double/xp"
+msgstr "Ο Προνομιακός Λογαριασμός WoT αυξάνει τα κερδισμένα Combat XP κατά %(value)s%%."
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "Ο Προνομιακός Λογαριασμός WoT αυξάνει τα κερδισμένα Combat & Free XP κατά %(value)s%%."
+
+msgid "efficiency/capturePoints"
+msgstr "Κατάληψη Βάσης"
+
+msgid "efficiency/damageAssisted"
+msgstr "Φθορά με Συνεισφορά"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "Σοκ"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "Φθορά που Αποσοβήθηκε"
+
+msgid "efficiency/damageDealt"
+msgstr "Φθορά"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "Υπεράσπιση Βάσης"
+
+msgid "efficiency/empty"
+msgstr "—"
+
+msgid "efficiency/kills"
+msgstr "Καταστροφές"
+
+msgid "efficiency/spotted"
+msgstr "Εντοπισμός"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "Κατάληψη Βάσης"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "Καταστροφές με Συνεισφορά"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "Σοκ"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "Αποτελεσματικότητα Θωράκισης"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "Φθορά"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "Υπεράσπιση Βάσης"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "Ο εχθρός καταστράφηκε"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "Εντοπισμός"
+
+msgid "finish"
+msgstr "Η μάχη τελείωσε"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "Εφαρμόζεται στην πιο πρόσφατη μάχη ενός οχήματος."
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "Δεν μπορεί να γίνει εφαρμογή του μπόνους: ενεργοποιήθηκε η επιταχυνόμενη εκπαίδευση πληρώματος."
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "Δεν μπορεί να γίνει εφαρμογή του μπόνους: απενεργοποιήθηκε η επιταχυνόμενη εκπαίδευση πληρώματος."
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "Το μπόνους εφαρμόζεται μόνο σε νικηφόρα μάχη"
+
+msgid "premiumBonus/NoCrew"
+msgstr "Δεν μπορεί να γίνει εφαρμογή του διαχειρίσιμου μπόνους: δεν βρέθηκε το πλήρωμα."
+
+msgid "premiumBonus/NoVehicle"
+msgstr "Δεν μπορεί να γίνει εφαρμογή του διαχειρίσιμου μπόνους: δεν βρέθηκε το όχημα."
+
+msgid "progress/title"
+msgstr "%(modeName)s: Ειδική Αποστολή. Φάση: %(done)s / %(total)s"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s: Ειδική Αποστολή"
+
+msgid "result/lose"
+msgstr "ΗΤΤΑ"
+
+msgid "result/tie"
+msgstr "ΙΣΟΠΑΛΙΑ"
+
+msgid "result/win"
+msgstr "ΝΙΚΗ"
+
+msgid "resultRace/battleStatus/finished"
+msgstr "ΤΕΛΟΣ"
+
+msgid "resultRace/battleStatus/inTop"
+msgstr "ΘΕΣΗ"
+
+msgid "resultRace/battleStatus/notFinished"
+msgstr "ΔΕΝ\nΤΕΡΜΑΤΙΣΕ"
+
+msgid "resultRace/finishReason/finished"
+msgstr "Φτάσατε στον τερματισμό"
+
+msgid "resultRace/finishReason/notFinished"
+msgstr "Δεν φτάσατε στον τερματισμό"
+
+msgid "resultRace/footerSubtitle/battleEnded"
+msgstr "Λήξη μάχης: {{time}}"
+
+msgid "resultRace/footerSubtitle/finished"
+msgstr "Πολύ καλά!"
+
+msgid "resultRace/footerSubtitle/inTop"
+msgstr "3 Κορυφαίοι!"
+
+msgid "resultRace/footerSubtitle/notFinished"
+msgstr "Την άλλη φορά καλύτερα!"
+
+msgid "ribbon/applied"
+msgstr "Επιτυχής εφαρμογή μπόνους"
+
+msgid "ribbon/errorState"
+msgstr "Σφάλμα εφαρμογής"
+
+msgid "ribbon/expBonus"
+msgstr "+%(count)s %(icon)s Μπόνους στα XP"
+
+msgid "ribbon/timeLeft"
+msgstr "Ανανέωση μπόνους σε:"
+
+msgid "ribbon/usesLeft"
+msgstr "Διαθέσιμα: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "ΠΡΟΕΠΙΣΚΟΠΗΣΗ Dev"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "ΣΚΟΡ ΟΜΑΔΑΣ Dev"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "Παίκτες"
+
+msgid "sub_modes/fall_tanks/efficiency/checkpointsPassed"
+msgstr "Σημεία Ελέγχου"
+
+msgid "sub_modes/fall_tanks/efficiency/deathCount"
+msgstr "Επανεκκινήσεις"
+
+msgid "sub_modes/fall_tanks/efficiency/finishPosition"
+msgstr "Θέση"
+
+msgid "sub_modes/fall_tanks/efficiency/finishTime"
+msgstr "Χρόνος"
+
+msgid "sub_modes/fall_tanks/efficiency/kills"
+msgstr "Εξολόθρευση"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/checkpointsPassed"
+msgstr "Σημεία ελέγχου από τα οποία περάσατε"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/deathCount"
+msgstr "Επανεκκινήσεις μετά από καταστροφή του οχήματός σας"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/destroyed"
+msgstr "Το πλήθος των κατεστραμμένων εχθρικών οχημάτων από εσάς"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishPosition"
+msgstr "Η τελική σας κατάταξη στην κούρσα"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishTime"
+msgstr "Χρόνος που χρειάστηκε για να φτάσετε στον τερματισμό"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/checkpointsPassed"
+msgstr "Σημεία Ελέγχου"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/deathCount"
+msgstr "Επανεκκινήσεις"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/destroyed"
+msgstr "Εξολόθρευση"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishPosition"
+msgstr "ΘΕΣΗ"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishTime"
+msgstr "Χρόνος"
+
+msgid "sub_modes/fall_tanks/navigation/battleResults"
+msgstr "ΠΡΟΣΩΠΙΚΟ ΣΚΟΡ"
+
+msgid "sub_modes/fall_tanks/navigation/teamEfficiency"
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/body"
+msgstr "Ταξινόμηση βάσει θέσης"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/header"
+msgstr "ΘΕΣΗ"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/body"
+msgstr "Ταξινόμηση βάσει χρόνου"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/header"
+msgstr "Χρόνος"
+
+msgid "sub_modes/fall_tanks/team/singleTeam"
+msgstr "Παίκτες"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/body"
+msgstr "Ταξινόμηση βάσει οχήματος"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/header"
+msgstr "Οχήματα"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "ΠΡΟΕΠΙΣΚΟΠΗΣΗ"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "ΣΚΟΡ ΟΜΑΔΑΣ"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "Παίκτες"
+
+msgid "team/empty/finishTime"
+msgstr "-- : -- . --"
+
+msgid "team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "title"
+msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΜΑΧΗΣ"

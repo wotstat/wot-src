@@ -1,0 +1,50 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "serviceChannelMessages/resourceWell/enabled/text"
+msgstr "Monteringsverkstaden är öppen igen!"
+
+msgid "serviceChannelMessages/resourceWell/end/text"
+msgstr "Vi har påbörjat arbetet på nästa projekt. Vi meddelar när utvecklingsarbetet är färdigt. Vi ses snart!"
+
+msgid "serviceChannelMessages/resourceWell/end/title"
+msgstr "Monteringsverkstaden stänger"
+
+msgid "serviceChannelMessages/resourceWell/noSerialVehicles/text"
+msgstr "Vagnar med vagnsnummer levererade. Vi har påbörjat montering av %(vehicle)s i standardutförande. Skynda dig—det finns bara ett begränsat antal!"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/text"
+msgstr "Vagnar färdigmonterade. Alla vagnar levererade till sina respektive ägare."
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/title"
+msgstr "Rapport från Monteringsverkstaden"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/twoParallelProducts/text"
+msgstr "Leverans av %(soldOutVehicle)s är slutförd. Du har fortfarande möjlighet att köpa %(availableVehicle)s. Om du har allokerat resurser men inte slutför köpet i tid, kommer de snart att återbördas till ditt konto. Skynda dig – antalet vagnar är begränsat!"
+
+msgid "serviceChannelMessages/resourceWell/noVehiclesWithReturn/text"
+msgstr "Vagnar färdigmonterade. Alla vagnar levererade till sina respektive ägare. Alla allokerade resurser återbördas till ditt konto inom kort."
+
+msgid "serviceChannelMessages/resourceWell/oneVehicleStart/text"
+msgstr "Befälhavare, du har en chans att bli ägare till en %(vehicle)s med en 3D-stil med vagnsnummer. Endast ett begränsat antal vagnar kommer monteras!"
+
+msgid "serviceChannelMessages/resourceWell/pause/text"
+msgstr "Monteringsverkstaden är för tillfället ej tillgänglig på grund av underhåll."
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/additionalText"
+msgstr "Vagnsnummer: %(serialNumber)s"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/text"
+msgstr "Unik %(vehicle)s mottagen från Monteringsverkstaden."
+
+msgid "serviceChannelMessages/resourceWell/reward/title"
+msgstr "%(vehicle)s mottagen!"
+
+msgid "serviceChannelMessages/resourceWell/reward/vehicle/text"
+msgstr "%(vehicle)s mottagen från Monteringsverkstaden."
+
+msgid "serviceChannelMessages/resourceWell/start/title"
+msgstr "Monteringsverkstaden öppnar"
+
+msgid "serviceChannelMessages/resourceWell/twoVehiclesStart/text"
+msgstr "Befälhavare, nu har du möjlighet att bli ägare till en %(firstVehicle)s och en %(secondVehicle)s! Men skynda dig – antalet är begränsat!"

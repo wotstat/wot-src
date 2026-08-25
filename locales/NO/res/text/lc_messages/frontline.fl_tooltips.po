@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Portforbud {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Eventet blir tilgjengelig fra"
+
+msgid "bannerTooltip/description"
+msgstr "Massive 30 mot 30 kamper i kjøretøy på nivå {{vehicleTier}} på Normandy, Kraftwerk og Fata Morgana kartene. Angriperne må bekjempe tre av fem storkaliberkanoner, mens forsvarerne må sikre dem."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Vis din dyktighet i intense kamper for å oppnå berømmelse, sikre verdifulle belønninger og stige i gradene."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Eventet er avsluttet, og du har uavhentede belønninger for fullførte Frontlinjenivåer."
+
+msgid "bannerTooltip/header"
+msgstr "Frontlinje"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Frontlinje | Nivå {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} — Spillmodus. Klikk for å utforske"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Denne modusen krever høy ytelse fra datamaskinen. Du vil oppleve problemer med kartvisning, grafikk og kjøretøybevegelser. I tilfelle utilstrekkelig ytelse, prøv lavere grafikkinnstillinger."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Mulig redusert ytelse"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Velg belønninger for fullførte nivåer ({{value}})"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Manglende midler til å utføre kjøpet."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Endringene vil bli iverksatt på alle panserjagere."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Endringene vil bli iverksatt på alle SPGer."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Endringene vil bli iverksatt på alle tunge tanks."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Endringene vil bli iverksatt på alle lette tanks."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Endringene vil bli iverksatt på alle mediumtanks."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Inkompatibelt kjøretøy"
+
+msgid "battleAbilities/points/body"
+msgstr "Akkumulér det nødvendige antall poeng og aktivér kampreservene til Frontlinje."
+
+msgid "battleAbilities/points/header"
+msgstr "Kampreservepoeng"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Se angrepsreserver"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Angrepsreserver"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Se rekognoseringsreserver"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Rekognoseringsreserver"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Se taktiske reserver"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Taktiske reserver"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Nivået på kampreserver økes etter at du har nådd rank som kaptein og major i kamp. Hva som er det høyeste nivået bestemmes av kampscenarioet."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Ytterligere informasjon"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Angrepsreserver"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Rekognoseringsreserver"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Taktiske reserver"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Permanente karakteristika:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "En kampreserve plassert i denne plassholderen øker sjansen for at den blir tilbydt i {{@ colorLegacy 'FFE4C0'}}Twist of Fate{{/}} scenarioet med {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Reservenivå:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Ikke kjøpt!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Eventet er avsluttet."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Eventet begynner snart!"
+
+msgid "infoButton/body"
+msgstr "Klikk for mer informasjon."
+
+msgid "infoButton/header"
+msgstr "Om eventet"
+
+msgid "levelReserves/desc"
+msgstr "Nivåene for kampreserver øker når du når nye ranker:"
+
+msgid "levelReserves/info"
+msgstr "I {{@ colorLegacy 'FFE4C0'}}Twist of Fate{{/}} scenarioet, vil kjøp av en kampreserve øke dets nivå med en og gi mulighet til å forbedre det til nivå {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}."
+
+msgid "levelReserves/level"
+msgstr "Øker når det når følgende rank: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Tilgjengelig ved følgende rank: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Nivå - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "For {{@ colorLegacy 'FFE4C0'}}kjøpte kampreserver{{/}} i {{@ colorLegacy 'FFE4C0'}}Twist of Fate{{/}} scenarioet."
+
+msgid "levelReserves/title"
+msgstr "Nivåer på kampreserver"
+
+msgid "playlist/warning/body"
+msgstr "Denne listen inneholder kjøretøy som ikke er egnet for denne spillmodusen eller som ikke er i garasjen din."
+
+msgid "playlist/warning/header"
+msgstr "Kjøretøy som ikke er tilgjengelige (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Karakteristika for kampreserve er forbedret"
+
+msgid "randomReserve/disable"
+msgstr "Plassholderen for kampreserven er i bruk."
+
+msgid "randomReserve/notPurchased"
+msgstr "Kampreserve ikke kjøpt"
+
+msgid "randomReserve/purchased"
+msgstr "Kampreserve kjøpt"
+
+msgid "skillOrderTooltip/body"
+msgstr "Hver kjøretøystype har sin egen rekkefølge for åpning av reserver:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Rekkefølgen kampreservene åpnes"
+
+msgid "skillOrderTooltip/info"
+msgstr "I {{@ colorLegacy 'whiteSpanish'}}Twist of Fate{{/}} scenarioet, avhenger ikke rekkefølgen for hvilke kampreserver som åpnes av type kjøretøy."

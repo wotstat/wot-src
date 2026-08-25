@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: <language team name> <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "Išlyginimas"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "Nustatomas papildomas plonų linijų ir žaidimo objektų kontūrų apdorojimas. Sumažina išlyginimo efektą.\n\n• Aukštas — FXAA\n• Maksimalus—Temporal Supersampling Antialiasing (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "Dinamiškas pritaikymas"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "Įjungti arba išjungti automatinį 3D generavimo raiškos reguliavimą priklausomai nuo grafinės plokštės apkrovimo.\n\nŠio parametro įjungimas gali pagerinti žaidimo greitaveiką. Generavimo raiška garaže visada išlieka tokia pati."
+
+msgid "EFFECTS_QUALITY"
+msgstr "Papildomų efektų kokybė"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "Nustato rikošetų sukeltų žiežirbų, sprogimų, dūmų ir kitų vizualinių efektų vaizdo kokybę.\n\nSumažinus šio parametro reikšmę galima pagerinti žaidimo veikimo greitį."
+
+msgid "FAR_PLANE"
+msgstr "Atstumo vaizdavimas"
+
+msgid "FAR_PLANE/description"
+msgstr "Nustato išsidėsčiusių reljefo detalių, pastatų, priešo technikos ir kitų žaidimo objektų rodymo atstumą."
+
+msgid "FLORA_QUALITY"
+msgstr "Žolės tankumas"
+
+msgid "FLORA_QUALITY/description"
+msgstr "Nustato žolės tankumą arkadiniame ir snaiperio režime."
+
+msgid "HAVOK_ENABLED"
+msgstr "Pagerinta sunaikinimų fizika"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "Išjungta"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "Įjungta"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "Įjungia realistiškesnį objektų veikimo ir sunaikinimo modelį žemėlapiuose.\n\nŠio parametro išjungimas gali pagerinti žaidimo greitaveiką."
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "Nustatymas įsigalios kitame mūšyje, jeigu šiame mūšyje jis buvo išjungtas."
+
+msgid "LANGUAGE_CODE"
+msgstr "lt"
+
+msgid "LIGHTING_QUALITY"
+msgstr "Apšvietimo kokybė"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "Nustato saulės spindulių bei kitų švytėjimo efektų atsispindėjimo tikslumą.\n\nPadidinus šio parametro reikšmę žymiai išauga vaizdo plokštės apkrova."
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "\"Miglos\" efektas judant"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "Nustato vaizdo \"išplaukimo\" kokybę judat technikai ir sukantis kamerai."
+
+msgid "MSAA_QUALITY"
+msgstr "Išlyginimas"
+
+msgid "MSAA_QUALITY/description"
+msgstr "Nustatomas papildomas plonų linijų ir žaidimo objektų kontūrų apdorojimas. Sumažina išlyginimo efektą.\n\n• Žemas — MSAA 2x\n• Vidutinis — MSAA 4x\n• Aukštas — MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "Objektų detalizacija"
+
+msgid "OBJECT_LOD/description"
+msgstr "Nustato vaizduojamų objektų kiekį ir kokybę."
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "Postapdirbimas"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "Nustato post-apdorojimo vizualinių efektų kokybę: karšto oro mirgėjimas, sprogimo bangos efektai, chromatinė aberacija, kino juostos grūdėtumo efektai ir t.t.\n\nSumažinus šio parametro reikšmę galima pagerinti žaidimo veikimo greitį."
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "Grafika"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "Pagerinta: leidžia pasiekti maksimalią vaizdo kokybę.\n\nSupaprastinta: leidžia pasiekti maksimalų žaidimo veikimo greitį sumažinus arba išjungus kai kuriuos vizualinius efektus."
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "Grafika:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "Šis parametras pasikeis paleidus žaidimą iš naujo."
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "Lapų permatomumas"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "Šalia esančių medžių ir krūmų lapų vaizdavimas.\n\nIšjungus šį parametrą, šalia esančių medžių bei krūmų lapai pasidaro visiškai nematomi ir tai gali pagerinti žaidimo veikimo greitį."
+
+msgid "SHADER_VERSION_CAP"
+msgstr "\"Shader\" versija"
+
+msgid "SHADOWS_QUALITY"
+msgstr "Šėšėlių kokybė"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "Nustato dinaminių šešėlių apdirbimo kokybę visame matymo lauke.\n\nSumažinus šio parametro reikšmę galima žymiai pagerinti žaidimo veikimo greitį."
+
+msgid "SMOKE_ENABLED"
+msgstr "Dūmai"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "Papildomi efektai \"Snaiperio\" režime"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "Nustato rikošeto sukeltų žiežirbų, sprogimų, dūmų ir kitų realistinių efektų kokybę Snaiperio režime.\n\nSumažinus šio parametro reikšmę galima pagerinti žaidimo veikimo greitį."
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "Žolė snaiperio režime"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "Žolės vaizdavimas Snaiperio režime.\n\nSumažinus šio parametro reikšmę galima pagerinti žaidimo veikimo greitį."
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "Paviršiaus dengimas snaiperio režime"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Pagerina paviršiaus kokybę 50 metrų spinduliu nuo jūsų mašinos snaiperio režime. Galimas tik įjungus paviršiaus dengimo nustatymą.\n\nIšjungus šį parametrą gali pagerėti žaidimo greitaveika."
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "Augmenijos kokybė"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "Nustato medžių, krūmų, žolės vaizdavimo kokybę."
+
+msgid "TERRAIN_QUALITY"
+msgstr "Landšafto kokybė"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "Nustato žemėlapio reljefo detalių ryškumo kokybę.\n\nNaudokite minimalius nustatymas tik žemo galingumo kompiuteriuose.\n\nŠio parametro reikšmės sumažinimas gali desinchronizuoti kraštovaizdžio vaizdo išsidėstymą tarp kliento ir serverio."
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "Nurodyto parametro pritaikymas gali užtrukti."
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "Paviršiaus dengimas"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Aparatinis naujų trikampių pridėjimo į poligonų tinklelį procesas, norint padidinti detalumą.\n\nFunkcija veikia tik su:\n• Pagerinta grafika\n• Aukšta, maksimalia arba ultra landšafto kokybe\n• Įdiegtu DirectX 11\n\nJeigu įdiegta senesnė nei DirectX 11 versija, nustatymai neveikia.\n\nIšjungus šį parametrą gali pagerėti greitaveika."
+
+msgid "TEXTURE_QUALITY"
+msgstr "Tekstūrų kokybė"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "Žaidimo objektų paviršiaus kokybė, ypač apžiūrint iš arti.\n\nSumažinus šio parametro reikšmę galima pagerinti žaidimo veikimo greitį."
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "Nurodyto parametro pritaikymas gali užtrukti."
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "Vikšrų fizika"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "Nustato fizikos simuliacijų kokybę sulūžusiems ir veikiantiems vikšrams bei pačių vikšrų detalumą.\n\nŠio parametro sumažinimas ar išjungimas gali pagerinti žaidimo greitaveiką."
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "Vikšrų ir ratų efektai"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "Grunto, sniego ir vandens purslų tyškančių iš po vikšrų ir ratų vaizdavimas.\n\nIšjungus šį parametrą galima pagerinti žaidimo veikimo greitį."
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "Vikšrų ir ratų pėdsakai"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "Tankų vikšrų ir ratų vėžių vaizdavimas ant žemės.\n\nNepasiekiama pasirinkus standartinę grafiką ir žemą lipdukų kokybę."
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "Slėpti 3D elementus snaiperio režime"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "Laikinai paslepia mašinos 3D elementus, kai į ją žiūrima snaiperio režimu.\n\nsumažina objektų kiekį ekrane ir leidžia tiksliau nusitaikyti."
+
+msgid "WATER_QUALITY"
+msgstr "Vandens kokybė"
+
+msgid "WATER_QUALITY/description"
+msgstr "Nustato vandens paviršiaus pavaizdavimo kokybę."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "Tik silpni šarvai"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "Jei aktyvuota, žibintas išryškina tik silpnus priešo šarvus.\n\nEsant didelei pramušimo tikimybei šarvai pažymimi ryškia žalia spalva, o esant vidutinei pusiau permatoma žalia. Spalvos gali skirtis ryškesnių spalvų režime."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "Paryškina tik silpnus šarvus"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "Tiks stiprūs šarvai"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "Jei aktyvuota, žibintas išryškina tik stiprius priešo šarvus.\n\nEsant mažai pramušimo tikimybei šarvai pažymimi ryškia raudona spalva, o esant vidutinei pusiau permatoma raudona. Spalvos gali skirtis ryškesnių spalvų režime."
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "Paryškina tik stiprius šarvus"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "Visi šarvai"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "Aktyvuotas paryškina visus taikinio šarvus.\n\n Esant mažai pramušimo tikimybei šarvai pažymimi ryškia raudona spalva, esant didelei tikimybei šarvai žymimi žaliai, o esant vidutinei, geltonai. Spalvos gali skirtis ryškesnių spalvų režime."
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "Paryškinti visus šarvus"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "Šarvų paryškinimas"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "Įjungti mūšio pradžioje"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "Pradinė žibinto būsena mūšio pradžioje. Jūs galite bet kada įjungti arba išjungti žibintą paspaudę priskirtą klavišą.\n\nĮjungtas žibintas veikia tik snaiperio režimu.\n\nPalaikomi žaidimo režimai:\n• Atsitiktiniai mūšiai ir komandinės treniruotės,\n• Fronto linija,\n• Žaidimų automatų salono mūšiai,\n• Prasiveržimas,\n• Kai kurie kiti žaidimo režimai. \n\nDaugiau žaidimo režimų gali būti palaikoma ateityje."
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "Įjungti mūšio pradžioje"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "Žibinto tekstūra"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "Pilnas"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "Išretėjęs raštas"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "Tankus raštas"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "Permatomumas"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "Greitaveikos perspėjimas"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "Aukštas"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "Žemas"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "Vidutinis"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "Žibinto detalumas"
+
+msgid "aim/cassette"
+msgstr "Kasetės"
+
+msgid "aim/centralTag"
+msgstr "Centrinis taikiklis"
+
+msgid "aim/centralTag/type0"
+msgstr "A-formos I"
+
+msgid "aim/centralTag/type1"
+msgstr "A-formos II"
+
+msgid "aim/centralTag/type10"
+msgstr "O-formos I"
+
+msgid "aim/centralTag/type11"
+msgstr "O-formos II"
+
+msgid "aim/centralTag/type12"
+msgstr "A-formos IV"
+
+msgid "aim/centralTag/type13"
+msgstr "A-formos V"
+
+msgid "aim/centralTag/type2"
+msgstr "A-formos III"
+
+msgid "aim/centralTag/type3"
+msgstr "V-formos"
+
+msgid "aim/centralTag/type4"
+msgstr "Kryžminis I"
+
+msgid "aim/centralTag/type5"
+msgstr "Kryžminis II"
+
+msgid "aim/centralTag/type6"
+msgstr "T-formos"
+
+msgid "aim/centralTag/type7"
+msgstr "I-formos"
+
+msgid "aim/centralTag/type8"
+msgstr "Taškas I"
+
+msgid "aim/centralTag/type9"
+msgstr "Taškas II"
+
+msgid "aim/condition"
+msgstr "Būsena"
+
+msgid "aim/gunTag"
+msgstr "Ginklo žymeklis"
+
+msgid "aim/gunTag/type0"
+msgstr "A-formos I (su šarvų pramušimo indikatoriumi)"
+
+msgid "aim/gunTag/type1"
+msgstr "A-formos II (su užtaisymo indikatoriumi)"
+
+msgid "aim/gunTag/type10"
+msgstr "O-formos II (su užtaisymo indikatoriumi)"
+
+msgid "aim/gunTag/type11"
+msgstr "O-formos III"
+
+msgid "aim/gunTag/type12"
+msgstr "A-formos IV (su šarvų pramušimo indikatoriumi)"
+
+msgid "aim/gunTag/type13"
+msgstr "A-formos V (su užtaisymo indikatoriumi)"
+
+msgid "aim/gunTag/type14"
+msgstr "A-formos VI"
+
+msgid "aim/gunTag/type2"
+msgstr "A-formos III"
+
+msgid "aim/gunTag/type3"
+msgstr "Kryžminis I (su šarvų pramušimo indikatoriumi)"
+
+msgid "aim/gunTag/type4"
+msgstr "Kryžminis II (su užtaisymo indikatoriumi)"
+
+msgid "aim/gunTag/type5"
+msgstr "Kryžminis III"
+
+msgid "aim/gunTag/type6"
+msgstr "Taškas I (su šarvu pramušimo indikatoriumi)"
+
+msgid "aim/gunTag/type7"
+msgstr "Taškas II (su užsitaisymo indikatoriumi)"
+
+msgid "aim/gunTag/type8"
+msgstr "Taškas III"
+
+msgid "aim/gunTag/type9"
+msgstr "O-formos I (su šarvu pramušimo indikatoriumi)"
+
+msgid "aim/mixing"
+msgstr "Taikymasis"
+
+msgid "aim/mixing/type0"
+msgstr "Apskritimas I (su užtaisymo indikatoriumi)"
+
+msgid "aim/mixing/type1"
+msgstr "Apskritimas II (su persijungiančiu užtaisymo indikatoriumi)"
+
+msgid "aim/mixing/type2"
+msgstr "Apskritimas III (be užtaisymo indikatoriumi)"
+
+msgid "aim/mixing/type3"
+msgstr "Apskritimas IV (vientisas)"
+
+msgid "aim/mixing/type4"
+msgstr "Kryžminis (su persijungiančiu užtaisymo indikatoriumi)"
+
+msgid "aim/mixing/type5"
+msgstr "Kryžminis II"
+
+msgid "aim/mixing/type6"
+msgstr "Testinis"
+
+msgid "aim/net"
+msgstr "Indikatorius"
+
+msgid "aim/net/type0"
+msgstr "Įstrižinis"
+
+msgid "aim/net/type1"
+msgstr "Horizontalus"
+
+msgid "aim/net/type2"
+msgstr "Spindulinis"
+
+msgid "aim/net/type3"
+msgstr "Punktyrinis"
+
+msgid "aim/reloader"
+msgstr "Užtaisymas"
+
+msgid "aim/reloaderTimer"
+msgstr "Užkrovimo laikmatis"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "Perjungimas į artilerinį taikiklį"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "Paskutinis naudotas"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "Vaizdas iš viršaus"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "Trajektorijos vaizdas"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "Automatinis taikymosi režimo perjungimas"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "Sukant pelės ratuką ir pasiekus tam tikrą vaizdo mastelį, taikiklis persijungs į \"Vaizdą iš viršaus\" arba į \" Trajektorijos vaizdą\"."
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "Automatinis taikymosi režimo perjungimas"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "Sklandus kameros vaizdo artinimas ir tolinimas"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "Rodyti šūvio linijos indikatorius"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "Rodyti/slėpti indikatorius, kurie nurodo ar pasirinktas sviedinys pasieks taikymosi tašką. Jie dar rodo ir sviedinio skriejimo trukmę."
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "Šūvio linijos indikatoriai"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "Rodyti kameros pozicijos indikatorių"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "Rodyti/slėpti indikatorių, kuris parodo artilerijos taikymosi kameros priartinimo lygį."
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "Kameros pozicijos indikatorius"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "Kameros valdymas"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "Alternatyvus"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "Standartinis"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "Standartiniame kameros valdymo režime kamera juda aukštyn, žemyn, kairėn ir dešinėn. Alternatyviame kameros valdymo režime, ji juda pirmyn, atgal ir aplink artilerijos poziciją."
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "Kameros valdymas"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "Priartinimo indikatorius"
+
+msgid "alternativeVoices/labels"
+msgstr "Balso žinutės mūšyje"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Balso žinutės mūšyje"
+
+msgid "apply_button"
+msgstr "Pritaikyti"
+
+msgid "autodetectButton"
+msgstr "Rekomenduojami"
+
+msgid "autodetectButton/description"
+msgstr "Nustato optimalius vaizdo parametrus jūsų kompiuteriui. \n\nTai gali kiek užtrukti."
+
+msgid "battlecomm/enableCommendations"
+msgstr "Gauti padėkas mūšyje"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "Rodyti asmenines komandas"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "Parodyti komunikavimą komandos sąraše"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "Rodyti vietų žymeklius žemėlapyje"
+
+msgid "battlecomm/showMarkers"
+msgstr "Rodyti bazės žymeklius Atsitiktiniuose mūšiuose"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "Rodyti lipnius žymeklius"
+
+msgid "borderlessSize"
+msgstr "Lange (be paraščių)"
+
+msgid "borderlessSize/description"
+msgstr "Lange (be paraščių)"
+
+msgid "cancel_button"
+msgstr "Atšaukti"
+
+msgid "chat/censorshipMessages"
+msgstr "Žinučių cenzūra"
+
+msgid "chat/chatContactsListOnly"
+msgstr "Gauti pranešimus tik iš kontaktų sąrašo"
+
+msgid "chat/disableBattleChat"
+msgstr "Išjungti mūšio pokalbius su saviškiais"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "Išsaugoti kanalo langų padėtį ir apimtis"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "Išsaugoti kitų langų padėtį ir apimtis"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "Priimti kvietimus tik iš draugų garaže"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "Gauti klano pranešimus"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "Priimti kvietimą draugauti"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "Priimti kvietimus į būrį mūšyje"
+
+msgid "chat/removeSpam"
+msgstr "Slėpti \"šlamštą\""
+
+msgid "chat/showDateMessage"
+msgstr "Rodyti žinutės datą"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "Rodyti pasijungusius/atsijungusius žaidėjus"
+
+msgid "chat/showTimeMessage"
+msgstr "Rodyti žinučių laiką"
+
+msgid "colorCorrection"
+msgstr "Spalvų koregavimas"
+
+msgid "colorCorrectionBtn/label"
+msgstr "Konfigūruoti"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "Vartotojiški nustatymai"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "Ryškumas"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "Kontrastas"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "Sodrumas"
+
+msgid "colorSettings/tab/default"
+msgstr "Numatytasis"
+
+msgid "colorSettings/tab/filters"
+msgstr "Paruošti filtrai"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "Filtro intensyvumas"
+
+msgid "colorSettings/view/after"
+msgstr "Po"
+
+msgid "colorSettings/view/before"
+msgstr "Prieš"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "UŽDARYTI"
+
+msgid "colorSettings/view/description"
+msgstr "Pasirinkite vieną iš vaizdo koregavimo variantų"
+
+msgid "colorSettings/view/header"
+msgstr "Spalvų koregavimas"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "Pašalinti"
+
+msgid "colorSettings/view/subTitle"
+msgstr "Vaizdo koregavimo metodai"
+
+msgid "cursor/ArcadeTitle"
+msgstr "Pagrindinis"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "Šarvų žibintas"
+
+msgid "cursor/ArtyTitle"
+msgstr "Artilerija"
+
+msgid "cursor/ContourTitle"
+msgstr "Kontūras"
+
+msgid "cursor/ServerAim"
+msgstr "Įjungti serverio taikiklį"
+
+msgid "cursor/SnipperTitle"
+msgstr "Snaiperinis"
+
+msgid "cursor/contour/type0"
+msgstr "Standartinis"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "Taikantis į priešų mašiną apibrėžiamas visas jos kontūras, įtraukiant ir ne šarvinius elementus, su kuriais sviediniai nesąveikauja."
+
+msgid "cursor/contour/type1"
+msgstr "Supaprastintas"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "Taikantis į priešų mašiną apibrėžiamas tik ta mašinos dalis, su kuria sviediniai sąveikauja."
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "Nepramušama zona"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "Nėra"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "Užpildas"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "Tekstūra"
+
+msgid "cursor/contourLabel"
+msgstr "Kontūro tipas"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "Pramušama zona"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "Nėra"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "Užpildas"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "Tekstūra"
+
+msgid "cursor/overlapContour"
+msgstr "Kliūčių apdorojimas"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "Įjungus apdorojimą, gali sumažėti greitaveika."
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "Sviedinio kliūčių vaizdavimas taikantis į priešų mašiną.\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "Kliūčių apdorojimas"
+
+msgid "cursor/overlapContourLabel"
+msgstr "Kliūčių apdorojimas"
+
+msgid "cursorTitle"
+msgstr "Taikiklis"
+
+msgid "defaultBtn"
+msgstr "Originalūs nustatymai"
+
+msgid "defaultNamePrefix"
+msgstr "Žaidėjas"
+
+msgid "dynamicCamera"
+msgstr "Įjungti dinamišką kamerą"
+
+msgid "dynamicFov"
+msgstr "Dinaminis FoV"
+
+msgid "dynamicFov/description"
+msgstr "Dinaminis FoV leidžia nurodyti minimalų ir maksimalų matymo lauką.\n\nMaksimali reikšmė naudojama, kai kamera yra atitolinta nuo tanko.\n\nMinimali reikšmė naudojama, kai kamera yra priartinta prie tanko."
+
+msgid "dynamicRenderer"
+msgstr "3D generavimo raiška"
+
+msgid "dynamicRenderer/description"
+msgstr "Nustato objektų detalių ir išorinio vaizdo apdorojimo laipsnio kokybę.\n\n3D generavimo raiška žaidime galima keisti naudojant klavišus dešinysis Shift + \"+\" ir dešinysis Shift + \"-\". Neįtakoja sąsajos vaizdui.\n\nSumažinus šio parametro reikšmę galima pagerinti žaidimo veikimo greitį."
+
+msgid "edgeDetectAA"
+msgstr "Edge detect AA"
+
+msgid "feedBack"
+msgstr "Pranešimai mūšyje"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "Žemėlapio kraštinė"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "Žala kai jūs apkurtinate"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "Bazės užėmimo taškai"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "Numušti užėmimo taškai"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "Užblokuota žala"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "Padegtas priešas"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "Kritinė žala"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "Aptikimas"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "Žala aptinkant"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "Žala šūviu"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "Sunaikinta priešų mašina"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "Žala taranuojant"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "Sunaikintas vikšras"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "Įvykio pavadinimas"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "Kritinė žala"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "Žala"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "Rodyti mūšyje"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "Mašinos informacija"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "Žala nuo smūgio"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "Visi sąlyginiai įgūdžiai"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "Mūšyje rodomi\ntrys paskutiniai įvykiai"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "Įvykiai mūšyje"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "Pranešimai"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "Įvykiai"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "Įgulos įgūdžiai"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "Gauta žala"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "Kovinis efektyvumas"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "Gauta žala"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "Paslėpta žemėlapio kraštinė gali sąlygoti orientacijos praradimą mūšyje."
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "Nuspaudus Alt"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "Visada paryškinta"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "Neparyškinta"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "Artinantis"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "Papildomai paryškinta"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "Punktyrinė linija"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "Nerodyti"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "Kraštinės tipas"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "Siena"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "Apšaudymo krypties indikatorius"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "Draugiška ugnis"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "Žalos kiekis"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "Užblokuotas šūvis"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "Kritinis pataikymas\nį jūsų mašiną"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "x3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "Gauta žala"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "Pažeistas modulis"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "Informacija"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "Rodyti animaciją"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "Žalos kiekis"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "Dinaminiai indikatoriai"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "Mašinos informacija"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "Rodyti mūšyje"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "Viską"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "Draugiška ugnis"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "Kritiniai pataikymai"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "Be kritinių"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "Išplėstinis"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "Standartinis"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "Tipas"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "Įvykių žurnalas"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "Padaryta kai apkurtinate"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "Užblokuota šarvais"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "Žala su jūsų pagalba"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "Jūsų padaryta žala"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "Rodyti visada"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Rodyti nuspaudus ALT"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "Nerodyti"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "Detalizuota žala"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "Visi įvykiai pačioje"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "Gauta žala viršuje"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "Įvykių išdėstymas"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "Visi įvykiai"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "Įvykio tipas"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "Gauta žala"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "Kovinis efektyvumas"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "Šio nustatymo įjungti nerekomenduojame\nmonitoriuose su žema ekrano raiška"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "Suminė žala"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "Detalizuotos žalos informacinis blokas. Rodo pilną informaciją apie jūsų efektyvumą mūšyje."
+
+msgid "feedback/tab/eventsInfo"
+msgstr "Įvykiai mūšyje"
+
+msgid "feedback/tab/questsProgress"
+msgstr "Mūšio ataskaita ir misijos"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "Mūšio rezultatas"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "Misijų informacija"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "Rodyti mašinų ikonas\npagal lygius"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "Rodyti komandos patvarumo\ntaškų juostą"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "Rodyti komandų patvarumo\ntaškų skirtumą"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "Rodyti komandų patvarumo\ntaškų kiekį"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "Parodyti viską"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "Parodyti tik progresą"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "Alternatyvus"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "Nerodyti"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "Standartinis"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "Rodyti misijas"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "Matymo laukas (FoV)"
+
+msgid "fov/description"
+msgstr "Žaidimo kameros matymo laukas.\n\n95° yra normalus matymo laukas (FoV). Kuo mažesnis FoV tuo arčiau yra objektai, tačiau mažesnis periferinis laukas.\n\nNeįtakoja žaidimo greičio."
+
+msgid "game/anonymizer"
+msgstr "Užmaskuoti vardą mūšyje"
+
+msgid "game/battleLoadingInfo"
+msgstr "Patarimai mūšio užkrovimo ekrane"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "Mini žemėlapis"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "Tik tekstas"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "Iliustruoti patarimai"
+
+msgid "game/battlePanelSettings"
+msgstr "Mūšio sąsaja"
+
+msgid "game/carouselType"
+msgstr "Technikos juosta"
+
+msgid "game/carouselType/double"
+msgstr "Dviejų lygių"
+
+msgid "game/carouselType/single"
+msgstr "Vieno lygio"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "Parodyti statistiką užvedus ant vietos garaže"
+
+msgid "game/commanderCamEnabled"
+msgstr "Įjungti taktinį vaizdą"
+
+msgid "game/customizationDisplayType"
+msgstr "Rodyti pritaikomus elementus mūšyje"
+
+msgid "game/customizationDisplayType/all"
+msgstr "Istoriniai, neistoriniai ir fiktyvūs"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "Istoriniai"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "Istoriniai ir neistoriniai"
+
+msgid "game/displayPlatoonMembers"
+msgstr "Rodyti būrio narių mašinas garaže"
+
+msgid "game/doubleCarousel/label"
+msgstr "Dviejų lygių technikos juosta"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "Prisitaikanti"
+
+msgid "game/doubleCarouselType/small"
+msgstr "Minimalistinė"
+
+msgid "game/dynamicCamera"
+msgstr "Įjungti dinamišką kamerą"
+
+msgid "game/enableBattleNotifier"
+msgstr "Rodyti ankstesnio mūšio rezultatus pokalbyje"
+
+msgid "game/enableMortalPostEffect"
+msgstr "Pomirtinis režimas"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "Įjunkite optinius efektus Snaiperio rėžime"
+
+msgid "game/enableRepairTimer"
+msgstr "Rodyti pažeistų modulių remonto laiką"
+
+msgid "game/enableSpeedometer"
+msgstr "Rodyti ratuotų mašinų spidometrą"
+
+msgid "game/enableVoIP"
+msgstr "Balso pokalbiai"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "Komunikacija mūšyje"
+
+msgid "game/fieldset/headerChat"
+msgstr "Pokalbis"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "Mini žemėlapis"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "Tankų žymos"
+
+msgid "game/hangarCamCheckbox"
+msgstr "Garažo kameros animacija judinant pelės kursorių"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "Garažo kameros neveikimo pasukimas po"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "Garažo kameros animacija"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "Niekada"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 sekundžių"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 sekundės"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 sekundžių"
+
+msgid "game/horStabilizationSnp"
+msgstr "Horizontalus stabilizavimas snaiperio režime"
+
+msgid "game/hullLockEnabled"
+msgstr "Įjungti korpuso užrakinimą snaiperio režime"
+
+msgid "game/increasedZoom/base"
+msgstr "Įjungti priartinimą %(zooms)s"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " ir "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "Rodyti serverio pasirinkimą paleidžiant žaidimą"
+
+msgid "game/minimapDrawRange"
+msgstr "Rodyti vaizdavimo apskritimą"
+
+msgid "game/minimapGroupTitle"
+msgstr "Mini žemėlapis"
+
+msgid "game/minimapMaxViewRange"
+msgstr "Rodyti maksimalaus matymo nuotolio apskritimą"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "Rodyti artimo aptikimo apskritimą"
+
+msgid "game/minimapViewRange"
+msgstr "Rodyti matymo nuotolio apskritimą"
+
+msgid "game/newbeeTipsTitle"
+msgstr "Patarimai"
+
+msgid "game/newbieBattleHints"
+msgstr "Įjungti patarimus naujokams Atsitiktiniuose mūšiuose"
+
+msgid "game/newbiePrebattleHints"
+msgstr "Įjungti patarimus naujokams mūšio užkrovimo ekrane"
+
+msgid "game/optimizeGraphics"
+msgstr "Optimizuoti sąsajos grafiką"
+
+msgid "game/playersPanelState/large"
+msgstr "Išplėstas"
+
+msgid "game/playersPanelState/medium"
+msgstr "Vidutiniokų"
+
+msgid "game/playersPanelState/none"
+msgstr "Nerodyti"
+
+msgid "game/playersPanelState/short"
+msgstr "Sumažintas"
+
+msgid "game/postmortemMode"
+msgstr "Pomirtinis režimas"
+
+msgid "game/postmortemMode/analysis"
+msgstr "Rodyti jūsų mašinos sunaikinimo momentą (detaliai)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "Rodyti jus sunaikinusią mašiną"
+
+msgid "game/postmortemMode/self"
+msgstr "Rodyti jūsų mašiną"
+
+msgid "game/postmortemMode/simple"
+msgstr "Rodyti jūsų mašinos sunaikinimo momentą (trumpai)"
+
+msgid "game/ppShowLevels"
+msgstr "Rodyti tankų lygmenį"
+
+msgid "game/ppShowTypes"
+msgstr "Rodyti tanko tipą"
+
+msgid "game/ppStartStateLabel"
+msgstr "Tipas"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "Įjungti vado kamerą"
+
+msgid "game/replayEnabled"
+msgstr "Mūšių įrašymas"
+
+msgid "game/replayEnabled/all"
+msgstr "Visi"
+
+msgid "game/replayEnabled/last"
+msgstr "Paskutinis"
+
+msgid "game/replayEnabled/none"
+msgstr "Ne"
+
+msgid "game/showArtyHitOnMap"
+msgstr "Rodyti zoną, kurią apšaudys artilerijos"
+
+msgid "game/showDamageIcon"
+msgstr "Rodyti pranešimus, kai nepadaroma žala"
+
+msgid "game/showDogTag"
+msgstr "Rodyti Karišką žetoną"
+
+msgid "game/showDogTagToKiller"
+msgstr "Rodyti jūsų pasirinktą koreguojamą karišką žetoną"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "Rodyti sunaikintų tankų informaciją"
+
+msgid "game/showKillersDogTag"
+msgstr "Rodyti jus nušovusio žaidėjo karišką žetoną"
+
+msgid "game/showLanguageBar"
+msgstr "Rodyti kalbų pasirinkimo langą"
+
+msgid "game/showMarksOnGun"
+msgstr "Rodyti meistriškumo žymas"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "Pamatyti savo animuotą karišką žetoną"
+
+msgid "game/showSectorOnMap"
+msgstr "Rodyti artilerijos ugnies sektorių"
+
+msgid "game/showVectorOnMap"
+msgstr "Rodyti kameros krypties spindulį"
+
+msgid "game/showVehModelsOnMap"
+msgstr "Įjungti papildomas mini žemėlapio funkcijas"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Nuspaudus Alt"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "Visada"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "Niekada"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "Rodyti mašinų patvarumo taškus mini žemėlapyje"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Nuspaudus Alt"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "Visada"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "Niekada"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "Rodyti mašinų patvarumo taškus komandų sąraše"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Nuspaudus Alt"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "Visada"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "Niekada"
+
+msgid "game/showVehicleIcon"
+msgstr "Rodyti tankų ženkliukus"
+
+msgid "game/showVehicleLevel"
+msgstr "Rodyti tankų lygmenį"
+
+msgid "game/showVehiclesCounter"
+msgstr "Rodyti tankų markerius mūšio rezultatų lange"
+
+msgid "game/showVictimsDogTag"
+msgstr "Rodyti jūsų sunaikintų priešų Kariškus žetonus"
+
+msgid "game/sniperModeByShift"
+msgstr "Persijungimas į snaiperio režimą tik su Shift klavišu"
+
+msgid "game/sniperZoom"
+msgstr "Tinkamiausias priartinimo lygis"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "Paskutinis naudotas"
+
+msgid "game/switchEquipment"
+msgstr "Konfigūracijos perjungimas užkrovimo lange"
+
+msgid "game/w2gtEnable"
+msgstr "Įjungti kovines zonas žemėlapyje"
+
+msgid "gameTitle"
+msgstr "Žaidimas"
+
+msgid "gameplay/devMaps"
+msgstr "Žaisti žemėlapiuose su Atsitiktiniais įvykiais"
+
+msgid "gameplay/nations"
+msgstr "Konfrontacija"
+
+msgid "gamma"
+msgstr "Gama"
+
+msgid "gammaBtn/label"
+msgstr "Konfigūruoti"
+
+msgid "gammaWizard/apply"
+msgstr "Pritaikyti"
+
+msgid "gammaWizard/cancel"
+msgstr "Atšaukti"
+
+msgid "gammaWizard/closeBtn"
+msgstr "UŽDARYTI"
+
+msgid "gammaWizard/default"
+msgstr "Originalūs nustatymai"
+
+msgid "gammaWizard/description"
+msgstr "Tempkite slankiklį kol fonas ir logotipas pasieks tą patį ryškumą. Primerkite akis arba atsitraukite nuo ekrano, kad detalės taptų sunkiai įžiūrimos."
+
+msgid "gammaWizard/header"
+msgstr "Gama"
+
+msgid "gammaWizard/title"
+msgstr "Gama nustatymai"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "Leidžia sureguliuoti ryškumą žaidime optimaliai\nvaizdo kokybei ekrane. Ši funkcija reikalinga norint kompensuoti\ngrafinės plokštės ir ekrano nustatymų efektus,\nkurie įtakoja žaidimo vizualinę kokybę."
+
+msgid "gammaWizard/tooltip/header"
+msgstr "Gama"
+
+msgid "graficTitle"
+msgstr "Grafika"
+
+msgid "graphics/block/effects"
+msgstr "Efektų garsumas"
+
+msgid "graphics/block/greenery"
+msgstr "Augmenija"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "Landšaftas ir vanduo"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "Apšvietimas ir post apdirbimas"
+
+msgid "graphics/block/main"
+msgstr "Pagrindiniai"
+
+msgid "graphics/tabAdvanced"
+msgstr "Detalės"
+
+msgid "graphics/tabScreen"
+msgstr "Ekranas"
+
+msgid "graphicsQuality"
+msgstr "Grafikos kokybė"
+
+msgid "graphicsQuality/description"
+msgstr "Nustato bendrą vaizdo kokybę. Įtakoja nustatymus esančius lange \"Detaliau\".\n\nSumažinta vaizdo kokybę gali:\n• pagerinti žaidimo greitį.\n• sukelti kraštovaizdžio nesutapimus tarp klientinės ir serverinės dalies.\n\nNaudokite minimalius grafikos nustatymus, tik jeigu žaidžiate su silpnu kompiuteriu."
+
+msgid "graphicsQualityHDSD"
+msgstr "Žaidimo kliento tipai"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "HD klientas suinstaliuotas"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "Įdiegtas standartinis (SD) klientas"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "Standartinis klientas - pilna žaidimo versija be maksimalios kokybės tekstūrų.\n\nHD klientas - pilna žaidimo versija su maksimalios kokybės tekstūromis. Ši versija užima daugiau vietos diske nei standartinis klientas."
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "Žaidimo kliento tipai"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "HD klientas - pilna žaidimo versija su maksimalios kokybės tekstūromis. Ši versija užima daugiau vietos diske nei standartinis klientas.\n\nStandartinis klientas (SD) - pilna žaidimo versija be maksimalios kokybės tekstūrų."
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "Maksimali (SD) ir Ultra (SD) grafikos kokybė neleidžia nustatyti maksimalios tekstūrų kokybės. Norėdami matyti maksimalią grafikos kokybę, persijunkite į HD klientą žaidimo paleidiklyje."
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "Anizotropinė 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "Anizotropinė 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "Anizotropinė 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "Anizotropinė 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "Dvilinijinis filtravimas"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "Vartotojiška"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "1940 kino juosta"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "Kontrastas"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "Pagerinta"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "Toli"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "Standartinė"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "Aukštas"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "Žemas"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "Labai žemas"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "Maksimali"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "Maksimali (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "Vidutinis"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "Minimali"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "Nutildytas"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "Arti"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "Išjungta"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "Išjungta"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "Įjungta"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "Supaprastintas"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "Pagerinta"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "Taškinė"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "Fotochrominis"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "Atsitiktinis"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "Standartinis"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "Gilus"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "Minkštos spalvos"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "Trilinijinė"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "Ultra"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "Ultra (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "Labai aukštas"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "Labai aukštas"
+
+msgid "igbHardwareAcceleration"
+msgstr "Naršyklės aparatinis paspartinimas"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "Įjungus šį nustatymą, tinklo turinys bus apdorojamas naudojant GPU, o ne CPU.\n\nIšjunkite šį nustatymą, jeigu patiriate turinio generavimo nesklandumus kai kuriuose languose.\n\nNustatymas įsigalioja iš naujo paleidus žaidimą."
+
+msgid "interfaceScale"
+msgstr "Sąsajos keitimas"
+
+msgid "interfaceScale/attention"
+msgstr "Šis nustatymas testuojamas\nir neįtakoja žaidimo greitaveikos."
+
+msgid "interfaceScale/body"
+msgstr "Automatinis sąsajos elementų keitimas\ndidinant žaidimo langą."
+
+msgid "interfaceScale/description"
+msgstr "Automatinis sąsajos elementų dydžio keitimas padidinus žaidimo langą."
+
+msgid "interfaceScale/header"
+msgstr "Sąsajos keitimas"
+
+msgid "interfaceScale/warning"
+msgstr "Šis nustatymas testuojamas ir neįtakoja žaidimo greitaveikos."
+
+msgid "interfaceScaleDisabled"
+msgstr "Sąsajos keitimas"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "Tik su 4K monitoriais."
+
+msgid "interfaceScaleDisabled/body"
+msgstr "Automatinis sąsajos elementų keitimas\ndidinant žaidimo langą."
+
+msgid "interfaceScaleDisabled/description"
+msgstr "Automatinis sąsajos elementų dydžio keitimas padidinus žaidimo langą."
+
+msgid "interfaceScaleDisabled/header"
+msgstr "Sąsajos keitimas"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "Tik su 4K monitoriais."
+
+msgid "isColorBlind"
+msgstr "Ryškesnių spalvų režimas"
+
+msgid "isColorBlind/description"
+msgstr "Spalvų paletė adaptuota neskiriantiems spalvų."
+
+msgid "keyboard/backDraftInvert"
+msgstr "Atbulinės eigos inversija"
+
+msgid "keyboard/keyboard"
+msgstr "Klaviatūra"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "Taip tikrai!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "Spec. taikinys"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "Korpuso fiksacija / režimo keitimas"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "Atgal"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "Atgal"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "\"Rankinis stabdis\""
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "Žemyn"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "Kairėn"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "Dešinėn"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "Aukštyn"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "Iššauti salvę"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "Atsitraukiame!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "Ugnis"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "Pirmyn"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "Pirmyn"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "Palikti mašiną (Fronto linijoje)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "Reikia pastiprinimo!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "Pažymėti poziciją"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "Pažymėti aktyvų taikinį"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "Ekipuotė 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "Ekipuotė 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "Ekipuotė 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "Ekipuotė 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "Ekipuotė 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "Ekipuotė 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "Ekipuotė 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "Ekipuotė 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "Ekipuotė 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "Ekipuotė 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "Kairėn"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "Auto-taikiklis"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "Išjungti auto-taikiklį"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "Nepritariu!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "Mikrofono aktyvavimas"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "Kasetės užtaisymas"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "Užsitaisinėju!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "Dešinėn"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "Slėpti mūšio sąsają"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "Asmeninių rezervų aktyvavimas"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "Asmeninių misijų progresas"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "Rodyti komandų meniu / patvirtinimo komandą"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "Sumažinti"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "Padidinti"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "Specialus gebėjimas"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "Sustojimas šūviui"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "Ačiū!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "Įjungti šarvų žibintą"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "Trajektorijos vaizdas"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "Nustatyti garso signalą"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "Slėpti/Rodyti"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "Įjungti/išjungti balso pokalbius dinaminiuose būriuose"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "Kamera"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "Autopilotas"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "Ekipuotė"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "Ugnis"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "Mini žemėlapis"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "Judėjimas"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "Žinutė"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "Bendravimas komandoje"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "Kita"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "Balso pokalbiai"
+
+msgid "keyboard/mouse"
+msgstr "Pelė"
+
+msgid "keyboardTitle"
+msgstr "Valdymas"
+
+msgid "limitedUI/desc"
+msgstr "Laipsniškas paslėptų garažo sąsajos elementų atsiradimas"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "Išjungti"
+
+msgid "marker/AllyTitle"
+msgstr "Savi"
+
+msgid "marker/DeadTitle"
+msgstr "Sunaikinti"
+
+msgid "marker/EnemyTitle"
+msgstr "Priešai"
+
+msgid "marker/aimMarker2D"
+msgstr "Auto-nusitaikymo indikatorius"
+
+msgid "marker/alt"
+msgstr "Alternatyvus"
+
+msgid "marker/base"
+msgstr "Įprastas"
+
+msgid "marker/damage"
+msgstr "Gauta žala"
+
+msgid "marker/dead"
+msgstr "Rodyti sunaikintiems"
+
+msgid "marker/hp"
+msgstr "Tanko patvarumas"
+
+msgid "marker/hp/type0"
+msgstr "Procentai %"
+
+msgid "marker/hp/type1"
+msgstr "HP liko / viso"
+
+msgid "marker/hp/type2"
+msgstr "HP liko"
+
+msgid "marker/hp/type3"
+msgstr "Slėpti"
+
+msgid "marker/hpIndicator"
+msgstr "Patvarumo indikatorius"
+
+msgid "marker/icon"
+msgstr "Tanko ikona"
+
+msgid "marker/level"
+msgstr "Technikos lygis"
+
+msgid "marker/level/tooltip/body"
+msgstr "Jei šis nustatymas įjungtas, mašinos lygis bus rodomas virš jos.\n\nPlieninėje medžioklėje bus rodomas dabartinis patobulinimo lygis."
+
+msgid "marker/level/tooltip/header"
+msgstr "Technikos lygis"
+
+msgid "marker/name"
+msgstr "Tanko pavadinimas"
+
+msgid "marker/name/type2"
+msgstr "Slėpti"
+
+msgid "marker/nickname"
+msgstr "Žaidėjo vardas"
+
+msgid "markerTitle"
+msgstr "Markeris"
+
+msgid "minimap/labels/alpha"
+msgstr "Mini žemėlapio permatomumas"
+
+msgid "minimap/labels/size"
+msgstr "Maksimalus dydis"
+
+msgid "monitor"
+msgstr "Monitorius"
+
+msgid "monitor/description"
+msgstr "Pagrindinio monitoriaus žaidimui pasirinkimas."
+
+msgid "mouse/sensitivity/art"
+msgstr "Artilerinis taikiklis"
+
+msgid "mouse/sensitivity/art2"
+msgstr "Trajektorijos vaizdas"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "Laisva kamera"
+
+msgid "mouse/sensitivity/header"
+msgstr "Jautrumas"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "Horizontalus apvertimas"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "Vertikalus apvertimas"
+
+msgid "mouse/sensitivity/main"
+msgstr "Arkadinis taikiklis"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "Snaiperinis taikiklis"
+
+msgid "mouse/startDist"
+msgstr "Kameros pozicija"
+
+msgid "ok_button"
+msgstr "OK"
+
+msgid "otherSettings/fieldset/header"
+msgstr "Garso elementai"
+
+msgid "otherSettings/labels/bulb"
+msgstr "Šešto jausmo aktyvavimo garsas"
+
+msgid "otherTitle"
+msgstr "Kita"
+
+msgid "physicsQuality"
+msgstr "Garso fizikos kokybė"
+
+msgid "refreshRate"
+msgstr "Monitoriaus kadrų tankis"
+
+msgid "refreshRate/default"
+msgstr "Originalūs nustatymai"
+
+msgid "refreshRate/description"
+msgstr "Vaizdo atnaujinimo tankis monitoriuje.\n\nŽemas tankis gali sukelti ekrano mirksėjimą.\n\nNeįtakoja žaidimo greičio."
+
+msgid "resolution"
+msgstr "Ekrano rezoliucija"
+
+msgid "resolution/description"
+msgstr "Horizontali ir vertikali ekrano raiška pilno ekrano rėžime. Didesnė raiška pagerina vaizdo kokybę. Raiškos nesutapimas pilno ekrano vaizde gali įtakoti ryškumą\n\nŠio parametro keitimas padidina vaizdo plokštės apkrova irgali sumažinti žaidimo veikimo greitį.\n\nVaizdo plokštės aprkovą galima sumažinti nustatant 3D generavimo raišką."
+
+msgid "restartNewbieBattleHints"
+msgstr "Atstatyti patarimus naujokams"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "Atstatykite patarimų istoriją ir vėl gaukite anksčiau parodytus patarimus."
+
+msgid "screenMode"
+msgstr "Žaidimo režimas"
+
+msgid "screenMode/borderless"
+msgstr "Lange (be paraščių)"
+
+msgid "screenMode/description"
+msgstr "Perjungimas tarp pilno ekrano, lango ir lango (be paraščių) režimų. Žaidimo paleidimas lange gali pabloginti greitaveiką."
+
+msgid "screenMode/fullscreen"
+msgstr "Pilno ekrano"
+
+msgid "screenMode/label"
+msgstr "Režimas:"
+
+msgid "screenMode/windowed"
+msgstr "Lange"
+
+msgid "smoothing/description"
+msgstr "Nustatomas papildomas plonų linijų ir žaidimo objektų kontūrų apdorojimas. Įjungus šį nustatymą labiau išlyginami objektų kraštai ir paviršiai. Kontūrai atrodo natūraliau."
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "Standartinis"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "Vartotojiškas garsas"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "Variantas 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "Variantas 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "Vartotojiškas garsas"
+
+msgid "sound/dynamicRange/label"
+msgstr "Dinaminis nuotolis"
+
+msgid "sound/fieldset/header"
+msgstr "Garsas"
+
+msgid "sound/players_notifications"
+msgstr "Kitų žaidėjų pranešimai"
+
+msgid "sound/presets/title"
+msgstr "Numatytieji"
+
+msgid "sound/soundModes/U01"
+msgstr "Vartotojiškas 1"
+
+msgid "sound/soundModes/U02"
+msgstr "Vartotojiškas 2"
+
+msgid "sound/soundModes/U03"
+msgstr "Vartotojiškas 3"
+
+msgid "sound/soundModes/U04"
+msgstr "Vartotojiškas 4"
+
+msgid "sound/soundModes/default"
+msgstr "Standartiniai"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "Vado"
+
+msgid "sound/special/field/set"
+msgstr "Žaidimo įvykių garsumas"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "Atnaujinti įrangą"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "Užbaigti testą"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "Pradėti testą"
+
+msgid "sound/vivox/fade_volume"
+msgstr "Foninis garsas pokalbio metu"
+
+msgid "sound/vivox/master_volume"
+msgstr "Pokalbių garsumas"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "Mikrofono jautrumas"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Vivox testas"
+
+msgid "soundTitle"
+msgstr "Garsas"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "Automatiškai"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "2.0/2.1 sistema"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "5.1 sistema"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "7.1 sistema"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "ausinės"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "Centrinis"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "Kairysis"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "Kairysis galinis"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "Kairysis priekinis"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "Kairysis šoninis"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "Dešinysis"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "Dešinysis galinis"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "Dešinysis priekinis"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "Dešinysis šoninis"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "Žemų dažnių garsiakalbis"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "laptopas"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "Garso testavimas:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "Garso testavimas"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "Balso pranešimų kalba priklauso nuo mašinos nacijos ir vado lyties"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "Vado"
+
+msgid "sounds/altVoice/default/body"
+msgstr "Balso pranešimai įgarsinti vyrišku balsu žaidimo kliento kalba"
+
+msgid "sounds/altVoice/default/header"
+msgstr "Standartinė"
+
+msgid "sounds/ambient"
+msgstr "Aplinkos garsumas"
+
+msgid "sounds/arena"
+msgstr "Muzikos garsumas"
+
+msgid "sounds/artyBulbVoices"
+msgstr "Garso aptikimas"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "Pasirinkite vieną iš galimų Garso aptikimo aktyvavimo garsų. Norėdami naudoti savo garsą, pervadinkite .mp3 failą į soundExploring ir perkelkite į res/audioww katalogą."
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "Garso aptikimo aktyvavimo garsas"
+
+msgid "sounds/bassBoost"
+msgstr "Žemų dažnių pastiprinimas"
+
+msgid "sounds/bassBoost/description"
+msgstr "Pastiprina žemus dažnius žaidime nekeičiant bendro garsumo. Šis nustatymo veikimas priklauso nuo garo sistemos (kolonėlės, ausinės ar nešiojamas kompiuteris)."
+
+msgid "sounds/bulbVoices"
+msgstr "Šeštas jausmas"
+
+msgid "sounds/bulbVoices/description"
+msgstr "Pasirinkite vieną iš galimų Šešto jausmo aktyvavimo garsų. Norėdami naudoti savo garsą, pervadinkite .mp3 failą į sixthSense ir perkelkite į res/audioww katalogą."
+
+msgid "sounds/effects"
+msgstr "Efektų garsumas"
+
+msgid "sounds/gui"
+msgstr "Sąsaja"
+
+msgid "sounds/hangar"
+msgstr "Muzika garaže"
+
+msgid "sounds/masterVolume"
+msgstr "Bendras garsumas"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "Įjungti garsą"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "Išjungti garso efektai žaidime gali pagerinti bendrą žaidimo greitaveiką. Jums reikės paleisti žaidimą iš naujo, tam kad įsigaliotų pakeitimai."
+
+msgid "sounds/nightMode"
+msgstr "Naktinis režimas"
+
+msgid "sounds/nightMode/description"
+msgstr "Suvienodina garso lygį, sumažina aštrius garsus ir minimizuoja žemų dažnių garsus žaidime bei suteikia komfortišką ir švelnų garsą skirtą žaidimui naktį."
+
+msgid "sounds/physicsQuality/attention"
+msgstr "Įjungę šią funkciją galite sumažinti žaidimo greitaveiką."
+
+msgid "sounds/physicsQuality/body"
+msgstr "Kontroliuoja garso fiziko kokybę.\n\nSimuliuoja kaip garsas apeina kliūtis ir sklinda žemėlapio reljefu.\n\nNaudodamas žaidimo geometriją sugeneruoja atspindžius ir leidžia tankų garsams atsimušti nuo gretimų objektų.\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "Garso fizikos kokybė"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "Išjungta"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "Aukšta"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "Žema"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "Vidutiniška"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "Rekomenduojama"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "Nustato optimalų garso fizikos kokybės nustatymą jūsų kompiuteriui.\n\nTai gali užtrukti."
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "Rekomenduojama"
+
+msgid "sounds/sixthSense/body"
+msgstr "Vartotojo pasirinktas garsas. Perkelkite sixthSense.mp3 į res/audioww katalogą."
+
+msgid "sounds/sixthSense/header"
+msgstr "Vartotojiški"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "2.0/2.1 sistema"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "Pritaiko žaidimo garsą išorinėms suporuotoms pilno diapazono kolonėlėms (2.0) arba suporuotoms aukšto dažnio kolonėlėms su vienu žemo dažnio garsiakalbiu (2.1)."
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "2.0/2.1 sistema"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "5.1 sistema"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "Pritaiko žaidimo garsų pozicionavimą išorinėms kolonėlėms su žemų dažnių kolonėle 5.1 garso sistemoje."
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "5.1 sistema"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "7.1 sistema"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "Pritaiko žaidimo garsų pozicionavimą išorinėms kolonėlėms su žemų dažnių kolonėle 7.1 garso sistemoje."
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "7.1 sistema"
+
+msgid "sounds/soundDevice/auto"
+msgstr "Automatiškai"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "Automatiškai parenka garso sistemos nustatymus pagal operacinės sistemos informaciją"
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "Automatiškai"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "Ausinės"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "Pritaiko žaidimo garsą ausinėms."
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "Ausinės"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "Laptopas"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "Naudoja tuos pačius pozicionavimo principus kaip ir 2.0/2.1 garso sistemos nustatymai, bet pritaiko žaidimo garsus mažiems garsiakalbiams taip, kad išgauti maksimalią skambėjimo kokybę."
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "Laptopas"
+
+msgid "sounds/soundQuality"
+msgstr "Žema kokybė"
+
+msgid "sounds/soundQuality/description"
+msgstr "Garso kokybės sumažinimas gali pagerinti žaidimo greitaveiką silpnuose kompiuteriuose. Įjungus šį nustatymą ženkliai sumažinamas vienu metu apdorojamų garsų skaičius."
+
+msgid "sounds/speakers/back/body"
+msgstr "Garso testavimas dešiniajame/kairiajame galiniuose garsiakalbiuose."
+
+msgid "sounds/speakers/back/header"
+msgstr "Dešinysis/kairysis galiniai garsiakalbiai"
+
+msgid "sounds/speakers/center/body"
+msgstr "Garso testavimas centriniame garsiakalbyje."
+
+msgid "sounds/speakers/center/header"
+msgstr "Centrinis garsiakalbis"
+
+msgid "sounds/speakers/front/body"
+msgstr "Garso testavimas dešiniajame/kairiajame priekiniuose garsiakalbiuose."
+
+msgid "sounds/speakers/front/header"
+msgstr "Dešinysis/kairysis priekiniai garsiakalbiai"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "2.0/2.1 sistemoje žemų dažnių garsiakalbis yra neprivalomas įrenginys ir jis negali būti testuojamas atskirai be kolonėlių."
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "Papildomas žemų dažnių garsiakalbis"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "Garso testavimas dešiniajame/kairiajame šoniniuose garsiakalbiuose."
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "Dešinysis/kairysis šoniniai garsiakalbiai"
+
+msgid "sounds/speakers/sides/body"
+msgstr "Garso testavimas dešiniajame/kairiajame garsiakalbiuose."
+
+msgid "sounds/speakers/sides/header"
+msgstr "Dešinysis/kairysis garsiakalbiai"
+
+msgid "sounds/speakers/sub/body"
+msgstr "Garso testavimas žemų dažnių garsiakalbyje."
+
+msgid "sounds/speakers/sub/header"
+msgstr "Žemų dažnių garsiakalbis"
+
+msgid "sounds/subtitles"
+msgstr "Subtitrai"
+
+msgid "sounds/tabCommon"
+msgstr "Bendras garsas"
+
+msgid "sounds/tabSpecial"
+msgstr "Žaidimo įvykiai"
+
+msgid "sounds/tabVivox"
+msgstr "Balso pokalbiai"
+
+msgid "sounds/vehicles"
+msgstr "Technika"
+
+msgid "sounds/voiceNotification"
+msgstr "Balso pranešimai"
+
+msgid "title"
+msgstr "Nustatymai"
+
+msgid "tripleBuffered"
+msgstr "Triguba buferizacija"
+
+msgid "tripleBuffered/description"
+msgstr "Sušvelnina staigų perėjimą tarp kadrų (naudojamas tik su įjungta vertikalia sinchronizacija)."
+
+msgid "vertSync"
+msgstr "Vertikali sinchronizacija"
+
+msgid "vertSync/Off"
+msgstr "Išjungta"
+
+msgid "vertSync/On"
+msgstr "Įjungta"
+
+msgid "vertSync/description"
+msgstr "Kadrų kaitos sinchronizacija su monitoriumi.\n\n60 kadrų per sekundę kadrų kaitos riba. Naudojama kai yra drebančio vaizdo efektas arba vaizdo apačia vėluoja palygynus su viršumi."
+
+msgid "voice_chat/PTT"
+msgstr "Mikrofono aktyvavimas"
+
+msgid "voice_chat/fieldset/header"
+msgstr "Garsumas"
+
+msgid "voice_chat/header/common"
+msgstr "Bendras"
+
+msgid "voice_chat/header/microphone"
+msgstr "Mikrofonas"
+
+msgid "voice_chat/header/speakers"
+msgstr "Ausinės"
+
+msgid "voice_chat/microphone"
+msgstr "Mikrofonas"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "Mikrofonas"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "Įjungti mikrofoną"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "Įjungti balso pokalbius"
+
+msgid "windowSize"
+msgstr "Lango dydis"
+
+msgid "windowSize/description"
+msgstr "Horizontali ir vertikali ekrano raiška. Kai perjungiama į pilno ekrano rėžimą nustatymas pasikeičia i \"Ekrano raiška\"."
+
+msgid "windowTitle"
+msgstr "WoT Client"

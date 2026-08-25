@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Policijski čas {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Događaj će biti dostupan od"
+
+msgid "bannerTooltip/description"
+msgstr "Masovne borbe 30 na 30 u vozilima {{vehicleTier}} nivoa na mapama Normandija, Kraftwerk i Fata Morgana. Napadači moraju da unište tri od pet topova velikog kalibra dok branioci moraju da ih odbrane."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Pokaži svoje junaštvo u intenzivnim borbama da zaradiš slavu, preuzmeš vredne nagrade i podigneš se kroz rangove."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Događaj se završio, a ti imaš nepreuzete nagrade za završavanje nivoa Linije fronta."
+
+msgid "bannerTooltip/header"
+msgstr "Linija fronta"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Linija fronta | nivo {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} - Režim igre. Klikni da istražiš"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Ovaj režim zahteva visoke performanse kompjutera. Iskusićeš probleme sa učitavanjem mapa, grafikom i pokretima vozila. U slučaju nedovoljnih performansi, pokušaj da spustiš kvalitet grafike u podešavanjima."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Moguće smanjene performanse"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Odaberi nagrade za završavanje nivoa ({{value}})"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Nema dovoljno sredstava za obavljanje kupovine."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Promene će biti primenjene na sve lovce tenkova."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Promene će biti primenjene na sve artiljerije."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Promene će biti primenjene na sve teške tenkove."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Promene će biti primenjene na sve lake tenkove."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Promene će biti primenjene na sve srednje tenkove."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Nekompatibilno vozilo"
+
+msgid "battleAbilities/points/body"
+msgstr "Sakupi dovoljan broj poena i aktiviraj borbene rezerve Linije fronta."
+
+msgid "battleAbilities/points/header"
+msgstr "Poeni borbenih rezervi"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Pogledaj rezerve napada"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Rezerve napada"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Pogledaj rezerve izviđanja"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Rezerve izviđanja"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Pogledaj taktičke rezerve"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Taktičke rezerve"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Nivo borbene rezerve se povećava nakon dostizanja ranga kapetana i majora u borbi. Maksimalan nivo je određen borbenim scenarijem."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Dodatne informacije"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Rezerve napada"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Rezerve izviđanja"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Taktičke rezerve"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Trajne karakteristike:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Borbena rezerva smeštena u ovaj slot povećava šansu da bude ponuđena u {{@ colorLegacy 'FFE4C0'}}Obrt sudbine{{/}} scenariju za {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Nivo rezerve:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Nije kupljeno!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Događaj se završio."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Događaj će početi uskoro!"
+
+msgid "infoButton/body"
+msgstr "Klikni za još informacija."
+
+msgid "infoButton/header"
+msgstr "O događaju"
+
+msgid "levelReserves/desc"
+msgstr "Nivoi borbenih rezervi se povećavaju po dostizanju novih rangova:"
+
+msgid "levelReserves/info"
+msgstr "U scenariju {{@ colorLegacy 'FFE4C0'}}Obrt sudbine{{/}} kupovina borbene rezerve će podići njen nivo za jedan i obezbediti priliku za njeno poboljšanje na {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}} nivo."
+
+msgid "levelReserves/level"
+msgstr "Povećava se nakon dostizanja sledećeg ranga: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Dostupno uz sledeći rang: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Nivo - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "Za {{@ colorLegacy 'FFE4C0'}}kupljene borbene rezerve{{/}} u scenariju {{@ colorLegacy 'FFE4C0'}}Obrt sudbine{{/}}."
+
+msgid "levelReserves/title"
+msgstr "Nivoi borbenih rezervi"
+
+msgid "playlist/warning/body"
+msgstr "Ova plej lista sadrži vozila koja nisu pogodna za ovaj režim igre ili nisu u tvojoj garaži."
+
+msgid "playlist/warning/header"
+msgstr "Vozila su nedostupna (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Karakteristike borbenih rezervi su poboljšane"
+
+msgid "randomReserve/disable"
+msgstr "Slot borbenih rezervi je upotrebljen."
+
+msgid "randomReserve/notPurchased"
+msgstr "Borbene rezerve nisu kupljene"
+
+msgid "randomReserve/purchased"
+msgstr "Borbena rezerve su kupljene"
+
+msgid "skillOrderTooltip/body"
+msgstr "Svaki tip vozila ima svoj redosled otključavanja rezervi:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Redosled otključavanja borbenih rezervi"
+
+msgid "skillOrderTooltip/info"
+msgstr "U {{@ colorLegacy 'whiteSpanish'}}Obrt sudbine{{/}} scenariju, red po kome se borbene rezerve otključavaju ne zavisi od tipa vozila."

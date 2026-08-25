@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Appliquer à toutes les {{icon}} {{type}}"
+
+msgid "header/points"
+msgstr "Points de Réserve de combat : {{value}}"
+
+msgid "header/title"
+msgstr "RÉSERVES DE COMBAT"
+
+msgid "infoPanel/category/firesupport"
+msgstr "Réserves d'attaque"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "Réserves de reconnaissance"
+
+msgid "infoPanel/category/tactics"
+msgstr "Réserves tactiques"
+
+msgid "infoPanel/category/title"
+msgstr "Catégorie : {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "Dans le scénario {{@ colorLegacy 'FFE4C0'}}Coup du sort{{/}}, acheter une Réserve de combat augmente son niveau d'un palier et offre la possibilité de l'améliorer jusqu'au Niveau {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "infoPanel/description/unlocked"
+msgstr "Dans le scénario {{@ colorLegacy 'FFE4C0'}}Coup du sort{{/}}, la probabilité que chaque Réserve de combat placée dans l'emplacement avant la bataille soit offerte augmente de {{@ colorLegacy 'FFE4C0'}}10 %{{/}}."
+
+msgid "infoPanel/level"
+msgstr "Niveau :"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}} m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}} %"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}} %/s"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}} s"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "Réserve de combat non achetée"
+
+msgid "infoPanel/status/unlocked"
+msgstr "Réserve de combat achetée"

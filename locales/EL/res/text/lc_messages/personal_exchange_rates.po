@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Προσωπική αναλογία ανταλλαγής"
+msgstr[1] "Προσωπική αναλογία ανταλλαγής %(index)s"
+msgstr[2] "Προσωπική αναλογία ανταλλαγής %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "Υπάρχει υπέρβαση τουλάχιστον ενός ορίου. Μέρος της πληρωμής θα γίνει με την επόμενη χρέωση."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Βασική αναλογία ανταλλαγής"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "Επόμενη αναλογία ανταλλαγής"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Προσωπικές αναλογίες ανταλλαγής: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Συνολικό ποσό προσωπικής χρέωσης: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "Μετά τη μετατροπή:"
+
+msgid "common/cancel"
+msgstr "Άκυρο"
+
+msgid "common/combinedDiscount"
+msgstr "Συνδυαστική Έκπτωση"
+
+msgid "common/exchange"
+msgstr "Μετατροπή"
+
+msgid "common/exchangeRate"
+msgstr "Αναλογία μετατροπής"
+
+msgid "common/limitExceeded"
+msgstr "Υπέρβαση ορίου. Η ανταλλαγή θα γίνει με συνδυαστική έκπτωση."
+
+msgid "common/limitOverExceeded"
+msgstr "Υπέρβαση ορίου. Θα γίνει χρήση συνδυαστικής έκπτωσης."
+
+msgid "common/limitRestrictions"
+msgstr "ΜΑΘΕΤΕ ΠΕΡΙΣΣΟΤΕΡΑ"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Βασική αναλογία ανταλλαγής: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Γενική αναλογία ανταλλαγής: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "%(gold)s gold μετατράπηκε επιτυχώς σε %(res)s credits."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Προσωπική αναλογία ανταλλαγής: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Προσωπική αναλογία ανταλλαγής: %(rateFrom)s = %(rateTo)s. Υπέρβαση ορίου"
+
+msgid "exchangeXP/information"
+msgstr "%(res)s XP μετατράπηκαν επιτυχώς σε Free XP. Κόστος σε gold: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "Διαθέσιμα XP:"
+
+msgid "experienceExchange/paid"
+msgstr "Κόστος"
+
+msgid "experienceExchange/received"
+msgstr "Θα μετατραπούν"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Ταξινόμηση με βάση τη βαθμίδα οχήματος"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Ταξινόμηση με βάση τις Διαμορφώσεις Μάχης"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Ταξινόμηση με βάση το όνομα οχήματος"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Ταξινόμηση με βάση το έθνος"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Ταξινόμηση με βάση τον τύπο οχήματος"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Ταξινόμηση με βάση το επιλεγμένο όχημα"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Ταξινόμηση με βάση τα κερδισμένα XP"
+
+msgid "goldExchange/paid"
+msgstr "Από"
+
+msgid "goldExchange/received"
+msgstr "Σε"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s gold = %(resourceRate)s credits"
+
+msgid "notification/discountDescription/message"
+msgstr "Προσωπική αναλογία ανταλλαγής"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "Ανταλλαγή"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Νέα αναλογία ανταλλαγής!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Βασική αναλογία ανταλλαγής"
+
+msgid "tooltip/common/generalRate"
+msgstr "Γενική αναλογία ανταλλαγής"
+
+msgid "tooltip/common/personalRate"
+msgstr "Προσωπική αναλογία ανταλλαγής"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Προτιμώμενη αναλογία ανταλλαγής"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Προσωρινή αναλογία ανταλλαγής"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "Το ποσό μπορεί να υπολογιστεί μόνο μετά την αγορά gold."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Gold μετά την ανταλλαγή"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s gold = %(resourceRate)s Free XP"

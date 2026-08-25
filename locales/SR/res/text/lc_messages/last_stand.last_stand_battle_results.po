@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, trajanje: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "Regularna težina"
+
+msgid "info/difficult/2"
+msgstr "Unapređena težina"
+
+msgid "info/difficult/3"
+msgstr "Brutalna težina"
+
+msgid "info/mapName"
+msgstr "Poslednje uporište • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "Vreme ponovnog ulaska u borbu: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "Sva saveznička vozila su uništena."
+
+msgid "ls_finish/reason/10/lose"
+msgstr "Niste uspeli da zaustavite Zero."
+
+msgid "ls_finish/reason/3/lose"
+msgstr "Vreme je isteklo."
+
+msgid "ls_finish/reason/5/lose"
+msgstr "Svi saveznici su napustili borbu."
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "Vrlo dobro! Spreman si za težu misiju?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "Svi neprijatelji na regularnoj težini su eliminisani."
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "Sjajne performanse! Malo ih je dostiglo ovaj nivo."
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "Svi neprijatelji na brutalnoj težini su eliminisani."
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "Impresivan rad! Sada je vreme za pravi izazov."
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "Svi neprijatelji na unapređenoj težini su eliminisani."
+
+msgid "ribbon/ban"
+msgstr "Neprihvatljive performanse: neaktivnost/dezerterstvo.\nNagrada nije primljena."
+
+msgid "ribbon/banRecord"
+msgstr "Neprihvatljive performanse: neaktivnost/dezerterstvo.\nNagrada nije primljena. Tvoj dosije o uništavanju talasa nije ažuriran."
+
+msgid "ribbon/noReward"
+msgstr "Tvoj tim nije uspeo da zadrži prvi talas.\nNagrada nije primljena."
+
+msgid "status/lose"
+msgstr "BORBA JE ZAVRŠENA"
+
+msgid "status/win"
+msgstr "POBEDA"
+
+msgid "subtitle/lose"
+msgstr "Napad nije zadržan"
+
+msgid "subtitle/win"
+msgstr "Vrlo dobro! Novi podaci su prikupljeni."
+
+msgid "teamList/actions"
+msgstr "Brze akcije"
+
+msgid "teamList/teammates"
+msgstr "Saveznici"
+
+msgid "time/record"
+msgstr "NOVI\nREKORD!"
+
+msgid "title/lose/noWaves"
+msgstr "BORBA JE ZAVRŠENA"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "%(phaseNumber)s TALAS ZAVRŠEN"
+msgstr[1] "%(phaseNumber)s TALASA ZAVRŠENO"
+msgstr[2] "%(phaseNumber)s TALASA ZAVRŠENO"
+
+msgid "title/win"
+msgstr "SVI TALAS ZAVRŠENI"
+
+msgid "tooltip/ban"
+msgstr "Neprihvatljive performanse: neaktivnost/dezerterstvo. Tvoj lični dosije o uništavanju talasa nije ažuriran."

@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "main/backText"
+msgstr "ZU DEN CLANDATEN"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "Sie erhalten durch den Abschluss von Aufträgen Dienstpunkte zum Erforschen neuer Regionen."
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "Dienstpunkte"
+
+msgid "main/infoPageButtonLabel"
+msgstr "ÜBER DEN MILITÄRDIENST"
+
+msgid "main/mdash"
+msgstr "–"
+
+msgid "messages/claimRewards/error"
+msgstr "Aktion vorübergehend nicht verfügbar. Versuchen Sie es später erneut."
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "Aktualisieren"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "Wir entschuldigen uns für die Unannehmlichkeiten."
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "Fehler beim Laden der Daten"
+
+msgid "progressionPage/header/heading"
+msgstr "MILITÄRDIENST"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "MILITÄRDIENST IST BEENDET"
+
+msgid "progressionPage/header/subheading"
+msgstr "Sie verdienen durch den Abschluss von Clanaufträgen Dienstpunkte. Dienstpunkte werden benötigt, um neue Regionen zu erforschen und wertvolle Belohnungen zu erhalten. Am Ende des Militärdienstes können Sie ein Fahrzeug der Stufe X erhalten."
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "Fahrzeug „%(vehicle)s“ erhalten"
+
+msgid "progressionPage/loading"
+msgstr "Lade Inhalt ..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "Erforschen Sie die vorangehende verbundene Region."
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "Region ist bereits erforscht."
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "Belohnung verdient:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "Erforschen Sie die vorangehende verbundene Region."
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "Region konnte nicht erforscht werden."
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "Fehler beim Laden der Daten"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "Region erforschen"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "Sie brauchen noch %(value)s Dienstpunkte, um diese Region zu erforschen."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "Region konnte nicht erforscht werden."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "Erforschen Sie die vorangehende verbundene Region."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "Region konnte nicht erforscht werden."
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "Belohnung abholen"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "Lade Inhalt ..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "Warten, bis die Belohnung hinzugefügt wurde ..."
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "Aktualisieren"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "BELOHNUNG FÜR DAS ERFORSCHEN DER REGION:"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "BELOHNUNG ERHALTEN:"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "Vorschau"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "Aktualisieren"
+
+msgid "questsPage/errorScreen/description"
+msgstr "Wir entschuldigen uns für die Unannehmlichkeiten."
+
+msgid "questsPage/errorScreen/heading"
+msgstr "Fehler beim Laden der Daten"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "Belohnung abholen"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "Automatische Clansuche"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "Treten Sie einem Clan bei, um Aufträge abzuschließen und die Belohnung zu erhalten."
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "Der Auftragsfortschritt ist angehalten. Sammeln Sie zum Fortfahren Ihre Belohnung ein: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "MILITÄRDIENSTAUFTRÄGE"
+
+msgid "questsPage/header/subheading"
+msgstr "Schließen Sie Aufträge ab, um Belohnungen zu verdienen. Abschluss der Aufträge 2 und 3 nur mit einem Clanmitglied (Zug/Abteilung)."
+
+msgid "questsPage/loading"
+msgstr "Lade Inhalt ..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "Verdienen Sie in Fahrzeugen der Stufen VIII–XI mindestens {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} Basis-EP beim Spielen im Zug oder gewinnen Sie ein Abteilungsgefecht."
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "Verdienen Sie in Fahrzeugen der Stufen VI–XI mindestens {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} Basis-EP im Gefecht oder gewinnen Sie ein Abteilungsgefecht."
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "Zerstören Sie in Fahrzeugen der Stufen VIII–XI {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} gegnerische Fahrzeuge beim Spielen im Zug oder gewinnen Sie ein Abteilungsgefecht."
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "Zerstören Sie in Fahrzeugen der Stufen VI–XI mindestens {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} gegnerische Fahrzeuge in einem Gefecht oder gewinnen Sie ein Abteilungsgefecht."
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "Verursachen/ermöglichen Sie in Fahrzeugen der Stufen VIII–XI {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} SP beim Spielen im Zug oder gewinnen Sie ein Abteilungsgefecht."
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "Verursachen/ermöglichen Sie in Fahrzeugen der Stufen VI–XI {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} SP im Gefecht oder gewinnen Sie ein Abteilungsgefecht."
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "Industrieressource"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "Dienstpunkte"
+
+msgid "questsPage/questCard/status/available"
+msgstr "Sie können die Belohnung abholen."
+
+msgid "questsPage/questCard/status/completed"
+msgstr "Belohnung erhalten"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "Nicht verfügbar"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "Die Belohnung wird Ihrem Konto in Kürze hinzugefügt."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "Holen Sie die Belohnungen für den Abschluss der vorhergehenden Aufträge ab."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "Schließen Sie den vorhergehenden Auftrag ab."
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "Auftrag nicht verfügbar"
+
+msgid "questsPage/timer/dash"
+msgstr "–"
+
+msgid "questsPage/timer/heading"
+msgstr "Verbleibende Zeit, um Dienstpunkte zu sammeln"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "Sie erhalten durch den Abschluss von Aufträgen Dienstpunkte zum Erforschen neuer Regionen."
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "Dienstpunkte"
+
+msgid "rewardsView/additionalRewards"
+msgstr "Sie erhielten außerdem:"
+
+msgid "rewardsView/button/close"
+msgstr "SCHLIESSEN"
+
+msgid "rewardsView/button/confirm"
+msgstr "Verstanden!"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "In der Garage anzeigen"
+
+msgid "rewardsView/heading"
+msgstr "BELOHNUNGEN ERHALTEN"
+
+msgid "rewardsView/style/317"
+msgstr "2D-Stil „Flamme”"
+
+msgid "rewardsView/style/345"
+msgstr "2D-Stil „Prophezeiung”"
+
+msgid "rewardsView/style/435"
+msgstr "2D-Stil „Vergeltung”"
+
+msgid "rewardsView/style/436"
+msgstr "2D-Stil „Sensenmann”"
+
+msgid "rewardsView/subheading"
+msgstr "MILITÄRDIENST"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Fortschritt im Militärdienst"
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "Fortschritt der Militärdienstaufträge"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Militärdienst"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "Militärdienstaufträge"

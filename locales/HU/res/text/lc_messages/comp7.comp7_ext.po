@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "A csaták a szervereken elérhetőek lesznek %(primeDelta)s múlva"
+
+msgid "alertMessage/allNotSet"
+msgstr "Ez a mód egyik szerveren sem érhető el"
+
+msgid "alertMessage/ban"
+msgstr "Átmenetileg ki vagy tiltva ebből a játékmódból. Hátralévő idő: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Szerverváltás"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Részletek"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Ez a játékmód nem érhető el az aktuális szervereden %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Ez a játékmód egyik szerveren sem érhető el."
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "Legalább %(count)s, a módban engedélyezett járműre van szükség. Lásd a Tudnivalók a Roham módról oldalt a részletekért."
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "Nincs elegendő megfelelő jármű"
+
+msgid "alertMessage/modeOffline"
+msgstr "Adatbázishiba. A játékmód nem érhető el."
+
+msgid "alertMessage/noVehicles"
+msgstr "Nincs megfelelő %(levels)s. szintű jármű a garázsodban %(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "A csaták nem elérhetőek a(z) %(serverName)s szerveren"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "A csaták nem elérhetőek a(z) %(serverName)s szerveren"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "Nincs elegendő megfelelő jármű %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "Ez a játékmód nem elérhető a(z) %(serverName)s szerveren"
+
+msgid "alertMessage/preannounce/first"
+msgstr "Az azúrkék sárkány szezonjának kezdete: %(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "A bíborvörös sárkány szezonjának kezdete: %(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "A jádezöld sárkány szezonjának kezdete: %(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "Várakozás a kvalifikáció eredményeire a rangod meghatározásához"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "Az azúrkék sárkány szezonja véget ért"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "A bíborvörös sárkány szezonja véget ért"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "A jádezöld sárkány szezonja véget ért"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Ezen a szerveren elérhetőek lesznek a csaták %(primeDelta)s múlva"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Ez a játékmód nem elérhető a(z) %(serverName)s szerveren"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s n"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s ó %(min)s perc"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 perc"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s perc"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Nincs megfelelő %(levels)s. szintű jármű a Garázsodban"
+
+msgid "awardsWidget/description/award"
+msgstr "Kattints a jutalmad kiválasztásához és átvételéhez."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "A végső jutalmak átmenetileg nem érhetők el. Elnézést a kellemetlenségekért."
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "JUTALOM\nBEGYŰJTÉSE"
+msgstr[1] "JUTALMAK\nBEGYŰJTÉSE"
+msgstr[2] "JUTALMAK\nBEGYŰJTÉSE"
+
+msgid "banView/actionButtons/confirm"
+msgstr "Szavazok"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "Már szavaztál a következőre: %(vehicleName)s"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "Ne legyen tiltva"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "Javasolj egy tiltandó járművet"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "Csak a tiltásról szóló\nszavazás során szavazhatsz"
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "A következőt javaslod:\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "Valaki a csapatodból \nmár kiválasztotta a járművet, amelyet tiltani szeretnétek"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "Várd meg, amíg a tiltási szavazás lezárul"
+
+msgid "banView/button/back"
+msgstr "VISSZA"
+
+msgid "banView/button/ban"
+msgstr "Tovább a tiltás kiválasztásához"
+
+msgid "banView/button/description"
+msgstr "TOVÁBB A JÁRMŰ KIVÁLASZTÁSHOZ"
+
+msgid "banView/description/prepick"
+msgstr "Válaszd ki a pályához és a csapatod összetételéhez leginkább megfelelő járművet"
+
+msgid "banView/description/voting"
+msgstr "Válaszd ki azt a járművet, amelyet ki szeretnél zárni ebből a csatából"
+
+msgid "banView/factory/candidate"
+msgstr "Tiltásra jelölve: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "Tiltásra jelöltek"
+
+msgid "banView/factory/noCandidates"
+msgstr "Nincs tiltásra jelölt"
+
+msgid "banView/factory/pick"
+msgstr "A te jelölted: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "Ne legyen tiltva"
+
+msgid "banView/title/prepick"
+msgstr "Előzetes járműkiválasztási szakasz"
+
+msgid "banView/title/voting"
+msgstr "Tiltási szavazás szakasza"
+
+msgid "banView/tooltip/confirmed"
+msgstr "Szavazat megerősítve"
+
+msgid "banView/tooltip/noAction"
+msgstr "Nem történt intézkedés"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "Ez a játékos még nem javasolta semelyik jármű tiltását."
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "Javasolt"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "Páncélvadászok"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "Nehéz harckocsik"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "Könnyű harckocsik"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "Közepes harckocsik"
+
+msgid "banView/withoutBan"
+msgstr "Ne legyen tiltva"
+
+msgid "banWidget/allies"
+msgstr "Csapattársak szavazatai"
+
+msgid "banWidget/enemies"
+msgstr "Ellenségek szavazatai"
+
+msgid "banWidget/tooltip"
+msgstr "A csapat nem tudott megegyezni abban, melyik jármű legyen kitiltva, ezért a legtöbb szavazatot kapott járművek közül véletlenszerűen választottunk egyet."
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "Állítsd be a jármű megjelenítést típus, szerep és nemzet szerint."
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "Szűrés paraméterek szerint"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "Csak a módban használható járművek jelennek meg itt."
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "Nincs a kiválasztott paramétereknek megfelelő jármű"
+
+msgid "battleMessages/enableVOIP"
+msgstr "Csapat összeállítva. Válaszd ki a járműved és csatára fel!\nCsatlakozz a hang kommunikációhoz (%(keyName)s)"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "Csapat összeállítva. Válaszd ki a járműved és csatára fel!\nÁllíts be egy gyorsbillentyűt a hang kommunikációhoz való gyors csatlakozáshoz."
+
+msgid "battleMessages/withoutVOIP"
+msgstr "Csapat összeállítva. Válaszd ki a járműved és csatára fel!\nA hang kommunikációhoz való csatlakozáshoz engedélyezd a funkciót a játékbeállításokban."
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "Játékmód részletei (F1)"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "Jármű látótávolsága megnövelve"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "Legénység karakterisztikái fejlesztve"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "Életerő visszaállítása"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "Életerő visszaállítása"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "Legénység karakterisztikái fejlesztve"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "Legénység karakterisztikái fejlesztve"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "Löveg újratöltési sebessége megnövelve"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "Jármű karakterisztikái fejlesztve"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "Életerő visszaállítása"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "Jármű karakterisztikái fejlesztve"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "Jármű karakterisztikái fejlesztve"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "Mobilitás megnövelve"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "Életerő visszaállítása"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "Löveg szórása csökkentve"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "Jármű karakterisztikái fejlesztve"
+
+msgid "battleResult/header/deserter"
+msgstr "Értékelésipont-büntetést kaptál"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "Büntetést kaptál. A kvalifikáció teljesítése után az értékelésed csökkenni fog."
+
+msgid "battleResult/label/deserter"
+msgstr "Dezertálás"
+
+msgid "battleResult/message/deserter"
+msgstr "Büntetést kaptál.\nElveszített értékelési pontok: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "Dezertáltál a csatatérről.\nA kvalifikáció teljesítése után az értékelésed csökkenni fog."
+
+msgid "battleResult/message/header/deserter"
+msgstr "Sportszerűtlen viselkedés"
+
+msgid "battleResult/personal/label"
+msgstr "Értékelési pontok"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "Tükrözi a játékos aktuális előrehaladását a rangsorolt rendszerben. Az értékelési pontokat a játékmódban elért sikertől függően lehet szerezni vagy elveszíteni."
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• Vereségek/döntetlenek a mód csatáiban\n• Kiszabott büntetés\n• Rang inaktivitás."
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "Értékelési pontokat veszíthetsz a következőkért:"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "Értékelési pontok"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "Kvalifikációs csata"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s — %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "Kvalifikáció"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "Értékelési pontok megszerezve. Legenda rangod megvédéséhez maradj a játékosok legjobb %(topPercentage)d%%-ában a ranglistán."
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "Értékelési pontok megszerezve. A legenda rang eléréséhez kerülj a játékosok legjobb %(topPercentage)d%%-ába a ranglistán."
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "Értékelési pontok megszerezve"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "Értékelési pontok elveszítve. Legenda rangod megvédéséhez maradj a játékosok legjobb %(topPercentage)d%%-ában a ranglistán."
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "Értékelési pontok elveszítve. A legenda rang eléréséhez kerülj a játékosok legjobb %(topPercentage)d%%-ába a ranglistán."
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "Értékelési pontok elveszítve"
+
+msgid "battleResult/subTask/rating"
+msgstr "Értékelési pontok: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "Lefokoztak: %(division)s. %(rank)s"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "%(rank)s. %(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "Előléptettek: %(division)s. %(rank)s!"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "Megvívott csaták (nap): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "Beleszámít:"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "Megvívott csaták (szezon): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "Egyedül/szakaszban: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "Szuper szakaszban: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "Az azúrkék sárkány szezonja %(days)d napig tart"
+msgstr[1] "Az azúrkék sárkány szezonja %(days)d napig tart"
+msgstr[2] "Az azúrkék sárkány szezonja %(days)d napig tart"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "A bíborvörös sárkány szezonja %(days)d napig tart"
+msgstr[1] "A bíborvörös sárkány szezonja %(days)d napig tart"
+msgstr[2] "A bíborvörös sárkány szezonja %(days)d napig tart"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "A jádezöld sárkány szezonja %(days)d napig tart"
+msgstr[1] "A jádezöld sárkány szezonja %(days)d napig tart"
+msgstr[2] "A jádezöld sárkány szezonja %(days)d napig tart"
+
+msgid "calendarDay/title"
+msgstr "Időterv"
+
+msgid "carousel/banned"
+msgstr "Kitiltva"
+
+msgid "claimRewards/button"
+msgstr "A jutalom átvétele"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "Ez a művelet technikai okok miatt átmenetileg nem érhető el. Dolgozunk a probléma megoldásán."
+
+msgid "closeButtonLabel"
+msgstr "BEZÁRÁS"
+
+msgid "controls/compare"
+msgstr "Hozzáadás az összehasonlításhoz"
+
+msgid "controls/preview"
+msgstr "Előnézet"
+
+msgid "countDown/text"
+msgstr "Az esemény kezdetéig hátravan:\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1 perc"
+
+msgid "crewMembersTooltip/description"
+msgstr "Ez a különleges legénység a világ minden tájáról érkező harckocsizókból áll, akik a parancsnokuk irányítása alatt egyesülnek egy csapatba. Mindegyikük rendelkezik a Bajtársak nulladik készséggel, valamint két további készség kifejlesztéséhez elegendő legénységi XP-vel, így javítva a jármű teljesítményét – és megjelenítve saját személyiségüket a csatákban."
+
+msgid "crewMembersTooltip/perks"
+msgstr "Készségek"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "Roham. A sárkány éve"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "Nulladik készségek"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "Átlagsebzés (nap): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "Az összes okozott sebzés és a megvívott csaták számának aránya."
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "Átlagsebzés (szezon): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "Napi sebzésrekord: %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "Maximális okozott sebzés egy csatában %(vehicleName)s járművel"
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "Szezonbeli sebzésrekord: %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "—"
+
+msgid "dataError/description"
+msgstr "Elnézést kérünk az átmeneti kellemetlenségekért. Kérjük, próbáld meg később frissíteni az oldalt."
+
+msgid "dataError/title"
+msgstr "Hiba az adatok betöltése során"
+
+msgid "dayTooltip/day"
+msgstr "%(index)s. nap"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "%(index)s. nap: Nem vívtál meg csatát."
+
+msgid "dayTooltip/noBattles"
+msgstr "Si vis pacem, para bellum"
+
+msgid "dayTooltip/rankInactivity"
+msgstr "Rang inaktivitás: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)s értékelési pont"
+msgstr[1] "%(pointsCount)s értékelési pont"
+msgstr[2] "%(pointsCount)s értékelési pont"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "Értékelésipont-változás: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "%(index)s. nap (ma)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "%(index)s. nap: Ma nem vívtál meg csatát."
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "Divízió"
+
+msgid "division/text"
+msgstr "%(division)s divízió"
+
+msgid "divisionTooltip/description"
+msgstr "Ebben a divízióban {eeede9e6_Open}%(fromScore)&nbsp;–&nbsp;%(toScore){eeede9e6_Close}&nbsp;értékelési ponttal rendelkező játékosok találhatók."
+
+msgid "divisionTooltip/heading"
+msgstr "%(divisionName)s divízió"
+
+msgid "entryPoint/points"
+msgstr "Értékelési pontok"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "Megvívott csaták"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)sEredmények beérkezése..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)sEredmények beérkezése"
+
+msgid "entryPointTooltip/description"
+msgstr "Kompetitív mód 7v7 csatákkal %(levels)s. szintű járművekben. Lépj feljebb a ranglétrán, hogy egyedi testreszabási elemeket, járműveket, kötvényeket és más értékes jutalmakat szerezz!"
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MÓD"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s – Játékmód. Kattints a felfedezéséhez"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Elérhető: %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Tűzszünet%(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "Elérhetővé válik:\n%(timer)s"
+
+msgid "featureName"
+msgstr "Roham"
+
+msgid "featureNameCapitalized"
+msgstr "ROHAM"
+
+msgid "fifthRankTooltip/description"
+msgstr "A {eeede9e6_Open}Bajnok{eeede9e6_Close} rangot azok a játékosok kapják meg, akik legalább {eeede9e6_Open}%(fromScore){eeede9e6_Close} értékelési pontot értek el."
+
+msgid "forVehicle"
+msgstr "Ehhez: %(vehicleName)s"
+
+msgid "generalRankTooltip/body/first"
+msgstr "A {eeede9e6_Open}Vas{eeede9e6_Close} rangot azok a játékosok kapják meg, akik {eeede9e6_Open}%(fromScore)–%(toScore){eeede9e6_Close} értékelési pontot értek el."
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "Az {eeede9e6_Open}Arany{eeede9e6_Close} rangot azok a játékosok kapják meg, akik {eeede9e6_Open}%(fromScore)–%(toScore){eeede9e6_Close} értékelési pontot értek el."
+
+msgid "generalRankTooltip/body/second"
+msgstr "A {eeede9e6_Open}Bronz{eeede9e6_Close} rangot azok a játékosok kapják meg, akik {eeede9e6_Open}%(fromScore)–%(toScore){eeede9e6_Close} értékelési pontot értek el."
+
+msgid "generalRankTooltip/body/third"
+msgstr "Az {eeede9e6_Open}Ezüst{eeede9e6_Close} rangot azok a játékosok kapják meg, akik {eeede9e6_Open}%(fromScore)–%(toScore){eeede9e6_Close} értékelési pontot értek el."
+
+msgid "generalRankTooltip/subheading"
+msgstr "A következő divíziókat tartalmazza: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "AZ ESEMÉNY RÉSZLETEI"
+
+msgid "intro/confirmButton"
+msgstr "Értettem!"
+
+msgid "intro/description/banPhase"
+msgstr "Minden csapat teljesen kitilthat egy járművet a csatából. Egyeztesd a szavazatokat a csapattársakkal, hogy kizárjátok a legrettegettebb járművet, vagy váratlan felállást készítsetek elő az ellenség számára. Ha a járművedet kizárták, helyette több előre beállított bérelt jármű közül választhatsz."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "A játékmód módosítókkal rendelkezik, amelyek megváltoztatják a jármű bizonyos paramétereit, például az életerejét, a fogyócikkek visszatöltési idejét, a felderítettségi időt és így tovább."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Miután elfoglaltad a pálya bizonyos területeit, használhatod a taktikai képességeket. Kétféle fontos pont van: a tüzérségi főhadiszállás lehetővé teszi, hogy tüzérségi csapást mérj egy bizonyos pozícióra, a kommunikációs központ pedig az összes ellenséges járművet felderíti. A pályától függően ezeknek a fontos pontoknak a jelenléte és elhelyezkedése változhat."
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "Vívj meg %(count)s kvalifikációs csatát a tudásszinted és a rangod meghatározásához. A feltétel teljesítése után jutalmakat kapsz az elért rangodért és az összes korábbi rangért.\n\nA besorolásban való dezertálás vagy döntetlen vereségnek minősül."
+msgstr[1] "Vívj meg %(count)s kvalifikációs csatát a tudásszinted és a rangod meghatározásához. A feltétel teljesítése után jutalmakat kapsz az elért rangodért és az összes korábbi rangért.\n\nA besorolásban való dezertálás vagy döntetlen vereségnek minősül."
+msgstr[2] "Vívj meg %(count)s kvalifikációs csatát a tudásszinted és a rangod meghatározásához. A feltétel teljesítése után jutalmakat kapsz az elért rangodért és az összes korábbi rangért.\n\nA besorolásban való dezertálás vagy döntetlen vereségnek minősül."
+
+msgid "intro/description/ranks"
+msgstr "A játékos képességeit tükröző rendszer. Haladj előre a ranglétrán a Vastól a Legendáig, és szerezz értékes díjakat! Csatázz A sárkány éve során egyedi éves jutalmakért!"
+
+msgid "intro/description/roleSkills"
+msgstr "A szerepétől függően minden járműnek van egy különleges képessége három töltési szinttel. Minél magasabb a töltési szint a képesség aktiválásakor, annál erősebb lesz a hatás. A töltési szint a tekintélypontok számától függ, ezeket pedig a csatában nyújtott meggyőző teljesítményért, a fontos pontok elfoglalásáért, a taktikai képességek használatáért és egyebekért szerezhetsz.\n\nNézd meg a játékmód szabályzatát, amelyből bővebben tájékozódhatsz a tekintélypontok gyűjtésének különböző módjairól."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "A csatában %(levels)s. szintű kifejleszthető (kivéve az önjáró lövegeket), gyűjtői és bizonyos különleges járművekkel vehetsz részt. Készítsd fel a járműveidet a garázsban, majd válaszd ki az adott pályához a legmegfelelőbbet a csata kezdete előtt! A jármű kiválasztásakor érdemes figyelembe venni azt is, hogy a szövetségeseid milyen járműveket választottak."
+
+msgid "intro/title/banPhase"
+msgstr "JÁRMŰVEK TILTÁSA"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "ROHAM MÓDOSÍTÓK"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "FONTOS PONTOK"
+
+msgid "intro/title/qualification"
+msgstr "KVALIFIKÁCIÓ"
+
+msgid "intro/title/ranks"
+msgstr "RANGSOROLT RENDSZER"
+
+msgid "intro/title/roleSkills"
+msgstr "SZEREP KÉPESSÉGEK"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "VÁLASSZ EGY JÁRMŰVET EGY ADOTT PÁLYÁHOZ"
+
+msgid "lastUpdateNote/info"
+msgstr "Frissítve: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "A legenda rang legutolsó játékosának értékelési pontjai\n%(count)s percenként frissülnek."
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "Adatok frissítése…"
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "A ranglista %(count)s percenként frissül."
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "Utolsó frissítés: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "Helyezésem"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "Érj el bajnok vagy legenda rangot, hogy felkerülj a ranglistára."
+
+msgid "leaderboard/error/buttonText"
+msgstr "Frissítés"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "A ranglistán a Bajnok és Legenda rangú játékosok szerepelnek. Szerezz {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close} értékelési pontot, és juss fel a ranglista csúcsára!"
+
+msgid "leaderboard/noRecords/title"
+msgstr "Nincsenek játékosok a ranglistán a jelenlegi szezonban"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "Csaták"
+
+msgid "leaderboard/table/header/order"
+msgstr "#"
+
+msgid "leaderboard/table/header/player"
+msgstr "Játékos neve"
+
+msgid "leaderboard/table/header/score"
+msgstr "Értékelési pontok"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "A játékos által Roham módban megvívott csaták száma a jelenlegi szezonban."
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "Csaták"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "A játékos helyezése az értékelésben."
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "Helyezés"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "Az értékelésben helyet kapó játékos neve."
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "Játékos neve"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "A szerzett értékelési pontok száma a jelenlegi szezonban."
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "Értékelési pontok"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Játékosok a szakaszban"
+
+msgid "noVehicles/howTo/premium"
+msgstr "Használj WoT Prémium fiókot"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktiválj személyes tartalékokat"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Teljesíts küldetéseket"
+
+msgid "noVehicles/howTo/title"
+msgstr "Mi a leggyorsabb módja, hogy %(levels)s. szintű járműveket szerezz?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "A Roham módban való részvételhez legalább egy %(levels)s. szintű jármű szükséges a garázsban, amely megfelel a módhoz.\nVan egy %(levels)s. szintű járműved, amit nem szereztél meg."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "A Roham módban való részvételhez legalább egy %(levels)s. szintű jármű szükséges a garázsban, amely megfelel a módhoz.\nVan egy visszaállítható %(levels)s. szintű járműved."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "A Roham módban való részvételhez legalább egy %(levels)s. szintű jármű szükséges a garázsban, amely megfelel a módhoz."
+
+msgid "noVehicles/title"
+msgstr "Nincs megfelelő jármű a Garázsodban"
+
+msgid "page/heading/leaderboard"
+msgstr "RANGLISTA"
+
+msgid "page/heading/progression"
+msgstr "RANGSOROLT RENDSZER"
+
+msgid "page/heading/qualification"
+msgstr "KVALIFIKÁCIÓ"
+
+msgid "page/heading/rankRewards"
+msgstr "JUTALMAK A RANGOKÉRT"
+
+msgid "page/heading/shop"
+msgstr "ROHAM BOLT"
+
+msgid "page/heading/weeklyQuests"
+msgstr "HETI KÜLDETÉSEK"
+
+msgid "page/heading/yearlyRewards"
+msgstr "ÉVES JUTALMAK"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "ÉVES STATISZTIKA"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "Előre"
+
+msgid "pagination/prev"
+msgstr "Vissza"
+
+msgid "pbs/bans/title"
+msgstr "TILTOTT JÁRMŰVEK"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "ROHAM 2D-STÍLUS"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "2D-STÍLUS KÜLDETÉS TELJESÍTVE!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "%(count)s. HETI KÜLDETÉS TELJESÍTVE!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "HETI KÜLDETÉS TELJESÍTVE!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "ROHAM HETI"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "VERESÉG, MERT"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "DÖNTETLEN, MERT"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "GYŐZELEM, DE TE"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "Előléptetve: %(rank)s"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "Lefokozva: %(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "Előléptetve: %(rank)s, %(division)s"
+
+msgid "pbs/overview/qualification/description"
+msgstr "Megvívott csaták"
+
+msgid "pbs/overview/qualification/title"
+msgstr "Kvalifikáció"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "Fegyelmi büntetést kaptál: értékelésipont-büntetés"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "Fegyelmi büntetést kaptál: a kvalifikáció után az értékelésed csökkeni fog"
+
+msgid "pbs/rankDescription/fifth"
+msgstr "A Legenda rang eléréséhez legyél a játékosok {ede6d9e5_Open}legjobb %(topPercentage)%{ede6d9e5_Close}-ában a ranglistán."
+
+msgid "pbs/rankDescription/sixth"
+msgstr "A Legenda rang megtartásához legyél a játékosok {ede6d9e5_Open}legjobb %(topPercentage)%{ede6d9e5_Close}-ában a ranglistán."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Lásd a Tudnivalók a Roham módról oldalt a részletekért."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Tekintélypontok"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Sebzésosztás\nFelderítési közreműködés\nLánctalpak kilövése\nKritikus találatok\nEllenséges járművek megsemmisítése\nÉs még sok más"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Ez a különleges nyersanyag befolyásolja a csatában megszerzett és elvesztett értékelési pontok számát. Tekintélypontokat a következő harci cselekményekért lehet szerezni:"
+
+msgid "percentage"
+msgstr "%(percentageValue)s%"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "Átlag tekintélypont (nap): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "Az összes tekintélypont és a megvívott csaták számának aránya."
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "Átlag tekintélypont (szezon): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "Napi tekintélypont-rekord: %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "Maximális megszerzett tekintélypont csatában %(vehicleName)s járművel"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "Szezonbeli tekintélypont-rekord: %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Az azúrkék sárkány szezonja véget ért ezen a szerveren: %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "A bíborvörös sárkány szezonja véget ért ezen a szerveren: %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "A jádezöld sárkány szezonja véget ért ezen a szerveren: %(server)s."
+
+msgid "products/actions/buy"
+msgstr "Vásárlás"
+
+msgid "products/actions/restore"
+msgstr "A Depóba"
+
+msgid "products/actions/toCustomization"
+msgstr "A stílushoz"
+
+msgid "products/actions/toHangar"
+msgstr "Megtekintés a Garázsban"
+
+msgid "products/customizationUnavailable/body"
+msgstr "Nem lehet a stílushoz menni. Ez a következők miatt lehet: még nem rendelkezel a járművel, a jármű alakulatban van, a jármű csatában van vagy javítás szükséges."
+
+msgid "products/customizationUnavailable/title"
+msgstr "Nem érhető el"
+
+msgid "products/discount"
+msgstr "-%(discountPercentage)s%"
+
+msgid "products/discountDescription"
+msgstr "A következő szezon kezdetéig a {eeede9e6_Open}legmagasabb{eeede9e6_Close} {eeede9e6_Open}elért{eeede9e6_Close} {eeede9e6_Open}rangodtól{eeede9e6_Close} függően hozzáférhetsz tárgyakhoz és egy kedvezményhez."
+
+msgid "products/discountSectionName"
+msgstr "HOZZÁFÉRÉSI FELTÉTELEK ÉS KEDVEZMÉNYEK"
+
+msgid "products/inProgress"
+msgstr "Kérlek, várj, a vásárlásod feldolgozása folyamatban van..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "Szezononként megvásárolható: %(count)s"
+
+msgid "products/message/notEnough"
+msgstr "Nincs elegendő fedezet a vásárláshoz."
+
+msgid "products/message/rankAccess"
+msgstr "Vásárlási követelmény\n%(rank)s"
+
+msgid "products/newLabel"
+msgstr "ÚJ"
+
+msgid "products/priceSectionName"
+msgstr "ÁR"
+
+msgid "products/productAccess"
+msgstr "Hozzáférési\nrang"
+
+msgid "products/purchased"
+msgstr "Megvásárolva"
+
+msgid "products/rankAccess"
+msgstr "Hozzáférési rang: %(rank)s"
+
+msgid "products/readyToRestore"
+msgstr "Visszaállítás lehetséges"
+
+msgid "products/readyToRestoreDescription"
+msgstr "Visszaállítható a Depóban"
+
+msgid "products/style3d"
+msgstr "%(name)s 3D-stílus"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "VISSZA A SZEZONSTATISZTIKÁKHOZ"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "SZEZONSTATISZTIKÁK"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "%(day)s. NAP STATISZTIKÁI"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "A MAI NAP STATISZTIKÁI"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "Az egyes oszlopok a kiválasztott nap kezdési ideje és a következő nap kezdési ideje közötti időszakra vonatkozó adatokat mutatják. Egyes esetekben két naptári nap csatáit is tartalmazhatja."
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "Az egyes oszlopok a kiválasztott nap kezdési ideje és a következő nap kezdési ideje közötti időszakra vonatkozó adatokat mutatják. Egyes esetekben két naptári nap csatáit is tartalmazhatja."
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "Ez a rész csak akkor frissül, ha új adatok állnak rendelkezésre. Frissítést a frissítés gomb megnyomásával is kezdeményezhetsz."
+
+msgid "progressionPage/chartHeader/update"
+msgstr "Frissítve ekkor: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "Gratulálunk!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "Az összes 2D-stílus küldetést teljesítetted."
+
+msgid "progressionPage/customization/counter"
+msgstr "%(maxProgress)s / %(currentProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "Egy küldetéssorozat, amellyel az aktuális szezon progresszív 2D-stílusának új elemeit oldhatod fel."
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "2D-STÍLUS KÜLDETÉS: %(taskNumber)s"
+msgstr[1] "2D-STÍLUS KÜLDETÉSEK: %(taskNumber)s"
+msgstr[2] "2D-STÍLUS KÜLDETÉSEK: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "2D-STÍLUS KÜLDETÉSEK"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "A stílushoz"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "A jelenleg nem elérhető járműveken alkalmazott összes stílus"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "Nincsenek elérhető járművek a stílushoz"
+
+msgid "progressionPage/error/refresh"
+msgstr "Frissítés"
+
+msgid "progressionPage/error/refreshing"
+msgstr "Frissítés..."
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "Átlagsebzés"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "Átlag tekintélypont"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "Értékelés változása %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "A rekord felállításának napja: %(seasonRecordDescriptionDay)s"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "%(day)s. nap"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "Összes statisztika"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "Beleszámít:\n • A felderítésednek köszönhető sebzés (beleértve a képességek segítségével okozott sebzést)\n • Az ellenséges jármű lánctalpa megsemmisítésének és mozgásképtelenné tételének köszönhető sebzés (beleértve a képességek segítségével okozott sebzést)\n • A képességeidnek köszönhetően a szövetségeseid által okozott sebzés\n • Az elkábított ellenségnek a szövetségeseid által okozott sebzés (beleértve a képességeid segítségével elvégzett kábítást)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "A megvívott csaták száma összesen"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "Az összes okozott sebzés és a megvívott csaták számának aránya"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "A megsemmisített ellenséges járművek és a játékos járműve megsemmisülésének aránya"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "Az okozott és elszenvedett sebzés aránya"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "Az összes megszerzett tekintélypont és a megvívott csaták számának aránya"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "Járművek a legtöbb megvívott csatával"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "Összesített győzelmi arány"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "Átlagos sebzés a közreműködésednek köszönhetően"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "Csaták"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "Átlagosan okozott sebzés"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "Megsemmisítési arány"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "Sebzési arány"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "A csatánként szerzett tekintélypontok átlagos száma"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "Jármű neve"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "Győzelmek"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "JÁRMŰSTATISZTIKÁK"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s–%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "A lefokozásig hátralévő napok: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "Ha nem csatázol a Roham módban, akkor {eeede9e6_Open}%(count)s{eeede9e6_Close} értékelési pontot veszítesz."
+msgstr[1] "Ha nem csatázol a Roham módban, akkor {eeede9e6_Open}%(count)s{eeede9e6_Close} értékelési pontot veszítesz."
+msgstr[2] "Ha nem csatázol a Roham módban, akkor {eeede9e6_Open}%(count)s{eeede9e6_Close} értékelési pontot veszítesz."
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(1&nbsp;csata&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktivitási pont)"
+msgstr[1] "(1&nbsp;csata&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktivitási pont)"
+msgstr[2] "(1&nbsp;csata&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktivitási pont)"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "Nem veszítesz értékelési pontot, ha a jelenlegi rangodon nem játszol a módban, de a következő rangok elérése esetén már igen: %(rankList)s"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "A rangodat befolyásolja az inaktivitás"
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "A rangodat nem befolyásolja az inaktivitás"
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "Rang"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "A játékosok legjobb %(topPercentage)s%-a között a ranglistán"
+
+msgid "progressionTooltip/division"
+msgstr "Divízió: %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "Ebben a divízióban {eeede9e6_Open}%(fromScore)–%(toScore){eeede9e6_Close} értékelési ponttal rendelkező játékosok találhatók."
+
+msgid "progressionTooltip/info/fifth"
+msgstr "A Bajnok rangot azok a játékosok kapják meg, akik legalább {eeede9e6_Open}%(fromScore){eeede9e6_Close} értékelési pontot szereztek."
+
+msgid "progressionTooltip/info/sixth"
+msgstr "A Legenda rangot a ranglistán szereplő játékosok {eeede9e6_Open}legjobb %(topPercentage)%{eeede9e6_Close}-a kapja meg."
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "Vívj meg %(maxBattlesCount)s csatát a játékmódban a tudásszinted és a rangod meghatározásához."
+msgstr[1] "Vívj meg %(maxBattlesCount)s csatát a játékmódban a tudásszinted és a rangod meghatározásához."
+msgstr[2] "Vívj meg %(maxBattlesCount)s csatát a játékmódban a tudásszinted és a rangod meghatározásához."
+
+msgid "progressionTooltip/qualificationName"
+msgstr "Kvalifikáció"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "A lefokozásig hátralévő napok: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "Ha nem csatázol a Roham módban, akkor {eeede9e6_Open}%(count)s{eeede9e6_Close} értékelési pontot veszítesz."
+msgstr[1] "Ha nem csatázol a Roham módban, akkor {eeede9e6_Open}%(count)s{eeede9e6_Close} értékelési pontot veszítesz."
+msgstr[2] "Ha nem csatázol a Roham módban, akkor {eeede9e6_Open}%(count)s{eeede9e6_Close} értékelési pontot veszítesz."
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s A rangodat befolyásolja az inaktivitás"
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "Játssz a nap végéig, hogy megtarthasd a rangodat!"
+
+msgid "progressionTooltip/ratingScore"
+msgstr "Értékelési pontok"
+
+msgid "purchase/affirmative"
+msgstr "Értettem!"
+
+msgid "purchase/cancelButton"
+msgstr "Vissza"
+
+msgid "purchase/confirmButton"
+msgstr "Vásárlás"
+
+msgid "purchase/error/description"
+msgstr "Nem sikerült befejezni a vásárlást. Kérlek, próbáld újra később."
+
+msgid "purchase/error/title"
+msgstr "Hiba"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)sEhhez a stílushoz nincs megfelelő jármű a Garázsban"
+
+msgid "purchase/price"
+msgstr "Vételár:"
+
+msgid "purchase/success/heading"
+msgstr "Köszönjük a vásárlásod!"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)sA vásárlást a közeljövőben jóváírjuk a játékfiókodon"
+
+msgid "purchase/success/style3d"
+msgstr "%(name)s 3D-stílus a(z) %(vehicleName)s járműhöz"
+
+msgid "purchase/title/style3d"
+msgstr "Megvásárolod a(z) %(name)s 3D-stílust?"
+
+msgid "purchase/title/vehicle"
+msgstr "%(name)s megvásárlása?"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "Vívj meg {eeede9_Open}%(maxBattlesCount)s csatát{eeede9_Close} a játékmódban a tudásszinted és a rangod meghatározásához."
+msgstr[1] "Vívj meg {eeede9_Open}%(maxBattlesCount)s csatát{eeede9_Close} a játékmódban a tudásszinted és a rangod meghatározásához."
+msgstr[2] "Vívj meg {eeede9_Open}%(maxBattlesCount)s csatát{eeede9_Close} a játékmódban a tudásszinted és a rangod meghatározásához."
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "A kvalifikáció teljesítéséhez vívj meg %(maxBattlesCount)s csatát, és várj az értékelés kiszámítására. A kvalifikáció során nyújtott harci teljesítményed befolyásolja a végső rangodat.\nA kvalifikációban való dezertálás még a legsúlyosabb vereségnél is rosszabb eredményhez vezet."
+msgstr[1] "A kvalifikáció teljesítéséhez vívj meg %(maxBattlesCount)s csatát, és várj az értékelés kiszámítására. A kvalifikáció során nyújtott harci teljesítményed befolyásolja a végső rangodat.\nA kvalifikációban való dezertálás még a legsúlyosabb vereségnél is rosszabb eredményhez vezet."
+msgstr[2] "A kvalifikáció teljesítéséhez vívj meg %(maxBattlesCount)s csatát, és várj az értékelés kiszámítására. A kvalifikáció során nyújtott harci teljesítményed befolyásolja a végső rangodat.\nA kvalifikációban való dezertálás még a legsúlyosabb vereségnél is rosszabb eredményhez vezet."
+
+msgid "qualification/conditionTooltip/header"
+msgstr "A kvalifikáció szabályai"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "Megvívott csaták"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s Várakozás a kvalifikáció eredményeire a rangod meghatározásához"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "Az értékelésed kiszámítása a kvalifikáció eredményei alapján akár öt percet is igénybe vehet. Ezt követően megkapod a rangodat, és folytathatod a játékot a Roham módban."
+
+msgid "qualification/rewardsButton"
+msgstr "A jutalmakhoz"
+
+msgid "qualification/rewardsDescription"
+msgstr "A kvalifikáció teljesítése után megkapod az elért rangodért és az összes korábbi rangért járó jutalmat."
+
+msgid "quotesWrapper"
+msgstr "%(name)s"
+
+msgid "rank/achieved"
+msgstr "Elérve"
+
+msgid "rank/current"
+msgstr "Jelenlegi"
+
+msgid "rank/fifth"
+msgstr "Bajnok"
+
+msgid "rank/first"
+msgstr "Vas"
+
+msgid "rank/fourth"
+msgstr "Arany"
+
+msgid "rank/qualification"
+msgstr "Kvalifikáció"
+
+msgid "rank/second"
+msgstr "Bronz"
+
+msgid "rank/sixth"
+msgstr "Legenda"
+
+msgid "rank/text"
+msgstr "%(rank)s rang"
+
+msgid "rank/third"
+msgstr "Ezüst"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "A játékos rangja"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "A szakasztárs(ak) rangja"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "Szakaszt csak hasonló rangú játékosok alakíthatnak."
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "Rangmegkötés %(count)s játékosból álló szakaszokban"
+
+msgid "rankInactivityTooltip/description"
+msgstr "Ha nem játszol a módban, értékelési pontokat veszítesz."
+
+msgid "rankInactivityTooltip/heading"
+msgstr "Rang inaktivitás"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "Napok mielőtt értékelést veszítesz: %(count)s"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "Napi értékelés"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "Értékelésipont-változás: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "Az értékelési pontkülönbség a kiválasztott nap és az azt megelőző nap között."
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "Napi értékelési rekord: %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "A kiválasztott napon elért maximális értékelés."
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "%(day)s. nap"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "A szezonális értékelési rekord elérése: %(dayOfRecord)s"
+
+msgid "rankInfo/current/fifth"
+msgstr "A Bajnok rangot azok a játékosok kapják meg, akik legalább {eeede9e6_Open}%(fromScore){eeede9e6_Close} értékelési pontot szereztek."
+
+msgid "rankInfo/current/sixth"
+msgstr "A Legenda rangot a ranglistán szereplő játékosok {eeede9e6_Open}legjobb %(topPercentage)%{eeede9e6_Close}-a kapja meg."
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "A Legenda rang eléréséhez legyél a játékosok {eeede9e6_Open}legjobb %(topPercentage)%{eeede9e6_Close}-ában a ranglistán az értékelési pontok alapján."
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "A Legenda rang megtartásához maradj a játékosok {eeede9e6_Open}legjobb %(topPercentage)%{eeede9e6_Close}-ában a ranglistán az értékelési pontok alapján."
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "A Legenda rang eléréséhez legyél a játékosok {eeede9e6_Open}legjobb %(topPercentage)%{eeede9e6_Close}-ában a ranglistán az értékelési pontok alapján. A&nbsp;Legenda&nbsp;rang utolsó játékosa által szerzett értékelési pontok száma: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "A Legenda rang megtartásához maradj a játékosok {eeede9e6_Open}legjobb %(topPercentage)%{eeede9e6_Close}-ában a ranglistán az értékelési pontok alapján. A&nbsp;Legenda&nbsp;rang utolsó játékosa által szerzett értékelési pontok száma: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankUpper/fifth"
+msgstr "BAJNOK"
+
+msgid "rankUpper/first"
+msgstr "VAS"
+
+msgid "rankUpper/fourth"
+msgstr "ARANY"
+
+msgid "rankUpper/second"
+msgstr "BRONZ"
+
+msgid "rankUpper/sixth"
+msgstr "LEGENDA"
+
+msgid "rankUpper/text"
+msgstr "%(rank)s RANG"
+
+msgid "rankUpper/third"
+msgstr "EZÜST"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "Választhatsz egy fejlesztett felszerelést az alábbi listáról:\n\n• Csendes kipufogórendszer\n• Innovatív célzás\n• Fejlesztett meghajtás\n• Fejlesztett kompresszor\n• Megnövelt lövésállóság\n• Fejlesztett konfiguráció\n• Kísérleti távcső\n• Innovatív töltőrendszer\n• Szellőztetőrendszer\n• Kopásálló célzórendszer\n• Stabilizálórendszer\n• Teleszkópos megfigyelőrendszer\n• Taktikai álcaháló"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "Választhatsz egy kísérleti felszerelést az alábbi listáról:\n\n• Tűzvezető rendszer, 3. szint\n• Túlélőképesség-növelő csomag, 3. szint\n• Mobilitásjavító rendszer, 3. szint\n• Pontosságjavító rendszer, 3. szint"
+
+msgid "rewards/bonus/style_progress"
+msgstr "%(name)s álcafestés"
+
+msgid "rewards/preview"
+msgstr "Előnézet"
+
+msgid "rewards/status/achieved"
+msgstr "Jutalom megszerezve"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}%(vehicleLevel)s. szintű járművekhez{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}A(z) %(progressionStyleName)s stílushoz{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "%(vehicleLevel)s. szint"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "Emellett még kaptál:"
+
+msgid "rewardsScreen/button"
+msgstr "Értettem!"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "A jutalmakhoz"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "Válassz jutalmat"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "Tovább a vásárláshoz"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "ROHAM. A KVALIFIKÁCIÓ BEFEJEZŐDÖTT"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "ROHAM. AZ AZÚRKÉK SÁRKÁNY SZEZONJA"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "ROHAM. A BÍBORVÖRÖS SÁRKÁNY SZEZONJA"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "ROHAM. A JÁDEZÖLD SÁRKÁNY SZEZONJA"
+
+msgid "rewardsScreen/description/year"
+msgstr "ROHAM. A SÁRKÁNY ÉVE"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "Hol van az Ashbringerem?!"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "Nincs rang"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "Miután eléred ezt a rangot, értékelési pontokat veszíthetsz, ha abbahagyod a játékot Roham módban."
+
+msgid "rewardsScreen/notice/title"
+msgstr "Rang inaktivitás"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "Összes Roham\nszín"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "Felszerelés kiválasztása"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "Jutalmak kiválasztása"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "Új kedvezmények érhetők el a Roham Boltban!"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "Új tárgyak érhetők el a Roham Boltban!"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "A következő szezon kezdetéig a legmagasabb elért rangodtól függően hozzáférhetsz tárgyakhoz és egy kedvezményhez."
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "A következő szezon kezdetéig a legmagasabb elért rangodtól függően hozzáférhetsz tárgyakhoz és egy kedvezményhez."
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}%(rank)s rang{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "A kvalifikáció eredményei alapján jutalmakat kaptál a következő rangokért: {ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr ", "
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "Jutalmakat kaptál, amiért {ffe4c0_Open}%(rank)s{ffe4c0_Close} rangra léptél elő"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "Jutalom {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} heti küldetés teljesítéséért"
+msgstr[1] "Jutalom {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} heti küldetés teljesítéséért"
+msgstr[2] "Jutalom {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} heti küldetés teljesítéséért"
+
+msgid "rewardsScreen/title/division"
+msgstr "%(division)s DIVÍZIÓ ELÉRVE"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close} RANG ELÉRVE"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "JUTALOM AZ ELÉRT RANGÉRT"
+
+msgid "rewardsScreen/title/rank"
+msgstr "{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close} RANG ELÉRVE"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "JUTALOM AZ ÚJ RANGODÉRT"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "MEGSZERZETT JUTALMAK"
+msgstr[1] "MEGSZERZETT JUTALMAK"
+msgstr[2] "MEGSZERZETT JUTALMAK"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "HETI KÜLDETÉSI JUTALMAK"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "ÉVES JUTALMAK"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "Ezzel érkezik:"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "ROHAM"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "JUTALOM KIVÁLASZTÁSA"
+msgstr[1] "JUTALMAK KIVÁLASZTÁSA"
+msgstr[2] "JUTALMAK KIVÁLASZTÁSA"
+
+msgid "scoreTooltip/body"
+msgstr "A szerzett értékelési pontjaid határozzák meg a rangodat és a divíziódat Roham módban. Nyerj csatákat, hogy te legyél a legjobb!"
+
+msgid "scoreTooltip/header"
+msgstr "Értékelési pontok"
+
+msgid "season/daysLeft"
+msgstr "Véget ér %(totalDays)s n múlva"
+
+msgid "season/hoursLeft"
+msgstr "Véget ér %(hours)s ó múlva"
+
+msgid "season/minutesLeft"
+msgstr "Véget ér %(minutes)s perc múlva"
+
+msgid "season/over"
+msgstr "%(seasonName)s véget ért"
+
+msgid "season/range"
+msgstr "%(startDate)s–%(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "Véget ér %(seconds)s mp múlva"
+
+msgid "seasonName/first"
+msgstr "Az azúrkék sárkány szezonja"
+
+msgid "seasonName/second"
+msgstr "A bíborvörös sárkány szezonja"
+
+msgid "seasonName/third"
+msgstr "A jádezöld sárkány szezonja"
+
+msgid "seasonPointTooltip/header"
+msgstr "Roham színek"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "Megszerezve"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "Nincs megszerezve"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "Esélyes vagy Roham színek megszerzésére"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "A fel nem használt Roham színeket átváltjuk kötvényekre a következő átváltási aránnyal: {bond_Open}1 Roham szín{bond_Close} : {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "Minden szezon végén Roham színeket kapsz az elért rangod alapján."
+
+msgid "seasonPointTooltip/text/year"
+msgstr "Minden 3. Roham színnel növekszik az év végén kapott jutalmad minősége."
+
+msgid "seasonStatistics/button/fifth"
+msgstr "Hol van a trófeám?!"
+
+msgid "seasonStatistics/button/first"
+msgstr "Ez rendben van"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "Drágaságom!"
+
+msgid "seasonStatistics/button/second"
+msgstr "Értettem!"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "Fergeteges!"
+
+msgid "seasonStatistics/button/third"
+msgstr "Visszatérek"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "A végső szezon értékelése"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "Helyezés a ranglistán: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "ROHAM. %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "%(points)s Roham színt kaptál"
+msgstr[1] "%(points)s Roham színt kaptál"
+msgstr[2] "%(points)s Roham színt kaptál"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "I. SZEZON – AZÚRKÉK SÁRKÁNY"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "II. SZEZON – BÍBORVÖRÖS SÁRKÁNY"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "III. SZEZON – JÁDEZÖLD SÁRKÁNY"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "Győzelmek: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "Megvívott\ncsaták"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "Átlagosan: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "Sebzési\nrekord"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "Megsemmisítési arány: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "A legtöbb megsemmisített jármű\negy csatában"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "Átlagosan: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "Tekintélypont-\nrekord"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "SZEZONSTATISZTIKÁK"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "Egy szuper szakaszban: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "Győzelmi sorozat\n(szóló/szakasz)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "Csaták"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "—"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "Nincsenek járművek"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "ELSŐDLEGES JÁRMŰVEK"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "Győzelmek"
+
+msgid "seasonStatistics/title"
+msgstr "%(name)s SZEZONSTATISZTIKÁK"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "Szezon véget ér:"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "—"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s–%(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "Meccs időterv"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "Ma"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "Holnap"
+
+msgid "selectorTooltip/desc"
+msgstr "Kompetitív mód. 7v7 | X-es szint"
+
+msgid "selectorTooltip/title"
+msgstr "Roham"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Kövesd a legújabb híreket a játék portálján, hogy naprakész legyél az új szezon kezdetekor."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "A játékmód átmenetileg nem elérhető, technikai problémák miatt."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Ez a mód elérhetővé válik ekkor: %(time)s"
+
+msgid "shortSeasonName/first"
+msgstr "Azúrkék sárkány"
+
+msgid "shortSeasonName/second"
+msgstr "Bíborvörös sárkány"
+
+msgid "shortSeasonName/third"
+msgstr "Jádezöld sárkány"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "Ez a szekció információkat tartalmaz a Roham mód jelenlegi szezonjának legjobb játékosairól."
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Ez a rész a besorolással kapcsolatos információkat tartalmaz, valamint a rangodat, a divíziódat és az értékelési pontjaidat, ha befejezted azt."
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "Ez a szekció információkat tartalmaz a magasabb rangok eléréséért megszerezhető jutalmakról Roham módban."
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "Ebben a szekcióban információkat olvashatsz a Roham Boltban elérhető tárgyakról"
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "Ez a rész a Roham mód heti küldetéseiről tartalmaz információkat."
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "Ezen a részen találod a Roham színek begyűjtéséért járó éves jutalmakkal kapcsolatos részleteket."
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "Ez a rész a mostani Roham-év egyes szezonjaiban elért eredményeidről tartalmaz információkat."
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "Ranglista"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Rangsorolt rendszer"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "Jutalmak a rangokért"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "Roham Bolt"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "Heti küldetések"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "Éves jutalmak"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "Éves statisztika"
+
+msgid "sixthRankTooltip/description"
+msgstr "A {eeede9e6_Open}Legenda{eeede9e6_Close} rangot azok a játékosok kapják meg, akik a {eeede9e6_Open}legjobb %(topPercentage)%{eeede9e6_Close}-ba tartoznak a ranglistán az értékelési pontok alapján."
+
+msgid "style3dTooltip/954"
+msgstr "Ezüst tüskék"
+
+msgid "style3dTooltip/955"
+msgstr "Arany karmok"
+
+msgid "style3dTooltip/956"
+msgstr "Bajnok szárnyak"
+
+msgid "style3dTooltip/957"
+msgstr "Legendás lény"
+
+msgid "style3dTooltip/description"
+msgstr "Erős, mint egy oroszlán, ádáz, mint egy sárkány és halálos, mint egy skorpió, ez a fenevad egy ősidők óta rettegett teremtmény fém megtestesülése."
+
+msgid "style3dTooltip/howToReceive"
+msgstr "Így szerezheted meg"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "Jutalom legalább 9 Roham szín összegyűjtéséért A mantikór évében, Roham módban."
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "Jutalom legalább 12 Roham szín összegyűjtéséért A mantikór évében, Roham módban. Lecseréli az előző stílust."
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "Jutalom legalább 15 Roham szín összegyűjtéséért A mantikór évében, Roham módban. Lecseréli az előző stílust."
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "Jutalom legalább 18 Roham szín összegyűjtéséért A mantikór évében, Roham módban. Lecseréli az előző stílust."
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "Alkalmas járművek"
+
+msgid "system_messages/periodicReward/body"
+msgstr "Megkaptad a napi jutalmadat a(z) %(rank)s rang megtartásáért.\n%(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "Napi jutalom"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Tűzszünet van érvényben. A Roham mód csatái átmenetileg nem érhetők el."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Tűzszünet"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "A tűzszünet véget ért. A Roham mód csatái újra elérhetők."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Tűzszünet"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "Gratulálunk! Elérted a(z) %(maxRank)s rangot.\nA következő rangokért kaptál jutalmat: %(ranks)s:\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "Kvalifikáció teljesítve"
+
+msgid "system_messages/regularReward/body"
+msgstr "Dátum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "Nyugta"
+
+msgid "system_messages/shop/offer/button"
+msgstr "Tovább a Boltba"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "Új kedvezmények érhetők el a Roham Boltban!"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "A kedvezmények növekedtek"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "Most új tárgyak érhetők el a Roham Boltban!"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "Új tárgyak érhetők el"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "Fizetési hiba. Kérjük, próbáld újra később."
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "Dátum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "Jutalmak a heti küldetések teljesítéséért"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "Dátum: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "Jutalom a heti küldetésért"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Tudnivalók a Roham módról"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "Szezonfrissítések"
+
+msgid "tournament/LBFinals"
+msgstr "VÁ DÖNTŐ"
+
+msgid "tournament/LBRound1"
+msgstr "VÁ 1. FORDULÓ"
+
+msgid "tournament/LBRound2"
+msgstr "VÁ 2. FORDULÓ"
+
+msgid "tournament/LBSemifinals"
+msgstr "VÁ ELŐDÖNTŐ"
+
+msgid "tournament/UBFinals"
+msgstr "FÁ DÖNTŐ"
+
+msgid "tournament/UBSemifinals"
+msgstr "FÁ ELŐDÖNTŐ"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "Ezen a tornán nem szerezhetsz vagy veszíthetsz értékelési pontokat."
+
+msgid "tournament/bestOf"
+msgstr "LEGJOBB %(number)s"
+
+msgid "tournament/cny"
+msgstr "%(amount)s CNY"
+
+msgid "tournament/cnySign"
+msgstr "%(amount)s ¥"
+
+msgid "tournament/comeBack"
+msgstr "Kérjük, próbáld meg újra később"
+
+msgid "tournament/comingSoon"
+msgstr "HAMAROSAN: %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "AZ IDŐ A MECCSEK HOSSZÁTÓL FÜGG"
+
+msgid "tournament/completed"
+msgstr "BEFEJEZŐDÖTT"
+
+msgid "tournament/douyin"
+msgstr "Nézd a Douyinon!"
+
+msgid "tournament/drops/huya"
+msgstr "Nézd a Huyán, és szerezz exkluzív\nHuya-dropokat!"
+
+msgid "tournament/drops/twitch"
+msgstr "Nézd a Twitchen, és szerezz exkluzív\nTwitch-dropokat!"
+
+msgid "tournament/dropsShort/huya"
+msgstr "És szerezz exkluzív Huya-dropokat!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "És szerezz exkluzív Twitch-dropokat!"
+
+msgid "tournament/error"
+msgstr "HIBA AZ ADATOK BETÖLTÉSE SORÁN"
+
+msgid "tournament/eur"
+msgstr "%(amount)s EUR"
+
+msgid "tournament/euroSign"
+msgstr "%(amount)s€"
+
+msgid "tournament/finalResult"
+msgstr "GYŐZTES"
+
+msgid "tournament/fundDistribution"
+msgstr "A NYEREMÉNYALAP MEGOSZLÁSA"
+
+msgid "tournament/grandFinals"
+msgstr "NAGYDÖNTŐ"
+
+msgid "tournament/huya"
+msgstr "Nézd a Huyán!"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "A nyereményalap a játékosok csomagvásárlásaiból jön össze. Utolsó frissítés: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "NINCS TÖBB MÉRKŐZÉS A PROGRAMBAN"
+
+msgid "tournament/ols/roundRobin"
+msgstr "%(phase)s. FÁZIS %(round)s. KÖR"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s - %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "NYEREMÉNYALAP %(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "ÉS AZ ESÉLY AZ ÖRÖKKÉVALÓ DICSŐSÉGRE"
+
+msgid "tournament/refresh"
+msgstr "Frissítés"
+
+msgid "tournament/refreshing"
+msgstr "Frissítés..."
+
+msgid "tournament/roundOf"
+msgstr "LEGJOBB %(number)s"
+
+msgid "tournament/separator"
+msgstr "VAGY"
+
+msgid "tournament/tab/overview"
+msgstr "ÁTTEKINTÉS"
+
+msgid "tournament/tab/schedule"
+msgstr "MENETREND"
+
+msgid "tournament/teamPlaceholder"
+msgstr "KÉSŐBB"
+
+msgid "tournament/toShop"
+msgstr "A Boltba"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "Átváltás"
+
+msgid "tournament/tokenStore/ols"
+msgstr "RLS-TOKENEK"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "Elérhető ekkor:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "A tornáról"
+
+msgid "tournament/twitch"
+msgstr "Nézd a Twitchen!"
+
+msgid "tournament/viewFull"
+msgstr "Az összes megjelenítése"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "Támogasd a Roham-legendák sorozatot, és növeld a nyereményalapot a torna csomagjaival!"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "Mutasd ki az e-sport iránti rajongásodat exkluzív tematikus testreszabási elemekkel és egyedi tankokkal!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "TÖLTSD FEL A NYEREMÉNYALAPOT!"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "WCI-CSOMAGOK"
+
+msgid "tournament/vsBestOf"
+msgstr "–\nLEGJOBB %(number)s"
+
+msgid "tournament/wci/roundRobin"
+msgstr "KÖRMÉRKŐZÉS"
+
+msgid "tournament/winner"
+msgstr "Győztes"
+
+msgid "tournament/youtube"
+msgstr "Nézd a Youtube-on!"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "A legjobb európai csapatok küzdenek meg a Roham-legendák sorozat bajnoki címéért! Nézd az izgalmas 7v7 Roham meccseket, szerezz Twitch dropokat és támogasd kedvenc csapataidat azzal, hogy exkluzív testreszabási csomagokkal növeled a nyereményalapot."
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "Hatalmas összecsapásra kerül sor a World of Tanks Championship International tornán a kínai Szucsouban, ahol a világ legádázabb csapatai mérik össze az erejüket a Roham játékmód szabályai szerint, és küzdenek meg a világbajnoki címért. Éld át az izgalmat, amikor legendák születnek a csatatéren!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "RLS 6. szezon"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI 2025"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "Az élő közvetítések elérhetők: %(timer)s"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "Új mérkőzések %(timer)s múlva"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "A Roham gyakorlásban nem kaphatsz értékelési pontokat."
+
+msgid "unit/message/modeOffline"
+msgstr "Nem lehet csatlakozni a csatához: adatbázis hiba."
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "Túl nagy a rangkülönbség"
+
+msgid "voiceChat/active"
+msgstr "Hang kommunikáció elhagyása"
+
+msgid "voiceChat/inactive"
+msgstr "Csatlakozás a hang kommunikációhoz"
+
+msgid "waitingSpinner/message"
+msgstr "Tartalom betöltése folyamatban..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "Teljesítetted a Roham küldetéseket"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "Szép munka! Az összes heti küldetést teljesítetted. Ne felejtsd el átvenni a jutalmadat, és találkozunk a következő szezonban!"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "{eeede9e5_Open}%(questsList)s{eeede9e5_Close} és {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close} küldetés teljesítéséért további jutalmakat kapsz"
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "Roham heti küldetések"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "Teljesítve: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s új küldetés ekkor:"
+msgstr[1] "%(value)s új küldetés ekkor:"
+msgstr[2] "%(value)s új küldetés ekkor:"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "Jutalom:"
+msgstr[1] "Jutalmak:"
+msgstr[2] "Jutalmak:"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)s ÚJ KÜLDETÉS: %(countdown)s"
+msgstr[1] "%(value)s ÚJ KÜLDETÉS: %(countdown)s"
+msgstr[2] "%(value)s ÚJ KÜLDETÉS: %(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "ÚJ KÜLDETÉSEK A KÖVETKEZŐ SZEZONBAN!"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "Teljesített küldetések: %(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "Minden héten %(value)s új küldetést kapsz. Minden teljesített küldetés beleszámít a jutalmadba!"
+msgstr[1] "Minden héten %(value)s új küldetést kapsz. Minden teljesített küldetés beleszámít a jutalmadba!"
+msgstr[2] "Minden héten %(value)s új küldetést kapsz. Minden teljesített küldetés beleszámít a jutalmadba!"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "Folyamatban"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "Teljesítve"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "Nem érhető el"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "Nem teljesíthető: A mód nem aktív."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "A feloldásához fejlessz ki és vásárolj meg egy X-es szintű járművet."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "Ennek a feloldásához teljesítsd az előző küldetést."
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "A küldetés nem érhető el"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "Vedd át a jutalmadat!"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "Teljesítve: %(current)s / %(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "Küldetés: %(current)s / %(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s új küldetés ekkor:"
+msgstr[1] "%(value)s új küldetés ekkor:"
+msgstr[2] "%(value)s új küldetés ekkor:"
+
+msgid "whatsNewButtonLabel"
+msgstr "SZEZONFRISSÍTÉSEK"
+
+msgid "whatsNewView/banner/description"
+msgstr "Ez a szezon az utolsó esélyed arra, hogy értékes jutalmakat szerezz, például az Ashbringert, egy exkluzív X-es szintű nehéz tankot az összes megszerzett egyedi 3D-stílusával és egy rettenthetetlen legénységgel a Bajtársak nulladik készséggel, választható fejlesztett és kísérleti felszereléseket, egy szemet gyönyörködtető 2D-stílust és még megannyi mást. Ne szalaszd el a lehetőséget – győzelem vár rád a csatatéren!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "Használd ki a sárkány évének utolsó pillanatait!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "A JÁDEZÖLD SÁRKÁNY SZEZONJA"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "ROHAM. MIK AZ ÚJDONSÁGOK?"
+
+msgid "whatsNewView/button/ok"
+msgstr "Fantasztikus!"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "A 2.0-s frissítés új továbbfejlesztett csata utáni eredményképernyője mostantól minden csata után további, a játékmódhoz kapcsolódó információkat jelenít meg."
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "Részletes csataeredmények"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "Ne aggódj, ha a kedvenc járműved nem szerepel a listán! A bérelt járművekhez mostantól előre összeállított legénység, felszerelés, lőszer és fogyócikkek tartoznak."
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "Indulásra kész bérelt járművek %(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "Ebben a szezonban minden csapat teljesen kizárhat egy járművet a csatából. Egyeztessétek a szavazataitokat, hogy kizárjátok a legrettegettebb gépet, vagy váratlan felállást készítsetek elő az ellenség számára."
+
+msgid "whatsNewView/intro/heading"
+msgstr "Járműtiltás %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "Pályák"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "Új járművek érhetők el a Rohamban"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "Bérelhető járművek"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "A nemrégiben megjelent Ares 90 X-es szintű amerikai közepes harckocsi már elérhető a módban, módosított szerepképességgel."
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "Szerepképesség frissítés %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "A 114 SP2 már megvásárolható Ezüst rangtól kezdve a Roham boltban."
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "Bolt frissítései %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "KIZÁRVA"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "FEJLESZTÉS ALATT"
+
+msgid "whatsNewView/tag/attention"
+msgstr "Figyelem!"
+
+msgid "whatsNewView/tag/changed"
+msgstr "Megváltozott"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "Kísérleti"
+
+msgid "whatsNewView/tag/new"
+msgstr "Új"
+
+msgid "whatsNewView/tag/returned"
+msgstr "Visszatért"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "Átalakítva"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "Szezonális frissítés"
+
+msgid "whatsNewView/watchVideo"
+msgstr "A videó megtekintése"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "Győzelmi arány (nap): %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "Vereségek: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "Döntetlenek: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "Győzelmi arány (szezon): %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "A győzelmek és a megvívott csaták számának aránya.\nCsaták eredmény alapján:"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "Győzelem: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "A jutalmakat a harmadik szezon végén kapod meg."
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "Hamarosan megkapod a jutalmakat. Kérjük, légy türelmes!"
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "Megkaptad az éves jutalmat. Találkozunk jövőre!"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "Választhatsz a következő felszerelések közül"
+
+msgid "yearlyRewards/claim"
+msgstr "Begyűjtöm"
+
+msgid "yearlyRewards/claimReward"
+msgstr "Jutalom begyűjtése"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "1%(seasonPointIcon)s-t kaptál minden elért rangért a szezon végén."
+
+msgid "yearlyRewards/description/current"
+msgstr "1%(seasonPointIcon)s-t kapsz minden elért rangért a szezon végén."
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\nEgyedi 3D-stílusokkal"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "AZ ÉVES JUTALMAKHOZ"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "2D-stílus előnézet"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "3D-stílus előnézet"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "Elért rang: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "Jelenlegi rang: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "Négy egyedi harckocsizó"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "Jutalom megszerezve"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "Garantált jutalom"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "Szerezz összesen %(count)s színt, hogy megkapd a szakaszjutalmakat"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "Lehetséges jutalom"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "Garantáltan megkapod ezt a jutalmat az év végén."
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "Gyűjtsd össze a szükséges mennyiségű Roham színt, hogy megszerezd a jutalmadat az év végén!"
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "Az év végén megkapod ezt a jutalmat, ha megtartod vagy meghaladod a jelenlegi rangodat a szezon végéig."
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "Aktív szakasz"
+
+msgid "yearlyStatistics/battles"
+msgstr "Csaták (szóló/szakasz)"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "A szezon statisztikáinak kiszámítása..."
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)sA szezon statisztikáihoz"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "Nincs rang"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "%(rank)s rang"
+
+msgid "yearlyStatistics/rating"
+msgstr "Értékelési pontok"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "2025. ősz"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "2026. tél"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "2026. tavasz"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s–%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "I. szezon. Azúrkék sárkány"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "II. szezon. Bíborvörös sárkány"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "III. szezon. Jádezöld sárkány"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "Jelenlegi"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "Befejezve"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "Csaták (Szuper szakasz)"
+
+msgid "yearlyStatistics/wins"
+msgstr "Győzelmi arány"

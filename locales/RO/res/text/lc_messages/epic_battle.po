@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "Gestionare Rezerve"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "Clic pentru a selecta o Rezervă de Luptă disponibilă."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "Bombe"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "Zona de impact"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "Șoc"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "Intrare în luptă"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "Numărul de mine"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "Durata minelor"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "Șoc"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "Suprafața de daune"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "Durata"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "Proiectile"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "Refacere"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "Intrare în luptă"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "Durată"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "Numărul de puncte de integritate restaurate"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "Cantitatea de puncte recuperate instantaneu la activare"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "Daune reduse suferite de la mine"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "Bonus la viteza de recuperare a punctelor cu Cercul de Reaprovizionare"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "Performanțe echipaj"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "Durata"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "Perioada de suspendare"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "Rază efect"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "Performanța echipajului vehiculului"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "Protecție crescută"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "Bonus capturare"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "Reîmprospătare cerc reaprovizionare"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "Viteza de reaprovizionare a muniției"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "Timpul de sosire"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "Zona de impact"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750 m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "Durata observării"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "Performanță scăzută a echipajului"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "Fumigene"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "Zona de impact"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "Durata"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "Raza de vizualizare a vehiculelor inamice redusă"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "Reducerea camuflării vehiculelor inamice acoperite de frunziș"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "Reducerea camuflării vehiculelor inamice în mișcare"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "Durată"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "Bonus la camuflarea unui vehicul staționar"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "Bonus pasiv la raza vizuală"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "Nivel rezervă"
+
+msgid "abilityInfo/properties/static"
+msgstr "Caracteristici permanente"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "s"
+
+msgid "advance_message_txt"
+msgstr "Avansează spre Front"
+
+msgid "advance_mission_txt"
+msgstr "Avansează spre Front"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "DETALIILE SCENARIULUI"
+
+msgid "awards/acceptButton"
+msgstr "Recepționat!"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "RECOMPENSE PRIMITE"
+
+msgid "awards/subTitle2"
+msgstr "RECOMPENSĂ PRIMITĂ"
+
+msgid "awards/title"
+msgstr "FRONT"
+
+msgid "base/contested_atk"
+msgstr "Contestate"
+
+msgid "base/contested_def"
+msgstr "Sub atac"
+
+msgid "battleResults/armor"
+msgstr "Utilizare blindaj"
+
+msgid "battleResults/assistance"
+msgstr "Asistență"
+
+msgid "battleResults/crits"
+msgstr "Daune critice"
+
+msgid "battleResults/damage"
+msgstr "Daune"
+
+msgid "battleResults/kill"
+msgstr "Distruşi"
+
+msgid "battleResults/spotting"
+msgstr "Detectaţi"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "1x rezervă personală: %(effectValue)s la experiența echipajului timp de %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "1x rezervă personală: %(effectValue)s la experiența liberă timp de %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "1x rezervă personală: %(effectValue)s la experiența de luptă timp de %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Atacați obiectivul %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Apărați obiectivul %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Atenție la această locație!"
+
+msgid "command_shortcut/title"
+msgstr "Comenzi"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "Front blocat: limita de jucători atinsă"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "Zona de pericol"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "Front blocat: limita pe tip de tanc atinsă"
+
+msgid "dialogs/quotedName"
+msgstr "\"%(name)s\""
+
+msgid "dialogs/title/buy/item"
+msgstr "Cumperi %(name)s %(type)s?"
+
+msgid "dialogs/title/buy/items"
+msgstr "Cumperi %(type)s?"
+
+msgid "dialogs/title/install/item"
+msgstr "Activezi %(name)s %(type)s?"
+
+msgid "dialogs/title/install/items"
+msgstr "Activezi %(type)s?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "Acumulează numărul necesar de puncte și activează rezervele de luptă de pe Front."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "Acumulează numărul necesar de puncte și activează rezervele de luptă de pe Front."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "Puncte rezerve luptă"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "%(level)s vehicule vor fi deblocate pentru luptă după capturarea/pierderea oricărui punct din a doua linie (D, E sau F)."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "Generația %(lvl)s"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "Alege un vehicul de generația VIII pentru modul Front."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "Vehicul incompatibil"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "Achiziție"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "Max"
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "Rezerve de Luptă"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "Nivel comandant"
+
+msgid "epictraining/info/otherLabel"
+msgstr "Jucători nedistribuiți: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "Atacatori ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "Apărători ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "Toate vehiculele inamice distruse"
+
+msgid "game/all_hqs_destroyed"
+msgstr "Toate obiectivele distruse"
+
+msgid "game/all_tanks_defeated"
+msgstr "Toate vehiculele aliate distruse"
+
+msgid "game/defeat"
+msgstr "Înfrângere!"
+
+msgid "game/draw"
+msgstr "Remiză!"
+
+msgid "game/time_over"
+msgstr "Obiectivele au supraviețuit"
+
+msgid "game/victory"
+msgstr "Victorie!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "Distrugeți obiectivele!"
+
+msgid "global_msg/atk/time_short"
+msgstr "Capturează o zonă!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "Apără obiectivele!"
+
+msgid "global_msg/def/time_short"
+msgstr "Apără zonele!"
+
+msgid "global_msg/lane/center_short"
+msgstr "Ajută zona %(strArg1)s!"
+
+msgid "global_msg/lane/east_short"
+msgstr "Ajută zona %(strArg1)s!"
+
+msgid "global_msg/lane/west_short"
+msgstr "Ajută zona %(strArg1)s!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "Salvați-vă tancurile!"
+
+msgid "help_window/communication"
+msgstr "Zona de comunicații"
+
+msgid "help_window/communication/description"
+msgstr "Poți primi comenzi doar de la aliații care sunt în zona vizibilă de pe mini-hartă sau când ținta comenzii se află în acea zonă."
+
+msgid "help_window/overview_map"
+msgstr "Harta generală"
+
+msgid "help_window/overview_map/description"
+msgstr "Harta generală este folosită pentru a avea o vedere tactică și strategică asupra întregului câmp de luptă. Când se deschide harta generală, se pot primi și trimite mesaje către întreaga echipă."
+
+msgid "help_window/recovery"
+msgstr "Recuperare"
+
+msgid "help_window/recovery/description"
+msgstr "Recuperarea este introdusă pentru a autodistruge un vehicul care este blocat în teren. Mecanica este necesară deoarece durata mare a luptei și posibilitatea reintrării în joc cer ca jucătorul să poată fi mereu în acțiune."
+
+msgid "help_window/reserves"
+msgstr "Rezerve de vehicule"
+
+msgid "help_window/reserves/description"
+msgstr "O dată la câteva minute un vehicul este adăugat la rezervă. Rezerva poate ține un maxim de două vehicule. Când nu mai au rămas vehicule, nu mai poți intra în luptă și va trebui să aștepți până sunt livrare noi vehicule."
+
+msgid "hq/under_attack_atk"
+msgstr "Sub atac"
+
+msgid "hq/under_attack_def"
+msgstr "Sub atac"
+
+msgid "in_game_rank/experience_text"
+msgstr "EXP"
+
+msgid "lane_central_name"
+msgstr "Centru"
+
+msgid "lane_east_name"
+msgstr "Est"
+
+msgid "lane_west_name"
+msgstr "Vest"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "Nivel %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "Nu se poate obține: nu ai puncte de rezerve de luptă."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "Rezerva de luptă a atins nivelul maxim."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "Îmbunătățire indisponibilă: Nu ai puncte de rezerve de luptă."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "Rezerva de luptă nu a fost cumpărată"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "Nivelul rezervei de luptă este crescut după atingerea gradelor de Căpitan și Maior în lupte. Nivelul maxim e determinat de scenariul de luptă."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "Preț achiziție: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "Obiectiv principal"
+
+msgid "mission/title"
+msgstr "Misiune"
+
+msgid "mission/zone_closing_atk"
+msgstr "Zona se deschide în: "
+
+msgid "mission/zone_closing_def"
+msgstr "Bombardament inamic în: "
+
+msgid "missions/primary/atk/base"
+msgstr "Capturează zona"
+
+msgid "missions/primary/atk/hq"
+msgstr "Distruge obiectivul"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s din %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "Obiective distruse:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "Capturează zone pentru a ajunge la obiectivele principale. Distruge obiectivele principale."
+
+msgid "missions/primary/def/base"
+msgstr "Apără zona"
+
+msgid "missions/primary/def/hq"
+msgstr "Apără obiectivul"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s din %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "Obiective pierdute:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "Apără obiectivele principale până la expirarea timpului sau distruge toți atacatorii."
+
+msgid "missions/unlockTankLevel"
+msgstr "Vehicule de generația IX disponibile"
+
+msgid "overtime/label"
+msgstr "PRELUNGIRI"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "Nu pot activa două rezerve identice"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "Nu pot desfășura câmpul de mine. Câmpurile de mine se intersectează."
+
+msgid "primeTime/applyBtn"
+msgstr "Continuă"
+
+msgid "primeTime/cancelBtn"
+msgstr "Ieşire"
+
+msgid "primeTime/continueBtn"
+msgstr "Continuare"
+
+msgid "primeTime/endOfCycle"
+msgstr "Modul s-a încheiat pe serverul %(server)s."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "Servere disponibile:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "Server disponibil: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "Luptele pe %(server)s vor fi disponibile încă %(time)s"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "Următoarele lupte pe %(server)s în %(time)s"
+
+msgid "primeTime/serverTooltip"
+msgstr "Luptele pe %(server)s \nvor fi disponibile timp de încă %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Luptele vor fi disponibile în %(time)s"
+
+msgid "primeTime/servers"
+msgstr "Servere disponibile: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Luptele s-au încheiat pe serverul %(server)s"
+
+msgid "primeTime/status/disable"
+msgstr "Poți comuta către un server Front pentru a continua pregătirile de luptă."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "Mod indisponibil pe serverul %(server)s"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "Armistițiu în efect pe serverul %(server)s până la %(startTime)s"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "Armistițiu în efect pe toate serverele"
+
+msgid "primeTime/status/thisEnable"
+msgstr "Pe serverul %(server)s, Frontul este disponibil timp de încă %(time)s."
+
+msgid "primeTime/steelhunter/title"
+msgstr "VÂNĂTORUL DE OȚEL"
+
+msgid "primeTime/title"
+msgstr "FRONT"
+
+msgid "primeTime/titleWelcome"
+msgstr "BINE AI VENIT\nPE FRONT"
+
+msgid "progress_timers/active"
+msgstr "Active"
+
+msgid "progress_timers/fully_equipped"
+msgstr "Echipat complet"
+
+msgid "progress_timers/resupply"
+msgstr "Cerc de reaprovizionare"
+
+msgid "progress_timers/unavailable"
+msgstr "Indisponibil"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "Misiunile Frontului"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "Mai puțin de 1 z"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "atinge nivelul %(level)s"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "Misiuni noi vor fi disponibile în %(time)s"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "Misiunile Vânătorul de Oțel"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "Frontul se încheie în: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "Indisponibil: %(reason)s."
+
+msgid "rank/allReserveUpgraded"
+msgstr "Toate nivelurile rezervelor de luptă au crescut"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "Bonusul de echipă la performanța echipajului crescut la +%(percent)s%%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "Performanța maximă a echipajului este atinsă la +%(percent)s%%"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "Bonusul de echipă la performanța echipajului +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "Jucător"
+
+msgid "rank/promotion"
+msgstr "promovat la %(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "Soldat"
+
+msgid "rank/rank2"
+msgstr "Sergent"
+
+msgid "rank/rank3"
+msgstr "Locotenent"
+
+msgid "rank/rank4"
+msgstr "Căpitan"
+
+msgid "rank/rank5"
+msgstr "Maior"
+
+msgid "rank/rank6"
+msgstr "General"
+
+msgid "rank/recerveUnlocked"
+msgstr "Rezerva de luptă %(reserveName)s deblocată"
+
+msgid "rank/reserveUpgraded"
+msgstr "Rezerva de luptă %(reserveName)s îmbunătățită"
+
+msgid "rank/slotUnlocked"
+msgstr "%(slotNumber)s rezervă de luptă deblocată"
+
+msgid "rank/slot_2"
+msgstr "A doua"
+
+msgid "rank/slot_3"
+msgstr "A treia"
+
+msgid "recovery/Blocked"
+msgstr "Temporar\nblocat"
+
+msgid "recovery/disabled"
+msgstr "Recuperare indisponibilă"
+
+msgid "recovery_panel/base_text"
+msgstr "Apasă J\npentru recuperare"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "Mișcă-te sau trage pentru a anula."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "Recuperare\nanulată"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "Recuperare\ncerută"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "Capturează următoarea bază"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "Întăriri în "
+
+msgid "reinforcement/unavailable"
+msgstr "Întăriri indisponibile"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s s până la intrarea automată în luptă."
+
+msgid "respawn/deploy_button"
+msgstr "Luptă!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "Consumabilele îmbunătățite nu pot fi achiziționate în luptă."
+
+msgid "respawn/shop_title"
+msgstr "Service"
+
+msgid "respawn/tanks_left"
+msgstr "vehicule rămase"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "Alege un vehicul și o zonă de apariție"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "Apariția în aceasă zonă este periculoasă."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s secunde"
+
+msgid "retreat_message_txt"
+msgstr "Retragere"
+
+msgid "retreat_mission_txt"
+msgstr "Retragere în zona următoare"
+
+msgid "rewardSelection/subTitle"
+msgstr "SELECTEAZĂ RECOMPENSA"
+
+msgid "rewardSelection/title"
+msgstr "FRONT"
+
+msgid "scorePanel/stage1"
+msgstr "Etapa 1"
+
+msgid "scorePanel/stage2"
+msgstr "Etapa 2"
+
+msgid "scorePanel/stage3"
+msgstr "Etapa 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "Performanțele computerului tău sunt insuficiente pentru acest mod. Poți avea probleme de grafică și cu mișcarea vehiculului. Sunt posibile și erori ale clientului de joc."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "Performanță scăzută"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "În cazul performanței insuficiente, încearcă o setare mai joasă a graficii în Setări."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "Acest mod necesită performanță înaltă a calculatorului"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "Acest mod necesită un computer foarte performant. Poți avea probleme cu încărcarea hărții, grafica și mișcarea vehiculului. Dacă performanța e insuficientă, poți încerca să reduci calitatea grafică în Setări."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "Performanță scăzută"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "Lupte 30v30 în %(bodyVehicleLevel)s. Utilizează mecanici de reapariție, rezerve de luptă și cercuri de realimentare."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "vehicule de generația %(level)s"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "Lupte 30v30 în %(bodyVehicleLevel)s. Utilizează mecanici de reapariție, rezerve de luptă și reparații în cursul luptei."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "Modul este temporar indisponibil din cauza unor probleme tehnice."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "Front"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "Luptele încep în: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "Luptele se încheie în: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "Program lupte"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "Azi"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "Mâine"
+
+msgid "skill/category/firesupport"
+msgstr "Rezerve de atac"
+
+msgid "skill/category/reconnaissance"
+msgstr "Rezervele de recunoaștere"
+
+msgid "skill/category/tactics"
+msgstr "Rezervele tactice"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "Cameră spectator"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "Rotește camera cu mausul."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "Folosește W, A, S, D pentru a mișca pe hartă camera."
+
+msgid "spectator_mode/follow_text"
+msgstr "Clic stânga pentru a intra în urmărire."
+
+msgid "spectator_mode/follow_title"
+msgstr "Urmărire"
+
+msgid "spectator_mode/msg_text"
+msgstr "Vehiculul ajunge în:"
+
+msgid "spectator_mode/msg_title"
+msgstr "Toate vehiculele sunt distruse!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "Clic din nou pentru a opri urmărirea."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "Stop urmărire"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s z"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "Blocat"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Părăsește zona!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Se restaurează punctele de integritate"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Se restaurează punctele de integritate"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Inspiră"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "Inspiră"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Cerc de reaprovizionare"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "În fum: camuflat."
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "În interiorul fumului. Raza vizuală și performanța echipajului sunt reduse."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "Perioada de liniștire. Raza vizuală și performanța echipajului sunt reduse."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "Santinelă activată"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "Se activează %(activationDelay)s s după oprirea vehiculului"
+
+msgid "super_platoon_panel/title"
+msgstr "Pluton"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "- bonusul total pe echipă la performanța echipajului în prezența unui General."
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "Toate fronturile"
+
+msgid "tab_screen/show_my_lane"
+msgstr "Frontul meu"
+
+msgid "team1Name"
+msgstr "Atacatori"
+
+msgid "team2Name"
+msgstr "Apărători"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "Selectează recompensele pentru nivelurile finalizate ale Frontului (%(number)s)."
+
+msgid "tooltips/common/disabled"
+msgstr "Mod indisponibil"
+
+msgid "tooltips/common/title"
+msgstr "Front"
+
+msgid "tooltips/end"
+msgstr "Evenimentul s-a încheiat"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "ordinea deblocării rezervelor de luptă depinde de tipul vehiculului. O rezervă de luptă este disponibilă de la început, în timp ce altele de deblochează la atingerea gradelor de sergent, respectiv locotenent."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "Se deblochează: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "În scenariul <font color='#E9E2BF'>Întoarcerea sorții</font>, cumpărarea unei rezerve de luptă îi va crește nivelul cu unu și va oferi oportunitatea de a-i îmbunătăți nivelul la <font color='#E9E2BF'>IV</font>."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "O rezervă de luptă amplasată în acest locaș crește șansa ca ea să fie oferită în scenariul <font color='#E9E2BF'>Întoarcerea sorții</font> cu <font color='#E9E2BF'>10%</font>"
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "Deblocarea și îmbunătățirea rezervelor în luptă"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "Rezervele de luptă sunt deblocate și îmbunătățite în luptă, în funcție de tipul vehiculului și de gradul atins de tine."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "Configurațiile de rezerve pentru antitancuri"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "Configurațiile de rezerve pentru artilerii"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "Configurațiile de rezerve pentru tancurile grele"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "Configurațiile de rezerve pentru tancurile ușoare"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "Configurațiile de rezerve pentru tancurile medii"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "după deblocarea tuturor rezervelor de luptă la atingerea de grade noi, aceste rezerve de luptă sunt îmbunătățite. Rezerva de luptă deblocată inițial poate fi îmbunătățită până la nivelul III, iar cea de-a doua rezervă de luptă deblocată poate fi îmbunătățită până la nivelul II."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "Îmbunătățirea: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "Locașul va fi deblocat la atingerea gradului de %(rank)s."
+
+msgid "tooltips/timeToEnd"
+msgstr "Mod disponibil: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "Luptele vor începe în: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "Evenimentul s-a încheiat"
+
+msgid "tooltips/widget/level"
+msgstr "Generația %(level)s"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "Nivel maxim atins."
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "REZERVE DE LUPTĂ"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Armistițiu activ pe toate serverele. Luptele vor fi disponibile în %(time)s"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "Luptele sunt pe drum"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Selectează alt server"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "Detalii"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "Modul Front s-a încheiat."
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "Scenariile de Front"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Armistițiu activ pe acest server. Luptele vor fi disponibile în %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Armistițiu activ pe %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "Luptele vor începe în: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "Clic pentru a afla mai multe despre scenariile\nFront și diferențele dintre acestea."
+
+msgid "zone/arrived_text"
+msgstr "A sosit!"
+
+msgid "zone/capture_text"
+msgstr "Capturează"
+
+msgid "zone/captured_text"
+msgstr "Capturat"
+
+msgid "zone/defend_text"
+msgstr "Apără"
+
+msgid "zone/destroy_text"
+msgstr "Distruge"
+
+msgid "zone/destroyed_text"
+msgstr "Distruşi"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "Întăriri inamice"
+
+msgid "zone/headquarters_text"
+msgstr "Obiective"
+
+msgid "zone/leave_zone"
+msgstr "Părăsește zona!"
+
+msgid "zone/lost_text"
+msgstr "Pierdută"
+
+msgid "zone/reached_text"
+msgstr "Atins"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "Întăriri inamice:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "Întăriri:"
+
+msgid "zone/reinforcements_text"
+msgstr "Întăriri"
+
+msgid "zone/time_added"
+msgstr "Minute adăugate: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "%(minutes)s minute rămase"
+
+msgid "zone/zone_text"
+msgstr "Zonă"

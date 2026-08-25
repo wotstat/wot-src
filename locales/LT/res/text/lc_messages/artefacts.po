@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "actionStub/name"
+msgstr "Modifikacija"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "Iš karto atstato %(immediatelyRestore)s mašinos patvarumo taškų. Per %(duration)s s trunkantį gebėjimo veikimo laiką visa sviedinių ir gebėjimų padaryta žala tankui, pasibaigus gebėjimui, bus paversta į patvarumo taškus, o pasibaigus gebėjimui bus konvertuota dar %(restoringCoefficient)s visos gautos žalos.\n\n*Konvertuoti patvarumo taškai taip atitenka ir greta esantiems komandos nariams."
+
+msgid "adaptationHealthRestore/descr"
+msgstr "Iš karto atstato %(immediatelyRestore)s mašinos patvarumo taškų. Per %(duration)s s trunkantį gebėjimo veikimo laiką visa sviedinių ir gebėjimų padaryta žala tankui, pasibaigus gebėjimui, bus paversta į patvarumo taškus, o pasibaigus gebėjimui bus konvertuota dar %(restoringCoefficient)s visos gautos žalos.\n\n*Konvertuoti patvarumo taškai taip atitenka ir greta esantiems komandos nariams."
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "Iš karto {green_Open}atstato %(immediatelyRestore)s{green_Close} mašinos patvarumo taškų. Per {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} trunkantį gebėjimo veikimo laiką visa sviedinių ir gebėjimų padaryta žala tankui, pasibaigus gebėjimui, bus paversta į patvarumo taškus, o pasibaigus gebėjimui bus konvertuota {green_Open}dar %(restoringCoefficient)s visos gautos žalos{green_Close}.\n\n*Konvertuoti patvarumo taškai taip atitenka ir greta esantiems komandos nariams."
+
+msgid "adaptationHealthRestore/name"
+msgstr "Adaptyviniai šarvai"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "Iš karto {green_Open}atstato %(immediatelyRestore)s{green_Close} mašinos patvarumo taškų. Per {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} trunkantį gebėjimo veikimo laiką visa sviedinių ir gebėjimų padaryta žala tankui, pasibaigus gebėjimui, bus paversta į patvarumo taškus, o pasibaigus gebėjimui bus konvertuota {green_Open}dar %(restoringCoefficient)s visos gautos žalos{green_Close}.\n\n*Konvertuoti patvarumo taškai taip atitenka ir greta esantiems komandos nariams."
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s stovinčios ar judančios mašinos maskuotei su sumontuota Tylia išmetimo sistema (bet kurios klasės) arba Trofėjine išmetimo sistema."
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "Pagerina Tylios išmetimo sistemos arba Trofėjinės išmetimo sistemos efektą mūšio metu. Instrukcija veiks tik jeigu turėsite sumontuotą suderinamą įrangą."
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "Išmetimo sistemos izoliavimas"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "Padidina stovinčios ir judančios mašinos maskuotę"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "Efektyvumas priklauso nuo mašinos tipo. Padidina stovinčios ir judančios mašinos maskuotę. Naudinga tiek aktyviai žvalgybai, tiek pasyviai žvalgybai rizikingose vietose."
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "Tyli išmetimo sistema"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "Padidina stovinčios ir judančios mašinos maskuotę."
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "Tyli išmetimo sistema 1 klasė"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "Tyli išmetimo sistema 2 klasė"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "Tyli išmetimo sistema 3 klasė"
+
+msgid "additional_armor_plates_1/name"
+msgstr "Papildomi šarvai (1 tipas)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "Papildomi šarvai (2 tipas)"
+
+msgid "afterburning/descr"
+msgstr "Padidina mašinos greitį ir akceleraciją ribotą laiką."
+
+msgid "afterburning/name"
+msgstr "Turbokompresorius"
+
+msgid "aimingStabilizer/long_special"
+msgstr "Ginklo išbarstymo sumažinimas yra svarbus faktorius: kuo mažesnis pradinis išbarstymas, tuo mažesnis bus taikymosi apskritimas ir reikės mažiau laiko pilnam ginklo nusitaikymui. Be to, net ir staigus šūvis, be pilno nusitaikymo bus taiklesnis."
+
+msgid "aimingStabilizer/name"
+msgstr "Vertikalus stabilizatorius"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s išbarstymui po šūvio, judant ir sukant bokštelį su sumontuotu Vertikaliu stabilizatoriumi, Stabilizavimo įrangos sistema arba Trofėjiniu stabilizatoriumi."
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "Sustiprina Vertikalaus stabilizatoriaus (bet kurios klasės), Stabilizavimo įrangos sistemos ir Trofėjinio stabilizatoriaus poveikį mūšio metu. Norint sumontuoti ir aktyvuoti šią instrukciją, paminėta įranga turi būti sumontuota jūsų mašinoje."
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "Stabilizatorių sutepimas"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "Sustiprina stabilizatoriaus efektą"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "Vertikalus stabilizatorius 1 klasė"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "Vertikalus stabilizatorius 2 klasė"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "Vertikalus stabilizatorius 1 klasė"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "Vertikalus stabilizatorius 2 klasė"
+
+msgid "antifragmentationLining/long_special"
+msgstr "Antiskeveldriniai apmušalai sugeria žalą, tai reiškia, jog jie sumažina žalą patiriamą taranavimo ir fugasinių sviedinių sprogimų metu. Antiskeveldriniai apmušalai naudingiausi artimose kovose dalyvaujantiems sunkiesiems tankams su patikimais šarvais ir dideliu taranavimo potencialu."
+
+msgid "antifragmentationLining/name"
+msgstr "Antiskeveldrinis apmušalas"
+
+msgid "antifragmentationLining/short_special"
+msgstr "Apsaugo mašiną ir įgulą nuo fugasinių sviedinių, sužeidimų, apkurtinimo ir tarano"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "Labai stiprus antiskeveldrinis apmušalas"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "Stiprus antiskeveldrinis apmušalas"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "Vidutinis antiskeveldrinis apmušalas"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "Silpnas antiskeveldrinis apmušalas"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "Išmetimo sistemos"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "Stabilizatoriai"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "Antiskeveldriniai apmušalai"
+
+msgid "archetype/camouflageNet/name"
+msgstr "Kamufliažinis tinklas"
+
+msgid "archetype/coatedOptics/name"
+msgstr "Optika"
+
+msgid "archetype/commandersView/name"
+msgstr "Stebėjimo sistemos"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "Taikinio stiprintuvai"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "Grūdinimai"
+
+msgid "archetype/grousers/name"
+msgstr "Papildiniai gruntui užkabinti"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "Konfigūracijos"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "Radijo rinkiniai"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "Sukimosi guoliai"
+
+msgid "archetype/improvedSights/name"
+msgstr "Taikymasis"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "Ventiliacija"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "Ugnies kontrolės sistemos"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "Išgyvenimo rinkiniai"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "Taiklumo padidinimo sistema"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "Mobilumo padidinimo sistemos"
+
+msgid "archetype/stereoscope/name"
+msgstr "Binokuliarinis teleskopas"
+
+msgid "archetype/tankRammer/name"
+msgstr "Įstūmikliai"
+
+msgid "archetype/template"
+msgstr "kategorijos \"%(name)s\" įranga"
+
+msgid "archetype/turbocharger/name"
+msgstr "Turbokompresorius"
+
+msgid "artillery/longDescr"
+msgstr "Duoda įsakymą artilerijai fugasiniais sviediniais apšaudyti nedidelę teritoriją. Teritorijos centre esančios mašinos patiria daugiausiai žalos. Ypač efektyvu prieš smarkiai šarvuotas mašinas."
+
+msgid "artillery/name"
+msgstr "Artilerijos smūgis"
+
+msgid "artillery/shortDescr"
+msgstr "Daro ženklią žalą priešų mašinoms nedidelio spindulio zonoje."
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s variklio gaisro tikimybei"
+
+msgid "autoExtinguishers/descr"
+msgstr "Automatinis gaisro gesinimas jūsų mašinoje."
+
+msgid "autoExtinguishers/long_special"
+msgstr "Automatiškai gesina gaisrą ir sumažina gaisro tikimybę. Ši ekipuotė tinka visų nacijų ir tipų mašinoms."
+
+msgid "autoExtinguishers/name"
+msgstr "Automatinis gesintuvas"
+
+msgid "autoExtinguishers/onUse"
+msgstr "Automatinis gaisro gesinimas jūsų mašinoje. Mūšyje galima panaudoti daug kartų. Po mūšio ekipuotė pašalinama, jeigu buvo panaudota nors kartą."
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "Automatinis gesintuvas"
+
+msgid "berserker/battleDescr"
+msgstr "Padidina pramušimą ir šaudymo spartą %(gunPiercing)s kartais ir padidina taikymosi efektyvumą ir stabilizaciją %(gunAimingTime)s, bet per %(duration)s s veikimo laiką atima %(healthDebuff)s jūsų mašinos patvarumo taškų.\n\n*Berserko daroma žala negali sunaikinti jūsų mašinos."
+
+msgid "berserker/descr"
+msgstr "Padidina pramušimą ir šaudymo spartą %(gunPiercing)s kartais ir padidina taikymosi efektyvumą ir stabilizaciją %(gunAimingTime)s, bet per %(duration)s s veikimo laiką atima %(healthDebuff)s jūsų mašinos patvarumo taškų.\n\n*Berserko daroma žala negali sunaikinti jūsų mašinos."
+
+msgid "berserker/longDescr"
+msgstr "Padidina pramušimą ir šaudymo spartą {green_Open}%(gunPiercing)s kartais{green_Close} ir padidina taikymosi efektyvumą ir stabilizaciją {green_Open}%(gunAimingTime)s{green_Close}, bet per {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} veikimo laiką atima {red_Open}%(healthDebuff)s{red_Close} jūsų mašinos patvarumo taškų.\n\n*Berserko daroma žala negali sunaikinti jūsų mašinos."
+
+msgid "berserker/name"
+msgstr "Berserkas"
+
+msgid "berserker/shortDescr"
+msgstr "Padidina pramušimą ir šaudymo spartą {green_Open}%(gunPiercing)s kartais{green_Close} ir padidina taikymosi efektyvumą ir stabilizaciją {green_Open}%(gunAimingTime)s{green_Close}, bet per {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} veikimo laiką atima {red_Open}%(healthDebuff)s{red_Close} jūsų mašinos patvarumo taškų.\n\n*Berserko daroma žala negali sunaikinti jūsų mašinos."
+
+msgid "blackout_headlights_1/name"
+msgstr "Šviesų pritemdymas (1 tipas)"
+
+msgid "bomber/longDescr"
+msgstr "Duoda įsakymą antžeminės atakos lėktuvui išmesti bombas nurodytoje teritorijoje ir taip apkurtinti bei padaryti žalą priešų mašinoms. Teritorijos centre esančios mašinos patiria daugiausiai žalos. Ypač efektyvu prieš lengvai ir vidutiniškai šarvuotas mašinas."
+
+msgid "bomber/name"
+msgstr "Aviasmūgis"
+
+msgid "bomber/shortDescr"
+msgstr "Didelėje zonoje apkurtina priešų mašinas ir daro vidutinišką žalą."
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "Palaipsniui per %(duration)s s atstato %(healPerTickDuration)s mašinos patvarumo taškų. Gali būti nutrauktas gavus žalos."
+
+msgid "brRegenerationKit/descr"
+msgstr "Palaipsniui per %(duration)s s atstato %(healPerTickDuration)s mašinos patvarumo taškų. Gali būti nutrauktas gavus žalos."
+
+msgid "brRegenerationKit/long_special"
+msgstr "Palaipsniui per {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} {green_Open}atstato %(healPerTickDuration)s{green_Close} mašinos patvarumo taškų. Gali būti nutrauktas gavus žalos."
+
+msgid "brRegenerationKit/name"
+msgstr "Atsistatymas"
+
+msgid "brRegenerationKit/short_special"
+msgstr "Palaipsniui per {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} {green_Open}atstato %(healPerTickDuration)s{green_Close} mašinos patvarumo taškų. Gali būti nutrauktas gavus žalos."
+
+msgid "brRepairkit/descr"
+msgstr "Suremontuoja modulius ir panaikina neigiamus efektus."
+
+msgid "brRepairkit/long_special"
+msgstr "Suremontuoja modulius ir panaikina neigiamus efektus."
+
+msgid "brRepairkit/name"
+msgstr "Remonto komplektas"
+
+msgid "brRepairkit/short_special"
+msgstr "Suremontuoja modulius ir panaikina neigiamus efektus."
+
+msgid "br_bomber/battleDescr"
+msgstr "Apkurtina ir padaro nuo %(minDamage)s iki %(maxDamage)s žalos priešų mašinoms. Mašinos gebėjimo smūgio centre patiria daugiau žalos.\n\n*Smūgis įvyksta %(delay)s s po panaudojimo."
+
+msgid "br_bomber/descr"
+msgstr "Apkurtina ir padaro nuo %(minDamage)s iki %(maxDamage)s žalos priešų mašinoms. Mašinos gebėjimo smūgio centre patiria daugiau žalos.\n\n*Smūgis įvyksta %(delay)s s po panaudojimo."
+
+msgid "br_bomber/longDescr"
+msgstr "Apkurtina ir padaro {whiteSpanish_Open}nuo %(minDamage)s iki %(maxDamage)s žalos{whiteSpanish_Close} priešų mašinoms. Mašinos gebėjimo smūgio centre patiria daugiau žalos.\n\n*Smūgis įvyksta %(delay)s s po panaudojimo."
+
+msgid "br_bomber/name"
+msgstr "Aviasmūgis"
+
+msgid "br_bomber/shortDescr"
+msgstr "Apkurtina ir padaro {whiteSpanish_Open}nuo %(minDamage)s iki %(maxDamage)s žalos{whiteSpanish_Close} priešų mašinoms. Mašinos gebėjimo smūgio centre patiria daugiau žalos.\n\n*Smūgis įvyksta %(delay)s s po panaudojimo."
+
+msgid "br_minefield/battleDescr"
+msgstr "%(duration)s s užminuoja pasirinktą vietą žemėlapyje. Ant minų užvažiavę priešai bus apkurtinti ir bus pažeisti sprogimo.\n\n*Minas galima sunaikinti sviediniais. Po priešo mašina padėta mina NESUSPROGS."
+
+msgid "br_minefield/descr"
+msgstr "%(duration)s s užminuoja pasirinktą vietą žemėlapyje. Ant minų užvažiavę priešai bus apkurtinti ir bus pažeisti sprogimo.\n\n*Minas galima sunaikinti sviediniais. Po priešo mašina padėta mina NESUSPROGS."
+
+msgid "br_minefield/longDescr"
+msgstr "{whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} užminuoja pasirinktą vietą žemėlapyje. Ant minų užvažiavę priešai bus apkurtinti ir bus pažeisti sprogimo.\n\n*Minas galima sunaikinti sviediniais. Po priešo mašina padėta mina NESUSPROGS."
+
+msgid "br_minefield/name"
+msgstr "Minų laukas"
+
+msgid "br_minefield/shortDescr"
+msgstr "{whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} užminuoja pasirinktą vietą žemėlapyje. Ant minų užvažiavę priešai bus apkurtinti ir bus pažeisti sprogimo.\n\n*Minas galima sunaikinti sviediniais. Po priešo mašina padėta mina NESUSPROGS."
+
+msgid "br_respawn/name"
+msgstr "Sugrįžimas"
+
+msgid "br_respawn/platoon/descr"
+msgstr "Leidžia sugrįžti į mūšį, jei jūsų mašina sunaikinama. Ši funkcija veikia pirmas %(duration)s mūšio minutes.\n\nNorėdami sugrąžinti komandos narį turite %(timeToResurrect)s sekundžių nekovoti. Sugrįžimo užtaisais dalinasi visi būrio nariai."
+
+msgid "br_respawn/solo/descr"
+msgstr "Leidžia sugrįžti į mūšį, jei jūsų mašina sunaikinama. Ši funkcija veikia pirmas %(duration)s mūšio minutes.\n\nSunaikinta mašina sugrįš automatiškai."
+
+msgid "br_smoke/battleDescr"
+msgstr "Prideda %(duration)s sekundžių bonusą maskuotei visoms mašinoms, esančioms ekipuotės veikimo lauke."
+
+msgid "br_smoke/descr"
+msgstr "Prideda bonusą maskuotei visoms mašinoms, esančioms ekipuotės veikimo lauke."
+
+msgid "br_smoke/longDescr"
+msgstr "Prideda %(duration)s sekundžių bonusą maskuotei visoms mašinoms, esančioms ekipuotės veikimo lauke."
+
+msgid "br_smoke/name"
+msgstr "Dūmų uždanga"
+
+msgid "br_smoke/shortDescr"
+msgstr "Prideda bonusą maskuotei visoms mašinoms, esančioms ekipuotės veikimo lauke."
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "Visoms ekipuotės veikimo zonoje esančioms mašinoms suteikia daugiau maskuotės ir VISOMS veikimo zonoje esančioms mašinoms nuima po %(damagePerTick)s patvarumo taškų per sekundę. Veikia %(duration)s s.\n\n*Korozinio rūko žala nepaveikia laimikio paėmimo ir nesunaikina mašinų, palikdamas jas su bent 1 patvarumo tašku."
+
+msgid "br_smoke_with_damage/descr"
+msgstr "Visoms ekipuotės veikimo zonoje esančioms mašinoms suteikia daugiau maskuotės ir VISOMS veikimo zonoje esančioms mašinoms nuima po %(damagePerTick)s patvarumo taškų per sekundę. Veikia %(duration)s s.\n\n*Korozinio rūko žala nepaveikia laimikio paėmimo ir nesunaikina mašinų, palikdamas jas su bent 1 patvarumo tašku."
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "Visoms ekipuotės veikimo zonoje esančioms mašinoms suteikia daugiau maskuotės ir VISOMS veikimo zonoje esančioms mašinoms nuima {whiteSpanish_Open}po %(damagePerTick)s{whiteSpanish_Close} patvarumo taškų per sekundę. Veikia {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close}.\n\n*Korozinio rūko žala nepaveikia laimikio paėmimo ir nesunaikina mašinų, palikdamas jas su bent 1 patvarumo tašku."
+
+msgid "br_smoke_with_damage/name"
+msgstr "Korozinis rūkas"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "Visoms ekipuotės veikimo zonoje esančioms mašinoms suteikia daugiau maskuotės ir VISOMS veikimo zonoje esančioms mašinoms nuima {whiteSpanish_Open}po %(damagePerTick)s{whiteSpanish_Close} patvarumo taškų per sekundę. Veikia {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close}.\n\n*Korozinio rūko žala nepaveikia laimikio paėmimo ir nesunaikina mašinų, palikdamas jas su bent 1 patvarumo tašku."
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s modulių remonto greičiui"
+
+msgid "builtinRepairkit/long_special"
+msgstr "Aktyvavus suremontuoja visus pažeistus modulius. Pasyvus poveikis padidina remonto greitį. Ši ekipuotė tinka tam tikroms mašinoms."
+
+msgid "builtinRepairkit/name"
+msgstr "Standartinis didelis remonto komplektas"
+
+msgid "builtinRepairkit/onUse"
+msgstr "Suremontuoja visus sugadintus modulius. Galima panaudoti daug kartų viename mūšyje. Negali būti sunaudotas.\nŠi ekipuotė negali būti išimta, tačiau gali būti perkėlima į kitą vietą."
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "Suteikia mašinai 10% daugiau maskuotės"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "Visiems įgulos nariams duoda įgūdį Maskuotė ištreniruotą 100%"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "Maskuotės įgūdis sumažina pastebimumą mūšyje tiek stovinčioms, tiek ir judančioms mašinoms. Jeigu įgūdis išmoktas 100%, tai naudojama instrukcija dar labiau padidina įgūdžio efektą, jeigu įgūdis nesiekia 100%, tada instrukcija suteikia pilnai išmoktą įgūdį."
+
+msgid "camouflageBattleBooster/name"
+msgstr "Natūrali priedanga"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "Padidina įgūdžio Maskuotė efektą arba suteikia šį įgūdį ištreniruotą iki 100%"
+
+msgid "camouflageNet/battleDescr"
+msgstr "Padidina stovinčios mašinos maskuotę praėjus 3 sek. po sustojimo"
+
+msgid "camouflageNet/long_special"
+msgstr "Efektyvumas priklauso nuo mašinos tipo. Kamufliažinis tinklas daugiausiai naudos duoda besislepiančioms mašinoms: artilerijai ir prieštankiniams su žemu siluetu. Jis padidina maskuotės įgūdžio efektą. Jų derinys suteikia gerą bonusą mašinai. Kamufliažinis tinklas pradeda veikti praėjus 3 sekundėms po mašinos sustojimo."
+
+msgid "camouflageNet/name"
+msgstr "Kamufliažinis tinklas"
+
+msgid "camouflageNet/short_special"
+msgstr "Padidina stovinčios mašinos maskuotę"
+
+msgid "camouflageNet_tier2/name"
+msgstr "Kamufliažinis tinklas 2 klasė"
+
+msgid "camouflageNet_tier3/name"
+msgstr "Kamufliažinis tinklas 3 klasė"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose}įgulos efektyvumui viename mūšyje."
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} įgulos efektyvumo bonusui."
+
+msgid "chocolate/long_special"
+msgstr "Automatiškai aktyvuojasi mūšio pradžioje ir veikia viso mūšio metu. Tinka tik Vokietijos mašinoms."
+
+msgid "chocolate/name"
+msgstr "Šokoladas"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "Tinka tik vokiečių mašinoms."
+
+msgid "chocolate/short_special"
+msgstr "Pagerina vokiečių įgulų efektyvumą"
+
+msgid "clingBrander/battleDescr"
+msgstr "Iškviečia autonominį tanką su draugo ar priešo identifikavimo sistema ir persekioja bei atakuoja arčiausiai esantį priešą iki %(botLifeTime)s s.\n\n*Šį tanką galima sunaikinti."
+
+msgid "clingBrander/descr"
+msgstr "Iškviečia autonominį tanką su draugo ar priešo identifikavimo sistema ir persekioja bei atakuoja arčiausiai esantį priešą iki %(botLifeTime)s s.\n\n*Šį tanką galima sunaikinti."
+
+msgid "clingBrander/longDescr"
+msgstr "Iškviečia autonominį tanką su draugo ar priešo identifikavimo sistema ir persekioja bei atakuoja arčiausiai esantį priešą {whiteSpanish_Open}iki %(botLifeTime)s s.{whiteSpanish_Close}\n\n*Šį tanką galima sunaikinti."
+
+msgid "clingBrander/name"
+msgstr "Kovinis robotas"
+
+msgid "clingBrander/shortDescr"
+msgstr "Iškviečia autonominį tanką su draugo ar priešo identifikavimo sistema ir persekioja bei atakuoja arčiausiai esantį priešą {whiteSpanish_Open}iki %(botLifeTime)s s.{whiteSpanish_Close}\n\n*Šį tanką galima sunaikinti."
+
+msgid "clutches_replace_1/name"
+msgstr "Sankabos keitimas (1 tipas)"
+
+msgid "clutches_replace_2/name"
+msgstr "Sankabos keitimas (2 tipas)"
+
+msgid "coatedOptics/long_special"
+msgstr "Skirtingai nei Binokuliarinis teleskopas, Prašviesinta optika (bet kurio tipo) suteikia mažesnį bonusą apžvalgos atstumui, bet jis veikia ir judančioje mašinoje. Tad Prašviesinta optika labai tinkama mašinoms, propaguojančios aktyvų žaidimo stilių - lengviesiems ir vidutiniams tankams."
+
+msgid "coatedOptics/name"
+msgstr "Prašviesinta optika"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s matomumui, (bet ne daugiau nei 445 m) su sumontuota Prašviesinta optika (bet kurios klasės), Eksperimentinė optika ar Trofėjine optika."
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "Sustiprina Prašviesintos optikos, Eksperimentinės optikos ar Trofėjinės optikos poveikį mūšio metu. Norint sumontuoti ir aktyvuoti šią instrukciją, paminėta įranga turi būti sumontuota jūsų mašinoje."
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "Optikos kalibravimas"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "Sustiprina optikos poveikį"
+
+msgid "coatedOptics_tier1/name"
+msgstr "Prašviesinta optika 1 klasė"
+
+msgid "coatedOptics_tier2/name"
+msgstr "Prašviesinta optika 2 klasė"
+
+msgid "coatedOptics_tier3/name"
+msgstr "Prašviesinta optika 3 klasė"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose}įgulos efektyvumui viename mūšyje."
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} įgulos efektyvumo bonusui."
+
+msgid "cocacola/long_special"
+msgstr "Automatiškai aktyvuojasi mūšio pradžioje ir veikia viso mūšio metu. Tinka tik JAV mašinoms."
+
+msgid "cocacola/name"
+msgstr "Dėžė Kolos"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "Tinka tik amerikiečių mašinoms."
+
+msgid "cocacola/short_special"
+msgstr "Pagerina amerikiečių įgulų efektyvumą"
+
+msgid "commandersView/long_special"
+msgstr "Sumažina judančių priešų maskuotės ir augmenijos suteikiamos maskuotės koeficientus žvalgybos metu. Leidžia aptikti judančius priešus iš didesnio atstumo bei efektyviau pastebėti už krūmų ar nuvirtusių medžių besislepiančius priešus."
+
+msgid "commandersView/name"
+msgstr "Vado stebėjimo sistema"
+
+msgid "commandersView/short_special"
+msgstr "Sumažina judančių arba už augmenijos besislepiančių priešų maskuotę"
+
+msgid "corrodingShot/battleDescr"
+msgstr "Suteikia sviediniui korozinių savybių, kurios padidina jo pramušimą ir daromą žalą. Padaręs žalos priešui šūvis suteikia jam laikiną efektą, kuris per %(dotEffectDuration)s s iš priešo atima iki %(damagePerDotEffectDuration)s mašinos patvarumo taškų.\n\n*Šis efektas gali būti nutrauktas su remonto komplektu."
+
+msgid "corrodingShot/descr"
+msgstr "Suteikia sviediniui korozinių savybių, kurios padidina jo pramušimą ir daromą žalą. Padaręs žalos priešui šūvis suteikia jam laikiną efektą, kuris per %(dotEffectDuration)s s iš priešo atima iki %(damagePerDotEffectDuration)s mašinos patvarumo taškų.\n\n*Šis efektas gali būti nutrauktas su remonto komplektu."
+
+msgid "corrodingShot/longDescr"
+msgstr "Suteikia sviediniui korozinių savybių, kurios padidina jo pramušimą ir daromą žalą. Padaręs žalos priešui šūvis suteikia jam laikiną efektą, kuris {whiteSpanish_Open}per %(dotEffectDuration)s s{whiteSpanish_Close} iš priešo atima iki {whiteSpanish_Open}%(damagePerDotEffectDuration)s{whiteSpanish_Close} mašinos patvarumo taškų.\n\n*Šis efektas gali būti nutrauktas su remonto komplektu."
+
+msgid "corrodingShot/name"
+msgstr "Rūgštinis sviedinys"
+
+msgid "corrodingShot/shortDescr"
+msgstr "Suteikia sviediniui korozinių savybių, kurios padidina jo pramušimą ir daromą žalą. Padaręs žalos priešui šūvis suteikia jam laikiną efektą, kuris {whiteSpanish_Open}per %(dotEffectDuration)s s{whiteSpanish_Close} iš priešo atima iki {whiteSpanish_Open}%(damagePerDotEffectDuration)s{whiteSpanish_Close} mašinos patvarumo taškų.\n\n*Šis efektas gali būti nutrauktas su remonto komplektu."
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "Pagerina"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "Vado ypatybė"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} \"{name}\""
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "įgūdis:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "Duoda"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "įgūdis:"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "Pagerinta vertikalaus stabilizatoriaus ({colorTagOpen}–20%{colorTagClose} išbarstymui po šūvio, važiuojant ir sukant bokštelį) versija, kuri suteikia dar didesnį efektą: {colorTagOpen}–27.5%{colorTagClose} išbarstymui važiuojant ir sukant bokštelį. Ši įranga tinka visų nacijų atitinkamo tipo mašinoms, ją galima išmontuoti tik už bonus."
+
+msgid "deluxAimingStabilizer/name"
+msgstr "Stabilizavimo įrangos sistema"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "Pagerinta prašviesintos optikos ({colorTagOpen}+10%{colorTagClose} apžvalgos atstumui) versija, kuri suteikia dar didesnį efektą: {colorTagOpen}+13.5%{colorTagClose} apžvalgos atstumui. Ši įranga tinka visų nacijų ir tipų mašinoms, ją galima išmontuoti tik už bonus."
+
+msgid "deluxCoatedOptics/name"
+msgstr "Eksperimentinė optika"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "Pagerinta taikinio stiprintuvo ({colorTagOpen}+10%{colorTagClose} taikymosi greičiui) versija, kuri suteikia dar didesnį efektą: {colorTagOpen}+13.5%{colorTagClose} taikymosi greičiui. Ši įranga tinka visų nacijų ir tipų mašinoms, ją galima išmontuoti tik už bonus."
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "Atsparus taikinio stiprintuvas"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "Modifikuotos konfigūracijos analogas, suteikiantis stipresnį efektą. Ši įranga tinka visų tipų ir nacijų mašinoms. Išmontuojama tik už bonus."
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "Pagerinta konfigūracija"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "Pagreitina remontą, saugo amunicijos skyrių, kuro bakus ir variklį"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "Pagerinta ventiliacijos ({colorTagOpen}+5%{colorTagClose} įgulos efektyvumui) versija, kuri suteikia dar didesnį efektą: {colorTagOpen}+8.5%{colorTagClose} įgulos efektyvumui. Ši įranga tinka visų nacijų ir tipų mašinoms, ją galima išmontuoti tik už bonus."
+
+msgid "deluxImprovedVentilation/name"
+msgstr "Ventiliavimo sistema"
+
+msgid "deluxRammer/long_special"
+msgstr "Pagerinta įstūmiklio ({colorTagOpen}-10%{colorTagClose} užtaisymo laikui) versija, kuri suteikia dar didesnį efektą: {colorTagOpen}-13.5%{colorTagClose} užtaisymo laikui. Ši įranga tinka visų nacijų ir tipų mašinoms, ją galima išmontuoti tik už bonus."
+
+msgid "deluxRammer/name"
+msgstr "Inovatyvi užtaisymo sistema"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "Pagerinta Tyli išmetimo sistema, pasižyminti stipresniu efektu: padidina mašinos maskuotę mašinai stovint ir važiuojant. Naudinga aktyvioje žvalgyboje ir stovint rizikingose pozicijose.\nŠi įranga tinkama visų nacijų ir tipų mašinoms, bet jos efektyvumas priklauso nuo mašinos tipo. Išmontuojama tik naudojant bonus."
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "Maskuojanti išmetimo sistema"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "Padidina stovinčios ar važiuojančios mašinos maskuotę {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose}"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "Padidina stovinčios mašinos maskuotę praėjus 1.5 sek. po sustojimo"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "Pagerinta kamufliažinio tinklo versija, kurios efektyvumas priklauso nuo mašinos tipo. Taktinis maskuotės tinklas daugiausiai naudos duoda besislepiančioms mašinoms: artilerijai ir prieštankiniams su žemu siluetu. Jis padidina maskuotės įgūdžio efektą. Jų derinys suteikia gerą bonusą mašinai. Taktinis maskuotės tinklas pradeda veikti praėjus 1.5 sekundėms po mašinos sustojimo."
+
+msgid "deluxeCamouflageNet/name"
+msgstr "Taktinis maskuotės tinklas"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17.5{colorTagClose}/{colorTagOpen}12.5{colorTagClose}/{colorTagOpen}7.5%{colorTagClose} maskuotei, kai mašina sustojusi"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "Po remonto visiškai atstato važiuoklės patvarumo taškus."
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "Po remonto sutaiso važiuoklę."
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "Dar labiau pagerinta Pagerinto grūdinimo versija: {colorTagOpen}+12.5%{colorTagClose} mašinos patvarumo taškams, {colorTagOpen}+75%{colorTagClose} važiuoklės patvarumui, {colorTagOpen}+30%{colorTagClose}važiuoklės remonto greičiui, {colorTagOpen}–75%{colorTagClose} korpuso žalai, kurią sukelia važiuoklė po smūgio. Visiškai atstato važiuoklės patvarumo taškus remonto metu. Sumažina vikšro numušimo tikimybę patyrus žalą, o tai leidžia mašinai ilgiau važinėtis nesustojant. Ši įranga tinka visų nacijų visoms mašinoms (išskyrus artileriją). Išmontuoti galima tik už bonus."
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "Padidintas atsparumas sviediniams"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "Padidina mašinos patvarumą, apsaugo važiuoklę"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "Patobulinta Pagerintas sukimo mechanizmo versija, kuri suteikia dar stipresnį efektą: {colorTagOpen}+17.5% {colorTagClose} ginklo sukimosi greičiui, {colorTagOpen}+17.5% {colorTagClose} korpuso sukimosi greičiui ir {colorTagOpen}-17.5% {colorTagClose} išbarstymui judant ir sukant bokštelį. Ši įranga tinka visų nacijų ir tipų mašinoms. Išmontuoti galima tik už bonus."
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "Pagerinta finalinė pavara"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "Padidina sukimosi greitį ir sumažina ginklo išbarstymą judant ir sukant"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "Efektyvesnė Pagerinto taikymosi versija, suteikianti stipresnį efektą: sumažina taikymosi apskritimo dydį {colorTagOpen}9%{colorTagClose} taikymosi arba visiško nusitaikymo metu. Tai reiškia jog pabūklas turi didesnį šansą pataikyti į taikinį. Ši įranga tinkama visų nacijų mašinoms, išskyrus artilerijas. Išmontuoti galima tik su bonais."
+
+msgid "deluxeImprovedSights/name"
+msgstr "Inovatyvus taikymasis"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "Sumažina ginklo išbarstymą"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "Padidina stovinčios mašinos matymo lauką jei mašina stovi 1.5 sekundės (iki 445 m)"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "Pagerinta Binarinio teleskopo versija. Geras apžvalgos atstumas suteikia ženklų pranašumą mūšyje. Šio tipo įranga labai tinkama žemo silueto prieštankiniams turintiems taiklius pabūklus. Įranga aktyvuojasi praėjus 1.5 sekundėms po mašinos sustojimo."
+
+msgid "deluxeStereoscope/name"
+msgstr "Teleskopinė stebėjimo sistema"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27.5%{colorTagClose} matymo laukui, kai mašina stovi vietoje (iki 445 m)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "Pagerinta Turbokompresoriaus versija ({colorTagOpen}+7.5%{colorTagClose} variklio galiai, {colorTagOpen}+4 km/h{colorTagClose} prie maksimalaus greičio į priekį, {colorTagOpen}+2 km/h{colorTagClose} prie maksimalaus atbulinio greičio): {colorTagOpen}+12.5%{colorTagClose} variklio galiai, {colorTagOpen}+6 km/h{colorTagClose} prie maksimalaus greičio į priekį, {colorTagOpen}+4 km/h{colorTagClose} prie maksimalaus atbulinio greičio. Ši įranga tinka visų nacijų visų tipų mašinoms (išskyrus ratuotas mašinas). Išmontuoti galima tik už bonus."
+
+msgid "deluxeTurbocharger/name"
+msgstr "Pagerintas kompresorius"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "Pakelia variklio galią ir maksimalų greitį"
+
+msgid "eb_minefield/descr"
+msgstr "Tam tikram laikui pasirinktoje teritorijoje pakloja aktyvų minų lauką."
+
+msgid "eb_minefield/long_descr"
+msgstr "Tam tikram laikui pasirinktoje teritorijoje pakloja aktyvų minų lauką. Detonuota mina pažeidžia ir apkurtina priešų mašinas. Priešai gali aptikti minas būdami labai arti arba panaudoję rezervus Žvalgybinis skrydis ar Sergėtojas. Minas galima sunaikinti šūviais ir sprogimais."
+
+msgid "eb_minefield/name"
+msgstr "Minų laukas"
+
+msgid "eb_minefield/short_descr"
+msgstr "Tam tikram laikui pasirinktoje teritorijoje pakloja aktyvų minų lauką."
+
+msgid "eb_regenerationKit/descr"
+msgstr "Palaipsniui atstato tam tikrą jūsų mašinos patvarumo taškų procentą."
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "Palaipsniui atstato tam tikrą jūsų mašinos patvarumo taškų procentą. Padidina remonto greitį būnant Pasipildymo srityje. Aktyvuotas sumažina minų daromą žalą."
+
+msgid "eb_regenerationKit/name"
+msgstr "Remontas mūšio lauke"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "Palaipsniui atstato tam tikrą jūsų mašinos patvarumo taškų procentą."
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "Vieta garaže"
+
+msgid "empty_slot/name"
+msgstr "Vieta garaže"
+
+msgid "empty_slot/short_descr"
+msgstr "Kovinio rezervo vieta jau panaudota."
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "Padidina įgūdžio Garso aptikimas efektą 1,5 karto"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "Suteikia 100% ištreniruotą įgūdį Garso aptikimas"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "Įgūdis Garso aptikimas praneša apie priešo artilerijos ugnį ir sumažina gaunamo apkurtimo efektą. Jei įgūdis ištreniruotas iki 100%, pasirinkta instrukcija padidina jo efektą, jei ne, tai suteikia jūsų mašinai 100% ištreniruoto įgūdžio efektą."
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "Padidintas budrumas"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "Suteikia 100% ištreniruotą įgūdį Garso aptikimas arba padidina jo efektą"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "Pagerintas taikymasis sumažina taikymosi laiką. Mašina, kurioje sumontuotas taikinio stiprintuvas, šaudo taikliau (kartais ir greičiau, nes būna, kad užtaisymo laikas yra trumpesnis už nusitaikymo laiką)."
+
+msgid "enhancedAimDrives/name"
+msgstr "Taikinio stiprintuvas"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s taikymosi greičiui su sumontuotu Taikinio stiprintuvu (bet kurios klasės), Atspariu taikinio stiprintuvu, Trofėjiniu taikinio stiprintuvu ar Ugnies kontrolės sistema."
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "Sustiprina Trofėjinio taikinio stiprintuvo, Taikinio stiprintuvo ar Atsparaus taikinio stiprintuvo poveikį mūšio metu. Norint įsidėti ir panaudoti šią instrukciją, ši įranga turi būti sumontuota mašinoje."
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "Taikiklio nustatymas"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "Pagerina taikinio stiprintuvo efektą"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "Taikinio stiprintuvas 1 klasė"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "Taikinio stiprintuvas 2 klasė"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "Taikinio stiprintuvas 3 klasė"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "Sustiprintos Belvilio poveržlės"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "Po remonto visiškai atstato važiuoklės patvarumo taškus."
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Po remonto visiškai atstato važiuoklės patvarumo taškus"
+
+msgid "enhancedLevers/name"
+msgstr "Sustiprinti balansuokliai"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "Sustiprinta išilginė važiuoklė"
+
+msgid "enhancedSprings/name"
+msgstr "Sustiprintos spyruoklės"
+
+msgid "enhancedTorsions1t/name"
+msgstr "Sustiprinta važiuoklė 1 t klasė"
+
+msgid "enhancedTorsions3t/name"
+msgstr "Sustiprinta važiuoklė 3 t klasė"
+
+msgid "enhancedTorsions5t/name"
+msgstr "Sustiprinta važiuoklė 5 t klasė"
+
+msgid "exampleAbility/descr"
+msgstr "Testinis įgūdis Visual script"
+
+msgid "exampleAbility/name"
+msgstr "Testinis įgūdis"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s variklio galiai ir bokštelio sukimosi greičiui viename mūšyje."
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} variklio galiai ir bokštelio sukimosi greičiui."
+
+msgid "excellentFuel/long_special"
+msgstr "Suteikia {colorTagOpen}10%{colorTagClose} daugiau variklio galios ir bokštelio sukimosi greičio mūšyje. Automatiškai aktyvuojasi mūšio pradžioje ir veikia viso mūšio metu."
+
+msgid "excellentFuel/name"
+msgstr "Nepriekaištingas kuras"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} variklio galiai ir bokštelio sukimosi greičiui"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "Po remonto visiškai atstato važiuoklės patvarumo taškus."
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "Po remonto sutaiso važiuoklę."
+
+msgid "extraHealthReserve/long_special"
+msgstr "Padidina mašinos patvarumą ir remonto greitį. Sumažina žalą korpusui, kurią po smūgio nulemia važiuoklė. Po remonto visiškai atstato važiuoklės patvarumo taškus. Sumažina vikšro sunaikinimo tikimybę patyrus žalą, ir taip leidžia mašinai ilgiau važiuoti."
+
+msgid "extraHealthReserve/name"
+msgstr "Pagerintas grūdinimas"
+
+msgid "extraHealthReserve/short_special"
+msgstr "Padidina mašinos patvarumą, apsaugo važiuoklę"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "Pagerintas grūdinimas 1 klasė"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "Pagerintas grūdinimas 2 klasė"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "Pagerintas grūdinimas 3 klasė"
+
+msgid "fireCircle/battleDescr"
+msgstr "Sukuria ugnies ratą aplink jūsų mašiną, kuris sumažina priešų mobilumą rato viduje ir per %(timer)s s nuima iki %(damagePerTickForInterval)s patvarumo taškų.\n\n*Ugnies rato veikimo laukas pasilieka vietoje ir neseka jūsų mašinos judėjimo."
+
+msgid "fireCircle/descr"
+msgstr "Sukuria ugnies ratą aplink jūsų mašiną, kuris sumažina priešų mobilumą rato viduje ir per %(timer)s s nuima iki %(damagePerTickForInterval)s patvarumo taškų.\n\n*Ugnies rato veikimo laukas pasilieka vietoje ir neseka jūsų mašinos judėjimo."
+
+msgid "fireCircle/longDescr"
+msgstr "Sukuria ugnies ratą aplink jūsų mašiną, kuris sumažina priešų mobilumą rato viduje ir {whiteSpanish_Open}per %(timer)s s{whiteSpanish_Close} nuima {whiteSpanish_Open}iki %(damagePerTickForInterval)s{whiteSpanish_Close} patvarumo taškų.\n\n*Ugnies rato veikimo laukas pasilieka vietoje ir neseka jūsų mašinos judėjimo."
+
+msgid "fireCircle/name"
+msgstr "Ugnies žiedas"
+
+msgid "fireCircle/shortDescr"
+msgstr "Sukuria ugnies ratą aplink jūsų mašiną, kuris sumažina priešų mobilumą rato viduje ir {whiteSpanish_Open}per %(timer)s s{whiteSpanish_Close} nuima {whiteSpanish_Open}iki %(damagePerTickForInterval)s{whiteSpanish_Close} patvarumo taškų.\n\n*Ugnies rato veikimo laukas pasilieka vietoje ir neseka jūsų mašinos judėjimo."
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "Padidina įgūdžio Gaisro gesinimas efektą 1,5 karto"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "Suteikia 100% ištreniruotą įgūdį Gaisro gesinimas"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "Gaisro gesinimo įgūdis pagreitina gaisro užgesinimą mašinoje mūšio metu. Jeigu įgūdis išmoktas 100%, tai naudojama instrukcija dar labiau padidina įgūdžio efektą, jeigu įgūdis nesiekia 100%, tada instrukcija suteikia pilnai išmoktą įgūdį."
+
+msgid "fireFightingBattleBooster/name"
+msgstr "Patyręs ugniagesys"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "Padidina įgūdžio Gaisro gesinimas efektą arba suteikia šį įgūdį ištreniruotą iki 100%"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "Įsako artilerijai šaudyti į nurodytą zoną, daro žalą visoms zonoje esančioms mašinoms."
+
+msgid "fort_aoe_artillery/name"
+msgstr "Artilerijos smūgis"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "Įsako artilerijai šaudyti į nurodytą zoną, daro žalą visoms zonoje esančioms mašinoms."
+
+msgid "fort_inspire/longDescr"
+msgstr "Suteikia bonusą įgulos narių pagrindinėms kvalifikacijoms ir visiems įgūdžiams, poveikį suteikia ir šalia esančioms sąjungininkų mašinų įguloms."
+
+msgid "fort_inspire/name"
+msgstr "Motyvacija"
+
+msgid "fort_inspire/shortDescr"
+msgstr "Suteikia bonusą įgulos narių pagrindinėms kvalifikacijoms ir visiems įgūdžiams, poveikį suteikia ir šalia esančioms sąjungininkų mašinų įguloms."
+
+msgid "fuel_system_revision_1/name"
+msgstr "Kuro sistema peržiūrėjimas (1 tipas)"
+
+msgid "grousers/long_special"
+msgstr "Padidina mašinos sukimosi greitį ir palaiko greitį važiuojant visais reljefo tipais. Duoda didesnį efektą važiuojant minkštu ir vidutiniškai minkštu gruntu. Didžiausią poveikį duoda kartu su Virtuozo ir Bekelės karaliaus įgūdžiais."
+
+msgid "grousers/name"
+msgstr "Papildiniai gruntui užkabinti"
+
+msgid "grousers/short_special"
+msgstr "Padidina mašinos sukimosi greitį ir pagerina akceleraciją"
+
+msgid "grousers_tier1/name"
+msgstr "Papildiniai gruntui užkabinti 1 klasė"
+
+msgid "grousers_tier2/name"
+msgstr "Papildiniai gruntui užkabinti 2 klasė"
+
+msgid "grousers_tier3/name"
+msgstr "Papildiniai gruntui užkabinti 3 klasė"
+
+msgid "gun_balancing_1/name"
+msgstr "Ginklo balansavimas (1 tipas)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "Gaisro gesinimas jūsų mašinoje."
+
+msgid "handExtinguishers/long_special"
+msgstr "Panaudojus gesina gaisrą mašinoje. Tinka visų tipų ir nacijų mašinoms. Po mūšio, jeigu buvo panaudota nors kartą, pašalinama."
+
+msgid "handExtinguishers/name"
+msgstr "Rankinis gesintuvas"
+
+msgid "handExtinguishers/onUse"
+msgstr "Gaisro gesinimas jūsų mašinoje. Mūšyje galima panaudoti daug kartų. Po mūšio ekipuotė pašalinama, jeigu buvo panaudota nors kartą."
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "Gesina gaisrą"
+
+msgid "healPoint/battleDescr"
+msgstr "Sukuria zoną aplink jūsų mašiną. Šioje zonoje žaidėjas ir būrio nariai per %(duration)s s atgauna %(healPerTick)s savo mašinų patvarumo taškų."
+
+msgid "healPoint/descr"
+msgstr "Sukuria zoną aplink jūsų mašiną. Šioje zonoje žaidėjas ir būrio nariai per %(duration)s s atgauna %(healPerTick)s savo mašinų patvarumo taškų."
+
+msgid "healPoint/longDescr"
+msgstr "Sukuria zoną aplink jūsų mašiną. Šioje zonoje žaidėjas ir būrio nariai per {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} {green_Open}atgauna %(healPerTick)s{green_Close} savo mašinų patvarumo taškų."
+
+msgid "healPoint/name"
+msgstr "Atsistatymo zona"
+
+msgid "healPoint/shortDescr"
+msgstr "Sukuria zoną aplink jūsų mašiną. Šioje zonoje žaidėjas ir būrio nariai per {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} {green_Open}atgauna %(healPerTick)s{green_Close} savo mašinų patvarumo taškų."
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s įgulos efektyvumui viename mūšyje."
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} įgulos efektyvumo bonusui."
+
+msgid "hotCoffee/long_special"
+msgstr "Automatiškai aktyvuojasi mūšio pradžioje ir veikia viso mūšio metu. Tinka tik Prancūzijos mašinoms."
+
+msgid "hotCoffee/name"
+msgstr "Stipri kava"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "Tinka tik prancūzų mašinoms."
+
+msgid "hotCoffee/short_special"
+msgstr "Pagerina prancūzų įgulų efektyvumą"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "Apsaugo vieną kartą nuo kuro bakų gaisro, amunicijos skyriaus sprogimo ir variklio sunaikinimo mūšyje, kai šie moduliai sunaikinami."
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "Apsaugo vieną kartą nuo kuro bakų gaisro, amunicijos skyriaus sprogimo ir variklio sunaikinimo mūšyje, kai šie moduliai sunaikinami."
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "Amunicijos skyrius apsaugotas nuo sprogimo"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "Neleido sprogti amunicijos skyriui"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "Variklis apsaugotas"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "Neleido susinaikinti varikliui"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "Kuro bakai apsaugoti nuo gaisro"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "Neleido užsidegti kuro bakams"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "Apsaugo vieną kartą nuo kuro bakų gaisro, amunicijos skyriaus sprogimo ir variklio sunaikinimo mūšyje, kai šie moduliai sunaikinami."
+
+msgid "improvedConfiguration/long_special"
+msgstr "Pagreitina remontą. Padidina amunicijos skyriaus, kuro bakų ir variklio patvarumą. Sumažina užtaisymo laiko pailgėjimą ir variklio galios praradimą pažeidus šiuos modulius. Sumažina variklio gaisro tikimybę. Apsaugo vieną kartą nuo kuro bakų gaisro, amunicijos skyriaus sprogimo ir variklio sunaikinimo mūšyje, kai šie moduliai sunaikinami. Didžiausią efektą suteikia kartu įgūdžiais Remontas, Saugus amunicijos skyrius, Švara ir tvarka."
+
+msgid "improvedConfiguration/name"
+msgstr "Modifikuota konfigūracija"
+
+msgid "improvedConfiguration/short_special"
+msgstr "Pagreitina remontą, saugo amunicijos skyrių, kuro bakus ir variklį"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s remonto greičiui su sumontuota Modifikuota konfigūracija (bet kurios klasės), Pagerinta konfigūracija ar Trofėjine saugumo technologija."
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "Sustiprina Modifikuotos konfigūracijos, Pagerintos konfigūracijos ar Trofėjinės saugumo technologijos poveikį mūšio metu. Norint sumontuoti ir aktyvuoti šią instrukciją, paminėta įranga turi būti sumontuota jūsų mašinoje."
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "Techninė apžiūra prieš kovą"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "Sustiprina Modifikuotos konfigūracijos poveikį"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "Modifikuota konfigūracija 1 klasė"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "Modifikuota konfigūracija 2 klasė"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "Padidina laiką, per kurį priešo mašina išlieka matoma išvažiavusi iš jūsų apžvalgos atstumo. Sumažina laiką, kai jūs išliekate matomi priešams. Didžiausią efektą galima pasiekti su įgūdžiais Menantis piktą ir Iš paskutiniųjų jėgų."
+
+msgid "improvedRadioCommunication/name"
+msgstr "Pagerintas radijo rinkinys"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "Padidina laiką, per kurį priešo mašina išlieka matoma, ir sumažina laiką, kai jūs išliekate matomi"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "Padidina korpuso ir bokštelio sukimosi greitį mašinoms su bokšteliu. Padidina korpuso ir ginklo pasukimo greitį mašinoms su nejudančiomis kabinomis. Sumažina ginklo išbarstymą judant, sukant korpusą ar bokštelį bei po šūvio. Didžiausią efektą galima pasiekti naudojant kartu su įgūdžiu Virtuozas."
+
+msgid "improvedRotationMechanism/name"
+msgstr "Pagerintas sukimo mechanizmas"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "Padidina sukimosi greitį ir sumažina ginklo išbarstymą judant ir sukant"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "Pagerintas sukimo mechanizmas 1 klasė"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "Pagerintas sukimo mechanizmas 2 klasė"
+
+msgid "improvedSights/long_special"
+msgstr "Sumažina taikymosi apskritimo dydį ir taip padidina taiklumą nusitaikančio ar pilnai nusitaikiusio pabūklo, dėl to ginklas turi didesnį šansą pataikyti į taikinį."
+
+msgid "improvedSights/name"
+msgstr "Pagerintas nusitaikymas"
+
+msgid "improvedSights/short_special"
+msgstr "Sumažina ginklo išbarstymą"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s taikiklio apskritimo dydžiui su sumontuotu Pagerintu nusitaikymu (bet kurios klasės), Taiklumo padidinimo sistema ar Trofėjiniu taikikliu."
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "Pagerina Trofėjinio taikiklio ar Pagerinto nusitaikymo efektą mūšio metu. Instrukcija veiks tik jeigu turėsite sumontuotą suderinamą įrangą."
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "Poliruotas objektyvas"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "Sumažina taikymosi apskritimą"
+
+msgid "improvedSights_tier1/name"
+msgstr "Pagerintas nusitaikymas 1 klasė"
+
+msgid "improvedSights_tier2/name"
+msgstr "Pagerintas nusitaikymas 2 klasė"
+
+msgid "improvedSights_tier3/name"
+msgstr "Pagerintas nusitaikymas 3 klasė"
+
+msgid "improvedVentilation/long_special"
+msgstr "Pagerina daug jūsų mašinos charakteristikų: apžvalgos atstumą, šaudymo spartą, taikymosi laiką, mašinos dinamiškumą ir kitas. Vis dėl to, norint pajusti ryškesnį efektą, įrangą reikėtų derinti su ginklo brolių įgūdžiu, kurį visa įgula turi mokėti 100%."
+
+msgid "improvedVentilation/name"
+msgstr "Pagerinta ventiliacija"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s įgulos efektyvumui su sumontuota Pagerinta ventiliacija (bet kurios klasės), Ventiliavimo sistema ar Trofėjine ventiliacija."
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "Sustiprina Pagerintos ventiliacijos (bet kurios klasės), Ventiliavimo sistemos ar Trofėjinės ventiliacijos poveikį mūšio metu. Norint sumontuoti ir aktyvuoti šią instrukciją, paminėta įranga turi būti sumontuota jūsų mašinoje."
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "Ortakių išvalymas"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "Sustiprina ventiliacijos poveikį"
+
+msgid "improvedVentilation_class1/name"
+msgstr "Pagerinta ventiliacija 1 klasė"
+
+msgid "improvedVentilation_class2/name"
+msgstr "Pagerinta ventiliacija 2 klasė"
+
+msgid "improvedVentilation_class3/name"
+msgstr "Pagerinta ventiliacija 3 klasė"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "Pagerinta ventiliacija 1 klasė"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "Pagerinta ventiliacija 2 klasė"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "Pagerinta ventiliacija 3 klasė"
+
+msgid "improved_suspension_1/name"
+msgstr "Pagerinta važiuoklė (1 tipas)"
+
+msgid "improved_suspension_2/name"
+msgstr "Pagerinta važiuoklė (2 tipas)"
+
+msgid "inspire/longDescr"
+msgstr "Pagerina mašinos ir visų aplink tam tikru atstumu esančių sąjungininkų mašinų efektyvumą, pridedant % bonusą pagrindinei kiekvieno įgulos nario specializacijai. Žaidėjas, kuris panaudoja, gauna didesnį efektą."
+
+msgid "inspire/name"
+msgstr "Motyvacija"
+
+msgid "inspire/shortDescr"
+msgstr "Prideda bonusą pagrindinei žaidėjo ir sąjungininkų įgulų specializacijai."
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "Stambaus kalibro artilerijos sviedinių įstūmiklis"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "Stambaus kalibro tanko sviedinių įstūmiklis"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s apkurtinimo trukmei\n%(crewHitChance)s apsaugai nuo įgulos sužeidimų"
+
+msgid "largeMedkit/descr"
+msgstr "Pagydo visus sužeistus įgulos narius ir pašalina apkurtinimo poveikį."
+
+msgid "largeMedkit/long_special"
+msgstr "Aktyvavus pagydo visus sužeistus įgulos narius ir pašalina apkurtinimo poveikį. Pasyvus poveikis suteikia įgulai apsaugą nuo sužeidimų. Ši ekipuotė tinka visų tipų ir nacijų mašinoms."
+
+msgid "largeMedkit/name"
+msgstr "Didelė vaistinėlė"
+
+msgid "largeMedkit/onUse"
+msgstr "Pagydo visus sužeistus įgulos narius. Mūšyje galima panaudoti daug kartų. Po mūšio ekipuotė pašalinama, jeigu buvo panaudota nors kartą."
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "Pagydo visus sužeistus įgulos narius ir pašalina apkurtinimo poveikį. Mūšyje galima panaudoti daug kartų. Po mūšio ekipuotė pašalinama, jeigu buvo panaudota nors kartą."
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "Pagydo visus sužeistus įgulos narius ir pašalina apkurtinimo poveikį"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s modulių remonto greičiui"
+
+msgid "largeRepairkit/descr"
+msgstr "Sutaiso visus pažeistus modulius."
+
+msgid "largeRepairkit/long_special"
+msgstr "Aktyvavus suremontuoja visus pažeistus modulius. Pasyvus poveikis padidina remonto greitį. Ši ekipuotė tinka visų tipų ir nacijų mašinoms."
+
+msgid "largeRepairkit/name"
+msgstr "Didelis remonto komplektas"
+
+msgid "largeRepairkit/onUse"
+msgstr "Sutaiso visus pažeistus modulius. Mūšyje galima panaudoti daug kartų. Po mūšio ekipuotė pašalinama, jeigu buvo panaudota nors kartą."
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "Suremontuoja visus pažeistus modulius"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "Papildomi 50% įgūdžiui Iš paskutiniųjų jėgų"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "Duoda įgūdį \"Iš paskutiniųjų jėgų\" ištreniruotą 100%"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "Įgūdis Iš paskutiniųjų jėgų suteikia progą perduoti priešo pozicijas dar 2 papildomas sekundes po mašinos sunaikinimo mūšyje. Jeigu įgūdis išmoktas 100%, tai naudojama instrukcija prideda 1 sekundę prie trukmės (bendra trukmė 3 sekundės), jeigu įgūdis nesiekia 100%, tada instrukcija suteikia pilnai 100% išmoktą įgūdį (standartinės 2 sekundės)."
+
+msgid "lastEffortBattleBooster/name"
+msgstr "Pirmiausia pareiga"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "Padidina įgūdžio Iš paskutiniųjų jėgų efektą arba suteikia šį įgūdį 100%"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "Vidutinio kalibro artilerijos sviedinių įstūmiklis"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "Vidutinio kalibro tanko sviedinių įstūmiklis"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "Ugnies kontrolės sistema T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "Ugnies kontrolės sistema T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "Ugnies kontrolės sistema T1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "Ugnies kontrolės sistema T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "Ugnies kontrolės sistema T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "Ugnies kontrolės sistema T2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "Ugnies kontrolės sistema T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "Ugnies kontrolės sistema T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "Ugnies kontrolės sistema T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "Išgyvenimo rinkinys T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "Išgyvenimo rinkinys T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "Išgyvenimo rinkinys T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "Išgyvenimo rinkinys T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "Išgyvenimo rinkinys T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "Išgyvenimo rinkinys T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "Išgyvenimo rinkinys T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "Išgyvenimo rinkinys T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "Išgyvenimo rinkinys T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "Taiklumo padidinimo sistema T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "Taiklumo padidinimo sistema T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "Taiklumo padidinimo sistema T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "Taiklumo padidinimo sistema T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "Taiklumo padidinimo sistema T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "Taiklumo padidinimo sistema T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "Taiklumo padidinimo sistema T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "Taiklumo padidinimo sistema T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "Taiklumo padidinimo sistema T3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "Mobilumo padidinimo sistema T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "Mobilumo padidinimo sistema T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "Mobilumo padidinimo sistema T1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "Mobilumo padidinimo sistema T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "Mobilumo padidinimo sistema T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "Mobilumo padidinimo sistema T2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "Mobilumo padidinimo sistema T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "Mobilumo padidinimo sistema T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "Mobilumo padidinimo sistema T3"
+
+msgid "nitro/battleDescr"
+msgstr "Padidina jūsų mašinos variklio galią %(enginePowerFactor)s ir maksimalų greitį %(maxSpeedFactor)s kartus %(consumeSeconds)s s."
+
+msgid "nitro/descr"
+msgstr "Padidina jūsų mašinos variklio galią %(enginePowerFactor)s ir maksimalų greitį %(maxSpeedFactor)s kartus %(consumeSeconds)s s."
+
+msgid "nitro/long_special"
+msgstr "Padidina jūsų mašinos variklio galią {green_Open}%(enginePowerFactor)s{green_Close} ir maksimalų greitį {green_Open}%(maxSpeedFactor)s{green_Close} kartus {whiteSpanish_Open}%(consumeSeconds)s s.{whiteSpanish_Close}"
+
+msgid "nitro/name"
+msgstr "Turbokompresorius"
+
+msgid "nitro/short_special"
+msgstr "Padidina jūsų mašinos variklio galią {green_Open}%(enginePowerFactor)s{green_Close} ir maksimalų greitį {green_Open}%(maxSpeedFactor)s{green_Close} kartus {whiteSpanish_Open}%(consumeSeconds)s s.{whiteSpanish_Close}"
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "Alternatyvi konfigūracija: Pagalbinis išdėstymas"
+
+msgid "passive_engineering/longDescr"
+msgstr "Suteikia bonusą užėmimo ir papildymo greičiui. Padidina pasipildymo greitį, sumažina pasipildymo srities atsinaujinimo laiką bei pagreitina svarbių taškų užėmimą arba kontrolės susigrąžinimą."
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "Jūs negalite panaudoti šio kovinio rezervo artilerijai."
+
+msgid "passive_engineering/name"
+msgstr "Inžinerija"
+
+msgid "passive_engineering/shortDescr"
+msgstr "Suteikia bonusą užėmimo greičiui, užėmimo blokavimui ir papildymui."
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "Netinka artilerijai"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "Patrigubina įgūdžio Saugus amunicijos skyrius efektą"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "Suteikia 100% ištreniruotą įgūdį Saugus amunicijos skyrius"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "Įgūdis Saugus amunicijos skyrius sustiprina amunicijos skyriaus atsparumą mūšyje. Jeigu įgūdis išmoktas 100%, tai naudojama instrukcija dar labiau padidina įgūdžio efektą, jeigu įgūdis nesiekia 100%, tada instrukcija suteikia pilnai išmoktą įgūdį."
+
+msgid "pedantBattleBooster/name"
+msgstr "Išdėlioti sviedinius"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "Suteikia įgūdžio Saugus amunicijos skyrius efektą arba suteikia šį įgūdį 100%"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "Per {colorTagOpen}%(delay)d sekundes{colorTagClose} pasirinkta teritorija bus apšaudyta artilerijos sviediniais. Bet koks {colorTagOpen}%(radius)d m {colorTagClose}atstumu pažeistas priešas gaus {colorTagOpen}%(damage)d{colorTagClose} žalos ir bus apkurtintas {colorTagOpen}%(stunDuration)d s{colorTagClose}."
+
+msgid "poi_artillery_aoe/name"
+msgstr "Artilerijos smūgis"
+
+msgid "poi_radar/descr"
+msgstr "Aktyvavus, visos mašinos liks matomos {colorTagOpen}%(duration)d s{colorTagClose}."
+
+msgid "poi_radar/name"
+msgstr "Divizijos radaras"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "Padvigubina įgūdžio Praktiškumas efektą"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "Suteikia 100% ištreniruotą įgūdį Praktiškumas"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "Įgūdis Praktiškumas trumpam sumažina ekipuotės atsistatymo laiką. Jeigu įgūdis išmoktas 100%, tai naudojama instrukcija dar labiau padidina įgūdžio efektą, jeigu įgūdis nesiekia 100%, tada instrukcija suteikia pilnai išmoktą įgūdį."
+
+msgid "practicalityBattleBooster/name"
+msgstr "Atidus pasiruošimas"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "Padidina įgūdžio Praktiškumas efektą arba suteikia šį įgūdį ištreniruotą iki 100%"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s variklio galiai ir bokštelio sukimosi greičiui viename mūšyje."
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5%{colorTagClose} variklio galiai ir bokštelio sukimosi greičiui."
+
+msgid "qualityFuel/long_special"
+msgstr "Suteikia {colorTagOpen}5%{colorTagClose} daugiau variklio galios ir bokštelio sukimosi greičio mūšyje. Automatiškai aktyvuojasi mūšio pradžioje ir veikia viso mūšio metu."
+
+msgid "qualityFuel/name"
+msgstr "Kokybiškas kuras"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "{colorTagOpen}+5%{colorTagClose} variklio galiai ir bokštelio sukimosi greičiui"
+
+msgid "radar/descr"
+msgstr "Aptinka priešų mašinas ir Karo grobį mini žemėlapyje."
+
+msgid "radar/name"
+msgstr "Radio aptikimas"
+
+msgid "rammer/long_special"
+msgstr "Šaudymo sparta yra svarbiausias mašinos parametras. Ši įranga yra viena iš naudingiausių mūšyje ir ji turėtų būti sumontuota jūsų mašinose. Mašinose su automatinio užtaisymo sistema įstumiklių sumontuoti negalima."
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s užtaisymo laikui su sumontuotu Įstumikliu (bet kokio tipo ir kalibro), Inovatyvia užtaisymo sistema ar Trofėjiniu įstumikliu."
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "Sustiprina Įstumiklio (bet kurio tipo ir kalibro pabūkluose), Trofėjinio įstumiklio ar Inovatyvios užtaisymo sistemos poveikį mūšio metu. Norint sumontuoti ir aktyvuoti šią instrukciją, paminėta įranga turi būti sumontuota jūsų mašinoje."
+
+msgid "rammerBattleBooster/name"
+msgstr "Tvarkingas amunicijos skyrius"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "Sustiprina įstumiklio poveikį"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "Padvigubina įgūdžio Menantis piktą efektą"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "Suteikia 100% ištreniruotą įgūdį Menantis piktą"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "Įgūdis Menantis piktą leidžia matyti priešą, į kurį nusitaikėte, dviem sekundėmis ilgiau prieš jam dingstant iš radarų. Jeigu įgūdis išmoktas 100%, tai naudojama instrukcija dar labiau padidina įgūdžio efektą, jeigu įgūdis nesiekia 100%, tada instrukcija suteikia pilnai išmoktą įgūdį."
+
+msgid "rancorousBattleBooster/name"
+msgstr "Dėmesys taikiniui"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "Suteikia įgūdžio Menantis piktą efektą arba suteikia šį įgūdį 100%"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s įgulos efektyvumui viename mūšyje."
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} įgulos efektyvumo bonusui."
+
+msgid "ration/long_special"
+msgstr "Automatiškai aktyvuojasi mūšio pradžioje ir veikia viso mūšio metu. Tinka tik SSRS mašinoms."
+
+msgid "ration/name"
+msgstr "Papildomas davinys"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "Tinka tik sovietų mašinoms."
+
+msgid "ration/short_special"
+msgstr "Pagerina sovietinių įgulų efektyvumą"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s įgulos efektyvumui viename mūšyje."
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} įgulos efektyvumo bonusui."
+
+msgid "ration_china/long_special"
+msgstr "Automatiškai aktyvuojasi mūšio pradžioje ir veikia viso mūšio metu. Tinka tik Kinijos mašinoms."
+
+msgid "ration_china/name"
+msgstr "Pagerintas racionas"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "Tinka tik kinų mašinoms."
+
+msgid "ration_china/short_special"
+msgstr "Pagerina kinų įgulų efektyvumą"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s įgulos efektyvumui viename mūšyje."
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} įgulos efektyvumo bonusui."
+
+msgid "ration_czech/long_special"
+msgstr "Automatiškai aktyvuojasi mūšio pradžioje ir veikia viso mūšio metu. Tinka tik Čekoslovakijos mašinoms."
+
+msgid "ration_czech/name"
+msgstr "Buchty"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "Tinka tik čekoslovakų mašinoms."
+
+msgid "ration_czech/short_special"
+msgstr "Pagerina čekoslovakų įgulų efektyvumą"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s įgulos efektyvumui viename mūšyje."
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} įgulos efektyvumo bonusui."
+
+msgid "ration_italy/long_special"
+msgstr "Automatiškai aktyvuojasi mūšio pradžioje ir veikia viso mūšio metu. Tinka tik Italijos mašinoms."
+
+msgid "ration_italy/name"
+msgstr "Spageti su mėsos padažu"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "Tinka tik italų mašinoms."
+
+msgid "ration_italy/short_special"
+msgstr "Pagerina italų įgulų efektyvumą"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s įgulos efektyvumui viename mūšyje."
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} įgulos efektyvumo bonusui."
+
+msgid "ration_japan/long_special"
+msgstr "Automatiškai aktyvuojasi mūšio pradžioje ir veikia viso mūšio metu. Tinka tik Japonijos mašinoms."
+
+msgid "ration_japan/name"
+msgstr "Onigiri"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "Tinka tik japonų mašinoms."
+
+msgid "ration_japan/short_special"
+msgstr "Pagerina prancūzų įgulų efektyvumą"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s įgulos efektyvumui viename mūšyje."
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} įgulos efektyvumo bonusui."
+
+msgid "ration_poland/long_special"
+msgstr "Automatiškai aktyvuojasi mūšio pradžioje ir veikia viso mūšio metu. Tinka tik Lenkijos mašinoms."
+
+msgid "ration_poland/name"
+msgstr "Duona su taukais"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "Tinka tik lenkų mašinoms."
+
+msgid "ration_poland/short_special"
+msgstr "Pagerina lenkų įgulų efektyvumą"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s įgulos efektyvumui viename mūšyje."
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} įgulos efektyvumo bonusui."
+
+msgid "ration_sweden/long_special"
+msgstr "Automatiškai aktyvuojasi mūšio pradžioje ir veikia viso mūšio metu. Tinka tik Švedijos mašinoms."
+
+msgid "ration_sweden/name"
+msgstr "Kava su cinamonine bandele"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "Tinka tik švedų mašinoms."
+
+msgid "ration_sweden/short_special"
+msgstr "Pagerina švedų įgulų efektyvumą"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s įgulos efektyvumui viename mūšyje."
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} įgulos efektyvumo bonusui."
+
+msgid "ration_uk/long_special"
+msgstr "Automatiškai aktyvuojasi mūšio pradžioje ir veikia viso mūšio metu. Tinka tik D. Britanijos mašinoms."
+
+msgid "ration_uk/name"
+msgstr "Pudingas su arbata"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "Tinka tik britų mašinoms."
+
+msgid "ration_uk/short_special"
+msgstr "Pagerina britų įgulų efektyvumą"
+
+msgid "recon/longDescr"
+msgstr "Duodą įsakymą žvalgybiniam lėktuvui, kuris skrisdamas nurodytu maršrutu aptinka priešus. Lėktuvas savo matymo zonoje aptinka priešus, kurie išlieka matomi tam tikrą laiką. Aptinka minų laukus."
+
+msgid "recon/name"
+msgstr "Žvalgybinis skrydis"
+
+msgid "recon/shortDescr"
+msgstr "Aptinka priešų mašinas ir minų laukus."
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} variklio galiai, bet pažeidžia variklį."
+
+msgid "removedRpmLimiter/long_special"
+msgstr "Padidina variklio galią {colorTagOpen}10%{colorTagClose} bet po truputį jį gadina. Galima įjungti ir išjungti mūšyje ne vieną kartą. Tinka tik Kinijos ir SSRS mašinoms."
+
+msgid "removedRpmLimiter/name"
+msgstr "Reguliatorius sukeliantis variklio apsukas"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s variklio galiai, bet pažeidžia variklį. Mūšyje galima naudoti daug kartų."
+
+msgid "removedRpmLimiter/restriction"
+msgstr "Tinka tik sovietų ir kinų mašinoms."
+
+msgid "removedRpmLimiter/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} variklio galiai, bet pažeidžia variklį"
+
+msgid "repairpoint/battleDescr"
+msgstr "Sukuria laikiną statinę erdvę, kurioje sutaisomi visi moduliai, panaikinami VISI neigiami efektai ir %(timer)s s kas sekundę atstatoma po %(healPerTick)s mašinos patvarumo taškų.\n\n*Kitos jūsų būrio mašinos taip pat atgaus patvarumo taškų."
+
+msgid "repairpoint/descr"
+msgstr "Sukuria laikiną statinę erdvę, kurioje sutaisomi visi moduliai, panaikinami VISI neigiami efektai ir %(timer)s s kas sekundę atstatoma po %(healPerTick)s mašinos patvarumo taškų.\n\n*Kitos jūsų būrio mašinos taip pat atgaus patvarumo taškų."
+
+msgid "repairpoint/long_special"
+msgstr "Sukuria laikiną statinę erdvę, kurioje sutaisomi visi moduliai, panaikinami VISI neigiami efektai ir {whiteSpanish_Open}%(timer)s s kas sekundę{whiteSpanish_Close} {green_Open}atstatoma po %(healPerTick)s{green_Close} mašinos patvarumo taškų.\n\n*Kitos jūsų būrio mašinos taip pat atgaus patvarumo taškų."
+
+msgid "repairpoint/name"
+msgstr "Remonto zona"
+
+msgid "repairpoint/short_special"
+msgstr "Sukuria laikiną statinę erdvę, kurioje sutaisomi visi moduliai, panaikinami VISI neigiami efektai ir {whiteSpanish_Open}%(timer)s s kas sekundę{whiteSpanish_Close} {green_Open}atstatoma po %(healPerTick)s{green_Close} mašinos patvarumo taškų.\n\n*Kitos jūsų būrio mašinos taip pat atgaus patvarumo taškų."
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "Vamzdžio įraižų valymas (1 tipas)"
+
+msgid "roleSlot/name"
+msgstr "Antros įrangos vietos kategorija"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "Pasyvinė saugumo sistema"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "Pasyvinė\nsaugumo sistema"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "Amunicijos skyriaus perkonfigūravimas"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "Amunicijos skyriaus\nperkonfigūravimas"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "Suremontuojami vikšrai"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "Suremontuojami\nvikšrai"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "Variklio skyriaus patobulinimai"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "Variklio skyriaus\npatobulinimai"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "Sustiprinta važiuoklė"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "Sustiprinta\nvažiuoklė"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "Išlengvinta važiuoklė"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "Išlengvinta\nvažiuoklė"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "Taikymosi pavaros prišlifavimas"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "Taikymosi pavaros\nprišlifavimas"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "Paralakso reguliavimas"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "Paralakso\nreguliavimas"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "Išmetimo sureguliavimas"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "Išmetimo\nsureguliavimas"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "Tinkamo kampo periskopas"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "Tinkamo kampo\nperiskopas"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "Užtaisymo mechanizmo sureguliavimas"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "Užtaisymo mechanizmo\nsureguliavimas"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "Taikymosi mechanizmo sureguliavimas"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "Taikymosi mechanizmo\nsureguliavimas"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "PTO sureguliavimas"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "PTO\nsureguliavimas"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "Elektrinė taikymosi pavara"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "Elektrinė\ntaikymosi pavara"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "Naujos taikymosi pavaros"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "Naujos\ntaikymosi pavaros"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "Ginklo uokso patobulinimai"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "Ginklo uokso\npatobulinimai"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "Bendras svorio sumažinimas"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "Bendras svorio\nsumažinimas"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "Bendras patvarumo padidinimas"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "Bendras patvarumo\npadidinimas"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "Matiniai dažai"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "Matiniai\ndažai"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "Papildoma atbulinė pavara"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "Papildoma\natbulinė pavara"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "Viršutinis skirstomojo veleno variklis"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "Viršutinis skirstomojo veleno\nvariklis"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "Pagerintas sviedinių įstūmiklis"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "Pagerintas\nsviedinių įstūmiklis"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "Papildoma triukšmo izoliacija"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "Papildoma\ntriukšmo izoliacija"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "Paminkštinimų pašalinimas"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "Paminkštinimų\npašalinimas"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "Pagalbinė saugumo sistema"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "Pagalbinė saugumo\nsistema"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "Išlengvintos tvirtinimo jungtys"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "Išlengvintos\ntvirtinimo jungtys"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "Elektros maitinimo perdarymas (1 variantas)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "Elektros maitinimo\nperdarymas (1 variantas)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "Elektros maitinimo perdarymas (2 variantas)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "Elektros maitinimo\nperdarymas (2 variantas)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "Sustiprinta platforma"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "Sustiprinta\nplatforma"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "Išlengvinta platforma"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "Išlengvinta\nplatforma"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "Dėmesys mobilumui"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "Dėmesys\nmobilumui"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "Dėmesys šaunamajai galiai"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "Dėmesys\nšaunamajai galiai"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "Sunkiasvoris ginklas"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "Sunkiasvoris\nginklas"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "Išlengvintas ginklas"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "Išlengvintas\nginklas"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "Galios atidavimo sureguliavimas (1 variantas)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "Galios atidavimo\nsureguliavimas (1 variantas)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "Galios atidavimo sureguliavimas (2 variantas)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "Galios atidavimo\nsureguliavimas (2 variantas)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "Sustiprintas korpusas"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "Sustiprintas\nkorpusas"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "Išlengvintas korpusas"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "Išlengvintas\nkorpusas"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Antirefleksinė optikos danga"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Antirefleksinė\noptikos danga"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Išorinė stebėjimo sistema"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Išorinė stebėjimo\nsistema"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Panoraminis tripleksas"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Panoraminis\ntripleksas"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Siaurų kampų stebėjimo įrenginys"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Siaurų kampų\nstebėjimo įrenginys"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "Sustiprintas pagrindinis karkasas"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "Sustiprintas pagrindinis\nkarkasas"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "Bokštelio skyriaus padidinimas"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "Bokštelio skyriaus\npadidinimas"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "Žvalgybinis komplektas"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "Žvalgybinis\nkomplektas"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "Puolimo rinkinys"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "Puolimo\nrinkinys"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "Kompleksinis patvarumo sustiprinimas"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "Kompleksinis patvarumo\nsustiprinimas"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "Kompleksinis taikymosi pagerinimas"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "Kompleksinis taikymosi\npagerinimas"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "Papildomi stebėjimo prietaisai"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "Papildomi\nstebėjimo prietaisai"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "Sustiprintos jungtys"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "Sustiprintos\njungtys"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "Užtaisymo mechanizmo sureguliavimas"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "Užtaisymo mechanizmo\nsureguliavimas"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "Taikymosi mechanizmo sureguliavimas"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "Taikymosi mechanizmo\nsureguliavimas"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "PTO sureguliavimas"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "PTO\nsureguliavimas"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "Elektrinė taikymosi pavara"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "Elektrinė\ntaikymosi pavara"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "Ginklo uokso patobulinimai"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "Ginklo uokso\npatobulinimai"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "Naujos taikymosi pavaros"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "Naujos\ntaikymosi pavaros"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "Įpurškimo sistemos sureguliavimas"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "Įpurškimo sistemos\nsureguliavimas"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "Matymo lauko sureguliavimas"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "Matymo lauko\nsureguliavimas"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "Modulių patvarumo padidinimas"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "Modulių patvarumo\npadidinimas"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "Lengvo lydinio tvirtinimo jungtys"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "Lengvo lydinio\ntvirtinimo jungtys"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "Ginklo uokso patobulinimai"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "Ginklo uokso\npatobulinimai"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "Naujos taikymosi pavaros"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "Naujos\ntaikymosi pavaros"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "Stambūs purkštukai"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "Stambūs\npurkštukai"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "Jautri optika"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "Jautri\noptika"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "Sustiprinti atraminiai ratukai"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "Sustiprinti\natraminiai ratukai"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "Išlengvinti atraminiai ratukai"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "Išlengvinti\natraminiai ratukai"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "Važiuoklės patobulinimai"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "Važiuoklės\npatobulinimai"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "Variklio patobulinimai"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "Variklio\npatobulinimai"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "Rinkinys Medžiotojas S"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "Rinkinys\nMedžiotojas S"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "Rinkinys Medžiotojas C"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "Rinkinys\nMedžiotojas C"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "Hidraulikos sureguliavimas (1 variantas)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "Hidraulikos\nsureguliavimas (1 variantas)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "Hidraulikos sureguliavimas (2 variantas)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "Hidraulikos\nsureguliavimas (2 variantas)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "Užtaisymo mechanizmo sureguliavimas"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "Užtaisymo mechanizmo\nsureguliavimas"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "Taikymosi mechanizmo sureguliavimas"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "Taikymosi mechanizmo\nsureguliavimas"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "Išgyvenamumo padidinimas"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "Išgyvenamumo\npadidinimas"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "Svorio sumažinimas"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "Svorio\nsumažinimas"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "Važiuoklė visiems gruntams"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "Važiuoklė visiems\ngruntams"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "Išlengvinta važiuoklė"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "Išlengvinta\nvažiuoklė"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "Paralakso reguliavimas"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "Paralakso\nreguliavimas"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "Taikymosi pavaros prišlifavimas"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "Taikymosi pavaros\nprišlifavimas"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "Garso izoliacija"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "Garso\nizoliacija"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "Elektrinė periskopo pavara"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "Elektrinė\nperiskopo pavara"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "Vožtuvų sureguliavimas (1 variantas)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "Vožtuvų sureguliavimas\n(1 variantas)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "Vožtuvų sureguliavimas (2 variantas)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "Vožtuvų sureguliavimas\n(2 variantas)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "Užtaisymo mechanizmo sureguliavimas"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "Užtaisymo mechanizmo\nsureguliavimas"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "Taikymosi mechanizmo sureguliavimas"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "Taikymosi mechanizmo\nsureguliavimas"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "Sustiprinta antiskeveldrinė apsauga"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "Sustiprinta\nantiskeveldrinė apsauga"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "Išlengvinta antiskeveldrinė apsauga"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "Išlengvinta\nantiskeveldrinė apsauga"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "Modulių patvarumo padidinimas"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "Modulių patvarumo\npadidinimas"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "Lengvo lydinio tvirtinimo jungtys"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "Lengvo lydinio\ntvirtinimo jungtys"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "Pakabos svirčių sureguliavimas"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "Pakabos svirčių\nsureguliavimas"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "Pagerintas taikiklis"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "Pagerintas\ntaikiklis"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "Turbokompresoriaus sureguliavimas"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "Turbokompresoriaus\nsureguliavimas"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "Antirefleksinė priekinių žibintų danga"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "Antirefleksinė\npriekinių žibintų danga"
+
+msgid "selfBuff/battleDescr"
+msgstr "%(duration)s s sumažina ginklo išbarstymą, %(gunAimingTime)s pagreitina taikymosi laiką, pagerina ginklo stabilizaciją ir šaudymo spartą.\n\n*Nesumažina laiko nuo sviedinio iššovimo iki to, kai pradedamas užtaisyti kitas sviedinys kasetėje, pabūkle ar konteineryje."
+
+msgid "selfBuff/descr"
+msgstr "%(duration)s s sumažina ginklo išbarstymą, %(gunAimingTime)s pagreitina taikymosi laiką, pagerina ginklo stabilizaciją ir šaudymo spartą.\n\n*Nesumažina laiko nuo sviedinio iššovimo iki to, kai pradedamas užtaisyti kitas sviedinys kasetėje, pabūkle ar konteineryje."
+
+msgid "selfBuff/longDescr"
+msgstr "{whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} sumažina ginklo išbarstymą ir {green_Open}%(gunAimingTime)s{green_Close} pagreitina taikymosi laiką, pagerina ginklo stabilizaciją ir šaudymo spartą.\n\n*Nesumažina laiko nuo sviedinio iššovimo iki to, kai pradedamas užtaisyti kitas sviedinys kasetėje, pabūkle ar konteineryje."
+
+msgid "selfBuff/name"
+msgstr "Taikinio sekimas"
+
+msgid "selfBuff/shortDescr"
+msgstr "{whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} sumažina ginklo išbarstymą ir {green_Open}%(gunAimingTime)s{green_Close} pagreitina taikymosi laiką, pagerina ginklo stabilizaciją ir šaudymo spartą.\n\n*Nesumažina laiko nuo sviedinio iššovimo iki to, kai pradedamas užtaisyti kitas sviedinys kasetėje, pabūkle ar konteineryje."
+
+msgid "shells_consumables_switch/name"
+msgstr "Alternatyvi konfigūracija: Pagrindinis išdėstymas"
+
+msgid "shotPassion/battleDescr"
+msgstr "%(duration)s s %(gunAimingTime)s sumažina jūsų ginklo taikymosi efektyvumą ir taiklumą, bet kiekvienas pramušęs priešą sviedinys padidina jūsų daromą žalą %(damageIncreasePerShot)s. Šis efektas gali būti taikomas iki 5 kartų. Nepataikyti arba žalos nepadarę šūviai atstato papildomą žalą iki 0.\n\n*Elektros iškrova taip pat padidina daromą žalą."
+
+msgid "shotPassion/descr"
+msgstr "%(duration)s s %(gunAimingTime)s sumažina jūsų ginklo taikymosi efektyvumą ir taiklumą, bet kiekvienas pramušęs priešą sviedinys padidina jūsų daromą žalą %(damageIncreasePerShot)s. Šis efektas gali būti taikomas iki 5 kartų. Nepataikyti arba žalos nepadarę šūviai atstato papildomą žalą iki 0.\n\n*Elektros iškrova taip pat padidina daromą žalą."
+
+msgid "shotPassion/longDescr"
+msgstr "{whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} {red_Open}%(gunAimingTime)s{red_Close} sumažina jūsų ginklo taikymosi efektyvumą ir taiklumą, bet kiekvienas pramušęs priešą sviedinys padidina jūsų daromą žalą {green_Open}%(damageIncreasePerShot)s.{green_Close} Šis efektas gali būti {whiteSpanish_Open}taikomas iki 5 kartų{whiteSpanish_Close}. Nepataikyti arba žalos nepadarę šūviai atstato papildomą žalą iki 0.\n\n*Elektros iškrova taip pat padidina daromą žalą."
+
+msgid "shotPassion/name"
+msgstr "Kylantis azartas"
+
+msgid "shotPassion/shortDescr"
+msgstr "{whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} {red_Open}%(gunAimingTime)s{red_Close} sumažina jūsų ginklo taikymosi efektyvumą ir taiklumą, bet kiekvienas pramušęs priešą sviedinys padidina jūsų daromą žalą {green_Open}%(damageIncreasePerShot)s.{green_Close} Šis efektas gali būti {whiteSpanish_Open}taikomas iki 5 kartų{whiteSpanish_Close}. Nepataikyti arba žalos nepadarę šūviai atstato papildomą žalą iki 0.\n\n*Elektros iškrova taip pat padidina daromą žalą."
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "Šeštas jausmas aktyvuojamas 1 sekunde anksčiau"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "Šešto jausmo funkcija leidžia jūsų vadui nustatyti, ar jūsų mašina jau buvo pastebėta priešo. Aktyvuojamas 3 s po to, kai esate pastebimi."
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "Šešto jausmo įgūdis jums leidžia nustatyti, ar jūsų mašina buvo pastebėta priešo mūšyje. Naudojama instrukcija pagerina įgūdžio efektą."
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "Padidintas dėmesingumas"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "Padidina vado Šešto jausmo efektyvumą"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "Pagydo visus sužeistus įgulos narius ir pašalina apkurtinimo poveikį."
+
+msgid "smallMedkit/long_special"
+msgstr "Aktyvavus pagydo visus sužeistus įgulos narius ir pašalina apkurtinimo poveikį. Tinkama visų tipų ir nacijų mašinoms. Po mūšio ekipuotė pašalinama, jeigu buvo panaudota nors kartą."
+
+msgid "smallMedkit/name"
+msgstr "Maža vaistinėlė"
+
+msgid "smallMedkit/onUse"
+msgstr "Pagydo visus sužeistus įgulos narius ir pašalina apkurtinimo poveikį."
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "Pagydo visus sužeistus įgulos narius ir pašalina apkurtinimo poveikį."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "Pagydo visus sužeistus įgulos narius ir pašalina apkurtinimo poveikį."
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "Sutaiso visus pažeistus modulius."
+
+msgid "smallRepairkit/long_special"
+msgstr "Panaudojus sutaiso visus pažeistus modulius. Tinka visų tipų ir nacijų mašinoms. Po mūšio, jeigu buvo panaudota nors kartą, pašalinama."
+
+msgid "smallRepairkit/name"
+msgstr "Mažas remonto komplektas"
+
+msgid "smallRepairkit/onUse"
+msgstr "Sutaiso visus pažeistus modulius. Tinka visų tipų ir nacijų mašinoms. Po mūšio, jeigu buvo panaudota nors kartą, pašalinama."
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "Sutaiso visus pažeistus modulius."
+
+msgid "smoke/longDescr"
+msgstr "Paleidžia dūmų uždangą, kuri paslepia visas dūmuose ir už dūmų esančias mašinas. Priešų mašinoms, esančios dūmuose, sumažėja apžvalgos atstumas bei įgulos efektyvumas."
+
+msgid "smoke/name"
+msgstr "Dūmų uždanga"
+
+msgid "smoke/shortDescr"
+msgstr "Dūmai paslepia už jų esančias mašinas. Dūmuose sumažinamas apžvalgos atstumas ir įgulos efektyvumas."
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "Padvigubina įgūdžio Švelni eiga efektą"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "Suteikia 100% ištreniruotą įgūdį Švelni eiga"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "Įgūdis Švelni eiga pagerina šaudymo taiklumą važiuojant mūšio metu. Jeigu įgūdis išmoktas 100%, tai naudojama instrukcija dar labiau padidina įgūdžio efektą, jeigu įgūdis nesiekia 100%, tada instrukcija suteikia pilnai išmoktą įgūdį."
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "Greičių dėžės subtilybės"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "Suteikia įgūdžio Švelni eiga efektą arba suteikia šiam įgūdžiui 100%"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "Padvigubina įgūdžio \"Švelnus bokštelio sukimas\" efektą"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "Suteikia 100% ištreniruotą įgūdį Švelnus bokštelio sukimas"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "Įgūdis Švelnus bokštelio sukimas pagerina taiklumą sukant bokštelį viso mūšio metu. Jeigu įgūdis išmoktas 100%, tai naudojama instrukcija dar labiau padidina įgūdžio efektą, jeigu įgūdis nesiekia 100%, tada instrukcija suteikia pilnai išmoktą įgūdį."
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "Tvirta ranka"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "Suteikia įgūdžio Švelnus bokštelio sukimas efektą arba suteikia šiam įgūdžiui 100%"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "Paleidžia savaeigę miną, kuri iki %(botLifeTime)s s važiuos link artimiausio priešo ir susprogusi nedideliu spinduliu padarys nuo 400 iki 600 žalos.\n\n*Priešai gali sunaikinti jūsų Ugnies kamuolį sviediniu ar taranu. Pasiekęs taikinį Ugnies kamuolys padarys ir tarano žalos."
+
+msgid "spawn_kamikaze/descr"
+msgstr "Paleidžia savaeigę miną, kuri iki %(botLifeTime)s s važiuos link artimiausio priešo ir susprogusi nedideliu spinduliu padarys nuo 400 iki 600 žalos.\n\n*Priešai gali sunaikinti jūsų Ugnies kamuolį sviediniu ar taranu. Pasiekęs taikinį Ugnies kamuolys padarys ir tarano žalos."
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "Paleidžia savaeigę miną, kuri iki {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close} važiuos link artimiausio priešo ir susprogusi nedideliu spinduliu padarys {whiteSpanish_Open}nuo 400 iki 600 žalos{whiteSpanish_Close}.\n\n*Priešai gali sunaikinti jūsų Ugnies kamuolį sviediniu ar taranu. Pasiekęs taikinį Ugnies kamuolys padarys ir tarano žalos."
+
+msgid "spawn_kamikaze/name"
+msgstr "Ugnies kamuolys"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "Paleidžia savaeigę miną, kuri iki {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close} važiuos link artimiausio priešo ir susprogusi nedideliu spinduliu padarys {whiteSpanish_Open}nuo 400 iki 600 žalos{whiteSpanish_Close}.\n\n*Priešai gali sunaikinti jūsų Ugnies kamuolį sviediniu ar taranu. Pasiekęs taikinį Ugnies kamuolys padarys ir tarano žalos."
+
+msgid "stealthRadar/descr"
+msgstr "Suteikia bonusą maskuotei ir apžvalgos atstumui. Sumažina priešų mašinų maskuotę."
+
+msgid "stealthRadar/long_descr"
+msgstr "Praėjus %(activationDelay)s s po sustojimo padidina jūsų mašinos maskuotės parametrus ir sumažina priešų mašinų maskuotę. Suteikia pasyvų bonusą apžvalgos atstumui ir aptinka priešų minas. Neveikia mašinai judant."
+
+msgid "stealthRadar/name"
+msgstr "Sergėtojas"
+
+msgid "stealthRadar/short_descr"
+msgstr "Suteikia bonusą maskuotei ir apžvalgos atstumui. Sumažina priešų mašinų maskuotę."
+
+msgid "stereoscope/battleDescr"
+msgstr "Padidina stovinčios mašinos apžvalgos atstumą praėjus 3 sek. po sustojimo (iki 445 m)"
+
+msgid "stereoscope/long_special"
+msgstr "Geras apžvalgos atstumas suteikia ženklų pranašumą mūšyje. Šio tipo įranga labai tinkama žemo silueto prieštankiniams turintiems taiklius pabūklus. Įranga aktyvuojasi praėjus 3 sekundėms po mašinos sustojimo."
+
+msgid "stereoscope/name"
+msgstr "Binokuliarinis teleskopas"
+
+msgid "stereoscope_tier1/name"
+msgstr "Binokulinis teleskopas 1 klasė"
+
+msgid "stereoscope_tier2/name"
+msgstr "Binokulinis teleskopas 2 klasė"
+
+msgid "stereoscope_tier3/name"
+msgstr "Binokulinis teleskopas 3 klasė"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "Važiuoklės komponentų pakeitimas (1 tipas)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "Važiuoklės komponentų pakeitimas (2 tipas)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "Sukimo mechanizmo prišlifavimas (1 tipas)"
+
+msgid "tankRammer/name"
+msgstr "Sviedinių įstūmiklis"
+
+msgid "tankRammer_tier1/name"
+msgstr "Sviedinių įstūmiklis 1 klasė"
+
+msgid "tankRammer_tier2/name"
+msgstr "Sviedinių įstūmiklis 2 klasė"
+
+msgid "thunderStrike/battleDescr"
+msgstr "Sukuria teritoriją, kurioje dažnai smogia %(thunderCount)s elektros iškrovos. Kiekviena iškrova padaro %(damage)s žalos mašinai ir laikinai sumažina priešo mašinos mobilumą gebėjimo veikimo lauke.\n\n*Pirmoji iškrova įvyksta praėjus %(delay)s s nuo gebėjimo aktyvavimo. Jo neigiamą efektą galima sumažinti su remonto komplektu."
+
+msgid "thunderStrike/descr"
+msgstr "Sukuria teritoriją, kurioje dažnai smogia %(thunderCount)s elektros iškrovos. Kiekviena iškrova padaro %(damage)s žalos mašinai ir laikinai sumažina priešo mašinos mobilumą gebėjimo veikimo lauke.\n\n*Pirmoji iškrova įvyksta praėjus %(delay)s s nuo gebėjimo aktyvavimo. Jo neigiamą efektą galima sumažinti su remonto komplektu."
+
+msgid "thunderStrike/longDescr"
+msgstr "Sukuria teritoriją, kurioje dažnai smogia %(thunderCount)s elektros iškrovos. Kiekviena iškrova padaro {whiteSpanish_Open}%(damage)s žalos{whiteSpanish_Close} mašinai ir laikinai sumažina priešo mašinos mobilumą gebėjimo veikimo lauke.\n\n*Pirmoji iškrova įvyksta praėjus %(delay)s s nuo gebėjimo aktyvavimo. Jo neigiamą efektą galima sumažinti su remonto komplektu."
+
+msgid "thunderStrike/name"
+msgstr "Elektros iškrova"
+
+msgid "thunderStrike/shortDescr"
+msgstr "Sukuria teritoriją, kurioje dažnai smogia %(thunderCount)s elektros iškrovos. Kiekviena iškrova padaro {whiteSpanish_Open}%(damage)s žalos{whiteSpanish_Close} mašinai ir laikinai sumažina priešo mašinos mobilumą gebėjimo veikimo lauke.\n\n*Pirmoji iškrova įvyksta praėjus %(delay)s s nuo gebėjimo aktyvavimo. Jo neigiamą efektą galima sumažinti su remonto komplektu."
+
+msgid "trappoint/battleDescr"
+msgstr "%(duration)s s sukuria zoną, kuri visoms viduje esančioms priešų mašinoms %(vehicleMaxSpeed)s sumažina mobilumą ir %(gunReloadTime)s padidina ginklo užsitaisymo ir taikymosi laiką."
+
+msgid "trappoint/descr"
+msgstr "%(duration)s s sukuria zoną, kuri visoms viduje esančioms priešų mašinoms %(vehicleMaxSpeed)s sumažina mobilumą ir %(gunReloadTime)s ginklo užsitaisymo ir taikymosi laiką."
+
+msgid "trappoint/long_special"
+msgstr "{whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} sukuria zoną, kuri visoms viduje esančioms priešų mašinoms {whiteSpanish_Open}%(vehicleMaxSpeed)s{whiteSpanish_Close} sumažina mobilumą ir {whiteSpanish_Open}%(gunReloadTime)s{whiteSpanish_Close} ginklo užsitaisymo ir taikymosi laiką."
+
+msgid "trappoint/name"
+msgstr "Spąstai"
+
+msgid "trappoint/short_special"
+msgstr "{whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} sukuria zoną, kuri visoms viduje esančioms priešų mašinoms {whiteSpanish_Open}%(vehicleMaxSpeed)s{whiteSpanish_Close} sumažina mobilumą ir {whiteSpanish_Open}%(gunReloadTime)s{whiteSpanish_Close} padidina ginklo užsitaisymo ir taikymosi laiką."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "Efektyvumas priklauso nuo mašinos tipo. Padidina stovinčios ir judančios mašinos maskuotę. Naudinga tiek aktyviai žvalgybai, tiek pasyviai žvalgybai rizikingose vietose."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "Trofėjinė išmetimo sistema"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "Padidina stovinčios ir judančios mašinos maskuotę."
+
+msgid "trophyBasicAimDrives/name"
+msgstr "Trofėjinis taikinio stiprintuvas"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "Padidina ginklo taikymosi greitį ir leidžia greičiau iššauti taiklius šūvius."
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "Trofėjinis stabilizatorius"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "Sumažina ginklo išbarstymą, kai šaudoma važiuojant ar sukantis."
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "Trofėjinė optika"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "Padidina apžvalgos atstumą tiek stovinčiai, tiek ir judančiai mašinai."
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "Po remonto visiškai atstato važiuoklės patvarumo taškus."
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "Po remonto sutaiso važiuoklę."
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "Padidina mašinos patvarumą ir remonto greitį. Sumažina žalą korpusui, kurią po smūgio nulemia važiuoklė. Po remonto visiškai atstato važiuoklės patvarumo taškus. Sumažina vikšro sunaikinimo tikimybę patyrus žalą, ir taip leidžia mašinai ilgiau važiuoti."
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "Trofėjinis grūdinimas"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "Padidina mašinos patvarumą, apsaugo važiuoklę"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "Trofėjinė saugumo technologija"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "Trofėjinis sukimo mechanizmas"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "Sumažina taikymosi apskritimo dydį ir taip padidina taiklumą nusitaikančio ar pilnai nusitaikiusio pabūklo, dėl to ginklas turi didesnį šansą pataikyti į taikinį."
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "Trofėjinis taikiklis"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "Sumažina ginklo išbarstymą"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "Trofėjinė ventiliacija"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "Pagerina įgulos efektyvumą, kuris turi teigiamą efektą daugumai mašinos charakteristikų."
+
+msgid "trophyBasicTankRammer/name"
+msgstr "Trofėjinis įstūmiklis"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "Pagreitina ginklo užtaisymą. Nėra ribojimų klasei."
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "Pakelia variklio galią, o tai suteikia geresnę akceleraciją, manevringumą ir geresnį įkalnių įveikimą. Padidina mašinos maksimalų greitį į priekį ir atgal. Tai leidžia greičiau užimti norimas pozicijas ar pabėgti nuo priešų."
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "Trofėjinis turbokompresorius"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "Pakelia variklio galią ir maksimalų greitį"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} {arrow} matymo atstumui, ne daugiau 445 m"
+
+msgid "trophyOptics/name"
+msgstr "Trofėjinė optika"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "Trofėjinė išmetimo sistema"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "Trofėjinis taikinio stiprintuvas"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "Trofėjinis stabilizatorius"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "Trofėjinė optika"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "Po remonto visiškai atstato važiuoklės patvarumo taškus."
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Po remonto sutaiso važiuoklę."
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "Trofėjinis grūdinimas"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "Trofėjinė saugumo technologija"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "Trofėjinis sukimo mechanizmas"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "Trofėjinis taikiklis"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "Trofėjinė ventiliacija"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "Trofėjinis įstūmiklis"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "Trofėjinis turbokompresorius"
+
+msgid "turbocharger/long_special"
+msgstr "Pakelia variklio galią, o tai suteikia geresnę akceleraciją, manevringumą ir geresnį įkalnių įveikimą. Padidina mašinos maksimalų greitį į priekį ir atgal. Tai leidžia greičiau užimti norimas pozicijas ar pabėgti nuo priešų."
+
+msgid "turbocharger/name"
+msgstr "Turbokompresorius"
+
+msgid "turbocharger/short_special"
+msgstr "Pakelia variklio galią ir maksimalų greitį"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s variklio galiai su sumontuotu Turbokompresoriumi (bet kurios klasės), Trofėjiniu turbokompresoriumi, Pagerintu kompresoriumi ar Mobilumo padidinimo sistema."
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "Pagerina Turbokompresoriaus (bet kurios klasės), Trofėjinio turbokompresoriaus ar Pagerinto kompresoriaus efektą vieno mūšio metu. Instrukcija veiks tik jeigu turėsite sumontuotą suderinamą įrangą."
+
+msgid "turbochargerBattleBooster/name"
+msgstr "Kuro filtro pakeitimas"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "Padidina variklio galią"
+
+msgid "turbocharger_tier1/name"
+msgstr "Turbokompresorius 1 klasė"
+
+msgid "turbocharger_tier2/name"
+msgstr "Turbokompresorius 2 klasė"
+
+msgid "turbocharger_tier3/name"
+msgstr "Turbokompresorius 3 klasė"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "Padvigubina įgūdžio \"Virtuozas\" efektą"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "Suteikia 100% ištreniruotą įgūdį Virtuozas"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "Virtuozo įgūdis padidina sukimosi greitį tiek stovinčioje, tiek ir judančioje mašinoje viso mūšio metu. Jeigu įgūdis išmoktas 100%, tai naudojama instrukcija dar labiau padidina įgūdžio efektą, jeigu įgūdis nesiekia 100%, tada instrukcija suteikia pilnai išmoktą įgūdį."
+
+msgid "virtuosoBattleBooster/name"
+msgstr "Koviniai kursai"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "Suteikia įgūdžio Virtuozas efektą arba suteikia šiam įgūdžiui 100%"

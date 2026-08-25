@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Tým <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "%(zoom)dx"
+
+msgid "attackReason/artilleryProtection"
+msgstr "Dělostřelecký úder"
+
+msgid "attackReason/artillery_sector"
+msgstr "Dělostřelecký úder"
+
+msgid "attackReason/bombers"
+msgstr "Nálet"
+
+msgid "battleCommunication/hint/description"
+msgstr "označíte pozici nebo umístíte značku"
+
+msgid "battleCommunication/hint/press"
+msgstr "Stisknutím"
+
+msgid "battleEndWarning/text"
+msgstr "Bitva končí za:"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "Textové a hlasové zprávy od tohoto hráče budou v této bitvě skryty."
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "Zablokovat zprávy od hráče"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "Zprávy od hráče na černé listině jsou zablokovány."
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "Akce není k dispozici"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "Textové a hlasové zprávy od tohoto hráče\nbudou znovu k dispozici."
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "Odblokovat zprávy od hráče"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "Došlo k technickému problému při načítání údajů o bojové zóně."
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "Údaje o bojové zóně pro toto vozidlo nejsou na této mapě k dispozici."
+
+msgid "battleProgress/hint/description"
+msgstr "pro prohlížení osobních misí"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "Klíčové klávesy nejsou přiřazeny"
+
+msgid "battleProgress/hint/press"
+msgstr "Stiskněte"
+
+msgid "battle_notifier/lose"
+msgstr "Porážka!"
+
+msgid "battle_notifier/tie"
+msgstr "Remíza!"
+
+msgid "battle_notifier/win"
+msgstr "Vítězství!"
+
+msgid "bot/boss"
+msgstr "Boss"
+
+msgid "bot/elite"
+msgstr "Elitní"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "NEBEZPEČÍ POŠKOZENÍ"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "MOTOR POŠKOZEN"
+
+msgid "chat_example/affirmative"
+msgstr "Potvrzuji!"
+
+msgid "chat_example/attack_enemy"
+msgstr "Požaduji palbu na <Enemy Name>!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "Útočím na <Enemy Name>!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "Obsaďte základnu!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "Braňte základnu!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "Pozor na <Sektor na minimapě>!"
+
+msgid "chat_example/attention_to_position"
+msgstr "Pozor na pozici!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "Zničte cíle"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "Zachraňte své tanky!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "Obsaďte zónu"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "Braňte cíle"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "Zachraňte své tanky!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "Braňte zóny"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "Posilte zónu"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "Posilte zónu"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "Posilte zónu"
+
+msgid "chat_example/going_there"
+msgstr "Jedu tam!"
+
+msgid "chat_example/help_me"
+msgstr "Pomoc!"
+
+msgid "chat_example/help_me_ex"
+msgstr "<Jméno spojence>, pomoc!"
+
+msgid "chat_example/negative"
+msgstr "Negativní!"
+
+msgid "chat_example/overheated_gun"
+msgstr "Dělo je přehřáté. Po dobu <Reload Time> s nelze střílet."
+
+msgid "chat_example/positive"
+msgstr "Potvrzuji!"
+
+msgid "chat_example/reloading_cassette"
+msgstr "K palbě připraven za <Doba nabíjení> s, granátů v zásobníku: <Počet granátů> ks."
+
+msgid "chat_example/reloading_gun"
+msgstr "Nabíjím! Zbývá <Doba nabíjení> s!"
+
+msgid "chat_example/reloading_ready"
+msgstr "Připraven k palbě!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "Připraven k palbě! Granátů v zásobníku: <Počet granátů> ks."
+
+msgid "chat_example/reloading_unavailable"
+msgstr "Došla munice."
+
+msgid "chat_example/spg_aim_area"
+msgstr "Mířím na <Sektor na minimapě>!"
+
+msgid "chat_example/supporting_ally"
+msgstr "<Ally Name>, potřebuji tvou pomoc!"
+
+msgid "chat_example/thanks"
+msgstr "<Ally Name>, děkuji!"
+
+msgid "chat_example/turn_back"
+msgstr "<Jméno spojence>, zpět!"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "Potvrzuji!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "Požaduji palbu na %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "Připraven k palbě! Útočím na %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "Došla munice! Požaduji palbu na %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "Útočím na %(target)s! Nabíjím, zbývá %(reloadTime)d s!"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "Obsadím základnu!"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "Obsazuji základnu %(strArg1)s!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "Útočím na %(target)s!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "Obsaďte základnu!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "Obsaďte základnu %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "Braňte základnu!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "Braňte základnu %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "Pozor na %(cellName)s!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Zničte cíl %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "Útočím na cíl %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Braňte cíl %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "Bráním cíl %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Pozor na pozici!"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "Pozor na %(gridId)s"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "Budu bránit základnu!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "Bráním základnu %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "Zničte cíle!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "Máte dost času k záchraně svých tanků!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "Čas se krátí, dejte do obsazení zóny vše!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "Braňte cíle!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "Musíme vydržet, zachraňte své tanky!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "Čas se krátí, braňte zóny za každou cenu!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "Zóna %(strArg1)s potřebuje vaši pomoc. Posilte ji!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "Zóna %(strArg1)s potřebuje vaši pomoc. Posilte ji!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "Zóna %(strArg1)s potřebuje vaši pomoc. Posilte ji!"
+
+msgid "chat_shortcuts/going_there"
+msgstr "Jedu na pozici!"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "Jedu na %(gridId)s"
+
+msgid "chat_shortcuts/help_me"
+msgstr "Pomoc!"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s, pomoc!"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "Přesuňte se k cíli: %(target)s"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "Přesouvám se k cíli: %(target)s!"
+
+msgid "chat_shortcuts/negative"
+msgstr "Negativní!"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "Dělo je přehřáté. Po dobu %(floatArg1)d s nelze střílet."
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s, potvrzuji!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "K palbě připraven za %(floatArg1)d s, granátů v zásobníku: %(int32Arg1)s ks."
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "Nabíjím! Zbývá %(floatArg1)d s!"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "Připraven k palbě!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "Připraven k palbě! Granátů v zásobníku: %(int32Arg1)s ks."
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "Došla munice."
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "Zaměřuji pozici. Jsem připraven k palbě!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "Pozoruji %(gridId)s! Došla munice!"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "Mířím na %(gridId)s. Připraven k palbě!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "Zaměřuji pozici. Nabíjím, zbývá %(reloadTime)d s!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "Mířím na %(gridId)s. Nabíjím, zbývá %(reloadTime)d s!"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s, pomohu ti!"
+
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s, děkuji!"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s, zpět!"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "Přejít na nastavení"
+
+msgid "commanderCam/hint/description"
+msgstr "Oddálením vstoupíte do taktického zobrazení"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "Doba obnovení: %(cooldownSeconds)s s"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "Slot pro spotřební doplňky"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "km/h"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "AP"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "APCR"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "HEAT"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "Velitel je raněn. Technické vlastnosti se snížily."
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "Velitel"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "Řidič je raněn. Rychlost pohybu a otáčení korby se snížila."
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "Řidič"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "Střelec je raněn. Přesnost se snížila."
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "Střelec"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "Druhý střelec je raněn. Přesnost se snížila."
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "Druhý střelec"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "Nabíječ je raněn. Rychlost nabíjení se snížila."
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "Nabíječ"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "Druhý nabíječ je raněn. Rychlost nabíjení se snížila."
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "Druhý nabíječ"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "Radista je raněn. Dosah signálu se snížil."
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "Radista"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "Druhý radista je raněn. Dosah signálu se snížil."
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "Druhý radista"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "Bedna s municí je poškozena. Rychlost nabíjení se snížila."
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "Bedna s municí vybuchla."
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "Bedna s municí je v pořádku."
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "Podvozek je poškozen."
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "Znehybněn: podvozek zničen."
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "Podvozek je v pořádku."
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "Poškozený motor. Snížený výkon."
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "Znehybněn: motor zničen."
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "Motor je v pořádku."
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "Palivová nádrž je poškozena."
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "Palivová nádrž zničena."
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "Palivová nádrž je v pořádku."
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "Poškozené dělo. Snížena přesnost."
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "Dělo zničeno. Nelze střílet."
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "Dělo je v pořádku."
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "Rádio je poškozeno."
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "Rádio zničeno. Dosah signálu se snížil."
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "Rádio je v pořádku."
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "Pozorovací periskop je poškozen."
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "Pozorovací periskop zničen. Dohled se snížil."
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "Pozorovací periskop je nepoškozen."
+
+msgid "damage_panel/devices/track/critical"
+msgstr "Podvozek je poškozen."
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "Znehybněn: podvozek zničen."
+
+msgid "damage_panel/devices/track/normal"
+msgstr "Podvozek je v pořádku."
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "Věž je poškozena. Rychlost otáčení snížena."
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "Nelze otáčet: věž zničena."
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "Věž je v pořádku."
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "Podvozek je poškozen."
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "Znehybněn: podvozek zničen."
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "Podvozek je neporušený."
+
+msgid "danger_zone/indicator"
+msgstr "Vaše vozidlo může být zničeno – opusťte nebezpečnou zónu!"
+
+msgid "destroyTimer/liftOver"
+msgstr "Zpátky na pásech..."
+
+msgid "devMaps/hint/description"
+msgstr "pro zobrazení prvků mapy"
+
+msgid "devMaps/hint/press"
+msgstr "Stiskněte"
+
+msgid "devMaps/mapInfo/info"
+msgstr "Na této mapě mohou nastat náhodné události. Tyto mapy lze vypnout v nastavení hry."
+
+msgid "devMaps/mapInfo/text"
+msgstr "Mapa s náhodnými událostmi"
+
+msgid "devices/ammo_bay"
+msgstr "bedna s municí"
+
+msgid "devices/chassis"
+msgstr "podvozek"
+
+msgid "devices/engine"
+msgstr "motor"
+
+msgid "devices/fuel_tank"
+msgstr "palivová nádrž"
+
+msgid "devices/gun"
+msgstr "dělo"
+
+msgid "devices/left_track"
+msgstr "levý pás"
+
+msgid "devices/radio"
+msgstr "rádio"
+
+msgid "devices/right_track"
+msgstr "pravý pás"
+
+msgid "devices/surveing_device"
+msgstr "pozorovací periskop"
+
+msgid "devices/track"
+msgstr "%(type)s pás"
+
+msgid "devices/track/left"
+msgstr "Levý"
+
+msgid "devices/track/main"
+msgstr "Náhradní"
+
+msgid "devices/track/outer"
+msgstr "Hlavní"
+
+msgid "devices/track/right"
+msgstr "Pravý"
+
+msgid "devices/turret_rotator"
+msgstr "pohon věže"
+
+msgid "devices/wheel"
+msgstr "Kolo"
+
+msgid "distance/meters"
+msgstr "%(meters)d m"
+
+msgid "dynamicSquad/ally/add"
+msgstr "Klikněte, abyste pozvali hráče do čety.\nHráč může vaši pozvánku přijmout buď během bitvy, nebo poté, co bitva skončí.%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\nPozor! Vaše skutečná přezdívka a značka klanu se zobrazí členům čety."
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\nPozor! Vaše skutečná přezdívka se zobrazí členům čety."
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "Tohoto spojence nelze pozvat do čety."
+
+msgid "dynamicSquad/ally/received"
+msgstr "Klikněte, abyste přijali pozvánku do čety.\nČeta bude založena během bitvy."
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "Pozvánka byla hráči odeslána.\nPokud jí přijme, připojí se k vaší četě buď během bitvy, nebo poté, co bitva skončí."
+
+msgid "dynamicSquad/enemy/add"
+msgstr "Klikněte, abyste pozvali hráče do čety.\nHráč může vaši pozvánku přijmout buď během bitvy, nebo poté, co bitva skončí.%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "Nepřítele nelze pozvat do čety."
+
+msgid "dynamicSquad/enemy/received"
+msgstr "Klikněte, abyste přijali pozvánku do čety.\nČeta bude založena poté, co bitva skončí."
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "Pozvánka byla hráči odeslána.\nPokud jí přijme, připojí se k vaší četě poté, co bitva skončí."
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "Stisknutím"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "zapnete hlasovou komunikaci"
+
+msgid "dynamicSquad/invite"
+msgstr "Pozvánka do čety"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "Poškození Náletem"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "Poškození Dělostřeleckým úderem"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "Poškození hlavním cílem"
+
+msgid "efficiencyRibbons/armor"
+msgstr "Poškození zastaveno"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "Asistence bojovými zálohami"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "Poškození díky odhalování"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "Poškození po vašem ochromení"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "Pás zničen"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "Poškození Berserkem"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "Úlohové zkušenosti"
+
+msgid "efficiencyRibbons/burn"
+msgstr "Zapálení"
+
+msgid "efficiencyRibbons/capture"
+msgstr "Obsazování nepřátelské základny"
+
+msgid "efficiencyRibbons/crits"
+msgstr "Kritický zásah"
+
+msgid "efficiencyRibbons/damage"
+msgstr "Způsobeno poškození"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "Poškození dělostřelecké salvy bitevní lodi"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "Poškození USS Frankford"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "Poškození Minami"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "Poškození Bojovým robotem"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "Poškození Žíravým granátem"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "Poškození Kruhem ohně"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "Poškození Elektrickým výbojem"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "Poškození Zónou"
+
+msgid "efficiencyRibbons/defence"
+msgstr "Odebrány body za obsazování"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "Zóna ubráněna"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "Způsobeno poškození"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "Cíl zničen"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "Cíl ubráněn"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "Zóna obsazena"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "Poškození ze zóny požáru"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "Vozidlo opraveno"
+
+msgid "efficiencyRibbons/kill"
+msgstr "Zničeno"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "Poškození minového pole"
+
+msgid "efficiencyRibbons/ram"
+msgstr "Náraz"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "Poškození požárem"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "Poškození Bojovým robotem"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "Poškození Žíravým granátem"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "Poškození Kruhem ohně"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "Poškození Minami"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "Poškození Žíravou mlhou"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "Poškození Elektrickým výbojem"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "Kritické poškození"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "Poškození výstřelem"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "Poškození Ohnivou koulí"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "Poškození nárazem"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "Poškození srážkou"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "Poškození Ohnivou koulí"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "Odhaleno"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "Poškození z destrukční zóny"
+
+msgid "efficiencyRibbons/stun"
+msgstr "Ochromení"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "Vozidlo opuštěno"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "Poškození dopadem"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "Sněhová bouře"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "Požár"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "Mlha"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "Silný déšť"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "Písečná bouře"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "Kouř"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "Tornádo"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "Skrýt týmové panely"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "Žádný panel"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Pro přepnutí mezi režimy stiskněte Ctrl + Tab)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "Ukázat jména hráčů, zničené cíle a ikony vozidel"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "Střední panel 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Pro přepnutí mezi režimy stiskněte Ctrl + Tab)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "Ukázat vozidla zničená hráčem a jméno a ikonu hráčova vozidla."
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "Střední panel 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Pro přepnutí mezi režimy stiskněte Ctrl + Tab)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "Ukázat zničené cíle a ikony vozidel"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "Krátký panel"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Pro přepnutí mezi režimy stiskněte Ctrl + Tab)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "Přepněte mezi zobrazením své vlastní či všech tří skupin."
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "Přepnout sloupce"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Pro přepnutí mezi režimy stiskněte Ctrl + Tab)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "Zničili jste vlajku!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "Vlajka obsazena!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "Vlajka doručena."
+
+msgid "flagNotification/flagInbase"
+msgstr "Doručte vlajku na velitelství."
+
+msgid "flags/timer"
+msgstr "%(time)s s..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "s..."
+
+msgid "grille/status/reload"
+msgstr "NABÍJENÍ..."
+
+msgid "grille/status/speedlimit"
+msgstr "OMEZENÍ RYCHLOSTI"
+
+msgid "helpScreen/hint/description"
+msgstr "pro zobrazení vlastností vozidla"
+
+msgid "helpScreen/hint/press"
+msgstr "Stiskněte"
+
+msgid "helpScreen/mapbox/description"
+msgstr "pro zobrazení prvků mapy"
+
+msgid "helpScreen/mapbox/press"
+msgstr "Stiskněte"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "pro aktivaci palebného/<font color='#F4B12C'><b>opevněného</b></font> režimu"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "pro aktivaci palebného/<font color='#F4B12C'><b>cestovního</b></font> režimu"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "pro aktivaci cestovního/<font color='#F4B12C'><b>opevněného</b></font> režimu"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "Není přiřazena klávesa pro změnu režimu"
+
+msgid "helpScreen/pillbox/press"
+msgstr "Stiskněte/<font color='#F4B12C'><b>Držte</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "Klíčové klávesy nejsou přiřazeny"
+
+msgid "hitMarker/blocked"
+msgstr "Pancíř nebyl prostřelen"
+
+msgid "hitMarker/critical"
+msgstr "Kritický zásah"
+
+msgid "hitMarker/missArmor"
+msgstr "Pancíř nebyl zasažen"
+
+msgid "hitMarker/ricochet"
+msgstr "Odražení"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "Clona nebyla prostřelena"
+
+msgid "hitMarker/trackBlocked"
+msgstr "Pás nebyl prostřelen"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "Kolo nebylo prostřeleno"
+
+msgid "levelProgress/maxLevel"
+msgstr "MAXIMÁLNÍ ÚROVEŇ VOZIDLA"
+
+msgid "marker/meters"
+msgstr "m"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "Vybavení „%(device)s“ zabránilo výbuchu bedny s municí"
+
+msgid "optDeviceResurrection/engine"
+msgstr "Vybavení „%(device)s“ zabránilo zničení motoru"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "Vybavení „%(device)s“ zabránilo požáru"
+
+msgid "penetration/high"
+msgstr "Vysoká"
+
+msgid "penetration/low"
+msgstr "Nízká"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "Sekundární podmínka:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "Primární podmínka:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "Pro tento režim bitvy nejsou aktivní žádné mise."
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "Pro tento typ vozidla nejsou aktivní žádné mise."
+
+msgid "personal_reserves/hint/description"
+msgstr "pro aktivaci osobní zálohy"
+
+msgid "personal_reserves/hint/press"
+msgstr "Stiskněte"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "Znehybněn: poškozený podvozek."
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "Znehybněn: posádka vyřazena z boje."
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "Znehybněn: poškozený motor."
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "Znehybněn: vozidlo zničeno."
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "Nelze střílet: posádka vyřazena z akce."
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "Nelze střílet: dělo je poškozeno."
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "Nelze střílet."
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "Nelze střílet: dělo je přehřáté."
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "Nabíjení děla."
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "Dokončuje se načítání."
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "Nelze střílet: došly granáty."
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "Nelze střílet: vozidlo zničeno."
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "Přepnutí není k dispozici: motor je zničený."
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "Přepnutí není k dispozici: Dělo je zničeno"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "Přepnutí není k dispozici: Zbývá jen jeden granát"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] je již aktivní."
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "[%(name)s] je neaktivní: žádný oheň."
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] není během čekání na obnovení k dispozici."
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "Lékařská pomoc není třeba: žádní zranění."
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] nepotřebuje ošetření."
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "Záloha ještě není připravena."
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "Pro aktivaci taktické schopnosti obsaďte %(name)s."
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "Moduly i velitel mají plnou výdrž. Nejsou potřeba opravy ani léčba."
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "Opravy nejsou třeba: všechny komponenty fungují."
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] netřeba opravovat, je plně funkční."
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "Nelze aktivovat spřaženou zbraň."
+
+msgid "player_messages/ALLY_HIT"
+msgstr "Zasáhli jste spojence %(entity)s!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s]: připraveno k použití."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "Dělostřelecká baterie je rozmístěna a připravena k palbě."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "Letadla jsou v dosahu a připravena k bombardování."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "Naše posádka je připravena povzbudit ostatní okolo sebe."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "Minové pole je připraveno k položení."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "Letoun se blíží a je připraven k průzkumu."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "Polní opravy jsou připraveny k použití."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "Baterie kouřové clony je rozložena a připravena k palbě."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "Strážce je připraven k použití."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "Dělostřelecká baterie hráče %(player)s pálí."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "Bombardéry hráče %(player)s jsou na cestě."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s vytváří zónu obnovení."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s aktivuje Povzbuzení."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s položil minové pole."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "%(player)s přivolal Průzkumný let."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s použil polní opravy."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s pokládá Kouřovou clonu."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s aktivoval Strážce."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s byl zničen Dělostřeleckým úderem."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s byl zničen Dělostřeleckým úderem."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s byl zničen Dělostřeleckým úderem."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s byl zničen Dělostřeleckým úderem."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s byl zničen Dělostřeleckým úderem."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s byl zničen Dělostřeleckým úderem."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Vozidlo zničeno úderem dělostřelectva."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s byl zničen Dělostřeleckým úderem."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s byl zničen Dělostřeleckým úderem."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s byl zničen Náletem."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s byl zničen Náletem."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "Spojenec %(target)s byl zničen spojencem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(attacker)s zničil %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vozidlo bylo zničeno spojencem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Spojenec %(target)s byl zničen zónou."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(attacker)s zničil %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "Nepřítel %(attacker)s zničil nepřítele %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vozidlo bylo zničeno hráčem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s byl zničen zónou."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "Spojenec %(target)s byl zničen."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s byl zničen."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vozidlo zničeno."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Zařízení [%(device)s] vybuchlo v ohni."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Zařízení [%(device)s] bylo zničeno výstřelem %(entity)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "Spojenec %(attacker)s utopil spojence %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(attacker)s utopil %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vozidlo bylo utopeno spojencem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "Spojenec %(target)s se utopil."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(attacker)s utopil %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "Nepřítel %(attacker)s utopil nepřítele %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vozidlo bylo utopeno hráčem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "Nepřítel %(target)s se utopil."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "Spojenec %(target)s byl utopen."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "%(target)s byl utopen."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vozidlo utopeno."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "Spojenec %(target)s byl zničen spojencem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(attacker)s zničil %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Vozidlo bylo zničeno spojencem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(attacker)s zničil %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "Nepřítel %(attacker)s zničil nepřítele %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Vozidlo bylo zničeno hráčem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "Spojenec %(target)s byl zničen."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s byl zničen."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "Posádka je vyřazena z akce."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Posádka byla vyřazena výstřelem hráče %(entity)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Posádka spojence %(target)s byla vyřazena spojencem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "Posádka hráče %(target)s byla vyřazena hráčem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Posádka byla vyřazena spojencem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Spojenec %(target)s vyřadil svou posádku."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Posádka hráče %(target)s byla vyřazena hráčem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Posádka nepřítele %(target)s byla vyřazena nepřítelem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Posádka byla vyřazena hráčem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Nepřítel %(target)s vyřadil svou posádku."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "Posádka spojence %(target)s byla vyřazena."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "Posádka hráče %(target)s byla vyřazena."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Posádka vyřazena."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Spojenec %(target)s zničen minovým polem."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s byl zničen."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(attacker)s zničil %(target)s minami."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(attacker)s zničil %(target)s minami."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s byl zničen minami."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "Spojenec %(attacker)s převrátil spojence %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s převrátil %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Vozidlo převráceno spojencem %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "Spojenec %(target)s se převrátil"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s převrátil %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "Nepřítel %(attacker)s převrátil nepřítele %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Vozidlo převráceno a zničeno hráčem %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "Nepřítel %(target)s se převrátil"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "Spojenec %(target)s převrácen"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s převrácen"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vozidlo převráceno a zničeno"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "Spojenec %(attacker)s zničil spojence %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(attacker)s zničil %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Vozidlo bylo zničeno spojencem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "Spojenec %(target)s byl rozdrcen."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(attacker)s zničil %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "Nepřítel %(attacker)s zničil nepřítele %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Vozidlo bylo zničeno hráčem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "Nepřítel %(target)s byl rozdrcen."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "Spojenec %(target)s byl zničen."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s byl zničen."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vozidlo zničeno."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s opustil své vozidlo."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s opustil své vozidlo."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Vozidlo zničeno při bombardování zóny."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s byl zničen během bombardování zóny."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s byl zničen během bombardování zóny."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Vozidlo zničeno úderem dělostřelectva."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s byl zničen Dělostřeleckým úderem."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s byl zničen Dělostřeleckým úderem."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "Spojenec %(attacker)s zničil %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "Spojenec %(attacker)s zničil %(target)s dělostřeleckým úderem."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "Spojenec %(attacker)s zničil %(target)s bombardováním."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s zničil %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s zničil %(target)s Dělostřeleckým úderem."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(attacker)s zničil %(target)s Náletem."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s zničil %(target)s (Palebná podpora)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s zničil %(target)s (Dělostřelecký úder)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "Spojenec %(target)s byl ztracen v boji."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "Spojenec %(target)s byl v bitvě ztracen po dělostřeleckém úderu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "Spojenec %(target)s byl v bitvě ztracen po bombardování."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s zničil %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(attacker)s zničil %(target)s Dělostřeleckým úderem."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(attacker)s zničil %(target)s Náletem."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s zničil %(target)s (Palebná podpora)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s zničil %(target)s (Dělostřelecký úder)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "Nepřítel %(attacker)s zničil nepřítele %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "Nepřítel %(attacker)s zničil nepřítele %(target)s dělostřeleckým úderem."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "Nepřítel %(attacker)s zničil nepřítele %(target)s bombardováním."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "Nepřítel %(target)s byl ztracen v boji."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "Nepřítel %(target)s byl v bitvě ztracen po dělostřeleckém úderu."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "Nepřítel %(target)s byl v bitvě ztracen po bombardování."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "Spojenec %(target)s byl zničen."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "Spojenec %(target)s byl zničen dělostřeleckým úderem."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "Spojenec %(target)s byl zničen bombardováním."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s byl zničen."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s byl zničen dělostřeleckým úderem."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s byl zničen Náletem."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s byl zničen"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s byl zničen"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "Nepřítel (neznámý) zničil %(target)s."
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Spojenec %(target)s byl zničen destrukční zónou."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Spojenec %(attacker)s rozdrtil spojence %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s rozdrtil %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vozidlo bylo rozdrceno spojencem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Spojenec %(target)s byl rozdrcen."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s rozdrtil %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Nepřítel %(attacker)s rozdrtil nepřítele %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vozidlo bylo rozdrceno hráčem %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Nepřítel %(target)s byl rozdrcen."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "Spojenec %(target)s byl rozdrcen."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s byl rozdrcen."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vozidlo rozdrceno."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s zničil cíl %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s zničil cíl %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "Zničili jste cíl %(target)s."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "Zařízení [%(device)s] je poškozeno ohněm."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "Výstřel hráče %(entity)s poškodil [%(device)s]."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "Zařízení [%(device)s] bylo zničeno ohněm."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "Zařízení [%(device)s] zničeno výstřelem %(entity)s."
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "Zařízení [%(device)s] opraveno."
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "Zařízení [%(device)s] je v provozu."
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "Zařízení [%(device)s] vzplálo po výstřelu hráče %(entity)s."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "Zařízení [%(device)s] bylo poškozeno zrychlením."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "Zařízení [%(device)s] bylo poškozeno odstraněním omezovače výkonu."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "Zařízení [%(device)s] bylo zničeno zrychlením."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "Zařízení [%(device)s] bylo zničeno odstraněním omezovače výkonu."
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "Požár byl uhašen."
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "[%(device)s] byl zraněn výstřelem hráče %(entity)s."
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] je zpět v akci."
+
+msgid "player_messages/allied_team_name"
+msgstr "Spojenci"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "Obsazení přátelské základny%s (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "Přátelská základna%s obsazena!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "Obsazování základny zablokováno"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "Obsazení základny%s (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "Základna%s obsazena!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "Obsazení nepřátelské základny%s (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "Nepřátelská základna%s obsazena!"
+
+msgid "player_messages/enemy_team_name"
+msgstr "Nepřátelé"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "Váš spojenec %(name)s použil taktickou schopnost %(equipment)s"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "Nepřítel použil taktickou schopnost %(equipment)s"
+
+msgid "player_messages/postmortem_caption"
+msgstr "Hráč %(name)s (%(type)s); Výdrž: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "Hráč: %(name)s; Výdrž: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "Vaše vozidlo (%(type)s) bylo zničeno"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "Nelze střílet: došly granáty."
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "Ovládání záznamu:"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "Levé tlačítko myši: přepínání mezi režimy kamery\nMezerník: pauza"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "Šipka doleva: přetočení zpět o 20 sekund (s Ctrl: 40 sekund)\nŠipka doprava: rychlý posun vpřed o 20 sekund (s Ctrl: 40 sekund)\nHome/End: skok na začátek/na konec\nŠipka nahoru/Šipka dolů: +/- rychlost přehrávání"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "Aktivována volná kamera"
+
+msgid "player_messages/replayPaused"
+msgstr "Pauza"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "Aktivována fixní kamera"
+
+msgid "player_messages/replaySpeedChange"
+msgstr "Rychlost přehrávání: %(speed)sx"
+
+msgid "player_messages/tank_in_fire"
+msgstr "Vozidlo hoří!"
+
+msgid "players_panel/state/large/body"
+msgstr "Zobrazit jména hráčů, zničené cíle a ikony vozidel s jejich názvy"
+
+msgid "players_panel/state/large/header"
+msgstr "Kompletní panel"
+
+msgid "players_panel/state/large/note"
+msgstr "(Ctrl + Tab přepíná mezi režimy)"
+
+msgid "players_panel/state/medium/body"
+msgstr "Zobrazit jména hráčů, zničené cíle a ikony vozidel"
+
+msgid "players_panel/state/medium/header"
+msgstr "Standardní panel 1"
+
+msgid "players_panel/state/medium/note"
+msgstr "(Ctrl + Tab přepíná mezi režimy)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "Zobrazit typy vozidel, zničené cíle a ikony vozidel"
+
+msgid "players_panel/state/medium2/header"
+msgstr "Standardní panel 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(Ctrl + Tab přepíná mezi režimy)"
+
+msgid "players_panel/state/none/body"
+msgstr "Skrýt týmový panel"
+
+msgid "players_panel/state/none/header"
+msgstr "Žádný panel"
+
+msgid "players_panel/state/none/note"
+msgstr "(Ctrl + Tab přepíná mezi režimy)"
+
+msgid "players_panel/state/short/body"
+msgstr "Zobrazit zničené cíle a ikony vozidel"
+
+msgid "players_panel/state/short/header"
+msgstr "Zkrácený panel"
+
+msgid "players_panel/state/short/note"
+msgstr "(Ctrl + Tab přepíná mezi režimy)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "Nepřítel"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "Esc > Zpět do garáže."
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "Vstupte do bitvy v jiném vozidle."
+
+msgid "postmortem/tips/freecam/button"
+msgstr "MEZERNÍK"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "Volná kamera"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "Aktivovat volnou kameru."
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "Volná kamera není dostupná"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "V tomto režimu není možné aktivovat volnou kameru."
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "Režim pozorovatele"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "Přepínání mezi spojeneckými vozidly."
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "Sledovat vozidlo"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "Namiřte kurzor na spojenecké vozidlo a klikněte levým tlačítkem myši, abyste ho sledovali."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "Vozidlo bylo zničeno hlavním cílem"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Vozidlo zničeno úderem dělostřelectva."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "Vozidlo bylo zničeno hlavním cílem"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "Vozidlo bylo zničeno Náletem"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "Vozidlo bylo zničeno Nájezdníkem."
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "Vozidlo zničeno Bojovým robotem."
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "Vozidlo zničeno Žíravým granátem."
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vozidlo zničeno v zakázané zóně spojencem"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vozidlo zničeno v zakázané zóně"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Nepodařilo se vám opustit nebezpečnou zónu"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Modul [%(device)s] zničen požárem"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modul [%(device)s] vybuchl po výstřelu hráče"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vozidlo utopeno spojencem"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vozidlo utopeno"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vozidlo utopeno"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "Vozidlo bylo zapáleno hráčem"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "Vozidlo zničeno Kruhem ohně."
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Posádka vyřazena po výstřelu hráče"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Posádka vyřazena po silné kolizi se spojeneckým vozidlem"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Posádka vyřazena silným nárazem"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Posádka vyřazena silným nárazem"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "Vozidlo zničeno Ohnivou koulí."
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Vozidlo zničeno v minovém poli"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "Vozidlo bylo zničeno minami"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Vozidlo převráceno spojencem"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Vozidlo převráceno nepřítelem"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vozidlo zničeno převrácením"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Vozidlo zničeno nárazem spojence"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Vozidlo zničeno nárazem"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vozidlo zničeno nárazem"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "Vaše vozidlo bylo zničeno"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Vozidlo zničeno bombardováním zóny."
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Vozidlo zničeno úderem dělostřelectva."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "Vozidlo zničeno výstřelem hráče"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "Vozidlo bylo zničeno Náletem."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "Vozidlo bylo zničeno Náletem."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Vozidlo zničeno dělostřeleckým úderem"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Vozidlo bylo zničeno Náletem"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vozidlo bylo zničeno destrukční zónou"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "Vozidlo zničeno Elektrickým výbojem."
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vozidlo rozdrceno spojencem"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vozidlo rozdrceno nepřítelem"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vozidlo rozdrceno"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "Vaše vozidlo bylo zničeno"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "V bitvě bude použita vybraná konfigurace:"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "Vyberte před koncem odpočítávání konfiguraci, která bude použita v bitvě."
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "Vybrat konfiguraci"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "Výběr konfigurace: {seconds} s"
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "Výběr konfigurace:"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "Rokle"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "Vyhlídka"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "Les"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "Cesta"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "Ulice"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "Ruiny"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "Most"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "Železnice"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "Město"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "Vesnice"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "Náměstí"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "Továrna"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "Kopec"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "Maják"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "Střed"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "Hrad"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "Větrný mlýn"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "Hory"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "Trasa A"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "Trasa B"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "Trasa C"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "Trasa D"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "Trasa E"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "Údolí"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "Ledovec"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "Objížďka"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "Kopce"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "Silnice"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "Hora"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "Bunkr"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "Hlavní třída"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "Zeď"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "Balvany"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "Dílny"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "Pole"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "Garáž"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "Uhlí"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "Lodě"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "Letadlová loď"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "Zákopy"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "Serpentiny"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "Sever"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "Jih"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "Západ"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "Východ"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "Hřeben"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "Zeppelin"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "Skladiště"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "Pobřeží"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "Řeka"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "Jezero"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "Močál"
+
+msgid "quickReply/hint/press"
+msgstr "Stiskněte"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "pro potvrzení"
+
+msgid "quickReply/hint/toCommend"
+msgstr "pro pochválení zpět"
+
+msgid "quickReply/hint/toHelp"
+msgstr "pro pomoc"
+
+msgid "quickReply/hint/toThank"
+msgstr "poděkujete"
+
+msgid "recovery/cooldown"
+msgstr "Vozidlo lze opustit za %(cooldown)s sekund"
+
+msgid "recovery/hint1"
+msgstr "Přidržte"
+
+msgid "recovery/hint2"
+msgstr "pro opuštění vozidla"
+
+msgid "repairPoint/title"
+msgstr "Opravy"
+
+msgid "repairPoint/unavailable"
+msgstr "Nedostupné"
+
+msgid "respawnView/additionalTip"
+msgstr "Chcete-li pokračovat, vyberte si vozidlo. Jestliže se všechna vozidla opravují, budete v bitvě pokračovat s prvním vozidlem, které bude k dispozici."
+
+msgid "respawnView/additionalTipLimited"
+msgstr "Pro pokračování si vyberte vozidlo. Zničené vozidlo nemůže být před skončením bitvy opraveno."
+
+msgid "respawnView/classNotAvailable"
+msgstr "Dosaženo limitu\nfronty"
+
+msgid "respawnView/cooldownLbl"
+msgstr "V opravě %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "Zničen"
+
+msgid "respawnView/disabledLbl"
+msgstr "Vozidlo není k dispozici"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "Není vybráno vhodné vozidlo"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "Vozidlo X. úrovně není ve skupině."
+
+msgid "respawnView/nextVehicleName"
+msgstr "Bitva pokračuje za "
+
+msgid "respawnView/title"
+msgstr "Vyberte vozidlo"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "Potvrzuji!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "Děkujeme za vaši účast na vývoji World of Tanks! Vašeho osobního přínosu si velice vážíme!"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "Děkovný dopis"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "Dostali jste odměnu!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "Blahopřejeme!"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "Potvrzuji!"
+
+msgid "rewardWindow/base/descText"
+msgstr "Získány odměny"
+
+msgid "rewardWindow/base/headerText"
+msgstr "Blahopřejeme"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "Získány odměny"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "Ošetřovatelský balíček India"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "Ošetřovatelský balíček Juliett"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "Na krabičky"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "Dostali jste velké krabičky s hodnotnými odměnami."
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "Dostali jste krabičky!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "Za splnění misí jste dostali malé krabičky s hodnotnými odměnami."
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "Nastal čas zjistit, co se v krabičce skrývá!"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "Potvrzuji!"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "Střádání kreditů pozastaveno. Prodlužte si prémiový účet WoT, abyste mohli v doplňování své kreditní rezervy."
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "Získány kredity"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "Kreditní rezerva otevřena"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "Blahopřejeme!"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "ANO, PANE!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "Blahopřejeme! Získali jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho dobře využijte na bojišti."
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "Ošetřovatelský balíček Delta"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "Dostali jste odměnu!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "NAVERBOVAT"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "Blahopřejeme! Získali jste nového speciálního rekruta, který je součástí Prime Gaming."
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "Ošetřovatelský balíček Alfa"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "Dostali jste odměnu!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "ANO, PANE!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "Ošetřovatelský balíček Battle Pass"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "ANO, PANE!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "Ošetřovatelský balíček Kosmos"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "ANO, PANE!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shození zásob, které je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "Ošetřovatelský balíček „Hvězdná noc“"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "Více"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "Ošetřovatelský balíček Červen"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "Ošetřovatelský balíček Červenec"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "Více"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shození zásob, které je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "Ošetřovatelský balíček „Desítka“"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shození zásob, které je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "World of Tanks: Sada Starlight"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shození zásob, které je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "Sada Queen Maeve"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shození zásob, které je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "Kolekce jmelí"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "Více"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "Kolekce „Velký úlovek“"
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "ANO, PANE!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "Blahopřejeme! Získali jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho dobře využijte."
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "Ošetřovatelský balíček Charlie"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "Dostali jste odměnu!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shození zásob, které je součástí Prime Gaming. Teď ho pořádně využijte."
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "Balíček „G.I. JOE: Duke“"
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shození zásob, které je součástí Prime Gaming. Teď ho pořádně využijte."
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "Balíček „G.I. JOE: Cobra“"
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "Více"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "Balíček „Rock Out!“"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "Balíček „Tichá lovkyně“"
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "Více"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "Balíček „Nový vzhled“"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "Více"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "Balíček „Letní pohoda“"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "Balíček „Vysoké napětí“"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "Více"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "Balíček „Opravdový děs“"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "Vikingové mezi námi"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "Více"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "Balíček „Nový začátek“"
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "Blahopřejeme! Dostali jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "Ošetřovatelský balíček Echo"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "Více"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "Retro vlny"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte!"
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "Adepta Sororitas"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "Pistolník"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "Za předplatné jste získali jedinečnou odměnu: Prime Gaming"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "Dielektrikum"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "Připraven k bitvě"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "Vpřed, Chrti!"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "Dýka"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Za předplatné jste získali jedinečnou odměnu: Prime Gaming"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "Čarodějnictví"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "Čas sletu"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "Přišel jsi do špatné čtvrti"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "Trhni si!"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "Za předplatné jste získali jedinečnou odměnu: Prime Gaming"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "Startovní hvizd"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "Vítězný gól"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "Nadčasová klasika"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Obdrželi jste jedinečnou odměnu z programu: Prime Gaming"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "Sváteční outfit"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "Okouzlující dárek"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "Významný dárek"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "Dvojitá oslava"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "Vybrat odměny"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Za předplatné jste získali jedinečnou odměnu: Prime Gaming"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "Konec civilizace"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "Oko pozorovatele"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "Anatomie kyborga"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "Byli jste odhaleni"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "Ošetřovatelský balíček Foxtrot"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "Ošetřovatelský balíček Golf"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "Ošetřovatelský balíček Hotel"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "Ošetřovatelský balíček Kilo"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "Ošetřovatelský balíček Lima"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "Naverbovat"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "Blahopřejeme! Obdrželi jste speciální shoz zásob, který je součástí Prime Gaming. Teď ho řádně využijte."
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "Ošetřovatelský balíček Mike"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "Odměny získány"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "Potvrzuji!"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "Členové vašeho klanu se spoléhají na vaši další účast\nv postupu služebním turnusem."
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "Prémie získána!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "Na služební turnus"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "Služební turnus"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "Potvrzuji!"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "Členové vašeho klanu se spoléhají na vaši další účast\nv postupu služebním turnusem."
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "Odměna získána!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "Na služební turnus"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "Služební turnus"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "Blahopřejeme!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "Naše četa"
+
+msgid "scorePanel/playerScore"
+msgstr "Váš přínos:"
+
+msgid "scorePanel/squadLbl"
+msgstr "Četa %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s mm Průbojný %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s mm Podkaliberní %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s mm Průbojně výbušný %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s mm Výbušný %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s mm Kumulativní %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "Průměrné poškození: %(value)s HP"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "Poškození za sekundu: %(value)s HP/s"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "Poloměr poškození: %(value)s m"
+
+msgid "shells_kinds/params/header"
+msgstr "Plné/částečné nabití"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "Průměrná průbojnost: %(value)s mm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "Rychlost granátu: %(value)s m/s"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "Trvání ochromení: %(minValue)s–%(maxValue)s s"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "pro přepnutí do palebného režimu"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "pro přepnutí do cestovního režimu"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "Klíčové klávesy nejsou přiřazeny"
+
+msgid "siegeMode/hint/press"
+msgstr "Stiskněte"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "pro aktivaci trysek na kapalné palivo"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "pro aktivaci raketových trysek"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "pro aktivaci sekvenčních raketových trysek"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "Zasáhněte nepřátelské vozidlo za získejte další efekt z Laserového značkovače cílů"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "pro přepnutí režimu motoru"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "pro změnu režimu palby"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "pro přepnutí režimu jízdy"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "pro aktivaci pomocného turbodmychadla"
+
+msgid "spotted/indicator"
+msgstr "Čas odhalení a obdržené poškození zvýšeno"
+
+msgid "spotted/seconds"
+msgstr "s"
+
+msgid "statistics/exit"
+msgstr "Stiskněte Escape pro návrat do garáže…"
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "Zničen hráčem: %s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "Obsazení základny: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "Poškozeno:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "Zásahů cíle: %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "Obdrženo zásahů: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "Obrana základny: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "Zničeno:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(posmrtně)"
+
+msgid "statistics/final/personal/shots"
+msgstr "Výstřelů: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "Detekováno:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "Všechna spojenecká vozidla zničena."
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "Všechna vozidla zničena!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "Všechna nepřátelská vozidla zničena."
+
+msgid "statistics/final/reasons/reason2"
+msgstr "Základna obsazena."
+
+msgid "statistics/final/reasons/reason3"
+msgstr "Čas bitvy vypršel."
+
+msgid "statistics/final/stats/credits"
+msgstr "Kredity:"
+
+msgid "statistics/final/stats/experience"
+msgstr "Zkušenosti:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "Zkušenosti (x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "Opraveno:"
+
+msgid "statistics/final/status/lose"
+msgstr "Porážka! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "Remíza! %s"
+
+msgid "statistics/final/status/win"
+msgstr "Vítězství! %s"
+
+msgid "statistics/header"
+msgstr "Statistiky bitvy"
+
+msgid "statistics/headers/header0"
+msgstr "č."
+
+msgid "statistics/headers/header1"
+msgstr "Hráč"
+
+msgid "statistics/headers/header2"
+msgstr "Vozidla"
+
+msgid "statistics/headers/header3"
+msgstr "Stav"
+
+msgid "statistics/headers/header4"
+msgstr "Zničeno"
+
+msgid "statistics/playerState/0"
+msgstr "zničeno"
+
+msgid "statistics/playerState/1"
+msgstr "mimo bitvu"
+
+msgid "statistics/playerState/2"
+msgstr "zničeno"
+
+msgid "statistics/playerState/3"
+msgstr "v bitvě"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "Sestava"
+
+msgid "statistics/tab/line_up/title"
+msgstr "Složení týmů"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "Osobní zálohy"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "Aktivace osobních záloh"
+
+msgid "statistics/tab/quests/header"
+msgstr "Mise"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "V tomto režimu bitvy jsou osobní mise nedostupné"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "Přejděte v garáži na záložku „Kampaň“ a vyberte si misi"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "Pro toto vozidlo nemáte žádné aktivní mise"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "Primární podmínka splněna"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "Všechny mise dokončeny"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "Aktivní"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "Zlepšení výsledku"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "Pozastaveno"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "Zobrazení postupu v misích není k dispozici"
+
+msgid "statistics/tabs/group"
+msgstr "Týmové úspěchy"
+
+msgid "statistics/tabs/heroes"
+msgstr "Hrdinové bitvy"
+
+msgid "statistics/tabs/personal"
+msgstr "Osobní úspěchy"
+
+msgid "statistics/team1title"
+msgstr "Spojenci"
+
+msgid "statistics/team2title"
+msgstr "Nepřátelé"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "Opusťte\ndestrukční zónu!"
+
+msgid "stun/indicator"
+msgstr "Posádka ochromena"
+
+msgid "stun/seconds"
+msgstr " s"
+
+msgid "tabStatsHint"
+msgstr "— Statistiky"
+
+msgid "tankmen/commander"
+msgstr "Velitel"
+
+msgid "tankmen/driver"
+msgstr "Řidič"
+
+msgid "tankmen/gunner"
+msgstr "Střelec"
+
+msgid "tankmen/loader"
+msgstr "Nabíječ"
+
+msgid "tankmen/radioman"
+msgstr "Radista"
+
+msgid "timer/battlePeriod"
+msgstr "Bitva končí za:"
+
+msgid "timer/started"
+msgstr "Bitva začíná!"
+
+msgid "timer/starting"
+msgstr "Bitva začíná za:"
+
+msgid "timer/waiting"
+msgstr "Čeká se na hráče…"
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "Stiskněte"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "pro přepnutí do režimu míření"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "Klíčové klávesy nejsou přiřazeny"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vozidlo bylo zničeno spojencem %(entity)s v zakázané zóně."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vozidlo bylo zničeno hráčem %(entity)s v zakázané zóně."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vozidlo bylo zničeno vjetím do nebezpečné zóny."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vozidlo bylo utopeno spojencem %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vozidlo bylo utopeno hráčem %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vozidlo utopeno."
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "Vozidlo bylo zničeno ohněm."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Vozidlo bylo zničeno spojencem %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Vozidlo bylo zničeno hráčem %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Posádka byla vyřazena z akce silným nárazem spojence %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Posádka byla vyřazena z akce silným nárazem hráče %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Posádka byla následkem silného nárazu vyřazena z akce."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Vozidlo převráceno spojencem %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Vozidlo převráceno nepřítelem %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Vozidlo zničeno převrácením"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Spojenec %(entity)s zničil vozidlo nárazem."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "%(entity)s zničil vozidlo nárazem."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vozidlo bylo zničeno při nárazu."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "Vozidlo bylo zničeno výstřelem hráče %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "%(entity)s zničil vozidlo dělostřeleckým úderem."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "%(entity)s zničil vozidlo bombardováním."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vozidlo bylo rozdrceno spojencem %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vozidlo bylo rozdrceno nepřítelem %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vozidlo rozdrceno."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "Spojenec %(entity)s poškodil zařízení [%(device)s] nárazem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "Spojenec %(entity)s poškodil zařízení [%(device)s] nárazem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Zařízení [%(device)s] poškozeno nárazem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "Nepřítel %(entity)s poškodil zařízení [%(device)s] nárazem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "Nepřítel %(entity)s poškodil zařízení [%(device)s] nárazem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "Zařízení [%(device)s] poškozeno nárazem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Silný náraz spojence %(entity)s poškodil zařízení [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Silný náraz spojence %(entity)s poškodil zařízení [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Zařízení [%(device)s] je následkem nárazu poškozeno."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Silný náraz nepřítele %(entity)s poškodil zařízení [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Silný náraz nepřítele %(entity)s poškodil zařízení [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Zařízení [%(device)s] je následkem nárazu poškozeno."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Zařízení [%(device)s] zničeno v minovém poli."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Zařízení [%(device)s] zničeno v minovém poli."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "Spojenec %(entity)s zničil zařízení [%(device)s] nárazem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "Spojenec %(entity)s zničil zařízení [%(device)s] nárazem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Zařízení [%(device)s] bylo zničeno nárazem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "Nepřítel %(entity)s zničil zařízení [%(device)s] nárazem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "Nepřítel %(entity)s zničil zařízení [%(device)s] nárazem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "Zařízení [%(device)s] bylo zničeno nárazem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Silný náraz spojence %(entity)s zničil zařízení [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Silný náraz spojence %(entity)s zničil zařízení [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Zařízení [%(device)s] bylo zničeno silným nárazem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Silný náraz nepřítele %(entity)s zničil zařízení [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Silný náraz nepřítele %(entity)s zničil zařízení [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Zařízení [%(device)s] bylo zničeno silným nárazem."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "Zařízení [%(device)s] začalo hořet následkem nárazu spojence %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "Zařízení [%(device)s] začalo hořet následkem nárazu spojence %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Zařízení [%(device)s] začalo následkem nárazu hořet."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "Zařízení [%(device)s] začalo hořet následkem nárazu nepřítele %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "Zařízení [%(device)s] začalo hořet následkem nárazu nepřítele %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "Zařízení [%(device)s] začalo následkem nárazu hořet."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] byl zraněn následkem silného nárazu spojence %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] byl zraněn následkem silného nárazu spojence %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] byl následkem nárazu zraněn."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] byl zraněn následkem silného nárazu nepřítele %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] byl zraněn následkem silného nárazu nepřítele %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] byl následkem nárazu zraněn."
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "Taktická schopnost %(equipment)s byla aktivována!"
+
+msgid "warning_zone/indicator"
+msgstr "Pozor! Jste v blízkosti nebezpečné zóny."

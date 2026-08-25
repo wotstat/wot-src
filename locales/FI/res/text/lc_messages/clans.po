@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "Klaanichat"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "Klikkaa kirjoittaaksesi ja lähettääksesi viesti klaanichattiin."
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "Klaanichat"
+
+msgid "clan/header/creationDate"
+msgstr "Luotu %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "Hakemukset ja kutsut"
+
+msgid "clan/header/requestSent"
+msgstr "Hakemus lähetetty"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "Lähetä hakemus"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "Klikkaa lähettääksesi hakemuksesi tähän klaaniin."
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "Lähetä hakemus"
+
+msgid "clan/post/combatOfficer"
+msgstr "Taistelu-upseeri"
+
+msgid "clan/post/commander"
+msgstr "Johtaja"
+
+msgid "clan/post/executiveOfficer"
+msgstr "Varajohtaja"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "Tiedustelu-upseeri"
+
+msgid "clan/post/juniorOfficer"
+msgstr "Nuorempi upseeri"
+
+msgid "clan/post/personnelOfficer"
+msgstr "Henkilöstöupseeri"
+
+msgid "clan/post/private"
+msgstr "Sotilas"
+
+msgid "clan/post/quartermaster"
+msgstr "Huoltopäällikkö"
+
+msgid "clan/post/recruit"
+msgstr "Alokas"
+
+msgid "clan/post/recruiter"
+msgstr "Rekrytointiupseeri"
+
+msgid "clan/post/reservist"
+msgstr "Reserviläinen"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "Virhe nimeä näyttäessä"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "Taulukon tiedot on päivitetty."
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "Värväyksen vaatimukset"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "Voidaan muokata"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "Klaanilla ei ole avoimia hakemuksia."
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "Klaanilla ei ole vanhentuneita hakemuksia."
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "Kutsu klaaniin"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "Klikkaa %(invite)s lähettääksesi\nkutsuja uusille pelaajille."
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "Klaani ei lähettänyt yhtään kutsua viimeisenä 28 päivänä."
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "Klaanilla ei ole yhtään avointa hakemusta viimeisenä 28 päivänä."
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "Klaanilla ei ole yhtään vanhentunutta viimeisenä 28 päivänä."
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "Klaanilla ei ole yhtään käsiteltyä hakemusta viimeisenä 28 päivänä."
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "Klaani ei ole käsitellyt hakemuksia."
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "Dataa ei vastaanotettu palvelimelta.\nYritä myöhemmin uudelleen."
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "Palvelinvirhe"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "Avoinna (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "Kaikki (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "Vanhentunut (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "Päätös saatu (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "Käsitelty (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "Vapaita paikkoja klaanissa: %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "Kutsu klaaniin"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "Sinulla on kolme päivää aikaa käsitellä liittymishakemus klaaniin. Hakemukset ja kutsut säilytetään 28 päivän ajan, jonka jälkeen ne poistetaan automaattisesti."
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "Ei voida kutsua pelaajia: klaani on täynnä."
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "Ei voida kutsua pelaajia: klaanin rekrytointi on tällä hetkellä suljettu."
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "Hyväksytty"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "%(days)d p käsitellä"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "Kieltäydytty"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "Virhe"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "Vanhentunut"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "%(hours)d t käsitellä"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "%(min)d min käsitellä"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "Lähetetty"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "Kutsut (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "Hakemukset (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "Toimet"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "Kutsu"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "Lähetetty"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "Näytä lisää"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "Tila"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "Pelaaja"
+
+msgid "clanInvitesWindow/title"
+msgstr "Hakemukset ja kutsut"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "Klikkaa kutsuaksesi pelaajia klaaniin."
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "Kutsulla pelaajalta:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "Kutsu hyväksytty."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "Kutsu evätty."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "Kutsu lähetetty."
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "Lähettäjä:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Tämä painike on käytössä vastaanotettaessa uutta dataa palvelimelta."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Klikkaa nähdäksesi uudet hakemukset ja kutsut."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "Päivitä lista"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "Päätöksentekijä:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "Hakemus hyväksytty."
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "Hakemus hylätty."
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "Hakemus vanhentui"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "Hakemus lähetetty."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "Ei voida lisätä uusia pelaajia: klaani on täynnä."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Pelaaja on poistunut klaanista äskettäin. Voit hyväksyä nämä klaaniin vasta:"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "Ei voida kutsua uusia pelaajia: klaani on täynnä."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Pelaajan, jolle kutsu lähetettiin, keskimääräinen kokemus taistelusta (mukaan lukien premium-tili)."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Keskimääräinen kokemus per taistelu"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Pelaajan taistelumäärä, jolle kutsu lähetettiin."
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Taisteluita"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "Klikkaa kutsuaksesi tämä pelaaja klaaniin."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Klaanin lähettämään kutsuun liitetty viesti."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Viesti"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "Pelaajan, jolle kutsu lähetettiin, henkilökohtainen luokitus."
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "Henkilökohtainen luokitus"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "Päivä ja aika, milloin klaanikutsu lähetettiin."
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "Lähetetty"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Klaanikutsun tila.\nKutsu voi olla avoin, vanhentunut tai käsitelty."
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Tila"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "Pelaajan nimi, jolle kutsu lähetettiin."
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "Pelaaja"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Pelaajan voittosuhde, jolle kutsu lähetettiin."
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Voitot"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Hakemus voidaan joko hyväksyä tai evätä."
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Toimet"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "Hakemuksen lähettäneen pelaajan keskimääräinen kokemus taistelusta (mukaan lukien premium-tili)."
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "Keskimääräinen kokemus per taistelu"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "Hakemuksen lähettäneen pelaajan taistelumäärä."
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "Taisteluita"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "Pelaajan hakemukseen liittämä viesti."
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "Viesti"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "Hakemuksen lähettäneen pelaajan henkilökohtainen luokitus"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "Henkilökohtainen luokitus"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "Klaanihakemuksen tila.\nHakemus voi olla avoin, vanhentunut tai käsitelty."
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "Tila"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "Hakemuksen lähettäneen pelaajan nimi."
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "Pelaaja"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "Hakemuksen lähettäneen pelaajan voittosuhde."
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "Voitot"
+
+msgid "clanLanding/notification/archived"
+msgstr "Viesti lähetettiin arkistoon."
+
+msgid "clanLanding/notification/commonError"
+msgstr "Tekninen virhe: viestin toiminnon suorittaminen ei onnistu."
+
+msgid "clanLanding/notification/deleted"
+msgstr "Viesti poistettu."
+
+msgid "clanLanding/notification/edited"
+msgstr "Viesti lähetetty."
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "Merkkien maksimimäärä ylitettiin."
+
+msgid "clanLanding/notification/limitReached"
+msgstr "Klaanissa on jo lähetetty maksimimäärä viestejä."
+
+msgid "clanLanding/notification/noPermission"
+msgstr "Ei riittävästi oikeuksia klaanin viestien hallintaan: asemaasi muokattiin."
+
+msgid "clanLanding/notification/notExist"
+msgstr "Tämä viesti poistettiin ja lähetettiin arkistoon."
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "Viesti sisältää ilmaisuja, jotka loukkaavat <a href=\"event:clanRulesLink\">klaanin sääntöjä</a>."
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "Avoimia kutsuja: %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "Kieltäydy valittu (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "Klaanikutsuni"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "Vastaanotetaan tietoja..."
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "Sinulla ei ole vielä kutsuja klaaniin."
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "Valitse kaikki hakemukset"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "Toimet"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "Klaanin nimi"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "Tila"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "Klaanikutsut"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Voit päivittää listan vastaanottaessasi uusia tietoja."
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Klikkaa päivittääksesi taulukon."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Olet poistunut klaanista äskettäin. Voit hyväksyä klaanikutsuja vasta:"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Kutsun lähettäneen klaanin jäsenten taistelusta keskimäärin ansaitsema kokemus (painotettu keskiarvo satunnaistaisteluista)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Keskimääräinen kokemus per taistelu"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Kutsun lähettäneen klaanin jäsenten keskimääräinen taistelumäärä (vain satunnaistaistelut)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Klaanin taistelut"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "Kutsun lähettäneen klaanin nimi."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "Klaanin nimi"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Kutsun lähettäneen klaanin viesti."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Viesti"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "Kutsun lähettäneen klaanin kokonaisluokitus."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "Klaanin luokitus"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Näyttää klaanikutsun tilan ja kutsun jäljellä olevan käsittelyajan."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Tila"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Kutsun lähettäneen klaanin jäsenten voittosuhde (painotettu keskiarvo satunnaistaisteluista)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Klaanin voitot"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Voit joko hyväksyä tai kieltäytyä kutsusta. Hyväksymällä kutsun, kieltäydyt automaattisesti muiden klaanien lähettämistä kutsuista."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Toimet"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "Klaaniprofiili"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "Sulje"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "Tervetuloa klaaniin!"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "Voit nyt taistella taisteluissa maailmankartalla, rakentaa ja puolustaa linnakettasi, sekä suorittaa spesiaalitehtäviä."
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "Tiedote"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "Klaanisi: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "Pahoittelemme häiriötä. Yritä uudelleen myöhemmin."
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "Linnake on väliaikaisesti poissa käytöstä"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "Pahoittelemme häiriötä.\nYritä myöhemmin uudelleen."
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "Virhe ladattaessa tietoja"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "Klaanin profiili"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "Linnake"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "Maailmankartta"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "Klaanin jäsenet"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "Linnake"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "Yhteenveto"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "Kutsu pelaaja klaaniin"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "Toiminto ei saatavilla. Voit kutsua pelaajia klaaniin vain yksitellen."
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "Lisää kaikki kontaktit vastaanottajien listaan."
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "Taisteluita viimeisenä 28 päivänä"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "Hyökkäysoperaatiot viimeisen 28 päivän aikana"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "Klaanin komentaja"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "Ei ole vielä luotu"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "Ei taisteluita.\nEi omistettuja provinsseja."
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "Linnakkeen taso"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "Kassa"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "Ei taisteluita"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "Provinssit"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Elo-luokitus X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Elo-luokitus VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Elo-luokitus VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "Kahakoita viimeisenä 28 päivänä"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "Jäseniä kaikkiaan"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "Tiedot"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "Tiedot"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "Lähetä hakemus"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "Klaanilla ei ole mottoa."
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "Maailmankartan tiedot"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "Mene kartalle"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "Tiedot eivät ole väliaikaisesti saatavilla"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "Ei voida liittyä klaaniin."
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "Tarkasta rekrytoinnin vaatimukset %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "Olet jo toisen\nklaanin jäsen."
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "Olet jo saanut kutsun\nliittyä tähän klaaniin."
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s Tilapäisesti rajoitettu"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s Tilapäisesti rajoitettu"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "Tämä klaani ei hyväksy hakemuksia %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "Hakemus lähetetty."
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "Synkronoidaan dataa..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "Klaanin elo-luokitus jaoksen X hyökkäysoperaatioissa"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Elo-luokitus X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "Klaanin elo-luokitus jaoksessa VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Elo-luokitus VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "Klaanin elo-luokitus jaoksen VIII hyökkäysoperaatioissa"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Elo-luokitus VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "Klaanin hyökkäysoperaatiot viimeisen 28 päivän aikana"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "Hyökkäysoperaatiot viimeisen 28 päivän aikana"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "Linnakkeen taso on sama kuin sen komentokeskuksen taso."
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "Linnakkeen taso"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "Klaanin kahakoita viimeisenä 28 päivänä."
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "Kahakoita viimeisenä 28 päivänä"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "Klaanin elo-luokitus taisteluissa maailmankartalla divisioonassa X."
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Elo-luokitus X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "Klaanin elo-luokitus taisteluissa maailmankartalla divisioonassa VI."
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Elo-luokitus VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "Klaanin elo-luokitus taisteluissa maailmankartalla divisioonassa VIII."
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Elo-luokitus VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "Klaanin taisteluita maailmankartalla viimeisenä 28 päivänä."
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "Taisteluita viimeisenä 28 päivänä"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "Klaanin tällä hetkellä omistamia provinsseja maailmankartalla."
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "Provinssit"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "Enimmäismäärä hakemuksia lähetetty."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "Ei voida lähettää hakemusta"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "Enimmäismäärä hakemuksia lähetetty."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "Ei voida lähettää hakemusta"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "Klaani ei ota vastaan hakemuksia."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "Ei voida lähettää hakemusta"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "Klaanin luokitusta ei ole päivitetty viimeisimpään 28 päivään."
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "Vanhentunutta tietoa"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "Klaanin tehokkuus Linnake-tilassa ja maailmankartalla vaikuttavat siihen, kuinka kokonaisluokitus nousee."
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "Kokonaisluokitus"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "Kokonaisluokitus"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "Klaanin profiili"
+
+msgid "globalMap/disabled"
+msgstr "Maailmankartan taistelut eivät väliaikaisesti\nole saatavilla alueellasi"
+
+msgid "globalMapView/level10"
+msgstr "Taso X"
+
+msgid "globalMapView/level6"
+msgstr "Taso VI"
+
+msgid "globalMapView/level8"
+msgstr "Taso VIII"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "Tämä provinssi ei tuota sinulle tuloja, koska yhteys komentokeskukseen menetettiin tai provinssi on ryöstetty."
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "Ei tuota tuloja"
+
+msgid "globalMapView/noProvince"
+msgstr "Klaani ei omista yhtään provinssia."
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "Suosittu aikaraja: %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "Maailmankartta on taistelukenttä, missä klaanit taistelevat saavuttaakseen strategisen yliotteen. Klaanin upseerit viettävät suurimman osan ajastaan täällä, suunnittelen taktiikoita ja lähettämällä joukkoja strategisiin liikkeisiin."
+
+msgid "globalMapView/promo/header"
+msgstr "Maailmankartta"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "Maailmankartan tiedot"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "Mene kartalle"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "Taisteluita"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "Taisteluita maailmankartan divisioonassa X."
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "Taisteluita"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Elo-luokitus"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "Klaanin luokitus divisioonan X taisteluissa maailmankartalla."
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Elo-luokitus"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "Suosikkikartta"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "Kartta, jolla klaani taisteli eniten divisioonan X taisteluita viimeisenä 28 päivänä."
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "Suosituin kartta: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "Sijoitus luokituksessa"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "Klaanin sijoitus luokituksessa divisioonan X taisteluissa maailmankartalla."
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "Sijoitus luokituksessa"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "Voittoja"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "Voittosuhde divisioonan X taisteluissa maailmankartalla."
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "Voittoja"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "Taisteluita"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "Taisteluita maailmankartan divisioonassa VI."
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "Taisteluita"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Elo-luokitus"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "Klaanin luokitus divisioonan VI taisteluissa maailmankartalla."
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Elo-luokitus"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "Suosikkikartta"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "Kartta, jolla klaani taisteli eniten divisioonan VI taisteluita viimeisenä 28 päivänä."
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "Suosituin kartta: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "Sijoitus luokituksessa"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "Klaanin sijoitus maailmankartan divisioonan VI taisteluiden luokituksessa."
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "Sijoitus luokituksessa"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "Voittoja"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "Voittosuhde divisioonan VI taisteluissa maailmankartalla."
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "Voittoja"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "Taisteluita"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "Taisteluita maailmankartan divisioonassa VIII."
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "Taisteluita"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Elo-luokitus"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "Klaanin luokitus divisioonan VIII taisteluissa maailmankartalla."
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Elo-luokitus"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "Suosikkikartta"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "Kartta, jolla klaani taisteli eniten divisioonan VIII taisteluita viimeisenä 28 päivänä."
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "Suosituin kartta: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "Sijoitus luokituksessa"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "Klaanin sijoitus maailmankartan divisioonan VIII taisteluiden luokituksessa."
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "Sijoitus luokituksessa"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "Voittoja"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "Voittosuhde divisioonan VIII taisteluissa maailmankartalla."
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "Voittoja"
+
+msgid "globalMapView/stats/battles"
+msgstr "Taisteluita maailmankartalla"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "Klaanin taisteluita maailmankartalla."
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "Taisteluita maailmankartalla"
+
+msgid "globalMapView/stats/seized"
+msgstr "Provinsseja omistettu"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "Klaanin omistamien provinssien määrä. Provinssit, jotka klaani on omistanut, mutta sittemmin menettänyt, lasketaan myös."
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "Provinsseja omistettu"
+
+msgid "globalMapView/stats/wins"
+msgstr "Voittoja klaanin jäsenten kesken"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "Klaanin jäsenten voittosuhde maailmankartalla."
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "Klaanin voitot"
+
+msgid "globalMapView/table/days"
+msgstr "Päivät"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "Ajanjakso päivinä, jonka aikana klaani omisti provinssin maailmankartalla."
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "Päivät"
+
+msgid "globalMapView/table/front"
+msgstr "Rintama"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "Valitun rintaman nimi."
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "Rintama"
+
+msgid "globalMapView/table/income"
+msgstr "Tuotto"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "Provinssin tuottama kulta per päivä."
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "Tuotto"
+
+msgid "globalMapView/table/map"
+msgstr "Kartta"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "Kartan nimi, jolla taistelut provinssista käydään."
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "Kartta"
+
+msgid "globalMapView/table/primeTime"
+msgstr "Aikaraja"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "Määrätty aika, jolloin taistelu provinssista alkaa."
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "Aikaraja"
+
+msgid "globalMapView/table/province"
+msgstr "Provinssi"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "Valitun provinssin nimi."
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "Provinssi"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "Provinssi ryöstettiin ja se ei tilapäisesti tuota tuloja."
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "Aikaa tulojen palautumiseen:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "Provinssit"
+
+msgid "globalMapView/tabs/stats"
+msgstr "Tilastot"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "Klaanin luokitusta ei ole päivitetty viimeisimpään 28 päivään."
+
+msgid "globalMapView/totalIncome"
+msgstr "Päivittäiset tulot yhteensä: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "Taisteluita\nkeskimäärin"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "Klaanin kaikkien jäsenten satunnais- ja panssarikomppaniataisteluissa käymien taisteluiden määrän keskiarvo. Vain pelaajat, jotka tällä hetkellä ovat klaanissa, lasketaan."
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "Klaanin jäsenten taisteluiden keskiarvo"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "Keskimääräinen kokemus"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "Painotettu keskiarvo klaanin jäsenten satunnais- ja panssarikomppaniataisteluissa ansaitsemasta kokemuksesta. Pelaajien taisteluiden kokonaismäärä vaikuttaa painotukseen. Vain pelaajat, jotka tällä hetkellä ovat klaanissa, lasketaan."
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "Keskimääräinen kokemus kaikkien klaanin jäsenten kesken"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "Keskimääräinen henkilökohtainen luokitus"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "Kaikkien klaanin jäsenten henkilökohtaisten luokitusten keskiarvo. Vain pelaajat, jotka tällä hetkellä ovat klaanissa, lasketaan."
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "Klaanin jäsenten keskimääräinen henkilökohtainen luokitus"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "Keskimääräinen voittosuhde"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "Painotettu keskiarvo klaanin jäsenten satunnais- ja panssarikomppaniataisteluiden voittoprosentista. Pelaajien taisteluiden kokonaismäärä vaikuttaa painotukseen. Vain pelaajat, jotka tällä hetkellä ovat klaanissa, lasketaan."
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "Klaanin jäsenten keskimääräinen voittosuhde"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "Pelaajan ansaitseman kokemuksen suhde käytyjen satunnais- ja panssarikomppaniataisteluiden määrään."
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "Keskimääräinen kokemus"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "Pelaajan taistelemien satunnaistaisteluiden ja panssarikomppaniataisteluiden kokonaismäärä."
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "Taisteluiden kokonaismäärä"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "Päivien määrä, jotka pelaaja on ollut klaanissa."
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "Päivää klaanissa"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "Pelaajan henkilökohtainen luokitus"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "Henkilökohtainen luokitus"
+
+msgid "personnelView/table/player"
+msgstr "Pelaajia (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "Klaanin jäsenen nimi"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "Pelaaja"
+
+msgid "personnelView/table/post"
+msgstr "Asema"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "Jäsenen asema klaanissa"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "Asema"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "Pelaajan voittoprosentti satunnaistaisteluissa ja panssarikomppanioissa."
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "Voittoja"
+
+msgid "personnelView/title"
+msgstr "Klaanin jäsenen tilastot satunnais- ja panssarikomppaniataisteluista:"
+
+msgid "search/clansList"
+msgstr "Listatut klaanit: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "Hakusi ei tuottanut tuloksia. Yritä etsiä eri hakusanoilla."
+
+msgid "search/emptyResult/button"
+msgstr "Takaisin listaan"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "Klikkaa palataksesi löydettyjen klaanien listaan."
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "Takaisin listaan"
+
+msgid "search/emptyResult/header"
+msgstr "Ei hakutuloksia"
+
+msgid "search/foundClans"
+msgstr "Klaaneja löydetty: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "Ei voida liittyä klaaniin."
+
+msgid "search/info/banned/tooltip/header"
+msgstr "Ei voida lähettää hakemusta"
+
+msgid "search/info/clanProfileBtn"
+msgstr "Klaanin profiili"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "Ei voida lähettää hakemusta liittyä klaaniin."
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "Toiminto ei saatavilla"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "Olet jo vastaanottanut kutsun liittyä tähän klaaniin."
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "Ei voida lähettää hakemusta"
+
+msgid "search/info/ratingDescription"
+msgstr "Kokonaisluokitus"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "Klaanin tehokkuus Linnake-tilassa ja maailmankartalla vaikuttavat siihen, kuinka kokonaisluokitus nousee."
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "Kokonaisluokitus"
+
+msgid "search/info/ratingTitle"
+msgstr "Tilastot kaikista taistelutyypeistä:"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "Olet jo lähettänyt hakemuksen tähän klaaniin."
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "Ei voida lähettää hakemusta"
+
+msgid "search/info/requestSent"
+msgstr "Hakemus lähetetty."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "Klaani ei ota vastaan hakemuksia."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "Ei voida lähettää hakemusta"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "Enimmäismäärä hakemuksia lähetetty."
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "Ei voida lähettää hakemusta"
+
+msgid "search/info/sendRequestBtn"
+msgstr "Lähetä hakemus"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "Palvelimelta ei saatu tietoja. Yritä uudelleen myöhemmin."
+
+msgid "search/info/serverUnavailable/header"
+msgstr "Palvelinvirhe"
+
+msgid "search/info/stats/avgExp"
+msgstr "Keskimääräinen kokemus"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "Painotettu keskiarvo klaanin jäsenten ansaitsemasta kokemuksesta kaikissa taistelutiloissa. Pelaajien taisteluiden kokonaismäärä vaikuttaa painotukseen. Vain pelaajat, jotka ovat tällä hetkellä klaanissa, lasketaan."
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "Keskimääräinen kokemus kaikkien klaanin jäsenten kesken"
+
+msgid "search/info/stats/battles"
+msgstr "Taisteluita\nkeskimäärin"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "Klaanin jäsenten kaikissa taistelutiloissa käymien taisteluiden keskiarvo. Vain pelaajat, jotka ovat tällä hetkellä klaanissa, lasketaan."
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "Klaanin jäsenten taisteluiden keskiarvo"
+
+msgid "search/info/stats/wins"
+msgstr "Keskimääräinen voittosuhde"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "Painotettu keskiarvo klaanin jäsenten voittosuhteesta kaikissa taistelutiloissa. Pelaajien taisteluiden kokonaismäärä vaikuttaa painotukseen. Vain pelaajat, jotka ovat tällä hetkellä klaanissa, lasketaan."
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "Klaanin jäsenten keskimääräinen voittosuhde"
+
+msgid "search/nextBtn"
+msgstr "Seuraava"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "Klikkaa näyttääksesi seuraavan osan klaanilistasta."
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "Seuraava"
+
+msgid "search/previousBtn"
+msgstr "Edellinen"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "Klikkaa näyttääksesi edellisen osan klaanilistasta."
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "Edellinen"
+
+msgid "search/promoText/body"
+msgstr "Etsiäksesi klaania, syötä sen nimi tai lyhenne kenttään ja paina \"Etsi\"."
+
+msgid "search/promoText/header"
+msgstr "Klaanihaku"
+
+msgid "search/requestTooShort/body"
+msgstr "Etsiäksesi klaania, syötä vähintään 2 merkkiä kenttään ja yritä uudelleen."
+
+msgid "search/requestTooShort/button"
+msgstr "Takaisin listaan"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "Takaisin listaan"
+
+msgid "search/requestTooShort/header"
+msgstr "Ei riittävästi tietoa"
+
+msgid "search/searchBtn"
+msgstr "Etsi"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "Syötä klaanin nimi tai tunnus vasemmalla olevaan kenttään (vähintään 2 merkkiä)."
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "Klaanihaku"
+
+msgid "search/searchInputPrompt"
+msgstr "Syötä klaanin nimi tai lyhenne"
+
+msgid "search/serverUnavailable/body"
+msgstr "Palvelimelta ei saatu tietoja. Yritä uudelleen myöhemmin."
+
+msgid "search/serverUnavailable/header"
+msgstr "Palvelinvirhe"
+
+msgid "search/table/clan"
+msgstr "Klaani"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "Klaanin ominaisuudet: lyhenne ja nimi"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "Klaani"
+
+msgid "search/table/creationDate"
+msgstr "Perustettu"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "Klaanin perustamispäivä"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "Perustettu"
+
+msgid "search/table/players"
+msgstr "Pelaajat"
+
+msgid "search/table/players/tooltip/body"
+msgstr "Klaanin jäseniä yhteensä"
+
+msgid "search/table/players/tooltip/header"
+msgstr "Pelaajat"
+
+msgid "search/table/rating"
+msgstr "Luokitus"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "Klaanin kokonaisluokitus"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "Luokitus"
+
+msgid "search/title"
+msgstr "Klaanihaku"
+
+msgid "search/titleDescription"
+msgstr "Täällä voit etsiä klaania, tarkistella sen tietoja,\nja lähettää liittymishakemuksesi. Voit etsiä klaaninimellä tai tunnuksella."
+
+msgid "search/windowTitle"
+msgstr "Klaanihaku"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "Suunnitelma"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "Tilastot"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "Taso %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "ei asetettu"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "Tulitauko:"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "Puolustusvaihe:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "Kotipalvelin:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "Rakennuksia rakennettu:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "Puolueettomuus:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "Eniten teollisuusresursseja ansaittu"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "Eniten peräkkäisiä voittoja"

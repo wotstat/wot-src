@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "3dObject/showVideo"
+msgstr "Videó lejátszása"
+
+msgid "reward/confirm"
+msgstr "Megtekintés a Garázsban"
+
+msgid "reward/confirmStyle"
+msgstr "Értettem!"
+
+msgid "reward/goToVehicleBtn"
+msgstr "Garázs nézet"
+
+msgid "reward/nameStyle"
+msgstr "Tigriskarom"
+
+msgid "reward/nameVehicle"
+msgstr "%(level)s %(type)s %(name)s."
+
+msgid "reward/rest"
+msgstr "És még %(count)s további"
+
+msgid "reward/secondary"
+msgstr "A külsőhöz"
+
+msgid "reward/stage"
+msgstr "%(stage)s. FEJEZET: %(text)s"
+
+msgid "reward/stageAllComplete"
+msgstr "JUTALMAK MINDEN SZAKASZÉRT MEGSZEREZVE."
+
+msgid "reward/stageCompleteLast"
+msgstr "TELJESÍTETTED AZ UTOLSÓ SZAKASZT."
+
+msgid "reward/stageNotAllComplete"
+msgstr "AZON SZAKASZOK JUTALMAI, AMIKET NEM TELJESÍTETTÉL."
+
+msgid "reward/stageStyle"
+msgstr "TIGRISUGRÁS"
+
+msgid "reward/styleTitle"
+msgstr "STÍLUS MEGSZEREZVE!"
+
+msgid "reward/title"
+msgstr "Renegát kihívás"
+
+msgid "reward/vehicleTitle"
+msgstr "JÁRMŰ MEGSZEREZVE!"
+
+msgid "reward/viewRewardsBtn"
+msgstr "Jutalmak megnézése"
+
+msgid "rewardTooltip/tankmen/header"
+msgstr "Teljes legénység 100%-ra fejlesztett Bajtársak képességgel"
+
+msgid "rewardTooltip/title"
+msgstr "Jutalmak:"
+
+msgid "vehiclePreview/buyingPanel/buyBtn/label/buy"
+msgstr "A jármű vásárláshoz"
+
+msgid "vehiclePreview/buyingPanel/buyBtn/tooltip/active/body"
+msgstr "Kattints egy tárgy megvásárlásához."
+
+msgid "vehiclePreview/buyingPanel/buyBtn/tooltip/inactive/body"
+msgstr "A járművet a(z) %(event_name)s kezdete után lehet majd megvásárolni.\n%(addInfo)s"
+
+msgid "vehiclePreview/buyingPanel/buyBtn/tooltip/inactive/header"
+msgstr "Nem elérhető"
+
+msgid "vehiclePreview/buyingPanel/customOffer/discount"
+msgstr "Kedvezményed:"
+
+msgid "vehiclePreview/buyingPanel/title"
+msgstr "Jármű és egyéb jutalmak a be nem fejezett szakaszokért"
+
+msgid "vehiclePreview/title/tooltip/body/addInfo/announce"
+msgstr ".\n%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/body/addInfo/progress"
+msgstr " %(endVehicleSellDate)s-ig.\n%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/body/marathon/announce"
+msgstr "Az esemény kezdetét veszi:%(marathonStartDate)s."
+
+msgid "vehiclePreview/title/tooltip/body/marathon/inprogress"
+msgstr "A IX-es&nbsp;szintű prémium kínai WZ-114 nehéz harckocsi megvásárlásával, azokat a jutalmakat is megkapod az esemény szakaszaiból, amiket még nem teljesítettél."
+
+msgid "vehiclePreview/title/tooltip/header"
+msgstr "%(event_name)s"
+
+msgid "vehiclePreview/title/tooltip/info/body/announce"
+msgstr "A jármű és a kapcsolódó jutalmak a(z) %(event_name)s során lesznek megvásárolhatók."
+
+msgid "vehiclePreview/title/tooltip/info/body/progress"
+msgstr "A jármű és a kapcsolódó jutalmak a(z) %(event_name)s során lesznek megvásárolhatók%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/info/body/progress/withDiscount"
+msgstr "A jármű és a kapcsolódó jutalmak a(z) %(event_name)s során lesznek elérhetők%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/rewards"
+msgstr "Jutalmak"
+
+msgid "vehiclePreview/tooltip/dateTime"
+msgstr "%(year)s %(monthName)s %(day)s, %(hour)s:%(min)s"

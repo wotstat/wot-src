@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} a klánban"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "A FIÓK STÁTUSZHOZ"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "VISSZA"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "{} múlva tudsz lecserélni egy pályát."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Ezen típusú pályák megjelenítése/elrejtése."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Sivatagi pályák"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Nyári pályák"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Téli pályák"
+
+msgid "mapsBlacklist/header"
+msgstr "Kizárt pályák"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Zárj ki egy nem kívánt pályát a játékból. A WoT prémium segítségével eggyel több, míg a WoT plusz segítségével még további %(mapCount)s pályát zárhatsz ki. Ha valamelyik előfizetésed lejár, a kizárt pályák a jobb szélsővel kezdve visszakerülnek a játékba."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Kizárt pályák"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Ezek a pályák csak a Normál csatákból vannak kizárva."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Ennyi időnként cserélhetsz le egy kizárt pályát: %(maxCooldownTimeStr)s."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Ez a funkció csak IV-es vagy magasabb szintű járművekkel érhető el."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "Ha szakaszban játszol, csak a szakaszparancsnok által kiválasztott pályák kerülnek kizárásra."
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Megjelenített pályák: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Megjelenített pályák: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Pálya típusok:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Mégse"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Bezárás"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "A kiválasztott pályát lecseréled a(z) {mapNameStr} pályára. A választást {cooldownStr} múlva módosíthatod."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Melyik pályát szeretnéd lecserélni?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Kizárás"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Válassz ki egy pályát, amit szeretnél lecserélni"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Mégse"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Bezárás"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "A választást {cooldownStr} múlva módosíthatod."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Kizárod ezt a pályát a Normál csatákból: {mapNameStr}?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Kizárás"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Kizárás"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Kizárod a(z) {mapNameStr} pályát?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Használ"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Használod a(z) {mapNameStr} pályát normál csatákban?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "{cooldownStr} múlva lecserélheted ezt a pályát."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Pálya lecserélése nem lehetséges"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "{cooldownStr} múlva lecserélheted ezt a pályát."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Pálya lecserélése nem lehetséges"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Nincs kiválasztva"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Kattints arra a pályára, amelyiket ki szeretnéd zárni a Normál csatákból."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Nem választottál ki pályát"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "A kizárt {mapName} pályát lecserélheted egy másikra."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Pálya lecserélése lehetséges"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "A(z) {mapName} pályát {cooldownStr} múlva cserélheted le."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Pálya lecserélése nem lehetséges"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Aktív WoT prémium fiókkal egy extra férőhely érhető el."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Férőhely nem elérhető"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Válassz egy pályát az alábbi listáról, amelyet kizársz a Normál csatákból."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Nem választottál ki pályát"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Válassz egy pályát az alábbi listáról, amelyet kizársz a Normál csatákból."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Pálya lecserélése lehetséges"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "{cooldownStr} múlva lecserélheted ezt a pályát."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Pálya lecserélése nem lehetséges"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "Egy másik pálya kizárásához szükséges férőhely csak aktív WoT prémium fiókkal érhető el."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Férőhely nem elérhető"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Mégse"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "{whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close} múlva módosíthatod a választást."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Lecserélés"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Kizárás"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Kizárod ezt a pályát a Normál csatákból: %(mapName)s?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "A kiválasztott pályát lecseréled erre a pályára: {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. A választásodat %(cooldownTimeStr)s múlva módosíthatod."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Melyik pályát szeretnéd lecserélni?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Ezt a pályát lecseréled a következő pályára: {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. A választásodat %(cooldownTimeStr)s múlva módosíthatod."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Szeretnéd lecserélni ezt a pályát?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "A szülői felügyelet engedélyezve van ezen a fiókon.\nA szülői felügyeleti korlátozásokról többet megtudhatsz {link}."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Szülői felügyelet"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "a játékportálon"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Kredit tartalék"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s n"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s ó"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 perc"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s perc"

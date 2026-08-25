@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "Αγορά"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "Θα τοποθετηθούν τα ακόλουθα αναλώσιμα: %(consumables)s."
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "Αγορά Αναλώσιμων"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s μέλη πληρώματος"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Έχετε ήδη πλήρωμα γι αυτό το όχημα"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s μέλη πληρώματος."
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "Στρατολόγηση Νέων Μελών Πληρώματος"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "εδώ."
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Η Wargaming χρησιμοποιεί τον αλφαριθμητικό συνδυασμό T-34 για να αναφερθεί σε πραγματικά άρματα μάχης και δεν σχετίζεται με οποιονδήποτε τρόπο με κατόχους πνευματικών δικαιωμάτων εμπορικών σημάτων με το ίδιο όνομα. Μάθετε περισσότερα από {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "Ανεφοδιασμός πυρομαχικών"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "Τοποθέτηση αναλώσιμων"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "Θέση στο Γκαράζ"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "Ανταλλαγή"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "Δωρεάν"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "Στρατολόγηση %(count)s μελών πληρώματος"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "Μίσθωση"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "Μίσθωση"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "Μίσθωση 30 ημερών"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "Μίσθωση 3 ημερών"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "Μίσθωση 7 ημερών"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "Μίσθωση για %(days)s ημέρες"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "Φάση Πρώτης Γραμμής"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "ΠερίοδοςΠρώτης Γραμμής"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "Φάση Μαχών Κατάταξης"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "Περίοδος Μαχών Κατάταξης"
+
+msgid "buyVehicleWindow/restore"
+msgstr "Ανάκτηση"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "Χωρίς όριο"
+
+msgid "buyVehicleWindow/title"
+msgstr "Διαμόρφωση"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "Ανάκτηση"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "Αγορά"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "Ανταλλαγή"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "Ανταλλαγή"
+
+msgid "carousel/filters/allVehicle"
+msgstr "Όλα Μου Τα Οχήματα"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "Πλήρωμα"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "Χαρακτηριστικά"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} μάχη"
+msgstr[1] "{{count}} μάχες"
+msgstr[2] "{{count}} μάχες"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} ημέρα"
+msgstr[1] "{{count}} ημέρες"
+msgstr[2] "{{count}} ημέρες"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} ώρα"
+msgstr[1] "{{count}} ώρες"
+msgstr[2] "{{count}} ώρες"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} νίκη"
+msgstr[1] "{{count}} νίκες"
+msgstr[2] "{{count}} νίκες"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "Κλικ για να ανοίξετε τις λίστες των οχημάτων σας"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "Τα Οχήματά Μου"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "Διαχείριση και εκπαίδευση πληρώματος"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "Διαχείριση Πληρώματος"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "Προσαρμογή οχήματος: στοιχεία προσαρμογής 2D και 3D"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "Προσαρμογή"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "Κλικ για άνοιγμα"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "Πληροφορίες οχήματος, ανακαλύψεις, συγκρίσεις και επισκευές."
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "Διαχείριση Οχήματος"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "ΣΧΕΤΙΚΑ ΜΕ ΤΟ ΟΧΗΜΑ"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "ΘΩΡΑΚΙΣΗ"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "ΣΥΓΚΡΙΣΗ"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "ΑΥΤΟΜΑΤΗ ΕΠΙΣΤΡΟΦΗ"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "ΕΠΙΣΤΡΟΦΗ ΠΛΗΡΩΜΑΤΟΣ"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "ΑΠΟΣΤΟΛΗ ΣΤΟΝ ΣΤΡΑΤΩΝΑ"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "ΕΠΑΝΕΚΠΑΙΔΕΥΣΗ ΠΛΗΡΩΜΑΤΟΣ"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "ΑΜΕΣΗ ΣΥΝΤΗΡΗΣΗ"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "ΤΡΟΠΟΠΟΙΗΣΕΙΣ ΜΑΧΗΣ"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "ΑΛΛΑΓΗ ΕΘΝΟΥΣ"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "ΕΝΕΡΓΟ"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "PRO BOOST {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "ΤΑΧΥΡΥΘΜΗ ΕΚΠΑΙΔΕΥΣΗ"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "ΕΠΙΣΚΕΥΕΣ"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "ΑΝΑΚΑΛΥΨΗ"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "ΑΝΑΒΑΘΜΙΣΕΙΣ"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "Μπορείτε να αλλάξετε την επιλογή σας ανά πάσα στιγμή."
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "Pro Boost ενεργό γι αυτό το όχημα"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "Το boost ισχύει για τις Τυχαίες Μάχες, τις Μάχες Επέλασης, τα Οχυρά, τον Παγκόσμιο Χάρτη και τα τουρνουά."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "Ασύμβατο είδος μάχης για το Pro Boost"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "Το boost μπορεί να ενεργοποιηθεί σε Κανονικά και Συλλεκτικά οχήματα των Βαθμίδων I–X."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "Ασύμβατο όχημα για το Pro Boost"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "Το Pro Boost είναι ενεργοποιημένο για το {{vehicle}}. Μπορείτε να αλλάξετε την επιλογή σας σε {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "Προσπαθήστε αργότερα!"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "Μπορείτε να αλλάξετε την επιλογή σας σε {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "Pro Boost ενεργό γι αυτό το όχημα"

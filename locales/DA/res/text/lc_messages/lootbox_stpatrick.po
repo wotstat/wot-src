@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Tilbage til kister"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Smaragd-kiste"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "SMARAGD-KISTE"
+
+msgid "common/getButton/lowerCase"
+msgstr "Få kister"
+
+msgid "common/getButton/upperCase"
+msgstr "FÅ KISTER"
+
+msgid "common/loader"
+msgstr "Åbner kiste..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Åbn kister for at se statistik."
+
+msgid "common/statistics/header"
+msgstr "Kister åbnet: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Al information om åbnede kister vil blive slettet."
+
+msgid "entryPoint/boxes"
+msgstr "TIL KISTER"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Disse er særlige kister, der indeholder premium køretøjer, 3D-tilbehør, credits og andre værdifulde in-game ting.\nDu kan få dem i in-game butikken."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Kister kan ikke åbnes eller købes i øjeblikket på grund af tekniske udfordringer. Vi beklager den midlertidige ulejlighed."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Kister midlertidigt utilgængelige"
+
+msgid "eventName/lowerCase"
+msgstr "Grøn og glorværdig"
+
+msgid "eventName/upperCase"
+msgstr "GRØN OG GLORVÆRDIG"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garanteret belønning i den næste kiste!"
+
+msgid "guaranteedTitle/text"
+msgstr "Max antal kister til en garanteret belønning: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Hvis du ikke åbner kister, før eventet er slut, vil de blive åbnet automatisk."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Hvis du allerede ejer alle køretøjer fra listen over muligt indhold i kisterne, vil alle følgende køretøjer du modtager fra kister blive kompenseret med guld, der modsvarer deres fulde værdi."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Hver %(guaranteed0)s kister vil med garanti indeholde et niveau VIII–IX køretøj. Hvis du åbner dem uden at finde et sådant køretøj, så vil du finde et niveau VIII–IX køretøj, som du ikke allerede ejer, i den %(guaranteed0)s&zwnbsp;. kiste. Når køretøjet findes, nulstilles tælleren."
+
+msgid "infoPage/header/description"
+msgstr "Åbn kisten for muligheden for at modtage værdifulde in-game ting! Se flere detaljer nedenfor."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Fra %(name) (%(boxesCount) kister åbnet)"
+
+msgid "noBoxesView/description/"
+msgstr "Du har ingen kister. \nDu kan finde dem i in-game butikken."
+
+msgid "preview/backLabel"
+msgstr "TIL KISTER"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Kister tilgængelige: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Ingen kister tilgængelige"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Hvis du allerede ejer alle køretøjer fra listen over muligt indhold i kisterne, vil alle følgende køretøjer du modtager fra kister blive kompenseret med guld."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) kiste"
+msgstr[1] "%(remainingCount) kister"
+msgstr[2] "%(remainingCount) kister"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Den garanterede belønning er et køretøj fra listen over muligt indhold i kisterne.\nHvis du åbner %(remainingCount) uden at de indeholder et sådant køretøj, vil det være at finde, når du åbner den %(count) kiste. Når det sker, vil tælleren blive nulstillet."

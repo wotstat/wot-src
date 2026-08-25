@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n > 1);"
+
+msgid "closeButtonLabel"
+msgstr "FERMER"
+
+msgid "featureName"
+msgstr "REPLAYS"
+
+msgid "filter/apply"
+msgstr "Appliquer le filtre"
+
+msgid "filter/group/nation/title"
+msgstr "Nation"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Rang"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Rang"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Spécialisation"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Type de véhicule"
+
+msgid "filter/reset"
+msgstr "Réinitialiser le filtre"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Afficher/masquer les membres d'équipage de cette nation."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Afficher/masquer les apparences de cette nation."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Afficher/masquer les véhicules de cette nation."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Afficher/masquer les véhicules de ce type."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Chasseurs de chars"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Canons automoteurs"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Chars lourds"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Chars légers"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Chars moyens"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Aucun véhicule répondant à ce critère de recherche\nn'a été trouvé"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Classer par nom des véhicules."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Nom"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Classer par rang des véhicules."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Rang"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Classer par type des véhicules."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Type"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Nom"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Cliquez pour appliquer les paramètres du filtre."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Appliquer les filtres sélectionnés"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Cliquez pour réinitialiser les paramètres du filtre."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Réinitialiser tous les filtres"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Voir uniquement les replays du prime time"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "%(count)s dernier jour"
+msgstr[1] "%(count)s derniers jours"
+msgstr[2] "%(count)s derniers jours"
+
+msgid "filterPopover/title"
+msgstr "Filtre des replays"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Configurer le filtre des replays par type, rang, nation, etc. du véhicule."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Filtrer par paramètres"
+
+msgid "findReplay/buttonText/find"
+msgstr "Trouver un replay"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Effacer la saisie"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Regarder le replay !"
+
+msgid "findReplay/errorMessage"
+msgstr "Rien n'a été trouvé. Veuillez changer votre requête"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Veuillez saisir ARENA_ID ici…"
+
+msgid "findReplay/successMessage"
+msgstr "L'IA a trouvé le replay qui vous intéresse ! Passez un bon moment"
+
+msgid "page/heading/bestReplays"
+msgstr "MEILLEURS REPLAYS"
+
+msgid "page/heading/findReplay"
+msgstr "TROUVER UN REPLAY (POUR DEV)"
+
+msgid "page/heading/myReplays"
+msgstr "MES REPLAYS"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Cette section contient des informations sur les Meilleurs replays de tous les joueurs de WoT"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Cette section est faite pour trouver un replay selon certains paramètres"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Cette section contient des informations sur VOS meilleurs replays"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "Meilleurs replays"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Trouver un replay"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "Mes replays"
+
+msgid "statsParam/damageAssisted"
+msgstr "Top 1 en aide à la destruction"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Top 1 en dégâts bloqués"
+
+msgid "statsParam/damageDealt"
+msgstr "Top 1 en dégâts infligés"
+
+msgid "statsParam/earnedXp"
+msgstr "Top 1 en expérience gagnée"
+
+msgid "statsParam/kills"
+msgstr "Top 1 en véhicules détruits"
+
+msgid "table/error/buttonText"
+msgstr "Mettre à jour"
+
+msgid "table/error/description"
+msgstr "Nous nous excusons pour la gêne occasionnée. Veuillez essayer de mettre à jour la page plus tard."
+
+msgid "table/error/title"
+msgstr "Erreur lors du chargement des données"
+
+msgid "table/header/damageAssisted"
+msgstr "Assistance"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Dégâts bloqués"
+
+msgid "table/header/damageDealt"
+msgstr "Dégâts"
+
+msgid "table/header/date"
+msgstr "Date"
+
+msgid "table/header/earnedXp"
+msgstr "EXP. gagnée"
+
+msgid "table/header/kills"
+msgstr "Nombre de véhicules détruits"
+
+msgid "table/header/map"
+msgstr "Carte"
+
+msgid "table/header/marksOfMastery"
+msgstr "Insignes de maîtrise"
+
+msgid "table/header/player"
+msgstr "Nom du joueur"
+
+msgid "table/header/vehicle"
+msgstr "Véhicule"
+
+msgid "table/noRecords/buttonText"
+msgstr "Réinitialiser le filtre"
+
+msgid "table/noRecords/title"
+msgstr "Rien n'a été trouvé. Veuillez changer les paramètres ou réinitialiser le filtre"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Cliquez pour réinitialiser les paramètres du filtre."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Réinitialiser tous les filtres"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "La quantité de dégâts grâce à l'aide du joueur dans ce replay"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Dégâts grâce à l'aide"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "La quantité de dégâts bloqués par le joueur dans ce replay"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Dégâts bloqués par le blindage"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "La quantité de dégâts infligés par le joueur dans ce replay"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Dégâts infligés"
+
+msgid "table/tooltip/date/body"
+msgstr "La date d'enregistrement du replay."
+
+msgid "table/tooltip/date/header"
+msgstr "Date du replay"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "La quantité d'EXP. gagnée par le joueur dans ce replay"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "EXP. gagnée"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Les médailles épiques gagnées par le joueur dans ce replay"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Médailles épiques"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Cliquez pour ajouter ce replay aux Replays préférés."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Préférés"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Cliquer pour retirer ce replay des Replays préférés."
+
+msgid "table/tooltip/kills/body"
+msgstr "Nombre de véhicules détruits par le joueur dans ce replay"
+
+msgid "table/tooltip/kills/header"
+msgstr "Destructions"
+
+msgid "table/tooltip/map/body"
+msgstr "La carte du replay."
+
+msgid "table/tooltip/map/header"
+msgstr "Carte"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Insignes importantes obtenues par le joueur dans ce replay"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Insignes de maîtrise"
+
+msgid "table/tooltip/player/body"
+msgstr "Le nom du joueur dans le replay."
+
+msgid "table/tooltip/player/header"
+msgstr "Nom du joueur"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Le véhicule du joueur avec lequel le replay a été enregistré."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Véhicule"
+
+msgid "tableInfo/amount"
+msgstr "Replays affichés : %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Filtre"
+
+msgid "waitingSpinner/message"
+msgstr "Chargement du contenu..."

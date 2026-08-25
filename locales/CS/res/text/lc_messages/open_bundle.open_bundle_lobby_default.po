@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Potvrzuji!"
+
+msgid "attachments_preview/description"
+msgstr "Sada 3D doplňků"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Epický 3D doplněk"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Legendární 3D doplněk"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Vzácný 3D doplněk"
+
+msgid "bundle/name"
+msgstr "Tajemný trh"
+
+msgid "bundle/name_uppercased"
+msgstr "TAJEMNÝ TRH"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Zrušit"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Koupit"
+
+msgid "confirmation/description"
+msgstr "Potvrďte přijetí bonů a nové odměny z buňky."
+
+msgid "confirmation/purchase"
+msgstr "Zakoupit za {{price}}?"
+
+msgid "entryPoint/button"
+msgstr "Přejít na akci"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} je tady! Podívejte se na to!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Když si během akce „{{eventName}}“ koupíte bony, obdržíte jako bonusový dárek odměnu z jedné z neotevřených buněk. Buňky obsahují cenné herní předměty, včetně hlavní odměny akce: prémiového vozidla."
+
+msgid "intro/cards/description/c_2"
+msgstr "Odměny jsou udělovány v náhodném pořadí. Každá neotevřená buňka má svou vlastní pravděpodobnost výběru a všechny pravděpodobnosti vždy představují celkem 100 %. Jakmile je buňka otevřena, nelze ji otevřít znovu a šance na získání zbývajících odměn se zvyšují."
+
+msgid "intro/cards/description/c_3"
+msgstr "Každý krok stojí stanovené množství zlaťáků. Počet získaných bonů i cena za krok se mění v závislosti na vašem postupu."
+
+msgid "intro/cards/link"
+msgstr "Podmínky a ceny jednotlivých kroků si můžete prohlédnout na {{@ class 'linkPart'}}portálu.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Nákup bonů"
+
+msgid "intro/cards/title/c_2"
+msgstr "Buňky a pravděpodobnost"
+
+msgid "intro/cards/title/c_3"
+msgstr "Ceny za krok"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "VAŠE ODMĚNA ČEKÁ"
+
+msgid "main/alt/description"
+msgstr "Zobrazit pravděpodobnost"
+
+msgid "main/alt/tooltip/body"
+msgstr "Pro zobrazení pravděpodobnosti získání každé buňky stiskněte klávesu „Alt“."
+
+msgid "main/alt/tooltip/header"
+msgstr "Zobrazení pravděpodobnosti"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "GRATULUJEME! \n ZÍSKALI JSTE VŠECHNY ODMĚNY"
+
+msgid "main/footer/button"
+msgstr "Koupit"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}odměna z buňky"
+
+msgid "main/footer/receive"
+msgstr "Získáte: {{item}}"
+
+msgid "main/header/description"
+msgstr "Zúčastněte se akce od {{startDate}} do {{endDate}} a získejte odměny!"
+
+msgid "main/multi"
+msgstr "{{count}}x"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "{{count}}x"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Přejít na úpravy vzhledu"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Přejít na styl"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Přejít na vozidlo"
+
+msgid "notifications/specialReward/title"
+msgstr "Hlavní odměna z akce „{{eventName}}“ je vaše!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Dodatečné odměny:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Získáno:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Tato operace je z technických důvodů dočasně nedostupná. Zkuste to prosím později."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Na akci"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s již brzy skončí!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Akce je dostupná do: %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "Buňka %(eventName)s otevřena"
+
+msgid "tooltips/entry/description"
+msgstr "Vaše odměna čeká! Každý nákup bonů vám zaručuje náhodnou odměnu z jedné buňky jako dárek. Pokaždé otevřete novou buňku, protože ty, které jste již otevřeli, jsou odstraněny."
+
+msgid "tooltips/entry/timer"
+msgstr "Akce bude dostupná po dobu {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "O akci"
+
+msgid "tooltips/steps/description"
+msgstr "Za každý nákup získáte více {{currency}}. Částka, kterou obdržíte, se zvyšuje při dosažení určitých kroků nákupu."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} za každý nákup"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Kroky:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}}–{{end}}"

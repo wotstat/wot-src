@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "Kampene i %(leftDetailedSeasonName)s er avsluttet"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Våpenhvile gjelder for alle servere. Kamper blir tilgjengelig om %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "Kampene i %(leftDetailedSeasonName)s er avsluttet"
+
+msgid "alertMessage/allNotSet"
+msgstr "Denne modusen er ikke tilgjengelig på %(serverName)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Velg en annen server"
+
+msgid "alertMessage/notAvailable"
+msgstr "Våpenhvile gjelder på %(serverName)s serveren"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Våpenhvile gjelder på %(serverName)s serveren"
+
+msgid "alertMessage/notSet"
+msgstr "Denne modusen er ikke tilgjengelig på %(serverName)s"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Det er våpenhvile på serveren. Kamper blir tilgjengelig om %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "Kampene i %(leftDetailedSeasonName)s er avsluttet"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Denne modusen er ikke tilgjengelig på %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Ingen passende kjøretøy"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Program"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "MODUS"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} — bytter til en annen spillmodus"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "Moduset blir tilgjengelig"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "Våpenhvile {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "Kamper er avsluttet"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "Modusen er ikke lenger tilgjengelig"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "Moduset blir tilgjengelig i {{timer}}"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s kan ikke kjempe i %(modeName)s kamper."
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "Inkompatibel kjøretøytype"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "Velg et kjøretøy på nivå %(levelSubStr)s som kan delta i %(modeName)s modusen."
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "Inkompatibelt kjøretøynivå"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "nivå %(levels)s"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s kan ikke kjempe i %(modeName)s modusen."
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "Inkompatibelt kjøretøy"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "Våpenhvile har trådt i effekt for denne serveren. Vennligst velg en annen server."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "Kan ikke gå til kamp"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "Denne modusen er ikke tilgjengelig på denne serveren."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "Kan ikke gå til kamp"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "Kampene i %(subModeName)s er avsluttet"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "Kan ikke gå til kamp"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "Endre modus eller velg et kjøretøy som møter kravene."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "Kjøretøyet passer ikke til modusen"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "Opprett en taktisk enhet med 2 eller 3 spillere for å samarbeide i kamper i %(modeName)s."
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "Tropp"
+
+msgid "invite/text/detailedTitle"
+msgstr "Invitasjon til å bli med i \"%(detailedModeName)s\" tropp"
+
+msgid "invite/tooltip/noVehicles"
+msgstr "Du trenger minst ett kjøretøy i garasjen din."
+
+msgid "lootboxTooltip/chance"
+msgstr "Slippsjanse: %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "En spillenhet fra listen under:"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "ALLE TRINNENE FULLFØRT"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "ALLE TRINNENE I DET NÅVÆRENDE\nOPPDRAGET FULLFØRT"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "Neste trinnbelønninger—Åpne ved %(stagePoints)s poeng"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "Belønning for neste trinn"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "%(time)s frem til den aktive fasen er over"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "%(time)s til neste start"
+
+msgid "modeSelector/notStarted"
+msgstr "Denne modusen begynner snart"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "TIL MODI"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "Utilgjengelig av tekniske årsaker"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "Du har fullført alle trinnene i det nåværende oppdraget"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "Belønninger: %(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "Kamper er avsluttet"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "Kommer snart"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "Det begynner om"
+
+msgid "modeSubSelector/subtitle"
+msgstr "VELG UNDERMODUS"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "Dev Alle trinnene fullført"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "Dev Fremgangsoppdatering"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "Bli med på spenningen!"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "Gå inn i kampen!"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "Arcade Cabinet eventer er unike og tidsbegrensede aktiviteter som byr på noe annet! Kjemp i eksklusive modi med spillendrende regler, fullfør oppdrag og tjen sjeldne belønninger."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Dev Beskrivelse av høyrisiko."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Dev Lav ytelse"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Dev Beskrivelse av medium risiko."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Dev Redusert ytelse"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Dev Beskrivelse av høyrisiko."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Dev Lav ytelse"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Lav ytelse"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Dev Beskrivelse av medium risiko."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Dev Redusert ytelse"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Redusert ytelse"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Dev Du fullførte fremgangen"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "Dev Få så mange belønninger du kan:"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "Tjente dev poeng: {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "Fullført:"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "Kan tas om igjen"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "For fullførelse:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "For tap:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "For seier:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Poeng:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Mottatt:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "Alle nåværende tilgjengelige oppdrag har blitt fullført."
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "Oppdrag vil dukke opp når fremgangen starter"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "Du har fullført alle tilgjengelige oppdrag for nå. Flere vil dukke opp i neste rotasjon."
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "Tilgjengelige i {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "Tilgjengelige i {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "Nye oppdrag tilgjengelige i {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} Status"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} Oppdrag"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "Alle trinn har blitt fullført"
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "Fremgangsoppdatering"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "NEON DASH"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "Målstreken venter!"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "Klar for løp?"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "Neon Dash er et unikt, tidsbegrenset event som byr på noe annerledes! Kjør løp og kjemp deg gjennom farefulle løyper, fullfør oppdrag, og tjen belønninger."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Denne modusen krever høy ytelse fra datamaskinen. Det kan hende du opplever problemer med kartvisning, grafikk og kjøretøybevegelser. I tilfelle utilstrekkelig ytelse, prøv lavere grafikkinnstillinger."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Mulig redusert ytelse"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Denne modusen krever høy ytelse fra datamaskinen. Det kan hende du opplever problemer med kartvisning, grafikk og kjøretøybevegelser. I tilfelle utilstrekkelig ytelse, prøv lavere grafikkinnstillinger."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Mulig redusert ytelse"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "Episk tilfeldig belønning"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "Legendarisk tilfeldig belønning"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "Vanlig tilfeldig belønning"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "Sjelden tilfeldig belønning"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "Uvanlig tilfeldig belønning"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "Neon Dash oppdrag – Trinn: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "Fremgangen din telles i et hvilket som helst Neon Dash løp."
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "Neon Dash oppdrag"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "Din fremgang teller med i en hvilken som helst undermodus av Arcade Cabinet."
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "frem til et nytt oppdrag i Arcade Cabinet er tilgjengelige"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15–30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "Kjemp din vei til målstreken i denne fritt-frem-for-alle løpsmodusen."
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Alle nivåer"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "Ved lave grafikkinnstillinger kan det oppstå visuelle artefakter og problemer. Vi anbefaler å velge den høyeste grafikkinnstillingen for best mulig opplevelse, forutsatt at datamaskinens spesifikasjoner oppfyller kravene. Modusen krever høy ytelse fra datamaskinen. FPS-frekvensen kan bli redusert i intense kamper."
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "Ved lave grafikkinnstillinger kan det oppstå visuelle artefakter og problemer. Vi anbefaler å velge den høyeste grafikkinnstillingen for best mulig opplevelse, forutsatt at datamaskinens spesifikasjoner oppfyller kravene. Modusen krever høy ytelse fra datamaskinen. FPS-frekvensen kan bli redusert i intense kamper."
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "Et nytt Neon Dash oppdrag er tilgjengelig om:"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "Undermoduset %(subModeName)s er avsluttet. Fremgang nullstilt."
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "Undermoduset %(subModeName)s er avsluttet."
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "Nye belønninger og undermoduset %(subModeName)s er tilgjengelig."
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "En ny undermodus er tilgjengelig: %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "Undermoduset %(subModeName)s er ikke tilgjengelig på grunn av vedlikehold."
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "Undermoduset %(subModeName)s er tilgjengelig igjen."
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "Belønningsliste"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "Gratulerer!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "Du fullførte fremgangen"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "Gratulerer!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "Uendelig post-fremgang"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "Du fullførte hovedfremgangen"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "Fullfør dette trinnet så mange ganger du kan."
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "Tjente poeng: {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Tjente poeng:"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "NEON DASH OPPDRAG"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "Fullført:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "Kan tas om igjen"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "For fullførelse:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "For tap:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "For seier:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Poeng:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Mottatt:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "Alle nåværende tilgjengelige oppdrag har blitt fullført."
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "Oppdrag vil dukke opp når fremgangen starter"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "Du har fullført alle tilgjengelige oppdrag for nå. Flere vil dukke opp i neste rotasjon."
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "Tilgjengelige i {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "Tilgjengelige i {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "Nye oppdrag tilgjengelige i {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} Status"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} Oppdrag"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "LEGENDARISK BELØNNING MOTTATT"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "%(subModeName)s er tilgjengelig igjen."
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "Pitstop"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s er avsluttet."
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "Pitstop"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "Tid for en pitstop! %(subModeName)s løp er midlertidig utilgjengelige."
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "Pitstop"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "Hver tilfeldige belønning er en enhet fra listen under som du får med en viss sannsynlighet."
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "Hva er inni?"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "Alle kjøretøy er tilgjengelige til Neon Dash."
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "Neon Dash kjøretøy"
+
+msgid "modes/fall_tanks/userName"
+msgstr "NEON DASH"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "Alle trinnene fullført"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "Fremgangsoppdatering"
+
+msgid "modes/undefined/capsUserName"
+msgstr "ARCADE CABINET"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s: %(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "Bli med på spenningen!"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "Gå inn i kampen!"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "Arcade Cabinet eventer er unike og tidsbegrensede aktiviteter som byr på noe annet! Kjemp i eksklusive modi med spillendrende regler, fullfør oppdrag og tjen sjeldne belønninger."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Denne modusen krever høy ytelse fra datamaskinen. Du vil oppleve problemer med kartvisning, grafikk og kjøretøybevegelser. I tilfelle utilstrekkelig ytelse, prøv lavere grafikkinnstillinger."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Mulig redusert ytelse"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Denne modusen krever høy ytelse fra datamaskinen. Du vil oppleve problemer med kartvisning, grafikk og kjøretøybevegelser. I tilfelle utilstrekkelig ytelse, prøv lavere grafikkinnstillinger."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Mulig redusert ytelse"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "Episk tilfeldig belønning"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "Legendarisk tilfeldig belønning"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "Vanlig tilfeldig belønning"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "Sjelden tilfeldig belønning"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "Uvanlig tilfeldig belønning"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "Arcade Cabinet oppdrag – trinn: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "Din fremgang teller med i en hvilken som helst undermodus av Arcade Cabinet."
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "Arcade Cabinet oppdrag"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "Din fremgang teller med i en hvilken som helst undermodus av Arcade Cabinet."
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "frem til et nytt oppdrag i Arcade Cabinet er tilgjengelige"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15 mot 15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "Eksperimentelle kamper med ikkestandard regler."
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} nivåene&nbsp;%(levels)s"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "Ved lave grafikkinnstillinger kan det oppstå visuelle artefakter og problemer. Vi anbefaler å velge den høyeste grafikkinnstillingen for best mulig opplevelse, forutsatt at datamaskinens spesifikasjoner oppfyller kravene. Modusen krever høy ytelse fra datamaskinen. FPS-frekvensen kan bli redusert i intense kamper."
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "Ved lave grafikkinnstillinger kan det oppstå visuelle artefakter og problemer. Vi anbefaler å velge den høyeste grafikkinnstillingen for best mulig opplevelse, forutsatt at datamaskinens spesifikasjoner oppfyller kravene. Modusen krever høy ytelse fra datamaskinen. FPS-frekvensen kan bli redusert i intense kamper."
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "Et nytt oppdrag i Arcade Cabinet er tilgjengelig om:"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "Undermodusen %(subModeName)s er avsluttet. Fremgang nullstilt."
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "Undermodiet %(subModeName)s er avsluttet."
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "Nye belønninger og undermodusen %(subModeName)s er tilgjengelig."
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "En ny undermodus er tilgjengelig: %(subModeName)s."
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "Undermodusen %(subModeName)s er ikke tilgjengelig på grunn av vedlikehold."
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "Undermodusen %(subModeName)s er tilgjengelig igjen."
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "Belønningsliste"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "Gratulerer!"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "Du fullførte fremgangen"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "Gratulerer!"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "Trinn som kan tas om igjen"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "Du fullførte hovedfremgangen"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "Få så mange belønninger du kan:"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "Tjente poeng: {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Tjente poeng:"
+
+msgid "modes/undefined/progression/title"
+msgstr "ARCADE CABINET OPPDRAG"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "Fullført:"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "Kan tas om igjen"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "For fullførelse:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "For tap:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "For seier:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Poeng:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Mottatt:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "Alle nåværende tilgjengelige oppdrag har blitt fullført."
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "Oppdrag vil dukke opp når fremgangen starter"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "Du har fullført alle tilgjengelige oppdrag for nå. Flere vil dukke opp i neste rotasjon."
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "Tilgjengelige i {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "Tilgjengelige i {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "Nye oppdrag tilgjengelige i {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} Status"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} Oppdrag"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "LEGENDARISK BELØNNING MOTTATT"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "Kamper er tilgjengelige i %(subModeName)s igjen."
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "Våpenhvile"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "Kampene i %(subModeName)s er avsluttet"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "Våpenhvile"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "Aktiv våpenhvile. Kamper i %(subModeName)s er midlertidig utilgjengelige."
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "Våpenhvile"
+
+msgid "modes/undefined/tierList/description"
+msgstr "Hver tilfeldige belønning er en enhet fra listen under som du får med en viss sannsynlighet."
+
+msgid "modes/undefined/tierList/title"
+msgstr "Hva består den av?"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "Vis/skjul kjøretøy som passer til Arcade Cabinet modusen."
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "Kjøretøy til Arcade Cabinet"
+
+msgid "modes/undefined/userName"
+msgstr "Arcade Cabinet"
+
+msgid "notification/congratulation"
+msgstr "Gratulerer!"
+
+msgid "notification/finishSubModes"
+msgstr "\"%(modeName)s\" eventet er avsluttet."
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "Undermodiene %(subModesNames)s er avsluttet. Fremgang nullstilt."
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "Undermodiene %(subModesNames)s er avsluttet."
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "Tilfeldig belønning"
+
+msgid "notification/newProgression"
+msgstr "Eventfremgangen har blitt nullstilt—du kan få belønninger igjen!"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "Eventfremgangen har blitt nullstilt. Nye undermodi er tilgjengelige: %(subModesNames)s."
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "Nye undermodi er tilgjengelige: %(subModesNames)s."
+
+msgid "notification/progressionComplete"
+msgstr "Du har fullført alle tilgjengelige oppdrag i \"%(modeName)s\". Belønning mottatt:"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "Du har fullført alle tilgjengelige oppdrag i \"%(modeName)s\". Trinn som kan tas om igjen er tilgjengelige. Belønning mottatt:"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "Fremgangen blir nullstilt om mindre enn 1 dag. Etter det vil du kunne fullføre oppdrag igjen."
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "Fremgangen vil bli nullstilt om %(days)d dager. Etter det vil du kunne fullføre oppdrag igjen."
+
+msgid "notification/progressionStageComplete"
+msgstr "Du har fullført trinnet \"%(modeName)s\": %(stage)s. Belønning mottatt:"
+
+msgid "notification/subModesSeparator"
+msgstr ", "
+
+msgid "notification/switchOffSubModes"
+msgstr "Undermodiene %(subModesNames)s er ikke tilgjengelige på grunn av vedlikehold."
+
+msgid "notification/switchOnSubModes"
+msgstr "Undermodiene %(subModesNames)s er tilgjengelige igjen."
+
+msgid "platoonView/title"
+msgstr "Tropp: %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "Tilgjengelig server: %(server)s."
+
+msgid "primeTimes/availableServers"
+msgstr "Tilgjengelige servere:"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Kamper på %(serverName)s serveren\nblir tilgjengelig om %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Kampene i \"%(leftDetailedSeasonName)s\"\n på %(serverName)s serveren er avsluttet."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Kamper på %(serverName)s serveren\nblir tilgjengelig i ytterligere %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Kamper på %(serverName)s serveren\nblir tilgjengelig om %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Kampene i \"%(leftDetailedSeasonName)s\"\n på %(serverName)s serveren er avsluttet."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Kamper på %(serverName)s serveren\nblir tilgjengelig om %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Kampene i \"%(leftDetailedSeasonName)s\"\n på %(serverName)s serveren er avsluttet."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Våpenhvile gjelder for alle servere.\nKamper blir tilgjengelig om %(primeDelta)s"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "Kampene i \"%(leftDetailedSeasonName)s\" er avsluttet"
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "Denne modusen er ikke tilgjengelig på %(serverName)s"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Våpenhvile på %(serverName)s serveren gjelder frem til %(primeDeltaDate)s.%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Våpenhvile gjelder på %(serverName)s serveren"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Denne modusen er ikke tilgjengelig på %(serverName)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Våpenhvile gjelder for på %(serverName)s serveren.\nKamper blir tilgjengelig om %(primeDelta)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "Kampene i \"%(leftDetailedSeasonName)s\" er avsluttet"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Denne modusen er ikke tilgjengelig på %(serverName)s"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Kamper på %(serverName)s serveren begynner om %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "Kampene i  \"%(leftDetailedSeasonName)s\" på %(serverName)s serveren er avsluttet."
+
+msgid "primeTimes/timeText/available"
+msgstr "Kamper på %(serverName)s serveren kommer til å være tilgjengelig i ytterligere %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Kamper på %(serverName)s serveren begynner om %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "Kampene i  \"%(leftDetailedSeasonName)s\" på %(serverName)s serveren er avsluttet."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Kamper på %(serverName)s serveren begynner om %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "Kampene i  \"%(leftDetailedSeasonName)s\" på %(serverName)s serveren er avsluttet."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "poeng"
+
+msgid "progression/complete/affirmative"
+msgstr "Bekreftet!"
+
+msgid "progression/defaultCondition/text"
+msgstr "Tjen poeng og kom videre i fremgangen."
+
+msgid "progression/infinite/pointsEarned"
+msgstr "Tjente poeng:"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "Aktiv fase avsluttet. Kamper er over"
+
+msgid "progression/questsList/quest/completed"
+msgstr "Fullført:"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "Kan tas om igjen"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "For fullførelse:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "For tap:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "For seier:"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "Mottatt:"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "Den aktive fasen avsluttes om: {{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "Den aktive fasen avsluttes om:"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "Neste runde om:"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "Belønninger for neste trinn—Åpne ved %(count)d poeng"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Du fikk også:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Bekreftet!"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "Troppskommandøren har byttet til undermodusen %(subModeName)s."
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "Bytte av undermodus"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} nivåene&nbsp;%(levels)s"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Dev Beskrivelse av høyrisiko."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Dev Lav ytelse"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Lav ytelse"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Dev Beskrivelse av medium risiko."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Dev Redusert ytelse"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Redusert ytelse"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "NEON DASH"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "Kjør fortest mulig til målstreken og stopp andre fra å nå den. Bruk Stikk og Skjold evnene til å lage ekstra kaos!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "Forsiktig: Bevegelige plattformer"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "Unngå laserne og beregn hoppene omhyggelig for å få fart til målstreken!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "Pass på: Lasere og hopp"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "for å lære mer om denne modusen"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "Trykk"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "NEON DASH"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15–30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "kjemp din vei\ntil målstreken"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Alle nivåer"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "Ved lave grafikkinnstillinger kan det oppstå visuelle artefakter og andre problemer. Vi anbefaler å velge den høyeste grafikkinnstillingen for best mulig opplevelse, forutsatt at datamaskinens spesifikasjoner oppfyller kravene. Denne modusen krever høy ytelse fra datamaskinen. FPS-frekvensen kan bli redusert i intense øyeblikk."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "Ved lave grafikkinnstillinger kan det oppstå visuelle artefakter og andre problemer. Vi anbefaler å velge den høyeste grafikkinnstillingen for best mulig opplevelse, forutsatt at datamaskinens spesifikasjoner oppfyller kravene. Denne modusen krever høy ytelse fra datamaskinen. FPS-frekvensen kan bli redusert i intense øyeblikk."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "NEON DASH"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "NEON DASH"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "\"Neon Dash\""
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} nivåene&nbsp;%(levels)s"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "Ved lave grafikkinnstillinger kan det oppstå visuelle artefakter og problemer. Vi anbefaler å velge den høyeste grafikkinnstillingen for best mulig opplevelse, forutsatt at datamaskinens spesifikasjoner oppfyller kravene. Modusen krever høy ytelse fra datamaskinen. FPS-frekvensen kan bli redusert i intense kamper."
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "Ved lave grafikkinnstillinger kan det oppstå visuelle artefakter og problemer. Vi anbefaler å velge den høyeste grafikkinnstillingen for best mulig opplevelse, forutsatt at datamaskinens spesifikasjoner oppfyller kravene. Modusen krever høy ytelse fra datamaskinen. FPS-frekvensen kan bli redusert i intense kamper."
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Anbefales å ha best mulige grafikkinnstillinger"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

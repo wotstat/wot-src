@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Powrót do skrzyń"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Szmaragdowa skrzynia"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "SZMARAGDOWA SKRZYNIA"
+
+msgid "common/getButton/lowerCase"
+msgstr "Zdobądź skrzynie"
+
+msgid "common/getButton/upperCase"
+msgstr "ZDOBĄDŹ SKRZYNIE"
+
+msgid "common/loader"
+msgstr "Otwieranie skrzyni..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Otwórz skrzynie, aby zobaczyć statystyki."
+
+msgid "common/statistics/header"
+msgstr "Otwarte skrzynie: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Wszystkie informacje dotyczące otwartych skrzyń zostaną usunięte."
+
+msgid "entryPoint/boxes"
+msgstr "DO SKRZYŃ"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Są to specjalne skrzynie zawierające pojazdy premium, dodatki 3D, kredyty i inne cenne przedmioty w grze.\nMożna je kupić w Sklepie w grze."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Z przyczyn technicznych nie można obecnie otwierać ani kupować skrzyń. Przepraszamy za chwilowe niedogodności."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Skrzynie tymczasowo niedostępne"
+
+msgid "eventName/lowerCase"
+msgstr "Wspaniały w zieleni"
+
+msgid "eventName/upperCase"
+msgstr "WSPANIAŁY W ZIELENI"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Nagroda gwarantowana w następnej skrzyni!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maksymalna liczba skrzyń przed nagrodą gwarantowaną: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Jeśli nie otworzysz skrzyń przed końcem wydarzenia, zostaną one otwarte automatycznie."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Jeśli masz już wszystkie pojazdy z listy możliwej zawartości skrzyń, to za wszystkie kolejne pojazdy otrzymane ze skrzyń dostaniesz rekompensatę w złocie w wysokości ich pełnej wartości."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Każde %(guaranteed0)s skrzyń na pewno zawiera pojazd poziomu VIII–IX. Jeśli je otworzysz, a pojazd się nie pojawi, to pojazd poziomu VIII–IX, którego jeszcze nie masz, pojawi się przy otwarciu %(guaranteed0)s.&zwnbsp;skrzyni. Wtedy licznik zostanie zresetowany."
+
+msgid "infoPage/header/description"
+msgstr "Otwórz skrzynię, aby mieć szansę na cenne przedmioty w grze! Więcej szczegółów poniżej."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Z %(name) (otwarte skrzynie: %(boxesCount))"
+
+msgid "noBoxesView/description/"
+msgstr "Nie masz żadnych skrzyń.\nMożesz je zdobyć w Sklepie w grze."
+
+msgid "preview/backLabel"
+msgstr "DO SKRZYŃ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Dostępne skrzynie: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Brak dostępnych skrzyń"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Jeśli masz już wszystkie pojazdy z listy możliwej zawartości skrzyń, to za wszystkie kolejne pojazdy otrzymane ze skrzyń dostaniesz rekompensatę w złocie."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) skrzynia"
+msgstr[1] "%(remainingCount) skrzynie"
+msgstr[2] "%(remainingCount) skrzyń"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Gwarantowana nagroda to pojazd z listy możliwej zawartości skrzyń.\nJeśli otworzysz %(remainingCount) bez wylosowania takiego pojazdu, to wylosujesz pojazd, gdy otworzysz %(count). skrzynię. Kiedy to nastąpi, licznik zostanie wyzerowany."

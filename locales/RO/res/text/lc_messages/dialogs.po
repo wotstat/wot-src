@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT tim <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "Accept"
+
+msgid "EULA/labels/agree"
+msgstr "De acord"
+
+msgid "EULA/title"
+msgstr "Acord de licenţă pentru utilizatorul final"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "Această adresă e-mail este deja legată de un alt cont."
+
+msgid "accountCompletion/activate/button"
+msgstr "Trimite cod/Schimbă e-mail"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "Retrimite codul sau schimbă e-mail-ul în %(timer) s"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "Introdu din nou e-mail-ul"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "Cod expirat. Introdu din nou e-mail-ul."
+
+msgid "accountCompletion/activate/keyError"
+msgstr "Cod invalid"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "Dacă nu poți găsi e-mail-ul, verifică adresa e-mail, deoarece poate fi tastată greșit."
+
+msgid "accountCompletion/activate/text"
+msgstr "S-a trimis către adresa {whiteSpanish_Open}%(email){whiteSpanish_Close} un mesaj cu codul de confirmare de la Wargaming.net. Introdu codul din 4 cifre pentru a-ți confirma adresa e-mail și a finaliza înregistrarea contului."
+
+msgid "accountCompletion/activate/title"
+msgstr "Confirmă adresa e-mail"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "Ai introdus de prea multe ori un cod incorect."
+
+msgid "accountCompletion/add"
+msgstr "Adaugă"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "Această adresă e-mail este deja legată de un alt cont."
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "E-mail-ul e deja legat"
+
+msgid "accountCompletion/cancel"
+msgstr "Mai târziu"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "E-mail-ul tău"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "E-mail"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "Adaugă-ți e-mail-ul pentru a primi recompensa și a primi acces complet la toate evenimentele jocului."
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "OBȚINE ACCES COMPLET LA JOC"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "Adaugă și confirmă adresa e-mail pentru a primi o recompensă și a debloca noi caracteristici. %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "Finalizează contul"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "Un alt cont este deja înregistrat cu această adresă e-mail."
+
+msgid "accountCompletion/emailForbidden"
+msgstr "Această adresă e-mail e interzisă."
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "E-mail-ul nu trebuie să conțină mai mult de %(amount)s caractere."
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "E-mail-ul trebuie să conțină minim %(amount)s caractere."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "Adresa ta e-mail e deja confirmată."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "E-mail confirmat"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "Ai depășit numărul de cereri. Îți poți schimba adresa e-mail sau retrimite e-mail-ul în %(timer)"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "Acest serviciu e-mail este blocat în țara ta."
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "Acest serviciu e-mail este interzis în țara ta."
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "Nu pot lega e-mail-ul"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "Adresa e-mail poate conține doar litere în alfabetul latin, cifre, simboluri @, puncte și liniuțe de subliniere."
+
+msgid "accountCompletion/later"
+msgstr "Mai târziu"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "Recompensă pentru confirmarea e-mail-ului"
+
+msgid "accountCompletion/submit"
+msgstr "Confirmă"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "Se așteaptă în coada pe server.\nAcest lucru poate dura."
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) Serviciul este momentan indisponibil. Te rugăm să reîncerci mai târziu."
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) Serviciul este momentan indisponibil.\nTe rugăm să reîncerci în %(time)s."
+
+msgid "barracksExpand/cancel"
+msgstr "Anulare"
+
+msgid "barracksExpand/message"
+msgstr "Vrei să extinzi Cazarma, la preţul de %(price)s aur, adăugând %(count)s paturi?"
+
+msgid "barracksExpand/submit"
+msgstr "Extindere"
+
+msgid "barracksExpand/title"
+msgstr "Extindere Cazarmă"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "Aur insuficient."
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "Extindere Cazarmă"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "Anulează"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "Unii jucători nu sunt gata de luptă sau numărul lor este mai mic decât necesar."
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "Porneşte lupta"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "Incomplete"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "Activează bonusul %(newBoosterName)s"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "Confirm"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "Confirmare activare"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "Dacă Rezerva personală %(newBoosterName)s este activată, Rezerva personală %(curBoosterName)s activă în prezent va fi anulată și distrusă."
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "Confirm"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "Confirmare activare"
+
+msgid "buyConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "buyConfirmation/message"
+msgstr "Achiziționezi %(product)s contra %(price)s?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "Achiziționezi {%count} buc. de \"{%name}\"?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "Cumpăr echipamentul „%(equipment)s”?"
+
+msgid "buyConfirmation/submit"
+msgstr "Achiziție"
+
+msgid "buyConfirmation/title"
+msgstr "Confirmare achiziție"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "incompatibilitate"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " cu componenta curentă."
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "Consumabilul \"%(conflicted)s\" va fi trimis în Depozit pe motiv de "
+
+msgid "buyInstallConfirmation/message"
+msgstr "Cumperi și montezi %(kind)s \"%(name)s\" pe vehiculul curent contra %(price)s %(creditsIcon)s? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "Cumperi și montezi %(kind)s \"%(name)s\" pe vehiculul curent contra %(price)s credite?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "Achiziție"
+
+msgid "buyInstallConfirmation/title"
+msgstr "Confirmare achiziție"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "Cumpără cont premium pentru %(days)s cu %(gold)s?\n %(alertIcon)s %(alertColorTagOpen)s Datorită dificultăţilor tehnice, nu vei primi credite sau experienţă adiţionale. Selectează o luptă diferită sau cumpără cont premium din meniul Cumpără Cont Premium. %(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "Achiziție"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "Confirmare achiziție"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "Loc în garaj"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "buySlotConfirmation/message"
+msgstr "Cumperi un loc suplimentar în Garaj contra %(goldCost)s?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "Achiziție"
+
+msgid "buySlotConfirmation/title"
+msgstr "Confirmare achiziție"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "Credite insuficiente pentru achiziționarea unui loc."
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "Credite insuficiente"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "Aur insuficient pentru achiziționarea unui spaţiu suplimentar."
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "Aur insuficient"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "Spaţiu insuficient în garaj. Vrei să achiziționezi un spaţiu suplimentar contra {%d} credite?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "Achiziție"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "Confirmare achiziție"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "Încarcă muniţie standard"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "Anulare"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Deții deja echipaj pentru acest vehicul."
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "Pe durata închirierii vehiculului primești un loc suplimentar gratuit."
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "Nu pot încărca muniția: vehiculul ales este deja încărcat cu muniție."
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "Nu pot încărca muniția: vehiculul ales are încă muniție."
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "Preţ: %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "Spaţiu suplimentar în garaj"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "Achiziție"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "Achiziție"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "Schimb"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "Achiziție tanc fără echipaj"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "Pregătire echipaj"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "Membrii Echipajului: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "Achiziție %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "Total:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "Ai introdus o informaţie incorectă."
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "Introdu cantitatea de aur din coloana ”Total”"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "Confirmă operațiunea:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "Nu ai vehicule acceptabile\npentru schimb"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "Valoarea estimată este %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "Antrenament echipaj: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "Total:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "Selectează vehiculul"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "Selectează un vehicul Premium\nacceptabil pentru schimb"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "Anulare"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "Preț adițional pentru %(vehiclename)s:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "Schimb"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "Achiziție tanc fără echipaj"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "Schimb cu %(vehiclename)s"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "Echipamentele și consumabilele achiziționate nu vor fi decontate în aur după ce vei apăsa butonul de Schimb de mai jos. Asigură-te că ai verificat toate detaliile."
+
+msgid "buyVehicleWindow/warning"
+msgstr "Nu vei mai primi înapoi aurul cheltuit odată ce ai apăsat butonul \"Achiziție\". Verifică atent opţiunile selectate."
+
+msgid "challenge_missions/activation/cancel"
+msgstr "Anulează"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "Activare"
+
+msgid "challenge_missions/activation/description"
+msgstr "Odată activată, o serie de misiuni Creuzet poate fi {{@ style (color #FFE4C0)}}finalizată, eșuată sau abandonată{{/}}. Dacă eșuezi o misiune din serie, vei pierde un scut."
+
+msgid "challenge_missions/activation/title"
+msgstr "Activezi Creuzet: {{challengeName}}?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "Anulează"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "Restartează"
+
+msgid "challenge_missions/restart/description"
+msgstr "Progresul misiunilor va fi resetat, scuturile îți vor fi restaurate și vei putea obține din nou recompensele. Seria de misiuni va fi disponibilă imediat după restartare."
+
+msgid "challenge_missions/restart/free/title"
+msgstr "Restartezi gratuit Creuzet: {{challengeName}}?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "Restartezi Creuzet: {{challengeName}} contra {{cost}}?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "Anulează"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "Abandonează"
+
+msgid "challenge_missions/surrender/description"
+msgstr "Abandonarea va încheia această serie de misiuni Creuzet și va reseta tot progresul și scuturile. O poți restarta în orice moment."
+
+msgid "challenge_missions/surrender/title"
+msgstr "Abandonezi Creuzet: {{challengeName}}?"
+
+msgid "changeGraphics/cancel"
+msgstr "Anulare"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s Motorul grafic a fost modificat semnificativ în această versiune. Poţi să autoselectezi setările grafice sau să renunţi la autoselectare şi să le modifici manual."
+
+msgid "changeGraphics/submit"
+msgstr "Autoselectare"
+
+msgid "changeGraphics/title"
+msgstr "Autoselectarea setărilor grafice"
+
+msgid "changePeriphery/cancel"
+msgstr "Anulare"
+
+msgid "changePeriphery/message"
+msgstr "Te transferi pe alt server?"
+
+msgid "changePeriphery/submit"
+msgstr "Continuă"
+
+msgid "changePeriphery/title"
+msgstr "Confirmarea transferului"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "Anulare"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "Schimbările de server vor fi acum salvate. Poți activa sau dezactiva auto-conectarea din Setări."
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "Continuă"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "Schimbi cu alt server?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "Anulare"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "Te transferi pe alt server?\n\nDacă schimbi serverul, vei avea următoarele limitări:\n\t• Unele vehicule nu vor fi disponibile.\n\t• Emblemele şi inscripţiile nu vor fi afişate.\n\t• Misiunile, Rezervele personale şi Poligonul de teste nu vor fi disponibile.\n\nS-ar putea să ai erori şi probleme cu calitatea conexiunii. Te rugăm să respecţi jucătorii din alte regiuni."
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "Continuă"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "Confirmarea transferului"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "Anulează"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "Te transferi pe alt server?\n\nDacă schimbi serverul, vei avea următoarele limitări:\n\t• Unele vehicule nu vor fi disponibile.\n\t• Emblemele şi inscripţiile nu vor fi afişate.\n\t• Misiunile, Rezervele personale şi Poligonul de teste nu vor fi disponibile.\n\nS-ar putea să ai erori şi probleme cu calitatea conexiunii. Te rugăm să respecţi jucătorii din alte regiuni.\n\n\nSchimbările serverului vor fi salvate.\nMergi la Setări pentru a dezactiva sau activa auto-conectarea."
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "Continuă"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "Confirmarea transferului"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "Anulare"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sEşti pe cale să intri în clanul:\n%(clanName)s\n\nConfirmându-ţi intenţia de a intra în clan, vei accepta în mod automat regulile şi procedurile acestuia şi elti de acord să participi în mod activ la activităţile şi dezvoltarea clanului.\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "După ce ieşi din clan, îţi va fi aplicată o restricţie temporară asupra intrării în alt clan."
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "Confirm"
+
+msgid "clanConfirmJoining/title"
+msgstr "Confirmă intrarea în clan"
+
+msgid "clan_data_not_available/cancel"
+msgstr "Închide"
+
+msgid "clan_data_not_available/message"
+msgstr "Profilul clanului acestui jucător este temporar indisponibil. Încearcă mai târziu."
+
+msgid "clan_data_not_available/title"
+msgstr "Atenție!"
+
+msgid "common/cancel"
+msgstr "Anulare"
+
+msgid "common/confirm/cancel"
+msgstr "Nu"
+
+msgid "common/confirm/submit"
+msgstr "Da"
+
+msgid "common/cost"
+msgstr "Cost:"
+
+msgid "common/error/cancel"
+msgstr "Închide"
+
+msgid "common/submit"
+msgstr "Continuare"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "Anulare"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "Achiziție"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "Achiziționează și echipează directive"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "Anulare"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "Atenție! %(devices)s nu sunt echipate. Directiva %(font_tag_open)sNU VA FUNCȚIONA.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "Echipează"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "Echipează directiva"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "Anulare"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "Atenție! Nu ai echipamente compatibile cu directiva selectată. Directiva %(font_tag_open)sNU VA FUNCȚIONA.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "Echipează"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "Echipează directiva"
+
+msgid "confirmBuy/title"
+msgstr "Cumperi %(moduleName)s?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "Anulare"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "Modulul va fi trimis în Depozit."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "Cantitate necesară pentru cumpărare:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "Câştigă credite în lupte, vinde surplusul de echipamente din Depozit sau schimbă aur pentru a obține mai multe."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "Credite insuficiente"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "Prețul modulului:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "Vinde modulul înlocuit %(previousModuleName) contra %(previousModulePrice)"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "Acest modul e compatibil cu:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "Poți vinde modulul acum, sau va fi trimis în Depozit, de unde îl poți vinde sau reinstala."
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "Achiziție"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "Cumperi și instalezi %(moduleName)s?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "Cumpăr și montez echipamentul „%(equipment)s”?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "Echipează"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "Anulare"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "Conversia nu e necesar.\nAi suficiente credite."
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "Achiziția nu a fost posibilă, conversie eșuat.\nMai ai nevoie de %(gold)s pentru conversie."
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "Convertești %(gold)s în credite până la suma cerută?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "Credite necesare:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "Cantitatea necesară pentru achiziție: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "Conversie"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "Confirmare conversie pentru achiziție"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "Anulare"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "Conversia nu e necesară.\nAi suficientă experiență."
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "Cercetarea nu a fost posibilă: conversie eșuată.\nMai ai nevoie de %(gold)s pentru conversie."
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "Convertești experiența necesară pentru %(gold)s?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "Experiență necesară:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "Cantitatea necesară pentru cercetare: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "Selectează un vehicul"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "Confirmare conversie pentru cercetare"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "Total:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "Anulare"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "Conversia nu este necesară pentru recuperare.\nAi suficiente credite."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "Nu pot converti pentru recuperare.\nEste nevoie de %(gold)s pentru conversie."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "Converteşti %(gold)s pentru cantitatea de credite lipsă?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "Credite necesare:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "Necesar în plus pentru recuperare: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "Schimb"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "Confirmă conversia pentru recuperare"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "Cantitate:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "Cantitate"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "Total"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "Preţ:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "Preţ"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "Total:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "Total"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "Total:"
+
+msgid "confirmUnlock/cancel"
+msgstr "Nu"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} (inclusiv {{freeXP}})?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "Cercetează {{items}} contra"
+
+msgid "confirmUnlock/item/message"
+msgstr "Cercetezi %(typeString)s %(userString)s pentru %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (inclusiv %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "confirmUnlock/submit"
+msgstr "Da"
+
+msgid "confirmUnlock/title"
+msgstr "Confirmare cercetare"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "Cercetezi %(userString)s contra %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (inclusiv %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "Anulare"
+
+msgid "controlsWrongNotification/message"
+msgstr "Una sau mai multe taste nu au funcţie asociată. Sigur vrei să salvezi setările?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "Salvează"
+
+msgid "controlsWrongNotification/title"
+msgstr "Eroare"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "Anulare"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "Fişierele pentru setul de mesaje vocale selectat sunt deteriorate sau lipsesc, va fi utilizat setul standard.\nUna sau mai multe taste nu au funcţie asociată. Sigur vrei să salvezi setările?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "Salvează"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "Eroare"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "createOrderConfirmation/submit"
+msgstr "Confirm"
+
+msgid "createOrderConfirmation/title"
+msgstr "Confirmă pregătirea rezervei"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "Fonduri insuficiente pentru a face achiziția."
+
+msgid "crewBookPurchase/description/crew"
+msgstr "Se aplică întregului echipaj. Prin studiere, %(book)s conferă %(exp)s fiecărui membru de echipaj."
+
+msgid "crewBookPurchase/description/personal"
+msgstr "Se aplică membrului de echipaj selectat. Prin studiere, %(book)s conferă %(exp)s acestui membru de echipaj."
+
+msgid "crewBookPurchase/purchase"
+msgstr "Cumpără"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "Cumperi %(book)s?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "Ieşire"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "Toate abțibildurile aplicate ale hărților {season} vor fi {removed} de pe vehicul\ndeoarece acest loc este indisponibil pentru {this}"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "Confirm"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "aceste hărți."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "această hartă."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "Aplici acest autocolant pe acest loc pentru toate hărțile?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "La cumpărare, elementele vor fi aplicate vehiculului curent. Elementele marcate cu steluță vor fi indisponibile altor vehicule."
+
+msgid "customization/buy_install_bound/title"
+msgstr "Confirmare de achiziție a elementelor"
+
+msgid "customization/change_install_bound/message"
+msgstr "La cumpărare, elementele vor fi aplicate vehiculului curent. Elementele marcate cu steluță vor fi indisponibile altor vehicule."
+
+msgid "customization/change_install_bound/title"
+msgstr "Confirmare de schimbare a elementelor"
+
+msgid "customization/close/cancel"
+msgstr "Anulare"
+
+msgid "customization/close/submit"
+msgstr "Ieșire"
+
+msgid "customization/close/title"
+msgstr "Ieși în Garaj fără a aplica aceste schimbări?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "Anulează"
+
+msgid "customization/exitToShop/submit"
+msgstr "Continuă"
+
+msgid "customization/exitToShop/title"
+msgstr "Continui spre Magazin fără a salva modificările?"
+
+msgid "customization/filter/cancel"
+msgstr "Anulare"
+
+msgid "customization/filter/message"
+msgstr "Toate elementele vor fi eliminate. Continui?"
+
+msgid "customization/filter/submit"
+msgstr "Elimină tot"
+
+msgid "customization/filter/title"
+msgstr "Elimină elemente"
+
+msgid "customization/install_bound/cancel"
+msgstr "Anulează"
+
+msgid "customization/install_bound/submit"
+msgstr "Continuă"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "Anulare"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "Atenție! După ce aplici (%(cTypeName)s %(itemName)s) pe vehiculul curent, vei mai putea aplica acest element pe doar %(numberLeft)s vehicule. Aplici elementul?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "Aplicare"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "Aplicare element"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "Anulare"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "Atenție! După ce aplici (%(cTypeName)s %(itemName)s) pe vehiculul curent, nu vei mai putea aplica acest element pe alte vehicule. Aplici elementul?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "Aplicare"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "Aplicare element"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "Anulare"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "Atenție! După ce aplici (%(cTypeName)s %(itemName)s) pe vehiculul curent, nu vei mai putea aplica acest element pe alte vehicule. Elementul %(willBeDeleted)s dacă este eliminat. Aplici elementul?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "Aplicare"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "Aplicare element"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "va fi șters"
+
+msgid "customization/remove_element/cancel"
+msgstr "Anulare"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "Eliminare"
+
+msgid "customization/remove_element/title"
+msgstr "Eliminare element"
+
+msgid "customizationConfirmSell/message"
+msgstr "Vând %(name)s contra %(price)s%(creditsIcon)s?"
+
+msgid "customizationConfirmSell/title"
+msgstr "Confirmare vânzare"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "la fiecare %(days)s z"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "la fiecare %(days)s z %(hours)s h"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "la fiecare %(hours)s h"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "la fiecare %(hours)s h %(mins)s min"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "la fiecare %(mins)s min"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "Resetarea misiunii este disponibilă {timeLimitMsg}"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "Resetează"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "Resetezi misiunea?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} Unele vehicule sunt în luptă. Îți poți pierde progresul după resetarea misiunii. Resetarea misiunii este disponibilă {timeLimitMsg}"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "Resetează"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "Resetezi misiunea?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "Atenție!"
+
+msgid "dedication/headline"
+msgstr "Ai primit premiul ”Erou al vremurilor noastre”"
+
+msgid "dedication/sub-headline"
+msgstr "Pentru {battlesNum} lupte purtate"
+
+msgid "dialogTemplates/cancel"
+msgstr "Anulează"
+
+msgid "dialogTemplates/confirm"
+msgstr "Confirmă"
+
+msgid "dialogTemplates/ok"
+msgstr "Recepționat!"
+
+msgid "disconnect/cancel"
+msgstr "Nu"
+
+msgid "disconnect/message"
+msgstr "Te deconectezi de la server?"
+
+msgid "disconnect/submit"
+msgstr "Da"
+
+msgid "disconnect/title"
+msgstr "Deconectare de la server"
+
+msgid "disconnected/cancel"
+msgstr "OK"
+
+msgid "disconnected/message"
+msgstr "Ai fost deconectat de la server. Apasă OK pentru reconectare."
+
+msgid "disconnected/messageBan"
+msgstr "Contul tău a fost suspendat. %(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "Contul tău a fost suspendat până la %(expiryTime)s. %(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "Conexiunea cu serverul a fost întreruptă. %(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \nMotiv: %s"
+
+msgid "disconnected/title"
+msgstr "Conexiune întreruptă"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "Demobilizează"
+
+msgid "dismissTankman/description/perk"
+msgstr "Pentru această operațiune, introdu nivelul de antrenament al talentului: {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "Pentru această operațiune, introdu nivelul antrenamentului celui mai recent talent antrenat ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "Membrul de echipaj selectat va fi demobilizat. Îl poți recupera în {whiteOrange_Open}%(time)s z{whiteOrange_Close}."
+
+msgid "dismissTankman/header"
+msgstr "Demobilizarea membrului de echipaj"
+
+msgid "dismissTankman/limited"
+msgstr "Limita de demobilizare a fost atinsă. Membrul de echipaj demobilizat îl va înlocui pe %(name)s (%(role)s, %(vehicle)s)"
+
+msgid "dismissTankman/noRecovery"
+msgstr "Recuperarea nu va fi posibilă"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "Anulare"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "Atenţie! Când demobilizezi %(dismissedName)s, acesta îl va înlocui pe %(deletedStr)s. Confirmi modificarea?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "Confirm"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "Confirmă modificarea"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "Anulare"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "Atenție! Când îți demobilizezi echipajul, vei înlocui %(deletedStr)s și %(extraCount)s membri de echipaj. Confirmi schimbarea?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "Confirm"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "Memoria cu membri de echipaj demobilizați este plină"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "Înlocuiește"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "Nume"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "Prenume"
+
+msgid "documentChangeDialog/title"
+msgstr "Înlocuiești numele și înfățișarea?"
+
+msgid "dropSkill/cancel"
+msgstr "Anulare"
+
+msgid "dropSkill/message"
+msgstr "Resetezi toate talentele?"
+
+msgid "dropSkill/submit"
+msgstr "Resetare"
+
+msgid "dropSkill/title"
+msgstr "Confirmare resetare"
+
+msgid "elementType/chassis"
+msgstr "suspensie"
+
+msgid "elementType/engine"
+msgstr "motor"
+
+msgid "elementType/gun"
+msgstr "tun"
+
+msgid "elementType/radiostation"
+msgstr "radio"
+
+msgid "elementType/turret"
+msgstr "turelă"
+
+msgid "elenDisabled/cancel"
+msgstr "Închide"
+
+msgid "elenDisabled/message"
+msgstr "Competițiile temporar indisponibile din cauza lucrărilor de mentenanță programate."
+
+msgid "elenDisabled/title"
+msgstr "Atenție!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "Anulare"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "Nu mai arăta acest avertisment"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "Din cauza configurației tale hardware vei experimenta o rată de FPS slabă și distorsiuni grafice în acest mod. Încărcarea unei lupte va dura mai mult și poate rezulta într-o eroare a clientului. Intri oricum în luptă?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "Luptă!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "Avertisment performanță"
+
+msgid "equipmentBuyInstall/price"
+msgstr "Preț cumpărare:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "Dezasamblezi %(equipment)s?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "Anulează"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "Dezasamblează și îmbunătățește"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "Dezasamblează"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "Acest echipament demontat va fi {white_Open}distrus{white_Close}.\nObiectul poate fi demontat cu succes contra bonduri."
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "Acest echipament demontat va fi {white_Open}distrus{white_Close}.\nObiectul poate fi demontat cu succes contra aur sau cu un kit de demontare."
+
+msgid "equipmentDestroy/conformation"
+msgstr "Distrug echipamentul „%(equipment)s”?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "Montez echipamentul „%(equipment)s”?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "Vând echipamentul „%(equipment)s”?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "Anulează"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "Modernizează"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "Spre dezasamblare"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "Nu există echipament experimental de dezasamblat."
+
+msgid "eula/p1"
+msgstr "Te rugăm să citeşti <BR/><A HREF='event:%(eulaURL)s'><U>Acordul de Licenţă pentru Utilizatorul Final</U></A> înainte de a continua."
+
+msgid "eula/p2"
+msgstr "APĂSÂND BUTONUL \"ACCEPT\", SE CONSIDERĂ CĂ AI CITIT, ÎNŢELES ŞI EŞTI DE ACORD SĂ ACCEPŢI ŞI SĂ RESPECŢI CONDIŢIILE ACORDULUI DE LICENŢĂ PENTRU UTILIZATORUL FINAL ŞI SĂ FII FĂCUT RESPONSABIL ÎN CAZUL ÎNCĂLCĂRII ACESTORA. ACORDUL ŞI ORICE ALTE MODIFICĂRI ALE ACESTUIA SUNT APLICABILE ŞI OBLIGATORII PENTRU TOŢI MEMBRII PROIECTULUI."
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "Vrei să converteşti %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s în %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "Schimb"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "Conversie aur"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "Discountul pentru conversia a până la %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s exp la experiență liberă va fi folosit. Data următoare, experiența va fi convertită contra aur."
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "Vrei să converteşti %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s EXP în experienţă liberă pentru %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "Conversie"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "Conversie în experienţă liberă"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "Experienţă insuficientă pentru conversie"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "Experienţă insuficientă pentru conversie"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "Anulează"
+
+msgid "fillAllPerks/button/fill"
+msgstr "Autoselectare"
+
+msgid "fillAllPerks/checkbox"
+msgstr "Autoselectează talente pentru echipajele din cazarmă"
+
+msgid "fillAllPerks/description"
+msgstr "În funcție de calificarea membrului de echipaj cu locașuri disponibile pentru talente, un algoritm selectează primul talent din tabelul de mai jos. Dacă membrul de echipaj deține deja primul talent, algoritmul îl selectează pe cel de-al doilea, continuând până când toate locașurile au fost utilizate. Operațiunea poate dura un timp."
+
+msgid "fillAllPerks/subTitle"
+msgstr "Talentele vor fi autoselectate pentru membrii de echipaj dintr-un vehicul."
+
+msgid "fillAllPerks/title"
+msgstr "Autoselectezi talentele neantrenate pentru toți membrii de echipaj?"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "Anulare"
+
+msgid "finance_dialog/header"
+msgstr "Confirmarea operaţiunii"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "Introdu parola pentru operaţiuni financiare pentru confirmare."
+
+msgid "finance_dialog/results/invalid"
+msgstr "Parolă incorectă."
+
+msgid "finance_dialog/results/limit"
+msgstr "Ai introdus o parolă greşită de prea multe ori, încearcă din nou peste 24 de ore. <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Ai uitat parola?</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "Parola trebuie să fie de cel puţin şase caractere şi poate conţine următoarele simboluri: litere latine, numere şi \"_\"."
+
+msgid "finance_dialog/submitBtn"
+msgstr "Confirm"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "Anulează"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "Obții %(product)s contra %(price)s?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "Obține"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "Confirmare"
+
+msgid "fortDisabled/cancel"
+msgstr "Închide"
+
+msgid "fortDisabled/message"
+msgstr "Informațiile despre clanuri sunt momentan indisponibile din cauza lucrărilor de mentenanță programate."
+
+msgid "fortDisabled/title"
+msgstr "Atenție!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "OK"
+
+msgid "fortTurnedOff/message"
+msgstr "Fortul este temporar indisponibil. Încearcă din nou mai târziu."
+
+msgid "fortTurnedOff/title"
+msgstr "Atenție!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "Nu"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "Da"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "Anulare"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "Vei ieşi din garnizoana structurii %(oldBuilding)s. Vei fi ataşat structurii %(newBuilding)s."
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "Confirm"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "Ataşare la structură"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "Anulează"
+
+msgid "freeObtainConfirmation/message"
+msgstr "Obții %(product)s contra %(price)s?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "Obține"
+
+msgid "freeObtainConfirmation/title"
+msgstr "Confirmare"
+
+msgid "freeSkillsLearning/message"
+msgstr "Un talent zero nu trebuie antrenat contra EXP. Acesta conferă un avantaj, reducând semnificativ necesarul de EXP în antrenamentul ulterior al membrului de echipaj."
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "Selectezi %(skillName)s ca talent zero?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "Reantrenezi %(skillName)s ca talent zero?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "freeSlotConfirmation/message"
+msgstr "Folosești discountul de 100% pentru a adăuga gratis un loc extra în Garaj?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "Adaugă"
+
+msgid "freeSlotConfirmation/title"
+msgstr "Adaugă loc"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "Închide"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "Ai atins limita de vehicule gratuite care pot fi achiziţionate într-o zi. Încearcă din nou mâine."
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "Închide"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "Limită de cumpărare"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)sExperienţa%(orangeText_close)s%(simpleText_open)s este o resursă specifică jocului obţinută în lupte.\n\nAceasta cuprinde:%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)sExperienţa de luptă%(orangeText_close)s%(simpleText_open)s este folosită pentru cercetarea unor componente ale unui anumit vehicul cât şi pentru a avansa în jocul din universul Wargaming în care a fost obţinută.%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sExperienţa liberă%(orangeText_close)s%(simpleText_open)s este folosită pentru cercetarea oricăror module sau vehicule, precum și la accelerarea antrenamentului echipajului. Ai grijă cum cheltuiești Experiența liberă.%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "Continuare"
+
+msgid "freeXPInfo/title"
+msgstr "Experienţa"
+
+msgid "gammaDialog/cancel"
+msgstr "Start"
+
+msgid "gammaDialog/message/description"
+msgstr "Comandante! Configurează-ți monitorul pentru a arata corect gamma coloristică și a îmbunătăți calitatea imaginii de pe ecran.\n\n "
+
+msgid "gammaDialog/message/header"
+msgstr "Configurează-ți monitorul acum!"
+
+msgid "gammaDialog/title"
+msgstr "Setări gamma"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "După conversie:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "Înainte de conversie:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "Anulare"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "Conversie"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "Total:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "Echipaj"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "Vehicul"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "Experienţă"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "Toate vehiculele"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "Sortare după vehiculele selectate."
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "Sortare după numele vehiculelor."
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "Vehicule"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "Sortare după experienţa primită."
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "Experienţă"
+
+msgid "gatheringXPForm/title"
+msgstr "Conversie în experienţă liberă"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "Conversie EXP:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "Pregătirea echipajului este accelerată."
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "Pregătirea echipajului se face normal."
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "Total:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "Total:"
+
+msgid "graphics/message/alert"
+msgstr "Atenție!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "Setările de ecran au fost modificate, se revine la setările anterioare în %(time)s secunde. Salvezi setările?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "Salvează"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "Salvarea setărilor de ecran"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "Nu"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "Atenţie, toate modificările vor fi pierdute. Continui oricum?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "Da"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "Autodetectarea nivelului de calitate"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "Nu"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "Atenţie! Schimbarea anumitor setări grafice ar putea să dureze un timp. Continui?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "Da"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "Schimbă setările"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "Închide"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "Parametrii nu au putut fi setați la maxim. Va fi folosită calitatea grafică setată de utilizator în schimb."
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "Atenție"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "Închide"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "Texturile de calitate maximă sunt disponibile numai pentru sistemele de operare pe 64 de biţi."
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "Calitatea Texturilor indisponibilă"
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "Mai târziu"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "Unele setări grafice vor fi aplicate după repornirea jocului. Reporneşti acum?"
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "Acum"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "Schimbă setările"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/message"
+msgstr "Nu mai există spaţiu în Garaj. Poţi să cumperi spaţiu suplimentar sau să vinzi un vehicul ca să ai loc pentru cel pe care vrei să-l cumperi."
+
+msgid "haveNoEmptySlots/submit"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/title"
+msgstr "Eroare"
+
+msgid "hof/excludeRating/cancel"
+msgstr "Anulare"
+
+msgid "hof/excludeRating/message"
+msgstr "Alţi jucători nu îţi vor mai vedea realizările, dar poţi să le faci vizibile pe pagina principală a Hall of Fame."
+
+msgid "hof/excludeRating/submit"
+msgstr "Ascunde rezultatele"
+
+msgid "hof/excludeRating/title"
+msgstr "Arată rezultatele în Clasament"
+
+msgid "hofDisabled/cancel"
+msgstr "Închide"
+
+msgid "hofDisabled/message"
+msgstr "Hall of Fame nu este momentan disponibilă. Încearcă mai târziu."
+
+msgid "hofDisabled/title"
+msgstr "Atenție!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "Anulează"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}Echipaj incomplet{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}Unul sau mai mulți membri de echipaj sunt nepotriviți{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "Vehiculul selectat este nepotrivit dintr-unul dintre următoarele motive:"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "Un singur membru de echipaj poate primi bonusul. Acesta va fi transferat de la"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "către"
+
+msgid "idleCrewBonus/submit"
+msgstr "Confirmă"
+
+msgid "idleCrewBonus/title"
+msgstr "Activezi Antrenamentul intensiv al echipajului?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "Încearcă să dezactivezi accelerarea hardware a browser-ului în Setări (în tab-ul Grafică)."
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "Eroare la încărcare"
+
+msgid "interviewQuit/cancel"
+msgstr "Înapoi"
+
+msgid "interviewQuit/message"
+msgstr "Poți refuza sondajul acum și să îl completezi mai târziu, deschizând mesajul cu invitația de la Notificări. Mesajul rămâne activ pe parcursul unei sesiuni de joc."
+
+msgid "interviewQuit/submit"
+msgstr "Refuză"
+
+msgid "interviewQuit/title"
+msgstr "Refuză sondajul"
+
+msgid "koreaParentNotification/cancel"
+msgstr "Recepționat!"
+
+msgid "koreaParentNotification/message"
+msgstr "Pentru a preveni dependența de joc la copii și adolescenți, intrarea în luptă după %(preBlockTime)s este interzisă. Vei fi deconectat de la server la %(blockTime)s."
+
+msgid "koreaParentNotification/submit"
+msgstr "Recepționat!"
+
+msgid "koreaParentNotification/title"
+msgstr "Limitarea jocului"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "Recepționat!"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "Limita de timp a expirat. Nu poți intra într-o luptă nouă."
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "Recepționat!"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "Control parental"
+
+msgid "leaveEvent/cancel"
+msgstr "Anulare"
+
+msgid "leaveEvent/message"
+msgstr "Rezultatele luptelor tale în competiţie vor fi resetate după actualizarea clasamentului. Nu vei putea fi admis în clasament şi obţine recompensa.\n\nDupă ieşirea din competiţie %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "NU POȚI REINTRA."
+
+msgid "leaveEvent/submit"
+msgstr "Părăseşte competiţia"
+
+msgid "leaveEvent/title"
+msgstr "Părăseşte competiţia"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "Anulare"
+
+msgid "leaveStartedEvent/message"
+msgstr "Rezultatele luptelor tale în această competiţie nu vor fi luate în considerare. Nu vei putea fi admis în clasament şi obţine recompensa.\n\nDupă ieşirea din competiţie %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "Părăseşte competiţia"
+
+msgid "leaveStartedEvent/title"
+msgstr "Părăseşte competiţia"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "Anulare"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "Deja eşti în antecamera de luptă; vrei să ieşi pentru a accepta invitaţia?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "Invitaţie"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "Anulare"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "Deja eşti într-un pluton; vrei să ieşi din plutonul actual şi să accepţi invitaţia?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "Invitaţie"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "Anulare"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "Eşti deja într-o cameră de antrenament; vrei să ieşi şi să accepţi invitaţia?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "Invitaţie"
+
+msgid "legalInfoWindow/title"
+msgstr "Informaţii juridice"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "Anulează"
+
+msgid "limitedUIOffNotification/message"
+msgstr "Ești sigur că vrei să dezactivezi apariția graduală a elementelor de interfață ascunse în Garaj?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "După dezactivarea acestei opțiuni, nu o vei mai putea reactiva."
+
+msgid "limitedUIOffNotification/submit"
+msgstr "Dezactivează"
+
+msgid "limitedUIOffNotification/title"
+msgstr "Schimbă setările"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "Anulează"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "Schimbările de server vor fi acum salvate. Poți activa sau dezactiva auto-conectarea din Setări."
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "Continuă"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "Salvezi schimbarea de server?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "Nu ai suficientă muniție echipată pe configurarea alternativă. Intri oricum în luptă?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "Muniție incompletă"
+
+msgid "lowAmmo/cancel"
+msgstr "Anulare"
+
+msgid "lowAmmo/message"
+msgstr "Muniţie insuficientă în vehiculul selectat. Muniția va fi realimentată automat înainte de începerea următoarei lupte."
+
+msgid "lowAmmo/submit"
+msgstr "Realimentare"
+
+msgid "lowAmmo/title"
+msgstr "Realimentare automată cu muniție"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "Anulare"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "Nu ai suficientă muniție echipată pe vehiculul selectat. Intri oricum în luptă?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "Luptă!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "Muniție incompletă"
+
+msgid "lowFpsWarning/cancel"
+msgstr "Nu"
+
+msgid "lowFpsWarning/message"
+msgstr "Setările curente determină o performanţă grafică redusă. Vrei să reduci calitatea graficii?"
+
+msgid "lowFpsWarning/submit"
+msgstr "Da"
+
+msgid "lowFpsWarning/title"
+msgstr "Performanţă grafică redusă"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "Detaliile despre jucătorul %(userName)s nu pot fi afişate."
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "Informaţii blocate"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "Detaliile despre jucătorul %(userName)s nu sunt disponibile momentan."
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "Informaţii indisponibile momentan"
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "Anulare"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s Activarea acestei setări va reduce performanțele computerului în luptă."
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "Atenție!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "Activez"
+
+msgid "minimapAlphaNotification/title"
+msgstr "Transparenţă mini-hartă"
+
+msgid "moduleSale/conformation/header"
+msgstr "Vând %(moduleType)s „%(moduleName)s”?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "Anulare"
+
+msgid "moneyTransfer/labelClan"
+msgstr "Clan:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "credite"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "aur"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "Comision:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "Suma de transferat:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "Normal:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "credite"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "aur"
+
+msgid "moneyTransfer/labelTo"
+msgstr "Către:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "Total:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(nu e în clan)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "Trimite"
+
+msgid "moneyTransfer/title"
+msgstr "Transfer de aur"
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "Ţi se va reţine o taxă de {fee} <img src='icon_gold' />. Sigur vrei să transferi {gold} <img src='icon_gold' /> către jucătorul {player}?"
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "Conversie"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "Confirmarea transferului"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Stabileşte parola pentru operaţiuni financiare</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/message"
+msgstr "Transferul aurului nu este permis. Motiv: %s."
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "Restricţia expiră la %s."
+
+msgid "moneyTransferRestriction/submit"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/title"
+msgstr "Transferul aurului nu este permis."
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "Nu"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "Modificările anumitor setări se vor aplica în lupta următoare. Continui?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "Da"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "Schimbă setările"
+
+msgid "perkLearnConfirm/desc"
+msgstr "Nivelul talentului după antrenare: {yellow_Open}%(level)s%%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "Antrenează"
+
+msgid "perkLearnConfirm/title"
+msgstr "Antrenezi talentul %(skillName)s?"
+
+msgid "perksReset/after"
+msgstr "După resetare:"
+
+msgid "perksReset/before"
+msgstr "Înainte de resetare:"
+
+msgid "perksReset/cancel"
+msgstr "Anulează"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "Opțiunea e indisponibilă, deoarece ai deja o reducere de 100% la resetarea talentului în Academia militară."
+
+msgid "perksReset/discountTooltip/header"
+msgstr "Indisponibil"
+
+msgid "perksReset/free/description"
+msgstr "Talentele până la maximul de {yellow_Open}1%{yellow_Close} pot fi resetate gratuit."
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "Acest membru de echipaj are o primă resetare gratuită a talentului"
+
+msgid "perksReset/graceLabel"
+msgstr "Resetarea gratuită a talentelor va fi disponibilă timp de:"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "Cantitatea totală de EXP a talentelor va descrește. Vor fi disponibile mai puține talente pentru antrenare."
+
+msgid "perksReset/noNewPerks"
+msgstr "Toată experiența talentelor antrenate va fi adăugată nivelului calificării majore."
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "din EXP totală a talentelor"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "Şcoală regimentală"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "din EXP totală a talentelor"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "Cursuri intensive"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "Resetează talente\n fără a pierde EXP"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "Utilizează credite pentru a reseta talente fără a pierde EXP"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "Academie militară"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "Resetează talente\n fără a pierde EXP"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "Resetare"
+
+msgid "perksReset/title"
+msgstr "Resetezi toate talentele membrului de echipaj?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "Anulează"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "Calitatea fizicii sunetului selectată diferă de setarea detectată automat de clientul jocului. Activarea acestei opțiuni poate afecta performanța. Îți recomandăm să testezi performanța înainte de a confirma. Dorești să aplici aceste modificări?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "Confirmă"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "Nepotrivire a calității fizicii sunetului"
+
+msgid "postmortem/cancel"
+msgstr "Ieșire"
+
+msgid "postmortem/message"
+msgstr "Vehiculul distrus. Rămâi în luptă sau revii în Garaj?"
+
+msgid "postmortem/submit"
+msgstr "Rămân"
+
+msgid "postmortem/title"
+msgstr "Vehicul Distrus"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "Cumperi cont Premium pentru %(days)s zile, pentru %(gold)s aur?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "Achiziție"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "Confirmare achiziție"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "Prelungeşti Contul Premium cu %(days)s zile, contra %(gold)s aur?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "Da"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "Confirmarea operaţiunii"
+
+msgid "priceCard/credits/title"
+msgstr "Şcoală regimentală"
+
+msgid "priceCard/free/title"
+msgstr "Cursuri intensive"
+
+msgid "priceCard/gold/title"
+msgstr "Academie militară"
+
+msgid "priceCard/price/free"
+msgstr "Gratuit"
+
+msgid "priceCard/recertification/title"
+msgstr "Ordin de recalificare"
+
+msgid "punishmentWindow/cancel"
+msgstr "Recepţionat"
+
+msgid "punishmentWindow/header/ban"
+msgstr "Ai fost blocat timp de %(time)s"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "Ai fost penalizat"
+
+msgid "punishmentWindow/header/warning"
+msgstr "Comportament nesportiv"
+
+msgid "punishmentWindow/info"
+msgstr "Dacă situația ta a fost provocată de probleme de conexiune sau alte probleme tehnice,\ncontactează Asistența Jucători."
+
+msgid "punishmentWindow/message/ban"
+msgstr "Ai încălcat regulile jocului pe harta {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} la {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nAi fost blocat temporar din lupte în modul {whiteSpanish_Open}%(mode)s{whiteSpanish_Close}."
+
+msgid "punishmentWindow/message/penalty"
+msgstr "Ai încălcat regulile jocului pe harta {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} la {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nȚi s-au eliminat creditele, EXP și recompensele obținute în luptă."
+
+msgid "punishmentWindow/message/warning"
+msgstr "Ai încălcat regulile jocului pe harta {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} la {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nÎn cazul încălcărilor repetate, ți se vor elimina creditele, EXP și recompensele obținute în luptă."
+
+msgid "punishmentWindow/reason/afk"
+msgstr "Inactivitate în luptă"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "Ieşire din luptă înainte de final sau înainte de distrugerea vehiculului"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "Inacțiune în luptă/părăsirea luptei prea devreme"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "Autodistrugere intenţionată"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s z %(hour)s h"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 min"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s min"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "Anulare"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "Nu întreba din nou"
+
+msgid "questsConfirmDialog/message"
+msgstr "Dacă selectezi misiunea \"%(newQuest)s\", misiunea \"%(oldQuest)s\" va fi anulată."
+
+msgid "questsConfirmDialog/submit"
+msgstr "Confirm"
+
+msgid "questsConfirmDialog/title"
+msgstr "Confirmă selectarea misiunii"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "Anulare"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "Tot progresul în misiunea %(curQuest)s va fi resetat.\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "Atenție! Tot progresul în misiunea curentă va fi pierdut."
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "Confirm"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "Resetare progres"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "Anulare"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "Dacă selectezi misunea %(newQuest)s, progresul în misiunea %(oldQuest)s va fi resetat.\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "Atenție! Tot progresul în misiunea curentă va fi pierdut."
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "Confirm"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "Confirmă selectarea misiunii"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "Anulare"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "Misiunea %(quest)s va fi anulată.\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "Atenție! Tot progresul în misiunea curentă va fi pierdut."
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "Confirm"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "Confirmă anularea misiunii"
+
+msgid "quit/cancel"
+msgstr "Rămân"
+
+msgid "quit/submit"
+msgstr "Ieșire"
+
+msgid "quit/title"
+msgstr "Ieși din joc?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "Anulează"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "Echipa are nevoie de tine! Părăsirea luptei înainte de final sau înainte ca vehiculul propriu să fie distrus se consideră dezertare şi poate duce la penalizări şi pierderea tuturor bonusurilor pentru lupta jucată în IGR."
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "Dezertez"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "Dezertezi câmpul de luptă?"
+
+msgid "quitBattle/cancel"
+msgstr "Anulează"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Anulează"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Echipa ta are nevoie de tine! Părăsirea luptei înainte de final sau înainte ca vehiculul propriu să fie distrus se consideră dezertare şi poate duce la penalizări."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Dezertez"
+
+msgid "quitBattle/leaver/title"
+msgstr "Dezertezi câmpul de luptă?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "Anulează"
+
+msgid "quitBattle/replay/submit"
+msgstr "Părăsește"
+
+msgid "quitBattle/replay/title"
+msgstr "Ieși din modul Spectator?"
+
+msgid "quitBattle/submit"
+msgstr "Ieșire"
+
+msgid "quitBattle/title"
+msgstr "Părăsești lupta?"
+
+msgid "quitPreBattle/cancel"
+msgstr "Nu"
+
+msgid "quitPreBattle/message"
+msgstr "Sigur vrei să ieşi din antecamera de luptă?"
+
+msgid "quitPreBattle/submit"
+msgstr "Da"
+
+msgid "quitPreBattle/title"
+msgstr "Ieşire din antecamera de luptă"
+
+msgid "rally/autoSearch/cancel"
+msgstr "Nu"
+
+msgid "rally/autoSearch/message"
+msgstr "Cauţi automat poziţii disponibile?"
+
+msgid "rally/autoSearch/submit"
+msgstr "Da"
+
+msgid "rally/autoSearch/title"
+msgstr "Auto-căutare"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "Renunț"
+
+msgid "rally/changePeriphery/message"
+msgstr "Vei fi transferat automat pe alt server (%(host)s). Continui oricum?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "Continuă"
+
+msgid "rally/changePeriphery/title"
+msgstr "Transfer pe alt server"
+
+msgid "rally/goToAnother/cancel"
+msgstr "Anulare"
+
+msgid "rally/goToAnother/message"
+msgstr "Dacă schimbi modul de luptă, vei fi exclus automat din unitatea operativă."
+
+msgid "rally/goToAnother/submit"
+msgstr "Continuă"
+
+msgid "rally/goToAnother/title"
+msgstr "Schimbarea modului de luptă"
+
+msgid "rally/goToIntro/cancel"
+msgstr "Anulare"
+
+msgid "rally/goToIntro/message"
+msgstr "Eşti sigur că vrei să părăseşti unitatea operativă?"
+
+msgid "rally/goToIntro/submit"
+msgstr "Confirm"
+
+msgid "rally/goToIntro/title"
+msgstr "Confirmare ieșire"
+
+msgid "rally/goToSquad/cancel"
+msgstr "Anulare"
+
+msgid "rally/goToSquad/message"
+msgstr "Dacă faci un pluton, vei ieşi automat din modul de luptă curent."
+
+msgid "rally/goToSquad/submit"
+msgstr "Creează"
+
+msgid "rally/goToSquad/title"
+msgstr "Pluton"
+
+msgid "rally/leave/cancel"
+msgstr "Anulare"
+
+msgid "rally/leave/message"
+msgstr "Eşti sigur că vrei să ieşi din unitatea operativă şi modul de joc?"
+
+msgid "rally/leave/submit"
+msgstr "Confirm"
+
+msgid "rally/leave/title"
+msgstr "Confirmare ieșire"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "Continuare"
+
+msgid "rally/leaveDisabled/message"
+msgstr "Nu se poate ieşi din mod. Vehiculul tău este într-o poziţie gata de luptă."
+
+msgid "rally/leaveDisabled/title"
+msgstr "Atenție"
+
+msgid "rally/startBattle/cancel"
+msgstr "Nu"
+
+msgid "rally/startBattle/message"
+msgstr "Cauţi echipe adverse?"
+
+msgid "rally/startBattle/submit"
+msgstr "Da"
+
+msgid "rally/startBattle/title"
+msgstr "Se caută inamic..."
+
+msgid "recruit/cancel"
+msgstr "Anulează"
+
+msgid "recruit/submit"
+msgstr "Recrutare"
+
+msgid "recruit/title"
+msgstr "Recrutezi un %(role)s nou pentru %(vehicleName)s?"
+
+msgid "recruit/voiceoverText"
+msgstr "Vocea unică a membrului de echipaj funcționează doar cu calificarea de comandant."
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "Nu trebuie să recrutezi membri de echipaj pentru vehicule premium. Poți transfera echipajul fără penalizare către un vehicul premium de același tip."
+
+msgid "recruit/warning/slotChanged"
+msgstr "Acest membru de echipaj nu poate fi recrutat pentru vehiculul selectat și va fi trimis în Cazarmă."
+
+msgid "recruitConversionConfirm/warning"
+msgstr "Membrul de echipaj are talente învechite care vor fi resetate automat fără pierdere de EXP."
+
+msgid "recruitDialog/name/title"
+msgstr "Recrutezi membrul nou de echipaj (%(name)s)?"
+
+msgid "recruitDialog/title"
+msgstr "Recrutezi membrul nou de echipaj?"
+
+msgid "recruitWindow/cancel"
+msgstr "Anulează"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "Selectează"
+
+msgid "recruitWindow/nation"
+msgstr "Națiune"
+
+msgid "recruitWindow/specialization"
+msgstr "Calificări"
+
+msgid "recruitWindow/submit"
+msgstr "Recrutare"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "Tip vehicul"
+
+msgid "recruitWindow/vehicleType"
+msgstr "Vehicul"
+
+msgid "referralReward/cancel"
+msgstr "Renunță"
+
+msgid "referralReward/message"
+msgstr "Colectezi %(product)s?"
+
+msgid "referralReward/submit"
+msgstr "Confirmă"
+
+msgid "referralReward/title"
+msgstr "Confirmare de recepție"
+
+msgid "refuseTraining/cancel"
+msgstr "Nu"
+
+msgid "refuseTraining/message"
+msgstr "Ieși din antrenament?"
+
+msgid "refuseTraining/submit"
+msgstr "Da"
+
+msgid "refuseTraining/title"
+msgstr "Confirmare"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "Distruge"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "Anulare"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "Consumabilul \"%(name)s\" va fi mutat în Depozit din motiv de %(reason)s cu modulul curent."
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "incompatibilitate"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "Demontez"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "Confirmarea demontării"
+
+msgid "rentConfirmation/cancel"
+msgstr "Renunță"
+
+msgid "rentConfirmation/event"
+msgstr "pentru modul %(eventName)s"
+
+msgid "rentConfirmation/message"
+msgstr "Închiriezi %(name)s %(event)s contra %(price)s?"
+
+msgid "rentConfirmation/submit"
+msgstr "Confirmă"
+
+msgid "rentConfirmation/title"
+msgstr "Confirmă închirierea"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "Renunță"
+
+msgid "rentConfirmationRenew/message"
+msgstr "Extinzi perioada de închiriere a %(name)s %(event)s contra %(price)s?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "Confirmă"
+
+msgid "rentConfirmationRenew/title"
+msgstr "Confirmă închirierea"
+
+msgid "replacePassport/unique/cancel"
+msgstr "Anulare"
+
+msgid "replacePassport/unique/message"
+msgstr "Acesta este un membru de echipaj unic și datele sale personale nu pot fi resetate mai târziu. Ești sigur ca vrei să înlocuiești datele personale contra %(gold)s?"
+
+msgid "replacePassport/unique/submit"
+msgstr "Schimbă"
+
+msgid "replacePassport/unique/title"
+msgstr "Confirmare înlocuire"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "replacePassportConfirmation/message"
+msgstr "Schimbi datele personale ale membrului echipajului contra %(gold)s?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "Schimbă"
+
+msgid "replacePassportConfirmation/title"
+msgstr "Schimbare date personale"
+
+msgid "replayNotification/cancel"
+msgstr "Nu"
+
+msgid "replayNotification/message"
+msgstr "Versiunea actuală a jocului nu este compatibilă cu formatul de înregistrare a luptei şi poate cauza probleme la redare. Ignori diferenţa şi continui?"
+
+msgid "replayNotification/submit"
+msgstr "Da"
+
+msgid "replayNotification/title"
+msgstr "Atenţie"
+
+msgid "replayStopped/cancel"
+msgstr "Anulare"
+
+msgid "replayStopped/message"
+msgstr "Reluare completă. Apăsă Sfârşit pentru a ieşi."
+
+msgid "replayStopped/submit"
+msgstr "Sfârşit"
+
+msgid "replayStopped/title"
+msgstr "Redare completă."
+
+msgid "reportBug/cancel"
+msgstr "Anulare"
+
+msgid "reportBug/message"
+msgstr "Dând clic aici, vei deschide browser-ul implicit și vei ajunge pe pagina de Asistență Jucători a World of Tanks pentru a raporta o eroare. Continui?"
+
+msgid "reportBug/submit"
+msgstr "Continuare"
+
+msgid "reportBug/title"
+msgstr "Spre Asistența Jucători"
+
+msgid "resetAllPerks/cancel"
+msgstr "Anulează"
+
+msgid "resetAllPerks/submit"
+msgstr "Resetare"
+
+msgid "resetAllPerks/title"
+msgstr "Resetezi toate talentele pentru toți membrii de echipaj?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}Toate talentele vor fi resetate pentru toți membrii de echipaj din contul tău.{orangeEnd}\n{orangeStart}Această operație nu poate fi anulată.{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "Continuare"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)sSetările grafice au fost selectate automat pentru o calitate optimă a imaginii.\nPentru a îmbunătăţi performanţa, alege niveluri de calitate mai reduse la Setări."
+
+msgid "resetGraphics/submit"
+msgstr "Setări"
+
+msgid "resetGraphics/title"
+msgstr "Schimbarea setărilor grafice"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "Recuperează"
+
+msgid "restoreTankman/description"
+msgstr "%(name)s va fi recuperat."
+
+msgid "restoreTankman/free"
+msgstr "Cost: gratuit"
+
+msgid "restoreTankman/header"
+msgstr "Recuperezi acest membru de echipaj?"
+
+msgid "restoreTankman/price"
+msgstr "Cost:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "Anulare"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "Recuperează %(vehiclename)s"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "Recuperează"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "Fără echipaj"
+
+msgid "restoreVehicleDialog/title"
+msgstr "Recuperează %(vehiclename)s"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "După ce apeşi Recuperare, nu vei putea schimba echipamentele şi consumabilele achiziţionate contra aur. Verifică toate detaliile cu atenţie."
+
+msgid "retrain/cancel"
+msgstr "Anulează"
+
+msgid "retrain/changeRole"
+msgstr "Schimbă calificarea"
+
+msgid "retrain/discountLabel"
+msgstr "Reducerea este disponibilă deoarece primul talent nu este antrenat la 100%."
+
+msgid "retrain/discountTooltip/body"
+msgstr "Opțiunea e indisponibilă, deoarece ai deja o reducere de 100% la reantrenare în Academia militară."
+
+msgid "retrain/discountTooltip/header"
+msgstr "Indisponibil"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "Membri de echipaj pentru recalificare: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "Nu trebuie să antrenezi membri de echipaj pentru vehicule premium.\nPoți transfera echipajul fără penalizare către un vehicul premium de același tip."
+
+msgid "retrain/price"
+msgstr "Cost:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "Eficiența talentului\ndupă reantrenare: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "Şcoală regimentală"
+
+msgid "retrain/priceCard/free/description"
+msgstr "Eficiența talentului\ndupă reantrenare: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "Cursuri intensive"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "Eficiența talentului\ndupă reantrenare: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "Academie militară"
+
+msgid "retrain/submit"
+msgstr "Recalific"
+
+msgid "retrain/title/massive"
+msgstr "Recalifici echipajul pentru %(vehicleName)s&zwnbsp;?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "Reantrenezi pentru %(vehicleName)s\nși schimbi calificarea către %(role)?"
+
+msgid "retrain/title/single/simple"
+msgstr "Reantrenare pentru %(vehicleName)s"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "Talentele nepotrivite pentru calificare vor fi dezactivate. Resetează-le manual."
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "Echipajul poate fi mutat într-un vehicul premium de același tip fără antrenament sau penalizări, însă talentele nepotrivite trebuie resetate manual."
+
+msgid "rudyInfo/message"
+msgstr "Nemuritorii clasici, acum în joc! \"Patru bărbați și un câine\" (\"Czterej pancerni i pies\" în original) a fost un serial TV alb-negru polonez, bazat pe romanul cu același nume al lui Janusz Przymanowski. Serialul TV, care a debutat pe 9 mai 1966, descrie aventurile unui echipaj de tanc T-34-85, poreclit Rudy (Ginger), și ale câinelui lor Szarik, în timpul celui de al II-lea Război Mondial."
+
+msgid "rudyInfo/submit"
+msgstr "Recepționat!"
+
+msgid "rudyInfo/title"
+msgstr "Patru bărbați și un câine"
+
+msgid "selectVehicle/counter"
+msgstr "Vehicule afișate:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "Selectează vehiculul atacator"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "Selectează acest vehicul"
+
+msgid "sellConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "sellConfirmation/submit"
+msgstr "Vând"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "Vând"
+
+msgid "sellModuleConfirmation/title"
+msgstr "Confirmare vânzare"
+
+msgid "sellShellConfirmation/submit"
+msgstr "Vând proiectilul „%(shellName)s”?"
+
+msgid "sendInvites/common/title"
+msgstr "Invită în unitatea operativă"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "Anulează"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "Statisticile sezonului vor fi resetate automate în{}"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "Resetare"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s h %(minutes)s min"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "Resetez statisticile sesiunii?"
+
+msgid "shopSyncError/cancel"
+msgstr "Continuare"
+
+msgid "shopSyncError/message"
+msgstr "Actualizează aplicația. Dacă eroarea persistă, actualizează serverul."
+
+msgid "shopSyncError/title"
+msgstr "Desincronizare"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "Anulează"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "Antrenezi talentele selectate?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "Antrenează"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "Aplică"
+
+msgid "soundModeInvalid/cancel"
+msgstr "Anulare"
+
+msgid "soundModeInvalid/message"
+msgstr "Fişierele pentru setul de mesaje vocale selectat sunt deteriorate sau lipsesc, va fi utilizat setul standard."
+
+msgid "soundModeInvalid/submit"
+msgstr "Salvează"
+
+msgid "soundModeInvalid/title"
+msgstr "Eroare"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "Anulare"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "Sistemul de sunet selectat este diferit de cel definit automat de către clientul de joc. Unele sunete pot să nu fie disponibile. Poți testa diferențele de sunet. Confirmi schimbările?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "Confirm"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "Sistem de sunet schimbat"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "Nu"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "Sistemul de sunet selectat este diferit de cel definit automat de către clientul de joc. Unele sunete pot să nu fie disponibile. Poți testa diferențele de sunet. Aplici setările optime de sunet?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "Da"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "Sistem de sunet schimbat"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "Recepționat!"
+
+msgid "squad/eventDisabled/message"
+msgstr "Evenimentul este indisponibil. Plutonul va fi demobilizat."
+
+msgid "squad/eventDisabled/title"
+msgstr "Evenimentul s-a încheiat"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Anulare"
+
+msgid "squad/goToAnother/message"
+msgstr "Eşti într-un Pluton. Dacă schimbi modul de luptă, vei fi exclus din Pluton."
+
+msgid "squad/goToAnother/submit"
+msgstr "Continuă"
+
+msgid "squad/goToAnother/title"
+msgstr "Schimbarea modului de luptă"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "Anulează"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "La schimbarea modului de joc, plutonul tău actual va fi desființat. Dorești într-adevăr să schimbi tipul luptei?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "Confirmă"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "Schimbarea modului de joc"
+
+msgid "squad/goToSquad/cancel"
+msgstr "Anulare"
+
+msgid "squad/goToSquad/message"
+msgstr "Ieşi din unitatea operativă şi creezi un pluton cu jucătorul?"
+
+msgid "squad/goToSquad/submit"
+msgstr "Creează"
+
+msgid "squad/goToSquad/title"
+msgstr "Pluton"
+
+msgid "squad/leave/cancel"
+msgstr "Anulare"
+
+msgid "squad/leave/message"
+msgstr "Eşti sigur că vrei să ieşi din pluton?"
+
+msgid "squad/leave/submit"
+msgstr "Confirm"
+
+msgid "squad/leave/title"
+msgstr "Confirmare ieșire"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Continuare"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Nu poţi ieşi din pluton. Eşti membru al plutonului şi gata de luptă."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Atenție"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "Anulare"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "Plutonul este incomplet. Încă un jucător va fi adăugat automat. Intri în luptă?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "Luptă!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "Plutonul nu este gata"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "Anulare"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "Plutonul nu este complet. Intri în luptă oricum?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "Luptă!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "Plutonul nu este gata"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "Anulare"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "Plutonul este incomplet. Adaugi jucători automat şi intri în luptă?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "Luptă!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "Plutonul nu este gata"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "Anulare"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "Unul dintre membrii plutonului nu este gata. Intri în luptă oricum?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "Luptă!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "Plutonul nu este gata"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "Anulare"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "Jucătorul care nu a confirmat că este gata va fi exclus din unitatea operativă. Un alt jucător va fi adăugat automat. Intri în luptă?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "Luptă!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "Plutonul nu este gata"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "Anulare"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "Niciunul dintre membrii plutonului nu este gata. Intri în luptă oricum?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "Luptă!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "Plutonul nu este gata"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "Anulare"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "Plutonul este incomplet. Jucătorii care nu au confirmat că sunt gata vor fi excluşi din unitatea operativă. Adaugi jucători automat şi intri în luptă?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "Luptă!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "Plutonul nu este gata"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "Nu se poate intra într-o luptă nouă, nu toţi coechipierii au revenit din luptă. Aşteaptă terminarea luptei în curs."
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "Recepționat!"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "Plutonul nu este gata"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "OK"
+
+msgid "squadPremiumNeeded/message"
+msgstr "Numai jucătorii cu cont Premium pot crea un pluton.\nJucătorul care a creat plutonul poate invita oricare alt jucător."
+
+msgid "squadPremiumNeeded/title"
+msgstr "Cont Premium necesar"
+
+msgid "steamStartNeeded/cancel"
+msgstr "Închide jocul"
+
+msgid "steamStartNeeded/message"
+msgstr "Jocul trebuie lansat din Steam pentru a te conecta corect."
+
+msgid "steamStartNeeded/title"
+msgstr "Nu mă pot conecta"
+
+msgid "stronghold/leave/cancel"
+msgstr "Anulare"
+
+msgid "stronghold/leave/message"
+msgstr "Eşti sigur că vrei să ieşi din detaşament?"
+
+msgid "stronghold/leave/submit"
+msgstr "Confirm"
+
+msgid "stronghold/leave/title"
+msgstr "Confirmare ieşire"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "Când vei ieşi, detaşamentul va fi desfiinţat.\nClanul va fi penalizat pentru neprezentare.\nEşti sigur că vrei să ieşi din detaşament?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "Confirmare ieşire"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "Anulare"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "Continuă"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "Transfer pe alt server"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "tradeInConfirmation/message"
+msgstr "%(vehName)s va fi predat și indisponibil pentru recuperare.%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " În plus, %(operations)s."
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "echipajul va trimis în Cazarmă"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "consumabilele vor fi trimise în Depozit"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "echipamentele vor fi demontate gratuit"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "toate modificările duble cumpărate vor fi anulate, însă progresul modificărilor standard va fi salvat"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "muniția va fi trimisă în Depozit"
+
+msgid "tradeInConfirmation/submit"
+msgstr "Schimb"
+
+msgid "tradeInConfirmation/title"
+msgstr "Schimb vehicule"
+
+msgid "tradeInPopover/descr"
+msgstr "Vehicule Premium disponibile în Garaj"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "Arată ţările vehiculelor selectate"
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "Ţara"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "Afișează cât economisești când vehiculele selectate sunt adăgate la schimb"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "Evaluare\nvehicul"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "Evaluare vehicul"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "Arată generaţiile vehiculelor selectate."
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "Generaţie"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "Arată numele vehiculelor selectate."
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "Nume"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "Arată tipul vehiculelor selectate."
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "Tip"
+
+msgid "tradeInPopover/title"
+msgstr "Selectează vehiculul pentru schimb"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "Selectează vehiculul"
+
+msgid "updateNeeded/cancel"
+msgstr "Mai târziu"
+
+msgid "updateNeeded/message"
+msgstr "Actualizarea aplicaţiei este necesară."
+
+msgid "updateNeeded/submit"
+msgstr "Actualizează"
+
+msgid "updateNeeded/title"
+msgstr "Este necesară actualizarea"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "Antrenezi membrul echipajului pentru {%d} aur?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "Da"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "Confirmarea pregătirii"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "Aur insuficient pentru antrenament."
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "Aur insuficient"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "Anulare"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "Antrenezi membrul echipajului pentru {%d} credite?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "Da"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "Confirmarea pregătirii"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "Credite insuficiente pentru antrenament."
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "Credite insuficiente."
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "Anulare"
+
+msgid "vehConf/exitDialog/message"
+msgstr "Modificările nu vor fi salvate. ieşi din meniul de configurare a vehiculului?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "Confirm"
+
+msgid "vehConf/exitDialog/title"
+msgstr "Anulare schimbări"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "Elimină din Garaj %(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "Anulare"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "Atenție! Acesta este un vehicul specia. Dacă în vinzi, va trebui să aștepți %(cooldown)s zile până vei putea să îl recuperezi. Vinzi vehiculul?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "Confirm"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "Confirmare vânzare"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "Anulare"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "Atenție! Acesta este un vehicul special. Totuși, dacă îl vinzi, vei putea să îl recuperezi. Vinzi vehiculul?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "Confirm"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "Confirmare vânzare"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "Anulare"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "Anulare"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "ATENȚIE! Acest tanc este unic și nu poate fi recuperat. Echipajul va fi, deseamenea, concediat definitiv."
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "Confirm"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "Confirmare vânzare"
+
+msgid "vehicleSell/unique/message"
+msgstr "Atenţie! Acesta este un vehicul special. Nu se poate cumpăra din Magazin. Continui?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "Confirm"
+
+msgid "vehicleSell/unique/title"
+msgstr "Confirmare vânzare"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "Confirmă vânzarea"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "Pentru a confirma vânzarea, introdu preţul de vânzare din coloana \"Total\" (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "Ai introdus o informaţie incorectă."
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "MUNIŢIE:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "DIRECTIVE:"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "Anulare"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "TOTAL:"
+
+msgid "vehicleSellDialog/count"
+msgstr "buc."
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "Demobilizează"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "Trimit în Cazarmă"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "ECHIPAJ:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "EXTERIOR:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "Dezasamblează"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "CONSUMABILE:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "Detalii"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "DEPOZIT:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "Cheltuit:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "Inclusiv toate configurațiile naționale ale vehiculului!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "Module"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "ECHIPAMENTE:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "La vânzarea vehiculului, nivelul actual al Modificării de teren va rămâne, dar toate modificările duble vor fi anulate."
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "Primit:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "Elimină"
+
+msgid "vehicleSellDialog/submit"
+msgstr "Vând"
+
+msgid "vehicleSellDialog/title"
+msgstr "Vânzare: %(name)s"
+
+msgid "vehicleSellDialog/unload"
+msgstr "Trimit în Depozit"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "Vehicul «Elită»"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "Preţ"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "Generație. "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "Rol: "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "Antitancuri"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "Artilerii"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "Tanc greu"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "Tanc uşor"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "Tanc mediu"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "Recepționat!"
+
+msgid "voiceChatInitFailed/message"
+msgstr "Eroare la inițializarea chat-ului de voce: serviciu momentan indisponibil."
+
+msgid "voiceChatInitFailed/title"
+msgstr "Iniţializarea voice chat-ul"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "OK"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "Voice chat-ul este activ."
+
+msgid "voiceChatInitSucceded/title"
+msgstr "Iniţializarea voice chat-ul"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "Închide"
+
+msgid "waterQualityNotPossible/message"
+msgstr "Nivelul \"Mare\" pentru calitatea apei este disponibil doar dacă este activă opţiunea de postprocesare avansată."
+
+msgid "waterQualityNotPossible/title"
+msgstr "Setare grafică nepermisă"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "Anulează"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "Verifică dacă sunt disponibile vehicule în Garaj"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "Preț: %(price)s %(icon)s (disponibile %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "Jucător: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "Vehicule selectate: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "Refacere"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "Refaci?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "Asistent"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "Recompense de participare"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "Bonus din luptă"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "Certificatul de luptă Plus"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "Hartă exclusă"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "Vehicul exclusiv"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "Vehicule exclusive"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "Demontarea gratuită a echipamentelor"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "Rezerva de aur"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "Antrenament intensiv al echipajului"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "Multiplicator EXP gestionabil"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "Accelerarea Pro"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "Personalizarea Dosarului de serviciu"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "Bandiera de tanchist"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "WOT PLUS ACTIVAT"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "Sunt pregătit!"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "Se prelungește pe {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "WOT PLUS DE BAZĂ ACTIVAT"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "Detalii"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "Plan pe 360 de zile"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "Plan pe 180 de zile"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}, se prelungește pe {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "WOT PLUS PRO ACTIVAT"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "Activare"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}Nu vei putea accelera alt vehicul din nou timp de {{@ style (color #fff)}}{{boostInterval}} ore{{/}}.{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "Activarea Accelerării Pro îi aduce acestui vehicul {{@ style (color #fff)}}{{bonusPercent}}mai multe credite și EXP{{/}}. Se aplică unui singur vehicul."
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "Activezi Accelerarea Pro pentru {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "Schimbă"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}Un singur vehicul poate obține accelerarea. Nu vei putea accelera alt vehicul din nou timp de {{@ style (color #fff)}}{{boostInterval}} ore{{/}}.{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "Activarea Accelerării Pro îi aduce acestui vehicul {{@ style (color #fff)}}{{bonusPercent}}mai multe credite și EXP{{/}}. Se aplică unui singur vehicul."
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "Schimbi Accelerarea Pro către {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "Anulează"
+
+msgid "wotPlusRental/description"
+msgstr "Următoarea închiriere de vehicule va fi disponibilă pe {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "Închiriază"
+
+msgid "wotPlusRental/title"
+msgstr "Închiriezi {cream_Open}%s{cream_Close}?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "Salvează"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "Dorești să salvezi personalizarea Dosarului de serviciu?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "Anulează"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "Toată experienţa câştigată în acest vehicul va fi folosită pentru pregătirea echipajului. Membrul echipajului cu cea mai puţină experienţă va fi pregătit de două ori mai repede."
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "Pornește"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "Accelerezi antrenamentul echipajului?"

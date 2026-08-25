@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sNäytä%(linkEndTag)s pelaajan tiedot"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sHakemus klaaniin%(titleEndTag)s\npelaajalta %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Näytä hakemukset"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sPoista käytöstä%(linkEndTag)s ilmoitukset"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sHakemuksia pelaajilta: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sNäytä%(linkEndTag)s klaanin tiedot"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sKutsu klaaniin%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Näytä kutsut"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sKlaanikutsuja: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "Pelaaja hyväksyttiin klaaniin."
+
+msgid "clans/state/app/declined"
+msgstr "Hakemus evätty."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "Pelaajan yhden päivän jäähy edellisestä klaanistaan lähtemisestä ei ole vielä päättynyt."
+
+msgid "clans/state/invite/accepted"
+msgstr "Sinut hyväksyttiin klaaniin."
+
+msgid "clans/state/invite/declined"
+msgstr "Kutsu evätty."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Yhden päivän karenssi edellisestä klaanista lähtemisestäsi ei ole vielä päättynyt."
+
+msgid "errors/creationNotAllowed"
+msgstr "Ei tarpeeksi oikeuksia kutsun luomiseen."
+
+msgid "errors/invalid"
+msgstr "Virheellinen kutsu."
+
+msgid "errors/inviteNotSupported"
+msgstr "Tämä kutsutyyppi ei ole käytettävissä tällä hetkellä. Yritä myöhemmin uudelleen."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "Kutsun vastaanottaja lisäsi sinut mustalle listalleen."
+
+msgid "errors/selfinvite"
+msgstr "Et voi kutsua itseäsi."
+
+msgid "errors/unknownuser"
+msgstr "Tämä käyttäjä ei ole vielä rekisteröitynyt järjestelmään."
+
+msgid "errors/useroffline"
+msgstr "Käyttäjä on offline-tilassa."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "Tallissa oleva vaunu on vaurioitunut tai lukittu. Valitse toinen vaunu."
+
+msgid "friendship/note/approved"
+msgstr "Pelaaja lisätty kaverilistalle"
+
+msgid "friendship/note/canceled"
+msgstr "Pyyntö hylätty"
+
+msgid "friendship/note/maxRoster"
+msgstr "Maksimimäärä kontakteja listalla: %(rosterMaxCount)s. Lisätäksesi tämän pelaajan kaverilistalle, poista joku listalta ensin."
+
+msgid "friendship/note/notConnected"
+msgstr "Ei voida yhdistää palvelimeen. Ole hyvä ja osota."
+
+msgid "friendship/note/process"
+msgstr "Odotetaan palvelimen vastausta"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sKaverikutsu%(titleEndTag)s\npelaajalta %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Hyväksy"
+
+msgid "gui/buttons/cancel"
+msgstr "Peruuta"
+
+msgid "gui/buttons/reject"
+msgstr "Kieltäydy"
+
+msgid "gui/buttons/send"
+msgstr "Lähetä"
+
+msgid "gui/labels/additionalText"
+msgstr "Ylimääräinen teksti kutsuun:"
+
+msgid "gui/labels/inviteText"
+msgstr "Kutsuteksti:"
+
+msgid "gui/labels/receiver"
+msgstr "Vastaanottaja:"
+
+msgid "gui/titles/barter"
+msgstr "Kauppakutsu"
+
+msgid "gui/titles/clan"
+msgstr "Klaanikutsu"
+
+msgid "gui/titles/invite"
+msgstr "Kutsu"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Kutsut"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti taktisesta yksiköstä ja siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti taktisesta yksiköstä ja siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti taistelusta maailmankartalla ja siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti taktisesta yksiköstä ja siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti taktisesta yksiköstä ja siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti taktisesta yksiköstä ja siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti Etulinjan harjoitushuoneesta ja siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti taktisesta yksiköstä ja siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Kun hyväksyt kutsun, poistut \"Joukkuetaistelut\" -pelimuodosta ja sinut siirretään palvelimelle %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti osastosta ja siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "Hyväksyttyäsi kutsun poistut Linnake: Taistelut -tilasta ja siirryt %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "Kun hyväksyt kutsun, poistut \"Hyökkäysoperaatio\" -pelimuodosta ja sinut siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti tiedustelutehtävän osastosta ja siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti harjoitushuoneesta ja siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "Hyväksyttyäsi kutsun poistut Linnake: Taistelut -tilasta ja siirryt %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti osastosta ja siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "Kun hyväksyt kutsun, poistut nykyisestä erillisosastosta ja sinut siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti turnauksesta ja siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti harjoitushuoneesta ja siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti Rynnistyksen harjoitushuoneesta ja siirretään %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Kun hyväksyt kutsun, poistut \"Joukkuetaistelut\" -pelimuodosta ja sinut siirretään palvelimelle %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "Hyväksyttyäsi kutsun poistut \"Teräksen metsästäjä\" -pelimuodosta ja siirryt %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Hyväksyttyäsi kutsun poistut Etulinjalta ja siirryt %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "Hyväksyttyäsi kutsun poistut Rynnistyksestä ja siirryt %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "Hyväksyttyäsi kutsun poistut Kevyt-Rynnistyksestä ja siirryt %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "Hyväksyttyäsi kutsun poistut Etulinjalta ja siirryt %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "Hyväksyttyäsi kutsun poistut \"+++Event battle+++\" -taisteluista ja siirryt %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "Hyväksyttyäsi kutsun poistut tiedustelutehtävästä ja siirryt %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "Hyväksyttyäsi kutsun poistut Maantiedosta ja siirryt %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "Hyväksyttyäsi kutsun poistut satunnaistaisteluista ja siirryt %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "Hyväksyttyäsi kutsun poistut Luokitetut taistelut -pelimuodosta ja siirryt %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "Hyväksyttyäsi kutsun poistut lämmittelystä ja siirryt %(host)s palvelimelle."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "Hyväksyttyäsi kutsun poistut lämmittelystä ja siirryt %(host)s palvelimelle. Et voi aloittaa sitä uudelleen."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti taktisesta yksiköstä."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti taktisesta yksiköstä."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti taistelusta maailmankartalla."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti taktisesta yksiköstä."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti taktisesta yksiköstä."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti taktisesta yksiköstä."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti Etulinjan harjoitushuoneesta."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti taktisesta yksiköstä."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Kun hyväksyt kutsun, poistut \"Joukkuetaistelut\" -pelimuodosta."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti osastosta."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "Kun hyväksyt kutsun, poistut \"Linnake: taistelut\" -pelimuodosta."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "Kun hyväksyt kutsun, poistut \"Hyökkäysoperaatio\" -pelimuodosta."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti tiedustelutehtävän osastosta."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti harjoitushuoneesta."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "Kun hyväksyt kutsun, poistut \"Linnake: taistelut\" -pelimuodosta."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti osastosta."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "Kun hyväksyt kutsun, poistut nykyisestä erillisosastosta."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti turnauksesta."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti harjoitushuoneesta."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Kun hyväksyt kutsun, sinut poistetaan automaattisesti Rynnistyksen harjoitushuoneesta."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Kun hyväksyt kutsun, poistut \"Joukkuetaistelut\" -pelimuodosta."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "Kun hyväksyt kutsun, poistut \"Teräksen metsästäjä\" -pelimuodosta."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Hyväksyttyäsi kutsun poistut Suuresta metsästyksestä."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "Hyväksyttyäsi kutsun poistut Rynnistyksestä."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "Hyväksyttyäsi kutsun poistut Kevyt-Rynnistyksestä."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "Hyväksyttyäsi kutsun poistut Etulinjalta."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "Kun hyväksyt kutsun, poistut \"+++Event battle+++\" -tapahtuman taisteluista."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "Kun hyväksyt kutsun, poistut tiedustelutehtävästä."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "Hyväksyttyäsi kutsun poistut Maantiedosta."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "Kun hyväksyt kutsun, poistut satunnaistaisteluista."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "Hyväksyttyäsi kutsun poistut Luokitetut taistelut -pelimuodosta."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "Hyväksyttyäsi kutsun poistut lämmittelystä."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "Hyväksyttyäsi kutsun poistut lämmittelystä. Et voi aloittaa sitä uudelleen."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Palvelimen vaihdot tallennetaan nyt."
+
+msgid "invites/note/server_change"
+msgstr "Sinut siirretään automaattisesti %(host)s palvelimelle."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Et voi hyväksyä kutsua. Hyväksyäksesi kutsun, ole hyvä ja valitse %(host)s palvelin."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Et voi hyväksyä kutsua. Ole hyvä ja mene toiselle palvelimelle."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Olet jo liittynyt osastoon."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Olet jo liittynyt taisteluun maailmankartalla."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Olet jo liittynyt harjoitushuoneeseen."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Olet jo liittynyt osastoon."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Olet jo liittynyt osastoon."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Olet jo liittynyt erillisosastoon."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Olet jo liittynyt osastoon."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Olet jo liittynyt turnaukseen."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Olet jo liittynyt harjoitushuoneeseen."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Olet jo liittynyt harjoitushuoneeseen."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Olet jo liittynyt joukkueeseen."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Kutsu hyväksytty."
+
+msgid "invites/state/DECLINED"
+msgstr "Kutsu evätty."
+
+msgid "invites/state/ERROR"
+msgstr "Virheellinen kutsu."
+
+msgid "invites/state/EXPIRED"
+msgstr "Virheellinen kutsu."
+
+msgid "invites/state/REVOKED"
+msgstr "Kutsu peruutettu."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Kutsu liittyä Teräksen metsästäjän osastoon"
+
+msgid "invites/text/COMP7"
+msgstr "Kutsu liittyä Rynnistyksen osastoon"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Kutsu liittyä Kevyt-Rynnistyksen osastoon"
+
+msgid "invites/text/EPIC"
+msgstr "Kutsu liittyä Etulinjan osastoon"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Kutsu liittyä \"Etulinja\" -pelimuodon joukkueharjoitukseen"
+
+msgid "invites/text/EVENT"
+msgstr "Kutsu liittyä osastoon"
+
+msgid "invites/text/FALLOUT"
+msgstr "Kutsu liittyä osastoon \"%(battleType)s\" -taisteluihin"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Ylivalta"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Teräsjahti"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Kutsu taisteluun"
+
+msgid "invites/text/MAPBOX"
+msgstr "Kutsu liittyä tiedustelutehtävän osastoon"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Kutsu tutkimaan karttoja"
+
+msgid "invites/text/SORTIE"
+msgstr "Kutsu liittyä erillisosastoon"
+
+msgid "invites/text/SQUAD"
+msgstr "Kutsu liittyä osastoon"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Kutsu liittyä erillisosastoon"
+
+msgid "invites/text/TRAINING"
+msgstr "Jutsu liittyä joukkueharjoitukseen"
+
+msgid "invites/text/UNIT"
+msgstr "Kutsu liittyä joukkueeseen"
+
+msgid "invites/text/creatorName"
+msgstr "pelaajalta %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Puolustusvaihe"
+
+msgid "invites/text/fort/direction"
+msgstr "Sillanpää"
+
+msgid "invites/text/fort/offence"
+msgstr "Hyökkää"
+
+msgid "invites/warning/anonymized"
+msgstr "Hyväksyttyäsi kutsun todellinen pelinimesi ja klaanitunnuksesi näytetään taktisen yksikön jäsenille taistelun ajan."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Kutsu lähetetty pelaajalle %(name)s."

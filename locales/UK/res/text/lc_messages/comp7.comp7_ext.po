@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Бої на серверах почнуться за %(primeDelta)s"
+
+msgid "alertMessage/allNotSet"
+msgstr "Режим недоступний на всіх серверах"
+
+msgid "alertMessage/ban"
+msgstr "Ви тимчасово заблоковані в цьому режимі. Лишилося часу: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Зміна сервера"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Докладніше"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Режим недоступний на вашому сервері %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Режим недоступний на всіх серверах."
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "Для цього режиму потрібно щонайменше %(count)s од. відповідних машин. Подробиці дізнайтеся на сторінці «Про режим \"Натиск\"»."
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "Недостатньо відповідних машин"
+
+msgid "alertMessage/modeOffline"
+msgstr "Помилка бази даних. Режим недоступний."
+
+msgid "alertMessage/noVehicles"
+msgstr "У Гаражі немає придатної техніки %(levels)s рівня %(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "Бої недоступні на сервері %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Бої недоступні на сервері %(serverName)s"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "Недостатньо відповідних машин %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "Режим недоступний на сервері %(serverName)s"
+
+msgid "alertMessage/preannounce/first"
+msgstr "Сезон Лазурного Дракона розпочнеться: %(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "Сезон Червоного Дракона розпочнеться: %(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "Сезон Нефритового Дракона розпочнеться: %(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "Очікування результатів кваліфікації для присвоєння рангу"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "Сезон Лазурного Дракона завершено"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "Сезон Червоного Дракона завершено"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "Сезон Нефритового Дракона завершено"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Бої на сервері почнуться за %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Режим недоступний на сервері %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s д"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s год %(min)s хв"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 хв"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s хв"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "У Гаражі немає придатної техніки %(levels)s рівня"
+
+msgid "awardsWidget/description/award"
+msgstr "Натисніть, щоб вибрати й забрати нагороди."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Фінальні нагороди тимчасово недоступні. Перепрошуємо за незручності."
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "ЗАБРАТИ\nНАГОРОДУ"
+msgstr[1] "ЗАБРАТИ\nНАГОРОДИ"
+msgstr[2] "ЗАБРАТИ\nНАГОРОДИ"
+
+msgid "banView/actionButtons/confirm"
+msgstr "Проголосувати"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "Ви вже проголосували за %(vehicleName)s"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "Не виключати"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "Запропонувати машину для виключення"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "Ви можете голосувати\nлише на етапі голосування за виключення"
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "Ви пропонуєте:\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "Хтось із вашої команди\nвже вибрав машину, яку ви хочете виключити"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "Дочекайтеся завершення етапу голосування за виключення"
+
+msgid "banView/button/back"
+msgstr "НАЗАД"
+
+msgid "banView/button/ban"
+msgstr "До виключення"
+
+msgid "banView/button/description"
+msgstr "ДО ВИБОРУ МАШИНИ"
+
+msgid "banView/description/prepick"
+msgstr "Виберіть машину, що найкраще пасує для цієї мапи та складу вашої команди"
+
+msgid "banView/description/voting"
+msgstr "Виберіть машину, яку хочете виключити з цього бою"
+
+msgid "banView/factory/candidate"
+msgstr "Кандидат на виключення: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "Виключення вашої команди"
+
+msgid "banView/factory/noCandidates"
+msgstr "Немає кандидата на виключення"
+
+msgid "banView/factory/pick"
+msgstr "Ваш кандидат: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "Не виключати"
+
+msgid "banView/title/prepick"
+msgstr "Етап попереднього вибору машини"
+
+msgid "banView/title/voting"
+msgstr "Етап голосування за виключення"
+
+msgid "banView/tooltip/confirmed"
+msgstr "Вибір підтверджено"
+
+msgid "banView/tooltip/noAction"
+msgstr "Жодних дій не виконано"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "Цей гравець ще не запропонував машину для виключення."
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "Запропоновано"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "ПТ-САУ"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "Важкі танки"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "Легкі танки"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "Середні танки"
+
+msgid "banView/withoutBan"
+msgstr "Не виключати"
+
+msgid "banWidget/allies"
+msgstr "Вибір союзників"
+
+msgid "banWidget/enemies"
+msgstr "Вибір супротивників"
+
+msgid "banWidget/tooltip"
+msgstr "Команда не дійшла згоди щодо виключення машини, тому було випадково виключено одну з машин із найбільшою кількістю голосів."
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "Налаштувати показ техніки з урахуванням типу, ролі та нації."
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "Фільтр за параметрами"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "Тут показані тільки придатні для режиму машини."
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "Немає машин, що підходять по параметрах"
+
+msgid "battleMessages/enableVOIP"
+msgstr "Команду сформовано. Вибирайте техніку й до бою!\nУвійти в голосовий чат (%(keyName)s)"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "Команду сформовано. Вибирайте техніку й до бою!\nДля швидкого доступу до голосового зв'язку призначте гарячу клавішу."
+
+msgid "battleMessages/withoutVOIP"
+msgstr "Команду сформовано. Вибирайте техніку й до бою!\nДля швидкого доступу до голосового зв'язку призначте гарячу клавішу."
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "Інформація щодо режиму (F1)"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "Огляд машини збільшено"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "Характеристики екіпажу покращено"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "Відновлення міцності"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "Відновлення міцності"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "Характеристики екіпажу покращено"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "Характеристики екіпажу покращено"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "Швидкість перезаряджання збільшено"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "ТТХ машини покращено"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "Відновлення міцності"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "ТТХ машини покращено"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "ТТХ машини покращено"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "Рухливість машини збільшено"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "Відновлення міцності"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "Розкид гармати зменшено"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "ТТХ машини покращено"
+
+msgid "battleResult/header/deserter"
+msgstr "Ви отримали штраф до очок рейтингу"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "Вас оштрафовано. Після проходження кваліфікації рейтинг буде знижено."
+
+msgid "battleResult/label/deserter"
+msgstr "Дезертирство"
+
+msgid "battleResult/message/deserter"
+msgstr "Вас оштрафовано.\nВтрачено очок рейтингу: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "Ви втекли з поля бою.\nРейтинг після проходження кваліфікації буде знижено."
+
+msgid "battleResult/message/header/deserter"
+msgstr "Неспортивна поведінка"
+
+msgid "battleResult/personal/label"
+msgstr "Очки рейтингу"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "Показ поточного прогресу гравця в ранговій системі. Очки рейтингу можна отримати або втратити залежно від успіхів у режимі."
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• Поразки/нічиї в боях режиму\n• Отримання штрафу\n• Рангова неактивність."
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "Очки рейтингу списуються за:"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "Очки рейтингу"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "Кваліфікаційний бій"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s — %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "Кваліфікація"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "Отримані очки рейтингу. Для захисту рангу «Легенда» залишайтесь у топ-%(topPercentage)d%% гравців таблиці лідерів."
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "Отримані очки рейтингу. Для отримання рангу «Легенда» увійдіть у топ-%(topPercentage)d%% гравців таблиці лідерів."
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "Отримано очки рейтингу"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "Втрачено очки рейтингу. Для захисту рангу «Легенда» залишайтесь у топ-%(topPercentage)d%% гравців таблиці лідерів."
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "Втрачено очки рейтингу. Для отримання рангу «Легенда» увійдіть у топ-%(topPercentage)d%% гравців таблиці лідерів."
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "Втрачено очки рейтингу"
+
+msgid "battleResult/subTask/rating"
+msgstr "Очок рейтингу: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "Вас понижено до %(division)s. %(rank)s"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "%(rank)s. %(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "Вас підвищено до %(division)s. %(rank)s!"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "Боїв зіграно (день): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "З них:"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "Боїв зіграно (сезон): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "Наодинці/У взводі: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "Супервзвод: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s – %(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "Сезон Лазурного Дракона триватиме %(days)d день"
+msgstr[1] "Сезон Лазурного Дракона триватиме %(days)d дні"
+msgstr[2] "Сезон Лазурного Дракона триватиме %(days)d днів"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "Сезон Червоного Дракона триватиме %(days)d день"
+msgstr[1] "Сезон Червоного Дракона триватиме %(days)d дні"
+msgstr[2] "Сезон Червоного Дракона триватиме %(days)d днів"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "Сезон Нефритового Дракона триватиме %(days)d день"
+msgstr[1] "Сезон Нефритового Дракона триватиме %(days)d дні"
+msgstr[2] "Сезон Нефритового Дракона триватиме %(days)d днів"
+
+msgid "calendarDay/title"
+msgstr "Розклад"
+
+msgid "carousel/banned"
+msgstr "Виключено"
+
+msgid "claimRewards/button"
+msgstr "Отримати нагороду"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "Тимчасово недоступно через технічні причини. Ми вже знаємо про проблему й працюємо над нею."
+
+msgid "closeButtonLabel"
+msgstr "ЗАКРИТИ"
+
+msgid "controls/compare"
+msgstr "Додати до порівняння"
+
+msgid "controls/preview"
+msgstr "Попередній перегляд"
+
+msgid "countDown/text"
+msgstr "До початку події:\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1 хв"
+
+msgid "crewMembersTooltip/description"
+msgstr "Цей особливий екіпаж складається з танкістів з усього світу на чолі з їхнім командиром. Усі мають «нульову» навичку «Бойове братерство» й достатньо досвіду на вивчення ще двох. Це дозволяє їм поліпшувати ефективність машини, а також привносити свій особистий шарм на поле бою."
+
+msgid "crewMembersTooltip/perks"
+msgstr "Навички"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "Натиск. Рік Дракона"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "«Нульові» навички"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "Середня шкода (день): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "Відношення загальної кількості завданої шкоди до кількості зіграних боїв."
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "Середня шкода (сезон): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "Рекорд шкоди за день: %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "Максимальну кількість шкоди завдано в бою на %(vehicleName)s."
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "Рекорд шкоди за сезон: %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "—"
+
+msgid "dataError/description"
+msgstr "Вибачте за тимчасові незручності, спробуйте оновити сторінку пізніше."
+
+msgid "dataError/title"
+msgstr "Помилка завантаження даних"
+
+msgid "dayTooltip/day"
+msgstr "День %(index)s"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "День %(index)s: боїв не було."
+
+msgid "dayTooltip/noBattles"
+msgstr "Si vis pacem, para bellum"
+
+msgid "dayTooltip/rankInactivity"
+msgstr "Рангова неактивність: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)s очко рейтингу"
+msgstr[1] "%(pointsCount)s очки рейтингу"
+msgstr[2] "%(pointsCount)s очок рейтингу"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "Зміна очок рейтингу: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "День %(index)s (сьогодні)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "День %(index)s: сьогодні боїв не було."
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "Дивізіон"
+
+msgid "division/text"
+msgstr "Дивізіон %(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "У цьому дивізіоні перебувають гравці, які набрали {eeede9e6_Open}від&nbsp;%(fromScore)&nbsp;до&nbsp;%(toScore){eeede9e6_Close} очок рейтингу."
+
+msgid "divisionTooltip/heading"
+msgstr "Дивізіон %(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "Очки рейтингу"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "Зіграно боїв"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)sОчікуємо на результати..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)sОчікуємо на результати"
+
+msgid "entryPointTooltip/description"
+msgstr "Змагальний режим у форматі «7 на 7» на техніці %(levels)s рівня. Здобувайте ранги, щоб відкрити унікальні елементи зовнішнього вигляду, машини, бони й інші цінності."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "РЕЖИМ"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — ігровий режим. Натисніть для подробиць"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Доступно протягом%(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Припинення вогню%(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "Буде доступно:\n%(timer)s"
+
+msgid "featureName"
+msgstr "Натиск"
+
+msgid "featureNameCapitalized"
+msgstr "НАТИСК"
+
+msgid "fifthRankTooltip/description"
+msgstr "Ранг {eeede9e6_Open}«Чемпіон»{eeede9e6_Close} присвоюється гравцям, які набрали щонайменше {eeede9e6_Open}%(fromScore){eeede9e6_Close} очок рейтингу."
+
+msgid "forVehicle"
+msgstr "Для: %(vehicleName)s"
+
+msgid "generalRankTooltip/body/first"
+msgstr "Ранг {eeede9e6_Open}«Залізо»{eeede9e6_Close} присвоюється гравцям, які набрали {eeede9e6_Open}від %(fromScore) до %(toScore){eeede9e6_Close} очок рейтингу."
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "Ранг {eeede9e6_Open}«Золото»{eeede9e6_Close} присвоюється гравцям, які набрали {eeede9e6_Open}від %(fromScore) до %(toScore){eeede9e6_Close} очок рейтингу."
+
+msgid "generalRankTooltip/body/second"
+msgstr "Ранг {eeede9e6_Open}«Бронза»{eeede9e6_Close} присвоюється гравцям, які набрали {eeede9e6_Open}від %(fromScore) до %(toScore){eeede9e6_Close} очок рейтингу."
+
+msgid "generalRankTooltip/body/third"
+msgstr "Ранг {eeede9e6_Open}«Срібло»{eeede9e6_Close} присвоюється гравцям, які набрали {eeede9e6_Open}від %(fromScore) до %(toScore){eeede9e6_Close} очок рейтингу."
+
+msgid "generalRankTooltip/subheading"
+msgstr "Включає дивізіони: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "ПРО ПОДІЮ"
+
+msgid "intro/confirmButton"
+msgstr "Так!"
+
+msgid "intro/description/banPhase"
+msgstr "Кожна команда може повністю виключити одну машину з бою. Координуйте вибір із союзниками, щоб прибрати найнебезпечнішу техніку чи підготувати несподівану підбірку машин для суперника. Якщо ваш танк виключено, ви зможете вибрати одну із заздалегідь підготовлених прокатних машин."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "У режимі діють модифікатори, що змінюють певні параметри техніки, як-от очки міцності, час перезаряджання спорядження, час у виявленні й інші."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "На карті є області, захоплення яких дозволяє застосувати тактичні навички. Існує 2 типи ключових позицій: Артилерійський штаб дасть можливість завдати артудару по певній ділянці території, а Вузол зв'язку допоможе виявити всю техніку супротивника. Залежно від мапи наявність та розташування ключових позицій можуть мінятися."
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "Проведіть %(count)s кваліфікаційний бій для визначення рівня вашої майстерності та присвоєння вам рангу. Після закінчення ви отримаєте нагороду за досягнутий ранг і всі попередні.\n\nДезертирство та нічия у кваліфікації розцінюються як поразка."
+msgstr[1] "Проведіть %(count)s кваліфікаційні бої для визначення рівня вашої майстерності та присвоєння вам рангу. Після закінчення ви отримаєте нагороду за досягнутий ранг і всі попередні.\n\nДезертирство та нічия у кваліфікації розцінюються як поразка."
+msgstr[2] "Проведіть %(count)s кваліфікаційних боїв для визначення рівня вашої майстерності та присвоєння вам рангу. Після закінчення ви отримаєте нагороду за досягнутий ранг і всі попередні.\n\nДезертирство та нічия у кваліфікації розцінюються як поразка."
+
+msgid "intro/description/ranks"
+msgstr "Система, що показує майстерність гравця. Просувайтеся рангами від «Заліза» до «Легенди» й отримуйте цінні призи. Бийтеся протягом усього року Дракона, щоб отримати унікальні річні нагороди."
+
+msgid "intro/description/roleSkills"
+msgstr "Залежно від ролі кожна машина має особливу навичку з трьома рівнями заряду. Що вищий рівень заряду в момент активації навички, то сильнішою буде її дія. На рівень заряду впливає кількість очок престижу, які можна отримати за результативні дії в бою, захоплення ключових позицій, використання тактичних навичок тощо.\n\nУсі способи здобування очок престижу можна дізнатися в регламенті події."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Стати до бою можна на досліджуваних, колекційних і деяких спеціальних машинах %(levels)s рівня (окрім САУ). Готуйте техніку в Гаражі й вибирайте найкращу просто в бою з урахуванням особливостей ігрової мапи. Під час вибору машини зважайте на техніку союзників."
+
+msgid "intro/title/banPhase"
+msgstr "ВИЛУЧЕННЯ ТЕХНІКИ"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "МОДИФІКАТОРИ НАТИСКУ"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "КЛЮЧОВІ ПОЗИЦІЇ"
+
+msgid "intro/title/qualification"
+msgstr "КВАЛІФІКАЦІЯ"
+
+msgid "intro/title/ranks"
+msgstr "РАНГОВА СИСТЕМА"
+
+msgid "intro/title/roleSkills"
+msgstr "РОЛЬОВІ НАВИЧКИ"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "ВИБИРАЙТЕ МАШИНУ ДЛЯ КОНКРЕТНОЇ МАПИ"
+
+msgid "lastUpdateNote/info"
+msgstr "Оновлено: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "Значення очок рейтингу останнього гравця в ранзі «Легенда»\nоновлюється що %(count)s хвилин."
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "Оновлюємо дані..."
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "Таблиця лідерів оновлюється кожні %(count)s хв."
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "Останнє оновлення: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "Моє місце"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "Щоб вас було видно в таблиці лідерів, досягніть рангу «Чемпіон» або «Легенда»."
+
+msgid "leaderboard/error/buttonText"
+msgstr "Оновити"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "До таблиці лідерів потрапляють гравці з рангами «Чемпіон» і «Легенда». Наберіть {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close} очок рейтингу й дістаньтеся вершини!"
+
+msgid "leaderboard/noRecords/title"
+msgstr "Жоден з гравців ще не потрапив до таблиці лідерів поточного сезону"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "Бої"
+
+msgid "leaderboard/table/header/order"
+msgstr "№"
+
+msgid "leaderboard/table/header/player"
+msgstr "Ім’я гравця"
+
+msgid "leaderboard/table/header/score"
+msgstr "Очки рейтингу"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "Кількість боїв, проведених гравцем в режимі «Натиск» у поточному сезоні."
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "Бої"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "Місце, яке гравець посідає у рейтингу."
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "Місце"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "Ім'я гравця, що посідає місце в рейтингу."
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "Ім’я гравця"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "Кількість очок рейтингу гравця, отриманих у поточному сезоні."
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "Очки рейтингу"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Гравців у взводі"
+
+msgid "noVehicles/howTo/premium"
+msgstr "Використовуйте Танковий Преміум акаунт"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Активуйте особисті резерви"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Виконуйте бойові завдання"
+
+msgid "noVehicles/howTo/title"
+msgstr "Як швидше отримати техніку %(levels)s рівня?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Для участі в Натиску в Гаражі має бути хоча б одна машина %(levels)s рівня, що підходить для гри в режимі.\nВи маєте досліджену, але не придбану техніку %(levels)s рівня."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Для участі в Натиску в Гаражі має бути хоча б одна машина %(levels)s рівня, що підходить для гри в режимі.\nВи маєте техніку %(levels)s рівня, доступну для відновлення."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Для участі в Натиску в Гаражі має бути хоча б одна машина %(levels)s рівня, що підходить для гри в режимі."
+
+msgid "noVehicles/title"
+msgstr "У Гаражі немає придатної техніки"
+
+msgid "page/heading/leaderboard"
+msgstr "ТАБЛИЦЯ ЛІДЕРІВ"
+
+msgid "page/heading/progression"
+msgstr "РАНГОВА СИСТЕМА"
+
+msgid "page/heading/qualification"
+msgstr "КВАЛІФІКАЦІЯ"
+
+msgid "page/heading/rankRewards"
+msgstr "НАГОРОДИ ЗА РАНГИ"
+
+msgid "page/heading/shop"
+msgstr "МАГАЗИН НАТИСКУ"
+
+msgid "page/heading/weeklyQuests"
+msgstr "ЩОТИЖНЕВІ ЗАВДАННЯ"
+
+msgid "page/heading/yearlyRewards"
+msgstr "РІЧНІ НАГОРОДИ"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "РІЧНА СТАТИСТИКА"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "Вперед"
+
+msgid "pagination/prev"
+msgstr "Назад"
+
+msgid "pbs/bans/title"
+msgstr "ВИЛУЧЕНА ТЕХНІКА"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "2D-СТИЛЬ НАТИСКУ"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "ЗАВДАННЯ НА 2D-СТИЛЬ ВИКОНАНО!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "ЩОТИЖНЕВЕ ЗАВДАННЯ №%(count)s ВИКОНАНО!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "ЩОТИЖНЕВЕ ЗАВДАННЯ ВИКОНАНО!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "НАТИСК: ЩОТИЖНЕВЕ"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "ПОРАЗКА, БО ВИ"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "НІЧИЯ, БО ВИ"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "ПЕРЕМОГА, АЛЕ ВИ"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "Підвищено до: %(rank)s"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "Понижено до: %(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "Підвищено до: %(rank)s, %(division)s"
+
+msgid "pbs/overview/qualification/description"
+msgstr "Зіграно боїв"
+
+msgid "pbs/overview/qualification/title"
+msgstr "Кваліфікація"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "До вас було застосовано дисциплінарне стягнення — штраф до очок рейтингу"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "До вас було застосовано дисциплінарне стягнення — після проходження кваліфікації рейтинг буде знижено."
+
+msgid "pbs/rankDescription/fifth"
+msgstr "Для отримання рангу «Легенда» увійдіть у {ede6d9e5_Open}топ-%(topPercentage)%{ede6d9e5_Close} гравців таблиці лідерів."
+
+msgid "pbs/rankDescription/sixth"
+msgstr "Щоб зберегти ранг «Легенда», залишайтеся в {ede6d9e5_Open}топ-%(topPercentage)%{ede6d9e5_Close} гравців таблиці лідерів."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Подробиці дізнайтеся на сторінці «Про режим \"Натиск\"»."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Очки престижу"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Заподіяння шкоди\nДопомога розвідданими\nЗнищення гусениць\nКритична шкода\nЗнищення техніки супротивника\nІ не тільки"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Цей спеціальний ресурс впливає на кількість очок рейтингу, що заробляються та втрачаються в бою. Очки престижу можна отримати за дії в бою, зокрема:"
+
+msgid "percentage"
+msgstr "%(percentageValue)s%"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "Середня кількість очок престижу (день): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "Відношення загальної кількості здобутих очок престижу до кількістю зіграних боїв."
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "Середня кількість очок престижу (сезон): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "Рекорд очок престижу за день: %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "Максимальну кількість очок престижу здобуто в бою на %(vehicleName)s."
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "Рекорд очок престижу за сезон: %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Сезон Лазурного Дракона на сервері %(server)s добіг кінця."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Сезон Червоного Дракона на сервері %(server)s добіг кінця."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Сезон Нефритового Дракона на сервері %(server)s добіг кінця."
+
+msgid "products/actions/buy"
+msgstr "Купити"
+
+msgid "products/actions/restore"
+msgstr "На Склад"
+
+msgid "products/actions/toCustomization"
+msgstr "До стилю"
+
+msgid "products/actions/toHangar"
+msgstr "Подивитися в Гаражі"
+
+msgid "products/customizationUnavailable/body"
+msgstr "Неможливо перейти до стилю. Можливі причини: ви ще не маєте цієї машини, вона знаходиться у формуванні, у бою або потребує ремонту."
+
+msgid "products/customizationUnavailable/title"
+msgstr "Недоступно"
+
+msgid "products/discount"
+msgstr "–%(discountPercentage)s%"
+
+msgid "products/discountDescription"
+msgstr "Залежно від {eeede9e6_Open}найвищого{eeede9e6_Close} {eeede9e6_Open}здобутого{eeede9e6_Close} {eeede9e6_Open}рангу{eeede9e6_Close} ви отримаєте доступ до предметів і знижок до початку наступного сезону."
+
+msgid "products/discountSectionName"
+msgstr "УМОВИ ДОСТУПУ ТА ЗНИЖКИ"
+
+msgid "products/inProgress"
+msgstr "Будь ласка, зачекайте, купівля обробляється..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "Доступно разів для купівлі за сезон: %(count)s"
+
+msgid "products/message/notEnough"
+msgstr "Недостатньо коштів для купівлі."
+
+msgid "products/message/rankAccess"
+msgstr "Умова для купівлі:\n%(rank)s"
+
+msgid "products/newLabel"
+msgstr "НОВЕ"
+
+msgid "products/priceSectionName"
+msgstr "ВАРТІСТЬ"
+
+msgid "products/productAccess"
+msgstr "Ранг\nдоступу"
+
+msgid "products/purchased"
+msgstr "Куплено"
+
+msgid "products/rankAccess"
+msgstr "Ранг доступу: %(rank)s"
+
+msgid "products/readyToRestore"
+msgstr "Можна відновити"
+
+msgid "products/readyToRestoreDescription"
+msgstr "Доступно для відновлення на Складі"
+
+msgid "products/style3d"
+msgstr "3D-стиль %(name)s"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "НАЗАД ДО СЕЗОННОЇ СТАТИСТИКИ"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "СТАТИСТИКА СЕЗОНУ"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "СТАТИСТИКА ЗА ДЕНЬ %(day)s"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "СТАТИСТИКА ЗА СЬОГОДНІ"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "Кожна колонка показує дані за період між прайм-таймом вибраного дня та прайм-таймом наступного дня. У деяких випадках це може включати бої з двох календарних днів."
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "Кожна колонка показує дані за період між прайм-таймом вибраного дня та прайм-таймом наступного дня. У деяких випадках це може включати бої з двох календарних днів."
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "Цей розділ оновлюється, лише коли доступні нові дані. Ви можете надіслати запит на оновлення, натиснувши відповідну кнопку."
+
+msgid "progressionPage/chartHeader/update"
+msgstr "Оновлено: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "Вітаємо!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "Ви виконали всі завдання 2D-стилю."
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s / %(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "Низка завдань для розблокування нових елементів 2D-стилю прогресії поточного сезону."
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "ЗАВДАННЯ 2D-СТИЛЮ: %(taskNumber)s"
+msgstr[1] "ЗАВДАННЯ 2D-СТИЛЮ: %(taskNumber)s"
+msgstr[2] "ЗАВДАННЯ 2D-СТИЛЮ: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "ЗАВДАННЯ 2D-СТИЛЮ"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "До стилю"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "Усі стилі застосовані до недоступних машин"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "Немає доступних машин для застосування стилю"
+
+msgid "progressionPage/error/refresh"
+msgstr "Оновити"
+
+msgid "progressionPage/error/refreshing"
+msgstr "Оновлення..."
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "Середня шкода"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "Очки престижу (сер.)"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "Зміна рейтингу %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "Рекорд встановлено: %(seasonRecordDescriptionDay)s"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "день %(day)s"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "До загальної статистики"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "Включає:\n • Шкоду за вашими розвідданими (у т. ч. за допомогою навичок)\n • Шкоду після вашого влучення, яке збило гусеницю й знерухомило ціль (у т. ч. за допомогою навичок)\n • Шкоду, завдану союзниками за допомогою ваших навичок\n • Шкоду, завдану союзниками оглушеній цілі (у т. ч. за допомогою навичок)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "Загальна кількість зіграних боїв"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "Відношення загальної кількості завданої шкоди до кількості зіграних боїв"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "Відношення кількості знищених машин супротивника до кількості знищень вашої машини"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "Відношення завданої шкоди до отриманої шкоди"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "Відношення загальної кількості здобутих очок престижу до кількості зіграних боїв"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "Машини з найбільшою кількістю зіграних боїв"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "Загальний відсоток здобутих перемог"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "Середня шкода, завдана з вашою допомогою"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "Бої"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "Середня завдана шкода"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "Коефіцієнт знищення"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "Коефіцієнт шкоди"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "Середня кількість очок престижу за бій"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "Назва машини"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "Перемоги"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "СТАТИСТИКА МАШИНИ"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s–%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "Днів до зниження рангу: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "Неактивність у Натиску призведе до втрати {eeede9e6_Open}%(count)s{eeede9e6_Close} очка рейтингу."
+msgstr[1] "Неактивність у Натиску призведе до втрати {eeede9e6_Open}%(count)s{eeede9e6_Close} очок рейтингу."
+msgstr[2] "Неактивність у Натиску призведе до втрати {eeede9e6_Open}%(count)s{eeede9e6_Close} очок рейтингу."
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(1&nbsp;бій&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;очко активності)"
+msgstr[1] "(1&nbsp;бій&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;очки активності)"
+msgstr[2] "(1&nbsp;бій&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;очок активності)"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "Ви не втрачатимете очки рейтингу за неактивність у режимі на вашому поточному ранзі, але можете втратити, якщо досягнете таких рангів: %(rankList)s"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "Неактивність впливає на ваш ранг"
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "Неактивність не впливає на ваш ранг"
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "Ранг"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "Топ-%(topPercentage)s% гравців у таблиці лідерів"
+
+msgid "progressionTooltip/division"
+msgstr "Дивізіон %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "У цьому дивізіоні знаходяться гравці, які набрали {eeede9e6_Open} від %(fromScore) до %(toScore){eeede9e6_Close} очок рейтингу."
+
+msgid "progressionTooltip/info/fifth"
+msgstr "Ранг «Чемпіон» присвоюється гравцям, які набрали щонайменше {eeede9e6_Open}%(fromScore){eeede9e6_Close} очок рейтингу."
+
+msgid "progressionTooltip/info/sixth"
+msgstr "Ранг «Легенда» присвоюється {eeede9e6_Open}топ-%(topPercentage)%{eeede9e6_Close} гравців таблиці лідерів."
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "Завершіть %(maxBattlesCount)s бій у режимі для визначення рівня вашої майстерності й присвоєння рангу."
+msgstr[1] "Завершіть %(maxBattlesCount)s бої в режимі для визначення рівня вашої майстерності й присвоєння рангу."
+msgstr[2] "Завершіть %(maxBattlesCount)s боїв у режимі для визначення рівня вашої майстерності й присвоєння рангу."
+
+msgid "progressionTooltip/qualificationName"
+msgstr "Кваліфікація"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "Днів до зниження рангу: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "Неактивність у Натиску призведе до втрати {eeede9e6_Open}%(count)s{eeede9e6_Close} очка рейтингу."
+msgstr[1] "Неактивність у Натиску призведе до втрати {eeede9e6_Open}%(count)s{eeede9e6_Close} очок рейтингу."
+msgstr[2] "Неактивність у Натиску призведе до втрати {eeede9e6_Open}%(count)s{eeede9e6_Close} очок рейтингу."
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s Неактивність впливає на ваш ранг"
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "Зіграйте бій до кінця дня, щоб зберегти ранг."
+
+msgid "progressionTooltip/ratingScore"
+msgstr "Очки рейтингу"
+
+msgid "purchase/affirmative"
+msgstr "Так!"
+
+msgid "purchase/cancelButton"
+msgstr "Назад"
+
+msgid "purchase/confirmButton"
+msgstr "Купити"
+
+msgid "purchase/error/description"
+msgstr "Не вдалося завершити купівлю. Спробуйте пізніше."
+
+msgid "purchase/error/title"
+msgstr "Помилка"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)sУ Гаражі немає машини, для якої підходить обраний стиль"
+
+msgid "purchase/price"
+msgstr "Вартість купівлі:"
+
+msgid "purchase/success/heading"
+msgstr "Дякуємо за придбання!"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)sПридбане надійде на ваш ігровий акаунт найближчим часом"
+
+msgid "purchase/success/style3d"
+msgstr "3D-стиль %(name)s для %(vehicleName)s"
+
+msgid "purchase/title/style3d"
+msgstr "Купити 3D-стиль %(name)s?"
+
+msgid "purchase/title/vehicle"
+msgstr "Купити %(name)s?"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "Завершіть {eeede9_Open}%(maxBattlesCount)s бій{eeede9_Close} у режимі для визначення рівня вашої майстерності й присвоєння рангу."
+msgstr[1] "Завершіть {eeede9_Open}%(maxBattlesCount)s бої{eeede9_Close} в режимі для визначення рівня вашої майстерності й присвоєння рангу."
+msgstr[2] "Завершіть {eeede9_Open}%(maxBattlesCount)s боїв{eeede9_Close} у режимі для визначення рівня вашої майстерності й присвоєння рангу."
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "Щоб пройти кваліфікацію, завершіть %(maxBattlesCount)s бій та дочекайтеся розрахунку рейтингу. Ваша бойова ефективність під час кваліфікації впливає на підсумковий ранг, який ви отримаєте.\nДезертирство в кваліфікації призведе до гіршого результату, ніж у найневдалішій битві."
+msgstr[1] "Щоб пройти кваліфікацію, завершіть %(maxBattlesCount)s бої та дочекайтеся розрахунку рейтингу. Ваша бойова ефективність під час кваліфікації впливає на підсумковий ранг, який ви отримаєте.\nДезертирство в кваліфікації призведе до гіршого результату, ніж у найневдалішій битві."
+msgstr[2] "Щоб пройти кваліфікацію, завершіть %(maxBattlesCount)s боїв і дочекайтеся розрахунку рейтингу. Ваша бойова ефективність під час кваліфікації впливає на підсумковий ранг, який ви отримаєте.\nДезертирство в кваліфікації призведе до гіршого результату, ніж у найневдалішій битві."
+
+msgid "qualification/conditionTooltip/header"
+msgstr "Правила кваліфікації"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "Зіграно боїв"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s Очікування результатів кваліфікації для присвоєння рангу"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "Розрахунок рейтингу за підсумками кваліфікації може тривати до п'яти хвилин. Після цього вам буде присвоєно ранг, і ви зможете продовжити гру в Натиску."
+
+msgid "qualification/rewardsButton"
+msgstr "До нагород"
+
+msgid "qualification/rewardsDescription"
+msgstr "Після завершення кваліфікації ви отримаєте нагороди за вже досягнутий і всі попередні ранги."
+
+msgid "quotesWrapper"
+msgstr "«%(name)s»"
+
+msgid "rank/achieved"
+msgstr "Досягнуто"
+
+msgid "rank/current"
+msgstr "Поточний"
+
+msgid "rank/fifth"
+msgstr "Чемпіон"
+
+msgid "rank/first"
+msgstr "Залізо"
+
+msgid "rank/fourth"
+msgstr "Золото"
+
+msgid "rank/qualification"
+msgstr "Кваліфікація"
+
+msgid "rank/second"
+msgstr "Бронза"
+
+msgid "rank/sixth"
+msgstr "Легенда"
+
+msgid "rank/text"
+msgstr "Ранг «%(rank)s»"
+
+msgid "rank/third"
+msgstr "Срібло"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "Ранг гравця"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "Ранг гравців у взводі"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "Взвод може складатися лише з гравців одного рангу."
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "Рангові обмеження для взводів із %(count)s-х гравців"
+
+msgid "rankInactivityTooltip/description"
+msgstr "Ви втрачатимете очки рейтингу, якщо не будете проводити бої в режимі."
+
+msgid "rankInactivityTooltip/heading"
+msgstr "Рангова неактивність"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "Днів до зниження рейтингу: %(count)s"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "Щоденний рейтинг"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "Зміна очок рейтингу: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "Різниця в очках рейтингу між вибраним і попереднім днем."
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "Рекорд рейтингу за день: %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "Максимальний рейтинг, досягнутий у вибраний день."
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "день %(day)s"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "Сезонний рекорд рейтингу встановлено: %(dayOfRecord)s"
+
+msgid "rankInfo/current/fifth"
+msgstr "Ранг «Чемпіон» присвоюється гравцям, які набрали щонайменше {eeede9e6_Open}%(fromScore){eeede9e6_Close} очок рейтингу."
+
+msgid "rankInfo/current/sixth"
+msgstr "Ранг «Легенда» присвоюється {eeede9e6_Open}топ-%(topPercentage)%{eeede9e6_Close} гравців таблиці лідерів."
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "Для отримання рангу «Легенда» потрапте до {eeede9e6_Open}топ-%(topPercentage)%{eeede9e6_Close} гравців таблиці лідерів за кількістю очок рейтингу."
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "Для захисту рангу «Легенда» залишайтеся в {eeede9e6_Open}топ-%(topPercentage)%{eeede9e6_Close} гравців таблиці лідерів за кількістю очок рейтингу."
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "Для отримання рангу «Легенда» потрапте в {eeede9e6_Open}топ-%(topPercentage)%{eeede9e6_Close} гравців таблиці лідерів за кількістю очок рейтингу. Кількість очок рейтингу в останнього гравця в ранзі&nbsp;«Легенда»&nbsp;— {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "Для захисту рангу «Легенда» залишайтеся в {eeede9e6_Open}топ-%(topPercentage)%{eeede9e6_Close} гравців таблиці лідерів за кількістю очок рейтингу. Кількість очок рейтингу в останнього гравця в ранзі &nbsp;«Легенда»&nbsp;— {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankUpper/fifth"
+msgstr "ЧЕМПІОН"
+
+msgid "rankUpper/first"
+msgstr "ЗАЛІЗО"
+
+msgid "rankUpper/fourth"
+msgstr "ЗОЛОТО"
+
+msgid "rankUpper/second"
+msgstr "БРОНЗА"
+
+msgid "rankUpper/sixth"
+msgstr "ЛЕГЕНДА"
+
+msgid "rankUpper/text"
+msgstr "РАНГ: %(rank)s"
+
+msgid "rankUpper/third"
+msgstr "СРІБЛО"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "Ви можете вибрати один екземпляр удосконаленого обладнання зі списку нижче:\n\n• Закрита система вихлопу\n• Експериментальний приціл\n• Удосконалена бортова передача\n• Поліпшений компресор\n• Збільшена снарядостійкість\n• Удосконалене компонування\n• Юстована оптика\n• Експериментальна система заряджання\n• Система відведення порохових газів\n• Зносостійкі механізми наводки\n• Комплекс стабілізаційного обладнання\n• Телескопічна система спостереження\n• Тактична маскувальна система"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "Ви можете вибрати один екземпляр експериментального обладнання зі списку нижче:\n\n• Система керування вогнем T3\n• Комплекс поліпшення живучості Т3\n• Система підвищення рухливості T3\n• Система підвищення влучності T3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "Камуфляж «%(name)s»"
+
+msgid "rewards/preview"
+msgstr "Попередній перегляд"
+
+msgid "rewards/status/achieved"
+msgstr "Нагороду отримано"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}Для %(vehicleLevel)s рівня техніки{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}Для стилю «%(progressionStyleName)s»{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "%(vehicleLevel)s рівень"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "Також отримано:"
+
+msgid "rewardsScreen/button"
+msgstr "Так!"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "До нагород"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "Вибрати нагороду"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "Перейти до купівлі"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "НАТИСК. КВАЛІФІКАЦІЯ ЗАВЕРШЕНА"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "НАТИСК. СЕЗОН ЛАЗУРНОГО ДРАКОНА"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "НАТИСК. СЕЗОН ЧЕРВОНОГО ДРАКОНА"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "НАТИСК. СЕЗОН НЕФРИТОВОГО ДРАКОНА"
+
+msgid "rewardsScreen/description/year"
+msgstr "НАТИСК. РІК ДРАКОНА"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "Де мій Ashbringer?!"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "Немає рангу"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "На цьому ранзі ви можете втратити частину очок рейтингу, якщо припините битись у режимі «Натиск»."
+
+msgid "rewardsScreen/notice/title"
+msgstr "Рангова неактивність"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "Усього прапорів\nНатиску"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "Вибрати обладнання"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "Вибрати нагороди"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "У Магазині Натиску доступні нові знижки!"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "У Магазині Натиску з'явилися нові товари!"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "Залежно від найвищого здобутого рангу ви отримаєте доступ до предметів і знижок до початку наступного сезону."
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "Залежно від найвищого здобутого рангу ви отримаєте доступ до предметів і знижок до початку наступного сезону."
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}Ранг: %(rank)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "За підсумками кваліфікації ви отримали нагороди за такі ранги: {ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr ", "
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "Ви отримали нагороду за підвищення до рангу {ffe4c0_Open}«%(rank)s»{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "Нагорода за виконання {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} щотижневого завдання"
+msgstr[1] "Нагорода за виконання {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} щотижневих завдань"
+msgstr[2] "Нагорода за виконання {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} щотижневих завдань"
+
+msgid "rewardsScreen/title/division"
+msgstr "ДОСЯГНУТИЙ ДИВІЗІОН %(division)s"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "РАНГ ДОСЯГНУТО: {ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "НАГОРОДА ЗА ДОСЯГНЕНІ РАНГИ"
+
+msgid "rewardsScreen/title/rank"
+msgstr "РАНГ ДОСЯГНУТО: {ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "НАГОРОДА ЗА НОВИЙ РАНГ"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "ОТРИМАНО НАГОРОДУ"
+msgstr[1] "ОТРИМАНО НАГОРОДИ"
+msgstr[2] "ОТРИМАНО НАГОРОДИ"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "НАГОРОДИ ЗА ЩОТИЖНЕВІ ЗАВДАННЯ"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "РІЧНІ НАГОРОДИ"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "Постачається з:"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "НАТИСК"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "ОБЕРІТЬ НАГОРОДУ"
+msgstr[1] "ОБЕРІТЬ НАГОРОДИ"
+msgstr[2] "ОБЕРІТЬ НАГОРОДИ"
+
+msgid "scoreTooltip/body"
+msgstr "Ранг і дивізіон у режимі «Натиск» залежать від кількості здобутих очок рейтингу. Перемагайте в боях, щоб стати найкращим."
+
+msgid "scoreTooltip/header"
+msgstr "Очки рейтингу"
+
+msgid "season/daysLeft"
+msgstr "До завершення: %(totalDays)s д"
+
+msgid "season/hoursLeft"
+msgstr "До завершення: %(hours)s год"
+
+msgid "season/minutesLeft"
+msgstr "До завершення: %(minutes)s хв"
+
+msgid "season/over"
+msgstr "%(seasonName)s завершено"
+
+msgid "season/range"
+msgstr "%(startDate)s – %(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "До завершення: %(seconds)s с"
+
+msgid "seasonName/first"
+msgstr "Сезон Лазурного Дракона"
+
+msgid "seasonName/second"
+msgstr "Сезон Червоного Дракона"
+
+msgid "seasonName/third"
+msgstr "Сезон Нефритового Дракона"
+
+msgid "seasonPointTooltip/header"
+msgstr "Прапори Натиску"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "Отримано"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "Не отримано"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "Ви претендуєте на прапори Натиску"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "Невикористані прапори Натиску компенсуються бонами за курсом {bond_Open}1 прапор Натиску{bond_Close} до {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "Наприкінці кожного сезону ви отримуватимете прапори Натиску відповідно до здобутого рангу."
+
+msgid "seasonPointTooltip/text/year"
+msgstr "Кожні 3 прапори Натиску поліпшуватимуть якість нагороди, яку ви отримаєте наприкінці року."
+
+msgid "seasonStatistics/button/fifth"
+msgstr "Де мій трофей?!"
+
+msgid "seasonStatistics/button/first"
+msgstr "Це нормально"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "Моє золотце!"
+
+msgid "seasonStatistics/button/second"
+msgstr "Так!"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "Це було легендарно!"
+
+msgid "seasonStatistics/button/third"
+msgstr "Ще зустрінемось"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "Підсумковий рейтинг сезону"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "Позиція в лідерборді: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "НАТИСК. %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "Отримано %(points)s прапор Натиску"
+msgstr[1] "Отримано %(points)s прапори Натиску"
+msgstr[2] "Отримано %(points)s прапорів Натиску"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "СЕЗОН I. ЛАЗУРНИЙ ДРАКОН"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "СЕЗОН II. ЧЕРВОНИЙ ДРАКОН"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "СЕЗОН III. НЕФРИТОВИЙ ДРАКОН"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "Перемог: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "Боїв\nзіграно"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "У середньому: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "Рекордна\nшкода"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "Коеф. знищення: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "Максимум знищено\nза бій"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "У середньому: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "Рекорд очок\nпрестижу"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "СТАТИСТИКА СЕЗОНУ"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "Супервзводом: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "Серія перемог\n(наодинці / взводом)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "Боїв"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "—"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "Немає техніки"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "ОСНОВНА ТЕХНІКА"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "Перемог"
+
+msgid "seasonStatistics/title"
+msgstr "СЕЗОННА СТАТИСТИКА %(name)s"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "До кінця сезону:"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "—"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s – %(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "Розклад матчів"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "Сьогодні"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "Завтра"
+
+msgid "selectorTooltip/desc"
+msgstr "Змагальний режим 7 × 7 | X рівень"
+
+msgid "selectorTooltip/title"
+msgstr "Натиск"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Стежте за новинами на порталі гри, щоб не проґавити інформацію про старт нового сезону."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Режим тимчасово вимкнено з технічних причин."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Режим стане доступний %(time)s"
+
+msgid "shortSeasonName/first"
+msgstr "Лазурний Дракон"
+
+msgid "shortSeasonName/second"
+msgstr "Червоний Дракон"
+
+msgid "shortSeasonName/third"
+msgstr "Нефритовий Дракон"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "Розділ містить інформацію про найкращих гравців поточного сезону режиму «Натиск»."
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Розділ містить інформацію про кваліфікацію, а також про ваш ранг, дивізіон та очки рейтингу після її завершення."
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "Розділ містить інформацію про нагороди за отримання рангів у режимі «Натиск»."
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "Розділ містить інформацію про товари, доступні для придбання в Магазині Натиску"
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "Розділ містить інформацію про щотижневі завдання режиму «Натиск»."
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "Розділ містить подробиці про річні нагороди, які можна отримати за здобуття прапорів Натиску."
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "Розділ містить інформацію про ваші досягнення у кожному з сезонів поточного року Натиску."
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "Таблиця лідерів"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Рангова система"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "Нагороди за ранги"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "Магазин Натиску"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "Щотижневі завдання"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "Річні нагороди"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "Річна статистика"
+
+msgid "sixthRankTooltip/description"
+msgstr "Ранг {eeede9e6_Open}«Легенда»{eeede9e6_Close} присвоюється {eeede9e6_Open}топ-%(topPercentage)%{eeede9e6_Close} гравців таблиці лідерів за кількістю очок рейтингу."
+
+msgid "style3dTooltip/954"
+msgstr "Срібні шипи"
+
+msgid "style3dTooltip/955"
+msgstr "Золоті кігті"
+
+msgid "style3dTooltip/956"
+msgstr "Чемпіонські крила"
+
+msgid "style3dTooltip/957"
+msgstr "Легендарна істота"
+
+msgid "style3dTooltip/description"
+msgstr "Сильний як лев, лютий як дракон і смертоносний як скорпіон — цей звір втілює в металі істоту, яку бояться з давніх часів."
+
+msgid "style3dTooltip/howToReceive"
+msgstr "Як отримати"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "Видається за здобуття щонайменше 9 прапорів Натиску в році Мантикори в режимі «Натиск»."
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "Видається за здобуття щонайменше 12 прапорів Натиску в році Мантикори в режимі «Натиск». Замінює попередній стиль."
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "Видається за здобуття щонайменше 15 прапорів Натиску в році Мантикори в режимі «Натиск». Замінює попередній стиль."
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "Видається за здобуття щонайменше 18 прапорів Натиску в році Мантикори в режимі «Натиск». Замінює попередній стиль."
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "Пасує для техніки"
+
+msgid "system_messages/periodicReward/body"
+msgstr "Отримано щоденну нагороду за перебування в рангу «%(rank)s».\n%(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "Щоденна нагорода"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Бої в режимі «Натиск» недоступні до закінчення режиму припинення вогню."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Режим припинення вогню"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Бої в режимі «Натиск» знову доступні. Режим припинення вогню закінчено."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Режим припинення вогню"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "Вітаємо! Ви досягли рангу «%(maxRank)s».\nОтримано нагороди за ранги %(ranks)s:\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "Кваліфікацію завершено"
+
+msgid "system_messages/regularReward/body"
+msgstr "Дата: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "Квитанція"
+
+msgid "system_messages/shop/offer/button"
+msgstr "Перейти в Магазин"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "У Магазині Натиску доступні нові знижки!"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "Знижки збільшено"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "У Магазині Натиску доступні нові товари!"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "Доступні нові товари"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "Помилка платежу. Будь ласка, спробуйте пізніше."
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "Дата: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "Нагороди за виконання щотижневих завдань"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "Дата: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "Нагорода за виконане щотижневе завдання"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Про режим «Натиск»"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "Сезонні оновлення"
+
+msgid "tournament/LBFinals"
+msgstr "НИЖНЯ СІТКА: ФІНАЛ"
+
+msgid "tournament/LBRound1"
+msgstr "НИЖНЯ СІТКА: РАУНД 1"
+
+msgid "tournament/LBRound2"
+msgstr "НИЖНЯ СІТКА: РАУНД 2"
+
+msgid "tournament/LBSemifinals"
+msgstr "НИЖНЯ СІТКА: ПIВФIНАЛ"
+
+msgid "tournament/UBFinals"
+msgstr "ВЕРХНЯ СІТКА: ФІНАЛ"
+
+msgid "tournament/UBSemifinals"
+msgstr "ВЕРХНЯ СІТКА: ПIВФIНАЛ"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "У турнірі не можна заробити чи втратити очки рейтингу."
+
+msgid "tournament/bestOf"
+msgstr "НАЙКРАЩІ З %(number)s"
+
+msgid "tournament/cny"
+msgstr "%(amount)s китайських юанів"
+
+msgid "tournament/cnySign"
+msgstr "¥%(amount)s"
+
+msgid "tournament/comeBack"
+msgstr "Спробуйте ще раз пізніше"
+
+msgid "tournament/comingSoon"
+msgstr "СКОРО %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "ЧАС ЗАЛЕЖИТЬ ВІД ТРИВАЛОСТІ МАТЧІВ"
+
+msgid "tournament/completed"
+msgstr "ЗАВЕРШЕНО"
+
+msgid "tournament/douyin"
+msgstr "Дивіться на Douyin"
+
+msgid "tournament/drops/huya"
+msgstr "Дивіться на Huya й отримуйте ексклюзивні\nHuya Drops!"
+
+msgid "tournament/drops/twitch"
+msgstr "Дивіться на Twitch й отримуйте ексклюзивні\nTwitch Drops!"
+
+msgid "tournament/dropsShort/huya"
+msgstr "Та отримуйте ексклюзивні Huya Drops!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "Та отримуйте ексклюзивні Twitch Drops!"
+
+msgid "tournament/error"
+msgstr "ПОМИЛКА ЗАВАНТАЖЕННЯ ДАНИХ"
+
+msgid "tournament/eur"
+msgstr "%(amount)s євро"
+
+msgid "tournament/euroSign"
+msgstr "€%(amount)s"
+
+msgid "tournament/finalResult"
+msgstr "ПЕРЕМОЖЕЦЬ"
+
+msgid "tournament/fundDistribution"
+msgstr "РОЗПОДІЛ ПРИЗОВОГО ФОНДУ"
+
+msgid "tournament/grandFinals"
+msgstr "ГРАНД-ФІНАЛ"
+
+msgid "tournament/huya"
+msgstr "Дивіться на Huya"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "Призовий фонд формується з купівель наборів гравцями. Останнє оновлення: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "ІНШИХ МАТЧІВ НЕ ЗАПЛАНОВАНО"
+
+msgid "tournament/ols/roundRobin"
+msgstr "ФАЗА %(phase)s РАУНД %(round)s"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s – %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "ПРИЗОВИЙ ФОНД %(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "І ШАНС ЗДОБУТИ ВІЧНУ СЛАВУ"
+
+msgid "tournament/refresh"
+msgstr "Оновити"
+
+msgid "tournament/refreshing"
+msgstr "Оновлення..."
+
+msgid "tournament/roundOf"
+msgstr "РАУНД ІЗ %(number)s"
+
+msgid "tournament/separator"
+msgstr "АБО"
+
+msgid "tournament/tab/overview"
+msgstr "ОГЛЯД"
+
+msgid "tournament/tab/schedule"
+msgstr "РОЗКЛАД"
+
+msgid "tournament/teamPlaceholder"
+msgstr "Уточнюється"
+
+msgid "tournament/toShop"
+msgstr "Відвідати Магазин"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "Обміняти"
+
+msgid "tournament/tokenStore/ols"
+msgstr "ЖЕТОНИ СЛН"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "Доступно за:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "Про турнір"
+
+msgid "tournament/twitch"
+msgstr "Дивіться на Twitch"
+
+msgid "tournament/viewFull"
+msgstr "Подивитися все"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "Підтримайте серію «Легенди Натиску», поповнивши призовий фонд за допомогою спеціальних турнірних наборів!"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "Покажіть свою любов до кіберспорту за допомогою ексклюзивних тематичних елементів зовнішнього вигляду й унікальної техніки!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "ПОПОВНІТЬ ПРИЗОВИЙ ФОНД"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "НАБОРИ ДО WCI"
+
+msgid "tournament/vsBestOf"
+msgstr "ПРОТИ\nНАЙКРАЩИХ ІЗ %(number)s"
+
+msgid "tournament/wci/roundRobin"
+msgstr "КРУГОВА СИСТЕМА"
+
+msgid "tournament/winner"
+msgstr "Переможець"
+
+msgid "tournament/youtube"
+msgstr "Дивіться на Youtube"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "Найкращі європейські танкісти б'ються за звання чемпіонів серії «Легенди Натиску»! Дивіться напружені бої у форматі «7 на 7», хапайте Twitch Drops і підтримуйте улюблені команди, збільшуючи призовий фонд завдяки ексклюзивним наборам з елементами зовнішнього вигляду."
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "У місті Сучжоу, Китай, розгорнуться епічні баталії в межах міжнародного чемпіонату World of Tanks, де найгрізніші команди з усього світу змагатимуться за правилами режиму «Натиск» заради престижного титулу чемпіона світу. Відчуйте щирий захват, споглядаючи, як на полі бою народжуються нові легенди!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "6-й сезон СЛН"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI 2025"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "Трансляції будуть доступні %(timer)s"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "Нові матчі через %(timer)s"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "Очки рейтингу не можна заробити в тренувальних боях Натиску."
+
+msgid "unit/message/modeOffline"
+msgstr "Неможливо стати до бою: помилка бази даних."
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "Перевищено обмеження в рангах"
+
+msgid "voiceChat/active"
+msgstr "Вийти з голосового чату"
+
+msgid "voiceChat/inactive"
+msgstr "Увійти в голосовий чат"
+
+msgid "waitingSpinner/message"
+msgstr "Завантажуємо вміст..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "Завдання Натиску виконано"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "Чудово! Ви виконали всі щотижневі завдання. Не забудьте забрати нагороду — до зустрічі в наступному сезоні!"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "Ви отримаєте додаткові нагороди за виконання завдань: {eeede9e5_Open}%(questsList)s{eeede9e5_Close}, {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close}"
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "Щотижневе завдання Натиску"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "Виконано: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s нове завдання за:"
+msgstr[1] "%(value)s нові завдання за:"
+msgstr[2] "%(value)s нових завдань за:"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "Нагорода:"
+msgstr[1] "Нагороди:"
+msgstr[2] "Нагороди:"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)s НОВЕ ЗАВДАННЯ ЗА %(countdown)s"
+msgstr[1] "%(value)s НОВІ ЗАВДАННЯ ЗА %(countdown)s"
+msgstr[2] "%(value)s НОВИХ ЗАВДАНЬ ЗА %(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "НОВІ ЗАВДАННЯ — НАСТУПНОГО СЕЗОНУ!"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "Завдань виконано: %(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "Кожного тижня ви отримуватимете %(value)s нове завдання. Кожне виконане завдання наближає вас до нагороди!"
+msgstr[1] "Кожного тижня ви отримуватимете %(value)s нові завдання. Кожне виконане завдання наближає вас до нагороди!"
+msgstr[2] "Кожного тижня ви отримуватимете %(value)s нових завдань. Кожне виконане завдання наближає вас до нагороди!"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "Виконується"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "Виконано"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "Недоступно"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "Виконати неможливо: режим неактивний."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "Для розблокування дослідіть і придбайте машину Х рівня."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "Щоб розблокувати, виконайте попереднє завдання."
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "Завдання недоступне"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "Заберіть нагороду!"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "Виконано: %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "Завдання %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s нове завдання за:"
+msgstr[1] "%(value)s нові завдання за:"
+msgstr[2] "%(value)s нових завдань за:"
+
+msgid "whatsNewButtonLabel"
+msgstr "СЕЗОННІ ОНОВЛЕННЯ"
+
+msgid "whatsNewView/banner/description"
+msgstr "Цей сезон — ваша остання можливість отримати цінні нагороди, зокрема ексклюзивний важкий танк X рівня Ashbringer з усіма унікальними 3D-стилями, які ви для нього здобули, безстрашним екіпажем із «нульовою» навичкою «Бойове братерство», а також удосконаленим й експериментальним обладнанням на вибір, разючим 2D-стилем та іншими бонусами. Не проґавте свій шанс — перемога чекає на полі бою!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "Ловіть останні миті року Дракона!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "СЕЗОН НЕФРИТОВОГО ДРАКОНА"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "НАТИСК. ЩО НОВОГО?"
+
+msgid "whatsNewView/button/ok"
+msgstr "Бан-тастично!"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "Поліпшений екран результатів бою в дизайні оновлення 2.0 тепер показуватиме додаткову інформацію, що стосується поточного режиму."
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "Детальні результати бою"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "Не хвилюйтеся, якщо вашу улюблену машину виключили. Прокатні танки тепер мають заздалегідь налаштований екіпаж, обладнання, снаряди й спорядження."
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "Готові до бою прокатні машини %(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "Цього сезону кожна команда може повністю виключити одну машину з бою. Координуйте вибір із союзниками, щоб прибрати найнебезпечнішу техніку чи підготувати несподівану підбірку машин для суперника."
+
+msgid "whatsNewView/intro/heading"
+msgstr "Виключення техніки %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "Мапи"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "Нові машини в Натиску"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "Прокатна техніка"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "Американський середній танк X рівня Ares 90, доданий нещодавно, тепер доступний у режимі зі зміненою рольовою навичкою."
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "Оновлення рольової навички %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "114 SP2 тепер доступний для придбання в Магазині Натиску в ранзі «Срібло»."
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "Оновлення Магазину %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "ВИЛУЧЕНО"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "У ПЕРЕРОБЦІ"
+
+msgid "whatsNewView/tag/attention"
+msgstr "Увага"
+
+msgid "whatsNewView/tag/changed"
+msgstr "Змінено"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "Експериментальне"
+
+msgid "whatsNewView/tag/new"
+msgstr "Нове"
+
+msgid "whatsNewView/tag/returned"
+msgstr "Повернуто"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "Оновлено"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "Сезонне оновлення"
+
+msgid "whatsNewView/watchVideo"
+msgstr "Дивитися відео"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "Відсоток перемог (день): %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "Поразки: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "Нічиї: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "Відсоток перемог (сезон): %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "Відношення загальної кількості перемог до кількості зіграних боїв.\nБої за результатами:"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "Перемоги: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "Нагороди надійдуть наприкінці третього сезону."
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "Нагороди надійдуть незабаром. Будь ласка, зачекайте."
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "Річну нагороду отримано. Побачимося наступного року!"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "У вас є обладнання на вибір"
+
+msgid "yearlyRewards/claim"
+msgstr "Забрати"
+
+msgid "yearlyRewards/claimReward"
+msgstr "Отримати нагороду"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "Ви отримали по 1 %(seasonPointIcon)s за кожен здобутий ранг на момент закінчення сезону."
+
+msgid "yearlyRewards/description/current"
+msgstr "Ви отримаєте по 1 %(seasonPointIcon)s за кожен здобутий ранг на момент закінчення сезону."
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\nЗ унікальними 3D-стилями"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "ДО РІЧНИХ НАГОРОД"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "Оглянути 2D-стиль"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "Оглянути 3D-стиль"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "Здобуто ранг: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "Поточний ранг: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "Чотири унікальні члени екіпажу"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "Нагороду отримано"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "Нагорода гарантована"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "Здобудьте сумарно %(count)s шт. прапорів, щоб отримати нагороди етапу"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "Потенційна нагорода"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "Ви гарантовано отримаєте цю нагороду наприкінці року."
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "Здобудьте необхідну кількість прапорів Натиску, щоб отримати нагороду наприкінці року."
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "Ви отримаєте цю нагороду наприкінці року, якщо збережете поточний ранг або підвищите його до закінчення сезону."
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "Активний етап"
+
+msgid "yearlyStatistics/battles"
+msgstr "Бої (один./взводн.)"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "Розрахунок сезонної статистики…"
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)sДо статистики сезону"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "Немає рангу"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "Ранг «%(rank)s»"
+
+msgid "yearlyStatistics/rating"
+msgstr "Очки рейтингу"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "Осінь 2025"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "Зима 2026"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "Весна 2026"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s–%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "Сезон I. Лазурний Дракон"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "Сезон ІІ. Червоний Дракон"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "Сезон ІІІ. Нефритовий Дракон"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "Поточний"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "Завершено"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "Бої (супервзвод)"
+
+msgid "yearlyStatistics/wins"
+msgstr "Відсоток перемог"

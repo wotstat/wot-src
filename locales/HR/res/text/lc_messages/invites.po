@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: Wot prevoditelj <noreply@wargaming.net>\nLanguage-Team: WoT tim <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sPregledaj%(linkEndTag)s detalje igrača"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sPrijava u klan%(titleEndTag)s\nod %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Pregledaj prijave"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sIsključi%(linkEndTag)s obavijesti"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sAPrijave od igrača: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sPregledaj%(linkEndTag)s detalje klana"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sPozivnica u klan%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Pregledaj pozivnice"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sPozivnice klana: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "Igrač je prihvaćen u klan."
+
+msgid "clans/state/app/declined"
+msgstr "Prijava odbijena."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "Još nije istekla igračeva jednodnevna kazna za napuštanje prethodnog klana."
+
+msgid "clans/state/invite/accepted"
+msgstr "Prihvaćeni ste u klan."
+
+msgid "clans/state/invite/declined"
+msgstr "Pozivnica odbijena."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Jednodnevna kazna za napuštanje prethodnog klana još nije istekla."
+
+msgid "errors/creationNotAllowed"
+msgstr "Nemate pravo poslati poziv."
+
+msgid "errors/invalid"
+msgstr "Neispravan poziv."
+
+msgid "errors/inviteNotSupported"
+msgstr "Ova vrsta poziva trenutno nije dostupna. Molimo pokušajte kasnije."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "Primatelj pozivnice vas je dodano na Crnu listu."
+
+msgid "errors/selfinvite"
+msgstr "Ne možete pozvati sami sebe."
+
+msgid "errors/unknownuser"
+msgstr "Ovaj korisnik ne postoji u sistemu."
+
+msgid "errors/useroffline"
+msgstr "Korisnik nije na serveru."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "Vozilo u garaži je oštećeno ili zaključano. Izaberite drugo vozilo."
+
+msgid "friendship/note/approved"
+msgstr "Igrač dodan na listu prijatelja"
+
+msgid "friendship/note/canceled"
+msgstr "Zahtjev odbijen"
+
+msgid "friendship/note/maxRoster"
+msgstr "Maksimalni broj kontakata na listi: %(rosterMaxCount)s. Kako bi dodali ovog igrača na listu prijatelja, prvo uklonite nekog s liste."
+
+msgid "friendship/note/notConnected"
+msgstr "Spajanje na server nije moguće. Pričekajte, molim."
+
+msgid "friendship/note/process"
+msgstr "Čekam odgovor servera"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sZahtjev za prijatelja%(titleEndTag)s\nod %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Prihvati"
+
+msgid "gui/buttons/cancel"
+msgstr "Odustani"
+
+msgid "gui/buttons/reject"
+msgstr "Odbij"
+
+msgid "gui/buttons/send"
+msgstr "Pošalji"
+
+msgid "gui/labels/additionalText"
+msgstr "Dopunski tekst uz poziv:"
+
+msgid "gui/labels/inviteText"
+msgstr "Tekst poziva:"
+
+msgid "gui/labels/receiver"
+msgstr "Primatelj:"
+
+msgid "gui/titles/barter"
+msgstr "Poziv na trgovinu"
+
+msgid "gui/titles/clan"
+msgstr "Poziv u klan"
+
+msgid "gui/titles/invite"
+msgstr "Poziv"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Pozivi"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski uklonjeni iz taktičke jedinice i prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski uklonjeni iz taktičke jedinice i prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz bitke na globalnoj mapi i prebačeni na %(host)s poslužitelj."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski uklonjeni iz taktičke jedinice i prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski uklonjeni iz taktičke jedinice i prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski uklonjeni iz taktičke jedinice i prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz timske obuke u režimu Bojišnice i prebačeni na %(host)s poslužitelj."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski uklonjeni iz taktičke jedinice i prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Jednom kad primte poziv biti ćete isključeni iz režima timske bitke i prebačeni na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski uklonjeni iz voda i biti prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz Utvrđenja: bitke i biti prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "Kada prihvatite poziv, napustit ćete režim Napretka i biti prebačeni na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski uklonjeni iz voda Misije izviđanja i biti prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz timske obuke i prebačeni na %(host)s poslužitelj."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz Utvrđenja: bitke i biti prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski uklonjeni iz voda i biti prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "Kada prihvatite poziv, napustit ćete trenutni odred i biti prebačeni na server %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz turnira i prebačeni na %(host)s poslužitelj."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz timske obuke i prebačeni na %(host)s poslužitelj."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz timske obuke u režimu Navala i prebačeni na %(host)s poslužitelj."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Jednom kad primte poziv biti ćete isključeni iz režima timske bitke i prebačeni na server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz Čeličnog lovca i biti prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz Velikog lova i biti prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz Navale i biti prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz Lagane Navale i biti prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz Bojišnice i biti prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz +++bitke akcije+++ i biti prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "Jednom kad prihvatite poziv, izaći ćete iz Misije izviđanja i biti prebačeni na server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz Topografije i biti prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz slučajnih bitaka i biti prebačeni na %(host)s server."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "Jednom kad prihvatite poziv, izaći ćete iz režima rangirane bitke i biti prebačeni na server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz Zagrijavanja i biti prebačeni na server %(host)s."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "Jednom kada prihvatite poziv, izaći ćete iz Zagrijavanja i biti prebačni na server %(host)s. Nećete ga moći ponovno započeti."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz taktičke jedinice."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz taktičke jedinice."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz bitke na globalnoj mapi."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz taktičke jedinice."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz taktičke jedinice."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz taktičke jedinice."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz timske obuke u režimu Bojišnice."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz taktičke jedinice."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Jednom kad primte poziv biti ćete isključeni iz režima timske bitke."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz voda."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz Utvrđenja: bitke."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "Kada prihvatite poziv, napustit ćete režim Napretka."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz voda Misije izviđanja."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz timske obuke."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz Utvrđenja: bitke."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz voda."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "Kada prihvatite poziv, napustit ćete trenutni odred."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz turnira."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz timske obuke."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Jednom kad prihvatite poziv biti ćete automatski isključeni iz timske obuke u režimu Navala."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Jednom kad primte poziv biti ćete isključeni iz režima timske bitke."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz Čeličnog lovca."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Jednom kad prihvatite poziv, napustit ćete Veliki lov."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "Jednom kad prihvatite poziv, napustit ćete Navalu."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "Jednom kad prihvatite poziv, napustit ćete Laganu Navalu."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "Jednom kad prihvatite poziv, napustit ćte Bojišnicu."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz +++bitke akcije+++."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "Jednom kad primite poziv izaći ćete iz Misije izviđanja."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "Jednom kad prihvatite poziv, napustit ćete Topografiju."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz slučajnih bitaka."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "Jednom kad prihvatite poziv, izaći ćete iz režima rangirane bitke."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz Zagrijavanja."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "Jednom kad prihvatite poziv izaći ćete iz Zagrijavanja. Nećete ga moći ponovno započeti."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Promjene servera neće biti sačuvane."
+
+msgid "invites/note/server_change"
+msgstr "Automatski će te biti prebačeni na server %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Niste u mogućnosti prihvatiti poziv. Za prihvat poziva, molim odaberite server %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Niste u mogućnosti prihvatiti poziv. Molim da pređete na drugi server."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Već ste se pridružili vodu."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Već ste ušli u bitku na Globalnoj mapi."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Već ste se pridružili timskoj obuci."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Već ste se pridružili vodu."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Već ste se pridružili vodu."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Već ste se pridružili odredu."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Već ste se pridružili vodu."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Već ste ušli u turnir."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Već ste se pridružili timskoj obuci."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Već ste se pridružili timskoj obuci."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Već ste se pridružili timu."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Poziv prihvaćen."
+
+msgid "invites/state/DECLINED"
+msgstr "Pozivnica odbijena."
+
+msgid "invites/state/ERROR"
+msgstr "Neispravan poziv."
+
+msgid "invites/state/EXPIRED"
+msgstr "Neispravan poziv."
+
+msgid "invites/state/REVOKED"
+msgstr "Poziv opozvan."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Poziv u vod Čelični lovac"
+
+msgid "invites/text/COMP7"
+msgstr "Poziv za pridruživanje vodu Navale"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Poziv za pridruživanje vodu Lagane Navale"
+
+msgid "invites/text/EPIC"
+msgstr "Poziv za pridruživanje vodu Bojišnice"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Poziv za pridruživanje timskoj obuci u režimu Bojišnice"
+
+msgid "invites/text/EVENT"
+msgstr "Poziv u vod"
+
+msgid "invites/text/FALLOUT"
+msgstr "Poziv za pridruživanje u vod za %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Dominacija"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Čelični lov"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Poziv u bitku"
+
+msgid "invites/text/MAPBOX"
+msgstr "Poziv za pridruživanje u vod Misija izviđanja"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Poziv za istraživanje mapa"
+
+msgid "invites/text/SORTIE"
+msgstr "Poziv za pridruživanje odredu"
+
+msgid "invites/text/SQUAD"
+msgstr "Poziv u vod"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Poziv za pridruživanje odredu"
+
+msgid "invites/text/TRAINING"
+msgstr "Poziv za pridruživanje timskoj obuci"
+
+msgid "invites/text/UNIT"
+msgstr "Poziv za pridruživanje timu"
+
+msgid "invites/text/creatorName"
+msgstr "od %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Period obrane"
+
+msgid "invites/text/fort/direction"
+msgstr "Mostobran"
+
+msgid "invites/text/fort/offence"
+msgstr "Napad na"
+
+msgid "invites/warning/anonymized"
+msgstr "Jednom kada prihvatite poziv vaš pravi nadimak i oznaka klana će biti prikazani članovima taktičke jedinice tijekom bitke."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Poziv poslan %(name)s."

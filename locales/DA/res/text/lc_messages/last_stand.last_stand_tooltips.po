@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "Event tilgængelig i %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — Kamptype. Klik for at udforske"
+
+msgid "bannerTooltip/description"
+msgstr "En særlig PvE-kamptype, der sætter dig op mod bølger af fjendtlige styrker. Vælg dit yndlingskøretøj, ødelæg ekko-kampvogne og afværg angrebet. Eksklusive belønninger og meget mere venter dig!"
+
+msgid "bannerTooltip/header"
+msgstr "Sidste slag: Terra Nord"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Din computers ydeevne er ikke tilstrækkelig til denne kamptype. Du vil måske opleve problemer med grafikken og køretøjets bevægelser. Det er også sandsynligt at klienten vil crashe."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Denne kamptype kræver høj ydelse af computeren. Du vil opleve problemer med kortindlæsning, grafik og køretøjsbevægelser. I tilfælde af utilstrækkelig ydeevne, prøv en lavere grafikindstilling i indstillingerne."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Lav ydeevne"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Mulig reduceret ydeevne"
+
+msgid "battlePass/playGame"
+msgstr "Optjen point i Sidste slag ved at gøre fremskridt gennem eventet (kræver niveau VIII køretøjer)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "I er allerede venner."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Afventer bekræftelse af venneanmodning."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Fjern spiller fra din sorte liste."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Tilføj til vennelisten."
+
+msgid "battleResult/interaction/menu"
+msgstr "Klik for at åbne interaktions-menu med denne spiller."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Tilføj til deling."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Spiller allerede i deling."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Invitation allerede sendt."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Kun delingskommandøren kan invitere spillere til en deling."
+
+msgid "booster/activated"
+msgstr "Aktiveret"
+
+msgid "booster/howItWorks"
+msgstr "Sådan virker det"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Cooldown: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Mirium-pris: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "Tid tilbage til at fuldføre daglig mission"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "Tid til næste daglige mission"
+
+msgid "dailyQuests/completed"
+msgstr "Fuldført"
+
+msgid "dailyQuests/completedAll"
+msgstr "Du har fuldført alle daglige missioner for dette event."
+
+msgid "dailyQuests/completedDescr"
+msgstr "Du har fuldført denne daglige mission. En ny er tilgængelig i morgen."
+
+msgid "dailyQuests/rewards"
+msgstr "Belønninger:"
+
+msgid "dailyQuests/status"
+msgstr "Ny daglig mission om %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "Event tilgængelig i %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Vælg et tilgængeligt køretøj for at gå i kamp."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Utilgængelig"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Kampe i den valgte sværhedsgrad/kamptype er midlertidigt utilgængelige af tekniske årsager."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Utilgængelig"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Vent til delingen er tilbage fra den forrige kamp til at starte en ny kamp."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Utilgængelig"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Inkompatibel sværhedsgrad for delingen."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Utilgængelig"
+
+msgid "points/accrued"
+msgstr "Modtaget"
+
+msgid "points/battles"
+msgstr "• Kæmp i eventkampe"
+
+msgid "points/body"
+msgstr "Data bruges til at gøre fremskridt i Sidste slag og opnå værdifulde ressourcer. Det kan optjenes ved at deltage i eventkampe, fuldføre daglige missioner, eller købe \"{{bundle_name}}\"."
+
+msgid "points/bottom"
+msgstr "Event slutter: (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• Fuldfør nye daglige missioner hver dag"
+
+msgid "points/effective"
+msgstr "• Effektivitet i kamp:"
+
+msgid "points/gold"
+msgstr "• Køb \"{{bundle_name}}\" i butikken"
+
+msgid "points/header"
+msgstr "Data"
+
+msgid "points/howToEarn"
+msgstr "Sådan optjener du"
+
+msgid "points/missionDaily"
+msgstr "• Daglig mission fuldført:"
+
+msgid "points/obelisk"
+msgstr "• Obelisk ødelagt:"
+
+msgid "points/vehicleDaily"
+msgstr "• Daglig køretøjsbonus modtaget:"
+
+msgid "rewardPath/info/first"
+msgstr "Du kan optjene mere data ved at fuldføre daglige missioner, som opdateres hver dag i løbet af eventet."
+
+msgid "rewardPath/info/header"
+msgstr "Yderligere data"
+
+msgid "rewardPath/info/second"
+msgstr "En særlig eventpakke, tilgængelig i butikken, indeholder også data til at styrke dit fremskridt."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "Køretøjsbonus:"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "Andre belønninger:"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}Køretøjsbonus{EDCB9E_End} — {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "Al data og alle belønninger modtaget"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "Data modtaget {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "Indsaml data og gør fremskridt gennem Sidste slag. Hvert stadie belønner dig med værdifulde ting og en køretøjsbonus, så du nemmere kan nedkæmpe mere formidable fjender."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "Sidste stadie"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "Nuværende stadie"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "Event tilgængelig i {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "Fremskridt"
+
+msgid "shopWidget/body"
+msgstr "Klik for at åbne en særlig del af in-game butikken med eksklusive ting fra eventet."
+
+msgid "shopWidget/header"
+msgstr "Eventpakker"
+
+msgid "teamList/actions/body"
+msgstr "Kvikhandlinger til at oprette en deling og tilføje/fjerne venner."
+
+msgid "teamList/actions/header"
+msgstr "Kvikhandlinger"
+
+msgid "teamList/damage/body"
+msgstr "Sorter efter uddelt skade."
+
+msgid "teamList/damage/header"
+msgstr "Skade uddelt"
+
+msgid "teamList/keys/body"
+msgstr "Sorter efter optjent data. Den viste værdi tæller ikke yderligere data med, som blev modtaget for at fuldføre daglige missioner eller fra daglige køretøjsbonusser."
+
+msgid "teamList/keys/header"
+msgstr "Data"
+
+msgid "teamList/kills/body"
+msgstr "Sorter efter antal ødelagte fjendtlige køretøjer."
+
+msgid "teamList/kills/header"
+msgstr "Fjendtlige køretøjer ødelagt"
+
+msgid "teamList/name/header"
+msgstr "Spillernavn"
+
+msgid "teamList/place/body"
+msgstr "Sorter efter placering på holdet."
+
+msgid "teamList/place/header"
+msgstr "Placering på holdet"
+
+msgid "teamList/squad/header"
+msgstr "En deling er en taktisk enhed, så spillerne kan samarbejde i kampe."
+
+msgid "teamList/vehicle/body"
+msgstr "Sorter efter køretøjstype og navn."
+
+msgid "teamList/vehicle/header"
+msgstr "Køretøjer"
+
+msgid "teamList/warned/body"
+msgstr "Denne spiller er blevet straffet for inaktivitet/desertering, og har ikke modtaget nogle belønninger for denne kamp."
+
+msgid "teamList/warned/header"
+msgstr "Advarsel"
+
+msgid "teamList/warned/self/body"
+msgstr "Du er blevet straffet for inaktivitet/desertering, og har ikke modtaget nogle belønninger for denne kamp."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Lav mandskabseffektivitet"
+
+msgid "vehicle/rentState"
+msgstr "Låst"
+
+msgid "vehicleDaily/header"
+msgstr "Daglig køretøjsbonus"

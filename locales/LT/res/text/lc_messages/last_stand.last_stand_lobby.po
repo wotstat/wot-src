@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Vis tiek pradėti"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Sumontuoti!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Taktiniai prietaisai nepasirinkti"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "Jūsų pasirinkta mašina neturi vieno ar kelių taktinių prietaisų. Tai gali labai paveikti jūsų pasirodymą mūšyje. At vis tiek norite pradėti mūšį?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Jūs galite pasikeisti renginio numatytuosius klavišus sviediniams ir taktiniams prietaisams.\nŠie pakeitimai galioja tik renginio mūšiams ir nekeičia nustatymo kituose režimuose.\nJūs vis dar galite keisti individualius klavišus atsidarę Meniu — Nustatymai — Kontrolė (prie ekipuotės)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Ekipuotės naudojimo klavišų pakeitimas"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Įvykdykite dabartinę misiją ir gaukite unikalų ženkliuką \"Paskutinis mūšis: operacija Pandora\":"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Epinio pasiekimo misija"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Išradus sumažina visų taktinių prietaisų {EDCB9E_Start}Mirium kainą{EDCB9E_End} {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Mirium efektyvumas"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Išradus pailgina {EDCB9E_Start}taktinių prietaisų veikimo trukmę{EDCB9E_End} {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Prietaisų veikimo trukmė"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Išrastas padidina {EDCB9E_Start}taktinių prietaisų veikimo lauką{EDCB9E_End} {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Prietaisų veikimo laukas"
+
+msgid "booster/booster_heal/description"
+msgstr "Išrastas padidina mašinai taikomą {EDCB9E_Start}gydomąjį efektą{EDCB9E_End} {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Gydymo efektas"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Išrastas padidina priešams {EDCB9E_Start}perduodamą žalos kiekį iš obeliskų{EDCB9E_End} {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Perduodama obeliskų žala"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Išrastas padidina kokiu {EDCB9E_Start}atstumu paimamas priešų išmetamas Mirium{EDCB9E_End} {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Mirium paėmimo atstumas"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Išrastas padidina iš sunaikintų mašinų {EDCB9E_Start}surenkamo Mirium kiekį{EDCB9E_End} {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Mirium surinkimas"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Išrastas padidina pasibaigus bangai suteikiamo {EDCB9E_Start}Mirium kiekį{EDCB9E_End} {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Mirium už bangą"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Išrastas sugrįžus į mūšį suteikia {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End} {EDCB9E_Start}Mirium daugiau{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Mirium sugrįžus į mūšį"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Išrastas leidžia {EDCB9E_Start}maksimaliai turėti %(souls_capacity_add)s{EDCB9E_End} {EDCB9E_Start}Mirium daugiau{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Mirium talpa"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "SERGĖTOJO RINKINYS"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Raktai nupirkti"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Galimybė uždirbti ×5 patirties nuo antros dienos pergalės su bet kuria mašina."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Misija, suteikianti ×5 patirties mūšyje"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Mašinų vaizdavimo nustatymas pagal jų tipą, naciją, ir kitus parametrus."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Filtravimo parametrai"
+
+msgid "common/back"
+msgstr "ATGAL"
+
+msgid "common/close"
+msgstr "UŽDARYTI"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "Į RENGINĮ"
+
+msgid "common/toRewardPath"
+msgstr "Į SEKĄ"
+
+msgid "common/yes"
+msgstr "Tikrai taip!"
+
+msgid "difficult/daily"
+msgstr "ATRAKINTA KASDIENĖ RAKTŲ MISIJA"
+
+msgid "difficult/disabled/body"
+msgstr "Jūs esate būryje. Tik vadas gali pakeisti sudėtingumo lygį."
+
+msgid "difficult/disabled/header"
+msgstr "Sudėtingumo lygio pakeisti negalima"
+
+msgid "difficult/level_1"
+msgstr "Įprastas"
+
+msgid "difficult/level_2"
+msgstr "Pasunkintas"
+
+msgid "difficult/level_3"
+msgstr "Brutalus"
+
+msgid "difficult/new"
+msgstr "NAUJAS"
+
+msgid "difficult/searching/body"
+msgstr "Negalima ieškant mūšio."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Priešai yra mažiau patvarūs ir turi plonesnius šarvus. Suteikiamas standartinis duomenų kiekis."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Priešai turi tvirtesnius šarvus. Gaunamas duomenų kiekis padidinamas {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Daugiau priešų su tvirtesniais šarvais. Gaunamas duomenų kiekis padidinamas {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Apdovanojimai pirmą kartą įveikus paskutinę bangą:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Įprastas sudėtingumas"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Pasunkintas sudėtingumas"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Brutalus sudėtingumo lygis"
+
+msgid "difficult/tooltip/locked"
+msgstr "Sudėtingumo lygis užrakintas"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Šį sudėtingumo lygį atrakinsite laimėję įprastu sudėtingumo lygiu."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Šį sudėtingumo lygį atrakinsite laimėję pasunkintu sudėtingumo lygiu."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Sudėtingumo lygis pasiekiamas"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Sudėtingumo lygis pasirinktas"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Sunaikinta bangų: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "ĮPRASTAS"
+
+msgid "difficult/uppercase/level_2"
+msgstr "PASUNKINTAS"
+
+msgid "difficult/uppercase/level_3"
+msgstr "BRUTALUS"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Priešai turi tvirtesnius šarvus. Daugiau kreditų ir ×{{modifier}} daugiau duomenų."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Daugiau priešų su tvirtesniais šarvais. Daugiau kreditų ir ×{{modifier}} daugiau duomenų."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Kovokite ir įveikite priešų puolimus, o jūsų gebėjimai ir didžiausi pasiekimai bus pažymėti turnyrinėje lentelėje. Unikalūs prizai ir daug daugiau laukia jūsų."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "PASUNKINTAS SUDĖTINGUMO LYGIS"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "BRUTALUS SUDĖTINGUMO LYGIS"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "REŽIMAS PASKUTINIS MŪŠIS"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "PASUNKINTAS"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "BRUTALUS"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "PASKUTINIS MŪŠIS"
+
+msgid "difficultyWindow/rewards"
+msgstr "Apdovanojimai už įvykdymą:"
+
+msgid "difficultyWindow/title"
+msgstr "PASIEKIAMAS"
+
+msgid "hangar/exit"
+msgstr "PALIKTI RENGINĮ"
+
+msgid "hangar/narration"
+msgstr "Istorija"
+
+msgid "hangar/tooltip/about"
+msgstr "Sužinokite daugiau apie renginį Paskutinis mūšis: Terra Nord."
+
+msgid "hangar/tooltip/narration"
+msgstr "Sužinokite daugiau apie renginio istoriją."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "TAKTINIAI PRIETAISAI"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "KONFIGŪRACIJA"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Paskutinis mūšis"
+
+msgid "iconButton/comparison/default"
+msgstr "Mašinų palyginimas"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Mašinų palyginimas negalimas"
+
+msgid "iconButton/preview/default"
+msgstr "Mašinos peržiūra"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Mašinos peržiūra negalima"
+
+msgid "keyCard/name"
+msgstr "Iššifravimo raktai"
+
+msgid "meta/btn/decrypt"
+msgstr "IŠŠIFRUOTI"
+
+msgid "meta/btn/skip"
+msgstr "PRALEISTI"
+
+msgid "meta/btn/view"
+msgstr "PERŽIŪRĖTI"
+
+msgid "meta/receive/description"
+msgstr "Surinkę %(keys) / %(decrypt) %(icon) \niššifruosite šį įrašą"
+
+msgid "metaIntro/description/fight"
+msgstr "Kovokite renginio mūšiuose ir uždirbkite duomenų, kurie leis vykdyti seką."
+
+msgid "metaIntro/description/progress"
+msgstr "Rinkdami duomenis išraskite mašinų patobulinimus ir įveikite dar didesnius iššūkius."
+
+msgid "metaIntro/description/reward"
+msgstr "Vykdydami renginio seką gausite ypatingų apdovanojimų. Juos rasite apdovanojimų take."
+
+msgid "metaIntro/header/fight"
+msgstr "Renginio mūšiai"
+
+msgid "metaIntro/header/progress"
+msgstr "Patobulinimai"
+
+msgid "metaIntro/header/reward"
+msgstr "Unikalūs apdovanojimai"
+
+msgid "metaIntro/title"
+msgstr "PROGRESAVIMAS"
+
+msgid "missionWidget/complete"
+msgstr "Misija įvykdyta.\nSugrįžkite rytoj."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Įvykdykite dabartinę kasdienę misiją, kuri atsinaujina kas 24 valandas, ir gaukite apdovanojimą. Šiandienos misija:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Kasdienė misija"
+
+msgid "narration/actions/voiceover"
+msgstr "Įgarsinimas"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}ĮSLAPTINTA{{/}}{{titleParagraph}}{{@ class $highlightText}}SEKTORIUS: N-07 (\"Pašvaistės\" perimetras){{/}}{{pargraphStart}}Mūsų prognozės pasitvirtino. Stoties darbuotojai dar 11 dienų iki įvykio aptiko besiartinančią anomaliją. Pirmą kartą mes buvome pasiruošę.{{pargraphStart}}Paskutinėmis dienomis iki išpuolio standartizavome ATLASO kompleksų gamybą. Naujus modulius gaminome greičiau ir kalibravome tiksliau. Mes treniravomės, ruošėme formuotes ir formavome atsarginius būrius. Darėme viską.{{pargraphStart}}Tačiau anomalija turėjo savų planų.{{pargraphStart}}Portalas atsivėrė ne ten, kur tikėjomės. Jie atsirado čia, nuošaliame šiaurės sektoriuje, kuris yra labai toli nuo paruoštos infrastruktūros. Vis dar neaišku, kodėl pasirinkta būtent ši vieta. Nė vienas modelis nenumatė šios vietos. Akimirksniu praėjome pajėgų perkėlimą, tačiau ši vietovė labai nepatogi, atstumas tolimas. Kai kurios mašinos ir būriai vėluos.{{pargraphStart}}Kiekvienas mūsų paruoštas ATLASO kompleksas dabar neįkainojamas.{{pargraphStart}}Šį kartą mes buvome pasiruošę kovai. Tačiau ne toje vietoje.{{pargraphStart}}PASIRAŠO: KURATORIUS (PROJEKTAS M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Analitiniai užrašai 27/C \"INVAZIJOS PASIRINKIMO VIETA\"{{/}}{{titleParagraph}}Vidiniam naudojimui. \"Riboto naudojimo\" ženklas.{{pargraphStart}}Aš klausiu klausimo, į kurį privalau atsakyti, bet negaliu: Kodėl čia?{{pargraphStart}}Šis regionas anomalijai nesuteikia jokios strateginės vertės. Čia nieko nėra. Jokios infrastruktūros, jokių gyvenviečių. Čia saloje tėra tik neveikianti karinė bazė. Šešėliniai tankai negali perplaukti jūros. Tad kam užgrobti poziciją, iš kurios jie negali pulti? {{pargraphStart}}Aš paprašiau visų su šios vietos ankstesne veikla susijusių duomenų. Tačiau gavau labai iškarpytą atsakymą. Užblokuotos visi skyriai. Į antrą prašymą atsakyta tik žinute \"duomenys nesuteikiami {{@ class $highlightSecondaryText}}[DUOMENYS PANAIKINTI]{{/}} reikalavimu.\" Man, tyrimų biuro vadovui, nuo kurio rekomendacijų priklauso viso sektoriaus gynybos planas, yra nesuteikiama informacija apie šią teritoriją!{{pargraphStart}}Štai ką galiu nustatyti pagal turimus duomenis: anomalijos veikla nesutampa su tuo, ką matėme R-22 sektoriuje. Atsirado naujų ir anksčiau nesutiktų šešėlinių tankų. Jie elgiasi visai kaip mūsų didelio nuotolio prieštankiniai, kuriems ši vieta ypač palanki. Priešas pasimokė iš mūsų strategijų ir paruošė joms atsaką. Dabar mūsų eilė prisitaikyti.{{pargraphStart}}Gali būti, kad jiems reikia šios vietos. O gal net ir to, kas yra po ja.{{pargraphStart}}Aš nežinau. Ir mane neramina tai, kad kažkas žino, bet nesako.{{pargraphStart}}PASIRAŠO: KURATORIUS (PROJEKTAS M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}KURATORIAUS ASMENINIS ĮRAŠAS{{/}}{{pargraphStart}}Aš įvertinau savo hipotezes. Visas tris.{{pargraphStart}}  1. Anomalija siekia mus sunaikinti. {{pargraphStart}}  2. Anomalija eksperimentuoja. Analizuoja mūsų strategijas ir atsakus, koreguoja savo veiksmus ir mokosi.{{pargraphStart}}  3. Anomalija treniruojasi. Kiekviena banga yra naujos strategijos išbandymas, kiekvienas mūšis tėra treniruotė tikrame mūšio lauke.{{pargraphStart}}Visos trys hipotezės remiasi prezumpcija, kad mes esame jų taikinys.{{pargraphStart}}O kas jei nesame?{{pargraphStart}}Kas, jei anomalija bando daryti visai ką kitą, o mes tiesiog trukdome jai? Tarsi mes esame skruzdžių lizdas, užlietas kelio statybose. Statybininkai nepradeda karo su skruzdėmis. Jie tiesiog jų net nepastebi.{{pargraphStart}}Tu gali sustabdyti priešą, kuris nori tave sunaikinti. Tu gali bandyti su juo derėtis. Tačiau tu negali išgąsdinti to, kas net nekreipia dėmesio į tavo egzistavimą, tu negali to pergudrauti. Tu negali to sustabdyti. Nes tu niekada nebuvai net faktorius skaičiavimuose.{{pargraphStart}}Man atrodo, kad mes užduodame ne tą klausimą. Mums reikia klausti ne kodėl tai mus puola, bet ar tai iš viso mus pastebi.{{pargraphStart}}PASIRAŠO: KURATORIUS (PROJEKTAS M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}GALUTINĖ ATASKAITA{{/}}{{titleParagraph}}{{@ class $highlightText}}STATUSAS: IŠSLAPTINTA (DALINAI){{/}}{{pargraphStart}}03:47 vietos laiku portalas užsidarė. Anomalijos veikla sustojo. Sektorius saugus.{{pargraphStart}}Prieš pat užsidarymą ATLASO rodikliai užregistravo didelį energijos pliūpsnį, kuris viršijo kada nors anksčiau registruotas vertes. Įgulos pamatė neilgai trukusį fizinį objektą anomalijos centre, kuris pradingo nepraėjus net 12 sekundžių. Po to portalas užsidarė. {{pargraphStart}}Oficialiais duomenimis: Incidentas baigtas. Teritorija pagaliau apginta. Sektorius vėl atviras.{{pargraphStart}}{{@ class $highlightText}}KURATORIAUS ASMENIS ĮRAŠAS (Tik specialiosioms pajėgoms){{/}}{{pargraphStart}}Mes ne laimėjome. Tai pasibaigė.{{pargraphStart}}Tai nebuvo invazija. Jie tik nukreipė dėmesį. Aplink anomalijos centre atsiradusį objektą buvo suformuotas apsauginis laukas prieš pat anomalijai užsidarant.{{pargraphStart}}Akimirksniu atsirado dešimtys obeliskų. Mes vis dar nežinome, ką jie daro. ATLASAS užfiksavo visus rodmenis, tačiau jiems interpretuoti prireiks laiko. Tačiau viena mums tikrai yra aišku: anomalija įvykdė kažkokį procesą.{{pargraphStart}}Kad ir ką ji daro, mes privalome ruošti dar vienam puolimui. Mes jau turime pakankamai duomenų. Mūsų inžinieriai jau nagrinėja įrašus ir, pasakysiu atvirai, dar nesu matęs jų tokių užsivedusių. Jie mano, kad galės labai ženkliai sustiprinti mūsų mašinas. Mes privalome ką nors padaryti prieš portalams vėl atsiveriant. {{pargraphStart}}Tačiau negaliu nustoti galvoti apie vieną: jei tai įvyko čia ir truko taip trumpai, kiek kartų tai yra įvykę anksčiau? Vietose, kur nėra ATLASŲ, niekas nemato, kas vyksta...{{pargraphStart}}PASIRAŠO: KURATORIUS (PROJEKTAS M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Mes buvome pasiruošę"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Kodėl čia?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. Neteisingas klausimas"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Tai pasibaigė"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Kitą istorijos dalį sužinosite įveikę įprastą sudėtingumo lygį."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Kitą istorijos dalį sužinosite įveikę pasunkintą sudėtingumo lygį."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Paskutinę istorijos dalį sužinosite įveikę brutalų sudėtingumo lygį."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Kita istorija"
+
+msgid "preBattle/leave"
+msgstr "Išeiti iš mūšio"
+
+msgid "preBattle/searching"
+msgstr "IEŠKOMA SĄJUNGININKŲ..."
+
+msgid "preBattle/tip"
+msgstr "Per ilgai ieškoma kovinio būrio? Pabandykite pakeisti sudėtingumo lygį."
+
+msgid "preBattle/uppercase/leave"
+msgstr "IŠEITI IŠ MŪŠIO"
+
+msgid "promoWindow/header"
+msgstr "ŽAISTI PASKUTINĮ MŪŠĮ"
+
+msgid "promoWindow/subheader"
+msgstr "Pažinkite naują PvE žaidimo režimo Paskutinis mūšis skyrių nuo {dateRange}.\nUždirbkite renginio {cream_open}3D elementų{cream_close}, eksperimentinės įrangos ir ypatingų prizų."
+
+msgid "questCard/allCompleted"
+msgstr "Visos kasdienės misijos įvykdytos"
+
+msgid "questCard/completed"
+msgstr "Kasdienė misija įvykdyta.\nSugrįžkite rytoj."
+
+msgid "reward/rest"
+msgstr "Ir dar %(count)s"
+
+msgid "rewardPath/about"
+msgstr "APIE UŽDUOTIS"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Sužinokite daugiau apie renginio seką."
+
+msgid "rewardPath/boostTitle"
+msgstr "Vykdykite seką greičiau ir uždirbkite daugiau duomenų {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Peržiūrėti parduotuvėje"
+
+msgid "rewardPath/completed"
+msgstr "Už duomenis gauti visi apdovanojimai"
+
+msgid "rewardPath/completedTitle"
+msgstr "Apsilankykite parduotuvėje, kur yra unikalių teminių papuošimų"
+
+msgid "rewardPath/intro"
+msgstr "ĮŽANGA"
+
+msgid "rewardPath/introTooltip"
+msgstr "Peržiūrėkite įžanginį vaizdo įrašą."
+
+msgid "rewardPath/progress"
+msgstr "Gavote duomenų {artefactIndex} ETAPE: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "SEKA"
+
+msgid "rewardPathCard/completed"
+msgstr "Įvykdyta"
+
+msgid "rewardPathCard/name"
+msgstr "Apdovanojimų takas"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Renginio rinkiniai"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Atšaukti"
+
+msgid "squad/goToAnother/message"
+msgstr "Būrys bus išformuotas."
+
+msgid "squad/goToAnother/submit"
+msgstr "Išeiti"
+
+msgid "squad/goToAnother/title"
+msgstr "Išeiti iš renginio Paskutinis mūšis: Terra Nord?"
+
+msgid "squad/leave/cancel"
+msgstr "Atšaukti"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Būrys bus išformuotas."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Tikrai taip!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Renginys Paskutinis mūšis: Terra Nord pasibaigė"
+
+msgid "squad/leave/message"
+msgstr "Būrys bus išformuotas."
+
+msgid "squad/leave/submit"
+msgstr "Išeiti"
+
+msgid "squad/leave/title"
+msgstr "Išeiti iš renginio Paskutinis mūšis: Terra Nord būrio?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Pratęsti"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Jūs esate būryje ir pasiruošę mūšiui."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Jūs negalite palikti būrio!"
+
+msgid "stageReward/rewards/received"
+msgstr "Taip pat gauta:"
+
+msgid "stageReward/special/header"
+msgstr "BRUTALUS SUDĖTINGUMO LYGIS ĮVEIKTAS!"
+
+msgid "stageReward/special/subheader"
+msgstr "Gautas ypatingas apdovanojimas"
+
+msgid "stageReward/stage/header"
+msgstr "GAUTI APDOVANOJIMAI"
+
+msgid "stageReward/stage/subheader"
+msgstr "Paskutinis mūšis: įvykdytas {{number}} etapas"
+
+msgid "stageReward/stageFinal/header"
+msgstr "GAUTI VISI APDOVANOJIMAI"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Paskutinis mūšis: Paskutinis etapas įvykdytas"

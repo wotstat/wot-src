@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "categories/body/firepower"
+msgstr "Ένα σετ παραμέτρων που δηλώνουν την αποτελεσματικότητα στην καταστροφή εχθρικών οχημάτων. Το φίλτρο ρυθμίζει την προβολή/απόκρυψη του εξοπλισμού που έχει αυτό το σετ παραμέτρων."
+
+msgid "categories/body/mobility"
+msgstr "Ένα σετ παραμέτρων που δηλώνουν το πόσο γρήγορα το όχημα μπορεί να αλλάξει θέση στο πεδίο της μάχης. Το φίλτρο ρυθμίζει την προβολή/απόκρυψη του εξοπλισμού που έχει αυτό το σετ παραμέτρων."
+
+msgid "categories/body/stealth"
+msgstr "Ένα σετ παραμέτρων που δηλώνουν την δυνατότητα απόκρυψης του οχήματος και την ικανότητα να εντοπίζει εχθρικά οχήματα. Το φίλτρο ρυθμίζει την προβολή/απόκρυψη του εξοπλισμού που έχει αυτό το σετ παραμέτρων."
+
+msgid "categories/body/survivability"
+msgstr "Ένα σετ παραμέτρων που δηλώνουν την αντοχή του οχήματος έναντι της προσλαμβανόμενης φθοράς. Το φίλτρο ρυθμίζει την προβολή/απόκρυψη του εξοπλισμού που έχει αυτό το σετ παραμέτρων."
+
+msgid "categories/empty"
+msgstr "Κατηγορία 2ης Θέσης"
+
+msgid "categories/firepower"
+msgstr "Ισχύς Πυρός"
+
+msgid "categories/mobility"
+msgstr "Ευκινησία"
+
+msgid "categories/slotEffect/empty"
+msgstr "Δυνατότητα να ορίσετε κατηγορία για τη 2η θέση εξοπλισμού του συγκεκριμένου οχήματος."
+
+msgid "categories/slotEffect/firepower"
+msgstr "Κανονικός εξοπλισμός από την κατηγορία Ισχύς Πυρός θα είναι πιο αποτελεσματικός εάν τοποθετηθεί σε αυτήν τη θέση."
+
+msgid "categories/slotEffect/mobility"
+msgstr "Κανονικός εξοπλισμός από την κατηγορία Ευκινησία θα είναι πιο αποτελεσματικός εάν τοποθετηθεί σε αυτήν τη θέση."
+
+msgid "categories/slotEffect/stealth"
+msgstr "Κανονικός εξοπλισμός από την κατηγορία Ανίχνευση θα είναι πιο αποτελεσματικός εάν τοποθετηθεί σε αυτήν τη θέση."
+
+msgid "categories/slotEffect/survivability"
+msgstr "Κανονικός εξοπλισμός από την κατηγορία Αντοχή θα είναι πιο αποτελεσματικός εάν τοποθετηθεί σε αυτήν τη θέση."
+
+msgid "categories/stealth"
+msgstr "Ανίχνευση"
+
+msgid "categories/survivability"
+msgstr "Αντοχή"
+
+msgid "categories/universal"
+msgstr "Χωρίς Κατηγορία"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "Επιλέξτε μία κατάλληλη οδηγία από τη λίστα."
+
+msgid "compare/section/description/consumables"
+msgstr "Επιλέξτε ένα κατάλληλο αναλώσιμο από τη λίστα."
+
+msgid "compare/section/description/optDevices"
+msgstr "Επιλέξτε έναν κατάλληλο εξοπλισμό από τη λίστα."
+
+msgid "compare/section/title/battleBoosters"
+msgstr "Οδηγίες για το {name}"
+
+msgid "compare/section/title/consumables"
+msgstr "Αναλώσιμα για το {name}"
+
+msgid "compare/section/title/optDevices"
+msgstr "Εξοπλισμός για το {name}"
+
+msgid "dealPanel/autoRenew"
+msgstr "Αυτόματος ανεφοδιασμός"
+
+msgid "dealPanel/button/apply"
+msgstr "Τοποθέτηση"
+
+msgid "dealPanel/button/applyType"
+msgstr "Εφαρμογή στον Τύπο"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "Εφαρμογή στο Όχημα"
+
+msgid "dealPanel/button/cancel"
+msgstr "Ακύρωση"
+
+msgid "dealPanel/button/purchase"
+msgstr "Αγορά"
+
+msgid "dealPanel/fromStorage"
+msgstr "Από την Αποθήκη:"
+
+msgid "dealPanel/fromVehicle"
+msgstr "Τοποθετήθηκε:"
+
+msgid "dealPanel/repair"
+msgstr "Απαιτούνται επισκευές"
+
+msgid "dealPanel/toBePaid"
+msgstr "Σύνολο:"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "Στην Αποθήκη"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "Τοποθετήθηκε σε όχημα"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "Ανεπαρκείς πόροι για πραγματοποίηση αγοράς"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "Αγορά με credits"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "Αγορά με bonds"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "Θα τοποθετηθεί από την Αποθήκη"
+
+msgid "deconstructionDeviceView/available"
+msgstr "Διαθεσιμότητα:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "Άκυρο"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "Συνέχεια"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "Από την Αποθήκη:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "Από τα οχήματα:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "( %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s %(red_Open)sαπαιτούνται ακόμη για αναβάθμιση%(red_Close)s )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "Θα λάβετε:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "ΕΝΕΡΓΟ ΟΧΗΜΑ"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "ΣΤΗΝ ΑΠΟΘΗΚΗ: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "ΣΤΑ ΟΧΗΜΑΤΑ: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "Επιλέξτε τα στοιχεία του εξοπλισμού που θέλετε να αποσυναρμολογήσετε σε %(whiteSpanish_Open)scomponents%(whiteSpanish_Close)s %(icon)s. Τα components που θα αποκτήσετε μπορείτε να τα χρησιμοποιήσετε για αναβάθμιση Πειραματικού Εξοπλισμού."
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s Για να αποκτήσετε περισσότερα components, αποσυναρμολογήστε Πειραματικό Εξοπλισμό που δεν χρησιμοποιείτε."
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "ΠΑΓΚΟΣ ΕΡΓΑΣΙΑΣ"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "Όχι αρκετά components για αναβάθμιση του εξοπλισμού\n%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "Για να συνεχίσετε, αποσυναρμολογήστε εξοπλισμό που δεν χρησιμοποιείτε σε components."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "Για αν συνεχίσετε, αποκτήστε τα απαιτούμενα components."
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "Ακύρωση Αλλαγών"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "Άκυρο"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "Ακύρωση"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "Ακύρωση"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "Ακύρωση Αλλαγών"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "Αποθήκευση"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "Αγορά"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "Αγορά και Τοποθέτηση"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "Τοποθέτηση"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "Μπορείτε να αποσυνδέσετε τον εξοπλισμό με κόστος %(price)s και να τον στείλετε στην Αποθήκη, ή μπορείτε απλώς να τον καταστρέψετε."
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "Μπορείτε να αποσυνδέσετε τον εξοπλισμό με κόστος %(price)s ή {whiteSpanish_Open}δωρεάν{whiteSpanish_Close} εάν έχετε WoT Plus,\nγια να τον στείλετε στην Αποθήκη ή να τον καταστρέψετε."
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "Μπορείτε να αποσυνδέσετε τον εξοπλισμό με κόστος %(price)s ή χρησιμοποιώντας %(demountKit)s ή {whiteSpanish_Open}δωρεάν{whiteSpanish_Close} εάν έχετε WoT Plus,\nγια να τον στείλετε στην Αποθήκη ή να τον καταστρέψετε."
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "Μπορείτε να αποσυνδέσετε τον εξοπλισμό {whiteSpanish_Open}δωρεάν{whiteSpanish_Close} εάν έχετε WoT Plus, για να τον στείλετε στην Αποθήκη ή να τον καταστρέψετε."
+
+msgid "dialogs/confirm/demount/items"
+msgstr "Μπορείτε να αποσυνδέσετε τον εξοπλισμό και να τον στείλετε στην Αποθήκη."
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "ΔΕΝ ΘΑ ΛΕΙΤΟΥΡΓΗΣΕΙ"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "οδηγία"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "Όταν αγοράσετε αυτήν την Αμφίδρομη Τροποποίηση, η άλλη θα ακυρωθεί."
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "αναλώσιμο"
+
+msgid "dialogs/confirm/item/module"
+msgstr "εξάρτημα"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "εξοπλισμός"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "Αμφίδρομη Τροποποίηση"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "οδηγίες"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "αναλώσιμα"
+
+msgid "dialogs/confirm/items/module"
+msgstr "εξαρτήματα"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "εξοπλισμός"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " και "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "Αποθήκευση αλλαγών στις θέσεις των οδηγιών?"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "Αποθήκευση αλλαγών στις θέσεις των αναλώσιμων?"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "Αποθήκευση αλλαγών στις θέσεις του εξοπλισμού?"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "Αγορά του στοιχείου {type} %(name)s?"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "Αγορά και τοποθέτηση του στοιχείου {type} %(name)s?"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "Τοποθέτηση του στοιχείου {type} %(name)s?"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "Ενεργοποίηση του στοιχείου {type} %(name)s για όλα τα %(vehicle)s?"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "Αγορά των στοιχείων {type}?"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "Αγορά και τοποθέτηση των στοιχείων {type}?"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "Τοποθέτηση των στοιχείων {type}?"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "Ενεργοποίηση του στοιχείου {type} για όλα τα %(vehicle)s?"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "Αντιαρματικά"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "Α/Κ Πυροβόλα"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "Βαρέα Άρματα"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "Ελαφρά Άρματα"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "Μέσα Άρματα"
+
+msgid "dialogs/confirm/warning"
+msgstr "Προσοχή! Ο εξοπλισμός %(devices)s δεν έχει τοποθετηθεί. Η οδηγία %(doesNotWork)s."
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "Προσοχή! Μετά την αποσυναρμολόγηση, δεν θα έχετε στην κατοχή σας Πειραματικό Εξοπλισμό!"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "Άκυρο"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "Αποσυναρμολόγηση"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "Αποσυναρμολόγηση"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "Συνολικά θα λάβετε:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "Θα λάβετε από 1 τεμάχιο:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "Αποσυναρμολόγηση του εξοπλισμού\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "Αποσυναρμολόγηση του εξοπλισμού\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "Μετά την αποσυναρμολόγηση, δεν θα μπορείτε να ανακτήσετε ή να αγοράσετε τον συγκεκριμένο εξοπλισμό."
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "Άκυρο"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "Αποσυναρμολόγηση"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "Αποσυναρμολόγηση του επιλεγμένου εξοπλισμού σε components?"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "Αποσυναρμολόγηση του επιλεγμένου εξοπλισμού και αναβάθμιση του στοιχείου\n%(deviceName)s?"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "Θα αποσυναρμολογηθούν από την Αποθήκη σας: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "Θα αποσυναρμολογηθούν από τα οχήματά σας: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "Από την αποσυναρμολόγηση θα λάβετε: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "Συνολικά θα λάβετε:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "Κόστος αναβάθμισης:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "Προσοχή! Μετά την αποσυναρμολόγηση, δεν θα έχετε στην κατοχή σας Πειραματικό Εξοπλισμό!"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "Προσοχή! Θα αποσυναρμολογηθεί Πειραματικός Εξοπλισμός από τα οχήματά σας."
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "Ανταλλαγή"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "εξοπλισμός"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "Απαιτούνται %(credits)s ακόμη για αναβάθμιση του εξοπλισμού %(name)s"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "εξοπλισμός"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "Απαιτούνται %(credits)s ακόμη για την αναβάθμιση του εξοπλισμού"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "Αδύνατη η αναβάθμιση του εξοπλισμού. Πρέπει να ανταλλάξετε %(gold)s για credits."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "Όχι αρκετά credits για την αναβάθμιση του εξοπλισμού."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "Δεν απαιτείται ανταλλαγή"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "Δεν έχετε Πειραματικό Εξοπλισμό για να τον αποσυναρμολογήσετε."
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "Για να αποκτήσετε περισσότερα components, αποσυναρμολογήστε Πειραματικό Εξοπλισμό."
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "Αναβάθμιση του εξοπλισμού\n%(name)s?"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "Απαιτούνται: %(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "Κόστος:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "την αγορά"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "την αγορά"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "Ανταλλαγή"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "Αναλογία ανταλλαγής: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "Απαιτούνται ακόμη %(credits)s για την Άμεση Συντήρηση"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "οδηγία"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "αναλώσιμο"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "εξάρτημα"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "εξοπλισμός"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "Αμφίδρομη Τροποποίηση"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "Απαιτούνται ακόμη %(credits)s για {action} του στοιχείου {type} %(name)s"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "οδηγίες"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "αναλώσιμα"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "εξαρτήματα"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "εξοπλισμός"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "Απαιτούνται ακόμη %(credits)s για {action} των στοιχείων {type}"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "Απαιτούνται %(credits)s ακόμη για τις επισκευές"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "Αδύνατη η αγορά: η ανταλλαγή απέτυχε. Για την ανταλλαγή απαιτούνται επιπλέον %(gold)s."
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "την αγορά"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "την τροποποίηση"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "Δεν απαιτείται ανταλλαγή—Έχετε αρκετά credits."
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "Αρκετά credits για {action}"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "Απαιτούνται %(credits)s ακόμη για τον ανεφοδιασμό πυρομαχικών"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "Αυτόματη Επισκευή"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "Επισκευή"
+
+msgid "dialogs/needRepair/durability"
+msgstr "Αντοχή:"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s%"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "Το όχημα επισκευάστηκε αυτόματα και δωρεάν"
+
+msgid "dialogs/needRepair/price"
+msgstr "Κόστος επισκευών:"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "Ανεπαρκείς πόροι για επισκευές"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "Θετικόν!"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "Επισκευές δεν είναι απαραίτητες"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "Ανεφοδιασμός"
+
+msgid "dialogs/refillShells/price"
+msgstr "Κόστος ανεφοδιασμού:"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "Ανεφοδιασμός πυρομαχικών?"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "Αποθήκευση αλλαγών στα πυρομαχικά?"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "Σημείωση: Πρόκειται να πουλήσετε Πειραματικό Εξοπλισμό."
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "Σημείωση: Μετά την πώληση, δεν θα μπορείτε να ανακτήσετε ή να αγοράσετε τον συγκεκριμένο εξοπλισμό."
+
+msgid "dialogs/sell/button/cancel"
+msgstr "Άκυρο"
+
+msgid "dialogs/sell/button/sell"
+msgstr "Πώληση"
+
+msgid "dialogs/sell/header"
+msgstr "Πώληση του εξοπλισμού:\n%(equipmentName)s?"
+
+msgid "dialogs/sell/text"
+msgstr "Τιμή πώλησης για 1 τεμάχιο:"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "Όχι αρκετοί πόροι για αποσύνδεση."
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "Προτάσεις μη διαθέσιμες για αυτό το όχημα"
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "Αδύνατη η τοποθέτηση."
+
+msgid "easyTankEquipView/applied"
+msgstr "Εφαρμόστηκε"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "Αναβαθμισμένα"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "Βελτιωμένος"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "Κανονικός"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "ΑΝΑΛΩΣΙΜΑ"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "Όχι αρκετές κλίνες στον Στρατώνα για μεταφορά μελών πληρώματος εξαιτίας των αλλαγών. Προσθέστε κλίνες."
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "x{{count}}"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "Εκπαιδευμένο πλήρωμα"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "Νέο πλήρωμα"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "{{count}}\nνέο μέλος πληρώματος θα στρατολογηθεί"
+msgstr[1] "{{count}}\nνέα μέλη πληρώματος θα στρατολογηθούν"
+msgstr[2] "{{count}}\nνέα μέλη πληρώματος θα στρατολογηθούν"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "ΠΛΗΡΩΜΑ"
+
+msgid "easyTankEquipView/discount"
+msgstr "-{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "Αναβαθμισμένος"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "Κανονικός"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "ΕΞΟΠΛΙΣΜΟΣ"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "Αναβαθμισμένα"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "Κανονικός"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "ΠΥΡΟΜΑΧΙΚΑ"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "Έχετε ήδη μία τοποθετημένη τεχνοτροπία"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "{{battlesCount}} μάχες για {{price}}"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "ΠΡΟΕΠΙΛΟΓΗ"
+
+msgid "easyTankEquipView/title"
+msgstr "ΑΜΕΣΗ ΣΥΝΤΗΡΗΣΗ"
+
+msgid "effects/name"
+msgstr "Εφέ"
+
+msgid "effects/template"
+msgstr "%(icon)s %(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "Χρόνος επαναφοράς: %(cooldown)s&nbsp;sec."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "Αποκτήστε Components"
+
+msgid "filters/shown"
+msgstr "Προβολή: "
+
+msgid "hints/dragAndDrop/section"
+msgstr "ΣΥΡΑΤΕ ΜΕ ΤΟ ΠΟΝΤΙΚΙ\nΤΟΝ ΕΞΟΠΛΙΣΜΟ"
+
+msgid "hints/filters/specialization"
+msgstr "ΠΡΟΣΘΕΤΟ\nΜΠΟΝΟΥΣ ΚΑΤΗΓΟΡΙΑΣ"
+
+msgid "hints/tabs/equipment"
+msgstr "ΝΕΟΣ ΤΥΠΟΣ\nΕΞΟΠΛΙΣΜΟΥ"
+
+msgid "introduction/currency/deluxe"
+msgstr "bonds"
+
+msgid "introduction/currency/modernized"
+msgstr "components"
+
+msgid "introduction/message/deluxe"
+msgstr "Ο εξοπλισμός αυτού του τύπου είναι διαθέσιμος μόνο για %(currencyName)s (%(currencyIcon)s). Μπορείτε επίσης να κερδίσετε αυτόν τον τύπο εξοπλισμού ως έπαθλο από συγκεκριμένα επιτεύγματα ή από ειδικές διοργανώσεις του παιχνιδιού."
+
+msgid "introduction/message/modernized"
+msgstr "Ένας ειδικός τύπος εξοπλισμού με 3 Επίπεδα Αναβάθμισης. Δεν μπορείτε να πουλήσετε ή να καταστρέψετε εξοπλισμό αυτού του τύπου, αλλά μπορείτε να τον αποσυναρμολογήσετε σε %(currencyName)s (%(currencyIcon)s). Τα components που θα λάβετε μπορούν να χρησιμοποιηθούν για την αναβάθμιση οποιουδήποτε στοιχείου Πειραματικού Εξοπλισμού. Τον συγκεκριμένο τύπο εξοπλισμού θα τον κερδίσετε από αποστολές ή σε ειδικές διοργανώσεις του παιχνιδιού."
+
+msgid "introduction/message/trophy"
+msgstr "Ένας ειδικός τύπος εξοπλισμού, ο οποίος έχει τα ίδια χαρακτηριστικά με τον κανονικό εξοπλισμό, αλλά που μπορεί να αναβαθμιστεί πληρώνοντας με credits. Δεν μπορείτε να αγοράσετε Αναβαθμίσιμο Εξοπλισμό μέσα στο παιχνίδι, αλλά μπορείτε να τον κερδίσετε ως έπαθλο από συγκεκριμένες διοργανώσεις του παιχνιδιού."
+
+msgid "introduction/showButton"
+msgstr "Προβολή Εξοπλισμού"
+
+msgid "introduction/slide/1/description"
+msgstr "Προστέθηκε νέος εξοπλισμός. Επίσης, τα στοιχεία εξοπλισμού %(repairBox)s, %(wetAmmo)s, %(CO2Cistern)s και %(cycloneFilter)s συνδυάστηκαν στο στοιχείο εξοπλισμού %(changedConfiguration)s. Το στοιχείο εξοπλισμού %(forcedChassis)s αντικαταστάθηκε από το στοιχείο %(forcedMetal)s. Όλα τα παλιά μπόνους παραμένουν ενώ προστέθηκαν και νέα μπόνους."
+
+msgid "introduction/slide/1/title"
+msgstr "ΝΕΟΣ ΕΞΟΠΛΙΣΜΟΣ"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr "—Ισχύς Πυρός"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr "—Ευκινησία"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr "—Ανίχνευση"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr "—Αντοχή"
+
+msgid "introduction/slide/2/description"
+msgstr "Εάν ένα στοιχείο εξοπλισμού τοποθετηθεί σε θέση της ίδια κατηγορίας θα είναι πιο αποτελεσματικό. Σε άλλη περίπτωση, θα δίνει μόνο το βασικό μπόνους."
+
+msgid "introduction/slide/2/subtitle"
+msgstr "ΑΝΤΙΣΤΟΙΧΙΑ ΚΑΤΗΓΟΡΙΩΝ"
+
+msgid "introduction/slide/2/title"
+msgstr "ΚΑΤΗΓΟΡΙΕΣ ΕΞΟΠΛΙΣΜΟΥ"
+
+msgid "introduction/slide/3/description/left"
+msgstr "Το κόστος των περισσοτέρων στοιχείων εξοπλισμού δεν θα υπερβαίνει τα 50.000 credits για οχήματα των Βαθμίδων II–IV, τα 300.000 credits για οχήματα των Βαθμίδων V–VII και τα 600.000 credits για οχήματα των Βαθμίδων VIII–XI."
+
+msgid "introduction/slide/3/description/right"
+msgstr "Μερικά στοιχεία του νέου εξοπλισμού έχουν 3 κλάσεις, οι οποίες δίνουν το ίδιο μπόνους. Όσο μεγαλύτερη είναι η κλάση τόσο μεγαλύτερο γίνεται το κόστος αγοράς του εξοπλισμού. Κάθε κλάση εξοπλισμού αντιστοιχεί σε οχήματα συγκεκριμένων βαθμίδων."
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "ΑΛΛΑΓΕΣ ΣΤΟΝ ΕΞΟΠΛΙΣΜΟ"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "ΝΕΟΣ ΕΞΟΠΛΙΣΜΟΣ"
+
+msgid "introduction/slide/3/title"
+msgstr "ΚΟΣΤΟΣ ΕΞΟΠΛΙΣΜΟΥ"
+
+msgid "introduction/slide/4/description"
+msgstr "Δεν υπάρχει διαθέσιμος εξοπλισμός για οχήματα της Βαθμίδας I. Μπορείτε να τοποθετήσετε μόνο 1 στοιχείο εξοπλισμού σε οχήματα της Βαθμίδας II και 2 στοιχεία εξοπλισμού σε οχήματα της Βαθμίδας III, ενώ στα οχήματα των Βαθμίδων IV–XI μπορείτε να τοποθετήσετε 3 στοιχεία εξοπλισμού. Ο εξοπλισμός που ήταν τοποθετημένος σε θέσεις που αφαιρέθηκαν, έχει σταλεί στην Αποθήκη."
+
+msgid "introduction/slide/4/title"
+msgstr "ΘΕΣΕΙΣ ΕΞΟΠΛΙΣΜΟΥ"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "Γέμισμα Δεξαμενών με CO2"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "Τροποποιημένη Διαμόρφωση"
+
+msgid "introduction/slide/confirm"
+msgstr "Θετικόν!"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "Κυκλωνικό Φίλτρο"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "Ενισχυμένη Ανάρτηση"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "Βελτιωμένη Σκλήρυνση"
+
+msgid "introduction/slide/repairBox"
+msgstr "Εργαλειοθήκη"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "«Υγρά» Πυρομαχικά"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "Βελτιωμένος Εξοπλισμός"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "Πειραματικός Εξοπλισμός"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "Αναβαθμίσιμος Εξοπλισμός"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "Δεν έχετε κατάλληλο Πειραματικό Εξοπλισμό"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "Δεν έχετε κατάλληλο Αναβαθμίσιμο Εξοπλισμό"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "στην καθυστέρηση με την οποία ο Αρχηγός αντιλαμβάνεται ότι το όχημά του έχει εντοπιστεί από τους αντιπάλους"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "στην πρόσθετη διάρκεια του σοκ εάν το όχημα είναι ήδη σε σοκ"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "στον συντελεστή κάλυψης εχθρικών οχημάτων πίσω από φυλλώματα (και σε κινούμενα και σε ακίνητα)"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "στην αύξηση της ταχύτητας για όλους τους τύπους βλημάτων"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "στην απώλεια της ταχύτητας γέμισης όταν δεχθούν φθορά τα σχετικά εξαρτήματα"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "στην απώλεια της ισχύος του κινητήρα όταν δεχθούν φθορά τα σχετικά εξαρτήματα"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "στους συντελεστές κάλυψης ενός ακίνητου ή κινούμενου οχήματος"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "στους συντελεστές κάλυψης κινούμενου ή ακίνητου οχήματος (το μέγεθος της επίδρασης εξαρτάται από τον τύπο του οχήματος)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "στη φθορά του σκάφους κατά τη διάρκεια πρόσκρουσης"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "στο εύρος ορατότητας (μέχρι και τα 445 m) — Η αύξηση της τιμής της παραμέτρου πάνω από τα 445 m κάνει πιο αποτελεσματικό τον εντοπισμό των αντιπάλων"
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "στη προσλαμβανόμενη φθορά σε περίπτωση σύγκρουσης"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "στη διασπορά των πυρών κατά τη διάρκεια κίνησης ή περιστροφής του σκάφους, περιστροφής του πυροβόλου, καθώς και μετά τη ρίψη πυρών"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "στην προσλαμβανόμενη φθορά από βλήματα HE"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "στη διάρκεια που το όχημά σας παραμένει ορατό"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "στη διατήρηση της ταχύτητας\nσε οποιοδήποτε τύπο εδάφους"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος, 3 sec αφότου σταματήσει"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος\n1,5 sec αφότου σταματήσει"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος, 3 sec αφότου σταματήσει (το μέγεθος της επίδρασης εξαρτάται από τον τύπο του οχήματος)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος 1,5 sec αφότου σταματήσει (το μέγεθος της επίδρασης εξαρτάται από τον τύπο του οχήματος)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "στο εύρος ορατότητας ενός ακίνητου οχήματος, 3 sec αφότου σταματήσει (μέχρι και τα 445 m) — Η αύξηση της τιμής της παραμέτρου πάνω από τα 445 m κάνει πιο αποτελεσματικό τον εντοπισμό των αντιπάλων."
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "στο εύρος ορατότητας ενός ακίνητου οχήματος 1,5 sec αφότου σταματήσει (μέχρι και τα 445 m) — Η αύξηση της τιμής της παραμέτρου πάνω από τα 445 m κάνει πιο αποτελεσματικό τον εντοπισμό των αντιπάλων."
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "στα hit points του οχήματος (με στρογγυλοποίηση)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "στην ταχύτητα περιστροφής του πυργίσκου ή του πυροβόλου"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "στην καθυστέρηση με την οποία ο Αρχηγός αντιλαμβάνεται ότι το όχημά του έχει εντοπιστεί από τους αντιπάλους"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "στην πρόσθετη διάρκεια του σοκ εάν το όχημα είναι ήδη σε σοκ"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "στους συντελεστές κάλυψης κινούμενων ή ακίνητων εχθρικών οχημάτων όταν βρίσκονται πίσω από φυλλώματα"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "στην αύξηση της ταχύτητας για όλους τους τύπους βλημάτων"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "στην απώλεια της ταχύτητας γέμισης όταν δεχθούν φθορά τα σχετικά εξαρτήματα"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "στην απώλεια της ισχύος του κινητήρα όταν δεχθούν φθορά τα σχετικά εξαρτήματα"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου ή κινούμενου οχήματος"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "στους συντελεστές κάλυψης κινούμενου ή ακίνητου οχήματος (το μέγεθος της επίδρασης εξαρτάται από τον τύπο του οχήματος)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "στη φθορά του σκάφους κατά τη διάρκεια πρόσκρουσης"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "στο εύρος ορατότητας (μέχρι και τα 445 m). Η αύξηση της τιμής της παραμέτρου πάνω από τα 445 m κάνει πιο αποτελεσματικό τον εντοπισμό των αντιπάλων."
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "στη προσλαμβανόμενη φθορά σε περίπτωση σύγκρουσης"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "στη διασπορά των πυρών κατά τη διάρκεια κίνησης ή περιστροφής του σκάφους, περιστροφής του πυροβόλου, καθώς και μετά τη ρίψη πυρών"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "στην προσλαμβανόμενη φθορά από βλήματα HE"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "στη διάρκεια που το όχημά σας παραμένει ορατό"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "στη διατήρηση της ταχύτητας\nσε οποιοδήποτε τύπο εδάφους"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος, 3 sec αφότου σταματήσει"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος\n1,5 sec αφότου σταματήσει"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος, 3 sec αφότου σταματήσει (το μέγεθος της επίδρασης εξαρτάται από τον τύπο του οχήματος)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος, 1.5 sec αφότου σταματήσει (το μέγεθος της επίδρασης εξαρτάται από τον τύπο του οχήματος)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "στο εύρος ορατότητας ενός ακίνητου οχήματος, 3 sec αφότου σταματήσει (μέχρι και τα 445 m). Η αύξηση της τιμής της παραμέτρου πάνω από τα 445 m κάνει πιο αποτελεσματικό τον εντοπισμό των αντιπάλων."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "στο εύρος ορατότητας ενός ακίνητου οχήματος 1,5 sec αφότου σταματήσει (μέχρι και τα 445 m). Η αύξηση της τιμής της παραμέτρου πάνω από τα 445 m κάνει πιο αποτελεσματικό τον εντοπισμό των αντιπάλων."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "στα hit points του οχήματος (με στρογγυλοποίηση)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "στην ταχύτητα περιστροφής του πυργίσκου ή του πυροβόλου"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "καθυστέρηση πριν την ενεργοποίηση του\nΗχητικού Εντοπισμού"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "στην καθυστέρηση ειδοποίησης ότι το όχημα έχει εντοπιστεί"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "στην ταχύτητα ψύξης του πυροβόλου"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "στην προστασία του πληρώματος από τραυματισμούς"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "στο μπόνους επιδόσεων"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "στην πρόσθετη διάρκεια του σοκ"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "στη διάρκεια του σοκ"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "στην ελάχιστη πιθανή φθορά\nκαι διατρητικότητα"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "στην μέγιστη πιθανή φθορά\nκαι διατρητικότητα"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "στη φθορά που προκαλεί σε εμβολισμό"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "καθυστέρηση εντοπισμού κρίσιμων φθορών\nτου οχήματος-στόχου"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "στην κάλυψη εχθρικών οχημάτων πίσω από φυλλώματα"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "στον συντελεστή κάλυψης κινούμενων εχθρικών οχημάτων"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "στην πιθανότητα κρίσιμων χτυπημάτων\nσε εξαρτήματα και πλήρωμα"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "στον χρόνο επαναφοράς των αναλώσιμων"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "στην ταχύτητα πυρόσβεσης"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "στους συντελεστές κάλυψης πίσω από φυλλώματα"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "στην αποκατάσταση HP από το Κουτί Επισκευών"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "στη διατήρηση της ταχύτητας\nσε μαλακό έδαφος"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "στο μέγιστο εύρος προβολής\nμε χαλασμένες συσκευές διόπτευσης"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "στη μέγιστη πιθανή διατρητικότητα"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "στον χρόνο μετάδοσης\nτων εχθρικών θέσεων\nμετά την καταστροφή του οχήματος"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "στην προστασία του Ασυρματιστή\nαπό τραυματισμούς"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "στην ταχύτητα των βλημάτων"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "στη διατήρηση της ταχύτητας\nσε λασπώδες έδαφος"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "στην αρνητική επίδραση\nτου σοκ"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "στην προσλαμβανόμενη φθορά από τις ερπύστριες"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "στην ταχύτητα επισκευής της ανάρτησης"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "στην απώλεια της ταχύτητας γέμισης"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "στην απώλεια της ισχύος του κινητήρα"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "στην ταχύτητα περιστροφής του σκάφους"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "στην αντοχή των εσωτερικών εξαρτημάτων"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "στην αντοχή πυρομαχικών"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "στην ταχύτητα οπισθοπορείας"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "στον συντελεστή κάλυψης"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "στους συντελεστές κάλυψης"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "στη φθορά από πρόσκρουση"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "στην ταχύτητα επισκευής της ανάρτησης"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "στην αντοχή της ανάρτησης"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "στο εύρος ορατότητας"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "στη διάρκεια που ένα εχθρικό όχημα\nπαραμένει ορατό σε εσάς"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "στην ισχύ του κινητήρα"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "στη φθορά από πρόσκρουση"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "στην πιθανότητα φωτιάς στον κινητήρα"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "στη μέγιστη ταχύτητα"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "στην πιθανότητα κρίσιμης φθοράς\nστις δεξαμενές καυσίμου"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "στην ταχύτητα στόχευσης"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "στον χρόνο γέμισης"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "στην διασπορά των πυρών κατά την κίνηση ή περιστροφή του οχήματος"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "στο μέγεθος του κύκλου στόχευσης μετά από βολή"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "στη διασπορά των πυρών εν κινήσει"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "στη διασπορά των πυρών κατά την περιστροφή του σκάφους"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "στη διασπορά των πυρών κατά την περιστροφή του πυροβόλου"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "στη διασπορά των πυρών χαλασμένου πυροβόλου"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "στο μέγεθος του κύκλου στόχευσης"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "στην προσλαμβανόμενη φθορά από βλήματα HE"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "στον συντελεστή κάλυψης μετά από βολή"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "στη διάρκεια που το όχημά σας παραμένει ορατό"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "στην προσλαμβανόμενη φθορά\nαπό εμβολισμό"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "στη φθορά που λαμβάνει από εμβολισμό"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "στην ταχύτητα αλλαγής βλημάτων\nσε ήδη γεμισμένο πυροβόλο"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "στην ταχύτητα επισκευών"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "στη διατήρηση της ταχύτητας σε κάθε τύπο εδάφους"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "στο εύρος ορατότητας ακίνητου οχήματος"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "στο εύρος ορατότητας ακίνητου οχήματος"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "στα hit points του οχήματος"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "στην ταχύτητα περιστροφής του πυργίσκου ή του πυροβόλου"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "στην ταχύτητα περιστροφής του πυργίσκου"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "στην ταχύτητα στροφής τροχήλατου οχήματος"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "στην ποινή από τραυματισμό μέλους πληρώματος\nεκτός του Αρχηγού"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "καθυστέρηση πριν την ενεργοποίηση του\nΗχητικού Εντοπισμού"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "καθυστέρηση εντοπισμού κρίσιμων φθορών\nτου οχήματος-στόχου"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "διάρκεια εντοπισμού αντιπάλων\nμετά την καταστροφή του οχήματος"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "στην προσλαμβανόμενη φθορά από βλήματα HE"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "στην διατρητικότητα των βλημάτων HE"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "στην ταχύτητα των βλημάτων HE"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "στη χωρητικότητα των πυρομαχικών"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "στη φθορά όλων των βλημάτων"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "στην ταχύτητα για όλους τους τύπους βλημάτων"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "καθυστέρηση πριν την ενεργοποίηση του\nΗχητικού Εντοπισμού"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "στη φθορά των τυπικών βλημάτων"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "στην καθυστέρηση ειδοποίησης ότι το όχημα έχει εντοπιστεί"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "στην ταχύτητα ψύξης του πυροβόλου"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "στην προστασία του πληρώματος από τραυματισμούς"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "στο μπόνους επιδόσεων"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "στην πρόσθετη διάρκεια του σοκ"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "στη διάρκεια του σοκ"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "στην ελάχιστη πιθανή φθορά και διατρητικότητα"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "στην μέγιστη πιθανή φθορά\nκαι διατρητικότητα"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "στη φθορά που προκαλεί σε εμβολισμό"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "καθυστέρηση εντοπισμού κρίσιμων φθορών\nτου οχήματος-στόχου"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "στον συντελεστή κάλυψης εχθρικών οχημάτων πίσω από φυλλώματα"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "στον συντελεστή κάλυψης κινούμενων εχθρικών οχημάτων"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "στην πιθανότητα κρίσιμων χτυπημάτων\nσε εξαρτήματα και πλήρωμα"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "στην αντοχή του κινητήρα"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "στον χρόνο επαναφοράς των αναλώσιμων"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "στην ταχύτητα πυρόσβεσης"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "στους συντελεστές κάλυψης πίσω από φυλλώματα"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "στην αντοχή των δεξαμενών καυσίμων"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "στη γωνία καθόδου του πυροβόλου"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "στη γωνία ανόδου του πυροβόλου"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "στη σταθεροποίηση του πυροβόλου"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "στα όρια περιστροφής του πυροβόλου"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "στην αποκατάσταση HP από το Κουτί Επισκευών"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "στην ταχύτητα ανόδου του σκάφους"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "στη διατήρηση της ταχύτητας\nσε μαλακό έδαφος"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "στη φθορά όλων των βλημάτων εκτός HE"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "στο μέγιστο εύρος ορατότητας με\nχαλασμένες συσκευές διόπτευσης"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "στη μέγιστη πιθανή διατρητικότητα"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "στον χρόνο μετάδοσης\nτων εχθρικών θέσεων\nμετά την καταστροφή του οχήματος"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "στην προστασία του Ασυρματιστή\nαπό τραυματισμούς"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "στον χρόνο γέμισης εντός του γεμιστήρα"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "στον χρόνο γέμισης (σε Ομοβροντία)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "στον χρόνο γέμισης (σε Μονή Βολή)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "στη φθορά που προκαλούν τα βλήματα σε εχθρικά εξαρτήματα"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "στην ταχύτητα των βλημάτων"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "στη διατήρηση της ταχύτητας\nσε λασπώδες έδαφος"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "στη φθορά των ειδικών βλημάτων"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "στην ειδική διατρητικότητα των βλημάτων"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "στην ειδική ταχύτητα των βλημάτων"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "στη φθορά των τυπικών βλημάτων "
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "στην τυπική διατρητικότητα των βλημάτων"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "στην τυπική ταχύτητα των βλημάτων"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "στην αρνητική επίδραση του σοκ"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "στην προσλαμβανόμενη φθορά από τις ερπύστριες"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "στην ταχύτητα επισκευής της ανάρτησης"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "στα όρια περιστροφής του πυργίσκου"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "στην απώλεια της ταχύτητας γέμισης"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "στην απώλεια της ισχύος του κινητήρα"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "στην ταχύτητα περιστροφής του σκάφους"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "στην αντοχή των εσωτερικών εξαρτημάτων"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "στην αντοχή πυρομαχικών"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "στην ταχύτητα οπισθοπορείας"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "στον συντελεστή κάλυψης"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "στους συντελεστές κάλυψης"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "στη φθορά κατά την πρόσκρουση"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "στην ταχύτητα επισκευής της ανάρτησης"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "στην αντοχή της ανάρτησης"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "στο εύρος ορατότητας (μέχρι και τα 445 m)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "στη διάρκεια που ένα εχθρικό όχημα\nπαραμένει ορατό σε εσάς"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "στην ισχύ του κινητήρα"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "στη φθορά από πρόσκρουση"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "στην πιθανότητα φωτιάς στον κινητήρα"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "στη μέγιστη ταχύτητα"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "στην πιθανότητα κρίσιμης φθοράς\nστις δεξαμενές καυσίμου"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "στην ταχύτητα στόχευσης"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "στον χρόνο γέμισης"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "στην διασπορά των πυρών κατά την κίνηση ή περιστροφή του οχήματος"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "στο μέγεθος του κύκλου στόχευσης μετά από βολή"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "στη διασπορά των πυρών εν κινήσει"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "στη διασπορά των πυρών κατά την περιστροφή του σκάφους"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "στη διασπορά των πυρών κατά την περιστροφή του πυροβόλου"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "στη διασπορά των πυρών χαλασμένου πυροβόλου"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "στο μέγεθος του κύκλου στόχευσης"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "στην προσλαμβανόμενη φθορά από βλήματα HE"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "στον συντελεστή κάλυψης μετά από βολή"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "στη διάρκεια που το όχημά σας παραμένει ορατό"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "στην προσλαμβανόμενη φθορά\nαπό εμβολισμό"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "στη φθορά που λαμβάνει από εμβολισμό"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "στην ταχύτητα αλλαγής βλημάτων\nσε ήδη γεμισμένο πυροβόλο"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "στην ταχύτητα επισκευών"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "στην μέγιστη ταχύτητα και την ταχύτητα οπισθοπορείας"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "στη διατήρηση της ταχύτητας σε κάθε τύπο εδάφους"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "στο εύρος ορατότητας ακίνητου οχήματος (μέχρι και τα 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "στο εύρος ορατότητας ακίνητου οχήματος (μέχρι και τα 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "στα hit points του οχήματος"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "στην ταχύτητα περιστροφής του πυργίσκου ή του πυροβόλου"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "στην ταχύτητα περιστροφής του πυργίσκου"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "στην ταχύτητα στροφής τροχήλατου οχήματος"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "στην ποινή από τραυματισμό μέλους πληρώματος\nεκτός του Αρχηγού"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "στην καθυστέρηση ειδοποίησης ότι το όχημα έχει εντοπιστεί"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "στην προστασία του πληρώματος\nαπό τραυματισμούς"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "στο μπόνους επιδόσεων"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "στην πρόσθετη διάρκεια του σοκ"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "στη διάρκεια του σοκ"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "στη φθορά που προκαλεί σε εμβολισμό"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "καθυστέρηση εντοπισμού κρίσιμων φθορών\nτου οχήματος-στόχου"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "στον συντελεστή κάλυψης εχθρικών\nοχημάτων πίσω από φυλλώματα"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "στον συντελεστή κάλυψης κινούμενων\nεχθρικών οχημάτων"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "στην αποκατάσταση HP από το Κουτί Επισκευών"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "στον χρόνο γέμισης του γεμιστήρα"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "στη μέγιστη πιθανή διατρητικότητα"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "στην προστασία του Ασυρματιστή από τραυματισμούς"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "στην αύξηση της ταχύτητας για όλους τους τύπους βλημάτων"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "στη διασπορά των πυρών"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "στην ταχύτητα επισκευής της ανάρτησης"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "στη διασπορά των πυρών κατά την περιστροφή του πυροβόλου"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "στην απώλεια της ταχύτητας γέμισης"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "στην απώλεια ισχύος του κινητήρα\nλόγω φθοράς"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "στην ταχύτητα περιστροφής του οχήματος"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "στην αντοχή των εσωτερικών εξαρτημάτων"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "στην αντοχή πυρομαχικών"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "στην ταχύτητα οπισθοπορείας"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "στον συντελεστή κάλυψης"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "στη φθορά από πρόσκρουση"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "στην ταχύτητα επισκευής της ανάρτησης"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "στην αντοχή της ανάρτησης"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "στο εύρος ορατότητας"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "στη διάρκεια που ένα εχθρικό όχημα\nπαραμένει ορατό σε εσάς"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "στην ισχύ του κινητήρα"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "στη φθορά από πρόσκρουση"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "στην πιθανότητα φωτιάς στον κινητήρα"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "στη μέγιστη ταχύτητα"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "στην ταχύτητα στόχευσης"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "στον χρόνο γέμισης"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "στην διασπορά των πυρών κατά την κίνηση\nή περιστροφή του οχήματος"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "στο μέγεθος του κύκλου στόχευσης\nμετά από βολή"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "στη διασπορά των πυρών εν κινήσει"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "στη διασπορά των πυρών κατά την\nπεριστροφή του σκάφους"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "στη διασπορά των πυρών κατά την\nπεριστροφή του πυροβόλου "
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "στη διασπορά των πυρών χαλασμένου\nπυροβόλου"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "στο μέγεθος του κύκλου στόχευσης"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "στην προσλαμβανόμενη φθορά από βλήματα HE"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "στον συντελεστή κάλυψης μετά από βολή"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "στη διάρκεια που το όχημά σας παραμένει ορατό"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "στη φθορά που λαμβάνει από εμβολισμό"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "στην ταχύτητα αλλαγής βλημάτων"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "στην ταχύτητα επισκευών"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "στην διατήρηση της ταχύτητας"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "στον συντελεστή κάλυψης ενός\nακίνητου οχήματος"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "στον συντελεστή κάλυψης ενός\nακίνητου οχήματος"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "στο εύρος ορατότητας"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "στο εύρος ορατότητας"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "στα hit points του οχήματος"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "στην ταχύτητα περιστροφής του\nπυροβόλου"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "στην ταχύτητα περιστροφής του\nπυργίσκου"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "στην ποινή από τραυματισμό μέλους πληρώματος\nεκτός του Αρχηγού"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "στην καθυστέρηση ειδοποίησης ότι το όχημα έχει εντοπιστεί"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "στην προστασία του πληρώματος\nαπό τραυματισμούς"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "στο μπόνους επιδόσεων"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "στο μπόνους επιδόσεων"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "στην πρόσθετη διάρκεια του σοκ"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "στη διάρκεια του σοκ"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "στην ελάχιστη πιθανή φθορά\nκαι διατρητικότητα"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "στη φθορά που προκαλεί σε εμβολισμό"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "στον συντελεστή κάλυψης εχθρικών\nοχημάτων πίσω από φυλλώματα"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "στον συντελεστή κάλυψης κινούμενων\nεχθρικών οχημάτων"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "στην πιθανότητα κρίσιμων χτυπημάτων\nσε εξαρτήματα και πλήρωμα"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "στην ταχύτητα πυρόσβεσης"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "στην αποκατάσταση HP από το Κουτί Επισκευών"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "στον χρόνο γέμισης του γεμιστήρα"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "στους συντελεστές κάλυψης του οχήματος"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "στη διατήρηση της ταχύτητας\nσε μαλακό έδαφος"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "στη μέγιστη πιθανή διατρητικότητα"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "στο εύρος σήματος του οχήματος"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "στην προστασία του Ασυρματιστή από τραυματισμούς"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "στην αύξηση της ταχύτητας για όλους τους τύπους βλημάτων"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "στη διατήρηση της ταχύτητας\nσε λασπώδες έδαφος"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "στην ταχύτητα επισκευής της ανάρτησης"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "στο εύρος σήματος των συμπαικτών μέσα στο εύρος σήματος του οχήματος"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "στην απώλεια της ταχύτητας γέμισης"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "στην απώλεια ισχύος του κινητήρα\nλόγω φθοράς"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "στην ταχύτητα περιστροφής του οχήματος"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "στην αντοχή των εσωτερικών εξαρτημάτων"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "στην αντοχή πυρομαχικών"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "στην ταχύτητα οπισθοπορείας"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "στον συντελεστή κάλυψης"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "στη φθορά κατά την πρόσκρουση"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "στην ταχύτητα επισκευής της ανάρτησης"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "στην αντοχή της ανάρτησης"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "στο εύρος ορατότητας\n(μέχρι και τα 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "στη διάρκεια που ένα εχθρικό όχημα\nπαραμένει ορατό σε εσάς"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "στην ισχύ του κινητήρα"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "στη φθορά από πρόσκρουση"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "στην πιθανότητα φωτιάς στον κινητήρα"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "στη μέγιστη ταχύτητα"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "στην ταχύτητα στόχευσης"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "στον χρόνο γέμισης"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "στην διασπορά των πυρών κατά την\nκίνηση ή την περιστροφή του οχήματος"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "στο μέγεθος του κύκλου στόχευσης\nμετά από βολή"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "στη διασπορά των πυρών εν κινήσει"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "στη διασπορά των πυρών κατά την\nπεριστροφή του σκάφους"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "στη διασπορά των πυρών κατά την\nπεριστροφή του πυροβόλου"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "στη διασπορά των πυρών χαλασμένου\nπυροβόλου"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "στο μέγεθος του κύκλου στόχευσης"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "στην προσλαμβανόμενη φθορά από βλήματα HE"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "στον συντελεστή κάλυψης μετά από βολή"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "στη διάρκεια που το όχημά σας\nπαραμένει ορατό"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "στη φθορά που λαμβάνει από εμβολισμό"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "στην ταχύτητα αλλαγής βλημάτων"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "στην ταχύτητα επισκευών"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "στην διατήρηση της ταχύτητας"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "στον συντελεστή κάλυψης ενός ακίνητου οχήματος"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "στο εύρος ορατότητας ακίνητου οχήματος\n(μέχρι και τα 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "στο εύρος ορατότητας ακίνητου οχήματος\n(μέχρι και τα 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "στα hit points του οχήματος"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "στην ταχύτητα περιστροφής του\nπυροβόλου"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "στην ταχύτητα περιστροφής του πυργίσκου"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "στο κερδισμένο Crew Experience από τη μάχη"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "sec"
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "sec"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "sec"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "sec"
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "sec"
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "sec"
+
+msgid "popularLoadouts/common"
+msgstr "Δημοφιλής"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "Συχνές Επιλογές"
+
+msgid "popularLoadouts/legendary"
+msgstr "Θρυλικός"
+
+msgid "popularLoadouts/noData"
+msgstr "Δεν υπάρχουν δεδομένα"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "Δεν υπάρχουν δεδομένα"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)sΔημοφιλής Εξοπλισμός.%(whiteSpanish_Close)s Με βάση τα σετ εξοπλισμού που προτιμούν οι περισσότεροι παίκτες του World of Tanks"
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "Συλλογή Δεδομένων"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "Δεν υπάρχουν ακόμη δεδομένα για την τρέχουσα περίοδο των μαχών Επέλασης και χρησιμοποιούνται δεδομένα από την προηγούμενη περίοδο"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "Οι προτάσεις αφορούν τις %(whiteSpanish_Open)sΤυχαίες Μάχες%(whiteSpanish_Close)s και τις μάχες %(whiteSpanish_Open)sΕπέλασης%(whiteSpanish_Close)s"
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "Υπολογίζονται τα δεδομένα για όλους τους τύπους εξοπλισμού"
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "Πλεονεκτήματα WoT Plus"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "Ακριβή δεδομένα εξοπλισμού με βάση εκατομμύρια μάχες και το βέλτιστο αποτέλεσμα σε αυτές."
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "Οδηγός Εξοπλισμού"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sΘρυλικός Εξοπλισμός.%(whiteSpanish_Close)s Με βάση τον εξοπλισμό που προτιμούν οι παίκτες του επιπέδου Legend WTR"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "Σετ εξοπλισμού"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "Τα προτεινόμενα σετ εξοπλισμού επιλέγονται με βάση τα πιο δημοφιλή στοιχεία εξοπλισμού των παικτών παρόμοιας δυναμικής"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "Προβολή δεδομένων για το όχημα:"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "Δεδομένα εξοπλισμού μη διαθέσιμα"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "Το επιλεγμένο όχημα είναι ακατάλληλο για τις μάχες αυτές"
+
+msgid "section/battleAbilities"
+msgstr "ΕΦΕΔΡΕΙΕΣ"
+
+msgid "section/battleBoosters"
+msgstr "ΟΔΗΓΙΕΣ"
+
+msgid "section/consumables"
+msgstr "ΑΝΑΛΩΣΙΜΑ"
+
+msgid "section/modules"
+msgstr "ΕΞΑΡΤΗΜΑΤΑ"
+
+msgid "section/optDevices"
+msgstr "ΕΞΟΠΛΙΣΜΟΣ"
+
+msgid "section/shells"
+msgstr "ΠΥΡΟΜΑΧΙΚΑ"
+
+msgid "section/toggleCamouflage"
+msgstr "ΚΑΜΟΥΦΛΑΖ"
+
+msgid "section/toggleShells"
+msgstr "ΠΥΡΟΜΑΧΙΚΑ"
+
+msgid "shells/ammunitionFull"
+msgstr "Μέγιστος αριθμός βλημάτων"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "Ημιτελή πυρομαχικά"
+
+msgid "shells/autoFillOff"
+msgstr "Αυτόματος ανεφοδιασμός απενεργοποιημένος"
+
+msgid "shells/autofillOn"
+msgstr "Αυτόματος ανεφοδιασμός ενεργοποιημένος"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "Στην Αποθήκη:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "Στα Πυρομαχικά:"
+
+msgid "shells/shortSpecification/price"
+msgstr "Αγορά:"
+
+msgid "shells/specification/inStorage"
+msgstr "Στην Αποθήκη"
+
+msgid "shells/specification/inVehicle"
+msgstr "Στα Πυρομαχικά"
+
+msgid "shells/specification/price"
+msgstr "Αγορά"
+
+msgid "shells/title"
+msgstr "Πυρομαχικά"
+
+msgid "shells/type/base"
+msgstr "ΤΥΠΙΚΑ (AP)"
+
+msgid "shells/type/special"
+msgstr "ΕΙΔΙΚΑ (HE)"
+
+msgid "shells/type/tactical"
+msgstr "ΤΑΚΤΙΚΗΣ (APCR)"
+
+msgid "tabs/crew"
+msgstr "Για πλήρωμα"
+
+msgid "tabs/deluxe"
+msgstr "Βελτιωμένος"
+
+msgid "tabs/modernized"
+msgstr "Πειραματικός"
+
+msgid "tabs/optDevice"
+msgstr "Για εξοπλισμό"
+
+msgid "tabs/simple"
+msgstr "Κανονικός"
+
+msgid "tabs/trophy"
+msgstr "Αναβαθμίσιμος"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "Θα γίνει αυτόματος ανεφοδιασμός της οδηγίας όταν το όχημα βγει από τη μάχη. Θα χρησιμοποιηθεί είτε στοκ από την Αποθήκη (εάν υπάρχει) ή θα γίνει αγορά με χρήματα του παιχνιδιού."
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "Θα γίνει αυτόματος ανεφοδιασμός αναλώσιμων, αν χρειαστεί, μόλις το όχημα βγει από τη μάχη."
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "Οι επισκευές θα γίνουν αυτόματα, αν χρειαστεί, μόλις το όχημα βγει από τη μάχη."
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "Θα γίνει αυτόματος ανεφοδιασμός πυρομαχικών, αν χρειαστεί, μόλις το όχημα βγει από τη μάχη."
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "Αυτόματος Ανεφοδιασμός"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "Αυτόματη Επισκευή"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "Θα αποσυναρμολογηθούν από την Αποθήκη σας: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "Θα αποσυναρμολογηθούν από τα οχήματα: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr ", "
+
+msgid "tooltips/action/description/add_one"
+msgstr "Κλικ για αγορά πρόσθετων στοιχείων γι αυτήν τη θέση."
+
+msgid "tooltips/action/description/demount"
+msgstr "Κλικ για αποσύνδεση εξοπλισμού από αυτήν τη θέση."
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "Κλικ για αποσύνδεση εξοπλισμού από αυτήν τη θέση."
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "Κλικ για αποσύνδεση εξοπλισμού από όλες τις διαμορφώσεις."
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "Κάντε κλικ για να αποσυνδέσετε δωρεάν τον εξοπλισμό αυτής της θέσης, χάρη στην ενεργή συνδρομή σας στο WoT Plus."
+
+msgid "tooltips/action/description/destroy"
+msgstr "Κάντε κλικ για να καταστρέψετε τον εξοπλισμό αυτής της θέσης, ή αποσυνδέστε τον δωρεάν εάν έχετε ενεργή συνδρομή σας στο WoT Plus."
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "Κλικ εδώ για να αποσυναρμολογήσετε εξοπλισμό σε components."
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "Κλικ για καταστροφή του εξοπλισμού από αυτήν τη θέση."
+
+msgid "tooltips/action/description/swap"
+msgstr "Κλικ για αλλαγή των στοιχείων μεταξύ των δύο θέσεων."
+
+msgid "tooltips/action/description/upgrade"
+msgstr "Η βελτίωση του εξοπλισμού αναβαθμίζει τα χαρακτηριστικά του."
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "Η βελτίωση του εξοπλισμού αναβαθμίζει τα χαρακτηριστικά του."
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "Η βελτίωση του εξοπλισμού αναβαθμίζει τα χαρακτηριστικά του."
+
+msgid "tooltips/action/title/add_one"
+msgstr "Αγορά"
+
+msgid "tooltips/action/title/cancel"
+msgstr "Αποστολή στην Αποθήκη"
+
+msgid "tooltips/action/title/demount"
+msgstr "Αποσύνδεση"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "Αποσύνδεση"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "Αποσύνδεση Από Όλες Τις Διαμορφώσεις"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "Δωρεάν αποσύνδεση"
+
+msgid "tooltips/action/title/destroy"
+msgstr "Καταστροφή"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "Αποσυναρμολόγηση"
+
+msgid "tooltips/action/title/swap"
+msgstr "Αλλαγή σειράς"
+
+msgid "tooltips/action/title/undo"
+msgstr "Αφαίρεση από θέση"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "Αναβάθμιση"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "Αναβάθμιση"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "Αναβάθμιση"
+
+msgid "tooltips/additional"
+msgstr "Πρόσθετες πληροφορίες."
+
+msgid "tooltips/categories/list"
+msgstr "Κλικ για προβολή της λίστας με τα εξαρτήματα."
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "Η κατηγορία αυτής της θέσης μπορεί να επανακαθορίσετε από το μενού Τροποποιήσεις Μάχης ή από την οθόνη επιλογής εξοπλισμού."
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "Επανακαθορισμός Κατηγορίας"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "Κλικ για να επαναπροσδιορίσετε την κατηγορία της θέσης."
+
+msgid "tooltips/equipmentList"
+msgstr "Κλικ για προβολή της λίστας με τον διαθέσιμο εξοπλισμό."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "Αδύνατη η αποσυναρμολόγηση Πειραματικού Εξοπλισμού σε components: Δεν έχετε στην κατοχή σας τέτοιου τύπου εξοπλισμό."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "Κλικ εδώ για να προχωρήσετε με την αποσυναρμολόγηση του εξοπλισμού σε components."
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "Όταν τοποθετηθεί σε άλλη θέση, ο συγκεκριμένος εξοπλισμός θα παρέχει το βασικό μπόνους, αφού μόνο Αντιαρματικά και Α/Κ Πυροβόλα έχουν θέση εξοπλισμού της κατηγορίας Ισχύ Πυρός."
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "Το όχημά σας λαμβάνει αυξημένο μπόνους στα χαρακτηριστικά του."
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "Για να αυξήσετε το μπόνους στα χαρακτηριστικά του οχήματος, τοποθετήστε τον συγκεκριμένο εξοπλισμό σε μια θέση των ακόλουθων κατηγοριών: %(category)s."
+
+msgid "tooltips/howToIncrease/single"
+msgstr "Για να αυξήσετε το μπόνους στα χαρακτηριστικά του οχήματος, τοποθετήστε τον συγκεκριμένο εξοπλισμό σε μια θέση της ακόλουθης κατηγορίας: %(category)s."
+
+msgid "tooltips/placeEquipment"
+msgstr "Θέση εξοπλισμού"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "Μπορείτε να ενεργοποιήσετε ή να απενεργοποιήσετε την επιλογή βλημάτων και αναλώσιμων κατά τη διάρκεια της αντίστροφης μέτρησης πριν τη μάχη, από την οθόνη των Τροποποιήσεων Μάχης."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "Μπορείτε να ενεργοποιήσετε ή να απενεργοποιήσετε την επιλογή εξοπλισμού και οδηγιών κατά τη διάρκεια της αντίστροφης μέτρησης πριν τη μάχη, από την οθόνη των Τροποποιήσεων Μάχης."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "Μπορείτε να ενεργοποιήσετε ή να απενεργοποιήσετε την επιλογή βλημάτων και αναλώσιμων κατά τη διάρκεια της αντίστροφης μέτρησης πριν τη μάχη, από την οθόνη των Τροποποιήσεων Μάχης."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "Μπορείτε να ενεργοποιήσετε ή να απενεργοποιήσετε την επιλογή βλημάτων και αναλώσιμων κατά τη διάρκεια της αντίστροφης μέτρησης πριν τη μάχη, από την οθόνη των Αναβαθμίσεων."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "Μπορείτε να ενεργοποιήσετε ή να απενεργοποιήσετε την επιλογή εξοπλισμού και οδηγιών κατά τη διάρκεια της αντίστροφης μέτρησης πριν τη μάχη, από την οθόνη των Τροποποιήσεων Μάχης."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "Μπορείτε να ενεργοποιήσετε ή να απενεργοποιήσετε την επιλογή εξοπλισμού και οδηγιών κατά τη διάρκεια της αντίστροφης μέτρησης πριν τη μάχη, από την οθόνη των Αναβαθμίσεων."
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "Η Εναλλαγή Σετ Είναι Απενεργοποιημένη"
+
+msgid "tooltips/separator/last"
+msgstr " και "
+
+msgid "tooltips/separator/other"
+msgstr ", "
+
+msgid "tooltips/specializationDesc"
+msgstr "Ο κανονικός εξοπλισμός από την κατηγορία %(spec)s θα είναι περισσότερο αποτελεσματικός εάν τοποθετηθεί σε αυτήν τη θέση. Εξοπλισμός από άλλη κατηγορία θα δίνει μόνο το βασικό μπόνους."
+
+msgid "tooltips/specializationName"
+msgstr "Κατηγορία:"
+
+msgid "tooltips/specializationType"
+msgstr "Ισχύς Πυρός"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "Ένας πολύτιμος τύπος εξοπλισμού που έχει καλύτερα χαρακτηριστικά από τους άλλους τύπους εξοπλισμού."
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "Ειδικός τύπος εξοπλισμού με 3 Επίπεδα Αναβάθμισης."
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "Τα στοιχεία εξοπλισμού βελτιώνουν τα χαρακτηριστικά του οχήματος."
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "Ένας τύπος εξοπλισμού ο οποίος έχει τα ίδια χαρακτηριστικά με τον κανονικό εξοπλισμό, αλλά μπορεί να αναβαθμιστεί."
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "Βελτιωμένος Εξοπλισμός"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "Πειραματικός Εξοπλισμός"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "Κανονικός Εξοπλισμός"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "Αναβαθμίσιμος Εξοπλισμός"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "Ο εξοπλισμός αυτού του τύπου είναι διαθέσιμος μόνο για %(whiteSpanish_Open)sbonds%(whiteSpanish_Close)s. Μπορείτε επίσης να κερδίσετε αυτόν τον τύπο εξοπλισμού ως έπαθλο από συγκεκριμένα επιτεύγματα ή από ειδικές διοργανώσεις του παιχνιδιού."
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "Ο εξοπλισμός αυτού του τύπου απονέμεται ως έπαθλο σε συγκεκριμένες διοργανώσεις του παιχνιδιού."
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "Μπορείτε να αγοράσετε εξοπλισμό αυτού του τύπου πληρώνοντας με νομίσματα του παιχνιδιού. Μπορείτε επίσης να κερδίσετε αυτόν τον τύπο εξοπλισμού ως έπαθλο από συγκεκριμένα επιτεύγματα ή από ειδικές διοργανώσεις του παιχνιδιού. Η τοποθέτηση κανονικού εξοπλισμού σε θέση της αντίστοιχης κατηγορίας παρέχει μεγαλύτερο μπόνους."
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "Ο εξοπλισμός αυτού του τύπου απονέμεται ως έπαθλο σε συγκεκριμένες διοργανώσεις του παιχνιδιού."
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "Μέθοδος Απόκτησης"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "Μέθοδος Απόκτησης"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "Θέσεις Εξοπλισμού"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "Δεν μπορείτε να αγοράσετε Αναβαθμίσιμο Εξοπλισμό"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "Μπορείτε να αναβαθμίσετε τα χαρακτηριστικά του Πειραματικού Εξοπλισμού χρησιμοποιώντας %(whiteSpanish_Open)scomponents%(whiteSpanish_Close)s, τα οποία θα αποκτήσετε από την αποσυναρμολόγηση άλλων στοιχείων εξοπλισμού αυτού του τύπου."
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "Μπορείτε να βελτιώσετε τα χαρακτηριστικά του Αναβαθμίσιμου Εξοπλισμού χρησιμοποιώντας νόμισμα του παιχνιδιού."
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "Αναβάθμιση Πειραματικού Εξοπλισμού"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "Βελτίωση Αναβαθμίσιμου Εξοπλισμού"

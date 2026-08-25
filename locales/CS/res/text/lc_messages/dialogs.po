@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "Souhlasím"
+
+msgid "EULA/labels/agree"
+msgstr "Souhlasím"
+
+msgid "EULA/title"
+msgstr "Licenční smlouva koncového uživatele"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "Tato emailová adresa je již s vaším účtem propojena."
+
+msgid "accountCompletion/activate/button"
+msgstr "Poslat kód/změnit email"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "Znovu zaslat kód nebo změnit email za %(timer) s"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "Zadejte ještě jednou svůj email"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "Platnost kódu vypršela. Zadejte svůj email ještě jednou."
+
+msgid "accountCompletion/activate/keyError"
+msgstr "Neplatný kód"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "Pokud nemůžete email najít, zkontrolujte prosím, jestli ve vaší emailové adrese není chyba."
+
+msgid "accountCompletion/activate/text"
+msgstr "Na adresu {whiteSpanish_Open}%(email){whiteSpanish_Close} byl z Wargaming.net odeslán e-mail s ověřovacím kódem. Zadáním čtyřmístného kódu ověříte svůj e-mail a dokončíte nastavení svého účtu."
+
+msgid "accountCompletion/activate/title"
+msgstr "Ověřit e-mailovou adresu"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "Příliš mnohokrát jste zadali nesprávný kód."
+
+msgid "accountCompletion/add"
+msgstr "Přidat"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "Tato emailová adresa je již s vaším účtem propojena."
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "Email je již propojen"
+
+msgid "accountCompletion/cancel"
+msgstr "Později"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "Váš email"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "Email"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "Přidejte svůj email, abyste dostali odměnu a získali úplný přístup ke všem herním akcím."
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "ZÍSKEJTE PLNÝ PŘÍSTUP DO HRY"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "Zadejte a potvrďte svou e-mailovou adresu, abyste získali odměnu a odemkli nové prvky. %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "Dokončit nastavení účtu"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "S touto emailovou adresou je již zaregistrován jiný účet."
+
+msgid "accountCompletion/emailForbidden"
+msgstr "Tato emailová adresa je zakázaná."
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "Email nesmí obsahovat více než %(amount)s znaků."
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "Email musí obsahovat alespoň %(amount)s znaků."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "Váš email už byl potvrzen."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "Email potvrzen"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "Překročili jste počet žádostí. Změnu své emailové adresy nebo opětovné zaslání emailu můžete provést za %(timer)"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "Tato emailová služba je ve vaší zemi zablokovaná."
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "Tato emailová služba je ve vaší zemi zakázána."
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "Nelze propojit email"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "Email může obsahovat pouze písmena latinky, číslice, symboly @, tečky a podtržítka."
+
+msgid "accountCompletion/later"
+msgstr "Později"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "Odměna za potvrzení e-mailu"
+
+msgid "accountCompletion/submit"
+msgstr "Potvrdit"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "Čekání ve frontě na serveru.\nMůže to nějakou dobu trvat."
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) Služba je dočasně nedostupná. Zkuste to prosím později."
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) Služba je dočasně nedostupná.\nZkuste to prosím znovu za%(time)s."
+
+msgid "barracksExpand/cancel"
+msgstr "Storno"
+
+msgid "barracksExpand/message"
+msgstr "Rozšířit kasárna za %(price)s zlaťáků přidáním lůžek: %(count)s?"
+
+msgid "barracksExpand/submit"
+msgstr "Rozšířit"
+
+msgid "barracksExpand/title"
+msgstr "Rozšíření kasáren"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "Nedostatek zlaťáků."
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "Rozšíření kasáren"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "Zrušit"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "K boji nejsou připraveni všichni hráči nebo je jejich počet nižší, než je požadováno."
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "Zahájit bitvu"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "Neúplný stav"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "Storno"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "Aktivovat bonus %(newBoosterName)s"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "Potvrdit"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "Potvrzení aktivace"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "Storno"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "Když bude osobní záloha %(newBoosterName)s aktivována, tak bude aktuálně aktivní osobní záloha %(curBoosterName)s zrušena a zničena."
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "Ano"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "Potvrzení aktivace"
+
+msgid "buyConfirmation/cancel"
+msgstr "Storno"
+
+msgid "buyConfirmation/message"
+msgstr "Koupit položku „%(product)s“ za %(price)s?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "Koupit {%count} kus(ů) „{%name}“?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "Koupit vybavení „%(equipment)s“?"
+
+msgid "buyConfirmation/submit"
+msgstr "Koupit"
+
+msgid "buyConfirmation/title"
+msgstr "Potvrzení nákupu"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "Storno"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "nekompatibilní"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " s aktuálním modulem."
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "Spotřební doplněk „%(conflicted)s“ bude odeslán do skladu, protože je "
+
+msgid "buyInstallConfirmation/message"
+msgstr "Koupit a namontovat na stávající vozidlo %(kind)s „%(name)s“ za %(price)s%(creditsIcon)s? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "Koupit a namontovat na stávající vozidlo %(kind)s „%(name)s“ za %(price)s kreditů?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "Koupit"
+
+msgid "buyInstallConfirmation/title"
+msgstr "Potvrzení nákupu"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "Storno"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "Kopit prémiový účet na %(days)s za %(gold)s?\n %(alertIcon)s %(alertColorTagOpen)s Kvůli technickým obtížím nedostanete zkušenosti a kredity navíc. Zkuste vybrat jinou bitvu, nebo kupte prémiový účet pomocí nabídky „Koupit prémiový účet“.%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "Koupit"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "Potvrzení nákupu"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "Stání v garáži"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "Storno"
+
+msgid "buySlotConfirmation/message"
+msgstr "Koupit další stání v garáži za %(goldCost)s?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "Koupit"
+
+msgid "buySlotConfirmation/title"
+msgstr "Potvrzení nákupu"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "Nedostatek kreditů pro nákup stání."
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "Nedostatek kreditů"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "Nedostatek zlaťáků pro nákup stání."
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "Nedostatek zlaťáků"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "Storno"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "V garáži už nejsou volná stání. Koupit další stání za {%d} kreditů?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "Koupit"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "Potvrzení nákupu"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "Vyzbrojit standardní municí"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "Storno"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Pro toto vozidlo již máte posádku."
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "Během období pronájmu vozidla dostanete zdarma jedno stání v garáži navíc."
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "Munici nelze naložit: vybrané vozidlo již má plnou munici."
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "Munici nelze naložit: vybrané vozidlo ještě nějakou munici má."
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "Cena: %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "Další stání v garáži"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "Koupit"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "Nákup"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "Výměna"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "Koupit bez posádky"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "Výcvik posádky"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "Členové posádky: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "Koupit %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "Celkem:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "Zadali jste nesprávnou informaci."
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "Zadejte počet zlaťáků ze sloupce „Celkem“"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "Potvrzení operace:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "Nemáte žádná vhodná vozidla\nna výměnu"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "Odhadovaná hodnota je %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "Vycvičit posádku: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "Celkem:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "Vybrat vozidlo"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "Vyberte prémiové vozidlo\ndostupné pro výměnu"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "Storno"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "Doplatek za %(vehiclename)s:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "Vyměnit"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "Koupit bez posádky"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "Výměna %(vehiclename)s"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "Jakmile kliknete na níže uvedené tlačítko „Vyměnit“, nebudou zakoupené vybavení a spotřební doplňky nahrazeny pomocí zlaťáků. Zkontrolujte si prosím pečlivě všechny podrobnosti."
+
+msgid "buyVehicleWindow/warning"
+msgstr "Zakoupené vybavení a spotřební doplňky nebudou nahrazeny ve formě zlaťáků, jakmile jednou níže kliknete na tlačítko „Koupit\". Zkontrolujte si prosím pečlivě všechny podrobnosti."
+
+msgid "challenge_missions/activation/cancel"
+msgstr "Zrušit"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "Aktivovat"
+
+msgid "challenge_missions/activation/description"
+msgstr "Jakmile je aktivována, lze série misí „Zkouška ohněm“ {{@ style (color #FFE4C0)}}dokončit, nedokončit nebo opustit{{/}}. Pokud nesplníte misi v sérii, přijdete o jeden štít."
+
+msgid "challenge_missions/activation/title"
+msgstr "Aktivovat Zkouška ohněm: {{challengeName}}?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "Zrušit"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "Restartovat"
+
+msgid "challenge_missions/restart/description"
+msgstr "Váš postup misí se vynuluje, štíty se obnoví a budete moct znovu získat odměny. Série misí bude aktivní ihned po restartu."
+
+msgid "challenge_missions/restart/free/title"
+msgstr "Restartovat Zkouška ohněm: {{challengeName}} zdarma?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "Restartovat Zkouška ohněm: {{challengeName}} za {{cost}}?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "Zrušit"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "Opustit"
+
+msgid "challenge_missions/surrender/description"
+msgstr "Opuštění ukončí sérii misí „Zkouška ohněm“ a obnoví veškerý postup a štíty. Sérii misí můžete kdykoliv restartovat."
+
+msgid "challenge_missions/surrender/title"
+msgstr "Opustit Zkoušku ohněm: {{challengeName}}?"
+
+msgid "changeGraphics/cancel"
+msgstr "Storno"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s V této aktualizaci byla výrazně přepracována grafika. Můžete si zvolit automatické nastavení grafiky, nebo zrušit automatický výběr a změnit nastavení ručně."
+
+msgid "changeGraphics/submit"
+msgstr "Autodetekce"
+
+msgid "changeGraphics/title"
+msgstr "Automatický výběr grafického nastavení"
+
+msgid "changePeriphery/cancel"
+msgstr "Storno"
+
+msgid "changePeriphery/message"
+msgstr "Přejít na jiný server?"
+
+msgid "changePeriphery/submit"
+msgstr "Převést"
+
+msgid "changePeriphery/title"
+msgstr "Potvrdit převod"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "Zrušit"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "Změny serveru se nyní uloží. Automatické přihlášení můžete zapnout či vypnout v nastavení."
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "Pokračovat"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "Změnit na jiný server?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "Storno"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "Přejít na jiný server?\n\nPokud změníte server, budete omezeni následujícím způsobem:\n\t• Některá vozidla nebudou k dispozici.\n\t• Emblémy a nápisy nebudou zobrazeny.\n\t• Mise, osobní zálohy a režim cvičiště nebudou k dispozici.\n\nMůže dojít k chybám a problémům s kvalitou připojení. Respektujte prosím hráče z ostatních regionů."
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "Převést"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "Potvrdit převod"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "Zrušit"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "Přejít na jiný server?\n\nPokud změníte server, budete omezeni následujícím způsobem:\n\t• Některá vozidla nebudou k dispozici.\n\t• Emblémy a nápisy nebudou zobrazeny.\n\t• Mise, osobní zálohy a režim cvičiště nebudou k dispozici.\n\nMůže dojít k chybám a problémům s kvalitou připojení. Respektujte prosím hráče z ostatních regionů.\n\n\nZměny serveru budou uloženy.\nPřejděte na nastavení a zapněte či vypněte automatické přihlášení."
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "Pokračovat"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "Potvrdit převod"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "Storno"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sChystáte se vstoupit do klanu:\n%(clanName)s\n\nPotvrzením vašeho úmyslu ke vstupu do klanu automaticky přijímáte jeho pravidla a předpisy, a souhlasíte s tím, že se budete aktivně podílet na aktivitách a rozvoji klanu.\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "Poté, co opustíte klan, bude vám uloženo dočasné omezení na vstup do jiného klanu."
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "Potvrdit"
+
+msgid "clanConfirmJoining/title"
+msgstr "Potvrďte vstup do klanu"
+
+msgid "clan_data_not_available/cancel"
+msgstr "Zavřít"
+
+msgid "clan_data_not_available/message"
+msgstr "Profil klanu tohoto hráče je dočasně nedostupný. Zkuste to později."
+
+msgid "clan_data_not_available/title"
+msgstr "Pozor!"
+
+msgid "common/cancel"
+msgstr "Storno"
+
+msgid "common/confirm/cancel"
+msgstr "Ne"
+
+msgid "common/confirm/submit"
+msgstr "Ano"
+
+msgid "common/cost"
+msgstr "Cena:"
+
+msgid "common/error/cancel"
+msgstr "Zavřít"
+
+msgid "common/submit"
+msgstr "Pokračovat"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "Storno"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "Koupit"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "Nákup a instalace směrnic"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "Storno"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "Pozor! %(devices)s není namontováno. Směrnice %(font_tag_open)sNEBUDE FUNGOVAT.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "Namontovat"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "Instalace směrnic"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "Storno"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "Pozor! Nemáte vybavení kompatibilní s vybranou smněrnicí. Směrnice %(font_tag_open)sNEBUDE FUNGOVAT.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "Namontovat"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "Instalace směrnic"
+
+msgid "confirmBuy/title"
+msgstr "Koupit %(moduleName)s?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "Storno"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "Modul bude poslán do skladu."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "Množství požadované k zakoupení:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "Získejte kredity v bitvách, prodejte přebytečné položky ze svého skladu nebo směňte zlaťáky, abyste si jich pořídili více."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "Nedostatek kreditů"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "Cena modulu:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "Prodat nahrazený modul %(previousModuleName) za %(previousModulePrice)"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "Tento modul je kompatibilní s:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "Modul můžete prodat okamžitě, nebo bude poslán do skladu, kde jej můžete prodat později nebo znovu namontovat."
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "Koupit"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "Koupit a namontovat %(moduleName)s?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "Koupit a namontovat vybavení „%(equipment)s“?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "Namontovat"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "Storno"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "Směna není nutná.\nMáte dostatek kreditů."
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "Nelze koupit: směna selhala.\nKe směně je požadováno %(gold)s navíc."
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "Směnit %(gold)s na požadované množství kreditů?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "Kreditů požadováno:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "Množství potřebné k zakoupení: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "Vyměnit"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "Potvrzení výměny pro nákup"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "Storno"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "Konverze není nutná.\nMáte dostatek zkušeností."
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "Nelze vyzkoumat: konverze selhala.\nKe konverzi je požadováno %(gold)s navíc."
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "Zkonvertovat požadované zkušenosti za %(gold)s?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "Zkušeností požadováno:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "Množství potřebné k vyzkoumání: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "Vybrat vozidlo"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "Potvrzení výměny pro výzkum"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "Celkem:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "Storno"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "Směna není pro obnovení vyžadována.\nMáte dostatek kreditů."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "Směna pro obnovení není možná.\nPro směnu je požadováno %(gold)s."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "Směnit %(gold)s na chybějící množství kreditů?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "Kreditů požadováno:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "Množství potřebné k obnovení: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "Směnit"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "Potvrzení výměny pro obnovení"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "Počet:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "Počet"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "Celkem"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "Cena:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "Cena"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "Celkem:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "Celkem"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "Celkem:"
+
+msgid "confirmUnlock/cancel"
+msgstr "Ne"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} (včetně {{freeXP}})?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "Vyzkoumat {{items}} za"
+
+msgid "confirmUnlock/item/message"
+msgstr "Vyzkoumat %(typeString)s %(userString)s za %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (včetně %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "confirmUnlock/submit"
+msgstr "Ano"
+
+msgid "confirmUnlock/title"
+msgstr "Potvrzení výzkumu"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "Vyzkoumat %(userString)s za %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (včetně %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "Storno"
+
+msgid "controlsWrongNotification/message"
+msgstr "Jedna nebo více kláves není přiřazena. Opravdu chcete uložit ovládání v tomto stavu?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "Uložit"
+
+msgid "controlsWrongNotification/title"
+msgstr "Chyba"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "Storno"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "Soubory pro zvolený hlas oznámení jsou poškozené nebo chybí. Bude nastaven výchozí hlas oznámení.\nJedna nebo více kláves není přiřazeno. Uložit toto nastavení?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "Uložit"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "Chyba"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "Storno"
+
+msgid "createOrderConfirmation/submit"
+msgstr "Potvrdit"
+
+msgid "createOrderConfirmation/title"
+msgstr "Potvrdit přípravu záloh"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "Nedostatek prostředků k provedení nákupu."
+
+msgid "crewBookPurchase/description/crew"
+msgstr "Uplatňuje se na celou posádku. Při prostudování poskytuje %(book)s každému členovi %(exp)s."
+
+msgid "crewBookPurchase/description/personal"
+msgstr "Uplatňuje se na vybraného člena posádky. Při prostudování poskytuje %(book)s tomuto členovi posádky %(exp)s."
+
+msgid "crewBookPurchase/purchase"
+msgstr "Koupit"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "Koupit %(book)s?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "Storno"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "Všechny nanesené obtisky {season} mapy budou z vašeho vozidla {removed},\nneboť tento slot není pro {this} dostupný."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "Potvrdit"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "tyto mapy"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "tuto mapu"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "Použít tento obtisk v tomto slotu pro všechny mapy?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "Při zakoupení budou prvky použity na aktuální vozidlo. Prvky označené hvězdičkou nebudou pro ostatní vozidla k dispozici."
+
+msgid "customization/buy_install_bound/title"
+msgstr "Potvrzení nákupu prvků"
+
+msgid "customization/change_install_bound/message"
+msgstr "Při výběru budou prvky použity na aktuální vozidlo. Prvky označené hvězdičkou nebudou pro ostatní vozidla k dispozici."
+
+msgid "customization/change_install_bound/title"
+msgstr "Potvrzení změny prvků"
+
+msgid "customization/close/cancel"
+msgstr "Storno"
+
+msgid "customization/close/submit"
+msgstr "Odejít"
+
+msgid "customization/close/title"
+msgstr "Odejít do garáže bez uložení změn?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "Zrušit"
+
+msgid "customization/exitToShop/submit"
+msgstr "Pokračovat"
+
+msgid "customization/exitToShop/title"
+msgstr "Pokračovat do obchodu bez uložení změn?"
+
+msgid "customization/filter/cancel"
+msgstr "Storno"
+
+msgid "customization/filter/message"
+msgstr "Všechny prvky budou odstraněny. Pokračovat?"
+
+msgid "customization/filter/submit"
+msgstr "Odstranit všechny"
+
+msgid "customization/filter/title"
+msgstr "Odstranit prvky"
+
+msgid "customization/install_bound/cancel"
+msgstr "Storno"
+
+msgid "customization/install_bound/submit"
+msgstr "Pokračovat"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "Storno"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "Pozor! Poté, co prvek (%(cTypeName)s %(itemName)s) použijete na aktuální vozidlo, budete moci tento prvek použít už jen na dalších %(numberLeft)s vozidel. Použít prvek?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "Použít"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "Použít prvek"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "Storno"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "Pozor! Poté, co prvek (%(cTypeName)s %(itemName)s) použijete na aktuální vozidlo, nebudete už moci tento prvek použít na žádná další vozidla. Použít prvek?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "Použít"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "Použít prvek"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "Storno"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "Pozor! Poté, co prvek (%(cTypeName)s %(itemName)s) použijete na aktuální vozidlo, nebudete ho už moci použít na žádná další vozidla. Prvek %(willBeDeleted)s pokud bude odstraněn. Použít prvek?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "Použít"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "Použít prvek"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "bude smazán"
+
+msgid "customization/remove_element/cancel"
+msgstr "Storno"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "Odstranit"
+
+msgid "customization/remove_element/title"
+msgstr "Odstranit prvek"
+
+msgid "customizationConfirmSell/message"
+msgstr "Prodat „%(name)s“ za %(price)s%(creditsIcon)s?"
+
+msgid "customizationConfirmSell/title"
+msgstr "Potvrzení prodeje"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "každých: %(days)s d"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "každých: %(days)s d %(hours)s h"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "každých %(hours)s h"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "každých %(hours)s h %(mins)s min"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "každých %(mins)s min"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "Nahrazení mise je k dispozici {timeLimitMsg}"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "Nahradit"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "Nahradit misi?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} Některá vaše vozidla jsou v bitvě. Po nahrazení mise můžete přijít o svůj postup. Nahrazení mise je k dispozici {timeLimitMsg}"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "Nahradit"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "Nahradit misi?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "Varování!"
+
+msgid "dedication/headline"
+msgstr "Získáno ocenění „Hrdina naší doby“"
+
+msgid "dedication/sub-headline"
+msgstr "Za {battlesNum} odehraných bitev"
+
+msgid "dialogTemplates/cancel"
+msgstr "Zrušit"
+
+msgid "dialogTemplates/confirm"
+msgstr "Potvrdit"
+
+msgid "dialogTemplates/ok"
+msgstr "Potvrzuji!"
+
+msgid "disconnect/cancel"
+msgstr "Ne"
+
+msgid "disconnect/message"
+msgstr "Opravdu se chcete odpojit od serveru?"
+
+msgid "disconnect/submit"
+msgstr "Ano"
+
+msgid "disconnect/title"
+msgstr "Odpojení od serveru"
+
+msgid "disconnected/cancel"
+msgstr "OK"
+
+msgid "disconnected/message"
+msgstr "Byl jste odpojen. Stiskněte OK pro znovupřipojení."
+
+msgid "disconnected/messageBan"
+msgstr "Váš účet byl uzamčen.%(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "Váš účet byl uzamčen do %(expiryTime)s.%(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "Připojení k serveru bylo přerušeno.%(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \nDůvod: %s"
+
+msgid "disconnected/title"
+msgstr "Spojení přerušeno"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "Propustit do výslužby"
+
+msgid "dismissTankman/description/perk"
+msgstr "Pro tuto operaci zadejte úroveň vycvičení schopnosti: {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "Pro tuto operaci zadejte úroveň výcviku poslední vycvičené schopnosti ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "Vybraní členové posádky budou propuštěni do výslužby. Můžete je obnovit během {whiteOrange_Open}%(time)s d{whiteOrange_Close}."
+
+msgid "dismissTankman/header"
+msgstr "Propuštění člena posádky do výslužby"
+
+msgid "dismissTankman/limited"
+msgstr "Byl dosažen limit počtu propuštění do výslužby. Propuštěný člen posádky do výslužby nahradí %(name)s (%(role)s, %(vehicle)s)."
+
+msgid "dismissTankman/noRecovery"
+msgstr "Obnovení nebude možné"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "Storno"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "Pozor! Pokud propustíte do výslužby %(dismissedName)s, tak nahradí %(deletedStr)s. Potvrdit změnu?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "Potvrdit"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "Potvrzení změny"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "Storno"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "Pozor! Pokud propustíte posádku do výslužby, tak nahradí %(deletedStr)s a %(extraCount)s členů posádky. Potvrdit změnu?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "Potvrdit"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "Paměť propuštěných členů posádky do výslužby je plná"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "Nahradit"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "Jméno"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "Příjmení"
+
+msgid "documentChangeDialog/title"
+msgstr "Nahradit jméno a vzhled?"
+
+msgid "dropSkill/cancel"
+msgstr "Storno"
+
+msgid "dropSkill/message"
+msgstr "Vynulovat všechny schopnosti?"
+
+msgid "dropSkill/submit"
+msgstr "Obnovit"
+
+msgid "dropSkill/title"
+msgstr "Potvrzení obnovení"
+
+msgid "elementType/chassis"
+msgstr "podvozek"
+
+msgid "elementType/engine"
+msgstr "motor"
+
+msgid "elementType/gun"
+msgstr "dělo"
+
+msgid "elementType/radiostation"
+msgstr "rádio"
+
+msgid "elementType/turret"
+msgstr "věž"
+
+msgid "elenDisabled/cancel"
+msgstr "Zavřít"
+
+msgid "elenDisabled/message"
+msgstr "Kvůli plánované údržbě jsou soutěže dočasně nedostupné."
+
+msgid "elenDisabled/title"
+msgstr "Pozor!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "Storno"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "Toto varování znovu neukazovat"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "Kvůli konfiguraci vašeho hardwaru se budete v tomto režimu potýkat s nízkou mírou FPS a zkreslením grafiky. Načítání bitvy bude trvat déle a může vést k pádu klienta. Přesto vstoupit do bitvy?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "Bitva!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "Varování ohledně výkonu"
+
+msgid "equipmentBuyInstall/price"
+msgstr "Nákupní cena:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "Rozložit „%(equipment)s“?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "Zrušit"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "Rozložit a vylepšit"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "Rozložit"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "Toto odmontované vybavení bude {white_Open}zničeno{white_Close}.\nPředmět lze bezpečně odmontovat za bony."
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "Toto odmontované vybavení bude {white_Open}zničeno{white_Close}.\nPředmět lze bezpečně odmontovat za zlaťáky nebo pomocí demontážní sady."
+
+msgid "equipmentDestroy/conformation"
+msgstr "Zničit vybavení „%(equipment)s“?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "Namontovat vybavení „%(equipment)s“?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "Prodat vybavení „%(equipment)s“?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "Zrušit"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "Vylepšit"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "Na rozložení"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "K rozložení není dostupné žádné experimentální vybavení."
+
+msgid "eula/p1"
+msgstr "Přečtěte si prosím <BR/><A HREF='event:%(eulaURL)s'><U>Licenční smlouvu koncového uživatele</U></A> před tím, než budete pokračovat."
+
+msgid "eula/p2"
+msgstr "KLIKNUTÍM NA TLAČÍTKO „SOUHLASÍM\" POTVRZUJETE, ŽE JSTE PŘEČETLI, ROZUMÍTE, SOUHLASÍTE A BUDETE DODRŽOVAT A JEDNAT V SOULADU S PODMÍNKAMI LICENČNÍ SMLOUVY KONCOVÉHO UŽIVATELE, A NESETE ODPOVĚDNOST ZA JAKÉKOLIV PORUŠENÍ TÉTO SMLOUVY. LICENČNÍ SMLOUVA KONCOVÉHO UŽIVATELE A JEJÍ PŘÍPADNÉ ZMĚNY JSOU ZÁVAZNÝM MATERIÁLEM PRO VŠECHNY ČLENY PROJEKTU."
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "Storno"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "Směnit %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s za %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "Směna"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "Směna zlaťáků"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "Na konverzi bude použita sleva až %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s zk na volné zkušenosti. Příště budou zkušenosti zkonvertovány za zlaťáky."
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "Storno"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "Konvertovat %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s zkušeností na volné zkušenosti za %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "Převést"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "Konverze na volné zkušenosti"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "Nedostatek bojových zkušeností pro konvertování"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "Nedostatek bojových zkušeností pro konvertování"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "Zrušit"
+
+msgid "fillAllPerks/button/fill"
+msgstr "Autodetekce"
+
+msgid "fillAllPerks/checkbox"
+msgstr "Automaticky vybrat schopnosti pro posádky v kasárnách"
+
+msgid "fillAllPerks/description"
+msgstr "V závislosti na kvalifikaci člena posádky s volnými místy pro schopnosti vybere algoritmus první schopnost ze seznamu níže. Pokud člen posádky již první schopnost má, pak algoritmus místo toho vybere druhou schopnost a bude pokračovat, dokud nebudou všechna volná místa pro schopnosti zaplněna. Operace může nějakou dobu trvat."
+
+msgid "fillAllPerks/subTitle"
+msgstr "Schopnosti budou automaticky vybrány pouze pro členy posádky ve vozidle."
+
+msgid "fillAllPerks/title"
+msgstr "Automaticky vybrat nevycvičené schopnosti pro všechny členy posádky?"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "Storno"
+
+msgid "finance_dialog/header"
+msgstr "Potvrzení operace"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "Pro potvrzení finanční operace zadejte odpovídající finanční heslo."
+
+msgid "finance_dialog/results/invalid"
+msgstr "Neplatné heslo."
+
+msgid "finance_dialog/results/limit"
+msgstr "Příliš často vkládáte špatné heslo. Zkuste to znovu za 24 hodin. <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Zapomněl(a) jste heslo?</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "Heslo musí mít minimálně 6 znaků a to pouze alfanumerických a '_'."
+
+msgid "finance_dialog/submitBtn"
+msgstr "Potvrdit"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "Zrušit"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "Získat %(product)s za %(price)s?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "Získat"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "Potvrzení"
+
+msgid "fortDisabled/cancel"
+msgstr "Zavřít"
+
+msgid "fortDisabled/message"
+msgstr "Informace o klanech nejsou v současné době z důvodu plánované údržby k dispozici."
+
+msgid "fortDisabled/title"
+msgstr "Pozor!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "OK"
+
+msgid "fortTurnedOff/message"
+msgstr "Opevnění je dočasně nedostupné. Zkuste to později."
+
+msgid "fortTurnedOff/title"
+msgstr "Pozor!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "Ne"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "Ano"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "Storno"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "Opustíte posádku aktuální budovy %(oldBuilding)s. Budete přiděleni k budově %(newBuilding)s."
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "Potvrdit"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "Přidělit k budově"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "Zrušit"
+
+msgid "freeObtainConfirmation/message"
+msgstr "Získat %(product)s za %(price)s?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "Získat"
+
+msgid "freeObtainConfirmation/title"
+msgstr "Potvrzení"
+
+msgid "freeSkillsLearning/message"
+msgstr "Nultou schopnost není třeba cvičit za ZK. Poskytuje výhodu tím, že výrazně snižuje počet ZK potřebných k dalšímu výcviku člena posádky."
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "Zvolit „%(skillName)s“ jako nultou specializaci?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "Přeškolit „%(skillName)s“ jako nultou specializaci?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "Storno"
+
+msgid "freeSlotConfirmation/message"
+msgstr "Využít 100% slevu na přidání stání do garáže zdarma?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "Přidat"
+
+msgid "freeSlotConfirmation/title"
+msgstr "Přidat stání"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "Zavřít"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "Dosáhli jste limitu nákupů vozidel zdarma. Zkuste to znovu zítra."
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "Zavřít"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "Nákupní limit"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)sZkušenosti%(orangeText_close)s%(simpleText_open)s jsou herní zdroj, který se získává v bitvách.\n\nTo zahrnuje:%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)sBojové zkušenosti%(orangeText_close)s%(simpleText_open)s, které se používají k výzkumu modulů konkrétního vozidla a také pro další postup ve hře ze světa společnosti Wargaming, ve které byly získány.%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sVolné zkušenosti%(orangeText_close)s%(simpleText_open)s, které slouží k výzkumu libovolných modulů a vozidel a rovněž ke zrychlení výcviku posádky. Utrácejte prosím volné zkušenosti s rozvahou.%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "Pokračovat"
+
+msgid "freeXPInfo/title"
+msgstr "Zkušenosti"
+
+msgid "gammaDialog/cancel"
+msgstr "Spustit"
+
+msgid "gammaDialog/message/description"
+msgstr "Veliteli! Nastavte svůj monitor tak, aby upravoval míru kontrastu (gamma) barev a zlepšil tak celkovou kvalitu obrazu na vaší obrazovce.\n\n "
+
+msgid "gammaDialog/message/header"
+msgstr "Nastavte svůj monitor hned teď!"
+
+msgid "gammaDialog/title"
+msgstr "Nastavení gamma"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "Po konvertování:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "Před konvertováním:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "Storno"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "Konvertovat"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "Celkem:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "Posádka"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "Vozidlo"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "Zkušenosti"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "Všechna vozidla"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "Řadit podle vybraných vozidel."
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "Řadit podle názvů vozidel."
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "Vozidla"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "Řadit podle získaných zkušeností."
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "Zkušenosti"
+
+msgid "gatheringXPForm/title"
+msgstr "Konverze na volné zkušenosti"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "Konvertovat zkušenosti:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "Výcvik posádky je zrychlen."
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "Výcvik posádky probíhá standardně."
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "Celkem:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "Celkem:"
+
+msgid "graphics/message/alert"
+msgstr "Pozor!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "Storno"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "Režim obrazovky byl změněn. Návrat k předchozímu nastavení za %(time)s sekund. Uložit vybrané nastavení?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "Uložit"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "Uložit nastavení režimu obrazovky"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "Ne"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "Upozornění! Všechny změny budou ztraceny. Opravdu pokračovat?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "Ano"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "Automatická detekce nastavení grafiky"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "Ne"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "Upozornění! Změna některých nastavení grafiky může nějakou dobu trvat. Pokračovat?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "Ano"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "Upravit nastavení"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "Zavřít"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "Parametry nelze nastavit na maximum. Místo toho bude nastavena uživatelem vybraná kvalita grafiky."
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "Pozor"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "Zavřít"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "Textury ve vysoké kvalitě jsou dostupné pouze na 64-bit systémech."
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "Kvalita textur není k dispozici"
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "Storno"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "Později"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "Upozornění! Některá nastavení se projeví až po restartu hry."
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "Restartovat"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "Upravit nastavení"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/message"
+msgstr "Nejsou žádná volná stání v garáži. Zauvažujte nad nákupem nového stání nebo prodejem vozidla, abyste získali místo pro vozidlo, které chcete koupit."
+
+msgid "haveNoEmptySlots/submit"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/title"
+msgstr "Chyba"
+
+msgid "hof/excludeRating/cancel"
+msgstr "Storno"
+
+msgid "hof/excludeRating/message"
+msgstr "Ostatní hráči již nadále neuvidí vaše úspěchy, ale na hlavní stránce Síně slávy můžete znovu povolit jejich zobrazení."
+
+msgid "hof/excludeRating/submit"
+msgstr "Skrýt výsledky"
+
+msgid "hof/excludeRating/title"
+msgstr "Ukázat výsledky v hodnocení"
+
+msgid "hofDisabled/cancel"
+msgstr "Zavřít"
+
+msgid "hofDisabled/message"
+msgstr "Síň slávy je dočasně nedostupná. Zkuste to prosím později."
+
+msgid "hofDisabled/title"
+msgstr "Pozor!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "Zrušit"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}Nekompletní posádka{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}Jeden nebo více členů posádky nejsou vhodní{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "Vybrané vozidlo není vhodné z jednoho z následujících důvodů:"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "Bonus může získat jen jedna posádka. Bonus bude přesunut z vozidla"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "na vozidlo"
+
+msgid "idleCrewBonus/submit"
+msgstr "Potvrdit"
+
+msgid "idleCrewBonus/title"
+msgstr "Aktivovat Intenzivní výcvikový režim posádky?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "Zkuste v nastavení (v záložce Grafika) vypnout Hardwarovou akceleraci prohlížeče."
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "Chyba při načítání"
+
+msgid "interviewQuit/cancel"
+msgstr "Zpět"
+
+msgid "interviewQuit/message"
+msgstr "Průzkum můžete nyní odmítnout a později se ho znovu zúčastnit kliknutím na zprávu s pozvánkou ve vašem centru oznámení. Zpráva je aktivní po dobu jedné herní sezóny."
+
+msgid "interviewQuit/submit"
+msgstr "Odmítnout"
+
+msgid "interviewQuit/title"
+msgstr "Odmítnout průzkum"
+
+msgid "koreaParentNotification/cancel"
+msgstr "Potvrzuji!"
+
+msgid "koreaParentNotification/message"
+msgstr "Aby se zabránilo herní závislosti u dětí a dospívajících, je vstup do bitvy po %(preBlockTime)s zakázán. Od serveru budete odpojeni v %(blockTime)s."
+
+msgid "koreaParentNotification/submit"
+msgstr "Potvrzuji!"
+
+msgid "koreaParentNotification/title"
+msgstr "Omezení herní doby"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "Potvrzuji!"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "Časový limit vypršel. Nemůžete vstoupit do nové bitvy."
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "Potvrzuji!"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "Rodičovská kontrola"
+
+msgid "leaveEvent/cancel"
+msgstr "Storno"
+
+msgid "leaveEvent/message"
+msgstr "Výsledky vašich bitev v soutěži se po aktualizaci hodnocení vynulují. Nebudete se moci umístit v hodnocení a získat odměnu.\n\nPoté, co soutěž opustíte, %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "NEMŮŽETE SE DO NÍ ZNOVU ZAPOJIT."
+
+msgid "leaveEvent/submit"
+msgstr "Opustit soutěž"
+
+msgid "leaveEvent/title"
+msgstr "Opustit soutěž"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "Storno"
+
+msgid "leaveStartedEvent/message"
+msgstr "Výsledky vašich bitev se do této soutěže nebudou počítat. Nebudete se moci umístit v hodnocení a získat odměnu.\n\nPoté, co soutěž opustíte, %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "Opustit soutěž"
+
+msgid "leaveStartedEvent/title"
+msgstr "Opustit soutěž"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "Storno"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "Již jste na soustředění před bitvou. Chcete jej opustit a přijmout pozvánku?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "Pozvánka"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "Storno"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "Již jste součástí čety. Chcete opustit četu a přijmout pozvánku?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "Pozvánka"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "Storno"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "Již jste ve výcvikové místnosti. Opravdu chcete místnost opustit a přijmout pozvánku?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "Pozvánka"
+
+msgid "legalInfoWindow/title"
+msgstr "Právní informace"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "Zrušit"
+
+msgid "limitedUIOffNotification/message"
+msgstr "Jste si jistí, že chcete vypnout postupné objevování se skrytých prvků rozhraní v garáži?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "Pokud tuto možnost vypnete, už ji nebudete moci znovu zapnout."
+
+msgid "limitedUIOffNotification/submit"
+msgstr "Vypnout"
+
+msgid "limitedUIOffNotification/title"
+msgstr "Upravit nastavení"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "Zrušit"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "Změny serveru se nyní uloží. Automatické přihlášení můžete zapnout či vypnout v nastavení."
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "Pokračovat"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "Uložit změnu serveru?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "Nedostatek granátů v zásobě alternativní konfigurace. Přesto vstoupit do bitvy?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "Nekompletní munice"
+
+msgid "lowAmmo/cancel"
+msgstr "Storno"
+
+msgid "lowAmmo/message"
+msgstr "Nedostatek granátů v zásobníku munice vybraného vozidla. Před začátkem bitvy bude munice automaticky doplněna."
+
+msgid "lowAmmo/submit"
+msgstr "Doplnit"
+
+msgid "lowAmmo/title"
+msgstr "Automatické doplnění munice"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "Storno"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "Nedostatek granátů v zásobě munice vybraného vozidla. Přesto vstoupit do bitvy?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "Bitva!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "Nekompletní munice"
+
+msgid "lowFpsWarning/cancel"
+msgstr "Ne"
+
+msgid "lowFpsWarning/message"
+msgstr "Aktuální nastavení má za následek nízký výkon hry. Chcete nastavit nižší kvalitu grafiky?"
+
+msgid "lowFpsWarning/submit"
+msgstr "Ano"
+
+msgid "lowFpsWarning/title"
+msgstr "Nízký výkon hry"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "Informace o hráči %(userName)s jsou uzamčeny."
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "Informace o hráči uzamčeny"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "Informace o uživateli %(userName)s nejsou momentálně k dispozici."
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "Aktuálně nedostupná data"
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "Storno"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s Zapnutí tohoto nastavení sníží výkon vašeho počítače v bitvě."
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "Pozor!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "Zapnout"
+
+msgid "minimapAlphaNotification/title"
+msgstr "Průhlednost minimapy"
+
+msgid "moduleSale/conformation/header"
+msgstr "Prodat %(moduleType)s „%(moduleName)s“?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "Storno"
+
+msgid "moneyTransfer/labelClan"
+msgstr "Klan:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "kreditů"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "zlaťáků"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "Poplatek:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "Převod:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "Normální:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "kreditů"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "zlaťáků"
+
+msgid "moneyTransfer/labelTo"
+msgstr "Komu:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "Celkem:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(není vojákem klanu)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "Poslat"
+
+msgid "moneyTransfer/title"
+msgstr "Převod zlaťáků…"
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "Storno"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "Bude vám stržen poplatek {fee} <img src='icon_gold' />. Opravdu chcete převést {gold} <img src='icon_gold' /> na účet hráče {player}?"
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "Převést"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "Potvrzení převodu"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Nastavit heslo finančních převodů</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/message"
+msgstr "Převod zlaťáků není povolen. Důvod: %s."
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "Omezení převodu vyprší %s."
+
+msgid "moneyTransferRestriction/submit"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/title"
+msgstr "Převod zlaťáků není dovolen."
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "Ne"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "Změny některých nastavení se provedou v příští bitvě. Pokračovat?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "Ano"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "Upravit nastavení"
+
+msgid "perkLearnConfirm/desc"
+msgstr "Úroveň schopnosti po výcviku: {yellow_Open}%(level)s %%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "Vycvičit"
+
+msgid "perkLearnConfirm/title"
+msgstr "Vycvičit schopnost „%(skillName)s“?"
+
+msgid "perksReset/after"
+msgstr "Po obnovení:"
+
+msgid "perksReset/before"
+msgstr "Před obnovením:"
+
+msgid "perksReset/cancel"
+msgstr "Zrušit"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "Tato možnost není dostupná, protože již máte 100% slevu na obnovení schopností v tankové akademii."
+
+msgid "perksReset/discountTooltip/header"
+msgstr "Není k dispozici"
+
+msgid "perksReset/free/description"
+msgstr "Schopnost až do {yellow_Open}1%{yellow_Close} lze obnovit zdarma."
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "Tento člen posádky má bezplatné první obnovení schopností"
+
+msgid "perksReset/graceLabel"
+msgstr "Bezplatné obnovení schopností bude dostupné za:"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "Celkový počet ZK schopnosti se sníží. Pro výcvik bude k dispozici méně schopností."
+
+msgid "perksReset/noNewPerks"
+msgstr "Všechny zkušenosti z vycvičených schopností budou přidány k úrovni hlavní kvalifikace."
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "z celkových ZK schopnosti"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "Posádkový výcvik"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "z celkových ZK schopnosti"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "Rychlokurz"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "Obnovit schopnosti\n bez ztráty ZK"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "Použijte kredity k obnovení schopností bez ztráty ZK"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "Tanková akademie"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "Obnovit schopnosti\n bez ztráty ZK"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "Obnovit"
+
+msgid "perksReset/title"
+msgstr "Obnovit všechny schopnosti člena posádky?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "Zrušit"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "Vybraná kvalita fyziky zvuku se liší od nastavení automaticky detekovaného herním klientem. Povolení této možnosti může ovlivnit výkon. Před potvrzením doporučujeme otestovat výkon. Chcete tyto změny použít?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "Potvrdit"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "Nesoulad kvality fyziky zvuku"
+
+msgid "postmortem/cancel"
+msgstr "Opustit"
+
+msgid "postmortem/message"
+msgstr "Vozidlo bylo zničeno. Chcete zůstat v bitvě, nebo odejít do garáže?"
+
+msgid "postmortem/submit"
+msgstr "Zůstat"
+
+msgid "postmortem/title"
+msgstr "Vozidlo zničeno"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "Storno"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "Koupit prémiový účet na %(days)s dnů za %(gold)s zlaťáků?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "Koupit"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "Potvrzení nákupu"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "Storno"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "Prodloužit prémiový účet o %(days)s d za %(gold)s zlaťáků?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "Prodloužit"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "Potvrzení prodloužení"
+
+msgid "priceCard/credits/title"
+msgstr "Posádkový výcvik"
+
+msgid "priceCard/free/title"
+msgstr "Rychlokurz"
+
+msgid "priceCard/gold/title"
+msgstr "Tanková akademie"
+
+msgid "priceCard/price/free"
+msgstr "Zdarma"
+
+msgid "priceCard/recertification/title"
+msgstr "Příkaz k přeškolení"
+
+msgid "punishmentWindow/cancel"
+msgstr "Rozumím"
+
+msgid "punishmentWindow/header/ban"
+msgstr "Byli jste zablokováni na %(time)s"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "Byli jste potrestáni"
+
+msgid "punishmentWindow/header/warning"
+msgstr "Nesportovní chování"
+
+msgid "punishmentWindow/info"
+msgstr "Pokud byla vaše situace způsobena problémy s připojením nebo jinými technickými problémy,\nkontaktujte prosím Podporu pro hráče."
+
+msgid "punishmentWindow/message/ban"
+msgstr "Na mapě {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} v době {whiteSpanish_Open}%(time)s{whiteSpanish_Close} jste porušili pravidla hry.\nDočasně jste byli zablokováni v bitvách režimu {whiteSpanish_Open}„%(mode)s“{whiteSpanish_Close}."
+
+msgid "punishmentWindow/message/penalty"
+msgstr "Na mapě {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} v době {whiteSpanish_Open}%(time)s{whiteSpanish_Close} jste porušili pravidla hry.\nByly odstraněny kredity, ZK a odměny získané v bitvě."
+
+msgid "punishmentWindow/message/warning"
+msgstr "Na mapě {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} v době {whiteSpanish_Open}%(time)s{whiteSpanish_Close} jste porušili pravidla hry.\nV případě opakovaného porušení přijdete o všechny kredity, zkušenosti a odměny získané v bitvě."
+
+msgid "punishmentWindow/reason/afk"
+msgstr "Nečinnost v bitvě"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "Opuštění bitvy před tím, než skončí, nebo před zničením vozidla."
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "Nečinnost v bitvě / Předčasné opuštění bitvy"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "Úmyslné sebezničení"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s d %(hour)s h"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 min"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s min"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "Storno"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "Neptat se znovu"
+
+msgid "questsConfirmDialog/message"
+msgstr "Když si vyberete misi \"%(newQuest)s\", mise \"%(oldQuest)s\" bude zrušena."
+
+msgid "questsConfirmDialog/submit"
+msgstr "Potvrdit"
+
+msgid "questsConfirmDialog/title"
+msgstr "Potvrzení výběru mise"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "Storno"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "Veškerý postup v misi „%(curQuest)s“ bude vynulován.\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "Pozor! Veškerý postup ve stávající misi bude ztracen."
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "Potvrdit"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "Vynulování postupu"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "Storno"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "Pokud si vyberete misi „%(newQuest)s“, bude váš postup v misi „%(oldQuest)s“ vynulován.\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "Pozor! Veškerý postup ve stávající misi bude ztracen."
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "Ano"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "Potvrzení výběru mise"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "Storno"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "Mise „%(quest)s“ bude zrušena.\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "Pozor! Veškerý postup ve stávající misi bude ztracen."
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "Ano"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "Potvrzení zrušení mise"
+
+msgid "quit/cancel"
+msgstr "Zůstat"
+
+msgid "quit/submit"
+msgstr "Odejít"
+
+msgid "quit/title"
+msgstr "Opustit hru?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "Zrušit"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "Váš tým vás potřebuje! Opuštění bitvy před tím, než skončí, nebo před zničením vašeho vozidla se považuje za dezerci. To může vést k uložení trestu a odnětí všech bonusů za bitvu odehranou v IGR."
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "Dezertovat"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "Dezertovat z bojiště?"
+
+msgid "quitBattle/cancel"
+msgstr "Zrušit"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Zrušit"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Váš tým vás potřebuje! Opuštění bitvy před tím, než skončí, nebo před zničením vašeho vozidla se považuje za dezerci. To může vést k uložení trestu."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Dezertovat"
+
+msgid "quitBattle/leaver/title"
+msgstr "Dezertovat z bojiště?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "Zrušit"
+
+msgid "quitBattle/replay/submit"
+msgstr "Opustit"
+
+msgid "quitBattle/replay/title"
+msgstr "Opustit režim pozorovatele?"
+
+msgid "quitBattle/submit"
+msgstr "Opustit"
+
+msgid "quitBattle/title"
+msgstr "Opustit bitvu?"
+
+msgid "quitPreBattle/cancel"
+msgstr "Ne"
+
+msgid "quitPreBattle/message"
+msgstr "Opravdu chcete opustit soustředění před bitvou?"
+
+msgid "quitPreBattle/submit"
+msgstr "Ano"
+
+msgid "quitPreBattle/title"
+msgstr "Opustit soustředění před bitvou"
+
+msgid "rally/autoSearch/cancel"
+msgstr "Ne"
+
+msgid "rally/autoSearch/message"
+msgstr "Vyhledat dostupné sloty automaticky?"
+
+msgid "rally/autoSearch/submit"
+msgstr "Ano"
+
+msgid "rally/autoSearch/title"
+msgstr "Automatické vyhledávání"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "Storno"
+
+msgid "rally/changePeriphery/message"
+msgstr "Budete automaticky převedeni na jiný server (%(host)s). I přesto pokračovat?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "Převést"
+
+msgid "rally/changePeriphery/title"
+msgstr "Převod na jiný server"
+
+msgid "rally/goToAnother/cancel"
+msgstr "Storno"
+
+msgid "rally/goToAnother/message"
+msgstr "Pokud změníte režim bitvy, budete automaticky vyloučeni z taktické jednotky."
+
+msgid "rally/goToAnother/submit"
+msgstr "Převést"
+
+msgid "rally/goToAnother/title"
+msgstr "Změnit režim"
+
+msgid "rally/goToIntro/cancel"
+msgstr "Storno"
+
+msgid "rally/goToIntro/message"
+msgstr "Opravdu chcete opustit taktickou jednotku?"
+
+msgid "rally/goToIntro/submit"
+msgstr "Potvrdit"
+
+msgid "rally/goToIntro/title"
+msgstr "Potvrdit opuštění"
+
+msgid "rally/goToSquad/cancel"
+msgstr "Storno"
+
+msgid "rally/goToSquad/message"
+msgstr "Pokud založíte četu, automaticky opustíte aktuální režim bitvy."
+
+msgid "rally/goToSquad/submit"
+msgstr "Založit"
+
+msgid "rally/goToSquad/title"
+msgstr "Založit četu"
+
+msgid "rally/leave/cancel"
+msgstr "Storno"
+
+msgid "rally/leave/message"
+msgstr "Opravdu chcete opustit taktickou jednotku a opustit režim?"
+
+msgid "rally/leave/submit"
+msgstr "Potvrdit"
+
+msgid "rally/leave/title"
+msgstr "Potvrdit opuštění"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "Pokračovat"
+
+msgid "rally/leaveDisabled/message"
+msgstr "Nelze opustit režim. Vaše vozidlo je ve slotu připraveno k bitvě."
+
+msgid "rally/leaveDisabled/title"
+msgstr "Pozor"
+
+msgid "rally/startBattle/cancel"
+msgstr "Ne"
+
+msgid "rally/startBattle/message"
+msgstr "Vyhledat nepřítele?"
+
+msgid "rally/startBattle/submit"
+msgstr "Ano"
+
+msgid "rally/startBattle/title"
+msgstr "Hledání nepřítele"
+
+msgid "recruit/cancel"
+msgstr "Zrušit"
+
+msgid "recruit/submit"
+msgstr "Naverbovat"
+
+msgid "recruit/title"
+msgstr "Naverbovat nového %(role)s pro %(vehicleName)s?"
+
+msgid "recruit/voiceoverText"
+msgstr "Jedinečný dabing člena posádky funguje pouze s kvalifikací velitele."
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "Pro prémiová vozidla nemusíte členy posádky verbovat. Posádky lze do prémiových vozidel stejného typu přesouvat bez postihu."
+
+msgid "recruit/warning/slotChanged"
+msgstr "Tohoto člena posádky nelze naverbovat pro vybrané vozidlo, bude proto odeslán do kasáren."
+
+msgid "recruitConversionConfirm/warning"
+msgstr "Člen posádky má zastaralé schopnosti, které budou automaticky obnoveny bez ztráty ZK."
+
+msgid "recruitDialog/name/title"
+msgstr "Naverbovat nového člena posádky (%(name)s)?"
+
+msgid "recruitDialog/title"
+msgstr "Naverbovat nového člena posádky?"
+
+msgid "recruitWindow/cancel"
+msgstr "Zrušit"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "Nevybráno"
+
+msgid "recruitWindow/nation"
+msgstr "Národ"
+
+msgid "recruitWindow/specialization"
+msgstr "Kvalifikace"
+
+msgid "recruitWindow/submit"
+msgstr "Naverbovat"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "Typ vozidla"
+
+msgid "recruitWindow/vehicleType"
+msgstr "Vozidlo"
+
+msgid "referralReward/cancel"
+msgstr "Storno"
+
+msgid "referralReward/message"
+msgstr "Vyzvednout %(product)s?"
+
+msgid "referralReward/submit"
+msgstr "Potvrdit"
+
+msgid "referralReward/title"
+msgstr "Potvrzení přijetí"
+
+msgid "refuseTraining/cancel"
+msgstr "Ne"
+
+msgid "refuseTraining/message"
+msgstr "Ukončit výcvik?"
+
+msgid "refuseTraining/submit"
+msgstr "Ano"
+
+msgid "refuseTraining/title"
+msgstr "Potvrzení"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "Zničit"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "Storno"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "Spotřební doplněk „%(name)s“ bude přesunut do skladu kvůli %(reason)s se stávajícím modulem."
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "nekompatibilitě"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "Demontovat"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "Potvrzení demontáže"
+
+msgid "rentConfirmation/cancel"
+msgstr "Storno"
+
+msgid "rentConfirmation/event"
+msgstr "pro režim „%(eventName)s“"
+
+msgid "rentConfirmation/message"
+msgstr "Pronajmout %(name)s %(event)s za %(price)s?"
+
+msgid "rentConfirmation/submit"
+msgstr "Potvrdit"
+
+msgid "rentConfirmation/title"
+msgstr "Potvrzení pronájmu"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "Storno"
+
+msgid "rentConfirmationRenew/message"
+msgstr "Prodloužit období pronájmu %(name)s %(event)s za %(price)s?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "Potvrdit"
+
+msgid "rentConfirmationRenew/title"
+msgstr "Potvrzení pronájmu"
+
+msgid "replacePassport/unique/cancel"
+msgstr "Storno"
+
+msgid "replacePassport/unique/message"
+msgstr "Toto je jedinečný člen posádky a jeho osobní údaje nemohou být později obnoveny. Jste si jistí, že chcete nahradit osobní údaje za %(gold)s?"
+
+msgid "replacePassport/unique/submit"
+msgstr "Přepsat"
+
+msgid "replacePassport/unique/title"
+msgstr "Potvrďte nahrazení"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "Storno"
+
+msgid "replacePassportConfirmation/message"
+msgstr "Nahradit osobní údaje tohoto člena posádky za %(gold)s?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "Přepsat"
+
+msgid "replacePassportConfirmation/title"
+msgstr "Přepis osobních údajů"
+
+msgid "replayNotification/cancel"
+msgstr "Ne"
+
+msgid "replayNotification/message"
+msgstr "Aktuální verze World of Tanks není kompatibilní se záznamy bitev. To může způsobit potíže při přehrávání. Ignorovat rozdíl a přehrát záznam?"
+
+msgid "replayNotification/submit"
+msgstr "Ano"
+
+msgid "replayNotification/title"
+msgstr "Varování"
+
+msgid "replayStopped/cancel"
+msgstr "Storno"
+
+msgid "replayStopped/message"
+msgstr "Přehrávání záznamu dokončeno. Pro opuštění hry klikněte na tlačítko „Dokončit“."
+
+msgid "replayStopped/submit"
+msgstr "Dokončit"
+
+msgid "replayStopped/title"
+msgstr "Přehrávání záznamu dokončeno"
+
+msgid "reportBug/cancel"
+msgstr "Storno"
+
+msgid "reportBug/message"
+msgstr "Kliknutí sem otevře váš výchozí prohlížeč a přesměruje vás na webovou stránku podpory pro hráče World of Tanks, kde můžete nahlásit chybu. Pokračovat?"
+
+msgid "reportBug/submit"
+msgstr "Pokračovat"
+
+msgid "reportBug/title"
+msgstr "Přejít na podporu pro hráče"
+
+msgid "resetAllPerks/cancel"
+msgstr "Zrušit"
+
+msgid "resetAllPerks/submit"
+msgstr "Obnovit"
+
+msgid "resetAllPerks/title"
+msgstr "Obnovit všechny schopnosti pro všechny členy posádky?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}Všechny schopnosti budou u všech členů posádky na vašem účtu obnoveny.{orangeEnd}\n{orangeStart}Tuto operaci nelze vrátit zpět.{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "Pokračovat"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s Nastavení grafiky bylo automaticky vybráno tak, aby zaručilo optimální kvalitu obrazu.\nPro zlepšení výkonu vyberte v nastavení nižší kvalitu grafiky."
+
+msgid "resetGraphics/submit"
+msgstr "Nastavení"
+
+msgid "resetGraphics/title"
+msgstr "Změna nastavení grafiky"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "Obnovit"
+
+msgid "restoreTankman/description"
+msgstr "%(name)s bude obnoven."
+
+msgid "restoreTankman/free"
+msgstr "Cena: zdarma"
+
+msgid "restoreTankman/header"
+msgstr "Obnovit tohoto člena posádky?"
+
+msgid "restoreTankman/price"
+msgstr "Cena:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "Storno"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "Obnovit %(vehiclename)s"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "Obnovit"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "Bez posádky"
+
+msgid "restoreVehicleDialog/title"
+msgstr "Obnovení %(vehiclename)s"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "Poté, co kliknete na tlačítko „Obnovit“, nebude možné směnit zakoupené vybavení a spotřební doplňky za zlaťáky. Zkontrolujte si prosím pečlivě všechny podrobnosti."
+
+msgid "retrain/cancel"
+msgstr "Zrušit"
+
+msgid "retrain/changeRole"
+msgstr "Změnit kvalifikaci"
+
+msgid "retrain/discountLabel"
+msgstr "Je dostupná sleva, protože první schopnost není vycvičena na 100 %."
+
+msgid "retrain/discountTooltip/body"
+msgstr "Tato možnost není dostupná, protože již máte 100% slevu na přeškolení v tankové akademii."
+
+msgid "retrain/discountTooltip/header"
+msgstr "Není k dispozici"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "Členové posádky k přeškolení: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "Pro prémiová vozidla nemusíte cvičit členy posádky.\nPosádky lze do prémiových vozidel stejného typu přesouvat bez postihu."
+
+msgid "retrain/price"
+msgstr "Cena:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "Efektivita schopností\npo přeškolení: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "Posádkový výcvik"
+
+msgid "retrain/priceCard/free/description"
+msgstr "Efektivita schopností\npo přeškolení: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "Rychlokurz"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "Efektivita schopností\npo přeškolení: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "Tanková akademie"
+
+msgid "retrain/submit"
+msgstr "Přeškolit"
+
+msgid "retrain/title/massive"
+msgstr "Přeškolit posádku pro %(vehicleName)s&zwnbsp;?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "Přeškolit pro %(vehicleName)s\na změnit kvalifikaci na %(role)?"
+
+msgid "retrain/title/single/simple"
+msgstr "Přeškolit pro %(vehicleName)s"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "Schopnosti nevhodné kvalifikace nebudou dostupné. Obnovte je ručně."
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "Posádku lze přesunout na prémiová vozidla stejného typu bez výcviku nebo postihů, ale nevhodné kvalifikace je třeba ručně obnovit."
+
+msgid "rudyInfo/message"
+msgstr "Nesmrtelná klasika je již ve hře! „Čtyři z tanku a pes“ (polsky „Czterej pancerni i pies“) byl polský černobílý televizní seriál podle stejnojmenného románu od Janusze Przymanowského. Televizní seriál, který měl premiéru 9. května 1966, popisuje dobrodružství posádky tanku T-34-85, přezdívaného Rudy (Zrzek), a jejich psa Szarika během 2. světové války."
+
+msgid "rudyInfo/submit"
+msgstr "Potvrzuji!"
+
+msgid "rudyInfo/title"
+msgstr "Čtyři z tanku a pes"
+
+msgid "selectVehicle/counter"
+msgstr "Zobrazená vozidla:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "Vyberte útočící vozidlo"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "Vyberte toto vozidlo"
+
+msgid "sellConfirmation/cancel"
+msgstr "Storno"
+
+msgid "sellConfirmation/submit"
+msgstr "Prodat"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "Storno"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "Prodat"
+
+msgid "sellModuleConfirmation/title"
+msgstr "Potvrzení prodeje"
+
+msgid "sellShellConfirmation/submit"
+msgstr "Prodat granát „%(shellName)s“?"
+
+msgid "sendInvites/common/title"
+msgstr "Pozvat do taktické jednotky"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "Storno"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "Statistiky relace se automaticky vynulují za{}"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "Vynulovat"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s h %(minutes)s min"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "Vynulovat statistiky relace?"
+
+msgid "shopSyncError/cancel"
+msgstr "Pokračovat"
+
+msgid "shopSyncError/message"
+msgstr "Aktualizujte aplikaci. Pokud se chyba opakuje, aktualizujte server."
+
+msgid "shopSyncError/title"
+msgstr "Nesynchronizováno"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "Zrušit"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "Vycvičit vybranou schopnost či schopnosti?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "Vycvičit"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "Použít"
+
+msgid "soundModeInvalid/cancel"
+msgstr "Storno"
+
+msgid "soundModeInvalid/message"
+msgstr "Soubory pro zvolený hlas oznámení jsou poškozené nebo chybí. Bude nastaven výchozí hlas oznámení."
+
+msgid "soundModeInvalid/submit"
+msgstr "Uložit"
+
+msgid "soundModeInvalid/title"
+msgstr "Chyba"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "Storno"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "Vybraný systém zvuku se liší od toho, který byl automaticky určen herním klientem. Některé zvuky nemusí být k dispozici. Doporučujeme vám rozdíl zvuku otestovat. Potvrdit změny?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "Potvrdit"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "Neshoda zvukového systému"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "Ne"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "Vybraný systém zvuku se liší od toho, který byl automaticky určen herním klientem. Některé zvuky nemusí být k dispozici. Použít optimální nastavení zvuku?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "Ano"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "Neshoda zvukového systému"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "Potvrzuji!"
+
+msgid "squad/eventDisabled/message"
+msgstr "Akce není k dispozici. Četa bude rozpuštěna."
+
+msgid "squad/eventDisabled/title"
+msgstr "Akce skončila"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Storno"
+
+msgid "squad/goToAnother/message"
+msgstr "Jste v četě. Pokud změníte režim, budete z čety vyloučeni."
+
+msgid "squad/goToAnother/submit"
+msgstr "Převést"
+
+msgid "squad/goToAnother/title"
+msgstr "Změnit režim"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "Zrušit"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "Při změně herního režimu bude vaše stávající četa rozpuštěna. Opravdu chcete změnit typ bitvy?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "Potvrdit"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "Změna režimu hry"
+
+msgid "squad/goToSquad/cancel"
+msgstr "Storno"
+
+msgid "squad/goToSquad/message"
+msgstr "Opustit taktickou jednotku a založit s hráčem četu?"
+
+msgid "squad/goToSquad/submit"
+msgstr "Založit"
+
+msgid "squad/goToSquad/title"
+msgstr "Založit četu"
+
+msgid "squad/leave/cancel"
+msgstr "Storno"
+
+msgid "squad/leave/message"
+msgstr "Opravdu chcete četu opustit?"
+
+msgid "squad/leave/submit"
+msgstr "Potvrdit"
+
+msgid "squad/leave/title"
+msgstr "Potvrdit opuštění"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Pokračovat"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Nemůžete četu opustit. Jste členem čety a jste připraven k bitvě."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Pozor"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "Storno"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "Četa není kompletní. Bude automaticky přidán jeden nebo více hráčů. Připojit se k bitvě?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "Bitva!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "Četa není připravena"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "Storno"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "Četa není úplná. Přesto vstoupit do bitvy?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "Bitva!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "Četa není připravena"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "Storno"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "Četa není kompletní. Přidat hráče automaticky a připojit se k bitvě?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "Bitva!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "Četa není připravena"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "Storno"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "Jeden ze členů čety není připraven. Přesto vstoupit do bitvy?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "Bitva!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "Četa není připravena"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "Storno"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "Hráč, který nepotvrdí, že je připraven, bude z taktické jednotky vyloučen. Jeden hráč navíc bude přidán automaticky. Zapojit se do bitvy?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "Bitva!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "Četa není připravena"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "Storno"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "Ani jeden ze členů čety není připraven. Přesto vstoupit do bitvy?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "Bitva!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "Četa není připravena"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "Storno"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "Četa není kompletní. Hráči, kteří nepotvrdí, že jsou připraveni, budou z taktické jednotky vyloučeni. Přidat hráče automaticky a připojit se k bitvě?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "Bitva!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "Četa není připravena"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "Nepodařilo se připojit do nové bitvy: někteří z hráčů se ještě nevrátili. Počkejte až bude dokončena běžící bitva."
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "Potvrzuji!"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "Četa není připravena"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "OK"
+
+msgid "squadPremiumNeeded/message"
+msgstr "Vícečlenné čety mohou zakládat pouze uživatelé s prémiovým účtem.\nZakladatel čety může pozvat hráče s libovolným typem účtu."
+
+msgid "squadPremiumNeeded/title"
+msgstr "Pouze s prémiovým účtem"
+
+msgid "steamStartNeeded/cancel"
+msgstr "Zavřít hru"
+
+msgid "steamStartNeeded/message"
+msgstr "Ke správnému přihlášení musí být hra spuštěna přes Steam."
+
+msgid "steamStartNeeded/title"
+msgstr "Nelze se přihlásit"
+
+msgid "stronghold/leave/cancel"
+msgstr "Storno"
+
+msgid "stronghold/leave/message"
+msgstr "Opravdu chcete odřad opustit?"
+
+msgid "stronghold/leave/submit"
+msgstr "Potvrdit"
+
+msgid "stronghold/leave/title"
+msgstr "Potvrzení opuštění"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "Jakmile odřad opustíte, tak bude rozpuštěn.\nKlan bude penalizován za to, že se nedostavil do bitvy.\nOpravdu chcete odřad opustit?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "Potvrzení opuštění"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "Storno"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "Převést"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "Převést na jiný server"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "Storno"
+
+msgid "tradeInConfirmation/message"
+msgstr "Vozidlo %(vehName)s bude odevzdáno a nepůjde ho obnovit.%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " Navíc, %(operations)s."
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "posádka bude poslána do kasáren"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "spotřební doplňky budou poslány do skladu"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "vybavení bude odmontováno zadarmo"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "všechny zakoupené duální modifikace budou zrušeny, ale postup ve standardních modifikacích bude uložen"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "munice bude poslána do skladu"
+
+msgid "tradeInConfirmation/submit"
+msgstr "Vyměnit"
+
+msgid "tradeInConfirmation/title"
+msgstr "Výměna vozidla"
+
+msgid "tradeInPopover/descr"
+msgstr "Prémiová vozidla dostupná v garáži"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "Zobrazuje národy vybraných vozidel."
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "Národ"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "Zobrazuje, kolik ušetříte při výměně vybraných vozidel"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "Ocenění\nvozidla"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "Ohodnocení vozidla"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "Zobrazuje úrovně vybraných vozidel."
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "Úroveň"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "Zobrazuje názvy vybraných vozidel."
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "Název"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "Zobrazuje typy vybraných vozidel."
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "Typ"
+
+msgid "tradeInPopover/title"
+msgstr "Vyberte vozidlo na výměnu"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "Vybrat vozidlo"
+
+msgid "updateNeeded/cancel"
+msgstr "Později"
+
+msgid "updateNeeded/message"
+msgstr "Aktualizujte prosím svého klienta."
+
+msgid "updateNeeded/submit"
+msgstr "Obnovit"
+
+msgid "updateNeeded/title"
+msgstr "Požadována aktualizace"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "Storno"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "Vyškolit člena posádky za {%d} zlaťáků?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "Vyškolit"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "Potvrzení výcviku"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "Na vyškolení není dostatek zlaťáků."
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "Nedostatek zlaťáků"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "Storno"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "Vyškolit člena posádky za {%d} kreditů?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "Vyškolit"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "Potvrzení výcviku"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "Na vyškolení není dostatek kreditů."
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "Nedostatek kreditů."
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "Storno"
+
+msgid "vehConf/exitDialog/message"
+msgstr "Úpravy nebudou uloženy. Opustit nabídku konfigurace vozidla?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "Potvrdit"
+
+msgid "vehConf/exitDialog/title"
+msgstr "Zrušení změn"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "Odstranit z garáže %(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "Storno"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "Pozor! Toto je speciální vozidlo. Pokud ho prodáte, budete muset počkat %(cooldown)s d, abyste ho mohli obnovit. Prodat vozidlo?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "Potvrdit"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "Potvrzení prodeje"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "Storno"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "Pozor! Toto je speciální vozidlo. Pokud ho však prodáte, budete ho moci obnovit. Prodat vozidlo?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "Potvrdit"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "Potvrzení prodeje"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "Storno"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "Storno"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "POZOR! Tento tank je jedinečný a nelze ho obnovit. Posádka bude také trvale propuštěna."
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "Potvrdit"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "Potvrzení prodeje"
+
+msgid "vehicleSell/unique/message"
+msgstr "Pozor! Toto je speciální vozidlo. Nelze ho zakoupit v obchodě. Pokračovat?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "Ano"
+
+msgid "vehicleSell/unique/title"
+msgstr "Potvrzení prodeje"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "POTVRDIT PRODEJ"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "Pro potvrzení opište prodejní cenu z kolonky \"Celkem\" (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "Zadali jste nesprávnou informaci."
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "MUNICE:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "SMĚRNICE:"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "Storno"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "CELKEM:"
+
+msgid "vehicleSellDialog/count"
+msgstr "kusů"
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "Propustit do výslužby"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "Poslat do kasáren"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "POSÁDKA:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "VNĚJŠÍ VZHLED:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "Rozložit"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "SPOTŘEBNÍ DOPLŇKY:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "Detaily"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "SKLAD:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "Utraceno:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "Včetně všech národních konfigurací vozidla!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "Moduly"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "VYBAVENÍ:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "Pokud je vozidlo prodáno, zůstane mu stávající úroveň polního vylepšení, ale všechny duální modifikace budou zrušeny."
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "Získáno:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "Odstranit"
+
+msgid "vehicleSellDialog/submit"
+msgstr "Prodat"
+
+msgid "vehicleSellDialog/title"
+msgstr "Prodat %(name)s"
+
+msgid "vehicleSellDialog/unload"
+msgstr "Do skladu"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "Elitní"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "Cena"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr ". úroveň. "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "Úloha: "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "Stíhač tanků"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "Dělostřelectvo"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "Těžký tank"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "Lehký tank"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "Střední tank"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "Potvrzuji!"
+
+msgid "voiceChatInitFailed/message"
+msgstr "Chyba při inicializaci hlasové komunikace: služba je momentálně nedostupná."
+
+msgid "voiceChatInitFailed/title"
+msgstr "Spuštění hlasové komunikace"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "OK"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "Hlasová komunikace úspěšně spuštěna."
+
+msgid "voiceChatInitSucceded/title"
+msgstr "Spuštění hlasové komunikace"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "Zavřít"
+
+msgid "waterQualityNotPossible/message"
+msgstr "Voda ve vysoké kvalitě je dostupná pouze v případě zapnutí volby 'Rozšířené čištění'."
+
+msgid "waterQualityNotPossible/title"
+msgstr "Nedostupná kvalita vody"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "Zrušit"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "Zkontrolujte, zda jsou v garáži k dispozici vozidla"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "Cena: %(price)s %(icon)s (dostupných: %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "Hráč: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "Vybraná vozidla: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "Obnovit do služby"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "Obnovit do služby?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "Pomocník"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "Odměny za přihlášení"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "Bojový bonus"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "Battle Pass Plus"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "Vyloučená mapa"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "Exkluzivní vozidlo"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "Exkluzivní vozidla"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "Bezplatné odmontování vybavení"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "Zlaťáková rezerva"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "Intenzivní výcvikový režim posádky"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "Kontrolovatelný bonus k ZK"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "Posílení Pro"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "Úprava služebního záznamu"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "Korouhev tankisty"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "WOT PLUS AKTIVOVÁN"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "Jsem připraven!"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "Prodloužení proběhne {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "WOT PLUS CORE AKTIVOVÁN"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "Podrobnosti"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "360denní plán"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "180denní plán"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}, prodloužení proběhne {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "WOT PLUS PRO AKTIVOVÁN"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "Aktivovat"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}Po dobu {{@ style (color #fff)}}{{boostInterval}} hodin nebudete moct znovu posílit jiné vozidlo{{/}}.{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "Aktivace posílení Pro umožňuje tomuto vozidlu získat o {{@ style (color #fff)}}{{bonusPercent}} více kreditů a ZK{{/}}. Platí pouze pro jedno vozidlo."
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "Aktivovat posílení Pro pro {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "Přepnout"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}Posílení může získat jen jedno vozidlo. Po dobu {{@ style (color #fff)}}{{boostInterval}} hodin nebudete moct znovu posílit jiné vozidlo{{/}}.{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "Aktivace posílení Pro umožňuje tomuto vozidlu získat o {{@ style (color #fff)}}{{bonusPercent}} více kreditů a ZK{{/}}. Platí pouze pro jedno vozidlo."
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "Přepnout posílení Pro na vozidlo {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "Zrušit"
+
+msgid "wotPlusRental/description"
+msgstr "Další pronájem vozidla bude k dispozici {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "Pronájem"
+
+msgid "wotPlusRental/title"
+msgstr "Pronajmout {cream_Open}%s{cream_Close}?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "Uložit"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "Chcete uložit úpravu vašeho služebního záznamu?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "Zrušit"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "Spotřebuje všechny zkušenosti získané v tomto vozidle na výcvik posádky. Nejméně zkušený člen posádky se bude učit dvakrát rychleji."
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "Zapnuto"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "Zrychlit výcvik posádky?"

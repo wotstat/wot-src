@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} у клані"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "ДО СТАТУСУ АКАУНТА"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "НАЗАД"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Замінити мапи можна через {}."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Показати/приховати мапи цього типу."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Пустельні мапи"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Літні мапи"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Зимові мапи"
+
+msgid "mapsBlacklist/header"
+msgstr "Вилучені мапи"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Ви можете вилучити з ротації небажану мапу. Танковий преміум акаунт дає змогу вилучити з ротації додаткову мапу, а підписка WoT Plus — іще %(mapCount)s. Якщо ваша підписка або Танковий преміум закінчаться, вилучені мапи повернуться в ротацію, починаючи з найправішої."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Вилучені мапи"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Ці мапи вилучаються лише з Випадкових боїв."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Вилучену мапу можна замінити кожні %(maxCooldownTimeStr)s."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Ця опція доступна для техніки IV рівня та вище."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "Під час гри взводом з ротації вилучаються лише мапи, обрані командиром."
+
+msgid "mapsBlacklist/mapName"
+msgstr "«{mapName}»"
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Показано мап: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Показано мап: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Типи мап:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Скасувати"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Закрити"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "Вибрану мапу замінять на мапу «{mapNameStr}». Змінити свій вибір можна буде через {cooldownStr}."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Яку з мап ви бажаєте замінити?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Вилучити"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Потрібно вибрати мапу, яку ви бажаєте замінити"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Скасувати"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Закрити"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Змінити свій вибір можна буде через {cooldownStr}."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Вилучити мапу «{mapNameStr}» з Випадкових боїв?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Вилучити"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Вилучити"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Вилучити мапу {mapNameStr}?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Повернути"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Повернути мапу {mapNameStr} у Випадкові бої?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Замінити цю мапу можна через {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Замінити мапу не можна"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Замінити цю мапу можна через {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Замінити мапу не можна"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Не вибрана"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Натисніть, щоб вибрати мапу для вилучення з Випадкових боїв."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Мапу не вибрано"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "Вилучену мапу «{mapName}» можна замінити на іншу."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Можна замінити мапу"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Замінити мапу «{mapName}» можна через {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Замінити мапу не можна"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Додатковий слот доступний лише з активованим Танковим преміум акаунтом."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Слот недоступний"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Виберіть мапу з переліку нижче, щоб вилучити її з Випадкових боїв."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Мапу не вибрано"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Виберіть мапу з переліку нижче, щоб вилучити її з Випадкових боїв."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Можна замінити мапу"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Замінити цю мапу можна через {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Замінити мапу не можна"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "Слот для вилучення додаткової мапи доступний лише з активованим Танковим преміум акаунтом."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Слот недоступний"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Скасувати"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Змінити свій вибір можна буде через {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Змінити"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Вилучити"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Вилучити мапу «%(mapName)s» з Випадкових боїв?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "Вибрану мапу замінять на мапу {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Змінити свій вибір можна буде через %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Яку з мап ви бажаєте замінити?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Цю мапу замінять на мапу {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Змінити свій вибір можна буде через %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Ви бажаєте замінити цю мапу?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Ваш акаунт перебуває під батьківським контролем.\nДетальніше про обмеження, пов'язані з батьківським контролем, читайте {link}."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Батьківський контроль"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "на порталі"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Сховище кредитів"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s д"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s год"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 хв"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s хв"

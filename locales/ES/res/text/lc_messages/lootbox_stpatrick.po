@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Volver a los cofres"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Cofre esmeralda"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "COFRE ESMERALDA"
+
+msgid "common/getButton/lowerCase"
+msgstr "Obtener cofres"
+
+msgid "common/getButton/upperCase"
+msgstr "OBTENER COFRES"
+
+msgid "common/loader"
+msgstr "Abriendo cofre..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Abre cofres para ver las estadísticas."
+
+msgid "common/statistics/header"
+msgstr "Cofres abiertos: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Toda la información sobre los cofres abiertos se eliminará."
+
+msgid "entryPoint/boxes"
+msgstr "A LOS COFRES"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Son cofres especiales que incluyen vehículos premium, accesorios 3D, créditos y otros artículos valiosos del juego.\nSe pueden conseguir en la tienda del juego."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "En este momento, la apertura o la compra de cofres no está disponible por problemas técnicos. Sentimos las molestias temporales."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Cofres no disponibles temporalmente"
+
+msgid "eventName/lowerCase"
+msgstr "Gloria verdosa"
+
+msgid "eventName/upperCase"
+msgstr "GLORIA VERDOSA"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "¡Recompensa garantizada en el próximo cofre!"
+
+msgid "guaranteedTitle/text"
+msgstr "Número máximo de cofres abiertos antes de la recompensa garantizada: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Si no abres los cofres antes de que acabe el evento, se abrirán automáticamente."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Si ya tienes todos los vehículos de la lista de contenido posible del cofre, recibirás oro como compensación por el valor total de los siguientes vehículos que aparezcan en los cofres."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Se garantiza la entrega de un vehículo del nivel VIII o IX cada %(guaranteed0)s cofres. Si los abres sin que aparezca ninguno de estos blindados, recibirás un vehículo del nivel VIII o IX que no tengas al abrir el %(guaranteed0)s&zwnbsp;º cofre. Después de cada aparición, el contador se reinicia."
+
+msgid "infoPage/header/description"
+msgstr "¡Abre el cofre y podrás recibir artículos valiosos del juego! Más detalles a continuación."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "De los %(name) (%(boxesCount) cofres abiertos)"
+
+msgid "noBoxesView/description/"
+msgstr "No tienes ningún cofre.\nPuedes comprarlos en la tienda del juego."
+
+msgid "preview/backLabel"
+msgstr "A LOS COFRES"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Cofres disponibles: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "No hay cofres disponibles"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Si ya tienes todos los vehículos de la lista de posible contenido del cofre, recibirás oro como compensación por los siguientes vehículos que aparezcan en los cofres."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) cofre"
+msgstr[1] "%(remainingCount) cofres"
+msgstr[2] "%(remainingCount) cofres"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "La recompensa garantizada es un vehículo de la lista de contenido posible.\nSi abres %(remainingCount) cofres sin que aparezca uno de estos vehículos, lo hará cuando abras el %(count).º. Cuando aparece, se reinicia el contador."

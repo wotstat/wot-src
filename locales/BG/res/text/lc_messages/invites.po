@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Преводач <noreply@wargaming.net>\nLanguage-Team: WoT Екип <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sВиж%(linkEndTag)s информация за играча"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sКандидатура за клана%(titleEndTag)s\nот %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Виж кандидатурите"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sИзключи%(linkEndTag)s уведомленията"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sКандидатури от играчи: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sВиж%(linkEndTag)s информация за клана"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sПокана за клан%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Виж поканите"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sПокани за клан: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "Играчът беше приет в клана."
+
+msgid "clans/state/app/declined"
+msgstr "Кандидатурата е отхвърлена."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "Еднодневното наказание на играча за напускане на предишния клан все още не е изтекло."
+
+msgid "clans/state/invite/accepted"
+msgstr "Бяхте приет в клана."
+
+msgid "clans/state/invite/declined"
+msgstr "Поканата е отхвърлена."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Еднодневното наказание за напускане на предишния ви клан все още не е изтекло."
+
+msgid "errors/creationNotAllowed"
+msgstr "Нямате права за създаване на покана."
+
+msgid "errors/invalid"
+msgstr "Невалидна покана."
+
+msgid "errors/inviteNotSupported"
+msgstr "Този вид покана не е достъпна в момента. Опитайте пак по-късно."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "Получателят на поканата ви добави към списъка си \"Игнорирани\"."
+
+msgid "errors/selfinvite"
+msgstr "Не можете да поканите себе си."
+
+msgid "errors/unknownuser"
+msgstr "Този потребител все още не е регистриран в системата."
+
+msgid "errors/useroffline"
+msgstr "Потребителят не е на линия."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "Машината в Парка е повредена или заключена. Изберете друга машина."
+
+msgid "friendship/note/approved"
+msgstr "Играчът е добавен към \"Приятели\""
+
+msgid "friendship/note/canceled"
+msgstr "Искането е отхвърлено"
+
+msgid "friendship/note/maxRoster"
+msgstr "Максимален брой контакти в списъка: %(rosterMaxCount)s. За да добавите този играч към списъка си с приятели, първо махнете някого от списъка."
+
+msgid "friendship/note/notConnected"
+msgstr "Неуспешно свързване със сървъра. Моля изчакайте."
+
+msgid "friendship/note/process"
+msgstr "Чака се отговор от сървъра"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sПокана за приятелство%(titleEndTag)s\nот %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Приеми"
+
+msgid "gui/buttons/cancel"
+msgstr "Отмени"
+
+msgid "gui/buttons/reject"
+msgstr "Откажи"
+
+msgid "gui/buttons/send"
+msgstr "Изпрати"
+
+msgid "gui/labels/additionalText"
+msgstr "Допълнителен текст към поканата:"
+
+msgid "gui/labels/inviteText"
+msgstr "Текст на поканата:"
+
+msgid "gui/labels/receiver"
+msgstr "Получател:"
+
+msgid "gui/titles/barter"
+msgstr "Покана за търговия"
+
+msgid "gui/titles/clan"
+msgstr "Покана за членство в клан"
+
+msgid "gui/titles/invite"
+msgstr "Покана"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Покани"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от формированието и прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от формированието и прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от битката на глобалната карта и прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от формированието и прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от формированието и прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от формированието и прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от тренировъчната стая в режим \"Фронтова линия\" и прехвърлени на сървъра %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от формированието и прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Ако приемете поканата, автоматично ще излезете от Отборната битка и ще бъдете прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от взвода и прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "След като приемете поканата, ще напуснете \"Укрепления: Битки\" и ще се прехвърлите на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "След като приемете поканата, ще напуснете режима Настъпления и ще бъдете прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от взвода за Разузнавателна мисия и прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от тренировъчната стая и прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "След като приемете поканата, ще напуснете \"Укрепления: Битки\" и ще се прехвърлите на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от взвода и прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "След като приемете поканата, ще напуснете текущия отряд и ще бъдете прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Ако приемете поканата, автоматично ще бъдете извадени от турнира и прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от тренировъчната стая и прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от тренировъчната стая в режим \"Атака\" и прехвърлени на сървъра %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Ако приемете поканата, автоматично ще излезете от Отборната битка и ще бъдете прехвърлени на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "След като приемете поканата, ще напуснете режим \"Стоманен ловец\" и ще се прехвърлите на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "След като приемете поканата, ще напуснете \"Голям лов\" и ще се прехвърлите на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "След като приемете поканата, ще напуснете Атака и ще се прехвърлите на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "След като приемете поканата, ще напуснете Олекотена Атака и ще се прехвърлите на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "След като приемете поканата, ще напуснете режим \"Фронтова линия\" и ще се прехвърлите на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "След като приемете поканата, ще напуснете режим +++Битка от събитие+++ и ще се прехвърлите на сървър %(host)s. "
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "След като приемете поканата, ще напуснете режим Разузнавателна мисия и ще се прехвърлите на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "След като приемете поканата, ще напуснете режим \"Топография\" и ще се прехвърлите на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "След като приемете поканата, ще напуснете \"Случайни битки\" и ще се прехвърлите на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "След като приемете поканата, ще напуснете режим \"Битка за Класацията\" и ще се прехвърлите на сървър %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "След като приемете поканата, ще напуснете режим Загрявка и ще се прехвърлите на сървър %(host)s."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "След като приемете поканата, ще напуснете режим Загрявка и ще се прехвърлите на сървър %(host)s. Няма да можете да го стартирате отново."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от формированието."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от формированието."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от битката на глобалната карта."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от формированието."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от формированието."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от формированието."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от тренировъчната стая в режим \"Фронтова линия\"."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от формированието."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Ако приемете поканата, автоматично ще излезете от Отборната битка."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от взвода."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "След като приемете поканата, ще напуснете Укрепления: Битки."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "След като приемете поканата, ще напуснете режима Настъпления."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от взвода за Разузнавателна мисия."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от тренировъчната стая."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "След като приемете поканата, ще напуснете Укрепления: Битки."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от взвода."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "След като приемете поканата, ще напуснете текущия отряд."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от турнира."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от тренировъчната стая."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "След като приемете поканата, автоматично ще бъдете извадени от тренировъчната стая в режим \"Атака\"."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Ако приемете поканата, автоматично ще излезете от Отборната битка."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "След като приемете поканата, ще напуснете \"Стоманен ловец\"."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "След като приемете поканата, ще напуснете \"Голям лов\"."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "След като приемете поканата, ще напуснете Атака."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "След като приемете поканата, ще напуснете Олекотена Атака."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "След като приемете поканата, ще напуснете \"Фронтова линия\"."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "След като приемете поканата, ще напуснете +++Битка от събитие+++."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "След като приемете поканата, ще напуснете Разузнавателна мисия."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "След като приемете поканата, ще напуснете \"Топография\"."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "След като приемете поканата, ще напуснете \"Случайни битки\"."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "След като приемете поканата, ще напуснете режим \"Битка за Класацията\"."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "След като приемете поканата, ще напуснете режим Загрявка."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "След като приемете поканата, ще напуснете режим Загрявка. Няма да можете да го стартирате отново."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Настройките на сървъра са запазени."
+
+msgid "invites/note/server_change"
+msgstr "Ще бъдете прехвърлени автоматично на сървър %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Не можете да приемете поканата. За да приемете поканата, моля изберете сървър %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Не можете да приемете поканата. За да приемете поканата, моля изберете друг сървър."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Вече се присъединихте към взвода."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Вече се присъединихте към битката на глобалната карта."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Вече се присъединихте към тренировъчната стая."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Вече се присъединихте към взвода."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Вече се присъединихте към взвода."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Вече сте член на отряда."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Вече се присъединихте към взвода."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Вече се присъединихте към турнира."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Вече се присъединихте към тренировъчната стая."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Вече се присъединихте към тренировъчната стая."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Вече се присъединихте към отбора."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Поканата е приета."
+
+msgid "invites/state/DECLINED"
+msgstr "Поканата е отхвърлена."
+
+msgid "invites/state/ERROR"
+msgstr "Невалидна покана."
+
+msgid "invites/state/EXPIRED"
+msgstr "Невалидна покана."
+
+msgid "invites/state/REVOKED"
+msgstr "Поканата е оттеглена."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Показа за взвод \"Стоманен ловец\""
+
+msgid "invites/text/COMP7"
+msgstr "Покана за присъединяване към взвод за режим Атака"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Покана за присъединяване към взвод за режим Олекотена Атака"
+
+msgid "invites/text/EPIC"
+msgstr "Покана за присъединяване към взвод за режим Фронтова линия"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Покана за присъединяване към отборна тренировка в режим \"Фронтова линия\""
+
+msgid "invites/text/EVENT"
+msgstr "Покана за взвода"
+
+msgid "invites/text/FALLOUT"
+msgstr "Показа за взвода за %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Превъзходство"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Стоманен лов"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Покана за битка"
+
+msgid "invites/text/MAPBOX"
+msgstr "Показа за взвод \"Разузнавателна мисия\""
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Показа за проучване на карти"
+
+msgid "invites/text/SORTIE"
+msgstr "Покана за присъединяване към отряда"
+
+msgid "invites/text/SQUAD"
+msgstr "Показа за взвода"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Покана за присъединяване към отряда"
+
+msgid "invites/text/TRAINING"
+msgstr "Показа за отборна тренировка"
+
+msgid "invites/text/UNIT"
+msgstr "Покана за присъединяване към отбора"
+
+msgid "invites/text/creatorName"
+msgstr "от %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Период на отбрана"
+
+msgid "invites/text/fort/direction"
+msgstr "Плацдарм"
+
+msgid "invites/text/fort/offence"
+msgstr "Нападение над"
+
+msgid "invites/warning/anonymized"
+msgstr "След като приемете поканата, истинското ви игрово име и кланов таг ще се показват на членовете на формированието по време на битката."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Поканата до %(name)s е изпратена."

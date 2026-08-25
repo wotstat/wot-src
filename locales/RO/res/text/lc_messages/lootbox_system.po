@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "Echipaj și antrenament"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "Personalizare"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "Echipament și directive"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "Altele"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "Vehicule"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "Recepționat!"
+
+msgid "autoOpenView/title"
+msgstr "RECOMPENSE OBȚINUTE"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Recepționat!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "Directivă"
+
+msgid "bonuses/description/booster"
+msgstr "Rezervă personală"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Figură de echipaj"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Echipament standard"
+
+msgid "bonuses/description/style"
+msgstr "Stil 2D"
+
+msgid "bonuses/description/style3D"
+msgstr "Stil 3D"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "Fragment de proiect (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "Fragment de proiect universal"
+
+msgid "bonuses/label/bpcoin"
+msgstr "Jeton al Certificatului de luptă"
+
+msgid "boxTooltip/description/text/default"
+msgstr "La deschidere, pot apărea vehicule, resurse economice sau alte articole valoroase.\nCutiile sunt disponibile în Magazinul din joc."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "deschideri rămase până la recompensa garantată, dacă nu apare mai devreme."
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "Cutiile sunt disponibile în Magazinul din joc."
+
+msgid "common/backButton"
+msgstr "ÎNAPOI"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "Cutia tactică"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "CUTIA TACTICĂ"
+
+msgid "common/closeButton"
+msgstr "ÎNCHIDE"
+
+msgid "common/footer/checkbox"
+msgstr "Animația de deschidere"
+
+msgid "common/getButton/lowerCase"
+msgstr "Ia mai multe"
+
+msgid "common/getButton/upperCase"
+msgstr "IA MAI MULTE"
+
+msgid "common/infoButton"
+msgstr "Ce se află înăuntru?"
+
+msgid "common/loader"
+msgstr "Se deschide cutia..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) buc."
+msgstr[1] "%(count) buc."
+msgstr[2] "%(count) buc."
+
+msgid "common/rewards/multiplier"
+msgstr "{count}x"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "zi"
+msgstr[1] "zile"
+msgstr[2] "zile"
+
+msgid "common/selectTooltip"
+msgstr "Insuficiente cutii pentru a deschide {{count}} deodată"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Deschide cutii pentru a afișa statisticile."
+
+msgid "common/statistics/header"
+msgstr "Cutii deschise: %(count)"
+
+msgid "common/statsButton"
+msgstr "Statistici"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "Anulează"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Istoria recompenselor va fi ștearsă."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "Resetare"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "Resetezi statisticile?"
+
+msgid "entryPoint/boxes"
+msgstr "SPRE CUTII"
+
+msgid "entryPoint/count"
+msgstr "%(count)×"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "999×+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Acestea sunt cutii speciale ce conțin articole noi și unice. Le poți obține din Magazinul din joc."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Evenimentul se va încheia în"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Am întâmpinat probleme tehnice și am suspendat temporar evenimentul până la rezolvare."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Indisponibil temporar"
+
+msgid "eventName/lowerCase"
+msgstr "Provizii pentru câmpul de luptă"
+
+msgid "eventName/upperCase"
+msgstr "PROVIZII PENTRU CÂMPUL DE LUPTĂ"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)-a"
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)-a"
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)-a"
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)-a"
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "fiecare a %(count) deschidere"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "vehicul"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "Un %(item) e garantat la %(count). Numărătoarea se resetează dacă acesta apare mai devreme."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Dacă toate vehiculele sunt deținute deja, vei obține aur în schimb."
+
+msgid "guaranteedTitle/text"
+msgstr "%(name) în %(count) deschideri"
+
+msgid "guaranteedTitle/textName"
+msgstr "Recompensă garantată"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "Deschide"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "Evenimentul se va încheia în %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Dacă nu deschizi toate cutiile până la încheierea evenimentului, acestea vor fi deschise automat mai târziu."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Dacă deții deja toate vehiculele din lista conținutului posibil al cutiilor, toate vehiculele ulterioare obținute vor fi compensate în aur egal cu valoarea lor întreagă."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "La fiecare %(guaranteed0)s cutii, ai garanția apariției unui vehicul din generațiile VIII-X. Dacă le deschizi fără ca un astfel de vehicul să apară, atunci la deschiderea celei de-a %(guaranteed0)s&zwnbsp;-a cutii (în funcție de tipul cutiei) vei primi un vehicul pe care nu îl deții deja din generațiile VIII-X. Apoi, contorul va fi resetat."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Deschidere automată"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Compensare"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Recompensă garantată"
+
+msgid "infoPage/header/lootListLink"
+msgstr "Afișează lista articolelor pe portalul din joc"
+
+msgid "infoPage/header/probability/description"
+msgstr "Probabilitatea de apariție"
+
+msgid "infoPage/header/probability/title"
+msgstr "Grup"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Nu poate apărea mai mult de o recompensă per grup"
+
+msgid "infoPage/header/rewards/title"
+msgstr "Recompensele"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "Deschide mai multe"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "De la %(name) (%(boxesCount) cutii deschise)"
+
+msgid "multipleRewardView/header/title/"
+msgstr "RECOMPENSE OBȚINUTE"
+
+msgid "noBoxesView/description/"
+msgstr "Cutiile sunt disponibile în Magazinul din joc"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "Spre Magazin"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Spre cutiile disponibile"
+
+msgid "preview/backLabel"
+msgstr "SPRE CUTII"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Disponibile: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nu mai sunt cutii"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "Continuare"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "pentru %(vehicleInfo)"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "Stilul 3D %(style)"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "Evenimentul „%(eventName)s” s-a încheiat"
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "Toată Cutiile rămase vor fi deschise. Conținutul lor va fi adăugat în cont."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Vezi recompensele"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Recompense obținute"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Am adăugat articolele pe care nu le-ai obținut pe perioada evenimentului."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "Evenimentul este temporar indisponibil din cauze de mentenanță."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "Evenimentul este disponibil din nou. Oferim scuze pentru neplăcere."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s buc)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "Recompense obținute:"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "Eroare"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "Așteaptă încheierea operațiunii anterioare."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "Acțiunea momentan indisponibilă. Încearcă mai târziu."
+
+msgid "serviceChannelMessages/start/button"
+msgstr "Spre eveniment"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "Evenimentul „%(eventName)s” a început"
+
+msgid "serviceChannelMessages/start/text"
+msgstr "Doar până pe %(date)s: Vehicule premium și articole valoroase în joc!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "Nu pot reseta statisticile. Reîncearcă mai târziu."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "De asemenea"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "Deschide mai multe"
+
+msgid "singleRewardView/header/title/"
+msgstr "RECOMPENSE OBȚINUTE"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "Membru de echipaj unic"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "Atașamente 3D"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "Misiuni pentru 5x EXP per luptă"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "Directive"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "Fragmente de proiect"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "Broșuri"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "Broșuri de antrenament"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "Consumabile"
+
+msgid "statisticsRewards/label/credits"
+msgstr "Credite"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "Manuale"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "Manuale de antrenament"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "Misiuni pentru 3x la EXP de echipaj"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "Bonduri"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "Personalizare"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "Echipament îmbunătățit"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "Componente"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "Echipament experimental"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "EXP liberă"
+
+msgid "statisticsRewards/label/gold"
+msgstr "Aur"
+
+msgid "statisticsRewards/label/guide"
+msgstr "Ghiduri"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "Ghiduri de antrenament"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "LICENȚA DE MENTOR"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "Echipament standard"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "Rezerve personale"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "Cont Premium WoT"
+
+msgid "statisticsRewards/label/rations"
+msgstr "Rații"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "Ordine de recalificare"
+
+msgid "statisticsRewards/label/style"
+msgstr "Stiluri 2D"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "Stiluri 3D"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "Membri de echipaj"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "Echipament recompensă"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "Vehicule"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "Resetează statisticile"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "Clic pentru a reseta toate statisticile."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "Și încă %(count) recompensă."
+msgstr[1] "Și încă %(count) recompense."
+msgstr[2] "Și încă %(count) recompense."
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "„%(label)”"
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "%(count)x"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "Fragment național de proiect"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). „%(label)” pentru %(vehicleInfo)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "Stiluri compensate: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "Vehicule compensate: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "Compensare pentru vehicul care se află deja în Garaj."

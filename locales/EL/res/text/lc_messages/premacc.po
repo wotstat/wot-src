@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} στο clan"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "ΣΤΟΝ ΛΟΓΑΡΙΑΣΜΟ"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "ΠΙΣΩ"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Θα μπορείτε να αντικαταστήσετε έναν χάρτη σε {}."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Προβολή/Απόκρυψη χαρτών αυτού του τύπου."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Χάρτες με Έρημο"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Χάρτες με Καλοκαίρι"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Χάρτες με Χειμώνα"
+
+msgid "mapsBlacklist/header"
+msgstr "Αποκλεισμένοι Χάρτες"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Αποκλείστε έναν ανεπιθύμητο χάρτη από τις μάχες σας. Μπορείτε να αποκλείσετε έναν επιπλέον ανεπιθύμητο χάρτη έχοντας Προνομιακό Λογαριασμό WoT και %(mapCount)s ακόμη με το WoT Plus. Εάν κάποια από τις συνδρομές σας λήξει, ο αντίστοιχος χάρτης επιστρέφει και πάλι στους πιθανούς χάρτες των μαχών."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Αποκλεισμένοι Χάρτες"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Οι συγκεκριμένοι χάρτες αυτοί έχουν αποκλειστεί μόνο από τις Τυχαίες Μάχες."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Μπορείτε να αλλάξετε έναν αποκλεισμένο χάρτη κάθε %(maxCooldownTimeStr)s."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Η δυνατότητα αυτή ισχύει για μάχες με οχήματα Βαθμίδας IV και πάνω."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "Κατά τη συμμετοχή σε Ουλαμό, ισχύουν οι αποκλεισμένοι χάρτες που έχει επιλέξει ο Αρχηγός του Ουλαμού."
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Χάρτες σε προβολή: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Χάρτες σε προβολή: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Τύποι χαρτών:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Ακύρωση"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Κλείσιμο"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "Ο επιλεγμένος χάρτης θα αντικατασταθεί από τον χάρτη {mapNameStr}. Μπορείτε να αλλάξετε την επιλογή σας σε {cooldownStr}."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Ποιον χάρτη θέλετε να αντικαταστήσετε?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Αποκλεισμός"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Επιλέξτε χάρτη που θέλετε να αντικαταστήσετε"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Ακύρωση"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Κλείσιμο"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Μπορείτε να αλλάξετε την επιλογή σας σε {cooldownStr}."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Να αποκλειστεί ο χάρτης {mapNameStr} από τις Τυχαίες Μάχες?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Αποκλεισμός"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Αποκλεισμός"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Αποκλεισμός του χάρτη {mapNameStr}?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Να Περιλαμβάνεται"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Να περιλαμβάνεται ο χάρτης {mapNameStr} στις Κανονικές Τυχαίες Μάχες?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Μπορείτε να αλλάξετε αυτόν το χάρτη σε {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Αδύνατη Η Αλλαγή Χάρτη"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Μπορείτε να αλλάξετε αυτόν το χάρτη σε {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Αδύνατη Η Αλλαγή Χάρτη"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Χωρίς Επιλογή"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Κλικ για να επιλέξετε ποιον χάρτη θα αποκλείσετε από τις Τυχαίες Μάχες."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Δεν Επιλέχθηκε Χάρτης"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "Ο αποκλεισμένος χάρτης {mapName} μπορεί να αντικατασταθεί από έναν άλλον."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Αλλαγή Χάρτη Διαθέσιμη"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Μπορείτε να αλλάξετε τον χάρτη {mapName} σε {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Αδύνατη Η Αλλαγή Χάρτη"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Με ενεργό Προνομιακό Λογαριασμό WoT θα έχετε μία πρόσθετη θέση."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Μη Διαθέσιμη Θέση"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Επιλέξτε έναν χάρτη της παρακάτω λίστας για να τον αποκλείσετε από τις Τυχαίες Μάχες."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Δεν Επιλέχθηκε Χάρτης"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Επιλέξτε έναν χάρτη της παρακάτω λίστας για να τον αποκλείσετε από τις Τυχαίες Μάχες."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Αλλαγή Χάρτη Διαθέσιμη"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Μπορείτε να αλλάξετε αυτόν το χάρτη σε {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Αδύνατη Η Αλλαγή Χάρτη"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "Με ενεργό Προνομιακό Λογαριασμό WoT θα έχετε μία πρόσθετη θέση για αποκλεισμό χάρτη."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Μη Διαθέσιμη Θέση"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Ακύρωση"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Μπορείτε να αλλάξετε την επιλογή σας σε {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Αντικατάσταση"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Αποκλεισμός"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Να αποκλειστεί ο χάρτης %(mapName)s από τις Τυχαίες Μάχες?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "Ο επιλεγμένος χάρτης θα αντικατασταθεί από τον χάρτη {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Μπορείτε να αλλάξετε την επιλογή σας σε %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Ποιον χάρτη θέλετε να αντικαταστήσετε?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Ο χάρτης αυτός θα αντικατασταθεί από τον χάρτη {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Μπορείτε να αλλάξετε την επιλογή σας σε %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Θέλετε να αντικαταστήσετε τον χάρτη αυτόν?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Έχει ενεργοποιηθεί ο Γονικός Έλεγχος σε αυτόν τον λογαριασμό.\nΜπορείτε να μαθετε περισσότερα για τους περιορισμούς του γονικού ελέγχου {link}."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Γονικός Έλεγχος"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "από το portal του παιχνιδιού"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Ταμιευτήριο Credits"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s min"

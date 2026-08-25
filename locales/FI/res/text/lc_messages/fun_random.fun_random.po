@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "\"%(leftDetailedSeasonName)s\" -pelimuodon taistelut ovat päättyneet"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Tulitauko on voimassa kaikilla palvelimilla. Taisteluiden alkamiseen %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" -pelimuodon taistelut ovat päättyneet"
+
+msgid "alertMessage/allNotSet"
+msgstr "Tämä pelimuoto ei ole saatavilla palvelimella %(serverName)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Valitse toinen palvelin"
+
+msgid "alertMessage/notAvailable"
+msgstr "Tulitauko on voimassa %(serverName)s palvelimella"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Tulitauko on voimassa %(serverName)s palvelimella"
+
+msgid "alertMessage/notSet"
+msgstr "Tämä pelimuoto ei ole saatavilla palvelimella %(serverName)s"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Tulitauko on voimassa tällä palvelimella. Taisteluiden alkamiseen %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" -pelimuodon taistelut ovat päättyneet"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Tämä pelimuoto ei ole saatavilla palvelimella %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s p"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Ei soveltuvia vaunuja"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Aikataulu"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "MODE"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} – vaihdetaan toiseen pelimuotoon"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "Pelimuodon saataville tulemiseen"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "Tulitauko {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "Taistelut ovat päättyneet"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "Pelimuoto ei ole enää saatavilla"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "Pelimuoto on saatavilla {{timer}}"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s ei voi taistella \"%(modeName)s\" -pelimuodon taisteluissa"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "Yhteensopimaton vaunutyyppi"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "Valitse %(levelSubStr)s vaunu osallistuaksesi \"%(modeName)s\" -pelimuotoon."
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "Yhteensopimaton vaunun taso"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "tason %(levels)s"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s ei voi taistella \"%(modeName)s\" -pelimuodossa."
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "Yhteensopimaton vaunu"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "Tulitauko on voimassa tällä palvelimella. Ole hyvä ja valitse toinen palvelin."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "Ei voida liittyä taisteluun"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "Tämä pelimuoto ei ole saatavilla valitulla palvelimella."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "Ei voida liittyä taisteluun"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "\"%(subModeName)s\" -pelimuodon taistelut ovat päättyneet"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "Ei voida liittyä taisteluun"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "Vaihda pelimuotoa tai valitse vaunu, joka täyttää vaatimukset."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "Vaunu ei sovellu pelimuotoon"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "Luo taktinen 2 tai 3 pelaajan osasto, jolla pelaatte yhdessä \"%(modeName)s\" -pelimuodon taisteluissa."
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "Osasto"
+
+msgid "invite/text/detailedTitle"
+msgstr "Kutsu liittyä \"%(detailedModeName)s\" -pelimuodon osastoon"
+
+msgid "invite/tooltip/noVehicles"
+msgstr "Tarvitset vähintään yhden vaunun talliisi."
+
+msgid "lootboxTooltip/chance"
+msgstr "Saamisen todennäköisyys: %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "Yksi pelinsisäinen tavara alla olevalta listalta:"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "KAIKKI VAIHEET SUORITETTU"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "KAIKKI NYKYISEN TEHTÄVÄN\nVAIHEET SUORITETTU"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "Seuraavan vaiheen palkinnot – Avaa %(stagePoints)s pisteellä"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "Seuraava vaihepalkinto"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "%(time)s aktiivisen vaiheen päättymiseen"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "%(time)s seuraavaan alkamiseen"
+
+msgid "modeSelector/notStarted"
+msgstr "Tämä pelimuoto alkaa pian"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s p"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "PELIMUOTOIHIN"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "Poissa käytöstä teknisten seikkojen tähden"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "Olet suorittanut kaikki nykyisen tehtävän vaiheet"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "Palkinnot: %(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "Taistelut ovat päättyneet"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "Tulossa"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "Se alkaa"
+
+msgid "modeSubSelector/subtitle"
+msgstr "VALITSE ALALAJI"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "Dev Kaikki vaiheet suoritettu"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "Dev Edistymispäivitys"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "Lähde mukaan toimintaan!"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "Astu vaaraan!"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "Peliautomaatin tapahtumat ovat ainutlaatuisia, rajoitetun ajan tarjolla olevia aktiviteetteja, jotka tarjoavat jotain erilaista! Taistele eksklusiivisissa pelimuodoissa peliä järisyttävillä säännöillä, suorita tehtäviä ja ansaitse harvinaisia palkintoja."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Dev Olet suorittanut edistymisen"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "Dev Hanki niin monta palkintoa kuin pystyt:"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "Dev pisteitä ansaittu: {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "Suoritettu:"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "Toistettava"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Suorittamisesta:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Tappiosta:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Voitosta:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Pisteitä:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Saatu:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "Kaikki tällä hetkellä saatavilla olevat tehtävät on suoritettu"
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "Tehtävät ilmestyvät edistymisen alkaessa"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "Olet suorittanut kaikki nyt saatavilla olevat tehtävät. Seuraava rotaatio tuo lisää tehtäviä."
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "Saatavilla: {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "Saatavilla: {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "Uusien tehtävien saataville tulemiseen {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} -status"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} -tehtävä"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "Kaikki vaiheet on suoritettu"
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "Edistymispäivitys"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "NEON-SYÖKSY"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "Maaliviiva odottaa!"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "Valmiina kisaan?"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "Neon-syöksy on ainutlaatuinen, rajoitetun ajan saatavilla oleva tapahtuma, joka tarjoaa jotain erilaista! Kisaa ja kamppaile läpi vaarallisten ratojen, suorita tehtäviä ja ansaitse palkintoja."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Tämä pelimuoto vaatii hyvää suorituskykyä tietokoneelta. Kohtaat ongelmia kartan lataamisen, grafiikoiden ja vaunujen liikkeen kanssa. Mikäli kohtaat ongelmia, koeta valita heikompi grafiikan laatu asetuksista."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Mahdollisesti heikentynyt suorituskyky"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Tämä pelimuoto vaatii hyvää suorituskykyä tietokoneelta. Kohtaat ongelmia kartan lataamisen, grafiikoiden ja vaunujen liikkeen kanssa. Mikäli kohtaat ongelmia, koeta valita heikompi grafiikan laatu asetuksista."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Mahdollisesti heikentynyt suorituskyky"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "Eeppinen satunnainen palkinto"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "Legendaarinen satunnainen palkinto"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "Yleinen satunnainen palkinto"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "Harvinainen satunnainen palkinto"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "Epätavanomainen satunnainen palkinto"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "Neon-syöksyn tehtävä – Vaihe: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "Edistymisesi huomioidaan missä hyvänsä Neon-syöksyn kisassa."
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "Neon-syöksyn tehtävä"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "Edistymisesi huomioidaan missä hyvänsä Peliautomaatin alalajissa."
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "kunnes uusi Peliautomaatin tehtävä on saatavilla"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15–30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "Taistele tiesi maaliviivalle tässä kilvassa, jossa kaikki kisaavat kaikkia vastaan."
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Kaikki tasot"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "Matalalla grafiikkojen tasolla saattaa näkyä visuaalisia artefakteja ja olla ongelmia. Suosittelemme parhaan kokemuksen saamiseksi valitsemaan korkeimman grafiikan tason, mikäli tietokoneesi suinkin täyttää sen vaatimukset. Pelimuoto vaatii paljon suorituskykyä tietokoneelta. Ruudunpäivitysnopeus voi heikentyä intensiivisissä taisteluissa."
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "Parasta grafiikan tasoa suositellaan"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Parasta grafiikan tasoa suositellaan"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "Matalalla grafiikkojen tasolla saattaa näkyä visuaalisia artefakteja ja olla ongelmia. Suosittelemme parhaan kokemuksen saamiseksi valitsemaan korkeimman grafiikan tason, mikäli tietokoneesi suinkin täyttää sen vaatimukset. Pelimuoto vaatii paljon suorituskykyä tietokoneelta. Ruudunpäivitysnopeus voi heikentyä intensiivisissä taisteluissa."
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "Parasta grafiikan tasoa suositellaan"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Parasta grafiikan tasoa suositellaan"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "Uuden Neon-syöksyn tehtävän saataville tuloon:"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "%(subModeName)s -alalaji on päättyneet. Edistyminen nollattu."
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "%(subModeName)s -alalaji on päättyneet."
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "Uusia palkintoja ja %(subModeName)s -alalaji on saatavilla."
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "Uusi alalaji on saatavilla: %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "%(subModeName)s -alalaji ei ole saatavilla ylläpitotoimien tähden."
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "%(subModeName)s -alalaji on jälleen saatavilla."
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "Palkintolista"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "Onneksi olkoon!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "Olet suorittanut edistymisen"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "Onneksi olkoon!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "Loputon jälkiedistyminen"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "Suoritit ensisijaisen edistymisen"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "Suorita tämä vaihe niin monta kertaa kuin voit."
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "Pisteitä ansaittu: {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Pisteitä ansaittu:"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "NEON-SYÖKSYN TEHTÄVÄT"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "Suoritettu:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "Toistettava"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Suorittamisesta:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Tappiosta:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Voitosta:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Pisteitä:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Saatu:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "Kaikki tällä hetkellä saatavilla olevat tehtävät on suoritettu"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "Tehtävät ilmestyvät edistymisen alkaessa"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "Olet suorittanut kaikki nyt saatavilla olevat tehtävät. Seuraava rotaatio tuo lisää tehtäviä."
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "Saatavilla: {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "Saatavilla: {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "Uusien tehtävien saataville tulemiseen {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} -status"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} -tehtävä"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "LEGENDAARINEN PALKINTO SAATU"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "\"%(subModeName)s\" on jälleen saatavilla."
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "Varikkopysähdys"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "\"%(subModeName)s\" on päättynyt."
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "Varikkopysähdys"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "Varikkopysähdyksen aika! \"%(subModeName)s\" -kisat eivät ole väliaikaisesti saatavilla."
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "Varikkopysähdys"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "Kukin satunnainen palkinto on tavara alla olevalta listalta, jonka voi saada tietyllä todennäköisyydellä."
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "Mitä sisältä löytyy?"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "Kaikki vaunut käyvät Neon-syöksyyn."
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "Neon-syöksyn vaunut"
+
+msgid "modes/fall_tanks/userName"
+msgstr "NEON-SYÖKSY"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "Kaikki vaiheet suoritettu"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "Edistymispäivitys"
+
+msgid "modes/undefined/capsUserName"
+msgstr "PELIAUTOMAATTI"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s: %(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "Lähde mukaan toimintaan!"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "Astu vaaraan!"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "Peliautomaatin tapahtumat ovat ainutlaatuisia, rajoitetun ajan tarjolla olevia aktiviteetteja, jotka tarjoavat jotain erilaista! Taistele eksklusiivisissa pelimuodoissa peliä järisyttävillä säännöillä, suorita tehtäviä ja ansaitse harvinaisia palkintoja."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Tämä pelimuoto vaatii hyvää suorituskykyä tietokoneelta. Kohtaat ongelmia kartan lataamisen, grafiikoiden ja vaunujen liikkeen kanssa. Mikäli kohtaat ongelmia, koeta heikentää grafiikan laatua asetuksista."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Mahdollisesti heikentynyt suorituskyky"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Tämä pelimuoto vaatii hyvää suorituskykyä tietokoneelta. Kohtaat ongelmia kartan lataamisen, grafiikoiden ja vaunujen liikkeen kanssa. Mikäli kohtaat ongelmia, koeta heikentää grafiikan laatua asetuksista."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Mahdollisesti heikentynyt suorituskyky"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "Eeppinen satunnainen palkinto"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "Legendaarinen satunnainen palkinto"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "Yleinen satunnainen palkinto"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "Harvinainen satunnainen palkinto"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "Epätavanomainen satunnainen palkinto"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "Peliautomaatin tehtävä – Vaihe: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "Edistymisesi huomioidaan missä hyvänsä Peliautomaatin alalajissa."
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "Peliautomaatin tehtävä"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "Edistymisesi huomioidaan missä hyvänsä Peliautomaatin alalajissa."
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "kunnes uusi Peliautomaatin tehtävä on saatavilla"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15v15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "Kokeellisia taisteluita epätavallisilla säännöillä."
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Tasot&nbsp;%(levels)s"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "Matalalla grafiikkojen tasolla saattaa näkyä visuaalisia artefakteja ja olla ongelmia. Suosittelemme parhaan kokemuksen saamiseksi valitsemaan korkeimman grafiikan tason, mikäli tietokoneesi suinkin täyttää sen vaatimukset. Pelimuoto vaatii paljon suorituskykyä tietokoneelta. Ruudunpäivitysnopeus voi heikentyä intensiivisissä taisteluissa."
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "Parasta grafiikan tasoa suositellaan"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Parasta grafiikan tasoa suositellaan"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "Matalalla grafiikkojen tasolla saattaa näkyä visuaalisia artefakteja ja olla ongelmia. Suosittelemme parhaan kokemuksen saamiseksi valitsemaan korkeimman grafiikan tason, mikäli tietokoneesi suinkin täyttää sen vaatimukset. Pelimuoto vaatii paljon suorituskykyä tietokoneelta. Ruudunpäivitysnopeus voi heikentyä intensiivisissä taisteluissa."
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "Parasta grafiikan tasoa suositellaan"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Parasta grafiikan tasoa suositellaan"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "Uuden Peliautomaatin tehtävän saataville tuloon:"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "%(subModeName)s -alalaji on päättyneet. Edistyminen nollattu."
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "%(subModeName)s -alalaji on päättyneet."
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "Uusia palkintoja ja %(subModeName)s -alalaji on saatavilla."
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "Uusi alalaji on saatavilla: %(subModeName)s."
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "%(subModeName)s -alalaji ei ole saatavilla ylläpitotoimien tähden."
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "%(subModeName)s -alalaji on jälleen saatavilla."
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "Palkintolista"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "Onneksi olkoon!"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "Olet suorittanut edistymisen"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "Onneksi olkoon!"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "Toistettava vaihe"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "Suoritit ensisijaisen edistymisen"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "Hanki niin monta palkintoa kuin pystyt:"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "Pisteitä ansaittu: {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Pisteitä ansaittu:"
+
+msgid "modes/undefined/progression/title"
+msgstr "PELIAUTOMAATIN TEHTÄVÄT"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "Suoritettu:"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "Toistettava"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Suorittamisesta:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Tappiosta:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Voitosta:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Pisteitä:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Saatu:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "Kaikki tällä hetkellä saatavilla olevat tehtävät on suoritettu"
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "Tehtävät ilmestyvät edistymisen alkaessa"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "Olet suorittanut kaikki nyt saatavilla olevat tehtävät. Seuraava rotaatio tuo lisää tehtäviä."
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "Saatavilla: {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "Saatavilla: {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "Uusien tehtävien saataville tulemiseen {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} -status"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} -tehtävä"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "LEGENDAARINEN PALKINTO SAATU"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "%(subModeName)s -alaljin taistelut ovat jälleen saatavilla."
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "Tulitauko"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "\"%(subModeName)s\" -pelimuodon taistelut ovat päättyneet"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "Tulitauko"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "Tulitauko on voimassa. %(subModeName)s -alalajin taistelut eivät väliaikaisesti ole saatavilla."
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "Tulitauko"
+
+msgid "modes/undefined/tierList/description"
+msgstr "Kukin satunnainen palkinto on tavara alla olevalta listalta, jonka voit saada tietyllä todennäköisyydellä."
+
+msgid "modes/undefined/tierList/title"
+msgstr "Mitä sisältä löytyy?"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "Näytä/piilota \"Peliautomaatti\" -pelimuotoon soveltuvat vaunut."
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "Peliautomaatin vaunut"
+
+msgid "modes/undefined/userName"
+msgstr "Peliautomaattissa"
+
+msgid "notification/congratulation"
+msgstr "Onneksi olkoon!"
+
+msgid "notification/finishSubModes"
+msgstr "\"%(modeName)s\" -tapahtuma on päättynyt."
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "%(subModesNames)s -alalajit ovat päättyneet. Edistyminen nollattu."
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "%(subModesNames)s -alalajit ovat päättyneet."
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "Satunnainen palkinto"
+
+msgid "notification/newProgression"
+msgstr "Tapahtuman edistyminen on nollattu – voit saada jälleen palkintoja!"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "Tapahtuman edistyminen on nollattu. Uusia alalajeja on saatilla: %(subModesNames)s."
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "Uusia alalajeja on saatavilla: %(subModesNames)s."
+
+msgid "notification/progressionComplete"
+msgstr "Olet suorittanut kaikki saatavilla olevat \"%(modeName)s\" -pelimuodon tehtävät. Palkinto saatu:"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "Olet suorittanut kaikki saatavilla olevat \"%(modeName)s\" -pelimuodon tehtävät. Toistettava vaihe saatavilla. Palkinto saatu:"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "Edistyminen nollautuu alle yhden päivän kuluessa. Sen jälkeen voit suorittaa tehtäviä uudelleen."
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "Edistyminen nollautuu %(days)d päivän kuluttua. Sen jälkeen voit suorittaa tehtäviä uudelleen."
+
+msgid "notification/progressionStageComplete"
+msgstr "Olet suorittanut \"%(modeName)s\" -pelimuodon vaiheen: %(stage)s. Palkinto saatu:"
+
+msgid "notification/subModesSeparator"
+msgstr ", "
+
+msgid "notification/switchOffSubModes"
+msgstr "%(subModesNames)s -alalajit eivät ole saatavilla yläpitotoimien tähden."
+
+msgid "notification/switchOnSubModes"
+msgstr "%(subModesNames)s -alalajit ovat jälleen saatavilla."
+
+msgid "platoonView/title"
+msgstr "Osasto: %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "Saatavilla oleva palvelin: %(server)s."
+
+msgid "primeTimes/availableServers"
+msgstr "Saatavilla olevat palvelimet:"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Palvelin %(serverName)s\nTaistelut ovat saatavilla %(primeDelta)s kuluttua"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Palvelin %(serverName)s\n \"%(leftDetailedSeasonName)s\" -pelimuodon taistelut ovat päättyneet."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Palvelin %(serverName)s\nTaistelut ovat saatavilla vielä %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Palvelin %(serverName)s\nTaistelut ovat saatavilla %(primeDelta)s kuluttua"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Palvelin %(serverName)s\n \"%(leftDetailedSeasonName)s\" -pelimuodon taistelut ovat päättyneet."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Palvelin %(serverName)s\nTaistelut ovat saatavilla %(primeDelta)s kuluttua"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Palvelin %(serverName)s\n \"%(leftDetailedSeasonName)s\" -pelimuodon taistelut ovat päättyneet."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s p"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Tulitauko on voimassa kaikilla palvelimilla.\nTaisteluiden alkamiseen %(primeDelta)s"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" -pelimuodon taistelut ovat päättyneet"
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "Tämä pelimuoto ei ole saatavilla palvelimella %(serverName)s"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Tulitauko on voimassa palvelimella %(serverName)s %(primeDeltaDate)s kello %(primeDeltaTime)s asti"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Tulitauko on voimassa %(serverName)s palvelimella"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Tämä pelimuoto ei ole saatavilla palvelimella %(serverName)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Tulitauko on voimassa %(serverName)s palvelimella.\nTaistelut tulevat saataville %(primeDelta)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" -pelimuodon taistelut ovat päättyneet"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Tämä pelimuoto ei ole saatavilla palvelimella %(serverName)s"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Taisteluiden alkamiseen %(serverName)s palvelimella %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" -pelimuodon taistelut palvelimella %(serverName)s ovat päättyneet."
+
+msgid "primeTimes/timeText/available"
+msgstr "Taistelut palvelimella %(serverName)s ovat saatavilla vielä %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Taisteluiden alkamiseen %(serverName)s palvelimella %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" -pelimuodon taistelut palvelimella %(serverName)s ovat päättyneet."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Taisteluiden alkamiseen %(serverName)s palvelimella %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" -pelimuodon taistelut palvelimella %(serverName)s ovat päättyneet."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "pistettä"
+
+msgid "progression/complete/affirmative"
+msgstr "Selvä!"
+
+msgid "progression/defaultCondition/text"
+msgstr "Ansaitse pisteitä ja kulje läpi edistymisen."
+
+msgid "progression/infinite/pointsEarned"
+msgstr "Pisteitä ansaittu:"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "Aktiivinen vaihe päättynyt. Taistelut ovat ohi"
+
+msgid "progression/questsList/quest/completed"
+msgstr "Suoritettu:"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "Toistettava"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "Suorittamisesta:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "Tappiosta:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "Voitosta:"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "Saatu:"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "Aktiivisen vaiheen päättymiseen: {{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "Aktiivisen vaiheen päättymiseen:"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "Seuraavaan alkuun:"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "Seuraavan vaiheen palkinnot – Avaa %(count)d pisteellä"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Sait myös:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Selvä!"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "Osaston komentaja on vaihtanut %(subModeName)s -alalajiin."
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "Alalajin vaihto"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Tasot&nbsp;%(levels)s"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "NEON-SYÖKSY"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "Kisaa kohti maaliviivaa ja estä muita saavuttamasta sitä. Käytä \"Syöksy\" ja \"Kilpi\" -kykyjä aiheuttaaksesi ekstrahävitystä."
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "Varoitus: liikkuvia alustoja"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "Väistä lasereita ja ajoita hyppysi huolella vauhdittaaksesi maaliin pääsyäsi!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "Varoitus: lasereita ja hyppyjä"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "saadaksesi lisätietoa tästä pelimuodosta"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "Paina"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "NEON-SYÖKSY"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15–30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "Taistele tiesi\nmaaliviivalle"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Kaikki tasot"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "Matalalla grafiikkojen tasolla saattaa näkyä visuaalisia artefakteja ja olla muita ongelmia. Suosittelemme parhaan kokemuksen saamiseksi valitsemaan korkeimman grafiikan tason, mikäli tietokoneesi suinkin täyttää sen vaatimukset. Tämä pelimuoto vaatii paljon suorituskykyä ja ruudunpäivitysnopeus voi heikentyä intensiivisinä hetkinä."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "Parasta grafiikan tasoa suositellaan"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Parasta grafiikan tasoa suositellaan"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "Matalalla grafiikkojen tasolla saattaa näkyä visuaalisia artefakteja ja olla muita ongelmia. Suosittelemme parhaan kokemuksen saamiseksi valitsemaan korkeimman grafiikan tason, mikäli tietokoneesi suinkin täyttää sen vaatimukset. Tämä pelimuoto vaatii paljon suorituskykyä tietokoneelta. Ruudunpäivitysnopeutesi voi heikentyä intensiivisinä hetkinä."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "Parasta grafiikan tasoa suositellaan"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Parasta grafiikan tasoa suositellaan"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "NEON-SYÖKSY"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "NEON-SYÖKSY"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "\"Neon-syöksy\""
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Tasot&nbsp;%(levels)s"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "Matalalla grafiikkojen tasolla saattaa näkyä visuaalisia artefakteja ja olla ongelmia. Suosittelemme parhaan kokemuksen saamiseksi valitsemaan korkeimman grafiikan tason, mikäli tietokoneesi suinkin täyttää sen vaatimukset. Pelimuoto vaatii paljon suorituskykyä tietokoneelta. Ruudunpäivitysnopeus voi heikentyä intensiivisissä taisteluissa."
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "Parasta grafiikan tasoa suositellaan"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Parasta grafiikan tasoa suositellaan"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "Matalalla grafiikkojen tasolla saattaa näkyä visuaalisia artefakteja ja olla ongelmia. Suosittelemme parhaan kokemuksen saamiseksi valitsemaan korkeimman grafiikan tason, mikäli tietokoneesi suinkin täyttää sen vaatimukset. Pelimuoto vaatii paljon suorituskykyä tietokoneelta. Ruudunpäivitysnopeus voi heikentyä intensiivisissä taisteluissa."
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "Parasta grafiikan tasoa suositellaan"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Parasta grafiikan tasoa suositellaan"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

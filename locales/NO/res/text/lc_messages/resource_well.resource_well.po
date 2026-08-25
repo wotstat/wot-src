@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Kjøretøy mottatt"
+
+msgid "awardView/end"
+msgstr "EVENT ER AVSLUTTET"
+
+msgid "awardView/info"
+msgstr "Stil nummer"
+
+msgid "awardView/toHangar"
+msgstr "Vis i garasjen"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) med en nummerert stil"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "KJØRETØY MOTTATT"
+
+msgid "awardView/vehicleTitle"
+msgstr "KJØRETØY MOTTATT"
+
+msgid "commonTexts/aboutButton"
+msgstr "OM EVENTET"
+
+msgid "commonTexts/closeBtn"
+msgstr "LUKK"
+
+msgid "commonTexts/eventTitle"
+msgstr "MONTERINGSBUTIKK"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Avbryt"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Bruk"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Det er ingen kjøretøy med unike nummererte stiler igjen. Du kommer til å få %(vehicleName)s uten et serienummer.\nEr du sikker på at du ønsker på benytte ressurser?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "Du kommer til å få %(vehicleName)s uten et serienummer"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Tilbake til garasjen"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Alle brukte ressurser blir returnert til kontoen din snart."
+
+msgid "confirm/NoVehicles/title"
+msgstr "Auda, ingen kjøretøy igjen"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Avbryt"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Bruk"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Fremgang etter bruk: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Brukt ressurser?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Returner ressurser"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Alle brukte ressurser vil bli returnet til kontoen din og monteringsprosessen din blir nullstilt. Så lenge eventet er aktivt vil du kunne bruke ressurser til å få deg et kjøretøy."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Returnere alle benyttede ressurser?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Alle benyttede ressurser blir sendt tilbake til kontoen din, og monteringsfremgangen blir nullstilt. %(vehicleName) blir valgt, og du kan bruke ressurser for å skaffe deg den."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Returner alle benyttede ressurser og velg %(vehicleName)?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Velg et kjøretøy"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "Du kan kjøpe begge kjøretøyene i eventet."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "I løpet av eventet vil du kunne kjøpe en pakke som inneholder et kjøretøy med en nummerert 3D stil."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "De første %(styleTanksCount) spillerne får et kjøretøy med et serienummer i 3D stil,{{@ class $br}}{{/}}og de neste %(withoutStyleTanksCount) kjøretøyene blir levert uten den nummererte 3D stilen."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "EVENT ER AVSLUTTET"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "KJØRETØY MOTTATT"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "KJØRETØY MOTTATT"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Gjenværende kjøretøy"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Dette kjøretøyet står allerede i garasjen din"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Kjøretøy mottatt"
+
+msgid "eventInfo/tanksOver"
+msgstr "INGEN FLERE IGJEN"
+
+msgid "eventInfo/top/styleText"
+msgstr "Nummerert"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Gjenværende kjøretøy med serienummere"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "Levering av %(regularRewardVehiclesCount) kjøretøy med standardkonfigurasjon vil begynne\nså snart det ikke er noen flere kjøretøy med serienummere igjen."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "I standardkonfigurasjon"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Gjenværende kjøretøy"
+
+msgid "mainView/affirmative/button"
+msgstr "Bekreftet"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "Til returnerte ressurser"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Ressurser samlet inn:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Ressurser samlet til:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Tilbake til garasjen"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Velg ressurser"
+
+msgid "mainView/footer/description/text"
+msgstr "Dersom det ikke er noen kjøretøy igjen, vil alle benyttede ressurser bli returnert."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "Din kontotype kan ikke delta i eventet."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Du kan ikke delta"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Du kan kjøpe begge kjøretøyene, men du kan kun investere ressurser i én av dem om gangen."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Velg et kjøretøy og invester de påkrevde ressursene for å sette det sammen—men vær rask!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Skynd deg å benytte ressurser som er påkrevet for montering og for å få %(vehicleName)!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Alle brukte ressurser blir returnert til kontoen din snart."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "Auda, ingen kjøretøy igjen"
+
+msgid "mainView/navbar/backBtn"
+msgstr "TIL MONTERINGSBUTIKK"
+
+msgid "mainView/navbar/title"
+msgstr "MONTERINGSBUTIKK"
+
+msgid "mainView/preview/label"
+msgstr "Forhåndsvisning"
+
+msgid "mainView/timer/lastUntil"
+msgstr "Frem til"
+
+msgid "mainView/timer/leftTime"
+msgstr "Gjenværende tid:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Avslutt"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Bruk ressurser"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Data midlertidig utilgjengelig"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Ingen gjenværende kjøretøy"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Kjøretøy med gjenværende serienummere: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Gjenværende kjøretøy: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Universal"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Maksimale ressurser %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "Maksimalt %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Ressurser samlet %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Tegningsdeler"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Valutaer"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "INNSAMLING AV RESSURSER"
+
+msgid "tankPreview/button"
+msgstr "Velg ressurser"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "I løpet av eventet vil du kunne kjøpe en pakke som inneholder et kjøretøy med en nummerert 3D stil."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "De første %(topPlayers) spillerne får et kjøretøy med et serienummer i 3D stil,\nog de neste %(basePlayers) kjøretøyene blir levert uten den nummererte 3D stilen."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "Du kan kjøpe begge kjøretøyene i eventet."
+
+msgid "tankPreview/title"
+msgstr "Samle og bruk 100% av de påkrevde ressursene og få %(vehicleInfo)!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Du kan se de benyttede ressursene når som helst, og dersom du trenger det, returnere dem til kontoen din ved å klikke på Returner ressurser knappen.\nDin monteringsfremgang blir nullstilt, men du kommer til å kunne benytte disse, eller andre ressurser, på nytt for å få et kjøretøy."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Returnerte ressurser"
+
+msgid "tooltips/counter/error/text"
+msgstr "Data midlertidig ikke tilgjengelig.\nVi jobber med å reparere feilen."
+
+msgid "tooltips/counter/warning/text"
+msgstr "Antallet vises med en forsinkelse og kan være ulikt det faktiske antall kjøretøy."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Bruk ressurser og få %(vehicleName1) og %(vehicleName2). Antall tilgjengelige kjøretøy er begrenset."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Bruk ressurser og få %(vehicleName) med en nummerert 3D stil. Antall tilgjengelige kjøretøy er begrenset."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Blir tilgjengelig: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s - %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Tilgjengelig i %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Tilgjengelig om: %(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "Monteringsbutikk"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Klikk for å lære mer om eventet"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Velg et kjøretøy som du vil investere ressurser i.\nDersom ressurser allerede har blitt investert i et annet kjøretøy, blir de returnert kontoen din."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Gjenværende tid: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "Får å montere et kjøretøy må 100% av de påkrevde ressursene benyttes. Raten for ulike typer ressurser kan bli endret."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "Dersom det ikke er noen kjøretøy igjen, vil alle benyttede ressurser bli returnert."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Valgt"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Brukt"
+
+msgid "tooltips/progressbar/title"
+msgstr "INNSAMLING AV RESSURSER"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "Bruk av ressurser er midlertidig utilgjengelig. Vennligst prøv igjen senere."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Universale og nasjonale tegningsdeler."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Tegningsdeler"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Tildelt for aktive handlinger i kamp. Kan også kjøpes for ekte penger."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Valutaer"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Brukt:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "Den maksimale mengden av denne ressursen som kan benyttes: %(maxAmount)d."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Du har samlet det påkrevde antall ressurser for å få et kjøretøy. Du kan fjerne en type ressurser for å velge en annen."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Innsamlede ressurser"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "Dette er et unikt kjøretøy med sitt eget serienummer og en spesiell visuell modifikasjon."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "Serienummeret vises på begge sidene av kanonen og bak på skroget. Serienummere på identiske kjøretøy blir aldri gjentatt og er begrenset i antall."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "De unike detaljene for ditt kjøretøy kan skjules. Fjern dens pånummererte 3D stil i skjermbildet for Eksteriør."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Kjøretøy med et serienummer"

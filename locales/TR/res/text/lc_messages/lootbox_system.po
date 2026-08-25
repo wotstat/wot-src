@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "Mürettebat ve Eğitim"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "Özelleştirme"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "Donanım ve Yönergeler"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "Diğer"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "Araçlar"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "Olumlu!"
+
+msgid "autoOpenView/title"
+msgstr "ALINAN ÖDÜLLER"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Olumlu!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "Yönerge"
+
+msgid "bonuses/description/booster"
+msgstr "Kişisel Yedek"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Mürettebat kaplaması"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standart donanım"
+
+msgid "bonuses/description/style"
+msgstr "2B stil"
+
+msgid "bonuses/description/style3D"
+msgstr "3B stil"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "Taslak Kesiti (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "Genel Taslak Kesiti"
+
+msgid "bonuses/label/bpcoin"
+msgstr "Savaş Kartı Jetonu"
+
+msgid "boxTooltip/description/text/default"
+msgstr "Açıldığında içinden araçlar, ekonomi kaynakları ve başka değerli ürünler çıkabilir.\nKutular oyun içi Dükkânda sunulmaktadır."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "açış sonra garantili ödül, daha önce çıkmazsa."
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "Kutular oyun içi Dükkânda sunulmaktadır."
+
+msgid "common/backButton"
+msgstr "GERİ DÖN"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "Taktik Kutu"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "TAKTİK KUTU"
+
+msgid "common/closeButton"
+msgstr "KAPAT"
+
+msgid "common/footer/checkbox"
+msgstr "Açma Animasyonu"
+
+msgid "common/getButton/lowerCase"
+msgstr "Daha çok alın"
+
+msgid "common/getButton/upperCase"
+msgstr "DAHA ÇOK ALIN"
+
+msgid "common/infoButton"
+msgstr "İçindekiler"
+
+msgid "common/loader"
+msgstr "Kutu açılıyor..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) ad."
+msgstr[1] "%(count) ad."
+msgstr[2] "%(count) ad."
+
+msgid "common/rewards/multiplier"
+msgstr "x{count}"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "gün"
+msgstr[1] "gün"
+msgstr[2] "gün"
+
+msgid "common/selectTooltip"
+msgstr "Aynı anda {{count}} açmak için yeterli kutu yok"
+
+msgid "common/statistics/emptyHeader"
+msgstr "İstatistiklere bakmak için kutuları açın."
+
+msgid "common/statistics/header"
+msgstr "Açılan kutular: %(count)"
+
+msgid "common/statsButton"
+msgstr "İstatistikler"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "İptal"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Ödül tarihçeniz silinecek."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "Sıfırla"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "İstatistikler sıfırlansın mı?"
+
+msgid "entryPoint/boxes"
+msgstr "KUTULARA GİT"
+
+msgid "entryPoint/count"
+msgstr "×%(count)"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "×999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Bunlar yeni ve özgün ürünler içeren özel kutulardır. Oyun içi Dükkândan elde edilebilir."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Etkinliğin bitişi:"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Teknik bir sorunla karşılaştık ve düzeltmeler yapılırken geçici olarak etkinliği durdurduk."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Geçici olarak devre dışı."
+
+msgid "eventName/lowerCase"
+msgstr "Savaş Alanı Malzemeleri"
+
+msgid "eventName/upperCase"
+msgstr "SAVAŞ ALANI MALZEMELERİ"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)."
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "Her %(count) açışta"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "araç"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "%(count) bir %(item) çıkması garantilidir. Daha önce çıkarsa sayaç sıfırlanır."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Tüm araçlara sahipseniz yerine altın alırsınız."
+
+msgid "guaranteedTitle/text"
+msgstr "%(count) açışta %(name)"
+
+msgid "guaranteedTitle/textName"
+msgstr "Garantili Ödül"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "Aç"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "Etkinlik %(time) içinde sona erecek"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Etkinlik bitmeden tüm kutuları açmazsanız daha sonra otomatik olarak açılacaklar."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Olası kutu içeriği listesindeki tüm araçlara zaten sahipseniz kutulardan alacağınız sonraki tüm araçlar tam değerleri karşılığı altın ile telafi edilecek."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Her %(guaranteed0)s kutusunda bir Seviye VIII-X araç bulunması garantilidir. Bu kutuları açtığınızda böyle bir araç çıkmazsa kutu türüne bağlı olarak açacağınız %(guaranteed0)s&zwnbsp;. kutudan sahip olmadığınız bir Seviye VIII-X araç çıkacaktır. Araç çıktığında sayaç sıfırlanır."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Otomatik Aç"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Telafi"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Garantili Ödül"
+
+msgid "infoPage/header/lootListLink"
+msgstr "Ürün listesine oyun portalında bakın"
+
+msgid "infoPage/header/probability/description"
+msgstr "Çıkma olasılığı"
+
+msgid "infoPage/header/probability/title"
+msgstr "Grup"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Grup başına en fazla bir ödül çıkabilir"
+
+msgid "infoPage/header/rewards/title"
+msgstr "Ödüller"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "Daha Çok Açın"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "%(name) içinden (%(boxesCount) kutu açıldı)"
+
+msgid "multipleRewardView/header/title/"
+msgstr "ALINAN ÖDÜLLER"
+
+msgid "noBoxesView/description/"
+msgstr "Kutular oyun içi Dükkânda sunulmaktadır."
+
+msgid "noBoxesView/getBoxes/"
+msgstr "Dükkân"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Mevcut Kutular"
+
+msgid "preview/backLabel"
+msgstr "KUTULARA GİT"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Mevcut: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Başka kutu yok"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "Devam Et"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "%(vehicleInfo) için"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "%(style) 3B stiliniz;"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "\"%(eventName)s\" etkinliği sona erdi"
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "Kalan tüm kutular açılacak. İçerikleri hesabınıza eklenecek."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Ödüllere Bakın"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Alınan Ödüller"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Etkinlik sırasında almadığınız ürünleri ekledik."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "Etkinlik, bakım nedeniyle geçici olarak devre dışıdır."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "Etkinlik yeniden devrede. Verdiğimiz rahatsızlıktan dolayı özür dileriz."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s parça)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "Alınan ödüller:"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "Hata"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "Lütfen önceki işlem bitene kadar bekleyin."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "İşlem geçici olarak yapılamıyor. Daha sonra tekrar deneyin."
+
+msgid "serviceChannelMessages/start/button"
+msgstr "Etkinliğe Git"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "\"%(eventName)s\" etkinliği başladı"
+
+msgid "serviceChannelMessages/start/text"
+msgstr "Sadece %(date)s tarihine kadar: Premium araçlar ve değerli oyun içi varlıklar!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "İstatistikler sıfırlanamıyor. Lütfen daha sonra tekrar deneyin."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "Ayrıca"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "Daha Çok Açın"
+
+msgid "singleRewardView/header/title/"
+msgstr "ALINAN ÖDÜLLER"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "Özgün mürettebat üyesi"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "3B Ekler"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "Savaş başına x5 DP görevleri"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "Yönergeler"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "Taslak Kesitleri"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "Broşürler"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "Eğitim Broşürleri"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "Sarf Malzemeleri"
+
+msgid "statisticsRewards/label/credits"
+msgstr "Kredi"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "Kılavuzlar"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "Eğitim Kılavuzu"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "x3 Mürettebat DP'si görevleri"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "Tahviller"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "Özelleştirme"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "İyileştirilmiş Donanım"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "Bileşenler"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "Deneysel Donanım"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "Serbest DP"
+
+msgid "statisticsRewards/label/gold"
+msgstr "Altın"
+
+msgid "statisticsRewards/label/guide"
+msgstr "El Kitapları"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "Eğitim El Kitapları"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "Akıl Hocalığı Ruhsatı"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "Standart Donanım"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "Kişisel Yedekler"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "WoT Premium Hesabı"
+
+msgid "statisticsRewards/label/rations"
+msgstr "Tayın"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "Yeniden Eğitim Emirleri"
+
+msgid "statisticsRewards/label/style"
+msgstr "2B Stiller"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "3B Stiller"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "Mürettebat Üyeleri"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "Kayra Donanım"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "Araçlar"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "İstatistikleri Sıfırlayın"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "Tüm istatistikleri sıfırlamak için tıklayın."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "Ve %(count) ödül daha."
+msgstr[1] "Ve %(count) ödül daha."
+msgstr[2] "Ve %(count) ödül daha."
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "\"%(label)\""
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "x%(count)"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "Ulusal Taslak Kesiti"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). \"%(label)\" (%(vehicleInfo) için)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "Telafi edilen stiller: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "Telafi edilen araçlar: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "Zaten Garajınızda olan araç için telafi."

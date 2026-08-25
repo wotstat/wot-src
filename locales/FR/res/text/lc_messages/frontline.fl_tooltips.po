@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Couvre-feu {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "L'évènement sera disponible à partir du"
+
+msgid "bannerTooltip/description"
+msgstr "Gigantesques batailles en 30 contre 30 à bord de véhicules de rang {{vehicleTier}} sur les cartes Normandie, Kraftwerk et Fata Morgana. Les attaquants doivent détruire trois des cinq canons de gros calibre, tandis que les défenseurs doivent protéger ces derniers."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Faites preuve de prouesses lors d'intenses batailles pour obtenir de la renommée, récupérer de précieuses récompenses et monter en grade."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "L'évènement est terminé et vous disposez de récompenses non réclamées pour les rangs de Ligne de front terminés."
+
+msgid "bannerTooltip/header"
+msgstr "Ligne de front"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Ligne de front | Rang {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} — mode de jeu. Cliquez pour le découvrir"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Ce mode nécessite des performances élevées de l'ordinateur. Vous risquez de subir des problèmes avec le chargement des cartes, les graphismes et le déplacement du véhicule. Si les performances ne sont pas suffisantes, essayez de diminuer la qualité graphique dans les paramètres."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Possible réduction des performances"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Sélectionnez les récompenses pour les rangs terminés ({{value}})"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Fonds insuffisants pour effectuer cet achat."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Les changements seront appliqués à tous les chasseurs de chars."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Les changements seront appliqués à tous les canons automoteurs."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Les changements seront appliqués à tous les chars lourds."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Les changements seront appliqués à tous les chars légers."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Les changements seront appliqués à tous les chars moyens."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Véhicule incompatible"
+
+msgid "battleAbilities/points/body"
+msgstr "Accumulez le nombre de Points nécessaire et activez des Réserves de combat de Ligne de front."
+
+msgid "battleAbilities/points/header"
+msgstr "Points de Réserve de combat"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Voir les Réserves d'attaque"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Réserves d'attaque"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Voir les Réserves de reconnaissance"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Réserves de reconnaissance"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Voir les Réserves tactiques"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Réserves tactiques"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Le Niveau de la Réserve de combat augmente après avoir atteint les grades Capitaine et Major en bataille. Le niveau maximal est déterminé par le scénario de combat."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Informations supplémentaires"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Réserves d'attaque"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Réserves de reconnaissance"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Réserves tactiques"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}} : {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Caractéristiques permanentes :"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Une Réserve de combat placée dans cet emplacement augmente la probabilité d'être offerte dans le scénario {{@ colorLegacy 'FFE4C0'}}Coup du sort{{/}} de {{@ colorLegacy 'FFE4C0'}}10 %{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Niveau de la Réserve :"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Pas achetée !"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "L'évènement est terminé."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "L'évènement commencera bientôt !"
+
+msgid "infoButton/body"
+msgstr "Cliquez pour plus d'informations."
+
+msgid "infoButton/header"
+msgstr "À propos de l'évènement"
+
+msgid "levelReserves/desc"
+msgstr "Le niveau des Réserves de combat augmente en atteignant de nouveaux grades :"
+
+msgid "levelReserves/info"
+msgstr "Dans le scénario {{@ colorLegacy 'FFE4C0'}}Coup du sort{{/}}, acheter une Réserve de combat augmente son niveau d'un palier et offre la possibilité de l'améliorer jusqu'au Niveau {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}."
+
+msgid "levelReserves/level"
+msgstr "Augmente en atteignant le grade suivant : {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Disponible au grade suivant : {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Niveau - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "Pour les {{@ colorLegacy 'FFE4C0'}}Réserves de combat achetées{{/}} dans le scénario {{@ colorLegacy 'FFE4C0'}}Coup du sort{{/}}."
+
+msgid "levelReserves/title"
+msgstr "Niveaux des Réserves de combat"
+
+msgid "playlist/warning/body"
+msgstr "Cette liste contient des véhicules inadaptés à ce mode de jeu ou absents de votre garage."
+
+msgid "playlist/warning/header"
+msgstr "Véhicules indisponibles (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Amélioration des caractéristiques de la Réserve de combat"
+
+msgid "randomReserve/disable"
+msgstr "L'emplacement de la Réserve de combat a été utilisé."
+
+msgid "randomReserve/notPurchased"
+msgstr "Réserve de combat non achetée"
+
+msgid "randomReserve/purchased"
+msgstr "Réserve de combat achetée"
+
+msgid "skillOrderTooltip/body"
+msgstr "Chaque type de véhicule a son propre ordre de déverrouillage des Réserves :"
+
+msgid "skillOrderTooltip/header"
+msgstr "Ordre de déverrouillage des Réserves de combat"
+
+msgid "skillOrderTooltip/info"
+msgstr "Dans le scénario {{@ colorLegacy 'whiteSpanish'}}Coup du sort{{/}}, l'ordre dans lequel les Réserves de combat sont déverrouillées ne dépend pas du type de véhicule."

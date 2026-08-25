@@ -1,0 +1,353 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprints/buttonLabel/gotoblueprints"
+msgstr "Na nacrt"
+
+msgid "blueprints/card/additional"
+msgstr "odaberi:"
+
+msgid "blueprints/card/convertAvailable"
+msgstr "Fragmenti dostupni za kreiranje: %(count)s"
+
+msgid "blueprints/card/convertRequired"
+msgstr "Nema dovoljno fragmenata"
+
+msgid "blueprints/card/plus"
+msgstr "+"
+
+msgid "blueprints/carousel/title"
+msgstr "NACRTI DOSTUPNI ZA SASTAVLJANJE:"
+
+msgid "blueprints/checkbox/label"
+msgstr "Dostupno za pravljenje fragmenta"
+
+msgid "blueprints/nationBar/title"
+msgstr "Fragmenti univerzalnih i nacionalnih nacrta"
+
+msgid "blueprints/noItems/discount/body"
+msgstr "Svaki fragment dodat u slot nacrta daje popust na izučavanje vozila. Sastavljen nacrt daje opciju za izučavanje vozila bez trošenja iskustva."
+
+msgid "blueprints/noItems/discount/header"
+msgstr "Dobij popuste na izučavanje"
+
+msgid "blueprints/noItems/fill/body"
+msgstr "Pretvori nekoliko univerzalnih ili nacionalnih fragmenata u fragment za određeno vozilo."
+
+msgid "blueprints/noItems/fill/header"
+msgstr "Sastavi nacrte vozila"
+
+msgid "blueprints/noItems/receive/body"
+msgstr "Nagrade koje dobijaš za završetak misija mogu da sadrže fragmente nacrta. Duplikati fragmenata se konvertuju u univerzalne ili nacionalne fragmente."
+
+msgid "blueprints/noItems/receive/header"
+msgstr "Sakupi fragmente"
+
+msgid "blueprints/title"
+msgstr "NACRTI ZA NEISTRAŽENA VOZILA"
+
+msgid "buttonDeconstruct/tooltip/body"
+msgstr "Klik da rastaviš opremu u komponente."
+
+msgid "buttonDeconstruct/tooltip/header"
+msgstr "Rastavi"
+
+msgid "buttonLabel/activate"
+msgstr "Ka aktiviranju"
+
+msgid "buttonLabel/preview"
+msgstr "Pregled"
+
+msgid "buttonLabel/remove"
+msgstr "Ukloni"
+
+msgid "buttonLabel/restore"
+msgstr "Idi na povraćaj"
+
+msgid "buttonLabel/select"
+msgstr "Izaberi"
+
+msgid "buttonLabel/sell"
+msgstr "Prodaj"
+
+msgid "buttonSell/tooltip/body"
+msgstr "Klik da prodaš opremu."
+
+msgid "buttonSell/tooltip/header"
+msgstr "Prodaj"
+
+msgid "buttonUpgrade/tooltip/body"
+msgstr "Nadogradi karakteristike opreme."
+
+msgid "card/attachment/hover/partOfBundle/label"
+msgstr "Deo %(bundleName)s.\nMožeš da pogledaš listu pogodnih vozila u sekciji 3D dodaci u eksterijeru. "
+
+msgid "card/cannotSellTitle"
+msgstr "Ne može biti prodat"
+
+msgid "card/vehicle/hover/maxAdditionalPriceLabel"
+msgstr "+ refundirana suma:"
+
+msgid "card/vehicle/hover/restoreAvailableLabel"
+msgstr "Povratak dostupan"
+
+msgid "card/vehicle/tradeOffPriceLabel"
+msgstr "Procenjena cena:"
+
+msgid "crewBooks/filters/nation"
+msgstr "Nacije"
+
+msgid "crewBooks/filters/nation/all"
+msgstr "Sve"
+
+msgid "crewBooks/filters/title"
+msgstr "Tip"
+
+msgid "crewBooks/noItems/info"
+msgstr "Nema knjige posade za sada. Mogu da se dobiju iz nagrada primljenih za završetak misija."
+
+msgid "customization/noItems/navigationButton"
+msgstr "Idi na spoljašnost"
+
+msgid "customization/noItems/title"
+msgstr "Prikazuje elemente prilagođavanja koji nisu kompatibilni sa bilo kojim vozilom u tvojoj garaži."
+
+msgid "customization/sectionTitle"
+msgstr "SPOLJAŠNOST"
+
+msgid "customizationSuitable/label"
+msgstr "Kompatibilno sa vozlima: "
+
+msgid "customizationSuitableForAll/label"
+msgstr "Kompatibilno sa svim vozilima"
+
+msgid "devices/filters/all"
+msgstr "Sva oprema"
+
+msgid "devices/filters/deluxe"
+msgstr "Poboljšano"
+
+msgid "devices/filters/modernized"
+msgstr "Eksperimentalna"
+
+msgid "devices/filters/simple"
+msgstr "Standarda"
+
+msgid "devices/filters/trophy"
+msgstr "Obilna"
+
+msgid "equipment/cooldown"
+msgstr "Vreme hlađenja je %(cooldown)s&nbsp;s."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s\n%(extendedDescr)s"
+
+msgid "filter/noResultsBtn/label"
+msgstr "Resetuj filter"
+
+msgid "filter/someTiersOnlyMessage"
+msgstr "Fragmenti nacrta se mogu samo kreirati za vozila nivoa II - X."
+
+msgid "filter/warningMessage"
+msgstr "Ništa nije pronadjeno. Promeni podešavanja ili poništi filter."
+
+msgid "forSell/noItems/title"
+msgstr "Prikazuje module i granate koji nisu kompatibilni sa bilo kojim vozilom"
+
+msgid "forSell/sectionTitle"
+msgstr "MODULI I GRANATE NA PRODAJU"
+
+msgid "inhangar/filterTitle"
+msgstr "Prikazano:"
+
+msgid "inhangar/noImage"
+msgstr "Ova slika je nedostupna"
+
+msgid "inhangar/noItems/allTab/title"
+msgstr "Nema vozila u garaži"
+
+msgid "inhangar/noItems/rentTab/title"
+msgstr "Vozila za iznajmljivanje nisu pronađena."
+
+msgid "inhangar/noItems/restoreTab/title"
+msgstr "Možeš da povratiš prodata Premium i jedinstvena vozila koristeći kredite.\nNemaš vozila za povraćaj."
+
+msgid "inhangar/sectionTitle"
+msgstr "VOZILA U GARAŽI"
+
+msgid "inhangar/tabs/all"
+msgstr "Vozila"
+
+msgid "inhangar/tabs/rent"
+msgstr "Iznajmljivana"
+
+msgid "inhangar/tabs/restore"
+msgstr "Izvlačenje"
+
+msgid "inventory/filterType/consumables"
+msgstr "Potrošni materijal"
+
+msgid "inventory/filterType/instructions"
+msgstr "Direktive"
+
+msgid "inventory/filterType/other"
+msgstr "Ostalo"
+
+msgid "markEverything"
+msgstr "Prodaj sve stvari za:"
+
+msgid "moduleCompatible/label"
+msgstr "Kompatibilno sa vozilima:"
+
+msgid "moduleCompatible/moreVehicles"
+msgstr "... i još vozila: %(vehCount)s"
+
+msgid "notAvailable/navigationButton"
+msgstr "Povratak u garažu"
+
+msgid "notAvailable/title"
+msgstr "Depo nije dostupan zbog inventara"
+
+msgid "offers/expiration"
+msgstr "Do %(date)s %(time)s"
+
+msgid "offers/giftAmount"
+msgstr "Nagrade za izbor: %(gifts)s"
+
+msgid "offers/giftsTitle"
+msgstr "Dostupne nagrade: %(gifts)s"
+
+msgid "offers/noItems/title"
+msgstr "Servis je privremeno nedostupan.\nMolim pokušaj kasnije ili poseti radnju."
+
+msgid "offers/sectionTitle"
+msgstr "ZALIHE DOMAĆEG FRONTA"
+
+msgid "optDevice/hover/effect"
+msgstr "{effectTagOpen}Efekat: {effectTagClose}"
+
+msgid "personalreserves/activeCountLabel"
+msgstr "Aktivirane rezerve: %(activeCount)s / %(totalCount)s"
+
+msgid "personalreserves/card/activated"
+msgstr "Aktivne"
+
+msgid "personalreserves/card/notAvailable"
+msgstr "Nedostupno"
+
+msgid "personalreserves/durationFilter/btn/label"
+msgstr "%(durTime)s s"
+
+msgid "personalreserves/durationFilter/label"
+msgstr "Vreme:"
+
+msgid "personalreserves/filterTitle"
+msgstr "Prikazano:"
+
+msgid "personalreserves/navigateToShopLabel"
+msgstr "Kupi u prodavnici"
+
+msgid "personalreserves/noItems/title"
+msgstr "Nema rezervi u depou. Možeš da kupiš dodatne rezerve u prodavnici"
+
+msgid "personalreserves/sectionTitle"
+msgstr "LIČNE REZERVE"
+
+msgid "personalreserves/typeFilter/label"
+msgstr "Tip"
+
+msgid "restoreTimeLeft/timeless"
+msgstr "Neograničeno"
+
+msgid "shellCompatible/label"
+msgstr "Kompatibilno sa topovima:"
+
+msgid "shellCompatible/moreGuns"
+msgstr "...i još topova: %(vehCount)s"
+
+msgid "storage/balanceLabel"
+msgstr "Dostupno:"
+
+msgid "storage/filterTitle"
+msgstr "Prikazano:"
+
+msgid "storage/noItems/navigationButton"
+msgstr "Idi na Prodavnicu"
+
+msgid "storage/noItems/title"
+msgstr "Nema stvari u depou, možeš da ih kupiš u prodavnici"
+
+msgid "storage/noItems/titleShort"
+msgstr "Nema stvari u depou"
+
+msgid "storage/sectionTitle"
+msgstr "INVENTAR"
+
+msgid "storage/tabs/all"
+msgstr "Sve"
+
+msgid "storage/tabs/consumable"
+msgstr "Potrošni materijal"
+
+msgid "storage/tabs/crewBooks"
+msgstr "Knjige posade"
+
+msgid "storage/tabs/devices/filter/type/label"
+msgstr "Kategorija"
+
+msgid "storage/tabs/equipment"
+msgstr "Oprema"
+
+msgid "storage/tabs/modules"
+msgstr "Moduli"
+
+msgid "storage/tabs/modules/filter/appropriate/label"
+msgstr "Odgovara za"
+
+msgid "storage/tabs/modules/filter/type/label"
+msgstr "Tip"
+
+msgid "storage/tabs/shells"
+msgstr "Granate"
+
+msgid "storage/tabs/shells/filter/appropriate/label"
+msgstr "Odgovara za"
+
+msgid "storage/tabs/shells/filter/type/label"
+msgstr "Tip"
+
+msgid "storage/vehicleSelectPopover/label"
+msgstr "Izaberi vozila iz Garaže"
+
+msgid "stylePreview/tooltip"
+msgstr "Pregled stila"
+
+msgid "vehicleSelectPopover/noVehicles"
+msgstr "Nema vozila koja odgovaraju\nkriterijumu pretrage"
+
+msgid "vehicleSelectPopover/tooltips/level/body"
+msgstr "Sortiraj prema nivou vozila."
+
+msgid "vehicleSelectPopover/tooltips/level/header"
+msgstr "Nivo"
+
+msgid "vehicleSelectPopover/tooltips/nation/body"
+msgstr "Sortiraj prema nacijama."
+
+msgid "vehicleSelectPopover/tooltips/nation/header"
+msgstr "Nacije"
+
+msgid "vehicleSelectPopover/tooltips/title/body"
+msgstr "Sortiraj prema nazivu vozila."
+
+msgid "vehicleSelectPopover/tooltips/title/header"
+msgstr "Naziv"
+
+msgid "vehicleSelectPopover/tooltips/type/body"
+msgstr "Sortiraj prema tipu vozila."
+
+msgid "vehicleSelectPopover/tooltips/type/header"
+msgstr "Tip"
+
+msgid "vehicleSelectPopover/vehicleName"
+msgstr "Naziv"

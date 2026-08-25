@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "Συνομιλία του Clan"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "Κλικ γα να γράψετε μήνυμα στη συνομιλία του clan."
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "Συνομιλία του Clan"
+
+msgid "clan/header/creationDate"
+msgstr "Δημιουργήθηκε στις %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "Αιτήσεις και Προσκλήσεις"
+
+msgid "clan/header/requestSent"
+msgstr "Η αίτηση υπεβλήθη"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "Υποβολή Αίτησης"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "Κλικ για υποβολή αίτησης σε αυτό το clan."
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "Υποβολή Αίτησης"
+
+msgid "clan/post/combatOfficer"
+msgstr "Διοικητής Μάχης"
+
+msgid "clan/post/commander"
+msgstr "Αρχηγός"
+
+msgid "clan/post/executiveOfficer"
+msgstr "Υπαρχηγός"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "Αξιωματικός Πληροφοριών"
+
+msgid "clan/post/juniorOfficer"
+msgstr "Υπαξιωματικός"
+
+msgid "clan/post/personnelOfficer"
+msgstr "Προσωπάρχης"
+
+msgid "clan/post/private"
+msgstr "Στρατιώτης"
+
+msgid "clan/post/quartermaster"
+msgstr "Θησαυροφύλακας"
+
+msgid "clan/post/recruit"
+msgstr "Νεοσύλλεκτος"
+
+msgid "clan/post/recruiter"
+msgstr "Στρατολόγος"
+
+msgid "clan/post/reservist"
+msgstr "Έφεδρος"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "Σφάλμα στην προβολή του ονόματος"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "Έγινε ενημέρωση των δεδομένων του πίνακα."
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "Προδιαγραφές Νεοσύλλεκτων"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "Μπορεί να γίνει επεξεργασία"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "Δεν υπάρχουν αιτήσεις σε εκκρεμότητα στο clan."
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "Δεν υπάρχουν αιτήσεις που έληξαν στο clan."
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "Πρόσκληση στο Clan"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "Κλικ στο %(invite)s για αποστολή προσκλήσεων\nσε νέους παίκτες."
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "Το clan δεν έχει στείλει κάποια πρόσκληση τις τελευταίες 28 ημέρες."
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "Δεν υπάρχουν στο clan προσκλήσεις σε εκκρεμότητα τις τελευταίες 28 ημέρες."
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "Δεν υπάρχουν στο clan προσκλήσεις που έχουν λήξει τις τελευταίες 28 ημέρες."
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "Δεν υπάρχουν στο clan προσκλήσεις που επεξεργάστηκαν τις τελευταίες 28 ημέρες."
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "Το clan δεν έχει προσκλήσεις που επεξεργάστηκαν."
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "Δεν έγινε λήψη δεδομένων από τον server.\nΠροσπαθήστε ξανά αργότερα."
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "Σφάλμα του Server"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "Σε εκκρεμότητα (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "Όλες (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "Έληξαν (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "Ελήφθη απόφαση (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "Επεξεργάστηκαν (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "Διαθέσιμες θέσεις στο clan: %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "Πρόσκληση στο Clan"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "Υπάρχει 3 ημέρες περιθώριο για επεξεργασία μίας αίτησης ένταξης στο clan. Οι αιτήσεις και οι προσκλήσεις αποθηκεύονται για 28 ημέρες, μετά διαγράφονται αυτόματα."
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "Αδύνατη η πρόσκληση παικτών: το clan είναι πλήρες."
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "Αδύνατη η πρόσκληση παικτών: το clan δεν στρατολογεί προς το παρόν."
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "Έγινε δεκτή"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "%(days)d d για επεξεργασία"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "Απορρίφθηκε"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "Σφάλμα"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "Έληξε"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "%(hours)d h για επεξεργασία"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "%(min)d min για επεξεργασία"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "Απεστάλη"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "Προσκλήσεις (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "Αιτήσεις (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "Ενέργειες"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "Πρόσκληση"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "Απεστάλη"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "Περισσότερα"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "Κατάσταση"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "Παίκτης"
+
+msgid "clanInvitesWindow/title"
+msgstr "Αιτήσεις και Προσκλήσεις"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "Κλικ για πρόσκληση παικτών στο clan."
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "Με πρόσκληση από:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "Η πρόσκληση έγινε αποδεκτή."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "Η πρόκληση απορρίφθηκε."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "Η πρόσκληση στάλθηκε."
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "Αποστολέας:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Αυτό το κουμπί θα ενεργοποιηθεί μετά τη λήψη νέων δεδομένων από τον server."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Κλικ για προβολή νέων προσκλήσεων και αιτήσεων."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "Ανανέωση της λίστας"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "Σύμφωνα με απόφαση του:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "Η αίτηση έγινε αποδεκτή."
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "Η αίτηση απορρίφθηκε."
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "Η αίτηση έληξε"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "Η αίτηση υπεβλήθη."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "Αδύνατη η προσθήκη νέων παικτών: το clan είναι πλήρες."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Ο παίκτης εγκατέλειψε πρόσφατα ένα clan. Μπορεί να ενταχθεί στο clan μετά τις:"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "Αδύνατη η πρόσκληση νέων παικτών: το clan είναι πλήρες."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Μέσο όρος ΧΡ ανά μάχη του παίκτη στον οποίο έγινε η πρόσκληση (υπολογίζοντας και Προνομιακό Λογαριασμό)."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Μέσος Όρος Experience ανά Μάχη"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Αριθμός μαχών του παίκτη στον οποίο έγινε η πρόσκληση."
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Μάχες"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "Κλικ για πρόσκληση αυτού του παίκτη στο clan."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Μήνυμα συνοδευτικό της πρόσκλησης του clan."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Μήνυμα"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "Προσωπική Βαθμολογία του παίκτη στον οποίο έγινε η πρόσκληση."
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "Προσωπική Βαθμολογία"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "Ημερομηνία και ώρα αποστολής της πρόσκλησης."
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "Απεστάλη"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Κατάσταση προσκλήσεων του Clan.\nΜία πρόσκληση μπορεί να είναι σε εκκρεμότητα, να έχει λήξει ή να έχει επεξεργαστεί."
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Κατάσταση"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "Όνομα του παίκτη στον οποίο έγινε η πρόσκληση."
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "Παίκτης"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Ποσοστό νικών του παίκτη στον οποίο έγινε η πρόσκληση."
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Νίκες"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Μία αίτηση μπορεί να γίνει αποδεκτή ή να απορριφθεί."
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Ενέργειες"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "Μέσο όρος ΧΡ ανά μάχη του παίκτη από τον οποίο έγινε η αίτηση (υπολογίζοντας και Προνομιακό Λογαριασμό)"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "Μέσος Όρος Experience ανά Μάχη"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "Αριθμός μαχών του παίκτη από τον οποίο έγινε η αίτηση"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "Μάχες"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "Μήνυμα συνοδευτικό της αίτησης στο clan"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "Μήνυμα"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "Προσωπική Βαθμολογία του παίκτη από τον οποίο έγινε η αίτηση"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "Προσωπική Βαθμολογία"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "Κατάσταση αιτήσεων στο Clan.\nΜία αίτηση μπορεί να είναι σε εκκρεμότητα, να έχει λήξει ή να έχει επεξεργαστεί."
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "Κατάσταση"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "Όνομα του παίκτη από τον οποίο έγινε η αίτηση."
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "Παίκτης"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "Ποσοστό νικών του παίκτη από τον οποίο έγινε η αίτηση."
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "Νίκες"
+
+msgid "clanLanding/notification/archived"
+msgstr "Το μήνυμα αρχειοθετήθηκε."
+
+msgid "clanLanding/notification/commonError"
+msgstr "Τεχνικό σφάλμα: αδύνατη η ολοκλήρωση της λειτουργίας με το μήνυμα."
+
+msgid "clanLanding/notification/deleted"
+msgstr "Έγινε αφαίρεση του μηνύματος."
+
+msgid "clanLanding/notification/edited"
+msgstr "Το μήνυμα αναρτήθηκε."
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "Υπέρβαση του μέγιστου επιτρεπόμενου αριθμού χαρακτήρων."
+
+msgid "clanLanding/notification/limitReached"
+msgstr "Έχει αναρτηθεί ήδη ο μέγιστος αριθμός μηνυμάτων στο clan."
+
+msgid "clanLanding/notification/noPermission"
+msgstr "Ανεπαρκείς αρμοδιότητες στη διαχείριση μηνυμάτων του clan: η θέση σας άλλαξε."
+
+msgid "clanLanding/notification/notExist"
+msgstr "Έγινε αφαίρεση ή αρχειοθέτηση του μηνύματος."
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "Το μήνυμα περιέχει εκφράσεις που παραβιάζουν τους <a href=\"event:clanRulesLink\">κανονισμούς του clan</a>."
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "Προσκλήσεις σε εκκρεμότητα: %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "Απόρριψη Επιλεγμένης (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "Προσκλήσεις Από Clan Σε Εμένα"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "Λήψη δεδομένων…"
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "Δεν έχετε προς το παρόν προσκλήσεις από clan."
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "Επιλογή όλων των αιτήσεων"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "Ενέργειες"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "Όνομα Clan"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "Κατάσταση"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "Προσκλήσεις Από Clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Θα μπορείτε να ενημερώσετε τη λίστα αφού γίνει λήψη νέων δεδομένων."
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Κλικ για ενημέρωση του πίνακα."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Εγκαταλείψατε πρόσφατα ένα clan. Μπορείτε να δεχθείτε ξανά προσκλήσεις σε clan μετά τις:"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Μέσος όρος κερδισμένων ΧΡ ανά μάχη από τα μέλη του clan που σας έστειλε την πρόσκληση (σε Τυχαίες Μάχες)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Μέσος Όρος Experience ανά Μάχη"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Μέσος όρος μαχών που έχουν λάβει μέρος τα μέλη του clan που σας έστειλε την πρόσκληση (μόνο Τυχαίες Μάχες)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Μάχες του Clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "Όνομα του clan που σας έστειλε την πρόσκληση"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "Όνομα του Clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Μήνυμα από το clan που σας έστειλε την πρόσκληση"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Μήνυμα"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "Συνολική βαθμολογία του clan που σας έστειλε την πρόσκληση"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "Βαθμολογία του Clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Προβολή της κατάστασης της πρόσκλησης του clan και χρόνος που απομένει για την επεξεργασία της"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Κατάσταση"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Ποσοστό νικών των μελών του clan που σας έστειλε την πρόσκληση (σε Τυχαίες Μάχες)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Νίκες του Clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Μπορείτε είτε να αποδεχθείτε την πρόσκληση είτε να την απορρίψετε. Με την αποδοχή μίας πρόσκλησης, αυτόματα απορρίπτετε τις προσκλήσεις από άλλα clan."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Ενέργειες"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "Μητρώο του Clan"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "Κλείσιμο"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "Καλώς ήλθατε στο Clan!"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "Τώρα μπορείτε να λάβετε μέρος σε μάχες στον Παγκόσμιο Χάρτη, να κατασκευάσετε και να υπερασπιστείτε Οχυρά, καθώς και να ολοκληρώσετε ειδικές αποστολές."
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "Ανακοίνωση"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "Το clan σας: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "Λυπούμαστε για την ταλαιπωρία. Προσπαθήστε ξανά αργότερα."
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "Τα Οχυρά είναι προσωρινά μη διαθέσιμα"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "Λυπούμαστε για την ταλαιπωρία.\nΠροσπαθήστε ξανά αργότερα."
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "Σφάλμα Στη Φόρτωση Δεδομένων"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "Μητρώο του Clan"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "Οχυρό"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "Παγκόσμιος Χάρτης"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "Μέλη του Clan"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "Οχυρό"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "Σύνοψη"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "Πρόσκληση Παίκτη στο Clan"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "Μη διαθέσιμη ενέργεια. Μπορείτε να προσκαλείτε έναν παίκτη τη φορά στο clan."
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "Προσθήκη όλων των επαφών στους παραλήπτες."
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "Μάχες τις τελευταίες 28 Ημέρες"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "Προωθήσεις τις τελευταίες 28 Ημέρες"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "Αρχηγός του Clan"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "Δεν δημιουργήθηκε ακόμα"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "Καμία συμμετοχή σε μάχες.\nΚαμία κατοχή επαρχίας."
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "Επίπεδο Οχυρού"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "Θησαυροφυλάκιο"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "Καμία συμμετοχή σε μάχες"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "Επαρχίες"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Βαθμολογία Elo Χ"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Βαθμολογία Elo VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Βαθμολογία Elo VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "Αψιμαχίες τις τελευταίες 28 Ημέρες"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "Συνολικά μέλη"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "Λεπτομέρειες"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "Λεπτομέρειες"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "Υποβολή Αίτησης"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "Το clan δεν έχει σλόγκαν."
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "Λεπτομέρειες Παγκόσμιου Χάρτη"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "Στον Χάρτη"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "Λεπτομέρειες προσωρινά μη διαθέσιμες"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "Αδύνατη η ένταξη στο clan."
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "Επισκόπηση προδιαγραφών νεοσύλλεκτων %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "Είστε ήδη μέλος\nσε άλλο clan."
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "Έχετε ήδη λάβει μία πρόσκληση\nγια ένταξη σε αυτό το clan."
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s Προσωρινά υπό περιορισμό"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s Προσωρινά υπό περιορισμό"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "Αυτό το clan δεν δέχεται αιτήσεις %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "Η αίτηση υπεβλήθη."
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "Συγχρονισμός δεδομένων…"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "Βαθμολογία Elo του clan στην κατηγορία Χ σε Προωθήσεις"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Βαθμολογία Elo Χ"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "Βαθμολογία Elo του clan στην κατηγορία VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Βαθμολογία Elo VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "Βαθμολογία Elo του clan στην κατηγορία VIII σε Προωθήσεις"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Βαθμολογία Elo VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "Προωθήσεις του Clan τις τελευταίες 28 ημέρες"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "Προωθήσεις τις τελευταίες 28 Ημέρες"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "Το επίπεδο του Οχυρού είναι ίσο με το επίπεδο του Κέντρου Διοίκησης."
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "Επίπεδο Οχυρού"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "Αψιμαχίες του Clan τις τελευταίες 28 ημέρες."
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "Αψιμαχίες τις τελευταίες 28 ημέρες."
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "Βαθμολογία Elo του clan σε μάχες κατηγορίας Χ στον Παγκόσμιο Χάρτη"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Βαθμολογία Elo Χ"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "Βαθμολογία Elo του clan σε μάχες κατηγορίας VI στον Παγκόσμιο Χάρτη"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Βαθμολογία Elo VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "Βαθμολογία Elo του clan σε μάχες κατηγορίας VIII στον Παγκόσμιο Χάρτη"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Βαθμολογία Elo VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "Μάχες στον Παγκόσμιο Χάρτη του Clan τις τελευταίες 28 ημέρες"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "Μάχες τις Τελευταίες 28 Ημέρες"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "Επαρχίες στον Παγκόσμιο Χάρτη που κατέχει προς το παρόν το clan."
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "Επαρχίες"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "Έχει υποβληθεί ο μέγιστος αριθμός αιτήσεων."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "Αδύνατη η Υποβολή Αίτησης"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "Έχει υποβληθεί ο μέγιστος αριθμός αιτήσεων."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "Αδύνατη η Υποβολή Αίτησης"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "Το clan δεν δέχεται αιτήσεις."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "Αδύνατη η Υποβολή Αίτησης"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "Η βαθμολογία του clan δεν έχει ενημερωθεί τις τελευταίες 28 ημέρες."
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "Μη Επικαιροποιημένες Πληροφορίες"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "Η συνολική βαθμολογία εξαρτάται από τις επιδόσεις του clan στις Προωθήσεις και στον Παγκόσμιο Χάρτη."
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "Συνολική Βαθμολογία"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "Συνολική Βαθμολογία"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "Μητρώο Clan"
+
+msgid "globalMap/disabled"
+msgstr "Οι μάχες στον Παγκόσμιο Χάρτη είναι\nπροσωρινά μη διαθέσιμες για την περιοχή σας"
+
+msgid "globalMapView/level10"
+msgstr "Βαθμίδα X"
+
+msgid "globalMapView/level6"
+msgstr "Βαθμίδα VI"
+
+msgid "globalMapView/level8"
+msgstr "Βαθμίδα VIII"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "Αυτή η Επαρχία δεν σας δίνει εισόδημα επειδή έχει χαθεί η σύνδεση με το Κέντρο Διοίκησης, ή επειδή έχει λεηλατηθεί."
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "Δεν Επιφέρει Εισόδημα"
+
+msgid "globalMapView/noProvince"
+msgstr "Το clan δεν κατέχει κάποια Επαρχία."
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "Δημοφιλής ώρα αιχμής: %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "Ο Παγκόσμιος Χάρτης είναι ένα πεδίο μάχης στο οποίο τα clan ανταγωνίζονται για το ποιο θα υπερισχύσει. Οι Αξιωματικοί του κάθε clan αφιερώνουν πολύ χρόνο, καταστρώνοντας κινήσεις τακτικής και αναπτύσσοντας τις δυνάμεις τους με βάση την στρατηγική τους."
+
+msgid "globalMapView/promo/header"
+msgstr "Παγκόσμιος Χάρτης"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "Λεπτομέρειες Παγκόσμιου Χάρτη"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "Στον Χάρτη"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "Μάχες"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "Σύνολο μαχών στην κατηγορία Χ του Παγκόσμιου Χάρτη"
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "Μάχες"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Βαθμολογία Elo"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "Βαθμολογία του clan σε μάχες κατηγορίας Χ στον Παγκόσμιο Χάρτη"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Βαθμολογία Elo"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "Αγαπημένος χάρτης"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "Ο χάρτης στον οποίο το clan έλαβε μέρος στις περισσότερες μάχες κατηγορίας Χ τις τελευταίες 28 ημέρες"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "Αγαπημένος Χάρτης: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "Κατάταξη"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "Η κατάταξη του clan σε μάχες κατηγορίας Χ στον Παγκόσμιο Χάρτη"
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "Κατάταξη"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "Νίκες"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "Ποσοστό νικών σε μάχες κατηγορίας Χ στον Παγκόσμιο Χάρτη"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "Νίκες"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "Μάχες"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "Σύνολο μαχών στην κατηγορία VI του Παγκόσμιου Χάρτη"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "Μάχες"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Βαθμολογία Elo"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "Βαθμολογία του clan σε μάχες κατηγορίας VI στον Παγκόσμιο Χάρτη"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Βαθμολογία Elo"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "Αγαπημένος χάρτης"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "Ο χάρτης στον οποίο το clan έλαβε μέρος στις περισσότερες μάχες κατηγορίας VI τις τελευταίες 28 ημέρες."
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "Αγαπημένος Χάρτης: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "Κατάταξη"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "Η κατάταξη του clan σε μάχες κατηγορίας VI στον Παγκόσμιο Χάρτη"
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "Κατάταξη"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "Νίκες"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "Ποσοστό νικών σε μάχες κατηγορίας VI στον Παγκόσμιο Χάρτη"
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "Νίκες"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "Μάχες"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "Σύνολο μαχών στην κατηγορία VIII του Παγκόσμιου Χάρτη"
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "Μάχες"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Βαθμολογία Elo"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "Βαθμολογία του clan σε μάχες κατηγορίας VIII στον Παγκόσμιο Χάρτη"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Βαθμολογία Elo"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "Αγαπημένος χάρτης"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "Ο χάρτης στον οποίο το clan έλαβε μέρος στις περισσότερες μάχες κατηγορίας VIII τις τελευταίες 28 ημέρες"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "Αγαπημένος Χάρτης: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "Κατάταξη"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "Η κατάταξη του clan σε μάχες κατηγορίας VIII στον Παγκόσμιο Χάρτη"
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "Κατάταξη"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "Νίκες"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "Ποσοστό νικών σε μάχες κατηγορίας VIII στον Παγκόσμιο Χάρτη"
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "Νίκες"
+
+msgid "globalMapView/stats/battles"
+msgstr "Μάχες στον Παγκόσμιο Χάρτη"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "Συνολικός αριθμός μαχών του clan στον Παγκόσμιο Χάρτη"
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "Μάχες στον Παγκόσμιο Χάρτη"
+
+msgid "globalMapView/stats/seized"
+msgstr "Κατεχόμενες Επαρχίες"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "Το σύνολο των επαρχιών που κατέχει το clan. Επαρχίες που κατείχε το clan στο παρελθόν αλλά έχουν χαθεί επίσης προσμετρούνται."
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "Κατεχόμενες Επαρχίες"
+
+msgid "globalMapView/stats/wins"
+msgstr "Νίκες των Μελών του Clan"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "Ποσοστό νικών των μελών του clan σε μάχες στον Παγκόσμιο Χάρτη"
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "Νίκες του Clan"
+
+msgid "globalMapView/table/days"
+msgstr "Ημέρες"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "Χρονική περίοδος σε ημέρες, κατά την οποία το clan κατείχε επαρχίες στον Παγκόσμιο Χάρτη."
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "Ημέρες"
+
+msgid "globalMapView/table/front"
+msgstr "Μέτωπο"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "Όνομα επιλεγμένου Μετώπου"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "Μέτωπο"
+
+msgid "globalMapView/table/income"
+msgstr "Εισόδημα"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "Κερδισμένο gold από την Επαρχία ανά ημέρα"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "Εισόδημα"
+
+msgid "globalMapView/table/map"
+msgstr "Χάρτης"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "Όνομα του χάρτη στον οποίο έχουν διεξαχθεί μάχες για Επαρχία."
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "Χάρτης"
+
+msgid "globalMapView/table/primeTime"
+msgstr "Ώρα Αιχμής"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "Προγραμματισμένη ώρα που θα αρχίσουν οι μάχες για Επαρχία."
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "Ώρα Αιχμής"
+
+msgid "globalMapView/table/province"
+msgstr "Επαρχία"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "Όνομα επιλεγμένης Επαρχίας."
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "Επαρχία"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "Η Επαρχία λεηλατήθηκε και προσωρινά δεν σας αποδίδει εισόδημα."
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "Χρόνος μέχρι να λαμβάνετε ξανά εισόδημα:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "Επαρχίες"
+
+msgid "globalMapView/tabs/stats"
+msgstr "Στατιστικά"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "Η βαθμολογία του clan δεν έχει αλλάξει τις τελευταίες 28 ημέρες."
+
+msgid "globalMapView/totalIncome"
+msgstr "Συνολικό ημερήσιο εισόδημα: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "Μέσος όρος\nαριθμού μαχών"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "Ο μέσος όρος των συμμετοχών σε Τυχαίες Μάχες και Μάχες με Ίλη Αρμάτων στις οποίες έλαβαν μέρος όλα τα μέλη του clan. Υπολογίζονται μόνο τα τρέχοντα μέλη του clan."
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "Μέσος Όρος Μαχών Των Μελών Του Clan"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "Μέσο experience"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "Υπολογίζεται ο μέσος όρος των κερδισμένων ΧΡ των μελών του clan από Τυχαίες Μάχες και Μάχες με Ίλη Αρμάτων. Οι συνολικές μάχες του κάθε παίκτη επηρεάζουν του αποτέλεσμα. Υπολογίζονται μόνο τα τρέχοντα μέλη του clan."
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "Μέσο Experience Των Μελών Του Clan"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "Μέση Προσωπική Βαθμολογία"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "Υπολογίζεται ο μέσος όρος της Προσωπικής Βαθμολογίας όλων των μελών του clan. Υπολογίζονται μόνο τα τρέχοντα μέλη του clan."
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "Μέση Προσωπική Βαθμολογία Των Μελών Του Clan"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "Μέσο ποσοστό νικών"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "Υπολογίζεται ο μέσος όρος του ποσοστού των νικών των μελών του clan σε Τυχαίες Μάχες και Μάχες με Ίλη Αρμάτων. Οι συνολικές μάχες του κάθε παίκτη επηρεάζουν του αποτέλεσμα. Υπολογίζονται μόνο τα τρέχοντα μέλη του clan."
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "Μέσο Ποσοστό Νικών Των Μελών Του Clan"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "Αναλογία των κερδισμένων ΧΡ από Τυχαίες Μάχες και Μάχες με Ίλη Αρμάτων προς τις συμμετοχές σε μάχες."
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "Μέσο Experience"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "Συνολικές συμμετοχές του παίκτη σε Τυχαίες Μάχες και Μάχες με Ίλη Αρμάτων"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "Συνολικές Μάχες"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "Ημέρες του παίκτη ως μέλος του clan"
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "Ημέρες στο Clan"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "Προσωπική Βαθμολογία Παίκτη"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "Προσωπική Βαθμολογία"
+
+msgid "personnelView/table/player"
+msgstr "Παίκτης (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "Όνομα μέλους του clan"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "Παίκτης"
+
+msgid "personnelView/table/post"
+msgstr "Θέση"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "Βαθμός του παίκτη στο clan"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "Θέση"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "Ποσοστό νικών του παίκτη σε Τυχαίες Μάχες και Μάχες με Ίλη Αρμάτων"
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "Νίκες"
+
+msgid "personnelView/title"
+msgstr "Στατιστικά Μελών Του Clan Σε Τυχαίες Μάχες & Μάχες με Ίλη Αρμάτων:"
+
+msgid "search/clansList"
+msgstr "Εγγεγραμμένα Clan: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "Δεν βρέθηκε κάτι να ταιριάζει με την αναζήτησή σας. Προσπαθήστε ξανά με νέες λέξεις κλειδιά."
+
+msgid "search/emptyResult/button"
+msgstr "Πίσω στη Λίστα"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "Κλικ για επιστροφή στη λίστα με τα clan που βρέθηκαν."
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "Πίσω στη Λίστα"
+
+msgid "search/emptyResult/header"
+msgstr "Κανένα Αποτέλεσμα Αναζήτησης"
+
+msgid "search/foundClans"
+msgstr "Clans που Βρέθηκαν: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "Αδύνατη η ένταξη στο clan."
+
+msgid "search/info/banned/tooltip/header"
+msgstr "Αδύνατη η Υποβολή Αίτησης"
+
+msgid "search/info/clanProfileBtn"
+msgstr "Μητρώο Clan"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "Αδύνατη η υποβολή αίτησης για ένταξη στο clan."
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "Μη Διαθέσιμη Ενέργεια"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "Έχετε ήδη λάβει πρόσκληση για ένταξη σε αυτό το clan."
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "Αδύνατη η Υποβολή Αίτησης"
+
+msgid "search/info/ratingDescription"
+msgstr "Συνολική Βαθμολογία"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "Η βελτίωση της συνολικής βαθμολογίας εξαρτάται από τις επιδόσεις του clan στα Οχυρά και στον Παγκόσμιο Χάρτη."
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "Συνολική Βαθμολογία"
+
+msgid "search/info/ratingTitle"
+msgstr "Στατιστικά Σε Μάχες Όλων Των Τύπων:"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "Έχετε ήδη υποβάλει αίτηση σε αυτό το clan."
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "Αδύνατη η Υποβολή Αίτησης"
+
+msgid "search/info/requestSent"
+msgstr "Η αίτηση υπεβλήθη."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "Το clan δεν δέχεται αιτήσεις."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "Αδύνατη η Υποβολή Αίτησης"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "Έχει σταλεί ο μέγιστος αριθμός αιτήσεων."
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "Αδύνατη η Υποβολή Αίτησης"
+
+msgid "search/info/sendRequestBtn"
+msgstr "Υποβολή Αίτησης"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "Δεν έγινε λήψη δεδομένων από τον server. Προσπαθήστε ξανά αργότερα."
+
+msgid "search/info/serverUnavailable/header"
+msgstr "Σφάλμα Server"
+
+msgid "search/info/stats/avgExp"
+msgstr "Μέσο experience"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "Υπολογίζεται ο μέσος όρος των κερδισμένων ΧΡ των μελών του clan από όλα τα είδη της μάχης. Οι συνολικές μάχες του κάθε παίκτη επηρεάζουν του αποτέλεσμα. Υπολογίζονται μόνο τα τρέχοντα μέλη του clan."
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "Μέσο Experience Των Μελών Του Clan"
+
+msgid "search/info/stats/battles"
+msgstr "Μέσος όρος\nαριθμού μαχών"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "Ο μέσος όρος των συμμετοχών σε όλα τα είδη της μάχης στις οποίες έλαβαν μέρος τα μέλη του clan. Υπολογίζονται μόνο τα τρέχοντα μέλη του clan."
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "Μέσος Όρος Μαχών Των Μελών Του Clan"
+
+msgid "search/info/stats/wins"
+msgstr "Μέσο ποσοστό νικών"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "Υπολογίζεται ο μέσος όρος του ποσοστού των νικών των μελών του clan σε όλα τα είδη της μάχης. Οι συνολικές μάχες του κάθε παίκτη επηρεάζουν του αποτέλεσμα. Υπολογίζονται μόνο τα τρέχοντα μέλη του clan."
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "Μέσο Ποσοστό Νικών Των Μελών Του Clan"
+
+msgid "search/nextBtn"
+msgstr "Επόμενο"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "Κλικ για προβολή του επόμενου μέρους της λίστας του clan."
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "Επόμενο"
+
+msgid "search/previousBtn"
+msgstr "Προηγούμενο"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "Κλικ για προβολή του προηγούμενου μέρους της λίστας του clan."
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "Προηγούμενο"
+
+msgid "search/promoText/body"
+msgstr "Για να αναζητήσετε clan, εισάγετε το όνομά του ή την ετικέτα του στο πεδίο και πατήστε “Αναζήτηση”."
+
+msgid "search/promoText/header"
+msgstr "Αναζήτηση Clan"
+
+msgid "search/requestTooShort/body"
+msgstr "Για να αναζητήσετε ένα clan, εισάγεται τουλάχιστον 2 χαρακτήρες στο πεδίο και προσπαθήστε ξανά."
+
+msgid "search/requestTooShort/button"
+msgstr "Πίσω στη Λίστα"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "Πίσω στη Λίστα"
+
+msgid "search/requestTooShort/header"
+msgstr "Ανεπαρκή Δεδομένα"
+
+msgid "search/searchBtn"
+msgstr "Αναζήτηση"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "Εισάγετε το όνομα ή την ετικέτα ενός clan στο πεδίο στα αριστερά (τουλάχιστον 2 χαρακτήρες)."
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "Αναζήτηση Clan"
+
+msgid "search/searchInputPrompt"
+msgstr "Εισάγετε το όνομα ή την ετικέτα του clan"
+
+msgid "search/serverUnavailable/body"
+msgstr "Δεν έγινε λήψη δεδομένων από τον server. Προσπαθήστε ξανά αργότερα."
+
+msgid "search/serverUnavailable/header"
+msgstr "Σφάλμα Server"
+
+msgid "search/table/clan"
+msgstr "Clan"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "Χαρακτηριστικά του clan: όνομα και ετικέτα"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "Clan"
+
+msgid "search/table/creationDate"
+msgstr "Δημιουργήθηκε"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "Ημερομηνία δημιουργίας του clan"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "Δημιουργήθηκε"
+
+msgid "search/table/players"
+msgstr "Παίκτες"
+
+msgid "search/table/players/tooltip/body"
+msgstr "Συνολικός αριθμός μελών του clan"
+
+msgid "search/table/players/tooltip/header"
+msgstr "Παίκτες"
+
+msgid "search/table/rating"
+msgstr "Βαθμολογία"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "Συνολική βαθμολογία του clan"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "Βαθμολογία"
+
+msgid "search/title"
+msgstr "Αναζήτηση Clan"
+
+msgid "search/titleDescription"
+msgstr "Εδώ μπορείτε να αναζητήσετε clan, να δείτε τα στατιστικά του\nκαι να υποβάλετε αίτηση για ένταξη σε αυτό. Η αναζήτηση γίνεται με βάση το όνομα ή την ετικέτα του clan."
+
+msgid "search/windowTitle"
+msgstr "Αναζήτηση Clan"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "Σχέδιο"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "Στατιστικά"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "Επίπεδο %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "δεν έχει οριστεί"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "Εκεχειρία:"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "Φάση Άμυνας:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "Server έδρας:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "Δομές:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "Ουδετερότητα:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "Ρεκόρ κερδισμένων Βιομηχανικών Πόρων"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "Περισσότερες νίκες στη σειρά"

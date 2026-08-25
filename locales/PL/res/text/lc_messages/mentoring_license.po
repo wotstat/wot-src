@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "Aby potwierdzić, wprowadź liczbę PD członka załogi wybranego do przeniesienia."
+
+msgid "assignmentDialog/price"
+msgstr "Cena:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Przenieś całe PD załogi pomiędzy członkami załogi"
+
+msgid "assignmentDialog/title"
+msgstr "Potwierdź kurs mentorski"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Ten członek załogi zostanie usunięty\nz Twojego konta bez możliwości odzyskania."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} dodatkowych PD zostanie utracone."
+
+msgid "dialogue/description"
+msgstr "Materiał eksploatacyjny, który pozwala przenieść wszystkie PD załogi pomiędzy członkami załogi z tej samej nacji."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}Dodatkowe PD zostaną utracone:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "WYBIERZ"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Łącznie PD:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Licencja(-e) mentora:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Brak odpowiednich członków załogi"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Wybierz członka załogi, którego PD zostaną przeniesione\nna {cream_Open}%(name)s{cream_Close} i który zostanie usunięty z Twojego konta."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "Po przeniesieniu PD załogi {cream_Open}%(name)s{cream_Close} osiągnie limit atutów i wszystkie PD ponad limit zostaną utracone."
+
+msgid "mentorAssigment/title"
+msgstr "WYBIERZ MENTORA"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close} osiągnął limit atutów i nie można go wybrać do przeniesienia PD."
+
+msgid "multipleUserName"
+msgstr "Licencje mentora"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Wykorzystana(-e) licencja(-e) mentora: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "Przeniesione PD załogi: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "Kurs mentorski"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>Dodatkowe utracone PD załogi: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Pozwala przenieść PD załogi pomiędzy członkami\nzałogi z tej samej nacji."
+
+msgid "storage/userName"
+msgstr "Licencja mentora"
+
+msgid "userName"
+msgstr "Licencja mentora"

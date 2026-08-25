@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Utöka"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Permittera undertränade"
+
+msgid "barracks/bunks/title"
+msgstr "Logementplatser:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Ange antal logementplatser du vill köpa. Platser tillgängliga i logementet: %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Rabatterat pris"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Nytt pris: %(currency)s per %(bunksCount)s logementsplatser"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Tidigare pris: %(currency)s per %(bunksCount)s logementsplatser"
+
+msgid "barracks/enlarge/header"
+msgstr "Utöka logementet?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Undertränade besättningsmedlemmar i logementet som saknar de {whiteSpanish_Open}210 060{whiteSpanish_Close}{icon} erfarenhet som krävs för att träna första förmågan till {whiteSpanish_Open}100%{whiteSpanish_Close} kan permitteras."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Undertränade besättningsmedlemmar"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Du har inga undertränade besättningsmedlemmar"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Du får ingen kompensation för permittering av undertränade besättningsmedlemmar. När de permitteras kan de inte återtas och deras erfarenhet går förlorad."
+
+msgid "barracks/title"
+msgstr "LOGEMENT"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Klicka för att utöka logementet."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Utöka logementet"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Plats"
+
+msgid "common/imageNotAvailable"
+msgstr "Bild ej tillgänglig"
+
+msgid "common/inBarracks"
+msgstr "I logementet"
+
+msgid "common/inBattle"
+msgstr "I strid"
+
+msgid "common/inPrebattle"
+msgstr "I taktisk enhet"
+
+msgid "common/navigation/aboutCrew"
+msgstr "OM BESÄTTNINGEN"
+
+msgid "common/navigation/toBarracks"
+msgstr "TILL LOGEMENTET"
+
+msgid "common/navigation/toGarage"
+msgstr "TILL GARAGE"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "TILL PROFIL"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Uppfattat!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Dina besättningsmedlemmar har konverterats till läromedel."
+
+msgid "conversionAwards/title"
+msgstr "KONVERTERING GENOMFÖRD"
+
+msgid "conversionAwards/underTitle"
+msgstr "Du har fått följande."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Avbryt"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Permittera"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Besättningsmedlemmar att permittera: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Permittera undertränade besättningsmedlemmar?"
+
+msgid "conversionConfirm/warning"
+msgstr "Du får ingen kompensation för permittering av undertränade besättningsmedlemmar. När de permitteras kan de inte återtas och deras erfarenhet går förlorad."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Automatiskt val av förmågor"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Inga besättningsmedlemmar har otränade förmågor."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Kan inte välja förmågor automatiskt"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Alla otränade förmågor markerade med plus ersätts av automatiskt med förmågor som valts ut speciellt för varje besättning."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Välj automatiskt förmågor för alla"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Återställ förmågor för alla"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Inga besättningsmedlemmar har tränade förmågor."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Kan inte återställa förmågor"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Alla förmågor återställs för alla besättningsmedlemmar på ditt konto. Detta kan inte ångras."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Återställ förmågor för alla"
+
+msgid "crewBanner/infoText"
+msgstr "Gratis återställning eller automatiskt val av förmågor för alla besättningsmedlemmar på ditt konto"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Ökad träningshastighet aktiverad"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Effektivitetsbonus: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Effektgrad av förmågor"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Förmågor är inte tillgängliga då besättningsmedlemmen inte är tränad för den här vagnen."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Specialisering:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Förmågor ej tillgängliga"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Bonusförmåga:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Huvudutbildningsförmågor:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(Kina)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Tjeckoslovakien)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Frankrike)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Tyskland)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Italien)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japan)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Polen)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Sverige)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(Storbritannien)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "USA"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(Sovjetunionen)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Alla pvkv Premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Alla artillerivagnar Premium\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Alla tunga strv. Premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Alla lätta strv. Premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Alla medeltunga strv. Premium\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Information"
+
+msgid "filter/group/details/title"
+msgstr "Information"
+
+msgid "filter/group/nation/title"
+msgstr "Nation"
+
+msgid "filter/group/other/title"
+msgstr "Övrigt"
+
+msgid "filter/group/special/title"
+msgstr "Special"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Huvudutbildning"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Klass"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Klass"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specialisering"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Vagnstyp"
+
+msgid "filter/popup/button/title"
+msgstr "Filter"
+
+msgid "filter/popup/default/title"
+msgstr "Filter"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Filtrera efter nationalitet"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Filtrera efter vagnar"
+
+msgid "filter/reset"
+msgstr "Återställ filter"
+
+msgid "filter/search/placeholder"
+msgstr "Sök efter namn"
+
+msgid "filter/search/tooltip/header"
+msgstr "Sök efter namn"
+
+msgid "filter/title"
+msgstr "Visas:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Visa/göm besättningsmedlemmar i vagnar med alla moduler och teknologigrenar framforskade."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Elitvagnar"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Visa/göm besättningsmedlemmar utbildade för Premiumvagnar."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Premiumvagnar"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Visa/göm besättningsmedlemmar i primära vagnar."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Primära vagnar"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Visa/göm besättningsmedlemmar för den här vagnstypen."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Visa/göm besättningsmedlemmar av den här nationaliteten."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Visa/göm utseenden för den här nationaliteten. "
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Visa/göm vagnar från denna nation."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Visa/göm permitterade."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Permitterad"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Visa rekryter."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Rekryter"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Visa besättningsmedlemmar."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Besättningsmedlemmar"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Visa/göm besättningsmedlemmar med den här utbildningen."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Göm/Visa Premiumvagnar."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Premiumvagnar"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Visa/göm vagnar av denna typ."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Pansarvärnskanonvagnar"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Artillerivagnar"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Tunga stridsvagnar"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Lätta stridsvagnar"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Medeltunga stridsvagnar"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Inga vagnar hittades\nsom uppfyllde sökkriterierna"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sortera efter vagnsnamn."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Namn"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sortera efter klass."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Klass"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sortera efter vagnstyp."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Typ"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Namn"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Klicka för att återställa filterinställningar."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Återställ alla filter"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Uppfattat!"
+
+msgid "junkTankmen/description"
+msgstr "Besättningsmedlemmarna saknar de {bond_Open}210 060{bond_Close}{icon} som krävs för att träna första besättningsförmågan till {whiteSpanish_Open}100%{whiteSpanish_Close}.\nDe kommer tas bort från ditt konto."
+
+msgid "junkTankmen/title"
+msgstr "Permittera undertränade besättningsmedlemmar?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Varje ytterligare utbildning är begränsad till {whiteSpanish_Open}tre{whiteSpanish_Close} förmågor. Nya bonusförmågor låses upp när besättningsmedlemmen når sin {whiteSpanish_Open}första{whiteSpanish_Close}, {whiteSpanish_Open}tredje{whiteSpanish_Close} och {whiteSpanish_Open}femte{whiteSpanish_Close} förmåga i sin huvudutbildning."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Bonusförmågor"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "När du omskolar en besättningsmedlem för en annan vagn med andra utbildningar kommer du kunna välja förmågor för deras extra utbildning igen."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Bonusförmågor tränas hälften så snabbt som förmågor för huvudutbildningen."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Det krävs ingen extra erfarenhet för att träna bonusförmågor."
+
+msgid "matrix/freeResetButton"
+msgstr "Gratis återställning"
+
+msgid "matrix/increaseButton"
+msgstr "Ökad träningshastighet"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Besättningsmedlemmen har nått sin träningsgräns."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Kan inte öka träningshastigheten"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Träna förmågor med Fri erfarenhet och läromedel."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Snabbträning"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Fel utbildning"
+
+msgid "matrix/qualification/1"
+msgstr "Huvudutbildning"
+
+msgid "matrix/qualification/2"
+msgstr "Andra utbildning"
+
+msgid "matrix/qualification/3"
+msgstr "Tredje utbildning"
+
+msgid "matrix/qualification/4"
+msgstr "Fjärde utbildning"
+
+msgid "matrix/qualification/5"
+msgstr "Femte utbildning"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Nollförmågor ej tillgängliga för andra utbildning"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Nollförmågor ej tillgängliga för tredje utbildning"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Nollförmågor ej tillgängliga för fjärde utbildning"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Andra utbildning ej tillgänglig för den här vagnen"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Tredje utbildning ej tillgänglig för den här vagnen"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Fjärde utbildning ej tillgänglig för den här vagnen"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Femte utbildning ej tillgänglig för den här vagnen"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Varje ytterligare utbildning är begränsad till {whiteSpanish_Open}tre{whiteSpanish_Close} förmågor. Du kan bara välja förmågor från den här utbildningen som bonusförmågor."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Antalet förmågor för huvudutbildningen är begränsat till {whiteSpanish_Open}sex{whiteSpanish_Close} stycken (inklusive nollförmågor)."
+
+msgid "matrix/resetButton"
+msgstr "Återställ"
+
+msgid "matrix/resetButtonHint"
+msgstr "KLICKA FÖR ATT ÅTERSTÄLLA FÖRMÅGOR"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Du har inga tränade förmågor."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Kan inte återställa förmågor"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Klicka för att återställa förmågor"
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Återställ förmågor"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Du kan träna en bonusförmåga"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Det krävs ingen besättningserfarenhet för att träna bonusförmågor."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Ej tillgänglig"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Upplåst när huvudutbildningens tredje förmåga är tränad. Kräver ingen erf."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Upplåst när huvudutbildningens femte förmåga är tränad. Kräver ingen erf."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Träningsnivå"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "Total mängd erfarenhet som krävs har minskats då besättningsmedlemmen har en nollförmåga."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "Total mängd erfarenhet som krävs har minskats då besättningsmedlemmen har två nollförmågor."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Du kan träna en förmåga"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Ej tillgänglig"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Föregående förmåga måste tränas till 100%."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Du kan träna en nollförmåga"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Nollförmågor tränas alltid först, även om flera förmågor väljs samtidigt. Kräver ingen besättningserf."
+
+msgid "matrix/skills/allSkills"
+msgstr "Alla förmågor tränade för den här vagnen"
+
+msgid "matrix/skills/available"
+msgstr "Förmågor tillgängliga för träning"
+
+msgid "matrix/skills/bonus"
+msgstr "Bonusförmågor"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Förmågor ej tillgängliga"
+
+msgid "matrix/skills/locked"
+msgstr "Förmågor ej tillgängliga"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Alla förmågor är avstängda för den här vagnen"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Huvudutbildningsförmågor"
+
+msgid "matrix/skills/reduced"
+msgstr "Minskad effektgrad för förmågor"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Vagnschefsförmågor"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Förarförmågor"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Vagnschefsförmågor"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Förarförmågor"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Skyttförmågor"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Laddarförmågor"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Signalistförmågor"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Skyttförmågor"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Laddarförmågor"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Signalistförmågor"
+
+msgid "matrix/skills/training"
+msgstr "Träning av förmågor"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Nollförmågor tillgängliga för träning"
+
+msgid "memberChange/action/recruit"
+msgstr "Rekrytera {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount}% RABATT PÅ OMSKOLNING"
+
+msgid "memberChange/title"
+msgstr "VÄLJ {role}: {vehicle}"
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}I förrådet{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "När du bekräftar detta kommer besättningsmedlemmen som överför sin erfarenhet tas bort från ditt konto."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "En mentorslicens låter dig överföra besättningserfarenhet från en besättningsmedlem till en annan med samma nationalitet."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Mentorslicens"
+
+msgid "personalData/card/edit"
+msgstr "Redigera"
+
+msgid "personalData/card/remove"
+msgstr "Ta bort"
+
+msgid "personalData/card/restrictions"
+msgstr "Restriktioner: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Klicka för att byta namn och utseende på besättningsmedlemmen."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Utseende"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Den här besättningsmedlemmen har redan unikt namn och utseende."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Kan inte byta namn och utseende"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Inget sökresultat. Ändra eller återställ sökfiltret."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Ställ in visning av utseende efter nationalitet."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Filtrera efter parameter"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Visa dokument."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Dokument"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Visa tillgängliga utseenden."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Tillgängliga utseenden"
+
+msgid "personalData/filter/type/title"
+msgstr "Typ"
+
+msgid "personalData/title"
+msgstr "BYT NAMN OCH UTSEENDE"
+
+msgid "personalFile/changeVehicle"
+msgstr "Ändra"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Kan inte utbilda den här besättningsmedlemmen för en annan vagn."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Funktionen ej tillgänglig"
+
+msgid "personalFile/discount/full"
+msgstr "Rabatt på besättningsträning tillgänglig"
+
+msgid "personalFile/discount/short"
+msgstr "Rabatt tillgänglig"
+
+msgid "personalFile/inVehicle"
+msgstr "I vagnen: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Öka"
+
+msgid "personalFile/isUntrained"
+msgstr "Ej tränad för denna vagn"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Alla {icon} Premiumvagnar"
+
+msgid "personalFile/retrain"
+msgstr "Omskola"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Effektgrad av förmågor:"
+
+msgid "personalFile/specialization"
+msgstr "Specialisering:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Specialisering"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Klicka för att lyssna på vagnschefsrösten."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Unik röst"
+
+msgid "postProgression/button/claim"
+msgstr "Ta emot belöning"
+
+msgid "postProgression/description"
+msgstr "Alla besättningsmedlemmar som har tränat alla sex förmågor i sin huvudutbildning får tillgång till de allmänna efterspelet. För varje 100 000 erf. intjänad under efterspel får du en allmän läroplan som kan användas för att träna andra besättningar."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "Efterspelet består av en gemensam pott för alla besättningsmedlemmar med sex fullt tränad förmågor på spelarens konto."
+
+msgid "postProgression/tips/2"
+msgstr "Bara stridserfarenhet räknas i efterspelet. Hälften av stridserfarenheten intjänad av en besättningsmedlem delat med antal besättningsmedlemmar i vagnen läggs till i efterspelspotten."
+
+msgid "postProgression/tips/3"
+msgstr "Erfarenhet förlorad genom hantering av förmågor eller effektgrad påverkar inte efterspelet."
+
+msgid "postProgression/title"
+msgstr "BESÄTTNINGSEFTERSPEL"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Alla besättningsmedlemmar som hade tillgång efterspel har låg effektgrad."
+
+msgid "postProgression/warning/retire"
+msgstr "Alla besättningsmedlemmar som hade tillgång till efterspel har permitterats eller förlorat erf. från sista förmågan."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Alla pvkv Premium"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Alla artillerivagnar Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Pvkv Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Artilleri Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Tunga strv. Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Lätta strv. Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Medeltunga strv. Premium"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Alla tunga strv. Premium"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Alla lätta strv. Premium"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Alla medeltunga strv. Premium"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "BELÖNINGAR"
+
+msgid "serviceRecord/averageXP"
+msgstr "Genomsnittlig Erfarenhet per strid"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Utkämpade strider"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Inga prestationer eller utmärkelser intjänade i strid."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Förhållandet mellan total mängd intjänad erfarenhet och antalet strider utkämpade i vagnen som besättningsmedlemmen tillhör."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Genomsnittlig Erfarenhet per strid"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Besättningsmedlemmens grad beror på erfarenhet och antal tränade förmågor."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Grad"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Besättningsmedlemmen har tränat alla förmågor för den här vagnen"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Förmågor tillgängliga för träning"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Alla förmågor är avstängda för den här vagnen"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Ingen erfarenhet krävs för att träna förmågor för extra utbildningar, men de tränas hälften så snabbt som huvudutbildningens förmågor."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Avbryt"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Träna"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "EXTRA UTBILDNING"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "HUVUDUTBILDNING"
+
+msgid "tankChange/title"
+msgstr "UTBILDA FÖR VAGN"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Visa vagnar i garaget."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "I garaget"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Anpassa visningen av vagnar baserat på typ och klass."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Filtrera efter parameter"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Du behöver inte utbilda besättningsmedlemmar för Premiumvagnar. Du kan överföra en besättning till en Premiumvagn av samma typ utan begränsningar."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Premiumvagn"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Vagnsnamnet får innehålla upp till %(maxLength)s tecken."
+
+msgid "tankman/action/dismiss/title"
+msgstr "PERMITTERA"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Permittera den här besättningsmedlemmen."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Kan inte permittera den här besättningsmedlemmen."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Funktionen ej tillgänglig"
+
+msgid "tankman/action/recruit/title"
+msgstr "Rekrytera"
+
+msgid "tankman/action/restore/title"
+msgstr "ÅTERSTÄLL"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Återställ besättningsmedlem."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Klicka för att lyssna på vagnschefsrösten."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Unik röst"
+
+msgid "tankman/recruit"
+msgstr "Rekryt"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Utseende"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profil"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Tjänstgöringsintyg"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Rekryt"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Återställ filter"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Inget sökresultat. Ändra eller återställ sökfiltret."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Inget sökresultat. Rekrytera en besättningsmedlem."
+
+msgid "tankmanList/filter/title"
+msgstr "Besättningsmedlemmar:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Sängar saknas i logementet."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Visa/göm permitterade besättningsmedlemmar."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Permitterade"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Visa besättningsmedlemmar i logementet."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "I logementet"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Visa besättningsmedlemmar i vagnar."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "I vagnar"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Visa/göm utseenden för den här nationaliteten. "
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Anpassa visning av besättningsmedlemmar efter huvudutbildning, specialisering och andra parametrar."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Filtrera efter parameter"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Rekrytera ny besättningsmedlem."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Namnet får innehålla upp till %(maxLength)s tecken."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Håll muspekaren över en förmåga för att se hur den påverkar respektive egenskaper när den är tränad till 100% och med aktuell effektgrad."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Uppfattat!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Två nya förmågor för varje utbildning har introducerats, Säker placering har omarbetats och ett nytt alternativ låter dig gömma förmågor i stridsgränssnittet."
+
+msgid "welcomeScreen/item2/description"
+msgstr "En ny användbar funktion låter dig permittera undertränade besättningsmedlemmar med ett klick."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Förmågor kan nu återställas med bara krediter, utan att förlora erfarenhet."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Vi har lagt till nya förmågor och funktioner och en existerande förmåga har uppdaterats."
+
+msgid "welcomeScreen/title"
+msgstr "BESÄTTNINGSUPPDATERINGAR"

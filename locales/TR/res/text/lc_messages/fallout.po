@@ -1,0 +1,197 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardWindow/additionalText/2"
+msgstr "Kiralık Seviye X araçları özel görevleri tamamladıktan sonra alacaksınız."
+
+msgid "awardWindow/btnAction/1"
+msgstr "Hücum'a Git"
+
+msgid "awardWindow/btnAction/2"
+msgstr "Görevlere Git"
+
+msgid "awardWindow/header/1"
+msgstr "Seviye %s Araç Kullanılabilir"
+
+msgid "awardWindow/header/2"
+msgstr "Seviye %s Araç Kullanılabilir"
+
+msgid "awardWindow/mainText/1"
+msgstr "Tebrikler! Garajınızdaki Seviye %s araç Hücum kipinde savaşmanızı sağlıyor."
+
+msgid "awardWindow/mainText/2"
+msgstr "Tebrikler! Seviye %s araç kullanılabilir. Hücum kipinde savaşmak için bir Seviye X araç satın alın."
+
+msgid "awardWindow/title/1"
+msgstr "Bülten"
+
+msgid "awardWindow/title/2"
+msgstr "Bülten"
+
+msgid "battleLoading/multiteam/battleType"
+msgstr "Çelik Avı"
+
+msgid "battleLoading/multiteam/winText"
+msgstr "Görev: düşmandan daha fazla zafer puanı kazanın."
+
+msgid "battleSelectorWindow/domination/descr"
+msgstr "Takımlar dahil, haritaya göre her biri 10 veya 15 oyuncudan oluşan iki ekip.\nKazanan, en çok zafer puanını kazanan veya\ntüm düşman araçlarını yok eden ekiptir."
+
+msgid "battleSelectorWindow/domination/title"
+msgstr "Egemenlik"
+
+msgid "battleSelectorWindow/dominationBattleBtnLbl"
+msgstr "Devam Et"
+
+msgid "battleSelectorWindow/headerDesc"
+msgstr "Bu kip ekip yapısında farklılık gösteren savaş türleri içerir.\nHer savaş türü Savaş Yedekleri kullanımına ve savaşta yeniden türemeye izin verir."
+
+msgid "battleSelectorWindow/headerTitleStr"
+msgstr "Hücum"
+
+msgid "battleSelectorWindow/multiteam/descr"
+msgstr "Yalnız oyuncular ve 3 oyunculu Takımlar ile serbest\nformat. Kazanan, en çok zafer puanı kazanan\noyuncu veya Takımdır."
+
+msgid "battleSelectorWindow/multiteam/title"
+msgstr "Çelik Avı"
+
+msgid "battleSelectorWindow/multiteamBattleBtnLbl"
+msgstr "Devam Et"
+
+msgid "battleSelectorWindow/title"
+msgstr "Hücum"
+
+msgid "channel/label"
+msgstr "Hücum"
+
+msgid "falloutBattleSelectorWindow/autoSquad/label"
+msgstr "Otomatik ekip arama"
+
+msgid "hangarSwitch/14"
+msgstr "Egemenlik"
+
+msgid "hangarSwitch/15"
+msgstr "Çelik Avı"
+
+msgid "hangarSwitch/btnLbl"
+msgstr "Değiştir"
+
+msgid "infoPanel/garage/descr"
+msgstr "Aracınız yok edilirse yeni bir tane seçin ve savaş alanına geri dönün."
+
+msgid "infoPanel/garage/head"
+msgstr "SAVAŞ BAŞINA ÜÇ ARAÇ"
+
+msgid "infoPanel/garage/postmortemBtnLbl"
+msgstr "İzleyici Kipi"
+
+msgid "infoPanel/garageMultiteam/descr"
+msgstr "Aracınız yok edilirse yeni bir tane seçin ve savaş alanına geri dönün."
+
+msgid "infoPanel/garageMultiteam/head"
+msgstr "SAVAŞ BAŞINA 1–3 ARAÇ"
+
+msgid "infoPanel/getFlags/descr"
+msgstr "Bayrakları ele geçirin ve üssünüze teslim edin."
+
+msgid "infoPanel/getFlags/head"
+msgstr "BAYRAĞI ELE GEÇİR"
+
+msgid "infoPanel/repair/descr"
+msgstr "Araçlarınızı kontrol noktalarında onarın ve ikmal edin."
+
+msgid "infoPanel/repair/head"
+msgstr "TAM SERVİS"
+
+msgid "infoPanel/resourcePoints/descr"
+msgstr "Özel kaynak noktalarında kaynak ele geçirin."
+
+msgid "infoPanel/resourcePoints/head"
+msgstr "KAYNAK AVI"
+
+msgid "infoPanel/secretWin/descr"
+msgstr "Savaştaki katkınız karşılığında zafer puanı kazanın."
+
+msgid "infoPanel/secretWin/head"
+msgstr "PUAN HESABI"
+
+msgid "infoPanel/singleHelpText/plus"
+msgstr "+"
+
+msgid "infoPanel/singleHelpText/winPoints/damage"
+msgstr "Verilen %(damageDealt)s karşılığı %(points)s"
+
+msgid "infoPanel/singleHelpText/winPoints/flagCapture"
+msgstr "Bayrak teslim etme karşılığı %s"
+
+msgid "infoPanel/singleHelpText/winPoints/flagDestroy"
+msgstr "Bayrağı yok etme karşılığı %s"
+
+msgid "infoPanel/singleHelpText/winPoints/kill"
+msgstr "Bir düşman aracını yok etme karşılığı %s"
+
+msgid "multiselectionSlot/14/descriptionTitle"
+msgstr "Araçları seçin. En az bir Seviye %(topLevel)s araca ihtiyacınız var."
+
+msgid "multiselectionSlot/14/message"
+msgstr "Grup üç Seviye %(level)s araçtan oluşmalıdır."
+
+msgid "multiselectionSlot/14/topTierVehicleRequired"
+msgstr "Egemenlik kipinde savaşmak için en az bir Seviye %(requiredLevel)s araca ihtiyacınız var.\nGrup üç Seviye %(level)s araçtan oluşmalıdır."
+
+msgid "multiselectionSlot/15/descriptionTitle"
+msgstr "Araçları Seçin"
+
+msgid "multiselectionSlot/15/message"
+msgstr "Garajınızda Seviye %(level)s araçlar seçin."
+
+msgid "multiselectionSlot/15/topTierVehicleRequired"
+msgstr "Çelik Avı kipinde savaşmak için en az bir Seviye %(requiredLevel)s araca ihtiyacınız var."
+
+msgid "multiselectionSlot/domination/requiredVehicleNotActivated"
+msgstr "Seviye %(level)s\naraç"
+
+msgid "multiselectionSlot/domination/vehicleNotActivated"
+msgstr "Araç\nseçin"
+
+msgid "multiselectionSlot/groupNotReady"
+msgstr "Grup hazır değil"
+
+msgid "multiselectionSlot/groupReady"
+msgstr "Grup hazır"
+
+msgid "multiselectionSlot/index"
+msgstr "%(index)d."
+
+msgid "multiselectionSlot/multiteam/vehicleNotActivated"
+msgstr "Araç\nseçin"
+
+msgid "multiselectionSlot/selectionRequirements"
+msgstr "Seviye %(level)s"
+
+msgid "multiselectionSlot/selectionStatus"
+msgstr "Araçları Seçin"
+
+msgid "resourcePoints/cooldown/descr"
+msgstr "Kullanılabilir:"
+
+msgid "resourcePoints/disabled/descr"
+msgstr "Düşman noktaya ulaştı!"
+
+msgid "resourcePoints/mining/descr"
+msgstr "Kaynak ele geçirme"
+
+msgid "safeZone/message"
+msgstr "Güvenli alana\nsürün"
+
+msgid "safeZoneDirection/message"
+msgstr "Güvenli Alan"
+
+msgid "tankCarouselSlot/activateButton"
+msgstr "Seçin"
+
+msgid "tankCarouselSlot/deactivateButton"
+msgstr "İptal"
+
+msgid "tankCarouselSlot/selectionButtonTooltip"
+msgstr "Grup en az bir Seviye %(requiredLevel)s savaşta olmayan araçla üç Seviye %(level)s araçtan oluşmalıdır."

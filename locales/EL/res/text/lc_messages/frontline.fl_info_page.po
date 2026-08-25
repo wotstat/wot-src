@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "Σχετικά Με Το Battle Pass"
+
+msgid "about/position/header"
+msgstr "Διανομή Πόντων Battle Pass"
+
+msgid "about/position/text"
+msgstr "Μετά από κάθε μάχη κερδίζετε Πόντους Battle Pass ανάλογα με τη θέση σας στην κατάταξη της ομάδας. Θα κερδίζετε περισσότερους Πόντους Battle Pass εάν αυξήσετε τη Βαθμίδα σας στην Πρώτη Γραμμή."
+
+msgid "about/scores/header"
+msgstr "Πόντοι Battle Pass"
+
+msgid "about/scores/text"
+msgstr "Ένα ειδικό νόμισμα του Battle Pass, το οποίο μπορείτε να κερδίσετε σε Τυχαίες Μάχες και σε μάχες Πρώτης Γραμμής. Κερδίζετε Πόντους για το Battle Pass όταν ανεβαίνετε σε μεγαλύτερη Βαθμίδα Πρώτης Γραμμής και όταν προάγεστε μέσα στη μάχη. Τα οχήματα που λαμβάνουν μέρος στις μάχες Πρώτης Γραμμής δεν έχουν όριο κερδισμένων Πόντων."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Ήττα"
+
+msgid "about/scoresTable/topCell"
+msgstr "Κορυφαίοι {{top}} στα κερδισμένα XP"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Νίκη"
+
+msgid "about/text"
+msgstr "Το Battle Pass είναι μία μακροχρόνια διοργάνωση στην οποία οι παίκτες προχωρούν από Φάση σε Φάση όταν κερδίζουν Πόντους Battle Pass. Από την ολοκλήρωση της κάθε Φάσης κερδίζουν πολύτιμα έπαθλα. Μετά την ολοκλήρωση συγκεκριμένων Φάσεων μπορούν να κερδίσουν τα Battle Pass Tokens—ένα ειδικό νόμισμα του παιχνιδιού με το οποίο αγοράζετε μοναδικά οχήματα και άλλα πολύτιμα αντικείμενα του παιχνιδιού από τον αντίστοιχο τομέα του Εφοδιασμού."
+
+msgid "addons/cellRent/header"
+msgstr "Μίσθωση Οχήματος"
+
+msgid "addons/cellRent/text_10"
+msgstr "Υπάρχουν αρκετά διαθέσιμα οχήματα της Βαθμίδας {{vehiclesLevel}} προς μίσθωση για credits. Πληρώματα από οχήματα του ίδιου τύπου και έθνους μπορούν να μεταφερθούν σε αυτά χωρίς ποινή και χωρίς να χρειάζεται επανεκπαίδευση."
+
+msgid "addons/cellRent/text_9"
+msgstr "Υπάρχουν αρκετά διαθέσιμα οχήματα της Βαθμίδας {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} προς μίσθωση για credits. Πληρώματα από οχήματα του ίδιου τύπου και έθνους μπορούν να μεταφερθούν σε αυτά χωρίς ποινή και χωρίς να χρειάζεται επανεκπαίδευση."
+
+msgid "addons/cellSpectator/header"
+msgstr "Λειτουργία Θεατή"
+
+msgid "addons/cellSpectator/text"
+msgstr "Όσο περιμένετε για την επανεκκίνηση, μπορείτε να παρακολουθείτε τη μάχη ως Θεατής έτσι ώστε να σχεδιάσετε τις επόμενες κινήσεις τακτικής."
+
+msgid "addons/cellTime/header"
+msgstr "Πρόσθετος Χρόνος"
+
+msgid "addons/cellTime/text"
+msgstr "Εάν βρίσκεται σε εξέλιξη κατάληψη μιας βάσης όταν λήξει ο διαθέσιμος χρόνος μάχης, τότε δίνεται πρόσθετος χρόνος στους επιτιθέμενους. Εάν γίνει διακοπή της κατάληψης από τους αμυνόμενους, ο πρόσθετος χρόνος μηδενίζεται."
+
+msgid "addons/header"
+msgstr "Πρόσθετες Πληροφορίες"
+
+msgid "levelUp/sectionHeader"
+msgstr "Οχήματα Βαθμίδας {{level}}"
+
+msgid "levelUp/text"
+msgstr "Αρχικά, όπως και τις προηγούμενες φορές, μπορείτε να λάβετε μέρος στις μάχες μόνο με οχήματα της Βαθμίδας {{vehiclesLevelFrom}} και να προετοιμάσετε τα οχήματα της Βαθμίδας {{vehiclesLevelTo}} στο Γκαράζ σας. Μόλις καταληφθεί οποιαδήποτε βάση στη 2η γραμμή (D, E, F) και οι δύο ομάδες θα μπορούν να χρησιμοποιήσουν τα οχήματα της Βαθμίδας {{vehiclesLevelTo}}."
+
+msgid "main/cellDuration/header"
+msgstr "Διάρκεια"
+
+msgid "main/cellDuration/text"
+msgstr "Οι μάχες στην Πρώτη Γραμμή θα διαρκέσουν για {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}}. Η ημερομηνία των επόμενων μαχών θα ανακοινωθεί σε άλλη χρονική στιγμή."
+
+msgid "main/cellFrontline/header"
+msgstr "Πρώτη Γραμμή"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Μεγάλες μάχες 30v30 με οχήματα της Βαθμίδας {{vehiclesLevel}} στους χάρτες {{@ colorLegacy 'FFE4C0'}}Normandy, Kraftwerk{{/}} και {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Οι επιτιθέμενοι θα πρέπει να καταστρέψουν 3 από τα 5 πυροβόλα μεγάλου διαμετρήματος, ενώ οι αμυνόμενοι θα πρέπει να τα προστατέψουν."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Μεγάλες μάχες 30v30 με οχήματα της Βαθμίδας {{vehiclesLevelFrom}}-{{vehiclesLevelTo}} στους χάρτες {{@ colorLegacy 'FFE4C0'}}Normandy, Kraftwerk{{/}} και {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Οι επιτιθέμενοι θα πρέπει να καταστρέψουν 3 από τα 5 πυροβόλα μεγάλου διαμετρήματος, ενώ οι αμυνόμενοι θα πρέπει να τα προστατέψουν."
+
+msgid "main/cellLevel9/header"
+msgstr "Οχήματα Βαθμίδας {{vehiclesLevel}}"
+
+msgid "main/cellLevel9/text"
+msgstr "Μόλις καταληφθεί οποιαδήποτε βάση στη 2η γραμμή (D, E, F) θα μπορείτε να χρησιμοποιήσετε τα οχήματα της Βαθμίδας {{vehiclesLevel}}."
+
+msgid "main/cellLevels/header"
+msgstr "Οχήματα Βαθμίδας {{vehiclesLevel}}"
+
+msgid "main/cellLevels/text_8"
+msgstr "Μόνο οχήματα της Βαθμίδας {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} επιτρέπονται σε αυτές τις μάχες."
+
+msgid "main/cellLevels/text_9"
+msgstr "Μόνο οχήματα της Βαθμίδας {{vehiclesLevel}} μπορούν να μπουν στη μάχη."
+
+msgid "main/cellPass/header"
+msgstr "Battle Pass"
+
+msgid "main/cellPass/text"
+msgstr "Η διοργάνωση της Πρώτης Γραμμής είναι μια μεγάλη ευκαιρία για να κερδίσετε Πόντους Battle Pass από τη συμμετοχή σας στις μάχες και από τις Βαθμίδες Πρώτης Γραμμής στις οποίες φτάνετε."
+
+msgid "main/cellReserves/header"
+msgstr "Κατηγορίες Εφεδρειών"
+
+msgid "main/cellReserves/text"
+msgstr "Οι Εφεδρείες χωρίζονται σε 3 κατηγορίες και η κάθε κατηγορία έχει τη δική της θέση. Η σειρά με την οποία ξεκλειδώνονται οι θέσεις και οι αναβαθμίσεις τους, διαφέρουν για τον κάθε τύπο οχήματος."
+
+msgid "main/cellScenarios/header"
+msgstr "Σενάρια"
+
+msgid "main/cellScenarios/text"
+msgstr "Μάχες στην Πρώτη Γραμμή με βάση ένα από τα ακόλουθα σενάρια: {{@ colorLegacy 'FFE4C0'}}Standard Battle{{/}}, {{@ colorLegacy 'FFE4C0'}}Operational Support{{/}} ή {{@ colorLegacy 'FFE4C0'}}Twist of Fate{{/}}. Πληροφορίες για το τρέχον σενάριο μάχης εμφανίζονται στην αρχική οθόνη, κατά τη διάρκεια της αντίστροφης μέτρησης ή πιέζοντας το πλήκτρο Tab."
+
+msgid "main/sectionHeader"
+msgstr "Γενικές Πληροφορίες"
+
+msgid "page/backBtn"
+msgstr "ΠΙΣΩ"
+
+msgid "page/headerUpper"
+msgstr "ΠΡΩΤΗ ΓΡΑΜΜΗ"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "Ανάλογα με τον βαθμό στον οποίο προάγεστε, κερδίζετε XP Πρώτης Γραμμής και Combat XP. Τα XP Πρώτης Γραμμής χρειάζονται για να αυξηθεί η Βαθμίδα Πρώτης Γραμμής στην οποία είσαστε. Συνολικά, υπάρχουν {{@ colorLegacy 'FFE4C0'}}20 Βαθμίδες{{/}}."
+
+msgid "progression/levelsSection/header"
+msgstr "Βαθμίδες Πρώτης Γραμμής"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "Οι {{@ colorLegacy 'FFE4C0'}}Βαθμίδες Πρώτης Γραμμής{{/}} σας ανταμείβουν με Πόντους Battle Pass, Πόντους Εφεδρειών, bonds, οδηγίες, Εντολές Επανεκπαίδευσης, Άδειες Καθοδήγησης και Τόμους Πληρώματος."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "Οι {{@ colorLegacy 'FFE4C0'}}Βαθμίδες Πρώτης Γραμμής{{/}} σας ανταμείβουν με Πόντους Εφεδρειών, bonds, οδηγίες, Εντολές Επανεκπαίδευσης και Τόμους Πληρώματος."
+
+msgid "progression/ranksSection/experience"
+msgstr "Οι {{@ colorLegacy 'FFE4C0'}}Βαθμοί{{/}} όχι μόνο δηλώνουν την αποτελεσματικότητά σας στη μάχη αλλά παρέχουν επίσης και μπόνους στα κερδισμένα Combat XP. Το μπόνους αυτό υπολογίζεται με βάση τα συνολικά base XP που κερδίσατε με όλα τα οχήματα που έλαβαν μέρος στη μάχη. Εάν εσείς ή οι συμπαίκτες σας φτάσουν στον βαθμό του Στρατηγού, όλα τα μέλη της ομάδας θα λάβουν μπόνους στην κύρια ειδικότητα των πληρωμάτων τους, με συντελεστή από {{@ colorLegacy 'FFE4C0'}}1,5%{{/}} έως {{@ colorLegacy 'FFE4C0'}}15%{{/}}."
+
+msgid "progression/ranksSection/header"
+msgstr "Βαθμοί"
+
+msgid "progression/ranksSection/text"
+msgstr "Σε αυτό το είδος μαχών, υπάρχουν 6 βαθμοί στους οποίους μπορούν να προαχθούν οι παίκτες, από αυτόν του Στρατιώτη μέχρι αυτόν του Στρατηγού. Η προαγωγή γίνεται με βάση τις επιδόσεις σας στη μάχη (από κατάληψη ή υπεράσπιση βάσεων, από καταστροφή κύριων στόχων, κλπ), ενώ οι βαθμοί αποφέρουν επίσης και experience. Τα συνολικά κερδισμένα XP υπολογίζονται απ' όλα τα οχήματα που έλαβαν μέρος στη μάχη."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Μπόνους στο Combat Experience"
+
+msgid "progression/ranksTable/captain"
+msgstr "ΛΟΧΑΓΟΣ"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Μπόνους Στις Επιδόσεις Του Πληρώματος"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Frontline Experience"
+
+msgid "progression/ranksTable/general"
+msgstr "ΣΤΡΑΤΗΓΟΣ"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "ΥΠΟΛΟΧΑΓΟΣ"
+
+msgid "progression/ranksTable/major"
+msgstr "ΤΑΓΜΑΤΑΡΧΗΣ"
+
+msgid "progression/ranksTable/private"
+msgstr "ΣΤΡΑΤΙΩΤΗΣ"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "ΛΟΧΙΑΣ"
+
+msgid "progression/sectionHeader"
+msgstr "Πρόοδος Πρώτης Γραμμής"
+
+msgid "progression/text"
+msgstr "Σε αυτό το είδος μαχών, προάγεστε σε υψηλότερους βαθμούς, καταλαμβάνετε μεγαλύτερες Βαθμίδες και κερδίζετε έπαθλα."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Δευτερεύουσα"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Θέση Εφεδρείας 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Θέση Εφεδρείας 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Θέση Εφεδρείας 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Πρωταρχική"
+
+msgid "reserveCategories/categories/support"
+msgstr "Επικουρική"
+
+msgid "reserveCategories/config/footerText"
+msgstr "Στο σενάριο {{@ colorLegacy 'FFE4C0'}}Twist of Fate{{/}}, η σειρά με την οποία ξεκλειδώνονται οι Εφεδρείες δεν εξαρτάται από τον τύπο του οχήματος."
+
+msgid "reserveCategories/config/header"
+msgstr "Διαμόρφωση Εφεδρειών ανά Τύπο Οχήματος"
+
+msgid "reserveCategories/config/text"
+msgstr "Στα σενάρια {{@ colorLegacy 'FFE4C0'}}Standard Battle{{/}} και {{@ colorLegacy 'FFE4C0'}}Operational Support{{/}}, όλα τα οχήματα θα έχουν πρόσβαση και στις 3 θέσεις Εφεδρειών. Ωστόσο, η σειρά με την οποία ξεκλειδώνονται οι θέσεις είναι διαφορετική για κάθε τύπο οχήματος."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "Αντιαρματικά"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Βαρέα Άρματα"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Ελαφρά Άρματα"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Μέσα Άρματα"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "Α/Κ Πυροβόλα"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* Η αναβάθμιση σε αυτό το επίπεδο είναι διαθέσιμη μόνο για τις {{@ colorLegacy 'FFE4C0'}}αγορασμένες{{/}} Εφεδρείες στο σενάριο {{@ colorLegacy 'FFE4C0'}}Twist of Fate{{/}}."
+
+msgid "reserveCategories/levels/header"
+msgstr "Πως Να Ξεκλειδώσετε Και Να Βελτιώσετε Τις Εφεδρείες"
+
+msgid "reserveCategories/levels/text"
+msgstr "Η 1η Εφεδρεία είναι διαθέσιμη από την αρχή, ενώ η 2η και η 3η γίνονται διαθέσιμες όταν φτάσετε στον βαθμό του Λοχία ή του Υπολοχαγού αντιστοίχως. Όλες οι Εφεδρείες αναβαθμίζονται πλήρως αφότου φτάσετε στον βαθμό του Λοχαγού και του Ταγματάρχη."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "Επίπεδο {{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} ή {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}}"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "ΛΟΧΑΓΟΣ"
+
+msgid "reserveCategories/ranks/general"
+msgstr "ΣΤΡΑΤΗΓΟΣ"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "ΥΠΟΛΟΧΑΓΟΣ"
+
+msgid "reserveCategories/ranks/major"
+msgstr "ΤΑΓΜΑΤΑΡΧΗΣ"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "ΛΟΧΙΑΣ"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "ΣΤΡΑΤΙΩΤΗΣ"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Twist of Fate"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "Στη μάχη, οι παίκτες μπορούν να επιλέξουν τυχαίες Εφεδρείες, από όλους τους τύπους οχημάτων. Η πιθανότητα της κάθε τοποθετημένης Εφεδρείας στην αντίστοιχη θέση πριν την έναρξη της μάχης αυξάνεται κατά {{@ colorLegacy 'FFE4C0'}}10%{{/}}. Αγοράζοντας μία Εφεδρεία, θα αυξάνεται το Επίπεδό της στο {{@ colorLegacy 'FFE4C0'}}II{{/}}, ενώ θα παρέχεται η δυνατότητα να αναβαθμιστεί στο Επίπεδο {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Σενάρια Πρώτης Γραμμής"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Standard Battle"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Με συμβατικούς κανόνες μάχης. Η προϋποθέσεις χρήσης Εφεδρειών δεν αλλάζουν."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Operational Support"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "Κατά το ξεκλείδωμα Εφεδρείας: {{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "Κατά την επιστροφή στη μάχη: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Ένα σενάριο με πιο γρήγορες μάχες, καθώς οι Εφεδρείες έχουν μειωμένο χρόνο επαναφοράς:"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Μάχες στην Πρώτη Γραμμή με βάση ένα από τα ακόλουθα σενάρια: {{@ colorLegacy 'FFE4C0'}}Standard Battle{{/}}, {{@ colorLegacy 'FFE4C0'}}Operational Support{{/}} ή {{@ colorLegacy 'FFE4C0'}}Twist of Fate{{/}}. Τα διάφορα σενάρια τροποποιούν τις προϋποθέσεις χρήσης των Εφεδρειών. Πληροφορίες για το τρέχον σενάριο μάχης εμφανίζονται στην αρχική οθόνη, κατά τη διάρκεια της αντίστροφης μέτρησης ή πιέζοντας το πλήκτρο Tab."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Κατηγορίες Εφεδρειών"
+
+msgid "reserveCategories/text"
+msgstr "Οι Εφεδρείες χωρίζονται σε 3 κατηγορίες, με 3 Εφεδρείες στην κάθε κατηγορία. Μπορείτε να τοποθετήσετε μόνο 1 Εφεδρεία από την κάθε κατηγορία στην αντίστοιχη θέση."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Εφεδρείες Επίθεσης"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Εφεδρείες Ανίχνευσης"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Στρατηγικά Αποθέματα"
+
+msgid "reserves/sectionHeader"
+msgstr "Άμεσες Εφεδρείες"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Γρήγορη Εκκίνηση"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Ο χρόνος προετοιμασίας των εφεδρειών από την έναρξη της μάχης έχει μειωθεί κατά 50%."
+
+msgid "reserves/sectionReload/header"
+msgstr "Άμεση Διαθεσιμότητα"
+
+msgid "reserves/sectionReload/text"
+msgstr "Οι Εφεδρείες θα είναι έτοιμες για χρήση μόλις τις ξεκλειδώσετε."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Δεύτερο Κύμα"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Ο χρόνος προετοιμασίας των Εφεδρειών μειώνεται κατά 70% όταν επιστρέφετε στη μάχη με νέο όχημα."
+
+msgid "rules/backToFight/header"
+msgstr "Επιστροφή στη Μάχη"
+
+msgid "rules/backToFight/text"
+msgstr "Εάν το όχημά σας καταστραφεί το όχημά σας, μπορείτε να επιλέξετε κάποιο άλλο και να συνεχίσετε τη μάχη. Μπορείτε να επιλέξετε μία από τις περιοχές (σημεία) είτε στις πλευρές είτε στα μετόπισθεν, για να καταστρώσετε καλύτερα το σχέδιο μάχης. Οι αμυνόμενοι παίκτες έχουν μεγαλύτερο περιθώριο επιλογών σημείων επανεκκίνησης στα μετόπισθεν, έτσι ώστε να μπορούν να υπερασπιστούν πιο αποτελεσματικά τους κύριους στόχους, σε περίπτωση ξαφνικής προέλασης των επιτιθέμενων. Θα υπάρχει επίσης ειδική ένδειξη που θα προειδοποιεί τους παίκτες σε περίπτωση που το επιλεγμένο σημείο επανεκκίνησης είναι επικίνδυνο."
+
+msgid "rules/base/header"
+msgstr "Κατάληψη Βάσης"
+
+msgid "rules/base/textBottom"
+msgstr "Η πρόκληση φθοράς σε ένα όχημα (ή σε κάποιο εξάρτημά του) που καταλαμβάνει μία βάση δεν μηδενίζει την πρόοδο κατάληψης της βάσης, αλλά τη σταματάει προσωρινά. Για να μηδενιστεί η κατάληψη της βάσης θα πρέπει να καταστραφεί το όχημα που βρίσκεται μέσα στον κύκλο της βάσης ή να εξαναγκαστεί να αποχωρήσει από αυτόν. Οι αμυνόμενοι δεν μπορούν να επανακαταλάβουν μία βάση εάν αυτή καταληφθεί από τους επιτιθέμενους."
+
+msgid "rules/base/textTop"
+msgstr "Η {FFE4C0_Start}επιτιθέμενη ομάδα{FFE4C0_End} πρέπει να καταλάβει συνεχόμενες βάσεις για να φτάσει στους κύριους στόχους. Μία κατάληψη βάσης προσθέτει 2 λεπτά στη διάρκεια της μάχης. Η κατάληψη της τελευταίας βάσης προσθέτει 4 λεπτά."
+
+msgid "rules/sectionHeader"
+msgstr "Γενικοί Κανόνες"
+
+msgid "rules/service/header"
+msgstr "Κύκλοι Ανεφοδιασμού"
+
+msgid "rules/service/text"
+msgstr "Οι Κύκλοι Ανεφοδιασμού επαναφέρουν τα hit points των οχημάτων, θεραπεύουν όλα τα τραυματισμένα μέλη του πληρώματος και ανεφοδιάζουν με πυρομαχικά το όχημα. Ο ρυθμός ανεφοδιασμού είναι: {FFE4C0_Start}100 hit points / 1 μέλος πληρώματος / 10% των πυρομαχικών{FFE4C0_End} ανά δευτερόλεπτο."
+
+msgid "rules/weapons/header"
+msgstr "Κύριοι Στόχοι: 3 από τα 5 Πυροβόλα Μεγάλου Διαμετρήματος"
+
+msgid "rules/weapons/list/back"
+msgstr "Οπίσθια θωράκιση: {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "Το επάνω και το εμπρόσθιο τμήμα της θωράκισης {{@ colorLegacy 'FFE4C0'}}δεν επιτρέπουν την πρόκληση φθοράς{{/}} από βλήματα."
+
+msgid "rules/weapons/list/sides"
+msgstr "Πλευρική θωράκιση: {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Πλευρική θωράκιση: {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Αδύναμα σημεία θωράκισης: {{@ colorLegacy 'FFE4C0'}}πόρτα (70 mm) και εξαερισμός (25 mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Υπάρχουν 5 πυργίσκοι πυροβόλων, τοποθετημένοι στα μετόπισθεν της αμυνόμενης ομάδας που είναι και οι κύριοι στόχοι της μάχης. Οι επιτιθέμενοι θα πρέπει να καταστρέψουν τουλάχιστον 3 πυργίσκους, ενώ οι αμυνόμενοι να τους προστατέψουν πάση θυσία."
+
+msgid "subTitle/differentMonth"
+msgstr "από {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}{{/}} έως {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "από {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}} {{startYear}},{{/}} έως {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}} {{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "από {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{from}}{{/}} έως {{@ colorLegacy 'FFE4C0'}}{{to}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "Οι τομείς A, B και C {{@ colorLegacy 'FFE4C0'}}στην 1η γραμμή{{/}} είναι τα σημεία εκκίνησης των δύο ομάδων."
+
+msgid "winStrategy/header"
+msgstr "Στρατηγική Νίκης"
+
+msgid "winStrategy/mapZones"
+msgstr "Ο χάρτης των μαχών αυτών χωρίζεται σε 3 γραμμές άμυνας:"
+
+msgid "winStrategy/secondLine"
+msgstr "Μόλις γίνει κατάληψη των τομέων της 1ης γραμμής, η μάχη συνεχίζεται στους τομείς D, E και F {{@ colorLegacy 'FFE4C0'}}της 2ης γραμμής{{/}}."
+
+msgid "winStrategy/thirdLine"
+msgstr "Η {{@ colorLegacy 'FFE4C0'}}3η γραμμή{{/}} δεν χωρίζεται σε τομείς. Είναι η περιοχή της τελικής φάσης της μάχης, στην οποία είναι εγκατεστημένα τα πυροβόλα μεγάλου διαμετρήματος. Η καταστροφή τους δίνει τη νίκη στην επιτιθέμενη ομάδα. Οι επιτιθέμενοι αποκτούν πρόσβαση στους κύριους στόχους μόνο αφότου καταφέρουν να καταλάβουν τουλάχιστον 1 τομέα της 2ης γραμμής. Μόλις καταληφθεί ένας τομέας, οι αμυνόμενοι έχουν περιθώριο για να αποχωρήσουν 1 λεπτό, πριν αρχίσει ο βομβαρδισμός του τομέα. Όποιοι αμυνόμενοι παραμείνουν μέσα στον τομέα θα καταστραφούν από αεροπορική επιδρομή. Όποιοι επιτιθέμενοι προσπαθήσουν να φτάσουν σε περιοχή της 2ης ή 3ης γραμμής χωρίς να έχει καταληφθεί τομέας της προηγούμενης γραμμής, επίσης θα καταστραφούν από αεροπορική επιδρομή."

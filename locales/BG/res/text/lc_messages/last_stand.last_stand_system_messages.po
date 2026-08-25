@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Тактическо устройство"
+
+msgid "open_artefact/server_error"
+msgstr "Операцията е временно недостъпна. Опитайте отново по-късно."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Неуспешно снабдяване с тактически устройства за %s. Техническа повреда."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Неуспешно снабдяване с тактически устройства за %s. Недостатъчни средства."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Тактически устройства за %s са доставени. Похарчихте "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Налични записи за дешифриране"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Режим: Последна битка: Северна земя"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Последна битка: Северна земя (нормална)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Последна битка: Северна земя (висока)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Последна битка: Северна земя (брутална)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Трудност"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Нормална"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Висока"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Брутална"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Данни"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Целта е изпълнена!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Целите са изпълнени!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Машина"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Завършени вълни: %(curPhase)s от %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Изхарчени %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Финансова трансакция"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Можете да изберете нивото на трудност в панела за трудност в Парка на Последна битка."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Отключена е висока трудност"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Можете да изберете нивото на трудност в панела за трудност в Парка на Последна битка."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Отключена е брутална трудност"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Можете да изберете режима от панела за трудност в Парка на Последна битка: Операция Пандора."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Отключен е режим Последна битка"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Получени ключове за дешифриране: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Квитанция"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Премахнати ключове: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Дешифрирането е успешно"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Битките в Последна битка са временно недостъпни.\nОпитайте отново по-късно."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Битките с трудност %(difficulty)s са временно недостъпни. Опитайте отново по-късно."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "В момента Последна битка не е налична. Проверете портала на играта за актуализации."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Командирът на взвода промени трудността на: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Играчът %(userName)s не е отключил едно от нивата на трудност."

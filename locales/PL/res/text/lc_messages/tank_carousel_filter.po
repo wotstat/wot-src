@@ -1,0 +1,239 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: Tłumacz WoT <noreply@wargaming.net>\nLanguage-Team: Zespół WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "checkbox/inventory"
+msgstr "Dostępny w garażu"
+
+msgid "infotip/counter"
+msgstr "Liczba pasujących pojazdów: %(count)d z %(total)d"
+
+msgid "infotip/event"
+msgstr "Pojazdy specjalne nie są pokazane"
+
+msgid "infotip/header/description"
+msgstr "Pokazuje pojazdy spełniające wybrane kryteria."
+
+msgid "infotip/header/title"
+msgstr "Filtr pojazdów"
+
+msgid "infotip/levels"
+msgstr "Poziomy:"
+
+msgid "infotip/nations"
+msgstr "Narodowości:"
+
+msgid "infotip/only"
+msgstr "Tylko następujące pojazdy:"
+
+msgid "infotip/only/elite"
+msgstr "Elitarne"
+
+msgid "infotip/only/favorite"
+msgstr "Podstawowe"
+
+msgid "infotip/only/premium"
+msgstr "Premium"
+
+msgid "infotip/rent"
+msgstr "Wynajęte pojazdy nie są pokazane"
+
+msgid "infotip/searchNameVehicle"
+msgstr "Szukaj po nazwie:"
+
+msgid "infotip/vehicleTypes"
+msgstr "Typy:"
+
+msgid "popover/checkbox/battleRoyale"
+msgstr "Ukryj nieodpowiednie pojazdy"
+
+msgid "popover/checkbox/elite"
+msgstr "Elitarne"
+
+msgid "popover/checkbox/event"
+msgstr "Specjalne"
+
+msgid "popover/checkbox/favorite"
+msgstr "Podstawowe"
+
+msgid "popover/checkbox/premium"
+msgstr "Premium"
+
+msgid "popover/checkbox/rented"
+msgstr "Wypożyczone"
+
+msgid "popover/checkbox/unlock_available"
+msgstr "Dostępne tylko do zbadania"
+
+msgid "popover/counter"
+msgstr "Wyświetlone pojazdy: %(count)s"
+
+msgid "popover/label/customization"
+msgstr "Personalizacja"
+
+msgid "popover/label/hidden"
+msgstr "Więcej"
+
+msgid "popover/label/levels"
+msgstr "Poziom"
+
+msgid "popover/label/nations"
+msgstr "Kraj"
+
+msgid "popover/label/progressions"
+msgstr "Przepustka bitewna"
+
+msgid "popover/label/roles/AT-SPG"
+msgstr "Role niszczyciela czołgów %(levels)s"
+
+msgid "popover/label/roles/heavyTank"
+msgstr "Role czołgu ciężkiego %(levels)s"
+
+msgid "popover/label/roles/lightTank"
+msgstr "Role czołgu lekkiego %(levels)s"
+
+msgid "popover/label/roles/mediumTank"
+msgstr "Role czołgu średniego %(levels)s"
+
+msgid "popover/label/searchNameVehicle"
+msgstr "Szukaj po nazwie"
+
+msgid "popover/label/specials"
+msgstr "Specjalne"
+
+msgid "popover/label/vehicleRole"
+msgstr "Rola"
+
+msgid "popover/label/vehicleTypes"
+msgstr "Typ"
+
+msgid "popover/title"
+msgstr "Filtr parametrów"
+
+msgid "tooltip/battleRoyale/body"
+msgstr "Pokaż/ukryj pojazdy nieodpowiednie do „Stalowego łowcy”."
+
+msgid "tooltip/battleRoyale/header"
+msgstr "Ukryj nieodpowiednie pojazdy"
+
+msgid "tooltip/bonus/body"
+msgstr "Pokaż/ukryj pojazdy z aktywnym mnożnikiem doświadczenia."
+
+msgid "tooltip/bonus/header"
+msgstr "Dodatkowe doświadczenie"
+
+msgid "tooltip/clanRented/body"
+msgstr "Pokaż/ukryj wypożyczone pojazdy do bitew na mapie globalnej i bitew o twierdzę."
+
+msgid "tooltip/clanRented/header"
+msgstr "Wypożyczone pojazdy do bitew klanowych"
+
+msgid "tooltip/crystals/body"
+msgstr "Pokaż/ukryj pojazdy odpowiednie do zdobywania obligacji."
+
+msgid "tooltip/crystals/header"
+msgstr "Pojazdy do zdobywania obligacji"
+
+msgid "tooltip/customization/canInstallAttachments/body"
+msgstr "Pokaż/ukryj pojazdy odpowiednie do montażu dodatków 3D."
+
+msgid "tooltip/customization/own3DStyle/body"
+msgstr "Pokaż/ukryj pojazdy, dla których masz style 3D."
+
+msgid "tooltip/elite/body"
+msgstr "Pokaż/usuń pojazdy ze zbadanymi wszystkimi dostępnymi modułami, ulepszeniami i technicznymi gałęziami, w tym z pojazdami z kolejnego poziomu."
+
+msgid "tooltip/elite/header"
+msgstr "Pojazdy elitarne"
+
+msgid "tooltip/event/body"
+msgstr "Pokaż/ukryj pojazdy na specjalne wydarzenia w grze."
+
+msgid "tooltip/event/header"
+msgstr "Pojazdy specjalne"
+
+msgid "tooltip/favorite/body"
+msgstr "Pokaż/ukryj tylko pojazdy podstawowe."
+
+msgid "tooltip/favorite/header"
+msgstr "Pojazdy podstawowe"
+
+msgid "tooltip/gameMode/body"
+msgstr "Zaznacz to pole, aby zobaczyć pojazdy odpowiednie do trybu %(battleType)s."
+
+msgid "tooltip/gameMode/header"
+msgstr "Rozwałka"
+
+msgid "tooltip/igr/body"
+msgstr "Pokaż/ukryj pojazdy IGR."
+
+msgid "tooltip/igr/header"
+msgstr "Pojazdy IGR"
+
+msgid "tooltip/inventory/body"
+msgstr "?empty?"
+
+msgid "tooltip/inventory/header"
+msgstr "?empty?"
+
+msgid "tooltip/isCommonProgression/body"
+msgstr "Wyświetl pojazdy odpowiednie do zdobywania punktów postępu lub wypełniania misji, które dają punkty postępu."
+
+msgid "tooltip/isCommonProgression/header"
+msgstr "Pojazdy Przepustki bitewnej"
+
+msgid "tooltip/isCompetitiveProgression/body"
+msgstr "tooltip/isCompetitiveProgression/body"
+
+msgid "tooltip/isCompetitiveProgression/header"
+msgstr "tooltip/isCompetitiveProgression/header"
+
+msgid "tooltip/nations/body"
+msgstr "Pokaż / ukryj pojazdy tego kraju."
+
+msgid "tooltip/params/body"
+msgstr "Ustaw wyświetlanie pojazdów według ich typu, narodowości, poziomu i innych parametrów."
+
+msgid "tooltip/params/header"
+msgstr "Filtr parametrów"
+
+msgid "tooltip/premium/body"
+msgstr "Pokaż/ukryj tylko pojazdy premium oraz pojazdy-nagrody."
+
+msgid "tooltip/premium/header"
+msgstr "Pojazdy premium"
+
+msgid "tooltip/ranked/body"
+msgstr "Pokaż/ukryj pojazdy odpowiednie dla bitew rankingowych."
+
+msgid "tooltip/ranked/header"
+msgstr "Pojazdy bitew rankingowych"
+
+msgid "tooltip/rented/body"
+msgstr "Pokaż/ukryj wypożyczone pojazdy."
+
+msgid "tooltip/rented/header"
+msgstr "Wypożyczone pojazdy"
+
+msgid "tooltip/role/body"
+msgstr "Pokaż/ukryj pojazdy tej roli."
+
+msgid "tooltip/rtsBattles/body"
+msgstr "Pokaż/ukryj pojazdy odpowiednie do wydarzenia Sztuka strategii."
+
+msgid "tooltip/rtsBattles/header"
+msgstr "Ukryj nieodpowiednie pojazdy"
+
+msgid "tooltip/searchInput/body"
+msgstr "Nazwa pojazdu musi się składać z najwyżej %(count)d znaków."
+
+msgid "tooltip/searchInput/header"
+msgstr "Szukaj po nazwie"
+
+msgid "tooltip/toggleSwitchCarousel/body"
+msgstr "Przełącz pomiędzy jednopoziomowym i dwupoziomowym panelem pojazdów."
+
+msgid "tooltip/toggleSwitchCarousel/header"
+msgstr "Panel pojazdów"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Pokaż/ukryj pojazdy tego typu."

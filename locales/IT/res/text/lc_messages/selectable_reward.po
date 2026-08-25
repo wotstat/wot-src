@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "error/button"
+msgstr "Affermativo!"
+
+msgid "error/description"
+msgstr "Informazioni temporaneamente non disponibili. Ci scusiamo per l'inconveniente. Riprova più tardi."
+
+msgid "error/title"
+msgstr "Impossibile aprire la selezione delle ricompense"
+
+msgid "footer/closeBtn/label"
+msgstr "Seleziona più tardi"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "Seleziona la ricompensa dalle categorie fornite."
+msgstr[1] "Seleziona le ricompense dalle categorie fornite."
+msgstr[2] "Seleziona le ricompense dalle categorie fornite."
+
+msgid "footer/okBtn/label"
+msgstr "Reclama"
+
+msgid "footer/rewardsSelected"
+msgstr "Ricompense selezionate:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "Seleziona la ricompensa dalla categoria fornita."
+msgstr[1] "Seleziona le ricompense dalla categoria fornita."
+msgstr[2] "Seleziona le ricompense dalla categoria fornita."
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "Limite raggiunto"
+
+msgid "reward/state_received"
+msgstr "Già ricevuta"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "Il limite degli articoli selezionati in questa categoria è stato raggiunto. È possibile annullare la selezione di un articolo per aggiungerne un altro."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "Limite raggiunto"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "Direttive\nper l'equipaggiamento"
+
+msgid "tabs/items/battle_booster"
+msgstr "Direttive per equipaggiamento"
+
+msgid "tabs/items/blueprint"
+msgstr "Frammenti di cianografia"
+
+msgid "tabs/items/brochure"
+msgstr "Opuscolo d'addestramento"
+
+msgid "tabs/items/crewbook"
+msgstr "Manuale d'addestramento"
+
+msgid "tabs/items/deluxe"
+msgstr "Equipaggiamento migliorato"
+
+msgid "tabs/items/expequipments"
+msgstr "Equipaggiamento\nsperimentale"
+
+msgid "tabs/items/guide"
+msgstr "Guida d'addestramento"
+
+msgid "tabs/items/modernized_device"
+msgstr "Equipaggiamento sperimentale"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "Equipaggiamento sperimentale livello 1"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "Equipaggiamento sperimentale livello 2"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "Equipaggiamento sperimentale livello 3"
+
+msgid "tabs/items/new_device"
+msgstr "Equipaggiamento standard"
+
+msgid "tabs/items/trophy"
+msgstr "Equipaggiamento premio"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "Clicca sul pulsante Reclama per ricevere le ricompense selezionate."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "Ricompense selezionate: %(white_open)s%(count)s%(white_close)s"

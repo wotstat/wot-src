@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Mūšiai serveriuose vyks po %(primeDelta)s"
+
+msgid "alertMessage/allNotSet"
+msgstr "Režimas nepasiekiamas visuose serveriuose"
+
+msgid "alertMessage/ban"
+msgstr "Jūs laikinai negalite žaisti šio režimo. Likęs laikas: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Serverio keitimas"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detaliau"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Šis režimas nepasiekiamas jūsų pasirinktame serveryje %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Režimas nepasiekiamas visuose serveriuose."
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "Jums reikia turėti bent %(count)s šiam režimui tinkamas mašinas. Daugiau informacijos rasite skiltyje Apie Prasiveržimą."
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "Nepakankamai tinkamų mašinų"
+
+msgid "alertMessage/modeOffline"
+msgstr "Duomenų bazės klaida. Režimas nepasiekiamas."
+
+msgid "alertMessage/noVehicles"
+msgstr "Nėra tinkamų %(levels)s lygio mašinų garaže %(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "Režimas nepasiekiamas serveryje %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Režimas nepasiekiamas serveryje %(serverName)s"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "Nepakankamai tinkamų mašinų %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "Režimas nepasiekiamas serveryje %(serverName)s"
+
+msgid "alertMessage/preannounce/first"
+msgstr "Žydrojo Drakono sezonas prasideda: %(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "Kruvinojo Drakono sezonas prasideda: %(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "Nefrito Drakono sezonas prasideda: %(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "Laukiama kvalifikacijos rezultatų, pagal kuriuos suteiksime rangą"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "Žydrojo Drakono sezonas baigėsi"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "Kruvinojo Drakono sezonas baigėsi"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "Nefrito Drakono sezonas baigėsi"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Mūšiai šiame serveryje vyks po %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Režimas nepasiekiamas serveryje %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d."
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s val. %(min)s min."
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 min."
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min."
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Nėra tinkamų %(levels)s lygio mašinų garaže"
+
+msgid "awardsWidget/description/award"
+msgstr "Paspauskite norėdami pasirinkti ir pasiimti savo prizus."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Galutiniai apdovanojimai laikinai nepasiekiami. Atsiprašome už nepatogumus."
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "ATSIIMTI\nPRIZĄ"
+msgstr[1] "ATSIIMTI\nPRIZUS"
+msgstr[2] "ATSIIMTI\nPRIZUS"
+
+msgid "banView/actionButtons/confirm"
+msgstr "Balsuoti"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "Jūs jau balsavote už %(vehicleName)s"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "Neuždrausti"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "Pasirinkite, kurią mašiną norite uždrausti"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "Jūs galite balsuoti tik\nuždraudimo etape."
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "Jūs siūlote:\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "Kažkas jūsų komandoje jau balsuoja\nuž jūsų pasirinktą mašiną"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "Palaukite, kol pasibaigs balsavimas dėl uždraudimų"
+
+msgid "banView/button/back"
+msgstr "ATGAL"
+
+msgid "banView/button/ban"
+msgstr "Į uždraudimo pasirinkimą"
+
+msgid "banView/button/description"
+msgstr "Į MAŠINŲ PASIRINKIMĄ"
+
+msgid "banView/description/prepick"
+msgstr "Pasirinkite šiam žemėlapiui ir jūsų komandos kompozicijai tinkamiausią mašiną"
+
+msgid "banView/description/voting"
+msgstr "Pasirinkite, kurio mašinos nenorite matyti šiame mūšyje"
+
+msgid "banView/factory/candidate"
+msgstr "Uždraudimo kandidatas: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "Komandos kandidatai"
+
+msgid "banView/factory/noCandidates"
+msgstr "Nėra uždraudimo kandidatų"
+
+msgid "banView/factory/pick"
+msgstr "Jūsų siūlymas: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "Neuždrausti"
+
+msgid "banView/title/prepick"
+msgstr "Mašinų išankstinis pasirinkimas"
+
+msgid "banView/title/voting"
+msgstr "Uždraudimo etapas"
+
+msgid "banView/tooltip/confirmed"
+msgstr "Pasirinkimas patvirtintas"
+
+msgid "banView/tooltip/noAction"
+msgstr "Niekas nepasirinkta"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "Šis žaidėjas dar nenusprendė, kurią mašiną uždrausti."
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "Pasiūlytas"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "Prieštankiniai"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "Sunkieji tankai"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "Lengvieji tankai"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "Vidutiniai tankai"
+
+msgid "banView/withoutBan"
+msgstr "Neuždrausti"
+
+msgid "banWidget/allies"
+msgstr "Sąjungininkų balsai"
+
+msgid "banWidget/enemies"
+msgstr "Priešininkų balsai"
+
+msgid "banWidget/tooltip"
+msgstr "Komanda nesutarė, kurią mašiną uždrausti, todėl buvo uždrausta atsitiktinai pasirinkta mašina iš tų, kurios surinko daugiausia balsų."
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "Pakoreguokite mašinos vaizdavimą pagal tipą, rolę ir naciją."
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "Filtravimo parametrai"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "Visos šiam režimui tinkamos mašinos parodytos čia."
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "Nerasta mašinų, atitinkančių parametrus"
+
+msgid "battleMessages/enableVOIP"
+msgstr "Komanda sudaryta. Pasirinkite mašiną ir į mūšį!\nPrisijunkite prie balso kanalo (%(keyName)s)"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "Komanda sudaryta. Pasirinkite mašiną ir į mūšį!\nNustatykite greitąjį klavišą greitesniam prisijungimui prie balso kanalo."
+
+msgid "battleMessages/withoutVOIP"
+msgstr "Komanda sudaryta. Pasirinkite mašiną ir į mūšį!\nNorėdami prisijungti prie balso kanalo, įjunkite šią funkciją nustatymuose."
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "Režimo informacija (F1)"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "Mašinos apžvalgos laukas padidintas"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "Pagerintos įgulos charakteristikos"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "Patvarumo taškų atstatymas"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "Patvarumo taškų atstatymas"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "Pagerintos įgulos charakteristikos"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "Pagerintos įgulos charakteristikos"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "Užsitaisymo greitis padidintas"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "Pagerintos mašinos charakteristikos"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "Patvarumo taškų atstatymas"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "Pagerintos mašinos charakteristikos"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "Pagerintos mašinos charakteristikos"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "Mobilumas padidintas"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "Patvarumo taškų atstatymas"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "Ginklo išbarstymas sumažintas"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "Pagerintos mašinos charakteristikos"
+
+msgid "battleResult/header/deserter"
+msgstr "Gavote reitingo taškų nuobaudą"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "Jūs gavote nuobaudą. Po kvalifikacijos sumažinsime jūsų reitingą."
+
+msgid "battleResult/label/deserter"
+msgstr "Dezertyravimas"
+
+msgid "battleResult/message/deserter"
+msgstr "Jūs gavote nuobaudą.\nPraradote reitingo taškų: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "Jūs dezertyravote.\nKai užbaigsite kvalifikaciją, jūsų reitingas bus sumažintas."
+
+msgid "battleResult/message/header/deserter"
+msgstr "Nesąžiningas žaidimas"
+
+msgid "battleResult/personal/label"
+msgstr "Reitingo taškai"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "Atspindi žaidėjo dabartinį progresą reitingo sistemoje. Reitingo taškai gali būti gauti arba prarasti, priklausomai nuo sėkmės mūšyje."
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "•Pralaimėjimai ir lygiosios režimo mūšiuose\n• Drausminės nuobaudos gavimas\n• Rango neaktyvumas."
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "Reitingo taškai atimami už:"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "Reitingo taškai"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "Kvalifikacinis mūšis"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s — %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "Kvalifikacija"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "Gavote reitingo taškų. Norėdami išsaugoti savo Legendos rangą, išlikite tarp %(topPercentage)d%% geriausių žaidėjų turnyrinėje lentelėje."
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "Gavote reitingo taškų. Norėdami gauti Legendos rangą, patekite tarp %(topPercentage)d%% geriausių žaidėjų turnyrinėje lentelėje."
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "Gauti reitingo taškai"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "Praradote reitingo taškų. Norėdami išsaugoti savo Legendos rangą, išlikite tarp %(topPercentage)d%% geriausių žaidėjų turnyrinėje lentelėje."
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "Praradote reitingo taškų. Norėdami gauti Legendos rangą, patekite tarp %(topPercentage)d%% geriausių žaidėjų turnyrinėje lentelėje."
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "Prarasti reitingo taškai"
+
+msgid "battleResult/subTask/rating"
+msgstr "Reitingo taškai: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "Buvote nužeminti iki rango %(division)s. %(rank)s"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "%(rank)s. %(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "Buvote paaukštinti iki rango %(division)s. %(rank)s!"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "Sužaista mūšių (per dieną): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "Įtraukiama:"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "Sužaista mūšių (per sezoną): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "Solo/būryje: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "Super būryje: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "Žydrojo Drakono sezonas tęsis %(days)d dieną"
+msgstr[1] "Žydrojo Drakono sezonas tęsis %(days)d dienas"
+msgstr[2] "Žydrojo Drakono sezonas tęsis %(days)d dienų"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "Kruvinojo Drakono sezonas tęsis %(days)d dieną"
+msgstr[1] "Kruvinojo Drakono sezonas tęsis %(days)d dienas"
+msgstr[2] "Kruvinojo Drakono sezonas tęsis %(days)d dienų"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "Nefrito Drakono sezonas tęsis %(days)d dieną"
+msgstr[1] "Nefrito Drakono sezonas tęsis %(days)d dienas"
+msgstr[2] "Nefrito Drakono sezonas tęsis %(days)d dienų"
+
+msgid "calendarDay/title"
+msgstr "Tvarkaraštis"
+
+msgid "carousel/banned"
+msgstr "Uždrausta"
+
+msgid "claimRewards/button"
+msgstr "Gauti apdovanojimą"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "Ši operacija laikinai negalima dėl techninių priežasčių. Mes šiuo metu šią problemą sprendžiame."
+
+msgid "closeButtonLabel"
+msgstr "UŽDARYTI"
+
+msgid "controls/compare"
+msgstr "Įtraukti į palyginimą"
+
+msgid "controls/preview"
+msgstr "Peržiūra"
+
+msgid "countDown/text"
+msgstr "Renginys prasideda už:\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1 min."
+
+msgid "crewMembersTooltip/description"
+msgstr "Šią specialią įgulą sudaro tankų operatoriai iš viso pasaulio, kurie klauso vieno vado. Visi jie turi nulinį įgūdį Ginklo broliai ir pakankamai įgulos patirties dar dviem įgūdžiams, kurie leidžia padidinti mašinos efektyvumą bei mūšyje parodyti savo asmenines stiprybes."
+
+msgid "crewMembersTooltip/perks"
+msgstr "Įgūdžiai"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "Prasiveržimas. Drakono metai"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "Nuliniai įgūdžiai"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "Vidutinė žala (per dieną): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "Iš viso padarytos žalos ir sužaistų mūšių skaičiaus santykis."
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "Vidutinė žala (per sezoną): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "Dienos žalos rekordas: %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "Didžiausia padaryta žala mūšyje su %(vehicleName)s"
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "Sezono žalos rekordas: %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "—"
+
+msgid "dataError/description"
+msgstr "Atsiprašome už laikinus nesklandumus. Pabandykite atnaujinti puslapį vėliau."
+
+msgid "dataError/title"
+msgstr "Klaida užkraunant duomenis"
+
+msgid "dayTooltip/day"
+msgstr "%(index)s diena"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "%(index)s diena: mūšiuose nedalyvauta."
+
+msgid "dayTooltip/noBattles"
+msgstr "Si vis pacem, para bellum"
+
+msgid "dayTooltip/rankInactivity"
+msgstr "Rango neaktyvumas: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)s reitingo taškas"
+msgstr[1] "%(pointsCount)s reitingo taškai"
+msgstr[2] "%(pointsCount)s reitingo taškų"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "Reitingo taškų pokytis: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "%(index)s diena (šiandien)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "%(index)s diena: šiandien mūšiuose nedalyvauta."
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "Divizionas"
+
+msgid "division/text"
+msgstr "Divizionas %(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "Šis divizionas skirtas žaidėjams, turintiems nuo {eeede9e6_Open}%(fromScore)&nbsp;iki&nbsp;%(toScore){eeede9e6_Close}&nbsp;Reitingo taškų."
+
+msgid "divisionTooltip/heading"
+msgstr "Divizionas %(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "Reitingo taškai"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "Mūšių skaičius"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)sLaukiama rezultatų..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)sLaukiama rezultatų"
+
+msgid "entryPointTooltip/description"
+msgstr "7 prieš 7 varžybinis režimas su %(levels)s lygio mašinomis. Pasiekite aukštus rangus ir gaukite unikalių pritaikomųjų elementų, mašinų, bonų ir kitų vertingų daiktų."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MODE"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — žaidimo režimas. Paspauskite iš pažinkite"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Pasiekiamas dar%(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Paliaubos%(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "Bus pasiekiama dar:\n%(timer)s"
+
+msgid "featureName"
+msgstr "Prasiveržimas"
+
+msgid "featureNameCapitalized"
+msgstr "PRASIVERŽIMAS"
+
+msgid "fifthRankTooltip/description"
+msgstr "Rangas {eeede9e6_Open}Čempionas{eeede9e6_Close} suteikiamas bent {eeede9e6_Open}%(fromScore){eeede9e6_Close} reitingo taškų surinkusiems žaidėjams."
+
+msgid "forVehicle"
+msgstr "Skirtas: %(vehicleName)s"
+
+msgid "generalRankTooltip/body/first"
+msgstr "{eeede9e6_Open}Geležinis{eeede9e6_Close} rangas skiriamas žaidėjams, turintiems nuo {eeede9e6_Open}%(fromScore) iki %(toScore){eeede9e6_Close} reitingo taškų."
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "{eeede9e6_Open}Auksinis{eeede9e6_Close} rangas skiriamas žaidėjams, turintiems nuo {eeede9e6_Open}%(fromScore) iki %(toScore){eeede9e6_Close} reitingo taškų."
+
+msgid "generalRankTooltip/body/second"
+msgstr "{eeede9e6_Open}Bronzinis{eeede9e6_Close} rangas skiriamas žaidėjams, turintiems nuo {eeede9e6_Open}%(fromScore) iki %(toScore){eeede9e6_Close} reitingo taškų."
+
+msgid "generalRankTooltip/body/third"
+msgstr "{eeede9e6_Open}Sidabrinis{eeede9e6_Close} rangas skiriamas žaidėjams, turintiems nuo {eeede9e6_Open}%(fromScore) iki %(toScore){eeede9e6_Close} reitingo taškų."
+
+msgid "generalRankTooltip/subheading"
+msgstr "Turi divizionų: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "APIE RENGINĮ"
+
+msgid "intro/confirmButton"
+msgstr "Tikrai taip!"
+
+msgid "intro/description/banPhase"
+msgstr "Kiekviena komanda gali uždrausti pasirinkti kurią nors mašiną mūšyje. Tarkitės su komandos nariais ir uždrauskite pačią grėsmingiausią mašiną arba paruoškite priešams netikėtą staigmeną. Jei jūsų mašina yra uždrausta, galite išsinuomoti paruoštą mašiną."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Režimas turi modifikatorius, kurie gali pakeisti tam tikrus mašinos parametrus, tokius kaip mašinos patvarumas, ekipuotės atstatymo laikas, laikas, per kurį išliekate matomu, ir daugiau."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Užėmus specialias žemėlapio zonas, galėsite pasinaudoti taktiniais įgūdžiais. Yra dviejų tipų svarbūs taškai: artilerijų štabas jums leis tiesioginį artilerijos smūgį specifinėje žemėlapio pozicijoje, bei komunikacijų centras pastebės visas priešų mašinas. Priklausomai nuo žemėlapio, svarbių taškų buvimas ir jų vieta gali keistis."
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "Sužaiskite %(count)s kvalifikacinį mūšį ir nustatykite savo lygį ir rangą. Užbaigę kvalifikaciją gausite pasiekto ir ankstesnių rangų prizus.\n\nDezertyravimas ar lygiosios bus vertinami kaip pralaimėjimas."
+msgstr[1] "Sužaiskite %(count)s kvalifikacinių mūšių ir nustatykite savo lygį ir rangą. Užbaigę kvalifikaciją gausite pasiekto ir ankstesnių rangų prizus.\n\nDezertyravimas ar lygiosios bus vertinami kaip pralaimėjimas."
+msgstr[2] "Sužaiskite %(count)s kvalifikacinių mūšių ir nustatykite savo lygį ir rangą. Užbaigę kvalifikaciją gausite pasiekto ir ankstesnių rangų prizus.\n\nDezertyravimas ar lygiosios bus vertinami kaip pralaimėjimas."
+
+msgid "intro/description/ranks"
+msgstr "Ši sistema atspindi žaidėjo sugebėjimus. Lipkite vis į aukštesnius rangus nuo Geležinio iki Legendos ir gaukite vertingus prizus. Visus Drakono metus dalyvaukite renginyje ir gaukite unikalių metinių prizų."
+
+msgid "intro/description/roleSkills"
+msgstr "Priklausomai nuo rolės, kiekviena mašina turi specialų įgūdį su trejais užkrovos lygiais. Kuo didesnė užkrova, tuo stipresnis bus įgūdžio efektas. Užkrovos lygis priklausys nuo surinktų prestižo taškų, kuriuos galima gauti už nuostabų pasirodymą, svarbių taškų užėmimą, taktinių įgūdžių naudojimą ir ne tik.\n\nPeržiūrėkite renginio taisykles ir sužinokite daugiau apie įvairius būdus gauti prestižo taškų."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Jūs galite dalyvauti mūšiuose su visomis išrandamomis ar kolekcinėmis ir kai kuriomis specialiomis %(levels)s lygio mašinomis (išskyrus artilerijas). Paruoškite jas garaže, o tą, kurią naudosite, pasirinkite įvertinę vietovę jau prasidėjus mūšiui. Pasirinkdami mašiną taip pat įvertinkite ir kitų komandos narių mašinas."
+
+msgid "intro/title/banPhase"
+msgstr "MAŠINŲ UŽDRAUDIMAS"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "PRASIVERŽIMO MODIFIKATORIAI"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "SVARBŪS TAŠKAI"
+
+msgid "intro/title/qualification"
+msgstr "KVALIFIKACIJA"
+
+msgid "intro/title/ranks"
+msgstr "RANGŲ SISTEMA"
+
+msgid "intro/title/roleSkills"
+msgstr "ROLĖS ĮGŪDŽIAI"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "PASIRINKITE MAŠINĄ KONKREČIAM ŽEMĖLAPIUI"
+
+msgid "lastUpdateNote/info"
+msgstr "Atnaujinta: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "Žemiausio legendų rango žaidėjo rango taškų skaičius\natnaujinamas kas %(count)s min."
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "Duomenys atnaujinami..."
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "Turnyrinė lentelė atnaujinama kas %(count)s minučių."
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "Paskutinį kartą atnaujinta: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "Mano pozicija"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "Pasiekite čempiono arba legendos rangą ir patekite į turnyrinę lentelę."
+
+msgid "leaderboard/error/buttonText"
+msgstr "Atnaujinti"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "Čempiono ir Legendos rangų žaidėjai bus parodomi turnyrinėje lentelėje. Rinkite {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close} reitingo taškus ir pasiekite lentelės viršūnę!"
+
+msgid "leaderboard/noRecords/title"
+msgstr "Dabartiniame sezone nėra žaidėjų turnyrinėje lentelėje"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "Mūšiai"
+
+msgid "leaderboard/table/header/order"
+msgstr "#"
+
+msgid "leaderboard/table/header/player"
+msgstr "Žaidėjo vardas"
+
+msgid "leaderboard/table/header/score"
+msgstr "Reitingo taškai"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "Žaidėjų sužaistų mūšių skaičius šio sezono režime Veržimasis."
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "Mūšiai"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "Žaidėjo pozicija reitinguose."
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "Pozicija"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "Reitinge esančio žaidėjo vardas."
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "Žaidėjo vardas"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "Šio sezono metu surinktų reitingo taškų skaičius."
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "Reitingo taškai"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Žaidėjai būriuose"
+
+msgid "noVehicles/howTo/premium"
+msgstr "Naudokite WoT Premium paskyrą"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktyvuokite asmeninius rezervus"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Vykdykite misijas"
+
+msgid "noVehicles/howTo/title"
+msgstr "Kaip greičiausiai gauti %(levels)s lygio mašinas?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Norėdami dalyvauti Prasiveržime, turite turėti bent vieną režimui tinkančią %(levels)s lygio mašiną garaže.\nJūs esate išradę, bet dar neįsigiję %(levels)s lygio mašinos."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Norėdami dalyvauti Prasiveržime turite turėti bent vieną režimui tinkančią %(levels)s lygio mašiną garaže.\nJūs turite, bet nesate sutaisę %(levels)s lygio mašinos."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Norėdami dalyvauti Prasiveržime turite turėti bent vieną režimui tinkančią %(levels)s lygio mašiną garaže."
+
+msgid "noVehicles/title"
+msgstr "Garaže nėra tinkamų mašinų."
+
+msgid "page/heading/leaderboard"
+msgstr "REITINGO LENTELĖ"
+
+msgid "page/heading/progression"
+msgstr "RANGŲ SISTEMA"
+
+msgid "page/heading/qualification"
+msgstr "KVALIFIKACIJA"
+
+msgid "page/heading/rankRewards"
+msgstr "APDOVANOJIMAI UŽ RANGĄ"
+
+msgid "page/heading/shop"
+msgstr "PRASIVERŽIMO PARDUOTUVĖ"
+
+msgid "page/heading/weeklyQuests"
+msgstr "SAVAITINĖS MISIJOS"
+
+msgid "page/heading/yearlyRewards"
+msgstr "METINIAI PRIZAI"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "METŲ SUVESTINĖ"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "Pirmyn"
+
+msgid "pagination/prev"
+msgstr "Atgal"
+
+msgid "pbs/bans/title"
+msgstr "UŽDRAUSTOS MAŠINOS"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "2D PRASIVERŽIMO STILIUS"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "2D STILIAUS MISIJA ĮVYKDYTA!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "SAVAITĖS MISIJA #%(count)s ĮVYKDYTA!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "SAVAITĖS MISIJA ĮVYKDYTA!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "PRASIVERŽIMO SAVAITĖS"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "PRALAIMĖJIMAS, NES JŪS"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "LYGIOSIOS, NES JŪS"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "PERGALĖ, BET JŪS"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "Paaukštinti į rangą %(rank)s"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "Pažeminti iki rango %(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "Paaukštinti į rangą %(rank)s, %(division)s"
+
+msgid "pbs/overview/qualification/description"
+msgstr "Mūšių skaičius"
+
+msgid "pbs/overview/qualification/title"
+msgstr "Kvalifikacija"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "Gavote drausminę nuobaudą: bauda reitingo taškams"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "Jums suteikta drausminė nuobauda: kai užbaigsite kvalifikaciją, neteksite reitingo."
+
+msgid "pbs/rankDescription/fifth"
+msgstr "Norėdami gauti legendos rangą, patekite tarp {ede6d9e5_Open}%(topPercentage) geriausių%{ede6d9e5_Close} žaidėjų turnyrinėje lentelėje."
+
+msgid "pbs/rankDescription/sixth"
+msgstr "Norėdami išlaikyti legendos rangą, būkite tarp {ede6d9e5_Open}%(topPercentage) geriausių%{ede6d9e5_Close} žaidėjų turnyrinėje lentelėje."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Daugiau informacijos rasite skiltyje Apie Prasiveržimą."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Prestižo taškai"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Padarytą žalą\nAptikimo žalą\nSugadintus vikšrus\nKritinius pataikymus\nSunaikintas priešų mašinas\nIr daugiau"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Nuo šio specialaus resurso priklauso mūšyje uždirbamų ir prarandamų prestižo taškų kiekis. Prestižo taškai suteikiami už:"
+
+msgid "percentage"
+msgstr "%(percentageValue)s%"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "Prestižo taškų vidurkis (per dieną): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "Uždirbtų prestižo taškų ir kovotų mūšių santykis."
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "Prestižo taškų vidurkis (per sezoną): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "Dienos prestižo taškų rekordas: %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "Daugiausia prestižo taškų mūšyje uždirbta su %(vehicleName)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "Sezono prestižo taškų rekordas: %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Žydrojo Drakono sezonas pasibaigė %(server)s serveryje."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Kruvinojo Drakono sezonas pasibaigė %(server)s serveryje."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Nefrito Drakono sezonas pasibaigė %(server)s serveryje."
+
+msgid "products/actions/buy"
+msgstr "Pirkti"
+
+msgid "products/actions/restore"
+msgstr "Į sandėlį"
+
+msgid "products/actions/toCustomization"
+msgstr "Į stilių"
+
+msgid "products/actions/toHangar"
+msgstr "Peržiūrėti garaže"
+
+msgid "products/customizationUnavailable/body"
+msgstr "Negalima pasiekti stiliaus. Tai gali būti dėl to nes vis dar neturite mašinos, mašina formuotėje, mašina mūšyje arba reikalingas remontas."
+
+msgid "products/customizationUnavailable/title"
+msgstr "Nepasiekiama"
+
+msgid "products/discount"
+msgstr "-%(discountPercentage)s%"
+
+msgid "products/discountDescription"
+msgstr "Iki kito sezono pradžios galėsite įsigyti daiktų su nuolaida priklausomai nuo jūsų {eeede9e6_Open}aukščiausio{eeede9e6_Close} {eeede9e6_Open}pasiekto{eeede9e6_Close} {eeede9e6_Open}rango{eeede9e6_Close}."
+
+msgid "products/discountSectionName"
+msgstr "SĄLYGOS IR NUOLAIDOS"
+
+msgid "products/inProgress"
+msgstr "Prašome palaukti, jūsų pirkimas apdorojamas..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "Galimi pirkimai per sezoną: %(count)s"
+
+msgid "products/message/notEnough"
+msgstr "Pirkiniui trūksta lėšų."
+
+msgid "products/message/rankAccess"
+msgstr "Pirkinio reikalavimas\n%(rank)s"
+
+msgid "products/newLabel"
+msgstr "NAUJAS"
+
+msgid "products/priceSectionName"
+msgstr "KAINA"
+
+msgid "products/productAccess"
+msgstr "Pasiekite\nrangą"
+
+msgid "products/purchased"
+msgstr "Nupirkta"
+
+msgid "products/rankAccess"
+msgstr "Pasiekite rangą %(rank)s"
+
+msgid "products/readyToRestore"
+msgstr "Galimas susigrąžinimas"
+
+msgid "products/readyToRestoreDescription"
+msgstr "Galima atstatyti sandėlyje"
+
+msgid "products/style3d"
+msgstr "3D stilius %(name)s"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "GRĮŽTI Į SEZONO STATISTIKĄ"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "SEZONO SUVESTINĖ"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "%(day)s DIENOS STATISTIKA"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "ŠIANDIENOS STATISTIKA"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "Kiekviename stulpelyje rodoma informacija apie laiko tarpą tarp pasirinktos ir kitos dienos patogiausio laiko. Kartais ši informacija gali apimti dvi kalendorines dienas."
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "Kiekviename stulpelyje rodoma informacija apie laiko tarpą tarp pasirinktos ir kitos dienos patogiausio laiko. Kartais ši informacija gali apimti dvi kalendorines dienas."
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "Šioje skiltyje pateikiama informacija atnaujinama gavus daugiau dovanų. Paprašyti atnaujinimo galite paspaudę mygtuką \"Atnaujinti\"."
+
+msgid "progressionPage/chartHeader/update"
+msgstr "Atnaujinta: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "Sveikiname!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "Jūs vykdėte visas 2D stiliaus misijas."
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s / %(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "Misijų serija, kurią įvykdę atrakinsite naujų elementų šio sezono progresiniam 2D stiliui."
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "2D STILIAUS MISIJOS: %(taskNumber)s"
+msgstr[1] "2D STILIAUS MISIJOS: %(taskNumber)s"
+msgstr[2] "2D STILIAUS MISIJŲ: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "2D STILIAUS MISIJOS"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "Į stilių"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "Visi stiliai, pritaikyti netinkamoms mašinoms"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "Nėra mašinų, kurioms tinka šis stilius"
+
+msgid "progressionPage/error/refresh"
+msgstr "Atnaujinti"
+
+msgid "progressionPage/error/refreshing"
+msgstr "Atnaujinama..."
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "Vidutinė žala"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "Vidutinis prestižas"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "Reitingo pokytis %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "Rekordas pasiektas %(seasonRecordDescriptionDay)s"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "%(day)s dieną"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "Į visas statistikas"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "Įtraukiama:\n • Aptikimo žala (įskaitant aptikimus gebėjimais)\n • Pagalbinė žala sunaikinus priešo vikšrą ar kitaip jį sustabdžius (įskaitant sustabdymus įgūdžiais)\n • Pagalbinė žala dėl jūsų panaudotų įgūdžių\n • Komandos narių padaryta žala jūsų apkurtintiems priešams (įskaitant apkurtinimus įgūdžiais)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "Iš viso sužaistų mūšių skaičius"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "Padarytos žalos ir kovotų mūšių santykis"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "Sunaikintų priešų mašinų ir jūsų mašinos sunaikinimų santykis"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "Gautos ir padarytos žalos santykis"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "Uždirbtų prestižo taškų ir kovotų mūšių santykis"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "Mašinos, su kuriomis sužaista daugiausia mūšių"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "Bendras pergalių procentas"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "Vidutinė žala su jūsų pagalba"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "Mūšiai"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "Vidutinė padaryta žala"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "Sunaikinimo koeficientas"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "Žalos koeficientas"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "Vidutinis mūšyje surinktų prestižo taškų skaičius"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "Mašinos pavadinimas"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "Pergalės"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "MAŠINOS STATISTIKA"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s-%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "Dienų iki reitingo sumažinimo: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "Nežaisdami Prasiveržime prarasite {eeede9e6_Open}%(count)s{eeede9e6_Close} reitingo tašką."
+msgstr[1] "Nežaisdami Prasiveržime prarasite {eeede9e6_Open}%(count)s{eeede9e6_Close} reitingo taškus."
+msgstr[2] "Nežaisdami Prasiveržime prarasite {eeede9e6_Open}%(count)s{eeede9e6_Close} reitingo taškų."
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(1&nbsp;mūšis&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktyvumo taškas)"
+msgstr[1] "(1&nbsp;mūšis&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktyvumo taškai)"
+msgstr[2] "(1&nbsp;mūšis&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktyvumo taškų)"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "Žaisdami dabartiniame range jūs neprarasite reitingo taškų, bet galėsite pasiekti aukštesnį rangą: %(rankList)s"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "Jūsų rangas gali kristi dėl neaktyvumo"
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "Jūsų rangas negali kristi dėl neaktyvumo"
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "Rangas"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "%(topPercentage)s% geriausių žaidėjų turnyrinėje lentelėje"
+
+msgid "progressionTooltip/division"
+msgstr "Divizionas %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "Šis divizionas skirtas žaidėjams nuo {eeede9e6_Open}%(fromScore) iki %(toScore){eeede9e6_Close} Reitingo taškų."
+
+msgid "progressionTooltip/info/fifth"
+msgstr "Rangas Čempionas suteikiamas bent {eeede9e6_Open}%(fromScore){eeede9e6_Close} reitingo taškus surinkusiems žaidėjams."
+
+msgid "progressionTooltip/info/sixth"
+msgstr "Legendos rangas suteikiamas {eeede9e6_Open}%(topPercentage) geriausių%{eeede9e6_Close} žaidėjų turnyrinėje lentelėje."
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "Sužaiskite %(maxBattlesCount)s mūšį ir mes nustatysime jūsų įgūdžių lygį ir rangą."
+msgstr[1] "Sužaiskite %(maxBattlesCount)s mūšius ir mes nustatysime jūsų įgūdžių lygį ir rangą."
+msgstr[2] "Sužaiskite %(maxBattlesCount)s mūšių ir mes nustatysime jūsų įgūdžių lygį ir rangą."
+
+msgid "progressionTooltip/qualificationName"
+msgstr "Specializacija"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "Dienų iki reitingo sumažinimo: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "Nežaisdami Prasiveržime prarasite {eeede9e6_Open}%(count)s{eeede9e6_Close} reitingo tašką."
+msgstr[1] "Nežaisdami Prasiveržime prarasite {eeede9e6_Open}%(count)s{eeede9e6_Close} reitingo taškus."
+msgstr[2] "Nežaisdami Prasiveržime prarasite {eeede9e6_Open}%(count)s{eeede9e6_Close} reitingo taškų."
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s Jūsų rangas gali sumažėti dėl neaktyvumo."
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "Sužaiskite iki dienos galo, arba prarasite savo rangą."
+
+msgid "progressionTooltip/ratingScore"
+msgstr "Reitingo taškai"
+
+msgid "purchase/affirmative"
+msgstr "Tikrai taip!"
+
+msgid "purchase/cancelButton"
+msgstr "Atgal"
+
+msgid "purchase/confirmButton"
+msgstr "Pirkti"
+
+msgid "purchase/error/description"
+msgstr "Negalima užbaigti pirkimo. Pabandykite vėliau."
+
+msgid "purchase/error/title"
+msgstr "Klaida"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)sJūs neturite šiam stiliui tinkamos mašinos garaže"
+
+msgid "purchase/price"
+msgstr "Pirkimo kaina:"
+
+msgid "purchase/success/heading"
+msgstr "Ačiū už pirkinį!"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)sPirkinys pateks į jūsų žaidimo paskyrą artimiausiu metu."
+
+msgid "purchase/success/style3d"
+msgstr "3D stilius %(name)s, skirtas %(vehicleName)s"
+
+msgid "purchase/title/style3d"
+msgstr "Pirkti 3D stilių %(name)s?"
+
+msgid "purchase/title/vehicle"
+msgstr "Pirkti %(name)s?"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "Sužaiskite {eeede9_Open}%(maxBattlesCount)s mūšį{eeede9_Close} ir mes nustatysime jūsų įgūdžių lygį ir rangą."
+msgstr[1] "Sužaiskite {eeede9_Open}%(maxBattlesCount)s mūšius{eeede9_Close} ir mes nustatysime jūsų įgūdžių lygį ir rangą."
+msgstr[2] "Sužaiskite {eeede9_Open}%(maxBattlesCount)s mūšių{eeede9_Close} ir mes nustatysime jūsų įgūdžių lygį ir rangą."
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "Kvalifikaciją užbaigsite sužaidę %(maxBattlesCount)s mūšį ir palaukę, kol bus suskaičiuotas jūsų reitingas. Jūsų mūšio rezultatai kvalifikacijoje nulemia jūsų gaunamą rangą.\nDezertyravimas kvalifikacijoje sumažins jūsų gaunamą rangą daugiau, nei visiškas pralaimėjimas."
+msgstr[1] "Kvalifikaciją užbaigsite sužaidę %(maxBattlesCount)s mūšius ir palaukę, kol bus suskaičiuotas jūsų reitingas. Jūsų mūšio rezultatai kvalifikacijoje nulemia jūsų gaunamą rangą.\nDezertyravimas kvalifikacijoje sumažins jūsų gaunamą rangą daugiau, nei visiškas pralaimėjimas."
+msgstr[2] "Kvalifikaciją užbaigsite sužaidę %(maxBattlesCount)s mūšių ir palaukę, kol bus suskaičiuotas jūsų reitingas. Jūsų mūšio rezultatai kvalifikacijoje nulemia jūsų gaunamą rangą.\nDezertyravimas kvalifikacijoje sumažins jūsų gaunamą rangą daugiau, nei visiškas pralaimėjimas."
+
+msgid "qualification/conditionTooltip/header"
+msgstr "Kvalifikacijos taisyklės"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "Mūšių skaičius"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s Laukiama kvalifikacijos rezultatų, pagal kuriuos suteiksime rangą"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "Rango apskaičiavimas pagal kvalifikacijos rezultatus gali užtrukti iki penkių minučių. Po to jums bus suteiktas rangas ir jūs vėl galėsi žaisti režime Prasiveržimas."
+
+msgid "qualification/rewardsButton"
+msgstr "Į apdovanojimus"
+
+msgid "qualification/rewardsDescription"
+msgstr "Įvykdę kvalifikaciją jūs gausite gauto ir visų ankstesnių rangų prizus."
+
+msgid "quotesWrapper"
+msgstr "%(name)s"
+
+msgid "rank/achieved"
+msgstr "Pasiektas"
+
+msgid "rank/current"
+msgstr "Dabartinis"
+
+msgid "rank/fifth"
+msgstr "Čempionas"
+
+msgid "rank/first"
+msgstr "Geležis"
+
+msgid "rank/fourth"
+msgstr "Auksas"
+
+msgid "rank/qualification"
+msgstr "Kvalifikacija"
+
+msgid "rank/second"
+msgstr "Bronza"
+
+msgid "rank/sixth"
+msgstr "Legenda"
+
+msgid "rank/text"
+msgstr "Rangas %(rank)s"
+
+msgid "rank/third"
+msgstr "Sidabras"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "Žaidėjo rangas"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "Būrio draugo(-ų) rangas"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "Būrį sudaryti gali tik panašaus rango žaidėjai."
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "Rangų apribojimai %(count)s žaidėjų būriams"
+
+msgid "rankInactivityTooltip/description"
+msgstr "Jei nežaidžiate režimo, prarasite reitingo taškus."
+
+msgid "rankInactivityTooltip/heading"
+msgstr "Rango neaktyvumas"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "Dienos iki reitingo praradimo: %(count)s"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "Dienos reitingas"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "Reitingo taškų pokytis: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "Reitingo taškų skirtumas tarp pasirinktos ir ankstesnės dienos."
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "Dienos reitingo rekordas: %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "Aukščiausias reitingas, pasiektas pasirinktą dieną."
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "%(day)s dieną"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "Sezono reitingo rekordas pasiektas %(dayOfRecord)s"
+
+msgid "rankInfo/current/fifth"
+msgstr "Rangas Čempionas suteikiamas bent {eeede9e6_Open}%(fromScore){eeede9e6_Close} reitingo taškus surinkusiems žaidėjams."
+
+msgid "rankInfo/current/sixth"
+msgstr "Legendos rangas suteikiamas {eeede9e6_Open}%(topPercentage) geriausių%{eeede9e6_Close} žaidėjų turnyrinėje lentelėje."
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "Norėdami pasiekti Legendos rangą, patekite tarp {eeede9e6_Open}%(topPercentage) geriausių%{eeede9e6_Close} žaidėjų turnyrinėje lentelėje pagal reitingo taškus."
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "Norėdami apginti savo Legendos rangą, išlikite tarp {eeede9e6_Open}%(topPercentage) geriausių%{eeede9e6_Close} žaidėjų turnyrinėje lentelėje pagal reitingo taškus."
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "Norėdami pasiekti Legendos rangą, patekite tarp {eeede9e6_Open}%(topPercentage) geriausių%{eeede9e6_Close} žaidėjų turnyrinėje lentelėje pagal reitingo taškus. Žemiausio pagal reitingo taškus rango &nbsp;Legenda&nbsp; žaidėjo taškai:{eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "Norėdami apginti Legendos rangą, išlikite tarp {eeede9e6_Open}%(topPercentage) geriausių%{eeede9e6_Close} žaidėjų turnyrinėje lentelėje pagal reitingo taškus. Žemiausio pagal reitingo taškus rango &nbsp;Legenda&nbsp; žaidėjo taškai:{eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankUpper/fifth"
+msgstr "ČEMPIONAS"
+
+msgid "rankUpper/first"
+msgstr "GELEŽIS"
+
+msgid "rankUpper/fourth"
+msgstr "AUKSAS"
+
+msgid "rankUpper/second"
+msgstr "BRONZA"
+
+msgid "rankUpper/sixth"
+msgstr "LEGENDA"
+
+msgid "rankUpper/text"
+msgstr "RANGAS %(rank)s"
+
+msgid "rankUpper/third"
+msgstr "SIDABRAS"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "Dabar galite pasirinkti vieną įrangos komplektą iš žemiau pateikto sąrašo:\n\n• Maskuojanti išmetimo sistema\n• Inovatyvus taikymasis\n• Pagerinta finalinė pavara\n• Pagerintas kompresorius\n• Padidintas atsparumas sviediniams\n• Pagerinta konfigūracija\n• Eksperimentinė optika\n• Inovatyvi užtaisymo sistema\n• Ventiliavimo sistema\n• Atsparus taikinio stiprintuvas\n• Stabilizavimo įrangos sistema\n• Teleskopinė stebėjimo sistema\n• Taktinis maskavimo tinklas"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "Dabar galite pasirinkti vieną iš žemiau pateiktų pagerintų įrangų: \n\n• Ugnies kontrolės sistema T3\n• Išgyvenimo rinkinys T3\n• Mobilumo padidinimo sistema T3\n• Taiklumo padidinimo sistema T3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "Kamufliažas %(name)s"
+
+msgid "rewards/preview"
+msgstr "Peržiūra"
+
+msgid "rewards/status/achieved"
+msgstr "Apdovanojimas gautas"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}%(vehicleLevel)s lygio mašinoms{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}Skirtas stiliui %(progressionStyleName)s{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "%(vehicleLevel)s lygis"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "Jūs dar gavote:"
+
+msgid "rewardsScreen/button"
+msgstr "Tikrai taip!"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "Į apdovanojimus"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "Pasirinkite apdovanojimą"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "Pereiti į pirkimą"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "PRASIVERŽIMAS. KVALIFIKACIJA BAIGTA"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "PRASIVERŽIMAS. ŽYDROJO DRAKONO SEZONAS"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "PRASIVERŽIMO KRUVINOJO DRAKONO SEZONAS"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "PRASIVERŽIMAS NEFRITO DRAKONO SEZONAS"
+
+msgid "rewardsScreen/description/year"
+msgstr "PRASIVERŽIMAS. DRAKONO METAI"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "Kur mano Ashbringer?!"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "Nėra rango"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "Pasiekę šį rangą, galite prarasti reitingo taškus nustoję žaisti režimą Prasiveržimas."
+
+msgid "rewardsScreen/notice/title"
+msgstr "Rango neaktyvumas"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "Visos Prasiveržimo\nspalvos"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "Pasirinkite įrangą"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "Pasirinkite apdovanojimus"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "Naujos nuolaidos Prasiveržimo parduotuvėje!"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "Nauji daiktai Prasiveržimo parduotuvėje!"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "Iki kito sezono pradžios galėsite įsigyti daiktų su nuolaida priklausomai nuo jūsų aukščiausio pasiekto rango."
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "Iki kito sezono pradžios galėsite įsigyti daiktų su nuolaida priklausomai nuo jūsų aukščiausio pasiekto rango."
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}%(rank)s rangas{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "Pagal kvalifikacijos rezultatus jums suteikti prizai už šiuos rangus: {ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr ", "
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "Gavote apdovanojimus už paaukštinimą į rangą {ffe4c0_Open}%(rank)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "Suteikiamas įvykdžiusiems {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} savaitės misiją"
+msgstr[1] "Suteikiamas įvykdžiusiems {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} savaitės misijas"
+msgstr[2] "Suteikiamas įvykdžiusiems {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} savaitės misijų"
+
+msgid "rewardsScreen/title/division"
+msgstr "DIVIZIONAS %(division)s PASIEKTAS"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "PASIEKTAS RANGAS {ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "APDOVANOJIMAS UŽ PASIEKTUS RANGUS"
+
+msgid "rewardsScreen/title/rank"
+msgstr "PASIEKTAS RANGAS {ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "PRIZAI UŽ NAUJĄ RANGĄ"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "GAUTAS APDOVANOJIMAS"
+msgstr[1] "GAUTI APDOVANOJIMAI"
+msgstr[2] "GAUTI APDOVANOJIMAI"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "SAVAITĖS MISIJŲ APDOVANOJIMAI"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "METINIAI PRIZAI"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "Kartu gaunate:"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "PRASIVERŽIMAS"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "PASIRINKITE APDOVANOJIMĄ"
+msgstr[1] "PASIRINKITE APDOVANOJIMUS"
+msgstr[2] "PASIRINKITE APDOVANOJIMUS"
+
+msgid "scoreTooltip/body"
+msgstr "Nuo surinktų reitingo taškų priklausys jūsų rangas ir divizionas režime Prasiveržimas. Laimėkite kovas ir tapkite geriausiu!"
+
+msgid "scoreTooltip/header"
+msgstr "Reitingo taškai"
+
+msgid "season/daysLeft"
+msgstr "Baigiasi už %(totalDays)s d"
+
+msgid "season/hoursLeft"
+msgstr "Baigiasi už %(hours)s val"
+
+msgid "season/minutesLeft"
+msgstr "Baigiasi už %(minutes)s min"
+
+msgid "season/over"
+msgstr "%(seasonName)s baigėsi"
+
+msgid "season/range"
+msgstr "%(startDate)s–%(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "Baigiasi už %(seconds)s s"
+
+msgid "seasonName/first"
+msgstr "Žydrojo Drakono sezonas"
+
+msgid "seasonName/second"
+msgstr "Kruvinojo Drakono sezonas"
+
+msgid "seasonName/third"
+msgstr "Nefrito Drakono sezonas"
+
+msgid "seasonPointTooltip/header"
+msgstr "Prasiveržimo spalvos"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "Gautas"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "Negautas"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "Jūs turite galimybę gauti Prasiveržimo spalvų"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "Nepanaudotos Prasiveržimo spalvos buvo paverstos į bonus šiuo kursu: {bond_Open}1 Prasiveržimo spalva {bond_Close} į {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "Kiekvieno sezono pabaigoje pagal savo pasiektą rangą gausite Prasiveržimo spalvų."
+
+msgid "seasonPointTooltip/text/year"
+msgstr "Kas 3 Prasiveržimo spalvas padidinsite metų pabaigoje gaunamo prizo kokybę."
+
+msgid "seasonStatistics/button/fifth"
+msgstr "Kur mano trofėjus?!"
+
+msgid "seasonStatistics/button/first"
+msgstr "Tai valdoma"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "Mano brangenybė!"
+
+msgid "seasonStatistics/button/second"
+msgstr "Tikrai taip!"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "Legendiniai!"
+
+msgid "seasonStatistics/button/third"
+msgstr "I'll Be Back"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "Finalinis sezono reitingas"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "Vieta reitinge: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "PRASIVERŽIMAS. %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "Gauta %(points)s Mantikoros spalvos"
+msgstr[1] "Gautos %(points)s Mantikoros spalvos"
+msgstr[2] "Gauta %(points)s Mantikoros spalvų"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "I SEZONAS: ŽYDRASIS DRAKONAS"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "II SEZONAS: KRUVINASIS DRAKONAS"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "III SEZONAS: NEFRITO DRAKONAS"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "Pergalės: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "Sužaista\nmūšių"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "Vidurkis: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "Rekordinė\nžala"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "Sunaikinimo koeficientas: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "Daugiausia sunaikinta priešų\nper mūšį"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "Vidurkis: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "Prestižo taškų\nrekordas"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "SEZONO SUVESTINĖ"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "Super būryje: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "Nuoseklios pergalės:\n(solo/būryje)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "Mūšiai"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "—"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "Nėra mašinų"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "PAGRINDINĖS MAŠINOS"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "Pergalės"
+
+msgid "seasonStatistics/title"
+msgstr "%(name)s SEZONO SUVESTINĖ"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "Iki sezono pabaigos:"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "—"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s–%(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "Kovų tvarkaraštis"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "Šiandien"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "Rytoj"
+
+msgid "selectorTooltip/desc"
+msgstr "Varžybinis režimas. 7 prieš 7 | X lygis"
+
+msgid "selectorTooltip/title"
+msgstr "Prasiveržimas"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Sekite naujausias žinias žaidimo portale ir laiku sužinokite visas naujo sezono naujienas."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Režimas laikinai nepasiekiamas dėl techninių problemų."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Režimas bus pasiekiamas %(time)s"
+
+msgid "shortSeasonName/first"
+msgstr "Žydrasis Drakonas"
+
+msgid "shortSeasonName/second"
+msgstr "Kruvinasis Drakonas"
+
+msgid "shortSeasonName/third"
+msgstr "Nefrito Drakonas"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "Šioje skiltyje yra informacija apie geriausius šio sezono Prasiveržimo režimo žaidėjus."
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Šioje skiltyje rasite informaciją apie kvalifikaciją bei savo rangą, divizioną ir reitingo taškus kvalifikacijai pasibaigus."
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "Šioje skiltyje yra informacija apie galimus prizus pasiekus aukštesnius rangus režime Prasiveržimas."
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "Šiame skyriuje rasite informaciją apie Prasiveržimo parduotuvėje esančius daiktus"
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "Šiame skyriuje pateikta informacija apie savaitines misijas režime Prasiveržimas."
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "Šiame skyriuje rasite metinius prizus, kuriuos galite gauti rinkdami Prasiveržimo spalvas."
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "Šioje skiltyje rasite informaciją apie savo pasiekimus kiekviename šių Prasiveržimo metų sezone."
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "Reitingas"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Rangų sistema"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "Rangų apdovanojimai"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "Prasiveržimo parduotuvė"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "Savaitinės misijos"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "Metiniai prizai"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "Metų suvestinė"
+
+msgid "sixthRankTooltip/description"
+msgstr "Rangas {eeede9e6_Open}Legenda{eeede9e6_Close} suteikiamas {eeede9e6_Open}%(topPercentage) geriausių%{eeede9e6_Close} žaidėjų turnyrinėje lentelėje pagal reitingo taškus."
+
+msgid "style3dTooltip/954"
+msgstr "Sidabriniai spygliai"
+
+msgid "style3dTooltip/955"
+msgstr "Auksinės letenos"
+
+msgid "style3dTooltip/956"
+msgstr "Čempiono sparnai"
+
+msgid "style3dTooltip/957"
+msgstr "Legendinis padaras"
+
+msgid "style3dTooltip/description"
+msgstr "Stiprus kaip liūtas, nuožmus kaip drakonas ir mirtinas kaip skorpionas, šis monstras yra metalinė nuo senovės prisibijomo padaro įsikūnijimas."
+
+msgid "style3dTooltip/howToReceive"
+msgstr "Kaip jį gauti"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "Suteikiamas už bent 9 surinktas Prasiveržimo spalvas režime Prasiveržimas Mantikoros metai."
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "Suteikiamas už bent 12 surinktų Prasiveržimo spalvų režime Prasiveržimas Mantikoros metai. Pakeičia anksčiau gautą stilių."
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "Suteikiamas už bent 15 surinktų Prasiveržimo spalvų režime Prasiveržimas Mantikoros metai. Pakeičia anksčiau gautą stilių."
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "Suteikiamas už bent 18 surinktų Prasiveržimo spalvų režime Prasiveržimas Mantikoros metai. Pakeičia anksčiau gautą stilių."
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "Tinka mašinoms"
+
+msgid "system_messages/periodicReward/body"
+msgstr "Jau gavote šiandienos prizą už rango %(rank)s išlaikymą.\n%(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "Kasdienis prizas"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Galioja paliaubos. Prasiveržimo mūšiai laikinai nepasiekiami."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Paliaubos"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Paliaubos baigėsi. Prasiveržimo mūšiai vėl pasiekiami."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Paliaubos"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "Sveikiname! Jūs pasiekėte %(maxRank)s rangą.\nJūs taip pat gavote šių rangų prizus: %(ranks)s:\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "Kvalifikacija baigta"
+
+msgid "system_messages/regularReward/body"
+msgstr "Data: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "Kvitas"
+
+msgid "system_messages/shop/offer/button"
+msgstr "Pereiti į parduotuvę"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "Naujos nuolaidos Prasiveržimo parduotuvėje!"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "Nuolaidos padidintos"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "Nauji daiktai Prasiveržimo parduotuvėje!"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "Pasiekiami nauji daiktai"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "Mokėjimo klaida. Prašome pabandykite vėliau."
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "Data: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "Apdovanojimai vykdantiems savaitės misijas"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "Data: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "Prizas už savaitinę misiją"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Apie Prasiveržimą"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "Sezono atnaujinimai"
+
+msgid "tournament/LBFinals"
+msgstr "LB FINALAI"
+
+msgid "tournament/LBRound1"
+msgstr "LB 1 RAUNDAS"
+
+msgid "tournament/LBRound2"
+msgstr "LB 2 RAUNDAS"
+
+msgid "tournament/LBSemifinals"
+msgstr "LB PUSFINALIAI"
+
+msgid "tournament/UBFinals"
+msgstr "UB FINALAI"
+
+msgid "tournament/UBSemifinals"
+msgstr "UB PUSFINALIAI"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "Turnyro metu reitingo taškai negaunami ir neprarandami."
+
+msgid "tournament/bestOf"
+msgstr "GERIAUSI IŠ %(number)s"
+
+msgid "tournament/cny"
+msgstr "%(amount)s CNY"
+
+msgid "tournament/cnySign"
+msgstr "%(amount)s ¥"
+
+msgid "tournament/comeBack"
+msgstr "Pabandykite vėliau"
+
+msgid "tournament/comingSoon"
+msgstr "JAU GREITAI %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "LAIKAI GALI SKIRTIS PRIKLAUSOMAI NUO MŪŠIŲ TRUKMĖS"
+
+msgid "tournament/completed"
+msgstr "UŽBAIGTA"
+
+msgid "tournament/douyin"
+msgstr "Žiūrėkite per Douyin"
+
+msgid "tournament/drops/huya"
+msgstr "Žiūrėkite per Huya ir gaukite ypatingų\nHuya Drops!"
+
+msgid "tournament/drops/twitch"
+msgstr "Žiūrėkite per Twitch ir gaukite ypatingų\nTwitch Drops!"
+
+msgid "tournament/dropsShort/huya"
+msgstr "Ir gaukite ypatingų Huya Drops!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "Ir gaukite ypatingų Twitch Drops!"
+
+msgid "tournament/error"
+msgstr "NEPAVYKO UŽKRAUTI DUOMENŲ"
+
+msgid "tournament/eur"
+msgstr "%(amount)s EUR"
+
+msgid "tournament/euroSign"
+msgstr "%(amount)s €"
+
+msgid "tournament/finalResult"
+msgstr "NUGALĖTOJAI"
+
+msgid "tournament/fundDistribution"
+msgstr "PRIZINIO FONDO PASKIRSTYMAS"
+
+msgid "tournament/grandFinals"
+msgstr "DIDYSIS FINALAS"
+
+msgid "tournament/huya"
+msgstr "Žiūrėkite per Huya"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "Prizinis fondas sudaromas iš žaidėjų nupirktų rinkinių: Paskutinį kartą atnaujinta: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "DAUGIAU NENUMATOMA JOKIŲ MŪŠIŲ"
+
+msgid "tournament/ols/roundRobin"
+msgstr "%(phase)s FAZĖ, %(round)s RAUNDAS"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s - %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "PRIZINIS FONDAS %(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "IR PROGA PELNYTI AMŽINĄ ŠLOVĘ"
+
+msgid "tournament/refresh"
+msgstr "Atnaujinti"
+
+msgid "tournament/refreshing"
+msgstr "Atnaujinama..."
+
+msgid "tournament/roundOf"
+msgstr "IŠ %(number)s MŪŠIŲ"
+
+msgid "tournament/separator"
+msgstr "ARBA"
+
+msgid "tournament/tab/overview"
+msgstr "APŽVALGA"
+
+msgid "tournament/tab/schedule"
+msgstr "TVARKARAŠTIS"
+
+msgid "tournament/teamPlaceholder"
+msgstr "TBD"
+
+msgid "tournament/toShop"
+msgstr "Apsilankyti parduotuvėje"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "Konvertavimas"
+
+msgid "tournament/tokenStore/ols"
+msgstr "PLT ŽETONAI"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "Pasiekiama po:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "Apie turnyrą"
+
+msgid "tournament/twitch"
+msgstr "Žiūrėkite per Twitch"
+
+msgid "tournament/viewFull"
+msgstr "Pamatyti visus"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "Parodykite paramą Prasiveržimo legendų taurei ir padidinkite prizinį fondą su turnyro rinkiniais!"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "Parodykite savo nusiteikimą esportui su ypatingais pritaikomaisiais elementais ir unikaliais tankais!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "PADIDINKITE PRIZINĮ FONDĄ"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "WCI RINKINIAI"
+
+msgid "tournament/vsBestOf"
+msgstr "DVIKOVA\nGERIAUSI IŠ %(number)s"
+
+msgid "tournament/wci/roundRobin"
+msgstr "TOLYGUS PASKIRSTYMAS"
+
+msgid "tournament/winner"
+msgstr "Nugalėtojai"
+
+msgid "tournament/youtube"
+msgstr "Žiūrėti per Youtube"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "Geriausios Europos komandos varžosi dėl Prasiveržimo legendų taurės čempiono titulo! Pamatykite įtraukiančius 7 prieš 7 mūšius, gaukite Twitch Drops ir palaikykite savo mėgstamiausias komandas kartu didindami prizinį fondą nusipirkę pritaikomųjų elementų rinkinius."
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "Neužmirštamos kovos vyks World of Tanks tarptautiniame čempionate, Sudžou, Kinijoje, kur geriausios viso pasaulio komandos susikaus pagal Prasiveržimo taisykles dėl prestižinio pasaulio čempiono titulo. Pamatykite kaip mūšio lauke užgimsta legendos!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "PLT 6 sezonas"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI'25"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "Tiesioginės transliacijos tęsis dar %(timer)s"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "Daugiau mūšių po %(timer)s"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "Reitingo taškų Prasiveržimo treniruotėse uždirbti negalite."
+
+msgid "unit/message/modeOffline"
+msgstr "Negalima prisijungti prie mūšio: duomenų bazės klaida."
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "Rangų skirtumo apribojimai viršyti"
+
+msgid "voiceChat/active"
+msgstr "Palikti balso pokalbius"
+
+msgid "voiceChat/inactive"
+msgstr "Prisijungti prie balso pokalbio"
+
+msgid "waitingSpinner/message"
+msgstr "Inicializuojama..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "Prasiveržimo misijos įvykdytos"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "Sveikiname! Jūs įvykdėte kiekvienos savaitės misijas. Nepamirškite atsiimti savo apdovanojimo ir laukite kito sezono!"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "Įvykdę misijas {eeede9e5_Open}%(questsList)s{eeede9e5_Close} ir {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close} gausite papildomų apdovanojimų"
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "Prasiveržimo savaitės misija"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "Įvykdyta: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s nauja misijas po:"
+msgstr[1] "%(value)s naujos misijos po:"
+msgstr[2] "%(value)s naujų misijų po:"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "Apdovanojimas:"
+msgstr[1] "Apdovanojimai:"
+msgstr[2] "Apdovanojimai:"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)s NAUJA MISIJA PO %(countdown)s"
+msgstr[1] "%(value)s NAUJOS MISIJOS PO %(countdown)s"
+msgstr[2] "%(value)s NAUJŲ MISIJŲ PO %(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "NAUJOS MISIJOS KITĄ SEZONĄ!"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "Įvykdytos misijos: %(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "Kiekvieną savaitę gausite po %(value)s naują misiją. Kiekviena įvykdyta misija priartina jus arčiau apdovanojimo!"
+msgstr[1] "Kiekvieną savaitę gausite po %(value)s naujas misijas. Kiekviena įvykdyta misija priartina jus arčiau apdovanojimo!"
+msgstr[2] "Kiekvieną savaitę gausite po %(value)s naujų misijų. Kiekviena įvykdyta misija priartina jus arčiau apdovanojimo!"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "Vyksta"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "Įvykdyta"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "Nepasiekiama"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "Vykdymas negalimas: režimas nepasiekiamas."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "Norėdami atrakinti išraskite ir nusipirkite X lygio mašiną."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "Įvykdykite ankstesnę misiją norėdami atrakinti šią."
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "Misija nepasiekiama"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "Atsiimkite apdovanojimą!"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "Įvykdyta: %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "Misija %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s nauja misijas po:"
+msgstr[1] "%(value)s naujos misijos po:"
+msgstr[2] "%(value)s naujų misijų po:"
+
+msgid "whatsNewButtonLabel"
+msgstr "SEZONO ATNAUJINIMAI"
+
+msgid "whatsNewView/banner/description"
+msgstr "Šis sezonas yra paskutinė proga jums pasiimti puikiausių apdovanojimų, tarp kurių yra ypatingas X lygio sunkusis tankas Ashbringer su visais jo unikaliais 3D stiliais ir bebaime įgula su nuliniais įgūdžiais Ginklo broliai, daug pasirenkamos pagerintos ir eksperimentinės įrangos, puikiai atrodantis 2D stilius ir daugiau. Nepraleiskite — mūšio lauke nusimato jūsų pergalė!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "Pasinaudokite paskutinėmis Drakono metų akimirkomis!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "NEFRITO DRAKONO SEZONAS"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "PRASIVERŽIMAS. KAS NAUJO?"
+
+msgid "whatsNewView/button/ok"
+msgstr "Nuostabu!"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "Atnaujintas mūšio rezultatų langas su 2.0 atnaujinimo dizainus dabar jums po mūšio suteiks daugiau su režimu susijusios informacijos."
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "Detalesni mūšio rezultatai"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "Nesijaudinkite, jei jūsų mėgstamiausia mašina uždrausta. Nuomojamos mašinos dabar suteikiamos su įgula, įranga, sviediniais ir ekipuote."
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "Mūšiui paruošta nuoma %(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "Šį sezoną komanda gali visiškai uždrausti naudoti mašiną mūšyje. Tarkitės su komandos nariais ir uždrauskite pačią grėsmingiausią mašiną arba paruoškite priešams netikėtą staigmeną."
+
+msgid "whatsNewView/intro/heading"
+msgstr "Mašinų uždraudimas %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "Žemėlapiai"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "Prasiveržime jūsų laukia naujos mašinos"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "NUOMOJAMOS MAŠINOS"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "Neseniai žaidime pasirodęs amerikiečių X lygio vidutinis tankas Ares 90 dabar turi ir kiek pakoreguotą rolės įgūdį."
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "Atnaujintas rolės įgūdis %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "Nuo sidabrinio rango dabar Prasiveržimo parduotuvėje galite įsigyti 114 SP2."
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "Atnaujinta parduotuvė %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "PAŠALINTA"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "VIS DAR KURIAMA"
+
+msgid "whatsNewView/tag/attention"
+msgstr "Dėmesio"
+
+msgid "whatsNewView/tag/changed"
+msgstr "Pakeista"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "Eksperimentinė versija"
+
+msgid "whatsNewView/tag/new"
+msgstr "Nauja"
+
+msgid "whatsNewView/tag/returned"
+msgstr "Sugrįžo"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "Pasikeitė"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "Sezono atnaujinimas"
+
+msgid "whatsNewView/watchVideo"
+msgstr "Žiūrėti video"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "Pergalių procentas (per dieną): %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "Pralaimėjimai: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "Lygiosios: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "Laimėjimo procentas (per sezoną): %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "Visų pergalių ir sužaistų mūšių santykis.\nMūšiai pagal rezultatą:"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "Pergalės: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "Apdovanojimai suteikiami trečio sezono gale."
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "Apdovanojimai bus suteikiami jau greitai. Palaukite."
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "Metinis apdovanojimas gautas. Iki kitų metų!"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "Jūs galite pasirinkti įrangą"
+
+msgid "yearlyRewards/claim"
+msgstr "Gauti"
+
+msgid "yearlyRewards/claimReward"
+msgstr "Gauti apdovanojimą"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "Sezono pabaigoje jūs gavote po 1%(seasonPointIcon)s už kiekvieną pasiektą rangą."
+
+msgid "yearlyRewards/description/current"
+msgstr "Sezono pabaigoje jūs gausite po 1%(seasonPointIcon)s už kiekvieną pasiektą rangą."
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\nSu unikaliais 3D stiliais"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "Į KASMETINIUS APDOVANOJIMUS"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "Peržiūrėti 2D stilių"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "Peržiūrėti 3D stilių"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "Pasiektas rangas: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "Dabartinis rangas: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "Keturi unikalūs įgulos nariai"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "Apdovanojimas gautas"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "Apdovanojimas suteiktas"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "Naujo etapo prizą atrakinsite iš viso surinkę %(count)s spalvas"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "Galimas apdovanojimas"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "Jūs garantuotai gausite apdovanojimą metų pabaigoje."
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "Surinkite reikiamą kiekį Prasiveržimo spalvų ir gaukite apdovanojimą metų pabaigoje."
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "Jūs gausite šį apdovanojimą metų pabaigoje jei sugebėsite išlaikyti turimą arba pasiekti geresnį rangą iki sezono pabaigos."
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "Aktyvus etapas"
+
+msgid "yearlyStatistics/battles"
+msgstr "Mūšiai (solo/būryje)"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "Apskaičiuojama sezono suvestinė..."
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)sĮ sezono suvestinę"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "Nėra rango"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "Rangas %(rank)s"
+
+msgid "yearlyStatistics/rating"
+msgstr "Reitingo taškai"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "2025 ruduo"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "2026 Žiema"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "2026 Pavasaris"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s–%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "I sezonas. Žydrasis Drakonas"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "II sezonas: Kruvinasis Drakonas"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "III sezonas: Nefrito Drakonas"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "Dabartinis"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "Baigėsi"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "Mūšiai (super būryje)"
+
+msgid "yearlyStatistics/wins"
+msgstr "Pergalių procentas"

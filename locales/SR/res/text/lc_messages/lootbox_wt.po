@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "%(count) preostao modul"
+msgstr[1] "%(count) preostala modula"
+msgstr[2] "%(count) preostalih modula"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Nazad na module"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "Prilikom otvaranja, ovi moduli mogu da ti daju Premium vozila, valute iz igre i druge vredne nagrade."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "Paradoxmodul možeš da kupiš u prodavnici u igri ili u Premium prodavnici."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Paradoxmodul"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "PARADOXMODUL"
+
+msgid "common/getButton/lowerCase"
+msgstr "Uzmi module"
+
+msgid "common/getButton/upperCase"
+msgstr "UZMI MODULE"
+
+msgid "common/loader"
+msgstr "Otvaranje modula..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Otvori module da vidiš statistiku."
+
+msgid "common/statistics/header"
+msgstr "Modula otvoreno: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Sve informacije o otvaranju modula će biti obrisane."
+
+msgid "entryPoint/boxes"
+msgstr "NA MODULE"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Ovo su specijalni moduli koji sadrže nove i jedinstvene stvari, uključujući Premium vozila, elemente prilagođavanja, valute u igri i ostale vredne nagrade.\nModuli se mogu dobiti i iz prodavnice u igri i Premium prodavnice."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Moduli trenutno ne mogu biti otvoreni zbog tehničkih razloga. Izvinjavamo se zbog neprijatnosti."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Moduli su trenutno nedostupni"
+
+msgid "eventName/lowerCase"
+msgstr "Probij paradoks"
+
+msgid "eventName/upperCase"
+msgstr "PROBIJ PARADOKS"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garantovana nagrada u sledećem modulu!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maksimalno modula pre zagarantovane nagrade: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ako ne otvoriš sve module pre završetka događaja, biće otvoreni automatski kasnije."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ako već imaš sva vozila sa liste mogućih iz modula, onda će sva sledeća vozila koja dobiješ iz modula biti kompenzovana u zlatu jednako njihovoj punoj vrednosti."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Svaki %(guaranteed0)s modul garantovano sadrži Premium vozilo. Ako ih otvoriš bez dobijenog vozila, onda će Premium vozilo koje ne poseduješ ispasti kada otvoriš %(guaranteed0)s. modul. Kada se to dogodi, brojač se poništava."
+
+msgid "infoPage/header/description"
+msgstr "Otvori modul za šansu da dobiješ vredne stvari iz igre! Pogledaj detalje ispod."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Iz %(name) (%(boxesCount) otvorenih modula)"
+
+msgid "noBoxesView/description/"
+msgstr "Nemaš modula. Možeš da ih kupiš\nu prodavnici u igri ili u Premium prodavnici."
+
+msgid "preview/backLabel"
+msgstr "NA MODULE"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Dostupno modula: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nema dostupnih modula"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Ako već imaš sva vozila sa liste mogućih iz modula, onda će sva sledeća vozila koja dobiješ iz modula biti kompenzovana u zlatu."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) modul"
+msgstr[1] "%(remainingCount) modula"
+msgstr[2] "%(remainingCount) modula"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Zagarntovana nagrada je vozilo sa liste mogućeg sadržaja modula.\nAko otvoriš %(remainingCount) a takvo vozilo ne dobiješ, dobićeš ga kada otvoriš %(count). modul. Kada ga dobiješ brojač se poništava."

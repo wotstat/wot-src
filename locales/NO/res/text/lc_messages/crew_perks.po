@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Å ta skade avbryter gjenopprettingen helsepoeng helsepoeng.\n\nGjenopprettingshastigheten og grense for maksimal gjenoppretting er basert på kjøretøyets totale mengde helsepoeng, inkludert alle påsatte modifikatorer."
+
+msgid "armorPatching/alt/info"
+msgstr "Gruppefordeler beregnes fra det gjennomsnittlige treningsnivået for hele besetningen. Den trer i effekt når den er blitt trent til minst 1% og effektiviteten øker med mer trening."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Bruk av et reparasjonssett gjenoppretter %(hpRecover)s av kjøretøyets {yellow_Start}helsepoeng{yellow_End} i løpet av 5 sekunder, opp til maksimalt 20% per kamp. Tillater bruk av reparasjonssett uten kritisk skade."
+
+msgid "armorPatching/hudDescription"
+msgstr "Helsepoeng gjenopprettes."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Når den er fulltrent for alle besetningsmedlemmer, gjenoppretter den %(hpRecover)s av kjøretøyets {yellow_Start}helsepoeng{yellow_End} i løpet av 5 s etter bruk av et reparasjonssett, opp til maksimum 20% per kamp. Tillater bruk av reparasjonssett uten kritisk skade."
+
+msgid "armorPatching/name"
+msgstr "Lapping av pansring"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Øker basis skjuleevne for kjøretøy."
+
+msgid "brotherhood/alt/description"
+msgstr "Bonusen på besetningseffektivitet forbedrer besetningsmedlemmets effektivitet i kamp, i tillegg til effektiviteten for alle deres lærte fordeler, bortsett fra denne. Denne parameteren kan økes ytterligere ved å montere på utstyr eller forbruksmateriell med lik effekt, eller ved å benytte direktivet for ventilasjonsutblåsning. Kommandørens nødpakke, i tillegg til radiooperatørens fordeler side ved side og kommunikasjonsekspert, kan også øke parameteren."
+
+msgid "brotherhood/alt/info"
+msgstr "Gruppefordeler beregnes fra det gjennomsnittlige treningsnivået for hele besetningen. Den trer i effekt når den er blitt trent til minst 1% og effektiviteten øker med mer trening."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "{greenBright_Start}Bonusen på besetningseffektivitet{greenBright_End} for hele besetningen øker med %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Når den er ferdig trent for alle besetningsmedlemmer, økes {greenBright_Start}bonusen på besetningens effektivitet{greenBright_End} med %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Våpenbrødre"
+
+msgid "brotherhood/shortDescription"
+msgstr "Øker besetningens generelle ytelse."
+
+msgid "camouflage/alt/description"
+msgstr "Denne fordelen påvirker skjuleevnen til kjøretøyet. Den kan bli ytterligere forbedret med direktivet naturlig dekke.\n\nI tillegg kan kjøretøyets skjuleevne økes ved å sette på et kamuflasjemønster eller en stil, i tillegg til å montere på utstyr med liknende effekt."
+
+msgid "camouflage/alt/info"
+msgstr "Gruppefordeler beregnes fra det gjennomsnittlige treningsnivået for hele besetningen. Den trer i effekt når den er blitt trent til minst 1% og effektiviteten øker med mer trening."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "Kjøretøyets {greenBright_Start}skjuleevne{greenBright_End} er økt med %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Når den er ferdigtrent for alle besetningsmedlemmene, økes kjøretøyets {greenBright_Start}skjuleevne{greenBright_End} med %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Skjuleevne"
+
+msgid "camouflage/shortDescription"
+msgstr "Øker basis skjuleevne for kjøretøy."
+
+msgid "commander_coordination/alt/description"
+msgstr "Effekten aktiveres hver gang et fiendtlig kjøretøy oppdages og økes ikke ved oppdagelse av flere fiendtlige kjøretøy samtidig.\n\nSiktehastighet kan økes ytterligere ved å trene skytterens rask siktetid fordel, eller ved å montere utstyr med liknende effekt."
+
+msgid "commander_coordination/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1% og effektivitet blir bedre med ytterligere trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "{yellow_Start}Siktehastighet{yellow_End} bedres med %(vehicleGunAimSpeed)s i 15 s etter at du oppdager et fiendtlig kjøretøy."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Siktehastighet er bedre."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Når den er ferdigtrent, bedres {yellow_Start}siktehastighet{yellow_End} med %(vehicleGunAimSpeed)s i 15 s etter at du oppdager et fiendtlig kjøretøy.\t"
+
+msgid "commander_coordination/name"
+msgstr "Koordinering"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Siktehastighet er bedre."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Synsrekkevidde kan økes ytterligere ved å trene opp radiooperatørens fordel situasjonsnærvær eller ved å montere utstyr med liknende effekt. Bruk av direktivet optisk kalibrering forbedrer effekten."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}Synsrekkevidden{greenBright_End} er økt med %(circularVisionRadius)s&zwnbsp;. {greenBright_Start}Virkningen av ødelagte obervasjonsenheter{greenBright_End} gir reduksjon på %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Ødelagte obervasjonsenheter gir reduksjon i observasjonsevne."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Når den er ferdigtrent, økes {greenBright_Start}synsrekkevidden{greenBright_End} med %(circularVisionRadius)s&zwnbsp; og reduserer {greenBright_Start}virkningen av skadde observasjonsenheter {greenBright_End} med %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Rekognosering"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Øker synsrekkevidden, spesielt når observasjonsenheter er skadd."
+
+msgid "commander_emergency/alt/description"
+msgstr "Når man får gjentatte skader fra fiender, blir ikke effekten økt. Bonusen på besetningseffektiviteten forbedrer kampevne. Denne parameteren kan økes ytterligere ved å montere utstyr eller forbruksmateriell med liknende effekt, eller ved å benytte direktivet ventilasjonsutblåsning. Gruppefordelen våpenbrødre, i tillegg til radiooperatørens ferdigheter side ved side og kommunikasjonsekspert, kan også øke parameteren."
+
+msgid "commander_emergency/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1% og effektivitet blir bedre med ytterligere trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "{yellow_Start}Effektivtetsbonusen for besetningen{yellow_End} blir økt med %(crewLevelIncrease)s i 15 s etter å ha mottatt skade fra en fiende."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Bonusen på besetningseffektiviteten økes."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Når den er ferdigtrent øker {yellow_Start}effektivtetsbonusen for besetningen{yellow_End} med %(crewLevelIncrease)s i 15 s etter å ha mottatt skade fra en fiende."
+
+msgid "commander_emergency/name"
+msgstr "Nødstilfelle"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Bonusen på besetningseffektiviteten økes."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Et varsel om fiendtlig ild fra SPG aktiveres med en liten forsinkelse etter at det har blitt skutt.\n\nFordelen kan forbedres med direktivet alarmberedskap."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1% og effektivitet blir bedre med ytterligere trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "En {yellow_Start}varsling om fiendtlig ild fra SPG{yellow_End} og fra hvilken retning skuddet kommer, med en forsinkelse på %(artNotificationDelayFactor)s. Den {greenBright_Start}negative effekten av sjokk{greenBright_End} reduseres med %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Når den er ferdigtrent, viser den en {yellow_Start}varsling om fiendtlig ild fra SPGer{yellow_End} med en forsinkelse på %(artNotificationDelayFactor)s og hvilken retning skuddet kommer fra. Reduserer den {greenBright_Start}negative sjokkeffekten{greenBright_End} med %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Lydoppdagelse"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Indikerer et fiendtlig SPG skudd."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Mannskapets effektivitetsbonus forbedrer mannskapsmedlemmets effektivitet i kamp.\n\nDenne parameteren kan ytterligere økes ved å montere utstyr eller forbruksmateriell med lignende effekt, eller ved å bruke direktivet ventilasjonsutblåsning. Ulike andre mannskapsfordeler kan også øke parameteren."
+
+msgid "commander_holdLine/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1% og effektivitet blir bedre med ytterligere trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "{yellow_Start}Bonusen for besetningseffektivitet{yellow_End} vil øke med %(crewLevelIncrease)s så lenge fiendens lag har minst tre flere kjøretøy i kamp enn ditt&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Bonusen for besetningseffektivitet økes (når fienden er i overtall)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Når den er ferdigtrent, øker den {yellow_Start}besetningens effektivitetsbonus{yellow_End} med %(crewLevelIncrease)s når fiendens lag har minst tre flere kjøretøy i kamp enn ditt&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Hold linjen"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Øker besetningseffektivitetsbonus"
+
+msgid "commander_practical/alt/description"
+msgstr "Fordelen virker på alle typer utstyr som er montert på kjøretøyet ditt.\n\nDens effekt kan forbedres ytterligere ved at du benytter direktivet grundige forberedelser."
+
+msgid "commander_practical/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}Nedkjølingstid for forbruksmateriell{greenBright_End} reduseres med %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Når den er ferdigtrent, reduseres {greenBright_Start}nedkjølingstiden på forbruksmateriellet{greenBright_End} som er montert på ditt kjøretøy med %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Praktiskhet"
+
+msgid "commander_practical/shortDescription"
+msgstr "Reduserer nedkjølingstiden på forbruksmateriell."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Sjette sans fungerer ikke så lenge kommandøren er skadd. Dens aktiveringstid kan reduseres med radiooperatørens fordel signalforsterker."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Det er en spesiell egenskap for kommandøren som ikke krever trening og er tilgjengelig for kommandøren i utgangspunktet."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Gjør at kommandøren legger merke til om kjøretøyet har blitt oppdaget av fienden. Aktiveres %(delay)s etter at kjøretøyet ditt har blitt oppdaget."
+
+msgid "commander_sixthSense/name"
+msgstr "Sjette sans"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Lar kommandøren få vite om kjøretøyet har blitt oppdaget av fienden."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Mannskapets effektivitetsbonus forbedrer mannskapsmedlemmets effektivitet i kamp.\n\nDenne parameteren kan ytterligere økes ved å montere utstyr eller forbruksmateriell med lignende effekt, eller ved å bruke direktivet ventilasjonsutblåsning. Ulike andre mannskapsfordeler kan også øke parameteren."
+
+msgid "commander_staySharp/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1% og effektivitet blir bedre med ytterligere trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "{yellow_Start} Mannskapseffektivitetsbonusen {yellow_End} øker med %(crewLevelIncrease)s i 15&nbsp;s etter bruk av et førstehjelpssett. Lar et førstehjelpssett brukes selv om ingen besetningsmedlemmer er skadet&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Bonusen på besetningseffektivitet er økt (Førstehjelpssett ble brukt)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Når den er ferdigtrent, øker den {yellow_Start}besetningens effektivitetsbonus{yellow_End} med %(crewLevelIncrease)s i 15 s etter bruk av et førstehjelpssett. Lar et førstehjelpssett brukes selv om ingen besetningsmedlemmer er skadet&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Hold fokus"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Øker besetningseffektivitetsbonus"
+
+msgid "commander_tutor/alt/description"
+msgstr "En skadd kommandør kan ikke erstatte et annet besetningsmedlem. Bonusen gjelder kun mengden basis besetningserfaring tjent i kamp.\n\nYtterligere besetningserfaring kan fås ved å benytte besetningsbøker eller ved å konvertere fri erfaring til besetningserfaring."
+
+msgid "commander_tutor/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Mengden {greenBright_Start}erfaringspoeng{greenBright_End} tjent øker med %(xpBonusFactorPerLevel)s for alle besetningsmedlemmer. Kommandøren kan {greenBright_Start}ta rollen til besetningsmedlemmer som er slått ut{greenBright_End} med en effektivitet på %(woundedCrewEfficiency)s."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Besetningsmedlemmer som er slått ut kan erstattes av kommandøren."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Når fordelen er ferdigtrent øker mengden {greenBright_Start}erfaringspoeng{greenBright_End} som tjenes med %(xpBonusFactorPerLevel)s for alle besetningsmedlemmer. Kommandøren kan {greenBright_Start}ta rollen til besetningsmedlemmer som er slått ut{greenBright_End} med en effektivitet på %(woundedCrewEfficiency)s."
+
+msgid "commander_tutor/name"
+msgstr "Læremester"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Besetningsmedlemmer som er slått ut kan erstattes av kommandøren."
+
+msgid "commander_universalist/alt/description"
+msgstr "Kommandøren kan kun erstatte hovedkvalifikasjonen til hvert av de utslåtte besetningsmedlemmene. Effekten på erstatningen reduseres for hvert besetningsmedlem som er slått ut."
+
+msgid "commander_universalist/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Kommandøren kan {greenBright_Start}erstatte utslåtte{greenBright_End} besetningsmedlemmer med %(woundedCrewEfficiency)s effektivitet."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Kommandøren utfører rollen til det utslåtte besetningsmedlemmet."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Når den er fulltrent, gjør den at kommandøren kan {greenBright_Start}erstatte utslåtte{greenBright_End} besetningsmedlemmer med %(woundedCrewEfficiency)s effektivitet."
+
+msgid "commander_universalist/name"
+msgstr "Joker"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Gjør at kommandøren kan erstatte utslåtte besetningsmedlemmer."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Reduserer ulempen for kjøretøyets manøvrerbarhet og akselerasjon ved kjøring i moderat mykt terreng. Reduserer disse ulempene betydelig når du kjører i mykt terreng, og gir dem egenskaper på linje med moderat mykt terreng.\nManøvrerbarhet i moderat mykt og mykt terreng kan ikke overstige manøvrerbarheten på hardt terreng."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}Tap av fart på moderat mykt terreng{greenBright_End} reduseres med %(mediumGroundFactor)s&zwnbsp;, {greenBright_Start}tap av fart på mykt terreng{greenBright_End} reduseres til %(softGroundFactor)s verdien for det moderat myke terrenget."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Når den er ferdigtrent reduseres {greenBright_Start}tap av fart på moderat mykt terreng{greenBright_End} med %(mediumGroundFactor)s&zwnbsp;, og reduserer {greenBright_Start}tap av fart på mykt terreng{greenBright_End} til %(softGroundFactor)s verdien for det moderat myke terrenget."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Offroadsjåfør"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Mannskapets effektivitetsbonus forbedrer mannskapsmedlemmets effektivitet i kamp.\n\nDenne parameteren kan ytterligere økes ved å montere utstyr eller forbruksmateriell med lignende effekt, eller ved å bruke direktivet ventilasjonsutblåsning. Ulike andre mannskapsfordeler kan også øke parameteren."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1% og effektivitet blir bedre med ytterligere trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "{yellow_Start}Bonus på besetningseffektivitet{yellow_End} økes med %(crewLevelIncrease)s dersom mengden skade du blokkerer overstiger ditt kjøretøys opprinnelige helsepoeng."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Bonusen på besetningseffektivitet øker (når det er blokkert stor nok mengde skade)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Når den er ferdigtrent økes {yellow_Start}bonus på besetningseffektivitet{yellow_End} med %(crewLevelIncrease)s dersom mengden skade du blokkerer overstiger ditt kjøretøys opprinnelige helsepoeng."
+
+msgid "driver_bulletproof/name"
+msgstr "Skuddsikker"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Toppfarten til kjøretøyet ditt kan økes ytterligere og skade på motor kan reduseres enda mer ved å montere utstyr med liknende effekt."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "{greenBright_Start}Toppfarten{greenBright_End} og {greenBright_Start}reversfarten{greenBright_End} til ditt kjøretøy økes med %(vehicleForwardMaxSpeed)s. {greenBright_Start}Skaden på en motor {greenBright_End} reduseres med %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Skaden på en motor reduseres."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Når den er ferdigtrent blir {greenBright_Start}toppfarten{greenBright_End} og {greenBright_Start}reversfarten{greenBright_End} til ditt kjøretøy økt med %(vehicleForwardMaxSpeed)s. {greenBright_Start}Skaden på en motor {greenBright_End} reduseres med %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Ingeniør"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Skaden på en motor reduseres."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Fordelen har ingen effekt når to allierte kjøretøy kolliderer.\n\nKollisjonsskade på ditt eget kjøretøy kan reduseres ytterligere ved å montere utstyr med lignende effekt."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}Kollisjonsskade på fiendtlige kjøretøy{greenBright_End} økes med %(damageEnemiesByRamming)s&zwnbsp;. {greenBright_Start}Kollisjonsskade på ditt kjøretøy{greenBright_End} reduseres med %(vehicleRamDamageResistance)s&zwnbsp; og på {greenBright_Start}opphenget ditt{greenBright_End} med %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Når den er ferdigtrent økes {greenBright_Start}kollisjonsskade på fiendtlige kjøretøy{greenBright_End} med %(damageEnemiesByRamming)s&zwnbsp;. Reduserer {greenBright_Start}kollisjonsskade for ditt kjøretøy{greenBright_End} med %(vehicleRamDamageResistance)s&zwnbsp;, og på {greenBright_Start}opphenget ditt{greenBright_End} med %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Kontrollert kollisjon"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Reduserer kollisjonsskade på ditt kjøretøy og øker kollisjonsskade på fiendtlige kjøretøy."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Skade fra HE granater kan reduseres ytterligere ved å montere utstyr med liknende effekt."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}Skadeabsorpsjon fra HE granater{greenBright_End} økes med %(vehicleHEShellDamageResistance)s&zwnbsp;.{greenBright_Start}&nbsp;Sannsynligheten for motorbrann{greenBright_End} reduseres med %(vehicleFireChance)s og {greenBright_Start}skade på opphenget{greenBright_End} med %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Når den er ferdigtrent, øker den {greenBright_Start}skadeabsorpsjon fra HE granater {greenBright_End} med %(vehicleHEShellDamageResistance)s&zwnbsp;. Reduserer {greenBright_Start}sannsynligheten for motorbrann{greenBright_End} med %(vehicleFireChance)s og {greenBright_Start}skaden på opphenget ditt{greenBright_End} med %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Pålitelig plassering"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Påvirker ikke presisjonen for et stasjonært kjøretøy og presisjonen under skrogdreining.\n\nFordelen kan forbedres med direktivet intrikat girkasse. Presisjon ved avfyring av skudd i bevegelse kan økes ytterligere ved å montere utstyr med liknende effekt eller ved å benytte direktivet stabilisatorsmøring."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "{greenBright_Start}Skuddspredning{greenBright_End} ved avfyring av skudd i bevegelse reduseres med %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Når den er ferdigtrent, reduseres {greenBright_Start}skuddspredning{greenBright_End} ved avfyring av skudd i bevegelse med %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Jevn bevegelse"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Forbedrer presisjon ved avfyring av skudd i bevegelse."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Denne fordelen påvirker hastigheten på reparasjoner av oppheng fra rød til gul tilstand innen 50 m av et alliert kjøretøy."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1% og effektivitet blir bedre med ytterligere trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "{yellow_Start}Reparasjonshastighet for oppheng{yellow_End} økes med %(suspensionRepairSpeed)s på avstander under 50 m fra et alliert kjøretøy."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Hastigheten på reparasjon av oppheng økes (alliert er i nærheten)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Når den er ferdigtrent, økes {yellow_Start}reparasjonshastigheten på opphenget{yellow_End} med %(suspensionRepairSpeed)s på avstander mindre enn 50 m fra et alliert kjøretøy."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Feltstøtte"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Motstandsdyktigheten mot brann på kjøretøyet kan økes ytterligere ved å montere utstyr og forbruksmateriell med liknende effekter. Brannbekjempelsesfordelen gjør brannbekjempelsen raskere dersom det oppstår en brann."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "Reduserer sjansen for {greenBright_Start}motorbrann{greenBright_End} med %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Når den er ferdigtrent, reduseres {greenBright_Start}sjansen for motorbrann{greenBright_End} med %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Preventivt vedlikehold"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Reduserer sjansen for motorbrann."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Skrogdreiningshastighet kan økes ytterligere ved å montere utstyr eller forbruksmateriell med liknende effekt."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}Dreiningshastighet for skrog{greenBright_End} økes med %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Når den er ferdigtrent økes {greenBright_Start}dreiningshastighet på skrog{greenBright_End} med %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Clutchbrems"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Øker skrogdreiningshastigheten."
+
+msgid "fireFighting/alt/description"
+msgstr "Denne fordelen påvirker skade fra brann og dens varighet.\n\nDersom to radiooperatører har denne fordelen blir gjennomsnittet av treningsnivået det gjeldende.\n\nFordelen kan forbedres med direktivet erfarne brannmenn."
+
+msgid "fireFighting/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}Hastighet på brannslukning{greenBright_End} økes med %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Når den er ferdigtrent økes {greenBright_Start}hastighet på brannslukning{greenBright_End} med %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Brannbekjempelse"
+
+msgid "fireFighting/shortDescription"
+msgstr "Forbedrer brannbekjempelsesegenskaper."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Den potensielle skaden og penetrasjonsverdien er normalt ±25% fra basisverdiene. For eksempel dersom en granat har verdiene for penetrasjon av pansring på opptil 100 mm og kan forårsake 100 helsepoeng i skade: Når den treffer et mål kan den faktiske penetrasjonen for dette enkeltskuddet bli alt fra 75 til 125 mm, og den faktiske skaden kan bli fra 75 til 125 helsepoeng. Å redusere denne modifikatoren gir mer forutsigbart resultat av skudd.\n\nDersom to skyttere har denne fordelen, er det gjennomsnittet av treningsverdiene som gjelder."
+
+msgid "gunner_armorer/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Variasjonen i {greenBright_Start}potensiell skade{greenBright_End} og {greenBright_Start}potensiell penetrasjon{greenBright_End} reduseres med {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. {greenBright_Start}Skuddspredning{greenBright_End} reduseres med %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Når den er ferdigtrent økes variasjonen i {greenBright_Start}potensiell skade{greenBright_End} og {greenBright_Start}potensiell penetrasjon{greenBright_End} reduseres med {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. {greenBright_Start}Skuddspredning{greenBright_End} reduseres med %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Våpensmed"
+
+msgid "gunner_focus/alt/description"
+msgstr "Effekten begynner 3 s etter at kjøretøyet har stanset og nullstilles dersom det kjører igjen.\n\nDersom to skyttere har denne fordelen, er det gjennomsnittet av treningsverdiene som gjelder."
+
+msgid "gunner_focus/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1% og effektivitet blir bedre med ytterligere trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "{yellow_Start}Skuddspredningen{yellow_End} for et stasjonært kjøretøy reduseres med %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Redusert skuddspredning."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Når den er ferdigtrent reduseres {yellow_Start}skuddspredning{yellow_End} på et stasjonært kjøretøy med %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Konsentrasjon"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Reduserer skuddspredning for et stasjonært kjøretøy."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Skuddspredning og siktetid kan forbedres ytterligere ved å trene besetningsfordeler eller montere utstyr med lignende effekt.\n\nHvis to skyttere har denne fordelen, brukes gjennomsnittet av deres treningsnivå."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1% og effektivitet blir bedre med ytterligere trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "{yellow_Start}Skuddspredning{yellow_End} reduseres med %(vehicleGunAimSpeed)s og {yellow_Start}siktehastigheten{yellow_End} økes med %(vehicleGunAimSpeed)s når det ikke er noen allierte kjøretøy innenfor en radius på 300 m."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Skuddspredning og siktehastighet er forbedret (ingen allierte i nærheten)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Ferdigtrent reduseres {yellow_Start}skuddspredning{yellow_End} og {yellow_Start}siktehastighet{yellow_End} økes med %(vehicleGunAimSpeed)s så lenge det ikke er noen allierte kjøretøy innenfor en radius på 300 m."
+
+msgid "gunner_loneWolf/name"
+msgstr "Ensom ulv"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Skuddspredning er redusert. Siktehastighet er økt."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Som standard er den potensielle maksimale penetrasjonen +25 % fra grunnverdien. For eksempel, hvis et prosjektil trenger gjennom pansring opptil 100 mm, kan den maksimale penetrasjonsverdien for dette enkeltskuddet være 125 mm når det treffer et mål. Økning av denne modifikatoren fører til mer effektive penetrasjonsresultater.\n\nHvis to skyttere har denne fordelen, brukes gjennomsnittsverdien av deres fordelsnivå."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1% og effektivitet blir bedre med ytterligere trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "Den {yellow_Start}maksimale potensielle penetrasjonen{yellow_End} til granatene dine økes med %(piercingHEShellsDistributionUpperBound)s når du skyter mot fiendtlige kjøretøy på mindre enn 50 meters avstand."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Når fullt opplært, økes {yellow_Start}maksimalt penetrasjonspotensial{yellow_End} med %(piercingHEShellsDistributionUpperBound)s når du skyter mot fiendtlige kjøretøy som er mindre enn 50 m unna."
+
+msgid "gunner_pointBlast/name"
+msgstr "Kloss hold"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Øker granatenes maksimale penetrasjonsevne"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Dersom to skyttere har denne fordelen, er det gjennomsnittet av treningsverdiene som gjelder.\n\nSiktehastigheten kan bedres ytterligere ved å trene kommandørens koordinasjonsfordel eller ved å montere utstyr med liknende effekt.\n\nTårnets dreining hastighet kan økes ytterligere ved å montere utstyr eller forbruksmateriell med liknende effekt."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}Siktehastighet{greenBright_End} og {greenBright_Start}fart på tårndreining{greenBright_End} økes med %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Når den er ferdigtrent økes {greenBright_Start}siktehastighet{greenBright_End} og {greenBright_Start}hastighet på tårndreining{greenBright_End} med %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Rask siktetid"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Siktehastighet er bedre."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Identifiserer kritisk skadde moduler på kjøretøy i skytterens sikte i både indirekte og direkte ildmodi.\nSkytterens synsområde defineres av synskjeglen med ±10° (20° totalt) foran kjøretøyets kanon samt dens synsrekkevidde.\nDersom to skyttere har denne fordelen, er det gjennomsnittet av treningsverdiene som gjelder.\nFordelen kan forbedres ytterligere med direktivet fokus på mål. Å benytte forbedret radiosett øker tiden før kjøretøyet forsvinner enda mer."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "{greenBright_Start}Tiden{greenBright_End} før et fiendtlig {greenBright_Start}kjøretøy forsvinner ut av syne{greenBright_End} i skytterens synsområde økes med %(vehicleEnemySpottingTime)s. Tiden det tar å {yellow_Start}identifisere skadde moduler{yellow_End} reduseres til %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Når den er ferdigtrent økes {greenBright_Start}tiden{greenBright_End} før et fiendtlig {greenBright_Start}kjøretøy forsvinner ut av syne{greenBright_End} i skytterens synsområde med %(vehicleEnemySpottingTime)s. Tiden det tar å {yellow_Start}identifisere skadde moduler{yellow_End} reduseres til %(damageMonitoringDelay)s."
+
+msgid "gunner_rancorous/name"
+msgstr "Målangivelse"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Øker tiden det tar før et fiendtlig kjøretøy forsvinner ut av syne i skytterens synsområde. Gjør det mulig å identifisere skadde moduler."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Dersom to skyttere har fordelen, er det kun den høyeste verdien som gjelder.\n\nFordelen kan forbedres med direktivet stødig hånd. Skuddspredning under tårnrotering kan reduseres ytterligere ved å montere utstyr med liknende effekt eller ved å bruke direktivet stabilisatorsmøring."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "{greenBright_Start}Skuddspredning{greenBright_End} ved tårndreining reduseres med %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Når den er ferdigtrent reduseres {greenBright_Start}skuddspredning{greenBright_End} under tårndreining med %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Hurtigskudd"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Reduserer skuddspredning under tårnrotering."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Effekten virker på alle typer granater bortsett fra i kjøretøy med autokanoner.\n\nDersom to skyttere har denne fordelen blir gjennomsnittet av treningsnivået det gjeldende."
+
+msgid "gunner_sniper/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "{greenBright_Start}Sjanse til å kritisk skade{greenBright_End} fiendtlige {greenBright_Start}kjøretøys moduler{greenBright_End} samt å påføre fiendtlige {greenBright_Start}besetningsmedlemmer{greenBright_End} skade med alle typer granater økes med %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Når den er ferdigtrent økes {greenBright_Start}sjansen til å kritisk skade{greenBright_End} fiendtlige {greenBright_Start}kjøretøys moduler{greenBright_End} samt å påføre fiendtlige {greenBright_Start}besetningsmedlemmer{greenBright_End} skade med alle typer granater med %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Presisjon"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Den potensielle skaden og penetrasjonsverdien er normalt -25% fra basisverdiene. For eksempel dersom en granat har verdiene for penetrasjon av pansring på opptil 100 mm og kan forårsake 100 helsepoeng i skade, er den minste mulige penetrasjonen for dette enkeltskuddet 75 mm, og den minste mulige skaden er 75 helsepoeng. Å øke denne modifikatoren gir mer effektive resultat av skudd.\n\nDersom to ladere har denne fordelen, er det gjennomsnittet av treningsverdiene som gjelder."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "{greenBright_Start}Minimum potensiell skade{greenBright_End} og {greenBright_Start}minimum potensiell penetrasjon{greenBright_End} økes med %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Når den er ferdigtrent, økes {greenBright_Start}minimum potensiell skade{greenBright_End} og {greenBright_Start}minimum potensiell penetrasjon{greenBright_End} med %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Ammunisjonsjustering"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Øker gjennomsnittlig skade og penetrasjonsverdier."
+
+msgid "loader_desperado/alt/description"
+msgstr "Dersom to ladere har denne fordelen, er det gjennomsnittet av treningsverdiene som gjelder.\n\nLadetid for kanon kan reduseres ytterligere ved å trene fordelene nærkamplader eller ved å montere utstyr med liknende effekt. Å bruke direktivet ryddig ammunisjonsstativ forbedrer effekten."
+
+msgid "loader_desperado/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1% og effektivitet blir bedre med ytterligere trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "{yellow_Start}Ladetid{yellow_End} reduseres med %(vehicleGunReloadTime)s dersom ditt kjøretøy har mindre enn 25% helsepoeng igjen."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Ladetid reduseres (ved lav motstandsdyktighet for kjøretøyet)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Når den er ferdig trent, reduseres {yellow_Start}ladetid{yellow_End} med %(vehicleGunReloadTime)s dersom kjøretøyet har mindre enn 25% av sine helsepoeng igjen."
+
+msgid "loader_desperado/name"
+msgstr "Adrenalinsjokk"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Akselererer ladetid hvis kjøretøyet har mindre enn 25% av sine helsepoeng igjen."
+
+msgid "loader_intuition/alt/description"
+msgstr "For å aktivere fordelen må kanonen, begge løpene eller magasinet være fulladet. Minimumstid for endring av type granat til standardkanoner er 1 s; for doble kanonløp og magasiner, er det 2,5 s.\n\nDersom to ladere har denne fordelen, er det gjennomsnittet av treningsverdiene som gjelder."
+
+msgid "loader_intuition/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "{greenBright_Start}Hastigheten på endring av type granat{greenBright_End} i en ferdig ladet kanon reduseres med %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Tiden det tar å endre type granat i en ferdig ladet kanon reduseres.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Når den er ferdigtrent reduseres {greenBright_Start}hastigheten på endring av type granat{greenBright_End} i en ferdig ladet kanon med %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Intuisjon"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Øker hastigheten på endring av type granat i en ferdigladet kanon betydelig."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Denne fordelen reduserer ladetiden kun for våpen med magasin, og påvirker ikke andre våpensystemer.\n\nHvis to ladere har denne fordelen, brukes gjennomsnittsverdien av deres treningsnivå."
+
+msgid "loader_magMastery/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "Magasin {greenBright_Start}ladetid{greenBright_End} blir redusert med %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Når ferdigtrent reduseres magasin {greenBright_Start}ladetid{greenBright_End} med %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "Magasinmestring"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Reduserer ladetiden for magasinene dine"
+
+msgid "loader_melee/alt/description"
+msgstr "Dersom to ladere har denne fordelen, er det gjennomsnittet av treningsverdiene som gjelder.\n\nLadetid for kanon kan reduseres ytterligere ved å trene fordelene adrenalinrush eller ved å montere utstyr med liknende effekt. Å bruke direktivet ryddig ammunisjonsstativ forbedrer effekten."
+
+msgid "loader_melee/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1% og effektivitet blir bedre med ytterligere trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "{yellow_Start}Ladetid{yellow_End} reduseres med %(vehicleGunReloadTime)s på avstander på mindre enn 50 m fra det fiendtlige kjøretøyet."
+
+msgid "loader_melee/hudDescription"
+msgstr "Ladetid reduseres (når fienden er nærme).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Når den er ferdigtrent reduseres {yellow_Start}ladetid{yellow_End} med %(vehicleGunReloadTime)s på avstander på mindre enn 50 m fra det fiendtlige kjøretøyet."
+
+msgid "loader_melee/name"
+msgstr "Nærkamp"
+
+msgid "loader_melee/shortDescription"
+msgstr "Raskere lading av kanon i nærkamp."
+
+msgid "loader_pedant/alt/description"
+msgstr "En skadd lader påvirker ikke fordelens effektivitet.\n\nDersom to ladere har fordelen er det gjennomsnittet av treningsverdiene som gjelder.\n\nFordelen kan forbedres ved å benytte direktivet granatorganisering. Motstandsdyktighet på ammunisjonsstativ kan bli ytterligere forbedret ved å montere utstyr med liknende effekt."
+
+msgid "loader_pedant/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}Motstandsdyktighet på ammunisjonsstativ{greenBright_End} økes med %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Når den er ferdigtrent, økes {greenBright_Start}motstandsdyktighet for ammunisjonsstativ{greenBright_End} med %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Sikker lagring"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Øker motstandsdyktigheten for ammunisjonsstativ."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Effekten gjelder for alle typer granater.\n\nEn skadd lader påvirker ikke fordelens effektvitet.\n\nDersom to ladere har denne fordelen, er det gjennomsnittet av treningsverdiene som gjelder."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}Granathastighet{greenBright_End} økes med %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Når den er ferdigtrent økes {greenBright_Start}granathastigheten{greenBright_End} med %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Perfekt angrep"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Denne fordelen har ingen effekt på kanoner med magasin eller autofunksjon, og kan ikke stables for doble kanoner.\n\nFor kanoner med selektive ladesystemer vil reduksjonen i ladetid gjelde for begge løp dersom begge avfyres uten å forårsake skade.\n\nHvis to ladere har denne fordelen, brukes gjennomsnittsverdien av deres treningsnivå.\n\nLadetiden kan reduseres ytterligere ved å trene laderens fordeler adrenalinsjokk eller nærkamp, eller ved å montere utstyr med lignende effekt. Bruk av direktivet ryddig ammunisjonsstativ forbedrer effekten."
+
+msgid "loader_secondChance/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1% og effektivitet blir bedre med ytterligere trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "{yellow_Start}Ladetid for kanon{yellow_End} blir redusert med %(vehicleGunReloadTime)s for den neste granaten dersom det foregående skuddet ikke forårsaket skade på et fiendtlig kjøretøy."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Ladetid for kanoner blir redusert (bomskudd)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Når den er ferdigtrent reduseres {yellow_Start}ladetid for kanon{yellow_End} med %(vehicleGunReloadTime)s for den neste granaten dersom det foregående skuddet ikke forårsaket skade på et fiendtlig kjøretøy."
+
+msgid "loader_secondChance/name"
+msgstr "Andre sjanse"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Reduserer ladetid på kanon "
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/t"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Våpenbrødre"
+
+msgid "perkRole/commander"
+msgstr "Kommandør"
+
+msgid "perkRole/common"
+msgstr "Gruppe"
+
+msgid "perkRole/driver"
+msgstr "Sjåfør"
+
+msgid "perkRole/gunner"
+msgstr "Skytter"
+
+msgid "perkRole/loader"
+msgstr "Lader"
+
+msgid "perkRole/radioman"
+msgstr "Radiooperatør"
+
+msgid "popularity/tooltip/common"
+msgstr "for alle spillere"
+
+msgid "popularity/tooltip/header"
+msgstr "For dette kjøretøyet, foretrukket av"
+
+msgid "popularity/tooltip/legendary"
+msgstr "WTR Legend spillere"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Dersom to radiooperatører har denne fordelen, brukes gjennomsnittsverdien av treningsnivået deres.\n\nEffekten kan forbedres ytterligere med kommandørens ferdighet Lydoppdagelse."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Hver gang kjøretøyets besetning sjokkes, reduseres den {greenBright_Start}negative effekten av sjokking{greenBright_End} med %(stunResistanceEffectFactor)s, opp til maksimalt 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Når den er ferdigtrent reduseres den {greenBright_Start}negative effekten av sjokking{greenBright_End} med %(stunResistanceEffectFactor)s&nbsp;, opptil maksimalt 30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Kampherdet"
+
+msgid "radioman_expert/alt/description"
+msgstr "Bonus på besetningseffektivitet i kamp. Dersom to radiooperatører har denne fordelen, er det gjennomsnittet av treningsverdiene som gjelder. Denne parameteren kan økes ytterligere ved å montere utstyr eller forbruksmateriell med liknende effekt, eller ved å benytte direktivet ventilasjonsutblåsning. Gruppefordelen våpenbrødre i tillegg til kommandørs alarmberedskap eller radiooperatørs side ved side fordel kan også øke parameteren."
+
+msgid "radioman_expert/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1% og effektivitet blir bedre med ytterligere trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "{yellow_Start}Bonus på besetningseffektivitet{yellow_End} økes med %(crewLevelIncrease)s dersom mengden assistert skade du står for, overstiger ditt kjøretøys opprinnelige helsepoeng&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Bonusen på besetningseffektivitet øker (når det er oppnådd stor nok mengde rekogniseringsbidrag)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Når den er ferdigtrent økes {yellow_Start}bonus på besetningseffektivitet{yellow_End} med %(crewLevelIncrease)s dersom mengden bidragsskade du står for overstiger ditt kjøretøys opprinnelige helsepoeng&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Kommunikasjonsekspert"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Forbedrer besetningsytelse."
+
+msgid "radioman_finder/alt/description"
+msgstr "Dersom to radiooperatører har fordelen er det gjennomsnittet av treningsverdiene som gjelder.\n\nSynsrekkevidden kan økes ytterligere ved å trene opp fordelen rekognosering eller ved å montere utstyr som har liknende effekt. Å benytte seg av direktivet optisk kalibrering forbedrer effekten."
+
+msgid "radioman_finder/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}Synsrekkevidde{greenBright_End} økes med %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Når den er ferdigtrent, økes {greenBright_Start}synsrekkevidden{greenBright_End} med %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Situasjonsoversikt"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Øker synsrekkevidde."
+
+msgid "radioman_interference/alt/description"
+msgstr "Dersom to radiooperatører har denne fordelen er det gjennomsnittet av treningsverdiene som gjelder.\n\nTiden ditt kjøretøy forblir synlig kan reduseres ytterligere ved å montere utstyr med en liknende effekt."
+
+msgid "radioman_interference/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "{greenBright_Start}Tiden ditt kjøretøy forblir synlig{greenBright_End} hos fienden reduseres med %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Når den er ferdigtrent reduseres {greenBright_Start}tiden ditt kjøretøy forblir synlig{greenBright_End} hos fienden reduseres med %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Radioforstyrrelse"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Reduserer tiden ditt kjøretøy er synlig for fienden."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Dersom to radiooperatører har fordelen, gjelder kun den høyeste verdien. Effekten er kun aktiv dersom radiooperatøren ikke er skadet når kjøretøyet blir bekjempet.\n\nFordelen kan forbedres ytterligere med direktivet plikten kommer først."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1%. Effektivitet øker med mer trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Radiooperatøren kan {yellow_Start}rapportere fiendtlige posisjoner{yellow_End} i ytterligere %(radiomanDurationPerLevel)s etter at ditt kjøretøy har blitt bekjempet."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Rapportering av fiendtlige stillinger."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Når den er ferdig trent, kan {yellow_Start}fiendtlige posisjoner rapporteres{yellow_End} i ytterligere %(radiomanDurationPerLevel)s etter at ditt kjøretøy har blitt bekjempet."
+
+msgid "radioman_lastEffort/name"
+msgstr "Hevngjerrig"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "I en kort stund etter at ditt kjøretøy har blitt bekjempet, rapporteres fiendtlige posisjoner."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Bonus på besetningseffektivitet i kamp. Dersom to radiooperatører har denne fordelen er det gjennomsnittet av treningsverdiene som gjelder. Denne parameteren kan økes ytterligere ved å montere utstyr eller forbruksmateriell med liknende effekt, eller ved å benytte direktivet ventilasjonsutblåsning. Gruppefordelen våpenbrødre i tillegg til kommandørs nødstilfelle eller radiooperatørs kommunikasjonsekspert fordel kan også øke parameteren."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1% og effektivitet blir bedre med ytterligere trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "{yellow_Start}Bonus på besetningseffektivitet{yellow_End} økes med %(crewLevelIncrease)s ved avstander på mindre enn 50 m fra et alliert kjøretøy av samme type&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Bonusen på besetningseffektivitet økes (når alliert med samme type kjøretøy er nærme)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Når den er ferdigtrent økes {yellow_Start}bonus på besetningseffektivitet{yellow_End} med %(crewLevelIncrease)s ved avstander på mindre enn 50 m fra et alliert kjøretøy av samme type&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Side ved side"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Forbedrer besetningsytelse."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Effekten forbedrer kommandørens spesielle sjette sans egenskap og gjør aktiveringen av den raskere.\n\nDersom to radiooperatører har denne fordelen, er det gjennomsnittet av treningsverdiene som gjelder."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "En fordel trer i effekt når den er trent til minst 1%. Effektiviteten øker med mer trening."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "{greenBright_Start}Tiden det tar{greenBright_End} å avgjøre om {greenBright_Start}ditt kjøretøy har blitt oppdaget{greenBright_End} av fiende reduseres med %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Når den er ferdigtrent reduserer den {greenBright_Start}tiden det tar{greenBright_End} å avgjøre om {greenBright_Start}ditt kjøretøy har blitt oppdaget{greenBright_End} av fiende med %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Signalforsterker"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Denne ferdigheten aktiveres når Sjette sans-varselet indikerer at kjøretøyet ditt har blitt oppdaget.\n\nHvis to radiooperatører har denne fordelen, brukes gjennomsnittsverdien av deres treningsnivå.\n\nSynsrekkevidden kan økes ytterligere ved å trene fordelene Rekognosering eller Situasjonsforståelse, eller ved å montere utstyr med lignende effekt. Bruk av direktivet Optisk kalibrering forbedrer effekten."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "En fordel påvirket av situasjoner begynner å få effekt når den er trent til minst 1% og effektivitet blir bedre med ytterligere trening. Effekten på situasjonen trer i funksjon når visse vilkår oppstår i kamp."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "{yellow_Start}Synsrekkevidde{yellow_End} økes med %(vehicleCircularVisionRadius)s i 5 s etter å ha fått Sjette sans varsling."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Synsrekkevidde er redusert."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Når den er ferdigtrent, økes {yellow_Start}synsrekkevide{yellow_End} med %(vehicleCircularVisionRadius)s i 5 s etter å ha fått Sjette sans varsling."
+
+msgid "radioman_threatSearch/name"
+msgstr "Trusselsøk"
+
+msgid "repair/alt/description"
+msgstr "Denne fordelen påvirker hastigheten på reparasjon av interne og eksterne moduler fra \"rød\" til \"gul\" status.\n\nDenne parameteren kan forbedres ytterligere ved å montere utstyr eller forbruksmateriell med liknende effekt."
+
+msgid "repair/alt/info"
+msgstr "Gruppefordeler beregnes fra det gjennomsnittlige treningsnivået for hele besetningen. Den trer i effekt når den er blitt trent til minst 1% og effektiviteten øker med mer trening."
+
+msgid "repair/currentLvlDescription"
+msgstr "{greenBright_Start}Hastigheten på reparasjoner{greenBright_End} av kjøretøyets moduler økes med %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Når den er ferdigtrent for alle besetningsmedlemmene økes {greenBright_Start}hastigheten på reparasjoner{greenBright_End} av kjøretøyets moduler med %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Reparasjoner"
+
+msgid "repair/shortDescription"
+msgstr "Øker reparasjonshastighet på skadde moduler."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Våpenbrødre"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Populær"
+
+msgid "sorting/fallback"
+msgstr "Standard"
+
+msgid "sorting/legendary"
+msgstr "Legendarisk"
+
+msgid "sorting/title"
+msgstr "Sortert etter:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPopulær.%(whiteSpanish_Close)s Basert på nåværende trender for utstyr hos alle spillerne i World of Tanks"
+
+msgid "sorting/tooltip/header"
+msgstr "WoT Plus fordel"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Få presise data for utstyr basert på flere millioner runder og få mest mulig ut av hver eneste kamp."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendary.%(whiteSpanish_Close)s Basert på utstyr som foretrekkes av spillere på nivået Legend WTR akkurat nå"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Sortering på fordel er skrudd av"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Ingen informasjon tilgjengelig"
+
+msgid "sorting/tooltip/title"
+msgstr "Besetningsassistent"
+
+msgid "sorting/tooltip/types"
+msgstr "Sortering etter type fordel"
+
+msgid "sorting/tooltip/warning"
+msgstr "Sortering etter fordel er ikke tilgjengelig"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Fullstendige data for fordeler i dette kjøreøtyet er ikke tilgjengelig, så standard sortering av fordeler har blitt skrudd på."
+
+msgid "witches_brotherhood/name"
+msgstr "Heksesamling"
+
+msgid "yha_brotherhood/name"
+msgstr "Hares brødreskap"

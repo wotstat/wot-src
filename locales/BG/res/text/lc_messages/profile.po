@@ -1,0 +1,1712 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "profile/dropdown/battlesType"
+msgstr "Режим на битка:"
+
+msgid "profile/dropdown/existence"
+msgstr "Налично:"
+
+msgid "profile/dropdown/labels/all"
+msgstr "Случайна, Ротна"
+
+msgid "profile/dropdown/labels/battleRoyaleSolo"
+msgstr "Стоманен ловец, соло"
+
+msgid "profile/dropdown/labels/battleRoyaleSquad"
+msgstr "Стоманен ловец, взвод"
+
+msgid "profile/dropdown/labels/clan"
+msgstr "Глобална карта"
+
+msgid "profile/dropdown/labels/comp7"
+msgstr "Атака"
+
+msgid "profile/dropdown/labels/comp7_archive_Griffin"
+msgstr "Година на грифона"
+
+msgid "profile/dropdown/labels/comp7_archive_Manticore"
+msgstr "Година на Мантикората"
+
+msgid "profile/dropdown/labels/comp7_archive_Pegasus"
+msgstr "Година на пегаса"
+
+msgid "profile/dropdown/labels/comp7_season_1"
+msgstr "Сезон на Лазурния дракон"
+
+msgid "profile/dropdown/labels/comp7_season_2"
+msgstr "Сезон на Пурпурния дракон"
+
+msgid "profile/dropdown/labels/comp7_season_3"
+msgstr "Сезон на Нефритения дракон"
+
+msgid "profile/dropdown/labels/epicRandom"
+msgstr "Генерално сражение"
+
+msgid "profile/dropdown/labels/fallout"
+msgstr "Буйство"
+
+msgid "profile/dropdown/labels/fortifications"
+msgstr "Укрепление: Битки"
+
+msgid "profile/dropdown/labels/fortifications/battles"
+msgstr "Настъпление"
+
+msgid "profile/dropdown/labels/fortifications/sorties"
+msgstr "Схватки"
+
+msgid "profile/dropdown/labels/historical"
+msgstr "Историческа битка"
+
+msgid "profile/dropdown/labels/random"
+msgstr "Случайна битка"
+
+msgid "profile/dropdown/labels/ranked"
+msgstr "Битка за Класацията 15х15"
+
+msgid "profile/dropdown/labels/ranked_10x10"
+msgstr "Битка за Класацията"
+
+msgid "profile/dropdown/labels/staticTeam"
+msgstr "Отборна битка: за Класацията"
+
+msgid "profile/dropdown/labels/staticTeam/season"
+msgstr "Отборна битка: за Класацията"
+
+msgid "profile/dropdown/labels/team"
+msgstr "Отборна битка: извън Класацията"
+
+msgid "profile/params/tooltip/achievementsCount/body"
+msgstr "Награди, получени в категория \"Бойно поле\""
+
+msgid "profile/params/tooltip/achievementsCount/header"
+msgstr "Награди"
+
+msgid "profile/params/tooltip/armorUsing/body"
+msgstr "Съотношение на поражения, спрени от броня при непробили и рикошети от ББ, КС и БП снаряди, спрямо пораженията, получени от тези видове снаряди. Потенциалните поражения от ОФ и HESH снаряди не се отчитат.\n• Средни поражения, спрени от броня от тези видове снаряди: %(value_0)s"
+
+msgid "profile/params/tooltip/armorUsing/header"
+msgstr "Ефективност на използване на броня"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/body"
+msgstr "Общо количество поражения, нанесени на зашеметени вражески машини"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/header"
+msgstr "Поражения по противници, зашеметени от играч"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/body"
+msgstr "Общо количество поражения, нанесени на зашеметени вражески машини"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/header"
+msgstr "Поражения по противници, зашеметени от вас"
+
+msgid "profile/params/tooltip/avgAssistedDamage/body"
+msgstr "Включва:\n• Поражения при откриване от вас\n• Поражения при унищожаване на верига от вас и обездвижване на вражеска машина."
+
+msgid "profile/params/tooltip/avgAssistedDamage/header"
+msgstr "Средни поражения, нанесени с ваша помощ"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/body"
+msgstr "Включва:\n• Поражения при откриване от играча\n• Поражения при унищожаване на верига от вас и обездвижване на вражеска машина."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/header"
+msgstr "Поражения, нанесени с помощта на играча"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/body"
+msgstr "Включва:\n• Поражения при откриване от вас\n•Поражения при унищожаване на верига от вас и обездвижване на вражеска машина."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/body"
+msgstr "Включва:\n• Поражения при откриване от вас (включително поражения с помощта на умения)\n• Поражения при унищожаване на верига и обездвижване на вражеска машина от вас (включително поражения с помощта на умения)\n• Поражения, нанесени от съюзници с помощта на вашите умения."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/header"
+msgstr "Поражения, нанесени с ваша помощ"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/header"
+msgstr "Поражения, нанесени с ваша помощ"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/body"
+msgstr "Съотношението между общите поражения, нанесени върху зашеметен враг (включително зашеметявания с помощта на умения) и броя на изиграните битки"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/header"
+msgstr "Поражения върху вражески машини, зашеметени от играч"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/body"
+msgstr "Съотношението между общите поражения, нанесени върху зашеметен враг (включително зашеметявания с помощта на умения) и броя на изиграните битки"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/header"
+msgstr "Поражения по противници, зашеметени от вас"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/body"
+msgstr "Съотношение на общото количество поражения, нанесени на зашеметени вражески машини, спрямо броя изиграни битки"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/header"
+msgstr "Поражения по противници, зашеметени от играч"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/body"
+msgstr "Съотношение на общото количество поражения, нанесени на зашеметени вражески машини, спрямо броя изиграни битки"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/header"
+msgstr "Поражения по противници, зашеметени от вас"
+
+msgid "profile/params/tooltip/avgDamage/body"
+msgstr "Съотношение на общите нанесени поражения спрямо броя изиграни битки"
+
+msgid "profile/params/tooltip/avgDamage/header"
+msgstr "Средни поражения на битка"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/body"
+msgstr "Съотношение на общия брой унищожени вражески машини спрямо броя изиграни битки"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/body"
+msgstr "Съотношението между общия брой на унищожените вражески машини (включително машини, унищожени с помощта на умения) и броя изиграни битки"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/header"
+msgstr "Унищожени вражески машини"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/header"
+msgstr "Унищожени вражески машини"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/body"
+msgstr "Съотношение на общия брой открити вражески машини спрямо броя изиграни битки"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/body"
+msgstr "Съотношението между общия брой на откритите вражески машини (включително машини, открити с помощта на умения) и броя изиграни битки"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/header"
+msgstr "Открити вражески машини"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/header"
+msgstr "Открити вражески машини"
+
+msgid "profile/params/tooltip/avgDmg/short/body"
+msgstr "Съотношение на общите нанесени поражения спрямо броя изиграни битки"
+
+msgid "profile/params/tooltip/avgDmg/short/header"
+msgstr "Нанесени поражения"
+
+msgid "profile/params/tooltip/avgEx/short/body"
+msgstr "Съотношение на общото количество опит спрямо броя изиграни битки"
+
+msgid "profile/params/tooltip/avgEx/short/header"
+msgstr "Опит"
+
+msgid "profile/params/tooltip/avgExp/body"
+msgstr "Съотношение на общото количество опит спрямо броя изиграни битки"
+
+msgid "profile/params/tooltip/avgExp/header"
+msgstr "Среден опит на битка"
+
+msgid "profile/params/tooltip/avgHealthRepair/body"
+msgstr "Съотношението между общия брой възстановени точки живот и броя изиграни битки"
+
+msgid "profile/params/tooltip/avgHealthRepair/header"
+msgstr "Възстановени точки живот"
+
+msgid "profile/params/tooltip/avgPoiCaptured/body"
+msgstr "Съотношението между броя завладени важни точки и броя изиграни битки"
+
+msgid "profile/params/tooltip/avgPoiCaptured/header"
+msgstr "Завладени важни точки"
+
+msgid "profile/params/tooltip/avgPrestigePoints/body"
+msgstr "Съотношението между общия брой точки престиж и броя изиграни битки"
+
+msgid "profile/params/tooltip/avgPrestigePoints/header"
+msgstr "Среден брой точки престиж на битка"
+
+msgid "profile/params/tooltip/avgReceivedDamage/body"
+msgstr "Съотношение на общото количество получени поражения спрямо броя изиграни битки"
+
+msgid "profile/params/tooltip/avgReceivedDamage/header"
+msgstr "Получени поражения"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/body"
+msgstr "Съотношението между общия брой използвани ролеви умения и броя изиграни битки"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/header"
+msgstr "Използвани ролеви умения"
+
+msgid "profile/params/tooltip/avgStunNumber/body"
+msgstr "Съотношение на общия брой попадения, зашеметили вражески екипажи, спрямо броя изиграни битки"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/body"
+msgstr "Съотношението между общия брой попадения (включително попадения с помощта на умения) със зашеметявне на вражеския екипаж и броя изиграни битки"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/header"
+msgstr "Брой зашеметявания"
+
+msgid "profile/params/tooltip/avgStunNumber/header"
+msgstr "Брой зашеметявания"
+
+msgid "profile/params/tooltip/avgVictoryPoints/body"
+msgstr "Съотношение на общия брой спечелени точки за победа спрямо броя изиграни битки"
+
+msgid "profile/params/tooltip/avgVictoryPoints/header"
+msgstr "Среден брой точки за победа"
+
+msgid "profile/params/tooltip/battlesCount/body"
+msgstr "Общ брой изиграни битки, включително:\n• победи: %(value_0)s\n• загуби: %(value_1)s\n• ремита: %(value_2)s"
+
+msgid "profile/params/tooltip/battlesCount/header"
+msgstr "Битки"
+
+msgid "profile/params/tooltip/brAverageLevel/body"
+msgstr "Съотношението между всички достигнати нива и броя изиграни битки."
+
+msgid "profile/params/tooltip/brAverageLevel/header"
+msgstr "Средно ниво"
+
+msgid "profile/params/tooltip/brAverageRank/body"
+msgstr "Съотношението между всички позиции в резултатите от битки и броя изиграни битки."
+
+msgid "profile/params/tooltip/brAverageRank/header"
+msgstr "Средна позиция"
+
+msgid "profile/params/tooltip/brAvgDamage/body"
+msgstr "Съотношението между общите нанесени поражения и броя изиграни битки."
+
+msgid "profile/params/tooltip/brAvgDamage/header"
+msgstr "Нанесени поражения"
+
+msgid "profile/params/tooltip/brBattlesCount/body"
+msgstr "Общият брой изиграни битки."
+
+msgid "profile/params/tooltip/brBattlesCount/header"
+msgstr "Битки"
+
+msgid "profile/params/tooltip/brMaxDamage/body"
+msgstr "Максималните поражения, нанесени на вражески машини в битка.\nРекордът е постигнат с %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxDamage/header"
+msgstr "Максимални поражения в битка"
+
+msgid "profile/params/tooltip/brMaxExp/body"
+msgstr "Максимален опит, спечелен в битка с Танков премиум акаунт.\nРекордът е постигнат с %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxExp/header"
+msgstr "Максимален опит в битка"
+
+msgid "profile/params/tooltip/brMaxFrags/body"
+msgstr "Максималният брой вражески машини, лично унищожени в битка.\nРекордът е постигнат с %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxFrags/header"
+msgstr "Максимум унищожени в битка"
+
+msgid "profile/params/tooltip/brWins/body"
+msgstr "Общият брой победи."
+
+msgid "profile/params/tooltip/brWins/header"
+msgstr "Победи"
+
+msgid "profile/params/tooltip/capturePoints/body"
+msgstr "Получени точки за завладяване на вражеска база"
+
+msgid "profile/params/tooltip/capturePoints/header"
+msgstr "Точки за завладяване на база"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/body"
+msgstr "Съотношение на \"нанесени поражения\" спрямо \"получени поражения\" за всички нива на битки, при това:\n• Нанесени поражения: %(value_0)s\n• Получени поражения: %(value_1)s"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/header"
+msgstr "Средно съотношение на поражения"
+
+msgid "profile/params/tooltip/damageCoeff/body"
+msgstr "Съотношение на \"нанесени поражения\" спрямо \"получени поражения\", при това:\n• Нанесени поражения: %(value_0)s\n• Получени поражения: %(value_1)s"
+
+msgid "profile/params/tooltip/damageCoeff/header"
+msgstr "Коефициент на поражения"
+
+msgid "profile/params/tooltip/destroyCoeff/body"
+msgstr "Съотношение на унищожени врагове спрямо броя пъти, когато играчът е бил унищожен, при това:\n• Унищожени вражески машини: %(value_0)s\n• Унищожаване на играча: %(value_1)s"
+
+msgid "profile/params/tooltip/destroyCoeff/header"
+msgstr "Коефициент на унищожение"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/body"
+msgstr "Съотношение на пораженията, спрени от броня, спрямо получените, от непробили попадения и рикошети от бронебойни, кумулативни и подкалибрени снаряди. пораженията от бойни резерви, осколъчно-фугасни и HESH снаряди не се броят. \n• Средни поражения, спрени от броня от тези видове снаряди: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/header"
+msgstr "Ефективност на използване на броня"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/body"
+msgstr "Съотношение на общото количество нанесени поражения (включва Бойните резерви), спрямо броя изиграни битки."
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/header"
+msgstr "Средни поражения на битка"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body"
+msgstr "Съотношение на общ брой унищожени вражески машини (включително с бойни резерви) спрямо броя изиграни битки"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header"
+msgstr "Унищожени вражески машини"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body"
+msgstr "Съотношение на общ брой унищожени вражески машини (без бойни резерви) спрямо броя изиграни битки"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header"
+msgstr "Унищожени вражески машини"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/body"
+msgstr "Съотношение на общи нанесени поражения (включително с бойни резерви) спрямо броя изиграни битки"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/header"
+msgstr "Нанесени поражения"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body"
+msgstr "Съотношение на общи нанесени поражения (без бойни резерви) спрямо броя изиграни битки"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header"
+msgstr "Нанесени поражения"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/body"
+msgstr "Съотношение на общи получени поражения (включително с бойни резерви) спрямо броя изиграни битки"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/header"
+msgstr "Получени поражения"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/body"
+msgstr "Общ брой изиграни битки, включва: \n• Победи: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/header"
+msgstr "Битки"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/body"
+msgstr "Съотношение на \"Нанесени поражения\" спрямо \"Получени поражения\" (включително с бойни резерви), при това: \n• Поражения, нанесени от ваши машини: %(value_0)s\n• Поражения, нанесени от бойни резерви: %(value_2)s\n• Поражения, получени от вражески машини и бойни резерви: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/header"
+msgstr "Коефициент на поражения"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body"
+msgstr "Съотношение на \"Нанесени поражения\" спрямо \"Получени поражения\" (без бойни резерви), при това: \n• Нанесени поражения: %(value_0)s\n• Получени поражения: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header"
+msgstr "Коефициент на поражения"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/body"
+msgstr "Съотношение на унищожени вражески машини спрямо броя пъти, в които машината на играча е била унищожена (включва бойни резерви), при това:\n• Вражески машини, унищожени от ваши машини: %(value_0)s\n• Вражески машини, унищожени от бойни резерви: %(value_2)s\n• Машини на играча, унищожени от вражески машини и бойни резерви: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/header"
+msgstr "Коефициент на унищожение"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body"
+msgstr "Съотношение на унищожени вражески машини спрямо броя пъти, в които машината на играча е била унищожена (не включва бойни резерви), при това:\n• Вражески машини, унищожени от ваши машини: %(value_0)s\n• Унищожени машини на играча: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header"
+msgstr "Коефициент на унищожение"
+
+msgid "profile/params/tooltip/dif/fallout/hits/body"
+msgstr "Точност на стрелба по вражески машини (не включва бойни резерви)"
+
+msgid "profile/params/tooltip/dif/fallout/hits/header"
+msgstr "Попадения"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/body"
+msgstr "Постигнатият рекорд включва бойни резерви."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/header"
+msgstr "Максимални поражения на битка"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/body"
+msgstr "Постигнатият рекорд не включва бойни резерви."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/header"
+msgstr "Максимални поражения на битка"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/body"
+msgstr "Постигнатият рекорд включва бойни резерви."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/header"
+msgstr "Максимум унищожени в битка"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body"
+msgstr "Постигнатият рекорд не включва бойни резерви."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header"
+msgstr "Максимум унищожени в битка"
+
+msgid "profile/params/tooltip/dif/fallout/wins/body"
+msgstr "Общ брой победи"
+
+msgid "profile/params/tooltip/dif/fallout/wins/header"
+msgstr "Победи"
+
+msgid "profile/params/tooltip/droppedCapturePoints/body"
+msgstr "Получени точки за защита на съюзническа база"
+
+msgid "profile/params/tooltip/droppedCapturePoints/header"
+msgstr "Точки за защита на база"
+
+msgid "profile/params/tooltip/flagsAbsorbed/body"
+msgstr "Общо унищожени знамена"
+
+msgid "profile/params/tooltip/flagsAbsorbed/header"
+msgstr "Унищожени знамена"
+
+msgid "profile/params/tooltip/flagsDelivered/body"
+msgstr "Брой знамена, занесени във вашата база"
+
+msgid "profile/params/tooltip/flagsDelivered/header"
+msgstr "Пленени знамена"
+
+msgid "profile/params/tooltip/fort/battles/body"
+msgstr "Общо Настъпления, от които:\n• Победи: %(value_0)s\n• Загуби: %(value_1)s\n• Ремита: %(value_2)s."
+
+msgid "profile/params/tooltip/fort/battles/header"
+msgstr "Настъпления"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/body"
+msgstr "Общ процент победи в Настъпления"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/header"
+msgstr "Победи в Настъпления"
+
+msgid "profile/params/tooltip/fort/looting/body"
+msgstr "Общ брой успешно разграбени вражески Укрепления"
+
+msgid "profile/params/tooltip/fort/looting/header"
+msgstr "Разграбвания"
+
+msgid "profile/params/tooltip/fort/resource/body"
+msgstr "Съотношение на общото количество спечелен производствен ресурс спрямо броя проведени Схватки"
+
+msgid "profile/params/tooltip/fort/resource/header"
+msgstr "Средно плячка на Схватка"
+
+msgid "profile/params/tooltip/fort/sortie/body"
+msgstr "Общ брой проведени Схватки, включително:\n• Победи: %(value_0)s\n• Загуби: %(value_1)s\n• Ремита: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/sortie/header"
+msgstr "Схватки"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/body"
+msgstr "Общ процент победи в Схватки"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/header"
+msgstr "Победи в Схватки"
+
+msgid "profile/params/tooltip/fortBattles/attacks/body"
+msgstr "Общ брой нападения над вражески Укрепления.\nЗачита се, само ако сте се сражавали в поне една битка по време на нападението."
+
+msgid "profile/params/tooltip/fortBattles/attacks/header"
+msgstr "Нападения"
+
+msgid "profile/params/tooltip/fortBattles/defences/body"
+msgstr "Общ брой отбранителни действия във вашето Укрепление.\nЗачита се, само ако сте се сражавали в поне една битка по време на Периода на отбрана."
+
+msgid "profile/params/tooltip/fortBattles/defences/header"
+msgstr "Отбранителни действия"
+
+msgid "profile/params/tooltip/fortBattlesWins/body"
+msgstr "Общ процент победи в Настъпления"
+
+msgid "profile/params/tooltip/fortBattlesWins/header"
+msgstr "Победи в Настъпления"
+
+msgid "profile/params/tooltip/fortSortieWins/body"
+msgstr "Общ процент победи в Схватки"
+
+msgid "profile/params/tooltip/fortSortieWins/header"
+msgstr "Победи в Схватки"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/body"
+msgstr "Съотношение на общото количество спечелен производствен ресурс спрямо броя проведени Схватки"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/header"
+msgstr "Средно количество плячка на Схватка"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/body"
+msgstr "Общо количество производствен ресурс, спечелен във всички Схватки"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/header"
+msgstr "Общо количество плячка, спечелена във всички Схватки"
+
+msgid "profile/params/tooltip/hits/body"
+msgstr "Точност при стрелба по вражески машини"
+
+msgid "profile/params/tooltip/hits/header"
+msgstr "Попадения"
+
+msgid "profile/params/tooltip/kdr/body"
+msgstr "Съотношение на унищожени вражески машини спрямо броя пъти, в които машината на играча е била унищожена (включва бойни резерви), при това:\n• Вражески машини, унищожени от ваши машини: %(value_0)s\n• Вражески машини, унищожени от бойни резерви: %(value_1)s\n• Машини на играча, унищожени от вражески машини и бойни резерви: %(value_2)s"
+
+msgid "profile/params/tooltip/kdr/header"
+msgstr "Коефициент на унищожение"
+
+msgid "profile/params/tooltip/markOfMastery/body"
+msgstr "Получени значки за майсторство \"Танков ас\" във всички допустими режими на битка / Брой машини с проведена поне една Случайна битка"
+
+msgid "profile/params/tooltip/markOfMastery/header"
+msgstr "Значки за майсторство: Танков ас"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/body"
+msgstr "В този режим на битка не са дават значки за майсторство."
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/header"
+msgstr "Значки за майсторство: Танков ас"
+
+msgid "profile/params/tooltip/maxDamage/body"
+msgstr "Рекорд, постигнат с %(value_0)s"
+
+msgid "profile/params/tooltip/maxDamage/header"
+msgstr "Максимални поражения на битка"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/body"
+msgstr "Максимални поражения, нанесени на вражески машини в битка."
+
+msgid "profile/params/tooltip/maxDamage/vehicle/header"
+msgstr "Максимални поражения"
+
+msgid "profile/params/tooltip/maxDestroyed/body"
+msgstr "Рекорд, постигнат с %(value_0)s"
+
+msgid "profile/params/tooltip/maxDestroyed/header"
+msgstr "Максимум унищожени в битка"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/body"
+msgstr "Максимум вражески машини, унищожени в битка."
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/header"
+msgstr "Максимум унищожени в битка"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/body"
+msgstr "Максимални поражения, нанесени от ролеви и тактически умения в една битка."
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/header"
+msgstr "Максимални поражения, нанесени от умения на битка"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/body"
+msgstr "Включени са поражения, нанесени от ролеви и тактически умения.\nЗаписът е в %(value_0)s"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/header"
+msgstr "Максимални поражения, нанесени от умения на битка"
+
+msgid "profile/params/tooltip/maxExp/body"
+msgstr "Рекорд, постигнат с %(value_0)s"
+
+msgid "profile/params/tooltip/maxExp/header"
+msgstr "Максимален опит за битка"
+
+msgid "profile/params/tooltip/maxExp/vehicle/body"
+msgstr "Максимален опит, спечелен в битка, включително с Премиум акаунт."
+
+msgid "profile/params/tooltip/maxExp/vehicle/header"
+msgstr "Максимален опит"
+
+msgid "profile/params/tooltip/maxExpDisabled/body"
+msgstr "Максималният опит не се показва в този режим на битка."
+
+msgid "profile/params/tooltip/maxExpDisabled/header"
+msgstr "Максимален опит за битка"
+
+msgid "profile/params/tooltip/maxHealthRepair/body"
+msgstr "Максимален брой точки живот, възстановени за вашата и съюзническите машини в една битка."
+
+msgid "profile/params/tooltip/maxHealthRepair/header"
+msgstr "Максимален брой възстановени точки живот на битка"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/body"
+msgstr "Максимален брой точки живот, възстановени за вашата и съюзническите машини в една битка.\nРекордът е в %(value_0)s"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/header"
+msgstr "Максимален брой възстановени точки живот на битка"
+
+msgid "profile/params/tooltip/maxPrestigePoints/body"
+msgstr "Максимален брой точки престиж, спечелени в една битка."
+
+msgid "profile/params/tooltip/maxPrestigePoints/header"
+msgstr "Максимален брой точки престиж на битка"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/body"
+msgstr "Рекордът е в %(value_0)s"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/header"
+msgstr "Максимален брой точки престиж на битка"
+
+msgid "profile/params/tooltip/maxVictoryPoints/body"
+msgstr "Най-много точки за победа, спечелени на битка от всички изиграни битки"
+
+msgid "profile/params/tooltip/maxVictoryPoints/header"
+msgstr "Най-много точки за победа на битка"
+
+msgid "profile/params/tooltip/maxWinPoints/body"
+msgstr "Най-много точки за победа, спечелени на битка от всички изиграни битки"
+
+msgid "profile/params/tooltip/maxWinPoints/header"
+msgstr "Най-много точки за победа на битка"
+
+msgid "profile/params/tooltip/maxWinSeries/body"
+msgstr "Най-много последователни победи, постигнати в соло режим и във взвод/взвод от 7 играча."
+
+msgid "profile/params/tooltip/maxWinSeries/header"
+msgstr "Най-много последователни победи (соло режим и взвод/взвод от 7 играча)"
+
+msgid "profile/params/tooltip/poiCaptured/body"
+msgstr "Брой завладяни точки"
+
+msgid "profile/params/tooltip/poiCaptured/header"
+msgstr "Завладени важни точки"
+
+msgid "profile/params/tooltip/ranked/avgFrags/body"
+msgstr "Среден брой унищожени вражески машини на битка"
+
+msgid "profile/params/tooltip/ranked/avgFrags/header"
+msgstr "Среден брой унищожени машини"
+
+msgid "profile/params/tooltip/ranked/avgPoints/body"
+msgstr "Съотношение на броя получени шеврони спрямо общия брой битки, изиграни в режим \"Битки за Класацията\".\n• Общо шеврони: %(value_0)s\n• Общо битки: %(value_1)s"
+
+msgid "profile/params/tooltip/ranked/avgPoints/header"
+msgstr "Бойна ефективност за Класацията"
+
+msgid "profile/params/tooltip/ranked/points/body"
+msgstr "Общ брой спечелени точки"
+
+msgid "profile/params/tooltip/ranked/points/header"
+msgstr "Точки за ранг"
+
+msgid "profile/params/tooltip/stunNumber/body"
+msgstr "Общ брой попадения, зашеметили вражески екипаж"
+
+msgid "profile/params/tooltip/stunNumber/header"
+msgstr "Брой зашеметявания"
+
+msgid "profile/params/tooltip/survival/body"
+msgstr "Процент битки, в които машината на играча не е била унищожена"
+
+msgid "profile/params/tooltip/survival/header"
+msgstr "Оцелявания в битки"
+
+msgid "profile/params/tooltip/totalVehs/body"
+msgstr "Общ брой използвани различни машини"
+
+msgid "profile/params/tooltip/totalVehs/header"
+msgstr "Използвани машини"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/body"
+msgstr "Общ брой Настъпления.\n\nПараметърът не е достъпен в текущото обновление."
+
+msgid "profile/params/tooltip/unavailable/fort/battles/header"
+msgstr "Настъпления"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/body"
+msgstr "Общ процент победи в Настъпления.\n\nПараметърът не е достъпен в текущото обновление."
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/header"
+msgstr "Победи в Настъпления"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/body"
+msgstr "Няма битки след въвеждането на параметъра"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/header"
+msgstr "Данните са недостъпни"
+
+msgid "profile/params/tooltip/usedTechnics/body"
+msgstr "Машини, участвали в поне една Историческа битка."
+
+msgid "profile/params/tooltip/usedTechnics/header"
+msgstr "Използвани машини"
+
+msgid "profile/params/tooltip/wins/body"
+msgstr "Общ процент победи"
+
+msgid "profile/params/tooltip/wins/header"
+msgstr "Победи"
+
+msgid "profile/ranked/seasonsdropdown/1"
+msgstr "Сезон 1, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/2"
+msgstr "Сезон 2, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/3"
+msgstr "Сезон 3, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/archive"
+msgstr "Архивни данни"
+
+msgid "profile/seasonsdropdown/all"
+msgstr "Всички сезони"
+
+msgid "profile/seasonsdropdown/current"
+msgstr "Текущ сезон"
+
+msgid "profile/seasonsdropdown/specific"
+msgstr "Сезон %(date1)s-%(date2)s"
+
+msgid "profile/section/statistics/scores/maxHealthRepair"
+msgstr "Максимален брой възстановени точки живот на битка"
+
+msgid "profile/summary/clan/btnLabel"
+msgstr "Профил на клана"
+
+msgid "profile/summary/clan/joinDate"
+msgstr "Дата на присъединяване:"
+
+msgid "profile/summary/clan/post"
+msgstr "Длъжност:"
+
+msgid "profile/summary/club/btnLabel"
+msgstr "Профил на отбора"
+
+msgid "profile/summary/club/ladder"
+msgstr "Класация:"
+
+msgid "profile/summary/club/ladderInfo"
+msgstr "Група %(league)s, Дивизия %(division)s"
+
+msgid "profile/summary/club/post"
+msgstr "Длъжност:"
+
+msgid "profile/summary/nextAwards/tooltip/body"
+msgstr "Следващите награди се добавят към лентата."
+
+msgid "profile/summary/nextAwards/tooltip/header"
+msgstr "Следващи награди"
+
+msgid "profile/summary/noGroups"
+msgstr "Играчът не е в постоянни формирования."
+
+msgid "profile/summary/significantAwards/tooltip/body"
+msgstr "Най-значимите награди на играча се добавят към лентата."
+
+msgid "profile/summary/significantAwards/tooltip/header"
+msgstr "Значими награди"
+
+msgid "profile/tabs/tooltip/advancedAchievements/body"
+msgstr "Вижте каталога с постиженията."
+
+msgid "profile/tabs/tooltip/advancedAchievements/header"
+msgstr "Постижения"
+
+msgid "profile/tabs/tooltip/awards/body"
+msgstr "Виж наградите и описанията им"
+
+msgid "profile/tabs/tooltip/awards/header"
+msgstr "Награди"
+
+msgid "profile/tabs/tooltip/collections/body"
+msgstr "Покажи колекциите"
+
+msgid "profile/tabs/tooltip/collections/header"
+msgstr "Колекции"
+
+msgid "profile/tabs/tooltip/formations/body"
+msgstr "Вижте подробности за формированията, в които сте участвали."
+
+msgid "profile/tabs/tooltip/formations/header"
+msgstr "Формирования"
+
+msgid "profile/tabs/tooltip/hof/body"
+msgstr "Виж рейтингите в Залата на славата"
+
+msgid "profile/tabs/tooltip/hof/header"
+msgstr "Зала на славата"
+
+msgid "profile/tabs/tooltip/hofDisabled/body"
+msgstr "Залата на славата е временно недостъпна. Моля опитайте отново по-късно."
+
+msgid "profile/tabs/tooltip/hofDisabled/header"
+msgstr "Внимание"
+
+msgid "profile/tabs/tooltip/statistics/body"
+msgstr "Виж бойната статистика на всички видове машини"
+
+msgid "profile/tabs/tooltip/statistics/header"
+msgstr "Статистика"
+
+msgid "profile/tabs/tooltip/summary/body"
+msgstr "Виж бойната ефективност"
+
+msgid "profile/tabs/tooltip/summary/header"
+msgstr "Обзор"
+
+msgid "profile/tabs/tooltip/technique/body"
+msgstr "Виж бойната статистика на всяка машина"
+
+msgid "profile/tabs/tooltip/technique/header"
+msgstr "Машини"
+
+msgid "profile/title"
+msgstr "Статистика на играч %s"
+
+msgid "seasons/comp7_dropdown_label"
+msgstr "Година/Сезон:"
+
+msgid "seasons/dropdown_label"
+msgstr "Сезон:"
+
+msgid "section/advancedAchievements/title"
+msgstr "Постижения"
+
+msgid "section/awards/dropdown/labels/all"
+msgstr "Всички"
+
+msgid "section/awards/dropdown/labels/inProcess"
+msgstr "Получени"
+
+msgid "section/awards/dropdown/labels/none"
+msgstr "Неполучени"
+
+msgid "section/awards/dropdown/tooltip/body"
+msgstr "Използвайте филтъра, за да видите или получените награди или неполучените"
+
+msgid "section/awards/dropdown/tooltip/header"
+msgstr "Сортиране на награди"
+
+msgid "section/awards/labels/battleHeroes"
+msgstr "Герои на битката"
+
+msgid "section/awards/labels/epic"
+msgstr "Епични медали"
+
+msgid "section/awards/labels/group"
+msgstr "Групови награди"
+
+msgid "section/awards/labels/honorary"
+msgstr "Почетни звания"
+
+msgid "section/awards/labels/marksOnGun"
+msgstr "Знаци за отлични постижения"
+
+msgid "section/awards/labels/memory"
+msgstr "Паметни знаци"
+
+msgid "section/awards/labels/special"
+msgstr "Специални"
+
+msgid "section/awards/labels/stage"
+msgstr "Етапни награди"
+
+msgid "section/awards/title"
+msgstr "Награди"
+
+msgid "section/collections/title"
+msgstr "Колекции"
+
+msgid "section/formations/clan/none"
+msgstr "Не сте член на клан."
+
+msgid "section/formations/clan/none/thirdperson"
+msgstr "Играчът не е член на никой клан."
+
+msgid "section/formations/clan/type"
+msgstr "Клан"
+
+msgid "section/formations/fort/battles"
+msgstr "Настъпления"
+
+msgid "section/formations/fort/create"
+msgstr "Създай Укрепление"
+
+msgid "section/formations/fort/level"
+msgstr "Ниво на Укрепление: %s"
+
+msgid "section/formations/fort/link"
+msgstr "Постижения в Укрепление"
+
+msgid "section/formations/fort/none"
+msgstr "Укреплението не е създадено"
+
+msgid "section/formations/fort/none/thirdperson"
+msgstr "Кланът на играча няма Укрепление."
+
+msgid "section/formations/fort/resourceRating"
+msgstr "Рейтинг на ловец на ресурс"
+
+msgid "section/formations/fort/sorties"
+msgstr "Схватки"
+
+msgid "section/formations/history/battles"
+msgstr "Битки в състава"
+
+msgid "section/formations/history/dates"
+msgstr "Дата на присъединяване/напускане"
+
+msgid "section/formations/history/datesPattern"
+msgstr "%(date1)s–%(date2)s"
+
+msgid "section/formations/history/team"
+msgstr "Отбор"
+
+msgid "section/formations/history/title"
+msgstr "История на отборите на играча"
+
+msgid "section/formations/joinDate"
+msgstr "Дата на присъединяване: %s"
+
+msgid "section/formations/rank"
+msgstr "Длъжност на играча: %s"
+
+msgid "section/formations/team/completedSeason"
+msgstr "Сезон %s (приключил)"
+
+msgid "section/formations/team/find"
+msgstr "Отиди на търсене на постоянен отбор"
+
+msgid "section/formations/team/league"
+msgstr "Група: %(league)s. Дивизия: %(division)s. Място: %(position)s."
+
+msgid "section/formations/team/none"
+msgstr "Нямате постоянни отбори."
+
+msgid "section/formations/team/none/thirdperson"
+msgstr "Играчът няма постоянни отбори."
+
+msgid "section/formations/team/season"
+msgstr "Сезон %s"
+
+msgid "section/formations/team/seasonBattles"
+msgstr "Битки за Класацията"
+
+msgid "section/formations/team/seasonWinRate"
+msgstr "Победи за сезона"
+
+msgid "section/formations/team/title"
+msgstr "Отбор \"%s\""
+
+msgid "section/formations/team/type"
+msgstr "Отбор"
+
+msgid "section/formations/title"
+msgstr "Формирования"
+
+msgid "section/formations/tooltip/fort/battles/body"
+msgstr "Общ брой Настъпления, включително:\n• Победи: %(wins)s\n• Загуби: %(losses)s\n• Ремита: %(draws)s"
+
+msgid "section/formations/tooltip/fort/battles/header"
+msgstr "Настъпления"
+
+msgid "section/formations/tooltip/fort/level/body"
+msgstr "Нивото на Укреплението е равно на нивото на Командния му център."
+
+msgid "section/formations/tooltip/fort/level/header"
+msgstr "Ниво на Укреплението"
+
+msgid "section/formations/tooltip/fort/link/body"
+msgstr "Натиснете за показване на постиженията на клана в Укрепление."
+
+msgid "section/formations/tooltip/fort/link/header"
+msgstr "Постижения в Укрепление"
+
+msgid "section/formations/tooltip/fort/resourceRating/body"
+msgstr "Вашето място"
+
+msgid "section/formations/tooltip/fort/resourceRating/header"
+msgstr "Рейтинг на ловец на ресурс"
+
+msgid "section/formations/tooltip/fort/sorties/body"
+msgstr "Общ брой изиграни Схватки, включително:\n• победи: %(wins)s\n• загуби: %(losses)s\n• ремита: %(draws)s"
+
+msgid "section/formations/tooltip/fort/sorties/header"
+msgstr "Схватки"
+
+msgid "section/formations/tooltip/team/link/body"
+msgstr "Натиснете за показване на профила на отбора."
+
+msgid "section/formations/tooltip/team/link/header"
+msgstr "Профил на отбора"
+
+msgid "section/formations/tooltip/team/seasonBattles/body"
+msgstr "Общ брой изиграни Битки за Класацията като член на този отбор, включително:\n• победи: %(wins)s\n• загуби: %(losses)s\n• ремита: %(draws)s"
+
+msgid "section/formations/tooltip/team/seasonBattles/header"
+msgstr "Битки за Класацията"
+
+msgid "section/formations/tooltip/team/seasonWinRate/body"
+msgstr "Общ процент победи в Битки за Класацията"
+
+msgid "section/formations/tooltip/team/seasonWinRate/header"
+msgstr "Победи"
+
+msgid "section/hof/BrowserView/closeBtn"
+msgstr "ЗАТВОРИ"
+
+msgid "section/hof/achievementsRatingsBtn"
+msgstr "Към рейтингите"
+
+msgid "section/hof/achievementsRatingsTitle"
+msgstr "Рейтинг по постижения\nв Случайни битки"
+
+msgid "section/hof/betaBtn"
+msgstr "БЕТА"
+
+msgid "section/hof/betaTooltip"
+msgstr "Залата на славата и рейтингът за World of Tanks\nса в етап на бета тестване"
+
+msgid "section/hof/mainDescription"
+msgstr "Следете бойната си ефективност и позицията си в рейтингите сред другите играчи за избраните периоди."
+
+msgid "section/hof/mainTitle"
+msgstr "Зала на славата"
+
+msgid "section/hof/notAvailable/tooltip/body"
+msgstr "Залата на славата е временно недостъпна. Моля опитайте отново по-късно."
+
+msgid "section/hof/notAvailable/tooltip/header"
+msgstr "Внимание"
+
+msgid "section/hof/statusBtn/hideResults"
+msgstr "Показвай резултатите"
+
+msgid "section/hof/statusBtn/showResults"
+msgstr "Скрий резултатите"
+
+msgid "section/hof/statusDescription/exclusion"
+msgstr "Заявката за скриване на постиженията ви в рейтингите е подадена и ще бъде обработена при следващото пресмятане на резултатите."
+
+msgid "section/hof/statusDescription/hideResults"
+msgstr "Постиженията ви в рейтингите сега са скрити от другите играчи."
+
+msgid "section/hof/statusDescription/inclusion"
+msgstr "Заявката е подадена и ще бъде обработена при следващото преизчисляване на рейтинговите позиции. Постиженията ви в рейтингите сега са достъпни за другите играчи."
+
+msgid "section/hof/statusDescription/showResults"
+msgstr "Постиженията ви в рейтингите са достъпни за всички играчи, приятели и другари по клан."
+
+msgid "section/hof/title"
+msgstr "Зала на славата"
+
+msgid "section/hof/vehiclesRatingsBtn"
+msgstr "Към рейтингите"
+
+msgid "section/hof/vehiclesRatingsTitle"
+msgstr "Рейтинг по машини\nв Случайни битки"
+
+msgid "section/statistics/bodyBar/label/charts"
+msgstr "Инфографика"
+
+msgid "section/statistics/bodyBar/label/clan10"
+msgstr "Ниво X"
+
+msgid "section/statistics/bodyBar/label/clan6"
+msgstr "Ниво VI"
+
+msgid "section/statistics/bodyBar/label/clan8"
+msgstr "Ниво VIII"
+
+msgid "section/statistics/bodyBar/label/detailed"
+msgstr "Статистика"
+
+msgid "section/statistics/bodyBar/label/fortBattles"
+msgstr "Данни за Настъпления"
+
+msgid "section/statistics/bodyBar/label/fortSortie"
+msgstr "Данни за Схватки"
+
+msgid "section/statistics/bodyBar/label/specific"
+msgstr "Специални"
+
+msgid "section/statistics/bodyParams/label/average"
+msgstr "Среден резултат на битка"
+
+msgid "section/statistics/bodyParams/label/common"
+msgstr "Общи параметри"
+
+msgid "section/statistics/bodyParams/label/fortBattles"
+msgstr "Настъпления"
+
+msgid "section/statistics/bodyParams/label/fortSortie"
+msgstr "Схватки"
+
+msgid "section/statistics/bodyParams/label/record"
+msgstr "Рекорден резултат"
+
+msgid "section/statistics/bodyParams/label/resource"
+msgstr "Производствен ресурс"
+
+msgid "section/statistics/chart/class/tooltip/body"
+msgstr "Общият брой битки с машини от този клас"
+
+msgid "section/statistics/chart/class/tooltip/header"
+msgstr "Клас машина: %(value)s"
+
+msgid "section/statistics/chart/level/tooltip/body"
+msgstr "Брой битки с машини от това ниво"
+
+msgid "section/statistics/chart/level/tooltip/header"
+msgstr "Ниво на машина: %(value)s"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/body"
+msgstr "В този игрови режим могат да участват само машини ниво VI–VIII."
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/header"
+msgstr "Ниво на машина: %(value)s"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/body"
+msgstr "В този режим на битка могат да участват само машини ниво VIII-X."
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/header"
+msgstr "Ниво на машина: %(value)s"
+
+msgid "section/statistics/chart/nation/tooltip/body"
+msgstr "Брой битки с машини на тази нация"
+
+msgid "section/statistics/chart/nation/tooltip/header"
+msgstr "Нация на машина: %(value)s"
+
+msgid "section/statistics/chart/place/tooltip/body"
+msgstr "Общият брой битки с дадено заето място"
+
+msgid "section/statistics/chart/place/tooltip/header"
+msgstr "Заето място: %(value)s"
+
+msgid "section/statistics/chart/type/tooltip/body"
+msgstr "Брой битки с машини от този тип"
+
+msgid "section/statistics/chart/type/tooltip/header"
+msgstr "Тип машина: %(value)s"
+
+msgid "section/statistics/charts/byClassLabel"
+msgstr "По клас"
+
+msgid "section/statistics/charts/byLevelLabel"
+msgstr "По ниво"
+
+msgid "section/statistics/charts/byNationLabel"
+msgstr "По нация"
+
+msgid "section/statistics/charts/byPlaceLabel"
+msgstr "По заето място"
+
+msgid "section/statistics/charts/byTypeLabel"
+msgstr "По тип"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortOther"
+msgstr "Поражения по противници, зашеметени от играч"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortSelf"
+msgstr "Поражения по противници, зашеметени от вас"
+
+msgid "section/statistics/detailed/avgDamage"
+msgstr "Поражения, нанесени на вражески машини"
+
+msgid "section/statistics/detailed/avgDestroyedVehicles"
+msgstr "Унищожени вражески машини"
+
+msgid "section/statistics/detailed/avgDetectedEnemies"
+msgstr "Открити вражески машини"
+
+msgid "section/statistics/detailed/avgHealthRepaired"
+msgstr "Възстановени точки живот"
+
+msgid "section/statistics/detailed/avgPoiCaptured"
+msgstr "Завладени важни точки"
+
+msgid "section/statistics/detailed/avgPrestigePoints"
+msgstr "Точки престиж"
+
+msgid "section/statistics/detailed/avgReceivedDamage"
+msgstr "Получени поражения"
+
+msgid "section/statistics/detailed/avgRoleSkillUsed"
+msgstr "Използвани ролеви умения"
+
+msgid "section/statistics/detailed/damageCoefficient"
+msgstr "Коефициент на поражения"
+
+msgid "section/statistics/detailed/dealOutDamage"
+msgstr "Поражения"
+
+msgid "section/statistics/detailed/destroyed"
+msgstr "Унищожени"
+
+msgid "section/statistics/detailed/destructionCoefficient"
+msgstr "Коефициент на унищожение"
+
+msgid "section/statistics/detailed/killed"
+msgstr "Унищожени"
+
+msgid "section/statistics/detailed/maxDestroyedVehicles"
+msgstr "Максимум унищожени в битка"
+
+msgid "section/statistics/detailed/receivedDamage"
+msgstr "Получени поражения"
+
+msgid "section/statistics/detailed/stunNumber"
+msgstr "Брой зашеметявания"
+
+msgid "section/statistics/headerText/all"
+msgstr "Случайни и Ротни"
+
+msgid "section/statistics/headerText/battleRoyaleSolo"
+msgstr "Стоманен ловец"
+
+msgid "section/statistics/headerText/battleRoyaleSquad"
+msgstr "Стоманен ловец"
+
+msgid "section/statistics/headerText/clan"
+msgstr "Глобална карта"
+
+msgid "section/statistics/headerText/comp7"
+msgstr "Атака"
+
+msgid "section/statistics/headerText/epicRandom"
+msgstr "Генерално сражение"
+
+msgid "section/statistics/headerText/fallout"
+msgstr "Буйство"
+
+msgid "section/statistics/headerText/fortifications"
+msgstr "Укрепление: Битки"
+
+msgid "section/statistics/headerText/historical"
+msgstr "Исторически битки"
+
+msgid "section/statistics/headerText/ranked_10x10"
+msgstr "Битка за Класацията"
+
+msgid "section/statistics/headerText/ranked_15x15"
+msgstr "Битка за Класацията 15х15"
+
+msgid "section/statistics/headerText/staticTeam"
+msgstr "Отбор: Битки за Класацията"
+
+msgid "section/statistics/headerText/team"
+msgstr "Отбор: Битки извън Класацията"
+
+msgid "section/statistics/labels/battlesOnTech"
+msgstr "Битки с машини"
+
+msgid "section/statistics/scores/achievementsCount"
+msgstr "Награди"
+
+msgid "section/statistics/scores/armorUsing"
+msgstr "Ефективност на използване на броня"
+
+msgid "section/statistics/scores/avgAssistedDamage"
+msgstr "Средни поражения, нанесени с ваша помощ"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortOther"
+msgstr "Поражения, нанесени с помощта на играча"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortSelf"
+msgstr "Поражения, нанесени с ваша помощ"
+
+msgid "section/statistics/scores/avgDamage"
+msgstr "Средни поражения на битка"
+
+msgid "section/statistics/scores/avgExperience"
+msgstr "Среден опит на битка"
+
+msgid "section/statistics/scores/avgExperience/short"
+msgstr "Опит"
+
+msgid "section/statistics/scores/avgPrestigePoints"
+msgstr "Среден брой точки престиж на битка"
+
+msgid "section/statistics/scores/avgVictoryPoints"
+msgstr "Среден брой точки за победа"
+
+msgid "section/statistics/scores/capturePoints"
+msgstr "Точки за завладяване на база"
+
+msgid "section/statistics/scores/clan/summaryDamageCoefficient"
+msgstr "Среден коефициент на поражения"
+
+msgid "section/statistics/scores/coolSigns"
+msgstr "Значки за майсторство: Танков ас"
+
+msgid "section/statistics/scores/droppedCapturePoints"
+msgstr "Точки за защита на база"
+
+msgid "section/statistics/scores/flagsAbsorbed"
+msgstr "Унищожени знамена"
+
+msgid "section/statistics/scores/flagsDelivered"
+msgstr "Пленени знамена"
+
+msgid "section/statistics/scores/fort/battles"
+msgstr "Настъпления"
+
+msgid "section/statistics/scores/fort/battlesWinsEfficiency"
+msgstr "Победи"
+
+msgid "section/statistics/scores/fort/resource"
+msgstr "Средно количество плячка на Схватка"
+
+msgid "section/statistics/scores/fort/sortie"
+msgstr "Схватки"
+
+msgid "section/statistics/scores/fort/sortieWinsEfficiency"
+msgstr "Победи в Схватки"
+
+msgid "section/statistics/scores/fortBattles/attacks"
+msgstr "Нападения"
+
+msgid "section/statistics/scores/fortBattles/defences"
+msgstr "Отбранителни действия"
+
+msgid "section/statistics/scores/fortBattlesTotalWins"
+msgstr "Победи в Настъпления"
+
+msgid "section/statistics/scores/fortSortie"
+msgstr "Схватки"
+
+msgid "section/statistics/scores/fortSortieTotalWins"
+msgstr "Победи в Схватки"
+
+msgid "section/statistics/scores/fortSorties/AvgResources"
+msgstr "Средно количество плячка на Схватка"
+
+msgid "section/statistics/scores/fortSorties/totalResources"
+msgstr "Общо количество плячка, спечелена в Схватки"
+
+msgid "section/statistics/scores/fortTotalBattles"
+msgstr "Настъпления"
+
+msgid "section/statistics/scores/hits"
+msgstr "Попадения"
+
+msgid "section/statistics/scores/killDeathRatio"
+msgstr "Коефициент на унищожение"
+
+msgid "section/statistics/scores/looting"
+msgstr "Разграбвания"
+
+msgid "section/statistics/scores/maxDamage"
+msgstr "Максимални поражения на битка"
+
+msgid "section/statistics/scores/maxEquipmentDamageDealt"
+msgstr "Максимални поражения, нанесени от умения на битка"
+
+msgid "section/statistics/scores/maxExperience"
+msgstr "Максимален опит за битка"
+
+msgid "section/statistics/scores/maxPrestigePoints"
+msgstr "Максимален брой точки престиж на битка"
+
+msgid "section/statistics/scores/maxVictoryPoints"
+msgstr "Най-много точки за победа на битка"
+
+msgid "section/statistics/scores/maxWinSeries"
+msgstr "Най-много последователни победи (соло режим и взвод/взвод от 7 играча)"
+
+msgid "section/statistics/scores/poiCaptured"
+msgstr "Завладени важни точки"
+
+msgid "section/statistics/scores/ranked/avgFrags"
+msgstr "Среден брой унищожени машини"
+
+msgid "section/statistics/scores/ranked/avgPoints"
+msgstr "Бойна ефективност за Класацията"
+
+msgid "section/statistics/scores/ranked/points"
+msgstr "Точки за ранг"
+
+msgid "section/statistics/scores/survival"
+msgstr "Оцелявания в битки"
+
+msgid "section/statistics/scores/totalBattles"
+msgstr "Битки"
+
+msgid "section/statistics/scores/totalVehs"
+msgstr "Машини"
+
+msgid "section/statistics/scores/totalWins"
+msgstr "Победи"
+
+msgid "section/statistics/scores/usedTechnics"
+msgstr "Използвани машини"
+
+msgid "section/statistics/title"
+msgstr "Статистика"
+
+msgid "section/summary/errorText/nextAwards"
+msgstr "Няма следващи награди"
+
+msgid "section/summary/errorText/significantAwards"
+msgstr "Няма значими награди"
+
+msgid "section/summary/labels/nextAwards"
+msgstr "Следващи награди"
+
+msgid "section/summary/labels/significantAwards"
+msgstr "Значими награди"
+
+msgid "section/summary/scores/averageLevel"
+msgstr "Средно ниво"
+
+msgid "section/summary/scores/averageRank"
+msgstr "Средна позиция"
+
+msgid "section/summary/scores/avgDamage"
+msgstr "Средни поражения на битка"
+
+msgid "section/summary/scores/avgExperience"
+msgstr "Среден опит на битка"
+
+msgid "section/summary/scores/coolSigns"
+msgstr "Значки за майсторство: Танков ас"
+
+msgid "section/summary/scores/damageDealt"
+msgstr "Нанесени поражения"
+
+msgid "section/summary/scores/hits"
+msgstr "Попадения"
+
+msgid "section/summary/scores/maxDestroyed"
+msgstr "Максимум унищожени в битка"
+
+msgid "section/summary/scores/maxExperience"
+msgstr "Максимален опит за битка"
+
+msgid "section/summary/scores/personalScore"
+msgstr "Личен рейтинг"
+
+msgid "section/summary/scores/totalBattles"
+msgstr "Битки"
+
+msgid "section/summary/scores/totalWins"
+msgstr "Победи"
+
+msgid "section/summary/title"
+msgstr "Обзор"
+
+msgid "section/technique/awards/noAchievements"
+msgstr "Все още няма получени награди"
+
+msgid "section/technique/buttonBar/avgExperience"
+msgstr "Среден опит\nна битка"
+
+msgid "section/technique/buttonBar/classiness"
+msgstr "Майсторство"
+
+msgid "section/technique/buttonBar/totalBattles"
+msgstr "Битки"
+
+msgid "section/technique/buttonBar/totalWins"
+msgstr "Победи"
+
+msgid "section/technique/buttonBar/vehicleName"
+msgstr "Име"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/body"
+msgstr "Виж машините в Парка"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/header"
+msgstr "Налично в Парка"
+
+msgid "section/technique/emptyScreenLabel/battleType/all"
+msgstr "В парка няма машини, участвали в Случайни и Ротни битки."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSolo"
+msgstr "В Парка няма машини, сражавали се в \"Стоманен ловец\"."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSquad"
+msgstr "В Парка няма машини, сражавали се в \"Стоманен ловец\"."
+
+msgid "section/technique/emptyScreenLabel/battleType/comp7"
+msgstr "Няма превозни средства, които са се били в режим Атака."
+
+msgid "section/technique/emptyScreenLabel/battleType/epicRandom"
+msgstr "В Парка няма машини, участвали в режим \"Генерално сражение\""
+
+msgid "section/technique/emptyScreenLabel/battleType/fallout"
+msgstr "В Парка ви няма машини, участвали в режим \"Буйство\"."
+
+msgid "section/technique/emptyScreenLabel/battleType/fortBattles"
+msgstr "В Парка няма машини, сражавали се в Настъпления"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortSorties"
+msgstr "В Парка няма машини, сражавали се в Схватки"
+
+msgid "section/technique/emptyScreenLabel/battleType/globalMap"
+msgstr "В Парка няма машини, участвали в битки на Глобалната карта."
+
+msgid "section/technique/emptyScreenLabel/battleType/historical"
+msgstr "В Парка няма машини, участвали в Исторически битки."
+
+msgid "section/technique/emptyScreenLabel/battleType/ranked"
+msgstr "В Парка няма машини, участвали в Битки за Класацията"
+
+msgid "section/technique/emptyScreenLabel/battleType/staticTeam"
+msgstr "В Парка няма машини, участвали в Битки за Класацията."
+
+msgid "section/technique/emptyScreenLabel/battleType/team"
+msgstr "В парка няма машини, участвали в Отборни битки."
+
+msgid "section/technique/sort/tooltip/avgDamage/body"
+msgstr "Сортирай по средни поражения на битка."
+
+msgid "section/technique/sort/tooltip/avgDamage/header"
+msgstr "Средни поражения"
+
+msgid "section/technique/sort/tooltip/avgFrags/body"
+msgstr "Сортирай по брой унищожени вражески машини в битка."
+
+msgid "section/technique/sort/tooltip/avgFrags/header"
+msgstr "Унищожени вражески машини"
+
+msgid "section/technique/sort/tooltip/avgexp/body"
+msgstr "Сортирай по среден опит на битка."
+
+msgid "section/technique/sort/tooltip/avgexp/header"
+msgstr "Среден опит"
+
+msgid "section/technique/sort/tooltip/battlesCount/body"
+msgstr "Сортирай по брой битки"
+
+msgid "section/technique/sort/tooltip/battlesCount/header"
+msgstr "Битки"
+
+msgid "section/technique/sort/tooltip/class/body"
+msgstr "Сортирай по клас машина"
+
+msgid "section/technique/sort/tooltip/class/header"
+msgstr "Клас"
+
+msgid "section/technique/sort/tooltip/lvl/body"
+msgstr "Сортирай по ниво на машина"
+
+msgid "section/technique/sort/tooltip/lvl/header"
+msgstr "Ниво"
+
+msgid "section/technique/sort/tooltip/marksofmastery/body"
+msgstr "Сортирай по значки за майсторство"
+
+msgid "section/technique/sort/tooltip/marksofmastery/header"
+msgstr "Майсторство"
+
+msgid "section/technique/sort/tooltip/name/body"
+msgstr "Сортирай по имената на машините."
+
+msgid "section/technique/sort/tooltip/name/header"
+msgstr "Име"
+
+msgid "section/technique/sort/tooltip/nation/body"
+msgstr "Сортирай по нация."
+
+msgid "section/technique/sort/tooltip/nation/header"
+msgstr "Нация"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/body"
+msgstr "Сортирай по Елитно ниво"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/header"
+msgstr "Елитна система"
+
+msgid "section/technique/sort/tooltip/prestigePoints/body"
+msgstr "Подреди по среден брой точки престиж на битка"
+
+msgid "section/technique/sort/tooltip/prestigePoints/header"
+msgstr "Среден брой точки престиж на битка"
+
+msgid "section/technique/sort/tooltip/technique/body"
+msgstr "Сортирай по вид машина."
+
+msgid "section/technique/sort/tooltip/technique/header"
+msgstr "Вид"
+
+msgid "section/technique/sort/tooltip/winRate/body"
+msgstr "Сортирай по процент победи."
+
+msgid "section/technique/sort/tooltip/winRate/header"
+msgstr "Победи"
+
+msgid "section/technique/sort/tooltip/wins/body"
+msgstr "Сортирай по брой победи."
+
+msgid "section/technique/sort/tooltip/wins/header"
+msgstr "Победи"
+
+msgid "section/technique/statistics/accuracy"
+msgstr "Попадения"
+
+msgid "section/technique/statistics/assistedStunDamage/shortOther"
+msgstr "Поражения по противници, зашеметени от играч"
+
+msgid "section/technique/statistics/assistedStunDamage/shortSelf"
+msgstr "Поражения по противници, зашеметени от вас"
+
+msgid "section/technique/statistics/avgAssistedStunDamage"
+msgstr "Поражения по противници, зашеметени от вас"
+
+msgid "section/technique/statistics/avgDamage"
+msgstr "Поражения, нанесени на вражески машини"
+
+msgid "section/technique/statistics/avgDestroyedVehicles"
+msgstr "Унищожени вражески машини"
+
+msgid "section/technique/statistics/avgDetectedEnemies"
+msgstr "Открити вражески машини"
+
+msgid "section/technique/statistics/avgExperience"
+msgstr "Опит"
+
+msgid "section/technique/statistics/avgReceivedDamage"
+msgstr "Получени поражения"
+
+msgid "section/technique/statistics/avgScoutingDamage"
+msgstr "Поражения, нанесени с помощта на играча"
+
+msgid "section/technique/statistics/avgStats"
+msgstr "Среден резултат на битка"
+
+msgid "section/technique/statistics/avgStunNumber"
+msgstr "Брой зашеметявания"
+
+msgid "section/technique/statistics/common"
+msgstr "Общи параметри"
+
+msgid "section/technique/statistics/damageCoefficient"
+msgstr "Коефициент на поражения"
+
+msgid "section/technique/statistics/destructionCoefficient"
+msgstr "Коефициент на унищожение"
+
+msgid "section/technique/statistics/maxDamage"
+msgstr "Максимални поражения на битка"
+
+msgid "section/technique/statistics/maxDestroyedVehicles"
+msgstr "Максимум унищожени в битка"
+
+msgid "section/technique/statistics/maxExperience"
+msgstr "Максимален опит за битка"
+
+msgid "section/technique/statistics/records"
+msgstr "Рекорден резултат"
+
+msgid "section/technique/statistics/stunNumber"
+msgstr "Брой зашеметявания"
+
+msgid "section/technique/statistics/survival"
+msgstr "Оцелявания в битки"
+
+msgid "section/technique/statistics/tankingCoefficient"
+msgstr "Ефективност на използване на броня"
+
+msgid "section/technique/statistics/totalBattles"
+msgstr "Битки"
+
+msgid "section/technique/statistics/totalWins"
+msgstr "Победи"
+
+msgid "section/technique/tabBtn/achievements"
+msgstr "Награди"
+
+msgid "section/technique/tabBtn/awards/tooltip/body"
+msgstr "Виж наградите за избраната машина."
+
+msgid "section/technique/tabBtn/awards/tooltip/header"
+msgstr "Награди"
+
+msgid "section/technique/tabBtn/statistic"
+msgstr "Статистика"
+
+msgid "section/technique/tabBtn/statistic/tooltip/body"
+msgstr "Виж статистика за избраната машина."
+
+msgid "section/technique/tabBtn/statistic/tooltip/header"
+msgstr "Статистика"
+
+msgid "section/technique/title"
+msgstr "Машини"
+
+msgid "section/technique/window/hangarVehiclesLabel"
+msgstr "Налично в Парка"
+
+msgid "tooltip/dropdown/battleType/body"
+msgstr "Включи филтър за показване на статистика по видове битка."
+
+msgid "tooltip/dropdown/battleType/header"
+msgstr "Сортирай по видове битка"

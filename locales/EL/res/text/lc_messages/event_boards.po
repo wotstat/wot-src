@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "Έπαθλα για Αντιαρματικά"
+
+msgid "awards/class/SPG"
+msgstr "Έπαθλα για Α/Κ Πυροβόλα"
+
+msgid "awards/class/heavyTank"
+msgstr "Έπαθλα για Βαρέα Άρματα Μάχης"
+
+msgid "awards/class/lightTank"
+msgstr "Έπαθλα για Ελαφρά Άρματα Μάχης"
+
+msgid "awards/class/mediumTank"
+msgstr "Έπαθλα για Μέσα Άρματα Μάχης"
+
+msgid "awards/level"
+msgstr "Έπαθλα για Οχήματα Βαθμίδας %(level)s"
+
+msgid "awards/nation/china"
+msgstr "Έπαθλα για Κινεζικά Οχήματα"
+
+msgid "awards/nation/czech"
+msgstr "Έπαθλα για Τσεχοσλοβακικά Οχήματα"
+
+msgid "awards/nation/france"
+msgstr "Έπαθλα για Γαλλικά Οχήματα"
+
+msgid "awards/nation/germany"
+msgstr "Έπαθλα για Γερμανικά Οχήματα"
+
+msgid "awards/nation/japan"
+msgstr "Έπαθλα για Ιαπωνικά Οχήματα"
+
+msgid "awards/nation/poland"
+msgstr "Έπαθλα για Πολωνικά Οχήματα"
+
+msgid "awards/nation/sweden"
+msgstr "Έπαθλα για Σουηδικά Οχήματα"
+
+msgid "awards/nation/uk"
+msgstr "Έπαθλα για Οχήματα Η.Β."
+
+msgid "awards/nation/usa"
+msgstr "Έπαθλα για Οχήματα Η.Π.Α."
+
+msgid "awards/nation/ussr"
+msgstr "Έπαθλα για Οχήματα Ε.Σ.Σ.Δ."
+
+msgid "awards/tooltip/class"
+msgstr "Κλικ για προβολή των επάθλων γι αυτόν τον τύπο οχημάτων."
+
+msgid "awards/tooltip/level"
+msgstr "Κλικ για προβολή των επάθλων γι αυτήν την βαθμίδα οχημάτων."
+
+msgid "awards/tooltip/nation"
+msgstr "Κλικ για προβολή των επάθλων γι αυτόν το έθνος."
+
+msgid "awards/vehicle"
+msgstr "Έπαθλα για το Επιλεγμένο Όχημα"
+
+msgid "badge/tooltip/description"
+msgstr "Το παράσημο είναι ένα μοναδικό εικονίδιο το οποίο εμφανίζεται δίπλα από το όνομά σας στη μάχη. Είναι ορατό στους παίκτες και των δύο ομάδων και δηλώνει την αξιοσημείωτη επίδοσή σας στη διοργάνωση March of Nations."
+
+msgid "badgesGroup/tooltip/header"
+msgstr "Αναμνηστικά Παράσημα"
+
+msgid "block/award"
+msgstr "Κύρια Έπαθλα"
+
+msgid "block/objective"
+msgstr "Προϋποθέσεις"
+
+msgid "block/task"
+msgstr "Αποστολή"
+
+msgid "button/awards"
+msgstr "Όλα Τα Έπαθλα"
+
+msgid "button/awards/tooltip"
+msgstr "Κλικ για προβολή της λίστας με όλα τα έπαθλα του διαγωνισμού."
+
+msgid "button/regulations"
+msgstr "Προδιαγραφές"
+
+msgid "button/regulations/tooltip"
+msgstr "Κλικ για προβολή της πλήρους περιγραφής του διαγωνισμού."
+
+msgid "condition/battletype/random"
+msgstr "Τυχαία Μάχη 15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "Μάχη Κατάταξης"
+
+msgid "condition/battletype/squadallowed"
+msgstr "Οι Ουλαμοί επιτρέπονται"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "Οι Ουλαμοί δεν επιτρέπονται"
+
+msgid "condition/primetime/any"
+msgstr "Σε κάθε server και κάθε ώρα"
+
+msgid "condition/primetime/chosen"
+msgstr "Μόνο στους καθορισμένους servers"
+
+msgid "condition/vehicle/chosen"
+msgstr "Μόνο στα καθορισμένα οχήματα:"
+
+msgid "condition/vehicle/exist"
+msgstr "Στο Γκαράζ"
+
+msgid "condition/vehicle/missing"
+msgstr "Όχι στο Γκαράζ"
+
+msgid "condition/vehicle/single"
+msgstr "Στο %(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "Βραβείο"
+
+msgid "excel/btnClose"
+msgstr "ΣΤΟΝ ΔΙΑΓΩΝΙΣΜΟ"
+
+msgid "excel/group/title"
+msgstr "Γκρουπ"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "Για θέση στη βαθμολογία, μπείτε σε περισσότερες μάχες: %(number)s"
+
+msgid "excel/noData"
+msgstr "Δεν καταλάβατε θέσεις επάθλου μέχρι τώρα."
+
+msgid "excel/participate/join"
+msgstr "Μάχη"
+
+msgid "excel/participate/notParticipated"
+msgstr "Δεν καταλάβατε θέση στην συγκεκριμένη βαθμολογία"
+
+msgid "excel/subHeader"
+msgstr "Διαγωνισμός: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "Ένταξη"
+
+msgid "header/participate/button/leave"
+msgstr "Απόσυρση"
+
+msgid "header/participate/finished"
+msgstr "Ο Διαγωνισμός Τελείωσε"
+
+msgid "header/participate/notStarted"
+msgstr "Έχετε Ενταχθεί"
+
+msgid "header/participate/reason/byAge"
+msgstr "Ο Λογαριασμός Δημιουργήθηκε Μετά Τις %date%"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "Μη Διαθέσιμος Διαγωνισμός"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "Έχετε Αποσυρθεί Από Αυτόν Τον Διαγωνισμό"
+
+msgid "header/participate/started"
+msgstr "Συμμετέχετε"
+
+msgid "header/timer"
+msgstr "Λήξη σε:"
+
+msgid "maintenance/body"
+msgstr "Λυπούμαστε για το προσωρινό πρόβλημα."
+
+msgid "maintenance/title"
+msgstr "Σφάλμα Φόρτωσης Δεδομένων"
+
+msgid "maintenance/update"
+msgstr "Ενημέρωση"
+
+msgid "notification/buttons/details"
+msgstr "Λεπτομέρειες"
+
+msgid "notification/eventFinished/body"
+msgstr "Ο διαγωνισμός %(eventName)s τελείωσε. Οι νικητές θα οριστικοποιηθούν στις επόμενες ημέρες, όπου και θα λάβουν τα έπαθλα που τους αξίζουν."
+
+msgid "notification/eventFinished/header"
+msgstr "Ο Διαγωνισμός Τελείωσε"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "Τα αποτελέσματα των μαχών σας δεν υπολογίζονται στον διαγωνισμό και δεν μπορείτε να καταλάβετε θέση στην βαθμολογία και να κερδίσετε έπαθλο."
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "Έχετε Λάβει Μέρος Ως Συμμετέχων"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "Τα αποτελέσματα των μαχών σας θα υπολογίζονται στον διαγωνισμό μόλις αυτός ξεκινήσει και έτσι θα μπορείτε να καταλάβετε θέση στην βαθμολογία και να κερδίσετε έπαθλο."
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "Έχετε Λάβει Μέρος Ως Συμμετέχων"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "Αδύνατη η συμμετοχή σας: δεν πληροίτε τις προδιαγραφές."
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "Αδύνατη η συμμετοχή σας: η περίοδος εγγραφών έληξε."
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "Θα γίνει επαναφορά των στατιστικών του διαγωνισμού μόλις γίνει ενημέρωση των βαθμολογιών."
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "Έχετε Αποσυρθεί Από Τον Διαγωνισμό"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "Τα στατιστικά σας δεν θα υπολογίζονται σε αυτόν τον διαγωνισμό."
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "Έχετε Αποσυρθεί Από Τον Διαγωνισμό"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "Αδύνατη η απόσυρση από τον διαγωνισμό: ο καθορισμένος χρόνος έληξε."
+
+msgid "notification/eventStarted/body"
+msgstr "Ο διαγωνισμός %(eventName)s ξεκίνησε! Οι παίκτες που θα έχουν καταλάβει θέσεις επάθλων με τη λήξη του, θα κερδίσουν πολύτιμα έπαθλα."
+
+msgid "notification/eventStarted/header"
+msgstr "Ο Διαγωνισμός Ξεκίνησε"
+
+msgid "notification/unknownError/body"
+msgstr "Αδύνατη ο ολοκλήρωση της λειτουργίας."
+
+msgid "orders/title"
+msgstr "Προδιαγραφές"
+
+msgid "popover/buttons/cancel"
+msgstr "Άκυρο"
+
+msgid "popover/buttons/rating"
+msgstr "Βαθμολογία"
+
+msgid "popover/buttons/select"
+msgstr "Επιλογή"
+
+msgid "popover/noVehicles"
+msgstr "Δεν ταιριάζει κάποιο όχημα στο επιλεγμένο φίλτρο."
+
+msgid "popover/resetFilter"
+msgstr "Επαναφορά Φίλτρου"
+
+msgid "popover/title"
+msgstr "Επιλογή Βαθμολογίας"
+
+msgid "popover/title/vehicle"
+msgstr "Επιλογή Βαθμολογίας"
+
+msgid "popover/tooltip/class"
+msgstr "Στις βαθμολογίες των οχημάτων του επιλεγμένου τύπου."
+
+msgid "popover/tooltip/level"
+msgstr "Στις βαθμολογίες των οχημάτων της επιλεγμένης βαθμίδας."
+
+msgid "popover/tooltip/nation"
+msgstr "Στις βαθμολογίες των οχημάτων του επιλεγμένου έθνους."
+
+msgid "server/list"
+msgstr "Για να υπολογίζονται οι μάχες σας στον διαγωνισμό, μεταφερθείτε στον παρακάτω server:"
+
+msgid "server/noSuitable/body"
+msgstr "Τα αποτελέσματα θα υπολογιστούν στις: %(data)s. Πρόγραμμα διαγωνισμού"
+
+msgid "server/noSuitable/header"
+msgstr "Οι μάχες σας δεν υπολογίζονται για τον διαγωνισμό αυτήν την ώρα"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s στον %(server)s"
+
+msgid "status/bestResults/many"
+msgstr "Οι Καλύτερες Μάχες Μου"
+
+msgid "status/bestResults/one"
+msgstr "Οι Μάχες Μου"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "Διαγωνισμός μη διαθέσιμος:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "Δεν επιτρέπεται να συμμετέχετε σε αυτόν τον διαγωνισμό εξαιτίας παραβίασης των Κανόνων του Παιχνιδιού"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "δημιουργία λογαριασμού μετά τις %(date)s"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "δεν έχετε λάβει μέρος στις απαιτούμενες Τυχαίες Μάχες: %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "το ποσοστό νίκης σε τυχαίες Μάχες υπερβαίνει το %(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "δεν έχετε φτάσει στο απαιτούμενο ποσοστό νικών σε Τυχαίες Μάχες: %(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "Η περίοδος εγγραφών έληξε"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "Δεν μπορείτε να λάβετε μέρος στον διαγωνισμό."
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "Έχετε Αποσυρθεί Από Τον Διαγωνισμό"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "Οι μάχες σας δεν θα ληφθούν υπ' όψη γι αυτόν τον διαγωνισμό. Δεν θα καταλάβετε θέση στην βαθμολογία και δεν θα κερδίσετε έπαθλο.\nΔεν μπορείτε να μετέχετε σε αυτόν ξανά."
+
+msgid "status/cantJoin/reason/many"
+msgstr "δεν πληρούνται προδιαγραφές %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "δεν πληρούνται προδιαγραφές (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "Δεν καταλάβατε θέση στη βαθμολογία"
+
+msgid "status/cantJoin/reason/special"
+msgstr "Δεν μπορείτε να λάβετε μέρος στον διαγωνισμό με αυτόν τον λογαριασμό."
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "δεν υπάρχουν κατάλληλα οχήματα"
+
+msgid "status/participate/cantJoin"
+msgstr "Διαγωνισμός Μη Διαθέσιμος"
+
+msgid "status/participate/needMoreBattles"
+msgstr "Αφού πληροίτε τις προδιαγραφές στις μάχες, τα αποτελέσματά σας θα εμφανιστούν εδώ μετά την ενημέρωση των βαθμολογιών."
+
+msgid "status/participate/notParticipated"
+msgstr "Δεν καταλάβατε θέση στην συγκεκριμένη βαθμολογία"
+
+msgid "summary/averagedamage"
+msgstr "Μέση Φθορά"
+
+msgid "summary/averagedamageassisted"
+msgstr "Μέση φθορά με συνεισφορά σας"
+
+msgid "summary/averagexp"
+msgstr "Μέσο experience"
+
+msgid "summary/battles"
+msgstr "Μάχες στον Διαγωνισμό"
+
+msgid "summary/damage"
+msgstr "Φθορά"
+
+msgid "summary/damageassist"
+msgstr "Φθορά με συνεισφορά σας"
+
+msgid "summary/damageblocked"
+msgstr "Φθορά που αποσοβήθηκε"
+
+msgid "summary/description/awards/title/award"
+msgstr "ΕΠΑΘΛΟ ΣΤΟ ΤΕΛΟΣ ΤΟΥ ΔΙΑΓΩΝΙΣΜΟΥ"
+
+msgid "summary/description/awards/title/group"
+msgstr "ΓΚΡΟΥΠ"
+
+msgid "summary/description/awards/title/position"
+msgstr "ΘΕΣΗ"
+
+msgid "summary/description/max/class"
+msgstr "Η καλύτερή σας μάχη ήταν με %(value)s"
+
+msgid "summary/description/max/level"
+msgstr "Η καλύτερή σας μάχη ήταν με όχημα της Βαθμίδας %(value)s"
+
+msgid "summary/description/max/nation"
+msgstr "Η καλύτερή σας μάχη ήταν με όχημα του έθνους: %(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "Η καλύτερή σας μάχη ήταν με %(value)s"
+
+msgid "summary/description/sum/class"
+msgstr "Τα στατιστικά σας στον διαγωνισμό με %(value)s"
+
+msgid "summary/description/sum/level"
+msgstr "Τα στατιστικά σας στον διαγωνισμό με όχημα της Βαθμίδας %(value)s"
+
+msgid "summary/description/sum/nation"
+msgstr "Τα στατιστικά σας στον διαγωνισμό με όχημα του έθνους: %(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "Τα στατιστικά σας στον διαγωνισμό με το όχημα: %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "Το καλύτερο σερί από μάχες με %(value)s"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "Το καλύτερο σερί από μάχες με όχημα της Βαθμίδας %(value)s"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "Το καλύτερο σερί από μάχες με όχημα του έθνους: %(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "Το καλύτερο σερί από μάχες με %(value)s"
+
+msgid "summary/description/sumN/class"
+msgstr "Οι καλύτερές σας μάχες με %(value)s"
+
+msgid "summary/description/sumN/level"
+msgstr "Οι καλύτερές σας μάχες με όχημα της Βαθμίδας %(value)s"
+
+msgid "summary/description/sumN/nation"
+msgstr "Οι καλύτερές σας μάχες με όχημα του έθνους: %(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "Οι καλύτερές σας μάχες με %(value)s"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "Το καλύτερο σερί από μάχες με %(value)s"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "Το καλύτερο σερί από μάχες με όχημα της Βαθμίδας %(value)s"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "Το καλύτερο σερί από μάχες με όχημα του έθνους: %(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "Το καλύτερο σερί από μάχες με %(value)s"
+
+msgid "summary/destroyedvehicles"
+msgstr "Καταστροφές Εχθρικών Οχημάτων"
+
+msgid "summary/fightInSquaad"
+msgstr "Μάχες σε Ουλαμό"
+
+msgid "summary/fightNotInSquaad"
+msgstr "Μάχες χωρίς Ουλαμό"
+
+msgid "summary/originalXP"
+msgstr "Base experience"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "Φθορά με Συνεισφορά του Παίκτη"
+
+msgid "summary/param/max/damageDealt"
+msgstr "Φθορά"
+
+msgid "summary/param/max/originalXP"
+msgstr "Base experience"
+
+msgid "summary/param/max/xp"
+msgstr "Experience"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "Μέση φθορά με συνεισφορά του παίκτη"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "Μέση Φθορά"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "Μέσο base experience"
+
+msgid "summary/param/sumAll/wins"
+msgstr "Νίκες"
+
+msgid "summary/param/sumAll/xp"
+msgstr "Μέσο experience"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "Μέση φθορά με συνεισφορά του παίκτη"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "Συνολική φθορά"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "Συνολικό Base Experience"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "Συνολικό Experience"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "Συνολική φθορά με συνεισφορά του παίκτη"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "Συνολική Φθορά"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "Συνολικό Base Experience"
+
+msgid "summary/param/sumN/xp"
+msgstr "Συνολικό Experience"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "Μέση φθορά με συνεισφορά του παίκτη"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "Συνολική Φθορά"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "Συνολικό Base Experience"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "Συνολικό Experience"
+
+msgid "summary/position"
+msgstr "Θέση στη βαθμολογία: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "Ισοπαλία"
+
+msgid "summary/result/loss"
+msgstr "Ήττα"
+
+msgid "summary/result/win"
+msgstr "Νίκη"
+
+msgid "summary/status"
+msgstr "Ενημέρωση %(day)s στις %(time)s"
+
+msgid "summary/winrate"
+msgstr "Νίκες"
+
+msgid "table/header/player"
+msgstr "Παίκτης"
+
+msgid "table/header/position"
+msgstr "Αρ."
+
+msgid "table/selectParticipateBtn"
+msgstr "Απόσυρση"
+
+msgid "table/selectRatingBtn"
+msgstr "Επιλογή Βαθμολογίας"
+
+msgid "table/selectRegistrationBtn"
+msgstr "Δήλωση Συμμετοχής"
+
+msgid "table/stripe/bronze/title"
+msgstr "Γκρουπ III (θέσεις %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/gold/title"
+msgstr "Γκρουπ I (θέσεις %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "Γκρουπ I"
+
+msgid "table/stripe/iron/title"
+msgstr "Γκρουπ IV (θέσεις %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/silver/title"
+msgstr "Γκρουπ II (θέσεις %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/wood/title"
+msgstr "Θέσεις Χωρίς Έπαθλο"
+
+msgid "task/eventtype/all"
+msgstr "Κοινή βαθμολογία για όλους τους συμμετέχοντες"
+
+msgid "task/eventtype/class"
+msgstr "Κάθε τύπος οχήματος έχει τη δική του βαθμολογία"
+
+msgid "task/eventtype/level"
+msgstr "Κάθε βαθμίδα οχήματος έχει τη δική της βαθμολογία"
+
+msgid "task/eventtype/nation"
+msgstr "Κάθε έθνος οχήματος έχει τη δική του βαθμολογία"
+
+msgid "task/eventtype/vehicle"
+msgstr "Κάθε όχημα έχει τη δική του βαθμολογία"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "Καταλάβετε θέση στη βαθμολογία με βάση τη φθορά από συνεισφορά σας"
+
+msgid "task/objective/max/damageDealt"
+msgstr "Καταλάβετε θέση στη βαθμολογία με βάση τη φθορά σε αντιπάλους"
+
+msgid "task/objective/max/originalXP"
+msgstr "Καταλάβετε θέση στη βαθμολογία με βάση το κερδισμένο base experience"
+
+msgid "task/objective/max/xp"
+msgstr "Καταλάβετε θέση στη βαθμολογία με βάση το κερδισμένο experience"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "Καταλάβετε θέση στη βαθμολογία με βάση τη συνολική φθορά από συνεισφορά σας"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "Καταλάβετε θέση στη βαθμολογία με βάση τη συνολική φθορά σε αντιπάλους"
+
+msgid "task/objective/sum/originalXP"
+msgstr "Καταλάβετε θέση στη βαθμολογία με βάση το συνολικό κερδισμένο base experience"
+
+msgid "task/objective/sum/wins"
+msgstr "Κατάληψη θέσης στην κατάταξη με βάση τις νίκες"
+
+msgid "task/objective/sum/xp"
+msgstr "Καταλάβετε θέση στη βαθμολογία με βάση το συνολικό κερδισμένο experience"
+
+msgid "task/objparam/damageAssisted"
+msgstr "φθορά με συνεισφορά σας"
+
+msgid "task/objparam/damageDealt"
+msgstr "φθορά σε αντιπάλους"
+
+msgid "task/objparam/originalXP"
+msgstr "κερδισμένο base experience"
+
+msgid "task/objparam/wins"
+msgstr "νίκες"
+
+msgid "task/objparam/xp"
+msgstr "experience"
+
+msgid "task/selection/max"
+msgstr "Υπολογίζεται η καλύτερή σας μάχη"
+
+msgid "task/selection/sumAll"
+msgstr "Υπολογίζονται όλες σας οι μάχες"
+
+msgid "task/selection/sumMSeqN"
+msgstr "Υπολογίζονται οι καλύτερες %(cardinality)s μάχες της σειρά. Μάχες της σειράς: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "Υπολογίζονται οι καλύτερές σας μάχες: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "Υπολογίζεται το καλύτερό σας σερί από μάχες. Μάχες στη σειρά: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "σήμερα"
+
+msgid "time/day/tomorrow"
+msgstr "αύριο"
+
+msgid "time/day/yesterday"
+msgstr "εχθές"
+
+msgid "time/eventFinished"
+msgstr "Λήξη διαγωνισμού: %(date)s"
+
+msgid "time/period/day"
+msgstr "d"
+
+msgid "time/period/hour"
+msgstr "h."
+
+msgid "time/period/minute"
+msgstr "min"
+
+msgid "time/timeTo/end"
+msgstr "Λήξη σε: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "Λήξη περιόδου εγγραφών σε: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "Εκκίνηση σε: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "Τα έπαθλα απονέμονται στο τέλος του διαγωνισμού και είναι ανάλογα της θέσης σας στη βαθμολογία.\nΓια προβολή της λίστας με όλα τα έπαθλα του διαγωνισμού κάντε κλικ στο Όλα Τα Έπαθλα."
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "Το experience που υπολογίζεται δεν περιλαμβάνει τυχόν bonus από Προνομιακό Λογαριασμό ή Οχήματα, Προσωπικά Αποθέματα, πολλαπλασιαστές για την 1η νίκη της ημέρας, ή άλλες προσφορές."
+
+msgid "tooltip/top/amount/xp"
+msgstr "Το experience που υπολογίζεται δεν περιλαμβάνει τυχόν bonus από Προνομιακά Οχήματα, Προσωπικά Αποθέματα, πολλαπλασιαστές για την 1η νίκη της ημέρας, ή άλλες προσφορές.\nΥπολογίζεται όμως το επιπλέον experience από Προνομιακό Λογαριασμό."
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "Φθορά με συνεισφορά του παίκτη στην τελευταία θέση επάθλου: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "Φθορά σε αντιπάλους από τον παίκτη στην τελευταία θέση επάθλου: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "Κερδισμένο base experience από τον παίκτη στην τελευταία θέση επάθλου: %(number)s\nΤο experience που υπολογίζεται δεν περιλαμβάνει τυχόν bonus από Προνομιακό Λογαριασμό ή Οχήματα, Προσωπικά Αποθέματα, πολλαπλασιαστές για την 1η νίκη της ημέρας, ή άλλες προσφορές."
+
+msgid "tooltip/top/description/max/xp"
+msgstr "Κερδισμένο experience από τον παίκτη στην τελευταία θέση επάθλου: %(number)s\nΤο experience που υπολογίζεται δεν περιλαμβάνει τυχόν bonus από Προνομιακά Οχήματα, Προσωπικά Αποθέματα, πολλαπλασιαστές για την 1η νίκη της ημέρας, ή άλλες προσφορές.\nΥπολογίζεται όμως το επιπλέον experience από Προνομιακό Λογαριασμό."
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "Συνολική φθορά με συνεισφορά του παίκτη στην τελευταία θέση επάθλου: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "Συνολική φθορά σε αντιπάλους από τον παίκτη στην τελευταία θέση επάθλου: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "Συνολικό κερδισμένο base experience από τον παίκτη στην τελευταία θέση επάθλου: %(number)s\nΤο experience που υπολογίζεται δεν περιλαμβάνει τυχόν bonus από Προνομιακό Λογαριασμό ή Οχήματα, Προσωπικά Αποθέματα, πολλαπλασιαστές για την 1η νίκη της ημέρας, ή άλλες προσφορές."
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "Νίκες του παίκτη στην τελευταία θέση επάθλου: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "Συνολικό κερδισμένο experience από τον παίκτη στην τελευταία θέση επάθλου: %(number)s\nΤο experience που υπολογίζεται δεν περιλαμβάνει τυχόν bonus από Προνομιακά Οχήματα, Προσωπικά Αποθέματα, πολλαπλασιαστές για την 1η νίκη της ημέρας, ή άλλες προσφορές.\nΥπολογίζεται όμως το επιπλέον experience από Προνομιακό Λογαριασμό."
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "Θέση Χωρίς Έπαθλο"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "Γκρουπ %(group)s (θέσεις %(min)s-%(max)s)"
+
+msgid "top/averageXP"
+msgstr "Μέσο κερδισμένο experience από τον παίκτη στην τελευταία θέση επάθλου:"
+
+msgid "top/participation/notParticipated"
+msgstr "Δεν καταλάβατε θέση στην συγκεκριμένη βαθμολογία"
+
+msgid "top/participation/notfull"
+msgstr "Δεν καταλάβατε θέση στη βαθμολογία"
+
+msgid "top/participation/notintop"
+msgstr "Δεν έχετε καταλάβει θέση επάθλου"
+
+msgid "top/position"
+msgstr "Η θέση σας:"
+
+msgid "top/reason/notfull"
+msgstr "Για θέση στη βαθμολογία, λάβετε μέρος σε περισσότερες μάχες:"
+
+msgid "vehicles/level"
+msgstr "Οχήματα Βαθμίδας %(level)s"
+
+msgid "vehicles/tooltip/class"
+msgstr "Κλικ για προβολή των οχημάτων αυτού του τύπου που συμμετέχουν στον διαγωνισμό."
+
+msgid "vehicles/tooltip/level"
+msgstr "Κλικ για προβολή των οχημάτων αυτής της βαθμίδας που συμμετέχουν στον διαγωνισμό."
+
+msgid "vehicles/tooltip/nation"
+msgstr "Κλικ για προβολή των οχημάτων αυτού του έθνους που συμμετέχουν στον διαγωνισμό."
+
+msgid "vehicles/vehicle"
+msgstr "Οχήματα στον Διαγωνισμό"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "Κλικ για προβολή των οχημάτων που επιτρέπεται να λάβουν μέρος τον διαγωνισμό."

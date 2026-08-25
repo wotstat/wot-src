@@ -1,0 +1,254 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "closeBtn"
+msgstr "ZAVŘÍT"
+
+msgid "continueBtn"
+msgstr "Pokračovat"
+
+msgid "economy/double/credits"
+msgstr "Prémiový účet WoT zvyšuje získané množství kreditů o %(value)s %%."
+
+msgid "economy/double/free_xp"
+msgstr "Prémiový účet WoT zvyšuje získané množství volných ZK o %(value)s %%."
+
+msgid "economy/double/tmen_xp"
+msgstr "Prémiový účet WoT zvyšuje získané množství ZK posádky o %(value)s %%."
+
+msgid "economy/double/xp"
+msgstr "Prémiový účet WoT zvyšuje získané množství bojových ZK o %(value)s %%."
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "Prémiový účet WoT zvyšuje získané množství bojových ZK a volných ZK o %(value)s %%."
+
+msgid "efficiency/capturePoints"
+msgstr "Obsazení základny"
+
+msgid "efficiency/damageAssisted"
+msgstr "Asistované poškození"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "Ochromení"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "Zablokované poškození"
+
+msgid "efficiency/damageDealt"
+msgstr "Poškození"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "Obrana základny"
+
+msgid "efficiency/empty"
+msgstr "–"
+
+msgid "efficiency/kills"
+msgstr "Zničeno"
+
+msgid "efficiency/spotted"
+msgstr "Odhalování"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds},{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "Obsazení základny"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "Pomoc při zničení"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "Ochromení"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "Využívání pancíře"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "Poškození"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "Obrana základny"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "Nepřítel zničen"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "Odhalování"
+
+msgid "finish"
+msgstr "Bitva skončila"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "Musí být uplatněn na poslední bitvu ve stejném vozidle."
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "Bonus nelze využít: zrychlený výcvik posádky je zapnutý."
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "Bonus nelze využít: zrychlený výcvik posádky je vypnutý."
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "Násobitele lze uplatnit pouze na vítězné bitvy."
+
+msgid "premiumBonus/NoCrew"
+msgstr "Kontrolovatelný bonus nelze využít: posádka nenalezena."
+
+msgid "premiumBonus/NoVehicle"
+msgstr "Kontrolovatelný bonus nelze využít: vozidlo nenalezeno."
+
+msgid "progress/title"
+msgstr "%(modeName)s: Speciální mise. Fáze: %(done)s/%(total)s"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s: Speciální mise"
+
+msgid "result/lose"
+msgstr "PORÁŽKA"
+
+msgid "result/tie"
+msgstr "REMÍZA"
+
+msgid "result/win"
+msgstr "VÍTĚZSTVÍ"
+
+msgid "resultRace/battleStatus/finished"
+msgstr "KONEC"
+
+msgid "resultRace/battleStatus/inTop"
+msgstr "UMÍSTĚNÍ"
+
+msgid "resultRace/battleStatus/notFinished"
+msgstr "NEDOJEL\nDO CÍLE"
+
+msgid "resultRace/finishReason/finished"
+msgstr "Dosaženo cílové čáry"
+
+msgid "resultRace/finishReason/notFinished"
+msgstr "Cílové čáry nedosaženo"
+
+msgid "resultRace/footerSubtitle/battleEnded"
+msgstr "Bitva skončila: {{time}}"
+
+msgid "resultRace/footerSubtitle/finished"
+msgstr "To nebylo špatné!"
+
+msgid "resultRace/footerSubtitle/inTop"
+msgstr "Nejlepší 3!"
+
+msgid "resultRace/footerSubtitle/notFinished"
+msgstr "Víc štěstí příště!"
+
+msgid "ribbon/applied"
+msgstr "Bonus úspěšně použit"
+
+msgid "ribbon/errorState"
+msgstr "Chyba použití"
+
+msgid "ribbon/expBonus"
+msgstr "+%(count)s %(icon)s bonus ke ZK"
+
+msgid "ribbon/timeLeft"
+msgstr "Obnovení bonusu za:"
+
+msgid "ribbon/usesLeft"
+msgstr "Dostupná použití: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "Dev PŘEHLED"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "Dev TÝMOVÉ SKÓRE"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "Hráči"
+
+msgid "sub_modes/fall_tanks/efficiency/checkpointsPassed"
+msgstr "Kontrolní stanoviště"
+
+msgid "sub_modes/fall_tanks/efficiency/deathCount"
+msgstr "Znovuobjevení"
+
+msgid "sub_modes/fall_tanks/efficiency/finishPosition"
+msgstr "Umístění"
+
+msgid "sub_modes/fall_tanks/efficiency/finishTime"
+msgstr "Čas"
+
+msgid "sub_modes/fall_tanks/efficiency/kills"
+msgstr "Dezintegrován"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/checkpointsPassed"
+msgstr "Počet projetých kontrolních stanovišť"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/deathCount"
+msgstr "Počet znovuobjevení poté, co bylo vaše vozidlo dezintegrováno"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/destroyed"
+msgstr "Počet nepřátelských vozidel, která jste dezintegrovali"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishPosition"
+msgstr "Vaše konečné umístění v pořadí závodu"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishTime"
+msgstr "Jak dlouho vám trvalo, než jste dojeli do cíle"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/checkpointsPassed"
+msgstr "Kontrolní stanoviště"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/deathCount"
+msgstr "Znovuobjevení"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/destroyed"
+msgstr "Dezintegrován"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishPosition"
+msgstr "Umístění"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishTime"
+msgstr "Čas"
+
+msgid "sub_modes/fall_tanks/navigation/battleResults"
+msgstr "OSOBNÍ SKÓRE"
+
+msgid "sub_modes/fall_tanks/navigation/teamEfficiency"
+msgstr "VÝSLEDKY ÚČASTNÍKŮ"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/body"
+msgstr "Řadit podle umístění"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/header"
+msgstr "Umístění"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/body"
+msgstr "Řadit podle času"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/header"
+msgstr "Čas"
+
+msgid "sub_modes/fall_tanks/team/singleTeam"
+msgstr "Hráči"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/body"
+msgstr "Řadit podle vozidla"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/header"
+msgstr "Vozidla"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "PŘEHLED"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "TÝMOVÉ SKÓRE"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "Hráči"
+
+msgid "team/empty/finishTime"
+msgstr "-- : -- , --"
+
+msgid "team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "title"
+msgstr "VÝSLEDKY BITVY"

@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "Виберіть машину, яку хочете виключити з цього бою"
+
+msgid "prebattleTimer/ban/header"
+msgstr "Етап голосування за виключення"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "Підтвердити вибір"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "Після підтвердження ви не зможете вибрати іншу машину."
+
+msgid "prebattleTimer/pick/header"
+msgstr "Етап підтвердження"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "Виберіть машину, що найкраще пасує для цієї мапи та складу вашої команди"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "Етап попереднього вибору машини"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "Вибирайте машину, що найбільше підходить для поточної мапи та складу вашої команди."
+
+msgid "prebattleTimer/wait/header"
+msgstr "Очікуємо на гравців..."
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "Виберіть машину"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Етап на сервері %(server)s добіг кінця"
+
+msgid "primeTimeView/server"
+msgstr "Доступний для гри сервер: %(server)s."
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Сервер %(server)s\nБої триватимуть іще %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Сервер %(server)s\nБої будуть доступні за %(time)s"
+
+msgid "primeTimeView/servers"
+msgstr "Доступні сервери:"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Бої недоступні на всіх серверах"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Режим недоступний на сервері %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Бої на сервері %(server)s триватимуть іще %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Початок боїв на сервері %(server)s через %(time)s"
+
+msgid "primeTimeView/status/untill"
+msgstr "Бої недоступні до %(startTime)s на сервері %(server)s"

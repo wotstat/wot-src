@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "Par Kaujas Caurlaidi"
+
+msgid "about/position/header"
+msgstr "Kaujas Caurlaides Punktu Sadale"
+
+msgid "about/position/text"
+msgstr "Pēc katras kaujas, jūs saņemsiet noteiktu Kaujas Caurlaides Punktu skaitu, kas atbilst jūsu pozīcijai. Jūs saņemsiet papildus Kaujas Caurlaides Punktus, ja jūs palieliniet jūsu Frontes Līnijas Līmeni."
+
+msgid "about/scores/header"
+msgstr "Kaujas Caurlaides Punkti"
+
+msgid "about/scores/text"
+msgstr "Īpaša Kaujas Caurlaides valūta, ko var nopelnīt Nejaušajās Kaujās un Frontes Līnijas režīmā. Kaujas Caurlaides Punkti tiek apbalvoti par Frontes Līnijas Līmeņu sasniegšanu un jūsu pozīciju kaujas rezultātos. Frontes Līnijas tankiem nav ierobežojums Punktiem, ko tie var nopelnīt."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Sakāve"
+
+msgid "about/scoresTable/topCell"
+msgstr "Top {{top}} pēc iegūtās XP"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Uzvara"
+
+msgid "about/text"
+msgstr "Kaujas Caurlaide ir ilglaicīgs pasākums, kurā spēlētāji progresē no Stadijas uz Stadiju nopelnot Kaujas Caurlaides Punktus. Katra pabeigtā Stadija sniedz vērtīgas balvas. Izpildot noteiktas Stadijas, spēlētāji var saņemt Kaujas Caurlaides Tokenus—īpašu valūtu, ko var izmantot, lai iegādātos unikālus tankus un citas vērtīgas balvas attiecīgajā Veikala sadaļā."
+
+msgid "addons/cellRent/header"
+msgstr "Tanku Noma"
+
+msgid "addons/cellRent/text_10"
+msgstr "Ir pieejami vairāki dažādi {{vehiclesLevel}}. līmeņa tanki īrei par kredītiem. Apkalpes locekļus no viena tipa un nācijas tankiem var pārcelt bez sodiem vai nepieciešamības atkārtoti apmācīt."
+
+msgid "addons/cellRent/text_9"
+msgstr "Ir pieejami vairāki dažādi {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}}. līmeņa tanki īrei par kredītiem. Apkalpes locekļus no viena tipa un nācijas tankiem var pārcelt bez sodiem vai nepieciešamības atkārtoti apmācīt."
+
+msgid "addons/cellSpectator/header"
+msgstr "Skatītāja Režīms"
+
+msgid "addons/cellSpectator/text"
+msgstr "Kad jums ir jāgaida atdzimšana, jūs variet ieiet Skatītāja režīmā, lai izpētītu kaujas lauku un izdomātu jūsu kaujas plānu."
+
+msgid "addons/cellTime/header"
+msgstr "Papildus laiks"
+
+msgid "addons/cellTime/text"
+msgstr "Ja bāze ieņemšanas procesā, kad kaujas laiks izbeidzas, jūsu komanda iegūs papildus laiku. Ja aizsargājošā komanda pārtrauc to bāzu ieņemšanu, papildus laiks pāries uz nulli."
+
+msgid "addons/header"
+msgstr "Papildus Informācija"
+
+msgid "levelUp/sectionHeader"
+msgstr "{{level}}. līmeņa tanki"
+
+msgid "levelUp/text"
+msgstr "Kā iepriekš, sākotnēji kaujā var vest tikai {{vehiclesLevelFrom}}. līmeņa tankus, bet garāžā var sagatavot arī {{vehiclesLevelTo}}. līmeņa tankus. Kad tiek ieņemta jebkura otrās līnijas bāze (D, E vai F), abas komandas varēs izvietot savus {{vehiclesLevelTo}}. līmeņa tankus."
+
+msgid "main/cellDuration/header"
+msgstr "Ilgums"
+
+msgid "main/cellDuration/text"
+msgstr "Frontes līnija ilgs {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}} dienas. Nākamās palaišanas datums tiks paziņots atsevišķi."
+
+msgid "main/cellFrontline/header"
+msgstr "Frontes Līnija"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Milzīgas 30 pret 30 cīņas {{vehiclesLevel}}. līmeņa tankos kartēs {{@ colorLegacy 'FFE4C0'}} „Normandija“, „Kraftwerk“{{/}} un {{@ colorLegacy 'FFE4C0'}}„Fata Morgana“{{/}}. Uzbrucējiem jāiznīcina 3 no 5 lielgabaliem, bet aizstāvjiem tie jāsargā."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Milzīgas 30 pret 30 cīņas {{vehiclesLevelFrom}}.–{{vehiclesLevelTo}}. līmeņa tankos kartēs {{@ colorLegacy 'FFE4C0'}}„Normandija“, „Kraftwerk“{{/}} un {{@ colorLegacy 'FFE4C0'}}„Fata Morgana“{{/}}. Uzbrucējiem jāiznīcina 3 no 5 lielgabaliem, bet aizstāvjiem tie jāsargā."
+
+msgid "main/cellLevel9/header"
+msgstr "{{vehiclesLevel}}. līmeņa tanki"
+
+msgid "main/cellLevel9/text"
+msgstr "Kad tiek ieņemta kāda no otrās līnijas bāzēm (D, E vai F), jūs varēsiet doties kaujā ar {{vehiclesLevel}}. līmeņa tanku."
+
+msgid "main/cellLevels/header"
+msgstr "{{vehiclesLevel}}. līmeņa tanki"
+
+msgid "main/cellLevels/text_8"
+msgstr "Režīmā pieejami tikai {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}}. līmeņa tanki."
+
+msgid "main/cellLevels/text_9"
+msgstr "Kaujā var doties tikai {{vehiclesLevel}}. līmeņa tanki."
+
+msgid "main/cellPass/header"
+msgstr "Kaujas Caurlaide"
+
+msgid "main/cellPass/text"
+msgstr "Frontes Līnija sniedz lielisku iespēju nopelnīt Kaujas Caurlaides Punktus par piedalīšanos kaujās un jaunu Frontes Līnijas Līmeņu sasniegšanu."
+
+msgid "main/cellReserves/header"
+msgstr "Kaujas Rezerves Kategorijas"
+
+msgid "main/cellReserves/text"
+msgstr "Ir trīs Kaujas Rezerves kategorijas, katra piesaistīta noteiktai vietai. To atslēgšanas secība un uzlabošana ir atkarīga no tanka tipa."
+
+msgid "main/cellScenarios/header"
+msgstr "Scenāriji"
+
+msgid "main/cellScenarios/text"
+msgstr "Frontes līnijas režīmā cīņas izmanto vienu no šādiem scenārijiem: {{@ colorLegacy 'FFE4C0'}}„Standarta kauja“{{/}}, {{@ colorLegacy 'FFE4C0'}}„Operatīvais atbalsts“{{/}} vai {{@ colorLegacy 'FFE4C0'}}„Likteņa pavērsiens“{{/}}. Informācija par pašreizējo kaujas scenāriju tiek rādīta ielādes ekrānā, pirmskaujas atskaitē vai nospiežot Tab taustiņu."
+
+msgid "main/sectionHeader"
+msgstr "Vispārējā Informācija"
+
+msgid "page/backBtn"
+msgstr "ATPAKAĻ"
+
+msgid "page/headerUpper"
+msgstr "FRONTES LĪNIJAS"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "Atkarībā no sasniegtā ranga jūs saņemsiet gan Frontes līnijas XP, gan Kaujas XP. Frontes līnijas XP tiek izmantots, lai paaugstinātu jūsu Frontes līnijas līmeni. Kopumā ir {{@ colorLegacy 'FFE4C0'}}20 līmeņi{{/}}."
+
+msgid "progression/levelsSection/header"
+msgstr "Frontes Līnijas Līmeņi"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Frontes līnijas līmeņi{{/}} apbalvo ar Kaujas caurlaides punktiem, Kaujas rezerves punktiem, bonām, direktīvām, Pārapmācības pavēlēm, Mentora licenci un Apkalpes grāmatām."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Frontes līnijas līmeņi{{/}} apbalvo ar Kaujas rezerves punktiem, bonām, direktīvām, Pārapmācības pavēlēm un Apkalpes grāmatām."
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Pakāpes{{/}} ne tikai atspoguļo tavu efektivitāti konkrētajā kaujā, bet arī piešķir Kaujas XP bonusu. Šis bonuss tiek piemērots kopējai pamata pieredzei, kas nopelnīta ar visiem taviem transportlīdzekļiem, kas piedalījās kaujā. Kad tu vai tavi sabiedrotie sasniedz pakāpi Vispārīgi, visa komanda saņem apkalpes snieguma (galvenās kvalifikācijas līmeņa) bonusu no {{@ colorLegacy 'FFE4C0'}}1.5%{{/}} līdz {{@ colorLegacy 'FFE4C0'}}15%{{/}}."
+
+msgid "progression/ranksSection/header"
+msgstr "Pakāpes"
+
+msgid "progression/ranksSection/text"
+msgstr "Režīmā ir sešu pakāpju sistēma, kurā spēlētāji pāriet no Ierindnieka līdz Ģenerāļa pakāpei. Jūs tiksiet paaugstināts par efektīvu sniegumu kaujā (bāzes ieņemšana vai aizstāvēšana; galveno mērķu iznīcināšana) un pieredzes gūšanu. Tiek ieskaitīta kopējā pieredze, kas iegūta visos tankos, ar kuriem cīnījāties."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Bonuss Kaujas Pieredzei"
+
+msgid "progression/ranksTable/captain"
+msgstr "Kapteinis"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Bonuss Apkalpes Sniegumam"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Frontes Līnijas Pieredze"
+
+msgid "progression/ranksTable/general"
+msgstr "Ģenerālis"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Leitnants"
+
+msgid "progression/ranksTable/major"
+msgstr "Majors"
+
+msgid "progression/ranksTable/private"
+msgstr "Kareivis"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Seržants"
+
+msgid "progression/sectionHeader"
+msgstr "Frontes Līnijas Progress"
+
+msgid "progression/text"
+msgstr "Spēlējot šajā režīmā, jūs pacelsieties pakāpēs, iesiet cauri Frontes Līnijas Progresijai un pelnīsiet balvas."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Sekundārais"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Rezerves slots 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Rezerves slots 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Rezerves slots 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Primārais"
+
+msgid "reserveCategories/categories/support"
+msgstr "Papildu"
+
+msgid "reserveCategories/config/footerText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Likteņa pavērsiens{{/}} scenārijā kaujas rezerves tiek atbloķētas neatkarīgi no tanka tipa."
+
+msgid "reserveCategories/config/header"
+msgstr "Rezervju Konfigurācijas pēc Tanka Tipa"
+
+msgid "reserveCategories/config/text"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Standarta kaujas{{/}} un {{@ colorLegacy 'FFE4C0'}}Operatīvā atbalsta{{/}} scenārijos visi trīs kaujas rezervju sloti ir pieejami visiem tanka tipiem. Tomēr secība, kādā tie tiek atbloķēti, ir atkarīga no tanka tipa."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "Tanku Iznīcinātāji"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Smagie Tanki"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Vieglie Tanki"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Vidējie Tanki"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "SPG"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "*Uzlabot līdz šim līmenim var tikai {{@ colorLegacy 'FFE4C0'}}iegādātās{{/}} Kaujas rezerves {{@ colorLegacy 'FFE4C0'}}Likteņa pavērsiena{{/}} scenārijā."
+
+msgid "reserveCategories/levels/header"
+msgstr "Kā Atslēgt Vietas un Uzlabot Kaujas Rezerves"
+
+msgid "reserveCategories/levels/text"
+msgstr "Pēc noklusējuma, viena Kaujas Rezerve ir pieejama jums. Citas tiek atslēgtas sasniedzot Seržanta un Leitnanta pakāpes. Visas trīs Rezerves tiks uzlabotas sasniedzot Kapteiņa un Majora pakāpes."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} or {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}} Līmenis"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Kapteinis"
+
+msgid "reserveCategories/ranks/general"
+msgstr "Ģenerālis"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Leitnants"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Majors"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Seržants"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Kareivis"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Likteņa Pagrieziens"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "Kaujā spēlētāji var izvēlēties no nejauši pieejamajām rezervēm visiem tanku tipiem. Rezerves ievietošana slotā pirms kaujas palielina tās iegūšanas iespēju kaujā par {{@ colorLegacy 'FFE4C0'}}10%{{/}}. Rezerves iegāde palielinās tās līmeni līdz {{@ colorLegacy 'FFE4C0'}}II{{/}} un dos iespēju to uzlabot līdz {{@ colorLegacy 'FFE4C0'}}IV{{/}} līmenim."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Frontes Līnijas Scenāriji"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Standarta Kauja"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Tiek piemēroti standarta Frontes Līnijas noteikumi. Nosacījumi Kaujas Rezervju lietošanai nav mainīti."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Darbojošs Atbalsts"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "Atbloķējot rezerves:{{@ colorLegacy 'FFE4C0'}} –50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "Atgriežoties kaujā: {{@ colorLegacy 'FFE4C0'}}–70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Ātrāka tempa scenārijs ar samazinātu Kaujas Rezerves atjaunošanās laiku:"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Frontes līnijas režīma kaujas izmanto vienu no šiem scenārijiem: {{@ colorLegacy 'FFE4C0'}}Standarta kauja{{/}}, {{@ colorLegacy 'FFE4C0'}}Operatīvais atbalsts{{/}} vai {{@ colorLegacy 'FFE4C0'}}Likteņa pavērsiens{{/}}. Scenāriji maina kaujas rezervju izmantošanas nosacījumus kaujā. Informācija par pašreizējo kaujas scenāriju tiek rādīta ielādes ekrānā, kaujas atskaites laikā vai nospiežot Tab taustiņu."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Kaujas Rezerves Kategorijas"
+
+msgid "reserveCategories/text"
+msgstr "Kaujas Rezerves ir iedalītas trīs kategorijās, katrā pa trīs Rezervēm. Dodoties kaujā, jūs variet novietot tikai vienu Rezervi no kategorijas attiecīgajā vietā."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Uzbrukuma Rezerves"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Izlūkošanas Rezerves"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Taktiskās Rezerves"
+
+msgid "reserves/sectionHeader"
+msgstr "Ātrās Rezerves"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Ātrs Sākums"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Sagatavošanās laiks Kaujas Rezervēm ir saīsināts par 50% kaujas sākumā."
+
+msgid "reserves/sectionReload/header"
+msgstr "Tūlītēja Pieejamība"
+
+msgid "reserves/sectionReload/text"
+msgstr "Kaujas Rezerves būs gatavas lietošanai tiklīdz tās tiks atslēgtas."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Otrais Vējš"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Kaujas Rezervju gatavošanās laiks ir saīsināts par 70% atgriežoties kaujā jaunā tankā."
+
+msgid "rules/backToFight/header"
+msgstr "Atgriešanās uz Kauju"
+
+msgid "rules/backToFight/text"
+msgstr "Ja jūsu tanks tiek iznīcināts, izvēlieties jebkuru citu pieejamo tanku un atgriezieties kaujas laukā, lai turpinātu cīņu par uzvaru. Sānos, kā arī aizmugurē variet izvēlēties vienu no vairākiem izvietošanas apgabaliem (atdzimšanas punktiem), kas palīdzēs noteikt kaujas plānu. Aizsargājošajiem spēlētājiem ir plašāka atdzimšanas punktu izvēle dziļi aiz līnijām, no kuriem izvēlēties, kas nozīmē, ka pēkšņa izrāviena gadījumā viņi var apvienoties augsta kalibra ieroču aizsardzībā. Sistēmā ir arī īpašs indikators, kas brīdina spēlētājus, ja izvēlētā zona ir bīstama izvietošanai."
+
+msgid "rules/base/header"
+msgstr "Bāzes ieņemšana"
+
+msgid "rules/base/textBottom"
+msgstr "Tanka (vai tā moduļa) bojāšana, kamēr tas ieņem bāzi, neatiestata ieņemšanas progresu. Tā vietā, ieņemšanas progress tiek īslaicīgi apturēts. Lai atiestatītu ieņemšanas progresu, aizstāvjiem jāiznīcina pretinieku tanki bāzes aplī vai jāpiespiež to atstāt bāzes apli. Aizsargājošā komanda nevar pārņemt bāzi, kad to jau ieņēma uzbrucēji."
+
+msgid "rules/base/textTop"
+msgstr "{FFE4C0_Start}Uzbrūkošajai komandai{FFE4C0_End} ir jāieņem pamati secīgi, lai sasniegtu galvenos mērķus. Ieņemts pamats pievieno 2 minūtes kaujas darbības ilgumam. Ieņemot pēdējo pamatu, tiek pievienotas 4 minūtes."
+
+msgid "rules/sectionHeader"
+msgstr "Vispārējie Noteikumi"
+
+msgid "rules/service/header"
+msgstr "Papildināšanas Apļi"
+
+msgid "rules/service/text"
+msgstr "Pārapgādes apļi atjauno tanka dzīvības punktus, ārstē visus ievainotos apkalpes locekļus un papildina munīciju. {FFE4C0_Start}Pārapgādes ātrums ir šāds: 100 dzīvības punkti / viens apkalpes loceklis / 10%{FFE4C0_End} munīcijas sekundē."
+
+msgid "rules/weapons/header"
+msgstr "Mērķis: 3 no 5 Liela Kalibra Ieročiem"
+
+msgid "rules/weapons/list/back"
+msgstr "Aizmugures bruņas: {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "Jumta un priekšējās bruņas {{@ colorLegacy 'FFE4C0'}}nav caursitamas{{/}} ar šāviņiem."
+
+msgid "rules/weapons/list/sides"
+msgstr "Sānu bruņas: {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Sānu bruņas: {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Vājās vietas: {{@ colorLegacy 'FFE4C0'}}durvis (70 mm) un ventilācija (25 mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Dziļi aizsargājošajā komandā ir novietoti pieci ieroča torņi, un tie ir primārie mērķi kaujā. Uzbrūkošai komandai ir jāiznīcina 3 torņi, kamēr aizsargājošai jānosargā tie par katru cenu."
+
+msgid "subTitle/differentMonth"
+msgstr "no {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}{{/}} līdz {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "no {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}, {{startYear}},{{/}} līdz {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}, {{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "no {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{from}}{{/}} līdz {{@ colorLegacy 'FFE4C0'}}{{to}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "A, B un C sektori {{@ colorLegacy 'FFE4C0'}}pirmajā līnijā{{/}} ir sākuma punkti abām komandām."
+
+msgid "winStrategy/header"
+msgstr "Uzvaras Stratēģija"
+
+msgid "winStrategy/mapZones"
+msgstr "Režīma karte sniedz trīs horizontālas aizsardzības līnijas:"
+
+msgid "winStrategy/secondLine"
+msgstr "Kad pirmās līnijas sektori ir ieņemti, kauja pāriet uz D, E un F sektoriem {{@ colorLegacy 'FFE4C0'}}otrajā līnijā{{/}}."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Trešā līnija{{/}} nav sadalīta sektoros; tā ir teritorija, kurā norisinās kaujas pēdējais posms. Šeit atrodas lielgabali ar lielu kalibru, un to iznīcināšana nodrošina uzvaru uzbrucēju komandai. Uzbrucējiem piekļuve galvenajiem mērķiem tiek atvērta tikai pēc tam, kad ir ieņemts vismaz viens sektors otrajā līnijā. Tiklīdz sektors ir zaudēts, aizsargiem ir 1 minūte, lai to pamestu, pirms sektors tiek bombardēts. Gaisa uzlidojums skars visus aizstāvjus, kas paliks sektorā. Visi uzbrucēji, kas mēģinās sasniegt otrās vai trešās līnijas sektorus, neieņemot iepriekšējo sektoru, arī tiks iznīcināti gaisa uzlidojumā."

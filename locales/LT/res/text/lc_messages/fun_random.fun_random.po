@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "\"%(leftDetailedSeasonName)s\" mūšiai baigėsi"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Paliaubos galioja visuose serveriuose. Mūšiai bus pasiekiami po %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" mūšiai baigėsi"
+
+msgid "alertMessage/allNotSet"
+msgstr "Režimas nepasiekiamas serveryje %(serverName)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Pasirinkite kitą serverį"
+
+msgid "alertMessage/notAvailable"
+msgstr "Paliaubos galioja serveryje %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Paliaubos galioja serveryje %(serverName)s"
+
+msgid "alertMessage/notSet"
+msgstr "Režimas nepasiekiamas serveryje %(serverName)s"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Paliaubos galioja serveryje. Mūšiai bus pasiekiami po %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" mūšiai baigėsi"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Režimas nepasiekiamas serveryje %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d."
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s val. %(min)s min."
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min."
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Nėra tinkamų mašinų"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Tvarkaraštis"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "MODE"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} — persijungimas į kitą žaidimo režimą"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "Režimas bus pasiekiamas"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "Paliaubos {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "Mūšiai baigėsi"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "Režimas daugiau nebepasiekiamas"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "Režimas bus pasiekiamas dar {{timer}}"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s negali dalyvauti %(modeName)s mūšiuose."
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "Netinkamas mašinos tipas"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "Pasirinkite %(levelSubStr)s mašiną, su kuria dalyvausite %(modeName)s režime."
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "Netinkamas mašinos lygis"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "%(levels)s lygio"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s negali būti naudojama režime %(modeName)s."
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "Netinkama mašina"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "Šiame serveryje galioja paliaubos. Pasirinkite kitą serverį."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "Negalima eiti į mūšį"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "Režimas pasirinktame serveryje nepasiekiamas."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "Negalima eiti į mūšį"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "\"%(subModeName)s\" mūšiai baigėsi"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "Negalima eiti į mūšį"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "Pakeiskite režimą ar pasirinkite reikalavimus atitinkančią mašiną."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "Mašina netinka režimui"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "Sukurkite taktinę formuotę iš 2 ar 3 žaidėjų , su kuria dalyvausite režime %(modeName)s."
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "Būrys"
+
+msgid "invite/text/detailedTitle"
+msgstr "Pakvietimas prisijungti į būrį \"%(detailedModeName)s\""
+
+msgid "invite/tooltip/noVehicles"
+msgstr "Jums reikia bent vienos mašinos savo garaže."
+
+msgid "lootboxTooltip/chance"
+msgstr "Šansas gauti: %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "Vienas iš žemiau pateiktų daiktų:"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "VISI ETAPAI ĮVYKDYTI"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "VISI DABARTINĖS MISIJOS\nETAPAI ĮVYKDYTI"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "Kito etapo apdovanojimai — atrakinkite surinkę %(stagePoints)s taškų"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "Kito etapo apdovanojimas"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "%(time)s iki aktyvios fazės pabaigos"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "%(time)s iki kito karto"
+
+msgid "modeSelector/notStarted"
+msgstr "Šis režimas prasidės artimiausiu metu"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s d."
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s val."
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s min."
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "Į REŽIMUS"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "Nepasiekiama dėl techninių priežasčių"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "Jūs įvykdėte visus dabartinės misijos etapus"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "Apdovanojimai: %(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "Mūšiai baigėsi"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "Artimiausiu metu"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "Iki pradžios liko"
+
+msgid "modeSubSelector/subtitle"
+msgstr "PASIRINKITE SUBREŽIMĄ"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "Dev Visi etapai įvykdyti"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "Dev Seka įvykdyta"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "Nepraleiskite veiksmo!"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "Važiuokite į kovą!"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "Žaidimų automatų salono renginiai yra unikalūs ir ribotą laiką pasiekiami užsiėmimai, kurie leis išbandyti ką nors naujo! Kovokite su tik režimui skirtomis mašinomis ir žaidimo taisyklėmis, vykdykite misijas ir užsidirbkite retų daiktų."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Dev Aukštų rizikų aprašymas."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Dev Prastas veikimas"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Dev Vidutinių rizikų aprašymas."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Dev Prastesnis veikimas"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Dev Aukštų rizikų aprašymas."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Dev Prastas veikimas"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Prastas veikimas"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Dev Vidutinių rizikų aprašymas."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Dev Prastesnis veikimas"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Prastesnis veikimas"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Dev Jūs užbaigėte seką"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "Dev Gaukite kiek galite daugiau apdovanojimų:"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "Dev Uždirbti taškai: {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "Įvykdyta:"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "Pakartojama"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Už įvykdymą:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Už pralaimėjimą:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Už pergalę:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Taškai:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Gauta:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "Visos šiuo metu pasiekiamos misijos įvykdytos."
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "Misijos atsiras prasidėjus sekai"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "Jūs įvykdėte visas misijas, kurias galėjote. Daugiau jų atsiras kitame etape."
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "Pasiekiama dar {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "Pasiekiama dar {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "Naujos misijos atsiras po {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} statusas"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} misija"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "Visi etapai užbaigti"
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "Seka atnaujinta"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "NEONINĖS LENKTYNĖS"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "Finišo tiesioji laukia jūsų!"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "Pasiruošę lenktynėms?"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "Neoninės lenktynės yra unikalus riboto laiko renginys, kurio metu galėsite išbandyti kai ką naujo! Lėkite ir stumdykitės įveikdami pražūtingas kliūtis, vykdykite misijas ir užsidirbkite."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Šis režimas reikalauja daug kompiuterio resursų. Jūs galite turėti problemų užkraunant žemėlapį, išvysti grafikos iškraipymus ir patirti nesklandumų judant mašinai. Jeigu žaidimas veikia lėtai, pabandykite sumažinti grafikos kokybę nustatymuose."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Galimai sumažinta greitaveika"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Šis režimas reikalauja daug kompiuterio resursų. Jūs galite turėti problemų užkraunant žemėlapį, išvysti grafikos iškraipymus ir patirti nesklandumų judant mašinai. Jeigu žaidimas veikia lėtai, pabandykite sumažinti grafikos kokybę nustatymuose."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Galimai sumažinta greitaveika"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "Epinis atsitiktinis prizas"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "Legendinis atsitiktinis prizas"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "Paprastas atsitiktinis prizas"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "Retas atsitiktinis prizas"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "Nepaprastas atsitiktinis prizas"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "Neoninių lenktynių misija – etapas: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "Jūsų pasiekimai fiksuojami kiekvienose Neoninėse lenktynėse."
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "Neoninių lenktynių misija"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "Jūsų progresas skaičiuojamas bet kuriame Žaidimų automatų salono subrežime."
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "iki naujos Žaidimų automatų salono misijos atsiradimo"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15–30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "Kovokite iki pat finišo šiose chaotiškose lenktynėse."
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Visi lygiai"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "Esat žemiems grafikos nustatymams gali kilti problemų su vaizdu. Mes rekomenduojame žaisti su aukščiausiomis grafikomis, jei tik tą leidžia jūsų kompiuterinė įranga. Šis režimas reikalauja aukštos kompiuterio greitaveikos. Intensyvios kovos metu gali sumažėti kadrų per sekundę skaičius."
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "Esat žemiems grafikos nustatymams gali kilti problemų su vaizdu. Mes rekomenduojame žaisti su aukščiausiomis grafikomis, jei tik tą leidžia jūsų kompiuterinė įranga. Šis režimas reikalauja aukštos kompiuterio greitaveikos. Intensyvios kovos metu gali sumažėti kadrų per sekundę skaičius."
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "Nauja Neoninių lenktynių misija pasiekiama po:"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "Subrežimas %(subModeName)s baigėsi. Progresas apnulintas."
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "Subrežimas %(subModeName)s baigėsi."
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "Nauji prizai ir subrežimas %(subModeName)s jau pasiekiami."
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "Pasiekiamas naujas subrežimas: %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "Subrežimas %(subModeName)s nepasiekiamas dėl profilaktikos."
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "Subrežimas %(subModeName)s vėl pasiekiamas."
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "Apdovanojimų sąrašas"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "Sveikiname!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "Jūs užbaigėte seką"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "Sveikiname!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "Begalinė post progresija"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "Jūs užbaigėte pagrindinę seką"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "Šį etapą galite įvykdyti tiek kartų, kiek norite."
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "Uždirbti taškai: {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Uždirbta taškų:"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "NEONINIŲ LENKTYNIŲ MISIJOS"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "Įvykdyta:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "Pakartojama"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Už įvykdymą:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Už pralaimėjimą:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Už pergalę:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Taškai:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Gauta:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "Visos šiuo metu pasiekiamos misijos įvykdytos."
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "Misijos atsiras prasidėjus sekai"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "Jūs įvykdėte visas misijas, kurias galėjote. Daugiau jų atsiras kitame etape."
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "Pasiekiama dar {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "Pasiekiama dar {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "Naujos misijos atsiras po {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} statusas"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} misija"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "GAUTAS LEGENDINIS PRIZAS"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "%(subModeName)s vėl pasiekiamas."
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "Boksai"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s pasibaigė."
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "Boksai"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "Laikas apsilankyti boksuose! %(subModeName)s lenktynės laikinai nepasiekiamos."
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "Boksai"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "Kiekvieną iš žemiau pateiktų atsitiktinių prizų, suteikiamų su tam tikra tikimybe."
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "Kas viduje?"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "Neoninėse lenktynėse galite dalyvauti su bet kuria mašina."
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "Neoninių lenktynių mašinos"
+
+msgid "modes/fall_tanks/userName"
+msgstr "Neoninės lenktynės"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "Visi etapai įvykdyti!"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "Seka įvykdyta"
+
+msgid "modes/undefined/capsUserName"
+msgstr "ŽAIDIMŲ AUTOMATŲ SALONAS"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s: %(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "Nepraleiskite veiksmo!"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "Važiuokite į kovą!"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "Žaidimų automatų salono renginiai yra unikalūs ir ribotą laiką pasiekiami užsiėmimai, kurie leis išbandyti ką nors naujo! Kovokite su tik režimui skirtomis mašinomis ir žaidimo taisyklėmis, vykdykite misijas ir užsidirbkite retų daiktų."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Šis režimas reikalauja daug kompiuterio resursų. Jūs galite turėti problemų užkraunant žemėlapį, išvysti grafikos iškraipymus ir patirti nesklandumų judant mašinai. Jeigu žaidimas veikia lėtai, pabandykite sumažinti grafikos kokybę nustatymuose."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Galimai sumažinta greitaveika"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Šis režimas reikalauja daug kompiuterio resursų. Jūs galite turėti problemų užkraunant žemėlapį, išvysti grafikos iškraipymus ir patirti nesklandumų judant mašinai. Jeigu žaidimas veikia lėtai, pabandykite sumažinti grafikos kokybę nustatymuose."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Galimai sumažinta greitaveika"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "Nuostabus atsitiktinis prizas"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "Legendinis atsitiktinis prizas"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "Paprastas atsitiktinis prizas"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "Retas atsitiktinis prizas"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "Nepaprastas atsitiktinis prizas"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "Žaidimų automatų salono misija – etapas: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "Jūsų progresas skaičiuojamas bet kuriame Žaidimų automatų salono subrežime."
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "Žaidimų automatų salono misija"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "Jūsų progresas skaičiuojamas bet kuriame Žaidimų automatų salono subrežime."
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "iki naujos Žaidimų automatų salono misijos atsiradimo"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15 prieš 15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "Eksperimentiniai mūšiai pagal nestandartines taisykles."
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} %(levels)s&nbsp;lygiai"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "Esat žemiems grafikos nustatymams gali kilti problemų su vaizdu. Mes rekomenduojame žaisti su aukščiausiomis grafikomis, jei tik tą leidžia jūsų kompiuterinė įranga. Šis režimas reikalauja aukštos kompiuterio greitaveikos. Intensyvios kovos metu gali sumažėti kadrų per sekundę skaičius."
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "Esat žemiems grafikos nustatymams gali kilti problemų su vaizdu. Mes rekomenduojame žaisti su aukščiausiomis grafikomis, jei tik tą leidžia jūsų kompiuterinė įranga. Šis režimas reikalauja aukštos kompiuterio greitaveikos. Intensyvios kovos metu gali sumažėti kadrų per sekundę skaičius."
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "Nauja Žaidimų automatų salono misija atsiras po:"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "Subrežimas %(subModeName)s baigėsi. Progresas apnulintas."
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "Subrežimas %(subModeName)s baigėsi."
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "Nauji prizai ir subrežimas %(subModeName)s jau pasiekiami."
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "Pasiekiamas naujas subrežimas: %(subModeName)s."
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "Subrežimas %(subModeName)s nepasiekiamas dėl profilaktikos."
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "Subrežimas %(subModeName)s vėl pasiekiamas."
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "Apdovanojimų sąrašas"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "Sveikiname!"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "Jūs užbaigėte seką"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "Sveikiname!"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "Pakartojamas etapas"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "Jūs užbaigėte pagrindinę seką"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "Gaukite kiek galite daugiau apdovanojimų:"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "Uždirbti taškai: {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Uždirbta taškų:"
+
+msgid "modes/undefined/progression/title"
+msgstr "ŽAIDIMŲ AUTOMATŲ SALONO MISIJOS"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "Įvykdyta:"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "Pakartojama"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Už įvykdymą:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Už pralaimėjimą:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Už pergalę:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Taškai:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Gauta:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "Visos šiuo metu pasiekiamos misijos įvykdytos"
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "Misijos atsiras prasidėjus sekai"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "Jūs įvykdėte visas misijas, kurias galėjote. Daugiau jų atsiras kitame etape."
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "Pasiekiama dar {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "Pasiekiama dar {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "Naujos misijos atsiras po {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "Režimo {{eventName}} būsena"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "Režimo {{eventName}} misija"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "GAUTAS LEGENDINIS PRIZAS"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "%(subModeName)s mūšiai vėl pasiekiami."
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "Paliaubos"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "\"%(subModeName)s\" mūšiai baigėsi"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "Paliaubos"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "Galioja paliaubos. %(subModeName)s mūšiai laikinai nepasiekiami."
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "Paliaubos"
+
+msgid "modes/undefined/tierList/description"
+msgstr "Kiekvieną iš žemiau pateiktų atsitiktinių prizų galite gauti su tam tikra tikimybe."
+
+msgid "modes/undefined/tierList/title"
+msgstr "Kas viduje?"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "Rodyti/slėpti Žaidimų automatų salonui tinkamas mašinas."
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "Žaidimų automatų salono mašinos"
+
+msgid "modes/undefined/userName"
+msgstr "Žaidimų automatų salonas"
+
+msgid "notification/congratulation"
+msgstr "Sveikiname!"
+
+msgid "notification/finishSubModes"
+msgstr "Renginys \"%(modeName)s\" baigėsi."
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "Subrežimai %(subModesNames)s baigėsi. Progresas apnulintas."
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "Subrežimai %(subModesNames)s baigėsi."
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "Atsitiktinis apdovanojimas"
+
+msgid "notification/newProgression"
+msgstr "Renginio progresas apnulintas — jūs galite vėl gauti prizus!"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "Renginio progresas apnulintas. Pasiekiami nauji subrežimai: %(subModesNames)s."
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "Pasiekiami nauji subrežimai: %(subModesNames)s."
+
+msgid "notification/progressionComplete"
+msgstr "Jūs įvykdėte visas pasiekiamas režimo \"%(modeName)s\" misijas. Gautas apdovanojimas:"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "Jūs įvykdėte visas pasiekiamas režimo \"%(modeName)s\" misijas. Atrakintas pakartojamas etapas. Gautas apdovanojimas:"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "Progresas bus apnulintas po mažiau nei 1 dienos. Po to misijas galėsite vėl įvykdyti."
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "Progresas bus apnulintas po %(days)d dienų. Po to misijas galėsite vėl įvykdyti."
+
+msgid "notification/progressionStageComplete"
+msgstr "Jūs įvykdėte režimo \"%(modeName)s\" etapą: %(stage)s. Gautas apdovanojimas:"
+
+msgid "notification/subModesSeparator"
+msgstr ", "
+
+msgid "notification/switchOffSubModes"
+msgstr "Subrežimai %(subModesNames)s nepasiekiami dėl profilaktikos."
+
+msgid "notification/switchOnSubModes"
+msgstr "Subrežimai %(subModesNames)s vėl pasiekiami."
+
+msgid "platoonView/title"
+msgstr "Būrys: %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "Pasiekiamas serveris: %(server)s."
+
+msgid "primeTimes/availableServers"
+msgstr "Pasiekiami serveriai:"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "%(serverName)s serveris\nMūšiai bus pasiekiami po %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Serveris %(serverName)s\nRežimo \"%(leftDetailedSeasonName)s\" mūšiai baigėsi."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "%(serverName)s serveris\nMūšiai bus pasiekiami dar %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "%(serverName)s serveris\nMūšiai bus pasiekiami po %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Serveris %(serverName)s\nRežimo \"%(leftDetailedSeasonName)s\" mūšiai baigėsi."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "%(serverName)s serveris\nMūšiai bus pasiekiami po %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Serveris %(serverName)s\nRežimo \"%(leftDetailedSeasonName)s\" mūšiai baigėsi."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s d."
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s val. %(min)s min."
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s min."
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Paliaubos galioja visuose serveriuose.\nMūšiai bus pasiekiami po %(primeDelta)s"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "Režimo \"%(leftDetailedSeasonName)s\" mūšiai baigėsi"
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "Režimas nepasiekiamas serveryje %(serverName)s"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Paliaubos galioja %(serverName)s serveryje iki %(primeDeltaDate)s%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Paliaubos galioja serveryje %(serverName)s"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Režimas nepasiekiamas serveryje %(serverName)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Paliaubos galioja %(serverName)s serveryje.\nMūšiai bus pasiekiami po %(primeDelta)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "Režimo \"%(leftDetailedSeasonName)s\" mūšiai baigėsi"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Režimas nepasiekiamas serveryje %(serverName)s"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Mūšiai %(serverName)s serveryje prasidės po %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "Režimo \"%(leftDetailedSeasonName)s\" mūšiai %(serverName)s serveryje baigėsi."
+
+msgid "primeTimes/timeText/available"
+msgstr "%(serverName)s serveryje mūšiai bus pasiekiami dar %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Mūšiai %(serverName)s serveryje prasidės po %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "Režimo \"%(leftDetailedSeasonName)s\" mūšiai %(serverName)s serveryje baigėsi."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Mūšiai %(serverName)s serveryje prasidės po %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "Režimo \"%(leftDetailedSeasonName)s\" mūšiai %(serverName)s serveryje baigėsi."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "taškų"
+
+msgid "progression/complete/affirmative"
+msgstr "Tikrai taip!"
+
+msgid "progression/defaultCondition/text"
+msgstr "Uždirbkite taškus ir vykdykite sekos etapus."
+
+msgid "progression/infinite/pointsEarned"
+msgstr "Uždirbta taškų:"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "Aktyvusis etapas baigėsi. Daugiau jokių mūšių"
+
+msgid "progression/questsList/quest/completed"
+msgstr "Įvykdyta:"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "Pakartojamas"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "Už įvykdymą:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "Už pralaimėjimą:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "Už pergalę:"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "Gauta:"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "Aktyvi fazė baigiasi po: {{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "Aktyvi fazė baigiasi po:"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "Iki kito etapo:"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "Kito etapo apdovanojimai — atrakinkite surinkę %(count)d taškų"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Jūs dar gavote:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Tikrai taip!"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "Būrio vadas perjungė į %(subModeName)s subrežimą."
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "Subrežimo perjungimas"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} %(levels)s&nbsp;lygiai"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Dev Aukštų rizikų aprašymas."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Dev Prastas veikimas"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Prastas veikimas"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Dev Vidutinių rizikų aprašymas."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Dev Prastesnis veikimas"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Prastesnis veikimas"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "NEONINĖS LENKTYNĖS"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "Lenktyniaukite iki finišo linijos ir neleiskite jos pasiekti kitiems. Kelkite daugiau chaoso naudodami skydą ir greitį!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "Pavojus: judančios platformos"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "Venkite lazerių ir apskaičiuokite kada pašokti pakeliui iki finišo!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "Pavojus: lazeriai ir šuoliai"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "norėdami daugiau sužinoti apie šį režimą"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "Paspauskite,"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "Neoninės lenktynės"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15–30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "Kovokite iki pat\nfinišo tiesiosios"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Visi lygiai"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "Esat žemiems grafikos nustatymams gali kilti problemų su vaizdu. Mes rekomenduojame žaisti su aukščiausiomis grafikomis, jei tik tą leidžia jūsų kompiuterinė įranga. Šis režimas reikalauja aukštos kompiuterio greitaveikos, o intensyvių akimirkų metu gali sumažėti kadrų per sekundę skaičius."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "Esat žemiems grafikos nustatymams gali kilti problemų su vaizdu. Mes rekomenduojame žaisti su aukščiausiomis grafikomis, jei tik tą leidžia jūsų kompiuterinė įranga. Šis režimas reikalauja aukštos kompiuterio greitaveikos. Intensyvios kovos metu gali sumažėti kadrų per sekundę skaičius."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "Neoninės lenktynės"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "Neoninės lenktynės"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "\"Neoninės lenktynės\""
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} %(levels)s&nbsp;lygiai"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "Esat žemiems grafikos nustatymams gali kilti problemų su vaizdu. Mes rekomenduojame žaisti su aukščiausiomis grafikomis, jei tik tą leidžia jūsų kompiuterinė įranga. Šis režimas reikalauja aukštos kompiuterio greitaveikos. Intensyvios kovos metu gali sumažėti kadrų per sekundę skaičius."
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "Esat žemiems grafikos nustatymams gali kilti problemų su vaizdu. Mes rekomenduojame žaisti su aukščiausiomis grafikomis, jei tik tą leidžia jūsų kompiuterinė įranga. Šis režimas reikalauja aukštos kompiuterio greitaveikos. Intensyvios kovos metu gali sumažėti kadrų per sekundę skaičius."
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Rekomenduojami aukščiausi grafikos nustatymai"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

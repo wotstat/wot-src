@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "Nimi"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "Kuukaudessa"
+
+msgid "ClanListWindow/table/role"
+msgstr "Asema"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "Viikossa"
+
+msgid "battleQueue/clanPosition"
+msgstr "Sijoitus: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "Sijoitus:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "Etsitään vihollisia:"
+
+msgid "battleQueue/waitBattle"
+msgstr "Odotetaan taistelua:"
+
+msgid "battleQueue/yourTeam"
+msgstr "Sinun osastosi:"
+
+msgid "disconnected/Warning"
+msgstr "Huomio!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "Linnake on väliaikaisesti poissa käytöstä. Yritä myöhemmin uudelleen."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "Linnake ei ole käytettävissä verkkovierailun aikana. Päästäksesi Linnakkeeseen, mene omalle alueellesi."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "Klaanin jäsenet"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "Legioonalaiset"
+
+msgid "fortVehPopover/btnSave"
+msgstr "Tallenna valinta (%(count)d)"
+
+msgid "inspire/inspired"
+msgstr "Motivoitu"
+
+msgid "inspire/inspiring"
+msgstr "Motivoitu"
+
+msgid "mainWindow/maintenance/body"
+msgstr "Pahoittelemme aiheutunutta häiriötä."
+
+msgid "mainWindow/maintenance/button"
+msgstr "Päivitä"
+
+msgid "mainWindow/maintenance/header"
+msgstr "Virhe ladattaessa tietoja"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "Ylimääräinen tiedotus"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "Taistelumaksut"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "Sotaharjoitukset"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "Taktinen koulutus"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "Lisävaikutus"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "Komentaa tykistön ampumaan valitulle alueille kahakoissa ja hyökkäysoperaatioissa yhdessä taistelussa"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "Tarjoaa bonuksen vaunusi ja lähellä olevien liittolaisvaunujen miehistöjen päätaitoihin ja pätevyyksiin motivionnilla kahakoissa ja hyökkäysoperaatioissa yhdessä taistelussa"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "Reservi voidaan ottaa käyttöön ennen taistelua"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "Reservi voidaan ottaa käyttöön ennen hyökkäysoperaatiota"
+
+msgid "reserves/tooltip/empty"
+msgstr "Sinulla ei ole käyttöönotettavia reservejä"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s varastossa"
+
+msgid "reserves/tooltip/level"
+msgstr "Taso %(level)s"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "Vaikutus käytettäessä"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "Voidaan ottaa käyttöön"
+
+msgid "reserves/tooltip/selected"
+msgstr "Käytössä"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "Klikkaa nähdäksesi lista reserveistä, jotka voit ottaa käyttöön."
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "Reservin voi ottaa käyttöön vain erillisosaston komentaja, joka on arvoltaan johtaja, apulaisjohtaja, henkilöstöupseeri tai komentaja."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "Erillisosastossa ei tarpeeksi klaanin jäseniä: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Taistelun alkuun %(nextDate)s min"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "Aloitusaika määritetään myöhemmin"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "Taistelun päättymiseen %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "Kahakoita saatavilla"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "Tuleva taistelu alkaa %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "Taistelun alkuun %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "Taistelu alkaa tänään kello %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "Taistelu alkaa huomenna kello %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "Aloitusaika määritetään myöhemmin"
+
+msgid "sortie/introView/title"
+msgstr "Linnake: taistelut"
+
+msgid "sortie/listView/enterBtn"
+msgstr "Liity"
+
+msgid "sortie/listView/enterText"
+msgstr "Voit liittyä vapaaehtoisena"
+
+msgid "sortie/listView/notSelected"
+msgstr "Valitse erillisosasto vasemmalla olevalta listalta\nnähdäksesi yksityiskohtaisen kuvauksen."
+
+msgid "sortie/listView/teamMembers"
+msgstr "Jäseniä: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "Vaunut:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "Legioonalaiset"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "Automaattihaku"
+
+msgid "sortie/room/candidates"
+msgstr "Vapaaehtoiset"
+
+msgid "sortie/room/chat"
+msgstr "Chat"
+
+msgid "sortie/room/description"
+msgstr "Luotu erillisosasto taistelee taistelun satunnaisen vihollisklaanin kanssa neutraalilla alueella. Vaunujen taso määräytyy valitun jaoston mukaan."
+
+msgid "sortie/room/fight"
+msgstr "Taistele!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "Kutsu pelaajia"
+
+msgid "sortie/room/leaveBtn"
+msgstr "MENE ERILLISOSASTOJEN HAKUUN"
+
+msgid "sortie/room/level"
+msgstr "Taso %(level)s"
+
+msgid "sortie/room/members"
+msgstr "Jäseniä: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "Ei valmis"
+
+msgid "sortie/room/ready"
+msgstr "Valmis!"
+
+msgid "sortie/room/title"
+msgstr "Erillisosasto"
+
+msgid "sortie/slot/emptySlot"
+msgstr "Tyhjä"
+
+msgid "sortie/slot/takePlace"
+msgstr "Ota paikka"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "Valitse vaunu liittyäksesi taisteluun. Punainen merkki osoittaa vaunut, jotka eivät ole valmiita taisteluun."
+
+msgid "stronghold/teamHeader"
+msgstr "Erillisosaston jäsenet"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "Valitse vaunut legioonalaisille"
+
+msgid "strongholdPopover/header"
+msgstr "Valitse vaunut"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "Valitut vaunut:"
+
+msgid "strongholdbuilds/direction"
+msgstr "%(direction)s liittolaisten sillanpää"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "Pohjoinen"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "Itäinen"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "Eteläinen"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "Läntinen"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "Vihollisen sillanpää"
+
+msgid "strongholdbuilds/mapName"
+msgstr "Kartta: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "Kartta valitaan hyökkäysoperaation alettua"
+
+msgid "strongholdbuilds/point1"
+msgstr "Linnoitus"
+
+msgid "strongholdbuilds/point2"
+msgstr "Varalinja"
+
+msgid "strongholdbuilds/point3"
+msgstr "Etulinja"
+
+msgid "strongholdbuilds/point4"
+msgstr "Etulinja"
+
+msgid "strongholdbuilds/point5"
+msgstr "Varalinja"
+
+msgid "strongholdbuilds/point6"
+msgstr "Linnoitus"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "x%(reward)s jokaisen päivän hyökkäysoperaatioiden voitosta tässä sillanpäässä"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "Linnoituksen puolustamisesta, kun molemmat linjat menetettiin"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "Varalinjan puolustamisesta, kun etulinja menetettiin"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "Molempien linjojen puolustamisesta ilman vihollislinjojen valtaamista"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "Pelkän etulinjan valtaamisesta"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "Molempien linjojen valtaamisesta ilman linnoituksen valtaamista"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "Vihollisen linnoituksen valtaamisesta"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "Lunastus-reservin käytöstä"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "Myönnetään hyökkäysoperaation jälkeen"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "Piilota legioonalaisilta"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "Osasto näytetään"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "Näytä legioonalaisille"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "Osasto on piilotettu"
+
+msgid "strongholddirection/A"
+msgstr "Pohjoinen"
+
+msgid "strongholddirection/B"
+msgstr "Itäinen"
+
+msgid "strongholddirection/C"
+msgstr "Eteläinen"
+
+msgid "strongholddirection/D"
+msgstr "Läntinen"
+
+msgid "strongholdinfo/sortie"
+msgstr "Kahakka divisioonassa %(level)s"
+
+msgid "strongholdinfo/stronghold"
+msgstr "Hyökkäysoperaatio sillanpäästä: %(direction)s"
+
+msgid "strongholdmap/randomMap"
+msgstr "Satunnainen kartta"
+
+msgid "strongholdreserve/boost"
+msgstr "Motivointi"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "Suuren kapasiteetin kuljetus"
+
+msgid "strongholdreserve/requisition"
+msgstr "Lunastus"
+
+msgid "strongholdreserve/support"
+msgstr "Tykistöisku"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "Kahakoissa ja hyökkäysoperaatioissa 1 taistelun ajaksi"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "Hyökkäysoperaation tuloksista"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "Aktivoituu taistelun alkaessa"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "Aktivoituu hyökkäysoperaation alkaessa"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "Aktivoituu, kun reservi käytetään taistelussa"
+
+msgid "strongholdtable/rating"
+msgstr "Luokitus"
+
+msgid "strongholdtable/roster"
+msgstr "Kokoonpano"
+
+msgid "strongholdtable/tech"
+msgstr "Vaunut"
+
+msgid "strongholdtitle/sortie"
+msgstr "Kahakka"
+
+msgid "strongholdtitle/stronghold"
+msgstr "Hyökkäysoperaatio sillanpäästä: %(direction)s"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Raja{/HEADER}{BODY}Neutraali alue. Voittaja hyökkää vihollislinjaan seuraavassa taistelussa. Jos taistelu päättyy tasapeliin, hyökkäävä joukkue arvotaan.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "Hyökkäysoperaatio sillanpäästä: %(direction)s"
+
+msgid "strongholdtooltips/hours"
+msgstr "t"
+
+msgid "strongholdtooltips/minuts"
+msgstr "min"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "Kahakka divisioonassa %(level)s"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "Vaunun tyyppi määritetään automaattisesti legioonalaiselle klikattuasi \"Taistele\" -nappia.\n\nKlikkaa vahvistaaksesi tai peruuttaaksesi valittu vaunutyyppi legioonalaisille."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "Legioonalaiset lisätään automaattisesti tyhjille paikoille"

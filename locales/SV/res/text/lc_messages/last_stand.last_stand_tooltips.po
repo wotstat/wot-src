@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "Evenemanget är tillgängligt i %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) - Stridsläge. Klicka för att utforska"
+
+msgid "bannerTooltip/description"
+msgstr "Speciella PvE-strider som låter dig kämpa mot vågor av fiender. Välj din favoritvagn, förstör spökvagnarna och hejda invasionen. Exklusiva belöningar och mycket mer väntar!"
+
+msgid "bannerTooltip/header"
+msgstr "Sista striden: Terra nord"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Din dators prestanda räcker inte för detta läge. Du kan uppleva grafikproblem och problem att köra din vagn. Det är även troligt att spelklienten kommer krascha."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Detta läge kräver hög datorprestanda. Du kommer uppleva att kartorna laddar långsamt, grafikproblem och problem att köra din vagn. Om du upplever att din dator inte klarar av detta bör du sänka kvalitetsinställningarna."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Låg prestanda"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Möjligt minskad prestanda"
+
+msgid "battlePass/playGame"
+msgstr "Tjäna poäng i Sista striden genom att slutföra delmomenten (vagnar klass VIII krävs)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Ni är redan vänner."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Väntar på svar på vänförfrågan."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Ta bort spelare från svarta listan."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Lägg till på vänlistan."
+
+msgid "battleResult/interaction/menu"
+msgstr "Klicka för att öppna interaktionsmeny för den här spelaren."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Lägg till i pluton."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Spelaren är redan med i plutonen."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Inbjudan redan skickad."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Bara plutonsbefälhavaren kan bjuda in spelare till plutonen."
+
+msgid "booster/activated"
+msgstr "Aktiverad"
+
+msgid "booster/howItWorks"
+msgstr "Så funkar det"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Nedkylning: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Pris i mirium: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "Tid kvar att slutföra dagligt uppdrag"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "Tid kvar till nästa dagliga uppdrag"
+
+msgid "dailyQuests/completed"
+msgstr "Slutfört"
+
+msgid "dailyQuests/completedAll"
+msgstr "Du har slutfört alla evenemangets dagliga uppdrag."
+
+msgid "dailyQuests/completedDescr"
+msgstr "Du har slutfört det här dagliga uppdraget. Ett nytt blir tillgängligt imorgon."
+
+msgid "dailyQuests/rewards"
+msgstr "Belöningar:"
+
+msgid "dailyQuests/status"
+msgstr "Nytt dagligt uppdrag om %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "Evenemanget är tillgängligt i %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Välj en av de tillgängliga vagnarna för att delta i strid."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Ej tillgänglig"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Striderna eller svårighetsgraden är tillfälligt ej tillgänglig av tekniska skäl."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Ej tillgänglig"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Du måste vänta tills plutonen återvänder från förra striden innan du kan delta i en ny strid."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Ej tillgänglig"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Den här svårighetsgraden är inte kompatibel med plutonen."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Ej tillgänglig"
+
+msgid "points/accrued"
+msgstr "Mottaget"
+
+msgid "points/battles"
+msgstr "• Utkämpa strider i evenemanget"
+
+msgid "points/body"
+msgstr "Data används för att göra framsteg i Sista strid, få värdefulla resurser och en stor belöning. Du erhåller den i evenemangsstrider, dagliga uppdrag eller genom att köpa {{bundle_name}}."
+
+msgid "points/bottom"
+msgstr "Evenemanget avslutas: (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• Slutför nya dagliga uppdrag varje dag"
+
+msgid "points/effective"
+msgstr "• Stridsprestation:"
+
+msgid "points/gold"
+msgstr "• Köp {{bundle_name}} i affären"
+
+msgid "points/header"
+msgstr "Data"
+
+msgid "points/howToEarn"
+msgstr "Hur du erhåller"
+
+msgid "points/missionDaily"
+msgstr "• Slutförda dagliga uppdrag:"
+
+msgid "points/obelisk"
+msgstr "• Förstörd obelisk:"
+
+msgid "points/vehicleDaily"
+msgstr "• Daglig vagnsbonus mottagen:"
+
+msgid "rewardPath/info/first"
+msgstr "Du kan inhämta ännu mer data genom att slutföra dagliga uppdrag, som uppdateras varje dag under evenemanget."
+
+msgid "rewardPath/info/header"
+msgstr "Ytterligare data"
+
+msgid "rewardPath/info/second"
+msgstr "Även ett speciellt evenemangspaket i affären innehåller data som snabbar på dina framsteg."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "Vagnsbonus:"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "Andra belöningar:"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}Vagnsbonus{EDCB9E_End} — {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "All data och belöningar mottagna"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "Inhämtad data {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "Samla data i strid för att göra framsteg i Sista striden. Varje delmoment ger dig värdefulla belöningar och en bonus som hjälper dig besegra ännu mäktigare fiender."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "Sista delmomentet"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "Aktuellt delmoment"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "Evenemanget är tillgängligt i {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "Framsteg"
+
+msgid "shopWidget/body"
+msgstr "Klicka för att öppna en specialsektion för exklusivt evenemangsinnehåll i affären i spelet."
+
+msgid "shopWidget/header"
+msgstr "Evenemangspaket"
+
+msgid "teamList/actions/body"
+msgstr "Snabbkommandon för att skapa pluton och lägga till / ta bort vänner."
+
+msgid "teamList/actions/header"
+msgstr "Snabbkommandon"
+
+msgid "teamList/damage/body"
+msgstr "Sortera efter åsamkad skada."
+
+msgid "teamList/damage/header"
+msgstr "Åsamkad skada"
+
+msgid "teamList/keys/body"
+msgstr "Sortera efter inhämtad data. Värdet som visas räknar inte data inhämtad från dagliga uppdrag, eller från daglig vagnsbonus."
+
+msgid "teamList/keys/header"
+msgstr "Data"
+
+msgid "teamList/kills/body"
+msgstr "Sortera efter förstörda fiendevagnar."
+
+msgid "teamList/kills/header"
+msgstr "Förstörda fiendevagnar"
+
+msgid "teamList/name/header"
+msgstr "Spelarnamn"
+
+msgid "teamList/place/body"
+msgstr "Sortera efter placering i laget."
+
+msgid "teamList/place/header"
+msgstr "Placering i laget"
+
+msgid "teamList/squad/header"
+msgstr "En pluton är en taktisk enhet för samarbete i strid."
+
+msgid "teamList/vehicle/body"
+msgstr "Sortera efter vagnstyp och namn."
+
+msgid "teamList/vehicle/header"
+msgstr "Vagnar"
+
+msgid "teamList/warned/body"
+msgstr "Spelaren har straffats på grund av inaktivitet/desertering och får därför inga belöningar för den här striden."
+
+msgid "teamList/warned/header"
+msgstr "Varning"
+
+msgid "teamList/warned/self/body"
+msgstr "Du har straffats på grund av inaktivitet/desertering och får därför inga belöningar för den här striden."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Låg besättningseffektivitet"
+
+msgid "vehicle/rentState"
+msgstr "Låst"
+
+msgid "vehicleDaily/header"
+msgstr "Daglig vagnsbonus"

@@ -1,0 +1,50 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "serviceChannelMessages/resourceWell/enabled/text"
+msgstr "Rakennuspaja on taas auki!"
+
+msgid "serviceChannelMessages/resourceWell/end/text"
+msgstr "Alamme työstämään seuraavaa projektia. Kerromme sinulle, kun kehitystyö on valmis. Nähdään pian!"
+
+msgid "serviceChannelMessages/resourceWell/end/title"
+msgstr "Rakennuspaja on sulkeutumassa"
+
+msgid "serviceChannelMessages/resourceWell/noSerialVehicles/text"
+msgstr "Numeroilla merkittyjen vaunujen toimitus valmis. Ryhdymme kokoamaan %(vehicle)s vaunuja peruskokoonpanossa. Kiirehdi, sillä vaunuja on saatavilla vain rajattu määrä!"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/text"
+msgstr "Vaunujen kokoonpano valmis. Kaikki vaunut toimitettiin omistajilleen."
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/title"
+msgstr "Rakennuspajan raportti"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/twoParallelProducts/text"
+msgstr "%(soldOutVehicle)s vaunujen toimitus valmis. Sinulla on yhä tilaisuus ostaa %(availableVehicle)s. Jos olet käyttänyt resursseja, mutta et suorita ostoa loppuun ajoissa, palautetaan resurssisi tilillesi. Kiirehdi, sillä vaunuja on saatavilla vain rajattu määrä!"
+
+msgid "serviceChannelMessages/resourceWell/noVehiclesWithReturn/text"
+msgstr "Vaunujen kokoonpano valmis. Kaikki vaunut toimitettiin omistajilleen. Kaikki käytetyt resurssit palautetaan tilillesi pian."
+
+msgid "serviceChannelMessages/resourceWell/oneVehicleStart/text"
+msgstr "Komentaja! Sinulla on mahdollisuus saada omistukseesi %(vehicle)s vaunu numerolla merkityn kolmiulotteisen tyylin kera. Vaunuja on rajoitettu määrä!"
+
+msgid "serviceChannelMessages/resourceWell/pause/text"
+msgstr "Rakennuspaja on väliaikaisesti pois käytöstä huoltotoimien tähden."
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/additionalText"
+msgstr "Tyylin numero: %(serialNumber)s"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/text"
+msgstr "Ainutlaatuinen %(vehicle)s saatu rakennuspajasta."
+
+msgid "serviceChannelMessages/resourceWell/reward/title"
+msgstr "%(vehicle)s saatu!"
+
+msgid "serviceChannelMessages/resourceWell/reward/vehicle/text"
+msgstr "%(vehicle)s saatu rakennuspajasta."
+
+msgid "serviceChannelMessages/resourceWell/start/title"
+msgstr "Rakennuspaja on avautumassa"
+
+msgid "serviceChannelMessages/resourceWell/twoVehiclesStart/text"
+msgstr "Komentaja, nyt on tilaisuutesi hankkia %(firstVehicle)s ja %(secondVehicle)s! Mutta ole nopea, sillä näitä ei riitä kaikille!"

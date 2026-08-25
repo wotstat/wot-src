@@ -1,0 +1,1532 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "allVehicles"
+msgstr "Tümü"
+
+msgid "battleRating/tooltip/better/body"
+msgstr "Bu savaş normalden daha tatminkâr, dengeli veya eğlenceliydi."
+
+msgid "battleRating/tooltip/better/header"
+msgstr "Normalden daha iyi"
+
+msgid "battleRating/tooltip/usual/body"
+msgstr "Standart bir savaş - beklenmedik bir şey olmadı."
+
+msgid "battleRating/tooltip/usual/header"
+msgstr "Her zamanki gibi"
+
+msgid "battleRating/tooltip/worse/body"
+msgstr "Bu savaş her zamankinden daha can sıkıcı, dengesiz veya adaletsizdi."
+
+msgid "battleRating/tooltip/worse/header"
+msgstr "Normalden daha kötü"
+
+msgid "battleResult/battleRating/better/header"
+msgstr "NORMALDEN DAHA İYİ"
+
+msgid "battleResult/battleRating/none/header"
+msgstr "savaşınızı değerlendirin:"
+
+msgid "battleResult/battleRating/usual/header"
+msgstr "HER ZAMANKİ GİBİ"
+
+msgid "battleResult/battleRating/worse/header"
+msgstr "NORMALDEN DAHA KÖTÜ"
+
+msgid "battleResult/comp7Light/team/prestigePoints/body"
+msgstr "Prestij Puanına göre sıralayın."
+
+msgid "battleResult/comp7Light/team/prestigePoints/header"
+msgstr "Prestij Puanı"
+
+msgid "battleResult/navigation/battleResults"
+msgstr "Genel Bakış"
+
+msgid "battleResult/navigation/financialReport"
+msgstr "Finansal Rapor"
+
+msgid "battleResult/navigation/missionsProgress"
+msgstr "Görev Gelişimi"
+
+msgid "battleResult/navigation/teamEfficiency"
+msgstr "Ekip Skoru"
+
+msgid "battleResult/team/prestigePoints/body"
+msgstr "Prestij Puanına göre sırala. Prestij Puanları savaşta kazanılıp kaybedilen Reyting Puanlarını etkiler."
+
+msgid "battleResult/team/prestigePoints/header"
+msgstr "Prestij Puanı"
+
+msgid "common/arena/fullName"
+msgstr "{0} – {1}"
+
+msgid "common/arena/nameAndMode"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/battleEfficiency/allies"
+msgstr "Müttefikler:"
+
+msgid "common/battleEfficiency/allyBase"
+msgstr "Üs savunma"
+
+msgid "common/battleEfficiency/baseCapture"
+msgstr "Üs ele geçirme:"
+
+msgid "common/battleEfficiency/bases"
+msgstr "Üsler"
+
+msgid "common/battleEfficiency/enemyBase"
+msgstr "Üs ele geçirme"
+
+msgid "common/battleEfficiency/neutralBase"
+msgstr "Tarafsız üs"
+
+msgid "common/battleEfficiency/noEfficiency"
+msgstr "Bu savaşta herhangi bir faaliyette bulunmadınız."
+
+msgid "common/battleEfficiency/none"
+msgstr "Hiç düşman aracı yok edilmedi veya tespit edilmedi."
+
+msgid "common/battleEfficiency/technique"
+msgstr "Araçlar"
+
+msgid "common/battleEfficiency/title"
+msgstr "Savaş Performansı"
+
+msgid "common/battleEfficiency/uppercased_title"
+msgstr "SAVAŞ PERFORMANSI"
+
+msgid "common/battleEfficiencyWithSkills/title"
+msgstr "Savaş Performansı (kullanılan beceriler dâhil)"
+
+msgid "common/battleEfficiencyWithoutOreders/title"
+msgstr "Savaş Performansı (Savaş Yedekleri Dahil Değildir)"
+
+msgid "common/battleType/sortie"
+msgstr "Çatışma: rakip klan "
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "common/crewMember/description"
+msgstr "%(role)s, %(name)s"
+
+msgid "common/crewMember/newSkill"
+msgstr "Yeni yetenek"
+
+msgid "common/details/buyPremiumBtn"
+msgstr "Premium Satın Al"
+
+msgid "common/details/creditsTitle"
+msgstr "Kredi"
+
+msgid "common/details/crystal"
+msgstr "Tahviller"
+
+msgid "common/details/getPremBtn"
+msgstr "Detaylar"
+
+msgid "common/details/noPremTitle"
+msgstr "Standart Hesap"
+
+msgid "common/details/premTitle"
+msgstr "WoT Premium"
+
+msgid "common/details/premiumAdvertising/bonus"
+msgstr "{{@ split}}WoT Premium Hesap ile seçili muzaffer savaşa x{{multiplier}} deneyim bonusu uygulayın.{{/}}"
+
+msgid "common/details/premiumAdvertising/credits"
+msgstr "{{@ split}}{{bonusCredits}}WoT Premium Hesap ile her {{@ style}}{{durationInDays}} gün{{/}} miktarına varan ek kredi alın.{{/}}"
+
+msgid "common/details/premiumPlus/bonus"
+msgstr "WoT Premium Hesap ile seçili muzaffer savaşa x%(multiplier)d deneyim bonusu uygulayın."
+
+msgid "common/details/premiumPlus/credits"
+msgstr "WoT Premium Hesap ile her %(durationInDays)d gün %(bonusCredits)s miktarına varan ek kredi alın."
+
+msgid "common/details/premiumPlus/premium"
+msgstr "WoT Premium Hesap ile ek deneyim, kredi, Premium görevler ve Takım bonusları."
+
+msgid "common/details/premiumPlus/quests"
+msgstr "WoT Premium Hesap ile özel görevler açın."
+
+msgid "common/details/premiumPlus/squad"
+msgstr "WoT Premium Hesap ile bir Takımda oynarken daha fazla kredi kazanın."
+
+msgid "common/details/xpTitle"
+msgstr "Deneyim"
+
+msgid "common/details/xpTitleSquad"
+msgstr "Deneyim %(img)s"
+
+msgid "common/fitting/purchase"
+msgstr "Parça satın alımı"
+
+msgid "common/fitting/research"
+msgstr "Parça araştırması"
+
+msgid "common/mainFinishReasonTitle"
+msgstr "Ana savaş aşaması:"
+
+msgid "common/missions/noProgress/button"
+msgstr "Görevlere Git"
+
+msgid "common/missions/noProgress/description"
+msgstr "Mevcut görev gelişimine bakın"
+
+msgid "common/missions/noProgress/header"
+msgstr "Görevlerde veya araç araştırmasında gelişim yok."
+
+msgid "common/newSkillPrediction"
+msgstr "Kalan savaş (tahmini): %(battles)s"
+
+msgid "common/noIncome/alert/text"
+msgstr "10 savaş yaptıktan sonra bu kipte artık kredi, deneyim veya ödül kazanmayacaksınız ve savaş sonuçlarınız Kişisel Kaydınıza girmeyecek."
+
+msgid "common/noIncome/alert/title"
+msgstr "Dikkat!"
+
+msgid "common/noProgress"
+msgstr "Görevlerde, araç araştırmasında ve mürettebat eğitiminde hiç gelişme yok."
+
+msgid "common/overtimeFinishReasonTitle"
+msgstr "Uzatmalar:"
+
+msgid "common/player/nameWithClan"
+msgstr "{{name}} [{{clan}}]"
+
+msgid "common/plusBonus/bonusLeftAdditionalText"
+msgstr "Şununla daha çok açın:"
+
+msgid "common/plusBonus/earnedMessage"
+msgstr "Bugün kazandıklarınız:"
+
+msgid "common/plusBonus/earningsInformation"
+msgstr "Bugün %(count)s DP kazandınız"
+
+msgid "common/plusBonus/premiumPlusAdd"
+msgstr "WoT Plus veya WoT Premium ile açın"
+
+msgid "common/plusBonus/wotPlus"
+msgstr "WoT Plus"
+
+msgid "common/plusBonus/wotPremium"
+msgstr "WoT Premium"
+
+msgid "common/plusBonus/youRock"
+msgstr "Müthişsiniz!"
+
+msgid "common/premiumBonus"
+msgstr "Daha fazla kazanmak ister misiniz?"
+
+msgid "common/premiumBonus/appliedBonus"
+msgstr "Bonus başarıyla uygulandı"
+
+msgid "common/premiumBonus/applyBonusBtn"
+msgstr "Uygula"
+
+msgid "common/premiumBonus/bonusLeft"
+msgstr "Bugün kalan: %(count)s"
+
+msgid "common/premiumBonus/bonusMultiplier"
+msgstr "×{{value}}"
+
+msgid "common/premiumBonus/description"
+msgstr "Yönetilebilir DP Çarpanı"
+
+msgid "common/premiumBonus/earnMore"
+msgstr "Daha fazla kazanmak ister misiniz?"
+
+msgid "common/premiumBonus/expiredBattleResult"
+msgstr "Aynı araçta en son yapılan savaşa uygulanmalıdır."
+
+msgid "common/premiumBonus/isXPToTmenDisabled"
+msgstr "Bonus uygulanamaz: hızlandırılmış mürettebat eğitimi kapalı."
+
+msgid "common/premiumBonus/isXPToTmenDisabledWithInfo"
+msgstr "{{@ split}}Bonus uygulanamaz: Hızlandırılmış mürettebat eğitimi {{@ style}}kapalı.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/isXPToTmenEnabled"
+msgstr "Bonus uygulanamaz: hızlandırılmış mürettebat eğitimi açık."
+
+msgid "common/premiumBonus/isXPToTmenEnabledWithInfo"
+msgstr "{{@ split}}Bonus uygulanamaz: Hızlandırılmış mürettebat eğitimi {{@ style}}açık.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/rule"
+msgstr "Çarpanlar sadece zafer kazandığınız savaşlara uygulanabilir. Gelecek sefer şansınız bol olsun!"
+
+msgid "common/premiumBonus/tankStateChanged"
+msgstr "Yönetilebilir bonus uygulanamaz: araç bulunamadı."
+
+msgid "common/premiumBonus/tankStateChangedWithInfo"
+msgstr "{{@ split}}Yönetilebilir bonus uygulanamaz: araç {{@ style}}bulunamadı.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/tankmenStateChanged"
+msgstr "Yönetilebilir bonus uygulanamaz: mürettebat bulunamadı."
+
+msgid "common/premiumBonus/tankmenStateChangedWithInfo"
+msgstr "{{@ split}}Yönetilebilir bonus uygulanamaz: mürettebat {{@ style}}bulunamadı.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/unavailable"
+msgstr "Çarpanlar bu oyun kipinde geçerli değil."
+
+msgid "common/progressTitle"
+msgstr "Araç Araştırması ve Görev Gelişimi"
+
+msgid "common/quests/noprogress"
+msgstr "Görevlerde başka etkinlik yok"
+
+msgid "common/researchPrediction"
+msgstr "Kalan savaş (tahmini): %(battles)s"
+
+msgid "common/resultsShareBtn"
+msgstr "Link Alın"
+
+msgid "common/startTime"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/tooltip/armor/description"
+msgstr "Sayılan:\n• Seken düşman ateşi\n• Delemeyen isabetler\n\nHE ve HESH mermi isabetleri sayılmaz."
+
+msgid "common/tooltip/armor/header"
+msgstr "Zırh Kullanımı"
+
+msgid "common/tooltip/armor/part1"
+msgstr "Sekmeler"
+
+msgid "common/tooltip/armor/part2"
+msgstr "Delmeyenler"
+
+msgid "common/tooltip/armor/part3"
+msgstr "Zırh tarafından engellenen hasar %(vals)s"
+
+msgid "common/tooltip/assist/description"
+msgstr "Düşman araçlarına müttefiklerin verdiği şu hasar türleri sayılır:\n• Tespitiniz sayesinde hasar\n• Düşman aracının paletini yok edip hareketsiz bırakmanız sayesinde hasar"
+
+msgid "common/tooltip/assist/header"
+msgstr "Yok etmeye yardım"
+
+msgid "common/tooltip/assist/part1"
+msgstr "Tespit etmeniz sayesinde hasar %(vals)s"
+
+msgid "common/tooltip/assist/part2"
+msgstr "Bir düşman aracının paletini yok edip hareketsiz bırakmanız sonucu verilen hasar %(vals)s"
+
+msgid "common/tooltip/assist/total"
+msgstr "Müttefikler tarafından düşman aracına verilen toplam hasar %(vals)s"
+
+msgid "common/tooltip/capture/description"
+msgstr "Sayılan:\n• Düşman üssü işgal puanı\n• Tarafsız üs işgal puanı"
+
+msgid "common/tooltip/capture/header"
+msgstr "Üs İşgali"
+
+msgid "common/tooltip/capture/totalPoints"
+msgstr "Toplam üs işgal puanı"
+
+msgid "common/tooltip/counter"
+msgstr "Savaşta alınan toplam bröveler: %(count)s"
+
+msgid "common/tooltip/counter/forEnemy"
+msgstr "O düşman aracı için savaşta alınan bröveler: %(count)s"
+
+msgid "common/tooltip/counter/noItems"
+msgstr "Bröve savaşta alınmadı."
+
+msgid "common/tooltip/crits/critDamage"
+msgstr "İmhalar:"
+
+msgid "common/tooltip/crits/critDestruction"
+msgstr "Yok Edilen:"
+
+msgid "common/tooltip/crits/critWound"
+msgstr "Yaralanmış:"
+
+msgid "common/tooltip/crits/description"
+msgstr "Sayılan:\n• Düşman aracı üzerindeki hasarlı iç ve dış parçalar\n• Düşman aracı üzerindeki yok edilmiş iç ve dış parçalar\n• Düşman aracının yaralanmış mürettebat üyeleri."
+
+msgid "common/tooltip/crits/header"
+msgstr "Kritik Hasar"
+
+msgid "common/tooltip/crits/total"
+msgstr "Toplam:"
+
+msgid "common/tooltip/damage/description"
+msgstr "Sayılan:\n• Atışla verilen hasar\n• Çarpma ile verilen hasar\n• Yangın ile verilen hasar\n• Güçlü vurma ile verilen hasar"
+
+msgid "common/tooltip/damage/header"
+msgstr "Hasar"
+
+msgid "common/tooltip/damage/part1"
+msgstr "Toplam hasar %(vals)s"
+
+msgid "common/tooltip/damage/part2"
+msgstr "Toplam delme sayısı"
+
+msgid "common/tooltip/defence/description"
+msgstr "Sayılan:\n• Dost üs savunma puanı\n• Tarafsız üs savunma puanı"
+
+msgid "common/tooltip/defence/header"
+msgstr "Üs Savunması"
+
+msgid "common/tooltip/defence/totalPoints"
+msgstr "Toplam üs savunma puanı"
+
+msgid "common/tooltip/kill/header"
+msgstr "Yok Edilen düşman"
+
+msgid "common/tooltip/kill0/description"
+msgstr "Mermi ile yok edilen düşman aracı"
+
+msgid "common/tooltip/kill1/description"
+msgstr "Yangın ile yok edilen düşman aracı"
+
+msgid "common/tooltip/kill2/description"
+msgstr "Çarpma ile yok edilen düşman aracı"
+
+msgid "common/tooltip/kill3/description"
+msgstr "Kaza yapan düşman aracı"
+
+msgid "common/tooltip/kill4/description"
+msgstr "Ölüm bölgesi tarafından yok edilen düşman aracı"
+
+msgid "common/tooltip/kill5/description"
+msgstr "Düşman aracı boğuldu"
+
+msgid "common/tooltip/kill6/description"
+msgstr "Ateş Fırtınası tarafından yok edildi"
+
+msgid "common/tooltip/kill7/description"
+msgstr "Düşman aracı ters döndü."
+
+msgid "common/tooltip/killCommon/description"
+msgstr "Sayılan:\n• Mermi ile yok etme\n• Yakarak yok etme\n• Çarparak yok etme\n• Boğarak yok etme\n• Düşman aracını bir engelin üstünden atarak yok etme\n• Ters çevirerek yok etme."
+
+msgid "common/tooltip/params/val"
+msgstr "(CP)"
+
+msgid "common/tooltip/params/val/seconds"
+msgstr "(sn.)"
+
+msgid "common/tooltip/spotted/description"
+msgstr "Düşman araçlarının ilk tespiti sayılır."
+
+msgid "common/tooltip/spotted/header"
+msgstr "Tespit"
+
+msgid "common/tooltip/stun/description"
+msgstr "Sayılan hasar:\n• Müttefikler tarafından sizin şoka soktuğunuz düşman aracına verilen hasar."
+
+msgid "common/tooltip/stun/header"
+msgstr "Şok"
+
+msgid "common/tooltip/stun/part1"
+msgstr "Toplam hasar %(vals)s"
+
+msgid "common/tooltip/stun/part2"
+msgstr "Şok sayısı"
+
+msgid "common/tooltip/stun/part3"
+msgstr "Toplam şoka sokma süresi: %(vals)s"
+
+msgid "common/tooltip/teamKill-1/description"
+msgstr "Yok Edilen müttefik aracı"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "Ekip Arkadaşını Öldürme"
+
+msgid "common/tooltip/teamKill0/description"
+msgstr "Mermi ile yok edilen müttefik araç"
+
+msgid "common/tooltip/teamKill1/description"
+msgstr "Yangın ile yok edilen müttefik araç"
+
+msgid "common/tooltip/teamKill2/description"
+msgstr "Çarpma ile yok edilen müttefik araç"
+
+msgid "common/tooltip/teamKill3/description"
+msgstr "Kaza yapan müttefik araç"
+
+msgid "common/tooltip/teamKill4/description"
+msgstr "Ölüm bölgesi tarafından yok edilen müttefik araç"
+
+msgid "common/tooltip/teamKill5/description"
+msgstr "Müttefik araç boğuldu"
+
+msgid "common/tooltip/xpTitleSquad"
+msgstr "Bu savaşta bir Takımda oynadığınız için ek deneyim aldınız."
+
+msgid "common/totalTooltip/armor/part1"
+msgstr "Sekmeler"
+
+msgid "common/totalTooltip/armor/part2"
+msgstr "Delmeyenler"
+
+msgid "common/totalTooltip/armor/part3"
+msgstr "Zırh tarafından engellenen hasar"
+
+msgid "common/totalTooltip/assist/part1"
+msgstr "Tespitiniz sayesinde hasar"
+
+msgid "common/totalTooltip/assist/part2"
+msgstr "Bir düşman aracının paletini yok edip hareketsiz bırakmanız sonucu verilen hasar"
+
+msgid "common/totalTooltip/assist/total"
+msgstr "Müttefikler tarafından düşman aracına verilen toplam hasar"
+
+msgid "common/totalTooltip/damage/part1"
+msgstr "Toplam hasar"
+
+msgid "common/totalTooltip/damage/part2"
+msgstr "Toplam delme sayısı"
+
+msgid "common/totalTooltip/stun/part1"
+msgstr "Toplam hasar"
+
+msgid "common/totalTooltip/stun/part2"
+msgstr "Şok sayısı"
+
+msgid "common/totalTooltip/stun/part3"
+msgstr "Toplam şoka sokma süresi"
+
+msgid "common/vehicle/details"
+msgstr "%(vehicle)s, %(type)s"
+
+msgid "common/vehicle/purchase"
+msgstr "Araç satın alma"
+
+msgid "common/vehicle/research"
+msgstr "Araç araştırma"
+
+msgid "common/vehicleState/alive"
+msgstr "Sağ"
+
+msgid "common/vehicleState/dead0"
+msgstr "Mermi ile yok edildi"
+
+msgid "common/vehicleState/dead0_with_killername"
+msgstr "Mermi ile yok edildi ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead0_with_killername_and_clan"
+msgstr "Mermi ile yok edildi ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead1"
+msgstr "Yangın ile yok edildi"
+
+msgid "common/vehicleState/dead12"
+msgstr "Kendi kendini imha etti"
+
+msgid "common/vehicleState/dead13"
+msgstr "Oyuncunun becerisiyle yok edilen"
+
+msgid "common/vehicleState/dead1_with_killername"
+msgstr "Yangın ile yok edildi ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead1_with_killername_and_clan"
+msgstr "Yangın ile yok edildi ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead2"
+msgstr "Çarpma ile yok edildi"
+
+msgid "common/vehicleState/dead27"
+msgstr "Topçu Saldırısı tarafından yok edildi"
+
+msgid "common/vehicleState/dead29"
+msgstr "Kaza yaptı"
+
+msgid "common/vehicleState/dead2_with_killername"
+msgstr "Çarpma ile yok edildi ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead2_with_killername_and_clan"
+msgstr "Çarpma ile yok edildi ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead3"
+msgstr "Kaza yaptı"
+
+msgid "common/vehicleState/dead30"
+msgstr "Mermi ile yok edildi"
+
+msgid "common/vehicleState/dead30_with_killername"
+msgstr "Mermi ile yok edildi ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead30_with_killername_and_clan"
+msgstr "Mermi ile yok edildi ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead35"
+msgstr "Kaza yaptı"
+
+msgid "common/vehicleState/dead3_with_killername"
+msgstr "Düştü ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead3_with_killername_and_clan"
+msgstr "Düştü ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead4"
+msgstr "Ölüm bölgesi tarafından yok edildi"
+
+msgid "common/vehicleState/dead5"
+msgstr "Araç boğuldu"
+
+msgid "common/vehicleState/dead5_with_killername"
+msgstr "Araç boğuldu ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead5_with_killername_and_clan"
+msgstr "Araç boğuldu ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead6"
+msgstr "Ateş Fırtınası tarafından yok edildi"
+
+msgid "common/vehicleState/dead7"
+msgstr "Ters dönerek yok edildi"
+
+msgid "common/vehicleState/dead7_with_killername"
+msgstr "Ters dönerek yok edildi ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead7_with_killername_and_clan"
+msgstr "Ters dönerek yok edildi ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/prematureLeave"
+msgstr "Savaşın sonu gelmeden çık"
+
+msgid "common/vehicleState/victory"
+msgstr "Zafer!"
+
+msgid "common/wotPlusBonus/bonusLeft"
+msgstr "Bugün kalan: %(count)s"
+
+msgid "common/xpMultiplierSign"
+msgstr "x"
+
+msgid "comms/likes/pbs/text/01"
+msgstr "Bu savaşta alınan takdirnameler"
+
+msgid "comms/likes/pbs/tooltip/body"
+msgstr "Bu savaşta {{var}} müttefik sizi takdir etti."
+
+msgid "comms/likes/pbs/tooltip/bodySingle"
+msgstr "Bu savaşta {{var}} müttefik sizi takdir etti."
+
+msgid "comms/likes/pbs/tooltip/header"
+msgstr "Alınan takdirnameler"
+
+msgid "conditions/type/and"
+msgstr "VE"
+
+msgid "conditions/type/or"
+msgstr "YA DA"
+
+msgid "customizationProgress/award/newLevel"
+msgstr "Seviye %(level)s \"%(name)s\" çıkartmasına ulaşıldı."
+
+msgid "customizationProgress/award/received"
+msgstr "\"%(name)s\" çıkartması alındı %(count)s."
+
+msgid "customizationProgress/descr"
+msgstr "Seviye %(level)s \"%(name)s\" çıkartma"
+
+msgid "cyberSport/btnToTeamProfile"
+msgstr "Ekip Profili"
+
+msgid "cyberSport/points"
+msgstr "Puanlar:"
+
+msgid "cyberSport/status/lose"
+msgstr "Yenilgi"
+
+msgid "cyberSport/status/tie"
+msgstr "Berabere"
+
+msgid "cyberSport/status/win"
+msgstr "Zafer!"
+
+msgid "details/calculations/additionalBonus"
+msgstr "Deneyime Yönetilebilir Bonus"
+
+msgid "details/calculations/aogasFactor"
+msgstr "İndirgeme katsayısı (AOGAS)"
+
+msgid "details/calculations/autoBoosters"
+msgstr "Yönergeleri otomatik ikmal et"
+
+msgid "details/calculations/autoEquip"
+msgstr "Otomatik yüklenen sarf malzemeleri"
+
+msgid "details/calculations/autoLoad"
+msgstr "Otomatik yüklenen mühimmat"
+
+msgid "details/calculations/autoRepair"
+msgstr "Aracın otomatik tamiri"
+
+msgid "details/calculations/autoResupply"
+msgstr "Otomatik olarak ikmal et"
+
+msgid "details/calculations/base"
+msgstr "Kazanılan"
+
+msgid "details/calculations/battlePayments"
+msgstr "Savaş Ödemeleri"
+
+msgid "details/calculations/boosters"
+msgstr "Kişisel Yedekler bonusu"
+
+msgid "details/calculations/crystal/events"
+msgstr "Görevleri tamamlama karşılığında"
+
+msgid "details/calculations/crystal/total"
+msgstr "Aracın özel kabiliyeti için"
+
+msgid "details/calculations/event"
+msgstr "Görev ve etkinlikleri tamamlama ödülü"
+
+msgid "details/calculations/fairPlayViolation/afk"
+msgstr "Savaşta eylemsizlik cezası"
+
+msgid "details/calculations/fairPlayViolation/comp7_deserter"
+msgstr "Firar cezası"
+
+msgid "details/calculations/fairPlayViolation/comp7_light_deserter"
+msgstr "Firar cezası"
+
+msgid "details/calculations/fairPlayViolation/deserter"
+msgstr "Firar cezası"
+
+msgid "details/calculations/fairPlayViolation/epic_deserter"
+msgstr "Firar cezası"
+
+msgid "details/calculations/fairPlayViolation/event_afk"
+msgstr "Savaşta eylemsizlik cezası"
+
+msgid "details/calculations/fairPlayViolation/event_deserter"
+msgstr "Firar cezası"
+
+msgid "details/calculations/fairPlayViolation/suicide"
+msgstr "Bilinçli kendini yok etme cezası"
+
+msgid "details/calculations/firstWin"
+msgstr "Günün ilk zaferi için ödül"
+
+msgid "details/calculations/fortOrder"
+msgstr "Kullanılan Yedekler için bonus"
+
+msgid "details/calculations/friendlyFireCompensation"
+msgstr "Müttefiklerden gelen hasar için tazminat"
+
+msgid "details/calculations/friendlyFirePenalty"
+msgstr "Müttefiklere hasar verme cezası"
+
+msgid "details/calculations/friendlyFireRankedXpPenalty"
+msgstr "Müttefikleri şoka sokma veya onlara hasar verme cezası"
+
+msgid "details/calculations/heavyTrucks"
+msgstr "Yüksek Kapasiteli Taşıt"
+
+msgid "details/calculations/igrBonus"
+msgstr "%(igrIcon)sda oynamaya ödül"
+
+msgid "details/calculations/igrBonus/simpleLabel"
+msgstr "IGR bonusu"
+
+msgid "details/calculations/intermediateTotal"
+msgstr "Savaş için toplam değer:"
+
+msgid "details/calculations/manageableXpBonus"
+msgstr "Yönetilebilir DP bonusu"
+
+msgid "details/calculations/maximum"
+msgstr "maksimum"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "Askeri manevralar için"
+
+msgid "details/calculations/multiplierInfo/body"
+msgstr "Şu araçlara her günün ilk zaferi için artırılmış deneyim eklendi:"
+
+msgid "details/calculations/multiplierInfo/header"
+msgstr "Günün ilk zaferi için ödül"
+
+msgid "details/calculations/multiplierInfo/vehicleSeparator"
+msgstr "• "
+
+msgid "details/calculations/noPenalty"
+msgstr "Cesur direnme için"
+
+msgid "details/calculations/petCredits/fullLabel"
+msgstr "Evcil Hayvan Bonusu (%%(bonusFactor)d)"
+
+msgid "details/calculations/petCredits/simpleLabel"
+msgstr "Evcil Hayvan Bonusu"
+
+msgid "details/calculations/piggyBankInfo"
+msgstr "Yedek Depoya eklendi"
+
+msgid "details/calculations/playerRankXP"
+msgstr "Rütbe bonusu"
+
+msgid "details/calculations/premiumVehicleXP"
+msgstr "Premium araç seviyesi için bonus"
+
+msgid "details/calculations/referralBonus"
+msgstr "Üye Kazandırma Bonusu (%(bonusFactor)d%%)"
+
+msgid "details/calculations/referralBonus/fullLabel"
+msgstr "Üye kazandırma bonusu (%%(bonusFactor)d)"
+
+msgid "details/calculations/referralBonus/simpleLabel"
+msgstr "Üye Kazandırma bonusu"
+
+msgid "details/calculations/squad/restrictions/title"
+msgstr "Takım Oyunu İçin "
+
+msgid "details/calculations/squadBonus"
+msgstr "Takımda oynama bonusu"
+
+msgid "details/calculations/squadXP"
+msgstr "Takımda oynama için"
+
+msgid "details/calculations/squadXPPenalty"
+msgstr "Uygunsuz Takım oluşumu cezası"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "Taktik eğitim için"
+
+msgid "details/calculations/title/base"
+msgstr "Kazanılan"
+
+msgid "details/calculations/title/expenses"
+msgstr "Masraflar"
+
+msgid "details/calculations/title/total"
+msgstr "Toplam"
+
+msgid "details/calculations/total"
+msgstr "Toplam:"
+
+msgid "details/calculations/wotPlus"
+msgstr "WoT Plus Savaş Bonusu"
+
+msgid "details/calculations/wotPlusBonus"
+msgstr "WoT Plus Savaş Bonusu"
+
+msgid "details/calculations/wotPlusProBoost"
+msgstr "WoT Plus Pro Takviyesi"
+
+msgid "details/calculations/xpRecord"
+msgstr "Alınan (%(color_tag_open)s maksimum %(color_tag_close)s)"
+
+msgid "details/calculations/xpRecordSimple"
+msgstr "Alındı (%(maximum)s)"
+
+msgid "details/credits"
+msgstr "Kredi"
+
+msgid "details/crystal"
+msgstr "Tahviller"
+
+msgid "details/noPrem"
+msgstr "Standart Hesap"
+
+msgid "details/prem"
+msgstr "Wargaming Premium"
+
+msgid "details/premPlus"
+msgstr "WoT Premium"
+
+msgid "details/resource"
+msgstr "Endüstriyel Kaynak"
+
+msgid "details/stats"
+msgstr "İstatistikler"
+
+msgid "details/time"
+msgstr "Süre"
+
+msgid "details/time/lbl_arenaCreateTimeOnlyStr"
+msgstr "Başlangıç Zamanı"
+
+msgid "details/time/lbl_basesCaptured"
+msgstr "Ele geçirilen alanlar"
+
+msgid "details/time/lbl_duration"
+msgstr "Savaş süresi"
+
+msgid "details/time/lbl_objectivesDestroyed"
+msgstr "Yok edilen hedefler"
+
+msgid "details/time/lbl_objectivesReached"
+msgstr "Erişilen hedefler"
+
+msgid "details/time/lbl_playerKilled"
+msgstr "İmha zamanı"
+
+msgid "details/time/val_no"
+msgstr "Hayır"
+
+msgid "details/time/val_yes"
+msgstr "Evet"
+
+msgid "details/time/value"
+msgstr "%(min)s dk. %(sec)s sn."
+
+msgid "details/time_epic"
+msgstr "Savaş"
+
+msgid "details/xp"
+msgstr "Deneyim"
+
+msgid "details/xp_abbr"
+msgstr "dp"
+
+msgid "exterminationVictory/allies"
+msgstr "Ekibiniz tüm düşman araçlarını yok etti"
+
+msgid "exterminationVictory/enemies"
+msgstr "Düşman ekibinizdeki tüm araçları yok etti"
+
+msgid "fallout/classic/lose/cap"
+msgstr "Düşman ekibi kendi ekibinizden daha çok zafer puanı kazandı"
+
+msgid "fallout/classic/lose/extermination"
+msgstr "Düşman ekibinizdeki tüm araçları yok etti"
+
+msgid "fallout/classic/lose/points"
+msgstr "Düşman ekibi kendi ekibinizden daha çok zafer puanı kazandı"
+
+msgid "fallout/classic/tie"
+msgstr "İki ekip de eşit sayıda zafer puanı kazandı"
+
+msgid "fallout/classic/win/cap"
+msgstr "Ekibiniz düşmandan daha fazla zafer puanı kazandı"
+
+msgid "fallout/classic/win/extermination"
+msgstr "Ekibiniz tüm düşman araçlarını yok etti"
+
+msgid "fallout/classic/win/points"
+msgstr "Ekibiniz düşmandan daha fazla zafer puanı kazandı"
+
+msgid "fallout/multiteam/ended"
+msgstr "Hedef tamamlanmadı"
+
+msgid "fallout/multiteam/noPlayerSelected"
+msgstr "Detayları incelemek için\nlisteden bir oyuncu seçin."
+
+msgid "fallout/multiteam/win/cap"
+msgstr "Ekibiniz düşmandan daha fazla zafer puanı kazandı"
+
+msgid "fallout/multiteam/win/extermination"
+msgstr "Tüm düşman müfrezeleri yok edildi"
+
+msgid "fallout/multiteam/win/points"
+msgstr "Ekibiniz düşmandan daha fazla zafer puanı kazandı"
+
+msgid "finish/clanBattle_reason_attack/1lose"
+msgstr "%(buildingName)s binası ele geçirilmedi"
+
+msgid "finish/clanBattle_reason_attack/1tie"
+msgstr "%(buildingName)s binası ele geçirildi"
+
+msgid "finish/clanBattle_reason_attack/1win"
+msgstr "Bina ele geçirildi: %(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1lose"
+msgstr "%(buildingName)s binası düşman tarafından ele geçirildi"
+
+msgid "finish/clanBattle_reason_def/1tie"
+msgstr "%(buildingName)s binası ele geçirilmedi"
+
+msgid "finish/clanBattle_reason_def/1win"
+msgstr "Bina savunuldu: %(buildingName)s"
+
+msgid "finish/clarification/finishAllPlayersLeft"
+msgstr "Sonuç, ekipler hakkında kalan bilgiye dayanılarak hesaplanır"
+
+msgid "finish/overtime/lose"
+msgstr "Düşman yok edilmedi"
+
+msgid "finish/overtime/win"
+msgstr "Düşman yok edildi"
+
+msgid "finish/playerTank/separator"
+msgstr "–"
+
+msgid "finish/reason/0"
+msgstr "Sebep bilinmiyor"
+
+msgid "finish/reason/10lose"
+msgstr "Hedefler sağlam kaldı"
+
+msgid "finish/reason/10win"
+msgstr "Hedefler yok edildi"
+
+msgid "finish/reason/1lose"
+msgstr "Tüm müttefik araçlar yok edildi"
+
+msgid "finish/reason/1tie"
+msgstr "Bütün araçlar yok edildi"
+
+msgid "finish/reason/1win"
+msgstr "Tüm düşman araçları yok edildi"
+
+msgid "finish/reason/2"
+msgstr "Üs ele geçirildi"
+
+msgid "finish/reason/3"
+msgstr "Savaş süresi bitti"
+
+msgid "finish/reason/4"
+msgstr "Savaş sistem hatası sebebiyle bitti"
+
+msgid "finish/reason/5"
+msgstr "Teknik Yenilgi"
+
+msgid "finish/reason/8"
+msgstr "Müttefik yok edildi"
+
+msgid "finish/reason/9"
+msgstr "Aracınız yok edildi"
+
+msgid "garage/uniqueDamage"
+msgstr "Sadece benzersiz kritik isabetler sayılır."
+
+msgid "getPremiumPopover/actionBtn/label"
+msgstr "Süre Seçin"
+
+msgid "getPremiumPopover/award"
+msgstr "Kredi ve deneyime +%50"
+
+msgid "getPremiumPopover/descriptionText"
+msgstr "%(prem)s satın alın ve yapacağınız sonraki tüm savaşlarda %(award)s kazanın"
+
+msgid "getPremiumPopover/headerText"
+msgstr "Bu savaş için kazanabileceğiniz:"
+
+msgid "getPremiumPopover/prem"
+msgstr "Premium Hesap"
+
+msgid "missionsProgress/aboutVehicle/button"
+msgstr "Araştırmaya"
+
+msgid "missionsProgress/aboutVehicle/description"
+msgstr "Araştırmaya açık"
+
+msgid "missionsProgress/aboutVehicle/prediction"
+msgstr "Kalan savaş (yaklaşık): {{prediction}}"
+
+msgid "missionsProgress/aboutVehicle/title"
+msgstr "ARAÇ HAKKINDA"
+
+msgid "missionsProgress/battleMatters/doneInfo"
+msgstr "Görev #{{name}} tamamlandı."
+
+msgid "missionsProgress/battleMatters/title"
+msgstr "TANK AKADEMİSİ"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/module"
+msgstr "YENİ PARÇA AÇILDI!"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/vehicle"
+msgstr "YENİ ARAÇ AÇILDI!"
+
+msgid "missionsProgress/notificationsTabs/battleMatters"
+msgstr "AKADEMİ GÖREVİ TAMAMLANDI!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/chapterComplete"
+msgstr "BÖLÜM TAMAMLANDI!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/stageComplete"
+msgstr "AŞAMA TAMAMLANDI!"
+
+msgid "missionsProgress/notificationsTabs/challenge"
+msgstr "POTA GÖREVİ TAMAMLANDI!"
+
+msgid "missionsProgress/notificationsTabs/common"
+msgstr "GÖREV TAMAMLANDI!"
+
+msgid "missionsProgress/notificationsTabs/daily"
+msgstr "GÜNLÜK GÖREV TAMAMLANDI!"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/maxLevel"
+msgstr "MAKSİMUM ELİT SEVİYESİ"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/newLevel"
+msgstr "YENİ ELİT SEVİYE"
+
+msgid "missionsProgress/notificationsTabs/epic"
+msgstr "DESTANSI GÖREV TAMAMLANDI!"
+
+msgid "missionsProgress/notificationsTabs/personalMissions/operation_mission_complete"
+msgstr "OPERASYON GÖREVİ TAMAMLANDI!"
+
+msgid "missionsProgress/notificationsTabs/premium"
+msgstr "PREMİUM GÖREV TAMAMLANDI!"
+
+msgid "missionsProgress/notificationsTabs/weekly"
+msgstr "HAFTALIK GÖREV TAMAMLANDI!"
+
+msgid "noData"
+msgstr "Pardon, savaş sonuçları verilemiyor."
+
+msgid "personalQuest/bonus/descr"
+msgstr "ana koşuldaki gelişiminiz bu savaşta %(value)s ile çarpıldı."
+
+msgid "personalQuest/bonus/multiplier"
+msgstr "x%(value)s çarpan:"
+
+msgid "personalQuest/failed/attention"
+msgstr "Dikkat!"
+
+msgid "personalQuest/failed/descr"
+msgstr "Görevdeki gelişiminiz sıfırlandı. Koşulun tamamlanması yeni baştan başlayacak."
+
+msgid "players/enemy/unknown"
+msgstr "Düşman"
+
+msgid "players/teammate/unknown"
+msgstr "Oyuncu"
+
+msgid "prestige/common/description"
+msgstr "Kazanılan Elit Puan:"
+
+msgid "prestige/max/description"
+msgstr "Maksimum Elit seviyesine ulaşıldı."
+
+msgid "prestige/maxLevelReached/description"
+msgstr "Maksimum Elit Seviyeye ulaşıldı"
+
+msgid "prestige/newLevelAchieved/description"
+msgstr "Yeni Elit Seviyeye ulaşıldı"
+
+msgid "prestige/title"
+msgstr "Elit Sistemi"
+
+msgid "progression/completed"
+msgstr "Tamamlandı"
+
+msgid "progression/completedPointsFrom/withLabel"
+msgstr "{{@class $labelClass}}Tamamlandı:{{/}} {{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/completedPointsFrom/withoutLabel"
+msgstr "{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/linkBtn/info"
+msgstr "Detaylı bilgileri görmek için tıklayın."
+
+msgid "progression/missionsCompleteCounter"
+msgstr "{{@class $labelClass}}Tamamlandı:{{/}} {{completed}}"
+
+msgid "progression/progressUnavailable"
+msgstr "Şu anda devre dışı. Daha sonra tekrar deneyin."
+
+msgid "progression/totalEarned"
+msgstr "Toplam kazanılan: {{value}}"
+
+msgid "progressiveReward/descr"
+msgstr "Savaşın ve ödüller alın. Ne kadar çok savaşırsanız ödüller o kadar yakınlaşır."
+
+msgid "selectVehicle"
+msgstr "Araç Seçin"
+
+msgid "status/lose"
+msgstr "YENİLGİ"
+
+msgid "status/tie"
+msgstr "BERABERLİK"
+
+msgid "status/win"
+msgstr "ZAFER"
+
+msgid "tankSelector/next"
+msgstr "Sonraki araç"
+
+msgid "team/damageAndConsumablesHeader/body"
+msgstr "Verilen hasara göre sırala,\nSavaş Yedeklerinden gelen hasar dahil."
+
+msgid "team/damageAndConsumablesHeader/header"
+msgstr "Verilen Hasar"
+
+msgid "team/damageHeader/body"
+msgstr "Düşman araçlarına verilen hasara göre sıralayın."
+
+msgid "team/damageHeader/header"
+msgstr "Düşman Araçlarına Verilen Hasar"
+
+msgid "team/damageHeaderNoSort/header"
+msgstr "Verilen Hasar"
+
+msgid "team/deaths/body"
+msgstr "Oyuncunun savaşta yok edilen araç sayısına göre sırala."
+
+msgid "team/deaths/header"
+msgstr "Yok Edilen Araçlar"
+
+msgid "team/deathsNoSort/header"
+msgstr "Yok Edilen Araçlar"
+
+msgid "team/epicRankHeader/body"
+msgstr "Savaşta erişilen rütbelere göre sırala."
+
+msgid "team/epicRankHeader/header"
+msgstr "Rütbe"
+
+msgid "team/epicRespawnHeader/body"
+msgstr "Savaşta konuşlanma sayısına göre sırala."
+
+msgid "team/epicRespawnHeader/header"
+msgstr "Konuşlanma Sayısı"
+
+msgid "team/falloutFragHeader/body"
+msgstr "Savaş Yedeklerinden gelen hasar dahil,\nyok edilen düşman araçlarına göre sırala."
+
+msgid "team/falloutFragHeader/header"
+msgstr "Yok Edilen Düşman Araçları"
+
+msgid "team/falloutResourcePoints/body"
+msgstr "Kazanılan kaynak miktarına göre sıralayın."
+
+msgid "team/falloutResourcePoints/header"
+msgstr "Kaynaklar"
+
+msgid "team/flags/body"
+msgstr "Teslim edilen bayrak sayısına göre sırala."
+
+msgid "team/flags/header"
+msgstr "Bayrak Teslim Etti"
+
+msgid "team/flagsNoSort/header"
+msgstr "Teslim Edilen Bayraklar"
+
+msgid "team/fragHeader/body"
+msgstr "Yok edilen düşman aracı sayısına göre sıralayın."
+
+msgid "team/fragHeader/header"
+msgstr "Yok Edilen Düşman Araçları"
+
+msgid "team/fragHeaderNoSort/header"
+msgstr "Yok Edilen Düşman Araçları"
+
+msgid "team/healthHeader/body"
+msgstr "Kalan CP'ye göre sırala."
+
+msgid "team/healthHeader/header"
+msgstr "Can Puanı"
+
+msgid "team/medalHeader/body"
+msgstr "Kazanılan ödüllere göre sırala."
+
+msgid "team/medalHeader/header"
+msgstr "Ödüller"
+
+msgid "team/playerHeader/body"
+msgstr "Oyuncu ismine göre sırala."
+
+msgid "team/playerHeader/header"
+msgstr "Oyuncu İsmi"
+
+msgid "team/playerHeaderNoSort/header"
+msgstr "İsim"
+
+msgid "team/playerNumber/body"
+msgstr "Ekipteki oyuncunun sayısına göre sırala."
+
+msgid "team/playerNumber/header"
+msgstr "Sayı"
+
+msgid "team/rankHeader/body"
+msgstr "Kademeye göre sıralayın."
+
+msgid "team/rankHeader/header"
+msgstr "Bir kademe"
+
+msgid "team/resourceHeader/body"
+msgstr "Kazanılan Endüstriyel Kaynak'a göre sırala."
+
+msgid "team/resourceHeader/header"
+msgstr "Endüstriyel Kaynak"
+
+msgid "team/squadHeader/body"
+msgstr "Takıma göre sırala."
+
+msgid "team/squadHeader/header"
+msgstr "Takım"
+
+msgid "team/squadHeaderNoSort/header"
+msgstr "Takım"
+
+msgid "team/stats/allies"
+msgstr "Müttefikler"
+
+msgid "team/stats/close"
+msgstr "Kapat"
+
+msgid "team/stats/enemies"
+msgstr "Düşmanlar"
+
+msgid "team/stats/enemyTeam"
+msgstr "Düşman Ekibi"
+
+msgid "team/stats/infotip_xpForAssist/body"
+msgstr "Destek olarak sayılanlar:\n• Tespitiniz, paletleri yok edip hareketsiz bırakmanız veya düşman araçlarını şoka sokmanız sayesinde müttefiklerin verdiği hasar\n• Üsleri ele geçirmek\n• Düşman araçlarının ilk tespiti."
+
+msgid "team/stats/infotip_xpForAssist/header"
+msgstr "Yardım İçin"
+
+msgid "team/stats/infotip_xpForAttack/body"
+msgstr "Katkı olarak sayılanlar:\n• Tarafınızdan verilen hasar\n• Tarafınızdan yok edilen araçlar\n• Hasar verilen parçalar\n• Ekibiniz tarafından verilen hasar için bonus\n• Müttefikleri şoka sokma veya hasar verme cezası."
+
+msgid "team/stats/infotip_xpForAttack/header"
+msgstr "Verilen Hasar Ve Yok Edilen Araçlar İçin"
+
+msgid "team/stats/infotip_xpOther/body"
+msgstr "Önceki bölümlerde belirtilmeyen, etkili çatışma için ek bonuslar."
+
+msgid "team/stats/infotip_xpOther/header"
+msgstr "Araç Rolüne Uyum İçin"
+
+msgid "team/stats/labels_artilleryFortEquipDamageDealt"
+msgstr "\tTopçu Saldırısı tarafından"
+
+msgid "team/stats/labels_atkObjectives"
+msgstr "Ele geçirilen alanlar / yok edilen hedefler"
+
+msgid "team/stats/labels_capturePointsVal"
+msgstr "Üs ele geçirme/savunma puanı"
+
+msgid "team/stats/labels_capturedPointsOfInterest"
+msgstr "Ele geçirilen İlgi Noktaları"
+
+msgid "team/stats/labels_damageAssisted"
+msgstr "Oyuncunun yardımı sayesinde hasar"
+
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "Yardımınız sayesinde verilen hasar"
+
+msgid "team/stats/labels_damageAssistedStun"
+msgstr "Bu oyuncu tarafından şoka sokulan düşman araçlarına hasar"
+
+msgid "team/stats/labels_damageAssistedStunSelf"
+msgstr "Tarafınızdan şoka sokulan düşman araçlarına hasar"
+
+msgid "team/stats/labels_damageBlockedByArmor"
+msgstr "Zırh tarafından engellenen hasar"
+
+msgid "team/stats/labels_damageDealt"
+msgstr "Toplam Hasar:"
+
+msgid "team/stats/labels_damageDealtByOrder"
+msgstr "\tSavaş Yedeklerinden gelen dahil"
+
+msgid "team/stats/labels_damageDealtBySkills"
+msgstr "Kullanılan beceriler dâhil \t"
+
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\tdüşman ekibine verilen hasar"
+
+msgid "team/stats/labels_damagedKilled"
+msgstr "Hasar verilen/yok edilen düşman araçları"
+
+msgid "team/stats/labels_deaths"
+msgstr "Savaşta yok edilen araçlarınızın sayısı"
+
+msgid "team/stats/labels_defObjectives"
+msgstr "Savunulan Alanlar / Hedefler"
+
+msgid "team/stats/labels_destroyRecoveryRatio"
+msgstr "Kendi araçlarının yok edilme sayısı / kurtarılma sayısı"
+
+msgid "team/stats/labels_destructiblesDamageDealt"
+msgstr "\thedeflere"
+
+msgid "team/stats/labels_directHits"
+msgstr "\ttam isabetler"
+
+msgid "team/stats/labels_directHitsReceived"
+msgstr "Alınan isabet"
+
+msgid "team/stats/labels_equipmentDamageAssisted"
+msgstr "\tsavaş Yedeği etkileri sebebiyle"
+
+msgid "team/stats/labels_equipmentDamageDealt"
+msgstr "\tsavaş yedekleriyle"
+
+msgid "team/stats/labels_explosionHits"
+msgstr "\tsıçrama hasar"
+
+msgid "team/stats/labels_explosionHitsReceived"
+msgstr "Sıçrama hasarı sonucu alınan isabetler"
+
+msgid "team/stats/labels_flags"
+msgstr "Teslim Edilen Bayraklar"
+
+msgid "team/stats/labels_healed"
+msgstr "Yenilenen can puanı (sizin/müttefiklerin)"
+
+msgid "team/stats/labels_hits"
+msgstr "\ttam isabet/delmeler"
+
+msgid "team/stats/labels_killed"
+msgstr "Yok edilen düşman araçları"
+
+msgid "team/stats/labels_killsByOrder"
+msgstr "\tSavaş Yedeklerinden gelen dahil"
+
+msgid "team/stats/labels_mileage"
+msgstr "Katedilen Mesafe"
+
+msgid "team/stats/labels_noDamageDirectHitsReceived"
+msgstr "\tdelmeyen"
+
+msgid "team/stats/labels_piercingHits"
+msgstr "\tdelmeler"
+
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\tdelmeler"
+
+msgid "team/stats/labels_roleSkillUsed"
+msgstr "Kullanılan Rol Becerileri"
+
+msgid "team/stats/labels_shots"
+msgstr "Atış sayısı"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\t300 metreden daha uzak için mesafe ölçü"
+
+msgid "team/stats/labels_spotted"
+msgstr "Tespit edilen düşmanlar"
+
+msgid "team/stats/labels_stunDuration"
+msgstr "Toplam şoka sokma süresi, sn."
+
+msgid "team/stats/labels_stunNum"
+msgstr "Şok sayısı"
+
+msgid "team/stats/labels_teamHitsDamage"
+msgstr "Müttefiklere verilen hasar (yok edilen/CP)"
+
+msgid "team/stats/labels_timesDestroyed"
+msgstr "Yok edilen araç sayısı"
+
+msgid "team/stats/labels_xp"
+msgstr "Kazanılan Toplam Deneyim"
+
+msgid "team/stats/labels_xpForAssist"
+msgstr "\tyardım için"
+
+msgid "team/stats/labels_xpForAttack"
+msgstr "\timha ve hasar verme için"
+
+msgid "team/stats/labels_xpOther"
+msgstr "\taraç rolüne uyum için"
+
+msgid "team/stats/mileage"
+msgstr "?empty?"
+
+msgid "team/stats/ownTeam"
+msgstr "Bizim Ekibimiz"
+
+msgid "team/stats/parameter/artilleryFortEquipDamageDealt"
+msgstr "Topçu saldırısı tarafından"
+
+msgid "team/stats/parameter/capturePointsVal"
+msgstr "Üs ele geçirme/savunma puanı"
+
+msgid "team/stats/parameter/damageAssisted"
+msgstr "Oyuncunun yardımı sayesinde hasar"
+
+msgid "team/stats/parameter/damageAssistedSelf"
+msgstr "Yardımınız sayesinde verilen hasar"
+
+msgid "team/stats/parameter/damageAssistedStun"
+msgstr "Bu oyuncu tarafından şoka sokulan düşman araçlarına hasar"
+
+msgid "team/stats/parameter/damageAssistedStunSelf"
+msgstr "Tarafınızdan şoka sokulan düşman araçlarına hasar"
+
+msgid "team/stats/parameter/damageBlockedByArmor"
+msgstr "Zırh tarafından engellenen hasar"
+
+msgid "team/stats/parameter/damageDealt"
+msgstr "Toplam Hasar"
+
+msgid "team/stats/parameter/damagedKilled"
+msgstr "Hasar verilen/yok edilen düşman araçları"
+
+msgid "team/stats/parameter/directHitsReceived"
+msgstr "Alınan isabet"
+
+msgid "team/stats/parameter/explosionHits"
+msgstr "sıçrama hasarı"
+
+msgid "team/stats/parameter/explosionHitsReceived"
+msgstr "Sıçrama hasarı sonucu alınan isabetler"
+
+msgid "team/stats/parameter/hits"
+msgstr "doğrudan isabet/delme"
+
+msgid "team/stats/parameter/mileage"
+msgstr "Katedilen Mesafe"
+
+msgid "team/stats/parameter/noDamageDirectHitsReceived"
+msgstr "delmeyenler"
+
+msgid "team/stats/parameter/piercingsReceived"
+msgstr "delenler"
+
+msgid "team/stats/parameter/shots"
+msgstr "Atış sayısı"
+
+msgid "team/stats/parameter/sniperDamageDealt"
+msgstr "300 metreden daha uzak mesafeden"
+
+msgid "team/stats/parameter/spotted"
+msgstr "Tespit edilen düşmanlar"
+
+msgid "team/stats/parameter/stunDuration"
+msgstr "Toplam şoka sokma süresi, sn."
+
+msgid "team/stats/parameter/stunNum"
+msgstr "Şok sayısı"
+
+msgid "team/stats/parameter/teamHitsDamage"
+msgstr "Müttefiklere verilen hasar (yok edilen/CP)"
+
+msgid "team/tankHeader/body"
+msgstr "Ekip panelindeki yerine göre sırala"
+
+msgid "team/tankHeader/header"
+msgstr "Araçlar"
+
+msgid "team/teamInfluenceTotal"
+msgstr "Müfreze tarafından kazanılan Etki: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamResourceTotal"
+msgstr "Müfrezenin kazancı Endüstriyel Kaynak: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamScore/body"
+msgstr "Kazanılan zafer puanı miktarına göre sıralayın."
+
+msgid "team/teamScore/header"
+msgstr "Ekip Zafer Puanı"
+
+msgid "team/victoryScore/body"
+msgstr "Kazanılan zafer puanı miktarına göre sıralayın."
+
+msgid "team/victoryScore/header"
+msgstr "Oyuncu Zafer Puanı"
+
+msgid "team/victoryScoreNoSort/header"
+msgstr "Oyuncu Zafer Puanı"
+
+msgid "team/xpHeader/body"
+msgstr "Deneyime göre sırala."
+
+msgid "team/xpHeader/header"
+msgstr "Deneyim"
+
+msgid "team/xpHeaderNoSort/header"
+msgstr "Deneyim"
+
+msgid "tooltips/stats/footer/text"
+msgstr "%(label)s&nbsp;%(type)s"
+
+msgid "victoryScore"
+msgstr "Kazanılan zafer puanı"

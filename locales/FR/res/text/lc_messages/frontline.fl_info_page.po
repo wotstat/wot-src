@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "À propos du Passe de combat"
+
+msgid "about/position/header"
+msgstr "Distribution des Points du Passe de combat"
+
+msgid "about/position/text"
+msgstr "Après chaque bataille, vous recevrez un certain nombre de Points du Passe de combat en fonction de votre position. Vous recevrez des Points du Passe de combat en plus si vous augmentez votre rang de Ligne de front."
+
+msgid "about/scores/header"
+msgstr "Points du Passe de combat"
+
+msgid "about/scores/text"
+msgstr "Une devise spéciale du Passe de combat qui peut être obtenue en Batailles aléatoires et en mode Ligne de front. Des Points du Passe de combat sont décernés en atteignant des rangs de Ligne de front et en fonction de votre position dans les résultats de la bataille. Les véhicules de Ligne de front n'ont pas de limite au nombre de Points qu'ils peuvent rapporter."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Défaite"
+
+msgid "about/scoresTable/topCell"
+msgstr "Top {{top}} en termes d'EXP. obtenue"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Victoire"
+
+msgid "about/text"
+msgstr "Le Passe de combat est un évènement longue durée au cours duquel les joueurs progressent d'Étape en Étape en gagnant des Points du Passe de combat. Chaque Étape franchie leur rapporte de belles récompenses. En terminant certaines Étapes, les joueurs peuvent recevoir des Jetons du Passe de combat : une devise spéciale à utiliser pour acheter des véhicules uniques et d'autres belles récompenses dans la section correspondante du Magasin."
+
+msgid "addons/cellRent/header"
+msgstr "Location de véhicule"
+
+msgid "addons/cellRent/text_10"
+msgstr "Il existe plusieurs véhicules de rang {{vehiclesLevel}} pouvant être loués en échange de crédits. Les membres d'équipage des véhicules de même type et de même nation peuvent être transférés sans pénalité ni besoin d'être réentraînés."
+
+msgid "addons/cellRent/text_9"
+msgstr "Il existe plusieurs véhicules de rang {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} pouvant être loués en échange de crédits. Les membres d'équipage des véhicules de même type et de même nation peuvent être transférés sans pénalité ni besoin d'être réentraînés."
+
+msgid "addons/cellSpectator/header"
+msgstr "Mode spectateur"
+
+msgid "addons/cellSpectator/text"
+msgstr "En attendant de pouvoir réapparaître, vous pouvez passer en mode spectateur pour étudier le champ de bataille et élaborer votre plan de bataille."
+
+msgid "addons/cellTime/header"
+msgstr "Temps additionnel"
+
+msgid "addons/cellTime/text"
+msgstr "Si une base est en train d'être capturée alors que la durée de la bataille arrive à son terme, votre équipe recevra du temps additionnel. Si l'équipe en défense interrompt la capture de leur base, le temps additionnel tombera à zéro."
+
+msgid "addons/header"
+msgstr "Informations supplémentaires"
+
+msgid "levelUp/sectionHeader"
+msgstr "Véhicule de rang {{level}}"
+
+msgid "levelUp/text"
+msgstr "Comme auparavant, vous ne pouvez initialement partir en bataille qu'à bord de véhicules de rang {{vehiclesLevelFrom}}, mais des véhicules de rang {{vehiclesLevelTo}} peuvent aussi être préparés dans le garage. Lorsque n'importe quelle base de la deuxième ligne (D, E et F) est capturée, les deux équipes peuvent se déployer à bord de véhicules de rang {{vehiclesLevelTo}}."
+
+msgid "main/cellDuration/header"
+msgstr "Durée"
+
+msgid "main/cellDuration/text"
+msgstr "Ligne de front durera {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}}. La date du prochain lancement sera annoncée séparément."
+
+msgid "main/cellFrontline/header"
+msgstr "Ligne de front"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Gigantesques batailles en 30 contre 30 à bord de véhicules de rang {{vehiclesLevel}} sur les cartes {{@ colorLegacy 'FFE4C0'}}Normandie, Kraftwerk{{/}} et {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Les attaquants doivent détruire 3 des 5 canons de gros calibre, tandis que les défenseurs doivent protéger ces derniers."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Gigantesques batailles en 30 contre 30 à bord de véhicules de rangs {{vehiclesLevelFrom}} à {{vehiclesLevelTo}} sur les cartes {{@ colorLegacy 'FFE4C0'}}Normandie, Kraftwerk{{/}} et {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Les attaquants doivent détruire 3 des 5 canons de gros calibre, tandis que les défenseurs doivent protéger ces derniers."
+
+msgid "main/cellLevel9/header"
+msgstr "Véhicules de rang {{vehiclesLevel}}"
+
+msgid "main/cellLevel9/text"
+msgstr "Après la capture d'une base sur la deuxième ligne (D, E ou F), vous pourrez combattre à bord d'un véhicule de rang {{vehiclesLevel}}."
+
+msgid "main/cellLevels/header"
+msgstr "Véhicules de rang {{vehiclesLevel}}"
+
+msgid "main/cellLevels/text_8"
+msgstr "Seuls les véhicules de rang {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} sont disponibles dans ce mode."
+
+msgid "main/cellLevels/text_9"
+msgstr "Seuls des véhicules de rang {{vehiclesLevel}} peuvent entrer en bataille."
+
+msgid "main/cellPass/header"
+msgstr "Passe de combat"
+
+msgid "main/cellPass/text"
+msgstr "Ligne de front est une excellente occasion de gagner des Points du Passe de combat en participant à des batailles et en atteignant de nouveaux rangs de Ligne de front."
+
+msgid "main/cellReserves/header"
+msgstr "Catégories des Réserves de combat"
+
+msgid "main/cellReserves/text"
+msgstr "Il existe trois catégories de Réserves de combat, chacune liée à un emplacement en particulier. L'ordre de leur déverrouillage et de leur amélioration dépend du type de véhicule."
+
+msgid "main/cellScenarios/header"
+msgstr "Scénarios"
+
+msgid "main/cellScenarios/text"
+msgstr "Les batailles du mode Ligne de front utilisent l'un de ces scénarios : {{@ colorLegacy 'FFE4C0'}}Bataille standard{{/}}, {{@ colorLegacy 'FFE4C0'}}Support opérationnel{{/}} ou {{@ colorLegacy 'FFE4C0'}}Coup du sort{{/}}. Les informations concernant le scénario de bataille actuel sont affichées sur l'écran de chargement, durant le compte à rebours d'avant-bataille ou en appuyant sur la touche Tab."
+
+msgid "main/sectionHeader"
+msgstr "Informations générales"
+
+msgid "page/backBtn"
+msgstr "RETOUR"
+
+msgid "page/headerUpper"
+msgstr "LIGNE DE FRONT"
+
+msgid "percentValue"
+msgstr "{{value}} %"
+
+msgid "plusPercentValue"
+msgstr "+{{value}} %"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "Vous recevrez de l'EXP. de Ligne de front ainsi que de l'EXP. de bataille en fonction du grade que vous obtenez. L'EXP. de Ligne de front permet d'augmenter votre rang de Ligne de front. Il y a {{@ colorLegacy 'FFE4C0'}}20 rangs{{/}} au total."
+
+msgid "progression/levelsSection/header"
+msgstr "Rangs de Ligne de front"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "Les {{@ colorLegacy 'FFE4C0'}}rangs de Ligne de front{{/}} vous récompensent de Points du Passe de combat, de Points de Réserve de combat, d'obligations, de Directives, d'Ordres de réentraînement, de Licences de mentorat et de Livres d'équipage."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "Les {{@ colorLegacy 'FFE4C0'}}rangs de Ligne de front{{/}} vous récompensent de Points de Réserve de combat, d'obligations, de Directives, d'Ordres de réentraînement et de Livres d'équipage."
+
+msgid "progression/ranksSection/experience"
+msgstr "Les {{@ colorLegacy 'FFE4C0'}}grades{{/}} reflètent non seulement votre efficacité lors d'une bataille en particulier, mais ils offrent également un bonus à l'EXP. de bataille. Ce bonus est appliqué à l'expérience de base totale obtenue sur tous vos véhicules joués lors de la bataille. Lorsque vous et vos alliés atteignez le grade de Général, toute l'équipe reçoit un bonus aux performances de l'équipage (au niveau de qualification principale) allant de {{@ colorLegacy 'FFE4C0'}}1,5 %{{/}} à {{@ colorLegacy 'FFE4C0'}}15 %{{/}}."
+
+msgid "progression/ranksSection/header"
+msgstr "Grades"
+
+msgid "progression/ranksSection/text"
+msgstr "Ce mode comporte un système à six grades, dans lequel les joueurs progressent du grade Soldat au grade de Général. Vous serez promu en fonction de votre efficacité en bataille (capture ou défense de bases ; destruction d'objectifs principaux) et de l'expérience gagnée. La quantité totale d'expérience obtenue par l'ensemble des véhicules à bord desquels vous avez combattu est comptabilisée."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Bonus à l'expérience de bataille"
+
+msgid "progression/ranksTable/captain"
+msgstr "Capitaine"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Bonus aux performances de l'équipage"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Expérience de Ligne de front"
+
+msgid "progression/ranksTable/general"
+msgstr "Général"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Lieutenant"
+
+msgid "progression/ranksTable/major"
+msgstr "Major"
+
+msgid "progression/ranksTable/private"
+msgstr "Soldat"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Sergent"
+
+msgid "progression/sectionHeader"
+msgstr "Progression en Ligne de front"
+
+msgid "progression/text"
+msgstr "En jouant à ce mode, vous pourrez monter en grade, avancer dans la Progression de Ligne de front et recevoir des récompenses."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Secondaire"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Emplacement de Réserve 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Emplacement de Réserve 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Emplacement de Réserve 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Principale"
+
+msgid "reserveCategories/categories/support"
+msgstr "Auxiliaire"
+
+msgid "reserveCategories/config/footerText"
+msgstr "Dans le scénario {{@ colorLegacy 'FFE4C0'}}Coup du sort{{/}}, l'ordre dans lequel les Réserves de combat sont déverrouillées ne dépend pas du type de véhicule."
+
+msgid "reserveCategories/config/header"
+msgstr "Configurations des Réserves par type de véhicule"
+
+msgid "reserveCategories/config/text"
+msgstr "Dans les scénarios {{@ colorLegacy 'FFE4C0'}}Bataille standard{{/}} et {{@ colorLegacy 'FFE4C0'}}Support opérationnel{{/}}, les trois emplacements de Réserves de combat sont disponibles pour tous les types de véhicules. Toutefois, l'ordre dans lequel ils se déverrouillent dépend du type de véhicule."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "Chasseurs de chars"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Chars lourds"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Chars légers"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Chars moyens"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "Canons automoteurs"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* L'amélioration à ce niveau est uniquement disponible pour les Réserves de combat {{@ colorLegacy 'FFE4C0'}}achetées{{/}} dans le scénario {{@ colorLegacy 'FFE4C0'}}Coup du sort{{/}}."
+
+msgid "reserveCategories/levels/header"
+msgstr "Comment débloquer des emplacements et améliorer les Réserves de combat"
+
+msgid "reserveCategories/levels/text"
+msgstr "Par défaut, une Réserve de combat vous est disponible. Les autres se déverrouillent en atteignant les grades Sergent et Lieutenant. Les trois Réserves seront améliorées après avoir atteint les grades Capitaine et Major."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "Niveau {{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} ou {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}}"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Capitaine"
+
+msgid "reserveCategories/ranks/general"
+msgstr "Général"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Lieutenant"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Major"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Sergent"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Soldat"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Coup du sort"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "En bataille, les joueurs peuvent choisir parmi des Réserves aléatoires qui sont disponibles pour tous les types de véhicules. Placer une Réserve dans un emplacement avant la bataille augmente la probabilité de l'obtenir en bataille de {{@ colorLegacy 'FFE4C0'}}10 %{{/}}. L'achat d'une Réserve augmentera son niveau au Niveau {{@ colorLegacy 'FFE4C0'}}II{{/}} et offrira la possibilité de l'augmenter jusqu'au Niveau {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Scénarios de Ligne de front"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Bataille standard"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Les règles standards de Ligne de front sont appliquées. Les conditions d'utilisation des Réserves de combat restent inchangées."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Support opérationnel"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "En débloquant une Réserve : {{@ colorLegacy 'FFE4C0'}}-50 %{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "En retournant dans la bataille : {{@ colorLegacy 'FFE4C0'}}-70 %{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Un scénario plus dynamique qui réduit le temps de rechargement des Réserves de combat :"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Les batailles du mode Ligne de front utilisent l'un de ces scénarios : {{@ colorLegacy 'FFE4C0'}}Bataille standard{{/}}, {{@ colorLegacy 'FFE4C0'}}Support opérationnel{{/}} ou {{@ colorLegacy 'FFE4C0'}}Coup du sort{{/}}. Les scénarios changent les conditions d'utilisation des Réserves de combat en bataille. Les informations concernant le scénario de bataille actuel sont affichées sur l'écran de chargement, durant le compte à rebours d'avant-bataille ou en appuyant sur la touche Tab."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Catégories des Réserves de combat"
+
+msgid "reserveCategories/text"
+msgstr "Les Réserves de combat sont divisées en trois catégories de trois Réserves chacune. En entrant en bataille, vous ne pouvez placer qu'une Réserve d'une catégorie dans l'emplacement correspondant."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Réserves d'attaque"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Réserves de reconnaissance"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Réserves tactiques"
+
+msgid "reserves/sectionHeader"
+msgstr "Réserves rapides"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Démarrage rapide"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Le temps de préparation des Réserves de combat est réduit de 50 % au début de la bataille."
+
+msgid "reserves/sectionReload/header"
+msgstr "Immédiatement disponibles"
+
+msgid "reserves/sectionReload/text"
+msgstr "Les Réserves de combat seront prêtes à être utilisées dès qu'elles seront débloquées."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Second souffle"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Le temps de préparation des Réserves de combat est réduit de 70 % lors du retour en bataille à bord d'un nouveau véhicule."
+
+msgid "rules/backToFight/header"
+msgstr "Retour au combat"
+
+msgid "rules/backToFight/text"
+msgstr "Lorsque votre véhicule est détruit, sélectionnez un autre véhicule disponible, puis retournez sur le champ de bataille pour continuer de combattre pour la victoire. Vous pouvez sélectionner une parmi plusieurs zones de déploiement (points de réapparition) sur les flancs, mais aussi à l'arrière, ce qui vous aidera à élaborer un plan de bataille. Les joueurs en défense ont un plus grand choix de points de réapparition derrière leurs lignes, ce qui signifie qu'ils peuvent se regrouper pour défendre les canons de gros calibres en cas de percée soudaine. Le système présente également un indicateur qui avertit les joueurs lorsqu'il est dangereux de se déployer dans la zone sélectionnée."
+
+msgid "rules/base/header"
+msgstr "Capture de base"
+
+msgid "rules/base/textBottom"
+msgstr "Endommager un véhicule (ou ses éléments) en train de capturer une base ne réinitialise pas la progression de la capture. Au lieu de cela, la progression de la capture est temporairement interrompue. Afin de réinitialiser la progression de la capture, les défenseurs doivent détruire tous les véhicules ennemis présents dans le cercle de capture ou les forcer à en sortir. L'équipe en défense ne peut pas reconquérir une base capturée par les attaquants."
+
+msgid "rules/base/textTop"
+msgstr "{FFE4C0_Start}L'équipe en attaque{FFE4C0_End} doit capturer les bases à tour de rôle pour atteindre les objectifs principaux. Une base capturée ajoute 2 minutes à la durée de la bataille. La capture de la dernière base ajoute 4 minutes."
+
+msgid "rules/sectionHeader"
+msgstr "Règles générales"
+
+msgid "rules/service/header"
+msgstr "Cercles de ravitaillement"
+
+msgid "rules/service/text"
+msgstr "Les Cercles de ravitaillement rétablissent les points de structure des véhicules, soignent tous les membres d'équipage blessés et réapprovisionnent en munitions. {FFE4C0_Start}La vitesse de ravitaillement est la suivante : 100 points de structure / un membre d'équipage / 10 %{FFE4C0_End} des munitions par seconde."
+
+msgid "rules/weapons/header"
+msgstr "Objectif : 3 sur 5 canons de gros calibre"
+
+msgid "rules/weapons/list/back"
+msgstr "Blindage arrière : {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "Le blindage du toit et frontal {{@ colorLegacy 'FFE4C0'}}ne peut pas être pénétré{{/}} par les obus."
+
+msgid "rules/weapons/list/sides"
+msgstr "Blindage latéral : {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Blindage latéral : {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Zones vulnérables : {{@ colorLegacy 'FFE4C0'}}porte (70 mm) et ventilation (25 mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Il y a cinq tourelles à canon situées bien en profondeur dans le territoire de l'équipe en défense, ce seront les objectifs principaux de la bataille. L'équipe en attaque doit détruire 3 tourelles, tandis que les défenseurs doivent protéger ces dernières à tout prix."
+
+msgid "subTitle/differentMonth"
+msgstr "du {{@ colorLegacy 'FFE4C0'}}{{from}} {{startMonth}}{{/}} au {{@ colorLegacy 'FFE4C0'}}{{to}} {{endMonth}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "du {{@ colorLegacy 'FFE4C0'}}{{from}} {{startMonth}} {{startYear}}{{/}} au {{@ colorLegacy 'FFE4C0'}}{{to}} {{endMonth}} {{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "du {{@ colorLegacy 'FFE4C0'}}{{from}} {{endMonth}}{{/}} au {{@ colorLegacy 'FFE4C0'}}{{to}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "Les secteurs A, B et C {{@ colorLegacy 'FFE4C0'}}sur la première ligne{{/}} représentent les points de départ pour les deux équipes."
+
+msgid "winStrategy/header"
+msgstr "Stratégie gagnante"
+
+msgid "winStrategy/mapZones"
+msgstr "La carte de ce mode comporte trois lignes de défense horizontales :"
+
+msgid "winStrategy/secondLine"
+msgstr "Lorsque les secteurs de la première ligne sont capturés, la bataille se poursuit sur les secteurs D, E et F {{@ colorLegacy 'FFE4C0'}}sur la seconde ligne{{/}}."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}La troisième ligne{{/}} n'est pas divisée en secteurs. Il s'agit d'une zone où se déroule la phase finale de la bataille. Les canons de gros calibre se trouvent ici et leur destruction octroie la victoire à l'équipe en attaque. Les attaquants ne peuvent accéder aux objectifs principaux qu'après avoir capturé au moins un secteur de la deuxième ligne. Après la perte d'un secteur, les joueurs en défense disposent de 1 minute pour le quitter avant que celui-ci ne soit bombardé. Une frappe aérienne toucherait tout défenseur qui serait resté dans le secteur. Tout attaquant atteignant les secteurs de la deuxième et de la troisième ligne sans avoir capturé le secteur précédent sera également détruit par une frappe aérienne."

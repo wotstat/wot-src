@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "Antialiasing"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "Bestemmer graden av ytterligere prosessering av tynne streker og konturer for objekter i spillet. Minimerer effekten av aliasing.\n\n• Høy—FXAA\n• Maksimal—Tidsstyrt supersampling antialiasing (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "Dynamisk justering"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "Skru på, eller av, automatisk justering av rendringsoppløsning på 3D avhengig av belastning på grafikkortet.\n\nÅ aktivere denne parameteren kan forbedre spillets ytelse. Rendringsoppløsningen i garasjen vil alltid være den samme."
+
+msgid "EFFECTS_QUALITY"
+msgstr "Ekstra effektkvalitet"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "Styrer kvalitet på visning av gnister fra rikosjetter, eksplosjoner, røyk og andre visuelle effekter.\n\nRedusering av verdien for dette parameteret kan forbedre spillets ytelse."
+
+msgid "FAR_PLANE"
+msgstr "Opptegningsavstand"
+
+msgid "FAR_PLANE/description"
+msgstr "Styrer visningsavstanden til skjulesteder, bygninger, fiendekjøretøy og andre objekter i spillet."
+
+msgid "FLORA_QUALITY"
+msgstr "Tettheten på gress"
+
+msgid "FLORA_QUALITY/description"
+msgstr "Styrer tettheten på gress vist i arkade og snikskyttermodusene."
+
+msgid "HAVOK_ENABLED"
+msgstr "Forbedret ødeleggelsesfysikk"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "AV"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "PÅ"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "Gir en mer detaljert og realistisk prosessering av ødeleggelser på objekter i kartene.\n\nÅ skru av denne parameteren kan forbedre ytelsen for spillet."
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "Innstillingen iverksettes i den neste kampen, hvis den er skrudd av i denne kampen."
+
+msgid "LANGUAGE_CODE"
+msgstr "no"
+
+msgid "LIGHTING_QUALITY"
+msgstr "Kvalitet på belysning"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "Styrer kvaliteten og visningsmetoden for solstråler, lys og optiske effekter. \n\nØkning av verdien for dette parameteret øker belastningen på skjermkortet betydelig."
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "Bevegelsesuskarphet"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "Styrer kvaliteten på bevegelsesuskarphet i et skjermbilde når et kjøretøy beveger seg og kameraet roteres."
+
+msgid "MSAA_QUALITY"
+msgstr "Antialiasing"
+
+msgid "MSAA_QUALITY/description"
+msgstr "Bestemmer graden av ytterligere prosessering av tynne linjer og konturer av objekter i spillet. Minimerer effekten av aliasering.\n\n• Lav—MSAA 2x\n• Medium—MSAA 4x\n• Høy—MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "Objekt LOD"
+
+msgid "OBJECT_LOD/description"
+msgstr "Styrer antall viste objekter samt kvalitet på disse."
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "Post Processing"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "Styrer kvalitet på luftspeiling og sjokkbølgeeffekter, kromatisk abberasjon, vignette, kornet film og andre visuelle etterprosesseringseffekter.\n\nRedusering av verdien for dette parameteret kan forbedre spillets ytelse."
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "Grafikk"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "Forbedret: Gir maksimal bildekvalitet.\n\nForenklet: Gir maksimal ytelse ved å forenkle eller skru av noen visuelle effekter."
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "Grafikk:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "Endringer på denne parameteren trer i effekt etter at spillet er startet på nytt."
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "Vegetasjonsgjennomsiktighet"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "Avgjør hvordan vegetasjonen i nærheten vises.\n\nVed å skru av denne parameteren blir vegetasjon i nærheten helt usynlig, noe som kan forbedre spillets ytelse."
+
+msgid "SHADER_VERSION_CAP"
+msgstr "Shaderversjon"
+
+msgid "SHADOWS_QUALITY"
+msgstr "Skyggekvalitet"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "Styrer kvaliteten på dynamiske skygger i hele opptegningsavstanden.\n\nRedusering av verdien for dette parameteret kan forbedre spillets ytelse betraktelig."
+
+msgid "SMOKE_ENABLED"
+msgstr "Røyk"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "Ekstra effekter i skarpskyttermodus"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "Styrer visningskvaliteten på gnister fra rikosjetter, eksplosjoner, røyk og andre realistiske effekter i Snikskyttermodus.\n\nRedusering av verdien for dette parameteret kan forbedre spillets ytelse."
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "Vis gress i skarpskyttermodus"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "Viser gress i Snikskyttermodus.\n\nÅ nullstille dette parameteret kan forbedre spillets ytelse."
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "Terrengfliser i snikskyttermodus"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Øker kvaliteten på terreng innen en radius på 50 meter fra ditt kjøretøy i snikskyttermodus. Kun tilgjengelig så lenge terrengfliser er aktivert.\n\nDeaktivering av denne parameteren kan forbedre spillets ytelse."
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "Kvalitet på vegetasjon"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "Styrer opptegningskvaliteten på trær, busker og gress."
+
+msgid "TERRAIN_QUALITY"
+msgstr "Kvalitet på terreng"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "Styrer visningsavstanden til skjulesteder.\n\nBruk minimum kvalitet på landskap kun i tilfeller der datamaskinen har svært dårlig ytelse.\n\nReduksjon av verdien for dette parameteret kan føre til at visning av landskap på klienten ikke stemmer overens med data på server. (ute av synkronisering)."
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "Iverksetting av den spesifiserte parameteren kan ta litt tid."
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "Terrengfliser"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Hardware-aksellerert prosess som legger til nye polygontriangler i rutenettet for å øke rutenettets detaljnivå.\n\nFunksjonen virker bare med:\n• Forbedret grafikk\n• Høy, maksimal eller ultra terrengkvalitet\n• DirectX 11 installert.\n\nInnstillingsendringene virker ikke med eldre versjoner enn DirectX 11.\n\nÅ skru av denne parameteren kan forbedre spillets ytelse."
+
+msgid "TEXTURE_QUALITY"
+msgstr "Teksturkvalitet"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "Kvalitet på objekters overflate i spillet, spesielt ved nærvisning.\n\nRedusering av verdien for dette parameteret kan forbedre spillets ytelse."
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "Iverksetting av den spesifiserte parameteren kan ta litt tid."
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "Beltefysikk"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "Bestemmer kvaliteten på fysikksimulasjoner for ødelagte og operasjonelle belter, i tillegg til detaljene i beltesporene.\n\nReduksjon eller annulering av denne parameteren kan forbedre spillets ytelse."
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "Aktivér belte- og hjuleffekter"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "Viser bakke, snø og vannsprut etter beltene og hjulene.\n\nÅ nullstille dette parameteret kan forbedre spillets ytelse."
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "Aktivér belte- og hjulspor"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "Viser belte og hjulspor på bakken.\n\nIkke tilgjengelig med forenklet grafikk eller med lav kvalitet på dekaler."
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "Skjul 3D vedheng i snikskyttermodus"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "Skjuler midlertidig kjøretøys 3D vedheng i siktesirkelen for kanonen i snikskyttermodus.\n\nReduserer visuelt støy og forbedrer siktepresisjon."
+
+msgid "WATER_QUALITY"
+msgstr "Vannkvalitet"
+
+msgid "WATER_QUALITY/description"
+msgstr "Styrer opptegningskvaliteten på vannoverflate."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "Kun svak pansring"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "Dersom aktivert, viser pansringsindikator kun svak målpansring.\n\nPansring med høy penetrasjonsmulighet vises med tydelig grønt, mens pansring med en moderat penetrasjonssjanse er gjennomsiktig grønn. Fargene er annerledes i modus for fargeblinde."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "Vis kun svak pansring"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "Kun sterk pansring"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "Dersom aktivert, viser pansringsindikator kun solid målpansring.\n\nPansring med lav til null penetrasjonsmulighet vises med tydelig rød, mens pansring med en moderat penetrasjonssjanse er gjennomsiktig rød. Fargene er annerledes i modus for fargeblinde."
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "Vis kun sterk pansring"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "All pansring"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "Dersom aktivert, viser pansringsindikator all målpansring.\n\nPansring med lav til null penetrasjonsmulighet vises med rød, mens pansring med høy penetrasjonssjanse er grønn og pansring med en moderat penetrasjonsmulighet er gul. Fargene er annerledes i modus for fargeblinde."
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "Vis all pansring"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "Vis pansring"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "Aktiver i begynnelse av kamp"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "Standard pansringsindikator i begynnelsen av en kamp. Du kan skru pansringsindikator på eller av med hurtigtasten når som helst.\n\nNår den er skrudd på, fungerer pansringsindikator kun i snikskyttermodus.\n\nStøttede spillmodi:\n• TIlfeldige kamper og lagtrening;\n• Frontlinje;\n• Arcade kamper;\n• Onslaught;\n• Visse andre modi og eventer. \n\nYtterligere modi og eventer kan bli støttet i fremtiden."
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "Aktiver i begynnelse av kamp"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "Tekstur for pansringsindikator"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "Solid"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "Spredt mønster"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "Tett mønster"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "Gjennomsiktighet"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "Ytelsesadvarsel"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "Høy"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "Lav"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "Medium"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "Pansringsindikatoroppløsning"
+
+msgid "aim/cassette"
+msgstr "Beholder"
+
+msgid "aim/centralTag"
+msgstr "Sentrert markør"
+
+msgid "aim/centralTag/type0"
+msgstr "A-formet 1"
+
+msgid "aim/centralTag/type1"
+msgstr "A-formet 2"
+
+msgid "aim/centralTag/type10"
+msgstr "O-formet 1"
+
+msgid "aim/centralTag/type11"
+msgstr "O-formet 2"
+
+msgid "aim/centralTag/type12"
+msgstr "A-formet 4"
+
+msgid "aim/centralTag/type13"
+msgstr "A-formet 5"
+
+msgid "aim/centralTag/type2"
+msgstr "A-formet 3"
+
+msgid "aim/centralTag/type3"
+msgstr "V-formet"
+
+msgid "aim/centralTag/type4"
+msgstr "Kryss 1"
+
+msgid "aim/centralTag/type5"
+msgstr "Kryss 2"
+
+msgid "aim/centralTag/type6"
+msgstr "T-formet"
+
+msgid "aim/centralTag/type7"
+msgstr "I-formet"
+
+msgid "aim/centralTag/type8"
+msgstr "Siktepunkt 1"
+
+msgid "aim/centralTag/type9"
+msgstr "Siktepunkt 2"
+
+msgid "aim/condition"
+msgstr "Tilstand"
+
+msgid "aim/gunTag"
+msgstr "Kanonmarkør"
+
+msgid "aim/gunTag/type0"
+msgstr "A-formet 1 (med indikator for panserpenetrasjon)"
+
+msgid "aim/gunTag/type1"
+msgstr "A-formet 2 (med ladeindikator)"
+
+msgid "aim/gunTag/type10"
+msgstr "O-formet 2 (med ladeindikator)"
+
+msgid "aim/gunTag/type11"
+msgstr "O-formet 3"
+
+msgid "aim/gunTag/type12"
+msgstr "A-formet 4 (med indikator for panserpenetrasjon)"
+
+msgid "aim/gunTag/type13"
+msgstr "A-formet 5 (med ladeindikator)"
+
+msgid "aim/gunTag/type14"
+msgstr "A-formet 6"
+
+msgid "aim/gunTag/type2"
+msgstr "A-formet 3"
+
+msgid "aim/gunTag/type3"
+msgstr "Kryss 1 (med indikator for panserpenetrasjon)"
+
+msgid "aim/gunTag/type4"
+msgstr "Kryss 2 (med ladeindikator)"
+
+msgid "aim/gunTag/type5"
+msgstr "Kryss 3"
+
+msgid "aim/gunTag/type6"
+msgstr "Siktepunkt 1 (med indikator for panserpenetrasjon)"
+
+msgid "aim/gunTag/type7"
+msgstr "Siktepunkt 2 (med ladeindikator)"
+
+msgid "aim/gunTag/type8"
+msgstr "Siktepunkt 3"
+
+msgid "aim/gunTag/type9"
+msgstr "O-formet 1 (med indikator for panserpenetrasjon)"
+
+msgid "aim/mixing"
+msgstr "Sikte"
+
+msgid "aim/mixing/type0"
+msgstr "Sirkel 1 (med ladeindikator) "
+
+msgid "aim/mixing/type1"
+msgstr "Sirkel 2 (med skiftende ladeindikator)"
+
+msgid "aim/mixing/type2"
+msgstr "Sirkel 3 (uten ladeindikator)"
+
+msgid "aim/mixing/type3"
+msgstr "Sirkel 4 (solid)"
+
+msgid "aim/mixing/type4"
+msgstr "Kryss (med skiftende ladeindikator)"
+
+msgid "aim/mixing/type5"
+msgstr "Kryss 2"
+
+msgid "aim/mixing/type6"
+msgstr "Test"
+
+msgid "aim/net"
+msgstr "Indikator"
+
+msgid "aim/net/type0"
+msgstr "Diagonal"
+
+msgid "aim/net/type1"
+msgstr "Horisontal"
+
+msgid "aim/net/type2"
+msgstr "Radialt"
+
+msgid "aim/net/type3"
+msgstr "Strek"
+
+msgid "aim/reloader"
+msgstr "Lad"
+
+msgid "aim/reloaderTimer"
+msgstr "Ladetimer"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "Bytter til artillerisikte"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "Sist benyttet"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "Fugleperspektiv"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "Se prosjektilbane"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "Automatisk bytte av siktemodus"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "Når du skroller musehjulet og når et bestemt zoom-nivå, vil siktet bytte til enten \"fugleperspektiv\" eller \"prosjektilbane\"."
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "Automatisk bytte av siktemodus"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "Mykt kamera zoom"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "Vis indikator for skuddlinje"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "Vis/skjul indikatorene som viser om den valgte granaten vil nå punktet det siktes på. De viser også granatens flytid."
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "Skuddlinjeindikatorer"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "Vis indikator for kameraposisjon"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "Vis/skjul indikatoren som viser zoomnivået på siktekameraet til artilleriet."
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "Indikator for kamerastilling"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "Kamerakontroller"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "Alternativ"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "Standard"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "I standard kamerakontrollmodus, beveger kameraet seg opp, ned, til venstre og høyre. I den alternative kamerakontrollmodusen, beveger kameraet seg fremover, bakover, og rundt posisjonen til SPGen."
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "Kamerakontroller"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "Zoomindikator"
+
+msgid "alternativeVoices/labels"
+msgstr "Talemeldinger i kamp"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Talemeldinger i kamp"
+
+msgid "apply_button"
+msgstr "Bruk"
+
+msgid "autodetectButton"
+msgstr "Anbefalt"
+
+msgid "autodetectButton/description"
+msgstr "Setter opp optimale skjermbildeinnstillinger for din datamaskin.\n\nDette kan ta litt tid."
+
+msgid "battlecomm/enableCommendations"
+msgstr "Få anbefalinger i kamp"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "Vis personlige kommandoer"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "Indikér kommunikasjon på lagpanelet"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "Vis plasseringsmarkører på kartet"
+
+msgid "battlecomm/showMarkers"
+msgstr "Vis markører for basene i tilfeldige kamper"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "Vis faste retningsmarkører"
+
+msgid "borderlessSize"
+msgstr "Vindu (uten kant)"
+
+msgid "borderlessSize/description"
+msgstr "Vindu (uten kant)"
+
+msgid "cancel_button"
+msgstr "Avbryt"
+
+msgid "chat/censorshipMessages"
+msgstr "Sensurér støtende meldinger"
+
+msgid "chat/chatContactsListOnly"
+msgstr "Få kun meldinger fra kontaktlisten"
+
+msgid "chat/disableBattleChat"
+msgstr "Skru av kampchat med allierte"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "Husk posisjon på kamera og kanalvindu"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "Husk posisjon på kamera og andre vinduer"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "Akseptér kun invitasjoner fra spillere i vennelista i garasjen"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "Motta varsler om klaner"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "Godta venneforespørsel"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "Akseptér invitasjoner til tropp i kamper"
+
+msgid "chat/removeSpam"
+msgstr "Skjul spam"
+
+msgid "chat/showDateMessage"
+msgstr "Vis dato i meldinger"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "Meld fra når brukere logger på/av"
+
+msgid "chat/showTimeMessage"
+msgstr "Vis tiden i meldinger"
+
+msgid "colorCorrection"
+msgstr "Fargejustering"
+
+msgid "colorCorrectionBtn/label"
+msgstr "Konfigurér"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "Tilpassede innstillinger"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "Lysintensitet"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "Kontrast"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "Metning"
+
+msgid "colorSettings/tab/default"
+msgstr "Standard"
+
+msgid "colorSettings/tab/filters"
+msgstr "Forhåndsdefinerte filtre"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "Filterintensitet"
+
+msgid "colorSettings/view/after"
+msgstr "Etter"
+
+msgid "colorSettings/view/before"
+msgstr "Før"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "LUKK"
+
+msgid "colorSettings/view/description"
+msgstr "Velg en av valgmulighetene for bildejustering"
+
+msgid "colorSettings/view/header"
+msgstr "Fargejustering"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "Nullstill"
+
+msgid "colorSettings/view/subTitle"
+msgstr "Valgmuligheter for bildejustering"
+
+msgid "cursor/ArcadeTitle"
+msgstr "Arkade"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "Pansringsindikator"
+
+msgid "cursor/ArtyTitle"
+msgstr "Artilleri"
+
+msgid "cursor/ContourTitle"
+msgstr "Kontur"
+
+msgid "cursor/ServerAim"
+msgstr "Aktivér servertrådkors"
+
+msgid "cursor/SnipperTitle"
+msgstr "Skarpskytter"
+
+msgid "cursor/contour/type0"
+msgstr "Standard"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "Ved sikting på fiendtlig kjøretøy blir hele dens kontur vist, inkludert påsatte elementer som ikke er pansring som granater ikke får noen påvirkning på."
+
+msgid "cursor/contour/type1"
+msgstr "Forenklet"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "Ved sikting på fiendtlig kjøretøy blir deler av dens kontur vist, kun inkludert elementer som er pansring som granater får påvirkning på."
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "Upenetrerbart område"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "Ingen"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "Fyll"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "Tekstur"
+
+msgid "cursor/contourLabel"
+msgstr "Type kontur"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "Penetrerbart område"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "Ingen"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "Fyll"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "Tekstur"
+
+msgid "cursor/overlapContour"
+msgstr "Visning av objekter"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "Aktivering av visning kan redusere ytelse."
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "Visning av hindringer for granater når man sikter på fiendtlig kjøretøy.\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "Visning av hindringer"
+
+msgid "cursor/overlapContourLabel"
+msgstr "Visning av hindringer"
+
+msgid "cursorTitle"
+msgstr "Trådkors"
+
+msgid "defaultBtn"
+msgstr "Standard"
+
+msgid "defaultNamePrefix"
+msgstr "Spiller"
+
+msgid "dynamicCamera"
+msgstr "Aktivér dynamisk kamera"
+
+msgid "dynamicFov"
+msgstr "Dynamisk FoV"
+
+msgid "dynamicFov/description"
+msgstr "Dynamisk FoV gir deg muligheten til å sette minimum og maksimum synsvinkel på Arkadesiktet.\n\nMaksimum vinkel brukes når kameraet zoomer vekk fra kjøretøyet.\n\nMinimum vinkel brukes når det zoomes inn på kjøretøyet."
+
+msgid "dynamicRenderer"
+msgstr "3D Renderoppløsning"
+
+msgid "dynamicRenderer/description"
+msgstr "Styrer kvaliteten og detaljer på eksteriør.\n\n3D Renderoppløsning i en kamp kan endres ved å bruke [RShift +] og [RShift -]. Påvirker ikke grensesnittet.\n\nRedusering av verdien for dette parameteret kan forbedre spillets ytelse på datamaskiner med dårlige skjermkort."
+
+msgid "edgeDetectAA"
+msgstr "Edge detect AA"
+
+msgid "feedBack"
+msgstr "Kampmeldinger"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "Kartgrense"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "Skade etter din sjokking"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "Baserobringspoeng"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "Nullstilling av erobringspoeng"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "Skade blokkert"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "Fiendtlig kjøretøy satt i brann"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "Kritisk skade"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "Oppdagelse"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "Skade etterfulgt av oppdagelse"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "Skade av skudd"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "Fiendtlig kjøretøy bekjempet"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "Skade fra kollisjon"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "Belte ødelagt"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "Navn på event"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "Kritisk skade"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "Skade"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "Vis i kamp"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "Kjøretøyinformasjon"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "Skade fra kollisjon"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "Alle situasjonsbetingede fordeler"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "De tre siste eventene\nvises i kamp"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "Kamphendelser"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "Varsler"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "Eventer"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "Besetningsfordeler"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "Skade mottatt"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "Kampresultat"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "Skade mottatt"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "Å skjule kartgrensen kan føre til desorientering i en kamp."
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "Ved å trykke Alt"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "Alltid vist"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "Ikke vis"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "Når man nærmer seg"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "Ytterligere visning"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "Prikkete linje"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "Ikke vis"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "Type grensemarkering"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "Vegg"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "Retningsindikator for skudd"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "Vennlig ild"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "Mengde skade"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "Skudd blokkert"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "Kritiske treff\npå ditt kjøretøy"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "x3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "Skade mottatt"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "Skadet modul"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "Informasjon"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "Vis animering"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "Mengde skade"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "Dynamiske indikatorer"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "Kjøretøyinformasjon"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "Vis i kamp"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "Alle"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "Vennlig ild"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "Kritiske treff"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "Bortsett fra kritisk"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "Detaljert"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "Standard"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "Type"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "Logg"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "Forårsaket etter din sjokking"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "Blokkert av pansring"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "Skade etter din oppdagelse"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "Skade forårsaket av deg"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "Alltid vise"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Trykk Alt for å vise"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "Skjul"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "Detaljert skade"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "Alle eventene er nederst"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "Mottatt skade er øverst"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "Eventenes posisjon"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "Alle eventene"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "Type event"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "Skade mottatt"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "Kampresultat"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "Å aktivere denne innstillingen anbefales ikke\nfor skjermer med lav oppløsning"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "Summert skade"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "En blokk for detaljert skadeinformasjon. Viser komplett informasjon om din effektivitet i kamp."
+
+msgid "feedback/tab/eventsInfo"
+msgstr "Kamphendelser"
+
+msgid "feedback/tab/questsProgress"
+msgstr "Kamprapporter & oppdrag"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "Kamppoeng"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "Oppdragsdetaljer"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "Vis kjøretøyikonene etter nivå"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "Vis lagets helsepoeng"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "Vis forskjell på lagenes\nhelsepoeng"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "Vis lagets helsepoengtall"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "Vis alt"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "Vis kun fremgang"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "Alternativ"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "Ikke vis"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "Standard"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "Vis oppdragene"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "Field of View (FoV)"
+
+msgid "fov/description"
+msgstr "Visningsrekkevidde på kameraet.\n\n95° er normal FoV (field of view). Jo mindre FoV-verdi, jo nærmere er objekter mens vidsynet reduseres.\n\nPåvirker ikke spillets ytelse."
+
+msgid "game/anonymizer"
+msgstr "Anonymisér ditt spillernavn i kamp"
+
+msgid "game/battleLoadingInfo"
+msgstr "Tips på kampstart-skjermbildet"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "Minikart"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "Bare tekst"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "Illustrasjonstips"
+
+msgid "game/battlePanelSettings"
+msgstr "Kampskjermbilde"
+
+msgid "game/carouselType"
+msgstr "Kjøretøypanel"
+
+msgid "game/carouselType/double"
+msgstr "To-nivå"
+
+msgid "game/carouselType/single"
+msgstr "Ett-nivå"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "Viser statistikk ved å holde peker over en plass i garasjen"
+
+msgid "game/commanderCamEnabled"
+msgstr "Aktivér taktiskt kamera"
+
+msgid "game/customizationDisplayType"
+msgstr "Visning av tilpasningselementer i kamp"
+
+msgid "game/customizationDisplayType/all"
+msgstr "Historiske, ikke-historiske og oppdiktede"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "Historisk"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "Historiske og ikke-historiske"
+
+msgid "game/displayPlatoonMembers"
+msgstr "Vis troppsmedlemmenes kjøretøy i garasjen"
+
+msgid "game/doubleCarousel/label"
+msgstr "Dobbelt kjøretøypanel"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "Tilpasset"
+
+msgid "game/doubleCarouselType/small"
+msgstr "Minimalistisk"
+
+msgid "game/dynamicCamera"
+msgstr "Aktivér dynamisk kamera"
+
+msgid "game/enableBattleNotifier"
+msgstr "Vis tidligere kampresultater i chat"
+
+msgid "game/enableMortalPostEffect"
+msgstr "Aktivér ettereffekter i post mortem modus"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "Sett på optiske effekter i snikskyttermodus"
+
+msgid "game/enableRepairTimer"
+msgstr "Vis reparasjonstid for skadde moduler"
+
+msgid "game/enableSpeedometer"
+msgstr "Vis speedometeret i kjøretøy med hjul"
+
+msgid "game/enableVoIP"
+msgstr "Gruppesamtale"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "Kampkommunikasjon"
+
+msgid "game/fieldset/headerChat"
+msgstr "Chat"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "Minikart"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "Vognmarkører"
+
+msgid "game/hangarCamCheckbox"
+msgstr "Garasjekamera panoreres når musepeker beveges"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "Garasjekamera inaktivitetsrotering om"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "Garasjekamera animering"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "Aldri"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 sekunder"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 sekunder"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 sekunder"
+
+msgid "game/horStabilizationSnp"
+msgstr "Horisontal stabilisering i snikskyttermodus"
+
+msgid "game/hullLockEnabled"
+msgstr "Aktivér skroglåsning i snikskyttermodus"
+
+msgid "game/increasedZoom/base"
+msgstr "Aktivér %(zooms)s"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " og "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "Vis servervalg ved start av spillet"
+
+msgid "game/minimapDrawRange"
+msgstr "Vis visningssirkelen"
+
+msgid "game/minimapGroupTitle"
+msgstr "Minikart"
+
+msgid "game/minimapMaxViewRange"
+msgstr "Vis sirkelen for maksimal synsrekkevidde"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "Vis oppdagelsessirkel"
+
+msgid "game/minimapViewRange"
+msgstr "Vis sirkelen for synsrekkevidden"
+
+msgid "game/newbeeTipsTitle"
+msgstr "Tips"
+
+msgid "game/newbieBattleHints"
+msgstr "Aktiver nybegynnertips i tilfeldige kamper"
+
+msgid "game/newbiePrebattleHints"
+msgstr "Aktiver tips på kampstart-skjermbildet"
+
+msgid "game/optimizeGraphics"
+msgstr "Optimisér grensesnittgrafikk"
+
+msgid "game/playersPanelState/large"
+msgstr "Fullt panel"
+
+msgid "game/playersPanelState/medium"
+msgstr "Junior"
+
+msgid "game/playersPanelState/none"
+msgstr "Ikke panel"
+
+msgid "game/playersPanelState/short"
+msgstr "Kortpanel"
+
+msgid "game/postmortemMode"
+msgstr "Postmortem modus"
+
+msgid "game/postmortemMode/analysis"
+msgstr "Vis øyeblikket ditt kjøretøy ble bekjempet (detaljert)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "Vis det fiendtlige kjøretøyet som bekjempet kjøretøyet ditt"
+
+msgid "game/postmortemMode/self"
+msgstr "Vis ditt kjøretøy"
+
+msgid "game/postmortemMode/simple"
+msgstr "Vis øyeblikket ditt kjøretøy ble bekjempet (kort)"
+
+msgid "game/ppShowLevels"
+msgstr "Vis kjøretøynivå"
+
+msgid "game/ppShowTypes"
+msgstr "Vis kjøretøytype"
+
+msgid "game/ppStartStateLabel"
+msgstr "Type"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "Aktivér kommandørkamera"
+
+msgid "game/replayEnabled"
+msgstr "Aktivér opptak"
+
+msgid "game/replayEnabled/all"
+msgstr "Alle"
+
+msgid "game/replayEnabled/last"
+msgstr "Siste"
+
+msgid "game/replayEnabled/none"
+msgstr "Nei"
+
+msgid "game/showArtyHitOnMap"
+msgstr "Visning av området SPGen vil treffe"
+
+msgid "game/showDamageIcon"
+msgstr "Vis varsel når det ikke vil bli forårsaket skade"
+
+msgid "game/showDogTag"
+msgstr "Vis ID-merke"
+
+msgid "game/showDogTagToKiller"
+msgstr "Vis ditt aktiverte ID-merke som kan tilpasses"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "Vis info om bekjempede kjøretøy"
+
+msgid "game/showKillersDogTag"
+msgstr "Vis ID-merket til spilleren som bekjempet deg"
+
+msgid "game/showLanguageBar"
+msgstr "Vis språkpanel"
+
+msgid "game/showMarksOnGun"
+msgstr "Vis Marks of Excellence"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "Se ditt animerte ID-merke"
+
+msgid "game/showSectorOnMap"
+msgstr "Vis skuddbanen til SPGen"
+
+msgid "game/showVectorOnMap"
+msgstr "Vis kameraets retning"
+
+msgid "game/showVehModelsOnMap"
+msgstr "Iverksett utvidet funksjonalitet på minikartet"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Når du trykker Alt"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "Alltid"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "Aldri"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "Vis helsepoengene på kjøretøyene i minikartet"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Når du trykker Alt"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "Alltid"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "Aldri"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "Vis helsepoengene på kjøretøyene i laglistene"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Når du trykker Alt"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "Alltid"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "Aldri"
+
+msgid "game/showVehicleIcon"
+msgstr "Vis kjøretøyikon"
+
+msgid "game/showVehicleLevel"
+msgstr "Vis kjøretøynivå"
+
+msgid "game/showVehiclesCounter"
+msgstr "Vis kjøretøymarkører i kampresultatene"
+
+msgid "game/showVictimsDogTag"
+msgstr "Vis ID-merker på fiender du bekjemper"
+
+msgid "game/sniperModeByShift"
+msgstr "Begrens bytte til snikskyttermodus til shift-tasten"
+
+msgid "game/sniperZoom"
+msgstr "Foretrukket zoomnivå i snikskyttermodus"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "Sist benyttet"
+
+msgid "game/switchEquipment"
+msgstr "Bytting av konfigurasjon på oppstartsskjerm"
+
+msgid "game/w2gtEnable"
+msgstr "Aktiver kampsoner på minikartet"
+
+msgid "gameTitle"
+msgstr "Generell"
+
+msgid "gameplay/devMaps"
+msgstr "Spill på kart med tilfeldige hendelser"
+
+msgid "gameplay/nations"
+msgstr "Konfrontasjon"
+
+msgid "gamma"
+msgstr "Gamma"
+
+msgid "gammaBtn/label"
+msgstr "Konfigurér"
+
+msgid "gammaWizard/apply"
+msgstr "Bruk"
+
+msgid "gammaWizard/cancel"
+msgstr "Avbryt"
+
+msgid "gammaWizard/closeBtn"
+msgstr "LUKK"
+
+msgid "gammaWizard/default"
+msgstr "Standard"
+
+msgid "gammaWizard/description"
+msgstr "Flytt glider til bakgrunnen og logen får samme lysstyrke. Lukk øynene delvis eller flytt deg lenger vekk fra monitoren din for å gjøre detaljene såvidt synlige."
+
+msgid "gammaWizard/header"
+msgstr "Gamma"
+
+msgid "gammaWizard/title"
+msgstr "Gamma instillinger"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "Justerer lysstyrken i spillet, slik at den gir den optimale\nbildekvaliteten på skjermen. Denne valgmuligheten søker å\nkompensere for effekter fra grafikkdrivere og vise\ninnstillinger som påvirker spillets visuelle kvalitet."
+
+msgid "gammaWizard/tooltip/header"
+msgstr "Gamma"
+
+msgid "graficTitle"
+msgstr "Grafikk"
+
+msgid "graphics/block/effects"
+msgstr "Effekter"
+
+msgid "graphics/block/greenery"
+msgstr "Vegetasjon"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "Terreng og vann"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "Lys og postprosessering"
+
+msgid "graphics/block/main"
+msgstr "Hoved"
+
+msgid "graphics/tabAdvanced"
+msgstr "Detaljer"
+
+msgid "graphics/tabScreen"
+msgstr "Skjerm"
+
+msgid "graphicsQuality"
+msgstr "Grafikkkvalitet"
+
+msgid "graphicsQuality/description"
+msgstr "Styrer den generelle kvaliteten på et bilde. Styrer parametere på fanen for detaljer.\n\nRedusering av kvalitet på grafikk kan:\n• Forbedre spillets ytelse\n• Forårsake desynkronisert visning av landskap mellom klient og server.\n\nBruk minimum grafikkinnstillinger på datamaskiner med dårlig ytelse."
+
+msgid "graphicsQualityHDSD"
+msgstr "Klienttyper"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "HD klient installert"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "Standardklient (SD) installert"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "Standardklient—hele spillet uten toppkvalitetsgrafikk.\n\nHD klient—hele spillet inkludert toppkvalitetsgrafikk. Krever mer plass på harddisken enn Standardklienten."
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "Klienttyper"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "HD klient—hele spillet inkludert maksimal teksturkvalitet. Krever mer harddiskplass enn standardklient.\n\nStandardklient (SD)—hele spillet uten maksimal kvalitet på tekstur."
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "Maksimum (SD) og Ultra (SD) grafikk kvalitet gir ikke den beste verdien på parameteren for teksturkvalitet. For å få den maksimale grafikk kvaliteten, bytt til HD klienten i spillet."
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "Anisotropic 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "Anisotropic 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "Anisotropic 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "Anisotropic 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "Bilinear"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "Egendefinert"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "40-årenes film"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "Kontrast"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "Forbedret"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "Fjern"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "Standard"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "Høy"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "Lav"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "Veldig Lav"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "Maksimum"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "Maksimum (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "Middels"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "Minimum"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "Dempet"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "Nær"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "AV"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "AV"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "PÅ"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "Forenklet"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "Forbedret"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "Punkt"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "Fotokromatisk"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "Tilfeldig"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "Standard"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "Dyp"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "Myke farger"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "Trilinear"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "Ultra"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "Ultra (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "Veldig høy"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "Veldig høy"
+
+msgid "igbHardwareAcceleration"
+msgstr "Maskinvarebasert aksellerasjon av nettleser"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "Når denne innstillingen er aktivert, vil nettinnhold vises ved hjelp av grafikkprosessoren (GPU) i stedet for hovedprosessoren (CPU).\n\nSkru dette av dersom du har problemer med å få vist innhold i noen av vinduene.\n\nEndringene trer i kraft etter at spillet blir startet på nytt."
+
+msgid "interfaceScale"
+msgstr "Grensesnittskalering"
+
+msgid "interfaceScale/attention"
+msgstr "Egenskap blir pt. testet;\nden påvirker ikke spillets ytelse."
+
+msgid "interfaceScale/body"
+msgstr "Automatisk skalering av elementer i brukergrensesnittet\nnår spillvinduet/skjermen maksimeres."
+
+msgid "interfaceScale/description"
+msgstr "Automatisk skalering av elementer i brukergrensesnittet når spillvinduet/skjermen maksimeres."
+
+msgid "interfaceScale/header"
+msgstr "Grensesnittskalering"
+
+msgid "interfaceScale/warning"
+msgstr "Egenskap blir pt. testet; den påvirker ikke spillets ytelse."
+
+msgid "interfaceScaleDisabled"
+msgstr "Grensesnittskalering"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "Bare tilgjengelig for 4K-skjermer."
+
+msgid "interfaceScaleDisabled/body"
+msgstr "Automatisk skalering av elementer i brukergrensesnittet\nnår spillvinduet/skjermen maksimeres."
+
+msgid "interfaceScaleDisabled/description"
+msgstr "Automatisk skalering av elementer i brukergrensesnittet når spillvinduet/skjermen maksimeres."
+
+msgid "interfaceScaleDisabled/header"
+msgstr "Grensesnittskalering"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "Bare tilgjengelig for 4K-skjermer."
+
+msgid "isColorBlind"
+msgstr "Alternativ fargepalett"
+
+msgid "isColorBlind/description"
+msgstr "Iverksettelse av fargepaletten for fargeblinde."
+
+msgid "keyboard/backDraftInvert"
+msgstr "Revers invertert"
+
+msgid "keyboard/keyboard"
+msgstr "Tastatur"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "Bekreftes!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "Spesial-trådkors"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "Lås skrog / Bytt modus"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "Tilbake"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "Tilbake"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "\"Håndbrekk\""
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "Ned"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "Venstre"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "Høyre"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "Opp"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "Avfyr en salve"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "Slå retrett!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "Skyt"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "Forover"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "Forover"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "Forlat kjøretøy (i Frontlinje)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "Hjelp!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "Indikér posisjon"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "Indikér aktivt mål"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "Forbruksmateriell 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "Forbruksmateriell 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "Forbruksmateriell 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "Forbruksmateriell 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "Forbruksmateriell 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "Forbruksmateriell 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "Forbruksmateriell 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "Forbruksmateriell 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "Forbruksmateriell 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "Forbruksmateriell 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "Venstre"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "Auto-sikte"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "Deaktivere auto-sikte"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "Negativ!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "Push-to-Talk"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "Lad om granatmagasin"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "Lader om!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "Høyre"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "Skjul kampgrensesnitt"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "Aktivering av personlige reserver"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "Fremgang for personlige oppdrag"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "Vis kommandomeny / Bekreft kommando"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "Gjør større"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "Gjør mindre"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "Spesialevne"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "Stopp og skyt"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "Takk!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "Skru pansringsindikator av/på"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "Se prosjektilbane"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "Sett lydsignal"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "Vis/Skjul"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "Sett på/slå av stemmechat i dynamiske tropper"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "Kamera"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "Fartskontroll"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "Forbruksmateriell"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "Skyt"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "Minikart"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "Forflytt"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "Meldinger"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "Lagkommunikasjon"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "Andre"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "Gruppesamtale"
+
+msgid "keyboard/mouse"
+msgstr "Mus"
+
+msgid "keyboardTitle"
+msgstr "Kontroller"
+
+msgid "limitedUI/desc"
+msgstr "Gradvis visning av skjulte grensesnittelementer i garasjen"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "Deaktivér"
+
+msgid "marker/AllyTitle"
+msgstr "Vårt lag"
+
+msgid "marker/DeadTitle"
+msgstr "Bekjempet"
+
+msgid "marker/EnemyTitle"
+msgstr "Fiendens lag"
+
+msgid "marker/aimMarker2D"
+msgstr "Autosikte indikator"
+
+msgid "marker/alt"
+msgstr "Alternativ"
+
+msgid "marker/base"
+msgstr "Normal"
+
+msgid "marker/damage"
+msgstr "Skade mottatt"
+
+msgid "marker/dead"
+msgstr "Vis for bekjempede"
+
+msgid "marker/hp"
+msgstr "Vognens HP"
+
+msgid "marker/hp/type0"
+msgstr "Prosent %"
+
+msgid "marker/hp/type1"
+msgstr "HP Gjenværende / totalt"
+
+msgid "marker/hp/type2"
+msgstr "HP Gjenværende"
+
+msgid "marker/hp/type3"
+msgstr "Skjul"
+
+msgid "marker/hpIndicator"
+msgstr "HP-Indikator"
+
+msgid "marker/icon"
+msgstr "Kjøretøyikon"
+
+msgid "marker/level"
+msgstr "Kjøretøynivå"
+
+msgid "marker/level/tooltip/body"
+msgstr "Når denne innstillingen aktiviseres, blir nivået synlig over kjøretøyet.\n\nI Steel Hunter blir det nåværende oppgraderingsnivået vist."
+
+msgid "marker/level/tooltip/header"
+msgstr "Kjøretøynivå"
+
+msgid "marker/name"
+msgstr "Kjøretøymodell"
+
+msgid "marker/name/type2"
+msgstr "Skjul"
+
+msgid "marker/nickname"
+msgstr "Spillernavn"
+
+msgid "markerTitle"
+msgstr "Markør"
+
+msgid "minimap/labels/alpha"
+msgstr "Gjennomsiktighet minikart"
+
+msgid "minimap/labels/size"
+msgstr "Maksimal størrelse"
+
+msgid "monitor"
+msgstr "Monitor"
+
+msgid "monitor/description"
+msgstr "Velg primærskjermen for spillet."
+
+msgid "mouse/sensitivity/art"
+msgstr "SPG sikte"
+
+msgid "mouse/sensitivity/art2"
+msgstr "Se bane"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "Frikamera"
+
+msgid "mouse/sensitivity/header"
+msgstr "Sensitivitet"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "Horisontal inversjon"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "Vertikal inversjon"
+
+msgid "mouse/sensitivity/main"
+msgstr "Arkade sikte"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "Skarpskytter sikte"
+
+msgid "mouse/startDist"
+msgstr "Kameraposisjon"
+
+msgid "ok_button"
+msgstr "OK"
+
+msgid "otherSettings/fieldset/header"
+msgstr "Elementer for lydmiljø"
+
+msgid "otherSettings/labels/bulb"
+msgstr "Aktiveringslyd for sjette sans"
+
+msgid "otherTitle"
+msgstr "Andre"
+
+msgid "physicsQuality"
+msgstr "Kvalitet på lydfysikk"
+
+msgid "refreshRate"
+msgstr "Monitor refresh rate"
+
+msgid "refreshRate/default"
+msgstr "Standard"
+
+msgid "refreshRate/description"
+msgstr "Skjermens gjenoppfriskningshastighet i spillet.\n\nMismatch med skjermens gjenoppfriskningshastighet kan gi blinkende skjerm.\n\nPåvirker ikke spillets ytelse."
+
+msgid "resolution"
+msgstr "Skjermoppløsning"
+
+msgid "resolution/description"
+msgstr "Horisontal og vertikal skjermoppløsning i fullskjermmodus. Høyere oppløsning forbedrer bildekvalitet. Mismatch mellom valgt oppløsning i fullskjermmodus med nåværende monitor kan forvrenge bildet.\n\nØkning av dette parameteret øker belastningen på skjermkortet og kan redusere spillets ytelse.\n\nBelastning på skjermkortet kan reduseres ved å justere 3D renderoppløsning."
+
+msgid "restartNewbieBattleHints"
+msgstr "Nullstill nybegynnertips"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "Nullstill historikken for nybegynnertips for å få tipsene vist på nytt."
+
+msgid "screenMode"
+msgstr "Spillmodus"
+
+msgid "screenMode/borderless"
+msgstr "Vindu (uten kant)"
+
+msgid "screenMode/description"
+msgstr "Bytting mellom fullskjerm, vindu og vindu (uten kant). Vindumodusen fører til redusert spillytelse."
+
+msgid "screenMode/fullscreen"
+msgstr "Fullskjerm"
+
+msgid "screenMode/label"
+msgstr "Modus:"
+
+msgid "screenMode/windowed"
+msgstr "Vindu"
+
+msgid "smoothing/description"
+msgstr "Avgjør graden av merprosessering av tynne linjer og konturer i spillets bilde. Minimerer artefakter pga mønstre. Kanter og objekter blir mykere."
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "Standard"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "Brukers lyd"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "Variant 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "Variant 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "Brukers lyd"
+
+msgid "sound/dynamicRange/label"
+msgstr "Dynamic range"
+
+msgid "sound/fieldset/header"
+msgstr "Lydstyrke"
+
+msgid "sound/players_notifications"
+msgstr "Beskjeder fra andre spillere"
+
+msgid "sound/presets/title"
+msgstr "Forhåndsinnstillinger"
+
+msgid "sound/soundModes/U01"
+msgstr "Bruker 1"
+
+msgid "sound/soundModes/U02"
+msgstr "Bruker 2"
+
+msgid "sound/soundModes/U03"
+msgstr "Bruker 3"
+
+msgid "sound/soundModes/U04"
+msgstr "Bruker 4"
+
+msgid "sound/soundModes/default"
+msgstr "Standard"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "Kommandør"
+
+msgid "sound/special/field/set"
+msgstr "Spillevent volum"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "Oppdatér enheter"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "Avslutt test"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "Start test"
+
+msgid "sound/vivox/fade_volume"
+msgstr "Generell bakgrunnslyd under chat"
+
+msgid "sound/vivox/master_volume"
+msgstr "Gruppesamtale volum"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "Mikrofonfølsomhet"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Vivox test"
+
+msgid "soundTitle"
+msgstr "Lyd"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "Autovalg"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "2.0/2.1 system"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "5.1 system"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "7.1 system"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "hodetelefoner"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "Senter"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "Venstre"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "Venstre bak"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "Venstre foran"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "Venstre side"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "Høyre"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "Høyre bak"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "Høyre foran"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "Høyre side"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "Subwoofer"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "bærbar"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "Lydtest:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "Test lyd"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "Stemmemeldinger avhenger av et kjøretøys nasjonalitet og kommandørens kjønn"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "Kommandør"
+
+msgid "sounds/altVoice/default/body"
+msgstr "Mannlig stemme i spillklientens språk"
+
+msgid "sounds/altVoice/default/header"
+msgstr "Standard"
+
+msgid "sounds/ambient"
+msgstr "Bakgrunnslyd"
+
+msgid "sounds/arena"
+msgstr "Musikk i kamp"
+
+msgid "sounds/artyBulbVoices"
+msgstr "Lydoppdagelse"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "Velg en av variantene for aktiveringslyden for lydoppdagelses-varsling. For å bruke din egen lyd, gi din .mp3-fil navnet soundExploring og flytt den til res/audioww mappa."
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "Aktiveringslyd for lydoppdagelse"
+
+msgid "sounds/bassBoost"
+msgstr "Lavfrekvens forbedring"
+
+msgid "sounds/bassBoost/description"
+msgstr "Forbedrer lave frekvenser i spillet med hovedlyd på samme nivået. Implementeringen av modusen kan variere avhengig av det valgte lydsystemet (høyttalere, hodetelefoner eller bærbar)."
+
+msgid "sounds/bulbVoices"
+msgstr "Sjette sans"
+
+msgid "sounds/bulbVoices/description"
+msgstr "Velg en av variantene for aktiveringslyden for den sjette sans-varsling. For å bruke din egen lyd, gi din .mp3-fil navnet sixthSense og flytt den til res/audiow mappa."
+
+msgid "sounds/effects"
+msgstr "Effekter"
+
+msgid "sounds/gui"
+msgstr "Grensesnitt"
+
+msgid "sounds/hangar"
+msgstr "Musikk i garasjen"
+
+msgid "sounds/masterVolume"
+msgstr "Generell lydstyrke"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "Sett på lyd"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "Å skru av spillets lydeffekter kan forbedre spillets ytelse. Du må restarte spillklienten for at endringene skal bli iverksatt."
+
+msgid "sounds/nightMode"
+msgstr "Nattmodus"
+
+msgid "sounds/nightMode/description"
+msgstr "Jevner ut forskjeller i lydstyrken, reduserer skarpe lyder og minimerer lave frekvenser i spillet, noe som gir et komfortabelt og mykt lydmiljø for spilling sent om kvelden."
+
+msgid "sounds/physicsQuality/attention"
+msgstr "Å aktivere denne egenskapen kan påvirke ytelse."
+
+msgid "sounds/physicsQuality/body"
+msgstr "Kontrollerer kvaliteten på lydfysikk.\n\nSimulerer hvordan lyd bøyer seg rundt hindringer og passerer gjennom kartoverflater.\n\nBruker kartgeometri for å generere tidlige refleksjoner av lyder fra tanks som deflekteres fra nærliggende objekter.\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "Kvalitet på lydfysikk"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "Deaktivert"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "Høy"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "Lav"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "Medium"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "Anbefalt"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "Finner ut hva som er optimal kvalitet for lydfysikk for din datamaskin.\n\nDette kan ta litt tid."
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "Anbefalt"
+
+msgid "sounds/sixthSense/body"
+msgstr "Tilpasset lyd. Flytt sixthSense.mp3 fila til res/audioww mappa."
+
+msgid "sounds/sixthSense/header"
+msgstr "Tilpasset"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "2.0/2.1 System"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "Justerer spillets lyd for eksternt par med bredspektrede høyttalere (2.0) eller et par med høyfrekvenshøyttalere + en lavfrekvens høyttaler (2.1)."
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "2.0/2.1 System"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "5.1 System"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "Justerer posisjoneringen av lydene i spillet for de eksterne høyttalerne og subwoofer i 5.1 multikanalsystemet."
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "5.1 System"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "7.1 System"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "Justerer posisjoneringen av lydene i spillet for de eksterne høyttalerne og subwoofer i 7.1 multikanalsystemet."
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "7.1 System"
+
+msgid "sounds/soundDevice/auto"
+msgstr "Autovalg"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "Konfigurerer automatisk lydinstillingene basert på spesifikasjonene i operativsystemet."
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "Autovalg"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "Hodetelefoner"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "Justerer spillets lyder for hodetelefoner."
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "Hodetelefoner"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "Bærbar"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "Bruker posisjoneringsprinsippet til 2.0/2.1 Sound System men justerer spillets lyd for avspilling på små bærbarhøyttalere med den best mulige kvaliteten."
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "Bærbar"
+
+msgid "sounds/soundQuality"
+msgstr "Lav kvalitet"
+
+msgid "sounds/soundQuality/description"
+msgstr "Reduksjon av lydkvalitet kan forbedre spillets generelle ytelse på eldre datamaskiner. Ved å aktivere denne modusen reduseres antall lyder som må prosesseres betydelig."
+
+msgid "sounds/speakers/back/body"
+msgstr "Lydtest på høyre/venstre høyttalere bak."
+
+msgid "sounds/speakers/back/header"
+msgstr "Høyre/venstre høyttalere bak"
+
+msgid "sounds/speakers/center/body"
+msgstr "Lydtest på senterhøyttaler."
+
+msgid "sounds/speakers/center/header"
+msgstr "Senterhøyttaler"
+
+msgid "sounds/speakers/front/body"
+msgstr "Lydtest på høyre/venstre høyttalere foran."
+
+msgid "sounds/speakers/front/header"
+msgstr "Høyre/venstre høyttalere foran"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "I 2.0/2.1 systemet er en subwoofer valgfritt. Det kan ikke testes uten høyttalere."
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "Valgfri subwoofer"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "Lydtest på høyre/venstre høyttalere sider."
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "Høyre/venstre høyttalere sider"
+
+msgid "sounds/speakers/sides/body"
+msgstr "Lydtest på høyre/venstre høyttalere."
+
+msgid "sounds/speakers/sides/header"
+msgstr "Høyre/venstre høyttalere"
+
+msgid "sounds/speakers/sub/body"
+msgstr "Lydtest på subwoofer."
+
+msgid "sounds/speakers/sub/header"
+msgstr "Subwoofer"
+
+msgid "sounds/subtitles"
+msgstr "Undertekst"
+
+msgid "sounds/tabCommon"
+msgstr "Generell lyd"
+
+msgid "sounds/tabSpecial"
+msgstr "Spillevent"
+
+msgid "sounds/tabVivox"
+msgstr "Gruppesamtale"
+
+msgid "sounds/vehicles"
+msgstr "Kjøretøy"
+
+msgid "sounds/voiceNotification"
+msgstr "Stemmevarsler"
+
+msgid "title"
+msgstr "Innstillinger"
+
+msgid "tripleBuffered"
+msgstr "Triple buffering"
+
+msgid "tripleBuffered/description"
+msgstr "Reduserer forstyrrelser ved rask endring av skjermbildet (er bare tilgjengelig med aktivert vertikal synkronisering)."
+
+msgid "vertSync"
+msgstr "Vertikal synkronisering"
+
+msgid "vertSync/Off"
+msgstr "AV"
+
+msgid "vertSync/On"
+msgstr "PÅ"
+
+msgid "vertSync/description"
+msgstr "Synkronisering av bildefrekvensen med monitor refresh rate. \n\n60 \"frames\" per sekund er grensen. Kan endres ved skjelvende skjermbilde, eller hvis toppen av bildet er forsinket i forhold til bunnen av bildet."
+
+msgid "voice_chat/PTT"
+msgstr "Push-to-talk"
+
+msgid "voice_chat/fieldset/header"
+msgstr "Lydstyrke"
+
+msgid "voice_chat/header/common"
+msgstr "Generell"
+
+msgid "voice_chat/header/microphone"
+msgstr "Mikrofon"
+
+msgid "voice_chat/header/speakers"
+msgstr "Hodetelefoner"
+
+msgid "voice_chat/microphone"
+msgstr "Mikrofon"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "Mikrofon"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "Aktivér mikrofon"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "Aktivér voicechat"
+
+msgid "windowSize"
+msgstr "Vindusstørrelse"
+
+msgid "windowSize/description"
+msgstr "Horisontal og vertikal skjermoppløsning av spillets klientvindu. Når man bytter om til fullskjerm endres innstillingen til \"Skjermoppløsning\"."
+
+msgid "windowTitle"
+msgstr "WoT klient"

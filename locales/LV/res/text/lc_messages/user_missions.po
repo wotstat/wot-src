@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "Posms {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Īpašā nodaļa"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Izpildīts"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Skatīt jauno progresiju"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Izvēlēties Nodaļu"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Īslaicīgi nav pieejams"
+
+msgid "battle_pass_widget/title"
+msgstr "Kaujas Caurlaide"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Tīģelis: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} d."
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} d. {{hours}} st."
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} st"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} st {{minutes}} m"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} m"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Bonusa Misija \nVeikt 3 Standarta Misijas, lai atbloķētu"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Atlikušais laiks Bonusa Misijas izpildei"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Jaunas Dienas Misijas pēc"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "Tas pagaidām viss. Jaunas Dienas Misijas drīz būs pieejamas."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Veic iepriekšējo misiju, lai atbloķētu šo"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Premium Misijas pašlaik nav pieejamas"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Pirkt Premium"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Nepieciešams WoT Premium konts"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Premium Misijas"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Dienas Misijas pašlaik nav pieejamas"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Rerollot"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "IKDIENAS"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Uz Kampaņām"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Uzlabot rezultātu"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "Uz Operāciju"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Īsts izaicinājums pieredzējušiem cīnītājiem—unikāli tanki kā atlīdzība."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Operācija {{currentOperationName}} pabeigta! Uzlabo rezultātu, lai to pabeigtu ar godu, vai pieņem jaunu izaicinājumu—operāciju {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Joprojām vari uzlabot rezultātu operācijā {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Operācija {{currentOperationName}} pabeigta ar godu! Tagad pieejama operācija {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Kampaņas Punktus var nopelnīt, izpildot Personīgos, Ikdienas un Nedēļas Misijas."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Pabeidz visas {{totalProgress}} misijas, lai pabeigtu operāciju ar godu un iegūtu papildu balvas."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Uzstādi visas sastāvdaļas, lai saņemtu atlīdzību—{{vehicleName}}. Lai iegūtu tanka sastāvdaļas, pelni Kampaņas Punktus, izpildot Personīgos, Ikdienas un Nedēļas Misijas."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Uzstādi visas sastāvdaļas, lai saņemtu atlīdzību—{{vehicleName}}. Lai iegūtu tanka sastāvdaļas, pelni Kampaņas Punktus, izpildot Personīgos, Ikdienas un Nedēļas Misijas."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Misijas pabeigtas: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "Pieejama jaunā 3. sektora kampaņa!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Operācija: {{nextOperationName}} pieejama!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Operācija: {{currentOperationName}} pabeigta ar godu! "
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Operācija: {{nextOperationName}} pieejama!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Operācija: {{currentOperationName}} | Posms {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Operācijas {{currentOperationName}} pabeigšana ar godu"
+
+msgid "hub/basic_missions/title"
+msgstr "REGULĀRĀS MISIJAS"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "IKNEDĒĻAS"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Atjaunināts katru {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Aktīvā Misija"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "VAI"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Drīzumā gaidāmi jauni uzdevumi..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "CĪNĪTĀJS"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "LIETPRATĒJS"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ELITE"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Ir trīs misiju kategorijas: Cīnītājs, Elites un Lietpratējs. Katra kategorija piedāvā unikālus izaicinājumus un vērtīgas balvas."
+
+msgid "hub/challenge_missions/header"
+msgstr "TĪĢELIS"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Aktivizēt"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Restartēt bez maksas"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Restartēt"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Pamest"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Uz Misijām"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) Tīģeļa misijas pabeigtas"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "atlikuši vairogi"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "bezmaksas restartēšana"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Pabeidziet aktīvās Tīģeļa misijas"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Beigsies pēc %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Nav pieejams: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Nepieciešams VI vai augstāka līmeņa tanks"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "AKTĪVS"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Izpildīts"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} misijas"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Izaicinājuma misija"
+
+msgid "hub/challenge_missions/new"
+msgstr "JAUNS"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Uz Tīģeļi"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Uz Tīģeļi"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "TĪĢELIS: {{ challengeName }} PABEIGTS!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Uz Tīģeļi"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Tīģeļis: {{ challenge }} nav pabeigts. Sāciet to no jauna un mēģiniet iegūt balvas vēlreiz!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Uz Tīģeļi"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "MISIJA {{ mission }} IZPILDĪTA!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Uz Tīģeļi"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Misija {{ mission }} neizdevās"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "VAIROGI PALIKUŠI"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Uz Tīģeļi"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Ieej Tīģeļī un uzņemies virkni sarežģītu misiju ar vērtīgām balvām tiem, kas tās iekaro."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "PIEEJAMAS JAUNAS TĪĢEĻA MISIJAS!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Iekaro savu ceļu uz slavu Tīģeļī: uzņemies virkni sarežģītu misiju ar vērtīgām balvām tiem, kas tās iekaro."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "IEEJIET TĪĢELI"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Izpildīts"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "3D stiprinājumu komplekts"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Uzlabotas iekārtas"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "2D Stils"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Apkalpes loceklis"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Tanks"
+
+msgid "hub/challenge_missions/title"
+msgstr "TĪĢEĻA MISIJAS"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "Par Tīģeli"
+
+msgid "hub/common_missions/title"
+msgstr "PAPILDU MISIJAS"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Saņemt Balvas"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "Episkā Balva pašlaik nav pieejama"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Katra pabeigtā Standarta, Premium vai Bonusa Misija virza tavu progresu uz priekšu."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Pieejams"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Pabeidz Ikdienas Misijas, lai saņemtu Episkās Balvas"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Saņemt Balvu"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Saņemt Balvas"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Katra pabeigtā Standarta, Premium vai Bonusa Misija virza tavu progresu uz priekšu."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Pieejams"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Atpakaļ cīņā! Pildi ikdienas misijas, lai saņemtu episkas balvas:{progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr " Kad pabeigsi trīs Standarta Misijas, kļūs pieejama Bonusa Misija ar vēl vērtīgākām balvām. Bonusa Misija jāizpilda līdz dienas beigām, pretējā gadījumā tā tiks anulēta."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Bonusa Misija"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Daži uzdevumi jāizpilda vienā kaujā, citi—uzkrājoši, tos var pabeigt vairāku kauju laikā. Uzkrājošajiem uzdevumiem ir progresa josla. Uzdevumus var izpildīt Nejaušajās kaujās."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Nosacījumi"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Tu vari mainīt nevēlamo Standarta Misiju pret jaunu — nejauši piešķirtu. Pēc tam uz {{time}} kļūs nepieejama poga Misijas Nomaiņai. Misijas maiņa var zaudēt progresu, ja viens vai vairāki tavi tanki ir kaujā."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Misiju rerollošana"
+
+msgid "info_page/additional/reward/description"
+msgstr "Episkā Balva ir maratona tipa cikls, kurā katra pabeigtā Standarta, Premium un Bonusa Misija veicina progresu. Kad cikls ir pabeigts, tas tiek atiestatīts un sākas no jauna. Episkās Balvas ciklam nav laika ierobežojuma — to var izpildīt jebkurā laikā."
+
+msgid "info_page/additional/reward/title"
+msgstr "Episka Balva"
+
+msgid "info_page/header"
+msgstr "PAR MISIJĀM"
+
+msgid "info_page/main/premium/description"
+msgstr "Ar WoT Premium kontu tiek atbloķētas trīs secīgas Premium Misijas. Tās var pabeigt Nejaušajās kaujās un režīmā Uzbrukums, un progress tiek atjaunināts pēc katras kaujas. Spēles pasākumu laikā Premium Misijas sniedz īpašas atlīdzības."
+
+msgid "info_page/main/premium/title"
+msgstr "Premium Misijas"
+
+msgid "info_page/main/standard/description"
+msgstr "Standarta Misijas ir nejauši ikdienas uzdevumi, kuru progress tiek atjaunināts pēc katras kaujas. Iesakām tās izpildīt tajā pašā dienā, kad tās saņem, jo nepabeigtās misijas tiek pārnestas uz nākamo dienu un bloķē jaunas. Standarta Misijas piešķir Cīņas Celiņa Punktus Cīņas Celiņa laikā un īpašas balvas spēles pasākumu laikā."
+
+msgid "info_page/main/standard/title"
+msgstr "Standarta Misijas"
+
+msgid "info_page/main/weekly/description"
+msgstr "Iknedēļas misijas ir uzdevumu kopa, kas pieejama katru nedēļu. Progress tiek atjaunināts pēc katras kaujas, un pabeigtās misijas tiek aizstātas ar jaunām, kad sākas nākamais iknedēļas cikls. Iknedēļas misijas var izpildīt Gadījuma cīņās un režīmā “Triecienvilnis”, lai saņemtu papildu bonusus."
+
+msgid "info_page/main/weekly/title"
+msgstr "Iknedēļas Misijas"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Šodien visi parastie uzdevumi ir izpildīti."
+
+msgid "quests/daily_quests/completed"
+msgstr "Visas Ikdienas Misijas pabeigtas"
+
+msgid "tooltip/common/timer"
+msgstr "Pieejams pēc {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Visi parastie uzdevumi izpildīti! Vairāk uzdevumu atradīsi cilnē “Papildu uzdevumi”."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Bonusa Misija"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Izpildīts"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Ikdienas Misija"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Beidzas pēc {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Jaunas Ikdienas Misijas pēc {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Premium Misija"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Balvas:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Jūs varat atkārtoti mainīt nevēlamu misiju \npret jaunu ik pēc {time} stundām."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Misiju rerollošana"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Uzdevums izpildīts, atlīdzība saņemta."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Pabeidz iepriekšējo uzdevumu, lai atbloķētu šo. Visi sērijas uzdevumi jāizpilda secīgi."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Noklikšķiniet, lai skatītu papildu informāciju"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "Par Misijām"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Šo misiju sēriju var atkārtoti izspēlēt pēc pabeigšanas. Jūsu progress tiks atiestatīts un vairogi tiks atjaunoti, un jūs varēsiet atkal nopelnīt balvas."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Atkārtot misijas"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Jūs varat atsākt misiju sēriju pēc tam, kad esat zaudējis visus vairogus. Jūsu misijas progress tiks atiestatīts, vairogi tiks atjaunoti, un jūs varēsiet atkal nopelnīt balvas."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Turpmākās restartēšanas izmaksas: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Pieejami bezmaksas restarti: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Katra restartēšana maksā: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Restartēšana"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Vairogus aizsargā jūsu progresu. Katra neveiksmīga misija maksā vienu vairogu, un, kad visi vairogi ir zaudēti, misiju sērija tiek uzskatīta par neveiksmīgu. Ja to atsākat, jūsu vairogi tiks atjaunoti."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Vairogus"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Transportlīdzekļu ierobežojumi:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Iknedēļas Misija"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Jūs varat atkārtoti izlozēt šo Iknedēļas misiju ik pēc {{time}}."
+
+msgid "welcome/button"
+msgstr "Sapratu!"

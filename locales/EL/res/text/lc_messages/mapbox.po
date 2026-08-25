@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "Θετικόν!"
+
+msgid "awardsView/subTitle"
+msgstr "ΜΑΧΕΣ: {number}"
+
+msgid "awardsView/title"
+msgstr "ΑΠΟΣΤΟΛΗ ΑΝΙΧΝΕΥΣΗΣ"
+
+msgid "buttonDisable/tooltip"
+msgstr "Μη διαθεσιμότητα"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Πρόγραμμα"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "Αδύνατη Η Είσοδος Στη Μάχη"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "Οι μάχες αυτές τελείωσαν"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "Αδύνατη Η Είσοδος Στη Μάχη"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "Υπάρχει Εκεχειρία σε αυτόν τον server. Επιλέξτε έναν άλλον server."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "Μπορείτε να λάβετε μέρος μόνο με %(levelSubStr)s."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "Ασύμβατη Βαθμίδα Οχήματος"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "Οχήματα Βαθμίδας %(levels)s"
+
+msgid "intro/button"
+msgstr "Θετικόν!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "Οι απόψεις σας μας βοηθούν να βελτιώνουμε τα πεδία της μάχης. Γράψτε τη γνώμη σας για τους νέους μηχανισμούς των χαρτών και εμείς θα επιλέξουμε τις καλύτερες ιδέες για να ενσωματωθούν στο παιχνίδι."
+
+msgid "intro/interviewInfoTitle"
+msgstr "Η Σημασία της Γνώμης Σας"
+
+msgid "intro/modeInfoDescription"
+msgstr "Λάβετε μέρος σε μάχες με οχήματα των Βαθμίδων VIII–X στους χάρτες με τον νέο μηχανισμό, απαντήστε στα ερωτηματολόγια και κερδίστε έπαθλα ως ανταμοιβή για τη συνεισφορά σας. Σε 1 εβδομάδα, η πρόοδος θα μηδενιστεί και θα μπορείτε εκ νέου να διεκδικήσετε και άλλα έπαθλα."
+
+msgid "intro/modeInfoTitle"
+msgstr "Βοηθήστε Στην Ανάπτυξη Των Νέων Μηχανισμών!"
+
+msgid "intro/startEvent"
+msgstr "Έναρξη διοργάνωσης σε: "
+
+msgid "intro/taskInfoDescription"
+msgstr "Στις μάχες της Αποστολής Ανίχνευσης μπορείτε να ολοκληρώσετε ημερήσιες αποστολές, αποστολές για το Battle Pass, καθώς και να εκπληρώσετε τις προϋποθέσεις των προοδευτικών χαλκομανιών."
+
+msgid "intro/taskInfoTitle"
+msgstr "Με Τους Κανόνες Των Τυχαίων Μαχών"
+
+msgid "intro/time/period/day"
+msgstr "{day} d"
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} d {hours} h"
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} h {min} min"
+
+msgid "intro/time/period/minute"
+msgstr "{min} min"
+
+msgid "intro/title"
+msgstr "ΑΠΟΣΤΟΛΗ ΑΝΙΧΝΕΥΣΗΣ"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s δεν μπορεί να λάβει μέρος στην Αποστολή Ανίχνευσης."
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "Ασύμβατος Τύπος Οχήματος"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "Επιλέξτε %(levelSubStr)s για την Αποστολή Ανίχνευσης."
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "Ασύμβατη Βαθμίδα Οχήματος"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Όχημα Βαθμίδας %(levels)s"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "Το %(forbiddenType)s δεν μπορεί να λάβει μέρος στην Αποστολή Ανίχνευσης."
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "Ασύμβατο Όχημα"
+
+msgid "mapboxTab"
+msgstr "Αποστολή Ανίχνευσης"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Η Φάση στον server %(server)s τελείωσε"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Server %(server)s\nΟι μάχες θα είναι διαθέσιμες για ακόμη %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Server %(server)s\nΟι μάχες θα είναι διαθέσιμες σε %(time)s"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Υπάρχει Εκεχειρία σε όλους τους servers"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Οι μάχες αυτές δεν είναι διαθέσιμες στον server %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Οι μάχες στον server %(server)s θα είναι διαθέσιμες για ακόμη %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Οι μάχες στον server %(server)s θα ξεκινήσουν σε %(time)s"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "Οι μάχες αυτές δεν είναι διαθέσιμες: Λήξη Περιόδου."
+
+msgid "primeTimeView/status/untill"
+msgstr "Υπάρχει Εκεχειρία στον server %(server)s μέχρι τις %(startTime)s"
+
+msgid "primeTimeView/title"
+msgstr "ΑΠΟΣΤΟΛΗ ΑΝΙΧΝΕΥΣΗΣ"
+
+msgid "primeTimes/availableServer"
+msgstr "Διαθέσιμος server:"
+
+msgid "primeTimes/availableServers"
+msgstr "Διαθέσιμοι servers:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "Οι μάχες αυτές τελείωσαν"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Οι μάχες αυτές δεν είναι διαθέσιμες στον server %(serverName)s"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "Λάβετε μέρος σε μάχες"
+
+msgid "progression/cardTitle/rating"
+msgstr "Καταλάβετε μία από τις {rating} κορυφαίες θέσεις με βάση τα κερδισμένα XP"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "Καταλάβετε μία από τις {rating} κορυφαίες θέσεις με βάση τα κερδισμένα XP σε χάρτη με φωτιά"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "Καταλάβετε μία από τις {rating} κορυφαίες θέσεις με βάση τα κερδισμένα XP σε χάρτη με ομίχλη"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "Καταλάβετε μία από τις {rating} κορυφαίες θέσεις με βάση τα κερδισμένα XP σε χάρτη με πυκνή βροχή"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "Καταλάβετε μία από τις {rating} κορυφαίες θέσεις με βάση τα κερδισμένα XP σε χάρτη με αμμοθύελλες"
+
+msgid "progression/changeAnswer"
+msgstr "Αλλαγή Απάντησης"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Λάβετε μέρος σε μάχες με οχήματα των Βαθμίδων VIII–X σε χάρτες με τον νέο μηχανισμό, συμπληρώστε τα ερωτηματολόγια και κερδίστε έπαθλα."
+
+msgid "progression/info/restart"
+msgstr "Η όποια πρόοδος για τα έπαθλα θα μηδενιστεί σε %(leftTime)s"
+
+msgid "progression/info/title"
+msgstr "Καταλάβετε μία από τις %(rating) κορυφαίες θέσεις με βάση τα κερδισμένα XP: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "ΣΧΕΤΙΚΑ ΜΕ ΤΗ ΔΙΟΡΓΑΝΩΣΗ"
+
+msgid "progression/map_01_karelia"
+msgstr "KARELIA"
+
+msgid "progression/map_02_malinovka"
+msgstr "MALINOVKA"
+
+msgid "progression/map_05_prohorovka"
+msgstr "PROKHOROVKA"
+
+msgid "progression/map_18_cliff"
+msgstr "WESTFIELD"
+
+msgid "progression/map_all"
+msgstr "ΜΗΧΑΝΙΣΜΟΙ\nΠΑΙΧΝΙΔΙΟΥ"
+
+msgid "progression/map_fire"
+msgstr "ΦΩΤΙΑ"
+
+msgid "progression/map_fog"
+msgstr "ΟΜΙΧΛΗ"
+
+msgid "progression/map_heavy_rain"
+msgstr "ΠΥΚΝΗ ΒΡΟΧΗ"
+
+msgid "progression/map_sandstorm"
+msgstr "ΑΜΜΟΘΥΕΛΛΑ"
+
+msgid "progression/redirect"
+msgstr "Στις Μάχες"
+
+msgid "progression/startInterview"
+msgstr "Έναρξη Έρευνας"
+
+msgid "progression/startInterviewTooltip"
+msgstr "Εκπληρώστε την παραπάνω προϋπόθεση για να λάβετε μέρος στην έρευνα."
+
+msgid "progression/startSpecialInterview"
+msgstr "Έναρξη Έρευνας"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "Εκπληρώστε την παραπάνω προϋπόθεση για να λάβετε μέρος στην έρευνα."
+
+msgid "progression/subtitle"
+msgstr "Από εδώ θα λάβετε μέρος στην έρευνα για του νέους μηχανισμούς"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "progression/title"
+msgstr "ΑΠΟΣΤΟΛΗ ΑΝΙΧΝΕΥΣΗΣ"
+
+msgid "progressionError/description/line1"
+msgstr "Η πρόοδό σας έχει αποθηκευτεί. Μπορείτε να συνεχίσετε το παιχνίδι."
+
+msgid "progressionError/description/line2"
+msgstr "Σύντομα, θα μπορείτε να δείτε την πρόοδό σας και να λάβετε μέρος στην έρευνα."
+
+msgid "progressionError/title"
+msgstr "Πληροφορίες για την Αποστολή Ανίχνευσης δεν είναι διαθέσιμες προς το παρόν"
+
+msgid "questFlag/complete"
+msgstr "Απονεμήθηκαν όλα τα έπαθλα"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "Λάβετε μέρος παίζοντας με %(highlightedText)s, απαντήστε στα ερωτηματολόγια και κερδίστε έπαθλα."
+
+msgid "questFlag/frozen/header"
+msgstr "Αποστολή Ανίχνευσης Μη Διαθέσιμη"
+
+msgid "questFlag/frozen/text"
+msgstr "Οι μάχες της Αποστολής Ανίχνευσης δεν είναι διαθέσιμες για τεχνικούς λόγους."
+
+msgid "questFlag/highlightedText"
+msgstr "Οχήματα των Βαθμίδων VIII–X σε χάρτες με τον νέο μηχανισμό"
+
+msgid "questFlag/incomplete"
+msgstr "Συμμετοχές σε μάχες για το επόμενο έπαθλο: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "Συμμετοχές σε μάχες:"
+
+msgid "questFlag/surveysTitle"
+msgstr "Συμμετοχή σε έρευνες: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "Η εξερεύνηση των χαρτών με τους νέους μηχανισμούς θα ξεκινήσει στις %(day)s"
+
+msgid "selector/tooltip/body"
+msgstr "Η εξερεύνηση των χαρτών με τους νέους μηχανισμούς θα διαρκέσει μέχρι τις %(day)s"
+
+msgid "selector/tooltip/title"
+msgstr "Πρόγραμμα"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Λήξη περιόδου σε:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Πρόγραμμα Μαχών"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Σήμερα"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Αύριο"
+
+msgid "serverAlertMessage/button"
+msgstr "Επιλέξτε Άλλον Server"
+
+msgid "survey/backBtn"
+msgstr "Πισω"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "TD"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "SPG"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "HT"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "LT"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "MT"
+
+msgid "survey/fire/question/q1"
+msgstr "Σας άρεσε η μάχη στον χάρτη Murovanka με τον νέο μηχανισμό της φωτιάς?"
+
+msgid "survey/fire/question/q2"
+msgstr "Ποια η γνώμη σας για τα οπτικά εφέ της φωτιάς στον χάρτη Murovanka?"
+
+msgid "survey/fire/question/q3"
+msgstr "Θα θέλατε να γίνει αλλαγή/προσαρμογή του μηχανισμού της φωτιάς στον χάρτη Murovanka?"
+
+msgid "survey/fire/question/q4"
+msgstr "Τι ακριβώς θα θέλατε να αλλάξει στην επιρροή του μηχανισμού της φωτιάς στον χάρτη Murovanka?"
+
+msgid "survey/fire/question/q5"
+msgstr "Με ποιους τύπους οχημάτων παίξατε στον χάρτη Murovanka?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "Πόσο άλλαξε ο τρόπος παιχνιδιού με {value} στον χάρτη Murovanka?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "Πόσο άλλαξε ο τρόπος παιχνιδιού με {value} στον χάρτη Murovanka?"
+
+msgid "survey/fire/question/q7"
+msgstr "Θα θέλατε να υπάρχει ο μηχανισμός της φωτιάς στις Τυχαίες Μάχες?"
+
+msgid "survey/fire/question/q8"
+msgstr "Τι δεν σας άρεσε στον μηχανισμό της φωτιάς στον χάρτη Murovanka?"
+
+msgid "survey/fire/question/q9"
+msgstr "Προσδιορίστε τις αναγκαίες βελτιώσεις."
+
+msgid "survey/fire/response/q1_1"
+msgstr "Ναι, μου άρεσε"
+
+msgid "survey/fire/response/q1_2"
+msgstr "Όχι, δεν μου άρεσε"
+
+msgid "survey/fire/response/q1_3"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/fire/response/q2_1"
+msgstr "Μου αρέσει"
+
+msgid "survey/fire/response/q2_2"
+msgstr "Είναι ΟΚ"
+
+msgid "survey/fire/response/q2_3"
+msgstr "Δεν μου αρέσει"
+
+msgid "survey/fire/response/q2_4"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/fire/response/q3_1"
+msgstr "Ναι, θα ήθελα"
+
+msgid "survey/fire/response/q3_2"
+msgstr "Όχι, δεν θα ήθελα"
+
+msgid "survey/fire/response/q3_3"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/fire/response/q4_1"
+msgstr "Να έχει πιο μεγάλη επίδραση"
+
+msgid "survey/fire/response/q4_2"
+msgstr "Να έχει πιο μικρή επίδραση"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "TD"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "SPG"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "HT"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "LT"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "MT"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "Δεν θυμάμαι"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "Βελτιώθηκε"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "Χειροτέρεψε"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "Δεν άλλαξε"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "Βελτιώθηκε"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "Χειροτέρεψε"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "Δεν άλλαξε"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/fire/response/q7_1"
+msgstr "Ναι, θα ήθελα"
+
+msgid "survey/fire/response/q7_2"
+msgstr "Όχι, δεν θα ήθελα"
+
+msgid "survey/fire/response/q7_3"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/fire/response/q8_1"
+msgstr "Η φωτιά μειώνει δραματικά τις διαθέσιμες θέσεις"
+
+msgid "survey/fire/response/q8_10"
+msgstr "Μία ομάδα αποκτά πλεονέκτημα"
+
+msgid "survey/fire/response/q8_11"
+msgstr "Υπάρχουν τεχνικά προβλήματα"
+
+msgid "survey/fire/response/q8_12"
+msgstr "Κάτι άλλο"
+
+msgid "survey/fire/response/q8_2"
+msgstr "Η φωτιά προκαλεί υπερβολικά μεγάλη φθορά"
+
+msgid "survey/fire/response/q8_3"
+msgstr "Οι αντίπαλοι έξω από τη ζώνη δεν μπορούν να με δουν, αλλά ούτε εγώ μπορώ να τους δω"
+
+msgid "survey/fire/response/q8_4"
+msgstr "Τα σημεία που έχει τοποθετηθεί η φωτιά"
+
+msgid "survey/fire/response/q8_5"
+msgstr "Το οπτικό εφέ της φωτιάς"
+
+msgid "survey/fire/response/q8_6"
+msgstr "Επηρεάζει υπερβολικά τον τρόπο παιχνιδιού"
+
+msgid "survey/fire/response/q8_7"
+msgstr "Επηρεάζει ελάχιστα τον τρόπο παιχνιδιού"
+
+msgid "survey/fire/response/q8_8"
+msgstr "Η φωτιά παρεμποδίζει οπτικά τη μάχη"
+
+msgid "survey/fire/response/q8_9"
+msgstr "Η φωτιά αναγκάζει τη μάχη να διεξάγεται από κοντινή απόσταση"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "TD"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "SPG"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "HT"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "LT"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "MT"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "TD"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "SPG"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "HT"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "LT"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "MT"
+
+msgid "survey/fog/question/q1"
+msgstr "Σας άρεσε η μάχη στους χάρτες με τον νέο μηχανισμό της ομίχλης?"
+
+msgid "survey/fog/question/q10"
+msgstr "Θα θέλατε να υπάρχει ο μηχανισμός της ομίχλης στις Τυχαίες Μάχες?"
+
+msgid "survey/fog/question/q11"
+msgstr "Τι δεν σας άρεσε στον μηχανισμό της ομίχλης στον χάρτη Fjords?"
+
+msgid "survey/fog/question/q12"
+msgstr "Τι δεν σας άρεσε στον μηχανισμό της ομίχλης στον χάρτη Outpost?"
+
+msgid "survey/fog/question/q13"
+msgstr "Προσδιορίστε τις αναγκαίες βελτιώσεις."
+
+msgid "survey/fog/question/q2"
+msgstr "Ποια η γνώμη σας για τα οπτικά εφέ της ομίχλης στους παρακάτω χάρτες?"
+
+msgid "survey/fog/question/q3"
+msgstr "Θα θέλατε να γίνει αλλαγή/προσαρμογή του μηχανισμού της ομίχλης στους αντίστοιχους χάρτες?"
+
+msgid "survey/fog/question/q4"
+msgstr "Τι ακριβώς θα θέλατε να αλλάξει στην επιρροή του μηχανισμού της ομίχλης στον χάρτη Fjords?"
+
+msgid "survey/fog/question/q5"
+msgstr "Τι ακριβώς θα θέλατε να αλλάξει στην επιρροή του μηχανισμού της ομίχλης στον χάρτη Outpost?"
+
+msgid "survey/fog/question/q6"
+msgstr "Με ποιους τύπους οχημάτων παίξατε στον χάρτη Fjords?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "Πόσο άλλαξε ο τρόπος παιχνιδιού με {value} στον χάρτη Fjords?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "Πόσο άλλαξε ο τρόπος παιχνιδιού με {value} στον χάρτη Fjords?"
+
+msgid "survey/fog/question/q8"
+msgstr "Με ποιους τύπους οχημάτων παίξατε στον χάρτη Outpost?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "Πόσο άλλαξε ο τρόπος παιχνιδιού με {value} στον χάρτη Outpost?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "Πόσο άλλαξε ο τρόπος παιχνιδιού με {value} στον χάρτη Outpost?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "Ναι, θα ήθελα"
+
+msgid "survey/fog/response/q10_2"
+msgstr "Όχι, δεν θα ήθελα"
+
+msgid "survey/fog/response/q10_3"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/fog/response/q11_1"
+msgstr "Οι αντίπαλοι έξω από τη ζώνη δεν μπορούν να με δουν, αλλά ούτε εγώ μπορώ να τους δω"
+
+msgid "survey/fog/response/q11_10"
+msgstr "Κάτι άλλο"
+
+msgid "survey/fog/response/q11_2"
+msgstr "Τα σημεία που έχει τοποθετηθεί η ομίχλη"
+
+msgid "survey/fog/response/q11_3"
+msgstr "Το οπτικό εφέ της ομίχλης"
+
+msgid "survey/fog/response/q11_4"
+msgstr "Επηρεάζει υπερβολικά τον τρόπο παιχνιδιού"
+
+msgid "survey/fog/response/q11_5"
+msgstr "Επηρεάζει ελάχιστα τον τρόπο παιχνιδιού"
+
+msgid "survey/fog/response/q11_6"
+msgstr "Η ομίχλη παρεμποδίζει οπτικά τη μάχη"
+
+msgid "survey/fog/response/q11_7"
+msgstr "Η ομίχλη αναγκάζει τη μάχη να διεξάγεται από κοντινή απόσταση"
+
+msgid "survey/fog/response/q11_8"
+msgstr "Μία ομάδα αποκτά πλεονέκτημα"
+
+msgid "survey/fog/response/q11_9"
+msgstr "Υπάρχουν τεχνικά προβλήματα"
+
+msgid "survey/fog/response/q12_1"
+msgstr "Οι αντίπαλοι έξω από τη ζώνη δεν μπορούν να με δουν, αλλά ούτε εγώ μπορώ να τους δω"
+
+msgid "survey/fog/response/q12_10"
+msgstr "Κάτι άλλο"
+
+msgid "survey/fog/response/q12_2"
+msgstr "Τα σημεία που έχει τοποθετηθεί η ομίχλη"
+
+msgid "survey/fog/response/q12_3"
+msgstr "Το οπτικό εφέ της ομίχλης"
+
+msgid "survey/fog/response/q12_4"
+msgstr "Επηρεάζει υπερβολικά τον τρόπο παιχνιδιού"
+
+msgid "survey/fog/response/q12_5"
+msgstr "Επηρεάζει ελάχιστα τον τρόπο παιχνιδιού"
+
+msgid "survey/fog/response/q12_6"
+msgstr "Η ομίχλη παρεμποδίζει οπτικά τη μάχη"
+
+msgid "survey/fog/response/q12_7"
+msgstr "Η ομίχλη αναγκάζει τη μάχη να διεξάγεται από κοντινή απόσταση"
+
+msgid "survey/fog/response/q12_8"
+msgstr "Μία ομάδα αποκτά πλεονέκτημα"
+
+msgid "survey/fog/response/q12_9"
+msgstr "Υπάρχουν τεχνικά προβλήματα"
+
+msgid "survey/fog/response/q1_1"
+msgstr "Ναι, μου άρεσε"
+
+msgid "survey/fog/response/q1_2"
+msgstr "Όχι, δεν μου άρεσε"
+
+msgid "survey/fog/response/q1_3"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/fog/response/q2_1"
+msgstr "Μου αρέσει"
+
+msgid "survey/fog/response/q2_2"
+msgstr "Είναι ΟΚ"
+
+msgid "survey/fog/response/q2_3"
+msgstr "Δεν μου αρέσει"
+
+msgid "survey/fog/response/q2_4"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/fog/response/q3_1"
+msgstr "Ναι, θα ήθελα"
+
+msgid "survey/fog/response/q3_2"
+msgstr "Όχι, δεν θα ήθελα"
+
+msgid "survey/fog/response/q3_3"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/fog/response/q4_1"
+msgstr "Να έχει πιο μεγάλη επίδραση"
+
+msgid "survey/fog/response/q4_2"
+msgstr "Να έχει πιο μικρή επίδραση"
+
+msgid "survey/fog/response/q5_1"
+msgstr "Να έχει πιο μεγάλη επίδραση"
+
+msgid "survey/fog/response/q5_2"
+msgstr "Να έχει πιο μικρή επίδραση"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "TD"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "SPG"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "HT"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "LT"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "MT"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "Δεν θυμάμαι"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "Βελτιώθηκε"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "Χειροτέρεψε"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "Δεν άλλαξε"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "Βελτιώθηκε"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "Χειροτέρεψε"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "Δεν άλλαξε"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "TD"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "SPG"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "HT"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "LT"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "MT"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "Δεν θυμάμαι"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "Βελτιώθηκε"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "Χειροτέρεψε"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "Δεν άλλαξε"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "Βελτιώθηκε"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "Χειροτέρεψε"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "Δεν άλλαξε"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "TD"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "SPG"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "HT"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "LT"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "MT"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "TD"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "SPG"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "HT"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "LT"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "MT"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "Σας άρεσε η μάχη στους χάρτες με τον νέο μηχανισμό της πυκνής βροχής?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "Θα θέλατε να υπάρχει ο μηχανισμός της πυκνής βροχής στις Τυχαίες Μάχες?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "Τι δεν σας άρεσε στον μηχανισμό της πυκνής βροχής στον χάρτη Westfield?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "Τι δεν σας άρεσε στον μηχανισμό της πυκνής βροχής στον χάρτη Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "Προσδιορίστε τις αναγκαίες βελτιώσεις."
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "Ποια η γνώμη σας για τα οπτικά εφέ της πυκνής βροχής στους παρακάτω χάρτες?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "Θα θέλατε να γίνει αλλαγή/προσαρμογή του μηχανισμού της πυκνής βροχής στους αντίστοιχους χάρτες?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "Τι ακριβώς θα θέλατε να αλλάξει στην επιρροή του μηχανισμού της πυκνής βροχής στον χάρτη Westfield?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "Τι ακριβώς θα θέλατε να αλλάξει στην επιρροή του μηχανισμού της πυκνής βροχής στον χάρτη Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "Με ποιους τύπους οχημάτων παίξατε στον χάρτη Westfield?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "Πόσο άλλαξε ο τρόπος παιχνιδιού με {value} στον χάρτη Westfield?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "Πόσο άλλαξε ο τρόπος παιχνιδιού με {value} στον χάρτη Westfield?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "Με ποιους τύπους οχημάτων παίξατε στον χάρτη Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "Πόσο άλλαξε ο τρόπος παιχνιδιού με {value} στον χάρτη Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "Πόσο άλλαξε ο τρόπος παιχνιδιού με {value} στον χάρτη Fisherman's Bay?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "Ναι, θα ήθελα"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "Όχι, δεν θα ήθελα"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "Τα οχήματα γλιστρούν υπερβολικά στην ζώνη της πυκνής βροχής"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "Υπάρχουν τεχνικά προβλήματα"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "Κάτι άλλο"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "Οι αντίπαλοι έξω από τη ζώνη δεν μπορούν να με δουν, αλλά ούτε εγώ μπορώ να τους δω"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "Τα σημεία που έχει τοποθετηθεί η πυκνή βροχή"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "Το οπτικό εφέ της πυκνής βροχής"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "Επηρεάζει υπερβολικά τον τρόπο παιχνιδιού"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "Επηρεάζει ελάχιστα τον τρόπο παιχνιδιού"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "Η πυκνή βροχή παρεμποδίζει οπτικά τη μάχη"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "Η πυκνή βροχή αναγκάζει τη μάχη να διεξάγεται από κοντινή απόσταση"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "Μία ομάδα αποκτά πλεονέκτημα"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "Τα οχήματα γλιστρούν υπερβολικά στην ζώνη της πυκνής βροχής"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "Υπάρχουν τεχνικά προβλήματα"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "Κάτι άλλο"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "Οι αντίπαλοι έξω από τη ζώνη δεν μπορούν να με δουν, αλλά ούτε εγώ μπορώ να τους δω"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "Τα σημεία που έχει τοποθετηθεί η πυκνή βροχή"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "Το οπτικό εφέ της πυκνής βροχής"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "Επηρεάζει υπερβολικά τον τρόπο παιχνιδιού"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "Επηρεάζει ελάχιστα τον τρόπο παιχνιδιού"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "Η πυκνή βροχή παρεμποδίζει οπτικά τη μάχη"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "Η πυκνή βροχή αναγκάζει τη μάχη να διεξάγεται από κοντινή απόσταση"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "Μία ομάδα αποκτά πλεονέκτημα"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "Ναι, μου άρεσε"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "Όχι, δεν μου άρεσε"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "Μου αρέσει"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "Είναι ΟΚ"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "Δεν μου αρέσει"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "Ναι, θα ήθελα"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "Όχι, δεν θα ήθελα"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "Να έχει πιο μεγάλη επίδραση"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "Να έχει πιο μικρή επίδραση"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "Να έχει πιο μεγάλη επίδραση"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "Να έχει πιο μικρή επίδραση"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "TD"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "SPG"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "HT"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "LT"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "MT"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "Δεν θυμάμαι"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "Βελτιώθηκε"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "Χειροτέρεψε"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "Δεν άλλαξε"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "Βελτιώθηκε"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "Χειροτέρεψε"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "Δεν άλλαξε"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "TD"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "SPG"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "HT"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "LT"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "MT"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "Δεν θυμάμαι"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "Βελτιώθηκε"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "Χειροτέρεψε"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "Δεν άλλαξε"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "Βελτιώθηκε"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "Χειροτέρεψε"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "Δεν άλλαξε"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "Επόμενο"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "Θετικόν!"
+
+msgid "survey/required"
+msgstr "Απαντήστε στην ερώτηση για να συνεχίσετε."
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "TD"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "SPG"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "HT"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "LT"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "MT"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "Σας άρεσε η μάχη στον χάρτη Sand River με τον νέο μηχανισμό της αμμοθύελλας?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "Ποια η γνώμη σας για τα οπτικά εφέ της αμμοθύελλας στον χάρτη Sand River?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "Θα θέλατε να γίνει αλλαγή/προσαρμογή του μηχανισμού της αμμοθύελλας στον χάρτη Sand River?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "Τι ακριβώς θα θέλατε να αλλάξει στην επιρροή του μηχανισμού της αμμοθύελλας στον χάρτη Sand River?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "Με ποιους τύπους οχημάτων παίξατε στον χάρτη Sand River?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "Πόσο άλλαξε ο τρόπος παιχνιδιού με {value} στον χάρτη Sand River?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "Πόσο άλλαξε ο τρόπος παιχνιδιού με {value} στον χάρτη Sand River?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "Θα θέλατε να υπάρχει ο μηχανισμός της αμμοθύελλας στις Τυχαίες Μάχες?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "Τι δεν σας άρεσε στον μηχανισμό της αμμοθύελλας στον χάρτη Sand River?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "Προσδιορίστε τις αναγκαίες βελτιώσεις."
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "Ναι, μου άρεσε"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "Όχι, δεν μου άρεσε"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "Μου αρέσει"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "Είναι ΟΚ"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "Δεν μου αρέσει"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "Ναι, θα ήθελα"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "Όχι, δεν θα ήθελα"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "Να έχει πιο μεγάλη επίδραση"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "Να έχει πιο μικρή επίδραση"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "TD"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "SPG"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "HT"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "LT"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "MT"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "Δεν θυμάμαι"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "Βελτιώθηκε"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "Χειροτέρεψε"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "Δεν άλλαξε"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "Βελτιώθηκε"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "Χειροτέρεψε"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "Δεν άλλαξε"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "Ναι, θα ήθελα"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "Όχι, δεν θα ήθελα"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "Δεν έχω αποφασίσει"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "Οι αντίπαλοι έξω από τη ζώνη δεν μπορούν να με δουν, αλλά ούτε εγώ μπορώ να τους δω"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "Κάτι άλλο"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "Τα σημεία που έχει τοποθετηθεί η αμμοθύελλα"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "Το οπτικό εφέ της αμμοθύελλας"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "Επηρεάζει υπερβολικά τον τρόπο παιχνιδιού"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "Επηρεάζει ελάχιστα τον τρόπο παιχνιδιού"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "Η αμμοθύελλα παρεμποδίζει οπτικά τη μάχη"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "Η αμμοθύελλα αναγκάζει τη μάχη να διεξάγεται από κοντινή απόσταση"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "Μία ομάδα αποκτά πλεονέκτημα"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "Υπάρχουν τεχνικά προβλήματα"
+
+msgid "survey/subTitle"
+msgstr "Σας ευχαριστούμε εκ των προτέρων για τη συμμετοχή σας στην έρευνα! Θα χρειαστούν μόνο μερικά λεπτά. Οι απαντήσεις σας θα αξιοποιηθούν μόνο για τον σκοπό της έρευνας και όλα τα προσωπικά σας δεδομένα θα διαγραφούν σύμφωνα με την Πολιτική Προσωπικών Δεδομένων."
+
+msgid "survey/template/final/title"
+msgstr "Σας ευχαριστούμε για τη συμμετοχή σας στην έρευνα!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "ΚΑΝΤΕ ΚΛΙΚ ΣΤΟΝ ΧΑΡΤΗ ΓΙΑ ΝΑ ΕΠΙΛΕΞΕΤΕ ΘΕΣΗ"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "ΜΠΟΡΕΙΤΕ ΝΑ ΕΠΙΛΕΞΕΤΕ ΜΕΧΡΙ 3 ΘΕΣΕΙΣ"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "Λεπτομερής περιγραφή (μέχρι %(maxLength)s χαρακτήρες)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "Θέση"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "Αφαίρεση θέσης"
+
+msgid "survey/template/opened/description"
+msgstr "Λεπτομερής περιγραφή του θέματος (μέχρι %(maxLength)s χαρακτήρες)"
+
+msgid "survey/title/common"
+msgstr "Βαθμολογήστε τα νέα στοιχεία"
+
+msgid "survey/title/map"
+msgstr "Αξιολόγηση του Χάρτη %(map)s"

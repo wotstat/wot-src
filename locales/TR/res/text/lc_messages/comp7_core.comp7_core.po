@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "Bu savaşta yasaklamak istediğiniz bir araç seçin"
+
+msgid "prebattleTimer/ban/header"
+msgstr "Yasaklama Oy Aşaması"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "Seçimi Onayla"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "Onaylama sonrasında başka bir araç seçemeyeceksiniz."
+
+msgid "prebattleTimer/pick/header"
+msgstr "Onaylama Aşaması"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "Bu harita ve ekip kompozisyonunuz için en uygun aracı seçin"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "Araç Ön Seçim Aşaması"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "Mevcut harita ve ekibiniz için en iyi aracı seçin."
+
+msgid "prebattleTimer/wait/header"
+msgstr "Oyuncular bekleniyor..."
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "Bir araç seçin"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "%(server)s sunucusundaki Aşama sona erdi"
+
+msgid "primeTimeView/server"
+msgstr "Geçerli sunucu: %(server)s."
+
+msgid "primeTimeView/serverTooltip"
+msgstr "%(server)s sunucusu\nSavaşlar %(time)s kadar daha açık olacak"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "%(server)s sunucusu\nSavaşlar %(time)s içinde açılacak"
+
+msgid "primeTimeView/servers"
+msgstr "Geçerli sunucular:"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Savaşlar tüm sunucularda devre dışıdır"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Bu kip %(server)s sunucusunda geçerli değil"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "%(server)s sunucusundaki savaşlar %(time)s daha açık olacak"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Savaşlar %(server)s sunucusunda %(time)s içinde başlayacak"
+
+msgid "primeTimeView/status/untill"
+msgstr "Savaşlar %(server)s sunucusunda %(startTime)s saatine kadar devre dışı olacak"

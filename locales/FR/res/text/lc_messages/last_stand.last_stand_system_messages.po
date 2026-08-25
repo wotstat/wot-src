@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Dispositif tactique"
+
+msgid "open_artefact/server_error"
+msgstr "Opération temporairement indisponible. Réessayez plus tard."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Échec du réapprovisionnement des Dispositifs tactiques pour le %s. Panne technique."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Échec du réapprovisionnement des Dispositifs tactiques pour le %s. Fonds insuffisants."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Les Dispositifs tactiques pour le %s ont été réapprovisionnés. Vous avez dépensé "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Enregistrements prêts à être décryptés"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Mode : Ultime combat : Grand Nord"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Ultime combat : Grand Nord (Normal)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Ultime combat : Grand Nord (Avancé)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Ultime combat : Grand Nord (Brutal)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Difficulté"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Normal"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Avancé"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Brutal"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Données"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Objectif rempli !"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Objectifs remplis !"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Véhicule"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Vagues terminées : %(curPhase)s sur %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Vous avez dépensé %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Transaction financière"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Vous pouvez sélectionner le niveau de difficulté dans le panneau de difficulté du garage Ultime combat."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Difficulté Avancée déverrouillée"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Vous pouvez sélectionner le niveau de difficulté dans le panneau de difficulté du garage Ultime combat."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Difficulté Brutale déverrouillée"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Vous pouvez sélectionner le mode sur le panneau de difficulté dans le garage Ultime combat : opération Pandore."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Mode Ultime combat débloqué"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Clés de décryptage reçues : %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Réception"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Clés retirées : %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Décryptage réussi"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Les batailles dans Ultime combat sont temporairement indisponibles.\nRéessayez plus tard."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Les batailles en difficulté %(difficulty)s sont temporairement indisponibles. Réessayez plus tard."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Ultime combat est actuellement indisponible. Consultez le portail du jeu pour connaître les mises à jour."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Le chef du peloton a changé la difficulté en : %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Le joueur %(userName)s n'a pas déverrouillé l'un des niveaux de difficulté."

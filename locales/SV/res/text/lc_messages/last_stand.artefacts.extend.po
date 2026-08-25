@@ -1,0 +1,284 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "LS_aoeDamageInstantShot/descr"
+msgstr "Ett skott som skadar målet och fiendevagnar i närheten."
+
+msgid "LS_aoeDamageInstantShot/long_special"
+msgstr "Taktiskt verktyg. Avfyrar ett skott som skadar målet och alla fiendevagnar inom en radie av 35 m. Om verktyget används minst en gång under striden förbrukas det och kan laddas om för krediter efter striden.Om det inte används behöver det inte laddas om.<br/><br/>Bara tillgängligt under evenemanget <font color='#cbac77'>Sista striden: Terra nord</font><br/><br/>Alla taktiska verktyg som inte använts tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "LS_aoeDamageInstantShot/name"
+msgstr "Kraftgranat"
+
+msgid "LS_aoeDamageInstantShot/onUse"
+msgstr "Ett skott som skadar målet och alla fiendevagnar inom 35 m radie."
+
+msgid "LS_aoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "LS_aoeDamageInstantShot/short_special"
+msgstr "Ett skott som skadar målet och fiendevagnar i närheten."
+
+msgid "LS_aoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/descr"
+msgstr "Ett skott som återställer träffpoäng genom att stjäla dem från målet och fiendevagnar i närheten."
+
+msgid "LS_aoeDrainEnemyHpInstantShot/long_special"
+msgstr "Taktiskt verktyg. Avfyrar ett skott som återställer träffpoäng genom att stjäla dem från målet och fiendevagnar i närheten, inom en radie av 35 m, samt reparerar skadade moduler och tar bort chockverkan. Om verktyget används minst en gång under striden förbrukas det och kan laddas om för krediter efter striden. Om det inte används behöver det inte laddas om.<br/><br/>Bara tillgängligt under evenemanget <font color='#cbac77'>Sista striden: Terra nord</font><br/><br/>Alla taktiska verktyg som inte använts tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "LS_aoeDrainEnemyHpInstantShot/name"
+msgstr "Vampyrgranat"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/onUse"
+msgstr "Ett skott som återställer träffpoäng, genom att stjäla dem från målet och fiendevagnar inom 35 m radie, samt reparerar skadade moduler och tar bort chockverkan."
+
+msgid "LS_aoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/short_special"
+msgstr "Ett skott som återställer träffpoäng genom att stjäla dem från målet och fiendevagnar i närheten."
+
+msgid "LS_aoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "LS_aoeStunInstantShot/descr"
+msgstr "Ett skott som chockar målet och fiendevagnar i närheten."
+
+msgid "LS_aoeStunInstantShot/long_special"
+msgstr "Taktiskt verktyg. Avfyrar ett skott som chockar målet och alla fiendevagnar inom en radie av 35 m. Om verktyget används minst en gång under striden förbrukas det och kan laddas om för krediter efter striden. Om det inte används behöver det inte laddas om.<br/><br/>Bara tillgängligt under evenemanget <font color='#cbac77'>Sista striden: Terra nord</font><br/><br/>Alla taktiska verktyg som inte använts tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "LS_aoeStunInstantShot/name"
+msgstr "Bedövningsgranat"
+
+msgid "LS_aoeStunInstantShot/onUse"
+msgstr "Ett skott som chockar målet och alla fiendevagnar inom 35 m radie."
+
+msgid "LS_aoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "LS_aoeStunInstantShot/short_special"
+msgstr "Ett skott som chockar målet och fiendevagnar i närheten."
+
+msgid "LS_damageShield/always"
+msgstr "?empty?"
+
+msgid "LS_damageShield/descr"
+msgstr "Gör vagnen osårbar."
+
+msgid "LS_damageShield/long_special"
+msgstr "Taktiskt verktyg. Skapar en energisköld som skyddar din vagn från alla skada förutom från rammning, drunkning och kollision i 10 s. Om verktyget används minst en gång under striden förbrukas det och kan laddas om för krediter efter striden. Om det inte används behöver det inte laddas om.<br/><br/>Bara tillgängligt under evenemanget <font color='#cbac77'>Sista striden: Terra nord</font><br/><br/>Alla taktiska verktyg som inte använts tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "LS_damageShield/name"
+msgstr "Kraftsköld"
+
+msgid "LS_damageShield/onUse"
+msgstr "Skapar en energisköld som skyddar din vagn från all skada förutom kollision, drunkning och fallskada under 10 s."
+
+msgid "LS_damageShield/restriction"
+msgstr "?empty?"
+
+msgid "LS_damageShield/short_special"
+msgstr "Gör vagnen osårbar."
+
+msgid "LS_doubleDamage/always"
+msgstr "?empty?"
+
+msgid "LS_doubleDamage/descr"
+msgstr "Nästa skott som träffar gör dubbel skada."
+
+msgid "LS_doubleDamage/long_special"
+msgstr "Taktiskt verktyg. Nästa träff gör dubbel skada. Om verktyget används minst en gång under striden förbrukas det och kan laddas om för krediter efter striden. Om det inte används behöver det inte laddas om.<br/><br/>Bara tillgängligt under evenemanget <font color='#cbac77'>Sista striden: Terra nord</font><br/><br/>Alla taktiska verktyg som inte använts tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "LS_doubleDamage/name"
+msgstr "Dubbelskada"
+
+msgid "LS_doubleDamage/onUse"
+msgstr "Nästa skott som träffar gör dubbel skada."
+
+msgid "LS_doubleDamage/restriction"
+msgstr "?empty?"
+
+msgid "LS_doubleDamage/short_special"
+msgstr "Nästa skott som träffar gör dubbel skada."
+
+msgid "LS_extraDamageSituational/always"
+msgstr "?empty?"
+
+msgid "LS_extraDamageSituational/descr"
+msgstr "Ger en chans att öka skadan åsamkad en fiendevagn.\nAktiveringschans: 50%."
+
+msgid "LS_extraDamageSituational/long_special"
+msgstr "Stridsförmåga. Ger en chans att öka skadan åsamkad en fiendevagn. Har 50% chans att automatiskt aktiveras när du åsamkar skada med en granat, rammning eller annan förmåga, t.ex. Kraftgranat. Kan användas flera gånger under en strid. Tas bort efter striden om den använts minst en gång.<br/><br/>Bara tillgänglig under evenemanget <font color='#cbac77'>Sista striden: Terra nord</font><br/><br/>Alla oanvända förmågor tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "LS_extraDamageSituational/name"
+msgstr "Gynnsam skada"
+
+msgid "LS_extraDamageSituational/onUse"
+msgstr "Ger en chans att <font color='#feab34'>öka skadan</font> åsamkad en fiendevagn med en granat, rammning eller annan förmåga, t.ex. Kraftgranat.\nAktiveringschans: <font color='#e9e2bf'>50%</font>."
+
+msgid "LS_extraDamageSituational/restriction"
+msgstr "?empty?"
+
+msgid "LS_extraDamageSituational/short_special"
+msgstr "Ger en chans att öka skadan åsamkad en fiendevagn."
+
+msgid "LS_fastReload/always"
+msgstr "?empty?"
+
+msgid "LS_fastReload/descr"
+msgstr "Ökar eldhastigheten / laddar om magasinet."
+
+msgid "LS_fastReload/long_special"
+msgstr "Taktiskt verktyg. Minskar avsevärt omladdningstiden för en standardkanon under en begränsad tid, eller laddar om kanoner med magasinomladdning omedelbart. Om verktyget används minst en gång under striden förbrukas det och kan laddas om för krediter efter striden. Om det inte används behöver det inte laddas om.<br/><br/>Bara tillgängligt under evenemanget <font color='#cbac77'>Sista striden: Terra nord</font><br/><br/>Alla taktiska verktyg som inte använts tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "LS_fastReload/name"
+msgstr "Snabbladdning"
+
+msgid "LS_fastReload/onUse"
+msgstr "Minskar omladdningstiden avsevärt under en begränsad tid/ laddar omedelbart om magasinet."
+
+msgid "LS_fastReload/restriction"
+msgstr "?empty?"
+
+msgid "LS_fastReload/short_special"
+msgstr "Ökar eldhastigheten / laddar om magasinet."
+
+msgid "LS_healSituational/always"
+msgstr "?empty?"
+
+msgid "LS_healSituational/descr"
+msgstr "Återställer träffpoäng när du förstör en fiendevagn\nAktiveringschans: 50%."
+
+msgid "LS_healSituational/long_special"
+msgstr "Stridsförmåga. Återställer omedelbart 500 träffpoäng till din vagn när du förstör en fiendevagn. Släcker bränder, tar bort chockverkan och reparerar skadade moduler. Har 50% chans att automatiskt aktiveras om du är skadad, chockad eller har kritiskt skadade moduler. Kan användas flera gånger under en strid. Tas bort efter striden om den använts minst en gång. <br/><br/>Bara tillgänglig under evenemanget <font color='#cbac77'>Sista striden: Terra nord</font><br/><br/>Alla oanvända förmågor tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "LS_healSituational/name"
+msgstr "Gynnsam reparation"
+
+msgid "LS_healSituational/onUse"
+msgstr "<font color='#FEAB34'>Återställer omedelbart 500 träffpoäng</font> till din vagn när du förstör en fiendevagn.\n• Släcker bränder, tar bort chockverkan och reparerar skadade moduler.\n• Aktiveras automatisk om du är skadad, chockad eller har kritiskt skadade moduler.\n• Aktiveringschans: <font color='#E9E2BF'>50%</font>."
+
+msgid "LS_healSituational/restriction"
+msgstr "?empty?"
+
+msgid "LS_healSituational/short_special"
+msgstr "Återställer träffpoäng när du förstör en fiendevagn."
+
+msgid "LS_invisibility/always"
+msgstr "?empty?"
+
+msgid "LS_invisibility/descr"
+msgstr "Hindrar fienden från att välja dig som mål, återställer träffpoäng, reparerar moduler och släcker bränder."
+
+msgid "LS_invisibility/long_special"
+msgstr "Taktiskt verktyg. Hindrar fienden från att välja dig som mål i 10 s. Återställer 32 träffpoäng per sekund, reparerar omedelbart moduler, släcker bränder, tar bort chockverkan och läker alla skadade besättningsmedlemmar. Om du skadar någon eller blir skadad (genom t.ex granater, kollision eller taktiska verktyg) avslöjar du omedelbart din position. Om verktyget används minst en gång under striden förbrukas det och kan laddas om för krediter efter striden. Om det inte används behöver det inte laddas om.<br/><br/>Bara tillgängligt under evenemanget <font color='#cbac77'>Sista striden: Terra nord</font><br/><br/>Alla taktiska verktyg som inte använts tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "LS_invisibility/name"
+msgstr "Skuggreparation"
+
+msgid "LS_invisibility/onUse"
+msgstr "Hindrar fienden från att välja dig som mål i 10 s. Återställer 32 träffpoäng per sekund, reparerar omedelbart moduler, släcker bränder, tar bort chockverkan och läker alla skadade besättningsmedlemmar. Om du skadar någon eller blir skadad (genom t.ex granater, kollision eller taktiska verktyg) avslöjar du omedelbart din position."
+
+msgid "LS_invisibility/restriction"
+msgstr "?empty?"
+
+msgid "LS_invisibility/short_special"
+msgstr "Hindrar tillfälligt fienden från att välja dig som mål, återställer träffpoäng, reparerar moduler, släcker bränder, tar bort chockverkan och läker alla skadade besättningsmedlemmar."
+
+msgid "LS_nitro/always"
+msgstr "?empty?"
+
+msgid "LS_nitro/descr"
+msgstr "Ökar tillfälligt vagnens rörlighet."
+
+msgid "LS_nitro/long_special"
+msgstr "Taktiskt verktyg. Ökar tillfälligt vagnens rörlighet. Om verktyget används minst en gång under striden förbrukas det och kan laddas om för krediter efter striden. Om det inte används behöver det inte laddas om.<br/><br/>Bara tillgängligt under evenemanget <font color='#cbac77'>Sista striden: Terra nord</font><br/><br/>Alla taktiska verktyg som inte använts tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "LS_nitro/name"
+msgstr "Turbo"
+
+msgid "LS_nitro/onUse"
+msgstr "Ökar tillfälligt vagnens rörlighet."
+
+msgid "LS_nitro/restriction"
+msgstr "?empty?"
+
+msgid "LS_nitro/short_special"
+msgstr "Ökar tillfälligt vagnens rörlighet."
+
+msgid "LS_nitroSituational/always"
+msgstr "?empty?"
+
+msgid "LS_nitroSituational/descr"
+msgstr "Ökar vagnens rörlighet tillfälligt när du tar skada från en fiendevagn.\nAktiveringschans: 50%."
+
+msgid "LS_nitroSituational/long_special"
+msgstr "Stridsförmåga. Ökar vagnens rörlighet tillfälligt när du tar skada från en fiendevagn. Har 50% chans att automatiskt aktiveras. Om förmågan används minst en gång under striden spenderas den och kan laddas om för krediter efter striden. Om den inte används behöver den inte laddas om.<br/><br/>Bara tillgänglig under evenemanget <font color='#cbac77'>Sista striden: Terra nord</font><br/><br/>Alla oanvända förmågor tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "LS_nitroSituational/name"
+msgstr "Gynnsam rörlighet"
+
+msgid "LS_nitroSituational/onUse"
+msgstr "<font color='#feab34'>Ökar</font> vagnens <font color='#feab34'>rörlighet</font> tillfälligt när du tar skada från en fiendevagn.\nAktiveringschans: <font color='#e9e2bf'>50%</font>."
+
+msgid "LS_nitroSituational/restriction"
+msgstr "?empty?"
+
+msgid "LS_nitroSituational/short_special"
+msgstr "Ökar vagnens rörlighet tillfälligt när du tar skada från en fiendevagn."
+
+msgid "LS_selfRepair/always"
+msgstr "?empty?"
+
+msgid "LS_selfRepair/descr"
+msgstr "Återställer träffpoäng, släcker bränder, tar bort chockverkan och reparerar skadade moduler."
+
+msgid "LS_selfRepair/long_special"
+msgstr "Stridsförmåga. Återställer träffpoäng, släcker bränder, tar bort chockverkan och reparerar skadade moduler. Kan användas flera gånger under en strid. Tas bort efter striden om den använts minst en gång.<br/><br/>Endast tillgänglig under evenemanget <font color='#cbac77'>Last Stand '25</font>.<br/><br/>Alla oanvända förmågor tas bort och kompensation i krediter motsvarande 50% av priset utbetalas i samband med nästa uppdatering."
+
+msgid "LS_selfRepair/name"
+msgstr "Nödreparationer"
+
+msgid "LS_selfRepair/onUse"
+msgstr "• Återställer omedelbart 400 träffpoäng till din vagn.\n• Återställer ytterligare 300 träffpoäng under 30 s.\n• Återställningen avbryts om du tar skada.\n• Släcker bränder, tar bort chockverkan och reparerar skadade moduler.\n• Kan bara aktiveras om du tagit skada."
+
+msgid "LS_selfRepair/restriction"
+msgstr "?empty?"
+
+msgid "LS_selfRepair/short_special"
+msgstr "Återställer träffpoäng, släcker bränder, tar bort chockverkan och reparerar skadade moduler."
+
+msgid "LS_selfRepair/usageCost"
+msgstr "• Kostnad i mirium för användning i strid:"
+
+msgid "LS_teamRepair/always"
+msgstr "?empty?"
+
+msgid "LS_teamRepair/descr"
+msgstr "Reparerar och återställer en del träffpoäng till allierade vagnar inom verkansområdet."
+
+msgid "LS_teamRepair/long_special"
+msgstr "Taktiskt verktyg. Reparerar omedelbart moduler, släcker bränder, tar bort chockverkan och återställer en del träffpoäng till allierade vagnar inom verkansradien. Om verktyget används minst en gång under striden förbrukas det och kan laddas om för krediter efter striden. Om det inte används behöver det inte laddas om.<br/><br/>Bara tillgängligt under evenemanget <font color='#cbac77'>Sista striden: Terra nord</font><br/><br/>Alla taktiska verktyg som inte använts tas bort och kompenseras med 50% av priset i samband med nästa uppdatering."
+
+msgid "LS_teamRepair/name"
+msgstr "Gruppreparation"
+
+msgid "LS_teamRepair/onUse"
+msgstr "Reparerar omedelbart skadade moduler, släcker bränder, tar bort chockverkan och återställer en del av träffpoängen för allierade vagnar inom verkansområdet."
+
+msgid "LS_teamRepair/restriction"
+msgstr "?empty?"
+
+msgid "LS_teamRepair/short_special"
+msgstr "Reparerar och återställer en del träffpoäng till allierade vagnar inom verkansområdet."
+
+msgid "lsAbility/descr/usageCost"
+msgstr " \nKostnad i mirium: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "lsAbility/usageCost/default"
+msgstr "Kostnad i mirium för användning i strid:"

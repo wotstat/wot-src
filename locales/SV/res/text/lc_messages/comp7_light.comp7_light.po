@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Byt server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Information"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Striderna är inte tillgängliga på servern %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Striderna är inte tillgängliga på någon server"
+
+msgid "alertMessage/modeOffline"
+msgstr "Databasfel. Striderna ej tillgängliga."
+
+msgid "alertMessage/noVehicles"
+msgstr "Inga godkända vagnar i garaget %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Uppfattat!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "PANSARSTORM LIGHT"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "SISTA DELMOMENTET SLUTFÖRT!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "DELMOMENT %(level)s SLUTFÖRT!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Alla uppdrag slutförda!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Slutfört"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Går ut om: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Pansarstorm Light-uppdrag"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Nytt Pansarstorm Light-uppdrag om: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Belöning:"
+msgstr[1] "Belöningar:"
+msgstr[2] "Belöningar:"
+
+msgid "battleResult/header/deserter"
+msgstr "Du har fått ett straff"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "FRAMSTEG I PANSARSTORM LIGHT"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Pansarstorm Light pågår under %(days)d dag"
+msgstr[1] "Pansarstorm Light pågår under %(days)d dagar"
+msgstr[2] "Pansarstorm Light pågår under %(days)d dagar"
+
+msgid "calendarDay/title"
+msgstr "Schema"
+
+msgid "closeButtonLabel"
+msgstr "STÄNG"
+
+msgid "countDown/text"
+msgstr "Evenemanget börjar om:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Snabbspelade strider 7v7 i vagnar klass %(levels)s. Delta i klassiska Pansarstormstrider utan kval, grader eller tjänstgöringsintyg, och tjäna belöningar i dagliga uppdrag."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "LÄGE"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s - Stridsläge. Klicka för att utforska"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Pansarstorm Light"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Striderna är tillgängliga i %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Vapenvila%(timer)s"
+
+msgid "featureName"
+msgstr "Pansarstorm Light"
+
+msgid "featureNameCapitalized"
+msgstr "PANSARSTORM LIGHT"
+
+msgid "intro/confirmButton"
+msgstr "Uppfattat!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Njut av klassisk Pansarstorm utan kval, grader eller påverkan av ditt Tjänstgöringsintyg."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Striderna har förändrade regler som påverkar vissa av vagnarnas egenskapsvärden, t.ex träffpoäng, nedkylningstid för förnödenheter, synlighetstid osv."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "När du lyckats erövra vissa områden på kartan kommer du kunna använda taktiska färdigheter. Det finns två sorters nyckelpunkter: Eldledningsplatsen som låter dig leda in artillerield mot en viss position och Sambandsplatsen som låter dig upptäcka fiendevagnar. Förekomst och placering av nyckelpunkterna varierar beroende på kartan."
+
+msgid "intro/description/roleSkills"
+msgstr "Alla vagnar har en specialfärdighet med tre laddningsgrader baserat på deras roll. Ju högre laddningsgrad färdigheten har när den aktiveras, desto större verkan har den. Laddningsgraden beror på antalet Prestigepoäng som kan tjänas genom imponerande prestationer i strid, erövrande av nyckelpunkter, användande av taktiska färdigheter osv.\n\nSe stridsreglerna för mer information om olika sätt du kan tjäna Prestigepoäng."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Endast vagnar klass %(levels)s kan delta i striderna (artilleri samt vissa andra vagnar är dock inte tillåtna). Förbered dina vagnar i garaget och välj sen den bästa för respektive karta när nedräkningen till striden börjar. När du väljer vagn bör du även ta hänsyn till dina allierades val."
+
+msgid "intro/title/lightGameplay"
+msgstr "TA DET LUGNT, BEFÄLHAVARE"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "FÖRÄNDRINGAR I PANSARSTORM"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "Nyckelpunkter"
+
+msgid "intro/title/roleSkills"
+msgstr "ROLLFÄRDIGHETER"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "VÄLJ VAGN EFTER KARTA"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Seger"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Förlust/Oavgjort"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Bra kämpat, befälhavare, fortsätt så!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Slutför uppdrag och nå förstaplatsen i Pansarstorm Light för att göra framsteg."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Din placering i stridsresultatet efter Prestigepoäng avgör hur många stridspasspoäng du tjänar."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Striderna avslutas om %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Huvuddelmoment slutförda"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Pansarstorm Light"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Topp 2 Prestigepoäng"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Topp 5 Prestigepoäng"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Topp 7 Prestigepoäng"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Använd WoT-Premiumkonto"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktivera personliga reserver"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Slutför uppdrag"
+
+msgid "noVehicles/howTo/title"
+msgstr "Vilket är det snabbaste sättet att skaffa att vagnar klass %(levels)s?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "För att delta i Pansarstorm Light behöver du ha minst en godkänd vagn klass %(levels)s i garaget.\nDu kan köpa Premiumvagnar klass %(levels)s i teknologiträdet eller i affären i spelet."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "För att delta i Pansarstorm Light måste du ha minst en godkänd vagn klass %(levels)s ditt garage.\nDet finns minst en vagn klass %(levels)s som går att återställa."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "För att delta i Pansarstorm Light måste du ha minst en godkänd vagn klass %(levels)s ditt garage."
+
+msgid "noVehicles/title"
+msgstr "Inga godkända vagnar i garaget"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Se sidan Om Pansarstorm Light för mer information."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Prestigepoäng"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Åsamka skada\nAssistans under observation\nFörstöra band\nÅsamka kritisk skada\nFörstöra fiendevagnar\nmed mera"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Du tjänar prestigepoäng för följande stridshandlingar:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Säsongen har avslutats på servern %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Säsongen har avslutats på servern %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Säsongen har avslutats på servern %(server)s."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Huvuddelmoment slutförda!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Delmoment %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s eller %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Nya uppdrag om:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Evenemanget avslutas om:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Uppdrag uppdateras om"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Alla dagliga uppdrag slutförda."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s / %(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Alla delmoment slutförda. Spela Pansarstorm Light för att tjäna fler belöningar."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Slutför uppdrag och säkra topplacering i Pansarstorm Light\nför att göra framsteg. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Tilldelas spelare som slutfört specialuppdrag och utkämpat strider i Pansarstorm Light. De ökar dina framsteg i delmomenten."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Stridspasspoäng för Pansarstorm Light"
+
+msgid "selectorTooltip/desc"
+msgstr "Orankade strider. 7v7 | Klass %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Pansarstorm Light"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Följ de senaste nyheterna på spelportalen för att hålla dig uppdaterad om starten på den nya säsongen."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Striderna ej tillgängliga för tillfället på grund av tekniska problem."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Striderna blir tillgängliga igen den %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Mottagna stridspasspoäng"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Information"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Pansarstorm Light"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Belöningar mottagna:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Du har slutfört delmoment %(stage)s av %(progressionName)s."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Grattis!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Vapenvila råder. Pansarstorm Light är ej tillgängligt för tillfället."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Vapenvila"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Vapenvilan över. Pansarstorm Light är åter tillgängligt."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Vapenvila"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Om Pansarstorm Light"

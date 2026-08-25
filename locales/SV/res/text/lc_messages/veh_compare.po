@@ -1,0 +1,467 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "addVehPopover/btnAdd"
+msgstr "Lägg till (%(count)d)"
+
+msgid "addVehPopover/btnCancel"
+msgstr "Avbryt"
+
+msgid "addVehPopover/header"
+msgstr "Välj vagnar för jämförelse"
+
+msgid "addVehPopover/showOnlyMyVahicles"
+msgstr "Visa vagnar i garaget"
+
+msgid "addVehPopover/tooltips/addToCompare/body"
+msgstr "Lägg till valda vagnar i jämförelselistan"
+
+msgid "addVehPopover/tooltips/addToCompare/header"
+msgstr "Lägg till"
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/body"
+msgstr "För att lägga till en vagn till jämförelselistan måste du ta bort en annan vagn först."
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/header"
+msgstr "Kan inte lägga till"
+
+msgid "addVehPopover/tooltips/inHangar/body"
+msgstr "Sortera efter vagnar i garaget."
+
+msgid "addVehPopover/tooltips/inHangar/header"
+msgstr "Vagnar i garaget"
+
+msgid "addVehPopover/tooltips/level/body"
+msgstr "Sortera efter klass."
+
+msgid "addVehPopover/tooltips/level/header"
+msgstr "Vagnar"
+
+msgid "addVehPopover/tooltips/nation/body"
+msgstr "Sortera efter nation."
+
+msgid "addVehPopover/tooltips/nation/header"
+msgstr "Nation"
+
+msgid "addVehPopover/tooltips/selectVehicle/body"
+msgstr "Sortera efter valda vagnar."
+
+msgid "addVehPopover/tooltips/selectVehicle/header"
+msgstr "Valda vagnar"
+
+msgid "addVehPopover/tooltips/title/body"
+msgstr "Sortera efter vagnsnamn."
+
+msgid "addVehPopover/tooltips/title/header"
+msgstr "Namn"
+
+msgid "addVehPopover/tooltips/type/body"
+msgstr "Sortera efter vagnstyp."
+
+msgid "addVehPopover/tooltips/type/header"
+msgstr "Typ"
+
+msgid "addVehPopover/vehicleName"
+msgstr "Namn"
+
+msgid "cartPopover/configurationType/basic"
+msgstr "Standard"
+
+msgid "cartPopover/configurationType/current"
+msgstr "Nuvarande"
+
+msgid "cartPopover/configurationType/custom"
+msgstr "Anpassad"
+
+msgid "cartPopover/configurationType/premium"
+msgstr "Premium"
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/attention"
+msgstr "För att lägga till en vagn till jämförelselistan måste du ta bort en annan vagn först."
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/header"
+msgstr "Kan inte lägga till"
+
+msgid "cartPopover/gotoCompareBtn/label"
+msgstr "(%(value)s) att jämföra"
+
+msgid "cartPopover/openCmpBtn/tooltip/body"
+msgstr "Gå till jämförelse av valda vagnar."
+
+msgid "cartPopover/openCmpBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeAllBtn/label"
+msgstr "Rensa listan"
+
+msgid "cartPopover/removeAllBtn/tooltip/body"
+msgstr "Ta bort alla vagnar från jämförelselistan."
+
+msgid "cartPopover/removeAllBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtn/tooltip/body"
+msgstr "Klicka för att ta bort en vagn från jämförelselistan."
+
+msgid "cartPopover/removeBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtnLocked/tooltip/body"
+msgstr "Kan inte ta bort vagnar från jämförelselistan när anpassningsfönstret är öppet."
+
+msgid "cartPopover/removeBtnLocked/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeLockedBtn/tooltip/body"
+msgstr "Kan inte ta bort vagnar från jämförelsen när anpassningsfönstret är öppet."
+
+msgid "cartPopover/removeLockedBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/sorting/nation/body"
+msgstr "Visa vagnsnation."
+
+msgid "cartPopover/sorting/nation/header"
+msgstr "Nation"
+
+msgid "cartPopover/sorting/vehLvl/body"
+msgstr "Visa vagnsklass."
+
+msgid "cartPopover/sorting/vehLvl/header"
+msgstr "Klass"
+
+msgid "cartPopover/sorting/vehName"
+msgstr "Namn"
+
+msgid "cartPopover/sorting/vehName/tooltip/body"
+msgstr "Visa vagnsnamn."
+
+msgid "cartPopover/sorting/vehName/tooltip/header"
+msgstr "Namn"
+
+msgid "cartPopover/sorting/vehType/body"
+msgstr "Visa vagnstyp."
+
+msgid "cartPopover/sorting/vehType/header"
+msgstr "Typ"
+
+msgid "cartPopover/title"
+msgstr "Jämförelselista"
+
+msgid "compareVehicleBtn/tooltips/disabledOnServer/attention"
+msgstr "Den här funktionen är inte tillgänglig just nu."
+
+msgid "header/closeBtn/label"
+msgstr "STÄNG"
+
+msgid "menu/cloneForCompare"
+msgstr "Kopiera för jämförelse"
+
+msgid "modulesView/closeBtnLabel"
+msgstr "Avbryt"
+
+msgid "modulesView/closeBtnLabel/tooltip/body"
+msgstr "Avbryt modulkonfiguration och gå tillbaka till vagnskonfigurationen."
+
+msgid "modulesView/closeBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/compareBtnLabel"
+msgstr "Acceptera"
+
+msgid "modulesView/compareBtnLabel/tooltip/body"
+msgstr "Spara moduluppsättningen gå tillbaka till vagnskonfigurationen."
+
+msgid "modulesView/compareBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/resetBtnLabel"
+msgstr "Återställ"
+
+msgid "modulesView/resetBtnLabel/tooltip/body"
+msgstr "Klicka för att återställa vagnen till standardutförande."
+
+msgid "modulesView/resetBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/title"
+msgstr "Modulkonfiguration för %(vehName)s"
+
+msgid "modulesView/vehicleStatus/inHangar"
+msgstr "Tillgängliga i garaget"
+
+msgid "modulesView/vehicleStatus/readyToBuy"
+msgstr "Ej köpt"
+
+msgid "modulesView/vehicleStatus/readyToResearch"
+msgstr "Ej framforskad"
+
+msgid "skillSelect/bonusSkills"
+msgstr "Bonusförmågor"
+
+msgid "skillSelect/button/addToCompare"
+msgstr "Lägg till i jämförelselista"
+
+msgid "skillSelect/button/cancel"
+msgstr "Avbryt"
+
+msgid "skillSelect/button/restore"
+msgstr "Återställ"
+
+msgid "skillSelect/majorSkills"
+msgstr "Huvudutbildningsförmågor"
+
+msgid "skillSelect/tooltip/additionalRoles"
+msgstr "Extraroll:"
+
+msgid "skillSelect/tooltip/generalPrinciple"
+msgstr "Huvudprincip"
+
+msgid "skillSelect/tooltip/generalPrincipleDescription"
+msgstr "Vagnshanteringen visar hur en förmåga påverkar respektive egenskap när den är tränad till {cream_Open}100%{cream_Close} och när effektgraden är {cream_Open}100%{cream_Close}."
+
+msgid "skillSelect/tooltip/heading"
+msgstr "Besättningsförmågor för %(vehicleName)s"
+
+msgid "skillSelect/tooltip/roles"
+msgstr "Utbildningar"
+
+msgid "skillSelect/tooltipHint"
+msgstr "*Håll muspekaren över en förmåga för att visa hur den påverkar respektive egenskap när den tränats till 100% och har 100% effektgrad."
+
+msgid "skillsConf/empty"
+msgstr "Välj besättningsförmågor"
+
+msgid "skillsConf/emptyTooltip/body"
+msgstr "Välj förmågor för att se hur de påverkar vagnsegenskaperna"
+
+msgid "skillsConf/emptyTooltip/header"
+msgstr "Besättningsförmågor"
+
+msgid "skillsConf/header"
+msgstr "Besättningsförmågor"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "Lägg till i jämförelselista"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "Du kan inte lägga till denna vagn till jämförelselistan."
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/disabled/body"
+msgstr "För att lägga till en vagn till jämförelselistan måste du ta bort en annan vagn först."
+
+msgid "store/compareVehicleBtn/tooltips/disabled/header"
+msgstr "Kan inte lägga till"
+
+msgid "techTree/tooltips/addToCompare/body"
+msgstr "Lägg till i jämförelselista"
+
+msgid "techTree/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehConf/applyBtnLabel"
+msgstr "Tillämpa"
+
+msgid "vehConf/btnCleanUp"
+msgstr "Rensa"
+
+msgid "vehConf/cancelBtnLabel"
+msgstr "Avbryt"
+
+msgid "vehConf/cancelBtnLabel/tooltip/body"
+msgstr "Klicka för att avbryta nuvarande konfiguration och återvända till jämförelsen."
+
+msgid "vehConf/cancelBtnLabel/tooltip/header"
+msgstr "Avbryt"
+
+msgid "vehConf/compareBtnLabel/tooltip/body"
+msgstr "Klicka för att spara nuvarande konfiguration och återvända till jämförelsen."
+
+msgid "vehConf/compareBtnLabel/tooltip/header"
+msgstr "Tillämpa"
+
+msgid "vehConf/confAvailable"
+msgstr "ANPASSNING\nTILLGÄNGLIG"
+
+msgid "vehConf/doesntAffect"
+msgstr "Påverkar inte de förenklade tekniska värdena"
+
+msgid "vehConf/equipment"
+msgstr "Utrustning och förnödenheter"
+
+msgid "vehConf/header"
+msgstr "Konfiguration för %(vehName)s"
+
+msgid "vehConf/modifications/choose"
+msgstr "Välj anpassningar"
+
+msgid "vehConf/modifications/title"
+msgstr "Anpassningar"
+
+msgid "vehConf/modules"
+msgstr "Moduler"
+
+msgid "vehConf/resetBtnLabel"
+msgstr "Återställ"
+
+msgid "vehConf/resetBtnLabel/tooltip/body"
+msgstr "Klicka för att återställa vagnens standardkonfiguration."
+
+msgid "vehConf/resetBtnLabel/tooltip/header"
+msgstr "Återställ"
+
+msgid "vehConf/tooltips/btnCleanUp/body"
+msgstr "Klicka för att ta bort utrustning från konfigurationen."
+
+msgid "vehConf/tooltips/btnCleanUp/header"
+msgstr "Rensa"
+
+msgid "vehConf/tooltips/camoInfo"
+msgstr "Ökar vagnens kamouflage på olika kartor genom att anlägga sommar-, vinter- och ökenkamouflage."
+
+msgid "vehConf/tooltips/camoInfoDisabled/body"
+msgstr "Detta universalkamouflage är en integral del av vagnen. Det kan inte tas bort eller bytas ut."
+
+msgid "vehConf/tooltips/camoInfoDisabled/header"
+msgstr "Universalkamouflage"
+
+msgid "vehConf/tooltips/camoTitle"
+msgstr "Kamouflage"
+
+msgid "vehConf/tooltips/defCamoInfo"
+msgstr "3 kamouflagetyper som \ninte kan tas bort används: vinter, sommar, öken"
+
+msgid "vehConf/tooltips/deviceNotAffectedTTC"
+msgstr "Påverkar inte vagnens tekniska värden"
+
+msgid "vehConf/tooltips/modifications/description"
+msgstr "Välj anpassningar som ger vagnen de egenskaper som bäst passar dess roll och spelstil."
+
+msgid "vehConf/tooltips/modifications/remove"
+msgstr "Ta bort alla anpassningar"
+
+msgid "vehConf/tooltips/modifications/title"
+msgstr "Anpassningspanelen"
+
+msgid "vehConf/tooltips/revertBtn/body"
+msgstr "Klicka för att återställa vagnens standardkonfiguration."
+
+msgid "vehConf/tooltips/revertBtn/header"
+msgstr "?empty?"
+
+msgid "vehConf/tooltips/topModulesLabel/body"
+msgstr "Inga andra moduler är tillgängliga för denna vagn: Vagnens konfiguration är permanent."
+
+msgid "vehConf/tooltips/topModulesLabel/header"
+msgstr "Bästa konfiguration"
+
+msgid "vehConf/tooltips/topModulesOff/body"
+msgstr "Klicka för att välja vagnens bästa konfiguration."
+
+msgid "vehConf/tooltips/topModulesOff/header"
+msgstr "Bästa konfiguration"
+
+msgid "vehConf/tooltips/topModulesOn/body"
+msgstr "Klicka för att stänga av bästa konfiguration."
+
+msgid "vehConf/tooltips/topModulesOn/header"
+msgstr "Bästa konfiguration"
+
+msgid "vehConf/topModulesBtnLabel"
+msgstr "Välj bästa konfiguration"
+
+msgid "vehConf/topModulesLabel"
+msgstr "Bästa konfiguration"
+
+msgid "vehPreview/compareInfo/addToCompare"
+msgstr "Lägg till i jämförelselistan—"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "Lägg till i jämförelselista"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "Du kan inte lägga till denna vagn till jämförelselistan."
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/body"
+msgstr "För att lägga till en vagn till jämförelselistan måste du ta bort en annan vagn först."
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/header"
+msgstr "Kan inte lägga till"
+
+msgid "vehicleCompareView/btnAddVehicles"
+msgstr "Lägg till i jämförelselista"
+
+msgid "vehicleCompareView/configurationType/basic"
+msgstr "Standard"
+
+msgid "vehicleCompareView/configurationType/current"
+msgstr "Nuvarande"
+
+msgid "vehicleCompareView/configurationType/custom"
+msgstr "Anpassad"
+
+msgid "vehicleCompareView/configure"
+msgstr "Anpassa"
+
+msgid "vehicleCompareView/toHangar"
+msgstr "Visa i garaget"
+
+msgid "vehicleCompareView/toPreview"
+msgstr "Förhandsvisa"
+
+msgid "vehicleCompareView/tooltips/addVehicles/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/addVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/configure/body"
+msgstr "Klicka för att välja de parametrar som påverkar tekniska värden."
+
+msgid "vehicleCompareView/tooltips/configure/header"
+msgstr "Anpassa parametrar"
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/body"
+msgstr "Klicka för att ta bort alla vagnar från jämförelselistan."
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/body"
+msgstr "Ta bort från listan"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/topPanel/noVehicle"
+msgstr "Inga vagnar valda"
+
+msgid "vehicleCompareView/topPanel/premium"
+msgstr "Premium"
+
+msgid "vehicleCompareView/topPanel/vehiclesCount"
+msgstr "Vagnar som jämförs: %(count)s"

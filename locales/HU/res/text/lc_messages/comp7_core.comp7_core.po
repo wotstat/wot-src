@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "Válaszd ki azt a járművet, amelyet ki szeretnél zárni ebből a csatából"
+
+msgid "prebattleTimer/ban/header"
+msgstr "Tiltási szavazás szakasza"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "Kiválasztás megerősítése"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "Miután megerősítetted, nem választhatsz másik járművet."
+
+msgid "prebattleTimer/pick/header"
+msgstr "Megerősítési szakasz"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "Válaszd ki a pályához és a csapatod összetételéhez leginkább megfelelő járművet"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "Előzetes járműkiválasztási szakasz"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "Válaszd ki a legjobb járművet az aktuális pályához és a csapatodhoz."
+
+msgid "prebattleTimer/wait/header"
+msgstr "Várakozás játékosokra..."
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "Válassz egy járművet"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "A szakasz ezen a szerveren befejeződött: %(server)s"
+
+msgid "primeTimeView/server"
+msgstr "Elérhető szerver: %(server)s."
+
+msgid "primeTimeView/serverTooltip"
+msgstr "%(server)s szerver\nA csaták további %(time)s-ig lesznek elérhetők"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "%(server)s szerver\nA csaták %(time)s múlva lesznek elérhetők"
+
+msgid "primeTimeView/servers"
+msgstr "Elérhető szerverek:"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "A csaták egyik szerveren sem érhetők el"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "A játékmód nem érhető el ezen a szerveren: %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "A(z) %(server)s szerveren a csaták további %(time)s-ig lesznek elérhetők"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "A(z) %(server)s szerveren a csaták %(time)s múlva kezdődnek"
+
+msgid "primeTimeView/status/untill"
+msgstr "A csaták %(startTime)s-ig nem lesznek elérhetők ezen a szerveren: %(server)s"

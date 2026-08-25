@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "Hantera reserver"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "Klicka för att välja en tillgänglig stridsreserv."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "Bomber"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "Träffområde"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "Chocka"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "Fördröjning"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "Antal minor"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "Minfältets varaktighet"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "Chocka"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "Skadeområde"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "Period"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "Granater"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "Nedkylning"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "Fördröjning"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "Varaktighet"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "Antal återställda träffpoäng"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "Antal träffpoäng återställda omedelbart vid aktivering"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "Minskning av skada åsamkad av minor"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "Snabbare återställning av träffpoäng inom en omladdningscirkel"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "Besättningseffektivitet"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "Period"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "Avstängningstid"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "Effektradie"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "Vagnens besättningsprestanda"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "Ökat skydd"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "Erövringsbonus"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "Nedkylningsminskning"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "Omladdningshastighet"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "Ankomsttid"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "Träffområde"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750 m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "Observationstid"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "Minskar besättningseffektiviteten"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "Rökgranater"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "Träffområde"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "Period"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "Minskad siktsträcka för fiendevagnar"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "Minskat kamouflagevärde för fiendevagnar bakom växtlighet"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "Minskat kamouflagevärde för fiendevagnar i rörelse"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "Varaktighet"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "Bättre kamouflage för en stillastående vagn"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "Passiv ökning av siktsträckan"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "Reservnivå"
+
+msgid "abilityInfo/properties/static"
+msgstr "Permanenta egenskaper"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "s"
+
+msgid "advance_message_txt"
+msgstr "Framryck till fronten"
+
+msgid "advance_mission_txt"
+msgstr "Framryck till fronten"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "SCENARIOINFORMATION"
+
+msgid "awards/acceptButton"
+msgstr "Uppfattat!"
+
+msgid "awards/multiplier"
+msgstr "%(multiplier)sx"
+
+msgid "awards/subTitle1"
+msgstr "BELÖNINGAR MOTTAGNA"
+
+msgid "awards/subTitle2"
+msgstr "BELÖNING MOTTAGEN"
+
+msgid "awards/title"
+msgstr "FRONTSTRID"
+
+msgid "base/contested_atk"
+msgstr "Omstridd"
+
+msgid "base/contested_def"
+msgstr "Under attack"
+
+msgid "battleResults/armor"
+msgstr "Användande av pansar"
+
+msgid "battleResults/assistance"
+msgstr "Assistans"
+
+msgid "battleResults/crits"
+msgstr "Kritisk skada"
+
+msgid "battleResults/damage"
+msgstr "Åsamka skada"
+
+msgid "battleResults/kill"
+msgstr "Förstörd"
+
+msgid "battleResults/spotting"
+msgstr "Upptäckta"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "1 st personlig reserv: %(effectValue)s extra besättningserfarenhet i %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "1 st personlig reserv: %(effectValue)s extra Fri erfarenhet i %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "1 st personlig reserv: %(effectValue)s extra stridserfarenhet i %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Anfall mål %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Försvara mål %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Lystring!"
+
+msgid "command_shortcut/title"
+msgstr "Order"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "Fronten blockerad—spelargränsen nådd"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "Farozon"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "Fronten blockerad—gränsen för vagnstyp nådd"
+
+msgid "dialogs/quotedName"
+msgstr "\"%(name)s\""
+
+msgid "dialogs/title/buy/item"
+msgstr "Köp %(type)s %(name)s?"
+
+msgid "dialogs/title/buy/items"
+msgstr "Köp %(type)s?"
+
+msgid "dialogs/title/install/item"
+msgstr "Aktivera %(type)s %(name)s?"
+
+msgid "dialogs/title/install/items"
+msgstr "Aktivera %(type)s?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "Samla de poäng som krävs för att aktivera Frontreserver."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "Samla de poäng som krävs för att aktivera Frontreserver."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "Stridsreservpoäng"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "Vagnar %(level)s vagnar låses upp för strid när någon punkt i andra linjen (D, E eller F) erövras/förloras."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "klass %(lvl)s"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "Välj en vagn klass VIII för frontstrider."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "Icke-kompatibel vagn"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "Skaffa"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "Max"
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "Stridsreserver"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "Befälsnivå"
+
+msgid "epictraining/info/otherLabel"
+msgstr "Ej fördelade spelare: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "Anfallare ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "Försvarare ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "Alla fiendevagnar utslagna"
+
+msgid "game/all_hqs_destroyed"
+msgstr "Alla mål förstörda"
+
+msgid "game/all_tanks_defeated"
+msgstr "Alla allierade vagnar utslagna"
+
+msgid "game/defeat"
+msgstr "Förlust!"
+
+msgid "game/draw"
+msgstr "Oavgjort!"
+
+msgid "game/time_over"
+msgstr "Mål har överlevt"
+
+msgid "game/victory"
+msgstr "Seger!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "Förstör mål!"
+
+msgid "global_msg/atk/time_short"
+msgstr "Erövra en zon!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "Försvara målen!"
+
+msgid "global_msg/def/time_short"
+msgstr "Försvara zonerna!"
+
+msgid "global_msg/lane/center_short"
+msgstr "Förstärk %(strArg1)s!"
+
+msgid "global_msg/lane/east_short"
+msgstr "Förstärk %(strArg1)s!"
+
+msgid "global_msg/lane/west_short"
+msgstr "Förstärk %(strArg1)s!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "Spara dina vagnar!"
+
+msgid "help_window/communication"
+msgstr "Signalbegränsning"
+
+msgid "help_window/communication/description"
+msgstr "Du kan bara få order från allierade som är inom det område som är synligt på din minikarta eller när målet för ordern är inom det området."
+
+msgid "help_window/overview_map"
+msgstr "Översiktskarta"
+
+msgid "help_window/overview_map/description"
+msgstr "Översiktskartan används för att få en taktisk och strategisk överblick över hela slagfältet. När översiktskartan är öppen kan du skicka och ta emot meddelanden från hela laget."
+
+msgid "help_window/recovery"
+msgstr "Återställning"
+
+msgid "help_window/recovery/description"
+msgstr "Återtagning är till för att självförstöra en vagn som har fastnat i terrängen. Mekaniken krävs för den ökade stridslängden och möjligheten att återvända i en ny insats kräver ett mer permanent engagemang från spelaren."
+
+msgid "help_window/reserves"
+msgstr "Vagnsreserver"
+
+msgid "help_window/reserves/description"
+msgstr "Med några minuters mellanrum får du en ny vagn i din vagnsreserv. Reserven håller maximalt två reservvagnar. När inga vagnar är kvar kan du inte återvända till striden utan måste vänta tills du får en ny vagn i reserven."
+
+msgid "hq/under_attack_atk"
+msgstr "Under attack"
+
+msgid "hq/under_attack_def"
+msgstr "Under attack"
+
+msgid "in_game_rank/experience_text"
+msgstr "Erf."
+
+msgid "lane_central_name"
+msgstr "Center"
+
+msgid "lane_east_name"
+msgstr "Öst"
+
+msgid "lane_west_name"
+msgstr "Väst"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "Nivå %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "Ingen anskaffning tillgänglig: du har inga stridsreservpoäng."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "Stridsreserven har nått högsta nivå."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "Ingen uppgradering tillgänglig. Du har inga stridsreservpoäng."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "Stridsreserver saknas"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "Nivån på stridsreserverna ökas när du når graderna kapten och major under striden. Högsta nivån beror på stridsscenariot."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "Inköpspris: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "Huvudmål"
+
+msgid "mission/title"
+msgstr "Uppdrag"
+
+msgid "mission/zone_closing_atk"
+msgstr "Zonen öppnar om: "
+
+msgid "mission/zone_closing_def"
+msgstr "Fientligt flyganfall om: "
+
+msgid "missions/primary/atk/base"
+msgstr "Erövra zon"
+
+msgid "missions/primary/atk/hq"
+msgstr "Förstör mål"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s av %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "Förstörda mål:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "Erövra zoner för att nå huvudmålen. Förstör huvudmålen."
+
+msgid "missions/primary/def/base"
+msgstr "Försvara zon"
+
+msgid "missions/primary/def/hq"
+msgstr "Försvara mål"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s av %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "Förlorade mål:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "Försvara huvudmålen tills tiden tar slut eller förstör alla angripare."
+
+msgid "missions/unlockTankLevel"
+msgstr "Vagn klass IX tillgänglig"
+
+msgid "overtime/label"
+msgstr "ÖVERTID"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "Kan inte aktivera två identiska reserver"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "Kan inte lägga ut minfält. Minfält överlappar varandra."
+
+msgid "primeTime/applyBtn"
+msgstr "Fortsätt"
+
+msgid "primeTime/cancelBtn"
+msgstr "Avbryt"
+
+msgid "primeTime/continueBtn"
+msgstr "Fortsätt"
+
+msgid "primeTime/endOfCycle"
+msgstr "Evenemanget har avslutats på servern %(server)s."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "Tillgängliga servrar:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "Tillgänglig server:%(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "Strider på %(server)s är tillgängliga under ytterligare %(time)s"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "Nästa strider på %(server)s om %(time)s"
+
+msgid "primeTime/serverTooltip"
+msgstr "Server %(server)s\nStrider tillgängliga i ytterligare %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Strider tillgängliga om %(time)s"
+
+msgid "primeTime/servers"
+msgstr "Tillgängliga servrar: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Striderna har avslutats på servern %(server)s"
+
+msgid "primeTime/status/disable"
+msgstr "Du kan växla till en frontstridsserver för att fortsätta förberedelser för striden."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "Striderna ej tillgängliga på server %(server)s"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "Vapenvila råder på servern %(server)s tills %(startTime)s"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "Vapenvila råder på alla servrar"
+
+msgid "primeTime/status/thisEnable"
+msgstr "På servern %(server)s är frontstrider tillgängliga i ytterligare %(time)s."
+
+msgid "primeTime/steelhunter/title"
+msgstr "Pansarjakt"
+
+msgid "primeTime/title"
+msgstr "FRONTSTRID"
+
+msgid "primeTime/titleWelcome"
+msgstr "VÄLKOMMEN\nTILL FRONTEN"
+
+msgid "progress_timers/active"
+msgstr "Aktiv"
+
+msgid "progress_timers/fully_equipped"
+msgstr "Fullt utrustad"
+
+msgid "progress_timers/resupply"
+msgstr "Omladdningscirkel"
+
+msgid "progress_timers/unavailable"
+msgstr "Ej tillgänglig"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "Frontuppdrag"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "mindre än 1 dygn"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "nå nivå %(level)s"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "Nya uppdrag tillgängliga om %(time)s"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "Uppdrag för Pansarjakt"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "Frontstriderna avslutas om: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "Ej tillgängligt: %(reason)s."
+
+msgid "rank/allReserveUpgraded"
+msgstr "Nivån på alla stridsreserver har ökats"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "Besättningseffektivitetsbonusen ökad till +%(percent)s%%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "Maximal besättningseffektivitetsgräns är +%(percent)s%%"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "Besättningseffektivitetsbonus +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "Spelare"
+
+msgid "rank/promotion"
+msgstr "befordrad till %(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "Menig"
+
+msgid "rank/rank2"
+msgstr "Sergeant"
+
+msgid "rank/rank3"
+msgstr "Löjtnant"
+
+msgid "rank/rank4"
+msgstr "Kapten"
+
+msgid "rank/rank5"
+msgstr "Major"
+
+msgid "rank/rank6"
+msgstr "General"
+
+msgid "rank/recerveUnlocked"
+msgstr "Stridsreserv %(reserveName)s upplåst"
+
+msgid "rank/reserveUpgraded"
+msgstr "Stridsreserv %(reserveName)s förbättrad"
+
+msgid "rank/slotUnlocked"
+msgstr "%(slotNumber)s stridsreserven upplåst"
+
+msgid "rank/slot_2"
+msgstr "2:a"
+
+msgid "rank/slot_3"
+msgstr "3:e"
+
+msgid "recovery/Blocked"
+msgstr "Tillfälligt\nblockerad"
+
+msgid "recovery/disabled"
+msgstr "Återställning ej tillgänglig"
+
+msgid "recovery_panel/base_text"
+msgstr "Tryck J\nför att återställa"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "Rör dig eller skjut för att avbryta."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "Återställning\navbruten"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "Återställning\nbegärd"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "Erövra nästa bas"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "Förstärkningar om "
+
+msgid "reinforcement/unavailable"
+msgstr "Förstärkningar ej tillgängliga"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s till automatisk insats."
+
+msgid "respawn/deploy_button"
+msgstr "Till Strid!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "Förbättrade förnödenheter kan inte köpas i strid."
+
+msgid "respawn/shop_title"
+msgstr "Service"
+
+msgid "respawn/tanks_left"
+msgstr "återstående vagnar"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "Välj utgångspunkt"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "Det är riskabelt att utgå från denna punkt."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s sekunder"
+
+msgid "retreat_message_txt"
+msgstr "Retirera"
+
+msgid "retreat_mission_txt"
+msgstr "Retirera till nästa zon"
+
+msgid "rewardSelection/subTitle"
+msgstr "VÄLJ BELÖNING"
+
+msgid "rewardSelection/title"
+msgstr "FRONTSTRID"
+
+msgid "scorePanel/stage1"
+msgstr "Steg 1"
+
+msgid "scorePanel/stage2"
+msgstr "Steg 2"
+
+msgid "scorePanel/stage3"
+msgstr "Steg 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "Din dators prestanda räcker inte för detta läge. Du kan uppleva grafikproblem och problem att köra din vagn. Det är även troligt att spelklienten kommer krascha."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "Låg prestanda"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "Sänk grafikinställningarna om du upplever dålig prestanda."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "Dessa strider kräver hög datorprestanda"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "Striderna kräver hög datorprestanda. Du kan uppleva att kartorna laddar långsamt, grafikproblem och problem att köra din vagn. Om du upplever att din dator inte klarar av detta bör du sänka kvalitetsinställningarna."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "Låg prestanda"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "30v30-strider i %(bodyVehicleLevel)s. Återvänd till striden i flera insatser, utnyttja stridsreserver och omladdningscirklar."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "vagnar klass %(level)s"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "30v30-strider i %(bodyVehicleLevel)s. Återvänd till striden i flera insatser, utnyttja stridsreserver och reparera under striden."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "Spelläget är ej tillgängligt för tillfället på grund av tekniska problem."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "Frontstrid"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "Striderna börjar om: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "Striderna avslutas om: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "Stridsschema"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "Idag"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "Imorgon"
+
+msgid "skill/category/firesupport"
+msgstr "Anfallsreserver"
+
+msgid "skill/category/reconnaissance"
+msgstr "Spaningsreserver"
+
+msgid "skill/category/tactics"
+msgstr "Taktiska reserver"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "Åskådarkamera"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "Rotera kameran med musen."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "Använd W,A,S,D för att flytta runt kameran på kartan."
+
+msgid "spectator_mode/follow_text"
+msgstr "Vänsterklicka för att börja följa."
+
+msgid "spectator_mode/follow_title"
+msgstr "Följ"
+
+msgid "spectator_mode/msg_text"
+msgstr "Vagn tillgänglig om:"
+
+msgid "spectator_mode/msg_title"
+msgstr "Alla vagnar förstörda!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "Klicka igen för att sluta följa."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "Sluta följa"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "Blockerad"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Lämna zonen!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Återställer träffpoäng"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Återställer träffpoäng"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Inspirerande"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "Inspirerande"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Omladdningscirkel"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "I rök: dold."
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "Påverkad av rök. Siktsträcka och besättningseffektivitet minskad."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "Nedkylning. Siktsträcka och besättningseffektivitet minskad."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "Vaktpost aktiverad"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "Aktiveras %(activationDelay)s s efter att vagnen stannat"
+
+msgid "super_platoon_panel/title"
+msgstr "Pluton"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "–total besättningseffektivitetsbonus från en general i laget."
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "Alla fronter"
+
+msgid "tab_screen/show_my_lane"
+msgstr "Min front"
+
+msgid "team1Name"
+msgstr "Anfallare"
+
+msgid "team2Name"
+msgstr "Försvarare"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "Välj belöning för uppnådda Frontklasser (%(number)s)."
+
+msgid "tooltips/common/disabled"
+msgstr "Strider ej tillgängliga"
+
+msgid "tooltips/common/title"
+msgstr "Frontstrid"
+
+msgid "tooltips/end"
+msgstr "Evenemanget är över"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "ordningen stridsreserver låses upp beror på vagnstyp. En stridsreserv är tillgänglig från början medan de övriga låses upp vid sergeants- respektive löjtnants grad."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "Låsa upp: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "Under scenariot <font color='#E9E2BF'>Ödets Nyck</font> höjs nivån på stridsreserver ett steg när du köper den, och ger dessutom möjlighet att höja den till nivå <font color='#E9E2BF'>IV</font>."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "En stridsreserv på den här platsen ökar chansen att den erbjuds i strid under scenariot <font color='#E9E2BF'>Ödets Nyck</font> med <font color='#E9E2BF'>10%</font>."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "Att låsa upp och förbättra reserver i strid"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "Stridsreserver låses upp under striden baserat på vilken vagnstyp du har och vilken grad du uppnått."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "Reservuppsättningar för pansarvärnskanonvagnar"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "Reservuppsättningar för artilleri"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "Reservuppsättningar för tunga stridsvagnar"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "Reservuppsättningar för lätta stridsvagnar"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "Reservuppsättningar för medeltunga stridsvagnar"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "när du uppnår en ny grad efter att alla stridsreserver låsts upp kommer dessa reserver förbättras. Den först upplåsta stridsreserven kan uppgraderas till nivå III och den andra upplåsta stridsreserven kan uppgraderas till nivå II."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "Förbättra: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "Platsen låses upp när du når graden %(rank)s."
+
+msgid "tooltips/timeToEnd"
+msgstr "Striderna tillgängliga: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "Striderna börjar om: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "Evenemanget är över"
+
+msgid "tooltips/widget/level"
+msgstr "Klass %(level)s"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "Högsta klass uppnådd."
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "STRIDSRESERVER"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Vapenvila råder på alla servrar. Strider åter tillgängliga om %(time)s"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "Striderna börjar inom kort"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Välj en annan server"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "Information"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "Frontstriderna har avslutats."
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "Frontscenarion"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Vapenvila råder på denna server. Strider åter tillgängliga om %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Vapenvila råder på %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "Striderna börjar om: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "Klicka för mer information om frontscenarion\noch skillnaden mellan dem."
+
+msgid "zone/arrived_text"
+msgstr "Tillgänglig!"
+
+msgid "zone/capture_text"
+msgstr "Erövra"
+
+msgid "zone/captured_text"
+msgstr "Erövrad"
+
+msgid "zone/defend_text"
+msgstr "Försvara"
+
+msgid "zone/destroy_text"
+msgstr "Förstör"
+
+msgid "zone/destroyed_text"
+msgstr "Förstörd"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "Fientliga förstärkningar"
+
+msgid "zone/headquarters_text"
+msgstr "Mål"
+
+msgid "zone/leave_zone"
+msgstr "Lämna zonen!"
+
+msgid "zone/lost_text"
+msgstr "Förlorad"
+
+msgid "zone/reached_text"
+msgstr "Nådd"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "Fientliga förstärkningar:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "Förstärkningar:"
+
+msgid "zone/reinforcements_text"
+msgstr "Förstärkningar"
+
+msgid "zone/time_added"
+msgstr "Minuter tillagda: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "%(minutes)s minuter återstår"
+
+msgid "zone/zone_text"
+msgstr "Zon"

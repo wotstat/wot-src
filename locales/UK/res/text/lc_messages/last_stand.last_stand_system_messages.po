@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Тактичний пристрій"
+
+msgid "open_artefact/server_error"
+msgstr "Операція тимчасово недоступна. Спробуйте пізніше."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Не вдалося поповнити тактичні пристрої для %s. Стався технічний збій."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Не вдалося поповнити тактичні пристрої для %s. Недостатньо коштів."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Тактичні пристрої для %s поповнено. Витрачено "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Записи, доступні для дешифрування"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Режим «Останній рубіж: Терра Норд»"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Останній рубіж: Терра Норд (звичайний)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Останній рубіж: Терра Норд (просунутий)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Останній рубіж: Терра Норд (лютий)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Складність"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Звичайна"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Просунута"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Люта"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Дані"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Ціль виконано!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Цілі виконані!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Машина"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Пройдено хвиль: %(curPhase)s з %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Витрачено %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Фінансова операція"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Рівень складності можна вибрати на панелі складності в Гаражі події «Останній рубіж»."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Просунута складність розблокована"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Рівень складності можна вибрати на панелі складності в Гаражі події «Останній рубіж»."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Люта складність розблокована"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Режим можна вибрати на панелі складності в Гаражі події «Останній рубіж: операція \"Пандора\"»."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Режим «Останній рубіж» розблоковано"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Отримано ключів дешифрування: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Квитанція"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Списано ключів: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Дешифрування успішне"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Бої події «Останній рубіж» тимчасово недоступні.\nСпробуйте пізніше."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Бої на складності «%(difficulty)s» тимчасово недоступні. Спробуйте пізніше."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Подія «Останній рубіж» наразі недоступна. Слідкуйте за новинами на порталі гри."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Командир взводу змінив рівень складності на: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "Гравець %(userName)s ще не відкрив один із рівнів складності."

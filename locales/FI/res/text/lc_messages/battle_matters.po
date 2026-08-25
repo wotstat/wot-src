@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Piirustus"
+
+msgid "animations/crew_close"
+msgstr "SULJE"
+
+msgid "animations/shop"
+msgstr "Mene ostamaan"
+
+msgid "battleMattersTab"
+msgstr "Panssarivaunuakatemia"
+
+msgid "battleResults/descr"
+msgstr "Panssarivaunuakatemia: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Panssarivaunuakatemian tehtäviin"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Edistyminen tässä taistelussa"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Peruuta"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "SULJE"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Vahvista"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Saat {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} vaunun miehistön ja tallipaikan kera."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Vaihda akatemiapolettisi %(vehicleName)s vaunuun?"
+
+msgid "entryPoint/hint"
+msgstr "SARJA\nKOULUTUSTEHTÄVIÄ"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Tehtäviä suoritettu: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Panssarivaunuakatemia"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Palkinto suorittamisesta:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Tehtävät eivät juuri nyt ole saatavilla teknisten ongelmien vuoksi. Edistymisesi suoritetuissa tehtävissä tallennetaan."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Kaikki tehtävät suoritettu"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Tehtävät eivät ole väliaikaisesti saatavilla"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Ehdot:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Vaihda poletti mihin hyvänsä tutkittavissa olevaan tason VI vaunuun."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "TAKAISIN"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "PANSSARIVAUNUAKATEMIAN TEHTÄVIIN"
+
+msgid "mainRewardsScreen/done"
+msgstr "Tallissa"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Esikatselu"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Vuokrapäiviä: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Suorita sarja koulutustehtäviä saadaksesi pääpalkintona kolme tason VIII premium-vaunua vuokralle {cream_Open}14 päivän{cream_Close} ajaksi."
+
+msgid "mainRewardsScreen/title"
+msgstr "PANSSARIVAUNUAKATEMIA"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Valitse"
+
+msgid "mainScreen/infoButton"
+msgstr "OPAS UUSILLE TULOKKAILLE"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "OPAS"
+
+msgid "mainScreen/list/arrow"
+msgstr "Klikkaa mennäksesi nykyiseen tehtävään."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Pääpalkinto saatu"
+
+msgid "mainScreen/progress"
+msgstr "Tehtäviä suoritettu: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Kuinka suoritetaan"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Suorita edeltävä tehtävä"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Ei saatavilla"
+
+msgid "mainScreen/showMainReward"
+msgstr "Näytä pääpalkinto"
+
+msgid "mainScreen/target"
+msgstr "Suorita kaikki tehtävät ja saat kolme tason VIII vaunua vuokralle."
+
+msgid "mainScreen/title"
+msgstr "PANSSARIVAUNUAKATEMIA"
+
+msgid "pausedScreen/buttonText"
+msgstr "Talliin"
+
+msgid "pausedScreen/description"
+msgstr "Panssarivaunuakatemia ei ole väliaikaisesti saatavilla teknisistä syistä. Kaikki edistyminen tallennetaan. Pyydämme anteeksi aiheutuvaa harmia."
+
+msgid "pausedScreen/title"
+msgstr "Väliakaisesti pois käytöstä"
+
+msgid "rewards/additionalTitle"
+msgstr "Sait myös:"
+
+msgid "rewards/footer/confirm"
+msgstr "Selvä!"
+
+msgid "rewards/footer/more"
+msgstr "Lisää: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Seuraavaan tehtävään"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Näytä tallissa"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Tehtävän ehdot on täytetty aiemmin"
+
+msgid "rewards/rent"
+msgstr "Vuokrapäiviä: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "VIIMEINEN TEHTÄVÄ SUORITETTU"
+
+msgid "rewards/subTitle/regular"
+msgstr "TEHTÄVÄ %(questNumber)s SUORITETTU"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "VAUNU SAATU AKATEMIAPOLETILLA"
+
+msgid "rewards/title"
+msgstr "PANSSARIVAUNUAKATEMIA"
+
+msgid "rewards/token/action"
+msgstr "Valitse vaunu"
+
+msgid "rewards/token/description"
+msgstr "Käytä poletti saadaksesi välittömästi mikä hyvänsä tason VI vaunu."
+
+msgid "rewards/token/title"
+msgstr "Vaihda akatemiapoletti vaunuun"
+
+msgid "tokenTooltip/condition"
+msgstr "Poletteja saa harjoitustehtävien sarjan onnistuneesta suorittamisesta ja Panssarivaunuakatemiassa etenemisestä."
+
+msgid "tokenTooltip/description"
+msgstr "Poletteja voi vaihtaa mihin hyvänsä tutkittavissa oleviin tason VI vaunuihin. Vaunun saa miehistön ja tallipaikan kera."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Poletti saatavilla: {cream_open}%(days)s p{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Poletti saatavilla {cream_open}%(fullDate)s{cream_close} asti"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Poletti saatavilla: {cream_open}%(hours)s t{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Poletti saatavilla: {cream_open}%(minutes)s min{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Akatemiapoletti"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Saat vaunusi lisäksi {cream_Open}%(crewIcon)s miehistön{cream_Close} ja {cream_Open}%(hangarIcon)stallipaikan{cream_Close}{cream_Open}{cream_Close}."
+
+msgid "vehicleSelection/back"
+msgstr "TAKAISIN"
+
+msgid "vehicleSelection/backTo"
+msgstr "PANSSARIVAUNUAKATEMIAN TEHTÄVIIN"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Lisää vertailuun"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Muuta, miten vaunut näytetään niiden tyypin ja kansakunnan perusteella."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Suodata param. mukaan"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Klikkaa palauttaaksesi suodattimet oletusasetuksiin."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Aseta oletukseksi"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Kansakunta"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Suodata param. mukaan"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Vaunutyyppi"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Mitään ei löytynyt. Vaihda suodattimen asetuksia tai palauta ne oletusasetuksiin."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Alusta suodin"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Sinulla on kaikki tutkittavissa olevat tason VI vaunut, joita voi saada akatemiapoletilla."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Vaunua ei valittu"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Etsi nimen perusteella"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "Vaunun nimi ei voi sisältää enempää kuin %(maxLength)s merkkiä."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Etsi nimen perusteella"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Näytetään:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Vaihda poletti mihin hyvänsä tutkittavissa oleviin tason VI vaunuun. Vaunun saa\nmiehistön ja tallipaikan kera."
+
+msgid "vehicleSelection/title"
+msgstr "Valitse mikä hyvänsä tutkittavissa oleva tason VI vaunu"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "PST-vaunu"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "Telatykki"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Raskas vaunu"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Kevyt vaunu"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Keskiraskas vaunu"

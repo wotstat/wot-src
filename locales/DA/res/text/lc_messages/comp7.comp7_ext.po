@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Kampe på servere tilgængelige om %(primeDelta)s"
+
+msgid "alertMessage/allNotSet"
+msgstr "Denne kamptype er utilgængelig på alle servere"
+
+msgid "alertMessage/ban"
+msgstr "Du er midlertidigt blokeret fra denne kamptype. Tid tilbage: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Skift server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detaljer"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Denne kamptype er utilgængelig på din nuværende server %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Denne kamptype er utilgængelig på alle servere."
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "Du skal have mindst %(count)s passende køretøjer til kamptypen. Se Om Onslaught-siden for flere detaljer."
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "Ikke nok passende køretøjer"
+
+msgid "alertMessage/modeOffline"
+msgstr "Databasefejl. Kamptype utilgængelig."
+
+msgid "alertMessage/noVehicles"
+msgstr "Ingen passende niveau %(levels)s køretøjer i garagen %(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "Kampe er utilgængelige på %(serverName)s serveren"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Kampe er utilgængelige på %(serverName)s serveren"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "Ikke nok passende køretøjer %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "Denne kamptype er utilgængelig på %(serverName)s serveren"
+
+msgid "alertMessage/preannounce/first"
+msgstr "Den azurblå drages sæson starter: %(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "Den røde drages sæson starter: %(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "Den jadegrønne drages sæson starter: %(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "Venter på resultatet fra kvalifikationen for at modtage din rang"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "Den azurblå drages sæson er slut"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "Den røde drages sæson er slut"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "Den jadegrønne drages sæson er slut"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Kampe på denne server tilgængelige om %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Denne kamptype er utilgængelig på %(serverName)s serveren"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Ingen passende niveau %(levels)s køretøjer i garagen"
+
+msgid "awardsWidget/description/award"
+msgstr "Klik for at vælge og modtage dine belønninger."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Endelige belønninger er midlertidigt utilgængelige. Vi beklager ulejligheden."
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "MODTAG\nBELØNNING"
+msgstr[1] "MODTAG\nBELØNNINGER"
+msgstr[2] "MODTAG\nBELØNNINGER"
+
+msgid "banView/actionButtons/confirm"
+msgstr "Stem"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "Du har allerede stemt på %(vehicleName)s"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "Bandlys ikke"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "Foreslå at køretøj at bandlyse"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "Du kan kun stemme\nunder stadiet for bandlysning"
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "Du foreslår:\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "Nogen på dit hold\nhar valgt det køretøj du vil bandlyse"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "Vent til stadiet for bandlysning slutter"
+
+msgid "banView/button/back"
+msgstr "TILBAGE"
+
+msgid "banView/button/ban"
+msgstr "Til valg af bandlysning"
+
+msgid "banView/button/description"
+msgstr "TIL KØRETØJSVALG"
+
+msgid "banView/description/prepick"
+msgstr "Vælg det mest passende køretøj til dette kort og dit holds sammensætning"
+
+msgid "banView/description/voting"
+msgstr "Vælg et køretøj du vil udelukke fra denne kamp"
+
+msgid "banView/factory/candidate"
+msgstr "Bandlysningskandidat: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "Bandlysningskandidater"
+
+msgid "banView/factory/noCandidates"
+msgstr "Ingen bandlysningskandidat"
+
+msgid "banView/factory/pick"
+msgstr "Din kandidat: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "Bandlys ikke"
+
+msgid "banView/title/prepick"
+msgstr "Stadie for forudvalg af køretøj"
+
+msgid "banView/title/voting"
+msgstr "Bandlys afstemningsstadie"
+
+msgid "banView/tooltip/confirmed"
+msgstr "Stemme bekræftet"
+
+msgid "banView/tooltip/noAction"
+msgstr "Ingen handling gennemført"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "Denne spiller har endnu ikke foreslået et køretøj at bandlyse"
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "Foreslået"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "Kampvognsjægere"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "Tunge kampvogne"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "Lette kampvogne"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "Medium kampvogne"
+
+msgid "banView/withoutBan"
+msgstr "Bandlys ikke"
+
+msgid "banWidget/allies"
+msgstr "Allierede stemmer"
+
+msgid "banWidget/enemies"
+msgstr "Fjendtlige stemmer"
+
+msgid "banWidget/tooltip"
+msgstr "Holdet blev ikke enige om et køretøj at bandlyse, så et tilfældigt køretøj af dem med flest stemmer blev bandlyst."
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "Konfigurer køretøjsvisningen efter type, rolle og nation."
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "Filtrer efter parametre"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "Kun køretøjer, der kan bruges i kamptypen, vises her."
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "Ingen køretøjer matcher de valgte parametre"
+
+msgid "battleMessages/enableVOIP"
+msgstr "Hold samlet. Vælg dit køretøj og lad os kæmpe!\nGå med i voice chat (%(keyName)s)"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "Hold samlet. Vælg dit køretøj og lad os kæmpe!\nTildel en hotkey for hurtigt at gå med i voice chat."
+
+msgid "battleMessages/withoutVOIP"
+msgstr "Hold samlet. Vælg dit køretøj og lad os kæmpe!\nFor at gå med i voice chat, aktiver funktionen i dine spilindstillinger."
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "Detaljer om kamptype (F1)"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "Køretøjs synsrækkevidde forøget"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "Mandskabs karakteristika forbedret"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "Gendanner hp"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "Gendanner hp"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "Mandskabs karakteristika forbedret"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "Mandskabs karakteristika forbedret"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "Kanonens ladetid forøget"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "Køretøjs karakteristika forbedret"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "Gendanner hp"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "Køretøjs karakteristika forbedret"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "Køretøjs karakteristika forbedret"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "Mobilitet forbedret"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "Gendanner hp"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "Kanonens spredning reduceret"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "Køretøjs karakteristika forbedret"
+
+msgid "battleResult/header/deserter"
+msgstr "Du har modtaget en straf til rangeringspoint"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "Du er blevet straffet. Efter fuldførelse af kvalifikationen vil din rangering blive reduceret."
+
+msgid "battleResult/label/deserter"
+msgstr "Desertering"
+
+msgid "battleResult/message/deserter"
+msgstr "Du er blevet straffet.\nRangeringspoint mistet: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "Du er deserteret fra slagmarken.\nEfter fuldførelse af kvalifikationen vil din rangering blive reduceret."
+
+msgid "battleResult/message/header/deserter"
+msgstr "Usportslig opførsel"
+
+msgid "battleResult/personal/label"
+msgstr "Rangeringspoint"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "Viser en spillers nuværende fremskridt i rangsystemet. Rangeringspoint kan optjenes eller tabes, alt efter din succes i kamptypen."
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• Nederlag/uafgjorte kampe i kamptypen\n• Modtagelse af en straf\n• Rang-inaktivitet."
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "Rangeringspoint fjernes for:"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "Rangeringspoint"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "Kvalifikationskamp"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s — %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "Kvalifikation"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "Rangeringspoint modtaget. For at forsvare din legende-rang, bliv i top %(topPercentage)d%% af spillerne på ranglisten."
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "Rangeringspoint modtaget. For at opnå legende-rang, vær i top %(topPercentage)d%% af spillerne på ranglisten."
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "Rangeringspoint modtaget"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "Rangeringspoint tabt. For at forsvare din legende-rang, bliv i top %(topPercentage)d%% af spillerne på ranglisten."
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "Rangeringspoint tabt. For at opnå legende-rang, vær i top %(topPercentage)d%% af spillerne på ranglisten."
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "Rangeringspoint tabt"
+
+msgid "battleResult/subTask/rating"
+msgstr "Rangeringspoint: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "Du er blevet degraderet til %(division)s. %(rank)s"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "%(rank)s. %(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "Du er blevet forfremmet til %(division)s. %(rank)s!"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "Kampe (dag): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "Inkluderer:"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "Kampe (sæson): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "Solo/deling: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "Super-deling: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "Den azurblå drages sæson vil vare i %(days)d dag"
+msgstr[1] "Den azurblå drages sæson vil vare i %(days)d dage"
+msgstr[2] "Den azurblå drages sæson vil vare i %(days)d dage"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "Den røde drages sæson vil vare i %(days)d dag"
+msgstr[1] "Den røde drages sæson vil vare i %(days)d dage"
+msgstr[2] "Den røde drages sæson vil vare i %(days)d dage"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "Den jadegrønne drages sæson vil vare i %(days)d dag"
+msgstr[1] "Den jadegrønne drages sæson vil vare i %(days)d dage"
+msgstr[2] "Den jadegrønne drages sæson vil vare i %(days)d dage"
+
+msgid "calendarDay/title"
+msgstr "Tidsplan"
+
+msgid "carousel/banned"
+msgstr "Bandlyst"
+
+msgid "claimRewards/button"
+msgstr "Modtag belønning"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "Denne handling er midlertidigt utilgængelig af tekniske årsager. Vi arbejder på at løse problemet."
+
+msgid "closeButtonLabel"
+msgstr "LUK"
+
+msgid "controls/compare"
+msgstr "Tilføj til sammenligning"
+
+msgid "controls/preview"
+msgstr "Preview"
+
+msgid "countDown/text"
+msgstr "Event starter om:\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1 min"
+
+msgid "crewMembersTooltip/description"
+msgstr "Dette særlige mandskab består af folk fra hele verden, forenet under lederskabet af deres kommandør. Alle har våbenbrødre som nulsums-evne og nok mandskabs xp til at træne yderligere to evner, så de kan forbedre køretøjets ydeevne — samt markere deres egen personlige præstation på slagmarken."
+
+msgid "crewMembersTooltip/perks"
+msgstr "Evner"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "Onslaught. Dragens år"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "Nulsums-evner"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "Gennemsnitlig skade (dag): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "Ratio af samlet skade uddelt i forhold til antal kampe."
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "Gennemsnitlig skade (sæson): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "Daglig skaderekord: %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "Maksimal skade uddelt i kamp i %(vehicleName)s"
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "Sæson-skaderekord: %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "—"
+
+msgid "dataError/description"
+msgstr "Vi beklager den midlertidige ulejlighed. Prøv venligst at opdatere siden senere."
+
+msgid "dataError/title"
+msgstr "Fejl i indlæsning af data"
+
+msgid "dayTooltip/day"
+msgstr "Dag %(index)s"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "Dag %(index)s: Ingen kampe."
+
+msgid "dayTooltip/noBattles"
+msgstr "Si vis pacem, para bellum"
+
+msgid "dayTooltip/rankInactivity"
+msgstr "Rang-inaktivitet: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)s rangeringspoint"
+msgstr[1] "%(pointsCount)s rangeringspoint"
+msgstr[2] "%(pointsCount)s rangeringspoint"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "Ændring i rangeringspoint: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "Dag %(index)s (i dag)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "Dag %(index)s: Ingen kampe i dag."
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "Division"
+
+msgid "division/text"
+msgstr "Division %(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "Denne division er for spillere med {eeede9e6_Open}%(fromScore)&nbsp;til&nbsp;%(toScore){eeede9e6_Close}&nbsp;rangeringspoint."
+
+msgid "divisionTooltip/heading"
+msgstr "Division %(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "Rangeringspoint"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "Kampe deltaget i"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)sResultater på vej..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)sResultater på vej"
+
+msgid "entryPointTooltip/description"
+msgstr "Konkurrencetype med 7v7-kampe i niveau %(levels)s køretøjer. Stig i graderne for at optjene unikke tilpasningselementer, køretøjer, obligationer og andre værdifulde belønninger."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "TYPE"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — Kamptype. Klik for at udforske"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Tilgængelig i%(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Våbenhvile%(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "Vil være tilgængelig:\n%(timer)s"
+
+msgid "featureName"
+msgstr "Onslaught"
+
+msgid "featureNameCapitalized"
+msgstr "ONSLAUGHT"
+
+msgid "fifthRankTooltip/description"
+msgstr "{eeede9e6_Open}Mester{eeede9e6_Close}-rangen tildeles spillere, som har optjent mindst {eeede9e6_Open}%(fromScore){eeede9e6_Close} rangeringspoint."
+
+msgid "forVehicle"
+msgstr "For: %(vehicleName)s"
+
+msgid "generalRankTooltip/body/first"
+msgstr "{eeede9e6_Open}Jern{eeede9e6_Close}-rangen tildeles spillere, som har optjent {eeede9e6_Open}%(fromScore) til %(toScore){eeede9e6_Close} rangeringspoint."
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "{eeede9e6_Open}Guld{eeede9e6_Close}-rangen tildeles spillere, som har optjent {eeede9e6_Open}%(fromScore) til %(toScore){eeede9e6_Close} rangeringspoint."
+
+msgid "generalRankTooltip/body/second"
+msgstr "{eeede9e6_Open}Bronze{eeede9e6_Close}-rangen tildeles spillere, som har optjent {eeede9e6_Open}%(fromScore) til %(toScore){eeede9e6_Close} rangeringspoint."
+
+msgid "generalRankTooltip/body/third"
+msgstr "{eeede9e6_Open}Sølv{eeede9e6_Close}-rangen tildeles spillere, som har optjent {eeede9e6_Open}%(fromScore) til %(toScore){eeede9e6_Close} rangeringspoint."
+
+msgid "generalRankTooltip/subheading"
+msgstr "Inkluderer divisioner: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "OM EVENTET"
+
+msgid "intro/confirmButton"
+msgstr "Bekræftet!"
+
+msgid "intro/description/banPhase"
+msgstr "Hvert hold kan fuldstændigt bandlyse et køretøj fra en kamp. Koordiner stemmer med allierede for at ekskludere den maskine I frygter mest, eller for at gøre en uventet opstilling klar for jeres fjender. Hvis dit køretøj bandlyses, kan du i stedet vælge fra flere prækonfigurerede lejekøretøjer i stedet."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Kamptypen har modifikationer, der ændrer visse parametre på køretøjet, som dets hp, cooldown på forbrugsvarer, tid det forbliver opdaget og mere."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Når du erobrer visse områder af kortet, kan du benytte taktiske evner. Der er to typer af vigtige positioner: Artillerihovedkvarteret vil give dig mulighed for at beordre artilleribeskydning på en bestemt position, og kommunikationscentret vil opdage alle fjendtlige køretøjer. Afhængig af kortet, kan forekomsten og placeringen af disse vigtige positioner ændre sig."
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "Deltag i %(count)s kvalifikationskamp for at afgøre dit niveau og rang. Ved fuldførelse vil du modtage belønninger for den rang du opnåede og alle forrige range.\n\nDesertering eller et uafgjort resultat i kvalifikationen vil blive betragtet som et nederlag."
+msgstr[1] "Deltag i %(count)s kvalifikationskampe for at afgøre dit niveau og rang. Ved fuldførelse vil du modtage belønninger for den rang du opnåede og alle forrige range.\n\nDesertering eller et uafgjort resultat i kvalifikationen vil blive betragtet som et nederlag."
+msgstr[2] "Deltag i %(count)s kvalifikationskampe for at afgøre dit niveau og rang. Ved fuldførelse vil du modtage belønninger for den rang du opnåede og alle forrige range.\n\nDesertering eller et uafgjort resultat i kvalifikationen vil blive betragtet som et nederlag."
+
+msgid "intro/description/ranks"
+msgstr "Et system, der viser spillerens evner. Gør fremskridt i graderne fra jern til legende, og optjen værdifulde præmier. Deltag i kampe i Dragens år for at modtage unikke årlige belønninger."
+
+msgid "intro/description/roleSkills"
+msgstr "Afhængig af rollen har hvert køretøj en særlig evne med tre ladningsniveauer. Jo højere ladningsniveau, når evnen aktiveres, jo stærkere vil effekten være. Ladningsniveauet vil afhænge af antallet af prestigepoint, som kan optjenes ved imponerende præstationer i kamp; erobring af vigtige positioner, brug af taktiske evner etc.\n\nLæs kamptype-reglerne for at lære mere om de forskellige måder du kan optjene prestigepoint på."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Du kan gå i kamp i niveau %(levels)s køretøjer fra teknologitræet (undtagen SPG'er), eller i samlerkøretøjer og visse særlige køretøjer. Klargør dine køretøjer i garagen, og vælg derefter det bedst egnede baseret på det givne kort, når du er i kamp. Når du vælger køretøj, kan du også tage i betragtning, hvad dine allierede har valgt."
+
+msgid "intro/title/banPhase"
+msgstr "KØRETØJSBANDLYSNINGER"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "ONSLAUGHT-MODIFIKATIONER"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "VIGTIGE POSITIONER"
+
+msgid "intro/title/qualification"
+msgstr "KVALIFIKATION"
+
+msgid "intro/title/ranks"
+msgstr "RANGERET SYSTEM"
+
+msgid "intro/title/roleSkills"
+msgstr "ROLLE-EVNER"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "VÆLG ET KØRETØJ TIL ET SPECIFIKT KORT"
+
+msgid "lastUpdateNote/info"
+msgstr "Opdateret: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "Rangeringspointene hos den nederste spiller i legende-rangen\nopdateres hver %(count)s min."
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "Opdaterer data..."
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "Ranglisten opdateres hver %(count)s minutter."
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "Sidst opdateret: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "Min placering"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "Opnå mester- eller legende-rangen for at indtræde på ranglisten."
+
+msgid "leaderboard/error/buttonText"
+msgstr "Opdater"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "Spillere på mester- og legende-rangen vil blive vist på ranglisten. Optjen {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close} rangeringspoint og nå toppen af ranglisten!"
+
+msgid "leaderboard/noRecords/title"
+msgstr "Der er ingen spillere på ranglisten i nuværende sæson"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "Kampe"
+
+msgid "leaderboard/table/header/order"
+msgstr "#"
+
+msgid "leaderboard/table/header/player"
+msgstr "Spillernavn"
+
+msgid "leaderboard/table/header/score"
+msgstr "Rangeringspoint"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "Antal kampe spilleren har deltaget i i Onslaught-kamptypen i nuværende sæson."
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "Kampe"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "Spillerens placering i rangeringen."
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "Placering"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "Navnet på spilleren, der har en placering i rangeringen."
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "Spillernavn"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "Antal rangeringspoint optjent i nuværende sæson."
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "Rangeringspoint"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Spillere i delingen"
+
+msgid "noVehicles/howTo/premium"
+msgstr "Brug WoT premium konto"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktiver personlige reserver"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Fuldfør missioner"
+
+msgid "noVehicles/howTo/title"
+msgstr "Hvad er den hurtigste måde at nå niveau %(levels)s køretøjer?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "For at deltage i Onslaught, skal du have mindst ét niveau %(levels)s køretøj i garagen, der passer til kamptypen.\nDu har et udforsket niveau %(levels)s køretøj, som du ikke har stående i garagen."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "For at deltage i Onslaught, skal du have mindst ét niveau %(levels)s køretøj i garagen, der passer til kamptypen.\nDu har et niveau %(levels)s køretøj tilgængelig til genopretning."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "For at deltage i Onslaught, skal du have mindst ét niveau %(levels)s køretøj i garagen, der passer til kamptypen."
+
+msgid "noVehicles/title"
+msgstr "Ingen passende køretøjer i din garage"
+
+msgid "page/heading/leaderboard"
+msgstr "RANGLISTE"
+
+msgid "page/heading/progression"
+msgstr "RANGERET SYSTEM"
+
+msgid "page/heading/qualification"
+msgstr "KVALIFIKATION"
+
+msgid "page/heading/rankRewards"
+msgstr "BELØNNINGER FOR RANGE"
+
+msgid "page/heading/shop"
+msgstr "ONSLAUGHT-BUTIK"
+
+msgid "page/heading/weeklyQuests"
+msgstr "UGENTLIGE MISSIONER"
+
+msgid "page/heading/yearlyRewards"
+msgstr "ÅRLIGE BELØNNINGER"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "ÅRLIG STATISTIK"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "Frem"
+
+msgid "pagination/prev"
+msgstr "Tilbage"
+
+msgid "pbs/bans/title"
+msgstr "BANDLYSTE KØRETØJER"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "ONSLAUGHT 2D-STIL"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "MISSION FOR 2D-STIL FULDFØRT!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "UGENTLIG MISSION #%(count)s FULDFØRT!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "UGENTLIG MISSION FULDFØRT!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "UGENTLIG ONSLAUGHT"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "NEDERLAG, FORDI DU"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "UAFGJORT, FORDI DU"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "SEJR, MEN DU"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "Forfremmet til %(rank)s"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "Degraderet til %(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "Forfremmet til %(rank)s, %(division)s"
+
+msgid "pbs/overview/qualification/description"
+msgstr "Kampe deltaget i"
+
+msgid "pbs/overview/qualification/title"
+msgstr "Kvalifikation"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "Du har modtaget en disciplinær straf: Straf til rangeringspoint"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "Du har modtaget en disciplinærstraf: Efter fuldførelsen af kvalifikationen vil din rangering blive reduceret."
+
+msgid "pbs/rankDescription/fifth"
+msgstr "For at nå legende-rangen, skal du være i {ede6d9e5_Open}top %(topPercentage)%{ede6d9e5_Close} af spillerne på ranglisten."
+
+msgid "pbs/rankDescription/sixth"
+msgstr "For at blive på legende-rangen, skal du være i {ede6d9e5_Open}top %(topPercentage)%{ede6d9e5_Close} af spillerne på ranglisten."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Se Om Onslaught-siden for detaljer."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Prestigepoint"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Uddeling af skade\nObserveringsassistance\nØdelæggelse af bælter\nUddeling af kritiske træffere\nØdelæggelse af fjendtlige køretøjer\nOg mere"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Denne særlige ressource påvirker antallet af rangeringspoint optjent og tabt i kamp. Prestigepoint kan optjenes ved at udføre kamphandlinger, herunder:"
+
+msgid "percentage"
+msgstr "%(percentageValue)s%"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "Gennemsnitlige prestigepoint (dag): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "Ratio af samlet antal optjente prestigepoint i forhold til antal kampe."
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "Gennemsnitlige prestigepoint (sæson): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "Daglig rekord i prestigepoint: %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "Maksimalt antal optjente prestigepoint i kamp i %(vehicleName)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "Sæsonrekord i prestigepoint: %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Den azurblå drages sæson er slut på %(server)s-serveren."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Den røde drages sæson er slut på %(server)s-serveren."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Den jadegrønne drages sæson er slut på %(server)s-serveren."
+
+msgid "products/actions/buy"
+msgstr "Køb"
+
+msgid "products/actions/restore"
+msgstr "Til depot"
+
+msgid "products/actions/toCustomization"
+msgstr "Til stil"
+
+msgid "products/actions/toHangar"
+msgstr "Vis i garagen"
+
+msgid "products/customizationUnavailable/body"
+msgstr "Kan ikke gå til stil. Det kan skyldes at du ikke ejer dette køretøj, køretøjet er i en kampenhed, køretøjet er i kamp eller kræver reparation."
+
+msgid "products/customizationUnavailable/title"
+msgstr "Utilgængelig"
+
+msgid "products/discount"
+msgstr "-%(discountPercentage)s%"
+
+msgid "products/discountDescription"
+msgstr "Indtil starten af næste sæson vil du have adgang til ting og en rabat, alt efter din {eeede9e6_Open}højest{eeede9e6_Close} {eeede9e6_Open}opnåede{eeede9e6_Close} {eeede9e6_Open}rang{eeede9e6_Close}."
+
+msgid "products/discountSectionName"
+msgstr "ADGANGSBETINGELSER OG RABATTER"
+
+msgid "products/inProgress"
+msgstr "Vent venligst, dit køb er under behandling..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "Tilgængelig for køb per sæson: %(count)s"
+
+msgid "products/message/notEnough"
+msgstr "Utilstrækkelige midler til køb."
+
+msgid "products/message/rankAccess"
+msgstr "Købsbetingelse\n%(rank)s"
+
+msgid "products/newLabel"
+msgstr "NY"
+
+msgid "products/priceSectionName"
+msgstr "PRIS"
+
+msgid "products/productAccess"
+msgstr "Adgangs-\nrang"
+
+msgid "products/purchased"
+msgstr "Købt"
+
+msgid "products/rankAccess"
+msgstr "Adgangsrang %(rank)s"
+
+msgid "products/readyToRestore"
+msgstr "Genopretning tilgængelig"
+
+msgid "products/readyToRestoreDescription"
+msgstr "Tilgængelig til genopretning i depotet"
+
+msgid "products/style3d"
+msgstr "%(name)s 3D-stil"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "TILBAGE TIL SÆSONSTATISTIK"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "SÆSONSTATISTIK"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "STATISTIK FOR DAG %(day)s"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "STATISTIK FOR I DAG"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "Hver kolonne viser data for perioden mellem prime time på den valgte dag og prime time på den følgende dag. I visse tilfælde kan den inkludere kampe fra to kalenderdage."
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "Hver kolonne viser data for perioden mellem prime time på den valgte dag og prime time på den følgende dag. I visse tilfælde kan den inkludere kampe fra to kalenderdage."
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "Denne sektion opdateres kun, når ny data er tilgængelig. Du kan anmode om en opdatering ved at klikke på genopfrisk-knappen."
+
+msgid "progressionPage/chartHeader/update"
+msgstr "Opdateret: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "Tillykke!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "Du har fuldført alle 2D-stil-missioner."
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s / %(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "En serie missioner, der vil åbne op for nye elementer til den nuværende sæsons progressive 2D-stil."
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "2D-STIL-MISSION: %(taskNumber)s"
+msgstr[1] "2D-STIL-MISSIONER: %(taskNumber)s"
+msgstr[2] "2D-STIL-MISSIONER: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "2D-STIL-MISSIONER"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "Til stil"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "Alle stile, der i øjeblikket er påført utilgængelige køretøjer"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "Ingen tilgængelige køretøjer stilen kan påføres"
+
+msgid "progressionPage/error/refresh"
+msgstr "Genindlæs"
+
+msgid "progressionPage/error/refreshing"
+msgstr "Genindlæser..."
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "Gennemsnitlig skade"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "Gns. prestigepoint"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "Ændring i rangering %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "Rekord sat på %(seasonRecordDescriptionDay)s"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "dag %(day)s"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "Til al statistik"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "Inkluderer:\n • Skade efter din opdagelse (inklusive skade ved hjælp af evner)\n • Skade efter du har ødelagt et bælte og immobiliseret et fjendtligt køretøj (inklusive skade ved hjælp af evner)\n • Skade uddelt af allierede ved hjælp af dine evner\n • Skade uddelt af allierede til en fortumlet fjende (inklusive fortumlinger påført ved hjælp af dine evner)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "Samlet antal kampe"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "Ratio af samlet skade uddelt og antal kampe"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "Rationen af fjendtlige køretøjer ødelagt i forhold til antallet af gange spillerens køretøj blev ødelagt"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "Ratio af 'skade uddelt' i forhold til 'modtaget skade'"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "Ratio af samlet antal optjente prestigepoint i forhold til antal kampe"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "Køretøjer med flest antal kampe"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "Samlet sejrsrate"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "Gennemsnitlig skade med din assistance"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "Kampe"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "Gennemsnitlig skade uddelt"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "Destruktionsratio"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "Skadesratio"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "Gennemsnitligt antal prestigepoint per kamp"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "Køretøjsnavn"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "Sejre"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "KØRETØJSSTATISTIK"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s-%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "Dage indtil rangeringens nedjustering: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "Ikke at kæmpe i Onslaught-kamptypen vil koste dig {eeede9e6_Open}%(count)s{eeede9e6_Close} rangeringspoint."
+msgstr[1] "Ikke at kæmpe i Onslaught-kamptypen vil koste dig {eeede9e6_Open}%(count)s{eeede9e6_Close} rangeringspoint."
+msgstr[2] "Ikke at kæmpe i Onslaught-kamptypen vil koste dig {eeede9e6_Open}%(count)s{eeede9e6_Close} rangeringspoint."
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(1&nbsp;kamp&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktivitetspoint)"
+msgstr[1] "(1&nbsp;kamp&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktivitetspoint)"
+msgstr[2] "(1&nbsp;kamp&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;aktivitetspoint)"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "Du vil ikke miste rangeringspoint ved ikke at deltage i kamptypen på din nuværende rang, men det vil du måske, hvis du når følgende rang: %(rankList)s"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "Din rang påvirkes af inaktivitet"
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "Din rang påvirkes ikke af inaktivitet"
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "Rang"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "Top %(topPercentage)s% af spillerne på ranglisten"
+
+msgid "progressionTooltip/division"
+msgstr "Division %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "Denne division er for spillere med {eeede9e6_Open}%(fromScore) til %(toScore){eeede9e6_Close} rangeringspoint."
+
+msgid "progressionTooltip/info/fifth"
+msgstr "Mester-rangen tildeles spillere, som optjente mindst {eeede9e6_Open}%(fromScore){eeede9e6_Close} rangeringspoint."
+
+msgid "progressionTooltip/info/sixth"
+msgstr "Legende-rangen tildeles {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} af spillerne på ranglisten."
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "Deltag i %(maxBattlesCount)s kamp i kamptypen for at afgøre dit niveau og rang."
+msgstr[1] "Deltag i %(maxBattlesCount)s kampe i kamptypen for at afgøre dit niveau og rang."
+msgstr[2] "Deltag i %(maxBattlesCount)s kampe i kamptypen for at afgøre dit niveau og rang."
+
+msgid "progressionTooltip/qualificationName"
+msgstr "Kvalifikation"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "Dage indtil rangeringens nedjustering: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "Ikke at kæmpe i Onslaught-kamptypen vil koste dig {eeede9e6_Open}%(count)s{eeede9e6_Close} rangeringspoint."
+msgstr[1] "Ikke at kæmpe i Onslaught-kamptypen vil koste dig {eeede9e6_Open}%(count)s{eeede9e6_Close} rangeringspoint."
+msgstr[2] "Ikke at kæmpe i Onslaught-kamptypen vil koste dig {eeede9e6_Open}%(count)s{eeede9e6_Close} rangeringspoint."
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s Din rang påvirkes af inaktivitet i rangen."
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "Spil inden dagens udløb for at bibeholde din rang."
+
+msgid "progressionTooltip/ratingScore"
+msgstr "Rangeringspoint"
+
+msgid "purchase/affirmative"
+msgstr "Bekræftet!"
+
+msgid "purchase/cancelButton"
+msgstr "Tilbage"
+
+msgid "purchase/confirmButton"
+msgstr "Køb"
+
+msgid "purchase/error/description"
+msgstr "Kan ikke gennemføre købet. Prøv venligst igen senere."
+
+msgid "purchase/error/title"
+msgstr "Fejl"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)sDu har ikke et passende køretøj til denne stil i garagen"
+
+msgid "purchase/price"
+msgstr "Købspris:"
+
+msgid "purchase/success/heading"
+msgstr "Tak for dit køb!"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)sKøbet vil blive overført til din spilkonto i nær fremtid"
+
+msgid "purchase/success/style3d"
+msgstr "%(name)s 3D-stil til %(vehicleName)s"
+
+msgid "purchase/title/style3d"
+msgstr "Køb %(name)s 3D-stil?"
+
+msgid "purchase/title/vehicle"
+msgstr "Køb %(name)s?"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "Deltag i {eeede9_Open}%(maxBattlesCount)s kamp{eeede9_Close} i kamptypen for at afgøre dit niveau og rang."
+msgstr[1] "Deltag i {eeede9_Open}%(maxBattlesCount)s kampe{eeede9_Close} i kamptypen for at afgøre dit niveau og rang."
+msgstr[2] "Deltag i {eeede9_Open}%(maxBattlesCount)s kampe{eeede9_Close} i kamptypen for at afgøre dit niveau og rang."
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "For at fuldføre kvalifikationen, deltag i %(maxBattlesCount)s kamp og vent på at rangeringen bliver udregnet. Din kamppræstation i kvalifikationen afgør den endelige rang du vil modtage.\nDesertering i kvalifikationen vil føre til et værre resultat end selv det største nederlag."
+msgstr[1] "For at fuldføre kvalifikationen, deltag i %(maxBattlesCount)s kampe og vent på at rangeringen bliver udregnet. Din kamppræstation i kvalifikationen afgør den endelige rang du vil modtage.\nDesertering i kvalifikationen vil føre til et værre resultat end selv det største nederlag."
+msgstr[2] "For at fuldføre kvalifikationen, deltag i %(maxBattlesCount)s kampe og vent på at rangeringen bliver udregnet. Din kamppræstation i kvalifikationen afgør den endelige rang du vil modtage.\nDesertering i kvalifikationen vil føre til et værre resultat end selv det største nederlag."
+
+msgid "qualification/conditionTooltip/header"
+msgstr "Kvalifikationsregler"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "Kampe deltaget i"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s Venter på resultatet fra kvalifikationen for at modtage din rang"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "Det kan tage op til fem minutter at udregne din rangering baseret på resultatet fra kvalifikationen. Derefter vil du modtage en rang og kan fortsætte med at spille i Onslaught."
+
+msgid "qualification/rewardsButton"
+msgstr "Til belønninger"
+
+msgid "qualification/rewardsDescription"
+msgstr "Ved fuldførelse af kvalifikationen vil du modtage belønninger for den rang du opnåede og alle tidligere range."
+
+msgid "quotesWrapper"
+msgstr "%(name)s"
+
+msgid "rank/achieved"
+msgstr "Opnået"
+
+msgid "rank/current"
+msgstr "Nuværende"
+
+msgid "rank/fifth"
+msgstr "Mester"
+
+msgid "rank/first"
+msgstr "Jern"
+
+msgid "rank/fourth"
+msgstr "Guld"
+
+msgid "rank/qualification"
+msgstr "Kvalifikation"
+
+msgid "rank/second"
+msgstr "Bronze"
+
+msgid "rank/sixth"
+msgstr "Legende"
+
+msgid "rank/text"
+msgstr "%(rank)s-rang"
+
+msgid "rank/third"
+msgstr "Sølv"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "Spillerrang"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "Delingsmakker(s/es) rang"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "Delinger kan kun bestå af spillere med lignende rang."
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "Restriktioner på rang for delinger med %(count)s spillere"
+
+msgid "rankInactivityTooltip/description"
+msgstr "Hvis du ikke deltager i kamptypen, vil du miste rangeringspoint."
+
+msgid "rankInactivityTooltip/heading"
+msgstr "Rang-inaktivitet"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "Dage til din rangering falder: %(count)s"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "Daglig rangering"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "Ændring i rangeringspoint: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "Forskel i rangeringspoint mellem den valgte dag og dagen før den."
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "Daglig rangeringsrekord: %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "Maksimal rangering opnået på den valgte dag."
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "dag %(day)s"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "Sæson-rangeringsrekord sat på %(dayOfRecord)s"
+
+msgid "rankInfo/current/fifth"
+msgstr "Mester-rangen tildeles spillere, som optjente mindst {eeede9e6_Open}%(fromScore){eeede9e6_Close} rangeringspoint."
+
+msgid "rankInfo/current/sixth"
+msgstr "Legende-rangen tildeles {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} af spillerne på ranglisten."
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "For at nå legende-rangen, skal du være i {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} af spillerne på ranglisten efter rangeringspoint."
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "For at forsvare din legende-rang, skal du blive i {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} af spillerne på ranglisten efter rangeringspoint."
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "For at nå legende-rangen, skal du være i {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} af spillerne på ranglisten efter rangeringspoint. Rangeringspoint optjent af den nederste spiller i&nbsp;legende&nbsp;-rangen: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "For at forsvare din legende-rang, skal du blive i {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} af spillerne på ranglisten efter rangeringspoint. Rangeringspoint optjent af den nederste spiller i&nbsp;legende&nbsp;-rangen: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankUpper/fifth"
+msgstr "MESTER"
+
+msgid "rankUpper/first"
+msgstr "JERN"
+
+msgid "rankUpper/fourth"
+msgstr "GULD"
+
+msgid "rankUpper/second"
+msgstr "BRONZE"
+
+msgid "rankUpper/sixth"
+msgstr "LEGENDE"
+
+msgid "rankUpper/text"
+msgstr "%(rank)s RANG"
+
+msgid "rankUpper/third"
+msgstr "SØLV"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "Du kan vælge ét stykke forbedret udstyr fra listen nedenfor:\n\n• Skjult udstødning\n• Innovativ målsøgning\n• Forbedrede drejeskiver\n• Forbedret kompressor\n• Øget granatmodstand\n• Forbedret konfiguration\n• Eksperimentel optik\n• Innovativt ladesystem\n• Udluftningssystem\n• Robust sigtemotor\n• Stabiliseringsudstyr\n• Teleskopisk observationssystem\n• Taktisk sløringsnet"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "Du kan vælge ét stykke eksperimentelt udstyr fra listen nedenfor:\n\n• Ildledelsessystem T3\n• Overlevelsespakke T3\n• Øget mobilitetssystem T3\n• Øget præcisionssystem T3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "%(name)s-sløring"
+
+msgid "rewards/preview"
+msgstr "Preview"
+
+msgid "rewards/status/achieved"
+msgstr "Belønning modtaget"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}For niveau %(vehicleLevel)s køretøjer{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}For %(progressionStyleName)s-stilen{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "Niveau %(vehicleLevel)s"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "Du modtog også:"
+
+msgid "rewardsScreen/button"
+msgstr "Bekræftet!"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "Til belønninger"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "Vælg belønning"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "Gå til køb"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "ONSLAUGHT. KVALIFIKATION FULDFØRT"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "ONSLAUGHT. DEN AZURBLÅ DRAGES SÆSON"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "ONSLAUGHT. DEN RØDE DRAGES SÆSON"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "ONSLAUGHT. DEN JADEGRØNNE DRAGES SÆSON"
+
+msgid "rewardsScreen/description/year"
+msgstr "ONSLAUGHT. DRAGENS ÅR"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "Hvor er min Ashbringer?!"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "Ingen rang"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "Efter du når denne rang, kan du miste rangeringspoint, hvis du stopper med at spille Onslaught-kamptypen."
+
+msgid "rewardsScreen/notice/title"
+msgstr "Rang-inaktivitet"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "Samlet antal\nOnslaught-faner"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "Vælg udstyr"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "Vælg belønninger"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "Nye rabatter er tilgængelige i Onslaught-butikken!"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "Nye ting er tilgængelige i Onslaught-butikken!"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "Indtil starten af næste sæson vil du have adgang til ting og en rabat, alt efter din højest opnåede rang."
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "Indtil starten af næste sæson vil du have adgang til ting og en rabat, alt efter din højest opnåede rang."
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}%(rank)s-rang{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "Baseret på kvalifikationsresultaterne, har du modtaget belønninger for følgende range: {ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr ", "
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "Du har modtaget belønninger for din forfremmelse til {ffe4c0_Open}%(rank)s{ffe4c0_Close}-rangen"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "Belønning for at fuldføre {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} ugentlig mission"
+msgstr[1] "Belønning for at fuldføre {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} ugentlige missioner"
+msgstr[2] "Belønning for at fuldføre {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} ugentlige missioner"
+
+msgid "rewardsScreen/title/division"
+msgstr "DIVISION %(division)s NÅET"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}-RANG NÅET"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "BELØNNING FOR OPNÅEDE RANGE"
+
+msgid "rewardsScreen/title/rank"
+msgstr "{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}-RANG NÅET"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "BELØNNING FOR DIN NYE RANG"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "BELØNNING MODTAGET"
+msgstr[1] "BELØNNINGER MODTAGET"
+msgstr[2] "BELØNNINGER MODTAGET"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "BELØNNINGER FOR UGENTLIGE MISSIONER"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "ÅRLIGE BELØNNINGER"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "Leveres med:"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "ONSLAUGHT"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "VÆLG BELØNNING"
+msgstr[1] "VÆLG BELØNNINGER"
+msgstr[2] "VÆLG BELØNNINGER"
+
+msgid "scoreTooltip/body"
+msgstr "Rangeringspointene du optjener vil afgøre din rang og division i Onslaught-kamptypen. Vind kampe for at blive den bedste!"
+
+msgid "scoreTooltip/header"
+msgstr "Rangeringspoint"
+
+msgid "season/daysLeft"
+msgstr "Slutter om %(totalDays)s d"
+
+msgid "season/hoursLeft"
+msgstr "Slutter om %(hours)s t"
+
+msgid "season/minutesLeft"
+msgstr "Slutter om %(minutes)s min"
+
+msgid "season/over"
+msgstr "%(seasonName)s er slut"
+
+msgid "season/range"
+msgstr "%(startDate)s–%(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "Slutter om %(seconds)s s"
+
+msgid "seasonName/first"
+msgstr "Den azurblå drages sæson"
+
+msgid "seasonName/second"
+msgstr "Den røde drages sæson"
+
+msgid "seasonName/third"
+msgstr "Den jadegrønne drages sæson"
+
+msgid "seasonPointTooltip/header"
+msgstr "Onslaught-faner"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "Modtaget"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "Ikke modtaget"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "Du er med i opløbet om at modtage Onslaught-faner"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "Ubrugte Onslaught-faner konverteres til obligationer efter denne rate: {bond_Open}1 Onslaught-fane{bond_Close} til {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "Ved slutningen af hver sæson vil du modtage Onslaught-faner efter din opnåede rang."
+
+msgid "seasonPointTooltip/text/year"
+msgstr "Hver 3 Onslaught-faner vil forbedre kvaliteten af belønningen du modtager i slutningen af året."
+
+msgid "seasonStatistics/button/fifth"
+msgstr "Hvor er mit trofæ?!"
+
+msgid "seasonStatistics/button/first"
+msgstr "Alt er fint"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "Min dyrebare!"
+
+msgid "seasonStatistics/button/second"
+msgstr "Bekræftet!"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "Legendarisk!"
+
+msgid "seasonStatistics/button/third"
+msgstr "I'll Be Back"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "Endelige sæsonplacering"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "Position på ranglisten: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "ONSLAUGHT. %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "Modtog %(points)s Onslaught-fane"
+msgstr[1] "Modtog %(points)s Onslaught-faner"
+msgstr[2] "Modtog %(points)s Onslaught-faner"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "SÆSON I. AZURBLÅ DRAGE"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "SÆSON II. RØD DRAGE"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "SÆSON III. JADEGRØN DRAGE"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "Sejre: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "Antal\nkampe"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "Gennemsnit: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "Skade-\nrekord"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "Ødelæggelsesratio: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "Flest køretøjer ødelagt\ni en kamp"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "Gennemsnit: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "Prestigepoint\nrekord"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "SÆSONSTATISTIK"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "I en superdeling: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "Sejrsstime\n(solo/deling)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "Kampe"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "—"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "Ingen køretøjer"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "PRIMÆRE KØRETØJER"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "Sejre"
+
+msgid "seasonStatistics/title"
+msgstr "%(name)s SÆSONSTATISTIK"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "Sæson slutter om:"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "—"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s–%(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "Kampplan"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "I dag"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "I morgen"
+
+msgid "selectorTooltip/desc"
+msgstr "Kompetitiv kamptype. 7v7 | Niveau X"
+
+msgid "selectorTooltip/title"
+msgstr "Onslaught"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Følg de seneste nyheder på spilportalen for at holde dig opdateret om starten af den nye sæson."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Denne kamptype er midlertidigt utilgængelig af tekniske årsager."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Denne kamptype bliver tilgængelig %(time)s"
+
+msgid "shortSeasonName/first"
+msgstr "Azurblå drage"
+
+msgid "shortSeasonName/second"
+msgstr "Rød drage"
+
+msgid "shortSeasonName/third"
+msgstr "Jadegrøn drage"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "Denne sektion indeholder information om de bedste spillere i den nuværende sæson af Onslaught-kamptypen."
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Denne del indeholder information om kvalifikationen, samt din rang, division og rangeringspoint efter dens fuldførelse."
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "Denne sektion indeholder information om de tilgængelige belønninger for at nå højere range i Onslaught-kamptypen."
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "Denne del indeholder information om ting, der er tilgængelige i Onslaught-butikken"
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "Denne del indeholder information om ugentlige missioner i Onslaught-kamptypen."
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "Denne del indeholder detaljer om de årlige belønninger, som du kan modtage ved at optjene Onslaught-faner."
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "Denne del indeholder information om dine bedrifter i hver af sæsonerne af det nuværende Onslaught-år."
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "Rangliste"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Rangeret system"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "Belønninger for range"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "Onslaught-butik"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "Ugentlige missioner"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "Årlige belønninger"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "Årlig statistik"
+
+msgid "sixthRankTooltip/description"
+msgstr "{eeede9e6_Open}Legende{eeede9e6_Close}-rangen tildeles {eeede9e6_Open}top %(topPercentage)%{eeede9e6_Close} af spillerne på ranglisten efter rangeringspoint."
+
+msgid "style3dTooltip/954"
+msgstr "Sølvpigge"
+
+msgid "style3dTooltip/955"
+msgstr "Guldkløer"
+
+msgid "style3dTooltip/956"
+msgstr "Mesterens vinger"
+
+msgid "style3dTooltip/957"
+msgstr "Legendarisk dyr"
+
+msgid "style3dTooltip/description"
+msgstr "Stærk som en løve, grum som en drage og dødbringende som en skorpion. Dette bæst er en inkarnation i metal af en skabning, der har været frygtet siden antikken."
+
+msgid "style3dTooltip/howToReceive"
+msgstr "Sådan modtager du"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "Tildelt for at indsamle mindst 9 Onslaught-faner i Manticorens år i Onslaught-kamptypen."
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "Tildelt for at indsamle mindst 12 Onslaught-faner i Manticorens år i Onslaught-kamptypen. Erstatter den forrige stil."
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "Tildelt for at indsamle mindst 15 Onslaught-faner i Manticorens år i Onslaught-kamptypen. Erstatter den forrige stil."
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "Tildelt for at indsamle mindst 18 Onslaught-faner i Manticorens år i Onslaught-kamptypen. Erstatter den forrige stil."
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "Passende til køretøjer"
+
+msgid "system_messages/periodicReward/body"
+msgstr "Du har modtaget din daglige belønning for at bibeholde %(rank)s-rangen.\n%(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "Daglig belønning"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Våbenhvile aktiv. Onslaught-kampe er midlertidigt utilgængelige."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Våbenhvile"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Våbenhvile slut. Onslaught-kampe er tilgængelige igen."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Våbenhvile"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "Tillykke! Du har nået %(maxRank)s-rangen.\nDu har modtaget belønninger for følgende range: %(ranks)s:\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "Kvalifikation fuldført"
+
+msgid "system_messages/regularReward/body"
+msgstr "Dato: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "Kvittering"
+
+msgid "system_messages/shop/offer/button"
+msgstr "Gå til butik"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "Nye rabatter er tilgængelige i Onslaught-butikken!"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "Rabatter forøget"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "Nye ting er nu tilgængelige i Onslaught-butikken!"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "Nye ting tilgængelige"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "Betalingsfejl. Prøv igen senere."
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "Dato: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "Belønninger for at fuldføre ugentlige missioner"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "Dato: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "Belønning for ugentlig mission"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Om Onslaught"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "Sæsonopdateringer"
+
+msgid "tournament/LBFinals"
+msgstr "ND-FINALER"
+
+msgid "tournament/LBRound1"
+msgstr "ND-RUNDE 1"
+
+msgid "tournament/LBRound2"
+msgstr "ND-RUNDE 2"
+
+msgid "tournament/LBSemifinals"
+msgstr "ND-SEMIFINALER"
+
+msgid "tournament/UBFinals"
+msgstr "ØD-FINALER"
+
+msgid "tournament/UBSemifinals"
+msgstr "ØD-SEMIFINALER"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "Rangeringspoint kan ikke optjenes eller tabes i en turnering."
+
+msgid "tournament/bestOf"
+msgstr "BEDST AF %(number)s"
+
+msgid "tournament/cny"
+msgstr "%(amount)s CNY"
+
+msgid "tournament/cnySign"
+msgstr "¥%(amount)s"
+
+msgid "tournament/comeBack"
+msgstr "Prøv venligst igen senere"
+
+msgid "tournament/comingSoon"
+msgstr "KOMMER SNART %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "TIDERNE KAN VARIERE ALT EFTER KAMPLÆNGDEN"
+
+msgid "tournament/completed"
+msgstr "FULDFØRT"
+
+msgid "tournament/douyin"
+msgstr "Se på Douyin"
+
+msgid "tournament/drops/huya"
+msgstr "Se på Huya og optjen eksklusive\nHuya Drops!"
+
+msgid "tournament/drops/twitch"
+msgstr "Se på Twitch og optjen eksklusive\nTwitch Drops!"
+
+msgid "tournament/dropsShort/huya"
+msgstr "Og optjen eksklusive Huya Drops!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "Og optjen eksklusive Twitch Drops!"
+
+msgid "tournament/error"
+msgstr "FEJL I INDLÆSNING AF DATA"
+
+msgid "tournament/eur"
+msgstr "%(amount)s EUR"
+
+msgid "tournament/euroSign"
+msgstr "€%(amount)s"
+
+msgid "tournament/finalResult"
+msgstr "VINDER"
+
+msgid "tournament/fundDistribution"
+msgstr "DISTRIBUTION AF PRÆMIEPULJE"
+
+msgid "tournament/grandFinals"
+msgstr "GRAND FINAL"
+
+msgid "tournament/huya"
+msgstr "Se med på Huya"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "Præmiepuljen dannes af spillernes køb af pakker. Sidst opdateret: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "IKKE FLERE KAMPE PÅ PROGRAMMET"
+
+msgid "tournament/ols/roundRobin"
+msgstr "FASE %(phase)s RUNDE %(round)s"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s - %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "PRÆMIEPULJE %(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "OG MULIGHEDEN FOR AT VINDE EVIG ÆRE"
+
+msgid "tournament/refresh"
+msgstr "Genindlæs"
+
+msgid "tournament/refreshing"
+msgstr "Genindlæser..."
+
+msgid "tournament/roundOf"
+msgstr "RUNDE MED %(number)s"
+
+msgid "tournament/separator"
+msgstr "ELLER"
+
+msgid "tournament/tab/overview"
+msgstr "OVERBLIK"
+
+msgid "tournament/tab/schedule"
+msgstr "TIDSPLAN"
+
+msgid "tournament/teamPlaceholder"
+msgstr "TBD"
+
+msgid "tournament/toShop"
+msgstr "Besøg butik"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "Veksl"
+
+msgid "tournament/tokenStore/ols"
+msgstr "OLS-TOKENS"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "Tilgængelig om:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "Om turneringen"
+
+msgid "tournament/twitch"
+msgstr "Se med på Twitch"
+
+msgid "tournament/viewFull"
+msgstr "Se alle"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "Støt Onslaught Legends Series, mens du styrker præmiepuljen med turneringspakker!"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "Vis din esports-ånd med eksklusive tematiske tilpasningselementer og unikke kampvogne!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "SÆT GANG I PRÆMIEPULJEN"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "WCI-PAKKER"
+
+msgid "tournament/vsBestOf"
+msgstr "VS\nBEDST AF %(number)s"
+
+msgid "tournament/wci/roundRobin"
+msgstr "ALLE-MOD-ALLE"
+
+msgid "tournament/winner"
+msgstr "Vinder"
+
+msgid "tournament/youtube"
+msgstr "Se med på YouTube"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "De bedste europæiske hold kæmper om titlen som Onslaught Legends Series-mester! Se intense 7v7-kampe i Onslaught, optjen Twitch Drops og støt dine yndlingshold ved at booste præmiepuljen gennem eksklusive tilpasningspakker."
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "Et episk slag vil stå ved World of Tanks Championship International i Suzhou, Kina, hvor de dygtigste hold fra hele verden vil støde sammen under reglerne fra Onslaught-kamptypen. Alle med ønsket om at blive kåret som verdensmester. Oplev spændingen, når legender fødes på slagmarken!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "OLS sæson 6"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI'25"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "Livestreams vil være tilgængelige i %(timer)s"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "Flere kampe om %(timer)s"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "Rangeringspoint kan ikke optjenes i Onslaught-træning."
+
+msgid "unit/message/modeOffline"
+msgstr "Kunne ikke gå med i kampen: Databasefejl."
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "Restriktioner i rangforskel overtrådt"
+
+msgid "voiceChat/active"
+msgstr "Forlad voice chat"
+
+msgid "voiceChat/inactive"
+msgstr "Gå med i voice chat"
+
+msgid "waitingSpinner/message"
+msgstr "Indlæser indhold..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "Onslaught-missioner fuldført"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "Godt klaret! Du har fuldført alle de ugentlige missioner. Glem ikke at modtage din belønning, og så ses vi til den næste sæson!"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "Du vil modtage yderligere belønninger for at fuldføre {eeede9e5_Open}%(questsList)s{eeede9e5_Close}- og {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close}-missioner"
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "Ugentlig Onslaught-mission"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "Fuldført: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s ny mission om:"
+msgstr[1] "%(value)s nye missioner om:"
+msgstr[2] "%(value)s nye missioner om:"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "Belønning:"
+msgstr[1] "Belønninger:"
+msgstr[2] "Belønninger:"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)s NY MISSION OM %(countdown)s"
+msgstr[1] "%(value)s NYE MISSIONER OM %(countdown)s"
+msgstr[2] "%(value)s NYE MISSIONER OM %(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "NYE MISSIONER TIL NÆSTE SÆSON!"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "Missioner fuldført: %(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "Du vil modtage %(value)s ny mission hver uge. Hver fuldført mission tæller til din belønning!"
+msgstr[1] "Du vil modtage %(value)s nye missioner hver uge. Hver fuldført mission tæller til din belønning!"
+msgstr[2] "Du vil modtage %(value)s nye missioner hver uge. Hver fuldført mission tæller til din belønning!"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "Undervejs"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "Fuldført"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "Utilgængelig"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "Utilgængelig til fuldførelse: Kamptypen er ikke aktiv."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "For at åbne, udforske og købe et niveau X køretøj."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "Fuldfør den forrige mission for at åbne op for denne."
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "Mission utilgængelig"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "Modtag din belønning!"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "Fuldført: %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "Mission %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s ny mission om:"
+msgstr[1] "%(value)s nye missioner om:"
+msgstr[2] "%(value)s nye missioner om:"
+
+msgid "whatsNewButtonLabel"
+msgstr "SÆSONOPDATERINGER"
+
+msgid "whatsNewView/banner/description"
+msgstr "Denne sæson er din sidste mulighed for at modtage værdifulde belønninger, herunder den eksklusive tunge niveau X kampvogn Ashbringer, med alle de unikke 3D-stile du har optjent til den, et frygtløst mandskab med våbenbrødre som en nulsums-evne, samt forbedret og eksperimentelt udstyr du kan vælge fra, en flot 2D-stil og meget mere. Gå ikke glip af det — din sejr venter på slagmarken!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "Grib de sidste øjeblikke af Dragens år!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "DEN JADEGRØNNE DRAGES SÆSON"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "ONSLAUGHT. HVAD ER NYT?"
+
+msgid "whatsNewView/button/ok"
+msgstr "Band-tastisk!"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "Den forbedrede visning efter kamp med sit friske Update 2.0-design vil nu give dig yderligere kamptype-relateret information efter hver kamp."
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "Detaljerede kampresultater"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "Frygt ikke, hvis dit yndlingskøretøj blev ekskluderet. Lejekøretøjer har nu prækonfigureret mandskab, udstyr, granater og forbrugsvarer."
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "Klar-til-kamp lejekøretøjer %(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "I denne sæson kan hvert hold fuldstændigt bandlyse et køretøj fra en kamp. Koordiner stemmer med allierede for at ekskludere den maskine I frygter mest, eller for at gøre en uventet opstilling klar for jeres fjender."
+
+msgid "whatsNewView/intro/heading"
+msgstr "Køretøjsbandlysninger %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "Kort"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "Nye køretøjer tilgængelige i Onslaught"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "Lejekøretøjer"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "Den nyligt frigivne amerikanske niveau X medium kampvogn Ares 90 er nu tilgængelig i kamptypen med en justeret rolle-evne."
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "Opdatering af rolle-evne %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "114 SP2 kan nu købes på sølv-rangen i Onslaught-butikken."
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "Butiksopdateringer %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "EKSKLUDERET"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "UNDER VIDEREUDVIKLING"
+
+msgid "whatsNewView/tag/attention"
+msgstr "Bemærk"
+
+msgid "whatsNewView/tag/changed"
+msgstr "Ændret"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "Eksperimentelt"
+
+msgid "whatsNewView/tag/new"
+msgstr "Nyt"
+
+msgid "whatsNewView/tag/returned"
+msgstr "Tilbagevendt"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "Revideret"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "Sæsonopdatering"
+
+msgid "whatsNewView/watchVideo"
+msgstr "Se video"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "Sejrsrate (dag): %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "Nederlag: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "Uafgjorte: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "Sejrsrate (sæson): %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "Ratio af samlet antal sejre i forhold til antal kampe.\nKampe efter resultat:"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "Sejre: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "Belønninger leveres ved slutningen af tredje sæson."
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "Belønninger leveres snart. Vent venligst."
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "Årlig belønning modtaget. Vi ses til næste år!"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "Du har udstyr at vælge fra"
+
+msgid "yearlyRewards/claim"
+msgstr "Modtag"
+
+msgid "yearlyRewards/claimReward"
+msgstr "Modtag belønning"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "Du modtog 1%(seasonPointIcon)s for hver rang ved slutningen af sæsonen."
+
+msgid "yearlyRewards/description/current"
+msgstr "Du vil modtage 1%(seasonPointIcon)s for hver rang ved slutningen af sæsonen."
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\nMed unikke 3D-stile"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "TIL ÅRLIGE BELØNNINGER"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "Fremvis 2D-stil"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "Fremvis 3D-stil"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "Rang opnået: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "Nuværende rang: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "Fire unikke mandskabsmedlemmer"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "Belønning modtaget"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "Belønning garanteret"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "Optjen i alt %(count)s faner for at modtage stadiebelønninger"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "Potentiel belønning"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "Du vil med garanti modtage denne belønning ved slutningen af året."
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "Optjen det krævede antal Onslaught-faner for at modtage din belønning ved slutningen af året."
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "Du vil modtage denne belønning ved slutningen af året, hvis du holder din nuværende rang eller forbedrer den, inden sæsonen er slut."
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "Aktivt stadie"
+
+msgid "yearlyStatistics/battles"
+msgstr "Kampe (solo/deling)"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "Udregner sæsonstatistik..."
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)sTil sæsonstatistik"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "Ingen rang"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "%(rank)s-rang"
+
+msgid "yearlyStatistics/rating"
+msgstr "Rangeringspoint"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "Efterår 2025"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "Vinter 2026"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "Forår 2026"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s–%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "Sæson I. Azurblå drage"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "Sæson II. Rød drage"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "Sæson III. Jadegrøn drage"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "Nuværende"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "Færdiggjort"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "Kampe (super-deling)"
+
+msgid "yearlyStatistics/wins"
+msgstr "Sejrsrate"

@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Affermativo!"
+
+msgid "attachments_preview/description"
+msgstr "Set di accessori 3D"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Accessorio 3D epico"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Accessorio 3D leggendario"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Accessorio 3D raro"
+
+msgid "bundle/name"
+msgstr "Mercato misterioso"
+
+msgid "bundle/name_uppercased"
+msgstr "MERCATO MISTERIOSO"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Annulla"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Acquista"
+
+msgid "confirmation/description"
+msgstr "Conferma per ricevere Titoli e una nuova cella come ricompensa."
+
+msgid "confirmation/purchase"
+msgstr "Acquistare per {{price}} ?"
+
+msgid "entryPoint/button"
+msgstr "Vai all'evento"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} è qui. Dacci un'occhiata!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Acquistando Titoli durante l'evento {{eventName}}, riceverai una ricompensa da una delle celle non aperte come regalo bonus. Le celle contengono preziosi articoli di gioco, tra cui la ricompensa principale dell'evento: un veicolo Premium."
+
+msgid "intro/cards/description/c_2"
+msgstr "Le ricompense vengono assegnate in ordine casuale. Ogni cella non aperta ha una propria probabilità di essere selezionata e tutte le probabilità totalizzano sempre il 100%. Una volta aperta, una cella non può essere aperta di nuovo e le probabilità di ricevere le ricompense rimanenti aumentano."
+
+msgid "intro/cards/description/c_3"
+msgstr "Ogni passaggio costa una certa quantità d'oro. Sia il numero dei Titoli ricevuti che il prezzo del passaggio variano man mano che si procede."
+
+msgid "intro/cards/link"
+msgstr "Consulta le condizioni e i prezzi per ogni passaggio sul {{@ class 'linkPart'}}portale.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Acquisto dei Titoli"
+
+msgid "intro/cards/title/c_2"
+msgstr "Celle e probabilità"
+
+msgid "intro/cards/title/c_3"
+msgstr "Prezzi passaggi"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "LA TUA RICOMPENSA TI ASPETTA"
+
+msgid "main/alt/description"
+msgstr "Visualizza probabilità"
+
+msgid "main/alt/tooltip/body"
+msgstr "Premere il tasto Alt per vedere la probabilità di ricevere ciascuna cella."
+
+msgid "main/alt/tooltip/header"
+msgstr "Mostra probabilità"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "CONGRATULAZIONI! \n HAI RICEVUTO TUTTE LE RICOMPENSE"
+
+msgid "main/footer/button"
+msgstr "Acquista"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}Ricompensa da una cella"
+
+msgid "main/footer/receive"
+msgstr "Ricevi: {{item}}"
+
+msgid "main/header/description"
+msgstr "Partecipa all'evento dal {{startDate}} al {{endDate}} e ottieni le ricompense!"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Vai alla personalizzazione"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Vai allo stile"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Vai al veicolo"
+
+msgid "notifications/specialReward/title"
+msgstr "La ricompensa principale {{eventName}} è tua!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Ricompense aggiuntive:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Ricevuto:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Questa operazione non è al momento disponibile per motivi tecnici. Riprova più tardi."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "All'evento"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s terminerà presto!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "L'evento è disponibile fino al: %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "%(eventName)s cella aperta"
+
+msgid "tooltips/entry/description"
+msgstr "La tua ricompensa ti aspetta! Ogni acquisto di Titoli ti garantisce una ricompensa casuale da una cella. Apri una nuova cella ogni volta, poiché quelle già aperte vengono eliminate."
+
+msgid "tooltips/entry/timer"
+msgstr "L'evento sarà disponibile per {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "Informazioni sull'evento"
+
+msgid "tooltips/steps/description"
+msgstr "Per ogni acquisto, ricevi più {{currency}}. L'importo che ricevi aumenta a determinati acquisti dei passaggi."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} per ogni acquisto"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Passaggi:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} — {{end}}"

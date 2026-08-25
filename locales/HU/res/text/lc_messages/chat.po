@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Fordító <noreply@wargaming.net>\nLanguage-Team: WoT Csapat <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Általános"
+
+msgid "channels/battle/team"
+msgstr "Csapat"
+
+msgid "channels/clan"
+msgstr "Klán"
+
+msgid "channels/common"
+msgstr "Általános"
+
+msgid "channels/epic_training"
+msgstr "Gyakorlás—Frontvonal"
+
+msgid "channels/nubs"
+msgstr "Toborzás"
+
+msgid "channels/prebattle"
+msgstr "Felkészülés az ütközetre"
+
+msgid "channels/special_battles"
+msgstr "Speciális Csata"
+
+msgid "channels/squad"
+msgstr "Szakasz"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Szakasz létrehozva. Várj, amíg a játékosok felkészülnek."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Szakasz"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Szakasz létrehozva. A játékosok felkészültek."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Szakasz"
+
+msgid "channels/system"
+msgstr "Rendszer"
+
+msgid "channels/tournament"
+msgstr "Bajnokság"
+
+msgid "channels/trading"
+msgstr "Kereskedelem"
+
+msgid "channels/training"
+msgstr "Gyakorlás"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Chat adminisztrátora egyben a csatornának a moderátora."
+
+msgid "errors/addmoderatorowner"
+msgstr "Csatorna tulajdonosa egyben a csatorna moderátora."
+
+msgid "errors/banchannelowner"
+msgstr "Csatorna tulajdonosát nem lehet letiltani."
+
+msgid "errors/banchatadmin"
+msgstr "Chat adminisztrátora nem letiltható."
+
+msgid "errors/banned"
+msgstr "%(banOwnerNick)s letiltott téged %(banEndTime)s. Indok: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "%(banOwnerNick)s letiltott téged. Indok: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Letiltva lettél %(banEndTime)s. Indok: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Le lettél tiltva. Indok: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Ez a parancs %(command)s felfüggesztve %(cooldownPeriod)s másodpercig."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Moderátori jogokat nem lehet visszavenni a chat adminisztrátorától."
+
+msgid "errors/delmoderatorowner"
+msgstr "Moderátori jogokat nem lehet visszavenni a csatorna tulajdonosától."
+
+msgid "errors/timeincorrect"
+msgstr "Az „idő” paraméternek pozitívnak kell lennie [1-1440] vagy „permanensnek”."
+
+msgid "errors/toomanyargs"
+msgstr "Túl sok paraméter."
+
+msgid "errors/toosmallargs"
+msgstr "Nem megfelelő számú paraméter."
+
+msgid "errors/userbanhimself"
+msgstr "Nem tudod magadat letiltani."
+
+msgid "messages/userbanned"
+msgstr "%(banedUser)s felhasználót letiltotta %(banOwnerNick)s %(banEndTime)s -ig. Indok: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "%(banedUser)s felhasználót letiltotta %(banOwnerNick)s. Indok: %(banReason)s"

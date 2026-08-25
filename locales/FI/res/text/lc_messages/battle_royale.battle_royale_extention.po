@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To:\nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "battleQuestAwards/button"
+msgstr "Selvä!"
+
+msgid "battleQuestAwards/stPatrick/subTitle"
+msgstr "TERÄKSEN METSÄSTÄJÄ: APILAOTATUS"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "TERÄKSEN METSÄSTÄJÄ"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "VIIMEINEN VAIHE SUORITETTU!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "VAIHE %(level)s SUORITETTU!"
+
+msgid "dailyBonus/description"
+msgstr "%(dailyBonus)s bonus onnensinetteihin %(soloTopPlaces)s parhaan pelaajan joukossa olemisesta yksin pelattaessa tai %(squadTopPlaces)s parhaan joukossa olemisesta osastossa pelattaessa. Bonus voidaan aktivoida kerran päivässä kullekin vaunulle."
+
+msgid "eventShop"
+msgstr "Tapahtumakauppa"
+
+msgid "leaveBattleView/confirmation/cancel"
+msgstr "Pysy"
+
+msgid "leaveBattleView/confirmation/submit"
+msgstr "Karkaa"
+
+msgid "leaveBattleView/description"
+msgstr "Vaunusi voivat yhä taistella. Jos poistut taistelusta nyt, et saa mitään palkintoja siitä. Oletko varma, että haluat poistua taistelusta?"
+
+msgid "leaveBattleView/title"
+msgstr "Taistelukentältä karkaaminen"
+
+msgid "leaveBattleView/warning"
+msgstr "Et saa palkintoja!"
+
+msgid "progress/counter"
+msgstr "{{current}}{{divider}}{{total}}"
+
+msgid "progressionComplete"
+msgstr "Ensisijainen edistyminen suoritettu!"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s tai %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/questsTotal/text"
+msgstr "Suoritetut tehtävät:"
+
+msgid "progressionView/battleQuests/timer/eventResetTime/text"
+msgstr "Tapahtuman päättymiseen:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Tehtävien päivittämiseen"
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/seasonRange"
+msgstr "%(startDate)s – %(endDate)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Edistyminen suoritettu. Jatka Teräksen metsästäjän pelaamista ansaitaksesi lisää palkintoja."
+
+msgid "progressionView/subTitle/endEvent"
+msgstr "Tapahtuma on päättynyt. Tehtävät ja edistyminen eivät ole enää saatavilla."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Suorita tehtäviä ansaitaksesi pisteitä edistymiseen.\nAnsaitsemiesi pisteiden määrä riippuu myös sijoituksestasi taistelussa. %(infotip)s"
+
+msgid "proxy_currency_tooltip/earn/description/brcoin"
+msgstr "Kerää terässinettejä tehokkaasta taistelutoiminnasta, sijoittumisesta korkealle taistelutuloksissa ja suorittamalla pelimuodon tehtäviä."
+
+msgid "proxy_currency_tooltip/earn/description/stpcoin"
+msgstr "Saat onnensinettejä poimimalla sotasaalista taistelussa, suorittamalla edistymisen vaiheita ja sijoittumalla huippusijoille Teräksen metsästäjässä."
+
+msgid "proxy_currency_tooltip/earn/title/brcoin"
+msgstr "Kuinka sinettejä ansaitaan"
+
+msgid "proxy_currency_tooltip/earn/title/stpcoin"
+msgstr "Kuinka sinettejä ansaitaan"
+
+msgid "proxy_currency_tooltip/spend/description/brcoin"
+msgstr "Käytä ansaittuja terässinettejä ostamaan Teräksen metsästäjän tyylejä."
+
+msgid "proxy_currency_tooltip/spend/description/stpcoin"
+msgstr "Vaihda ansaitsemasi onnensinetit arvokkaisiin palkintoihin Apilakaupassa."
+
+msgid "proxy_currency_tooltip/spend/title/brcoin"
+msgstr "Mihin sinettejä käytetään"
+
+msgid "proxy_currency_tooltip/spend/title/stpcoin"
+msgstr "Mihin sinettejä käytetään"
+
+msgid "proxy_currency_tooltip/title/brcoin"
+msgstr "Terässinetit"
+
+msgid "proxy_currency_tooltip/title/stpcoin"
+msgstr "Onnensinetit"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Myönnetään palkinnoksi erikoistehtävien suorittamisesta Teräksen metsästäjässä. Ne antavat tilaisuuden edetä läpi tapahtuman edistymisen."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Teräksen metsästäjän edistymispisteet"
+
+msgid "rewardCurrencyTooltip/body/battlePassPoints"
+msgstr "Pisteitä voidaan ansaita käymällä taisteluja ja suorittamalla erikoistehtäviä. Ne lisätään automaattisesti Taistelupassin edistymiseen."
+
+msgid "rewardCurrencyTooltip/body/brProgressionToken"
+msgstr "Myönnetään Teräksen metsästäjän tehtävien suorittamisesta ja hyvistä taistelutuloksista. Mahdollistavat etenemisen läpi tapahtuman edistymispolun."
+
+msgid "rewardCurrencyTooltip/body/brcoin"
+msgstr "Terässinettejä voidaan saada tehokkaasta taistelutoiminnasta, hyvästä sijoituksesta taistelun tuloksissa sekä erikoistehtävien suorittamisesta."
+
+msgid "rewardCurrencyTooltip/body/credits"
+msgstr "Tärkein pelinsisäinen valuutta. Ansaitaan taisteluissa tai ostetaan kullalla."
+
+msgid "rewardCurrencyTooltip/body/crystal"
+msgstr "Harvinainen erikoisvaluutta, jota käytetään ainutlaatuisten esineiden ostamiseen, jotka eivät muutoin ole saatavilla."
+
+msgid "rewardCurrencyTooltip/body/stpcoin"
+msgstr "Valuuttaa, jota voi ansaita Teräksen metsästäjän taisteluissa. Sinettejä voi vaihtaa ainutlaatuisiin palkintoihin Apilakaupassa. Osastossa pelatessa sinetit jaetaan tasan osaston jäsenten kesken. Annettu määrä on oma osasi yhteisistä ansioista."
+
+msgid "rewardCurrencyTooltip/body/xp"
+msgstr "Erikoisvaunuilla ansaittua kokemusta voidaan muuntaa vapaaksi kokemukseksi."
+
+msgid "rewardCurrencyTooltip/dailyBonus/stpcoin"
+msgstr "Bonus käytetty! Taistelusta saatujen sinettien määrän kerroin: %(count)s."
+
+msgid "rewardCurrencyTooltip/header/battlePassPoints"
+msgstr "Taistelupassin pisteet"
+
+msgid "rewardCurrencyTooltip/header/brProgressionToken"
+msgstr "Teräksen metsästäjän edistymispisteet"
+
+msgid "rewardCurrencyTooltip/header/brcoin"
+msgstr "Terässinetit"
+
+msgid "rewardCurrencyTooltip/header/credits"
+msgstr "Krediitit"
+
+msgid "rewardCurrencyTooltip/header/crystal"
+msgstr "Arvopaperit"
+
+msgid "rewardCurrencyTooltip/header/stpcoin"
+msgstr "Onnensinetit"
+
+msgid "rewardCurrencyTooltip/header/xp"
+msgstr "Taistelukokemus"
+
+msgid "rewardCurrencyTooltip/premiumBonus/brcoin"
+msgstr "WoT Premium-tili kasvattaa tämän valuutan ansaittua määrää 50%."
+
+msgid "rewardCurrencyTooltip/premiumBonus/credits"
+msgstr "WoT Premium-tili kasvattaa tämän valuutan ansaittua määrää 50%."
+
+msgid "rewardCurrencyTooltip/premiumBonus/xp"
+msgstr "WoT Premium-tili kasvattaa ansaitun taistelukokemuksen määrää määrää 50%."
+
+msgid "serviceChannelMessages/awards"
+msgstr "Palkinto saatu:"
+
+msgid "serviceChannelMessages/body"
+msgstr "Olet suorittanut edistymisen vaiheen %(stage)s %(progressionName)s -pelimuodossa."
+
+msgid "serviceChannelMessages/header"
+msgstr "Onneksi olkoon!"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Lisätiedot"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Teräksen metsästäjä"
+
+msgid "tab/label/platoon"
+msgstr "OSASTO"
+
+msgid "tab/label/solo"
+msgstr "YKSIN"
+
+msgid "tab/label/team"
+msgstr "KAVERIN KANSSA"
+
+msgid "tooltip/banner/description"
+msgstr "Dynaaminen viimeiseen mieheen käytävä battle royale postapokalyptisessä ympäristössä. Taistele kahdeksalla erikoisvaunulla, joita voit päivittää taistellessasi ja joiden voima kasvaa joka tasolla. Sinua odottavat eksklusiiviset palkinnot ja paljon muuta!"
+
+msgid "tooltip/banner/mode/description"
+msgstr "– Pelimuoto. Klikkaa tutkiaksesi"
+
+msgid "tooltip/banner/mode/label"
+msgstr "MODE"
+
+msgid "tooltip/banner/performanceRisk/description/high"
+msgstr "Tietokoneesi suorituskyky ei riitä tähän pelitilaan. Voit kohdata ongelmia grafiikan ja vaunujen liikkumisen kanssa. Pelin kaatuminen on myös todennäköistä."
+
+msgid "tooltip/banner/performanceRisk/description/medium"
+msgstr "Tämä pelimuoto vaatii hyvää suorituskykyä tietokoneelta. Kohtaat ongelmia kartan lataamisen, grafiikoiden ja vaunujen liikkeen kanssa. Mikäli kohtaat ongelmia, koeta heikentää grafiikan laatua asetuksista."
+
+msgid "tooltip/banner/performanceRisk/title/high"
+msgstr "Heikko suorituskyky"
+
+msgid "tooltip/banner/performanceRisk/title/medium"
+msgstr "Mahdollisesti heikentynyt suorituskyky"
+
+msgid "tooltip/banner/stPatrickDescription"
+msgstr "Dynaaminen viimeiseen mieheen käytävä battle royale pienellä silauksella vihreää taikaa. Taistele kahdeksalla erikoisvaunulla, joita voit päivittää taistellessasi ja joiden voima kasvaa joka tasolla. Sinua odottavat eksklusiiviset palkinnot ja paljon muuta!"
+
+msgid "tooltip/banner/stPatrickTitle"
+msgstr "Apilaotatus"
+
+msgid "tooltip/banner/timer/text/accent"
+msgstr "Tapahtuma saatavilla %(timer)s ajan"
+
+msgid "tooltip/banner/timer/text/cooldown"
+msgstr "Tulitauko %(timer)s"
+
+msgid "tooltip/banner/title"
+msgstr "Teräksen metsästäjä"
+
+msgid "tooltip/daily_quests/header"
+msgstr "Suoritettu"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Uusiin Teräksen metsästäjän tehtäviin {{timeLeft}}"
+
+msgid "tooltip/daily_quests/reward"
+msgid_plural "plural/tooltip/daily_quests/reward"
+msgstr[0] "Palkinto:"
+msgstr[1] "Palkinnot:"
+msgstr[2] "Palkinnot:"
+
+msgid "tooltip/daily_quests/text"
+msgstr "Kaikki tehtävät suoritettu!"
+
+msgid "tooltip/progressionWidget/description/completed"
+msgstr "Vahvaa työtä, komentaja. Jatka samaan malliin!"
+
+msgid "tooltip/progressionWidget/description/header"
+msgstr "Ensisijainen edistyminen suoritettu!"
+
+msgid "tooltip/progressionWidget/description/inProgress"
+msgstr "Suorita tehtäviä ja saavuta huippusijoja Teräksen metsästäjän taisteluissa edetäksesi läpi tapahtuman."
+
+msgid "tooltip/progressionWidget/subTitle"
+msgstr "Pelimuodon päättymiseen %(value)s"
+
+msgid "tooltip/progressionWidget/title"
+msgstr "Teräksen metsästäjä"
+
+msgid "tooltip/quest/header"
+msgstr "Teräksen metsästäjän tehtävä"
+
+msgid "tooltip/shop/stPatrick/subtitle"
+msgstr "Vaihda {ede6d9_Open}onnensinettisi{ede6d9_Close} erikoispalkintoihin."
+
+msgid "tooltip/shop/stPatrick/text"
+msgstr "Saat onnensinettejä poimimalla sotasaalista taistelussa, suorittamalla edistymisen vaiheita ja sijoittumalla huippusijoille battle royalessa."
+
+msgid "tooltip/shop/stPatrick/title"
+msgstr "Apilakauppa"
+
+msgid "tooltip/shop/subtitle"
+msgstr "Vaihda {ede6d9_Open}terässinettisi{ede6d9_Close} erikoispalkintoihin."
+
+msgid "tooltip/shop/text"
+msgstr "Ansaitse terässinettejä suoriutumalla tehokkaasti taistelussa, sijoittumalla korkealle taistelun tuloksissa ja suorittamalla tehtäviä."
+
+msgid "tooltip/shop/title"
+msgstr "Teräksen metsästäjän kauppa"
+
+msgid "upgrades/description"
+msgstr "Aiheuta vahinkoa vihollisvaunuihin ja kerää sotasaalista kartalta saadaksesi kokemusta ja edetäksesi läpi tasojen. Kukin saavutettu taso mahdollistaa moduulin päivittämisen päivitysvalikossa ja parantaa merkittävästi vaunusi ominaisuuksia."
+
+msgid "upgrades/footer"
+msgstr "Moduuleja voi päivittää vain taistelussa."
+
+msgid "upgrades/subtitle"
+msgstr "Lähdet taisteluun tason I vaunulla."
+
+msgid "upgrades/title"
+msgstr "Vaunu päivittyy taistelussa"

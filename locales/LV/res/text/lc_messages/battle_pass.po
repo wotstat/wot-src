@@ -1,0 +1,1652 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+
+msgid "awardsWidget/description/award"
+msgstr "Noklikšķiniet, lai izvēlētos un iegūtu jūsu balvas."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Balvas īslaicīgi nav pieejamas. Mēs atvainojamies par neērtībām."
+
+msgid "awardsWidget/description/coin"
+msgstr "Noklikšķiniet, lai skatītu vērtīgus priekšmetus par Kaujas Caurlaides Tokeniem."
+
+msgid "awardsWidget/description/collection"
+msgstr "Noklikšķiniet, lai skatītu Kaujas Caurlaides Kolekciju."
+
+msgid "awardsWidget/description/collectionCompleted"
+msgstr "Apsveicam! Jūs savācāt visus Kaujas Caurlaides Kolekcijas Elementus."
+
+msgid "awardsWidget/description/commander"
+msgstr "Nospiediet, lai skatītu visus pasākuma apkalpes locekļus."
+
+msgid "awardsWidget/description/taler"
+msgstr "Nospiediet, lai skatītu priekšmetus no iepriekšējām Kaujas Caurlaides Sezonām, kas pieejami par Čipiem vai zeltu."
+
+msgid "awardsWidget/description/ticket"
+msgstr "Nospiediet, lai nokasītu Kuponu un saņemtu balvas."
+
+msgid "awardsWidget/title/awardMultiple"
+msgstr "IEGŪT\nBALVAS"
+
+msgid "awardsWidget/title/awardSingle"
+msgstr "IEGŪT\nBALVU"
+
+msgid "awardsWidget/title/coin"
+msgstr "PRIEKŠMETI PAR TOKENIEM"
+
+msgid "awardsWidget/title/collection"
+msgstr "KOLEKCIJA"
+
+msgid "awardsWidget/title/commander"
+msgstr "APKALPES LOCEKĻI"
+
+msgid "awardsWidget/title/taler"
+msgstr "SEIFS"
+
+msgid "awardsWidget/title/ticket"
+msgstr "NOKASIET\nKUPONUS"
+
+msgid "battleBonusX5"
+msgstr "Misijas par ×5 pieredzei"
+
+msgid "battlePassAwardsView/additionalRewards/bpBuyLevelAwardsText"
+msgstr "Jūs saņēmāt Uzlaboto Balvu par Galvenās Progresa Stadijas izpildi. Turpiniet pelnīt Punktus, lai saņemtu vairāk balvu."
+
+msgid "battlePassAwardsView/additionalRewards/bpRemainLevelsAwardsText"
+msgstr "%(remainingAwardsCount)s Vēl"
+
+msgid "battlePassAwardsView/additionalRewards/button"
+msgstr "Tieši tā!"
+
+msgid "battlePassAwardsView/additionalRewards/seeMoreButtonText"
+msgstr "Skatīt Balvas"
+
+msgid "battlePassAwardsView/additionalRewards/subText"
+msgstr "Jūs arī saņēmāt:"
+
+msgid "battlePassAwardsView/footer/acceptButton"
+msgstr "Tieši tā!"
+
+msgid "battlePassAwardsView/footer/allChaptersText"
+msgstr "Jūs atslēdzāt visas Uzlabotās Caurlaides balvas trīs Nodaļām."
+
+msgid "battlePassAwardsView/footer/boughtChapterText"
+msgstr "Visas balvas par nopirkto Stadiju ir pieejamas jums."
+
+msgid "battlePassAwardsView/footer/bpButtonTitle"
+msgstr "Pērciet Uzlaboto Caurlaidi"
+
+msgid "battlePassAwardsView/footer/bpDescriptionGotStyle"
+msgstr "Katra nodaļas sākumā jūs saņemat stilu, kuru varat uzlabot, progresējot caur nodaļu. Nepabeigtus stilus var uzlabot pat pēc pašreizējās Kaujas Caurlaides sezonas beigām."
+
+msgid "battlePassAwardsView/footer/bpInProgressTitle"
+msgstr "Pērciet Uzlaboto Caurlaidi pašreizējai Nodaļai, lai saņemtu Uzlabotās Balvas par jau izpildītām Stadijām. Jūs arī saņemsiet Uzlabotās Balvas par nākotnes Stadiju izpildi."
+
+msgid "battlePassAwardsView/footer/bpLastStagesTitle"
+msgstr "Pērciet Uzlaboto Caurlaidi pašreizējai Nodaļai, lai nekavējoties saņemtu Uzlabotas Balvas par jau izpildītām Stadijām."
+
+msgid "battlePassAwardsView/footer/bpMoreTitle"
+msgstr "VĒL IR IESPĒJA!"
+
+msgid "battlePassAwardsView/footer/bpTitle"
+msgstr "UZLABOTA CAURLAIDE"
+
+msgid "battlePassAwardsView/footer/getRewardsButton"
+msgstr "Iegūstiet Balvas"
+
+msgid "battlePassAwardsView/footer/postProgressionButton"
+msgstr "Uz Elites Ķēdi"
+
+msgid "battlePassAwardsView/footer/postProgressionText"
+msgstr "Jūs tagad variet piekļūt Elites Ķēdei"
+
+msgid "battlePassAwardsView/header/bpAllChapters"
+msgstr "Visas Nodaļas"
+
+msgid "battlePassAwardsView/header/bpBoughtText"
+msgstr "UZLABOTA CAURLAIDE NOPIRKTA!"
+
+msgid "battlePassAwardsView/header/bpFinalLevelText"
+msgstr "FINĀLA STADIJA IZPILDĪTA!"
+
+msgid "battlePassAwardsView/header/bpLevelReceivedText"
+msgstr "STADIJA %(currentLevel)s IZPILDĪTA!"
+
+msgid "battlePassAwardsView/header/bpLevelsText"
+msgstr "BALVAS SAŅEMTAS"
+
+msgid "battlePassAwardsView/header/bpRewardText"
+msgstr "BALVA SAŅEMTA"
+
+msgid "battlePassAwardsView/header/bpTitle"
+msgstr "KAUJAS CAURLAIDE: %(chapter)s NODAĻA"
+
+msgid "battlePassAwardsView/header/bpTitleWithoutChapter"
+msgstr "KAUJAS CAURLAIDE"
+
+msgid "battlePassAwardsView/header/styleReceivedText"
+msgstr "STILS SAŅEMTS"
+
+msgid "battlePassAwardsView/header/styleUpgradedText"
+msgstr "STILS UZLABOTS"
+
+msgid "battlePassAwardsView/mainReward/battlePassNewDeviceGiftToken"
+msgstr "Standarta Iekārtas Izvēlei"
+
+msgid "battlePassAwardsView/mainReward/battlePassTrophyGiftToken"
+msgstr "Balvu Iekārtas Izvēlei"
+
+msgid "battlePassAwardsView/mainReward/bpBuyAwardsCaption"
+msgstr "Jūs atslēdzāt visas Uzlabotās Caurlaides balvas %(chapter)s Nodaļai."
+
+msgid "battlePassAwardsView/mainReward/bpBuyWithLevels"
+msgstr "Jūs saņēmāt visas balvas par %(chapter)s Nodaļu."
+
+msgid "battlePassAwardsView/mainReward/commander"
+msgstr "Apkalpes loceklis: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonText"
+msgstr "Iet uz Izvēli"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonTitle"
+msgstr "Noliktavas Māju Piegāžu sekcijā"
+
+msgid "battlePassAwardsView/mainReward/reward"
+msgstr "Medaļa: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/style"
+msgstr "3D stils: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/styleLevel1"
+msgstr "%(styleName)s stila pirmais Līmenis"
+
+msgid "battlePassAwardsView/mainReward/styleLevel2"
+msgstr "%(styleName)s stila jauns Līmenis"
+
+msgid "battlePassAwardsView/mainReward/styleLevel3"
+msgstr "%(styleName)s stila maksimālais Līmenis"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonText"
+msgstr "Iet uz Izvēli"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonTitle"
+msgstr "Noliktavas Māju Piegāžu sekcijā"
+
+msgid "battlePassBuyLevels/chapter"
+msgstr "%(name)s nodaļa"
+
+msgid "battlePassBuyLevels/levelsSelected"
+msgid_plural "plural/battlePassBuyLevels/levelsSelected"
+msgstr[0] "%(count)s posms priekš"
+msgstr[1] "%(count)s posmi priekš"
+msgstr[2] "%(count)s posmiem priekš"
+
+msgid "battlePassBuyView/btnCancel"
+msgstr "Atcelt"
+
+msgid "battlePassBuyView/btnRewards"
+msgstr "Skatīt visus\n%(count)s Atlīdzības"
+
+msgid "battlePassBuyView/confirm/btnBuy"
+msgstr "Pirkt"
+
+msgid "battlePassBuyView/confirm/checkbox/stage"
+msgid_plural "plural/battlePassBuyView/confirm/checkbox/stage"
+msgstr[0] "Kopā ar %(stagesNumber)s atlikušajiem posmu"
+msgstr[1] "Kopā ar %(stagesNumber)s atlikušajiem posmiem"
+msgstr[2] "Kopā ar %(stagesNumber)s atlikušajiem posmiem"
+
+msgid "battlePassBuyView/confirm/description"
+msgstr "Uzlabotā caurlaide atbloķē:"
+
+msgid "battlePassBuyView/confirm/descriptionCheckboxChecked"
+msgstr "Jūs saņemsiet visas Nodaļas balvas nekavējoties:"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/buy"
+msgstr "Skatīt piedāvājumus"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/description"
+msgstr "Šis piedāvājums ir derīgs, kamēr neviens\nno Sezonas Nodaļām nav Uzlabots."
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/headline"
+msgstr "%(count)s vienā"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/packsAmount"
+msgstr "x%(amount)s"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/title"
+msgstr "Uzlabotas caurlaides\nvisām Sezonas nodaļām"
+
+msgid "battlePassBuyView/confirm/starterPack/description"
+msgstr "Bonuss %(purchaseText)s"
+
+msgid "battlePassBuyView/confirm/starterPack/purchaseText"
+msgstr "pērkot:"
+
+msgid "battlePassBuyView/descr"
+msgstr "Iegādājoties progresijas posmu, tas uzreiz atbloķē un piešķir jums visas šajā posmā iekļautās balvas."
+
+msgid "battlePassBuyView/reward/descriptionFutureRewards"
+msgstr "Šīs balvas tiks sniegtas jums pēc nākošo Stadiju izpildes."
+
+msgid "battlePassBuyView/reward/descriptionNowRewards"
+msgstr "Sekojošās balvas tiks sniegtas jums par %(steps)s Stadijām"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
+msgstr "Jūs saņemsiet sekojošās balvas nekavējoties"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
+msgstr "Sekojošās balvas tiks sniegta jums par %(steps)s Stadiju"
+
+msgid "battlePassBuyView/reward/titleFutureRewards"
+msgstr "TIKS ATSLĒGTAS"
+
+msgid "battlePassBuyView/reward/titleNowRewards"
+msgstr "TIKS SAŅEMTAS NEKAVĒJOTIES"
+
+msgid "battlePassStatus/activateChapter"
+msgstr "Aktivizēt Kaujas Caurlaides nodaļu."
+
+msgid "battlePassStatus/improve"
+msgstr "Jūs joprojām varat iegādāties Uzlaboto Caurlaidi."
+
+msgid "battlePassVehicleAwardView/button"
+msgstr "Tieši tā!"
+
+msgid "battlePassVehicleAwardView/content/description"
+msgstr "PUNKTU IEROBEŽOJUMS SASNIEGTS"
+
+msgid "battlePassVehicleAwardView/content/postTitle"
+msgstr "KAUJAS CAURLAIDES ELITES PROGRESS"
+
+msgid "battlePassVehicleAwardView/content/subTitle"
+msgstr "Jūs saņēmāt balvas:"
+
+msgid "battlePassVehicleAwardView/content/title"
+msgstr "KAUJAS CAURLAIDE"
+
+msgid "battlepassTab"
+msgstr "Kaujas Caurlaide"
+
+msgid "chapter/fullName/10021"
+msgstr "Carmen de Bisonte"
+
+msgid "chapter/fullName/1114"
+msgstr "Carmen de Bisonte"
+
+msgid "chapter/fullName/200"
+msgstr "ELITES ĶĒDE"
+
+msgid "chapter/fullName/201"
+msgstr "Apraktais laiks"
+
+msgid "chapter/fullName/202"
+msgstr "C'est Notre Destin"
+
+msgid "chapter/fullName/203"
+msgstr "Tuksneša pavēle"
+
+msgid "chapter/fullName/205"
+msgstr "Far Cry"
+
+msgid "chapter/fullNameUppercased/10021"
+msgstr "CARMEN DE BISONTE"
+
+msgid "chapter/fullNameUppercased/1114"
+msgstr "CARMEN DE BISONTE"
+
+msgid "chapter/fullNameUppercased/201"
+msgstr "APRAKTAIS LAIKS"
+
+msgid "chapter/fullNameUppercased/202"
+msgstr "C'EST NOTRE DESTIN"
+
+msgid "chapter/fullNameUppercased/203"
+msgstr "TUKSNEŠA PAVĒLE"
+
+msgid "chapter/fullNameUppercased/205"
+msgstr "FAR CRY"
+
+msgid "chapter/title"
+msgstr "NODAĻA %(chapter)s"
+
+msgid "chapterChoice/about"
+msgstr "PAR KAUJAS CAURLAIDI"
+
+msgid "chapterChoice/activeChapter/postprogression/text"
+msgstr "Uzsākta"
+
+msgid "chapterChoice/activeChapter/text"
+msgstr "Aktīva Nodaļa"
+
+msgid "chapterChoice/chapterCompleted"
+msgstr "Nodaļa izpildīta"
+
+msgid "chapterChoice/chapterInfo/buttons/toChapter"
+msgstr "Uz nodaļu"
+
+msgid "chapterChoice/chapterInfo/buttons/toCrewMembers"
+msgstr "Skatīt apkalpes locekļus"
+
+msgid "chapterChoice/chapterInfo/buttons/toPostProgression"
+msgstr "Uz Progresu"
+
+msgid "chapterChoice/chapterInfo/deadline/date"
+msgstr "Ilgs līdz %(endDate)s"
+
+msgid "chapterChoice/chapterInfo/deadline/time"
+msgstr "Beigsies pēc %(endTime)s"
+
+msgid "chapterChoice/confirmation/button/cancel"
+msgstr "Atcelt"
+
+msgid "chapterChoice/confirmation/button/submit"
+msgstr "Aktivizēt"
+
+msgid "chapterChoice/confirmation/button/switch"
+msgstr "Mainīt"
+
+msgid "chapterChoice/confirmation/description/select"
+msgstr "Jūs variet mainīt uz citām Nodaļām jebkurā laikā."
+
+msgid "chapterChoice/confirmation/description/switch"
+msgstr "Jūs jau esiet aktivizējis \"%(chName)s\" Nodaļu. Tā tiks apturēta."
+
+msgid "chapterChoice/confirmation/extraChapterDescription/highlightText"
+msgstr "nebūs pieejams"
+
+msgid "chapterChoice/confirmation/extraChapterDescription/text"
+msgstr "%(icon)Pēc Īpašās Nodaļas aktivizēšanas, Elites Ķēde %(highlightText) līdz nākamajai Nodaļai ir beigusies vai jūs variet pabeigt tās Progresiju."
+
+msgid "chapterChoice/confirmation/title/select"
+msgstr "Aktivizēt \"%(chName)s\" Nodaļu?"
+
+msgid "chapterChoice/confirmation/title/switch"
+msgstr "Mainīt uz \"%(chName)s\" Nodaļu?"
+
+msgid "chapterChoice/crewMember/reward"
+msgstr "Apkalpes Locekļi"
+
+msgid "chapterChoice/crewMember/reward/subTitle"
+msgstr "un citi apkalpes locekļi iekšā"
+
+msgid "chapterChoice/eliteCircuit/reward/subTitle"
+msgstr "cikliskā Progresa ietvaros"
+
+msgid "chapterChoice/eliteCircuit/reward/title"
+msgstr "Bonas, Žetoni un Kuponi"
+
+msgid "chapterChoice/extraChapter/reward"
+msgstr "Premium Tanks"
+
+msgid "chapterChoice/freePoints/text"
+msgstr "Neiztērēti Punkti"
+
+msgid "chapterChoice/freePoints/tooltip/body"
+msgstr "Punkti tiek uzkrāti Kaujas caurlaides gaitā pat tad, ja neviena nodaļa nav aktivizēta. Pēc nodaļas aktivizēšanas punkti tiek ieskaitīti tās progresā."
+
+msgid "chapterChoice/freePoints/tooltip/header"
+msgstr "Neiztērēti Kaujas Caurlaides Punkti"
+
+msgid "chapterChoice/postprogression/locked"
+msgstr "Pabeidz visas {{count}} sezonas\nnodaļas, lai atbloķētu "
+
+msgid "chapterChoice/postprogression/name"
+msgstr "ELITES ĶĒDE"
+
+msgid "chapterChoice/postprogression/unlocked/cycle"
+msgstr "Cikls %(cycle)s"
+
+msgid "chapterChoice/stages/additional"
+msgstr " / %(level)s Posmi"
+
+msgid "chapterChoice/stages/complete/improved"
+msgstr "Pabeigts un uzlabots"
+
+msgid "chapterChoice/stages/complete/unimproved"
+msgstr "Vēl %(count)s atlīdzības iekšā"
+
+msgid "chapterChoice/stylePreview/reward/subTitle"
+msgstr "priekš %(vehicleName)s"
+
+msgid "chapterChoice/stylePreview/reward/title"
+msgstr "%(styleName)s 3D stils"
+
+msgid "chapterChoice/vehicle/reward/subTitle"
+msgstr "%(vehicleName)s"
+
+msgid "chapterChoice/vehicle/reward/title"
+msgstr "Premium Tanks"
+
+msgid "chapterChoice/vehicleStyle/reward/subTitle"
+msgstr "un %(styleName)s 3D stils"
+
+msgid "chapterChoice/vehicleStyle/reward/title"
+msgstr "%(vehicleName)s"
+
+msgid "chapterStatus/notSelected"
+msgstr "Nodaļa nav izvēlēta"
+
+msgid "chosenBonuses/bonus/battle_booster_gift"
+msgstr "Direktīvas Izvēlei"
+
+msgid "chosenBonuses/bonus/blueprint_gift"
+msgstr "Nacionālie Plānu Fragmenti Izvēlei"
+
+msgid "chosenBonuses/bonus/brochure_gift"
+msgstr "Treniņa Bukleti Izvēlei"
+
+msgid "chosenBonuses/bonus/crewbook_gift"
+msgstr "Treniņa Rokasgrāmatas Izvēlei"
+
+msgid "chosenBonuses/bonus/guide_gift"
+msgstr "Treniņa Gidi Izvēlei"
+
+msgid "chosenBonuses/bonus/modernized_device_gift"
+msgstr "Eksperimentālās Iekārtas no Kurām Izvēlēties"
+
+msgid "chosenBonuses/bonus/new_device_gift"
+msgstr "Standarta Iekārtas Izvēlei"
+
+msgid "chosenBonuses/bonus/trophy_gift"
+msgstr "Balvu Iekārtas Izvēlei"
+
+msgid "common/collectionText"
+msgstr "(Kolekcijas Elements)"
+
+msgid "common/comma"
+msgstr ", "
+
+msgid "common/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "commonProgression/body/ended"
+msgstr "Kaujas Caurlaides Sezona ir beigusies"
+
+msgid "crewBonusX3"
+msgstr "Misija par ×3 Apkalpes Pieredzi"
+
+msgid "equipCoinBonus"
+msgstr "Komponentes: %(count)s"
+
+msgid "finalReward/tankman/roles/commander"
+msgstr "Komandieris"
+
+msgid "finalReward/tankman/roles/driver"
+msgstr "Vadītājs"
+
+msgid "finalReward/tankman/roles/gunner"
+msgstr "Šāvējs"
+
+msgid "finalReward/tankman/roles/loader"
+msgstr "Lādētājs"
+
+msgid "finalReward/tankman/roles/radioman"
+msgstr "Sakarnieks"
+
+msgid "holidayFinalScreen/buyState/buyButton"
+msgstr "Pērciet Uzlaboto Caurlaidi"
+
+msgid "holidayFinalScreen/buyState/description"
+msgstr "Nopērkot Uzlaboto Caurlaidi, jūs nekavējoties saņemsiet Premium tanku ar unikālu 3D stilu un visas Uzlabotās Caurlaides Balvas."
+
+msgid "holidayFinalScreen/buyState/moreRewards"
+msgstr "Citas Balvas: %(count)s"
+
+msgid "holidayFinalScreen/buyState/title"
+msgstr "Iegūstiet Uzlabotās Caurlaides Balvas"
+
+msgid "holidayFinalScreen/chapter"
+msgstr "%(chapterName)s"
+
+msgid "holidayFinalScreen/completed"
+msgstr "NODAĻA PABEIGTA"
+
+msgid "holidayFinalScreen/finalState/button/showHangar"
+msgstr "Atpakaļ uz Garāžu"
+
+msgid "holidayFinalScreen/finalState/button/showVehicle"
+msgstr "Skatīt Garāžā"
+
+msgid "holidayFinalScreen/finalState/label"
+msgstr "Visas pasākuma balvas saņemtas"
+
+msgid "holidayFinalScreen/selectableRewardsState/button"
+msgstr "Iegūstiet Balvas"
+
+msgid "holidayFinalScreen/selectableRewardsState/label"
+msgstr "Jums vēl ir pieejamas balvas, no kā izvēlēties."
+
+msgid "holidayFinalScreen/tankmenState/description"
+msgstr "Pasākuma laikā, saišķi, kas satur unikālus apkalpes locekļus, ir pieejami Veikalā."
+
+msgid "holidayFinalScreen/tankmenState/tankmenButton"
+msgstr "Klausieties Balsis"
+
+msgid "holidayFinalScreen/tankmenState/title"
+msgstr "Savāciet Visus Apkalpes Locekļus!"
+
+msgid "howToEarnPoints/battleRoyal/platoon"
+msgstr "Vadā"
+
+msgid "howToEarnPoints/battleRoyal/solo"
+msgstr "Solo"
+
+msgid "howToEarnPoints/battleTypeTitle/1"
+msgstr "Nejauša Kauja"
+
+msgid "howToEarnPoints/battleTypeTitle/27"
+msgstr "Frontes Līnija"
+
+msgid "howToEarnPoints/battleTypeTitle/29"
+msgstr "Tērauda Mednieks"
+
+msgid "howToEarnPoints/battleTypeTitle/43"
+msgstr "Uzbrukums"
+
+msgid "howToEarnPoints/battleTypeTitle/49"
+msgstr "Vieglais Uzbrukums"
+
+msgid "howToEarnPoints/bonus"
+msgstr "+%(bonus)s"
+
+msgid "howToEarnPoints/card/battle/linkText"
+msgstr "Iet uz Misijām"
+
+msgid "howToEarnPoints/card/battle/text"
+msgstr "Izpildiet misijas Tērauda Medniekā un pelniet papildus Punktus."
+
+msgid "howToEarnPoints/card/battle/title"
+msgstr "Ikdienas Misijas"
+
+msgid "howToEarnPoints/card/comp7/text"
+msgstr "Izpildiet misijas Uzbrukuma režīmā un pelniet papildus Punktus."
+
+msgid "howToEarnPoints/card/comp7/title"
+msgstr "Ikdienas Misijas"
+
+msgid "howToEarnPoints/card/comp7Light/text"
+msgstr "Izpildi misijas Vieglā Uzbrukuma režīmā un nopelni papildu Punktus."
+
+msgid "howToEarnPoints/card/comp7Light/title"
+msgstr "Ikdienas Misijas"
+
+msgid "howToEarnPoints/card/daily/linkText"
+msgstr "Skatīt misijas"
+
+msgid "howToEarnPoints/card/daily/text"
+msgstr "Nopelni vēl vairāk punktu, izpildot ikdienas misijas."
+
+msgid "howToEarnPoints/card/daily/title"
+msgstr "Ikdienas Misijas"
+
+msgid "howToEarnPoints/card/epicBattlePoints/text"
+msgstr "Par Frontes Līnijas Līmeņu sasniegšanu jūs pelnīsiet papildus Kaujas Caurlaides Punktus."
+
+msgid "howToEarnPoints/card/epicBattlePoints/title"
+msgstr "Balva par Frontes Līnijas Līmeņiem"
+
+msgid "howToEarnPoints/card/limitPoints/text"
+msgstr "Katram tankam ir punktu ierobežojums. Sasniedzot šo ierobežojumu, var nopelnīt papildu punktus."
+
+msgid "howToEarnPoints/card/limitPoints/title"
+msgstr "Punktu Ierobežojuma Balva"
+
+msgid "howToEarnPoints/card/specialVehicle/text"
+msgstr "Cīnoties Sezonas Kodola Tankos, jūs pelnīsiet papildus Punktus."
+
+msgid "howToEarnPoints/card/specialVehicle/title"
+msgstr "Sezonas Pamata Tanki"
+
+msgid "howToEarnPoints/condition/43"
+msgstr "Ar Prestiža punktiem"
+
+msgid "howToEarnPoints/condition/49"
+msgstr "Ar Prestiža punktiem"
+
+msgid "howToEarnPoints/condition/default"
+msgstr "Rezultāts pēc XP"
+
+msgid "howToEarnPoints/conditions"
+msgstr "Nopelnīšanās nosacījumi"
+
+msgid "howToEarnPoints/description"
+msgstr "Virzieties cauri nodaļām un saņemiet balvas, nopelnot Kaujas Caurlaides punktus dažādos režīmos:"
+
+msgid "howToEarnPoints/earned"
+msgstr "{{icon}}"
+
+msgid "howToEarnPoints/extraPoints"
+msgstr "Papildu punkti"
+
+msgid "howToEarnPoints/lose/1"
+msgstr "Sakāve / Neizšķirts"
+
+msgid "howToEarnPoints/lose/27"
+msgstr "Sakāve"
+
+msgid "howToEarnPoints/lose/43"
+msgstr "Sakāve / Neizšķirts"
+
+msgid "howToEarnPoints/lose/49"
+msgstr "Sakāve / Neizšķirts"
+
+msgid "howToEarnPoints/plusBanner/line1"
+msgstr "Ar %(link)s nopelniet vairāk punktu"
+
+msgid "howToEarnPoints/plusBanner/line2"
+msgstr "visām regulārajām nodaļām."
+
+msgid "howToEarnPoints/plusBanner/link"
+msgstr "WoT Plus Pro"
+
+msgid "howToEarnPoints/points"
+msgstr "Punkti"
+
+msgid "howToEarnPoints/rangeLevels/29"
+msgstr "Pozīcijas %(startLevel)d–%(endLevel)d"
+
+msgid "howToEarnPoints/rating"
+msgstr "Labākās %(place)d"
+
+msgid "howToEarnPoints/rating/1"
+msgstr "Top %(level)d pēc Pieredzes"
+
+msgid "howToEarnPoints/rating/27"
+msgstr "Top %(level)d pēc Pieredzes"
+
+msgid "howToEarnPoints/rating/29"
+msgstr "Top %(level)d pēc Pieredzes"
+
+msgid "howToEarnPoints/rating/43"
+msgstr "Top %(level)d pēc Prestiža Punktiem"
+
+msgid "howToEarnPoints/rating/49"
+msgstr "Top %(level)d pēc Prestiža Punktiem"
+
+msgid "howToEarnPoints/singleLevel/29"
+msgstr "Pozīcija %(level)d"
+
+msgid "howToEarnPoints/solo/29"
+msgstr "Solo Spēlēšana"
+
+msgid "howToEarnPoints/squad/29"
+msgstr "Vada Spēlēšana"
+
+msgid "howToEarnPoints/text/1"
+msgstr "Līmeņi %(startLevel)s–%(endLevel)s"
+
+msgid "howToEarnPoints/text/27"
+msgstr "Līmenis %(level)s"
+
+msgid "howToEarnPoints/text/29"
+msgstr "Īpaši tanki"
+
+msgid "howToEarnPoints/text/43"
+msgstr "Līmenis %(level)s"
+
+msgid "howToEarnPoints/text/49"
+msgstr "Līmenis %(level)s"
+
+msgid "howToEarnPoints/title"
+msgstr "Ka pelnīt punktus"
+
+msgid "howToEarnPoints/vehicle"
+msgstr "Tanks"
+
+msgid "howToEarnPoints/vehicles"
+msgstr "Īpaši tanki"
+
+msgid "howToEarnPoints/win/1"
+msgstr "Uzvara"
+
+msgid "howToEarnPoints/win/27"
+msgstr "Uzvara"
+
+msgid "howToEarnPoints/win/43"
+msgstr "Uzvara"
+
+msgid "howToEarnPoints/win/49"
+msgstr "Uzvara"
+
+msgid "intro/affirmative/button"
+msgstr "Sapratu!"
+
+msgid "intro/next/button"
+msgstr "Nākamais"
+
+msgid "intro/seasonDescription/text"
+msgstr "Kaujas Caurlaide XVIII sezonā jums būs iespēja saņemt ekskluzīvus 3D stilus sezonas galvenajiem tankiem: Maus, IS-7 un AMX&nbsp;50&nbsp;B."
+
+msgid "intro/seasonDescription/title"
+msgstr "Jauni tematiski 3D stili"
+
+msgid "intro/title"
+msgstr "XVIII SEZONA: CEĻŠ UZ PILNĪBU"
+
+msgid "lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "navigation/buyLevels"
+msgstr "STADIJAS PIRKŠANA"
+
+msgid "navigation/buyLevelsRewards"
+msgstr "STADIJAS BALVAS"
+
+msgid "navigation/buyPass"
+msgstr "UZLABOTAS CAURLAIDES IEGĀDE"
+
+msgid "navigation/buyPassConfirm"
+msgstr "UZLABOTĀS CAURLAIDES PIRKŠANA"
+
+msgid "navigation/buyPassRewards"
+msgstr "UZLABOTAS CAURLAIDES BALVAS"
+
+msgid "navigation/chapterChoice"
+msgstr "KAUJAS CAURLAIDES %(seasonNum)s SEZONA"
+
+msgid "navigation/holidayFinal"
+msgstr "KAUJAS CAURLAIDE"
+
+msgid "navigation/intro"
+msgstr "KAUJAS CAURLAIDES %(seasonNum)s SEZONA"
+
+msgid "navigation/postProgression"
+msgstr "KAUJAS CAURLAIDES ELITES TRASE"
+
+msgid "navigation/progression"
+msgstr "KAUJAS CAURLAIDES NODAĻA"
+
+msgid "navigation/tankmenScreen"
+msgstr "UNIKĀLI APKALPES LOCEKĻI"
+
+msgid "points/top"
+msgstr "%(vehicle): %(bonus) priekš %(top) pēc XP."
+
+msgid "points/topCount"
+msgstr "top %(top)s"
+
+msgid "points/transfer"
+msgstr "Pievienoti bezmaksas punkti:"
+
+msgid "postProgressionView/footer/button/text"
+msgstr "Uz Nodaļām"
+
+msgid "postProgressionView/footer/description/text"
+msgstr "Pieejams, kad visas Nodaļas ir pabeigtas. Nodaļas pabeigtas: %(completedChapters)/%(chaptersAmount)"
+
+msgid "postProgressionView/footer/extraChapter/description/text"
+msgstr "Iegūstiet Premium tehniku un ekskluzīvus pielāgošanas elementus."
+
+msgid "postProgressionView/footer/extraChapter/title/text"
+msgstr "Kaujas Caurlaide: Far Cry ir klāt!"
+
+msgid "postProgressionView/footer/purchaseIP/banner/text"
+msgstr "Pērc Uzlaboto Caurlaidi priekš vairāk balvām!"
+
+msgid "postProgressionView/footer/purchaseIP/button/text"
+msgstr "Pirkt"
+
+msgid "postProgressionView/header/description/active"
+msgstr "Nopelniet Punktus kaujā un saņemiet bonas un Kuponus kā balvu"
+
+msgid "postProgressionView/header/description/onPause/highlight"
+msgstr "APTURĒTS."
+
+msgid "postProgressionView/header/description/onPause/regular"
+msgstr "Būs pieejams pēc Īpašās Nodaļas Progresijas pabeigšanas."
+
+msgid "postProgressionView/header/headline/deadline"
+msgstr "Ilgs līdz %(endDate)s"
+
+msgid "postProgressionView/header/headline/unlocked"
+msgstr "Visas Nodaļas pabeigtas"
+
+msgid "postProgressionView/header/title"
+msgstr "ELITES ĶĒDE"
+
+msgid "postProgressionView/progression/currentStep"
+msgstr "Pašreizējā Stadija"
+
+msgid "postProgressionView/progression/cyclesCompleted"
+msgstr "Cikli pabeigti:"
+
+msgid "postProgressionView/progression/cyclicalProgression"
+msgstr "Cikliska Progresija"
+
+msgid "postProgressionView/toolbar/aboutBattlePass"
+msgstr "PAR KAUJAS CAURLAIDI"
+
+msgid "postProgressionView/toolbar/howToEarnPoints"
+msgstr "KA PELNĪT PUNKTUS"
+
+msgid "prestige/top"
+msgstr "%(vehicle): %(bonus) par būšanu starp %(top) spēlētājiem pēc nopelnītajiem Prestiža Punktiem."
+
+msgid "progression/about"
+msgstr "PAR KAUJAS CAURLAIDI"
+
+msgid "progression/aboutExtra"
+msgstr "PAR PASĀKUMU"
+
+msgid "progression/activateChapter"
+msgstr "Aktīva Nodaļa"
+
+msgid "progression/activateChapterDescr"
+msgstr "Jūs saņemsiet Kaujas Caurlaides Punktus un citas vērtīgas balvas par aktīvās Nodaļas izpildi."
+
+msgid "progression/activateExtraChapterDescr"
+msgstr "Jūs saņemsiet Kaujas Caurlaides Punktus un citas vērtīgas balvas par aktīvās Nodaļas izpildi."
+
+msgid "progression/activatePausedExtraChapterDescr"
+msgstr "Jūs saņemsiet Kaujas Caurlaides Punktus un vērtīgas balvas par aktīvās Nodaļas izpildi."
+
+msgid "progression/backToCurrentStageArrow/descr"
+msgstr "Noklikšķiniet, lai ietu uz pašreizējo Stadiju."
+
+msgid "progression/backToPotentialStageArrow/descr"
+msgstr "Noklikšķiniet, lai ietu uz atslēdzamo Stadiju."
+
+msgid "progression/baseProgressionDescr"
+msgstr "PAMATA BALVAS"
+
+msgid "progression/battlePassBuyBtn"
+msgstr "Pērciet Uzlaboto Caurlaidi"
+
+msgid "progression/battlePassBuyDescr"
+msgstr "Uzlabotā caurlaide atbloķē Uzlaboto atlīdzību ceļu pašreizējai nodaļai."
+
+msgid "progression/battlePassBuyDescrStarterPack"
+msgstr "Atslēdziet uzlabotās atlīdzības\nun saņemiet bonusu"
+
+msgid "progression/battlePassBuyHolidayDescr"
+msgstr "Uzlabotā Caurlaide atslēdz Uzlaboto Balvu Ceļu."
+
+msgid "progression/battlePassNextChapterBuyDescr"
+msgstr "Izpildiet iepriekšējo Nodaļu, lai nopirktu Uzlaboto Caurlaidi šai Nodaļai."
+
+msgid "progression/battlePassNextChapterEpisodesDescr"
+msgstr "Izpildiet iepriekšējo Nodaļu, lai nopirktu Stadijas šajā Nodaļā."
+
+msgid "progression/btnExtras"
+msgstr "PAPILDUS\nMATERIĀLI"
+
+msgid "progression/btnExtrasTooltip"
+msgstr "Pabeidziet posmus un atbloķējiet jaunus materiālus. Atbloķētie materiāli: %(opened) / %(total)."
+
+msgid "progression/btnNoExtrasTooltip"
+msgstr "Izpildiet Stadijas un atslēdziet jaunus materiālus."
+
+msgid "progression/btnRewardSelect"
+msgstr "IEGŪT BALVU"
+
+msgid "progression/btnRewardSelectTooltip"
+msgstr "Noklikšķiniet, lai izvēlētos un iegūtu jūsu balvas."
+
+msgid "progression/btnRewardsSelect"
+msgstr "IEGŪT BALVAS"
+
+msgid "progression/btnRewardsUnavailable"
+msgstr "Šī operācija īslaicīgi nav pieejama tehnisku iemeslu dēļ. Mēs strādājam pie problēmas risināšanas."
+
+msgid "progression/btnTokensStore"
+msgstr "PRIEKŠMETI\nPAR TOKENIEM"
+
+msgid "progression/btnTokensStoreTooltip"
+msgstr "Noklikšķiniet, lai skatītu vērtīgus priekšmetus par Kaujas Caurlaides tokeniem.\nPieejamie žetoni: %(bpcoinCount)."
+
+msgid "progression/chapterText"
+msgstr "NODAĻA %(chapter)s: %(chapterName)s"
+
+msgid "progression/currentStep"
+msgstr "Pašreizējā Stadija"
+
+msgid "progression/currentStepLocked"
+msgstr "UZLABOTA BALVA"
+
+msgid "progression/episodeBuyBtn"
+msgstr "Pirkt Stadijas"
+
+msgid "progression/episodeBuyDescr"
+msgstr "Jūs saņemsiet balvas par katru nopirkto Stadiju."
+
+msgid "progression/episodeBuyDisableDescr"
+msgstr "Jūs variet nopirkt jebkādu Stadiju skaitu pēc %(day)"
+
+msgid "progression/error"
+msgstr "Kaujas Caurlaide īslaicīgi nav pieejama tehnisku iemeslu dēļ.\nViss progress tiks saglabāts. Mēs atvainojamies par neērtībām."
+
+msgid "progression/errorBtn"
+msgstr "Uz Garāžu"
+
+msgid "progression/extraChapterWidget/commanderVoices"
+msgstr "Uz Citām"
+
+msgid "progression/extraChapterWidget/forLabel"
+msgstr "Priekš %(vehicleName)s"
+
+msgid "progression/extraChapterWidget/inHangarTooltip"
+msgstr "Garāžā"
+
+msgid "progression/extraChapterWidget/labelWithBP"
+msgstr "Ar Uzlaboto Caurlaidi"
+
+msgid "progression/extraChapterWidget/style3DTitle"
+msgstr "3D Stils"
+
+msgid "progression/extraChapterWidget/styleName"
+msgstr "%(styleName)s"
+
+msgid "progression/extraChapterWidget/styleRemark"
+msgstr "Ar Uzlaboto Caurlaidi"
+
+msgid "progression/extraChapterWidget/styleSubTitle"
+msgstr "un misija priekš %(vehicleName)s"
+
+msgid "progression/extraChapterWidget/styleTitle"
+msgstr "Stils"
+
+msgid "progression/extraChapterWidget/tank"
+msgstr "Premium Tanks"
+
+msgid "progression/extraChapterWidget/tank/description/14"
+msgstr "Lai pieminētu 80 gadus\nkopš D-Dienas"
+
+msgid "progression/extraChapterWidget/tankName"
+msgstr "%(vehicleName)s"
+
+msgid "progression/extraChapterWidget/tankman"
+msgstr "Apkalpes loceklis"
+
+msgid "progression/extraChapterWidget/timer"
+msgstr "Atlikušais laiks pirms Kaujas Caurlaides Nodaļas beigām"
+
+msgid "progression/extraChapterWidget/vehicleCaption"
+msgstr "Premium Tanks"
+
+msgid "progression/extraChapterWidget/vehicleSubTitle"
+msgstr "un %(styleName)s 3D stils"
+
+msgid "progression/extraChapterWidget/voiceoverTooltip"
+msgstr "Nospiediet, lai klausītos apkalpes locekļu balsis."
+
+msgid "progression/footer/starter_pack/equal"
+msgstr "="
+
+msgid "progression/footer/status/inactive"
+msgstr "Nodaļa neaktīva"
+
+msgid "progression/footer/status/paused"
+msgstr "Nodaļa apturēta."
+
+msgid "progression/freePointsDescr"
+msgstr "Neiztērēti Kaujas Caurlaides Punkti: "
+
+msgid "progression/header/chapter/status"
+msgstr "%(chapterName)s Nodaļa"
+
+msgid "progression/header/inactive"
+msgstr "neaktīva"
+
+msgid "progression/header/paused"
+msgstr "apturēta"
+
+msgid "progression/howToEarnPoints/title"
+msgstr "KA PELNĪT PUNKTUS"
+
+msgid "progression/pausedStep"
+msgstr "Stadija"
+
+msgid "progression/postProgressionDescr"
+msgstr "ELITES PROGRESS"
+
+msgid "progression/premiumProgressionDescr"
+msgstr "UZLABOTAS BALVAS"
+
+msgid "progression/progressionArrow"
+msgstr "SKATĪT\nVISAS STADIJAS"
+
+msgid "progression/progressionChapterArrow"
+msgstr "NODAĻA %(chapter)"
+
+msgid "progression/progressionChapterGoTo"
+msgstr "IET UZ"
+
+msgid "progression/season/end/normal"
+msgstr "%(seasonNum)s Sezona: %(seasonName)s ilgs līdz %(endDate)s"
+
+msgid "progression/season/end/special"
+msgstr "Ilgs līdz: %(endTime)s"
+
+msgid "progression/seasonEndingDescr"
+msgstr "Pasākums beidzas pēc "
+
+msgid "progression/seasonEndingTooltip"
+msgstr "Līdz beigām: {day} d"
+
+msgid "progression/takeReward"
+msgstr "Iegūt Balvu"
+
+msgid "progression/universalCommander"
+msgstr "Unikāls Apkalpes Loceklis"
+
+msgid "progression/widget3dStyle/currentStyle"
+msgstr "%(name) stils"
+
+msgid "progression/widget3dStyle/forVehicle"
+msgstr "Priekš "
+
+msgid "progression/widget3dStyle/titleForClosedChapter"
+msgstr "Izpildiet iepriekšējo Nodaļu\nlai izvēlētos stilu"
+
+msgid "progression/widget3dStyle/titleForLastChapter"
+msgstr "Izvēlieties Nodaļas stilu.\nTo var pielietot uzreiz"
+
+msgid "progression/widget3dStyle/titleNoChapterSelected"
+msgstr "Aktivizējiet Nodaļu, lai saņemtu 3D stilu"
+
+msgid "progression/widget3dStyle/viewStyles"
+msgstr "Skatīt Visus Stilus"
+
+msgid "questChainBonus"
+msgstr "Misiju Sērija"
+
+msgid "randomQuestBonus"
+msgstr "Misija priekš %(vehicle)s"
+
+msgid "reward/postBattle/comp7/progress"
+msgstr "Punkti par būšanu starp top spēlētājiem pēc nopelnītajiem Prestiža Punktiem:"
+
+msgid "reward/postBattle/comp7/progress/tooltip"
+msgstr "Punkti par būšanu starp top spēlētājiem pēc nopelnītajiem Prestiža Punktiem: %(points)d"
+
+msgid "reward/postBattle/progress"
+msgstr "Stadijas Progress:"
+
+msgid "reward/postBattle/progress/battle/tooltip"
+msgstr "Par būšanu starp top spēlētājiem"
+
+msgid "reward/postBattle/progress/bonus/tooltip"
+msgstr "Par tanka Punktu Ierobežojuma sasniegšanu"
+
+msgid "reward/postBattle/progress/points"
+msgstr "Kaujas Caurlaide. Punktu Pelnīšana"
+
+msgid "reward/postBattle/progress/points/battle"
+msgstr "Par būšanu starp top spēlētājiem:"
+
+msgid "reward/postBattle/progress/points/bonus"
+msgstr "Par tanka Punktu Ierobežojuma sasniegšanu:"
+
+msgid "reward/postBattle/progress/points/quest"
+msgstr "Par misiju izpildi:"
+
+msgid "reward/postBattle/progress/points/wotPlusCore"
+msgstr "WoT Plus Pro bonuss:"
+
+msgid "reward/postBattle/progress/points/wotPlusPro"
+msgstr "WoT Plus Pro bonuss:"
+
+msgid "reward/postBattle/progress/pointsAux"
+msgstr "Nopelnīti punkti:"
+
+msgid "reward/postBattle/progress/pointsAux/tooltip"
+msgstr "Bezmaksas Punkti pievienoti"
+
+msgid "reward/postBattle/progress/quests/tooltip"
+msgstr "Par misiju izpildi"
+
+msgid "reward/postBattle/progress/tooltip"
+msgstr "Stadijas Progress"
+
+msgid "reward/postBattle/title"
+msgstr "Stadija %(level)d no %(chapter)s Nodaļas"
+
+msgid "reward/postBattle/title/free"
+msgstr "Kaujas Caurlaide: Bezmaksas Punktu Pelnīšana"
+
+msgid "reward/postBattle/title/postProgression"
+msgstr "Elites Ķēdes %(level)d Stadija"
+
+msgid "rewardChoice/crewBook/rewardDescription"
+msgstr "pieredze katram izvēlētajam %(nation)s tanka apkalpes loceklim"
+
+msgid "rewardChoice/subTitle"
+msgstr "IZVĒLIETIES JŪSU BALVU"
+
+msgid "rewardChoice/title"
+msgstr "KAUJAS CAURLAIDE"
+
+msgid "rewardChoice/titleChapter"
+msgstr "KAUJAS CAURLAIDE: %(chapter)s NODAĻA"
+
+msgid "rewardChoice/titleChapterLevel"
+msgstr "KAUJAS CAURLAIDE: %(chapter)s NODAĻA, STADIJA %(level)s"
+
+msgid "season/fullName/1002"
+msgstr "Carmen de Bisonte"
+
+msgid "season/fullName/20"
+msgstr "Meklējot smiltis"
+
+msgid "season/fullNameUppercased/1002"
+msgstr "CARMEN DE BISONTE"
+
+msgid "season/fullNameUppercased/20"
+msgstr "MEKLĒJOT SMILTIS"
+
+msgid "selectBonus/battle_booster_gift"
+msgstr "Direktīvas Izvēlei"
+
+msgid "selectBonus/blueprint_gift"
+msgstr "Plānu Fragmenti Izvēlei"
+
+msgid "selectBonus/brochure_gift"
+msgstr "Treniņa Bukleti Izvēlei"
+
+msgid "selectBonus/crewbook_gift"
+msgstr "Treniņa Rokasgrāmatas Izvēlei"
+
+msgid "selectBonus/guide_gift"
+msgstr "Treniņa Gidi Izvēlei"
+
+msgid "selectBonus/modernized_device_gift"
+msgstr "Eksperimentālās Iekārtas no Kurām Izvēlēties"
+
+msgid "selectBonus/new_device_gift"
+msgstr "Standarta Iekārtas Izvēlei"
+
+msgid "selectBonus/trophy_gift"
+msgstr "Balvu Iekārtas Izvēlei"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "styleProgressBonus"
+msgstr "Uzlabojiet %(styleName)s stilu uz %(level)s Līmeni"
+
+msgid "styleProgression/finalLevel"
+msgstr "%(styleName)s stila maksimālais Līmenis"
+
+msgid "styleProgression/newLevel"
+msgstr "%(styleName)s stila jauns Līmenis"
+
+msgid "styleProgression/newStyle"
+msgstr "%(styleName)s stila pirmais Līmenis"
+
+msgid "tankmenVoiceover/chapterButton"
+msgstr "Uz nodaļu"
+
+msgid "tankmenVoiceover/inShop"
+msgstr "Īpašā saišķī"
+
+msgid "tankmenVoiceover/listen"
+msgstr "Klausīties"
+
+msgid "tankmenVoiceover/notFull"
+msgstr "Pieejams %(availableCount)s no %(count)s"
+
+msgid "tankmenVoiceover/progression"
+msgstr "Progresijas posmā %(progressionLevel)s"
+
+msgid "tankmenVoiceover/received"
+msgstr "Saņemts"
+
+msgid "tankmenVoiceover/shopButton"
+msgstr "Uz Veikalu"
+
+msgid "tankmenVoiceover/title"
+msgstr "UNIKĀLI APKALPES LOCEKĻI"
+
+msgid "tankmenVoiceover/unavailable"
+msgstr "Nav pieejama"
+
+msgid "title/earningPoints"
+msgstr "Punktu pelnīšana"
+
+msgid "title/freePoints"
+msgstr "Bezmaksas punkti"
+
+msgid "title/stage"
+msgstr "Posms {{level}}"
+
+msgid "tooltip/cardButton/disabled/body"
+msgstr "Darbība pašlaik nav pieejama. Mēģiniet vēlāk."
+
+msgid "tooltip/freePoints/body"
+msgstr "Bezmaksas punkti uzkrājas un tiek automātiski ieskaitīti jūsu kontā pēc tam, kad aktivizējat jaunu Kaujas Caurlaides nodaļu."
+
+msgid "tooltip/freePoints/header"
+msgstr "Bezmaksas punkti"
+
+msgid "tooltip/lock"
+msgstr "Atlīdzības nav pieejamas. Iegādājieties Uzlaboto Caurlaidi, lai tās saņemtu."
+
+msgid "tooltips/RandomQuestTooltip/condition"
+msgstr "Stāvoklis: %(condition)"
+
+msgid "tooltips/RandomQuestTooltip/expireTime"
+msgstr "Misija ir pieejama %(whiteSpanish_Open)slīdz %(month)s %(day)s%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/consumables"
+msgstr "%(whiteSpanish_Open)sPalīgmateriāli:%(whiteSpanish_Close)s Aptieciņas, Remonta Komplekti un Ugunsdzēšamie Aparāti"
+
+msgid "tooltips/RandomQuestTooltip/rewards/directives"
+msgstr "%(whiteSpanish_Open)sDirektīvas%(whiteSpanish_Close)s priekš iekārtām"
+
+msgid "tooltips/RandomQuestTooltip/rewards/money"
+msgstr "%(whiteSpanish_Open)sKredīti, bonas un Brīvā Pieredze%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/personal_reserves"
+msgstr "%(whiteSpanish_Open)sPersonālā Rezerve%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/premium"
+msgstr "%(whiteSpanish_Open)sWoT Premium Konta Dienas%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/standardEquipment"
+msgstr "%(whiteSpanish_Open)sStandarta Iekārtas%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewardsTitle"
+msgstr "Vienreiz dienā jūs variet saņemt vienu no sekojošajām balvām par misijas izpildi:"
+
+msgid "tooltips/RandomQuestTooltip/title"
+msgstr "Misija priekš %(vehicleName)"
+
+msgid "tooltips/battlePassCoins/secondaryText"
+msgstr "Tokeni tiks apbalvoti trīs Kaujas Caurlaižu Sezonu gadā laikā. Izmantojiet tos saprātīgi."
+
+msgid "tooltips/battlePassCoins/text"
+msgstr "Vērtīga spēles valūta, kas tiek apbalvota par Kaujas Caurlaides Stadiju izpildi. Tokenus var iemainīt pret īpašām balvām Priekšmeti par Tokeniem sadaļā Veikalā."
+
+msgid "tooltips/battlePassCoins/title"
+msgstr "Kaujas Caurlaides Tokens"
+
+msgid "tooltips/battlePassPoints/completed"
+msgstr "Visas Kaujas Caurlaides Nodaļas un Progresijas Stadijas izpildītas."
+
+msgid "tooltips/battlePassPoints/description"
+msgstr "Automātiski pievienots Kaujas Caurlaides Progresijai."
+
+msgid "tooltips/battlePassPoints/title"
+msgstr "Kaujas Caurlaides Punkti"
+
+msgid "tooltips/battlePassQuestsChain/secondaryText"
+msgstr "Misijas ir pieejamas izpildei Nejaušajās Kaujās un Lielajās Kaujās."
+
+msgid "tooltips/battlePassQuestsChain/text"
+msgstr "Atslēdz misiju sēriju, par kuru izpildi jūs variet saņemt papildus spēles asetus: "
+
+msgid "tooltips/battlePassQuestsChain/title"
+msgstr "Pieeja Misiju Sērijai"
+
+msgid "tooltips/battlePassTaler/secondaryText"
+msgstr "Pelniet Čipus virzoties pa Kaujas Caurlaides Progresiju"
+
+msgid "tooltips/battlePassTaler/text"
+msgstr "Čipus var izmantot, lai nopirktu pielāgošanas elementus un apkalpes locekļus no iepriekšējām Sezonām, ekonomiskus resursus un vairāk Kaujas Caurlaides Seifā."
+
+msgid "tooltips/battlePassTaler/title"
+msgstr "Čipi"
+
+msgid "tooltips/claimRewards/0"
+msgstr "Pamata Balvas saņemtas"
+
+msgid "tooltips/claimRewards/1"
+msgstr "Izvēlieties balvas par izpildītu Stadiju"
+
+msgid "tooltips/claimRewards/multiple"
+msgstr "Izvēlieties balvas par izpildītām Stadijām"
+
+msgid "tooltips/commanders/chose"
+msgstr "VAI"
+
+msgid "tooltips/commanders/descr"
+msgstr "Izpildiet pēdējo Stadiju un saņemiet vienu no unikālajiem apkalpes locekļiem kā balvu."
+
+msgid "tooltips/commanders/title"
+msgstr "Viens no Diviem Apkalpes Locekļiem"
+
+msgid "tooltips/completed/claimRewards"
+msgstr "Visas atlīdzības saņemtas"
+
+msgid "tooltips/completed/finalLevel"
+msgstr "Visas Nodaļas un Progresijas Stadijas izpildītas"
+
+msgid "tooltips/completed/got"
+msgstr "Balva saņemta"
+
+msgid "tooltips/completed/message"
+msgstr "Tagad jūs variet tērēt uzkrātos Kaujas Caurlaides Punktus, Priekšmeti par Punktiem, spēles Veikala sadaļā."
+
+msgid "tooltips/completed/oneChapterSubTitle"
+msgstr "NODAĻA PABEIGTA"
+
+msgid "tooltips/completed/rewardsObtained"
+msgstr "Pamata Balvas saņemtas"
+
+msgid "tooltips/completed/subTitle"
+msgstr "VISAS NODAĻAS IZPILDĪTAS"
+
+msgid "tooltips/completed/tankmenNotRecieved"
+msgstr "Saišķi, kas satur unikālus apkalpes locekļus, ir pieejami Veikalā."
+
+msgid "tooltips/completed/title"
+msgstr "Kaujas Caurlaide"
+
+msgid "tooltips/entryPoint/disabled/body"
+msgstr "Kaujas Caurlaide īslaicīgi nav pieejama tehnisku iemeslu dēļ.\nViss progress tiks saglabāts. Mēs atvainojamies par neērtībām."
+
+msgid "tooltips/entryPoint/disabled/header"
+msgstr "Kaujas Caurlaide Īslaicīgi Nav Pieejama"
+
+msgid "tooltips/entryPoint/disabled/mapbox"
+msgstr "Kaujas Caurlaide īslaicīgi nav pieejama Izlūkošanas Misijā tehnisku iemeslu dēļ.\nViss progress tiks saglabāts. Mēs atvainojamies par neērtībām."
+
+msgid "tooltips/extra/daysAndHours"
+msgstr "%(D)s d %(H)s h"
+
+msgid "tooltips/extra/min"
+msgstr "%(m)s min"
+
+msgid "tooltips/footerBuyBtn/activateChapter/descr"
+msgstr "Jūs saņemsiet Kaujas Caurlaides Punktus un citas vērtīgas balvas par aktīvās Nodaļas izpildi."
+
+msgid "tooltips/footerBuyBtn/battlePass/descr"
+msgstr "Jūs variet nopirkt Uzlaboto Caurlaidi jebkurā laikā. Tā nekavējoties sniegs jums visas pašreizējās Nodaļas Uzlabotās Balvas par jau izpildītām Stadijām. Jūs arī saņemsiet gan Pamata gan Uzlabotās Balvas par katru secīgu Stadiju izpildi."
+
+msgid "tooltips/footerBuyBtn/battlePass/nextChapter"
+msgstr "Izpildiet iepriekšējo Nodaļu, lai nopirktu Stadijas šajā Nodaļā."
+
+msgid "tooltips/footerBuyBtn/episode/descr"
+msgstr "Nopērkot Stadijas, jūs nekavējoties saņemsiet to Pamata un Uzlabotās Balvas. Stadijas tiek pirktas atsevišķi katrai Nodaļai."
+
+msgid "tooltips/footerBuyBtn/episode/holidayDescr"
+msgstr "Pērkot Stadijas jūs nekavējoties saņemsiet to Pamata un Uzlabotās Balvas."
+
+msgid "tooltips/goldMission/description"
+msgstr "%(highlight)s Jūs nesaņemsiet zeltu par izlaistajām dienām."
+
+msgid "tooltips/goldMission/highlightedDescription"
+msgstr "Piezīme:"
+
+msgid "tooltips/goldMission/text"
+msgstr "%(duration)s, jūs variet nopelnīt %(count)s %(icon)s zeltu katru dienu, ko jūs cīnieties Nejaušajās Kaujās."
+
+msgid "tooltips/goldMission/textDuration"
+msgstr "Uz %(days)s dienām"
+
+msgid "tooltips/goldMission/title"
+msgstr "Ikdienas Zelts"
+
+msgid "tooltips/iconLock/descr1"
+msgstr "Jūs variet palielināt Stadiju balvu sarakstu nopērkot Uzlaboto Caurlaidi. To pērk atsevišķi katrai Nodaļai un tā strādā attiecīgajā Nodaļā. Ar Uzlaboto Caurlaidi jūs saņemsiet gan Pamata gan Uzlabotās Balvas par katras secīgas Stadijas sasniegšanu."
+
+msgid "tooltips/iconLock/descr2"
+msgstr "Jūs variet nopirkt Uzlaboto Caurlaidi jebkurā laikā. Tā nekavējoties sniegs visas Uzlabotās Balvas par izpildītajām Nodaļas Stadijām, kurām jūs esiet nopirkuši to. Jūs variet uzlabot jūsu balvas Kaujas Caurlaides galvenajā logā noklikšķinot uz Pērciet Uzlaboto Caurlaidi pogas."
+
+msgid "tooltips/iconLock/holidayDescr1"
+msgstr "Tu vari palielināt Stadiju balvu sarakstu pērkot Uzlaboto Caurlaidi. Ar Uzlaboto Caurlaidi tu saņemsi gan Pamata gan Uzlabotās Balvas par katras sekojošas Stadijas pabeigšanu."
+
+msgid "tooltips/iconLock/holidayDescr2"
+msgstr "Tu vari nopirkt Uzlaboto Caurlaidi jebkurā laikā. Tā nekavējoties sniegs visas Uzlabotās Balvas par jau izpildītajām Stadijām. Tu vari uzlabot tavas balvas Kaujas Caurlaides galvenajā logā noklikšķinot uz Pērciet Uzlaboto Caurlaidi pogas."
+
+msgid "tooltips/iconLock/title"
+msgstr "Kaujas Caurlaides Uzlabota Balva"
+
+msgid "tooltips/inProgress/baseReward"
+msgstr "Pamata Balva"
+
+msgid "tooltips/inProgress/battleRoyale"
+msgstr "\"Tērauda Mednieks\""
+
+msgid "tooltips/inProgress/chapter"
+msgstr "\"%(name)\" Nodaļa"
+
+msgid "tooltips/inProgress/epic"
+msgstr "Frontes Līnija"
+
+msgid "tooltips/inProgress/getPointsFrom"
+msgstr "Punktu pelnīšana nosacījumi iekš %(battleType)s."
+
+msgid "tooltips/inProgress/hurryUp"
+msgstr "Pērciet Uzlaboto Caurlaidi, lai saņemtu visas Uzlabotās Balvas par izpildītajām Stadijām!"
+
+msgid "tooltips/inProgress/improvedReward"
+msgstr "Uzlabota Balva"
+
+msgid "tooltips/inProgress/level"
+msgstr "Pašreizējā Stadija"
+
+msgid "tooltips/inProgress/playGame/comp7"
+msgstr "Noteikumi Punktu pelnīšanai X Līmeņa tankos %(bond_Open)sUzbrukumā%(bond_Close)s."
+
+msgid "tooltips/inProgress/playGame/comp7_light"
+msgstr "Noteikumi Punktu pelnīšanai VIII Līmeņa tankos %(bond_Open)sVieglajā Uzbrukumā%(bond_Close)s."
+
+msgid "tooltips/inProgress/playGame/mapbox"
+msgstr "Noteikumi par Kaujas Caurlaides punktu pievienošanu %(bond_Open)sIzlūkošanas misijā%(bond_Close)s VIII–X līmeņa tankiem."
+
+msgid "tooltips/inProgress/playGame/randoms"
+msgstr "Noteikumi punktu iegūšanai %(bond_Open)sNejaušajās Kaujas%(bond_Close)s ar IV–XI līmeņa tankiem."
+
+msgid "tooltips/inProgress/playGame/ranked"
+msgstr "Punktu pelnīšanas noteikumi X Līmeņa tankos Ranga Kaujās."
+
+msgid "tooltips/inProgress/playGame/winback"
+msgstr "Noteikumi punktu iegūšanai %(bond_Open)sNejaušajā cīņā: Iesildīšanās%(bond_Close)s ar IV–XI līmeņa transportlīdzekļiem."
+
+msgid "tooltips/inProgress/postProgression/header"
+msgstr "Elites Ķēde"
+
+msgid "tooltips/inProgress/timeLeft"
+msgstr "Atlikušais Kaujas Caurlaides laiks"
+
+msgid "tooltips/inProgress/wotPlusProFooter"
+msgstr "Peļņa ar WoT Plus Pro"
+
+msgid "tooltips/notChosen/description"
+msgstr "Jums vajag izvēlēties Nodaļu, lai virzītos cauri Progresijai un saņemtu vērtīgas balvas."
+
+msgid "tooltips/notChosen/points"
+msgstr "Neiztērēti Kaujas Caurlaides Punkti: %(points)"
+
+msgid "tooltips/notChosen/subTitle"
+msgstr "IZVĒLIETIES NODAĻU"
+
+msgid "tooltips/notChosen/title"
+msgstr "Kaujas Caurlaide"
+
+msgid "tooltips/notStarted/date"
+msgstr "%(day)s %(month)s"
+
+msgid "tooltips/plusBanner/text"
+msgstr "{{@ style (color $color1)}}Kaujas Caurlaide Plus:{{/}} Pieejams ar {{@ style (color $color2)}}WoT Plus Pro{{/}}. Iegūstiet vairāk Kaujas Caurlaide punktus (izņemot Īpašās nodaļas)."
+
+msgid "tooltips/points/footer"
+msgstr "Jūs variet uzzināt vairāk par Punktu pelnīšanu dažādos spēles režīmos Kā Pelnīt Punktus izvēlnē."
+
+msgid "tooltips/points/rules"
+msgstr "Jūs saņemiet Punktus Nejaušajās Kaujās sekojošā veidā:"
+
+msgid "tooltips/points/specialVehicles"
+msgstr "Sezonas Kodola Tanki pelna vairāk Punktus:"
+
+msgid "tooltips/points/subtitle"
+msgstr "Kaujas caurlaides punkti ļauj virzīties cauri progresijai. Punktus var nopelnīt, cīnoties IV–XI līmeņa tankos nejaušajās kaujās un citos režīmos, kā arī pildot īpašas misijas un sasniedzot tanka punktu ierobežojumu."
+
+msgid "tooltips/points/title"
+msgstr "Kaujas Caurlaides Punkti"
+
+msgid "tooltips/pointsTable/header"
+msgstr "Nopelnīšanās nosacījumi"
+
+msgid "tooltips/pointsTable/lose"
+msgstr "Sakāve un Neizšķirts"
+
+msgid "tooltips/pointsTable/loseWithoutDraw"
+msgstr "Zaudējums"
+
+msgid "tooltips/pointsTable/place"
+msgstr "Pozīcija %(place)"
+
+msgid "tooltips/pointsTable/places"
+msgstr "Pozīcijas %(place)"
+
+msgid "tooltips/pointsTable/solo"
+msgstr "Solo"
+
+msgid "tooltips/pointsTable/squad"
+msgstr "Vads"
+
+msgid "tooltips/pointsTable/topPlace"
+msgstr "Labākās %(place) pēc nopelnītās XP"
+
+msgid "tooltips/pointsTable/win"
+msgstr "Uzvara"
+
+msgid "tooltips/postProgress/body"
+msgstr "Elites progress sākas pēc galvenā progresa posma %(maxLevelBase) pabeigšanas. Tā piedāvā iespēju nopelnīt vērtīgu spēles valūtu. Elites progresa posmu pabeigšanai nav nepieciešama uzlabotā caurlaide."
+
+msgid "tooltips/postProgress/header"
+msgstr "Elites Progress"
+
+msgid "tooltips/prestigePoints/lose"
+msgstr "Sakāve un Neizšķirts"
+
+msgid "tooltips/prestigePoints/loseWithoutDraw"
+msgstr "Sakāve"
+
+msgid "tooltips/prestigePoints/topPlace"
+msgstr "Labākās %(place) pēc Prestiža punktiem"
+
+msgid "tooltips/prestigePoints/win"
+msgstr "Uzvara"
+
+msgid "tooltips/progression/freePoints/body"
+msgstr "Ja nav izvēlēta Nodaļa, jūs uzkrāsiet neiztērētus Kaujas Caurlaides Punktus, ko vēlāk var pievienot jebkurai aktivizētai Nodaļai pirms pašreizējās Kaujas Caurlaides Sezonas beigām. Citādi, šie Punkti tiks noņemti."
+
+msgid "tooltips/progression/freePoints/bodyExceptExtra"
+msgstr "Ja nav izvēlēta Nodaļa, jūs uzkrāsiet neiztērētus Kaujas Caurlaides Punktus, ko vēlāk var pievienot jebkurai aktivizētai Nodaļai (izņemot papildus Nodaļu) pirms pašreizējās Kaujas Caurlaides Sezonas beigām. Citādi, šie Punkti tiks noņemti."
+
+msgid "tooltips/progression/freePoints/header"
+msgstr "Neiztērēti Kaujas Caurlaides Punkti"
+
+msgid "tooltips/rewardCompensation/description/credits"
+msgstr "Galvenā spēles valūta.\n Nopelnīta kaijās vai iegādāta par zeltu."
+
+msgid "tooltips/rewardCompensation/description/gold"
+msgstr "Vērtīga spēles valūta. Var izmantot WoT Premium konta un tanku iegādei, vai pieredzes konvertēšanai, utt."
+
+msgid "tooltips/rewardCompensation/footer"
+msgstr "Kompensācija par preci, kas jums jau ir."
+
+msgid "tooltips/styleUpgrade/chosen/levelWord"
+msgstr "Līmeni"
+
+msgid "tooltips/styleUpgrade/chosen/subtitle"
+msgstr "Atbilst Tankiem"
+
+msgid "tooltips/styleUpgrade/chosen/text"
+msgstr "Uzlabo Nodaļas stilu uz %(levelWord)%(level)"
+
+msgid "tooltips/styleUpgrade/chosen/title"
+msgstr "%(styleName) Stila uzlabojums"
+
+msgid "tooltips/styleUpgrade/notChosen/text"
+msgstr "Lai izvēlētos stilu, noklikšķiniet uz Izvēlēties Stilu pogas Kaujas Caurlaides Nodaļas progresijas sākumā."
+
+msgid "tooltips/styleUpgrade/notChosen/title"
+msgstr "Nodaļas Progresīvā Stila Uzlabojums"
+
+msgid "tooltips/styleUpgrade/notChosen/warning"
+msgstr "Nodaļas stils nav izvēlēts."
+
+msgid "tooltips/styleUpgrade/paragraphBottom"
+msgstr "Ja jūs nevariet uzlabot stilu līdz maksimālajam Līmenim Kaujas Caurlaides Progresijas laikā, jums būs iespēja uzlabot to Ārējā Izskata logā Garāžā pašreizējās Sezonas beigās."
+
+msgid "tooltips/styleUpgrade/paragraphTop"
+msgstr "Izvēlētais Nodaļas stils tiks uzlabots par 1 Līmeni automātiski, kad šī Stadija tiks izpildīta."
+
+msgid "tooltips/styles/descr"
+msgstr "Pēc pēdējās Stadijas izpildes, jūs būsiet spējīgi izvēlēties vienu no balvu stiliem."
+
+msgid "tooltips/styles/footer"
+msgstr "Uzlabotās Caurlaides pirkšana sniegs jums abus stilus, kad jūs izvēlēsieties jūsu gala balvu."
+
+msgid "tooltips/styles/name"
+msgstr "Piemērots priekš %(name)"
+
+msgid "tooltips/styles/style"
+msgstr "%(name) stils"
+
+msgid "tooltips/styles/title"
+msgstr "Viens no Diviem 3D Stiliem"
+
+msgid "tooltips/unlockBattlePass"
+msgstr "Pērciet Uzlaboto Caurlaidi, lai atslēgtu Uzlaboto Balvu Ceļu."
+
+msgid "tooltips/unlockBattlePassForPostProgression"
+msgstr "Pērciet Uzlaboto Caurlaidi katrai Nodaļai un iegūstiet vairāk balvas."
+
+msgid "tooltips/vehiclePoints/award"
+msgstr "Balva par Punktu Ierobežojuma sasniegšanu"
+
+msgid "tooltips/vehiclePoints/comp7"
+msgstr "Cīnieties Uzbrukuma režīmā, pelniet Punktus par efektīvu spēlēšanu, izpildiet Kaujas Caurlaides Progresa Stadijas un saņemiet balvas."
+
+msgid "tooltips/vehiclePoints/comp7_light"
+msgstr "Saņem punktus par efektīvām darbībām Vieglā Uzbrukuma kaujās, lai virzītos pa Kaujas Caurlaides progresijas posmiem un saņemtu atlīdzības."
+
+msgid "tooltips/vehiclePoints/continuePlaying"
+msgstr "Cīnieties citos tankos priekš tālāka progresa Stadijās."
+
+msgid "tooltips/vehiclePoints/descr"
+msgstr "Cīnies nejaušajās kaujās, nopelni punktus par efektīvu spēli, izpildi kaujas caurlaides posmus un saņem atlīdzību."
+
+msgid "tooltips/vehiclePoints/mapbox"
+msgstr "Cīnieties Izlūkošanas Misijā, pelniet Punktus par efektīvu spēlēšanu, izpildiet Kaujas Caurlaides Progresa Stadijas un saņemiet balvas."
+
+msgid "tooltips/vehiclePoints/pointsObtained"
+msgstr "Punktu Ierobežojums sasniegts"
+
+msgid "tooltips/vehiclePoints/ranked"
+msgstr "Cīnieties Ranga Kaujās, pelniet punktus par efektīvu spēlēšanu, izpildiet Kaujas Caurlaides Progresa Stadijas un saņemiet balvas."
+
+msgid "tooltips/vehiclePoints/special/descr"
+msgstr "Cīnoties Sezonas Pamata Tankos, jūs pelnīsiet vairāk Progresa Punktus."
+
+msgid "tooltips/vehiclePoints/title"
+msgstr "Kaujas Caurlaides Punkti"
+
+msgid "trophyDeviceUpgradeConfim/cancel"
+msgstr "Atcelt"
+
+msgid "trophyDeviceUpgradeConfim/message"
+msgstr "Tā īpašības mainīsies:"
+
+msgid "trophyDeviceUpgradeConfim/submit"
+msgstr "Uzlabošana"
+
+msgid "trophyDeviceUpgradeConfim/submitTooltip"
+msgstr "Nepietiekami kredīti lai uzlabotu"
+
+msgid "trophyDeviceUpgradeConfim/title"
+msgstr "Uzlabot {deviceName}\nekipējumu?"
+
+msgid "trophyDeviceUpgradeConfim/title/template"
+msgstr "{deviceName}"
+
+msgid "universalTankmanBonus"
+msgstr "Universāls apkalpes loceklis: %(name)s"

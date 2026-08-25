@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "Etkinlik %(timer) daha geçerli"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) - Oyun kipi. Keşfetmek için tıklayın"
+
+msgid "bannerTooltip/description"
+msgstr "Sizi dalga dalga düşman kuvvetleri ile yüzleştiren özel bir PvE kipi. Favori aracınızı seçin, yankı tanklarını yok edin, taarruızu durdurun. Seçkin ödüller ve çok daha fazlası sizi bekliyor!"
+
+msgid "bannerTooltip/header"
+msgstr "Son Direniş: Terra Nord"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Bilgisayarınızın performansı bu kip için yeterli değil. Grafikler ve araç hareketi ile ilgili sorunlar yaşayabilirsiniz. Oyun istemcisinin çökmesi de olasıdır."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Bu kip yüksek bilgisayar performansına ihtiyaç duyar. Harita yüklenmesi, grafikler ve araç hareketi ile ilgili sorunlar yaşayabilirsiniz. Yetersiz performans durumunda Ayarlar'dan daha düşük grafik kalitesi kullanmayı deneyin."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Düşük Performans"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Olası Düşürülmüş Performans"
+
+msgid "battlePass/playGame"
+msgstr "Etkinlikte ilerleyerek Son Direniş'te Puan kazanın (Seviye VIII araçlar gereklidir)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Zaten Arkadaşsınız."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Arkadaşlık isteği onayı bekleniyor."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Oyuncuyu Kara Listenizden çıkarın."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Arkadaş listesine ekle."
+
+msgid "battleResult/interaction/menu"
+msgstr "Bu oyuncu ile etkileşim menüsünü açmak için tıklayın."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Takıma ekle."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Oyuncu zaten Takımda."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Davet zaten gönderildi."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Sadece Takım Komutanı oyuncuları Takıma katılmaya davet edebilir."
+
+msgid "booster/activated"
+msgstr "Etkinleştirildi"
+
+msgid "booster/howItWorks"
+msgstr "İşleyiş Şekli"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Soğuma: %(cooldownSeconds)s sn."
+
+msgid "consumables/params/usageCost"
+msgstr "Mirium maliyeti: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "Günlük Görevi tamamlamak için kalan süre"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "Sonraki günlük göreve kalan süre"
+
+msgid "dailyQuests/completed"
+msgstr "Tamamlandı"
+
+msgid "dailyQuests/completedAll"
+msgstr "Bu etkinliğin tüm günlük görevlerini tamamladınız."
+
+msgid "dailyQuests/completedDescr"
+msgstr "Bu günlük görevi tamamladınız. Yarın yeni bir görev açılacak."
+
+msgid "dailyQuests/rewards"
+msgstr "Ödüller:"
+
+msgid "dailyQuests/status"
+msgstr "Yeni günlük görev %(timer) içinde"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "Etkinlik %(timer) daha geçerli"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Savaşa girmek için geçerli bir araç seçin."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Geçersiz"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Seçili zorlukta/modda savaşlar teknik nedenlerle geçici olarak devre dışı."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Geçersiz"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Yeni bir savaşa girmek için Takımın önceki savaştan dönmesini bekleyin."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Geçersiz"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Takım için uyumsuz zorluk seviyesi."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Geçersiz"
+
+msgid "points/accrued"
+msgstr "Alındı"
+
+msgid "points/battles"
+msgstr "• Etkinlik savaşlarında çatışın"
+
+msgid "points/body"
+msgstr "Veri, Son Direniş kipinde ilerlemek ve değerli kaynaklar elde etmek için kullanılır. Etkinlik savaşlarında çatışarak, günlük görevleri tamamlayarak kazanılabilir veya \"{{bundle_name}}\" paketini satın alarak elde edilebilir."
+
+msgid "points/bottom"
+msgstr "Etkinlik bitişi: (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• Her gün yeni günlük görevleri tamamlayın"
+
+msgid "points/effective"
+msgstr "• Savaşta etkinlik:"
+
+msgid "points/gold"
+msgstr "• Dükkândan \"{{bundle_name}}\" satın alın"
+
+msgid "points/header"
+msgstr "Veri"
+
+msgid "points/howToEarn"
+msgstr "Nasıl Kazanılır"
+
+msgid "points/missionDaily"
+msgstr "• Günlük görev tamamlandı:"
+
+msgid "points/obelisk"
+msgstr "• Dikilitaş yok edildi:"
+
+msgid "points/vehicleDaily"
+msgstr "• Günlük araç bonusu alındı:"
+
+msgid "rewardPath/info/first"
+msgstr "Günlük görevleri tamamlayarak daha fazla veri kazanabilirsiniz, bu görevler etkinlik boyunca her gün güncellenir."
+
+msgid "rewardPath/info/header"
+msgstr "Ek veri"
+
+msgid "rewardPath/info/second"
+msgstr "Dükkânda bulabileceğiniz özel bir etkinlik paketi, gelişiminizi hızlandırmanızı sağlayan veri de içerir."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "Araç Bonusu:"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "Diğer Ödüller:"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}Araç Bonusu{EDCB9E_End} — {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "Tüm veriler ve ödüller alındı"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "Alınan Veri {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "Verileri savaşta toplayın ve Son Direniş kipinde ilerleyin. Her Aşama sizi değerli ürünler ve daha güçlü düşmanları yenmenize yardımcı olacak bir araç bonusu ile ödüllendirir."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "Son Aşama"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "Mevcut Aşama"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "Etkinlik {{timer}} daha geçerli"
+
+msgid "rewardPath/tooltip/title"
+msgstr "Gelişim"
+
+msgid "shopWidget/body"
+msgstr "Oyun içi Dükkânın seçkin etkinlik ürünleri içeren özel bir bölümünü açmak için tıklayın."
+
+msgid "shopWidget/header"
+msgstr "Etkinlik paketleri"
+
+msgid "teamList/actions/body"
+msgstr "Bir Takım oluşturmak ve arkadaşlar eklemek/çıkarmak için hızlı işlemler."
+
+msgid "teamList/actions/header"
+msgstr "Hızlı İşlemler"
+
+msgid "teamList/damage/body"
+msgstr "Verilen hasara göre sıralayın."
+
+msgid "teamList/damage/header"
+msgstr "Verilen Hasar"
+
+msgid "teamList/keys/body"
+msgstr "Kazanılan veriye göre sıralayın. Gösterilen değer, günlük görevleri tamamlamaktan veya günlük araç bonuslarından alınan ek veriyi içermez."
+
+msgid "teamList/keys/header"
+msgstr "Veri"
+
+msgid "teamList/kills/body"
+msgstr "Yok edilen düşman araçlarına göre sıralayın."
+
+msgid "teamList/kills/header"
+msgstr "Yok Edilen Düşman Araçları"
+
+msgid "teamList/name/header"
+msgstr "Oyuncunu Adı"
+
+msgid "teamList/place/body"
+msgstr "Ekipteki konuma göre sıralayın."
+
+msgid "teamList/place/header"
+msgstr "Ekipteki Konum"
+
+msgid "teamList/squad/header"
+msgstr "Takım, oyuncuların savaşlarda iş birliği yapabilmesi için bir taktik birimdir."
+
+msgid "teamList/vehicle/body"
+msgstr "Araç türü ve adına göre sıralayın."
+
+msgid "teamList/vehicle/header"
+msgstr "Araçlar"
+
+msgid "teamList/warned/body"
+msgstr "Bu oyuncu faaliyetsizlik/firar nedeniyle cezalandırıldı ve bu savaş için herhangi bir ödül almadı."
+
+msgid "teamList/warned/header"
+msgstr "Uyarı"
+
+msgid "teamList/warned/self/body"
+msgstr "Faaliyetsizlik/firar nedeniyle cezalandırıldınız ve bu savaş için herhangi bir ödül almadınız."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Düşük mürettebat etkinliği"
+
+msgid "vehicle/rentState"
+msgstr "Kilitli"
+
+msgid "vehicleDaily/header"
+msgstr "Günlük araç bonusu"

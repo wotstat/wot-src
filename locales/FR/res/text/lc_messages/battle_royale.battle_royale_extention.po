@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To:\nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "battleQuestAwards/button"
+msgstr "Affirmatif !"
+
+msgid "battleQuestAwards/stPatrick/subTitle"
+msgstr "TRAQUEUR D'ACIER : CONFRONTATION DU TRÈFLE"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "TRAQUEUR D'ACIER"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "ÉTAPE FINALE FRANCHIE !"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "ÉTAPE %(level)s FRANCHIE !"
+
+msgid "dailyBonus/description"
+msgstr "%(dailyBonus)s Bonus aux Sceaux de chance pour avoir figuré parmi les %(soloTopPlaces)s meilleurs joueurs en batailles solo ou parmi les %(squadTopPlaces)s meilleurs joueurs en batailles en peloton. Ce bonus peut être activé une fois par jour pour chaque véhicule de l'évènement."
+
+msgid "eventShop"
+msgstr "Boutique"
+
+msgid "leaveBattleView/confirmation/cancel"
+msgstr "Rester"
+
+msgid "leaveBattleView/confirmation/submit"
+msgstr "Déserter"
+
+msgid "leaveBattleView/description"
+msgstr "Vos véhicules peuvent encore combattre. Si vous quittez la bataille maintenant, vous ne recevrez aucune récompense pour celle-ci. Êtes-vous sûr de vouloir quitter la bataille ?"
+
+msgid "leaveBattleView/title"
+msgstr "Désertion du champ de bataille"
+
+msgid "leaveBattleView/warning"
+msgstr "Vous ne recevrez pas de récompenses !"
+
+msgid "progress/counter"
+msgstr "{{current}}{{divider}}{{total}}"
+
+msgid "progressionComplete"
+msgstr "Progression principale terminée !"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s ou %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/questsTotal/text"
+msgstr "Missions accomplies :"
+
+msgid "progressionView/battleQuests/timer/eventResetTime/text"
+msgstr "L'évènement se termine dans :"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Les missions seront mises à jour dans"
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/seasonRange"
+msgstr "%(startDate)s – %(endDate)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Progression terminée. Continuez de jouer à Traqueur d'acier pour gagner encore plus de récompenses."
+
+msgid "progressionView/subTitle/endEvent"
+msgstr "L'évènement est terminé. Les missions et la Progression ne sont plus disponibles."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Accomplissez des missions pour gagner des Points de progression.\nLe nombre de points que vous obtenez dépend également de votre position à la fin de la bataille. %(infotip)s"
+
+msgid "proxy_currency_tooltip/earn/description/brcoin"
+msgstr "Recevez des Sceaux d'acier pour vos bonnes performances en bataille, en atteignant des positions élevées dans les résultats de la bataille, et en accomplissant les missions du mode."
+
+msgid "proxy_currency_tooltip/earn/description/stpcoin"
+msgstr "Recevez des Sceaux de chance en récupérant des Butins de guerre en bataille, en accomplissant des Étapes de la Progression et en occupant les meilleures positions dans Traqueur d'acier."
+
+msgid "proxy_currency_tooltip/earn/title/brcoin"
+msgstr "Comment gagner des Sceaux"
+
+msgid "proxy_currency_tooltip/earn/title/stpcoin"
+msgstr "Comment gagner des Sceaux"
+
+msgid "proxy_currency_tooltip/spend/description/brcoin"
+msgstr "Utilisez les Sceaux d'acier obtenus pour acheter des styles Traqueur d'acier."
+
+msgid "proxy_currency_tooltip/spend/description/stpcoin"
+msgstr "Échangez vos Sceaux de chance gagnés contre de précieuses récompenses dans la Boutique du trèfle."
+
+msgid "proxy_currency_tooltip/spend/title/brcoin"
+msgstr "Dans quoi dépenser les Sceaux"
+
+msgid "proxy_currency_tooltip/spend/title/stpcoin"
+msgstr "Dans quoi dépenser les Sceaux"
+
+msgid "proxy_currency_tooltip/title/brcoin"
+msgstr "Sceaux d'acier"
+
+msgid "proxy_currency_tooltip/title/stpcoin"
+msgstr "Sceaux de chance"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Décernés pour avoir accompli des missions spéciales lors de Traqueur d'acier. Ils vous permettent d'avancer dans la Progression."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Points de progression de Traqueur d'acier"
+
+msgid "rewardCurrencyTooltip/body/battlePassPoints"
+msgstr "Des points peuvent être obtenus en disputant des batailles et en accomplissant des missions spéciales. Ils sont automatiquement ajoutés à la Progression du Passe de combat."
+
+msgid "rewardCurrencyTooltip/body/brProgressionToken"
+msgstr "Décernés pour l'accomplissement de missions Traqueur d'acier et lors de bons résultats de bataille. Ils vous permettent d'avancer dans la progression."
+
+msgid "rewardCurrencyTooltip/body/brcoin"
+msgstr "Des Sceaux d'acier peuvent être reçus grâce à des performances efficaces en bataille, en atteignant des positions élevées dans les résultats de la bataille et en accomplissant des missions spéciales."
+
+msgid "rewardCurrencyTooltip/body/credits"
+msgstr "La devise principale du jeu. Elle s'obtient en bataille ou s'achète à l'aide de pièces d'or."
+
+msgid "rewardCurrencyTooltip/body/crystal"
+msgstr "Une devise spéciale rare, utilisée pour acheter des objets uniques impossible à obtenir par d'autres moyens."
+
+msgid "rewardCurrencyTooltip/body/stpcoin"
+msgstr "Une devise pouvant être gagnée lors des batailles de Traqueur d'acier. Les Sceaux peuvent être échangés contre des récompenses uniques dans la Boutique du trèfle. En jouant en peloton, les Sceaux sont répartis équitablement entre les membres du peloton. La quantité indiquée est votre part du total des gains."
+
+msgid "rewardCurrencyTooltip/body/xp"
+msgstr "L'expérience obtenue à bord des véhicules spéciaux peut être convertie en expérience libre."
+
+msgid "rewardCurrencyTooltip/dailyBonus/stpcoin"
+msgstr "Bonus appliqué ! Le nombre de Sceaux reçus en bataille est multiplié par %(count)s."
+
+msgid "rewardCurrencyTooltip/header/battlePassPoints"
+msgstr "Points du Passe de combat"
+
+msgid "rewardCurrencyTooltip/header/brProgressionToken"
+msgstr "Points de progression de Traqueur d'acier"
+
+msgid "rewardCurrencyTooltip/header/brcoin"
+msgstr "Sceaux d'acier"
+
+msgid "rewardCurrencyTooltip/header/credits"
+msgstr "Crédits"
+
+msgid "rewardCurrencyTooltip/header/crystal"
+msgstr "Obligations"
+
+msgid "rewardCurrencyTooltip/header/stpcoin"
+msgstr "Sceaux de chance"
+
+msgid "rewardCurrencyTooltip/header/xp"
+msgstr "Expérience de bataille"
+
+msgid "rewardCurrencyTooltip/premiumBonus/brcoin"
+msgstr "Le temps de compte premium WoT augmente les gains de cette devise de 50 %."
+
+msgid "rewardCurrencyTooltip/premiumBonus/credits"
+msgstr "Le temps de compte premium WoT augmente les gains de cette devise de 50 %."
+
+msgid "rewardCurrencyTooltip/premiumBonus/xp"
+msgstr "Le temps de compte premium WoT augmente l'EXP. de bataille obtenue de 50 %."
+
+msgid "serviceChannelMessages/awards"
+msgstr "Récompense reçue :"
+
+msgid "serviceChannelMessages/body"
+msgstr "Vous avez terminé l'Étape de progression %(stage)s dans le mode %(progressionName)s."
+
+msgid "serviceChannelMessages/header"
+msgstr "Félicitations !"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Détails"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Traqueur d'acier"
+
+msgid "tab/label/platoon"
+msgstr "PELOTON"
+
+msgid "tab/label/solo"
+msgstr "SOLO"
+
+msgid "tab/label/team"
+msgstr "AVEC UN AMI"
+
+msgid "tooltip/banner/description"
+msgstr "Battle royale dynamique de type dernier homme debout dans un décor post-apocalyptique. Combattez à bord de huit véhicules spéciaux pouvant être améliorés en combattant pour devenir plus forts à chaque rang. Des récompenses exclusives et bien plus vous attendent !"
+
+msgid "tooltip/banner/mode/description"
+msgstr "— mode de jeu. Cliquez pour le découvrir"
+
+msgid "tooltip/banner/mode/label"
+msgstr "MODE"
+
+msgid "tooltip/banner/performanceRisk/description/high"
+msgstr "Les performances de votre ordinateur sont insuffisantes pour ce mode. Vous risquez de subir des problèmes avec les graphismes et le déplacement du véhicule. Des plantages du client du jeu sont également probables."
+
+msgid "tooltip/banner/performanceRisk/description/medium"
+msgstr "Ce mode nécessite des performances élevées de l'ordinateur. Vous risquez de subir des problèmes avec le chargement des cartes, les graphismes et le déplacement du véhicule. Si les performances ne sont pas suffisantes, essayez de diminuer la qualité graphique dans les paramètres."
+
+msgid "tooltip/banner/performanceRisk/title/high"
+msgstr "Faibles performances"
+
+msgid "tooltip/banner/performanceRisk/title/medium"
+msgstr "Possible réduction des performances"
+
+msgid "tooltip/banner/stPatrickDescription"
+msgstr "Battle royale dynamique de type dernier homme debout avec une pointe de magie verte. Combattez à bord de huit véhicules spéciaux pouvant être améliorés en combattant pour devenir plus forts à chaque rang. Des récompenses exclusives et bien plus vous attendent !"
+
+msgid "tooltip/banner/stPatrickTitle"
+msgstr "Confrontation du trèfle"
+
+msgid "tooltip/banner/timer/text/accent"
+msgstr "Évènement disponible pendant %(timer)s"
+
+msgid "tooltip/banner/timer/text/cooldown"
+msgstr "Cessez-le-feu %(timer)s"
+
+msgid "tooltip/banner/title"
+msgstr "Traqueur d'acier"
+
+msgid "tooltip/daily_quests/header"
+msgstr "Accomplie"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Nouvelles missions Traqueur d'acier dans {{timeLeft}}"
+
+msgid "tooltip/daily_quests/reward"
+msgid_plural "plural/tooltip/daily_quests/reward"
+msgstr[0] "Récompense :"
+msgstr[1] "Récompenses :"
+msgstr[2] "Récompenses :"
+
+msgid "tooltip/daily_quests/text"
+msgstr "Toutes les missions ont été accomplies !"
+
+msgid "tooltip/progressionWidget/description/completed"
+msgstr "Beau travail, Commandant. Continuez comme ça !"
+
+msgid "tooltip/progressionWidget/description/header"
+msgstr "Progression principale terminée !"
+
+msgid "tooltip/progressionWidget/description/inProgress"
+msgstr "Pour avancer dans la Progression, accomplissez des missions et atteignez les meilleures positions en mode Traqueur d'acier."
+
+msgid "tooltip/progressionWidget/subTitle"
+msgstr "Le mode se termine dans %(value)s"
+
+msgid "tooltip/progressionWidget/title"
+msgstr "Traqueur d'acier"
+
+msgid "tooltip/quest/header"
+msgstr "Mission Traqueur d'acier"
+
+msgid "tooltip/shop/stPatrick/subtitle"
+msgstr "Échangez vos {ede6d9_Open}Sceaux de chance{ede6d9_Close} contre des récompenses spéciales."
+
+msgid "tooltip/shop/stPatrick/text"
+msgstr "Recevez des Sceaux de chance en récupérant des Butins de guerre en bataille, en accomplissant des Étapes de la Progression et en occupant les meilleures positions dans ce battle royale."
+
+msgid "tooltip/shop/stPatrick/title"
+msgstr "Boutique du trèfle"
+
+msgid "tooltip/shop/subtitle"
+msgstr "Échangez vos {ede6d9_Open}Sceaux d'acier{ede6d9_Close} contre des récompenses spéciales."
+
+msgid "tooltip/shop/text"
+msgstr "Gagnez des Sceaux d'acier en fonction de votre efficacité en bataille, en vous classant en haut du tableau dans les résultats post-bataille et en accomplissant des missions."
+
+msgid "tooltip/shop/title"
+msgstr "Boutique Traqueur d'acier"
+
+msgid "upgrades/description"
+msgstr "Infligez des dégâts aux véhicules ennemis et collectez des Butins de guerre sur la carte pour recevoir de l'expérience et avancer dans les rangs. Chaque rang atteint vous permet d'améliorer un élément depuis le Menu Amélioration, ce qui améliore grandement les caractéristiques de votre véhicule."
+
+msgid "upgrades/footer"
+msgstr "Les éléments ne peuvent être améliorés qu'en bataille."
+
+msgid "upgrades/subtitle"
+msgstr "Vous entrez en bataille à bord d'un véhicule de rang I."
+
+msgid "upgrades/title"
+msgstr "Améliorations du véhicule en bataille"

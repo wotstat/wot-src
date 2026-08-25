@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Sperrstunde: {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} – {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Event wird verfügbar sein ab:"
+
+msgid "bannerTooltip/description"
+msgstr "Massive 30v30-Gefechte mit Fahrzeugen der Stufe {{vehicleTier}} auf den Karten Normandie, Kraftwerk und Fata Morgana. Die Angreifer müssen drei der fünf Großkalibergeschütze zerstören, während die Verteidiger diese beschützen müssen."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Beweisen Sie Ihr Können in spannenden Gefechten, um Ruhm zu ernten, wertvolle Belohnungen einzufahren und durch die Ränge aufzusteigen."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Das Event ist beendet und Sie haben noch nicht alle Belohnungen für Frontlinienstufe abgeholt."
+
+msgid "bannerTooltip/header"
+msgstr "Frontlinie"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Frontlinie | Stufe {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} – Spielmodus. Zum Erforschen klicken."
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Dieser Modus erfordert eine hohe Computerleistung. Es können Probleme beim Laden von Karten, der Grafik und der Fahrzeugbewegung auftreten. Reicht die Computerleistung nicht aus, sollten Sie die Grafikqualität in den Einstellungen heruntersetzen."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Möglicherweise verringerte Leistung"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Wählen Sie die Belohnungen für abgeschlossene Stufen ({{value}})."
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Nicht genug Guthaben für den Kauf."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Die Änderungen werden auf alle Jagdpanzer angewandt."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Die Änderungen werden auf alle Selbstfahrlafetten angewandt."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Die Änderungen werden auf alle schweren Panzer angewandt."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Die Änderungen werden auf alle leichten Panzer angewandt."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Die Änderungen werden auf alle mittleren Panzer angewandt."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Fahrzeug nicht kompatibel"
+
+msgid "battleAbilities/points/body"
+msgstr "Sammeln Sie die erforderlichen Punkte und aktivieren Sie die Kampfreserven für Frontlinie."
+
+msgid "battleAbilities/points/header"
+msgstr "Kampfreserve-Punkte"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Angriffsreserven ansehen"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Angriffsreserven"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Aufklärungsreserven ansehen"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Aufklärungsreserven"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Taktische Reserven ansehen"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Taktische Reserven"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Die Stufe der Kampfreserve wird nach Erreichen der Ränge „Hauptmann“ und „Major“ im Gefecht gesteigert. Die maximale Stufe wird durch das Szenario des Gefechts bestimmt."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Zusätzliche Informationen"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Angriffsreserven"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Aufklärungsreserven"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Taktische Reserven"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Permanente Werte:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Eine in diesen Platz eingesetzte Kampfreserve erhöht die Wahrscheinlichkeit, dass diese Kampfreserve im Szenario {{@ colorLegacy 'FFE4C0'}}Laune des Schicksals{{/}} angeboten wird, um {{@ colorLegacy 'FFE4C0'}}10 %{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Reservestufe:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Nicht gekauft!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Das Event ist beendet."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Das Event beginnt bald!"
+
+msgid "infoButton/body"
+msgstr "Für weitere Informationen anklicken."
+
+msgid "infoButton/header"
+msgstr "Über das Event"
+
+msgid "levelReserves/desc"
+msgstr "Die Stufen der Kampfreserven werden bei Erreichen eines neuen Rangs gesteigert:"
+
+msgid "levelReserves/info"
+msgstr "Im Szenario {{@ colorLegacy 'FFE4C0'}}Laune des Schicksals{{/}} steigert der Kauf einer Kampfreserve ihre Stufe um eins. Damit kann die Kampfreserve bis auf Stufe {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}} verbessert werden."
+
+msgid "levelReserves/level"
+msgstr "Wird bei Erreichen des folgenden Rangs gesteigert: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Ab dem folgenden Rang verfügbar: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Stufe {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "Für {{@ colorLegacy 'FFE4C0'}}gekaufte Kampfreserven{{/}} im Szenario {{@ colorLegacy 'FFE4C0'}}Laune des Schicksals{{/}}."
+
+msgid "levelReserves/title"
+msgstr "Stufen der Kampfreserven"
+
+msgid "playlist/warning/body"
+msgstr "Diese Fahrzeugliste enthält Fahrzeuge, die nicht für diesen Spielmodus geeignet sind oder sich nicht in Ihrer Garage befinden."
+
+msgid "playlist/warning/header"
+msgstr "Fahrzeuge nicht verfügbar (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Werte der Kampfreserve verbessert"
+
+msgid "randomReserve/disable"
+msgstr "Der Platz für die Kampfreserve wurde genutzt."
+
+msgid "randomReserve/notPurchased"
+msgstr "Kampfreserve nicht gekauft"
+
+msgid "randomReserve/purchased"
+msgstr "Kampfreserve gekauft"
+
+msgid "skillOrderTooltip/body"
+msgstr "Jeder Fahrzeugtyp hat eine eigene Reihenfolge, in der Reserven freigeschaltet werden:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Reihenfolge zum Freischalten der Kampfreserven"
+
+msgid "skillOrderTooltip/info"
+msgstr "Im Szenario {{@ colorLegacy 'whiteSpanish'}}Laune des Schicksals{{/}} hängt die Reihenfolge, in der Kampfreserven freigeschaltet werden, nicht vom Fahrzeugtyp ab."

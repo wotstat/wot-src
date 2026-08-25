@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "Om Battle Pass"
+
+msgid "about/position/header"
+msgstr "Fordeling af Battle Pass-point"
+
+msgid "about/position/text"
+msgstr "Efter hver kamp vil du modtage et antal Battle Pass-point, der svarer til din placering. Du vil modtage yderligere Battle Pass-point, hvis du øger dit Frontlinje-niveau."
+
+msgid "about/scores/header"
+msgstr "Battle Pass-point"
+
+msgid "about/scores/text"
+msgstr "En særlig Battle Pass-valuta, der kan optjenes i standard kampe og i Frontlinje-kamptypen. Battle Pass-point tildeles ved at nå Frontlinje-niveauer og afhængig af din placering i kampresultaterne. Frontlinje-køretøjer har ikke en øvre grænse over hvor mange point de kan optjene."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Nederlag"
+
+msgid "about/scoresTable/topCell"
+msgstr "Top {{top}} efter optjent xp"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Sejr"
+
+msgid "about/text"
+msgstr "Battle Pass er et langtids-event, hvor spillerne går videre fra stadie til stadie ved at optjene Battle Pass-point. Hvert fuldført stadie giver dem værdifulde belønninger. Ved fuldførelse af visse stadier, kan spillerne modtage Battle Pass-tokens — en særlig valuta, der kan bruges til at købe unikke køretøjer og andre værdifulde belønninger i den relevante del af butikken."
+
+msgid "addons/cellRent/header"
+msgstr "Køretøjsleje"
+
+msgid "addons/cellRent/text_10"
+msgstr "Der er flere niveau {{vehiclesLevel}} køretøjer tilgængelige til leje i bytte for credits. Mandskabsmedlemmer fra køretøjer af samme type og fra samme nation kan overføres uden straf eller behov for omskoling."
+
+msgid "addons/cellRent/text_9"
+msgstr "Der er flere niveau {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} køretøjer tilgængelige til leje i bytte for credits. Mandskabsmedlemmer fra køretøjer af samme type og fra samme nation kan overføres uden straf eller behov for omskoling."
+
+msgid "addons/cellSpectator/header"
+msgstr "Tilskuertilstand"
+
+msgid "addons/cellSpectator/text"
+msgstr "Når du skal vente på respawn, kan du gå i tilskuertilstand for at studere slagmarken og udtænke en slagplan."
+
+msgid "addons/cellTime/header"
+msgstr "Yderligere tid"
+
+msgid "addons/cellTime/text"
+msgstr "Hvis en base er ved at blive erobret når kamptiden løber ud, får dit hold yderligere tid. Hvis det forsvarende hold afbryder erobringen af deres base, falder den yderligere tid til nul."
+
+msgid "addons/header"
+msgstr "Yderligere information"
+
+msgid "levelUp/sectionHeader"
+msgstr "Niveau {{level}} køretøjer"
+
+msgid "levelUp/text"
+msgstr "Som før, kan du til at starte med kun benytte niveau {{vehiclesLevelFrom}} køretøjer i kamp, men niveau {{vehiclesLevelTo}} køretøjer kan også klargøres i din garage. Når en base i anden linje (D, E og F) er erobret, kan begge hold indsætte deres niveau {{vehiclesLevelTo}} køretøjer."
+
+msgid "main/cellDuration/header"
+msgstr "Varighed"
+
+msgid "main/cellDuration/text"
+msgstr "Frontlinje varer i {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}}. Datoen for næste start vil blive annonceret separat."
+
+msgid "main/cellFrontline/header"
+msgstr "Frontlinje"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Massive 30v30-kampe i niveau {{vehiclesLevel}} køretøjer på {{@ colorLegacy 'FFE4C0'}}Normandy, Kraftwerk{{/}} og {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}-kortene. Angriberne skal ødelægge 3 af de 5 høj-kaliber kanoner, mens forsvarerne skal beskytte dem."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Massive 30v30-kampe i niveau {{vehiclesLevelFrom}}–{{vehiclesLevelTo}} køretøjer på {{@ colorLegacy 'FFE4C0'}}Normandy, Kraftwerk{{/}} og {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}-kortene. Angriberne skal ødelægge 3 af de 5 høj-kaliber kanoner, mens forsvarerne skal beskytte dem."
+
+msgid "main/cellLevel9/header"
+msgstr "Niveau {{vehiclesLevel}} køretøjer"
+
+msgid "main/cellLevel9/text"
+msgstr "Når en base i anden linje (D, E eller F) er erobret, vil du kunne gå i kamp i et niveau {{vehiclesLevel}} køretøj."
+
+msgid "main/cellLevels/header"
+msgstr "Niveau {{vehiclesLevel}} køretøjer"
+
+msgid "main/cellLevels/text_8"
+msgstr "Kun niveau {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} køretøjer er tilgængelige i kamptypen."
+
+msgid "main/cellLevels/text_9"
+msgstr "Kun niveau {{vehiclesLevel}} køretøjer kan gå i kamp."
+
+msgid "main/cellPass/header"
+msgstr "Battle Pass"
+
+msgid "main/cellPass/text"
+msgstr "Frontlinje er en fremragende mulighed for at optjene Battle Pass-point ved at deltage i kampe og nå nye Frontlinje-niveauer."
+
+msgid "main/cellReserves/header"
+msgstr "Kampreserve-kategorier"
+
+msgid "main/cellReserves/text"
+msgstr "Der er tre kategorier af kampreserver, hver knyttet til en bestemt plads. Rækkefølgen de åbnes og forbedres afhænger af køretøjstypen."
+
+msgid "main/cellScenarios/header"
+msgstr "Scenarier"
+
+msgid "main/cellScenarios/text"
+msgstr "Kampe i Frontlinje-kamptypen bruger ét af følgende scenarier: {{@ colorLegacy 'FFE4C0'}}Standard kamp{{/}}, {{@ colorLegacy 'FFE4C0'}}Operationel støtte{{/}} eller {{@ colorLegacy 'FFE4C0'}}Skæbnen råder{{/}}. Information om det nuværende scenarie vises på indlæsningsskærmen, under nedtælling før kamp eller ved at trykke på Tab-tasten."
+
+msgid "main/sectionHeader"
+msgstr "Generel information"
+
+msgid "page/backBtn"
+msgstr "TILBAGE"
+
+msgid "page/headerUpper"
+msgstr "FRONTLINJE"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "Afhængig af den rang du når, vil du modtage Frontlinje-xp samt kamp xp. Frontlinje-xp bruges til at forøge dit Frontlinje-niveau. Alt i alt er der {{@ colorLegacy 'FFE4C0'}}20 niveauer{{/}}."
+
+msgid "progression/levelsSection/header"
+msgstr "Frontlinje-niveauer"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Frontlinje-niveauer{{/}} belønner dig med Battle Pass-point, kampreserve-point, obligationer, direktiver, omskolings-ordrer, mentorlicenser og mandskabsbøger."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Frontlinje-niveauer{{/}} belønner dig med kampreserve-point, obligationer, direktiver, omskolings-ordrer og mandskabsbøger."
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Range{{/}} viser ikke blot din effektivitet i en bestemt kamp, men giver også en bonus til kamp xp som resultat. Denne bonus påføres den samlede mængde base xp, som du optjente på alle dine køretøjer, der var i kamp. Når du eller dine allierede når en rang som general, får hele holdet en bonus til deres mandskabers ydeevne (primære kvalifikationsniveau) fra {{@ colorLegacy 'FFE4C0'}}1,5%{{/}} til {{@ colorLegacy 'FFE4C0'}}15%{{/}}."
+
+msgid "progression/ranksSection/header"
+msgstr "Range"
+
+msgid "progression/ranksSection/text"
+msgstr "Kamptypen har et system med seks range, hvor spillerne har fremskridt fra menig til general. Du vil blive forfremmet for en effektiv præstation i kamp (erobring eller forsvar af baser; ødelæggelse af primære mål), og ved at optjene xp. Den samlede mængde xp optjent på alle køretøjer du brugte i kamp tælles med."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Bonus til kamp xp"
+
+msgid "progression/ranksTable/captain"
+msgstr "Kaptajn"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Bonus til mandskabets ydeevne"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Frontlinje xp"
+
+msgid "progression/ranksTable/general"
+msgstr "General"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Løjtnant"
+
+msgid "progression/ranksTable/major"
+msgstr "Major"
+
+msgid "progression/ranksTable/private"
+msgstr "Menig"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Sergent"
+
+msgid "progression/sectionHeader"
+msgstr "Frontlinje-fremskridt"
+
+msgid "progression/text"
+msgstr "Når du deltager i denne kamptype, vil du stige i rang, avancere gennem Frontlinje-fremskridtet og optjene belønninger."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Sekundær"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Reserve-plads 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Reserve-plads 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Reserve-plads 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Primær"
+
+msgid "reserveCategories/categories/support"
+msgstr "Ekstra"
+
+msgid "reserveCategories/config/footerText"
+msgstr "I {{@ colorLegacy 'FFE4C0'}}Skæbnen råder{{/}}-scenariet, afhænger rækkefølgen hvormed kampreserver åbnes, ikke af køretøjstypen."
+
+msgid "reserveCategories/config/header"
+msgstr "Reservekonfigurationer efter køretøjstype"
+
+msgid "reserveCategories/config/text"
+msgstr "I {{@ colorLegacy 'FFE4C0'}}standard kamp{{/}} og {{@ colorLegacy 'FFE4C0'}}Operationel støtte{{/}}-scenarierne, er alle tre kampreserve-pladser tilgængelige for alle køretøjstyper. Rækkefølgen, hvormed der åbnes for dem, afhænger dog af køretøjstypen."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "Kampvognsjægere"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Tunge kampvogne"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Lette kampvogne"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Medium kampvogne"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "SPG'er"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* Forbedringer til dette niveau er kun tilgængeligt for {{@ colorLegacy 'FFE4C0'}}købte{{/}} kampreserver i {{@ colorLegacy 'FFE4C0'}}Skæbnen råder{{/}}-scenariet."
+
+msgid "reserveCategories/levels/header"
+msgstr "Sådan åbnes pladser og forbedres kampreserver"
+
+msgid "reserveCategories/levels/text"
+msgstr "Som standard er én kampreserve tilgængelig for dig. Andre åbnes ved at nå en rang som sergent og løjtnant. Alle tre reserver vil blive forbedret ved at nå en rang som kaptajn og major."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} eller {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}} niveau"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Kaptajn"
+
+msgid "reserveCategories/ranks/general"
+msgstr "General"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Løjtnant"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Major"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Sergent"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Menig"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Skæbnen råder"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "I kamp kan spillerne vælge fra tilfældige reserver, der er tilgængelige for alle køretøjstyper. Ved at placere en reserve i en plads før kamp, øges sandsynligheden for at få den i kamp med {{@ colorLegacy 'FFE4C0'}}10%{{/}}. Køb af en reserve vil forøge dens niveau til {{@ colorLegacy 'FFE4C0'}}II{{/}} og vil give mulighed for at forøge det til niveau {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Frontlinje-scenarier"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Standard kamp"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Standard Frontlinje-regler anvendes. Betingelserne for at bruge kampreserver er uændrede."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Operationel støtte"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "Ved at åbne op for en reserve: {{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "Ved at vende tilbage til kamp: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Et scenarie i hurtigere tempo med reduceret cooldown på kampreserver:"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Kampe i Frontlinje-kamptypen bruger ét af følgende scenarier: {{@ colorLegacy 'FFE4C0'}}Standard kamp{{/}}, {{@ colorLegacy 'FFE4C0'}}Operationel støtte{{/}} eller {{@ colorLegacy 'FFE4C0'}}Skæbnen råder{{/}}. Scenarier ændrer vilkårene for brug af kampreserver i kamp. Information om det nuværende scenarie vises på indlæsningsskærmen, under nedtælling før kamp eller ved at trykke på Tab-tasten."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Kampreserve-kategorier"
+
+msgid "reserveCategories/text"
+msgstr "Kampreserver er opdelt i tre kategorier med tre reserver i hver. Når du går i kamp, kan du placere én reserve fra en kategori i den tilsvarende plads."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Angrebsreserver"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Rekognosceringsreserver"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Taktiske reserver"
+
+msgid "reserves/sectionHeader"
+msgstr "Hurtige reserver"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Lynstart"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Klargøringstiden til kampreserver er forkortet med 50% i begyndelsen af kampen."
+
+msgid "reserves/sectionReload/header"
+msgstr "Straks tilgængelig"
+
+msgid "reserves/sectionReload/text"
+msgstr "Kampreserver vil være klar til brug, så snart der er åbnet op for dem."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Ny vind"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Klargøringstiden for kampreserver er forkortet med 70% ved returnering til kamp i et nyt køretøj."
+
+msgid "rules/backToFight/header"
+msgstr "Vender tilbage til kamp"
+
+msgid "rules/backToFight/text"
+msgstr "Hvis dit køretøj bliver ødelagt, kan du vælge et andet tilgængeligt køretøj og komme tilbage på slagmarken for at fortsætte kampen om sejren. Du kan vælge et af flere indsættelsesområder (respawnpunkter) på flankerne, samt bagtil, som kan hjælpe dig til at lægge din kampplan. Forsvarende spillere har et større udvalg af respawnpunkter dybt bag egne linjer, som de kan vælge imellem, hvilket betyder de kan haste til forsvaret af høj-kaliber kanonerne, i tilfælde af et pludseligt gennembrud. Systemet har også en særlig indikator, der advarer spillere, hvis det valgte område er farligt at blive indsat i."
+
+msgid "rules/base/header"
+msgstr "Baseerobring"
+
+msgid "rules/base/textBottom"
+msgstr "Skade af et køretøj (eller dets moduler), som er ved at erobre en base, nulstiller ikke dets erobringsfremskridt. I stedet bliver erobringsfremskridtet midlertidigt stoppet. For at nulstille erobringen af basen, skal forsvarerne ødelægge ethvert fjendtligt køretøj i cirklen eller tvinge dem ud af cirklen. Det forsvarende hold kan ikke generobre en base, efter den er faldet til angriberne."
+
+msgid "rules/base/textTop"
+msgstr "Det {FFE4C0_Start}angribende hold{FFE4C0_End} skal erobre baser i rækkefølge for at nå de primære mål. En erobret base tilføjer 2 minutter yderligere til kamplængden. Erobring af den sidste base tilføjer 4 minutter."
+
+msgid "rules/sectionHeader"
+msgstr "Generelle regler"
+
+msgid "rules/service/header"
+msgstr "Genforsyningscirkler"
+
+msgid "rules/service/text"
+msgstr "Genforsyningscirkler gendanner køretøjers hp, behandler alt såret mandskab og genforsyner ammunition. {FFE4C0_Start}Genforsyningsraten er som følger: 100 hp / et medlem af mandskabet / 10%{FFE4C0_End} af ammunition per sekund."
+
+msgid "rules/weapons/header"
+msgstr "Mål: 3 af 5 høj-kaliber kanoner"
+
+msgid "rules/weapons/list/back"
+msgstr "Panser bagtil: {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "Taget og frontpanseret {{@ colorLegacy 'FFE4C0'}}kan ikke blive gennembrudt{{/}} af granater."
+
+msgid "rules/weapons/list/sides"
+msgstr "Sidepanser: {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Sidepanser: {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Sårbare punkter: {{@ colorLegacy 'FFE4C0'}}dør (70 mm) og ventilation (25 mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Der er fem kanontårne dybt inde i det forsvarende holds territorie, som er de primære mål i kampen. Det angribende hold skal ødelægge 3 tårne, mens forsvarerne skal beskytte dem for enhver pris."
+
+msgid "subTitle/differentMonth"
+msgstr "fra {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}{{/}} til {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "fra {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}} {{startYear}},{{/}} til {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}} {{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "fra {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{from}}{{/}} til {{@ colorLegacy 'FFE4C0'}}{{to}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "Sektorerne A, B og C {{@ colorLegacy 'FFE4C0'}}i den første linje{{/}} udgør startplaceringerne for begge hold."
+
+msgid "winStrategy/header"
+msgstr "Vindende strategi"
+
+msgid "winStrategy/mapZones"
+msgstr "Kamptypens kort viser tre horisontale forsvarslinjer:"
+
+msgid "winStrategy/secondLine"
+msgstr "Når sektorerne på første linje er erobret, fortsætter kampen til sektorerne D, E og F {{@ colorLegacy 'FFE4C0'}}på den anden linje{{/}}."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Den tredje linje{{/}} er ikke inddelt i sektorer; det er området, hvor det sidste stadie af kampen finder sted. Høj-kaliber kanonerne er lokaliseret her og deres ødelæggelse giver sejren til det angribende hold. Angriberne får først adgang til de primære mål, når de har formået at erobre mindst én sektor i anden linje. Når en sektor er tabt, har de forsvarende spillere 1 minut til at forlade den, før denne zone kommer under bombardement. Et luftangreb vil ramme tilbageværende forsvarere i sektoren. Enhver angriber, der forsøger at nå sektorerne i anden eller tredje linje, uden at erobre den forrige sektor, vil også blive ødelagt i et luftangreb."

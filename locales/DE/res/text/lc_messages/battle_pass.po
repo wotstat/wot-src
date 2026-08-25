@@ -1,0 +1,1652 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "awardsWidget/description/award"
+msgstr "Klicken Sie, um Ihre Belohnungen auszuwählen und abzuholen."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Die Belohnungen sind vorübergehend nicht verfügbar. Wir bitten für die Unannehmlichkeiten um Entschuldigung."
+
+msgid "awardsWidget/description/coin"
+msgstr "Klicken Sie, um die wertvollen, für Marken des Battle Pass erhältlichen Gegenstände zu sehen."
+
+msgid "awardsWidget/description/collection"
+msgstr "Klicken Sie hier, um die Sammlung für den Battle Pass anzuzeigen."
+
+msgid "awardsWidget/description/collectionCompleted"
+msgstr "Glückwunsch! Sie haben alle Sammlungselemente für den Battle Pass gefunden!"
+
+msgid "awardsWidget/description/commander"
+msgstr "Klicken Sie, um alle Besatzungsmitglieder aus Events zu sehen."
+
+msgid "awardsWidget/description/taler"
+msgstr "Klicken Sie, um Gegenstände früherer Saisons des Battle Pass zu sehen, die Sie für Chips oder Gold erhalten können."
+
+msgid "awardsWidget/description/ticket"
+msgstr "Klicken Sie, um Ihre Gutscheine einzulösen und Belohnungen zu erhalten."
+
+msgid "awardsWidget/title/awardMultiple"
+msgstr "BELOHNUNGEN\nABHOLEN"
+
+msgid "awardsWidget/title/awardSingle"
+msgstr "BELOHNUNG\nABHOLEN"
+
+msgid "awardsWidget/title/coin"
+msgstr "GEGENSTÄNDE FÜR MARKEN"
+
+msgid "awardsWidget/title/collection"
+msgstr "SAMMLUNG"
+
+msgid "awardsWidget/title/commander"
+msgstr "BESATZUNGS-\nMITGLIEDER"
+
+msgid "awardsWidget/title/taler"
+msgstr "TRESOR"
+
+msgid "awardsWidget/title/ticket"
+msgstr "GUTSCHEINE\nEINLÖSEN"
+
+msgid "battleBonusX5"
+msgstr "5×-EP-Auftrag"
+
+msgid "battlePassAwardsView/additionalRewards/bpBuyLevelAwardsText"
+msgstr "Sie erhielten die verbesserte Belohnung für den Abschluss der Hauptfortschritts-Stufe. Verdienen Sie weitere Punkte, um mehr Belohnungen zu erhalten."
+
+msgid "battlePassAwardsView/additionalRewards/bpRemainLevelsAwardsText"
+msgstr "Noch %(remainingAwardsCount)s"
+
+msgid "battlePassAwardsView/additionalRewards/button"
+msgstr "Jawohl!"
+
+msgid "battlePassAwardsView/additionalRewards/seeMoreButtonText"
+msgstr "Belohnungen ansehen"
+
+msgid "battlePassAwardsView/additionalRewards/subText"
+msgstr "Sie erhielten außerdem:"
+
+msgid "battlePassAwardsView/footer/acceptButton"
+msgstr "Jawohl!"
+
+msgid "battlePassAwardsView/footer/allChaptersText"
+msgstr "Sie haben alle Belohnungen des verbesserten Passes für die drei Kapitel freigeschaltet."
+
+msgid "battlePassAwardsView/footer/boughtChapterText"
+msgstr "Alle Belohnungen der erworbenen Stufe sind für Sie verfügbar."
+
+msgid "battlePassAwardsView/footer/bpButtonTitle"
+msgstr "Verbesserten Pass kaufen"
+
+msgid "battlePassAwardsView/footer/bpDescriptionGotStyle"
+msgstr "Zu Beginn jedes Kapitels erhalten Sie einen Stil, der durch den Fortschritt im Kapitel verbessert werden kann. Unvollständige Stile können auch nach Ende der aktuellen Saison des Battle Pass noch verbessert werden."
+
+msgid "battlePassAwardsView/footer/bpInProgressTitle"
+msgstr "Kaufen Sie den verbesserten Pass für das aktuelle Kapitel, um verbesserte Belohnungen für bereits abgeschlossene Stufen zu erhalten. Sie erhalten außerdem die verbesserten Belohnungen für alle weiteren Stufen, sobald Sie diese abschließen."
+
+msgid "battlePassAwardsView/footer/bpLastStagesTitle"
+msgstr "Kaufen Sie den verbesserten Pass für das aktuelle Kapitel, um sofort verbesserte Belohnungen für bereits abgeschlossene Stufen zu erhalten."
+
+msgid "battlePassAwardsView/footer/bpMoreTitle"
+msgstr "SIE HABEN NOCH DIE CHANCE!"
+
+msgid "battlePassAwardsView/footer/bpTitle"
+msgstr "VERBESSERTER PASS"
+
+msgid "battlePassAwardsView/footer/getRewardsButton"
+msgstr "Belohnungen abholen"
+
+msgid "battlePassAwardsView/footer/postProgressionButton"
+msgstr "Zu Elitestufen"
+
+msgid "battlePassAwardsView/footer/postProgressionText"
+msgstr "Sie haben jetzt Zugang zu den Elitestufen."
+
+msgid "battlePassAwardsView/header/bpAllChapters"
+msgstr "Alle Kapitel"
+
+msgid "battlePassAwardsView/header/bpBoughtText"
+msgstr "VERBESSERTER PASS GEKAUFT!"
+
+msgid "battlePassAwardsView/header/bpFinalLevelText"
+msgstr "LETZE STUFE ABGESCHLOSSEN!"
+
+msgid "battlePassAwardsView/header/bpLevelReceivedText"
+msgstr "STUFE %(currentLevel)s ABGESCHLOSSEN!"
+
+msgid "battlePassAwardsView/header/bpLevelsText"
+msgstr "BELOHNUNGEN ERHALTEN"
+
+msgid "battlePassAwardsView/header/bpRewardText"
+msgstr "BELOHNUNG ERHALTEN"
+
+msgid "battlePassAwardsView/header/bpTitle"
+msgstr "BATTLE PASS: KAPITEL „%(chapter)s“"
+
+msgid "battlePassAwardsView/header/bpTitleWithoutChapter"
+msgstr "BATTLE PASS"
+
+msgid "battlePassAwardsView/header/styleReceivedText"
+msgstr "STIL ERHALTEN"
+
+msgid "battlePassAwardsView/header/styleUpgradedText"
+msgstr "STIL VERBESSERT"
+
+msgid "battlePassAwardsView/mainReward/battlePassNewDeviceGiftToken"
+msgstr "Wählbares Standardzubehör"
+
+msgid "battlePassAwardsView/mainReward/battlePassTrophyGiftToken"
+msgstr "Wählbares erbeutetes Zubehör"
+
+msgid "battlePassAwardsView/mainReward/bpBuyAwardsCaption"
+msgstr "Sie haben alle Belohnungen des verbesserten Passes für das Kapitel „%(chapter)s“ freigeschaltet."
+
+msgid "battlePassAwardsView/mainReward/bpBuyWithLevels"
+msgstr "Sie haben alle Belohnungen für das Kapitel „%(chapter)s“ erhalten."
+
+msgid "battlePassAwardsView/mainReward/commander"
+msgstr "Besatzungsmitglied: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonText"
+msgstr "Zur Auswahl gehen"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonTitle"
+msgstr "Im Abschnitt „Vorräte für die Heimatfront“ des Nachschubs"
+
+msgid "battlePassAwardsView/mainReward/reward"
+msgstr "Medaille: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/style"
+msgstr "3D-Stil: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/styleLevel1"
+msgstr "Erste Stufe des Stils „%(styleName)s“"
+
+msgid "battlePassAwardsView/mainReward/styleLevel2"
+msgstr "Neue Stufe des Stils „%(styleName)s“"
+
+msgid "battlePassAwardsView/mainReward/styleLevel3"
+msgstr "Maximale Stufe des Stils „%(styleName)s“"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonText"
+msgstr "Zur Auswahl gehen"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonTitle"
+msgstr "Im Abschnitt „Vorräte für die Heimatfront“ des Nachschubs"
+
+msgid "battlePassBuyLevels/chapter"
+msgstr "Kapitel „%(name)s“"
+
+msgid "battlePassBuyLevels/levelsSelected"
+msgid_plural "plural/battlePassBuyLevels/levelsSelected"
+msgstr[0] "%(count)s Stufe für"
+msgstr[1] "%(count)s Stufen für"
+msgstr[2] "%(count)s Stufen für"
+
+msgid "battlePassBuyView/btnCancel"
+msgstr "Abbrechen"
+
+msgid "battlePassBuyView/btnRewards"
+msgstr "Alle\n%(count)s Belohnungen ansehen"
+
+msgid "battlePassBuyView/confirm/btnBuy"
+msgstr "Kaufen"
+
+msgid "battlePassBuyView/confirm/checkbox/stage"
+msgid_plural "plural/battlePassBuyView/confirm/checkbox/stage"
+msgstr[0] "Mit %(stagesNumber)s verbleibenden Stufe"
+msgstr[1] "Mit %(stagesNumber)s verbleibenden Stufen"
+msgstr[2] "Mit %(stagesNumber)s verbleibenden Stufen"
+
+msgid "battlePassBuyView/confirm/description"
+msgstr "Der verbesserte Pass schaltet frei:"
+
+msgid "battlePassBuyView/confirm/descriptionCheckboxChecked"
+msgstr "Sie erhalten sofort die Belohnungen für alle Kapitel:"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/buy"
+msgstr "Angebote ansehen"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/description"
+msgstr "Dieses Angebot ist gültig, solange für keine\nKapitel der Saison ein verbesserter Pass gekauft wurde."
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/headline"
+msgstr "%(count)s als Paket"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/packsAmount"
+msgstr "%(amount)sx"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/title"
+msgstr "Verbesserter Pass für\nalle Kapitel der Saison"
+
+msgid "battlePassBuyView/confirm/starterPack/description"
+msgstr "Bonus %(purchaseText)s"
+
+msgid "battlePassBuyView/confirm/starterPack/purchaseText"
+msgstr "zum Kauf:"
+
+msgid "battlePassBuyView/descr"
+msgstr "Mit dem Kauf einer Fortschrittsstufe erhalten Sie sofort alle Belohnungen der jeweiligen Stufe."
+
+msgid "battlePassBuyView/reward/descriptionFutureRewards"
+msgstr "Diese Belohnungen erhalten Sie, wenn Sie die kommenden Stufen abgeschlossen haben."
+
+msgid "battlePassBuyView/reward/descriptionNowRewards"
+msgstr "Die folgenden Belohnungen erhalten Sie für die Stufen %(steps)s"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
+msgstr "Sie erhalten sofort die folgenden Belohnungen."
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
+msgstr "Die folgenden Belohnungen erhalten Sie für Stufe %(steps)s"
+
+msgid "battlePassBuyView/reward/titleFutureRewards"
+msgstr "WIRD FREIGESCHALTET"
+
+msgid "battlePassBuyView/reward/titleNowRewards"
+msgstr "WIRD SOFORT ERHALTEN"
+
+msgid "battlePassStatus/activateChapter"
+msgstr "Aktivieren Sie das Kapitel des Battle Pass"
+
+msgid "battlePassStatus/improve"
+msgstr "Sie können den verbesserten Pass immer noch kaufen."
+
+msgid "battlePassVehicleAwardView/button"
+msgstr "Jawohl!"
+
+msgid "battlePassVehicleAwardView/content/description"
+msgstr "PUNKTELIMIT ERREICHT"
+
+msgid "battlePassVehicleAwardView/content/postTitle"
+msgstr "BATTLE PASS – ELITEFORTSCHRITT"
+
+msgid "battlePassVehicleAwardView/content/subTitle"
+msgstr "Sie erhielten die Belohnungen:"
+
+msgid "battlePassVehicleAwardView/content/title"
+msgstr "BATTLE PASS"
+
+msgid "battlepassTab"
+msgstr "Battle Pass"
+
+msgid "chapter/fullName/10021"
+msgstr "Carmen de Bisonte"
+
+msgid "chapter/fullName/1114"
+msgstr "Carmen de Bisonte"
+
+msgid "chapter/fullName/200"
+msgstr "Elitestufen"
+
+msgid "chapter/fullName/201"
+msgstr "Zeit unter Dünen"
+
+msgid "chapter/fullName/202"
+msgstr "C'est Notre Destin"
+
+msgid "chapter/fullName/203"
+msgstr "Wüstenkommando"
+
+msgid "chapter/fullName/205"
+msgstr "Far Cry"
+
+msgid "chapter/fullNameUppercased/10021"
+msgstr "CARMEN DE BISONTE"
+
+msgid "chapter/fullNameUppercased/1114"
+msgstr "CARMEN DE BISONTE"
+
+msgid "chapter/fullNameUppercased/201"
+msgstr "ZEIT UNTER DÜNEN"
+
+msgid "chapter/fullNameUppercased/202"
+msgstr "C'EST NOTRE DESTIN"
+
+msgid "chapter/fullNameUppercased/203"
+msgstr "WÜSTENKOMMANDO"
+
+msgid "chapter/fullNameUppercased/205"
+msgstr "FAR CRY"
+
+msgid "chapter/title"
+msgstr "KAPITEL „%(chapter)s“"
+
+msgid "chapterChoice/about"
+msgstr "ÜBER DEN BATTLE PASS"
+
+msgid "chapterChoice/activeChapter/postprogression/text"
+msgstr "Aktiv"
+
+msgid "chapterChoice/activeChapter/text"
+msgstr "Aktives Kapitel"
+
+msgid "chapterChoice/chapterCompleted"
+msgstr "Kapitel abgeschlossen"
+
+msgid "chapterChoice/chapterInfo/buttons/toChapter"
+msgstr "Zum Kapitel"
+
+msgid "chapterChoice/chapterInfo/buttons/toCrewMembers"
+msgstr "Besatzungsmitglieder einsehen"
+
+msgid "chapterChoice/chapterInfo/buttons/toPostProgression"
+msgstr "Zum Fortschritt"
+
+msgid "chapterChoice/chapterInfo/deadline/date"
+msgstr "Gültig bis %(endDate)s"
+
+msgid "chapterChoice/chapterInfo/deadline/time"
+msgstr "Endet in %(endTime)s"
+
+msgid "chapterChoice/confirmation/button/cancel"
+msgstr "Abbrechen"
+
+msgid "chapterChoice/confirmation/button/submit"
+msgstr "Aktivieren"
+
+msgid "chapterChoice/confirmation/button/switch"
+msgstr "Wechseln"
+
+msgid "chapterChoice/confirmation/description/select"
+msgstr "Sie können jederzeit zu anderen Kapiteln wechseln."
+
+msgid "chapterChoice/confirmation/description/switch"
+msgstr "Sie haben bereits das Kapitel „%(chName)s“ aktiviert. Das Kapitel wird pausiert."
+
+msgid "chapterChoice/confirmation/extraChapterDescription/highlightText"
+msgstr "nicht mehr verfügbar sein"
+
+msgid "chapterChoice/confirmation/extraChapterDescription/text"
+msgstr "%(icon)Sobald das besondere Kapitel aktiviert wurde, werden die Elitestufen bis zum Ende des Kapitels oder zum Abschluss des Fortschritts %(highlightText)."
+
+msgid "chapterChoice/confirmation/title/select"
+msgstr "Kapitel „%(chName)s“ aktivieren?"
+
+msgid "chapterChoice/confirmation/title/switch"
+msgstr "Zu Kapitel „%(chName)s“ wechseln?"
+
+msgid "chapterChoice/crewMember/reward"
+msgstr "Besatzungsmitglieder"
+
+msgid "chapterChoice/crewMember/reward/subTitle"
+msgstr "und andere Besatzungsmitglieder sind enthalten"
+
+msgid "chapterChoice/eliteCircuit/reward/subTitle"
+msgstr "im zyklischen Fortschritt"
+
+msgid "chapterChoice/eliteCircuit/reward/title"
+msgstr "Anleihen, Chips und Gutscheine"
+
+msgid "chapterChoice/extraChapter/reward"
+msgstr "Premiumfahrzeug"
+
+msgid "chapterChoice/freePoints/text"
+msgstr "Ungenutzte Punkte"
+
+msgid "chapterChoice/freePoints/tooltip/body"
+msgstr "Durch den Fortschritt im Battle Pass werden Punkte angesammelt, auch wenn kein Kapitel aktiviert wurde. Sobald Sie ein Kapitel aktivieren, werden die Punkte für den Fortschritt in diesem Kapitel genutzt."
+
+msgid "chapterChoice/freePoints/tooltip/header"
+msgstr "Noch nicht genutzte Punkte für den Battle Pass"
+
+msgid "chapterChoice/postprogression/locked"
+msgstr "Schließen Sie zum Erhalt alle\n{{count}} Kapitel der Saison ab."
+
+msgid "chapterChoice/postprogression/name"
+msgstr "Elitestufen"
+
+msgid "chapterChoice/postprogression/unlocked/cycle"
+msgstr "Zyklus %(cycle)s"
+
+msgid "chapterChoice/stages/additional"
+msgstr " / %(level)s Abschnitte"
+
+msgid "chapterChoice/stages/complete/improved"
+msgstr "Abgeschlossen und verbessert"
+
+msgid "chapterChoice/stages/complete/unimproved"
+msgstr "%(count)s weitere Belohnungen enthalten"
+
+msgid "chapterChoice/stylePreview/reward/subTitle"
+msgstr "für %(vehicleName)s"
+
+msgid "chapterChoice/stylePreview/reward/title"
+msgstr "3D-Stil „%(styleName)s“"
+
+msgid "chapterChoice/vehicle/reward/subTitle"
+msgstr "%(vehicleName)s"
+
+msgid "chapterChoice/vehicle/reward/title"
+msgstr "Premiumfahrzeug"
+
+msgid "chapterChoice/vehicleStyle/reward/subTitle"
+msgstr "und der 3D-Stil „%(styleName)s“"
+
+msgid "chapterChoice/vehicleStyle/reward/title"
+msgstr "%(vehicleName)s"
+
+msgid "chapterStatus/notSelected"
+msgstr "Kapitel nicht ausgewählt"
+
+msgid "chosenBonuses/bonus/battle_booster_gift"
+msgstr "Wählbare Direktiven"
+
+msgid "chosenBonuses/bonus/blueprint_gift"
+msgstr "Wählbare nationale Fragmente"
+
+msgid "chosenBonuses/bonus/brochure_gift"
+msgstr "Wählbare Ausbildungsbroschüren"
+
+msgid "chosenBonuses/bonus/crewbook_gift"
+msgstr "Wählbare Ausbildungshandbücher"
+
+msgid "chosenBonuses/bonus/guide_gift"
+msgstr "Wählbare Ausbildungsratgeber"
+
+msgid "chosenBonuses/bonus/modernized_device_gift"
+msgstr "Wählbares experimentelles Zubehör"
+
+msgid "chosenBonuses/bonus/new_device_gift"
+msgstr "Wählbares Standardzubehör"
+
+msgid "chosenBonuses/bonus/trophy_gift"
+msgstr "Wählbares erbeutetes Zubehör"
+
+msgid "common/collectionText"
+msgstr "(Sammlungselement)"
+
+msgid "common/comma"
+msgstr ", "
+
+msgid "common/multiplier"
+msgstr "%(multiplier)sx"
+
+msgid "commonProgression/body/ended"
+msgstr "Die Saison des Battle Pass ist beendet"
+
+msgid "crewBonusX3"
+msgstr "Auftrag für 3× Besatzungs-EP"
+
+msgid "equipCoinBonus"
+msgstr "Komponenten: %(count)s"
+
+msgid "finalReward/tankman/roles/commander"
+msgstr "Kommandant"
+
+msgid "finalReward/tankman/roles/driver"
+msgstr "Fahrer"
+
+msgid "finalReward/tankman/roles/gunner"
+msgstr "Richtschütze"
+
+msgid "finalReward/tankman/roles/loader"
+msgstr "Ladeschütze"
+
+msgid "finalReward/tankman/roles/radioman"
+msgstr "Funker"
+
+msgid "holidayFinalScreen/buyState/buyButton"
+msgstr "Verbesserten Pass kaufen"
+
+msgid "holidayFinalScreen/buyState/description"
+msgstr "Wenn Sie den verbesserten Pass kaufen, erhalten Sie sofort Zugang zu einem Premiumfahrzeug mit einzigartigem 3D-Stil und allen Belohnungen für den verbesserten Pass."
+
+msgid "holidayFinalScreen/buyState/moreRewards"
+msgstr "Andere Belohnungen: %(count)s"
+
+msgid "holidayFinalScreen/buyState/title"
+msgstr "Belohnungen des verbesserten Passes erhalten"
+
+msgid "holidayFinalScreen/chapter"
+msgstr "%(chapterName)s"
+
+msgid "holidayFinalScreen/completed"
+msgstr "KAPITEL ABGESCHLOSSEN"
+
+msgid "holidayFinalScreen/finalState/button/showHangar"
+msgstr "Zurück zur Garage"
+
+msgid "holidayFinalScreen/finalState/button/showVehicle"
+msgstr "In der Garage anzeigen"
+
+msgid "holidayFinalScreen/finalState/label"
+msgstr "Alle Eventbelohnungen erhalten"
+
+msgid "holidayFinalScreen/selectableRewardsState/button"
+msgstr "Belohnungen abholen"
+
+msgid "holidayFinalScreen/selectableRewardsState/label"
+msgstr "Sie können noch Belohnungen auswählen."
+
+msgid "holidayFinalScreen/tankmenState/description"
+msgstr "In diesem Event sind Pakete mit einzigartigen Besatzungsmitgliedern im Nachschub erhältlich."
+
+msgid "holidayFinalScreen/tankmenState/tankmenButton"
+msgstr "Sprachausgaben anhören"
+
+msgid "holidayFinalScreen/tankmenState/title"
+msgstr "Sammeln Sie alle Besatzungsmitglieder!"
+
+msgid "howToEarnPoints/battleRoyal/platoon"
+msgstr "Im Zug"
+
+msgid "howToEarnPoints/battleRoyal/solo"
+msgstr "Solo"
+
+msgid "howToEarnPoints/battleTypeTitle/1"
+msgstr "Zufallsgefecht"
+
+msgid "howToEarnPoints/battleTypeTitle/27"
+msgstr "Frontlinie"
+
+msgid "howToEarnPoints/battleTypeTitle/29"
+msgstr "Stählerner Jäger"
+
+msgid "howToEarnPoints/battleTypeTitle/43"
+msgstr "Ansturm"
+
+msgid "howToEarnPoints/battleTypeTitle/49"
+msgstr "Ansturm Light"
+
+msgid "howToEarnPoints/bonus"
+msgstr "+%(bonus)s"
+
+msgid "howToEarnPoints/card/battle/linkText"
+msgstr "Zu den Aufträgen"
+
+msgid "howToEarnPoints/card/battle/text"
+msgstr "Schließen Sie Aufträge in Stählerner Jäger ab und erhalten Sie zusätzliche Punkte."
+
+msgid "howToEarnPoints/card/battle/title"
+msgstr "Tagesaufträge"
+
+msgid "howToEarnPoints/card/comp7/text"
+msgstr "Schließen Sie Aufträge im Modus „Ansturm“ ab und erhalten Sie zusätzliche Punkte."
+
+msgid "howToEarnPoints/card/comp7/title"
+msgstr "Tagesaufträge"
+
+msgid "howToEarnPoints/card/comp7Light/text"
+msgstr "Schließen Sie Aufträge im Modus „Ansturm Light“ ab und erhalten Sie zusätzliche Punkte."
+
+msgid "howToEarnPoints/card/comp7Light/title"
+msgstr "Tagesaufträge"
+
+msgid "howToEarnPoints/card/daily/linkText"
+msgstr "Aufträge ansehen"
+
+msgid "howToEarnPoints/card/daily/text"
+msgstr "Verdienen Sie sich noch mehr Punkte durch den Abschluss von Tagesaufträgen."
+
+msgid "howToEarnPoints/card/daily/title"
+msgstr "Tagesaufträge"
+
+msgid "howToEarnPoints/card/epicBattlePoints/text"
+msgstr "Für das Erreichen von Frontlinienstufen erhalten Sie zusätzliche Punkte für den Battle Pass."
+
+msgid "howToEarnPoints/card/epicBattlePoints/title"
+msgstr "Belohnung für Frontlinienstufen"
+
+msgid "howToEarnPoints/card/limitPoints/text"
+msgstr "Jedes Fahrzeug besitzt ein Punktelimit. Wenn Sie dieses Limit erreichen, erhalten Sie einen Punktebonus."
+
+msgid "howToEarnPoints/card/limitPoints/title"
+msgstr "Punktelimit-Belohnung"
+
+msgid "howToEarnPoints/card/specialVehicle/text"
+msgstr "Mit den Hauptfahrzeugen der Saison erhalten Sie zusätzliche Punkte."
+
+msgid "howToEarnPoints/card/specialVehicle/title"
+msgstr "Hauptfahrzeuge der Saison"
+
+msgid "howToEarnPoints/condition/43"
+msgstr "Nach Prestigepunkten"
+
+msgid "howToEarnPoints/condition/49"
+msgstr "Nach Prestigepunkten"
+
+msgid "howToEarnPoints/condition/default"
+msgstr "Ergebnis nach EP"
+
+msgid "howToEarnPoints/conditions"
+msgstr "Bedingungen zum Erhalt"
+
+msgid "howToEarnPoints/description"
+msgstr "Schreiten Sie durch die Kapitel voran und sammeln Sie Belohnungen, indem Sie Punkte für den Battle Pass aus unterschiedlichen Modi verdienen:"
+
+msgid "howToEarnPoints/earned"
+msgstr "{{icon}}"
+
+msgid "howToEarnPoints/extraPoints"
+msgstr "Bonuspunkte"
+
+msgid "howToEarnPoints/lose/1"
+msgstr "Niederlage / Unentschieden"
+
+msgid "howToEarnPoints/lose/27"
+msgstr "Niederlage"
+
+msgid "howToEarnPoints/lose/43"
+msgstr "Niederlage / Unentschieden"
+
+msgid "howToEarnPoints/lose/49"
+msgstr "Niederlage / Unentschieden"
+
+msgid "howToEarnPoints/plusBanner/line1"
+msgstr "Mit %(link)s verdienen Sie mehr Punkte."
+
+msgid "howToEarnPoints/plusBanner/line2"
+msgstr "Dieser Bonus gilt in allen regulären Kapiteln."
+
+msgid "howToEarnPoints/plusBanner/link"
+msgstr "WoT Plus Pro"
+
+msgid "howToEarnPoints/points"
+msgstr "Punkte"
+
+msgid "howToEarnPoints/rangeLevels/29"
+msgstr "Rang %(startLevel)d–%(endLevel)d"
+
+msgid "howToEarnPoints/rating"
+msgstr "Beste %(place)d"
+
+msgid "howToEarnPoints/rating/1"
+msgstr "Beste %(level)d nach EP"
+
+msgid "howToEarnPoints/rating/27"
+msgstr "Beste %(level)d nach EP"
+
+msgid "howToEarnPoints/rating/29"
+msgstr "Beste %(level)d nach EP"
+
+msgid "howToEarnPoints/rating/43"
+msgstr "Beste %(level)d nach Prestigepunkten"
+
+msgid "howToEarnPoints/rating/49"
+msgstr "Beste %(level)d nach Prestigepunkten"
+
+msgid "howToEarnPoints/singleLevel/29"
+msgstr "Rang %(level)d"
+
+msgid "howToEarnPoints/solo/29"
+msgstr "Solo-Spiel"
+
+msgid "howToEarnPoints/squad/29"
+msgstr "Zug-Spiel"
+
+msgid "howToEarnPoints/text/1"
+msgstr "Stufe %(startLevel)s–%(endLevel)s"
+
+msgid "howToEarnPoints/text/27"
+msgstr "Stufe %(level)s"
+
+msgid "howToEarnPoints/text/29"
+msgstr "Spezialfahrzeuge"
+
+msgid "howToEarnPoints/text/43"
+msgstr "Stufe %(level)s"
+
+msgid "howToEarnPoints/text/49"
+msgstr "Stufe %(level)s"
+
+msgid "howToEarnPoints/title"
+msgstr "Verdienen von Punkten"
+
+msgid "howToEarnPoints/vehicle"
+msgstr "Fahrzeug"
+
+msgid "howToEarnPoints/vehicles"
+msgstr "Spezialfahrzeuge"
+
+msgid "howToEarnPoints/win/1"
+msgstr "Sieg"
+
+msgid "howToEarnPoints/win/27"
+msgstr "Sieg"
+
+msgid "howToEarnPoints/win/43"
+msgstr "Sieg"
+
+msgid "howToEarnPoints/win/49"
+msgstr "Sieg"
+
+msgid "intro/affirmative/button"
+msgstr "Verstanden!"
+
+msgid "intro/next/button"
+msgstr "Weiter"
+
+msgid "intro/seasonDescription/text"
+msgstr "In Saison XVIII des Battle Pass können Sie exklusive 3D-Stile für die Hauptfahrzeuge der Saison erhalten: Maus, IS-7 und AMX&nbsp;50&nbsp;B."
+
+msgid "intro/seasonDescription/title"
+msgstr "Neue thematische 3D-Stile"
+
+msgid "intro/title"
+msgstr "SAISON XVIII: WEG ZUR PERFEKTION"
+
+msgid "lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "navigation/buyLevels"
+msgstr "KAUF VON STUFEN"
+
+msgid "navigation/buyLevelsRewards"
+msgstr "STUFENBELOHNUNGEN"
+
+msgid "navigation/buyPass"
+msgstr "KAUF DES VERBESSERTEN PASSES"
+
+msgid "navigation/buyPassConfirm"
+msgstr "KAUF DES VERBESSERTEN PASSES"
+
+msgid "navigation/buyPassRewards"
+msgstr "BELOHNUNGEN FÜR DEN VERBESSERTEN PASS"
+
+msgid "navigation/chapterChoice"
+msgstr "SAISON %(seasonNum)s DES BATTLE PASS"
+
+msgid "navigation/holidayFinal"
+msgstr "BATTLE PASS"
+
+msgid "navigation/intro"
+msgstr "SAISON %(seasonNum)s DES BATTLE PASS"
+
+msgid "navigation/postProgression"
+msgstr "ELITESTUFEN DES BATTLE PASS"
+
+msgid "navigation/progression"
+msgstr "KAPITEL DES BATTLE PASS"
+
+msgid "navigation/tankmenScreen"
+msgstr "EINZIGARTIGE BESATZUNGSMITGLIEDER"
+
+msgid "points/top"
+msgstr "%(vehicle): %(bonus) für die %(top) nach EP."
+
+msgid "points/topCount"
+msgstr "besten %(top)s"
+
+msgid "points/transfer"
+msgstr "Freie Punkte erhalten:"
+
+msgid "postProgressionView/footer/button/text"
+msgstr "Zu den Kapiteln"
+
+msgid "postProgressionView/footer/description/text"
+msgstr "Verfügbar, nachdem alle Kapitel abgeschlossen sind. Abgeschlossene Kapitel: %(completedChapters)/%(chaptersAmount)"
+
+msgid "postProgressionView/footer/extraChapter/description/text"
+msgstr "Holen Sie sich ein Premiumfahrzeug und exklusive Anpassungselemente."
+
+msgid "postProgressionView/footer/extraChapter/title/text"
+msgstr "Der Battle Pass „Far Cry“ ist da!"
+
+msgid "postProgressionView/footer/purchaseIP/banner/text"
+msgstr "Mehr Belohnungen mit dem verbesserten Pass!"
+
+msgid "postProgressionView/footer/purchaseIP/button/text"
+msgstr "Kaufen"
+
+msgid "postProgressionView/header/description/active"
+msgstr "Verdienen Sie Punkte im Gefecht und holen Sie sich Anleihen und Gutscheine als Belohnung."
+
+msgid "postProgressionView/header/description/onPause/highlight"
+msgstr "PAUSIERT."
+
+msgid "postProgressionView/header/description/onPause/regular"
+msgstr "Wird nach Abschluss des Fortschritts für das besondere Kapitel verfügbar."
+
+msgid "postProgressionView/header/headline/deadline"
+msgstr "Gültig bis: %(endDate)s"
+
+msgid "postProgressionView/header/headline/unlocked"
+msgstr "Alle Kapitel abgeschlossen"
+
+msgid "postProgressionView/header/title"
+msgstr "ELITESTUFEN"
+
+msgid "postProgressionView/progression/currentStep"
+msgstr "Aktuelle Stufe"
+
+msgid "postProgressionView/progression/cyclesCompleted"
+msgstr "Abgeschlossene Zyklen:"
+
+msgid "postProgressionView/progression/cyclicalProgression"
+msgstr "Zyklischer Fortschritt"
+
+msgid "postProgressionView/toolbar/aboutBattlePass"
+msgstr "ÜBER DEN BATTLE PASS"
+
+msgid "postProgressionView/toolbar/howToEarnPoints"
+msgstr "WIE SIE PUNKTE VERDIENEN"
+
+msgid "prestige/top"
+msgstr "%(vehicle): %(bonus) für einen Rang unter den %(top) Spielern nach verdienten Prestigepunkten."
+
+msgid "progression/about"
+msgstr "ÜBER BATTLE PASS"
+
+msgid "progression/aboutExtra"
+msgstr "ÜBER DAS EVENT"
+
+msgid "progression/activateChapter"
+msgstr "Kapitel aktivieren"
+
+msgid "progression/activateChapterDescr"
+msgstr "Sie erhalten Punkte für den Battle Pass und andere Belohnungen, wenn Sie das aktive Kapitel abschließen."
+
+msgid "progression/activateExtraChapterDescr"
+msgstr "Sie erhalten Punkte für den Battle Pass und andere Belohnungen, wenn Sie das aktive Kapitel abschließen."
+
+msgid "progression/activatePausedExtraChapterDescr"
+msgstr "Sie erhalten Punkte für den Battle Pass und Belohnungen, wenn Sie das aktive Kapitel abschließen."
+
+msgid "progression/backToCurrentStageArrow/descr"
+msgstr "Klicken Sie hier, um zur aktuellen Stufe zu gehen."
+
+msgid "progression/backToPotentialStageArrow/descr"
+msgstr "Klicken Sie hier, um zur freischaltbaren Stufe zu gehen."
+
+msgid "progression/baseProgressionDescr"
+msgstr "STANDARDBELOHNUNGEN"
+
+msgid "progression/battlePassBuyBtn"
+msgstr "Verbesserten Pass kaufen"
+
+msgid "progression/battlePassBuyDescr"
+msgstr "Der verbesserte Pass schaltet die verbesserte Belohnungsreihe des aktuellen Kapitels frei."
+
+msgid "progression/battlePassBuyDescrStarterPack"
+msgstr "Schalten Sie die verbesserten Belohnungen frei und holen Sie sich einen Bonus."
+
+msgid "progression/battlePassBuyHolidayDescr"
+msgstr "Der verbesserte Pass gewährt Zugang zur verbesserten Belohnungsreihe."
+
+msgid "progression/battlePassNextChapterBuyDescr"
+msgstr "Schließen Sie das vorhergehende Kapitel ab, um den verbesserten Pass für dieses Kapitel zu kaufen."
+
+msgid "progression/battlePassNextChapterEpisodesDescr"
+msgstr "Schließen Sie das vorhergehende Kapitel ab, um Stufen für dieses Kapitel zu kaufen."
+
+msgid "progression/btnExtras"
+msgstr "ZUSÄTZLICHES\nMATERIAL"
+
+msgid "progression/btnExtrasTooltip"
+msgstr "Schließen Sie Stufen ab, um neues Material freizuschalten. Freigeschaltetes Material: %(opened) / %(total)."
+
+msgid "progression/btnNoExtrasTooltip"
+msgstr "Schließen Sie Stufen ab, um neues Material freizuschalten."
+
+msgid "progression/btnRewardSelect"
+msgstr "BELOHNUNG ABHOLEN"
+
+msgid "progression/btnRewardSelectTooltip"
+msgstr "Klicken Sie, um Ihre Belohnung auszuwählen und abzuholen."
+
+msgid "progression/btnRewardsSelect"
+msgstr "BELOHNUNGEN ABHOLEN"
+
+msgid "progression/btnRewardsUnavailable"
+msgstr "Dieser Vorgang ist vorübergehend aus technischen Gründen nicht verfügbar. Wir arbeiten daran."
+
+msgid "progression/btnTokensStore"
+msgstr "GEGENSTÄNDE\nFÜR MARKEN"
+
+msgid "progression/btnTokensStoreTooltip"
+msgstr "Klicken Sie, um die wertvollen, für Marken des Battle Pass erhältlichen Gegenstände zu sehen.\nVerfügbare Marken: %(bpcoinCount)"
+
+msgid "progression/chapterText"
+msgstr "KAPITEL %(chapter)s: %(chapterName)s"
+
+msgid "progression/currentStep"
+msgstr "Aktuelle Stufe"
+
+msgid "progression/currentStepLocked"
+msgstr "VERBESSERTE BELOHNUNG"
+
+msgid "progression/episodeBuyBtn"
+msgstr "Stufen kaufen"
+
+msgid "progression/episodeBuyDescr"
+msgstr "Für jede gekaufte Stufe bekommen Sie Belohnungen."
+
+msgid "progression/episodeBuyDisableDescr"
+msgstr "Sie können in %(day) beliebig viele Stufen kaufen"
+
+msgid "progression/error"
+msgstr "Der Battle Pass ist aus technischen Gründen vorübergehend nicht verfügbar.\nSämtliche Fortschritte werden gespeichert. Wir entschuldigen uns für die Unannehmlichkeiten."
+
+msgid "progression/errorBtn"
+msgstr "Zur Garage"
+
+msgid "progression/extraChapterWidget/commanderVoices"
+msgstr "Zu weiteren"
+
+msgid "progression/extraChapterWidget/forLabel"
+msgstr "Für %(vehicleName)s"
+
+msgid "progression/extraChapterWidget/inHangarTooltip"
+msgstr "In der Garage"
+
+msgid "progression/extraChapterWidget/labelWithBP"
+msgstr "Mit dem verbesserten Pass"
+
+msgid "progression/extraChapterWidget/style3DTitle"
+msgstr "3D-Stil"
+
+msgid "progression/extraChapterWidget/styleName"
+msgstr "%(styleName)s"
+
+msgid "progression/extraChapterWidget/styleRemark"
+msgstr "Mit dem verbesserten Pass"
+
+msgid "progression/extraChapterWidget/styleSubTitle"
+msgstr "und Auftrag für das Fahrzeug „%(vehicleName)s“"
+
+msgid "progression/extraChapterWidget/styleTitle"
+msgstr "Stil"
+
+msgid "progression/extraChapterWidget/tank"
+msgstr "Premiumfahrzeug"
+
+msgid "progression/extraChapterWidget/tank/description/14"
+msgstr "In Gedenken an 80 Jahre\nseit dem D-Day"
+
+msgid "progression/extraChapterWidget/tankName"
+msgstr "%(vehicleName)s"
+
+msgid "progression/extraChapterWidget/tankman"
+msgstr "Besatzungsmitglied"
+
+msgid "progression/extraChapterWidget/timer"
+msgstr "Verbleibende Zeit bis zum Ende des Kapitels des Battle Pass"
+
+msgid "progression/extraChapterWidget/vehicleCaption"
+msgstr "Premiumfahrzeug"
+
+msgid "progression/extraChapterWidget/vehicleSubTitle"
+msgstr "und der 3D-Stil „%(styleName)s“"
+
+msgid "progression/extraChapterWidget/voiceoverTooltip"
+msgstr "Klicken Sie, um sich die Sprachausgabe des Besatzungsmitglieds anzuhören."
+
+msgid "progression/footer/starter_pack/equal"
+msgstr "="
+
+msgid "progression/footer/status/inactive"
+msgstr "Kapitel inaktiv"
+
+msgid "progression/footer/status/paused"
+msgstr "Kapitel angehalten."
+
+msgid "progression/freePointsDescr"
+msgstr "Noch nicht genutzte Punkte für den Battle Pass: "
+
+msgid "progression/header/chapter/status"
+msgstr "Kapitel „%(chapterName)s“"
+
+msgid "progression/header/inactive"
+msgstr "inaktiv"
+
+msgid "progression/header/paused"
+msgstr "angehalten"
+
+msgid "progression/howToEarnPoints/title"
+msgstr "WIE SIE PUNKTE VERDIENEN"
+
+msgid "progression/pausedStep"
+msgstr "Stufe"
+
+msgid "progression/postProgressionDescr"
+msgstr "ELITEFORTSCHRITT"
+
+msgid "progression/premiumProgressionDescr"
+msgstr "VERBESSERTE BELOHNUNGEN"
+
+msgid "progression/progressionArrow"
+msgstr "ALLE STUFEN\nANZEIGEN"
+
+msgid "progression/progressionChapterArrow"
+msgstr "KAPITEL %(chapter)"
+
+msgid "progression/progressionChapterGoTo"
+msgstr "GEHE ZU"
+
+msgid "progression/season/end/normal"
+msgstr "Saison %(seasonNum)s: %(seasonName)s dauert bis zum %(endDate)s"
+
+msgid "progression/season/end/special"
+msgstr "Gültig bis: %(endTime)s"
+
+msgid "progression/seasonEndingDescr"
+msgstr "Event endet in "
+
+msgid "progression/seasonEndingTooltip"
+msgstr "Bis zum Ende: {day} T."
+
+msgid "progression/takeReward"
+msgstr "Belohnung abholen"
+
+msgid "progression/universalCommander"
+msgstr "Einzigartiges Besatzungsmitglied"
+
+msgid "progression/widget3dStyle/currentStyle"
+msgstr "Stil „%(name)“"
+
+msgid "progression/widget3dStyle/forVehicle"
+msgstr "Für "
+
+msgid "progression/widget3dStyle/titleForClosedChapter"
+msgstr "Schließen Sie das vohergehende Kapitel ab,\num einen Stil auszuwählen"
+
+msgid "progression/widget3dStyle/titleForLastChapter"
+msgstr "Wählen Sie den Stil des Kapitels aus.\nEr kann direkt verwendet werden"
+
+msgid "progression/widget3dStyle/titleNoChapterSelected"
+msgstr "Aktivieren Sie ein Kapitel, um einen 3D-Stil zu erhalten."
+
+msgid "progression/widget3dStyle/viewStyles"
+msgstr "Alle Stile ansehen"
+
+msgid "questChainBonus"
+msgstr "Eine Auftragsreihe"
+
+msgid "randomQuestBonus"
+msgstr "Auftrag für das Fahrzeug „%(vehicle)s“"
+
+msgid "reward/postBattle/comp7/progress"
+msgstr "Punkte für Platzierung unter den besten Spielern nach verdienten Prestigepunkten:"
+
+msgid "reward/postBattle/comp7/progress/tooltip"
+msgstr "Punkte für Platzierung unter den besten Spielern nach verdienten Prestigepunkten: %(points)d"
+
+msgid "reward/postBattle/progress"
+msgstr "Stufenfortschritt:"
+
+msgid "reward/postBattle/progress/battle/tooltip"
+msgstr "Für den Platz unter den besten Spielern"
+
+msgid "reward/postBattle/progress/bonus/tooltip"
+msgstr "Für das Erreichen des Punktelimits eines Fahrzeugs"
+
+msgid "reward/postBattle/progress/points"
+msgstr "Battle Pass: Punkte verdienen"
+
+msgid "reward/postBattle/progress/points/battle"
+msgstr "Für den Platz unter den besten Spielern:"
+
+msgid "reward/postBattle/progress/points/bonus"
+msgstr "Für das Erreichen des Punktelimits eines Fahrzeugs:"
+
+msgid "reward/postBattle/progress/points/quest"
+msgstr "Für den Abschluss von Aufträgen:"
+
+msgid "reward/postBattle/progress/points/wotPlusCore"
+msgstr "Bonus von WoT Plus Pro:"
+
+msgid "reward/postBattle/progress/points/wotPlusPro"
+msgstr "Bonus von WoT Plus Pro:"
+
+msgid "reward/postBattle/progress/pointsAux"
+msgstr "Verdiente Punkte:"
+
+msgid "reward/postBattle/progress/pointsAux/tooltip"
+msgstr "Freie Punkte erhalten"
+
+msgid "reward/postBattle/progress/quests/tooltip"
+msgstr "Für den Abschluss von Aufträgen"
+
+msgid "reward/postBattle/progress/tooltip"
+msgstr "Stufenfortschritt"
+
+msgid "reward/postBattle/title"
+msgstr "Stufe %(level)d des Kapitels „%(chapter)s“"
+
+msgid "reward/postBattle/title/free"
+msgstr "Battle Pass: Freie Punkte verdienen"
+
+msgid "reward/postBattle/title/postProgression"
+msgstr "Abschnitt %(level)d der Elitestufen"
+
+msgid "rewardChoice/crewBook/rewardDescription"
+msgstr "Erfahrung für jedes Besatzungsmitglied des ausgewählten %(nation)s Fahrzeugs"
+
+msgid "rewardChoice/subTitle"
+msgstr "WÄHLEN SIE IHRE BELOHNUNG"
+
+msgid "rewardChoice/title"
+msgstr "BATTLE PASS"
+
+msgid "rewardChoice/titleChapter"
+msgstr "BATTLE PASS: KAPITEL „%(chapter)s“"
+
+msgid "rewardChoice/titleChapterLevel"
+msgstr "BATTLE PASS: KAPITEL „%(chapter)s“, STUFE %(level)s"
+
+msgid "season/fullName/1002"
+msgstr "Carmen de Bisonte"
+
+msgid "season/fullName/20"
+msgstr "Suche im Sand"
+
+msgid "season/fullNameUppercased/1002"
+msgstr "CARMEN DE BISONTE"
+
+msgid "season/fullNameUppercased/20"
+msgstr "SUCHE IM SAND"
+
+msgid "selectBonus/battle_booster_gift"
+msgstr "Wählbare Direktiven"
+
+msgid "selectBonus/blueprint_gift"
+msgstr "Wählbare Blaupausenfragmente"
+
+msgid "selectBonus/brochure_gift"
+msgstr "Wählbare Ausbildungsbroschüren"
+
+msgid "selectBonus/crewbook_gift"
+msgstr "Wählbare Ausbildungshandbücher"
+
+msgid "selectBonus/guide_gift"
+msgstr "Wählbare Ausbildungsratgeber"
+
+msgid "selectBonus/modernized_device_gift"
+msgstr "Wählbares experimentelles Zubehör"
+
+msgid "selectBonus/new_device_gift"
+msgstr "Wählbares Standardzubehör"
+
+msgid "selectBonus/trophy_gift"
+msgstr "Wählbares erbeutetes Zubehör"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s T."
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s Std."
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 Min."
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s Min."
+
+msgid "styleProgressBonus"
+msgstr "Verbessern Sie den Stil „%(styleName)s“ auf Stufe %(level)s"
+
+msgid "styleProgression/finalLevel"
+msgstr "Maximale Stufe des Stils „%(styleName)s“"
+
+msgid "styleProgression/newLevel"
+msgstr "Neue Stufe des Stils „%(styleName)s“"
+
+msgid "styleProgression/newStyle"
+msgstr "Erste Stufe des Stils „%(styleName)s“"
+
+msgid "tankmenVoiceover/chapterButton"
+msgstr "Zum Kapitel"
+
+msgid "tankmenVoiceover/inShop"
+msgstr "In einem Spezialpaket"
+
+msgid "tankmenVoiceover/listen"
+msgstr "Anhören"
+
+msgid "tankmenVoiceover/notFull"
+msgstr "Verfügbar: %(availableCount)s von %(count)s"
+
+msgid "tankmenVoiceover/progression"
+msgstr "Bei Fortschrittsstufe %(progressionLevel)s"
+
+msgid "tankmenVoiceover/received"
+msgstr "Erhalten"
+
+msgid "tankmenVoiceover/shopButton"
+msgstr "Zum Nachschub"
+
+msgid "tankmenVoiceover/title"
+msgstr "EINZIGARTIGE BESATZUNGSMITGLIEDER"
+
+msgid "tankmenVoiceover/unavailable"
+msgstr "Nicht verfügbar"
+
+msgid "title/earningPoints"
+msgstr "Punkte verdienen"
+
+msgid "title/freePoints"
+msgstr "Freie Punkte"
+
+msgid "title/stage"
+msgstr "Stufe {{level}}"
+
+msgid "tooltip/cardButton/disabled/body"
+msgstr "Aktion derzeit nicht verfügbar. Versuchen Sie es später noch einmal."
+
+msgid "tooltip/freePoints/body"
+msgstr "Freie Punkte werden angesammelt und Ihrem Konto automatisch gutgeschrieben, nachdem Sie ein neues Kapitel des Battle Pass aktivieren."
+
+msgid "tooltip/freePoints/header"
+msgstr "Freie Punkte"
+
+msgid "tooltip/lock"
+msgstr "Belohnungen nicht verfügbar. Kaufen Sie den verbesserten Pass, um sie zu erhalten."
+
+msgid "tooltips/RandomQuestTooltip/condition"
+msgstr "Bedingung: %(condition)"
+
+msgid "tooltips/RandomQuestTooltip/expireTime"
+msgstr "Dieses Auftrag ist %(whiteSpanish_Open)sbis zum %(day)s. %(month)s%(whiteSpanish_Close)s verfügbar."
+
+msgid "tooltips/RandomQuestTooltip/rewards/consumables"
+msgstr "%(whiteSpanish_Open)sVerbrauchsmaterial:%(whiteSpanish_Close)s Erste-Hilfe-Kästen, Ersatzteilkisten und Feuerlöscher"
+
+msgid "tooltips/RandomQuestTooltip/rewards/directives"
+msgstr "%(whiteSpanish_Open)sDirektiven%(whiteSpanish_Close)s für Zubehör"
+
+msgid "tooltips/RandomQuestTooltip/rewards/money"
+msgstr "%(whiteSpanish_Open)sKreditpunkte, Anleihen und Freie EP%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/personal_reserves"
+msgstr "%(whiteSpanish_Open)sPersönliche Reserven%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/premium"
+msgstr "%(whiteSpanish_Open)sWoT-Premium-Spielzeit%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/standardEquipment"
+msgstr "%(whiteSpanish_Open)sStandardzubehör%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewardsTitle"
+msgstr "Einmal täglich können Sie eine der folgenden Belohnungen für den Abschluss eines Auftrags erhalten:"
+
+msgid "tooltips/RandomQuestTooltip/title"
+msgstr "Auftrag für das Fahrzeug „%(vehicleName)“"
+
+msgid "tooltips/battlePassCoins/secondaryText"
+msgstr "Marken werden das Jahr über in den drei Saisons des Battle Pass verliehen. Nutzen Sie diese weise."
+
+msgid "tooltips/battlePassCoins/text"
+msgstr "Eine wertvolle Spielwährung, die für den Abschluss von Stufen im Battle Pass verliehen wird. Die Marken können im Bereich „Gegenstände für Marken“ des Nachschubs gegen besondere Belohnungen eingetauscht werden."
+
+msgid "tooltips/battlePassCoins/title"
+msgstr "Marke für den Battle Pass"
+
+msgid "tooltips/battlePassPoints/completed"
+msgstr "Alle Kapitel und Fortschrittsstufen des Battle Pass abgeschlossen."
+
+msgid "tooltips/battlePassPoints/description"
+msgstr "Automatisch zum Fortschritt des Battle Pass hinzugefügt."
+
+msgid "tooltips/battlePassPoints/title"
+msgstr "Punkte für den Battle Pass"
+
+msgid "tooltips/battlePassQuestsChain/secondaryText"
+msgstr "Die Aufträge können in Zufallsgefechten und Großgefechten abgeschlossen werden."
+
+msgid "tooltips/battlePassQuestsChain/text"
+msgstr "Schaltet eine Reihe Aufträge frei, die bei Abschluss zusätzliche Spielgegenstände liefern: "
+
+msgid "tooltips/battlePassQuestsChain/title"
+msgstr "Zugang zu einer Reihe Aufträge"
+
+msgid "tooltips/battlePassTaler/secondaryText"
+msgstr "Verdienen Sie Chips über den Fortschritt im Battle Pass."
+
+msgid "tooltips/battlePassTaler/text"
+msgstr "Sie nutzen Chips, um sich im Battle-Pass-Tresor Anpassungselemente und Besatzungsmitglieder früherer Saisons des Battle Pass, wirtschaftliche Ressourcen und mehr zu kaufen."
+
+msgid "tooltips/battlePassTaler/title"
+msgstr "Chips"
+
+msgid "tooltips/claimRewards/0"
+msgstr "Standardbelohnungen erhalten"
+
+msgid "tooltips/claimRewards/1"
+msgstr "Wählen Sie die Belohnungen für die abgeschlossene Stufe"
+
+msgid "tooltips/claimRewards/multiple"
+msgstr "Wählen Sie die Belohnungen für die abgeschlossenen Stufen"
+
+msgid "tooltips/commanders/chose"
+msgstr "ODER"
+
+msgid "tooltips/commanders/descr"
+msgstr "Schließen Sie die letzte Stufe ab und Sie erhalten eines der einzigartigen Besatzungsmitglieder als Belohnung."
+
+msgid "tooltips/commanders/title"
+msgstr "Eins von zwei einzigartigen Besatzungsmitgliedern"
+
+msgid "tooltips/completed/claimRewards"
+msgstr "Alle Belohnungen erhalten"
+
+msgid "tooltips/completed/finalLevel"
+msgstr "Alle Kapitel und Fortschrittsstufen abgeschlossen"
+
+msgid "tooltips/completed/got"
+msgstr "Belohnung erhalten"
+
+msgid "tooltips/completed/message"
+msgstr "Sie können jetzt die angesammelten Punkte für den Battle Pass im Abschnitt „Gegenstände für Punkte“ des Nachschubs ausgeben."
+
+msgid "tooltips/completed/oneChapterSubTitle"
+msgstr "KAPITEL ABGESCHLOSSEN"
+
+msgid "tooltips/completed/rewardsObtained"
+msgstr "Standardbelohnungen erhalten"
+
+msgid "tooltips/completed/subTitle"
+msgstr "ALLE KAPITEL ABGESCHLOSSEN"
+
+msgid "tooltips/completed/tankmenNotRecieved"
+msgstr "Pakete mit einzigartigen Besatzungsmitgliedern sind im Nachschub erhältlich."
+
+msgid "tooltips/completed/title"
+msgstr "Battle Pass"
+
+msgid "tooltips/entryPoint/disabled/body"
+msgstr "Der Battle Pass ist aus technischen Gründen vorübergehend nicht verfügbar.\nSämtliche Fortschritte werden gespeichert. Wir entschuldigen uns für die Unannehmlichkeiten."
+
+msgid "tooltips/entryPoint/disabled/header"
+msgstr "Battle Pass vorübergehend nicht verfügbar"
+
+msgid "tooltips/entryPoint/disabled/mapbox"
+msgstr "Der Battle Pass ist aus technischen Gründen im Späheinsatz vorübergehend nicht verfügbar.\nSämtliche Fortschritte werden gespeichert. Wir entschuldigen uns für die Unannehmlichkeiten."
+
+msgid "tooltips/extra/daysAndHours"
+msgstr "%(D)s T %(H)s Std."
+
+msgid "tooltips/extra/min"
+msgstr "%(m)s Min."
+
+msgid "tooltips/footerBuyBtn/activateChapter/descr"
+msgstr "Sie erhalten Punkte für den Battle Pass und andere Belohnungen, wenn Sie das aktive Kapitel abschließen."
+
+msgid "tooltips/footerBuyBtn/battlePass/descr"
+msgstr "Sie können den verbesserten Pass jederzeit kaufen. Dadurch erhalten Sie sofort alle verbesserten Belohnungen für alle bereits abgeschlossenen Stufen des aktuellen Kapitels. Sie erhalten sowohl die normalen als auch die verbesserten Belohnungen für den Abschluss jeder folgenden Stufe."
+
+msgid "tooltips/footerBuyBtn/battlePass/nextChapter"
+msgstr "Schließen Sie das vorhergehende Kapitel ab, um Stufen für dieses Kapitel zu kaufen."
+
+msgid "tooltips/footerBuyBtn/episode/descr"
+msgstr "Durch den Kauf von Stufen erhalten Sie sofort die normalen und verbesserten Belohnungen. Stufen können für jedes Kapitel separat erworben werden."
+
+msgid "tooltips/footerBuyBtn/episode/holidayDescr"
+msgstr "Wenn Sie Stufen kaufen, erhalten Sie sofort sowohl die normalen als auch die verbesserten Belohnungen."
+
+msgid "tooltips/goldMission/description"
+msgstr "%(highlight)s Für verpasste Tage erhalten Sie kein Gold."
+
+msgid "tooltips/goldMission/highlightedDescription"
+msgstr "Hinweis:"
+
+msgid "tooltips/goldMission/text"
+msgstr "%(duration)s können Sie jeden Tag %(count)s %(icon)s Gold verdienen, indem Sie ein Zufallsgefecht bestreiten."
+
+msgid "tooltips/goldMission/textDuration"
+msgstr "%(days)s Tage lang"
+
+msgid "tooltips/goldMission/title"
+msgstr "Tägliches Gold"
+
+msgid "tooltips/iconLock/descr1"
+msgstr "Durch den Kauf eines verbesserten Passes erweitern Sie die Liste der verfügbaren Belohnungen für die Stufen. Er wird für jedes Kapitel separat gekauft und gilt nur für das jeweilige Kapitel. Mit dem verbesserten Pass erhalten Sie sowohl die normalen als auch die verbesserten Belohnungen für das Erreichen jeder folgenden Stufe."
+
+msgid "tooltips/iconLock/descr2"
+msgstr "Sie können den verbesserten Pass jederzeit kaufen. Dadurch erhalten Sie sofort alle verbesserten Belohnungen für alle abgeschlossene Stufen des Kapitels, für das Sie ihn gekauft haben. Sie können Ihre Belohnungen auf dem Hauptbildschirm des Battle Pass verbessern, indem Sie die Schaltfläche „Verbesserten Pass kaufen“ anklicken."
+
+msgid "tooltips/iconLock/holidayDescr1"
+msgstr "Sie können die Anzahl der Belohnungen pro Stufe erweitern, indem Sie den verbesserten Pass kaufen. Damit erhalten Sie dann sowohl die normalen als auch die verbesserten Belohnungen für jede weitere Stufe, die Sie abschließen."
+
+msgid "tooltips/iconLock/holidayDescr2"
+msgstr "Sie können den verbesserten Pass jederzeit kaufen. Wenn Sie den Pass kaufen, erhalten Sie sofort alle verbesserten Belohnungen für alle bereits abgeschlossenen Stufen. Sie können sich bessere Belohnungen sichern, indem Sie auf dem Hauptbildschirm des Battle Pass die Schaltfläche „Verbesserten Pass kaufen“ anklicken."
+
+msgid "tooltips/iconLock/title"
+msgstr "Verbesserte Belohnung des Battle Pass"
+
+msgid "tooltips/inProgress/baseReward"
+msgstr "Standardbelohnung"
+
+msgid "tooltips/inProgress/battleRoyale"
+msgstr "„Stählerner Jäger“"
+
+msgid "tooltips/inProgress/chapter"
+msgstr "Kapitel „%(name)“"
+
+msgid "tooltips/inProgress/epic"
+msgstr "Frontlinie"
+
+msgid "tooltips/inProgress/getPointsFrom"
+msgstr "Regeln zum Verdienen von Punkten in %(battleType)s."
+
+msgid "tooltips/inProgress/hurryUp"
+msgstr "Kaufen Sie den verbesserten Pass, um alle verbesserten Belohnungen für bereits abgeschlossene Stufen zu erhalten!"
+
+msgid "tooltips/inProgress/improvedReward"
+msgstr "Verbesserte Belohnung"
+
+msgid "tooltips/inProgress/level"
+msgstr "Aktuelle Stufe"
+
+msgid "tooltips/inProgress/playGame/comp7"
+msgstr "Regeln zum Verdienen von Punkten in Fahrzeugen der Stufe X in %(bond_Open)sAnsturm%(bond_Close)s."
+
+msgid "tooltips/inProgress/playGame/comp7_light"
+msgstr "Regeln zum Verdienen von Punkten in Fahrzeugen der Stufe VIII in %(bond_Open)sAnsturm Light%(bond_Close)s."
+
+msgid "tooltips/inProgress/playGame/mapbox"
+msgstr "Die Regeln zum Hinzufügen von Punkten für den Battle Pass im %(bond_Open)sSpäheinsatz%(bond_Close)s in Fahrzeugen der Stufen VIII–X."
+
+msgid "tooltips/inProgress/playGame/randoms"
+msgstr "Regeln zum Verdienen von Punkten in %(bond_Open)sZufallsgefechten%(bond_Close)s in Fahrzeugen der Stufen IV–XI."
+
+msgid "tooltips/inProgress/playGame/ranked"
+msgstr "Regeln zum Verdienen von Punkten in Fahrzeugen der Stufe X in gewerteten Gefechten."
+
+msgid "tooltips/inProgress/playGame/winback"
+msgstr "Regeln zum Verdienen von Punkten in %(bond_Open)sZufallsgefechten: Aufwärmphase%(bond_Close)s in Fahrzeugen der Stufen IV–XI."
+
+msgid "tooltips/inProgress/postProgression/header"
+msgstr "Elitestufen"
+
+msgid "tooltips/inProgress/timeLeft"
+msgstr "Verbleibende Zeit für den Battle Pass"
+
+msgid "tooltips/inProgress/wotPlusProFooter"
+msgstr "Einnahmen mit WoT Plus Pro"
+
+msgid "tooltips/notChosen/description"
+msgstr "Sie müssen ein Kapitel auswählen, um Fortschritt zu erzielen und wertvolle Belohnungen zu erhalten."
+
+msgid "tooltips/notChosen/points"
+msgstr "Noch nicht genutzte Punkte für den Battle Pass: %(points)"
+
+msgid "tooltips/notChosen/subTitle"
+msgstr "KAPITEL AUSWÄHLEN"
+
+msgid "tooltips/notChosen/title"
+msgstr "Battle Pass"
+
+msgid "tooltips/notStarted/date"
+msgstr "%(day)s. %(month)s"
+
+msgid "tooltips/plusBanner/text"
+msgstr "{{@ style (color $color1)}}Battle Pass Plus:{{/}} Verfügbar mit {{@ style (color $color2)}}WoT Plus Pro{{/}}. Sie verdienen mehr Punkte für den Battle Pass (ausgenommen besondere Kapitel)."
+
+msgid "tooltips/points/footer"
+msgstr "Mehr über das Verdienen von Punkten in den verschiedenen Spielmodi erfahren Sie im Menü „Wie Sie Punkte verdienen“."
+
+msgid "tooltips/points/rules"
+msgstr "Auf folgende Art erhalten Sie Punkte in Zufallsgefechten:"
+
+msgid "tooltips/points/specialVehicles"
+msgstr "Die Hauptfahrzeuge der Saison erhalten mehr Punkte:"
+
+msgid "tooltips/points/subtitle"
+msgstr "Punkte für den Battle Pass ermöglichen Ihren Fortschritt. Sie verdienen Punkte durch die Teilnahme an Zufallsgefechten und anderen Spielmodi in Fahrzeugen der Stufen IV–XI, den Abschluss besonderer Aufträge und das Erreichen des Punktelimits von Fahrzeugen."
+
+msgid "tooltips/points/title"
+msgstr "Punkte für den Battle Pass"
+
+msgid "tooltips/pointsTable/header"
+msgstr "Bedingungen zum Erhalt"
+
+msgid "tooltips/pointsTable/lose"
+msgstr "Niederlage / Unentschieden"
+
+msgid "tooltips/pointsTable/loseWithoutDraw"
+msgstr "Niederlage"
+
+msgid "tooltips/pointsTable/place"
+msgstr "Rang %(place)"
+
+msgid "tooltips/pointsTable/places"
+msgstr "Ränge %(place)"
+
+msgid "tooltips/pointsTable/solo"
+msgstr "Solo"
+
+msgid "tooltips/pointsTable/squad"
+msgstr "Zug"
+
+msgid "tooltips/pointsTable/topPlace"
+msgstr "Beste %(place) nach verdienten EP"
+
+msgid "tooltips/pointsTable/win"
+msgstr "Sieg"
+
+msgid "tooltips/postProgress/body"
+msgstr "Der Elitefortschritt beginnt nach Stufe %(maxLevelBase) des Hauptfortschritts und bietet die Möglichkeit, wertvolle Spielwährung zu verdienen. Für die Stufen des Elitefortschritts wird kein verbesserter Pass benötigt."
+
+msgid "tooltips/postProgress/header"
+msgstr "Elitefortschritt"
+
+msgid "tooltips/prestigePoints/lose"
+msgstr "Niederlage oder Unentschieden"
+
+msgid "tooltips/prestigePoints/loseWithoutDraw"
+msgstr "Niederlage"
+
+msgid "tooltips/prestigePoints/topPlace"
+msgstr "Beste %(place) nach Prestigepunkten"
+
+msgid "tooltips/prestigePoints/win"
+msgstr "Sieg"
+
+msgid "tooltips/progression/freePoints/body"
+msgstr "Wenn kein Kapitel ausgewählt ist, werden die Punkte für den Battle Pass angesammelt. Diese können später für ein aktiviertes Kapitel genutzt werden, ehe die Saison des Battle Pass beendet ist. Andernfalls werden diese Punkte verfallen."
+
+msgid "tooltips/progression/freePoints/bodyExceptExtra"
+msgstr "Wenn kein Kapitel ausgewählt ist, werden die Punkte für den Battle Pass angesammelt. Diese können später für ein aktiviertes Kapitel genutzt werden (mit Ausnahme des zusätzlichen Kapitels), ehe die Saison des Battle Pass beendet ist. Andernfalls werden diese Punkte verfallen."
+
+msgid "tooltips/progression/freePoints/header"
+msgstr "Noch nicht genutzte Punkte für den Battle Pass"
+
+msgid "tooltips/rewardCompensation/description/credits"
+msgstr "Die Hauptwährung des Spiels.\nSie können sie in Gefechten verdienen oder mit Gold kaufen."
+
+msgid "tooltips/rewardCompensation/description/gold"
+msgstr "Eine wertvolle Spielwährung. Sie können damit WoT-Premium-Spielzeit und Fahrzeuge kaufen, Erfahrung umwandeln und vieles mehr."
+
+msgid "tooltips/rewardCompensation/footer"
+msgstr "Vergütung für einen Gegenstand, den Sie bereits besitzen."
+
+msgid "tooltips/styleUpgrade/chosen/levelWord"
+msgstr "Stufe"
+
+msgid "tooltips/styleUpgrade/chosen/subtitle"
+msgstr "Passend für Fahrzeuge"
+
+msgid "tooltips/styleUpgrade/chosen/text"
+msgstr "Verbessert den Stil des Kapitels auf %(levelWord) %(level)"
+
+msgid "tooltips/styleUpgrade/chosen/title"
+msgstr "Verbesserung des Stils „%(styleName)“"
+
+msgid "tooltips/styleUpgrade/notChosen/text"
+msgstr "Um einen Stil auszuwählen, klicken Sie zu Beginn des Fortschritts eines Kapitels des Battle Pass auf „Stil wählen“."
+
+msgid "tooltips/styleUpgrade/notChosen/title"
+msgstr "Verbesserung des progressiven Stils des Kapitels"
+
+msgid "tooltips/styleUpgrade/notChosen/warning"
+msgstr "Stil des Kapitels nicht gewählt."
+
+msgid "tooltips/styleUpgrade/paragraphBottom"
+msgstr "Wenn Sie es nicht schaffen, den Stil während des Fortschritts im Battle Pass auf die maximale Stufe aufzuwerten, bleibt Ihnen immer noch die Möglichkeit, ihn am Ende der aktuellen Saison in der Garage über „Äußeres“ aufzuwerten."
+
+msgid "tooltips/styleUpgrade/paragraphTop"
+msgstr "Der gewählte Stil des Kapitels wird automatisch um eine Stufe aufgewertet, wenn die Stufe abgeschlossen ist."
+
+msgid "tooltips/styles/descr"
+msgstr "Haben Sie die letzte Stufe abgeschlossen, können Sie einen der Belohnungsstile auswählen."
+
+msgid "tooltips/styles/footer"
+msgstr "Wenn Sie den verbesserten Pass kaufen, erhalten Sie beide Stile, sobald Sie Ihre letzte Belohnung auswählen."
+
+msgid "tooltips/styles/name"
+msgstr "Passen für %(name)"
+
+msgid "tooltips/styles/style"
+msgstr "Stil „%(name)“"
+
+msgid "tooltips/styles/title"
+msgstr "Einen von zwei 3D-Stilen"
+
+msgid "tooltips/unlockBattlePass"
+msgstr "Kaufen sie den verbesserten Pass, um Zugang zu den verbesserten Belohnungen zu erhalten."
+
+msgid "tooltips/unlockBattlePassForPostProgression"
+msgstr "Kaufen Sie den verbesserten Pass für jedes Kapitel und holen Sie sich mehr Belohnungen."
+
+msgid "tooltips/vehiclePoints/award"
+msgstr "Belohnung für das Erreichen des Punktelimits"
+
+msgid "tooltips/vehiclePoints/comp7"
+msgstr "Kämpfen Sie im Modus „Ansturm“, verdienen Sie Punkte für effektive Spielweise, schließen Sie Fortschrittsstufen des Battle Pass ab und erhalten Sie Belohnungen."
+
+msgid "tooltips/vehiclePoints/comp7_light"
+msgstr "Verdienen Sie Punkte durch effektive Aktionen in Gefechten des Modus „Ansturm Light“, um durch die Fortschrittsstufen des Battle Pass voranzuschreiten und Belohnungen zu erhalten."
+
+msgid "tooltips/vehiclePoints/continuePlaying"
+msgstr "Kämpfen Sie mit anderen Fahrzeugen, um weiter in den Stufen voranzukommen."
+
+msgid "tooltips/vehiclePoints/descr"
+msgstr "Kämpfen Sie in Zufallsgefechten, verdienen Sie Punkte für effektive Spielweise, schließen Sie Fortschrittsstufen des Battle Pass ab und erhalten Sie Belohnungen."
+
+msgid "tooltips/vehiclePoints/mapbox"
+msgstr "Kämpfen Sie in Späheinsatz, verdienen Sie Punkte für effektive Spielweise, schließen Sie Fortschrittsstufen des Battle Pass ab und erhalten Sie Belohnungen."
+
+msgid "tooltips/vehiclePoints/pointsObtained"
+msgstr "Punktelimit erreicht"
+
+msgid "tooltips/vehiclePoints/ranked"
+msgstr "Kämpfen Sie in gewerteten Gefechten, verdienen Sie Punkte für effektive Spielweise, schließen Sie Fortschrittsstufen des Battle Pass ab und erhalten Sie Belohnungen."
+
+msgid "tooltips/vehiclePoints/special/descr"
+msgstr "Wenn Sie in den Hauptfahrzeugen der Saison kämpfen, erhalten Sie mehr Fortschrittspunkte."
+
+msgid "tooltips/vehiclePoints/title"
+msgstr "Punkte für den Battle Pass"
+
+msgid "trophyDeviceUpgradeConfim/cancel"
+msgstr "Abbrechen"
+
+msgid "trophyDeviceUpgradeConfim/message"
+msgstr "Die Werte ändern sich:"
+
+msgid "trophyDeviceUpgradeConfim/submit"
+msgstr "Verbessern"
+
+msgid "trophyDeviceUpgradeConfim/submitTooltip"
+msgstr "Nicht genug Kreditpunkte zum Verbessern"
+
+msgid "trophyDeviceUpgradeConfim/title"
+msgstr "Zubehör {deviceName}\nverbessern?"
+
+msgid "trophyDeviceUpgradeConfim/title/template"
+msgstr "{deviceName}"
+
+msgid "universalTankmanBonus"
+msgstr "Universelles Besatzungsmitglied: %(name)s"

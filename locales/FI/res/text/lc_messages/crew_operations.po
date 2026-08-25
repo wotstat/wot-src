@@ -1,0 +1,122 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "crewBooks/button/label"
+msgstr "Avaa"
+
+msgid "crewBooks/description"
+msgstr "Mene lukemaan miehistökirjoja."
+
+msgid "crewBooks/error/locked"
+msgstr "Operaatio ei saatavilla"
+
+msgid "crewBooks/title"
+msgstr "Miehistökirjat ({count})"
+
+msgid "crewBooks/tutorial/crewOperations"
+msgstr "VOIT NYT LUKEA\nMIEHISTÖKIRJOJA"
+
+msgid "crewBooks/tutorial/readBook"
+msgstr "MENE LUKEMAAN\nMIEHISTÖKIRJOJA"
+
+msgid "crewBooks/warning/membersInBattle/tooltip/body"
+msgstr "Miehistö on taistelussa"
+
+msgid "crewBooks/warning/membersInBattle/tooltip/header"
+msgstr "Virhe"
+
+msgid "crewOperations/btn/tooltip/body"
+msgstr "Lähetä miehistö kasarmille, uudelleenkouluta, tai palauta kaikki miehistön jäsenet vaunuun välittömästi sekä käytä miehistökirjoja."
+
+msgid "crewOperations/btn/tooltip/header"
+msgstr "Miehistötoiminnot"
+
+msgid "dropInBarrack/button/label"
+msgstr "Lähetä"
+
+msgid "dropInBarrack/description"
+msgstr "Lähetä kaikki miehistön jäsenet kasarmille."
+
+msgid "dropInBarrack/error/noCrew"
+msgstr "Ei miehistöä"
+
+msgid "dropInBarrack/title"
+msgstr "Lähetä miehistö kasarmille"
+
+msgid "dropInBarrack/warning/crewIsLocked/tooltip/body"
+msgstr "Kaikkien miehistön jäsenten lähettäminen kasarmille ei onnistu."
+
+msgid "dropInBarrack/warning/crewIsLocked/tooltip/header"
+msgstr "Toiminto ei saatavilla"
+
+msgid "dropInBarrack/warning/inBattle/tooltip/body"
+msgstr "Miehistö on taistelussa"
+
+msgid "dropInBarrack/warning/inBattle/tooltip/header"
+msgstr "Virhe"
+
+msgid "dropInBarrack/warning/noSpace/tooltip/body"
+msgstr "Ei riittävästi punkkia kasarmilla"
+
+msgid "dropInBarrack/warning/noSpace/tooltip/header"
+msgstr "Toiminto ei saatavilla"
+
+msgid "retrain/button/label"
+msgstr "Kouluta"
+
+msgid "retrain/description"
+msgstr "Uudelleenkouluta kaikki miehistön jäsenet tälle vaunulle."
+
+msgid "retrain/error/alreadyRetrained"
+msgstr "Miehistö on jo koulutettu"
+
+msgid "retrain/error/locked"
+msgstr "Operaatio ei saatavilla"
+
+msgid "retrain/error/noCrew"
+msgstr "Ei miehistöä"
+
+msgid "retrain/title"
+msgstr "Miehistön uudelleenkoulutus"
+
+msgid "return/button/label"
+msgstr "Palauta"
+
+msgid "return/description"
+msgstr "Palauta tällä vaunulla viime taistelussa taistellut miehistö."
+
+msgid "return/error/allDemobilized"
+msgstr "Kaikki miehistön jäsenet on jo erotettu"
+
+msgid "return/error/alreadyOnPlaces"
+msgstr "Miehistö on jo vaunussa"
+
+msgid "return/error/noPrevious"
+msgstr "Taistele vähintään yksi taistelu\ntällä vaunulla"
+
+msgid "return/error/vehicleInBattle"
+msgstr "Tämä vaunu on taistelussa"
+
+msgid "return/title"
+msgstr "Palauta miehistö vaunuun."
+
+msgid "return/toggle/description"
+msgstr "Automaattisesti palauttaa miehistön, joka taisteli viimeisimmän taistelun tällä vaunulla."
+
+msgid "return/toggle/label"
+msgstr "Autom. palautus"
+
+msgid "return/warning/memberDemobilized/tooltip/body"
+msgstr "Osa edellisen miehistön jäsenistä on lähetetty eläkkeelle eikä heitä voida palauttaa vaunuun. Voit palauttaa heidät kasarmilla ennen ajastimen loppuun kulumista. Muutoin heidät poistetaan kokonaan tililtäsi."
+
+msgid "return/warning/memberDemobilized/tooltip/header"
+msgstr "Varoitus"
+
+msgid "return/warning/membersInBattle/tooltip/body"
+msgstr "Muutama jäsen edellisestä miehistöstä on taistelussa"
+
+msgid "return/warning/membersInBattle/tooltip/header"
+msgstr "Virhe"
+
+msgid "window/title"
+msgstr "Miehistötoiminnot"

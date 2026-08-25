@@ -1,0 +1,602 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleControls/casseteReload"
+msgstr "Şarjörü yükle"
+
+msgid "battleControls/closeBtnLabel"
+msgstr "KAPAT"
+
+msgid "battleControls/cruiseCtrlBackward"
+msgstr "Seyir Kontrol Modunda Geri Geri Gidin"
+
+msgid "battleControls/cruiseCtrlForward"
+msgstr "Seyir Kontrol Modunda İleri Gidin"
+
+msgid "battleControls/disableLockTarget"
+msgstr "Otomatik Nişan Almayı İptal Et"
+
+msgid "battleControls/fire"
+msgstr "Ateş Et"
+
+msgid "battleControls/hideInterface"
+msgstr "Arabirimi Göster/Gizle"
+
+msgid "battleControls/hideMinimap"
+msgstr "Haritayo Göster/Gizle"
+
+msgid "battleControls/makeScreenshort"
+msgstr "Ekran Görüntüsünü Dosyaya Yakala"
+
+msgid "battleControls/movementBackward"
+msgstr "Geri Git"
+
+msgid "battleControls/movementForward"
+msgstr "İleri Git"
+
+msgid "battleControls/movementLeft"
+msgstr "Sola Dön/Hareket Et"
+
+msgid "battleControls/movementRight"
+msgstr "Sağa Dön/Hareket Et"
+
+msgid "battleControls/pageTitle"
+msgstr "GENEL BİLGİLER"
+
+msgid "battleControls/showCursor"
+msgstr "İmleçi göster"
+
+msgid "battleControls/showCursor/ext"
+msgstr "(minimap, oyuncu listesi, vs için)"
+
+msgid "battleControls/showExPlayerInfo"
+msgstr "Alternatif İşaretlemeyi Göster"
+
+msgid "battleControls/stopFire"
+msgstr "Dur ve Ateş Et"
+
+msgid "battleControls/switchAutorotation"
+msgstr "Gövdeyi Kilitle / Kip Değiştir"
+
+msgid "battleControls/title"
+msgstr "Savaş Kipi"
+
+msgid "battleControls/toggleAFL"
+msgstr "Zırh Göstergesini Aç/Kapat"
+
+msgid "battleControls/toggleAFL/ext"
+msgstr "sadece Keskin Nişancı Modunda"
+
+msgid "battleControls/toggleLockTarget"
+msgstr "Otomatik Nişan Almayı Devreye Sok / Devreden Çıkar"
+
+msgid "battleControls/toggleLockTarget/ext"
+msgstr "(nişangah hedefin üzerindeyken)"
+
+msgid "battleControls/togglePlayerPanelModes"
+msgstr "Ekip Listesini Göster/Gizle"
+
+msgid "battleControls/togglePlayerPanelModes/ext"
+msgstr "veya siz de takdir edin"
+
+msgid "battleControls/toggleSniperMode"
+msgstr "Keskin Nişancı Modunu Devreye Sok/Devreden Çıkar"
+
+msgid "battleControls/toggleSniperMode/ext"
+msgstr "yada Topçu Modu"
+
+msgid "battleControls/voiceChatMute"
+msgstr "Sesli Sohbeti Aç"
+
+msgid "chatControls/change"
+msgstr "Ekibe / Takıma"
+
+msgid "chatControls/enterToChatMode"
+msgstr "Sesli Sohbet Moduna Gir"
+
+msgid "chatControls/exitFromChatMode"
+msgstr "Sesli Sohbet Modundan Çık"
+
+msgid "chatControls/send"
+msgstr "Mesaj Gönder"
+
+msgid "chatControls/title"
+msgstr "Sohbet Kipi"
+
+msgid "crosshairControls/ammoNumber"
+msgstr "Kalan mermi"
+
+msgid "crosshairControls/damageIndicator"
+msgstr "Ateş Yönü"
+
+msgid "crosshairControls/dispercion"
+msgstr "Dağılma"
+
+msgid "crosshairControls/example/damage"
+msgstr "-248"
+
+msgid "crosshairControls/example/hp"
+msgstr "375/720"
+
+msgid "crosshairControls/example/name"
+msgstr "T-34-85"
+
+msgid "crosshairControls/gunMarker"
+msgstr "Topun Pozisyonu"
+
+msgid "crosshairControls/healthPlayer"
+msgstr "Oyuncu Canı"
+
+msgid "crosshairControls/hpIndicator"
+msgstr "Can göstergesi"
+
+msgid "crosshairControls/hpValues"
+msgstr "Hedef Canı (%/kalan CP/toplam)"
+
+msgid "crosshairControls/marker"
+msgstr "Nişan Alınan Nokta"
+
+msgid "crosshairControls/reloadIndicator"
+msgstr "Top Yükleniyor"
+
+msgid "crosshairControls/reloadTimer"
+msgstr "Top yükleme süresi, saniye"
+
+msgid "crosshairControls/targetClass"
+msgstr "Araç Tipi İşareti"
+
+msgid "crosshairControls/targetDistance"
+msgstr "Hedefe Olan Mesafe"
+
+msgid "crosshairControls/targetIcon"
+msgstr "Araç İkonu"
+
+msgid "crosshairControls/targetLevel"
+msgstr "Araç Seviyesi"
+
+msgid "crosshairControls/targetName"
+msgstr "Araç Modeli / Oyuncu İsmi"
+
+msgid "crosshairControls/title"
+msgstr "Top ve Nişangah Göstergeleri"
+
+msgid "detailsHelp/default/title"
+msgstr "Yardım"
+
+msgid "detailsHelp/devMaps/headerTitle"
+msgstr "Harita Özellikleri"
+
+msgid "detailsHelp/devMaps/markers/description"
+msgstr "Rastgele olayın mekanı haritada duman,\nmini haritada ise işaret ile belirtilecek.\nRastgele olaylı haritalar Oyun sekmesindeki ayarlar yoluyla kapatılabilir."
+
+msgid "detailsHelp/devMaps/title"
+msgstr "Rastgele Olaylı Haritalar"
+
+msgid "detailsHelp/devMaps/zone/description"
+msgstr "Aracınız rastgele olay mekanında imha edilebilir (örneğin uçak düşmesi sırasında).\nRastgele olaylı haritalar Oyun sekmesindeki ayarlar yoluyla kapatılabilir."
+
+msgid "detailsHelp/dualGun/quick_fire"
+msgstr "Bu ateş sistemine sahip araçlar ateş ettiğinde top değiştirir. Ateş eden bir top otomatik olarak yüklemeye başlarken ikinci yüklü topun biraz beklemesi gerekir."
+
+msgid "detailsHelp/dualGun/quick_fire/title"
+msgstr "Hızlı Ateş"
+
+msgid "detailsHelp/dualGun/volley_fire"
+msgstr "Çifte namlulu top sistemine sahip araçlar atanan tuşun basılı tutulması ile devreye giren özel bir salvo ateş mekanizmasına sahiptir. Ateşlenen mermiler birbirine paralel şekilde uçar. Ateş etmeye kumanda eden tuş Ayarlardan değiştirilebilir."
+
+msgid "detailsHelp/dualGun/volley_fire/title"
+msgstr "Salvo Atışı"
+
+msgid "detailsHelp/engineMode/engineModePage1"
+msgstr "Belirli taktik duruma uyum sağlamak için motor kipini değiştirebilirsiniz. Motor kipini değiştirmek tamamen durmayı gerektirir ve parçanın durumundan bağımsız olarak belirli bir süre alır."
+
+msgid "detailsHelp/engineMode/engineModePage1/title"
+msgstr "Yeni Hareket Mekanizması"
+
+msgid "detailsHelp/engineMode/engineModePage2"
+msgstr "Yüklenmiş turbo kipi motor gücünü, ileri hızı ve geri hızı artırır. Ancak bu kip aracınızı daha görünür hale getirir, top sabitlemesini azaltır ve nişan alma süresini uzatır."
+
+msgid "detailsHelp/engineMode/engineModePage2/title"
+msgstr "Avantajları ve Dezavantajları"
+
+msgid "detailsHelp/mapbox/headerTitle"
+msgstr "Harita Özellikleri"
+
+msgid "detailsHelp/mapbox/localWeather/description"
+msgstr "Yerel hava durumu içindeki araçlar, bölge dışındaki araçları; dışındaki araçlar da içindekileri tespit edemez ya da bölge dışındaki düşman araçlarının konumları hakkında bilgi alamaz. Yangın araçlara zarar verir."
+
+msgid "detailsHelp/mapbox/localWeather/title"
+msgstr "Yerel Hava Durumu"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/description"
+msgstr "Sabit kalmak veya belirli bir hızın altında hareket etmek, aracınızın Analog Balistik Hesaplama Cihazını kalibre edip isabetlilik seviyeleri biriktirmesini sağlar.\nHer seviye bir sonraki atışınızın isabetliliğini artırır ve ateş ettiğinizde kaldırılır."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/title"
+msgstr "Analog Balistik Hesaplama Cihazı"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/description"
+msgstr "Tam kalibrasyonda aracınız en yüksek isabetlilik seviyesine ulaşır ve iyi top stabilizasyonuna, hareket veya kule/dönüşü sırasında daha az dağılıma sahip olur.\nEtki, ateş ettiğinizde kaldırılır."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/title"
+msgstr "Tam Kalibrasyon"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/description"
+msgstr "Son derece yüksek atış hızı olan bir tür otomatik silah. Atış etkinliği nişan alma çemberindeki bir işaret ile gösterilir."
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/title"
+msgstr "Otomatik Silah"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/description"
+msgstr "Bu top yükleme gereği duymadan sürekli ateş edebilir. Her atış ısı üretir ve sürekli ateş etmek topun aşırı ısınmasına yol açarak soğuyana kadar daha fazla ateş etmeyi engeller."
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
+msgstr "Termal Aşırı Isınma Kontrollü Otomatik Top"
+
+msgid "detailsHelp/mechanics/battleFury/page1/description"
+msgstr "Düşmanı mermiyle her vuruşunuzda yükleme verimliliği seviyesi kazanır, topunuzun yükleme hızını geçici olarak takviye edersiniz. Seviyeler her isabet ile birikir.\nBir düşmanını bir mermiyle yok ettiğiniz ek yükleme verimlilik seviyeleri kazanırsınız."
+
+msgid "detailsHelp/mechanics/battleFury/page1/title"
+msgstr "Yarı Otomatik Cephanelik"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/description"
+msgstr "Topunuz yüklüyse bir sonraki atışınızı ısıtmaya başlayabilirsiniz. Ulaştığınız ısı seviyesi ne kadar yüksek olursa ortalama hasar bonusu o kadar büyük olur.\nIsıtma işlemini başlatmak için şu tuşa basın:"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/title"
+msgstr "Termobalistik Aşırı Şarj"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/description"
+msgstr "Maksimum ısı seviyesine ulaştığınızda bir geri sayım başlar. Bu bitmeden ateş etmezseniz birkaç saniye boyunca ateş edemeyecek veya mermi değiştiremeyeceksiniz."
+
+msgid "detailsHelp/mechanics/chargeShot/page2/title"
+msgstr "Barut Hakkı Aşırı Isıtma"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/description"
+msgstr "Düşman araçlarına iki zırh delici isabet kaydetmek Seri Atış modunu etkinleştirir ve bir sonraki atışta iki merminin art arda hızlı bir şekilde ateşlenmesini sağlayan bir seri ateş kartuşu yükler."
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
+msgstr "Seri Atış modu"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/description"
+msgstr "Pnömatik Cayro İstikrar Düzeni, kısa bir süre için gövde ve kule dönüşü sırasında azami stabilizasyon sağlayarak hareket halinde daha isabetli atış imkanı ve ani tehditlere çabuk tepki verebilmeyi sağlar.\nEtkinleştirmek için kısayol tuşuna basın:"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/title"
+msgstr "Pnömatik Cayro İstikrar Düzeni"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/description"
+msgstr "Top ateş ettikten sonra yeterince soğuduysa dağılımı azalır. Merminin isabet alanını belirten, daha küçük çaplı ikinci bir nişan alma çemberi belirir. Bu etki, bir sonraki atış yapılana kadar devam eder."
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/title"
+msgstr "Çift Nişan Alma"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/description"
+msgstr "Mevcut kartuşta bir mermi kaldığında sistem otomatik olarak yeni bir kartuş yüklemeye başlar.\nYeni kartuş yüklenirken son merminin ateşlenmesi, kalan yükleme süresine birkaç saniye ekler."
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/title"
+msgstr "Kartuş Yükleme Sistemi"
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/description"
+msgstr "Sistem topu soğuk tutarak yüksek isabetlilikle atış yapmanızı sağlar. Top ateş ettiğinde ısınır ama yükleme sırasında soğumaya başlar ve iyileştirilmiş parametrelerine döner. Topun ısısı ne kadar yüksekse bazı parametreleri o kadar çok değişir."
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/title"
+msgstr "Aktif Top Soğutma"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/description"
+msgstr "Bu araç, çarpma saldırıları için özel olarak yapılandırılmıştır. Çarpma sırasında daha fazla hasar vermesini sağlayan bir dizi tasarım değişikliği bulunmaktadır."
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/title"
+msgstr "Çarpma Yapılandırması"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/description"
+msgstr "Bu aracın topu erken ateş edebilir: Yükleme sırasında atılan tek barut haklı atışların etkinliği düşüktür ancak yükleme bittikten sonra yapılan normal tam barut haklı atışlar optimal balistik parametrelere sahiptir."
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/title"
+msgstr "Çoklu Barut Hakkı Sistemi"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/description"
+msgstr "Sabit kalmak veya belirli bir hızın altında hareket etmek, ön ısıtma sağlar, bu da bir sonraki atışınızın ortalama hasarını ve isabetliliğini artırır.\nHız limitini aşmak bonusu yavaş yavaş azaltır. Ateş etmek veya mermi değiştirmek ise anında sıfırlar."
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/title"
+msgstr "Sevk Barutu Isı Kumanda Sistemi"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/description"
+msgstr "Maksimum ön ısıtma seviyesinde birikmiş ön ısıtma bonusunuz da dâhil ortalama hasarınızdan daha az can puanı olan bir düşman aracının zırhını delmek, düşmanın cephaneliğinin patlamasına ve o aracın anında imha olmasına yol açar."
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/title"
+msgstr "Belirleyici Hasar"
+
+msgid "detailsHelp/mechanics/powerMode/page1/description"
+msgstr "Doğrudan Sürüş modu, motor gücüne ve azami ileri hıza çok büyük bir takviye sağlar. Ne kadar uzun süre ileri sürerseniz hız o kadar artar, böylece savaş alanını kolayca geçebilirsiniz."
+
+msgid "detailsHelp/mechanics/powerMode/page1/title"
+msgstr "Doğrudan Sürüş"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/description"
+msgstr "Sistem zamanla otomatik olarak şarj biriktirir, ateş ederken hasarı yükseltmek için kısmen tüketilir. Şarj ne kadar çoksa bonus hasar o kadar büyük olur."
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/title"
+msgstr "İndüklemeli Sevk Barutu Son Yakıcı"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/description"
+msgstr "Sistem normalde sadece belirli bir sınıra kadar şarj depolar. Sınırlamayı kapatarak daha da fazla şarj biriktirebilir, böylece çok daha büyük hasar bonusu elde edilir ancak topun kullanımı kötüleşir. Sınırlayıcıyı açıp kapatmak için şu tuşa basın:"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/title"
+msgstr "Sınırlayıcı"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/description"
+msgstr "Sıvı Yakıt Takviyeleri ani motor gücü sağlayarak savaş alanında konumsal avantaj kazanmanızın yolunu açar ancak aracınızın geri ve dönüş hızlarını büyük ölçüde sınırlar. Aşırı ısınma durumu hariç istediğiniz zaman açıp kapatabilirsiniz.\nTakviye için şu tuşa basın veya basılı tutun:"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/title"
+msgstr "Sıvı Yakıt Takviyeleri"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/description"
+msgstr "Takviyeler aktifken aşırı ısınırlar, kritik ısı sınırına ulaştıklarında soğuyana kadar tekrar etkinleştirilemez hale gelirler. Gavil avlanmamak için hamlelerinizi dikkatli planlayın."
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/title"
+msgstr "Kritik Isı Seviyesi"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/description"
+msgstr "Jet takviye kullanımı aracın hareket kabiliyetini artırır. Hızlı bir şekilde avantajlı konumlara ulaşabilmenizi veya tehlikeli alanları geçebilmenizi sağlar. Jet takviyeleri belirli bir süre için ve savaş başına sınırlı kez etkinleştirilebilir. Kapatılamaz veya yok edilemez."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/title"
+msgstr "Jet Takviyeler"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/description"
+msgstr "Jet takviyeler, etkinleştirildiğinde motor gücünü ve azamî ileri hızı artırır. Ancak aracın manevra kabiliyeti düşer ve geri hızı azalır."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
+msgstr "Avantajları ve Dezavantajları"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
+msgstr "Birkaç saniye boyunca ivmelenmeyi, hareket ve manevra kabiliyetini artıran katı yakıt iticileri. Sol ve sağ iticiler birbirinden bağımsız olarak çalışarak daha hızlı gövde dönüşü sağlar ve geri gitme kabiliyetini sınırlamaz."
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/title"
+msgstr "Ardışık İtici Roketler"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/description"
+msgstr "Bu araçta Turbo ve Çatışma adlı iki mod bulunuyor. Bunlar arasında istediğiniz zaman geçiş yapabilirsiniz. Taktik Güç Ünitesi aktif mod için enerji biriktirir.\nModlar arasında geçiş yapmak için şu tuşa basın:"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/title"
+msgstr "İki Mod"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/description"
+msgstr "Taktik Güç Ünitesi tam şarj olduğunda moda özel bir yetenek kullanılabilir hale gelir. Bu yeteneği etkinleştirmek birikmiş tüm enerjiyi kullanır ve kısa bir süre için güçlü bonuslar sağlar.\nÖzgün mod yeteneğini etkinleştirmek için şu tuşa basın:"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/title"
+msgstr "Mod Yetenekleri"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/description"
+msgstr "Harici Mühimmat İkmal Parçası, yüklü en az bir merminiz olduğu sürece istediğiniz anda yüklemeyi aksatıp ateş etmeye başlamanızı sağlar. Yükleme sürecini durdurmak veya devam etmek için kısayol tuşuna basın:"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/title"
+msgstr "Harici Mühimmat İkmal Parçası"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/description"
+msgstr "Yükleme sırasında parça aracın kulesini ve harici cephanelik kapsüllerini kilitleyerek yüklemeyi aksatmadığınız sürece nişan almanızı veya ateş etmenizi geçici olarak engeller."
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/title"
+msgstr "Harici Mühimmat İkmal Parçası"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/description"
+msgstr "Bu araç, yükleme döngüsü ana silahtan ayrı olan ve önemli anlarda ek hasar vermenizi sağlayan bir dizi yardımcı silahla donatılmıştır. Yardımcı silahları etkinleştirmek için kısayol tuşuna basın:"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/title"
+msgstr "Yardımcı Silahlar"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/description"
+msgstr "Lazer Hedef Belirleyici bir sonraki atışınıza vuracağınız herhangi bir düşmana uygulanacak özel bir etki ekler. Etki düşmanın darbe anında tespit edilmiş olup olmadığına göre değişir.\nLazer Hedef Belirleyiciyi etkinleştirmek için şu tuşa bazın:"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/title"
+msgstr "Lazer Hedef Belirleyici"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/description"
+msgstr "Tespit edilmiş bir aracı vurduğunuzda o araç işaretlenir, tespit edilmiş olarak kaldığı süreyi uzatır ve mermilerden alacağı hasarı artırır.\nTespit edilmemiş bir aracı vurduğunuzda konumu özel bir işaret ile belirlenir."
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/title"
+msgstr "Hedef Belirleme"
+
+msgid "detailsHelp/mechanics/twinGun/page1/description"
+msgstr "Savaş alanındaki taktik duruma bağlı olarak atış modunu tek atış modundan salvo atış moduna değiştirebilirsiniz."
+
+msgid "detailsHelp/mechanics/twinGun/page1/title"
+msgstr "Atış Modu Değiştirme Mekanizması"
+
+msgid "detailsHelp/mechanics/twinGun/page2/description"
+msgstr "Salvo atış modu hem hasarı hem de yükleme süresini ikiye katlar ve aracınızın 100 m'de dağılımı* kötüleşir."
+
+msgid "detailsHelp/mechanics/twinGun/page2/title"
+msgstr "Avantajları ve Dezavantajları"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/description"
+msgstr "Bu mekanik modifikasyon, aracın ileri ve geri ivmelenmesini, motor gücüni ve maksimum ileri ve geri hızını kısa bir süre için önemli ölçüde artırır. Yüksek hareket hızını sürdürmek, soğuma süresini hızlandırır."
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/title"
+msgstr "Yüksek Basınçlı Turboşarj Takviyesi"
+
+msgid "detailsHelp/noKeysWarning"
+msgstr "Ana tuşlar atanmadı. Oyun ayarlarından bunları atayın."
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1"
+msgstr "Bu modda, silahın isabetliliği, yükleme hızı ve top kaldırma/eğim açıları büyük ölçüde artar ancak hareket kabiliyeti (ileri/geri hızı ve dikey/yatay dönüş hızı) ciddi ölçüde sınırlanır. Modu etkinleştirmek için kısayol tuşuna %(pressAndHold)s:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/pressAndHold"
+msgstr "basın ve basılı tutun"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/title"
+msgstr "Korugan Modu"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2"
+msgstr "Bu modda top isabetliliği, nişan alma hızı ve top kaldırma/eğim açıları artar ancak hareket kabiliyeti (ileri ve geri hız) azalır. Modu etkinleştirmek için kısayol tuşuna basın:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2/title"
+msgstr "Kuşatma Modu"
+
+msgid "detailsHelp/role/description"
+msgstr "Rol faaliyetleri gerçekleştirerek deneyime bonus alın:"
+
+msgid "detailsHelp/role/title"
+msgstr "Aracın Savaştaki Rolü"
+
+msgid "detailsHelp/trackWithinTrack/description"
+msgstr "Ana palet hasar aldığında hareket kabiliyetini kısmen korumayı sağlar."
+
+msgid "detailsHelp/trackWithinTrack/title"
+msgstr "Yedek Palet"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique"
+msgstr "Fransız tekerlekli hafif araçlar en yüksek hız ve dinamizmi sergiler ancak oldukça vasat görüş mesafesine sahiptir. Sabit bir tekerlekli araç dönemez."
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique/title"
+msgstr "Toplam"
+
+msgid "detailsHelp/wheeledVeh/burnout"
+msgstr "%(key2)s ve %(key1)s tuşlarına aynı anda basın ve basılı tutun. Güç çubuğunun seviyesi takviye gücünü etkiler. Takviyeyi etkinleştirmek için %(key1)s tuşunu bırakın veya takviyeyi iptal etmek için %(key2)s tuşunu bırakın. Takviye beklenmedik saldırılar ve yanıltıcı manevralar gerçekleştirmek için hızlı ivmelenme sağlar. Dikkat! Takviye ancak araç tamamen durduktan sonra kullanılabilir. Takviyenin etkinleştirilmesi aracınızın motoruna hasar verir."
+
+msgid "detailsHelp/wheeledVeh/burnout/title"
+msgstr "Takviye"
+
+msgid "detailsHelp/wheeledVeh/stableChassis"
+msgstr "Tekerlekli araçlar tekerlekleri üzerine düştüklerinden daha az hasar alırlar. Tekerlekli bir araç bir tekerleği yok edildiğinde durmaz. Daha fazla tekerlek yok edildikçe aracın hızı ve kullanışı azalır. Tekerlekli araçları hareketsiz bırakmak daha zordur çünkü yok edilen tekerlekler belirli bir süre sonra tamamen onarılır."
+
+msgid "detailsHelp/wheeledVeh/stableChassis/title"
+msgstr "Dayanıklı Süspansiyon"
+
+msgid "detailsHelp/wheeledVeh/twoModes"
+msgstr "Kip değiştirmek için %(key1)s tuşuna basın. Araçlar her kipte farklı hız, dinamizm ve kullanışa sahiptir."
+
+msgid "detailsHelp/wheeledVeh/twoModes/title"
+msgstr "İki Hareket Kipi"
+
+msgid "markerColors/enemy"
+msgstr "Düşman"
+
+msgid "markerColors/friend"
+msgstr "Dost"
+
+msgid "markerColors/squadPlayer"
+msgstr "Takım arkadaşı"
+
+msgid "markerColors/teamKiller"
+msgstr "Ekipdaşını öldüren"
+
+msgid "markerColors/title"
+msgstr "İşaretçi renkleri:"
+
+msgid "markerMarks/attack"
+msgstr "Saldırılıyor"
+
+msgid "markerMarks/follow"
+msgstr "Beni takip edin!"
+
+msgid "markerMarks/help"
+msgstr "Yardım edin!"
+
+msgid "markerMarks/target/sau"
+msgstr "KMT'nin Hedefi"
+
+msgid "markerMarks/target/tank"
+msgstr "Aracın Hedefi"
+
+msgid "markerMarks/title"
+msgstr "Ufak haritadaki kestirmeler:"
+
+msgid "radialMenu/ally_hq_defend_command"
+msgstr "Savunun!"
+
+msgid "radialMenu/ally_hq_defend_commit"
+msgstr "Savunuyorum!"
+
+msgid "radialMenu/attackAreaSPG"
+msgstr "Burayı hedef alıyorum!"
+
+msgid "radialMenu/attack_enemy"
+msgstr "Ateş desteğine ihtiyacım var!"
+
+msgid "radialMenu/attack_enemy_with_SPG"
+msgstr "Hedefe saldırıyorum!"
+
+msgid "radialMenu/attacking_base"
+msgstr "Ben ele geçireceğim!"
+
+msgid "radialMenu/attacking_enemy"
+msgstr "Hedefe saldırıyorum!"
+
+msgid "radialMenu/attention_to_base_atk"
+msgstr "Ele geçirin!"
+
+msgid "radialMenu/attention_to_base_def"
+msgstr "Savunun!"
+
+msgid "radialMenu/attention_to_position"
+msgstr "Konuma dikkat!"
+
+msgid "radialMenu/cancel_reply"
+msgstr "Reddet"
+
+msgid "radialMenu/defending_base"
+msgstr "Ben savunacağım!"
+
+msgid "radialMenu/enemy_hq_attack_command"
+msgstr "Saldırın!"
+
+msgid "radialMenu/enemy_hq_attack_commit"
+msgstr "Saldırıyorum!"
+
+msgid "radialMenu/going_there"
+msgstr "Konuma gidiyorum!"
+
+msgid "radialMenu/helpMe"
+msgstr "Yardım edin!"
+
+msgid "radialMenu/helpMeEx"
+msgstr "Yardım lazım!"
+
+msgid "radialMenu/overheated_gun"
+msgstr "Aşırı Isındı!"
+
+msgid "radialMenu/positive"
+msgstr "Olumlu!"
+
+msgid "radialMenu/reloadingGun"
+msgstr "Yüklüyor!"
+
+msgid "radialMenu/reply_to_player"
+msgstr "Onaylandı!"
+
+msgid "radialMenu/supporting_ally"
+msgstr "Ben sana yardım ederim!"
+
+msgid "radialMenu/thanks"
+msgstr "Teşekkür ederim!"
+
+msgid "radialMenu/turn_back"
+msgstr "Geri çekilin!"
+
+msgid "returnToGame"
+msgstr "Esc—Savaşa Dön"
+
+msgid "roleDescription/msg"
+msgstr "Rol faaliyetleri gerçekleştirerek deneyime bonus alın:"
+
+msgid "settings/button"
+msgstr "Ayarlar"
+
+msgid "settings/help"
+msgstr "Oyun kontrollerini görmek veya kişiselleştirmek için, Ayarları tıklayın."
+
+msgid "teamComm/highlightAsActiveTarget"
+msgstr "Aktif Hedefi Belirt"
+
+msgid "teamComm/highlightLocation"
+msgstr "Konum Belirt"
+
+msgid "teamComm/show"
+msgstr "Komuta Menüsünü Göster"
+
+msgid "teamComm/show/ext"
+msgstr "(komut listesi hedefe göre değişir)"
+
+msgid "teamComm/title"
+msgstr "Ekip İletişimi"
+
+msgid "vehicleTypes/title"
+msgstr "Araç İşaretleri"

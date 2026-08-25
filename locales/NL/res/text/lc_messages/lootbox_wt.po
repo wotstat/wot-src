@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "%(count) resterende module"
+msgstr[1] "%(count) resterende modules"
+msgstr[2] "%(count) resterende modules"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Terug naar modules"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "Bij het openen kunnen deze modules je Premium voertuigen, in-game valuta en andere waardevolle dingen opleveren."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "Paradoxmoduls zijn te verkrijgen in de in-game winkel of Premiumwinkel."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Paradoxmodul"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "PARADOXMODUL"
+
+msgid "common/getButton/lowerCase"
+msgstr "Krijg modules"
+
+msgid "common/getButton/upperCase"
+msgstr "KRIJG MODULES"
+
+msgid "common/loader"
+msgstr "Module openen..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Open modules om statistieken te bekijken."
+
+msgid "common/statistics/header"
+msgstr "Modules geopend: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Alle informatie over geopende modules zal worden verwijderd."
+
+msgid "entryPoint/boxes"
+msgstr "NAAR MODULES"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Dit zijn speciale modules met nieuwe en unieke items, waaronder Premium voertuigen, aanpassingselementen, in-game valuta en andere waardevolle beloningen.\nDe modules zijn te verkrijgen in de in-game winkel of Premiumwinkel."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Wegens technische redenen kunnen er momenteel geen modules worden geopend of verkregen. Onze excuses voor het tijdelijke ongemak."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Modules tijdelijk onbeschikbaar"
+
+msgid "eventName/lowerCase"
+msgstr "Breek de Paradox"
+
+msgid "eventName/upperCase"
+msgstr "BREEK DE PARADOX"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Gegarandeerde beloning in de volgende module!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maximum aantal modules tot een gegarandeerde beloning: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Wanneer het evenement is afgelopen en je niet alle modules hebt geopend, zullen ze automatisch worden geopend."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Als je alle voertuigen uit de lijst met mogelijke inhoud van de module al hebt, dan zul je in plaats van alle voertuigen die daarna in modules zitten, hun volledige waarde in goud ontvangen."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Elke %(guaranteed0)s modules bevatten gegarandeerd een Premium voertuig. Als je ze hebt geopend zonder een dergelijk voertuig te ontvangen, dan bevat de %(guaranteed0)se module een Premium voertuig dat je nog niet hebt. Wanneer dat gebeurt, wordt de teller gereset."
+
+msgid "infoPage/header/description"
+msgstr "Open de module om kans te maken op waardevolle in-game items! Kijk voor meer informatie hieronder."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Uit de %(name) (%(boxesCount) modules geopend)"
+
+msgid "noBoxesView/description/"
+msgstr "Je hebt geen modules. Ze zijn te verkrijgen\nin de in-game winkel of Premiumwinkel."
+
+msgid "preview/backLabel"
+msgstr "NAAR MODULES"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Modules beschikbaar: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Geen modules beschikbaar"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Als je alle voertuigen uit de lijst met mogelijke inhoud van de module al hebt, dan zul je in plaats van alle voertuigen die daarna in modules zitten goud ontvangen."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) module"
+msgstr[1] "%(remainingCount) modules"
+msgstr[2] "%(remainingCount) modules"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "De gegarandeerde beloning is een voertuig uit de lijst met mogelijke inhoud van de module.\nAls je er %(remainingCount) opent zonder een dergelijk voertuig te ontvangen, dan zal de %(count)e module het voertuig bevatten. Als dat gebeurt, wordt de teller gereset."

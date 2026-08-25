@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "backButton/label"
+msgstr "NAZAD"
+
+msgid "backButton/to"
+msgstr "NA STATUS RAČUNA"
+
+msgid "filteredMapsDisplayed"
+msgstr "Prikazane mape: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Prikaži/sakrij mape ovog tipa."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Pustinjske mape"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Ljetne mape"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Zimske mape"
+
+msgid "header/cooldown"
+msgstr "Možete zamjeniti mape ponovno za %(cooldownEndTime)."
+
+msgid "header/title"
+msgstr "Isključene mape"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Možete ponovno zamjeniti ovu mapu nakon hlađenja."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Zamjena mape nedostupna"
+
+msgid "mapTile/hoverExclude"
+msgstr "Isključiti mapu %(mapName)?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Isključi"
+
+msgid "mapTile/hoverInclude"
+msgstr "Uključiti mapu %(mapName) u slučajne bitke?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Uključi"
+
+msgid "mapsFilterLabel"
+msgstr "Tipovi mapa:"
+
+msgid "notSelected"
+msgstr "Nije odabrano"
+
+msgid "premium"
+msgstr "WoT Premium"
+
+msgid "slot/disabledTooltipBody"
+msgstr "Dodatno mjesto je dostupno samo s aktivnim WoT premium računom ili WoT Plus pretplatom."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "Otključaj s WoT premium računom."
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Otključaj s aktivnom WoT Plus pretplatom."
+
+msgid "slot/replaceTooltipBody"
+msgstr "Odaberite mapu s donjeg spiska za zamjenu i isključenje iz slučajnih bitaka."
+
+msgid "slot/selectTooltipBody"
+msgstr "Odaberite mapu s donjeg spiska za isključenje iz slučajnih bitaka."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Dostupno mjesto"
+
+msgid "totalMapsDisplayed"
+msgstr "Prikazano mapa: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "Isključi još jednu mapu s %(linkPremium) i još %(mapCount)s s %(linkWotPlus)."
+msgstr[1] "Isključi još jednu mapu s %(linkPremium) i još %(mapCount)s s %(linkWotPlus)."
+
+msgid "unlock/premium"
+msgstr "Isključi još jednu mapu s %(linkPremium)."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "Isključi još %(mapCount)s mapu s %(linkWotPlus)."
+msgstr[1] "Isključi još %(mapCount)s mape s %(linkWotPlus)."
+
+msgid "wotplus"
+msgstr "WOT Plus"

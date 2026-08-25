@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Antaa mahdollisuuden ampua lippaasta sarjan laukauksia yksi kerrallaan jokaisen ammuksen latautuessa automaattisesti ajan kanssa."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Antaa mahdollisuuden ampua lippaasta sarjan laukauksia yksi kerrallaan jokaisen ammuksen latautuessa automaattisesti ajan kanssa. Tarjoaa bonuksen seuraavan ammuksen latausnopeuteen latauksen aikana."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Ampuu lyhyessä ajassa hurjaa vahinkoa tekeviä sarjoja läpäisyn ja tarkkuuden kustannuksella. Tehokkaimmillaan lähitaistelussa."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Ampuu tähtiammuksia, jotka aiheuttavat maksimivahingon 50 m kantamalla. Ammuksen vahinko pienenee etäisyyden kasvaessa, mikä tekee niistä tehokkaimpia lähitaistelussa."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Ainutlaatuinen jäähdytysjärjestelmä, joka mahdollistaa tuplatähtäyksen: odottaminen latauksen jälkeen antaa mahdollisuuden ampua tarkemmin. Parempi tarkkuus näyttäytyy toisena, pienempänä tähtäysympyränä."
+
+msgid "abilities/common/description/dualGun"
+msgstr "Kaksoistykkijärjestelmä mahdollisuudella ampua kummatkin putket erikseen tai yhtä aikaa. Tuplalaukaus aiheuttaa kerralla hurjaa jälkeä, mutta sen seurauksena latausaika on pidempi."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Mahdollistaa vaunun rungolle koron säätämisen tarjoten tilaisuuksia ampua erilaisista asemista taistelussa. Aktivointi riippuu erilaisista ehdoista."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "Vaihtaa lisäpyörien asemointia kasvattaakseen merkittävästi nopeutta ohjattavuuden kustannuksella. Parhaimmillaan kuljettaessa pitkiä matkoja ja rynnättäessä hyökkäykseen."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Mahdollistaa laukausten sarjan ampumisen lippaasta ennen täyteen lataamista. Tarjoilee paljon vahinkoa nopeasti, mutta jättää vaunun haavoittuvaiseksi latauksen aikana. Voi ladata vain koko lippaan kerralla."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "Tykki voi ampua jatkuvasti ilman tarvetta ladata. Jokainen laukaus tuottaa lämpöä: mitä korkeampi tykin lämpötila, sitä enemmän sen ominaisuudet muuttuvat. Jatkuvat tulitus saa tykin ylikuumenemaan, mikä estää sitä ampumasta, kunnes se on taas jäähtynyt."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Parantaa moottoritehoa ja huippunopeutta mahdollistaen vikkelän liikkeen taistelukentän halki. Aktivoitaessa suihkumoottorit heikentävät ohjattavuutta eikä niitä voi ottaa pois käytöstä itse."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "Aktivoitaessa tämä erikoistila parantaa ja/tai muuttaa tiettyjä taisteluparametrejä. Tehokkaimmillaan aktivoitaessa, kun vaunu on asemassa ja valmis käymään vihollisten kimppuun."
+
+msgid "abilities/common/description/stun"
+msgstr "Lamauttaa vihollisvaunuja tietyllä räjähdysalueella, vaikkei osumaa vaunuun tulisikaan suoraan. Se heikentää hetkellisesti vaunujen liikettä, tarkkuutta ja latausaikaa. Lamautetut viholliset merkitään lamautus-osoittimella."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Mahdollistaa vaunulle liikkumisen hitaammalla vauhdilla, kun päätela on tuhoutunut. Seuraavan ulomman telan menettäminen heikentää liikkuvuutta ennestään, mutta vaunu voi yhä liikkua ja kääntyä."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "Mahdollistaa vaunulle merkittävästi nopeammin liikkumisen samalla, kun tykin käsittelyominaisuudet heikkenevät merkittävästi."
+
+msgid "abilities/common/description/twinGun"
+msgstr "Aktivoitaessa tämä erikoistila tarjoaa tuplaten vahinkoa ja parannuksia ja/tai muutoksia tiettyihin taisteluparametreihin. Parhaimmillaan lähitaistelussa aktivoituna."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Automaattilataaja"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "Paranneltu automaattilataaja"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Konetykki"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Syvärihlattu tykki"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Tykin jäähdytys"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Kaksoistykki"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Hydropneumaattinen telakoneisto"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Pika-ajo"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Automaattilataaja"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Ylikuumenemista hallinnoiva konetykki"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Suihkumoottorit"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Piiritystila"
+
+msgid "abilities/common/name/stun"
+msgstr "Lamauta"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Varatela"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Turbomoodi"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Yhteislaukaus"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "Keräät tarkkuustasojasi pysymällä paikallasi tai liikkumalla hitaasti parantaaksesi seuraavan laukauksesi tarkkuutta.\nKorkeimmalla tarkkuustasolla tykkisi on kelpo käsiteltävä pienennetyllä hajonnalla jopa liikkeessä tai runkoa/tornia käännettäessä."
+
+msgid "abilities/special/description/battleFury"
+msgstr "Joka kerta osuessasi viholliseen ammuksella saat latauksen tehokkuustason, joka parantaa hetkellisesti tykkisi latausnopeutta. Tasoja kertyy jokaisesta osumasta.\nVihollisvaunun tuhoaminen ampumalla tarjoaa lisää lataustehokkuuden tasoja."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Jos tykkisi on ladattu, voit alkaa lämmittämään seuraavaa laukaustasi tehdäksesi enemmän vahinkoa – mitä korkeampi lämpötaso, sitä suurempi vaikutus.\nKorkeimmalla lämpötasolla sinulla on muutama sekunti aikaa ampua. Jos et ammu, tulee ampumisesta hetkeksi mahdotonta."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Kahden panssarinläpäisevän osuman ampuminen vihollisvaunuihin ottaa käyttöön sarjatilan. Se lataa sarjatulikasetin, jolla voit seuraavana laukauksenasi ampua kaksi ammusta nopeasti peräjälkeen tehden massiivista vahinkoa."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "Pneumaattinen gyrovakaaja tarjoaa parhaan vakauden liikkeessä sekä runkoa ja tornia käännettäessä, joka mahdollistaa tarkemman ampumisen sekä nopean vastaamisen yllättäviin uhkiin ynnä tehokkaan taistelun suojien takaa."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "Järjestelmä alkaa lataamaan automaattisesti uutta kasettia, kun nykyisessä on jäljellä enää yksi ammus, pitäen sinut valmiina taisteluun. Voit yhä ampua viimeisen ammuksen tämän prosessin aikana, mutta niin tekeminen lisää muutaman sekunnin jäljellä olevaan latausaikaan."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "Järjestelmä pitää tykin viileänä ja mahdollistaa tarkan ampumisen. Tykki lämpenee ammuttaessa, mutta alkaa jäähtyä ja paremmat ominaisuudet palaavat lataamisen aikana. Mitä korkeampi sen lämpötila, sitä enemmän sen ominaisuudet muuttuvat."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "Aiempien mallien suunnitelmista ammentava vaunu on suunniteltu erityisesti kuolettaviin törmäyshyökkäyksiin. Rakenteelliset vahvikkeet auttavat sitä tekemään törmätessä enemmän vahinkoa vihollisvaunuihin, mikä antaa sille edun lähitaistelussa."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "Tämän vaunun tykin voi ampua ennenaikaisesti: kerran viritetyt laukaukset latauksen aikana ovat tehottomampia, kun täysin viritetyt laukaukset, jotka ammutaan latauksen jälkeen ja joiden ballistiset ominaisuudet ovat optimaaliset."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "Tykki voi ampua jatkuvasti ilman tarvetta ladata. Jokainen laukaus tuottaa lämpöä: mitä korkeampi tykin lämpötila, sitä enemmän sen ominaisuudet muuttuvat. Jatkuvat tulitus saa tykin ylikuumenemaan, mikä estää sitä ampumasta, kunnes se on taas jäähtynyt."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Pysy paikallasi tai liiku hitaasti kerätäksesi esilämmitystä, joka parantaa seuraavan laukauksesi vahinkoa ja tarkkuutta. Suurimmalla esilämmityksellä vihollisvaunun läpäisy, jolla on vähemmän kestopisteitä kuin vaunusi keskimääräinen vahinko, aiheuttaa ammustelineen räjähdyksen ja vaunun tuhoutumisen."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Tämä tila tekee vaunustasi linnoitetun tykkiaseman tarjoten ylivertaista tarkkuutta ja nopeamman latausajan. Tästä parannetusta tulivoimasta maksaa hintaa vaunun liikkuvuudella – vaunun nopeus sekä vertikaalinen/horisontaalinen kääntyminen rajoittuu todella merkittävästi."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Tämä tila tarjoaa merkittävän lisän moottoritehoosi ja huippunopeuteesi eteenpäin. Mitä pidempään ajat eteenpäin, sitä enemmän vauhtia keräät. Näin pääset vaivatta kiitämään pitkiäkin matkoja halki taistelukentän."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "Järjestelmä virittyy ajan kanssa ja mitä korkeampi viritys, sitä enemmän bonusvahinkoa. Virityksen määrää säätelee rajoitin, jonka voi poistaa käytöstä saadakseen vielä suuremman vahinkobonuksen tykin käsittelyominaisuuksien kustannuksella."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "Aktivoi nestemäisen polttoaineen suihkumoottorit milloin hyvänsä saadaksesi lisää vauhtia, kun sitä eniten tarvitset. Suihkumoottorit kuumenevat ja niiden pitää jäähtyä ennen kuin niitä voi käyttää uudelleen. Kriittisen lämpörajan ylittäminen laittaa ne väliaikaisesti kokonaan pois käytöstä."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Kiinteällä polttoaineella toimivat suihkumoottorit, jotka tehostavat kiihtyvyyttä, liikettä ja ohjattavuutta muutaman sekunnin ajan. Vasen ja oikea moottori toimivat toisistaan erillään mahdollistaen nopeamman rungon kääntämisen. Ne eivät myöskään rajoita vaunun ohjattavuutta."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "Aktiivisesta tilasta ja lataustasosta riippuen vaunu voi aktivoida yhden kahdesta kyvystä: \nIonipurkausjälkipolttimen parantamaan moottoritehoa ja nopeutta.\nElektromekaanisen kaksoistähtäimen pienentämään hajontaa, lyhentämään latausaikaa ja parantamaan tarkkuutta."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Tämä moduuli pitää sinut taistelussa antaen sinulle mahdollisuuden keskeyttää lataamisen milloin hyvänsä, jos vähintään yksi ammus on ladattuna. Paina näppäintä keskeyttääksesi lataamisen, ammu lyhyen viiveen jälkeen ja palaa sitten lataukseen manuaalisesti tai anna lippaan ladata automaattisesti tyhjennyttyään."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Aktivaationäppäimen painaminen ampuu vaunusi apuaseella kohteeseen. Tällä lisätulivoimalla on oma lataussyklinsä, joka ei riipu päätykistä."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "Seuraava laukauksesi aiheuttaa vihollisen havaitsemisstatuksesta riippuvan vaikutuksen. Havaittuun viholliseen osuminen merkitsee sen ja se pysyy havaittuna pidempään ja kärsii enemmän vahinkoa. Havaitsemattomaan viholliseen osuminen korostaa niiden sijainnin erikoismerkillä."
+
+msgid "abilities/special/description/twinGun"
+msgstr "Tarjoaa tuplaten vahinkoa ja paremman vakaajan liikkuvuuden, tarkkuuden, tornin kääntönopeuden sekä tähtäysajan kustannuksella. Parhaimmillaan lähitaistelussa."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Tämä mekaaninen apuväline tehostaa merkittävästi lyhyeksi aikaa vaunun kiihtyvyyttä, moottoritehoa ja huippunopeutta eteen- ja taaksepäin. Näin voit reagoida nopeasti vihollisen hyökkäyksiin tai yllättää vihollisesi näyttävillä liikkeillä."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Analoginen ballistinen laskentalaite"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Puoliautomaattinen ammusteline"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Termoballistinen ylilataus"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Sarjatila"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Pneumaattinen gyrovakaaja"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Kasettilatausjärjestelmä"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Aktiivinen tykin jäähdytys"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Törmäyskokoonpano"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "Monipakattu viritysjärjestelmä"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Ylikuumenemista hallinnoiva konetykki"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "Lähtöpanoksen lämmönhallintajärjestelmä"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Bunkkeritila"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Suoraveto"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "Lähtöpanoksen induktiojälkipoltin"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Nestemäisen polttoaineen suihkumoottorit"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "Peräkkäiset rakettimoottorit"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Taktinen virtalähde"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Ulkoinen ammusten täydennysmoduuli"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Apuaseistus"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Kohteen laserosoitin"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Yhteislaukaus"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Korkeapaineinen turboahtimen tehostin"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Parantaa seuraavasi laukauksen tarkkuutta kelpo vakaudella täysin kalibroituna."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Jokainen osuma vihollisvaunuun tehostaa tykin latausnopeutta tietyksi ajaksi."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Kerryttää lämpötasoja, jotka saavat seuraavan laukauksesi aiheuttamaan enemmän vahinkoa vihollisvaunuihin."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "Sarjatulikasetti, joka mahdollistaa kahden ammuksen ampumisen nopeaan tahtiin."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Maksimoi vakauden liikkeessä ja käännyttäessä tarjoten tarkempaa tulitusta."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Aloittaa automaattisen latauksen viimeisen ammuksen kohdalla, joka voidaan yhä ampua latauksen aikana."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "Aktiivinen tykin jäähdytysjärjestelmä, joka parantaa tarkkuutta tykin jäähtyessä."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Kasvattaa vihollisvaunuihin aiheutettua törmäysvahinkoa."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "Erityinen tykkimekaniikka, joka mahdollistaa ennenaikaisen ampumisen laukauksen tehokkuuden kustannuksella."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "Järjestelmä mahdollistaa jatkuvan ampumisen lataamatta ja hallitsee tykin lämmöntuottoa ammuttaessa."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "Paikallaan pysyminen tai hitaasti liikkuminen parantaa seuraavan laukauksen vahinkoa ja tarkkuutta."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Parantaa merkittävästi tykin tarkkuutta ja latausnopeutta, mutta rajoittaa ankarasti liikkuvuutta."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Tarjoaa lisätehoa moottorille kasvattaen huippunopeutta sitä enemmän mitä pidempään vaunu pysyy liikkeessä."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "Järjestelmä virittyy tehostaakseen vahinkoa. Mitä suurempi viritys, sitä enemmän vahinkoa."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "Suihkumoottorit, jotka voidaan aktivoida milloin hyvänsä tarjoamaan nopea lisä vauhtiin."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "Kiinteää polttoainetta käyttävät suihkumoottorit, jotka tehostavat kiihtyvyyttä, liikettä ja ketteryyttä."
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Lataa yhtä kahdesta ainutlaatuisesta kyvystä parantaen joko nopeutta tai tykin tarkkuutta."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "Mahdollistaa latauksen keskeyttämisen ja takaisin ampumisen ratkaisevalla hetkellä."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Apuaseita tarjoamaan lisää tulivoimaa päätykin oheen."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Pidentää vihollisten näkyvissä pysymisen aikaa tai korostaa ne erikoismerkillä."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Mahdollistaa molempien tykkien yhtä aikaa ampumisen latausajan kustannuksella."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "Erikoismekaniikka, joka lisää moottoritehoa, kiihtyvyyttä ja huippunopeutta lyhyeksi ajaksi."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Paikallaan tai tietyn nopeuden alapuolella pysyminen mahdollistaa vaunullesi sen analogisen ballistisen laskentalaitteen kalibroinnin ja tarkkuustasojen kerryttämisen, mikä parantaa seuraavan laukauksesi tarkkuutta. Tarkkuustasojen kertyminen keskeytyy, mikäli ylität nopeusrajan, aina siihen asti, että hidastat uudelleen. Suurimmalla tarkkuustasolla vaunusi saavuttaa kelpo tykin vakauden pienennetyllä hajonnalla liikkeen tai rungon/tornin kääntämisen takia. Vaikutus poistetaan ammuttaessa."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "Joka kerta osuessasi näkyvään viholliseen ammuksella saat latauksen tehokkuustason, joka parantaa hetkellisesti tykkisi latausnopeutta. Tasoja kertyy jokaisesta osumasta ja vihollisvaunun tuhoaminen ampumalla tarjoaa lisää lataustehokkuuden tasoja."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Mikäli tykkisi on ladattu, voit alkaa lämmittää seuraavaa laukaustasi. Mitä suuremman lämpötason saavutat, sitä suurempi bonus keskimääräiseen vahinkoon tulee olemaan. Lämmitysprosessin aikana ei voi vaihtaa ammuksia. Saavutettuasi korkeimman lämpötason käynnistyy laskuri. Mikäli et ammu ennen sen kulumista loppuun, et voi ampua muutamaan sekuntiin."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Kahden panssarin läpäisevän osuman aikaan saaminen vihollisvaunuihin aktivoi sarjatilan ladaten sarjatulikasetin, joka mahdollistaa kahden ammuksen ampumisen nopeasti peräjälkeen seuraavan kerran liipaisinta painettaessa."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "Pneumaattinen gyrovakaaja tarjoaa lyhyeksi ajaksi parhaan mahdollisen vakauden runkoa ja tornia käännettäessä mahdollistaen tarkemman ampumisen liikkeestä ja nopeat reaktiot yllättäviin uhkiin."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "Järjestelmä alkaa lataamaan automaattisesti uutta lipasta, kun nykyisessä on jäljellä yksi ammus. Viimeisen ammuksen ampuminen kesken lataamisen lisää muutaman sekunnin jäljellä olevaan latausaikaan. Lippaan lataamisen näppäimen painaminen tyhjentää lippaan viimeistä ammusta lukuun ottamatta. Näppäimen painaminen kahdesti nollaa koko ladatun lippaan."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "Järjestelmä pitää tykin viileänä ja mahdollistaa tarkan ampumisen. Tykki lämpenee ammuttaessa, mutta alkaa jäähtyä ja paremmat ominaisuudet palaavat lataamisen aikana. Mitä korkeampi sen lämpötila, sitä enemmän sen ominaisuudet muuttuvat."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Vaunu on suunniteltu erityisesti törmäyshyökkäyksiin ja siinä on muokkauksia, jotka auttavat sitä aiheuttamaan enemmän vahinkoa törmättäessä vihollisvaunuihin."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "Tämän vaunun tykin voi ampua ennenaikaisesti: kerran viritetyt laukaukset latauksen aikana ovat tehottomampia, kun täysin viritetyt laukaukset, jotka ammutaan latauksen jälkeen ja joiden ballistiset ominaisuudet ovat optimaaliset."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "Tykki voi ampua jatkuvasti ilman tarvetta ladata. Jokainen laukaus tuottaa lämpöä: mitä korkeampi tykin lämpötila, sitä enemmän sen ominaisuudet muuttuvat. Jatkuvat tulitus saa tykin ylikuumenemaan, mikä estää sitä ampumasta, kunnes se on taas jäähtynyt."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "Paikallaan pysyminen tai tietyn nopeuden alla pysyttely kerryttää esilämmitystä, joka parantaa seuraavan laukauksesi keskimääräistä vahinkoa ja tarkkuutta. Nopeusrajoituksen ylittäminen alkaa vähitellen vähentää bonusta, kun taas ampuminen tai ammuksen vaihtaminen nollaa sen välittömästi. Suurimmalla esilämmityksen tasolla vihollisen, jolla on vähemmän kestopisteitä kuin keskimääräinen vahinkosi (kertynyt esilämmityksen bonus mukaan lukien), panssarin läpäiseminen johtaa ammustelineen ja siten vaunun välittömään tuhoutumiseen."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "Tässä tilassa tykin tarkkuus, latausnopeus ja ylä-/alakoron kulmat paranevat dramaattisesti, mutta liikkuvuus (nopeus eteen-/taaksepäin sekä vertikaalinen/horisontaalinen kääntö) rajoittuu merkittävästi. Prosenttiarvot annetaan piiritystilaan vertailemiseksi."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "Suoraveto-tila tarjoaa merkittävän lisän moottoritehoosi ja huippunopeuteesi eteenpäin. Mitä pidempään ajat eteenpäin, sitä enemmän vauhtia keräät. Näin pääset vaivatta matkaamaan halki taistelukentän."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "Järjestelmää virittyy ajan kanssa ja se viritys kuluu osittain tehostamaan vahinkoa, kun ammut. Mitä korkeampi viritys, sitä suurempi bonusvahinko. Oletuksena järjestelmä kerryttää viritystä vain tiettyyn rajaan asti. Rajoittimen kytkeminen pois mahdollistaa vielä reilumman virityksen, joka tarjoaa paljon suuremman vahinkobonuksen, mutta heikentää tykin käsiteltävyyttä."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "Nestemäisen polttoaineen suihkumoottorit tarjoavat pikaisen tehoruiskeen moottoritehoon, jonka avulla voit päästä taistelukentällä haluamaasi sijaintiin. Samalla ne rajoittavat vaunusi peruutus- ja kääntönopeuksia. Ne voidaan kytkeä päälle ja pois päältä milloin hyvänsä paitsi uudelleenaktivointirajan saavuttamisen jälkeen. Suihkumoottorit kuumenevat käytössä ollessaan ja niitä ei voi käyttää, kunnes ne ovat jäähtyneet. Näin ollen niitä ei voi käyttää jatkuvasti, sillä kriittisen lämpörajan ylitettyään ne ovat hetken aikaa kokonaan pois käytöstä."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "Kiinteää polttoainetta käyttävät suihkumoottorit, jotka parantavat vaunun kiihtyvyyttä, liikkuvuutta ja ohjattavuutta muutaman sekunnin ajan. Toisin kuin tavalliset suihkumoottoritehostimet vasen ja oikea suihkumoottori toimivat toisistaan erillään mahdollistaen nopeamman rungon kääntämisen eivätkä ne vaikuta peruutuskykyyn. Niitä voi käyttää monta kertaa taistelussa, mutta niiden on jäähdyttävä aktivointien välillä."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "Aktiivisesta tilasta ja lataustasosta riippuen vaunu voi aktivoida yhden kahdesta kyvystä: ionipurkausjälkipolttimen tai elektromekaanisen kaksoistähtäimen.\nIonipurkausjälkipoltin parantaa hetkellisesti moottoritehoa ja nopeutta eteen- sekä taaksepäin. Elektromekaaninen kaksoistähtäin parantaa hetkellisesti tarkkuutta ja lyhentää latausaikaa."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "Ulkoinen ammusten täydennysmoduuli antaa sinulle mahdollisuuden keskeyttää lataamisen ja ampua milloin hyvänsä, kunhan sinulla on yksi ammus ladattuna. Lataamisen aikana moduuli lukitsee vaunun tornin ja ulkoisen ammusvarastot estäen sinua hetkellisesti tähtäämästä tai ampumasta ellet keskeytä sitä."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "Tämä vaunu on varustettu lajitelmalla apuaseita, joiden lataussykli on päätykistä erillinen, joka mahdollistaa lisävahingon aiheuttamisen ratkaisevilla hetkillä."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "Kohteen laserosoitin lisää seuraavaan laukaukseesi erikoisvaikutuksen, joka tulee mihin hyvänsä viholliseen, johon osut. Vaikutus riippuu siitä, oliko vihollinen havaittuna osumahetkellä. Havaittuun vihollisvaunuun osuminen merkitsee sen pidentäen aikaa, jonka se pysyy havaittuna, ja kasvattaa sen ammuksista kärsimää vahinkoa. Havaitsemattomaan viholliseen osuminen puolestaan korostaa sen sijainnin erikoismerkillä."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "Tarjoaa tuplaten vahinkoa ja paremman vakaajan liikkuvuuden, tarkkuuden, tornin kääntönopeuden sekä tähtäysajan kustannuksella. Parhaimmillaan lähitaistelussa."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Tämä mekaaninen apuväline tehostaa merkittävästi lyhyeksi aikaa vaunun kiihtyvyyttä, moottoritehoa ja huippunopeutta eteen- ja taaksepäin. Näin voit reagoida nopeasti vihollisen hyökkäyksiin tai yllättää vihollisesi näyttävillä liikkeillä. Suuren liikenopeuden ylläpitäminen nopeuttaa mekaniikan jäähtymistä."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Kaikki näytetyt arvot ovat suurimpia mahdollisia vaunulle. Varusteet, direktiivit ja kulutustarvikkeet voivat muuttaa näitä arvoja, mutta nämä muutokset eivät näy täällä."
+
+msgid "characteristics/templates/upTo"
+msgstr "Jopa %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Osta ja asenna"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Kenttämuokkaus"
+
+msgid "modules/controls/button/mount"
+msgstr "Asenna"
+
+msgid "modules/controls/button/research"
+msgstr "Tutki"
+
+msgid "modules/controls/button/sell"
+msgstr "Myy varikolta"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Tämä vaunu on taistelussa. Voit muokata sen moduuleja, kun taistelu on ohi."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Tämä vaunu on vahingoittunut. Korjaa se voidaksesi muokata sen moduuleja."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Moduulin käyttöön ottaminen ei onnistu. Yhteensopimaton {{module}}."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Tämä vaunu on taktisessa osastossa."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "Osta tämä vaunu voidaksesi muokata sen moduuleja."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "Tutki edelliset moduulit voidaksesi tutkia tämän moduulin."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "Tutki tämä vaunu voidaksesi tutkia sen moduuleja."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Kaikki moduulit on tutkittu."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Tämä moduuli on jo käytössä."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Valitse moduuli tai vaunu tutkittavaksi."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Tämä vaunu on taistelussa. Voit muokata sen moduuleja, kun taistelu on ohi."
+
+msgid "modules/controls/name"
+msgstr "Valittu: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Runko"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Moottori"
+
+msgid "modules/name/vehicleGun"
+msgstr "Tykki"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Radio"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Tykkitorni"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Pyörät"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Keräilijöiden vaunut"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Mahdollisuus ansaita"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "krediittejä jokaisesta taistelusta"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "miehistön siirto ilman rangaistusta"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "Taistelukokemus ja miehistökokemus"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Arvopaperit"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Enemmän"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Ilmainen"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Enemmän"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Ansaitse arvopapereita"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Enemmän krediittejä"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Ilmainen siirto"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Enemmän kokemusta"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Ilmainen korjaussarja"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Mahdollisuus ansaita"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "krediittejä jokaisesta taistelusta"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "miehistön siirto mistä hyvänsä vaunuluokasta ilman rangaistusta"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "taistelu- ja miehistökokemusta"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "arvopapereita"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Enemmän"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Ilmainen"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Enemmän"
+
+msgid "overview/crew/name"
+msgstr "Miehistö {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Näytä mekaniikka"
+
+msgid "overview/title/generalDescription"
+msgstr "Vaunun kuvaus"
+
+msgid "overview/title/historicalReference"
+msgstr "Historiallinen esikuva"
+
+msgid "researchPurchase/discountTimer"
+msgstr "{{date}} asti"
+
+msgid "researchPurchase/recover"
+msgstr "Palauttaminen saatavilla {{date}} asti"
+
+msgid "tabs/armor"
+msgstr "Panssarointi"
+
+msgid "tabs/modules"
+msgstr "Moduulit"
+
+msgid "tabs/overview"
+msgstr "Yleiskatsaus"
+
+msgid "tabs/stats"
+msgstr "Ominaisuudet"
+
+msgid "tabs/vehSkillTree"
+msgstr "Päivitykset"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "Vuokra-aika on ohitse"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Tilaus katkaistu"

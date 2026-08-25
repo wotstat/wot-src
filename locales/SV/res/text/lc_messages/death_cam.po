@@ -1,0 +1,194 @@
+msgid "fatal_shell/penetration_range"
+msgstr "%(from)d-%(to)d mm"
+
+msgid "fatal_shell/penetration_value"
+msgstr "%(penetration)d mm"
+
+msgid "hints/camera_flow/buttonText"
+msgstr "BLANKSTEG"
+
+msgid "hints/camera_flow/pause"
+msgstr "Avancerat läge (%(duration))"
+
+msgid "hints/camera_flow/pauseSimplified"
+msgstr "Pausa (%(duration))"
+
+msgid "hints/camera_flow/resume"
+msgstr "Återuppta (%(duration))"
+
+msgid "hints/death_reason/destroyed"
+msgstr "Vagnen utslagen"
+
+msgid "hints/death_reason/legacyHE"
+msgstr "Sprängskada"
+
+msgid "hints/death_reason/modernHE"
+msgstr "Splitterskada"
+
+msgid "hints/death_reason/nonPenetrationDamage"
+msgstr "Ytskada"
+
+msgid "hints/death_reason/penetration"
+msgstr "Direktträff"
+
+msgid "hints/follow_pt1"
+msgstr "Vänsterklicka"
+
+msgid "hints/follow_pt2"
+msgstr "för att följa den här vagnen"
+
+msgid "hints/free_cam/return_previous"
+msgstr "Högerklicka för att återgå till föregående vagn"
+
+msgid "hints/height/label"
+msgstr "Höjd"
+
+msgid "hints/height/text"
+msgstr "Ställ in kamerahöjden inom givna gränser."
+
+msgid "hints/movement/label"
+msgstr "Förflyttning"
+
+msgid "hints/movement/text"
+msgstr "Använd %(forward)s, %(left)s, %(backward)s, %(right)s för att röra kameran."
+
+msgid "hints/skip/buttonText"
+msgstr "ESC"
+
+msgid "hints/skip/label"
+msgstr "Hoppa över"
+
+msgid "hints/spectatorDown"
+msgstr "SKIFT"
+
+msgid "hints/spectatorUp"
+msgstr "BLANKSTEG"
+
+msgid "hints/speed/label"
+msgstr "Hastighet"
+
+msgid "hints/speed/text"
+msgstr "Ställ in kamerans hastighet"
+
+msgid "hints/spotted_status/spotted"
+msgstr "Upptäckt"
+
+msgid "hints/spotted_status/unspotted"
+msgstr "Blindskott"
+
+msgid "marker/paramName/angleFailure"
+msgstr "Icke-genomslagsvinkel"
+
+msgid "marker/paramName/angleImpact"
+msgstr "Genomslagsvinkel"
+
+msgid "marker/paramName/angleRicochet"
+msgstr "Rikoschettvinkel"
+
+msgid "marker/paramName/armorNominal"
+msgstr "Nominell pansartjocklek {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/armorRelative"
+msgstr "Pansar {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/damageDistanceModifier"
+msgstr "Avståndspåverkan {colorTagOpen}(TP){colorTagClose}"
+
+msgid "marker/paramName/deathReason/crew"
+msgstr "Besättningen utslagen!"
+
+msgid "marker/paramName/deathReason/detonation"
+msgstr "Ammunitionsstället exploderade!"
+
+msgid "marker/paramName/deathReason/ignition"
+msgstr "Satt i brand!"
+
+msgid "marker/paramName/is2CaliberRuleApplied"
+msgstr "2-kaliberregeln"
+
+msgid "marker/paramName/is3CaliberRuleApplied"
+msgstr "3-kaliberregeln"
+
+msgid "marker/paramName/nonArmored"
+msgstr "Inget pansar"
+
+msgid "marker/paramName/shellArmorAngleGain"
+msgstr "Pansarökning från vinkel {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellCaliber"
+msgstr "Kaliber {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBasic"
+msgstr "Genomsnittlig skada {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBurst"
+msgstr "Skadepotential {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/legacyHE"
+msgstr "Åsamkad sprängskada {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/modernHE"
+msgstr "Åsamkad splitterskada {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/nonPenetrationDamage"
+msgstr "Åsamkad ytskada {colorTagOpen}(TP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/penetration"
+msgstr "Åsamkad skada {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossDistance"
+msgstr "Minskning pga. avstånd {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionHe"
+msgstr "Blockerad av pansar {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionSpallLiner"
+msgstr "Minskning pga. utrustning {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageRandomizationFactor"
+msgstr "Slumpfaktor {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationBasic"
+msgstr "Genomsnittligt genomslags {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationEffective"
+msgstr "Pansargenomslag {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellVelocityBasic"
+msgstr "Granathastighet {colorTagOpen}(m/s){colorTagClose}"
+
+msgid "marker/paramName/shootDistance"
+msgstr "Avstånd {colorTagOpen}(m){colorTagClose}"
+
+msgid "marker/paramName/shootDistanceUnspotted"
+msgstr "Fiende ej upptäckt"
+
+msgid "marker/value/angle/exact"
+msgstr "%(value)s°"
+
+msgid "marker/value/angle/less"
+msgstr "< %(value)s°"
+
+msgid "marker/value/angle/more"
+msgstr "> %(value)s°"
+
+msgid "marker/value/applied"
+msgstr "På vagnen"
+
+msgid "marker/value/dashes"
+msgstr "--"
+
+msgid "marker/value/failed"
+msgstr "Ingen"
+
+msgid "marker/value/notAffected"
+msgstr "--"
+
+msgid "marker/value/signNegative"
+msgstr "- %(value)s"
+
+msgid "marker/value/signPositive"
+msgstr "+ %(value)s"
+
+msgid "marker/value/unspotted"
+msgstr "Ej upptäckt"

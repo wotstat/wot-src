@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Umożliwia wystrzelenie serii pocisków z magazynka jeden po drugim, z automatycznym przeładowaniem każdego pocisku w czasie."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Umożliwia wystrzelenie serii pocisków z magazynka jeden po drugim, z automatycznym przeładowaniem każdego pocisku w czasie. Zapewnia premię do szybkości ładowania kolejnego pocisku podczas przeładowania."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Wystrzeliwuje szybkie serie pocisków, zadając duże uszkodzenia w krótkim czasie kosztem penetracji i celności. Najskuteczniejsze w walce w zwarciu."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Wystrzeliwuje pociski z dnem w kształcie gwiazdy, zadając maksymalne uszkodzenia na dystansie do 50 m. Uszkodzenia pocisków maleją wraz z odległością, co powoduje, że są najskuteczniejsze w walce w zwarciu."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Unikalny system chłodzenia, który pozwala na podwójne celowanie: odczekanie po przeładowaniu pozwala na celniejszy ostrzał z działa. Zwiększona celność jest uwidaczniana w postaci drugiego, mniejszego koła celowania."
+
+msgid "abilities/common/description/dualGun"
+msgstr "Dwulufowy system działa z możliwością strzelania z obu luf osobno lub jednocześnie. Podwójne strzały zadają duże uszkodzenia od serii, ale wymagają dłuższego przeładowania."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Pozwala na zmianę kąta podniesienia kadłuba, zapewniając możliwość ostrzału z większej liczby pozycji w bitwie. Aktywacja zależy od różnych warunków."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "Zmienia pozycję dodatkowych kół, znacznie zwiększając prędkość kosztem zwrotności. Najlepiej nadaje się do przemierzania długich dystansów i wyprowadzania szybkich ataków."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Umożliwia wystrzelenie serii pocisków z magazynka przed koniecznością pełnego przeładowania. Zadaje duże uszkodzenia od serii, ale pozostawia pojazd bezbronny podczas przeładowania. Można przeładować tylko cały magazynek na raz."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "Działo może strzelać ciągle, bez potrzeby przeładowania. Każdy strzał generuje ciepło: wraz z wzrostem temperatury zmieniają się niektóre jego parametry. Prowadzenie ognia ciągłego spowoduje przegrzanie się działa, co uniemożliwi dalszy ostrzał aż do schłodzenia działa."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Zwiększa moc silnika i prędkość maksymalną, zapewniając szybkie przemieszczanie się po polu bitwy. Po aktywacji dopalacze odrzutowe zmniejszają zwrotność i nie można ich wyłączyć ręcznie."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "Po aktywacji ten specjalny tryb zwiększa i/lub zmienia określone parametry bojowe. Najlepiej aktywować na pozycji i po przygotowaniu do starcia z przeciwnikiem."
+
+msgid "abilities/common/description/stun"
+msgstr "Ogłusza pojazdy przeciwnika w promieniu wybuchu, nawet bez bezpośredniego trafienia, tymczasowo pogarszając ich mobilność, celność i czas przeładowania. Ogłuszeni przeciwnicy są oznaczeni wskaźnikiem ogłuszenia."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Pozwala pojazdowi poruszać się ze zmniejszoną prędkością w przypadku zniszczenia głównej gąsienicy. Utrata dodatkowej zewnętrznej gąsienicy jeszcze bardziej zmniejszy mobilność, ale pojazd nadal będzie mógł skręcać i się poruszać."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "Pozwala pojazdowi poruszać się znacznie szybciej, znacznie obniżając parametry prowadzenia działa."
+
+msgid "abilities/common/description/twinGun"
+msgstr "Po aktywacji ten specjalny tryb zapewnia podwójne uszkodzenia oraz zwiększa i/lub zmienia określone parametry bojowe. Najlepiej używać w starciach w zwarciu."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Automatyczne przeładowanie"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "Ulepszone automatyczne przeładowanie"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Działko automatyczne"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Działo z lufą głęboko gwintowaną"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Chłodzenie działa"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Dwulufowy"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Zawieszenie hydropneumatyczne"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Tryb szybki"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Automatyczne ładowanie"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Działko automatyczne z kontrolą przegrzania"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Dopalacze odrzutowe"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Tryb ostrzału"
+
+msgid "abilities/common/name/stun"
+msgstr "Ogłuszenie"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Gąsienica rezerwowa"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Tryb turbo"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Tryb ognia salwą"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "Pozostając w bezruchu lub poruszając się powoli, budujesz poziomy celności, aby poprawić precyzję następnego strzału.\nPrzy maksymalnym poziomie celności uzyskujesz przyzwoite prowadzenie działa ze zmniejszonym rozrzutem nawet podczas ruchu lub obrotu wieży/kadłuba."
+
+msgid "abilities/special/description/battleFury"
+msgstr "Za każdym razem, kiedy trafisz przeciwnika pociskiem, zyskujesz poziom skuteczności przeładowania, który tymczasowo zwiększa szybkość przeładowania działa. Poziomy kumulują się z każdym trafieniem. \nZniszczenie pojazdu przeciwnika pociskiem zapewnia dodatkowe poziomy skuteczności przeładowania."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Jeśli działo jest załadowane, możesz zacząć rozgrzewać swój kolejny strzał, aby zwiększyć uszkodzenia – im wyższy poziom rozgrzania, tym większy efekt.\nPrzy maksymalnym rozgrzaniu masz kilka sekund na wystrzał – jeśli tego nie zrobisz, będziesz tymczasowo niezdolny do strzału."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Dwukrotne trafienie pojazdów przeciwnika z przebiciem aktywuje tryb serii, ładując kasetę do ognia serią, która przy następnym strzale umożliwia wystrzelenie dwóch pocisków w krótkim odstępie czasu, zapewniając ogromne uszkodzenia."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "Pneumatyczny stabilizator żyroskopowy na krótki czas zapewnia maksymalną stabilizację podczas ruchu oraz obrotu kadłuba i wieży, umożliwiając celniejszy ostrzał w ruchu i szybszą reakcję na nagłe zagrożenia oraz skuteczną walkę zza osłony."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "System automatycznie rozpocznie ładowanie nowej kasety, gdy w bieżącej pozostanie jeden pocisk, utrzymując gotowość do strzału. Podczas tego procesu nadal możesz wystrzelić ostatni pocisk, ale wydłuża to pozostały czas przeładowania o kilka sekund."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "System schładza działo, pozwalając na precyzyjne strzelanie. Działo grzeje się przy strzale, ale podczas przeładowania zaczyna się schładzać i powracają jego ulepszone parametry. Im wyższa temperatura, tym większe zmiany niektórych parametrów."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "Bazując na doświadczeniu zdobytym podczas projektowania poprzednich modeli, ten pojazd jest specjalnie skonfigurowany do śmiercionośnych ataków taranujących. Wzmocnienia strukturalne pozwalają mu zadawać większe uszkodzenia podczas taranowania pojazdów przeciwnika, dając mu przewagę w potyczkach na krótkim dystansie."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "Działo tego pojazdu może strzelać wcześniej: strzały z pojedynczym doładowaniem wystrzeliwane podczas przeładowania mają zmniejszoną skuteczność, natomiast standardowe strzały z pełnym doładowaniem wystrzeliwane po przeładowaniu mają optymalne parametry balistyczne."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "Działo może strzelać ciągle, bez potrzeby przeładowania. Każdy strzał generuje ciepło: wraz z wzrostem temperatury zmieniają się niektóre jego parametry. Prowadzenie ognia ciągłego spowoduje przegrzanie się działa, co uniemożliwi dalszy ostrzał aż do schłodzenia działa."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Pozostań w bezruchu lub poruszaj się powoli, aby zbudować rozgrzanie i zwiększyć uszkodzenia oraz celność kolejnego strzału. Przy maksymalnym rozgrzaniu, trafienie z przebiciem pojazdu przeciwnika o liczbie PW mniejszej niż Twoje średnie uszkodzenia spowoduje wybuch magazynu amunicji i zniszczy ten pojazd."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Ten tryb zmienia Twój pojazd w ufortyfikowaną platformę strzelecką, zapewniając doskonałą celność i krótszy czas przeładowania. W zamian za tę zwiększoną siłę ognia, mobilność pojazdu – prędkość jazdy do przodu i prędkość obrotu w pionie/poziomie – jest poważnie ograniczona."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Ten tryb zapewnia znaczne zwiększenie mocy silnika i maksymalnej prędkości jazdy do przodu. Im dłużej jedziesz do przodu, tym większa jest prędkość, co pozwala Ci pędzić przez pole bitwy i z łatwością pokonywać duże odległości."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "System gromadzi ładunek w miarę upływu czasu, a im wyższy poziom ładunku, tym większy bonus do uszkodzeń. Poziom ładunku jest limitowany przez ogranicznik, który można wyłączyć, aby uzyskać jeszcze większy bonus do uszkodzeń kosztem pogorszonego prowadzenia działa."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "Aktywuj Dopalacze na paliwo ciekłe w dowolnym momencie, aby zwiększyć prędkość, gdy jest to najbardziej potrzebne. Dopalacze nagrzewają się i muszą ostygnąć przed ponownym użyciem, a przekroczenie krytycznego poziomu rozgrzania tymczasowo całkowicie je wyłączy."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Dopalacze na paliwo stałe, które na kilka sekund poprawiają przyspieszenie, mobilność i zwrotność. Prawy i lewy dopalacz mogą działać niezależnie od siebie, wspomagając obrót kadłuba, i nie ograniczają możliwości jazdy w tył."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "W zależności od aktywnego trybu i poziomu naładowania pojazd może aktywować jedną z dwóch zdolności: \nDopalacz z wyładowaniem jonowym: Zwiększa moc silnika i prędkość. \nElektromechaniczny celownik zbieżności: Zmniejsza rozrzut i czas przeładowania i poprawia celność."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Ten moduł utrzymuje Cię w walce, umożliwiając przerwanie przeładowania w dowolnym momencie, jeśli załadowany jest co najmniej jeden pocisk. Naciśnij klawisz skrótu, aby przerwać przeładowanie, wystrzel po krótkim czasie, a następnie wznów przeładowanie ręcznie lub pozwól na automatyczne przeładowanie magazynka po jego opróżnieniu."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Naciśnięcie klawisza aktywacji powoduje wystrzał z uzbrojenia pomocniczego Twojego pojazdu do celu. Ta dodatkowa siła ognia ma swój własny cykl przeładowania, niezależny od głównego działa."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "Twój następny strzał zastosuje efekt zależny od statusu wykrycia przeciwnika. Trafienie wykrytego przeciwnika oznaczy go – pozostanie on wykryty przez dłuższy czas i otrzyma więcej uszkodzeń. Trafienie niewykrytego przeciwnika oznaczy jego pozycję specjalnym znacznikiem."
+
+msgid "abilities/special/description/twinGun"
+msgstr "Zapewnia podwójne uszkodzenia i poprawioną stabilizację kosztem mobilności, celności, prędkości obrotu wieży i czasu celowania. Najlepiej sprawdza się w walce w zwarciu."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Ta mechaniczna modyfikacja na krótki czas znacznie zwiększa przyspieszenie pojazdu, moc silnika oraz maksymalną prędkość jazdy do przodu i do tyłu, co pozwala szybko reagować na ataki przeciwnika i zaskakiwać go dynamicznymi manewrami."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Analogowe balistyczne urządzenie obliczeniowe"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Pół-automatyczny magazyn amunicji"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Przeciążenie termo-balistyczne"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Tryb serii"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Pneumatyczny stabilizator żyroskopowy"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Kasetowy system ładowania"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Aktywne chłodzenie działa"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Konfiguracja do taranowania"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "Wieloetapowy system doładowania"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Działko automatyczne z kontrolą przegrzania"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "System kontroli termicznej materiału pędnego"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Tryb bunkra"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Napęd bezpośredni"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "Indukcyjny dopalacz materiału pędnego"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Dopalacze na paliwo ciekłe"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "Sekwencyjne dopalacze rakietowe"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Taktyczny zestaw energetyczny"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Zewnętrzny moduł zaopatrzenia w amunicję"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Uzbrojenie pomocnicze"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Laserowy wskaźnik celu"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Tryb ognia salwą"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Wysokociśnieniowe serwo turbosprężarki"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Zwiększa celność Twojego następnego strzału dzięki przyzwoitej stabilizacji przy pełnej kalibracji."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Każde trafienie pojazdu przeciwnika zwiększa szybkość przeładowania działa na ograniczony czas."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Zwiększaj poziomy rozgrzania, aby zadać więcej uszkodzeń pojazdom przeciwnika przy następnym strzale."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "Kaseta do ognia serią, która umożliwia wystrzelenie dwóch pocisków w krótkim odstępie czasu."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Maksymalizuje stabilizację podczas ruchu i obrotu, zapewniając celniejszy ostrzał."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Automatycznie rozpoczyna przeładowanie działa przy ostatnim pocisku, który nadal można wystrzelić podczas przeładowania."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "System aktywnego chłodzenia działa poprawiający celność w miarę ochładzania działa."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Zwiększa uszkodzenia zadawane pojazdom przeciwnika przez taranowanie."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "Specjalna mechanika działa, która pozwala na wcześniejsze oddanie strzału kosztem jego skuteczności."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "System pozwala na prowadzenie ciągłego ognia bez przeładowania i kontroluje generowanie ciepła przez działo podczas strzelania."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "Pozostawanie w bezruchu lub powolne poruszanie się zwiększa uszkodzenia i celność następnego strzału."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Drastycznie zwiększa celność działa i czas przeładowania, ale poważnie ogranicza mobilność."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Zapewnia doładowanie do mocy silnika, zwiększając prędkość maksymalną w miarę ruchu pojazdu."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "System ładuje się, aby zwiększyć zadawane uszkodzenia. Im wyższy ładunek, tym większe uszkodzenia."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "Dopalacze można aktywować w dowolnym momencie, aby zapewnić gwałtowny wzrost prędkości."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "Dopalacze na paliwo stałe poprawiające przyspieszenie, mobilność i zwrotność."
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Ładuje jedną z dwóch unikalnych zdolności, zwiększając prędkość lub poprawiając celność działa."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "Umożliwia przerwanie przeładowania i oddanie strzału w kluczowych momentach."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Dodatkowe uzbrojenie, które zapewnia zwiększoną siłę ognia, uzupełniając główne działo."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Zwiększa czas wykrycia przeciwników i zadawane uszkodzenia lub podświetla ich specjalnym znacznikiem."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Umożliwia strzelanie z obu luf jednocześnie kosztem wydłużenia czasu przeładowania."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "Specjalna mechanika, która na krótki czas zwiększa moc silnika, przyspieszenie oraz prędkość maksymalną jazdy do przodu i do tyłu."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Pozostawanie w bezruchu lub poruszanie się z prędkością poniżej określonego limitu pozwala pojazdowi skalibrować Analogowe balistyczne urządzenie obliczeniowe i nabudować poziomy celności, zwiększając celność kolejnego strzału. Jeśli przekroczysz limit prędkości, postępy nabudowania poziomów celności zostaną zatrzymane do momentu zwolnienia. Na najwyższym poziomie celności pojazd zyskuje znaczną stabilizację działa, co zapewnia zmniejszony rozrzut od ruchu lub obrotów wieży i kadłuba. Efekt znika po oddaniu strzału."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "Za każdym razem, kiedy trafisz wykrytego przeciwnika pociskiem, zyskujesz poziom skuteczności przeładowania, który tymczasowo zwiększa szybkość przeładowania działa. Poziomy kumulują się z każdym trafieniem, a zniszczenie pojazdu przeciwnika pociskiem zapewnia dodatkowe poziomy skuteczności przeładowania."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Jeśli Twoje działo jest naładowane, możesz rozpocząć rozgrzewanie kolejnego pocisku. Im wyższy poziom rozgrzania osiągniesz, tym wyższa będzie premia do średnich uszkodzeń. Podczas procesu rozgrzewania nie można zmieniać pocisków. Po osiągnięciu maksymalnego poziomu rozgrzania rozpocznie się odliczanie. Jeśli nie oddasz strzału przed jego zakończeniem, nie będziesz mógł strzelać przez kolejnych kilka sekund."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Dwukrotne trafienie pojazdów przeciwnika z przebiciem aktywuje tryb serii i ładuje kasetę do ognia serią, która przy następnym strzale pozwala na wystrzelenie dwóch pocisków w krótkich odstępach czasu."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "Pneumatyczny stabilizator żyroskopowy na krótki czas zapewnia maksymalną stabilizację podczas obrotu kadłuba i wieży, umożliwiając celniejszy ostrzał w ruchu i szybszą reakcję na nagłe zagrożenia."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "System automatycznie rozpocznie ładowanie nowej kasety, gdy w bieżącej pozostanie jeden pocisk. Wystrzelenie ostatniego pocisku podczas ładowania nowej kasety dodaje kilka sekund do pozostałego czasu przeładowania. Naciśnięcie klawisza skrótu „Uzupełnij zasobnik amunicyjny” powoduje usunięcie wszystkich pozostałych pocisków z wyjątkiem ostatniego. Naciśnij klawisz skrótu dwa razy, aby zresetować w pełni załadowaną kasetę"
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "System schładza działo, pozwalając na precyzyjne strzelanie. Działo nagrzewa się przy strzale, ale podczas przeładowania zaczyna się schładzać i powracają jego ulepszone parametry. Im wyższa temperatura, tym większe zmiany niektórych parametrów."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Ten pojazd jest specjalnie skonfigurowany do ataków taranujących dzięki szeregowi modyfikacji konstrukcyjnych, które pozwalają mu zadawać większe uszkodzenia przy taranowaniu pojazdów przeciwnika."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "Działo tego pojazdu może strzelać wcześniej: strzały z pojedynczym doładowaniem wystrzeliwane podczas przeładowania mają zmniejszoną skuteczność, natomiast standardowe strzały z pełnym doładowaniem wystrzeliwane po przeładowaniu mają optymalne parametry balistyczne."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "Działo może strzelać ciągle, bez potrzeby przeładowania. Każdy strzał generuje ciepło, a wraz ze wzrostem temperatury zmieniają się niektóre parametry uzbrojenia. Prowadzenie ognia ciągłego spowoduje przegrzanie się działa, co uniemożliwi dalszy ostrzał aż do czasu jego schłodzenia."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "Pozostawanie w bezruchu lub poruszanie się poniżej określonej prędkości generuje rozgrzewanie, które zwiększa średnie uszkodzenia i celność następnego strzału. Przekroczenie ograniczenia prędkości stopniowo zmniejsza premię, a wystrzelenie lub zmiana pocisku natychmiast ją resetuje. Przy maksymalnym poziomie rozgrzania przebicie pancerza pojazdu przeciwnika, który posiada mniej punktów wytrzymałości, niż Twoje średnie uszkodzenia – wliczając zgromadzoną premię od rozgrzania – spowoduje wybuch magazynu amunicji, natychmiast niszcząc pojazd."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "W tym trybie celność działa, prędkość przeładowania oraz kąty podniesienia i opuszczenia lufy są drastycznie zwiększane, ale mobilność (prędkość do przodu/do tyłu i pionowa/pozioma prędkość obrotu) jest bardzo ograniczona. Wartości procentowe podano dla porównania z trybem ostrzału."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "Tryb napędu bezpośredniego zapewnia znaczne zwiększenie mocy silnika i maksymalnej prędkości jazdy do przodu. Im dłużej jedziesz do przodu, tym większa jest prędkość, co pozwala z łatwością przemierzać pole bitwy."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "Z upływem czasu system automatycznie gromadzi ładunek, który jest częściowo zużywany w celu zwiększenia uszkodzeń podczas ostrzału. Im wyższy poziom ładunku, tym większa premia do uszkodzeń. Domyślnie system gromadzi ładunek tylko do określonego limitu. Wyłączenie ogranicznika pozwala na zgromadzenie jeszcze większego ładunku, zapewniając większą premię do uszkodzeń, ale pogarszając prowadzenie działa."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "Dopalacze na paliwo ciekłe zapewniają doładowanie mocy silnika, pozwalając uzyskać przewagę pozycyjną na polu bitwy, ale ograniczając prędkość wsteczną i prędkość obrotu Twojego pojazdu. Można je włączyć lub wyłączyć w dowolnym momencie, wyłączając czas po osiągnięciu ograniczenia reaktywacji. Dopalacze nagrzewają się, gdy są aktywne i stają się niedostępne, dopóki nie ostygną, co oznacza, że nie można ich używać bez przerwy – a przekroczenie krytycznego poziomu rozgrzania tymczasowo całkowicie je wyłączy. Ostrożnie zaplanuj swoje ruchy, aby nie dać się zaskoczyć."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "Dopalacze na paliwo stałe, które na kilka sekund poprawiają przyspieszenie, mobilność i zwrotność. W odróżnieniu od zwykłych dopalaczy odrzutowych, prawy i lewy silnik mogą działać niezależnie od siebie, wspomagając obrót kadłuba, i nie ograniczają możliwości jazdy w tył. Można z nich korzystać wielokrotnie w trakcie bitwy, ale przed ponownym użyciem wymagają czasu na przygotowanie."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "W zależności od aktywnego trybu i poziomu naładowania pojazd może aktywować jedną z dwóch zdolności: Dopalacz z wyładowaniem jonowym lub Elektromechaniczny celownik zbieżności.\nDopalacz z wyładowaniem jonowym tymczasowo zwiększa moc silnika oraz prędkość do przodu i do tyłu. Elektromechaniczny celownik zbieżności tymczasowo poprawia celność i skraca czas przeładowania."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "Zewnętrzny moduł zaopatrzenia w amunicję pozwala przerwać przeładowanie i rozpocząć ostrzał w dowolnym momencie, o ile nadal masz załadowany jeden pocisk. Podczas przeładowania moduł blokuje wieżę pojazdu i zewnętrzne zasobniki z amunicją, tymczasowo uniemożliwiając celowanie i ostrzał, chyba że przerwiesz przeładowanie."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "Ten pojazd jest wyposażony w zestaw uzbrojenia pomocniczego, którego cykl przeładowania jest niezależny od głównego działa, co pozwala zadawać dodatkowe uszkodzenia w kluczowych momentach."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "Laserowy wskaźnik celu dodaje specjalny efekt do następnego strzału, stosowany do każdego trafionego przeciwnika. Efekt różni się w zależności od tego, czy przeciwnik był wykryty w momencie trafienia. Trafienie wykrytego pojazdu przeciwnika oznaczy go, wydłużając czas jego wykrycia i zwiększając uszkodzenia otrzymywane przez niego od pocisków, a trafienie niewykrytego pojazdu przeciwnika spowoduje podświetlenie jego lokalizacji specjalnym znacznikiem."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "Zapewnia podwójne uszkodzenia i poprawioną stabilizację kosztem mobilności, celności, prędkości obrotu wieży i czasu celowania. Najlepiej sprawdza się w walce w zwarciu."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Ta mechaniczna modyfikacja na krótki czas znacznie zwiększa przyspieszenie pojazdu, moc silnika oraz maksymalną prędkość jazdy do przodu i do tyłu, co pozwala szybko reagować na ataki przeciwnika i zaskakiwać go dynamicznymi manewrami. Utrzymywanie wysokiej prędkości skraca czas przygotowania tej mechaniki."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Wszystkie podane wartości stanowią wartości maksymalne dla danego pojazdu. Wyposażenie, dyrektywy i materiały eksploatacyjne mogą wpływać na te wartości, ale te zmiany nie zostały tutaj uwzględnione."
+
+msgid "characteristics/templates/upTo"
+msgstr "Do %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Kup i zamontuj"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Ulepszenie polowe"
+
+msgid "modules/controls/button/mount"
+msgstr "Zamontuj"
+
+msgid "modules/controls/button/research"
+msgstr "Zbadaj"
+
+msgid "modules/controls/button/sell"
+msgstr "Sprzedaj z magazynu"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Ten pojazd jest w bitwie. Możesz zmodyfikować jego moduły po zakończeniu bitwy."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Ten pojazd jest uszkodzony. Napraw go, aby móc modyfikować jego moduły."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Nie można zamontować modułu. Niekompatybilny {{module}}."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Ten pojazd jest w jednostce taktycznej."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "Kup ten pojazd, aby móc modyfikować jego moduły."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "Zbadaj poprzednie moduły, aby móc zbadać ten moduł."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "Zbadaj ten pojazd, aby móc badać jego moduły."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Zbadano wszystkie moduły."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Ten moduł jest już zamontowany."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Wybierz moduł lub pojazd do zbadania."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Ten pojazd jest w bitwie. Możesz zmodyfikować jego moduły po zakończeniu bitwy."
+
+msgid "modules/controls/name"
+msgstr "Wybrane: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Podwozie"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Silnik"
+
+msgid "modules/name/vehicleGun"
+msgstr "Działo"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Radio"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Wieża"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Koła"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Pojazdy kolekcjonerskie"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Możliwość zarabiania"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "kredytów z każdej bitwy"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "przenoszenie załogi bez kary"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "PD bojowego i PD załogi"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Obligacje"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Więcej"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Za darmo"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Więcej"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Zdobądź obligacje"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Więcej kredytów"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Darmowy transfer"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Więcej doświadczenia"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Darmowy zestaw naprawczy"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Możliwość zarabiania"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "kredytów z każdej bitwy"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "przeniesienie załogi z dowolnej klasy pojazdów bez kary"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "PD bojowego i PD załogi"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "Obligacje"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Więcej"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Za darmo"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Więcej"
+
+msgid "overview/crew/name"
+msgstr "Załoga {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Zobacz mechanikę"
+
+msgid "overview/title/generalDescription"
+msgstr "Opis pojazdu"
+
+msgid "overview/title/historicalReference"
+msgstr "Źródło historyczne"
+
+msgid "researchPurchase/discountTimer"
+msgstr "Do {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "Odzyskanie dostępne do {{date}}"
+
+msgid "tabs/armor"
+msgstr "Pancerz"
+
+msgid "tabs/modules"
+msgstr "Moduły"
+
+msgid "tabs/overview"
+msgstr "Przegląd"
+
+msgid "tabs/stats"
+msgstr "Charakterystyki"
+
+msgid "tabs/vehSkillTree"
+msgstr "Ulepszenia"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "Czas wypożyczenia dobiegł końca"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Zawieszono subskrypcję"

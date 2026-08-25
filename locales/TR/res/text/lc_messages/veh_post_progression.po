@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "ateş gücü"
+
+msgid "categories/mobility"
+msgstr "hareket kabiliyeti"
+
+msgid "categories/stealth"
+msgstr "gözcülük"
+
+msgid "categories/survivability"
+msgstr "dayanıklılık"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "Tamam!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "Olumsuz!"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "Modifikasyonları iptal ettikten sonra kredi kullanarak tekrar satın alabilirsiniz."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "Modifikasyonları iptal ettikten sonra tekrar satın alabilirsiniz."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "Çift Modifikasyonları ücretsiz olarak iptal edecek misiniz?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "Modifikasyonu iptal ettikten sonra kredi kullanarak tekrar satın alabilirsiniz."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "Modifikasyonu iptal ettikten sonra tekrar satın alabilirsiniz."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "%(modification)s Çift Modifikasyonunu ücretsiz olarak iptal edecek misiniz?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "MODİFİKASYON SATIN ALIN"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "YUVA KATEGORİSİ SEÇİN"
+
+msgid "hint/entryPoint"
+msgstr "ALINABİLECEK MODİFİKASYONLAR"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "YARDIMCI SAVAŞ YÜKÜNE\nGEÇMEK İÇİN TIKLAYIN"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "TEMEL SAVAŞ YÜKÜNE\nGEÇMEK İÇİN TIKLAYIN"
+
+msgid "hint/vehiclePreview"
+msgstr "ARAÇ NİTELİKLERİNDEKİ DEĞİŞİKLİKLER"
+
+msgid "postProgressionIntro/okButton"
+msgstr "Tamam!"
+
+msgid "postProgressionIntro/title"
+msgstr "SAHA GELİŞTİRMELERİ"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "Özel Modifikasyon %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "Seviyeye ulaşıp araç niteliklerindeki değişiklikleri görmek ve uygulanmış modifikasyonları öne çıkartmak için tıklayın."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "Çift Modifikasyon %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "Saha Geliştirmeleri Seviyesi"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "Aracı satın aldıktan sonra geçerli"
+
+msgid "researchEntry/status/notResearched"
+msgstr "Elit statüsüne ulaştıktan sonra geçerli"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "Aracı satın alıp Elit statüsüne ulaştıktan sonra geçerli"
+
+msgid "researchEntry/title"
+msgstr "SAHA GELİŞTİRMELERİ"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "Artır"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "İptal"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} ve {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "Yardımcı Savaş Yükü"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "Yuva"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "Temel Savaş Yükü"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "Özel Modifikasyonlara erişim: {name1} ve {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "Özel Modifikasyonlara erişim: {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "Özel Modifikasyona erişim: {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "Özel Modifikasyonlara erişim: {name1}, {name2} ve {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "Çift Modifikasyonlar {numbers}. Seviyeye erişim"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "Çift Modifikasyon {number}. Seviyeye erişim"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "Alınacak: {unlockedItems}."
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "Standart Modifikasyonu {level} Seviyesine yükseltecek misiniz?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "Standart Modifikasyon Seviyesini yükseltecek misiniz?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "Toplam:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "Atama"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "Kullanılabilir kategoriler: %(roles)."
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "Seçilen kategori: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "Bu aracın ikinci donanım yuvasına bir kategori atama imkanı."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "Birinci yuva kategorisi ataması"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "Atama (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "İkinci Yuva Kategorisi"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "Ata"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "Satın Al ve Yeniden Ata"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "Takas Et"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "İptal"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "Yuva kategorisini %(price) karşılığında yeniden atayabilirsiniz"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "Seçili kategori ikinci donanım yuvasına atanacak. Yuva kategorisini %(price) karşılığında yeniden atayabilirsiniz."
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "Takas oranı: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "Takas başarısız: Ek %(gold) daha gerekli"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "İkinci donanım yuvasına bir kategori atayın"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "İkinci donanım yuvasının kategorisini yeniden atayın"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "İkinci donanım yuvasının kategorisi yeniden atanamıyor: Ek %(credits) daha gerekli"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "Toplam:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "Ek {cream_Open}donanım{cream_Close} ve {cream_Open}yönerge{cream_Close} seti ile donatma imkanı."
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "Ek {cream_Open}mermi{cream_Close} ve {cream_Open}sarf malzemeleri{cream_Close} seti ile donatma imkanı."
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "Yardımcı Savaş Yükü"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "Temel Savaş Yükü"
+
+msgid "setupTooltipView/tip"
+msgstr "Aracın Ana Yapılandırması ve Alternatif Yapılandırması arasında geçiş yapmak, Garajda ve savaş öncesi geri sayım sırasında mümkündür."
+
+msgid "setupTooltipView/title"
+msgstr "Alternatif Yapılandırma: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)Yardımcı Savaş Yükü%(/accent), araç yapılandırmasının %(accent)donanım ve yönergelerden%(/accent) oluşan bir parçasıdır. Alternatif Yapılandırmaya eriştikten sonra savaş öncesi geri sayım sırasında Yardımcı Savaş Yükünün %(accent)yapılandırmaları arasında geçiş yapabilirsiniz%(/accent)."
+
+msgid "slides/additionalEquipment/title"
+msgstr "YARDIMCI SAVAŞ YÜKÜ"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "Belirli bir Saha Geliştirmeleri Seviyesine ulaştıktan sonra aracınız için bir %(accent)Alternatif Yapılandırma%(/accent) açılacak ve Garajda %(accent)ek bir donanım, cephane, sarf malzemeleri ve yönergeler seti%(/accent) hazırlayabileceksiniz. Bu, ana yapılandırmanın yerine geçmeyecek ancak yeni imkanlar sunacak. Savaş öncesi geri sayım sırasında haritayı ve ekip yapılandırmalarını değerlendirip %(accent)iki araç yapılandırmasından birini seçebilirsiniz%(/accent). Bu imkan, gelecek savaşın koşullarına daha iyi hazırlanmanızı sağlayacaktır."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "ALTERNATİF ARAÇ YAPILANDIRMASI"
+
+msgid "slides/baseModifications/description"
+msgstr "%(accent)Standart modifikasyonlar%(/accent), %(accent)aracın niteliklerinden birine%(/accent) bir bonus ekler ve Çift Modifikasyonları açar. Bu modifikasyonların kurulumu ücretsizdir ve bunları araştırmak için Savaş Deneyimi veya Serbest Deneyim gerekir."
+
+msgid "slides/baseModifications/title"
+msgstr "STANDART MODİFİKASYONLAR"
+
+msgid "slides/extraModification/description"
+msgstr "%(accent)Özel Modifikasyonlar%(/accent), araç için Alternatif Yapılandırmayı açar ve Seviye VIII-X araçlar için ikinci donanım yuvasına %(accent)bir kategori atama%(/accent) imkanı sağlar. Seçili yuva kategorisini kredi kullanarak yeniden atayabilirsiniz."
+
+msgid "slides/extraModification/title"
+msgstr "ÖZEL MODİFİKASYONLAR: ROL YUVASI"
+
+msgid "slides/fieldModernization/description"
+msgstr "Saha Geliştirmeleri, aracın rolüne göre daha incelikli bir yapılandırma gerçekleştirip çeşitli %(accent)modifikasyonlar%(/accent) kullanarak %(accent)niteliklerini değiştirme%(/accent) imkanıdır. Ardışık her modifikasyon, öncekini araştırdıktan sonra açılır."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "SAHA GELİŞTİRMELERİ"
+
+msgid "slides/fieldModernization/title"
+msgstr "ARAÇ NİTELİKLERİNİ DEĞİŞTİRME"
+
+msgid "slides/modificationTree/description"
+msgstr "Modifikasyon Ağacı, %(accent)Elit statüsü%(/accent) kazanmış %(accent)Seviye VI-X%(/accent) araştırılabilir ve Koleksiyon araçları için geçerlidir. Özel, ödül, mükafat ve Premium araçlar için modifikasyonlar, satın aldıktan sonra açılır."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "MODİFİKASYONLARIN ARAŞTIRILMASI"
+
+msgid "slides/modificationTree/title"
+msgstr "MODİFİKASYONLARIN ARAŞTIRILMASI"
+
+msgid "slides/pairedModifications/description"
+msgstr "%(accent)Çift Modifikasyonlar%(/accent) araç niteliklerinden birini iyileştirir ve %(accent)başka bir tanesini azaltır%(/accent). Modifikasyonları araştırmak için Savaş Deneyimine veya Serbest Deneyime, kurmak için ise krediye ihtiyacınız olacak. Modifikasyonu %(accent)ücretsiz%(/accent) olarak %(accent)iptal edebilirsiniz (araçtan kaldırabilirsiniz)%(/accent).\nAraç satıldığında, Standart ve Özel Modifikasyonlar saklanır ancak Çift Modifikasyonlar iptal edilir."
+
+msgid "slides/pairedModifications/title"
+msgstr "ÇİFT MODİFİKASYONLAR"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)Temel Savaş Yükü%(/accent), araç yapılandırmasının %(accent)mühimmat ve sarf malzemelerinden%(/accent) oluşan bir parçasıdır. Alternatif Yapılandırmaya eriştikten sonra savaş öncesi geri sayım sırasında Temel Savaş Yükünün %(accent)yapılandırmaları arasında geçiş yapabilirsiniz%(/accent)."
+
+msgid "slides/requiredEquipment/title"
+msgstr "TEMEL SAVAŞ YÜKÜ"
+
+msgid "slides/roleInBattle/description"
+msgstr "Araç türünden farklı olarak, aracın rolü, en iyi %(accent)savaş taktiklerini%(/accent) daha iyi yansıtır ve belirli bir araç için %(accent)Modifikasyon Ağacının%(/accent) nasıl olacağını belirler."
+
+msgid "slides/roleInBattle/title"
+msgstr "ARACIN SAVAŞTAKİ ROLÜ"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "Modifikasyonlar bir aracın niteliklerini değiştirir, %(accent)Alternatif Yapılandırmaya erişimi%(/accent) açar ve donanımların %(accent)ikinci yuvasına%(/accent) bir kategori atanmasına imkan sağlar."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "Alternatif Yapılandırma, ikinci bir %(accent)donanım, mühimmat, sarf malzemeleri ve yönergeler%(/accent) setidir. Yapılandırmalar arasında geçiş yapabilirsiniz."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "Donanımların %(accent)ikinci yuvasına%(/accent) kategori seçip atama imkanı. Aracın savaştaki etkinliğini doğrudan etkiler."
+
+msgid "slides/specialModifications/title"
+msgstr "MODİFİKASYONLAR, ALTERNATİF YAPILANDIRMA, YUVA KATEGORİSİ"
+
+msgid "tooltips/entry_point/description"
+msgstr "Aracın niteliklerine ek değişiklik yapabilme imkanı."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "Araştırılmış parçalar ve araçlar: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "Araştırılmış parçalar: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "Saha Geliştirmeleri"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "Aracı satın aldıktan sonra geçerlidir."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "Elit statüsüne ulaştıktan sonra geçerlidir."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "Aracı satın alıp Elit statüsüne ulaştıktan sonra geçerlidir."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "Verdiğimiz geçici rahatsızlıktan dolayı özür dileriz. Lütfen daha sonra tekrar deneyin."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "Özel Modifikasyonlar Geçerli Değil"
+
+msgid "tooltips/feature/subTitle"
+msgstr "Özel Modifikasyon %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "Savaşta kazanın, deponuzdan fazla malzemeyi satın veya daha fazla edinmek için altın dönüştürün."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "Yeterli Kredi Yok"
+
+msgid "tooltips/pairModification/demount"
+msgstr "Sökülüyor"
+
+msgid "tooltips/pairModification/level"
+msgstr "Çift Modifikasyon %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "Teknik niteliklerde değişiklikler:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "Sökülüyor (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "Satın Alınıyor (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "Satın Alınıyor"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "Bu modifikasyonu satın aldıktan sonra aracın teknik niteliklerindeki değişiklikleri görmek için tıklayın."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "Modifikasyonu iptal ettiğinizde kredi kullanarak bu çiftten herhangi bir modifikasyonu satın alabileceksiniz."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "Bu modifikasyonu satın aldığınızda zaten kurulu olanı bu çiftten iptal olacaktır."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "Başka Bir Modifikasyon Satın Alındı"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "Bu modifikasyona erişim elde etmek için Saha Geliştirmeleri %(level). Seviyesine ulaşın"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "Modifikasyon Geçerli Değil"
+
+msgid "tooltips/priceBlock/free"
+msgstr "Ücretsiz"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "gerekli:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "Yaklaşık rakam. Kesin değerler niteliklerde belirtilmiştir."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "Uygula"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "İptal"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "Sıfırla"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "%(title)s Modifikasyonları"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "Karşılaştırmaya Ekle"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "Tüm Çift Modifikasyonları Yok Et"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "Tüm Çift Modifikasyonları yok etmek için tıklayın."
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "Yok Et"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "Ön İzleme"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "Yeniden Ata"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "Savaştan önce"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "Seç"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "Savaş öncesi geri sayım sırasında donanım ve yönerge setleri seçme imkanını açın/kapatın.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "Savaş öncesi geri sayım sırasında mermi ve sarf malzemeleri setleri seçme imkanını açın/kapatın.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "Kapatıldığında savaşta, Garajda seçilen setler kullanılacaktır."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "Savaştan Önce Değiştirme"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "Bu araç savaşta."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "Bu araç kilitli."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "Bu aracın onarılması gerekiyor."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "Bu araç bir taktik birimde."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "Yuva kategorisi atanamıyor. Araç Garajda değil."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "Aracın kiralama dönemi bitti."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "Bu araç savaşta."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "Bu araç kilitli."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "Bu aracın onarılması gerekiyor."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "Bu araç bir taktik birimde."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "Satın alınamıyor: Araç Garajda değil."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "Aracın kiralama dönemi bitti."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "Bir Çift Modifikasyonu yok etmek için tıklayın."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "Yok Et"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "veya"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "Saha Geliştirmelerinin Maksimum Seviyesi"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "Seviye {minAllowedLevel}-{maxAllowedLevel} araçlar için geçerli"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "Seviye {allowedLevel} araçlar için geçerli"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "NİTELİKLERİ GİZLE"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "Kalıcı bonus: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "Kalıcı bonus: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "Kalıcı bonus: %(bonus1) ve %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "Kalıcı bonusları elde etmek için Seviyeyi artırın: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "Kalıcı bonusu elde etmek için Seviyeyi artırın: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "%(bonus1) ve %(bonus2) kalıcı bonuslarını elde etmek için Seviyeyi artırın"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "Seviyeyi Artır"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "Seviyeyi %(level) Seviyesine Artır"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "Şunu Almak İçin Seviyeyi Artırın:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "İyileştirilmiş nitelikler"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "Özel Modifikasyonlar"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "Özel Modifikasyon {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "Çift Modifikasyonlar"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "Çift Modifikasyon {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "Parçalara Gidin"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "Saha Geliştirmeleri yapılamaz. Araç savaşta."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "Saha Geliştirmeleri yapılamaz. Araç kilitli."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "Saha Geliştirmeleri yapılamaz. Aracın onarılması gerekiyor."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "Aracın niteliklerinde ek değişiklik yapabilme imkanı, araç Elit statüsüne eriştiğinde açılır."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "Saha Geliştirmeleri yapılamaz: Araç bir taktik birimde."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "Modifikasyonları araştırmak ve Saha Geliştirmeleri Seviyesini artırmak için aracın Garajınızda olması gerekir."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "Saha Geliştirmeleri kiralık araçlar için geçerli değildir. Saha Geliştirmelerini açmak için bu aracı satın alın."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "Saha Geliştirmeleri yapılamaz: Bu aracın kiralama dönemi bitti. Saha Geliştirmelerini açmak için kiralama dönemini uzatın."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "NİTELİKLERİ GÖSTER"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "Aracın niteliklerinde ek değişiklik yapabilme imkanı. Bu imkan, araç Elit statüsüne eriştiğinde açılır."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "Saha Geliştirmeleri"

@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "main/backText"
+msgstr "AI DETTAGLI DEL CLAN"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "Completando missioni, ottieni Punti di servizio che sono necessari per esplorare nuove regioni."
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "Punti di servizio"
+
+msgid "main/infoPageButtonLabel"
+msgstr "INFORMAZIONI SU TURNO DI SERVIZIO"
+
+msgid "main/mdash"
+msgstr "—"
+
+msgid "messages/claimRewards/error"
+msgstr "Azione momentaneamente non disponibile. Riprova più tardi."
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "Aggiorna"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "Siamo spiacenti per il temporaneo disagio."
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "Errore nel caricamento dei dati"
+
+msgid "progressionPage/header/heading"
+msgstr "TURNO DI SERVIZIO"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "TURNO DI SERVIZIO È TERMINATO"
+
+msgid "progressionPage/header/subheading"
+msgstr "Ottieni Punti di servizio completando missioni di Clan. I Punti di servizio si usano per esplorare nuove regioni e ottenere preziose ricompense. Alla fine del Turno, puoi ricevere un veicolo di livello X."
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "Veicolo %(vehicle)s ricevuto"
+
+msgid "progressionPage/loading"
+msgstr "Caricamento contenuti..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "Esplora la regione connessa precedente."
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "Regione già esplorata"
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "Ricompensa guadagnata:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "Esplora la regione connessa precedente."
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "Impossibile esplorare la regione"
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "Errore nel caricamento dei dati"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "Esplora regione"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "Servono altri %(value)s Punti di servizio per esplorare la regione."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "Impossibile esplorare la regione"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "Esplora la regione connessa precedente."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "Impossibile esplorare la regione"
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "Reclama ricompensa"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "Caricamento contenuti..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "In attesa dell'aggiunta della ricompensa..."
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "Aggiorna"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "RICOMPENSA PER AVER ESPLORATO LA REGIONE:"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "RICOMPENSA RICEVUTA:"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "Anteprima"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "Aggiorna"
+
+msgid "questsPage/errorScreen/description"
+msgstr "Siamo spiacenti per il temporaneo disagio."
+
+msgid "questsPage/errorScreen/heading"
+msgstr "Errore nel caricamento dei dati"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "Reclama ricompensa"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "Ricerca automatica Clan"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "Unisciti a un Clan per completare missioni e ricevere la ricompensa."
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "Progressi della missione messi in pausa. Reclama la tua ricompensa per continuare: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "MISSIONI DEL TURNO"
+
+msgid "questsPage/header/subheading"
+msgstr "Completa missioni e ricevi ricompense. Puoi completare la 2ª e la 3ª solo in un Plotone/distaccamento con un compagno di Clan."
+
+msgid "questsPage/loading"
+msgstr "Caricamento contenuti..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "Ottieni almeno {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} Exp base in una battaglia giocando in Plotone o vinci una battaglia in distaccamento con carri di livello VIII–XI."
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "Ottieni almeno {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} Exp base in una battaglia o vinci una battaglia in distaccamento combattendo con veicoli di livello VI–XI."
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "Distruggi {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} veicoli nemici in una battaglia in Plotone o vinci una battaglia in distaccamento con veicoli di livello VIII–XI."
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "Distruggi {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} veicoli nemici in una battaglia o vinci una battaglia in distaccamento con veicoli di livello VI–XI."
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "Causa o aiuta a causare {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} HP di danno in una battaglia in Plotone o vinci una battaglia in distaccamento con veicoli liv. VIII–XI."
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "Causa o aiuta a causare {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} HP di danno in una battaglia o vinci una battaglia in distaccamento con veicoli di livello VI–XI."
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "Risorse industriali"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "Punti di servizio"
+
+msgid "questsPage/questCard/status/available"
+msgstr "Puoi reclamare la ricompensa"
+
+msgid "questsPage/questCard/status/completed"
+msgstr "Ricompensa ricevuta"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "Non disponibile"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "La ricompensa sarà aggiunta presto al tuo account."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "Reclama le ricompense per il completamento delle missioni precedenti."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "Completa la missione precedente."
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "Missione non disponibile"
+
+msgid "questsPage/timer/dash"
+msgstr "—"
+
+msgid "questsPage/timer/heading"
+msgstr "Tempo rimanente per raccogliere Punti di servizio"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "Completando missioni, ottieni Punti di servizio che sono necessari per esplorare nuove regioni."
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "Punti di servizio"
+
+msgid "rewardsView/additionalRewards"
+msgstr "Hai ricevuto anche:"
+
+msgid "rewardsView/button/close"
+msgstr "CHIUDI"
+
+msgid "rewardsView/button/confirm"
+msgstr "Affermativo!"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "Vedi in Officina"
+
+msgid "rewardsView/heading"
+msgstr "RICOMPENSE RICEVUTE"
+
+msgid "rewardsView/style/317"
+msgstr "Stile 2D Fiamma"
+
+msgid "rewardsView/style/345"
+msgstr "Stile 2D Profezia"
+
+msgid "rewardsView/style/435"
+msgstr "Stile 2D Castigo"
+
+msgid "rewardsView/style/436"
+msgstr "Stile 2D Mietitore"
+
+msgid "rewardsView/subheading"
+msgstr "TURNO DI SERVIZIO"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Progressi di Turno di servizio"
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "Progressi delle missioni del Turno"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Turno di servizio"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "Missioni del Turno"

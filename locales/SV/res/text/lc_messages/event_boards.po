@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "Belöningar för pansarvärnskanonvagnar"
+
+msgid "awards/class/SPG"
+msgstr "Belöningar för artillerivagnar"
+
+msgid "awards/class/heavyTank"
+msgstr "Belöningar för tunga stridsvagnar"
+
+msgid "awards/class/lightTank"
+msgstr "Belöningar för lätta stridsvagnar"
+
+msgid "awards/class/mediumTank"
+msgstr "Belöningar för medeltunga stridsvagnar"
+
+msgid "awards/level"
+msgstr "Belöningar för vagnar klass %(level)s"
+
+msgid "awards/nation/china"
+msgstr "Belöningar för kinesiska vagnar"
+
+msgid "awards/nation/czech"
+msgstr "Belöningar för tjeckoslovakiska vagnar"
+
+msgid "awards/nation/france"
+msgstr "Belöningar för franska vagnar"
+
+msgid "awards/nation/germany"
+msgstr "Belöningar för tyska vagnar"
+
+msgid "awards/nation/japan"
+msgstr "Belöningar för japanska vagnar"
+
+msgid "awards/nation/poland"
+msgstr "Belöningar för polska vagnar"
+
+msgid "awards/nation/sweden"
+msgstr "Belöningar för svenska vagnar"
+
+msgid "awards/nation/uk"
+msgstr "Belöningar för brittiska vagnar"
+
+msgid "awards/nation/usa"
+msgstr "Belöningar för amerikanska vagnar"
+
+msgid "awards/nation/ussr"
+msgstr "Belöningar för sovjetiska vagnar"
+
+msgid "awards/tooltip/class"
+msgstr "Klicka för att visa belöningar för denna vagnstyp."
+
+msgid "awards/tooltip/level"
+msgstr "Klicka för att visa belöningar för denna vagnsklass."
+
+msgid "awards/tooltip/nation"
+msgstr "Klicka för att visa belöningar för denna nation."
+
+msgid "awards/vehicle"
+msgstr "Belöningar för valda vagnar"
+
+msgid "badge/tooltip/description"
+msgstr "Ett märke är en unik ikon som visas bredvid ditt namn i lagpanelen. Märket visas för båda lagens spelare och visar dina framgångar i Nationernas Marsch."
+
+msgid "badgesGroup/tooltip/header"
+msgstr "Minnesmärken"
+
+msgid "block/award"
+msgstr "Huvdbelöning"
+
+msgid "block/objective"
+msgstr "Mål"
+
+msgid "block/task"
+msgstr "Uppdrag"
+
+msgid "button/awards"
+msgstr "Alla belöningar"
+
+msgid "button/awards/tooltip"
+msgstr "Klicka för att visa en lista över alla belöningar i tävlingen."
+
+msgid "button/regulations"
+msgstr "Villkor"
+
+msgid "button/regulations/tooltip"
+msgstr "Klicka för att visa en fullständig beskrivning av tävlingen."
+
+msgid "condition/battletype/random"
+msgstr "Slumpvis matchade strider 15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "Rankad strid"
+
+msgid "condition/battletype/squadallowed"
+msgstr "Plutoner tillåtna"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "Plutoner ej tillåtna"
+
+msgid "condition/primetime/any"
+msgstr "Valfri server och tid"
+
+msgid "condition/primetime/chosen"
+msgstr "Endast på angivna servrar"
+
+msgid "condition/vehicle/chosen"
+msgstr "Endast på angivna vagnar:"
+
+msgid "condition/vehicle/exist"
+msgstr "I garaget"
+
+msgid "condition/vehicle/missing"
+msgstr "Ej i garaget"
+
+msgid "condition/vehicle/single"
+msgstr "I %(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "Utmärkelse"
+
+msgid "excel/btnClose"
+msgstr "TILL TÄVLING"
+
+msgid "excel/group/title"
+msgstr "Grupp"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "Delta i fler strider för att placera dig i tabellen: %(number)s"
+
+msgid "excel/noData"
+msgstr "Inga prisplatser är tagna än."
+
+msgid "excel/participate/join"
+msgstr "Anfall"
+
+msgid "excel/participate/notParticipated"
+msgstr "Du placerade dig inte i rankningen"
+
+msgid "excel/subHeader"
+msgstr "Tävling: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "Delta"
+
+msgid "header/participate/button/leave"
+msgstr "Lämna tävlingen"
+
+msgid "header/participate/finished"
+msgstr "Tävlingen har avslutats"
+
+msgid "header/participate/notStarted"
+msgstr "Du deltar i tävlingen"
+
+msgid "header/participate/reason/byAge"
+msgstr "Kontot skapat efter %date%"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "Tävlingen ej tillgänglig"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "Du har lämnat denna tävling"
+
+msgid "header/participate/started"
+msgstr "Du deltar i tävlingen"
+
+msgid "header/timer"
+msgstr "Slutar om:"
+
+msgid "maintenance/body"
+msgstr "Vi ber om ursäkt för alla eventuella olägenheter."
+
+msgid "maintenance/title"
+msgstr "Fel vid hämtning av data"
+
+msgid "maintenance/update"
+msgstr "Uppdatera"
+
+msgid "notification/buttons/details"
+msgstr "Information"
+
+msgid "notification/eventFinished/body"
+msgstr "Tävlingen %(eventName)s har avslutats. Vinnarna kommer meddelas under de kommande dagarna och sedan motta sina välförtjänta priser."
+
+msgid "notification/eventFinished/header"
+msgstr "Tävlingen avslutat"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "Resultatet av dina strider räknas nu i tävlingen, du kan nu placera dig i tabellen och förtjäna din belöning."
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "Du är nu en deltagare i tävlingen"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "Resultatet av dina strider kommer räknas så snart tävlingen börjar, du kan då placera dig i tabellen och förtjäna din belöning."
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "Du är nu en deltagare i tävlingen"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "Kan inte delta i tävlingen: du uppfyller inte kraven."
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "Kan inte delta i tävlingen: registreringsperioden har avslutats."
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "Ditt resultat i tävlingsregistret kommer återställas så snart rakningen uppdateras."
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "Du har lämnat tävlingen"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "Ditt resultat kommer inte räknas i tävlingen."
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "Du har lämnat tävlingen"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "Kan inte lämna tävlingen: tiden har gått ut."
+
+msgid "notification/eventStarted/body"
+msgstr "Tävlingen %(eventName)s har börjat! Spelare som har nått prisplats när tävlingen avslutas kommer få värdefulla belöningar."
+
+msgid "notification/eventStarted/header"
+msgstr "Tävlingen börjar"
+
+msgid "notification/unknownError/body"
+msgstr "Kan inte slutföra operationen."
+
+msgid "orders/title"
+msgstr "Villkor"
+
+msgid "popover/buttons/cancel"
+msgstr "Avbryt"
+
+msgid "popover/buttons/rating"
+msgstr "Gå till tabellen"
+
+msgid "popover/buttons/select"
+msgstr "Välj"
+
+msgid "popover/noVehicles"
+msgstr "Inga vagnar matchar sökfiltret."
+
+msgid "popover/resetFilter"
+msgstr "Återställ filter"
+
+msgid "popover/title"
+msgstr "Tabell"
+
+msgid "popover/title/vehicle"
+msgstr "Tabell"
+
+msgid "popover/tooltip/class"
+msgstr "Visa tabellen för vagnar av angiven typ."
+
+msgid "popover/tooltip/level"
+msgstr "Visa tabellen för vagnar av angiven klass."
+
+msgid "popover/tooltip/nation"
+msgstr "Visa tabellen för vagnar av angiven nation."
+
+msgid "server/list"
+msgstr "För att dina strider ska räknas i tävlingen måste du byta till följande server:"
+
+msgid "server/noSuitable/body"
+msgstr "Stridsresultat räknas nästa gång klockan: %(data)s. Tävlingsschema"
+
+msgid "server/noSuitable/header"
+msgstr "Stridsresultat räknas inte i tävlingen just nu"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s on %(server)s"
+
+msgid "status/bestResults/many"
+msgstr "Mina bästa resultat"
+
+msgid "status/bestResults/one"
+msgstr "Mina resultat"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "Tävlingen är ej tillgänglig:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "Du kan inte delta i denna tävling på grund av dina brott mot spelreglerna"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "kontot skapat efter %(date)s"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "du har inte deltagit i tillräckligt många slumpvis matchade strider: %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "ditt segerförhållande i slumpvis matchade strider överstiger %(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "du har inte uppnått följande segerförhållande i slumpvis matchade strider: %(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "Registreringsperioden avslutad"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "Du kan inte delta i denna tävlingen."
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "Du har lämnat denna tävling"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "Resultatet av dina strider räknas inte längre i denna tävlingen. Du kommer inte placeras i tabellen och få en belöning.\nDu kan inte delta i tävlingen igen."
+
+msgid "status/cantJoin/reason/many"
+msgstr "krav ej uppfyllda: %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "krav ej uppfyllda: (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "Du placerade dig inte i tabellen"
+
+msgid "status/cantJoin/reason/special"
+msgstr "Du kan inte delta i tävlingen med detta kontot."
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "inga överensstämmande vagnar"
+
+msgid "status/participate/cantJoin"
+msgstr "Tävlingen ej tillgänglig"
+
+msgid "status/participate/needMoreBattles"
+msgstr "Om du uppfyller angivna krav i strid så kommer resultatet visas här så snart rankningarna uppdaterats."
+
+msgid "status/participate/notParticipated"
+msgstr "Du placerade dig inte i rankningen"
+
+msgid "summary/averagedamage"
+msgstr "Genomsnittlig skada"
+
+msgid "summary/averagedamageassisted"
+msgstr "Genomsnittlig skada med din assistans"
+
+msgid "summary/averagexp"
+msgstr "Genomsnittlig erfarenhet"
+
+msgid "summary/battles"
+msgstr "Strider tävlingen"
+
+msgid "summary/damage"
+msgstr "Åsamka skada"
+
+msgid "summary/damageassist"
+msgstr "Skada med din assistans"
+
+msgid "summary/damageblocked"
+msgstr "Blockerad skada"
+
+msgid "summary/description/awards/title/award"
+msgstr "BELÖNING EFTER TÄVLINGENS AVSLUTANDE"
+
+msgid "summary/description/awards/title/group"
+msgstr "GRUPP"
+
+msgid "summary/description/awards/title/position"
+msgstr "PLACERING"
+
+msgid "summary/description/max/class"
+msgstr "Du genomförde din bästa strid i din %(value)s"
+
+msgid "summary/description/max/level"
+msgstr "Du genomförde din bästa strid i en vagn klass %(value)s"
+
+msgid "summary/description/max/nation"
+msgstr "Du genomförde din bästa strid i en vagn från %(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "Du genomförde din bästa strid i din %(value)s"
+
+msgid "summary/description/sum/class"
+msgstr "Ditt resultat i tävlingen i %(value)s"
+
+msgid "summary/description/sum/level"
+msgstr "Ditt resultat i tävlingen i vagnar klass %(value)s"
+
+msgid "summary/description/sum/nation"
+msgstr "Ditt resultat i tävlingen i vagnar från %(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "Ditt resultat i tävlingen i följande vagn %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "Din bästa serie strider i din %(value)s"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "Din bästa serie strider i vagnar klass %(value)s"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "Din bästa serie strider i vagnar från %(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "Din bästa serie strider i din %(value)s"
+
+msgid "summary/description/sumN/class"
+msgstr "Dina bästa strider i din %(value)s"
+
+msgid "summary/description/sumN/level"
+msgstr "Dina bästa strider i vagnar klass %(value)s"
+
+msgid "summary/description/sumN/nation"
+msgstr "Dina bästa strider i vagnar från %(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "Dina bästa strider i din %(value)s"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "Din bästa serie strider i din %(value)s"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "Din bästa serie strider i vagnar klass %(value)s"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "Din bästa serie strider i vagnar från %(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "Din bästa serie strider i din %(value)s"
+
+msgid "summary/destroyedvehicles"
+msgstr "Förstörda fiendevagnar"
+
+msgid "summary/fightInSquaad"
+msgstr "Strider i pluton"
+
+msgid "summary/fightNotInSquaad"
+msgstr "Strider utan pluton"
+
+msgid "summary/originalXP"
+msgstr "Baserfarenhet"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "Skada åsamkad fiendevagnar med spelarens assistans"
+
+msgid "summary/param/max/damageDealt"
+msgstr "Åsamka skada"
+
+msgid "summary/param/max/originalXP"
+msgstr "Baserfarenhet"
+
+msgid "summary/param/max/xp"
+msgstr "Erfarenhet"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "Genomsnittlig skada med spelarens assistans"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "Genomsnittlig skada"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "Genomsnittlig baserfarenhet"
+
+msgid "summary/param/sumAll/wins"
+msgstr "Segrar"
+
+msgid "summary/param/sumAll/xp"
+msgstr "Genomsnittlig erfarenhet"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "Genomsnittlig skada åsamkad med spelarens assistans"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "Total skada"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "Total baserfarenhet"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "Total erfarenhet"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "Total skada åsamkad med spelarens assistans"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "Total skada"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "Total baserfarenhet"
+
+msgid "summary/param/sumN/xp"
+msgstr "Total erfarenhet"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "Genomsnittlig skada åsamkad med spelarens assistans"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "Total skada"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "Total baserfarenhet"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "Total erfarenhet"
+
+msgid "summary/position"
+msgstr "Placering i tabellen: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "Oavgjort"
+
+msgid "summary/result/loss"
+msgstr "Förlust"
+
+msgid "summary/result/win"
+msgstr "Seger"
+
+msgid "summary/status"
+msgstr "Uppdaterat den %(day)s klockan %(time)s"
+
+msgid "summary/winrate"
+msgstr "Segrar"
+
+msgid "table/header/player"
+msgstr "Spelare"
+
+msgid "table/header/position"
+msgstr "Nr."
+
+msgid "table/selectParticipateBtn"
+msgstr "Lämna tävlingen"
+
+msgid "table/selectRatingBtn"
+msgstr "Tabell"
+
+msgid "table/selectRegistrationBtn"
+msgstr "Delta i tävlingen"
+
+msgid "table/stripe/bronze/title"
+msgstr "Grupp III (plats %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/gold/title"
+msgstr "Grupp I (plats %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "Grupp I"
+
+msgid "table/stripe/iron/title"
+msgstr "Grupp IV (plats %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/silver/title"
+msgstr "Grupp II (plats %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/wood/title"
+msgstr "Icke-prisplatser"
+
+msgid "task/eventtype/all"
+msgstr "Gemensam rankning för alla deltagare"
+
+msgid "task/eventtype/class"
+msgstr "Varje vagnstyp har en separat rankning"
+
+msgid "task/eventtype/level"
+msgstr "Varje vagnsklass har en separat rankning"
+
+msgid "task/eventtype/nation"
+msgstr "Varje nation har en separat rankning"
+
+msgid "task/eventtype/vehicle"
+msgstr "Varje vagn har en egen rankning"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "Din placering i tabellen baseras på skada åsamkad med din assistans"
+
+msgid "task/objective/max/damageDealt"
+msgstr "Din placering i tabellen baseras på åsamkad skada"
+
+msgid "task/objective/max/originalXP"
+msgstr "Din placering i tabellen baseras på intjänad baserfarenhet"
+
+msgid "task/objective/max/xp"
+msgstr "Din placering i tabellen baseras på intjänad erfarenhet"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "Din placering i tabellen baseras på total skada åsamkad med din assistans"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "Din placering i tabellen baseras på total åsamkad skada"
+
+msgid "task/objective/sum/originalXP"
+msgstr "Din placering i tabellen baseras på total intjänad baserfarenhet"
+
+msgid "task/objective/sum/wins"
+msgstr "Placera dig i rankningen efter antal segrar"
+
+msgid "task/objective/sum/xp"
+msgstr "Din placering i tabellen baseras på total intjänad erfarenhet"
+
+msgid "task/objparam/damageAssisted"
+msgstr "skada åsamkad med din assistans"
+
+msgid "task/objparam/damageDealt"
+msgstr "åsamkad skada"
+
+msgid "task/objparam/originalXP"
+msgstr "intjänad baserfarenhet"
+
+msgid "task/objparam/wins"
+msgstr "antal segrar"
+
+msgid "task/objparam/xp"
+msgstr "erfarenhet"
+
+msgid "task/selection/max"
+msgstr "Din bästa strid räknas"
+
+msgid "task/selection/sumAll"
+msgstr "Alla dina strider räknas"
+
+msgid "task/selection/sumMSeqN"
+msgstr "De bästa (%(cardinality)s) striderna i serien räknas. Strider i serien: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "Dina bästa strider räknas: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "Din bästa serie strider räknas. Strider i serien: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "idag"
+
+msgid "time/day/tomorrow"
+msgstr "imorgon"
+
+msgid "time/day/yesterday"
+msgstr "igår"
+
+msgid "time/eventFinished"
+msgstr "Tävlingen avslutades: %(date)s"
+
+msgid "time/period/day"
+msgstr "d."
+
+msgid "time/period/hour"
+msgstr "t."
+
+msgid "time/period/minute"
+msgstr "min"
+
+msgid "time/timeTo/end"
+msgstr "Avslutas om: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "Registreringsperioden avslutas om: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "Börjar om: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "Belöningen utdelas när tävlingen avslutats och baseras på din placering i tabellen. För att se en lista över alla belöningar i tävlingen, klicka på \"Alla Belöningar\"."
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "Den erfarenhet som räknas inkluderar inte extra erfarenhet från Premiumkonto, Premiumvagnar, Personliga reserver, inkomstfaktorer för första segern varje dag, eller någon annan specialbonus."
+
+msgid "tooltip/top/amount/xp"
+msgstr "Den erfarenhet som räknas inkluderar inte bonuserfarenhet från Premiumvagnar, Personliga reserver, inkomstfaktorer för första segern varje dag, eller någon annan specialbonus.\nBonuserfarenhet från Premiumkonto räknas dock."
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "Skada åsamkad med spelarens assistans för sista prisplats: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "Skada åsamkad av spelaren på sista prisplats: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "Baserfarenhet intjänad av spelaren på sista prisplats: %(number)s\nDen erfarenhet som räknas inkluderar inte bonuserfarenhet från Premiumkonto, Premiumvagnar, Personliga reserver, inkomstfaktorer för första segern varje dag, eller någon annan specialbonus."
+
+msgid "tooltip/top/description/max/xp"
+msgstr "Erfarenhet intjänad av spelaren på sista prisplats: %(number)s\nDen erfarenhet som räknas inkluderar inte bonuserfarenhet från Premiumvagnar, Personliga reserver, inkomstfaktorer för första segern varje dag, eller någon annan specialbonus.\nBonuserfarenhet från Premiumkonto räknas dock."
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "Total skada åsamkad med spelarens assistans för sista prisplats: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "Total skada åsamkad av spelaren på sista prisplats: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "Total baserfarenhet intjänad av spelaren på sista prisplats: %(number)s\nDen erfarenhet som räknas inkluderar inte bonuserfarenhet från Premiumkonto, Premiumvagnar, Personliga reserver, inkomstfaktorer för första segern varje dag, eller någon annan specialbonus."
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "Antal segrar spelaren på sista prisplats: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "Total erfarenhet intjänad av spelaren på sista prisplats: %(number)s\nDen erfarenhet som räknas inkluderar inte bonuserfarenhet från Premiumvagnar, Personliga reserver, inkomstfaktorer för första segern varje dag, eller någon annan specialbonus.\nBonuserfarenhet från Premiumkonto räknas dock."
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "Ej prisplats"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "Grupp %(group)s (plats %(min)s-%(max)s)"
+
+msgid "top/averageXP"
+msgstr "Genomsnittlig erfarenhet intjänad av spelaren på sista prisplats:"
+
+msgid "top/participation/notParticipated"
+msgstr "Du placerade dig inte i rankningen"
+
+msgid "top/participation/notfull"
+msgstr "Du placerade dig inte i tabellen"
+
+msgid "top/participation/notintop"
+msgstr "Du är inte placerad på prisplats"
+
+msgid "top/position"
+msgstr "Placering:"
+
+msgid "top/reason/notfull"
+msgstr "Delta i fler strider för att placera dig i tabellen:"
+
+msgid "vehicles/level"
+msgstr "Vagnar klass %(level)s"
+
+msgid "vehicles/tooltip/class"
+msgstr "Klicka för att visa vagnar av denna typ som deltagit i tävlingen."
+
+msgid "vehicles/tooltip/level"
+msgstr "Klicka för att visa vagnar av denna klass som deltagit i tävlingen."
+
+msgid "vehicles/tooltip/nation"
+msgstr "Klicka för att visa vagnar av denna nation som deltagit i tävlingen."
+
+msgid "vehicles/vehicle"
+msgstr "Vagnar i tävlingen"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "Klicka för att visa en lista över vagnar som är tillåtna i tävlingen."

@@ -1,0 +1,284 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "LS_aoeDamageInstantShot/descr"
+msgstr "Avfyrer et skudd som skader målet og fiendtlige kjøretøy som er nærme."
+
+msgid "LS_aoeDamageInstantShot/long_special"
+msgstr "Taktisk enhet. Avfyrer et skudd som skader målet og alle fiendtlige kjøretøy innenfor en radius på 35 m. Hvis den brukes minst én gang i en kamp, er enheten brukt og kan etterfylles for credits. Hvis den ikke brukes, er ingen etterfylling nødvendig.<br/><br/>Kun tilgjengelig under <font color='#cbac77'>Last Stand: Terra Nord</font> eventet.<br/><br/>Alle ubrukte enheter blir fjernet og kompensert i credits tilsvarende 50 % av kostnaden i neste oppdatering."
+
+msgid "LS_aoeDamageInstantShot/name"
+msgstr "Energiskudd"
+
+msgid "LS_aoeDamageInstantShot/onUse"
+msgstr "Avfyrer et skudd som skader målet og alle fiendtlige kjøretøy som er innenfor en radius på 35 m."
+
+msgid "LS_aoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "LS_aoeDamageInstantShot/short_special"
+msgstr "Avfyrer et skudd som skader målet og fiendtlige kjøretøy som er nærme."
+
+msgid "LS_aoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/descr"
+msgstr "Avfyrer et skudd som gjenoppretter helsepoeng ved å stjele dem fra målet og fiendtlige kjøretøy i nærheten."
+
+msgid "LS_aoeDrainEnemyHpInstantShot/long_special"
+msgstr "Taktisk enhet. Avfyrer et skudd som gjenoppretter helsepoeng ved å stjele dem fra målet og alle fiendtlige kjøretøy innenfor en radius på 35 m. Den reparerer også skadde moduler og fjerner sjokkeffekt. Hvis den brukes minst én gang i en kamp, er enheten brukt opp og kan etterfylles for credits. Hvis den ikke brukes, er ingen etterfylling nødvendig.<br/><br/>Kun tilgjengelig under <font color='#cbac77'>Last stand: Terra Nord</font> eventet.<br/><br/>Alle ubrukte enheter blir fjernet og kompensert i credits tilsvarende 50 % av kostnaden i neste oppdatering."
+
+msgid "LS_aoeDrainEnemyHpInstantShot/name"
+msgstr "Vampyrskudd"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/onUse"
+msgstr "Avfyrer et skudd som gjenoppretter helsepoeng ved å stjele dem fra målet og fiendtlige kjøretøy som er innenfor en radius på 35 m, i tillegg til at den reparerer skadde moduler og fjerner sjokkeffekten"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/short_special"
+msgstr "Avfyrer et skudd som gjenoppretter helsepoeng ved å stjele dem fra målet og fiendtlige kjøretøy i nærheten."
+
+msgid "LS_aoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "LS_aoeStunInstantShot/descr"
+msgstr "Avfyrer et skudd som sjokker målet og fiendtlige kjøretøy som er nærme."
+
+msgid "LS_aoeStunInstantShot/long_special"
+msgstr "Taktisk enhet. Avfyrer et skudd som sjokker målet og alle fiendtlige kjøretøy innenfor en radius på 35 m. Hvis den brukes minst én gang i en kamp, er enheten brukt og kan etterfylles for credits. Hvis den ikke brukes, er ingen etterfylling nødvendig.<br/><br/>Kun tilgjengelig under <font color='#cbac77'>Last Stand: Terra Nord</font> eventet.<br/><br/>Alle ubrukte enheter blir fjernet og kompensert i credits tilsvarende 50 % av kostnaden i neste oppdatering."
+
+msgid "LS_aoeStunInstantShot/name"
+msgstr "Sjokkskudd"
+
+msgid "LS_aoeStunInstantShot/onUse"
+msgstr "Avfyrer et skudd som sjokker målet og alle fiendtlige kjøretøy som er innenfor en radius på 35 m."
+
+msgid "LS_aoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "LS_aoeStunInstantShot/short_special"
+msgstr "Avfyrer et skudd som sjokker målet og fiendtlige kjøretøy som er nærme."
+
+msgid "LS_damageShield/always"
+msgstr "?empty?"
+
+msgid "LS_damageShield/descr"
+msgstr "Gjør deg usårlig."
+
+msgid "LS_damageShield/long_special"
+msgstr "Taktisk enhet. Oppretter et energiskjold som beskytter kjøretøyet ditt fra en hvilken som helst skade bortsett fra kollisjon, drukning og sammenstøt i 10 s. Hvis den brukes minst én gang i en kamp, er enheten brukt og kan etterfylles for credits. Hvis den ikke brukes, er ingen etterfylling nødvendig.<br/><br/>Kun tilgjengelig under <font color='#cbac77'>Last stand: Terra Nord</font> eventet.<br/><br/>Alle ubrukte enheter blir fjernet og kompensert i credits tilsvarende 50 % av kostnaden i neste oppdatering."
+
+msgid "LS_damageShield/name"
+msgstr "Energiskjold"
+
+msgid "LS_damageShield/onUse"
+msgstr "Skaper et energiskjold som beskytter kjøretøyet ditt mot alle typer skade i 10 s, bortsett fra kollisjon, drukning og fallstøt."
+
+msgid "LS_damageShield/restriction"
+msgstr "?empty?"
+
+msgid "LS_damageShield/short_special"
+msgstr "Gjør deg usårlig."
+
+msgid "LS_doubleDamage/always"
+msgstr "?empty?"
+
+msgid "LS_doubleDamage/descr"
+msgstr "Ditt neste vellykkede skudd forårsaker dobbel skade."
+
+msgid "LS_doubleDamage/long_special"
+msgstr "Taktisk enhet. Ditt neste vellykkede skudd forårsaker dobbel skade. Hvis den brukes minst én gang i en kamp, er enheten brukt og kan etterfylles for credits. Hvis den ikke brukes, er ingen etterfylling nødvendig.<br/><br/>Kun tilgjengelig under <font color='#cbac77'>Last stand: Terra Nord</font> eventet.<br/><br/>Alle ubrukte enheter blir fjernet og kompensert i credits tilsvarende 50 % av kostnaden i neste oppdatering."
+
+msgid "LS_doubleDamage/name"
+msgstr "Dobbel skade"
+
+msgid "LS_doubleDamage/onUse"
+msgstr "Ditt neste vellykkede skudd forårsaker dobbel skade."
+
+msgid "LS_doubleDamage/restriction"
+msgstr "?empty?"
+
+msgid "LS_doubleDamage/short_special"
+msgstr "Ditt neste vellykkede skudd forårsaker dobbel skade."
+
+msgid "LS_extraDamageSituational/always"
+msgstr "?empty?"
+
+msgid "LS_extraDamageSituational/descr"
+msgstr "Gi en sjanse til å påføre mer skade på et fiendtlig kjøretøy.\nSjanse for aktivering: 50%."
+
+msgid "LS_extraDamageSituational/long_special"
+msgstr "Kampevne. Gir en sjanse til å påføre større grad av skade på et fiendtlig kjøretøy. Aktiveres automatisk med en 50% sjanse med et skudd, kollisjon eller annen evne, for eksempel energiskudd. Kan benyttes flere ganger i en kamp. Fjernes etter å ha blitt brukt minst en gang i en kamp.<br/><br/>Kun tilgjengelig under <font color='#cbac77'>Last Stand: Terra Nord</font> eventet.<br/><br/>Alle ubrukte evner blir fjernet og kompensert i credits tilsvarende 50 % av kostnaden i neste oppdatering."
+
+msgid "LS_extraDamageSituational/name"
+msgstr "Situasjonsskade"
+
+msgid "LS_extraDamageSituational/onUse"
+msgstr "Gir en sjanse til å påføre <font color='#feab34'>større grad av skade</font> på et fiendtlig kjøretøy med et skudd, kollisjon eller annen evne, for eksempel energiskudd.\nSjanse for aktivering: <font color='#e9e2bf'>50%</font>."
+
+msgid "LS_extraDamageSituational/restriction"
+msgstr "?empty?"
+
+msgid "LS_extraDamageSituational/short_special"
+msgstr "Gir en sjanse til å påføre større grad av skade på et fiendtlig kjøretøy."
+
+msgid "LS_fastReload/always"
+msgstr "?empty?"
+
+msgid "LS_fastReload/descr"
+msgstr "Øker skuddtakt / lader nytt magasin."
+
+msgid "LS_fastReload/long_special"
+msgstr "Taktisk enhet. Øker hastigheten på ladesyklusen på en syklisk kanon i en viss tid, eller lader kanoner med magasin umiddelbart. Hvis den brukes minst én gang i en kamp, er enheten brukt opp og kan etterfylles for credits. Hvis den ikke brukes, er ingen etterfylling nødvendig.<br/><br/>Kun tilgjengelig under <font color='#cbac77'>Last stand: Terra Nord</font> eventet.<br/><br/>Alle ubrukte enheter blir fjernet og kompensert i credits tilsvarende 50 % av kostnaden i neste oppdatering."
+
+msgid "LS_fastReload/name"
+msgstr "Rask lading"
+
+msgid "LS_fastReload/onUse"
+msgstr "Aksellererer ladingen betydelig for en syklisk kanon/granater i magasinet i en tidsperiode eller lader om magasinet umiddelbart."
+
+msgid "LS_fastReload/restriction"
+msgstr "?empty?"
+
+msgid "LS_fastReload/short_special"
+msgstr "Øker skuddtakt / lader nytt magasin."
+
+msgid "LS_healSituational/always"
+msgstr "?empty?"
+
+msgid "LS_healSituational/descr"
+msgstr "Gjenoppretter noen helsepoeng etter å ha bekjempet et fiendtlig kjøretøy.\n: Sjanse for aktivering 50%."
+
+msgid "LS_healSituational/long_special"
+msgstr "Kampevne. Gjenoppretter 500 helsepoeng umiddelbart på ditt kjøretøy etter å ha bekjempet et fiendtlig kjøretøy. Slukker brann, fjerner sjokkeffekt og reparerer skadde moduler. Aktiveres med en 50% sjanse ved skade, sjokk eller kritiskt skadde moduler. Kan brukes flere ganger i en kamp. Fjernes etter å ha blitt brukt minst en gang i en kamp.<br/><br/>Kun tilgjengelig under <font color='#cbac77'>Last Stand: Terra Nord</font> eventet.<br/><br/>Alle ubrukte evner blir fjernet og kompensert i credits tilsvarende 50 % av kostnaden i neste oppdatering."
+
+msgid "LS_healSituational/name"
+msgstr "Situasjonsreparasjoner"
+
+msgid "LS_healSituational/onUse"
+msgstr "• <font color='#FEAB34'>Gjenoppretter 500 helsepoeng</font> på ditt kjøretøy umiddelbart, etter at du har bekjempet et fiendtlig kjøretøy.\n• Slukker brann, fjerner sjokkeffekt og reparerer skadde moduler.\n• Aktiveres automatisk ved skade, sjokk eller kritiskt skadde moduler.\n• Sjanse for aktivering: <font color='#E9E2BF'>50%</font>."
+
+msgid "LS_healSituational/restriction"
+msgstr "?empty?"
+
+msgid "LS_healSituational/short_special"
+msgstr "Gjenoppretter noen helsepoeng etter å ha bekjempet et fiendtlig kjøretøy."
+
+msgid "LS_invisibility/always"
+msgstr "?empty?"
+
+msgid "LS_invisibility/descr"
+msgstr "Hindrer fiender i å sikte på kjøretøyet ditt, gjenoppretter helsepoeng, reparerer moduler og slukker brann."
+
+msgid "LS_invisibility/long_special"
+msgstr "Taktisk enhet. Aktiverer skjuleevne som gjør ditt kjøretøy usynlig for fiender i 10 s. Gjenoppretter 32 helsepoeng per sekund, reparerer moduler umiddelbart, slukker brann, fjerner sjokkeffekt og behandler alle skadde besetningsmedlemmer. Forårsakelse eller mottak av skade fra et fiendtlig kjøretøy (ved ildgivning, kollisjon eller bruk av taktiske enheter) avslører din posisjon umiddelbart. Hvis den brukes minst én gang i en kamp, er evnen brukt opp og kan etterfylles for credits. Hvis den ikke brukes, er ingen etterfylling nødvendig.<br/><br/>Kun tilgjengelig under <font color='#cbac77'>Last stand: Terra Nord</font> eventet.<br/><br/>Alle ubrukte enheter blir fjernet og kompensert i credits tilsvarende 50 % av kostnaden i neste oppdatering."
+
+msgid "LS_invisibility/name"
+msgstr "Skyggehelbredelse"
+
+msgid "LS_invisibility/onUse"
+msgstr "Hindrer fiender fra å sikte på kjøretøyet ditt i 10 s. Gjenoppretter 32 helsepoeng per sekund, reparerer moduler umiddelbart, slukker brann, fjerner sjokkeffekten og behandler alle skadde besetningsmedlemmer. Å påføre eller motta skade fra et fiendtlig kjøretøy (ved skudd, kollisjon eller bruk av taktisk enhet) vil avsløre posisjonen din umiddelbart."
+
+msgid "LS_invisibility/restriction"
+msgstr "?empty?"
+
+msgid "LS_invisibility/short_special"
+msgstr "Hindrer fiender midlertidig i å sikte på kjøretøyet ditt, gjenoppretter helsepoeng, reparerer moduler, slukker brann, fjerner sjokkeffekt og behandler alle skadde besetningsmedlemmer."
+
+msgid "LS_nitro/always"
+msgstr "?empty?"
+
+msgid "LS_nitro/descr"
+msgstr "Øker ditt kjøretøys mobilitet midlertidig."
+
+msgid "LS_nitro/long_special"
+msgstr "Taktisk enhet. Øker ditt kjøretøys mobilitet midlertidig. Hvis den brukes minst én gang i en kamp, er enheten brukt opp og kan etterfylles for credits. Hvis den ikke brukes, er ingen etterfylling nødvendig.<br/><br/>Kun tilgjengelig under <font color='#cbac77'>Last stand: Terra Nord</font> eventet.<br/><br/>Alle ubrukte enheter blir fjernet og kompensert i credits tilsvarende 50 % av kostnaden i neste oppdatering."
+
+msgid "LS_nitro/name"
+msgstr "Turbo"
+
+msgid "LS_nitro/onUse"
+msgstr "Øker ditt kjøretøys mobilitet midlertidig."
+
+msgid "LS_nitro/restriction"
+msgstr "?empty?"
+
+msgid "LS_nitro/short_special"
+msgstr "Øker ditt kjøretøys mobilitet midlertidig."
+
+msgid "LS_nitroSituational/always"
+msgstr "?empty?"
+
+msgid "LS_nitroSituational/descr"
+msgstr "Øker ditt kjøretøys mobilitet midlertidig etter å ha tatt skade fra et fiendtlig kjøreøty.\nSjanse for aktivering: 50%."
+
+msgid "LS_nitroSituational/long_special"
+msgstr "Kampevne. Øker ditt kjøretøys mobilitet etter at du har tatt skade fra et fiendtlig kjøretøy. Aktiveres automatisk med en 50% sjanse. Hvis den brukes minst én gang i en kamp, er evnen brukt opp og kan etterfylles for credits. Hvis den ikke brukes, er ingen etterfylling nødvendig.<br/><br/>Kun tilgjengelig under <font color='#cbac77'>Last Stand: Terra Nord</font> eventet.<br/><br/>Alle ubrukte evner blir fjernet og kompensert i credits tilsvarende 50 % av kostnaden i neste oppdatering."
+
+msgid "LS_nitroSituational/name"
+msgstr "Situasjonsmobilitet"
+
+msgid "LS_nitroSituational/onUse"
+msgstr "<font color='#feab34'>Øker</font> ditt kjøretøys <font color='#feab34'>mobilitet</font> midlertidig etter at du har tatt skade fra et fiendtlig kjøretøy.\nSjanse for aktivering: <font color='#e9e2bf'>50%</font>."
+
+msgid "LS_nitroSituational/restriction"
+msgstr "?empty?"
+
+msgid "LS_nitroSituational/short_special"
+msgstr "Øker ditt kjøretøys mobilitet midlertidig etter at du har tatt skade fra et fiendtlig kjøretøy."
+
+msgid "LS_selfRepair/always"
+msgstr "?empty?"
+
+msgid "LS_selfRepair/descr"
+msgstr "Gjenoppretter helsepoeng, slukker brann, fjerner sjokkeffekt og reparerer skadde moduler."
+
+msgid "LS_selfRepair/long_special"
+msgstr "Kampevne. Gjenoppretter helsepoeng, slukker branner, fjerner sjokkeffekt og reparerer skadde moduler. Kan benyttes flere ganger i én kamp. Fjernes etter å ha blitt brukt minst én gang i en kamp.<br/><br/>Kun tilgjengelig i løpet av eventet <font color='#cbac77'>Last Stand '25</font>.<br/><br/> Alle ubenyttede evner blir fjernet og kompenseres med 50% av kostnaden i credits når den neste oppdateringen lanseres."
+
+msgid "LS_selfRepair/name"
+msgstr "Nødreparasjoner"
+
+msgid "LS_selfRepair/onUse"
+msgstr "• Gjenoppretter umiddelbart 400 helsepoeng på ditt kjøretøy.\n• Gjenoppretter ytterligere 300 helsepoeng i løpet av 30 s.\n• Gjenopprettelsen forstyrres dersom du tar skade.\n• Slukker brann, fjerner sjokkeffekten og reparerer skadde moduler.\n• Kan kun aktiveres dersom man har skade."
+
+msgid "LS_selfRepair/restriction"
+msgstr "?empty?"
+
+msgid "LS_selfRepair/short_special"
+msgstr "Gjenoppretter helsepoeng, slukker brann, fjerner sjokkeffekt og reparerer skadde moduler."
+
+msgid "LS_selfRepair/usageCost"
+msgstr "• Mirium kostnad for bruk i kamp:"
+
+msgid "LS_teamRepair/always"
+msgstr "?empty?"
+
+msgid "LS_teamRepair/descr"
+msgstr "Reparerer og gjenoppretter noen av helsepoengene på allierte kjøretøy innenfor dens radius."
+
+msgid "LS_teamRepair/long_special"
+msgstr "Taktisk enhet. Reparerer moduler umiddelbart, slukker brann, fjerner sjokkeffekt og gjenoppretter noen helsepoeng på allierte kjøretøy innefor sin radius. Hvis den brukes minst én gang i en kamp, er enheten brukt opp og kan etterfylles for credits. Hvis den ikke brukes, er ingen etterfylling nødvendig.<br/><br/>Kun tilgjengelig under <font color='#cbac77'>Last stand: Terra Nord</font> eventet.<br/><br/>Alle ubrukte enheter blir fjernet og kompensert i credits tilsvarende 50 % av kostnaden i neste oppdatering."
+
+msgid "LS_teamRepair/name"
+msgstr "Gruppereparasjon"
+
+msgid "LS_teamRepair/onUse"
+msgstr "Reparerer moduler umiddelbart, slukker brann, fjerner sjokkeffekt og gjenoppretter noen helsepoeng for allierte kjøretøy innenfor dens radius."
+
+msgid "LS_teamRepair/restriction"
+msgstr "?empty?"
+
+msgid "LS_teamRepair/short_special"
+msgstr "Reparerer og gjenoppretter noen av helsepoengene på allierte kjøretøy innenfor dens radius."
+
+msgid "lsAbility/descr/usageCost"
+msgstr " \nMirium pris: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "lsAbility/usageCost/default"
+msgstr "Mirium kostnad for bruk i kamp:"

@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Auf alle {{icon}} {{type}} anwenden"
+
+msgid "header/points"
+msgstr "Kampfreserve-Punkte: {{value}}"
+
+msgid "header/title"
+msgstr "KAMPFRESERVEN"
+
+msgid "infoPanel/category/firesupport"
+msgstr "Angriffsreserven"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "Aufklärungsreserven"
+
+msgid "infoPanel/category/tactics"
+msgstr "Taktische Reserven"
+
+msgid "infoPanel/category/title"
+msgstr "Kategorie: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "Im Szenario {{@ colorLegacy 'FFE4C0'}}Laune des Schicksals{{/}} steigert der Kauf einer Kampfreserve ihre Stufe um eins. Damit kann die Kampfreserve bis auf Stufe {{@ colorLegacy 'FFE4C0'}}IV{{/}} gesteigert werden."
+
+msgid "infoPanel/description/unlocked"
+msgstr "Im Szenario {{@ colorLegacy 'FFE4C0'}}Laune des Schicksals{{/}} ist die Wahrscheinlichkeit, dass eine vor dem Gefecht in einen Platz eingesetzte Kampfreserve angeboten wird, um {{@ colorLegacy 'FFE4C0'}}10 %{{/}} erhöht."
+
+msgid "infoPanel/level"
+msgstr "Stufe:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}} m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}} %"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}} %/s"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}} s"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "Kampfreserve nicht gekauft"
+
+msgid "infoPanel/status/unlocked"
+msgstr "Kampfreserve gekauft"

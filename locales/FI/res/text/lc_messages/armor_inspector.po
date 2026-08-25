@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Pääpanssari"
+
+msgid "armorValues/title/no_damage"
+msgstr "Ei vahinkoa"
+
+msgid "armorValues/title/other"
+msgstr "Muut"
+
+msgid "armorValues/title/penetration"
+msgstr "Läpäisytodennäköisyys"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Kimmoke"
+
+msgid "armorValues/title/spaced"
+msgstr "Ontelopanssari"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Hyökkääjän kokoonpano"
+
+msgid "attackerTooltip/body"
+msgstr "Klikkaa vaihtaaksesi hyökkäävää vaunua"
+
+msgid "attackerTooltip/header"
+msgstr "Hyökkäävä vaunu"
+
+msgid "menu/header"
+msgstr "Tason tyyppi"
+
+msgid "menu/no_armor"
+msgstr "Ei tasoa"
+
+msgid "menu/nominal"
+msgstr "Nimellinen panssari"
+
+msgid "menu/penetration"
+msgstr "Läpäisytodennäköisyys"
+
+msgid "modules/current"
+msgstr "Nykyinen kokoonpano"
+
+msgid "modules/custom"
+msgstr "Muokattu kokoonpano"
+
+msgid "modules/standard"
+msgstr "Normaali kokoonpano"
+
+msgid "modules/title"
+msgstr "Vaunun moduulit"
+
+msgid "modules/top"
+msgstr "Huippukokoonpano"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Runko"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Tykki"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Tykin kilpi"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Runko"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Lisäsuoja"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Havainnointilaite"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Tykkitorni"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Pyörät"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Ei vahinkoa"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Läpäisy"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Kimmoke"
+
+msgid "tooltip/minor/angle/description"
+msgstr "Kulman ammuksen lentoradan ja panssarin kanssa kohtisuorassa olevan linjan välissä.\n\nAmmuksen lentorata lasketaan kuin ammus liikkuisi suorassa linjassa ruudun keskeltä."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Osumakulma"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Todennäköisyys vihollisen panssarin läpäisyyn ja vahingon aiheuttamiseen vaunulle."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Läpäisytodennäköisyys"
+
+msgid "tooltip/minor/effective/description"
+msgstr "Yksittäisen panssarikerron efektiivinen panssari on panssarin nimellinen paksuus muokattuna osumakulmalla ja ammuksen normalisaatiolla.\n\nMikäli osumakohdassa on useita panssarikerroksia, on tulos kunkin kerroksen efektiivisten arvojen summa."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Efektiivinen panssari"
+
+msgid "tooltip/minor/header"
+msgstr "Legenda"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Ontelopanssarointiin osuminen ei aiheuta vahinkoa vaunulle, ellei ammus sen jälkeen osu ja läpäise pääpanssaria."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Ei vahinkoa"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Todellinen pää- tai ontelopanssarin levy(je)n paksuus."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Nimellinen panssari"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Ammukset, jotka osuvat vihollispanssariin loivassa kulmassa kimpoavat siitä. Ne saattavat silti osua toiseen tai jopa samaan vaunuun."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Kimmoke"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Vaikuttaa efektiivisen panssarin ja läpäisytodennäköisyyden laskentaan.\n\nKaikkiin laskelmiin käytetään 100 m etäisyyttä (panssari- ja alikaliiperiammukset menettävät läpäisyä etäisyyden kasvaessa).\n\nMiehistön päte3vyydet ja hyökkäävän vaunun päivitykset eivät vaikuta laskelmiin."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Hyökkääjän kokoonpano"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Mahdollisuus läpäistä vihollispanssari ja aiheuttaa vahinkoa vaunuun.\n\nOntelopanssarointiin osuminen ei aiheuta vahinkoa vaunulle, ellei ammus sen jälkeen osu ja läpäise pääpanssaria."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Läpäisytodennäköisyys"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Vaunu vahingoittuu vain, jos sen pääpanssarointiin osuu ja se läpäistään. Sirpalekranaatit voivat aiheuttaa vähennettyä vahinkoa vaunuun jopa ilman läpäisyä; niiden täytyy silti saavuttaa pääpanssari."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Pääpanssari"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Ontelopanssarointiin osuminen ei vahingoita vaunua, ellei ammus ontelopanssarin läpäistyään osu ja läpäise pääpanssaria.\n\nUlkoisiin moduuleihin osuminen ja niiden läpäisy vahingoittaa näitä moduuleja suoraan: osuma telaan tekee vaunun liikuntakyvyttömäksi, osuma tykkiin estää sen toiminnan ja osuma tarkkailulaitteisiin lyhentää vaunun näköetäisyyttä."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Ei vahinkoa"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "Kimpoamiskulma on 70 astetta panssarikranaateille ja alikaliiperiammuksille ja 85 astetta ontelokranaateille.\n\nSirpalekranaatit eivät kimpoa, kun panssarikranaatit ja alikaliiperiammukset menettävät 25% läpäisystään kimmotessaan.\n\nKimmoketta ei synnyt, mikäli ammuksen kaliiperi on yli kolme kertaa osumakohdan nimellisen panssarin paksuuden verran (tämä koskee vain panssarinläpäiseviä ja alikaliiperiammuksia)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Kimmoke"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Ontelopanssarointiin osuminen ei vahingoita vaunua ellei ammus ontelopanssarin läpäistyään osu ja läpäise pääpanssaria.\n\nUlkoisiin moduuleihin osuminen ja niiden läpäisy vahingoittaa näitä moduuleja suoraan: osuma telaan tekee vaunun liikuntakyvyttömäksi, osuma tykkiin estää sen toiminnan ja osuma tarkkailulaitteisiin lyhentää vaunun näköetäisyyttä.\n\nOsumakulma ei vaikuta ulkoisiin moduuleihin (kuten telat ja tykki) – tässä tapauksessa efektiivinen panssari on sama kuin nimellinen panssari."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Ontelopanssari"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Katso video panssarin läpäisyn mekaniikasta"

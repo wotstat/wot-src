@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "Pārvaldīt rezerves"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "Uzspiediet lai izvēlētos pieejamu kaujas rezervi."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "Aviobumbas"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "Pārklājums"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "Apdullināt"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "Izvietošana"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "Mīnu skaits"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "Mīnu Lauka ilgums"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "Apdullināt"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "Bojājumu rādiuss"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "Ilgums"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "Lādiņi"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "Sagatavošanas laiks"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "Izvietošana"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "Ilgums"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "Atjaunoto dzīvības punktu daudzums"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "Tūlītējo atgūto dzīvības punktu daudzums pēc aktivizācijas"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "Samazināti bojājumi saņemti no mīnām"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "Bonuss dzīvības punktu atgūšanas ātrumam iekš Papildināšanas Apļa"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "Apkalpes veiktspēja"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "Ilgums"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "Pēcefekta ilgums"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "Efekta rādiuss"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "Jūsu tanka apkalpes sniegums"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "Palielināta aizsardzība"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "Sagūstīšanas bonuss"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "Papildināšanas Apļa atjaunināšana"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "Munīcijas papildināšanas ātrums"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "Ierašanās laiks"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "Pārklājums"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750 m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "Atklāšanas ilgums"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "Samazināts apkalpes sniegums"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "Dūmu granātas"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "Pārklājums"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "Ilgums"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "Samazināts pretinieku tanku skata attālums"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "Maskēšanās samazināšana pretinieku tankiem aiz lapotnēm"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "Maskēšanās samazināšana kustīgiem pretinieku tankiem"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "Ilgums"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "Bonuss stacionāra tanka maskēšanai"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "Pasīvs bonuss skata attālumam"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "Rezerves Līmenis"
+
+msgid "abilityInfo/properties/static"
+msgstr "Pastāvīgas īpašības"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "s"
+
+msgid "advance_message_txt"
+msgstr "Dodieties uz fronti"
+
+msgid "advance_mission_txt"
+msgstr "Dodieties uz fronti"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "SCENĀRIJA DETAĻAS"
+
+msgid "awards/acceptButton"
+msgstr "Sapratu!"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "BALVAS SAŅEMTAS"
+
+msgid "awards/subTitle2"
+msgstr "BALVA SAŅEMTA"
+
+msgid "awards/title"
+msgstr "FRONTES LĪNIJA"
+
+msgid "base/contested_atk"
+msgstr "Apstrīdēts"
+
+msgid "base/contested_def"
+msgstr "Uzbrūk"
+
+msgid "battleResults/armor"
+msgstr "Bruņu izmantošana"
+
+msgid "battleResults/assistance"
+msgstr "Atbalsts"
+
+msgid "battleResults/crits"
+msgstr "Kritiski bojājumi"
+
+msgid "battleResults/damage"
+msgstr "Bojājumi"
+
+msgid "battleResults/kill"
+msgstr "Iznīcinātie"
+
+msgid "battleResults/spotting"
+msgstr "Atrasti"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "x1 Personālā rezerve: %(effectValue)s Apkalpes pieredzei uz %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "x1 Personālā rezerve: %(effectValue)s Brīvajai pieredzei uz %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "x1 Personālā rezerve: %(effectValue)s Kaujas pieredzei uz %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Uzbrūciet mērķim %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Aizsargājiet mērķi %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Uzmanību pozīcijai!"
+
+msgid "command_shortcut/title"
+msgstr "Komandas"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "Fronte bloķēta – sasniegts spēlētāju limits"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "Bīstamā zona"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "Fronte bloķēta – sasniegts bruņutehnikas veida limits"
+
+msgid "dialogs/quotedName"
+msgstr "\"%(name)s\""
+
+msgid "dialogs/title/buy/item"
+msgstr "Pirkt %(name)s %(type)s?"
+
+msgid "dialogs/title/buy/items"
+msgstr "Pirkt %(type)s?"
+
+msgid "dialogs/title/install/item"
+msgstr "Ieslēgt %(name)s %(type)s?"
+
+msgid "dialogs/title/install/items"
+msgstr "Ieslēgt %(type)s?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "Uzkrājiet nepieciešamo Punktu skaitu un aktivizējiet Frontes Līnijas Kaujas Rezerves."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "Uzkrājiet nepieciešamo Punktu skaitu un aktivizējiet Frontes Līnijas Kaujas Rezerves."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "Kaujas rezerves punkti"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "%(level)s tanki tiks atslēgti kaujai pēc jebkura punkta ieņemšanas/zaudēšanas otrajā līnijā (D, E vai F)."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "%(lvl)s Līmeņa"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "Izvēlieties VIII līmeņa tanku Frontes līnijas režīmam."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "Neatbilstoša bruņutehnika"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "Iegūt"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "Maks."
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "Kaujas rezerves"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "Komandiera līmenis"
+
+msgid "epictraining/info/otherLabel"
+msgstr "Nesagrupēti spēlētāji: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "Uzbrucēji ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "Aizstāvji ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "Visa pretinieku bruņutehnika iznīcināta"
+
+msgid "game/all_hqs_destroyed"
+msgstr "Visi mērķi iznīcināti"
+
+msgid "game/all_tanks_defeated"
+msgstr "Visa sabiedroto bruņutehnika iznīcināta"
+
+msgid "game/defeat"
+msgstr "Sakāve!"
+
+msgid "game/draw"
+msgstr "Neizšķirts!"
+
+msgid "game/time_over"
+msgstr "Mērķi netika iznīcināti"
+
+msgid "game/victory"
+msgstr "Uzvara!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "Iznīciniet mērķus!"
+
+msgid "global_msg/atk/time_short"
+msgstr "Ieņemiet zonu!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "Aizsargājiet mērķus!"
+
+msgid "global_msg/def/time_short"
+msgstr "Aizsargājiet zonas!"
+
+msgid "global_msg/lane/center_short"
+msgstr "Pastipriniet %(strArg1)s!"
+
+msgid "global_msg/lane/east_short"
+msgstr "Pastipriniet %(strArg1)s!"
+
+msgid "global_msg/lane/west_short"
+msgstr "Pastipriniet %(strArg1)s!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "Glābiet savus tankus!"
+
+msgid "help_window/communication"
+msgstr "Komunikācijas zona"
+
+msgid "help_window/communication/description"
+msgstr "Jūs variet saņemt rīkojumus tikai no sabiedrotajiem, kas atrodas jūsu minikartes redzamajā daļā vai, kad rīkojuma mērķis atrodas šajā reģionā."
+
+msgid "help_window/overview_map"
+msgstr "Stratēģiskā karte"
+
+msgid "help_window/overview_map/description"
+msgstr "Stratēģisko karti izmanto, lai iegūtu visa kaujas lauka taktisku un stratēģisku pārskatu. Kad karte ir atvērta, ir iespējams sazināties ar visu komandu un saņemt ziņojumus no biedriem."
+
+msgid "help_window/recovery"
+msgstr "Atgūšanās"
+
+msgid "help_window/recovery/description"
+msgstr "Atjaunošana pašiznīcina tanku kas ir iestrēdzis. Ņemot vērā pagarināto kaujas garumu un atdzimšanas iespēju, konkrētais spēles mehānikas aspekts ir nepieciešams, lai nodrošinātu nepārtrauktu iesaistīšanos kaujas aktivitātēs."
+
+msgid "help_window/reserves"
+msgstr "Bruņutehnikas rezerves"
+
+msgid "help_window/reserves/description"
+msgstr "Katras dažas minūtes viena bruņutehnikas vienība tiek iekļauta jūsu rezervē. Tajā var būt maksimums divas vienības. Ja bruņutehnikas vairs nav, jums nāksies uzgaidīt līdz jauna bruņutehnika tiek sagādāta."
+
+msgid "hq/under_attack_atk"
+msgstr "Uzbrūk"
+
+msgid "hq/under_attack_def"
+msgstr "Uzbrūk"
+
+msgid "in_game_rank/experience_text"
+msgstr "Pieredze"
+
+msgid "lane_central_name"
+msgstr "Centrs"
+
+msgid "lane_east_name"
+msgstr "Austrumi"
+
+msgid "lane_west_name"
+msgstr "Rietumi"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "Līmenis %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "Iegāde nav pieejama: jums nav kaujas rezervju punktu."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "Kaujas rezerve ir sasniegusi maksimālo līmeni."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "Uzlabošana nav pieejama: jums nav kaujas rezervju punktu."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "Kaujas Rezerve nav nopirkta"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "Kaujas Rezerves Līmenis tiek palielināts pēc Kapteiņa un Majora pakāpju sasniegšanas kaujā. Maksimālo līmeni nosaka kaujas scenārijs."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "Pirkuma cena: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "Galvenais mērķis"
+
+msgid "mission/title"
+msgstr "Misija"
+
+msgid "mission/zone_closing_atk"
+msgstr "Zona atveras pēc: "
+
+msgid "mission/zone_closing_def"
+msgstr "Pretinieku bombardēšana pēc: "
+
+msgid "missions/primary/atk/base"
+msgstr "Ieņemiet zonu"
+
+msgid "missions/primary/atk/hq"
+msgstr "Iznīciniet mērķus"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s no %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "Iznīcināti mērķi:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "Ieņemiet zonas, lai sasniegtu galvenos mērķus. Iznīciniet galvenos mērķus."
+
+msgid "missions/primary/def/base"
+msgstr "Aizsargājiet zonu"
+
+msgid "missions/primary/def/hq"
+msgstr "Aizsargājiet mērķi"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s no %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "Zaudēti mērķi:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "Aizsargājiet galvenos mērķus līdz izbeidzas laiks vai tiek iznīcināti visi uzbrucēji."
+
+msgid "missions/unlockTankLevel"
+msgstr "IX Līmeņa tanki pieejami"
+
+msgid "overtime/label"
+msgstr "PAPILDLAIKS"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "Nevar aktivizēt divas identiskas Rezerves"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "Nevar izvietot mīnu lauku. Mīnu lauki krustojas."
+
+msgid "primeTime/applyBtn"
+msgstr "Turpināt"
+
+msgid "primeTime/cancelBtn"
+msgstr "Atcelt"
+
+msgid "primeTime/continueBtn"
+msgstr "Turpināt"
+
+msgid "primeTime/endOfCycle"
+msgstr "Režīms %(server)s serverī ir beidzies."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "Pieejami serveri:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "Pieejams serveris: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "Kaujas iekš %(server)s būs pieejamas vēl %(time)s"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "Nākamās kaujas iekš %(server)s pēc %(time)s"
+
+msgid "primeTime/serverTooltip"
+msgstr "Serveris %(server)s\nKaujas būs pieejamas vēl %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Kaujas būs pieejamas pēc %(time)s"
+
+msgid "primeTime/servers"
+msgstr "Pieejami serveri: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Kaujas %(server)s serverī ir beigušās"
+
+msgid "primeTime/status/disable"
+msgstr "Jūs varat pāriet uz režīma „Frontes līnija” serveri, lai turpinātu pirms kaujas sagatavošanos."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "Režīms nav pieejams serverī %(server)s"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "%(server)s serverī ir spēkā Pamiera līdz %(startTime)s"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "Pamiers ir spēkā visos serveros"
+
+msgid "primeTime/status/thisEnable"
+msgstr "%(server)s serverī, Frontes līnija ir pieejama vēl %(time)s."
+
+msgid "primeTime/steelhunter/title"
+msgstr "TĒRAUDA MEDNIEKS"
+
+msgid "primeTime/title"
+msgstr "FRONTES LĪNIJA"
+
+msgid "primeTime/titleWelcome"
+msgstr "SVEICINĀTI REŽĪMĀ\n„FRONTES LĪNIJA”"
+
+msgid "progress_timers/active"
+msgstr "Uzsākta"
+
+msgid "progress_timers/fully_equipped"
+msgstr "Pilnībā aprīkots"
+
+msgid "progress_timers/resupply"
+msgstr "Papildināšanas aplis"
+
+msgid "progress_timers/unavailable"
+msgstr "Nav pieejams"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "Frontes līnijas misijas"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "mazāk kā 1 d"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "sasniedziet %(level)s līmeni"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "Jaunas misijas būs pieejamas pēc %(time)s"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "Tērauda Mednieka Misijas"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "Frontes Līnija beidzas pēc: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "Nav pieejams: %(reason)s."
+
+msgid "rank/allReserveUpgraded"
+msgstr "Visi Kaujas Rezerves Līmeņi palielināti"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "Komandas bonuss apkalpes sniegumam palielināts uz +%(percent)s%%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "Maksimālais apkalpes sniegums ir sasniegts +%(percent)s%%"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "Komandas bonuss apkalpes sniegumam +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "Spēlētājs"
+
+msgid "rank/promotion"
+msgstr "paaugstināts uz %(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "Ierindnieks"
+
+msgid "rank/rank2"
+msgstr "Seržants"
+
+msgid "rank/rank3"
+msgstr "Leitnants"
+
+msgid "rank/rank4"
+msgstr "Kapteinis"
+
+msgid "rank/rank5"
+msgstr "Majors"
+
+msgid "rank/rank6"
+msgstr "Ģenerālis"
+
+msgid "rank/recerveUnlocked"
+msgstr "%(reserveName)s Kaujas Rezerve atslēgta"
+
+msgid "rank/reserveUpgraded"
+msgstr "%(reserveName)s Kaujas Rezerve uzlabota"
+
+msgid "rank/slotUnlocked"
+msgstr "%(slotNumber)s Kaujas Rezerve atslēgta"
+
+msgid "rank/slot_2"
+msgstr "2."
+
+msgid "rank/slot_3"
+msgstr "3."
+
+msgid "recovery/Blocked"
+msgstr "Īslaicīgi\nbloķēts"
+
+msgid "recovery/disabled"
+msgstr "Atjaunošana nav pieejama"
+
+msgid "recovery_panel/base_text"
+msgstr "Nospiediet J,\nlai atjaunotos"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "Kustieties vai šaujiet, lai atceltu."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "Atjaunošana\natcelta"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "Atjaunošana\npieprasīta"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "Ieņemiet nākamo bāzi"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "Papildspēki pēc "
+
+msgid "reinforcement/unavailable"
+msgstr "Papildspēki nav pieejami"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s s līdz automātiskai iziešanai kaujā."
+
+msgid "respawn/deploy_button"
+msgstr "Kaujā!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "Uzlabotus palīgmateriālus nevar iegādāties kaujā."
+
+msgid "respawn/shop_title"
+msgstr "Apkope"
+
+msgid "respawn/tanks_left"
+msgstr "atlikušas vienības"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "Izvēlieties tanku un izvietošanas zonu"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "Izvietoties šajā zonā ir bīstami."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s sekundes"
+
+msgid "retreat_message_txt"
+msgstr "Atkāpieties"
+
+msgid "retreat_mission_txt"
+msgstr "Atkāpties uz nākamo zonu"
+
+msgid "rewardSelection/subTitle"
+msgstr "IZVĒLIETIES JŪSU BALVU"
+
+msgid "rewardSelection/title"
+msgstr "FRONTES LĪNIJA"
+
+msgid "scorePanel/stage1"
+msgstr "1. stadija"
+
+msgid "scorePanel/stage2"
+msgstr "2. stadija"
+
+msgid "scorePanel/stage3"
+msgstr "3. stadija"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "Jūsu datorsistēmas veiktspēja nav pietiekama šim režīmam. Jūs variet piedzīvot problēmas ar grafiku un tanku pārvietošanos. Ir iespējama arī spēles klienta nobrukšana."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "Zema veiktspēja"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "Nepietiekamas veiktspējas gadījumā, mēģiniet samazināt grafikas kvalitāti Iestatījumos."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "Šim režīmam ir nepieciešama augsta datora veiktspēja"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "Šim režīmam ir nepieciešama augsta datorsistēmas veiktspēja. Jūs piedzīvosiet problēmas ar karšu ielādi, grafiku, tanku pārvietošanos. Nepietiekamas veiktspējas gadījumā pamēģiniet zemākus grafikas Iestatījumus."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "Zema veiktspēja"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "30v30 kaujas %(bodyVehicleLevel)s. Izmantojiet Atdzimšanas mehānikas, Kaujas Rezerves, kā arī Piegādes Apļus."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "%(level)s Līmeņa tankos"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "30v30 kaujas %(bodyVehicleLevel)s. Izmantojiet Atdzimšanas mehānikas, Kaujas Rezerves, kā arī remontus kaujā."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "Režīms īslaicīgi nav pieejams tehnisku iemeslu dēļ."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "Frontes līnija"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "Kaujas sākas pēc: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "Kaujas beidzas pēc: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "Kauju grafiks"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "Šodien"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "Rīt"
+
+msgid "skill/category/firesupport"
+msgstr "Uzbrukuma Rezerves"
+
+msgid "skill/category/reconnaissance"
+msgstr "Izlūkošanas Rezerves"
+
+msgid "skill/category/tactics"
+msgstr "Taktiskās Rezerves"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "Novērošanas režīma kamera"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "Rotēt kameru ar peli."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "Izmantojiet W,A,S,D, lai pārvietotu kameru pa karti."
+
+msgid "spectator_mode/follow_text"
+msgstr "Nospiediet KPP, lai sekotu."
+
+msgid "spectator_mode/follow_title"
+msgstr "Sekot"
+
+msgid "spectator_mode/msg_text"
+msgstr "Tanks ierodas pēc:"
+
+msgid "spectator_mode/msg_title"
+msgstr "Visa bruņutehnika iznīcināta!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "Uzspiediet atkārtoti, lai beigtu sekot."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "Beigt sekot"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "Bloķēta"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Pametiet zonu!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Atjauno dzīvības punktus"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Atjauno dzīvības punktus"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Iedvesmojošs"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "Iedvesmojošs"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Papildināšanas aplis"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Iekš dūmiem: apslēpts."
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "Iekš dūmiem. Skata attālums un apkalpes sniegums ir samazināts."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "Atjaunošanās laiks. Skata attālums un apkalpes sniegums samazināts."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "Sargs aktivizēts"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "Aktivizē %(activationDelay)s s pēc tanka apstāšanās"
+
+msgid "super_platoon_panel/title"
+msgstr "Vads"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "- kopējais komandas bouss apkalpes sniegumam par Ģenerāļa klātbūtni."
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "Visi virzieni"
+
+msgid "tab_screen/show_my_lane"
+msgstr "Mani virzieni"
+
+msgid "team1Name"
+msgstr "Uzbrucēji"
+
+msgid "team2Name"
+msgstr "Aizstāvji"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "Izvēlieties balvas par pabeigtiem Frontes Līnijas Līmeņiem (%(number)s)."
+
+msgid "tooltips/common/disabled"
+msgstr "Režīms Nav Pieejams"
+
+msgid "tooltips/common/title"
+msgstr "Frontes Līnija"
+
+msgid "tooltips/end"
+msgstr "Pasākums ir beidzies"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "Kaujas Rezervju atslēgšanas secība ir atkarīga no tanka tipa. Viena Kaujas Rezerve ir pieejama no sākuma, kamēr citas atslēdzas attiecīgi sasniedzot Seržanta un Leitnanta pakāpes."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "Atslēgšana: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "<font color='#E9E2BF'>Likteņa Pagrieziens</font> scenārijā, Kaujas Rezerves nopirkšana palielinās tās līmeni par vienu un sniegs iespēju uzlabot to līdz <font color='#E9E2BF'>IV</font> Līmenim."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "Kaujas Rezerve novietota šajā vietā palielina iespēju tai tikt piedāvātai <font color='#E9E2BF'>Likteņa Pagrieziens</font> scenārijā par <font color='#E9E2BF'>10%</font>."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "Atslēgšana un Rezervju Uzlabošana Kaujā"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "Kaujas Rezerves tiek atslēgtas un uzlabotas kaujā, atkarībā no jūsu tanka un sasniegtās pakāpes."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "Rezervju Konfigurācijas Tanku Iznīcinātājiem"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "Rezervju Konfigurācijas Artilērijām"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "Rezervju Konfigurācijas Smagajiem Tankiem"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "Rezervju Konfigurācijas Vieglajiem Tankiem"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "Rezervju Konfigurācijas Vidējiem Tankiem"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "pēc visu Kaujas Rezervju atslēgšanas sasniedzot jaunas pakāpes, šīs Kaujas Rezerves ir uzlabotas. Sākumā atslēgtā Kaujas Rezerve var tikt uzlabota līdz III Līmenim, un otrā atslēgtā Kaujas Rezerve var tikt uzlabota līdz II Līmenim."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "Uzlabošana: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "Vieta tiks atslēgta sasniedzot %(rank)s rangu."
+
+msgid "tooltips/timeToEnd"
+msgstr "Režīms pieejams: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "Kaujas sāksies pēc: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "Pasākums ir beidzies"
+
+msgid "tooltips/widget/level"
+msgstr "%(level)s Līmenis"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "Sasniegts maksimālais līmenis."
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "KAUJAS REZERVES"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Visos serveros ir spēkā Pamiers. Kaujas būs pieejamas pēc %(time)s"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "Kaujas ir ceļā"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Izvēlieties citu serveri"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "Detaļas"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "Frontes Līnijas režīms ir beidzies."
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "Frontes Līnijas Scenāriji"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Šajā serverī ir spēkā Pamiers. Kaujas būs pieejamas pēc %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "%(serverName)s serverī ir spēkā Pamiers"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "Kaujas sāksies pēc: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "Nospiediet, lai uzzinātu vairāk par Frontes Līnijas\nscenārijiem un atšķirībām starp tiem."
+
+msgid "zone/arrived_text"
+msgstr "Ieradās!"
+
+msgid "zone/capture_text"
+msgstr "Ieņemšana"
+
+msgid "zone/captured_text"
+msgstr "Ieņemts"
+
+msgid "zone/defend_text"
+msgstr "Nosargāt"
+
+msgid "zone/destroy_text"
+msgstr "Iznīciniet"
+
+msgid "zone/destroyed_text"
+msgstr "Iznīcinātie"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "Pretinieku papildspēki"
+
+msgid "zone/headquarters_text"
+msgstr "Mērķi"
+
+msgid "zone/leave_zone"
+msgstr "Pametiet zonu!"
+
+msgid "zone/lost_text"
+msgstr "Pazaudēts"
+
+msgid "zone/reached_text"
+msgstr "Sasniegts"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "Pretinieku papildspēki:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "Papildspēki:"
+
+msgid "zone/reinforcements_text"
+msgstr "Papildspēki"
+
+msgid "zone/time_added"
+msgstr "Minūtes pievienotas: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "%(minutes)s minūtes atlikušas"
+
+msgid "zone/zone_text"
+msgstr "Zona"

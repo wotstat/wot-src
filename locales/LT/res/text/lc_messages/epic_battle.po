@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "Tvarkyti rezervus"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "Paspauskite norėdami pasirinkti galimą kovinį rezervą."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "Bombos"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "Poveikio zona"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "Apkurtinti"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "Dislokavimas"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "Minų kiekis"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "Minų lauko trukmė"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "Apkurtinti"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "Žalos spindulys"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "Trukmė"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "Sviediniai"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "Atstatymas"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "Dislokavimas"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "Trukmė"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "Atstatytų patvarumo taškų kiekis"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "Iš karto atstatomų patvarumo taškų kiekis aktyvavus"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "Gautos minų žalos sumažinimas"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "Bonusas patvarumo taškų atstatymo greičiui būnant Pasipildymo srityje"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "Įgulos efektyvumas"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "Trukmė"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "Liekamojo efekto trukmė"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "Veikimo spindulys"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "Jūsų mašinos įgulos efektyvumas"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "Padidinta apsauga"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "Užėmimo bonusas"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "Pasipildymo srities atsinaujinimas"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "Amunicijos papildymo greitis"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "Atvykimo laikas"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "Poveikio zona"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750 m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "Žvalgybos trukmė"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "Sumažintas įgulos efektyvumas"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "Dūmų granatos"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "Poveikio zona"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "Trukmė"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "Sumažintas priešų apžvalgos atstumas"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "Maskuotės sumažinimas priešų mašinoms už augmenijos"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "Maskuotės sumažinimas judančioms priešų mašinoms"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "Trukmė"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "Bonusas stovinčios mašinos maskuotei"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "Pasyvus bonusas apžvalgos atstumui"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "Rezervo lygis"
+
+msgid "abilityInfo/properties/static"
+msgstr "Pastovios charakteristikos"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "s"
+
+msgid "advance_message_txt"
+msgstr "Ženk į Fronto liniją"
+
+msgid "advance_mission_txt"
+msgstr "Ženk į Fronto liniją"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "SCENARIJŲ INFORMACIJA"
+
+msgid "awards/acceptButton"
+msgstr "Tikrai taip!"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "GAUTI APDOVANOJIMAI"
+
+msgid "awards/subTitle2"
+msgstr "GAUTAS APDOVANOJIMAS"
+
+msgid "awards/title"
+msgstr "FRONTO LINIJA"
+
+msgid "base/contested_atk"
+msgstr "Varžomasi"
+
+msgid "base/contested_def"
+msgstr "Atakuojama"
+
+msgid "battleResults/armor"
+msgstr "Šarvų naudojimas"
+
+msgid "battleResults/assistance"
+msgstr "Pagalba"
+
+msgid "battleResults/crits"
+msgstr "Kritinė žala"
+
+msgid "battleResults/damage"
+msgstr "Žala"
+
+msgid "battleResults/kill"
+msgstr "Sunaikinti"
+
+msgid "battleResults/spotting"
+msgstr "Aptikta"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "x1 asmeninis rezervas: %(effectValue)s įgulos patirčiai %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "x1 asmeninis rezervas: %(effectValue)s laisvajai patirčiai %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "x1 asmeninis rezervas: %(effectValue)s kovinei patirčiai %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Atakuokite taikinį %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Ginkite taikinį %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Dėmesio į poziciją!"
+
+msgid "command_shortcut/title"
+msgstr "Komandos"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "Frontas užblokuotas - pasiekta žaidėjų riba"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "Pavojinga zona"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "Frontas užblokuotas - pasiekta mašinų tipo riba"
+
+msgid "dialogs/quotedName"
+msgstr "\"%(name)s\""
+
+msgid "dialogs/title/buy/item"
+msgstr "Pirkti %(name)s %(type)s?"
+
+msgid "dialogs/title/buy/items"
+msgstr "Pirkti %(type)s?"
+
+msgid "dialogs/title/install/item"
+msgstr "Panaudoti %(name)s %(type)s?"
+
+msgid "dialogs/title/install/items"
+msgstr "Panaudoti %(type)s?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "Sukaupkite reikiamą taškų kiekį ir aktyvuokite Fronto linijos kovinius rezervus."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "Sukaupkite reikiamą taškų kiekį ir aktyvuokite Fronto linijos kovinius rezervus."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "Kovinių rezervų taškai"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "%(level)s mašinos bus atrakintos kovai užėmus/praradus bet kurį tašką antroje linijoje (D, E, ar F)."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "%(lvl)s lygio"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "Pasirinktie VIII lygio mašiną režimui Fronto linija."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "Netinkama mašina"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "Išmokti"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "Maks."
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "Koviniai rezervai"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "Vado lygis"
+
+msgid "epictraining/info/otherLabel"
+msgstr "Nepaskirstyti žaidėjai: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "Puolėjai ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "Gynėjai ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "Visos priešo mašinos sunaikintos"
+
+msgid "game/all_hqs_destroyed"
+msgstr "Visi taikiniai sunaikinti"
+
+msgid "game/all_tanks_defeated"
+msgstr "Visa sąjungininkų technika sunaikinta"
+
+msgid "game/defeat"
+msgstr "Pralaimėjimas!"
+
+msgid "game/draw"
+msgstr "Lygiosios!"
+
+msgid "game/time_over"
+msgstr "Taikiniai nebuvo sunaikinti"
+
+msgid "game/victory"
+msgstr "Pergalė!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "Sunaikinkite taikinius!"
+
+msgid "global_msg/atk/time_short"
+msgstr "Užimkite zoną!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "Ginkite taikinius!"
+
+msgid "global_msg/def/time_short"
+msgstr "Ginkite zonas!"
+
+msgid "global_msg/lane/center_short"
+msgstr "Pastiprinkite zoną %(strArg1)s!"
+
+msgid "global_msg/lane/east_short"
+msgstr "Pastiprinkite zoną %(strArg1)s!"
+
+msgid "global_msg/lane/west_short"
+msgstr "Pastiprinkite zoną %(strArg1)s!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "Saugokite savo tankus!"
+
+msgid "help_window/communication"
+msgstr "Dengiama zona"
+
+msgid "help_window/communication/description"
+msgstr "Jūs gausite nurodymus tik iš tų sąjungininkų, kurie yra matomi jūsų mini žemėlapyje arba kai nurodymo taikinys yra jūsų lauke."
+
+msgid "help_window/overview_map"
+msgstr "Žemėlapio peržiūra"
+
+msgid "help_window/overview_map/description"
+msgstr "Žemėlapio peržiūra naudinga norint susidaryti taktinį ir strateginį viso mūšio lauko vaizdą. Kai žemėlapio peržiūra atidaryta, visos komandos pranešimai yra gaunami ir siunčiami."
+
+msgid "help_window/recovery"
+msgstr "Atsistatymas"
+
+msgid "help_window/recovery/description"
+msgstr "Pasinaudokite atsistatymu, jeigu jūsų mašina užstrigo mūšio lauke. Šis funkcionalumas reikalingas dėl padidėjusios mūšio trukmės ir atsiradusios galimybės grįžti į mūšį."
+
+msgid "help_window/reserves"
+msgstr "Mašinų rezervas"
+
+msgid "help_window/reserves/description"
+msgstr "Kas penkias minutes viena mašina yra pridedama prie jūsų rezervo. Rezerve maksimaliai gali būti dvi mašinos. Jeigu mašinų nebelieka, jūs turite palaukti kol jos bus pristatytos."
+
+msgid "hq/under_attack_atk"
+msgstr "Atakuojama"
+
+msgid "hq/under_attack_def"
+msgstr "Atakuojama"
+
+msgid "in_game_rank/experience_text"
+msgstr "Patirtis"
+
+msgid "lane_central_name"
+msgstr "Centras"
+
+msgid "lane_east_name"
+msgstr "Rytai"
+
+msgid "lane_west_name"
+msgstr "Vakarai"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "%(lvl)s lygis"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "Pasirinkti negalima: jūs neturite kovinių rezervų taškų."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "Kovinis rezervas yra maksimalaus lygio."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "Tobulinimas negalimas: jūs neturite kovinių rezervų taškų."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "Kovinis rezervas nenusipirktas"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "Kovinių rezervų lygis padidinamas pasiekus kapitono ir majoro rangus mūšio metu. Didžiausias lygis priklauso nuo mūšio scenarijaus."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "Pirkinio kaina: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "Pagrindinis taikinys"
+
+msgid "mission/title"
+msgstr "Misija"
+
+msgid "mission/zone_closing_atk"
+msgstr "Zona atsidaro po: "
+
+msgid "mission/zone_closing_def"
+msgstr "Priešų bombardavimas po: "
+
+msgid "missions/primary/atk/base"
+msgstr "Užimkite zoną"
+
+msgid "missions/primary/atk/hq"
+msgstr "Sunaikinkite taikinį"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s iš %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "Sunaikinta taikinių:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "Užimkite zonas norėdami pasiekti pagrindinius taikinius ir sunaikinkite juos."
+
+msgid "missions/primary/def/base"
+msgstr "Ginkite zoną"
+
+msgid "missions/primary/def/hq"
+msgstr "Ginkite taikinį"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s iš %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "Prarasta taikinių:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "Apginkite pagrindinius taikinius kol baigsis laikas arba sunaikinkite visus puolėjus."
+
+msgid "missions/unlockTankLevel"
+msgstr "Pasiekiamos IX lygio mašinos"
+
+msgid "overtime/label"
+msgstr "PRATĘSIMAS"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "Negalima aktyvuoti dviejų vienodų rezervų"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "Negalima pakloti minų lauko. Minų laukai susikerta."
+
+msgid "primeTime/applyBtn"
+msgstr "Pereiti"
+
+msgid "primeTime/cancelBtn"
+msgstr "Atšaukti"
+
+msgid "primeTime/continueBtn"
+msgstr "Pratęsti"
+
+msgid "primeTime/endOfCycle"
+msgstr "Režimas serveryje %(server)s baigėsi."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "Pasiekiami serveriai:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "Pasiekiamas serveris: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "Serveryje %(server)s mūšiai bus pasiekiami dar: %(time)s"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "Artimiausi mūšiai serveryje %(server)s po %(time)s"
+
+msgid "primeTime/serverTooltip"
+msgstr "Serveryje %(server)s\nmūšiai bus pasiekiami dar: %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Mūšiai bus pasiekiami po %(time)s"
+
+msgid "primeTime/servers"
+msgstr "Pasiekiami serveriai: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Mūšiai %(server)s serveryje baigėsi"
+
+msgid "primeTime/status/disable"
+msgstr "Jūs galite pereiti į Fronto linijos serverį ir pratęsti pasiruošimą mūšiui."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "Režimas nepasiekiamas serveryje %(server)s"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "Paliaubos galioja serveryje %(server)s iki %(startTime)s"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "Paliaubos galioja visuose serveriuose"
+
+msgid "primeTime/status/thisEnable"
+msgstr "Serveryje %(server)s Fronto linija pasiekiama dar %(time)s."
+
+msgid "primeTime/steelhunter/title"
+msgstr "PLIENINIS MEDŽIOTOJAS"
+
+msgid "primeTime/title"
+msgstr "FRONTO LINIJA"
+
+msgid "primeTime/titleWelcome"
+msgstr "SVEIKI ATVYKĘ\nĮ FRONTO LINIJĄ"
+
+msgid "progress_timers/active"
+msgstr "Aktyvuota"
+
+msgid "progress_timers/fully_equipped"
+msgstr "Pilnai paruošta"
+
+msgid "progress_timers/resupply"
+msgstr "Pasipildymo sritis"
+
+msgid "progress_timers/unavailable"
+msgstr "Nepasiekiama"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "Fronto linijos misijos"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "mažiau nei 1 d."
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "pasiekite %(level)s lygį"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "Naujos misijos bus pasiekiamos po %(time)s"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "Plieninio medžiotojo misijos"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "Fronto linija baigiasi po: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "Nepasiekiama: %(reason)s."
+
+msgid "rank/allReserveUpgraded"
+msgstr "Visų kovinių rezervų lygis padidintas"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "Komandinis bonusas įgulos efektyvumui padidintas iki +%(percent)s%%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "Didžiausias įgulos efektyvumas pasiekiamas ties +%(percent)s%%"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "Komandinis bonusas įgulos efektyvumui +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "Žaidėjas"
+
+msgid "rank/promotion"
+msgstr "paaukštintas iki %(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "Eilinis"
+
+msgid "rank/rank2"
+msgstr "Seržantas"
+
+msgid "rank/rank3"
+msgstr "Leitenantas"
+
+msgid "rank/rank4"
+msgstr "Kapitonas"
+
+msgid "rank/rank5"
+msgstr "Majoras"
+
+msgid "rank/rank6"
+msgstr "Generolas"
+
+msgid "rank/recerveUnlocked"
+msgstr "Atrakintas kovinis rezervas %(reserveName)s"
+
+msgid "rank/reserveUpgraded"
+msgstr "Pagerintas kovinis rezervas %(reserveName)s"
+
+msgid "rank/slotUnlocked"
+msgstr "%(slotNumber)s kovinis rezervas atrakintas"
+
+msgid "rank/slot_2"
+msgstr "Antras"
+
+msgid "rank/slot_3"
+msgstr "Trečias"
+
+msgid "recovery/Blocked"
+msgstr "Laikinai\nužblokuota"
+
+msgid "recovery/disabled"
+msgstr "Atsistatymas negalimas"
+
+msgid "recovery_panel/base_text"
+msgstr "Paspauskite J\natsistatymui"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "Judėkite ar šaukite norėdami atsisakyti."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "Atsistatymas\natšauktas"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "Atsistatymas\nužsakytas"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "Užimkite kitą bazę"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "Pastiprinimas po "
+
+msgid "reinforcement/unavailable"
+msgstr "Pastiprinimas negalimas"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s s iki automatinio dislokavimo."
+
+msgid "respawn/deploy_button"
+msgstr "Į mūšį!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "Pagerintos ekipuotės mūšyje nusipirkti negalima."
+
+msgid "respawn/shop_title"
+msgstr "Servisas"
+
+msgid "respawn/tanks_left"
+msgstr "liko mašinų"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "Pasirinkite mašiną ir dislokavimo zoną"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "Dislokavimas šioje zonoje pavojingas."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s sekundžių"
+
+msgid "retreat_message_txt"
+msgstr "Atsitraukite"
+
+msgid "retreat_mission_txt"
+msgstr "Atsitraukite į kitą zoną"
+
+msgid "rewardSelection/subTitle"
+msgstr "PASIRINKITE SAVO APDOVANOJIMĄ"
+
+msgid "rewardSelection/title"
+msgstr "FRONTO LINIJA"
+
+msgid "scorePanel/stage1"
+msgstr "Etapas 1"
+
+msgid "scorePanel/stage2"
+msgstr "Etapas 2"
+
+msgid "scorePanel/stage3"
+msgstr "Etapas 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "Jūsų kompiuterio galingumo šiam režimui nepakanka. Jus galite pamatyti grafikos iškraipymus bei patirti nesklandumų judant mašinai. Gali nulūžti žaidimo klientas."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "Žema greitaveika"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "Jeigu žema greitaveika, pabandykite sumažinti grafikos kokybę nustatymuose."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "Šis režimas reikalauja daug kompiuterio resursų"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "Šis režimas reikalauja daug kompiuterio resursų. Jūs patirsite problemų užkraunant žemėlapį, išvysite grafikos iškraipymus ir patirsite nesklandumų judant mašinai. Jeigu žaidimas veikia lėtai, pabandykite sumažinti grafikos kokybę nustatymuose."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "Žema greitaveika"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "30 prieš 30 mūšiai su %(bodyVehicleLevel)s. Pasinaudokite prisikėlimo mechanika, koviniais rezervais bei papildymo sritimis."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "%(level)s lygio mašinomis"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "30 prieš 30 mūšiai su %(bodyVehicleLevel)s. Pasinaudokite prisikėlimo mechanika, koviniais rezervais bei remontu mūšyje."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "Režimas laikinai nepasiekiamas dėl techninių problemų."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "Fronto linija"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "Mūšiai prasideda po: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "Mūšiai baigiasi po: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "Mūšių tvarkaraštis"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "Šiandien"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "Rytoj"
+
+msgid "skill/category/firesupport"
+msgstr "Atakos rezervai"
+
+msgid "skill/category/reconnaissance"
+msgstr "Žvalgybos rezervai"
+
+msgid "skill/category/tactics"
+msgstr "Taktiniai rezervai"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "Stebėtojo režimo kamera"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "Pasukite kamerą su pele."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "Naudodamiesi W,A,S,D klavišais judėkite su kamera po žemėlapį."
+
+msgid "spectator_mode/follow_text"
+msgstr "Nuspauskite kairį pelės mygtuką norėdami sekti."
+
+msgid "spectator_mode/follow_title"
+msgstr "Sekti"
+
+msgid "spectator_mode/msg_text"
+msgstr "Mašina atvyks po:"
+
+msgid "spectator_mode/msg_title"
+msgstr "Visi tankai sunaikinti!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "Paspauskite dar kartą norėdami nebesekti."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "Nebesekti"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s val"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min."
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "Užblokuota"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Palikite zoną!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Patvarumo taškų atstatymas"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Patvarumo taškų atstatymas"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Motyvuoja"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "Motyvuoja"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Pasipildymo sritis"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Dūmuose: užmaskuota."
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "Dūmų viduryje. Apžvalgos atstumas ir įgulos efektyvumas sumažėjo."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "Liekamasis efektas. Apžvalgos atstumas ir įgulos efektyvumas sumažėjo."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "Sergėtojas aktyvuotas"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "Aktyvuojasi praėjus %(activationDelay)s sek. kai mašina sustoja"
+
+msgid "super_platoon_panel/title"
+msgstr "Būrys"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "— visas komandos bonusas įgulos efektyvumui esant generolui."
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "Visi frontai"
+
+msgid "tab_screen/show_my_lane"
+msgstr "Mano frontas"
+
+msgid "team1Name"
+msgstr "Puolėjai"
+
+msgid "team2Name"
+msgstr "Gynėjai"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "Pasirinkite apdovanojimus už baigtus Fronto linijos lygius (%(number)s)."
+
+msgid "tooltips/common/disabled"
+msgstr "Režimas nepasiekiamas"
+
+msgid "tooltips/common/title"
+msgstr "Fronto linija"
+
+msgid "tooltips/end"
+msgstr "Renginys baigėsi"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "kovinių rezervų atrakinimo tvarka priklauso nuo mašinos tipo. Vienas kovinis rezervas pasiekiamas nuo pradžių, kiti atrakinami pasiekus atitinkami seržanto ir leitenanto rangus."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "Atrakinimas: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "Žaisdami pagal <font color='#E9E2BF'>Likimo posūkio</font> scenarijų ir nusipirkę kovinį rezervą, pakelsite jo lygį ir taip gausite galimybę pagerinti jį iki <font color='#E9E2BF'>IV</font> lygio."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "Šioje vietoje įdėtas kovinis rezervas <font color='#E9E2BF'>10%</font> padidina šansus jį gauti žaidžiant pagal <font color='#E9E2BF'>Likimo posūkio</font> scenarijų."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "Rezervų atrakinimas ir pagerinimas mūšyje"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "Koviniai rezervai atrakinami ir pagerinami mūšyje, tai priklauso nuo mašinos tipo ir pasiekto rango."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "Rezervų konfigūracijos prieštankiniams"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "Rezervų konfigūracijos artilerijai"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "Rezervų konfigūracijos sunkiesiems tankams"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "Rezervų konfigūracijos lengviesiems tankams"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "Rezervų konfigūracijos vidutiniams tankams"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "atrakinus visus kovinius rezervus ir pasiekiant naujus rangus, koviniai rezervai yra pagerinami. Pirmasis atrakintas kovinis rezervas gali būti pakeltas iki III lygio, o antrasis atrakintas kovinis rezervas gali būti pagerintas iki II lygio."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "Pagerinimas: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "Jungtis bus atrakinta pasiekus rangą %(rank)s."
+
+msgid "tooltips/timeToEnd"
+msgstr "Režimas pasiekiamas: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "Mūšiai prasidės po: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "Renginys baigėsi"
+
+msgid "tooltips/widget/level"
+msgstr "%(level)s lygis"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "Pasiektas maksimalus lygis."
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "KOVINIAI REZERVAI"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Paliaubos galioja visuose serveriuose. Mūšiai bus pasiekiami po %(time)s"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "Mūšiai prasidės jau netrukus"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Pasirinkite kitą tanką"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "Detaliau"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "Fronto linijos režimas baigėsi."
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "Fronto linijos scenarijai"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Paliaubos galioja serveryje. Mūšiai bus pasiekiami po %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Paliaubos galioja %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "Mūšiai prasidės po: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "Paspaudę sužinosite daugiau apie Fronto linijos\nscenarijus ir jų skirtumus."
+
+msgid "zone/arrived_text"
+msgstr "Atvyko!"
+
+msgid "zone/capture_text"
+msgstr "Užėmimas"
+
+msgid "zone/captured_text"
+msgstr "Užimta"
+
+msgid "zone/defend_text"
+msgstr "Apginti"
+
+msgid "zone/destroy_text"
+msgstr "Sunaikinti"
+
+msgid "zone/destroyed_text"
+msgstr "Sunaikinti"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "Priešų pastiprinimas"
+
+msgid "zone/headquarters_text"
+msgstr "Tikslai"
+
+msgid "zone/leave_zone"
+msgstr "Palikite zoną!"
+
+msgid "zone/lost_text"
+msgstr "Prarasta"
+
+msgid "zone/reached_text"
+msgstr "Pasiekta"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "Priešų pastiprinimas:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "Pastiprinimas:"
+
+msgid "zone/reinforcements_text"
+msgstr "Pastiprinimas"
+
+msgid "zone/time_added"
+msgstr "Pridėta minučių: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "Liko %(minutes)s minutės"
+
+msgid "zone/zone_text"
+msgstr "Zona"

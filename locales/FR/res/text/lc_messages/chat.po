@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: Traducteur WoT <noreply@wargaming.net>\nLanguage-Team: Équipe WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Général"
+
+msgid "channels/battle/team"
+msgstr "Équipe"
+
+msgid "channels/clan"
+msgstr "Clan"
+
+msgid "channels/common"
+msgstr "Général"
+
+msgid "channels/epic_training"
+msgstr "Entraînement - Ligne de front"
+
+msgid "channels/nubs"
+msgstr "Recrues"
+
+msgid "channels/prebattle"
+msgstr "En attente de bataille"
+
+msgid "channels/special_battles"
+msgstr "Bataille spéciale"
+
+msgid "channels/squad"
+msgstr "Peloton"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Le peloton a été créé. Veuillez attendre que tous les joueurs soient prêts."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Peloton"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Le peloton a été créé. Tous les joueurs sont prêts."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Peloton"
+
+msgid "channels/system"
+msgstr "Système"
+
+msgid "channels/tournament"
+msgstr "Tournoi"
+
+msgid "channels/trading"
+msgstr "Commerce"
+
+msgid "channels/training"
+msgstr "Entraînement"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "L'administrateur du canal est aussi modérateur."
+
+msgid "errors/addmoderatorowner"
+msgstr "Le propriétaire du canal est aussi modérateur."
+
+msgid "errors/banchannelowner"
+msgstr "Le propriétaire du canal ne peut être banni."
+
+msgid "errors/banchatadmin"
+msgstr "L'administrateur du canal ne peut être banni."
+
+msgid "errors/banned"
+msgstr "Vous avez été banni par %(banOwnerNick)s jusqu'au %(banEndTime)s. Motif : %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Vous avez été banni par %(banOwnerNick)s. Motif : %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Vous avez été banni jusqu'au %(banEndTime)s. Motif : %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Vous avez été banni. Motif : %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "La commande %(command)s a été bloquée pour %(cooldownPeriod)s s."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Les droits de modérateur ne peuvent être retirés de l'administrateur du canal."
+
+msgid "errors/delmoderatorowner"
+msgstr "Les droits de modérateur ne peuvent être retirés du propriétaire du canal."
+
+msgid "errors/timeincorrect"
+msgstr "Le paramètre 'time' doit être une valeur positive en minutes[1-1440] ou bien être 'permanent'"
+
+msgid "errors/toomanyargs"
+msgstr "Trop de paramètres."
+
+msgid "errors/toosmallargs"
+msgstr "Nombre de paramètres insuffisant."
+
+msgid "errors/userbanhimself"
+msgstr "Vous ne pouvez pas vous bannir."
+
+msgid "messages/userbanned"
+msgstr "%(banedUser)s a été banni par %(banOwnerNick)s jusqu'au %(banEndTime)s. Motif : %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "%(banedUser)s a été banni par %(banOwnerNick)s. Motif : %(banReason)s"

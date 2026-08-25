@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "Lovitura energetică e gata de utilizare."
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "Lovitura vampirică e gata de utilizare."
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "Lovitura de șoc e gata de utilizare."
+
+msgid "LS_damageShieldReady"
+msgstr "Scutul energetic e gata de utilizare."
+
+msgid "LS_doubleDamageReady"
+msgstr "Daune duble e gata de utilizare."
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "Daune situaționale este pregătită."
+
+msgid "LS_fastReloadReady"
+msgstr "Reîncărcarea rapidă e gata de utilizare."
+
+msgid "LS_healSituationalReady"
+msgstr "Reparații situaționale este pregătită."
+
+msgid "LS_invisibilityReady"
+msgstr "Vindecarea din umbră e gata de utilizare."
+
+msgid "LS_nitroReady"
+msgstr "Turbocompresor e gata de utilizare."
+
+msgid "LS_pickupSouls"
+msgstr "Ai strâns %(souls)s articol(e) Mirium"
+
+msgid "LS_selfRepairReady"
+msgstr "Reparațiile de urgență sunt gata de utilizare."
+
+msgid "LS_situationalNitroReady"
+msgstr "Mobilitate situațională este pregătită."
+
+msgid "LS_teamRepairKitReady"
+msgstr "Reparațiile de grup sunt gata de utilizare."
+
+msgid "LS_teamRepairKitUsed"
+msgstr "%(player)s a activat Reparații de grup."
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "Reparații de grup activate."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "Atenție la zonă: %(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "Apără-l pe ATLAS!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "Apără-l pe ATLAS"
+
+msgid "arena/marker/move_to_camp"
+msgstr "Conduc spre zonă!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "Îl apăr pe ATLAS"
+
+msgid "arena/phase"
+msgstr "Faza %(current)s din %(total)s"
+
+msgid "arena/wave"
+msgstr "Valul %(current)s din %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Se&nbsp;apropie Aricii!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Se&nbsp;apropie Ariciul Alfa!"
+
+msgid "battleHint/clearTheArea"
+msgstr "Eliberează zona!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "Grăbește-te! Zero este aproape de&nbsp;ATLAS!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "Zero distrus!\nInamici rămași: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "Inamici de distrus: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "date, %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Vehicule reparate"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "Scut conferit"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "Inamicii în șoc"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "Obeliskul %(name)s a fost distrus!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Regen"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "Barrier"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "Glitch"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "Zone de apariție detectate! Inamicii sosesc!"
+
+msgid "battleHint/hunter"
+msgstr "Se&nbsp;apropie Vânătorii!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "Val distrus!"
+
+msgid "battleHint/leftToDestroy"
+msgstr "Inamici rămași de distrus:"
+
+msgid "battleHint/missing_squad"
+msgstr "Se apropie Plutonul Pierdut!"
+
+msgid "battleHint/newWave"
+msgstr "Valul {current} din {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "A apărut un Obelisk!"
+
+msgid "battleHint/stopConvoy"
+msgstr "Oprește-l pe Zero!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "Oprește-l pe Zero\nînainte să ajungă la ATLAS!"
+
+msgid "battleHint/trapper"
+msgstr "Distruge Puitorul de capcane pentru a&nbsp;opri apariția zonelor distructive."
+
+msgid "battleHint/turret"
+msgstr "Mosquito s-au trezit!"
+
+msgid "battleHint/waveFinished"
+msgstr "Val distrus!\nRegrupează-te și pregătește-te!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "Regrupează-te și pregătește-te!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "Întăririle inamice au&nbsp;sosit!"
+
+msgid "common/close"
+msgstr "ÎNCHIDE"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "Durata: %(time)s s"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Daune după zonă"
+
+msgid "damageLog/static_death_zone"
+msgstr "Daune după zonă"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "Incendiat cu Pirokinezie"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "Daune prin lovitură energetică"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "Daune prin explozie"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "Daune prin Vampir"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "Daune situaționale activate"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "Reparații situaționale activate"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "Daune prin lovitură energetică"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "Daune prin Lovitură vampirică"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "Saune prin Lovitură de șoc"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "Invulnerabilitate a modulelor"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "Mobilitate situațională activată"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "Restaurare"
+
+msgid "efficiencyRibbons/repair"
+msgstr "Vehicul reparat"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "Vehicul reparat de"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "Vehicul reparat de aliat"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "Aliați reparați"
+
+msgid "eventStats/activeWave"
+msgstr "Valul %(num)s"
+
+msgid "eventStats/difficulty"
+msgstr "Dificultate: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "Ultima Redută: Terra Nord"
+
+msgid "eventStats/globalTask"
+msgstr "Obiectiv: Distruge toate valurile inamice"
+
+msgid "eventStats/mission"
+msgstr "Distruge toate valurile inamice"
+
+msgid "eventStats/tableCaption"
+msgstr "Membrii echipei"
+
+msgid "help/description_0"
+msgstr "Distruge toate valurile inamice pentru a învinge.\nInamicii devin mai puternici cu fiecare val succesiv."
+
+msgid "help/description_1"
+msgstr "Combinația corectă de componente tactice poate deveni extrem de puternică.\nNu uita: directivele și toate tipurile de proiectile sunt gratuite în modul Ultima redută."
+
+msgid "help/description_2"
+msgstr "Avarierea unui Obelisk transferă o parte din daune către vehiculele inamice, iar distrugerea unuia conferă un bonus aleatoriu."
+
+msgid "help/description_3"
+msgstr "Protejează-l cu orice preț pe ATLAS de tancul-ecou final, Zero. Dacă acesta ajunge la ATLAS, îl va distruge, iar lupta va fi pierdută."
+
+msgid "help/title"
+msgstr "ULTIMA REDUTĂ: TERRA NORD"
+
+msgid "help/title_0"
+msgstr "VALURILE DE ATAC INAMICE"
+
+msgid "help/title_1"
+msgstr "SFATURI PENTRU SUPRAVIEȚUIRE"
+
+msgid "help/title_2"
+msgstr "UTILIZEAZĂ OBELISK-URILE ÎN LUPTĂ"
+
+msgid "help/title_3"
+msgstr "APĂRĂ-L PE ATLAS"
+
+msgid "helpScreen/hint/description"
+msgstr "pentru a vedea regulile modului"
+
+msgid "helpScreen/hint/press"
+msgstr "Apasă"
+
+msgid "hitMarker/useless"
+msgstr "Inutilizabil!"
+
+msgid "loading/description_0"
+msgstr "Distruge toate valurile inamice pentru a învinge.\nInamicii devin mai puternici cu fiecare val succesiv."
+
+msgid "loading/description_1"
+msgstr "Combinația corectă de componente tactice poate deveni extrem de puternică.\nNu uita: directivele și toate tipurile de proiectile sunt gratuite în modul Ultima redută."
+
+msgid "loading/description_2"
+msgstr "Avarierea unui Obelisk transmite o parte din daune către vehiculele inamice, iar distrugerea unuia conferă un bonus aleatoriu."
+
+msgid "loading/description_3"
+msgstr "Protejează-l cu orice preț pe ATLAS de tancul-ecou final, Zero. Dacă acesta ajunge la ATLAS, îl va distruge, iar lupta va fi pierdută."
+
+msgid "loading/title"
+msgstr "Se încarcă..."
+
+msgid "loading/title_0"
+msgstr "VALURILE DE ATAC INAMICE"
+
+msgid "loading/title_1"
+msgstr "SFATURI PENTRU SUPRAVIEȚUIRE"
+
+msgid "loading/title_2"
+msgstr "UTILIZEAZĂ OBELISK-URILE ÎN LUPTĂ"
+
+msgid "loading/title_3"
+msgstr "APĂRĂ-L PE ATLAS"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "Nu pot utiliza [%(name)s]: motorul e distrus."
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "Nu pot utiliza [%(name)s]: tunul e avariat."
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "Tunul e încărcat."
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "Nu pot utiliza [%(name)s]: insuficient Mirium pentru a activa componenta."
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "Vehiculul nu e avariat."
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "Nu pot utiliza [%(name)s]: vehiculul se îneacă."
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "Nu pot utiliza [%(name)s]: vehiculul e incendiat."
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "Nu pot utiliza [%(name)s]: vehiculul e răsturnat."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Aliatul %(target)s distrus de explozia inamică (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Aliatul %(target)s zdrobit."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Aliatul %(target)s distrus de zona de distrugere."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Aliatul %(target)s distrus."
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "Dacă echipa ta reușește să elimine valul."
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "VEI REAPĂREA"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "Lupta ta s-a încheiat.\nAi luptat bine!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Vehicul distrus de zona de distrugere"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "Vehicul distrus de Lovitura energetică"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "Vehicul distrus de Pirokinezie"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "Vehicul distrus de Vampir"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "Vehicul distrus de explozie"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "Vehicul zdrobit"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Modulul [%(device)s] a explodat lovit de jucător"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "Vehicul distrus în incendiu"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Vehicul distrus. Timpul a expirat."
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "Vehicul distrus de proiectil inamic"
+
+msgid "prebattle/description/message"
+msgstr "Obiectiv: Distruge toate valurile inamice"
+
+msgid "prebattle/description/title"
+msgstr "Ultima Redută: Dificultatea %(difficulty)s"
+
+msgid "prebattle/difficulty/107"
+msgstr "Standard"
+
+msgid "prebattle/difficulty/108"
+msgstr "Avansată"
+
+msgid "prebattle/difficulty/109"
+msgstr "Brutală"
+
+msgid "prebattle/waiting/title"
+msgstr "În aşteptarea jucătorilor..."
+
+msgid "radialMenu/attention_here"
+msgstr "Necesit apărare"
+
+msgid "radialMenu/cancel"
+msgstr "Anulează"
+
+msgid "radialMenu/confirm"
+msgstr "Recepționat!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "Conduc spre zonă!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "Apăr"
+
+msgid "radialMenu/obelisk"
+msgstr "Voi distruge Obeliskul!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "Distruge Obeliskul!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "Scut energetic"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "Înapoi pe șenile..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "Părăsește\nzona periculoasă!"
+
+msgid "teamList/teammates"
+msgstr "Aliați"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "Dezactivează chat-ul vocal"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "Activează chat-ul vocal"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "Apasă pentru a vorbi"

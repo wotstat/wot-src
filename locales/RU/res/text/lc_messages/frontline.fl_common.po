@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Сбросить фильтры"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Нет машин, подходящих по выбранным параметрам.\nСбросьте настройки фильтра, чтобы увидеть подходящую технику."
+
+msgid "battleType/description/fast"
+msgstr "Сценарий, в котором боевые резервы имеют уменьшенное время подготовки."
+
+msgid "battleType/description/random"
+msgstr "Сценарий, в котором игрок выбирает из наборов случайных резервов с возможностью их усиления до уровня IV."
+
+msgid "battleType/description/standard"
+msgstr "Сценарий, в котором действуют стандартные правила «Линии фронта»."
+
+msgid "battleType/postBattle/title"
+msgstr "Сценарий боя: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Уменьшенное время подготовки резервов."
+
+msgid "battleType/shortDescription/random"
+msgstr "Боевые резервы выдаются случайным образом."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Действуют стандартные правила."
+
+msgid "battleType/title/fast"
+msgstr "Оперативная поддержка"
+
+msgid "battleType/title/random"
+msgstr "Воля случая"
+
+msgid "battleType/title/standard"
+msgstr "Стандартный бой"
+
+msgid "battleType/title/wrapper"
+msgstr "«%(name)s»"
+
+msgid "button/back"
+msgstr "НАЗАД"
+
+msgid "button/close"
+msgstr "ЗАКРЫТЬ"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} день"
+msgstr[1] "{duration} дня"
+msgstr[2] "{duration} дней"
+
+msgid "filterPopover/note"
+msgstr "Здесь отображаются только подходящие для режима машины."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Повышение уровней боевых резервов происходит с получением нового звания."
+
+msgid "levelReservesTooltip/info"
+msgstr "Покупка боевого резерва в сценарии {whiteSpanish_Start}«Воля случая»{whiteSpanish_End} повысит его уровень на 1 и откроет возможность его усиления до уровня {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/level"
+msgstr "Повышается на звании: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Доступен на звании: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Уровень {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "Для {whiteSpanish_Start}купленных резервов{whiteSpanish_End} в сценарии боя {whiteSpanish_Start}«Воля случая»{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/title"
+msgstr "Уровни резервов"
+
+msgid "loading"
+msgstr "Загрузка..."
+
+msgid "widget/eventStartSoon"
+msgstr "Событие скоро начнётся!"
+
+msgid "widget/maxTier"
+msgstr "Вы достигли максимального уровня!"

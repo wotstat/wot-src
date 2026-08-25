@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "backButton/label"
+msgstr "TAKAISIN"
+
+msgid "backButton/to"
+msgstr "TILIN TILAAN"
+
+msgid "filteredMapsDisplayed"
+msgstr "Näytetyt kartat: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Näytä/piilota tämän typpiset kartat."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Aavikkokartat"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Kesäkartat"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Talvikartat"
+
+msgid "header/cooldown"
+msgstr "Voit korvata kartan jälleen %(cooldownEndTime) kuluttua."
+
+msgid "header/title"
+msgstr "Estetyt kartat"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Voit korvata tämän kartan jäähtymisajan jälkeen."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Kartan korvaaminen ei saatavilla"
+
+msgid "mapTile/hoverExclude"
+msgstr "Estä %(mapName) kartta?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Estä"
+
+msgid "mapTile/hoverInclude"
+msgstr "Sisällytä %(mapName) kartta satunnaistaisteluihin?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Sisällytä"
+
+msgid "mapsFilterLabel"
+msgstr "Karttatyypit:"
+
+msgid "notSelected"
+msgstr "Ei valittu"
+
+msgid "premium"
+msgstr "WoT Premium"
+
+msgid "slot/disabledTooltipBody"
+msgstr "Lisäpaikka on saatavilla vain aktiivisille WoT Premium-tilille tai WoT Plus -tilaukselle.."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "Avaa se WoT Premium-tilillä."
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Avaa se aktiivisella WoT Plus -tilauksella."
+
+msgid "slot/replaceTooltipBody"
+msgstr "Valitse kartta alla olevalta listalta korvataksesi sen ja estääksesi sen satunnaistaisteluista."
+
+msgid "slot/selectTooltipBody"
+msgstr "Valitse kartta alla olevalta listalta estääksesi se satunnaistaisteluista."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Paikka saatavilla"
+
+msgid "totalMapsDisplayed"
+msgstr "Näytetyt kartat: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "Estä yksi kartta enemmän %(linkPremium) ja %(mapCount)s enemmän %(linkWotPlus)."
+msgstr[1] "Estä yksi kartta enemmän %(linkPremium) ja %(mapCount)s enemmän %(linkWotPlus)."
+
+msgid "unlock/premium"
+msgstr "Estä yksi kartta enemmän %(linkPremium)."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "Estä %(mapCount)s kartta enemmän %(linkWotPlus)."
+msgstr[1] "Estä %(mapCount)s karttaa enemmän %(linkWotPlus)."
+
+msgid "wotplus"
+msgstr "WoT Plussalla"

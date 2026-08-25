@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "domain/accuracy/description"
+msgstr "Un set de parametri care afișează eficiența generală a focului asupra inamicului."
+
+msgid "domain/accuracy/name"
+msgstr "Eficiența de foc"
+
+msgid "domain/armorPiercing/description"
+msgstr "Un set de parametri care afișează abilitatea vehiculelor de a penetra blindajul inamic."
+
+msgid "domain/armorPiercing/name"
+msgstr "Penetrare"
+
+msgid "domain/battleParams/description"
+msgstr "Un set de parametri care afișează mecanicile de bază ale jocului."
+
+msgid "domain/battleParams/name"
+msgstr "Parametrii de luptă"
+
+msgid "domain/comp7LightSeasonModifiers/description"
+msgstr "Modificatorii specifici ai modului care schimbă parametrii vehiculului."
+
+msgid "domain/comp7LightSeasonModifiers/name"
+msgstr "Modificatorii Violență Simplificată"
+
+msgid "domain/comp7SeasonModifiers/description"
+msgstr "Modificatorii specifici ai modului care schimbă parametrii vehiculului."
+
+msgid "domain/comp7SeasonModifiers/name"
+msgstr "Modificatorii Violență"
+
+msgid "domain/concealment/description"
+msgstr "Un set de parametri care afișează abilitatea vehiculelor de a rămâne nedescoperit."
+
+msgid "domain/concealment/name"
+msgstr "Camuflaj"
+
+msgid "domain/damageDealing/description"
+msgstr "Un set de parametri care afișează abilitatea vehiculelor de a provoca daune."
+
+msgid "domain/damageDealing/name"
+msgstr "Provocarea de daune"
+
+msgid "domain/mobility/description"
+msgstr "Set de parametri care definesc caracteristicile dinamice și de viteză ale vehiculului."
+
+msgid "domain/mobility/name"
+msgstr "Manevrabilitate și dinamică"
+
+msgid "domain/randomization/description"
+msgstr "Un set de parametri care afișează valorile potențiale de daune și penetrare."
+
+msgid "domain/randomization/name"
+msgstr "Valori aleatorii"
+
+msgid "domain/sustaining/description"
+msgstr "Un set de parametri care afișează recuperarea modulelor avariate/membrilor de echipaj răniți."
+
+msgid "domain/sustaining/name"
+msgstr "Repararea"
+
+msgid "domain/visibility/description"
+msgstr "Un set de parametri care afișează abilitatea vehiculelor de a descoperi inamicii."
+
+msgid "domain/visibility/name"
+msgstr "Raza vizuală"
+
+msgid "domain/vitality/description"
+msgstr "Un set de parametri care afișează abilitatea vehiculului de a supraviețui în lupte."
+
+msgid "domain/vitality/name"
+msgstr "Rezistența"
+
+msgid "modifier/name/aimingTime"
+msgstr "Timpul de ochire"
+
+msgid "modifier/name/ammoBayHealth"
+msgstr "Durabilitatea compartimentului muniției"
+
+msgid "modifier/name/autoreloadTime"
+msgstr "Timpul de reîncărcare pentru vehiculele cu autoreîncărcător"
+
+msgid "modifier/name/battleLength"
+msgstr "Durata luptei"
+
+msgid "modifier/name/bkMaxSpeed"
+msgstr "Viteza maximă în marșarier"
+
+msgid "modifier/name/burstInterval"
+msgstr "Timpul de reîncărcare a proiectilelor în casetă"
+
+msgid "modifier/name/chassisHealth"
+msgstr "Durabilitatea carenei"
+
+msgid "modifier/name/clipInterval"
+msgstr "Timpul de reîncărcare între lovituri în casetă"
+
+msgid "modifier/name/damageRandomization"
+msgstr "Raza daunelor potențiale"
+
+msgid "modifier/name/deviceDamageFirst"
+msgstr "Daunele modulului intern"
+
+msgid "modifier/name/dispFactorAfterShot"
+msgstr "Dispersia după foc"
+
+msgid "modifier/name/dispFactorChassisMovement"
+msgstr "Dispersia în mișcare"
+
+msgid "modifier/name/dispFactorChassisRotation"
+msgstr "Dispersia la rotația carenei"
+
+msgid "modifier/name/dispFactorTurretRotation"
+msgstr "Dispersia la rotația turelei"
+
+msgid "modifier/name/dispFactorWhileGunDamaged"
+msgstr "Dispersia tunului avariat"
+
+msgid "modifier/name/engineFireFactor"
+msgstr "Riscul de incendiu al motorului"
+
+msgid "modifier/name/engineHealth"
+msgstr "Durabilitatea motorului"
+
+msgid "modifier/name/enginePower"
+msgstr "Puterea motorului"
+
+msgid "modifier/name/envChassisDamage"
+msgstr "Daunele suspensiei la impact"
+
+msgid "modifier/name/envHullDamage"
+msgstr "Daunele carenei la impact"
+
+msgid "modifier/name/envModuleDamageChance"
+msgstr "Daunele altor module la impact"
+
+msgid "modifier/name/envTankmanDamageChance"
+msgstr "Rănirea echipajului la impact"
+
+msgid "modifier/name/equipmentCooldown"
+msgstr "Timpul de resetare al consumabilelor"
+
+msgid "modifier/name/fuelTankHealth"
+msgstr "Durabilitatea rezervorului de combustibil"
+
+msgid "modifier/name/fwMaxSpeed"
+msgstr "Viteza maximă de înaintare"
+
+msgid "modifier/name/gravityFactor"
+msgstr "Gravitația vehiculului"
+
+msgid "modifier/name/gunHealth"
+msgstr "Durabilitatea tunului"
+
+msgid "modifier/name/gunRotationSpeed"
+msgstr "Viteza de rotație a tunului în cabina staționară"
+
+msgid "modifier/name/invisibilityOnMove"
+msgstr "Camuflajul în mișcare"
+
+msgid "modifier/name/invisibilityOnStill"
+msgstr "Camuflajul vehiculului staționar"
+
+msgid "modifier/name/normalizationAngle"
+msgstr "Normalizarea proiectilului"
+
+msgid "modifier/name/piercingPowerRandomization"
+msgstr "Raza potențialului de penetrare"
+
+msgid "modifier/name/radioDistance"
+msgstr "Raza semnalului"
+
+msgid "modifier/name/reloadTime"
+msgstr "Timpul de reîncărcare"
+
+msgid "modifier/name/repairSpeed"
+msgstr "Viteza reparațiilor"
+
+msgid "modifier/name/ricochetAngle"
+msgstr "Unghiul de ricoșeu al proiectilului. Cu atât mai ascuțit, cu atât mai mare este șansa de ricoșeu"
+
+msgid "modifier/name/rotationSpeedOnStill"
+msgstr "Viteza de rotație a carenei"
+
+msgid "modifier/name/shellGravity"
+msgstr "Gravitația proiectilului"
+
+msgid "modifier/name/shellSpeed"
+msgstr "Viteza proiectilelor"
+
+msgid "modifier/name/shotDispersionRadius"
+msgstr "Dispersia la 100 m"
+
+msgid "modifier/name/surveyingDeviceHealth"
+msgstr "Durabilitatea opticii"
+
+msgid "modifier/name/turretPressureDamage"
+msgstr "Daunele de presiune a turelei smulse"
+
+msgid "modifier/name/turretRammingDamage"
+msgstr "Daunele turelei smulse"
+
+msgid "modifier/name/turretRotationSpeed"
+msgstr "Viteza de rotație a turelei"
+
+msgid "modifier/name/turretRotatorHealth"
+msgstr "Durabilitatea turelei"
+
+msgid "modifier/name/twinGunReloadTime"
+msgstr "Încărcarea tunului în modul de foc în salvă"
+
+msgid "modifier/name/vehicleAoIRadius"
+msgstr "Distanța de desenare"
+
+msgid "modifier/name/vehicleHealth"
+msgstr "Durabilitatea vehiculului"
+
+msgid "modifier/name/vehiclePressureDamage"
+msgstr "Daune prin presiune"
+
+msgid "modifier/name/vehicleRammingDamage"
+msgstr "Daune prin coliziune"
+
+msgid "modifier/name/visionMinRadius"
+msgstr "Raza descoperirii de proximitate"
+
+msgid "modifier/name/visionRadius"
+msgstr "Raza vizuală"
+
+msgid "modifier/name/visionTime"
+msgstr "Perioada de vizibilitate"
+
+msgid "modifier/name/zeroDamage"
+msgstr "Daunele provocate de lovituri și coliziuni"
+
+msgid "modifier/name/zeroEconomy"
+msgstr "Resurse cheltuite și obținute în modurile de luptă"
+
+msgid "modifiersDomainTooltip/restrict/max"
+msgstr "nu&nbsp;mai mult de&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/min"
+msgstr "nu&nbsp;mai puțin de&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/oneRestriction"
+msgstr "(dar {restriction})"
+
+msgid "modifiersDomainTooltip/restrict/twoRestriction"
+msgstr "(dar {min}, {max})"
+
+msgid "modifiersDomainTooltip/subtitle/plural"
+msgstr "Modificatorii afectează următorii parametri:"
+
+msgid "modifiersDomainTooltip/subtitle/single"
+msgstr "Modificatorul afectează următorul parametru:"

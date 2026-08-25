@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Cisza nocna {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} – {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Wydarzenie będzie dostępne od"
+
+msgid "bannerTooltip/description"
+msgstr "Ogromne bitwy 30 na 30 w pojazdach {{vehicleTier}} poziomu na mapach Normandia, Kraftwerk i Fatamorgana. Atakujący muszą zniszczyć 3 z 5 dział dużego kalibru, a obrońcy muszą je chronić."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Pokaż swoje umiejętności w zaciętych bitwach, aby zdobyć sławę, odebrać cenne nagrody i piąć się po drabinie stopni."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Wydarzenie skończyło się i masz nieodebrane nagrody za ukończone poziomy Linii frontu."
+
+msgid "bannerTooltip/header"
+msgstr "Linia frontu"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Linia frontu | Poziom {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} – Tryb gry. Kliknij, aby poznać więcej"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Ten tryb wymaga wysokiej wydajności komputera. Zaobserwujesz problemy z wczytywaniem mapy, grafiką i ruchem pojazdu. W przypadku niewystarczającej wydajności spróbuj obniżyć jakość grafiki w ustawieniach."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Możliwe obniżenie wydajności"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Wybierz nagrody za ukończone poziomy ({{value}})"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Za mało funduszy, aby dokonać zakupu."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Zmiany zostaną zastosowane do wszystkich niszczycieli czołgów."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Zmiany zostaną zastosowane do wszystkich dział samobieżnych."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Zmiany zostaną zastosowane do wszystkich czołgów ciężkich."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Zmiany zostaną zastosowane do wszystkich czołgów lekkich."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Zmiany zostaną zastosowane do wszystkich czołgów średnich."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Niekompatybilny pojazd"
+
+msgid "battleAbilities/points/body"
+msgstr "Zbierz wymaganą liczbę punktów i aktywuj rezerwy bojowe Linii frontu."
+
+msgid "battleAbilities/points/header"
+msgstr "Punkty rezerw bojowych"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Zobacz rezerwy szturmowe"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Rezerwy szturmowe"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Zobacz rezerwy zwiadowcze"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Rezerwy zwiadowcze"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Zobacz rezerwy taktyczne"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Rezerwy taktyczne"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Poziom rezerwy bojowej rośnie po osiągnięciu w bitwie stopni kapitana i majora. Maksymalny poziom jest określony przez scenariusz bitwy."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Informacje dodatkowe"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Rezerwy szturmowe"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Rezerwy zwiadowcze"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Rezerwy taktyczne"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Trwałe charakterystyki:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Umieszczenie rezerwy bojowej w tym miejscu podnosi o {{@ colorLegacy 'FFE4C0'}}10%{{/}} szanse na to, że zostanie zaproponowana w scenariuszu {{@ colorLegacy 'FFE4C0'}}Zakręty losu{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Poziom rezerwy:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Nie kupiono!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Wydarzenie skończyło się."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Wydarzenie niedługo się zacznie!"
+
+msgid "infoButton/body"
+msgstr "Kliknij, aby uzyskać dodatkowe informacje."
+
+msgid "infoButton/header"
+msgstr "O wydarzeniu"
+
+msgid "levelReserves/desc"
+msgstr "Poziomy rezerwy bojowej rosną po osiągnięciu nowych stopni:"
+
+msgid "levelReserves/info"
+msgstr "W scenariuszu {{@ colorLegacy 'FFE4C0'}}Zakręty losu{{/}} zakup rezerwy bojowej podnosi jej poziom o jeden i daje możliwość ulepszenia jej do poziomu {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}."
+
+msgid "levelReserves/level"
+msgstr "Rośnie po osiągnięciu następującego stopnia: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Dostępny z następującym stopniem: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Poziom - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "Dla {{@ colorLegacy 'FFE4C0'}}kupionych rezerw bojowych{{/}} w scenariuszu {{@ colorLegacy 'FFE4C0'}}Zakręty losu{{/}}."
+
+msgid "levelReserves/title"
+msgstr "Poziomy rezerwy bojowej"
+
+msgid "playlist/warning/body"
+msgstr "Playlista zawiera pojazdy nieodpowiednie do tego trybu gry albo nieobecne w garażu."
+
+msgid "playlist/warning/header"
+msgstr "Niedostępne pojazdy (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Charakterystyki rezerwy bojowej zostały ulepszone"
+
+msgid "randomReserve/disable"
+msgstr "Miejsce na rezerwę bojową zostało wykorzystane."
+
+msgid "randomReserve/notPurchased"
+msgstr "Nie kupiono rezerwy bojowej"
+
+msgid "randomReserve/purchased"
+msgstr "Kupiono rezerwę bojową"
+
+msgid "skillOrderTooltip/body"
+msgstr "Każdy typ pojazdu ma swoją własną kolejność odblokowywania rezerw:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Kolejność odblokowywania rezerw bojowych"
+
+msgid "skillOrderTooltip/info"
+msgstr "W scenariuszu {{@ colorLegacy 'whiteSpanish'}}Zakręty losu{{/}}kolejność odblokowywania rezerw bojowych nie zależy od typu pojazdu."

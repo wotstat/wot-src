@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "PIRKT"
+
+msgid "buttons/cancel"
+msgstr "Atcelt"
+
+msgid "buttons/learn"
+msgstr "Izpētīt"
+
+msgid "buttons/postProgression/claim"
+msgstr "SAŅEMT"
+
+msgid "buttons/postProgression/hint"
+msgstr "IET UZ PĒC-PROGRESIJU"
+
+msgid "buttons/postProgression/howTo"
+msgstr "KĀ IEGŪT"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Apmaiņas likme:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "Pielietots izvēlētajam apkalpes loceklim.\nPaātrina pašreizējās iemaņas trenēšanu izmantojot Brīvo Pieredzi."
+
+msgid "card/freeExp/title"
+msgstr "BRĪVĀ PIEREDZE"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Iemaņas efektivitāte: 100%\n• Specializācija: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Pielietots visai apkalpei.\nSniedz katram apkalpes loceklim %(xp)."
+
+msgid "card/nationBook/title/brochure"
+msgstr "TRENIŅA BUKLETS (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "TRENIŅA ROKASGRĀMATA (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "TRENIŅA GIDS (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Pielietots bez ierobežojumiem."
+
+msgid "card/personalBook/mainText"
+msgstr "Pielietots izvēlētajam apkalpes loceklim.\nSniedz šim apkalpes loceklim %(xp)"
+
+msgid "card/personalBook/title"
+msgstr "PERSONISKĀ TRENIŅA ROKASGRĀMATA"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Iemaņas efektivitāte: 100%\n• Specializācija: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Pielietots visai apkalpei.\nSniedz katram apkalpes loceklim %(xp)."
+
+msgid "card/universalBook/title/universalBook"
+msgstr "UNIVERSĀLĀ ROKASGRĀMATA"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "UNIVERSĀLAIS BUKLETS"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "UNIVERSĀLAIS GIDS"
+
+msgid "confirm/crewLabel"
+msgstr "Katrs apkalpes loceklis saņems %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Katrs apkalpes loceklis saņems %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) saņems papildus %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) saņems %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Daži apkalpes locekļi saņems %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Treniņa Buklets (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Treniņa Buklets"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "TRENIŅA BUKLETS"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} Apkalpes Pieredze katram apkalpes loceklim."
+
+msgid "items/crewBook/Name"
+msgstr "Treniņa Rokasgrāmata (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Treniņa Rokasgrāmata"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "TRENIŅA ROKASGRĀMATA"
+
+msgid "items/guide/Name"
+msgstr "Treniņa Gids (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Treniņa Gids"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "TRENIŅA GIDS"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} pieredze izvēlētajam apkalpes loceklim"
+
+msgid "items/personalBook/Name"
+msgstr "Personālā Treniņa Rokasgrāmata"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} Apkalpes Pieredze katram apkalpes loceklim."
+
+msgid "items/universalBook/Name"
+msgstr "Universālā Rokasgrāmata"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} pieredze katram apkalpes loceklim."
+
+msgid "items/universalBrochure/Name"
+msgstr "Universālais Buklets"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} pieredze katram apkalpes loceklim."
+
+msgid "items/universalGuide/Name"
+msgstr "Universālais Gids"
+
+msgid "page/mentoringLicense/hint"
+msgstr "DOTIES UZ MĀCĪBU LICENCI"
+
+msgid "page/mentoringLicense/title"
+msgstr "MĀCĪBU LICENCE"
+
+msgid "page/title"
+msgstr "ĀTRĀ APMĀCĪBA"
+
+msgid "tooltip/buyManual"
+msgstr "Pērciet Treniņa Rokasgrāmatas"
+
+msgid "tooltip/mouseWheel"
+msgstr "Paritiniet {mouseIcon}, lai palielinātu / samazinātu Apkalpes Grāmatu skaitu."
+
+msgid "tooltip/outOfStock"
+msgstr "Nav atlikušu Apkalpes Grāmatu"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Nav atlikušu Apkalpes Grāmatu. Pērciet šīs Apkalpes Grāmatas Veikalā."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Pielietots izvēlētajam apkalpes loceklim. Sniedz šim apkalpes loceklim %(xp)s pieredzi."
+
+msgid "tooltip/postProgression"
+msgstr "Iet uz Pēc-Progresiju"
+
+msgid "tooltip/sale/header"
+msgstr "Izdevīga Apmaiņas Likme"
+
+msgid "tooltip/sale/newRate"
+msgstr "Jauna apmaiņas likme: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Iepriekšējā apmaiņas likme: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Nospiediet %(controlsImg), lai palielinātu / samazinātu iemaņas treniņa līmeni par 1%."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Nospiediet %(pgupImg) / %(pgdownImg), lai palielinātu iemaņas treniņa līmeni līdz&nbsp;100% / ietu&nbsp;atpakaļ uz iepriekšējo iemaņu."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Pielietots visai apkalpei. Sniedz katram apkalpes loceklim %(xp)s pieredzi."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Pielietots visai apkalpei. Sniedz katram apkalpes loceklim %(xp)s pieredzi."

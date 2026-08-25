@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To:\nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "battleQuestAwards/button"
+msgstr "Тъй вярно!"
+
+msgid "battleQuestAwards/stPatrick/subTitle"
+msgstr "СТОМАНЕН ЛОВЕЦ: ТРИЛИСТНО СЪРЕВНОВАНИЕ"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "СТОМАНЕН ЛОВЕЦ"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "ПОСЛЕДНИЯТ ЕТАП Е ЗАВЪРШЕН!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "ЕТАП %(level)s Е ЗАВЪРШЕН!"
+
+msgid "dailyBonus/description"
+msgstr "%(dailyBonus)s Бонус за Щастливи печати за това, че сте сред топ %(soloTopPlaces)s играчи в самостоятелни битки или сред топ %(squadTopPlaces)s в битки във взвод. Бонусът може да се активира веднъж на ден за всяка машина за събитието."
+
+msgid "eventShop"
+msgstr "Магазин"
+
+msgid "leaveBattleView/confirmation/cancel"
+msgstr "Остани"
+
+msgid "leaveBattleView/confirmation/submit"
+msgstr "Дезертирай"
+
+msgid "leaveBattleView/description"
+msgstr "Вашите машини все още могат да се бият. Ако напуснете битката сега, няма да получите никакви награди за това. Сигурни ли сте, че искате да напуснете битката?"
+
+msgid "leaveBattleView/title"
+msgstr "Дезертиране от бойното поле"
+
+msgid "leaveBattleView/warning"
+msgstr "Няма да получите награди!"
+
+msgid "progress/counter"
+msgstr "{{current}}{{divider}}{{total}}"
+
+msgid "progressionComplete"
+msgstr "Основният напредък е завършен!"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s или %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/questsTotal/text"
+msgstr "Изпълнени мисии: "
+
+msgid "progressionView/battleQuests/timer/eventResetTime/text"
+msgstr "Събитието завършва след:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Мисиите ще бъдат актуализирани след"
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/seasonRange"
+msgstr "%(startDate)s – %(endDate)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Прогресията е завършена. Продължете да играете \"Стоманен ловец\", за да печелите още награди."
+
+msgid "progressionView/subTitle/endEvent"
+msgstr "Събитието завърши. Мисиите и напредъкът вече не са достъпни."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Изпълнявайте мисии, за да спечелите точки за напредък.\nБроят точки, които печелите, също зависи от позицията ви в битката. %(infotip)s"
+
+msgid "proxy_currency_tooltip/earn/description/brcoin"
+msgstr "Получавайте стоманени печати за ефективна битка, постигане на високи позиции в резултатите от битката и завършване на мисиите в режима."
+
+msgid "proxy_currency_tooltip/earn/description/stpcoin"
+msgstr "Получавайте Щастливи печати за събиране на трофеи в битка, завършване на етапи на напредък и заемане на челни позиции в Стоманен ловец."
+
+msgid "proxy_currency_tooltip/earn/title/brcoin"
+msgstr "Как се печелят печати"
+
+msgid "proxy_currency_tooltip/earn/title/stpcoin"
+msgstr "Как се печелят печати"
+
+msgid "proxy_currency_tooltip/spend/description/brcoin"
+msgstr "Използвайте спечелените стоманени печати, за да закупите стиловете за Стоманен ловец."
+
+msgid "proxy_currency_tooltip/spend/description/stpcoin"
+msgstr "Разменете вашите спечелени Щастливи печати за ценни награди в Магазина на Трилистника."
+
+msgid "proxy_currency_tooltip/spend/title/brcoin"
+msgstr "За какво да похарчите печатите"
+
+msgid "proxy_currency_tooltip/spend/title/stpcoin"
+msgstr "За какво да похарчите печатите"
+
+msgid "proxy_currency_tooltip/title/brcoin"
+msgstr "Стоманени печати"
+
+msgid "proxy_currency_tooltip/title/stpcoin"
+msgstr "Щастливи печати"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Дава се за изпълнение на специални мисии в Стоманен ловец. Те ви позволяват да напредвате през прогресията."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Точки за напредък на Стоманен ловец"
+
+msgid "rewardCurrencyTooltip/body/battlePassPoints"
+msgstr "Точки се получават за изиграване на битки и изпълнение на специални мисии. Те се добавят автоматично към напредъка за Боен пропуск."
+
+msgid "rewardCurrencyTooltip/body/brProgressionToken"
+msgstr "Дават се за изпълнение на мисии за Стоманен ловец и за добри резултати в битка. Позволяват ви да изпълнявате напредъка."
+
+msgid "rewardCurrencyTooltip/body/brcoin"
+msgstr "Стоманени печати се получават за ефективна игра в битки, постигане на високи позиции в резултатите от битка и за изпълнение на специални мисии."
+
+msgid "rewardCurrencyTooltip/body/credits"
+msgstr "Основната игрова валута. Печели се в битки или се купува със злато."
+
+msgid "rewardCurrencyTooltip/body/crystal"
+msgstr "Рядка специална валута, използвана за купуване на уникални предмети, недостъпни по друг начин."
+
+msgid "rewardCurrencyTooltip/body/stpcoin"
+msgstr "Валута, която може да бъде спечелена в битките на Стоманен ловец. Печатите могат да се обменят за уникални награди в Магазина на Трилистника. Когато играят във взвод, печатите се разделят по равно между членовете на взвода. Посочената сума е вашата част от общата печалба."
+
+msgid "rewardCurrencyTooltip/body/xp"
+msgstr "Опитът, получен със специални машини, може да бъде прехвърлен в Свободен опит."
+
+msgid "rewardCurrencyTooltip/dailyBonus/stpcoin"
+msgstr "Приложен е бонус! Броят на печатите, получени в битка, се увеличава %(count)s пъти."
+
+msgid "rewardCurrencyTooltip/header/battlePassPoints"
+msgstr "Точки за Боен пропуск"
+
+msgid "rewardCurrencyTooltip/header/brProgressionToken"
+msgstr "Точки за напредък на Стоманен ловец"
+
+msgid "rewardCurrencyTooltip/header/brcoin"
+msgstr "Стоманени печати"
+
+msgid "rewardCurrencyTooltip/header/credits"
+msgstr "Кредити"
+
+msgid "rewardCurrencyTooltip/header/crystal"
+msgstr "Бонове"
+
+msgid "rewardCurrencyTooltip/header/stpcoin"
+msgstr "Щастливи печати"
+
+msgid "rewardCurrencyTooltip/header/xp"
+msgstr "Боен опит"
+
+msgid "rewardCurrencyTooltip/premiumBonus/brcoin"
+msgstr "Танковият премиум акаунт повишава печеленото количество от тази валута с 50%."
+
+msgid "rewardCurrencyTooltip/premiumBonus/credits"
+msgstr "Танковият премиум акаунт повишава печеленото количество от тази валута с 50%."
+
+msgid "rewardCurrencyTooltip/premiumBonus/xp"
+msgstr "Танковият премиум акаунт повишава печеленото количество свободен опит с 50%."
+
+msgid "serviceChannelMessages/awards"
+msgstr "Получена награда:"
+
+msgid "serviceChannelMessages/body"
+msgstr "Завършихте етап на напредъка %(stage)s в режим %(progressionName)s."
+
+msgid "serviceChannelMessages/header"
+msgstr "Поздравления!"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Подробности"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Стоманен ловец"
+
+msgid "tab/label/platoon"
+msgstr "ВЗВОД"
+
+msgid "tab/label/solo"
+msgstr "СОЛО"
+
+msgid "tab/label/team"
+msgstr "С ПРИЯТЕЛ"
+
+msgid "tooltip/banner/description"
+msgstr "Динамична битка в жанра \"последният оцелял\" в постапокалиптична обстановка. Бийте се с осем специални машини, които могат да се ъпгрейдват по време на битка, ставайки все по-силни с всяко ниво. Очакват ви ексклузивни награди и още много други!"
+
+msgid "tooltip/banner/mode/description"
+msgstr "- режим на игра. Натиснете, за да разучите"
+
+msgid "tooltip/banner/mode/label"
+msgstr "РЕЖИМ"
+
+msgid "tooltip/banner/performanceRisk/description/high"
+msgstr "Производителността на вашия компютър е недостатъчна за този режим. Може да се наблюдават проблеми с графиката и движението на машините. Възможно е и блокиране на клиента на играта."
+
+msgid "tooltip/banner/performanceRisk/description/medium"
+msgstr "Този режим изисква висока производителност на компютъра. Ще имате проблеми със зареждане на картите, графиката и движението на машините. В случай на недостатъчна производителност, опитайте по-ниски настройки на графиката."
+
+msgid "tooltip/banner/performanceRisk/title/high"
+msgstr "Ниска производителност"
+
+msgid "tooltip/banner/performanceRisk/title/medium"
+msgstr "Възможно е понижаване на производителността"
+
+msgid "tooltip/banner/stPatrickDescription"
+msgstr "Динамична битка в жанра \"последният оцелял\" с нотка зелена магия. Бийте се с осем специални машини, които могат да се ъпгрейдват по време на битка, ставайки все по-силни с всяко ниво. Очакват ви ексклузивни награди и още много други!"
+
+msgid "tooltip/banner/stPatrickTitle"
+msgstr "Трилистно съревнование"
+
+msgid "tooltip/banner/timer/text/accent"
+msgstr "Събитието е налично за %(timer)s"
+
+msgid "tooltip/banner/timer/text/cooldown"
+msgstr "Примирие %(timer)s"
+
+msgid "tooltip/banner/title"
+msgstr "Стоманен ловец"
+
+msgid "tooltip/daily_quests/header"
+msgstr "Изпълнена"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Нови мисии на Стоманен ловец след {{timeLeft}}"
+
+msgid "tooltip/daily_quests/reward"
+msgid_plural "plural/tooltip/daily_quests/reward"
+msgstr[0] "Награда:"
+msgstr[1] "Награди:"
+msgstr[2] "Награди:"
+
+msgid "tooltip/daily_quests/text"
+msgstr "Всички мисии са изпълнени!"
+
+msgid "tooltip/progressionWidget/description/completed"
+msgstr "Стабилна работа, командире. Продължавайте все така!"
+
+msgid "tooltip/progressionWidget/description/header"
+msgstr "Основният напредък е завършен!"
+
+msgid "tooltip/progressionWidget/description/inProgress"
+msgstr "За да напреднете в прогресията, изпълнете мисии и достигнете най-високите позиции в битките на Стоманен ловец."
+
+msgid "tooltip/progressionWidget/subTitle"
+msgstr "Режимът приключва след %(value)s"
+
+msgid "tooltip/progressionWidget/title"
+msgstr "Стоманен ловец"
+
+msgid "tooltip/quest/header"
+msgstr "Мисия за Стоманен ловец"
+
+msgid "tooltip/shop/stPatrick/subtitle"
+msgstr "Разменете своите {ede6d9_Open}щастливи печати{ede6d9_Close} за специални награди."
+
+msgid "tooltip/shop/stPatrick/text"
+msgstr "Получавайте Щастливи печати за събиране на трофеи в битка, завършване на етапи на напредък и заемане на челни позиции в кралската битка."
+
+msgid "tooltip/shop/stPatrick/title"
+msgstr "Магазин на Трилистника"
+
+msgid "tooltip/shop/subtitle"
+msgstr "Разменете своите {ede6d9_Open}стоманени печати{ede6d9_Close} за специални награди."
+
+msgid "tooltip/shop/text"
+msgstr "Печелете стоманени печати, като се представяте ефективно в битка, класирате се високо в резултатите след битката и изпълнявате мисии."
+
+msgid "tooltip/shop/title"
+msgstr "Магазин за Стоманен ловец"
+
+msgid "upgrades/description"
+msgstr "Нанасяйте поражения на вражески машини и събирайте военни трофеи на картата, за да получавате опит и да напредвате през нивата. Всяко достигнато ниво ви позволява да надстроите модул от менюто за ъпгрейд и значително да подобрите характеристиките на машината си."
+
+msgid "upgrades/footer"
+msgstr "Модулите могат да бъдат ъпгрейднати само в битка."
+
+msgid "upgrades/subtitle"
+msgstr "Влизате в битка с машина ниво I."
+
+msgid "upgrades/title"
+msgstr "Ъпгрейди на машината в битка"

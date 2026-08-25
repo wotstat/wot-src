@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Ulkonaliikkumiskielto {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}}–{{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Tapahtuma tulee saataville"
+
+msgid "bannerTooltip/description"
+msgstr "Massiivisia 30v30 taisteluita tason {{vehicleTier}} vaunuilla Normandie, Kraftwerk ja Fata Morgana kartoilla. Hyökkääjien tulee tuhota kolme viidestä suurikaliiperisesta tykistä, kun puolustajien täytyy suojella niitä."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Näytä osaamisesi intensiivisissä taisteluissa ansaitaksesi kunniaa, napataksesi arvokkaita palkintoja ja kohotaksesi sotilasarvoissa."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Tapahtuma on päättynyt ja sinulla on vastaanottoa odottavia palkintoja suoritetuista Etulinjan tasoista."
+
+msgid "bannerTooltip/header"
+msgstr "Etulinja"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Etulinja | Taso {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} – Pelimuoto. Klikkaa tutkiaksesi"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Tämä pelimuoto vaatii hyvää suorituskykyä tietokoneelta. Kohtaat ongelmia kartan lataamisen, grafiikoiden ja vaunujen liikkeen kanssa. Mikäli kohtaat ongelmia, koeta heikentää grafiikan laatua asetuksista."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Mahdollisesti heikentynyt suorituskyky"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Valitse palkinto suoritetuista tasoista ({{value}})."
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Ei riittävästi varoja ostoon."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Muutokset otetaan käyttöön kaikille PST-vaunuille."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Muutokset otetaan käyttöön kaikille telatykeille."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Muutokset otetaan käyttöön kaikille raskaille vaunuille."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Muutokset otetaan käyttöön kaikille kevyille vaunuille."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Muutokset otetaan käyttöön kaikille raskaille vaunuille."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Yhteensopimaton vaunu"
+
+msgid "battleAbilities/points/body"
+msgstr "Kerää vaadittu määrä pisteitä ja aktivoi Etulinjan taistelureservejä."
+
+msgid "battleAbilities/points/header"
+msgstr "Taistelureservipisteet"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Näytä hyökkäysreservit"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Hyökkäysreservit"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Näytä tiedustelureservit"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Tiedustelureservit"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Näytä taktiset reservit"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Taktiset reservit"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Taistelureservin tasoa parannetaan saavutettaessa kapteenin ja majurin arvot taistelussa. Maksimitaso määrittyy taisteluskenaarion mukaan."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Lisätietoa"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Hyökkäysreservit"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Tiedustelureservit"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Taktiset reservit"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Pysyvät ominaisuudet:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Tähän paikkaan asetettu reservi parantaa todennäköisyyttä, jolla se tulee tarjolle {{@ colorLegacy 'FFE4C0'}}\"Kohtalon oikku\"{{/}} -skenaariossa {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Reservin taso:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Ei ostettu!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Tapahtuma on päättynyt."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Tapahtuma alkaa pian!"
+
+msgid "infoButton/body"
+msgstr "Klikkaa saadaksesi lisätietoa."
+
+msgid "infoButton/header"
+msgstr "Tapahtumasta"
+
+msgid "levelReserves/desc"
+msgstr "Taistelureservien tasot kasvavat uusien sotilasarvojen saavuttamisen myötä:"
+
+msgid "levelReserves/info"
+msgstr "{{@ colorLegacy 'FFE4C0'}}\"Kohtalon oikku\"{{/}} -skenaariossa taistelureservien ostaminen kasvattaa sen tasoa yhdellä ja tarjoaa tilaisuuden parantaa sitä tasolle {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}."
+
+msgid "levelReserves/level"
+msgstr "Paranee saavutettaessa seuraava sotilasarvo: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Saatavilla seuraavan sotilasarvon myötä: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Taso – {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Ostetuista taistelureserveistä{{/}} {{@ colorLegacy 'FFE4C0'}}\"Kohtalon oikku\"{{/}} -skenaariossa."
+
+msgid "levelReserves/title"
+msgstr "Taistelureservien tasot"
+
+msgid "playlist/warning/body"
+msgstr "Tämä pelilista sisältää vaunuja, jotka eivät sovellu tähän pelimuotoon tai eivät ole tallissasi."
+
+msgid "playlist/warning/header"
+msgstr "Vaunut, jotka eivät ole saatavilla (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Taistelureservin ominaisuudet parantuivat"
+
+msgid "randomReserve/disable"
+msgstr "Taistelureservin paikka on käytetty."
+
+msgid "randomReserve/notPurchased"
+msgstr "Taistelureserviä ei ostettu"
+
+msgid "randomReserve/purchased"
+msgstr "Taistelureservi ostettu"
+
+msgid "skillOrderTooltip/body"
+msgstr "Kullakin vaunutyypillä on oma järjestyksensä reservien avautumiseen:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Taistelureservien avausjärjestys"
+
+msgid "skillOrderTooltip/info"
+msgstr "{{@ colorLegacy 'whiteSpanish'}}\"Kohtalon oikku\"{{/}} -skenaariossa taistelureservien avausjärjestys ei riipu vaunun tyypistä."

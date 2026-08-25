@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Повернутися до скринь"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Смарагдова скриня"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "СМАРАГДОВА СКРИНЯ"
+
+msgid "common/getButton/lowerCase"
+msgstr "Придбати скрині"
+
+msgid "common/getButton/upperCase"
+msgstr "ПРИДБАТИ СКРИНІ"
+
+msgid "common/loader"
+msgstr "Відкриваємо скриню..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Відкривайте скрині, щоб побачити статистику."
+
+msgid "common/statistics/header"
+msgstr "Відкрито скринь: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Усю інформацію про відкриті скрині буде видалено."
+
+msgid "entryPoint/boxes"
+msgstr "ДО СКРИНЬ"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Це спеціальні скрині, що містять преміум машини, 3D-обвіси, кредити й інші ігрові цінності.\nЇх можна отримати у внутрішньоігровому Магазині."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "З технічних причин наразі неможливо відкривати чи купувати скрині. Вибачте за тимчасові незручності."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Скрині тимчасово недоступні"
+
+msgid "eventName/lowerCase"
+msgstr "Зелена досконалість"
+
+msgid "eventName/upperCase"
+msgstr "ЗЕЛЕНА ДОСКОНАЛІСТЬ"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "У наступній скрині буде гарантована нагорода!"
+
+msgid "guaranteedTitle/text"
+msgstr "Максимум скринь до гарантованої нагороди: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Якщо не відкриєте скрині до кінця події, це відбудеться автоматично."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Якщо вже маєте всю техніку зі списку можливого вмісту скринь, за всі подальші машини з них ви отримуватимете компенсацію їхньої повної вартості золотом."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Кожна %(guaranteed0)s скриня гарантовано містить машину VIII–IX рівня. Якщо після їхніх відкриттів ви так і не отримали техніку, з %(guaranteed0)s&zwnbsp;-ї скрині випаде машина VIII–IX рівня, якої у вас іще немає. Після цього лічильник буде скинуто."
+
+msgid "infoPage/header/description"
+msgstr "Відкривайте скрині заради шансу отримати цінне ігрове майно! Подробиці нижче."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "З: %(name) (відкрито скринь: %(boxesCount))"
+
+msgid "noBoxesView/description/"
+msgstr "У вас немає скринь.\nЇх можна придбати в ігровому Магазині."
+
+msgid "preview/backLabel"
+msgstr "ДО СКРИНЬ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Скринь у наявності: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Немає скринь у наявності"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Якщо вже маєте всю техніку зі списку можливого вмісту скринь, за всі подальші машини з них ви отримуватимете золото як компенсацію."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) скриня"
+msgstr[1] "%(remainingCount) скрині"
+msgstr[2] "%(remainingCount) скринь"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Гарантована нагорода — машина зі списку можливого вмісту скринь.\nЯкщо після відкриття %(remainingCount) скринь ви так і не отримали техніку, вона гарантовано випаде з %(count)-ї скрині. Після цього лічильник буде скинуто."

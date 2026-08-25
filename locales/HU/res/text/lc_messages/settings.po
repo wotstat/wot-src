@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Fordító <noreply@wargaming.net>\nLanguage-Team: WoT Csapat <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "Élsimítás"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "A játék objektumai kontúrjainak és vékony vonalainak utólagos feldolgozási fokát határozza meg. Minimalizálja az érdes hatást.\n\n• Magas—FXAA\n• Maximális—Temporal Supersampling Antialiasing LQ (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "Dinamikus beállítás"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "Engedélyezi vagy letiltja a 3D renderelés felbontásának automatikus, videókártya terheléstől függő beállítását.\n\nBekapcsolása javíthatja a játék teljesítményét. A garázs renderelési felbontása mindig ugyanaz marad."
+
+msgid "EFFECTS_QUALITY"
+msgstr "Extra effektek minősége"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "Meghatározza a lepattanó lövések által keltett szikrák, a robbanások, a füst és egyéb vizuális hatások megjelenítési minőségét. \n\nAz érték csökkentése növelheti a játék teljesítményét."
+
+msgid "FAR_PLANE"
+msgstr "Megjelenítés távolsága"
+
+msgid "FAR_PLANE/description"
+msgstr "Meghatározza a domborzat, épületek, ellenséges járművek és egyéb objektumok megjelenítésének távolságát."
+
+msgid "FLORA_QUALITY"
+msgstr "Fű sűrűsége"
+
+msgid "FLORA_QUALITY/description"
+msgstr "Meghatározza a fű sűrűségét Árkád és Mesterlövész módban."
+
+msgid "HAVOK_ENABLED"
+msgstr "Feljavított rombolási fizika"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "KI"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "Engedélyezve"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "Engedélyezi a pályán található objektumok részletesebb és realisztikusabb rombolódását.\n\nKikapcsolása jelentősen növelheti a játék sebességét."
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "A beállítás a következő csatában lép életbe, ha az aktuális csatában ki van kapcsolva."
+
+msgid "LANGUAGE_CODE"
+msgstr "hu"
+
+msgid "LIGHTING_QUALITY"
+msgstr "Fények minősége"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "Meghatározza a napsugarak és egyéb fény effektek megjelenítési minőségét és módját.\n\nA gyengébb videokártyával rendelkezőknek az érték csökkentése növelheti a játék teljesítményét."
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "Elmosódás effekt"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "Meghatározza az elmosódási effekt minőségét, amikor a jármű mozog és a kameranézet változik."
+
+msgid "MSAA_QUALITY"
+msgstr "Élsimítás"
+
+msgid "MSAA_QUALITY/description"
+msgstr "A játék objektumai kontúrjainak és vékony fonalainak utólagos feldolgozási fokát határozza meg. Minimalizálja az érdes hatást.\n\n• Alacsony—MSAA 2x\n• Közepes—MSAA 4x\n• Magas—MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "Tárgyak kidolgozottsága"
+
+msgid "OBJECT_LOD/description"
+msgstr "Meghatározza a megjelenített objektumok számát és minőségét."
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "Utólagos feldolgozás"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "Meghatározza az utófeldolgozás effektek minőségét: hőhullám, lökéshullám, kromatikus aberráció, vignetta, szemcsés film, stb.\n\nEzen paraméter értékének csökkentése növelheti a játék teljesítményét."
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "Grafika"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "Fejlesztett: lehetővé teszi a maximális képminőséget.\n\nEgyszerűsített: lehetővé teszi a maximális teljesítményt néhány vizuális effekt egyszerűsítésével vagy kikapcsolásával."
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "Grafika:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "A paraméter megváltoztatása a játék újraindítását követően lép hatályba."
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "Lombozat átlátszósága"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "Meghatározza a közeli fáknak és bokroknak a lombozatának megjelenítését.\n\nEnnek a paraméternek a kikapcsolásával a környező fák és a bokrok lombozata nem lesz látható, ezzel a játék teljesítménye növekszik."
+
+msgid "SHADER_VERSION_CAP"
+msgstr "Shader verziója"
+
+msgid "SHADOWS_QUALITY"
+msgstr "Árnyékok minősége"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "Meghatározza a dinamikus árnyékfeldolgozás minőségét a teljes megjelenítési távolságon.\n\nEzen paraméter értékének csökkentése növelheti a játék teljesítményét."
+
+msgid "SMOKE_ENABLED"
+msgstr "Füst"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "Extra effektek mesterlövész módban"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "Meghatározza a lepattanó lövések által keltett szikrák, a robbanások, a füst és egyéb realisztikus hatások megjelenítési minőségét mesterlövész módban.\n\nAz érték csökkentése növelheti a játék teljesítményét."
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "Fű jelzése mesterlövész módban"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "Megjeleníti a füvet mesterlövész módban.\n\nA kikapcsolása növelheti a játék teljesítményét."
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "Talaj tesszelláció Mesterlövész módban"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Javítja a talaj megjelenítési minőségét a jármű körüli 50 méter sugarú körben mesterlövész módban. Csak a talaj tesszelláció beállítás engedélyezése mellett lehetséges.\n\nKikapcsolása növelheti a játék sebességét."
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "Növényzet minősége"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "Meghatározza a fák, a bokrok és a fű megjelenítési minőségét."
+
+msgid "TERRAIN_QUALITY"
+msgstr "Környezet minősége"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "Meghatározza a domborzat megjelenítésének minőségét.\n\nA minimum minőséget csak gyenge számítógép esetén használd.\n\n Az érték csökkentése eltérést okozhat a kliens és a szerver között a táj megjelenítésében."
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "A megadott paraméterek alkalmazása eltarthat egy ideig."
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "Talaj tesszelláció"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Új háromszögek poligonhálóhoz adásának hardveresen gyorsított folyamata a háló részletességének növelése érdekében.\n\nEz a funkció csak a következő beállításokkal működik:\n• Fejlesztett grafika\n• Magas, maximális vagy ultra környezetminőség\n• Telepített DirectX 11.\n\nA beállítás nem érhető el DirectX 11-nél régebbi verzióval.\n\nA paraméter kikapcsolása növelheti a játék teljesítményét."
+
+msgid "TEXTURE_QUALITY"
+msgstr "Textúra minősége"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "A játékban található objektumok felületének minősége, különösen közelről vizsgálva. \n\nAz érték csökkentése növelheti a játék teljesítményét."
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "A megadott paraméterek alkalmazása eltarthat egy ideig."
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "Lánctalp fizika"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "Meghatározza a működő és lelőtt lánctalpak fizikai szimulációjának minőségét, valamint a lánctalpak részletességét.\n\nEnnek a paraméternek a csökkentése vagy kikapcsolása javíthatja a játék teljesítményét."
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "Lánctalp és kerék effektek engedélyezése"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "Föld, hó és vízcsepp nyomokat jelenít meg a lánctalpak és a kerekek mögött.\n\nA kikapcsolása növelheti a játék teljesítményét."
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "Lánctalp és keréknyomok engedélyezése"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "Megjeleníti a lánctalp- és keréknyomokat a földön.\n\nNem érhető el egyszerűsített grafika és alacsony matricaminőség beállításokkal."
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "A 3D-kiegészítők elrejtése Mesterlövész módban"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "Átmenetileg elrejti a járművek 3D-kiegészítőit a löveg célkeresztjében Mesterlövész módban.\n\nCsökkenti a képernyőn látható zavaró elemeket és javítja a célzás pontosságát."
+
+msgid "WATER_QUALITY"
+msgstr "Víz minősége"
+
+msgid "WATER_QUALITY/description"
+msgstr "Meghatározza a vízfelületek megjelenítési távolságát."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "Csak gyenge páncélzat"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "Ha aktív, a páncélzatjelző kizárólag a célpont gyenge páncélzatát mutatja meg.\n\nAzokat a páncélfelületeket, amelyeket nagy eséllyel át lehet ütni, élénkzöld szín jelöli, míg a közepes eséllyel átüthető felületek félig áttetsző zöld színűek lesznek. A színek színvak módban eltérőek lehetnek."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "Csak a gyenge páncélzat kiemelése"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "Csak az erős páncélzat"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "Ha aktív, akkor a páncélzatjelző kizárólag a célpont erős páncélzatát mutatja meg.\n\nÉlénkpiros szín jelöli azokat a páncélrészeket, ahol az átütés esélye alacsony vagy nulla. A közepes eséllyel átüthető zónák félig áttetsző piros színűek. A színek színvak módban eltérőek lehetnek."
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "Csak az erős páncélzat kiemelése"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "Teljes páncélzat"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "Ha aktív, a páncélzatjelző a teljes páncélzaton jelzi az átütés esélyét.\n\n A zöld a könnyen, a sárga a közepesen, a piros pedig a nehezen vagy egyáltalán nem átüthető területeket mutatja. A színek színvak módban eltérőek lehetnek."
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "A teljes páncélzat kiemelése"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "Páncélzat kiemelése"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "Engedélyezés a csata kezdetén"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "A páncélzatjelző alapértelmezett állapota a csata kezdetekor. A funkciót bármikor ki- és bekapcsolhatod a hozzárendelt gyorsbillentyűvel.\n\n Bekapcsolt állapotban a páncélzatjelző kizárólag mesterlövész módban működik.\n\nTámogatott játékmódok:\n• Normál és gyakorló csaták;\n• Frontvonal;\n• Árkád játékgép csaták;\n• Roham;\n• Bizonyos játékmódok és események. \n\nA támogatott módok és események köre a jövőben bővülhet."
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "Engedélyezés a csata kezdetén"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "Páncélzatjelző textúrája"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "Egyszínű"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "Ritka mintázat"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "Sűrű mintázat"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "Átlátszóság"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "Teljesítmény figyelmeztetés"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "Magas"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "Alacsony"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "Közepes"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "Páncélzatjelző felbontása"
+
+msgid "aim/cassette"
+msgstr "Konténerek"
+
+msgid "aim/centralTag"
+msgstr "Középső jelző"
+
+msgid "aim/centralTag/type0"
+msgstr "A-alakú I"
+
+msgid "aim/centralTag/type1"
+msgstr "A-alakú II"
+
+msgid "aim/centralTag/type10"
+msgstr "O-alakú I"
+
+msgid "aim/centralTag/type11"
+msgstr "O-alakú II"
+
+msgid "aim/centralTag/type12"
+msgstr "A-alakú IV"
+
+msgid "aim/centralTag/type13"
+msgstr "A-alakú V"
+
+msgid "aim/centralTag/type2"
+msgstr "A-alakú III"
+
+msgid "aim/centralTag/type3"
+msgstr "V-alakú"
+
+msgid "aim/centralTag/type4"
+msgstr "Célkereszt I"
+
+msgid "aim/centralTag/type5"
+msgstr "Célkereszt II"
+
+msgid "aim/centralTag/type6"
+msgstr "T-shaped"
+
+msgid "aim/centralTag/type7"
+msgstr "I-alakú"
+
+msgid "aim/centralTag/type8"
+msgstr "Célzó pont I"
+
+msgid "aim/centralTag/type9"
+msgstr "Célzó pont II"
+
+msgid "aim/condition"
+msgstr "Állapot"
+
+msgid "aim/gunTag"
+msgstr "Löveg jelölő"
+
+msgid "aim/gunTag/type0"
+msgstr "A-alakú I (páncélátütés-indikátorral)"
+
+msgid "aim/gunTag/type1"
+msgstr "A-alakú II (töltésindikátorral)"
+
+msgid "aim/gunTag/type10"
+msgstr "O-alakú II (töltésindikátorral)"
+
+msgid "aim/gunTag/type11"
+msgstr "O-alakú III"
+
+msgid "aim/gunTag/type12"
+msgstr "A-alakú IV (páncélátütés-indikátorral)"
+
+msgid "aim/gunTag/type13"
+msgstr "A-alakú V (töltésindikátorral)"
+
+msgid "aim/gunTag/type14"
+msgstr "A-alakú VI"
+
+msgid "aim/gunTag/type2"
+msgstr "A-alakú III"
+
+msgid "aim/gunTag/type3"
+msgstr "Célkereszt I (páncél átütés indikátorral)"
+
+msgid "aim/gunTag/type4"
+msgstr "Célkereszt II (töltés indikátorral)"
+
+msgid "aim/gunTag/type5"
+msgstr "Célkereszt III"
+
+msgid "aim/gunTag/type6"
+msgstr "Célzó pont I (páncélátütés jelzővel)"
+
+msgid "aim/gunTag/type7"
+msgstr "Célzó pont II (töltés jelzővel)"
+
+msgid "aim/gunTag/type8"
+msgstr "Célzó pont III"
+
+msgid "aim/gunTag/type9"
+msgstr "O-alakú I (páncélátütés-indikátorral)"
+
+msgid "aim/mixing"
+msgstr "Célzás"
+
+msgid "aim/mixing/type0"
+msgstr "I. kör (töltés jelzővel) "
+
+msgid "aim/mixing/type1"
+msgstr "II. kör (eltolt töltés jelzővel)"
+
+msgid "aim/mixing/type2"
+msgstr "III. kör (töltés jelző nélkül)"
+
+msgid "aim/mixing/type3"
+msgstr "IV. kör (teli)"
+
+msgid "aim/mixing/type4"
+msgstr "Célkereszt (egyszerű töltés indikátorral)"
+
+msgid "aim/mixing/type5"
+msgstr "Célkereszt II"
+
+msgid "aim/mixing/type6"
+msgstr "Teszt"
+
+msgid "aim/net"
+msgstr "Jelző"
+
+msgid "aim/net/type0"
+msgstr "Diagonális"
+
+msgid "aim/net/type1"
+msgstr "Vízszintes"
+
+msgid "aim/net/type2"
+msgstr "Radiális"
+
+msgid "aim/net/type3"
+msgstr "Szaggatott"
+
+msgid "aim/reloader"
+msgstr "Töltés"
+
+msgid "aim/reloaderTimer"
+msgstr "Töltésidő számláló"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "Váltás tüzérségi nézetre"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "Utoljára használt"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "Felülnézet"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "Röppálya nézet"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "Automatikus célzási mód váltás"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "Az egérgörgő tekerésével egy bizonyos zoom érték elérése után a célkereszt átvált a \"felülnézetre\" vagy a \"röppálya nézetre\"."
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "Automatikus célzási mód váltás"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "Egyenletes kamera zoom"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "Tűzelési vonal indikátorok megjelenítése"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "Megjeleníti/elrejti az indikátort, amely azt mutatja, hogy a kiválasztott lövedék eléri -e a célzott pontot. Emellett a lövedék repülési idejét is mutatja."
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "Tüzelési vonal indikátor"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "Kamerapozíció indikátor megjelenítése"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "Megjeleníti/elrejti az indikátort, ami mutatja a tüzérségi célzó kamera zoom szintjét."
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "Kamerapozíció indikátor megjelenítése"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "Kamera vezérlés"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "Alternatív"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "Általános"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "Általános kamera vezérlés módban a kamera fel, le, balra és jobbra mozog. Alternatív kamera vezérlés módban a kamera előre hátra és az önjáró löveg pozíciója körül mozog."
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "Kamera vezérlés"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "Nagyítás jelző"
+
+msgid "alternativeVoices/labels"
+msgstr "Hangüzenetek csatában"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Hangüzenetek csata közben"
+
+msgid "apply_button"
+msgstr "Használ"
+
+msgid "autodetectButton"
+msgstr "Ajánlott"
+
+msgid "autodetectButton/description"
+msgstr "Meghatározza az optimális képbeállításokat a számítógépedhez.\n\n Ez eltarthat egy ideig."
+
+msgid "battlecomm/enableCommendations"
+msgstr "Gyűjtsd az elismeréseket a csatában"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "Személyes parancsok megmutatása"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "Kommunikáció jelzése a csapat panelen"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "Helyzet jelölők megjelenítése a térképen"
+
+msgid "battlecomm/showMarkers"
+msgstr "Bázis jelölők mutatása normál csatában"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "Állandó jelölők mutatása"
+
+msgid "borderlessSize"
+msgstr "Ablakos (keret nélküli)"
+
+msgid "borderlessSize/description"
+msgstr "Ablakos (keret nélküli)"
+
+msgid "cancel_button"
+msgstr "Mégse"
+
+msgid "chat/censorshipMessages"
+msgstr "A sértő szavak cenzúrázása az üzenetekben"
+
+msgid "chat/chatContactsListOnly"
+msgstr "Üzenetek fogadása csak a kapcsolat listáról"
+
+msgid "chat/disableBattleChat"
+msgstr "Csapattársakkal való chat kikapcsolása"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "Kamera és Csatorna ablakok pozíciójának megjegyzése"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "Kamera és egyéb ablakok pozíciójának megjegyzése"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "Csak a barátoktól jövő meghívások elfogadása a garázsban"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "Klán értesítések fogadása"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "Barát felkérés elfogadása"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "Szakasz meghívások elfogadása csata közben"
+
+msgid "chat/removeSpam"
+msgstr "Szemét elrejtése"
+
+msgid "chat/showDateMessage"
+msgstr "Mutassa a dátumot az üzenetekben"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "Jelezze a felhasználók ki és belépését"
+
+msgid "chat/showTimeMessage"
+msgstr "Mutassa az időt az üzenetekben"
+
+msgid "colorCorrection"
+msgstr "Színösszeállítás"
+
+msgid "colorCorrectionBtn/label"
+msgstr "Módosítás"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "Egyéni beállítások"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "Fényerő"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "Kontraszt"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "Telítettség"
+
+msgid "colorSettings/tab/default"
+msgstr "Alapértelmezett"
+
+msgid "colorSettings/tab/filters"
+msgstr "Előre beállított szűrők"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "Szűrő intenzitása"
+
+msgid "colorSettings/view/after"
+msgstr "Utána"
+
+msgid "colorSettings/view/before"
+msgstr "Előtte"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "BEZÁRÁS"
+
+msgid "colorSettings/view/description"
+msgstr "Válaszd ki az egyik képi beállítás opciót"
+
+msgid "colorSettings/view/header"
+msgstr "Színösszeállítás"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "Visszaállítás"
+
+msgid "colorSettings/view/subTitle"
+msgstr "Képi beállítás opciók"
+
+msgid "cursor/ArcadeTitle"
+msgstr "Árkád"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "Páncélzatjelző"
+
+msgid "cursor/ArtyTitle"
+msgstr "Tüzérség"
+
+msgid "cursor/ContourTitle"
+msgstr "Körvonalazás"
+
+msgid "cursor/ServerAim"
+msgstr "Szerver oldali célkereszt"
+
+msgid "cursor/SnipperTitle"
+msgstr "Mesterlövész"
+
+msgid "cursor/contour/type0"
+msgstr "Normál"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "Az ellenséges járműre való célzáskor, annak teljes körvonala kirajzolódik, beleértve a nem páncélozott elemeket is, amelyeknek nincs hatása a lövedékekre."
+
+msgid "cursor/contour/type1"
+msgstr "Egyszerűsített"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "Az ellenséges járműre való célzáskor, annak csak egy része körvonalazódik, csak azokat a páncélelemeket mutatva, amelyeknek hatása van a lövedékekre."
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "Átlőhetetlen terület"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "Nincs"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "Kitöltés"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "Sraffozás"
+
+msgid "cursor/contourLabel"
+msgstr "Körvonalazás típusa"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "Átlőhető terület"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "Nincs"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "Kitöltés"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "Sraffozás"
+
+msgid "cursor/overlapContour"
+msgstr "Akadályok megjelenítése"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "A megjelenítés engedélyezése csökkentheti a teljesítményt."
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "Az ellenséges járműre való célzásakor a lövedék útjában lévő akadályok megjelenítése.\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "Akadályok megjelenítése"
+
+msgid "cursor/overlapContourLabel"
+msgstr "Akadályok megjelenítése"
+
+msgid "cursorTitle"
+msgstr "Mesterlövész"
+
+msgid "defaultBtn"
+msgstr "Alapértelmezett"
+
+msgid "defaultNamePrefix"
+msgstr "Játékos"
+
+msgid "dynamicCamera"
+msgstr "Dinamikus kamera engedélyezése"
+
+msgid "dynamicFov"
+msgstr "Dinamikus FoV"
+
+msgid "dynamicFov/description"
+msgstr "A dinamikus FoV lehetővé teszi a minimális és a maximális látószög meghatározását árkád célzónál.\n\nA maximális szöget akkor használod, amikor eltávolodsz a járműtől.\n\nA minimális látószöget akkor használod, amikor ráközelítesz a járműre."
+
+msgid "dynamicRenderer"
+msgstr "3D megjelenítés felbontása"
+
+msgid "dynamicRenderer/description"
+msgstr "Meghatározza a részletek minőségét.\n\nA 3d megjelenítés felbontása csata közben is változtatható a [jobb Shift +] és a [jobb Shift -] gombok használatával. Nem befolyásolja a játék teljesítményét.\n\nA gyengébb videokártyával rendelkezőknek az érték csökkentése növelheti a játék teljesítményét ."
+
+msgid "edgeDetectAA"
+msgstr "Edge detect AA"
+
+msgid "feedBack"
+msgstr "Csata értesítések"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "Pálya határ"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "Kábításod utáni sebzés"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "Bázisfoglalási pontok"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "Foglalási pontok visszaállítva"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "Sebzés felfogva"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "Ellenséges jármű kigyújtva"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "Kritikus sebzés"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "Felderítés"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "Sebzés felderítéssel"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "Kiosztott sebzés"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "Ellenséges jármű megsemmisítve"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "Sebzés ütközéstől"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "Lánctalp megsemmisítve"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "Esemény név"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "Kritikus sebzés"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "Sebezz"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "Megjelenítés a csatában"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "Jármű részletek"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "Becsapódás általi sebzés"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "Minden helyzetfüggő készség"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "A három legfrissebb esemény\njelenik meg a csatában"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "Csata események"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "Értesítések"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "Események"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "Legénységi készségek"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "Sebződés"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "Harci teljesítmény"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "Sebződés"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "A pálya határainak elrejtése tájékozódási nehézségeket eredményezhetnek a csatában."
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "Alt lenyomására"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "Mindig kiemelve"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "Nincs kiemelve"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "Megközelítéskor"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "További kiemelés"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "Pontozott vonal"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "Nincs megjelenítve"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "Határ típus"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "Fal"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "Lövés irányjelző"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "Baráti tűz"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "Sebzés"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "Felfogott találatok"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "Kritikus sérülés\na járműveden"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "x3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "Elszenvedett sebzés"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "Modul megsérült"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "Információ"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "Animáció megjelenítése"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "Sebzés"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "Dinamikus indikátorok"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "Jármű részletek"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "Megjelenítés a csatában"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "Összes"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "Baráti tűz"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "Kritikus találatok"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "Kivéve kritikus"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "Fejlesztett"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "Normál"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "Típus"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "Log"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "Kábításodnak köszönhetően"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "Páncélzat által felfogva"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "Sebzés közreműködéseddel"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "Kiosztott sebzés"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "Megjelenítés mindig"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Alt lenyomására"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "Ne jelenítsd meg"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "Részletes sérülés"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "Minden esemény alul"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "Sebződés a tetőn"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "Események helye"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "Minden esemény"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "Esemény típusa"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "Sebződés"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "Harci teljesítmény"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "Ennek a beállításnak az engedélyezése nem ajánlott\nalacsony felbontású kijelzőknél"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "Összesített sebzés"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "Részletes sebzés adatok. Teljes információval szolgál a csatában mutatott teljesítményedről."
+
+msgid "feedback/tab/eventsInfo"
+msgstr "Csata események"
+
+msgid "feedback/tab/questsProgress"
+msgstr "Csatajelentés & Küldetések"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "Csata pontszám"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "Küldetés részletei"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "Jármű ikonok szint szerinti\nmegjelenítése"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "Csapat HP sáv megjelenítése"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "Csapat HP különbség\nmegjelenítése"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "Csapat HP szám megjelenítése"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "Az összes megjelenítése"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "Csak az állapot megjelenítése"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "Alternatív"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "Nincs megjelenítve"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "Normál"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "Küldetések megjelenítése"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "Látómező (FoV)"
+
+msgid "fov/description"
+msgstr "A játék kamera látótávolsága.\n\n95° a normál látómező. Minél kisebb a látómező szöge, annál közelebbinek tűnnek a tárgyak de a perifériás látómező csökken.\n\nNem befolyásolja a játék teljesítményét."
+
+msgid "game/anonymizer"
+msgstr "Anonimizálja a neved a csatákban"
+
+msgid "game/battleLoadingInfo"
+msgstr "Tippek a csata töltőképernyőjén"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "Kistérkép"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "Csak szöveg"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "Illusztrált tippek"
+
+msgid "game/battlePanelSettings"
+msgstr "Csata felület"
+
+msgid "game/carouselType"
+msgstr "Jármű panel"
+
+msgid "game/carouselType/double"
+msgstr "Kétszintű"
+
+msgid "game/carouselType/single"
+msgstr "Egyszintű"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "Statisztikák megj. ha a kurzor egy garázshely fölött van"
+
+msgid "game/commanderCamEnabled"
+msgstr "Taktikai nézet engedélyezése"
+
+msgid "game/customizationDisplayType"
+msgstr "Testreszabási elemek megjelenítése a csatában"
+
+msgid "game/customizationDisplayType/all"
+msgstr "Történelmi, történelmileg nem hiteles és kitalált"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "Történelmi"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "Történelmi és történelmileg nem hiteles"
+
+msgid "game/displayPlatoonMembers"
+msgstr "Szakasz járműveinek megjelenítése a garázsban."
+
+msgid "game/doubleCarousel/label"
+msgstr "Kétszintű jármű panel"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "Adaptív"
+
+msgid "game/doubleCarouselType/small"
+msgstr "Minimalista"
+
+msgid "game/dynamicCamera"
+msgstr "Dinamikus kamera engedélyezése"
+
+msgid "game/enableBattleNotifier"
+msgstr "Előző csata eredmények megjelenítése a chatben"
+
+msgid "game/enableMortalPostEffect"
+msgstr "Post-effekt engedélyezése postmortem módban"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "Optika effektus engedélyezése mesterlövész módban"
+
+msgid "game/enableRepairTimer"
+msgstr "A sérült modulok javítási idejének megjelenítése"
+
+msgid "game/enableSpeedometer"
+msgstr "Megjeleníti a sebességmérőt kerekes járműveken"
+
+msgid "game/enableVoIP"
+msgstr "Hangkommunikáció"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "Csata kommunikáció"
+
+msgid "game/fieldset/headerChat"
+msgstr "Chat"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "Kistérkép"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "Jármű jelölések"
+
+msgid "game/hangarCamCheckbox"
+msgstr "Garázskamera animáció a kurzor mozgatásakor"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "Garázskamera forgatása inaktivitás esetén"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "Garázskamera animáció"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "Soha"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 másodperc"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 másodperc"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 másodperc"
+
+msgid "game/horStabilizationSnp"
+msgstr "Vízszintes stabilizálás mesterlövész módban"
+
+msgid "game/hullLockEnabled"
+msgstr "Járműtest autom. zárolása mesterlövész módban"
+
+msgid "game/increasedZoom/base"
+msgstr "%(zooms)s engedélyezése"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " és "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "A válaszható szerverek megjelenítése a játék indításakor"
+
+msgid "game/minimapDrawRange"
+msgstr "A körkörös megjelenítési távolság megjelenítése"
+
+msgid "game/minimapGroupTitle"
+msgstr "Kistérkép"
+
+msgid "game/minimapMaxViewRange"
+msgstr "Megmutatja a maximális körkörös látótávolságot"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "A közelségi felderítési kör megjelenítése"
+
+msgid "game/minimapViewRange"
+msgstr "Megmutatja a körkörös látótávolságot"
+
+msgid "game/newbeeTipsTitle"
+msgstr "Tippek"
+
+msgid "game/newbieBattleHints"
+msgstr "A kezdőknek szóló tippek bekapcsolása Normál csatákban"
+
+msgid "game/newbiePrebattleHints"
+msgstr "A kezdőknek szóló tippek bekapcsolása a csaták betöltőképernyőjén"
+
+msgid "game/optimizeGraphics"
+msgstr "Kezelőfelület grafika optimalizálása"
+
+msgid "game/playersPanelState/large"
+msgstr "Teljes panel"
+
+msgid "game/playersPanelState/medium"
+msgstr "Átlag panel"
+
+msgid "game/playersPanelState/none"
+msgstr "Nincs panel"
+
+msgid "game/playersPanelState/short"
+msgstr "Rövid panel"
+
+msgid "game/postmortemMode"
+msgstr "Postmortem mód"
+
+msgid "game/postmortemMode/analysis"
+msgstr "Mutassa meg a jármű megsemmisülésének pillanatát (részletes)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "Mutassa meg a járművedet kilövő ellenséges járművet"
+
+msgid "game/postmortemMode/self"
+msgstr "Mutassa a saját járművedet"
+
+msgid "game/postmortemMode/simple"
+msgstr "Mutassa meg a jármű megsemmisülésének pillanatát (rövid)"
+
+msgid "game/ppShowLevels"
+msgstr "Jármű szintek megjelenítése"
+
+msgid "game/ppShowTypes"
+msgstr "Jármű típusok mutatása"
+
+msgid "game/ppStartStateLabel"
+msgstr "Típus"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "Parancsnoki kamera engedélyezése"
+
+msgid "game/replayEnabled"
+msgstr "Csata rögzítésének engedélyezése"
+
+msgid "game/replayEnabled/all"
+msgstr "Mind"
+
+msgid "game/replayEnabled/last"
+msgstr "Utolsó"
+
+msgid "game/replayEnabled/none"
+msgstr "Nem"
+
+msgid "game/showArtyHitOnMap"
+msgstr "Az önjáró löveg által tűz alá vett terület megjelenítése"
+
+msgid "game/showDamageIcon"
+msgstr "Értesítések megjelenítése, mikor nem okozol sebzést"
+
+msgid "game/showDogTag"
+msgstr "Dögcédula megjelenítése"
+
+msgid "game/showDogTagToKiller"
+msgstr "Az aktuális testreszabható dögcédulád megjelenítése"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "Kilőtt tankok adatainak jelzése"
+
+msgid "game/showKillersDogTag"
+msgstr "A téged kilövő játékos dögcédulájának megjelenítése"
+
+msgid "game/showLanguageBar"
+msgstr "Nyelvi Panel Mutatása"
+
+msgid "game/showMarksOnGun"
+msgstr "Kiválósági jelek megjelenítése"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "Nézd meg az animált dögcédulád"
+
+msgid "game/showSectorOnMap"
+msgstr "Az önjáró löveg tüzelési körzetének megjelenítése"
+
+msgid "game/showVectorOnMap"
+msgstr "Kamera látószögének megjelenítése"
+
+msgid "game/showVehModelsOnMap"
+msgstr "Bővített kistérkép funkciók engedélyezése"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Alt lenyomására"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "Mindig"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "Soha"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "Jármű életerejének megjelenítése a kistérképen"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Alt lenyomására"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "Mindig"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "Soha"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "Jármű életerejének megjelenítése a csapat paneleken"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Alt lenyomására"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "Mindig"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "Soha"
+
+msgid "game/showVehicleIcon"
+msgstr "Jármű ikonok megjelenítése"
+
+msgid "game/showVehicleLevel"
+msgstr "Jármű szintek megjelenítése"
+
+msgid "game/showVehiclesCounter"
+msgstr "Mutassa a tankok jelölését a Csata listájának paneljén"
+
+msgid "game/showVictimsDogTag"
+msgstr "Általad kilőtt járművek dögcéduláinak mutatása"
+
+msgid "game/sniperModeByShift"
+msgstr "Csak a Shift gombbal lehessen átváltani mesterlövész módba"
+
+msgid "game/sniperZoom"
+msgstr "Előnyben részesített mesterlövész mód nagyítás szint"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "Utoljára használt"
+
+msgid "game/switchEquipment"
+msgstr "Konfigurációváltás a betöltési képernyőn"
+
+msgid "game/w2gtEnable"
+msgstr "Harci zónák bekapcsolása a kistérképen"
+
+msgid "gameTitle"
+msgstr "Általános"
+
+msgid "gameplay/devMaps"
+msgstr "Játék a véletlenszerű eseményekkel ellátott pályákon"
+
+msgid "gameplay/nations"
+msgstr "Összecsapás"
+
+msgid "gamma"
+msgstr "Gamma"
+
+msgid "gammaBtn/label"
+msgstr "Konfigurálás"
+
+msgid "gammaWizard/apply"
+msgstr "Használ"
+
+msgid "gammaWizard/cancel"
+msgstr "Mégse"
+
+msgid "gammaWizard/closeBtn"
+msgstr "BEZÁRÁS"
+
+msgid "gammaWizard/default"
+msgstr "Alapértelmezett"
+
+msgid "gammaWizard/description"
+msgstr "Mozgasd a csúszkát, míg a háttér és a logó fényereje megegyezik. Hunyoríts vagy távolodj el a monitortól, hogy a kép részletei kevésbé legyenek láthatóak."
+
+msgid "gammaWizard/header"
+msgstr "Gamma"
+
+msgid "gammaWizard/title"
+msgstr "Gamma beállítások"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "Lehetővé teszi a fényerő beállítását a játékon belül, az optimális képminőség eléréséhez\na képernyőn. A beállítási lehetőség célja, hogy\nkompenzálja a videokártya illesztőprogramjának és a képernyő\nbeállításait, melyek hatással vannak a játék vizuális minőségére."
+
+msgid "gammaWizard/tooltip/header"
+msgstr "Gamma"
+
+msgid "graficTitle"
+msgstr "Grafika"
+
+msgid "graphics/block/effects"
+msgstr "Effektek"
+
+msgid "graphics/block/greenery"
+msgstr "Növényzet"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "Talaj és víz"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "Fények és utólagos feldolgozás"
+
+msgid "graphics/block/main"
+msgstr "Fő"
+
+msgid "graphics/tabAdvanced"
+msgstr "Részletek"
+
+msgid "graphics/tabScreen"
+msgstr "Képernyő"
+
+msgid "graphicsQuality"
+msgstr "Grafika minősége"
+
+msgid "graphicsQuality/description"
+msgstr "Meghatározza a kép általános minőségét. Meghatározza a részletek fülön található értékeket.\n\nA grafikai minőség csökkentése:\n• Növelheti a játék teljesítményét\n• Szinkronizálási problémát okozhat a terep megjelenítésénél a kliens és szerver között.\n\nCsak akkor használj minimális grafikai minőséget, ha kis teljesítményű a számítógéped."
+
+msgid "graphicsQualityHDSD"
+msgstr "Kliens típusok"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "HD kliens telepítve"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "Normál (SD) kliens telepítve"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "Normál kliens—a teljes játék a legjobb minőségű textúrák nélkül.\n\nHD kliens—a teljes játék a legjobb minőségű textúrákkal. Több helyet igényel a merevlemezen, mint a normál kliens."
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "Kliens típusok"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "HD kliens—teljes játék, ami tartalmazza a legjobb minőségű textúrákat. Több tárhelyet igényel, mint a normál kliens.\n\nNormál kliens (SD)—teljes játék a legjobb minőségű textúrák nélkül."
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "A maximális (SD) és ultra (SD) grafikai minőség beállítások nem biztosítják a legjobb textúra minőséget. A maximális grafikai minőséghez a játék indításakor válts át a HD kliensre."
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "Anizotrop 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "Anizotrop 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "Anizotrop 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "Anizotrop 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "Bilineáris"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "Egyéni"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "1940-es évek mozifilm"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "Kontraszt"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "Fejlesztett"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "Távoli"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "Normál"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "Magas"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "Alacsony"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "Nagyon Alacsony"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "Maximum"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "Maximális (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "Közepes"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "Minimum"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "Tompított"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "Közeli"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "KI"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "KI"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "Engedélyezve"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "Egyszerűsített"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "Fejlesztett"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "Pont"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "Fotokromatikus"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "Normál"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "Általános"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "Mély"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "Lágy színek"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "Trilineáris"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "Ultra"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "Ultra (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "Nagyon magas"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "Nagyon magas"
+
+msgid "igbHardwareAcceleration"
+msgstr "Böngésző hardveres gyorsítás"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "Ha engedélyezed ezt a beállítást, a webes tartalmak renderelését a GPU végzi majd a CPU helyett.\n\nHa hibát tapasztalsz egyes ablakok tartalmának renderelése kapcsán, kapcsold ki ezt a beállítást.\n\nA változtatás a játék újraindítását követően lép életbe."
+
+msgid "interfaceScale"
+msgstr "Kezelőfelület átméretezése"
+
+msgid "interfaceScale/attention"
+msgstr "Ez a funkció még tesztelés alatt áll,\nnem befolyásolja a játék teljesítményt."
+
+msgid "interfaceScale/body"
+msgstr "A kezelőfelület automatikus átméretezése, amikor a játék képernyő/ablak maximális méretűre vált."
+
+msgid "interfaceScale/description"
+msgstr "A kezelőfelület automatikus átméretezése, amikor a játék képernyő/ablak maximális méretűre vált."
+
+msgid "interfaceScale/header"
+msgstr "Kezelőfelület átméretezése"
+
+msgid "interfaceScale/warning"
+msgstr "Ez a funkció még tesztelés alatt áll, nem befolyásolja a játék teljesítményt."
+
+msgid "interfaceScaleDisabled"
+msgstr "Kezelőfelület átméretezése"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "Csak 4K-s kijelzővel rendelkezők számára elérhető."
+
+msgid "interfaceScaleDisabled/body"
+msgstr "A kezelőfelület automatikus átméretezése, amikor a játék képernyő/ablak maximális méretűre vált."
+
+msgid "interfaceScaleDisabled/description"
+msgstr "A kezelőfelület automatikus átméretezése, amikor a játék képernyő/ablak maximális méretűre vált."
+
+msgid "interfaceScaleDisabled/header"
+msgstr "Kezelőfelület átméretezése"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "Csak 4K-s kijelzővel rendelkezők számára elérhető."
+
+msgid "isColorBlind"
+msgstr "Színvak mód"
+
+msgid "isColorBlind/description"
+msgstr "Színvak színpaletta alkalmazása."
+
+msgid "keyboard/backDraftInvert"
+msgstr "Hátramenet megfordítása"
+
+msgid "keyboard/keyboard"
+msgstr "Billentyűzet"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "Értettem!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "Speciális célkereszt"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "Alváz rögzítés / Módváltás"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "Vissza"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "Vissza"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "\"Kézifék\""
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "Le"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "Bal"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "Jobb"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "Fel"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "Egy sorozat lövése"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "Visszavonulás!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "Tűz"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "Előre"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "Előre"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "Jármű elhagyása (Frontvonal módban)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "Segítség!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "Pozíció megjelölése"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "Aktív célpont megjelölése"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "Fogyó eszköz 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "Fogyó eszköz 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "Fogyó eszköz 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "Fogyó eszköz 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "Fogyó eszköz 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "Fogyó eszköz 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "Fogyó eszköz 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "Fogyó eszköz 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "Fogyó eszköz 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "Fogyó eszköz 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "Bal"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "Automata-célzás"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "Automata-célzás kikapcsolása"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "Negatív!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "Beszéd gombnyomásra"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "Lőszertároló újratöltése"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "Újratöltés!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "Jobb"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "Harci megjelenítő felület"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "Személyes tartalékok aktiválása"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "Előrehaladás a személyes küldetésekben"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "Parancs menü / Parancs megerősítése"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "Méret kicsinyítése"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "Méret növelése"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "Különleges képesség"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "Állj és Lőj"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "Köszönöm!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "Páncélzatjelző be-/kikapcsolása"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "Röppálya nézet"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "Szignál beállítása"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "Elrejt/Mutat"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "Engedélyezése/letiltása a hang kommunikációnak a dinamikus szakaszokban"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "Kamera"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "Sebesség Vezérlés"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "Fogyócikkek"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "Tüzelés"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "Kistérkép"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "Mozgás"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "Üzenetek"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "Csapat kommunikáció"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "Egyéb"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "Hangkommunikáció"
+
+msgid "keyboard/mouse"
+msgstr "Egér"
+
+msgid "keyboardTitle"
+msgstr "Irányítás"
+
+msgid "limitedUI/desc"
+msgstr "Rejtett kezelőfelület-elemek fokozatos megjelenítése a garázsban"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "Letilt"
+
+msgid "marker/AllyTitle"
+msgstr "Csapattársak"
+
+msgid "marker/DeadTitle"
+msgstr "Megsemmisített"
+
+msgid "marker/EnemyTitle"
+msgstr "Ellenség"
+
+msgid "marker/aimMarker2D"
+msgstr "Automata célzás indikátor"
+
+msgid "marker/alt"
+msgstr "Alternatív"
+
+msgid "marker/base"
+msgstr "Normál"
+
+msgid "marker/damage"
+msgstr "Elszenvedett sebzés"
+
+msgid "marker/dead"
+msgstr "Mutassa a megsemmisítettet"
+
+msgid "marker/hp"
+msgstr "Jármű tartósság"
+
+msgid "marker/hp/type0"
+msgstr "Százalék %"
+
+msgid "marker/hp/type1"
+msgstr "Megmaradt életerő / összes"
+
+msgid "marker/hp/type2"
+msgstr "Megmaradt életerő"
+
+msgid "marker/hp/type3"
+msgstr "Ne jelenítsd meg"
+
+msgid "marker/hpIndicator"
+msgstr "Tartósság jelző"
+
+msgid "marker/icon"
+msgstr "Jármű ikon"
+
+msgid "marker/level"
+msgstr "Szint"
+
+msgid "marker/level/tooltip/body"
+msgstr "Ha ez a beállítás engedélyezve van, a jármű felett megjelenik a szintje.\n\nAz Acélvadászban az aktuális fejlesztési szint jelenik meg."
+
+msgid "marker/level/tooltip/header"
+msgstr "Szint"
+
+msgid "marker/name"
+msgstr "Jármű név"
+
+msgid "marker/name/type2"
+msgstr "Ne jelenítsd meg"
+
+msgid "marker/nickname"
+msgstr "Játékos"
+
+msgid "markerTitle"
+msgstr "Jelölő"
+
+msgid "minimap/labels/alpha"
+msgstr "Kistérkép áttetszősége"
+
+msgid "minimap/labels/size"
+msgstr "Maximális méret"
+
+msgid "monitor"
+msgstr "Monitor"
+
+msgid "monitor/description"
+msgstr "Válaszd ki az elsődleges monitort a játékhoz."
+
+msgid "mouse/sensitivity/art"
+msgstr "Önjáró löveg célzás"
+
+msgid "mouse/sensitivity/art2"
+msgstr "Röppálya nézet"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "Szabad kameranézet"
+
+msgid "mouse/sensitivity/header"
+msgstr "Érzékenység"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "Horizontális tükrözés"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "Vertikális tükrözés"
+
+msgid "mouse/sensitivity/main"
+msgstr "Árkád célzás"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "Sniper célzás"
+
+msgid "mouse/startDist"
+msgstr "Kamera pozíció"
+
+msgid "ok_button"
+msgstr "Folytatás"
+
+msgid "otherSettings/fieldset/header"
+msgstr "Hang környezet elemei"
+
+msgid "otherSettings/labels/bulb"
+msgstr "Hatodik érzék aktiválási hang"
+
+msgid "otherTitle"
+msgstr "Egyéb"
+
+msgid "physicsQuality"
+msgstr "A hangfizika minősége"
+
+msgid "refreshRate"
+msgstr "Monitor Képfrissítése"
+
+msgid "refreshRate/default"
+msgstr "Alapértelmezett"
+
+msgid "refreshRate/description"
+msgstr "A játék képfrissítés frekvenciája a monitoron.\n\nA monitor beállításaitól eltérő képfrissítés villogást okozhat.\n\nNem befolyásolja a játék teljesítményét."
+
+msgid "resolution"
+msgstr "Képernyő felbontás"
+
+msgid "resolution/description"
+msgstr "Vízszintes és függőleges képernyő felbontás teljes képernyő módban. A magasabb felbontás növeli a képminőséget. A monitor felbontásától eltérő felbontás beállítása torzíthatja a képet.\n\nAz érték változtatása növeli a videokártya terhelését és csökkentheti a játék teljesítményét.\n\nA videokártya terhelését csökkenteni lehet, ha a 3d megjelenítés felbontását csökkentjük."
+
+msgid "restartNewbieBattleHints"
+msgstr "A kezdőknek szóló tippek visszaállítása"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "Töröld a kezdőknek szóló tippek előzményeit, hogy újra megkapd azokat a tippeket, amelyeket már láthattál."
+
+msgid "screenMode"
+msgstr "Játék mód"
+
+msgid "screenMode/borderless"
+msgstr "Ablakos (keret nélküli)"
+
+msgid "screenMode/description"
+msgstr "A teljes képernyős, ablakos és ablakos (keret nélküli) módok közötti váltást teszi lehetővé. Az ablakos mód csökkenti a játék teljesítményét."
+
+msgid "screenMode/fullscreen"
+msgstr "Teljes képernyő"
+
+msgid "screenMode/label"
+msgstr "Mód:"
+
+msgid "screenMode/windowed"
+msgstr "Ablakos"
+
+msgid "smoothing/description"
+msgstr "Meghatározza, hogy az objektumok szélei és élei mennyire legyenek elsimítva. Csökkenti az aliasing effektus hatását. Az objektumok kontúrjai sokkal természetesebbek lesznek."
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "Normál"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "Felhasználói hang"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "1-es variáns"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "2-es variáns"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "Felhasználói hang"
+
+msgid "sound/dynamicRange/label"
+msgstr "Dinamikus távolság"
+
+msgid "sound/fieldset/header"
+msgstr "Hangerő"
+
+msgid "sound/players_notifications"
+msgstr "Jelzések a többi játékostól"
+
+msgid "sound/presets/title"
+msgstr "Beállítások"
+
+msgid "sound/soundModes/U01"
+msgstr "Felhasználó 1"
+
+msgid "sound/soundModes/U02"
+msgstr "Felhasználó 2"
+
+msgid "sound/soundModes/U03"
+msgstr "Felhasználó 3"
+
+msgid "sound/soundModes/U04"
+msgstr "Felhasználó 4"
+
+msgid "sound/soundModes/default"
+msgstr "Normál"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "Parancsnok"
+
+msgid "sound/special/field/set"
+msgstr "Játékesemények hangereje"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "Eszközök Frissítése"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "Teszt Befejezése"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "Teszt Megkezdése"
+
+msgid "sound/vivox/fade_volume"
+msgstr "Környezet hangereje chatben"
+
+msgid "sound/vivox/master_volume"
+msgstr "Hang kommunikáció hangereje"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "Mikrofon érzékenység"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Vivox teszt"
+
+msgid "soundTitle"
+msgstr "Hangerő"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "Autoválasztás"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "2.0/2.1 rendszer"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "5.1 rendszer"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "7.1 rendszer"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "fülhallgató"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "Közép"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "Bal"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "Bal hátsó"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "Bal első"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "Bal oldalsó"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "Jobb"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "Jobb hátsó"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "Jobb első"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "Jobb oldalsó"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "Mélynyomó"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "laptop"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "Hangteszt:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "Hang tesztelése"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "A hangüzenetek a jármű nemzetétől és a parancsnok nemétől függ"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "Parancsnok"
+
+msgid "sounds/altVoice/default/body"
+msgstr "Férfi hang a játék kliens nyelvénél"
+
+msgid "sounds/altVoice/default/header"
+msgstr "Normál"
+
+msgid "sounds/ambient"
+msgstr "Környezet"
+
+msgid "sounds/arena"
+msgstr "Zene a csatában"
+
+msgid "sounds/artyBulbVoices"
+msgstr "Hang lokátor"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "Válaszd ki az egyik aktivációs hang változatot a Hanglokátorhoz. Saját hang használatához nevezd át a .mp3 fájlod soundExploring-ra és másold be a res/audioww mappába."
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "Hanglokátor aktivációs hang"
+
+msgid "sounds/bassBoost"
+msgstr "Mély tartomány kiemelése"
+
+msgid "sounds/bassBoost/description"
+msgstr "Kiemeli a mély tartományú hangokat a játék általános hangerejének megváltoztatása nélkül. A mód használata eltérhet a kiválasztott hangrendszertől függően (hangszórók, fejhallgató vagy laptop)."
+
+msgid "sounds/bulbVoices"
+msgstr "Hatodik érzék"
+
+msgid "sounds/bulbVoices/description"
+msgstr "Válaszd ki az egyik aktivációs hang változatot a Hatodik érzékhez. Saját hang használatához nevezd át a .mp3 fájlod sixthSense-re és másold be a res/audioww mappába."
+
+msgid "sounds/effects"
+msgstr "Effektek"
+
+msgid "sounds/gui"
+msgstr "Kezelőfelület"
+
+msgid "sounds/hangar"
+msgstr "Zene a garázsban"
+
+msgid "sounds/masterVolume"
+msgstr "Fő hangerő"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "Hang engedélyezése"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "A játék hanghatások kikapcsolása javíthatja a játék általános teljesítményét. Újra kell indítanod a játékot a beállítások érvényesítéséhez."
+
+msgid "sounds/nightMode"
+msgstr "Éjszakai mód"
+
+msgid "sounds/nightMode/description"
+msgstr "Eltünteti a hangerő különbségeket, csökkenti az éles hangokat és optimalizálja az alacsony frekvenciákat a játékban. Ez kényelmes és puha hangzást nyújt a késő éjszakai játékhoz."
+
+msgid "sounds/physicsQuality/attention"
+msgstr "Ha bekapcsolod ezt a beállítást, az hatással lehet a teljesítményre."
+
+msgid "sounds/physicsQuality/body"
+msgstr "A hangfizika minőségét szabályozza.\n\nSzimulálja, hogy a hang hogyan hajlik meg az akadályok körül, és hogyan halad át a pálya felületén.\n\nA pálya geometriáját használja a tankhangok első visszhangjainak létrehozásához, amelyek a közeli tárgyakról verődnek vissza.\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "A hangfizika minősége"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "Kikapcsolva"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "Magas"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "Alacsony"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "Közepes"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "Ajánlott"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "Meghatározza az optimális hangfizikai minőséget a számítógépedhez.\n\nEz eltarthat egy ideig."
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "Ajánlott"
+
+msgid "sounds/sixthSense/body"
+msgstr "Egyedi hang. Mozgasd a sixthSense.mp3 fájlt a res/audioww mappába."
+
+msgid "sounds/sixthSense/header"
+msgstr "Egyedi"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "2.0/2.1 Rendszer"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "A játékon belüli hangok beállítása külső, páros, teljes tartományú hangszórókhoz (2.0) vagy páros magas frekvenciája hangszórókhoz + egy alacsony frekvenciájúhoz (2.1)."
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "2.0/2.1 Rendszer"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "5.1 Rendszer"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "A játék hangjainak pozicionálását külső 5.1-es többcsatornás hangrendszerű külső hangszórókhoz és mélynyomóhoz igazítja."
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "5.1 Rendszer"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "7.1 Rendszer"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "A játék hangjainak pozicionálását külső 7.1-es többcsatornás hangrendszerű külső hangszórókhoz és mélynyomóhoz igazítja."
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "7.1 Rendszer"
+
+msgid "sounds/soundDevice/auto"
+msgstr "Autoválasztás"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "Automatikusan meghatározza az operációs rendszerben megadott audio beállításokat."
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "Autoválasztás"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "Fejhallgató"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "A játékon belüli hangok beállítása fejhallgatóhoz."
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "Fejhallgató"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "Laptop"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "Felhasználja a 2.0/2.1 hangrendszer beállítás pozicionálási elvét, de hozzáigazítja a játékbeli hangot a kis méretű laptop hangszórókhoz a lehető legjobb hangminőséggel."
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "Laptop"
+
+msgid "sounds/soundQuality"
+msgstr "LQ Hang"
+
+msgid "sounds/soundQuality/description"
+msgstr "A hangminőség csökkentése javíthatja az általános játék teljesítményt a régebbi gépeken. Ennek a módnak az engedélyezése jelentősen csökkenti az egy időben feldolgozott hangok mennyiségét."
+
+msgid "sounds/speakers/back/body"
+msgstr "A jobb/bal hátsó hangszóró hangtesztje."
+
+msgid "sounds/speakers/back/header"
+msgstr "Jobb/bal hátsó hangszórók"
+
+msgid "sounds/speakers/center/body"
+msgstr "A közép hangszóró hangtesztje."
+
+msgid "sounds/speakers/center/header"
+msgstr "Közép hangszóró"
+
+msgid "sounds/speakers/front/body"
+msgstr "A jobb/bal front hangszóró hangtesztje."
+
+msgid "sounds/speakers/front/header"
+msgstr "Jobb/bal első hangszórók"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "A 2.0/2.1 rendszerben a mélynyomó egy opcionális eszköz. Nem tesztelhető hangszórók nélkül."
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "Opcionális mélysugárzó"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "A jobb/bal oldalsó hangszóró hangtesztje."
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "Jobb/bal oldalsó hangszórók"
+
+msgid "sounds/speakers/sides/body"
+msgstr "A jobb/bal hangszóró hangtesztje."
+
+msgid "sounds/speakers/sides/header"
+msgstr "Jobb/bal hangszórók"
+
+msgid "sounds/speakers/sub/body"
+msgstr "A mélynyomó hangtesztje."
+
+msgid "sounds/speakers/sub/header"
+msgstr "Mélynyomó"
+
+msgid "sounds/subtitles"
+msgstr "Feliratok"
+
+msgid "sounds/tabCommon"
+msgstr "Fő hangerő"
+
+msgid "sounds/tabSpecial"
+msgstr "Játékesemény"
+
+msgid "sounds/tabVivox"
+msgstr "Hangkommunikáció"
+
+msgid "sounds/vehicles"
+msgstr "Járművek"
+
+msgid "sounds/voiceNotification"
+msgstr "Hang értesítések"
+
+msgid "title"
+msgstr "Beállítások"
+
+msgid "tripleBuffered"
+msgstr "Tripla pufferelés"
+
+msgid "tripleBuffered/description"
+msgstr "Csökkenti a képernyő szaggatását (csak akkor elérhető ha a vertikális szinkronizáció be van kapcsolva)."
+
+msgid "vertSync"
+msgstr "Vertikális szinkronizáció"
+
+msgid "vertSync/Off"
+msgstr "Kikapcsol"
+
+msgid "vertSync/On"
+msgstr "Bekapcsol"
+
+msgid "vertSync/description"
+msgstr "A képfrissítésének szinkronizálása a monitor képfrissítésével.\n\n60 kép másodpercenként a maximum. Akkor kell használni ha képremegés tapasztalható vagy ha a kép alja a tetejéhez képest késik."
+
+msgid "voice_chat/PTT"
+msgstr "Beszéd gombnyomásra"
+
+msgid "voice_chat/fieldset/header"
+msgstr "Hangerő"
+
+msgid "voice_chat/header/common"
+msgstr "Általános"
+
+msgid "voice_chat/header/microphone"
+msgstr "Mikrofon"
+
+msgid "voice_chat/header/speakers"
+msgstr "Fejhallgató"
+
+msgid "voice_chat/microphone"
+msgstr "Mikrofon"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "Mikrofon"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "Mikrofon engedélyezése"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "Hang kommunikáció engedélyezése"
+
+msgid "windowSize"
+msgstr "Ablak méret"
+
+msgid "windowSize/description"
+msgstr "Vízszintes és függőleges képernyő felbontása a játéknak ablakban való futtatáskor. Teljes képernyős módra való váltáskor a \"képernyő felbontás\" beállításokra vált a játék."
+
+msgid "windowTitle"
+msgstr "WoT kliens"

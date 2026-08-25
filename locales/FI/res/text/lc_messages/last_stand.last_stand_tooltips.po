@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "Saatavilla %(timer) ajan"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) – Pelimuoto. Klikkaa tutkiaksesi"
+
+msgid "bannerTooltip/description"
+msgstr "PvE -erikoispelimuoto, joka heittää sinut vihollisvoimien aaltoja vastaan. Valitse suosikkivaunusi, tuhoa kaikuvaunuja ja pysäytä vihollishyökkäys. Eksklusiivisia palkintoja ja paljon muuta odottavat sinua!"
+
+msgid "bannerTooltip/header"
+msgstr "Viimeiseen mieheen: Terra Nord"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Tietokoneesi suorituskyky ei riitä tähän pelitilaan. Voit kohdata ongelmia grafiikan ja vaunujen liikkumisen kanssa. Pelin kaatuminen on myös todennäköistä."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Tämä pelimuoto vaatii hyvää suorituskykyä tietokoneelta. Kohtaat ongelmia kartan lataamisen, grafiikoiden ja vaunujen liikkeen kanssa. Mikäli kohtaat ongelmia, koeta heikentää grafiikan laatua asetuksista."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Heikko suorituskyky"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Mahdollisesti heikentynyt suorituskyky"
+
+msgid "battlePass/playGame"
+msgstr "Ansaitse pisteitä Viimeiseen mieheen -pelimuodossa etenemällä läpi tapahtuman (vaatii tason VIII vaunuja)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Olette jo kavereita."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Odotetaan kaverikutsun vahvistusta."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Poista pelaaja mustalta listaltasi."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Lisää kaverilistalle."
+
+msgid "battleResult/interaction/menu"
+msgstr "Klikkaa avataksesi toimintovalikko tämän pelaajan suhteen."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Lisää osastoon."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Pelaaja on jo osastossa."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Kutsu jo lähetetty."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Vain osaston komentaja voi kutsua pelaajia liittymään osastoon."
+
+msgid "booster/activated"
+msgstr "Aktivoitu"
+
+msgid "booster/howItWorks"
+msgstr "Kuinka se toimii"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Jäähtymisaika: %(cooldownSeconds)s"
+
+msgid "consumables/params/usageCost"
+msgstr "Mirium-hinta: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "Aikaa jäljellä päivittäisen tehtävän suorittamiseen"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "Aikaa seuraavaan päivittäiseen tehtävään"
+
+msgid "dailyQuests/completed"
+msgstr "Suoritettu"
+
+msgid "dailyQuests/completedAll"
+msgstr "Olet suorittanut kaikki tämän tapahtuman päivittäiset tehtävät."
+
+msgid "dailyQuests/completedDescr"
+msgstr "Olet suorittanut tämän päivittäisen tehtävän. Uusi tulee saataville huomenna."
+
+msgid "dailyQuests/rewards"
+msgstr "Palkinnot:"
+
+msgid "dailyQuests/status"
+msgstr "Uuden päivittäisen tehtävän saamiseen %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "Tapahtuma saatavilla %(timer) ajan"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Valitse vaunu liittyäksesi taisteluun."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Ei saatavilla"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Taistelut valitulla vaikeustasolla tai valitussa pelimuodossa eivät ole väliaikaisesti saatavilla teknisistä syistä."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Ei saatavilla"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Odota osaston palaavan edellisestä taistelusta liittyäksesi uuteen."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Ei saatavilla"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Yhteensopimaton vaikeustaso osastolle."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Ei saatavilla"
+
+msgid "points/accrued"
+msgstr "Saatu"
+
+msgid "points/battles"
+msgstr "• Taistele tapahtumataisteluissa"
+
+msgid "points/body"
+msgstr "Dataa käytetään etenemään Viimeiseen mieheen läpi ja hankkimaan arvokkaita resursseja. Sitä voi ansaita taistelemalla tapahtumataisteluita, suorittamalla päivittäisiä tehtäviä tai ostamalla \"{{bundle_name}}\" -paketin."
+
+msgid "points/bottom"
+msgstr "Tapahtuma päättyy: (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• Suorita uusia päivittäisiä tehtäviä joka päivä"
+
+msgid "points/effective"
+msgstr "• Tehokkuus taistelussa:"
+
+msgid "points/gold"
+msgstr "• Psta \"{{bundle_name}}\" Kaupasta"
+
+msgid "points/header"
+msgstr "Data"
+
+msgid "points/howToEarn"
+msgstr "Miten ansaitaan"
+
+msgid "points/missionDaily"
+msgstr "• Päivittäinen tehtävä suoritettu:"
+
+msgid "points/obelisk"
+msgstr "• Obeliski tuhottu:"
+
+msgid "points/vehicleDaily"
+msgstr "• Päivittäinen vaunubonus saatu:"
+
+msgid "rewardPath/info/first"
+msgstr "Voit ansaita lisää dataa suorittamalla päivittäisiä tehtäviä, jotka päivitetään joka päivä läpi tapahtuman."
+
+msgid "rewardPath/info/header"
+msgstr "Lisää dataa"
+
+msgid "rewardPath/info/second"
+msgstr "Erityinen tapahtumapaketti, joka on saatavilla Kaupasta, sisältää myös dataa vauhdittamaan edistymistäsi."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "Vaunubonus:"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "Muut palkinnot:"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}Vaunusbonus{EDCB9E_End} – {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "Kaikki data ja palkinnot saatu"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "Dataa saatu {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "Kerää dataa taisteluista ja etene läpi Viimeiseen mieheen -tapahtuman. Kukin vaihe palkitsee sinut arvokkailla tavaroilla ja vaunubonuksella, joka auttaa sinua päihittämään entistä vaikeampia vihollisia."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "Viimeinen vaihe"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "Nykyinen vaihe"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "Tapahtuma on saatavilla {{timer}} ajan"
+
+msgid "rewardPath/tooltip/title"
+msgstr "Edistyminen"
+
+msgid "shopWidget/body"
+msgstr "Klikkaa avataksesi pelinsisäisen Kaupan erikoisosio, jossa on eksklusiivisia tapahtuman tavaroita."
+
+msgid "shopWidget/header"
+msgstr "Tapahtumapaketit"
+
+msgid "teamList/actions/body"
+msgstr "Pikatoiminnot osastojen luomiseen ja kavereiden lisäämiseen/poistamiseen."
+
+msgid "teamList/actions/header"
+msgstr "Pikatoiminnot"
+
+msgid "teamList/damage/body"
+msgstr "Järjestä aiheutetun vahingon mukaan."
+
+msgid "teamList/damage/header"
+msgstr "Vahinkoa aiheutettu"
+
+msgid "teamList/keys/body"
+msgstr "Järjestä ansaitun datan mukaan. Näytetty arvo ei laske ylimääräistä dataa, joka saadaan päivittäisten tehtävien suorittamisesta tai päivittäisistä vaunubonuksista."
+
+msgid "teamList/keys/header"
+msgstr "Data"
+
+msgid "teamList/kills/body"
+msgstr "Järjestä tuhottujen vihollisvaunujen mukaan."
+
+msgid "teamList/kills/header"
+msgstr "Vihollisvaunuja tuhottu"
+
+msgid "teamList/name/header"
+msgstr "Pelaajan nimi"
+
+msgid "teamList/place/body"
+msgstr "Järjestä pelaajan sijoituksen mukaan."
+
+msgid "teamList/place/header"
+msgstr "Sijoitus joukkueen sisällä"
+
+msgid "teamList/squad/header"
+msgstr "Osasto on taktinen yksikkö pelaajien välistä yhteistyötä varten."
+
+msgid "teamList/vehicle/body"
+msgstr "Järjestä vaunutyypin ja nimen mukaan."
+
+msgid "teamList/vehicle/header"
+msgstr "Ajoneuvot"
+
+msgid "teamList/warned/body"
+msgstr "Tätä pelaajaa on rangaistu toimettomuudesta/karkuruudesta, eikä hän ole saanut mitään palkintoja tästä taistelusta."
+
+msgid "teamList/warned/header"
+msgstr "Varoitus"
+
+msgid "teamList/warned/self/body"
+msgstr "Sinua on rangaistu toimettomuudesta/karkuruudesta, etkä saanut mitään palkintoja tästä taistelusta."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Matala mieh. tehokkuus"
+
+msgid "vehicle/rentState"
+msgstr "Lukittu"
+
+msgid "vehicleDaily/header"
+msgstr "Päivittäinen vaunubonus"

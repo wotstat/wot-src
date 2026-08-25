@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Plano"
+
+msgid "animations/crew_close"
+msgstr "CERRAR"
+
+msgid "animations/shop"
+msgstr "Pasar a la compra"
+
+msgid "battleMattersTab"
+msgstr "Academia acorazada"
+
+msgid "battleResults/descr"
+msgstr "Academia acorazada: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "A las misiones de Academia acorazada"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Progreso en esta batalla"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Cancelar"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "CERRAR"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Confirmar"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Recibirás el {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} con una tripulación y un espacio en el garaje."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "¿Intercambiar tu ficha de la Academia por el %(vehicleName)s?"
+
+msgid "entryPoint/hint"
+msgstr "UNA SERIE DE\nMISIONES DE ENTRENAMIENTO"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Misiones completadas: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Academia acorazada"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Recompensa de finalización:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Las misiones no están disponibles actualmente por razones técnicas. Se guardará tu progresión por las misiones completadas."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Todas las misiones completadas"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Las misiones no están disponibles temporalmente"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Condiciones:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Intercambia una ficha por cualquier vehículo desarrollable de nivel VI."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "VOLVER"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "A LAS MISIONES DE LA ACADEMIA ACORAZADA"
+
+msgid "mainRewardsScreen/done"
+msgstr "En el garaje"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Previsualizar"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Días de alquiler: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Completa una serie de misiones de entrenamiento, y tu recompensa principal serán tres vehículos premium de alquiler de nivel VIII durante {cream_Open}14 días{cream_Close}."
+
+msgid "mainRewardsScreen/title"
+msgstr "ACADEMIA ACORAZADA"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Seleccionar"
+
+msgid "mainScreen/infoButton"
+msgstr "GUIA PARA RECIÉN LLEGADOS"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "GUÍA"
+
+msgid "mainScreen/list/arrow"
+msgstr "Haz clic para ir a la misión actual."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Recompensa principal recibida"
+
+msgid "mainScreen/progress"
+msgstr "Misiones completadas: %(completed)s/%(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Cómo completar"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s/%(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Completa la misión anterior"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "No disponible"
+
+msgid "mainScreen/showMainReward"
+msgstr "Ver recompensa principal"
+
+msgid "mainScreen/target"
+msgstr "Completa todas las misiones y consigue tres vehículos de nivel VIII de alquiler."
+
+msgid "mainScreen/title"
+msgstr "ACADEMIA ACORAZADA"
+
+msgid "pausedScreen/buttonText"
+msgstr "Al garaje"
+
+msgid "pausedScreen/description"
+msgstr "La Academia acorazada no está disponible temporalmente por motivos técnicos. Se guardará todo tu progreso. Sentimos las molestias."
+
+msgid "pausedScreen/title"
+msgstr "No disponible temporalmente"
+
+msgid "rewards/additionalTitle"
+msgstr "También has recibido:"
+
+msgid "rewards/footer/confirm"
+msgstr "¡Afirmativo!"
+
+msgid "rewards/footer/more"
+msgstr "Más: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "A la siguiente misión"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Ver en el garaje"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Las condiciones de la misión se completaron anteriormente"
+
+msgid "rewards/rent"
+msgstr "Días de alquiler: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "MISIÓN FINAL COMPLETADA"
+
+msgid "rewards/subTitle/regular"
+msgstr "MISIÓN %(questNumber)s COMPLETADA"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "VEHÍCULO POR FICHA DE LA ACADEMIA RECIBIDO"
+
+msgid "rewards/title"
+msgstr "ACADEMIA ACORAZADA"
+
+msgid "rewards/token/action"
+msgstr "Seleccionar vehículo"
+
+msgid "rewards/token/description"
+msgstr "Usa una ficha para recibir instantáneamente cualquier vehículo de nivel VI."
+
+msgid "rewards/token/title"
+msgstr "Intercambia una ficha de la Academia por un vehículo"
+
+msgid "tokenTooltip/condition"
+msgstr "La ficha se entrega por completar con éxito una serie de misiones de entrenamiento y alcanzar los hitos de progreso en la Academia acorazada."
+
+msgid "tokenTooltip/description"
+msgstr "Las fichas se pueden intercambiar por cualquier vehículo desarrollable de nivel VI. El vehículo viene con una tripulación y un espacio en el garaje."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Ficha disponible: {cream_open}%(days)s d{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Ficha disponible hasta: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Ficha disponible: {cream_open}%(hours)s h{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Ficha disponible: {cream_open}%(minutes)s min{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Ficha de la Academia"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Recibirás una {cream_Open}%(crewIcon)s tripulación{cream_Close} y un {cream_Open}%(hangarIcon)s espacio{cream_Close} {cream_Open}en el garaje{cream_Close} además del vehículo."
+
+msgid "vehicleSelection/back"
+msgstr "VOLVER"
+
+msgid "vehicleSelection/backTo"
+msgstr "A LAS MISIONES DE LA ACADEMIA ACORAZADA"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Añadir a la comparación"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Configura la visualización de vehículos por tipo y nación."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Filtrar por parámetros"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Haz clic para reiniciar los ajustes del filtro."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Establecer por defecto"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Nación"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Filtrar por parámetros"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Tipo de vehículo"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "No se encontraron coincidencias. Cambia los ajustes del filtro o reinícialos."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Reiniciar filtro"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Has desarrollado todos los vehículos de nivel VI que se pueden intercambiar por una ficha de la Academia."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Ningún vehículo para seleccionar"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Búsqueda por nombre"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "El nombre del vehículo no puede incluir más de %(maxLength)s caracteres."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Buscar por nombre"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/%(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Se muestran:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Intercambia una ficha por cualquier vehículo desarrollable de nivel VI. El vehículo viene con\nuna tripulación y un espacio en el garaje."
+
+msgid "vehicleSelection/title"
+msgstr "Elige cualquier vehículo desarrollable de nivel VI"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Cazacarros"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "AAP"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Carro pesado"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Carro ligero"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Carro medio"

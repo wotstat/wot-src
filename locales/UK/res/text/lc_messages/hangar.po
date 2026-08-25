@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "Докупити"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "Буде завантажене таке спорядження: %(consumables)s."
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "Купити спорядження"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "Членів екіпажу: %(count)s"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "У машині вже є екіпаж"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "Членів екіпажу: %(count)s."
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "Рекрутування новобранців"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "тут."
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Компанія Wargaming використовує поєднання «Т-34» у загальновживаному значенні для вказівки на реальні танки й не пов'язана будь-якими відносинами з правовласниками однойменних товарних знаків. Докладніше: {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "Завантажити боєзапас"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "Завантажити спорядження"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "Слот"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "Обміняти"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "Безкоштовно"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "Рекрутування %(count)s членів екіпажу"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "Прокат"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "Узяти напрокат"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "Напрокат на 30 діб"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "Напрокат на 3 доби"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "Напрокат на 7 діб"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "Взяти напрокат на %(days)s д"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "Етап Лінії фронту"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "Сезон «Лінії фронту»"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "Етап Рангових боїв"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "Сезон Рангових боїв"
+
+msgid "buyVehicleWindow/restore"
+msgstr "Відновити"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "Безстроково"
+
+msgid "buyVehicleWindow/title"
+msgstr "Комплектація"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "Відновлення"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "Докупити"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "Обмін"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "Обмін"
+
+msgid "carousel/filters/allVehicle"
+msgstr "Уся моя техніка"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "Екіпаж"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "Характеристики"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} бій"
+msgstr[1] "{{count}} бої"
+msgstr[2] "{{count}} боїв"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} день"
+msgstr[1] "{{count}} дні"
+msgstr[2] "{{count}} днів"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} год"
+msgstr[1] "{{count}} год"
+msgstr[2] "{{count}} год"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} перемога"
+msgstr[1] "{{count}} перемоги"
+msgstr[2] "{{count}} перемог"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "Натисніть, щоб перейти до списку вибраної техніки"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "Моя техніка"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "Навчання, перенавчання й керування екіпажем"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "Керування екіпажем"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "Зовнішній вигляд техніки: нанесення 2D/3D-стилів й інших елементів."
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "Зовнішній вигляд"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "Натисніть, щоб відкрити"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "Інформація про машину, дослідження, порівняння й ремонт."
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "Керування машиною"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "ПРО МАШИНУ"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "БРОНЯ"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "ПОРІВНЯТИ"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "АВТОМАТИЧНЕ ПОВЕРНЕННЯ"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "ПОВЕРНЕННЯ ЕКІПАЖУ"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "ВИСАДИТИ В КАЗАРМУ"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "ПЕРЕНАВЧИТИ ЕКІПАЖ"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "ШВИДКИЙ СЕРВІС"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "ПОЛЬОВА МОДЕРНІЗАЦІЯ"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "ЗМІНИТИ НАЦІЮ"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "АКТИВНЕ"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "ПІДСИЛЕННЯ PRO {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "ПРИШВИДШЕНЕ НАВЧАННЯ"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "РЕМОНТ"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "ДОСЛІДЖЕННЯ"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "ПОЛІПШЕННЯ"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "Ви можете змінити вибір будь-коли."
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "Підсилення Pro активне для цієї машини"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "Ви можете підсилювати машини лише у Випадкових боях, Натиску, Укріпрайоні, на Глобальній мапі й у турнірах."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "Несумісний режим для підсилення Pro"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "Ви можете підсилювати лише досліджувані й колекційні машини I–X рівнів."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "Несумісна машина для підсилення Pro"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "Підсилення Pro активне для {{vehicle}}. Вибір можна змінити через {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "Повертайтеся пізніше!"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "Вибір можна змінити через {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "Підсилення Pro активне для цієї машини"

@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT-vertaler <noreply@wargaming.net>\nLanguage-Team: WoT-team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "actionStub/name"
+msgstr "Modificatie"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "Herstelt onmiddellijk %(immediatelyRestore)s van de levenspunten van het voertuig. Gedurende de %(duration)s s dat de bekwaamheid actief is, wordt alle ontvangen schade van granaten en gevechtsbekwaamheden verzameld en in levenspunten omgezet, plus een extra %(restoringCoefficient)s van de totale hoeveelheid ontvangen schade wanneer de bekwaamheid eindigt.\n\n*HP-herstel heeft ook invloed op geallieerde voertuigen binnen een klein bereik."
+
+msgid "adaptationHealthRestore/descr"
+msgstr "Herstelt onmiddellijk %(immediatelyRestore)s van de levenspunten van het voertuig. Gedurende de %(duration)s s dat de bekwaamheid actief is, wordt alle ontvangen schade van granaten en gevechtsbekwaamheden verzameld en in levenspunten omgezet, plus een extra %(restoringCoefficient)s van de totale hoeveelheid ontvangen schade wanneer de bekwaamheid eindigt.\n\n*HP-herstel heeft ook invloed op geallieerde voertuigen binnen een klein bereik."
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "{green_Open}Herstelt meteen %(immediatelyRestore)s{green_Close} van de levenspunten van het voertuig. Gedurende de {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} dat de bekwaamheid actief is, wordt alle ontvangen schade van granaten en gevechtsbekwaamheden verzameld en in levenspunten omgezet, plus een {green_Open}extra %(restoringCoefficient)s van de totale hoeveelheid ontvangen schade{green_Close} wanneer de bekwaamheid eindigt.\n\n*HP-herstel heeft ook invloed op geallieerde voertuigen binnen een klein bereik."
+
+msgid "adaptationHealthRestore/name"
+msgstr "Adaptief pantser"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "{green_Open}Herstelt meteen %(immediatelyRestore)s{green_Close} van de levenspunten van het voertuig. Gedurende de {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} dat de bekwaamheid actief is, wordt alle ontvangen schade van granaten en gevechtsbekwaamheden verzameld en in levenspunten omgezet, plus een {green_Open}extra %(restoringCoefficient)s van de totale hoeveelheid ontvangen schade{green_Close} wanneer de bekwaamheid eindigt.\n\n*HP-herstel heeft ook invloed op geallieerde voertuigen binnen een klein bereik."
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s verborgenheid van een stilstaand of bewegend voertuig wanneer stille uitlaat (welke klasse dan ook) of bounty-uitlaat is gemonteerd."
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "Verbetert het effect van stille uitlaat of bounty-uitlaat gedurende het gevecht. Het gevechtsbevel werkt alleen wanneer de bijbehorende uitrusting is gemonteerd."
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "Uitlaatisolering"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "Verhoogt de verborgenheid van een stationair of bewegend voertuig"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "De effectiviteit hangt af van het voertuigtype. Verhoogt de verborgenheid van een stationair of bewegend voertuig. Nuttig voor actieve verkenning, maar ook voor passieve verkenning op riskante posities."
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "Stille uitlaat"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "Verhoogt de verborgenheid van een stationair of bewegend voertuig."
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "Stille uitlaat klasse 1"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "Stille uitlaat klasse 2"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "Stille uitlaat klasse 3"
+
+msgid "additional_armor_plates_1/name"
+msgstr "Extra pantserbeplating (type 1)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "Extra pantserbeplating (type 2)"
+
+msgid "afterburning/descr"
+msgstr "Verhoogt de snelheid en acceleratie van je voertuig voor een beperkte tijd."
+
+msgid "afterburning/name"
+msgstr "Turbocompressor"
+
+msgid "aimingStabilizer/long_special"
+msgstr "Het verminderen van je kanonspreiding is cruciaal: hoe kleiner de spreiding aan het begin is, hoe kleiner de richtcirkel is en hoe sneller het kanon volledig richt. Daarbovenop heeft een schot dat wordt afgevuurd in beweging of zonder volledig te richten meer kans om het doelwit te raken."
+
+msgid "aimingStabilizer/name"
+msgstr "Verticale stabilisator"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s spreiding na het vuren en tijdens beweging en koepelrotatie met verticale stabilisator, systeem met stabilisatie-uitrusting of bounty-stabilisator gemonteerd."
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "Verbetert het effect van verticale stabilisator (elke klasse), systeem met stabilisatie-uitrusting, en bounty-stabilisator gedurende het gevecht. Deze stukken uitrusting moeten op je voertuig gemonteerd zijn om dit gevechtsbevel te kunnen installeren en activeren."
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "Stabilisatiesmering"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "Verbetert het effect van de stabilisator"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "Verticale stabilisator klasse 1"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "Verticale stabilisator klasse 2"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "Verticale stabilisator klasse 1"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "Verticale stabilisator klasse 2"
+
+msgid "antifragmentationLining/long_special"
+msgstr "Anti-schervenschermen absorberen schade; dit betekent dat zij de schade ontvangen door rammen en brisantgranaten verminderen. Anti-schervenschermen zijn nuttig voor zware tanks met betrouwbare bepantsering en een goed vermogen om te rammen, die voornamelijk in gevechten van nabij zijn te vinden."
+
+msgid "antifragmentationLining/name"
+msgstr "Anti-schervenscherm"
+
+msgid "antifragmentationLining/short_special"
+msgstr "Beschermt het voertuig en de bemanning tegen brisantgranaten, verwondingen, verdoving en rammen"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "Superzwaar anti-schervenscherm"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "Zwaar anti-schervenscherm"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "Medium anti-schervenscherm"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "Licht anti-schervenscherm"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "Uitlaat"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "Stabilisator"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "Anti-schervenscherm"
+
+msgid "archetype/camouflageNet/name"
+msgstr "Camouflagenet"
+
+msgid "archetype/coatedOptics/name"
+msgstr "Optiek"
+
+msgid "archetype/commandersView/name"
+msgstr "Zichtsysteem"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "Richtaandrijving"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "Temperen"
+
+msgid "archetype/grousers/name"
+msgstr "Brede rupsbanden"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "Configuratie"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "Radioapparatuur"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "Rotatiemechanisme"
+
+msgid "archetype/improvedSights/name"
+msgstr "Richten"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "Ventilatie"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "Vuurleiding"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "Overlevingsverbetering Suite"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "Nauwkeurigheidsverbetering Systeem"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "Mobiliteitsverbetering Systeem"
+
+msgid "archetype/stereoscope/name"
+msgstr "Binoculaire telescoop"
+
+msgid "archetype/tankRammer/name"
+msgstr "Doorlader"
+
+msgid "archetype/template"
+msgstr "\"%(name)s\" categorie uitrusting"
+
+msgid "archetype/turbocharger/name"
+msgstr "Turbocompressor"
+
+msgid "artillery/longDescr"
+msgstr "Beveelt artillerie om brisantgranaten af te vuren op een klein gebied. Voertuigen in het centrum van het gebied ontvangen de meeste schade. Vooral effectief tegen zwaar gepantserde voertuigen."
+
+msgid "artillery/name"
+msgstr "Artillerie-aanval"
+
+msgid "artillery/shortDescr"
+msgstr "Veroorzaakt veel schade aan vijandelijke voertuigen binnen een kleine straal."
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s kans op brand in de motor"
+
+msgid "autoExtinguishers/descr"
+msgstr "Blust automatisch brand in je voertuig."
+
+msgid "autoExtinguishers/long_special"
+msgstr "Blust automatisch brand en vermindert de kans op brand in je voertuig. Dit verbruiksartikel is geschikt voor ieder voertuigtype en iedere natie."
+
+msgid "autoExtinguishers/name"
+msgstr "Automatische brandblusser"
+
+msgid "autoExtinguishers/onUse"
+msgstr "Automatisch brandblussysteem in je voertuig. Kan meerdere keren worden gebruikt in een gevecht. Het verbruiksmiddel wordt na een gevecht verwijderd als het minstens één keer werd gebruikt."
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "Blust automatisch brand"
+
+msgid "berserker/battleDescr"
+msgstr "Verhoogt de penetratie en vuursnelheid met een factor %(gunPiercing)s en verbetert ook de richtefficiëntie en stabilisatie met %(gunAimingTime)s, maar vermindert de totale HP van je voertuig met %(healthDebuff)s tijdens de %(duration)s s die de bekwaamheid duurt.\n\n*Je voertuig kan niet door schade van de Berserker bekwaamheid worden vernietigd."
+
+msgid "berserker/descr"
+msgstr "Verhoogt de penetratie en vuursnelheid met een factor %(gunPiercing)s en verbetert ook de richtefficiëntie en stabilisatie met %(gunAimingTime)s, maar vermindert de totale HP van je voertuig met %(healthDebuff)s tijdens de %(duration)s s die de bekwaamheid duurt.\n\n*Je voertuig kan niet door schade van de Berserker bekwaamheid worden vernietigd."
+
+msgid "berserker/longDescr"
+msgstr "Verhoogt de penetratie en vuursnelheid {green_Open}met een factor %(gunPiercing)s{green_Close} en verbetert ook de richtefficiëntie en stabilisatie {green_Open}met %(gunAimingTime)s{green_Close}, maar vermindert de totale HP van je voertuig met {red_Open}%(healthDebuff)s{red_Close} tijdens de {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} die de bekwaamheid duurt.\n\n*Je voertuig kan niet door schade van de Berserker bekwaamheid worden vernietigd."
+
+msgid "berserker/name"
+msgstr "Berserker"
+
+msgid "berserker/shortDescr"
+msgstr "Verhoogt de penetratie en vuursnelheid {green_Open}met een factor %(gunPiercing)s{green_Close} en verbetert ook de richtefficiëntie en stabilisatie {green_Open}met %(gunAimingTime)s{green_Close}, maar vermindert de totale HP van je voertuig met {red_Open}%(healthDebuff)s{red_Close} tijdens de {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} die de bekwaamheid duurt.\n\n*Je voertuig kan niet door schade van de Berserker bekwaamheid worden vernietigd."
+
+msgid "blackout_headlights_1/name"
+msgstr "Koplampendimmer (type 1)"
+
+msgid "bomber/longDescr"
+msgstr "Beveelt een aanvalsvliegtuig om bommen te werpen in het geselecteerde gebied, waarbij vijandelijke voertuigen worden verdoofd en beschadigd. Voertuigen in het centrum van het gebied ontvangen de meeste schade. Vooral effectief tegen licht en gemiddeld gepantserde voertuigen."
+
+msgid "bomber/name"
+msgstr "Luchtaanval"
+
+msgid "bomber/shortDescr"
+msgstr "Verdooft vijandelijke voertuigen en veroorzaakt een middelmatige hoeveelheid schade binnen een grote straal."
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "Herstelt geleidelijk aan %(healPerTickDuration)s van de HP van het voertuig binnen %(duration)s s. Kan worden onderbroken wanneer het voertuig wordt beschadigd."
+
+msgid "brRegenerationKit/descr"
+msgstr "Herstelt geleidelijk aan %(healPerTickDuration)s van de HP van het voertuig binnen %(duration)s s. Kan worden onderbroken wanneer het voertuig wordt beschadigd."
+
+msgid "brRegenerationKit/long_special"
+msgstr "Herstelt geleidelijk aan {green_Open}%(healPerTickDuration)s{green_Close} van de HP van het voertuig {whiteSpanish_Open}binnen %(duration)s s{whiteSpanish_Close}. Kan worden onderbroken wanneer het voertuig wordt beschadigd."
+
+msgid "brRegenerationKit/name"
+msgstr "Herstel"
+
+msgid "brRegenerationKit/short_special"
+msgstr "Herstelt geleidelijk aan {green_Open}%(healPerTickDuration)s{green_Close} van de HP van het voertuig {whiteSpanish_Open}binnen %(duration)s s{whiteSpanish_Close}. Kan worden onderbroken wanneer het voertuig wordt beschadigd."
+
+msgid "brRepairkit/descr"
+msgstr "Repareert modules en verwijdert nadelige effecten."
+
+msgid "brRepairkit/long_special"
+msgstr "Repareert modules en verwijdert nadelige effecten."
+
+msgid "brRepairkit/name"
+msgstr "Reparatieset"
+
+msgid "brRepairkit/short_special"
+msgstr "Repareert modules en verwijdert nadelige effecten."
+
+msgid "br_bomber/battleDescr"
+msgstr "Verdooft en veroorzaakt %(minDamage)s tot %(maxDamage)s HP schade aan vijandelijke voertuigen. Voertuigen in het midden van het impactgebied worden zwaarder beschadigd.\n\n*Het duurt %(delay)s s totdat de impact plaatsvindt."
+
+msgid "br_bomber/descr"
+msgstr "Verdooft en veroorzaakt %(minDamage)s tot %(maxDamage)s HP schade aan vijandelijke voertuigen. Voertuigen in het midden van het impactgebied worden zwaarder beschadigd.\n\n*Het duurt %(delay)s s totdat de impact plaatsvindt."
+
+msgid "br_bomber/longDescr"
+msgstr "Verdooft en veroorzaakt {whiteSpanish_Open}%(minDamage)s tot %(maxDamage)s HP schade{whiteSpanish_Close} aan vijandelijke voertuigen. Voertuigen in het midden van het impactgebied worden zwaarder beschadigd.\n\n*Het duurt %(delay)s s totdat de impact plaatsvindt."
+
+msgid "br_bomber/name"
+msgstr "Luchtaanval"
+
+msgid "br_bomber/shortDescr"
+msgstr "Verdooft en veroorzaakt {whiteSpanish_Open}%(minDamage)s tot %(maxDamage)s HP schade{whiteSpanish_Close} aan vijandelijke voertuigen. Voertuigen in het midden van het impactgebied worden zwaarder beschadigd.\n\n*Het duurt %(delay)s s totdat de impact plaatsvindt."
+
+msgid "br_minefield/battleDescr"
+msgstr "Legt voor %(duration)s s een actief mijnenveld in het geselecteerde gebied. Vijandelijke voertuigen die de mijnen raken zullen worden verdoofd en explosieschade ontvangen.\n\n*Mijnen kunnen worden vernietigd door ze te beschieten. Mijnen die onder vijandelijke voertuigen worden gelegd zullen NIET exploderen."
+
+msgid "br_minefield/descr"
+msgstr "Legt voor %(duration)s s een actief mijnenveld in het geselecteerde gebied. Vijandelijke voertuigen die de mijnen raken zullen worden verdoofd en explosieschade ontvangen.\n\n*Mijnen kunnen worden vernietigd door ze te beschieten. Mijnen die onder vijandelijke voertuigen worden gelegd zullen NIET exploderen."
+
+msgid "br_minefield/longDescr"
+msgstr "Legt {whiteSpanish_Open}voor %(duration)s s{whiteSpanish_Close} een actief mijnenveld in het geselecteerde gebied. Vijandelijke voertuigen die de mijnen raken zullen worden verdoofd en explosieschade ontvangen.\n\n*Mijnen kunnen worden vernietigd door ze te beschieten. Mijnen die onder vijandelijke voertuigen worden gelegd zullen NIET exploderen."
+
+msgid "br_minefield/name"
+msgstr "Mijnenveld"
+
+msgid "br_minefield/shortDescr"
+msgstr "Legt {whiteSpanish_Open}voor %(duration)s s{whiteSpanish_Close} een actief mijnenveld in het geselecteerde gebied. Vijandelijke voertuigen die de mijnen raken zullen worden verdoofd en explosieschade ontvangen.\n\n*Mijnen kunnen worden vernietigd door ze te beschieten. Mijnen die onder vijandelijke voertuigen worden gelegd zullen NIET exploderen."
+
+msgid "br_respawn/name"
+msgstr "Respawn"
+
+msgid "br_respawn/platoon/descr"
+msgstr "Stelt je in staat om nadat je voertuig is vernietigd weer het gevecht in te gaan. Dit kan alleen in de eerste %(duration)s min van een gevecht.\n\nOm een bondgenoot te respawnen, moet je gedurende %(timeToResurrect)s s niet in de strijd zijn verwikkeld. Respawnladingen worden gedeeld met je pelotongenoten."
+
+msgid "br_respawn/solo/descr"
+msgstr "Stelt je in staat om nadat je voertuig is vernietigd weer het gevecht in te gaan. Dit kan alleen in de eerste %(duration)s min van een gevecht.\n\nNa vernietiging zal je voertuig automatisch respawnen."
+
+msgid "br_smoke/battleDescr"
+msgstr "Voegt een %(duration)s seconde durende verborgenheidsbonus toe aan alle voertuigen binnen het verbruiksartikelbereik."
+
+msgid "br_smoke/descr"
+msgstr "Voegt een verborgenheidsbonus toe aan alle voertuigen binnen het verbruiksartikelbereik."
+
+msgid "br_smoke/longDescr"
+msgstr "Voegt een %(duration)s seconde durende verborgenheidsbonus toe aan alle voertuigen binnen het verbruiksartikelbereik."
+
+msgid "br_smoke/name"
+msgstr "Rookgordijn"
+
+msgid "br_smoke/shortDescr"
+msgstr "Voegt een verborgenheidsbonus toe aan alle voertuigen binnen het verbruiksartikelbereik."
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "Voegt een verborgenheidsbonus toe aan alle voertuigen binnen het bereik van het verbruiksartikel, en beschadigt ALLE voertuigen binnen zijn bereik voor %(damagePerTick)s van hun totale HP per seconde. Duurt %(duration)s s.\n\n*Schade door corroderende mist verstoort het oprapen van buit niet en vernietigt ook geen voertuigen; in plaats daarvan zullen ze minstens 1 HP overhouden."
+
+msgid "br_smoke_with_damage/descr"
+msgstr "Voegt een verborgenheidsbonus toe aan alle voertuigen binnen het bereik van het verbruiksartikel, en beschadigt ALLE voertuigen binnen zijn bereik voor %(damagePerTick)s van hun totale HP per seconde. Duurt %(duration)s s.\n\n*Schade door corroderende mist verstoort het oprapen van buit niet en vernietigt ook geen voertuigen; in plaats daarvan zullen ze minstens 1 HP overhouden."
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "Voegt een verborgenheidsbonus toe aan alle voertuigen binnen het bereik van het verbruiksartikel, en beschadigt ALLE voertuigen binnen zijn bereik {whiteSpanish_Open}voor %(damagePerTick)s{whiteSpanish_Close} van hun totale HP per seconde. Duurt {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close}.\n\n*Schade door corroderende mist verstoort het oprapen van buit niet en vernietigt ook geen voertuigen; in plaats daarvan zullen ze minstens 1 HP overhouden."
+
+msgid "br_smoke_with_damage/name"
+msgstr "Corroderende mist"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "Voegt een verborgenheidsbonus toe aan alle voertuigen binnen het bereik van het verbruiksartikel, en beschadigt ALLE voertuigen binnen zijn bereik {whiteSpanish_Open}voor %(damagePerTick)s{whiteSpanish_Close} van hun totale HP per seconde. Duurt {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close}.\n\n*Schade door corroderende mist verstoort het oprapen van buit niet en vernietigt ook geen voertuigen; in plaats daarvan zullen ze minstens 1 HP overhouden."
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s snellere modulereparatie"
+
+msgid "builtinRepairkit/long_special"
+msgstr "Repareert bij activatie alle beschadigde modules. Het passieve effect verhoogt de reparatiesnelheid. Dit verbruiksartikel is geschikt voor bepaalde voertuigen."
+
+msgid "builtinRepairkit/name"
+msgstr "Standaard grote reparatieset"
+
+msgid "builtinRepairkit/onUse"
+msgstr "Repareert alle beschadigde modules. Kan in een gevecht meerdere keren worden geactiveerd. Kan niet worden verbruikt.\nDit verbruiksartikel kan niet worden verwijderd, maar het kan wel naar een andere plek worden verplaatst."
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "Levert 10% extra voertuigverborgenheid"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "Geeft alle bemanningsleden de verborgenheid specialisatie tot 100% getraind"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "De verborgenheid specialisatie vermindert gedurende het gevecht de zichtbaarheid van zowel bewegende als stilstaande voertuigen. Als de specialisatie tot 100% is getraind, zal het gemonteerde gevechtsbevel zijn effect vergroten; zo niet, dan zal het gevechtsbevel de specialisatie tot 100% getraind aan je voertuig leveren."
+
+msgid "camouflageBattleBooster/name"
+msgstr "Natuurlijke dekking"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "Levert de verborgenheid specialisatie tot 100% getraind of vergroot zijn effect"
+
+msgid "camouflageNet/battleDescr"
+msgstr "Verhoogt de verborgenheid van een stationair voertuig 3 seconden nadat het is gestopt"
+
+msgid "camouflageNet/long_special"
+msgstr "De effectiviteit hangt af van het voertuigtype. Het camouflagenet is vooral nuttig voor heimelijke voertuigen: artillerie en tankjagers met een laag silhouet. Het verhoogt de effectiviteit van de verborgenheid specialisatie. De combinatie van deze twee levert een goede bonus aan je voertuig. Het camouflagenet wordt pas geactiveerd wanneer je voertuig 3 seconden lang stilstaat."
+
+msgid "camouflageNet/name"
+msgstr "Camouflagenet"
+
+msgid "camouflageNet/short_special"
+msgstr "Verhoogt de verborgenheid van een stationair voertuig"
+
+msgid "camouflageNet_tier2/name"
+msgstr "Camouflagenet klasse 2"
+
+msgid "camouflageNet_tier3/name"
+msgstr "Camouflagenet klasse 3"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} bij de bemanningsefficiëntiebonus gedurende het gevecht."
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} bij de bemanningsefficiëntiebonus."
+
+msgid "chocolate/long_special"
+msgstr "Automatisch geactiveerd aan het begin van het gevecht en in werking gedurende het gevecht. Alleen geschikt voor Duitse voertuigen."
+
+msgid "chocolate/name"
+msgstr "Chocolade"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "Alleen geschikt voor Duitse voertuigen."
+
+msgid "chocolate/short_special"
+msgstr "Verbetert de prestatie van Duitse bemanningen"
+
+msgid "clingBrander/battleDescr"
+msgstr "Roept een autonome tank op die is uitgerust met een 'Identificeer vriend of vijand' systeem en die de dichtstbijzijnde vijand maximaal %(botLifeTime)s s zal achtervolgen en aanvallen.\n\n*Deze tank kan worden vernietigd."
+
+msgid "clingBrander/descr"
+msgstr "Roept een autonome tank op die is uitgerust met een 'Identificeer vriend of vijand' systeem en die de dichtstbijzijnde vijand maximaal %(botLifeTime)s s zal achtervolgen en aanvallen.\n\n*Deze tank kan worden vernietigd."
+
+msgid "clingBrander/longDescr"
+msgstr "Roept een autonome tank op die is uitgerust met een 'Identificeer vriend of vijand' systeem en die de dichtstbijzijnde vijand {whiteSpanish_Open}maximaal %(botLifeTime)s s{whiteSpanish_Close} zal achtervolgen en aanvallen.\n\n*Deze tank kan worden vernietigd."
+
+msgid "clingBrander/name"
+msgstr "Slagveldrobot"
+
+msgid "clingBrander/shortDescr"
+msgstr "Roept een autonome tank op die is uitgerust met een 'Identificeer vriend of vijand' systeem en die de dichtstbijzijnde vijand {whiteSpanish_Open}maximaal %(botLifeTime)s s{whiteSpanish_Close} zal achtervolgen en aanvallen.\n\n*Deze tank kan worden vernietigd."
+
+msgid "clutches_replace_1/name"
+msgstr "Wrijvingskoppeling vervanging (type 1)"
+
+msgid "clutches_replace_2/name"
+msgstr "Wrijvingskoppeling vervanging (type 2)"
+
+msgid "coatedOptics/long_special"
+msgstr "Anders dan de binoculaire telescoop, levert de optiek met anti-reflectiecoating (elk type) een kleinere maar permanente bonus die niet verdwijnt wanneer het voertuig in beweging is. Als gevolg hiervan is de optiek met anti-reflectiecoating zeer nuttig voor voertuigen met een actieve speelstijl – lichte en medium tanks."
+
+msgid "coatedOptics/name"
+msgstr "Optiek met anti-reflectiecoating"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s zichtbereik (tot 445 m) met optiek met anti-reflectiecoating (elke klasse), experimentele optiek of bounty-optiek gemonteerd."
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "Verbetert het effect van optiek met anti-reflectiecoating, experimentele optiek of bounty-optiek gedurende het gevecht. Deze stukken uitrusting moeten op je voertuig gemonteerd zijn om dit gevechtsbevel te kunnen installeren en activeren."
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "Optische kalibratie"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "Verbetert het effect van de optiek"
+
+msgid "coatedOptics_tier1/name"
+msgstr "Optiek met anti-reflectiecoating klasse 1"
+
+msgid "coatedOptics_tier2/name"
+msgstr "Optiek met anti-reflectiecoating klasse 2"
+
+msgid "coatedOptics_tier3/name"
+msgstr "Optiek met anti-reflectiecoating klasse 3"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} bij de bemanningsefficiëntiebonus gedurende het gevecht."
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} bij de bemanningsefficiëntiebonus."
+
+msgid "cocacola/long_special"
+msgstr "Automatisch geactiveerd aan het begin van het gevecht en in werking gedurende het gevecht. Alleen geschikt voor Amerikaanse voertuigen."
+
+msgid "cocacola/name"
+msgstr "Sixpack Cola"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "Alleen geschikt voor Amerikaanse voertuigen."
+
+msgid "cocacola/short_special"
+msgstr "Verbetert de prestatie van Amerikaanse bemanningen"
+
+msgid "commandersView/long_special"
+msgstr "Vermindert de verborgenheid van bewegende vijanden en de begroeiingscoëfficiënten van vijanden tijdens het verkennen. Hierdoor kun je bewegende vijanden van verder verkennen en effectiever vijanden verkennen die door struiken of omgevallen bomen worden verborgen."
+
+msgid "commandersView/name"
+msgstr "Commandantzichtsysteem"
+
+msgid "commandersView/short_special"
+msgstr "Vermindert de verborgenheid van vijandelijke voertuigen die bewegen of achter begroeiing staan"
+
+msgid "corrodingShot/battleDescr"
+msgstr "Voegt een bijtend middel aan een granaat toe dat de penetratie en schade ervan verhoogt. Bij het beschadigen van een vijandelijk voertuig zal de granaat er een tijdelijk effect op aanbrengen dat over een periode van %(dotEffectDuration)s s tot %(damagePerDotEffectDuration)s van de HP van de vijand wegneemt.\n\n*Dit effect kan worden verwijderd met een reparatieset."
+
+msgid "corrodingShot/descr"
+msgstr "Voegt een bijtend middel aan een granaat toe dat de penetratie en schade ervan verhoogt. Bij het beschadigen van een vijandelijk voertuig zal de granaat er een tijdelijk effect op aanbrengen dat over een periode van %(dotEffectDuration)s s tot %(damagePerDotEffectDuration)s van de HP van de vijand wegneemt.\n\n*Dit effect kan worden verwijderd met een reparatieset."
+
+msgid "corrodingShot/longDescr"
+msgstr "Voegt een bijtend middel aan een granaat toe dat de penetratie en schade ervan verhoogt. Bij het beschadigen van een vijandelijk voertuig zal de granaat er een tijdelijk effect op aanbrengen dat over een {whiteSpanish_Open}periode van %(dotEffectDuration)s s{whiteSpanish_Close} {whiteSpanish_Open}tot %(damagePerDotEffectDuration)s{whiteSpanish_Close} van de HP van de vijand wegneemt.\n\n*Dit effect kan worden verwijderd met een reparatieset."
+
+msgid "corrodingShot/name"
+msgstr "Bijtende granaat"
+
+msgid "corrodingShot/shortDescr"
+msgstr "Voegt een bijtend middel aan een granaat toe dat de penetratie en schade ervan verhoogt. Bij het beschadigen van een vijandelijk voertuig zal de granaat er een tijdelijk effect op aanbrengen dat over een {whiteSpanish_Open}periode van %(dotEffectDuration)s s{whiteSpanish_Close} {whiteSpanish_Open}tot %(damagePerDotEffectDuration)s{whiteSpanish_Close} van de HP van de vijand wegneemt.\n\n*Dit effect kan worden verwijderd met een reparatieset."
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "Verbetert het volgende"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "Commandantseigenschap"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} \"{name}\""
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "Specialisatie:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "Geeft het volgende"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "specialisatie:"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "Een verbeterde versie van de verticale stabilisator ({colorTagOpen}–20%{colorTagClose} spreiding na het vuren en tijdens beweging en koepelrotatie) die een sterker effect levert: {colorTagOpen}–27,5%{colorTagClose} spreiding na het vuren en tijdens beweging en koepelrotatie. Deze uitrusting is geschikt voor voertuigen van alle naties en van bepaalde types, en kan alleen met obligaties worden gedemonteerd."
+
+msgid "deluxAimingStabilizer/name"
+msgstr "Systeem met stabilisatie-uitrusting"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "Een verbeterde versie van de optiek met anti-reflectiecoating ({colorTagOpen}+10%{colorTagClose} zichtbereik) die een sterker effect levert: {colorTagOpen}+13,5%{colorTagClose} zichtbereik. Deze uitrusting is geschikt voor ieder voertuigtype en iedere natie, en kan alleen met obligaties worden gedemonteerd."
+
+msgid "deluxCoatedOptics/name"
+msgstr "Experimentele optiek"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "Een geüpgradede versie van de verbeterde richtaandrijving ({colorTagOpen}+10%{colorTagClose} richtsnelheid) die een sterker effect levert: {colorTagOpen}+13,5%{colorTagClose} richtsnelheid. Deze uitrusting is geschikt voor ieder voertuigtype en iedere natie, en kan alleen met obligaties worden gedemonteerd."
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "Slijtvaste richtaandrijving"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "Analoog aan 'aangepaste indeling' maar met een sterker effect. Deze uitrusting is geschikt voor ieder voertuigtype en iedere natie, en kan alleen met obligaties worden gedemonteerd."
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "Verbeterde indeling"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "Versnelt reparaties en beschermt de munitieopslag, brandstoftanks en motor"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "Een verbeterde versie van ventilatie ({colorTagOpen}+5%{colorTagClose} bij de bemanningsefficiëntiebonus) met een sterker effect: {colorTagOpen}+8,5%{colorTagClose} bij de bemanningsefficiëntiebonus. Deze uitrusting is geschikt voor ieder voertuigtype en iedere natie, en kan alleen met obligaties worden gedemonteerd."
+
+msgid "deluxImprovedVentilation/name"
+msgstr "Ventilatiesysteem"
+
+msgid "deluxRammer/long_special"
+msgstr "Een verbeterde versie van de doorlader ({colorTagOpen}-10%{colorTagClose} laadtijd) die een sterker effect levert: {colorTagOpen}-13,5%{colorTagClose} laadtijd. Deze uitrusting is geschikt voor ieder voertuigtype en iedere natie, en kan alleen met obligaties worden gedemonteerd."
+
+msgid "deluxRammer/name"
+msgstr "Innovatief laadsysteem"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "Een verbeterde versie van stille uitlaat met een groter effect: verhoogt de verborgenheid van een stilstaand of bewegend voertuig. Nuttig voor actieve verkenning, maar ook voor passieve verkenning vanuit risicovolle posities.\nDeze uitrusting is geschikt voor voertuigen van alle naties en types, maar de effectiviteit ervan hangt af van het voertuigtype. Kan alleen met obligaties worden gedemonteerd."
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "Extra stille uitlaat"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "Verhoogt de verborgenheid van een stilstaand of bewegend voertuig met {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose}"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "Verhoogt de verborgenheid van een stationair voertuig 1,5 seconden nadat het is gestopt"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "Een verbeterde versie van camouflagenet, waarvan de effectiviteit afhangt van het voertuigtype. Tactisch camouflagenet is vooral nuttig voor heimelijke voertuigen: artillerie en tankjagers met een laag silhouet. Het verhoogt de effectiviteit van de verborgenheid specialisatie. De combinatie van deze twee levert een goede bonus aan je voertuig. Tactisch camouflagenet wordt pas geactiveerd wanneer je voertuig 1,5 seconden lang stilstaat."
+
+msgid "deluxeCamouflageNet/name"
+msgstr "Tactisch camouflagenet"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17,5{colorTagClose}/{colorTagOpen}12,5{colorTagClose}/{colorTagOpen}7,5%{colorTagClose} verborgenheid van een stilstaand voertuig"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "Herstelt volledig alle levenspunten van de ophanging na reparatie."
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "Herstelt de ophanging na reparatie."
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "Een verbeterde versie van verbeterd temperen: {colorTagOpen}+12,5%{colorTagClose} levenspunten, {colorTagOpen}+75%{colorTagClose} duurzaamheid van de ophanging, {colorTagOpen}+30%{colorTagClose} reparatiesnelheid van de ophanging, {colorTagOpen}–75%{colorTagClose} rompschade veroorzaakt door ophangingsschade tijdens een botsing. Herstelt volledig alle levenspunten van de ophanging na reparatie. Vermindert de kans op de vernietiging van een rupsband bij het ontvangen van schade, waardoor je voertuig zo lang mogelijk in beweging kan blijven. Deze uitrusting is geschikt voor voertuigen van alle naties en types (m.u.v. artillerie). Kan alleen met obligaties worden gedemonteerd."
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "Verhoogde granaatweerstand"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "Verhoogt de duurzaamheid en beschermt de ophanging"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "Een verbeterde versie van 'Verbeterd rotatiemechanisme' met een sterker effect: {colorTagOpen}+17,5% {colorTagClose} kanondraaisnelheid, {colorTagOpen}+17,5% {colorTagClose} rompdraaisnelheid en {colorTagOpen}-17,5% {colorTagClose} spreiding tijdens beweging en koepelrotatie. Deze uitrusting is geschikt voor voertuigen van alle naties en types, en kan alleen met obligaties worden gedemonteerd."
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "Verbeterde tandwielen"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "Verhoogt de draaisnelheid en vermindert de kanonspreiding tijdens beweging en rotatie"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "Een geüpgradede versie van verbeterd richten met een sterker effect: vermindert de grootte van de richtcirkel van een richtend of volledig gericht kanon met {colorTagOpen}9%{colorTagClose}. Als gevolg hiervan heeft je kanon een grotere kans om het doelwit te raken. Deze uitrusting is geschikt voor ieder voertuigtype en iedere natie, m.u.v. artillerie, en kan alleen met obligaties worden gedemonteerd."
+
+msgid "deluxeImprovedSights/name"
+msgstr "Innovatief richten"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "Vermindert de kanonspreiding"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "Vergroot het zichtbereik van een stationair voertuig nadat het 1,5 s stilstaat (tot 445 m)"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "Een verbeterde versie van binoculaire telescoop. Een groot zichtbereik geeft voertuigen in het gevecht een enorm voordeel. Dit type uitrusting is nuttig voor tankjagers met een laag silhouet en nauwkeurig kanon. Binoculaire telescoop wordt geactiveerd als het voertuig 1,5 seconden lang stilstaat."
+
+msgid "deluxeStereoscope/name"
+msgstr "Telescopisch observatiesysteem"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27,5%{colorTagClose} zichtbereik voor een stilstaand voertuig (tot 445 m)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "Een verbeterde versie van turbocompressor ({colorTagOpen}+7,5%{colorTagClose} motorvermogen, {colorTagOpen}+4 km/u{colorTagClose} topsnelheid, {colorTagOpen}+2 km/u{colorTagClose} achteruitrijsnelheid): {colorTagOpen}+12,5%{colorTagClose} motorvermogen, {colorTagOpen}+6 km/u{colorTagClose} topsnelheid, {colorTagOpen}+4 km/u{colorTagClose} achteruitrijsnelheid. Deze uitrusting is geschikt voor voertuigen van alle naties en types (m.u.v. wielvoertuigen). Kan alleen met obligaties worden gedemonteerd."
+
+msgid "deluxeTurbocharger/name"
+msgstr "Verbeterde compressor"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "Verhoogt het motorvermogen en de topsnelheid"
+
+msgid "eb_minefield/descr"
+msgstr "Legt voor een bepaalde tijdsduur een actief mijnenveld in het geselecteerde gebied."
+
+msgid "eb_minefield/long_descr"
+msgstr "Legt voor een bepaalde tijdsduur een actief mijnenveld in het geselecteerde gebied. Mijnen die ontploffen, beschadigen en verdoven vijandelijke voertuigen. Vijanden kunnen mijnen van dichtbij detecteren, maar ook met de Verkenningsvlucht of Sentinel gevechtsreserves. De mijnen kunnen door schoten of explosies worden vernietigd."
+
+msgid "eb_minefield/name"
+msgstr "Mijnenveld"
+
+msgid "eb_minefield/short_descr"
+msgstr "Legt voor een bepaalde tijdsduur een actief mijnenveld in het geselecteerde gebied."
+
+msgid "eb_regenerationKit/descr"
+msgstr "Herstelt geleidelijk aan een bepaald percentage van de levenspunten van je voertuig."
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "Herstelt geleidelijk aan een bepaald percentage van de levenspunten van je voertuig. Binnen een herbevoorradingscirkel wordt de reparatiesnelheid verhoogd. Bij activatie wordt de ontvangen schade van mijnen verminderd."
+
+msgid "eb_regenerationKit/name"
+msgstr "Veldreparaties"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "Herstelt geleidelijk aan een bepaald percentage van de levenspunten van je voertuig."
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "Garageplek"
+
+msgid "empty_slot/name"
+msgstr "Garageplek"
+
+msgid "empty_slot/short_descr"
+msgstr "De gevechtsreserveplek is gebruikt."
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "Vergroot het effect van de geluidsdetectie specialisatie met een factor 1,5"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "Levert de geluidsdetectie specialisatie tot 100% getraind"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "De geluidsdetectie specialisatie geeft een waarschuwing voor vijandelijk artillerievuur en vermindert het negatieve effect van verdovingen. Als de specialisatie tot 100% is getraind, verbetert het gevechtsbevel zijn effect; anders levert het gevechtsbevel de specialisatie tot 100% getraind aan je voertuig."
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "Verhoogde waakzaamheid"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "Levert de geluidsdetectie specialisatie tot 100% getraind of vergroot zijn effect"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "Verbetering van het richten vermindert de richttijd. Een voertuig dat is uitgerust met de verbeterde richtaandrijving zal nauwkeuriger schieten (daarbovenop verhoogt het de vuursnelheid, sinds het herladen soms korter duurt dan het volledige richten)."
+
+msgid "enhancedAimDrives/name"
+msgstr "Verbeterde richtaandrijving"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s richtsnelheid met verbeterde richtaandrijving (elke klasse), slijtvaste richtaandrijving, bounty-richtaandrijving of vuurleiding gemonteerd."
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "Verbetert het effect van bounty-richtaandrijving, verbeterde richtaandrijving of slijtvaste richtaandrijving gedurende het gevecht. Deze stukken uitrusting moeten op je voertuig gemonteerd zijn om dit gevechtsbevel te kunnen installeren en activeren."
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "Richten afstellen"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "Verbetert het effect van richtaandrijvingen"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "Verbeterde richtaandrijving klasse 1"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "Verbeterde richtaandrijving klasse 2"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "Verbeterde richtaandrijving klasse 3"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "Verbeterde belleville-vering"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "Herstelt volledig alle levenspunten van de ophanging na reparatie."
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Herstelt volledig alle levenspunten van de ophanging na reparatie"
+
+msgid "enhancedLevers/name"
+msgstr "Verbeterde hef-armen"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "Verbeterde horizontale torsievering"
+
+msgid "enhancedSprings/name"
+msgstr "Verbeterde vering"
+
+msgid "enhancedTorsions1t/name"
+msgstr "Verbeterde torsie-assen klasse 1 t"
+
+msgid "enhancedTorsions3t/name"
+msgstr "Verbeterde torsie-assen klasse 3 t"
+
+msgid "enhancedTorsions5t/name"
+msgstr "Verbeterde torsie-assen klasse 5 t"
+
+msgid "exampleAbility/descr"
+msgstr "Testvaardigheid voor visueel script"
+
+msgid "exampleAbility/name"
+msgstr "Testvaardigheid"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s motorvermogen en koepeldraaisnelheid gedurende het gevecht."
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} motorvermogen en koepeldraaisnelheid."
+
+msgid "excellentFuel/long_special"
+msgstr "Voegt {colorTagOpen}10%{colorTagClose} toe aan het motorvermogen en de koepeldraaisnelheid gedurende het gevecht. Automatisch geactiveerd aan het begin van het gevecht en in werking gedurende het gevecht."
+
+msgid "excellentFuel/name"
+msgstr "Uitstekende brandstof"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} motorvermogen en koepeldraaisnelheid"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "Herstelt alle levenspunten van de ophanging na reparatie."
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "Herstelt de ophanging na reparatie."
+
+msgid "extraHealthReserve/long_special"
+msgstr "Verhoogt de duurzaamheid en reparatiesnelheid. Vermindert de rompschade veroorzaakt door schade aan de ophanging als gevolg van een botsing. Herstelt alle levenspunten van de ophanging na reparatie. Vermindert de kans dat een rupsband bij beschadiging wordt vernietigd, waardoor je voertuig zo lang mogelijk in beweging blijft."
+
+msgid "extraHealthReserve/name"
+msgstr "Verbeterd temperen"
+
+msgid "extraHealthReserve/short_special"
+msgstr "Verhoogt de duurzaamheid en beschermt de ophanging"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "Verbeterd temperen klasse 1"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "Verbeterd temperen klasse 2"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "Verbeterd temperen klasse 3"
+
+msgid "fireCircle/battleDescr"
+msgstr "Creëert een vuurcirkel rond je voertuig dat de mobiliteit van vijandelijke voertuigen vermindert en over een periode van %(timer)s s tot %(damagePerTickForInterval)s van hun totale HP wegneemt.\n\n*Het effectieve gebied van de vuurcirkel is stationair en volgt je voertuig niet."
+
+msgid "fireCircle/descr"
+msgstr "Creëert een vuurcirkel rond je voertuig dat de mobiliteit van vijandelijke voertuigen vermindert en over een periode van %(timer)s s tot %(damagePerTickForInterval)s van hun totale HP wegneemt.\n\n*Het effectieve gebied van de vuurcirkel is stationair en volgt je voertuig niet."
+
+msgid "fireCircle/longDescr"
+msgstr "Creëert een vuurcirkel rond je voertuig dat de mobiliteit van vijandelijke voertuigen vermindert en over een {whiteSpanish_Open}periode van %(timer)s s{whiteSpanish_Close} {whiteSpanish_Open}tot %(damagePerTickForInterval)s van hun totale HP{whiteSpanish_Close} wegneemt.\n\n*Het effectieve gebied van de vuurcirkel is stationair en volgt je voertuig niet."
+
+msgid "fireCircle/name"
+msgstr "Ring van vuur"
+
+msgid "fireCircle/shortDescr"
+msgstr "Creëert een vuurcirkel rond je voertuig dat de mobiliteit van vijandelijke voertuigen vermindert en over een {whiteSpanish_Open}periode van %(timer)s s{whiteSpanish_Close} {whiteSpanish_Open}tot %(damagePerTickForInterval)s van hun totale HP{whiteSpanish_Close} wegneemt.\n\n*Het effectieve gebied van de vuurcirkel is stationair en volgt je voertuig niet."
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "Vergroot het effect van de brandbestrijding specialisatie met een factor 1,5"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "Levert de brandbestrijding specialisatie tot 100% getraind"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "De brandbestrijding specialisatie verbetert de mogelijkheden van je voertuig om tijdens het gevecht brand te bestrijden. Als de specialisatie tot 100% is getraind, zal het gemonteerde gevechtsbevel zijn effect vergroten; zo niet, dan zal het gevechtsbevel de specialisatie tot 100% getraind aan je voertuig leveren."
+
+msgid "fireFightingBattleBooster/name"
+msgstr "Ervaren brandblussers"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "Levert de brandbestrijding specialisatie tot 100% getraind of vergroot zijn effect"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "Beveelt de artillerie om op het geselecteerde gebied te vuren, waarbij alle voertuigen in het gebied worden beschadigd."
+
+msgid "fort_aoe_artillery/name"
+msgstr "Artillerieaanval"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "Beveelt de artillerie om op het geselecteerde gebied te vuren, waarbij alle voertuigen in het gebied worden beschadigd."
+
+msgid "fort_inspire/longDescr"
+msgstr "Levert een bonus aan de hoofdkwalificaties en alle specialisaties van de voltallige bemanning van je voertuig, maar ook aan de bemanningen van nabije geallieerde voertuigen."
+
+msgid "fort_inspire/name"
+msgstr "Inspireren"
+
+msgid "fort_inspire/shortDescr"
+msgstr "Levert een bonus aan de hoofdkwalificaties en alle specialisaties van de voltallige bemanning van je voertuig, maar ook aan de bemanningen van nabije geallieerde voertuigen."
+
+msgid "fuel_system_revision_1/name"
+msgstr "Brandstofsysteem herziening (type 1)"
+
+msgid "grousers/long_special"
+msgstr "Verhoogt de draaisnelheid van het voertuig en houdt de snelheid op alle ondergronden hoog. Vooral effectief wanneer er op een zachte of halfzachte ondergrond wordt gereden. Helemaal effectief in combinatie met de motorrem en offroad rijden specialisaties."
+
+msgid "grousers/name"
+msgstr "Extra brede rupsbanden"
+
+msgid "grousers/short_special"
+msgstr "Verhoogt de draaisnelheid en acceleratie van het voertuig"
+
+msgid "grousers_tier1/name"
+msgstr "Extra brede rupsbanden klasse 1"
+
+msgid "grousers_tier2/name"
+msgstr "Extra brede rupsbanden klasse 2"
+
+msgid "grousers_tier3/name"
+msgstr "Extra brede rupsbanden klasse 3"
+
+msgid "gun_balancing_1/name"
+msgstr "Kanonstabilisering (type 1)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "Blust brand in je voertuig."
+
+msgid "handExtinguishers/long_special"
+msgstr "Blust bij activatie branden in je voertuig. Geschikt voor ieder voertuigtype en iedere natie. Het verbruiksartikel wordt na een gevecht verwijderd als het minstens één keer werd gebruikt."
+
+msgid "handExtinguishers/name"
+msgstr "Handbediende brandblusser"
+
+msgid "handExtinguishers/onUse"
+msgstr "Blust brand in je voertuig. Kan meerdere keren per gevecht gebruikt worden. Het verbruiksartikel wordt na het gevecht verwijderd als het minstens eenmaal werd gebruikt."
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "Blust branden"
+
+msgid "healPoint/battleDescr"
+msgstr "Creëert rond je voertuig een gebied. Binnen dit gebied herstellen de speler en pelotonleden %(duration)s s lang elke seconde %(healPerTick)s van de levenspunten van hun voertuigen."
+
+msgid "healPoint/descr"
+msgstr "Creëert rond je voertuig een gebied. Binnen dit gebied herstellen de speler en pelotonleden %(duration)s s lang elke seconde %(healPerTick)s van de levenspunten van hun voertuigen."
+
+msgid "healPoint/longDescr"
+msgstr "Creëert rond je voertuig een gebied. Binnen dit gebied herstellen de speler en pelotonleden {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} lang elke seconde {green_Open}%(healPerTick)s{green_Close} van de levenspunten van hun voertuigen."
+
+msgid "healPoint/name"
+msgstr "Herstelzone"
+
+msgid "healPoint/shortDescr"
+msgstr "Creëert rond je voertuig een gebied. Binnen dit gebied herstellen de speler en pelotonleden {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} lang elke seconde {green_Open}%(healPerTick)s{green_Close} van de levenspunten van hun voertuigen."
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s bij de bemanningsefficiëntiebonus gedurende het gevecht."
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} bij de bemanningsefficiëntiebonus."
+
+msgid "hotCoffee/long_special"
+msgstr "Automatisch geactiveerd aan het begin van het gevecht en in werking gedurende het gevecht. Alleen geschikt voor Franse voertuigen."
+
+msgid "hotCoffee/name"
+msgstr "Sterke koffie"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "Alleen geschikt voor Franse voertuigen."
+
+msgid "hotCoffee/short_special"
+msgstr "Verbetert de prestatie van Franse bemanningen"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "Voorkomt één brandstoftankbrand, munitieopslagontploffing en motoruitschakeling wanneer deze modules in een gevecht worden vernietigd."
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "Voorkomt één brandstoftankbrand, munitieopslagontploffing en motoruitschakeling wanneer deze modules in een gevecht worden vernietigd."
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "De munitieopslag wordt tegen ontploffing beschermd"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "Munitieopslagontploffing voorkomen"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "De motor wordt beschermd"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "Uitschakeling van de motor voorkomen"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "De brandstoftanks worden tegen brand beschermd"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "Brand in brandstoftank voorkomen"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "Voorkomt één brandstoftankbrand, munitieopslagontploffing en motoruitschakeling wanneer deze modules in een gevecht worden vernietigd."
+
+msgid "improvedConfiguration/long_special"
+msgstr "Versnelt reparaties. Verhoogt de duurzaamheid van de munitieopslag, brandstoftanks en motor. Zorgt voor een kleinere vermindering van de herlaadtijd en het motorvermogen wanneer desbetreffende modules worden beschadigd. Voorkomt één brandstoftankbrand, munitieopslagontploffing en motoruitschakeling wanneer deze modules in een gevecht worden vernietigd. Effectiever in combinatie met de reparatie, veilige opslag en tijdig onderhoud specialisaties."
+
+msgid "improvedConfiguration/name"
+msgstr "aangepaste indeling"
+
+msgid "improvedConfiguration/short_special"
+msgstr "Versnelt reparaties en beschermt de munitieopslag, brandstoftanks en motor"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s reparatiesnelheid met aangepaste indeling (elke klasse), verbeterde indeling of bounty-beschermingstechnologie gemonteerd."
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "Verbetert het effect van aangepaste indeling, verbeterde indeling of bounty-beschermingstechnologie gedurende het gevecht. Deze stukken uitrusting moeten op je voertuig gemonteerd zijn om dit gevechtsbevel te kunnen installeren en activeren."
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "Gevechtsvoorbereiding onderhoud"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "Verbetert het effect van aangepaste indeling"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "Aangepaste indeling klasse 1"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "Aangepaste indeling klasse 2"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "Houdt een vijand langer zichtbaar nadat die het zichtbereik van jouw voertuig heeft verlaten. Zorgt ervoor dat jouw voertuig minder lang voor vijanden zichtbaar is. Effectiever in combinatie met de aangewezen doel en roep om wraak specialisaties."
+
+msgid "improvedRadioCommunication/name"
+msgstr "Verbeterde radioapparatuur"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "Houdt een vijand langer verkend en zorgt ervoor dat jij minder lang wordt verkend"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "Verhoogt de romp- en koepeldraaisnelheid van voertuigen met koepels. Verhoogt de romp- en kanondraaisnelheid van voertuigen met stationaire cabines. Vermindert de kanonspreiding tijdens beweging en het draaien van de romp en koepel, en ook na het vuren. Effectiever in combinatie met de motorrem specialisatie."
+
+msgid "improvedRotationMechanism/name"
+msgstr "Verbeterd rotatiemechanisme"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "Verhoogt de draaisnelheid en vermindert de kanonspreiding tijdens beweging en rotatie"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "Verbeterd rotatiemechanisme klasse 1"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "Verbeterd rotatiemechanisme klasse 2"
+
+msgid "improvedSights/long_special"
+msgstr "Vermindert de grootte van de richtcirkel om de nauwkeurigheid van een richtend of volledig gericht kanon te vergroten. Hierdoor heeft je kanon meer kans om het doelwit te raken."
+
+msgid "improvedSights/name"
+msgstr "Verbeterd richten"
+
+msgid "improvedSights/short_special"
+msgstr "Vermindert de kanonspreiding"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s richtcirkelomvang wanneer verbeterd richten (welke klasse dan ook), bounty-richten of nauwkeurigheidsverbetering systeem is gemonteerd."
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "Verbetert het effect van verbeterd richten of bounty-richten gedurende het gevecht. Het gevechtsbevel werkt alleen wanneer de bijbehorende uitrusting is gemonteerd."
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "Gepolijste lens"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "Vermindert de omvang van de richtcirkel"
+
+msgid "improvedSights_tier1/name"
+msgstr "Verbeterd richten klasse 1"
+
+msgid "improvedSights_tier2/name"
+msgstr "Verbeterd richten klasse 2"
+
+msgid "improvedSights_tier3/name"
+msgstr "Verbeterd richten klasse 3"
+
+msgid "improvedVentilation/long_special"
+msgstr "Verbetert een aantal eigenschappen van je voertuig: zichtbereik, vuursnelheid, richttijd, dynamische eigenschappen en anderen. Echter, de bonus van deze uitrusting zal enkel merkbaar zijn wanneer de bemanning de wapenbroeders specialisatie tot 100% getraind heeft."
+
+msgid "improvedVentilation/name"
+msgstr "Verbeterde ventilatie"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s bij de bemanningsefficiëntiebonus wanneer verbeterde ventilatie (welke klasse dan ook), ventilatiesysteem of bounty-ventilatie is gemonteerd."
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "Verbetert het effect van verbeterde ventilatie (elke klasse), ventilatiesysteem of bounty-ventilatie gedurende het gevecht. Deze stukken uitrusting moeten op je voertuig gemonteerd zijn om dit gevechtsbevel te kunnen installeren en activeren."
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "Ventilatieslang"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "Verbetert het effect van de ventilatie"
+
+msgid "improvedVentilation_class1/name"
+msgstr "Verbeterde ventilatie klasse 1"
+
+msgid "improvedVentilation_class2/name"
+msgstr "Verbeterde ventilatie klasse 2"
+
+msgid "improvedVentilation_class3/name"
+msgstr "Verbeterde ventilatie klasse 3"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "Verbeterde ventilatie klasse 1"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "Verbeterde ventilatie klasse 2"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "Verbeterde ventilatie klasse 3"
+
+msgid "improved_suspension_1/name"
+msgstr "Verbeterde ophanging (type 1)"
+
+msgid "improved_suspension_2/name"
+msgstr "Verbeterde ophanging (type 2)"
+
+msgid "inspire/longDescr"
+msgstr "Voegt een % bonus toe aan de hoofdkwalificatie van elk bemanningslid van het eigen voertuig en van geallieerden binnen een bepaalde straal. De speler die het activeert, zal een groter effect ontvangen."
+
+msgid "inspire/name"
+msgstr "Inspireren"
+
+msgid "inspire/shortDescr"
+msgstr "Voegt een bonus toe aan de hoofdkwalificatie van de bemanning van de speler en die van geallieerden."
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "Groot kaliber artilleriekanon-doorlader"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "Groot kaliber tankkanon-doorlader"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s verdovingstijd\n%(crewHitChance)s bescherming van de bemanning tegen verwondingen"
+
+msgid "largeMedkit/descr"
+msgstr "Behandeling van alle gewonde bemanningsleden en verwijdering van het verdovingseffect."
+
+msgid "largeMedkit/long_special"
+msgstr "Geneest bij activatie alle gewonde bemanningsleden en verwijdert het verdovingseffect. Het passieve effect beschermt de bemanning tegen verwondingen. Dit verbruiksartikel is geschikt voor ieder voertuigtype en iedere natie."
+
+msgid "largeMedkit/name"
+msgstr "Grote verbanddoos"
+
+msgid "largeMedkit/onUse"
+msgstr "Behandeling van alle gewonde bemanningsleden. Kan meerdere keren per gevecht gebruikt worden. Het verbruiksmiddel wordt na een gevecht verwijderd als het minstens één keer werd gebruikt."
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "Behandelt alle gewonde bemanningsleden en verwijdert het verdovingseffect. Kan meerdere keren worden gebruikt in een gevecht. Het verbruiksmiddel wordt na een gevecht verwijderd als het minstens één keer werd gebruikt."
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "Geneest alle gewonde bemanningsleden en verwijdert het verdovingseffect"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s snellere modulereparatie"
+
+msgid "largeRepairkit/descr"
+msgstr "Reparatie van alle beschadigde modules."
+
+msgid "largeRepairkit/long_special"
+msgstr "Repareert bij activatie alle beschadigde modules. Het passieve effect verhoogt de reparatiesnelheid. Dit verbruiksartikel is geschikt voor ieder voertuigtype en iedere natie."
+
+msgid "largeRepairkit/name"
+msgstr "Grote reparatieset"
+
+msgid "largeRepairkit/onUse"
+msgstr "Reparatie van alle beschadigde modules. Kan meerdere keren per gevecht gebruikt worden. Het verbruiksmiddel wordt na een gevecht verwijderd als het minstens één keer werd gebruikt."
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "Reparatie van alle beschadigde modules"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "Extra 50% bij de roep om wraak specialisatie"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "Zorgt ervoor dat de roep om wraak specialisatie wordt getraind tot 100%"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "De roep om wraak specialisatie stelt je in staat om na de vernietiging van je voertuig nog 2 seconden de vijandelijke posities door te geven. Als de specialisatie tot 100% is getraind, voegt het gemonteerde gevechtsbevel 1 seconde toe aan de duur (3 seconden in totaal); zo niet, dan zal het gevechtsbevel de specialisatie getraind tot 100% aan je voertuig leveren (standaard 2 seconden)."
+
+msgid "lastEffortBattleBooster/name"
+msgstr "Plicht komt eerst"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "Levert de roep om wraak specialisatie getraind tot 100% of verhoogt zijn effect"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "Medium kaliber artilleriekanon-doorlader"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "Medium kaliber tankkanon-doorlader"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "Vuurleiding T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "Vuurleiding T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "Vuurleiding T1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "Vuurleiding T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "Vuurleiding T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "Vuurleiding T2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "Vuurleiding T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "Vuurleiding T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "Vuurleiding T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "Overlevingsverbetering Suite T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "Overlevingsverbetering Suite T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "Overlevingsverbetering Suite T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "Overlevingsverbetering Suite T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "Overlevingsverbetering Suite T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "Overlevingsverbetering Suite T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "Overlevingsverbetering Suite T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "Overlevingsverbetering Suite T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "Overlevingsverbetering Suite T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "Nauwkeurigheidsverbetering Systeem T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "Nauwkeurigheidsverbetering Systeem T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "Nauwkeurigheidsverbetering Systeem T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "Nauwkeurigheidsverbetering Systeem T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "Nauwkeurigheidsverbetering Systeem T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "Nauwkeurigheidsverbetering Systeem T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "Nauwkeurigheidsverbetering Systeem T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "Nauwkeurigheidsverbetering Systeem T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "Nauwkeurigheidsverbetering Systeem T3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "Mobiliteitsverbetering Systeem T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "Mobiliteitsverbetering Systeem T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "Mobiliteitsverbetering Systeem T1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "Mobiliteitsverbetering Systeem T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "Mobiliteitsverbetering Systeem T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "Mobiliteitsverbetering Systeem T2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "Mobiliteitsverbetering Systeem T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "Mobiliteitsverbetering Systeem T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "Mobiliteitsverbetering Systeem T3"
+
+msgid "nitro/battleDescr"
+msgstr "Verhoogt %(consumeSeconds)s s lang het motorvermogen van je voertuig met %(enginePowerFactor)s en zijn topsnelheid met een factor %(maxSpeedFactor)s."
+
+msgid "nitro/descr"
+msgstr "Verhoogt %(consumeSeconds)s s lang het motorvermogen van je voertuig met %(enginePowerFactor)s en zijn topsnelheid met een factor %(maxSpeedFactor)s."
+
+msgid "nitro/long_special"
+msgstr "Verhoogt {whiteSpanish_Open}%(consumeSeconds)s s{whiteSpanish_Close} lang het motorvermogen van je voertuig {green_Open}met %(enginePowerFactor)s{green_Close} en zijn topsnelheid {green_Open}met een factor %(maxSpeedFactor)s{green_Close}."
+
+msgid "nitro/name"
+msgstr "Turbocompressor"
+
+msgid "nitro/short_special"
+msgstr "Verhoogt {whiteSpanish_Open}%(consumeSeconds)s s{whiteSpanish_Close} lang het motorvermogen van je voertuig {green_Open}met %(enginePowerFactor)s{green_Close} en zijn topsnelheid {green_Open}met een factor %(maxSpeedFactor)s{green_Close}."
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "Alternatieve configuratie: Hulpmaterieel"
+
+msgid "passive_engineering/longDescr"
+msgstr "Levert een bonus aan de veroverings- en herbevoorradingssnelheid. Boost de herbevoorradingssnelheid, wat de benodigde tijd voor het verversen van herbevoorradingscirkels en veroveren of heroveren van sleutelpunten vermindert."
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "Je kunt deze gevechtsreserve niet toepassen op artillerie."
+
+msgid "passive_engineering/name"
+msgstr "Ingenieurswerk"
+
+msgid "passive_engineering/shortDescr"
+msgstr "Levert een bonus aan de veroveringssnelheid, veroveringsblokkering en herbevoorrading."
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "Niet geschikt voor artillerie"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "Verdriedubbelt het effect van de veilige opslag specialisatie"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "Levert de veilige opslag specialisatie tot 100% getraind"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "De veilige opslag specialisatie verbetert de duurzaamheid van je munitierek gedurende het gevecht. Als de specialisatie tot 100% is getraind, zal het gemonteerde gevechtsbevel zijn effect verhogen; zo niet, dan zal het gevechtsbevel de specialisatie getraind tot 100% aan je voertuig leveren."
+
+msgid "pedantBattleBooster/name"
+msgstr "Granaatorganisator"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "Levert de veilige opslag specialisatie getraind tot 100% of vergroot zijn effect"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "Het geselecteerde gebied zal binnen {colorTagOpen}%(delay)d s{colorTagClose} worden aangevallen met Artillerieaanval. Alle doelwitten die binnen een straal van {colorTagOpen}%(radius)d m{colorTagClose} worden beschadigd, ontvangen {colorTagOpen}%(damage)d{colorTagClose} HP schade en zullen voor {colorTagOpen}%(stunDuration)d s{colorTagClose} worden verdoofd."
+
+msgid "poi_artillery_aoe/name"
+msgstr "Artillerieaanval"
+
+msgid "poi_radar/descr"
+msgstr "Bij activatie zullen alle vijandelijke voertuigen {colorTagOpen}%(duration)d s{colorTagClose} lang verkend blijven."
+
+msgid "poi_radar/name"
+msgstr "Divisieradar"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "Verdubbelt het effect van de bruikbaarheid specialisatie"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "Levert de bruikbaarheid specialisatie tot 100% getraind"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "De bruikbaarheid specialisatie vermindert gedurende het gevecht de herlaadtijd van verbruiksartikelen. Als de specialisatie tot 100% is getraind, zal het gemonteerde gevechtsbevel zijn effect vergroten; zo niet, dan zal het gevechtsbevel de specialisatie tot 100% getraind aan je voertuig leveren."
+
+msgid "practicalityBattleBooster/name"
+msgstr "Grondige voorbereiding"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "Levert de bruikbaarheid specialisatie tot 100% getraind of vergroot zijn effect"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s motorvermogen en koepeldraaisnelheid gedurende het gevecht."
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5%{colorTagClose} motorvermogen en koepeldraaisnelheid."
+
+msgid "qualityFuel/long_special"
+msgstr "Voegt {colorTagOpen}5%{colorTagClose} toe aan het motorvermogen en de koepeldraaisnelheid gedurende het gevecht. Automatisch geactiveerd aan het begin van het gevecht en in werking gedurende het gevecht."
+
+msgid "qualityFuel/name"
+msgstr "Kwaliteitsbrandstof"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "{colorTagOpen}+5%{colorTagClose} motorvermogen en koepeldraaisnelheid"
+
+msgid "radar/descr"
+msgstr "Detecteert vijandelijke voertuigen en oorlogsbuit op de minimap."
+
+msgid "radar/name"
+msgstr "Radiodetectie"
+
+msgid "rammer/long_special"
+msgstr "Vuursnelheid is een van de belangrijkste eigenschappen van je voertuig. Het is verstandig om een doorlader op je voertuigen te monteren, je kunt er veel voordeel uit halen. Doorladers kunnen echter niet gemonteerd worden op voertuigen met magazijnlaadsystemen."
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s laadtijd met doorlader (ieder kanontype en kaliber), innovatief laadsysteem of bounty-doorlader gemonteerd."
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "Verbetert het effect van de doorlader (elk kanontype en kaliber), bounty-doorlader of het innovatief laadsysteem gedurende het gevecht. Deze stukken uitrusting moeten op je voertuig gemonteerd zijn om dit gevechtsbevel te kunnen installeren en activeren."
+
+msgid "rammerBattleBooster/name"
+msgstr "Geordende munitieopslag"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "Verbetert het effect van de doorlader"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "Verdubbelt het effect van de aangewezen doel specialisatie"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "Levert de aangewezen doel specialisatie tot 100% getraind"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "De aangewezen doel specialisatie zorgt ervoor dat gedurende het gevecht een vijandelijk voertuig in het vizier twee seconden langer zichtbaar blijft. Als de specialisatie tot 100% is getraind, zal het gemonteerde gevechtsbevel zijn effect verhogen; zo niet, dan zal het gevechtsbevel de specialisatie getraind tot 100% aan je voertuig leveren."
+
+msgid "rancorousBattleBooster/name"
+msgstr "Focus op doelwit"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "Levert de aangewezen doel specialisatie tot 100% getraind of vergroot zijn effect"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s bij de bemanningsefficiëntiebonus gedurende het gevecht."
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} bij de bemanningsefficiëntiebonus."
+
+msgid "ration/long_special"
+msgstr "Automatisch geactiveerd aan het begin van het gevecht en in werking gedurende het gevecht. Alleen geschikt voor Sovjet voertuigen."
+
+msgid "ration/name"
+msgstr "Extra gevechtsrantsoenen"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "Alleen geschikt voor Sovjet voertuigen."
+
+msgid "ration/short_special"
+msgstr "Verbetert de prestatie van Sovjet bemanningen"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s bij de bemanningsefficiëntiebonus gedurende het gevecht."
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} bij de bemanningsefficiëntiebonus."
+
+msgid "ration_china/long_special"
+msgstr "Automatisch geactiveerd aan het begin van het gevecht en in werking gedurende het gevecht. Alleen geschikt voor Chinese voertuigen."
+
+msgid "ration_china/name"
+msgstr "Verbeterde gevechtsrantsoenen"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "Alleen geschikt voor Chinese voertuigen."
+
+msgid "ration_china/short_special"
+msgstr "Verbetert de prestatie van Chinese bemanningen"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s bij de bemanningsefficiëntiebonus gedurende het gevecht."
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} bij de bemanningsefficiëntiebonus."
+
+msgid "ration_czech/long_special"
+msgstr "Automatisch geactiveerd aan het begin van het gevecht en in werking gedurende het gevecht. Alleen geschikt voor Tsjecho-Slowaakse voertuigen."
+
+msgid "ration_czech/name"
+msgstr "Buchty"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "Alleen geschikt voor Tsjecho-Slowaakse voertuigen."
+
+msgid "ration_czech/short_special"
+msgstr "Verbetert de prestatie van Tsjecho-Slowaakse bemanningen"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s bij de bemanningsefficiëntiebonus gedurende het gevecht."
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} bij de bemanningsefficiëntiebonus."
+
+msgid "ration_italy/long_special"
+msgstr "Automatisch geactiveerd aan het begin van het gevecht en in werking gedurende het gevecht. Alleen geschikt voor Italiaanse voertuigen."
+
+msgid "ration_italy/name"
+msgstr "Spaghetti met vleessaus"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "Alleen geschikt voor Italiaanse voertuigen."
+
+msgid "ration_italy/short_special"
+msgstr "Verbetert de prestatie van Italiaanse bemanningen"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s bij de bemanningsefficiëntiebonus gedurende het gevecht."
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} bij de bemanningsefficiëntiebonus."
+
+msgid "ration_japan/long_special"
+msgstr "Automatisch geactiveerd aan het begin van het gevecht en in werking gedurende het gevecht. Alleen geschikt voor Japanse voertuigen."
+
+msgid "ration_japan/name"
+msgstr "Rijstbal"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "Alleen geschikt voor Japanse voertuigen."
+
+msgid "ration_japan/short_special"
+msgstr "Verbetert de prestatie van Japanse bemanningen"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s bij de bemanningsefficiëntiebonus gedurende het gevecht."
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} bij de bemanningsefficiëntiebonus."
+
+msgid "ration_poland/long_special"
+msgstr "Automatisch geactiveerd aan het begin van het gevecht en in werking gedurende het gevecht. Alleen geschikt voor Poolse voertuigen."
+
+msgid "ration_poland/name"
+msgstr "Brood met smalec"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "Alleen geschikt voor Poolse voertuigen."
+
+msgid "ration_poland/short_special"
+msgstr "Verbetert de prestatie van Poolse bemanningen"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s bij de bemanningsefficiëntiebonus gedurende het gevecht."
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} bij de bemanningsefficiëntiebonus."
+
+msgid "ration_sweden/long_special"
+msgstr "Automatisch geactiveerd aan het begin van het gevecht en in werking gedurende het gevecht. Alleen geschikt voor Zweedse voertuigen."
+
+msgid "ration_sweden/name"
+msgstr "Koffie met kaneelbroodjes"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "Alleen geschikt voor Zweedse voertuigen."
+
+msgid "ration_sweden/short_special"
+msgstr "Verbetert de prestatie van Zweedse bemanningen"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s bij de bemanningsefficiëntiebonus gedurende het gevecht."
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} bij de bemanningsefficiëntiebonus."
+
+msgid "ration_uk/long_special"
+msgstr "Automatisch geactiveerd aan het begin van het gevecht en in werking gedurende het gevecht. Alleen geschikt voor Britse voertuigen."
+
+msgid "ration_uk/name"
+msgstr "Pudding en thee"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "Alleen geschikt voor Britse voertuigen."
+
+msgid "ration_uk/short_special"
+msgstr "Verbetert de prestatie van Britse bemanningen"
+
+msgid "recon/longDescr"
+msgstr "Beveelt een verkenningsvliegtuig om in een groot gebied een lijn te verkennen. Voertuigen in het zicht van het vliegtuig worden verkend en blijven voor een bepaalde tijdsduur zichtbaar. Detecteert ook mijnenvelden."
+
+msgid "recon/name"
+msgstr "Verkenningsvlucht"
+
+msgid "recon/shortDescr"
+msgstr "Verkent vijandelijke vliegtuigen en mijnenvelden."
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} motorvermogen, maar beschadigt de motor."
+
+msgid "removedRpmLimiter/long_special"
+msgstr "Verhoogt het motorvermogen met {colorTagOpen}10%{colorTagClose}, maar wanneer ingeschakeld vermindert het geleidelijk de levenspunten van de motor. Kan in een gevecht meerdere keren in- of uitgeschakeld worden. Alleen geschikt voor Chinese en Sovjet voertuigen."
+
+msgid "removedRpmLimiter/name"
+msgstr "Verwijderde snelheidsbegrenzer"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s motorvermogen, maar beschadigt de motor. Kan in een gevecht meerdere keren worden gebruikt."
+
+msgid "removedRpmLimiter/restriction"
+msgstr "Alleen geschikt voor Sovjet en Chinese voertuigen."
+
+msgid "removedRpmLimiter/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} motorvermogen, maar beschadigt de motor"
+
+msgid "repairpoint/battleDescr"
+msgstr "Creëert tijdelijk een stationair gebied dat alle beschadigde modules repareert, alle negatieve effecten verwijdert en %(timer)s s lang elke seconde %(healPerTick)s van de levenspunten van je voertuig herstelt.\n\n*Geallieerde voertuigen binnen het gebied zullen ook HP herstellen."
+
+msgid "repairpoint/descr"
+msgstr "Creëert tijdelijk een stationair gebied dat alle beschadigde modules repareert, alle negatieve effecten verwijdert en %(timer)s s lang elke seconde %(healPerTick)s van de levenspunten van je voertuig herstelt.\n\n*Geallieerde voertuigen binnen het gebied zullen ook HP herstellen."
+
+msgid "repairpoint/long_special"
+msgstr "Creëert tijdelijk een stationair gebied dat alle beschadigde modules repareert, alle negatieve effecten verwijdert en {whiteSpanish_Open}%(timer)s s lang elke seconde{whiteSpanish_Close} {green_Open}%(healPerTick)s van de levenspunten van je voertuig herstelt.{green_Close}\n\n*Geallieerde voertuigen binnen het gebied zullen ook HP herstellen."
+
+msgid "repairpoint/name"
+msgstr "Reparatiezone"
+
+msgid "repairpoint/short_special"
+msgstr "Creëert tijdelijk een stationair gebied dat alle beschadigde modules repareert, alle negatieve effecten verwijdert en {whiteSpanish_Open}%(timer)s s lang elke seconde{whiteSpanish_Close} {green_Open}%(healPerTick)s van de levenspunten van je voertuig herstelt.{green_Close}\n\n*Geallieerde voertuigen binnen het gebied zullen ook HP herstellen."
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "Kanonschroefdraad schoonmaak (type 1)"
+
+msgid "roleSlot/name"
+msgstr "Tweede uitrustingsplek categorie"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "Passief veiligheidssysteem"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "Passief\nveiligheidssysteem"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "Munitieopslag herconfiguratie"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "Munitieopslag\nherconfiguratie"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "Herstelbare rupsbanden"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "Herstelbare\nrupsbanden"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "Motorcompartiment tweaken"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "Motorcompartiment\ntweaken"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "Versterkte ophanging"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "Versterkte\nophanging"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "Lichtgewicht ophanging"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "Lichtgewicht\nophanging"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "Richttandwielen afstellen"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "Richttandwielen\nafstellen"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "Parallaxaanpassing"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "Parallax-\naanpassing"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "Mondingsaanpassing"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "Mondings-\naanpassing"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "Rechthoekige periscoop"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "Rechthoekige\nperiscoop"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "Laadmechanisme-aanpassing"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "Laadmechanisme-\naanpassing"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "Richtmechanisme-aanpassing"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "Richtmechanisme-\naanpassing"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "PTO-tuning"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "PTO-\ntuning"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "Elektrische richtaandrijving"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "Elektrische\nrichtaandrijving"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "Nieuwe richttandwielen"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "Nieuwe\nrichttandwielen"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "Stootbodem tweaken"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "Stootbodem\ntweaken"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "Algemene gewichtsvermindering"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "Algemene\ngewichtsvermindering"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "Algemene duurzaamheidstoename"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "Algemene\nduurzaamheidstoename"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "Matte verf"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "Matte\nverf"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "Extra achteruitrijversnelling"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "Extra achteruitrij-\nversnelling"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "Nokkenasmotor"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "Nokkenas-\nmotor"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "Verbeterde kanondoorlader"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "Verbeterde\nkanondoorlader"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "Extra geluidsisolatie"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "Extra\ngeluidsisolatie"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "Vulselverwijdering"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "Vulsel-\nverwijdering"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "Extra veiligheidssysteem"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "Extra\nveiligheidssysteem"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "Lichtgewicht montagepunten"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "Lichtgewicht\nmontagepunten"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "Voeding opnieuw bedraden (setup 1)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "Voeding opnieuw\nbedraden (setup 1)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "Voeding opnieuw bedraden (setup 2)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "Voeding opnieuw\nbedraden (setup 2)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "Versterkt platform"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "Versterkt\nplatform"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "Lichtgewicht platform"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "Lichtgewicht\nplatform"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "Focus op mobiliteit"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "Focus op\nmobiliteit"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "Focus op vuurkracht"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "Focus op\nvuurkracht"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "Zwaargewicht kanon"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "Zwaargewicht\nkanon"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "Lichtgewicht kanon"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "Lichtgewicht\nkanon"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "Motorvermogen afstellen (setup 1)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "Motorvermogen\nafstellen (setup 1)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "Motorvermogen afstellen (setup 2)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "Motorvermogen\nafstellen (setup 2)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "Versterkte romp"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "Versterkte\nromp"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "Lichtgewicht romp"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "Lichtgewicht\nromp"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Antireflecterende optiek"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Antireflecterende\noptiek"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Extern zichtsysteem"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Extern\nzichtsysteem"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Panoramisch triplex"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Panoramisch\ntriplex"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Observatiesysteem met kleine zichthoek"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Observatiesysteem\nmet kleine zichthoek"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "Versterkte primaire structuur"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "Versterkte\nprimaire structuur"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "Koepelruimte-uitbreiding"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "Koepelruimte-\nuitbreiding"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "Verkenningskit"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "Verkennings-\nkit"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "Aanvalskit"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "Aanvals-\nkit"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "Verbeterde duurzaamheid"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "Verbeterde\nduurzaamheid"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "Geavanceerde richtverbetering"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "Geavanceerde\nrichtverbetering"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "Extra observatieapparatuur"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "Extra\nobservatieapparatuur"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "Verstevigde verbindingen"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "Verstevigde\nverbindingen"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "Laadmechanisme-aanpassing"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "Laadmechanisme-\naanpassing"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "Richtmechanisme-aanpassing"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "Richtmechanisme-\naanpassing"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "PTO-tuning"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "PTO-\ntuning"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "Elektrische richtaandrijving"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "Elektrische\nrichtaandrijving"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "Stootbodem tweaken"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "Stootbodem\ntweaken"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "Nieuwe richttandwielen"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "Nieuwe\nrichttandwielen"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "Injectiesysteem afstellen"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "Injectiesysteem\nafstellen"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "Gezichtsveld afstellen"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "Gezichtsveld\nafstellen"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "Module duurzaamheidstoename"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "Module\nduurzaamheidstoename"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "Lichtgewicht legeringen"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "Lichtgewicht\nlegeringen"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "Stootbodem tweaken"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "Stootbodem\ntweaken"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "Nieuwe richttandwielen"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "Nieuwe\nrichttandwielen"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "Aangepaste mondstukken"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "Aangepaste\nmondstukken"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "Gevoelige optiek"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "Gevoelige\noptiek"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "Verstevigde constructie"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "Verstevigde\nconstructie"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "Lichtgewicht constructie"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "Lichtgewicht\nconstructie"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "Ophanging afstellen"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "Ophanging\nafstellen"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "Motortuning"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "Motor-\ntuning"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "Jager S Suite"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "Jager S\nSuite"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "Jager C Suite"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "Jager C\nSuite"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "Hydraulica afstellen (setup 1)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "Hydraulica\nafstellen (setup 1)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "Hydraulica afstellen (setup 2)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "Hydraulica\nafstellen (setup 2)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "Laadmechanisme-aanpassing"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "Laadmechanisme-\naanpassing"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "Richtmechanisme-aanpassing"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "Richtmechanisme-\naanpassing"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "Overlevingsvermogen verhoging"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "Overlevingsvermogen\nverhoging"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "Gewichtsvermindering"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "Gewichts-\nvermindering"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "Aangepaste ophanging"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "Aangepaste\nophanging"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "Lichtgewicht ophanging"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "Lichtgewicht\nophanging"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "Parallaxaanpassing"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "Parallax-\naanpassing"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "Richttandwielen afstellen"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "Richttandwielen\nafstellen"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "Geluidsisolatie"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "Geluids-\nisolatie"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "Elektrische periscoop"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "Elektrische\nperiscoop"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "Kleppen afstellen (setup 1)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "Kleppen afstellen\n(setup 1)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "Kleppen afstellen (setup 2)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "Kleppen afstellen\n(setup 2)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "Laadmechanisme-aanpassing"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "Laadmechanisme-\naanpassing"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "Richtmechanisme-aanpassing"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "Richtmechanisme-\naanpassing"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "Versterkt schervenscherm"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "Versterkt\nschervenscherm"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "Lichtgewicht schervenscherm"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "Lichtgewicht\nschervenscherm"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "Module duurzaamheidstoename"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "Module\nduurzaamheidstoename"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "Lichtgewicht legeringen"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "Lichtgewicht\nlegeringen"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "Ophangingsbeugel afstellen"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "Ophangingsbeugel\nafstellen"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "Verbeterd vizier"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "Verbeterd\nvizier"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "Turbocompressor-tuning"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "Turbocompressor-\ntuning"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "Antireflecterende koplampcoating"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "Antireflecterende\nkoplampcoating"
+
+msgid "selfBuff/battleDescr"
+msgstr "Vermindert %(duration)s s lang de kanonspreiding en -richttijd met %(gunAimingTime)s en verbetert de kanonstabilisatie en -vuursnelheid.\n\n*Heeft geen invloed op de tijd tussen het afvuren van een granaat en het laden van de volgende granaat in het magazijn, kanon of de container."
+
+msgid "selfBuff/descr"
+msgstr "Vermindert %(duration)s s lang de kanonspreiding en -richttijd met %(gunAimingTime)s en verbetert de kanonstabilisatie en -vuursnelheid.\n\n*Heeft geen invloed op de tijd tussen het afvuren van een granaat en het laden van de volgende granaat in het magazijn, kanon of de container."
+
+msgid "selfBuff/longDescr"
+msgstr "Vermindert {whiteSpanish_Open}%(duration)s s lang{whiteSpanish_Close} de kanonspreiding en -richttijd {green_Open}met %(gunAimingTime)s{green_Close} en verbetert de kanonstabilisatie en -vuursnelheid.\n\n*Heeft geen invloed op de tijd tussen het afvuren van een granaat en het laden van de volgende granaat in het magazijn, kanon of de container."
+
+msgid "selfBuff/name"
+msgstr "Kanonsverbetering"
+
+msgid "selfBuff/shortDescr"
+msgstr "Vermindert {whiteSpanish_Open}%(duration)s s lang{whiteSpanish_Close} de kanonspreiding en -richttijd {green_Open}met %(gunAimingTime)s{green_Close} en verbetert de kanonstabilisatie en -vuursnelheid.\n\n*Heeft geen invloed op de tijd tussen het afvuren van een granaat en het laden van de volgende granaat in het magazijn, kanon of de container."
+
+msgid "shells_consumables_switch/name"
+msgstr "Alternatieve configuratie: Kernmaterieel"
+
+msgid "shotPassion/battleDescr"
+msgstr "Vermindert %(duration)s s lang de richtefficiëntie en stabilisatie van je kanon met %(gunAimingTime)s, maar elke penetrerende voltreffer verhoogt je veroorzaakte schade met %(damageIncreasePerShot)s. Stapelt maximaal 5 keer op. Treffers zonder schade of gemiste schoten resetten de bonusschade naar 0.\n\n*Elektrische ontlading telt ook mee voor je bonusschade."
+
+msgid "shotPassion/descr"
+msgstr "Vermindert %(duration)s s lang de richtefficiëntie en stabilisatie van je kanon met %(gunAimingTime)s, maar elke penetrerende voltreffer verhoogt je veroorzaakte schade met %(damageIncreasePerShot)s. Stapelt maximaal 5 keer op. Treffers zonder schade of gemiste schoten resetten de bonusschade naar 0.\n\n*Elektrische ontlading telt ook mee voor je bonusschade."
+
+msgid "shotPassion/longDescr"
+msgstr "Vermindert {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} lang de richtefficiëntie en stabilisatie van je kanon {red_Open}met %(gunAimingTime)s{red_Close}, maar elke penetrerende voltreffer verhoogt je veroorzaakte schade {green_Open}met %(damageIncreasePerShot)s{green_Close}. Stapelt {whiteSpanish_Open}maximaal 5 keer{whiteSpanish_Close} op. Treffers zonder schade of gemiste schoten resetten de bonusschade naar 0.\n\n*Elektrische ontlading telt ook mee voor je bonusschade."
+
+msgid "shotPassion/name"
+msgstr "Toenemende passie"
+
+msgid "shotPassion/shortDescr"
+msgstr "Vermindert {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} lang de richtefficiëntie en stabilisatie van je kanon {red_Open}met %(gunAimingTime)s{red_Close}, maar elke penetrerende voltreffer verhoogt je veroorzaakte schade {green_Open}met %(damageIncreasePerShot)s{green_Close}. Stapelt {whiteSpanish_Open}maximaal 5 keer{whiteSpanish_Close} op. Treffers zonder schade of gemiste schoten resetten de bonusschade naar 0.\n\n*Elektrische ontlading telt ook mee voor je bonusschade."
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "Zesde zintuig wordt 1 s vroeger geactiveerd"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "De 'zesde zintuig' eigenschap stelt de commandant in staat om te bepalen of het voertuig door de vijand is verkend. Wordt 3 s nadat je voertuig is verkend geactiveerd."
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "De zesde zintuig specialisatie stelt de commandant gedurende het gevecht in staat om te bepalen of het voertuig door vijanden is verkend. Het gemonteerde gevechtsbevel vergroot zijn effect."
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "Verbeterde focus"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "Verhoogt het effect van de 'zesde zintuig' commandantseigenschap"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "Genezing van alle gewonde bemanningsleden en verwijdering van het verdovingseffect."
+
+msgid "smallMedkit/long_special"
+msgstr "Geneest bij activatie alle gewonde bemanningsleden en verwijdert het verdovingseffect. Geschikt voor ieder voertuigtype en iedere natie. Het verbruiksartikel wordt na een gevecht verwijderd als het minstens één keer werd gebruikt."
+
+msgid "smallMedkit/name"
+msgstr "Kleine verbanddoos"
+
+msgid "smallMedkit/onUse"
+msgstr "Genezing van alle gewonde bemanningsleden en verwijdering van het verdovingseffect."
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "Genezing van alle gewonde bemanningsleden en verwijdering van het verdovingseffect."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "Geneest alle gewonde bemanningsleden en verwijdert het verdovingseffect."
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "Reparatie van alle beschadigde modules."
+
+msgid "smallRepairkit/long_special"
+msgstr "Repareert bij activatie meteen alle beschadigde modules. Geschikt voor ieder voertuigtype en iedere natie. Het verbruiksartikel wordt na een gevecht verwijderd als het minstens één keer werd gebruikt."
+
+msgid "smallRepairkit/name"
+msgstr "Kleine reparatieset"
+
+msgid "smallRepairkit/onUse"
+msgstr "Reparatie van alle beschadigde modules. Geschikt voor ieder voertuigtype en iedere natie. Het verbruiksartikel wordt na een gevecht verwijderd als het minstens één keer werd gebruikt."
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "Repareert alle beschadigde modules."
+
+msgid "smoke/longDescr"
+msgstr "Legt rookgordijnen die alle voertuigen in en achter de rook verbergen. Vijandelijke voertuigen hebben in de rook een verminderd zichtbereik en slechtere bemanningsprestatie."
+
+msgid "smoke/name"
+msgstr "Rookgordijn"
+
+msgid "smoke/shortDescr"
+msgstr "Rook verbergt alle voertuigen erin/-achter. Vijanden in rook hebben minder zicht en slechtere bemanningsprestatie."
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "Verdubbelt het effect van de comfortabele rit specialisatie"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "Levert de comfortabele rit specialisatie tot 100% getraind"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "De comfortabele rit specialisatie verbetert gedurende het gevecht de nauwkeurig wanneer je al rijdend het kanon afvuurt. Als de specialisatie tot 100% is getraind, zal het gemonteerde gevechtsbevel zijn effect vergroten; zo niet, dan zal het gevechtsbevel de specialisatie tot 100% getraind aan je voertuig leveren."
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "Versnellingsbak complexiteit"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "Levert de comfortabele rit specialisatie tot 100% getraind of vergroot zijn effect"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "Verdubbelt het effect van de snel schot specialisatie"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "Levert de snel schot specialisatie tot 100% getraind"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "De snel schot specialisatie verbetert gedurende het gevecht de nauwkeurigheid tijdens het draaien van de koepel. Als de specialisatie tot 100% is getraind, zal het gemonteerde gevechtsbevel zijn effect vergroten; zo niet, dan zal het gevechtsbevel de specialisatie tot 100% getraind aan je voertuig leveren."
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "Vaste hand"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "Levert de snel schot specialisatie tot 100% getraind of vergroot zijn effect"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "Schakelt een zelfvoortstuwende mijn in die de dichtstbijzijnde vijand maximaal %(botLifeTime)s s lang zal achtervolgen en bij ontploffing binnen een kleine straal 400 tot 600 HP schade veroorzaakt.\n\n*Vijanden kunnen je vuurbal vernietigen door erop te schieten of hem te rammen. De vuurbal veroorzaakt extra ramschade als het doelwit is bereikt."
+
+msgid "spawn_kamikaze/descr"
+msgstr "Schakelt een zelfvoortstuwende mijn in die de dichtstbijzijnde vijand maximaal %(botLifeTime)s s lang zal achtervolgen en bij ontploffing binnen een kleine straal 400 tot 600 HP schade veroorzaakt.\n\n*Vijanden kunnen je vuurbal vernietigen door erop te schieten of hem te rammen. De vuurbal veroorzaakt extra ramschade als het doelwit is bereikt."
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "Schakelt een zelfvoortstuwende mijn in die de dichtstbijzijnde vijand maximaal {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close} lang zal achtervolgen en bij ontploffing binnen een kleine straal {whiteSpanish_Open}400 tot 600 HP schade{whiteSpanish_Close} veroorzaakt.\n\n*Vijanden kunnen je vuurbal vernietigen door erop te schieten of hem te rammen. De vuurbal veroorzaakt extra ramschade als het doelwit is bereikt."
+
+msgid "spawn_kamikaze/name"
+msgstr "Vuurbal"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "Schakelt een zelfvoortstuwende mijn in die de dichtstbijzijnde vijand maximaal {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close} lang zal achtervolgen en bij ontploffing binnen een kleine straal {whiteSpanish_Open}400 tot 600 HP schade{whiteSpanish_Close} veroorzaakt.\n\n*Vijanden kunnen je vuurbal vernietigen door erop te schieten of hem te rammen. De vuurbal veroorzaakt extra ramschade als het doelwit is bereikt."
+
+msgid "stealthRadar/descr"
+msgstr "Levert een bonus aan verborgenheid en zichtbereik. Vermindert de verborgenheid van vijandelijke voertuigen."
+
+msgid "stealthRadar/long_descr"
+msgstr "Verhoogt de verborgenheidsparameter van jouw voertuig nadat het %(activationDelay)s s stilstaat en vermindert de verborgenheid van vijandelijke voertuigen. Levert een passieve bonus voor zichtbereik en detecteert vijandelijke mijnen. Werkt niet wanneer het voertuig in beweging is."
+
+msgid "stealthRadar/name"
+msgstr "Sentinel"
+
+msgid "stealthRadar/short_descr"
+msgstr "Levert een bonus aan verborgenheid en zichtbereik. Vermindert de verborgenheid van vijandelijke voertuigen."
+
+msgid "stereoscope/battleDescr"
+msgstr "Vergroot het zichtbereik van een stationair voertuig nadat het 3 s stilstaat (tot 445 m)"
+
+msgid "stereoscope/long_special"
+msgstr "Een groot zichtbereik geeft voertuigen in het gevecht een enorm voordeel. Dit type uitrusting is nuttig voor tankjagers met een laag silhouet en nauwkeurig kanon. De binoculaire telescoop wordt geactiveerd als het voertuig 3 seconden lang stilstaat."
+
+msgid "stereoscope/name"
+msgstr "Binoculaire telescoop"
+
+msgid "stereoscope_tier1/name"
+msgstr "Binoculaire telescoop klasse 1"
+
+msgid "stereoscope_tier2/name"
+msgstr "Binoculaire telescoop klasse 2"
+
+msgid "stereoscope_tier3/name"
+msgstr "Binoculaire telescoop klasse 3"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "Ophangingscomponenten vervanging (type 1)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "Ophangingscomponenten vervanging (type 2)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "Rotatiemechanisme afstellen (type 1)"
+
+msgid "tankRammer/name"
+msgstr "Kanondoorlader"
+
+msgid "tankRammer_tier1/name"
+msgstr "Kanondoorlader klasse 1"
+
+msgid "tankRammer_tier2/name"
+msgstr "Kanondoorlader klasse 2"
+
+msgid "thunderStrike/battleDescr"
+msgstr "Creëert een zone waarbinnen zeer regelmatig een reeks van %(thunderCount)s elektrische ontladingen plaatsvindt. Elke ontlading veroorzaakt %(damage)s HP schade en vermindert tijdelijk de mobiliteit van alle vijandelijke voertuigen binnen het gebied van effect.\n\n*Er zit %(delay)s s tussen de activatie van de bekwaamheid en de eerste ontlading. Het negatieve effect kan met een reparatieset worden verwijderd."
+
+msgid "thunderStrike/descr"
+msgstr "Creëert een zone waarbinnen zeer regelmatig een reeks van %(thunderCount)s elektrische ontladingen plaatsvindt. Elke ontlading veroorzaakt %(damage)s HP schade en vermindert tijdelijk de mobiliteit van alle vijandelijke voertuigen binnen het gebied van effect.\n\n*Er zit %(delay)s s tussen de activatie van de bekwaamheid en de eerste ontlading. Het negatieve effect kan met een reparatieset worden verwijderd."
+
+msgid "thunderStrike/longDescr"
+msgstr "Creëert een zone waarbinnen zeer regelmatig een reeks van %(thunderCount)s elektrische ontladingen plaatsvindt. Elke ontlading veroorzaakt {whiteSpanish_Open}%(damage)s HP schade{whiteSpanish_Close} en vermindert tijdelijk de mobiliteit van alle vijandelijke voertuigen binnen het gebied van effect.\n\n*Er zit %(delay)s s tussen de activatie van de bekwaamheid en de eerste ontlading. Het negatieve effect kan met een reparatieset worden verwijderd."
+
+msgid "thunderStrike/name"
+msgstr "Elektrische ontlading"
+
+msgid "thunderStrike/shortDescr"
+msgstr "Creëert een zone waarbinnen zeer regelmatig een reeks van %(thunderCount)s elektrische ontladingen plaatsvindt. Elke ontlading veroorzaakt {whiteSpanish_Open}%(damage)s HP schade{whiteSpanish_Close} en vermindert tijdelijk de mobiliteit van alle vijandelijke voertuigen binnen het gebied van effect.\n\n*Er zit %(delay)s s tussen de activatie van de bekwaamheid en de eerste ontlading. Het negatieve effect kan met een reparatieset worden verwijderd."
+
+msgid "trappoint/battleDescr"
+msgstr "Creëert %(duration)s s lang een gebied waarbinnen voor alle vijandelijke voertuigen de mobiliteitsparameters met %(vehicleMaxSpeed)s afnemen en de herlaad- en richttijd van het kanon met %(gunReloadTime)s toenemen."
+
+msgid "trappoint/descr"
+msgstr "Creëert %(duration)s s lang een gebied waarbinnen voor alle vijandelijke voertuigen de mobiliteitparameters met %(vehicleMaxSpeed)s en de herlaad- en richttijd van het kanon met %(gunReloadTime)s worden verminderd."
+
+msgid "trappoint/long_special"
+msgstr "Creëert {whiteSpanish_Open}%(duration)s s lang{whiteSpanish_Close} een gebied waarbinnen voor alle vijandelijke voertuigen de mobiliteitparameters {whiteSpanish_Open}met %(vehicleMaxSpeed)s{whiteSpanish_Close} en de herlaad- en richttijd van het kanon {whiteSpanish_Open}met %(gunReloadTime)s{whiteSpanish_Close} worden verminderd."
+
+msgid "trappoint/name"
+msgstr "Valstrik"
+
+msgid "trappoint/short_special"
+msgstr "Creëert {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} lang een gebied waarbinnen voor alle vijandelijke voertuigen de mobiliteitsparameters {whiteSpanish_Open}met %(vehicleMaxSpeed)s{whiteSpanish_Close} afnemen en de herlaad- en richttijd van het kanon {whiteSpanish_Open}met %(gunReloadTime)s{whiteSpanish_Close} toenemen."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "De effectiviteit hangt af van het voertuigtype. Verhoogt de verborgenheid van een stationair of bewegend voertuig. Nuttig voor actieve verkenning, maar ook voor passieve verkenning op riskante posities."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "Bounty-uitlaat"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "Verhoogt de verborgenheid van een stationair of bewegend voertuig."
+
+msgid "trophyBasicAimDrives/name"
+msgstr "Bounty-richtaandrijving"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "Verhoogt de richtsnelheid zodat je sneller nauwkeurig kunt vuren."
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "Bounty-stabilisator"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "Vermindert de kanonspreiding wanneer je in beweging vuurt en tijdens het draaien van de romp."
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "Bounty-optiek"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "Vergroot het zichtbereik van stilstaande en bewegende voertuigen."
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "Herstelt alle levenspunten van de ophanging na reparatie."
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "Herstelt de ophanging na reparatie."
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "Verhoogt de duurzaamheid en reparatiesnelheid. Vermindert de rompschade veroorzaakt door schade aan de ophanging als gevolg van een botsing. Herstelt alle levenspunten van de ophanging na reparatie. Vermindert de kans dat een rupsband bij beschadiging wordt vernietigd, waardoor je voertuig zo lang mogelijk in beweging blijft."
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "Bounty-temperen"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "Verhoogt de duurzaamheid en beschermt de ophanging"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "Bounty-beschermingstechnologie"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "Bounty-rotatiemechanisme"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "Vermindert de grootte van de richtcirkel om de nauwkeurigheid van een richtend of volledig gericht kanon te vergroten. Hierdoor heeft je kanon meer kans om het doelwit te raken."
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "Bounty-richten"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "Vermindert de kanonspreiding"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "Bounty-ventilatie"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "Verbetert de bemanning, wat een positief effect heeft op het overgrote deel van de voertuigeigenschappen."
+
+msgid "trophyBasicTankRammer/name"
+msgstr "Bounty-doorlader"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "Versnelt het laden van het kanon. Geen beperkingen op klasse."
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "Verhoogt het motorvermogen en verbetert het accelereren, manoeuvreren en hellingen opgaan. Verhoogt de topsnelheid van het voertuig, zowel vooruit als achteruit, waardoor je sneller belangrijke posities kunt innemen en aan vijandelijk vuur kunt ontsnappen."
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "Bounty-turbocompressor"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "Verhoogt het motorvermogen en de topsnelheid"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} {arrow} zichtbereik, tot op 445 m"
+
+msgid "trophyOptics/name"
+msgstr "Bounty-optiek"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "Bounty-uitlaat"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "Bounty-richtaandrijving"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "Bounty-stabilisator"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "Bounty-optiek"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "Herstelt alle levenspunten van de ophanging na reparatie."
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Herstelt de ophanging na reparatie."
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "Bounty-temperen"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "Bounty-beschermingstechnologie"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "Bounty-rotatiemechanisme"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "Bounty-richten"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "Bounty-ventilatie"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "Bounty-doorlader"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "Bounty-turbocompressor"
+
+msgid "turbocharger/long_special"
+msgstr "Verhoogt het motorvermogen en verbetert het accelereren, manoeuvreren en hellingen opgaan. Verhoogt de topsnelheid van het voertuig, zowel vooruit als achteruit, waardoor je sneller belangrijke posities kunt innemen en aan vijandelijk vuur kunt ontsnappen."
+
+msgid "turbocharger/name"
+msgstr "Turbocompressor"
+
+msgid "turbocharger/short_special"
+msgstr "Verhoogt het motorvermogen en de topsnelheid"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s motorvermogen wanneer turbocompressor (welke klasse dan ook), bounty-turbocompressor, verbeterde compressor, of mobiliteitsverbetering systeem is gemonteerd."
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "Verbetert het effect van turbocompressor (welke klasse dan ook), bounty-turbocompressor of verbeterde compressor gedurende één gevecht. Het gevechtsbevel werkt alleen wanneer de bijbehorende uitrusting is gemonteerd."
+
+msgid "turbochargerBattleBooster/name"
+msgstr "Brandstoffiltervervanging"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "Verhoogt het motorvermogen"
+
+msgid "turbocharger_tier1/name"
+msgstr "Turbocompressor klasse 1"
+
+msgid "turbocharger_tier2/name"
+msgstr "Turbocompressor klasse 2"
+
+msgid "turbocharger_tier3/name"
+msgstr "Turbocompressor klasse 3"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "Verdubbelt het effect van de motorrem specialisatie"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "Levert de motorrem specialisatie tot 100% getraind"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "De motorrem specialisatie verhoogt gedurende het gevecht de draaisnelheid van zowel bewegende als stilstaande voertuigen. Als de specialisatie tot 100% is getraind, zal het gemonteerde gevechtsbevel zijn effect vergroten; zo niet, dan zal het gevechtsbevel de specialisatie tot 100% getraind aan je voertuig leveren."
+
+msgid "virtuosoBattleBooster/name"
+msgstr "Gevechtstraining"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "Levert de motorrem specialisatie tot 100% getraind of vergroot zijn effect"

@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "tűzerő"
+
+msgid "categories/mobility"
+msgstr "mozgékonyság"
+
+msgid "categories/stealth"
+msgstr "felderítés"
+
+msgid "categories/survivability"
+msgstr "túlélési képesség"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "Értettem!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "Negatív!"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "A módosítások törlése után újra megvásárolhatod azokat kreditért."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "A módosítások törlése után újra megvásárolhatod azokat."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "Törlöd az összes kettős módosítást ingyen?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "A módosítás törlése után újra megvásárolhatod azt kreditért."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "A módosítás törlése után újra megvásárolhatod azt."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "Törlöd %(modification)s kettős módosítást ingyen?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "MÓDOSÍTÁSOK VÁSÁRLÁSA"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "VÁLASSZ EGY FÉRŐHELY KATEGÓRIÁT"
+
+msgid "hint/entryPoint"
+msgstr "MÓDOSÍTÁSOK ELÉRHETŐEK"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "KATTINTS A KIEGÉSZÍTŐ KIOSZTÁSRA\nVALÓ VÁLTÁSHOZ"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "KATTINTS AZ ALAPVETŐ KIOSZTÁSRA\nVALÓ VÁLTÁSHOZ"
+
+msgid "hint/vehiclePreview"
+msgstr "VÁLTOZÁSOK A JÁRMŰ KARAKTERISZTIKÁJÁBAN"
+
+msgid "postProgressionIntro/okButton"
+msgstr "Értettem!"
+
+msgid "postProgressionIntro/title"
+msgstr "HARCTÉRI MÓDOSÍTÁS"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "Különleges módosítás %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "Kattintson a gombra a jármű szint megszerzése utáni jellemzőinek megtekintéséhez, és a felhasznált módosítások kijelöléséhez."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "Kettős módosítás %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "Harctéri módosítás szintje"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "Elérhető a jármű megvásárlása után"
+
+msgid "researchEntry/status/notResearched"
+msgstr "Elérhető az Elit státusz megszerzése után"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "Elérhető a jármű megvásárlása és az elit státusz megszerzése után"
+
+msgid "researchEntry/title"
+msgstr "HARCTÉRI MÓDOSÍTÁS"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "Növelés"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "Törlés"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} és {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "Kiegészítő kiosztás"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "Férőhely"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "Alapvető kiosztás"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "hozzáférést a következő különleges módosításokhoz: {name1} és {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "hozzáférést a következő különleges módosításokhoz: {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "hozzáférést a következő különleges módosításhoz: {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "hozzáférést a következő különleges módosításokhoz: {name1}, {name2} és {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "hozzáférést a kettős módosítások {numbers}. szintjéhez"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "hozzáférést a kettős módosítás {number}. szintjéhez"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "Megkapod: {unlockedItems}."
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "Megnöveled a normál módosítás szintjét a következőre: {level}?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "Megnöveled a normál módosítás szintjét?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "Összesen:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "Hozzárendelés"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "Elérhető kategóriák: %(roles)."
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "Kiválasztott kategória: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "Lehetőség kategória hozzárendelésére a jármű második felszerelési helyéhez."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "Első férőhely kategória hozzárendelése"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "Hozzárendelés (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "Második férőhely kategória"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "Hozzárendelés"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "Vásárlás és megváltoztatás"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "Átváltás"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "Törlés"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "Megváltoztathatod a férőhely kategóriáját ennyiért: %(price)"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "A kiválasztott kategória hozzá lesz rendelve a második felszerelés helyhez. Megváltoztathatod a férőhely kategóriáját ennyiért: %(price)"
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "Átváltási arány: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "Sikertelen átváltás: további %(gold) szükséges"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "Rendelj hozzá kategóriát a második felszerelés helyhez"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "Változtasd meg a második felszerelés hely kategóriáját"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "Nem sikerült megváltoztatni a második felszerelés hely kategóriáját: további %(credits) szükséges"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "Összesen:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "Lehetőség felszerelni egy további készlet {cream_Open}felszerelést{cream_Close} és {cream_Open}direktívát.{cream_Close}"
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "Lehetőség felszerelni egy további készlet {cream_Open}lőszert{cream_Close} és {cream_Open}fogyócikket.{cream_Close}"
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "Kiegészítő kiosztás"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "Alapvető kiosztás"
+
+msgid "setupTooltipView/tip"
+msgstr "A jármű fő konfigurációja és alternatív konfigurációja között a garázsban és a csata előtti visszaszámlálás során válthatsz."
+
+msgid "setupTooltipView/title"
+msgstr "Alternatív konfiguráció: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)A kiegészítő kiosztás%(/accent) a járműkonfiguráció egy olyan része, amely %(accent)felszerelésből és direktívákból%(/accent) áll. Az Alternatív konfiguráció elérése után a csata előtti visszaszámlálás során %(accent)válthatsz a Tartalék kiosztás konfigurációi között%(/accent)."
+
+msgid "slides/additionalEquipment/title"
+msgstr "KIEGÉSZÍTŐ KIOSZTÁS"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "Egy bizonyos Harctéri fejlesztés szint elérése után elérhetővé válik egy %(accent)Alternatív konfiguráció%(/accent) a járművedhez, és %(accent)egy további készlet felszerelést, lőszert, fogyócikket és direktívát%(/accent) készíthetsz elő a garázsban. Ez nem helyettesíti a fő konfigurációt, de új lehetőségeket nyit meg. A csata előtti visszaszámlálás során kiértékelheted a pályát és a csapatösszetételeket, és %(accent)két járműkonfiguráció közül%(/accent) választhatsz. Ez lehetővé teszi, hogy jobban felkészülj a közelgő harcra."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "ALTERNATÍV JÁRMŰKONFIGURÁCIÓK"
+
+msgid "slides/baseModifications/description"
+msgstr "A %(accent)normál módosítások%(/accent) bónuszt adnak a %(accent)jármű egyik jellemzőjéhez%(/accent), és feloldják a kettős módosításokat. Ezek a módosítások ingyenesen felszerelhetők, és a kifejlesztésükhoz harci tapasztalatra vagy szabad tapasztalatra van szükséged."
+
+msgid "slides/baseModifications/title"
+msgstr "NORMÁL MÓDOSÍTÁSOK"
+
+msgid "slides/extraModification/description"
+msgstr "A %(accent)különleges módosítások%(/accent) feloldják a jármű alternatív konfigurációját, és lehetővé teszik egy %(accent)kategória hozzárendelését%(/accent) a második felszerelési helyhez (a VIII-X-es szintű járművek esetében). A kiválasztott férőhely-kategóriát kreditek felhasználásával lehet újra hozzárendelni."
+
+msgid "slides/extraModification/title"
+msgstr "KÜLÖNLEGES MÓDOSÍTÁSOK: SZEREPKÖR FÉRŐHELY"
+
+msgid "slides/fieldModernization/description"
+msgstr "A harctéri módosítás a jármű árnyaltabb konfigurálásának képessége a szerepének megfelelően, és a %(accent)jármű jellemzőinek megváltoztatása%(/accent) különböző %(accent)módosítások%(/accent) segítségével. Minden egyes következő módosítás az előző módosítás kutatását követően oldható fel."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "HARCTÉRI MÓDOSÍTÁS"
+
+msgid "slides/fieldModernization/title"
+msgstr "JÁRMŰ JELLEMZŐINEK MEGVÁLTOZTATÁSA"
+
+msgid "slides/modificationTree/description"
+msgstr "A módosítási fa a %(accent)VI-X. szintű%(/accent) kifejleszthető és gyűjtői járművek számára érhető el, amelyek %(accent)elit státuszt%(/accent) szereztek. A különleges, jutalom- és prémium járművek módosításai a vásárlás után érhetők el."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "MÓDOSÍTÁSOK KIFEJLESZTÉSE"
+
+msgid "slides/modificationTree/title"
+msgstr "MÓDOSÍTÁSOK KIFEJLESZTÉSE"
+
+msgid "slides/pairedModifications/description"
+msgstr "A %(accent)kettős módosítások a jármű egyik jellemzőjét javítják%(/accent), %(accent)egy másikat pedig csökkentik%(/accent). A módosítások kifejlesztéséhez harci tapasztalatra vagy szabad tapasztalatra van szükséged, a felszerelésükhöz pedig kreditekre. A módosítást %(accent)ingyenesen%(/accent) %(accent)törölheted (eltávolíthatod a járműről)%(/accent).\nAmikor a járművet eladod, a normál és a különleges módosítások megmaradnak, de a kettős módosítások törlődnek."
+
+msgid "slides/pairedModifications/title"
+msgstr "KETTŐS MÓDOSÍTÁSOK"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)Az alapvető kiosztás%(/accent) a járműkonfiguráció egy olyan része, amely %(accent)lőszerből és fogyócikkekből%(/accent) áll. Az alternatív konfiguráció elérése után a csata előtti visszaszámlálás során %(accent)válthatsz az alap kiosztás konfigurációi között%(/accent)."
+
+msgid "slides/requiredEquipment/title"
+msgstr "ALAPVETŐ KIOSZTÁS"
+
+msgid "slides/roleInBattle/description"
+msgstr "A járműtípustól eltérően a jármű szerepe pontosabban tükrözi az optimális %(accent)harci taktikát%(/accent), és meghatározza, hogy milyen %(accent)módosítási fa%(/accent) lesz elérhető egy adott járműhöz."
+
+msgid "slides/roleInBattle/title"
+msgstr "JÁRMŰ SZEREPE CSATÁBAN"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "A módosítások megváltoztatják a jármű jellemzőit, feloldják az %(accent)Alternatív konfigurációhoz való hozzáférést%(/accent), és lehetővé teszik egy kategória hozzárendelését a %(accent)második felszerelési helyhez%(/accent)."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "Az Alternatív konfiguráció a %(accent)felszerelések, lőszerek, fogyócikkek és direktívák%(/accent) második készlete. A konfigurációk között válthatsz."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "A felszerelés %(accent)második helyére%(/accent) kategóriát lehet választani és hozzárendelni. Közvetlenül befolyásolja a jármű hatékonyságát a csatában."
+
+msgid "slides/specialModifications/title"
+msgstr "MÓDOSÍTÁSOK, ALTERNATÍV KONFIGURÁCIÓ, FÉRŐHELY KATEGÓRIA"
+
+msgid "tooltips/entry_point/description"
+msgstr "A jármű jellemzőinek további módosítására való képesség."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "Kifejlesztett modulok és járművek: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "Kifejlesztett modulok: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "Harctéri Módosítás"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "Elérhető a jármű megvásárlása után."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "Elérhető az Elit státusz megszerzése után."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "Elérhető a jármű megvásárlása és az elit státusz megszerzése után."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "Sajnáljuk az átmeneti kellemetlenséget. Kérjük, próbálkozz újra."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "Nem állnak rendelkezésre különleges módosítások"
+
+msgid "tooltips/feature/subTitle"
+msgstr "Különleges Módosítás %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "Szerezd meg őket csatában, add el a felesleges dolgokat a depódból vagy válts át aranyat, hogy többet szerezz belőle."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "Nincs elég kredited"
+
+msgid "tooltips/pairModification/demount"
+msgstr "Eltávolítás"
+
+msgid "tooltips/pairModification/level"
+msgstr "Kettős módosítás %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "Változás a technikai jellemzőkben:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "Eltávolítás (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "Vásárlás (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "Vásárlás"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "Kattintson ide a jármű műszaki jellemzőinek a módosítás megvásárlását követő változásainak megtekintéséhez."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "Miután törölted a módosítást, kreditért megvásárolhatod ennek a párnak bármelyik módosítását."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "Ennek a módosításnak a megvásárlása automatikusan törli a már telepített módosítást ebből a párból."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "Másik módosítás megvásárolva"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "Érd el a harctéri módosítás %(level). szintjét, hogy hozzáférj ehhez a módosításhoz"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "Módosítás nem elérhető"
+
+msgid "tooltips/priceBlock/free"
+msgstr "Ingyen"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "szükséges:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "Hozzávetőleges szám. A pontos értékek a jellemzőkben vannak megadva."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "Alkalmaz"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "Törlés"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "Visszaállítás"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "%(title)s módosítások"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "Összehasonlításhoz ad"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "Minden kettős módosítás megsemmisítése"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "Kattints a gombra az összes kettős módosítás megsemmisítéséhez."
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "Megsemmisítés"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "Előnézet"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "Megváltoztatás"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "A csata előtt"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "Kiválaszt"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "Engedélyezi/letiltja a felszereléskészletek és direktívák kiválasztásának lehetőségét a csata előtti visszaszámlálás során.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "Engedélyezi/letiltja a lőszerkészletek és fogyócikkek kiválasztásának lehetőségét a csata előtti visszaszámlálás során.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "Ha ki van kapcsolva, a garázsban kiválasztott készletek lesznek használva a csatában."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "Váltás csata előtt"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "Ez a jármű csatában van."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "Ez a jármű zárolva van."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "Ezt a járművet javítani kell."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "Ez a jármű egy taktikai egységben van."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "Nem sikerült férőhely kategóriát hozzárendelni: A jármű nincs a garázsban."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "A jármű bérlete lejárt."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "Ez a jármű csatában van."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "Ez a jármű zárolva van."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "Ezt a járművet javítani kell."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "Ez a jármű egy taktikai egységben van."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "Nem lehet megvásárolni: A jármű nincs a garázsban."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "A jármű bérlete lejárt."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "Kattints a gombra a kettős módosítás megsemmisítéséhez."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "Megsemmisítés"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "vagy"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "Harctéri módosítás maximális szintje"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "Elérhető {minAllowedLevel}—{maxAllowedLevel} szintű járművek számára"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "Elérhető {allowedLevel} szintű járművek számára"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "JELLEMZŐK ELREJTÉSE"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "Állandó bónusz: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "Állandó bónusz: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "Állandó bónusz: %(bonus1) és %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "Növeld a szintet hogy megkapd a következő állandó bónuszokat: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "Növeld a szintet hogy megkapd a következő állandó bónuszt: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "Növeld a szintet hogy megkapd a következő állandó bónuszokat: %(bonus1) és %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "Szint növelése"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "Szint növelése a következőre: %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "Növeld a szintet, hogy megkapd:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "Továbbfejlesztett jellemzők"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "Különleges módosítások"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "Különleges Módosítás {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "Kettős Módosítások"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "Kettős Módosítás {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "A modulokhoz"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "A harctéri módosítás nem elérhető. A jármű csatában van."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "A harctéri módosítás nem elérhető. A jármű zárolva van."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "A harctéri módosítás nem elérhető. A jármű javításra szorul."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "A jármű jellemzőinek további módosítására akkor nyílik lehetőség, ha a jármű eléri az Elit státuszt."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "A harctéri módosítás nem elérhető. A jármű egy taktikai egységben van."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "A járműnek a Garázsban kell lennie a módosítások kifejlesztéséhez és a Harctéri Módosítás szintjének növeléséhez."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "A Harctéri Módosítás nem áll rendelkezésre bérelt járművek esetében. Vásárold meg ezt a járművet a Harctéri Módosítás feloldásához."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "A Harctéri Módosítás nem elérhető: A járműbérlésnek vége. Hosszabbítsd meg a bérleti időszakot a Harctéri Módosítás feloldásához."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "JELLEMZŐK MEGJELENÍTÉSE"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "Lehetőség a jármű jellemzőinek további módosítására. Akkor válik elérhetővé, ha a jármű eléri az Elit státuszt."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "Harctéri Módosítás"

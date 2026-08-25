@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "button/progression"
+msgstr "Előrehaladás megjelenítése"
+
+msgid "button/select"
+msgstr "Konfigurálás"
+
+msgid "event/battlePass/name"
+msgstr "Battle Pass %(seasonNum)s. szezon"
+
+msgid "event/finished"
+msgstr "%(eventName)s\nvéget ért"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\nelkezdődik ekkor: %(date)s"
+
+msgid "event/paused"
+msgstr "%(eventName)s\nátmenetileg nem elérhető"
+
+msgid "event/ranked/name"
+msgstr "%(seasonNum)s. szezon"
+
+msgid "hint/showProgression"
+msgstr "NÉZD MEG ELŐREHALADÁS MÓDBAN"
+
+msgid "mode/epicBattle/condition"
+msgstr "30v30 &nbsp;{par_open}I{par_close}&nbsp;Szint:&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30v30&nbsp;{par_open}I{par_close}&nbsp;%(levels)s.&nbsp;szint"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "Az esemény\nelkezdődik: %(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Ez a mód\nhamarosan elindul"
+
+msgid "mode/epicBattle/description"
+msgstr "Játékmód előrehaladással és jutalmakkal."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "Az esemény véget ért"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "VIII-as szintű járművekkel harcolva a {whiteSpanish_open}Frontvonalban{whiteSpanish_close}, pontokat kapsz, amelyek lehetővé teszik számodra, hogy továbblépj a Battle Pass előrehaladásban."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Battle Pass pontok"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "VIII–X-es szintű járművekkel harcolva a {whiteSpanish_open}Felderítő küldetésben{whiteSpanish_close} pontokat kapsz, amelyek lehetővé teszik számodra, hogy továbblépj a Battle Pass előrehaladásban."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Battle Pass pontok"
+
+msgid "mode/mapbox/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s Szint:&nbsp;VIII–X"
+
+msgid "mode/mapbox/description"
+msgstr "Új pályamechanikák."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Az időjárás vizuális hatásai az általános grafikai beállításoktól függően változnak. Alacsony grafikai beállítások esetén vizuális anomáliákat és problémákat okozhat. A lehető legjobb élmény érdekében javasoljuk a legmagasabb grafikai beállítás választását, feltéve, hogy a számítógéped teljesítménye megfelel a követelményeknek. Az üzemmód nagy számítógép-teljesítményt igényel. Az FPS értéke intenzív harcok során csökkenhet."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Ajánlott a legmagasabb grafikai beállítások használata"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Ismerd meg a pályákat"
+
+msgid "mode/mapsTraining/description"
+msgstr "Ismerd meg a pályákat"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "IV-XI-es szintű járművekkel {whiteSpanish_open}Normál csatákban{whiteSpanish_close} harcolva pontokat kapsz, amelyekkel továbbléphetsz a Battle Pass-előrehaladásban."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Battle Pass pontok"
+
+msgid "mode/random/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s I–XI-es&nbsp;szint"
+
+msgid "mode/random/description"
+msgstr "Csaták automatikus besorolással."
+
+msgid "mode/random/setup"
+msgstr "Konfigurálás"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "Azzal, hogy X-es szintű járművekkel harcolsz a {whiteSpanish_open}Rangsorolt csatákban{whiteSpanish_close}, pontokat kapsz, amelyek lehetővé teszik számodra, hogy továbblépj a Battle Pass előrehaladásban."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Battle Pass pontok"
+
+msgid "mode/ranked/condition"
+msgstr "10v10 %(parSecondary_open)sI%(parSecondary_close)s X.&nbsp;szint"
+
+msgid "mode/ranked/description"
+msgstr "Játékmód előrehaladással és jutalmakkal."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Jelentkezés bajnokságra"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Következő csata: %(date)s %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s I–X.&nbsp;szint"
+
+msgid "mode/specBattlesList/description"
+msgstr "Világtérkép és bajnokságok."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Harc légiósként"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Harc klánban"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7v7–15v15 %(parSecondary_open)sI%(parSecondary_close)s VI–X.&nbsp;szint"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Klán csaták ipari nyersanyagokért."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Gyakorló szobák: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s I–X.&nbsp;szint"
+
+msgid "mode/trainingsList/description"
+msgstr "Oktató csaták."
+
+msgid "novelty"
+msgstr "ÚJ"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Kvalifikációs csaták: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "A játékmódban játszva egyedi 3D-kiegészítőket szerezhetsz."
+
+msgid "reward/attachment/name"
+msgstr "3D-kiegészítők"
+
+msgid "reward/bones/description"
+msgstr "A jutalom a csata teljesítményedtől függ."
+
+msgid "reward/bones/name"
+msgstr "Kötvények"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Megszerezheted a(z) %(name)s-t a játékmódban."
+
+msgid "reward/bountyEquipment/name"
+msgstr "Különleges felszerelés"
+
+msgid "reward/credits/description"
+msgstr "A jutalom a csata teljesítményedtől függ."
+
+msgid "reward/credits/name"
+msgstr "Kredit"
+
+msgid "reward/crew/description"
+msgstr "Egyedi legénységi tagokat szerezhetsz a játékmódban."
+
+msgid "reward/crew/name"
+msgstr "Harckocsizók"
+
+msgid "reward/experience/description"
+msgstr "A jutalom a csata teljesítményedtől függ."
+
+msgid "reward/experience/name"
+msgstr "XP"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "A játékmódban játszva különböző kísérleti felszereléseket szerezhetsz."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Különleges felszerelés"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Megszerezheted a(z) %(name)s-t a játékmódban."
+
+msgid "reward/improvedEquipment/name"
+msgstr "Különleges felszerelés"
+
+msgid "reward/lootBoxes/description"
+msgstr "A játékmódban játszva dobozokat szerezhetsz."
+
+msgid "reward/lootBoxes/name"
+msgstr "Különleges dobozok"
+
+msgid "reward/other/description"
+msgstr "Számos hasznos jutalmat szerezhetsz a játékmódban."
+
+msgid "reward/other/name"
+msgstr "Speciális jutalom"
+
+msgid "reward/progressionStyle/description"
+msgstr "A módban való játékért egy különleges progresszív stílust kaphatsz."
+
+msgid "reward/progressionStyle/name"
+msgstr "Progresszív stílus"
+
+msgid "reward/random/description"
+msgstr "Ebben a játékmódban játszva számos hasznos jutalmat szerezhetsz."
+
+msgid "reward/random/name"
+msgstr "Véletlenszerű jutalom"
+
+msgid "reward/style/description"
+msgstr "Egy különleges 3D stílust szerezhetsz a játékmódban a következőhöz: %(name)s."
+
+msgid "reward/style/name"
+msgstr "3D stílus"
+
+msgid "reward/vehicle/description"
+msgstr "Megszerezheted a(z) %(name)s-t a játékmódban."
+
+msgid "reward/vehicle/name"
+msgstr "Jutalom járművek"
+
+msgid "selectMap"
+msgstr "Beállítások normál csatákhoz"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s n"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s ó"
+
+msgid "status/timeLeft/lessMin"
+msgstr "kevesebb, mint egy perc"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s perc"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "VÁLASSZ CSATA MÓDOT"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Világtérkép"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Foglalj el területeket és harcolj a globális uralomért. Ez a játékmód csak klántagok számára érhető el."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Csatlakozz egy klánhoz"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Csaták a világtérképen"
+
+msgid "window/battleSession/title"
+msgstr "SPECIÁLIS CSATA"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Bajnokság lista"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Ez a funkció jelenleg nem elérhető, de a jövőben elérhetővé válik. Türelmedet kérjük."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Harcolj egyedül vagy csapatban, mutasd meg, mire vagy képes és szerezz értékes jutalmakat."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Bajnokságok"

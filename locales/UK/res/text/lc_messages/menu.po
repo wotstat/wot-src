@@ -1,0 +1,7445 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "PromoPremiumIgrWindow/applyButtonLabel"
+msgstr "Так!"
+
+msgid "PromoPremiumIgrWindow/text"
+msgstr "Граючи в %(iconIgr)s ви отримуєте можливість узяти напрокат безліч машин і виходити на них в бій, не купуючи. Коли завершиться акція, прокатна техніка не зникає, і ви маєте можливість роззброїти її, не хвилюючись про збереження обладнання, спорядження та екіпажу."
+
+msgid "PromoPremiumIgrWindow/title"
+msgstr "Унікальна акція!"
+
+msgid "PromoPremiumIgrWindow/windowTitle"
+msgstr "Спеціальна техніка в IGR"
+
+msgid "Time/timeLeftShort/days"
+msgstr "%(day)s дб"
+
+msgid "Time/timeLeftShort/hours"
+msgstr "%(hour)s год"
+
+msgid "Time/timeLeftShort/lessMin"
+msgstr "менше хвилини"
+
+msgid "Time/timeLeftShort/min"
+msgstr "%(min)s хв"
+
+msgid "Time/timeValue/days"
+msgstr "%(day)s дб %(hour)s год %(min)s хв"
+
+msgid "Time/timeValue/hours"
+msgstr "%(hour)s год %(min)s хв"
+
+msgid "Time/timeValue/lessMin"
+msgstr "хвилину"
+
+msgid "Time/timeValue/min"
+msgstr "%(min)s хв"
+
+msgid "Time/timeValueShort/days"
+msgstr "%(day)s д %(hour)s год"
+
+msgid "Time/timeValueShort/hours"
+msgstr "%(hour)s год %(min)s хв"
+
+msgid "Time/timeValueShort/lessMin"
+msgstr "1 хв"
+
+msgid "Time/timeValueShort/min"
+msgstr "%(min)s хв"
+
+msgid "Time/timeValueShort/noLeadingZeroes/days"
+msgstr "%(day)s д %(hour)s год"
+
+msgid "Time/timeValueShort/noLeadingZeroes/hours"
+msgstr "%(hour)s год %(min)s хв"
+
+msgid "Time/timeValueShort/noLeadingZeroes/lessMin"
+msgstr "1 хв"
+
+msgid "Time/timeValueShort/noLeadingZeroes/min"
+msgstr "%(min)s хв"
+
+msgid "Time/timeValueWithSecs/days"
+msgstr "%(day)s д %(hour)s год"
+
+msgid "Time/timeValueWithSecs/hours"
+msgstr "%(hour)s год %(min)s хв"
+
+msgid "Time/timeValueWithSecs/lessMin"
+msgstr "%(sec)s с"
+
+msgid "Time/timeValueWithSecs/min"
+msgstr "%(min)s хв %(sec)s с"
+
+msgid "account/profile/emptyBattleList"
+msgstr "У бою не був"
+
+msgid "accountInfo/credits"
+msgstr "Кредити:"
+
+msgid "accountInfo/crystal"
+msgstr "Бони:"
+
+msgid "accountInfo/eventCoin"
+msgstr "Ювілейні монети:"
+
+msgid "accountInfo/experience"
+msgstr "Загальний досвід:"
+
+msgid "accountInfo/gold"
+msgstr "Золото:"
+
+msgid "accountTypes/base"
+msgstr "Базовий акаунт"
+
+msgid "accountTypes/demo"
+msgstr "Тестовий акаунт"
+
+msgid "accountTypes/free"
+msgstr "Безкоштовний акаунт"
+
+msgid "accountTypes/guest"
+msgstr "Гостьовий акаунт"
+
+msgid "accountTypes/premium"
+msgstr "Загальний преміум"
+
+msgid "accountTypes/premiumPlus"
+msgstr "Танковий преміум"
+
+msgid "accountTypes/premiumPlusShort"
+msgstr "Танковий"
+
+msgid "accountTypes/premiumShort"
+msgstr "Загальний"
+
+msgid "accountTypes/subscription"
+msgstr "Преміум підписка"
+
+msgid "ammoReload/additionBuy"
+msgstr "Докупити"
+
+msgid "ammoReload/ammunition"
+msgstr "Боєзапас:"
+
+msgid "ammoReload/autoFill"
+msgstr "Автопоповнення"
+
+msgid "ammoReload/cancel"
+msgstr "Скасувати"
+
+msgid "ammoReload/clearAmmunition"
+msgstr "Очистити боєзапас"
+
+msgid "ammoReload/damage/title"
+msgstr "Шкода:"
+
+msgid "ammoReload/damage/units"
+msgstr "?empty?"
+
+msgid "ammoReload/fill"
+msgstr "Поповнити"
+
+msgid "ammoReload/inTank"
+msgstr "Завантажено"
+
+msgid "ammoReload/onInventory"
+msgstr "На Складі"
+
+msgid "ammoReload/piercingPower/title"
+msgstr "Пробивання броні: до"
+
+msgid "ammoReload/piercingPower/units"
+msgstr "мм"
+
+msgid "ammoReload/reloadTitle"
+msgstr "Боєзапас для"
+
+msgid "ammoReload/title"
+msgstr "Поповнення боєзапас"
+
+msgid "ammoReload/totalcost"
+msgstr "Разом:"
+
+msgid "awardWindow/boosterAward/activateBtn/label"
+msgstr "Перейти до особистих резервів"
+
+msgid "awardWindow/boosterAward/additional"
+msgstr "За виконання бойового завдання у ваше розпорядження надійшов особистий резерв, який ви можете активувати зайшовши у вікно особистих резервів з контекстного меню імені гравця."
+
+msgid "awardWindow/boosterAward/description/tillTime"
+msgstr "Термін дії: "
+
+msgid "awardWindow/boosterAward/description/timeValue/defined"
+msgstr "%(effectTime)s (використати до %(tillTime)s)"
+
+msgid "awardWindow/boosterAward/description/timeValue/undefined"
+msgstr "%(effectTime)s (безстроково)"
+
+msgid "awardWindow/boosterAward/header"
+msgstr "Отримано особистий резерв: %(boosterName)s"
+
+msgid "awardWindow/closeButton"
+msgstr "Закрити"
+
+msgid "awardWindow/mission/additionalComplete"
+msgstr "Додаткову умову виконано."
+
+msgid "awardWindow/mission/additionalNotComplete"
+msgstr "Додаткову умову не виконано."
+
+msgid "awardWindow/mission/available"
+msgstr "Доступно бойових завдань: %(count)s"
+
+msgid "awardWindow/mission/complete"
+msgstr "Бойове завдання виконано!"
+
+msgid "awardWindow/mission/conditionComplete"
+msgstr "Умову виконано!"
+
+msgid "awardWindow/mission/mainConditionComplete"
+msgstr "Головну умову виконано!"
+
+msgid "awardWindow/mission/nextButton"
+msgstr "До завдань"
+
+msgid "awardWindow/mission/nextButton/tooltip/body"
+msgstr "Натисніть, щоб переглянути завдання, які можливо виконувати зараз."
+
+msgid "awardWindow/mission/nextButton/tooltip/header"
+msgstr "До завдань"
+
+msgid "awardWindow/okButton"
+msgstr "Так!"
+
+msgid "awardWindow/personalDiscountAward/activateBtn/label"
+msgstr "Показати бойові завдання"
+
+msgid "awardWindow/personalDiscountAward/additional/experience/rent"
+msgstr "Якщо вам сподобалася ця машина, ви зможете викупити її та користуватися нею без обмежень."
+
+msgid "awardWindow/personalDiscountAward/additional/slot"
+msgstr "Що вище рівень машини, якою ви вступаєте у бій, то більший дохід вона приноситиме за підсумками бою, проте складність гри також зросте."
+
+msgid "awardWindow/personalDiscountAward/award/experience"
+msgstr "знижка 100% на конвертацію досвіду у вільний (максимум 2 000 од.)"
+
+msgid "awardWindow/personalDiscountAward/award/slot"
+msgstr "одна знижка 100% на купівлю слота"
+
+msgid "awardWindow/personalDiscountAward/award/training"
+msgstr "знижка 100% на навчання нового екіпажу в танковій академії"
+
+msgid "awardWindow/personalDiscountAward/description/experience"
+msgstr "Ви зіграли потрібну кількість боїв машиною."
+
+msgid "awardWindow/personalDiscountAward/description/experience/rent"
+msgstr "Ви зіграли потрібну кількість боїв прокатною машиною."
+
+msgid "awardWindow/personalDiscountAward/description/slot"
+msgstr "Ви купили машину рівнем вище."
+
+msgid "awardWindow/personalDiscountAward/description/training"
+msgstr "Ви навчилися конвертувати бойовий досвід у вільний."
+
+msgid "awardWindow/personalDiscountAward/header"
+msgstr "Вітаємо!"
+
+msgid "awardWindow/personalDiscountAward/rewardText"
+msgstr "Нагорода\nза виконання"
+
+msgid "awardWindow/personalDiscountAward/title"
+msgstr "Вітання"
+
+msgid "awardWindow/personalMission/alreadyCompleted"
+msgstr " (Виконано раніше)"
+
+msgid "awardWindow/personalMission/available"
+msgstr "Доступне наступне завдання"
+
+msgid "awardWindow/personalMission/complete"
+msgstr "Завдання виконано!"
+
+msgid "awardWindow/personalMission/completeWithHonors"
+msgstr "Завдання виконано\nз відзнакою!"
+
+msgid "awardWindow/personalMission/mainConditionCompleted"
+msgstr "Головну умову виконано!"
+
+msgid "awardWindow/personalMission/nextButton"
+msgstr "Показати завдання"
+
+msgid "awardWindow/personalMission/nextButton/tooltip/body"
+msgstr "Натисніть, щоб переглянути умови наступного завдання та нагороду за нього."
+
+msgid "awardWindow/personalMission/nextButton/tooltip/header"
+msgstr "Показати завдання"
+
+msgid "awardWindow/personalMission/nextButtonAward"
+msgstr "Рекрутувати"
+
+msgid "awardWindow/personalMission/nextButtonAward/tooltip/body"
+msgstr "Натисніть, щоб рекрутувати жінку-танкіста за виконані головні умови завершального завдання гілки."
+
+msgid "awardWindow/personalMission/nextButtonAward/tooltip/header"
+msgstr "Рекрутувати"
+
+msgid "awardWindow/personalMission/sideConditionCompleted"
+msgstr "Додаткову умову виконано!"
+
+msgid "awardWindow/personalMission/sideConditionNotCompleted"
+msgstr "Додаткову умову не виконано"
+
+msgid "awardWindow/quests/medals/header"
+msgstr "Вас представлено до нагороди!"
+
+msgid "awardWindow/quests/taskComplete/additional"
+msgstr "Нагорода за виконання додаткових умов: %(award)s"
+
+msgid "awardWindow/quests/taskComplete/additionalNotComplete"
+msgstr "Додаткову умову не виконано."
+
+msgid "awardWindow/quests/taskComplete/awardForComlete"
+msgstr "Нагорода\nза виконання"
+
+msgid "awardWindow/quests/taskComplete/awardRecieved"
+msgstr "Нагороду за виконання головних умов вже отримано"
+
+msgid "awardWindow/quests/taskComplete/description"
+msgstr "За виконання бойового завдання командування висловлює подяку і вручає вам цінні нагороди."
+
+msgid "awardWindow/quests/taskComplete/header"
+msgstr "Завдання «%(taskName)s» виконано!"
+
+msgid "awardWindow/quests/taskComplete/nextTaskAutoChoice"
+msgstr "Завдання «%(taskName)s» прийнято до виконання."
+
+msgid "awardWindow/quests/vehicle/description"
+msgstr "За виконання всіх бойових завдань операції командування висловлює подяку і нагороджує вас унікальною машиною."
+
+msgid "awardWindow/quests/vehicle/header"
+msgstr "Вашу нагороду %(vehicleName)s доставлено у Гараж!"
+
+msgid "awardWindow/recruitButton"
+msgstr "Перейти до рекрутування"
+
+msgid "awardWindow/recruiterAward/description"
+msgstr "Ви відповідаєте всім вимогам, щоб стати командиром і почати запрошувати друзів для спільної гри."
+
+msgid "awardWindow/recruiterAward/header"
+msgstr "Умови виконано!"
+
+msgid "awardWindow/recruiterAward/okButton"
+msgstr "Перейти"
+
+msgid "awardWindow/recruiterAward/title"
+msgstr "Реферальна програма"
+
+msgid "awardWindow/takeNextButton"
+msgstr "Переглянути умови завдання"
+
+msgid "awardWindow/telecomAward/button/label/default"
+msgstr "Показати в Гаражі"
+
+msgid "awardWindow/telecomAward/description/full/Twitchprime"
+msgstr "Вітаємо! У межах акції «Прямий ефір» вам стали доступні:\n%(vehicles)s\n• додатковий слот у Гаражі"
+
+msgid "awardWindow/telecomAward/description/full/default"
+msgstr "Вітаємо! У межах тарифного плану «Ігровий» вам стали доступні:\n%(vehicles)s\n• %(prem)s на час дії тарифу;\n• додатковий слот у Гаражі."
+
+msgid "awardWindow/telecomAward/description/prem/default"
+msgstr "Танковий преміум акаунт"
+
+msgid "awardWindow/telecomAward/description/withBrotherhood/Twitchprime"
+msgstr "Вітаємо! У межах акції «Прямий ефір» вам стали доступні:\n%(vehicles)s\n• екіпаж із вивченою навичкою «Бойове братерство»;\n• додатковий слот у Гаражі."
+
+msgid "awardWindow/telecomAward/description/withBrotherhood/default"
+msgstr "Вітаємо! У межах тарифного плану «Ігровий» вам стали доступні:\n%(vehicles)s\n• екіпаж із вивченою навичкою «Бойове братерство»;\n• %(prem)s на час дії тарифу;\n• додатковий слот у Гаражі."
+
+msgid "awardWindow/telecomAward/description/withoutCrew/Twitchprime"
+msgstr "Вітаємо! За акцією «Прямий ефір» вам стали доступні:\n%(vehicles)s\n• Додатковий слот у Гаражі."
+
+msgid "awardWindow/telecomAward/description/withoutCrew/default"
+msgstr "Вітаємо! У межах тарифного плану «Ігровий» вам стали доступні:\n%(vehicles)s\n• %(prem)s на час дії тарифу.\n• Додатковий слот у Гаражі."
+
+msgid "awardWindow/telecomAward/header/default"
+msgstr "Вас представлено до нагороди!"
+
+msgid "awardWindow/telecomAward/subdescription/default"
+msgstr "Зверніть увагу: цю машину не можна продати або видалити."
+
+msgid "awardWindow/telecomAward/title/default"
+msgstr "Інформаційна листівка"
+
+msgid "awardWindow/telecomAward/vehicles/Twitchprime"
+msgstr "• %(type)s %(nation)s %(level)s рівня %(vehicle)s з унікальним стилем."
+
+msgid "awardWindow/telecomAward/vehicles/default"
+msgstr "• %(type)s %(nation)s %(level)s рівня %(vehicle)s з ексклюзивними камуфляжем."
+
+msgid "awardWindow/title/boosterAward"
+msgstr "Вітаємо з виконанням"
+
+msgid "awardWindow/title/credits"
+msgstr "Грошове забезпечення"
+
+msgid "awardWindow/title/newMedals"
+msgstr "Представлення до нагороди"
+
+msgid "awardWindow/title/newTankman"
+msgstr "Поповнення Казарми"
+
+msgid "awardWindow/title/newVehicle"
+msgstr "Поповнення Гаража"
+
+msgid "awardWindow/title/taskComplete"
+msgstr "Вітаємо з виконанням"
+
+msgid "awardWindow/title/tokens"
+msgstr "Представлення до нагороди"
+
+msgid "awardWindow/vehicleCollector/description"
+msgstr "Вітаємо! За наявність усій колекційної техніки нації %(nation)s ви отримуєте пам’ятну медаль."
+
+msgid "awardWindow/vehicleCollector/header"
+msgstr "Колекцію зібрано"
+
+msgid "awardWindow/vehicleCollector/okButton"
+msgstr "Так!"
+
+msgid "awardWindow/vehicleCollector/title"
+msgstr "Колекційна техніка %(nation)s"
+
+msgid "awardWindow/vehicleCollectorOfEverything/description"
+msgstr "Вітаємо! За наявність усій колекційної техніки всіх націй ви отримуєте пам’ятну медаль."
+
+msgid "awardWindow/vehicleCollectorOfEverything/header"
+msgstr "Отримано нагороду!"
+
+msgid "awardWindow/vehicleCollectorOfEverything/okButton"
+msgstr "Так!"
+
+msgid "awardWindow/vehicleCollectorOfEverything/title"
+msgstr "Колекційна техніка"
+
+msgid "badge/confirm"
+msgstr "Так!"
+
+msgid "badge/new"
+msgstr "НАГОРОДУ ОТРИМАНО"
+
+msgid "badgePage/tutorial/newSuffixBadge"
+msgstr "ДОСТУПНИЙ БАНЕР"
+
+msgid "barracks/btnDissmiss"
+msgstr "Демобілізувати"
+
+msgid "barracks/btnUnload"
+msgstr "В Казарму"
+
+msgid "barracks/notRecruitedActivateBefore"
+msgstr "До %(date)s"
+
+msgid "battleAbility/title"
+msgstr "Бойові резерви"
+
+msgid "blueprints/conversionView/btnCancel"
+msgstr "Скасувати"
+
+msgid "blueprints/conversionView/btnConvert"
+msgstr "Сформувати"
+
+msgid "blueprints/conversionView/multiConversion/description"
+msgstr "Буде створено відсутніх фрагментів: {fragCount}"
+
+msgid "blueprints/conversionView/multiConversion/title"
+msgstr "Створення фрагментів креслення для «{vehName}»"
+
+msgid "blueprints/conversionView/title"
+msgstr "Створення фрагмента креслення для «{vehName}»"
+
+msgid "bonusType/0"
+msgstr "Невідомий"
+
+msgid "bonusType/1"
+msgstr "Випадковий бій"
+
+msgid "bonusType/10"
+msgstr "Вилазки"
+
+msgid "bonusType/11"
+msgstr "Наступи"
+
+msgid "bonusType/12"
+msgstr "Командний: гра в Ладдері"
+
+msgid "bonusType/13"
+msgstr "Глобальна мапа"
+
+msgid "bonusType/16"
+msgstr "Навчальний бій"
+
+msgid "bonusType/18"
+msgstr "«Перевага»"
+
+msgid "bonusType/19"
+msgstr "«Сталеве полювання»"
+
+msgid "bonusType/2"
+msgstr "Тренувальний бій"
+
+msgid "bonusType/20"
+msgstr "Вилазка"
+
+msgid "bonusType/21"
+msgstr "Наступ"
+
+msgid "bonusType/22"
+msgstr "Ранговий бій"
+
+msgid "bonusType/24"
+msgstr "Генеральна битва"
+
+msgid "bonusType/27"
+msgstr "Лінія фронту"
+
+msgid "bonusType/29"
+msgstr "«Сталевий мисливець»"
+
+msgid "bonusType/37"
+msgstr "«Розвідка боєм»"
+
+msgid "bonusType/38"
+msgstr "«Топографія»"
+
+msgid "bonusType/4"
+msgstr "Спеціальний бій"
+
+msgid "bonusType/42"
+msgstr "«%(modeName)s»"
+
+msgid "bonusType/43"
+msgstr "Натиск"
+
+msgid "bonusType/44"
+msgstr "Розминка"
+
+msgid "bonusType/49"
+msgstr "Натиск Лайт"
+
+msgid "bonusType/5"
+msgstr "Спеціальний бій"
+
+msgid "bonusType/6"
+msgstr "Бойове навчання"
+
+msgid "bonusType/7"
+msgstr "Командний бій"
+
+msgid "bonusType/8"
+msgstr "Історичний бій"
+
+msgid "bonusType/9"
+msgstr "Спеціальний ігровий режим"
+
+msgid "booster/bonus/booster_credits"
+msgstr "%(effectValue)s на %(effectHours)s до кредитів за бій"
+
+msgid "booster/bonus/booster_crew_xp"
+msgstr "%(effectValue)s на %(effectHours)s до досвіду екіпажу за бій"
+
+msgid "booster/bonus/booster_fl_xp"
+msgstr "%(effectValue)s на %(effectHours)s до фронтового досвіду за бій"
+
+msgid "booster/bonus/booster_free_xp"
+msgstr "%(effectValue)s на %(effectHours)s до вільного досвіду за бій"
+
+msgid "booster/bonus/booster_free_xp_and_crew_xp"
+msgstr "%(effectValue)s на %(effectHours)s до вільного досвіду та досвіду екіпажу"
+
+msgid "booster/bonus/booster_xp"
+msgstr "%(effectValue)s на %(effectHours)s до досвіду за бій"
+
+msgid "booster/description/bonusValueTime/booster_credits"
+msgstr "Бонус %(effectValue)s до кредитів за бій на %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "Бонус %(effectValue)s до досвіду екіпажу за бій на %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_fl_xp"
+msgstr "Бонус %(effectValue)s до фронтового досвіду за бій на %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "Бонус %(effectValue)s до вільного досвіду за бій на %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp_and_crew_xp"
+msgstr "%(effectValue)s до вільного досвіду та досвіду екіпажу на %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "Бонус %(effectValue)s до досвіду за бій на %(effectTime)s"
+
+msgid "booster/description/booster_credits"
+msgstr "%(effectValue)s до кредитів за бій"
+
+msgid "booster/description/booster_crew_xp"
+msgstr "%(effectValue)s до досвіду екіпажу за бій"
+
+msgid "booster/description/booster_fl_xp"
+msgstr "%(effectValue)s до фронтового досвіду за бій"
+
+msgid "booster/description/booster_free_xp"
+msgstr "%(effectValue)s до вільного досвіду за бій"
+
+msgid "booster/description/booster_free_xp_and_crew_xp"
+msgstr "%(effectValue)s до вільного досвіду та досвіду екіпажу за бій"
+
+msgid "booster/description/booster_repair"
+msgstr "%(effectValue)s вартості ремонту"
+
+msgid "booster/description/booster_xp"
+msgstr "%(effectValue)s до досвіду за бій"
+
+msgid "booster/description/effectTime"
+msgstr " на %(effectTime)s"
+
+msgid "booster/description/effectValueTime"
+msgstr "%(effectValue)s на %(effectTime)s"
+
+msgid "booster/influence/booster_credits"
+msgstr "до кредитів за бій"
+
+msgid "booster/influence/booster_crew_xp"
+msgstr "до досвіду екіпажу за бій"
+
+msgid "booster/influence/booster_fl_xp"
+msgstr "до фронтового досвіду за бій"
+
+msgid "booster/influence/booster_free_xp"
+msgstr "до вільного досвіду за бій"
+
+msgid "booster/influence/booster_free_xp_and_crew_xp"
+msgstr "до вільного досвіду та досвіду екіпажу за бій"
+
+msgid "booster/influence/booster_xp"
+msgstr "до досвіду за бій"
+
+msgid "booster/label/booster_credits"
+msgstr "%(effectValue)s до кредитів"
+
+msgid "booster/label/booster_crew_xp"
+msgstr "%(effectValue)s до досвіду екіпажу"
+
+msgid "booster/label/booster_free_xp"
+msgstr "%(effectValue)s до вільного досвіду"
+
+msgid "booster/label/booster_free_xp_and_crew_xp"
+msgstr "%(effectValue)s до вільного досвіду й досвіду екіпажу"
+
+msgid "booster/label/booster_xp"
+msgstr "%(effectValue)s до бойового досвіду"
+
+msgid "booster/limit/booster_fl_xp"
+msgstr "Для режиму «Лінія фронту»"
+
+msgid "booster/quality/big"
+msgstr "(великий)"
+
+msgid "booster/quality/medium"
+msgstr "(середній)"
+
+msgid "booster/quality/small"
+msgstr "(малий)"
+
+msgid "booster/userName/booster_credits"
+msgstr "Додаткові кредити за бій"
+
+msgid "booster/userName/booster_crew_xp"
+msgstr "Додатковий досвід екіпажу за бій"
+
+msgid "booster/userName/booster_fl_xp"
+msgstr "Додатковий фронтовий досвід за бій"
+
+msgid "booster/userName/booster_free_xp"
+msgstr "Додатковий вільний досвід за бій"
+
+msgid "booster/userName/booster_free_xp_and_crew_xp"
+msgstr "Додатковий вільний досвід та досвід екіпажу за бій"
+
+msgid "booster/userName/booster_repair"
+msgstr "Знижка на ремонт техніки"
+
+msgid "booster/userName/booster_xp"
+msgstr "Додатковий досвід за бій"
+
+msgid "boosterBuyWindow/buyButtonLabel"
+msgstr "Купити"
+
+msgid "boosterBuyWindow/cancelButtonLabel"
+msgstr "Скасувати"
+
+msgid "boosterBuyWindow/pricePerItem"
+msgstr "Вартість купівлі 1 шт.:"
+
+msgid "boosterBuyWindow/rearmCheckboxLabel"
+msgstr "Увімкнути автопоповнення настанов"
+
+msgid "boosterBuyWindow/title"
+msgstr "Купити настанови «{name}»?"
+
+msgid "boosterInfo/closeBtn"
+msgstr "Закрити"
+
+msgid "boosterSelectPopover/rearmCheckBoxLabel"
+msgstr "Увімкнути автопоповнення настанов"
+
+msgid "boosterSellWindow/pricePerItem"
+msgstr "Вартість продажу 1 шт.:"
+
+msgid "boosterSellWindow/title"
+msgstr "Продати настанови «{name}»?"
+
+msgid "boosters/common/effect_time"
+msgstr "Час дії"
+
+msgid "boosters/common/effect_value"
+msgstr "Розмір бонуса"
+
+msgid "boosters/common/name"
+msgstr "Особистий резерв"
+
+msgid "boosters/timeLeft/days"
+msgstr "%(day)s дб %(hour)s год"
+
+msgid "boosters/timeLeft/hours"
+msgstr "%(hour)s год %(min)s хв"
+
+msgid "boosters/timeLeft/lessMin"
+msgstr "1 хв"
+
+msgid "boosters/timeLeft/min"
+msgstr "%(min)s хв"
+
+msgid "boostersWindow/activeBoosters"
+msgstr "Зараз активні: %(activeNo)s/%(allNo)s"
+
+msgid "boostersWindow/boostersTable/noInfo/empty/message"
+msgstr "Немає елементів для показу"
+
+msgid "boostersWindow/boostersTable/noInfo/notFound/message"
+msgstr "Перевірте встановлені фільтри пошуку особистих резервів (якщо вони є)."
+
+msgid "boostersWindow/boostersTable/noInfo/notFound/title"
+msgstr "Нічого не знайдено"
+
+msgid "boostersWindow/boostersTableRenderer/activateBtnLabel"
+msgstr "Активувати"
+
+msgid "boostersWindow/boostersTableRenderer/buyBtnLabel"
+msgstr "Купити"
+
+msgid "boostersWindow/boostersTableRenderer/goToQuestBtnLabel"
+msgstr "Перейти до завдання"
+
+msgid "boostersWindow/boostersTableRenderer/questForOpen"
+msgstr "Для доступу виконайте «%(questName)s»"
+
+msgid "boostersWindow/boostersTableRenderer/time"
+msgstr "Термін дії: до %(tillTime)s"
+
+msgid "boostersWindow/boostersTableRenderer/undefineTime"
+msgstr "Термін дії: безстроково"
+
+msgid "boostersWindow/closeBtn/label"
+msgstr "Закрити"
+
+msgid "boostersWindow/levelFilters/label"
+msgstr "Розмір особистого резерву:"
+
+msgid "boostersWindow/returnBtn/label"
+msgstr "Повернутися до списку"
+
+msgid "boostersWindow/tabs/availableLabel"
+msgstr "Активувати (%(count)s)"
+
+msgid "boostersWindow/tabs/buyLabel"
+msgstr "Купити (%(count)s)"
+
+msgid "boostersWindow/tabs/notAvailableLabel"
+msgstr "Заслужити (%(count)s)"
+
+msgid "boostersWindow/title"
+msgstr "Особисті резерви"
+
+msgid "boostersWindow/typeFilters/label"
+msgstr "Тип ресурсу:"
+
+msgid "browser/customTitle/fort/congratulation"
+msgstr "Вітання"
+
+msgid "browser/customTitle/fort/offensiveResult"
+msgstr "Результати наступу"
+
+msgid "browser/dataUnavailable/description"
+msgstr "Інформація тимчасово недоступна."
+
+msgid "browser/dataUnavailable/header"
+msgstr "Увага!"
+
+msgid "browser/window/title"
+msgstr "Браузер"
+
+msgid "carouselFilter/igr"
+msgstr "IGR"
+
+msgid "carousel_tank_filter/AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "carousel_tank_filter/SPG"
+msgstr "САУ"
+
+msgid "carousel_tank_filter/all"
+msgstr "Всі"
+
+msgid "carousel_tank_filter/assault"
+msgstr "Штурм"
+
+msgid "carousel_tank_filter/break"
+msgstr "Прорив"
+
+msgid "carousel_tank_filter/canInstallAttachments"
+msgstr "3D-обвіси"
+
+msgid "carousel_tank_filter/heavyTank"
+msgstr "Важкі танки"
+
+msgid "carousel_tank_filter/lightTank"
+msgstr "Легкі танки"
+
+msgid "carousel_tank_filter/mediumTank"
+msgstr "Середні танки"
+
+msgid "carousel_tank_filter/own3DStyle"
+msgstr "3D-стилі"
+
+msgid "carousel_tank_filter/ready"
+msgstr "Лише основні"
+
+msgid "carousel_tank_filter/sniper"
+msgstr "Снайпер"
+
+msgid "carousel_tank_filter/support"
+msgstr "Підтримка"
+
+msgid "carousel_tank_filter/universal"
+msgstr "Універсальний"
+
+msgid "carousel_tank_filter/wheeled"
+msgstr "Колісний"
+
+msgid "centerIsAvailable"
+msgstr "Всі сервіси знову працюють у загальному режимі."
+
+msgid "centerIsUnAvailable"
+msgstr "Технічні проблеми, ігрові сервіси частково недоступні."
+
+msgid "classes/AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "classes/SPG"
+msgstr "САУ"
+
+msgid "classes/anyType"
+msgstr "Будь-який тип"
+
+msgid "classes/heavyTank"
+msgstr "важкі танки"
+
+msgid "classes/lightTank"
+msgstr "легкі танки"
+
+msgid "classes/mediumTank"
+msgstr "середні танки"
+
+msgid "classes/short/AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "classes/short/Alliance-France"
+msgstr "Коаліції (Франція, Чехословаччина, Швеція, Італія)"
+
+msgid "classes/short/Alliance-Germany"
+msgstr "Блоку (Німеччина, Японія)"
+
+msgid "classes/short/Alliance-USA"
+msgstr "Альянсу (США, Великобританія, Польща)"
+
+msgid "classes/short/Alliance-USSR"
+msgstr "Союзу (СРСР, Китай)"
+
+msgid "classes/short/SPG"
+msgstr "САУ"
+
+msgid "classes/short/heavyTank"
+msgstr "ВТ"
+
+msgid "classes/short/lightTank"
+msgstr "ЛТ"
+
+msgid "classes/short/mediumTank"
+msgstr "СТ"
+
+msgid "common/premiumBuy"
+msgstr "Поліпшити"
+
+msgid "common/premiumContinue"
+msgstr "Продовжити преміум"
+
+msgid "contextMenu/acceptInvitationToSquad"
+msgstr "Прийняти запрошення до взводу"
+
+msgid "contextMenu/addToFriends"
+msgstr "Додати в «Друзі»"
+
+msgid "contextMenu/addToIgnored"
+msgstr "Додати в «Чорний список»"
+
+msgid "contextMenu/appeal"
+msgstr "Поскаржитися"
+
+msgid "contextMenu/assignOfficer"
+msgstr "Підвищити"
+
+msgid "contextMenu/assignPrivate"
+msgstr "Понизити"
+
+msgid "contextMenu/bot"
+msgstr "Бездіяльність/бот"
+
+msgid "contextMenu/botNoActions"
+msgstr "Немає доступних дій"
+
+msgid "contextMenu/buy"
+msgstr "Купити"
+
+msgid "contextMenu/buyAndEquip"
+msgstr "Купити і встановити"
+
+msgid "contextMenu/buyOrTradeIn"
+msgstr "Купити або обміняти"
+
+msgid "contextMenu/cancelBuy"
+msgstr "Скасувати купівлю"
+
+msgid "contextMenu/clanInfo"
+msgstr "Профіль клану гравця"
+
+msgid "contextMenu/commendBack"
+msgstr "Подякувати у відповідь!"
+
+msgid "contextMenu/commendFirst"
+msgstr "Подякувати!"
+
+msgid "contextMenu/compare"
+msgstr "Додати до порівняння"
+
+msgid "contextMenu/copyClanName"
+msgstr "Скопіювати назву клан"
+
+msgid "contextMenu/copyToClipBoard"
+msgstr "Копіювати ім’я"
+
+msgid "contextMenu/createBattleRoyaleSquad"
+msgstr "Сформувати взвод мисливців"
+
+msgid "contextMenu/createComp7LightSquad"
+msgstr "Створити взвод для Натиску Лайт"
+
+msgid "contextMenu/createComp7Squad"
+msgstr "Створити взвод для Натиску"
+
+msgid "contextMenu/createContactNote"
+msgstr "Створити замітку"
+
+msgid "contextMenu/createEventSquad"
+msgstr "Сформувати івентний взвод"
+
+msgid "contextMenu/createMapboxSquad"
+msgstr "Розвідка боєм: сформувати взвод"
+
+msgid "contextMenu/createPlaylist"
+msgstr "Створити список"
+
+msgid "contextMenu/createPrivateChannel"
+msgstr "Надіслати повідомлення"
+
+msgid "contextMenu/createSquad"
+msgstr "Сформувати взвод"
+
+msgid "contextMenu/crewWidgetChangeCrewMember"
+msgstr "Змінити члена екіпажу"
+
+msgid "contextMenu/crewWidgetChangeSpecialization"
+msgstr "Навчання керуванню машиною"
+
+msgid "contextMenu/crewWidgetDismiss"
+msgstr "Демобілізувати"
+
+msgid "contextMenu/crewWidgetPersonalFile"
+msgstr "Профіль"
+
+msgid "contextMenu/crewWidgetQuickTraining"
+msgstr "Пришвидшене навчання"
+
+msgid "contextMenu/crewWidgetRetrain"
+msgstr "Перенавчити"
+
+msgid "contextMenu/crewWidgetSendToToBarracks"
+msgstr "Висадити"
+
+msgid "contextMenu/disableCommunications"
+msgstr "Заблокувати на цей бій"
+
+msgid "contextMenu/dismiss"
+msgstr "Демобілізувати"
+
+msgid "contextMenu/editContactNote"
+msgstr "Редагувати замітку"
+
+msgid "contextMenu/enableCommunications"
+msgstr "Розблокувати"
+
+msgid "contextMenu/equip"
+msgstr "Встановити"
+
+msgid "contextMenu/exchange"
+msgstr "Обміняти"
+
+msgid "contextMenu/excludedFromSquad"
+msgstr "Вилучити зі взводу"
+
+msgid "contextMenu/forbiddenNick"
+msgstr "Заборонений нік/клан"
+
+msgid "contextMenu/giveArtilleryEquipmentCommander"
+msgstr "Передати Артобстріл"
+
+msgid "contextMenu/giveInspireEquipmentCommander"
+msgstr "Передати Наснагу"
+
+msgid "contextMenu/giveLeadership"
+msgstr "Передати командування"
+
+msgid "contextMenu/goToBlueprint"
+msgstr "Перейти до креслення"
+
+msgid "contextMenu/goToCollection"
+msgstr "Перейти в колекцію"
+
+msgid "contextMenu/goToNationTree"
+msgstr "Дерево досліджень"
+
+msgid "contextMenu/goToNextVehicle"
+msgstr "Дослідити модулі"
+
+msgid "contextMenu/inSquad"
+msgstr "Гравець у складі взводу"
+
+msgid "contextMenu/incorrectBehavior"
+msgstr "Некоректна поведінка у чаті"
+
+msgid "contextMenu/invite"
+msgstr "Запросити у формування"
+
+msgid "contextMenu/kickPlayerFromPrebattle"
+msgstr "Вилучити з формування"
+
+msgid "contextMenu/kickPlayerFromUnit"
+msgstr "Вилучити з формування"
+
+msgid "contextMenu/leaveSquad"
+msgstr "Покинути взвод"
+
+msgid "contextMenu/lockSlot"
+msgstr "Заблокувати слот"
+
+msgid "contextMenu/managePlaylists"
+msgstr "Списки"
+
+msgid "contextMenu/mentorAssignment"
+msgstr "Курс наставництва"
+
+msgid "contextMenu/messenger/closeAllExceptCurrent"
+msgstr "Закрити всі, крім вибраного"
+
+msgid "contextMenu/messenger/closeCurrent"
+msgstr "Закрити вибраний канал"
+
+msgid "contextMenu/messenger/minimizeAll"
+msgstr "Згорнути всі канали"
+
+msgid "contextMenu/moduleInfo"
+msgstr "Інформація"
+
+msgid "contextMenu/moneyTransfer"
+msgstr "Переказ золота..."
+
+msgid "contextMenu/mutualCommendation"
+msgstr "Взаємна подяка"
+
+msgid "contextMenu/nationChange"
+msgstr "Змінити націю"
+
+msgid "contextMenu/notFairPlay"
+msgstr "Неспортивна поведінка"
+
+msgid "contextMenu/outgoingCommendation"
+msgstr "Подяка успішна"
+
+msgid "contextMenu/personalCase/statsBlockTitle"
+msgstr "НА ПРЕМІУМ МАШИНІ"
+
+msgid "contextMenu/profileVehicleCompare"
+msgstr "Додати до порівняння"
+
+msgid "contextMenu/rejectFriendship"
+msgstr "Відхилити запит на додавання у «Друзі»"
+
+msgid "contextMenu/rejectInvitationToSquad"
+msgstr "Відхилити запрошення до взводу"
+
+msgid "contextMenu/removeContactNote"
+msgstr "Видалити замітку"
+
+msgid "contextMenu/removeFromFriends"
+msgstr "Видалити з «Друзів»"
+
+msgid "contextMenu/removeFromIgnored"
+msgstr "Видалити з «Чорного списку»"
+
+msgid "contextMenu/requestFriendship"
+msgstr "Надіслати запит на додавання в «Друзі» повторно"
+
+msgid "contextMenu/restore"
+msgstr "Відновити"
+
+msgid "contextMenu/selectVehicleInHangar"
+msgstr "Перейти до машини в Гаражі"
+
+msgid "contextMenu/sell"
+msgstr "Продати"
+
+msgid "contextMenu/sellFromInventory"
+msgstr "Продати зі Складу"
+
+msgid "contextMenu/sendClanInvite"
+msgstr "Запросити до клану"
+
+msgid "contextMenu/sendInvitationToSquad"
+msgstr "Запросити до взводу"
+
+msgid "contextMenu/setMuted"
+msgstr "Вимкнути голосові повідомлення"
+
+msgid "contextMenu/showVehiclePreview"
+msgstr "Попередній перегляд машини"
+
+msgid "contextMenu/showVehicleStatistics"
+msgstr "Перейти до статистики машини"
+
+msgid "contextMenu/takeArtilleryEquipmentCommander"
+msgstr "Забрати Артобстріл"
+
+msgid "contextMenu/takeInspireEquipmentCommander"
+msgstr "Забрати Наснагу"
+
+msgid "contextMenu/takeLeadership"
+msgstr "Забрати командування"
+
+msgid "contextMenu/telecomRent"
+msgstr "Показати прокатну техніку"
+
+msgid "contextMenu/unequip"
+msgstr "Вивантажити"
+
+msgid "contextMenu/unload"
+msgstr "Прибрати на Склад"
+
+msgid "contextMenu/unlock"
+msgstr "Дослідити"
+
+msgid "contextMenu/unlockSlot"
+msgstr "Розблокувати слот"
+
+msgid "contextMenu/unsetMuted"
+msgstr "Увімкнути голосові повідомлення"
+
+msgid "contextMenu/userInfo"
+msgstr "Досягнення гравця"
+
+msgid "contextMenu/userVehicleCompare"
+msgstr "Додати до порівняння"
+
+msgid "contextMenu/vehSkillTree"
+msgstr "До модернізації"
+
+msgid "contextMenu/vehicleBuy"
+msgstr "До купівлі"
+
+msgid "contextMenu/vehicleCheck"
+msgstr "Позначити як «основний»"
+
+msgid "contextMenu/vehicleInfo"
+msgstr "Про машину"
+
+msgid "contextMenu/vehicleInfoEx"
+msgstr "Про машину"
+
+msgid "contextMenu/vehiclePostProgression"
+msgstr "До Польової модернізації"
+
+msgid "contextMenu/vehiclePreview"
+msgstr "Попередній перегляд машини"
+
+msgid "contextMenu/vehicleRemove"
+msgstr "Прибрати"
+
+msgid "contextMenu/vehicleResearch"
+msgstr "Дослідження"
+
+msgid "contextMenu/vehicleRestore"
+msgstr "Перейти до відновлення"
+
+msgid "contextMenu/vehicleSell"
+msgstr "Продати"
+
+msgid "contextMenu/vehicleUncheck"
+msgstr "Зняти позначку «основний»"
+
+msgid "contextMenu/viewClanProfile"
+msgstr "Профіль клану"
+
+msgid "contextMenu/withdrawInvitationToSquad"
+msgstr "Відкликати запрошення до взводу"
+
+msgid "copy"
+msgstr "© 2009–2026 Wargaming.net. Усі права захищено."
+
+msgid "counter/newCounter"
+msgstr "НОВЕ"
+
+msgid "crystals/info/tab/earn/events/description"
+msgstr "Бони також можна здобути іншими способами:\n%(types)"
+
+msgid "crystals/info/tab/earn/events/descriptionContent"
+msgstr "у певних ігрових подіях, за виконані\nщоденні завдання, за участь у спеціальних акціях тощо."
+
+msgid "crystals/info/tab/earn/events/title"
+msgstr "БОНИ ЗА ПОДІЇ"
+
+msgid "crystals/info/tab/earn/level/description"
+msgstr "Бони здобуваються на досліджуваних танках (%(level10And11)) і преміум техніці (%(level9))\nз активним індикатором здобуття бонів у таких режимах:"
+
+msgid "crystals/info/tab/earn/level/descriptionContent/level10And11"
+msgstr "X-XI рівні"
+
+msgid "crystals/info/tab/earn/level/descriptionContent/level9"
+msgstr "IX рівня"
+
+msgid "crystals/info/tab/earn/level/mod/0"
+msgstr "Випадковий\nбій"
+
+msgid "crystals/info/tab/earn/level/title"
+msgstr "РІВЕНЬ ТЕХНІКИ"
+
+msgid "crystals/info/tab/earn/marker/description/1"
+msgstr "У кожної машини свій ліміт здобуття %(week)."
+
+msgid "crystals/info/tab/earn/marker/description/2"
+msgstr "Машини з можливістю здобувати бони позначають\nфіолетовим індикатором на нижній панелі Гаража."
+
+msgid "crystals/info/tab/earn/marker/description/3"
+msgstr "Ліміт анулюють раз на тиждень."
+
+msgid "crystals/info/tab/earn/marker/descriptionContent/week"
+msgstr "бон на тиждень"
+
+msgid "crystals/info/tab/earn/marker/title"
+msgstr "ІНДИКАТОР ЗДОБУТТЯ БОН"
+
+msgid "crystals/info/tab/earnTab"
+msgstr "Як здобути"
+
+msgid "crystals/info/tab/get/card/condition"
+msgstr "Умова"
+
+msgid "crystals/info/tab/get/card/defeat"
+msgstr "Поразка/нічия"
+
+msgid "crystals/info/tab/get/card/description"
+msgstr "Топ-%(position)s за досвідом"
+
+msgid "crystals/info/tab/get/card/win"
+msgstr "Перемога"
+
+msgid "crystals/info/tab/get/description"
+msgstr "Грайте у Випадкових боях на машинах з активним індикатором здобуття бонів. Що вище ваше місце в післябойовій статистиці за кількістю здобутого «чистого» досвіду, то більше бонів ви отримаєте за бій."
+
+msgid "crystals/info/tab/get/random"
+msgstr "ВИПАДКОВИЙ БІЙ"
+
+msgid "crystals/info/tab/getTab"
+msgstr "Умови додавання"
+
+msgid "crystals/info/tab/spend/card/instructions/description"
+msgstr "Збільшують ефект, який дає встановлене обладнання."
+
+msgid "crystals/info/tab/spend/card/instructions/title"
+msgstr "Передбойові настанови"
+
+msgid "crystals/info/tab/spend/card/price"
+msgstr "від  %(price)s"
+
+msgid "crystals/info/tab/spend/card/specialEquipment/description"
+msgstr "Поліпшує характеристики машини. Ефект більше, ніж у загального обладнання."
+
+msgid "crystals/info/tab/spend/card/specialEquipment/title"
+msgstr "Удосконалене\nобладнання"
+
+msgid "crystals/info/tab/spend/card/specialTanks/description"
+msgstr "Особлива техніка, яка доступна лише за бони."
+
+msgid "crystals/info/tab/spend/card/specialTanks/title"
+msgstr "Техніка за бони"
+
+msgid "crystals/info/tab/spend/card/toShop"
+msgstr "У Магазин"
+
+msgid "crystals/info/tab/spend/description"
+msgstr "За бони можна купувати спеціальну техніку, передбойові настанови для обладнання, а також удосконалене обладнання, яке значно поліпшує параметри машини."
+
+msgid "crystals/info/tab/spendTab"
+msgstr "На що витратити"
+
+msgid "crystals/info/title"
+msgstr "БОНИ"
+
+msgid "crystals/promoWindow/title"
+msgstr "Бони"
+
+msgid "cst_item_ctx_menu/activate"
+msgstr "Активувати"
+
+msgid "cst_item_ctx_menu/addToCompare"
+msgstr "Додати до порівняння"
+
+msgid "cst_item_ctx_menu/allowSale"
+msgstr "Виділити"
+
+msgid "cst_item_ctx_menu/autoprolongationOff"
+msgstr "Скасувати автопродовження"
+
+msgid "cst_item_ctx_menu/autoprolongationOn"
+msgstr "Продовжувати прокат"
+
+msgid "cst_item_ctx_menu/baseStyle"
+msgstr "Стандартний вигляд стилю"
+
+msgid "cst_item_ctx_menu/buy"
+msgstr "Купити"
+
+msgid "cst_item_ctx_menu/buyMore"
+msgstr "Докупити"
+
+msgid "cst_item_ctx_menu/convertBlueprint"
+msgstr "Створити один фрагмент"
+
+msgid "cst_item_ctx_menu/convertBlueprintMax"
+msgstr "Створити фрагменти"
+
+msgid "cst_item_ctx_menu/convertBlueprintMaxCount"
+msgstr "Створити фрагменти (%(count)d од.)"
+
+msgid "cst_item_ctx_menu/deconstruct"
+msgstr "Розібрати"
+
+msgid "cst_item_ctx_menu/demount"
+msgstr "Демонтувати на Склад"
+
+msgid "cst_item_ctx_menu/demountFromSetup"
+msgstr "Демонтувати з цього слота"
+
+msgid "cst_item_ctx_menu/demountFromSetups"
+msgstr "Демонтувати з усіх комплектацій"
+
+msgid "cst_item_ctx_menu/destroy"
+msgstr "Знищити"
+
+msgid "cst_item_ctx_menu/editStyle"
+msgstr "Змінити"
+
+msgid "cst_item_ctx_menu/exchange"
+msgstr "Обміняти"
+
+msgid "cst_item_ctx_menu/goToCollection"
+msgstr "Перейти в колекцію"
+
+msgid "cst_item_ctx_menu/information"
+msgstr "Інформація"
+
+msgid "cst_item_ctx_menu/nationChange"
+msgstr "Змінити націю"
+
+msgid "cst_item_ctx_menu/preview"
+msgstr "Попередній перегляд машини"
+
+msgid "cst_item_ctx_menu/previewCustomization"
+msgstr "Попередній перегляд"
+
+msgid "cst_item_ctx_menu/prohibitSale"
+msgstr "Зняти виділення"
+
+msgid "cst_item_ctx_menu/putOnFirst"
+msgstr "Помістити в слот №1"
+
+msgid "cst_item_ctx_menu/putOnSecond"
+msgstr "Помістити в слот №2"
+
+msgid "cst_item_ctx_menu/putOnThird"
+msgstr "Помістити в слот №3"
+
+msgid "cst_item_ctx_menu/remove"
+msgstr "Прибрати"
+
+msgid "cst_item_ctx_menu/removeFromTank"
+msgstr "Зняти з вибраної машини"
+
+msgid "cst_item_ctx_menu/removeFromTank/desert"
+msgstr "Зняти для пустельної мапи"
+
+msgid "cst_item_ctx_menu/removeFromTank/summer"
+msgstr "Зняти для літньої мапи"
+
+msgid "cst_item_ctx_menu/removeFromTank/winter"
+msgstr "Зняти для зимової мапи"
+
+msgid "cst_item_ctx_menu/rentRenew"
+msgstr "Продовжити прокат"
+
+msgid "cst_item_ctx_menu/restore"
+msgstr "Відновити"
+
+msgid "cst_item_ctx_menu/select"
+msgstr "Помістити в слот"
+
+msgid "cst_item_ctx_menu/sell"
+msgstr "Продати"
+
+msgid "cst_item_ctx_menu/showBlueprint"
+msgstr "До креслення"
+
+msgid "cst_item_ctx_menu/showInHangar"
+msgstr "Показати в Гаражі"
+
+msgid "cst_item_ctx_menu/showVehicleStatistics"
+msgstr "Перейти до статистики машини"
+
+msgid "cst_item_ctx_menu/styleInfo"
+msgstr "Інформація про стиль"
+
+msgid "cst_item_ctx_menu/takeOff"
+msgstr "Прибрати зі слоту"
+
+msgid "cst_item_ctx_menu/unload"
+msgstr "Вивантажити на Склад"
+
+msgid "cst_item_ctx_menu/upgrade"
+msgstr "Налагодити"
+
+msgid "currentVehicleStatus/ammoNotFull"
+msgstr "Неповний боєзапас"
+
+msgid "currentVehicleStatus/ammoNotFullEvents"
+msgstr "Неповний боєзапас"
+
+msgid "currentVehicleStatus/battle"
+msgstr "У бою"
+
+msgid "currentVehicleStatus/clanLocked"
+msgstr "?empty?"
+
+msgid "currentVehicleStatus/crewNotFull"
+msgstr "Неповний екіпаж"
+
+msgid "currentVehicleStatus/damaged"
+msgstr "Потрібен ремонт"
+
+msgid "currentVehicleStatus/dealIsOver"
+msgstr "Недоступно"
+
+msgid "currentVehicleStatus/destroyed"
+msgstr "Потрібен ремонт"
+
+msgid "currentVehicleStatus/disabled"
+msgstr "Недоступно"
+
+msgid "currentVehicleStatus/exploded"
+msgstr "Потрібен ремонт"
+
+msgid "currentVehicleStatus/fallout_broken"
+msgstr "Група не готова"
+
+msgid "currentVehicleStatus/fallout_max"
+msgstr "Група не готова"
+
+msgid "currentVehicleStatus/fallout_min"
+msgstr "Група не готова"
+
+msgid "currentVehicleStatus/fallout_only"
+msgstr "Не пасує"
+
+msgid "currentVehicleStatus/fallout_required"
+msgstr "Група не готова"
+
+msgid "currentVehicleStatus/group_is_not_ready"
+msgstr "Група не готова"
+
+msgid "currentVehicleStatus/igrRentalIsOver"
+msgstr "Акцію завершено"
+
+msgid "currentVehicleStatus/inPrebattle"
+msgstr "В формуванні"
+
+msgid "currentVehicleStatus/inPremiumIgrOnly"
+msgstr "Доступно лише в %(icon)s. До завершення акції %(time)s"
+
+msgid "currentVehicleStatus/isRentable"
+msgstr "Можливий прокат машини"
+
+msgid "currentVehicleStatus/locked"
+msgstr "?empty?"
+
+msgid "currentVehicleStatus/notValidVehicle"
+msgstr "Непридатна техніка"
+
+msgid "currentVehicleStatus/notpresent"
+msgstr "Потрібно\nкупити машину"
+
+msgid "currentVehicleStatus/rentable"
+msgstr "Можливий прокат машини"
+
+msgid "currentVehicleStatus/rentableAgain"
+msgstr "Продовжити прокат"
+
+msgid "currentVehicleStatus/rentalIsOver"
+msgstr "Термін прокату завершено"
+
+msgid "currentVehicleStatus/rotationGroupLocked"
+msgstr "Недоступно"
+
+msgid "currentVehicleStatus/rotationGroupUnlocked"
+msgstr "До бою готовий!"
+
+msgid "currentVehicleStatus/serverRestriction"
+msgstr "Серверне обмеження"
+
+msgid "currentVehicleStatus/subscription_suspended"
+msgstr "Підписка WoT Plus призупинена"
+
+msgid "currentVehicleStatus/undamaged"
+msgstr "До бою готовий!"
+
+msgid "currentVehicleStatus/unsuitableToQueue"
+msgstr "Не пасує"
+
+msgid "currentVehicleStatus/unsuitableToUnit"
+msgstr "Не пасує"
+
+msgid "currentVehicleStatus/waitingPlayer"
+msgstr "Не вистачає гравця"
+
+msgid "currentVehicleStatus/willBeUnlockedInBattle"
+msgstr "Розблокуються в бою"
+
+msgid "currentVehicleStatus/wot_plus_exclusive_vehicle_disabled"
+msgstr "Машина підписки WoT Plus недоступна"
+
+msgid "customization/title"
+msgstr "Вигляд зовні"
+
+msgid "dateTime/fromToWithYear"
+msgstr "з {fromDay} {fromMonth} по {toDay} {toMonth} {toYear} р."
+
+msgid "dateTime/months/1"
+msgstr "січня"
+
+msgid "dateTime/months/10"
+msgstr "жовтня"
+
+msgid "dateTime/months/11"
+msgstr "листопада"
+
+msgid "dateTime/months/12"
+msgstr "грудня"
+
+msgid "dateTime/months/2"
+msgstr "лютого"
+
+msgid "dateTime/months/3"
+msgstr "березня"
+
+msgid "dateTime/months/4"
+msgstr "квітня"
+
+msgid "dateTime/months/5"
+msgstr "травня"
+
+msgid "dateTime/months/6"
+msgstr "червня"
+
+msgid "dateTime/months/7"
+msgstr "липня"
+
+msgid "dateTime/months/8"
+msgstr "серпня"
+
+msgid "dateTime/months/9"
+msgstr "вересня"
+
+msgid "dateTime/months/full/1"
+msgstr "Січень"
+
+msgid "dateTime/months/full/10"
+msgstr "Жовтень"
+
+msgid "dateTime/months/full/11"
+msgstr "Листопад"
+
+msgid "dateTime/months/full/12"
+msgstr "Грудень"
+
+msgid "dateTime/months/full/2"
+msgstr "Лютий"
+
+msgid "dateTime/months/full/3"
+msgstr "Березень"
+
+msgid "dateTime/months/full/4"
+msgstr "Квітень"
+
+msgid "dateTime/months/full/5"
+msgstr "Трав."
+
+msgid "dateTime/months/full/6"
+msgstr "Червень"
+
+msgid "dateTime/months/full/7"
+msgstr "Липень"
+
+msgid "dateTime/months/full/8"
+msgstr "Серпень"
+
+msgid "dateTime/months/full/9"
+msgstr "Вересень"
+
+msgid "dateTime/months/fullSmall/1"
+msgstr "січень"
+
+msgid "dateTime/months/fullSmall/10"
+msgstr "жовтень"
+
+msgid "dateTime/months/fullSmall/11"
+msgstr "листопад"
+
+msgid "dateTime/months/fullSmall/12"
+msgstr "грудень"
+
+msgid "dateTime/months/fullSmall/2"
+msgstr "лютий"
+
+msgid "dateTime/months/fullSmall/3"
+msgstr "березень"
+
+msgid "dateTime/months/fullSmall/4"
+msgstr "квітень"
+
+msgid "dateTime/months/fullSmall/5"
+msgstr "травень"
+
+msgid "dateTime/months/fullSmall/6"
+msgstr "червень"
+
+msgid "dateTime/months/fullSmall/7"
+msgstr "липень"
+
+msgid "dateTime/months/fullSmall/8"
+msgstr "серпень"
+
+msgid "dateTime/months/fullSmall/9"
+msgstr "вересень"
+
+msgid "dateTime/months/short/1"
+msgstr "Січ."
+
+msgid "dateTime/months/short/10"
+msgstr "Жовт."
+
+msgid "dateTime/months/short/11"
+msgstr "Листоп."
+
+msgid "dateTime/months/short/12"
+msgstr "Груд."
+
+msgid "dateTime/months/short/2"
+msgstr "Лют."
+
+msgid "dateTime/months/short/3"
+msgstr "Берез."
+
+msgid "dateTime/months/short/4"
+msgstr "Квіт."
+
+msgid "dateTime/months/short/5"
+msgstr "Трав."
+
+msgid "dateTime/months/short/6"
+msgstr "Черв."
+
+msgid "dateTime/months/short/7"
+msgstr "Лип."
+
+msgid "dateTime/months/short/8"
+msgstr "Серп."
+
+msgid "dateTime/months/short/9"
+msgstr "Верес."
+
+msgid "dateTime/months/shortSmall/1"
+msgstr "січ."
+
+msgid "dateTime/months/shortSmall/10"
+msgstr "жовт."
+
+msgid "dateTime/months/shortSmall/11"
+msgstr "листоп."
+
+msgid "dateTime/months/shortSmall/12"
+msgstr "груд."
+
+msgid "dateTime/months/shortSmall/2"
+msgstr "лют."
+
+msgid "dateTime/months/shortSmall/3"
+msgstr "берез."
+
+msgid "dateTime/months/shortSmall/4"
+msgstr "квіт."
+
+msgid "dateTime/months/shortSmall/5"
+msgstr "трав."
+
+msgid "dateTime/months/shortSmall/6"
+msgstr "черв."
+
+msgid "dateTime/months/shortSmall/7"
+msgstr "лип."
+
+msgid "dateTime/months/shortSmall/8"
+msgstr "серп."
+
+msgid "dateTime/months/shortSmall/9"
+msgstr "верес."
+
+msgid "dateTime/order"
+msgstr "%(day)s %(month)s %(year)s"
+
+msgid "dateTime/shortDateFormatWithoutYear"
+msgstr "%(weekDay)s, %(month)s, %(monthDay)d-е число"
+
+msgid "dateTime/trade_in/undefined"
+msgstr "Неможливо показати час"
+
+msgid "dateTime/unlimited"
+msgstr "не визначено."
+
+msgid "dateTime/weekDays/full/1"
+msgstr "Понеділок"
+
+msgid "dateTime/weekDays/full/2"
+msgstr "Вівторок"
+
+msgid "dateTime/weekDays/full/3"
+msgstr "Середа"
+
+msgid "dateTime/weekDays/full/4"
+msgstr "Четвер"
+
+msgid "dateTime/weekDays/full/5"
+msgstr "П’ятниця"
+
+msgid "dateTime/weekDays/full/6"
+msgstr "Субота"
+
+msgid "dateTime/weekDays/full/7"
+msgstr "Неділя"
+
+msgid "dateTime/weekDays/short/1"
+msgstr "Пн."
+
+msgid "dateTime/weekDays/short/2"
+msgstr "Вт."
+
+msgid "dateTime/weekDays/short/3"
+msgstr "Ср."
+
+msgid "dateTime/weekDays/short/4"
+msgstr "Чт."
+
+msgid "dateTime/weekDays/short/5"
+msgstr "Пт."
+
+msgid "dateTime/weekDays/short/6"
+msgstr "Сб."
+
+msgid "dateTime/weekDays/short/7"
+msgstr "Нд."
+
+msgid "demonstrator/map/disabled"
+msgstr "Мапа недоступна\nдля вибраної машини"
+
+msgid "demonstrator/maps/label"
+msgstr "Мапа"
+
+msgid "demonstrator/window/any"
+msgstr "Випадково"
+
+msgid "demonstrator/window/button"
+msgstr "Знайти бій"
+
+msgid "demonstrator/window/lvl"
+msgstr "Пошук боїв за рівнем техніки:"
+
+msgid "demonstrator/window/spawn/green"
+msgstr "Зелена"
+
+msgid "demonstrator/window/spawn/red"
+msgstr "Червона"
+
+msgid "demonstrator/window/spawnLabel"
+msgstr "Вибір бази"
+
+msgid "demonstrator/window/title"
+msgstr "Попередні налаштування для Випадкових боїв"
+
+msgid "denunciation/1"
+msgstr "Неспортивна поведінка"
+
+msgid "denunciation/2"
+msgstr "Заборонений нік/клан"
+
+msgid "denunciation/3"
+msgstr "Бездіяльність/бот"
+
+msgid "denunciation/7"
+msgstr "Некоректна поведінка у чаті"
+
+msgid "descriptions/mutableDamageShell"
+msgstr "Середня шкода: %(avgMutableDamage)s"
+
+msgid "descriptions/mutableDamageShellFull"
+msgstr "Пробиття: %(avgPiercingPower)s мм\nСередня шкода: %(avgMutableDamage)s"
+
+msgid "descriptions/shell"
+msgstr "Середня шкода: %(avgDamage)s"
+
+msgid "descriptions/shellFull"
+msgstr "Пробиття: %(avgPiercingPower)s мм\nСередня шкода: %(avgDamage)s"
+
+msgid "descriptions/vehicle"
+msgstr "%(weight)s т; броня: до %(hullArmor)s мм; гармата: %(caliber)s мм"
+
+msgid "descriptions/vehicleChassis"
+msgstr "Швидкість повороту: до %(rotationSpeed)s град/с"
+
+msgid "descriptions/vehicleEngine"
+msgstr "Потужність: %(enginePower)s к. с.\nІмовірність пожежі у разі влучення: %(fireStartingChance)s"
+
+msgid "descriptions/vehicleGun"
+msgstr "%(reloadTime)s постр./хв; Середня шкода: %(avgDamageList)s\nСереднє пробивання: %(avgPiercingPower)s мм"
+
+msgid "descriptions/vehicleGun/autoReload"
+msgstr "Перезаряджання %(autoReloadTime)s с; Середня шкода: %(avgDamageList)s\nСереднє пробивання: %(avgPiercingPower)s мм"
+
+msgid "descriptions/vehicleGun/autoShoot"
+msgstr "%(continuousShotsPerMinute)s постр./хв. Середня шкода: %(avgDamageList)s\nСереднє пробиття: %(avgPiercingPower)s мм"
+
+msgid "descriptions/vehicleGun/dualGun"
+msgstr "Заряджання гармати: %(reloadTimeSecs)s с; Середня шкода: %(avgDamageList)s\nСереднє пробивання броні: %(avgPiercingPower)s мм"
+
+msgid "descriptions/vehicleGun/twinGun"
+msgstr "Заряджання гармати: %(reloadTimeSingleGun)s / %(reloadTimeTwinGun)s с. Середня шкода: %(avgDamageList)s од.\nСереднє пробивання броні: %(avgPiercingPower)s мм"
+
+msgid "descriptions/vehicleRadio"
+msgstr "Дальність зв’язку: до %(radioDistance)s м"
+
+msgid "descriptions/vehicleTurret"
+msgstr "Броня: %(armor)s мм; Обертання: %(rotationSpeed)s град/с\nОгляд: близько %(circularVisionRadius)s м"
+
+msgid "descriptions/vehicleWheeledChassis"
+msgstr "Максимальний кут повороту коліс: до %(maxSteeringLockAngle)s град"
+
+msgid "disconnect/codes/0"
+msgstr "<?empty?>"
+
+msgid "disconnect/codes/1001"
+msgstr "розсинхронізація інвентарю, пов’язана з компонентом «Техніка» (код 1001)"
+
+msgid "disconnect/codes/1002"
+msgstr "розсинхронізація інвентарю, пов’язана з компонентом «Шасі» (код 1002)"
+
+msgid "disconnect/codes/1003"
+msgstr "розсинхронізація інвентарю, пов’язана з компонентом «Башта» (код 1003)"
+
+msgid "disconnect/codes/1004"
+msgstr "розсинхронізація інвентарю, пов’язана з компонентом «Гармата» (код 1004)"
+
+msgid "disconnect/codes/1005"
+msgstr "розсинхронізація інвентарю, пов’язана з компонентом «Двигун» (код 1005)"
+
+msgid "disconnect/codes/1006"
+msgstr "розсинхронізація інвентарю, пов’язана з компонентом «Паливні баки» (код 1006)"
+
+msgid "disconnect/codes/1007"
+msgstr "розсинхронізація інвентарю, пов’язана з компонентом «Рація» (код 1007)"
+
+msgid "disconnect/codes/1008"
+msgstr "розсинхронізація інвентарю, пов’язана з компонентом «Екіпаж» (код 1008)"
+
+msgid "disconnect/codes/1009"
+msgstr "розсинхронізація інвентарю, пов’язана з компонентом «Обладнання» (код 1009)"
+
+msgid "disconnect/codes/1010"
+msgstr "розсинхронізація інвентарю, пов’язана з компонентом «Боєзапас» (код 1010)"
+
+msgid "disconnect/codes/1011"
+msgstr "розсинхронізація інвентарю, пов’язана з компонентом «Спорядження» (код 1011)"
+
+msgid "disconnect/codes/1012"
+msgstr "розсинхронізація інвентарю, пов’язана з компонентом «Екіпаж» (код 1012)"
+
+msgid "disconnect/codes/1013"
+msgstr "розсинхронізація інвентарю, пов’язана з компонентом «Зміна зовнішнього вигляду» (код 1013)"
+
+msgid "disconnect/codes/1014"
+msgstr "розсинхронізація досліджених компонентів (код 1014)"
+
+msgid "discount/description/pet"
+msgstr "%(effectValue)s від вартості улюбленця"
+
+msgid "discount/description/vehicle"
+msgstr "знижка %(effectValue)s на купівлю %(targetName)s"
+
+msgid "discount/userName/vehicle"
+msgstr "Персональна знижка на купівлю техніки"
+
+msgid "epicTraining/title"
+msgstr "Тренувальний бій на Лінії фронту"
+
+msgid "epic_training/create/title"
+msgstr "Створення тренувальної кімнати для Лінії фронту"
+
+msgid "epic_training/info/settings/title"
+msgstr "Налаштування тренувальної кімнати для Лінії фронту"
+
+msgid "exchange/cancel"
+msgstr "Скасувати"
+
+msgid "exchange/no_gold"
+msgstr "У вас не вистачає золота для обміну."
+
+msgid "exchange/onhand"
+msgstr "Наявний баланс:"
+
+msgid "exchange/rate"
+msgstr "Курс обміну:"
+
+msgid "exchange/result"
+msgstr "Після обміну:"
+
+msgid "exchange/submit"
+msgstr "Обміняти"
+
+msgid "exchange/title"
+msgstr "Обмін золота"
+
+msgid "exchange/toexchange"
+msgstr "До обміну:"
+
+msgid "exchangeXP/available"
+msgstr "Досвіду доступно:"
+
+msgid "exchangeXP/available/forFree/label"
+msgstr "  безкоштовно до "
+
+msgid "exchangeXP/available/forFree/value"
+msgstr "%(icon)s%(forFree)s"
+
+msgid "exchangeXP/cancel"
+msgstr "Скасувати"
+
+msgid "exchangeXP/change"
+msgstr "Конвертувати у вільний досвід ({%d} за {%d}):"
+
+msgid "exchangeXP/pay"
+msgstr "До сплати:"
+
+msgid "exchangeXP/submit"
+msgstr "Конвертувати"
+
+msgid "exchangeXP/title"
+msgstr "Конвертація у вільний досвід"
+
+msgid "extraParams/desc"
+msgstr "Параметр, який не впливає безпосередньо на ефективність знищення супротивника."
+
+msgid "extraParams/header"
+msgstr "Бонус %(paramName)s"
+
+msgid "extraParams/multiDesc"
+msgstr "Загальний бонус обчислюється з урахуванням як адитивних, так і мультиплікативних модифікаторів, тому підсумкове значення може бути як вищим, так і нижчим за наведене тут."
+
+msgid "extraParams/name/artNotificationDelayFactor"
+msgstr "Параметр, що відповідає за час, який проходить з моменту пострілу САУ до моменту отримання попередження."
+
+msgid "extraParams/name/commanderLampDelay"
+msgstr "Параметр, який відповідає за затримку перед тим, як командир визначить, що супротивник виявив вашу техніку. Що більше значення, то коротша затримка."
+
+msgid "extraParams/name/crewHitChance"
+msgstr "Параметр, який відповідає за шанс уникнення поранення членами екіпажу."
+
+msgid "extraParams/name/crewRepeatedStunDuration"
+msgstr "Параметр, який відповідає за час додаткового оглушення екіпажу для вже оглушеної машини."
+
+msgid "extraParams/name/crewStunDuration"
+msgstr "Параметр, який відповідає за час оглушення, яке ви зазнаєте."
+
+msgid "extraParams/name/damageAndPiercingDistributionLowerBound"
+msgstr "Параметр, що відповідає за зміну нижнього порогу розкиду шкоди та бронепробиття відносно базового значення (-25%)."
+
+msgid "extraParams/name/damageAndPiercingDistributionUpperBound"
+msgstr "Параметр, що відповідає за зміну верхнього порогу розкиду шкоди та бронепробиття відносно базового значення (+25%)."
+
+msgid "extraParams/name/damageEnemiesByRamming"
+msgstr "Параметр, що відповідає за шкоду, яка завдається тараном. Під час зіткнення машин враховується товщина броні в точці удару, різниця в масі, а також швидкість машин."
+
+msgid "extraParams/name/damagedModulesDetectionTime"
+msgstr "Параметр, що відповідає за затримку, через яку командир визначає критичні пошкодження машини супротивника, на яку наведено приціл."
+
+msgid "extraParams/name/demaskFoliageFactor"
+msgstr "Параметр, який відповідає за демаскування повністю прихованого рослинністю супротивника (як поодиноким елементом рослинності, так і численними). Застосовують як до нерухомих машин, так і до рухомих."
+
+msgid "extraParams/name/demaskMovingFactor"
+msgstr "Параметр, який відповідає за демаскування рухомих машин супротивника. Що більше значення, то простіше виявлення."
+
+msgid "extraParams/name/enemyModulesCrewCritChance"
+msgstr "Параметр, що відповідає за зміну шансу завдати критичних пошкоджень екіпажу й модулям супротивника. Ефект працює для всіх типів снарядів на будь-якій техніці, окрім машин із автоматичними гарматами."
+
+msgid "extraParams/name/equipmentPreparationTime"
+msgstr "Параметр, що відповідає за час підготовки спорядження після використання."
+
+msgid "extraParams/name/fireExtinguishingRate"
+msgstr "Параметр, що відповідає за зменшення тривалості пожежі та шкоди від неї."
+
+msgid "extraParams/name/foliageMaskingFactor"
+msgstr "Параметр, що відповідає за силу ефекту маскування від рослинності."
+
+msgid "extraParams/name/hpRecover"
+msgstr "Цей параметр показує збільшення кількості очок міцності, що відновлюються під час використання ремкомплекту. Що вище значення, то більше міцності буде відновлено."
+
+msgid "extraParams/name/mediumGroundFactor"
+msgstr "Параметр, який відповідає за якість зчеплення шасі з поверхнею під час перетинання середніх ґрунтів. Що вище значення, то швидше набиратиметься лінійна швидкість."
+
+msgid "extraParams/name/penaltyToDamagedSurveyingDevice"
+msgstr "Параметр, що відповідає за зниження штрафу до максимальної дальності огляду в разі знищення приладів спостереження. Що нижче значення, то ліпший огляд."
+
+msgid "extraParams/name/piercingHEShellsDistributionUpperBound"
+msgstr "Цей параметр показує збільшення верхнього порогу пробиття снарядів на дистанції менше як 50 м. Що вище значення, то краще пробиття."
+
+msgid "extraParams/name/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "Параметр, що відповідає за час остаточного передавання даних щодо позицій супротивника після знищення власної машини."
+
+msgid "extraParams/name/radiomanHitChance"
+msgstr "Параметр, що відповідає за шанс уникнути поранень радистом."
+
+msgid "extraParams/name/shellVelocity"
+msgstr "Параметр, який відповідає за збільшення швидкості польоту снарядів усіх типів. Що більше значення, то вища швидкість."
+
+msgid "extraParams/name/softGroundFactor"
+msgstr "Параметр, який відповідає за якість зчеплення шасі з поверхнею під час перетинання грузьких ґрунтів. Що вище значення, то швидше набиратиметься лінійна швидкість."
+
+msgid "extraParams/name/stunResistanceEffectFactor"
+msgstr "Параметр, що відповідає за силу негативного ефекту під час оглушення екіпажу."
+
+msgid "extraParams/name/suspensionDamageReduction"
+msgstr "Цей параметр показує зменшення шкоди, якої зазнає шасі. Що вище значення, то менше шкоди буде отримано."
+
+msgid "extraParams/name/vehPenaltyForDamagedAmmorack"
+msgstr "Параметр, який відповідає за зниження штрафу до часу перезаряджання в разі пошкодження боєукладки. Що більше значення, то швидше перезаряджання."
+
+msgid "extraParams/name/vehPenaltyForDamagedEngine"
+msgstr "Параметр, який відповідає за втрату потужності двигуна в разі його пошкодження. Що більше значення, то менше потужності втрачає двигун."
+
+msgid "extraParams/name/vehicleAmmoBayEngineFuelStrength"
+msgstr "Параметр, який відповідає за міцність боєукладки, паливних баків і двигуна. Більше значення ускладнює їхнє пошкодження."
+
+msgid "extraParams/name/vehicleAmmoBayStrength"
+msgstr "Параметр, що відповідає за міцність боєукладки. Що вище значення, то складніше її пошкодити."
+
+msgid "extraParams/name/vehicleChassisFallDamage"
+msgstr "Параметр, який відповідає за шкоду, яку зазнає техніка в разі падінні на шасі. Не змінює шкоди в разі падіння на борт/дах."
+
+msgid "extraParams/name/vehicleChassisRepairSpeed"
+msgstr "Параметр, який відповідає за швидкість ремонту шасі. Що більше значення, то швидше ремонт."
+
+msgid "extraParams/name/vehicleChassisStrength"
+msgstr "Параметр, який відповідає за міцність шасі. Більше значення ускладнює її пошкодження як від снарядів, так і від падіння/тарана."
+
+msgid "extraParams/name/vehicleEnemySpottingTime"
+msgstr "Параметр, який відповідає за час, протягом якого супротивник залишається видимим для команди після втрати прямої видимості. Значення за замовчуванням — 10 секунд."
+
+msgid "extraParams/name/vehicleFallingDamageResistance"
+msgstr "Параметр, який відповідає за зниження шкоди, отримуваної в разі падіння. Що більше значення, то меншої шкоди зазнає машина."
+
+msgid "extraParams/name/vehicleFireChance"
+msgstr "Параметр, що відповідає за шанс загоряння двигуна, якщо його пошкоджено."
+
+msgid "extraParams/name/vehicleFuelTankLesionChance"
+msgstr "Параметр, що відповідає за захист паливних баків від критичного пошкодження. Паливні баки, які втратили всі очки міцності, гарантовано викликають пожежу."
+
+msgid "extraParams/name/vehicleGunShotDispersion"
+msgstr "Параметр, який відповідає за погіршення влучності під час руху, повороту корпусу та башти. Що менше значення, то менше розлітання кола зведення."
+
+msgid "extraParams/name/vehicleGunShotDispersionAfterShot"
+msgstr "Параметр, що відповідає за розмір кола зведення після пострілу."
+
+msgid "extraParams/name/vehicleGunShotDispersionChassisMovement"
+msgstr "Параметр, що відповідає за збільшення кола зведення під час руху машини. Що нижче значення, то комфортніша стрільба."
+
+msgid "extraParams/name/vehicleGunShotDispersionChassisRotation"
+msgstr "Параметр, що відповідає за збільшення кола зведення під час повороту корпусу. Що нижче значення, то комфортніша стрільба."
+
+msgid "extraParams/name/vehicleGunShotDispersionTurretRotation"
+msgstr "Параметр, що відповідає за збільшення кола зведення під час наведення гармати. Що нижче значення, то комфортніша стрільба."
+
+msgid "extraParams/name/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "Параметр, що відповідає за те, наскільки зменшується влучність гармати в пошкодженому стані. Що вище значення, то менший штраф."
+
+msgid "extraParams/name/vehicleHEShellDamageResistance"
+msgstr "Параметр, який відповідає за отримувану від ОФ-снарядів шкоду. Що більше броні в місці влучання, то сильніший ефект."
+
+msgid "extraParams/name/vehicleInvisibilityAfterShot"
+msgstr "Параметр, що відповідає за скритість після пострілу."
+
+msgid "extraParams/name/vehicleOwnSpottingTime"
+msgstr "Параметр, що відповідає за час видимості вашої машини після її виходу з зони прямої видимості супротивника. Значення за замовчуванням — 10 секунд."
+
+msgid "extraParams/name/vehicleRamChassisDamageResistance"
+msgstr "Параметр, що відповідає за шкоду шасі, яка завдається тараном. Під час зіткнення машин враховується товщина броні в точці удару, різниця в масі, а також швидкість машин."
+
+msgid "extraParams/name/vehicleRamDamageResistance"
+msgstr "Параметр, що відповідає за шкоду, яка завдається тараном. Під час зіткнення машин враховується товщина броні в точці удару, різниця в масі, а також швидкість машин."
+
+msgid "extraParams/name/vehicleReloadTimeAfterShellChange"
+msgstr "Параметр, що відповідає за швидкість зміни типу снаряда в уже зарядженій гарматі."
+
+msgid "extraParams/name/vehicleRepairSpeed"
+msgstr "Параметр, що відповідає за швидкість ремонту внутрішніх та зовнішніх модулів машини з «червоного» стану в «жовтий». Що вище значення, то швидший ремонт."
+
+msgid "extraParams/name/vehicleSpeedGain"
+msgstr "Параметр, який відповідає за якість зчеплення шасі з поверхнею. Що вище значення, то швидше набиратиметься лінійна швидкість."
+
+msgid "extraParams/name/wheelsRotationSpeed"
+msgstr "Параметр, що відповідає за швидкість зміни напрямку руху колісної машини."
+
+msgid "extraParams/name/woundedCrewEfficiency"
+msgstr "Параметр, що знижує штраф до основної спеціальності будь-якого члена екіпажу з його пораненням (крім командира)."
+
+msgid "finalStatistic/commonStats/resultlabel/ended"
+msgstr "Бій завершено"
+
+msgid "finalStatistic/commonStats/resultlabel/lose"
+msgstr "Поразка"
+
+msgid "finalStatistic/commonStats/resultlabel/techWin"
+msgstr "Технічна перемога"
+
+msgid "finalStatistic/commonStats/resultlabel/tie"
+msgstr "Нічия"
+
+msgid "finalStatistic/commonStats/resultlabel/win"
+msgstr "Перемога!"
+
+msgid "finalStatistic/tabs/commonStats"
+msgstr "Особистий результат"
+
+msgid "finalStatistic/tabs/detailsStats"
+msgstr "Докладний звіт"
+
+msgid "finalStatistic/tabs/epicStats"
+msgstr "Особистий результат"
+
+msgid "finalStatistic/tabs/teamStats"
+msgstr "Командний результат"
+
+msgid "finalStatistic/window/title"
+msgstr "Результати бою"
+
+msgid "fittingListItemRenderer/replace"
+msgstr "Поміняти спорядження місцями"
+
+msgid "fittingListItemRenderer/unload"
+msgstr "Прибрати на Склад"
+
+msgid "fittingPopover/manageAbilities"
+msgstr "Керування резервами"
+
+msgid "fittingSelectPopover/descText"
+msgstr "Це обладнання можна купувати за %(currencyName)s. Щоб купити, перейдіть на закладку «Удосконалене»."
+
+msgid "fittingSelectPopover/descText/crystal"
+msgstr "бони"
+
+msgid "fortification/installName"
+msgstr "Встановлено"
+
+msgid "fortification/unloadName"
+msgstr "Вивантажити"
+
+msgid "fortificationCtx/assignedPlayers"
+msgstr "Закріплені гравці"
+
+msgid "fortificationCtx/clanDescription/clanCrew"
+msgstr "Склад клану"
+
+msgid "fortificationCtx/clanDescription/clanStatistics"
+msgstr "Статистика клану"
+
+msgid "fortificationCtx/clanDescription/openClanCard"
+msgstr "Відкрити карточку клану"
+
+msgid "fortificationCtx/prepareOrder"
+msgstr "Підготувати резерв"
+
+msgid "hangar/ammunitionPanel/easyTankEquipBtn"
+msgstr "Швидкий сервіс"
+
+msgid "hangar/ammunitionPanel/maitenanceBtn"
+msgstr "Ремонт"
+
+msgid "hangar/ammunitionPanel/nationChangeBtn"
+msgstr "Зміна нації"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/checkboxAuto"
+msgstr "Поповнювати автоматично"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/label"
+msgstr "Боєзапас"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/list/buy"
+msgstr "Докупити"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/list/inventory"
+msgstr "На Складі"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/list/price"
+msgstr "Вартість"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/not_ready"
+msgstr "Завантажте повний боєзапас,\nщоб вступити у бій."
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/ammo"
+msgstr "Поповнити"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/apply"
+msgstr "Прийняти"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/close"
+msgstr "Закрити"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/equipment"
+msgstr "Поповнити"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/labelTotal"
+msgstr "Разом:"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/repair"
+msgstr "Ремонтувати"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/checkboxAuto"
+msgstr "Поповнювати автоматично"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/label"
+msgstr "Спорядження"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/list/buy"
+msgstr "Докупити"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/list/inventory"
+msgstr "На Складі"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/list/price"
+msgstr "Вартість"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipmentDisabled"
+msgstr "Змінити спорядження для цієї машини неможливо"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/repair/checkboxAuto"
+msgstr "Ремонтувати автоматично"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/repair/label"
+msgstr "Ремонт"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/title"
+msgstr "Обслуговування"
+
+msgid "hangar/ammunitionPanel/tuningBtn"
+msgstr "Вигляд зовні"
+
+msgid "hangar/crew/rody/dog/moreInfoLabel"
+msgstr "Докладно"
+
+msgid "hangar/crew/rody/dog/poland/name"
+msgstr "Szarik"
+
+msgid "hangar/crew/rody/dog/ussr/name"
+msgstr "Шарик"
+
+msgid "hangar/crew/tooltip/drop_skill"
+msgstr "Натисніть, щоб видалити спеціальність."
+
+msgid "hangar/crew/tooltip/new_skill"
+msgstr "Натисніть, щоб вивчити додаткову спеціальність."
+
+msgid "hangar/vehicle_locked"
+msgstr "Машина заблокована"
+
+msgid "hangar/xpToTmenCheckbox/tooltip"
+msgstr "Увесь здобутий на машині досвід буде використаний на навчання танкістів. Менш досвідчений член екіпажу буде навчатися у два рази швидше."
+
+msgid "hangar_header/battle_quests_label/active"
+msgstr "%(total)s"
+
+msgid "hangar_header/battle_quests_label/inactive"
+msgstr "?empty?"
+
+msgid "hangar_header/mapbox_progression_label/active"
+msgstr "%(total)s"
+
+msgid "hangar_header/mapbox_progression_label/inactive"
+msgstr "?empty?"
+
+msgid "hangar_header/million"
+msgstr "%(value)s М"
+
+msgid "hangar_header/personal_quests_label/active"
+msgstr "#%(current)s"
+
+msgid "hangar_header/personal_quests_label/all_done"
+msgstr "%(icon)s"
+
+msgid "hangar_header/personal_quests_label/empty"
+msgstr "- -"
+
+msgid "hangar_header/personal_quests_label/inactive"
+msgstr "?empty?"
+
+msgid "header/account/popover/achieves/battles"
+msgstr "Бої"
+
+msgid "header/account/popover/achieves/rating"
+msgstr "Особистий рейтинг"
+
+msgid "header/account/popover/achieves/wins"
+msgstr "Перемоги"
+
+msgid "header/account/popover/boosters/blockTitle"
+msgstr "Особисті резерви"
+
+msgid "header/account/popover/clan/clanInvite"
+msgstr "Запрошення до клану"
+
+msgid "header/account/popover/clan/enabled/btnLabel"
+msgstr "Профіль клану"
+
+msgid "header/account/popover/clan/header"
+msgstr "Клан"
+
+msgid "header/account/popover/clan/not_enabled/btnLabel"
+msgstr "Статистика клану"
+
+msgid "header/account/popover/clan/position/commander"
+msgstr "Командир підрозділу"
+
+msgid "header/account/popover/clan/position/diplomat"
+msgstr "Офіцер розвідки"
+
+msgid "header/account/popover/clan/position/junior"
+msgstr "Молодший офіцер"
+
+msgid "header/account/popover/clan/position/leader"
+msgstr "Командувач"
+
+msgid "header/account/popover/clan/position/private"
+msgstr "Рядовий"
+
+msgid "header/account/popover/clan/position/recruit"
+msgstr "Новобранець"
+
+msgid "header/account/popover/clan/position/recruiter"
+msgstr "Офіцер з кадрів"
+
+msgid "header/account/popover/clan/position/reservist"
+msgstr "Резервіст"
+
+msgid "header/account/popover/clan/position/staff"
+msgstr "Офіцер штабу"
+
+msgid "header/account/popover/clan/position/treasurer"
+msgstr "Офіцер забезпечення"
+
+msgid "header/account/popover/clan/position/vice_leader"
+msgstr "Заступник командувача"
+
+msgid "header/account/popover/clan/searchClan1"
+msgstr "Знайти клан"
+
+msgid "header/account/popover/clan/searchClan2"
+msgstr "Пошук клану"
+
+msgid "header/account/popover/crew/btnLabel"
+msgstr "Профіль команди"
+
+msgid "header/account/popover/crew/header"
+msgstr "Команда"
+
+msgid "header/account/popover/crew/position/commander"
+msgstr "Командир підрозділу"
+
+msgid "header/account/popover/crew/position/diplomat"
+msgstr "Офіцер розвідки"
+
+msgid "header/account/popover/crew/position/leader"
+msgstr "Командувач"
+
+msgid "header/account/popover/crew/position/private"
+msgstr "Рядовий"
+
+msgid "header/account/popover/crew/position/recruit"
+msgstr "Новобранець"
+
+msgid "header/account/popover/crew/position/recruiter"
+msgstr "Офіцер з кадрів"
+
+msgid "header/account/popover/crew/position/treasurer"
+msgstr "Офіцер забезпечення"
+
+msgid "header/account/popover/crew/position/vice_leader"
+msgstr "Заступник командувача"
+
+msgid "header/account/popover/crewButton/disabledTooltip"
+msgstr "Профіль команди стане доступним після завантаження частини гри, що залишилася."
+
+msgid "header/account/popover/stats/fights"
+msgstr "Бої"
+
+msgid "header/account/popover/stats/rating"
+msgstr "Особистий рейтинг"
+
+msgid "header/account/popover/stats/ratio"
+msgstr "Перемоги"
+
+msgid "header/account/popover/toAllProgress"
+msgstr "Досягнення"
+
+msgid "header/account/popover/tutorial/newBadge"
+msgstr "ЗДОБУТО НАШИВКУ"
+
+msgid "header/account/popover/tutorial/newSuffixBadge"
+msgstr "ДОСТУПНИЙ БАНЕР"
+
+msgid "header/account/premium/days"
+msgstr "дб"
+
+msgid "header/account/premium/hours"
+msgstr "год"
+
+msgid "header/customization/season/desert"
+msgstr "ПУСТЕЛЬНИЙ"
+
+msgid "header/customization/season/summer"
+msgstr "ЛІТНІЙ"
+
+msgid "header/customization/season/winter"
+msgstr "ЗИМОВИЙ"
+
+msgid "header/demonstration/btnLabel"
+msgstr "Налаштувати"
+
+msgid "header/demonstration/info"
+msgstr "Попередні налаштування для Випадкових боїв"
+
+msgid "header/level"
+msgstr "рівень. %(vTypeName)s"
+
+msgid "header/level/1"
+msgstr "I"
+
+msgid "header/level/10"
+msgstr "X"
+
+msgid "header/level/11"
+msgstr "XI"
+
+msgid "header/level/2"
+msgstr "II"
+
+msgid "header/level/3"
+msgstr "III"
+
+msgid "header/level/4"
+msgstr "IV"
+
+msgid "header/level/5"
+msgstr "V"
+
+msgid "header/level/6"
+msgstr "VI"
+
+msgid "header/level/7"
+msgstr "VII"
+
+msgid "header/level/8"
+msgstr "VIII"
+
+msgid "header/level/9"
+msgstr "IX"
+
+msgid "header/notificationSign"
+msgstr "!"
+
+msgid "header/serverInfo"
+msgstr "Сервер"
+
+msgid "header/vehicleType/AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "header/vehicleType/Alliance-France"
+msgstr "Франція, Чехословаччина, Швеція, Італія"
+
+msgid "header/vehicleType/Alliance-Germany"
+msgstr "Німеччина, Японія"
+
+msgid "header/vehicleType/Alliance-USA"
+msgstr "США, Великобританія, Польща"
+
+msgid "header/vehicleType/Alliance-USSR"
+msgstr "СРСР, Китай"
+
+msgid "header/vehicleType/SPG"
+msgstr "САУ"
+
+msgid "header/vehicleType/elite/AT-SPG"
+msgstr "Елітна ПТ-САУ"
+
+msgid "header/vehicleType/elite/SPG"
+msgstr "Елітна САУ"
+
+msgid "header/vehicleType/elite/heavyTank"
+msgstr "Елітний важкий танк"
+
+msgid "header/vehicleType/elite/lightTank"
+msgstr "Елітний легкий танк"
+
+msgid "header/vehicleType/elite/mediumTank"
+msgstr "Елітний середній танк"
+
+msgid "header/vehicleType/heavyTank"
+msgstr "Важкий танк"
+
+msgid "header/vehicleType/lightTank"
+msgstr "Легкий танк"
+
+msgid "header/vehicleType/mediumTank"
+msgstr "Середній танк"
+
+msgid "header/wotPlusExclusiveVehicleType/AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "header/wotPlusExclusiveVehicleType/Alliance-France"
+msgstr "Франція, Чехословаччина, Швеція, Італія"
+
+msgid "header/wotPlusExclusiveVehicleType/Alliance-Germany"
+msgstr "Німеччина, Японія"
+
+msgid "header/wotPlusExclusiveVehicleType/Alliance-USA"
+msgstr "США, Великобританія, Польща"
+
+msgid "header/wotPlusExclusiveVehicleType/Alliance-USSR"
+msgstr "СРСР, Китай"
+
+msgid "header/wotPlusExclusiveVehicleType/SPG"
+msgstr "САУ"
+
+msgid "header/wotPlusExclusiveVehicleType/heavyTank"
+msgstr "Важкий танк"
+
+msgid "header/wotPlusExclusiveVehicleType/lightTank"
+msgstr "Легкий танк"
+
+msgid "header/wotPlusExclusiveVehicleType/mediumTank"
+msgstr "Середній танк"
+
+msgid "headerButtons/account/accountRefill"
+msgstr "Купити золото"
+
+msgid "headerButtons/account/expGathering"
+msgstr "Конвертація досвіду"
+
+msgid "headerButtons/account/goldExchange"
+msgstr "Обмін золота"
+
+msgid "headerButtons/account/premium"
+msgstr "Продовжити"
+
+msgid "headerButtons/barracks"
+msgstr "Казарма"
+
+msgid "headerButtons/battle/availableSince"
+msgstr "Доступно з: %(datetime)s"
+
+msgid "headerButtons/battle/availableSinceSoon"
+msgstr "Доступно через: %(time)s"
+
+msgid "headerButtons/battle/availableUntil"
+msgstr "Доступно до: %(datetime)s"
+
+msgid "headerButtons/battle/availableUntilSoon"
+msgstr "До закінчення: %(time)s"
+
+msgid "headerButtons/battle/button/battle"
+msgstr "До бою!"
+
+msgid "headerButtons/battle/menu/attention/lowPerformance"
+msgstr "Мала продуктивність"
+
+msgid "headerButtons/battle/menu/attention/reducedPerformance"
+msgstr "Мала продуктивність"
+
+msgid "headerButtons/battle/menu/battle_session"
+msgstr "Спеціальний бій"
+
+msgid "headerButtons/battle/menu/epicBattle"
+msgstr "Лінія фронту"
+
+msgid "headerButtons/battle/menu/event"
+msgstr "«Конвой»"
+
+msgid "headerButtons/battle/menu/fallout"
+msgstr "«Бій до останнього»"
+
+msgid "headerButtons/battle/menu/fallout/14"
+msgstr "«Перевага»"
+
+msgid "headerButtons/battle/menu/fallout/15"
+msgstr "«Сталеве полювання»"
+
+msgid "headerButtons/battle/menu/historical"
+msgstr "Історичний бій"
+
+msgid "headerButtons/battle/menu/squad"
+msgstr "Взвод"
+
+msgid "headerButtons/battle/menu/standart"
+msgstr "Випадковий бій"
+
+msgid "headerButtons/battle/menu/training"
+msgstr "Тренувальний бій"
+
+msgid "headerButtons/battle/menu/unit"
+msgstr "Командний бій"
+
+msgid "headerButtons/battle/modeInfo"
+msgstr "{{mode}}"
+
+msgid "headerButtons/battle/types/battleRoyale"
+msgstr "Сталевий мисливець"
+
+msgid "headerButtons/battle/types/battleRoyale/extra/currentCycle"
+msgstr "Сезон %(season)s, епізод %(cycle)s"
+
+msgid "headerButtons/battle/types/battleRoyale/extra/finished"
+msgstr "Сезон завершено"
+
+msgid "headerButtons/battle/types/battleRoyale/extra/frozen"
+msgstr "Режим тимчасово вимкнено"
+
+msgid "headerButtons/battle/types/battleRoyale/extra/startsAt"
+msgstr "%(time)s"
+
+msgid "headerButtons/battle/types/battleRoyaleSquad"
+msgstr "Взвод мисливців"
+
+msgid "headerButtons/battle/types/battleRoyaleSquad/description"
+msgstr "Створити взвод із 2 гравців"
+
+msgid "headerButtons/battle/types/comp7LightSquad"
+msgstr "Створити взвод для Натиску Лайт"
+
+msgid "headerButtons/battle/types/comp7Squad"
+msgstr "Створити взвод Натиск"
+
+msgid "headerButtons/battle/types/epic"
+msgstr "Лінія фронту"
+
+msgid "headerButtons/battle/types/epic/descr"
+msgstr "Режим з автоматичним добинням союзників для гри проти випадкових супротивників."
+
+msgid "headerButtons/battle/types/epic/extra/frozen"
+msgstr "Режим вимкнено"
+
+msgid "headerButtons/battle/types/epic/extra/startsAt"
+msgstr "З %(time)s"
+
+msgid "headerButtons/battle/types/epicBattle"
+msgstr "Режим очікування Лінії фронту"
+
+msgid "headerButtons/battle/types/epicBattle/descr"
+msgstr "Увійти в режим очікування Лінії фронту"
+
+msgid "headerButtons/battle/types/epicTraining"
+msgstr "Тренувальний бій"
+
+msgid "headerButtons/battle/types/epicTraining/descr"
+msgstr "Лінія фронту"
+
+msgid "headerButtons/battle/types/event"
+msgstr "Бій події"
+
+msgid "headerButtons/battle/types/eventSquad"
+msgstr "Івентний взвод"
+
+msgid "headerButtons/battle/types/fallout"
+msgstr "«Бій до останнього»"
+
+msgid "headerButtons/battle/types/fort"
+msgstr "Укріпрайон: битви"
+
+msgid "headerButtons/battle/types/fortLeave"
+msgstr "Укріпрайон: битви"
+
+msgid "headerButtons/battle/types/historicalBattles"
+msgstr "Історичний бій"
+
+msgid "headerButtons/battle/types/historicalBattles/descr"
+msgstr "Реконструкція значущих танкових боїв."
+
+msgid "headerButtons/battle/types/historicalBattlesLeave"
+msgstr "Історичний бій"
+
+msgid "headerButtons/battle/types/historicalBattlesLeave/descr"
+msgstr "Натисніть, щоб покинути режим."
+
+msgid "headerButtons/battle/types/leaveFort/descr"
+msgstr "Натисніть, щоб покинути режим."
+
+msgid "headerButtons/battle/types/leaveSpec/descr"
+msgstr "Натисніть, щоб покинути режим."
+
+msgid "headerButtons/battle/types/leaveTraining/descr"
+msgstr "Натисніть, щоб покинути режим."
+
+msgid "headerButtons/battle/types/leaveUnit/descr"
+msgstr "Натисніть, щоб покинути режим."
+
+msgid "headerButtons/battle/types/mapbox"
+msgstr "Розвідка боєм"
+
+msgid "headerButtons/battle/types/mapbox/availability/days"
+msgstr "%(day)s дб"
+
+msgid "headerButtons/battle/types/mapbox/availability/hours"
+msgstr "%(hour)s год"
+
+msgid "headerButtons/battle/types/mapbox/availability/lessThanHour"
+msgstr "менше 1 год"
+
+msgid "headerButtons/battle/types/mapbox/extra/endsIn"
+msgstr "До кінця події: %(timeLeft)s"
+
+msgid "headerButtons/battle/types/mapbox/extra/finished"
+msgstr "Подію завершено"
+
+msgid "headerButtons/battle/types/mapbox/extra/frozen"
+msgstr "Режим тимчасово вимкнено"
+
+msgid "headerButtons/battle/types/mapbox/extra/startsAt"
+msgstr "З %(time)s"
+
+msgid "headerButtons/battle/types/mapboxSquad"
+msgstr "Сформувати взвод"
+
+msgid "headerButtons/battle/types/mapsTraining"
+msgstr "Топографія"
+
+msgid "headerButtons/battle/types/ranked"
+msgstr "Ранговий бій"
+
+msgid "headerButtons/battle/types/ranked/availability"
+msgstr "Доступ у режим: "
+
+msgid "headerButtons/battle/types/ranked/availability/days"
+msgstr "%(day)s дб"
+
+msgid "headerButtons/battle/types/ranked/availability/ended"
+msgstr "Сезон завершено"
+
+msgid "headerButtons/battle/types/ranked/availability/frozen"
+msgstr "Режим тимчасово вимкнено"
+
+msgid "headerButtons/battle/types/ranked/availability/hours"
+msgstr "%(hour)s год"
+
+msgid "headerButtons/battle/types/ranked/availability/lessMin"
+msgstr "менше хвилини"
+
+msgid "headerButtons/battle/types/ranked/availability/min"
+msgstr "%(min)s хв"
+
+msgid "headerButtons/battle/types/ranked/availability/notSet"
+msgstr "Бої недоступні"
+
+msgid "headerButtons/battle/types/ranked/availability/season"
+msgstr "Сезон %(season)s"
+
+msgid "headerButtons/battle/types/ranked/availability/until"
+msgstr "З %(date)s %(time)s."
+
+msgid "headerButtons/battle/types/ranked/availability/yearEnded"
+msgstr "Сезон завершено"
+
+msgid "headerButtons/battle/types/ranked/descr"
+msgstr "Бій за просування вгору таблицею Ладдеру з отриманням рангів і цінних нагород.\n• Тип боїв: Стандартний бій.\n• Допустима техніка: тільки Х рівень (досліджувана та колекційна)."
+
+msgid "headerButtons/battle/types/rankedLeave/descr"
+msgstr "Вийти з бою"
+
+msgid "headerButtons/battle/types/rts"
+msgstr "Мистецтво стратегії"
+
+msgid "headerButtons/battle/types/rts/availability/afterCycle"
+msgstr "Подію завершено"
+
+msgid "headerButtons/battle/types/rts/availability/beforeCycle"
+msgstr "З %(rightCycleDate)s %(rightCycleTime)s"
+
+msgid "headerButtons/battle/types/rts/availability/betweenCycles"
+msgstr "З %(rightCycleDate)s %(rightCycleTime)s"
+
+msgid "headerButtons/battle/types/rts/availability/default"
+msgstr "Режим доступний"
+
+msgid "headerButtons/battle/types/rts/availability/frozen"
+msgstr "Режим вимкнено"
+
+msgid "headerButtons/battle/types/simpleSquad"
+msgstr "Взвод"
+
+msgid "headerButtons/battle/types/spec"
+msgstr "Спеціальний бій"
+
+msgid "headerButtons/battle/types/spec/descr"
+msgstr "Участь у чемпіонатах, турнірах і «Світовій війні»."
+
+msgid "headerButtons/battle/types/specLeave"
+msgstr "Спеціальний бій"
+
+msgid "headerButtons/battle/types/squad"
+msgstr "Взвод"
+
+msgid "headerButtons/battle/types/squad/description"
+msgstr "Гра взводом до 3 бійців"
+
+msgid "headerButtons/battle/types/standart"
+msgstr "Випадковий бій"
+
+msgid "headerButtons/battle/types/standart/descr"
+msgstr "Бій з автоматичним добиранням союзників і супротивників."
+
+msgid "headerButtons/battle/types/standartLeave/descr"
+msgstr "Вийти з бою"
+
+msgid "headerButtons/battle/types/strongholds"
+msgstr "Укріпрайон: битви"
+
+msgid "headerButtons/battle/types/training"
+msgstr "Тренувальний бій"
+
+msgid "headerButtons/battle/types/training/descr"
+msgstr "Навчальний бій з ручним добиранням союзників та супротивників."
+
+msgid "headerButtons/battle/types/trainingLeave"
+msgstr "Тренувальний бій"
+
+msgid "headerButtons/battle/types/trainingLeaveOwner"
+msgstr "Тренувальний бій"
+
+msgid "headerButtons/battle/types/unit"
+msgstr "Командний бій"
+
+msgid "headerButtons/battle/types/unit/descr"
+msgstr "Бій між рівними за майстерністю командами."
+
+msgid "headerButtons/battle/types/unitLeave"
+msgstr "Командний бій"
+
+msgid "headerButtons/battle/types/winback"
+msgstr "Випадковий бій: Розминка"
+
+msgid "headerButtons/battle/vehicleInfo"
+msgstr "Бій у режимі «{{mode}}» на {{level}}{{type}}{{name}}"
+
+msgid "headerButtons/browser"
+msgstr "Браузер"
+
+msgid "headerButtons/btnLabel/credits"
+msgstr "Обміняти"
+
+msgid "headerButtons/btnLabel/crystal"
+msgstr "Здобути"
+
+msgid "headerButtons/btnLabel/freeXP"
+msgstr "Конвертувати"
+
+msgid "headerButtons/btnLabel/gold"
+msgstr "Купити"
+
+msgid "headerButtons/btnLabel/premShop"
+msgstr "Преміум магазин"
+
+msgid "headerButtons/btnLabel/premium"
+msgstr "Преміум"
+
+msgid "headerButtons/clan"
+msgstr "Клан"
+
+msgid "headerButtons/clans"
+msgstr "Клани"
+
+msgid "headerButtons/defaultCounter"
+msgstr "!"
+
+msgid "headerButtons/fightBtn/tooltip/battleRoyaleDisabled/body"
+msgstr "На цьому сервері триває режим припинення вогню."
+
+msgid "headerButtons/fightBtn/tooltip/battleRoyaleDisabled/header"
+msgstr "Вступити в бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/comp7BanIsSet/body"
+msgstr "Ви тимчасово заблоковані в режимі."
+
+msgid "headerButtons/fightBtn/tooltip/comp7BanIsSet/header"
+msgstr "Вступити в бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/comp7BattleOnly/body"
+msgstr "Вибрана машина підходить тільки для режиму «Натиск»."
+
+msgid "headerButtons/fightBtn/tooltip/comp7BattleOnly/header"
+msgstr "Стати до бою неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Disabled/body"
+msgstr "Бої недоступні, поки діє режим припинення вогню."
+
+msgid "headerButtons/fightBtn/tooltip/comp7Disabled/header"
+msgstr "Стати до бою неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightDisabled/body"
+msgstr "На цьому сервері триває режим припинення вогню. Спробуйте перейти на інший сервер."
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightDisabled/header"
+msgstr "Вступити в бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightNotSet/body"
+msgstr "Режим недоступний на вибраному сервері"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightNotSet/header"
+msgstr "Вступити в бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightVehLevel/body"
+msgstr "У Гаражі немає придатної техніки %(levels)s рівня"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightVehLevel/delimiter"
+msgstr ", "
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightVehLevel/header"
+msgstr "Вступити в бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/comp7NotEnoughSuitableVehicles/body"
+msgstr "Для цього режиму потрібно щонайменше %(minVehiclesRequired)s од. відповідних машин. Подробиці дізнайтеся на сторінці «Про режим \"Натиск\"»."
+
+msgid "headerButtons/fightBtn/tooltip/comp7NotEnoughSuitableVehicles/header"
+msgstr "Вийти в бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/comp7NotSet/body"
+msgstr "Режим недоступний на вибраному сервері, але ви можете грати на іншому."
+
+msgid "headerButtons/fightBtn/tooltip/comp7NotSet/header"
+msgstr "Стати до бою неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Offline/body"
+msgstr "Режим недоступний через помилку бази даних."
+
+msgid "headerButtons/fightBtn/tooltip/comp7Offline/header"
+msgstr "Неможливо стати до бою"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Preannounce/body"
+msgstr "Сезон іще не почався."
+
+msgid "headerButtons/fightBtn/tooltip/comp7Preannounce/header"
+msgstr "Вступити в бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/comp7QualificationCalculation/body"
+msgstr "Розрахунок рейтингу за підсумками кваліфікації може тривати до п'яти хвилин. Після цього вам буде присвоєно ранг, і ви зможете продовжити гру в Натиску."
+
+msgid "headerButtons/fightBtn/tooltip/comp7QualificationCalculation/header"
+msgstr "Вийти в бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/comp7SeasonEnd/header"
+msgstr "Вийти в бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/comp7UnsuitableVehicle/header"
+msgstr "Вийти в бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/comp7VehLevel/body"
+msgstr "У Гаражі немає придатної техніки %(levels)s рівня"
+
+msgid "headerButtons/fightBtn/tooltip/comp7VehLevel/delimiter"
+msgstr ", "
+
+msgid "headerButtons/fightBtn/tooltip/comp7VehLevel/header"
+msgstr "Вийти в бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/crewNotFull/body"
+msgstr "Не на місці: <b>%(crewList)s</b>."
+
+msgid "headerButtons/fightBtn/tooltip/crewNotFull/header"
+msgstr "Неповний екіпаж"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleSituationalVehicle/body"
+msgstr "Вступити в бій можна лише на %(forStartBattle)s.\nМашини %(willBeUnlocked)s будуть розблоковані для бою після захоплення/втрати будь-якої точки другої лінії: D, E чи F."
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleSituationalVehicle/header"
+msgstr "Вступити в бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleSituationalVehicle/levels/forStartBattle"
+msgstr "техніці %(levels)s рівня"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleSituationalVehicle/levels/willBeUnlocked"
+msgstr "%(levels)s рівня"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleVehLevel/body"
+msgstr "Вступити в бій можна лише на %(requirements)s."
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleVehLevel/header"
+msgstr "Непридатна машина"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleVehLevel/requirements"
+msgstr "техніці %(level)s рівня"
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotEnoughPlayer/body"
+msgstr "Щоб вступити у бій, підтвердити готовність мусять командир взводу та щонайменше один з співвзводних."
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotEnoughPlayer/header"
+msgstr "Вступити у бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotReady/body"
+msgstr "Виберіть техніку: вступити у бій можна лише повністю укомплектованою групою."
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotReady/header"
+msgstr "Вступити у бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotSelected/body"
+msgstr "Щоб взяти участь у режимі «Бій до останнього», виберіть тип бою."
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotSelected/header"
+msgstr "Вступити у бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/falloutOnly/body"
+msgstr "Вибрана машина пасує лише до режиму «Бій до останнього»."
+
+msgid "headerButtons/fightBtn/tooltip/falloutOnly/header"
+msgstr "Вступити у бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/falloutVehLevelRequired/body"
+msgstr "Виберіть машину %(level)s рівня."
+
+msgid "headerButtons/fightBtn/tooltip/falloutVehLevelRequired/header"
+msgstr "Вступити у бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/falloutVehMin/body"
+msgstr "Виберіть машину %(level)s рівня."
+
+msgid "headerButtons/fightBtn/tooltip/falloutVehMin/header"
+msgstr "Вступити у бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/inPremiumIgrOnly/body"
+msgstr "Виберіть іншу машину."
+
+msgid "headerButtons/fightBtn/tooltip/inPremiumIgrOnly/header"
+msgstr "Машина тільки для %(icon)s"
+
+msgid "headerButtons/fightBtn/tooltip/noVehicle/body"
+msgstr "Купіть машину, що підходить за вимогами."
+
+msgid "headerButtons/fightBtn/tooltip/noVehicle/header"
+msgstr "Техніка в Гаражі відсутня"
+
+msgid "headerButtons/fightBtn/tooltip/notSupported/body"
+msgstr "Змініть режим або виберіть машину, що підходить за вимогами."
+
+msgid "headerButtons/fightBtn/tooltip/notSupported/header"
+msgstr "Машина не придатна для режиму"
+
+msgid "headerButtons/fightBtn/tooltip/rankedDisabled/body"
+msgstr "На цьому сервері триває комендантська година."
+
+msgid "headerButtons/fightBtn/tooltip/rankedDisabled/header"
+msgstr "Вступити у бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/rankedNotSet/body"
+msgstr "На вибраному сервері режим недоступний."
+
+msgid "headerButtons/fightBtn/tooltip/rankedNotSet/header"
+msgstr "Вступити в бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehClass/body"
+msgstr "%(forbiddenClass)s не може брати участі в Рангових боях."
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehClass/header"
+msgstr "Непридатний тип техніки"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehLevel/body"
+msgstr "Вступити в бій можна лише на %(levelSubStr)s."
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehLevel/header"
+msgstr "Непридатний рівень техніки"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehLevel/levelSubStr"
+msgstr "техніці %(levels)s рівня"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehType/body"
+msgstr "На %(forbiddenType)s не можна брати участь у Рангових боях."
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehType/header"
+msgstr "Непридатна машина"
+
+msgid "headerButtons/fightBtn/tooltip/rentalIsOver/body"
+msgstr "Виберіть іншу машину."
+
+msgid "headerButtons/fightBtn/tooltip/rentalIsOver/header"
+msgstr "Прокат техніки завершено"
+
+msgid "headerButtons/fightBtn/tooltip/telecomRentalIsOver/body"
+msgstr "Виберіть іншу машину."
+
+msgid "headerButtons/fightBtn/tooltip/telecomRentalIsOver/header"
+msgstr "Машина недоступна"
+
+msgid "headerButtons/fightBtn/tooltip/unsutableToBattleRoyale/body"
+msgstr "Вступити в бій можна лише на спеціальній техніці режиму «Сталевий мисливець»."
+
+msgid "headerButtons/fightBtn/tooltip/unsutableToBattleRoyale/header"
+msgstr "Непридатна машина"
+
+msgid "headerButtons/fightBtn/tooltip/vehicleIsBroken/body"
+msgstr "Відремонтуйте машину."
+
+msgid "headerButtons/fightBtn/tooltip/vehicleIsBroken/header"
+msgstr "Машина пошкоджена"
+
+msgid "headerButtons/fightBtn/tooltip/wotPlusExclusiveUnavailable/body"
+msgstr "Виберіть іншу машину."
+
+msgid "headerButtons/fightBtn/tooltip/wotPlusExclusiveUnavailable/header"
+msgstr "Ексклюзивна техніка недоступна"
+
+msgid "headerButtons/hangar"
+msgstr "Гараж"
+
+msgid "headerButtons/menu"
+msgstr "Меню"
+
+msgid "headerButtons/missions"
+msgstr "Завдання"
+
+msgid "headerButtons/modeSelector"
+msgstr "Режими бою"
+
+msgid "headerButtons/navigation/back"
+msgstr "Назад"
+
+msgid "headerButtons/notReady"
+msgstr "Не готовий"
+
+msgid "headerButtons/personalMissions"
+msgstr "Кампанії"
+
+msgid "headerButtons/profile"
+msgstr "Досягнення"
+
+msgid "headerButtons/rating"
+msgstr "Рейтинг"
+
+msgid "headerButtons/ready"
+msgstr "Готовий"
+
+msgid "headerButtons/shop"
+msgstr "Магазин"
+
+msgid "headerButtons/storage"
+msgstr "Склад"
+
+msgid "headerButtons/techtree"
+msgstr "Дослідження"
+
+msgid "headerButtons/tournament"
+msgstr "Турніри"
+
+msgid "headerButtons/wiki"
+msgstr "Інструкція"
+
+msgid "igr/info"
+msgstr "%(igrIcon)s Ви граєте в IGR"
+
+msgid "infinitySymbol"
+msgstr "∞"
+
+msgid "ingame_menu/buttons/back"
+msgstr "Повернутися в бій"
+
+msgid "ingame_menu/buttons/help"
+msgstr "Допомога"
+
+msgid "ingame_menu/buttons/logoff"
+msgstr "Вийти в Гараж"
+
+msgid "ingame_menu/buttons/replayExit"
+msgstr "Вийти"
+
+msgid "ingame_menu/buttons/settings"
+msgstr "Налаштування"
+
+msgid "ingame_menu/links/report_bug"
+msgstr "Повідомити про помилку"
+
+msgid "ingame_menu/serverStats/server"
+msgstr "Сервер:"
+
+msgid "ingame_menu/title"
+msgstr "МЕНЮ"
+
+msgid "internet_provider/BeelineKZ/name"
+msgstr "Beeline Казахстан"
+
+msgid "internet_provider/BeelineKZ/tariff"
+msgstr "Ігровий"
+
+msgid "internet_provider/Kazakhtelecom/name"
+msgstr "Қазақтелеком"
+
+msgid "internet_provider/Kazakhtelecom/tariff"
+msgstr "Ойын"
+
+msgid "internet_provider/LocalPartner2/name"
+msgstr "LocalPartner2"
+
+msgid "internet_provider/LocalPartner2/tariff"
+msgstr "Ігровий"
+
+msgid "internet_provider/LocalPartner3/name"
+msgstr "LocalPartner3"
+
+msgid "internet_provider/LocalPartner3/tariff"
+msgstr "Ігровий"
+
+msgid "internet_provider/LocalPartner4/name"
+msgstr "LocalPartner4"
+
+msgid "internet_provider/LocalPartner4/tariff"
+msgstr "Ігровий"
+
+msgid "inventory/device/errors/not_removable"
+msgstr " "
+
+msgid "inventory/device/errors/reserved"
+msgstr " "
+
+msgid "inventory/errors/reserved"
+msgstr " "
+
+msgid "inventory/header/equipment/myVehicle"
+msgstr "Спорядження для %(vehicle)s:"
+
+msgid "inventory/header/equipment/myVehicles"
+msgstr "Спорядження для моєї техніки%(nation)s:"
+
+msgid "inventory/header/equipment/otherVehicles"
+msgstr "Спорядження, не пасує%(nation)s:"
+
+msgid "inventory/header/module/myVehicle"
+msgstr "%(type)s для %(vehicle)s:"
+
+msgid "inventory/header/module/myVehicles"
+msgstr "%(type)s для моєї техніки%(nation)s:"
+
+msgid "inventory/header/module/otherVehicles"
+msgstr "%(type)s, не пасують%(nation)s:"
+
+msgid "inventory/header/optionalDevice/myVehicle"
+msgstr "Обладнання для %(vehicle)s:"
+
+msgid "inventory/header/optionalDevice/myVehicles"
+msgstr "Обладнання для моєї техніки%(nation)s:"
+
+msgid "inventory/header/optionalDevice/otherVehicles"
+msgstr "Обладнання, не пасує%(nation)s:"
+
+msgid "inventory/header/shell/myInventoryGuns"
+msgstr "Снаряди для моїх гармат на Складі%(nation)s:"
+
+msgid "inventory/header/shell/myVehicleGun"
+msgstr "Снаряди для цієїї гармати на %(vehicle)s:"
+
+msgid "inventory/header/shell/myVehiclesInventoryGuns"
+msgstr "Снаряди для усіх моїх гармат%(nation)s:"
+
+msgid "inventory/header/shell/otherGuns"
+msgstr "Снаряди не пасують до моїх гармат%(nation)s:"
+
+msgid "inventory/header/vehicle"
+msgstr "Всі мої %(type)s%(nation)s:"
+
+msgid "inventory/menu/battleBooster/name"
+msgstr "Настанови"
+
+msgid "inventory/menu/battleBooster/targetType/allKind/name"
+msgstr "Всі"
+
+msgid "inventory/menu/battleBooster/targetType/forCrew/name"
+msgstr "Для екіпажу"
+
+msgid "inventory/menu/battleBooster/targetType/forEquipment/name"
+msgstr "Для обладнання"
+
+msgid "inventory/menu/equipment/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "inventory/menu/equipment/fits/myVehicles/name"
+msgstr "Моєї техніки"
+
+msgid "inventory/menu/equipment/fits/name"
+msgstr "Встановлюють на"
+
+msgid "inventory/menu/equipment/fits/otherVehicles/name"
+msgstr "Не пасує до моєї техніки"
+
+msgid "inventory/menu/equipment/name"
+msgstr "Спорядження"
+
+msgid "inventory/menu/module/extra/name"
+msgstr "Показувати"
+
+msgid "inventory/menu/module/extra/onVehicle/name"
+msgstr "Встановлені на техніку"
+
+msgid "inventory/menu/module/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "inventory/menu/module/fits/myVehicles/name"
+msgstr "Мою техніку"
+
+msgid "inventory/menu/module/fits/name"
+msgstr "Встановлюються на:"
+
+msgid "inventory/menu/module/fits/otherVehicles/name"
+msgstr "Не пасують до моєї техніки"
+
+msgid "inventory/menu/module/name"
+msgstr "Модулі"
+
+msgid "inventory/menu/module/types/name"
+msgstr "Модулі:"
+
+msgid "inventory/menu/module/types/vehicleChassis/name"
+msgstr "Шасі"
+
+msgid "inventory/menu/module/types/vehicleEngine/name"
+msgstr "Двигуни"
+
+msgid "inventory/menu/module/types/vehicleGun/name"
+msgstr "Гармати"
+
+msgid "inventory/menu/module/types/vehicleRadio/name"
+msgstr "Радіостанції"
+
+msgid "inventory/menu/module/types/vehicleTurret/name"
+msgstr "Башти"
+
+msgid "inventory/menu/optionalDevice/extra/name"
+msgstr "Показувати"
+
+msgid "inventory/menu/optionalDevice/extra/onVehicle/name"
+msgstr "Встановлено на техніку"
+
+msgid "inventory/menu/optionalDevice/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "inventory/menu/optionalDevice/fits/myVehicles/name"
+msgstr "Мою техніку"
+
+msgid "inventory/menu/optionalDevice/fits/name"
+msgstr "Встановлюють на"
+
+msgid "inventory/menu/optionalDevice/fits/otherVehicles/name"
+msgstr "Не пасує до моєї техніки"
+
+msgid "inventory/menu/optionalDevice/name"
+msgstr "Обладнання"
+
+msgid "inventory/menu/shell/fits/myInventoryGuns/name"
+msgstr "гармат на Складі"
+
+msgid "inventory/menu/shell/fits/myVehicleGun/name"
+msgstr "Гармати, встановленої на"
+
+msgid "inventory/menu/shell/fits/myVehiclesInventoryGuns/name"
+msgstr "Всіх моїх гармат"
+
+msgid "inventory/menu/shell/fits/name"
+msgstr "Пасують до"
+
+msgid "inventory/menu/shell/fits/otherGuns/name"
+msgstr "Не пасують до моїх гармат"
+
+msgid "inventory/menu/shell/kinds/ARMOR_PIERCING/name"
+msgstr "Бронебійні"
+
+msgid "inventory/menu/shell/kinds/ARMOR_PIERCING_CR/name"
+msgstr "Підкаліберні"
+
+msgid "inventory/menu/shell/kinds/ARMOR_PIERCING_HE/name"
+msgstr "Бронебійні каморні"
+
+msgid "inventory/menu/shell/kinds/HIGH_EXPLOSIVE/name"
+msgstr "Осколково-фугасні"
+
+msgid "inventory/menu/shell/kinds/HOLLOW_CHARGE/name"
+msgstr "Кумулятивні"
+
+msgid "inventory/menu/shell/kinds/name"
+msgstr "Тип снарядів"
+
+msgid "inventory/menu/shell/name"
+msgstr "Снаряди"
+
+msgid "inventory/menu/vehicle/extra/brocken/name"
+msgstr "Техніку, яка потребує ремонту"
+
+msgid "inventory/menu/vehicle/extra/locked/name"
+msgstr "Техніку в бою"
+
+msgid "inventory/menu/vehicle/extra/name"
+msgstr "Показувати"
+
+msgid "inventory/menu/vehicle/extra/premiumIGR/name"
+msgstr "Техніку %(icon)s"
+
+msgid "inventory/menu/vehicle/extra/rentals/name"
+msgstr "Прокатну техніку"
+
+msgid "inventory/menu/vehicle/name"
+msgstr "Техніка"
+
+msgid "inventory/menu/vehicle/tags/all/name"
+msgstr "Всі типи"
+
+msgid "inventory/menu/vehicle/tags/at-spg/name"
+msgstr "ПТ-САУ"
+
+msgid "inventory/menu/vehicle/tags/heavyTank/name"
+msgstr "Важкі танки"
+
+msgid "inventory/menu/vehicle/tags/lightTank/name"
+msgstr "Легкі танки"
+
+msgid "inventory/menu/vehicle/tags/mediumTank/name"
+msgstr "Середні танки"
+
+msgid "inventory/menu/vehicle/tags/name"
+msgstr "Тип техніки"
+
+msgid "inventory/menu/vehicle/tags/spg/name"
+msgstr "САУ"
+
+msgid "inventory/table/buttonSell"
+msgstr "Продати"
+
+msgid "inventory/table/header/count"
+msgstr "Кількість"
+
+msgid "inventory/table/header/price"
+msgstr "Вартість"
+
+msgid "legal"
+msgstr "Юридична інформація"
+
+msgid "legalInfo/closeBtn"
+msgstr "Закрити"
+
+msgid "levels/1"
+msgstr "I рівень"
+
+msgid "levels/10"
+msgstr "X рівень"
+
+msgid "levels/11"
+msgstr "XI рівень"
+
+msgid "levels/2"
+msgstr "II рівень"
+
+msgid "levels/3"
+msgstr "III рівень"
+
+msgid "levels/4"
+msgstr "IV рівень"
+
+msgid "levels/5"
+msgstr "V рівень"
+
+msgid "levels/6"
+msgstr "VI рівень"
+
+msgid "levels/7"
+msgstr "VII рівень"
+
+msgid "levels/8"
+msgstr "VIII рівень"
+
+msgid "levels/9"
+msgstr "IX рівень"
+
+msgid "levels/all"
+msgstr "Всі рівні"
+
+msgid "levels/roman/1"
+msgstr "I рівень"
+
+msgid "levels/roman/10"
+msgstr "X рівень"
+
+msgid "levels/roman/11"
+msgstr "XI рівень"
+
+msgid "levels/roman/2"
+msgstr "II рівень"
+
+msgid "levels/roman/3"
+msgstr "III рівень"
+
+msgid "levels/roman/4"
+msgstr "IV рівень"
+
+msgid "levels/roman/5"
+msgstr "V рівень"
+
+msgid "levels/roman/6"
+msgstr "VI рівень"
+
+msgid "levels/roman/7"
+msgstr "VII рівень"
+
+msgid "levels/roman/8"
+msgstr "VIII рівень"
+
+msgid "levels/roman/9"
+msgstr "IX рівень"
+
+msgid "loading/battleTypes/0"
+msgstr "Спеціальний бій"
+
+msgid "loading/battleTypes/1"
+msgstr "Випадковий бій"
+
+msgid "loading/battleTypes/10"
+msgstr "Командний бій: гра в Ладдері"
+
+msgid "loading/battleTypes/11"
+msgstr "Навчальний бій"
+
+msgid "loading/battleTypes/12"
+msgstr "Навчальний бій"
+
+msgid "loading/battleTypes/13"
+msgstr "«Перевага»"
+
+msgid "loading/battleTypes/14"
+msgstr "«Сталеве полювання»"
+
+msgid "loading/battleTypes/15"
+msgstr "Вилазка"
+
+msgid "loading/battleTypes/16"
+msgstr "Наступ"
+
+msgid "loading/battleTypes/17"
+msgstr "Ранговий бій"
+
+msgid "loading/battleTypes/19"
+msgstr "Випадковий бій"
+
+msgid "loading/battleTypes/2"
+msgstr "Тренувальний бій"
+
+msgid "loading/battleTypes/20"
+msgstr "Тренувальний бій"
+
+msgid "loading/battleTypes/21"
+msgstr "Лінія фронту"
+
+msgid "loading/battleTypes/22"
+msgstr "Лінія фронту"
+
+msgid "loading/battleTypes/23"
+msgstr "Сталевий мисливець"
+
+msgid "loading/battleTypes/24"
+msgstr "Розвідка боєм"
+
+msgid "loading/battleTypes/25"
+msgstr "Навчання на мапах"
+
+msgid "loading/battleTypes/26"
+msgstr "Мистецтво стратегії"
+
+msgid "loading/battleTypes/28"
+msgstr "Основи стратегії"
+
+msgid "loading/battleTypes/29"
+msgstr "%(modeName)s"
+
+msgid "loading/battleTypes/30"
+msgstr "Натиск"
+
+msgid "loading/battleTypes/31"
+msgstr "Розминка"
+
+msgid "loading/battleTypes/33"
+msgstr "Натиск"
+
+msgid "loading/battleTypes/34"
+msgstr "Тренувальні бої Натиску"
+
+msgid "loading/battleTypes/35"
+msgstr "Натиск Лайт"
+
+msgid "loading/battleTypes/4"
+msgstr "Бойове навчання"
+
+msgid "loading/battleTypes/5"
+msgstr "Командний бій"
+
+msgid "loading/battleTypes/6"
+msgstr "Історичний бій"
+
+msgid "loading/battleTypes/7"
+msgstr "ВАФФЕНТРАГЕР: ПРОЄКТ «ГІПЕРІОН»"
+
+msgid "loading/battleTypes/8"
+msgstr "Вилазки"
+
+msgid "loading/battleTypes/9"
+msgstr "Бій з кланом"
+
+msgid "loading/battleTypes/desc/0"
+msgstr " "
+
+msgid "loading/battleTypes/desc/1"
+msgstr " "
+
+msgid "loading/battleTypes/desc/10"
+msgstr " "
+
+msgid "loading/battleTypes/desc/11"
+msgstr " "
+
+msgid "loading/battleTypes/desc/12"
+msgstr " "
+
+msgid "loading/battleTypes/desc/13"
+msgstr " "
+
+msgid "loading/battleTypes/desc/14"
+msgstr " "
+
+msgid "loading/battleTypes/desc/15"
+msgstr "Завдання: захопити базу супротивника або знищити всю його техніку."
+
+msgid "loading/battleTypes/desc/16"
+msgstr "Завдання: захопити базу супротивника або знищити всю його техніку."
+
+msgid "loading/battleTypes/desc/17"
+msgstr " "
+
+msgid "loading/battleTypes/desc/19"
+msgstr " "
+
+msgid "loading/battleTypes/desc/2"
+msgstr "У тренувальному бою ви можете відпрацювати\nсвої навички ведення бою разом\nз товаришами по зброї. В цьому режимі бою\nдосвід не нараховується."
+
+msgid "loading/battleTypes/desc/20"
+msgstr " "
+
+msgid "loading/battleTypes/desc/21"
+msgstr " "
+
+msgid "loading/battleTypes/desc/22"
+msgstr " "
+
+msgid "loading/battleTypes/desc/23"
+msgstr " "
+
+msgid "loading/battleTypes/desc/24"
+msgstr " "
+
+msgid "loading/battleTypes/desc/25"
+msgstr " "
+
+msgid "loading/battleTypes/desc/26"
+msgstr " "
+
+msgid "loading/battleTypes/desc/28"
+msgstr " "
+
+msgid "loading/battleTypes/desc/29"
+msgstr " "
+
+msgid "loading/battleTypes/desc/30"
+msgstr " "
+
+msgid "loading/battleTypes/desc/31"
+msgstr " "
+
+msgid "loading/battleTypes/desc/33"
+msgstr " "
+
+msgid "loading/battleTypes/desc/34"
+msgstr " "
+
+msgid "loading/battleTypes/desc/35"
+msgstr " "
+
+msgid "loading/battleTypes/desc/4"
+msgstr " "
+
+msgid "loading/battleTypes/desc/5"
+msgstr " "
+
+msgid "loading/battleTypes/desc/6"
+msgstr " "
+
+msgid "loading/battleTypes/desc/7"
+msgstr "?empty?"
+
+msgid "loading/battleTypes/desc/8"
+msgstr " "
+
+msgid "loading/battleTypes/desc/9"
+msgstr " "
+
+msgid "loading/battleTypes/subTitle/23"
+msgstr "Битва за трилисник"
+
+msgid "loading/helpTip"
+msgstr "Щоб викликати екран допомоги в бою, натисніть клавішу F1."
+
+msgid "loading/team1"
+msgstr "Союзники"
+
+msgid "loading/team2"
+msgstr "Супротивник"
+
+msgid "loading/teams/allies"
+msgstr "Союзники"
+
+msgid "loading/teams/enemies"
+msgstr "Супротивник"
+
+msgid "lobby_menu/buttons/back"
+msgstr "Повернутися до гри"
+
+msgid "lobby_menu/buttons/exit"
+msgstr "Вийти з гри"
+
+msgid "lobby_menu/buttons/logoff"
+msgstr "Від’єднатися від сервера"
+
+msgid "lobby_menu/buttons/post"
+msgstr "Польова пошта"
+
+msgid "lobby_menu/buttons/refuse-training"
+msgstr "Перервати навчання"
+
+msgid "lobby_menu/buttons/restart-training"
+msgstr "Поновити навчання"
+
+msgid "lobby_menu/buttons/settings"
+msgstr "Налаштування"
+
+msgid "lobby_menu/manyServers/title"
+msgstr "Сервер та пінг (мс):"
+
+msgid "lobby_menu/oneServer/title"
+msgstr "Сервер: %(sName)s"
+
+msgid "lobby_menu/title"
+msgstr "МЕНЮ"
+
+msgid "login/account"
+msgstr "Акаунт:"
+
+msgid "login/auto"
+msgstr "Авто"
+
+msgid "login/caps"
+msgstr "Caps"
+
+msgid "login/changeAaccount"
+msgstr "Змінити акаунт"
+
+msgid "login/fastEnter"
+msgstr "Швидкий вхід:"
+
+msgid "login/healthNotice"
+msgstr "?empty?"
+
+msgid "login/licenses/header_1"
+msgstr "Portions of this software include the following copyrighted material, the use of which is hereby acknowledged:"
+
+msgid "login/licenses/header_2"
+msgstr "Portions of this software are copyright:"
+
+msgid "login/login"
+msgstr "Електронна пошта:"
+
+msgid "login/ok"
+msgstr "Увійти!"
+
+msgid "login/password"
+msgstr "Пароль:"
+
+msgid "login/quitFromAutoLogin"
+msgstr "Вийти з черги"
+
+msgid "login/recoveryLink"
+msgstr "Не вдається увійти?"
+
+msgid "login/registrationLink"
+msgstr "Створити акаунт"
+
+msgid "login/rememberPassword"
+msgstr "Запам’ятати мене"
+
+msgid "login/rememberPasswordIgr"
+msgstr "Зберегти електронну пошту і пароль (небезпечно)"
+
+msgid "login/rememberPasswordIgrWarning"
+msgstr "Будьте обережні під час використання даної опції в громадських місцях!"
+
+msgid "login/rss/readMore"
+msgstr "Докладно"
+
+msgid "login/server"
+msgstr "Сервер та пінг (мс):"
+
+msgid "login/social/status/SYSTEM_ERROR"
+msgstr "Помилка авторизації через соц.мережу або Wargaming.net ID. Спробуйте стандартний спосіб входу, використовуючи логін і пароль."
+
+msgid "login/social/status/WGC_ERROR"
+msgstr "Під час авторизації трапилася помилка. Введіть електронну пошту і пароль."
+
+msgid "login/social/warning/SOCIAL_NETWORK_LOGOUT"
+msgstr "Ви вийшли з акаунта %(userName)s. Для вашої безпеки також вийдіть з акаунта %(socialNetworkLink)s."
+
+msgid "login/social/warning/SOCIAL_NETWORK_LOGOUT_BOTH"
+msgstr "Ви вийшли з акаунта %(userName)s. Для вашої безпеки також вийдіть з акаунтів %(socialNetworkLink)s і %(wargamingNetLink)s."
+
+msgid "login/status/ALREADY_ONLINE_LOCALLY"
+msgstr "Клієнт вже приєднаний локально (працює в автономному режимі)."
+
+msgid "login/status/CANCELLED"
+msgstr "З’єднання з сервером зупинено користувачем."
+
+msgid "login/status/CLIENT_SERVER_VERSIONS_ARE_DIFFERENT"
+msgstr "Цей сервер тимчасово недоступний. Оновіть клієнт гри або дочекайтеся планового оновлення."
+
+msgid "login/status/CONNECTION_FAILED"
+msgstr "Не вдається встановити мережеве з’єднання."
+
+msgid "login/status/DNS_LOOKUP_FAILED"
+msgstr "Не вдається з’єднатися з сервером.\nМожливо, сервер недоступний або потрібно перевірити налаштування інтернет-з’єднання."
+
+msgid "login/status/LOGIN_BAD_PROTOCOL_VERSION"
+msgstr "Потрібно оновити клієнт гри."
+
+msgid "login/status/LOGIN_CUSTOM_DEFINED_ERROR"
+msgstr "Сервер недоступний. Причина: %(reason)s."
+
+msgid "login/status/LOGIN_MALFORMED_REQUEST"
+msgstr "Помилка авторизації на сервері. Можливо, ваша програма застаріла або пошкоджена."
+
+msgid "login/status/LOGIN_REJECTED_ACTIVATING"
+msgstr "Створюємо акаунт..."
+
+msgid "login/status/LOGIN_REJECTED_ALREADY_LOGGED_IN"
+msgstr "Користувач з таким ім’ям вже увійшов у гру."
+
+msgid "login/status/LOGIN_REJECTED_BAD_DIGEST"
+msgstr "Потрібно оновити клієнт гри."
+
+msgid "login/status/LOGIN_REJECTED_BAN"
+msgstr "Ваш акаунт заблоковано до %(time)s. Причина: %(reason)s."
+
+msgid "login/status/LOGIN_REJECTED_BAN_UNLIMITED"
+msgstr "Ваш акаунт заблоковано. Причина: %(reason)s."
+
+msgid "login/status/LOGIN_REJECTED_BASEAPPMGR_TIMEOUT"
+msgstr "Помилка сервера (BASEAPPMGR_TIMEOUT)"
+
+msgid "login/status/LOGIN_REJECTED_BASEAPP_OVERLOAD"
+msgstr "Сервер перевантажено. Спробуйте пізніше."
+
+msgid "login/status/LOGIN_REJECTED_BASEAPP_TIMEOUT"
+msgstr "Помилка сервера (BASEAPP_TIMEOUT)"
+
+msgid "login/status/LOGIN_REJECTED_CELLAPP_OVERLOAD"
+msgstr "Сервер перевантажено. Спробуйте пізніше."
+
+msgid "login/status/LOGIN_REJECTED_DBMGR_OVERLOAD"
+msgstr "Сервер перевантажено. Спробуйте пізніше."
+
+msgid "login/status/LOGIN_REJECTED_DB_GENERAL_FAILURE"
+msgstr "Помилка сервера (DB_GENERAL_FAILURE)"
+
+msgid "login/status/LOGIN_REJECTED_DB_NOT_READY"
+msgstr "Помилка сервера (DB_NOT_READY)"
+
+msgid "login/status/LOGIN_REJECTED_ILLEGAL_CHARACTERS"
+msgstr "Ім’я користувача чи пароль містять неприпустимі символи."
+
+msgid "login/status/LOGIN_REJECTED_INACCESSIBLE_REALM"
+msgstr "Перехід на вибраний сервер тимчасово недоступний."
+
+msgid "login/status/LOGIN_REJECTED_INVALID_PASSWORD"
+msgstr "Неправильний пароль або адреса електронної пошти. <a href='event:passwordRecovery'>Відновити пароль</a>"
+
+msgid "login/status/LOGIN_REJECTED_IP_ADDRESS_BAN"
+msgstr "Помилка приєднання: вхід у гру з вашої IP-адреси тимчасово обмежений."
+
+msgid "login/status/LOGIN_REJECTED_LOGINS_NOT_ALLOWED"
+msgstr "Сервер тимчасово недоступний. Виконують профілактичні роботи."
+
+msgid "login/status/LOGIN_REJECTED_LOGIN_QUEUE"
+msgstr "Сервер перевантажений. Очікуємо на приєднання до сервера. Ваше місце у черзі: %d."
+
+msgid "login/status/LOGIN_REJECTED_NICKNAME_ALREADY_EXIST"
+msgstr "Це ім’я зайнято. Спробуйте інше."
+
+msgid "login/status/LOGIN_REJECTED_NO_BASEAPPS"
+msgstr "Помилка сервера (NO_BASEAPPS)"
+
+msgid "login/status/LOGIN_REJECTED_NO_BASEAPP_RESPONSE"
+msgstr "Сервер не відповідає. Спробуйте пізніше."
+
+msgid "login/status/LOGIN_REJECTED_NO_LOGINAPP"
+msgstr "Не вдається з’єднатися з сервером.\nМожливо, сервер недоступний або потрібно перевірити налаштування інтернет-з’єднання."
+
+msgid "login/status/LOGIN_REJECTED_NO_LOGINAPP_RESPONSE"
+msgstr "Не вдається з’єднатися з сервером.\nМожливо, сервер недоступний або потрібно перевірити налаштування інтернет-з’єднання."
+
+msgid "login/status/LOGIN_REJECTED_NO_SUCH_USER"
+msgstr "Неправильний пароль або адреса електронної пошти."
+
+msgid "login/status/LOGIN_REJECTED_RATE_LIMITED"
+msgstr "Сервер перевантажений. Очікуємо на приєднання до сервера."
+
+msgid "login/status/LOGIN_REJECTED_REGISTRATION_NOT_ALLOWED"
+msgstr "Створювати акаунт тимчасово заборонено."
+
+msgid "login/status/LOGIN_REJECTED_REGISTRATION_NOT_CONFIRMED"
+msgstr "Помилка авторизації. Перевірте свою електронну поштову скриньку і підтвердьте створений акаунт."
+
+msgid "login/status/LOGIN_REJECTED_SERVER_NOT_READY"
+msgstr "Сервер не готовий. Спробуйте пізніше."
+
+msgid "login/status/LOGIN_REJECTED_UNABLE_TO_PARSE_JSON"
+msgstr "Це ім’я містить неприпустимі символи. Спробуйте інше."
+
+msgid "login/status/LOGIN_REJECTED_USERS_LIMIT"
+msgstr "Сервер перевантажений. Виберіть інший сервер або спробуйте пізніше."
+
+msgid "login/status/NOT_SET"
+msgstr "Вас від’єднано від сервера."
+
+msgid "login/status/PUBLIC_KEY_LOOKUP_FAILED"
+msgstr "Невдалий пошук відкритого ключа клієнта гри."
+
+msgid "login/status/SESSION_END"
+msgstr "Сеанс автологіна закінчився, потрібно повторно ввести пароль."
+
+msgid "login/status/SOCIAL_SESSION_END"
+msgstr "Помилка авторизації. Натисніть «Увійти», щоб потрапити у гру."
+
+msgid "login/status/UNKNOWN_ERROR"
+msgstr "Виникла невідома помилка."
+
+msgid "login/status/WGC_LOGOUT"
+msgstr "Ви вийшли з акаунта %(userName)s. Щоб увійти в гру, введіть електронну пошту та пароль."
+
+msgid "login/status/accessForbiddenToPeriphery"
+msgstr "Вибраний сервер недоступний для вашого облікового запису. Доступні сервери: %(peripheries)s."
+
+msgid "login/status/accountNotReady"
+msgstr "Акаунт не готовий. Спробуйте увійти пізніше."
+
+msgid "login/status/another_periphery"
+msgstr "Не закінчено сеанс на іншому сервері."
+
+msgid "login/status/centerRestart"
+msgstr "Цей сервер тимчасово недоступний. Дочекайтеся завершення перезапуску серверів."
+
+msgid "login/status/checkout_error"
+msgstr "Помилка сервера під час отримання інформації про гравця. Спробуйте увійти ще раз."
+
+msgid "login/status/connecting"
+msgstr "?empty?"
+
+msgid "login/status/empty_login"
+msgstr "Введіть адресу електронної пошти."
+
+msgid "login/status/empty_password"
+msgstr "Введіть пароль."
+
+msgid "login/status/empty_server"
+msgstr "Виберіть сервер."
+
+msgid "login/status/invalid_login"
+msgstr "Використовуйте адресу електронної пошти як логін."
+
+msgid "login/status/invalid_login_length"
+msgstr "Мінімальна кількість символів в імені: %(count)d"
+
+msgid "login/status/invalid_nickname"
+msgstr "Ім’я може містити символи латинської абетки, цифри і знак підкреслення."
+
+msgid "login/status/launchernotfound"
+msgstr "Відсутній або переміщений файл WOTLauncher.exe. Повторне встановлення програми допоможе вирішити проблему."
+
+msgid "login/status/unavailable"
+msgstr "Сервер недоступний."
+
+msgid "login/status/versionMismatch"
+msgstr "Цей регіон тимчасово недоступний. Дочекайтеся планового оновлення."
+
+msgid "login/submitBySocial"
+msgstr "Увійти"
+
+msgid "login/updateURLAvaialbleAt"
+msgstr "Потрібно оновити клієнт гри (%s)."
+
+msgid "login/version"
+msgstr "World of Tanks"
+
+msgid "mapBlackList/timeLeftShort/days"
+msgstr "%(day)s дб"
+
+msgid "mapBlackList/timeLeftShort/hours"
+msgstr "%(hour)s год"
+
+msgid "mapBlackList/timeLeftShort/lessMin"
+msgstr "1 хв"
+
+msgid "mapBlackList/timeLeftShort/min"
+msgstr "%(min)s хв"
+
+msgid "moduleFits/already_installed"
+msgstr "?empty?"
+
+msgid "moduleFits/center_unavailable"
+msgstr "Тимчасово недоступний"
+
+msgid "moduleFits/credits_error"
+msgstr "?empty?"
+
+msgid "moduleFits/crystal_error"
+msgstr "?empty?"
+
+msgid "moduleFits/destroyBtn/tooltip/body"
+msgstr "Знищити обладнання"
+
+msgid "moduleFits/destroyBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "moduleFits/destroyDescr"
+msgstr "Знищити обладнання та звільнити слот\nдля нового обладнання."
+
+msgid "moduleFits/destroyEquipment"
+msgstr "Знищити обладнання «%(equipment)s»?"
+
+msgid "moduleFits/gold_error"
+msgstr "?empty?"
+
+msgid "moduleFits/need_gun"
+msgstr "Несумісна гармата"
+
+msgid "moduleFits/need_turret"
+msgstr "Несумісна башта"
+
+msgid "moduleFits/not_for_current_vehicle"
+msgstr "Не пасує до цієї конфігурації."
+
+msgid "moduleFits/not_for_this_vehicle_type"
+msgstr "Несумісна гармата"
+
+msgid "moduleFits/not_with_installed_equipment"
+msgstr "Несумісне"
+
+msgid "moduleFits/removeDescr"
+msgstr "Демонтувати обладнання та помістити його на Склад"
+
+msgid "moduleFits/removeName"
+msgstr "Демонтувати"
+
+msgid "moduleFits/removeToolTip"
+msgstr " "
+
+msgid "moduleFits/similar_device_already_installed"
+msgstr "?empty?"
+
+msgid "moduleFits/title"
+msgstr "%(moduleName)s для %(vehicleName)s"
+
+msgid "moduleFits/unlock_error"
+msgstr "Не досліджено"
+
+msgid "moduleFits/upgradeBtn/tooltip/body"
+msgstr "Налагодження роботи обладнання підвищує його характеристики."
+
+msgid "moduleFits/wrong_slot"
+msgstr "?empty?"
+
+msgid "moduleInfo/additionalInfo"
+msgstr "Характеристики снаряда можуть відрізнятися залежно від гармати."
+
+msgid "moduleInfo/autoLoaderGun"
+msgstr "Система дозаряджання магазина"
+
+msgid "moduleInfo/autoLoaderGunBoost"
+msgstr "Допрацьована система дозаряджання:\nДає змогу зменшити базовий час дозаряджання снарядів."
+
+msgid "moduleInfo/autoShootGun"
+msgstr "Гармата із системою безперервного вогню"
+
+msgid "moduleInfo/closeBtn"
+msgstr "Закрити"
+
+msgid "moduleInfo/compatible/clipVehicles"
+msgstr "Оснащується магазинною системою заряджання на техніці:"
+
+msgid "moduleInfo/compatible/guns"
+msgstr "Можливі для встановлення гармати:"
+
+msgid "moduleInfo/compatible/shellGuns"
+msgstr "Використовується для стрільби з гармат:"
+
+msgid "moduleInfo/compatible/shells"
+msgstr "Застосовуються снаряди:"
+
+msgid "moduleInfo/compatible/turrets"
+msgstr "Встановлюється в башти:"
+
+msgid "moduleInfo/compatible/uniChargedVehicles"
+msgstr "Працює як однозарядне на техніці:"
+
+msgid "moduleInfo/compatible/vehicles"
+msgstr "Встановлюється на техніку:"
+
+msgid "moduleInfo/damageMutable"
+msgstr "Гармата з нарізним стволом. Може стріляти снарядами із зірчастим дном."
+
+msgid "moduleInfo/dualAccuracy"
+msgstr "Система подвійного зведення"
+
+msgid "moduleInfo/dualGun"
+msgstr "Спарена гарматна установка"
+
+msgid "moduleInfo/heatingZonesGun"
+msgstr "Гармата з активною системою охолодження"
+
+msgid "moduleInfo/hydraulicChassis"
+msgstr "Гідропневматична підвіска: дає змогу змінювати режими між облоговим та похідним"
+
+msgid "moduleInfo/hydraulicWheeledChassis"
+msgstr "Гідропневматичний привід телескопічного типу: дає змогу змінювати положення додаткових коліс."
+
+msgid "moduleInfo/hydroAutoSiegeChassis"
+msgstr "Гідропневматична підвіска: дає змогу змінювати кут нахилу корпусу"
+
+msgid "moduleInfo/lowChargeShot"
+msgstr "Особлива механіка гармати, що дозволяє стріляти завчасно коштом ефективності пострілу."
+
+msgid "moduleInfo/magazineGun"
+msgstr "Магазинна система заряджання"
+
+msgid "moduleInfo/nonPiercingDamageLabel"
+msgstr "Може завдати незначних ушкоджень навіть без пробиття броні"
+
+msgid "moduleInfo/overheatGun"
+msgstr "Автоматична гармата із системою контролю нагріву"
+
+msgid "moduleInfo/parametersClipGunLabel"
+msgstr "<img src='%s' vspace='-4'/> Для гармати з магазинною системою заряджання:"
+
+msgid "moduleInfo/parametersLabel"
+msgstr "Характеристики:"
+
+msgid "moduleInfo/params/aimingTime"
+msgstr "Час зведення"
+
+msgid "moduleInfo/params/areaRadius"
+msgstr "Радіус зони ураження"
+
+msgid "moduleInfo/params/areaSquare"
+msgstr "Зона ураження"
+
+msgid "moduleInfo/params/armor"
+msgstr "Бронювання"
+
+msgid "moduleInfo/params/artDelayRange"
+msgstr "Час готовності до залпу"
+
+msgid "moduleInfo/params/autoReloadTime"
+msgstr "Час дозаряджання одного снаряда"
+
+msgid "moduleInfo/params/autoReloadTime/boost"
+msgstr "Базовий час дозаряджання одного снаряда"
+
+msgid "moduleInfo/params/avgDamage"
+msgstr "Середня шкода"
+
+msgid "moduleInfo/params/avgDamageList"
+msgstr "Середня шкода"
+
+msgid "moduleInfo/params/avgDamagePerMinute"
+msgstr "Середня шкода на хвилину"
+
+msgid "moduleInfo/params/avgDamagePerSecond"
+msgstr "Шкода на секунду"
+
+msgid "moduleInfo/params/avgMutableDamage"
+msgstr "Середня шкода"
+
+msgid "moduleInfo/params/avgPiercingPower"
+msgstr "Середнє пробивання броні"
+
+msgid "moduleInfo/params/bombDamage"
+msgstr "Шкода від однієї авіабомби"
+
+msgid "moduleInfo/params/bombsNumberRange"
+msgstr "Кількість бомб за виліт"
+
+msgid "moduleInfo/params/burstCount"
+msgstr "Кількість касет у магазині"
+
+msgid "moduleInfo/params/burstFireRate"
+msgstr "Касета"
+
+msgid "moduleInfo/params/burstSize"
+msgstr "Кількість снарядів у касеті"
+
+msgid "moduleInfo/params/burstTimeInterval"
+msgstr "Час зміни снаряда в касеті"
+
+msgid "moduleInfo/params/caliber"
+msgstr "Калібр"
+
+msgid "moduleInfo/params/chargeTime"
+msgstr "Час залпу"
+
+msgid "moduleInfo/params/chassisRepairTime"
+msgstr "Час ремонту шасі"
+
+msgid "moduleInfo/params/chassisRepairTimeYoh"
+msgstr "Час ремонту шасі"
+
+msgid "moduleInfo/params/circularVisionRadius"
+msgstr "Огляд"
+
+msgid "moduleInfo/params/commonAreaRadius"
+msgstr "Радіус дії"
+
+msgid "moduleInfo/params/commonDelay"
+msgstr "Час розгортання"
+
+msgid "moduleInfo/params/continuousDamagePerSecond"
+msgstr "Шкода на секунду"
+
+msgid "moduleInfo/params/continuousShotsPerMinute"
+msgstr "Швидкість безперервного вогню"
+
+msgid "moduleInfo/params/cooldownSeconds"
+msgstr "Час приготування"
+
+msgid "moduleInfo/params/crewRolesFactor"
+msgstr "до основної спеціальності та навичок екіпажу"
+
+msgid "moduleInfo/params/damage"
+msgstr "Шкода"
+
+msgid "moduleInfo/params/dispertionRadius"
+msgstr "Розкид на 100 м"
+
+msgid "moduleInfo/params/drivingControl"
+msgstr "До керованості на швидкості"
+
+msgid "moduleInfo/params/dualAccuracyCoolingDelay"
+msgstr "Час охолодження гармати після пострілу"
+
+msgid "moduleInfo/params/duration"
+msgstr "Тривалість"
+
+msgid "moduleInfo/params/enginePower"
+msgstr "Потужність двигуна"
+
+msgid "moduleInfo/params/enginePowerPerTon"
+msgstr "До питомої потужності (к. с./т) "
+
+msgid "moduleInfo/params/explosionRadius"
+msgstr "Радіус ураження"
+
+msgid "moduleInfo/params/fireStartingChance"
+msgstr "Імовірність пожежі після влучення"
+
+msgid "moduleInfo/params/flyDelayRange"
+msgstr "Час польоту"
+
+msgid "moduleInfo/params/forwardMaxSpeed"
+msgstr "Максимальна швидкість"
+
+msgid "moduleInfo/params/guaranteedDamage/footnote"
+msgstr "Завжди завдає шкоди в разі влучання в основну броню"
+
+msgid "moduleInfo/params/hullAndChassisWeight"
+msgstr "Маса"
+
+msgid "moduleInfo/params/hullArmor"
+msgstr "Бронювання корпусу"
+
+msgid "moduleInfo/params/hullWeight"
+msgstr "Маса корпусу"
+
+msgid "moduleInfo/params/inactivationDelay"
+msgstr "Залишковий ефект"
+
+msgid "moduleInfo/params/level_lbl"
+msgstr "Бойовий резерв %(level)s рівня"
+
+msgid "moduleInfo/params/maxAvgMutableDamageList"
+msgstr "Середня шкода з 50 м"
+
+msgid "moduleInfo/params/maxDamage"
+msgstr "Максимальна шкода"
+
+msgid "moduleInfo/params/maxHealth"
+msgstr "Міцність"
+
+msgid "moduleInfo/params/maxHullHealth"
+msgstr "Міцність"
+
+msgid "moduleInfo/params/maxShotDistance"
+msgstr "Дальність стрільби"
+
+msgid "moduleInfo/params/maxShotDistance/footnote"
+msgstr "* максимальна дальність польоту снарядів для цієї гармати"
+
+msgid "moduleInfo/params/maxSteeringLockAngle"
+msgstr "Максимальний кут повороту коліс"
+
+msgid "moduleInfo/params/minAvgMutableDamageList"
+msgstr "Середня шкода з %(dist)s м"
+
+msgid "moduleInfo/params/noPiercingDistance/footnote"
+msgstr " для цього типу снарядів не залежить від відстані"
+
+msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
+msgstr ", максимальна дальність польоту — 400 м"
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "Кут нормалізації"
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "Зниження пробиття"
+
+msgid "moduleInfo/params/penetrationLoss/footnote"
+msgstr " цей тип снарядів починає втрачати пробивну здатність із відстанню після проходження першого екрана"
+
+msgid "moduleInfo/params/piercingDistance"
+msgstr "%(dist)s м"
+
+msgid "moduleInfo/params/piercingDistance/footnote"
+msgstr " залежить від відстані: %(minDist)s–%(maxDist)s метрів"
+
+msgid "moduleInfo/params/piercingDistanceHeader"
+msgstr "Середнє пробивання броні (мм) — Відстань"
+
+msgid "moduleInfo/params/piercingPower"
+msgstr "Пробивання броні"
+
+msgid "moduleInfo/params/radarCooldown"
+msgstr "Час приготування радара"
+
+msgid "moduleInfo/params/radarRadius"
+msgstr "Радіус виявлення"
+
+msgid "moduleInfo/params/radioDistance"
+msgstr "Дальність дії зв’язку"
+
+msgid "moduleInfo/params/rateTime"
+msgstr "Час між пострілом і переходом до зарядженої гармати"
+
+msgid "moduleInfo/params/reloadCooldownSeconds"
+msgstr "Час перезаряджання"
+
+msgid "moduleInfo/params/reloadMagazineTime"
+msgstr "Час повного перезаряджання"
+
+msgid "moduleInfo/params/reloadTime"
+msgstr "Скорострільність"
+
+msgid "moduleInfo/params/reloadTimeSecs"
+msgstr "Заряджання гармати"
+
+msgid "moduleInfo/params/reloadTimeSingleGun"
+msgstr "Заряджання гармати в режимі одиночного вогню"
+
+msgid "moduleInfo/params/reloadTimeTwinGun"
+msgstr "Заряджання гармати в режимі залпового вогню"
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "Кут рикошету"
+
+msgid "moduleInfo/params/rocketAccelerationEnginePower"
+msgstr "Потужність двигуна (з прискор.)"
+
+msgid "moduleInfo/params/rotationSpeed"
+msgstr "Швидкість повороту"
+
+msgid "moduleInfo/params/screensArmorMultiplier"
+msgstr "Множник рознесеної броні"
+
+msgid "moduleInfo/params/screensArmorMultiplier/footnote"
+msgstr " цей тип снарядів пробиває екрани як зазвичай, але потім втрачає пробиття у кількості, що дорівнює потрійній товщині екрана"
+
+msgid "moduleInfo/params/screensArmorMultiplier/value"
+msgstr "×%(multiplier)s"
+
+msgid "moduleInfo/params/shellLoadingTime"
+msgstr "Час підготовки стрічки боєприпасів"
+
+msgid "moduleInfo/params/shellReloadingTime"
+msgstr "Час перезаряджання між пострілами"
+
+msgid "moduleInfo/params/shellsCount"
+msgstr "Снарядів у магазині"
+
+msgid "moduleInfo/params/short/crewRolesFactor"
+msgstr "До спеціальності екіпажу"
+
+msgid "moduleInfo/params/shotSpeed"
+msgstr "Швидкість польоту"
+
+msgid "moduleInfo/params/shotsNumberRange"
+msgstr "Кількість снарядів у залпі"
+
+msgid "moduleInfo/params/stunDurationList"
+msgstr "Час оглушення екіпажу"
+
+msgid "moduleInfo/params/stunMaxDuration"
+msgstr "Максимальний час оглушення екіпажу"
+
+msgid "moduleInfo/params/stunMaxDurationList"
+msgstr "Максимальний час оглушення екіпажу"
+
+msgid "moduleInfo/params/stunMinDuration"
+msgstr "Мінімальний час оглушення екіпажу"
+
+msgid "moduleInfo/params/stunMinDurationList"
+msgstr "Мінімальний час оглушення екіпажу"
+
+msgid "moduleInfo/params/turboshaftEnginePower"
+msgstr "Потужність двигуна (турбо)"
+
+msgid "moduleInfo/params/weight"
+msgstr "Маса"
+
+msgid "moduleInfo/propellantAfterburnerGun"
+msgstr "Індукційний допалювач снаряда, що підвищує середню шкоду"
+
+msgid "moduleInfo/rocketAcceleration"
+msgstr "Реактивні прискорювачі, що підвищують мобільність"
+
+msgid "moduleInfo/stagedJetBoosters"
+msgstr "Твердопаливні прискорювачі, що підсилюють прискорення, рухливість і маневровість"
+
+msgid "moduleInfo/title"
+msgstr " "
+
+msgid "moduleInfo/trackWithinTrack"
+msgstr "Резервна гусениця: дає змогу частково зберегти мобільність у разі виходу з ладу основної гусеничної стрічки."
+
+msgid "moduleInfo/turboshaftEngine"
+msgstr "Газотурбінний двигун:\nдає змогу набирати високу швидкість."
+
+msgid "moduleInfo/twinGun"
+msgstr "Система вибору режиму вогню"
+
+msgid "moduleInfo/wheeledDash"
+msgstr "Особлива механіка машини на короткий час значно підвищує її прискорення, потужність двигуна й максимальну швидкість руху вперед і назад."
+
+msgid "nation_tree/blueprint_title/china"
+msgstr "Креслення техніки Китаю"
+
+msgid "nation_tree/blueprint_title/czech"
+msgstr "Креслення техніки Чехословаччини"
+
+msgid "nation_tree/blueprint_title/france"
+msgstr "Креслення техніки Франції"
+
+msgid "nation_tree/blueprint_title/germany"
+msgstr "Креслення техніки Німеччини"
+
+msgid "nation_tree/blueprint_title/italy"
+msgstr "Креслення техніки Італії"
+
+msgid "nation_tree/blueprint_title/japan"
+msgstr "Креслення техніки Японії"
+
+msgid "nation_tree/blueprint_title/poland"
+msgstr "Креслення техніки Польщі"
+
+msgid "nation_tree/blueprint_title/sweden"
+msgstr "Креслення техніки Швеції"
+
+msgid "nation_tree/blueprint_title/uk"
+msgstr "Креслення техніки Великобританії"
+
+msgid "nation_tree/blueprint_title/usa"
+msgstr "Креслення техніки США"
+
+msgid "nation_tree/blueprint_title/ussr"
+msgstr "Креслення техніки СРСР"
+
+msgid "nation_tree/title/china"
+msgstr "Техніка Китаю"
+
+msgid "nation_tree/title/czech"
+msgstr "Техніка Чехословаччини"
+
+msgid "nation_tree/title/france"
+msgstr "Техніка Франції"
+
+msgid "nation_tree/title/germany"
+msgstr "Техніка Німеччини"
+
+msgid "nation_tree/title/italy"
+msgstr "Техніка Італії"
+
+msgid "nation_tree/title/japan"
+msgstr "Техніка Японії"
+
+msgid "nation_tree/title/poland"
+msgstr "Техніка Польщі"
+
+msgid "nation_tree/title/sweden"
+msgstr "Техніка Швеції"
+
+msgid "nation_tree/title/uk"
+msgstr "Техніка Великобританії"
+
+msgid "nation_tree/title/usa"
+msgstr "Техніка США"
+
+msgid "nation_tree/title/ussr"
+msgstr "Техніка СРСР"
+
+msgid "nations/all"
+msgstr "Всі нації"
+
+msgid "nations/china"
+msgstr "Китай"
+
+msgid "nations/czech"
+msgstr "Чехословаччина"
+
+msgid "nations/france"
+msgstr "Франція"
+
+msgid "nations/germany"
+msgstr "Німеччина"
+
+msgid "nations/italy"
+msgstr "Італія"
+
+msgid "nations/japan"
+msgstr "Японія"
+
+msgid "nations/poland"
+msgstr "Польща"
+
+msgid "nations/sweden"
+msgstr "Швеція"
+
+msgid "nations/title"
+msgstr "Нація"
+
+msgid "nations/uk"
+msgstr "Великобританія"
+
+msgid "nations/usa"
+msgstr "США"
+
+msgid "nations/ussr"
+msgstr "СРСР"
+
+msgid "onlineCounter/delimiter"
+msgstr " / "
+
+msgid "onlineCounter/total"
+msgstr "Разом"
+
+msgid "onlineCounter/unavailable"
+msgstr "- -"
+
+msgid "opponents"
+msgstr "%(firstOpponent)s проти %(secondOpponent)s"
+
+msgid "optionalDeviceFits/title"
+msgstr "Вибір обладнання"
+
+msgid "prebattle/CompaniesTitle/ABSOLUTE"
+msgstr "Абсолютний"
+
+msgid "prebattle/CompaniesTitle/CHAMPION"
+msgstr "Чемпіонський"
+
+msgid "prebattle/CompaniesTitle/EVENT"
+msgstr "Сталеве полювання 15x15"
+
+msgid "prebattle/CompaniesTitle/EVENT_10x10"
+msgstr "Сталеве полювання 10x10"
+
+msgid "prebattle/CompaniesTitle/JUNIOR"
+msgstr "Юніорський"
+
+msgid "prebattle/CompaniesTitle/MIDDLE"
+msgstr "Середній"
+
+msgid "prebattle/already_in_awaiting_battle"
+msgstr "Ви вже перебуваєте в режимі очікування бою."
+
+msgid "prebattle/battleReady"
+msgstr "Бойова готовність!"
+
+msgid "prebattle/battleRoyale/solo"
+msgstr "У поодинокій черзі"
+
+msgid "prebattle/battleRoyale/squad"
+msgstr "У взводний черзі"
+
+msgid "prebattle/description"
+msgstr "prebattle/description"
+
+msgid "prebattle/exitButton"
+msgstr "Вийти з бою"
+
+msgid "prebattle/groupsLabel"
+msgstr "Команд у черзі:"
+
+msgid "prebattle/invitations/buttons/cancel"
+msgstr "Закрити"
+
+msgid "prebattle/invitations/buttons/search"
+msgstr "Шукати"
+
+msgid "prebattle/invitations/buttons/send"
+msgstr "Запросити"
+
+msgid "prebattle/invitations/errors/addIgnoredUser"
+msgstr "Ви не можете додати гравця з «Чорного списку»."
+
+msgid "prebattle/invitations/errors/existsInReceiveList"
+msgstr "Гравець в списку розсилання."
+
+msgid "prebattle/invitations/errors/notFoundUsers"
+msgstr "Не знайдено гравців, які перебувають у мережі і не занесені в «Чорний список»."
+
+msgid "prebattle/invitations/errors/receiverListEmpty"
+msgstr "Список розсилання порожній."
+
+msgid "prebattle/invitations/errors/selectUserToAdd"
+msgstr "Виберіть гравця, якого додати до списку розсилання."
+
+msgid "prebattle/invitations/errors/selectUserToRemove"
+msgstr "Виберіть гравця, якого видалити зі списку розсилання."
+
+msgid "prebattle/invitations/errors/userListEmpty"
+msgstr "Список гравців пустий."
+
+msgid "prebattle/invitations/errors/userOffline"
+msgstr "Гравець мусить перебувати в мережі."
+
+msgid "prebattle/invitations/labels/defaultInviteText"
+msgstr "Текст запрошення"
+
+msgid "prebattle/invitations/labels/defaultInviteText/tooltip"
+msgstr "Текст може містити до %(maxChars)s символів."
+
+msgid "prebattle/invitations/labels/isOnline"
+msgstr "Приховати гравців не в мережі"
+
+msgid "prebattle/invitations/labels/mailingList"
+msgstr "Список одержувачів"
+
+msgid "prebattle/playersLabel"
+msgstr "Гравців у черзі:"
+
+msgid "prebattle/rts/tankLabel"
+msgstr "Ваша роль:"
+
+msgid "prebattle/searchPlayers"
+msgstr "Пошук гравців"
+
+msgid "prebattle/sideA"
+msgstr "Сторона А:"
+
+msgid "prebattle/sideB"
+msgstr "Сторона Б:"
+
+msgid "prebattle/startButton"
+msgstr "Почати бій"
+
+msgid "prebattle/startingTankLabel"
+msgstr "Ваша перша машина: "
+
+msgid "prebattle/tankLabel"
+msgstr "Ви вибрали:"
+
+msgid "prebattle/timerLabel"
+msgstr "Час очікування:"
+
+msgid "prebattle/title"
+msgstr "Стандартний бій"
+
+msgid "prebattle/waitingTimeWarning"
+msgstr "*Зазвичай САУ очікує на бій триваліший час, ніж інші типи техніки. Зачекайте."
+
+msgid "premium/bonus"
+msgstr "Кредитів та досвіду\nза кожен бій"
+
+msgid "premium/buyMessage"
+msgstr "Купити преміум акаунт"
+
+msgid "premium/buyTitle"
+msgstr "Купівля преміум акаунта"
+
+msgid "premium/cancel"
+msgstr "Скасувати"
+
+msgid "premium/continueMessage"
+msgstr "Продовжити преміум акаунт"
+
+msgid "premium/continueTitle"
+msgstr "Продовження преміум акаунта"
+
+msgid "premium/gold"
+msgstr "золота"
+
+msgid "premium/ofCreditsAndExperience"
+msgstr "кредитів та досвіду"
+
+msgid "premium/packet/days1"
+msgstr "1 доба"
+
+msgid "premium/packet/days14"
+msgstr "14 діб"
+
+msgid "premium/packet/days180"
+msgstr "180 діб"
+
+msgid "premium/packet/days3"
+msgstr "3 доби"
+
+msgid "premium/packet/days30"
+msgstr "30 діб"
+
+msgid "premium/packet/days360"
+msgstr "360 діб"
+
+msgid "premium/packet/days7"
+msgstr "7 діб"
+
+msgid "premium/packet/days90"
+msgstr "90 діб"
+
+msgid "premium/packet/longDescriptionSpecial"
+msgstr "Преміум акаунт дозволяє вам швидше розвиватися у грі, додаючи додатковий здобуток кредитів та досвіду. Преміум акаунт єдиний для World of Tanks, World of Warships та World of Warplanes, тому, купуючи його для однієї гри, ви автоматично отримуєте його в інших."
+
+msgid "premium/packet/shortDescriptionSpecial"
+msgstr "+50 % до досвіду, кредитів та досвіду екіпажу за бій"
+
+msgid "premium/perEverButtle"
+msgstr "за кожен бій"
+
+msgid "premium/percentFactor"
+msgstr "+50%"
+
+msgid "premium/periods/days1"
+msgstr "На добу (24 години)"
+
+msgid "premium/periods/days14"
+msgstr "На 2 тижні (14 діб)"
+
+msgid "premium/periods/days180"
+msgstr "На 6 місяців (180 діб)"
+
+msgid "premium/periods/days3"
+msgstr "На 3 доби (72 години)"
+
+msgid "premium/periods/days30"
+msgstr "На місяць (30 діб)"
+
+msgid "premium/periods/days360"
+msgstr "На 12 місяців (360 діб)"
+
+msgid "premium/periods/days7"
+msgstr "На тиждень (7 діб)"
+
+msgid "premium/periods/days90"
+msgstr "На 3 місяці (90 діб)"
+
+msgid "premium/promoMessage"
+msgstr "Дає на 50% більше кредитів і на 50% більше досвіду за кожен бій."
+
+msgid "premium/submitBuy"
+msgstr "Купити"
+
+msgid "premium/submitContinue"
+msgstr "Продовжити"
+
+msgid "premium/tariffs/duration"
+msgstr "%d дб:"
+
+msgid "premium/tariffs/header"
+msgstr "Вибір терміну дії"
+
+msgid "price/bpbit"
+msgstr "очок Бойової перепустки"
+
+msgid "price/bpcoin"
+msgstr "жетонів Бойової перепустки"
+
+msgid "price/credits"
+msgstr "кредитів"
+
+msgid "price/crystal"
+msgstr "бон"
+
+msgid "price/equipCoin"
+msgstr "компонентів"
+
+msgid "price/eventCoin"
+msgstr "ювілейних монет"
+
+msgid "price/gold"
+msgstr "золота"
+
+msgid "price/received"
+msgstr "Отримано %s"
+
+msgid "price/spent"
+msgstr "Витрачено %s"
+
+msgid "primeTime/server"
+msgstr "Доступний для входу сервер: %(server)s."
+
+msgid "primeTime/servers"
+msgstr "Доступні сервери:"
+
+msgid "profile/clan/label"
+msgstr "Клан:"
+
+msgid "profile/creationTime"
+msgstr "Створено:"
+
+msgid "profile/credits"
+msgstr "Кредити:"
+
+msgid "profile/crystal"
+msgstr "Бони:"
+
+msgid "profile/eventCoin"
+msgstr "Ювілейні монети:"
+
+msgid "profile/exchange"
+msgstr "Обміняти"
+
+msgid "profile/gold"
+msgstr "Золото:"
+
+msgid "profile/header/clan/joinDate"
+msgstr "Дата вступу: %s"
+
+msgid "profile/header/clan/position"
+msgstr "Посада: %s"
+
+msgid "profile/header/clan/position/commander"
+msgstr "Командир підрозділу"
+
+msgid "profile/header/clan/position/diplomat"
+msgstr "Офіцер розвідки"
+
+msgid "profile/header/clan/position/junior"
+msgstr "Молодший офіцер"
+
+msgid "profile/header/clan/position/leader"
+msgstr "Командувач"
+
+msgid "profile/header/clan/position/private"
+msgstr "Рядовий"
+
+msgid "profile/header/clan/position/recruit"
+msgstr "Новобранець"
+
+msgid "profile/header/clan/position/recruiter"
+msgstr "Офіцер з кадрів"
+
+msgid "profile/header/clan/position/reservist"
+msgstr "Резервіст"
+
+msgid "profile/header/clan/position/staff"
+msgstr "Офіцер штабу"
+
+msgid "profile/header/clan/position/treasurer"
+msgstr "Офіцер забезпечення"
+
+msgid "profile/header/clan/position/vice_leader"
+msgstr "Заступник командувача"
+
+msgid "profile/header/fights"
+msgstr "Бої"
+
+msgid "profile/header/lastBattleDateTitle"
+msgstr "Востаннє був у бою:"
+
+msgid "profile/header/registrationDateTitle"
+msgstr "Зареєстрований:"
+
+msgid "profile/header/wins"
+msgstr "Перемоги"
+
+msgid "profile/list/descr"
+msgstr "Результати для %s"
+
+msgid "profile/list/totalName"
+msgstr "Загальні результати"
+
+msgid "profile/premiumBuy"
+msgstr "Купити преміум"
+
+msgid "profile/premiumContinue"
+msgstr "Продовжити преміум акаунт"
+
+msgid "profile/premiunExpirationDate"
+msgstr "Закінчується %s"
+
+msgid "profile/stats/blocks/battleeffect"
+msgstr "Бойова ефективність"
+
+msgid "profile/stats/blocks/common"
+msgstr "Бойовий досвід"
+
+msgid "profile/stats/blocks/credits"
+msgstr "Досвід"
+
+msgid "profile/stats/blocks/studying"
+msgstr "Навчання"
+
+msgid "profile/stats/items/avgExperience"
+msgstr "Середній досвід за бій"
+
+msgid "profile/stats/items/battlesCount"
+msgstr "Зіграно боїв"
+
+msgid "profile/stats/items/damageDealt"
+msgstr "Завдано шкоди"
+
+msgid "profile/stats/items/defender"
+msgstr "«Захисник»:"
+
+msgid "profile/stats/items/effectiveShots"
+msgstr "Відсоток влучень"
+
+msgid "profile/stats/items/empty"
+msgstr "--"
+
+msgid "profile/stats/items/frags"
+msgstr "Машин знищено"
+
+msgid "profile/stats/items/fragsBeast"
+msgstr "Максимум знищено за бій"
+
+msgid "profile/stats/items/heroes"
+msgstr "Був героєм битв:"
+
+msgid "profile/stats/items/invader"
+msgstr "«Загарбник»:"
+
+msgid "profile/stats/items/lastBattleTime"
+msgstr "Був у боях:"
+
+msgid "profile/stats/items/losses"
+msgstr "Поразок"
+
+msgid "profile/stats/items/maxFrags"
+msgstr "Максимум знищено за бій"
+
+msgid "profile/stats/items/maxXP"
+msgstr "Максимальний досвід за бій"
+
+msgid "profile/stats/items/medalKay"
+msgstr "Ступінь медалі Кея:"
+
+msgid "profile/stats/items/nextSkillBattlesLeft"
+msgstr "Приблизно залишилося боїв"
+
+msgid "profile/stats/items/nextSkillXPLeft"
+msgstr "Лишилося досвіду до зросту навички"
+
+msgid "profile/stats/items/ready"
+msgstr "Навичка доступна"
+
+msgid "profile/stats/items/readyToLearn"
+msgstr "Вивчення навичок:"
+
+msgid "profile/stats/items/scout"
+msgstr "«Розвідник»:"
+
+msgid "profile/stats/items/sniper"
+msgstr "«Снайпер»:"
+
+msgid "profile/stats/items/steelwall"
+msgstr "«Сталева стіна»:"
+
+msgid "profile/stats/items/supporter"
+msgstr "«Підтримка»:"
+
+msgid "profile/stats/items/survivedBattles"
+msgstr "Вижив у боях"
+
+msgid "profile/stats/items/timeUntilNextLevel"
+msgstr "Залишилося часу (Курс підготовки)"
+
+msgid "profile/stats/items/unknown"
+msgstr "Невідомо"
+
+msgid "profile/stats/items/warrior"
+msgstr "«Воїн»:"
+
+msgid "profile/stats/items/wins"
+msgstr "Перемог"
+
+msgid "profile/stats/items/xp"
+msgstr "Сумарний досвід"
+
+msgid "progressiveReward/widget/desc"
+msgstr "Грайте та отримуйте майнове забезпечення кресленнями досліджуваної техніки та іншим корисним майном."
+
+msgid "progressiveReward/widget/title"
+msgstr "Майнове забезпечення"
+
+msgid "promo/teaser/title"
+msgstr "Польова пошта"
+
+msgid "promo/teaserTimeFormat/days"
+msgstr "%(day)sдб:%(hour)s:%(min)s:%(sec)s"
+
+msgid "promo/teaserTimeFormat/hours"
+msgstr "%(hour)s:%(min)s:%(sec)s"
+
+msgid "promo/teaserTimeFormat/lessMin"
+msgstr "%(hour)s:%(min)s:%(sec)s"
+
+msgid "promo/teaserTimeFormat/min"
+msgstr "%(hour)s:%(min)s:%(sec)s"
+
+msgid "quote"
+msgstr "«%(string)s»"
+
+msgid "rangeDelimiter"
+msgstr "—"
+
+msgid "rating/messages/addToFriends"
+msgstr "Додати гравця в групу «Друзі»"
+
+msgid "rating/messages/addToIgnor"
+msgstr "Додати гравця в «Чорний список»"
+
+msgid "rating/messages/createPrivate"
+msgstr "Створити приватний канал"
+
+msgid "rating/messages/dropFromFriends"
+msgstr "Видалити гравця з групи «Друзі»"
+
+msgid "rating/messages/dropFromIgnor"
+msgstr "Видалити гравця з «Чорного списку»"
+
+msgid "rating/messages/userInfo"
+msgstr "Показати інформацію про гравця"
+
+msgid "rating/table/headers/c1"
+msgstr "№"
+
+msgid "rating/table/headers/c2"
+msgstr "Ім’я гравця"
+
+msgid "rating/table/headers/c3"
+msgstr "Зіграв боїв"
+
+msgid "rating/table/headers/c4"
+msgstr "Досвід"
+
+msgid "rating/table/headers/c5"
+msgstr "Знищив"
+
+msgid "rating/table/headers/c6"
+msgstr "Був знищений"
+
+msgid "rating/title"
+msgstr "Рейтинг"
+
+msgid "repair/button"
+msgstr "Ремонтувати"
+
+msgid "repair/curiency"
+msgstr "кр."
+
+msgid "repair/repairstatus"
+msgstr "Ремонт:"
+
+msgid "report_content"
+msgstr "Поскаржитися на вміст"
+
+msgid "research/labels/button/addToCompare"
+msgstr "Додати до порівняння"
+
+msgid "research/labels/button/buy"
+msgstr "Купити"
+
+msgid "research/labels/button/nationChange"
+msgstr "Змінити націю"
+
+msgid "research/labels/button/rent"
+msgstr "Вартість прокату від"
+
+msgid "research/labels/button/restore"
+msgstr "Відновити"
+
+msgid "research/labels/button/showInHangar"
+msgstr "Показати в Гаражі"
+
+msgid "research/labels/button/toCollection"
+msgstr "До колекції"
+
+msgid "research/labels/button/trade-in"
+msgstr "Обміняти"
+
+msgid "research/labels/button/vehiclePreview"
+msgstr "Попередній перегляд"
+
+msgid "research/labels/freeXP"
+msgstr "Вільний досвід"
+
+msgid "research/labels/totalXP"
+msgstr "Сумарний досвід"
+
+msgid "research/labels/vehXP"
+msgstr "Бойовий досвід"
+
+msgid "research/premium/benefits/first"
+msgstr "Більше кредитів за кожен бій"
+
+msgid "research/premium/benefits/fourth"
+msgstr "Конвертація бойового досвіду на вільний"
+
+msgid "research/premium/benefits/second"
+msgstr "Більше бойового досвіду й досвіду екіпажу за кожен бій"
+
+msgid "research/premium/benefits/third"
+msgstr "Пришвидшене навчання й пересаджування без штрафу"
+
+msgid "research/premium/discount"
+msgstr "Знижка на купівлю:"
+
+msgid "research/restore/commmonInfo"
+msgstr "Відновити можна"
+
+msgid "research/restore/dueDate"
+msgstr "до %(date)s"
+
+msgid "research/status/historicalModules"
+msgstr "На техніці встановлена історична комплектація"
+
+msgid "research/status/rentLeft"
+msgstr "Термін прокату до"
+
+msgid "research/status/tradeIn"
+msgstr "Доступний обмін"
+
+msgid "roleExp/action/blockAndTakeDamage"
+msgstr "Розмінюйте очки міцності та блокуйте шкоду."
+
+msgid "roleExp/action/blockDamage"
+msgstr "Блокуйте шкоду в бою."
+
+msgid "roleExp/action/doFarDamage"
+msgstr "Завдавайте шкоди з далекої дистанції."
+
+msgid "roleExp/action/doGroupStun"
+msgstr "Оглушуйте одночасно дві машини супротивника чи більше."
+
+msgid "roleExp/action/doInvisAssist"
+msgstr "Передавайте союзникам розвіддані, залишаючись непоміченим."
+
+msgid "roleExp/action/doNearDamage"
+msgstr "Завдавайте шкоди з близької дистанції."
+
+msgid "roleExp/action/doNearDamageSq"
+msgstr "Завдавайте шкоди з близької та середньої дистанцій."
+
+msgid "roleExp/action/doOwnDamage"
+msgstr "Завдавайте шкоди за своїми розвідданими."
+
+msgid "roleExp/action/doSpgDamage"
+msgstr "Завдавайте шкоди САУ супротивника."
+
+msgid "roleExp/action/doStun"
+msgstr "Допомагайте союзникам завдавати шкоди, оглушаючи супротивника."
+
+msgid "roleExp/action/fragAssist"
+msgstr "Допомагайте знищувати супротивника."
+
+msgid "roleExp/action/searchEnemy"
+msgstr "Виявляйте техніку супротивника."
+
+msgid "roleExp/roleDescr/role_ATSPG_assault"
+msgstr "Машини з невисокою рухливістю, але потужним фронтальним бронюванням. Прекрасно реалізують себе на передовій."
+
+msgid "roleExp/roleDescr/role_ATSPG_sniper"
+msgstr "Машини зі слабким бронезахистом, але чудовими гарматами, які диктують засадну тактику гри в більшості ігрових ситуацій."
+
+msgid "roleExp/roleDescr/role_ATSPG_support"
+msgstr "Машини з чудовим озброєнням, ефективна реалізація якого потребує дотримання певних умов. Здатні завдати велику кількість шкоди за короткий час."
+
+msgid "roleExp/roleDescr/role_ATSPG_universal"
+msgstr "Самохідки з усередненими ТТХ, однаково ефективні під час гри на будь-якій дистанції."
+
+msgid "roleExp/roleDescr/role_HT_assault"
+msgstr "Важкоброньовані машини, здатні «розмінювати» свої очки міцності та гідно тримати удар, перебуваючи безпосередньо на вістрі атаки."
+
+msgid "roleExp/roleDescr/role_HT_break"
+msgstr "Відносно мобільні машини з гідною бронею, однаково ефективні як на першій лінії в позиційному бою, так і під час флангових обходів."
+
+msgid "roleExp/roleDescr/role_HT_support"
+msgstr "Машини з чудовим озброєнням, ефективна реалізація якого потребує дотримання певних умов. Здатні завдати велику кількість шкоди за короткий час."
+
+msgid "roleExp/roleDescr/role_HT_universal"
+msgstr "Багатофункціональні танки, здатні підлаштовуватися під поточну ситуацію в бою."
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "Швидкі та маневрені машини, здатні як вести розвідку, так і завдавати шкоди під час стрімких флангових обходів."
+
+msgid "roleExp/roleDescr/role_LT_wheeled"
+msgstr "Машини з надзвичайними динамічними характеристиками, повна реалізація яких часто залежить від мапи чи тактичної ситуації."
+
+msgid "roleExp/roleDescr/role_MT_assault"
+msgstr "Машини з гідним бронюванням, здатні ефективно грати на передовій і протистояти важким танкам супротивника."
+
+msgid "roleExp/roleDescr/role_MT_sniper"
+msgstr "Танки з чудовими гарматами та слабким бронезахистом, які найефективніше розкривають себе на дистанції."
+
+msgid "roleExp/roleDescr/role_MT_support"
+msgstr "Машини з чудовим озброєнням, ефективна реалізація якого потребує дотримання певних умов. Здатні завдати велику кількість шкоди за короткий час."
+
+msgid "roleExp/roleDescr/role_MT_universal"
+msgstr "Збалансовані танки з широким спектром завдань. Здатні ефективно підлаштовуватися під особливості мапи та тактичної ситуації."
+
+msgid "roleExp/roleDescr/role_SPG"
+msgstr "Загоризонтна підтримка атаки. Допоміжні машини, ефективність яких зазвичай залежить від ситуації в бою та поведінки команд."
+
+msgid "roleExp/roleGroupName/role_ATSPG_assault"
+msgstr "штурмова"
+
+msgid "roleExp/roleGroupName/role_ATSPG_sniper"
+msgstr "снайперська"
+
+msgid "roleExp/roleGroupName/role_ATSPG_support"
+msgstr "підтримки"
+
+msgid "roleExp/roleGroupName/role_ATSPG_universal"
+msgstr "універсальна"
+
+msgid "roleExp/roleGroupName/role_HT_assault"
+msgstr "штурмовий"
+
+msgid "roleExp/roleGroupName/role_HT_break"
+msgstr "прориву"
+
+msgid "roleExp/roleGroupName/role_HT_support"
+msgstr "підтримки"
+
+msgid "roleExp/roleGroupName/role_HT_universal"
+msgstr "універсальний"
+
+msgid "roleExp/roleGroupName/role_LT_universal"
+msgstr "універсальний"
+
+msgid "roleExp/roleGroupName/role_LT_wheeled"
+msgstr "колісний"
+
+msgid "roleExp/roleGroupName/role_MT_assault"
+msgstr "штурмовий"
+
+msgid "roleExp/roleGroupName/role_MT_sniper"
+msgstr "снайперський"
+
+msgid "roleExp/roleGroupName/role_MT_support"
+msgstr "підтримки"
+
+msgid "roleExp/roleGroupName/role_MT_universal"
+msgstr "універсальний"
+
+msgid "roleExp/roleGroupName/role_SPG"
+msgstr " "
+
+msgid "roleExp/roleLabel"
+msgstr "Роль:"
+
+msgid "roleExp/roleName/role_ATSPG_assault"
+msgstr "ПТ-САУ %(groupName)s"
+
+msgid "roleExp/roleName/role_ATSPG_sniper"
+msgstr "ПТ-САУ %(groupName)s"
+
+msgid "roleExp/roleName/role_ATSPG_support"
+msgstr "ПТ-САУ %(groupName)s"
+
+msgid "roleExp/roleName/role_ATSPG_universal"
+msgstr "ПТ-САУ %(groupName)s"
+
+msgid "roleExp/roleName/role_HT_assault"
+msgstr "Важкий танк %(groupName)s"
+
+msgid "roleExp/roleName/role_HT_break"
+msgstr "Важкий танк %(groupName)s"
+
+msgid "roleExp/roleName/role_HT_support"
+msgstr "Важкий танк %(groupName)s"
+
+msgid "roleExp/roleName/role_HT_universal"
+msgstr "Важкий танк %(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
+msgstr "Легкий танк %(groupName)s"
+
+msgid "roleExp/roleName/role_LT_wheeled"
+msgstr "Легкий танк %(groupName)s"
+
+msgid "roleExp/roleName/role_MT_assault"
+msgstr "Середній танк %(groupName)s"
+
+msgid "roleExp/roleName/role_MT_sniper"
+msgstr "Середній танк %(groupName)s"
+
+msgid "roleExp/roleName/role_MT_support"
+msgstr "Середній танк %(groupName)s"
+
+msgid "roleExp/roleName/role_MT_universal"
+msgstr "Середній танк %(groupName)s"
+
+msgid "roleExp/roleName/role_SPG"
+msgstr "САУ %(groupName)s"
+
+msgid "screenshot/save"
+msgstr "Скриншот збережено: %(path)s"
+
+msgid "serverStats/arenasCount"
+msgstr "Боїв:"
+
+msgid "serverStats/playersCount"
+msgstr "Гравців:"
+
+msgid "serverStats/playersInArenaCount"
+msgstr "У бою:"
+
+msgid "shell/caliber/units"
+msgstr "мм"
+
+msgid "shop/actions/filter/label"
+msgstr "Показати всі пропозиції зі знижкою"
+
+msgid "shop/errors/centerIsDown"
+msgstr "Тимчасово недоступний"
+
+msgid "shop/errors/inHangar"
+msgstr "В Гаражі"
+
+msgid "shop/errors/lockedNation"
+msgstr "Недоступно"
+
+msgid "shop/errors/unlockNeeded"
+msgstr "Не досліджено"
+
+msgid "shop/header/equipment/myVehicle"
+msgstr "Спорядження для %(vehicle)s:"
+
+msgid "shop/header/equipment/myVehicles"
+msgstr "Спорядження для моєї техніки%(nation)s:"
+
+msgid "shop/header/equipment/otherVehicles"
+msgstr "Спорядження%(nation)s:"
+
+msgid "shop/header/module/myVehicle"
+msgstr "%(type)s для %(vehicle)s:"
+
+msgid "shop/header/module/myVehicles"
+msgstr "%(type)s для моєї техніки%(nation)s:"
+
+msgid "shop/header/module/otherVehicles"
+msgstr "%(type)s%(nation)s:"
+
+msgid "shop/header/optionalDevice/myVehicle"
+msgstr "Обладнання для %(vehicle)s:"
+
+msgid "shop/header/optionalDevice/myVehicles"
+msgstr "Обладнання для моєї техніки%(nation)s:"
+
+msgid "shop/header/optionalDevice/otherVehicles"
+msgstr "Обладнання%(nation)s:"
+
+msgid "shop/header/shell/myInventoryGuns"
+msgstr "Снаряди для моїх гармат на Складі%(nation)s:"
+
+msgid "shop/header/shell/myVehicleGun"
+msgstr "Снаряди для цієїї гармати на %(vehicle)s:"
+
+msgid "shop/header/shell/myVehiclesInventoryGuns"
+msgstr "Снаряди для усіх моїх гармат%(nation)s:"
+
+msgid "shop/header/shell/otherGuns"
+msgstr "Снаряди для усіх гармат%(nation)s:"
+
+msgid "shop/header/vehicle"
+msgstr "Всі %(type)s%(nation)s:"
+
+msgid "shop/menu/battleBooster/name"
+msgstr "Настанови"
+
+msgid "shop/menu/battleBooster/targetType/allKind/name"
+msgstr "Всі"
+
+msgid "shop/menu/battleBooster/targetType/forCrew/name"
+msgstr "Для екіпажу"
+
+msgid "shop/menu/battleBooster/targetType/forEquipment/name"
+msgstr "Для обладнання"
+
+msgid "shop/menu/equipment/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "shop/menu/equipment/fits/myVehicles/name"
+msgstr "Моєї техніки"
+
+msgid "shop/menu/equipment/fits/name"
+msgstr "Пасує до"
+
+msgid "shop/menu/equipment/fits/otherVehicles/name"
+msgstr "Всієї техніки"
+
+msgid "shop/menu/equipment/name"
+msgstr "Спорядження"
+
+msgid "shop/menu/module/extra/inHangar/name"
+msgstr "Модулі на Складі"
+
+msgid "shop/menu/module/extra/locked/name"
+msgstr "Недосліджені"
+
+msgid "shop/menu/module/extra/name"
+msgstr "Показувати"
+
+msgid "shop/menu/module/extra/onVehicle/name"
+msgstr "Встановлені на техніку"
+
+msgid "shop/menu/module/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "shop/menu/module/fits/myVehicles/name"
+msgstr "Мою техніку"
+
+msgid "shop/menu/module/fits/name"
+msgstr "Встановлюють на"
+
+msgid "shop/menu/module/fits/otherVehicles/name"
+msgstr "Всю техніку"
+
+msgid "shop/menu/module/name"
+msgstr "Модулі"
+
+msgid "shop/menu/module/types/vehicleChassis/name"
+msgstr "Шасі"
+
+msgid "shop/menu/module/types/vehicleEngine/name"
+msgstr "Двигуни"
+
+msgid "shop/menu/module/types/vehicleGun/name"
+msgstr "Гармати"
+
+msgid "shop/menu/module/types/vehicleRadio/name"
+msgstr "Радіостанції"
+
+msgid "shop/menu/module/types/vehicleTurret/name"
+msgstr "Башти"
+
+msgid "shop/menu/optionalDevice/extra/name"
+msgstr "Показувати"
+
+msgid "shop/menu/optionalDevice/extra/onVehicle/name"
+msgstr "Встановлено на техніку"
+
+msgid "shop/menu/optionalDevice/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "shop/menu/optionalDevice/fits/myVehicles/name"
+msgstr "Мою техніку"
+
+msgid "shop/menu/optionalDevice/fits/name"
+msgstr "Встановлюють на"
+
+msgid "shop/menu/optionalDevice/fits/otherVehicles/name"
+msgstr "Всю техніку"
+
+msgid "shop/menu/optionalDevice/name"
+msgstr "Обладнання"
+
+msgid "shop/menu/shell/fits/myInventoryGuns/name"
+msgstr "гармат на Складі"
+
+msgid "shop/menu/shell/fits/myVehicleGun/name"
+msgstr "Гармати, встановленої на"
+
+msgid "shop/menu/shell/fits/myVehiclesInventoryGuns/name"
+msgstr "Всіх моїх гармат"
+
+msgid "shop/menu/shell/fits/name"
+msgstr "Пасують до"
+
+msgid "shop/menu/shell/fits/otherGuns/name"
+msgstr "Всіх гармат"
+
+msgid "shop/menu/shell/kinds/ARMOR_PIERCING/name"
+msgstr "Бронебійні"
+
+msgid "shop/menu/shell/kinds/ARMOR_PIERCING_CR/name"
+msgstr "Підкаліберні"
+
+msgid "shop/menu/shell/kinds/ARMOR_PIERCING_HE/name"
+msgstr "Бронебійні каморні"
+
+msgid "shop/menu/shell/kinds/HIGH_EXPLOSIVE/name"
+msgstr "Осколково-фугасні"
+
+msgid "shop/menu/shell/kinds/HOLLOW_CHARGE/name"
+msgstr "Кумулятивні"
+
+msgid "shop/menu/shell/kinds/name"
+msgstr "Тип снарядів"
+
+msgid "shop/menu/shell/name"
+msgstr "Снаряди"
+
+msgid "shop/menu/vehicle/extra/inHangar/name"
+msgstr "Техніку в Гаражі"
+
+msgid "shop/menu/vehicle/extra/locked/name"
+msgstr "Недосліджену техніку"
+
+msgid "shop/menu/vehicle/extra/name"
+msgstr "Показувати"
+
+msgid "shop/menu/vehicle/extra/rentals/name"
+msgstr "Прокатну техніку"
+
+msgid "shop/menu/vehicle/levels/header"
+msgstr "Рівень техніки"
+
+msgid "shop/menu/vehicle/name"
+msgstr "Техніка"
+
+msgid "shop/menu/vehicle/obtainingType/restoreVehicle/name"
+msgstr "Відновити за кредити"
+
+msgid "shop/menu/vehicle/obtainingType/tradeInVehicle/name"
+msgstr "Обмін техніки"
+
+msgid "shop/menu/vehicle/obtainingType/vehicle/name"
+msgstr "Купівля"
+
+msgid "shop/menu/vehicle/rent/available"
+msgstr "Можливо узяти напрокат від %(price)s."
+
+msgid "shop/menu/vehicle/rent/cycle"
+msgstr "Етап %(cycle)d з %(seasonType)d"
+
+msgid "shop/menu/vehicle/rent/days"
+msgstr "на діб: %(days)d"
+
+msgid "shop/menu/vehicle/rent/discount"
+msgstr "Знижки до %(discount)s"
+
+msgid "shop/menu/vehicle/rent/forever"
+msgstr "безстроково"
+
+msgid "shop/menu/vehicle/rent/season"
+msgstr "Сезон %(season)d із %(seasonType)d"
+
+msgid "shop/menu/vehicle/restore"
+msgstr "відновити"
+
+msgid "shop/menu/vehicle/tradeInVehicle/price"
+msgstr "До %(discountValue)s"
+
+msgid "shop/menu/vehicle/tradeInVehicle/saving"
+msgstr "Економія на обміні"
+
+msgid "shop/menu/vehicle/tradeInVehicle/vehForTrade"
+msgstr "Можна обміняти"
+
+msgid "shop/menu/vehicle/type/header"
+msgstr "Тип техніки"
+
+msgid "shop/table/buttonBuy"
+msgstr "Купити"
+
+msgid "shop/table/buyActionOr"
+msgstr "або"
+
+msgid "shop/table/find"
+msgstr "Знайдено:"
+
+msgid "shop/table/header/compare"
+msgstr "Порівняти"
+
+msgid "shop/table/header/count/battleBooster"
+msgstr "На техніці/на Складі"
+
+msgid "shop/table/header/count/equipment"
+msgstr "На техніці/на Складі"
+
+msgid "shop/table/header/count/module"
+msgstr "На техніці/на Складі"
+
+msgid "shop/table/header/count/optionalDevice"
+msgstr "На техніці/на Складі"
+
+msgid "shop/table/header/count/shell"
+msgstr "На Складі"
+
+msgid "shop/table/header/count/vehicle"
+msgstr "?empty?"
+
+msgid "shop/table/header/price"
+msgstr "Вартість"
+
+msgid "shop/table/header/sale"
+msgstr "Знижка"
+
+msgid "shop/table/notForSale"
+msgstr "Не можна продати"
+
+msgid "specPrebetles/listTitle"
+msgstr "Список командних кімнат"
+
+msgid "specPrebetles/ownerTitle"
+msgstr "Капітан команди"
+
+msgid "specPrebetles/playersTitle"
+msgstr "Гравці"
+
+msgid "specPrebetles/title"
+msgstr "Командні бої"
+
+msgid "steam/cancel"
+msgstr "Скасувати"
+
+msgid "steam/goldPacketSelect"
+msgstr "Виберіть кількість ігрового золота:"
+
+msgid "steam/otherMethods"
+msgstr "інші способи оплати"
+
+msgid "steam/submit"
+msgstr "Прийняти"
+
+msgid "steam/title"
+msgstr "Оплатити через Steam"
+
+msgid "store/backButton/description"
+msgstr "ДО АКЦІЙ"
+
+msgid "store/backButton/label"
+msgstr "НАЗАД"
+
+msgid "store/menu/noItems"
+msgstr "Нічого не знайдено.\nПеревірте встановлені фільтри пошуку."
+
+msgid "store/vehicleStates/ammoNotFull"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/ammoNotFullEvents"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/battle"
+msgstr "У бою"
+
+msgid "store/vehicleStates/buySlot"
+msgstr "Купити слот"
+
+msgid "store/vehicleStates/buyTank"
+msgstr "Купити машину"
+
+msgid "store/vehicleStates/buyTankEmptyCount"
+msgstr "Вільних слотів:"
+
+msgid "store/vehicleStates/clanLocked"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/crewNotFull"
+msgstr "Неповний екіпаж"
+
+msgid "store/vehicleStates/damaged"
+msgstr "Потрібен ремонт"
+
+msgid "store/vehicleStates/dealIsOver"
+msgstr "Недоступно"
+
+msgid "store/vehicleStates/destroyed"
+msgstr "Потрібен ремонт"
+
+msgid "store/vehicleStates/disabled"
+msgstr "Машина заблокована"
+
+msgid "store/vehicleStates/exploded"
+msgstr "Потрібен ремонт"
+
+msgid "store/vehicleStates/fallout_broken"
+msgstr "Група не готова"
+
+msgid "store/vehicleStates/fallout_max"
+msgstr "Група не готова"
+
+msgid "store/vehicleStates/fallout_min"
+msgstr "Група не готова"
+
+msgid "store/vehicleStates/fallout_only"
+msgstr " "
+
+msgid "store/vehicleStates/fallout_required"
+msgstr "Група не готова"
+
+msgid "store/vehicleStates/group_is_not_ready"
+msgstr "Група не готова"
+
+msgid "store/vehicleStates/igrRentalIsOver"
+msgstr "Акцію завершено"
+
+msgid "store/vehicleStates/inPrebattle"
+msgstr "В формуванні"
+
+msgid "store/vehicleStates/inPremiumIgrOnly"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/locked"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/notpresent"
+msgstr "Потрібно\nкупити машину"
+
+msgid "store/vehicleStates/rentable"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/rentable/epic"
+msgstr "Лише для режиму «Лінія фронту»"
+
+msgid "store/vehicleStates/rentable/ranked"
+msgstr "Лише для режиму «Ранговий бій»"
+
+msgid "store/vehicleStates/rentableAgain"
+msgstr "Продовжити прокат"
+
+msgid "store/vehicleStates/rentableAgain/epic"
+msgstr "Продовжити прокат"
+
+msgid "store/vehicleStates/rentableAgain/ranked"
+msgstr "Продовжити термін прокату"
+
+msgid "store/vehicleStates/rentalIsOver"
+msgstr "Термін прокату завершено"
+
+msgid "store/vehicleStates/rented/epic"
+msgstr "Прокат на етап %(cycles)s"
+
+msgid "store/vehicleStates/rotationGroupLocked"
+msgstr "Недоступно"
+
+msgid "store/vehicleStates/serverRestriction"
+msgstr "Серверне обмеження"
+
+msgid "store/vehicleStates/undamaged"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/unsuitableToQueue"
+msgstr "Не пасує"
+
+msgid "store/vehicleStates/willBeUnlockedInBattle"
+msgstr "?empty?"
+
+msgid "storeTab/actions"
+msgstr "Акції"
+
+msgid "storeTab/inventory"
+msgstr "Склад"
+
+msgid "storeTab/shop"
+msgstr "Магазин"
+
+msgid "tankCarousel/statsStatus/unavailable"
+msgstr "Немає даних"
+
+msgid "tankCarousel/vehicleStates/ammoNotFull"
+msgstr "Неповний боєзапас"
+
+msgid "tankCarousel/vehicleStates/ammoNotFullEvents"
+msgstr "Неповний боєзапас"
+
+msgid "tankCarousel/vehicleStates/battle"
+msgstr "У бою"
+
+msgid "tankCarousel/vehicleStates/buySlot"
+msgstr "Купити слот"
+
+msgid "tankCarousel/vehicleStates/buyTank"
+msgstr "Купити машину"
+
+msgid "tankCarousel/vehicleStates/buyTankEmptyCount"
+msgstr "Вільних слотів: %(count)d"
+
+msgid "tankCarousel/vehicleStates/clanLocked"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/crewNotFull"
+msgstr "Неповний екіпаж"
+
+msgid "tankCarousel/vehicleStates/damaged"
+msgstr "Потрібен ремонт"
+
+msgid "tankCarousel/vehicleStates/dealIsOver"
+msgstr "Недоступно"
+
+msgid "tankCarousel/vehicleStates/destroyed"
+msgstr "Потрібен ремонт"
+
+msgid "tankCarousel/vehicleStates/disabled"
+msgstr "Машина заблокована"
+
+msgid "tankCarousel/vehicleStates/exploded"
+msgstr "Потрібен ремонт"
+
+msgid "tankCarousel/vehicleStates/fallout_broken"
+msgstr "Група не готова"
+
+msgid "tankCarousel/vehicleStates/fallout_max"
+msgstr "Група не готова"
+
+msgid "tankCarousel/vehicleStates/fallout_min"
+msgstr "Група не готова"
+
+msgid "tankCarousel/vehicleStates/fallout_only"
+msgstr "Не пасує"
+
+msgid "tankCarousel/vehicleStates/fallout_required"
+msgstr "Група не готова"
+
+msgid "tankCarousel/vehicleStates/group_is_not_ready"
+msgstr "Група не готова"
+
+msgid "tankCarousel/vehicleStates/igrRentalIsOver"
+msgstr "Акцію завершено"
+
+msgid "tankCarousel/vehicleStates/inPrebattle"
+msgstr "В формуванні"
+
+msgid "tankCarousel/vehicleStates/inPremiumIgrOnly"
+msgstr "Доступно лише у %(icon)s"
+
+msgid "tankCarousel/vehicleStates/locked"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/notpresent"
+msgstr "Немає в Гаражі"
+
+msgid "tankCarousel/vehicleStates/rentable"
+msgstr "Можливий прокат машини"
+
+msgid "tankCarousel/vehicleStates/rentable/epic"
+msgstr "Лише для режиму «Лінія фронту»"
+
+msgid "tankCarousel/vehicleStates/rentable/hover"
+msgstr "Узяти напрокат"
+
+msgid "tankCarousel/vehicleStates/rentable/ranked"
+msgstr "Лише для режиму «Ранговий бій»"
+
+msgid "tankCarousel/vehicleStates/rentableAgain/epic"
+msgstr "Продовжити прокат"
+
+msgid "tankCarousel/vehicleStates/rentableAgain/ranked"
+msgstr "Продовжити термін прокату"
+
+msgid "tankCarousel/vehicleStates/rentalIsOver"
+msgstr "Термін прокату завершено"
+
+msgid "tankCarousel/vehicleStates/restoreTank"
+msgstr "Відновити машину"
+
+msgid "tankCarousel/vehicleStates/restoreTankCount"
+msgstr "Доступно: %(count)d"
+
+msgid "tankCarousel/vehicleStates/rotationGroupLocked"
+msgstr "Недоступно"
+
+msgid "tankCarousel/vehicleStates/rotationGroupUnlocked"
+msgstr "Доступно боїв: %(battlesLeft)s"
+
+msgid "tankCarousel/vehicleStates/serverRestriction"
+msgstr "Серверне обмеження"
+
+msgid "tankCarousel/vehicleStates/subscription_suspended"
+msgstr "Призупинена"
+
+msgid "tankCarousel/vehicleStates/unavailable"
+msgstr "Недоступно"
+
+msgid "tankCarousel/vehicleStates/undamaged"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/unsuitableToQueue"
+msgstr "Непридатний режим"
+
+msgid "tankCarousel/vehicleStates/unsuitableToUnit"
+msgstr "Не пасує для взводу"
+
+msgid "tankCarousel/vehicleStates/willBeUnlockedInBattle"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/wot_plus_exclusive_vehicle_disabled"
+msgstr "Призупинено"
+
+msgid "tankCarousel/vehicleStates/xpMultReceived"
+msgstr "Збити ×%(factor)s"
+
+msgid "tankCarousel/vehicleStates/xpMultReceived/not"
+msgstr "×%(factor)s здобуто"
+
+msgid "tankCarousel/wotPlusSelectionAvailable"
+msgstr "Узяти машину напрокат"
+
+msgid "tankCarousel/wotPlusSelectionPending"
+msgstr "Очікуємо прокат"
+
+msgid "tank_params/accuracyDispersionCap"
+msgstr "Розкид при максимальній точності"
+
+msgid "tank_params/accuracyDispersionPerLevel"
+msgstr "Розкид на 100 м за рівень точності"
+
+msgid "tank_params/accuracyLevelGainTime"
+msgstr "Час для досягнення рівня точності"
+
+msgid "tank_params/accuracySpeedLimit"
+msgstr "Обмеження швидкості"
+
+msgid "tank_params/accuracyWhileMovingDispersionCap"
+msgstr "Розкид під час руху/повороту на максимальному рівні точності"
+
+msgid "tank_params/activeCoincideceShootingCharge"
+msgstr "Заряд електромеханічного далекоміра (% за влучення) (режим бою, активний)"
+
+msgid "tank_params/aimingTime"
+msgstr "Час зведення"
+
+msgid "tank_params/aimingTimeCoincidenceElectromechanicalSight"
+msgstr "Час зведення (сек.) (електромеханічний далекомір)"
+
+msgid "tank_params/aimingTimeTurbo"
+msgstr "Час зведення (сек.) (турбо-режим)"
+
+msgid "tank_params/attainableSpeed"
+msgstr "Швидкість, що досягається за 5 секунд"
+
+msgid "tank_params/autoReloadTime"
+msgstr "Час дозаряджання одного снаряда"
+
+msgid "tank_params/autoShootClipFireRate"
+msgstr "Перезаряджання"
+
+msgid "tank_params/autoShootClipSec"
+msgstr "(магазин/к-ть)"
+
+msgid "tank_params/avgDamage"
+msgstr "Середня шкода"
+
+msgid "tank_params/avgDamagePerMinute"
+msgstr "Середня шкода на хвилину"
+
+msgid "tank_params/avgDamagePerSecond"
+msgstr "Шкода на секунду"
+
+msgid "tank_params/avgPiercingPower"
+msgstr "Середнє пробивання броні"
+
+msgid "tank_params/boosterCoolingTime"
+msgstr "Час охолодження прискорювача"
+
+msgid "tank_params/boosterDuration"
+msgstr "Тривалість дії прискорювача"
+
+msgid "tank_params/burstFireRate"
+msgstr "Касета"
+
+msgid "tank_params/burstSec"
+msgstr "(c/шт./шт.)"
+
+msgid "tank_params/chargeTime"
+msgstr "Час залпу"
+
+msgid "tank_params/chargeableBurstDispersion"
+msgstr "Розкид другого пострілу на 100 м"
+
+msgid "tank_params/chargeableBurstPenetrationCount"
+msgstr "Пробиттів для активації режиму"
+
+msgid "tank_params/chargeableBurstReload"
+msgstr "Перезаряджання в залповому режимі"
+
+msgid "tank_params/chargeableBurstSize"
+msgstr "Снарядів у касеті"
+
+msgid "tank_params/chassisModuleRotationSpeed"
+msgstr "Швидкість повороту шасі"
+
+msgid "tank_params/chassisRepairTime"
+msgstr "Час ремонту шасі"
+
+msgid "tank_params/chassisRepairTimeYoh"
+msgstr "Час ремонту шасі"
+
+msgid "tank_params/chassisRotationSpeed"
+msgstr "Швидкість повороту шасі"
+
+msgid "tank_params/circularVisionRadius"
+msgstr "Огляд"
+
+msgid "tank_params/clipFireRate"
+msgstr "Перезаряджання"
+
+msgid "tank_params/clipSec"
+msgstr "(повне/між/к-сть)"
+
+msgid "tank_params/cnt"
+msgstr "(шт)"
+
+msgid "tank_params/coincidenceElectromechanicalSightDuration"
+msgstr "Тривалість дії електромеханічного далекоміра"
+
+msgid "tank_params/concentrationModeCooldown"
+msgstr "Час перезаряджання"
+
+msgid "tank_params/concentrationModeDuration"
+msgstr "Час дії"
+
+msgid "tank_params/continuousShotsPerMinute"
+msgstr "Швидкість безперервного вогню"
+
+msgid "tank_params/coolingDelay"
+msgstr "Затримка перед початком охолодження"
+
+msgid "tank_params/coolingTime"
+msgstr "Час охолодження повністю розігрітої гармати"
+
+msgid "tank_params/damage"
+msgstr "Шкода від базового снаряда"
+
+msgid "tank_params/designatorCooldownS"
+msgstr "Час перезаряджання"
+
+msgid "tank_params/designatorInitialCooldownS"
+msgstr "Початковий час перезаряджання"
+
+msgid "tank_params/designatorMarkDurationS"
+msgstr "Тривалість мітки"
+
+msgid "tank_params/designatorMarkedEnemiesAdditionalDamage"
+msgstr "Додаткова шкода позначеним ворогам"
+
+msgid "tank_params/dispersionAt100mCoincidenceElectromechanicalSight"
+msgstr "Розкид на 100 м (%) (електромеханічний далекомір)"
+
+msgid "tank_params/dualAccuracyCoolingDelay"
+msgstr "Час охолодження гармати"
+
+msgid "tank_params/enginePower"
+msgstr "Потужність двигуна"
+
+msgid "tank_params/enginePowerPerTon"
+msgstr "Питома потужність"
+
+msgid "tank_params/enginePowerWithBoosters"
+msgstr "Потужність двигуна (із прискорювачами)"
+
+msgid "tank_params/engineTurboPowerCap"
+msgstr "Потужність двигуна (к. с.) (турбо-режим)"
+
+msgid "tank_params/explosionRadius"
+msgstr "Радіус ураження"
+
+msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
+msgstr "Час охолодження гармати після пострілу"
+
+msgid "tank_params/extraRepairSpeed"
+msgstr "до швидкості ремонту"
+
+msgid "tank_params/extraShotClipReloadTime"
+msgstr "Штраф до перезаряджання"
+
+msgid "tank_params/faceFrontBoardInMM"
+msgstr "(лоб/борт/корма у мм)"
+
+msgid "tank_params/factor"
+msgstr "(%)"
+
+msgid "tank_params/forwardMaxSpeed"
+msgstr "Максимальна швидкість"
+
+msgid "tank_params/furyMaxReloadEffAvgDpm"
+msgstr "Середня шкода на хвилину на максимальному рівні ефективності перезаряджання"
+
+msgid "tank_params/furyMaxReloadEfficiencyLevel"
+msgstr "Максимальний рівень ефективності перезаряджання"
+
+msgid "tank_params/furyReloadEfficiencyLevelDuration"
+msgstr "Тривалість рівня ефективності перезаряджання"
+
+msgid "tank_params/furyReloadEfficiencyLevelPerDestruction"
+msgstr "Рівень ефективності перезаряджання за знищення"
+
+msgid "tank_params/furyReloadEfficiencyLevelPerHit"
+msgstr "Рівень ефективності перезаряджання за влучення"
+
+msgid "tank_params/furyReloadSpeedBonusPerEfficiencyLevel"
+msgstr "Бонус до швидкості перезаряджання за рівень ефективності"
+
+msgid "tank_params/gps"
+msgstr "(град/c)"
+
+msgid "tank_params/grads"
+msgstr "(град)"
+
+msgid "tank_params/gunModuleAvgDamageList"
+msgstr "Середня шкода"
+
+msgid "tank_params/gunTraverseDispersionTurbo"
+msgstr "Розкид під час наведення гармати (%) (турбо-режим)"
+
+msgid "tank_params/gunYawLimits"
+msgstr "Кути горизонтальної наводки"
+
+msgid "tank_params/h"
+msgstr "(постр.)"
+
+msgid "tank_params/heatAvgDmgPerLvl"
+msgstr "Середня шкода за рівень нагрівання"
+
+msgid "tank_params/heatChargeOverheatDuration"
+msgstr "Тривалість перегріву"
+
+msgid "tank_params/heatTimeBeforeOverheat"
+msgstr "Час до перегріву"
+
+msgid "tank_params/heatTimeToReachLevel"
+msgstr "Час досягнення рівня нагрівання"
+
+msgid "tank_params/heatingPerShot"
+msgstr "Нагрів за постріл"
+
+msgid "tank_params/hullArmor"
+msgstr "Бронювання корпуса"
+
+msgid "tank_params/hullTraverseDispersionTurbo"
+msgstr "Розкид під час повороту корпусу (%) (турбо-режим)"
+
+msgid "tank_params/improvedDamageEnemiesByRamming"
+msgstr "Завдавана шкода від тарана"
+
+msgid "tank_params/improvedDamageEnemiesChassisByRamming"
+msgstr "Шкода шасі від тарана"
+
+msgid "tank_params/increaseHealth"
+msgstr "Збільшення міцності"
+
+msgid "tank_params/invisibilityMovingFactor"
+msgstr "Під час руху (%)"
+
+msgid "tank_params/invisibilityStillFactor"
+msgstr "Нерухомої машини (%)"
+
+msgid "tank_params/ionAfterburnerActiveTurboCharge"
+msgstr "Заряд іонного форсажу (% на сек.) (турбо-режим, активний)"
+
+msgid "tank_params/ionAfterburnerDuration"
+msgstr "Тривалість іонного форсажу"
+
+msgid "tank_params/ionAfterburnerDurationEnginePower"
+msgstr "Потужність двигуна (к. с.) (іонний форсаж)"
+
+msgid "tank_params/ionAfterburnerDurationSpeedCap"
+msgstr "Макс. швидкість/швидкість заднього ходу (км/год) (іонний форсаж)"
+
+msgid "tank_params/ionAfterburnerPassiveTurboCharge"
+msgstr "Заряд іонного форсажу (% на с) (турбо-режим, пасивний)"
+
+msgid "tank_params/kg"
+msgstr "(кг)"
+
+msgid "tank_params/lowChargeShotAvgDamage"
+msgstr "Середня шкода (од.)"
+
+msgid "tank_params/lowChargeShotBlockDuration"
+msgstr "Тривалість блокування пострілу (с)"
+
+msgid "tank_params/lowChargeShotDispertion"
+msgstr "Розкид на 100 м (м)"
+
+msgid "tank_params/lowChargeShotPenetration"
+msgstr "Середнє пробивання броні (мм)"
+
+msgid "tank_params/lowChargeShotRateOfFire"
+msgstr "Скорострільність гармати (постр./хв)"
+
+msgid "tank_params/lowChargeShotVelocity"
+msgstr "Швидкість польоту снаряда (м/с)"
+
+msgid "tank_params/m"
+msgstr "(м)"
+
+msgid "tank_params/maxAccuracyLevel"
+msgstr "Максимальний рівень точності"
+
+msgid "tank_params/maxAmmo"
+msgstr "Боєзапас"
+
+msgid "tank_params/maxHealth"
+msgstr "Міцність"
+
+msgid "tank_params/maxSteeringLockAngle"
+msgstr "Максимальний кут повороту коліс"
+
+msgid "tank_params/mm"
+msgstr "(мм)"
+
+msgid "tank_params/movementTraverseDispersionTurbo"
+msgstr "Розкид під час руху (%) (турбо-режим)"
+
+msgid "tank_params/mph"
+msgstr "(км/год)"
+
+msgid "tank_params/mps"
+msgstr "(м/с)"
+
+msgid "tank_params/no_brackets/kg"
+msgstr "кг"
+
+msgid "tank_params/no_brackets/mm"
+msgstr "мм"
+
+msgid "tank_params/no_brackets/s"
+msgstr "c"
+
+msgid "tank_params/overheatDuration"
+msgstr "Час охолодження перегрітої гармати"
+
+msgid "tank_params/p"
+msgstr "(к. с.)"
+
+msgid "tank_params/param12"
+msgstr "Прохідність"
+
+msgid "tank_params/passiveCoincideceShootingCharge"
+msgstr "Заряд електромеханічного далекоміра (% на сек.) (режим бою, пасивний)"
+
+msgid "tank_params/penetrationLoss"
+msgstr "(%/100 мм)"
+
+msgid "tank_params/perActivation"
+msgstr "(за активацію)"
+
+msgid "tank_params/percent"
+msgstr " "
+
+msgid "tank_params/percent_per_s"
+msgstr "(%/с)"
+
+msgid "tank_params/piercingPower"
+msgstr "Пробивання броні базовим снарядом"
+
+msgid "tank_params/pillboxHorizontalRotationSpeed"
+msgstr "Швидкість горизонтального обертання"
+
+msgid "tank_params/pillboxSwitchOffTime"
+msgstr "Час зміни на похідний режим"
+
+msgid "tank_params/pillboxSwitchOnTime"
+msgstr "Час зміни на режим дота"
+
+msgid "tank_params/pillboxVerticalRotationSpeed"
+msgstr "Швидкість вертикального обертання"
+
+msgid "tank_params/pitchLimits"
+msgstr "Кути вертикальної наводки"
+
+msgid "tank_params/powerModeDuration"
+msgstr "Максимальна ефективність"
+
+msgid "tank_params/powerModeThreshold"
+msgstr "Активація режиму"
+
+msgid "tank_params/preheatDispersionCap"
+msgstr "Розкид при повному розігріві"
+
+msgid "tank_params/preheatDmgCap"
+msgstr "Середня шкода при повному розігріві"
+
+msgid "tank_params/preheatSpeedLimit"
+msgstr "Обмеження швидкості"
+
+msgid "tank_params/preheatTimeToFull"
+msgstr "Час до повного розігріву"
+
+msgid "tank_params/preheatTimeToZero"
+msgstr "Час до повного охолодження"
+
+msgid "tank_params/preheatTransitionDelay"
+msgstr "Затримка переходу до розігріву"
+
+msgid "tank_params/propellantChargeLimit"
+msgstr "Ліміт заряду"
+
+msgid "tank_params/propellantChargeSpendingAfterShot"
+msgstr "Витрата заряду за постріл"
+
+msgid "tank_params/propellantChargingPerSec"
+msgstr "Швидкість накопичення заряду"
+
+msgid "tank_params/propellantDischargingPerSec"
+msgstr "Швидкість втрати заряду"
+
+msgid "tank_params/propellantOverchargeSwitchCooldown"
+msgstr "Відновлення обмежувача"
+
+msgid "tank_params/propellantPostLimitAimingTime"
+msgstr "Час зведення після перевищення ліміту"
+
+msgid "tank_params/propellantPostLimitDamageBonus"
+msgstr "Максимальний бонус до шкоди після перевищення ліміту"
+
+msgid "tank_params/propellantPostLimitDamageSpike"
+msgstr "Приріст шкоди після перевищення ліміту"
+
+msgid "tank_params/propellantPostLimitDispersion"
+msgstr "Розкид на 100 м після перевищення ліміту"
+
+msgid "tank_params/propellantPreLimitDamageBonus"
+msgstr "Максимальний бонус до шкоди до перевищення ліміту"
+
+msgid "tank_params/pt"
+msgstr "(к. с./т)"
+
+msgid "tank_params/qpt"
+msgstr "(кількість/час)"
+
+msgid "tank_params/quantity"
+msgstr "(кількість)"
+
+msgid "tank_params/radarCooldown"
+msgstr "Час приготування радара"
+
+msgid "tank_params/radarRadius"
+msgstr "Радіус виявлення"
+
+msgid "tank_params/radioDistance"
+msgstr "Дальність дії зв’язку"
+
+msgid "tank_params/reactivationDelay"
+msgstr "Затримка повторної активації"
+
+msgid "tank_params/reactivationLimit"
+msgstr "Обмеження повторної активації"
+
+msgid "tank_params/relativeArmor"
+msgstr "Живучість"
+
+msgid "tank_params/relativeCamouflage"
+msgstr "Скритість"
+
+msgid "tank_params/relativeMobility"
+msgstr "Рухливість"
+
+msgid "tank_params/relativePower"
+msgstr "Вогнева міць"
+
+msgid "tank_params/relativeVisibility"
+msgstr "Спостереження"
+
+msgid "tank_params/reloadTime"
+msgstr "Скорострільність гармати"
+
+msgid "tank_params/reloadTimeCoincidence"
+msgstr "Час перезаряджання (%) (електромеханічний далекомір)"
+
+msgid "tank_params/reloadTimeSecs"
+msgstr "Заряджання гармати"
+
+msgid "tank_params/reverseSpeedReductionWithBoosters"
+msgstr "Зменшення швидкості заднього ходу (із прискорювачами)"
+
+msgid "tank_params/rocketAccelerationEnginePower"
+msgstr "Потужність двигуна (із прискорювачами)"
+
+msgid "tank_params/rocketAccelerationReuseAndDuration"
+msgstr "Реактивні прискорювачі"
+
+msgid "tank_params/rocketAccelerationSpeedLimits"
+msgstr "Макс. швидкість / задній хід (із прискор.)"
+
+msgid "tank_params/s"
+msgstr "(с)"
+
+msgid "tank_params/secondaryAvgDamage"
+msgstr "Середня шкода за снаряд"
+
+msgid "tank_params/secondaryAvgPiercingPower"
+msgstr "Середнє пробиття снаряда"
+
+msgid "tank_params/secondaryReloadTimeSecs"
+msgstr "Перезаряджання допоміжного озброєння"
+
+msgid "tank_params/secondaryTotalBurstSize"
+msgstr "Снаряди допоміжного озброєння"
+
+msgid "tank_params/shellLoadingTime"
+msgstr "Час підготовки стрічки боєприпасів"
+
+msgid "tank_params/shortened/avgPiercingPower"
+msgstr "Пробиває:"
+
+msgid "tank_params/shotDispersionAngle"
+msgstr "Розкид на 100 м"
+
+msgid "tank_params/shotSpeed"
+msgstr "Швидкість польоту"
+
+msgid "tank_params/speedLimits"
+msgstr "Макс. швидкість / задній хід"
+
+msgid "tank_params/spm"
+msgstr "(постр./хв)"
+
+msgid "tank_params/sqm"
+msgstr "(м²)"
+
+msgid "tank_params/stagedJetBoostersChargeDuration"
+msgstr "Тривалість прискорення (с)"
+
+msgid "tank_params/stagedJetBoostersChargesCount"
+msgstr "Доступно прискорень"
+
+msgid "tank_params/stagedJetBoostersCooldownTime"
+msgstr "Перезаряджання прискорювачів (с)"
+
+msgid "tank_params/stagedJetBoostersEnginePower"
+msgstr "Потужність двигуна (із прискорювачами) (к. с.)"
+
+msgid "tank_params/stagedJetBoostersRotationSpeed"
+msgstr "Швидкість повороту корпусу (із прискорювачами) (град/с)"
+
+msgid "tank_params/stagedJetBoostersSpeedLimits"
+msgstr "Швидкість руху назад (із прискорювачами) (км/год)"
+
+msgid "tank_params/stagedJetBoostersTopSpeed"
+msgstr "Максимальна швидкість (із прискорювачами) (км/год)"
+
+msgid "tank_params/stationaryReloadSwitchOffTime"
+msgstr "Переривання перезаряджання"
+
+msgid "tank_params/stationaryReloadSwitchOnTime"
+msgstr "Активація перезаряджання"
+
+msgid "tank_params/stunDurationList"
+msgstr "Час оглушення екіпажу"
+
+msgid "tank_params/stunMaxDuration"
+msgstr "Максимальний час оглушення екіпажу"
+
+msgid "tank_params/stunMinDuration"
+msgstr "Мінімальний час оглушення екіпажу"
+
+msgid "tank_params/switchEngineModeBothModes"
+msgstr "Час зміни режиму двигуна"
+
+msgid "tank_params/switchOffTime"
+msgstr "Час зміни на похідний режим "
+
+msgid "tank_params/switchOnTime"
+msgstr "Час зміни на облоговий режим "
+
+msgid "tank_params/switchTime"
+msgstr "Час зміни на облоговий / похідний режим"
+
+msgid "tank_params/t"
+msgstr "(т)"
+
+msgid "tank_params/temperatureAvgDamagePerMinute"
+msgstr "Середня шкода на хвилину"
+
+msgid "tank_params/temperatureReloadTime"
+msgstr "Скорострільність гармати"
+
+msgid "tank_params/timeOfReaching"
+msgstr "Час подолання 100 м"
+
+msgid "tank_params/timeToOverheat"
+msgstr "Безперервна стрільба до перегріву"
+
+msgid "tank_params/topSpeedWithBoosters"
+msgstr "Максимальна швидкість (із прискорювачами)"
+
+msgid "tank_params/traverseSpeedReductionWithBoosters"
+msgstr "Зменшення швидкості обертання (із прискорювачами)"
+
+msgid "tank_params/turboSpeedCap"
+msgstr "Макс. швидкість/швидкість заднього ходу (км/год) (турбо-режим)"
+
+msgid "tank_params/turboshaftBurstFireRate"
+msgstr "Касета (турбо)"
+
+msgid "tank_params/turboshaftEnginePower"
+msgstr "Потужність двигуна (турбо)"
+
+msgid "tank_params/turboshaftInvisibilityMovingFactor"
+msgstr "Під час руху (турбо) (%)"
+
+msgid "tank_params/turboshaftInvisibilityStillFactor"
+msgstr "Нерухомої машини (турбо) (%)"
+
+msgid "tank_params/turboshaftSpeedModeSpeed"
+msgstr "Макс. швидкість / задній хід (турбо)"
+
+msgid "tank_params/turboshaftSwitchTime"
+msgstr "Час зміни режиму двигуна"
+
+msgid "tank_params/turretArmor"
+msgstr "Бронювання башти"
+
+msgid "tank_params/turretModuleRotationSpeed"
+msgstr "Швидкість повороту башти"
+
+msgid "tank_params/turretRotationSpeed"
+msgstr "Швидкість гориз. пересування прицілу"
+
+msgid "tank_params/turretYawLimits"
+msgstr "Кути повороту башти"
+
+msgid "tank_params/twinGunReloadTime"
+msgstr "Заряджання гармати (одиночний / залповий режим вогню)"
+
+msgid "tank_params/twinGunSwitchFireModeTime"
+msgstr "Час зміни режиму вогню"
+
+msgid "tank_params/twinGunTopSpeed"
+msgstr "Макс. швидкість/задній хід (залп. режим)"
+
+msgid "tank_params/val"
+msgstr "(од.)"
+
+msgid "tank_params/values/param10/value0"
+msgstr "відмінний"
+
+msgid "tank_params/values/param10/value1"
+msgstr "гарний"
+
+msgid "tank_params/values/param10/value2"
+msgstr "посередній"
+
+msgid "tank_params/values/param10/value3"
+msgstr "поганий"
+
+msgid "tank_params/values/param11/value0"
+msgstr "відмінна"
+
+msgid "tank_params/values/param11/value1"
+msgstr "гарна"
+
+msgid "tank_params/values/param11/value2"
+msgstr "посередня"
+
+msgid "tank_params/values/param11/value3"
+msgstr "погана"
+
+msgid "tank_params/values/param12/value0"
+msgstr "відмінна"
+
+msgid "tank_params/values/param12/value1"
+msgstr "гарна"
+
+msgid "tank_params/values/param12/value2"
+msgstr "посередня"
+
+msgid "tank_params/values/param12/value3"
+msgstr "погана"
+
+msgid "tank_params/vehicleWeight"
+msgstr "Маса"
+
+msgid "tank_params/vpm"
+msgstr "(од./хв)"
+
+msgid "tank_params/vps"
+msgstr "(од./с)"
+
+msgid "tank_params/wheeledDashAbilityDuration"
+msgstr "Тривалість (с)"
+
+msgid "tank_params/wheeledDashAbilityReloadTime"
+msgstr "Відновлення (с)"
+
+msgid "tank_params/wheeledDashAbilityReloadTimeBonus"
+msgstr "Бонус до відновлення (%)"
+
+msgid "tank_params/wheeledDashEnginePower"
+msgstr "Потужність двигуна (%)"
+
+msgid "tank_params/wheeledDashReverseSpeed"
+msgstr "Швидкість заднього ходу (%)"
+
+msgid "tank_params/wheeledDashSpeedLimits"
+msgstr "Нижній поріг швидкості для бонусу до відновлення (км/год)"
+
+msgid "tank_params/wheeledDashTopSpeed"
+msgstr "Максимальна швидкість (%)"
+
+msgid "tank_params/wheeledSpeedModeSpeed"
+msgstr "Макс. швидкість / задній хід (швидкісний)"
+
+msgid "tank_params/wheeledSwitchOffTime"
+msgstr "Час зміни на звичайний режим"
+
+msgid "tank_params/wheeledSwitchOnTime"
+msgstr "Час переходу у швидкісний режим"
+
+msgid "tank_params/wheeledSwitchTime"
+msgstr "Час зміни на швидкісний/звичайний режим"
+
+msgid "tank_params/yoh_s_s"
+msgstr "(осн./рез. на с)"
+
+msgid "tankmanRecruitRenderer/commander"
+msgstr "Рекрутувати командира"
+
+msgid "tankmanRecruitRenderer/descr"
+msgstr "Рекрутувати члена екіпажу"
+
+msgid "tankmanRecruitRenderer/driver"
+msgstr "Рекрутувати водія"
+
+msgid "tankmanRecruitRenderer/gunner"
+msgstr "Рекрутувати навідника"
+
+msgid "tankmanRecruitRenderer/loader"
+msgstr "Рекрутувати заряджаючого"
+
+msgid "tankmanRecruitRenderer/personalCase"
+msgstr "Відкрити профіль"
+
+msgid "tankmanRecruitRenderer/radioman"
+msgstr "Рекрутувати радиста"
+
+msgid "tankmanRecruitRenderer/unload"
+msgstr "Висадити в Казарму"
+
+msgid "tankmanRetrainingBtn/free"
+msgstr "Безкоштовно"
+
+msgid "tankmanTrainingButton2/retrainingTo"
+msgstr "Перенавчити до рівня:"
+
+msgid "tankmanTrainingButton2/trainingTo"
+msgstr "Навчити до рівня:"
+
+msgid "tankmanTrainingWindow/academy"
+msgstr "Танкова академія"
+
+msgid "tankmanTrainingWindow/blank"
+msgstr "Перепідготовка"
+
+msgid "tankmanTrainingWindow/closeBtn"
+msgstr "Скасувати"
+
+msgid "tankmanTrainingWindow/free"
+msgstr "Пришвидшені курси"
+
+msgid "tankmanTrainingWindow/free/price"
+msgstr "Безкоштовно"
+
+msgid "tankmanTrainingWindow/scool"
+msgstr "Полкова школа"
+
+msgid "tankmanTrainingWindow/title"
+msgstr "Навчання члена екіпажу"
+
+msgid "tankmanTrainingWindow/trainingTo"
+msgstr "Навчання до рівня:"
+
+msgid "tankmen/AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "tankmen/SPG"
+msgstr "САУ"
+
+msgid "tankmen/heavyTank"
+msgstr "важкий танк"
+
+msgid "tankmen/lightTank"
+msgstr "легкий танк"
+
+msgid "tankmen/lockReason/broken"
+msgstr "(Машина пошкоджена)"
+
+msgid "tankmen/lockReason/disabled"
+msgstr "(Недоступно)"
+
+msgid "tankmen/lockReason/inbattle"
+msgstr "(У бою)"
+
+msgid "tankmen/lockReason/prebattle"
+msgstr "(Очікує на бій)"
+
+msgid "tankmen/mediumTank"
+msgstr "середній танк"
+
+msgid "timeLeft/full/day"
+msgstr "{day} дб {hour} год"
+
+msgid "timeLeft/full/hour"
+msgstr "{hour} год {min} хв"
+
+msgid "timeLeft/full/lessMin"
+msgstr "1 хв"
+
+msgid "timeLeft/full/min"
+msgstr "{min} хв"
+
+msgid "timeLeft/short/day"
+msgstr "{day} дб"
+
+msgid "timeLeft/short/hour"
+msgstr "{hour} год"
+
+msgid "timeLeft/short/lessMin"
+msgstr "1 хв"
+
+msgid "timeLeft/short/min"
+msgstr "{min} хв"
+
+msgid "trade/in"
+msgstr "Можна обміняти"
+
+msgid "training/additionalInfo/freeSuppliesComp7"
+msgstr "Тепер на мапах Натиску можна задарма використовувати боєзапас, спорядження й настанови"
+
+msgid "training/additionalInfo/vehicleRequired3"
+msgstr "Для цього режиму потрібно щонайменше 3 відповідні машини. Подробиці дізнайтеся на сторінці «Про режим \"Натиск\"»."
+
+msgid "training/create/battleTime"
+msgstr "Тривалість бою:"
+
+msgid "training/create/battleTime/disabled/body"
+msgstr "Тривалість бою цього типу змінити не можна."
+
+msgid "training/create/closeButton"
+msgstr "Закрити"
+
+msgid "training/create/createButton"
+msgstr "Сформувати"
+
+msgid "training/create/description"
+msgstr "Опис:"
+
+msgid "training/create/mapSelect"
+msgstr "Вибір мапи:"
+
+msgid "training/create/maxPlayers"
+msgstr "Максимальна кількість гравців:"
+
+msgid "training/create/privacy"
+msgstr "за запрошеннями"
+
+msgid "training/create/title"
+msgstr "Створення тренувальної кімнати"
+
+msgid "training/createButton"
+msgstr "Створити кімнату"
+
+msgid "training/description"
+msgstr "Досвід та кредити у Тренувальних боях не нараховують. Ремонт безкоштовний. Гравці платять лише за снаряди, спорядження і настанови."
+
+msgid "training/info/deleteButton"
+msgstr "Видалити кімнату"
+
+msgid "training/info/exitButton"
+msgstr "Вийти з кімнати"
+
+msgid "training/info/inviteButton"
+msgstr "Запросити..."
+
+msgid "training/info/map"
+msgstr "{%s}:"
+
+msgid "training/info/maxPlayers"
+msgstr "Разом гравців:"
+
+msgid "training/info/notUseChat"
+msgstr "ні"
+
+msgid "training/info/observer"
+msgstr "Спостерігач"
+
+msgid "training/info/otherLabel"
+msgstr "Нерозподілені гравці: %(total)s"
+
+msgid "training/info/owner"
+msgstr "Командир:"
+
+msgid "training/info/settings/okButton"
+msgstr "Змінити"
+
+msgid "training/info/settings/title"
+msgstr "Налаштування тренувальної кімнати"
+
+msgid "training/info/settingsButton"
+msgstr "Налаштування кімнати"
+
+msgid "training/info/startButton"
+msgstr "Почати бій"
+
+msgid "training/info/states/state0"
+msgstr "?empty?"
+
+msgid "training/info/states/state1"
+msgstr "вийшов"
+
+msgid "training/info/states/state17"
+msgstr "не в грі"
+
+msgid "training/info/states/state2"
+msgstr "вийшов"
+
+msgid "training/info/states/state20"
+msgstr "не в грі"
+
+msgid "training/info/states/state24"
+msgstr "не в грі"
+
+msgid "training/info/states/state4"
+msgstr "?empty?"
+
+msgid "training/info/states/state8"
+msgstr "у бою"
+
+msgid "training/info/team1Label"
+msgstr "Команда 1 [%(total)s]"
+
+msgid "training/info/team2Label"
+msgstr "Команда 2 [%(total)s]"
+
+msgid "training/info/timeout/label"
+msgstr "Час бою:"
+
+msgid "training/info/timeout/value"
+msgstr "%(roundLength)s хв"
+
+msgid "training/info/title"
+msgstr "Тренувальна кімната (%(arenaName)s)"
+
+msgid "training/info/useCommonVoiceChat"
+msgstr "загальний"
+
+msgid "training/info/useSeparateVoipChat"
+msgstr "роздільний для команд"
+
+msgid "training/info/voiceChat"
+msgstr "Голосовий зв’язок:"
+
+msgid "training/invitations/title"
+msgstr "Надіслати запрошення"
+
+msgid "training/joinButton"
+msgstr "Увійти"
+
+msgid "training/leaveButton"
+msgstr "Вийти з режиму"
+
+msgid "training/listTitle"
+msgstr "Список тренувальних кімнат"
+
+msgid "training/notificationText/freeSupplies"
+msgstr "Безкоштовне спорядження"
+
+msgid "training/notificationText/onlyTierX"
+msgstr "Тільки техніка X рівня"
+
+msgid "training/notificationText/vehicleRequired3"
+msgstr "Потрібно кілька машин"
+
+msgid "training/ownerTitle"
+msgstr "Командир"
+
+msgid "training/playersLabel"
+msgstr "Разом гравців: %(playersTotal)s"
+
+msgid "training/playersTitle"
+msgstr "Гравці"
+
+msgid "training/roomsLabel"
+msgstr "Разом тренувальних кімнат: %(roomsTotal)s"
+
+msgid "training/title"
+msgstr "Тренувальні бої"
+
+msgid "unlocks/exchangeButton"
+msgstr "Конвертувати"
+
+msgid "unlocks/unlockButton"
+msgstr "Дослідити"
+
+msgid "unlocks/xpToTmenCheckbox"
+msgstr "Пришвидшити навчання екіпажу"
+
+msgid "validation/publicInfo/abbrev/invalid"
+msgstr "Введено неправильні символи або неприпустима їхня кількість!\nПрипустимі символи: латинські літери, цифри 0-9, знаки «-» та «_».\nПриклад запиту: «[WG-A]»."
+
+msgid "validation/publicInfo/abbrev/invalid/CN"
+msgstr "Введено неправильні символи або неприпустима їхня кількість!\nПрипустимі символи: латинські літери, ієрогліфи, цифри 0-9, знаки «-» та «_».\nПриклад запиту: «[WG-A]»."
+
+msgid "validation/publicInfo/abbrev/invalid/KR"
+msgstr "Введено неправильні символи або неприпустима їхня кількість!\nПрипустимі символи: латинські літери, символи вашої абетки, цифри 0-9, знаки «-» та «_».\nПриклад запиту: «[WG-A]»."
+
+msgid "validation/publicInfo/abbrev/ours"
+msgstr "Ви ввели тег свого клану. "
+
+msgid "vehParams/armor"
+msgstr "Живучість"
+
+msgid "vehParams/firepower"
+msgstr "Вогнева міць"
+
+msgid "vehParams/mobility"
+msgstr "Рухливість"
+
+msgid "vehParams/reconnaissance"
+msgstr "Спостереження"
+
+msgid "vehicle/igrRentLeft/days"
+msgstr "діб: %(days)s"
+
+msgid "vehicle/igrRentLeft/hours"
+msgstr "годин: %(hours)s"
+
+msgid "vehicle/rentLeft/battles"
+msgstr "Ще боїв: %(battles)s"
+
+msgid "vehicle/rentLeft/days"
+msgstr "Діб прокату: %(days)s"
+
+msgid "vehicle/rentLeft/epic/base"
+msgstr "Прокат для ЛФ"
+
+msgid "vehicle/rentLeft/epic/days"
+msgstr "Прокат на %(days)s дб"
+
+msgid "vehicle/rentLeft/epic/season"
+msgstr "Сезон %(season)s"
+
+msgid "vehicle/rentLeft/hours"
+msgstr "Годин прокату: %(hours)s"
+
+msgid "vehicle/rentLeft/wins"
+msgstr "Лишилося перемог: %(wins)s"
+
+msgid "vehicle/restoreCooldownLeft/days"
+msgstr "Відновити буде можливо через %(time)s дб"
+
+msgid "vehicle/restoreCooldownLeft/hours"
+msgstr "Відновити буде можливо через %(time)s год"
+
+msgid "vehicle/restoreLeft/days"
+msgstr "Можливо відновити протягом ще %(time)s дб"
+
+msgid "vehicle/restoreLeft/disabledByRent"
+msgstr "Недоступно до завершення прокату"
+
+msgid "vehicle/restoreLeft/hours"
+msgstr "Можливо відновити протягом ще %(time)s год"
+
+msgid "vehicle/restoreLeft/unlim"
+msgstr "Можливо відновити"
+
+msgid "vehicleIgr/days"
+msgstr "Акційна техніка %(igrIcon)s доступна ще діб: %(days)s"
+
+msgid "vehicleIgr/hours"
+msgstr "Акційна техніка %(igrIcon)s доступна ще годин: %(hours)s"
+
+msgid "vehicleInfo/closeBtn"
+msgstr "Закрити"
+
+msgid "vehicleInfo/compareBtn/label"
+msgstr "Додати до порівняння"
+
+msgid "vehicleInfo/compareBtn/tooltip/body"
+msgstr "Щоб додати машину до порівняння, видаліть зі списку порівняння непотрібну техніку."
+
+msgid "vehicleInfo/compareBtn/tooltip/header"
+msgstr "Додати неможливо"
+
+msgid "vehicleInfo/nationChangeBtn/label"
+msgstr "Змінити націю"
+
+msgid "vehicleInfo/params/aimingTime"
+msgstr "Час зведення (с)"
+
+msgid "vehicleInfo/params/autoReloadTime"
+msgstr "Час дозаряджання одного снаряда (с)"
+
+msgid "vehicleInfo/params/autoReloadTimeBoost"
+msgstr "Базовий час дозаряджання одного снаряда (с)"
+
+msgid "vehicleInfo/params/autoShootClipFireRate"
+msgstr "Перезаряджання (повне/к-ть)"
+
+msgid "vehicleInfo/params/avgDamage"
+msgstr "Середня шкода на постріл"
+
+msgid "vehicleInfo/params/avgDamagePerMinute"
+msgstr "Середня шкода на хвилину"
+
+msgid "vehicleInfo/params/avgDamagePerSecond"
+msgstr "Шкода на секунду (од./с)"
+
+msgid "vehicleInfo/params/avgPiercingPower"
+msgstr "Середнє пробивання броні"
+
+msgid "vehicleInfo/params/burstFireRate"
+msgstr "Касета (с/шт./шт.)"
+
+msgid "vehicleInfo/params/chargeTime"
+msgstr "Час залпу (с)"
+
+msgid "vehicleInfo/params/chassisRepairTime"
+msgstr "Час ремонту шасі (с)"
+
+msgid "vehicleInfo/params/chassisRepairTimeYoh"
+msgstr "Час ремонту шасі (осн./рез. на с)"
+
+msgid "vehicleInfo/params/chassisRotationSpeed"
+msgstr "Швидкість повороту (град/с)"
+
+msgid "vehicleInfo/params/circularVisionRadius"
+msgstr "Огляд (м)"
+
+msgid "vehicleInfo/params/clipFireRate"
+msgstr "Перезаряджання (повне/між/к-сть)"
+
+msgid "vehicleInfo/params/continuousShotsPerMinute"
+msgstr "Швидкість безперервного вогню (постр./хв)"
+
+msgid "vehicleInfo/params/dualAccuracyCoolingDelay"
+msgstr "Час охолодження гармати після пострілу (c)"
+
+msgid "vehicleInfo/params/enginePower"
+msgstr "Потужність двигуна (к. с.)"
+
+msgid "vehicleInfo/params/enginePowerPerTon"
+msgstr "Питома потужність (к. с./т)"
+
+msgid "vehicleInfo/params/gunYawLimits"
+msgstr "Кути горизонтальної наводки (град)"
+
+msgid "vehicleInfo/params/hullArmor"
+msgstr "Бронювання корпусу (лоб/борт/корма у мм)"
+
+msgid "vehicleInfo/params/invisibility"
+msgstr "Скритість машини рухомої/нерухомої (%)"
+
+msgid "vehicleInfo/params/invisibilityMovingFactor"
+msgstr "Скритість рухомої машини (%)"
+
+msgid "vehicleInfo/params/invisibilityStillFactor"
+msgstr "Скритість нерухомої машини (%)"
+
+msgid "vehicleInfo/params/maxHealth"
+msgstr "Міцність (од.)"
+
+msgid "vehicleInfo/params/maxSteeringLockAngle"
+msgstr "Максимальний кут повороту коліс (град)"
+
+msgid "vehicleInfo/params/piercingPower"
+msgstr "Середнє пробивання броні (мм)"
+
+msgid "vehicleInfo/params/pitchLimits"
+msgstr "Кути вертикальної наводки (град)"
+
+msgid "vehicleInfo/params/radioDistance"
+msgstr "Дальність дії зв’язку (м)"
+
+msgid "vehicleInfo/params/rateTime"
+msgstr "Час між пострілом і переходом до зарядженої гармати (с)"
+
+msgid "vehicleInfo/params/reloadTime"
+msgstr "Скорострільність гармати (постр./хв)"
+
+msgid "vehicleInfo/params/reloadTimeSecs"
+msgstr "Заряджання гармати (с)"
+
+msgid "vehicleInfo/params/rocketAccelerationEnginePower"
+msgstr "Потужність двигуна (із прискорювачами) (к. с.)"
+
+msgid "vehicleInfo/params/rocketAccelerationReuseAndDuration"
+msgstr "Реактивні прискорювачі (кількість/час)"
+
+msgid "vehicleInfo/params/rocketAccelerationSpeedLimits"
+msgstr "Макс. швидкість / задній хід (із прискорювачами) (км/год)"
+
+msgid "vehicleInfo/params/shotDispersionAngle"
+msgstr "Розкид на 100 м (м)"
+
+msgid "vehicleInfo/params/shotSpeed"
+msgstr "Швидкість польоту"
+
+msgid "vehicleInfo/params/speedLimits"
+msgstr "Макс. швидкість/задній хід (км/год)"
+
+msgid "vehicleInfo/params/stunMaxDuration"
+msgstr "Максимальний час оглушення екіпажу (c)"
+
+msgid "vehicleInfo/params/stunMinDuration"
+msgstr "Мінімальний час оглушення екіпажу (c)"
+
+msgid "vehicleInfo/params/switchOffTime"
+msgstr "Час зміни на похідний режим (с)"
+
+msgid "vehicleInfo/params/switchOnTime"
+msgstr "Час зміни на облоговий режим (с)"
+
+msgid "vehicleInfo/params/switchTime"
+msgstr "Час зміни на облоговий / похідний режим (с)"
+
+msgid "vehicleInfo/params/temperatureAvgDamagePerMinute"
+msgstr "Середня шкода на хвилину"
+
+msgid "vehicleInfo/params/temperatureReloadTime"
+msgstr "Скорострільність гармати (постр./хв)"
+
+msgid "vehicleInfo/params/turboshaftBurstFireRate"
+msgstr "Касета (турбо) (с/шт./шт.)"
+
+msgid "vehicleInfo/params/turboshaftEnginePower"
+msgstr "Потужність двигуна (турбо) (к. с.)"
+
+msgid "vehicleInfo/params/turboshaftInvisibilityMovingFactor"
+msgstr "Скритість рухомої машини (турбо) (%)"
+
+msgid "vehicleInfo/params/turboshaftInvisibilityStillFactor"
+msgstr "Скритість нерухомої машини (турбо) (%)"
+
+msgid "vehicleInfo/params/turboshaftSpeedModeSpeed"
+msgstr "Макс. швидкість / задній хід (турбо) (км/год)"
+
+msgid "vehicleInfo/params/turboshaftSwitchTime"
+msgstr "Час зміни режиму двигуна (до пришвидшення/повернення) (с)"
+
+msgid "vehicleInfo/params/turretArmor"
+msgstr "Бронювання башти (лоб/борт/корма у мм)"
+
+msgid "vehicleInfo/params/turretRotationSpeed"
+msgstr "Швидкість горизонтального переміщення прицілу (град/c)"
+
+msgid "vehicleInfo/params/turretYawLimits"
+msgstr "Кути повороту башти (град)"
+
+msgid "vehicleInfo/params/twinGunReloadTime"
+msgstr "Заряджання гармати (одиночний / залповий режим вогню) (с)"
+
+msgid "vehicleInfo/params/twinGunSwitchFireModeTime"
+msgstr "Час зміни режиму вогню (с)"
+
+msgid "vehicleInfo/params/twinGunTopSpeed"
+msgstr "Макс. швидкість/задній хід (одиноч./залп. режим вогню) (км/год)"
+
+msgid "vehicleInfo/params/vehicleWeight"
+msgstr "Маса (т)"
+
+msgid "vehicleInfo/params/wheeledSpeedModeSpeed"
+msgstr "Макс. швидкість / задній хід (швидкісний, км/год)"
+
+msgid "vehicleInfo/params/wheeledSwitchOffTime"
+msgstr "Час зміни на звичайний режим (с)"
+
+msgid "vehicleInfo/params/wheeledSwitchOnTime"
+msgstr "Час переходу у швидкісний режим (с)"
+
+msgid "vehicleInfo/params/wheeledSwitchTime"
+msgstr "Час зміни на швидкісний/звичайний режим (с)"
+
+msgid "vehicleInfo/stats/avgExperience"
+msgstr "Середній досвід за бій"
+
+msgid "vehicleInfo/stats/battlesCount"
+msgstr "Зіграно боїв"
+
+msgid "vehicleInfo/stats/damageDealt"
+msgstr "Завдано шкоди"
+
+msgid "vehicleInfo/stats/defender"
+msgstr "«Захисник»"
+
+msgid "vehicleInfo/stats/frags"
+msgstr "Знищено"
+
+msgid "vehicleInfo/stats/heroes"
+msgstr "Був героєм битв"
+
+msgid "vehicleInfo/stats/hits"
+msgstr "Влучень"
+
+msgid "vehicleInfo/stats/invader"
+msgstr "«Загарбник»"
+
+msgid "vehicleInfo/stats/lastBattleTime"
+msgstr "Був у бою"
+
+msgid "vehicleInfo/stats/losses"
+msgstr "Поразок"
+
+msgid "vehicleInfo/stats/medalKay"
+msgstr "Ступінь медалі Кея"
+
+msgid "vehicleInfo/stats/scout"
+msgstr "«Розвідник»"
+
+msgid "vehicleInfo/stats/shots"
+msgstr "Пострілів"
+
+msgid "vehicleInfo/stats/sniper"
+msgstr "«Снайпер»"
+
+msgid "vehicleInfo/stats/steelwall"
+msgstr "«Сталева стіна»"
+
+msgid "vehicleInfo/stats/supporter"
+msgstr "«Підтримка»"
+
+msgid "vehicleInfo/stats/survivedBattles"
+msgstr "Вижив у боях"
+
+msgid "vehicleInfo/stats/warrior"
+msgstr "«Воїн»"
+
+msgid "vehicleInfo/stats/wins"
+msgstr "Перемог"
+
+msgid "vehicleInfo/stats/xp"
+msgstr "Сумарний досвід"
+
+msgid "vehicleInfo/tabs/base"
+msgstr "Комплектація"
+
+msgid "vehicleInfo/tabs/crew"
+msgstr "Екіпаж"
+
+msgid "vehicleInfo/tabs/properties"
+msgstr "Характеристики"
+
+msgid "vehicleInfo/tabs/statistic"
+msgstr "Досягнення"
+
+msgid "vehicleInfo/title"
+msgstr "— Інформація"
+
+msgid "vehiclePreview/endTime"
+msgstr "Пропозиція недійсна"
+
+msgid "vehiclePreview/timeLeft/hours"
+msgstr "%(hour)s год %(min)s хв"
+
+msgid "vehiclePreview/timeLeft/lessMin"
+msgstr "1 хв"
+
+msgid "vehiclePreview/timeLeft/min"
+msgstr "%(min)s хв"
+
+msgid "vehiclePreview/timeLeftShort/hours"
+msgstr "%(hour)s год"
+
+msgid "vehiclePreview/timeLeftShort/lessMin"
+msgstr "01 хв"
+
+msgid "vehiclePreview/timeLeftShort/min"
+msgstr "%(min)s хв"
+
+msgid "vehicleRestore/timeLeftShort/days"
+msgstr "%(day)s дб"
+
+msgid "vehicleRestore/timeLeftShort/hours"
+msgstr "%(hour)s год %(min)s хв"
+
+msgid "vehicleRestore/timeLeftShort/lessMin"
+msgstr "01 хв"
+
+msgid "vehicleRestore/timeLeftShort/min"
+msgstr "%(min)s хв"
+
+msgid "vehiclesCarousel/contextMenu/vehicleCheck"
+msgstr "Позначити як «основний»"
+
+msgid "vehiclesCarousel/contextMenu/vehicleInfo"
+msgstr "Показати інформацію"
+
+msgid "vehiclesCarousel/contextMenu/vehicleResearch"
+msgstr "Дослідження"
+
+msgid "vehiclesCarousel/contextMenu/vehicleSell"
+msgstr "Продати"
+
+msgid "vehiclesCarousel/contextMenu/vehicleUncheck"
+msgstr "Зняти позначку «основний»"
+
+msgid "viewHeader/aboutBtn/label"
+msgstr "ПРО ПОДІЮ"
+
+msgid "viewHeader/backBtn/descrLabel/battleMatters"
+msgstr "ДО ТАНКОВОЇ АКАДЕМІЇ"
+
+msgid "viewHeader/backBtn/descrLabel/hangar"
+msgstr "У ГАРАЖ"
+
+msgid "viewHeader/backBtn/descrLabel/preview"
+msgstr "ДО ПОПЕРЕДНЬОГО ПЕРЕГЛЯДУ"
+
+msgid "viewHeader/backBtn/descrLabel/research"
+msgstr "До %(tankName)s"
+
+msgid "viewHeader/backBtn/descrLabel/storage"
+msgstr "ДО СКЛАДУ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree"
+msgstr "ДО ДЕРЕВА ДОСЛІДЖЕНЬ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/china"
+msgstr "ДО ТЕХНІКИ КИТАЮ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/czech"
+msgstr "ДО ТЕХНІКИ ЧЕХОСЛОВАЧЧИНИ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/france"
+msgstr "ДО ТЕХНІКИ ФРАНЦІЇ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/germany"
+msgstr "ДО ТЕХНІКИ НІМЕЧЧИНИ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/italy"
+msgstr "ДО ТЕХНІКИ ІТАЛІЇ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/japan"
+msgstr "ДО ТЕХНІКИ ЯПОНІЇ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/poland"
+msgstr "ДО ТЕХНІКИ ПОЛЬЩІ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/sweden"
+msgstr "ДО ТЕХНІКИ ШВЕЦІЇ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/uk"
+msgstr "ДО ТЕХНІКИ ВЕЛИКОБРИТАНІЇ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/usa"
+msgstr "ДО ТЕХНІКИ США"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/ussr"
+msgstr "ДО ТЕХНІКИ СРСР"
+
+msgid "viewHeader/backBtn/label"
+msgstr "НАЗАД"
+
+msgid "viewHeader/closeBtn/label"
+msgstr "ЗАКРИТИ"
+
+msgid "viewHeader/infoBtn/label"
+msgstr "ІНФОРМАЦІЯ"

@@ -1,0 +1,233 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2025-04-22 10:00+0300\nPO-Revision-Date: 2025-04-22 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bonus/credits/description"
+msgstr "Obtenez un bonus aux crédits pour en gagner davantage en bataille !"
+
+msgid "bonus/credits/title"
+msgstr "Crédits"
+
+msgid "bonus/crew/description"
+msgstr "Obtenez un bonus à l'EXP. d'équipage pour en gagner davantage en bataille !"
+
+msgid "bonus/crew/title"
+msgstr "EXP. d'équipage"
+
+msgid "bonus/crystal/description"
+msgstr "Obtenez un bonus aux obligations pour en gagner davantage en bataille !"
+
+msgid "bonus/crystal/title"
+msgstr "Obligations"
+
+msgid "bonus/events/description"
+msgstr "Obtenez des histoires uniques avec des récompenses au passage !"
+
+msgid "bonus/events/title"
+msgstr "Évènements"
+
+msgid "bonus/freeXP/title"
+msgstr "EXP. libre"
+
+msgid "bonus/gold/title"
+msgstr "Pièces d'or"
+
+msgid "bonus/showoff/description"
+msgstr "Montrez votre fidèle compagnon au monde entier !"
+
+msgid "bonus/showoff/title"
+msgstr "Vitrine"
+
+msgid "bonus/tankmenXP/description"
+msgstr "Obtenez un bonus à l'EXP. de bataille pour en gagner davantage en bataille !"
+
+msgid "bonus/tankmenXP/title"
+msgstr "EXP. de bataille"
+
+msgid "breedName/dog_1"
+msgstr "Berger allemand"
+
+msgid "breedName/dog_2"
+msgstr "Labrador"
+
+msgid "eventView/button"
+msgstr "Affirmatif"
+
+msgid "infoPageEntryPoint"
+msgstr "Comment devenir ami avec mon animal de compagnie ?"
+
+msgid "message/petAdded/button"
+msgstr "Au repaire"
+
+msgid "message/petAdded/header"
+msgstr "Nouveau %(petType)s ajouté sur votre compte"
+
+msgid "message/petAdded/text"
+msgstr "%(petBreed)s ajouté au repaire"
+
+msgid "message/petBuy/success"
+msgstr "Le %(petName)s a bien été acheté. Vous avez dépensé %(price)s."
+
+msgid "message/server_error"
+msgstr "Action temporairement indisponible. Réessayez plus tard."
+
+msgid "message/synergyLevelUp/header"
+msgstr "Le niveau de synergie de %(petName)s a augmenté !"
+
+msgid "message/synergyLevelUp/text"
+msgstr "De nouvelles animations sont maintenant disponibles. Continuez d'interagir avec pour en débloquer davantage !"
+
+msgid "message/synergyMaxLevel/header"
+msgstr "Le niveau de synergie de %(petName)s a augmenté !"
+
+msgid "message/synergyMaxLevel/text"
+msgstr "De nouvelles animations sont disponibles"
+
+msgid "petDescription/dog_1"
+msgstr "Le berger allemand avançait silencieusement sur le champ de bataille, tous ses sens en alerte. Lorsqu'une explosion projeta son maître au sol, le chien traîna l'homme à couvert et le protégea jusqu'à l'arrivée des secours. Blessé, mais fidèle, il ne s'éloigna jamais de lui. Un véritable ange gardien pour un soldat."
+
+msgid "petDescription/dog_2"
+msgstr "Toujours en quête d'aventure, ce labrador plein d'entrain est un compagnon fidèle. Il accueille les éclats de rire de joyeux aboiements et remue la queue dès qu'il se fait de nouveaux amis. La rumeur raconte qu'on l'a déjà vu à deux endroits à la fois, mais personne n'a encore percé le mystère."
+
+msgid "petEventTooltip/body"
+msgstr "%(petName)s a trouvé quelque chose pendant votre absence ! Venez le découvrir !"
+
+msgid "petHouseMarker/default"
+msgstr "Repaire des animaux de compagnie"
+
+msgid "petHouseMarker/pet"
+msgstr "Repaire : {{petName}}"
+
+msgid "petSettings/cancelButton"
+msgstr "Annuler"
+
+msgid "petSettings/naming/subtitle"
+msgstr "N'hésitez pas à renommer votre animal de compagnie"
+
+msgid "petSettings/naming/tip/subtitle"
+msgstr "Renommez votre animal de compagnie"
+
+msgid "petSettings/naming/tip/title"
+msgstr "Changer le nom"
+
+msgid "petSettings/naming/title"
+msgstr "Nom de l'animal de compagnie"
+
+msgid "petSettings/saveButton/label"
+msgstr "Enregistrer"
+
+msgid "petSettings/uniqueName/tip/subtitle"
+msgstr "Cet animal de compagnie possède un nom unique qui ne peut pas être changé."
+
+msgid "petSettings/uniqueName/tip/title"
+msgstr "Indisponible"
+
+msgid "petSettings/visibility/select/always"
+msgstr "Toujours afficher"
+
+msgid "petSettings/visibility/select/disableAnimation"
+msgstr "Désactiver les animations"
+
+msgid "petSettings/visibility/select/onlyIntoPetPlace"
+msgstr "Afficher uniquement dans le garage"
+
+msgid "petSettings/visibility/subtitle"
+msgstr "Vous pouvez envoyer votre animal de compagnie au garage s'il se comporte mal."
+
+msgid "petSettings/visibility/tip/subtitle"
+msgstr "Changez le mode de visibilité de votre animal de compagnie"
+
+msgid "petSettings/visibility/tip/title"
+msgstr "Visibilité de l'animal de compagnie"
+
+msgid "petSettings/visibility/title"
+msgstr "Visibilité de l'animal de compagnie"
+
+msgid "petStorage/petBonus/title"
+msgstr "Bonus actif :"
+
+msgid "petStorage/petBonus/tooltip/content"
+msgstr "Le bonus est appliqué à la récompense, quel que soit le résultat de la bataille. Une fois la limite atteinte, le bonus n'est plus appliqué."
+
+msgid "petStorage/petCard/promo"
+msgstr "NOUVEAU"
+
+msgid "petStorage/progressbarBonuses"
+msgstr "Les bonus s'appliquent aux Batailles aléatoires."
+
+msgid "petStorage/progressbarDescription"
+msgstr "Augmente les récompenses pour un certain nombre de batailles chaque jour."
+
+msgid "petStorage/progressbarTitle"
+msgstr "Bonus de bataille restants"
+
+msgid "petStorage/progressbarTooltip/content"
+msgstr "Le nombre de bonus de bataille disponibles sera réinitialisé demain. Un bonus est utilisé par bataille et les récompenses sont octroyées indépendamment des résultats de la bataille."
+
+msgid "petStorage/progressbarTooltip/title"
+msgstr "Bonus disponibles"
+
+msgid "petStorage/progressbarWarning"
+msgstr "Mode inapproprié. Les bonus ne s'appliquent pas."
+
+msgid "petStorage/status/select"
+msgstr "Sélectionner"
+
+msgid "petStorage/status/selected"
+msgstr "Sélectionné"
+
+msgid "petStorage/title"
+msgstr "Repaire"
+
+msgid "petStorageTooltip/bonus/caption"
+msgstr "Batailles restantes. Se réinitialise demain"
+
+msgid "petStorageTooltip/bonus/currentBonus"
+msgstr "{{value}} pour chaque bataille"
+
+msgid "petStorageTooltip/bonus/inProgress"
+msgstr "Batailles restantes"
+
+msgid "petStorageTooltip/bonus/title"
+msgstr "Bonus"
+
+msgid "petStorageTooltip/warning/unsuitableMode"
+msgstr "Mode inapproprié. Le bonus ne s'applique pas."
+
+msgid "petType/dog"
+msgstr "chien"
+
+msgid "plusPercentValue"
+msgstr "+{{value}} %"
+
+msgid "promotion/bonuses/text_1"
+msgstr "Le bonus s'applique uniquement aux Batailles aléatoires et n'est pas actif dans toutes les batailles."
+
+msgid "promotion/bonuses/text_2"
+msgstr "Les évènements sont disponibles en Batailles aléatoires."
+
+msgid "promotion/button/challenge"
+msgstr "Missions"
+
+msgid "promotion/button/purchase"
+msgstr "Vers le Magasin"
+
+msgid "promotion/challengeInfo/text_1"
+msgstr "Informations sur la mission"
+
+msgid "promotion/challengeInfo/text_2"
+msgstr "Disponible à l'achat dans un lot d'évènement spécial présent dans le Magasin en jeu."
+
+msgid "promotion/challengeInfo/title_1"
+msgstr "Missions"
+
+msgid "promotion/challengeInfo/title_2"
+msgstr "Comment le recevoir"
+
+msgid "synergyTooltip/description/done"
+msgstr "Chaque niveau de synergie de l'animal de compagnie renforce votre amitié. Il n'y a pas meilleur allié qu'un Compagnon de combat. Si vous êtes inactif pendant une longue période, ce niveau diminuera."
+
+msgid "synergyTooltip/description/inProgress"
+msgstr "Interagissez avec votre animal de compagnie pour faire grimper votre niveau d'amitié. Atteindre le niveau maximal vous octroie le statut de Compagnon de combat. Si vous êtes inactif pendant une longue période, ce niveau diminuera."
+
+msgid "synergyTooltip/title"
+msgstr "Statut du compagnon"

@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Övrigt mottaget:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Den här uppdragsserien kan slutföras igen."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Uppfattat!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Stäng"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Visa i garaget"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Slutför igen"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Till Smältugnen"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "WoT-Premiumkonto"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Premiumvagn"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Hyrvagn"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "och stilen {{styleName}}"
+
+msgid "awards_view/reward/multi"
+msgstr "{{count}} st"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) dag"
+msgstr[1] "%(day) dagar"
+msgstr[2] "%(day) dagar"
+
+msgid "awards_view/title"
+msgstr "SMÄLTUGN SLUTFÖRD!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Uppdrag för 5× erf. per strid"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Ritningsfragment (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Allmänt ritningsfragment"
+
+msgid "bonuses/bpcoin"
+msgstr "Stridspassmarker"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Uppdrag för 3× besättningserfarenhet"
+
+msgid "bonuses/description/attachments_set"
+msgstr "3D-tillbehörsset"
+
+msgid "bonuses/description/booster"
+msgstr "Personlig reserv"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Erövrad utrustning"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Besättningsutseende"
+
+msgid "bonuses/description/directive"
+msgstr "Anvisning"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Experimentell utrustning"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Förbättrad utrustning"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "och stilen %(styleName)s"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standardutrustning"
+
+msgid "bonuses/description/style"
+msgstr "2D-stil"
+
+msgid "bonuses/description/style_3d"
+msgstr "3D-stil"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Kvinnlig besättningsmedlem"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Rekryt"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Besättningsmedlem"
+
+msgid "condition/achievement"
+msgstr "Förtjäna utmärkelsen %(achievement)s"
+
+msgid "condition/achievement/title"
+msgstr "Stridshjältar"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Åsamka och assistera i åsamkande av totalt minst %(goal)s träffpoäng skada"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Åsamka, motta och blockera totalt minst %(goal)s träffpoäng skada"
+
+msgid "condition/aggregated/title"
+msgstr "Avancerat mål"
+
+msgid "condition/classes/AT-SPG"
+msgstr "Pansarvärnskanonvagn"
+
+msgid "condition/classes/SPG"
+msgstr "Artilleri"
+
+msgid "condition/classes/heavyTank"
+msgstr "Tung strv"
+
+msgid "condition/classes/lightTank"
+msgstr "Lätt strv"
+
+msgid "condition/classes/mediumTank"
+msgstr "Medeltung stridsvagn"
+
+msgid "condition/critsCount"
+msgstr "Åsamka interna eller externa moduler %(goal)s kritiska träffar"
+
+msgid "condition/critsCount/title"
+msgstr "Immobilisera"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Blockera %(goal)s träffpoäng skada"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Blockera %(goal)s gånger så mycket skada som du har träffpoäng"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Blockera"
+
+msgid "condition/damageDealt"
+msgstr "Åsamka fiendevagnar %(goal)s träffpoäng skada"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Åsamka %(goal)s gånger så mycket skada som du har träffpoäng"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Träffa fiendevagnar %(goal)s gånger från ett avstånd av %(distance)s m eller mindre"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Träffa fiendevagnar %(goal)s gånger från ett avstånd av %(distance)s m eller mer"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Skada fiendevagnar %(goal)s gånger genom att ramma dem"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Träffa fiendevagnar inom din egen siktsträcka %(goal)s gånger"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Åsamka %(goal)s träffpoäng skada under stridens första %(timeLimit)s minuter"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Åsamka fiendevagnar %(goal)s träffpoäng skada från ett avstånd av %(distance)s m eller mindre"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Åsamka fiendevagnar %(goal)s träffpoäng skada från ett avstånd av %(distance)s m eller mer"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Åsamka %(goal)s träffpoäng skada genom rammning"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Rammning"
+
+msgid "condition/damageDealt/title"
+msgstr "Skada"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Åsamka fiendevagnar som inte observeras %(goal)s träffpoäng skada"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Åsamka fiendevagnar inom din siktsträcka %(goal)s träffpoäng skada"
+
+msgid "condition/kills"
+msgstr "Förstör %(goal)s fiendevagnar"
+
+msgid "condition/kills/classes"
+msgstr "Förstör %(goal)s fientliga %(vehicleClass)s"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Förstör %(goal)s fiendevagnar av %(classCount)s olika typer"
+
+msgid "condition/kills/title"
+msgstr "Förstör"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Förstör %(goal)s fiendevagnar utan att ta någon skada"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Upptäck %(goal)s fiendevagnar utan att själv vara observerad"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Åsamka %(goal)s%% av hela lagets totala åsamkade skada"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Skada"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Slå igenom fiendens pansar %(goal)s gånger"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Pansargenomslag"
+
+msgid "condition/spotted"
+msgstr "Upptäck %(goal)s fiendevagnar"
+
+msgid "condition/spotted/title"
+msgstr "Upptäck fiendevagnar"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Upptäck %(goal)s fiendevagnar utan att utan att själv bli upptäckt"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Upptäck fiendevagnar"
+
+msgid "condition/top/damageDealt"
+msgstr "Var en av de %(rank)s i laget som åsamkat mest skada"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Var en av de %(rank)s spelare i striden som åsamkat mest skada"
+
+msgid "condition/top/title"
+msgstr "Toppspelare"
+
+msgid "condition/top/xp"
+msgstr "Var en av de %(rank)s spelare i laget som tjänat mest erfarenhet"
+
+msgid "condition/unknown"
+msgstr "Hittar passande uppdrag..."
+
+msgid "condition/unknown/title"
+msgstr "Väntar"
+
+msgid "postbattle/name"
+msgstr "SMÄLTUGN: "

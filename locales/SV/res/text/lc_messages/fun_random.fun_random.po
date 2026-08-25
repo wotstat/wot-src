@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "Scenariot %(leftDetailedSeasonName)s har avslutats"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Vapenvila råder på alla servrar. Strider åter tillgängliga om %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "Scenariot %(leftDetailedSeasonName)s har avslutats"
+
+msgid "alertMessage/allNotSet"
+msgstr "Striderna ej tillgängliga på servern %(serverName)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Välj en annan server"
+
+msgid "alertMessage/notAvailable"
+msgstr "Vapenvila råder på servern %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Vapenvila råder på servern %(serverName)s"
+
+msgid "alertMessage/notSet"
+msgstr "Striderna ej tillgängliga på servern %(serverName)s"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Vapenvila råder på denna server. Strider åter tillgängliga om %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "Scenariot %(leftDetailedSeasonName)s har avslutats"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Striderna ej tillgängliga på servern %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Inga giltiga vagnar"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Schema"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "LÄGE"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} – växlar till ett annat spelläge"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "Striderna blir tillgängliga"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "Vapenvila {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "Striderna har avslutats"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "Stridsläget är inte längre tillgängligt!"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "Striderna blir tillgängliga i {{timer}}"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s får inte delta i strider i %(modeName)s."
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "Icke-kompatibel vagnstyp"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "Välj en vagn %(levelSubStr)s för att delta i %(modeName)s."
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "Icke-kompatibel vagnsklass"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "klass %(levels)s"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s kan inte delta i %(modeName)s."
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "Icke-kompatibel vagn"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "Vapenvila råder på denna server. Välj en annan server."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "Kan inte delta i strid"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "Striderna är ej tillgängliga på den valda servern."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "Kan inte delta i strid"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "%(subModeName)s har avslutats"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "Kan inte delta i strid"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "Byt spelvariant eller välj en vagn som uppfyller kraven."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "Vagnen kan inte delta i den här spelvarianten"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "Skapa en taktisk enhet med 2 till 3 spelare för att samarbeta i %(modeName)s."
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "Pluton"
+
+msgid "invite/text/detailedTitle"
+msgstr "Inbjudan till pluton för %(detailedModeName)s"
+
+msgid "invite/tooltip/noVehicles"
+msgstr "Du behöver ha minst en vagn i ditt garage."
+
+msgid "lootboxTooltip/chance"
+msgstr "Chans att få: %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "Ett av sakerna i listan nedan:"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "ALLA DELMOMENT SLUTFÖRDA"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "ALLA MOMENT AV NUVARANDE\nUPPDRAG SLUTFÖRDA"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "Belöning för nästa delmoment – %(stagePoints)s poäng för att låsa upp"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "Nästa belöning för delmoment"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "%(time)s tills den aktiva fasen avslutas"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "%(time)s till nästa start"
+
+msgid "modeSelector/notStarted"
+msgstr "Striderna börjar snart"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s t"
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "TILL ARKADSPEL"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "Ej tillgänglig av tekniska skäl"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "Du har slutfört alla moment av nuvarande uppdrag"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "Belöningar: %(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "Striderna har avslutats"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "Kommande"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "Det börjar om"
+
+msgid "modeSubSelector/subtitle"
+msgstr "VÄLJ SPELVARIANT"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "Dev Alla delmoment slutförda"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "Dev Framstegsuppdatering"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "Delta i striderna!"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "Gå i strid!"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "Arkadspel är unika, tidsbegränsade aktiviteter som erbjuder något riktig annorlunda! Kämpa i exklusiva strider med regler som förändrar hela spelet, slutför uppdrag och förtjäna sällsynta belöningar."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Dev Beskrivning högrisk."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Dev Låg prestanda"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Dev Beskrivnign medelrisk."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Dev Reducerad prestanda"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Dev Beskrivning högrisk."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Dev Låg prestanda"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Låg prestanda"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Dev Beskrivnign medelrisk."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Dev Reducerad prestanda"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reducerad prestanda"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Dev Du har slutfört huvudmomenten"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "Dev Skaffa så många belöningar du kan:"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "Intjänade Dev-poäng: {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "Slutfört:"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "Upprepningsbart"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "För slutförande:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "För förlust:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "För seger:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Poäng:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Mottaget:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "Alla tillgängliga uppdrag slutförda"
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "Uppdragen syns när framsteg har påbörjats"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "Du har slutfört alla tillgängliga uppdrag. Fler blir tillgängliga i nästa rotation."
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "Tillgängliga i {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "Tillgängliga i {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "Nya uppdrag tillgängliga om {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "Status för {{eventName}}"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "Uppdrag för {{eventName}}"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "Alla moment slutförda"
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "Framstegsuppdatering"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "NEONRACE"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "Mållinjen väntar!"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "Redo att tävla?"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "Neonrace är ett unikt, tidsbegränsat evenemang som ger en helt annorlunda upplevelse! Tävla och kämpa genom livsfarliga banor, slutför uppdrag och förtjäna dina belöningar."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Striderna kräver hög datorprestanda. Du kan uppleva att kartorna laddar långsamt, grafikproblem och problem att köra din vagn. Om du upplever att din dator inte klarar av detta kan du pröva att sänka kvalitetsinställningarna."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Möjligt minskad prestanda"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Striderna kräver hög datorprestanda. Du kan uppleva att kartorna laddar långsamt, grafikproblem och problem att köra din vagn. Om du upplever att din dator inte klarar av detta kan du pröva att sänka kvalitetsinställningarna."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Möjligt minskad prestanda"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "Episk slumpvis belöning"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "Legendarisk slumpvis belöning"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "Vanlig slumpvis belöning"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "Sällsynt slumpvis belöning"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "Ovanlig slumpvis belöning"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "Neonraceuppdrag – Moment: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "Dina framsteg räknas i alla Neonrace."
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "Neonraceuppdrag"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "Dina framsteg räknas i alla olika Arkadspelsvarianter."
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "till nästa Arkadspelsuppdrag blir tillgängligt"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15–30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "Kämpa dig över mållinjen i det här racet där alla kämpar mot alla."
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Alla klasser"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "Låg grafikkvalitet kan medföra artefakter och andra grafikproblem. Vi rekommenderar de högsta grafikinställningar din dator kan hantera för bästa upplevelse. FPS kan minska under intensiva strider."
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "Högsta grafikinställningarna rekommenderas"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Högsta grafikinställningarna rekommenderas"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "Låg grafikkvalitet kan medföra artefakter och andra grafikproblem. Vi rekommenderar de högsta grafikinställningar din dator kan hantera för bästa upplevelse. FPS kan minska under intensiva strider."
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "Högsta grafikinställningarna rekommenderas"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Högsta grafikinställningarna rekommenderas"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "Nästa Neonraceuppdrag blir tillgängligt om:"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "Spelvarianten %(subModeName)s har avslutats. Framsteg nollställda."
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "Spelvarianten %(subModeName)s har avslutats."
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "Nya belöningar och spelvarianten %(subModeName)s tillgängliga."
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "Ny spelvariant tillgänglig: %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "Spelvarianten %(subModeName)s ej tillgänglig på grund av schemalagt underhåll."
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "Spelvarianten %(subModeName)s åter tillgänglig."
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "Belöningslista"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "Grattis!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "Du har slutfört huvudmomenten"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "Grattis!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "Obegränsat efterspel"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "Du har slutfört huvudmomenten"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "Slutför det här delmomentet så många gånger du kan."
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "Intjänade poäng: {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Intjänade poäng:"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "NEONRACEUPPDRAG"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "Slutfört:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "Upprepningsbart"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "För slutförande:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "För förlust:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "För seger:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Poäng:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Mottaget:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "Alla tillgängliga uppdrag slutförda"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "Uppdragen syns när framsteg har påbörjats"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "Du har slutfört alla tillgängliga uppdrag. Fler blir tillgängliga i nästa rotation."
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "Tillgängliga i {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "Tillgängliga i {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "Nya uppdrag tillgängliga om {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "Status för {{eventName}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "Uppdrag för {{eventName}}"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "LEGENDARISK BELÖNING MOTTAGEN"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "%(subModeName)s är tillgängligt igen."
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "Depåstopp"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s har avslutats"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "Depåstopp"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "Dags för depåstopp! %(subModeName)s är tillfälligt ej tillgängligt."
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "Depåstopp"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "Varje slumpvis belöning är en sak från listan nedan med en angiven chans."
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "Innehåll?"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "Alla vagnar är tillgängliga för Neonrace."
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "Neonracevagnar"
+
+msgid "modes/fall_tanks/userName"
+msgstr "Neonrace"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "Alla delmoment slutförda"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "Framstegsuppdatering"
+
+msgid "modes/undefined/capsUserName"
+msgstr "ARKADSPEL"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s: %(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "Delta i striderna!"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "Gå i strid!"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "Arkadspel är unika, tidsbegränsade aktiviteter som erbjuder något riktig annorlunda! Kämpa i exklusiva strider med regler som förändrar hela spelet, slutför uppdrag och förtjäna sällsynta belöningar."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Detta läge kräver hög datorprestanda. Du kommer uppleva att kartorna laddar långsamt, grafikproblem och problem att köra din vagn. Om du upplever att din dator inte klarar av detta bör du sänka kvalitetsinställningarna."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Möjligt minskad prestanda"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Detta läge kräver hög datorprestanda. Du kommer uppleva att kartorna laddar långsamt, grafikproblem och problem att köra din vagn. Om du upplever att din dator inte klarar av detta bör du sänka kvalitetsinställningarna."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Möjligt minskad prestanda"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "Episk slumpvis belöning"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "Legendarisk slumpvis belöning"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "Vanlig slumpvis belöning"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "Sällsynt slumpvis belöning"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "Ovanlig slumpvis belöning"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "Arkadspelsuppdrag – Moment: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "Dina framsteg räknas i alla olika Arkadspelsvarianter."
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "Arkadspelsuppdrag"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "Dina framsteg räknas i alla olika Arkadspelsvarianter."
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "till nästa Arkadspelsuppdrag blir tillgängligt"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15v15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "Experimentella strider med förändrade grundregler."
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Klass&nbsp;%(levels)s"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "Låg grafikkvalitet kan medföra artefakter och andra grafikproblem. Vi rekommenderar de högsta grafikinställningar din dator kan hantera för bästa upplevelse. FPS kan minska under intensiva strider."
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "Högsta grafikinställningarna rekommenderas"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Högsta grafikinställningarna rekommenderas"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "Låg grafikkvalitet kan medföra artefakter och andra grafikproblem. Vi rekommenderar de högsta grafikinställningar din dator kan hantera för bästa upplevelse. FPS kan minska under intensiva strider."
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "Högsta grafikinställningarna rekommenderas"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Högsta grafikinställningarna rekommenderas"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "Nästa Arkadspelsuppdrag blir tillgängligt om:"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "Spelvarianten %(subModeName)s har avslutats. Framsteg nollställda."
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "Spelvarianten %(subModeName)s har avslutats."
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "Nya belöningar och spelvarianten %(subModeName)s tillgängliga."
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "Ny spelvariant tillgänglig: %(subModeName)s."
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "Spelvarianten %(subModeName)s ej tillgänglig på grund av schemalagt underhåll."
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "Spelvarianten %(subModeName)s åter tillgänglig."
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "Belöningslista"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "Grattis!"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "Du har slutfört huvudmomenten"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "Grattis!"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "Upprepningsbart moment"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "Du har slutfört huvudmomenten"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "Skaffa så många belöningar du kan:"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "Intjänade poäng: {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Intjänade poäng:"
+
+msgid "modes/undefined/progression/title"
+msgstr "ARKADSPELSUPPDRAG"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "Slutfört:"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "Upprepningsbart"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "För slutförande:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "För förlust:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "För seger:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Poäng:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Mottaget:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "Alla tillgängliga uppdrag slutförda"
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "Uppdragen syns när framsteg har påbörjats"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "Du har slutfört alla tillgängliga uppdrag. Fler blir tillgängliga i nästa rotation."
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "Tillgängliga i {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "Tillgängliga i {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "Nya uppdrag tillgängliga om {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "Status för {{eventName}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "Uppdrag för {{eventName}}"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "LEGENDARISK BELÖNING MOTTAGEN"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "Spelvarianten %(subModeName)s åter tillgänglig."
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "Vapenvila"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s har avslutats"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "Vapenvila"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "Vapenvila råder. Spelvarianten %(subModeName)s är tillfälligt ej tillgänglig."
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "Vapenvila"
+
+msgid "modes/undefined/tierList/description"
+msgstr "Varje slumpvis belöning är en sak från listan nedan med en angiven chans."
+
+msgid "modes/undefined/tierList/title"
+msgstr "Innehåll?"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "Visa/göm lämpliga vagnar för Arkadspel."
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "Arkadspelsfordon"
+
+msgid "modes/undefined/userName"
+msgstr "Arkadspel"
+
+msgid "notification/congratulation"
+msgstr "Grattis!"
+
+msgid "notification/finishSubModes"
+msgstr "Evenemanget %(modeName)s har avslutats."
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "Spelvarianterna %(subModesNames)s har avslutats. Framsteg nollställda."
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "Spelvarianterna %(subModesNames)s har avslutats."
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "Slumpvis belöning"
+
+msgid "notification/newProgression"
+msgstr "Framsteg i evenemanget har nollställts—du kan nu få belöningar igen!"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "Framsteg i evenemanget har nollställts. Nya spelvarianter tillgängliga: %(subModesNames)s."
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "Nya spelvarianter tillgängliga: %(subModesNames)s."
+
+msgid "notification/progressionComplete"
+msgstr "Du har slutfört alla uppdrag i %(modeName)s. Belöning mottagen:"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "Du har slutfört alla tillgängliga uppdrag i %(modeName)s. Upprepningsbart moment tillgängligt. Belöning mottagen:"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "Framsteg återställs om mindre än 1 dygn. Därefter kan du slutföra uppdrag igen."
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "Framsteg återställs om %(days)d dagar. Därefter kan du slutföra uppdrag igen."
+
+msgid "notification/progressionStageComplete"
+msgstr "Du har slutfört moment: %(stage)s av %(modeName)s. Belöning mottagen:"
+
+msgid "notification/subModesSeparator"
+msgstr ", "
+
+msgid "notification/switchOffSubModes"
+msgstr "Spelvarianterna %(subModesNames)s ej tillgängliga på grund av schemalagt underhåll."
+
+msgid "notification/switchOnSubModes"
+msgstr "Spelvarianterna %(subModesNames)s åter tillgängliga."
+
+msgid "platoonView/title"
+msgstr "Pluton: %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "Tillgänglig server: %(server)s."
+
+msgid "primeTimes/availableServers"
+msgstr "Tillgängliga servrar:"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Server %(serverName)s\nStrider tillgängliga om %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Servern %(serverName)s\n%(leftDetailedSeasonName)s har avslutats."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Server %(serverName)s\nStrider tillgängliga i ytterligare %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Server %(serverName)s\nStrider tillgängliga om %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Servern %(serverName)s\n%(leftDetailedSeasonName)s har avslutats."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Server %(serverName)s\nStrider tillgängliga om %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Servern %(serverName)s\n%(leftDetailedSeasonName)s har avslutats."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s t %(min)s min"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Vapenvila råder på alla servrar.\nStrider åter tillgängliga om %(primeDelta)s"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "%(leftDetailedSeasonName)s har avslutats"
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "Striderna ej tillgängliga på servern %(serverName)s"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Vapenvila råder på servern %(serverName)s tills %(primeDeltaDate)s kl.%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Vapenvila råder på servern %(serverName)s"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Striderna ej tillgängliga på servern %(serverName)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Vapenvila råder på servern %(serverName)s.\nStrider åter tillgängliga om %(primeDelta)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "%(leftDetailedSeasonName)s har avslutats"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Striderna ej tillgängliga på servern %(serverName)s"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Strider på servern %(serverName)s börjar om %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "%(leftDetailedSeasonName)s har avslutats på servern %(serverName)s."
+
+msgid "primeTimes/timeText/available"
+msgstr "Strider på servern %(serverName)s är tillgängliga under ytterligare %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Strider på servern %(serverName)s börjar om %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "%(leftDetailedSeasonName)s har avslutats på servern %(serverName)s."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Strider på servern %(serverName)s börjar om %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "%(leftDetailedSeasonName)s har avslutats på servern %(serverName)s."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "poäng"
+
+msgid "progression/complete/affirmative"
+msgstr "Uppfattat!"
+
+msgid "progression/defaultCondition/text"
+msgstr "Tjäna poäng och slutför delmomenten."
+
+msgid "progression/infinite/pointsEarned"
+msgstr "Intjänade poäng:"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "Aktiv fas avslutad. Striderna är över"
+
+msgid "progression/questsList/quest/completed"
+msgstr "Slutförda:"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "Upprepningsbart"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "För slutförande:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "För förlust:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "För seger:"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "Mottaget:"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "Den aktiva fasen avslutas om: {{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "Den aktiva fasen avslutas om:"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "Nästa omgång om:"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "Belöning för nästa delmoment – %(count)d poäng för att låsa upp"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Du har även fått:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Uppfattat!"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "Plutonschefen har bytt till spelvarianten %(subModeName)s."
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "Byt spelvariant"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Klass&nbsp;%(levels)s"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Dev Beskrivning högrisk."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Dev Låg prestanda"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Låg prestanda"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Dev Beskrivnign medelrisk."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Dev Reducerad prestanda"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reducerad prestanda"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "NEONRACE"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "Tävla till mållinjen och hindra andra från att nå den. Använd förmågorna Rusning och Sköld för att skapa extra kaos!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "Varning: Rörliga plattformar"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "Undvik laserstrålarna och tajma hoppen noga för att komma först över mållinjen!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "Varning: Lasrar och hopp"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "för mer information om dessa strider."
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "Tryck"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "Neonrace"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15–30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "Kämpa dig\nfram till mållinjen"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Alla klasser"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "Låg grafikkvalitet kan medföra artefakter och andra grafikproblem. Vi rekommenderar de högsta grafikinställningar din dator kan hantera för bästa upplevelse. Striderna kräver hög prestanda och din FPS kan minska under intensiva strider."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "Högsta grafikinställningarna rekommenderas"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Högsta grafikinställningarna rekommenderas"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "Låg grafikkvalitet kan medföra artefakter och andra grafikproblem. Vi rekommenderar de högsta grafikinställningar din dator kan hantera för bästa upplevelse. Striderna kräver hög prestanda och din FPS kan minska under intensiva strider."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "Högsta grafikinställningarna rekommenderas"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Högsta grafikinställningarna rekommenderas"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "Neonrace"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "Neonrace"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "Neonrace"
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Klass&nbsp;%(levels)s"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "Låg grafikkvalitet kan medföra artefakter och andra grafikproblem. Vi rekommenderar de högsta grafikinställningar din dator kan hantera för bästa upplevelse. FPS kan minska under intensiva strider."
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "Högsta grafikinställningarna rekommenderas"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Högsta grafikinställningarna rekommenderas"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "Låg grafikkvalitet kan medföra artefakter och andra grafikproblem. Vi rekommenderar de högsta grafikinställningar din dator kan hantera för bästa upplevelse. FPS kan minska under intensiva strider."
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "Högsta grafikinställningarna rekommenderas"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Högsta grafikinställningarna rekommenderas"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

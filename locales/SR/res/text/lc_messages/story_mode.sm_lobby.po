@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, trajanje borbe: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "ZATVORI"
+
+msgid "battleResult/continueButton"
+msgstr "Nastavi"
+
+msgid "battleResult/damageAssisted"
+msgstr "Asistencija\nštete"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Blokirana\nšteta"
+
+msgid "battleResult/damageDealt"
+msgstr "Naneta\nšteta"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s Završavajući misije na rigoroznom nivou težine,\ntakođe ih automatski završavaš i na regularnom.\nTo znači da dobijaš nagrade za oba nivoa težine."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s Završavajući misije na rigoroznom nivou težine, takođe ih automatski završavaš i na regularnom.\nTo znači da dobijaš nagrade za oba nivoa težine."
+
+msgid "battleResult/kills"
+msgstr "Uništeni\nneprijatelji"
+
+msgid "battleResult/lose/title"
+msgstr "BORBA JE ZAVRŠENA"
+
+msgid "battleResult/missionName/1"
+msgstr "LOVAC NA TIGROVE: Operacija Čelična lavina"
+
+msgid "battleResult/missionName/2"
+msgstr "LOVAC NA TIGROVE: Operacija traper"
+
+msgid "battleResult/missionName/3"
+msgstr "TIGER LOVAC: Operacija Čekić i nakovanj"
+
+msgid "battleResult/missionName/4"
+msgstr "TIGER LOVAC: Operacija Mačka u mišolovci"
+
+msgid "battleResult/missionName/5"
+msgstr "OPERACIJA OVERLORD"
+
+msgid "battleResult/missionName/6"
+msgstr "OPERACIJA POŠTAR"
+
+msgid "battleResult/missionName/7"
+msgstr "OPERACIJA TAČKA KLJUČANJA"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Nema aktivnih\nmisija"
+
+msgid "battleResult/rewards/other"
+msgstr "Takođe primljeno:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Misije\nzavršene"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Preživao{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Nije preživeo{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "POBEDA!"
+
+msgid "countdown/days"
+msgstr "{days} d"
+
+msgid "countdown/daysHours"
+msgstr "{days} d {hours} h"
+
+msgid "countdown/endsSoon"
+msgstr "Manje od {minutes} minuta"
+
+msgid "countdown/hours"
+msgstr "{hours} h"
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} h {minutes} min"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} h {minutes} m"
+
+msgid "countdown/lessThanMinute"
+msgstr "Manje od 1 minuta"
+
+msgid "countdown/minutes"
+msgstr "{minutes} min"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} m"
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "Otkaži"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "Nećeš dobiti nikakve nagrade za završavanje ove operacije.\nDa li i dalje želiš da odigraš operaciju bez aktivnih misija?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Potvrdi"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "Nema aktivnih misija u ovoj operaciji"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Indetifikuj nepoznatu pretnju, zaustavi lansiranje rakete i postaraj se da nova tehnologija stigne u prave ruke."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "Igraj solo i bori se protiv AI kontrolisanih protivnika u ovoj epskoj priči uz komandante iz Sektora 3!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Završi sve misije da dobiješ komemorativnu značku i medalju, 2D stilove sa temom i druge vredne nagrade."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "Nova zora sviće"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "Solo priča"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Nagrade"
+
+msgid "eventWelcomeScreen/header"
+msgstr "OPERACIJA TAČKA KLJUČANJA"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s - %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Priče"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Rigorozno"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Regularna"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Striktno\nMinsko polje"
+
+msgid "missionSelection/exitButton"
+msgstr "IZAĐI IZ REŽIMA"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "OPERACIJA\nČELIČNA LAVINA"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "OPERACIJA\nTRAPER"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "OPERACIJA\nČEKIĆ I NAKOVANJ"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "OPERACIJA\nMAČKA U MIŠOLOVCI"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "OPERACIJA\nOVERLORD"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "OPERACIJA\nPOŠTAR"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "OPERACIJA\nTAČKA KLJUČANJA"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Bruks: \"Pa kako si? Da li si se povratio? Videćeš bolničare kasnije. Sada se svaki top računa. Juriš je već počeo. A pošto smo zakasnili, neprijatelj se fokusirao potpuno na drugo krilo. Ovo je naša prilika. Napadamo odmah. Proboj u grad i stiskamo ih sa obe strane.\nPrati nas - i izbegavaj protivtenkovske prepreke. Imaju gomilu redova tih betonskih očnjaka na tom polju. Ali to je u redu. Proćićemo. Sve što treba da radiš je da me slušaš i izvršavaš moja naređenja brzo i precizno. Mekleod i ja ćemo te pokrivati.\nI ne obraćaj pažnju na njegove šale. Svako ima svoj način da se izbori... Napred!\""
+
+msgid "missionSelection/missionDescription/2"
+msgstr "Meklod: \"Ah, tigrovi - oni su najgore što možeš da sretneš na bojištu. A ako komanda kaže da imaju problem, verovatno misle na tigrove. Ne možemo da kontaktiramo prvi jurišni odred, drugi je tek krenuo i evo nas - poslati smo da ih pratimo.\nA ako su poslali nas to znači samo jednu stvar: Tigrovi. To kažu i u štabu: \"Pošalji one eksperte za tigrove!\" Devet tenkova za dva. Nije loše za pola godine. Ti vodiš 5-4. Ali imam šansu da odem napred. I konačno uzmem tu prokletu medalju!\nHajde - Bruks ne voli da čeka. Naš lov počinje.\""
+
+msgid "missionSelection/missionDescription/3"
+msgstr "MacLeod: \"U redu, svi, to je Operacija Čekić i nakovanj. Jednostavan naziv za ne tako jednostavan posao. Idemo u grad da očistimo neprijateljske snage. Nećemo šetati parkom - mi smo protiv nešto teškog oklopa, ali mi imamo mozak, snagu i timski rad na našoj strani, zar ne, Srećko? I hajde da požurimo ljudi, imam planove sa malom šoljicom \"čaja\" u pet ako me razumete!\""
+
+msgid "missionSelection/missionDescription/4"
+msgstr "MacLeod: \"Ne pitaj, Srećko. Ja sam u mraku koliko i ti. Nisam ljubitelj sve ove tajnovitosti. Volim stvari koje su direktne. Vidiš neprijatelja, boriš se. Ali ovo? To je zbrka.\n\nU gradu će biti i savezničkih tenkova. Brooks želi da budemo pažljivi. Šta bi to trebalo da znači?\nImamo poseban posao. Da pronađemo neki Wunderwaffe - nešto veliko na gusenicama. Niko to ne može da uradi osim nas, Srećko.\n\nSpreman? Krećemo.\""
+
+msgid "missionSelection/missionDescription/5"
+msgstr "Kapetan Džon Makkormik: \"U redu momci, dan je stigao. Vreme je da završimo ovaj rat i upravo to ćemo i da uradimo. Svi mi, zajedno - Amerikanci, Britanci, Francuzi, Kanađani, Australijanci, Belgijanci, Čehoslovaci, Grci, Holanđani, Novozelanđani, Norvežani, Poljaci. Ujedinjeni smo da prekinemo ovo zlo jednom zauvek.\n\nProbićemo se kroz Atlantski zid i uspostaviti mostobran.\n\nSpremite se za iskrcavanje!\""
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Kapetan Smit: \"Slušajte. Nemačka je potpisala papire o predaji pre nekoliko sati. Rat se završava sutra. Ali naši momci u planinama su izgubili radio kontakt - ne znaju da je gotovo. Postavljeni su za napad na ovu prokletu tvrđavu u zoru i Nemci unutra takođe ne znaju za predaju. Biće bespotrebno krvoproliće.\n\nMi smo jedini koji možemo da ga sprečimo. Naša misija: prošunjati se kroz neprijateljske linije i isporučiti naređenje o prekidu vatre. To je samoubilačka misija ali svaki život koji spasimo je važan.\n\nImamo zarobljenog nemačkog radio operatera sa nama - on poznaje teren i ima dovoljno razloga kao i mi da zaustavi ovo krvoproliće.\n\nPokret.\""
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Leni Scharf: \"Situacija je kritična. Izgubili smo kontakt sa našom raketnom bazom u Norveškom moru. Izviđački let se nikada nije vratio, a početnu tenkovsku desantnu silu je uništio nepoznati neprijatelj.\n\nObaveštajni podaci ukazuju da se spremaju za lansiranje balističke rakete. Ne znamo cilj, ali u ovoj političkoj klimi, jedno lansiranje bi moglo da pokrene globalni sukob.\n\nKao u stara vremena, zar ne? Samo još jedna nemoguća misija iza neprijateljskih linija. Krećemo!\""
+
+msgid "missionSelection/missionName/1"
+msgstr "OPERACIJA ČELIČNA LAVINA"
+
+msgid "missionSelection/missionName/2"
+msgstr "OPERACIJA TRAPER"
+
+msgid "missionSelection/missionName/3"
+msgstr "OPERACIJA ČEKIĆ I NAKOVANJ"
+
+msgid "missionSelection/missionName/4"
+msgstr "OPERACIJA MAČKA U MIŠOLOVCI"
+
+msgid "missionSelection/missionName/5"
+msgstr "OPERACIJA OVERLORD"
+
+msgid "missionSelection/missionName/6"
+msgstr "OPERACIJA POŠTAR"
+
+msgid "missionSelection/missionName/7"
+msgstr "OPERACIJA TAČKA KLJUČANJA"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Specijalno vozilo"
+
+msgid "missionSelection/tab/event"
+msgstr "OPERACIJA TAČKA KLJUČANJA"
+
+msgid "missionSelection/tab/newbies"
+msgstr "TUTORIJAL PRIČE"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Napadni grad i uništi neprijateljska vozila."
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Napadni grad i uništi neprijateljska vozila."
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Napadni grad i uništi neprijateljska vozila."
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Završi glavne ciljeve misije bez primanja štete od neprijateljskih mina."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Završi glavne ciljeve misije bez izgubljenog nijednog vozila."
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Napadni grad i zarobi neprijateljski Wunderwaffe."
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Završi glavni cilj misije ispod %(win_timer)s."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Završi glavne ciljeve misije i uništi %(kill_enemies)s uz pomoć aviona."
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Probij se, uništi obalske topove i zauzmi mostobran."
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Završi glavni cilj misije ispod %(win_timer)s."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Završi glavne ciljeve misije bez izgubljenog nijednog vozila."
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Isporuči naređenje o prekidu vatre svojim saveznicima."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Završi glavne ciljeve misije i uništi manje od %(kill_enemies)s neprijatelja."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Završi glavne ciljeve misije bez izgubljenog nijednog vozila."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Stigni do komandnog centra i zaustavi lansiranje projektila."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Završi glavni cilj misije ispod %(win_timer)s."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Završi glavne ciljeve misije bez izgubljenog nijednog vozila."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s neprijateljsko vozilo"
+msgstr[1] "%(value)s neprijateljska vozila"
+msgstr[2] "%(value)s neprijateljskih vozila"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "Misija je zaključana: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s minut"
+msgstr[1] "%(value)s minuta"
+msgstr[2] "%(value)s minuta"
+
+msgid "missionSelection/taskRewards"
+msgstr "Nagrada:"
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Ovo vozilo je dostupno samo u pričama."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Završi još %(numBattles)s borbi u režimu slučajnih borbi \nda otključaš ovu operaciju."
+
+msgid "mode/story_mode/callToAction"
+msgstr "Scenariji za početnike"
+
+msgid "mode/story_mode/description"
+msgstr "Završi skriptovane operacije protiv kompjuterski vođenih vozila"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Operacija Tačka ključanja je dostupna"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "Svoj trenutni režim igre možeš da nađeš na vrhu glavnog menija u garaži. Klikni na ime režima da vidiš šta je još sve dostupno."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Klikni na &zwnbsp;{whiteSpanish_Open}Priče{whiteSpanish_Close}&zwnbsp; da izabereš ovaj režim."
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "U Pričama, možeš da istražuješ PvE scenarije, boriš se protiv AI kontrolisanih neprijatelja, uroniš u atmosferu herojskih borbi i zaradiš vredne nagrade!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Uđi u selektor režima"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Izaberi Priče"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "Uživaj u PvE akciji"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "PRIČE"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Čekaju te scenariji"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Restart"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "BORBA JE ZAVRŠENA"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Preskoči"
+
+msgid "onboardingQueue/skipText"
+msgstr "Svi serveri su zauzeti. Molim sačekaj ili preskoči ovu priču."
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Pripremamo server za tebe. Molim sačekaj..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Šteta blokirana oklopom {parSecondary_Start}(jedinica){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Blokirana šteta"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "Pogodci HE i HESH granata se ne računaju."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Računa se:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Rikošet neprijatlejskih hitaca"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Hici koji nisu probili"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Asistencija u šteti"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "Sledeća šteta naneta od strane saveznika uz tvoju asistenciju se računa:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Naneta šteta nakon tvog uočavanja"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "Šteta nakon tvog uništavanja gusenice i imobilizacije neprijatlejskog vozila"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "Ukupna šteta koju su naneli saveznici\n{parSecondary_Start}(jedinica){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Prouzrokovana šteta"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Računa se:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Šteta hicem"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Šteta sudaranjem"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Šteta vatrom"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Šteta guranjem neprijatlejskog vozila sa prepreke."
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Ukupna šteta {parSecondary_Start}(jedinica){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Uništeni neprijatelji"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Računa se:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Uništenje hicem"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Uništenje vatrom"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Uništenje sudaranjem"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Uništenje davljenjem"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Uništenje guranjem neprijatelja sa prepreke."
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Uništenje prevrtanjem."
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Završene misije"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "Broj završenih misija i sve trenutno dostupne\nmisije.\nMisije završene na Rigoroznoj težini su takođe automatski završene na Regularnoj težini."
+
+msgid "tooltips/difficulty/available"
+msgstr "Dostupno"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "Brzina reakcije neprijatelja i preciznost je povećana, a napadaće agresivnije. Za uzvrat, dobićeš ekstra nagrade po završetku misije."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "Završavanjem misija na {whiteSpanish_Open}striktnoj{whiteSpanish_Close} težini, automatski iz završavaš i na {whiteSpanish_Open}regularnoj{whiteSpanish_Close}. Dobićeš nagrade za oba nivoa težine."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Dodatni uslov"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Rigorozno"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "Da otključaš striktnu težinu, demonstriraj svoju veštinu u režimu igre završavajući ovu operaciju regularno."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Zaključano"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Protivnici su sporiji i manje precizni i dobićeš standardne nagrade nagrade nakon završetka misije."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Regularna"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Izabrano"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "Izazovnija verzija etape minskog polja operacije - da li se usuđuješ da uđeš u ovaj smrtonosni lavirint?\nNudi povećane borbene nagrade."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Striktno, minsko polje"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Indetifikuj nepoznatu pretnju, zaustavi lansiranje rakete i postaraj se da nova tehnologija stigne u prave ruke."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Operacija Tačka ključanja"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "REŽIM"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "- Režim igre. Klik za proširenje"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "Igraj solo i bori se protiv AI kontrolisanih protivnika u ovoj epskoj priči uz komandante iz Sektora 3!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Događaj je dostupan za {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "PRIČE"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "REŽIM"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "- Režim igre. Klik za proširenje"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "Specijalni skriptovani scenariji. Kreni na putovanje u svet oklopnih vozila i dokaži da vrediš boreći se protiv AI vozila."
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "Priče"
+
+msgid "tooltips/task/active"
+msgstr "Aktivna"
+
+msgid "tooltips/task/completed"
+msgstr "Završeno"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Uslovi su nepoznati"
+
+msgid "tooltips/task/locked"
+msgstr "Zaključano: %(timer)s"

@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Nacrt"
+
+msgid "animations/crew_close"
+msgstr "ZATVORI"
+
+msgid "animations/shop"
+msgstr "Idi na kupnju"
+
+msgid "battleMattersTab"
+msgstr "Tenkovska akademija"
+
+msgid "battleResults/descr"
+msgstr "Tenkovska akademija: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Na zadatke Tenkovske akademije"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Napredak u ovoj bitci"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Odustani"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "ZATVORI"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Potvrdi"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Dobit ćete {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} s posadom i mjestom u Garaži."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Razmjeniti svoje žetone akademije za %(vehicleName)s?"
+
+msgid "entryPoint/hint"
+msgstr "NIZ\nZADATAKA OBUKE"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Izvršeno zadataka: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Tenkovska akademija"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Nagrada za izvršenje:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Zadaci su trenutno nedostupni iz tehničkih razloga. Vaš napredak izvršenih zadataka će biti sačuvan."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Svi zadaci izvršeni"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Zadaci su privremeno nedostupni"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Uvjeti:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Razmjenite token za bilo koje vozilo razine VI koje se može istražiti."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "NAZAD"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "NA ZADATKE TENKOVSKE AKADEMIJE"
+
+msgid "mainRewardsScreen/done"
+msgstr "U Garaži"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Pregled"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Dana najma: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Izvršite niz zadataka obuke kako bi kao glavnu nagradu dobili tri premium vozila razine VIII za najam na {cream_Open}14 dana{cream_Close}."
+
+msgid "mainRewardsScreen/title"
+msgstr "TENKOVSKA AKADEMIJA"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Odaberi"
+
+msgid "mainScreen/infoButton"
+msgstr "VODIČ ZA NOVAJLIJE"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "VODIČ"
+
+msgid "mainScreen/list/arrow"
+msgstr "Kliknite za odlazak na trenutni zadatak."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Glavna nagrada primljena"
+
+msgid "mainScreen/progress"
+msgstr "Izvršeno zadataka: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Kako izvršiti"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Izvrši prethodni zadatak"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Nedostupno"
+
+msgid "mainScreen/showMainReward"
+msgstr "Pogledaj glavnu nagradu"
+
+msgid "mainScreen/target"
+msgstr "Izvrši sve zadatke i dobiji tri vozila razine VIII za najam."
+
+msgid "mainScreen/title"
+msgstr "TENKOVSKA AKADEMIJA"
+
+msgid "pausedScreen/buttonText"
+msgstr "U Garažu"
+
+msgid "pausedScreen/description"
+msgstr "Tenkovska akademija je privremeno nedostupna zbog tehničkih problema. Sav napredak će biti sačuvan. Ispričavamo se zbog neugodnosti."
+
+msgid "pausedScreen/title"
+msgstr "Privremeno nedostupna"
+
+msgid "rewards/additionalTitle"
+msgstr "Također ste dobili:"
+
+msgid "rewards/footer/confirm"
+msgstr "Razumijem!"
+
+msgid "rewards/footer/more"
+msgstr "Još: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Na slijedeći zadatak"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Pregledaj u Garaži"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Uvjeti zadatka su ispunjeni ranije"
+
+msgid "rewards/rent"
+msgstr "Dana najma: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "POSLJEDNJI ZADATAK IZVRŠEN"
+
+msgid "rewards/subTitle/regular"
+msgstr "ZADATAK %(questNumber)s IZVRŠEN"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "PRIMLJENO VOZILO ZA TOKENE AKADEMIJE"
+
+msgid "rewards/title"
+msgstr "TENKOVSKA AKADEMIJA"
+
+msgid "rewards/token/action"
+msgstr "Odaberi vozilo"
+
+msgid "rewards/token/description"
+msgstr "Odmah iskoristite token za primitak bilo kojeg vozila razine VI."
+
+msgid "rewards/token/title"
+msgstr "Razmjenite token akademije za vozilo"
+
+msgid "tokenTooltip/condition"
+msgstr "Tokeni se dodjeljuju za uspješno izvršenje niza zadataka obuke i ostvarenje nužnog napretka unutar tenkovske akademije."
+
+msgid "tokenTooltip/description"
+msgstr "Tokeni se mogu razmjeniti za bilo koje vozilo razine VI koje se može istražiti. Vozilo dolazi s posadom i mjestom u Garaži."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Token dostupan: {cream_open}%(days)s d{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Token dostupan do: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Token dostupan: {cream_open}%(hours)s h{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Token dostupan: {cream_open}%(minutes)s min{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Token akademije"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Dobit ćete {cream_Open}%(crewIcon)s posadu{cream_Close} i {cream_Open}%(hangarIcon)s mjesto{cream_Close} {cream_Open}u Garaži{cream_Close} pored vašeg vozila."
+
+msgid "vehicleSelection/back"
+msgstr "NAZAD"
+
+msgid "vehicleSelection/backTo"
+msgstr "NA ZADATKE TENKOVSKE AKADEMIJE"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Dodaj za usporedbu"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Konfiguriraj prikaz vozila prema njihovom tipu i naciji."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Filter po parametrima"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Kliknite za poništenje filtera na početne postavke."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Postavljeno zadano"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Nacija"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Filter po parametrima"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Tip vozila"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Nema podudarnosti. Promjenite postavke filtera ili ih vratite na zadane vrijednosti."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Poništi filter"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Istražili ste sva vozila razine VI koja se mogu razmjeniti za tokene akademije."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Nema vozila za odabir"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Pretraga po imenu"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "Ime vozila ne može sadržavati više od %(maxLength)s znakova."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Pretraži po imenu"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Prikazano:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Razmjeni token za bilo koje vozilo razine VI koje se može istražiti. Vozilo dolazi s\nposadom i mjestom u Garaži."
+
+msgid "vehicleSelection/title"
+msgstr "Odaberi bilo koje vozilo razine VI koje se može istražiti"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Lovac na tenkove"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "Samohodni top"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Teški tenk"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Laki tenk"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Srednji tenk"

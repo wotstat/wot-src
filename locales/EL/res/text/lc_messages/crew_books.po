@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "ΑΓΟΡΑ"
+
+msgid "buttons/cancel"
+msgstr "Άκυρο"
+
+msgid "buttons/learn"
+msgstr "Μελέτη"
+
+msgid "buttons/postProgression/claim"
+msgstr "ΠΑΡΑΛΑΒΗ"
+
+msgid "buttons/postProgression/hint"
+msgstr "ΔΗΜΙΟΥΡΓΙΑ ΤΟΜΩΝ ΠΛΗΡΩΜΑΤΟΣ"
+
+msgid "buttons/postProgression/howTo"
+msgstr "ΟΔΗΓΙΕΣ ΑΠΟΚΤΗΣΗΣ"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Αναλογία:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "Για επιλεγμένο μέλος πληρώματος.\nΕπιταχύνεται η εκπαίδευση της τρέχουσας ικανότητας με χρήση Free XP."
+
+msgid "card/freeExp/title"
+msgstr "FREE EXPERIENCE"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Επίδραση Ικανοτήτων: 100%\n• Ειδίκευση: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Για όλο το πλήρωμα.\nΠαρέχει σε κάθε μέλος του πληρώματος %(xp)"
+
+msgid "card/nationBook/title/brochure"
+msgstr "ΦΥΛΛΑΔΙΟ ΕΚΠΑΙΔΕΥΣΗΣ (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "ΕΓΧΕΙΡΙΔΙΟ ΕΚΠΑΙΔΕΥΣΗΣ (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "ΟΔΗΓΟΣ ΕΚΠΑΙΔΕΥΣΗΣ (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Εφαρμογή χωρίς περιορισμούς."
+
+msgid "card/personalBook/mainText"
+msgstr "Για επιλεγμένο μέλος πληρώματος.\nΠαρέχει στο συγκεκριμένο μέλος του πληρώματος %(xp)"
+
+msgid "card/personalBook/title"
+msgstr "ΠΡΟΣΩΠΙΚΟ ΕΓΧΕΙΡΙΔΙΟ ΕΚΠΑΙΔΕΥΣΗΣ"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Επίδραση Ικανοτήτων: 100%\n• Ειδίκευση: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Για όλο το πλήρωμα.\nΠαρέχει σε κάθε μέλος του πληρώματος %(xp)"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "ΕΓΧΕΙΡΙΔΙΟ ΓΕΝΙΚΗΣ ΧΡΗΣΗΣ"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "ΦΥΛΛΑΔΙΟ ΓΕΝΙΚΗΣ ΧΡΗΣΗΣ"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "ΟΔΗΓΟΣ ΓΕΝΙΚΗΣ ΧΡΗΣΗΣ"
+
+msgid "confirm/crewLabel"
+msgstr "Κάθε μέλος του πληρώματος θα λάβει %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Κάθε μέλος του πληρώματος θα λάβει %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "ο %(memberName) θα λάβει επιπλέον %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "ο %(memberName) θα λάβει %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Κάποια μέλη του πληρώματος θα λάβουν %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Φυλλάδιο Εκπαίδευσης (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Φυλλάδιο Εκπαίδευσης"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "ΦΥΛΛΑΔΙΟ ΕΚΠΑΙΔΕΥΣΗΣ"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} Crew XP σε κάθε μέλος του πληρώματος."
+
+msgid "items/crewBook/Name"
+msgstr "Εγχειρίδιο Εκπαίδευσης (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Εγχειρίδιο Εκπαίδευσης"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "ΕΓΧΕΙΡΙΔΙΟ ΕΚΠΑΙΔΕΥΣΗΣ"
+
+msgid "items/guide/Name"
+msgstr "Οδηγός Εκπαίδευσης (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Οδηγός Εκπαίδευσης"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "ΟΔΗΓΟΣ ΕΚΠΑΙΔΕΥΣΗΣ"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} experience σε επιλεγμένο μέλος πληρώματος"
+
+msgid "items/personalBook/Name"
+msgstr "Προσωπικό Εγχειρίδιο Εκπαίδευσης"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} Crew XP σε κάθε μέλος του πληρώματος."
+
+msgid "items/universalBook/Name"
+msgstr "Εγχειρίδιο Γενικής Χρήσης"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} XP σε κάθε μέλος του πληρώματος."
+
+msgid "items/universalBrochure/Name"
+msgstr "Φυλλάδιο Γενικής Χρήσης"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} XP σε κάθε μέλος του πληρώματος."
+
+msgid "items/universalGuide/Name"
+msgstr "Οδηγός Γενικής Χρήσης"
+
+msgid "page/mentoringLicense/hint"
+msgstr "ΣΤΗΝ ΑΔΕΙΑ ΚΑΘΟΔΗΓΗΣΗΣ"
+
+msgid "page/mentoringLicense/title"
+msgstr "Άδεια Καθοδήγησης"
+
+msgid "page/title"
+msgstr "ΤΑΧΥΡΥΘΜΗ ΕΚΠΑΙΔΕΥΣΗ"
+
+msgid "tooltip/buyManual"
+msgstr "Αγορά Εγχειριδίου Εκπαίδευσης"
+
+msgid "tooltip/mouseWheel"
+msgstr "Χρησιμοποιήστε τη ροδέλα του ποντικιού {mouseIcon} για να επιλέξετε Τόμους Πληρώματος."
+
+msgid "tooltip/outOfStock"
+msgstr "Κανένας διαθέσιμος Τόμος Πληρώματος"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Κανένας διαθέσιμος Τόμος Πληρώματος. Αγοράστε Τόμους Πληρώματος από τον Εφοδιασμό."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Για επιλεγμένο μέλος πληρώματος. Παρέχει στο συγκεκριμένο μέλος του πληρώματος %(xp)s XP"
+
+msgid "tooltip/postProgression"
+msgstr "Δημιουργία Τόμων Πληρώματος"
+
+msgid "tooltip/sale/header"
+msgstr "Βελτιωμένη Αναλογία Ανταλλαγής"
+
+msgid "tooltip/sale/newRate"
+msgstr "Νέα αναλογία ανταλλαγής: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Προηγούμενη αναλογία ανταλλαγής: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Πιέστε %(controlsImg) για αύξηση ή μείωση της ικανότητας κατά 1%."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Πιέστε %(pgupImg) / %(pgdownImg) για αύξηση της ικανότητας στο&nbsp;100% / πίσω&nbsp;στην προηγούμενη ικανότητα."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Για όλο το πλήρωμα. Παρέχει σε κάθε μέλος του πληρώματος %(xp)s XP"
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Για όλο το πλήρωμα. Παρέχει σε κάθε μέλος του πληρώματος %(xp)s XP"

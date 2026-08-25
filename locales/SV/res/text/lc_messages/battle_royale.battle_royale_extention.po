@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To:\nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "battleQuestAwards/button"
+msgstr "Uppfattat!"
+
+msgid "battleQuestAwards/stPatrick/subTitle"
+msgstr "PANSARJAKT: SHAMROCKSTRIDEN"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "PANSARJAKT"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "SISTA DELMOMENTET SLUTFÖRT!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "DELMOMENT %(level)s SLUTFÖRT!"
+
+msgid "dailyBonus/description"
+msgstr "%(dailyBonus)s Extra Lyckosigill när du är en av de %(soloTopPlaces)s bästa spelarna i en solostrid, eller %(squadTopPlaces)s bästa spelarna i plutonsstrid. Bonusen kan aktiveras en gång om dagen för varje evenemangsvagn."
+
+msgid "eventShop"
+msgstr "Evenemangsaffären"
+
+msgid "leaveBattleView/confirmation/cancel"
+msgstr "Stanna"
+
+msgid "leaveBattleView/confirmation/submit"
+msgstr "Desertera"
+
+msgid "leaveBattleView/description"
+msgstr "Du kan fortfarande delta i striden. Om du lämnar striden nu kommer du inte få någon belöning för den. Är du säker på att du vill lämna striden?"
+
+msgid "leaveBattleView/title"
+msgstr "Desertering från slagfältet"
+
+msgid "leaveBattleView/warning"
+msgstr "Du går miste om alla belöningar!"
+
+msgid "progress/counter"
+msgstr "{{current}}{{divider}}{{total}}"
+
+msgid "progressionComplete"
+msgstr "Huvuddelmoment slutförda!"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s eller %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/questsTotal/text"
+msgstr "Slutförda uppdrag:"
+
+msgid "progressionView/battleQuests/timer/eventResetTime/text"
+msgstr "Evenemanget avslutas om:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Uppdrag uppdateras om"
+
+msgid "progressionView/card/points"
+msgstr "%(current)s / %(total)s"
+
+msgid "progressionView/seasonRange"
+msgstr "%(startDate)s – %(endDate)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Alla delmoment slutförda. Fortsätt spela Pansarjakt för att tjäna fler belöningar."
+
+msgid "progressionView/subTitle/endEvent"
+msgstr "Evenemanget har avslutats. Uppdrag och delmoment är inte längre tillgängliga."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Slutför uppdrag för att tjäna framstegspoäng.\nAntalet poäng du tjänar beror även på din placering i stridsresultatet. %(infotip)s"
+
+msgid "proxy_currency_tooltip/earn/description/brcoin"
+msgstr "Få Stålsigill för stridsprestationer, hög placering i stridsresultatet och för slutförande av specialuppdrag."
+
+msgid "proxy_currency_tooltip/earn/description/stpcoin"
+msgstr "Du får Lyckosigill från krigsbyte under striden, för slutförande av delmoment och för topplaceringar i Pansarjakt."
+
+msgid "proxy_currency_tooltip/earn/title/brcoin"
+msgstr "Hur du erhåller sigill"
+
+msgid "proxy_currency_tooltip/earn/title/stpcoin"
+msgstr "Hur du erhåller sigill"
+
+msgid "proxy_currency_tooltip/spend/description/brcoin"
+msgstr "Använd intjänade Stålsigill för att köpa Pansarjaktstilar."
+
+msgid "proxy_currency_tooltip/spend/description/stpcoin"
+msgstr "Växla in dina intjänade Lyckosigill mot värdefulla belöningar i Shamrockaffären."
+
+msgid "proxy_currency_tooltip/spend/title/brcoin"
+msgstr "Vad du kan spendera sigill på"
+
+msgid "proxy_currency_tooltip/spend/title/stpcoin"
+msgstr "Vad du kan spendera sigill på"
+
+msgid "proxy_currency_tooltip/title/brcoin"
+msgstr "Stålsigill"
+
+msgid "proxy_currency_tooltip/title/stpcoin"
+msgstr "Lyckosigill"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Tilldelas spelare som slutfört specialuppdrag i Pansarjakt. De ökar dina framsteg i delmomenten."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Pansarjaktpoäng"
+
+msgid "rewardCurrencyTooltip/body/battlePassPoints"
+msgstr "Du kan tjäna poäng genom att utkämpa strider och slutföra specialuppdrag. De räknas automatiskt till dina framsteg i Stridspass."
+
+msgid "rewardCurrencyTooltip/body/brProgressionToken"
+msgstr "Tilldelad för slutförande av uppdrag i Pansarjakt och för utmärkt stridsresultat. De ger dig framsteg i delmomenten."
+
+msgid "rewardCurrencyTooltip/body/brcoin"
+msgstr "Du kan tjäna Stålsigill för prestationer i strid, hög placering i stridsresultatet och genom att slutföra specialuppdrag."
+
+msgid "rewardCurrencyTooltip/body/credits"
+msgstr "Spelets huvudvaluta. Tjänas i strid eller köpes för guld."
+
+msgid "rewardCurrencyTooltip/body/crystal"
+msgstr "En ovanlig specialvaluta som används för att köpa unika saker som annars inte är tillgängliga."
+
+msgid "rewardCurrencyTooltip/body/stpcoin"
+msgstr "Valuta som kan erhållas i Pansarjakt. Sigillen kan växlas in mot unika belöningar i Shamrockaffären. När du spelar i pluton fördelas sigillen mellan alla plutonsmedlemmarna. Angivet antal är din del av den totala intäkten."
+
+msgid "rewardCurrencyTooltip/body/xp"
+msgstr "Stridserfarenhet intjänad på specialvagnar kan konverteras till fri erfarenhet."
+
+msgid "rewardCurrencyTooltip/dailyBonus/stpcoin"
+msgstr "Bonus aktiverad! Du får intjänade sigill gånger %(count)s."
+
+msgid "rewardCurrencyTooltip/header/battlePassPoints"
+msgstr "Stridspasspoäng"
+
+msgid "rewardCurrencyTooltip/header/brProgressionToken"
+msgstr "Pansarjaktpoäng"
+
+msgid "rewardCurrencyTooltip/header/brcoin"
+msgstr "Stålsigill"
+
+msgid "rewardCurrencyTooltip/header/credits"
+msgstr "Krediter"
+
+msgid "rewardCurrencyTooltip/header/crystal"
+msgstr "Obligationer"
+
+msgid "rewardCurrencyTooltip/header/stpcoin"
+msgstr "Lyckosigill"
+
+msgid "rewardCurrencyTooltip/header/xp"
+msgstr "Stridserfarenhet"
+
+msgid "rewardCurrencyTooltip/premiumBonus/brcoin"
+msgstr "WoT-Premiumkonto ökar mängden av den här valutan du tjänar med 50%."
+
+msgid "rewardCurrencyTooltip/premiumBonus/credits"
+msgstr "WoT-Premiumkonto ökar mängden av den här valutan du tjänar med 50%."
+
+msgid "rewardCurrencyTooltip/premiumBonus/xp"
+msgstr "WoT-Premiumkonto ökar mängden stridserfarenhet du tjänar med 50%."
+
+msgid "serviceChannelMessages/awards"
+msgstr "Belöning mottagen:"
+
+msgid "serviceChannelMessages/body"
+msgstr "Du har slutfört delmoment %(stage)s av %(progressionName)s."
+
+msgid "serviceChannelMessages/header"
+msgstr "Grattis!"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Information"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Pansarjakt"
+
+msgid "tab/label/platoon"
+msgstr "PLUTON"
+
+msgid "tab/label/solo"
+msgstr "SOLO"
+
+msgid "tab/label/team"
+msgstr "MED EN KAMRAT"
+
+msgid "tooltip/banner/description"
+msgstr "Dynamisk battle royale där sista överlevande vinner i en postapokalyptiska strider. Kämpa i åtta specialvagnar som kan uppgraderas under striden så de blir starkare för varje klass. Exklusiva belöningar och mer väntar!"
+
+msgid "tooltip/banner/mode/description"
+msgstr "- Stridsläge. Klicka för att utforska"
+
+msgid "tooltip/banner/mode/label"
+msgstr "LÄGE"
+
+msgid "tooltip/banner/performanceRisk/description/high"
+msgstr "Din dators prestanda räcker inte för detta läge. Du kan uppleva grafikproblem och problem att köra din vagn. Det är även troligt att spelklienten kommer krascha."
+
+msgid "tooltip/banner/performanceRisk/description/medium"
+msgstr "Detta läge kräver hög datorprestanda. Du kommer uppleva att kartorna laddar långsamt, grafikproblem och problem att köra din vagn. Om du upplever att din dator inte klarar av detta bör du sänka kvalitetsinställningarna."
+
+msgid "tooltip/banner/performanceRisk/title/high"
+msgstr "Låg prestanda"
+
+msgid "tooltip/banner/performanceRisk/title/medium"
+msgstr "Möjligt minskad prestanda"
+
+msgid "tooltip/banner/stPatrickDescription"
+msgstr "Dynamisk, grönt magisk battle royale där sista överlevande vinner. Kämpa i åtta specialvagnar som kan uppgraderas under striden så de blir starkare för varje klass. Exklusiva belöningar och mer väntar!"
+
+msgid "tooltip/banner/stPatrickTitle"
+msgstr "Shamrockstriden"
+
+msgid "tooltip/banner/timer/text/accent"
+msgstr "Evenemanget är tillgängligt i %(timer)s"
+
+msgid "tooltip/banner/timer/text/cooldown"
+msgstr "Vapenvila %(timer)s"
+
+msgid "tooltip/banner/title"
+msgstr "Pansarjakt"
+
+msgid "tooltip/daily_quests/header"
+msgstr "Slutfört"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Nya Pansarjaktuppdrag om {{timeLeft}}"
+
+msgid "tooltip/daily_quests/reward"
+msgid_plural "plural/tooltip/daily_quests/reward"
+msgstr[0] "Belöning:"
+msgstr[1] "Belöningar:"
+msgstr[2] "Belöningar:"
+
+msgid "tooltip/daily_quests/text"
+msgstr "Alla uppdrag slutförda!"
+
+msgid "tooltip/progressionWidget/description/completed"
+msgstr "Bra kämpat, befälhavare. Fortsätt så!"
+
+msgid "tooltip/progressionWidget/description/header"
+msgstr "Huvuddelmoment slutförda!"
+
+msgid "tooltip/progressionWidget/description/inProgress"
+msgstr "Slutför uppdrag och nå toppen av tabellen i Pansarjakt för att slutföra delmomenten."
+
+msgid "tooltip/progressionWidget/subTitle"
+msgstr "Striderna avslutas om %(value)s"
+
+msgid "tooltip/progressionWidget/title"
+msgstr "Pansarjakt"
+
+msgid "tooltip/quest/header"
+msgstr "Pansarjaktuppdrag"
+
+msgid "tooltip/shop/stPatrick/subtitle"
+msgstr "Växla dina {ede6d9_Open}Lyckosigill{ede6d9_Close} mot specialbelöningar."
+
+msgid "tooltip/shop/stPatrick/text"
+msgstr "Du får Lyckosigill från krigsbyte under striden, för slutförande av delmoment och för topplaceringar i battle royale-strider."
+
+msgid "tooltip/shop/stPatrick/title"
+msgstr "Shamrockaffären"
+
+msgid "tooltip/shop/subtitle"
+msgstr "Växla dina {ede6d9_Open}Stålsigill{ede6d9_Close} mot specialbelöningar."
+
+msgid "tooltip/shop/text"
+msgstr "Tjäna Stålsigill genom att spela effektivt, nå toppen av stridsresultatet och slutföra uppdrag."
+
+msgid "tooltip/shop/title"
+msgstr "Pansarjaktaffären"
+
+msgid "upgrades/description"
+msgstr "Skada fiendevagnar och samla krigsbyte på kartan för att få erfarenhet och gå upp i klass. Varje klass låter dig uppgradera en modul i uppgraderingsmenyn och avsevärt förbättra vagnens egenskaper."
+
+msgid "upgrades/footer"
+msgstr "Moduler kan bara uppgraderas i strid."
+
+msgid "upgrades/subtitle"
+msgstr "Du går i strid i en vagn klass I."
+
+msgid "upgrades/title"
+msgstr "Vagnen uppgraderas i strid"

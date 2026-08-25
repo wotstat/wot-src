@@ -1,0 +1,71 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "boxTooltip/description/text/bronze"
+msgstr "Po otwarciu, z tych skrzyń można otrzymać pojazdy, waluty w grze i inne cenne nagrody."
+
+msgid "boxTooltip/description/text/gold"
+msgstr "Po otwarciu, z tych skrzyń można otrzymać pojazdy, waluty w grze, elementy personalizacji i inne cenne nagrody."
+
+msgid "boxTooltip/description/text/silver"
+msgstr "Po otwarciu, z tych skrzyń można otrzymać pojazdy, waluty w grze, elementy personalizacji i inne cenne nagrody."
+
+msgid "boxTooltip/howGet/text/bronze"
+msgstr "Można je nabyć w Sklepie w grze i otrzymać przy otwieraniu skrzyń dowolnego innego rodzaju."
+
+msgid "boxTooltip/howGet/text/gold"
+msgstr "Można otrzymać przy otwieraniu skrzyń dowolnego innego rodzaju."
+
+msgid "boxTooltip/howGet/text/silver"
+msgstr "Można otrzymać przy otwieraniu skrzyń dowolnego innego rodzaju."
+
+msgid "common/boxCategory/lowerCase/bronze"
+msgstr "Hojna skrzynia z łupami"
+
+msgid "common/boxCategory/lowerCase/gold"
+msgstr "Łaskawa skrzynia z łupami"
+
+msgid "common/boxCategory/lowerCase/silver"
+msgstr "Darząca skrzynia z łupami"
+
+msgid "common/boxCategory/upperCase/bronze"
+msgstr "HOJNA SKRZYNIA Z ŁUPAMI"
+
+msgid "common/boxCategory/upperCase/gold"
+msgstr "ŁASKAWA SKRZYNIA Z ŁUPAMI"
+
+msgid "common/boxCategory/upperCase/silver"
+msgstr "DARZĄCA SKRZYNIA Z ŁUPAMI"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Są to specjalne skrzynie zawierające nowe i unikalne przedmioty. Można je nabyć w Sklepie w grze."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Wydarzenie zakończy się za"
+
+msgid "eventName/lowerCase"
+msgstr "Skarbiec szeptów"
+
+msgid "eventName/upperCase"
+msgstr "SKARBIEC SZEPTÓW"
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Jeśli już masz wszystkie pojazdy, zamiast tego otrzymasz hojną skrzynię z łupami."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Jeśli masz już wszystkie pojazdy ze skrzyń, jako nagrodę zamiast pojazdu otrzymasz hojną skrzynię z łupami."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Każde %(guaranteed0)s hojnych, %(guaranteed1)s łaskawych i %(guaranteed2)s darzących skrzyń z łupami na pewno zawiera pojazd. Jeśli je otworzysz, a pojazd się nie pojawi, to pojazd, którego jeszcze nie masz, pojawi się przy otwarciu %(guaranteed0)s./%(guaranteed1)s./%(guaranteed2)s. skrzyni (zależnie od jej rodzaju). Wtedy licznik zostanie zresetowany."
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Rekompensata"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Nagroda gwarantowana"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Z każdej grupy może zostać wylosowana co najwyżej jedna nagroda"

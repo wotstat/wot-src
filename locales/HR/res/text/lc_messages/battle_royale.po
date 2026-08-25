@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Prekid vatre je na snazi na svim dostupnim serverima."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "Na snazi je primirje na ovom serveru."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Promjeni server"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Čelični lovac je završio"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Režim je nedostupan na ovom serveru"
+
+msgid "banner/info/disabled"
+msgstr "Primirje"
+
+msgid "banner/info/seasonActive"
+msgstr "Druga prilika i nagrade"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "Do %(day)s %(month)s"
+
+msgid "banner/subtitle"
+msgstr "Battle royale s vrijednim nagradama"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s h"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s h %(minutes)s min"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s min"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "ČELIČNI LOVAC"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Bitka će nastaviti s novog položaja."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Uskoro ćete oživjeti"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Oživljavanje"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Neće biti druge prilike."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Oživljavanje više nije dostupno"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Oživljavanje će uskoro biti nedostupno!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Budite oprezniji sljedeći put."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Vaše vozilo je spremno za bitku!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Povratak u bitku"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "U tijeku je aktivna borba."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Oživljavanje nedostupno"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Nađite naboj oživljavanja za povratak u akciju."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Savezničko vozilo uništeno"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Oživljavanje"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "Dva vozila su bolja od jednog!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Savezničko vozilo oživljeno"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Ostanite van borbe!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Oživljavanje saveznika"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Bonus aktiviran!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Nagrada za prvo mjesto"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Skupljeno u bitci"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "POBJEDA"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Poglavlje nije odabrano. Neutrošenih bodova Borbene propusnice: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Sva Poglavlja završena. Nastavite igrati i skupljati bodove Borbene propusnice."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Idite na Borbenu propusnicu"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Borbena propusnica"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Odaberite Poglavlje"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Idite na napredak aktivnog Poglavlja"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Idite na Borbenu propusnicu"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Izvršeno zadataka po bitci: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Zadaci"
+
+msgid "battleResult/battleReward/title"
+msgstr "PRIMLJENO ZA BITKU"
+
+msgid "battleResult/button/hangar"
+msgstr "U Garažu"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Bodovi i nagrade će se raspodjeliti nakon što svi igrače završe bitku. Zadaci će također biti ocjenjeni na osnovi rezultata bitke."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Pritisnite %(esc) za preskakanje animacije"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Pozovi u vod"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Saveznik"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Nasumični saveznik"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Tip bitke"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "SOLO BITKA"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "S WoT premium računom mogli ste dobiti:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Ukupna vrijednost s WoT premium računom"
+
+msgid "battleResult/progressStage"
+msgstr "Etapa {stage} napretka"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Pravi nadimak igrača i oznaka klana se ne prikazuju ostalim igračima u bitci."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Pravi igračev nadimak: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Pravi nadimak igrača je promjenjen u {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Količina štete blokirana oklopom vašeg vozila."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Količina štete koju ste nanijeli."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Broj neprijateljskih vozila koje ste uništili."
+
+msgid "battleResult/stats/body/place"
+msgstr "Vaš položaj na osnovi rezultata bitke."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Broj neprijateljskih vozila koje je uništio vaš vod."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Blokirana šteta"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Nanešena šteta"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Uništeno od vas"
+
+msgid "battleResult/stats/header/place"
+msgstr "Položaj"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Uništeno od strane voda"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Blokirana šteta"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Nanešena šteta"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Uništeno od vas"
+
+msgid "battleResult/stats/title/place"
+msgstr "Položaj"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Uništeno od strane voda"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Ljestvica"
+
+msgid "battleResult/tab/result"
+msgstr "Rezultati bitke"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "VOD UNIŠTEN"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "VOZILO UNIŠTENO"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "POBJEDA"
+
+msgid "battleResult/title/victoryOther"
+msgstr "POČASNO MJESTO"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Odaberite jedno od posebnih vozila za Čeličnog lovca."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Nekompatibilno vozilo"
+
+msgid "button/modules"
+msgstr "TEHNOLOŠKO STABLO"
+
+msgid "button/repair"
+msgstr "Popravak"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Bitke su privremeno nedostupne"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Bitke su privremeno nedostupne"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Režim nedostupan"
+
+msgid "ceasefire/header/schedule"
+msgstr "Raspored bitke"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Prekid vatre je na snazi na svim dostupnim serverima. Možete niže pogledati raspored."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "Prekid vatre je na snazi na ovom serveru. Možete se prebaciti na drugi server za pristup režimu."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Čelični lovac nije dostupan na ovom serveru. Možete se prebaciti na drugi server kako bi mu pristupili."
+
+msgid "commanderInfo/commonRank"
+msgstr "Zapovjednik"
+
+msgid "commanderInfo/description/china"
+msgstr "\"Već sam pobjedio. Uskoro ćeš to shvatiti.\""
+
+msgid "commanderInfo/description/france"
+msgstr "\"Ja sam zakon!\""
+
+msgid "commanderInfo/description/germany"
+msgstr "\"Danas je slavan dan koji će biti upisan u povijest.\""
+
+msgid "commanderInfo/description/poland"
+msgstr "\"Nema vremena za lijepo ponašanje.\""
+
+msgid "commanderInfo/description/sweden"
+msgstr "\"Sve ide prema planu.\""
+
+msgid "commanderInfo/description/uk"
+msgstr "\"Štogod da je si, budi najbolji.\""
+
+msgid "commanderInfo/description/usa"
+msgstr "\"Sjekira je otkopana, ulaštena i naoštrena.\""
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"Pobjednik uzima sve!\""
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Sposobnosti"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nPosebno vozilo za Čeličnog lovca"
+
+msgid "fragPanel/squadsCount"
+msgstr "Vodovi: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Ljestvica"
+
+msgid "hangarResults/btns/summary"
+msgstr "Rezultati bitke"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "ZATVORI"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Moduli se mogu nadograditi samo u bitci. Za otvaranje izbornika nadogradnje, pritisnite %(key)s u bitci."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s i %(highlight2)s za stjecanje iskustva. Svaka dosegnuta razina omogućuje igraču nadogradnju modula iz izbornika nadogradnje i značajno poboljšanje karakteristika vozila."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Nanesi štetu neprijateljskim vozilima"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "skupljaj ratni plijen na mapi"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Nadogradnja vozila u bitci"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Ulazite u bitku u vozilu razine I."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Moduli se mogu nadograditi u izborniku nadogradnje tijekom bitke (zadano tipka %(treeKey)s) i pritiskom kombinacija tipaka %(leftModuleKey)s i %(rightModuleKey)s.\n\nModuli se mogu nadograditi samo tijekom bitke."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "U bitci:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Vaš Čelični lovac stječe iskustvo u bitci za nanošenje štete i prikupljanje Ratnog plijena. Jednom kad se tražena količina prikupi, možete doseći slijedeću razinu i odabrati nadogradnju za jedan od modula."
+
+msgid "levelUp/severalTitles"
+msgstr "OSVOJENE RAZINE:%(firstLevel)s-%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "RAZINA %(level)s PRIMLJENA!"
+
+msgid "levelUp/twoTitles"
+msgstr "OSVOJENE RAZINE: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Izvrši zadatke i osvoji vrijedne nagrade."
+
+msgid "level_up/max_level_info/title"
+msgstr "Novi dnevni zadaci su dostupni"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Sezona\nuskoro počinje"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Sezona će početi %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Blokiran"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Šteta"
+
+msgid "playerStats/killsStat/name"
+msgstr "Uništen"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Uništen"
+
+msgid "playerStats/placeStat/name"
+msgstr "Položaj"
+
+msgid "playerStats/title"
+msgstr "Osobni rezultat"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Radar nedostupan: priprema u tijeku"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Vozilo je potpuno operativno. Nije potreban oporavak."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Robot bojišnice uništen"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s uništio %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s je uništio neprijatelja %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Vatrena kugla uništena"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Mine su istekle"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Mine su položene"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Radar je spreman za upotrebu"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Vozilo je doseglo najveću razinu"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Razina %(level)s dosegnuta"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Montirano: %(moduleType)s. Nadograđeno: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Trup"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Ovjes"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Motor"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Top"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Radar"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Kupola"
+
+msgid "playersPanel/title"
+msgstr "TIM"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Prebacujte se između vozila voda."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Režim promatrača"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Pritisnite Esc > Natrag u Garažu.\nUđite u bitku u drugom vozilu."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Nazad u Garažu"
+
+msgid "preBattle/buttonTitle"
+msgstr "U BITKU!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Odaberi mapu"
+
+msgid "preBattle/listTitle"
+msgstr "SPREMNOST IGRAČA"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Zemlja snova"
+
+msgid "preBattle/mapRandom"
+msgstr "Slučajna mapa"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "VOZILA VODA"
+
+msgid "preBattle/title"
+msgstr "VELIKI LOV"
+
+msgid "preBattle/userFooterTitle"
+msgstr "ODABRANA VOZILA"
+
+msgid "preBattle/userNotReady"
+msgstr "Nespreman"
+
+msgid "preBattle/userReady"
+msgstr "Spreman"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Sezona %(cycleNo)s na serveru %(server)s je završila"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "Sezona na serveru %(server)s je završila."
+
+msgid "proxyPanel/button"
+msgstr "Prodavaonica"
+
+msgid "proxyPanel/label"
+msgstr "Čelični\npečati"
+
+msgid "proxyPanel/store"
+msgstr "PRODAVAONICA"
+
+msgid "questsTooltip/timeLeft"
+msgstr "Sezona završava za %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "Radaru nije pridjeljena niti jedna tipka"
+
+msgid "radar/hint/press"
+msgstr "Pritisni"
+
+msgid "radar/hint/text"
+msgstr "za aktiviranje radara"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Sleti"
+
+msgid "selectRespawn/button/land"
+msgstr "Sleti"
+
+msgid "selectRespawn/description"
+msgstr "Kliknite na jednu od predloženih točaka. Ako nije odabrana niti jedna točka, sletit ćete na jednu od predloženih točaka."
+
+msgid "selectRespawn/header"
+msgstr "Odaberite točku slijetanja"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Kliknite na jednu od predloženih točaka. Ako nije odabrana niti jedna točka, sletit ćete na jednu od predloženih točaka."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Vaša bitka počinje ovdje"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Odaberite točku slijetanja"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s s %(min)s min"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "DIVLJANJE!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Kiselina nagriza oklop!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Zona je zatvorena! Napustite zonu ili će vaše vozilo biti uništeno!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "Zona će uskoro pocrvenjeti"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Pokretljivost umanjena!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Nazad u stroj..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Obnavljanje HP"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Obnavljanje HP"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Pretvaranje štete"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Tehničke karakteristike poboljšane"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Granate i oporavak"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Izbacivanje iz aviona"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Alat za popravke ili naboj sposobnosti"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Ratni plijen"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Kombinirani ratni plijen: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Skupljanje: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Zona popravka"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Rastući zanos!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "U dimu"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Naš oklop se izjeda!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Pokretljivost umanjena!"
+
+msgid "techParams/type/damage"
+msgstr "Šteta"
+
+msgid "techParams/type/difficulty"
+msgstr "Težina"
+
+msgid "techParams/type/mobility"
+msgstr "Pokretljivost"
+
+msgid "techParams/type/spotting"
+msgstr "Otkrivanje"
+
+msgid "techParams/type/survivability"
+msgstr "Održivost"
+
+msgid "techtree/body_armor"
+msgstr "Oklop"
+
+msgid "techtree/body_health"
+msgstr "HP"
+
+msgid "techtree/body_mobility"
+msgstr "Pokretljivost"
+
+msgid "techtree/engine_acceleration"
+msgstr "Dinamika"
+
+msgid "techtree/engine_speed"
+msgstr "Najveća Brzina"
+
+msgid "techtree/gun_alpha"
+msgstr "Šteta po hicu"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Autopunjač"
+
+msgid "techtree/gun_clip"
+msgstr "Punjenje magazina"
+
+msgid "techtree/gun_dpm"
+msgstr "Brzina punjenja"
+
+msgid "techtree/gun_dualgun"
+msgstr "Dvostruki top"
+
+msgid "techtree/gun_he"
+msgstr "Šteta fugasne granate"
+
+msgid "techtree/gun_machinegun"
+msgstr "Protutenkovska strojnica"
+
+msgid "techtree/gun_piercing"
+msgstr "Probojnost"
+
+msgid "techtree/radar_cooldown"
+msgstr "Hlađenje Radara"
+
+msgid "techtree/radar_distance"
+msgstr "Doseg otkrivanja"
+
+msgid "techtree/turret_armor"
+msgstr "Oklop"
+
+msgid "techtree/turret_health"
+msgstr "HP"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Brzina rotacije"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "Do {{credits}} kredita"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "Do {{experience}} iskustva"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Bonus bitke u vodu"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Bitka u vodu s nasumičnim saveznikom. Igrajte kao tim protiv devet neprijateljskih vodova. U ovom režimu se mogu izvršiti zadaci voda. Vod će nakon bitke biti automatski raspušten."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Klasični Čelični lovac. Svaki igrač se bori za sebe. Skupljajte resurse, nadogradite svoje vozilo i koristite jedinstvene sposobnosti kako bi ostali posljednji na nogama!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Bitka u vodu s prijateljem. Igrajte kao tim protiv devet neprijateljskih vodova. U ovom režimu se mogu izvršiti zadaci voda."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Nasumični vod"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Solo režim"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Vod s prijateljem"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Solo"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Vod"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Pravila za osvajanje bodova"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s mjesto"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s mjesta"
+
+msgid "tooltips/awards/achievement"
+msgstr "Medalja"
+
+msgid "tooltips/awards/badge"
+msgstr "Značka"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "Omogućuje vam povratak u igru nakon što je vaše vozilo uništeno. Kada se to dogodi, razina nadogradnje vozila nije izgubljena. Može se koristiti samo ograničeni broj puta u bitci."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Naboji oživljavanja se mogu dobiti iz zračnog izbačaja."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "Za oživljavanje saveznika, ostanite van borbe tijekom {brown_Open}%(timeToResurrect)s s{brown_Close}.Ova mehanika radi unutar prvih {brown_Open}%(duration)s min{brown_Close} bitke. Naboji oživljavanja se dijele između članova voda."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "Kada se igra u vodu"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Jednom uništeno, vaše vozilo se automatski oživljava. Ova mehanika radi unutar prvih {brown_Open}%(duration)s min{brown_Close} bitke."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "Kada se igra solo"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Jednokratna upotreba"
+
+msgid "tooltips/respawn/title"
+msgstr "Oživljavanje"
+
+msgid "tooltips/vehicle/description"
+msgstr "Vozila za režim Čelični lovac"
+
+msgid "tournament/description"
+msgstr "VELIKI LOV"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Nespreman"
+
+msgid "tournament/fightButton/ready"
+msgstr "Spreman!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Nije moguće ući u turnir. Kod greške: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Greška turnira Veliki lov. Kod greške: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "VELIKI LOV"
+
+msgid "tournament/type/solo"
+msgstr "Tip: solo"
+
+msgid "tournament/type/squad"
+msgstr "Tip: vod"
+
+msgid "upgradePanel/alert/0"
+msgstr "Ne možete nadograditi svoje vozilo!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Ne možete nadograditi vozilo tijekom aktivne borbe!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Ne možete nadograditi vozilo. Vozilo se utapa!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Ne možete nadograditi vozilo. Vozilo je prevrnuto!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Pritisnite %(key)s za otvaranje izbornika nadogradnje"
+
+msgid "upgradePanel/title/default"
+msgstr "Dostupan je novi modul"
+
+msgid "upgradePanel/title/hull"
+msgstr "Dostupan je novi trup"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Dostupan je novi ovjes"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Dostupan je novi motor"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Dostupan je novi top"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Dostupan je novi radio"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Dostupna je nova kupola"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "ILI"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Oklop"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Šteta po hicu"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Brzina punjenja"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "HP"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Probojnost"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Upravljanje radarom"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Magazinski sustav punjenja"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Brzina"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Svojstva vozila"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Prednosti"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Mane"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Primirje je na snazi na svim serverima. Bitke će biti dostupne za %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Odaberite drugi server"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Epizoda %(cycle)s je završila"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Epizoda je završila"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Primirje je na snazi na ovom serveru. Bitke će biti dostupne za %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Primirje je na snazi na %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Epizoda %(cycle)s će početi za %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "Prva epizoda počinje za %(time)s"

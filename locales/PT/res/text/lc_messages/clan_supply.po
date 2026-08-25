@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "main/backText"
+msgstr "PARA OS DETALHES DO CLÃ"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "Por concluir missões, ganha Pontos de Serviço que são necessários para explorar novas regiões."
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "Pontos de Serviço"
+
+msgid "main/infoPageButtonLabel"
+msgstr "SOBRE O PERCURSO DE SERVIÇO"
+
+msgid "main/mdash"
+msgstr "—"
+
+msgid "messages/claimRewards/error"
+msgstr "A ação está indisponível temporariamente. Tente novamente mais tarde."
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "Atualizar"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "Lamentamos o inconveniente temporário."
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "Erro ao Carregar os Dados"
+
+msgid "progressionPage/header/heading"
+msgstr "PERCURSO DE SERVIÇO"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "O PERCURSO DE SERVIÇO TERMINOU"
+
+msgid "progressionPage/header/subheading"
+msgstr "Ganhe Pontos de Serviço concluindo missões do clã. Os Pontos de Serviço são utilizados para explorar novas regiões e obter recompensas valiosas. Ao final do Percurso, pode receber um veículo de Nível X."
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "Veículo %(vehicle)s recebido"
+
+msgid "progressionPage/loading"
+msgstr "A carregar conteúdo..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "Explore a região ligada anterior."
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "Região já explorada"
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "Recompensa ganha:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "Explore a região ligada anterior."
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "Não é possível explorar a região"
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "Erro ao Carregar os Dados"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "Explorar região"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "Mais %(value)s Pontos de Serviço necessários para explorar a região."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "Não é possível explorar a região"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "Explore a região ligada anterior."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "Não é possível explorar a região"
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "Reclamar recompensa"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "A carregar conteúdo..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "A aguardar que a recompensa seja adicionada..."
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "Atualizar"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "RECOMPENSA POR EXPLORAR REGIÃO:"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "RECOMPENSA RECEBIDA"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "Pré-visualização"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "Atualizar"
+
+msgid "questsPage/errorScreen/description"
+msgstr "Lamentamos o inconveniente temporário."
+
+msgid "questsPage/errorScreen/heading"
+msgstr "Erro ao Carregar os Dados"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "Reclamar recompensa"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "Pesquisa automática de clãs"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "Junte-se a um clã para concluir missões e receber a recompensa."
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "O progresso da missão está em pausa. Reclame a sua recompensa para continuar: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "MISSÕES DE PERCURSO"
+
+msgid "questsPage/header/subheading"
+msgstr "Conclua missões e ganhe recompensas. A 2ª e 3ª missões só podem ser concluídas em Pelotão/destacamento com um companheiro de clã."
+
+msgid "questsPage/loading"
+msgstr "A carregar conteúdo..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "Em veículos de Nível VIII–XI, ganhar pelo menos {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} EXP Base numa batalha ao jogar em Pelotão ou vencer uma batalha num destacamento."
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "Ao lutar em veículos de Nível VI–XI, ganhar pelo menos {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} EXP Base numa batalha ou vencer uma batalha num destacamento."
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "Em veículos de Nível VIII–XI, destruir {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} veículos inimigos numa batalha ao jogar em Pelotão ou vencer uma batalha num destacamento."
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "Ao lutar em veículos de Nível VI–XI, destruir {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} veículos inimigos numa batalha ou vencer uma batalha num destacamento."
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "Em veículos de Nível VIII–XI, causar ou ajudar a causar {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} PE de dano numa batalha em Pelotão ou vencer uma batalha num destacamento."
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "Em veículos de Nível VI–XI, causar ou ajudar a causar {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} PE de dano numa batalha ou vencer uma batalha num destacamento."
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "Recurso Industrial"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "Pontos de Serviço"
+
+msgid "questsPage/questCard/status/available"
+msgstr "Pode reclamar a recompensa"
+
+msgid "questsPage/questCard/status/completed"
+msgstr "Recompensa Recebida"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "Indisponível"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "A recompensa será adicionada à sua conta brevemente."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "Reclame recompensas por concluir as missões anteriores."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "Conclua a missão anterior."
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "Missão Indisponível"
+
+msgid "questsPage/timer/dash"
+msgstr "—"
+
+msgid "questsPage/timer/heading"
+msgstr "Tempo Restante para Recolher Pontos de Serviço"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "Por concluir missões, ganha Pontos de Serviço que são necessários para explorar novas regiões."
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "Pontos de Serviço"
+
+msgid "rewardsView/additionalRewards"
+msgstr "Recebeu também:"
+
+msgid "rewardsView/button/close"
+msgstr "FECHAR"
+
+msgid "rewardsView/button/confirm"
+msgstr "Afirmativo!"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "Ver na Garagem"
+
+msgid "rewardsView/heading"
+msgstr "RECOMPENSAS RECEBIDAS"
+
+msgid "rewardsView/style/317"
+msgstr "Estilo 2D Chama"
+
+msgid "rewardsView/style/345"
+msgstr "Estilo 2D Profecia"
+
+msgid "rewardsView/style/435"
+msgstr "Estilo 2D Retribuição"
+
+msgid "rewardsView/style/436"
+msgstr "Estilo 2D Ceifeiro"
+
+msgid "rewardsView/subheading"
+msgstr "PERCURSO DE SERVIÇO"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Progresso do Percurso de Serviço"
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "Progresso das missões do percurso"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Percurso de Serviço"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "Missões do percurso"

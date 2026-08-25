@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "Afirmativo!"
+
+msgid "awardsView/subTitle"
+msgstr "BATALHAS TRAVADAS: {number}"
+
+msgid "awardsView/title"
+msgstr "MISSÃO DE RECONHECIMENTO"
+
+msgid "buttonDisable/tooltip"
+msgstr "Indisponível"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s - %(end)s"
+
+msgid "calendarDay/title"
+msgstr "Calendário"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "Incapaz de Entrar em Batalha"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "As batalhas terminaram"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "Incapaz de Entrar em Batalha"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "O Cessar-Fogo está em efeito neste servidor. Por favor seleccione outro servidor."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "Só pode entrar em batalha em %(levelSubStr)s."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "Nível de Veículo Incompatível"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "Veículos de Nível %(levels)s"
+
+msgid "intro/button"
+msgstr "Afirmativo!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "O vosso feedback ajuda-nos a melhorar o campo de batalha. Deixe os seus comentários sobre as novas mecânicas do mapa e iremos adicionar as melhores ideias ao jogo."
+
+msgid "intro/interviewInfoTitle"
+msgstr "Feedback Crucial"
+
+msgid "intro/modeInfoDescription"
+msgstr "Combata em veículos de Nível VIII-X em mapas com novas mecânicas, complete os questionários e receba recompensas. Numa semana, o progresso será reiniciado e pode começar a receber recompensas de novo."
+
+msgid "intro/modeInfoTitle"
+msgstr "Ajude-nos a Desenvolver Novas Mecânicas!"
+
+msgid "intro/startEvent"
+msgstr "O evento começa em: "
+
+msgid "intro/taskInfoDescription"
+msgstr "Ao lutar na Missão de Reconhecimento, pode concluir missões diárias e do Passe de Batalha e cumprir as condições dos decalques progressivos."
+
+msgid "intro/taskInfoTitle"
+msgstr "Lute Sob as Regras das Batalhas Aleatórias"
+
+msgid "intro/time/period/day"
+msgstr "{day} d"
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} d {hours} h"
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} h {min} min"
+
+msgid "intro/time/period/minute"
+msgstr "{min} min"
+
+msgid "intro/title"
+msgstr "MISSÃO DE RECONHECIMENTO"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s não pode lutar na Missão de Reconhecimento."
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "Tipo de Veículo Incompatível"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "Seleccione um %(levelSubStr)s para participar na Missão de Reconhecimento."
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "Nível de Veículo Incompatível"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Veículo de Nível %(levels)s"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "O %(forbiddenType)s não pode lutar na Missão de Reconhecimento."
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "Veículo Incompatível"
+
+msgid "mapboxTab"
+msgstr "Missão de Recon"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "A Fase no servidor %(server)s terminou"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Batalhas no servidor %(server)s\nestarão disponíveis por mais %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Batalhas no servidor %(server)s\nestarão disponíveis em %(time)s"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "O Cessar-Fogo está em efeito em todos os servidores"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Este modo não está disponível no servidor %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "As batalhas no servidor %(server)s estarão disponíveis por mais %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "As batalhas vão começar no servidor %(server)s em %(time)s"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "As batalhas neste modo estão indisponíveis: a Temporada terminou."
+
+msgid "primeTimeView/status/untill"
+msgstr "O Cessar-Fogo está em efeito no servidor %(server)s até %(startTime)s"
+
+msgid "primeTimeView/title"
+msgstr "MISSÃO DE RECONHECIMENTO"
+
+msgid "primeTimes/availableServer"
+msgstr "Servidor disponível:"
+
+msgid "primeTimes/availableServers"
+msgstr "Servidores disponíveis:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "As batalhas terminaram"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Este modo não está disponível no servidor %(serverName)s"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "Combata batalhas"
+
+msgid "progression/cardTitle/rating"
+msgstr "Ficar no top {rating} de jogadores por EXP ganha"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "Ficar no top {rating} de jogadores por EXP ganha em mapa com fogo"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "Ficar no top {rating} de jogadores por EXP ganha em mapa com nevoeiro"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "Ficar no top {rating} de jogadores por EXP ganha em mapa com chuva intensa"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "Ficar no top {rating} de jogadores por EXP ganha em mapa com tempestades de areia"
+
+msgid "progression/changeAnswer"
+msgstr "Alterar Resposta"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Combata em veículos de Nível VIII–X com novas mecânicas, complete os questionários e receba recompensas."
+
+msgid "progression/info/restart"
+msgstr "O progresso com recompensas será reiniciado em %(leftTime)s"
+
+msgid "progression/info/title"
+msgstr "Ficar no top %(rating) de jogadores por EXP ganha: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "SOBRE O EVENTO"
+
+msgid "progression/map_01_karelia"
+msgstr "KARELIA"
+
+msgid "progression/map_02_malinovka"
+msgstr "MALINOVKA"
+
+msgid "progression/map_05_prohorovka"
+msgstr "PROKHOROVKA"
+
+msgid "progression/map_18_cliff"
+msgstr "WESTFIELD"
+
+msgid "progression/map_all"
+msgstr "MECÂNICAS DO\nJOGO"
+
+msgid "progression/map_fire"
+msgstr "FOGO"
+
+msgid "progression/map_fog"
+msgstr "NEVOEIRO"
+
+msgid "progression/map_heavy_rain"
+msgstr "CHUVA INTENSA"
+
+msgid "progression/map_sandstorm"
+msgstr "TEMPESTADE DE AREIA"
+
+msgid "progression/redirect"
+msgstr "Ir Para o Modo"
+
+msgid "progression/startInterview"
+msgstr "Responder ao Questionário"
+
+msgid "progression/startInterviewTooltip"
+msgstr "Preencha a condição acima para responder ao inquérito."
+
+msgid "progression/startSpecialInterview"
+msgstr "Responder ao Questionário"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "Preencha a condição acima para responder ao inquérito."
+
+msgid "progression/subtitle"
+msgstr "Pode responder a um inquérito sobre as novas mecânicas"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "progression/title"
+msgstr "MISSÃO DE RECONHECIMENTO"
+
+msgid "progressionError/description/line1"
+msgstr "O seu progresso está gravado. Pode continuar a jogar."
+
+msgid "progressionError/description/line2"
+msgstr "Irá poder ver o seu progresso e responder a um questionário em breve."
+
+msgid "progressionError/title"
+msgstr "Os detalhes da Missão de Reconhecimento estão temporariamente indisponíveis"
+
+msgid "questFlag/complete"
+msgstr "Todas as recompensas recebidas"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "Combata num %(highlightedText)s, conclua os inquéritos e receba recompensas."
+
+msgid "questFlag/frozen/header"
+msgstr "Missão de Reconhecimento Indisponível"
+
+msgid "questFlag/frozen/text"
+msgstr "As batalhas da Missão de Reconhecimento estão indisponíveis por motivos técnicos."
+
+msgid "questFlag/highlightedText"
+msgstr "Veículos de Nível VIII-X em mapas com novas mecânicas"
+
+msgid "questFlag/incomplete"
+msgstr "Batalhas a serem travadas para receber a próxima recompensa: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "Batalhas travadas:"
+
+msgid "questFlag/surveysTitle"
+msgstr "Questionários respondidos: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "A exploração de mapas com novas mecânicas irá começar em %(day)s"
+
+msgid "selector/tooltip/body"
+msgstr "A exploração de mapas com novas mecânicas irá decorrer até %(day)s"
+
+msgid "selector/tooltip/title"
+msgstr "Calendário"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "A Temporada termina em:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Calendário da Batalha"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Hoje"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Amanhã"
+
+msgid "serverAlertMessage/button"
+msgstr "Seleccionar Outro Servidor"
+
+msgid "survey/backBtn"
+msgstr "Voltar"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "ATs"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "AAPs"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "TPs"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "TLs"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "TMs"
+
+msgid "survey/fire/question/q1"
+msgstr "Gostou de jogar no mapa Murovanka com a mecânica do fogo?"
+
+msgid "survey/fire/question/q2"
+msgstr "Qual é a sua opinião sobre o design visual do fogo no mapa do Murovanka?"
+
+msgid "survey/fire/question/q3"
+msgstr "Gostaria de ajustar a influência do fogo na jogabilidade do mapa Murovanka?"
+
+msgid "survey/fire/question/q4"
+msgstr "Exatamente como gostaria de ajustar a influência do fogo na jogabilidade do mapa Murovanka?"
+
+msgid "survey/fire/question/q5"
+msgstr "Com que tipos de veículo jogou no mapa Murovanka?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "Como é que a jogabilidade dos {value} mudou no mapa Murovanka?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "Como é que a jogabilidade dos {value} mudou no mapa Murovanka?"
+
+msgid "survey/fire/question/q7"
+msgstr "Gostaria de ver fogo nos mapas das Batalhas Aleatórias?"
+
+msgid "survey/fire/question/q8"
+msgstr "O que é que não gostou na mecânica do fogo no mapa Murovanka?"
+
+msgid "survey/fire/question/q9"
+msgstr "Especifique quaisquer melhoramentos necessários."
+
+msgid "survey/fire/response/q1_1"
+msgstr "Sim, gostei"
+
+msgid "survey/fire/response/q1_2"
+msgstr "Não, não gostei"
+
+msgid "survey/fire/response/q1_3"
+msgstr "Não tenho a certeza"
+
+msgid "survey/fire/response/q2_1"
+msgstr "Gostei"
+
+msgid "survey/fire/response/q2_2"
+msgstr "Mais ou menos"
+
+msgid "survey/fire/response/q2_3"
+msgstr "Não gostei"
+
+msgid "survey/fire/response/q2_4"
+msgstr "Não tenho a certeza"
+
+msgid "survey/fire/response/q3_1"
+msgstr "Sim, gostaria"
+
+msgid "survey/fire/response/q3_2"
+msgstr "Não, não gostaria"
+
+msgid "survey/fire/response/q3_3"
+msgstr "Não tenho a certeza"
+
+msgid "survey/fire/response/q4_1"
+msgstr "Torna-o mais forte"
+
+msgid "survey/fire/response/q4_2"
+msgstr "Torna-o mais fraco"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "ATs"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "AAPs"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "TPs"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "TLs"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "TMs"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "Não me lembro"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "Ficou melhor"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "Ficou pior"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "Não mudou"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "Não tenho a certeza"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "Ficou melhor"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "Ficou pior"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "Não mudou"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "Não tenho a certeza"
+
+msgid "survey/fire/response/q7_1"
+msgstr "Sim, gostaria"
+
+msgid "survey/fire/response/q7_2"
+msgstr "Não, não gostaria"
+
+msgid "survey/fire/response/q7_3"
+msgstr "Não tenho a certeza"
+
+msgid "survey/fire/response/q8_1"
+msgstr "O fogo diminui severamente o número de posições disponíveis"
+
+msgid "survey/fire/response/q8_10"
+msgstr "Uma das equipas ganha uma vantagem"
+
+msgid "survey/fire/response/q8_11"
+msgstr "Problemas técnicos"
+
+msgid "survey/fire/response/q8_12"
+msgstr "Outro"
+
+msgid "survey/fire/response/q8_2"
+msgstr "O fogo causa demasiado dano"
+
+msgid "survey/fire/response/q8_3"
+msgstr "Os oponentes fora da zona não conseguem ver o meu veículo, mas eu também não consigo ver o deles"
+
+msgid "survey/fire/response/q8_4"
+msgstr "A localização do fogo no mapa"
+
+msgid "survey/fire/response/q8_5"
+msgstr "O aspeto do fogo"
+
+msgid "survey/fire/response/q8_6"
+msgstr "Demasiada influência na jogabilidade do mapa"
+
+msgid "survey/fire/response/q8_7"
+msgstr "Muito pouca influência na jogabilidade do mapa"
+
+msgid "survey/fire/response/q8_8"
+msgstr "Os efeitos visuais do fogo interferem com o combate"
+
+msgid "survey/fire/response/q8_9"
+msgstr "O fogo força combates a curta distância"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "ATs"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "AAPs"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "TPs"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "TLs"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "TMs"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "ATs"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "AAPs"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "TPs"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "TLs"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "TMs"
+
+msgid "survey/fog/question/q1"
+msgstr "Gostou de jogar nos mapas seguintes com a mecânica do nevoeiro?"
+
+msgid "survey/fog/question/q10"
+msgstr "Gostaria de ver nevoeiro nos mapas das Batalhas Aleatórias?"
+
+msgid "survey/fog/question/q11"
+msgstr "O que é que não gostou na mecânica do nevoeiro no mapa Fjords?"
+
+msgid "survey/fog/question/q12"
+msgstr "O que é que não gostou na mecânica do nevoeiro no mapa Outpost?"
+
+msgid "survey/fog/question/q13"
+msgstr "Especifique quaisquer melhoramentos necessários."
+
+msgid "survey/fog/question/q2"
+msgstr "Qual é a sua opinião sobre o design visual do nevoeiro nos mapas seguintes?"
+
+msgid "survey/fog/question/q3"
+msgstr "Gostaria de ajustar a influência do nevoeiro na jogabilidade do mapa?"
+
+msgid "survey/fog/question/q4"
+msgstr "Exatamente como gostaria de ajustar a influência do nevoeiro na jogabilidade do mapa Fjords?"
+
+msgid "survey/fog/question/q5"
+msgstr "Exatamente como gostaria de ajustar a influência do nevoeiro na jogabilidade do mapa Outpost?"
+
+msgid "survey/fog/question/q6"
+msgstr "Com que tipos de veículo jogou no mapa Fjords?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "Como é que a jogabilidade dos {value} mudou no mapa Fjords?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "Como é que a jogabilidade dos {value} mudou no mapa Fjords?"
+
+msgid "survey/fog/question/q8"
+msgstr "Com que tipos de veículo jogou no mapa Outpost?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "Como é que a jogabilidade dos {value} mudou no mapa Outpost?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "Como é que a jogabilidade dos {value} mudou no mapa Outpost?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "Sim, gostaria"
+
+msgid "survey/fog/response/q10_2"
+msgstr "Não, não gostaria"
+
+msgid "survey/fog/response/q10_3"
+msgstr "Não tenho a certeza"
+
+msgid "survey/fog/response/q11_1"
+msgstr "Os oponentes fora da zona não conseguem ver o meu veículo, mas eu também não consigo ver o deles"
+
+msgid "survey/fog/response/q11_10"
+msgstr "Outro"
+
+msgid "survey/fog/response/q11_2"
+msgstr "A localização do nevoeiro no mapa"
+
+msgid "survey/fog/response/q11_3"
+msgstr "O aspeto do nevoeiro"
+
+msgid "survey/fog/response/q11_4"
+msgstr "Demasiada influência na jogabilidade do mapa"
+
+msgid "survey/fog/response/q11_5"
+msgstr "Muito pouca influência na jogabilidade do mapa"
+
+msgid "survey/fog/response/q11_6"
+msgstr "Os efeitos visuais do nevoeiro interferem com o combate"
+
+msgid "survey/fog/response/q11_7"
+msgstr "O nevoeiro força combates a curta distância"
+
+msgid "survey/fog/response/q11_8"
+msgstr "Uma das equipas ganha uma vantagem"
+
+msgid "survey/fog/response/q11_9"
+msgstr "Problemas técnicos"
+
+msgid "survey/fog/response/q12_1"
+msgstr "Os oponentes fora da zona não conseguem ver o meu veículo, mas eu também não consigo ver o deles"
+
+msgid "survey/fog/response/q12_10"
+msgstr "Outro"
+
+msgid "survey/fog/response/q12_2"
+msgstr "A localização do nevoeiro no mapa"
+
+msgid "survey/fog/response/q12_3"
+msgstr "O aspeto do nevoeiro"
+
+msgid "survey/fog/response/q12_4"
+msgstr "Demasiada influência na jogabilidade do mapa"
+
+msgid "survey/fog/response/q12_5"
+msgstr "Muito pouca influência na jogabilidade do mapa"
+
+msgid "survey/fog/response/q12_6"
+msgstr "Os efeitos visuais do nevoeiro interferem com o combate"
+
+msgid "survey/fog/response/q12_7"
+msgstr "O nevoeiro força combates a curta distância"
+
+msgid "survey/fog/response/q12_8"
+msgstr "Uma das equipas ganha uma vantagem"
+
+msgid "survey/fog/response/q12_9"
+msgstr "Problemas técnicos"
+
+msgid "survey/fog/response/q1_1"
+msgstr "Sim, gostei"
+
+msgid "survey/fog/response/q1_2"
+msgstr "Não, não gostei"
+
+msgid "survey/fog/response/q1_3"
+msgstr "Não tenho a certeza"
+
+msgid "survey/fog/response/q2_1"
+msgstr "Gostei"
+
+msgid "survey/fog/response/q2_2"
+msgstr "Mais ou menos"
+
+msgid "survey/fog/response/q2_3"
+msgstr "Não gostei"
+
+msgid "survey/fog/response/q2_4"
+msgstr "Não tenho a certeza"
+
+msgid "survey/fog/response/q3_1"
+msgstr "Sim, gostaria"
+
+msgid "survey/fog/response/q3_2"
+msgstr "Não, não gostaria"
+
+msgid "survey/fog/response/q3_3"
+msgstr "Não tenho a certeza"
+
+msgid "survey/fog/response/q4_1"
+msgstr "Torna-o mais forte"
+
+msgid "survey/fog/response/q4_2"
+msgstr "Torna-o mais fraco"
+
+msgid "survey/fog/response/q5_1"
+msgstr "Torna-o mais forte"
+
+msgid "survey/fog/response/q5_2"
+msgstr "Torna-o mais fraco"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "ATs"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "AAPs"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "TPs"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "TLs"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "TMs"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "Não me lembro"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "Ficou melhor"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "Ficou pior"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "Não mudou"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "Não tenho a certeza"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "Ficou melhor"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "Ficou pior"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "Não mudou"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "Não tenho a certeza"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "ATs"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "AAPs"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "TPs"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "TLs"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "TMs"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "Não me lembro"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "Ficou melhor"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "Ficou pior"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "Não mudou"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "Não tenho a certeza"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "Ficou melhor"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "Ficou pior"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "Não mudou"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "Não tenho a certeza"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "ATs"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "AAPs"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "TPs"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "TLs"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "TMs"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "ATs"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "AAPs"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "TPs"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "TLs"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "TMs"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "Gostou de jogar nos mapas seguintes com a mecânica da chuva intensa?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "Gostaria de ver chuva intensa nos mapas das Batalhas Aleatórias?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "O que é que não gostou na mecânica de chuva intensa no mapa Westfield?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "O que é que não gostou na mecânica de chuva intensa no mapa Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "Especifique quaisquer melhoramentos necessários."
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "Qual é a sua opinião sobre o design visual da chuva intensa nos mapas seguintes?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "Gostaria de ajustar o impacto da chuva intensa na jogabilidade do mapa?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "Exatamente como gostaria de ajustar a influência da chuva intensa na jogabilidade do mapa de Westfield?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "Exatamente como gostaria de ajustar a influência da chuva intensa na jogabilidade do mapa de Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "Com que tipos de veículo jogou no mapa Westfield?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "Como é que a jogabilidade dos {value} mudou no mapa Westfield?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "Como é que a jogabilidade dos {value} mudou no mapa Westfield?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "Com que tipos de veículo jogou no mapa Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "Como é que a jogabilidade dos {value} mudou no mapa Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "Como é que a jogabilidade dos {value} mudou no mapa Fisherman's Bay?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "Sim, gostaria"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "Não, não gostaria"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "Não tenho a certeza"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "É demasiado escorregadio na zona de chuva intensa"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "Problemas técnicos"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "Outro"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "Os oponentes fora da zona não conseguem ver o meu veículo, mas eu também não consigo ver o deles"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "A localização da chuva intensa no mapa"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "O aspeto da chuva intensa"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "Demasiada influência na jogabilidade do mapa"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "Muito pouca influência na jogabilidade do mapa"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "Os efeitos visuais da chuva intensa interferem com o combate"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "A chuva intensa força combates a curta distância"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "Uma das equipas ganha uma vantagem"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "É demasiado escorregadio na zona de chuva intensa"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "Problemas técnicos"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "Outro"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "Os oponentes fora da zona não conseguem ver o meu veículo, mas eu também não consigo ver o deles"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "A localização da chuva intensa no mapa"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "O aspeto da chuva intensa"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "Demasiada influência na jogabilidade do mapa"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "Muito pouca influência na jogabilidade do mapa"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "Os efeitos visuais da chuva intensa interferem com o combate"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "A chuva intensa força combates a curta distância"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "Uma das equipas ganha uma vantagem"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "Sim, gostei"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "Não, não gostei"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "Não tenho a certeza"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "Gostei"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "Mais ou menos"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "Não gostei"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "Não tenho a certeza"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "Sim, gostaria"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "Não, não gostaria"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "Não tenho a certeza"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "Torna-o mais forte"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "Torna-o mais fraco"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "Torna-o mais forte"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "Torna-o mais fraco"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "ATs"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "AAPs"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "TPs"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "TLs"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "TMs"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "Não me lembro"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "Ficou melhor"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "Ficou pior"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "Não mudou"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "Não tenho a certeza"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "Ficou melhor"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "Ficou pior"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "Não mudou"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "Não tenho a certeza"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "ATs"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "AAPs"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "TPs"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "TLs"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "TMs"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "Não me lembro"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "Ficou melhor"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "Ficou pior"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "Não mudou"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "Não tenho a certeza"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "Ficou melhor"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "Ficou pior"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "Não mudou"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "Não tenho a certeza"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "Próximo"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "Afirmativo!"
+
+msgid "survey/required"
+msgstr "Responda à pergunta para continuar."
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "ATs"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "AAPs"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "TPs"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "TLs"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "TMs"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "Gostou de jogar no mapa Sand River com a mecânica da tempestade de areia?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "Qual é a sua opinião sobre o design visual da tempestade de areia no mapa do Sand River?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "Gostaria de ajustar a influência das tempestades de areia na jogabilidade do mapa Sand River?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "Exatamente como gostaria de ajustar a influência das tempestades de areia na jogabilidade do mapa Sand River?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "Com que tipos de veículo jogou no mapa Sand River?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "Como é que a jogabilidade dos {value} mudou no mapa Sand River?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "Como é que a jogabilidade dos {value} mudou no mapa Sand River?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "Gostaria de ver tempestades de areia nos mapas das Batalhas Aleatórias?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "O que é que não gostou na mecânica da tempestade de areia no mapa do Sand River?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "Especifique quaisquer melhoramentos necessários."
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "Sim, gostei"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "Não, não gostei"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "Não tenho a certeza"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "Gostei"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "Mais ou menos"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "Não gostei"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "Não tenho a certeza"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "Sim, gostaria"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "Não, não gostaria"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "Não tenho a certeza"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "Torna-o mais forte"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "Torna-o mais fraco"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "ATs"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "AAPs"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "TPs"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "TLs"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "TMs"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "Não me lembro"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "Ficou melhor"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "Ficou pior"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "Não mudou"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "Não tenho a certeza"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "Ficou melhor"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "Ficou pior"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "Não mudou"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "Não tenho a certeza"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "Sim, gostaria"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "Não, não gostaria"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "Não tenho a certeza"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "Os oponentes fora da zona não conseguem ver o meu veículo, mas eu também não consigo ver o deles"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "Outro"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "A localização da tempestade de areia no mapa"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "O aspecto da tempestade de areia"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "Demasiada influência na jogabilidade do mapa"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "Muito pouca influência na jogabilidade do mapa"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "Os efeitos visuais da tempestade de areia interferem com o combate"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "A tempestade de areia força combates a curta distância"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "Uma das equipas ganha uma vantagem"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "Problemas técnicos"
+
+msgid "survey/subTitle"
+msgstr "Obrigado por participar neste questionário! Irá demorar cerca de dois minutos. As suas respostas serão processadas apenas para os fins da realização deste questionário e quaisquer dados pessoais serão excluídos de acordo com a nossa Política de Privacidade."
+
+msgid "survey/template/final/title"
+msgstr "Obrigado por dedicar um tempo para participar neste questionário!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "CLIQUE NO MAPA PARA SELECCIONAR UMA POSIÇÃO"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "PODE SELECCIONAR ATÉ TRÊS POSIÇÕES NO MAPA"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "Descrição detalhada (até %(maxLength)s caracteres)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "Posição"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "Remover posição"
+
+msgid "survey/template/opened/description"
+msgstr "Descrição detalhada do problema (até %(maxLength)s caracteres)"
+
+msgid "survey/title/common"
+msgstr "Por favor classifique as novas características"
+
+msgid "survey/title/map"
+msgstr "Avaliação do Mapa %(map)s"

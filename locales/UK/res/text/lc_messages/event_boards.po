@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "Нагороди для ПТ-САУ"
+
+msgid "awards/class/SPG"
+msgstr "Нагороди для САУ"
+
+msgid "awards/class/heavyTank"
+msgstr "Нагороди для важких танків"
+
+msgid "awards/class/lightTank"
+msgstr "Нагороди для легких танків"
+
+msgid "awards/class/mediumTank"
+msgstr "Нагороди для середніх танків"
+
+msgid "awards/level"
+msgstr "Нагороди для техніки %(level)s рівня"
+
+msgid "awards/nation/china"
+msgstr "Нагороди для Китаю"
+
+msgid "awards/nation/czech"
+msgstr "Нагороди для Чехословаччини"
+
+msgid "awards/nation/france"
+msgstr "Нагороди для Франції"
+
+msgid "awards/nation/germany"
+msgstr "Нагороди для Німеччини"
+
+msgid "awards/nation/japan"
+msgstr "Нагороди для Японії"
+
+msgid "awards/nation/poland"
+msgstr "Нагороди для Польщі"
+
+msgid "awards/nation/sweden"
+msgstr "Нагороди для Швеції"
+
+msgid "awards/nation/uk"
+msgstr "Нагороди для Великобританії"
+
+msgid "awards/nation/usa"
+msgstr "Нагороди для США"
+
+msgid "awards/nation/ussr"
+msgstr "Нагороди для СРСР"
+
+msgid "awards/tooltip/class"
+msgstr "Натисніть, щоб показати нагороди для цього типу техніки."
+
+msgid "awards/tooltip/level"
+msgstr "Натисніть, щоб показати нагороди для техніки цього рівня."
+
+msgid "awards/tooltip/nation"
+msgstr "Натисніть, щоб показати нагороди для цієї нації."
+
+msgid "awards/vehicle"
+msgstr "Нагороди для вибраної машини"
+
+msgid "badge/tooltip/description"
+msgstr "Нашивка — особлива позначка, яку показуватиме в бою поруч з вашим ім’ям. Нашивку бачать гравці обох команд, і вона показує рівень видатної майстерності, яку виявив гравець під час події «Марш націй»."
+
+msgid "badgesGroup/tooltip/header"
+msgstr "Пам’ятні нашивки"
+
+msgid "block/award"
+msgstr "Головна нагорода"
+
+msgid "block/objective"
+msgstr "Умови"
+
+msgid "block/task"
+msgstr "Завдання"
+
+msgid "button/awards"
+msgstr "Всі нагороди"
+
+msgid "button/awards/tooltip"
+msgstr "Натисніть, щоб перейти до списку всіх нагород змагання."
+
+msgid "button/regulations"
+msgstr "Регламент"
+
+msgid "button/regulations/tooltip"
+msgstr "Натисніть, щоб перейти до повного опису змагання."
+
+msgid "condition/battletype/random"
+msgstr "Випадковий бій 15×15"
+
+msgid "condition/battletype/ranked"
+msgstr "Ранговий бій"
+
+msgid "condition/battletype/squadallowed"
+msgstr "Взводи дозволено"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "Взводи заборонено"
+
+msgid "condition/primetime/any"
+msgstr "Будь-який сервер і час"
+
+msgid "condition/primetime/chosen"
+msgstr "На визначених серверах"
+
+msgid "condition/vehicle/chosen"
+msgstr "Вказаною технікою:"
+
+msgid "condition/vehicle/exist"
+msgstr "Є в Гаражі"
+
+msgid "condition/vehicle/missing"
+msgstr "Немає в Гаражі"
+
+msgid "condition/vehicle/single"
+msgstr "На %(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "Нагорода"
+
+msgid "excel/btnClose"
+msgstr "ДО ЗМАГАНЬ"
+
+msgid "excel/group/title"
+msgstr "Група"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "Щоб потрапити до рейтингу, залишилося зіграти боїв: %(number)s"
+
+msgid "excel/noData"
+msgstr "Призові місця ще вільні"
+
+msgid "excel/participate/join"
+msgstr "Взяти участь"
+
+msgid "excel/participate/notParticipated"
+msgstr "Ви не потрапляли до цього рейтингу"
+
+msgid "excel/subHeader"
+msgstr "Змагання: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "Взяти участь"
+
+msgid "header/participate/button/leave"
+msgstr "Покинути змагання"
+
+msgid "header/participate/finished"
+msgstr "Змагання завершено"
+
+msgid "header/participate/notStarted"
+msgstr "Вас записано учасником"
+
+msgid "header/participate/reason/byAge"
+msgstr "акаунт створено після %date%"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "Змагання недоступно"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "Ви покинули це змагання"
+
+msgid "header/participate/started"
+msgstr "Ви берете участь"
+
+msgid "header/timer"
+msgstr "До завершення:"
+
+msgid "maintenance/body"
+msgstr "Вибачте за тимчасові незручності."
+
+msgid "maintenance/title"
+msgstr "Помилка завантаження даних"
+
+msgid "maintenance/update"
+msgstr "Оновити"
+
+msgid "notification/buttons/details"
+msgstr "Докладно"
+
+msgid "notification/eventFinished/body"
+msgstr "Змагання «%(eventName)s» завершено. Днями затвердять переможців і видадуть нагороди."
+
+msgid "notification/eventFinished/header"
+msgstr "Змагання завершено"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "Тепер результати ваших боїв враховують у змаганні. Ви зможете потрапити до рейтингу і отримати нагороду."
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "Ви записалися учасником"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "Результати ваших боїв враховуватимуть, коли почнеться змагання. Ви зможете потрапити до рейтингу та отримати нагороду."
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "Ви записалися учасником"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "Не вдалося записатися учасником: вимоги не виконано."
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "Не вдалося записатися учасником: реєстрацію завершено."
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "Вашу статистику в змаганні анулюють після оновлення рейтингів."
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "Ви покинули змагання"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "Вашу статистику не враховуватимуть у цьому змаганні."
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "Ви покинули змагання"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "Не вдалося покинути змагання: відведений на це час закінчився."
+
+msgid "notification/eventStarted/body"
+msgstr "Змагання «%(eventName)s» почалося! Гравці, які посядуть призові місця у цьому змаганні, отримають цінні нагороди."
+
+msgid "notification/eventStarted/header"
+msgstr "Змагання стартувало"
+
+msgid "notification/unknownError/body"
+msgstr "Не вдалося виконати операцію."
+
+msgid "orders/title"
+msgstr "Регламент"
+
+msgid "popover/buttons/cancel"
+msgstr "Скасувати"
+
+msgid "popover/buttons/rating"
+msgstr "Перейти до рейтингу"
+
+msgid "popover/buttons/select"
+msgstr "Вибрати"
+
+msgid "popover/noVehicles"
+msgstr "Техніку, що задовольняє умови фільтра, не знайдено."
+
+msgid "popover/resetFilter"
+msgstr "Скинути фільтр"
+
+msgid "popover/title"
+msgstr "Список рейтингів"
+
+msgid "popover/title/vehicle"
+msgstr "Список рейтингів"
+
+msgid "popover/tooltip/class"
+msgstr "Перейти до рейтингу за вибраним типом техніки."
+
+msgid "popover/tooltip/level"
+msgstr "Перейти до рейтингу за вибраним рівнем техніки."
+
+msgid "popover/tooltip/nation"
+msgstr "Перейти до рейтингу за вибраною нацією."
+
+msgid "server/list"
+msgstr "Щоб бої враховували у змаганні, перейдіть на сервер:"
+
+msgid "server/noSuitable/body"
+msgstr "Найближчий час обліку боїв: %(data)s. Розклад боїв змагання"
+
+msgid "server/noSuitable/header"
+msgstr "Зараз бої в межах змагання не враховуються"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s на %(server)s"
+
+msgid "status/bestResults/many"
+msgstr "Мої найліпші результати"
+
+msgid "status/bestResults/one"
+msgstr "Мої результати"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "Змагання недоступно:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "Ви не можете брати участь у цьому змаганні через порушення Правил гри"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "акаунт створено після %(date)s"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "кількість боїв в режимі «Випадковий бій» не досягла %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "перемоги в режимі «Випадковий бій» перевищили %(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "перемоги в режимі «Випадковий бій» не досягли %(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "Реєстрацію завершено"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "Ви не можете стати учасником цього змагання."
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "Ви покинули це змагання"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "Результати ваших боїв не враховуватимуть у цьому змаганні. Ви не зможете потрапити до рейтингу і отримати нагороду.\nВи не зможете поновити участь у цьому змаганні."
+
+msgid "status/cantJoin/reason/many"
+msgstr "вимоги не виконано %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "вимоги не виконано (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "Ви не посіли місце в рейтингу"
+
+msgid "status/cantJoin/reason/special"
+msgstr "Ви не можете брати участь у змаганні цим акаунтом."
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "немає придатної техніки"
+
+msgid "status/participate/cantJoin"
+msgstr "Змагання недоступно"
+
+msgid "status/participate/needMoreBattles"
+msgstr "Грайте бої з вказаними умовами, і після оновлення рейтингів тут покажуть ваші результати."
+
+msgid "status/participate/notParticipated"
+msgstr "Ви не потрапляли до цього рейтингу"
+
+msgid "summary/averagedamage"
+msgstr "Середня шкода"
+
+msgid "summary/averagedamageassisted"
+msgstr "Середня шкода з вашою допомогою"
+
+msgid "summary/averagexp"
+msgstr "Середній досвід"
+
+msgid "summary/battles"
+msgstr "Бої в змаганні"
+
+msgid "summary/damage"
+msgstr "Шкода"
+
+msgid "summary/damageassist"
+msgstr "Шкода з вашою допомогою"
+
+msgid "summary/damageblocked"
+msgstr "Заблокована шкода"
+
+msgid "summary/description/awards/title/award"
+msgstr "НАГОРОДА В КІНЦІ ЗМАГАННЯ"
+
+msgid "summary/description/awards/title/group"
+msgstr "ГРУПА"
+
+msgid "summary/description/awards/title/position"
+msgstr "МІСЦЕ"
+
+msgid "summary/description/max/class"
+msgstr "Найліпший бій на %(value)s"
+
+msgid "summary/description/max/level"
+msgstr "Найліпший бій технікою %(value)s рівня"
+
+msgid "summary/description/max/nation"
+msgstr "Найліпший бій технікою нації: %(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "Найліпший бій на %(value)s"
+
+msgid "summary/description/sum/class"
+msgstr "Статистика у події на %(value)s"
+
+msgid "summary/description/sum/level"
+msgstr "Статистика у події технікою %(value)s рівня"
+
+msgid "summary/description/sum/nation"
+msgstr "Статистика у події технікою нації: %(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "Статистика у події машиною: %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "Найліпша серія боїв на %(value)s"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "Найліпша серія боїв технікою %(value)s рівня"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "Найліпша серія боїв технікою нації: %(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "Найліпша серія боїв на %(value)s"
+
+msgid "summary/description/sumN/class"
+msgstr "Найліпші бої на %(value)s"
+
+msgid "summary/description/sumN/level"
+msgstr "Найліпші бої технікою %(value)s рівня"
+
+msgid "summary/description/sumN/nation"
+msgstr "Найліпші бої технікою нації: %(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "Найліпші бої на %(value)s"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "Найліпша серія боїв на %(value)s"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "Найліпша серія боїв технікою %(value)s рівня"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "Найліпша серія боїв технікою нації: %(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "Найліпша серія боїв на %(value)s"
+
+msgid "summary/destroyedvehicles"
+msgstr "Знищено машин супротивника"
+
+msgid "summary/fightInSquaad"
+msgstr "Бій у взводі"
+
+msgid "summary/fightNotInSquaad"
+msgstr "Бій не у взводі"
+
+msgid "summary/originalXP"
+msgstr "«Чистий» досвід"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "Шкода, завдана з допомогою гравця"
+
+msgid "summary/param/max/damageDealt"
+msgstr "Шкода"
+
+msgid "summary/param/max/originalXP"
+msgstr "«Чистий» досвід"
+
+msgid "summary/param/max/xp"
+msgstr "Досвід"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "Середня шкода, завдана з допомогою гравця"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "Середня шкода"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "Середній «чистий» досвід"
+
+msgid "summary/param/sumAll/wins"
+msgstr "Перемоги"
+
+msgid "summary/param/sumAll/xp"
+msgstr "Середній досвід"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "Середня шкода, завдана з допомогою гравця"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "Разом шкоди"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "Разом «чистого» досвіду"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "Разом досвіду"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "Сума шкоди, завданої з допомогою гравця"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "Разом шкоди"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "Разом «чистого» досвіду"
+
+msgid "summary/param/sumN/xp"
+msgstr "Разом досвіду"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "Середня шкода, завдана з допомогою гравця"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "Разом шкоди"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "Разом «чистого» досвіду"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "Разом досвіду"
+
+msgid "summary/position"
+msgstr "Місце у рейтингу: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "Нічия"
+
+msgid "summary/result/loss"
+msgstr "Поразка"
+
+msgid "summary/result/win"
+msgstr "Перемога"
+
+msgid "summary/status"
+msgstr "Оновлено %(day)s о %(time)s"
+
+msgid "summary/winrate"
+msgstr "Перемоги"
+
+msgid "table/header/player"
+msgstr "Гравець"
+
+msgid "table/header/position"
+msgstr "№"
+
+msgid "table/selectParticipateBtn"
+msgstr "Покинути подію"
+
+msgid "table/selectRatingBtn"
+msgstr "Список рейтингів"
+
+msgid "table/selectRegistrationBtn"
+msgstr "Записатися учасником"
+
+msgid "table/stripe/bronze/title"
+msgstr "III група (%(placeFrom)d-%(placeTo)d місця):"
+
+msgid "table/stripe/gold/title"
+msgstr "I група (%(placeFrom)d-%(placeTo)d місця):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "I група"
+
+msgid "table/stripe/iron/title"
+msgstr "IV група (%(placeFrom)d-%(placeTo)d мсіця):"
+
+msgid "table/stripe/silver/title"
+msgstr "II група (%(placeFrom)d-%(placeTo)d місця):"
+
+msgid "table/stripe/wood/title"
+msgstr "Місця без нагород"
+
+msgid "task/eventtype/all"
+msgstr "Один рейтинг для всіх учасників"
+
+msgid "task/eventtype/class"
+msgstr "Для кожного типу техніки окремий рейтинг"
+
+msgid "task/eventtype/level"
+msgstr "Для кожного рівня техніки окремий рейтинг"
+
+msgid "task/eventtype/nation"
+msgstr "Для кожної нації окремий рейтинг"
+
+msgid "task/eventtype/vehicle"
+msgstr "Для кожної машини окремий рейтинг"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "Потрапити до рейтингу за шкодою, завданою за вашою допомогою"
+
+msgid "task/objective/max/damageDealt"
+msgstr "Потрапити до рейтингу за завданою шкодою"
+
+msgid "task/objective/max/originalXP"
+msgstr "Потрапити до рейтингу за «чистим» досвідом"
+
+msgid "task/objective/max/xp"
+msgstr "Потрапити до рейтингу за досвідом"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "Потрапити до рейтингу за сумою шкоди, завданою за вашою допомогою"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "Потрапити до рейтингу за сумою завданої шкоди"
+
+msgid "task/objective/sum/originalXP"
+msgstr "Потрапити до рейтингу за сумою «чистого» досвіду"
+
+msgid "task/objective/sum/wins"
+msgstr "Потрапити до рейтингу за кількістю перемог"
+
+msgid "task/objective/sum/xp"
+msgstr "Потрапити до рейтингу за сумою досвіду"
+
+msgid "task/objparam/damageAssisted"
+msgstr "шкодою, завданої за вашою допомогою"
+
+msgid "task/objparam/damageDealt"
+msgstr "шкодою"
+
+msgid "task/objparam/originalXP"
+msgstr "«чистим» досвідом"
+
+msgid "task/objparam/wins"
+msgstr "кількістю перемог"
+
+msgid "task/objparam/xp"
+msgstr "досвідом"
+
+msgid "task/selection/max"
+msgstr "Враховують найліпший бій"
+
+msgid "task/selection/sumAll"
+msgstr "Враховують всі бої"
+
+msgid "task/selection/sumMSeqN"
+msgstr "Враховують найліпші бої (%(cardinality)s) серії. Боїв у серії: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "Враховують найліпші бої: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "Враховують найліпшу серію боїв. Боїв у серії: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "сьогодні"
+
+msgid "time/day/tomorrow"
+msgstr "завтра"
+
+msgid "time/day/yesterday"
+msgstr "вчора"
+
+msgid "time/eventFinished"
+msgstr "Змагання завершено %(date)s"
+
+msgid "time/period/day"
+msgstr "дб"
+
+msgid "time/period/hour"
+msgstr "год"
+
+msgid "time/period/minute"
+msgstr "хв"
+
+msgid "time/timeTo/end"
+msgstr "До завершення: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "До завершення реєстрації: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "До початку: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "Нагороду видають, коли завершиться змагання, і вона залежить від вашого місця в рейтингу.\nЩоб перейти до списку всіх нагород змагання, натисніть кнопку «Всі нагороди»."
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "Враховують досвід без надбавок від преміум акаунта і преміум техніки, резервів, подвоєного досвіду за першу перемогу доби та інших акцій."
+
+msgid "tooltip/top/amount/xp"
+msgstr "Враховують досвід без надбавок від преміум техніки, резервів, подвоєного досвіду за першу перемогу доби та інших акцій.\nНадбавку від преміум акаунта враховують."
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "Шкода, завдана з допомогою гравця на останньому призовому місці: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "Завдана шкода на останньому призовому місці: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "«Чистий» досвід на останньому призовому місці: %(number)s\nВраховують досвід без надбавок від преміум акаунта і преміум техніки, резервів, подвоєного досвіду за першу перемогу доби та інших акцій."
+
+msgid "tooltip/top/description/max/xp"
+msgstr "Досвід на останньому призовому місці: %(number)s\nВраховують досвід без надбавок від преміум техніки, резервів, подвоєного досвіду за першу перемогу доби та інших акцій.\nНадбавку від преміум акаунта враховують."
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "Сума шкоди, завданої з допомогою гравця, на останньому призовому місці: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "Сума шкоди на останньому призовому місці: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "Сума здобутого «чистого» досвіду на останньому призовому місці: %(number)s\nВраховують досвід без надбавок від преміум акаунта і преміум техніки, резервів, подвоєного досвіду за першу перемогу доби та інших акцій."
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "Кількість здобутих перемог на останньому призовому місці: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "Сума здобутого досвіду на останньому призовому місці: %(number)s\nВраховують досвід без надбавок від преміум техніки, резервів, подвоєного досвіду за першу перемогу доби та інших акцій.\nНадбавку від преміум акаунта враховують."
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "Місце, за яке не нагороджують"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "%(group)s група (%(min)s-%(max)s місця)"
+
+msgid "top/averageXP"
+msgstr "Середній досвід на останньому призовому місці:"
+
+msgid "top/participation/notParticipated"
+msgstr "Ви не потрапляли до цього рейтингу"
+
+msgid "top/participation/notfull"
+msgstr "Ви не посіли місце в рейтингу"
+
+msgid "top/participation/notintop"
+msgstr "Ви не посідаєте призове місце"
+
+msgid "top/position"
+msgstr "Ваше місце:"
+
+msgid "top/reason/notfull"
+msgstr "Щоб потрапити до рейтингу, залишилося зіграти боїв:"
+
+msgid "vehicles/level"
+msgstr "Техніка %(level)s рівня"
+
+msgid "vehicles/tooltip/class"
+msgstr "Натисніть, щоб показати техніку цього типу, що бере участь у змаганні."
+
+msgid "vehicles/tooltip/level"
+msgstr "Натисніть, щоб показати техніку цього рівня, що бере участь у змаганні."
+
+msgid "vehicles/tooltip/nation"
+msgstr "Натисніть, щоб показати техніку цієї нації, що бере участь у змаганні."
+
+msgid "vehicles/vehicle"
+msgstr "Техніка змагання"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "Натисніть, щоб перейти до списку техніки, якою можна взяти участь у змаганні."

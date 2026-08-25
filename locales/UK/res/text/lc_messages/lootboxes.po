@@ -1,0 +1,302 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "autoOpenView/bottomLabel"
+msgstr "Ми відчинили всі ваші новорічні коробки"
+
+msgid "autoOpenView/congratsLabel"
+msgstr "Вітаємо!"
+
+msgid "autoOpenView/okBtnLabel"
+msgstr "Так!"
+
+msgid "buttonLabel/back"
+msgstr "Повернутися в Гараж"
+
+msgid "buttonLabel/buy"
+msgstr "Купити"
+
+msgid "buttonLabel/buyMore"
+msgstr "Купити коробки"
+
+msgid "buttonLabel/close"
+msgstr "Закрити"
+
+msgid "buttonLabel/open"
+msgstr "Відчинити"
+
+msgid "buttonLabel/openBox"
+msgstr "Відчинити коробку"
+
+msgid "buttonLabel/quest"
+msgstr "До завдань"
+
+msgid "buttonLabel/videoOff"
+msgstr "ПОКАЗУВАТИ АНІМАЦІЮ"
+
+msgid "buttonLabel/videoOn"
+msgstr "НЕ ПОКАЗУВАТИ АНІМАЦІЮ"
+
+msgid "compensationTooltip/after/header"
+msgstr "Компенсація:"
+
+msgid "compensationTooltip/before/header"
+msgstr "Дублікат (×{count}):"
+
+msgid "compensationTooltip/crewSkin/header"
+msgstr "Компенсація за образ, який уже маєте"
+
+msgid "compensationTooltip/vehicle/bottomText"
+msgstr "Нагорода як компенсація за машину, яку ви вже маєте."
+
+msgid "compensationTooltip/vehicle/header"
+msgstr "Компенсація за машину, що вже є в Гаражі."
+
+msgid "entryDesc/boxesCount"
+msgstr "×{count}"
+
+msgid "entryDesc/buySlot"
+msgstr "Великі коробки можна купити лише у Преміум магазині"
+
+msgid "entryDesc/newYear_premium"
+msgstr "Великі коробки"
+
+msgid "entryDesc/newYear_usual"
+msgstr "Малі коробки"
+
+msgid "entryDesc/questSlot"
+msgstr "Малі коробки можна здобути, виконуючи завдання"
+
+msgid "entryDesc/restrictedMode"
+msgstr "Функціональність тимчасово недоступна. Спробуйте пізніше."
+
+msgid "entryPoint/header"
+msgstr "Коробки"
+
+msgid "entryTooltip/body/h1"
+msgstr "Де купити великі коробки:"
+
+msgid "entryTooltip/body/h2"
+msgstr "Як отримати малі коробки:"
+
+msgid "entryTooltip/body/p1"
+msgstr "Купуйте коробки з новорічними прикрасами для себе та своїх друзів у преміум Магазині."
+
+msgid "entryTooltip/body/p2"
+msgstr "Видають за виконані новорічні бойові завдання."
+
+msgid "entryTooltip/header"
+msgstr "Коробки"
+
+msgid "entryView/boxesCount"
+msgstr "ще контейнерів: {count}"
+
+msgid "entryView/buyLabel"
+msgstr "ДОКУПИТИ КОРОБКИ"
+
+msgid "entryView/ended/newYear_premium"
+msgstr "Великих коробок на Складі більше нема,\nможете купити їх у преміум Магазині"
+
+msgid "entryView/ended/newYear_usual"
+msgstr "Малих коробок більше нема,\nможете здобути їх у бою"
+
+msgid "entryView/lootboxesCount"
+msgstr "×{count}"
+
+msgid "entryView/title"
+msgstr "Новорічний наступ {year}"
+
+msgid "entryView/year"
+msgstr "2019"
+
+msgid "multiOpenView/applyLabel"
+msgstr "Так!"
+
+msgid "multiOpenView/boxesInStorage"
+msgstr "Коробок у наявності: {count}"
+
+msgid "multiOpenView/boxesNotAvailable"
+msgstr "Коробок більше нема"
+
+msgid "multiOpenView/openBoxesLabel"
+msgstr "Відчинити наступні {count} коробок"
+
+msgid "multiOpenView/openedCount"
+msgstr "×{count}"
+
+msgid "multiOpenView/title"
+msgstr "Вітаємо!"
+
+msgid "notification/eventFinish/text"
+msgstr "Усі отримані ящики буде відкрито. Вміст буде додано на ваш акаунт."
+
+msgid "notification/eventFinish/title"
+msgstr "Подія «‎Весняний ящик»‎ завершена"
+
+msgid "notification/eventStart/button"
+msgstr "Перейти до події"
+
+msgid "notification/eventStart/text"
+msgstr "Тільки до %(date)s: преміум техніка й цінне ігрове майно!"
+
+msgid "notification/eventStart/title"
+msgstr "Подія «‎Весняний ящик‎» почалася"
+
+msgid "notification/header"
+msgstr "Вітаємо!"
+
+msgid "notification/lootBoxesAutoOpen/boxes"
+msgstr "Відкрито ящиків: %(boxes)s"
+
+msgid "notification/lootBoxesAutoOpen/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "notification/lootBoxesAutoOpen/rewards"
+msgstr "Отримано:\n%(rewards)s "
+
+msgid "notification/lootBoxesAutoOpen/text"
+msgstr "Після завершення події ми відкрили за вас ящики та додали вам їхній вміст."
+
+msgid "notification/lootBoxesAutoOpen/title"
+msgstr "Відкриття ящиків"
+
+msgid "notification/lootBoxesIsDisabled/text"
+msgstr "Операції з ящиками тимчасово недоступні: тривають технічні роботи."
+
+msgid "notification/lootBoxesIsDisabled/title"
+msgstr "Відкриття ящиків"
+
+msgid "notification/lootBoxesIsEnabled/button"
+msgstr "Відкрити"
+
+msgid "notification/lootBoxesIsEnabled/text"
+msgstr "Операції з ящиками знову доступні."
+
+msgid "notification/lootBoxesIsEnabled/title"
+msgstr "Відкриття ящиків"
+
+msgid "notification/lootBoxesReceived/invoice"
+msgstr "Додано"
+
+msgid "notification/ny19man"
+msgstr "Унікальний член екіпажу: %(count)s"
+
+msgid "notification/rewards"
+msgstr "Вам присвоєно такі нагороди:"
+
+msgid "restrictedMessage/body"
+msgstr "Дії з коробками тимчасово призупинено. Зберігайте спокій і продовжуйте перемагати."
+
+msgid "restrictedMessage/header"
+msgstr "Бійцю!"
+
+msgid "rewardView/boxesCount"
+msgstr "Коробок у наявності: {count}"
+
+msgid "rewardView/closeBtnLabel"
+msgstr "Закрити"
+
+msgid "rewardView/congratsBtnLabel/style"
+msgstr "Роздивитися стиль"
+
+msgid "rewardView/congratsBtnLabel/tankman"
+msgstr "Рекрутувати"
+
+msgid "rewardView/congratsBtnLabel/vehicle"
+msgstr "Подивитися в Гаражі"
+
+msgid "rewardView/congratsLabel/style"
+msgstr "Унікальний стиль для"
+
+msgid "rewardView/congratsLabel/tankman"
+msgstr "Унікальний член екіпажу"
+
+msgid "rewardView/congratsLabel/usual"
+msgstr "Вітаємо!"
+
+msgid "rewardView/congratsLabel/vehicle"
+msgstr "НЕСПОДІВАНО!"
+
+msgid "rewardView/nextOpenBtnLabel"
+msgstr "Відкрити наступну"
+
+msgid "rewardView/okOpenBtnLabel"
+msgstr "Так!"
+
+msgid "rewardView/openBtnLabel"
+msgstr "Так!"
+
+msgid "rewardView/rerollBtnLabel"
+msgstr "Відчинити знову"
+
+msgid "rewardView/zeroBoxes"
+msgstr "Коробок більше нема"
+
+msgid "specialReward/continueBtn"
+msgstr "Продовжити"
+
+msgid "specialReward/style/goToBtn"
+msgstr "Роздивитися стиль"
+
+msgid "specialReward/style/title"
+msgstr "Унікальний (справді!) стиль для"
+
+msgid "specialReward/vehicle/goToBtn"
+msgstr "Подивитися в Гаражі"
+
+msgid "tooltip/category/header/Christmas"
+msgstr "Різдвяні коробки"
+
+msgid "tooltip/category/header/Fairytale"
+msgstr "Чарівні коробки"
+
+msgid "tooltip/category/header/NewYear"
+msgstr "Новорічні коробки"
+
+msgid "tooltip/category/header/Oriental"
+msgstr "Східні коробки"
+
+msgid "tooltip/category/rewards/Christmas"
+msgstr "Різдвяної колекції"
+
+msgid "tooltip/category/rewards/Fairytale"
+msgstr "Чарівної колекції"
+
+msgid "tooltip/category/rewards/NewYear"
+msgstr "Новорічної колекції"
+
+msgid "tooltip/category/rewards/Oriental"
+msgstr "Східної колекції"
+
+msgid "tooltip/category/rewards/description"
+msgstr "У коробках містяться прикраси з {category} й інші цінні нагороди."
+
+msgid "tooltip/category/rewards/header"
+msgstr "Нагороди:"
+
+msgid "tooltip/entryView/buyBoxes"
+msgstr "Купити додаткові коробки в Преміум магазині."
+
+msgid "tooltip/entryView/openBoxes"
+msgstr "Відчиняти одночасно кілька коробок."
+
+msgid "tooltip/restrictedMode"
+msgstr "Операція тимчасово недоступна. Спробуйте пізніше."
+
+msgid "type/event_premium"
+msgstr "Світанковий ящик"
+
+msgid "type/newYear_premium"
+msgstr "ВЕЛИКІ КОРОБКИ"
+
+msgid "type/newYear_usual"
+msgstr "МАЛІ КОРОБКИ"
+
+msgid "type/wt_boss"
+msgstr "Стартер Інженера"
+
+msgid "type/wt_hunter"
+msgstr "Стартер Гончаків"
+
+msgid "type/wt_special"
+msgstr "Спеценергоблоки"

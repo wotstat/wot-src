@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "Valitse vaunu, jota et halua mukaan tähän taisteluun"
+
+msgid "prebattleTimer/ban/header"
+msgstr "Estoäänestysvaihe"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "Vahvista valinta"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "Vahvistuksen jälkeen et voi valita toista vaunua."
+
+msgid "prebattleTimer/pick/header"
+msgstr "Vahvistusvaihe"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "Valitse tälle kartalle ja joukkueesi kokoonpanoon parhaiten soveltuva vaunu"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "Vaunujen esivalintavaihe"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "Valitse nykyiseen karttaan ja joukkueeseen parhaiten sopiva vaunu."
+
+msgid "prebattleTimer/wait/header"
+msgstr "Odotetaan pelaajia..."
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "Valitse vaunu"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Vaihe %(server)s palvelimella on päättynyt"
+
+msgid "primeTimeView/server"
+msgstr "Saatavilla oleva palvelin: %(server)s."
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Palvelin %(server)s\nTaistelut ovat saatavilla vielä seuraavan %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "%(server)s palvelin\nTaistelut tulevat saataville %(time)s kuluttua"
+
+msgid "primeTimeView/servers"
+msgstr "Saatavilla olevat palvelimet:"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Taistelut eivät ole saatavilla millään palvelimella"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Pelimuoto ei ole saatavilla palvelimella: %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Taistelut %(server)s palvelimella ovat saatavilla vielä seuraavan %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Taistelut alkavat %(server)s palvelimella %(time)s kuluttua"
+
+msgid "primeTimeView/status/untill"
+msgstr "Taistelut eivät ole saatavilla palvelimella %(server)s ennen %(startTime)s"

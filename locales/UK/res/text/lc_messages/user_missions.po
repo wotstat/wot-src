@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "Етап {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Спеціальна глава"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Завершено"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Проглянути нову прогресію"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Вибір глави"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Тимчасово недоступно"
+
+msgid "battle_pass_widget/title"
+msgstr "Бойова перепустка"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Горнило: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}}–{{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} д"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} д {{hours}} год"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} год"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} год {{minutes}} хв"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} хв"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Бонусне завдання\nВиконайте 3 стандартні завдання для розблокування"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Часу на виконання бонусного завдання"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Нові щоденні завдання за"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "Наразі все. Нові щоденні завдання скоро будуть доступні."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Щоб розблокувати, виконайте попереднє завдання"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Преміум завдання тимчасово недоступні"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Купити преміум"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Потрібен Танковий преміум акаунт"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Преміум завдання"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Щоденні завдання тимчасово недоступні"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Замінити"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "ЩОДЕННІ"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "До кампаній"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Поліпшити результат"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "До операції"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Справжнє випробування для досвідчених бійців з особливою технікою в нагороду."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Операцію «{{currentOperationName}}» виконано! Ви можете продовжити поліпшувати свій результат, щоб виконати її з відзнакою, або перейти до нового випробування в операції «{{nextOperationName}}»."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Ви можете поліпшити свій результат в операції «{{nextOperationName}}»."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Операцію «{{currentOperationName}}» виконано з відзнакою! Доступна операція «{{nextOperationName}}»."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Очки кампанії можна заробити, виконуючи особисті, щоденні й щотижневі бойові завдання."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Виконайте всі {{totalProgress}} завдань, щоб завершити операцію з відзнакою та здобути додаткові нагороди."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Встановіть усі деталі, щоб здобути нагороду: {{vehicleName}}. Щоб отримувати деталі, заробляйте очки кампанії, виконуючи особисті, щоденні й щотижневі бойові завдання."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Встановіть усі деталі, щоб здобути нагороду: {{vehicleName}}. Щоб отримувати деталі, заробляйте очки кампанії, виконуючи особисті, щоденні й щотижневі бойові завдання."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Виконано завдань: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "Доступна нова кампанія «Сектор 3»!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Операція «{{nextOperationName}}» доступна!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Операцію «{{currentOperationName}}» виконано з відзнакою!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Операція «{{nextOperationName}}» доступна!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Операція «{{currentOperationName}}» | Етап {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Виконання операції {{currentOperationName}} з відзнакою"
+
+msgid "hub/basic_missions/title"
+msgstr "ЗВИЧАЙНІ ЗАВДАННЯ"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "ЩОТИЖНЯ"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Оновлюється кожен {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Активне завдання"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "АБО"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Нові завдання з'являться незабаром..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "БОЄЦЬ"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "АС"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ЕЛІТА"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Є три категорії завдань: «Боєць», «Еліта» й «Ас». Кожна пропонує унікальні випробування й цінні нагороди."
+
+msgid "hub/challenge_missions/header"
+msgstr "ГОРНИЛО"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Активувати"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Перезапустити задарма"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Перезапустити"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Покинути"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "До завдань"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) Завдання Горнила виконано"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "щитів лишилося"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "безкоштовні перезапуски"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Виконайте активні завдання Горнила"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Завершиться за %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Недоступно: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Потрібна машина VI рівня або вище"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "АКТИВНО"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Виконано"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} завдань"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Випробування"
+
+msgid "hub/challenge_missions/new"
+msgstr "НОВЕ"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "До Горнила"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "До Горнила"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "ГОРНИЛО: {{ challengeName }} ВИКОНАНО!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "До Горнила"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Горнило: {{ challenge }} не виконано. Перезапустіть і знову боріться за нагороди!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "До Горнила"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "ЗАВДАННЯ «{{ mission }}» ВИКОНАНО!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "До Горнила"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Завдання «{{ mission }}» провалено"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "ЩИТІВ ЛИШИЛОСЯ"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "До Горнила"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Увійдіть до Горнила й виконайте низку складних завдань із цінними нагородами для зухвалих сміливців."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "ДОСТУПНІ НОВІ ЗАВДАННЯ ГОРНИЛА!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Крокуйте до слави в Горнилі: виконуйте серії складних завдань і здобувайте цінні нагороди за свої подвиги."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "ДО ГОРНИЛА"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Виконано"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "Набір 3D-обвісів"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Удосконалене обладнання"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "2D-стиль"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Член екіпажу"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Машина"
+
+msgid "hub/challenge_missions/title"
+msgstr "ЗАВДАННЯ ГОРНИЛА"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "Про Горнило"
+
+msgid "hub/common_missions/title"
+msgstr "ДОДАТКОВІ ЗАВДАННЯ"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Забрати нагороди"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "Особлива нагорода тимчасово недоступна"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Зараховуються всі виконані стандартні, преміум і бонусні завдання."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Доступно"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Виконуйте щоденні завдання й здобувайте особливі нагороди"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Отримати нагороду"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Забрати нагороди"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Зараховуються всі виконані стандартні, преміум і бонусні завдання."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Доступно"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Знов у бій! Виконуйте щоденні завдання, забирайте супернагороди: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Виконання трьох стандартних завдань відкриває доступ до бонусного завдання, за виконання якого ви отримаєте цінніші нагороди. Бонусне завдання треба виконати до кінця доби, інакше воно зникне."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Бонусне завдання"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Деякі завдання потрібно виконати за один бій, а накопичувальні завдання можна виконувати за будь-яку кількість боїв. Для накопичувальних завдань передбачена шкала прогресу. Завдання можна виконувати у Випадкових боях."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Умови"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Небажане стандартне завдання можна замінити на інше випадкове. Після заміни опція буде недоступна протягом {{time}}. Заміна завдання призведе до втрати прогресу, якщо в цей момент одна чи декілька ваших машин перебувають у бою."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Заміна завдання"
+
+msgid "info_page/additional/reward/description"
+msgstr "Особлива нагорода — це цикл, побудований за принципом марафону: в залік піде кожне виконане стандартне, преміум і бонусне завдання. Після завершення цикл скидається й починається заново. Особлива нагорода не має обмежень за часом — можна завершити її будь-коли."
+
+msgid "info_page/additional/reward/title"
+msgstr "Особлива нагорода"
+
+msgid "info_page/header"
+msgstr "ПРО ЗАВДАННЯ"
+
+msgid "info_page/main/premium/description"
+msgstr "З Танковим преміум акаунтом ви отримуєте доступ до трьох послідовних преміум завдань. Їх можна виконувати у Випадкових боях і Натиску, прогрес оновлюється після кожного бою. Протягом ігрових подій преміум завдання приносять унікальні тематичні нагороди."
+
+msgid "info_page/main/premium/title"
+msgstr "Преміум завдання"
+
+msgid "info_page/main/standard/description"
+msgstr "Стандартні завдання мають випадкові умови, які можна виконувати щодня. Прогрес завдань оновлюється після кожного бою, проте бажано виконувати їх у день отримання, адже невиконані завдання переносяться на наступний день і блокують появу нових. Протягом Бойової перепустки стандартні завдання дають для неї очки, а під час подій — тематичні нагороди."
+
+msgid "info_page/main/standard/title"
+msgstr "Стандартні завдання"
+
+msgid "info_page/main/weekly/description"
+msgstr "Щотижневі завдання — набір задач, доступних щотижня. Прогрес оновлюється після кожного бою, а виконані завдання замінюються новими з початком нового тижневого циклу. Ви можете виконувати щотижневі завдання у Випадкових боях і в Натиску, щоб отримати додаткові бонуси."
+
+msgid "info_page/main/weekly/title"
+msgstr "Щотижневі завдання"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "На сьогодні всі звичайні завдання виконано"
+
+msgid "quests/daily_quests/completed"
+msgstr "Усі щоденні завдання виконано"
+
+msgid "tooltip/common/timer"
+msgstr "Доступно через {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Усі звичайні завдання виконано! Якщо хочете більше, перейдіть у вкладку «Додаткові завдання»."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Бонусне завдання"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Виконано"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Щоденне завдання"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Зникне через {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Нові щоденні завдання за {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Преміум завдання"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Нагороди:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Небажане завдання можна замінювати \nна нове раз на {time} год."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Заміна завдання"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Завдання виконано, нагороду отримано."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Виконайте попереднє завдання, щоб відкрити це. Усі завдання в серії треба виконувати послідовно."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Натисніть, щоб дізнатися подробиці"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "Про завдання"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Цю серію завдань можна пройти повторно після завершення. Ваш прогрес скинеться, щити відновляться, і ви знову зможете отримати нагороди."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Повторити завдання"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Ви можете перезапустити серію завдань після втрати всіх щитів. Ваш прогрес скинеться, щити відновляться, і ви знову зможете отримати нагороди."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Вартість наступних перезапусків: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Доступно безкоштовних перезапусків: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Кожен перезапуск коштує: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Перезапуски"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Щити захищають ваш прогрес. Кожне провалене завдання забирає один щит, а коли буде втрачено всі щити, серію завдань буде провалено. Після перезапуску щити відновляться."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Щити"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Обмеження техніки:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Щотижневе завдання"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Щотижневі завдання можна замінювати кожні {{time}}."
+
+msgid "welcome/button"
+msgstr "Так!"

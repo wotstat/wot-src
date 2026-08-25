@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Οι μάχες στους servers θα γίνουν διαθέσιμες σε %(primeDelta)s"
+
+msgid "alertMessage/allNotSet"
+msgstr "Οι μάχες αυτές δεν είναι διαθέσιμες σε όλους τους servers"
+
+msgid "alertMessage/ban"
+msgstr "Έχετε προσωρινά αποκλειστεί από τις μάχες αυτού του είδους. Χρόνος που απομένει: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Αλλαγή server"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Λεπτομέρειες"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Οι μάχες αυτού του είδους δεν είναι διαθέσιμες στον επιλεγμένο server %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Οι μάχες αυτές δεν είναι διαθέσιμες σε όλους τους servers."
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "Θα πρέπει να κατέχετε τουλάχιστον %(count)s κατάλληλα οχήματα για τις μάχες αυτές. Περισσότερες πληροφορίες θα βρείτε στη σελίδα «Σχετικά Με Τις Μάχες Επέλασης»."
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "Όχι αρκετά κατάλληλα οχήματα"
+
+msgid "alertMessage/modeOffline"
+msgstr "Σφάλμα βάσης δεδομένων. Είδος μαχών μη διαθέσιμο."
+
+msgid "alertMessage/noVehicles"
+msgstr "Δεν έχετε κατάλληλο όχημα της Βαθμίδας %(levels)s στο Γκαράζ σας %(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "Οι μάχες αυτές δεν είναι διαθέσιμες στον server %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Οι μάχες αυτές δεν είναι διαθέσιμες στον server %(serverName)s"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "Όχι αρκετά κατάλληλα οχήματα %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "Οι μάχες αυτές δεν είναι διαθέσιμες στον server %(serverName)s"
+
+msgid "alertMessage/preannounce/first"
+msgstr "Έναρξη Περιόδου Κυανού Δράκου: %(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "Έναρξη Περιόδου Βυσσινή Δράκου: %(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "Έναρξη Περιόδου Πράσινου Δράκου: %(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "Αναμονή για τα αποτελέσματα των Προκριματικών, έτσι ώστε να καθοριστεί η κατάταξή σας"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "Η Περίοδος του Κυανού Δράκου τελείωσε"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "Η Περίοδος του Βυσσινή Δράκου τελείωσε"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "Η Περίοδος του Πράσινου Δράκου τελείωσε"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Οι μάχες σε αυτόν τον server θα γίνουν διαθέσιμες σε %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Οι μάχες αυτές δεν είναι διαθέσιμες στον server %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Δεν έχετε κατάλληλο όχημα της Βαθμίδας %(levels)s"
+
+msgid "awardsWidget/description/award"
+msgstr "Κλικ για να επιλέξετε και να παραλάβετε τα έπαθλά σας."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "Τα τελικά έπαθλα είναι προσωρινά μη διαθέσιμα. Λυπούμαστε για την όποια ταλαιπωρία."
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "ΔΙΕΚΔΙΚΗΣΗ\nΕΠΑΘΛΟΥ"
+msgstr[1] "ΔΙΕΚΔΙΚΗΣΗ\nΕΠΑΘΛΩΝ"
+msgstr[2] "ΔΙΕΚΔΙΚΗΣΗ\nΕΠΑΘΛΩΝ"
+
+msgid "banView/actionButtons/confirm"
+msgstr "Ψήφος"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "Έχετε ήδη ψηφίσει το %(vehicleName)s"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "Να Μην Αποκλειστεί"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "Προτείνετε ένα όχημα για αποκλεισμό"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "Μπορείτε να ψηφίσετε μόνο κατά\nτην ψηφοφορία για αποκλεισμό"
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "Έχετε προτείνει το:\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "Κάποιο μέλος της ομάδας σας έχει επιλέξει\nτο όχημα που θέλετε να αποκλείσετε"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "Περιμένετε να τελειώσει η ψηφοφορία για αποκλεισμό"
+
+msgid "banView/button/back"
+msgstr "ΠΙΣΩ"
+
+msgid "banView/button/ban"
+msgstr "Αποκλεισμός"
+
+msgid "banView/button/description"
+msgstr "ΣΤΗΝ ΕΠΙΛΟΓΗ ΟΧΗΜΑΤΟΣ"
+
+msgid "banView/description/prepick"
+msgstr "Επιλέξτε το πλέον κατάλληλο όχημα με βάση τον χάρτη και τη σύνθεση της ομάδας"
+
+msgid "banView/description/voting"
+msgstr "Επιλέξτε ένα όχημα που θέλετε να αποκλείσετε από αυτή τη μάχη"
+
+msgid "banView/factory/candidate"
+msgstr "Υποψήφιο για αποκλεισμό: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "Υποψήφια για αποκλεισμό"
+
+msgid "banView/factory/noCandidates"
+msgstr "Κανένα υποψήφιο για αποκλεισμό"
+
+msgid "banView/factory/pick"
+msgstr "Για αποκλεισμό: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "Να Μην Αποκλειστεί"
+
+msgid "banView/title/prepick"
+msgstr "Προεπιλογή Οχημάτων"
+
+msgid "banView/title/voting"
+msgstr "Ψηφοφορία Για Αποκλεισμό"
+
+msgid "banView/tooltip/confirmed"
+msgstr "Επικύρωση ψήφου"
+
+msgid "banView/tooltip/noAction"
+msgstr "Καμία Ενέργεια"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "Ο παίκτης αυτός δεν έχει προτείνει όχημα για αποκλεισμό"
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "Προτάθηκε"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "Αντιαρματικά"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "Βαρέα άρματα"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "Ελαφρά άρματα"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "Μέσα άρματα"
+
+msgid "banView/withoutBan"
+msgstr "Να Μην Αποκλειστεί"
+
+msgid "banWidget/allies"
+msgstr "Ψήφοι συμπαικτών"
+
+msgid "banWidget/enemies"
+msgstr "Ψήφοι αντιπάλων"
+
+msgid "banWidget/tooltip"
+msgstr "Η ομάδα σας δεν συμφώνησε ποιο όχημα να αποκλειστεί, έτσι αποκλείστηκε τυχαία κάποιο όχημα από αυτά με τις περισσότερες ψήφους."
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "Διαμορφώστε πως θα εμφανίζεται το όχημα με βάση τον τύπο, το ρόλο και το έθνος του."
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "Φίλτρο Παραμέτρων"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "Εμφανίζονται μόνο τα κατάλληλα οχήματα γι αυτό είδος μάχης."
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "Δεν ταιριάζει κάποιο όχημα με το επιλεγμένο φίλτρο"
+
+msgid "battleMessages/enableVOIP"
+msgstr "Η ομάδα συγκροτήθηκε. Επιλέξτε όχημα και λάβετε μέρος στη μάχη!\nΜπείτε τη φωνητική συνομιλία (%(keyName)s)"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "Η ομάδα συγκροτήθηκε. Επιλέξτε όχημα και λάβετε μέρος στη μάχη!\nΕπιλέξτε ένα πλήκτρο για να μπαίνετε γρήγορα στη φωνητική συνομιλία."
+
+msgid "battleMessages/withoutVOIP"
+msgstr "Η ομάδα συγκροτήθηκε. Επιλέξτε όχημα και λάβετε μέρος στη μάχη!\nΓια να μπείτε στη φωνητική συνομιλία, ενεργοποιήστε τη από τις ρυθμίσεις του παιχνιδιού."
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "Λεπτομέρειες (F1)"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "Το εύρος ορατότητας βελτιώθηκε"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "Τα χαρακτηριστικά του πληρώματος βελτιώθηκαν"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "Αποκατάσταση hit points"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "Αποκατάσταση hit points"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "Τα χαρακτηριστικά του πληρώματος βελτιώθηκαν"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "Τα χαρακτηριστικά του πληρώματος βελτιώθηκαν"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "Η ταχύτητα γέμισης του πυροβόλου βελτιώθηκε"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "Τα τεχνικά χαρακτηριστικά του οχήματος βελτιώθηκαν"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "Αποκατάσταση hit points"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "Τα τεχνικά χαρακτηριστικά του οχήματος βελτιώθηκαν"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "Τα τεχνικά χαρακτηριστικά του οχήματος βελτιώθηκαν"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "Η ευκινησία βελτιώθηκε"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "Αποκατάσταση hit points"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "Η ευστοχία του πυροβόλου βελτιώθηκε"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "Τα τεχνικά χαρακτηριστικά του οχήματος βελτιώθηκαν"
+
+msgid "battleResult/header/deserter"
+msgstr "Ποινή: Χάσατε Πόντους Κατάταξης"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "Σας επιβλήθηκε πειθαρχική ποινή: Μετά την ολοκλήρωση των Προκριματικών, η βαθμολογία σας θα είναι μειωμένη"
+
+msgid "battleResult/label/deserter"
+msgstr "Λιποταξία"
+
+msgid "battleResult/message/deserter"
+msgstr "Σας επιβλήθηκε ποινή.\nΧαμένοι Πόντοι Κατάταξης: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "Λιποτακτήσατε από τη μάχη.\nΜετά την ολοκλήρωση των Προκριματικών, η βαθμολογία σας θα είναι μειωμένη."
+
+msgid "battleResult/message/header/deserter"
+msgstr "Αθέμιτη Συμπεριφορά"
+
+msgid "battleResult/personal/label"
+msgstr "Πόντοι Κατάταξης"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "Δηλώνει την πρόοδο ενός παίκτη στο Σύστημα Κατάταξης. Κερδίζετε ή χάνετε Πόντους Κατάταξης ανάλογα με τις επιδόσεις σας σε αυτό το είδος μάχης."
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• Ήττες/Ισοπαλίες σε αυτές τις μάχες\n• Ποινές\n• Αδράνεια."
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "Χάσατε Πόντους Κατάταξης. Αιτία:"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "Πόντοι Κατάταξης"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "Μάχη Προκριματικών"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s — %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "Προκριματικά"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "Κερδίσατε Πόντους Κατάταξης. Για να διατηρήσετε τον βαθμό του Θρύλου πρέπει να παραμείνετε στο %(topPercentage)d%% των κορυφαίων παικτών του Πίνακα Κατάταξης."
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "Κερδίσατε Πόντους Κατάταξης. Για να κερδίσετε τον βαθμό του Θρύλου πρέπει να καταλάβετε μία θέση στο %(topPercentage)d%% των κορυφαίων παικτών του Πίνακα Κατάταξης."
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "Κερδίσατε Πόντους Κατάταξης"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "Χάσατε Πόντους Κατάταξης. Για να διατηρήσετε τον βαθμό του Θρύλου πρέπει να παραμείνετε στο %(topPercentage)d%% των κορυφαίων παικτών του Πίνακα Κατάταξης."
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "Χάσατε Πόντους Κατάταξης. Για να κερδίσετε τον βαθμό του Θρύλου πρέπει να καταλάβετε μία θέση στο %(topPercentage)d%% των κορυφαίων παικτών του Πίνακα Κατάταξης."
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "Χάσατε Πόντους Κατάταξης"
+
+msgid "battleResult/subTask/rating"
+msgstr "Πόντοι Κατάταξης: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "Υποβαθμιστήκατε στην %(division)s. %(rank)s"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "%(rank)s. %(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "Προβιβαστήκατε στην %(division)s. %(rank)s!"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "Μάχες (ημέρας): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "Περιλαμβάνονται:"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "Μάχες (περιόδου): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "Ανεξάρτητος/Με Ουλαμό: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "Με Μεγάλο Ουλαμό: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "Η Περίοδος του Κυανού Δράκου θα διαρκέσει %(days)d ημέρα"
+msgstr[1] "Η Περίοδος του Κυανού Δράκου θα διαρκέσει %(days)d ημέρες"
+msgstr[2] "Η Περίοδος του Κυανού Δράκου θα διαρκέσει %(days)d ημέρες"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "Η Περίοδος του Βυσσινή Δράκου θα διαρκέσει %(days)d ημέρα"
+msgstr[1] "Η Περίοδος του Βυσσινή Δράκου θα διαρκέσει %(days)d ημέρες"
+msgstr[2] "Η Περίοδος του Βυσσινή Δράκου θα διαρκέσει %(days)d ημέρες"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "Η Περίοδος του Πράσινου Δράκου θα διαρκέσει %(days)d ημέρα"
+msgstr[1] "Η Περίοδος του Πράσινου Δράκου θα διαρκέσει %(days)d ημέρες"
+msgstr[2] "Η Περίοδος του Πράσινου Δράκου θα διαρκέσει %(days)d ημέρες"
+
+msgid "calendarDay/title"
+msgstr "Πρόγραμμα"
+
+msgid "carousel/banned"
+msgstr "Αποκλείστηκε"
+
+msgid "claimRewards/button"
+msgstr "Διεκδίκηση Επάθλου"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "Η συγκεκριμένη λειτουργία είναι προσωρινά μη διαθέσιμη για τεχνικούς λόγους. Εργαζόμαστε για την επίλυση του προβλήματος."
+
+msgid "closeButtonLabel"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "controls/compare"
+msgstr "Σύγκριση"
+
+msgid "controls/preview"
+msgstr "Προεπισκόπηση"
+
+msgid "countDown/text"
+msgstr "Η διοργάνωση ξεκινά σε:\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1 min"
+
+msgid "crewMembersTooltip/description"
+msgstr "Το ειδικό αυτό πλήρωμα περιλαμβάνει αρματιστές απ' όλον τον κόσμο, υπό τις διαταγές του Αρχηγού τους. Όλα τα μέλη του πληρώματος διαθέτουν την προκαθορισμένη ικανότητα «Αδέρφια στη Μάχη» και αρκετά Crew XP για 2 ακόμη ικανότητες της επιλογής σας, οι οποίες θα βελτιώσουν τις επιδόσεις του οχήματός σας, αλλά θα δώσουν και έναν προσωπικό τόνο στο πεδίο της μάχης."
+
+msgid "crewMembersTooltip/perks"
+msgstr "Ικανότητες"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "Μάχες Επέλασης: Η Χρονιά Του Δράκου"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "Προκαθορισμένες Ικανότητες"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "Μέση φθορά (ημέρας): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "Αναλογία της συνολικής φθοράς σε αντιπάλους προς τις συνολικές μάχες."
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "Μέση φθορά (περιόδου): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "Μέγιστη ημερήσια φθορά: %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "Μέγιστη πρόκληση φθοράς με το %(vehicleName)s"
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "Μέγιστη φθορά περιόδου: %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "—"
+
+msgid "dataError/description"
+msgstr "Μας συγχωρείτε για το προσωρινό πρόβλημα. Προσπαθήστε να ενημερώσετε τη σελίδα λίγο αργότερα."
+
+msgid "dataError/title"
+msgstr "Σφάλμα Στη Φόρτωση Δεδομένων"
+
+msgid "dayTooltip/day"
+msgstr "Ημέρα %(index)s"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "Ημέρα %(index)s: Καμία συμμετοχή σε μάχη."
+
+msgid "dayTooltip/noBattles"
+msgstr "Si vis pacem, para bellum"
+
+msgid "dayTooltip/rankInactivity"
+msgstr "Αδράνεια: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)s Πόντος Κατάταξης"
+msgstr[1] "%(pointsCount)s Πόντοι Κατάταξης"
+msgstr[2] "%(pointsCount)s Πόντοι Κατάταξης"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "Διαφορά Πόντων Κατάταξης: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "Ημέρα %(index)s (σήμερα)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "Ημέρα %(index)s: Καμία συμμετοχή σε μάχη σήμερα."
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "Κατηγορία"
+
+msgid "division/text"
+msgstr "Κατηγορία %(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "Στην συγκεκριμένη κατηγορία εντάσσονται παίκτες που έχουν κερδίσει από {eeede9e6_Open}%(fromScore)&nbsp;έως&nbsp;%(toScore){eeede9e6_Close}&nbsp;Πόντους Κατάταξης."
+
+msgid "divisionTooltip/heading"
+msgstr "Κατηγορία %(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "Πόντοι Κατάταξης"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "Συμμετοχές σε μάχες"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)sΑναμονή αποτελεσμάτων..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)sΑναμονή αποτελεσμάτων"
+
+msgid "entryPointTooltip/description"
+msgstr "Ανταγωνιστικές μάχες 7v7 με οχήματα Βαθμίδας %(levels)s. Ανελιχθείτε στην κατάταξη της διοργάνωσης για να κερδίσετε μοναδικά στοιχεία προσαρμογής, οχήματα, bonds και άλλα πολύτιμα αγαθά του παιχνιδιού."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MODE"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — Είδος μαχών. Κλικ για περισσότερες πληροφορίες"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Διαθεσιμότητα για %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Εκεχειρία %(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "Διαθεσιμότητα σε:\n%(timer)s"
+
+msgid "featureName"
+msgstr "Επέλαση"
+
+msgid "featureNameCapitalized"
+msgstr "ΕΠΕΛΑΣΗ"
+
+msgid "fifthRankTooltip/description"
+msgstr "Ο βαθμός του {eeede9e6_Open}Πρωταθλητή{eeede9e6_Close} απονέμεται σε όσους κέρδισαν τουλάχιστον {eeede9e6_Open}%(fromScore){eeede9e6_Close} Πόντους Κατάταξης."
+
+msgid "forVehicle"
+msgstr "Για το: %(vehicleName)s"
+
+msgid "generalRankTooltip/body/first"
+msgstr "Ο βαθμός του {eeede9e6_Open}Σιδερένιου{eeede9e6_Close} απονέμεται στους παίκτες που έχουν κερδίσει από {eeede9e6_Open}%(fromScore) έως %(toScore){eeede9e6_Close} Πόντους Κατάταξης."
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "Ο βαθμός του {eeede9e6_Open}Χρυσού{eeede9e6_Close} απονέμεται στους παίκτες που έχουν κερδίσει από {eeede9e6_Open}%(fromScore) έως %(toScore){eeede9e6_Close} Πόντους Κατάταξης."
+
+msgid "generalRankTooltip/body/second"
+msgstr "Ο βαθμός του {eeede9e6_Open}Χάλκινου{eeede9e6_Close} απονέμεται στους παίκτες που έχουν κερδίσει από {eeede9e6_Open}%(fromScore) έως %(toScore){eeede9e6_Close} Πόντους Κατάταξης."
+
+msgid "generalRankTooltip/body/third"
+msgstr "Ο βαθμός του {eeede9e6_Open}Αργυρού{eeede9e6_Close} απονέμεται στους παίκτες που έχουν κερδίσει από {eeede9e6_Open}%(fromScore) έως %(toScore){eeede9e6_Close} Πόντους Κατάταξης."
+
+msgid "generalRankTooltip/subheading"
+msgstr "Στις Κατηγορίες: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "ΣΧΕΤΙΚΑ ΜΕ ΤΗ ΔΙΟΡΓΑΝΩΣΗ"
+
+msgid "intro/confirmButton"
+msgstr "Θετικό!"
+
+msgid "intro/description/banPhase"
+msgstr "Κάθε ομάδα μπορεί να αποκλείσει πλήρως ένα όχημα από τη μάχη. Συντονίστε τις ψήφους σας με τους συμπαίκτες σας για να αποκλείσετε το πιο επικίνδυνο όχημα για σας ή για να προετοιμάσετε μια απρόβλεπτη σύνθεση για τους αντιπάλους. Αν το όχημά σας αποκλειστεί, μπορείτε να επιλέξετε κάποιο από τα αρκετά προδιαμορφωμένα μισθωμένα οχήματα."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Σε αυτό το είδος μάχης έχουν αλλάξει παράμετροι των οχημάτων, όπως η αντοχή, ο χρόνος επαναφοράς των αναλώσιμων, ο χρόνος που ένα όχημα παραμένει εντοπισμένο, κλπ."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Μόλις καταλάβετε συγκεκριμένες περιοχές του χάρτη, μπορείτε να χρησιμοποιήσετε τις Στρατηγικές Ικανότητες. Σημεία-Κλειδιά υπάρχουν 2 τύπων: το Αρχηγείο Πυροβολικού με την κατάληψη του οποίου μπορείτε να διατάξετε μπαράζ πυροβολικού σε κάποια συγκεκριμένη περιοχή του χάρτη και το Κέντρο Διαβιβάσεων με την κατάληψη του οποίου μπορείτε να δείτε όλα τα εχθρικά οχήματα στον χάρτη. Η ύπαρξη και η τοποθεσία των Σημείων-Κλειδιών αλλάζουν σε κάθε χάρτη."
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "Λάβετε μέρος σε %(count)s μάχη Προκριματικών για να καθοριστεί η κατάταξή σας. Μετά την ολοκλήρωση των Προκριματικών, θα σας απονεμηθούν τα έπαθλα όλων των βαθμών που κερδίσατε.\n\nΗ Λιποταξία ή η ισοπαλία σε μάχη Προκριματικών θεωρείται ως ήττα."
+msgstr[1] "Λάβετε μέρος σε %(count)s μάχες Προκριματικών για να καθοριστεί η κατάταξή σας. Μετά την ολοκλήρωση των Προκριματικών, θα σας απονεμηθούν τα έπαθλα όλων των βαθμών που κερδίσατε.\n\nΗ Λιποταξία ή η ισοπαλία σε μάχη Προκριματικών θεωρείται ως ήττα."
+msgstr[2] "Λάβετε μέρος σε %(count)s μάχες Προκριματικών για να καθοριστεί η κατάταξή σας. Μετά την ολοκλήρωση των Προκριματικών, θα σας απονεμηθούν τα έπαθλα όλων των βαθμών που κερδίσατε.\n\nΗ Λιποταξία ή η ισοπαλία σε μάχη Προκριματικών θεωρείται ως ήττα."
+
+msgid "intro/description/ranks"
+msgstr "Ένα σύστημα αξιολόγησης με βάση την επιδεξιότητα των παικτών. Από τον βαθμό του Σιδερένιου έως τον βαθμό του Θρύλου, κερδίζετε πολύτιμα έπαθλα. Λάβετε μέρος στις Μάχες Επέλασης καθ' όλη τη διάρκεια της Χρονιάς Του Δράκου για να κερδίσετε τα Ετήσια Έπαθλα."
+
+msgid "intro/description/roleSkills"
+msgstr "Ανάλογα με τον ρόλο του στη μάχη, το κάθε όχημα διαθέτει ειδικές ικανότητες, με 3 επίπεδα η κάθε μία από αυτές. Όσο μεγαλύτερο το επίπεδο της ικανότητας, τόσο μεγαλύτερη η επίδρασή της όταν ενεργοποιηθεί. Το επίπεδο της κάθε ικανότητας εξαρτάται από τους Πόντους Αίγλης που κερδίζετε με βάση τις επιδόσεις σας στη μάχη, από την κατάληψη Σημείων-Κλειδιών, από τη χρήση Στρατηγικών Ικανοτήτων, κλπ.\n\nΔιαβάστε τους κανονισμούς της διοργάνωσης για να μάθετε περισσότερα για τους Πόντους Αίγλης."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Μπείτε στη μάχη με τα αγαπημένα σας Κανονικά ή Συλλεκτικά οχήματα Βαθμίδας %(levels)s (εκτός από Α/Κ Πυροβόλα), καθώς και με κάποια ειδικά οχήματα. Προετοιμάστε κατάλληλα τα οχήματά σας και επιλέξτε αυτό που ταιριάζει περισσότερο σε κάποιον συγκεκριμένο χάρτη. Αφότου επιλέξετε όχημα, μελετήστε ποια οχήματα έχουν επιλέξει τα υπόλοιπα μέλη της ομάδας σας."
+
+msgid "intro/title/banPhase"
+msgstr "ΑΠΟΚΛΕΙΣΜΟΙ ΟΧΗΜΑΤΩΝ"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ ΜΑΧΗΣ"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "ΣΗΜΕΙΑ-ΚΛΕΙΔΙΑ"
+
+msgid "intro/title/qualification"
+msgstr "ΠΡΟΚΡΙΜΑΤΙΚΑ"
+
+msgid "intro/title/ranks"
+msgstr "ΣΥΣΤΗΜΑ ΚΑΤΑΤΑΞΗΣ"
+
+msgid "intro/title/roleSkills"
+msgstr "ΙΚΑΝΟΤΗΤΕΣ ΡΟΛΟΥ"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "ΕΠΙΛΕΞΤΕ ΟΧΗΜΑ ΓΙΑ ΚΑΠΟΙΟΝ ΣΥΓΚΕΚΡΙΜΕΝΟ ΧΑΡΤΗ"
+
+msgid "lastUpdateNote/info"
+msgstr "Τελευταία ενημέρωση: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "Οι Πόντοι Κατάταξης του τελευταίου παίκτη στην κατάταξη που έχει κερδίσει τον βαθμό του Θρύλου\nενημερώνονται κάθε %(count)s min."
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "Ενημέρωση δεδομένων..."
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "Ο Πίνακας Κατάταξης ενημερώνεται κάθε %(count)s min."
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "Τελευταία ενημέρωση: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "Η Θέση Μου"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "Κερδίστε τον βαθμό του Πρωταθλητή ή του Θρύλου για να καταλάβετε μία θέση στον Πίνακα Κατάταξης."
+
+msgid "leaderboard/error/buttonText"
+msgstr "Ενημέρωση"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "Οι παίκτες που έχουν κερδίσει τον βαθμό του Πρωταθλητή ή του Θρύλου θα καταλαμβάνουν μία θέση στον Πίνακα Κατάταξης. Κερδίστε {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close} Πόντους Κατάταξης για να φτάσετε στην κορυφή!"
+
+msgid "leaderboard/noRecords/title"
+msgstr "Δεν υπάρχουν παίκτες στον Πίνακα Κατάταξης κατά την τρέχουσα Περίοδο"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "Μάχες"
+
+msgid "leaderboard/table/header/order"
+msgstr "#"
+
+msgid "leaderboard/table/header/player"
+msgstr "Όνομα Παίκτη"
+
+msgid "leaderboard/table/header/score"
+msgstr "Πόντοι Κατάταξης"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "Οι συμμετοχές σε μάχες Επέλασης στην τρέχουσα Περίοδο της διοργάνωσης."
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "Μάχες"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "Θέση κατάταλης παίκτη."
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "Θέση"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "Το όνομα του παίκτη που έχει καταλάβει μία θέση κατάταξης."
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "Όνομα Παίκτη"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "Οι κερδισμένοι Πόντοι Κατάταξης στην τρέχουσα Περίοδο της διοργάνωσης."
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "Πόντοι Κατάταξης"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "Τα Μέλη Του Ουλαμού"
+
+msgid "noVehicles/howTo/premium"
+msgstr "Χρησιμοποιήστε Προνομιακό Λογαριασμό WoT"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Ενεργοποιήστε Προσωπικά Αποθέματα"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Ολοκληρώστε Αποστολές"
+
+msgid "noVehicles/howTo/title"
+msgstr "Ποιος είναι ο γρηγορότερος τρόπος για να φτάσετε στα οχήματα της Βαθμίδας %(levels)s?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Για να λάβετε μέρος στις μάχες Επέλασης, θα πρέπει να έχετε τουλάχιστον ένα κατάλληλο όχημα της Βαθμίδας %(levels)s.\nΈχετε ήδη ανακαλύψει ένα όχημα της Βαθμίδας %(levels)s που δεν έχετε αγοράσει."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Για να λάβετε μέρος στις μάχες Επέλασης, θα πρέπει να έχετε τουλάχιστον ένα κατάλληλο όχημα της Βαθμίδας %(levels)s\nΈχετε ένα όχημα της Βαθμίδας %(levels)s διαθέσιμο για ανάκτηση."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Για να λάβετε μέρος στις μάχες Επέλασης, θα πρέπει να έχετε τουλάχιστον ένα κατάλληλο όχημα της Βαθμίδας %(levels)s."
+
+msgid "noVehicles/title"
+msgstr "Κανένα κατάλληλο όχημα στο Γκαράζ σας"
+
+msgid "page/heading/leaderboard"
+msgstr "ΠΙΝΑΚΑΣ ΚΑΤΑΤΑΞΗΣ"
+
+msgid "page/heading/progression"
+msgstr "ΣΥΣΤΗΜΑ ΚΑΤΑΤΑΞΗΣ"
+
+msgid "page/heading/qualification"
+msgstr "ΠΡΟΚΡΙΜΑΤΙΚΑ"
+
+msgid "page/heading/rankRewards"
+msgstr "ΕΠΑΘΛΑ ΓΙΑ ΚΑΘΕ ΒΑΘΜΟ"
+
+msgid "page/heading/shop"
+msgstr "ΕΦΟΔΙΑΣΜΟΣ ΜΑΧΩΝ ΕΠΕΛΑΣΗΣ"
+
+msgid "page/heading/weeklyQuests"
+msgstr "ΕΒΔΟΜΑΔΙΑΙΕΣ ΑΠΟΣΤΟΛΕΣ"
+
+msgid "page/heading/yearlyRewards"
+msgstr "ΕΤΗΣΙΑ ΕΠΑΘΛΑ"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "ΕΤΗΣΙΑ ΣΤΑΤΙΣΤΙΚΑ"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "Μπροστά"
+
+msgid "pagination/prev"
+msgstr "Πίσω"
+
+msgid "pbs/bans/title"
+msgstr "ΑΠΟΚΛΕΙΣΜΕΝΑ ΟΧΗΜΑΤΑ"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "2D ΤΕΧΝΟΤΡΟΠΙΑ ΕΠΕΛΑΣΗΣ"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "ΑΠΟΣΤΟΛΗ 2D ΤΕΧΝΟΤΡΟΠΙΑΣ ΕΞΕΤΕΛΕΣΘΗ!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "Η ΕΒΔΟΜΑΔΙΑΙΑ ΑΠΟΣΤΟΛΗ #%(count)s ΟΛΟΚΛΗΡΩΘΗΚΕ!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "Η ΕΒΔΟΜΑΔΙΑΙΑ ΑΠΟΣΤΟΛΗ ΟΛΟΚΛΗΡΩΘΗΚΕ!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "ΕΒΔΟΜΑΔΙΑΙΑ ΑΠΟΣΤΟΛΗ ΕΠΕΛΑΣΗΣ"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "ΗΤΤΑ, ΕΠΕΙΔΗ ΕΣΕΙΣ"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "ΙΣΟΠΑΛΙΑ, ΕΠΕΙΔΗ ΕΣΕΙΣ"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "ΝΙΚΗ, ΑΛΛΑ ΕΣΕΙΣ"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "Προαγωγή στον βαθμό %(rank)s"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "Υποβιβασμός στον βαθμό %(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "Προαγωγή στον βαθμό %(rank)s, %(division)s"
+
+msgid "pbs/overview/qualification/description"
+msgstr "Συμμετοχές σε μάχες"
+
+msgid "pbs/overview/qualification/title"
+msgstr "Προκριματικά"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "Πειθαρχική Ποινή: Χάσατε Πόντους Κατάταξης"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "Σας επιβλήθηκε πειθαρχική ποινή: Μετά την ολοκλήρωση των Προκριματικών, η βαθμολογία σας θα είναι μειωμένη."
+
+msgid "pbs/rankDescription/fifth"
+msgstr "Για να σας απονεμηθεί ο βαθμός του Θρύλου, πρέπει να καταλάβετε μία θέση ανάμεσα στο {ede6d9e5_Open}%(topPercentage) των κορυφαίων παικτών%{ede6d9e5_Close} του Πίνακα Κατάταξης."
+
+msgid "pbs/rankDescription/sixth"
+msgstr "Για να παραμείνετε στον βαθμό του Θρύλου, πρέπει να έχετε καταλάβει μία θέση ανάμεσα στο {ede6d9e5_Open}%(topPercentage) των κορυφαίων παικτών%{ede6d9e5_Close} του Πίνακα Κατάταξης."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Περισσότερες πληροφορίες θα βρείτε στη σελίδα «Σχετικά Με Τις Μάχες Επέλασης»."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Πόντοι Αίγλης"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Πρόκληση φθοράς\nΕντοπισμό αντιπάλων\nΚαταστροφή ερπυστριών\nΚρίσιμα πλήγματα \nΚαταστροφές εχθρικών οχημάτων\nΚλπ"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Οι Πόντοι Αίγλης επηρεάζουν τους κερδισμένους από τη μάχη Πόντους Κατάταξης. Οι Πόντοι Κατάταξης κερδίζονται από:"
+
+msgid "percentage"
+msgstr "%(percentageValue)s%"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "Μέσος Όρος Πόντων Αίγλης (ημέρας): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "Αναλογία συνολικών Πόντων Αίγλης προς τις συνολικές μάχες."
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "Μέσος Όρος Πόντων Αίγλης (περιόδου): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "Ρεκόρ κερδισμένων ημερήσιων Πόντων Αίγλης: %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "Μέγιστοι κερδισμένοι Πόντοι Αίγλης με το %(vehicleName)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "Ρεκόρ κερδισμένων Πόντων Αίγλης περιόδου: %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Η Περίοδος του Κυανού Δράκου τελείωσε στον server %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Η Περίοδος του Βυσσινή Δράκου τελείωσε στον server %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Η Περίοδος του Πράσινου Δράκου τελείωσε στον server %(server)s."
+
+msgid "products/actions/buy"
+msgstr "Αγορά"
+
+msgid "products/actions/restore"
+msgstr "Αποθήκη"
+
+msgid "products/actions/toCustomization"
+msgstr "Στην Τεχνοτροπία"
+
+msgid "products/actions/toHangar"
+msgstr "Προβολή στο Γκαράζ"
+
+msgid "products/customizationUnavailable/body"
+msgstr "Αδύνατη η προβολή της τεχνοτροπίας: Είτε δεν κατέχετε το συγκεκριμένο όχημα, ή το όχημα δεν είναι διαθέσιμο αυτήν τη στιγμή, ή απαιτούνται επισκευές στο όχημα."
+
+msgid "products/customizationUnavailable/title"
+msgstr "Μη διαθεσιμότητα"
+
+msgid "products/discount"
+msgstr "-%(discountPercentage)s%"
+
+msgid "products/discountDescription"
+msgstr "Μέχρι την έναρξη της επόμενης Περιόδου, θα έχετε πρόσβαση σε αντικείμενα που μπορείτε να αγοράσετε με έκπτωση, ανάλογα με τον {eeede9e6_Open}υψηλότερο{eeede9e6_Close} {eeede9e6_Open}βαθμό{eeede9e6_Close} στον οποίο {eeede9e6_Open}προαχθήκατε{eeede9e6_Close}."
+
+msgid "products/discountSectionName"
+msgstr "ΠΡΟΫΠΟΘΕΣΕΙΣ ΠΡΟΣΒΑΣΗΣ & ΕΚΠΤΩΣΕΙΣ"
+
+msgid "products/inProgress"
+msgstr "Περιμένετε μέχρι να γίνει επεξεργασία της συναλλαγής σας..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "Διαθέσιμο για αγορά ανά Περίοδο: %(count)s"
+
+msgid "products/message/notEnough"
+msgstr "Ανεπαρκείς πόροι για αγορά."
+
+msgid "products/message/rankAccess"
+msgstr "Προϋποθέσεις αγοράς\n%(rank)s"
+
+msgid "products/newLabel"
+msgstr "ΝΕΟ"
+
+msgid "products/priceSectionName"
+msgstr "ΚΟΣΤΟΣ"
+
+msgid "products/productAccess"
+msgstr "Βαθμός\nΠρόσβασης"
+
+msgid "products/purchased"
+msgstr "Αγοράστηκε"
+
+msgid "products/rankAccess"
+msgstr "Βαθμός Πρόσβασης %(rank)s"
+
+msgid "products/readyToRestore"
+msgstr "Ανάκτηση διαθέσιμη"
+
+msgid "products/readyToRestoreDescription"
+msgstr "Διαθέσιμη ανάκτηση από την Αποθήκη"
+
+msgid "products/style3d"
+msgstr "3D Τεχνοτροπία %(name)s"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "ΠΙΣΩ ΣΤΑ ΣΤΑΤΙΣΤΙΚΑ ΣΥΝΕΔΡΙΑΣ"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "ΣΤΑΤΙΣΤΙΚΑ ΠΕΡΙΟΔΟΥ"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "ΣΤΑΤΙΣΤΙΚΑ ΗΜΕΡΑΣ %(day)s"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "ΣΗΜΕΡΙΝΑ ΣΤΑΤΙΣΤΙΚΑ"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "Σε κάθε στήλη εμφανίζονται τα δεδομένα για την περίοδο μεταξύ της Ώρας Αιχμής της επιλεγμένης ημέρας έως την Ώρα Αιχμής της επόμενης ημέρας. Σε μερικές περιπτώσεις, μπορεί να περιλαμβάνονται μάχες από 2 ημερολογιακές ημέρες."
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "Σε κάθε στήλη εμφανίζονται τα δεδομένα για την περίοδο μεταξύ της Ώρας Αιχμής της επιλεγμένης ημέρας έως την Ώρα Αιχμής της επόμενης ημέρας. Σε μερικές περιπτώσεις, μπορεί να περιλαμβάνονται μάχες από 2 ημερολογιακές ημέρες."
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "Ο τομέας αυτός ενημερώνεται μόνο όταν υπάρχουν διαθέσιμα δεδομένα. Μπορείτε να ζητήσετε ενημέρωση των δεδομένων πατώντας το κουμπί της ανανέωσης."
+
+msgid "progressionPage/chartHeader/update"
+msgstr "Ενημέρωση: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "Συγχαρητήρια!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "Έχετε ολοκληρώσει όλες τις αποστολές της τεχνοτροπίας 2D."
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s / %(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "Μία σειρά αποστολών για να ξεκλειδώσετε νέα στοιχεία για την τεχνοτροπία 2D της τρέχουσας περιόδου."
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "ΑΠΟΣΤΟΛΗ: %(taskNumber)s"
+msgstr[1] "ΑΠΟΣΤΟΛΕΣ: %(taskNumber)s"
+msgstr[2] "ΑΠΟΣΤΟΛΕΣ: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "ΑΠΟΣΤΟΛΕΣ ΤΕΧΝΟΤΡΟΠΙΑΣ 2D"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "Στην Τεχνοτροπία"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "Όλες οι τεχνοτροπίες είναι προς το παρόν για μη διαθέσιμα οχήματα"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "Κανένα κατάλληλο όχημα για τοποθέτηση της τεχνοτροπίας"
+
+msgid "progressionPage/error/refresh"
+msgstr "Ανανέωση"
+
+msgid "progressionPage/error/refreshing"
+msgstr "Ανανέωση..."
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "Μέση Φθορά"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "Μέσος Όρος Πόντων Αίγλης"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "Διαφορά Κατάταξης: %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "Ρεκόρ κατά την %(seasonRecordDescriptionDay)s"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "ημέρα %(day)s"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "Όλα Τα Στατιστικά"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "Περιλαμβάνονται:\n • Η φθορά από δικό σας εντοπισμό αντιπάλων (φθορά και με χρήση ικανοτήτων)\n • Η φθορά από δική σας ακινητοποίηση εχθρικών οχημάτων (φθορά και με χρήση ικανοτήτων)\n • Η φθορά που προκάλεσαν οι συμπαίκτες σας με τη βοήθεια των δικών σας ικανοτήτων.\n • Η φθορά που προκάλεσαν οι συμπαίκτες σας σε εχθρικό όχημα σε σοκ (σοκ και με χρήση ικανοτήτων)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "Σύνολο συμμετοχών σε μάχες"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "Αναλογία της συνολικής φθοράς σε αντιπάλους προς τις συνολικές μάχες"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "Αναλογία των εχθρικών οχημάτων που καταστράφηκαν σε σχέση με το πόσες φορές καταστράφηκε το όχημα του παίκτη"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "Αναλογία φθοράς σε αντιπάλους προς την προσλαμβανόμενη φθορά"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "Αναλογία συνολικών Πόντων Αίγλης προς τις συνολικές μάχες"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "Οχήματα με τις περισσότερες συμμετοχές σε μάχες"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "Συνολικό ποσοστό νικών"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "Μέσος όρος φθοράς με δική σας συνεισφορά"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "Μάχες"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "Μέσος όρος φθοράς σε εχθρικά οχήματα"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "Συντελεστής καταστροφών"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "Συντελεστής φθοράς"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "Μέσος όρος Πόντων Αίγλης ανά μάχη"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "Όνομα οχήματος"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "Νίκες"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "ΣΤΑΤΙΣΤΙΚΑ ΟΧΗΜΑΤΟΣ"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s-%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "Ημέρες μέχρι τον υποβιβασμό: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "Από μη συμμετοχή σε μάχες Επέλασης θα χάσετε {eeede9e6_Open}%(count)s{eeede9e6_Close} Πόντο Κατάταξης"
+msgstr[1] "Από μη συμμετοχή σε μάχες Επέλασης θα χάσετε {eeede9e6_Open}%(count)s{eeede9e6_Close} Πόντους Κατάταξης"
+msgstr[2] "Από μη συμμετοχή σε μάχες Επέλασης θα χάσετε {eeede9e6_Open}%(count)s{eeede9e6_Close} Πόντους Κατάταξης"
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(1&nbsp;μάχη&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;πόντος)"
+msgstr[1] "(1&nbsp;μάχη&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;πόντοι)"
+msgstr[2] "(1&nbsp;μάχη&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;πόντοι)"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "Δεν θα χάσετε Πόντους Κατάταξης από αδράνεια στον βαθμό που είσαστε, αλλά μπορεί να χάσετε όταν φτάσετε τους ακόλουθους βαθμούς: %(rankList)s"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "Ο βαθμός σας επηρεάζεται από πιθανή αδράνεια"
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "Ο βαθμός σας δεν επηρεάζεται από πιθανή αδράνεια"
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "Βαθμός"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "Το %(topPercentage)s% των κορυφαίων παικτών στον Πίνακα Κατάταξης"
+
+msgid "progressionTooltip/division"
+msgstr "Κατηγορία %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "Στην συγκεκριμένη κατηγορία εντάσσονται παίκτες που έχουν κερδίσει από {eeede9e6_Open}%(fromScore) έως %(toScore){eeede9e6_Close} Πόντους Κατάταξης."
+
+msgid "progressionTooltip/info/fifth"
+msgstr "Ο βαθμός του Πρωταθλητή απονέμεται σε όσους κέρδισαν τουλάχιστον {eeede9e6_Open}%(fromScore){eeede9e6_Close} Πόντους Κατάταξης."
+
+msgid "progressionTooltip/info/sixth"
+msgstr "Ο βαθμός του Θρύλου απονέμεται σε όσους κατέλαβαν μία θέση ανάμεσα στο {eeede9e6_Open}%(topPercentage) των κορυφαίων παικτών%{eeede9e6_Close} του Πίνακα Κατάταξης."
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "Λάβετε μέρος σε %(maxBattlesCount)s μάχη αυτού του είδους για να καθοριστεί η κατάταξή σας."
+msgstr[1] "Λάβετε μέρος σε %(maxBattlesCount)s μάχες αυτού του είδους για να καθοριστεί η κατάταξή σας."
+msgstr[2] "Λάβετε μέρος σε %(maxBattlesCount)s μάχες αυτού του είδους για να καθοριστεί η κατάταξή σας."
+
+msgid "progressionTooltip/qualificationName"
+msgstr "Προκριματικά"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "Ημέρες μέχρι τον υποβιβασμό: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "Από μη συμμετοχή σε μάχες Επέλασης θα χάσετε {eeede9e6_Open}%(count)s{eeede9e6_Close} Πόντο Κατάταξης."
+msgstr[1] "Από μη συμμετοχή σε μάχες Επέλασης θα χάσετε {eeede9e6_Open}%(count)s{eeede9e6_Close} Πόντους Κατάταξης."
+msgstr[2] "Από μη συμμετοχή σε μάχες Επέλασης θα χάσετε {eeede9e6_Open}%(count)s{eeede9e6_Close} Πόντους Κατάταξης."
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s Ο βαθμός σας επηρεάζεται από πιθανή αδράνεια."
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "Λάβετε μέρος σε μάχες του είδους έως το τέλος της ημέρας για να διατηρήσετε τον βαθμό σας."
+
+msgid "progressionTooltip/ratingScore"
+msgstr "Πόντοι Κατάταξης"
+
+msgid "purchase/affirmative"
+msgstr "Θετικό!"
+
+msgid "purchase/cancelButton"
+msgstr "Πίσω"
+
+msgid "purchase/confirmButton"
+msgstr "Αγορά"
+
+msgid "purchase/error/description"
+msgstr "Αδύνατη η πραγματοποίηση αγοράς. Προσπαθήστε ξανά αργότερα."
+
+msgid "purchase/error/title"
+msgstr "Σφάλμα"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)sΔεν έχετε κάποιο κατάλληλο όχημα στην κατοχή σας για τη συγκεκριμένη τεχνοτροπία"
+
+msgid "purchase/price"
+msgstr "Τιμή αγοράς:"
+
+msgid "purchase/success/heading"
+msgstr "Ευχαριστούμε για την αγορά σας!"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)sΤα αντικείμενο που αγοράσατε θα προστεθεί στον λογαριασμό που έχετε στο παιχνίδι προσεχώς."
+
+msgid "purchase/success/style3d"
+msgstr "3D Τεχνοτροπία %(name)s για το %(vehicleName)s"
+
+msgid "purchase/title/style3d"
+msgstr "Αγορά της 3D Τεχνοτροπίας %(name)s?"
+
+msgid "purchase/title/vehicle"
+msgstr "Αγορά του %(name)s?"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "Λάβετε μέρος σε {eeede9_Open}%(maxBattlesCount)s μάχη{eeede9_Close} αυτού του είδους για να καθοριστεί η κατάταξή σας."
+msgstr[1] "Λάβετε μέρος σε {eeede9_Open}%(maxBattlesCount)s μάχες{eeede9_Close} αυτού του είδους για να καθοριστεί η κατάταξή σας."
+msgstr[2] "Λάβετε μέρος σε {eeede9_Open}%(maxBattlesCount)s μάχες{eeede9_Close} αυτού του είδους για να καθοριστεί η κατάταξή σας."
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "Για να ολοκληρωθούν τα Προκριματικά, λάβετε μέρος σε %(maxBattlesCount)s μάχη και περιμένετε να καθοριστεί η κατάταξή σας. Οι επιδόσεις στις μάχες των Προκριματικών καθορίζουν τον τελικό βαθμό που θα σας απονεμηθεί.\nΗ λιποταξία στα Προκριματικά θα έχει πολύ χειρότερα αποτελέσματα από τη μεγαλύτερη ήττα."
+msgstr[1] "Για να ολοκληρωθούν τα Προκριματικά, λάβετε μέρος σε %(maxBattlesCount)s μάχες και περιμένετε να καθοριστεί η κατάταξή σας. Οι επιδόσεις στις μάχες των Προκριματικών καθορίζουν τον τελικό βαθμό που θα σας απονεμηθεί.\nΗ λιποταξία στα Προκριματικά θα έχει πολύ χειρότερα αποτελέσματα από τη μεγαλύτερη ήττα."
+msgstr[2] "Για να ολοκληρωθούν τα Προκριματικά, λάβετε μέρος σε %(maxBattlesCount)s μάχες και περιμένετε να καθοριστεί η κατάταξή σας. Οι επιδόσεις στις μάχες των Προκριματικών καθορίζουν τον τελικό βαθμό που θα σας απονεμηθεί.\nΗ λιποταξία στα Προκριματικά θα έχει πολύ χειρότερα αποτελέσματα από τη μεγαλύτερη ήττα."
+
+msgid "qualification/conditionTooltip/header"
+msgstr "Κανόνες Προκριματικών"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "Συμμετοχές σε μάχες"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s Αναμονή για τα αποτελέσματα των Προκριματικών ώστε να καθοριστεί η κατάταξή σας"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "Μπορεί να χρειαστούν έως και 5 λεπτά για να καθοριστεί η κατάταξή σας με βάση τα αποτελέσματα των Προκριματικών. Στη συνέχεια, θα σας απονεμηθεί ένας βαθμός και μπορείτε να συνεχίσετε τις μάχες Επέλασης."
+
+msgid "qualification/rewardsButton"
+msgstr "Έπαθλα"
+
+msgid "qualification/rewardsDescription"
+msgstr "Μετά την ολοκλήρωση των Προκριματικών, θα σας απονεμηθούν τα έπαθλα όλων των βαθμών που κερδίσατε."
+
+msgid "quotesWrapper"
+msgstr "%(name)s"
+
+msgid "rank/achieved"
+msgstr "Επετεύχθη"
+
+msgid "rank/current"
+msgstr "Τρέχων"
+
+msgid "rank/fifth"
+msgstr "Πρωταθλητής"
+
+msgid "rank/first"
+msgstr "Σιδερένιος"
+
+msgid "rank/fourth"
+msgstr "Χρυσός"
+
+msgid "rank/qualification"
+msgstr "Προκριματικά"
+
+msgid "rank/second"
+msgstr "Χάλκινος"
+
+msgid "rank/sixth"
+msgstr "Θρύλος"
+
+msgid "rank/text"
+msgstr "Βαθμός: %(rank)s"
+
+msgid "rank/third"
+msgstr "Αργυρός"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "Βαθμός παίκτη"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "Βαθμός μέλους ουλαμού"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "Οι Ουλαμοί συγκροτούνται από παίκτες παρόμοιας δυναμικότητας."
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "Περιορισμοί βαθμών για Ουλαμούς %(count)s-μελών"
+
+msgid "rankInactivityTooltip/description"
+msgstr "Εάν δεν λαμβάνετε μέρος σε μάχες αυτού του είδους, θα χάνετε Πόντους Κατάταξης."
+
+msgid "rankInactivityTooltip/heading"
+msgstr "Αδράνεια"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "Ημέρες πριν την υποβάθμιση: %(count)s"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "Ημερήσια κατάταξη"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "Διαφορά Πόντων Κατάταξης: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "Η διαφορά των Πόντων Κατάταξης μεταξύ της επιλεγμένης ημέρας και της προηγούμενης."
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "Ημερήσιο ρεκόρ: %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "Ημερήσιο ρεκόρ κατάταξης στην επιλεγμένη ημέρα."
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "ημέρα %(day)s"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "Ρεκόρ κατάταξης περιόδου κατά την %(dayOfRecord)s"
+
+msgid "rankInfo/current/fifth"
+msgstr "Ο βαθμός του Πρωταθλητή απονέμεται σε όσους κέρδισαν τουλάχιστον {eeede9e6_Open}%(fromScore){eeede9e6_Close} Πόντους Κατάταξης."
+
+msgid "rankInfo/current/sixth"
+msgstr "Ο βαθμός του Θρύλου απονέμεται σε όσους είναι στους {eeede9e6_Open}%(topPercentage)% κορυφαίους παίκτες{eeede9e6_Close} του Πίνακα Κατάταξης"
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "Για να σας απονεμηθεί ο βαθμός του Θρύλου, πρέπει να καταλάβετε μία θέση ανάμεσα στο {eeede9e6_Open}%(topPercentage)% των κορυφαίων παικτών{eeede9e6_Close} του Πίνακα Κατάταξης με βάση τους κερδισμένους Πόντους Κατάταξης."
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "Για να κρατήσετε τον βαθμό του Θρύλου, πρέπει να παραμείνετε στο {eeede9e6_Open}%(topPercentage)% των κορυφαίων παικτών{eeede9e6_Close} του Πίνακα Κατάταξης με βάση τους κερδισμένους Πόντους Κατάταξης."
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "Για τον βαθμό του Θρύλου, πρέπει να καταλάβετε μία θέση ανάμεσα στο {eeede9e6_Open}%(topPercentage)% των κορυφαίων παικτών{eeede9e6_Close} με βάση τους κερδισμένους Πόντους Κατάταξης. Ελάχιστοι κερδισμένοι Πόντοι Κατάταξης για τον βαθμό&nbsp;του&nbsp;Θρύλου: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "Για τον βαθμό του Θρύλου, πρέπει να παραμείνετε στο {eeede9e6_Open}%(topPercentage)% των κορυφαίων παικτών{eeede9e6_Close} με βάση τους Πόντους Κατάταξης. Ελάχιστοι Πόντοι Κατάταξης για τον βαθμό&nbsp;του&nbsp;Θρύλου: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankUpper/fifth"
+msgstr "ΠΡΩΤΑΘΛΗΤΗΣ"
+
+msgid "rankUpper/first"
+msgstr "ΣΙΔΕΡΕΝΙΟΣ"
+
+msgid "rankUpper/fourth"
+msgstr "ΧΡΥΣΟΣ"
+
+msgid "rankUpper/second"
+msgstr "ΧΑΛΚΙΝΟΣ"
+
+msgid "rankUpper/sixth"
+msgstr "ΘΡΥΛΟΣ"
+
+msgid "rankUpper/text"
+msgstr "ΒΑΘΜΟΣ: %(rank)s"
+
+msgid "rankUpper/third"
+msgstr "ΑΡΓΥΡΟΣ"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "Μπορείτε να επιλέξετε 1 τεμάχιο βελτιωμένου εξοπλισμού ως έπαθλο:\n\n• Εξάτμιση Μηδενικού Θορύβου\n• Πρωτοποριακή Στόχευση\n• Σύστημα Εξαερισμού\n• Σύστημα Σταθεροποίησης\n• Καινοτόμο Σύστημα Γέμισης\n• Ανθεκτικό Σύστημα Σκόπευσης\n• Πειραματικά Οπτικά\n• Βελτιωμένη Διαμόρφωση\n• Βελτιωμένος Συμπιεστής\n• Αυξημένη Αντιβληματική Προστασία\n• Αναβαθμισμένη Περιστροφή\n• Σύστημα Τηλεσκοπικής Διόπτευσης\n• Δίχτυ Τακτικής Κάλυψης"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "Μπορείτε να επιλέξετε Πειραματικό Εξοπλισμό από την ακόλουθη λίστα:\n\n• Σετ Ελέγχου Πυρών T3\n• Σετ Βελτιωμένης Αντοχής T3\n• Σετ Βελτιωμένης Ευκινησίας T3\n• Σετ Βελτιωμένης Ευστοχίας Τ3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "Καμουφλάζ %(name)s"
+
+msgid "rewards/preview"
+msgstr "Προεπισκόπηση"
+
+msgid "rewards/status/achieved"
+msgstr "Το έπαθλο απονεμήθηκε"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}Για οχήματα Βαθμίδας %(vehicleLevel)s{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}Για την τεχνοτροπία %(progressionStyleName)s{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "Βαθμίδα %(vehicleLevel)s"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "Λάβατε επίσης:"
+
+msgid "rewardsScreen/button"
+msgstr "Θετικό!"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "Έπαθλα"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "Επιλογή Επάθλου"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "Αγορά"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "ΜΑΧΕΣ ΕΠΕΛΑΣΗΣ. ΤΑ ΠΡΟΚΡΙΜΑΤΙΚΑ ΟΛΟΚΛΗΡΩΘΗΚΑΝ"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "ΜΑΧΕΣ ΕΠΕΛΑΣΗΣ. ΠΕΡΙΟΔΟΣ ΤΟΥ ΚΥΑΝΟΥ ΔΡΑΚΟΥ"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "ΜΑΧΕΣ ΕΠΕΛΑΣΗΣ: ΠΕΡΙΟΔΟΣ ΤΟΥ ΒΥΣΣΙΝΗ ΔΡΑΚΟΥ"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "ΜΑΧΕΣ ΕΠΕΛΑΣΗΣ. ΠΕΡΙΟΔΟΣ ΤΟΥ ΠΡΑΣΙΝΟΥ ΔΡΑΚΟΥ"
+
+msgid "rewardsScreen/description/year"
+msgstr "Μάχες Επέλασης: Η Χρονιά Του Δράκου"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "Που είναι το Ashbringer μου?"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "Κανένας βαθμός"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "Αφότου φτάσετε σε αυτόν τον βαθμό, μπορείτε να χάσετε Πόντους Κατάταξης εάν σταματήσετε να λαμβάνετε μέρος σε μάχες Επέλασης."
+
+msgid "rewardsScreen/notice/title"
+msgstr "Αδράνεια"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "Συνολικά Onslaught\nColors"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "Επιλογή Εξοπλισμού"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "Επιλογή επάθλων"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "Νέες εκπτώσεις διαθέσιμες στον Εφοδιασμό των Μαχών Επέλασης!"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "Νέα αντικείμενα διαθέσιμα στον Εφοδιασμό των Μαχών Επέλασης!"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "Μέχρι την έναρξη της επόμενης Περιόδου, θα έχετε πρόσβαση σε αντικείμενα που μπορείτε να αγοράσετε με έκπτωση, ανάλογα με τον υψηλότερο βαθμό στον οποίο προαχθήκατε."
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "Μέχρι την έναρξη της επόμενης Περιόδου, θα έχετε πρόσβαση σε αντικείμενα που μπορείτε να αγοράσετε με έκπτωση, ανάλογα με τον υψηλότερο βαθμό στον οποίο προαχθήκατε."
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}Βαθμός %(rank)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "Με βάση τα αποτελέσματα των Προκριματικών, σας απονεμήθηκαν τα έπαθλα των ακόλουθων βαθμών: {ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr ", "
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "Κερδίσατε έπαθλα για την προαγωγή σας στον βαθμό: {ffe4c0_Open}%(rank)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "Έπαθλο για την ολοκλήρωση {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} εβδομαδιαίας αποστολής"
+msgstr[1] "Έπαθλο για την ολοκλήρωση {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} εβδομαδιαίων αποστολών"
+msgstr[2] "Έπαθλο για την ολοκλήρωση {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} εβδομαδιαίων αποστολών"
+
+msgid "rewardsScreen/title/division"
+msgstr "ΦΤΑΣΑΤΕ ΣΤΗΝ ΚΑΤΗΓΟΡΙΑ %(division)s"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "ΣΑΣ ΑΠΟΝΕΜΗΘΗΚΕ Ο ΒΑΘΜΟΣ {ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "ΕΠΑΘΛΑ ΤΩΝ ΒΑΘΜΩΝ ΠΟΥ ΚΑΤΑΛΑΒΑΤΕ"
+
+msgid "rewardsScreen/title/rank"
+msgstr "ΣΑΣ ΑΠΟΝΕΜΗΘΗΚΕ Ο ΒΑΘΜΟΣ {ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "ΤΟ ΕΠΑΘΛΟ ΓΙΑ ΤΗΝ ΠΡΟΑΓΩΓΗ ΣΑΣ"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "ΤΟ ΕΠΑΘΛΟ ΑΠΟΝΕΜΗΘΗΚΕ"
+msgstr[1] "ΠΑΡΑΛΑΒΗ ΕΠΑΘΛΩΝ"
+msgstr[2] "ΠΑΡΑΛΑΒΗ ΕΠΑΘΛΩΝ"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "ΕΠΑΘΛΑ ΕΒΔΟΜΑΔΙΑΙΑΣ ΑΠΟΣΤΟΛΗΣ"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "ΕΤΗΣΙΑ ΕΠΑΘΛΑ"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "Μαζί με:"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "ΕΠΕΛΑΣΗ"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "ΕΠΙΛΕΞΤΕ ΕΠΑΘΛΟ"
+msgstr[1] "ΕΠΙΛΕΞΤΕ ΕΠΑΘΛΑ"
+msgstr[2] "ΕΠΙΛΕΞΤΕ ΕΠΑΘΛΑ"
+
+msgid "scoreTooltip/body"
+msgstr "Οι κερδισμένοι Πόντοι Κατάταξης θα καθορίσουν την Κατηγορία στην οποία θα ενταχθείτε στις μάχες Επέλασης. Νικήστε στις μάχες για να είστε ο καλύτερος!"
+
+msgid "scoreTooltip/header"
+msgstr "Πόντοι Κατάταξης"
+
+msgid "season/daysLeft"
+msgstr "Λήξη σε %(totalDays)s d"
+
+msgid "season/hoursLeft"
+msgstr "Λήξη σε %(hours)s h"
+
+msgid "season/minutesLeft"
+msgstr "Λήξη σε %(minutes)s min"
+
+msgid "season/over"
+msgstr "Η Περίοδος %(seasonName)s έληξε"
+
+msgid "season/range"
+msgstr "%(startDate)s–%(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "Λήξη σε %(seconds)s sec"
+
+msgid "seasonName/first"
+msgstr "Περίοδος του Κυανού Δράκου"
+
+msgid "seasonName/second"
+msgstr "Περίοδος του Βυσσινή Δράκου"
+
+msgid "seasonName/third"
+msgstr "Περίοδος του Πράσινου Δράκου"
+
+msgid "seasonPointTooltip/header"
+msgstr "Onslaught Colors"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "Αποκτήθηκε"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "Δεν αποκτήθηκε"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "Μπορείτε να διεκδικήσετε Onslaught Colors"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "Όλα τα εναπομείναντα Onslaught Colors θα μετατρέπονται σε bonds με αναλογία: {bond_Open}1 Onslaught Color{bond_Close} προς {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "Στη λήξη της κάθε Περιόδου, θα λάβετε τα ανάλογα Onslaught Colors για τον μέγιστο βαθμό στον οποίο προαχθήκατε."
+
+msgid "seasonPointTooltip/text/year"
+msgstr "Με κάθε 3 Onslaught Colors που κερδίζετε, βελτιώνετε το ετήσιο έπαθλο που θα λάβετε."
+
+msgid "seasonStatistics/button/fifth"
+msgstr "Που είναι το τρόπαιό μου?"
+
+msgid "seasonStatistics/button/first"
+msgstr "Καλό Είναι Και Αυτό"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "Λατρεμένο Μου!"
+
+msgid "seasonStatistics/button/second"
+msgstr "Θετικόν!"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "Θρυλικό!"
+
+msgid "seasonStatistics/button/third"
+msgstr "I'll Be Back"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "Κατάταξη τελικής περιόδου"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "Θέση στον Πίνακα Κατάταξης: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "ΜΑΧΕΣ ΕΠΕΛΑΣΗΣ. %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "Λάβατε %(points)s Onslaught Colors"
+msgstr[1] "Λάβατε %(points)s Onslaught Colors"
+msgstr[2] "Λάβατε %(points)s Onslaught Colors"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "ΠΕΡΙΟΔΟΣ I: ΚΥΑΝΟΣ ΔΡΑΚΟΣ"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "ΠΕΡΙΟΔΟΣ II: ΒΥΣΣΙΝΗ ΔΡΑΚΟΣ"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "ΠΕΡΙΟΔΟΣ III: ΠΡΑΣΙΝΟΣ ΔΡΑΚΟΣ"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "Νίκες: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "Συμμετοχές σε\nμάχες"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "Μέσος όρος: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "Ρεκόρ\nφθοράς"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "Αναλογία καταστροφών: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "Περισσότερες καταστροφές οχημάτων σε μία μάχη"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "Μέσος όρος: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "Ρεκόρ\nΠόντων Αίγλης"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "ΣΤΑΤΙΣΤΙΚΑ ΠΕΡΙΟΔΟΥ"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "Σε Μεγάλο Ουλαμό: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "Περισσότερες νίκες στη σειρά (Ανεξάρτητος/Με Ουλαμό)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "Μάχες"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "—"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "Κανένα Όχημα"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "ΠΡΩΤΑΡΧΙΚΑ ΟΧΗΜΑΤΑ"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "Νίκες"
+
+msgid "seasonStatistics/title"
+msgstr "ΣΤΑΤΙΣΤΙΚΑ ΠΕΡΙΟΔΟΥ %(name)s"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "Λήξη περιόδου σε:"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "—"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s–%(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "Πρόγραμμα"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "Σήμερα"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "Αύριο"
+
+msgid "selectorTooltip/desc"
+msgstr "Ανταγωνιστικές Μάχες 7v7 Βαθμίδας X"
+
+msgid "selectorTooltip/title"
+msgstr "Επέλαση"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Μάθετε τις πιο πρόσφατες ειδήσεις από το portal του παιχνιδιού και μείνετε ενήμεροι για την έναρξη της νέας Περιόδου."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Οι συγκεκριμένες μάχες είναι προσωρινά μη διαθέσιμες λόγω τεχνικών προβλημάτων."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Οι μάχες αυτές θα είναι διαθέσιμες στις %(time)s"
+
+msgid "shortSeasonName/first"
+msgstr "Κυανός Δράκος"
+
+msgid "shortSeasonName/second"
+msgstr "Βυσσινή Δράκος"
+
+msgid "shortSeasonName/third"
+msgstr "Πράσινος Δράκος"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "Το τομέας αυτός περιέχει πληροφορίες για τους καλύτερους παίκτες της τρέχουσας Περιόδου των μαχών Επέλασης."
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Στον τομέα αυτόν θα βρείτε πληροφορίες για τα Προκριματικά, τους βαθμούς, την Κατηγορία και τους Πόντους Κατάταξης που θα κερδίσετε μετά την ολοκλήρωσή τους."
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "Ο τομέας αυτός περιέχει πληροφορίες για τα έπαθλα των ανώτερων βαθμών των μαχών Επέλασης."
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "Στον τομέα αυτόν θα βρείτε πληροφορίες σχετικά με τα διαθέσιμα αντικείμενα του Εφοδιασμού των Μαχών Επέλασης"
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "Ο τομέας αυτός περιέχει πληροφορίες σχετικά με τις εβδομαδιαίες αποστολές των μαχών Επέλασης."
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "Ο τομέας αυτός περιέχει πληροφορίες για τα Ετήσια Έπαθλα που μπορείτε να αποκτήσετε με βάση τα κερδισμένα Onslaught Colors."
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "Στον τομέα αυτόν θα βρείτε πληροφορίες για τα επιτεύγματά σας σε κάθε Περίοδο της τρέχουσας χρονιάς των μαχών Επέλασης."
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "Πίνακας Κατάταξης"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Σύστημα Κατάταξης"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "Έπαθλα Θέσεων"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "Εφοδιασμός Μαχών Επέλασης"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "Εβδομαδιαίες Αποστολές"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "Ετήσια Έπαθλα"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "Ετήσια Στατιστικά"
+
+msgid "sixthRankTooltip/description"
+msgstr "Ο βαθμός του {eeede9e6_Open}Θρύλου{eeede9e6_Close} απονέμεται σε όσους κατέλαβαν μία θέση ανάμεσα στο {eeede9e6_Open}%(topPercentage)% των κορυφαίων παικτών{eeede9e6_Close} του Πίνακα Κατάταξης με βάση τους κερδισμένους Πόντους Κατάταξης."
+
+msgid "style3dTooltip/954"
+msgstr "Ασημένια Αγκάθια"
+
+msgid "style3dTooltip/955"
+msgstr "Χρυσά Νύχια"
+
+msgid "style3dTooltip/956"
+msgstr "Τα Φτερά Του Πρωταθλητή"
+
+msgid "style3dTooltip/957"
+msgstr "Μυθικό Πλάσμα"
+
+msgid "style3dTooltip/description"
+msgstr "Δυνατό σαν λιοντάρι, τρομερό σαν δράκος και επικίνδυνο σαν σκορπιός, το πλάσμα αυτό είναι η ενσάρκωση της απόλυτης δύναμης, από την αρχαιότητα."
+
+msgid "style3dTooltip/howToReceive"
+msgstr "Πως Να Τις Κερδίσετε"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "Απονέμεται για τουλάχιστον 9 κερδισμένα Onslaught Colors μέσα στη «Χρονιά Της Σφίγγας» των μαχών Επέλασης."
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "Απονέμεται για τουλάχιστον 12 κερδισμένα Onslaught Colors μέσα στη «Χρονιά Της Σφίγγας» των μαχών Επέλασης. Αντικαθιστά την προηγούμενη τεχνοτροπία."
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "Απονέμεται για τουλάχιστον 15 κερδισμένα Onslaught Colors μέσα στη «Χρονιά Της Σφίγγας» των μαχών Επέλασης. Αντικαθιστά την προηγούμενη τεχνοτροπία."
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "Απονέμεται για τουλάχιστον 18 κερδισμένα Onslaught Colors μέσα στη «Χρονιά Της Σφίγγας» των μαχών Επέλασης. Αντικαθιστά την προηγούμενη τεχνοτροπία."
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "Κατάλληλη για Οχήματα"
+
+msgid "system_messages/periodicReward/body"
+msgstr "Σας έχει απονεμηθεί το ημερήσιο έπαθλο για τη διατήρηση του βαθμού: %(rank)s.\nΚερδισμένα έπαθλα: %(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "Ημερήσιο Έπαθλο"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Εκεχειρία. Οι μάχες Επέλασης είναι προσωρινά μη διαθέσιμες."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Εκεχειρία"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Λήξη Εκεχειρίας. Οι μάχες Επέλασης είναι και πάλι διαθέσιμες."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Εκεχειρία"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "Συγχαρητήρια! Φτάσατε στον βαθμό %(maxRank)s.\nΣας απονεμήθηκαν τα έπαθλα των ακόλουθων βαθμών: %(ranks)s:\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "Τα Προκριματικά Ολοκληρώθηκαν"
+
+msgid "system_messages/regularReward/body"
+msgstr "Ημερομηνία: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "Απόδειξη"
+
+msgid "system_messages/shop/offer/button"
+msgstr "Εφοδιασμός"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "Νέες εκπτώσεις διαθέσιμες στον Εφοδιασμό των Μαχών Επέλασης!"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "Αύξηση εκπτώσεων"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "Νέα αντικείμενα τώρα διαθέσιμα στον Εφοδιασμό των Μαχών Επέλασης!"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "Νέα αντικείμενα διαθέσιμα"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "Σφάλμα πραγματοποίησης πληρωμής. Προσπαθήστε ξανά αργότερα."
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "Ημερομηνία: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "Έπαθλο για την ολοκλήρωση εβδομαδιαίων αποστολών"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "Ημερομηνία: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "Έπαθλο Εβδομαδιαίας Αποστολής"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Σχετικά Με Τις Μάχες Επέλασης"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "Ενημέρωση Περιόδου"
+
+msgid "tournament/LBFinals"
+msgstr "LB-ΤΕΛΙΚΟΙ"
+
+msgid "tournament/LBRound1"
+msgstr "LB-ΓΥΡΟΣ 1"
+
+msgid "tournament/LBRound2"
+msgstr "LB-ΓΥΡΟΣ 2"
+
+msgid "tournament/LBSemifinals"
+msgstr "LB-ΗΜΙΤΕΛΙΚΟΙ"
+
+msgid "tournament/UBFinals"
+msgstr "UB-ΤΕΛΙΚΟΙ"
+
+msgid "tournament/UBSemifinals"
+msgstr "UB-ΗΜΙΤΕΛΙΚΟΙ"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "Πόντοι Κατάταξης δεν κερδίζονται ούτε χάνονται σε Τουρνουά."
+
+msgid "tournament/bestOf"
+msgstr "BEST OF %(number)s"
+
+msgid "tournament/cny"
+msgstr "%(amount)s CNY"
+
+msgid "tournament/cnySign"
+msgstr "¥%(amount)s"
+
+msgid "tournament/comeBack"
+msgstr "Δοκιμάστε ξανά αργότερα"
+
+msgid "tournament/comingSoon"
+msgstr "ΠΡΟΣΕΧΩΣ %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "Ο ΧΡΟΝΟΣ ΤΩΝ ΑΝΑΜΕΤΡΗΣΕΩΝ ΠΟΙΚΙΛΛΕΙ"
+
+msgid "tournament/completed"
+msgstr "ΟΛΟΚΛΗΡΩΘΗΚΕ"
+
+msgid "tournament/douyin"
+msgstr "Παρακολουθήστε μέσω Douyin"
+
+msgid "tournament/drops/huya"
+msgstr "Παρακολουθήστε μέσω Huya και κερδίστε αποκλειστικά\nHuya Drops!"
+
+msgid "tournament/drops/twitch"
+msgstr "Παρακολουθήστε μέσω Twitch και κερδίστε αποκλειστικά\nTwitch Drops!"
+
+msgid "tournament/dropsShort/huya"
+msgstr "Και κερδίστε αποκλειστικά Huya Drops!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "Και κερδίστε αποκλειστικά Twitch Drops!"
+
+msgid "tournament/error"
+msgstr "ΣΦΑΛΜΑ ΣΤΗ ΦΟΡΤΩΣΗ ΔΕΔΟΜΕΝΩΝ"
+
+msgid "tournament/eur"
+msgstr "%(amount)s EUR"
+
+msgid "tournament/euroSign"
+msgstr "€%(amount)s"
+
+msgid "tournament/finalResult"
+msgstr "ΝΙΚΗΤΗΣ"
+
+msgid "tournament/fundDistribution"
+msgstr "ΔΙΑΝΟΜΗ ΕΠΑΘΛΩΝ"
+
+msgid "tournament/grandFinals"
+msgstr "ΜΕΓΑΛΟΣ ΤΕΛΙΚΟΣ"
+
+msgid "tournament/huya"
+msgstr "Παρακολουθήστε μέσω Huya"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "Τα έπαθλα της διοργάνωσης καθορίζονται από την αγορά των πακέτων προσφοράς. Τελευταία ενημέρωση στις: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "ΔΕΝ ΥΠΑΡΧΕΙ ΠΡΟΓΡΑΜΜΑΤΙΣΜΕΝΗ ΑΝΑΜΕΤΡΗΣΗ"
+
+msgid "tournament/ols/roundRobin"
+msgstr "ΦΑΣΗ %(phase)s ΓΥΡΟΣ %(round)s"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s - %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "ΔΙΑΘΕΣΙΜΑ ΕΠΑΘΛΑ %(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "ΚΑΙ Η ΠΙΘΑΝΟΤΗΤΑ ΝΑ ΚΕΡΔΙΣΟΥΝ ΠΑΝΤΟΤΙΝΗ ΔΟΞΑ"
+
+msgid "tournament/refresh"
+msgstr "Ανανέωση"
+
+msgid "tournament/refreshing"
+msgstr "Ανανέωση..."
+
+msgid "tournament/roundOf"
+msgstr "ΓΥΡΟΣ ΑΠΟ ΤΟΥΣ %(number)s"
+
+msgid "tournament/separator"
+msgstr "ή"
+
+msgid "tournament/tab/overview"
+msgstr "ΠΡΟΕΠΙΣΚΟΠΗΣΗ"
+
+msgid "tournament/tab/schedule"
+msgstr "ΠΡΟΓΡΑΜΜΑ"
+
+msgid "tournament/teamPlaceholder"
+msgstr "TBD"
+
+msgid "tournament/toShop"
+msgstr "Εφοδιασμός"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "Ανταλλαγή"
+
+msgid "tournament/tokenStore/ols"
+msgstr "OLS TOKENS"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "Διαθεσιμότητα σε:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "Σχετικά με το τουρνουά"
+
+msgid "tournament/twitch"
+msgstr "Παρακολουθήστε μέσω Twitch"
+
+msgid "tournament/viewFull"
+msgstr "Προβολή Όλων"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "Υποστηρίξτε το τουρνουά OLS αναβαθμίζοντας τα έπαθλα του τουρνουά με κάθε αγορά κάποιου πακέτου προσφοράς!"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "Δείξτε την στήριξή σας στα esports αποκτώντας αποκλειστικά στοιχεία προσαρμογής και μοναδικά τανκς!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "ΑΝΑΒΑΘΜΙΣΤΕ ΤΑ ΕΠΑΘΛΑ"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "ΠΑΚΕΤΑ WCI"
+
+msgid "tournament/vsBestOf"
+msgstr "VS\nBEST OF %(number)s"
+
+msgid "tournament/wci/roundRobin"
+msgstr "ΓΥΡΟΣ ROBIN"
+
+msgid "tournament/winner"
+msgstr "Νικητής"
+
+msgid "tournament/youtube"
+msgstr "Παρακολουθήστε μέσω Youtube"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "Οι καλύτερες ομάδες της Ευρώπης συγκρούονται για τον τίτλο του πρωταθλητή στο τουρνουά Onslaught Legends Series! Παρακολουθήστε συναρπαστικές μάχες 7v7, κερδίστε Twitch Drops και υποστηρίξτε την αγαπημένη σας ομάδα αγοράζοντας αποκλειστικά στοιχεία προσαρμογής και αναβαθμίζοντας τα έπαθλα της περιόδου."
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "Η επική διοργάνωση World of Tanks Championship International διεξάγεται στο Suzhou της Κίνας, κατά τη διάρκεια της οποίας οι καλύτερες ομάδες του κόσμου αναμετρώνται σε μάχες που διεξάγονται με τους κανόνες των μαχών Επέλασης και διεκδικούν τον τίτλο του παγκόσμιου πρωταθλητή. Παρακολουθήστε ζωντανά τους θρύλους του παιχνιδιού!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "OLS Περίοδος 6"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI'25"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "Τα live streams θα είναι διαθέσιμα για %(timer)s"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "Περισσότερες αναμετρήσεις σε %(timer)s"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "Δεν μπορείτε να κερδίσετε πόντους στην εκπαίδευση των μαχών Επέλασης."
+
+msgid "unit/message/modeOffline"
+msgstr "Αδύνατη η συμμετοχή σε μάχη: Σφάλμα βάσης δεδομένων."
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "Υπέρβαση ορίου διαφοράς βαθμών"
+
+msgid "voiceChat/active"
+msgstr "Αποχώρηση από τη φωνητική συνομιλία"
+
+msgid "voiceChat/inactive"
+msgstr "Συμμετοχή στη φωνητική συνομιλία"
+
+msgid "waitingSpinner/message"
+msgstr "Φόρτωση περιεχομένου..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "Οι Αποστολές Επέλασης Ολοκληρώθηκαν"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "Μπράβο! Ολοκληρώσατε όλες τις εβδομαδιαίες αποστολές.Μην ξεχάσετε να διεκδικήσετε το έπαθλό σας. Τα λέμε στην επόμενη περίοδο!"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "Θα κερδίσετε πρόσθετα έπαθλα από την ολοκλήρωση {eeede9e5_Open}%(questsList)s{eeede9e5_Close} και {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close} αποστολών"
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "Εβδομαδιαία Αποστολή Επέλασης"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "Ολοκληρώθηκαν: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s νέα αποστολή σε:"
+msgstr[1] "%(value)s νέες αποστολές σε:"
+msgstr[2] "%(value)s νέες αποστολές σε:"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "Έπαθλο:"
+msgstr[1] "Έπαθλα:"
+msgstr[2] "Έπαθλα:"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)s ΝΕΑ ΑΠΟΣΤΟΛΗ ΣΕ %(countdown)s"
+msgstr[1] "%(value)s ΝΕΕΣ ΑΠΟΣΤΟΛΕΣ ΣΕ %(countdown)s"
+msgstr[2] "%(value)s ΝΕΕΣ ΑΠΟΣΤΟΛΕΣ ΣΕ %(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "ΝΕΕΣ ΑΠΟΣΤΟΛΕΣ ΣΤΗΝ ΕΠΟΜΕΝΗ ΠΕΡΙΟΔΟ!"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "Ολοκληρωμένες αποστολές: %(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "Θα σας ανατίθεται %(value)s νέα αποστολή εβδομαδιαίως. Η ολοκλήρωση κάθε αποστολής προσμετράται για το έπαθλο!"
+msgstr[1] "Θα σας ανατίθεται %(value)s νέες αποστολές εβδομαδιαίως. Η ολοκλήρωση κάθε αποστολής προσμετράται για το έπαθλο!"
+msgstr[2] "Θα σας ανατίθεται %(value)s νέες αποστολές εβδομαδιαίως. Η ολοκλήρωση κάθε αποστολής προσμετράται για το έπαθλο!"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "Σε Εξέλιξη"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "Ολοκληρώθηκε"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "Μη διαθέσιμη"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "Μη διαθέσιμη: Το συγκεκριμένο είδος μάχης είναι ανενεργό."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "Ανακαλύψτε και αγοράστε ένα όχημα της Βαθμίδας X."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "Ολοκληρώστε την προηγούμενη αποστολή για να ξεκλειδώσετε αυτήν."
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "Αποστολή Μη Διαθέσιμη"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "Διεκδικήστε το έπαθλο!"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "Ολοκληρώθηκαν: %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "Αποστολή: %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s νέα αποστολή σε:"
+msgstr[1] "%(value)s νέες αποστολές σε:"
+msgstr[2] "%(value)s νέες αποστολές σε:"
+
+msgid "whatsNewButtonLabel"
+msgstr "ΕΝΗΜΕΡΩΣΗ ΠΕΡΙΟΔΟΥ"
+
+msgid "whatsNewView/banner/description"
+msgstr "Η περίοδος αυτή είναι η τελευταία ευκαιρία για να διεκδικήσετε τα πολύτιμα έπαθλα της διοργάνωσης, τα οποία περιλαμβάνουν το αποκλειστικό βαρύ άρμα Ashbringer της Βαθμίδας X μαζί με όλες τις μοναδικές τεχνοτροπίες 3D που έχετε κερδίσει γι αυτό και το ατρόμητο πλήρωμά του που έχει την προκαθορισμένη ικανότητα «Αδέρφια στη Μάχη», Βελτιωμένο και Πειραματικό Εξοπλισμό της επιλογής σας, μία προοδευτική τεχνοτροπία 2D, κλπ. Μην χάσετε την ευκαιρία — μπείτε στη μάχη!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "Εκμεταλλευτείτε το τέλος της Χρονιάς Της Δράκου!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "ΠΕΡΙΟΔΟΣ ΤΟΥ ΠΡΑΣΙΝΟΥ ΔΡΑΚΟΥ"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "ΜΑΧΕΣ ΕΠΕΛΑΣΗΣ. ΤΙ ΝΕΟ ΥΠΑΡΧΕΙ"
+
+msgid "whatsNewView/button/ok"
+msgstr "Θετικόν!"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "Η βελτιωμένη οθόνη αποτελεσμάτων μετά τη μάχη, με τη νέα σχεδίαση της Έκδοσης 2.0, θα σας παρέχει πλέον επιπλέον πληροφορίες σχετικές με το είδος της μάχης."
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "Αναλυτικά Αποτελέσματα Μάχης"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "Μην ανησυχείτε αν το αγαπημένο σας όχημα αποκλείστηκε. Τα μισθωμένα οχήματα συνοδεύονται πλέον από ετοιμοπόλεμο πλήρωμα, εξοπλισμό, πυρομαχικά και αναλώσιμα."
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "Ετοιμοπόλεμα Μισθωμένα Οχήματα %(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "Κάθε ομάδα μπορεί να αποκλείσει πλήρως ένα όχημα από τη μάχη. Συντονίστε τις ψήφους σας με τους συμπαίκτες σας για να αποκλείσετε το πιο επικίνδυνο όχημα για σας ή για να προετοιμάσετε μια απρόβλεπτη σύνθεση για τους αντιπάλους."
+
+msgid "whatsNewView/intro/heading"
+msgstr "Αποκλεισμοί Οχημάτων %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "Χάρτες"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "Νέα Οχήματα Για Τις Μάχες Επέλασης"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "Οχήματα Μίσθωσης"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "Το καινούριο Αμερικανικό μέσο άρμα Ares 90 της Βαθμίδας X είναι πλέον διαθέσιμο για τις μάχες αυτές με νέα Ικανότητα Ρόλου."
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "Αλλαγή Ικανότητας Ρόλου %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "Το 114 SP2 είναι πλέον διαθέσιμο για αγορά στον βαθμό του Αργυρού από τον αντίστοιχο τομέα του Εφοδιασμού των Μαχών Επέλασης!"
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "Ενημέρωση Εφοδιασμού %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "ΕΞΑΙΡΟΥΝΤΑΙ"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "ΥΠΟ ΑΝΑΚΑΤΑΣΚΕΥΗ"
+
+msgid "whatsNewView/tag/attention"
+msgstr "Προσοχή"
+
+msgid "whatsNewView/tag/changed"
+msgstr "Αλλαγές"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "Πειραματικός"
+
+msgid "whatsNewView/tag/new"
+msgstr "Νέα"
+
+msgid "whatsNewView/tag/returned"
+msgstr "Επέστρεψαν"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "Ανανεώθηκαν"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "Ενημέρωση Περιόδου"
+
+msgid "whatsNewView/watchVideo"
+msgstr "Προβολή Video"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "Ποσοστό νικών (ημέρας): %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "Ήττες: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "Ισοπαλίες: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "Ποσοστό νικών (περιόδου): %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "Η αναλογία των συνολικών νικών προς τις συνολικές μάχες.\nΜάχες βάσει αποτελεσμάτων:"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "Νίκες: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "Τα έπαθλα απονέμονται στο τέλος της 3ης περιόδου."
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "Τα έπαθλα θα απονεμηθούν λίαν συντόμως. Παραμείνετε σε αναμονή."
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "Παραλάβατε το Ετήσιο Έπαθλο. Τα λέμε του χρόνου!"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "Μπορείτε να επιλέξετε κάποιο στοιχείο εξοπλισμού"
+
+msgid "yearlyRewards/claim"
+msgstr "Παραλαβή"
+
+msgid "yearlyRewards/claimReward"
+msgstr "Διεκδίκηση Επάθλου"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "Στο τέλος της Περιόδου, σας απονεμήθηκε 1%(seasonPointIcon)s για κάθε βαθμό στον οποίο προαχθήκατε."
+
+msgid "yearlyRewards/description/current"
+msgstr "Στο τέλος της Περιόδου, θα σας απονεμηθεί 1%(seasonPointIcon)s για κάθε βαθμό στον οποίο θα έχετε προαχθεί."
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\nΜε μοναδικές τεχνοτροπίες 3D"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "ΣΤΑ ΕΤΗΣΙΑ ΕΠΑΘΛΑ"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "Προεπισκόπηση τεχνοτροπίας 2D"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "Προεπισκόπηση τεχνοτροπίας 3D"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "Βαθμός: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "Τρέχον βαθμός: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "4 Μοναδικά Μέλη Πληρώματος"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "Το έπαθλο απονεμήθηκε"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "Εγγυημένο έπαθλο"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "Κερδίστε συνολικά %(count)s Colors για να διεκδικήσετε τα έπαθλα φάσης"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "Πιθανό έπαθλο"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "Θα λάβετε εγγυημένα αυτό το έπαθλο στο τέλος της χρονιάς."
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "Κερδίστε τα απαιτούμενα Onslaught Colors για να λάβετε το έπαθλό σας στο τέλος της χρονιάς."
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "Θα κερδίσετε το συγκεκριμένο έπαθλο στο τέλος της χρονιάς εάν διατηρήσετε τον τρέχοντα βαθμό σας ή τον βελτιώσετε πριν το τέλος της Περιόδου."
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "Ενεργή φάση"
+
+msgid "yearlyStatistics/battles"
+msgstr "Συνολικές Μάχες"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "Υπολογισμός στατιστικών περιόδου..."
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)sΣτατιστικά Περιόδου"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "Κανένας βαθμός"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "Βαθμός: %(rank)s"
+
+msgid "yearlyStatistics/rating"
+msgstr "Πόντοι Κατάταξης"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "Φθινόπωρο 2025"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "Χειμώνας 2026"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "Άνοιξη 2026"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s–%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "ΠΕΡΙΟΔΟΣ I: ΚΥΑΝΟΣ ΔΡΑΚΟΣ"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "ΠΕΡΙΟΔΟΣ II: ΒΥΣΣΙΝΗ ΔΡΑΚΟΣ"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "ΠΕΡΙΟΔΟΣ III: ΠΡΑΣΙΝΟΣ ΔΡΑΚΟΣ"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "Τρέχουσα"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "Τελικά"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "Μάχες (Μεγάλος Ουλαμός)"
+
+msgid "yearlyStatistics/wins"
+msgstr "Ποσοστό Νίκης"

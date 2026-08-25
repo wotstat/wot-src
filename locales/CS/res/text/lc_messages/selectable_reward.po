@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+
+msgid "error/button"
+msgstr "Potvrzuji!"
+
+msgid "error/description"
+msgstr "Informace je dočasně nedostupná. Omlouváme se za nepříjemnosti. Zkuste to prosím později."
+
+msgid "error/title"
+msgstr "Výběr odměn nelze otevřít"
+
+msgid "footer/closeBtn/label"
+msgstr "Vyberte si později"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "Vyberte si odměnu z odpovídajících kategorií."
+msgstr[1] "Vyberte si odměny z odpovídajících kategorií."
+msgstr[2] "Vyberte si odměny z odpovídajících kategorií."
+
+msgid "footer/okBtn/label"
+msgstr "Vyzvednout"
+
+msgid "footer/rewardsSelected"
+msgstr "Vybrané odměny:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "Vyberte si odměnu z odpovídající kategorie."
+msgstr[1] "Vyberte si odměny z odpovídající kategorie."
+msgstr[2] "Vyberte si odměny z odpovídající kategorie."
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "Limit dosažen"
+
+msgid "reward/state_received"
+msgstr "Již získáno"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "Bylo dosaženo limitu pro položky vybrané v této kategorii. Abyste přidali další položku, můžete výběr jedné z nich zrušit."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "Limit dosažen"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "Směrnice\npro vybavení"
+
+msgid "tabs/items/battle_booster"
+msgstr "Směrnice vybavení"
+
+msgid "tabs/items/blueprint"
+msgstr "Fragmenty plánů"
+
+msgid "tabs/items/brochure"
+msgstr "Výcviková brožura"
+
+msgid "tabs/items/crewbook"
+msgstr "Výcvikový manuál"
+
+msgid "tabs/items/deluxe"
+msgstr "Vylepšené vybavení"
+
+msgid "tabs/items/expequipments"
+msgstr "Experimentální\nvybavení"
+
+msgid "tabs/items/guide"
+msgstr "Průvodce výcvikem"
+
+msgid "tabs/items/modernized_device"
+msgstr "Experimentální vybavení"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "Experimentální vybavení Ú1"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "Experimentální vybavení Ú2"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "Experimentální vybavení Ú3"
+
+msgid "tabs/items/new_device"
+msgstr "Standardní vybavení"
+
+msgid "tabs/items/trophy"
+msgstr "Trofejní vybavení"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "K obdržení vybraných odměn klikněte na tlačítko „Vyzvednout“."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "Vybrané odměny: %(white_open)s%(count)s%(white_close)s"

@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "Eventet er tilgjengelig i %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — Spillmodus. Klikk for å utforske"
+
+msgid "bannerTooltip/description"
+msgstr "En spesiell PvE modus som setter deg opp mot bølger med fiendtlige styrker. Velg favorittkjøretøyet ditt, bekjemp echo tanks og stå i mot angrepet. Eksklusive belønninger og mer venter deg!"
+
+msgid "bannerTooltip/header"
+msgstr "Last Stand: Terra Nord"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Ytelsen på din datamaskin er ikke god nok for denne modusen. Det kan hende du vil oppleve feil på grafikk og kjøretøybevegelser. Det er også mulig at spillklienten vil krasje."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Denne modusen krever høy ytelse fra datamaskinen. Du vil oppleve problemer med kartvisning, grafikk og kjøretøybevegelser. I tilfelle utilstrekkelig ytelse, prøv lavere grafikkinnstillinger."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Lav ytelse"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Mulig redusert ytelse"
+
+msgid "battlePass/playGame"
+msgstr "Tjen poeng i Last Stand med fremgang i eventet (kjøretøy på nivå 8 påkrevet)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Dere er allerede venner."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Avventer bekreftelse på venneforespørsel."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Fjern spiller fra din svarteliste."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Legg til i vennelista."
+
+msgid "battleResult/interaction/menu"
+msgstr "Klikk for å åpne interaksjonsmenyen med denne spilleren."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Legg til i tropp."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Spiller allerede i troppen."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Invitasjon allerede sendt."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Kun troppskommandør kan invitere spillere til å bli med i en tropp."
+
+msgid "booster/activated"
+msgstr "Aktivert"
+
+msgid "booster/howItWorks"
+msgstr "Hvordan det virker"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Nedkjøling: %(cooldownSeconds)s s."
+
+msgid "consumables/params/usageCost"
+msgstr "Mirium pris: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "Gjenværende tid til å fullføre daglig oppdrag"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "Gjenværende tid til neste daglige oppdrag"
+
+msgid "dailyQuests/completed"
+msgstr "Fullført"
+
+msgid "dailyQuests/completedAll"
+msgstr "Du har fullført alle de daglige oppdragene for dette eventet."
+
+msgid "dailyQuests/completedDescr"
+msgstr "Du har fullført dette daglige oppdraget. Et nytt blir tilgjengelig i morgen."
+
+msgid "dailyQuests/rewards"
+msgstr "Belønninger:"
+
+msgid "dailyQuests/status"
+msgstr "Nytt daglig oppdrag om %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "Eventet er tilgjengelig i %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Velg et tilgjengelig kjøretøy som skal brukes i kampen."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Ikke tilgjengelig"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Kamper i den valgte vanskelighetsgraden/modusen er midlertidig utilgjengelig av tekniske årsaker."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Ikke tilgjengelig"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Vent til troppen er tilbake fra den forrige kampen for å gå til en ny kamp."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Ikke tilgjengelig"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Inkompatibelt vanskelighetsgradsnivå for troppen."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Ikke tilgjengelig"
+
+msgid "points/accrued"
+msgstr "Mottatt"
+
+msgid "points/battles"
+msgstr "• Kjemp i eventkamper"
+
+msgid "points/body"
+msgstr "Data brukes i fremgangen i Last Stand til å skaffe verdifulle ressurser, inkludert en betydelig belønning. Det kan tjenes ved å kjempe i eventkamper, fullførelse av daglige oppdrag eller ved å kjøpe \"{{bundle_name}}\"."
+
+msgid "points/bottom"
+msgstr "Eventet avsluttes: (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• Fullfør nye daglige oppdrag hver dag"
+
+msgid "points/effective"
+msgstr "• Effektivitet i kamp:"
+
+msgid "points/gold"
+msgstr "• Kjøp \"{{bundle_name}}\" i butikken"
+
+msgid "points/header"
+msgstr "Data"
+
+msgid "points/howToEarn"
+msgstr "Hvordan tjene"
+
+msgid "points/missionDaily"
+msgstr "• Daglig oppdrag fullført:"
+
+msgid "points/obelisk"
+msgstr "• Obelisk bekjempet:"
+
+msgid "points/vehicleDaily"
+msgstr "• Daglig kjøretøybonus mottatt:"
+
+msgid "rewardPath/info/first"
+msgstr "Du kan tjene mer data ved å fullføre daglige oppdrag som oppdateres hver dag så lenge eventet pågår."
+
+msgid "rewardPath/info/header"
+msgstr "Ytterligere data"
+
+msgid "rewardPath/info/second"
+msgstr "En spesiell eventpakke, tilgjengelig i butikken, inneholder også data som vil booste din fremgang."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "Kjøretøybonus:"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "Andre belønninger:"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}Kjøretøybonus{EDCB9E_End} — {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "Alle data og belønninger mottatt"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "Data mottatt {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "Samle data i kamp og ha fremgang i Last Stand. Hvert trinn belønner deg med verdifulle enheter og et kjøretøybonus som vil hjelpe deg med å slå mer formidable fiender."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "Siste trinn"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "Nåværende trinn"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "Eventet er tilgjengelig i {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "Fremgang"
+
+msgid "shopWidget/body"
+msgstr "Klikk for å åpne en spesialseksjon i butikken i spillet med eksklusive eventenheter."
+
+msgid "shopWidget/header"
+msgstr "Eventpakker"
+
+msgid "teamList/actions/body"
+msgstr "Snarveier for opprettelse av en tropp og legge til/fjerne venner."
+
+msgid "teamList/actions/header"
+msgstr "Raske handlinger"
+
+msgid "teamList/damage/body"
+msgstr "Sorter etter forårsaket skade."
+
+msgid "teamList/damage/header"
+msgstr "Forårsaket skade"
+
+msgid "teamList/keys/body"
+msgstr "Sorter etter tjente data. Verdien som vises teller ikke med ytterligere data mottatt for fullførelse av daglige oppdrag eller fra daglige kjøretøybonuser."
+
+msgid "teamList/keys/header"
+msgstr "Data"
+
+msgid "teamList/kills/body"
+msgstr "Sortér etter antall bekjempede fiendtlige kjøretøy."
+
+msgid "teamList/kills/header"
+msgstr "Fiendtlige kjøretøy bekjempet"
+
+msgid "teamList/name/header"
+msgstr "Spillernavn"
+
+msgid "teamList/place/body"
+msgstr "Sorter etter posisjon på laget."
+
+msgid "teamList/place/header"
+msgstr "Posisjon på laget"
+
+msgid "teamList/squad/header"
+msgstr "En tropp er en taktisk enhet for spillere som da kan samarbeide i kamper."
+
+msgid "teamList/vehicle/body"
+msgstr "Sorter etter type kjøretøy og navn."
+
+msgid "teamList/vehicle/header"
+msgstr "Kjøretøy"
+
+msgid "teamList/warned/body"
+msgstr "Denne spilleren har fått straff for inaktivitet/desertering og har ikke fått noen belønninger for denne kampen."
+
+msgid "teamList/warned/header"
+msgstr "Advarsel"
+
+msgid "teamList/warned/self/body"
+msgstr "Du har fått straff for inaktivitet/desertering og har ikke fått noen belønninger for denne kampen."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Lav besetningseffektivitet"
+
+msgid "vehicle/rentState"
+msgstr "Låst"
+
+msgid "vehicleDaily/header"
+msgstr "Daglig kjøretøybonus"

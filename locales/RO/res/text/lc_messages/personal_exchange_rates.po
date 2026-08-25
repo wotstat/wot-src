@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Rată limitată"
+msgstr[1] "Rată limitată %(index)s"
+msgstr[2] "Rată limitată %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "S-a depășit cel puțin o limită. O parte din plată va fi efectuată la rata următoare."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Rata de schimb de bază"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "Următoarea rată aplicabilă"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Numărul de rate limitate active: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Cantitatea totală cu rată limitată: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "După schimb:"
+
+msgid "common/cancel"
+msgstr "Anulează"
+
+msgid "common/combinedDiscount"
+msgstr "Reducere combinată"
+
+msgid "common/exchange"
+msgstr "Conversie"
+
+msgid "common/exchangeRate"
+msgstr "Rata de schimb"
+
+msgid "common/limitExceeded"
+msgstr "Limită depășită. Conversia va fi efectuată cu reducere combinată."
+
+msgid "common/limitOverExceeded"
+msgstr "Limită depășită: Reducerea combinată va fi resetată."
+
+msgid "common/limitRestrictions"
+msgstr "AFLĂ MAI MULTE"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Rata de schimb de bază: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Rata de schimb generală: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "%(gold)s aur schimbat cu succes. Credite obținute: %(res)s."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Rata de schimb personală: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Rata de schimb personală: %(rateFrom)s = %(rateTo)s. Limită depășită"
+
+msgid "exchangeXP/information"
+msgstr "%(res)s EXP convertită cu succes în EXP liberă. Aur cheltuit: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "EXP disponibilă:"
+
+msgid "experienceExchange/paid"
+msgstr "Cheltuită"
+
+msgid "experienceExchange/received"
+msgstr "Obținută"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Sortare după generaţia vehiculelor"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Sortare după nivelul Modificărilor de teren"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Sortare după numele vehiculelor"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Sortare după ţară"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Sortare după tipul vehiculelor"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Sortare după vehiculele selectate"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Sortare după EXP obținută"
+
+msgid "goldExchange/paid"
+msgstr "Din"
+
+msgid "goldExchange/received"
+msgstr "Către"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s aur = %(resourceRate)s credite"
+
+msgid "notification/discountDescription/message"
+msgstr "Rata de schimb personală"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "Spre schimb"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Nouă rată de schimb disponibilă!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Rata de schimb de bază"
+
+msgid "tooltip/common/generalRate"
+msgstr "Rata de schimb generală"
+
+msgid "tooltip/common/personalRate"
+msgstr "Rata de schimb personală"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Rata de schimb favorabilă"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Rata de schimb temporară"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "Cantitatea poate fi determinată doar după cumpărarea de aur."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Cantitatea de aur după schimb"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s aur = %(resourceRate)s EXP liberă"

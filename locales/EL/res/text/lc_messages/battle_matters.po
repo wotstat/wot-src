@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Μηχανολογικό Σχέδιο"
+
+msgid "animations/crew_close"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "animations/shop"
+msgstr "Αγορά"
+
+msgid "battleMattersTab"
+msgstr "Ακαδημία Αρμάτων"
+
+msgid "battleResults/descr"
+msgstr "Ακαδημία Αρμάτων: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Αποστολές Ακαδημίας Αρμάτων"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Πρόοδος σε αυτήν τη μάχη"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Άκυρο"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Επικύρωση"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Θα λάβετε το {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} μαζί με πλήρωμα και μία θέση στο Γκαράζ."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Ανταλλαγή του Academy Token για το %(vehicleName)s?"
+
+msgid "entryPoint/hint"
+msgstr "ΜΙΑ ΣΕΙΡΑ\nΕΚΠΑΙΔΕΥΤΙΚΩΝ ΑΠΟΣΤΟΛΩΝ"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Ολοκληρωμένες αποστολές: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Ακαδημία Αρμάτων"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Έπαθλο ολοκλήρωσης:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Οι αποστολές είναι προσωρινά μη διαθέσιμες για τεχνικούς λόγους. Η πρόοδό σας στις ολοκληρωμένες αποστολές θα αποθηκευθεί."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Όλες οι αποστολές ολοκληρώθηκαν"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Οι αποστολές είναι προσωρινά μη διαθέσιμες"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Προϋποθέσεις:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Ανταλλάξτε ένα token με οποιοδήποτε όχημα της Βαθμίδας VI από κάποιον Κλάδο Τεχνολογίας."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "ΠΙΣΩ"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "ΣΤΙΣ ΑΠΟΣΤΟΛΕΣ ΤΗς ΑΚΑΔΗΜΙΑΣ ΑΡΜΑΤΩΝ"
+
+msgid "mainRewardsScreen/done"
+msgstr "Στο Γκαράζ"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Προεπισκόπηση"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Ημέρες μίσθωσης: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Ολοκληρώστε μία σειρά εκπαιδευτικών αποστολών για να κερδίσετε ως βασικό έπαθλο 3 Προνομιακά οχήματα της Βαθμίδας VIII για {cream_Open}14 ημέρες{cream_Close}."
+
+msgid "mainRewardsScreen/title"
+msgstr "ΑΚΑΔΗΜΙΑ ΑΡΜΑΤΩΝ"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Επιλογή"
+
+msgid "mainScreen/infoButton"
+msgstr "ΟΔΗΓΟΣ ΝΕΟΣΥΛΛΕΚΤΩΝ"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "ΟΔΗΓΟΣ"
+
+msgid "mainScreen/list/arrow"
+msgstr "Κλικ για να πάτε στην τρέχουσα αποστολή."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Το κύριο έπαθλο απονεμήθηκε"
+
+msgid "mainScreen/progress"
+msgstr "Ολοκληρωμένες αποστολές: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Πως Να Την Ολοκληρώσετε"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Ολοκληρώστε την προηγούμενη αποστολή"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Μη διαθέσιμη"
+
+msgid "mainScreen/showMainReward"
+msgstr "Προβολή Κύριων Επάθλων"
+
+msgid "mainScreen/target"
+msgstr "Ολοκληρώστε όλες τις αποστολές για να λάβετε με μίσθωση 3 οχήματα της Βαθμίδας VIII."
+
+msgid "mainScreen/title"
+msgstr "ΑΚΑΔΗΜΙΑ ΑΡΜΑΤΩΝ"
+
+msgid "pausedScreen/buttonText"
+msgstr "Στο Γκαράζ"
+
+msgid "pausedScreen/description"
+msgstr "Η Ακαδημία Αρμάτων είναι προσωρινά μη διαθέσιμη εξαιτίας τεχνικών προβλημάτων. Όλη η πρόοδός σας θα αποθηκευτεί. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "pausedScreen/title"
+msgstr "Προσωρινή Μη Διαθεσιμότητα"
+
+msgid "rewards/additionalTitle"
+msgstr "Λάβατε επίσης:"
+
+msgid "rewards/footer/confirm"
+msgstr "Θετικόν!"
+
+msgid "rewards/footer/more"
+msgstr "Επιπλέον: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Στην Επόμενη Αποστολή"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Προβολή στο Γκαράζ"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Οι προϋποθέσεις της αποστολής εκπληρώθηκαν νωρίτερα"
+
+msgid "rewards/rent"
+msgstr "Ημέρες μίσθωσης: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "ΤΕΛΙΚΗ ΑΠΟΣΤΟΛΗ ΕΞΕΤΕΛΕΣΤΗ"
+
+msgid "rewards/subTitle/regular"
+msgstr "Η ΑΠΟΣΤΟΛΗ %(questNumber)s ΟΛΟΚΛΗΡΩΘΗΚΕ"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "ΠΑΡΑΛΑΒΑΤΕ ΤΟ ΟΧΗΜΑ ΓΙΑ ΤΟ ACADEMY TOKEN"
+
+msgid "rewards/title"
+msgstr "ΑΚΑΔΗΜΙΑ ΑΡΜΑΤΩΝ"
+
+msgid "rewards/token/action"
+msgstr "Επιλογή Οχήματος"
+
+msgid "rewards/token/description"
+msgstr "Αξιοποιήστε ένα token για να παραλάβετε άμεσα οποιοδήποτε όχημα της Βαθμίδας VI."
+
+msgid "rewards/token/title"
+msgstr "Ανταλλάξτε ένα Academy Token για ένα όχημα"
+
+msgid "tokenTooltip/condition"
+msgstr "Τα tokens απονέμονται όταν ολοκληρώνεται επιτυχώς μία σειρά εκπαιδευτικών αποστολών και επιτυγχάνεται η απαιτούμενη πρόοδος στην Ακαδημία Αρμάτων."
+
+msgid "tokenTooltip/description"
+msgstr "Με τα tokens μπορεί να αποκτηθεί οποιοδήποτε όχημα της Βαθμίδας VI από τον Πίνακα Τεχνολογίας. Μαζί με το όχημα θα λάβετε πλήρωμα και μία θέση στο Γκαράζ."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Διαθεσιμότητα token: {cream_open}%(days)s d{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Διαθεσιμότητα token μέχρι τις: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Διαθεσιμότητα token: {cream_open}%(hours)s h{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Διαθεσιμότητα token: {cream_open}%(minutes)s min{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Academy Token"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Θα λάβετε {cream_Open}%(crewIcon)s πλήρωμα{cream_Close} και μία {cream_Open}%(hangarIcon)s Θέση Γκαράζ{cream_Close} {cream_Open}{cream_Close} μαζί με το όχημά σας."
+
+msgid "vehicleSelection/back"
+msgstr "ΠΙΣΩ"
+
+msgid "vehicleSelection/backTo"
+msgstr "ΣΤΙΣ ΑΠΟΣΤΟΛΕΣ ΤΗς ΑΚΑΔΗΜΙΑΣ ΑΡΜΑΤΩΝ"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Σύγκριση"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Διαμορφώστε τον τρόπο προβολής των οχημάτων με βάση τον τύπο και το έθνος τους."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Φίλτρο Παραμέτρων"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Κλικ για επαναφορά του φίλτρου στην προκαθορισμένη τιμή."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Προκαθορισμένα"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Έθνος"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Φίλτρο Παραμέτρων"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Τύπος Οχήματος"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Κανένα αποτέλεσμα. Αλλάξτε τις ρυθμίσεις του φίλτρου ή επαναφέρετε την προκαθορισμένη τιμή."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Επαναφορά Φίλτρου"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Έχετε ήδη ανακαλύψει όλα τα οχήματα της Βαθμίδας VI που μπορείτε να αποκτήσετε για ένα Academy Token."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Κανένα Όχημα Προς Επιλογή"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Αναζήτηση με το όνομα"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "Το όνομα του οχήματος δεν μπορεί να περιέχει περισσότερους από %(maxLength)s χαρακτήρες."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Αναζήτηση Με Το Όνομα"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Προβολή:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Ανταλλάξτε ένα token για να αποκτήσετε οποιοδήποτε όχημα της Βαθμίδας VI από τον Πίνακα Τεχνολογίας.\nΜαζί με το όχημα θα λάβετε πλήρωμα και μία θέση στο Γκαράζ."
+
+msgid "vehicleSelection/title"
+msgstr "Επιλέξτε οποιοδήποτε όχημα της Βαθμίδας VI"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Αντιαρματικό"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "Α/Κ Πυροβόλο"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Βαρύ Άρμα"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Ελαφρύ Άρμα"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Μέσο Άρμα"

@@ -1,0 +1,713 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "PersonalMissionAwardView/award/freeSheet"
+msgstr "Recebeu uma Ordem!"
+
+msgid "PersonalMissionAwardView/bottomTabs/awards/additionalAwards"
+msgstr "Recompensas pela conclusão de todas as missões com honras"
+
+msgid "PersonalMissionAwardView/bottomTabs/awards/mainAwards"
+msgstr "Recompensas Principais"
+
+msgid "PersonalMissionAwardView/subTitle"
+msgstr "Clique no seu nome para selecionar e equipar um crachá."
+
+msgid "PersonalMissionAwardView/title"
+msgstr "Crachás Recebidos por Concluir Operações!"
+
+msgid "PersonalMissionAwardView/title/one"
+msgstr "Crachá Recebido pela Operação \"%(vehicleName)s\"!"
+
+msgid "PersonalMissionAwardView/title/perfect"
+msgstr "Recebeu crachás pela conclusão com honras!"
+
+msgid "PersonalMissionFirstEntryView/acknowledgeBtn"
+msgstr "Afirmativo!"
+
+msgid "PersonalMissionFirstEntryView/detailedDescription/btnBack"
+msgstr "VOLTAR"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintChassis"
+msgstr "Diagramas da Suspensão"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintEngine"
+msgstr "Diagramas do Motor"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintGun"
+msgstr "Diagramas da Arma"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintHull"
+msgstr "Diagramas do Chassis"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintHullAndTurret"
+msgstr "Diagramas do Chassis e da Torre"
+
+msgid "PersonalMissionsPlanRegion/mainAward/chassis"
+msgstr "Suspensão"
+
+msgid "PersonalMissionsPlanRegion/mainAward/engine"
+msgstr "Unidade de potência"
+
+msgid "PersonalMissionsPlanRegion/mainAward/gun"
+msgstr "Arma"
+
+msgid "PersonalMissionsPlanRegion/mainAward/hull"
+msgstr "Chassis"
+
+msgid "PersonalMissionsPlanRegion/mainAward/hullAndTurret"
+msgstr "Chassis e torre"
+
+msgid "PersonalMissionsPlanRegion/mainAward/radio"
+msgstr "Rádio"
+
+msgid "alliance/0/details"
+msgstr "O terreno de preparação para a largada e avanço das forças da União."
+
+msgid "alliance/0/name"
+msgstr "União"
+
+msgid "alliance/1/details"
+msgstr "O terreno de preparação para a largada e avanço das forças do Bloco."
+
+msgid "alliance/1/name"
+msgstr "Bloco"
+
+msgid "alliance/2/details"
+msgstr "O terreno de preparação para a largada e avanço das forças da Aliança."
+
+msgid "alliance/2/name"
+msgstr "Aliança"
+
+msgid "alliance/3/details"
+msgstr "O terreno de preparação para a largada e avanço das forças da Coligação."
+
+msgid "alliance/3/name"
+msgstr "Coligação"
+
+msgid "awardsScreen/acceptBtn/label"
+msgstr "Afirmativo!"
+
+msgid "awardsScreen/closeBtn/label"
+msgstr "FECHAR"
+
+msgid "awardsScreen/description/emailConfirmation"
+msgstr "Para confirmar o seu email"
+
+msgid "awardsScreen/header"
+msgstr "Operação %(missionName)s concluída"
+
+msgid "awardsScreen/header/fullyCompleted"
+msgstr "Operação %(missionName)s concluída com honras"
+
+msgid "awardsScreen/headerExtra"
+msgstr "RECOMPENSAS GANHAS!"
+
+msgid "awardsView/closeBtn/label"
+msgstr "FECHAR"
+
+msgid "awardsView/description"
+msgstr "Recompensa principal pela operação"
+
+msgid "awardsView/mainAwards/title"
+msgstr "Recompensas Principais"
+
+msgid "awardsView/vehicleAward/mainAward"
+msgstr "Recompensa Principal"
+
+msgid "bonus/descr/attempts/card"
+msgstr "conclua a condição secundária para ganhar um aumento de %(value)s no progresso actual."
+
+msgid "bonus/descr/attempts/postBattle"
+msgstr "o progresso em direcção à parte principal da missão aumentou em %(value)s."
+
+msgid "bonus/descr/progress/card"
+msgstr "complete a condição secundária para ganhar um aumento de x%(value)s no progresso para a conclusão da condição primária."
+
+msgid "bonus/descr/progress/postBattle"
+msgstr "o progresso da condição primária nesta batalha foi multiplicado por %(value)s."
+
+msgid "bonus/multiplier/attempts"
+msgstr "Aceleração do progresso:"
+
+msgid "bonus/multiplier/progress"
+msgstr "x%(value)s bónus:"
+
+msgid "chainTooltipData/description/text/alliance0"
+msgstr "As missões de operação só podem ser concluídas em veículos de nações específicas."
+
+msgid "chainTooltipData/description/text/alliance1"
+msgstr "As missões de operação só podem ser concluídas em veículos de nações específicas."
+
+msgid "chainTooltipData/description/text/alliance2"
+msgstr "As missões de operação só podem ser concluídas em veículos de nações específicas."
+
+msgid "chainTooltipData/description/text/alliance3"
+msgstr "As missões de operação só podem ser concluídas em veículos de nações específicas."
+
+msgid "chainTooltipData/description/title"
+msgstr "Descrição:"
+
+msgid "conditions/battlesLeft/bottomLabel"
+msgstr "Batalhas restantes: %(count)s"
+
+msgid "conditions/biathlon/label/add"
+msgstr "Concluir a condição secundária em %(goal)s batalhas em %(limit)s"
+
+msgid "conditions/biathlon/label/main"
+msgstr "Concluir a condição principal em %(goal)s batalhas em %(limit)s"
+
+msgid "conditions/completed/bottomLabel"
+msgstr "Concluída"
+
+msgid "conditions/counter/label/add"
+msgstr "Concluir a condição secundária o número indicado de vezes: %(count)s"
+
+msgid "conditions/counter/label/main"
+msgstr "Concluir a condição principal o número indicado de vezes: %(count)s"
+
+msgid "conditions/currentProgress/bottomLabel"
+msgstr "Concluídas: %(currentProgress)s"
+
+msgid "conditions/failed/bottomLabel"
+msgstr "Falhou"
+
+msgid "conditions/limited/label/add"
+msgstr "Concluir a condição secundária no número indicado de batalhas: %(count)s"
+
+msgid "conditions/limited/label/main"
+msgstr "Concluir a condição principal no número indicado de batalhas: %(count)s"
+
+msgid "conditions/limiter/label"
+msgstr "Restrição!"
+
+msgid "conditions/orGroup"
+msgstr "ou"
+
+msgid "conditions/series/label/add"
+msgstr "Concluir as condições em %(count)s batalhas seguidas"
+
+msgid "conditions/series/label/main"
+msgstr "Concluir as condições em %(count)s batalhas seguidas"
+
+msgid "conditions/unlimited/label/add"
+msgstr "Concluir a condição secundária num qualquer número de batalhas"
+
+msgid "conditions/unlimited/label/main"
+msgstr "Concluir a condição principal num qualquer número de batalhas"
+
+msgid "detailedView/completeBtnLabel"
+msgstr "Concluída por %(count)d %(icon)s"
+
+msgid "detailedView/conditionLabel"
+msgstr "Condição"
+
+msgid "detailedView/conditionsFullylabel"
+msgstr "Por concluir com honras"
+
+msgid "detailedView/conditionslabel"
+msgstr "Condição primária"
+
+msgid "detailedView/discardBtnLabel"
+msgstr "Reiniciar"
+
+msgid "detailedView/infoPanel/header"
+msgstr "Descrições e Dicas"
+
+msgid "detailedView/orCondition"
+msgstr "ou"
+
+msgid "detailedView/recruitBtnLabel"
+msgstr "Reclamar Recompensa"
+
+msgid "detailedView/retryBtnLabel"
+msgstr "Concluir com Honras"
+
+msgid "detailedView/startBtnLabel"
+msgstr "Iniciar"
+
+msgid "detailedView/status/NA"
+msgstr "Indisponível"
+
+msgid "detailedView/status/completed"
+msgstr "Condição primária concluída"
+
+msgid "detailedView/status/fullyCompleted"
+msgstr "Concluída com honras"
+
+msgid "detailedView/status/inProgress"
+msgstr "Activada"
+
+msgid "detailedView/status/returnSheet"
+msgstr "Ordens aplicadas:%(icon)sx1"
+
+msgid "detailedView/status/sheetUsed"
+msgstr "Concluída por%(icon)sx1"
+
+msgid "detailedView/tooltips/additionalConditions/body"
+msgstr "Este é o seu objectivo na batalha que terá de ser cumprido juntamente com a condição primária para concluir a missão com honras e receber a recompensa adicional."
+
+msgid "detailedView/tooltips/additionalConditions/header"
+msgstr "Condição secundária"
+
+msgid "detailedView/tooltips/commonConditions/body"
+msgstr "Este é o seu objectivo na batalha que terá de cumprir para receber a recompensa principal por concluir a missão."
+
+msgid "detailedView/tooltips/commonConditions/header"
+msgstr "Condição primária"
+
+msgid "detailedView/tooltips/discardBtn/body"
+msgstr "Clique para reiniciar todo o actual progresso na missão."
+
+msgid "detailedView/tooltips/discardBtn/header"
+msgstr "Reiniciar progresso"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/body"
+msgstr "Clique para aplicar uma ordem à missão e concluir a condição primária."
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/disabled/body"
+msgstr "Para receber ordens, conclua com honras as últimas missões de cada conjunto dentro de cada operação."
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/disabled/header"
+msgstr "Sem Ordens Suficientes"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/header"
+msgstr "Aplicar Ordem"
+
+msgid "detailedView/tooltips/locked"
+msgstr "A conclusão da condição secundária é contada após concluir a condição primária."
+
+msgid "detailedView/tooltips/recruitBtn/body"
+msgstr "?empty?"
+
+msgid "detailedView/tooltips/recruitBtn/header"
+msgstr "?empty?"
+
+msgid "detailedView/tooltips/retryBtn/body"
+msgstr "Clique para melhorar o resultado concluindo as condições primária e secundária."
+
+msgid "detailedView/tooltips/retryBtn/header"
+msgstr "Concluir com Honras"
+
+msgid "detailedView/tooltips/returnAwardListBtn/body"
+msgstr "Clique para concluir as condições primária e secundária. Se concluir a missão com honras, irá recuperar a sua ordem."
+
+msgid "detailedView/tooltips/returnAwardListBtn/header"
+msgstr "Recuperar Ordem"
+
+msgid "detailedView/tooltips/startBtn/body"
+msgstr "Clique para iniciar a missão. Conclua as condições e reclame a sua recompensa."
+
+msgid "detailedView/tooltips/startBtn/header"
+msgstr "Iniciar"
+
+msgid "fourFreeSheetsObtainedPopup/button"
+msgstr "Proceder"
+
+msgid "fourFreeSheetsObtainedPopup/header"
+msgstr "Veículo Disponível"
+
+msgid "fourFreeSheetsObtainedPopup/pm2/descr"
+msgstr "Submeta 3 ordens para a missão %(questName)s e receba o diagrama desaparecido do veículo."
+
+msgid "fourFreeSheetsObtainedPopup/pm2/pawnedDescr"
+msgstr "Recupere %(pawnedCount)s ordens da missão para submeter 3 ordens para a missão %(questName)s e receba o diagrama desaparecido do veículo."
+
+msgid "fourFreeSheetsObtainedPopup/regular/descr"
+msgstr "Submeta 4 ordens para a missão %(questName)s e receba o componente desaparecido do veículo."
+
+msgid "fourFreeSheetsObtainedPopup/regular/pawnedDescr"
+msgstr "Recupere %(pawnedCount)s ordens da missão, a fim de aplicar 4 ordens para a missão %(questName)s e receber os componentes do veículo em falta."
+
+msgid "freeSheetObtainedPopup/pm2/descrLeft"
+msgstr "Pode utilizar as ordens para concluir qualquer missão num conjunto da campanha Segunda Frente."
+
+msgid "freeSheetObtainedPopup/pm2/descrRight"
+msgstr "Conclua as últimas missões de todos os conjuntos da campanha da Segunda Frente com honras."
+
+msgid "freeSheetObtainedPopup/pm2/title"
+msgstr "Recebeu uma ordem para a campanha Segunda Frente"
+
+msgid "freeSheetObtainedPopup/pm2/titleLeft"
+msgstr "Como Utilizar"
+
+msgid "freeSheetObtainedPopup/pm2/titleRight"
+msgstr "Como Ganhar"
+
+msgid "freeSheetObtainedPopup/regular/descrLeft"
+msgstr "Pode utilizar as ordens para concluir\nqualquer missão num conjunto."
+
+msgid "freeSheetObtainedPopup/regular/descrRight"
+msgstr "Conclua a última missão em todos os conjuntos com honras."
+
+msgid "freeSheetObtainedPopup/regular/title"
+msgstr "Recebeu uma Ordem!"
+
+msgid "freeSheetObtainedPopup/regular/titleLeft"
+msgstr "Como Utilizar"
+
+msgid "freeSheetObtainedPopup/regular/titleRight"
+msgstr "Como Ganhar"
+
+msgid "freeSheetPopover/freeSheetsInfo/descr"
+msgstr "Recebido por concluir a última missão num conjunto."
+
+msgid "freeSheetPopover/freeSheetsInfo/title"
+msgstr "Disponível: %(count)d"
+
+msgid "freeSheetPopover/pawnedSheetsInfo/descr"
+msgstr "Para recuperar uma ordem utilizada, conclua de novo a missão com honras."
+
+msgid "freeSheetPopover/pawnedSheetsInfo/descr/noOne"
+msgstr "Pode utilizar ordens para concluir\nqualquer missão num conjunto."
+
+msgid "freeSheetPopover/pawnedSheetsInfo/title"
+msgstr "Aplicada à Missão: %(count)d"
+
+msgid "freeSheetPopover/title"
+msgstr "Ordens"
+
+msgid "header/backBtn/descrLabel/campaign"
+msgstr "PARA OS MAPAS"
+
+msgid "header/backBtn/descrLabel/hangar"
+msgstr "Activa"
+
+msgid "header/backBtn/descrLabel/operation"
+msgstr "PARA A OPERAÇÃO"
+
+msgid "header/backBtn/label"
+msgstr "VOLTAR"
+
+msgid "navigation/backButton/assembling"
+msgstr "PARA A MONTAGEM"
+
+msgid "navigation/backButton/campaignSelector"
+msgstr "MAPA O MAPA DE OPERAÇÕES"
+
+msgid "navigation/backButton/dashboard"
+msgstr "PARA A OPERAÇÃO"
+
+msgid "navigation/backButton/missions"
+msgstr "PARA AS MISSÕES"
+
+msgid "navigation/backButton/rewards"
+msgstr "PARA AS RECOMPENSAS DE OPERAÇÃO"
+
+msgid "operationInfo/awardsButton/label"
+msgstr "Recompensas da Operação"
+
+msgid "operationInfo/chainVehReq"
+msgstr "Nível %(minLevel)s-%(maxLevel)s %(vehs)s"
+
+msgid "operationInfo/label"
+msgstr "Campanhas"
+
+msgid "operationInfo/operationBtn/postponed/days"
+msgstr "%(days)sd"
+
+msgid "operationInfo/operationBtn/postponed/lessThanDay"
+msgstr "menos de 1 Dia"
+
+msgid "operationInfo/title"
+msgstr "Mapa de Operações"
+
+msgid "operationTitle/label/done"
+msgstr "Ordens: %(icon)s%(count)s/%(total)s  %(infoIcon)s"
+
+msgid "operationTitle/label/excellentDone"
+msgstr "Todas as missões concluídas com honras"
+
+msgid "operationTitle/label/inProgress/pm2"
+msgstr "Pode ser concluída em veículos %(vehData)s"
+
+msgid "operationTitle/label/inProgress/regular"
+msgstr "Pode ser concluída em veículos do conjunto %(vehData)s"
+
+msgid "operationTitle/label/locked"
+msgstr "Indisponível: conclua a operação anterior"
+
+msgid "operationTitle/label/noVehicle/pm2"
+msgstr "Indisponível: sem veículos %(vehData)s adequados"
+
+msgid "operationTitle/label/noVehicle/regular"
+msgstr "Indisponível: sem veículos do conjunto %(vehData)s adequados"
+
+msgid "operationTitle/label/notStarted"
+msgstr "A operação %(currentOperation)s está disponível! %(infoIcon)s"
+
+msgid "operationTitle/label/notStartedNoVehicle"
+msgstr "Indisponível: Missões Pessoais só podem ser concluídas em veículos de nível %(minLevel)s ou superior"
+
+msgid "operationTitle/label/toMaster"
+msgstr "Missões, concluídas com honras: %(count)s/%(total)s  %(infoIcon)s"
+
+msgid "operationTitle/label/unlocked/pm2"
+msgstr "Seleccione uma missão para concluir em veículos %(vehData)s"
+
+msgid "operationTitle/label/unlocked/regular"
+msgstr "Seleccione uma missão para concluir em veículos do conjunto %(vehData)s"
+
+msgid "operationTitle/title"
+msgstr "Operação: %(title)s"
+
+msgid "operationUnlockedWindow/awardText"
+msgstr "Parabéns! Pode agora prosseguir para concluir a operação %(title)s."
+
+msgid "operationUnlockedWindow/descr"
+msgstr "Pressione %(label)s para selecionar uma missão e tentar reclamar uma nova recompensa."
+
+msgid "operationUnlockedWindow/header"
+msgstr "Operação: %(title)s"
+
+msgid "operationUnlockedWindow/nextButton"
+msgstr "Iniciar"
+
+msgid "operationUnlockedWindow/title"
+msgstr "Operação Desbloqueada"
+
+msgid "operations/completed/desc"
+msgstr "Veículo recebido"
+
+msgid "operations/current/desc"
+msgstr "Activada"
+
+msgid "operations/fullyCompleted/desc"
+msgstr "Concluída\ncom honras"
+
+msgid "operations/locked/desc"
+msgstr "Indisponível"
+
+msgid "operations/title1"
+msgstr "StuG IV"
+
+msgid "operations/title10"
+msgstr "Black Rock"
+
+msgid "operations/title2"
+msgstr "T28 HTC"
+
+msgid "operations/title3"
+msgstr "T 55A"
+
+msgid "operations/title4"
+msgstr "Object 260"
+
+msgid "operations/title5"
+msgstr "Excalibur"
+
+msgid "operations/title6"
+msgstr "Chimera"
+
+msgid "operations/title7"
+msgstr "Object 279 (e)"
+
+msgid "operations/title8"
+msgstr "Windhund"
+
+msgid "operations/title9"
+msgstr "Dravec"
+
+msgid "operations/unlocked/desc"
+msgstr "Disponível"
+
+msgid "pages/button/infopage/description"
+msgstr "Sobre as Missões Pessoais"
+
+msgid "pages/button/video/description"
+msgstr "Veja um vídeo de introdução às Missões Pessoais"
+
+msgid "personalMissions/tankgirlsPopover/recruitBtn"
+msgstr "Recruta"
+
+msgid "personalMissions/tankgirlsPopover/title"
+msgstr "Membros da Tripulação Femininos"
+
+msgid "personalMissions/video/title"
+msgstr "Vídeo da Visão Geral da Actualização"
+
+msgid "questAwardScreen/continueBtn/label"
+msgstr "Continuar"
+
+msgid "questAwardScreen/nextQuest/title/questAccept"
+msgstr "A missão seguinte foi aceite automaticamente:"
+
+msgid "questAwardScreen/nextQuest/title/questImprove"
+msgstr "Irá continuar a melhorar os seus resultados para a seguinte missão:"
+
+msgid "questAwardScreen/nextQuestBtn/label"
+msgstr "Próxima missão"
+
+msgid "questAwardScreen/okBtn/label"
+msgstr "Afirmativo!"
+
+msgid "questAwardScreen/operation"
+msgstr "Operação %(operation)s"
+
+msgid "questAwardScreen/quest"
+msgstr "Missão \"%(quest)s\" Concluída!"
+
+msgid "questAwardScreen/recruitBtn/label"
+msgstr "Recrutar"
+
+msgid "questProgressTracking/status/onPause"
+msgstr "Pausado"
+
+msgid "questProgressTracking/trackingStatus"
+msgstr "Ambas as missões estão a ser concluídas neste momento"
+
+msgid "questStatus/tankCondition"
+msgstr "Não disponível para o veículo selecionado"
+
+msgid "sidebar/completed"
+msgstr "Concluída"
+
+msgid "sidebar/fullCompleted"
+msgstr "Com honras"
+
+msgid "sidebar/notSelected"
+msgstr "Nenhum activo"
+
+msgid "sidebar/vehicles/AT-SPG"
+msgstr "Antitanques"
+
+msgid "sidebar/vehicles/SPG"
+msgstr "AAPs"
+
+msgid "sidebar/vehicles/heavyTank"
+msgstr "Tanques Pesados"
+
+msgid "sidebar/vehicles/lightTank"
+msgstr "Tanques Ligeiros"
+
+msgid "sidebar/vehicles/mediumTank"
+msgstr "Tanques Médios"
+
+msgid "statusPanel/freeSheetBtn/label"
+msgstr "Concluída por %(count)d %(icon)s"
+
+msgid "statusPanel/freeSheets"
+msgstr "Disponíveis: %(count)s"
+
+msgid "statusPanel/pawnedSheets"
+msgstr "Aplicada às missões: %(count)s"
+
+msgid "statusPanel/proceedExecution/label"
+msgstr "Ativar"
+
+msgid "statusPanel/resumeCompaing/label"
+msgstr "Continuar Campanha"
+
+msgid "statusPanel/status/allDone"
+msgstr "Todas as missões para %(vehicleClass)s foram concluídas"
+
+msgid "statusPanel/status/allExcellentDone"
+msgstr "Todas as missões para %(vehicleClass)s foram concluídas com honras"
+
+msgid "statusPanel/status/freeSheet"
+msgstr "Uma Ordem Aplicada"
+
+msgid "statusPanel/status/improve"
+msgstr "(Melhoria no resultado)"
+
+msgid "statusPanel/status/locked"
+msgstr "Indisponível: conclua a operação anterior"
+
+msgid "statusPanel/status/pawned"
+msgstr "(A Recuperar %(count)d %(icon)s)"
+
+msgid "statusPanel/status/selectTask"
+msgstr "Selecione uma missão para concluir"
+
+msgid "statusPanel/status/suspended"
+msgstr "A campanha %(campaignName)s está em pausa. %(infoIcon)s"
+
+msgid "tankmoduleTooltipData/alliance/help/body"
+msgstr "Pode ser recebida por cumprir as condições primárias da última missão no conjunto %(vehType)s."
+
+msgid "tankmoduleTooltipData/alliance/info"
+msgstr "O diagrama é necessário para receber o %(vehName)s"
+
+msgid "tankmoduleTooltipData/help/body"
+msgstr "Pode ser recebida por cumprir as condições primárias da última missão no conjunto %(vehType)s."
+
+msgid "tankmoduleTooltipData/help/title"
+msgstr "Como Receber"
+
+msgid "tankmoduleTooltipData/info"
+msgstr "Este componente é necessário para receber o %(vehName)s"
+
+msgid "tankmoduleTooltipData/status/alliance/notObtained"
+msgstr "Diagrama não recebido"
+
+msgid "tankmoduleTooltipData/status/alliance/obtained"
+msgstr "Diagrama recebido"
+
+msgid "tankmoduleTooltipData/status/available"
+msgstr "Disponível por %(count)d %(img)s"
+
+msgid "tankmoduleTooltipData/status/notObtained"
+msgstr "Componente não recebido"
+
+msgid "tankmoduleTooltipData/status/obtained"
+msgstr "Componente recebido"
+
+msgid "tankwomanTooltipData/advantages/brotherhood"
+msgstr "A aptidão Irmãos d'Armas terinada a 100%."
+
+msgid "tankwomanTooltipData/advantages/newPerk"
+msgstr "Mais uma aptidão à sua escolha treinada a 100%."
+
+msgid "tankwomanTooltipData/advantages/title"
+msgstr "Vantagens:"
+
+msgid "tankwomanTooltipData/desc/body"
+msgstr "Pode ser recebido por cumprir as condições primárias da última missão em cada conjunto."
+
+msgid "tankwomanTooltipData/desc/title"
+msgstr "Como receber:"
+
+msgid "tankwomanTooltipData/subTitle"
+msgstr "Um membro da tripulação único"
+
+msgid "tankwomanTooltipData/title"
+msgstr "Membro de Tripulação Feminino"
+
+msgid "taskDetailsView/additionalConditions"
+msgstr "Condição secundária"
+
+msgid "taskDetailsView/btnLabel/returnAwardSheet"
+msgstr "Recuperar Ordem"
+
+msgid "taskDetailsView/btnLabel/returnAwardSheets"
+msgstr "Recuperar Ordem"
+
+msgid "taskDetailsView/mainConditions"
+msgstr "Condição primária"
+
+msgid "useAwardSheetWindow/cancelBtn"
+msgstr "Cancelar"
+
+msgid "useAwardSheetWindow/info"
+msgstr "Conclua a missão com honras para recuperar uma ordem."
+
+msgid "useAwardSheetWindow/locked"
+msgstr "Conclua todas as missões do conjunto para recuperar ordens."
+
+msgid "useAwardSheetWindow/needAmount"
+msgstr "Necessário para a conclusão:"
+
+msgid "useAwardSheetWindow/pm2/noVehicle"
+msgstr "Veículos necessários para recuperar a ordem: %(vehicleClass)s."
+
+msgid "useAwardSheetWindow/regular/noVehicle"
+msgstr "Veículos necessários para recuperar a ordem: %(vehicleClass)s."
+
+msgid "useAwardSheetWindow/sheetsTotal"
+msgstr "Total disponível:"
+
+msgid "useAwardSheetWindow/submitBtn"
+msgstr "Concluída"
+
+msgid "useAwardSheetWindow/title"
+msgstr "Concluir a Condição Primária"

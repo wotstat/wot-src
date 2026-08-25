@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Suferirea de daune întrerupe refacerea de HP.\n\nViteza de refacere a HP-ului și limita maximă de refacere se bazează pe totalul de HP al vehiculului, luând în considerare toți modificatorii aplicați."
+
+msgid "armorPatching/alt/info"
+msgstr "Pentru talentele de grup, nivelul mediu de antrenament al tuturor membrilor de echipaj este calculat. Acesta devine activ când e antrenat la minim 1%și îi crește eficiența cu antrenament suplimentar."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Utilizarea unui set de piese de schimb reface %(hpRecover)s din {yellow_Start}HP-ul{yellow_End} vehiculului în 5 secunde, până la maxim 20% din HP-ul vehiculului per luptă. Permite utilizarea setului de piese de schimb fără daune critice."
+
+msgid "armorPatching/hudDescription"
+msgstr "Punctele de HP sunt refăcute."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Când este antrenat complet pentru toți membrii echipajului, reface %(hpRecover)s din {yellow_Start}HP-ul{yellow_End} vehiculului în 5 secunde după utilizarea unui set de piese de schimb, până la maxim 20% per luptă. Permite utilizarea setului de piese de schimb fără daune critice."
+
+msgid "armorPatching/name"
+msgstr "Repararea blindajului"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Crește camuflajul de bază al vehiculului."
+
+msgid "brotherhood/alt/description"
+msgstr "Bonusul eficienței echipajului îmbunătățește eficiența membrului de echipaj în lupte, precum și eficiența tuturor talentelor, cu excepția bonusului. Acest parametru poate fi crescut prin instalarea de echipament sau consumabile cu efect similar, sau prin utilizarea directivei Evacuare forțată. Talentul Urgență al comandantului, precum și talentul Umăr la Umăr al transmisionistului sau talentul Expert în Comunicații pot crește valoarea acestui parametru."
+
+msgid "brotherhood/alt/info"
+msgstr "Pentru talentele de grup, nivelul mediu de antrenament al tuturor membrilor de echipaj este calculat. Acesta devine activ când e antrenat la minim 1% și îi crește eficiența cu antrenament suplimentar."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "{greenBright_Start}Bonusul de eficiență a echipajului{greenBright_End} pentru întreg echipajul a fost crescut cu %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Atunci când este complet antrenat de toți membrii de echipaj, crește {greenBright_Start}nivelul calificării majore{greenBright_End} al întregului echipaj cu %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Frați de Arme"
+
+msgid "brotherhood/shortDescription"
+msgstr "Crește performanța generală a echipajului."
+
+msgid "camouflage/alt/description"
+msgstr "Acest talent afectează camuflajul vehiculului. Poate fi îmbunătățit mai departe cu directiva Adăpost natural.\n\nÎn plus, camuflajul vehiculului poate fi crescut prin aplicarea unui model de camuflaj sau a unui stil, precum și prin instalarea de echipament cu efect similar."
+
+msgid "camouflage/alt/info"
+msgstr "Pentru talentele de grup, nivelul mediu de antrenament al tuturor membrilor de echipaj este calculat. Acesta devine activ când e antrenat la minim 1% și îi crește eficiența cu antrenament suplimentar."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "Crește {greenBright_Start}camuflajul{greenBright_End} cu %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Când este antrenat complet pentru toți membrii de echipaj, crește {greenBright_Start}camuflajul{greenBright_End} vehiculului cu %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Camuflaj"
+
+msgid "camouflage/shortDescription"
+msgstr "Crește camuflajul de bază al vehiculului."
+
+msgid "commander_coordination/alt/description"
+msgstr "Efectul se activează de fiecare dată când un vehicul inamic este descoperit și nu se adună la descoperirea mai multor vehicule.\n\nViteza de țintire poate fi crescută mai departe prin antrenarea talentului Țintire Rapidă al tunarului sau prin instalarea de echipament cu efect similar."
+
+msgid "commander_coordination/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "{yellow_Start}Viteza de țintire{yellow_End} va fi crescută cu %(vehicleGunAimSpeed)s timp de 15 secunde de la descoperirea de către tine a unui vehicul inamic."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Viteza de țintire este crescută."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Când este antrenat complet, crește {yellow_Start}viteza de țintire{yellow_End} cu %(vehicleGunAimSpeed)s timp de 15 secunde de la descoperirea de către tine a unui vehicul inamic.\t"
+
+msgid "commander_coordination/name"
+msgstr "Coordonare"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Viteza de țintire este crescută."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Raza vizuală poate fi crescută mai departe antrenând talentul Informaţii suplimentare al transmisionistului sau prin instalarea de echipament cu efect similar. Utilizarea directivei Calibrare optică îmbunătățește efectul."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}Raza vizuală{greenBright_End} crește cu %(circularVisionRadius)s&zwnbsp;. {greenBright_Start}Penalizarea aparaturii de observare avariate{greenBright_End} este redusă cu %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Penalizarea aparaturii de observare avariate este redusă."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Când este antrenat complet, crește {greenBright_Start}raza vizuală{greenBright_End} cu %(circularVisionRadius)s&zwnbsp; și reduce {greenBright_Start}penalizarea aparaturii de observare avariate{greenBright_End} cu %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Recunoaștere"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Crește raza vizuală, mai ales când aparatura de observare e avariată."
+
+msgid "commander_emergency/alt/description"
+msgstr "La daunele suferite repetat din partea unui inamic, efectul nu se compune. Bonusul eficienței echipajului îmbunătățește eficiența membrului de echipaj în lupte. Acest parametru poate fi crescut mai departe prin instalarea de echipament sau consumabile cu efect similar, sau prin utilizarea directivei Evacuare forțată. Talentul de grup Frați de arme, precum și talentul Umăr la Umăr și Expert în Comunicații ale transmisionistului pot crește de asemenea acest parametru."
+
+msgid "commander_emergency/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "{yellow_Start}Bonusul de eficiență a echipajului{yellow_End} va fi crescut cu %(crewLevelIncrease)s timp de 15 secunde de la suferirea de daune din partea unui inamic."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Bonusul de eficiență a echipajului este crescut."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Când este antrenat complet, {yellow_Start}bonusul de eficiență a echipajului{yellow_End} va fi crescut cu %(crewLevelIncrease)s timp de 15 secunde de la suferirea de daune din partea unui inamic."
+
+msgid "commander_emergency/name"
+msgstr "Urgență"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Bonusul de eficiență a echipajului este crescut."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "O alertă a focului de artilerie inamic este activată cu o mică întârziere față de momentul focului.\n\nTalentul poate fi îmbunătățit cu directiva Vigilență Crescută."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "O {yellow_Start}alertă a focului de artilerie inamic{yellow_End} și direcția din care a fost tras proiectilul va fi creată cu o întârziere de\n%(artNotificationDelayFactor)s.{greenBright_Start} Efectul negativ al șocului{greenBright_End} scade cu %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Când este antrenat complet, generează o {yellow_Start}alertă legată de focul de artilerie inamic{yellow_End} cu o întârziere de %(artNotificationDelayFactor)s și determină direcția loviturii. Descrește {greenBright_Start}efectul negativ al șocului{greenBright_End} cu %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Detecția sonoră"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Indică un foc al unei artilerii inamice."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Bonusul de eficiență a echipajului îmbunătățește eficiența în luptă a membrului de echipaj.\n\nAcest parametru poate fi crescut suplimentar prin instalarea de echipament sau consumabile cu efect similar sau prin utilizarea directivei Evacuare forțată. Diverse alte talente de echipaj pot crește acest parametru."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "{yellow_Start}Bonusul de eficiență a echipajului{yellow_End} va crește cu %(crewLevelIncrease)satâta timp cât echipa inamică are în luptă cu minim trei vehicule în plus față de echipa proprie&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Bonusul de eficiență a echipajului este crescut (inamicul e majoritar)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Când este antrenat complet, crește {yellow_Start}bonusul de eficiență a echipajului{yellow_End} cu %(crewLevelIncrease)satâta timp cât echipa inamică are în luptă cu minim trei vehicule în plus față de echipa proprie&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Menținerea Liniei"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Crește bonusul de eficiență a echipajului"
+
+msgid "commander_practical/alt/description"
+msgstr "Talentul funcționează cu toate tipurile de consumabile instalate pe vehicul.\n\nEfectul său poate fi crescut mai departe cu ajutorul directivei Pregătire completă."
+
+msgid "commander_practical/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}Timpul de refacere al consumabilelor{greenBright_End} este redus cu %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Când este antrenat complet, descrește {greenBright_Start}numărătoarea inversă a consumabilelor{greenBright_End} cu %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Practică"
+
+msgid "commander_practical/shortDescription"
+msgstr "Descrește numărătoarea inversă a consumabilelor."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Al Șaselea Simț este dezactivat dacă comandantul este rănit. Perioada până la activare poate fi redusă prin talentul Interceptarea Semnalului al transmisionistului."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Este o caracteristică specială a comandantului care nu are nevoie de antrenament și este disponibilă implicit."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Îi permite comandantului să identifice dacă vehiculul a fost descoperit de inamic. Se activează la %(delay)s după descoperirea vehiculului."
+
+msgid "commander_sixthSense/name"
+msgstr "Al şaselea simţ"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Îi permite comandantului să afle dacă vehiculul a fost descoperit de inamic."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Bonusul de eficiență a echipajului îmbunătățește eficiența în luptă a membrului de echipaj.\n\nAcest parametru poate fi crescut suplimentar prin instalarea de echipament sau consumabile cu efect similar sau prin utilizarea directivei Evacuare forțată. Diverse alte talente de echipaj pot crește acest parametru."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "{yellow_Start}Bonusul de eficiență a echipajului{yellow_End} va crește cu %(crewLevelIncrease)s timp de 15&nbsp;s după utilizarea unei truse de prim ajutor. Permite utilizarea unei truse de prim ajutor chiar dacă niciun membru de echipaj nu este rănit&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Bonusul de eficiență a echipajului este crescut (s-a utilizat trusa de prim ajutor)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Când este antrenat complet, {yellow_Start}bonusul de eficiență a echipajului{yellow_End} crește cu %(crewLevelIncrease)s timp de 15 s după utilizarea unei truse de prim ajutor. Permite utilizarea unei truse de prim ajutor chiar dacă niciun membru de echipaj nu este rănit&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Atenție sporită"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Crește bonusul de eficiență a echipajului"
+
+msgid "commander_tutor/alt/description"
+msgstr "Un comandant rănit nu poate înlocui alt membru de echipaj. Bonusul se aplică doar cantității de bază de EXP de echipaj obținută în luptă.\n\nEXP suplimentară de echipaj poate fi primită utilizând cărți de echipaj sau prin conversia de EXP liberă în EXP de echipaj."
+
+msgid "commander_tutor/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Cantitatea de {greenBright_Start}EXP{greenBright_End} obținută este crescută cu %(xpBonusFactorPerLevel)s pentru toți membrii de echipaj. Comandantul poate {greenBright_Start}înlocui membrii de echipaj scoși din uz{greenBright_End} cu eficiență de %(woundedCrewEfficiency)s."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Membrul de echipaj scos din uz este înlocuit de comandant."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Când este antrenat complet, crește cantitatea de {greenBright_Start}EXP{greenBright_End} obținută cu %(xpBonusFactorPerLevel)s pentru toți membrii de echipaj. Comandantul va {greenBright_Start}înlocui membrii de echipaj scoși din uz{greenBright_End} cu eficiență de %(woundedCrewEfficiency)s."
+
+msgid "commander_tutor/name"
+msgstr "Mentor"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Membrul de echipaj scos din uz este înlocuit de comandant."
+
+msgid "commander_universalist/alt/description"
+msgstr "Comandantul poate înlocui doar calificarea majoră a membrului de echipaj rănit. Efectul înlocuirii se diminuează pentru fiecare membru de echipaj rănit."
+
+msgid "commander_universalist/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%. Eficiența sa crește cu antrenament ulterior."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Comandantul poate {greenBright_Start}înlocui membrii de echipaj răniți{greenBright_End} cu eficiență de %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Comandantul îndeplinește rolul membrului de echipaj rănit."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Când este antrenat complet, îi permite comandantului să {greenBright_Start}înlocuiască membrii de echipaj răniți{greenBright_End} cu eficiență de %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/name"
+msgstr "Bun la toate"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Îi permite comandantului să înlocuiască membrii de echipaj răniți."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Reduce penalizarea manevrabilității vehiculului la condusul pe teren moderat-moale. Descrește semnificativ aceste penalizări la condusul pe teren moale, aducându-le în linie cu cele pentru condusul pe teren moderat-moale.\nManevrabilitatea pe teren moderat-moale și moale nu poate fi mai bună decât cea pe teren tare."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}Pierderea de viteză pe teren moderat moale{greenBright_End} este redusă cu %(mediumGroundFactor)s&zwnbsp;, {greenBright_Start}pierderea de viteză pe teren moale{greenBright_End} este redusă la %(softGroundFactor)s din valoarea rezultată pentru teren moderat moale."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Când este antrenat complet, {greenBright_Start}pierderea de viteză pe teren moderat moale{greenBright_End} este redusă cu %(mediumGroundFactor)s&zwnbsp;, {greenBright_Start}pierderea de viteză pe teren moale{greenBright_End} este redusă la %(softGroundFactor)s din valoarea rezultată pentru teren moderat moale."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Şofer tot-teren"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Bonusul de eficiență a echipajului îmbunătățește eficiența în luptă a membrului de echipaj.\n\nAcest parametru poate fi crescut suplimentar prin instalarea de echipament sau consumabile cu efect similar sau prin utilizarea directivei Evacuare forțată. Diverse alte talente de echipaj pot crește acest parametru."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "{yellow_Start}Bonusul de eficiență a echipajului{yellow_End} va crește cu %(crewLevelIncrease)s dacă totalul daunelor blocate depășește cantitatea inițială de puncte de integritate ale vehiculului propriu."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Bonusul de eficiență a echipajului este crescut (suficiente daune au fost blocate)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Când este antrenat complet, {yellow_Start}bonusul de eficiență a echipajului{yellow_End} crește cu %(crewLevelIncrease)s dacă totalul daunelor blocate depășește cantitatea inițială de puncte de integritate ale vehiculului propriu."
+
+msgid "driver_bulletproof/name"
+msgstr "Impenetrabil"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Viteza maximă a vehiculului poate fi crescută mai mult, iar penalizarea motorului avariat poate fi redusă mai mult prin instalarea de echipament cu efect similar."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "Vitezele de {greenBright_Start}înaintare{greenBright_End} și {greenBright_Start}marșarier{greenBright_End} ale vehiculului cresc cu %(vehicleForwardMaxSpeed)s. {greenBright_Start}penalizarea motorului avariat{greenBright_End} este redusă cu %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Penalizarea motorului avariat este redusă."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Când este antrenat complet, vitezele de {greenBright_Start}înaintare{greenBright_End} și {greenBright_Start}marșarier{greenBright_End} ale vehiculului cresc cu %(vehicleForwardMaxSpeed)s. {greenBright_Start}Penalizarea motorului avariat{greenBright_End} este redusă cu %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Inginer"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Penalizarea motorului avariat este redusă."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Talentul e ineficient atunci când două vehicule aliate intră în coliziune.\n\nDaunele prin coliziune suferite de vehiculul tău pot fi reduse mai mult prin instalarea de echipament cu efect similar."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}Daunele prin coliziune asupra vehiculelor inamice{greenBright_End} cresc cu %(damageEnemiesByRamming)s&zwnbsp;. {greenBright_Start}Daunele prin coliziune suferite de vehiculul propriu{greenBright_End} sunt reduse cu %(vehicleRamDamageResistance)s&zwnbsp; și cele suferite de {greenBright_Start}suspensie{greenBright_End} cu %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Când este antrenat complet, {greenBright_Start}daunele prin coliziune asupra vehiculelor inamice{greenBright_End} cresc cu %(damageEnemiesByRamming)s&zwnbsp;. {greenBright_Start}Daunele prin coliziune suferite de vehiculul propriu{greenBright_End} sunt reduse cu %(vehicleRamDamageResistance)s&zwnbsp; și cele suferite de {greenBright_Start}suspensie{greenBright_End} cu %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Impact controlat"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Reduce daunele suferite la coliziune și crește daunele provocate la coliziunea cu un vehicul inamic."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Daunele suferite de la proiectilele HE pot fi reduse suplimentar prin instalarea de echipament cu efect similar."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}Absorbția daunelor proiectilelor HE{greenBright_End} este crescută cu %(vehicleHEShellDamageResistance)s&zwnbsp;. &nbsp;{greenBright_Start}Riscul de incendiu la motor{greenBright_End} este redus cu %(vehicleFireChance)s și cel al {greenBright_Start}daunelor la suspensie{greenBright_End} cu %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Când este antrenat complet, crește {greenBright_Start}absorbția daunelor proiectilelor HE{greenBright_End} cu %(vehicleHEShellDamageResistance)s&zwnbsp;. Reduce {greenBright_Start}riscul de incendiu la motor{greenBright_End} cu %(vehicleFireChance)s și cel al {greenBright_Start}daunelor la suspensie{greenBright_End} cu %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Amplasare corectă"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Nu afectează precizia unui vehicul staționar sau precizia la rotirea carenei.\n\nTalentul poate fi îmbunătățit cu directiva Cutie de viteze complexă. Precizia la focul din mișcare poate fi îmbunătățită mai departe prin instalarea de echipament cu efect similar sau utilizarea directivei Vaselină pentru stabilizator."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "{greenBright_Start}Dispersia tunului{greenBright_End} la focul din mișcare scade cu %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Când este antrenat complet, {greenBright_Start}Dispersia tunului{greenBright_End} la focul din mișcare scade cu %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Deplasare lină"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Crește precizia la focul din mișcare."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Acest talent afectează viteza de reparație e suspensiilor de la starea roșie la cea galbenă când distanța față de un vehicul aliat este mai mică decât 50 m."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "{yellow_Start}Viteza de reparare a suspensiei{yellow_End} va crește cu %(suspensionRepairSpeed)s la distanța de maxim 50 m față de un vehicul aliat."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Viteza de reparație a suspensiei e crescută (aliat în apropiere)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Când este antrenat complet, {yellow_Start}Viteza de reparare a suspensiei{yellow_End} crește cu %(suspensionRepairSpeed)s la distanța de maxim 50 m față de un vehicul aliat."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Asistență de teren"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Rezistența la incendiu a vehiculului poate fi îmbunătățită mai departe prin instalarea de echipament și consumabile cu efect similar. Talentul Pompier va grăbi stingerea incendiului."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%. Eficiența sa crește cu antrenament ulterior."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "Descrește {greenBright_Start}riscul de incendiu la motor{greenBright_End} cu %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Când este antrenat complet, descrește {greenBright_Start}riscul de incendiu la motor{greenBright_End} cu %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Revizie periodică"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Descrește riscul de incendiu la motor."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Viteza de rotație a carenei poate fi crescută mai mult prin instalarea de echipament sau consumabile cu efect similar."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "Crește {greenBright_Start}viteza de rotație a carenei{greenBright_End} cu %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Când este antrenat complet, crește {greenBright_Start}viteza de rotație a carenei{greenBright_End} cu %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Şofer excepţional"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Crește viteza de rotație a carenei."
+
+msgid "fireFighting/alt/description"
+msgstr "Talentul modifică daunele suferite din incendiu și durata acestuia.\n\nDacă doi transmisioniști au acest talent, se aplică valoarea medie a nivelului de antrenament.\n\nTalentul poate fi îmbunătățit cu directiva Pompieri experimentați."
+
+msgid "fireFighting/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}Viteza de stingere a incendiului{greenBright_End} crește cu %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Când este antrenat complet, {greenBright_Start}viteza de stingere a incendiului{greenBright_End} crește cu %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Pompier"
+
+msgid "fireFighting/shortDescription"
+msgstr "Crește capacitatea antiincendiu."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Daunele potențiale și variația de penetrare sunt implicit de ±25% față de valorile de bază. De exemplu, dacă un proiectil poate penetra un blindaj de până la 100 mm și provoacă daune de 100 HP, la lovirea unei ținte, penetrarea actuală a unei lovituri poate varia între 75 și 125mm, iar daunele actuale pot varia între 75 și 125 HP. Reducerea acestui modificator va face rezultatele unei lovituri mai previzibile.\n\nDacă doi tunari au acest talent, se aplică valoarea medie a nivelurilor de antrenament."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Variațiile {greenBright_Start}daunelor potențiale{greenBright_End} și ale {greenBright_Start}penetrării potențiale{greenBright_End} sunt reduse cu {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s.{greenBright_Start}Dispersia tunului{greenBright_End} este redusă cu %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Când este antrenat complet, reduce variațiile {greenBright_Start}daunelor potențiale{greenBright_End} și ale {greenBright_Start}penetrării potențiale{greenBright_End} cu {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. {greenBright_Start}Dispersia tunului{greenBright_End} este redusă cu %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Armurier"
+
+msgid "gunner_focus/alt/description"
+msgstr "Efectul se activează la 3 s după oprirea vehiculului și se resetează la deplasare.\n\nDacă doi tunari au acest talent, se aplică valoarea medie a nivelurilor de antrenament."
+
+msgid "gunner_focus/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "{yellow_Start}Dispersia tunului{yellow_End} unui vehicul staționar va scădea cu %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Dispersia tunului a scăzut."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Când este antrenat complet, descrește {yellow_Start}dispersia tunului{yellow_End} unui vehicul staționar cu %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Concentrare"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Descrește dispersia tunului unui vehicul staționar."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Dispersia tunului și viteza de țintire pot fi îmbunătățite suplimentar prin antrenarea de talente ale echipajului sau montarea de echipament cu efect similar.\n\nDacă doi tunari au acest talent, se aplică valoarea medie a nivelului de antrenament."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "{yellow_Start}Dispersia tunului{yellow_End} va descrește cu %(vehicleGunAimSpeed)s și {yellow_Start}viteza de țintire{yellow_End} va crește cu %(vehicleGunAimSpeed)s dacă niciun vehicul aliat nu se află într-o rază de 300 m."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Dispersia tunului și viteza de țintire sunt îmbunătățite (niciun aliat în apropiere)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Când este antrenat complet, descrește {yellow_Start}dispersia tunului{yellow_End} și crește {yellow_Start}viteza de țintire{yellow_End} cu %(vehicleGunAimSpeed)s dacă niciun aliat nu se află într-o rază de 300 m."
+
+msgid "gunner_loneWolf/name"
+msgstr "Lup singuratic"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Dispersia tunului e redusă. Viteza de țintire e crescută."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "În mod implicit, penetrarea maximă potențială este de +25% față de valoarea de bază. De exemplu, dacă un proiectil penetrează blindajul până la 100 mm, la lovirea unei ținte, valoarea maximă posibilă de penetrare pentru acest singur proiectil poate fi de 125 mm. Creșterea acestui modificator duce la rezultate de penetrare mai eficiente.\n\nDacă doi tunari au acest talent, se aplică valoarea medie a nivelului de antrenament."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "{yellow_Start}Penetrarea potențială maximă{yellow_End} a proiectilelor tale va crește cu %(piercingHEShellsDistributionUpperBound)s atunci când tragi asupra vehiculelor inamice aflate la o distanță de maxim 50 m."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Când este antrenat complet, crește cu %(piercingHEShellsDistributionUpperBound)s {yellow_Start}penetrarea potențială maximă{yellow_End} atunci când tragi asupra vehiculelor inamice aflate la o distanță de maxim 50 m."
+
+msgid "gunner_pointBlast/name"
+msgstr "Corp la corp"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Crește penetrarea potențială maximă a proiectilelor tale"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Dacă doi tunari au acest talent, se aplică valoarea medie a nivelurilor de antrenament.\n\nViteza de țintire poate fi crescută suplimentar prin antrenarea talentului Coordonare al comandantului sau prin instalarea de echipament cu efect similar.\n\nViteza de rotație a turelei poate fi crescută ulterior prin instalarea de echipament sau consumabile cu efect similar."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}Viteza de țintire{greenBright_End} și {greenBright_Start}viteza de rotație a turelei{greenBright_End} cresc cu %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Când este antrenat complet, {greenBright_Start}viteza de țintire{greenBright_End} și {greenBright_Start}viteza de rotație a turelei{greenBright_End} cresc cu %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Țintire rapidă"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Viteza de țintire este crescută."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Identifică modulele avariate critic ale vehiculelor țintite din raza vizuală a tunarului, în modurile de tragere direct și indirect.\nRaza vizuală a comandantului este definită de sectorul care acoperă ±10° (20° în total) din fața tunului, precum și de distanța vizuală maximă.\nDacă doi tunari au acest talent, se aplică valoarea medie a nivelurilor de antrenament.Talentul poate fi îmbunătățit în plus cu directiva Concentrat pe țintă.\nUtilizarea de Echipament radio îmbunătățit va crește timpul până la ieșirea din vizibilitate a inamicului."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "{greenBright_Start}Timpul{greenBright_End} înaintea {greenBright_Start}ieșirii din vizibilitate a unui vehicul{greenBright_End} inamic din raza vizuală a tunarului crește cu %(vehicleEnemySpottingTime)s. Timpul necesar pentru {yellow_Start}identificarea modulelor avariate{yellow_End} descrește cu %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Când este antrenat complet, {greenBright_Start}Timpul{greenBright_End} înaintea {greenBright_Start}ieșirii din vizibilitate a unui vehicul{greenBright_End} inamic din raza vizuală a tunarului crește cu %(vehicleEnemySpottingTime)s. Permite {yellow_Start}identificarea modulelor avariate{yellow_End} cu o întârziere de %(damageMonitoringDelay)s."
+
+msgid "gunner_rancorous/name"
+msgstr "Ţintă memorată"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Crește timpul scurs până la ieșirea din raza de vizibilitate a tunarului a unui vehicul inamic. Permite identificarea modulelor avariate."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Dacă doi tunari au acest talent, se aplică valoarea medie a nivelurilor de antrenament.\n\nTalentul poate fi îmbunătățit cu directiva Mână sigură. Dispersia la rotirea tunului poate fi scăzută mai departe prin instalarea de echipament cu efect similar sau utilizarea de Vaselină pentru stabilizator."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "Descrește {greenBright_Start}dispersia tunului{greenBright_End} la rotirea turelei cu %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Când este antrenat complet, descrește {greenBright_Start}dispersia tunului{greenBright_End} la rotirea turelei cu %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Ţintaş precis"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Descrește dispersia tunului la rotirea turelei."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Efectul funcționează pentru toate tipurile de proiectile, cu excepția vehiculelor cu autotunuri.\n\nDacă doi tunari au acest talent, se aplică valoarea medie a nivelurilor de antrenament."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "{greenBright_Start}Șansa provocării de daune critice{greenBright_End} asupra {greenBright_Start}modulelor vehiculelor{greenBright_End} inamice și de rănire a {greenBright_Start}membrilor de echipaj{greenBright_End} inamici cu toate tipurile de proiectile crește cu %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Când este antrenat complet, {greenBright_Start}șansa provocării de daune critice{greenBright_End} asupra {greenBright_Start}modulelor vehiculelor{greenBright_End} inamice și de rănire a {greenBright_Start}membrilor de echipaj{greenBright_End} inamici cu toate tipurile de proiectile crește cu %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Ţintaş de elită"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Daunele potențiale minime și variația minimă de penetrare sunt implicit de ±25% față de valorile de bază. De exemplu, dacă un proiectil poate penetra un blindaj de până la 100 mm și provoacă daune de 100 HP, la lovirea unei ținte, penetrarea minimă a unei lovituri este de 75 mm, iar daunele minime posibile sunt de 75 HP. Creșterea acestui modificator va face rezultatele unei lovituri mai previzibile.\n\nDacă doi servanți au acest talent, se aplică valoarea medie a nivelurilor de antrenament."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "Crește {greenBright_Start}daunele potențiale minime{greenBright_End} și {greenBright_Start}penetrarea potențială minimă{greenBright_End} cu %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Când este antrenat complet, crește {greenBright_Start}daunele potențiale minime{greenBright_End} și {greenBright_Start}penetrarea potențială minimă{greenBright_End} cu %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Muniție șlefuită"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Crește valorile medii ale daunelor și penetrării."
+
+msgid "loader_desperado/alt/description"
+msgstr "Dacă doi servanți au acest talent, se aplică valoarea medie a nivelurilor de antrenament.\n\nTimpul de încărcare a tunului poate fi redus mai departe antrenând talentul Luptă de aproape al servantului sau prin instalarea de echipament cu efect similar. Utilizarea directivei Compartiment muniție organizat îmbunătățește efectul."
+
+msgid "loader_desperado/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "Accelerează {yellow_Start}încărcarea tunului{yellow_End} cu %(vehicleGunReloadTime)s dacă vehiculul mai are sub 25% din punctele de integritate."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Timpul de încărcare a tunului este redus (durabilitate mică a vehiculului)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Când este antrenat complet, reduce {yellow_Start}timpul de încărcare a tunului{yellow_End} cu %(vehicleGunReloadTime)s dacă vehiculul propriu mai are sub 25% din punctele de integritate."
+
+msgid "loader_desperado/name"
+msgstr "Adrenalină"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Accelerează rata de încărcare a tunului dacă vehiculul mai are sub 25% puncte de integritate."
+
+msgid "loader_intuition/alt/description"
+msgstr "Pentru a activa talentul, tunul, ambele tunuri, respectiv caseta trebuie să fie complet încărcate. Timpul minim necesar pentru schimbarea tipurilor de proiectile pentru tunurile standard este de 1 s; pentru tunurile duble și cele cu casetă, acesta este de 2,5 s.\n\nDacă doi servanți au acest talent, se aplică valoarea medie a nivelurilor de antrenament."
+
+msgid "loader_intuition/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "{greenBright_Start}Timpul de schimbare a tipurilor de proiectile{greenBright_End} într-un tun încărcat este redus cu %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Timpul de schimbare a tipurilor de proiectile într-un tun încărcat este redus.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Când este antrenat complet, reduce {greenBright_Start}timpul de schimbare a tipurilor de proiectile{greenBright_End} într-un tun încărcat cu %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Intuiţie"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Crește semnificativ viteza de schimbare a tipurilor de proiectile dintr-un tun încărcat."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Acest talent reduce timpul de reîncărcare al tunurilor cu casetă și nu afectează alte tipuri de tunuri.\n\nDacă doi tunari au acest talent, se aplică valoarea medie a nivelului de antrenament."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "{greenBright_Start}Timpul de reîncărcare{greenBright_End} al casetei este redus cu %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Când este antrenat complet, descrește cu %(magazineGunReloadSpeed)s {greenBright_Start}timpul de reîncărcare{greenBright_End}."
+
+msgid "loader_magMastery/name"
+msgstr "Stâpânul casetei"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Descrește timpul de reîncărcare al casetelor"
+
+msgid "loader_melee/alt/description"
+msgstr "Dacă doi servanți au acest talent, se aplică valoarea medie a nivelurilor de antrenament.\n\nTimpul de încărcare a tunului poate fi redus mai departe antrenând talentul Adrenalină al servantului sau prin instalarea de echipament cu efect similar. Utilizarea directivei Compartiment muniție organizat îmbunătățește efectul."
+
+msgid "loader_melee/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "{yellow_Start}Timpul de încărcare a tunului{yellow_End} va fi redus cu %(vehicleGunReloadTime)s la distanțe de maxim 50 m față de vehiculul inamic."
+
+msgid "loader_melee/hudDescription"
+msgstr "Timpul de încărcare a tunului este redus (inamicul este aproape).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Când este antrenat complet, {yellow_Start}Timpul de încărcare al tunului{yellow_End} este redus cu %(vehicleGunReloadTime)s la distanțe de maxim 50 m față de vehiculul inamic."
+
+msgid "loader_melee/name"
+msgstr "Luptă de aproape"
+
+msgid "loader_melee/shortDescription"
+msgstr "Accelerează încărcarea tunului în lupta de aproape."
+
+msgid "loader_pedant/alt/description"
+msgstr "Un servant rănit nu afectează eficiența talentului.\n\nDacă doi servanți au acest talent, se aplică valoarea medie a nivelurilor de antrenament.\n\nTalentul poate fi îmbunătățit cu directiva Organizator de obuze. Durabilitatea compartimentului muniției poate fi îmbunătățită mai departe prin instalarea de echipament cu efect similar."
+
+msgid "loader_pedant/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}Durabilitatea compartimentului muniției{greenBright_End} crește cu %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Când este antrenat complet, crește {greenBright_Start}durabilitatea compartimentului muniției{greenBright_End} cu %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Depozitare sigură"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Crește durabilitatea compartimentului de muniție."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Efectul funcționează cu toate tipurile de proiectile.\n\nRănirea unui servant nu afectează eficiența talentului.\n\nDacă doi servanți au acest talent, se aplică valoarea medie a nivelurilor de antrenament."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}Viteza proiectilului{greenBright_End} crește cu %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Când este antrenat complet, {greenBright_Start}viteza proiectilului{greenBright_End} crește cu %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Încărcare perfectă"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Acest talent nu are efect asupra autotunurilor sau tunurilor cu casetă și nu se cumulează pentru tunurile duble.\n\nÎn cazul tunurilor cu sistem de foc selectabil, dacă focul ambelor țevi eșuează în provocarea de daune, reducerea timpului de reîncărcare se aplică ambelor țevi.\n\nDacă doi tunari au acest talent, se aplică valoarea medie a nivelului de antrenament.\n\nTimpul de reîncărcare al tunului poate fi redus suplimentar cu ajutorul talentelor Adrenalină sau Luptă de aproape sau prin instalarea de echipament cu efect similar. Utilizarea directivei Compartiment muniție organizat îmbunătățește acest efect."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "{yellow_Start}Timpul de reîncărcare a tunului{yellow_End} va fi redus cu %(vehicleGunReloadTime)s pentru următorul proiectil dacă focul anterior nu a provocat daune unui vehicul inamic."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Timpul de reîncărcare a tunului este redus (lovitură ratată)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Când este antrenat complet, reduce {yellow_Start}timpul de reîncărcare a tunului{yellow_End} cu %(vehicleGunReloadTime)s pentru următorul proiectil dacă focul anterior nu a provocat daune unui vehicul inamic."
+
+msgid "loader_secondChance/name"
+msgstr "A doua șansă"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Reduce timpul de reîncărcare a tunului "
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Frați de Arme"
+
+msgid "perkRole/commander"
+msgstr "Comandant"
+
+msgid "perkRole/common"
+msgstr "Grup"
+
+msgid "perkRole/driver"
+msgstr "Șofer"
+
+msgid "perkRole/gunner"
+msgstr "Tunar"
+
+msgid "perkRole/loader"
+msgstr "Servant"
+
+msgid "perkRole/radioman"
+msgstr "Transmisionist"
+
+msgid "popularity/tooltip/common"
+msgstr "dintre toți jucătorii"
+
+msgid "popularity/tooltip/header"
+msgstr "Pentru acest vehicul, preferat de"
+
+msgid "popularity/tooltip/legendary"
+msgstr "dintre jucătorii WTR Legendă"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Dacă doi transmisioniști au acest talent, se aplică valoarea medie a nivelurilor de antrenament.\n\nEfectul poate fi îmbunătățit suplimentar cu ajutorul talentului Detecție sonoră al comandantului."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "De fiecare dată când se provoacă șoc echipajului propriu, {greenBright_Start}efectul negativ al șocului{greenBright_End} va fi redus cu %(stunResistanceEffectFactor)s, reducerea maximă fiind de 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Când este antrenat complet, de fiecare dată când se provoacă șoc echipajului propriu, descrește cu %(stunResistanceEffectFactor)s {greenBright_Start}efectul negativ al șocului{greenBright_End}&nbsp;, reducerea maximă fiind de 30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Căliți în lupte"
+
+msgid "radioman_expert/alt/description"
+msgstr "Bonusul eficienței echipajului îmbunătățește eficiența membrului de echipaj în lupte. Dacă doi transmisioniști au acest talent, se aplică valoarea medie a nivelurilor de antrenament. Parametrul poate fi îmbunătățit mai departe prin instalarea de echipament sau consumabile cu efect similar sau prin utilizarea directivei Evacuare forțată. Talentul de grup Frați de Arme, precum și talentele Urgență al comandantului sau Umăr la Umăr al transmisionistului pot crește de asemenea acest parametru."
+
+msgid "radioman_expert/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "{yellow_Start}Bonusul de eficiență a echipajului{yellow_End} va crește cu %(crewLevelIncrease)s dacă totalul daunelor prin asistență depășesc cantitatea inițială de puncte de integritate ale vehiculului propriu&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Bonusul de eficiență a echipajului este crescut (la însumarea a suficiente date de recunoaștere)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Când este antrenat complet, {yellow_Start}bonusul de eficiență a echipajului{yellow_End} crește cu %(crewLevelIncrease)s dacă totalul daunelor prin asistență depășesc cantitatea inițială de puncte de integritate ale vehiculului propriu&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Expert în Comunicații"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Sporește performanțele echipajului."
+
+msgid "radioman_finder/alt/description"
+msgstr "Dacă doi transmisioniști au acest talent, se aplică valoarea medie a nivelurilor de antrenament.\n\nRaza vizuală poate fi crescută mai departe prin antrenarea talentului Recunoaștere sau prin instalarea de echipament cu efect similar. Utilizarea directivei Calibrare optică îmbunătățește efectul."
+
+msgid "radioman_finder/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}Raza vizuală{greenBright_End} este crescută cu %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Când este antrenat complet, crește {greenBright_Start}raza vizuală{greenBright_End} cu %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Informaţii suplimentare"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Crește raza vizuală."
+
+msgid "radioman_interference/alt/description"
+msgstr "Dacă doi transmisioniști au acest talent, se aplică valoarea medie a nivelurilor de antrenament.\n\nPerioada în care vehiculul tău rămâne descoperit poate fi redusă suplimentar prin instalarea de echipament cu efect similar."
+
+msgid "radioman_interference/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "{greenBright_Start}Perioada în care vehiculul tău rămâne descoperit{greenBright_End} de inamic descrește cu %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Când este antrenat complet, {greenBright_Start}perioada în care vehiculul tău rămâne descoperit{greenBright_End} de inamic descrește cu %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Bruiaj"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Descrește perioada de vizibilitate a vehiculului tău pentru inamici."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Dacă doi transmisioniști dețin talentul, se aplică doar valoarea mai ridicată.Efectul este activ doar dacă transmisionistul nu este rănit la momentul distrugerii vehiculului.\n\nTalentul poate fi îmbunătățit mai departe cu directiva Datoria înainte de toate."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la 1%. Eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Transmisionistul poate {yellow_Start}raporta pozițiile inamicului{yellow_End} timp de încă %(radiomanDurationPerLevel)s după distrugerea vehiculului."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Raportarea pozițiilor."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Când este antrenat complet, îți permite să {yellow_Start}raportezi pozițiile inamicului{yellow_End} timp de încă %(radiomanDurationPerLevel)s după distrugerea vehiculului."
+
+msgid "radioman_lastEffort/name"
+msgstr "Ultim efort"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Raportează pozițiile inamice timp de o scurtă perioadă de timp după distrugerea propriului vehicul."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Bonusul eficienței echipajului îmbunătățește eficiența membrului de echipaj în lupte. Dacă doi transmisioniști au acest talent, se aplică valoarea medie a nivelurilor de antrenament. Parametrul poate fi îmbunătățit mai departe prin instalarea de echipament sau consumabile cu efect similar sau prin utilizarea directivei Evacuare forțată. Talentul de grup Frați de Arme, precum și talentele Urgență al comandantului sau Expert în Comunicații al transmisionistului pot crește de asemenea acest parametru."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "{yellow_Start}Bonusul de eficiență a echipajului{yellow_End} va crește cu %(crewLevelIncrease)s la distanțe de maxim 50 m față de un vehicul aliat de același tip&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Bonusul de eficiență a echipajului e sporit (aliat de același tip este aproape)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Când este antrenat complet, {yellow_Start}bonusul de eficiență a echipajului{yellow_End} va crește cu %(crewLevelIncrease)s la distanțe de maxim 50 m față de un vehicul aliat de același tip&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Umăr la Umăr"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Sporește performanțele echipajului."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Efectul îmbunătățește caracteristica specială a comandantului Al Șaselea Simț, grăbindu-i activarea.\n\nDacă doi transmisioniști au acest talent, se aplică valoarea medie a nivelurilor de antrenament."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Un talent devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "{greenBright_Start}Timpul necesar pentru a determina{greenBright_End} dacă {greenBright_Start}vehiculul tău a fost descoperit{greenBright_End} de inamic este redus cu %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Când este antrenat complet, {greenBright_Start}timpul necesar pentru a determina{greenBright_End} dacă {greenBright_Start}vehiculul tău a fost descoperit{greenBright_End} de inamic este redus cu %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Interceptarea Semnalului"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Acest talent se activează atunci când alerta Al Șaselea Simț îți indică faptul că vehiculul propriu a fost descoperit.\n\nDacă doi transmisioniști au acest talent, se aplică valoarea medie a nivelurilor de antrenament.\n\nRaza vizuală poate fi crescută suplimentar prin antrenarea talentelor Recunoaștere sau Informaţii suplimentare, sau prin instalarea de echipament cu efect similar. Utilizarea directivei Calibrare optică îmbunătățește efectul."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Un talent cu efect situațional devine activ atunci când este antrenat la minim 1%, iar eficiența sa crește cu antrenament ulterior. Efectul situațional se activează la îndeplinirea anumitor condiții în luptă."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "{yellow_Start}Raza vizuală{yellow_End} va crește cu %(vehicleCircularVisionRadius)s timp de 5 s după apariția alertei Al Șaselea Simț."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Raza vizuală e crescută."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Când este antrenat complet, crește cu %(vehicleCircularVisionRadius)s {yellow_Start}raza vizuală{yellow_End} timp de 5 s după apariția alertei Al Șaselea Simț."
+
+msgid "radioman_threatSearch/name"
+msgstr "Căutarea amenințării"
+
+msgid "repair/alt/description"
+msgstr "Acest talent afectează viteza de reparație a modulelor interne și externe din starea „roșu” în starea „galben”.\n\nAcest parametru poate fi crescut mai departe prin instalarea de echipament sau consumabile cu efect similar."
+
+msgid "repair/alt/info"
+msgstr "Pentru talentele de grup, nivelul mediu de antrenament al tuturor membrilor de echipaj este calculat. Acesta devine activ când e antrenat la minim 1% și îi crește eficiența cu antrenament suplimentar."
+
+msgid "repair/currentLvlDescription"
+msgstr "Crește {greenBright_Start}viteza de reparare{greenBright_End} a modulelor vehiculelor cu %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Când este antrenat complet, crește {greenBright_Start}viteza de reparare{greenBright_End} a modulelor avariate ale vehiculului cu %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Reparaţii"
+
+msgid "repair/shortDescription"
+msgstr "Crește viteza de reparare a modulelor avariate."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Frați de Arme"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Popular"
+
+msgid "sorting/fallback"
+msgstr "Standard"
+
+msgid "sorting/legendary"
+msgstr "Legendar"
+
+msgid "sorting/title"
+msgstr "Sortat după:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPopular.%(whiteSpanish_Close)s Bazat pe tendințele actuale de talente ale jucătorilor World of Tanks"
+
+msgid "sorting/tooltip/header"
+msgstr "Beneficiu al WoT Plus"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Obține date precise legate de talente, colectate din milioane de lupte și eficientizează-ți la maxim luptele."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendar.%(whiteSpanish_Close)s Bazat pe talentele preferate la moment de jucătorii din nivelul WTR „Legendă”"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Sortarea după talente dezactivată"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Lipsă date"
+
+msgid "sorting/tooltip/title"
+msgstr "Asistentul de echipaj"
+
+msgid "sorting/tooltip/types"
+msgstr "Tipurile de sortare ale talentelor"
+
+msgid "sorting/tooltip/warning"
+msgstr "Sortarea talentelor indisponibilă"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Datele complete despre talente sunt indisponibile pentru acest vehicul, prin urmare s-a aplicat sortarea implicită a talentelor."
+
+msgid "witches_brotherhood/name"
+msgstr "Sabat"
+
+msgid "yha_brotherhood/name"
+msgstr "Frăția iepurilor"

@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "palebná síla"
+
+msgid "categories/mobility"
+msgstr "pohyblivost"
+
+msgid "categories/stealth"
+msgstr "průzkum"
+
+msgid "categories/survivability"
+msgstr "odolnost"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "Potvrzuji!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "Negativní!"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "Modifikace můžete po jejich zrušení znovu koupit za kredity."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "Modifikace můžete po jejich zrušení znovu koupit."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "Zrušit všechny duální modifikace zdarma?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "Modifikaci můžete po jejím zrušení znovu koupit za kredity."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "Modifikaci můžete po jejím zrušení znovu koupit."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "Zrušit duální modifikaci „%(modification)s“ zdarma?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "KOUPIT MODIFIKACE"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "VYBRAT KATEGORII SLOTU"
+
+msgid "hint/entryPoint"
+msgstr "DOSTUPNÉ MODIFIKACE"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "KLIKNUTÍM PŘEPNETE NA\nVEDLEJŠÍ VÝZBROJ"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "KLIKNUTÍM PŘEPNETE NA\nZÁKLADNÍ VÝZBROJ"
+
+msgid "hint/vehiclePreview"
+msgstr "ZMĚNY V PARAMETRECH VOZIDLA"
+
+msgid "postProgressionIntro/okButton"
+msgstr "Potvrzuji!"
+
+msgid "postProgressionIntro/title"
+msgstr "POLNÍ VYLEPŠENÍ"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "Speciální modifikace %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "Kliknutím se podíváte na změny v parametrech vozidla po zvýšení úrovně a zvýrazníte použité modifikace."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "Duální modifikace %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "Úroveň polního vylepšení"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "K dispozici po zakoupení vozidla"
+
+msgid "researchEntry/status/notResearched"
+msgstr "K dispozici po získání elitního stavu"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "K dispozici po zakoupení vozidla a získání elitního stavu"
+
+msgid "researchEntry/title"
+msgstr "POLNÍ VYLEPŠENÍ"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "Zvýšit"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "Zrušit"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} a {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "Vedlejší výzbroj"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "Slot"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "Základní výzbroj"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "přístup ke speciálním modifikacím: {name1} a {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "přístup ke speciálním modifikacím: {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "přístup ke speciální modifikaci: {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "přístup ke speciálním modifikacím: {name1}, {name2} a {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "přístup k duálním modifikacím {numbers}. úrovně"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "přístup k duální modifikaci {number}. úrovně"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "Bude získán: {unlockedItems}."
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "Zvýšit úroveň standardní modifikace na {level}?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "Zvýšit úroveň standardní modifikace?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "Celkem:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "Přiřazení"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "Dostupné kategorie: %(roles)."
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "Vybraná kategorie: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "Možnost přiřadit kategorii ke druhému slotu na vybavení pro toto vozidlo."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "Přiřazení kategorie k prvnímu slotu"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "Přiřazení (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "Kategorie druhého slotu"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "Přiřadit"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "Koupit a znovu přiřadit"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "Vyměnit"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "Zrušit"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "Kategorii můžete ke slotu znovu přiřadit za %(price)"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "Vybraná kategorie bude přiřazena ke druhému slotu na vybavení. Kategorii můžete ke slotu znovu přiřadit za %(price)"
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "Směnný kurz: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "Výměna selhala: je potřeba ještě %(gold)"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "Přiřadit kategorii ke druhému slotu na vybavení"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "Znovu přiřadit kategorii ke druhému slotu na vybavení"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "Nelze znovu přiřadit kategorii ke druhému slotu na vybavení: je potřeba ještě %(credits)"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "Celkem:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "Příležitost využít další sadu {cream_Open}vybavení{cream_Close} a {cream_Open}směrnic.{cream_Close}"
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "Příležitost využít další sadu {cream_Open}granátů{cream_Close} a {cream_Open}spotřebních doplňků.{cream_Close}"
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "Vedlejší výzbroj"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "Základní výzbroj"
+
+msgid "setupTooltipView/tip"
+msgstr "Mezi hlavní a alternativní konfigurací vozidla můžete přepínat v garáži a během odpočtu před bitvou."
+
+msgid "setupTooltipView/title"
+msgstr "Alternativní konfigurace: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)Vedlejší výzbroj%(/accent) je součástí konfigurace vozidla, která sestává z %(accent)vybavení a směrnic%(/accent). Po získání přístupu k alternativní konfiguraci můžete během odpočtu před bitvou %(accent)přepínat mezi konfiguracemi%(/accent) vedlejší výzbroje."
+
+msgid "slides/additionalEquipment/title"
+msgstr "VEDLEJŠÍ VÝZBROJ"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "Po dosažení určité úrovně polního vylepšení bude vašemu vozidlu zpřístupněna %(accent)alternativní konfigurace%(/accent) a v garáži si budete moci připravit %(accent)další sadu vybavení, munice, spotřebních doplňků a směrnic%(/accent). Ta nenahrazuje hlavní sadu, ale otevírá nové možnosti. Během odpočtu před bitvou můžete posoudit mapu a složení týmů a %(accent)vybrat si jednu ze dvou%(/accent) konfigurací vozidla. To vám umožní lépe se připravit na podmínky v nadcházející bitvě."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "ALTERNATIVNÍ KONFIGURACE VOZIDLA"
+
+msgid "slides/baseModifications/description"
+msgstr "%(accent)Standardní modifikace%(/accent) přidávají bonus k %(accent)jednomu z parametrů vozidla%(/accent) a odemykají duální modifikace. Ty lze nainstalovat zdarma a k jejich vyzkoumání potřebujete bojové nebo volné zkušenosti."
+
+msgid "slides/baseModifications/title"
+msgstr "STANDARDNÍ MODIFIKACE"
+
+msgid "slides/extraModification/description"
+msgstr "%(accent)Speciální modifikace%(/accent) zpřístupňují vozidlu alternativní konfiguraci a umožňují %(accent)přiřazení kategorie%(/accent) ke druhému slotu na vybavení (pro vozidla VIII.–X. úrovně). Vybranou kategorii slotu můžete znovu přiřadit za kredity."
+
+msgid "slides/extraModification/title"
+msgstr "SPECIÁLNÍ MODIFIKACE: SLOT ÚLOHY"
+
+msgid "slides/fieldModernization/description"
+msgstr "Polní vylepšení umožňuje detailněji vyladit konfiguraci vozidla podle jeho úlohy a %(accent)změnit jeho parametry%(/accent) pomocí různých %(accent)modifikací%(/accent). Každá následná modifikace se odemkne po vyzkoumání té předchozí."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "POLNÍ VYLEPŠENÍ"
+
+msgid "slides/fieldModernization/title"
+msgstr "ZMĚNA PARAMETRŮ VOZIDLA"
+
+msgid "slides/modificationTree/description"
+msgstr "Strom modifikací je dostupný pro vyzkoumatelná a sběratelská vozidla %(accent)VI.–X. úrovně%(/accent), která dosáhla %(accent)elitního stavu%(/accent). Modifikace pro speciální, výherní, vozidla za odměnu a prémiová vozidla jsou dostupné po jejich zakoupení."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "VÝZKUM MODIFIKACÍ"
+
+msgid "slides/modificationTree/title"
+msgstr "VÝZKUM MODIFIKACÍ"
+
+msgid "slides/pairedModifications/description"
+msgstr "%(accent)Duální modifikace zlepšují jeden %(/accent)z parametrů vozidla a%(accent) zhoršují jiný%(/accent). K výzkumu modifikací potřebujete bojové nebo volné zkušenosti a k jejich instalaci zase kredity. Modifikaci můžete %(accent)zdarma%(/accent) %(accent)zrušit (odebrat z vozidla)%(/accent).\nKdyž je vozidlo prodáno, zůstanou standardní a speciální modifikace uloženy, ale duální modifikace se zruší."
+
+msgid "slides/pairedModifications/title"
+msgstr "DUÁLNÍ MODIFIKACE"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)Základní výzbroj%(/accent) je součástí konfigurace vozidla, která sestává z %(accent)munice a spotřebních doplňků%(/accent). Po získání přístupu k alternativní konfiguraci můžete během odpočtu před bitvou %(accent)přepínat mezi konfiguracemi%(/accent) základní výzbroje."
+
+msgid "slides/requiredEquipment/title"
+msgstr "ZÁKLADNÍ VÝZBROJ"
+
+msgid "slides/roleInBattle/description"
+msgstr "Na rozdíl od typu vozidla odráží jeho úloha lépe optimální %(accent)bojovou taktiku%(/accent) a stanovuje, jaký%(accent) strom modifikací%(/accent) bude pro dané vozidlo dostupný."
+
+msgid "slides/roleInBattle/title"
+msgstr "ÚLOHA VOZIDLA V BITVĚ"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "Modifikace mění parametry vozidla, odemykají %(accent)přístup k alternativní konfiguraci%(/accent) a umožňují přiřazení kategorie ke %(accent)druhému slotu%(/accent) na vybavení."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "Alternativní konfigurace je druhá sada %(accent)vybavení, munice, spotřebních doplňků a směrnic%(/accent). Mezi konfiguracemi můžete přepínat."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "Možnost výběru a přiřazení kategorie ke %(accent)druhému slotu%(/accent) na vybavení. Přímo ovlivňuje efektivitu vozidla v bitvě."
+
+msgid "slides/specialModifications/title"
+msgstr "MODIFIKACE, ALTERNATIVNÍ KONFIGURACE A KATEGORIE SLOTU"
+
+msgid "tooltips/entry_point/description"
+msgstr "Možnost dále změnit parametry vozidla."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "Vyzkoumané moduly a vozidla: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "Vyzkoumané moduly: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "Polní vylepšení"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "K dispozici po zakoupení vozidla."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "K dispozici po získání elitního stavu."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "K dispozici po zakoupení vozidla a získání elitního stavu."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "Omlouváme se za dočasné nepříjemnosti. Zkuste to prosím později."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "Speciální modifikace nejsou k dispozici"
+
+msgid "tooltips/feature/subTitle"
+msgstr "Speciální modifikace %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "Získejte je v bitvách, prodejte přebytečné položky ze svého skladu nebo směňte zlaťáky, abyste jich získali více."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "Nedostatek kreditů"
+
+msgid "tooltips/pairModification/demount"
+msgstr "Odmontování"
+
+msgid "tooltips/pairModification/level"
+msgstr "Duální modifikace %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "Změny v technických parametrech:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "Odmontování (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "Zakoupení (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "Zakoupení"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "Kliknutím se podíváte na změny v technických parametrech vozidla po zakoupení této modifikace."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "Po zrušení modifikace si budete moci za kredity koupit jakoukoliv modifikaci z této dvojice."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "Zakoupení této modifikace automaticky zruší již nainstalovanou modifikaci z této dvojice."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "Další modifikace zakoupena"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "Abyste získali přístup k této modifikaci, dosáhněte %(level). úrovně polního vylepšení"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "Modifikace není dostupná"
+
+msgid "tooltips/priceBlock/free"
+msgstr "Zdarma"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "je potřeba:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "Přibližný počet. Přesné hodnoty jsou uvedeny v parametrech."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "Použít"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "Zrušit"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "Vynulovat"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "Modifikace %(title)s"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "Přidat do porovnání"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "Zničit všechny duální modifikace"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "Kliknutím zničíte všechny duální modifikace."
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "Zničit"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "Prohlédnout"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "Znovu přiřadit"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "Před bitvou"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "Vybrat"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "Zapnout/vypnout možnost výběru sad vybavení a směrnic během odpočtu před bitvou.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "Zapnout/vypnout možnost výběru sad granátů a spotřebních doplňků během odpočtu před bitvou.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "Když je tato možnost vypnuta, použijí se v bitvě sady vybrané v garáži."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "Přepínání před bitvou"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "Toto vozidlo je v bitvě."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "Toto vozidlo je uzamčeno."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "Toto vozidlo vyžaduje opravy."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "Toto vozidlo je v taktické jednotce."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "Ke slotu nelze přiřadit kategorii: vozidlo není v garáži."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "Pronájem vozidla skončil."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "Toto vozidlo je v bitvě."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "Toto vozidlo je uzamčeno."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "Toto vozidlo vyžaduje opravy."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "Toto vozidlo je v taktické jednotce."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "Nelze zakoupit: vozidlo není v garáži."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "Pronájem vozidla skončil."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "Kliknutím zničíte duální modifikaci."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "Zničit"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "nebo"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "Maximální úroveň polního vylepšení"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "K dispozici pro vozidla {minAllowedLevel}.–{maxAllowedLevel}. úrovně"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "K dispozici pro vozidla {allowedLevel}. úrovně"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "SKRÝT PARAMETRY"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "Trvalý bonus: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "Trvalý bonus: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "Trvalý bonus: %(bonus1) a %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "Zvyšte úroveň, abyste získali trvalé bonusy: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "Zvyšte úroveň, abyste získali trvalý bonus: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "Zvyšte úroveň, abyste získali trvalé bonusy %(bonus1) a %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "Zvýšit úroveň"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "Zvýšit úroveň na %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "Zvyšte úroveň, abyste získali:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "Vylepšené parametry"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "Speciální modifikace"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "Speciální modifikace {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "Duální modifikace"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "Duální modifikace {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "Na moduly"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "Polní vylepšení není k dispozici. Vozidlo je v bitvě."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "Polní vylepšení není k dispozici. Vozidlo je uzamčeno."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "Polní vylepšení není k dispozici. Vozidlo vyžaduje opravy."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "Možnost další změny parametrů bude zpřístupněna po dosažení elitního stavu vozidla."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "Polní vylepšení není k dispozici: vozidlo je v taktické jednotce."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "Vozidlo musí být v garáži, abyste mohli vyzkoumat modifikace a zvýšit úroveň polního vylepšení."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "Polní vylepšení není k dispozici pro nájemní vozidla. Pokud chcete polní vylepšení odemknout, toto vozidlo si kupte."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "Polní vylepšení není k dispozici: pronájem vozidla skončil. Pokud chcete polní vylepšení odemknout, prodlužte dobu pronájmu tohoto vozidla."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "UKÁZAT PARAMETRY"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "Možnost další změny parametrů vozidla. Zpřístupní se, jakmile vozidlo dosáhne elitního stavu."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "Polní vylepšení"

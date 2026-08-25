@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "Vælg et køretøj du vil udelukke fra denne kamp"
+
+msgid "prebattleTimer/ban/header"
+msgstr "Bandlys afstemningsstadie"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "Bekræft valg"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "Efter bekræftelse vil du ikke kunne vælge et andet køretøj."
+
+msgid "prebattleTimer/pick/header"
+msgstr "Bekræftelsesstadie"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "Vælg det mest passende køretøj til dette kort og dit holds sammensætning"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "Stadie for forudvalg af køretøj"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "Vælg det bedste køretøj til kortet og dit hold."
+
+msgid "prebattleTimer/wait/header"
+msgstr "Venter på spillere..."
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "Vælg et køretøj"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Stadiet på %(server)s-serveren er slut"
+
+msgid "primeTimeView/server"
+msgstr "Tilgængelig server: %(server)s."
+
+msgid "primeTimeView/serverTooltip"
+msgstr "%(server)s-server\nKampe vil være tilgængelige i endnu %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "%(server)s-server\nKampe vil være tilgængelige om %(time)s"
+
+msgid "primeTimeView/servers"
+msgstr "Tilgængelige servere:"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Kampe er utilgængelige på alle servere"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Kamptypen er utilgængelig på server %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Kampe på %(server)s serveren vil være tilgængelige i endnu %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Kampe vil starte på %(server)s-serveren om %(time)s"
+
+msgid "primeTimeView/status/untill"
+msgstr "Kampe vil ikke være tilgængelige indtil %(startTime)s på %(server)s-serveren"

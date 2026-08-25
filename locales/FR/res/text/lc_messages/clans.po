@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "Canal de discussion du clan"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "Cliquez pour écrire ou envoyer un message sur le canal de discussion du clan."
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "Canal de discussion du clan"
+
+msgid "clan/header/creationDate"
+msgstr "Créé le %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "Candidatures et invitations"
+
+msgid "clan/header/requestSent"
+msgstr "Candidature envoyée"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "Envoyer une candidature"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "Cliquez pour envoyer votre candidature au clan."
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "Envoyer une candidature"
+
+msgid "clan/post/combatOfficer"
+msgstr "Officier de combat"
+
+msgid "clan/post/commander"
+msgstr "Chef de char"
+
+msgid "clan/post/executiveOfficer"
+msgstr "Commandant en second"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "Officier du renseignement"
+
+msgid "clan/post/juniorOfficer"
+msgstr "Officier subalterne"
+
+msgid "clan/post/personnelOfficer"
+msgstr "Officier du personnel"
+
+msgid "clan/post/private"
+msgstr "Soldat"
+
+msgid "clan/post/quartermaster"
+msgstr "Quartier-maître"
+
+msgid "clan/post/recruit"
+msgstr "Recrue"
+
+msgid "clan/post/recruiter"
+msgstr "Recruteur"
+
+msgid "clan/post/reservist"
+msgstr "Réserviste"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "Erreur de l'affichage du nom"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "Les données du tableau ont été mises à jour."
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "Conditions de recrutement"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "Peut être édité"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "Le clan n'a pas de candidature en attente."
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "Le clan n'a pas de candidature expirée."
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "Inviter dans le clan"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "Cliquez sur %(invite)s pour envoyer des invitations\naux nouveaux jouers."
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "Le clan n'a envoyé aucune invitation au cours des 28 derniers jours."
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "Le clan n'a pas eu d'invitation en attente au cours des 28 derniers jours."
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "Le clan n'a pas eu d'invitation expirée au cours des 28 derniers jours."
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "Le clan n'a pas eu d'invitation traitée au cours des 28 derniers jours."
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "Le clan n'a pas de candidature traitée."
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "Aucune donnée reçue de la part du serveur.\nRéessayez plus tard."
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "Erreur du serveur"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "En attente (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "Toutes (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "Expirées (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "Décision reçue (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "Traitées (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "Places restantes dans le clan : %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "Inviter dans le clan"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "Vous disposez de trois jours pour traiter une candidature à rejoindre le clan. Les candidatures et les invitations sont conservées 28 jours, puis sont automatiquement supprimées."
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "Impossible d'ajouter de nouveaux joueurs : le clan est complet."
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "Impossible d'ajouter de nouveaux joueurs : le recrutement dans le clan est fermé pour le moment."
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "Acceptée"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "%(days)d j pour traiter"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "Refusée"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "Erreur"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "Expirée"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "%(hours)d h pour traiter"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "%(min)d min pour traiter"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "Envoyée"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "Invitations (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "Candidatures (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "Actions"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "Inviter"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "Envoyée"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "Afficher plus"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "Statut"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "Joueur"
+
+msgid "clanInvitesWindow/title"
+msgstr "Candidatures et invitations"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "Cliquez pour inviter des joueurs dans le clan."
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "Sur invitation de :"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "Invitation acceptée."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "Invitation refusée."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "Invitation envoyée."
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "Expéditeur :"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Ce bouton sera activé lorsque vous recevrez de nouvelles données du serveur."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Cliquez pour afficher les nouvelles candidatures et invitations."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "Rafraîchir la liste"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "Décideur :"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "Candidature acceptée."
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "Candidature refusée."
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "La candidature a expiré"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "Candidature envoyée."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "Impossible d'ajouter de nouveaux joueurs : le clan est complet."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Le joueur a récemment quitté un clan. Vous ne pourrez l'accepter dans le clan qu'après le :"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "Impossible d'inviter de nouveaux joueurs : le clan est complet."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Expérience moyenne par bataille du joueur ayant reçu l'invitation (compte premium inclus)."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "EXP. moyenne par bataille"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Batailles jouées par le joueur à qui l'invitation a été envoyée."
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Batailles"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "Cliquez pour inviter ce joueur dans le clan."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Message accompagnant l'invitation dans le clan."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Message"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "Cote personnelle du joueur à qui a été envoyée l'invitation."
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "Cote personnelle"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "La date et l'heure d'envoi de l'invitation du clan."
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "Envoyée"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Statut de l'invitation du clan.\nUne invitation peut être en attente, expirée ou traitée."
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Statut"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "Nom du joueur à qui l'invitation a été envoyée."
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "Joueur"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Taux de victoire du joueur à qui l'invitation a été envoyée."
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Victoires"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Une candidature peut être soit acceptée, soit refusée."
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Actions"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "Expérience moyenne par bataille du joueur ayant envoyé la candidature (compte premium inclus)"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "EXP. moyenne par bataille"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "Total des batailles jouées par le joueur ayant envoyé la candidature"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "Batailles"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "Message du joueur, joint à sa candidature"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "Message"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "Cote personnelle du joueur ayant envoyé la candidature."
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "Cote personnelle"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "Statut de la candidature au clan.\nUne candidature peut être en attente, expirée ou traitée."
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "Statut"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "Nom du joueur ayant envoyé la candidature."
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "Joueur"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "Taux de victoire du joueur ayant envoyé la candidature"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "Victoires"
+
+msgid "clanLanding/notification/archived"
+msgstr "Le message a été archivé."
+
+msgid "clanLanding/notification/commonError"
+msgstr "Erreur technique : impossible de terminer l'opération avec ce message."
+
+msgid "clanLanding/notification/deleted"
+msgstr "Message retiré."
+
+msgid "clanLanding/notification/edited"
+msgstr "Message publié."
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "Le nombre maximal de caractères a été atteint."
+
+msgid "clanLanding/notification/limitReached"
+msgstr "Le nombre maximal de messages a déjà été publié dans le clan."
+
+msgid "clanLanding/notification/noPermission"
+msgstr "Droits insuffisants pour gérer les messages du clan : votre grade a été modifié."
+
+msgid "clanLanding/notification/notExist"
+msgstr "Ce message a été retiré ou archivé."
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "Ce message comprend des expressions enfreignant les <a href=\"event:clanRulesLink\">règles des clans</a>."
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "Invitations en attente : %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "Refuser la sélection (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "Invitations de mon clan"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "Réception des données..."
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "Vous n'avez pas encore d'invitation de clan."
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "Sélectionner toutes les candidatures"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "Actions"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "Nom du clan"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "Statut"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "Invitations à rejoindre un clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Vous pourrez mettre la liste à jour après avoir reçu les nouvelles données."
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Cliquez pour mettre à jour le tableau."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Vous avez récemment quitté un clan. Vous ne pourrez accepter les invitations des clans qu'après le :"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Expérience moyenne obtenue par bataille par les membres du clan ayant envoyé l'invitation (moyenne pondérée entre les batailles en mode batailles aléatoires)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "EXP. moyenne par bataille"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Nombre moyen de batailles jouées par les membres du clan ayant envoyé l'invitation (uniquement en modes bataille aléatoires)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Batailles du clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "Nom du clan qui vous a envoyé une invitation"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "Nom du clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Message du clan qui vous a envoyé une invitation"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Message"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "Classement total du clan qui vous a envoyé une invitation"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "Classement du clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Affiche le statut des invitations à rejoindre un clan et le temps restant pour traiter ces invitations."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Statut"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Taux de victoire des membres du clan ayant envoyé l'invitation (moyenne pondérée entre les batailles en mode batailles aléatoires)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Victoires du clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Vous pouvez soit accepter soit refuser l'invitation. En acceptant une invitation, vous refuserez automatiquement les invitations des autres clans."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Actions"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "Profil du clan"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "Fermer"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "Bienvenue dans le clan !"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "Vous pouvez maintenant combattre dans des batailles sur la carte globale, construire et défendre votre Bastion et accomplir des missions spéciales."
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "Communiqué"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "Votre clan : [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "Nous nous excusons pour la gêne occasionnée. Veuillez réessayer plus tard."
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "Le Bastion est temporairement indisponible"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "Toutes nos excuses pour la gène occasionnée.\nRéessayez plus tard."
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "Erreur lors du chargement des données"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "Profil du clan"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "Bastion"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "Carte globale"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "Membres du clan"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "Bastion"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "Résumé"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "Inviter le joueur dans le clan"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "Action indisponible. Vous ne pouvez inviter les joueurs dans le clan qu'un par un."
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "Ajouter tous les contacts à la liste des destinataires."
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "Batailles au cours des 28 derniers jours"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "Incursions au cours des 28 derniers jours"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "Commandant du clan"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "Pas encore créé"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "Aucune bataille jouée.\nAucune province possédée."
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "Niveau du bastion"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "Trésorerie"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "Aucune bataille jouée"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "Provinces"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Classement Elo X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Classement Elo VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Classement Elo VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "Escarmouches au cours des 28 derniers jours"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "Total des membres"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "Détails"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "Détails"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "Envoyer une candidature"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "Le clan n'a pas de devise."
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "Détails de la carte globale"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "Aller sur la carte"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "Les détails sont temporairement indisponibles"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "Impossible de rejoindre le clan."
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "Étudier les conditions de recrutement %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "Vous êtes déjà membre\nd'un autre clan."
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "Vous avez déjà reçu une invitation\nà rejoindre ce clan."
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s Temporairement restreint"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s Temporairement restreint"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "Ce clan n'accepte pas les candidatures %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "Candidature envoyée."
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "Synchronisation des données..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "Classement Elo du clan pour les incursions en division X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Classement Elo X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "Classement Elo du clan pour les incursions en division VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Classement Elo VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "Classement Elo du clan pour les incursions en division VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Classement Elo VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "Incursions du clan au cours des 28 derniers jours"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "Incursions au cours des 28 derniers jours"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "Le niveau du bastion est égal au niveau de son centre de commandement."
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "Niveau du bastion"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "Escarmouches du clan au cours des 28 derniers jours"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "Escarmouches au cours des 28 derniers jours"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "Classement Elo du clan pour les batailles sur la carte globale en division X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Classement Elo X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "Classement Elo du clan pour les batailles sur la carte globale en division VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Classement Elo VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "Classement Elo du clan pour les batailles sur la carte globale en division VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Classement Elo VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "Batailles du clan jouées sur la carte globale au cours des 28 derniers jours"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "Batailles au cours des 28 derniers jours"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "Provinces sur la carte globale actuellement possédées par le clan."
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "Provinces"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "Nombre maximal de candidatures envoyées."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "Impossible d'envoyer une candidature"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "Nombre maximal de candidatures envoyées."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "Impossible d'envoyer une candidature"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "Le clan n'accepte pas les candidatures."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "Impossible d'envoyer une candidature"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "Le classement du clan n'a pas été mis à jour au cours des 28 derniers jours."
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "Informations obsolètes"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "L'efficacité du clan en mode Bastion et batailles sur la carte globale affecte la progression au sein du classement total."
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "Classement total"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "Classement total"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "Profil du clan"
+
+msgid "globalMap/disabled"
+msgstr "Les batailles sur la carte globale sont\nactuellement indisponibles dans votre région"
+
+msgid "globalMapView/level10"
+msgstr "Rang X"
+
+msgid "globalMapView/level6"
+msgstr "Rang VI"
+
+msgid "globalMapView/level8"
+msgstr "Rang VIII"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "Cette province ne vous rapporte aucun revenu car la connexion avec le centre de commandement a été perdue ou la province a été pillée."
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "Ne rapporte aucun revenu"
+
+msgid "globalMapView/noProvince"
+msgstr "Le clan ne possède aucune province."
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "Prime time populaire : %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "La carte globale est un champ de bataille sur lequel les clans s'affrontent pour la supériorité stratégique. Les officiers des clans y passent le plus clair de leur temps, y préparant des tactiques et déployant leurs forces pour des manœuvres stratégiques."
+
+msgid "globalMapView/promo/header"
+msgstr "Carte globale"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "Détails de la carte globale"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "Aller sur la carte"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "Batailles"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "Total des batailles sur la carte globale en division X"
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "Batailles"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Classement Elo"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "Classement du clan pour les batailles sur la carte globale en division X"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Classement Elo"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "Carte favorite"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "La carte sur laquelle le clan a le plus joué au cours des 28 derniers jours en batailles de division X"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "Carte favorite : %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "Position dans le classement"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "Position du clan dans le classement des batailles sur la carte globale en division X"
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "Position dans le classement"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "Victoires"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "Taux total de victoires sur la carte globale en division X"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "Victoires"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "Batailles"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "Total des batailles sur la carte globale en division VI"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "Batailles"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Classement Elo"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "Classement du clan pour les batailles sur la carte globale en division VI"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Classement Elo"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "Carte favorite"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "La carte sur laquelle le clan a le plus joué au cours des 28 derniers jours en batailles de division VI"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "Carte favorite : %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "Position dans le classement"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "Position du clan dans le classement des batailles sur la carte globale en division VI"
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "Classement du clan"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "Victoires"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "Taux total de victoires sur la carte globale en division VI"
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "Victoires"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "Batailles"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "Total des batailles sur la carte globale en division VIII"
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "Batailles"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Classement Elo"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "Classement du clan pour les batailles sur la carte globale en division VIII"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Classement Elo"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "Carte favorite"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "La carte sur laquelle le clan a le plus joué au cours des 28 derniers jours en batailles de division VIII"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "Carte favorite : %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "Position dans le classement"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "Position du clan dans le classement des batailles sur la carte globale en division VIII"
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "Classement du clan"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "Victoires"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "Taux total de victoires sur la carte globale en division VIII"
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "Victoires"
+
+msgid "globalMapView/stats/battles"
+msgstr "Batailles sur la carte globale"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "Total des batailles jouées par le clan sur la carte globale"
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "Batailles sur la carte globale"
+
+msgid "globalMapView/stats/seized"
+msgstr "Provinces possédées"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "Total des provinces possédées par le clan. Les provinces possédées par le passé mais perdues depuis sont également prises en compte."
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "Provinces possédées"
+
+msgid "globalMapView/stats/wins"
+msgstr "Victoires du clan"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "Taux total de victoires des membres du clan pour les batailles sur la carte globale"
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "Victoires du clan"
+
+msgid "globalMapView/table/days"
+msgstr "Jours"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "Période (en jours) au cours de laquelle le clan a possédé la province sur la carte globale."
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "Jours"
+
+msgid "globalMapView/table/front"
+msgstr "Front"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "Nom du front sélectionné"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "Front"
+
+msgid "globalMapView/table/income"
+msgstr "Revenu"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "Pièces d'or générées par la province par jour"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "Revenu"
+
+msgid "globalMapView/table/map"
+msgstr "Carte"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "Nom de la carte sur laquelle les batailles pour la province sont jouées."
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "Carte"
+
+msgid "globalMapView/table/primeTime"
+msgstr "Prime time"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "Heure prévue pour le début des batailles pour la province."
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "Prime time"
+
+msgid "globalMapView/table/province"
+msgstr "Province"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "Nom de la province sélectionnée."
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "Province"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "La province a été pillée et ne vous rapporte temporairement aucun revenu."
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "Temps restant avant de recevoir à nouveau un revenu : %(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "Provinces"
+
+msgid "globalMapView/tabs/stats"
+msgstr "Statistiques"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "Le classement du clan n'a pas été mis à jour au cours des 28 derniers jours."
+
+msgid "globalMapView/totalIncome"
+msgstr "Revenu total quotidien : %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "Nombre moyen\nde batailles"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "Moyenne du nombre de batailles jouées en mode batailles aléatoires et en compagnie de chars de tous les membres du clan. Seuls les joueurs actuellement membres du clan sont pris en compte."
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "Moyenne des batailles jouées par les membres du clan"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "EXP. moyenne"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "Moyenne pondérée de l'expérience des membres du clan en mode batailles aléatoires et en compagnie de chars. Le nombre total de batailles jouées par chaque joueur affecte la pondération. Seuls les joueurs actuellement membres du clan sont pris en compte."
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "Expérience moyenne parmi les membres du clan"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "Cote personnelle moyenne"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "Cote personnelle moyenne de tous les membres du clan. Seuls les joueurs actuellement membres du clan sont pris en compte."
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "Cote personnelle moyenne parmi les membres du clan"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "Taux de victoire moyen"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "Moyenne pondérée du taux de victoires des membres du clan en mode batailles aléatoires et en compagnie de chars. Le nombre total de batailles jouées par chaque joueur affecte la pondération. Seuls les joueurs actuellement membres du clan sont pris en compte."
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "Taux de victoire moyen des membres du clan"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "Taux du total d'expérience acquis sur le nombre de batailles jouées par le joueur en mode batailles aléatoires et en compagnie de chars"
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "Expérience moyenne"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "Nombre total de batailles aléatoires et en compagnie de chars jouées par le joueur"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "Nombre total de batailles"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "Le nombre de jours écoulés depuis que le joueur est dans le clan"
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "Jours dans le clan"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "Cote personnelle du joueur"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "Cote personnelle"
+
+msgid "personnelView/table/player"
+msgstr "Joueur (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "Nom du membre du clan"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "Joueur"
+
+msgid "personnelView/table/post"
+msgstr "Grade"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "Grade du membre dans le clan"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "Grade"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "Taux de victoire du joueur en mode batailles aléatoires et en compagnie de chars"
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "Victoires"
+
+msgid "personnelView/title"
+msgstr "Statistiques du membre du clan en batailles aléatoires et en compagnie de chars :"
+
+msgid "search/clansList"
+msgstr "Clans listés : %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "Rien ne correspond à votre requête. Essayez de chercher avec différents mots-clés."
+
+msgid "search/emptyResult/button"
+msgstr "Retour à la liste"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "Cliquez pour retourner à la liste des clans trouvés."
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "Retour à la liste"
+
+msgid "search/emptyResult/header"
+msgstr "Aucun résultat de recherche"
+
+msgid "search/foundClans"
+msgstr "Clans trouvés : %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "Impossible de rejoindre le clan."
+
+msgid "search/info/banned/tooltip/header"
+msgstr "Impossible d'envoyer une candidature"
+
+msgid "search/info/clanProfileBtn"
+msgstr "Profil du clan"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "Impossible d'envoyer la candidature pour rejoindre le clan."
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "Action indisponible"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "Vous avez déjà reçu une invitation à rejoindre ce clan."
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "Impossible d'envoyer une candidature"
+
+msgid "search/info/ratingDescription"
+msgstr "Classement total"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "L'efficacité du clan en mode Bastion et batailles sur la carte globale affecte la progression au sein du classement total."
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "Classement total"
+
+msgid "search/info/ratingTitle"
+msgstr "Statistiques de tous les types de batailles :"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "Vous avez déjà envoyé votre candidature à ce clan."
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "Impossible d'envoyer une candidature"
+
+msgid "search/info/requestSent"
+msgstr "Candidature envoyée."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "Le clan n'accepte pas les candidatures."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "Impossible d'envoyer une candidature"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "Nombre maximal de candidatures envoyées."
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "Impossible d'envoyer une candidature"
+
+msgid "search/info/sendRequestBtn"
+msgstr "Envoyer une candidature"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "Aucune donnée du serveur reçue. Réessayez plus tard."
+
+msgid "search/info/serverUnavailable/header"
+msgstr "Erreur du serveur"
+
+msgid "search/info/stats/avgExp"
+msgstr "EXP. moyenne"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "Moyenne pondérée de l'expérience des membres du clan dans tous les modes de bataille. Le nombre total de batailles jouées par chaque joueur affecte la pondération. Seuls les joueurs actuellement membres du clan sont pris en compte."
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "Expérience moyenne parmi les membres du clan"
+
+msgid "search/info/stats/battles"
+msgstr "Nombre moyen\nde batailles jouées"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "Nombre moyen de batailles jouées par les membres du clan dans tous les modes. Seuls les joueurs actuellement membres du clans sont pris en compte."
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "Moyenne des batailles jouées par les membres du clan"
+
+msgid "search/info/stats/wins"
+msgstr "Taux de victoire moyen"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "Moyenne pondérée du taux de victoires des membres du clan dans tous les modes de bataille. Le nombre total de batailles jouées par chaque joueur affecte la pondération. Seuls les joueurs actuellement membres du clan sont pris en compte."
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "Taux de victoire moyen des membres du clan"
+
+msgid "search/nextBtn"
+msgstr "Suivant"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "Cliquez pour afficher la partie suivante de la liste des clans."
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "Suivant"
+
+msgid "search/previousBtn"
+msgstr "Précédent"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "Cliquez pour afficher la partie précédente de la liste des clans."
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "Précédent"
+
+msgid "search/promoText/body"
+msgstr "Pour chercher un clan, saisissez son nom ou son tag dans le champ, puis cliquez sur Chercher."
+
+msgid "search/promoText/header"
+msgstr "Recherche de clan"
+
+msgid "search/requestTooShort/body"
+msgstr "Pour chercher un clan, saisissez au moins 2 caractères dans le champ puis réessayez."
+
+msgid "search/requestTooShort/button"
+msgstr "Retour à la liste"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "Retour à la liste"
+
+msgid "search/requestTooShort/header"
+msgstr "Données insuffisantes"
+
+msgid "search/searchBtn"
+msgstr "Chercher"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "Saisissez le nom ou le tag d'un clan dans le champ de gauche (au moins 2 caractères)."
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "Recherche de clan"
+
+msgid "search/searchInputPrompt"
+msgstr "Saisissez le nom ou le tag du clan"
+
+msgid "search/serverUnavailable/body"
+msgstr "Aucune donnée du serveur reçue. Réessayez plus tard."
+
+msgid "search/serverUnavailable/header"
+msgstr "Erreur du serveur"
+
+msgid "search/table/clan"
+msgstr "Clan"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "Attributs du clan : tag et nom"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "Clan"
+
+msgid "search/table/creationDate"
+msgstr "Créé le"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "Date de création du clan"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "Créé le"
+
+msgid "search/table/players"
+msgstr "Joueurs"
+
+msgid "search/table/players/tooltip/body"
+msgstr "Nombre total de membres du clan"
+
+msgid "search/table/players/tooltip/header"
+msgstr "Joueurs"
+
+msgid "search/table/rating"
+msgstr "Classement"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "Classement total du clan"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "Classement"
+
+msgid "search/title"
+msgstr "Recherche de clan"
+
+msgid "search/titleDescription"
+msgstr "Ici, vous pouvez chercher un clan, étudier ses caractéristiques\net envoyer votre candidature pour le rejoindre. Vous pouvez chercher soit par tag soit par nom de clan."
+
+msgid "search/windowTitle"
+msgstr "Recherche de clan"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "Plan"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "Statistiques"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "Niveau %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "non définie"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "Cessez-le-feu :"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "Période de défense :"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "Serveur hôte :"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "Structures bâties :"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "Neutralité :"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "Plus grande quantité de ressources industrielles gagnées"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "Record de victoires consécutives"

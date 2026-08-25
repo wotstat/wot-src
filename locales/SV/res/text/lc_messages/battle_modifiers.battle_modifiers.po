@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "domain/accuracy/description"
+msgstr "En uppsättning parametrar som påverkar förmågan att träffa fienden."
+
+msgid "domain/accuracy/name"
+msgstr "Sikte"
+
+msgid "domain/armorPiercing/description"
+msgstr "En uppsättning parametrar som påverkar granaters genomslagsförmåga."
+
+msgid "domain/armorPiercing/name"
+msgstr "Pansargenomslag"
+
+msgid "domain/battleParams/description"
+msgstr "En uppsättning parametrar som påverkar spelets grundläggande funktioner."
+
+msgid "domain/battleParams/name"
+msgstr "Grundläggande funktioner"
+
+msgid "domain/comp7LightSeasonModifiers/description"
+msgstr "Förändringar av vagnsegenskaper och spelregler speciellt för dessa strider."
+
+msgid "domain/comp7LightSeasonModifiers/name"
+msgstr "Förändringar i Pansarstorm Light"
+
+msgid "domain/comp7SeasonModifiers/description"
+msgstr "Förändringar av vagnsegenskaper och spelregler speciellt för dessa strider."
+
+msgid "domain/comp7SeasonModifiers/name"
+msgstr "Förändringar i Pansarstorm"
+
+msgid "domain/concealment/description"
+msgstr "En uppsättning parametrar som påverkar vagnens förmåga att förbli osedd."
+
+msgid "domain/concealment/name"
+msgstr "Kamouflage"
+
+msgid "domain/damageDealing/description"
+msgstr "En uppsättning parametrar som påverkar vagnens förmåga att skada fienden."
+
+msgid "domain/damageDealing/name"
+msgstr "Skada"
+
+msgid "domain/mobility/description"
+msgstr "En uppsättning parametrar som påverkar vagnens manöverförmåga och dynamiska egenskaper."
+
+msgid "domain/mobility/name"
+msgstr "Manöverförmåga och rörlighet"
+
+msgid "domain/randomization/description"
+msgstr "En uppsättning parametrar som påverkar omfånget för skadeverkan och genomslag."
+
+msgid "domain/randomization/name"
+msgstr "Slumpvärden"
+
+msgid "domain/sustaining/description"
+msgstr "En uppsättning parametrar som påverkar reparationer och återhämtning för skadade moduler/besättningsmedlemmar."
+
+msgid "domain/sustaining/name"
+msgstr "Återhämtningsförmåga"
+
+msgid "domain/visibility/description"
+msgstr "En uppsättning parametrar som påverkar vagnens förmåga att upptäcka fienden."
+
+msgid "domain/visibility/name"
+msgstr "Sikt"
+
+msgid "domain/vitality/description"
+msgstr "En uppsättning parametrar som påverkar vagnens förmåga att överleva i strid."
+
+msgid "domain/vitality/name"
+msgstr "Motståndskraft"
+
+msgid "modifier/name/aimingTime"
+msgstr "Sikttid"
+
+msgid "modifier/name/ammoBayHealth"
+msgstr "Tålighet för ammunitionsställ"
+
+msgid "modifier/name/autoreloadTime"
+msgstr "Omladdningstid för vagnar utan automatladdare"
+
+msgid "modifier/name/battleLength"
+msgstr "Stridens längd"
+
+msgid "modifier/name/bkMaxSpeed"
+msgstr "Backhastighet"
+
+msgid "modifier/name/burstInterval"
+msgstr "Omladdningstid för magasinet"
+
+msgid "modifier/name/chassisHealth"
+msgstr "Tålighet för skrov"
+
+msgid "modifier/name/clipInterval"
+msgstr "Omladdningstid mellan granater i magasinet"
+
+msgid "modifier/name/damageRandomization"
+msgstr "Potentiellt skadeomfång"
+
+msgid "modifier/name/deviceDamageFirst"
+msgstr "Skada på interna moduler"
+
+msgid "modifier/name/dispFactorAfterShot"
+msgstr "Siktesspridning efter eldgivning"
+
+msgid "modifier/name/dispFactorChassisMovement"
+msgstr "Siktesspridning i rörelse"
+
+msgid "modifier/name/dispFactorChassisRotation"
+msgstr "Siktesspridning vid skrovrotation"
+
+msgid "modifier/name/dispFactorTurretRotation"
+msgstr "Siktesspridning vid tornrotation"
+
+msgid "modifier/name/dispFactorWhileGunDamaged"
+msgstr "Siktesspridning med skadad kanon"
+
+msgid "modifier/name/engineFireFactor"
+msgstr "Risk för motorbrand"
+
+msgid "modifier/name/engineHealth"
+msgstr "Tålighet för motor"
+
+msgid "modifier/name/enginePower"
+msgstr "Motorstyrka"
+
+msgid "modifier/name/envChassisDamage"
+msgstr "Skada åsamkad upphängningen vid kollision"
+
+msgid "modifier/name/envHullDamage"
+msgstr "Skada åsamkad skrovet vid kollision"
+
+msgid "modifier/name/envModuleDamageChance"
+msgstr "Skada åsamkad andra moduler vid kollision"
+
+msgid "modifier/name/envTankmanDamageChance"
+msgstr "Besättningsskada vid kollision"
+
+msgid "modifier/name/equipmentCooldown"
+msgstr "Nedkylningstid för förnödenheter"
+
+msgid "modifier/name/fuelTankHealth"
+msgstr "Tålighet för bränsletank"
+
+msgid "modifier/name/fwMaxSpeed"
+msgstr "Topphastighet"
+
+msgid "modifier/name/gravityFactor"
+msgstr "Gravitationseffekt på vagnar"
+
+msgid "modifier/name/gunHealth"
+msgstr "Tålighet för kanon"
+
+msgid "modifier/name/gunRotationSpeed"
+msgstr "Kanonrotation i kasematt"
+
+msgid "modifier/name/invisibilityOnMove"
+msgstr "Kamouflageförmåga i rörelse"
+
+msgid "modifier/name/invisibilityOnStill"
+msgstr "Kamouflageförmåga stillastående"
+
+msgid "modifier/name/normalizationAngle"
+msgstr "Granatnormalisering"
+
+msgid "modifier/name/piercingPowerRandomization"
+msgstr "Potentiellt genomslagsomfång"
+
+msgid "modifier/name/radioDistance"
+msgstr "Signalräckvidd"
+
+msgid "modifier/name/reloadTime"
+msgstr "Omladdningstid"
+
+msgid "modifier/name/repairSpeed"
+msgstr "Reparationshastighet"
+
+msgid "modifier/name/ricochetAngle"
+msgstr "Rikoschettvinkel. Ju skarpare vinkeln är, desto högre är chansen att granaten rikoschetterar"
+
+msgid "modifier/name/rotationSpeedOnStill"
+msgstr "Skrovrotation"
+
+msgid "modifier/name/shellGravity"
+msgstr "Gravitationseffekt på granater"
+
+msgid "modifier/name/shellSpeed"
+msgstr "Utgångshastighet"
+
+msgid "modifier/name/shotDispersionRadius"
+msgstr "Siktesspridning på 100 m"
+
+msgid "modifier/name/surveyingDeviceHealth"
+msgstr "Tålighet för observationsenhet"
+
+msgid "modifier/name/turretPressureDamage"
+msgstr "Tryckskada från avsprängt torn"
+
+msgid "modifier/name/turretRammingDamage"
+msgstr "Skada från kollision med avsprängt torn"
+
+msgid "modifier/name/turretRotationSpeed"
+msgstr "Tornrotation"
+
+msgid "modifier/name/turretRotatorHealth"
+msgstr "Tålighet för torntravers"
+
+msgid "modifier/name/twinGunReloadTime"
+msgstr "Omladdning i salveldsläge"
+
+msgid "modifier/name/vehicleAoIRadius"
+msgstr "Renderingsavstånd"
+
+msgid "modifier/name/vehicleHealth"
+msgstr "Vagnens träffpoäng"
+
+msgid "modifier/name/vehiclePressureDamage"
+msgstr "Tryckskada"
+
+msgid "modifier/name/vehicleRammingDamage"
+msgstr "Skada från rammning"
+
+msgid "modifier/name/visionMinRadius"
+msgstr "Avstånd för närhetsupptäckande"
+
+msgid "modifier/name/visionRadius"
+msgstr "Siktsträcka"
+
+msgid "modifier/name/visionTime"
+msgstr "Synlighetstid"
+
+msgid "modifier/name/zeroDamage"
+msgstr "Skada åsamkad av granater och rammning"
+
+msgid "modifier/name/zeroEconomy"
+msgstr "Resurser intjänade och spenderade i stridsläget"
+
+msgid "modifiersDomainTooltip/restrict/max"
+msgstr "inte&nbsp;mer än&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/min"
+msgstr "inte&nbsp;mindre än&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/oneRestriction"
+msgstr "(men {restriction})"
+
+msgid "modifiersDomainTooltip/restrict/twoRestriction"
+msgstr "(men {min}, {max})"
+
+msgid "modifiersDomainTooltip/subtitle/plural"
+msgstr "Förändringarna påverkar följande parametrar:"
+
+msgid "modifiersDomainTooltip/subtitle/single"
+msgstr "Förändringen påverkar följande parameter:"

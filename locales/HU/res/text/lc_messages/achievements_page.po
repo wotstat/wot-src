@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Pontok, amelyek növelik az összesített kitüntetéspontszámodat."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Kitüntetéspontok"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "A kitüntetéshez szükséges összes lépést teljesítetted, és megkaptad az összes elérhető jutalmat."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Nyomd meg az %(escIcon)s gombot, hogy visszatérj a KATALÓGUS előző szintjére!"
+
+msgid "catalog/rootLink"
+msgstr "KATALÓGUS"
+
+msgid "category/achievementsScore/title"
+msgstr "KITÜNTETÉSPONTSZÁM"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "A kitüntetések gyűjtése során az előrehaladásodat jelző fő mutatószám. A trófeák kivételével minden új kitüntetés növeli az összesített kitüntetéspontszámot."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Összesített kitüntetéspontszám: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "LEGUTÓBBI\nKITÜNTETÉSEK"
+
+msgid "category/title"
+msgstr "A JÁTÉKOS GYŰJTEMÉNYE"
+
+msgid "category/upcoming/title"
+msgstr "KÖZELGŐ\nKITÜNTETÉSEK"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s és mások"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Kitüntetés feloldva!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "%(count)s kitüntetés feloldva!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s és mások"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Új trófeát szereztél!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "%(count)s trófeát szereztél!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "Az Automatikus megjelenítés érték szerint rendezi az összes kategória jutalmait az értékes kitüntetések szalagon. A jutalmak manuális átrendezésével kikapcsolod azt."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "Az Automatikus megjelenítés érték szerint rendezi az összes kategória jutalmait az értékes kitüntetések szalagon. A beállítás bekapcsolásával a manuális elrendezés visszaáll."
+
+msgid "editConfirm/description/error"
+msgstr "Vizsgáljuk a problémát. Kérjük, próbáld újra a szerkesztést később. Addig is átirányítunk az Összefoglalóra."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Mentés"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Mégse"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Értettem!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Automatikus megjelenítés kikapcsolva"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Automatikus megjelenítés bekapcsolva"
+
+msgid "editConfirm/title/error"
+msgstr "Hiba történt"
+
+msgid "editConfirm/title/normal"
+msgstr "Alkalmazod az értékes kitüntetések szalag változtatásait?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Változtatások visszavonása"
+
+msgid "editView/footer/button/save"
+msgstr "Alkalmaz és kilép"
+
+msgid "editView/header/checkbox"
+msgstr "Automatikus megjelenítés"
+
+msgid "editView/header/close"
+msgstr "BEZÁRÁS"
+
+msgid "editView/header/title/idle"
+msgstr "Válaszd ki a szalagon megjelenítendő jutalmakat"
+
+msgid "editView/header/title/selecting"
+msgstr "Válaszd ki a lecserélendő jutalmat"
+
+msgid "editView/header/title/tutorial"
+msgstr "Válassz egy jutalomférőhelyet"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Mégse"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Lecserélés"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "ITT LÁTHATOD A\nKITÜNTETÉSEIDET"
+
+msgid "hint/profile"
+msgstr "ITT LÁTHATOD A\nKITÜNTETÉSEIDET"
+
+msgid "hint/summary/customizationButton"
+msgstr "Szerkeszthető"
+
+msgid "notifications/editingEnabled/button"
+msgstr "A szalaghoz"
+
+msgid "notifications/editingEnabled/title"
+msgstr "Az értékes kitüntetések szalagja szerkeszthető"
+
+msgid "notifications/firstEntry/button"
+msgstr "Szolgálati feljegyzés"
+
+msgid "notifications/firstEntry/text"
+msgstr "World of Tanks értékelés,\njutalmak szerkesztése."
+
+msgid "notifications/firstEntry/title"
+msgstr "A szolgálati feljegyzés frissítése"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "A szolgálati feljegyzéshez"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "A jutalmak szerkesztése\nés a vizuális felépítés."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "A szolgálati feljegyzés frissítése"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "A szolgálati feljegyzéshez"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "A szinted: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Kiszámítottuk az értékelésedet!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "A szolgálati feljegyzéshez"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "Megváltozott a World of Tanks értékelésed. Menj a Szolgálati feljegyzés szekcióba a részletek megtekintéséhez."
+
+msgid "notifications/ratingUp/button"
+msgstr "A szolgálati feljegyzéshez"
+
+msgid "notifications/ratingUp/text"
+msgstr "Elérted a következő szintet: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Az értékelésed nőtt!"
+
+msgid "playerInfo/clan/button"
+msgstr "Klánprofil"
+
+msgid "playerInfo/clan/date"
+msgstr "A csatlakozás dátuma:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "A játékosnak nincs állandó taktikai egysége"
+
+msgid "playerInfo/clan/post"
+msgstr "Pozíció:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "A személyes dögcédula\nátmenetileg nem elérhető"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "Nem tudtuk kiszámítani a játékos értékelését: Kevesebb, mint %(amount)s csatát vívott meg."
+
+msgid "ratingWidget/status/initial"
+msgstr "Vívj meg %(amount)s csatát a World of Tanks értékelés kiszámításához."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "A játékos értékelését még nem számítottuk ki"
+
+msgid "ratingWidget/status/progress"
+msgstr "A World of Tanks értékelésed kiszámítása. Hátralévő csaták: %(amount)s."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Indulj csatába, mi pedig majd kiszámítjuk az értékelésedet."
+
+msgid "rewardView/button/achievements"
+msgstr "A kitüntetésekhez"
+
+msgid "rewardView/button/dogTag"
+msgstr "A dögcédulához"
+
+msgid "rewardView/button/dogTags"
+msgstr "A dögcédulákhoz"
+
+msgid "rewardView/button/moreRewards"
+msgstr "%(value)s másik megjelenítése"
+
+msgid "rewardView/reward/dogTag"
+msgstr "%(value)s dögcédula"
+
+msgid "rewardView/title/multi"
+msgstr "KITÜNTETÉSJUTALMAK MEGSZEREZVE"
+
+msgid "rewardView/title/single"
+msgstr "KITÜNTETÉSJUTALOM MEGSZEREZVE"
+
+msgid "section/action"
+msgstr "Különleges"
+
+msgid "section/battle"
+msgstr "Csata Hősei"
+
+msgid "section/class"
+msgstr "Többfokozatú kitüntetések"
+
+msgid "section/epic"
+msgstr "Epikus medálok"
+
+msgid "section/group"
+msgstr "Csapatkitüntetések"
+
+msgid "section/memorial"
+msgstr "Emlékérmék"
+
+msgid "section/special"
+msgstr "Tiszteletbeli rangok"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "A KITÜNTETÉSEKHEZ"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Utolsó csata: %(lastVisitDate)s %(lastVisitTime)s-kor"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "A fiók létrehozva: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Háttér"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Alapértelmezett"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Tűz"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Arany"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Legendás"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Retró"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Kirobbanó"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Változtatások visszavonása"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Szalag"
+
+msgid "summary/achievements/customization/save"
+msgstr "Alkalmaz és kilép"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "Technikai problémák miatt jelenleg nem lehet testre szabni a Szolgálati feljegyzés képernyőt. Dolgozunk a hiba kijavításán. Frissítsd az oldalt, vagy térj vissza később."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "A testreszabás átmenetileg nem érhető el"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Értékes kitüntetések"
+
+msgid "summary/achievements/total"
+msgstr "Összesen: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Egyedi: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Átlag: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Győzelmek: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Átlag: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Átlag: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Rekord: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Átlag: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Indulj csatába, amíg mi összekészítjük az adataidat."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Az információ ideiglenesen nem érhető el."
+
+msgid "summary/disabled/title"
+msgstr "A további információkat később érheted el"
+
+msgid "summary/main/assistance"
+msgstr "KÖZREMŰKÖDÉSI\nREKORD"
+
+msgid "summary/main/battles"
+msgstr "MEGVÍVOTT\nCSATÁK"
+
+msgid "summary/main/blocked"
+msgstr "MAXIMÁLIS\nFELFOGOTT SEBZÉS"
+
+msgid "summary/main/damage"
+msgstr "SEBZÉSI\nREKORD"
+
+msgid "summary/main/destroyed"
+msgstr "MEGSEMMISÍTETT\nJÁRMŰVEK"
+
+msgid "summary/main/experience"
+msgstr "TAPASZTALATI\nREKORD"
+
+msgid "summary/statistic/title"
+msgstr "World of Tanks értékelés"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Személyes értékelés"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Maximális sebzés a közreműködésednek köszönhetően."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Maximális sebzés a közreműködésednek köszönhetően egy csatában a(z) %(tankName)s harckocsival."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Közreműködési rekord: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "A közreműködésednek köszönhetően az ellenséges járműveknek okozott összes sebzés és a megvívott csaták számának aránya. Közreműködésnek számít:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• A felderítésed általi sebzés\n• Az általad megsemmisített lánctalpak miatt mozgásképtelen járműveknek okozott sebzés"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Átlagos közreműködés: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "A győzelmek és a megvívott csaták számának aránya."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Beleszámít:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Győzelmek: %(wins)s\n• Vereségek: %(loses)s\n• Döntetlenek: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Győzelmi arány: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Megvívott csaták: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Maximális felfogott sebzés."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Maximális felfogott sebzés egy csatában a(z) %(tankName)s harckocsival."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Maximális felfogott sebzés: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "A nem átütő vagy lepattanó PCT, KUM és KPCT lövedékekből származó, páncélzat által felfogott sebzés és a megvívott csaták számának aránya."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Átlagos felfogott sebzés: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Maximális okozott sebzés."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Maximális okozott sebzés egy csatában a(z) %(tankName)s harckocsival."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Sebzési rekord: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Az összes okozott sebzés és a megvívott csaták számának aránya."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Átlagos sebzés: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "A megsemmisített járművek maximális száma."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "A megsemmisített járművek maximális száma egy csatában a(z) %(tankName)s harckocsival."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Maximálisan megsemmisített: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "A megsemmisített ellenséges járművek száma az összes csatában."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Megsemmisített járművek: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "A maximális megszerzett tapasztalat."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "A maximális szerzett tapasztalat mennyisége egy csatában a(z) %(tankName)s harckocsival."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Tapasztalati rekord: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Az összes megszerzett tapasztalat és a megvívott csaták számának aránya."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Átlagos tapasztalat: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Se a győzelem, sem pedig a vereség nem befolyásolja a World of Tanks értékelésed kiszámítását."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Játssz különböző járművekkel, hogy megtaláld a leghatékonyabb járműveket a következő teljesítményparaméterek alapján:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "A WTR egy olyan értékelési rendszer, amely minden egyes járműre egyéni értékelést számít ki, majd ezt használja fel a játékos általános teljesítményének meghatározásához. A rendszer rugalmasan reagál a harci stratégia változásaira, és összehasonlítja a játékos statisztikáit a szerver átlagával."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Okozott sebzés"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Sebzés a közreműködésed által"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Megsemmisített ellenséges járművek száma"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Felfogott sebzés és túlélési arány"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "WTR növelése"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "World of Tanks értékelés"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Az értékelés kiszámításáig hátralévő csaták: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Szint: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Limit elérve!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "A szinted növeléséhez szükséges pontok: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "Bronz %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "Ezüst %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "Arany %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "Ász %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "Legenda %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Szint"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Pontszám"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "World of Tanks értékelés"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "A beállítás bekapcsolásával az általad beállított sorrend %(whiteSpanish_Open)svisszaáll%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "A beállítás kikapcsolása vagy a manuális beállítás után a jutalmak a szalagon %(whiteSpanish_Open)smár nem%(whiteSpanish_Close)s %(whiteSpanish_Open)sfrissülnek%(whiteSpanish_Close)s %(whiteSpanish_Open)sautomatikusan%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "%(whiteSpanish_Open)sAz összes kategória%(whiteSpanish_Close)s jutalmainak automatikus rendezése az értékük alapján az értékes kitüntetések szalagon való megjelenítéshez."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Automatikus megjelenítés"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "Az értékes kitüntetések szalagjának szerkesztése átmenetileg nem érhető el. Kérjük, próbáld újra később."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Még nincsenek itt elhelyezhető jutalmaid. Szerezz jutalmakat a %(whiteSpanish_Open)scsatákban%(whiteSpanish_Close)s vagy a %(whiteSpanish_Open)sjátékeseményeken való részvételért.%(whiteSpanish_Close)s"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "Az értékes kitüntetések szalagjának szerkesztése elérhetővé válik, miután megszereztél %(whiteSpanish_Open)s%(amount)s vagy több jutalmat%(whiteSpanish_Close)s bármelyik kategóriából."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Nincsenek jutalmaid, amiket elhelyezhetnél ide."
+
+msgid "tooltips/mastery/body"
+msgstr "A megszerzett Tank ász mesterjelvények az összes releváns csatamódban / Azon járművek száma, amelyek legalább egy Normál csatában részt vettek"
+
+msgid "tooltips/mastery/header"
+msgstr "Mesterjelvények: Tank ász"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "A személyes értékelés a játékos képességeinek és tapasztalatának mutatója, és a következőkön alapul:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "A személyes értékelés minden egyes újabb megvívott csatával frissül."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Győzelmek\n• A közreműködésednek köszönhetően okozott sebzés\n• Csatánkénti átlagos sebzés\n• Csatánkénti átlagos tapasztalat\n• Túlélt csaták"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Személyes értékelés"

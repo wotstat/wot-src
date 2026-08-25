@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "На всички налични сървъри е в сила примирие."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "На този сървър е в сила примирие."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Смени сървъра"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "\"Стоманен ловец\" приключи"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Режимът не е наличен на този сървър"
+
+msgid "banner/info/disabled"
+msgstr "Примирие"
+
+msgid "banner/info/seasonActive"
+msgstr "Втори шанс и награди"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "До %(day)s %(month)s"
+
+msgid "banner/subtitle"
+msgstr "Кралска битка с ценни награди"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s ч."
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s ч. %(minutes)s мин."
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s мин."
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "СТОМАНЕН ЛОВЕЦ"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Битката ще продължи от нова позиция."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Скоро ще се съживите"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Съживяване"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Няма да има втори шанс."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Съживяването не е достъпно повече"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Съживяването скоро ще стане недостъпно!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Бъдете по-внимателни този път."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Машината ви е готова за битка!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Връщане в битка"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Водят се активни бойни действия."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Съживяването не е налично"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Намерете заряд за съживяване, за да я върнете в действие."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Унищожена е съюзническа машина"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Съживяване"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "Две машини е по-добре от една!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Съюзническата машина е съживена"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Стойте настрани от битката!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Съживяване на съюзник"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Активиран е бонус!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Награда за първо място"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Събрано в битка"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "ПОБЕДА"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Главата не е избрана. Неизползвани точки за Боен пропуск: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Всички глави са завършени. Продължете да играете и да трупате точки за Боен пропуск."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Отиди на Боен пропуск"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Боен пропуск"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Изберете глава"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Отиди на напредъка за активната глава"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Отиди на Боен пропуск"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Мисии, изпълнени на битка: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Мисии"
+
+msgid "battleResult/battleReward/title"
+msgstr "ПОЛУЧЕНО ЗА БИТКА"
+
+msgid "battleResult/button/hangar"
+msgstr "Към Парка"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Точките и наградите ще бъдат разпределени, след като всички играчи завършат тази битка. Мисиите също ще бъдат оценени въз основа на резултатите от битката."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Натиснете %(esc), за да пропуснете анимацията"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Покани във взвод"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Съюзник"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Произволен съюзник"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Вид битка"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "САМОСТОЯТЕЛНА БИТКА"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "С Танков премиум акаунт бихте получили:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Общи стойности с Танков премиум акаунт"
+
+msgid "battleResult/progressStage"
+msgstr "Напредък по етап {stage}"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Вашето истинско потребителско име и кланов таг не се показват на други играчи в битката."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Истинско име на играча: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Истинското име на играча беше променено на {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Количеството поражения, спрени от бронята на машината ви."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Количеството поражения, нанесени от вас."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Броя вражески машини, унищожени от вас."
+
+msgid "battleResult/stats/body/place"
+msgstr "Вашата позиция според резултатите от битката."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Броя вражески машини, унищожени от вашия взвод."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Спрени поражения"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Нанесени поражения"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Унищожени от вас"
+
+msgid "battleResult/stats/header/place"
+msgstr "Позиция"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Унищожени от взвода"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Спрени поражения"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Нанесени поражения"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Унищожени от вас"
+
+msgid "battleResult/stats/title/place"
+msgstr "Позиция"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Унищожени от взвода"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Класация"
+
+msgid "battleResult/tab/result"
+msgstr "Резултати от битка"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "ВЗВОДЪТ Е УНИЩОЖЕН"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "МАШИНАТА Е УНИЩОЖЕНА"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "ПОБЕДА"
+
+msgid "battleResult/title/victoryOther"
+msgstr "ПОЧЕТНО МЯСТО"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Изберете една от специалните машини за \"Стоманен ловец\"."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Несъвместима машина"
+
+msgid "button/modules"
+msgstr "ТЕХН. ДЪРВО"
+
+msgid "button/repair"
+msgstr "Ремонтирай"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Битките са временно недостъпни"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Битките са временно недостъпни"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Режимът е недостъпен"
+
+msgid "ceasefire/header/schedule"
+msgstr "Разписание на битките"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Примирието е в сила на всички налични сървъри. Можете да видите графика по-долу."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "На този сървър е в сила примирие. Можете да превключите към друг сървър, за да получите достъп до режима."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "\"Стоманен ловец\" не е наличен на този сървър. Можете да превключите към друг сървър, за да получите достъп до него."
+
+msgid "commanderInfo/commonRank"
+msgstr "Командир"
+
+msgid "commanderInfo/description/china"
+msgstr "\"Вече съм спечелил. Скоро ще го разбереш.\""
+
+msgid "commanderInfo/description/france"
+msgstr "\"Аз съм закона!\""
+
+msgid "commanderInfo/description/germany"
+msgstr "\"Днес е славен ден, който ще остане в историята.\""
+
+msgid "commanderInfo/description/poland"
+msgstr "\"Няма време за добри обноски.\""
+
+msgid "commanderInfo/description/sweden"
+msgstr "\"Всичко върви по план.\""
+
+msgid "commanderInfo/description/uk"
+msgstr "\"Какъвто и да си, бъде най-добрият.\""
+
+msgid "commanderInfo/description/usa"
+msgstr "\"Томахавката е изровена, прясно лъсната и наточена.\""
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"Победителят взима всичко!\""
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Пьотр Лопахин"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Умения"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nСпециална машина за Стоманен ловец"
+
+msgid "fragPanel/squadsCount"
+msgstr "Взводове: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Класация"
+
+msgid "hangarResults/btns/summary"
+msgstr "Резултати от битка"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "ЗАТВОРИ"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Модулите могат да бъдат подобрявани само в битка. За да отворите Дървото за изследване, в битка натиснете %(key)s."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s и %(highlight2)s, за да получите опит. Всяко ново ниво позволява на играча да подобри модул от Дървото за изследване и значително да повиши характеристиките на машината."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Нанасяйте поражения на вражески машини"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "събирайте трофеи по картата"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Подобряване на машината в битка"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Влизате в битка с машина ниво I."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Модулите могат да бъдат подобрявани от Дървото за изследване по време на битка (по подразбиране с клавиш %(treeKey)s) и чрез натискане на комбинация от клавиши %(leftModuleKey)s и %(rightModuleKey)s.\n\nМодулите могат да бъдат подобрявани само в битка."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "В битка:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Вашият Стоманен ловец получава опит в битка като нанася поражения и събира трофеи. Щом бъде събрано необходимото количество опит, можете да достигнете следващото ниво и да изберете подобрение за един от модулите."
+
+msgid "levelUp/severalTitles"
+msgstr "ПОЛУЧЕНИ НИВА: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "ПОЛУЧЕНО Е НИВО %(level)s!"
+
+msgid "levelUp/twoTitles"
+msgstr "ПОЛУЧЕНИ НИВА: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Изпълнявайте мисии и получете ценни награди."
+
+msgid "level_up/max_level_info/title"
+msgstr "Достъпни са нови дневни мисии"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Сезонът\nзапочва скоро"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Сезонът ще започне на %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Блокирани"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Поражения"
+
+msgid "playerStats/killsStat/name"
+msgstr "Унищожен"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Унищожен"
+
+msgid "playerStats/placeStat/name"
+msgstr "Място"
+
+msgid "playerStats/title"
+msgstr "Личен резултат"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Радарът е недостъпен: тече подготовка"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Машината е в пълна изправност. Не е нужно възстановяване."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Бойният робот е унищожен"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s унищожи %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s унищожи враг %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Кълбовидната мълния е унищожена"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Мините изтекоха"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Мините са положени"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Радарът е готов за използване"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Машината достигна максималното ниво"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Достигнато е ниво %(level)s"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Монтирано: %(moduleType)s. Подобрено: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Корпус"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Окачване"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Двигател"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Оръдие"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Радар"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Купол"
+
+msgid "playersPanel/title"
+msgstr "ОТБОР"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Превключване между машините от взвода."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Режим на зрител"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Обратно в Парка.\nВлезте в битка с друга машина."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Обратно в Парка"
+
+msgid "preBattle/buttonTitle"
+msgstr "БИТКА!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Изберете карта"
+
+msgid "preBattle/listTitle"
+msgstr "ГОТОВНОСТ НА ИГРАЧА"
+
+msgid "preBattle/mapArzagir"
+msgstr "Арзагир 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Зона 404"
+
+msgid "preBattle/mapRandom"
+msgstr "Случайна карта"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "МАШИНИ ОТ ВЗВОДА"
+
+msgid "preBattle/title"
+msgstr "ГОЛЯМ ЛОВ"
+
+msgid "preBattle/userFooterTitle"
+msgstr "ИЗБРАНИ МАШИНИ"
+
+msgid "preBattle/userNotReady"
+msgstr "Не е готов"
+
+msgid "preBattle/userReady"
+msgstr "Готов"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Сезон %(cycleNo)s на сървър %(server)s завърши"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "Сезонът на сървър %(server)s завърши."
+
+msgid "proxyPanel/button"
+msgstr "Магазин"
+
+msgid "proxyPanel/label"
+msgstr "Стоманени\nпечати"
+
+msgid "proxyPanel/store"
+msgstr "МАГАЗИН"
+
+msgid "questsTooltip/timeLeft"
+msgstr "Сезонът завършва след %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "За радара не е определен клавиш"
+
+msgid "radar/hint/press"
+msgstr "Натиснете"
+
+msgid "radar/hint/text"
+msgstr "за активиране на радара"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Приземи се"
+
+msgid "selectRespawn/button/land"
+msgstr "Приземи се"
+
+msgid "selectRespawn/description"
+msgstr "Натиснете върху една от предложените точки. Ако не изберете точка, ще се приземите на случаен принцип."
+
+msgid "selectRespawn/header"
+msgstr "Изберете точка за приземяване"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Натиснете върху една от предложените точки. Ако не изберете точка, ще се приземите на случаен принцип."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Вашата битка започва тук"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Изберете точка за приземяване"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s д."
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s ч. %(min)s мин."
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 мин."
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s мин."
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "БУЙСТВО!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Киселината разяжда бронята!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Зоната е затворена! Напуснете зоната или машината ви ще бъде унищожена!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "Зоната скоро ще стане червена"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Мобилността е повишена!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Обратно на вериги..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Възстановяване на точки живот"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Възстановяване на точки живот"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Конвертиране на поражения"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Техническите характеристики са подобрени"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Снаряди и възстановяване"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Доставка по въздух"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Ремонтен комплект или заряд на способностите"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Военни трофеи"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Общо военни трофеи: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Събира се: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Ремонтна зона"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Нарастваща разпаленост!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "В дим"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Бронята ни се разпада!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Мобилността е повишена!"
+
+msgid "techParams/type/damage"
+msgstr "Поражения"
+
+msgid "techParams/type/difficulty"
+msgstr "Трудност"
+
+msgid "techParams/type/mobility"
+msgstr "Мобилност"
+
+msgid "techParams/type/spotting"
+msgstr "Откриване"
+
+msgid "techParams/type/survivability"
+msgstr "Издръжливост"
+
+msgid "techtree/body_armor"
+msgstr "Броня"
+
+msgid "techtree/body_health"
+msgstr "Точки живот"
+
+msgid "techtree/body_mobility"
+msgstr "Мобилност"
+
+msgid "techtree/engine_acceleration"
+msgstr "Динамика"
+
+msgid "techtree/engine_speed"
+msgstr "Максимална скорост"
+
+msgid "techtree/gun_alpha"
+msgstr "Поражения на изстрел"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Авто дозареждане"
+
+msgid "techtree/gun_clip"
+msgstr "Касетъчно презареждане"
+
+msgid "techtree/gun_dpm"
+msgstr "Скорост на зареждане"
+
+msgid "techtree/gun_dualgun"
+msgstr "Сдвоено оръдие"
+
+msgid "techtree/gun_he"
+msgstr "Поражения с ОФ"
+
+msgid "techtree/gun_machinegun"
+msgstr "Противотанкова картечница"
+
+msgid "techtree/gun_piercing"
+msgstr "Бронебойност"
+
+msgid "techtree/radar_cooldown"
+msgstr "Презареждане на радара"
+
+msgid "techtree/radar_distance"
+msgstr "Обхват на покритие"
+
+msgid "techtree/turret_armor"
+msgstr "Броня"
+
+msgid "techtree/turret_health"
+msgstr "Точки живот"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Скорост на въртене"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "До {{credits}} кредита"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "До {{experience}} опит"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Бонус за битка във взвод"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Бийте се във взвод с произволен съюзник. Играйте като отбор срещу девет вражески взвода. В този режим могат да се изпълняват мисии за взвод. Взводът ще бъде автоматично разпуснат след битката."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Класически Стоманен ловец. Всеки играч се бори сам за себе си. Събирайте ресурси, подобрявайте машината си и използвайте уникалните й способности, за да бъдете последният оцелял!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Бийте се във взвод с приятел. Играйте като отбор срещу девет вражески взвода. В този режим могат да се изпълняват мисии за взвод."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Произволен взвод"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Соло режим"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Взвод с приятел"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Соло"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Взвод"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Правила за печелене на точки"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s място"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s места"
+
+msgid "tooltips/awards/achievement"
+msgstr "Медал"
+
+msgid "tooltips/awards/badge"
+msgstr "Нашивка"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "Позволява ви да се върнете в битка, след като машината ви е унищожена. Когато това се случи, нивото на подобрение на машината не се губи. Може да се използва само ограничен брой пъти на битка."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Заряди за връщане в битка могат да бъдат получени от доставка по въздух."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "За да съживите съюзник, стойте извън битката за {brown_Open}%(timeToResurrect)s сек{brown_Close}. Тази механика работи в рамките на първите {brown_Open}%(duration)s мин{brown_Close} от битката. Зарядите за съживяване се споделят между членовете на взвода."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "При игра във взвод"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "След като бъде унищожена, машината ви се съживява автоматично. Тази механика работи в рамките на първите {brown_Open}%(duration)s мин{brown_Close} от битката."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "При самостоятелна игра"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Еднократна употреба"
+
+msgid "tooltips/respawn/title"
+msgstr "Съживяване"
+
+msgid "tooltips/vehicle/description"
+msgstr "Машина за режим \"Стоманен ловец\""
+
+msgid "tournament/description"
+msgstr "ГОЛЯМ ЛОВ"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Не е готов"
+
+msgid "tournament/fightButton/ready"
+msgstr "Готов!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Неуспешно влизане в турнира. Код за грешка: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Грешка в турнира \"Голям лов\". Код за грешка: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "ГОЛЯМ ЛОВ"
+
+msgid "tournament/type/solo"
+msgstr "Вид: Соло"
+
+msgid "tournament/type/squad"
+msgstr "Вид: Взводен"
+
+msgid "upgradePanel/alert/0"
+msgstr "Не можете да подобрявате машината си!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Не можете да подобрявате машината по време на активни бойни действия!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Не можете да подобрявате машината си. Машината потъва!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Не можете да подобрявате машината си. Машината е преобърната!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Натиснете %(key)s за отваряне на Дървото за изследване"
+
+msgid "upgradePanel/title/default"
+msgstr "Достъпен е нов модул"
+
+msgid "upgradePanel/title/hull"
+msgstr "Достъпен е нов корпус"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Достъпна е нова ходова част"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Достъпен е нов двигател"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Достъпно е ново оръдие"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Достъпна е нова радиостанция"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Достъпен е нов купол"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "ИЛИ"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Броня"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Поражения на изстрел"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Скорост на зареждане"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Точки живот"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Бронебойност"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Качество на радара"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Касетъчна зарядна система"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Скорост"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Особености на машината"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Преимущества"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Недостатъци"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "На всички сървъри е в сила примирие. Битките ще бъдат достъпни след %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Избери друг сървър"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Епизод %(cycle)s завърши"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Епизодът завърши"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "На сървъра е в сила примирие. Битките ще бъдат достъпни след %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "На %(serverName)s е в сила примирие"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Епизод %(cycle)s ще започне след %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "Първият епизод ще започне след %(time)s"

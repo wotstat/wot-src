@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "closeButtonLabel"
+msgstr "UŽDARYTI"
+
+msgid "featureName"
+msgstr "ĮRAŠAI"
+
+msgid "filter/apply"
+msgstr "Pritaikyti filtrą"
+
+msgid "filter/group/nation/title"
+msgstr "Nacija"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Lygis"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Lygis"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specializacija"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Technikos tipas"
+
+msgid "filter/reset"
+msgstr "Pašalinti filtrą"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Rodyti/slėpti šios nacijos įgulos narius."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Rodyti/slėpti šios nacijos įgulos apvalkalus."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Rodyti/slėpti šios nacijos mašinas."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Rodyti/slėpti šio tipo mašinas."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Prieštankiniai"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Artilerija"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Sunkieji tankai"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Lengvieji tankai"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Vidutiniai tankai"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nerasta mašinų, atitinkančių\npaieškos kriterijus"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Rūšiuoti pagal mašinų pavadinimus."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Pavadinimas"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Rūšiuoti pagal technikos lygį."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Lygis"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Rūšiuoti pagal mašinų tipus."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Tipas"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Pavadinimas"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Paspauskite norėdami pritaikyti filtravimo nustatymus."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Pritaikyti pasirinktus filtrus"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Paspauskite norėdami panaikinti filtravimo nustatymus."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Panaikinti visus filtrus"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Rodyti tik populiariausio laiko įrašus"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "%(count)s paskutinė diena"
+msgstr[1] "Paskutinės %(count)s dienos"
+msgstr[2] "Paskutinės %(count)s dienų"
+
+msgid "filterPopover/title"
+msgstr "Įrašų filtras"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Pasirinkite įrašų filtrą pagal mašinos tipą, lygį, naciją ir pan."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Filtruoti pagal parametrus"
+
+msgid "findReplay/buttonText/find"
+msgstr "Rasti įrašą"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Išvalyti pasirinkimus"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Žiūrėti įrašą!"
+
+msgid "findReplay/errorMessage"
+msgstr "Nieko nerasta. Pakeiskite savo reikalavimus"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Įrašykite ARENA_ID čia..."
+
+msgid "findReplay/successMessage"
+msgstr "DI rado jus dominantį įrašą! Pažiūrėkite"
+
+msgid "page/heading/bestReplays"
+msgstr "GERIAUSI ĮRAŠAI"
+
+msgid "page/heading/findReplay"
+msgstr "RASTI ĮRAŠĄ (PROGRAMUOTOJAMS)"
+
+msgid "page/heading/myReplays"
+msgstr "MANO ĮRAŠAI"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Čia rasite informacijos apie pačius geriausius įrašus iš visų WoT žaidėjų"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Čia galite rasti įrašus pagal parametrus"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Čia rasite informacijos apie JŪSŲ geriausius įrašus"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "Geriausi įrašai"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Rasti įrašą"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "Mano įrašai"
+
+msgid "statsParam/damageAssisted"
+msgstr "Top 1 pagal pagalbinę žalą"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Top 1 pagal užblokuotą žalą"
+
+msgid "statsParam/damageDealt"
+msgstr "Top 1 pagal padarytą žalą"
+
+msgid "statsParam/earnedXp"
+msgstr "Top 1 pagal uždirbtą patirtį"
+
+msgid "statsParam/kills"
+msgstr "Top 1 pagal sunaikintas mašinas"
+
+msgid "table/error/buttonText"
+msgstr "Atnaujinti"
+
+msgid "table/error/description"
+msgstr "Atsiprašome už laikinus nesklandumus. Pabandykite atnaujinti puslapį vėliau."
+
+msgid "table/error/title"
+msgstr "Klaida užkraunant duomenis"
+
+msgid "table/header/damageAssisted"
+msgstr "Pagalba"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Užblokuota žala"
+
+msgid "table/header/damageDealt"
+msgstr "Žala"
+
+msgid "table/header/date"
+msgstr "Data"
+
+msgid "table/header/earnedXp"
+msgstr "Uždirbta patirtis"
+
+msgid "table/header/kills"
+msgstr "Sunaikintų mašinų skaičius"
+
+msgid "table/header/map"
+msgstr "Žemėlapis"
+
+msgid "table/header/marksOfMastery"
+msgstr "Meistriškumo ženkliukai"
+
+msgid "table/header/player"
+msgstr "Žaidėjo vardas"
+
+msgid "table/header/vehicle"
+msgstr "Mašina"
+
+msgid "table/noRecords/buttonText"
+msgstr "Pašalinti filtrą"
+
+msgid "table/noRecords/title"
+msgstr "Nieko nerasta. Pakeiskite pasirinkimus arba pašalinkite filtrą."
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Paspauskite norėdami panaikinti filtravimo nustatymus."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Panaikinti visus filtrus"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Žaidėjo pagalbinės žalos kiekis šiame įraše"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Pagalbinė žala"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Žaidėjo užblokuotos žalos kiekis šiame įraše"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Šarvais užblokuota žala"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Žaidėjo padarytos žalos kiekis šiame įraše"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Padaryta žala"
+
+msgid "table/tooltip/date/body"
+msgstr "Įrašo padarymo data."
+
+msgid "table/tooltip/date/header"
+msgstr "Įrašo data."
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Žaidėjo uždirbtos patirties kiekis šiame įraše"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Uždirbta patirtis"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Žaidėjo uždirbtų epinių medalių skaičius šiame įraše"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Epiniai medaliai"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Paspaudimu išsaugokite šį įrašą tarp mėgstamiausių."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Mėgstamiausias"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Paspaudimu išimkite šį įrašą iš mėgstamiausių."
+
+msgid "table/tooltip/kills/body"
+msgstr "Šiame įraše žaidėjo sunaikintų mašinų skaičius"
+
+msgid "table/tooltip/kills/header"
+msgstr "Sunaikinta"
+
+msgid "table/tooltip/map/body"
+msgstr "Įrašo žemėlapis."
+
+msgid "table/tooltip/map/header"
+msgstr "Žemėlapis"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Žaidėjo uždirbtų svarbių ženkliukų skaičius šiame įraše"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Meistriškumo ženkliukai"
+
+msgid "table/tooltip/player/body"
+msgstr "Įraše rodomo žaidėjo vardas."
+
+msgid "table/tooltip/player/header"
+msgstr "Žaidėjo vardas"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Žaidėjo mašina, su kuria žaidžiant padarytas įrašas."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Mašina"
+
+msgid "tableInfo/amount"
+msgstr "Rodoma įrašų: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Filtras"
+
+msgid "waitingSpinner/message"
+msgstr "Užkrauname turinį..."

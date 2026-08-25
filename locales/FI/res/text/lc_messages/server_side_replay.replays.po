@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "closeButtonLabel"
+msgstr "SULJE"
+
+msgid "featureName"
+msgstr "TALLENTEET"
+
+msgid "filter/apply"
+msgstr "Käytä suodatinta"
+
+msgid "filter/group/nation/title"
+msgstr "Kansakunta"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Taso"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Taso"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Erikoistuminen"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Vaunutyyppi"
+
+msgid "filter/reset"
+msgstr "Nollaa suodatin"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Näytä/piilota tämän kansakunnan miehistön jäsenet."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Näytä/piilota tämän kansakunnan skinit."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Näytä/piilota tämän kansakunnan vaunut."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Näytä/piilota tämän tyyppiset vaunut."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "PST-vaunut"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Telatykit"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Raskaat vaunut"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Kevyet vaunut"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Keskiraskaat vaunut"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Hakuehtosi täyttäneitä\nvaunuja ei löydetty"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Järjestä vaunun nimen mukaan."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Nimi"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Järjestä vaunun tason mukaan."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Taso"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Järjestä vaunutyypin mukaan."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Tyyppi"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Nimi"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Klikkaa ottaaksesi käyttöön suodattimen asetukset."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Käytä valittuja suodattimia"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Klikkaa nollataksesi suodattimen asetukset."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Nollaa kaikki suodattimet"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Näytä vain parhaan ajan tallenteet"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "Viimeinen %(count)s päivä"
+msgstr[1] "Viimeiset %(count)s päivää"
+msgstr[2] "Viimeiset %(count)s päivää"
+
+msgid "filterPopover/title"
+msgstr "Tallenteiden suodatin"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Aseta tallenteiden suodatin vaunutyypin, tason, kansakunnan jne. mukaan."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Lajittele param. mukaan"
+
+msgid "findReplay/buttonText/find"
+msgstr "Etsi tallenne"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Tyhjennä syöte"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Katso tallenne!"
+
+msgid "findReplay/errorMessage"
+msgstr "Mitään ei löytynyt. Ole hyvä ja vaihda hakuasi"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Ole hyvä ja kirjoita ARENA_ID tähän..."
+
+msgid "findReplay/successMessage"
+msgstr "AI löysi tallenteen, josta olet kiinnostunut! Nauti katselusta"
+
+msgid "page/heading/bestReplays"
+msgstr "PARHAAT TALLENTEET"
+
+msgid "page/heading/findReplay"
+msgstr "ETSI TALLENNE (KEHITTÄJILLE)"
+
+msgid "page/heading/myReplays"
+msgstr "TALLENTEENI"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Tämä osio sisältää tietoa Parhaista tallenteista kaikilta WoT-pelaajilta"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Tämä osio on tallenteen löytämiseen tietyllä parametrillä"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Tämä osio näyttää tietoja SINUN parhaista tallenteistasi"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "Parhaat tallenteet"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Etsi tallenne"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "Tallenteeni"
+
+msgid "statsParam/damageAssisted"
+msgstr "Top-1 tuhoamisissa avustamisessa"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Top-1 torjutussa vahingossa"
+
+msgid "statsParam/damageDealt"
+msgstr "Top-1 aiheutetussa vahingossa"
+
+msgid "statsParam/earnedXp"
+msgstr "Top-1 ansaitussa kokemuksessa"
+
+msgid "statsParam/kills"
+msgstr "Top-1 vaunujen tuhoamisissa"
+
+msgid "table/error/buttonText"
+msgstr "Päivitä"
+
+msgid "table/error/description"
+msgstr "Olemme pahoillamme väliaikaisesta häiriöstä. Ole hyvä ja koeta ladata sivu myöhemmin uudelleen."
+
+msgid "table/error/title"
+msgstr "Virhe ladattaessa tietoja"
+
+msgid "table/header/damageAssisted"
+msgstr "Avustus"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Torjuttu vahinko"
+
+msgid "table/header/damageDealt"
+msgstr "Vahinko"
+
+msgid "table/header/date"
+msgstr "Päivämäärä"
+
+msgid "table/header/earnedXp"
+msgstr "Ansaittu kokemus"
+
+msgid "table/header/kills"
+msgstr "Tuhottujen vaunujen määrä"
+
+msgid "table/header/map"
+msgstr "Kartta"
+
+msgid "table/header/marksOfMastery"
+msgstr "Taitomerkit"
+
+msgid "table/header/player"
+msgstr "Pelaajan nimi"
+
+msgid "table/header/vehicle"
+msgstr "Vaunu"
+
+msgid "table/noRecords/buttonText"
+msgstr "Nollaa suodatin"
+
+msgid "table/noRecords/title"
+msgstr "Mitään ei löytynyt. Ole hyvä ja vaihda asetuksia tai nollaa suodatin."
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Klikkaa nollataksesi suodattimen asetukset."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Nollaa kaikki suodattimet"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Pelaajan tässä tallenteessa avustaman vahingon määrä"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Avustettua vahinkoa"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Pelaajan tässä tallenteessa torjuman vahingon määrä"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Panssarin torjumaa vahinkoa"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Pelaajan tässä tallenteessa tekemän vahingon määrä"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Tehtyä vahinkoa"
+
+msgid "table/tooltip/date/body"
+msgstr "Päivä, jona tallenne nauhoitettiin."
+
+msgid "table/tooltip/date/header"
+msgstr "Tallenteen päiväys"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Pelaajan tässä tallenteessa ansaitseman kokemuksen määrä"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Ansaittu kokemus"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Pelaajan tässä tallenteessa ansaitsemat eeppiset mitalit"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Eeppiset mitalit"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Klikkaa lisätäksesi tämä tallenne Suosikkeihin."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Suosikki"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Klikkaa poistaaksesi tämä tallenne Suosikeista."
+
+msgid "table/tooltip/kills/body"
+msgstr "Pelaajan tässä tallenteessa tuhoamien vaunujen määrä"
+
+msgid "table/tooltip/kills/header"
+msgstr "Tuhoamisia"
+
+msgid "table/tooltip/map/body"
+msgstr "Tallenteen kartta."
+
+msgid "table/tooltip/map/header"
+msgstr "Kartta"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Pelaajan tässä tallenteessa ansaitsemat tärkeät taitomerkit"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Taitomerkit"
+
+msgid "table/tooltip/player/body"
+msgstr "Tämän tallenteen pelaajan nimi."
+
+msgid "table/tooltip/player/header"
+msgstr "Pelaajan nimi"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Pelaajan vaunu, jolla tallenne nauhoitettiin."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Vaunu"
+
+msgid "tableInfo/amount"
+msgstr "Tallenteita näytetty: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Suodatin"
+
+msgid "waitingSpinner/message"
+msgstr "Ladataan sisältöä..."

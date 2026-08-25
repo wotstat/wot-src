@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "Επιλογή Επάθλων"
+
+msgid "banner/giftsAvailable"
+msgstr "Παραλαβή Προμηθειών!"
+
+msgid "banner/giftsForOffer"
+msgstr "Έπαθλα από τη συμμετοχή στο \"%(name)s\"."
+
+msgid "banner/selectNowOrLater"
+msgstr "Επιλέξτε τα δώρα σας τώρα ή αργότερα στην Αποθήκη."
+
+msgid "banner/title"
+msgstr "Προμήθειες"
+
+msgid "description/rentValue/battles"
+msgstr "για μάχες: %(value)s"
+
+msgid "description/rentValue/days"
+msgstr "για ημέρες: %(value)s"
+
+msgid "description/rentValue/wins"
+msgstr "για νίκες: %(value)s"
+
+msgid "giftDescription/tank/base"
+msgstr "Μαζί με το επιλεγμένο όχημα, θα λάβετε ως δώρο και %(items)s."
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}πλήρωμα{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}πλήρωμα{neutralClose} και{neutralOpen}θέση στο Γκαράζ{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}θέση στο Γκαράζ{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "Ακύρωση"
+
+msgid "giftDialog/description/newRent"
+msgstr "Θα γίνει μίσθωση του %(tankName)s %(rentValue)s"
+
+msgid "giftDialog/description/noRent"
+msgstr "Το %(tankName)s θα σταλεί στο Γκαράζ"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "Η μίσθωση του %(tankName)s θα επεκταθεί %(rentValue)s"
+
+msgid "giftDialog/submit"
+msgstr "Επικύρωση"
+
+msgid "giftDialog/title/common"
+msgstr "Επικύρωση Παραλαβής Του Στοιχείου\n\"%(name)s\""
+
+msgid "giftDialog/title/tank"
+msgstr "Παραλαβή Οχήματος"
+
+msgid "giftDialog/title/tankRent"
+msgstr "Μίσθωση Οχήματος"
+
+msgid "giftsWindow/availableCount"
+msgstr "Διαθέσιμα: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "Διαθέσιμο μέχρι: %(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "Διαθέσιμα δώρα: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "Στο Γκαράζ"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "Άνοιχτές για"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "Προεπισκόπηση"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value) μάχες"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value) ημέρες"
+
+msgid "giftsWindow/rent/title"
+msgstr "Μίσθωση για: %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value) νίκες"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "Παραλαβή"
+
+msgid "giftsWindow/tokens"
+msgstr "Διαθέσιμα: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "Διαθέσιμα Tokens: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "Μη διαθέσιμο"
+
+msgid "rewardWindow/btnLabel"
+msgstr "Θετικόν!"
+
+msgid "rewardWindow/title"
+msgstr "Το Έπαθλο Απονεμήθηκε"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "Παραλαβή!"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "Επέκταση Μίσθωσης!"
+
+msgid "tankPreview/description/newRent"
+msgstr "Δωρεάν μίσθωση του %(tankName)s %(rentValue)s"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s μαζί με πλήρωμα"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s μαζί με πλήρωμα και θέση στο Γκαράζ"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s μαζί με θέση στο Γκαράζ"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "Επέκταση της μίσθωσης του %(tankName)s %(rentValue)s"

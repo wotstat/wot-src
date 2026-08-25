@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Activeren"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Kopen en activeren"
+
+msgid "activation/activateBonus"
+msgstr "Activeer reserve: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Activeer reserve"
+
+msgid "activation/activateButtonClan"
+msgstr "Naar Vesting"
+
+msgid "activation/battleXPDescription"
+msgstr "Extra Gevechts-XP voor 1 u"
+
+msgid "activation/battleXPTitle"
+msgstr "Gevechts-XP"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "De verbeterde persoonlijke reserve die %(boosterBonus)s %(boosterTerm)s levert kopen en activeren?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Goud kopen"
+
+msgid "activation/buyGoldTitle"
+msgstr "Wil je het goud kopen dat nodig is voor de verbeterde persoonlijke reserve die %(boosterBonus)s %(boosterTerm)s levert?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Hoeveelheid goud die nodig is om de verbeterde persoonlijke reserve te kopen:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Credits en Gevechts-XP"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "Bemannings-XP en Vrije XP"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Clanreserves"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Activeer reserve in Vesting"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Bekijken in Vesting"
+
+msgid "activation/comboXPDescription"
+msgstr "Extra Vrije en Bemannings-XP voor 1 u"
+
+msgid "activation/comboXPTitle"
+msgstr "Vrije & Bemanning-XP"
+
+msgid "activation/creditsDescription"
+msgstr "Extra credits voor 1 u"
+
+msgid "activation/creditsTitle"
+msgstr "Credits"
+
+msgid "activation/footer"
+msgstr "Verlopende reserves moeten worden geactiveerd: %(expirableAmount) binnen %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Extra Frontlinie-XP voor 1 u"
+
+msgid "activation/frontLineXPTitle"
+msgstr "Frontlinie-XP"
+
+msgid "activation/informationButton"
+msgstr "INFORMATIE"
+
+msgid "activation/price"
+msgstr "Kosten:"
+
+msgid "activation/subFooter/depot"
+msgstr "Depot"
+
+msgid "activation/subFooter/main"
+msgstr "De reserves die het eerst vervallen, worden als eerste geactiveerd. Je kunt al je beschikbare reserves bekijken in het %(depot)."
+
+msgid "activation/subTitle/main"
+msgstr "Activeer {whiteSpanish_Open}tot 3 persoonlijke reserves{whiteSpanish_Close} om in gevechten meer credits en ervaring te verdienen. In de %(store)s kun je meer persoonlijke reserves kopen."
+
+msgid "activation/subTitle/store"
+msgstr "winkel"
+
+msgid "activation/terms/booster_credits"
+msgstr "credits"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "Frontlinie-XP"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "Vrije & Bemanning-XP"
+
+msgid "activation/terms/booster_xp"
+msgstr "Gevechts-XP"
+
+msgid "activation/title"
+msgstr "PERSOONLIJKE RESERVES"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}De geactiveerde standaard persoonlijke reserve die %(previousBoosterBonus)s %(previousBoosterTerm)s levert zal verloren gaan.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Wil je in plaats van de geactiveerde standaard persoonlijke reserve, de verbeterde persoonlijke reserve activeren die %(boosterBonus)s %(boosterTerm)s levert?"
+
+msgid "battleView/notice"
+msgstr "Persoonlijke reserves kunnen tijdens een gevecht op ieder moment worden geactiveerd. Je ontvangt de bonus ook wanneer de reserve tijdens het gevecht verloopt."
+
+msgid "battleView/title"
+msgstr "Activatie van persoonlijke reserves"
+
+msgid "depot/buyButton"
+msgstr "Naar kopen"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Een andere reserve van dit type is al geactiveerd."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Deze persoonlijke reserve is tijdens het gevecht verlopen. De bonus van deze persoonlijke reserve wordt nog steeds op dit gevecht toegepast."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)min"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Geactiveerde persoonlijke reserves hebben geen invloed op deze modus."
+
+msgid "intro/buttons/close"
+msgstr "Begrepen!"
+
+msgid "intro/buttons/details"
+msgstr "Details"
+
+msgid "intro/description"
+msgstr "Verlopende persoonlijke reserves zijn na ontvangst slechts beperkte tijd beschikbaar. Als ze niet op tijd worden geactiveerd, gaan ze verloren. Niet verlopende persoonlijke reserves kunnen niet worden gebruikt wanneer er verlopende persoonlijke reserves van dezelfde soort beschikbaar zijn."
+
+msgid "intro/title"
+msgstr "VERLOPENDE PERSOONLIJKE RESERVES"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Geen persoonlijke reserves van deze soort in het depot. Je kunt ze later kopen of in de garage activeren."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Voltooi missies en neem deel aan in-game evenementen om persoonlijke reserves te verdienen."
+
+msgid "noReserveTooltip/text"
+msgstr "Geen persoonlijke reserves van deze soort in het depot."

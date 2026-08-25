@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Atpakaļ pie dārgumiem"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "Liesmojošais dārgums"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "LIESMOJOŠAIS DĀRGUMS"
+
+msgid "common/getButton/lowerCase"
+msgstr "Iegūt Dārgumus"
+
+msgid "common/getButton/upperCase"
+msgstr "IEGŪT DĀRGUMUS"
+
+msgid "common/loader"
+msgstr "Liesmojošais dārgums atveras..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Atveriet dārgumus, lai skatītu statistiku."
+
+msgid "common/statistics/header"
+msgstr "Atvērtas Liesmojošās dārgumi: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Visa informācija par atvērtajiem Liesmojošajiem dārgumiem tiks dzēsta."
+
+msgid "entryPoint/boxes"
+msgstr "UZ DĀRGUMIEM"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Tie ir īpaši kāši ar jauniem un unikāliem priekšmetiem, tostarp Premium tankiem, 2D stiliem un citiem. Tos var iegūt Spēles veikalā."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Pašlaik nav iespējams atvērt vai iegādāties Liesmojošos dārgumus tehnisku iemeslu dēļ. Atvainojamies par sagādātajām neērtībām."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Liesmojošie dārgumi īslaicīgi nav pieejami"
+
+msgid "eventName/lowerCase"
+msgstr "Mēness balva"
+
+msgid "eventName/upperCase"
+msgstr "MĒNESS BALVA"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garantēta balva nākamajā dārgumā!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maksimālais Liesmojošo dārgumu skaits pirms garantētas balvas: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ja līdz pasākuma beigām neatvērsi Liesmojošos dārgumus, tie tiks atvērti automātiski."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ja jums jau pieder visi tanki no iespējamā Liesmojoša dārguma satura saraksta, tad visi turpmākie tanki, ko saņemsiet no Liesmojoša dārguma, tiks kompensēti zeltā, kas ir vienāds ar to pilno vērtību."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Katrs %(guaranteed0)s Liesmojošais dārgums garantēti satur VIII–IX līmeņa tanku. Ja neviena šāda tanka neizkrīt, tad, atverot nākamo %(guaranteed0)s&zwnbsp; Liesmojošo dārgumu, garantēti saņemsi to, kura tev vēl nav. Kad tas notiek, skaitītājs tiek atiestatīts."
+
+msgid "infoPage/header/description"
+msgstr "Atver Liesmojošos dārgumus, lai iegūtu vērtīgus spēles priekšmetus!"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "No atvērtiem %(name)%(boxesCount) Liesmojošajiem dārgumiem"
+
+msgid "noBoxesView/description/"
+msgstr "Tev nav neviena Liesmojošā dārguma.\nTos vari iegūt Spēles veikalā."
+
+msgid "preview/backLabel"
+msgstr "UZ DĀRGUMIEM"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Pieejamie dārgumi: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nav pieejamu dārgumu"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Ja tev jau pieder visi tanki no Liesmojošā dārguma iespējamo saturu saraksta, visi nākamie tanki tiks kompensēti zeltā."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) Liesmojošais dārgums"
+msgstr[1] "%(remainingCount) Liesmojošie dārgumi"
+msgstr[2] "%(remainingCount) Liesmojošie dārgumi"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Garantētā balva ir tanks no iespējamā Liesmojoša dārguma satura saraksta.\nJa jūs atverat %(remainingCount), neiegūstot šādu tanku, tas tiks piešķirts, kad atvērsiet%(count) Liesmojošas dārgumus. Kad tas notiks, skaitītājs tiks atiestatīts."

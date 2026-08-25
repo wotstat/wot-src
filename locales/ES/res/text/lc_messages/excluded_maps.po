@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "backButton/label"
+msgstr "VOLVER"
+
+msgid "backButton/to"
+msgstr "AL ESTADO DE LA CUENTA"
+
+msgid "filteredMapsDisplayed"
+msgstr "Mapas mostrados: %(count)/%(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Mostrar/ocultar los mapas de este tipo."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Mapas desérticos"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Mapas estivales"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Mapas invernales"
+
+msgid "header/cooldown"
+msgstr "Podrás sustituir un mapa de nuevo en %(cooldownEndTime)."
+
+msgid "header/title"
+msgstr "Mapas excluidos"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Podrás sustituir este mapa otra vez cuando termine el enfriamiento."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Sustitución de mapa no disponible"
+
+msgid "mapTile/hoverExclude"
+msgstr "¿Quieres excluir el mapa %(mapName)?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Excluir"
+
+msgid "mapTile/hoverInclude"
+msgstr "¿Quieres incluir el mapa %(mapName) en las Batallas aleatorias?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Incluir"
+
+msgid "mapsFilterLabel"
+msgstr "Tipos de mapas:"
+
+msgid "notSelected"
+msgstr "No seleccionado"
+
+msgid "premium"
+msgstr "Premium de WoT"
+
+msgid "slot/disabledTooltipBody"
+msgstr "Hay disponible un espacio adicional solo con una cuenta premium de WoT o una suscripción a WoT Plus activa."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "Se desbloquea con la cuenta premium de WoT."
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Se desbloquea con una suscripción activa a WoT Plus."
+
+msgid "slot/replaceTooltipBody"
+msgstr "Elige un mapa de la lista de abajo para sustituirlo y excluirlo de Batallas aleatorias."
+
+msgid "slot/selectTooltipBody"
+msgstr "Elige un mapa de la lista de abajo para excluirlo de Batallas aleatorias."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Espacio disponible"
+
+msgid "totalMapsDisplayed"
+msgstr "Mapas mostrados: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "Excluye otro mapa con %(linkPremium) y %(mapCount)s más con %(linkWotPlus)."
+msgstr[1] "Excluye otro mapa con %(linkPremium) y %(mapCount)s más con %(linkWotPlus)."
+
+msgid "unlock/premium"
+msgstr "Excluye otro mapa con %(linkPremium)."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "Excluye %(mapCount)s mapa más con %(linkWotPlus)."
+msgstr[1] "Excluye %(mapCount)s mapas más con %(linkWotPlus)."
+
+msgid "wotplus"
+msgstr "WoT Plus"

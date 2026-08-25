@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Ook ontvangen:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Deze reeks missies kan worden herhaald."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Begrepen!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Sluiten"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Bekijken in de garage"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Herhalen"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Naar Smeltkroes"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "WoT Premium account"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Premium voertuig"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Voertuig te huur"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "en stijl '{{styleName}}'"
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) dag"
+msgstr[1] "%(day) dagen"
+msgstr[2] "%(day) dagen"
+
+msgid "awards_view/title"
+msgstr "SMELTKROES VOLTOOID!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Missie voor ×5 XP per gevecht"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Blauwdrukfragment (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Universeel blauwdrukfragment"
+
+msgid "bonuses/bpcoin"
+msgstr "Vechtpastoken"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Missie voor ×3 Bemannings-XP"
+
+msgid "bonuses/description/attachments_set"
+msgstr "3D-attachment set"
+
+msgid "bonuses/description/booster"
+msgstr "Persoonlijke reserve"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Bounty-uitrusting"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Bemanningsskin"
+
+msgid "bonuses/description/directive"
+msgstr "Gevechtsbevel"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Experimentele uitrusting"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Verbeterde uitrusting"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "en stijl '%(styleName)s'"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standaard uitrusting"
+
+msgid "bonuses/description/style"
+msgstr "2D-stijl"
+
+msgid "bonuses/description/style_3d"
+msgstr "3D-stijl"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Vrouwelijk bemanningslid"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Rekruut"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Bemanningslid"
+
+msgid "condition/achievement"
+msgstr "Verdien de '%(achievement)s' onderscheiding"
+
+msgid "condition/achievement/title"
+msgstr "Gevechtshelden"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Veroorzaak en assisteer in totaal %(goal)s HP schade"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Veroorzaak, ontvang en blokkeer in totaal %(goal)s HP schade"
+
+msgid "condition/aggregated/title"
+msgstr "Complexe voorwaarde"
+
+msgid "condition/classes/AT-SPG"
+msgstr "Tankjager"
+
+msgid "condition/classes/SPG"
+msgstr "Artillerie"
+
+msgid "condition/classes/heavyTank"
+msgstr "Zware tank"
+
+msgid "condition/classes/lightTank"
+msgstr "Lichte tank"
+
+msgid "condition/classes/mediumTank"
+msgstr "Medium tank"
+
+msgid "condition/critsCount"
+msgstr "Veroorzaak %(goal)s kritieke treffers aan interne of externe modules van vijandelijke voertuigen"
+
+msgid "condition/critsCount/title"
+msgstr "Immobiliseer"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Blokkeer %(goal)s HP schade"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Blokkeer %(goal)s keer zo veel schade als de hoeveelheid HP van jouw voertuig"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Blokkeer"
+
+msgid "condition/damageDealt"
+msgstr "Veroorzaak %(goal)s HP schade aan vijandelijke voertuigen"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Veroorzaak %(goal)s keer zo veel schade als de hoeveelheid HP van jouw voertuig"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Raak %(goal)s keer een vijandelijk voertuig vanaf een afstand van %(distance)s m of minder"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Raak %(goal)s keer een vijandelijk voertuig vanaf een afstand van %(distance)s m of meer"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Beschadig vijandelijke voertuigen door ze %(goal)s keer te rammen"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Raak %(goal)s keer een vijandelijk voertuig binnen het zichtbereik van je voertuig"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Veroorzaak %(goal)s HP schade in de eerste %(timeLimit)s minuten van het gevecht"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Veroorzaak %(goal)s HP schade aan vijandelijke voertuigen vanaf een afstand van maximaal %(distance)s m"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Veroorzaak %(goal)s HP schade aan vijandelijke voertuigen vanaf een afstand van minimaal %(distance)s m"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Veroorzaak %(goal)s HP schade door te rammen"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Rammen"
+
+msgid "condition/damageDealt/title"
+msgstr "Beschadig"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Veroorzaak %(goal)s HP schade aan onverkende vijandelijke voertuigen"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Veroorzaak %(goal)s HP schade aan vijandelijke voertuigen binnen het zichtbereik van je voertuig"
+
+msgid "condition/kills"
+msgstr "Vernietig %(goal)s vijandelijke voertuigen"
+
+msgid "condition/kills/classes"
+msgstr "Vernietig %(goal)s vijandelijke %(vehicleClass)s"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Vernietig %(goal)s vijandelijke voertuigen van %(classCount)s verschillende types"
+
+msgid "condition/kills/title"
+msgstr "Vernietig"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Vernietig %(goal)s vijandelijke voertuigen zonder schade te ontvangen"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Vernietig %(goal)s vijandelijke voertuigen zonder dat je zelf verkend wordt"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Veroorzaak %(goal)s%% van de totale hoeveelheid schade veroorzaakt door je team"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Beschadig"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Doorboor %(goal)s keer vijandelijk pantser"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Doorboor"
+
+msgid "condition/spotted"
+msgstr "Verken %(goal)s vijandelijke voertuigen"
+
+msgid "condition/spotted/title"
+msgstr "Verken"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Verken %(goal)s voertuigen zonder dat je zelf wordt verkend"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Verken"
+
+msgid "condition/top/damageDealt"
+msgstr "Eindig met veroorzaakte schade bij de beste %(rank)s spelers van je team"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Eindig met veroorzaakte schade bij de beste %(rank)s spelers van beide teams"
+
+msgid "condition/top/title"
+msgstr "Topspeler"
+
+msgid "condition/top/xp"
+msgstr "Eindig met verdiende ervaring bij de beste %(rank)s spelers van je team"
+
+msgid "condition/unknown"
+msgstr "Zoeken naar de meest geschikte missie..."
+
+msgid "condition/unknown/title"
+msgstr "Wachten"
+
+msgid "postbattle/name"
+msgstr "SMELTKROES: "

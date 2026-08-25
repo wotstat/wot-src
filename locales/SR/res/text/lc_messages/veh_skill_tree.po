@@ -1,0 +1,1124 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "comparison/fullUpgrades/title"
+msgstr "Potpuno istraženo"
+
+msgid "comparison/partialUpgrades/title"
+msgstr "Trenutna"
+
+msgid "comparison/title"
+msgstr "Nadogradnje"
+
+msgid "comparison/tooltip/body"
+msgstr "Ekran konfiguracije pokazuje koliko nadogradnje utiču na karakteristike vozila. Izaberi Potpuno istraženo da vidiš ceo efekat dostupnih nadogradnji."
+
+msgid "comparison/tooltip/header"
+msgstr "Nadogradnje"
+
+msgid "comparison/zeroUpgrades/title"
+msgstr "Neistražena"
+
+msgid "dialog/altConfiguration/description"
+msgstr "Ostavi ove opcije uključene da možeš da prebaciš setove tovara pre borbe."
+
+msgid "dialog/altConfiguration/info"
+msgstr "Možeš da menjaš ovo podešavanje bilo kada."
+
+msgid "dialog/altConfiguration/optDevBoostersSwitch"
+msgstr "Pomoćni tovar"
+
+msgid "dialog/altConfiguration/shellsConsumablesSwitch"
+msgstr "Osnovni tovar"
+
+msgid "dialog/altConfiguration/title"
+msgstr "Alternativna konfiguracija"
+
+msgid "dialog/common/accept"
+msgstr "Potvrdi"
+
+msgid "dialog/confirmation/researchPerks"
+msgid_plural "plural/dialog/confirmation/researchPerks"
+msgstr[0] "%(perks)s"
+msgstr[1] "%(perks)s čvorišta"
+msgstr[2] "%(perks)s čvorišta"
+
+msgid "footer/button/label"
+msgstr "Izučavanje"
+
+msgid "footer/description/text/allResearched"
+msgstr "Sva čvorišta su istražena. Sada imaš pristup sistemu Elitnih nagrada."
+
+msgid "footer/description/text/emergencyModeEnabled"
+msgstr "WG novčanik je trenutno nedostupan. Izvinjavamo se zbog neprijatnosti."
+
+msgid "footer/description/text/inBattle"
+msgstr "Čvorište nedostupno. Vozilo je u borbi."
+
+msgid "footer/description/text/inFormation"
+msgstr "Čvorište nedostupno. Vozilo je u taktičkoj jedinici."
+
+msgid "footer/description/text/needsRepair"
+msgstr "Čvorište nedostupno. Vozilo mora da se popravi."
+
+msgid "footer/description/text/notInInventory"
+msgstr "Moraš da poseduješ ovo vozilo da bi mogao da izučavaš njegove čvorove"
+
+msgid "footer/description/text/researchAvailable"
+msgstr "Izaberi čvorište ili granu čvorišta za istraživanje"
+
+msgid "footer/text/amountItems"
+msgstr "{{amount}} čvorišta"
+
+msgid "footer/text/selectedItem"
+msgstr "Izabrano: {{selectedItem}}"
+
+msgid "footer/tooltip/body/emergencyModeEnabled"
+msgstr "WG novčanik je trenutno nedostupan. Izvinjavamo se zbog neprijatnosti."
+
+msgid "footer/tooltip/body/inBattle"
+msgstr "Čvorište nedostupno. Vozilo je u borbi."
+
+msgid "footer/tooltip/body/inFormation"
+msgstr "Čvorište nedostupno. Vozilo je u taktičkoj jedinici."
+
+msgid "footer/tooltip/body/needsRepair"
+msgstr "Čvorište nedostupno. Vozilo mora da se popravi."
+
+msgid "footer/tooltip/body/notEnoughExp"
+msgstr "Nedovoljno iskustva za istraživanje izabranog čvorišta."
+
+msgid "footer/tooltip/body/researchInProgress"
+msgstr "Istraživanje je u toku, molim sačekaj..."
+
+msgid "footer/tooltip/header/emergencyModeEnabled"
+msgstr "Nedostupno"
+
+msgid "footer/tooltip/header/info"
+msgstr "Izaberi čvorišta"
+
+msgid "footer/tooltip/listSelectedPerks"
+msgid_plural "plural/footer/tooltip/listSelectedPerks"
+msgstr[0] "• {{selectedPerks}},"
+msgstr[1] "• {{selectedPerks}}."
+msgstr[2] "• {{selectedPerks}}."
+
+msgid "intro/button"
+msgstr "Razumem!"
+
+msgid "intro/button/tooltip"
+msgstr "O nadogradnjama"
+
+msgid "intro/improvements/description"
+msgstr "Zaradi borbeno iskustvo da otključaš čvorišta koja poboljšavaju karakteristike tvog vozila. Poslednja karakteristika može biti veća ili manja u odnosu na pokazane vrednosti zbog modifikatora dodatka i modifikatora umnožavanja koji se primenjuju na čvorište."
+
+msgid "intro/improvements/title"
+msgstr "Kako radi"
+
+msgid "intro/progression/description"
+msgstr "Dostupno ekskluzivno za vozila nivoa XI, nadogradnje pružaju poboljšanje karakteristika vozila dalje."
+
+msgid "intro/progression/title"
+msgstr "Nadogradnje"
+
+msgid "intro/vanity/description"
+msgstr "Nakon istraživanja svih čvorišta, dobićeš pristup elitnim nagradama, koje možeš preuzeti po dostizanju određenih elitnih nivoa. Nagrade uključuju jedinstven volumetrijski stil, pratioc statistike i oblogu topa!"
+
+msgid "intro/vanity/title"
+msgstr "Elitne nagrade"
+
+msgid "kpi/bonus/valueTypes/cnt"
+msgstr " komad(a)"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/gps"
+msgstr " step/s"
+
+msgid "kpi/bonus/valueTypes/grads"
+msgstr " step"
+
+msgid "kpi/bonus/valueTypes/m"
+msgstr " m"
+
+msgid "kpi/bonus/valueTypes/mm"
+msgstr " mm"
+
+msgid "kpi/bonus/valueTypes/mph"
+msgstr " km/h"
+
+msgid "kpi/bonus/valueTypes/mps"
+msgstr " m/s"
+
+msgid "kpi/bonus/valueTypes/p"
+msgstr " k.s."
+
+msgid "kpi/bonus/valueTypes/s"
+msgstr " s"
+
+msgid "kpi/bonus/valueTypes/val"
+msgstr " HP"
+
+msgid "notifications/perkAvailable/disabledButtonTooltip"
+msgstr "Ova funkcionalnost je trenutno nedostupna."
+
+msgid "notifications/perkAvailable/goToProgression"
+msgstr "Idi na nadogradnje"
+
+msgid "notifications/perkAvailable/title"
+msgstr "Imaš dovoljno iskustva da poboljšaš svoje vozilo!"
+
+msgid "rewardScreen/button/accept"
+msgstr "Potvrdno"
+
+msgid "rewardScreen/button/check"
+msgstr "Pogledaj u eksterijeru"
+
+msgid "rewardScreen/rewardName"
+msgstr "{{rarity}} {{rewardName}}"
+
+msgid "rewardScreen/subtitle"
+msgstr "Za istraživanje elitnog nivoa {{prestigeLevel}} u {{level}} {{type}} {{name}}"
+
+msgid "rewardScreen/title"
+msgstr "ELITNA NAGRADA"
+
+msgid "tooltips/backToMainProgressionEntryPoint/text"
+msgstr "Dostupno ekskluzivno za vozila nivoa XI, nadogradnje pružaju poboljšanje karakteristika vozila dalje."
+
+msgid "tooltips/backToMainProgressionEntryPoint/title"
+msgstr "Nadogradnje"
+
+msgid "tooltips/common/cost"
+msgstr "Cena: {{amount}}"
+
+msgid "tooltips/description/HEDamageAbsorption"
+msgstr "Poboljšava sposobnost vozila da absorbuje štetu HE granata i sudaranja."
+
+msgid "tooltips/description/HEShellDamage"
+msgstr "Povećava štetu nanetu HE granatama."
+
+msgid "tooltips/description/HEshellVelocity"
+msgstr "Povećava brzinu fugasnih granata."
+
+msgid "tooltips/description/a179_mechanic_0"
+msgstr "Smanjuje rasipanje drugog pogotka u režimu rafala za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a179_mechanic_1"
+msgstr "Smanjuje hlađenje gađanja u režimu rafala za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_0"
+msgstr "Povećava bonus na brzinu punjenja po nivou za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_1"
+msgstr "Produžuje vreme nivoa efikasnosti punjenja za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_2"
+msgstr "Produžuje vreme nivoa efikasnosti punjenja za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_3"
+msgstr "Povećava bonus na brzinu punjenja po nivou za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_0"
+msgstr "Smanjuje vreme hlađenja pre nego se mehaničar može ponovo koristiti za {colorTagOpen}{value}{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_1"
+msgstr "Smanjuje vreme hlađenja pre nego se mehaničar može ponovo koristiti za {colorTagOpen}{value}{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_2"
+msgstr "Produžuje vreme trajanja mehaničara za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_3"
+msgstr "Produžuje vreme trajanja mehaničara za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_1"
+msgstr "Smanjuje rasipanje na 100m za hice sa jednim punjenjem za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_2"
+msgstr "Povećava štetu nanetu hicima sa jednim punjenjem standardnim i specijalnim granatama za {colorTagOpen}{value} poena{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_3"
+msgstr "Povećava brzinu granate za hice sa jednim punjenjem za {colorTagOpen}{value} m/s{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_4"
+msgstr "Smanjuje vreme punjenja hica sa jednim punjenjem za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/advancedChassisProtection"
+msgstr "Povećava broj poena izdržljivosti vešanja i vreme popravke."
+
+msgid "tooltips/description/advancedModuleAndCrewProtection"
+msgstr "Smanjuje penal kada su polica municije ili motor oštećeni, i smanjuje šansu za povrede posade kada je vozilo oštećeno."
+
+msgid "tooltips/description/aimingCircleSize"
+msgstr "Smanjuje veličinu kruga nišanjenja nakon pucanja."
+
+msgid "tooltips/description/aimingTime"
+msgstr "Smanjuje vreme nišanjenja vozila."
+
+msgid "tooltips/description/aimingTimeSalvo"
+msgstr "Smanjuje vreme nišanjenja vozila u režimu jednog pucnja."
+
+msgid "tooltips/description/allShellDamage"
+msgstr "Povećava štetu nanetu svim vrstama granata."
+
+msgid "tooltips/description/allShellsVelocity"
+msgstr "Povećava brzinu svih tvojih granata."
+
+msgid "tooltips/description/ammoRackHP"
+msgstr "Povećava šetu koju polica municije može da primi pre uništenja."
+
+msgid "tooltips/description/ammoRackPenalty"
+msgstr "Smanjuje penal kada je polica municije oštećena."
+
+msgid "tooltips/description/basicShellDamage"
+msgstr "Povećava štetu nanetu standardnim granatama."
+
+msgid "tooltips/description/ch67_mechanic_0"
+msgstr "Povećava brzinu okretanja kada su busteri aktivni za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_1"
+msgstr "Povećava maksimalnu brzinu dok su busteri aktivni za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_2"
+msgstr "Smanjuje vreme hlađenja dok se buster ponovo ne napune za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch67_mechanic_3"
+msgstr "Produžuje vreme trajanja bustera za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_0"
+msgstr "Povećava pojačanje motora koje daju potisnici za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_1"
+msgstr "Smanjuje vreme hlađenja pre nego što potisnici mogu opet biti upotrebljeni za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_2"
+msgstr "Povećava pojačanje motora koje daju potisnici za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_3"
+msgstr "Povećava maksimalan broj koliko puta potisnici mogu biti upotrebljeni u jednoj borbi za {colorTagOpen}{value}{colorTagClose}."
+
+msgid "tooltips/description/crewProtection"
+msgstr "Smanjuje šansu za povredu članova posade kada je vozilo oštećeno."
+
+msgid "tooltips/description/damagedGunDispersion"
+msgstr "Smanjuje rasipanje topa kada je top oštećen."
+
+msgid "tooltips/description/driveModeForwardSpeed"
+msgstr "Povećava brzinu napred u režimu vožnje."
+
+msgid "tooltips/description/driveModeReverseSpeed"
+msgstr "Povećava brzinu nazad u režimu vožnje."
+
+msgid "tooltips/description/enginePenalty"
+msgstr "Smanjuje penal kada je motor vozila oštećen."
+
+msgid "tooltips/description/enginePower"
+msgstr "Povećava snagu motora, što dozvoljava vozilo da se brže penje i kreće uz brdo."
+
+msgid "tooltips/description/f135_mechanic_0"
+msgstr "Smanjuje vreme za početak punjenja za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f135_mechanic_1"
+msgstr "Smanjuje pauzu pre pucanja nakon što je punjenje prekinuto za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f136_mechanic_0"
+msgstr "Smanjuje penal na vreme punjenja nakon ispaljivanja poslednje granate u kaseti za {colorTagOpen}{value} s{colorTagClose}^."
+
+msgid "tooltips/description/f143_mechanic_0"
+msgstr "Smanjuje kaznu rasipanja na 100m za {colorTagOpen}{value0}%{colorTagClose} i kaznu na vreme nišanjenja za {colorTagOpen}{value1}%{colorTagClose} kada je granica prekoračena."
+
+msgid "tooltips/description/f143_mechanic_1"
+msgstr "Povećava brzinu sakupljanja punjenja za {colorTagOpen}{value}%/s{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_2"
+msgstr "Smanjuje količinu gubitka punjenja nakon pucanja za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_3"
+msgstr "Povećava vrh štete nakon granice za {colorTagOpen}{value0} poena{colorTagClose} i maksimalan bonus štete nakon granice za {colorTagOpen}{value1}%{colorTagClose}."
+
+msgid "tooltips/description/forwardSpeed"
+msgstr "Povećava brzinu unapred vozila."
+
+msgid "tooltips/description/g185_mechanic_0"
+msgstr "Povećava bonus rasipanja po nivou preciznosti za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g185_mechanic_1"
+msgstr "Povećava maksimalnu brzinu na kojoj se nivoi preciznosti mogu dobiti za {colorTagOpen}{value} km/h{colorTagClose}."
+
+msgid "tooltips/description/g185_mechanic_2"
+msgstr "Smanjuje vreme potrebno da se dostigne sledeći nivo preciznosti za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g185_mechanic_3"
+msgstr "Povećava bonus rasipanja na maksimalnom nivou preciznosti za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g187_mechanic_0"
+msgstr "Smanjuje vreme punjenja pomoćnih topova za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g187_mechanic_1"
+msgstr "Smanjuje vreme punjenja pomoćnih topova za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_0"
+msgstr "Povećava vreme gde su označena vozila uočena za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_1"
+msgstr "Smanjuje vreme hlađenja pre nego se mehaničar može ponovo koristiti za {colorTagOpen}{value}{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_2"
+msgstr "Smanjuje vreme hlađenja pre nego se mehaničar može koristiti za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/g188_mechanic_3"
+msgstr "Povećava dodatnu štetu nanetu savezničkim granatama obeleženim vozilima za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_0"
+msgstr "Povećava maksimalnu brzinu na kojoj se predgrevanje može dobiti za {colorTagOpen}{value} km/h{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_1"
+msgstr "Povećava maksimalan bonus rasipanja od predgrevanja za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_2"
+msgstr "Povećava maksimalan bonus od predgrevanja za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g189_mechanic_3"
+msgstr "Smanjuje vreme potrebno da se dostigne maksimalni nivo predgrevanja za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb147_mechanic_0"
+msgstr "Smanjuje rasipanje topa za {colorTagOpen}{value} metara{colorTagClose} u režimu salve."
+
+msgid "tooltips/description/gb147_mechanic_1"
+msgstr "Povećava brzinu okretanja kupole za {colorTagOpen}{value} stepeni{colorTagClose} u režimu salve."
+
+msgid "tooltips/description/gb147_mechanic_2"
+msgstr "Smanjuje vreme nišanjenja za {colorTagOpen}{value} s{colorTagClose} u režimu salve."
+
+msgid "tooltips/description/gb147_mechanic_3"
+msgstr "Povećava brzinu napred za {colorTagOpen}{value} km/h{colorTagClose} u režimu salve."
+
+msgid "tooltips/description/gb152_mechanic_0"
+msgstr "Smanjuje vreme potrebno da se dostigne direktna vožnja za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb152_mechanic_1"
+msgstr "Smanjuje vreme potrebno da se dostigne maksimalna performansa u direktnoj vožnji za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb152_mechanic_2"
+msgstr "Povećava snagu motora za {colorTagOpen}{value}%{colorTagClose} u direktnoj vožnji."
+
+msgid "tooltips/description/gb152_mechanic_3"
+msgstr "Povećava brzinu napred za {colorTagOpen}{value}%{colorTagClose} u direktnoj vožnji."
+
+msgid "tooltips/description/gb158_mechanic_0"
+msgstr "Povećava pojačanje snage motora koje daje pomoć turbo punjača za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_1"
+msgstr "Povećava maksimalnu brzinu dok je pomoć turbo punjača aktivna za {colorTagOpen}{value} km/h{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_2"
+msgstr "Produžava trajanje pomoći turbo punjača za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_3"
+msgstr "Smanjuje vreme hlađenja pre nego se pomoć turbo punjača ponovo koristiti za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gunDepression"
+msgstr "Povećava uglove depresije topa."
+
+msgid "tooltips/description/gunDispersion"
+msgstr "Povećava grupisanje granata unutar kruga nišanjenja."
+
+msgid "tooltips/description/gunDispersionSalvo"
+msgstr "Povećava grupisanje granata unutar kruga nišanjenja u režimu jednog pucnja."
+
+msgid "tooltips/description/gunStabilization"
+msgstr "Poboljšava stabilizaciju topa u svim situacijama."
+
+msgid "tooltips/description/gunStabilizationFromHull"
+msgstr "Poboljšava stabilizaciju topa tokom kretanja i okretanja topa."
+
+msgid "tooltips/description/gunStabilizationFromHullMovement"
+msgstr "Poboljšava stabilizaciju topa tokom kretanja trupa."
+
+msgid "tooltips/description/gunStabilizationFromHullRotation"
+msgstr "Poboljšava stabilizaciju topa tokom okretanja kupole."
+
+msgid "tooltips/description/gunStabilizationFromHullSalvo"
+msgstr "Poboljšava stabilizaciju topa tokom kretanja i okretanja trupa u režimu jednog pucnja."
+
+msgid "tooltips/description/gunStabilizationFromTurret"
+msgstr "Poboljšava stabilizaciju topa tokom okretanja kupole."
+
+msgid "tooltips/description/gunStabilizationFromTurretSalvo"
+msgstr "Poboljšava stabilizaciju topa tokom kretanja kupole u režimu jednog pucnja."
+
+msgid "tooltips/description/gunTraverse"
+msgstr "Povećava maksimalne horizontalne uglove okretanja topa."
+
+msgid "tooltips/description/hitPoints"
+msgstr "Povećava preživljavanje vozila, što dozvoljava da primi više štete pre uništenja."
+
+msgid "tooltips/description/innerClipReloadTime"
+msgstr "Smanjuje vreme punjenja između granata u šaržeru."
+
+msgid "tooltips/description/invisibilityWhenShooting"
+msgstr "Smanjuje šansu za uočavanje od strane neprijatelja tokom pucanja."
+
+msgid "tooltips/description/j52_mechanic_0"
+msgstr "Smanjuje kašnjenje hlađenja topa za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/j52_mechanic_1"
+msgstr "Smanjuje količinu toplote topa koja se stvara po hicu za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/j52_mechanic_2"
+msgstr "Povećava brzinu hlašenja topa za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/nonHEShellDamage"
+msgstr "Povećava štetu nanetu ne-HE granatama."
+
+msgid "tooltips/description/opt_dev_boosters_switch"
+msgstr "Dozvoljava konfiguraciju tovara opreme i direktiva."
+
+msgid "tooltips/description/overheat_coolingDelay"
+msgstr "Smanjuje kašnjenje hlađenja topa za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/overheat_coolingPerSec"
+msgstr "Povećava brzinu hlađenja zagrejanog i pregrejanog topa za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/overheat_heatingPerShot"
+msgstr "Smanjuje količinu toplote topa koja se stvara po hicu za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/overheat_overheatedCoolingPerSec"
+msgstr "Povećava brzinu hlađenja pregrejanog topa za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_0"
+msgstr "Smanjuje vreme potrebno da se promene režim za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_1"
+msgstr "Povećava količinu energije pasivno generisane po sekundi u turbo režimu za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_2"
+msgstr "Povećava količinu energije pasivno generisane po sekundi u režimu sukoba za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/pl37_mechanic_3"
+msgstr "Produžava trajanje efekta za {colorTagOpen}{value} s{colorTagClose} u turbo i sukob režimima."
+
+msgid "tooltips/description/r228_mechanic_0"
+msgstr "Povećava štetu sudaranjem nanetu neprijateljskim vozilima za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_1"
+msgstr "Povećava štetu sudaranjem nanetu vešanju neprijateljskih vozila za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_2"
+msgstr "Povećava štetu sudaranjem nanetu neprijateljskim vozilima za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r228_mechanic_3"
+msgstr "Povećava štetu sudaranjem nanetu neprijateljskim vozilima za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_0"
+msgstr "Smanjuje vreme pre ponovnog pucanja nakon punjenja pregrevanja za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_1"
+msgstr "Povećava dostupno vreme za pucanje na maksimalnom nivou toplote za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_2"
+msgstr "Smanjuje vreme pre ponovnog pucanja nakon punjenja pregrevanja za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/r230_mechanic_3"
+msgstr "Povećava bonus štete po nivou toplote za {colorTagOpen}{value0}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value1}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value2}%{colorTagClose}."
+
+msgid "tooltips/description/reducedRammingDamage"
+msgstr "Smanjuje primljenu štetu od neprijateljskih sudara."
+
+msgid "tooltips/description/reloadTimeTwinGun"
+msgstr "Smanjuje vreme punjenja u režimu salve i jednog pucnja."
+
+msgid "tooltips/description/reverseSpeed"
+msgstr "Povećava brzinu vozila unazad."
+
+msgid "tooltips/description/roleSlot"
+msgstr "Dodeli kategoriju za drugi slot za opremu."
+
+msgid "tooltips/description/s36_mechanic_0"
+msgstr "Povećava brzinu rotacije trupa i elevacije topa za {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/s36_mechanic_1"
+msgstr "Smanjuje vreme potrebno da za prelazak iz bunker režima za {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/s36_mechanic_2"
+msgstr "Smanjuje rasipanje topa za {colorTagOpen}{value}%{colorTagClose} u režimu bunkera."
+
+msgid "tooltips/description/s36_mechanic_3"
+msgstr "Smanjuje vreme punjenja topa za {colorTagOpen}{value}%{colorTagClose} u režimu bunkera."
+
+msgid "tooltips/description/selectiveModuleHPBoost"
+msgstr "Povećava poene zdravlja rezervoara i motora."
+
+msgid "tooltips/description/selectiveModuleProtection"
+msgstr "Smanjuje penal na oštećenu policu municije i motor."
+
+msgid "tooltips/description/shellModuleDamage"
+msgstr "Povećava štetu tvojih granata nanetu modulima neprijateljskih vozila."
+
+msgid "tooltips/description/shells_consumables_switch"
+msgstr "Dozvoljava konfiguraciju dodatnog tovara municije i potrošne robe."
+
+msgid "tooltips/description/specialShellDamage"
+msgstr "Povećava štetu nanetu specijalnim granatama."
+
+msgid "tooltips/description/specialShellPenetration"
+msgstr "Povećava snagu penetracije specijalnih granata."
+
+msgid "tooltips/description/specialShellVelocity"
+msgstr "Povećava brzinu specijalnih granata."
+
+msgid "tooltips/description/spottingBonusFoliage"
+msgstr "Smanjuje skrivanje neprijateljskih vozila skrivenih iza rastinja."
+
+msgid "tooltips/description/spottingBonusMovement"
+msgstr "Smanjuje dkrivanje pokretnih neprijateljskih vozila."
+
+msgid "tooltips/description/standardShellDamage"
+msgstr "Povećava štetu nanetu standardnim granatama."
+
+msgid "tooltips/description/standardShellPenetration"
+msgstr "Povećava snagu penetracije standardnih granata."
+
+msgid "tooltips/description/standardShellVelocity"
+msgstr "Povećava brzinu standardnih granata."
+
+msgid "tooltips/description/stunDuration"
+msgstr "Smanjuje vreme za koje je tvoje vozilo ošamućeno neprijateljskim pogotcima."
+
+msgid "tooltips/description/turretTraverse"
+msgstr "Povećava maksimalne horizontalne uglove okretanja kupole."
+
+msgid "tooltips/description/turretTraverseStability"
+msgstr "Smanjuje rasipanje topa tokom okretanja kupole u režimu sukoba."
+
+msgid "tooltips/description/vehicleSpeed"
+msgstr "Povećava brzinu vozila pri vožnji unapred i unazad."
+
+msgid "tooltips/description/viewRange"
+msgstr "Dozvoljava uočavanje neprijateljskih vozila sa veće udaljenosti."
+
+msgid "tooltips/large/eliteStatus"
+msgstr "Dodeljuje vozilu Elitni status"
+
+msgid "tooltips/large/perksResearchRequired"
+msgstr "Istraži ostala čvorišta kako bi mogao da istražiš ovo čvorište."
+
+msgid "tooltips/paramNameWithUnit"
+msgstr "{paramName} ({unit})"
+
+msgid "tooltips/perk/category/concealment"
+msgstr "Kategorije: Skrivanje"
+
+msgid "tooltips/perk/category/firepower"
+msgstr "Kategorija: Vatrena moć"
+
+msgid "tooltips/perk/category/mechanics"
+msgstr "Mehaničar nadogradnja"
+
+msgid "tooltips/perk/category/mobility"
+msgstr "Kategorija: Mobilnost"
+
+msgid "tooltips/perk/category/special"
+msgstr "Specijalna nadogradnja"
+
+msgid "tooltips/perk/category/spotting"
+msgstr "Kategorija: Uočavanje"
+
+msgid "tooltips/perk/category/survivability"
+msgstr "Kategorija: Preživljavanje"
+
+msgid "tooltips/special/tapToModify"
+msgstr "Klik za izmenu nakon istraživanja čvorišta."
+
+msgid "tooltips/title/HEDamageAbsorption"
+msgstr "Upijanje HE štete"
+
+msgid "tooltips/title/HEShellDamage"
+msgstr "Šteta HE granate"
+
+msgid "tooltips/title/HEShellPenetration"
+msgstr "Penetracija HE granate"
+
+msgid "tooltips/title/HEshellVelocity"
+msgstr "Brzina fugasne granate"
+
+msgid "tooltips/title/a179_mechanic_0"
+msgstr "Polu-aktivan amortizer mase"
+
+msgid "tooltips/title/a179_mechanic_1"
+msgstr "Poboljšanje nabijača sa lančanim pogonom"
+
+msgid "tooltips/title/a182_mechanic_0"
+msgstr "Polu-automatski torzioni izvlakač"
+
+msgid "tooltips/title/a182_mechanic_1"
+msgstr "Napredna filtracija vazduha u borbenom odeljenju "
+
+msgid "tooltips/title/a182_mechanic_2"
+msgstr "Centrifugalni ventilator nadpritiska"
+
+msgid "tooltips/title/a182_mechanic_3"
+msgstr "Modifikovana klešta municije"
+
+msgid "tooltips/title/a183_mechanic_0"
+msgstr "Kompresor visokog izvoda"
+
+msgid "tooltips/title/a183_mechanic_1"
+msgstr "Klip kompresora 6000-PSI"
+
+msgid "tooltips/title/a183_mechanic_2"
+msgstr "Pneumatski sistem 6000-PSI"
+
+msgid "tooltips/title/a183_mechanic_3"
+msgstr "Dodatni cilindar visokog pritiska"
+
+msgid "tooltips/title/a195_mechanic_1"
+msgstr "Proširenje balističke konzistentnosti"
+
+msgid "tooltips/title/a195_mechanic_2"
+msgstr "Povećanje jednog punjenja"
+
+msgid "tooltips/title/a195_mechanic_3"
+msgstr "Nabijeno jedno punjenje"
+
+msgid "tooltips/title/a195_mechanic_4"
+msgstr "Laki razdvajač punjenja"
+
+msgid "tooltips/title/additionalShellAmmoCapacity"
+msgstr "Dodatni kapacitet municije"
+
+msgid "tooltips/title/advancedChassisProtection"
+msgstr "Dodatna zaštita vešanja"
+
+msgid "tooltips/title/advancedModuleAndCrewProtection"
+msgstr "Dodatna zaštita modula i posade"
+
+msgid "tooltips/title/aimingCircleSize"
+msgstr "Veličina kruga nišanjenja"
+
+msgid "tooltips/title/aimingTime"
+msgstr "Vreme nišanjenja"
+
+msgid "tooltips/title/aimingTimeSalvo"
+msgstr "Vreme nišanjenja"
+
+msgid "tooltips/title/allShellDamage"
+msgstr "Šteta svih granata"
+
+msgid "tooltips/title/allShellsVelocity"
+msgstr "Brzina granate"
+
+msgid "tooltips/title/ammoRackHP"
+msgstr "Poeni zdravlja police municije"
+
+msgid "tooltips/title/ammoRackPenalty"
+msgstr "Penal police municije"
+
+msgid "tooltips/title/basicShellDamage"
+msgstr "Šteta standardne granate"
+
+msgid "tooltips/title/ch67_mechanic_0"
+msgstr "Vektor potiska"
+
+msgid "tooltips/title/ch67_mechanic_1"
+msgstr "Pumpa visokog pritiska"
+
+msgid "tooltips/title/ch67_mechanic_2"
+msgstr "Isparivač hlađenje"
+
+msgid "tooltips/title/ch67_mechanic_3"
+msgstr "Kapilarno hlađene dizne"
+
+msgid "tooltips/title/ch70_mechanic_0"
+msgstr "Visokoenergetsko pogonsko gorivo"
+
+msgid "tooltips/title/ch70_mechanic_1"
+msgstr "Poluautomatski izvlakač potisnika"
+
+msgid "tooltips/title/ch70_mechanic_2"
+msgstr "Optimizacija oblika jezgra"
+
+msgid "tooltips/title/ch70_mechanic_3"
+msgstr "Prošireno spremište pojačivača"
+
+msgid "tooltips/title/chassisHP"
+msgstr "Poeni zdravlja vešanja"
+
+msgid "tooltips/title/chassisRepairSpeed"
+msgstr "Brzina opravki vešanja"
+
+msgid "tooltips/title/crewProtection"
+msgstr "Zaštita posade"
+
+msgid "tooltips/title/damagedGunDispersion"
+msgstr "Situaciono rasipanje topa"
+
+msgid "tooltips/title/driveModeForwardSpeed"
+msgstr "Brzina napred marševskog režima"
+
+msgid "tooltips/title/driveModeReverseSpeed"
+msgstr "Brzina unazad marševskog režima"
+
+msgid "tooltips/title/engineFireChance"
+msgstr "Šansa za požar motora"
+
+msgid "tooltips/title/engineHP"
+msgstr "Poeni zdravlja motora"
+
+msgid "tooltips/title/enginePenalty"
+msgstr "Penal motora"
+
+msgid "tooltips/title/enginePower"
+msgstr "Snaga motora"
+
+msgid "tooltips/title/f135_mechanic_0"
+msgstr "Optimizacija hidrauličnih creva"
+
+msgid "tooltips/title/f135_mechanic_1"
+msgstr "Optimizacija sekvence punjenja"
+
+msgid "tooltips/title/f136_mechanic_0"
+msgstr "Poboljšani mehanizam punjenja"
+
+msgid "tooltips/title/f143_mechanic_0"
+msgstr "Toplotna izolacija cevi"
+
+msgid "tooltips/title/f143_mechanic_1"
+msgstr "Alternator visokog izvoda"
+
+msgid "tooltips/title/f143_mechanic_2"
+msgstr "Provodnici malog otpora"
+
+msgid "tooltips/title/f143_mechanic_3"
+msgstr "Modifikovani graničnik izlaza"
+
+msgid "tooltips/title/forwardSpeed"
+msgstr "Brzina napred"
+
+msgid "tooltips/title/fuelTankHP"
+msgstr "Poeni zdravlja rezervoara"
+
+msgid "tooltips/title/g185_mechanic_0"
+msgstr "Senzor koreolis sile"
+
+msgid "tooltips/title/g185_mechanic_1"
+msgstr "Senzor žiroskopskog nagiba"
+
+msgid "tooltips/title/g185_mechanic_2"
+msgstr "Terminal poboljšanog unosa"
+
+msgid "tooltips/title/g185_mechanic_3"
+msgstr "Visoko precizni senzor pokreta"
+
+msgid "tooltips/title/g187_mechanic_0"
+msgstr "Poboljšano odlaganje dodatne municije"
+
+msgid "tooltips/title/g187_mechanic_1"
+msgstr "Nabijač pomoćnog topa"
+
+msgid "tooltips/title/g188_mechanic_0"
+msgstr "Napredni mehanizam tračnica"
+
+msgid "tooltips/title/g188_mechanic_1"
+msgstr "Visoko efikasni hladnjak"
+
+msgid "tooltips/title/g188_mechanic_2"
+msgstr "Generator visokog napona"
+
+msgid "tooltips/title/g188_mechanic_3"
+msgstr "Rubin laser niskog rasipanja"
+
+msgid "tooltips/title/g189_mechanic_0"
+msgstr "Modifikovano osnaženo poletanje"
+
+msgid "tooltips/title/g189_mechanic_1"
+msgstr "Senzor kontrole bi-temperature"
+
+msgid "tooltips/title/g189_mechanic_2"
+msgstr "Precizna termalna kontrola"
+
+msgid "tooltips/title/g189_mechanic_3"
+msgstr "Alternator visokog izvoda"
+
+msgid "tooltips/title/gb147_mechanic_0"
+msgstr "Pred-napunjeni ležaji topa"
+
+msgid "tooltips/title/gb147_mechanic_1"
+msgstr "Napredni sistem rotacije"
+
+msgid "tooltips/title/gb147_mechanic_2"
+msgstr "Sistem kontrole ugla"
+
+msgid "tooltips/title/gb147_mechanic_3"
+msgstr "Otpušteni regulator obrtnog momenta"
+
+msgid "tooltips/title/gb152_mechanic_0"
+msgstr "Izmena odnosa zupčanika"
+
+msgid "tooltips/title/gb152_mechanic_1"
+msgstr "Optimizacija geometrije turbine"
+
+msgid "tooltips/title/gb152_mechanic_2"
+msgstr "Optimizacija cevaste razvodne grane"
+
+msgid "tooltips/title/gb152_mechanic_3"
+msgstr "Modifikovani limiter obrtaja"
+
+msgid "tooltips/title/gb158_mechanic_0"
+msgstr "Podešeni regulator pritiska"
+
+msgid "tooltips/title/gb158_mechanic_1"
+msgstr "Modernizovani izduvni kolektor"
+
+msgid "tooltips/title/gb158_mechanic_2"
+msgstr "Rezervoar za vazduh povećanog kapaciteta"
+
+msgid "tooltips/title/gb158_mechanic_3"
+msgstr "Vazdušni kompresor visoke efikasnosti"
+
+msgid "tooltips/title/gunDepression"
+msgstr "Depresija topa"
+
+msgid "tooltips/title/gunDispersion"
+msgstr "Rasipanje"
+
+msgid "tooltips/title/gunDispersionSalvo"
+msgstr "Rasipanje"
+
+msgid "tooltips/title/gunElevation"
+msgstr "Elevacija topa"
+
+msgid "tooltips/title/gunStabilization"
+msgstr "Ukupna stabilizacija topa"
+
+msgid "tooltips/title/gunStabilizationFromHull"
+msgstr "Delimična stabilizacija topa"
+
+msgid "tooltips/title/gunStabilizationFromHullMovement"
+msgstr "Stabilizacija pokreta"
+
+msgid "tooltips/title/gunStabilizationFromHullRotation"
+msgstr "Stabilizacija okretanja"
+
+msgid "tooltips/title/gunStabilizationFromHullSalvo"
+msgstr "Delimična stabilizacija topa"
+
+msgid "tooltips/title/gunStabilizationFromTurret"
+msgstr "Delimična stabilizacija topa"
+
+msgid "tooltips/title/gunStabilizationFromTurretSalvo"
+msgstr "Delimična stabilizacija topa"
+
+msgid "tooltips/title/gunTraverse"
+msgstr "Poboljšano okretanje topa"
+
+msgid "tooltips/title/hitPoints"
+msgstr "Poeni zdravlja (HP)"
+
+msgid "tooltips/title/hullElevationSpeed"
+msgstr "Brzina elevacija trupa"
+
+msgid "tooltips/title/hullTraverseSpeed"
+msgstr "Brzina rotacije trupa"
+
+msgid "tooltips/title/innerClipReloadTime"
+msgstr "Vreme punjenja unutar šaržera"
+
+msgid "tooltips/title/invisibilityWhenShooting"
+msgstr "Skrivanje nakon pucanja"
+
+msgid "tooltips/title/j52_mechanic_0"
+msgstr "Tečnost za prenos toplote male temperature"
+
+msgid "tooltips/title/j52_mechanic_1"
+msgstr "Termalno kućište visoke provodljjivosti"
+
+msgid "tooltips/title/j52_mechanic_2"
+msgstr "Optimizacija toplovoda"
+
+msgid "tooltips/title/nonHEShellDamage"
+msgstr "Šteta ne-HE granata"
+
+msgid "tooltips/title/opt_dev_boosters_switch"
+msgstr "Tovar opreme i direktiva"
+
+msgid "tooltips/title/overheat_coolingDelay"
+msgstr "Hromirana obloga čaure"
+
+msgid "tooltips/title/overheat_coolingPerSec"
+msgstr "Topovska cev visoke provodljivosti"
+
+msgid "tooltips/title/overheat_heatingPerShot"
+msgstr "Pogonsko gorivo manje temperature plamena"
+
+msgid "tooltips/title/overheat_overheatedCoolingPerSec"
+msgstr "Forsirani ventilacioni sistem"
+
+msgid "tooltips/title/pl37_mechanic_0"
+msgstr "Laki rotor turbine"
+
+msgid "tooltips/title/pl37_mechanic_1"
+msgstr "Dodatni alternator visokog izvoda"
+
+msgid "tooltips/title/pl37_mechanic_2"
+msgstr "Napredna kontrola ispravljanja"
+
+msgid "tooltips/title/pl37_mechanic_3"
+msgstr "Lanac hibridnih kondenzatora"
+
+msgid "tooltips/title/r228_mechanic_0"
+msgstr "Ojačanje lokalnih ivica"
+
+msgid "tooltips/title/r228_mechanic_1"
+msgstr "Gusenice od čelika visoke legure"
+
+msgid "tooltips/title/r228_mechanic_2"
+msgstr "Duboko lokalno karboniziranje"
+
+msgid "tooltips/title/r228_mechanic_3"
+msgstr "Karboniziranje lokalnih površina"
+
+msgid "tooltips/title/r230_mechanic_0"
+msgstr "Visoko precizni senzor temperature"
+
+msgid "tooltips/title/r230_mechanic_1"
+msgstr "Grejači nabijača male inercije"
+
+msgid "tooltips/title/r230_mechanic_2"
+msgstr "Polica mehanizovanog punjenja"
+
+msgid "tooltips/title/r230_mechanic_3"
+msgstr "Prepunjenje termalne kontrole"
+
+msgid "tooltips/title/reducedRammingDamage"
+msgstr "Smanjena šteta sudaranjem"
+
+msgid "tooltips/title/reloadTime"
+msgstr "Vreme punjenja"
+
+msgid "tooltips/title/reloadTimeTwinGun"
+msgstr "Vreme punjenja"
+
+msgid "tooltips/title/reverseSpeed"
+msgstr "Brzina unazad"
+
+msgid "tooltips/title/roleSlot"
+msgstr "Kategorija drugog slota"
+
+msgid "tooltips/title/s36_mechanic_0"
+msgstr "Pumpa aksijalnih hidrauličnih klipova"
+
+msgid "tooltips/title/s36_mechanic_1"
+msgstr "Višekonusni sinhronizator za napajanje"
+
+msgid "tooltips/title/s36_mechanic_2"
+msgstr "Precizno balansiran rotor"
+
+msgid "tooltips/title/s36_mechanic_3"
+msgstr "Hidraulični nabijač"
+
+msgid "tooltips/title/selectiveModuleHPBoost"
+msgstr "Pojačanje poena zdravlja izabranih modula"
+
+msgid "tooltips/title/selectiveModuleProtection"
+msgstr "Zaštita izabranih modula"
+
+msgid "tooltips/title/shellModuleDamage"
+msgstr "Šteta modula od granate"
+
+msgid "tooltips/title/shells_consumables_switch"
+msgstr "Tovar municije i potrošne robe"
+
+msgid "tooltips/title/specialShellDamage"
+msgstr "Šteta specijalne granate"
+
+msgid "tooltips/title/specialShellPenetration"
+msgstr "Penetracija specijalne granate"
+
+msgid "tooltips/title/specialShellVelocity"
+msgstr "Brzina specijalne granate"
+
+msgid "tooltips/title/spottingBonusFoliage"
+msgstr "Bonus uočavanje: Rastinje"
+
+msgid "tooltips/title/spottingBonusMovement"
+msgstr "Bonus uočavanja: Pokret"
+
+msgid "tooltips/title/standardShellDamage"
+msgstr "Šteta standardne granate"
+
+msgid "tooltips/title/standardShellPenetration"
+msgstr "Penetracija standardne granate"
+
+msgid "tooltips/title/standardShellVelocity"
+msgstr "Brzina standardne granate"
+
+msgid "tooltips/title/stunDuration"
+msgstr "Trajanje ošamućenja"
+
+msgid "tooltips/title/turretTraverse"
+msgstr "Poboljšano okretanje kupole"
+
+msgid "tooltips/title/turretTraverseSpeed"
+msgstr "Brzina rotacije kupole"
+
+msgid "tooltips/title/turretTraverseStability"
+msgstr "Stabilizacija okretanja kupole"
+
+msgid "tooltips/title/vehicleSpeed"
+msgstr "Brzina vozila"
+
+msgid "tooltips/title/viewRange"
+msgstr "Povećan videokrug"
+
+msgid "tooltips/vanityEntryPoint/statusInfo"
+msgstr "Istraži finalno čvorište da otključaš"
+
+msgid "tooltips/vanityEntryPoint/text"
+msgstr "Dobij ekskluzivne nagrade za vozila nivoa XI uključujući jedinstven volumetrijski stil, pratioc statistike i oblogu topa."
+
+msgid "tooltips/vanityEntryPoint/title"
+msgstr "Elitne nagrade"
+
+msgid "vanity/available/subtitle"
+msgstr "Dobij nagrade za elitni nivo tvog vozila"
+
+msgid "vanity/available/tooltip"
+msgstr "Trenutni elitni nivo"
+
+msgid "vanity/completed/subtitle"
+msgstr "Čestitamo! Sve nagrade su primljene."
+
+msgid "vanity/completed/tooltip"
+msgstr "Trenutni elitni nivo"
+
+msgid "vanity/disabled/subtitle"
+msgstr "Može se zaraditi nakon istraživanja poslednjeg čvorišta"
+
+msgid "vanity/disabled/tooltip"
+msgstr "Vozilo nema elitni status"
+
+msgid "vanity/reward/level/tooltip"
+msgstr "Elitni status je potreban za nagradu"
+
+msgid "vanity/rewardType/description/attachment"
+msgstr "Ekskluzivna obloga topa od koje će se tvoje vozilo isticati na bojnom polju."
+
+msgid "vanity/rewardType/description/stattracker"
+msgstr "Jedinstveni novi element prilagođavanja koji pokazuje koliko vozila si uništio."
+
+msgid "vanity/rewardType/description/style"
+msgstr "Specijalan 2D stil sa jedinstvenim vizualnim efektom koji daje 3D izgled, dostupan isključivo za vozila XI nivoa."
+
+msgid "vanity/rewardType/title/attachment"
+msgstr "Obloga topa 3D dodatak"
+
+msgid "vanity/rewardType/title/stattracker"
+msgstr "Pratioc statistike"
+
+msgid "vanity/rewardType/title/style"
+msgstr "Volumetrijski stil"
+
+msgid "vanity/title"
+msgstr "ELITNE NAGRADE"

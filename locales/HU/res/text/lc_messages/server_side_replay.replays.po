@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "closeButtonLabel"
+msgstr "BEZÁRÁS"
+
+msgid "featureName"
+msgstr "VISSZAJÁTSZÁSOK"
+
+msgid "filter/apply"
+msgstr "Szűrő alkalmazása"
+
+msgid "filter/group/nation/title"
+msgstr "Nemzet"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Szint"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Szint"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specializáció"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Járműtípus"
+
+msgid "filter/reset"
+msgstr "Szűrő visszaállítása"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Az ilyen nemzetiségű harckocsizók megjelenítése/elrejtése."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Az ilyen nemzetiségű kinézetek megjelenítése/elrejtése."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Az ilyen nemzetiségű járművek megjelenítése/elrejtése."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Az ilyen típusú járművek megjelenítése/elrejtése."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Páncélvadászok"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Önjáró lövegek"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Nehéz harckocsik"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Könnyű harckocsik"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Közepes harckocsik"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nem találtunk a keresési feltételeknek\nmegfelelő járművet"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Rendezés a járművek neve szerint."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Név"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Rendezés a járművek szintje szerint."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Szint"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Rendezés a járművek típusa szerint."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Típus"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Név"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Kattints a szűrőbeállítások alkalmazásához."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "A kiválasztott szűrők alkalmazása"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Kattints a szűrőbeállítások törléséhez."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Az összes szűrő törlése"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Csak a főműsoridős visszajátszások megjelenítése"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "Utolsó %(count)s nap"
+msgstr[1] "Utolsó %(count)s nap"
+msgstr[2] "Utolsó %(count)s nap"
+
+msgid "filterPopover/title"
+msgstr "Visszajátszási szűrő"
+
+msgid "filterPopover/tooltip/body"
+msgstr "A visszajátszások szűrésének beállítása a jármű típusa, szintje, nemzete és más szempontok szerint."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Szűrés paraméterek szerint"
+
+msgid "findReplay/buttonText/find"
+msgstr "Visszajátszás keresése"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "A bevitt adatok törlése"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Nézd meg a visszajátszást!"
+
+msgid "findReplay/errorMessage"
+msgstr "Semmit sem találtunk. Kérjük, módosítsd a kérésedet"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Kérjük, írd be ide az ARENA_ID-t..."
+
+msgid "findReplay/successMessage"
+msgstr "MI által talált visszajátszás, amely érdekelhet! Jó szórakozást!"
+
+msgid "page/heading/bestReplays"
+msgstr "A LEGJOBB VISSZAJÁTSZÁSOK"
+
+msgid "page/heading/findReplay"
+msgstr "VISSZAJÁTSZÁS KERESÉSE (FEJLESZTŐKNEK)"
+
+msgid "page/heading/myReplays"
+msgstr "A VISSZAJÁTSZÁSAIM"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Ez a rész az összes WoT-játékos legjobb visszajátszásainak adatait tartalmazza"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Ez a rész a visszajátszások keresésére szolgál valamilyen paraméter alapján"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Ez a rész a TE legjobb visszajátszásaid adatait tartalmazza"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "A legjobb visszajátszások"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Visszajátszás keresése"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "A visszajátszásaim"
+
+msgid "statsParam/damageAssisted"
+msgstr "Legjobb a megsemmisítésben való közreműködésben"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Legjobb a felfogott sebzésben"
+
+msgid "statsParam/damageDealt"
+msgstr "Legjobb az okozott sebzésben"
+
+msgid "statsParam/earnedXp"
+msgstr "Legjobb a szerzett tapasztalatban"
+
+msgid "statsParam/kills"
+msgstr "Legjobb a megsemmisített járművekben"
+
+msgid "table/error/buttonText"
+msgstr "Frissítés"
+
+msgid "table/error/description"
+msgstr "Elnézést kérünk az átmeneti kellemetlenségekért. Kérjük, próbáld meg később frissíteni az oldalt."
+
+msgid "table/error/title"
+msgstr "Hiba az adatok betöltése során"
+
+msgid "table/header/damageAssisted"
+msgstr "Közreműködés"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Felfogott sebzés"
+
+msgid "table/header/damageDealt"
+msgstr "Sebzés"
+
+msgid "table/header/date"
+msgstr "Dátum"
+
+msgid "table/header/earnedXp"
+msgstr "Szerzett XP"
+
+msgid "table/header/kills"
+msgstr "Megsemmisített járművek száma"
+
+msgid "table/header/map"
+msgstr "Pálya"
+
+msgid "table/header/marksOfMastery"
+msgstr "Mesterjelvények"
+
+msgid "table/header/player"
+msgstr "A játékos neve"
+
+msgid "table/header/vehicle"
+msgstr "Jármű"
+
+msgid "table/noRecords/buttonText"
+msgstr "Szűrő visszaállítása"
+
+msgid "table/noRecords/title"
+msgstr "Semmit sem találtunk. Kérjük, módosítsd a beállításokat, vagy állítsd vissza a szűrőt"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Kattints a szűrőbeállítások törléséhez."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Az összes szűrő törlése"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "A játékos közreműködési sebzése ebben a visszajátszásban"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Közreműködési sebzés"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "A játékos által felfogott sebzés ebben a visszajátszásban"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "A páncélzat által felfogott sebzés"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "A játékos által okozott sebzés ebben a visszajátszásban"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Okozott sebzés"
+
+msgid "table/tooltip/date/body"
+msgstr "A visszajátszás felvételének dátuma."
+
+msgid "table/tooltip/date/header"
+msgstr "A visszajátszás dátuma"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "A játékos által szerzett XP ebben a visszajátszásban"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Szerzett XP"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "A játékos által szerzett mesés medálok ebben a visszajátszásban"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Mesés medálok"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Idekattintva hozzáadhatod ezt a visszajátszást a Kedvenc visszajátszásokhoz."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Kedvenc"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Idekattintva eltávolíthatod ezt a visszajátszást a Kedvenc visszajátszások közül."
+
+msgid "table/tooltip/kills/body"
+msgstr "A játékos által megsemmisített járművek száma ebben a visszajátszásban"
+
+msgid "table/tooltip/kills/header"
+msgstr "Megsemmisítések"
+
+msgid "table/tooltip/map/body"
+msgstr "A visszajátszás pályája."
+
+msgid "table/tooltip/map/header"
+msgstr "Pálya"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "A játékos által szerzett mesterjelvények ebben a visszajátszásban"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Mesterjelvények"
+
+msgid "table/tooltip/player/body"
+msgstr "A visszajátszásban látott játékos neve."
+
+msgid "table/tooltip/player/header"
+msgstr "A játékos neve"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "A játékos járműve, amellyel a visszajátszás készült."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Jármű"
+
+msgid "tableInfo/amount"
+msgstr "Megjelenített visszajátszások: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Szűrő"
+
+msgid "waitingSpinner/message"
+msgstr "Tartalom betöltése folyamatban..."

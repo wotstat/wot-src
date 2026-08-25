@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Schemat"
+
+msgid "animations/crew_close"
+msgstr "ZAMKNIJ"
+
+msgid "animations/shop"
+msgstr "Przejdź do zakupu"
+
+msgid "battleMattersTab"
+msgstr "Akademia Pancerna"
+
+msgid "battleResults/descr"
+msgstr "Akademia pancerna: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Do misji Akademii pancernej"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Postępy w tej bitwie"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Anuluj"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "ZAMKNIJ"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Potwierdź"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Otrzymasz {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} z załogą i miejsce w garażu."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Czy wymienić Twój żeton akademii na %(vehicleName)s?"
+
+msgid "entryPoint/hint"
+msgstr "SERIA\nMISJI TRENINGOWYCH"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Ukończone misje: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Akademia Pancerna"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Nagroda za ukończenie:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Misje są aktualnie niedostępne ze względu na problemy techniczne. Twoje postępy w ukończonych misjach zostaną zachowane."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Ukończono wszystkie misje"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Misje są chwilowo niedostępne"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Warunki:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Wymień żeton na dowolny możliwy do zbadania pojazd VI poziomu."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "WRÓĆ"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "DO MISJI AKADEMII PANCERNEJ"
+
+msgid "mainRewardsScreen/done"
+msgstr "W garażu"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Podgląd"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Dni wypożyczenia: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Ukończ serię misji treningowych, aby zdobyć jako główną nagrodę trzy pojazdy premium VIII poziomu do wypożyczenia na {cream_Open}14 dni{cream_Close}."
+
+msgid "mainRewardsScreen/title"
+msgstr "AKADEMIA PANCERNA"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Wybierz"
+
+msgid "mainScreen/infoButton"
+msgstr "PRZEWODNIK DLA NOWICJUSZY"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "PRZEWODNIK"
+
+msgid "mainScreen/list/arrow"
+msgstr "Kliknij, aby przejść do aktualnej misji."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Otrzymano główną nagrodę"
+
+msgid "mainScreen/progress"
+msgstr "Ukończone misje: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Jak ukończyć"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Wypełnij poprzednią misję"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Niedostępna"
+
+msgid "mainScreen/showMainReward"
+msgstr "Zobacz główną nagrodę"
+
+msgid "mainScreen/target"
+msgstr "Ukończ wszystkie misje, aby otrzymać trzy pojazdy VIII poziomu do wypożyczenia."
+
+msgid "mainScreen/title"
+msgstr "AKADEMIA PANCERNA"
+
+msgid "pausedScreen/buttonText"
+msgstr "Do garażu"
+
+msgid "pausedScreen/description"
+msgstr "Akademia Pancerna jest tymczasowo niedostępna z przyczyn technicznych. Wszelkie postępy zostaną zachowane. Przepraszamy za niedogodności."
+
+msgid "pausedScreen/title"
+msgstr "Tymczasowo niedostępne"
+
+msgid "rewards/additionalTitle"
+msgstr "Otrzymałeś także:"
+
+msgid "rewards/footer/confirm"
+msgstr "Tak jest!"
+
+msgid "rewards/footer/more"
+msgstr "Więcej: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Do następnej misji"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Wyświetl w garażu"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Warunki misji zostały spełnione wcześniej"
+
+msgid "rewards/rent"
+msgstr "Dni wypożyczenia: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "OSTATNIA MISJA UKOŃCZONA"
+
+msgid "rewards/subTitle/regular"
+msgstr "MISJA %(questNumber)s UKOŃCZONA"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "OTRZYMANO POJAZD ZA ŻETON AKADEMII PANCERNEJ"
+
+msgid "rewards/title"
+msgstr "AKADEMIA PANCERNA"
+
+msgid "rewards/token/action"
+msgstr "Wybierz pojazd"
+
+msgid "rewards/token/description"
+msgstr "Użyj żetonu, aby natychmiast otrzymać dowolny pojazd VI poziomu."
+
+msgid "rewards/token/title"
+msgstr "Wymień żeton Akademii pancernej na pojazd"
+
+msgid "tokenTooltip/condition"
+msgstr "Żetony są przyznawane za pomyślne ukończenie serii misji treningowych i dokonanie niezbędnych postępów w Akademii Pancernej."
+
+msgid "tokenTooltip/description"
+msgstr "Żetony można wymienić na dowolny możliwy do zbadania pojazd VI poziomu. Pojazd będzie miał załogę i miejsce w garażu."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Dostępny żeton: {cream_open}%(days)s d{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Żeton dostępny do: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Żeton dostępny: {cream_open}%(hours)s godz.{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Żeton dostępny: {cream_open}%(minutes)s min{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Żeton akademii"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Oprócz pojazdu otrzymasz {cream_Open}%(crewIcon)s załogę{cream_Close} i {cream_Open}%(hangarIcon)s {cream_Close} {cream_Open}miejsce{cream_Close} w garażu."
+
+msgid "vehicleSelection/back"
+msgstr "WRÓĆ"
+
+msgid "vehicleSelection/backTo"
+msgstr "DO MISJI AKADEMII PANCERNEJ"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Dodaj do porównania"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Konfiguruj wyświetlanie pojazdów według typu i kraju."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Filtruj wg parametrów"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Kliknij, by ustawić domyślne ustawienia filtra."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Przywróć domyślne"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Kraj"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Filtruj wg parametrów"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Typ pojazdu"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Nic nie znaleziono. Zmień ustawienia filtra lub przywróć je do domyślnych."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Wyzeruj filtr"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Zbadałeś wszystkie pojazdy VI poziomu, które można otrzymać za żeton akademii."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Nie wybrano pojazdu"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Wyszukaj wg nazwy"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "Nazwa pojazdu nie może zawierać więcej niż %(maxLength)s znaków."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Wyszukaj wg nazwy"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Wyświetlane:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Wymień żeton na dowolny możliwy do zbadania pojazd VI poziomu. Pojazd będzie miał\n załogę i miejsce w garażu."
+
+msgid "vehicleSelection/title"
+msgstr "Wybierz dowolny możliwy do zbadania pojazd VI poziomu"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Niszczyciel czołgów"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "Działo samobieżne"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Czołg ciężki"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Czołg lekki"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Czołg średni"

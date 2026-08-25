@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "%(leftDetailedSeasonName)s borbe su završene"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Prekid vatre je zaveden na svim serverima. Borbe će biti dostupne za %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "%(leftDetailedSeasonName)s borbe su završene"
+
+msgid "alertMessage/allNotSet"
+msgstr "Ovaj režim je nedostupan na %(serverName)s serveru"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Izaberi drugi server"
+
+msgid "alertMessage/notAvailable"
+msgstr "Prekid vatre je u toku na %(serverName)s serveru"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Prekid vatre je u toku na %(serverName)s serveru"
+
+msgid "alertMessage/notSet"
+msgstr "Ovaj režim je nedostupan na %(serverName)s serveru"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Prekid vatre je zaveden na ovom serveru. Borbe će biti dostupne za %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "%(leftDetailedSeasonName)s borbe su završene"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Ovaj režim je nedostupan na %(serverName)s serveru"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s č %(min)s min"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Nema pogodnih vozila"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Raspored"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "REŽIM"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} - prebacivanje u drugi režim igre"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "Režim će biti dostupan"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "Primirje {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "Borbe su završene"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "Režim više nije dostupan"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "Režim će biti dostupan tokom {{timer}}"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s ne može da se bori u %(modeName)s borbama."
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "Nekompatibilian tip vozila"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "Izaberi %(levelSubStr)s vozilo da bi učestvovao u %(modeName)s režimu"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "Nekompatibilian nivo vozila"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "%(levels)s nivoa"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s ne može da se bori u %(modeName)s režimu."
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "Nekompatibilno vozilo"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "Primirje je aktivno na ovom serveru. Molim izaberi drugi server."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "Ovaj režim je nedostupan na izabranom serveru."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "%(subModeName)s borbe su završene"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "Nije moguće ući u borbu"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "Promeni režim ili izaberi vozilo koje odgovara uslovima."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "Vozilo nije odgovarajuće za režim"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "Kreiraj taktičku jedinicu od 2 ili 3 igrača za kooperaciju u %(modeName)s borbama."
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "Vod"
+
+msgid "invite/text/detailedTitle"
+msgstr "Pozivnica za pristup \"%(detailedModeName)s\" vodu"
+
+msgid "invite/tooltip/noVehicles"
+msgstr "Moraš imati najmanje jedno vozilo u Garaži."
+
+msgid "lootboxTooltip/chance"
+msgstr "Šansa ispadanja: %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "Jedna stvar iz igre sa liste ispod:"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "SVE ETAPE SU ZAVRŠENE"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "SVE ETAPE TRENUTNE\nMISIJE SU ZAVRŠENE"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "Sledeća nagrade etape - otključavaju se na %(stagePoints)s poena"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "Nagrada sledeće etape"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "%(time)s dok se aktivna faza ne završi"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "%(time)s do sledećeg pokretanja"
+
+msgid "modeSelector/notStarted"
+msgstr "Ovaj režim će uskoro početi"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "NA REŽIME"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "Nedostupno iz tehničkih razloga"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "Završio si sve etape trenutne misije"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "Nagrada: %(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "Borbe su završene"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "Uskoro"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "Počeće za"
+
+msgid "modeSubSelector/subtitle"
+msgstr "IZABERI POD REŽIM"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "Dev Sve faze su završene"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "Dev Ažuriranje napretka"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "Pridruži se akciji!"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "Uđi u sukob!"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "Događaji Arkadne mašine su jedinstveni, vremenski ograničene aktivnost koje nude nešto drugačije! Bori se u ekskluzivnim režimima sa promenjenim pravilima igre, završi misije i zaradi retke nagrade."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Dev Završio si napredak"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "Dev Uzmi što više nagrada možeš:"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "Zarađeni Dev poeni : {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "Ispunjeno:"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "Ponovljivo"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Za završavanje:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Za poraz:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Za pobedu:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Poena:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Primljeno:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "Sve trenutno dostupne misije su završene"
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "Misije će se pojaviti kada napredak započne"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "Završio si sve dostupne misije za sada. Pojaviće ih se još u sledećoj rotaciji."
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "Dostupno za {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "Dostupno za {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "Nove misije dostupne za {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} status"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} misija"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "Sve etape su završene"
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "Ažuriranje napretka"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "NEONSKI JURIŠ"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "Linija cilja čeka!"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "Spreman za trku?"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "Neonski juriš je jedinstveni vremenski ograničen događaj koji nudi nešto drugačije! Trkaj se i probijaj preko opasnih staza, završavaj misije i zaradi nagrade."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Ovaj režim zahteva visoke performanse kompjutera. Možda iskusiš probleme sa učitavanjem mape, grafikom i vertikalnim kretanjem. U slučaju nedovoljnih performansi, pokušaj da odabereš niži kvalitet grafike u podešavanjima."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Moguće smanjene performanse"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Ovaj režim zahteva visoke performanse kompjutera. Možda iskusiš probleme sa učitavanjem mape, grafikom i vertikalnim kretanjem. U slučaju nedovoljnih performansi, pokušaj da odabereš niži kvalitet grafike u podešavanjima."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Moguće smanjene performanse"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "Epska nasumična nagrada"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "Legendarna nasumična nagrada"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "Obična nasumična nagrada"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "Retka nasumična nagrada"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "Neobična nasumična nagrada"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "Neonski juriš misija - Etapa:%(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "Tvoj napredak se računa u svakoj trci Neonskog juriša."
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "Misija Neonskog juriša"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "Tvoj progres se računa u bilo kom pod režimu Arkadne mašine."
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "Do nove misije Arkadne mašine"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15–30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "Izbori se do linije cilja u ovom trkačkom režimu koji je dostupan svima."
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Svi nivoi"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "Pri niskim grafičkim postavkama može doći do vizuelnih artefakata. Preporučujemo da izabereš najvišu postavku grafike za najbolje moguće iskustvo, pod uslovom da specifikacije tvog računara ispunjavaju zahteve. Režim zahteva visoke performanse računara. FPS može da se smanji tokom intenzivne borbe."
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "Savetuju se najviše postavke grafike"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Savetuju se najviše postavke grafike"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "Pri niskim grafičkim postavkama može doći do vizuelnih artefakata. Preporučujemo da izabereš najvišu postavku grafike za najbolje moguće iskustvo, pod uslovom da specifikacije tvog računara ispunjavaju zahteve. Režim zahteva visoke performanse računara. FPS može da se smanji tokom intenzivne borbe."
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "Savetuju se najviše postavke grafike"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Savetuju se najviše postavke grafike"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "Nova misija Neonskog juriša je dostupna za:"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "%(subModeName)s pod režim je završen. Reset progresa."
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "%(subModeName)s pod režim je završen."
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "Nove nagrade i %(subModeName)s pod režim su dostupni."
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "Novi pod režim je dostupan: %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "%(subModeName)s pod režim je nedostupan zbog održavanja."
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "%(subModeName)s pod režim je ponovo dostupan."
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "Lista nagrada"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "Čestitamo!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "Završio si napredak"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "Čestitamo!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "Beskrajan post napredak"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "Završio si glavni napredak"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "Završi ovu etapu koliko god puta možeš."
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "Zarađeni poeni: {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Poena zarađeno:"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "MISIJE NEONSKOG JURIŠA"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "Ispunjeno:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "Ponovljivo"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Za završavanje:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Za poraz:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Za pobedu:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Poena:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Primljeno:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "Sve trenutno dostupne misije su završene"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "Misije će se pojaviti kada napredak započne"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "Završio si sve dostupne misije za sada. Pojaviće ih se još u sledećoj rotaciji."
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "Dostupno za {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "Dostupno za {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "Nove misije dostupne za {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} status"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} misija"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "LEGENDARNA NAGRADA JE PRIMLJENA"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "%(subModeName)s je dostupan ponovo."
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "Pit stop"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s se završio"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "Pit stop"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "Vreme je za pit stop! %(subModeName)s trke su trenutno nedostupne."
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "Pit stop"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "Svaka nasumična nagrada je stvar sa liste ispod, sa određenom verovatnoćom dodeljivanja."
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "Šta je unutra?"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "Sva vozila su dostupna za Neonski juriš"
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "Vozila Neonskog juriša"
+
+msgid "modes/fall_tanks/userName"
+msgstr "NEONSKI JURIŠ"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "Sve etape su završene"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "Ažuriranje napretka"
+
+msgid "modes/undefined/capsUserName"
+msgstr "ARKADNI KABINET"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s: %(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "Pridruži se akciji!"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "Uđi u sukob!"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "Događaji Arkadne mašine su jedinstveni, vremenski ograničene aktivnost koje nude nešto drugačije! Bori se u ekskluzivnim režimima sa promenjenim pravilima igre, završi misije i zaradi retke nagrade."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Ovaj režim zahteva visoke performanse kompjutera. Iskusićeš probleme sa učitavanjem mapa, grafikom i pokretima vozila. U slučaju nedovoljnih performansi, pokušaj da spustiš kvalitet grafike u podešavanjima."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Moguće smanjene performanse"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Ovaj režim zahteva visoke performanse kompjutera. Iskusićeš probleme sa učitavanjem mapa, grafikom i pokretima vozila. U slučaju nedovoljnih performansi, pokušaj da spustiš kvalitet grafike u podešavanjima."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Moguće smanjene performanse"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "Epska nasumična nagrada"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "Legendarna nasumična nagrada"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "Obična nasumična nagrada"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "Retka nasumična nagrada"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "Neobična nasumična nagrada"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "Misija Arkadna mašina - Etapa: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "Tvoj progres se računa u bilo kom pod režimu Arkadne mašine."
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "Misija Arkadne mašine"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "Tvoj progres se računa u bilo kom pod režimu Arkadne mašine."
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "Do nove misije Arkadne mašine"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15 na 15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "Eksperimentalne borbe sa nestandardnim pravilima."
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Nivoi&nbsp;%(levels)s"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "Pri niskim grafičkim postavkama može doći do vizuelnih artefakata. Preporučujemo da izabereš najvišu postavku grafike za najbolje moguće iskustvo, pod uslovom da specifikacije tvog računara ispunjavaju zahteve. Režim zahteva visoke performanse računara. FPS može da se smanji tokom intenzivne borbe."
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "Savetuju se najviše postavke grafike"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Savetuju se najviše postavke grafike"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "Pri niskim grafičkim postavkama može doći do vizuelnih artefakata. Preporučujemo da izabereš najvišu postavku grafike za najbolje moguće iskustvo, pod uslovom da specifikacije tvog računara ispunjavaju zahteve. Režim zahteva visoke performanse računara. FPS može da se smanji tokom intenzivne borbe."
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "Savetuju se najviše postavke grafike"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Savetuju se najviše postavke grafike"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "Nova misija Arkadne mašine će biti dostupna za:"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "%(subModeName)s pod režim je završen. Reset progresa."
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "%(subModeName)s pod režim je završen."
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "Nove nagrade i %(subModeName)s pod režim su dostupni."
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "Novi pod režim je dostupan: %(subModeName)s."
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "%(subModeName)s pod režim je nedostupan zbog održavanja."
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "%(subModeName)s pod režim je ponovo dostupan."
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "Lista nagrada"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "Čestitamo!"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "Završio si napredak"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "Čestitamo!"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "Ponovljiva etapa"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "Završio si glavni napredak"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "Uzmi što više nagrada možeš:"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "Zarađeni poeni: {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Poena zaradjeno:"
+
+msgid "modes/undefined/progression/title"
+msgstr "MISIJE ARKADNE MAŠINE"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "Ispunjeno:"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "Ponovljivo"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Za završavanje:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Za poraz:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Za pobedu:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Poena:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Primljeno:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "Sve trenutno dostupne misije su završene"
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "Misije će se pojaviti kada napredak započne"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "Završio si sve dostupne misije za sada. Pojaviće ih se još u sledećoj rotaciji."
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "Dostupno za {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "Dostupno za {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "Nove misije dostupne za {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} status"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} misija"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "LEGENDARNA NAGRADA JE PRIMLJENA"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "%(subModeName)s borbe su ponovo dostupne."
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "Primirje"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s borbe su završene"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "Primirje"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "Prekid vatre je aktivan. %(subModeName)s borbe su trenutno nedostupne."
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "Primirje"
+
+msgid "modes/undefined/tierList/description"
+msgstr "Svaka nasumična nagrada je stvar sa liste ispod koju možeš da dobiješ sa određenom verovatnoćom."
+
+msgid "modes/undefined/tierList/title"
+msgstr "Šta je unutra?"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "Prikaži / sakrij dostupna vozila za režim Arkadne mašine."
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "Vozila Arkadne mašine"
+
+msgid "modes/undefined/userName"
+msgstr "Arkadna mašina"
+
+msgid "notification/congratulation"
+msgstr "Čestitamo!"
+
+msgid "notification/finishSubModes"
+msgstr "Događaj \"%(modeName)s\" se završio."
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "%(subModesNames)s pod režimi su završeni. Reset progresa."
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "%(subModesNames)s pod režimi su završeni."
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "Nasumična nagrada"
+
+msgid "notification/newProgression"
+msgstr "Progres događaja je resetovan - možeš dobiti nagrade opet!"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "Progres događaja je resetovan. Novi pod režim je dostupan: %(subModesNames)s."
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "Novi pod režimi su dostupni: %(subModesNames)s."
+
+msgid "notification/progressionComplete"
+msgstr "Završio si sve dostupne misije \"%(modeName)s\". Primljena nagrada:"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "Završio si sve dostpune misije \"%(modeName)s\". Ponovljiva etapa je dostupna. Primljena nagrada:"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "Progres će se resetovati za manje od 1 dana. Nakon toga, možeš da završavaš misije opet."
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "Progres će se resetovati za %(days)d dana. Nakon toga, možeš da završavaš misije opet."
+
+msgid "notification/progressionStageComplete"
+msgstr "Završio si \"%(modeName)s\" etapu: %(stage)s. Primljena nagrada:"
+
+msgid "notification/subModesSeparator"
+msgstr ", "
+
+msgid "notification/switchOffSubModes"
+msgstr "%(subModesNames)s pod režimi su nedostupni zbog održavanja."
+
+msgid "notification/switchOnSubModes"
+msgstr "%(subModesNames)s pod režimi su ponovo dostupni."
+
+msgid "platoonView/title"
+msgstr "Vod: %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "Dostupni serveri: %(server)s."
+
+msgid "primeTimes/availableServers"
+msgstr "Dostupni serveri:"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Na serveru %(serverName)s\nBorbe će biti dostupne za %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Server %(serverName)s\nBorbe \"%(leftDetailedSeasonName)s\" su završene."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Na serveru %(serverName)s\nBorbe će biti dostupne na još %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Na serveru %(serverName)s\nBorbe će biti dostupne za %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Server %(serverName)s\nBorbe \"%(leftDetailedSeasonName)s\" su završene."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Na serveru %(serverName)s\nBorbe će biti dostupne za %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Server %(serverName)s\nBorbe \"%(leftDetailedSeasonName)s\" su završene."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s č %(min)s min"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1 min"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Prekid vatre je zaveden na svim serverima.\nBorbe će biti dostupne za%(primeDelta)s"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "Borbe \"%(leftDetailedSeasonName)s\" su završene"
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "Ovaj režim je nedostupan na %(serverName)s serveru"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Prekid vatre je uveden na %(serverName)s serveru do %(primeDeltaDate)s%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Prekid vatre je u toku na %(serverName)s serveru"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Ovaj režim je nedostupan na %(serverName)s serveru"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Prekid vatre je zaveden na %(serverName)s serveru.\nBorbe će biti dostupne za %(primeDelta)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "Borbe \"%(leftDetailedSeasonName)s\" su završene"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Ovaj režim je nedostupan na %(serverName)s serveru"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Borbe na %(serverName)s serveru počinju za %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "Borbe \"%(leftDetailedSeasonName)s\" na serveru %(serverName)s su završene."
+
+msgid "primeTimes/timeText/available"
+msgstr "Borbe na serveru %(serverName)s će biti dostupne na još %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Borbe na %(serverName)s serveru počinju za %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "Borbe \"%(leftDetailedSeasonName)s\" na serveru %(serverName)s su završene."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Borbe na %(serverName)s serveru počinju za %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "Borbe \"%(leftDetailedSeasonName)s\" na serveru %(serverName)s su završene."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "poena"
+
+msgid "progression/complete/affirmative"
+msgstr "Razumem!"
+
+msgid "progression/defaultCondition/text"
+msgstr "Zaradi poene i napreduj kroz napredak."
+
+msgid "progression/infinite/pointsEarned"
+msgstr "Poena zaradjeno:"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "Aktivna faza je završena. Borbe su gotove"
+
+msgid "progression/questsList/quest/completed"
+msgstr "Ispunjeno:"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "Ponovljivo"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "Za završavanje:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "Za poraz:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "Za pobedu:"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "Primljeno:"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "Aktivna faza se završava za : {{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "Aktivna faza se završava za :"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "Sledeće pokretanje je za:"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "Sledeće nagrade etape - otključavaju se na %(count)d poena"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Takođe si dobio:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Razumem!"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "Komandant voda je promenuo %(subModeName)s pod režim."
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "Promena pod režima"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Nivoi&nbsp;%(levels)s"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "NEONSKI JURIŠ"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "Trkaj se do ciljne linije i zaustavi ostale da je dostignu. Upotrebi sposobnosti juriš i štit da izazoveš dodatni haos!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "Pažnja: Pokretne platforme"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "Izbegni lasere i pažljvo tempiraj skokove da ubrzaš do cilja!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "Pažnja: Laseri i skokovi"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "da zaznaš više o ovom režimu"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "Pritisni"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "NEONSKI JURIŠ"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15–30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "Izbori se\ndo linije cilja"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Svi nivoi"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "Pri niskim grafičkim postavkama može doći do vizuelnih artefakata i drugih problema. Preporučujemo da izabereš najvišu postavku grafike za najbolje moguće iskustvo, pod uslovom da specifikacije tvog računara ispunjavaju zahteve. Ovaj režim zahteva visoke performanse računara i FPS može da se smanji tokom intenzivnih momenata."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "Savetuju se najviše postavke grafike"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Savetuju se najviše postavke grafike"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "Pri niskim grafičkim postavkama može doći do vizuelnih artefakata i drugih problema. Preporučujemo da izabereš najvišu postavku grafike za najbolje moguće iskustvo, pod uslovom da specifikacije tvog računara ispunjavaju zahteve. Ovaj režim zahteva kompjuter visokih performansi. FPS može da se smanji tokom intenzivnih momenata."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "Savetuju se najviše postavke grafike"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Savetuju se najviše postavke grafike"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "NEONSKI JURIŠ"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "NEONSKI JURIŠ"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "\"Neonski juriš\""
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Nivoi&nbsp;%(levels)s"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "Pri niskim grafičkim postavkama može doći do vizuelnih artefakata. Preporučujemo da izabereš najvišu postavku grafike za najbolje moguće iskustvo, pod uslovom da specifikacije tvog računara ispunjavaju zahteve. Režim zahteva visoke performanse računara. FPS može da se smanji tokom intenzivne borbe."
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "Savetuju se najviše postavke grafike"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Savetuju se najviše postavke grafike"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "Pri niskim grafičkim postavkama može doći do vizuelnih artefakata. Preporučujemo da izabereš najvišu postavku grafike za najbolje moguće iskustvo, pod uslovom da specifikacije tvog računara ispunjavaju zahteve. Režim zahteva visoke performanse računara. FPS može da se smanji tokom intenzivne borbe."
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "Savetuju se najviše postavke grafike"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Savetuju se najviše postavke grafike"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

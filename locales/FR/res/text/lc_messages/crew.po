@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Agrandir"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Congédier les sous-qualifiés"
+
+msgid "barracks/bunks/title"
+msgstr "Lits :"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Indiquez le nombre de lits à acheter. Lits disponibles dans la caserne : %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Prix réduit"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Nouveau prix : %(currency)s pour %(bunksCount)s lits"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Prix précédent : %(currency)s pour %(bunksCount)s lits"
+
+msgid "barracks/enlarge/header"
+msgstr "Agrandir la caserne ?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Les membres d'équipage sous-qualifiés dans votre caserne ayant moins que les {whiteSpanish_Open}210 060{whiteSpanish_Close}{icon} points d'EXP. nécessaires pour maîtriser leur première aptitude d'équipage à {whiteSpanish_Open}100 %{whiteSpanish_Close} peuvent être congédiés."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Membres d'équipage sous-qualifiés"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Vous ne possédez pas de membres d'équipage sous-qualifiés"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Vous ne recevrez aucune compensation pour les membres d'équipage sous-qualifiés congédiés. Après les avoir congédiés, ils ne peuvent pas être récupérés et toute leur EXP. est perdue."
+
+msgid "barracks/title"
+msgstr "CASERNE"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Cliquez pour agrandir la caserne."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Agrandir la caserne"
+
+msgid "common/exclamationMark"
+msgstr " !"
+
+msgid "common/filter/location"
+msgstr "Emplacement"
+
+msgid "common/imageNotAvailable"
+msgstr "Image introuvable"
+
+msgid "common/inBarracks"
+msgstr "Dans la caserne"
+
+msgid "common/inBattle"
+msgstr "En bataille"
+
+msgid "common/inPrebattle"
+msgstr "Dans une unité tactique"
+
+msgid "common/navigation/aboutCrew"
+msgstr "À PROPOS DE L'ÉQUIPAGE"
+
+msgid "common/navigation/toBarracks"
+msgstr "À LA CASERNE"
+
+msgid "common/navigation/toGarage"
+msgstr "AU GARAGE"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "AU PROFIL"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s %"
+
+msgid "conversionAwards/button/submit"
+msgstr "Affirmatif !"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Vos membres d'équipage ont été convertis en Livres d'équipage."
+
+msgid "conversionAwards/title"
+msgstr "CONVERSION RÉUSSIE"
+
+msgid "conversionAwards/underTitle"
+msgstr "Les objets suivants ont été ajoutés à votre compte."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Annuler"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Congédier"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Membres d'équipage à congédier : {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Congédier les membres d'équipage sous-qualifiés ?"
+
+msgid "conversionConfirm/warning"
+msgstr "Vous ne recevrez aucune compensation pour les membres d'équipage sous-qualifiés congédiés. Après les avoir congédiés, ils ne peuvent pas être récupérés et toute leur EXP. est perdue."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Sélection automatique des aptitudes"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Il n'y a pas de membres d'équipage avec des aptitudes non maîtrisées."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Impossible de sélectionner automatiquement les aptitudes"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Toutes les aptitudes non maîtrisées indiquées d'un symbole « plus » seront remplacées par des aptitudes sélectionnées automatiquement selon une logique spéciale pour tous les équipages."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Sélection automatique des aptitudes non maîtrisées pour tous"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Réinitialiser les aptitudes pour tous"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Il n'y a pas de membres d'équipage avec des aptitudes maîtrisées."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Impossible de réinitialiser les aptitudes."
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Toutes les aptitudes seront réinitialisées pour tous les membres d'équipage de votre compte. Cette opération ne peut pas être annulée."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Réinitialiser les aptitudes pour tous"
+
+msgid "crewBanner/infoText"
+msgstr "Réinitialisation gratuite des aptitudes ou sélection automatique des aptitudes non maîtrisées pour tous les membres d'équipage de votre compte"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "L'entraînement accéléré de l'équipage est activé"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Bonus d'efficacité : {{@ style (color $color)}}+{{value}} %{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Efficacité des aptitudes"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Les aptitudes sont indisponibles car le membre d'équipage n'est pas entraîné pour ce véhicule."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Spécialisation :"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Aptitudes indisponibles"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Aptitudes bonus :"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Aptitudes de la qualification principale"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(Chine)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Tchécoslovaquie)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(France)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Allemagne)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Italie)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japon)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Pologne)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Suède)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(Royaume-Uni)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(États-Unis)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(URSS)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Tous les chasseurs de chars premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Tous les canons automoteurs premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Tous les chars lourds premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Tous les chars légers premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Tous les chars moyens premium\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Détails"
+
+msgid "filter/group/details/title"
+msgstr "Détails"
+
+msgid "filter/group/nation/title"
+msgstr "Nation"
+
+msgid "filter/group/other/title"
+msgstr "Autre"
+
+msgid "filter/group/special/title"
+msgstr "Spécial"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Qualification"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Rang"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Rang"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Spécialisation"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Type de véhicule"
+
+msgid "filter/popup/button/title"
+msgstr "Filtrer"
+
+msgid "filter/popup/default/title"
+msgstr "Filtrer"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Filtrer par nation"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Filtrer par véhicules"
+
+msgid "filter/reset"
+msgstr "Réinitialiser les filtres"
+
+msgid "filter/search/placeholder"
+msgstr "Chercher par nom"
+
+msgid "filter/search/tooltip/header"
+msgstr "Chercher par nom"
+
+msgid "filter/title"
+msgstr "Affichés :"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Afficher/masquer les membres d'équipage à bord des véhicules dont tous les éléments et branches techniques ont été recherchés."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Véhicules d'élite"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Afficher/masquer les membres d'équipage entraînés pour des véhicules premium."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Véhicules premium"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Afficher/masquer les membres d'équipage à bord des véhicules principaux."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Véhicules principaux"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Afficher/masquer les membres d'équipage pour ce type de véhicules."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Afficher/masquer les membres d'équipage de cette nation."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Afficher/masquer les apparences de cette nation."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Afficher/masquer les véhicules de cette nation."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Afficher/masquer les congédiés."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Congédié"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Afficher les recrues."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Recrues"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Afficher les membres d'équipages."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Membres d'équipage"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Afficher/masquer les membres d'équipage de cette qualification."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Afficher/masquer les véhicules premium."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Véhicules premium"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Afficher/masquer les véhicules de ce type."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Ch. de chars"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Canons automoteurs"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Chars lourds"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Chars légers"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Chars moyens"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Aucun véhicule répondant aux critères\nde recherche n'a été trouvé"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Classer par nom des véhicules."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Nom"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Classer par rang des véhicules."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Rang"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Trier par types des véhicules."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Type"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Nom"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Cliquez pour réinitialiser les paramètres du filtre."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Réinitialiser tous les filtres"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Affirmatif !"
+
+msgid "junkTankmen/description"
+msgstr "Ces membres d'équipage ont moins que les {bond_Open}210 060{bond_Close}{icon} points d'EXP. nécessaires pour maîtriser leur première aptitude d'équipage à {whiteSpanish_Open}100 %{whiteSpanish_Close}.\nIls seront retirés de votre compte."
+
+msgid "junkTankmen/title"
+msgstr "Congédier les membres d'équipage sous-qualifiés ?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Il y a une limite de {whiteSpanish_Open}trois{whiteSpanish_Close} aptitudes pour chaque qualification supplémentaire. L'accès à une nouvelle aptitude bonus se fera après avoir atteint les {whiteSpanish_Open}première{whiteSpanish_Close}, {whiteSpanish_Open}troisième{whiteSpanish_Close} et {whiteSpanish_Open}cinquième{whiteSpanish_Close} aptitudes de la qualification principale."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Aptitudes bonus"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Lors du réentraînement d'un membre d'équipage pour un autre véhicule avec un ensemble de qualifications différent, vous pourrez à nouveau choisir les aptitudes de ses nouvelles qualifications supplémentaires."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Les aptitudes bonus s'entraînent deux fois moins vite que les aptitudes de la qualification principale."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "L'EXP. n'est pas utilisée pour entraîner des aptitudes bonus."
+
+msgid "matrix/freeResetButton"
+msgstr "Réinitialiser gratuitement"
+
+msgid "matrix/increaseButton"
+msgstr "Entraînement accéléré"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Le membre d'équipage a atteint sa limite d'entraînement."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Impossible d'accélérer l'entraînement"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Entraîner des aptitudes en utilisant de l'EXP. libre et des Livres d'équipage."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Entraînement rapide"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Qualification incompatible"
+
+msgid "matrix/qualification/1"
+msgstr "Qualification principale"
+
+msgid "matrix/qualification/2"
+msgstr "Deuxième qualification"
+
+msgid "matrix/qualification/3"
+msgstr "Troisième qualification"
+
+msgid "matrix/qualification/4"
+msgstr "Quatrième qualification"
+
+msgid "matrix/qualification/5"
+msgstr "Cinquième qualification"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Aptitudes zéro indisponibles pour la deuxième qualification"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Aptitudes zéro indisponibles pour la troisième qualification"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Aptitudes zéro indisponibles pour la quatrième qualification"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "La Deuxième qualification est indisponible pour ce véhicule"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "La Troisième qualification est indisponible pour ce véhicule"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "La Quatrième qualification est indisponible pour ce véhicule"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "La Cinquième qualification est indisponible pour ce véhicule"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Il y a une limite de {whiteSpanish_Open}trois{whiteSpanish_Close} aptitudes bonus pour chaque qualification supplémentaire. Seules les aptitudes spécifiques à cette qualification peuvent être sélectionnées comme aptitudes bonus."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Il y a une limite de {whiteSpanish_Open}six{whiteSpanish_Close} aptitudes de la qualification principale (en incluant les aptitudes zéro)."
+
+msgid "matrix/resetButton"
+msgstr "Réinitialiser"
+
+msgid "matrix/resetButtonHint"
+msgstr "CLIQUEZ POUR RÉINITIALISER LES APTITUDES"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Vous n'avez aucune aptitude entraînée."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Impossible de réinitialiser les aptitudes."
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Cliquez pour réinitialiser les aptitudes."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Réinitialiser les aptitudes"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Aptitude bonus disponible à l'entraînement"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "L'EXP. d'équipage n'est pas utilisée pour entraîner des aptitudes bonus."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Indisponible"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Débloqué avec l'entraînement de la troisième aptitude de la qualification principale. Ne nécessite pas d'EXP."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Débloqué avec l'entraînement de la cinquième aptitude de la qualification principale. Ne nécessite pas d'EXP."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Niveau d'entraînement"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "La quantité d'EXP. totale nécessaire est réduite, car le membre d'équipage possède une aptitude zéro."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "La quantité d'EXP. totale nécessaire est réduite, car le membre d'équipage possède deux aptitudes zéro."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Aptitude disponible à l'entraînement"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Indisponible"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "L'aptitude précédente doit être maîtrisée à 100 %."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Aptitude zéro disponible à l'entraînement"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Les aptitudes zéro sont toujours maîtrisées en premier, même lorsque plusieurs aptitudes sont sélectionnées à la fois. L'EXP. d'équipage n'est pas utilisée pour les entraîner."
+
+msgid "matrix/skills/allSkills"
+msgstr "Toutes les aptitudes supplémentaires ont été entraînées pour ce véhicule"
+
+msgid "matrix/skills/available"
+msgstr "Aptitudes disponibles à l'entraînement :"
+
+msgid "matrix/skills/bonus"
+msgstr "Aptitudes bonus"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Les aptitudes ne sont pas disponibles"
+
+msgid "matrix/skills/locked"
+msgstr "Les aptitudes ne sont pas disponibles"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Toutes les aptitudes sont désactivées pour ce véhicule"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Aptitudes de la qualification principale"
+
+msgid "matrix/skills/reduced"
+msgstr "Efficacité des aptitudes réduite"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Aptitudes du chef de char"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Aptitudes du pilote"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Aptitudes du chef de char"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Aptitudes du pilote"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Aptitudes du tireur"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Aptitudes du chargeur"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Aptitudes de l'opérateur radio"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Aptitudes du tireur"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Aptitudes du chargeur"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Aptitudes de l'opérateur radio"
+
+msgid "matrix/skills/training"
+msgstr "Entraînement de l'aptitude"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Aptitudes zéro disponibles à l'entraînement :"
+
+msgid "memberChange/action/recruit"
+msgstr "Recruter {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount} % DE RÉDUCTION SUR LE CHANGEMENT DE QUALIFICATION"
+
+msgid "memberChange/title"
+msgstr "SÉLECTIONNER {role} : {vehicle} "
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}Dans le dépôt{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Après confirmation, le membre d'équipage ayant transféré son EXP. sera retiré de votre compte."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Une Licence de mentorat vous permet de transférer l'EXP. d'équipage d'un membre d'équipage vers un autre de la même nation."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Licence de mentorat"
+
+msgid "personalData/card/edit"
+msgstr "Éditer"
+
+msgid "personalData/card/remove"
+msgstr "Retirer"
+
+msgid "personalData/card/restrictions"
+msgstr "Restrictions : {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Cliquez pour remplacer le nom et l'apparence d'un membre d'équipage."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Apparence"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Ce membre d'équipage possède un nom et une apparence uniques."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Impossible de remplacer le nom et l'apparence"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Rien n'a été trouvé. Modifiez les paramètres ou réinitialisez les filtres."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Configurer l'affichage des apparences par leur nation."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Filtrer par paramètres"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Afficher les documents."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Documents"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Afficher les apparences appropriées."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Apparences correspondantes"
+
+msgid "personalData/filter/type/title"
+msgstr "Type"
+
+msgid "personalData/title"
+msgstr "REMPLACER LE NOM ET L'APPARENCE"
+
+msgid "personalFile/changeVehicle"
+msgstr "Changer"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Impossible d'entraîner ce membre d'équipage pour un autre véhicule."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Opération indisponible"
+
+msgid "personalFile/discount/full"
+msgstr "Réduction sur le réentraînement de l'équipage disponible"
+
+msgid "personalFile/discount/short"
+msgstr "Réduction disponible"
+
+msgid "personalFile/inVehicle"
+msgstr "À bord du véhicule : %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Augmenter"
+
+msgid "personalFile/isUntrained"
+msgstr "Non entraîné pour ce véhicule"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Tous les {icon} premium"
+
+msgid "personalFile/retrain"
+msgstr "Réentraîner"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Efficacité des aptitudes : "
+
+msgid "personalFile/specialization"
+msgstr "Spécialisation :"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Spécialisation"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Cliquez pour écouter un échantillon du doublage de ce chef de char."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Doublage unique"
+
+msgid "postProgression/button/claim"
+msgstr "Obtenir la récompense"
+
+msgid "postProgression/description"
+msgstr "Tous les membres d'équipage maîtrisant leurs six aptitudes de la qualification principale accèdent à la post-progression. Tous les 100 000 points d'EXP. gagnés dans la post-progression vous rapportent un Guide universel pouvant être utilisé pour entraîner d'autres équipages."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "La post-progression est composée d'une échelle unifiée pour tous les membres d'équipage ayant six aptitudes de la qualification principale entièrement entraînées sur le compte d'un joueur."
+
+msgid "postProgression/tips/2"
+msgstr "Seule l'EXP. de bataille est comptabilisée dans la post-progression. La moitié de l'EXP. de bataille gagnée en bataille par un membre d'équipage est divisée par le nombre total de membres d'équipage à bord du véhicule, puis elle est ajoutée à l'échelle de la post-progression."
+
+msgid "postProgression/tips/3"
+msgstr "Perdre de l'EXP. par les réserves des aptitudes ou de l'efficacité n'est pas comptabilisé dans la post-progression."
+
+msgid "postProgression/title"
+msgstr "POST-PROGRESSION DE L'ÉQUIPAGE"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Tous les membres d'équipage ayant eu accès à la post-progression ont une faible efficacité des aptitudes."
+
+msgid "postProgression/warning/retire"
+msgstr "Tous les membres d'équipage ayant eu accès à la post-progression ont été congédiés ou ont perdu de l'EXP. de leur ou leurs dernières aptitudes."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Tous les chasseurs de chars premium"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Tous les canons automoteurs premium"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Chasseurs de chars premium"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Canons automoteurs premium"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Chars lourds premium"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Chars légers premium"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Chars moyens premium"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Tous les chars lourds premium"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Tous les chars légers premium"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Tous les chars moyens premium"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "DISTINCTIONS"
+
+msgid "serviceRecord/averageXP"
+msgstr "Expérience moyenne par bataille"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Batailles jouées"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Aucun fait d'armes ou distinction obtenus en bataille."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Le taux du total de points d'expérience gagnés par rapport au nombre de batailles disputées à bord du véhicule vers lequel le membre d'équipage est attribué."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Expérience moyenne par bataille"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Le rang d'un membre d'équipage dépend de son expérience et du nombre d'aptitudes entraînées."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Rang"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Le membre d'équipage a maîtrisé toutes les aptitudes pour ce véhicule"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Aptitudes disponibles à l'entraînement"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Toutes les aptitudes sont désactivées pour ce véhicule"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "L'EXP. n'est pas utilisée pour entraîner des aptitudes de la qualification supplémentaire, qui sont entraînées deux fois plus lentement que les aptitudes de la qualification principale."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Annuler"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Entraîner"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "QUALIFICATION BONUS"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "QUALIFICATION PRINCIPALE"
+
+msgid "tankChange/title"
+msgstr "ENTRAÎNER POUR LE VÉHICULE"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Afficher les véhicules dans le garage."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "Dans le garage"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Configurez l'affichage des véhicules par leur type et rang."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Filtrer par paramètres"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Vous n'avez pas besoin d'entraîner les membres d'équipage pour les véhicules premium. Vous pouvez transférer un équipage vers un véhicule premium de même type sans pénalité."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Véhicule premium"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Le nom du véhicule peut comporter jusqu'à %(maxLength)s caractères."
+
+msgid "tankman/action/dismiss/title"
+msgstr "CONGÉDIER"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Congédier ce membre d'équipage."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Impossible de congédier ce membre d'équipage."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Opération indisponible"
+
+msgid "tankman/action/recruit/title"
+msgstr "RECRUTER"
+
+msgid "tankman/action/restore/title"
+msgstr "RÉCUPÉRER"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Récupérer ce membre d'équipage."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Cliquez pour écouter un échantillon du doublage de ce chef de char."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Doublage unique"
+
+msgid "tankman/recruit"
+msgstr "Recrue"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Apparence"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profil"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "États de service"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Recruter"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Réinitialiser les filtres"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Rien n'a été trouvé. Modifiez les paramètres ou réinitialisez les filtres."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Rien n'a été trouvé. Recrutez un membre d'équipage."
+
+msgid "tankmanList/filter/title"
+msgstr "Membres d'équipage :"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Lits insuffisants dans la caserne."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "N'afficher/masquer que les membres d'équipage congédiés."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Congédié"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Afficher les membres d'équipage dans la caserne."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "Dans la caserne"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Afficher les membres d'équipage à bord des véhicules."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "Dans des véhicules"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Afficher/masquer les apparences de cette nation."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Configurer l'affichage des membres d'équipage par leur qualification, spécialisation et autres paramètres."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Filtrer par paramètres"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Recruter un nouveau membre d'équipage."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Le nom peut comporter jusqu'à %(maxLength)s caractères."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Passer le curseur de la souris sur une aptitude montre comment elle affecte les caractéristiques correspondantes une fois maîtrisée à 100 % avec le niveau actuel d'efficacité des aptitudes."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Affirmatif !"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Deux nouvelles aptitudes ont été ajoutées pour chaque qualification, Placement fiable a été revue et une nouvelle option vous permet de masquer les aptitudes dans l'interface de combat."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Une nouvelle opération pratique vous permet de congédier les membres d'équipage sous-qualifiés d'un seul clic."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Les aptitudes peuvent désormais être réinitialisées uniquement contre des crédits, sans perdre d'EXP."
+
+msgid "welcomeScreen/subTitle"
+msgstr "De nouvelles aptitudes et fonctionnalités ont été ajoutées et une aptitude existante a été mise à jour."
+
+msgid "welcomeScreen/title"
+msgstr "MISES À JOUR DE L'ÉQUIPAGE"

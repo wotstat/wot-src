@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Tillbaka till kistor"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Smaragdkista"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "SMARAGDKISTA"
+
+msgid "common/getButton/lowerCase"
+msgstr "Skaffa kistor"
+
+msgid "common/getButton/upperCase"
+msgstr "SKAFFA KISTOR"
+
+msgid "common/loader"
+msgstr "Kistöppning..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Öppna kistor för att se statistik."
+
+msgid "common/statistics/header"
+msgstr "Öppnade kistor: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "All information om öppnade kistor raderas."
+
+msgid "entryPoint/boxes"
+msgstr "TILL KISTOR"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Detta är specialkistor med premiumvagnar, 3D-tillbehör, krediter och annat värdefullt innehåll.\nDu kan köpa dem i affären i spelet."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Kistor kan inte öppnas eller köpas för tillfället på grund av tekniska problem. Vi ber om ursäkt för besväret."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Kistor tillfälligt ej tillgängliga"
+
+msgid "eventName/lowerCase"
+msgstr "Härligt grönt"
+
+msgid "eventName/upperCase"
+msgstr "HÄRLIGT GRÖNT"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garanterad belöning i nästa kista!"
+
+msgid "guaranteedTitle/text"
+msgstr "Max antal kistor innan garanterad belöning: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Om du inte öppnar dina kistor innan evenemanget avslutas kommer de öppnas automatiskt."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Om du redan äger alla vagnar i listan över möjligt innehåll kommer alla vagnar du får kompenseras med respektive värde i guld."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Du är garanterad en Premiumvagn klass&zwnbsp;VIII–IX för varje %(guaranteed0)s kistor du öppnar. Om du öppnar så många kistor utan att få en vagn så kommer den %(guaranteed0)s:e kistan innehålla en Premiumvagn klass VIII–IX du inte redan äger. Därefter nollställs räkningen."
+
+msgid "infoPage/header/description"
+msgstr "Öppna kistan för en chans att få värdefullt spelinnehåll! Läs mer nedan."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Från %(name) (%(boxesCount) kistor öppnade)"
+
+msgid "noBoxesView/description/"
+msgstr "Du har inga kistor.\nDu kan skaffa dem i affären i spelet."
+
+msgid "preview/backLabel"
+msgstr "TILL KISTOR"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Tillgängliga kistor: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Inga kistor tillgängliga"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Om du redan äger alla vagnar i listan över möjligt innehåll kommer alla vagnar du får från kistor kompenseras med respektive värde i guld."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) kista"
+msgstr[1] "%(remainingCount) kistor"
+msgstr[2] "%(remainingCount) kistor"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Den garanterade belöningen är en vagn från listan över möjligt innehåll.\nOm du öppnar %(remainingCount) utan att få en vagn från listan kommer du få en när du öppnar den %(count) kistan. Därefter återställs räkningen."

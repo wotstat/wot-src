@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "domain/accuracy/description"
+msgstr "Набор от параметри, показващи цялостната ефективност на стрелбата по врага."
+
+msgid "domain/accuracy/name"
+msgstr "Огнева ефективност"
+
+msgid "domain/armorPiercing/description"
+msgstr "Набор от параметри, показващи способността на машините да пробиват вражеската броня."
+
+msgid "domain/armorPiercing/name"
+msgstr "Бронебойност"
+
+msgid "domain/battleParams/description"
+msgstr "Набор от параметри, показващи основната механика на геймплея."
+
+msgid "domain/battleParams/name"
+msgstr "Бойни показатели"
+
+msgid "domain/comp7LightSeasonModifiers/description"
+msgstr "Модификатори, специфични за режима, които променят параметрите на машината."
+
+msgid "domain/comp7LightSeasonModifiers/name"
+msgstr "Модификатори на Олекотена Атака"
+
+msgid "domain/comp7SeasonModifiers/description"
+msgstr "Модификатори, специфични за режима, които променят параметрите на машината."
+
+msgid "domain/comp7SeasonModifiers/name"
+msgstr "Модификатори на Атака"
+
+msgid "domain/concealment/description"
+msgstr "Набор от параметри, показващи способността на машините да остават неоткрити."
+
+msgid "domain/concealment/name"
+msgstr "Маскировка"
+
+msgid "domain/damageDealing/description"
+msgstr "Набор от параметри, показващи способността на машините да нанасят поражения."
+
+msgid "domain/damageDealing/name"
+msgstr "Поражения"
+
+msgid "domain/mobility/description"
+msgstr "Набор от параметри, показващи динамичните и скоростни характеристики на вашата машина."
+
+msgid "domain/mobility/name"
+msgstr "Маневреност и динамика"
+
+msgid "domain/randomization/description"
+msgstr "Набор от параметри, показващи рамките на потенциалните поражения и бронебойност."
+
+msgid "domain/randomization/name"
+msgstr "Случайни стойности"
+
+msgid "domain/sustaining/description"
+msgstr "Набор от параметри, показващи възстановяването на повредени модули/ранен екипаж."
+
+msgid "domain/sustaining/name"
+msgstr "Ремонтируемост"
+
+msgid "domain/visibility/description"
+msgstr "Набор от параметри, показващи способността на машините да откриват врагове."
+
+msgid "domain/visibility/name"
+msgstr "Обзор"
+
+msgid "domain/vitality/description"
+msgstr "Набор от параметри, показващи способността на машината ви да оцелява в битка."
+
+msgid "domain/vitality/name"
+msgstr "Устойчивост"
+
+msgid "modifier/name/aimingTime"
+msgstr "Време за прицелване"
+
+msgid "modifier/name/ammoBayHealth"
+msgstr "Издръжливост на боекомплекта"
+
+msgid "modifier/name/autoreloadTime"
+msgstr "Време за презареждане за машини с авто дозареждане"
+
+msgid "modifier/name/battleLength"
+msgstr "Време на битка"
+
+msgid "modifier/name/bkMaxSpeed"
+msgstr "Максимална скорост назад"
+
+msgid "modifier/name/burstInterval"
+msgstr "Време за презареждане на снаряди в касетата"
+
+msgid "modifier/name/chassisHealth"
+msgstr "Издръжливост на шасито"
+
+msgid "modifier/name/clipInterval"
+msgstr "Време за презареждане между изстрели в касетата"
+
+msgid "modifier/name/damageRandomization"
+msgstr "Рамки на потенциални поражения"
+
+msgid "modifier/name/deviceDamageFirst"
+msgstr "Повреда на вътрешния модул"
+
+msgid "modifier/name/dispFactorAfterShot"
+msgstr "Разсейка след стрелба"
+
+msgid "modifier/name/dispFactorChassisMovement"
+msgstr "Разсейка в движение"
+
+msgid "modifier/name/dispFactorChassisRotation"
+msgstr "Разсейка при въртене на корпуса"
+
+msgid "modifier/name/dispFactorTurretRotation"
+msgstr "Разсейка при въртене на купола"
+
+msgid "modifier/name/dispFactorWhileGunDamaged"
+msgstr "Разсейка с повредено оръдие"
+
+msgid "modifier/name/engineFireFactor"
+msgstr "Възможност за пожар на двигателя"
+
+msgid "modifier/name/engineHealth"
+msgstr "Издръжливост на двигателя"
+
+msgid "modifier/name/enginePower"
+msgstr "Мощност на двигателя"
+
+msgid "modifier/name/envChassisDamage"
+msgstr "Поражения по окачването при сблъсък"
+
+msgid "modifier/name/envHullDamage"
+msgstr "Поражения по корпуса при сблъсък"
+
+msgid "modifier/name/envModuleDamageChance"
+msgstr "Поражения по други модули при сблъсък"
+
+msgid "modifier/name/envTankmanDamageChance"
+msgstr "Раняване на екипажа при сблъсък"
+
+msgid "modifier/name/equipmentCooldown"
+msgstr "Време за подготовка на снаряжението"
+
+msgid "modifier/name/fuelTankHealth"
+msgstr "Издръжливост на горивния резервоар"
+
+msgid "modifier/name/fwMaxSpeed"
+msgstr "Максимална скорост напред"
+
+msgid "modifier/name/gravityFactor"
+msgstr "Гравитация на машина"
+
+msgid "modifier/name/gunHealth"
+msgstr "Издръжливост на оръдието"
+
+msgid "modifier/name/gunRotationSpeed"
+msgstr "Скорост на въртене на оръдието в неподвижна рубка"
+
+msgid "modifier/name/invisibilityOnMove"
+msgstr "Маскировка в движение"
+
+msgid "modifier/name/invisibilityOnStill"
+msgstr "Маскировка на неподвижна машина"
+
+msgid "modifier/name/normalizationAngle"
+msgstr "Нормализация на снаряд"
+
+msgid "modifier/name/piercingPowerRandomization"
+msgstr "Рамки на потенциална бронебойност"
+
+msgid "modifier/name/radioDistance"
+msgstr "Обхват на радиовръзката"
+
+msgid "modifier/name/reloadTime"
+msgstr "Време за презареждане"
+
+msgid "modifier/name/repairSpeed"
+msgstr "Скорост на ремонт"
+
+msgid "modifier/name/ricochetAngle"
+msgstr "Ъгъл на рикошет на снаряд. Колкото по-остър е ъгълът, толкова по-голям е шансът за рикошети"
+
+msgid "modifier/name/rotationSpeedOnStill"
+msgstr "Скорост на въртене на корпуса"
+
+msgid "modifier/name/shellGravity"
+msgstr "Гравитация на снаряд"
+
+msgid "modifier/name/shellSpeed"
+msgstr "Скорост на снаряда"
+
+msgid "modifier/name/shotDispersionRadius"
+msgstr "Точност на 100 метра"
+
+msgid "modifier/name/surveyingDeviceHealth"
+msgstr "Издръжливост на обзорното устройство"
+
+msgid "modifier/name/turretPressureDamage"
+msgstr "Поражения при натиск от откъснат купол"
+
+msgid "modifier/name/turretRammingDamage"
+msgstr "Поражения от откъснат купол"
+
+msgid "modifier/name/turretRotationSpeed"
+msgstr "Скорост на въртене на купола"
+
+msgid "modifier/name/turretRotatorHealth"
+msgstr "Издръжливост на въртенето на купола"
+
+msgid "modifier/name/twinGunReloadTime"
+msgstr "Зареждане на оръдието в режим на залпов огън"
+
+msgid "modifier/name/vehicleAoIRadius"
+msgstr "Дистанция на изобразяване"
+
+msgid "modifier/name/vehicleHealth"
+msgstr "Живот на машината"
+
+msgid "modifier/name/vehiclePressureDamage"
+msgstr "Поражения от натиск"
+
+msgid "modifier/name/vehicleRammingDamage"
+msgstr "Поражения с таран"
+
+msgid "modifier/name/visionMinRadius"
+msgstr "Радиус на откриване при близост"
+
+msgid "modifier/name/visionRadius"
+msgstr "Обзор"
+
+msgid "modifier/name/visionTime"
+msgstr "Оставащо време открит"
+
+msgid "modifier/name/zeroDamage"
+msgstr "Поражения, нанесени от изстрели и таран"
+
+msgid "modifier/name/zeroEconomy"
+msgstr "Ресурси, изразходвани и спечелени в режимни битки"
+
+msgid "modifiersDomainTooltip/restrict/max"
+msgstr "не&nbsp;повече от&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/min"
+msgstr "не&nbsp;по-малко от&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/oneRestriction"
+msgstr "(но {restriction})"
+
+msgid "modifiersDomainTooltip/restrict/twoRestriction"
+msgstr "(но {min}, {max})"
+
+msgid "modifiersDomainTooltip/subtitle/plural"
+msgstr "Тези модификатори влияят на следните параметри:"
+
+msgid "modifiersDomainTooltip/subtitle/single"
+msgstr "Този модификатор влияе на следния параметър:"

@@ -1,0 +1,353 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprints/buttonLabel/gotoblueprints"
+msgstr "A tervrajzhoz"
+
+msgid "blueprints/card/additional"
+msgstr "kiválaszt:"
+
+msgid "blueprints/card/convertAvailable"
+msgstr "Elkészítéshez elérhető töredékek: %(count)s"
+
+msgid "blueprints/card/convertRequired"
+msgstr "Nincs elég töredék"
+
+msgid "blueprints/card/plus"
+msgstr "+"
+
+msgid "blueprints/carousel/title"
+msgstr "ELKÉSZÍTHETŐ TERVRAJZOK:"
+
+msgid "blueprints/checkbox/label"
+msgstr "Elérhető töredékkészítésre"
+
+msgid "blueprints/nationBar/title"
+msgstr "Univerzális és nemzeti tervrajz töredékek"
+
+msgid "blueprints/noItems/discount/body"
+msgstr "Minden töredék, amit a tervrajzhoz hozzáadsz kedvezményt ad a jármű kifejlesztésekor. Ha teljesen elkészült egy tervrajz, akkor felkínálja azt az opciót, hogy XP elköltése nélkül lehessen kifejleszteni ezt a járművet."
+
+msgid "blueprints/noItems/discount/header"
+msgstr "Szerezz engedményeket a fejlesztéshez"
+
+msgid "blueprints/noItems/fill/body"
+msgstr "Alakíts át több univerzális és nemzeti töredéket, egy bizonyos járműhöz tartozó töredékké."
+
+msgid "blueprints/noItems/fill/header"
+msgstr "Készíts jármű tervrajzokat"
+
+msgid "blueprints/noItems/receive/body"
+msgstr "A teljesített küldetésekért kapott jutalmakban tervrajz töredékeket találhatsz. A dupla töredékek univerzális vagy nemzeti töredékekké konvertálódnak."
+
+msgid "blueprints/noItems/receive/header"
+msgstr "Gyűjts töredékeket"
+
+msgid "blueprints/title"
+msgstr "NEM KIFEJLESZTETT JÁRMŰVEK TERVRAJZAI"
+
+msgid "buttonDeconstruct/tooltip/body"
+msgstr "Kattints a felszerelés komponensekre való szétszereléséhez."
+
+msgid "buttonDeconstruct/tooltip/header"
+msgstr "Szétszerel"
+
+msgid "buttonLabel/activate"
+msgstr "Az aktiváláshoz"
+
+msgid "buttonLabel/preview"
+msgstr "Előnézet"
+
+msgid "buttonLabel/remove"
+msgstr "Eltávolítás"
+
+msgid "buttonLabel/restore"
+msgstr "Tovább a visszaállításhoz"
+
+msgid "buttonLabel/select"
+msgstr "Kiválaszt"
+
+msgid "buttonLabel/sell"
+msgstr "Elad"
+
+msgid "buttonSell/tooltip/body"
+msgstr "Kattints a felszerelés eladásához."
+
+msgid "buttonSell/tooltip/header"
+msgstr "Eladás"
+
+msgid "buttonUpgrade/tooltip/body"
+msgstr "Fejleszd a felszerelés jellemzőit."
+
+msgid "card/attachment/hover/partOfBundle/label"
+msgstr "A(z) %(bundleName)s csomag része.\nAz alkalmas járművek listáját a Külső menü 3D-kiegészítők szekciójában láthatod."
+
+msgid "card/cannotSellTitle"
+msgstr "Nem lehet eladni"
+
+msgid "card/vehicle/hover/maxAdditionalPriceLabel"
+msgstr "+ visszafizetés összege:"
+
+msgid "card/vehicle/hover/restoreAvailableLabel"
+msgstr "Visszaállítás elérhető"
+
+msgid "card/vehicle/tradeOffPriceLabel"
+msgstr "Becsült költség:"
+
+msgid "crewBooks/filters/nation"
+msgstr "Nemzet"
+
+msgid "crewBooks/filters/nation/all"
+msgstr "Mind"
+
+msgid "crewBooks/filters/title"
+msgstr "Típus"
+
+msgid "crewBooks/noItems/info"
+msgstr "Nincsenek legénységi könyvek még. A teljesített küldetésekért járó jutalmakból szerezhetsz."
+
+msgid "customization/noItems/navigationButton"
+msgstr "Tovább a megjelenéshez"
+
+msgid "customization/noItems/title"
+msgstr "Megjeleníti a személyre szabás azon elemeit, amik nem kompatibilisek egyetlen járművel sem a garázsodban."
+
+msgid "customization/sectionTitle"
+msgstr "KÜLSŐ"
+
+msgid "customizationSuitable/label"
+msgstr "Kompatibilis a köv. járművekkel: "
+
+msgid "customizationSuitableForAll/label"
+msgstr "Kompatibilis az összes járművel"
+
+msgid "devices/filters/all"
+msgstr "Minden felszerelés"
+
+msgid "devices/filters/deluxe"
+msgstr "Fejlesztett"
+
+msgid "devices/filters/modernized"
+msgstr "Kísérleti"
+
+msgid "devices/filters/simple"
+msgstr "Általános"
+
+msgid "devices/filters/trophy"
+msgstr "Jutalom"
+
+msgid "equipment/cooldown"
+msgstr "A visszatöltési idő %(cooldown)s&nbsp;mp."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s\n%(extendedDescr)s"
+
+msgid "filter/noResultsBtn/label"
+msgstr "Szűrő visszaállítása"
+
+msgid "filter/someTiersOnlyMessage"
+msgstr "Tervrajztöredékek csak a II-X-es szintű járművekhez hozhatók létre."
+
+msgid "filter/warningMessage"
+msgstr "Nem találtunk semmit. Változtasd meg a beállításokat vagy állítsd vissza a szűrést."
+
+msgid "forSell/noItems/title"
+msgstr "Megmutatja azokat a modulokat és lőszereket, amelyek nem kompatibilisek egy járművel sem"
+
+msgid "forSell/sectionTitle"
+msgstr "ELADHATÓ MODULOK ÉS LÖVEDÉKEK"
+
+msgid "inhangar/filterTitle"
+msgstr "Megjelenítve:"
+
+msgid "inhangar/noImage"
+msgstr "A kép nem érhető el"
+
+msgid "inhangar/noItems/allTab/title"
+msgstr "Nincs jármű a garázsban"
+
+msgid "inhangar/noItems/rentTab/title"
+msgstr "Bérelt járművek nem találhatóak."
+
+msgid "inhangar/noItems/restoreTab/title"
+msgstr "Visszaállíthatod az eladott prémium és egyedi járműveket kreditért.\nNincs visszaállítható járműved."
+
+msgid "inhangar/sectionTitle"
+msgstr "GARÁZSBAN LÉVŐ JÁRMŰVEK"
+
+msgid "inhangar/tabs/all"
+msgstr "Járművek"
+
+msgid "inhangar/tabs/rent"
+msgstr "Bérlés"
+
+msgid "inhangar/tabs/restore"
+msgstr "Kivonás"
+
+msgid "inventory/filterType/consumables"
+msgstr "Fogyócikkek"
+
+msgid "inventory/filterType/instructions"
+msgstr "Direktívák"
+
+msgid "inventory/filterType/other"
+msgstr "Egyéb"
+
+msgid "markEverything"
+msgstr "Minden eszköz kijelölése eladásra:"
+
+msgid "moduleCompatible/label"
+msgstr "Kompatibilis a köv. járművekkel:"
+
+msgid "moduleCompatible/moreVehicles"
+msgstr "…és további járművek: %(vehCount)s"
+
+msgid "notAvailable/navigationButton"
+msgstr "Vissza a garázsba"
+
+msgid "notAvailable/title"
+msgstr "Leltár miatt a depó nem elérhető"
+
+msgid "offers/expiration"
+msgstr "A következő időpontig: %(date)s %(time)s"
+
+msgid "offers/giftAmount"
+msgstr "Kiválasztható jutalmak: %(gifts)s"
+
+msgid "offers/giftsTitle"
+msgstr "Elérhető jutalmak: %(gifts)s"
+
+msgid "offers/noItems/title"
+msgstr "A szolgáltatás átmenetileg nem elérhető.\nKérlek, nézz vissza később vagy látogasd meg a boltot."
+
+msgid "offers/sectionTitle"
+msgstr "HOMEFRONT UTÁNPÓTLÁS"
+
+msgid "optDevice/hover/effect"
+msgstr "{effectTagOpen}Hatás: {effectTagClose}"
+
+msgid "personalreserves/activeCountLabel"
+msgstr "Aktivált tartalékok: %(activeCount)s / %(totalCount)s"
+
+msgid "personalreserves/card/activated"
+msgstr "Aktiválva"
+
+msgid "personalreserves/card/notAvailable"
+msgstr "Nem elérhető"
+
+msgid "personalreserves/durationFilter/btn/label"
+msgstr "%(durTime)s ó"
+
+msgid "personalreserves/durationFilter/label"
+msgstr "Idő:"
+
+msgid "personalreserves/filterTitle"
+msgstr "Megjelenítve:"
+
+msgid "personalreserves/navigateToShopLabel"
+msgstr "Vásárlás a boltban"
+
+msgid "personalreserves/noItems/title"
+msgstr "Nincs tartalék a depóban. A boltban tudsz további tartalékokat vásárolni"
+
+msgid "personalreserves/sectionTitle"
+msgstr "SZEMÉLYES TARTALÉKOK"
+
+msgid "personalreserves/typeFilter/label"
+msgstr "Típus"
+
+msgid "restoreTimeLeft/timeless"
+msgstr "Végtelen"
+
+msgid "shellCompatible/label"
+msgstr "Kompatibilis a köv. lövegekkel:"
+
+msgid "shellCompatible/moreGuns"
+msgstr "...és további lövegek: %(vehCount)s"
+
+msgid "storage/balanceLabel"
+msgstr "Elérhető:"
+
+msgid "storage/filterTitle"
+msgstr "Megjelenítve:"
+
+msgid "storage/noItems/navigationButton"
+msgstr "A boltba"
+
+msgid "storage/noItems/title"
+msgstr "Nincs árucikk a depóban, a boltban tudsz vásárolni"
+
+msgid "storage/noItems/titleShort"
+msgstr "Nincs árucikk a depóban"
+
+msgid "storage/sectionTitle"
+msgstr "RAKTÁR"
+
+msgid "storage/tabs/all"
+msgstr "Összes"
+
+msgid "storage/tabs/consumable"
+msgstr "Fogyócikkek"
+
+msgid "storage/tabs/crewBooks"
+msgstr "Könyvek"
+
+msgid "storage/tabs/devices/filter/type/label"
+msgstr "Kategória"
+
+msgid "storage/tabs/equipment"
+msgstr "Felszerelés"
+
+msgid "storage/tabs/modules"
+msgstr "Modulok"
+
+msgid "storage/tabs/modules/filter/appropriate/label"
+msgstr "Alkalmas ehhez"
+
+msgid "storage/tabs/modules/filter/type/label"
+msgstr "Típus"
+
+msgid "storage/tabs/shells"
+msgstr "Lőszerek"
+
+msgid "storage/tabs/shells/filter/appropriate/label"
+msgstr "Alkalmas ehhez"
+
+msgid "storage/tabs/shells/filter/type/label"
+msgstr "Típus"
+
+msgid "storage/vehicleSelectPopover/label"
+msgstr "Válassz járműveket a garázsból"
+
+msgid "stylePreview/tooltip"
+msgstr "Stílus előnézet"
+
+msgid "vehicleSelectPopover/noVehicles"
+msgstr "Nem találtunk a keresési feltételeknek\nmegfelelő járművet"
+
+msgid "vehicleSelectPopover/tooltips/level/body"
+msgstr "Rendezés a járművek szintje szerint."
+
+msgid "vehicleSelectPopover/tooltips/level/header"
+msgstr "Szint"
+
+msgid "vehicleSelectPopover/tooltips/nation/body"
+msgstr "Rendezés nemzetek szerint."
+
+msgid "vehicleSelectPopover/tooltips/nation/header"
+msgstr "Nemzet"
+
+msgid "vehicleSelectPopover/tooltips/title/body"
+msgstr "Rendezés a járművek neve szerint."
+
+msgid "vehicleSelectPopover/tooltips/title/header"
+msgstr "Név"
+
+msgid "vehicleSelectPopover/tooltips/type/body"
+msgstr "Rendezés a járművek típusa szerint."
+
+msgid "vehicleSelectPopover/tooltips/type/header"
+msgstr "Típus"
+
+msgid "vehicleSelectPopover/vehicleName"
+msgstr "Név"

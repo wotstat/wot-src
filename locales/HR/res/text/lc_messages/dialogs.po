@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT tim <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "Prihvati"
+
+msgid "EULA/labels/agree"
+msgstr "Prihvaćam."
+
+msgid "EULA/title"
+msgstr "Ugovor o licenciji s krajnjim korisnikom"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "Ova email adresa je već povezana s vašim računom."
+
+msgid "accountCompletion/activate/button"
+msgstr "Pošalji kod/promjeni email"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "Ponovno pošalji kod ili promjeni email za %(timer) s"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "Ponovno unesite vaš email"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "Kod je istekao. Ponovno unesite vaš email."
+
+msgid "accountCompletion/activate/keyError"
+msgstr "Neispravni kod"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "Ako ne možete pronaći email, molim, provjerite email adresu jer možda sadrži pogrešku."
+
+msgid "accountCompletion/activate/text"
+msgstr "Email s kodom potvrde od Wargaming.net je poslan na adresu {whiteSpanish_Open}%(email){whiteSpanish_Close}. Unesite četveroznamenkasti kod za potvrdu vaše email adrese i završetak izrade vašeg računa."
+
+msgid "accountCompletion/activate/title"
+msgstr "Potvrdi email adresu"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "Unijeli ste neispravan kod previše puta."
+
+msgid "accountCompletion/add"
+msgstr "Dodaj"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "Ova email adresa je već povezana s vašim računom."
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "Email je već povezan"
+
+msgid "accountCompletion/cancel"
+msgstr "Kasnije"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "Vaš email"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "Email"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "Dodajte vaš email kako bi dobili nagradu i puni pristup svim akcijama igre."
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "DOBIJTE PUNI PRISTUP IGRI"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "Dodaj i potvrdi email adresu za primitak nagrade i otključavanje novog sadržaja. %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "Dovršite račun"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "Račun je već registriran s ovom email adresom."
+
+msgid "accountCompletion/emailForbidden"
+msgstr "Ova email adresa je zabranjena."
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "Email ne smije sadržavati više od %(amount)s znakova."
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "Email mora sadržavati najmanje %(amount)s znakova."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "Vaš email je već potvrđen."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "Email je potvrđen"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "Premašili ste broj zahtjeva. Možete promjeniti vašu email adresu ili ponovno poslati email za %(timer)"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "Ova email usluga je blokirana u vašoj zemlji."
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "Ova email usluga je zabranjena u vašoj zemlji."
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "Nije moguće povezati email"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "Email može sadržavati samo latinična slova, brojke, @ simbole, točke i podvlake."
+
+msgid "accountCompletion/later"
+msgstr "Kasnije"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "Nagrada za potvrđivanje emaila"
+
+msgid "accountCompletion/submit"
+msgstr "Potvrdi"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "Čekanje u redu na serveru.\nOvo može potrajati."
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) Usluga je privremeno nedostupna. Molim, pokušajte ponovo kasnije."
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) Usluga je privremeno nedostupna.\nMolim, pokušajte ponovo za %(time)s."
+
+msgid "barracksExpand/cancel"
+msgstr "Odustani"
+
+msgid "barracksExpand/message"
+msgstr "Proširi Vojarnu za %(price)s zlata dodajući ležajeve: %(count)s?"
+
+msgid "barracksExpand/submit"
+msgstr "Povećaj"
+
+msgid "barracksExpand/title"
+msgstr "Proširi Vojarnu"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "Nemaš dovoljno zlata."
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "Proširi Vojarnu"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "Odustani"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "Nisu svi igrači spremni za bitku ili je njihov broj manji od tražnog."
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "Pokreni bitku"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "Nepotpuni"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "Aktiviraj bonus %(newBoosterName)s"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "Potvrdi"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "Potvrdi aktivaciju"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "Ako je aktivirana osobna pričuva %(newBoosterName)s itrenutno aktivna osobna pričuva %(curBoosterName)s će biti otkazana i uništena."
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "Potvrdi"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "Potvrdi aktivaciju"
+
+msgid "buyConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "buyConfirmation/message"
+msgstr "Kupiti %(product)s za %(price)s?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "Kupiti {%count} \"{%name}\" item(s)?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "Kupiti opremu \"%(equipment)s\"?"
+
+msgid "buyConfirmation/submit"
+msgstr "Kupiti"
+
+msgid "buyConfirmation/title"
+msgstr "Potvrdi kupnju"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "nekompatibilno"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " s trenutnim modulom."
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "Potrošni materijal \"%(conflicted)s\" će biti poslan u Skladište zbog "
+
+msgid "buyInstallConfirmation/message"
+msgstr "Kupiti i montirati %(kind)s \"%(name)s\" na trenutnom vozilu za %(price)s %(creditsIcon)s? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "Kupiti i montirati %(kind)s \"%(name)s\" na trenutnom vozilu za %(price)s kredita?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "Kupiti"
+
+msgid "buyInstallConfirmation/title"
+msgstr "Potvrdi kupnju"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "Kupi premium račun za %(days)s sa %(gold)s?\n %(alertIcon)s %(alertColorTagOpen)s Zbog tehničkih poteškoća nećete dobiti dodatno iskustvo ili kredite. Pokušajte odabrati drugu bitku ili kupite premium račun kroz izbornik Kupi premium račun.%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "Kupiti"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "Potvrdi kupnju"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "Mjesto u Garaži"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "buySlotConfirmation/message"
+msgstr "Kupiti dodatno mjesto u Garaži za %(goldCost)s?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "Kupiti"
+
+msgid "buySlotConfirmation/title"
+msgstr "Potvrdi kupnju"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "Nedovoljno kredita za kupnju mjesta."
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "Nedovoljno kredita"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "Nemaš dovoljno zlata za kupiti slot."
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "Nedovoljno zlata"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "Nema slobodnih mjesta u Garaži. Kupiti dodatno mjesto za {%d} kredita?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "Kupiti"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "Potvrdi kupnju"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "Utovari standardnu streljivo"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "Odustani"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Već imate posadu za ovo vozilo."
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "Tijekom perioda iznajmljivanja vozila dobijate dodatno mjesto besplatno."
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "Nije moguće nadopuniti streljivo: odabrano vozilo ima popunjeno streljivo."
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "Nije moguće nadopuniti streljivo: odabrano vozilo još ima nešto streljiva."
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "Cijena: %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "Dodatni slot u garaži"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "Kupiti"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "Kupi"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "Razmjena"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "Kupi bez posade"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "Obuka posade"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "Članovi posade: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "Kupi %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "Ukupno:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "Unijeli ste netočne informacije."
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "Unesite broj zlata iz kolone \"Ukupno\""
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "Potvrdi operaciju:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "Nemate pogodno vozilo\nza razmjenu"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "Procjenjena vrijednost je %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "Obuči posadu: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "Ukupno:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "Odaberi vozilo"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "Odaberi Premium vozilo\ndostupno za razmjenu"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "Odustani"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "Dodatna cijena za %(vehiclename)s:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "Razmjena"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "Kupi bez posade"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "Razmjena %(vehiclename)s"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "Kupljena oprema i potrošni materijal se neće refundirati zlatom jednom kada kliknete na gumb Razmjena. Molimo da pažljivo provjerite sve detalje."
+
+msgid "buyVehicleWindow/warning"
+msgstr "Kupljeni predmeti neće biti vraćeni u zlato jednom kad kliknete \"Kupi\". Molim da pažljivo provjerite predmete."
+
+msgid "challenge_missions/activation/cancel"
+msgstr "Odustani"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "Aktiviraj"
+
+msgid "challenge_missions/activation/description"
+msgstr "Jednom aktivirani, zadaci Kušnje se mogu {{@ style (color #FFE4C0)}}izvršiti, neuspjeti ili napustiti {{/}}. Ako ne uspijete u zadatku niza, izgubit ćete jedan štit."
+
+msgid "challenge_missions/activation/title"
+msgstr "Aktivirati Kušnju: {{challengeName}}?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "Odustani"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "Ponovno pokreni"
+
+msgid "challenge_missions/restart/description"
+msgstr "Vaš napredak u zadacima će se poništiti, vaši štiovi će biti povraćeni i moći ćete opet osvajati nagrade. Niz zadataka će biti aktivan odmah nakon ponovnog pokretanja."
+
+msgid "challenge_missions/restart/free/title"
+msgstr "Ponovno pokrenuti Kušnju: {{challengeName}} besplatno?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "Ponovno pokrenuti Kušnju: {{challengeName}} za {{cost}}?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "Odustani"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "Napusti"
+
+msgid "challenge_missions/surrender/description"
+msgstr "Napuštanjem će se završiti ovaj niz zadataka u Kušnji i poništiti sav napredak i štitovi. Možete je ponovno pokrenuti u bilo kojem trenutku."
+
+msgid "challenge_missions/surrender/title"
+msgstr "Napustiti Kušnju: {{challengeName}}?"
+
+msgid "changeGraphics/cancel"
+msgstr "Odustani"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)sU ovom osvježenju je grafika značajno preuređena. Možete automatski odabrati grafičke postavke ili odustati od automatskog biranja i promjeniti postavke ručno."
+
+msgid "changeGraphics/submit"
+msgstr "Auto biranje"
+
+msgid "changeGraphics/title"
+msgstr "Auto biranje grafičkih postavki"
+
+msgid "changePeriphery/cancel"
+msgstr "Odustani"
+
+msgid "changePeriphery/message"
+msgstr "Prelazak na drugi server?"
+
+msgid "changePeriphery/submit"
+msgstr "Nastavi"
+
+msgid "changePeriphery/title"
+msgstr "Potvrdi prelazak"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "Odustani"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "Promjene servera neće biti sačuvane. Možete uključiti ili isključiti automatsko logiranje u postavkama."
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "Nastavi"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "Promjena na drugi server?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "Odustani"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "Prelazak na drugi server?\n\nAko promjenite server imat ćete sljedeća ograničenja:\n\t• Neka vozila neće biti dostupna.\n\t• Znakovi i natpisi neće biti prikazani.\n\t• Zadaci, osobne pričuve i režim testne bitke će biti nedostupni.\n\nMožete imati grešaka ili problema s kvalitetom veze. Molimo da poštujete igrače iz ostalih regija."
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "Nastavi"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "Potvrdi prelazak"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "Odustani"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "Prelazak na drugi server?\n\nAko promjenite server imat ćete sljedeća ograničenja:\n\t• Neka vozila neće biti dostupna.\n\t• Znakovi i natpisi neće biti prikazani.\n\t• Zadaci, osobne pričuve i režim testne bitke će biti nedostupni.\n\nMožete imati grešaka ili problema s kvalitetom veze. Molimo da poštujete igrače iz ostalih regija.\n\n\nPromjene servera će biti sačuvane.\nIdite na postavke za uključenje ili isključenje automatskog logiranja."
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "Nastavi"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "Potvrdi prelazak"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "Odustani"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sPristupiti ćete klanu:\n%(clanName)s\n\nPotvrđivanjem vaše namjere za pristupanje klanu automatski prihvaćate njegova pravila i prihvaćate aktivno sudjelovati u aktivnostima i razvoju klana.\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "Nakon što napustite klan dobit ćete privremeno ograničenje pristupa drugom klanu."
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "Potvrdi"
+
+msgid "clanConfirmJoining/title"
+msgstr "Potvrdi pristup klanu"
+
+msgid "clan_data_not_available/cancel"
+msgstr "Zatvori"
+
+msgid "clan_data_not_available/message"
+msgstr "Profil klana ovog igrača je privremeno nedostupan. Pokušajte ponovo kasnije."
+
+msgid "clan_data_not_available/title"
+msgstr "Pozor!"
+
+msgid "common/cancel"
+msgstr "Odustani"
+
+msgid "common/confirm/cancel"
+msgstr "Ne"
+
+msgid "common/confirm/submit"
+msgstr "Da"
+
+msgid "common/cost"
+msgstr "Cijena:"
+
+msgid "common/error/cancel"
+msgstr "Zatvori"
+
+msgid "common/submit"
+msgstr "Nastavi"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "Odustani"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "Kupiti"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "Kupi i opremi smjernice"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "Odustani"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "Pozor! %(devices)s nije opremljen. Smjernica %(font_tag_open)sNEĆE RADITI.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "Montiraj"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "Opremi smjernicu"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "Odustani"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "Pozor! Nemate opremu kompatibilnu s odabranom smjernicom. Smjernica %(font_tag_open)sNEĆE RADITI.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "Montiraj"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "Opremi smjernicu"
+
+msgid "confirmBuy/title"
+msgstr "Kupiti %(moduleName)s?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "Odustani"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "Modul će biti poslan u Skladište."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "Količina potrebna za kupnju:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "Zaradi kredite u bitci, prodaj višak opreme iz Skladišta ili razmjeni zlato da dobiješ više."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "Nedovoljno kredita"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "Trošak modula:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "Prodati zamjenjeni modul %(previousModuleName) za %(previousModulePrice)"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "Ovaj modul je kompatibilan s:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "Možete sada prodati modul ili će biti poslan u Skladište gdje ga kasnije možete prodati ili ponovno montirati."
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "Kupiti"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "Kupiti i montirati %(moduleName)s?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "Kupiti i montirati opremu \"%(equipment)s\"?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "Montiraj"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "Odustani"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "Razmjena nije potrebna.\nImate dovoljno kredita."
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "Kupnja nije moguća: razmjena neuspjela.\nPotrebno je dodatno %(gold)s za razmjenu."
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "Razmjeniti %(gold)s za nedostatnu količinu kredita?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "Potrebno kredita:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "Količina potrebna za kupnju: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "Razmjena"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "Potvrda razmjene za kupnju"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "Odustani"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "Pretvorba nije potrebna.\nImate dovoljno iskustva."
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "Istraživanje nije moguće: pretvorba neuspjela.\nPotrebno je dodatno %(gold)s za razmjenu."
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "Pretvoriti potrebno iskustvo za %(gold)s?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "Potrebno iskustva:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "Količina potrebna za istraživanje: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "Odaberi vozilo"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "Potvrda razmjene za istraživanje"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "Ukupno:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "Odustani"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "Razmjena nije potrebna za povrat.\nImate dovoljno kredita."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "Nije moguće razmjeniti za povrat.\n%(gold)s je potrebno za razmjenu."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "Razmjeniti %(gold)s za nedostatnu količinu kredita?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "Potrebno kredita:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "Količina potrebna za oporavak: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "Razmjena"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "Potvrdi razmjenu za oporavak"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "Ukupno:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "Količina"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "Ukupno"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "Cijena:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "Trošak"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "Ukupno:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "Ukupno"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "Ukupno:"
+
+msgid "confirmUnlock/cancel"
+msgstr "Ne"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} (uključujuči {{freeXP}})?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "Istraži {{items}} za"
+
+msgid "confirmUnlock/item/message"
+msgstr "Istraži %(typeString)s %(userString)s za %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (uključujuči %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "confirmUnlock/submit"
+msgstr "Da"
+
+msgid "confirmUnlock/title"
+msgstr "Potvrdi istraživanje"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "Istraži %(userString)s za %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (uključujuči %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "Odustani"
+
+msgid "controlsWrongNotification/message"
+msgstr "Jedan ili više ključeva nisu pridjeljeni. Želite li stvarno sačuvati kontrolne postavke?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "Spremi"
+
+msgid "controlsWrongNotification/title"
+msgstr "Greška"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "Odustani"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "Datoteke za odabrano glasovno upozorenje su oštećene ili nedostaju, upozorenje će biti standardno.\nJedna ili više tipki nisu pridjeljene. Sačuvati postavke?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "Spremi"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "Greška"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "createOrderConfirmation/submit"
+msgstr "Potvrdi"
+
+msgid "createOrderConfirmation/title"
+msgstr "Potvrdi pripremu pričuve"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "Nedovoljno sredstava za kupnju."
+
+msgid "crewBookPurchase/description/crew"
+msgstr "Primjenjuje se na cijelu posadu. Prilikom učenja, %(book)s daje svakom članu posade %(exp)s."
+
+msgid "crewBookPurchase/description/personal"
+msgstr "Primjenjuje se na odabranog člana posade. Prilikom učenja, %(book)s daje ovom članu posade %(exp)s."
+
+msgid "crewBookPurchase/purchase"
+msgstr "Kupnja"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "Kupiti %(book)s?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "Odustani"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "Sve nanešene naljepnice {season} mape će biti {removed} s vašeg vozila\njer ovo mjesto nije dostupno za {this}"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "Potvrdi"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "ove mape."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "ova mapa."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "Nanesi ovu naljepnicu na ovo mjesto za sve mape?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "Nakon što su kupljeni, elementi će se primjeniti na trenutno vozilo. Elementi označeni asteriskom nisu dostupni za druga vozila."
+
+msgid "customization/buy_install_bound/title"
+msgstr "Potvrda kupnje elemenata"
+
+msgid "customization/change_install_bound/message"
+msgstr "Nakon što su odabrani, elementi će se primjeniti na trenutno vozilo. Elementi označeni asteriskom nisu dostupni za druga vozila."
+
+msgid "customization/change_install_bound/title"
+msgstr "Potvrda promjene elemenata"
+
+msgid "customization/close/cancel"
+msgstr "Odustani"
+
+msgid "customization/close/submit"
+msgstr "Izađi"
+
+msgid "customization/close/title"
+msgstr "Izlaz u garažu bez spremanja promjena?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "Odustani"
+
+msgid "customization/exitToShop/submit"
+msgstr "Nastavi"
+
+msgid "customization/exitToShop/title"
+msgstr "Nastaviti u prodavaonicu bez spremanja promjena?"
+
+msgid "customization/filter/cancel"
+msgstr "Odustani"
+
+msgid "customization/filter/message"
+msgstr "Svi elementi će biti uklonjeni. Nastaviti?"
+
+msgid "customization/filter/submit"
+msgstr "Ukloni sve"
+
+msgid "customization/filter/title"
+msgstr "Ukloni elemente"
+
+msgid "customization/install_bound/cancel"
+msgstr "Odustani"
+
+msgid "customization/install_bound/submit"
+msgstr "Nastavi"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "Odustani"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "Pozor! Nakon što primjenite element (%(cTypeName)s %(itemName)s) na trenutno vozilo moći ćete primjeniti ovaj element na još %(numberLeft)s vozila. Primjeniti element?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "Primjeni"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "Primjeni element"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "Odustani"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "Pozor! Nakon što primjenite element (%(cTypeName)s %(itemName)s) na trenutno vozilo nećete moći primjeniti ovaj element na druga vozila. Primjeniti element?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "Primjeni"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "Primjeni element"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "Odustani"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "Pozor! Nakon što primjenite element (%(cTypeName)s %(itemName)s) na trenutno vozilo nećete moći primjeniti ovaj element na niti jedno drugo vozilo. Element %(willBeDeleted)s ako je uklonjen. Primjeniti element?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "Primjeni"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "Primjeni element"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "biti će obrisan"
+
+msgid "customization/remove_element/cancel"
+msgstr "Odustani"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "Ukloni"
+
+msgid "customization/remove_element/title"
+msgstr "Ukloni element"
+
+msgid "customizationConfirmSell/message"
+msgstr "Prodati %(name)s za %(price)s%(creditsIcon)s?"
+
+msgid "customizationConfirmSell/title"
+msgstr "Potvrdi prodaju"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "svakih %(days)s d"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "svakih %(days)s d %(hours)s h"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "svakih %(hours)s h"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "svakih %(hours)s h %(mins)s min"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "svakih %(mins)s min"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "Ponavljanje zadatka je dostupno {timeLimitMsg}"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "Ponavljanje"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "Ponoviti zadatak?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} Neki od vaših vozila su u bitci. Možete izgubiti napredak nakon ponavljanja zadatka. Ponavljanje zadatka je dostupno {timeLimitMsg}"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "Ponavljanje"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "Ponoviti zadatak?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "Upozorenje!"
+
+msgid "dedication/headline"
+msgstr "Primljena nagrada Junak našeg doba"
+
+msgid "dedication/sub-headline"
+msgstr "Za {battlesNum} odigranih bitaka"
+
+msgid "dialogTemplates/cancel"
+msgstr "Odustani"
+
+msgid "dialogTemplates/confirm"
+msgstr "Potvrdi"
+
+msgid "dialogTemplates/ok"
+msgstr "Razumijem!"
+
+msgid "disconnect/cancel"
+msgstr "Ne"
+
+msgid "disconnect/message"
+msgstr "Želiš li se zaista isključiti sa servera?"
+
+msgid "disconnect/submit"
+msgstr "Da"
+
+msgid "disconnect/title"
+msgstr "Isključi se sa servera"
+
+msgid "disconnected/cancel"
+msgstr "OK"
+
+msgid "disconnected/message"
+msgstr "Isključen si sa servera. Pritisni OK za ponovno uključenje."
+
+msgid "disconnected/messageBan"
+msgstr "Tvoj račun je suspendiran. %(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "Tvoj račun je suspendiran do %(expiryTime)s.%(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "Veza sa serverom je prekinuta. %(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \nRazlog: %s"
+
+msgid "disconnected/title"
+msgstr "Prekinuta veza"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "Umirovi"
+
+msgid "dismissTankman/description/perk"
+msgstr "Za ovu operaciju unesite razinu obuke sposobnosti: {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "Za ovu operaciju unesite razinu obuke posljednje obučene sposobnosti ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "Odabrani članovi posade će biti umirovljen. Možete ih povratiti unutar {whiteOrange_Open}%(time)s d {whiteOrange_Close}."
+
+msgid "dismissTankman/header"
+msgstr "Umirovljenje člana posade"
+
+msgid "dismissTankman/limited"
+msgstr "Dosegnuto je ograničenje umirovljenja. Umirovljeni član posade će zamjeniti %(name)s (%(role)s, %(vehicle)s)."
+
+msgid "dismissTankman/noRecovery"
+msgstr "Oporavak neće biti moguć"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "Odustani"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "Pozor! Kada umirovite %(dismissedName)s, oni će zamjeniti %(deletedStr)s. Potvrditi zamjenu?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "Potvrdi"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "Potvrdi zamjenu"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "Odustani"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "Pozor! Kada umirovite posadu, oni će zamjeniti %(deletedStr)s i %(extraCount)s članove posade. Potvrditi zamjenu?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "Potvrdi"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "Međuspremnik umirovljenih članova posade je pun"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "Promjeni"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "Ime"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "Prezime"
+
+msgid "documentChangeDialog/title"
+msgstr "Zamjeniti ime i izgled?"
+
+msgid "dropSkill/cancel"
+msgstr "Odustani"
+
+msgid "dropSkill/message"
+msgstr "Poništiti sve sposobnosti?"
+
+msgid "dropSkill/submit"
+msgstr "Poništi"
+
+msgid "dropSkill/title"
+msgstr "Potvrdi poništavanje"
+
+msgid "elementType/chassis"
+msgstr "ovjes"
+
+msgid "elementType/engine"
+msgstr "motor"
+
+msgid "elementType/gun"
+msgstr "top"
+
+msgid "elementType/radiostation"
+msgstr "radio"
+
+msgid "elementType/turret"
+msgstr "kupolu"
+
+msgid "elenDisabled/cancel"
+msgstr "Zatvori"
+
+msgid "elenDisabled/message"
+msgstr "Natjecanja su privremeno nedostupna zbog planiranog održavanja."
+
+msgid "elenDisabled/title"
+msgstr "Pozor!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "Odustani"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "Nemoj ponovo prikazati ovo upozorenje"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "Zbog vaše hardverske konfiguracije, u ovom režimu ćete iskusiti niski FPS i grafička izobličenja. Učitavanje bitke će trajati duže i može dovesti do rušenja klijenta. Svejedno ući u bitku?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "U bitku!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "Upozorenje o izbedbi"
+
+msgid "equipmentBuyInstall/price"
+msgstr "Cijena kupnje:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "Rastaviti %(equipment)s?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "Odustani"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "Rastavi i nadogradi"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "Rastavi"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "Ova demontirana oprema će biti {white_Open}uništena{white_Close}.\nPredmet se može sigurno demontirati putem obveznica."
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "Ova demontirana oprema će biti {white_Open}uništena{white_Close}.\nPredmet se može sigurno demontirati zlatom ili opremom za demontiranje."
+
+msgid "equipmentDestroy/conformation"
+msgstr "Uništiti opremu \"%(equipment)s\"?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "Montirati opremu \"%(equipment)s\"?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "Prodati opremu \"%(equipment)s\"?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "Odustani"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "Nadogradnja"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "Na rastavljanje"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "Nema dostupne eksperimentalne opreme za rastavljanje."
+
+msgid "eula/p1"
+msgstr "Molim, pročitajte <BR/><A HREF='event:%(eulaURL)s'><U>Ugovor o licenciji s krajnjim korisnikomi</U></A> prije nego nastavite."
+
+msgid "eula/p2"
+msgstr "PRITISKOM NA GUMB \"PRIHVAĆAM\" POTVRĐUJETE DA STE PROČITALI, RAZUMJELI I SLOŽILI SE DA PRIHVAĆATE UVJETE UGOVORA O LICENCIJI S KRAJNJIM KORISNIKOM I DA STE ODGOVORNI ZA BILO KOJE KRŠENJE ISTOG. UGOVOR O LICENCI SOFTVERA ZA KRAJNJEG KORISNIKA I SVI DODACI SU MATERIJALNI I OBVEZUJUĆI ZA SVE ČLANOVE PROJEKTA."
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "Zamjena %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s za %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "Razmjena"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "Razmjeni zlato"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "Biti će iskorišten opust na pretvorbu do %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s iskustva u slobodno iskustvo. Sljedeći put će iskustvo biti pretvoreno za zlato."
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "Pretvori %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s iskustva u slobodno iskustvo za %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "Pretvori"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "Pretvori u slobodno iskustvo"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "Nedovoljno borbenog iskustva za pretvorbu"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "Nedovoljno borbenog iskustva za pretvorbu"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "Odustani"
+
+msgid "fillAllPerks/button/fill"
+msgstr "Auto biranje"
+
+msgid "fillAllPerks/checkbox"
+msgstr "Automatski odabir sposobnosti za posade u Vojarni"
+
+msgid "fillAllPerks/description"
+msgstr "Ovisno o kvalifikacijama člana posade s otvorenim mjestima za sposobnosti, algoritam odabire prvu sposobnost iz donje tablice. Ako član posade već ima prvu sposobnost tada algoritam umujesto toga odabire drugu i nastavlja dok nisu popunjena sva mjesta sposobnosti. Operacija može potrajati."
+
+msgid "fillAllPerks/subTitle"
+msgstr "Spsoobnosti će biti automatski odabrane samo za članove posade u vozilu."
+
+msgid "fillAllPerks/title"
+msgstr "Automatski odaberi neobučene sposobnosti za sve članove posade?"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "Odustani"
+
+msgid "finance_dialog/header"
+msgstr "Potvrdi"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "Unesite financijsku zaporku za potvrdu ove operacije."
+
+msgid "finance_dialog/results/invalid"
+msgstr "Neispravna lozinka."
+
+msgid "finance_dialog/results/limit"
+msgstr "Previše puta ste unijeli pogrešnu zaporku. Pokušajte ponovo za 24 sata. <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Zaboravljena lozinka?</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "Lozinka mora imati najmanje 6 znakova i sadržavati latinična slova, brojeve i \"_\"."
+
+msgid "finance_dialog/submitBtn"
+msgstr "Potvrdi"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "Dobaviti %(product)s za %(price)s?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "Dobavi"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "Potvrdi"
+
+msgid "fortDisabled/cancel"
+msgstr "Zatvori"
+
+msgid "fortDisabled/message"
+msgstr "Informacija o klanovima je trenutno nedostupna zbog tehničkog održavanja."
+
+msgid "fortDisabled/title"
+msgstr "Pozor!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "OK"
+
+msgid "fortTurnedOff/message"
+msgstr "Utvrđenje je privremeno nedostupno. Pokušajte ponovo kasnije."
+
+msgid "fortTurnedOff/title"
+msgstr "Pozor!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "Ne"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "Da"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "Odustani"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "Napustit ćete garnizon trenutne strukture %(oldBuilding)s. Bit ćete priključeni strukturi %(newBuilding)s."
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "Potvrdi"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "Priključi strukturi"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "freeObtainConfirmation/message"
+msgstr "Dobaviti %(product)s za %(price)s?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "Dobavi"
+
+msgid "freeObtainConfirmation/title"
+msgstr "Potvrdi"
+
+msgid "freeSkillsLearning/message"
+msgstr "Nulta sposobnost se ne mora obučavati iskustvom. Ona daje prednost tako da značajno umanjuje količinu iskustva potrebnog za daljnju obuku člana posade."
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "Odabrati %(skillName)s kao nultu sposobnost?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "Preobučiti %(skillName)s kao nultu vještinu?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "freeSlotConfirmation/message"
+msgstr "Iskoristiti popust od 100% za dodavanje dodatnog mjesta u Garaži besplatno?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "Dodaj"
+
+msgid "freeSlotConfirmation/title"
+msgstr "Dodaj mjesto"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "Zatvori"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "Dosegli ste limit za kupnju besplatnih vozila. Pokušajte ponovno sutra."
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "Zatvori"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "Limit kupnje"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)sIskustvo%(orangeText_close)s%(simpleText_open)s je resurs igre zarađen u bitkama.\n\nUključuje:%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)sBattle experience%(orangeText_close)s%(simpleText_open)s se koristi za istraživanje novih modula određenog vozila kao i za daljnji napredak u igri Wargaming svemira u kojem je zarađen.%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sSlobodno iskustvo%(orangeText_close)s%(simpleText_open)s se koristi za istraživanje bilo kojih modula i vozila, kao i za ubrzanje obuke posade. Molim, trošite slobodno iskustvo pažljivo.%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "Nastavi"
+
+msgid "freeXPInfo/title"
+msgstr "Iskustvo"
+
+msgid "gammaDialog/cancel"
+msgstr "Početak"
+
+msgid "gammaDialog/message/description"
+msgstr "Zapovjedniče! Konfigurirajte svoj monitor kako bi ispravili gamu boje i poboljšali kvalitetu slike na svojem ekranu.\n\n "
+
+msgid "gammaDialog/message/header"
+msgstr "Konfigurirajte svoj monitor sada!"
+
+msgid "gammaDialog/title"
+msgstr "Postavke game"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "Nakon pretvorbe:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "Prije pretvorbe:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "Odustani"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "Pretvori"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "Ukupno:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "Posada"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "Vozilo"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "Iskustvo"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "Sva vozila"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "Sortiraj po odabranim vozilima."
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "Poredaj po imenu vozila."
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "Vozila"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "Poredaj prema primljenom iskustvu."
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "Iskustvo"
+
+msgid "gatheringXPForm/title"
+msgstr "Pretvori u slobodno iskustvo"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "Pretvori iskustvo:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "Ubrzana obuka posade."
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "Normalna obuka posade."
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "Ukupno:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "Ukupno:"
+
+msgid "graphics/message/alert"
+msgstr "Pozor!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "Režim ekrana se promjenio. Vraćanje na prethodne postavke za %(time)s sekundi. Sačuvati odabrane postavke?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "Spremi"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "Sačuvaj postavke režima ekrana."
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "Ne"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "Pozor! Sve promjene će biti izgubljene. Nastaviti?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "Da"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "Automatsko podešavanje kvaliteta grafike"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "Ne"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "Pozor! Promjena određenih grafičkih postavki može potrajati neko vrijeme. Nastaviti?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "Da"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "Promjeni postavke"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "Zatvori"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "Nije moguće postaviti parametre na maksimum. Umjesto toga će se postaviti kvaliteta grafike postavljena od korisnika."
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "Pozor"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "Zatvori"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "Kvaliteta visoke teksture je na raspoloaganju samo za 64bitne sustave."
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "Kvaliteta teksture nedostupna"
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "Kasnije"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "Promjena nekih postavki će se primjeniti nakon ponovnog pokretanja igre."
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "Restart"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "Promjeni postavke"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/message"
+msgstr "Nema više mjesta u garaži. Razmislite o kupnji novog mjesta ili prodaji nekog tenka, da bi oslobodili prostor za tenk koji želite kupiti."
+
+msgid "haveNoEmptySlots/submit"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/title"
+msgstr "Greška"
+
+msgid "hof/excludeRating/cancel"
+msgstr "Odustani"
+
+msgid "hof/excludeRating/message"
+msgstr "Ostali igrači više neće vidjeti vaša dostignuća, ali ih možete učiniti vidljivim na glavnoj stranici Kuće slavnih."
+
+msgid "hof/excludeRating/submit"
+msgstr "Sakrij rezultate"
+
+msgid "hof/excludeRating/title"
+msgstr "Pokaži rezultate u rejtinzima"
+
+msgid "hofDisabled/cancel"
+msgstr "Zatvori"
+
+msgid "hofDisabled/message"
+msgstr "Kuća slavnih je privremeno nedostupna. Molim, pokušajte ponovo kasnije."
+
+msgid "hofDisabled/title"
+msgstr "Pozor!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "Odustani"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}Nekompletna posada{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}Jedan ili više članova posade nije prikladno{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "Odabrano vozilo nije prikladno iz jednog od slijedećih razloga:"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "Samo jedan član posade može dobiti bonus. Biti će prebačen sa"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "u"
+
+msgid "idleCrewBonus/submit"
+msgstr "Potvrdi"
+
+msgid "idleCrewBonus/title"
+msgstr "Uključiti intenzivno upravljanje posadom?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "Pokušajte isključiti hardversko ubrzanje pretraživača u postavkama (kartica Grafika)."
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "Greška učitavanja"
+
+msgid "interviewQuit/cancel"
+msgstr "Nazad"
+
+msgid "interviewQuit/message"
+msgstr "Možete sada odbiti anketu i ispuniti je kasnije otvaranjem poruke s pozivom u vašem centru obavjesti. Poruka je aktivna unutar jedne sesije igre."
+
+msgid "interviewQuit/submit"
+msgstr "Odustani"
+
+msgid "interviewQuit/title"
+msgstr "Odbij anketu"
+
+msgid "koreaParentNotification/cancel"
+msgstr "Potvrđujem!"
+
+msgid "koreaParentNotification/message"
+msgstr "Radi sprječavanja ovisnosti kod djece I tinejdžera, zabranjen je ulazak u bitku nakon %(preBlockTime)s. Biti ćete odspojeni sa servera u %(blockTime)s."
+
+msgid "koreaParentNotification/submit"
+msgstr "Potvrđujem!"
+
+msgid "koreaParentNotification/title"
+msgstr "Ograničenja igre"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "Potvrđujem!"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "Isteklo je vremensko ograničenje. Ne možete ući u novu bitku."
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "Potvrđujem!"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "Roditeljski nadzor"
+
+msgid "leaveEvent/cancel"
+msgstr "Odustani"
+
+msgid "leaveEvent/message"
+msgstr "Rezultati vaših bitaka u natjecanju će biti poništeni nakon osvježavanja poretka. Nećete se moći plasirati u poredak i dobiti nagradu.\n\nNakon što napustite natjecanje %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "NE MOŽETE PONOVO UĆI."
+
+msgid "leaveEvent/submit"
+msgstr "Napusti natjecanje"
+
+msgid "leaveEvent/title"
+msgstr "Napusti natjecanje"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "Odustani"
+
+msgid "leaveStartedEvent/message"
+msgstr "Rezultati vaših bitaka se neće računati u ovom natjecanju. Nećete se moći plasirati u poredak i dobiti nagradu.\n\nNakon što napustite natjecanje %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "Napusti natjecanje"
+
+msgid "leaveStartedEvent/title"
+msgstr "Napusti natjecanje"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "Odustani"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "Već si u lobiju pred bitku. Želiš li izaći i prihvatiti poziv?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "Poziv"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "Odustani"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "Već si u vodu. Želiš li napustiti vod i prihvatiti poziv?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "Poziv"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "Odustani"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "Već si u sobi za obuku. Želiš li izaći i prihvatiti poziv?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "Poziv"
+
+msgid "legalInfoWindow/title"
+msgstr "Legalna informacija"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "Odustani"
+
+msgid "limitedUIOffNotification/message"
+msgstr "Jeste li sigurni da želite isključiti postupno pojavljivanje skrivenih elemenata sučelja u Garaži?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "Nakon isključivanja ove opcije nećete je moći ponovno uključiti."
+
+msgid "limitedUIOffNotification/submit"
+msgstr "Isključeno"
+
+msgid "limitedUIOffNotification/title"
+msgstr "Promjeni postavke"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "Odustani"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "Promjene servera neće biti sačuvane. Možete uključiti ili isključiti automatsko logiranje u postavkama."
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "Nastavi"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "Sačuvati promjenu servera?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "Nedovoljno granata u streljivu alternativne konfiguracije. Svejedno ući u bitku?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "Streljivo nepotpuno"
+
+msgid "lowAmmo/cancel"
+msgstr "Odustani"
+
+msgid "lowAmmo/message"
+msgstr "Nedovoljno granata u odabranom vozilu. Streljivo će biti automatski nadopunjeno prije početka slijedeće bitke."
+
+msgid "lowAmmo/submit"
+msgstr "Popuni"
+
+msgid "lowAmmo/title"
+msgstr "Popunjavanje streljiva"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "Odustani"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "Nedovoljno granata u streljivu odabranog vozila. Svejedno ući u bitku?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "U bitku!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "Streljivo nepotpuno"
+
+msgid "lowFpsWarning/cancel"
+msgstr "Ne"
+
+msgid "lowFpsWarning/message"
+msgstr "Trenutne postavke igre uzrokuju niske performanse igre. Da li želite spustiti kvalitetu grafike?"
+
+msgid "lowFpsWarning/submit"
+msgstr "Da"
+
+msgid "lowFpsWarning/title"
+msgstr "Niske performanse igre"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "Informacije o igraču za %(userName)s su blokirani."
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "Informacije o igraču su blokirane"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "Podaci za korisnika %(userName)s su trenutno nedostupni."
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "Podaci trenutno nedostupni."
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "Odustani"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s Uključenje ove postavke će umanjiti performanse računala u bitci."
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "Pozor!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "Uključeno"
+
+msgid "minimapAlphaNotification/title"
+msgstr "Prozirnost minimape"
+
+msgid "moduleSale/conformation/header"
+msgstr "Prodati %(moduleType)s \"%(moduleName)s\"?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "Odustani"
+
+msgid "moneyTransfer/labelClan"
+msgstr "Klan:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "krediti"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "zlato"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "Naknada:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "Prijenos:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "Normalno:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "krediti"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "zlato"
+
+msgid "moneyTransfer/labelTo"
+msgstr "Kome:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "Ukupno:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(nije pripadnik klana)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "Pošalji"
+
+msgid "moneyTransfer/title"
+msgstr "Prebacivanje zlata..."
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "Bit će vam zaračunata naknada {fee} <img src='icon_gold' />. Želite li prebaciti {gold} <img src='icon_gold' /> igraču {player}?"
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "Pretvori"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "Potvrdi prebacivanje"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Postavi financijsku lozinku</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/message"
+msgstr "Prebacivanje zlata nije dozvoljeno. Razlog: %s."
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "Ograničenje prebacivanja ističe %s."
+
+msgid "moneyTransferRestriction/submit"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/title"
+msgstr "Prebacivanje zlata nije dozvoljeno."
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "Ne"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "Promjene nekih postavki će biti primjenjene u sljedećoj bitci. Nastaviti?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "Da"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "Promjeni postavke"
+
+msgid "perkLearnConfirm/desc"
+msgstr "Razina sposobnosti nakon obuke: {yellow_Open}%(level)s%%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "Obuka"
+
+msgid "perkLearnConfirm/title"
+msgstr "Obučiti sposobnost %(skillName)s?"
+
+msgid "perksReset/after"
+msgstr "Nakon poništenja:"
+
+msgid "perksReset/before"
+msgstr "Prije poništenja:"
+
+msgid "perksReset/cancel"
+msgstr "Odustani"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "Ova mogućnost nije dostupna jer već imate 100% popust na poništenje sposobnosti u tenkovskoj akademiji."
+
+msgid "perksReset/discountTooltip/header"
+msgstr "Nedostupno"
+
+msgid "perksReset/free/description"
+msgstr "Sposobnosti do {yellow_Open}1%{yellow_Close} se mogu poništiti besplatno."
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "Ovaj član posade ima besplatno prvo poništenje sposobnosti"
+
+msgid "perksReset/graceLabel"
+msgstr "Besplatno poništenje sposobnosti će biti dostupno na:"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "Količina ukupnog iskustva sposobnosti će se smanjiti. Manje sposobnosti će biti dostupno za obuku."
+
+msgid "perksReset/noNewPerks"
+msgstr "Svo iskustvo iz obučenih sposobnosti će se dodati na razinu glavne kvalifikacije."
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "od ukupnog iskustva sposobnosti"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "Pukovska škola"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "od ukupnog iskustva sposobnosti"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "Ubrzani tečajevi"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "Poništite sposobnosti\nbez gubitka iskustva"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "Koristite kredite za poništavanje sposobnosti bez gubitka iskustva"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "Tenkovska akademija"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "Poništite sposobnosti\nbez gubitka iskustva"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "Poništavanje"
+
+msgid "perksReset/title"
+msgstr "Poništiti sposobnosti svih članova posade?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "Odustani"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "Odabrana kvaliteta fizike zvuka se razlikuje od postavke koju automatski detektira klijent igre. Uključenje ove opcije može utjecati na izvedbu. Preporučujemo testiranje performanski prije potvrde. Želite li primjeniti ove promjene?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "Potvrdi"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "Nepodudaranje kvalitete fizike zvuka"
+
+msgid "postmortem/cancel"
+msgstr "Izađi"
+
+msgid "postmortem/message"
+msgstr "Vozilo uništeno. Želiš li ostati u borbi ili izaći u garažu?"
+
+msgid "postmortem/submit"
+msgstr "Ostani"
+
+msgid "postmortem/title"
+msgstr "Vozilo uništeno"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "Kupi premium račun za %(days)s dana za %(gold)s zlata?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "Kupiti"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "Potvrdi kupnju"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "Produži Premium račun za %(days)s dan(a) za %(gold)s zlata?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "Produži"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "Potvrdi"
+
+msgid "priceCard/credits/title"
+msgstr "Pukovska škola"
+
+msgid "priceCard/free/title"
+msgstr "Ubrzani tečajevi"
+
+msgid "priceCard/gold/title"
+msgstr "Tenkovska akademija"
+
+msgid "priceCard/price/free"
+msgstr "Besplatno"
+
+msgid "priceCard/recertification/title"
+msgstr "Zapovijed preobuke"
+
+msgid "punishmentWindow/cancel"
+msgstr "Potvrđeno"
+
+msgid "punishmentWindow/header/ban"
+msgstr "Blokirani ste na %(time)s"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "Kažnjeni ste"
+
+msgid "punishmentWindow/header/warning"
+msgstr "Nesportsko ponašanje"
+
+msgid "punishmentWindow/info"
+msgstr "Ako je vaša situacija uzrokovana problemima s vezom ili drugim tehničkim problemima,\nmolimo kontaktirajte Podršku igraču."
+
+msgid "punishmentWindow/message/ban"
+msgstr "Prekršili ste pravila igre na mapi {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} u {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nPrivremeno ste blokirani iz bitaka u režimu {whiteSpanish_Open}%(mode)s{whiteSpanish_Close}."
+
+msgid "punishmentWindow/message/penalty"
+msgstr "Prekršili ste pravila igre na mapi {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} u {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nVaši krediti, iskustvo i nagrade osvojene u bitci su uklonjeni."
+
+msgid "punishmentWindow/message/warning"
+msgstr "Prekršili ste pravila igre na mapi {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} u {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nU slučaju opetovanih prekršaja će vam biti oduzeti svi krediti, iskustvo i nagrade osvojene u bitci."
+
+msgid "punishmentWindow/reason/afk"
+msgstr "Neaktivnos u bitci"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "Napuštanje bitke prije kraja ili prije nego što je vozilo uništeno"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "Neaktivnost u bitci/prijevremeno napuštanje bitke"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "Namjerno samouništenje"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s d %(hour)s h"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s s %(min)s min"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 min"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s min"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "Odustani"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "Ne pitaj ponovo"
+
+msgid "questsConfirmDialog/message"
+msgstr "Ako odabarete zadatak \"%(newQuest)s\", zadatak \"%(oldQuest)s\" će biti otkazan."
+
+msgid "questsConfirmDialog/submit"
+msgstr "Potvrdi"
+
+msgid "questsConfirmDialog/title"
+msgstr "Potvrdi odabir zadatka"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "Odustani"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "Sav napredak u zadatku %(curQuest)s će biti poništen.\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "Pozor! Sav napredak u trenutom zadatku će biti izgubljen."
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "Potvrdi"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "Poništi napredak"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "Odustani"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "Ako odaberete zadatak %(newQuest)s, vaš napredak u zadatku %(oldQuest)s će biti poništen.\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "Pozor! Sav napredak u trenutom zadatku će biti izgubljen."
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "Potvrdi"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "Potvrdi odabir zadatka"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "Odustani"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "Zadatak %(quest)s će biti otkazan.\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "Pozor! Sav napredak u trenutom zadatku će biti izgubljen."
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "Potvrdi"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "Potvrdi poništenje zadatka"
+
+msgid "quit/cancel"
+msgstr "Ostani"
+
+msgid "quit/submit"
+msgstr "Izađi"
+
+msgid "quit/title"
+msgstr "Izaći iz igre?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "Odustani"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "Vaš tim vas treba! Napuštanje bitke prije kraja ili prije uništenja vozila se smatra dezerterstvom. To može rezultirati kaznom i oduzimanjem svih bonusa za bitku odigranu u IGR."
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "Dezertiranje"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "Dezertirati s bojišnice?"
+
+msgid "quitBattle/cancel"
+msgstr "Odustani"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Odustani"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Vaš tim vas treba! Napuštanje bitke prije kraja ili prije uništenja vozila se smatra dezerterstvom. To može rezultirati kaznom."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Dezertiranje"
+
+msgid "quitBattle/leaver/title"
+msgstr "Dezertirati s bojišnice?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "Odustani"
+
+msgid "quitBattle/replay/submit"
+msgstr "Izađi"
+
+msgid "quitBattle/replay/title"
+msgstr "Izaći iz režima promatranja?"
+
+msgid "quitBattle/submit"
+msgstr "Napusti"
+
+msgid "quitBattle/title"
+msgstr "Napustiti bitku?"
+
+msgid "quitPreBattle/cancel"
+msgstr "Ne"
+
+msgid "quitPreBattle/message"
+msgstr "Sigurno želiš napustiti lobi prije bitke?"
+
+msgid "quitPreBattle/submit"
+msgstr "Da"
+
+msgid "quitPreBattle/title"
+msgstr "Napusti lobi prije bitke"
+
+msgid "rally/autoSearch/cancel"
+msgstr "Ne"
+
+msgid "rally/autoSearch/message"
+msgstr "Automatski pretražite raspoloživa slobodna mjesta?"
+
+msgid "rally/autoSearch/submit"
+msgstr "Da"
+
+msgid "rally/autoSearch/title"
+msgstr "Automatska pretraga"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "Odustani"
+
+msgid "rally/changePeriphery/message"
+msgstr "Biti ćete automatski prebačeni na drugi server (%(host)s). Svejedno nastaviti?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "Nastavi"
+
+msgid "rally/changePeriphery/title"
+msgstr "Prijelaz na drugi server"
+
+msgid "rally/goToAnother/cancel"
+msgstr "Odustani"
+
+msgid "rally/goToAnother/message"
+msgstr "Ako promjenite režim igre bit ćete automatski isključeni iz taktičke jedinice."
+
+msgid "rally/goToAnother/submit"
+msgstr "Nastavi"
+
+msgid "rally/goToAnother/title"
+msgstr "Promjeni režim"
+
+msgid "rally/goToIntro/cancel"
+msgstr "Odustani"
+
+msgid "rally/goToIntro/message"
+msgstr "Da li ste sigurni da želite napustiti taktičku jedinicu?"
+
+msgid "rally/goToIntro/submit"
+msgstr "Potvrdi"
+
+msgid "rally/goToIntro/title"
+msgstr "Potvrdi izlaz"
+
+msgid "rally/goToSquad/cancel"
+msgstr "Odustani"
+
+msgid "rally/goToSquad/message"
+msgstr "Ako stvorite vod automatski ćete napustiti trenutni režim."
+
+msgid "rally/goToSquad/submit"
+msgstr "Stvori"
+
+msgid "rally/goToSquad/title"
+msgstr "Stvori vod"
+
+msgid "rally/leave/cancel"
+msgstr "Odustani"
+
+msgid "rally/leave/message"
+msgstr "Da li ste sigurni da želite napustiti taktičku jedinicu i izaći iz režima igre?"
+
+msgid "rally/leave/submit"
+msgstr "Potvrdi"
+
+msgid "rally/leave/title"
+msgstr "Potvrdi izlaz"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "Nastavi"
+
+msgid "rally/leaveDisabled/message"
+msgstr "Nije moguće izaći iz režima. Vaše vozilo je u slotu spremnim za bitku."
+
+msgid "rally/leaveDisabled/title"
+msgstr "Pozor"
+
+msgid "rally/startBattle/cancel"
+msgstr "Ne"
+
+msgid "rally/startBattle/message"
+msgstr "Traži neprijatelja?"
+
+msgid "rally/startBattle/submit"
+msgstr "Da"
+
+msgid "rally/startBattle/title"
+msgstr "Tražim neprijatelja"
+
+msgid "recruit/cancel"
+msgstr "Odustani"
+
+msgid "recruit/submit"
+msgstr "Novak"
+
+msgid "recruit/title"
+msgstr "Unovačiti novu %(role)s za %(vehicleName)s?"
+
+msgid "recruit/voiceoverText"
+msgstr "Jedinstvena sinkronizacija člana posade radi samo sa kvalifikacijom zapovjednika."
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "Ne trebate unovačiti članove posade za premium vozila. Možete prebaciti posadu na premium vozilo istog tipa bez kazne."
+
+msgid "recruit/warning/slotChanged"
+msgstr "Ovaj član posade se ne može unovačiti za odabrano vozilo i biti će poslan u Vojarnu."
+
+msgid "recruitConversionConfirm/warning"
+msgstr "Član posade ima zastarjele sposobnosti koje će biti automatski poništenje bez gubitka iskustva."
+
+msgid "recruitDialog/name/title"
+msgstr "Unovačiti člana posade (%(name)s)?"
+
+msgid "recruitDialog/title"
+msgstr "Unovačiti novog člana posade?"
+
+msgid "recruitWindow/cancel"
+msgstr "Odustani"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "Nije odabrano"
+
+msgid "recruitWindow/nation"
+msgstr "Nacija"
+
+msgid "recruitWindow/specialization"
+msgstr "Kvalifikacije"
+
+msgid "recruitWindow/submit"
+msgstr "Novak"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "Tip vozila"
+
+msgid "recruitWindow/vehicleType"
+msgstr "Vozilo"
+
+msgid "referralReward/cancel"
+msgstr "Odustani"
+
+msgid "referralReward/message"
+msgstr "Potraživati %(product)s?"
+
+msgid "referralReward/submit"
+msgstr "Potvrdi"
+
+msgid "referralReward/title"
+msgstr "Potvrda o primitku"
+
+msgid "refuseTraining/cancel"
+msgstr "Ne"
+
+msgid "refuseTraining/message"
+msgstr "Prekid obuke?"
+
+msgid "refuseTraining/submit"
+msgstr "Da"
+
+msgid "refuseTraining/title"
+msgstr "Potvrdi"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "Uništi"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "Odustani"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "Potrošni materijal \"%(name)s\" će biti premješten u skladište zbog %(reason)s s trenutnim modulom."
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "nekompatibilnosti"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "Demontirati"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "Potvrdi demontažu"
+
+msgid "rentConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "rentConfirmation/event"
+msgstr "za režim %(eventName)s"
+
+msgid "rentConfirmation/message"
+msgstr "Unajmiti %(name)s %(event)s za %(price)s?"
+
+msgid "rentConfirmation/submit"
+msgstr "Potvrdi"
+
+msgid "rentConfirmation/title"
+msgstr "Potvrdi unajmljivanje"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "Odustani"
+
+msgid "rentConfirmationRenew/message"
+msgstr "Produljiti period najma %(name)s %(event)s za %(price)s?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "Potvrdi"
+
+msgid "rentConfirmationRenew/title"
+msgstr "Potvrdi unajmljivanje"
+
+msgid "replacePassport/unique/cancel"
+msgstr "Odustani"
+
+msgid "replacePassport/unique/message"
+msgstr "Ovo je jedinstveni član posade i njegovi osobni podaci se kasnije ne mogu poništiti. Da li ste sigurni da želite zamjeniti osobne podatke za %(gold)s?"
+
+msgid "replacePassport/unique/submit"
+msgstr "Promjeni"
+
+msgid "replacePassport/unique/title"
+msgstr "Potvrdi zamjenu"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "replacePassportConfirmation/message"
+msgstr "Zamijeniti osobne podatke člana posade za %(gold)s?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "Promjeni"
+
+msgid "replacePassportConfirmation/title"
+msgstr "Zamjeni osobne podatke"
+
+msgid "replayNotification/cancel"
+msgstr "Ne"
+
+msgid "replayNotification/message"
+msgstr "Trenutna verzija World of Tanks nije kompatibilna sa snimanjem igre. Može uzrokovati problema u reprizi. Zanemarite razliku i pustite reprizu?"
+
+msgid "replayNotification/submit"
+msgstr "Da"
+
+msgid "replayNotification/title"
+msgstr "Upozorenje"
+
+msgid "replayStopped/cancel"
+msgstr "Odustani"
+
+msgid "replayStopped/message"
+msgstr "Repriza završena. Pritisnite Završi za izlaz iz igre."
+
+msgid "replayStopped/submit"
+msgstr "Završi"
+
+msgid "replayStopped/title"
+msgstr "Repriza završena."
+
+msgid "reportBug/cancel"
+msgstr "Odustani"
+
+msgid "reportBug/message"
+msgstr "Klik ovdje ćete otvoriti vaš zadani preglednik i odvesti vas na World of Tanks stranicu Podršku igraču za prijavu greške. Nastaviti?"
+
+msgid "reportBug/submit"
+msgstr "Nastavi"
+
+msgid "reportBug/title"
+msgstr "Idite na Podršku igraču"
+
+msgid "resetAllPerks/cancel"
+msgstr "Odustani"
+
+msgid "resetAllPerks/submit"
+msgstr "Poništavanje"
+
+msgid "resetAllPerks/title"
+msgstr "Poništiti sve sposobnosti za sve članove posade?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}Sve sposobnosti će biti poništene za sve članove posada na vašem računu.{orangeEnd}\n{orangeStart}Ova operacija se ne može ispraviti.{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "Nastavi"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s Grafičke postavke su automatski odabrane za osiguranje optimalne kvalitete slike.\nZa bolje performanse, odaberite nižu grafičku kvalitetu u Postavkama."
+
+msgid "resetGraphics/submit"
+msgstr "Postavke"
+
+msgid "resetGraphics/title"
+msgstr "Promjeni grafičke postavke"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "Oporavi"
+
+msgid "restoreTankman/description"
+msgstr "%(name)s će biti povraćen."
+
+msgid "restoreTankman/free"
+msgstr "Cijena: besplatno"
+
+msgid "restoreTankman/header"
+msgstr "Oporavit ovog člana posade?"
+
+msgid "restoreTankman/price"
+msgstr "Cijena:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "Odustani"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "Vrati %(vehiclename)s"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "Vrati"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "Bez posade"
+
+msgid "restoreVehicleDialog/title"
+msgstr "Vrati %(vehiclename)s"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "Nakon što kliknite Vrati nećete moći razmjeniti kupljenu opremu i potrošni materijal za zlato. Molim da pažljivo provjerite sve detalje."
+
+msgid "retrain/cancel"
+msgstr "Odustani"
+
+msgid "retrain/changeRole"
+msgstr "Promjena kvalifikacije"
+
+msgid "retrain/discountLabel"
+msgstr "Ovaj popust je dostupan jer prva sposobnost nije obučena na 100%."
+
+msgid "retrain/discountTooltip/body"
+msgstr "Ova mogućnost nije dostupna jer već imate 100% popust na preobuku u tenkovskoj akademiji."
+
+msgid "retrain/discountTooltip/header"
+msgstr "Nedostupno"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "Članovi posade za preobuku: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "Ne trebate obučavati članove posade za premium vozila.\nMožete prebaciti posadu na premium vozilo istog tipa bez kazne."
+
+msgid "retrain/price"
+msgstr "Cijena:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "Učinkovitost sposobnosti\nnakon preobuke: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "Pukovska škola"
+
+msgid "retrain/priceCard/free/description"
+msgstr "Učinkovitost sposobnosti\nnakon preobuke: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "Ubrzani tečajevi"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "Učinkovitost sposobnosti\nnakon preobuke: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "Tenkovska akademija"
+
+msgid "retrain/submit"
+msgstr "Preobuči"
+
+msgid "retrain/title/massive"
+msgstr "Preobučiti posadu za %(vehicleName)s&zwnbsp;?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "Preobučiti za %(vehicleName)s\ni promjeniti kvalifikaciju u %(role)?"
+
+msgid "retrain/title/single/simple"
+msgstr "Preobučiti za %(vehicleName)s"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "Sposobnosti s nepogodnom kvalifikacijom će biti isključene. Poništite ih ručno."
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "Posada se može prebaciti u premium vozilo istog tipa bez obuke ili kazne, ali nepogodne sposobnosti se moraju ručno poništiti."
+
+msgid "rudyInfo/message"
+msgstr "Besmrtni klasici već u igri! \"Četiri tenkista i pas\" (polj. \"Czterej pancerni i pies\") je bila poljska crno-bijela televizijska serija po istoimenom romanu Janusza Przymanowskog. Serija koja je bila praizvedena 9. svibnja 1966, opisuje pustolovine posade tenka T-34-85 po nadimku Rudy (Riđi) i njihovog psa Szarika tijekom Drugog Svjetskog Rata."
+
+msgid "rudyInfo/submit"
+msgstr "Razumijem!"
+
+msgid "rudyInfo/title"
+msgstr "Četiri tenkista i pas"
+
+msgid "selectVehicle/counter"
+msgstr "Prikazana vozila:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "Odaberite napadačko vozilo"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "Odaberite ovo vozilo"
+
+msgid "sellConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "sellConfirmation/submit"
+msgstr "Prodaj"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "Prodaj"
+
+msgid "sellModuleConfirmation/title"
+msgstr "Potvrdi prodaju"
+
+msgid "sellShellConfirmation/submit"
+msgstr "Prodati granatu \"%(shellName)s\"?"
+
+msgid "sendInvites/common/title"
+msgstr "Pozovi u taktičku jedinicu"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "Odustani"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "Statistika sesije će se automatski poništiti za{}"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "Poništi"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s h %(minutes)s min"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "Poništiti statistiku sesije?"
+
+msgid "shopSyncError/cancel"
+msgstr "Nastavi"
+
+msgid "shopSyncError/message"
+msgstr "Obnovite aplikaciju. Ako se greška ponavlja, obnovite server."
+
+msgid "shopSyncError/title"
+msgstr "Desinkronizacija"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "Odustani"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "Obučiti odabrane sposobnosti?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "Obuka"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "Primijeni"
+
+msgid "soundModeInvalid/cancel"
+msgstr "Odustani"
+
+msgid "soundModeInvalid/message"
+msgstr "Datoteke za odabrano glasovno upozorenje su oštećene ili nedostaju, upozorenje će biti standardno."
+
+msgid "soundModeInvalid/submit"
+msgstr "Spremi"
+
+msgid "soundModeInvalid/title"
+msgstr "Greška"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "Odustani"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "Odabrani zvučni sustav se razlikuje od onog kojeg je klijent igre automatski definirao. Neki zvukovi mogu biti nedostupni. Preporučujemo ispitivanje razlike u zvuku. Potvrditi promjene?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "Potvrdi"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "Neslaganje zvučnog sustava"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "Ne"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "Odabrani zvučni sustav se razlikuje od onog kojeg je klijent igre automatski definirao. Neki zvukovi mogu biti nedostupni. Preporučujemo ispitivanje razlike u zvuku. Primjeniti optimalne postavke zvuka?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "Da"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "Neslaganje zvučnog sustava"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "Razumijem!"
+
+msgid "squad/eventDisabled/message"
+msgstr "Akcija je nedostupna. Vod će biti raspušten."
+
+msgid "squad/eventDisabled/title"
+msgstr "Akcija je završila"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Odustani"
+
+msgid "squad/goToAnother/message"
+msgstr "U vodu ste. Ako promjenite režim bit ćete isključeni iz voda."
+
+msgid "squad/goToAnother/submit"
+msgstr "Nastavi"
+
+msgid "squad/goToAnother/title"
+msgstr "Promjeni režim"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "Odustani"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "Promjenom režima igre vaš trenutni vod će biti raspušten. Želite li stvarno promjeniti tip bitke?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "Potvrdi"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "Promjena režima igre"
+
+msgid "squad/goToSquad/cancel"
+msgstr "Odustani"
+
+msgid "squad/goToSquad/message"
+msgstr "Napustiti taktičku jedinicu i stvoriti vod si gračem?"
+
+msgid "squad/goToSquad/submit"
+msgstr "Stvori"
+
+msgid "squad/goToSquad/title"
+msgstr "Stvori vod"
+
+msgid "squad/leave/cancel"
+msgstr "Odustani"
+
+msgid "squad/leave/message"
+msgstr "Da li ste sigurni da želite napustiti vod?"
+
+msgid "squad/leave/submit"
+msgstr "Potvrdi"
+
+msgid "squad/leave/title"
+msgstr "Potvrdi izlaz"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Nastavi"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Ne možete napustiti vod. Član ste voda i spremni ste za bitku."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Pozor"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "Odustani"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "Vod nije potpun. Još jedan igrač će biti automatski dodan. Ući u bitku?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "U bitku!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "Vod nije spreman"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "Odustani"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "Vod nije pun. Svejedno ući u bitku?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "U bitku!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "Vod nije spreman"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "Odustani"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "Vod nije potpun. Automatski dodati igrače i ući u bitku?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "U bitku!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "Vod nije spreman"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "Odustani"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "Jedan od članova voda nije spreman. Svejedno ući u bitku?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "U bitku!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "Vod nije spreman"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "Odustani"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "Igrač koji nije potvrdio da je spreman će biti isključen iz taktičke jedinice. Jedan dodatni igrač će automatski biti dodan. Ući u bitku?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "U bitku!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "Vod nije spreman"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "Odustani"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "Nijedan od članova voda nije spreman. Svejedno ući u bitku?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "U bitku!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "Vod nije spreman"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "Odustani"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "Igrač koji nije potvrdio spremnost će biti isključen iz taktičke jedinice. Automatski dodati igrače i ući u bitku?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "U bitku!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "Vod nije spreman"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "Nije moguće pridružiti se u novu borbu: nekoliko igrača se nije vratilo. Pričekajte da završi trenutna borba."
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "Razumijem!"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "Vod nije spreman"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "OK"
+
+msgid "squadPremiumNeeded/message"
+msgstr "Samo korisnici premium računa mogu stvoriti vod.\nOsoba koja stvori vod može pozvati igrače s bilo kakvim računom."
+
+msgid "squadPremiumNeeded/title"
+msgstr "Samo za premium račun"
+
+msgid "steamStartNeeded/cancel"
+msgstr "Napeta partija"
+
+msgid "steamStartNeeded/message"
+msgstr "Igra se mora pokrenuti iz Steama kako bi se ispravno prijavili."
+
+msgid "steamStartNeeded/title"
+msgstr "Prijava nije moguća"
+
+msgid "stronghold/leave/cancel"
+msgstr "Odustani"
+
+msgid "stronghold/leave/message"
+msgstr "Da li ste sigurni da želite napustiti odred?"
+
+msgid "stronghold/leave/submit"
+msgstr "Potvrdi"
+
+msgid "stronghold/leave/title"
+msgstr "Potvrdi izlaz"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "Jednom kad odete, odred će biti raspušten.\nKlan će biti kažnjen zbog neulaska u bitku.\nDa li ste sigurni da želite napustiti odred?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "Potvrdi izlaz"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "Odustani"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "Nastavi"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "Prijelaz na drugi server"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "tradeInConfirmation/message"
+msgstr "%(vehName)s će biti predano i nedostupno za povrat.%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " Dodatno, %(operations)s."
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "posada će biti poslana u Vojarnu"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "potrošni materijal će biti poslan u Skladište"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "oprema će biti besplatno demontirana"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "sve kupljene Dvostruke promjene će biti otkazane, ali napredak Standardne promjene će se sačuvati"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "streljiveo će biti poslano u Skladište"
+
+msgid "tradeInConfirmation/submit"
+msgstr "Razmjena"
+
+msgid "tradeInConfirmation/title"
+msgstr "Razmjena vozila"
+
+msgid "tradeInPopover/descr"
+msgstr "Premium vozila dostupna u Garaži"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "Prikaži nacije odabranih vozila."
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "Nacija"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "Prikazuje koliko uštedite kada su odabrana vozila razmjenjena"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "Procjena\nvozila"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "Procjena vozila"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "Prikaži razine odabranih vozila."
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "Razina"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "Prikaži imena odabranih vozila."
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "Ime"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "Prikaži tipove odabranih vozila."
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "Tip"
+
+msgid "tradeInPopover/title"
+msgstr "Odaberi vozilo za razmjenu"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "Odaberi vozilo"
+
+msgid "updateNeeded/cancel"
+msgstr "Kasnije"
+
+msgid "updateNeeded/message"
+msgstr "Molim obnovite vašu prijavu"
+
+msgid "updateNeeded/submit"
+msgstr "Obnovi"
+
+msgid "updateNeeded/title"
+msgstr "Potrebno obnavljanje"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "Obučiti člana posade za {%d} zlata?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "Obuka"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "Potvrdi obuku"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "Nedovoljno zlata za obuku."
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "Nedovoljno zlata"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "Odustani"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "Obučiti člana posade za {%d} kredita?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "Obuka"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "Potvrdi obuku"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "Nedovoljno kredita za obuku."
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "Nema dovoljno kredita."
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "Odustani"
+
+msgid "vehConf/exitDialog/message"
+msgstr "Promjene neće biti spremljene. Napustiti izbornik konfiguracije vozila?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "Potvrdi"
+
+msgid "vehConf/exitDialog/title"
+msgstr "Otkaži promjene"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "Ukloni iz Garaže %(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "Odustani"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "Pozor! Ovo je posebno vozilo. Ako ga prodate, trebat ćete čekati %(cooldown)s dana da ga povratite. Prodati vozilo?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "Potvrdi"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "Potvrdi prodaju"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "Odustani"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "Pozor! Ovo je posebno vozilo. Ali, ako ga prodate, moći ćete ga povratiti. Prodati vozilo?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "Potvrdi"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "Potvrdi prodaju"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "Odustani"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "Odustani"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "POZOR! Ovaj tenk je jedinstven i ne može se povratiti. I posada će biti trajno raspuštena."
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "Potvrdi"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "Potvrdi prodaju"
+
+msgid "vehicleSell/unique/message"
+msgstr "Pozor! Ovo je posebno vozilo. Nije raspoloživo za kupnju u Prodavaonici. Nastaviti?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "Potvrdi"
+
+msgid "vehicleSell/unique/title"
+msgstr "Potvrdi prodaju"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "Potvrdi kupnju"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "Za potvrdu, unesite trošak prodaje iz kolone \"Ukupno\" (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "Unijeli ste netočne informacije."
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "STRELJIVO:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "SMJERNICE:"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "Odustani"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "UKUPNO:"
+
+msgid "vehicleSellDialog/count"
+msgstr "primjerci"
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "Umirovi"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "Pošalji u Vojarnu"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "POSADA:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "VANJŠTINA:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "Rastavi"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "POTROŠNI MATERIJAL:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "Detalji"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "SKLADIŠTE:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "Potrošeno:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "Uključujući sve nacionalne konfiguracije vozila!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "Moduli"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "OPREMA:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "Ako se vozilo proda, trenutna razina Terenske promjene ostaje, ali se Dvostruka promjena poništava."
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "Primljeno:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "Ukloni"
+
+msgid "vehicleSellDialog/submit"
+msgstr "Prodaj"
+
+msgid "vehicleSellDialog/title"
+msgstr "Prodaj %(name)s"
+
+msgid "vehicleSellDialog/unload"
+msgstr "Pošalji u Skladište"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "Elitni"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "Trošak"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "Razina. "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "Uloga: "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "Lovci na tenkove"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "Samohodni topovi"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "Teški tenk"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "Laki tenk"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "Srednji tenk"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "Razumijem!"
+
+msgid "voiceChatInitFailed/message"
+msgstr "Greška u pokretanju glasovnog chata: usluga je trenutno nedostupna."
+
+msgid "voiceChatInitFailed/title"
+msgstr "Pokretanje glasovnog razgovora"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "OK"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "Glasovni razgovor uspješno pokrenut."
+
+msgid "voiceChatInitSucceded/title"
+msgstr "Pokretanje glasovnog razgovora"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "Zatvori"
+
+msgid "waterQualityNotPossible/message"
+msgstr "Visokokvalitetna voda je dostupna samo s uključenom opcijom 'Dodatno čišćenje'"
+
+msgid "waterQualityNotPossible/title"
+msgstr "Kvaliteta vode nedostupna."
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "Odustani"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "Provjera da li su vozila dostupna u Garaži"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "Cijena: %(price)s %(icon)s (dostupno: %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "Igrač: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "Odabrana vozila: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "Obnova za službu"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "Obnoviti za službu?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "Pomoćnik"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "Nagrade sudjelovanja"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "Bonus bitke"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "Borbena propusnica Plus"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "Isključena mapa"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "Ekskluzivno vozilo"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "Ekskluzivna vozila"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "Besplatno demontiranje opreme"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "Zlatna pričuva"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "Intenzivno upravljanje posadom"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "Upravljivi množitelj iskustva"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "Pro pojačanje"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "Prilagodba Osobnog dosjea"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "Tenkovski stijeg"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "WOT PLUS AKTIVIRAN"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "Spreman sam!"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "Produljuje se {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "WOT PLUS CORE AKTIVIRAN"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "Detalji"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "360-dnevni plan"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "180-dnevni plan"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}, produljuje se {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "WOT PLUS PRO AKTIVIRAN"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "Aktiviraj"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}Nećete moći opet pojačati drugo vozilo za {{@ style (color #fff)}}{{boostInterval}} sati{{/}}.{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "Aktiviranje Pro pojačanja čini da ovo vozilo zarađuje {{@ style (color #fff)}}{{bonusPercent}} više kredita i iskustva{{/}}. Primjenjuje se samo na jedno vozilo."
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "Aktivirati Pro pojačanje za {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "Prebaci"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}Samo jedno vozilo može dobiti pojačanje. Nećete moći opet pojačati drugo vozilo za {{@ style (color #fff)}}{{boostInterval}} sati{{/}}.{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "Aktiviranje Pro pojačanja čini da ovo vozilo zarađuje {{@ style (color #fff)}}{{bonusPercent}} više kredita i iskustva{{/}}. Primjenjuje se samo na jedno vozilo."
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "Prebaciti Pro pojačanje na {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "Odustani"
+
+msgid "wotPlusRental/description"
+msgstr "Slijedeći najam vozila će biti dostupan {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "Unajmi"
+
+msgid "wotPlusRental/title"
+msgstr "Unajmiti {cream_Open}%s{cream_Close}?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "Spremi"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "Želite li spremiti vašu prilagodbu Osobnog dosijea?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "Odustani"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "Potroši svo iskustvo zarađeno na ovom vozilu za obuku posade. Namanje ikusan član posade će se obučavati dvostruko brže."
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "Uključeno"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "Ubrzaj obuku posade?"

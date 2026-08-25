@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Takaisin aarteisiin"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "HEHKUVA AARRE"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "HEHKUVA AARRE"
+
+msgid "common/getButton/lowerCase"
+msgstr "Hanki aarteita"
+
+msgid "common/getButton/upperCase"
+msgstr "HANKI AARTEITA"
+
+msgid "common/loader"
+msgstr "Hehkuvaa aarretta avataan..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Avaa aarteita nähdäksesi tilastot."
+
+msgid "common/statistics/header"
+msgstr "Hehkuvia aarteita avattu: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Kaikki tiedot avatuista hehkuvista aarteista poistetaan."
+
+msgid "entryPoint/boxes"
+msgstr "AARTEISIIN"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Nämä ovat erikoislaatikoita, jotka sisältävät uusia ja ainutlaatuisia tavaroita, kuten premium-vaunuja, kaksiulotteisia tyylejä ja paljon muuta. Voit saada niitä pelinsisäisestä Kaupasta."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Hehkuvia aarteita ei voi tällä hetkellä avata tai ostaa teknisten syiden tähden. Pahoittelemme väliaikaista haittaa."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Hehkuvat aarteet eivät ole väliaikaisesti saatavilla"
+
+msgid "eventName/lowerCase"
+msgstr "Kiinalaisen uudenvuoden saalis"
+
+msgid "eventName/upperCase"
+msgstr "KIINALAISEN UUDENVUODEN SAALIS"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Taattu palkinto seuraavassa aarteessa!"
+
+msgid "guaranteedTitle/text"
+msgstr "Suurin määrä hehkuvia aarteita ennen takuupalkintoa: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Mikäli et avaa hehkuvia aarteita ennen tapahtuman päättymistä, ne avataan automaattisesti."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Mikäli omistat jo kaikki vaunut hehkuvan aarteen mahdollisen sisällön listalta, hyvitetään kaikki seuraavat vaunut, jotka saat hehkuvista aarteista, kullalla niiden täyden arvon mukaan."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Joka %(guaranteed0)s. hehkuva aarre sisältää taatusti tason VIII–IX vaunun. Jos avaat niitä saamatta tällaista vaunua, saat sellaisen tason VIII–IX vaunun, jota et vielä omista, kun avaat %(guaranteed0)s&zwnbsp;. hehkuvan aarteen. Kun näin käy, laskuri nollautuu."
+
+msgid "infoPage/header/description"
+msgstr "Avaa hehkuvia aarteita saadaksesi mahdollisuuden saada arvokkaita pelihyödykkeitä! Katso lisätietoja alta."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "\"%(name)\" -arkusta (%(boxesCount) hehkuvaa aarretta avattu)"
+
+msgid "noBoxesView/description/"
+msgstr "Sinulla ei ole hehkuvia aarteita.\nVoit saada niitä pelinsisäisestä Kaupasta."
+
+msgid "preview/backLabel"
+msgstr "AARTEISIIN"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Aarteita saatavilla: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Aarteita ei ole saatavilla"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Mikäli omistat jo kaikki vaunut hehkuvan aarteen mahdollisen sisällön listalta, hyvitetään kaikki seuraavat vaunut, jotka saat hehkuvista aarteista, kullalla."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) hehkuva aarre"
+msgstr[1] "%(remainingCount) hehkuvaa aarretta"
+msgstr[2] "%(remainingCount) hehkuvaa aarretta"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Takuupalkinto on vaunu hehkuvan aarteen mahdollisten sisältöjen listalta.\nJos avaat %(remainingCount) saamatta tällaista vaunua, saat sen avatessasi %(count) hehkuvan aarteen. Näin tapahtuessa laskuri nollautuu."

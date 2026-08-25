@@ -1,0 +1,152 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "collection/error/description"
+msgstr "Pyyhimme pölyjä kokoelmastasi. Suuntaa sillä välin taisteluun."
+
+msgid "collection/error/title"
+msgstr "Kokoelmaa restauroidaan"
+
+msgid "collection/tooltip/completed"
+msgstr "\"%(name)s, %(season)s / %(year)s\" -kokoelma valmis."
+
+msgid "collection/tooltip/progress"
+msgstr "Kerättyjen \"%(name)s, %(season)s / %(year)s\" -kokoelman elementtien määrä."
+
+msgid "footer/buttonText"
+msgstr "Kokoelmaan"
+
+msgid "footer/collectionCompleted"
+msgstr "Kokoelma valmis!"
+
+msgid "footer/progressbar/activeState/receivedElements/text"
+msgstr "Elementtejä kerätty: %(received)s / %(total)s"
+
+msgid "footer/progressbar/tooltip/body"
+msgstr "Edistä kokoelmasi karttumissa hankkimalla vastaavia elementtejä tapahtuman aikana tai sen jälkeen, jos suinkin mahdollista. Pidä kursoria kokoelman elementin päällä saadaksesi tietoa, miten sen voi hankkia."
+
+msgid "footer/progressbar/tooltip/note"
+msgstr "Kokoelma voi sisältää elementtejä, joita saa palkinnoksi tämän kokoelman elementtien keräämisestä. Niitä ei lisätä elementtilaskuriin, eivätkä ne kasvata kokoelman edistymisen tasoa, mutta ne paljastavat lisää yksityiskohtia tarinasta."
+
+msgid "footer/progressbar/tooltip/title"
+msgstr "Kokoelman elementtien kerääminen"
+
+msgid "header/overhead"
+msgstr "KOKOELMA"
+
+msgid "header/seasonText/defaultConfig"
+msgstr "KAUDEN NIMI"
+
+msgid "header/subtitle"
+msgstr "KOKOELMA VALMIS!"
+
+msgid "header/title/defaultConfig"
+msgstr "MALLIKOKOELMA"
+
+msgid "intro/buttonClose/text"
+msgstr "Kokoelmiin"
+
+msgid "intro/content/description/text"
+msgstr "Kokoelmat ovat valikoimia ainutlaatuisia elementtejä, joita voi saada erilaisista tapahtumista. Elementit ovat ainutkertaisia tyylejä, koristeita ja muita tarvikkeita, joita ei voi saada tavallisista peleistä."
+
+msgid "intro/header/text"
+msgstr "World of Tanksin kokoelmat"
+
+msgid "main/backText"
+msgstr "KOKOELMIIN"
+
+msgid "mainLayout/header/title"
+msgstr "World of Tanksin kokoelmat"
+
+msgid "mainLayout/header/tooltip/body"
+msgstr "Kokoelmat ovat valikoimia ainutlaatuisia elementtejä, joita voi saada erilaisista tapahtumista. Elementit ovat ainutkertaisia tyylejä, koristeita ja muita tarvikkeita, joita ei voi saada tavallisista peleistä."
+
+msgid "mainLayout/header/tooltip/header"
+msgstr "World of Tanksin kokoelmat"
+
+msgid "navigation/pageCounter"
+msgstr " / %(pageCount)s"
+
+msgid "notifications/button/goToCollection"
+msgstr "Kokoelmaan"
+
+msgid "notifications/button/goToCollections"
+msgstr "Kokoelmiin"
+
+msgid "notifications/button/goToReward"
+msgstr "Palkintoon"
+
+msgid "notifications/eventDisabled/text"
+msgstr "Kokoelmat eivät ole väliaikaisesti saatavilla."
+
+msgid "notifications/eventEnabled/text"
+msgstr "Kokoelmat ovat taas saatavilla. Pahoittelemme häiriötä."
+
+msgid "notifications/eventStart/text"
+msgstr "Komentajat, olemme laatineet teille jotain uutta! Kerätkää \"%(feature)s\" -kokoelman elementtejä saadaksenne ainutlaatuisia palkintoja."
+
+msgid "notifications/eventStart/title"
+msgstr "\"%(feature)s\" -kokoelma saatavilla!"
+
+msgid "notifications/feature/battle_pass_10"
+msgstr "TAISTELUPASSI"
+
+msgid "notifications/feature/battle_pass_11"
+msgstr "TAISTELUPASSI"
+
+msgid "notifications/feature/battle_pass_12"
+msgstr "TAISTELUPASSI"
+
+msgid "notifications/finalReceived/text"
+msgstr "Olet saanut valmiiksi \"%(feature)s: %(season)s\" -kokoelman"
+
+msgid "notifications/newItemsReceived/text"
+msgstr "Uusia kokoelman elementtejä saatu:\n\n%(items)s"
+
+msgid "notifications/newRewardsReceived/text"
+msgstr "Palkinto kokoelman elementtien keräämisestä saatu:\n\n%(items)s"
+
+msgid "notifications/renew/text"
+msgstr "Kokoelma saatavilla"
+
+msgid "notifications/renew/title"
+msgstr "%(feature)s, %(season)s"
+
+msgid "notifications/season/battle_pass_10"
+msgstr "KAUSI X"
+
+msgid "notifications/season/battle_pass_11"
+msgstr "KAUSI XI"
+
+msgid "notifications/season/battle_pass_12"
+msgstr "KAUSI XII"
+
+msgid "notifications/title/collectionName"
+msgstr "\"%(feature)s: %(season)s\" -kokoelma"
+
+msgid "notifications/title/congratulation"
+msgstr "Onneksi olkoon!"
+
+msgid "notifications/updatedEntry/text"
+msgstr "World of Tanksin kokoelmat"
+
+msgid "notifications/updatedEntry/title"
+msgstr "Palvelushistorian päivittäminen"
+
+msgid "overlays/preview/previewButton/text"
+msgstr "Esikatselu"
+
+msgid "overlays/preview/style/title/text"
+msgstr "%(styleName)s %(vehicleInfo) vaunulle"
+
+msgid "tooltips/item/achievement"
+msgstr "\"%(name)s\" -mitali"
+
+msgid "tooltips/receivedStatus"
+msgstr "Saatu"
+
+msgid "tooltips/title"
+msgstr "Kokoelman elementti"
+
+msgid "tooltips/unreceivedStatus"
+msgstr "Ei saatu"

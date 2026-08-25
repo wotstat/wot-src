@@ -1,0 +1,4475 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "Ο λογαριασμός σας ανακτήθηκε επιτυχώς."
+
+msgid "achievements/server_error"
+msgstr "Οι αλλαγές στη σειρά των πολύτιμων επάθλων δεν αποθηκεύτηκαν."
+
+msgid "actionAchievement/title"
+msgstr "Μετάλλιο Προσφοράς"
+
+msgid "actionAchievements/title"
+msgstr "Μετάλλια Προσφοράς"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "Σφάλμα στην εκπαίδευση ικανότητας. Λάθος όχημα."
+
+msgid "add_tankman_skill/server_error"
+msgstr "Αδύνατη η εκπαίδευση νέας ικανότητας.\nΟ server είναι προσωρινά μη διαθέσιμος. Δοκιμάστε ξανά αργότερα."
+
+msgid "add_tankman_skill/success"
+msgstr "Νέα ικανότητα: %(skill)s"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "Σφάλμα στην εκπαίδευση ικανότητας. Το όχημα είναι κλειδωμένο."
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "Σφάλμα στην εκπαίδευση ικανότητας. Επισκευάστε το όχημά σας."
+
+msgid "add_tankman_skills/server_error"
+msgstr "Αδύνατη η εκπαίδευση νέων ικανοτήτων.\nΟ server είναι προσωρινά μη διαθέσιμος. Δοκιμάστε ξανά αργότερα."
+
+msgid "add_tankman_skills/success"
+msgstr "Νέες ικανότητες: %(skill)s"
+
+msgid "another_periphery"
+msgstr "Είστε ακόμα συνδεδεμένος σε άλλο server."
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "Σφάλμα συμμετοχής σε μάχη: βρίσκεστε ήδη σε ομάδα."
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "Σφάλμα κατά την είσοδο στη μάχη: λάθος αριθμός ομάδας."
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "Σφάλμα συμμετοχής. Η λειτουργία έχει προσωρινά ανασταλεί. Δοκιμάστε ξανά αργότερα."
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "Αυτή η διοργάνωση είναι προσωρινά μη διαθέσιμη. Παρακολουθήστε τα τελευταία νέα στο portal του παιχνιδιού."
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "Σφάλμα συμμετοχής σε μάχη: η πρόσκληση έχει λήξη."
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "Σφάλμα συμμετοχής σε μάχη: δεν έχει δοθεί δικαίωμα."
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "Αδύνατη η είσοδος σε μάχη. Η αναμονή είναι προσωρινά μη διαθέσιμη. Προσπαθήστε ξανά αργότερα."
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "Μη διαθέσιμη ενέργεια. Η αναμονή είναι γεμάτη προσωρινά. Προσπαθήστε ξανά αργότερα."
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "Σφάλμα συμμετοχής σε μάχη: η ομάδα έχει ήδη σχηματιστεί."
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "Σφάλμα συμμετοχής σε μάχη: η σύνδεση έληξε."
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "Σφάλμα συμμετοχής: Δε διατίθεται για αυτό το Είδος Λογαριασμού."
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "Σφάλμα συμμετοχής σε μάχη."
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "Σφάλμα συμμετοχής: WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "Σφάλμα: η επιλεγμένη Ιστορική Μάχη δεν είναι διαθέσιμη."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "Η σύνδεση απέτυχε. Παρακαλούμε επιλέξτε τον server %s."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "Η σύνδεση απέτυχε. Παρακαλούμε επιλέξτε άλλο server."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "Σφάλμα στη συμμετοχή σε μάχη: το τρέχον όχημα δεν είναι έτοιμο."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "Σφάλμα: οχήματα αυτής της βαθμίδας δεν μπορούν να λάβουν μέρος σε αυτό το είδος μάχης."
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "Αδύνατη η συμμετοχή σε μάχη: το όχημα δεν είναι έτοιμο."
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "Αγοράστε ένα όχημα για να λάβετε μέρος σε μάχη."
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "Σφάλμα συμμετοχής σε μάχη (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "Σφάλμα συμμετοχής σε μάχη (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "Σφάλμα συμμετοχής σε μάχη (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "Σφάλμα συμμετοχής σε μάχη (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "Σφάλμα συμμετοχής σε μάχη (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "Σφάλμα συμμετοχής σε μάχη (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "Σφάλμα συμμετοχής σε μάχη (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "Σφάλμα συμμετοχής σε μάχη (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "Σφάλμα συμμετοχής σε μάχη (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "Σφάλμα συμμετοχής σε μάχη (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "Σφάλμα συμμετοχής σε μάχη (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "Ξεπεράστηκε ο μέγιστος χρόνος αναμονής για μάχη. Επιλέξτε άλλο όχημα ή προσπαθήστε αργότερα."
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" δεν ταιριάζει με το όχημα."
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "Λάθος όχημα. Το στοιχείο %(kind)s \"%(name)s\" δεν τοποθετήθηκε."
+
+msgid "artefact_apply/money_success"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" αποσυνδέθηκε από το όχημα. Κόστος %(money)s."
+
+msgid "artefact_apply/server_error"
+msgstr "Σφάλμα του server στην τοποθέτηση του στοιχείου %(kind)s \"%(name)s\". Προσπαθήστε ξανά αργότερα."
+
+msgid "artefact_apply/success"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" τοποθετήθηκε στο όχημα."
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "Το όχημα είναι κλειδωμένο. Το στοιχείο %(kind)s \"%(name)s\" δεν τοποθετήθηκε."
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "Το όχημα είναι χαλασμένο. Το στοιχείο %(kind)s \"%(name)s\" δεν τοποθετήθηκε. Επισκευάστε το όχημα και προσπαθήστε ξανά."
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" δεν ταιριάζει με το όχημα."
+
+msgid "artefact_buy/invalid_module"
+msgstr "Αδύνατη η αγορά του στοιχείου %(kind)s \"%(name)s\". Λάθος εξάρτημα."
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "Λάθος όχημα. Αδύνατη η αγορά και τοποθέτηση του στοιχείου %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "Αδύνατη η αγορά του στοιχείου %(kind)s \"%(name)s\". Όχι αρκετά credits."
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "Αδύνατη η αγορά του στοιχείου %(kind)s \"%(name)s\". Όχι αρκετά bonds."
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "Αδύνατη η αγορά του στοιχείου %(kind)s \"%(name)s\". Όχι αρκετά Anniversary Coins."
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "Αδύνατη η αγορά του στοιχείου %(kind)s \"%(name)s\". Όχι αρκετό gold."
+
+msgid "artefact_buy/server_error"
+msgstr "Αδύνατη η αγορά του στοιχείου %(kind)s \"%(name)s\". Προσπαθήστε ξανά αργότερα."
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "Μη δυνατή η αγορά του στοιχείου %(kind)s \"%(name)s\". Ο server είναι προσωρινά μη διαθέσιμος."
+
+msgid "artefact_buy/success"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" αγοράστηκε με επιτυχία (%(count)s τεμάχια). Κόστος %(money)s."
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "Όχημα κλειδωμένο. Αδύνατη η αγορά και τοποθέτηση του στοιχείου %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "Αδύνατη η αγορά και τοποθέτηση του στοιχείου %(kind)s \"%(name)s\". Επισκευάστε το όχημα και προσπαθήστε ξανά."
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "Αδύνατη η αποσυναρμολόγηση του εξοπλισμού %(name)s. Λάθος εξάρτημα."
+
+msgid "artefact_deconstructing/server_error"
+msgstr "Αδύνατη η αποσυναρμολόγηση του εξοπλισμού %(name)s. Προσπαθήστε ξανά αργότερα."
+
+msgid "artefact_deconstructing/success"
+msgstr "Αποσυναρμολόγηση εξοπλισμού: %(name)s (%(count)s τεμάχια). Παραλάβατε %(money)s."
+
+msgid "artefact_deconstructingMult/success"
+msgstr "Αποσυναρμολόγηση εξοπλισμού: %(names)s. Παραλάβατε %(money)s."
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "Ο εξοπλισμός '%(equipment)s' δεν αποσυνδέθηκε. Ανεπαρκείς πόροι."
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "Λάθος όχημα. Το στοιχείο %(kind)s \"%(name)s\" δεν καταστράφηκε."
+
+msgid "artefact_destroy/server_error"
+msgstr "Σφάλμα του server στην καταστροφή του στοιχείου %(kind)s \"%(name)s\". Προσπαθήστε ξανά αργότερα."
+
+msgid "artefact_destroy/success"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" καταστράφηκε κατά την αποσύνδεση."
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "Το όχημα είναι κλειδωμένο. Το στοιχείο %(kind)s \"%(name)s\" δεν καταστράφηκε."
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "Το όχημα είναι χαλασμένο. Το στοιχείο %(kind)s \"%(name)s\" δεν καταστράφηκε. Επισκευάστε το όχημα και προσπαθήστε ξανά."
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" αποσυνδέθηκε από το όχημα. Καταναλώσατε 1 Κυτίο Αποσύνδεσης."
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "Το αναλώσιμο \"%s\" έχει σταλεί στην Αποθήκη εξαιτίας της ασυμβατότητάς του με το τρέχον εξάρτημα."
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "Λάθος όχημα. Το στοιχείο %(kind)s \"%(name)s\" δεν αποσυνδέθηκε."
+
+msgid "artefact_remove/money_success"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" αποσυνδέθηκε από το όχημα. Κόστος %(money)s."
+
+msgid "artefact_remove/server_error"
+msgstr "Σφάλμα του server στην αποσύνδεση του στοιχείου %(kind)s \"%(name)s\". Προσπαθήστε ξανά αργότερα."
+
+msgid "artefact_remove/success"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" αποσυνδέθηκε από το όχημα."
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "Το όχημα είναι κλειδωμένο. Το στοιχείο %(kind)s \"%(name)s\" δεν αποσυνδέθηκε."
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "Το όχημα είναι χαλασμένο. Ο %(kind)s \"%(name)s\" δεν αποσυνδέθηκε. Επισκευάστε το όχημα και προσπαθήστε ξανά."
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "Ο %(kind)s \"%(name)s\" αποσυνδέθηκε δωρεάν από το όχημά σας χάρη στην ενεργή συνδρομή σας στο WoT Plus."
+
+msgid "artefact_sell/invalid_module"
+msgstr "Αδύνατη η πώληση του στοιχείου %(kind)s \"%(name)s\". Λάθος εξάρτημα."
+
+msgid "artefact_sell/server_error"
+msgstr "Αδύνατη η πώληση του στοιχείου %(kind)s \"%(name)s\". Προσπαθήστε ξανά αργότερα."
+
+msgid "artefact_sell/success"
+msgstr "%(kind)s \"%(name)s\" (%(count)s τεμάχια). Λάβατε %(money)s."
+
+msgid "artefact_upgrade/server_error"
+msgstr "Σφάλμα στην βελτίωση του εξοπλισμού. Προσπαθήστε ξανά αργότερα."
+
+msgid "artefact_upgrade/success"
+msgstr "Ο %(kind)s \"%(name)s\" βελτιώθηκε επιτυχώς. Τα χαρακτηριστικά του αναβαθμίστηκαν. Κόστος: %(money)s."
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "Ο %(kind)s %(name)s αναβαθμίστηκε επιτυχώς και τα χαρακτηριστικά του βελτιώθηκαν. Κόστος %(money)s.\n\nΟ παρόμοιος εξοπλισμός από το εναλλακτικό σετ στάλθηκε στην Αποθήκη."
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "Το όχημα είναι χαλασμένο. Το στοιχείο %(kind)s \"%(name)s\" δεν βελτιώθηκε. Επισκευάστε το όχημα και προσπαθήστε ξανά."
+
+msgid "badges/select/server_error"
+msgstr "Σφάλμα Server"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "Μη διαθέσιμη ενέργεια. Παρακαλούμε περιμένετε μέχρι να ολοκληρωθεί η τρέχουσα λειτουργία."
+
+msgid "battle/request/SEND_INVITES"
+msgstr "Αποστολή Προσκλήσεων"
+
+msgid "battleAbilities_apply/error"
+msgstr "Σφάλμα στη διαμόρφωση των Εφεδρειών. Προσπαθήστε ξανά αργότερα."
+
+msgid "battleBooster_buy/credits_error"
+msgstr "Αποτυχία στην αγορά του στοιχείου %(kind)s \"%(name)s\". Όχι αρκετά credits."
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "Αποτυχία στην αγορά του στοιχείου %(kind)s \"%(name)s\". Όχι αρκετά bonds."
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" δεν ταιριάζει με το όχημα."
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "Αδύνατη η αγορά του στοιχείου %(kind)s \"%(name)s\". Όχι αρκετά Anniversary Coins."
+
+msgid "battleBooster_buy/gold_error"
+msgstr "Αποτυχία στην αγορά του στοιχείου %(kind)s \"%(name)s\". Όχι αρκετό gold."
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "Αποτυχία στην αγορά του στοιχείου %(kind)s \"%(name)s\". Λάθος εξάρτημα."
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "Αποτυχία στην αγορά και τοποθέτηση του στοιχείου %(kind)s \"%(name)s\". Λάθος όχημα."
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "Αποτυχία στην αγορά του στοιχείου %(kind)s \"%(name)s\". Όχι αρκετά credits."
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "Αποτυχία στην αγορά του στοιχείου %(kind)s \"%(name)s\". Ανεπαρκή bonds."
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "Αδύνατη η αγορά του στοιχείου %(kind)s \"%(name)s\". Όχι αρκετά Anniversary Coins."
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "Αποτυχία στην αγορά του στοιχείου %(kind)s \"%(name)s\". Όχι αρκετό gold."
+
+msgid "battleBooster_buy/server_error"
+msgstr "Η λειτουργία των οδηγιών είναι προσωρινά μη διαθέσιμη εξαιτίας εργασιών συντήρησης."
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "Αποτυχία στην αγορά του στοιχείου %(kind)s \"%(name)s\". Ο server είναι προσωρινά μη διαθέσιμος."
+
+msgid "battleBooster_buy/success"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" αγοράστηκε επιτυχώς (%(count)s τεμάχια). Κόστος %(money)s."
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "Το όχημα είναι κλειδωμένο. Αποτυχία στην αγορά και τοποθέτηση του στοιχείου %(kind)s \"%(name)s\"."
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "Αποτυχία στην αγορά και τοποθέτηση του στοιχείου %(kind)s \"%(name)s\". Επισκευάστε το όχημα και προσπαθήστε ξανά."
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "battleBooster_sell/server_error"
+msgstr "Η λειτουργία των οδηγιών είναι προσωρινά μη διαθέσιμη εξαιτίας εργασιών συντήρησης."
+
+msgid "battleBooster_sell/success"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" πωλήθηκε με επιτυχία (%(count)s τεμάχια). Λάβατε %(money)s."
+
+msgid "battleBoosters_apply/error"
+msgstr "Σφάλμα στη λειτουργία των οδηγιών. Προσπαθήστε ξανά αργότερα."
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "Σφάλμα στη λειτουργία των οδηγιών. Ανεπαρκείς πόροι για την αγορά τους."
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την επαναφορά λειτουργίας του WG Wallet."
+
+msgid "battlePass/activateChapter/success"
+msgstr "Το Κεφάλαιο %(chapter)s ενεργοποιήθηκε"
+
+msgid "battlePass/extraFinish/body"
+msgstr "Η διοργάνωση %(name)s τελείωσε. Σας ευχαριστούμε για τη συμμετοχή σας!"
+
+msgid "battlePass/extraFinish/header"
+msgstr "Battle Pass: Κεφάλαιο \"%(name)s\""
+
+msgid "battlePass/extraStarted/body"
+msgstr "Μέσα στο Battle Pass, ξεκίνησε η διοργάνωση %(name)s, από την οποία μπορείτε να κερδίσετε ένα ειδικό έπαθλο!"
+
+msgid "battlePass/extraStarted/header"
+msgstr "Battle Pass: Ένα Νέο Κεφάλαιο Είναι Διαθέσιμο!"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "Ο διαθέσιμος χρόνος για την ολοκλήρωση του Κεφαλαίου \"%(name)s\" κοντεύει να τελειώσει. Μην χάνετε χρόνο!"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "Battle Pass: Κεφάλαιο \"%(name)s\""
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "Μην ξεχνάτε ότι μπορείτε να κερδίζετε Πόντους Battle Pass και στις Μάχες Κατάταξης!"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "Μην ξεχνάτε ότι μπορείτε να κερδίζετε Πόντους Battle Pass και στην Πρώτη Γραμμή!"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "Μην ξεχνάτε ότι μπορείτε να κερδίζετε Πόντους Battle Pass και στην Αποστολή Ανίχνευσης!"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "Μην ξεχνάτε ότι μπορείτε να κερδίζετε Πόντους Battle Pass και στις μάχες Επέλασης!"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "Battle Pass Περίοδος %(seasonNum)d"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "Σφάλμα στην επιλογή των επάθλων. Προσπαθήστε ξανά αργότερα."
+
+msgid "battlePass/seasonEnd/text"
+msgstr "Η Περίοδος του Battle Pass τελείωσε. Σας απονεμήθηκαν όλα τα προκαθορισμένα έπαθλα γι όσα έπαθλα δεν επιλέξατε κατά τη διάρκεια της Περιόδου:"
+
+msgid "battlePass/switchChapter/error"
+msgstr "Σφάλμα στην επιλογή του Κεφαλαίου. Προσπαθήστε ξανά."
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "Επιλέξτε ένα Κεφάλαιο. Μπορείτε να αλλάξετε σε κάποιο άλλο Κεφάλαιο ανά πάσα στιγμή."
+
+msgid "battlePass/switchChapter/success"
+msgstr "Αλλάξατε Κεφάλαιο. Το Κεφάλαιο %(chapter)s είναι πλέον ενεργό."
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "Το Battle Pass είναι προσωρινά μη διαθέσιμο στο Steel Hunter εξαιτίας εργασιών συντήρησης. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "Προσωρινά, δεν μπορείτε να κερδίσετε Πόντους Battle Pass στις μάχες Επέλασης εξαιτίας εργασιών συντήρησης."
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "Προσωρινά, δεν μπορείτε να κερδίσετε Πόντους Battle Pass στις μάχες Ελαφράς Επέλασης εξαιτίας εργασιών συντήρησης."
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "Το Battle Pass είναι προσωρινά μη διαθέσιμο στις μάχες Πρώτης Γραμμής εξαιτίας εργασιών συντήρησης."
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "Το Battle Pass είναι προσωρινά μη διαθέσιμο στις Μάχες Κατάταξης εξαιτίας εργασιών συντήρησης."
+
+msgid "battlePass/switch_enabled/body"
+msgstr "Το Battle Pass είναι και πάλι διαθέσιμο. Λυπούμαστε για την ταλαιπωρία.\nΕπέκταση Περιόδου μέχρι: %(expiryTime)s."
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "Μπορείτε και πάλι να κερδίσετε Πόντους Battle Pass στις μάχες Επέλασης. Λυπούμαστε για την όποια ταλαιπωρία."
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "Μπορείτε και πάλι να κερδίσετε Πόντους Battle Pass στις μάχες Ελαφράς Επέλασης. Λυπούμαστε για την όποια ταλαιπωρία."
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "Το Battle Pass είναι και πάλι διαθέσιμο στις μάχες Πρώτης Γραμμής. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "Το Battle Pass είναι και πάλι διαθέσιμο στις Μάχες Κατάταξης. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "battlePass/switch_pause/body"
+msgstr "Το Battle Pass είναι προσωρινά μη διαθέσιμο εξαιτίας εργασιών συντήρησης."
+
+msgid "battlePass/switch_started/body"
+msgstr "Ήρθε ξανά η ώρα να διεκδικήσετε τα μοναδικά έπαθλα του Battle Pass!"
+
+msgid "battlePass/switch_started/title"
+msgstr "Battle Pass Περίοδος %(seasonNum)d"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "Battle Pass: %(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "Το Battle Pass τελείωσε. Σας απονεμήθηκαν όλα τα προκαθορισμένα έπαθλα γι αυτά που δεν επιλέξατε:"
+
+msgid "battlePassH/switch_disable/body"
+msgstr "Λήξη Κεφαλαίου. Ραντεβού την επόμενη φορά!"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "Battle Pass: %(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "Το Battle Pass είναι και πάλι διαθέσιμο. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "battlePassH/switch_started/body"
+msgstr "Αγαπητοί αρματιστές, όπως θα διαπιστώσετε, αυτό είναι ένα Ειδικό Κεφάλαιο του Battle Pass.\n\nΑπό την ολοκλήρωση των Φάσεων Προόδου θα κερδίσετε ένα Προνομιακό Όχημα μαζί με μία αποκλειστική τεχνοτροπία 3D, στοιχεία προσαρμογής και άλλα πολλά!"
+
+msgid "battlePassH/switch_started/title"
+msgstr "Battle Pass: %(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "Σφάλμα στην αγορά των Φάσεων Προόδου. Προσπαθήστε ξανά αργότερα."
+
+msgid "battlePass_buy/server_error"
+msgstr "Σφάλμα στην αγορά του Improved Pass. Προσπαθήστε ξανά αργότερα."
+
+msgid "battleResults/sharing/success"
+msgstr "Ο σύνδεσμος έχει αποθηκευτεί στο clipboard. Μπορείτε να κάνετε επικόλληση πιέζοντας Ctrl+V ή να το χρησιμοποιήσετε εκτός παιχνιδιού."
+
+msgid "battleSession/kickedFromQueue"
+msgstr "Μη δυνατή η εύρεση αντιπάλων για την τρέχουσα Ίλη Αρμάτων. Δοκιμάστε να ξαναφτιάξετε την ομάδα σας."
+
+msgid "battleSession/memberJoined"
+msgstr "%s μπήκε στην ομάδα."
+
+msgid "battleSession/memberLeave"
+msgstr "%s έφυγε από την ομάδα."
+
+msgid "battleSession/memberNotReady"
+msgstr "%s δεν είναι έτοιμος για μάχη με την ομάδα."
+
+msgid "battleSession/memberOffline"
+msgstr "Η σύνδεση διακόπηκε με τον %s."
+
+msgid "battleSession/memberReady"
+msgstr "%s είναι έτοιμος για μάχη με την ομάδα."
+
+msgid "battlesession/error/AddObserver"
+msgstr "Μέγιστος αριθμός θεατών ανά ομάδα: %(numPlayers)s."
+
+msgid "battlesession/error/AddPlayer"
+msgstr "Μέγιστος αριθμός παικτών ανά ομάδα: %(numPlayers)s."
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "Όχι αρκετές αρμοδιότητες για μετακίνηση άλλων παικτών."
+
+msgid "battlesession/error/Limits"
+msgstr "Υπέρβαση του μέγιστου αριθμού παικτών ανά ομάδα."
+
+msgid "blueprints/conversion/disable"
+msgstr "Όχι αρκετά τμήματα προς μετατροπή."
+
+msgid "blueprints/conversion/error"
+msgstr "Ο server είναι προσωρινά μη διαθέσιμος. Δοκιμάστε ξανά αργότερα."
+
+msgid "blueprints/switch_off"
+msgstr "Σχέδια οχημάτων: προσωρινά μη διαθέσιμα. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "blueprints/switch_on"
+msgstr "Τα σχέδια οχημάτων είναι διαθέσιμα και πάλι."
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "Μη διαθέσιμη ενέργεια. Προσωπικό Απόθεμα ήδη σε χρήση."
+
+msgid "booster_activate/DISABLED"
+msgstr "Αδύνατη η ενεργοποίηση Προσωπικού Αποθέματος. Μη διαθέσιμη ενέργεια."
+
+msgid "booster_activate/EXCEPTION"
+msgstr "Αδύνατη η ενεργοποίηση Προσωπικού Αποθέματος. Μη διαθέσιμη ενέργεια."
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "Μη διαθέσιμη ενέργεια. Δεν υπάρχει διαθέσιμο ή δεν επιλέχθηκε Προσωπικό Απόθεμα."
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "Αδύνατη η ενεργοποίηση Προσωπικού Αποθέματος. Μη διαθέσιμη ενέργεια."
+
+msgid "booster_activate/server_error"
+msgstr "Αδύνατη η ενεργοποίηση Προσωπικού Αποθέματος. Προσπαθήστε ξανά αργότερα."
+
+msgid "booster_activate/success"
+msgstr "Το Προσωπικό Απόθεμα \"%(boosterName)s\" ενεργοποιήθηκε. Χρόνος που απομένει: %(time)s."
+
+msgid "booster_buy/not_enough_credits"
+msgstr "Αδύνατη η αγορά του Προσωπικού Αποθέματος \"%(boosterName)s\". Όχι αρκετά credits."
+
+msgid "booster_buy/not_enough_gold"
+msgstr "Αδύνατη η αγορά του Προσωπικού Αποθέματος \"%(boosterName)s\". Όχι αρκετό gold."
+
+msgid "booster_buy/server_error"
+msgstr "Αδύνατη η αγορά του Προσωπικού Αποθέματος \"%(boosterName)s\"."
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "Αδύνατη η αγορά του Προσωπικού Αποθέματος \"%(boosterName)s\". Ο server είναι προσωρινά μη διαθέσιμος."
+
+msgid "booster_buy/success"
+msgstr "Το Προσωπικό Απόθεμα \"%(boosterName)s\" αγοράστηκε επιτυχώς (%(count)s τεμάχια). Κόστος %(money)s."
+
+msgid "booster_buy/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "booster_sell/server_error"
+msgstr "Αδύνατη η πώληση του Προσωπικού Αποθέματος \"%(boosterName)s\". Προσπαθήστε ξανά αργότερα."
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "Αδύνατη η πώληση του Προσωπικού Αποθέματος \"%(boosterName)s\". Προσπαθήστε ξανά αργότερα."
+
+msgid "booster_sell/success"
+msgstr "Το Προσωπικό Απόθεμα \"%(boosterName)s\" πωλήθηκε επιτυχώς (%(count)s τεμάχια). Λάβατε %(money)s."
+
+msgid "buttons/goToPoll"
+msgstr "Ψηφοφορία"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "Αδύνατη η στρατολόγηση και μεταφορά του μέλους του πληρώματος: το όχημα έχει μοναδικό μόνιμο πλήρωμα."
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "Έχετε φτάσει στο ανώτατο όριο της ημέρας για δωρεάν μέλη πληρώματος."
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "Αδύνατη η στρατολόγηση και μεταφορά μέλους του πληρώματος. Λάθος όχημα."
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "Αδύνατη η στρατολόγηση και μεταφορά μέλους του πληρώματος. Όχι αρκετά credits."
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "Αδύνατη η στρατολόγηση και μεταφορά μέλους του πληρώματος. Όχι αρκετό gold."
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "Αδύνατη η στρατολόγηση και μεταφορά μέλους του πληρώματος. Προσπαθήστε ξανά αργότερα."
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "Αδύνατη η στρατολόγηση και μεταφορά μέλους του πληρώματος. Το όχημα είναι κλειδωμένο."
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "Αδύνατη η στρατολόγηση και μεταφορά του μέλους του πληρώματος: το όχημα έχει μοναδικό μόνιμο πλήρωμα."
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "Έχετε φτάσει στο ανώτατο όριο της ημέρας για δωρεάν μέλη πληρώματος."
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "Αδύνατη η στρατολόγηση και η αντικατάσταση μέλους του πληρώματος. Λάθος όχημα."
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "Αδύνατη η στρατολόγηση και επανατοποθέτηση μέλους του πληρώματος. Όχι αρκετά credits."
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "Αδύνατη η στρατολόγηση και επανατοποθέτηση μέλους του πληρώματος. Όχι αρκετό gold."
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "Αδύνατη η στρατολόγηση και η αντικατάσταση μέλους του πληρώματος. Για να στρατολογήσετε ένα μέλος πληρώματος χρειάζεστε μία διαθέσιμη κλίνη. Παρακαλούμε ελευθερώστε μία κλίνη ή αγοράστε πρόσθετες κλίνες στον Στρατώνα."
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "Αδύνατη η στρατολόγηση και επανατοποθέτηση μέλους του πληρώματος. Προσπαθήστε ξανά αργότερα."
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "Αδύνατη η στρατολόγηση και η αντικατάσταση μέλους του πληρώματος. Το όχημα είναι κλειδωμένο."
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "Έχετε φτάσει το όριο για αγορά δωρεάν οχημάτων. Προσπαθήστε ξανά αύριο."
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "Σφάλμα στην επέκταση του Στρατώνα. Όχι αρκετά credits."
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "Σφάλμα στην επέκταση του Στρατώνα. Όχι αρκετό gold."
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "Αδύνατη η επέκταση του Στρατώνα. Προσπαθήστε ξανά αργότερα."
+
+msgid "buy_tankmen_berths/success"
+msgstr "Ο Στρατώνας επεκτάθηκε.\nΚόστος σε gold: %(money)s."
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "buy_vehicle_slot_error"
+msgstr "Αδύνατη η αγορά του \"%s\". Δεν υπάρχουν διαθέσιμες θέσεις στο Γκαράζ. Δοκιμάστε να πουλήσετε ένα όχημα για να ελευθερώσετε θέση, ή αγοράστε μία νέα θέση."
+
+msgid "buy_vehicle_slot_error2"
+msgstr "Αδύνατη η αγορά του \"%s\". Δεν υπάρχουν διαθέσιμες θέσεις στο Γκαράζ. Ελευθερώστε μία θέση."
+
+msgid "challenges/activate/serverError"
+msgstr "Αδύνατη η ενεργοποίηση των αποστολών Crucible. Προσπαθήστε ξανά αργότερα."
+
+msgid "challenges/activate/success/text"
+msgstr "Η πρώτη αποστολή αυτής της σειράς είναι διαθέσιμη. Μπείτε στη μάχη και ανταποκριθείτε στην πρόκληση!"
+
+msgid "challenges/activate/success/title"
+msgstr "Η αποστολή Crucible: %(challengeName)s ενεργοποιήθηκε!"
+
+msgid "challenges/challengeEnd/button"
+msgstr "Στο Crucible"
+
+msgid "challenges/challengeEnd/text"
+msgstr "Ολοκληρώστε τη τώρα για να λάβετε τα έπαθλα."
+
+msgid "challenges/challengeEnd/title"
+msgstr "Πλησιάζει η λήξη των αποστολών Crucible!"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "Συγχαρητήρια!"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "Ολοκληρώσατε την αποστολή Crucible: %(challengeName)s! Λάβατε:"
+
+msgid "challenges/formatter/spent/credits"
+msgstr "Κόστος σε credits:"
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "Κόστος σε bonds:"
+
+msgid "challenges/formatter/spent/gold"
+msgstr "Κόστος σε gold:"
+
+msgid "challenges/restart/free/text"
+msgstr "Χρησιμοποιήσατε μία δωρεάν επανεκκίνηση. Η πρόοδος της αποστολής μηδενίστηκε."
+
+msgid "challenges/restart/free/title"
+msgstr "Έγινε δωρεάν επανεκκίνηση της αποστολής Crucible: %(challengeName)s"
+
+msgid "challenges/restart/paid/title"
+msgstr "Έγινε επανεκκίνηση της αποστολής Crucible: %(challengeName)s"
+
+msgid "challenges/restart/serverError"
+msgstr "Αδύνατη η επανεκκίνηση των αποστολών Crucible. Προσπαθήστε ξανά αργότερα."
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "Μη διαθέσιμη ενέργεια. Παρακαλούμε περιμένετε μέχρι να ολοκληρωθεί η τρέχουσα λειτουργία."
+
+msgid "challenges/surrender/serverError"
+msgstr "Αδύνατη η εγκατάλειψη των αποστολών Crucible. Προσπαθήστε ξανά αργότερα."
+
+msgid "challenges/surrender/success/text"
+msgstr "Εγκαταλείψατε την αποστολή Crucible: %(challengeName)s. Αποτύχατε στην ολοκλήρωση της σειράς των αποστολών."
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "Αδύνατη η αλλαγή ειδικότητας του μέλους του πληρώματος: το όχημα έχει μοναδικό μόνιμο πλήρωμα."
+
+msgid "change_tankman_role/invalid_role"
+msgstr "Αδύνατη η αλλαγή ειδικότητας. Προσπαθήστε ξανά αργότερα."
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "Αδύνατη η αλλαγή ειδικότητας. Λάθος όχημα."
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "Το όχημα δεν βρίσκεται στο Γκαράζ. Το μέλος του πληρώματος με τη νέα ειδικότητα θα σταλεί στον Στρατώνα."
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "Αδύνατη η αλλαγή της ειδικότητας του μέλους του πληρώματος. Όχι αρκετά credits."
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "Αδύνατη η αλλαγή της ειδικότητας του μέλους του πληρώματος. Όχι αρκετό gold."
+
+msgid "change_tankman_role/server_error"
+msgstr "Αδύνατη η αλλαγή ειδικότητας.\nΠροσπαθήστε ξανά αργότερα."
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "Υπάρχει ήδη %(role)s στο %(vehicle)s. Το μέλος του πληρώματος με τη νέα ειδικότητα θα σταλεί στον Στρατώνα."
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "Αδύνατη η αλλαγή της ειδικότητας. Προσπαθήστε αργότερα."
+
+msgid "charge/credits_error"
+msgstr "%s credits και %s gold απαιτούνται. Καθορίστε τα πυρομαχικά χειροκίνητα."
+
+msgid "charge/credits_error_credits"
+msgstr "%s παραπάνω credits απαιτούνται. Καθορίστε τα πυρομαχικά χειροκίνητα."
+
+msgid "charge/credits_error_gold"
+msgstr "Απαιτείται %s παραπάνω gold. Ορίστε τα πυρομαχικά χειροκίνητα."
+
+msgid "charge/inventory_error"
+msgstr "Δεν έγινε φόρτωση πυρομαχικών στο %(vehicle)s. Φορτώστε τα πυρομαχικά χειροκίνητα."
+
+msgid "charge/money_spent"
+msgstr "%s συνολικό κόστος για πυρομαχικά."
+
+msgid "charge/server_error"
+msgstr "Σφάλμα φόρτωσης πυρομαχικών. Δοκιμάστε ξανά αργότερα."
+
+msgid "charge/server_error_save"
+msgstr "Σφάλμα αποθήκευσης πυρομαχικών. Δοκιμάστε ξανά αργότερα."
+
+msgid "charge/success"
+msgstr "Τα πυρομαχικά φορτώθηκαν με επιτυχία."
+
+msgid "charge/success_save"
+msgstr "Τα πυρομαχικά αποθηκεύτηκαν με επιτυχία."
+
+msgid "checkout_error"
+msgstr "Σφάλμα λήψης λεπτομερειών παίκτη. Δοκιμάστε ξανά αργότερα."
+
+msgid "clans/isClanProfileDisabled"
+msgstr "Μη διαθέσιμη ενέργεια. Προσπαθήστε ξανά αργότερα."
+
+msgid "clans/notifications/accept"
+msgstr "Αποδοχή"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "Η πρόσκληση στο clan απεστάλη ήδη στον %(userName)s."
+
+msgid "clans/notifications/decline"
+msgstr "Απόρριψη"
+
+msgid "clans/notifications/from"
+msgstr "από τον %(user)s"
+
+msgid "clans/notifications/info"
+msgstr "Προβολή λεπτομερειών του clan"
+
+msgid "clans/notifications/invite"
+msgstr "Πρόσκληση στο Clan"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "Η πρόσκληση του clan έγινε αποδεκτή."
+
+msgid "clans/notifications/invite/declined"
+msgstr "Η πρόσκληση του clan απορρίφθηκε."
+
+msgid "clans/notifications/invite/expired"
+msgstr "Η πρόσκληση του clan δεν είναι έγκυρη."
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "Ο %(nameStartTag)s%(name)s%(nameEndTag)s απεδέχθη την πρόσκληση του clan."
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "Ο %(nameStartTag)s%(name)s%(nameEndTag)s απέρριψε την πρόσκληση του clan."
+
+msgid "clans/notifications/inviteSendError"
+msgstr "Αδύνατη η αποστολή πρόσκλησης για το clan στον %(userName)s."
+
+msgid "clans/notifications/inviteSent"
+msgstr "Η πρόσκληση στο clan απεστάλη στον %(userName)s."
+
+msgid "clans/notifications/invites"
+msgstr "Προσκλήσεις του clan: %(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "Απενεργοποίηση ειδοποιήσεων"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "Προβολή Προσκλήσεων"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "Δεν έγινε η αποστολή των προσκλήσεων για το clan σε %(userCount)d παίκτες."
+
+msgid "clans/notifications/invitesSent"
+msgstr "Έγινε η αποστολή προσκλήσεων σε %(userCount)d παίκτες."
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "Γίνατε δεκτός στο clan\n%(nameStartTag)s%(name)s%(nameEndTag)s."
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "Η αίτησή σας στο clan\n%(nameStartTag)s%(name)s%(nameEndTag)s απορρίφθηκε."
+
+msgid "clans/notifications/request"
+msgstr "Αίτηση στο clan"
+
+msgid "clans/notifications/request/accepted"
+msgstr "Η αίτηση έγινε αποδεκτή."
+
+msgid "clans/notifications/request/declined"
+msgstr "Η αίτηση απορρίφθηκε."
+
+msgid "clans/notifications/requestSent"
+msgstr "Η αίτηση υπεβλήθη στο clan:\n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "Προσκλήσεις από παίκτες: %(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "Προβολή Αιτήσεων"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "Ο %(userName)s έχει ήδη προσκληθεί στο clan σας."
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "Μη διαθέσιμη ενέργεια. Ο παίκτης δεν συνάδει με τις προδιαγραφές των νεοσύλλεκτων."
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "Η ποινή για 1 ημέρα εξαιτίας της αποχώρησης από το προηγούμενο clan δεν έχει λήξει ακόμα."
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "Μη διαθέσιμη ενέργεια. Εσφαλμένος λογαριασμός."
+
+msgid "clans/request/errors/Account is banned"
+msgstr "Μη διαθέσιμη ενέργεια. Ο λογαριασμός είναι αποκλεισμένος."
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "Αυτός ο παίκτης είναι ήδη μέλος σε clan."
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "Μη διαθέσιμη ενέργεια. Ο παίκτης δεν είναι μέλος σε clan."
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "Μη διαθέσιμη ενέργεια. Η αίτηση δεν υφίσταται."
+
+msgid "clans/request/errors/Application is not active"
+msgstr "Μη διαθέσιμη ενέργεια. Η αίτηση έληξε."
+
+msgid "clans/request/errors/Bad request"
+msgstr "Μη διαθέσιμη ενέργεια. Προσπαθήστε ξανά αργότερα."
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "Ανεπαρκείς αρμοδιότητες για αποστολή πρόσκλησης για το clan."
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "Η στρατολόγηση του clan έχει κλείσει."
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "Το clan είναι πλήρες."
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "Μη διαθέσιμη ενέργεια. Το clan δεν υφίσταται."
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "Μη διαθέσιμη ενέργεια. Το clan είναι πλήρες."
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "Μη διαθέσιμη ενέργεια. Το clan διαλύθηκε."
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "Μη διαθέσιμη ενέργεια. Το clan είναι ανενεργό."
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "Μη διαθέσιμη ενέργεια. Προσπαθήστε ξανά αργότερα."
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "Μη διαθέσιμη ενέργεια. Προσπαθήστε ξανά αργότερα."
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "Μη διαθέσιμη ενέργεια για λογαριασμούς αυτού του τύπου."
+
+msgid "clans/request/errors/Forbidden"
+msgstr "Μη διαθέσιμη ενέργεια. Έχετε ανεπαρκείς αρμοδιότητες."
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "Μη διαθέσιμη ενέργεια. Προσπαθήστε ξανά αργότερα."
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "Μη διαθέσιμη ενέργεια. Η πρόσκληση δεν υφίσταται."
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "Μη διαθέσιμη ενέργεια. Η πρόσκληση έληξε."
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "Μη διαθέσιμη ενέργεια. Προσπαθήστε ξανά αργότερα."
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "Μη διαθέσιμη ενέργεια. Προσπαθήστε ξανά αργότερα."
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "Μη διαθέσιμη ενέργεια. Το Οχυρό δεν είναι διαθέσιμο."
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "Μη διαθέσιμη ενέργεια. Έχει υποβληθεί ο μέγιστος αριθμός αιτήσεων."
+
+msgid "clans/request/errors/Too many invites"
+msgstr "Μη διαθέσιμη ενέργεια. Έχει αποσταλεί ο μέγιστος αριθμός προσκλήσεων."
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "Μη διαθέσιμη ενέργεια. Προσπαθήστε ξανά αργότερα."
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "Μη διαθέσιμη ενέργεια. Προσπαθήστε ξανά αργότερα."
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "Μη διαθέσιμη ενέργεια. Προσπαθήστε ξανά αργότερα."
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "Μη διαθέσιμη ενέργεια. Προσπαθήστε ξανά αργότερα."
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "Ο %(userName)s είναι ήδη μέλος ενός clan."
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "Το στοιχείο %s \"%s\" δεν ταιριάζει στο όχημα."
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "Το στοιχείο %s \"%s\" δε ταιριάζει στον πυργίσκο. Αντικαταστήστε τον πυργίσκο."
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "Το στοιχείο %s \"%s\" είναι λανθασμένου τύπου."
+
+msgid "clientInstallError_wrong_nation"
+msgstr "Το στοιχείο %s \"%s\" είναι λανθασμένου έθνους."
+
+msgid "clientRemoveError_not_in_list"
+msgstr "Το στοιχείο %s \"%s\" δεν ταιριάζει στο όχημα."
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "Το στοιχείο %s \"%s\" είναι λανθασμένου τύπου."
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "Το στοιχείο %s \"%s\" είναι λανθασμένου έθνους."
+
+msgid "client_inactive"
+msgstr "Client ανενεργός"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "Οι συλλογές είναι προσωρινά μη διαθέσιμες εξαιτίας προγραμματισμένης συντήρησης."
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "Συλλογές Μη Διαθέσιμες"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "Επήλθε λύση στα τεχνικά ζητήματα. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "Οι συλλογές είναι και πάλι διαθέσιμες"
+
+msgid "connected"
+msgstr "Καλώς ορίσατε στον server %s του World of Tanks!"
+
+msgid "consumables_apply/error"
+msgstr "Σφάλμα στη διαμόρφωση των αναλώσιμων. Προσπαθήστε ξανά αργότερα."
+
+msgid "consumables_apply/not_enough_money"
+msgstr "Σφάλμα στη διαμόρφωση των αναλώσιμων. Ανεπαρκείς πόροι για την αγορά τους."
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την επαναφορά λειτουργίας του WG Wallet."
+
+msgid "conversion/error"
+msgstr "Ο server είναι προσωρινά μη διαθέσιμος. Δοκιμάστε ξανά αργότερα."
+
+msgid "conversion/header"
+msgstr "Ημερομηνία: %(at)s\nΠροσθήκη:"
+
+msgid "conversion/success"
+msgstr "Αποστρατεύσεις μελών με ελλειπή εκπαίδευση: %(number)s"
+
+msgid "conversion/title"
+msgstr "Απόδειξη"
+
+msgid "conversionPerks/header"
+msgstr "Ημερομηνία: %(at)s\nΜετατροπή XP από ικανότητες πληρώματος πάνω από το όριο. Λάβατε: "
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "Τα απευθείας μηνύματα δεν είναι διαθέσιμα για παίκτες από τη χώρα σας."
+
+msgid "crewBooks/failed"
+msgstr "Αδύνατη η εκπαίδευση του πληρώματος.\nΠροσπαθήστε ξανά αργότερα."
+
+msgid "crewBooks/server_error"
+msgstr "Αδύνατη η εκπαίδευση μελών του πληρώματος εξαιτίας σφάλματος στον server. Προσπαθήστε ξανά αργότερα."
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s."
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "crewBooksNotification/success"
+msgstr "Εκπαίδευση πληρώματος.\nΚαταναλώθηκαν:"
+
+msgid "crewBooks_buy/server_error"
+msgstr "Αδύνατη η αγορά του Τόμου Πληρώματος εξαιτίας τεχνικών προβλημάτων του server. Προσπαθήστε ξανά αργότερα."
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s (%(count)s τεμάχια).\nΚόστος σε credits: %(money)s."
+
+msgid "crewBooks_sell/server_error"
+msgstr "Αδύνατη η πώληση του Τόμου Πληρώματος εξαιτίας τεχνικών προβλημάτων του server. Προσπαθήστε ξανά αργότερα."
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s (%(count)s τεμάχια).\nΛάβατε credits: %(money)s."
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "Αλλαγή προσώπων πληρώματος."
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "Προσθήκη προσώπων πληρώματος: %(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "Το τρέχον όχημα αντικαταστάθηκε με το %s."
+
+msgid "customization/added/attachment"
+msgstr "Παραλαβή 3D Προσαρτήματος %s"
+
+msgid "customization/added/attachmentValue"
+msgstr "Παραλαβή 3D Προσαρτήματος %s: (x%s)"
+
+msgid "customization/added/camouflage"
+msgstr "Προσθήκη καμουφλάζ \"%s\""
+
+msgid "customization/added/camouflageValue"
+msgstr "Προσθήκη καμουφλάζ \"%s\": (x%s)"
+
+msgid "customization/added/decal"
+msgstr "Προσθήκη χαλκομανίας \"%s\""
+
+msgid "customization/added/decalValue"
+msgstr "Προσθήκη χαλκομανίας \"%s\": (x%s)"
+
+msgid "customization/added/emblem"
+msgstr "Προσθήκη εμβλήματος \"%s\""
+
+msgid "customization/added/emblemValue"
+msgstr "Προσθήκη εμβλήματος \"%s\": (x%s)"
+
+msgid "customization/added/inscription"
+msgstr "Προσθήκη επιγραφής \"%s\""
+
+msgid "customization/added/inscriptionValue"
+msgstr "Προσθήκη επιγραφής \"%s\": (x%s)"
+
+msgid "customization/added/modification"
+msgstr "Προσθήκη εφέ \"%s\""
+
+msgid "customization/added/modificationValue"
+msgstr "Προσθήκη εφέ \"%s\": (x%s)"
+
+msgid "customization/added/paint"
+msgstr "Προσθήκη βαφής \"%s\""
+
+msgid "customization/added/paintValue"
+msgstr "Προσθήκη βαφής \"%s\": (x%s)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "Προσθήκη μονοψήφιου αριθμού \"%s\""
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "Προσθήκη μονοψήφιου αριθμού \"%s\": (x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "Προσθήκη διψήφιου αριθμού \"%s\""
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "Προσθήκη διψήφιου αριθμού \"%s\": (x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "Προσθήκη τριψήφιου αριθμού \"%s\""
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "Προσθήκη τριψήφιου αριθμού \"%s\": (x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "Προσθήκη χαλκομανίας \"%s\""
+
+msgid "customization/added/projectionDecalValue"
+msgstr "Προσθήκη χαλκομανίας \"%s\": (x%s)"
+
+msgid "customization/added/statTracker"
+msgstr "Προσθήκη Ένδειξης Στατιστικών: %s"
+
+msgid "customization/added/statTrackerValue"
+msgstr "Προσθήκη Ενδείξεων Στατιστικών: %s (x%s)"
+
+msgid "customization/added/style"
+msgstr "Προσθήκη τεχνοτροπίας %s"
+
+msgid "customization/added/styleValue"
+msgstr "Προσθήκη τεχνοτροπίας %s: (x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "Αδύνατη η προσαρμογή. Δεν επαρκούν τα credits και το gold."
+
+msgid "customization/credits_not_enough"
+msgstr "Αδύνατη η προσαρμογή. Δεν επαρκούν τα credits."
+
+msgid "customization/currency_not_enough"
+msgstr "Ανεπαρκείς πόροι για την αγορά του αντικειμένου."
+
+msgid "customization/gold_not_enough"
+msgstr "Αδύνατη η προσαρμογή. Δεν επαρκεί το gold."
+
+msgid "customization/igr_type_changed_error"
+msgstr "Το καθεστώς IGR άλλαξε. Η τρέχουσα λειτουργία ακυρώθηκε."
+
+msgid "customization/invalidVehicle"
+msgstr "Αδύνατη η τοποθέτηση: ακατάλληλο όχημα"
+
+msgid "customization/personal_number_prohibited"
+msgstr "Ο αριθμός %(value)s δεν είναι διαθέσιμος.\nΟ %(itemType)s%(itemName)s διαγράφηκε για τον χάρτη με %(seasonName)s."
+
+msgid "customization/progression/down/style"
+msgstr "Η τεχνοτροπία %s υποβαθμίστηκε στο Επίπεδο %s"
+
+msgid "customization/progression/up/style"
+msgstr "Η τεχνοτροπία %s αναβαθμίστηκε στο Επίπεδο %s"
+
+msgid "customization/prohibited"
+msgstr "Αδύνατη η εφαρμογή: το στοιχείο %(itemName)s δεν υπάρχει στο αποθεματικό σας."
+
+msgid "customization/removed/attachment"
+msgstr "Αφαίρεση 3D Προσαρτήματος %s"
+
+msgid "customization/removed/attachmentValue"
+msgstr "Αφαίρεση 3D Προσαρτήματος %s: (x%s)"
+
+msgid "customization/removed/camouflage"
+msgstr "Αφαίρεση καμουφλάζ \"%s\""
+
+msgid "customization/removed/camouflageValue"
+msgstr "Αφαίρεση καμουφλάζ \"%s\": (x%s)"
+
+msgid "customization/removed/decal"
+msgstr "Αφαίρεση χαλκομανίας \"%s\""
+
+msgid "customization/removed/decalValue"
+msgstr "Αφαίρεση χαλκομανίας \"%s\": (x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "Αφαίρεση εμβλήματος \"%s\""
+
+msgid "customization/removed/emblemValue"
+msgstr "Αφαίρεση εμβλήματος \"%s\": (x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "Αφαίρεση επιγραφής \"%s\""
+
+msgid "customization/removed/inscriptionValue"
+msgstr "Αφαίρεση επιγραφής \"%s\": (x%s)"
+
+msgid "customization/removed/modification"
+msgstr "Αφαίρεση εφέ \"%s\""
+
+msgid "customization/removed/modificationValue"
+msgstr "Αφαίρεση εφέ \"%s\": (x%s)"
+
+msgid "customization/removed/paint"
+msgstr "Αφαίρεση βαφής \"%s\""
+
+msgid "customization/removed/paintValue"
+msgstr "Αφαίρεση βαφής \"%s\": (x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "Αφαίρεση μονοψήφιου αριθμού \"%s\""
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "Αφαίρεση μονοψήφιου αριθμού \"%s\": (x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "Αφαίρεση διψήφιου αριθμού \"%s\""
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "Αφαίρεση διψήφιου αριθμού \"%s\": (x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "Αφαίρεση τριψήφιου αριθμού \"%s\""
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "Αφαίρεση τριψήφιου αριθμού \"%s\": (x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "Αφαίρεση χαλκομανίας \"%s\""
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "Αφαίρεση χαλκομανίας \"%s\": (x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "Αφαίρεση Ένδειξης Στατιστικών: %s"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "Αφαίρεση Ενδείξεων Στατιστικών: %s (x%s)"
+
+msgid "customization/removed/style"
+msgstr "Αφαίρεση τεχνοτροπίας \"%s\""
+
+msgid "customization/removed/styleValue"
+msgstr "Αφαίρεση τεχνοτροπίας \"%s\": (x%s)"
+
+msgid "customization/server_error"
+msgstr "Αδύνατη η προσαρμογή."
+
+msgid "customization/unavailable"
+msgstr "Η λειτουργία προσαρμογής οχημάτων είναι προσωρινά απενεργοποιημένη για τεχνικούς λόγους."
+
+msgid "customization/vehicle_damaged"
+msgstr "Αδύνατη η προσαρμογή. Το όχημα έχει υποστεί φθορές. Απαιτούνται επισκευές."
+
+msgid "customization/vehicle_destroyed"
+msgstr "Αδύνατη η προσαρμογή. Το όχημα έχει τεθεί εκτός μάχης. Απαιτούνται επισκευές."
+
+msgid "customization/vehicle_exploded"
+msgstr "Αδύνατη η προσαρμογή. Το όχημα έχει καταστραφεί. Απαιτούνται επισκευές."
+
+msgid "customization/vehicle_locked"
+msgstr "Αδύνατη η προσαρμογή. Το όχημα είναι κλειδωμένο."
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "Αδύνατη η αλλαγή της Τυπικής Αποστολής: η αποστολή έχει ήδη ολοκληρωθεί."
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "Αδύνατη η αλλαγή της Τυπικής Αποστολής: μπλοκαρισμένη λειτουργία."
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "Αδύνατη η αλλαγή της Τυπικής Αποστολής: αναστολή λειτουργίας."
+
+msgid "daily_quests/reroll/success"
+msgstr "Έγινε με επιτυχία η αλλαγή της Τυπικής Αποστολής."
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "Αδύνατη η αλλαγή της Τυπικής Αποστολής. Προσπαθήστε ξανά αργότερα."
+
+msgid "daily_quests/switch_off/body"
+msgstr "Η συγκεκριμένη λειτουργία είναι προσωρινά μη διαθέσιμη για τεχνικούς λόγους.\nΜας συγχωρείτε για την ταλαιπωρία."
+
+msgid "daily_quests/switch_off/title"
+msgstr "Οι Τυπικές Αποστολές είναι προσωρινά μη διαθέσιμες"
+
+msgid "daily_quests/switch_on/body"
+msgstr "Επήλθε λύση στα τεχνικά ζητήματα. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "daily_quests/switch_on/title"
+msgstr "Οι Τυπικές Αποστολές είναι και πάλι διαθέσιμες"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "Η συγκεκριμένη λειτουργία είναι προσωρινά μη διαθέσιμη για τεχνικούς λόγους.\nΜας συγχωρείτε για την ταλαιπωρία."
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "Το διαχειρίσιμο bonus στο experience είναι προσωρινά μη διαθέσιμο"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "Επήλθε λύση στα τεχνικά ζητήματα. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "Το διαχειρίσιμο bonus στο experience είναι και πάλι διαθέσιμο"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "Η λειτουργία των Κυτίων Αποσύνδεσης είναι προσωρινά μη διαθέσιμη εξαιτίας εργασιών συντήρησης."
+
+msgid "demountKit_restored/switchedOn"
+msgstr "Η λειτουργία των Κυτίων Αποσύνδεσης είναι και πάλι διαθέσιμη. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "denunciation/success"
+msgstr "Το παράπονο για τον %(name)s σχετικά με \"%(topic)s\" έγινε αποδεκτό."
+
+msgid "disconnected"
+msgstr "Ο client αποσυνδέθηκε από τον server."
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "Αδύνατη η αποστράτευση του μέλους του πληρώματος: το όχημα έχει μοναδικό μόνιμο πλήρωμα."
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "Σφάλμα στην αποστράτευση μέλους του πληρώματος. Λάθος όχημα."
+
+msgid "dismiss_tankman/server_error"
+msgstr "Αδύνατη η αποστράτευση του μέλους πληρώματος.\nΠροσπαθήστε ξανά αργότερα."
+
+msgid "dismiss_tankman/success"
+msgstr "Το μέλος του πληρώματος αποστρατεύτηκε επιτυχώς."
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "Σφάλμα στην αποστράτευση μέλους του πληρώματος. Το όχημα είναι κλειδωμένο."
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "Σφάλμα στην αποστράτευση μέλους του πληρώματος. Επισκευάστε το όχημά σας."
+
+msgid "dog_tags/switch_off/body"
+msgstr "Η συγκεκριμένη λειτουργία είναι προσωρινά μη διαθέσιμη για τεχνικούς λόγους.\nΜας συγχωρείτε για την ταλαιπωρία."
+
+msgid "dog_tags/switch_off/title"
+msgstr "Οι Μεταλλικές Ταυτότητες είναι προσωρινά μη διαθέσιμες"
+
+msgid "dog_tags/switch_on/body"
+msgstr "Επήλθε λύση στα τεχνικά ζητήματα. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "dog_tags/switch_on/title"
+msgstr "Οι Μεταλλικές Ταυτότητες είναι και πάλι διαθέσιμες"
+
+msgid "dossiers_unavailable"
+msgstr "Ο λογαριασμός δεν είναι έτοιμος (DOSSIERS_UNAVAILABLE)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "Έγινε επιτυχώς η επαναφορά όλων των ικανοτήτων.\nΚόστος σε credits: %(money)s."
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "Έγινε επιτυχώς η επαναφορά όλων των ικανοτήτων.\nΚόστος σε gold: %(money)s."
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "Σφάλμα στην επαναφορά ικανοτήτων. Λάθος όχημα."
+
+msgid "drop_tankman_skill/server_error"
+msgstr "Αδύνατη η επαναφορά ικανοτήτων. Προσπαθήστε ξανά αργότερα."
+
+msgid "drop_tankman_skill/success"
+msgstr "Έγινε επιτυχώς η επαναφορά όλων των ικανοτήτων."
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "Σφάλμα στην επαναφορά ικανοτήτων. Το όχημα είναι κλειδωμένο."
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "Σφάλμα στην επαναφορά ικανοτήτων. Επισκευάστε το όχημά σας."
+
+msgid "drr_scale/step_down"
+msgstr "Η Δυναμική Ανάλυση έχει μειωθεί στο %(scale)d%%."
+
+msgid "drr_scale/step_up"
+msgstr "Η Δυναμική Ανάλυση έχει αυξηθεί στο %(scale)d%%."
+
+msgid "earning/button/multiple"
+msgstr "Στα Επιτεύγματα"
+
+msgid "earning/button/single"
+msgstr "Στο Επίτευγμα"
+
+msgid "earning/common/multiple"
+msgstr "%(value)s επιτεύγματα ξεκλειδώθηκαν!"
+
+msgid "earning/common/single"
+msgstr "Ξεκλειδώθηκε %(value)s επίτευγμα!"
+
+msgid "earning/title"
+msgstr "Συγχαρητήρια!"
+
+msgid "earning/trophy/multiple"
+msgstr "Κερδίσατε %(value)s τρόπαια!"
+
+msgid "earning/trophy/single"
+msgstr "Κερδίσατε %(value)s τρόπαιο!"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "Η Άμεση Συντήρηση είναι και πάλι διαθέσιμη. Λυπούμαστε για την όποια ταλαιπωρία."
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "Η Άμεση Συντήρηση είναι προσωρινά μη διαθέσιμη εξαιτίας εργασιών συντήρησης."
+
+msgid "easyTankEquip_apply/error"
+msgstr "Σφάλμα στην εφαρμογή της διαμόρφωσης της Άμεσης Συντήρησης. Προσπαθήστε ξανά αργότερα."
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "Σφάλμα στην εφαρμογή της διαμόρφωσης της Άμεσης Συντήρησης. Ανεπαρκείς πόροι για αγορά."
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "Άμεση Συντήρηση μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την επαναφορά λειτουργίας του WG Wallet."
+
+msgid "epicBattles/levelUp/awards"
+msgstr "Παραλαβή επάθλου:"
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "Φτάσατε στη Βαθμίδα <font color='#E9E2BF'>%(tier)s</font> της Πρώτης Γραμμής."
+
+msgid "epicBattles/levelUp/title"
+msgstr "Συγχαρητήρια!"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "Οι μάχες Πρώτης Γραμμής δεν είναι διαθέσιμες. Δείτε τα νέα σχετικά με αυτές, στην ιστοσελίδα του παιχνιδιού."
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "Σφάλμα στην επιλογή επάθλων. Προσπαθήστε ξανά αργότερα."
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "Παραλάβατε %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "Παραλαβή οδηγιών εξοπλισμού: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "Παραλαβή Πειραματικού Εξοπλισμού: %(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "Η Περίοδος της Πρώτης Γραμμής τελείωσε.<br/>Σας απονεμήθηκαν όλα τα προκαθορισμένα έπαθλα γι αυτά που δεν επιλέξατε κατά τη διάρκεια της Περιόδου:"
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "Πρώτη Γραμμή"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "Αδύνατη η μεταφορά του μέλους του πληρώματος: το όχημα έχει μοναδικό μόνιμο πλήρωμα."
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "Σφάλμα στη μεταφορά μέλους του πληρώματος στο όχημα. Λάθος όχημα."
+
+msgid "equip_tankman/not_enough_space"
+msgstr "Αδύνατη η αποστολή μέλους του πληρώματος στον Στρατώνα. Όχι αρκετές κλίνες στον Στρατώνα."
+
+msgid "equip_tankman/server_error"
+msgstr "Αδύνατη η μεταφορά μέλους του πληρώματος στο όχημα. Προσπαθήστε ξανά αργότερα."
+
+msgid "equip_tankman/success"
+msgstr "Το μέλος πληρώματος μεταφέρθηκε στο %(vehName)s."
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "Σφάλμα στη μεταφορά μέλους του πληρώματος στο όχημα. Το όχημα είναι κλειδωμένο."
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "Σφάλμα στη μεταφορά μέλους του πληρώματος στο όχημα. Παρακαλούμε επισκευάστε το όχημα."
+
+msgid "exchange/not_enough_gold"
+msgstr "Όχι αρκετό gold για ανταλλαγή."
+
+msgid "exchange/server_error"
+msgstr "Σφάλμα ανταλλαγής %(gold)s gold. Δοκιμάστε ξανά αργότερα."
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "Όχι αρκετό gold για μετατροπή %(xp)s XP."
+
+msgid "exchangeXP/server_error"
+msgstr "Σφάλμα μετατροπής %(xp)s XP. Δοκιμάστε ξανά αργότερα."
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "filling_untrained_perks/server_error"
+msgstr "Αδύνατη η εκπαίδευση νέων ικανοτήτων.\nΟ server είναι προσωρινά μη διαθέσιμος. Δοκιμάστε ξανά αργότερα."
+
+msgid "filling_untrained_perks/success"
+msgstr "Νέες ικανότητες σε όλα τα μέλη πληρώματος."
+
+msgid "fortification/addOrder"
+msgstr "Η προετοιμασία για %(count)s Αποθέματα άρχισε. Απομένουν: %(time)s."
+
+msgid "fortification/buildingProcess"
+msgstr "Η κατασκευή της δομής %(buildingName)s άρχισε. Μεταφέρετε την απαραίτητη ποσότητα Βιομηχανικών Πόρων για να διασφαλίσετε κατασκευή χωρίς διακοπές."
+
+msgid "fortification/created"
+msgstr "Συγχαρητήρια!\nΤο Οχυρό δημιουργήθηκε επιτυχώς."
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "Η άμυνα του Οχυρού σας θα είναι απενεργοποιημένη για 48 ώρες. Στη διάρκεια αυτή μπορείτε να ενεργοποιήσετε ξανά την άμυνα από τις ρυθμίσεις του Οχυρού."
+
+msgid "fortification/defenceHourSet"
+msgstr "Η Φάση Άμυνας θα αλλάξει σε 14 ημέρες. Νέα Φάση Άμυνας: %(defenceHour)s."
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "Η ημέρα Εκεχειρίας θα αλλάξει σε 14 ημέρες. Νέα ημέρα Εκεχειρίας—δεν έχει οριστεί."
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "Η ημέρα Εκεχειρίας θα αλλάξει σε 14 ημέρες. Νέα ημέρα Εκεχειρίας—%(offDay)s."
+
+msgid "fortification/demountBuilding"
+msgstr "Η δομή %(buildingName)s κατεδαφίστηκε."
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "Μη διαθέσιμη ενέργεια. Έχετε ήδη συσχετιστεί με αυτή τη δομή."
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "Μη διαθέσιμη ενέργεια. Το Οχυρό υπάρχει ήδη."
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "Μη διαθέσιμη ενέργεια. Το clan είναι ήδη στη λίστα με τα προτιμώμενα."
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "Μη διαθέσιμη ενέργεια. Δεν μπορείτε να προγραμματίσετε πάνω από 1 επίθεση στο ίδιο clan."
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "Μη διαθέσιμη ενέργεια. Τα δεδομένα της επίθεσης δεν φορτώθηκαν."
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "Μη διαθέσιμη ενέργεια. Πρέπει να παρέλθει 1 εβδομάδα από την τελευταία επίθεση σε αυτό το clan."
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "Μη διαθέσιμη ενέργεια. Ένα άλλο απόσπασμα ελέγχει το προγεφύρωμα."
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "Μη διαθέσιμη ενέργεια. Δεν έχει προγραμματιστεί επίθεση."
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "Μη διαθέσιμη ενέργεια. Μπορείτε να προγραμματίσετε μόνο μία επίθεση που θα ξεκινάει σε τουλάχιστον 15 λεπτά."
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "Αδύνατος ο προγραμματισμός επίθεσης την επιλεγμένη ημέρα."
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "Μη διαθέσιμη ενέργεια. Λάθος clan ID."
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "Μη διαθέσιμη ενέργεια. Λάθος τιμή για την ημέρα Εκεχειρίας."
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "Μη διαθέσιμη ενέργεια. Λάθος ημερομηνία."
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "Μη διαθέσιμη ενέργεια. Λάθος ID για τις Προωθήσεις."
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "Μη διαθέσιμη ενέργεια. Λάθος τιμή για τη Φάση Άμυνας."
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "Αδύνατη η επίθεση στο επιλεγμένο clan: η διαφορά μεταξύ των επιπέδων των Οχυρών είναι μεγαλύτερη του 1. Επιλέξτε άλλο clan."
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "Μη διαθέσιμη ενέργεια. Λάθος αριθμός Αποθεμάτων."
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "Μη διαθέσιμη ενέργεια. Μεταφέρθηκε λάθος ποσότητα Βιομηχανικών Πόρων."
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "Μη διαθέσιμη ενέργεια. Λάθος κατηγορία."
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "Μη διαθέσιμη ενέργεια. Δεν ελήφθησαν λεπτομέρειες της Αψιμαχίας."
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "Οι μάχες δεν επιτρέπονται προς το παρόν σε αυτόν τον server."
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "Μη διαθέσιμη ενέργεια. Μη έγκυρη περίοδος Ουδετερότητας."
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "Μη διαθέσιμη ενέργεια. Λάθος ημερομηνία Ουδετερότητας."
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "Ενέργεια μη διαθέσιμη. Επισκευάστε το Κέντρο Διοίκησης."
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "Μη διαθέσιμη ενέργεια. Το Κέντρο Διοίκησης καταστράφηκε."
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "Μη διαθέσιμη ενέργεια. Το Κέντρο Διοίκησης δεν έχει υποστεί φθορά."
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "Μη διαθέσιμη ενέργεια. Η μάχη δεν υφίσταται."
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "Συγγνώμη, λεπτομερή αποτελέσματα της μάχης μη διαθέσιμα."
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "Αδύνατη η μετακίνηση. Το Οχυρό περιλαμβάνει δομές."
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "Μη διαθέσιμη ενέργεια. Η δομή έχει υποστεί φθορά."
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "Μη διαθέσιμη ενέργεια. Η δομή δεν κατασκευάστηκε."
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "Μη διαθέσιμη ενέργεια. Αδύνατη η δημιουργία clan."
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "Μη διαθέσιμη ενέργεια. Αδύνατη η εύρεση clan."
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "Μη διαθέσιμη ενέργεια. Η μεταφορά δεν είναι διαθέσιμη."
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "Μη διαθέσιμη ενέργεια. Αδύνατη η αναβάθμιση της δομής."
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "Η λειτουργία απορρίφθηκε. Ο server είναι προσωρινά μη διαθέσιμος."
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "Μη διαθέσιμη ενέργεια. Το clan έχει ενεργοποιήσει την ημέρα Εκεχειρίας."
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "Μη διαθέσιμη ενέργεια. Το clan έχει ενεργοποιήσει την Ουδετερότητα."
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "Μη διαθέσιμη ενέργεια. Αδύνατη η οργάνωση της Φάσης Άμυνας στην καθορισμένη ώρα."
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "Μη διαθέσιμη ενέργεια. Ένα άλλο απόσπασμα ελέγχει το προγεφύρωμα."
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "Μη διαθέσιμη ενέργεια. Δεν έχει προγραμματιστεί η άμυνα."
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "Μη διαθέσιμη ενέργεια. Λάθος δεδομένα."
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "Ενέργεια μη διαθέσιμη. Όχι ενεργοποιημένη άμυνα."
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "Τα Οχυρά είναι προσωρινά μη διαθέσιμα."
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "Μη διαθέσιμη ενέργεια. Η δομή έχει ήδη κατασκευαστεί."
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "Μη διαθέσιμη ενέργεια. Παρακαλούμε περιμένετε μέχρι να ολοκληρωθεί η τρέχουσα λειτουργία."
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "Μη διαθέσιμη ενέργεια. Επιτίθεστε σε άλλο clan την ίδια ώρα."
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "Αδύνατος ο προγραμματισμός επίθεσης σε αυτό το clan την συγκεκριμένη ώρα."
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "Σφάλμα. Τα Οχυρά είναι προσωρινά μη διαθέσιμα."
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "Μη διαθέσιμη ενέργεια. Το επίπεδο του Οχυρού είναι πολύ χαμηλό."
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "Μη διαθέσιμη ενέργεια. Η κατασκευή όλων των δομών σταμάτησε."
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "Μη διαθέσιμη ενέργεια. Δεν υπάρχει εξουσιοδότηση."
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "Μη διαθέσιμη ενέργεια. Αδύνατη η συμμετοχή στην επιχειρησιακή μονάδα."
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "Προσωρινά μη διαθέσιμη ενέργεια."
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "Μη διαθέσιμη ενέργεια. Η ώρα δεν είναι συγχρονισμένη."
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "Μη διαθέσιμη ενέργεια. Δεν έχετε συσχετιστεί με τη δομή."
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "Μη διαθέσιμη ενέργεια. Ο παίκτης δεν είναι μέλος του clan."
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "Μη διαθέσιμη ενέργεια. Δεν υπάρχουν αρκετοί παίκτες στο clan."
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "Μη διαθέσιμη ενέργεια. Δεν υπάρχουν αρκετοί Βιομηχανικοί Πόροι στην αποθήκη της δομής."
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "Μη διαθέσιμη ενέργεια. Το clan δεν είναι στη λίστα με τα προτιμώμενα."
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "Μη διαθέσιμη ενέργεια. Η δομή δεν κατασκευάστηκε."
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "Μη διαθέσιμη ενέργεια. Δεν είστε μέλος σε κανένα clan."
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "Ενέργεια μη διαθέσιμη. Δεν μπορεί να ενεργοποιηθεί το Απόθεμα προς το παρόν."
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "Μη διαθέσιμη ενέργεια. Λάθος δομή."
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "Μη διαθέσιμη ενέργεια. Μη διαθέσιμο ή μη επιλεγμένο Απόθεμα."
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "Μη διαθέσιμη ενέργεια. Λάθος Απόθεμα."
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "Μη διαθέσιμη ενέργεια. Λάθος Απόθεμα."
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "Μη διαθέσιμη ενέργεια. Η δομή έχει ήδη κατασκευαστεί."
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "Μη διαθέσιμη ενέργεια. Η επίθεση δεν υφίσταται."
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "Μη διαθέσιμη ενέργεια. Το Απόθεμα ήδη σε χρήση."
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "Μη διαθέσιμη ενέργεια. Το Απόθεμα είναι ήδη έτοιμο."
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "Μη διαθέσιμη ενέργεια. Η κατασκευή έχει ήδη σταματήσει."
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "Μη διαθέσιμη ενέργεια. Δεν υπάρχει διαθέσιμο Απόθεμα."
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "Μη διαθέσιμη ενέργεια. Η κατασκευή δεν έχει σταματήσει."
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "Μη διαθέσιμη ενέργεια. Ο server είναι εκτός σύνδεσης."
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "Μη διαθέσιμη ενέργεια. Η θέση είναι κατειλημμένη."
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "Μη διαθέσιμη ενέργεια. Η άμυνα είναι ήδη απενεργοποιημένη."
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "Μη διαθέσιμη ενέργεια. Η άμυνα δεν είναι απενεργοποιημένη."
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "Μη διαθέσιμη ενέργεια. Δεν ολοκληρώθηκε η εκπαίδευση."
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "Μη διαθέσιμη ενέργεια. Η αποθήκη είναι γεμάτη."
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "Μη διαθέσιμη ενέργεια. Η άμυνα έχει ήδη προγραμματιστεί γι αυτή την ημέρα."
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "Έχετε ήδη το μέγιστο αριθμό προτιμώμενων clan."
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "Μη διαθέσιμη ενέργεια. Έχετε φτάσει το όριο έτοιμων Αποθεμάτων."
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "Μη διαθέσιμη ενέργεια. Η φρουρά της δομής είναι γεμάτη."
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "Μη διαθέσιμη ενέργεια. Ξεπεράστηκε το όριο των Αψιμαχιών."
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "Μη διαθέσιμη ενέργεια. Η μεταφορά δεν είναι διαθέσιμη προσωρινά."
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "Μη διαθέσιμη ενέργεια. Ξεπεράστηκε το όριο μεταφοράς."
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "Μη διαθέσιμη ενέργεια. Ο παίκτης δεν είναι έτοιμος."
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "Μη διαθέσιμη ενέργεια. Αδύνατη η κατεδάφιση του Κέντρου Διοίκησης."
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "Μη διαθέσιμη ενέργεια. Λάθος clan."
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "Μη διαθέσιμη ενέργεια. Λάθος server."
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "Μη διαθέσιμη ενέργεια. Αδύνατη η κατασκευή δομής σε αυτήν την περιοχή."
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "Έχετε συσχετιστεί με τη δομή %(buildingName)s."
+
+msgid "fortification/fortBattleFinished"
+msgstr "Οι Προωθήσεις διακόπηκαν αναγκαστικά εξαιτίας τεχνικών προβλημάτων του server."
+
+msgid "fortification/modernizationBuilding"
+msgstr "Η αναβάθμιση ολοκληρώθηκε επιτυχώς. Το επίπεδο της δομής %(buildingName)s. αυξήθηκε σε %(buildingLevel)s."
+
+msgid "fortification/notification/turnedOff"
+msgstr "Τα Οχυρά είναι προσωρινά μη διαθέσιμα. Προσπαθήστε ξανά αργότερα."
+
+msgid "fortification/notification/turnedOn"
+msgstr "Οι Προωθήσεις είναι διαθέσιμες ξανά."
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "Ενεργοποίηση Αποθέματος"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "Κατασκευή δομής"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "Προτίμηση clan"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "Προσθήκη Αποθέματος"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "Προσθήκη παίκτη στη φρουρά"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "Ενεργοποίηση Φάσης Άμυνας"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "Αλλαγή Φάσης Άμυνας"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "Ορισμός Εκεχειρίας"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "Αλλαγή server"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "Αλλαγή ρυθμίσεων"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "Καθορισμός Ουδετερότητας"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "Δημιουργία Οχυρού"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "Δημιουργία αποσπάσματος"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "Αφαίρεση δομής"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "Αφαίρεση Οχυρού"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "Προγραμματισμός επίθεσης"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "Αφαίρεση προτιμώμενου clan"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "Λεπτομέρειες του clan"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "Λεπτομέρειες των clan"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "Ανάκτηση λεπτομερειών αποσπάσματος"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "Απενεργοποίηση Φάσης Άμυνας"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "Μεταφορά"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "Αναβάθμιση δομής"
+
+msgid "fortification/transport"
+msgstr "Η μεταφορά ολοκληρώθηκε επιτυχώς. %(res)s Βιομηχανικοί Πόροι μεταφέρθηκαν από τη δομή %(fromBuilding)s στη δομή %(toBuilding)s."
+
+msgid "fortification/vacationSet"
+msgstr "Ουδετερότητα του Οχυρού %(vacationPeriod)s."
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "Λειτουργία μη διαθέσιμη."
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "Σφάλμα στην εκπαίδευση μέλους του πληρώματος. Όχι αρκετό Free Experience."
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "Σφάλμα στην εκπαίδευση μέλους του πληρώματος. Αυτό το μέλος πληρώματος δεν υπάρχει."
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "Σφάλμα στην εκπαίδευση μέλους του πληρώματος. Προσπαθήστε ξανά αργότερα."
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "Σφάλμα στην εκπαίδευση μέλους του πληρώματος. Προσπαθήστε ξανά αργότερα."
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "Αδύνατη η εκπαίδευση μέλους του πληρώματος με Free XP.\nΠροσπαθήστε ξανά αργότερα."
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "Έγινε επιτυχώς η εκπαίδευση του μέλους πληρώματος.\nΚόστος σε Free XP: %(money)s."
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "Για την αποτροπή του εθισμού στο παιχνίδι από παιδιά και εφήβους, θα απαγορευτεί η είσοδος σε μάχη. Θα αποσυνδεθείτε από τον server στις %(blockTime)s."
+
+msgid "gameSessionControl/korea/note"
+msgstr "Η υπερβολική χρήση ηλεκτρονικών παιχνιδιών μπορεί να επηρεάσει την καθημερινότητά σας."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "Χρόνος παιχνιδιού που υπολείπεται: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "Ο διαθέσιμος χρόνος θα λήξει, γι αυτό δεν μπορείτε να μπείτε σε νέα μάχη. Θα αποσυνδεθείτε από τον server στις %s."
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "Διάρκεια παιχνιδιού: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "Υπολειπόμενη ώρα μέχρι τα μεσάνυχτα: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "Ο διαθέσιμος χρόνος τελείωσε, γι αυτό δεν μπορείτε να μπείτε σε νέα μάχη. Θα αποσυνδεθείτε από τον server στις %(kickTime)s."
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "Το χρονικό όριο παιχνιδιού αφαιρέθηκε από τον λογαριασμό σας"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "Οι ρυθμίσεις του γονικού ελέγχου έχουν αλλάξει."
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "Θα αποσυνδεθείτε από τον server στις %(timeLimit)s."
+
+msgid "graficsOptionsFail"
+msgstr "Μη συμβατή κάρτα γραφικών. Αποτυχία εκτέλεσης των παρακάτω ρυθμίσεων των γραφικών: %s."
+
+msgid "graficsPresetFail"
+msgstr "Μη συμβατή κάρτα γραφικών. Αποτυχία εκτέλεσης της επιλεγμένης ποιότητας γραφικών."
+
+msgid "igr/customization/begin"
+msgstr "Ο %(igrIcon)s προσφέρει δωρεάν Kαμουφλάζ, Eπιγραφές και Eμβλήματα."
+
+msgid "igr/customization/end"
+msgstr "Ο %(igrIcon)s έληξε. Δωρεάν Καμουφλάζ, Επιγραφές και Εμβλήματα θα αφαιρεθούν από το όχημά σας."
+
+msgid "info/noAvailable"
+msgstr "Λεπτομερείς πληροφορίες δεν είναι διαθέσιμες."
+
+msgid "install_component"
+msgstr "Το στοιχείο %s \"%s\" τοποθετήθηκε στο όχημα."
+
+msgid "install_vehicle_broken"
+msgstr "Αδύνατη η τοποθέτηση του στοιχείου %s \"%s\": το όχημα έχει υποστεί φθορές. Επισκευάστε το όχημά σας και προσπαθήστε ξανά."
+
+msgid "install_vehicle_locked"
+msgstr "Το όχημα είναι κλειδωμένο, αδύνατη η τοποθέτηση του στοιχείου %s \"%s\"."
+
+msgid "inventory/item/already_exists"
+msgstr "Το στοιχείο %(typeString)s \"%(userString)s\" είναι ήδη διαθέσιμο στην Αποθήκη."
+
+msgid "inventory/item/equip_in_processing"
+msgstr "Αποστολή αιτήματος τοποθέτησης εξοπλισμού. Αναμονή για ανταπόκριση server."
+
+msgid "inventory/item/not_found"
+msgstr "Το στοιχείο %(typeString)s \"%(userString)s\" δεν βρέθηκε στην Αποθήκη."
+
+msgid "inventory/vehicle/already_exists"
+msgstr "%(userString)s βρίσκεται ήδη στην Αποθήκη."
+
+msgid "inventory/vehicle/not_found"
+msgstr "%(userString)s δε βρέθηκε στην Αποθήκη."
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "Η πρόσκληση στον μισθοφόρο %(name)s δεν μπορεί να σταλεί."
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "Η πρόσκληση στον παίκτη %(name)s δεν μπορεί να σταλεί: λάθος clan."
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Αδύνατος ο ανεφοδιασμός αναλώσιμων. Προσπαθήστε ξανά αργότερα."
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Αδύνατος ο ανεφοδιασμός αναλώσιμων. Προσπαθήστε ξανά αργότερα."
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Αδύνατος ο ανεφοδιασμός αναλώσιμων. Προσπαθήστε ξανά αργότερα."
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\" Αδύνατος ο ανεφοδιασμός βλημάτων. Προσπαθήστε ξανά αργότερα."
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Αδύνατος ο ανεφοδιασμός βλημάτων. Ο μέγιστος αριθμός βλημάτων έχει ανεφοδιαστεί."
+
+msgid "layout_apply/Component is not in shop"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Αδύνατος ο ανεφοδιασμός αναλώσιμων. Προσπαθήστε ξανά αργότερα."
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Όχι αρκετά credits για αγορά αναλώσιμων. Προσπαθήστε ξανά αργότερα."
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Όχι αρκετά bonds για αγορά αναλώσιμων."
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Όχι αρκετό gold για αγορά αναλώσιμων. Προσπαθήστε ξανά αργότερα."
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Αδύνατος ο ανεφοδιασμός αναλώσιμων. Προσπαθήστε ξανά αργότερα."
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Λάθος όχημα."
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Όχι αρκετά credits για αγορά βλημάτων."
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Όχι αρκετό gold για αγορά βλημάτων."
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Το όχημα είναι κλειδωμένο."
+
+msgid "layout_apply/error"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Προσπαθήστε ξανά αργότερα."
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Λάθος όχημα."
+
+msgid "layout_apply/success_money_spent"
+msgstr "Συνολικό κόστος για πυρομαχικά %(money)s."
+
+msgid "layout_apply/vehicle_locked"
+msgstr "Σφάλμα στη συντήρηση του \"%(vehName)s\". Το όχημα είναι κλειδωμένο."
+
+msgid "layout_apply/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "limitedUI/switchOff"
+msgstr "Η σταδιακή εμφάνιση των κρυφών στοιχείων στο Γκαράζ είναι προσωρινά απενεργοποιημένη."
+
+msgid "limitedUI/switchOn"
+msgstr "Η σταδιακή εμφάνιση των κρυφών στοιχείων στο Γκαράζ είναι και πάλι ενεργοποιημένη. Μπορείτε να την απενεργοποιήσετε από τις Ρυθμίσεις."
+
+msgid "locked_vehicle_error"
+msgstr "Η ενέργεια αυτή δεν είναι διαθέσιμη σε οχήματα με προκαθορισμένη διαμόρφωση."
+
+msgid "login_to_other_game_unknown"
+msgstr "Το παρόν παιχνίδι διακόπηκε. Το Wargaming.net&nbsp;ID σας χρησιμοποιήθηκε για σύνδεση σε άλλο παιχνίδι."
+
+msgid "login_to_other_game_web"
+msgstr "η τρέχουσα συνεδρία του παιχνιδιού διακόπηκε. Έχετε αποσυνδεθεί από τον server μέσω του portal του παιχνιδιού."
+
+msgid "login_to_other_game_wot"
+msgstr "Το παρόν παιχνίδι διακόπηκε. Το Wargaming.net&nbsp;ID σας χρησιμοποιήθηκε για σύνδεση στο World&nbsp;of&nbsp;Tanks"
+
+msgid "login_to_other_game_wotb"
+msgstr "Το παρόν παιχνίδι διακόπηκε. Το Wargaming.net&nbsp;ID σας χρησιμοποιήθηκε για σύνδεση στο World&nbsp;of&nbsp;Tanks&nbsp;Blitz"
+
+msgid "login_to_other_game_wotg"
+msgstr "Το παρόν παιχνίδι διακόπηκε. Το Wargaming.net&nbsp;ID σας χρησιμοποιήθηκε για σύνδεση στο World&nbsp;of&nbsp;Tanks&nbsp;Generals"
+
+msgid "login_to_other_game_wowp"
+msgstr "Το παρόν παιχνίδι διακόπηκε. Το Wargaming.net&nbsp;ID σας χρησιμοποιήθηκε για σύνδεση στο World&nbsp;of&nbsp;Warplanes"
+
+msgid "login_to_other_game_wows"
+msgstr "Το παρόν παιχνίδι διακόπηκε. Το Wargaming.net&nbsp;ID σας χρησιμοποιήθηκε σύνδεση στο World&nbsp;of&nbsp;Warships"
+
+msgid "lootboxes/open/server_error"
+msgstr "Σφάλμα στην παραλαβή του δώρου: σφάλμα του server."
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "Σφάλμα στην παραλαβή του δώρου. Περιμένετε να ολοκληρωθεί η προηγούμενη λειτουργία."
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "Ενέργεια προσωρινά μη διαθέσιμη. Προσπαθήστε ξανά αργότερα."
+
+msgid "mapbox/notification/primeTime"
+msgstr "Η Αποστολή Ανίχνευσης δεν θα είναι διαθέσιμη μέχρι το τέλος της εκεχειρίας."
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "Εκεχειρία"
+
+msgid "maps_black_list/select/server_error"
+msgstr "Σφάλμα Του Server"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "Μη διαθέσιμη ενέργεια. Παρακαλούμε περιμένετε μέχρι να ολοκληρωθεί η τρέχουσα λειτουργία."
+
+msgid "maps_black_list/select/success"
+msgstr "Ο χάρτης %(mapName)s αποκλείστηκε από τις Τυχαίες Μάχες. Μπορείτε να αλλάξετε την επιλογή σας σε %(time)s."
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "Ο χάρτης %(mapName)s αποκλείστηκε από τις Τυχαίες Μάχες. Μπορείτε να αλλάξετε την επιλογή σας σε %(time)s, ή μπορείτε να αποκλείσετε ακόμη περισσότερους χάρτες εάν ενεργοποιήσετε τον Προνομιακό Λογαριασμό WoT ή το WoT Plus."
+
+msgid "maps_black_list/select/success/premium"
+msgstr "Ο χάρτης %(mapName)s αποκλείστηκε από τις Τυχαίες Μάχες. Μπορείτε να αλλάξετε την επιλογή σας σε %(time)s, ή μπορείτε να αποκλείσετε ακόμη έναν χάρτη εάν ενεργοποιήσετε τη συνδρομή σας στο WoT Plus."
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "Ο χάρτης %(mapName)s αποκλείστηκε από τις Τυχαίες Μάχες. Μπορείτε να αλλάξετε την επιλογή σας σε %(time)s, ή μπορείτε να αποκλείσετε ακόμη έναν χάρτη εάν ενεργοποιήσετε τον Προνομιακό Λογαριασμό WoT."
+
+msgid "maps_black_list/switch_off/body"
+msgstr "Η συγκεκριμένη λειτουργία είναι προσωρινά μη διαθέσιμη για τεχνικούς λόγους.\nΜας συγχωρείτε για την ταλαιπωρία."
+
+msgid "maps_black_list/switch_off/title"
+msgstr "Ο αποκλεισμός χαρτών είναι προσωρινά μη διαθέσιμος"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "Επήλθε λύση στα τεχνικά ζητήματα. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "maps_black_list/switch_on/title"
+msgstr "Ο αποκλεισμός χαρτών είναι και πάλι διαθέσιμος"
+
+msgid "maps_training/switch/title"
+msgstr "Τοπογραφία"
+
+msgid "maps_training/switch_off/body"
+msgstr "Είδος μαχών απενεργοποιημένο."
+
+msgid "maps_training/switch_on/body"
+msgstr "Είδος μαχών ενεργοποιημένο."
+
+msgid "memberRosterChangedMain"
+msgstr "%s μεταφέρθηκε %s στη βασική ομάδα."
+
+msgid "memberRosterChangedSecond"
+msgstr "%s μεταφέρθηκε %s στην εφεδρική ομάδα."
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "Ανεπαρκής μνήμη. Παρακαλούμε κάντε επανεκκίνηση στο παιχνίδι."
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "Όχι αρκετή μνήμη. Χαμηλή ποιότητα υφής γραφικών."
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "Όχι αρκετή μνήμη. Μεσαία ποιότητα υφής γραφικών."
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "Ανεπαρκής μνήμη. Οι ρυθμίσεις των γραφικών άλλαξαν. Παρακαλούμε κάντε επανεκκίνηση στο παιχνίδι."
+
+msgid "missingEvents/button"
+msgstr "Άνοιγμα"
+
+msgid "missingEvents/header"
+msgstr "Γεγονότα"
+
+msgid "missingEvents/text"
+msgstr "Σημαντικά γεγονότα που χάσατε: "
+
+msgid "module_apply/error_is_current"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" είναι ήδη τοποθετημένο."
+
+msgid "module_apply/error_need_gun"
+msgstr "Αδύνατη η τοποθέτηση του στοιχείου %(kind)s \"%(name)s\" στο όχημα με το τρέχον πυροβόλο."
+
+msgid "module_apply/error_need_turret"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" δεν είναι συμβατό με τον τρέχοντα πυργίσκο. Αντικαταστήστε τον πυργίσκο."
+
+msgid "module_apply/error_no_gun"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" δεν τοποθετήθηκε. Δεν υπάρχει συμβατό πυροβόλο στην Αποθήκη."
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" δεν είναι συμβατό με τον τρέχοντα πυργίσκο. Αντικαταστήστε τον πυργίσκο."
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" δεν ταιριάζει με το όχημα."
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" δεν είναι συμβατό με τα αναλώσιμα \"%s\"."
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" είναι λανθασμένου τύπου."
+
+msgid "module_apply/error_wrong_nation"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" είναι λανθασμένης εθνικότητας."
+
+msgid "module_apply/incompatibleEqs"
+msgstr "Το αναλώσιμο \"%(items)s\" έχει σταλεί στην Αποθήκη εξαιτίας ασυμβατότητας με το τρέχον εξάρτημα."
+
+msgid "module_apply/invalid_vehicle"
+msgstr "Λάθος όχημα. Αδύνατη η τοποθέτηση του στοιχείου %(kind)s \"%(name)s\"."
+
+msgid "module_apply/server_error"
+msgstr "Σφάλμα του server στην τοποθέτηση του στοιχείου %(kind)s \"%(name)s\". Προσπαθήστε ξανά αργότερα."
+
+msgid "module_apply/success"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" τοποθετήθηκε στο όχημα."
+
+msgid "module_apply/success_gun_change"
+msgstr "Το στοισείο %(kind)s \"%(name)s\" τοποθετήθηκε στο όχημα με το πυροβόλο \"%(gun)s\"."
+
+msgid "module_apply/vehicle_locked"
+msgstr "Το όχημα είναι κλειδωμένο, αδύνατη η τοποθέτηση του στοιχείου %(kind)s \"%(name)s\"."
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "Αδύνατη η τοποθέτηση του στοιχείου %(kind)s \"%(name)s\": το όχημα έχει υποστεί φθορές. Επισκευάστε το όχημά σας και προσπαθήστε ξανά."
+
+msgid "module_buy/error_is_current"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" είναι ήδη τοποθετημένο."
+
+msgid "module_buy/error_need_gun"
+msgstr "Αδύνατη η τοποθέτηση του στοιχείου %(kind)s \"%(name)s\" στο όχημα με το τρέχον πυροβόλο."
+
+msgid "module_buy/error_need_turret"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" δεν είναι συμβατό με τον τρέχοντα πυργίσκο. Αντικαταστήστε τον πυργίσκο."
+
+msgid "module_buy/error_no_gun"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" δεν τοποθετήθηκε. Δεν υπάρχει συμβατό πυροβόλο στην Αποθήκη."
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" δεν είναι συμβατό με τον συγκεκριμένο πυργίσκο. Αντικαταστήστε τον πυργίσκο."
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" δεν ταιριάζει με το όχημα."
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" δεν είναι συμβατό με τα αναλώσιμα \"%s\"."
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" είναι λανθασμένου τύπου."
+
+msgid "module_buy/error_wrong_nation"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" είναι λανθασμένης εθνικότητας."
+
+msgid "module_buy/invalid_module"
+msgstr "Αδύνατη η αγορά του στοιχείου %(kind)s \"%(name)s\". Λάθος εξάρτημα."
+
+msgid "module_buy/invalid_vehicle"
+msgstr "Λάθος όχημα. Αδύνατη η αγορά και τοποθέτηση του στοιχείου %(kind)s \"%(name)s\"."
+
+msgid "module_buy/not_enough_credits"
+msgstr "Αδύνατη η αγορά του στοιχείου %(kind)s \"%(name)s\". Όχι αρκετά credits."
+
+msgid "module_buy/not_enough_gold"
+msgstr "Αδύνατη η αγορά του στοιχείου %(kind)s \"%(name)s\". Όχι αρκετό gold."
+
+msgid "module_buy/server_error"
+msgstr "Αδύνατη η αγορά του στοιχείου %(kind)s \"%(name)s\". Προσπαθήστε ξανά αργότερα."
+
+msgid "module_buy/server_error_centerDown"
+msgstr "Μη δυνατή η αγορά του στοιχείου %(kind)s \"%(name)s\". Ο server είναι προσωρινά μη διαθέσιμος."
+
+msgid "module_buy/success"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" αγοράστηκε με επιτυχία (%(count)s τεμάχια). Κόστος %(money)s."
+
+msgid "module_buy/vehicle_locked"
+msgstr "Όχημα κλειδωμένο. Αδύνατη η αγορά και τοποθέτηση του στοιχείου %(kind)s \"%(name)s\"."
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "Αδύνατη η αγορά και τοποθέτηση του στοιχείου %(kind)s \"%(name)s\". Επισκευάστε το όχημα και προσπαθήστε ξανά."
+
+msgid "module_buy/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "module_sell/invalid_module"
+msgstr "Αδύνατη η πώληση του στοιχείου %(kind)s \"%(name)s\". Λάθος εξάρτημα."
+
+msgid "module_sell/server_error"
+msgstr "Αδύνατη η πώληση του στοιχείου %(kind)s \"%(name)s\". Προσπαθήστε ξανά αργότερα."
+
+msgid "module_sell/success"
+msgstr "Το στοιχείο %(kind)s \"%(name)s\" πωλήθηκε με επιτυχία (%(count)s τεμάχια). Λάβατε %(money)s."
+
+msgid "multipleSelling/success"
+msgstr "Λάβατε %(money)s"
+
+msgid "nation_change/FAILED"
+msgstr "Σφάλμα στη αλλαγή διαμόρφωσης"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "Σφάλμα στη αλλαγή διαμόρφωσης"
+
+msgid "nation_change/error"
+msgstr "Σφάλμα στη αλλαγή διαμόρφωσης"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: αλλαγή διαμόρφωσης έθνους"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "Έγινε ενημέρωση των ημερήσιων αποστολών για τεχνικούς λόγους. Η πρόοδός σας αποθηκεύτηκε."
+
+msgid "notrecruit_window/success"
+msgstr "Στρατολόγηση μέλους πληρώματος.\n%(colorTagOpen)s%(rank)s %(fullName)s\n(%(role)s, %(vehicleName)s)%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "Ενέργεια προσωρινά μη διαθέσιμη. Προσπαθήστε ξανά αργότερα."
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "Σφάλμα στην απονομή δώρου: σφάλμα του server"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "Σφάλμα στην παραλαβή επάθλου: Υπάρχει καθυστέρηση για μερικά από τα έπαθλα—διεκδικήστε τα ξανά αργότερα."
+
+msgid "offers/switch_off/body"
+msgstr "Η υπηρεσία Προμηθειών είναι προσωρινά μη διαθέσιμη."
+
+msgid "offers/unavailable_many"
+msgstr "Μη Διαθέσιμες Προσφορές: %(count)s."
+
+msgid "offers/unavailable_one"
+msgstr "Προσφορά μη διαθέσιμη."
+
+msgid "optionalDevices_apply/error"
+msgstr "Σφάλμα στη διαμόρφωση του εξοπλισμού. Προσπαθήστε ξανά αργότερα."
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "Σφάλμα στη διαμόρφωση του εξοπλισμού. Ανεπαρκείς πόροι για την αγορά του."
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την επαναφορά λειτουργίας του WG Wallet."
+
+msgid "optionalDevices_remove/error"
+msgstr "Σφάλμα στη διαμόρφωση του εξοπλισμού. Προσπαθήστε ξανά αργότερα."
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "Τα απευθείας μηνύματα με παίκτες που δεν βρίσκονται στις Επαφές σας δεν είναι διαθέσιμα για τον λογαριασμό σας."
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "Τα απευθείας μηνύματα δεν είναι διαθέσιμα για τον λογαριασμό σας."
+
+msgid "parentControl/linkText"
+msgstr "Ορισμός Ημερομηνίας"
+
+msgid "parentControl/mainText"
+msgstr "Δηλώστε την ημερομηνία γέννησής σας."
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "Τα απευθείας μηνύματα με παίκτες που δεν βρίσκονται στις Επαφές σας έχουν απαγορευτεί από τον γονικό έλεγχο."
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "Τα απευθείας μηνύματα έχουν απαγορευτεί από τον γονικό έλεγχο."
+
+msgid "parentControl/title"
+msgstr "Επικύρωση Ηλικίας"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "Μη διαθέσιμη μεταφορά. Αδύνατος ο καθορισμός του server."
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "Παραλαβή επάθλου:"
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "Στην Επιχείρηση"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "Αποστολή εξετελέσθη"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "Αλλάξτε οχήματα για να συνεχίσετε την ολοκλήρωση της αποστολής."
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "Επιχείρηση: %(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "Ολοκληρώθηκαν: %(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "Όλες οι αποστολές της εκστρατείας %(campaignName)s ολοκληρώθηκαν μετ' επαίνων!"
+
+msgid "personalMission/operationComplete/title"
+msgstr "Όλες οι αποστολές της επιχείρησης %(operationName)s ολοκληρώθηκαν!"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "Όλες οι αποστολές της επιχείρησης %(operationName)s ολοκληρώθηκαν μετ' επαίνων!"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "Οι εκστρατείες είναι προσωρινά μη διαθέσιμες εξαιτίας προγραμματισμένης συντήρησης."
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "Οι εκστρατείες είναι και πάλι διαθέσιμες. Λυπούμαστε για την όποια ταλαιπωρία."
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "Η εκστρατεία %(campaignName)s είναι προσωρινά μη διαθέσιμη εξαιτίας εργασιών συντήρησης."
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "Οι εκστρατεία %(campaignName)s είναι και πάλι διαθέσιμη. Λυπούμαστε για την όποια ταλαιπωρία."
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "Η αποστολή %(missionName)s της επιχείρησης %(operationName)s είναι προσωρινά μη διαθέσιμη εξαιτίας εργασιών συντήρησης."
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "Η αποστολή %(missionName)s της επιχείρησης %(operationName)s είναι και πάλι διαθέσιμη. Λυπούμαστε για την όποια ταλαιπωρία."
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "Η επιχείρηση %(operationName)s της εκστρατείας %(campaignName)s είναι προσωρινά μη διαθέσιμη εξαιτίας εργασιών συντήρησης."
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "Η επιχείρηση %(operationName)s της εκστρατείας %(campaignName)s είναι και πάλι διαθέσιμη. Λυπούμαστε για την όποια ταλαιπωρία."
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "Σφάλμα στην εναλλαγή εκστρατείας. Προσπαθήστε ξανά αργότερα."
+
+msgid "personalMissions/badge"
+msgstr "Απονεμήθηκε το παράσημο %(name)s."
+
+msgid "personalMissions/camouflageGiven"
+msgstr "Απονεμήθηκε Μοναδικό Καμουφλάζ για το %(vehicleName)s."
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "Το Μοναδικό Καμουφλάζ για το %(vehicleName)s είναι διαθέσιμο για όλα τα οχήματα του έθνους: %(nation)s."
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "Όλη η πρόοδός σας έχει αποθηκευτεί. Μπορείτε να συνεχίσετε την ολοκλήρωση των αποστολών εκστρατείας ανά πάσα στιγμή."
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "Οι εκστρατείες %(campaignName1)s και %(campaignName2)s σταμάτησαν"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "Οι επιχειρήσεις που είχατε σταματήσει συνεχίζονται."
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "Οι εκστρατείες %(campaignName1)s και %(campaignName2)s συνεχίζονται"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "Όλη η πρόοδός σας έχει αποθηκευτεί. Μπορείτε να συνεχίσετε την ολοκλήρωση των αποστολών εκστρατείας ανά πάσα στιγμή."
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "Η εκστρατεία %(campaignName)s σταμάτησε"
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "Οι επιχειρήσεις που είχατε σταματήσει συνεχίζονται."
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "Η εκστρατεία %(campaignName)s συνεχίζεται"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "Το εξάρτημα %(detailName)s τοποθετήθηκε επιτυχώς."
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "Επιχείρηση: %(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "Αδύνατη η επαναφορά της αποστολής. Προσπαθήστε ξανά αργότερα."
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "Μη διαθέσιμη ενέργεια. Οι αποστολές απενεργοποιήθηκαν προσωρινά."
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "Προσωρινά αδύνατη η επαναφορά της αποστολής. Προσπαθήστε ξανά αργότερα."
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Προσωρινά αδύνατη η επαναφορά της αποστολής. Περιμένετε μέχρι το όχημα αυτού του τύπου να μην είναι σε μάχη."
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Προσωρινά αδύνατη η επαναφορά της αποστολής. Περιμένετε μέχρι το γκρουπ των οχημάτων να μην είναι σε μάχη."
+
+msgid "personalMissions/discard/success"
+msgstr "Η επαναφορά της αποστολής %(quest)s έγινε επιτυχώς."
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "Εντολές που λάβατε: %(count)s"
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "Αποδεσμεύτηκαν εντολές: %(count)s\nΜπορούν να χρησιμοποιηθούν ξανά."
+
+msgid "personalMissions/operationActivation/body"
+msgstr "Η πρώτη αποστολή κάθε σειράς ενεργοποιήθηκε."
+
+msgid "personalMissions/operationActivation/title"
+msgstr "Η επιχείρηση %(operationName)s ενεργοποιήθηκε!"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "Παραλαβή επάθλων: \n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "Η επιχείρηση %(name)s ολοκληρώθηκε!"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "Όλη η πρόοδός σας έχει αποθηκευτεί. Μπορείτε να συνεχίσετε την ολοκλήρωση της επιχείρησης ανά πάσα στιγμή."
+
+msgid "personalMissions/operationPaused/title"
+msgstr "Η επιχείρηση %(operationName)s σταμάτησε"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "Οι αποστολές που είχατε σταματήσει συνεχίζονται."
+
+msgid "personalMissions/operationResumed/title"
+msgstr "Η επιχείρηση %(operationName)s συνεχίζεται"
+
+msgid "personalMissions/pause/server_error"
+msgstr "Δεν έγινε παύση της αποστολής. Προσπαθήστε ξανά αργότερα."
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "Μη διαθέσιμη ενέργεια. Οι αποστολές απενεργοποιήθηκαν προσωρινά."
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "Προσωρινά αδύνατη η παύση της αποστολής. Προσπαθήστε ξανά αργότερα."
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Προσωρινά αδύνατη η παύση της αποστολής. Περιμένετε μέχρι το όχημα αυτού του τύπου να μην είναι σε μάχη."
+
+msgid "personalMissions/pause/success_pause"
+msgstr "Η παύση της αποστολής %(quest)s έγινε επιτυχώς."
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "Η συνέχιση της αποστολής %(quest)s έγινε επιτυχώς."
+
+msgid "personalMissions/pawn/server_error"
+msgstr "Σφάλμα. Αδύνατη η δέσμευση εντολής προς το παρόν."
+
+msgid "personalMissions/pawn/success"
+msgstr "Εντολές που δεσμεύτηκαν στην αποστολή %(questName)s: %(count)s"
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "Σφάλμα στην παραλαβή των επάθλων. Προσπαθήστε ξανά αργότερα."
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "Το εξάρτημα %(detail_name)s τοποθετήθηκε επιτυχώς."
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "Αδύνατη η διεκδίκηση του επάθλου. Προσπαθήστε ξανά αργότερα."
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "Μη διαθέσιμη ενέργεια. Οι αποστολές απενεργοποιήθηκαν προσωρινά."
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "Αδύνατη η διεκδίκηση του επάθλου. Μη διαθέσιμο έπαθλο."
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "Αδύνατη η διεκδίκηση του επάθλου. Μη διαθέσιμο έπαθλο."
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "Αδύνατη η διεκδίκηση του επάθλου. Λάθος δεδομένα."
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "Αδύνατη η διεκδίκηση του επάθλου. Προσπαθήστε ξανά αργότερα."
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "Μη διαθέσιμη ενέργεια. Οι αποστολές απενεργοποιήθηκαν προσωρινά."
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "Αδύνατη η διεκδίκηση του επάθλου. Μη διαθέσιμο έπαθλο."
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "Αδύνατη η διεκδίκηση του επάθλου. Μη διαθέσιμο έπαθλο."
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "Αδύνατη η διεκδίκηση του επάθλου. Λάθος δεδομένα."
+
+msgid "personalMissions/select/server_error"
+msgstr "Δεν επιλέχθηκαν αποστολές: %(questNames)s. Προσπαθήστε ξανά αργότερα."
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "Μη διαθέσιμη ενέργεια. Οι αποστολές απενεργοποιήθηκαν προσωρινά."
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "Δεν επιλέχθηκαν αποστολές: %(questNames)s. Προσπαθήστε ξανά αργότερα."
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Προσοχή! Για να αλλάξετε την αποστολή, περιμένετε μέχρι όλα τα οχήματα που εμπλέκονται στην αποστολή να επιστρέψουν στο Γκαράζ."
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "Δεν επιλέχθηκαν αποστολές: %(questNames)s. Ολοκληρώστε την προηγούμενη επιχείρηση."
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "Δεν επιλέχθηκαν αποστολές: %(questNames)s. Όχι αρκετές θέσεις."
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "Δεν επιλέχθηκαν αποστολές: %(questNames)s. Διεκδικήστε το έπαθλο."
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "Δεν επιλέχθηκαν αποστολές: %(questNames)s. Μη διαθέσιμη αποστολή."
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "Δεν επιλέχθηκαν αποστολές: %(questNames)s. Η αποστολή έχει ήδη ολοκληρωθεί."
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "Δεν επιλέχθηκαν αποστολές: %(questNames)s."
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "Δεν επιλέχθηκαν αποστολές: %(questNames)s. Η αποστολή έχει ήδη επιλεχθεί."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "Δεν επιλέχθηκαν αποστολές: %(questNames)s. Λάθος δεδομένα."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "Δεν επιλέχθηκαν αποστολές: %(questNames)s. Λάθος δεδομένα."
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Προσωρινά αδύνατη η επιλογή της αποστολής. Περιμένετε μέχρι το γκρουπ των οχημάτων να μη είναι σε μάχη."
+
+msgid "personalMissions/select/success"
+msgstr "Επιτυχής επιλογή αποστολών. Τρέχουσες επιλεγμένες αποστολές: %(questNames)s."
+
+msgid "personalMissions/tankmenGain"
+msgstr "Στρατολογήθηκε: γυναικείο μέλος πληρώματος"
+
+msgid "personalMissions30/select/server_error"
+msgstr "Σφάλμα στην ενεργοποίηση της επιχείρησης. Προσπαθήστε ξανά αργότερα."
+
+msgid "piggyBank/piggyBankFull"
+msgstr "Το Ταμιευτήριο Credits είναι γεμάτο αλλά θα ανοίξει σε %(timeValue)s"
+
+msgid "piggybank/switch_off/body"
+msgstr "Η συγκεκριμένη λειτουργία είναι προσωρινά μη διαθέσιμη για τεχνικούς λόγους.\nΜας συγχωρείτε για την ταλαιπωρία."
+
+msgid "piggybank/switch_off/title"
+msgstr "Το Ταμιευτήριο Credits είναι προσωρινά μη διαθέσιμο"
+
+msgid "piggybank/switch_on/body"
+msgstr "Επήλθε λύση στα τεχνικά ζητήματα. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "piggybank/switch_on/title"
+msgstr "Το Ταμιευτήριο Credits είναι και πάλι διαθέσιμο"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "Η συγκεκριμένη λειτουργία είναι προσωρινά μη διαθέσιμη για τεχνικούς λόγους.\nΜας συγχωρείτε για την ταλαιπωρία."
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "Οι Συνδρομές δεν είναι πλέον διαθέσιμες!"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "Επήλθε λύση στα τεχνικά ζητήματα. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "Οι Συνδρομές είναι πλέον διαθέσιμες"
+
+msgid "post_progression/server_error"
+msgstr "Παραλάβατε το έπαθλο από τη\nΔημιουργία Τόμων Πληρώματος"
+
+msgid "post_progression/success"
+msgstr "Ημερομηνία: %(at)s\nΠροσθήκη στην Αποθήκη: %(book_name)s (x%(amount)s).\nΑνταλλαγή XP Δημιουργίας Τόμων Πληρώματος."
+
+msgid "post_progression/success/title"
+msgstr "Απόδειξη"
+
+msgid "prebattle/hasLockedState"
+msgstr "Αδύνατη η αποδοχή της πρόσκλησης καθώς περιμένετε ήδη για μάχη. Βγείτε από τον Χώρο Αναμονής Μάχης ή τελειώστε την μάχη και προσπαθήστε ξανά."
+
+msgid "prebattle/invites/sendInvite"
+msgstr "Η πρόσκληση εστάλη στον παίκτη."
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "Η πρόσκληση εστάλη στον παίκτη %(name)s."
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "Σφάλμα ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "Σφάλμα AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "Σφάλμα BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "Σφάλμα CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "Ο Αρχηγός αποχώρησε από την ομάδα."
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "Η ομάδα διαλύθηκε."
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "Είδος μάχης προσωρινά μη διαθέσιμο"
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "Αποστράτευση."
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "Σφάλμα PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "Τέλος χρόνου."
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "Άγνωστο σφάλμα."
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "Σφάλμα VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "Αποκλειστήκατε από τον Ουλαμό."
+
+msgid "prebattle/kick/type/unknown"
+msgstr "Αποκλειστήκατε από την ομάδα."
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "Θα πρέπει να κατέχετε τουλάχιστον 3 κατάλληλα οχήματα για τις μάχες αυτές. Περισσότερες πληροφορίες θα βρείτε στη σελίδα «Σχετικά Με Τις Μάχες Επέλασης»."
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "Αναζήτηση"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "Αλλαγή φωνητικής συνομιλίας"
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "Αλλαγή Κατηγορίας"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "Επιλογή τύπου μάχης"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "Αλλαγή Υποκατηγορίας"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "Επιλογή τύπου μάχης"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "Αλλαγή ρυθμίσεων"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "Επεξεργασία ομάδας"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "Αλλαγή λειτουργίας Θεατή"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "Κλείδωμα θέσης"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "Αναζήτηση"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "Πρόσκληση σε Ομάδα"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "Επικυρώστε ετοιμότητα"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "Επικύρωση ετοιμότητας ομάδας"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "Επιλογή Οχημάτων"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "Αλλαγή Ομάδων"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "Αναζήτηση"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "Μόνο ομάδες με ελάχιστο αριθμό οχημάτων μπορούν να συμμετέχουν σε μάχες: %(minCount)d."
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "Μόνο ομάδες με συνολικό επίπεδο μεταξύ %(minTotalLevel)d και %(maxTotalLevel)d μπορούν να συμμετέχουν σε μάχες."
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "Μόνο οχήματα των βαθμίδων %(minLevel)d με %(maxLevel)d επιτρέπονται."
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "Το όχημα δεν είναι κατάλληλο γι αυτή τη μάχη."
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "Όλα τα μέλη της ομάδας δεν μπορούν να γίνουν Θεατές."
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "Το επιλεγμένο όχημα είναι κατάλληλο μόνο για μάχες Πρώτης Γραμμής."
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "Το επιλεγμένο όχημα είναι κατάλληλο μόνο για Εφόρμηση."
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "Τα βλήματα και τα αναλώσιμα που έχει ανεφοδιαστεί το επιλεγμένο όχημα δεν ταιριάζουν με τις συνθήκες της μάχης."
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "Λανθασμένη βαθμίδα οχήματος γι αυτή τη μάχη. Ελάχιστη βαθμίδα γι αυτόν τον τύπο: %s. Μέγιστη βαθμίδα οχήματος γι αυτή την κλάση: %s."
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "Λάθος τύπος οχήματος γι αυτή τη μάχη. Τύποι που επιτρέπονται: %s."
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "Τα εξαρτήματα που έχουν τοποθετηθεί στο επιλεγμένο όχημα δεν ταιριάζουν με τις συνθήκες της μάχης."
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "Λανθασμένη βαθμίδα οχήματος γι αυτή τη μάχη. Ελάχιστη Βαθμίδα: %s. Μέγιστη Βαθμίδα: %s."
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "Η εθνικότητα αυτού του οχήματος είναι λανθασμένη γι αυτή τη μάχη. Εθνικότητες που επιτρέπονται: %s."
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "Ασύμβατο όχημα"
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "Τα βλήματα που έχει ανεφοδιαστεί το επιλεγμένο όχημα δεν ταιριάζουν με τις συνθήκες της μάχης."
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "Ασύμβατο όχημα"
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "Λάθος όχημα γι αυτή τη μάχη."
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "Το επιλεγμένο όχημα δεν είναι έτοιμο."
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "Ενέργεια μη διαθέσιμη. Θα πρέπει να επιλέξτε όχημα."
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "Αδύνατη η συμμετοχή στην ομάδα."
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "Ασύμβατο όχημα"
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "Το επιλεγμένο όχημα θα γίνει διαθέσιμο μέσα στη μάχη."
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "Μη δυνατή η εύρεση αντιπάλων για την τρέχουσα ομάδα. Δοκιμάστε να ξαναφτιάξετε την ομάδα σας."
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "Αδύνατη η εύρεση αντιπάλων για τον παρόντα Ουλαμό. Αναδιοργανώστε την ομάδα σας."
+
+msgid "premium/buyingSuccess"
+msgstr "Προνομιακός Λογαριασμός αγοράστηκε για %(period)d ημέρες. Κόστος %(money)s."
+
+msgid "premium/continueSuccess"
+msgstr "Ο Προνομιακός Λογαριασμός παρατάθηκε για %(period)d ημέρες. Κόστος %(money)s."
+
+msgid "premium/not_enough_gold"
+msgstr "Όχι αρκετό gold για αγορά Προνομιακού Λογαριασμού για %(period)d ημέρες."
+
+msgid "premium/post_battle_premium"
+msgstr "Με την αγορά Προνομιακού Λογαριασμού κερδίζετε %(xpDiff)d XP και %(creditDiff)d credits."
+
+msgid "premium/server_error"
+msgstr "Αδύνατη η αγορά Προνομιακού Λογαριασμού για %(period)d ημέρες. Προσπαθήστε ξανά αργότερα."
+
+msgid "premium/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "Μη διαθέσιμη ενέργεια. Προσπαθήστε ξανά αργότερα."
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "Μη διαθέσιμη ενέργεια. Παρακαλούμε περιμένετε μέχρι να ολοκληρωθεί η τρέχουσα λειτουργία."
+
+msgid "premium_quests/switch_off/body"
+msgstr "Η συγκεκριμένη λειτουργία είναι προσωρινά μη διαθέσιμη για τεχνικούς λόγους.\nΜας συγχωρείτε για την ταλαιπωρία."
+
+msgid "premium_quests/switch_off/title"
+msgstr "Οι Προνομιακές αποστολές είναι προσωρινά μη διαθέσιμες"
+
+msgid "premium_quests/switch_on/body"
+msgstr "Επήλθε λύση στα τεχνικά ζητήματα. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "premium_quests/switch_on/title"
+msgstr "Οι Προνομιακές αποστολές είναι και πάλι διαθέσιμες"
+
+msgid "progressiveReward/error"
+msgstr "Προσωρινά μη διαθέσιμη λειτουργία. Προσπαθήστε ξανά αργότερα."
+
+msgid "progressiveReward/switch_off"
+msgstr "Έπαθλα Επιβράβευσης: προσωρινά μη διαθέσιμα. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "progressiveReward/switch_on"
+msgstr "Τα Έπαθλα Επιβράβευσης είναι διαθέσιμα και πάλι."
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "Η αποστολή έληξε. Λεπτομερής περιγραφή μη διαθέσιμη."
+
+msgid "queue/isInQueue"
+msgstr "Προσωρινά μη διαθέσιμη λειτουργία. Προσπαθήστε ξανά αργότερα."
+
+msgid "rally/leaveDisabled"
+msgstr "Ενέργεια μη διαθέσιμη.\nΔεν μπορείτε να αποχωρήσετε. Είστε μέλος της επιχειρησιακής μονάδας και έτοιμος για μάχη."
+
+msgid "ranked/notification/available"
+msgstr "Τέλος Εκεχειρίας: οι Μάχες Κατάταξης είναι ξανά διαθέσιμες."
+
+msgid "ranked/notification/available/title"
+msgstr "Μάχες Κατάταξης Διαθέσιμες"
+
+msgid "ranked/notification/congratulations"
+msgstr "Συγχαρητήρια!"
+
+msgid "ranked/notification/notAvailable"
+msgstr "Οι Μάχες Κατάταξης δεν είναι διαθέσιμες. Παρακολουθήστε τα νέα μας από το portal του παιχνιδιού."
+
+msgid "ranked/notification/notSet"
+msgstr "Οι μάχες αυτές δεν είναι διαθέσιμες στον επιλεγμένο server."
+
+msgid "ranked/notification/notSet/title"
+msgstr "Μάχες Κατάταξης Μη Διαθέσιμες"
+
+msgid "ranked/notification/primeTime"
+msgstr "Οι Μάχες Κατάταξης δεν είναι διαθέσιμες μέχρι το τέλος της Εκεχειρίας."
+
+msgid "ranked/notification/primeTime/title"
+msgstr "Εκεχειρία"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "Οι επιδόσεις σας ήταν καταπληκτικές στις Περιόδους 2020/2021 των Μαχών Κατάταξης και κερδίσατε μία θέση ανάμεσα στους κορυφαίους παίκτες!"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "Συγχαρητήρια!"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "Οι επιδόσεις σας ήταν καταπληκτικές στις Περιόδους 2020/2021 των Μαχών Κατάταξης και κερδίσατε μία θέση ανάμεσα στους %(playerPosition)s κορυφαίους παίκτες!"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "Συγχαρητήρια!"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "Κερδισμένο παράσημο:"
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "Κερδισμένα παράσημα:"
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "Κερδισμένα credits:"
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "Κερδισμένα bonds:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "Παραλαβή Anniversary Coins:"
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "Κερδισμένο gold:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "Νέος βελτιωμένος εξοπλισμός για να επιλέξετε: %(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "Κερδισμένο καμουφλάζ:"
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "Κερδισμένα καμουφλάζ:"
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "Κερδισμένα Tokens Θέσης: %(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "Ημέρα Προνομιακού Λογαριασμού Wargaming"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "Ημέρες Προνομιακού Λογαριασμού Wargaming (x%(daysCount)s)"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "Ημέρα Προνομιακού Λογαριασμού WoT"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "Ημέρες Προνομιακού Λογαριασμού WoT (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "Αποτελέσματα φάσης %(number)s"
+
+msgid "ranked/notifications/league"
+msgstr "Λίγκα: %(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "Χρυσή"
+
+msgid "ranked/notifications/league2"
+msgstr "Ασημένια"
+
+msgid "ranked/notifications/league3"
+msgstr "Χάλκινη"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "Κερδισμένα Tokens Θέσης από τη Χρυσή Λίγκα: %(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "Μέγιστη Θέση: %(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s, %(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "Θέση στον Πίνακα Κατάταξης: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "Ολοκληρώσατε τα προκριματικά"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "Κερδισμένα Tokens Θέσης από την Περίοδο: %(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "Αποτελέσματα Μαχών Κατάταξης, Περίοδος %(seasonNumber)s"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "Καταλάβατε τη Θέση %(rankName)s (%(divisionName)s)"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "Επιτύχατε τη διάκριση Sprinter και βελτίωση των επάθλων."
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "Επιτύχατε τη διάκριση Sprinter"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "Αδύνατη η στρατολόγηση νέου μέλους πληρώματος: το όχημα έχει μοναδικό μόνιμο πλήρωμα."
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "Αδύνατη η στρατολόγηση μέλους πληρώματος. Η υπηρεσία είναι προσωρινά μη διαθέσιμη."
+
+msgid "recruit_window/financial_success"
+msgstr "Το μέλος πληρώματος στρατολογήθηκε για το %(vehName)s. Κόστος σε credits: %(credits)s."
+
+msgid "recruit_window/financial_success_credits"
+msgstr "Το μέλος πληρώματος στρατολογήθηκε για το %(vehName)s.\nΚόστος σε credits: %(price)s."
+
+msgid "recruit_window/financial_success_gold"
+msgstr "Το μέλος πληρώματος στρατολογήθηκε για το %(vehName)s.\nΚόστος σε gold: %(price)s."
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "Έχετε φτάσει στο ανώτατο όριο της ημέρας για δωρεάν μέλη πληρώματος."
+
+msgid "recruit_window/not_enough_credits"
+msgstr "Σφάλμα στην στρατολόγηση μέλους του πληρώματος. Όχι αρκετά credits."
+
+msgid "recruit_window/not_enough_gold"
+msgstr "Σφάλμα στην στρατολόγηση μέλους του πληρώματος. Όχι αρκετό gold."
+
+msgid "recruit_window/not_enough_space"
+msgstr "Σφάλμα στην στρατολόγηση και μεταφορά μέλους του πληρώματος στο όχημα. Όχι αρκετές κλίνες στον Στρατώνα. Παρακαλούμε ελευθερώστε μία κλίνη ή αγοράστε πρόσθετες κλίνες στον Στρατώνα."
+
+msgid "recruit_window/server_error"
+msgstr "Αδύνατη η στρατολόγηση μέλους πληρώματος. Προσπαθήστε ξανά αργότερα."
+
+msgid "recruit_window/success"
+msgstr "Το μέλος πληρώματος στρατολογήθηκε δωρεάν για το %(vehName)s."
+
+msgid "recruit_window/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "Αδύνατη η μεταφορά του μέλους πληρώματος: το όχημα έχει μοναδικό μόνιμο πλήρωμα."
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "Σφάλμα στην αντικατάσταση μέλους του πληρώματος. Λάθος όχημα."
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "Αδύνατη η αποστολή μέλους του πληρώματος στον Στρατώνα. Όχι αρκετές κλίνες στον Στρατώνα."
+
+msgid "reequip_tankman/server_error"
+msgstr "Αδύνατη η αντικατάσταση μέλους του πληρώματος. Προσπαθήστε ξανά αργότερα."
+
+msgid "reequip_tankman/success"
+msgstr "Το μέλος του πληρώματος αντικαταστάθηκε επιτυχώς."
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "Σφάλμα στην αντικατάσταση μέλους του πληρώματος. Το όχημα είναι κλειδωμένο."
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "Σφάλμα στην αντικατάσταση μέλους του πληρώματος. Επισκευάστε το όχημά σας."
+
+msgid "remove_component"
+msgstr "Το στοιχείο %s \"%s\" αποσυνδέθηκε από το όχημα."
+
+msgid "remove_vehicle_broken"
+msgstr "Αδύνατη η αφαίρεση του στοιχείου %s \"%s\": το όχημα έχει υποστεί φθορές. Επισκευάστε το όχημά σας και δοκιμάστε ξανά."
+
+msgid "remove_vehicle_locked"
+msgstr "Αδύνατη η αφαίρεση του στοιχείου %s \"%s\": το όχημα είναι κλειδωμένο."
+
+msgid "repair/credits_error"
+msgstr "%s περισσότερα credits απαιτούνται για την επισκευή '%s'."
+
+msgid "repair/server_error"
+msgstr "Σφάλμα στην επισκευή του %s. Δοκιμάστε ξανά αργότερα."
+
+msgid "repair/success"
+msgstr "Το %s επισκευάστηκε. Κόστος %s."
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "Αδύνατη η αντικατάσταση των Προσωπικών Δεδομένων του μέλους πληρώματος: το όχημα έχει μοναδικό μόνιμο πλήρωμα."
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "Σφάλμα στην αντικατάσταση Προσωπικών Δεδομένων. Λάθος όχημα."
+
+msgid "replace_tankman/not_enough_money"
+msgstr "Σφάλμα στην αντικατάσταση Προσωπικών Δεδομένων. Όχι αρκετά credits."
+
+msgid "replace_tankman/server_error"
+msgstr "Αποτυχία στην αντικατάσταση Προσωπικών Δεδομένων. Προσπαθήστε ξανά αργότερα."
+
+msgid "replace_tankman/success"
+msgstr "Επιτυχής αλλαγή της εμφάνισης."
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "Σφάλμα στην αντικατάσταση Προσωπικών Δεδομένων. Το όχημα είναι κλειδωμένο."
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "Σφάλμα στην αντικατάσταση Προσωπικών Δεδομένων. Επισκευάστε το όχημά."
+
+msgid "request/isInCoolDown"
+msgstr "Η λειτουργία \"%(request)s\" είναι παγωμένη για %(coolDown)s s."
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "Αδύνατη η επαναφορά ικανοτήτων.\nΟ server είναι προσωρινά μη διαθέσιμος. Δοκιμάστε ξανά αργότερα."
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "Έγινε δωρεάν επαναφορά όλων των ικανοτήτων\nγια όλα τα μέλη πληρώματος."
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "Σφάλμα στην κατανάλωση πόρων. Προσπαθήστε ξανά."
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "Σφάλμα κατά την επιστροφή των πόρων. Προσπαθήστε ξανά."
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "Υπάρχουν ακόμη οχήματα διαθέσιμα για ανάκτηση. Μπορείτε από τον Εφοδιασμό να στείλετε τα αντίστοιχα οχήματα πίσω στο Γκαράζ."
+
+msgid "restore_tankman/DISABLED"
+msgstr "Η ανάκτηση του μέλους του πληρώματος είναι προσωρινά μη διαθέσιμη. Προσπαθήστε ξανά αργότερα."
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "Αδύνατη η ανάκτηση του μέλους του πληρώματος."
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "Όχι αρκετό gold για ανάκτηση του μέλους του πληρώματος."
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "Αδύνατη η ανάκτηση του μέλους του πληρώματος. Έληξε ο διαθέσιμος χρόνος γι αυτήν τη λειτουργία."
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "Αδύνατη η ανάκτηση του μέλους του πληρώματος. Προσπαθήστε ξανά αργότερα."
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "Αδύνατη η ανάκτηση του μέλους του πληρώματος. Η ανάκτηση μελών πληρώματος είναι προσωρινά μη διαθέσιμη."
+
+msgid "restore_tankman/error"
+msgstr "Το μέλος πληρώματος %(tankman)s δεν μπορεί πλέον να ανακτηθεί."
+
+msgid "restore_tankman/financial_success"
+msgstr "Το μέλος πληρώματος ανακτήθηκε επιτυχώς.\nΚόστος σε credits: %(money)s."
+
+msgid "restore_tankman/not_enough_space"
+msgstr "Αδύνατη η ανάκτηση του μέλους του πληρώματος. Όχι αρκετές κλίνες στον Στρατώνα."
+
+msgid "restore_tankman/server_error"
+msgstr "Αδύνατη η ανάκτηση του συγκεκριμένου μέλους πληρώματος. Προσπαθήστε ξανά αργότερα."
+
+msgid "restore_tankman/success"
+msgstr "Το μέλος του πληρώματος ανακτήθηκε επιτυχώς."
+
+msgid "retraining_change_tankman_role/success"
+msgstr "Η ειδικότητα του μέλους πληρώματος άλλαξε."
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "Αδύνατη η επανεκπαίδευση του πληρώματος: το όχημα έχει μοναδικό μόνιμο πλήρωμα."
+
+msgid "retraining_crew/empty_list"
+msgstr "Σφάλμα στην επανεκπαίδευση του πληρώματος. Δεν έχουν επιλεχθεί μέλη του πληρώματος."
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "Κόστος σε credits: %(money)s."
+
+msgid "retraining_crew/financial_success_free"
+msgstr "Το πλήρωμα εκπαιδεύτηκε δωρεάν για το %(vehName)s."
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "Κόστος σε gold: %(money)s."
+
+msgid "retraining_crew/invalid_operation"
+msgstr "Σφάλμα στην επανεκπαίδευση του πληρώματος. Η λειτουργία δεν είναι διαθέσιμη."
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "Σφάλμα στην επανεκπαίδευση του πληρώματος. Λάθος όχημα."
+
+msgid "retraining_crew/server_error"
+msgstr "Αδύνατη η επανεκπαίδευση του πληρώματος. Προσπαθήστε ξανά αργότερα."
+
+msgid "retraining_crew/success"
+msgstr "Το πλήρωμα εκπαιδεύτηκε για το %(vehName)s."
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "Σφάλμα στην επανεκπαίδευση του πληρώματος. Το όχημα είναι κλειδωμένο."
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "Σφάλμα στην επανεκπαίδευση του πληρώματος. Επισκευάστε το όχημά σας."
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "Αδύνατη η επανεκπαίδευση του μέλους του πληρώματος: το όχημα έχει μοναδικό μόνιμο πλήρωμα."
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "Κόστος σε credits: %(money)s."
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "Το μέλος πληρώματος εκπαιδεύτηκε δωρεάν για το %(vehName)s."
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "Κόστος σε gold: %(money)s."
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "Σφάλμα στην επανεκπαίδευση μέλους του πληρώματος. Η λειτουργία δεν είναι διαθέσιμη."
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "Σφάλμα στην επανεκπαίδευση μέλους του πληρώματος. Λάθος όχημα."
+
+msgid "retraining_tankman/server_error"
+msgstr "Αδύνατη η επανεκπαίδευση μέλους του πληρώματος.\nΠροσπαθήστε ξανά αργότερα."
+
+msgid "retraining_tankman/success"
+msgstr "Το μέλος πληρώματος εκπαιδεύτηκε για το %(vehName)s."
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "Σφάλμα στην επανεκπαίδευση μέλους του πληρώματος. Το όχημα είναι κλειδωμένο."
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "Σφάλμα στην επανεκπαίδευση μέλους του πληρώματος. Επισκευάστε το όχημά."
+
+msgid "return_crew/FORBIDDEN"
+msgstr "Αδύνατη η επιστροφή του πληρώματος: το όχημα έχει μοναδικό μόνιμο πλήρωμα."
+
+msgid "return_crew/invalid_vehicle"
+msgstr "Σφάλμα στην επιστροφή του πληρώματος. Λάθος όχημα."
+
+msgid "return_crew/not_enough_space"
+msgstr "Αδύνατη η αποστολή μέλους του πληρώματος στον Στρατώνα. Όχι αρκετές κλίνες στον Στρατώνα."
+
+msgid "return_crew/return_unavailable"
+msgstr "Κάποια μέλη πληρώματος δεν μπορούν να επιστρέψουν στο όχημα."
+
+msgid "return_crew/server_error"
+msgstr "Αδύνατη η επιστροφή του πληρώματος. Προσπαθήστε ξανά αργότερα."
+
+msgid "return_crew/success"
+msgstr "Το πλήρωμα μεταφέρθηκε με επιτυχία."
+
+msgid "return_crew/vehicle_locked"
+msgstr "Σφάλμα στην επιστροφή του πληρώματος. Το όχημα είναι κλειδωμένο."
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "Σφάλμα στην επιστροφή του πληρώματος. Επισκευάστε το όχημά σας."
+
+msgid "rotation/lock"
+msgstr "Τα παρακάτω γκρουπ είναι κλειδωμένα και δεν είναι διαθέσιμα για μάχες: %(groupNum)s."
+
+msgid "rotation/unlock"
+msgstr "Τα παρακάτω γκρουπ δεν είναι κλειδωμένα και είναι διαθέσιμα για μάχες: %(groupNum)s."
+
+msgid "rotation/vehicleIsLocked"
+msgstr "Το όχημα είναι κλειδωμένο και δεν είναι διαθέσιμο για μάχες."
+
+msgid "royale/notification/congratulations"
+msgstr "Συγχαρητήρια!"
+
+msgid "royale/notification/primeTime"
+msgstr "Οι μάχες Steel Hunter δεν είναι διαθέσιμες μέχρι το τέλος της Εκεχειρίας. Ελέγξτε το πρόγραμμα στο ημερολόγιο."
+
+msgid "royale/notification/primeTime/title"
+msgstr "Εκεχειρία"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "φτάσατε στο Επίπεδο: %(level)s"
+
+msgid "rts/notification/available"
+msgstr "Οι μάχες του Art of Strategy είναι και πάλι διαθέσιμες σε αυτόν τον server."
+
+msgid "rts/notification/available/title"
+msgstr "Μάχες Μη Διαθέσιμες"
+
+msgid "rts/notification/notAvailable"
+msgstr "Η διοργάνωση Art of Strategy δεν είναι διαθέσιμη. Παρακολουθήστε τα νέα από το portal του παιχνιδιού."
+
+msgid "rts/notification/notSet"
+msgstr "Οι μάχες του Art of Strategy δεν είναι διαθέσιμες στον επιλεγμένο server."
+
+msgid "rts/notification/notSet/title"
+msgstr "Μάχες Μη Διαθέσιμες"
+
+msgid "rts/notification/primeTime"
+msgstr "Εκεχειρία. Οι μάχες του Art of Strategy είναι προσωρινά μη διαθέσιμες."
+
+msgid "rts/notification/primeTime/title"
+msgstr "Εκεχειρία"
+
+msgid "securityMessage/bad_email"
+msgstr "Έχετε καταχωρήσει την ηλεκτρονική σας διεύθυνση σε ύποπτο server. Παρακαλούμε αλλάξτε το e-mail σας για λόγους ασφαλείας. %(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "Αλλάξτε ρυθμίσεις ασφαλείας"
+
+msgid "securityMessage/no_phone"
+msgstr "Για λόγους ασφαλείας, παρακαλούμε προσθέστε έναν αριθμό τηλεφώνου στο λογαριασμό σας. %(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "Για αναπροσαρμογή κωδικού, παρακαλούμε γράψτε μία ερώτηση ασφαλείας στη Διαχείριση Λογαριασμού σας. %(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "Δεν έχετε αλλάξει τον κωδικό σας για 30 μέρες. Παρακαλούμε αλλάξτε τον κωδικό για λόγους ασφαλείας. %(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "Ο κωδικός που ορίσατε κατά την δημιουργία του λογαριασμού σας δεν είναι αρκετά ασφαλής. Παρακαλούμε αλλάξτε τον κωδικό. %(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "Αδύνατη η πώληση του %s: το όχημα έχει υποστεί φθορές. Επισκευάστε το όχημά σας και δοκιμάστε ξανά."
+
+msgid "sell_vehicle_locked"
+msgstr "Αδύνατη η πώληση του %s: το όχημα είναι κλειδωμένο."
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "Η διοργάνωση «Ένα Έπαθλο Που Σας Αξίζει» συνεχίζεται. Λυπούμαστε για την προσωρινή ταλαιπωρία."
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "Η διοργάνωση «Ένα Έπαθλο Που Σας Αξίζει» έχει διακοπεί προσωρινά για εργασίες συντήρησης."
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "Σφάλμα στην απονομή επάθλων. Η λειτουργία αυτή είναι προσωρινά μη διαθέσιμη."
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "Σφάλμα στην απονομή του επάθλου. Επικοινωνήστε με την Υποστήριξη Παικτών."
+
+msgid "seniority_awards/selection_timeout"
+msgstr "Τα έπαθλα για τα χρόνια υπηρεσίας καθυστερούν. Προσπαθήστε αργότερα."
+
+msgid "serverInstallError"
+msgstr "Σφάλμα του server στην τοποθέτηση του στοιχείου %s \"%s\". Δοκιμάστε ξανά αργότερα."
+
+msgid "serverRemoveError"
+msgstr "Σφάλμα στην αφαίρεση στοιχείου %s \"%s\". Δοκιμάστε ξανά αργότερα."
+
+msgid "server_shut_down"
+msgstr "Επανεκκίνηση server παιχνιδιού"
+
+msgid "session_tracker_kick"
+msgstr "Το Wargaming.net&nbsp;ID σας χρησιμοποιήθηκε για σύνδεση σε άλλο παιχνίδι. Η συνεδρία με το τρέχον παιχνίδι διακόπηκε."
+
+msgid "shell_buy/invalid_module"
+msgstr "Αδύνατη η αγορά %(name)s. Λάθος βλήματα."
+
+msgid "shell_buy/not_enough_credits"
+msgstr "Αδύνατη η αγορά %(name)s. Όχι αρκετά credits."
+
+msgid "shell_buy/not_enough_gold"
+msgstr "Αδύνατη η αγορά %(name)s. Όχι αρκετό gold."
+
+msgid "shell_buy/server_error"
+msgstr "Αδύνατη η αγορά %(name)s. Προσπαθήστε ξανά αργότερα."
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "Αδύνατη η αγορά βλημάτων %(name)s. Ο server είναι προσωρινά μη διαθέσιμος."
+
+msgid "shell_buy/success"
+msgstr "Τα βλήματα %(name)s αγοράστηκαν με επιτυχία (%(count)s τεμάχια). Κόστος %(money)s."
+
+msgid "shell_buy/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "shell_sell/invalid_module"
+msgstr "Αδύνατη η πώληση του στοιχείου \"%(name)s\". Λάθος βλήματα."
+
+msgid "shell_sell/server_error"
+msgstr "Αδύνατη η πώληση του στοιχείου \"%(name)s\". Προσπαθήστε ξανά αργότερα."
+
+msgid "shell_sell/success"
+msgstr "Βλήματα \"%(name)s\" (%(count)s τεμάχια). Λάβατε %(money)s."
+
+msgid "shells_apply/error"
+msgstr "Σφάλμα στη διαμόρφωση των πυρομαχικών. Προσπαθήστε ξανά αργότερα."
+
+msgid "shells_apply/not_enough_money"
+msgstr "Σφάλμα στη διαμόρφωση των πυρομαχικών. Ανεπαρκείς πόροι για την αγορά τους."
+
+msgid "shells_apply/success_money_spent"
+msgstr "Συνολικό κόστος για πυρομαχικά %(money)s."
+
+msgid "shells_apply/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την επαναφορά λειτουργίας του WG Wallet."
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "Το αίτημα για αγορά και τοποθέτηση του εξαρτήματος έχει σταλεί. Αναμονή για ανταπόκριση του server."
+
+msgid "shop/item/buy_server_error"
+msgstr "Αποτυχία στην αγορά του στοιχείου %(typeString)s \"%(userString)s\". Παρακαλούμε προσπαθήστε ξανά αργότερα."
+
+msgid "shop/item/buy_success"
+msgstr "Το στοιχείο %(typeString)s \"%(userString)s\" αγοράστηκε με επιτυχία (%(count)d τεμάχια). Κόστος %(price)s."
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "Προσωρινά μη διαθέσιμη επιχείρηση."
+
+msgid "shop/item/not_enough_money"
+msgstr "Για αγορά του στοιχείου %(typeString)s \"%(userString)s\" χρειάζεστε %(price)s ακόμα."
+
+msgid "shop/item/not_found"
+msgstr "Το στοιχείο %(typeString)s \"%(userString)s\" δε βρέθηκε στον Εφοδιασμό. Δοκιμάστε ξανά αργότερα."
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "Η λειτουργία είναι προσωρινά μη διαθέσιμη."
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "Για αγορά %(userString)s χρειάζεστε %(price)s ακόμα."
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "Για εκμίσθωση του %(userString)s, χρειάζεστε ακόμα %(price)s."
+
+msgid "shop/vehicle/not_found"
+msgstr "%(userString)s δεν βρέθηκε στον Εφοδιασμό. Παρακαλούμε δοκιμάστε ξανά αργότερα."
+
+msgid "shop_resync"
+msgstr "Αναβάθμιση διασύνδεσης την %(date)s στις %(time)s λόγω αλλαγών στον server."
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "Η οδηγία <font color='#E9E2BF'>\"{oldName}\"</font> ({amount}) μετατράπηκε στην οδηγία <font color='#E9E2BF'>\"{newName}\"</font> ({amount})"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "Ημερομηνία: %(date)s\nΜετατροπή %(items)s οδηγιών."
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "Απόδειξη"
+
+msgid "squad/createError"
+msgstr "Mόνο χρήστες με Προνομιακό Λογαριασμό μπορούν να σχηματίζουν Ουλαμούς."
+
+msgid "squad/kickedFromQueue"
+msgstr "Αδύνατη η εύρεση αντιπάλων για τον παρόντα Ουλαμό. Αναδιοργανώστε την ομάδα σας."
+
+msgid "squad/leaveDisabled"
+msgstr "Ενέργεια μη διαθέσιμη.\nΔεν μπορείτε να αποχωρήσετε. Είστε μέλος του Ουλαμού και έτοιμος για μάχη."
+
+msgid "squad/memberJoined"
+msgstr "Ο %s μπήκε στην επιχειρησιακή μονάδα."
+
+msgid "squad/memberLeave"
+msgstr "Ο %s έφυγε από την επιχειρησιακή μονάδα."
+
+msgid "squad/memberNotReady"
+msgstr "Ο %s δεν είναι έτοιμος."
+
+msgid "squad/memberOffline"
+msgstr "Διακόπηκε η σύνδεση με τον %s."
+
+msgid "squad/memberReady"
+msgstr "Ο %s είναι έτοιμος."
+
+msgid "squad/notSetReadyStatus"
+msgstr "Αδύνατη η εισόδος σε μάχη με τον Ουλαμό."
+
+msgid "squad/notValidDeleted"
+msgstr "Το %(vehName)s εξαιρέθηκε από τον Ουλαμό επειδή η βαθμίδα του δεν ταιριάζει με τη βαθμίδα του οχήματος του Αρχηγού. Επιλέξτε όχημα της ίδιας βαθμίδας."
+
+msgid "squad/notValidDeletedFilter"
+msgstr "Το %(vehName)s εξαιρέθηκε από τον Ουλαμό επειδή ο Αρχηγός άλλαξε τις προδιαγραφές."
+
+msgid "squad/notValidEnqueueData"
+msgstr "Εξαιρεθήκατε από τον Ουλαμό επειδή ο Αρχηγός άλλαξε τις προδιαγραφές ή δεν μπορείτε να ενταχθείτε στον Ουλαμό επειδή το όχημά σας δεν πληροί τις απαιτούμενες προδιαγραφές. Επιλέξτε άλλο όχημα."
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "Το %(vehName)s εξαιρέθηκε από τον Ουλαμό εξαιτίας του περιορισμού στα οχήματα αυτού του τύπου που μπορούν να μετέχουν σε αυτόν. Επιλέξτε ένα όχημα άλλου τύπου."
+
+msgid "squad_bonus/switch_off/body"
+msgstr "Η συγκεκριμένη λειτουργία είναι προσωρινά μη διαθέσιμη για τεχνικούς λόγους.\nΜας συγχωρείτε για την ταλαιπωρία."
+
+msgid "squad_bonus/switch_off/title"
+msgstr "Το bonus Ουλαμού είναι προσωρινά μη διαθέσιμο"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "Επήλθε λύση στα τεχνικά ζητήματα. Λυπούμαστε για την ταλαιπωρία."
+
+msgid "squad_bonus/switch_on/title"
+msgstr "Το bonus Ουλαμού είναι και πάλι διαθέσιμο"
+
+msgid "ssr/unavailable"
+msgstr "Αδύνατο το κατέβασμα του replay"
+
+msgid "steam_login_not_allowed"
+msgstr "Δεν μπορείτε να παίξετε μέσω αυτής της εφαρμογής. Ο λογαριασμός σας στο Steam έχει ήδη συνδεθεί με τον λογαριασμό σας στη Wargaming.net. Περισσότερες πληροφορίες θα βρείτε στην Υποστήριξη Παικτών."
+
+msgid "tankman/tankmanToRemove"
+msgstr "Το μέλος πληρώματος αποστρατεύτηκε."
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s d"
+
+msgid "techtree/action/header"
+msgstr "Προσφορά \"%(actionName)s\""
+
+msgid "techtree/action/text"
+msgstr "Λήξη προσφοράς σε "
+
+msgid "techtree/action/text/closest"
+msgstr "Λήξη επόμενης προσφοράς σε: "
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "Αιτία: το συγκεκριμένο όχημα είναι διαθέσιμο μόνο για τα μέλη του Prime Gaming. Ελέγξτε την κατάσταση της συνδρομής σας στο Prime Gaming."
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "Μη διαθέσιμο όχημα"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "Ημερομηνία: %(datetime)s\nΠροσθήκη οχημάτων: %(vehicles)s\nΠροσθήκη: θέση στο Γκαράζ, %(crew)s καμουφλάζ 3D."
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "Ημερομηνία: %(datetime)s\nΠροσθήκη οχημάτων: %(vehicles)s\nΠροσθήκη: 1 θέση στο Γκαράζ,%(crew)s αποκλειστικό καμουφλάζ."
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr " πλήρωμα%(skills)s στο 100%%,"
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "Προσθήκη οχημάτων"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "Ημερομηνία: %(datetime)s\nΑφαίρεση: %(vehicles)s, 1 θέση στο Γκαράζ."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "Αιτία: το συγκεκριμένο όχημα είναι διαθέσιμο μόνο για τα μέλη του Prime Gaming. Ελέγξτε την κατάσταση της συνδρομής σας στο Prime Gaming."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "Αποσύρθηκαν Οχήματα"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "Το όχημα είναι και πάλι διαθέσιμο"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "Παραλάβατε το T-44-100 Igrovoy. Αφαίρεση του: %(tanks)s."
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "Οι αποστολές μπορούν πλέον να ολοκληρωθούν με το T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " και "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)s credits"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "Όλα τα μέλη πληρώματος του %(tanks)s έχουν πλέον εκπαιδευτεί για το T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "Ο εξοπλισμός αποσυνδέθηκε και στάλθηκε στην Αποθήκη.\nΤα στοιχεία προσαρμογής στάλθηκαν στην Αποθήκη.\nΤα βλήματα και οι οδηγίες στάλθηκαν στην Αποθήκη."
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "Τα πολεμοφόδια, τα στοιχεία προσαρμογής, το Combat Experience, τα στατιστικά και τα βραβεία μεταφέρθηκαν από το %(mergedTank)s στο T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)s Free XP"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr ", "
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "Αποζημίωση για το experience των Τροποποιήσεων Μάχης: %(compensation)s."
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "Αποζημίωση για τις αγορασμένες προοδευτικές χαλκομανίες: %(value)s gold."
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "τα στατιστικά και τα βραβεία του %(mergedTank)s μεταφέρθηκαν στο T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "Το άθροισμα του Combat Experience μεταφέρθηκε στο T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "Καλή τύχη στη μάχη!"
+
+msgid "telecomMergeResults/title"
+msgstr "Αλλαγές στο \"Igrovoy\" Tariff"
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "Η επιλογή και μίσθωση οχημάτων έχει ανασταλεί."
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "Η μίσθωση οχημάτων είναι προσωρινά μη διαθέσιμη"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "Η μίσθωση οχημάτων είναι διαθέσιμη"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "Συγχαρητήρια! Κερδίσατε %(count)s tokens."
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "Αποτυχία μεταφοράς gold. Ο παραλήπτης απέρριψε την συναλλαγή."
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "Η μεταφορά gold δεν είναι διαθέσιμη."
+
+msgid "tradingError/NO_WARES"
+msgstr "Αδύνατη η μεταφορά gold. Ανεπαρκές gold."
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "Φτάσατε το όριο των συναλλαγών. Δοκιμάστε ξανά αύριο."
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "Αποτυχία μεταφοράς gold. Δοκιμάστε ξανά αργότερα."
+
+msgid "training/error/AddPlayer"
+msgstr "Σφάλμα χώρου εκπαίδευσης. Υπέρβαση του μέγιστου αριθμού παικτών ανά ομάδα."
+
+msgid "training/error/doAction"
+msgstr "Σφάλμα στο χώρο εκπαίδευσης. Προσπαθήστε ξανά αργότερα."
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "Σφάλμα χώρου εκπαίδευσης. Μέγιστος αριθμός παικτών για μάχες Επέλασης: %(numPlayers)s."
+
+msgid "training/error/selectObserver"
+msgstr "Σφάλμα χώρου εκπαίδευσης. Μέγιστος αριθμός θεατών ανά ομάδα: %(numPlayers)s."
+
+msgid "training/error/swapTeams"
+msgstr "Σφάλμα server στην αλλαγή των ομάδων. Δοκιμάστε ξανά αργότερα."
+
+msgid "transferXP/server_error"
+msgstr "Μη διαθέσιμη λειτουργία. Προσπαθήστε ξανά αργότερα."
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "Ενέργεια μη διαθέσιμη. Ανεπαρκείς αρμοδιότητες."
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "Μη διαθέσιμη ενέργεια. Δεν είστε μέλος σε κανένα clan."
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "Σφάλμα: Αδύνατη η επαναφορά στη δράση του επιλεγμένου οχήματος."
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "Σφάλμα: Δεν υπάρχουν αρκετά Ανταλλακτικά για επαναφορά του οχήματος στη δράση."
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "Σφάλμα: Το κόστος επαναφοράς στη δράση του επιλεγμένου οχήματος έχει αλλάξει."
+
+msgid "unit/error/wgshEvent/common"
+msgstr "Σφάλμα: Αδύνατη η ολοκλήρωση της ενέργειας."
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "Σφάλμα ένταξης στον Ουλαμό: Ο λογαριασμός σας έχει προσωρινά αποκλειστεί από αυτό το είδος μάχης."
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "Μη διαθέσιμη ενέργεια. Ο λογαριασμός ανακτήθηκε."
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "Αυτός ο παίκτης είναι αδύνατο να συμμετάσχει στην ομάδα."
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "Ενέργεια μη διαθέσιμη. Η θέση είναι ήδη κατειλημμένη."
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "Ο παίκτης συμμετέχει ήδη στην ομάδα."
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "Αδύνατη η μεταφορά των αρμοδιοτήτων του Αρχηγού."
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "Μη διαθέσιμη ενέργεια. Μη έγκυρος τύπος λογαριασμού."
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "Μη διαθέσιμη ενέργεια. Μη έγκυρο clan."
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "Αδύνατη η συμμετοχή στην ομάδα."
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "Υπέρβαση του αθροίσματος των βαθμίδων των οχημάτων."
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "Μη διαθέσιμη ενέργεια. Μη έγκυρη λίστα μελών αποσπάσματος."
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "Λανθασμένος αριθμός θέσης"
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "Μη διαθέσιμη ενέργεια. Λάθος τύπος οχήματος για συμμετοχή στη μάχη με Ουλαμό."
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "Σφάλμα στη συμμετοχή στην ομάδα. Λάθος βαθμίδα οχήματος."
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "Η αλλαγή κατηγορίας δεν είναι διαθέσιμη την συγκεκριμένη ώρα."
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "Αδύνατη η εύρεση ομάδας."
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "Αδύνατη η αποστολή της πρόσκλησης."
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "Αδυναμία ένταξης σε Ουλαμό: Η συμμετοχή σε Ουλαμό θα είναι δυνατή μετά την ολοκλήρωση των Προκριματικών."
+
+msgid "unit/errors/COOLDOWN"
+msgstr "Μη δυνατή αυτή η λειτουργία προσωρινά."
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "Αποτυχία στην ολοκλήρωση της τελευταίας λειτουργίας με την ομάδα."
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "Το όχημα δεν είναι έτοιμο για μάχη ή δεν υπάρχει όχημα στο Γκαράζ."
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "Αδύνατη η τοποθέτηση ενός οχήματος στη θέση."
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "Μη διαθέσιμη ενέργεια. Κάποια μέλη του αποσπάσματος είναι ακόμα σε μάχη."
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "Δεν έχει δοθεί δικαίωμα γι αυτή την λειτουργία."
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "Ο λογαριασμός κλειδώθηκε."
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "Ομάδα σε αναμονή ή σε αποτελέσματα αναζήτησης."
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "Αδύνατη η συμμετοχή στην ομάδα. Η πρόσβαση απαγορεύτηκε."
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "Η ομάδα δεν είναι σε αναμονή."
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "Η ομάδα δεν είναι σε αποτελέσματα αναζήτησης."
+
+msgid "unit/errors/NOT_READY"
+msgstr "Η ομάδα δεν είναι έτοιμη."
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "Σφάλμα ένταξης στον Ουλαμό: Δεν έχετε κατάλληλο όχημα γι αυτό το είδος μάχης."
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "Αδύνατη η προσθήκη του παίκτη στην ομάδα."
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "Ενέργεια μη διαθέσιμη. Ο παίκτης δεν βρέθηκε."
+
+msgid "unit/errors/NO_UNIT"
+msgstr "Η ομάδα δεν βρέθηκε."
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "Η ομάδα δεν υπάρχει."
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "Ενέργεια μη διαθέσιμη. Σφάλμα στην προβολή της λίστας οχημάτων."
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "Μη διαθέσιμη ενέργεια. Ο παίκτης είναι εκτός σύνδεσης."
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "Ο Αρχηγός σας έχει στην μαύρη λίστα του."
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "Μη διαθέσιμη ενέργεια. Η προηγούμενη μάχη δεν έχει τελειώσει ακόμα."
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "Αδύνατος ο αποκλεισμός του παίκτη από την ομάδα."
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "Ενέργεια μη διαθέσιμη. Ένας ή περισσότεροι παίκτες δεν αποδέχθηκαν ακόμα την πρόσκληση."
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "Μη διαθέσιμη ενέργεια για μισθοφόρους."
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "Ενέργεια μη διαθέσιμη. Θέση μη κλειδωμένη."
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "Ενέργεια μη διαθέσιμη. Η θέση είναι ήδη κατειλημμένη."
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "Ενέργεια μη διαθέσιμη για αυτήν τη θέση."
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "Δεν επιτρέπονται οι Αψιμαχίες την συγκεκριμένη ώρα."
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "Αδύνατη η αλλαγή σε άλλο είδος μάχης. Το όριο των μελών του Ουλαμού έχει ξεπεραστεί."
+
+msgid "unit/errors/TIMEOUT"
+msgstr "Μη διαθέσιμη ενέργεια. Ο χρόνος έληξε."
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "Ενέργεια μη διαθέσιμη. Κλειδώθηκε ο μέγιστος αριθμός θέσεων."
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "Μη διαθέσιμη ενέργεια. Μέγιστος αριθμός μισθοφόρων."
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "Αδύνατη η δημιουργία ομάδας ή η συμμετοχή σε αυτήν."
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "Αδύνατη η δημιουργία ομάδας."
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "Μη διαθέσιμη ενέργεια. Το απόσπασμα ανακτήθηκε."
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "Ενέργεια μη διαθέσιμη. Το όχημα δεν πληροί τις προδιαγραφές."
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "Ενέργεια μη διαθέσιμη. Θα πρέπει να επιλέξτε όχημα."
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "Η ομάδα δεν υπάρχει."
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "Μη διαθέσιμη ενέργεια. Το όχημα δεν είναι έτοιμο ή δεν πληρούνται οι προδιαγραφές."
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Σας έχει δοθεί ο έλεγχος των Εφεδρειών."
+
+msgid "unit/notification/changeDivision"
+msgstr "Ο Αρχηγός %(name)s επέλεξε την %(division)s Κατηγορία."
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "Μέγιστη"
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "Μεγάλη"
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "Μεσαία"
+
+msgid "unit/notification/giveLeadership"
+msgstr "Ο %(userName)s διορίστηκε Αρχηγός της ομάδας."
+
+msgid "unit/notification/playerAdded"
+msgstr "Ο %(userName)s μπήκε στην επιχειρησιακή μονάδα."
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "Ο %(userName)s εντάχθηκε στον Ουλαμό με όχημα Βαθμίδας %(tierRange)s."
+
+msgid "unit/notification/playerOffline"
+msgstr "Η σύνδεση με τον %(userName)s χάθηκε."
+
+msgid "unit/notification/playerOnline"
+msgstr "Η σύνδεση με τον %(userName)s αποκαταστάθηκε."
+
+msgid "unit/notification/playerRemoved"
+msgstr "Ο %(userName)s αποχώρησε από την επιχειρησιακή μονάδα."
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "Η πρόσκληση έχει ήδη σταλεί."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "Οι αρμοδιότητες του Αρχηγού μεταφέρθηκαν σε άλλον παίκτη."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Οι αρμοδιότητες και ο έλεγχος των Εφεδρειών μεταβιβάστηκαν σε άλλον παίκτη."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Ο έλεγχος των Εφεδρειών δόθηκε σε άλλον παίκτη."
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "Έχετε εξαιρεθεί από το απόσπασμα: το απόσπασμα διαλύθηκε."
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "Έχετε εξαιρεθεί από το απόσπασμα. Αλλαγές στο clan."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "Ο διαθέσιμος χρόνος τελείωσε, γι αυτό δεν μπορείτε να μπείτε σε νέα μάχη. Θα αποσυνδεθείτε από τον server στις %(expiredTime)s."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "Ένας από τους παίκτες δεν έχει επαρκή χρόνο στη διάθεσή του για να τελειώσει τη μάχη. Ο Ουλαμός είναι πλέον σε φάση προετοιμασίας."
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "Αναστολή συγκρότησης μισθοφόρων."
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "Μη διαθέσιμη ενέργεια. Ο χρόνος αναμονής έληξε."
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "Σφάλμα στη συμμετοχή στην ομάδα. Έχετε αποκλειστεί από την ομάδα."
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "Έχετε αυτόματα αποκλειστεί από την λίστα των εθελοντών."
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "Έχετε αποκλειστεί από τον Αρχηγό."
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "Έχετε εξαιρεθεί από το απόσπασμα: το απόσπασμα διαλύθηκε."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "Οριστήκατε ως Αρχηγός Αποσπάσματος."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Οριστήκατε ως ο Αρχηγός του Αποσπάσματος.\nΈχετε των έλεγχο των Εφεδρειών."
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "Επιλέχθηκε άλλο προγεφύρωμα για την προώθηση."
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "Έχει επιλεχθεί άλλος τύπος μάχης."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "Αναζήτηση προσωρινά απενεργοποιημένη: πάρα πολλοί Ουλαμοί στον server."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "Αδύνατη η εύρεση παικτών εξαιτίας σφάλματος του server. Προσπαθήστε ξανά αργότερα."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "Ακύρωση αναζήτησης: τουλάχιστον 1 μέλος του Ουλαμού δεν διαθέτει κατάλληλο όχημα."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "Ο χρόνος αναζήτησης έληξε. Οι προαπαιτούμενοι παίκτες δεν βρέθηκαν."
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "Η είσοδος των παικτών είναι σε εξέλιξη. Παρακαλούμε περιμένετε."
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "Όχημα που επέστρεψε στη δράση: %(vehicleName)s"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "Αδύνατη η επικύρωση ετοιμότητας για συμμετοχή στην ομάδα."
+
+msgid "unload/button"
+msgstr "Στον Στρατώνα"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "Αδύνατη η αποστολή του πληρώματος στον Στρατώνα: το όχημα έχει μοναδικό μόνιμο πλήρωμα."
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "Σφάλμα στην αποστολή του πληρώματος στον Στρατώνα. Λάθος όχημα."
+
+msgid "unload_crew/server_error"
+msgstr "Αδύνατη η αποστολή του πληρώματος στον Στρατώνα. Προσπαθήστε ξανά αργότερα."
+
+msgid "unload_crew/success"
+msgstr "Το πλήρωμα στάλθηκε στον Στρατώνα."
+
+msgid "unload_crew/vehicle_locked"
+msgstr "Σφάλμα στην αποστολή του πληρώματος στον Στρατώνα. Το όχημα είναι κλειδωμένο."
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "Σφάλμα στην αποστολή του πληρώματος στον Στρατώνα. Επισκευάστε το όχημά σας."
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "Αδύνατη η αποστολή του μέλους του πληρώματος στον Στρατώνα: το όχημα έχει μοναδικό μόνιμο πλήρωμα."
+
+msgid "unload_tankman/button"
+msgstr "Στον Στρατώνα"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "Σφάλμα στην αποστολή μέλους του πληρώματος στον Στρατώνα. Λάθος όχημα."
+
+msgid "unload_tankman/not_enough_space"
+msgstr "Αδύνατη η αποστολή του μέλους πληρώματος στον Στρατώνα. Όχι αρκετές κλίνες στον Στρατώνα."
+
+msgid "unload_tankman/server_error"
+msgstr "Αδύνατη η αποστολή μέλους του πληρώματος στον Στρατώνα. Προσπαθήστε ξανά αργότερα."
+
+msgid "unload_tankman/success"
+msgstr "Η αποστολή μέλους του πληρώματος στον Στρατώνα έγινε επιτυχώς."
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "Σφάλμα στην αποστολή μέλους του πληρώματος στον Στρατώνα. Το όχημα είναι κλειδωμένο."
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "Σφάλμα στην αποστολή μέλους του πληρώματος στον Στρατώνα. Επισκευάστε το όχημά σας."
+
+msgid "unlocks/drawFailed"
+msgstr "Λάθος ρυθμίσεις. Ο Πίνακας Τεχνολογίας είναι κλειδωμένος."
+
+msgid "unlocks/item/already_unlocked"
+msgstr "Το στοιχείο %(typeString)s \"%(userString)s\" ανακαλύφθηκε."
+
+msgid "unlocks/item/in_processing"
+msgstr "Υποβολή αιτήματος ανακάλυψης νέας τεχνολογίας. Αναμονή για ανταπόκριση server."
+
+msgid "unlocks/item/server_error"
+msgstr "Σφάλμα του server κατά την ανακάλυψη του στοιχείου %(typeString)s \"%(userString)s\". Δοκιμάστε ξανά αργότερα."
+
+msgid "unlocks/item/unlock_success"
+msgstr "Το στοιχείο %(typeString)s \"%(userString)s\" ανακαλύφθηκε. Κόστος σε Experience: %(vehXP)s. Κόστος σε Free Experience: %(freeXP)s."
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "%(userString)s ανακαλύφθηκε."
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "Υποβολή αιτήματος ανακάλυψης νέας τεχνολογίας. Αναμονή για ανταπόκριση server."
+
+msgid "unlocks/vehicle/server_error"
+msgstr "Σφάλμα server ανακαλύπτοντας %(userString)s. Δοκιμάστε ξανά αργότερα."
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "Το %(userString)s ανακαλύφθηκε. Κόστος σε Experience: %(vehXP)s. Κόστος σε Free Experience: %(freeXP)s."
+
+msgid "upgradeTankman/server_error"
+msgstr "Σφάλμα στην εκπαίδευση μέλους του πληρώματος. Δοκιμάστε ξανά αργότερα."
+
+msgid "upgradeTankman/success"
+msgstr "Η εκπαίδευση ολοκληρώθηκε με επιτυχία."
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "Η λειτουργία βελτίωσης του Αναβαθμίσιμου Εξοπλισμού δεν είναι διαθέσιμη προσωρινά για τεχνικούς λόγους. Προσπαθήστε ξανά αργότερα."
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "Η λειτουργία βελτίωσης του Αναβαθμίσιμου Εξοπλισμού είναι διαθέσιμη ξανά, Μας συγχωρείτε για την ταλαιπωρία."
+
+msgid "vehicle/restore/finished"
+msgstr "Το %(vehicleName)s δεν είναι διαθέσιμο για ανάκτηση: ο διαθέσιμος χρόνος τελείωσε."
+
+msgid "vehicle/restoreDuration/days"
+msgstr "Θα μπορείτε να ανακτήσετε το όχημα από τον Εφοδιασμό για ακόμη %(time)s d."
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "Θα μπορείτε να ανακτήσετε το όχημα από τον Εφοδιασμό για ακόμη %(time)s h."
+
+msgid "vehicleCompare/disabled"
+msgstr "Ενέργεια προσωρινά μη διαθέσιμη. Προσπαθήστε ξανά αργότερα."
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "Η προεπισκόπηση του %(vehicle)s θα είναι διαθέσιμη μόνο μετά το κατέβασμα ολόκληρου του client."
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "Αποστολή αιτήματος για τοποθέτηση εξοπλισμού. Αναμονή για ανταπόκριση server."
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "Αποτυχία στην αγορά του στοιχείου %(typeString)s \"%(userString)s\". Παρακαλούμε προσπαθήστε ξανά αργότερα."
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "Το στοιχείο %(typeString)s \"%(userString)s\" αγοράστηκε με επιτυχία (%(count)d τεμάχια). Κόστος %(price)s."
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "Το στοιχείο %(typeString)s \"%(userString)s\" είναι ήδη διαθέσιμο στην Αποθήκη."
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "Το στοιχείο %(typeString)s \"%(userString)s\" ανακαλύφθηκε."
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "Για αγορά του στοιχείου %(typeString)s \"%(userString)s\" χρειάζεστε %(price)s ακόμα."
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "Το στοιχείο %(typeString)s \"%(userString)s\" δεν βρέθηκε στην Αποθήκη."
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "Το στοιχείο %(typeString)s \"%(userString)s\" δε βρέθηκε στον Εφοδιασμό. Δοκιμάστε ξανά αργότερα."
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "Το στοιχείο %(typeString)s \"%(userString)s\" ανακαλύφθηκε. Κόστος σε Experience: %(unspentXP)s. Κόστος σε Free Experience: %(freeXP)s."
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "Υποβολή αιτήματος ανακάλυψης νέας τεχνολογίας. Αναμονή για ανταπόκριση server."
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "%(userString)s είναι ήδη διαθέσιμο στην Αποθήκη."
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "%(userString)s ανακαλύφθηκε."
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "Για αγορά %(userString)s χρειάζεστε %(price)s ακόμα."
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "%(userString)s δε βρέθηκε στην Αποθήκη."
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "%(userString)s δε βρέθηκε στον Εφοδιασμό. Παρακαλούμε δοκιμάστε ξανά αργότερα."
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "Το %(userString)s έχει ανακαλυφθεί. Κόστος σε Experience: %(unspentXP)s. Κόστος σε Free Experience: %(freeXP)s."
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "τα Επίλεκτα Έπαθλα είναι πλέον διαθέσιμα για το %(vehicle)s"
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "Επίλεκτα Έπαθλα"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "Η τροποποίηση %(modification)s για το %(vehicle)s αγοράσθηκε επιτυχώς."
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "Αγορά Τροποποίησης"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "Η κατηγορία %(category)s για τη 2η θέση εξοπλισμού του %(vehicle)s ορίσθηκε επιτυχώς."
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "Ορισμός Κατηγορίας Θέσης"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "Κόστος σε credits: %(value)s."
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Όλες οι Αμφίδρομες Τροποποιήσεις για το %(vehicle)s ακυρώθηκαν."
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "Η τροποποίηση %(modification)s για το %(vehicle)s ακυρώθηκε."
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "Ακύρωση Τροποποιήσης"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "ΟΙ τροποποιήσεις %(modifications)s για το %(vehicle)s ακυρώθηκαν."
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "Κόστος σε Combat XP: %(value)s."
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "Κόστος σε Free XP: %(value)s."
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "Σφάλμα στoν Πίνακα Τροποποιήσεων. Προσπαθήστε ξανά αργότερα."
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "Σφάλμα"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "Ανακαλύφθηκε και αγοράσθηκε με επιτυχία το Επίπεδο %(level)s Τυπικής Τροποποίησης για το %(vehicle)s."
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "Ανακαλύφθηκαν και αγοράσθηκαν με επιτυχία τα Επίπεδα %(levels)s Τυπικής Τροποποίησης για το %(vehicle)s."
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "Ανακάλυψη Τροποποίησης"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "Η κατηγορία %(category)s για τη 2η θέση εξοπλισμού του %(vehicle)s ορίσθηκε επιτυχώς."
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "Ορισμός Κατηγορίας Θέσης"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "Το Επικουρικό Φορτίο είναι πλέον διαθέσιμο για το %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "Επικουρικό Φορτίο"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "Η κατηγορία της 2ης θέσης εξοπλισμού ορίσθηκε και είναι διαθέσιμη για το %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "Διαθεσιμότητα Κατηγορίας Θέσης"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "Το Βασικό Φορτίο είναι πλέον διαθέσιμο για το %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "Βασικό Φορτίο"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "Ο Πίνακας Τροποποιήσεων είναι πλέον διαθέσιμος για το %(vehicle)s."
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "Τροποποιήσεις Μάχης"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "Ο Πίνακας Τροποποιήσεων του οχήματος είναι πλέον διαθέσιμος. Μπορείτε να διαμορφώσετε το όχημά σας ανάλογα με τον ρόλο του στη μάχη και να αλλάξετε τα τεχνικά χαρακτηριστικά του με τη χρήση τροποποιήσεων."
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "Σφάλμα αναβάθμισης. Προσπαθήστε ξανά αργότερα."
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "Σφάλμα"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "Το στοιχείο \"%(perk)s\" ανακαλύφθηκε επιτυχώς για το %(vehicle)s."
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "Το Στοιχείο Ανακαλύφθηκε"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "%(perk)s στοιχεία ανακαλύφθηκαν επιτυχώς για το %(vehicle)s."
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "Τα Στοιχεία Ανακαλύφθηκαν"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "Μη διαθέσιμη λειτουργία. Προσπαθήστε ξανά αργότερα."
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "Αδύνατη η αγορά του %(vehName)s. Λάθος όχημα."
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "Αδύνατη η αγορά του %(vehName)s. Όχι αρκετά credits."
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "Αδύνατη η αγορά του %(vehName)s. Όχι αρκετό gold."
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "Λειτουργία μη διαθέσιμη. Δεν έχετε ανακαλύψει οχήματα αυτού του έθνους."
+
+msgid "vehicle_buy/server_error"
+msgstr "Αδύνατη η αγορά του %(vehName)s εξαιτίας σφάλματος του server. Προσπαθήστε ξανά αργότερα."
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "Αδύνατη η αγορά του %(vehName)s. Ο server είναι προσωρινά μη διαθέσιμος."
+
+msgid "vehicle_buy/success"
+msgstr "Το %(vehName)s αγοράστηκε επιτυχώς. Κόστος %(price)s."
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "Αδύνατη η αφαίρεση του %(vehName)s. Προσπαθήστε ξανά αργότερα."
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "Αδύνατη η αφαίρεση του %(vehName)s. Λάθος όχημα."
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "Αδύνατη η αφαίρεση του %(vehName)s. Όχι αρκετά credits."
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "Αδύνατη η αφαίρεση του %(vehName)s. Όχι αρκετό gold."
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "Αδύνατη η αφαίρεση του %(vehName)s. Δεν υπάρχουν αρκετές κλίνες στον Στρατώνα."
+
+msgid "vehicle_remove/server_error"
+msgstr "Αδύνατη η πώληση του %(vehName)s. Σιγουρευτείτε ότι το όχημα δεν μετέχει σε κάποια επιχειρησιακή μονάδα ή προσπαθήστε ξανά αργότερα."
+
+msgid "vehicle_remove/success/default"
+msgstr "Επιτυχής αφαίρεση του %(vehName)s.\n%(money)s."
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "Επιτυχής αφαίρεση του %(vehName)s."
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "Επιτυχής αφαίρεση του %(vehName)s.\nΛάβατε %(gainMoney)s.\nΚόστος %(spendMoney)s."
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "Αδύνατη η αφαίρεση του %(vehName)s. Θα γίνει αυτόματη αφαίρεση του οχήματος."
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "Αδύνατη η αφαίρεση του %(vehName)s. Το όχημα είναι μπλοκαρισμένο."
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "Αδύνατη η αφαίρεση του %(vehName)s. Το όχημα χρειάζεται επισκευές."
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "Αδύνατη η αφαίρεση του %(vehName)s. Έχετε φτάσει το όριο των οχημάτων για σήμερα."
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "vehicle_rent/buyOption"
+msgstr "Προσοχή! Το όχημα θα είναι διαθέσιμο για σας με έκπτωση."
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "Αδύνατη η μίσθωση του %(vehName)s. Λάθος όχημα."
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "Αδύνατη η μίσθωση του %(vehName)s. Όχι αρκετά credits."
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "Αδύνατη η μίσθωση του %(vehName)s. Όχι αρκετό gold."
+
+msgid "vehicle_rent/server_error"
+msgstr "Αδύνατη η μίσθωση του %(vehName)s εξαιτίας σφάλματος του server. Προσπαθήστε ξανά αργότερα."
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "Αδύνατη η μίσθωση του %(vehName)s. Η μίσθωση οχημάτων είναι προσωρινά μη διαθέσιμη."
+
+msgid "vehicle_rent/success"
+msgstr "Έχετε μισθώσει το %(vehName)s %(rentPackageName)s. Κόστος %(price)s. %(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "για %(days)d d"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "vehicle_repair/credits_error"
+msgstr "%(needed)s απαιτούνται για επισκευή του %(vehName)s."
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "%(needed)s απαιτούνται για επισκευή του %(vehName)s."
+
+msgid "vehicle_repair/server_error"
+msgstr "Σφάλμα στην επισκευή του %(vehName)s. Δοκιμάστε ξανά αργότερα."
+
+msgid "vehicle_repair/success"
+msgstr "Το %(vehName)s επισκευάστηκε. Κόστος %(money)s."
+
+msgid "vehicle_restore/DISABLED"
+msgstr "Αδύνατη η ανάκτηση του οχήματος. Προσπαθήστε ξανά αργότερα."
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "Αδύνατη η ανάκτηση του %(vehName)s. Η ανάκτηση οχημάτων είναι προσωρινά μη διαθέσιμη."
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "Αδύνατη η ανάκτηση του %(vehName)s. Λάθος όχημα."
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "Αδύνατη η ανάκτηση του %(vehName)s. Όχι αρκετά credits."
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "Αδύνατη η ανάκτηση του %(vehName)s. Όχι αρκετό gold."
+
+msgid "vehicle_restore/server_error"
+msgstr "Αδύνατη η ανάκτηση του %(vehName)s εξαιτίας σφάλματος του server. Προσπαθήστε ξανά αργότερα."
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "Αδύνατη η ανάκτηση του %(vehName)s. Η ανάκτηση οχημάτων είναι προσωρινά μη διαθέσιμη."
+
+msgid "vehicle_restore/success"
+msgstr "Το %(vehName)s ανακτήθηκε με επιτυχία. Κόστος %(price)s."
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "Χρήση Κυτίου Αποσύνδεσης (x%(countDK)s)"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "Αδύνατη η πώληση του %(vehName)s. Προσπαθήστε ξανά αργότερα."
+
+msgid "vehicle_sell/disabledService"
+msgstr "Αδύνατη η πώληση του %(vehName)s. Προσπαθήστε ξανά αργότερα."
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "Αδύνατη η πώληση του %(vehName)s. Όχι αρκετά components για αποσύνδεση του εξοπλισμού."
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "Αδύνατη η πώληση του %(vehName)s. Λάθος όχημα."
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "Αδύνατη η πώληση του %(vehName)s. Όχι αρκετά credits."
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "Αδύνατη η πώληση του %(vehName)s. Όχι αρκετό gold."
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "Αδύνατη η πώληση %(vehName)s. Όχι αρκετές κλίνες στον Στρατώνα."
+
+msgid "vehicle_sell/server_error"
+msgstr "Αδύνατη η πώληση του %(vehName)s. Σιγουρευτείτε ότι το όχημα δεν μετέχει σε κάποια επιχειρησιακή μονάδα ή προσπαθήστε ξανά αργότερα."
+
+msgid "vehicle_sell/success"
+msgstr "Έγινε επιτυχώς η πώληση του %(vehName)s.\nΛάβατε %(money)s.\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "Έγινε επιτυχώς η πώληση του %(vehName)s.\nΛάβατε %(gainMoney)s.\nΚόστος %(spendMoney)s.\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "Αδύνατη η πώληση του %(vehName)s. Το όχημα θα αφαιρεθεί αυτόματα."
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "Αδύνατη η πώληση του %(vehName)s. Το όχημα είναι κλειδωμένο."
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "Αδύνατη η πώληση του %(vehName)s. Επισκευάστε το όχημά σας."
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "Αδύνατη η πώληση του %(vehName)s. Έχετε φτάσει το όριο των οχημάτων για σήμερα."
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "Σφάλμα στην αγορά θέσης. Όχι αρκετά credits."
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "Σφάλμα στην αγορά θέσης. Όχι αρκετό gold."
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "Σφάλμα στην αγορά θέσης. Προσπαθήστε ξανά αργότερα."
+
+msgid "vehicle_slot_buy/success"
+msgstr "Η πρόσθετη θέση στο Γκαράζ αγοράστηκε. Κόστος %(money)s."
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "Σφάλμα στην αλλαγή της επιταχυνόμενης εκπαίδευσης πληρώματος του %(vehName)s. Λάθος όχημα."
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "Αδύνατη η αλλαγή της επιταχυνόμενης εκπαίδευσης πληρώματος του %(vehName)s. Προσπαθήστε ξανά αργότερα."
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "Η επιταχυνόμενη εκπαίδευση πληρώματος του %(vehName)s είναι απενεργοποιημένη."
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "Η επιταχυνόμενη εκπαίδευση πληρώματος του %(vehName)s είναι ενεργοποιημένη."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "Σφάλμα στην αλλαγή της επιταχυνόμενης εκπαίδευσης πληρώματος του %(vehName)s. Το όχημα είναι κλειδωμένο."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "Σφάλμα στην αλλαγή της επιταχυνόμενης εκπαίδευσης πληρώματος του %(vehName)s. Επισκευάστε το όχημά."
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "Αποτυχία στην ανταλλαγή για το %(vehName)s. Λάθος όχημα."
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "Αδύνατη η ανταλλαγή για το %(vehName)s. Όχι αρκετά credits."
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "Αδύνατη η ανταλλαγή για το %(vehName)s. Όχι αρκετό gold."
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "Αδύνατη η ανταλλαγή του %(tradeOffVehName)s. Όχι αρκετές κλίνες στον Στρατώνα."
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "Προσφορές για ανταλλαγή οχημάτων είναι πλέον διαθέσιμες!"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "Προσφορές για ανταλλαγή οχημάτων δεν είναι πλέον διαθέσιμες!"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "Αποτυχία στην ανταλλαγή για το %(vehName)s. Σφάλμα του server. Προσπαθήστε ξανά αργότερα."
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "Αποτυχία στην ανταλλαγή για το %(vehName)s. Η υπηρεσία αγοράς/ανταλλαγής είναι προσωρινά μη διαθέσιμη."
+
+msgid "vehicle_trade_in/success"
+msgstr "Έγινε αφαίρεση του %(tradeOffVehName)s. Το %(vehName)s αγοράστηκε για %(price)s."
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "Αποτυχία στην ανταλλαγή του %(tradeOffVehName)s. Το όχημα θα αφαιρεθεί αυτόματα."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "Αποτυχία στην ανταλλαγή για το %(vehName)s. Το όχημα δεν μπορεί να αποκτηθεί με ανταλλαγή."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "Αδύνατη η ανταλλαγή του %(tradeOffVehName)s. Το συγκεκριμένο όχημα δεν αποτελεί αντικείμενο ανταλλαγής."
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "Αδύνατη η ανταλλαγή του %(tradeOffVehName)s. Το όχημα δεν είναι διαθέσιμο."
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "Αδύνατη η ανταλλαγή του %(tradeOffVehName)s. Επισκευάστε το όχημά."
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "Αδύνατη η ανταλλαγή του %(tradeOffVehName)s. Το όχημα δεν βρίσκεται στο Γκαράζ."
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "Λειτουργία μη διαθέσιμη. Όλο το gold σας θα είναι διαθέσιμο μετά την αυτόματη επαναφορά λειτουργίας του WG Wallet."
+
+msgid "video/error"
+msgstr "Σφάλμα αναπαραγωγής βίντεο. Σφάλμα κώδικα: %(code)s."
+
+msgid "w2gt/switchOff/description"
+msgstr "Οι ζώνες εμπλοκής στο minimap είναι προσωρινά μη διαθέσιμες."
+
+msgid "w2gt/switchOff/header"
+msgstr "Τεχνικά Προβλήματα"
+
+msgid "w2gt/switchOn/description"
+msgstr "Οι ζώνες εμπλοκής στο minimap είναι και πάλι διαθέσιμες."
+
+msgid "w2gt/switchOn/header"
+msgstr "Επαναφορά Λειτουργικότητας"
+
+msgid "wallet/available"
+msgstr "Το WG Wallet συγχρονίστηκε επιτυχώς. Όλα σας τα gold, bonds, credits και Free Experience είναι διαθέσιμα τώρα."
+
+msgid "wallet/available_freexp"
+msgstr "Το WG Wallet συγχρονίστηκε επιτυχώς. Όλο σας το Free Experience είναι διαθέσιμο τώρα."
+
+msgid "wallet/available_gold"
+msgstr "Το WG Wallet συγχρονίστηκε επιτυχώς. Όλο σας το gold είναι διαθέσιμο τώρα."
+
+msgid "wallet/not_available"
+msgstr "Η ανάκτηση των δεδομένων του ισοζυγίου σε εξέλιξη. Όλα σας τα gold, bonds, credits και Free Experience θα είναι διαθέσιμα σύντομα."
+
+msgid "wallet/not_available_freexp"
+msgstr "Η ανάκτηση των δεδομένων του ισοζυγίου προχωρεί. Όλο σας το Free Experience θα είναι διαθέσιμο σύντομα."
+
+msgid "wallet/not_available_gold"
+msgstr "Η ανάκτηση των δεδομένων του ισοζυγίου προχωρεί. Όλο σας το gold θα είναι διαθέσιμο σύντομα."
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "Αδύνατη η αλλαγή της Εβδομαδιαίας Αποστολής: μπλοκαρισμένη λειτουργία."
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "Αδύνατη η αλλαγή της Εβδομαδιαίας Αποστολής: μη έγκυρη αποστολή."
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "Αδύνατη η αλλαγή της Εβδομαδιαίας Αποστολής: η αποστολή έχει ήδη ολοκληρωθεί."
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "Αδύνατη η αλλαγή της Εβδομαδιαίας Αποστολής: λειτουργία σε αναστολή."
+
+msgid "weekly_quests/reroll/success"
+msgstr "Έγινε με επιτυχία η αλλαγή της Εβδομαδιαίας Αποστολής."
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "Αδύνατη η αλλαγή της Εβδομαδιαίας Αποστολής. Προσπαθήστε ξανά αργότερα."
+
+msgid "weekly_quests/switch_off/body"
+msgstr "Οι Εβδομαδιαίες Αποστολές είναι προσωρινά μη διαθέσιμες. Λυπούμαστε για την όποια ταλαιπωρία."
+
+msgid "weekly_quests/switch_on/body"
+msgstr "Οι Εβδομαδιαίες Αποστολές είναι και πάλι διαθέσιμες. Λυπούμαστε για την όποια ταλαιπωρία."
+
+msgid "winback/turnOffBattlesError"
+msgstr "Αδύνατη η έξοδος από την Προθέρμανση. Προσπαθήστε ξανά αργότερα."
+
+msgid "window/buttons/close"
+msgstr "Κλείσιμο"
+
+msgid "wrong_slot"
+msgstr "Το στοιχείο %s \"%s\" δεν ταιριάζει στη θέση %s."

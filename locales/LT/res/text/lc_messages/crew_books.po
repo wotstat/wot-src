@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "PIRKTI"
+
+msgid "buttons/cancel"
+msgstr "Atšaukti"
+
+msgid "buttons/learn"
+msgstr "Studijuoti"
+
+msgid "buttons/postProgression/claim"
+msgstr "ATSIIMTI"
+
+msgid "buttons/postProgression/hint"
+msgstr "Į POSTPROGRESIJĄ"
+
+msgid "buttons/postProgression/howTo"
+msgstr "KAIP GAUTI"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Iškeitimo kursas:{whiteSpanish_End} %(freeXp)=%(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "Suteikta pasirinktam įgulos nariui.\nPagreitina dabartinio įgūdžio treniravimą laisvąja patirtimi."
+
+msgid "card/freeExp/title"
+msgstr "LAISVOJI PATIRTIS"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Įgūdžio efektyvumas: 100%\n• Specializacija: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Pritaikoma visai įgulai.\nKiekvienam įgulos nariui suteikia %(xp)"
+
+msgid "card/nationBook/title/brochure"
+msgstr "TRENIRUOČIŲ LANKSTINUKAS (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "TRENIRUOČIŲ INSTRUKCIJA (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "TRENIRUOČIŲ GIDAS (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Pritaikoma be apribojimų."
+
+msgid "card/personalBook/mainText"
+msgstr "Pritaikoma pasirinktam įgulos nariui.\nŠiam įgulos nariui suteikia %(xp)"
+
+msgid "card/personalBook/title"
+msgstr "ASMENINIŲ TRENIRUOČIŲ INSTRUKCIJA"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Įgūdžio efektyvumas: 100%\n• Specializacija: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Pritaikoma visai įgulai.\nKiekvienam įgulos nariui suteikia %(xp)"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "UNIVERSALI INSTRUKCIJA"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "UNIVERSALUS LANKSTINUKAS"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "UNIVERSALUS GIDAS"
+
+msgid "confirm/crewLabel"
+msgstr "Kiekvienas įgulos narys gaus %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Kiekvienas įgulos narys gaus %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) papildomai gaus %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) gaus %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Kai kurie įgulos nariai gaus %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Treniruočių lankstinukas (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Treniruočių lankstinukas"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "TRENIRUOČIŲ LANKSTINUKAS"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} įgulos patirties šiam nariui."
+
+msgid "items/crewBook/Name"
+msgstr "Treniruočių instrukcija (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Treniruočių instrukcija"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "TRENIRUOČIŲ INSTRUKCIJA"
+
+msgid "items/guide/Name"
+msgstr "Treniruočių gidas (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Treniruočių gidas"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "TRENIRUOČIŲ GIDAS"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} patirties pasirinktam įgulos nariui"
+
+msgid "items/personalBook/Name"
+msgstr "Asmeninių treniruočių instrukcija"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} įgulos patirties šiam nariui."
+
+msgid "items/universalBook/Name"
+msgstr "Universali instrukcija"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} patirties kiekvienam įgulos nariui."
+
+msgid "items/universalBrochure/Name"
+msgstr "Universalus lankstinukas"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} patirties kiekvienam įgulos nariui."
+
+msgid "items/universalGuide/Name"
+msgstr "Universalus gidas"
+
+msgid "page/mentoringLicense/hint"
+msgstr "Į MENTORYSTĖS LICENCIJĄ"
+
+msgid "page/mentoringLicense/title"
+msgstr "MENTORYSTĖS LICENCIJA"
+
+msgid "page/title"
+msgstr "GREITAS APMOKYMAS"
+
+msgid "tooltip/buyManual"
+msgstr "Nusipirkti treniruočių instrukciją"
+
+msgid "tooltip/mouseWheel"
+msgstr "Palės ratuku {mouseIcon} padidinkite / sumažinkite įgulos knygų skaičių."
+
+msgid "tooltip/outOfStock"
+msgstr "Neliko įgulos knygų"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Neliko įgulos knygų. Nusipirkite šių įgulos knygų parduotuvėje."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Pritaikoma pasirinktam įgulos nariui. Šiam įgulos nariui suteikia %(xp)s patirties."
+
+msgid "tooltip/postProgression"
+msgstr "Į postprogresiją"
+
+msgid "tooltip/sale/header"
+msgstr "Naudingas keitimo kursas"
+
+msgid "tooltip/sale/newRate"
+msgstr "Naujas keitimo kursas: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Buvęs keitimo kursas: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Paspaudę %(controlsImg) padidinsite / sumažinsite treniravimo lygį 1%."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Paspaudę %(pgupImg) / %(pgdownImg) padidinsite / sumažinsite treniravimo lygį&nbsp;100% / atgausite buvusį&nbsp;įgūdį."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Pritaikoma visai įgulai. Kiekvienam įgulos nariui suteikia %(xp)s patirties."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Pritaikoma visai įgulai. Kiekvienam įgulos nariui suteikia %(xp)s patirties."

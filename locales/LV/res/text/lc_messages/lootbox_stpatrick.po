@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Atpakaļ uz Kastēm"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Smaragda Kaste"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "SMARAGDA KRŪTIS"
+
+msgid "common/getButton/lowerCase"
+msgstr "Iegūt kastes"
+
+msgid "common/getButton/upperCase"
+msgstr "IEGŪT KASTES"
+
+msgid "common/loader"
+msgstr "Kaste atveras..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Atveriet kastes, lai skatītu statistiku."
+
+msgid "common/statistics/header"
+msgstr "Atvērtas kastes: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Visa informācija par atvērtām kastēm tiks dzēsta."
+
+msgid "entryPoint/boxes"
+msgstr "UZ KASTĒM"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Tās ir īpašas kastes, kas satur Premium tankus, 3D pielikumus, kredītus un citus vērtīgus spēles priekšmetus.\n Jūs varat tās iegūt spēles veikalā."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Kastes pašlaik nevar atvērt vai pirkt tehnisku iemeslu dēļ. Mēs atvainojamies par īslaicīgajām neērtībām."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Kastes Īslaicīgi Nav Pieejamas"
+
+msgid "eventName/lowerCase"
+msgstr "Krāšņs zaļā krāsā"
+
+msgid "eventName/upperCase"
+msgstr "KRĀŠŅS ZAĻĀ KRĀSĀ"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garantēta Balva nākamajā kastē!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maksimālais skaits kastu pirms Garantētas Balvas: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ja neatveriet kastes pirms pasākuma beigām, tās tiks atvērtas automātiski."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ja jums jau pieder visi tanki no iespējamā kastes satura saraksta, tad visi turpmāk saņemtie tanki no kastēm tiks kompensēti ar zeltu, kas vienāds ar to pilno vērtību."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Katra %(guaranteed0)s kaste garantēti satur VIII–IX līmeņa tanku. Ja atverat tās, nesaņemot šādu tanku, tad VIII–IX līmeņa tanks, kuru jums vēl nav, tiks piešķirts, kad atvērsiet %(guaranteed0)s&zwnbsp;-to kasti. Kad tas notiek, skaitītājs tiek atiestatīts."
+
+msgid "infoPage/header/description"
+msgstr "Atveriet kasti priekš iespējas saņemt vērtīgas spēles lietas! Skatiet vairāk detaļas zemāk."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "No %(name) (%(boxesCount) kastes atvērtas)"
+
+msgid "noBoxesView/description/"
+msgstr "Jums nav nevienas kastes. \nJūs varat tās iegūt spēles veikalā."
+
+msgid "preview/backLabel"
+msgstr "UZ KASTĒM"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Pieejamas kastes: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nav pieejamas kastes"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Ja jums jau pieder visi tanki no iespējamā kastes satura saraksta, tad visi turpmāk saņemtie tanki no kastēm tiks kompensēti ar zeltu."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount)kaste"
+msgstr[1] "%(remainingCount)kastes"
+msgstr[2] "%(remainingCount)kastes"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Garantētā Balva ir tanks no iespējamā kastes satura saraksta.\nJa atveriet %(remainingCount) neiegūstot tādu tanku, tas izkritīs atverot %(count) kasti. Kad tas notiek, skaitītājs tiek atiestatīts."

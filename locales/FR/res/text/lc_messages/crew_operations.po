@@ -1,0 +1,122 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "crewBooks/button/label"
+msgstr "Ouvrir"
+
+msgid "crewBooks/description"
+msgstr "Aller étudier des livres d'équipage."
+
+msgid "crewBooks/error/locked"
+msgstr "Opération indisponible"
+
+msgid "crewBooks/title"
+msgstr "Livres d'équipage ({count})"
+
+msgid "crewBooks/tutorial/crewOperations"
+msgstr "L'ÉTUDE DE LIVRES D'ÉQUIPAGE\nEST MAINTENANT DISPONIBLE"
+
+msgid "crewBooks/tutorial/readBook"
+msgstr "ALLER À L'ÉTUDE\nDE LIVRES D'ÉQUIPAGE"
+
+msgid "crewBooks/warning/membersInBattle/tooltip/body"
+msgstr "Cet équipage est en bataille"
+
+msgid "crewBooks/warning/membersInBattle/tooltip/header"
+msgstr "Erreur"
+
+msgid "crewOperations/btn/tooltip/body"
+msgstr "Envoyer les membres d'équipage à la caserne, réentraîner ou renvoyer immédiatement tous les membres d'équipage au véhicule et appliquer des livres d'équipage."
+
+msgid "crewOperations/btn/tooltip/header"
+msgstr "Opérations d'équipage"
+
+msgid "dropInBarrack/button/label"
+msgstr "Envoyer"
+
+msgid "dropInBarrack/description"
+msgstr "Envoyer tous les membres d'équipage à la caserne."
+
+msgid "dropInBarrack/error/noCrew"
+msgstr "Aucun équipage"
+
+msgid "dropInBarrack/title"
+msgstr "Envoyer l'équipage à la caserne"
+
+msgid "dropInBarrack/warning/crewIsLocked/tooltip/body"
+msgstr "Impossible d'envoyer tous les membres d'équipage à la caserne."
+
+msgid "dropInBarrack/warning/crewIsLocked/tooltip/header"
+msgstr "Opération indisponible"
+
+msgid "dropInBarrack/warning/inBattle/tooltip/body"
+msgstr "Équipage en bataille"
+
+msgid "dropInBarrack/warning/inBattle/tooltip/header"
+msgstr "Erreur"
+
+msgid "dropInBarrack/warning/noSpace/tooltip/body"
+msgstr "Lits insuffisants dans la caserne"
+
+msgid "dropInBarrack/warning/noSpace/tooltip/header"
+msgstr "Opération indisponible"
+
+msgid "retrain/button/label"
+msgstr "Réentraîner"
+
+msgid "retrain/description"
+msgstr "Réentraîner tous les membres d'équipage pour ce véhicule."
+
+msgid "retrain/error/alreadyRetrained"
+msgstr "L'équipage a déjà été entraîné"
+
+msgid "retrain/error/locked"
+msgstr "Opération indisponible"
+
+msgid "retrain/error/noCrew"
+msgstr "Aucun équipage"
+
+msgid "retrain/title"
+msgstr "Réentraîner l'équipage"
+
+msgid "return/button/label"
+msgstr "Récupérer"
+
+msgid "return/description"
+msgstr "Récupérer l'équipage qui a combattu dans ce véhicule lors de la bataille précédente."
+
+msgid "return/error/allDemobilized"
+msgstr "Tous les membres d'équipage ont déjà été congédiés"
+
+msgid "return/error/alreadyOnPlaces"
+msgstr "L'équipage est déjà dans le véhicule"
+
+msgid "return/error/noPrevious"
+msgstr "Disputer au moins une bataille\navec ce véhicule"
+
+msgid "return/error/vehicleInBattle"
+msgstr "Ce véhicule est en bataille"
+
+msgid "return/title"
+msgstr "Récupérer l'équipage du véhicule"
+
+msgid "return/toggle/description"
+msgstr "Rappelle automatiquement l'équipage ayant combattu à bord de ce véhicule lors de la dernière bataille."
+
+msgid "return/toggle/label"
+msgstr "Retour auto"
+
+msgid "return/warning/memberDemobilized/tooltip/body"
+msgstr "Certains membres de l'équipage précédent ont été congédiés et ne peuvent pas être renvoyés dans ce véhicule. Vous pouvez les récupérer dans la caserne avant expiration du décompte. Dans le cas contraire, ils seront définitivement retirés de votre compte."
+
+msgid "return/warning/memberDemobilized/tooltip/header"
+msgstr "Attention"
+
+msgid "return/warning/membersInBattle/tooltip/body"
+msgstr "Certains membres de l'équipage précédent sont en bataille"
+
+msgid "return/warning/membersInBattle/tooltip/header"
+msgstr "Erreur"
+
+msgid "window/title"
+msgstr "Opérations d'équipage"

@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Svejedno u bitku"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Opremi!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Taktička naprava nepotpuna"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "Vašem odabranom vozilu nedostaje jedna ili više taktičkih naprava. To može značajno utjecati na vašu izvedbu u bitci. Ući svejedno u bitku?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Možete prilagoditi unaprijed zadane tipke akcije za granate i taktičke naprave.\nOva promjena se odnosi samo na akcije bitke i neće utjecati na druge režime.\nJoš možete izmjeniti pojedinačne tipke u Izbornik-Postavke-Kontrole (unutar Potrošnog materijala)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Promjena unaprijed zadane postavke tipke za potrošni materijal"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Izvršite ovaj zadatak za jedinstvenu značku Posljednje uporište: Operacija Pandora:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Zadatak epskog dostignuća"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Kada je istražen, umanjuje {EDCB9E_Start}trošak miriuma{EDCB9E_End} svih taktičkih naprava za {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Učinkovitost miriuma"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Kada je istražen, uvećava {EDCB9E_Start}trajanje učinka taktičkih naprava {EDCB9E_End} za {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Trajanje učinka naprava"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Kada je istražen, uvećava{EDCB9E_Start} polumjer učinka taktičkih naprava {EDCB9E_End} za {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Polumjer učinka naprava"
+
+msgid "booster/booster_heal/description"
+msgstr "Kada je istražen, uvećava sve {EDCB9E_Start}učinke liječenja{EDCB9E_End} primjenjenih na vozilo za {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Učinci liječenja"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Kada je istražen, uvećava količinu {EDCB9E_Start}štete prenesene od obeliska {EDCB9E_End} neprijateljskim vozilima za {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Prenešena šteta obeliska"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Kada je istražen, uvećava {EDCB9E_Start}polumjer prikupljanja miriuma{EDCB9E_End} od neprijatelja za {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Polumjer prikupljanja miriuma"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Kada je istražen, uvećava {EDCB9E_Start}količinu prikupljenog miriuma{EDCB9E_End} od uništenih vozila za {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Prikupljanje miriuma"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Kada je istražen, uvećava {EDCB9E_Start}količinu miriuma{EDCB9E_End} danog za uništenje vala za {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Miriuma po valu"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Kada je istražen, uvećava{EDCB9E_Start}količinu miriuma{EDCB9E_End} obnovljenog na oživljavanju za {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Miriuma na oživljavanju"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Kada je istražen, uvećava {EDCB9E_Start}najveći kapacitet miriuma vozila{EDCB9E_End} za {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Kapacitet miriuma"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "PAKET BRANITELJA"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Ključevi kupljeni"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Mogućnost zarade ×5 iskustva počevši od druge pobjede u danu u bilo kojem vozilu."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Zadatak za ×5 na iskustvo osvojeno u bitci "
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Konfigurirajte prikaz vozila po njihovom tipu, naciji i ostalim parametrima."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Filter po parametrima"
+
+msgid "common/back"
+msgstr "NAZAD"
+
+msgid "common/close"
+msgstr "ZATVORI"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "NA AKCIJU"
+
+msgid "common/toRewardPath"
+msgstr "NA NAPREDAK"
+
+msgid "common/yes"
+msgstr "Razumijem!"
+
+msgid "difficult/daily"
+msgstr "OTKLJUČAN ZADATAK DNEVNOG KLJUČA"
+
+msgid "difficult/disabled/body"
+msgstr "U vodu ste. Samo zapovjednik može promjeniti razinu težine."
+
+msgid "difficult/disabled/header"
+msgstr "Promjena težine nedostupna"
+
+msgid "difficult/level_1"
+msgstr "Regularna"
+
+msgid "difficult/level_2"
+msgstr "Napredni"
+
+msgid "difficult/level_3"
+msgstr "Brutalna"
+
+msgid "difficult/new"
+msgstr "NOVO"
+
+msgid "difficult/searching/body"
+msgstr "Nedostupno tijekom pretrage."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Neprijatelji imaju manju izdržljivost i slabiji oklop. Standardna količina podataka po bitci."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Neprijatelji imaju jači oklop. Podaci po bitci su povećani za {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Više je neprijatelja s jačim oklopom. Podaci po bitci su povećani za {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Nagrade za uništenje posljednjeg vala prvi put:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Regularna težina"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Napredna težina"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Brutalna težina"
+
+msgid "difficult/tooltip/locked"
+msgstr "Težina zaključana"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Za otključavanje ove razine težine, završite regularnu razinu težine."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Za otključavanje ove razine težine, završite naprednu razinu težine."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Težina dostupna"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Težina odabrana"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Uništeno valova: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "REGULARNA"
+
+msgid "difficult/uppercase/level_2"
+msgstr "NAPREDNI"
+
+msgid "difficult/uppercase/level_3"
+msgstr "BRUTALNA"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Neprijatelji imaju jači oklop. Više kredita i ×{{modifier}} podataka po bitci."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Više neprijatelja s jačim oklopom. Više kredita i ×{{modifier}} podataka po bitci."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Borite se i porazite valove neprijatelja i pokažite vaše junaštvo dosizanjem vrha ljestvice. Čekaju vas jedinstvene nagrade i više."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "NAPREDNA RAZINA TEŽINE"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "BRUTALNA RAZINA TEŽINE"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "REŽIM POSLJEDNJE UPORIŠTE"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "NAPREDNI"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "BRUTALNA"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "'POSLJEDNJE UPORIŠTE'"
+
+msgid "difficultyWindow/rewards"
+msgstr "Nagrada za izvršenje:"
+
+msgid "difficultyWindow/title"
+msgstr "DOSTUPNO"
+
+msgid "hangar/exit"
+msgstr "NAPUSTI AKCIJU"
+
+msgid "hangar/narration"
+msgstr "Priča"
+
+msgid "hangar/tooltip/about"
+msgstr "Saznajte više o akciji Posljednje uporište: Terra Nord."
+
+msgid "hangar/tooltip/narration"
+msgstr "Saznajte više o priči akcije."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "TAKTIČKE NAPRAVE"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "IZGLED"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Posljednje uporište"
+
+msgid "iconButton/comparison/default"
+msgstr "Usporedba vozila"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Usporedba vozila nije dostupna"
+
+msgid "iconButton/preview/default"
+msgstr "Pregled vozila"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Pregled vozila je nedostupan"
+
+msgid "keyCard/name"
+msgstr "Ključevi dešifriranja"
+
+msgid "meta/btn/decrypt"
+msgstr "DEŠIFRIRAJ"
+
+msgid "meta/btn/skip"
+msgstr "PRESKOČI"
+
+msgid "meta/btn/view"
+msgstr "PREGLEDAJ"
+
+msgid "meta/receive/description"
+msgstr "Skupi %(keys) / %(decrypt) %(icon) \nza dešifriranje ovog zapisa"
+
+msgid "metaIntro/description/fight"
+msgstr "Borite se u bitkama za osvajanje podataka za napredovanje kroz Napredak."
+
+msgid "metaIntro/description/progress"
+msgstr "Skupljajte podatke za istraživanje nadogradnji vozila i veće izazove."
+
+msgid "metaIntro/description/reward"
+msgstr "Završite etape Napretka za primitak posebnih nagrada akcije. Pogledajte stazu nagrada za više detalja."
+
+msgid "metaIntro/header/fight"
+msgstr "Bitke akcije"
+
+msgid "metaIntro/header/progress"
+msgstr "Nadogradnje"
+
+msgid "metaIntro/header/reward"
+msgstr "Jedinstvene nagrade"
+
+msgid "metaIntro/title"
+msgstr "NAPREDAK"
+
+msgid "missionWidget/complete"
+msgstr "Zadatak izvršen.\nVratite se sutra."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Izvršite trenutni dnevni zadatak koji je dostupan svaka 24 sata za primitak nagrade. Današnji zadatak:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Dnevni zadatak"
+
+msgid "narration/actions/voiceover"
+msgstr "Sinkronizacija"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}VRLO TAJNO{{/}}{{titleParagraph}}{{@ class $highlightText}} SEKTOR: N-07 (\"Aurora\" Perimetar){{/}}{{pargraphStart}}Naše predviđanje bilo je točno. Promatrači postaje zabilježili su približavanje anomalije 11 dana prije događaja. Prvi put smo je vidjeli kako dolazi.{{pargraphStart}}Tijekom zatišja prije oluje, proizvodnja ATLAS kompleksa bila je standardizirana. Novi moduli se brže sastavljaju i preciznije kalibriraju. Provodili smo obuku, prošli kroz formacije i pripremali rezervne odrede. Puna pripravnost.{{pargraphStart}}Ali anomalija je imala svoje planove.{{pargraphStart}}Lijevak se nije otvorio u predviđenom sektoru. Pojavio se ovdje, u udaljenoj sjevernoj regiji, daleko od raspoređene infrastrukture. Nije jasno zašto je odabrana ova lokacija. Ništa u modelima nije ukazivalo na ovo područje. Odmah je pokrenuto hitno premještanje, ali teren i udaljenost nisu u našu korist. Neka vozila i odredi stići će kasno.{{pargraphStart}}Svaki ATLAS kompleks koji smo uspjeli isporučiti sada je neophodan.{{pargraphStart}}Ovaj put bili smo spremni za borbu. Ali za borbu na drugoj lokaciji.{{pargraphStart}}POTPIS: KUSTOS (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Analitički memorandum 27/C \"ODABIR LOKACIJE INVAZIJE\"{{/}}{{titleParagraph}}Za internu upotrebu. Pečat \"Ograničeni pristup\".{{pargraphStart}}Postavljam pitanje na koje sam dužan odgovoriti, ali ne mogu: Zašto ovdje?{{pargraphStart}}Ova regija nema stratešku vrijednost za Lijevak. Ovdje nema ničega. Nema infrastrukture, nema naselja. Samo neoperativna vojna baza na otoku. Eho tenkovi ne mogu prijeći more. Pa zašto zauzeti lokaciju s koje ne mogu napasti?{{pargraphStart}}Zatražio sam potpunu operativnu povijest regije. Odgovor je bio znatno redigiran. Čitavi odjeljci su bili precrtani. Drugi zahtjev je poslan natrag s napomenom \"pristup ograničen ovlaštenjem {{@ class $highlightSecondaryText}}[PODACI UKLONJENI]{{/}}.\" Meni, voditelju istraživačkog odjela, čije preporuke određuju obrambenu strategiju ovog sektora, uskraćuju se informacije o ovom teritoriju!{{pargraphStart}}Evo što mogu zaključiti iz terenskih podataka: ponašanje Lijevka ne odgovara onome što smo primijetili u sektoru R-22. Pojavile su se nove vrste eho tenkova s ​​kojima se prije nismo susreli. Po funkciji odgovaraju našim dalekometnim lovcima na tenkove i izuzetno su učinkoviti na ovakvom terenu. Protivnik je naučio iz naše taktike i poduzeo protumjere. Sada je na nama red da se prilagodimo.{{pargraphStart}}Možda mu treba ovo mjesto. Ili možda ono što je ispod njega.{{pargraphStart}}Ne znam. I brine me što netko zna, ali neće reći.{{pargraphStart}}POTPIS: KUSTOS (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}KUSTOSOV OSOBNI ZAPIS{{/}}{{pargraphStart}}Pregledao sam vlastite hipoteze. Sve tri.{{pargraphStart}}  1. Anomalija nas želi uništiti. {{pargraphStart}}  2. Anomalija eksperimentira. Istražuje naše taktike, proučava naš odgovor, prilagođava se i uči.{{pargraphStart}}  3. Anomalija trenira. Svaki val je vježba svojih novih taktika; svaka bitka je vježba u terenskim uvjetima.{{pargraphStart}} Sve tri hipoteze dijele pretpostavku da smo mi meta ove invazije.{{pargraphStart}}Ali što ako nismo?{{pargraphStart}}Što ako anomalija radi nešto drugo, a mi joj jednostavno stojimo na putu? Poput mravinjaka poplavljenog dok se gradi cesta. Graditelj ne ratuje s mravima. Jednostavno ih ne primjećuje.{{pargraphStart}}Možete zaustaviti neprijatelja koji vas želi uništiti. Možete pregovarati s njima. Ali ne možete uplašiti nešto što ne priznaje vaše postojanje; ne možete ga nadmudriti. Ne može se zaustaviti. Jer nikada niste bili dio njegovih izračuna{{pargraphStart}}.Mislim da smo postavili krivo pitanje. Ne bismo se trebali pitati zašto nas napada, već primjećuje li nas uopće.{{pargraphStart}}POTPIS: KUSTOS (PROJEKT M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}ZAVRŠNO IZVJEŠĆE{{/}}{{titleParagraph}}{{@ class $highlightText}}STATUS: OTKRIVENO (DJELOMIČNO){{/}}{{pargraphStart}}U 03:47, Lijevak se urušio. Aktivnost anomalije je prestala. Sektor je čist.{{pargraphStart}}U posljednjim sekundama prije urušavanja, ATLAS mjerači su zabilježili energetski val koji je premašio sve prethodno zabilježene vrijednosti. Posada je primijetila kratkotrajnu fizičku manifestaciju u središtu anomalije, koja nije trajala dulje od 12 sekundi. Nakon toga, Lijevak se zatvorio.{{pargraphStart}} Službena izjava: Incident je završen. Teritorij je uspješno obranjen. Karantena je ukinuta iz sektora.{{pargraphStart}}{{@ class $highlightText}}OSOBNA BILJEŠKA KUSTOSA (Samo za posebne pričuve){{/}}{{pargraphStart}}Nismo pobijedili. Završilo je.{{pargraphStart}}Ovo nije bila invazija. Bila je to zaklon. Zaštitni perimetar oko onoga što se manifestiralo u središtu Lijevka nekoliko sekundi prije njegovog urušavanja.{{pargraphStart}}Deseci obeliska pojavili su se istovremeno. Još uvijek ne znamo što su radili. ATLAS je zabilježio sve parametre, ali trebat će vremena da ih protumačimo. Jedno znamo gotovo sa sigurnošću: anomalija je dovršila neku vrstu procesa.{{pargraphStart}}Što god radila, moramo se pripremiti za sljedeći napad. Sada imamo dovoljno podataka. Naši inženjeri već pregledavaju snimke i, iskreno, nikad ih nisam vidio tako uzbuđene. Misle da možemo ozbiljno ojačati naša vozila. Moramo to učiniti prije nego što se Lijevak vrati. {{pargraphStart}}Ne mogu prestati razmišljati o jednoj stvari: ako se ovo dogodilo ovdje i trajalo tako kratko, koliko se puta prije dogodilo? Na mjestima gdje nije bilo ATLAS-a, nitko to nije vidio... {{pargraphStart}}POTPIS: KUSTOS (PROJEKT M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Bili smo spremni"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Zašto ovdje?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. Krivo pitanje"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Završilo je"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Završite regularnu razinu težine kako biste prešli na sljedeći dio priče."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Završite naprednu razinu težine kako biste prešli na sljedeći dio priče."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Završite brutalnu razinu težine kako biste prešli na sljedeći dio priče."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Slijedeća priča"
+
+msgid "preBattle/leave"
+msgstr "Napusti bitku"
+
+msgid "preBattle/searching"
+msgstr "TRAŽIM SAVEZNIKA..."
+
+msgid "preBattle/tip"
+msgstr "Pronalaženje operativne sile traje predugo? Pokušajte promjeniti razinu težine."
+
+msgid "preBattle/uppercase/leave"
+msgstr "NAPUSTI BITKU"
+
+msgid "promoWindow/header"
+msgstr "IGRAJ POSLJEDNJE UPORIŠTE"
+
+msgid "promoWindow/subheader"
+msgstr "Istraži novo poglavlje PvE režima igre Posljednje uporište od {dateRange}.\nOsvoji skup tematskih {cream_open}3D privitaka{cream_close}, eksperimentalnu opremu i još ekskluzivnih nagrada."
+
+msgid "questCard/allCompleted"
+msgstr "Svi dnevni zadaci izvršeni"
+
+msgid "questCard/completed"
+msgstr "Dnevni zadatak izvršen.\nVratite se sutra."
+
+msgid "reward/rest"
+msgstr "I još %(count)s"
+
+msgid "rewardPath/about"
+msgstr "O CILJEVIMA"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Saznajte više o Napretku akcije."
+
+msgid "rewardPath/boostTitle"
+msgstr "Ubrzajte svoj napredak i zaradite više podataka {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Pregledaj u prodavaonici"
+
+msgid "rewardPath/completed"
+msgstr "Svi podaci i nagrade primljeni"
+
+msgid "rewardPath/completedTitle"
+msgstr "Posjetite prodavaonicu za jedinstvene tematske elemente prilagodbe"
+
+msgid "rewardPath/intro"
+msgstr "UVOD"
+
+msgid "rewardPath/introTooltip"
+msgstr "Pogledajte uvodni video."
+
+msgid "rewardPath/progress"
+msgstr "Primljeni podaci u etapi {artefactIndex}: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "NAPREDAK"
+
+msgid "rewardPathCard/completed"
+msgstr "Izvršeno"
+
+msgid "rewardPathCard/name"
+msgstr "Putanja nagrade"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Paketi akcije"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Odustani"
+
+msgid "squad/goToAnother/message"
+msgstr "Vod će biti raspušten."
+
+msgid "squad/goToAnother/submit"
+msgstr "Napusti"
+
+msgid "squad/goToAnother/title"
+msgstr "Napustiti akciju Posljednje uporište: Terra Nord?"
+
+msgid "squad/leave/cancel"
+msgstr "Odustani"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Vod će biti raspušten."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Razumijem!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Akcija Posljednje uporište: Terra Nord je završila"
+
+msgid "squad/leave/message"
+msgstr "Vod će biti raspušten."
+
+msgid "squad/leave/submit"
+msgstr "Napusti"
+
+msgid "squad/leave/title"
+msgstr "Napustiti vod Posljednje uporište: Terra Nord?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Nastavi"
+
+msgid "squad/leaveDisabled/message"
+msgstr "U vodu ste i spremni ste za bitku."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Ne možete napustiti vod!"
+
+msgid "stageReward/rewards/received"
+msgstr "Također primljeno:"
+
+msgid "stageReward/special/header"
+msgstr "BRUTALNA RAZINA TEŽINE ZAVRŠENA!"
+
+msgid "stageReward/special/subheader"
+msgstr "Posebna nagrada primljena"
+
+msgid "stageReward/stage/header"
+msgstr "PRIMLJENE NAGRADE"
+
+msgid "stageReward/stage/subheader"
+msgstr "Posljednje uporište: etapa {{number}} završena"
+
+msgid "stageReward/stageFinal/header"
+msgstr "SVE NAGRADE PRIMLJENE"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Posljednje uporište: posljednja etapa završena"

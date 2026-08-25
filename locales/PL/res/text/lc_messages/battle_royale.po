@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Na wszystkich dostępnych serwerach trwa zawieszenie broni."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "Na tym serwerze trwa zawieszenie broni."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Zmień serwer"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Stalowy łowca skończył się"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Na tym serwerze tryb jest niedostępny"
+
+msgid "banner/info/disabled"
+msgstr "Zawieszenie broni"
+
+msgid "banner/info/seasonActive"
+msgstr "Druga szansa i nagrody"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "Do %(day)s %(month)s"
+
+msgid "banner/subtitle"
+msgstr "Battle royale z cennymi nagrodami"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s godz."
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s godz. %(minutes)s min"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s min"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "STALOWY ŁOWCA"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Bitwa będzie kontynuowana z innej pozycji."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Niedługo się odrodzisz"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Odradzanie"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Drugiej szansy nie będzie."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Odradzanie jest już niedostępne"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Odradzanie będzie wkrótce niedostępne!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Tym razem bądź ostrożniejszy."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Twój pojazd jest gotowy do bitwy!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Powracanie do bitwy"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Trwają aktywne walki."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Odradzanie jest niedostępne"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Znajdź ładunek odradzania, by przywrócić go do akcji."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Pojazd sojusznika został zniszczony"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Odradzanie"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "Lepsze dwa pojazdy, niż jeden!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Pojazd sojusznika odrodził się"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Powstrzymaj się od działań bojowych!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Odradzanie sojusznika"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Aktywowano premię!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Nagroda za pierwsze miejsce"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Zebrano w bitwie"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "ZWYCIĘSTWO"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Nie wybrano rozdziału. Niewydane punkty Przepustki bitewnej: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Ukończono wszystkie rozdziały. Graj dalej i zbieraj punkty Przepustki bitewnej."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Przejdź do Przepustki bitewnej"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Przepustka bitewna"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Wybierz rozdział"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Przejdź do postępów aktywnego rozdziału"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Przejdź do Przepustki bitewnej"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Misje ukończone na bitwę: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Misje"
+
+msgid "battleResult/battleReward/title"
+msgstr "OTRZYMANE ZA BITWĘ"
+
+msgid "battleResult/button/hangar"
+msgstr "Do garażu"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Punkty i nagrody zostaną przydzielone po ukończeniu tej bitwy przez wszystkich graczy. Misje zostaną również ocenione na podstawie wyników bitwy."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Naciśnij %(esc), aby pominąć animację"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Zaproś do plutonu"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Sojusznik"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Losowy sojusznik"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Typ bitwy"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "BITWA SOLO"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "Z kontem premium WoT mógłbyś otrzymać:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Łączne wartości z kontem premium WoT"
+
+msgid "battleResult/progressStage"
+msgstr "Postępy {stage} etapu"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Prawdziwa nazwa gracza i znacznik klanu nie są widoczne dla innych graczy w bitwie."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Prawdziwa nazwa gracza: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Prawdziwa nazwa gracza została zmieniona na {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Ilość uszkodzeń zablokowanych przez pancerz Twojego pojazdu."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Ilość uszkodzeń zadanych przez Ciebie."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Liczba pojazdów przeciwnika zniszczonych przez Ciebie."
+
+msgid "battleResult/stats/body/place"
+msgstr "Twoja pozycja na podstawie wyników bitwy."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Liczba pojazdów przeciwnika zniszczonych przez Twój pluton."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Zablokowane uszkodzenia"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Zadane uszkodzenia"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Zniszczone przez Ciebie"
+
+msgid "battleResult/stats/header/place"
+msgstr "Miejsce"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Zniszczone przez pluton"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Zablokowane uszkodzenia"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Zadane uszkodzenia"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Zniszczone przez Ciebie"
+
+msgid "battleResult/stats/title/place"
+msgstr "Miejsce"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Zniszczone przez pluton"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Klasyfikacja"
+
+msgid "battleResult/tab/result"
+msgstr "Wyniki bitwy"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "PLUTON ZNISZCZONY"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "POJAZD ZNISZCZONY"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "ZWYCIĘSTWO"
+
+msgid "battleResult/title/victoryOther"
+msgstr "MIEJSCE HONOROWE"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Wybierz jeden z pojazdów specjalnych do Stalowego łowcy."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Nieodpowiedni pojazd"
+
+msgid "button/modules"
+msgstr "DRZEWO TECHNOLOGICZNE"
+
+msgid "button/repair"
+msgstr "Napraw"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Bitwy tymczasowo niedostępne"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Bitwy tymczasowo niedostępne"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Tryb niedostępny"
+
+msgid "ceasefire/header/schedule"
+msgstr "Harmonogram bitew"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Na wszystkich dostępnych serwerach trwa zawieszenie broni. Harmonogram znajdziesz poniżej."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "Na tym serwerze trwa zawieszenie broni. Możesz zmienić serwer, aby mieć dostęp do trybu."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Stalowy łowca nie jest dostępny na tym serwerze. Aby mieć do niego dostęp, możesz przejść na inny serwer."
+
+msgid "commanderInfo/commonRank"
+msgstr "Dowódca"
+
+msgid "commanderInfo/description/china"
+msgstr "„Już wygrałem. Wkrótce się o tym przekonasz”."
+
+msgid "commanderInfo/description/france"
+msgstr "„Ja jestem prawem!”"
+
+msgid "commanderInfo/description/germany"
+msgstr "„Ten chwalebny dzień przejdzie do historii.”"
+
+msgid "commanderInfo/description/poland"
+msgstr "„Nie ma czasu na uprzejmości”."
+
+msgid "commanderInfo/description/sweden"
+msgstr "„Wszystko idzie zgodnie z planem”."
+
+msgid "commanderInfo/description/uk"
+msgstr "„Kimkolwiek jesteś, bądź najlepszy.”"
+
+msgid "commanderInfo/description/usa"
+msgstr "„Topór został odkopany, wypolerowany i naostrzony.”"
+
+msgid "commanderInfo/description/ussr"
+msgstr "„Zwycięzca bierze wszystko!”"
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Piotr Łopakin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Atuty"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nSpecjalny pojazd do Stalowego łowcy"
+
+msgid "fragPanel/squadsCount"
+msgstr "Plutony: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Klasyfikacja"
+
+msgid "hangarResults/btns/summary"
+msgstr "Wyniki bitwy"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "ZAMKNIJ"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Moduły można ulepszać tylko w trakcie bitwy. Aby otworzyć menu ulepszeń, naciśnij %(key)s w trakcie bitwy."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s i %(highlight2)s, by zdobywać doświadczenie. Każdy osiągnięty poziom pozwala graczowi ulepszyć moduł w menu ulepszeń i znacząco poprawić parametry pojazdu."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Zadawaj uszkodzenia pojazdom przeciwnika"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "zbieraj trofea wojenne na mapie"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Ulepszanie pojazdu w trakcie bitwy"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Wchodzisz do bitwy w pojeździe I poziomu."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Moduły można ulepszać zarówno w menu ulepszeń w trakcie bitwy (domyślny klawisz: %(treeKey)s) oraz przez naciśnięcie kombinacji klawiszy %(leftModuleKey)s i %(rightModuleKey)s.\n\nModuły można ulepszać tylko w bitwie."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "W bitwie:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Twój Stalowy łowca zdobywa doświadczenie w bitwie za zadawanie uszkodzeń i zbieranie trofeów wojennych. Gdy zgromadzona zostanie wymagana ilość doświadczenia, możesz przejść na kolejny poziom i wybrać ulepszenie jednego z modułów."
+
+msgid "levelUp/severalTitles"
+msgstr "OTRZYMANE POZIOMY: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "OTRZYMANO %(level)s POZIOM!"
+
+msgid "levelUp/twoTitles"
+msgstr "OTRZYMANE POZIOMY: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Wypełniaj misje i odbieraj cenne nagrody."
+
+msgid "level_up/max_level_info/title"
+msgstr "Dostępne nowe misje dzienne"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Sezon\nwkrótce się zaczyna"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Sezon zacznie się %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Zablokowane"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Uszkodzenia"
+
+msgid "playerStats/killsStat/name"
+msgstr "Zniszczenia"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Zniszczenia"
+
+msgid "playerStats/placeStat/name"
+msgstr "Miejsce"
+
+msgid "playerStats/title"
+msgstr "Wynik indywidualny"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Detekcja radiowa niedostępna: trwa przygotowanie"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Pojazd jest w pełni sprawny. Regeneracja nie jest potrzebna."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Robot bitewny zniszczony"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s zniszczył gracza %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s zniszczył przeciwnika %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Kula ognia zniszczona"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Działanie min upłynęło"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Rozłożono miny"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Detekcja radiowa jest gotowa do użycia"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Pojazd osiągnął maksymalny poziom"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Osiągnięto %(level)s poziom"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Zamontowano: %(moduleType)s. Ulepszono: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Kadłub"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Zawieszenie"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Silnik"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Działo"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Detekcja radiowa"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Wieża"
+
+msgid "playersPanel/title"
+msgstr "DRUŻYNA"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Przełącz się między pojazdami plutonu."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Tryb widza"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Powrót do garażu.\nWejdź do bitwy w innym pojeździe."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Powrót do garażu"
+
+msgid "preBattle/buttonTitle"
+msgstr "BITWA!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Wybierz mapę"
+
+msgid "preBattle/listTitle"
+msgstr "GOTOWOŚĆ GRACZA"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Strefa 404"
+
+msgid "preBattle/mapRandom"
+msgstr "Losowa mapa"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "POJAZDY PLUTONU"
+
+msgid "preBattle/title"
+msgstr "WIELKIE ŁOWY"
+
+msgid "preBattle/userFooterTitle"
+msgstr "WYBRANE POJAZDY"
+
+msgid "preBattle/userNotReady"
+msgstr "Niegotowy"
+
+msgid "preBattle/userReady"
+msgstr "Gotowy"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Sezon %(cycleNo)s na serwerze %(server)s zakończył się"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "Sezon na serwerze %(server)s zakończył się."
+
+msgid "proxyPanel/button"
+msgstr "Sklep"
+
+msgid "proxyPanel/label"
+msgstr "Stalowe\npieczęcie"
+
+msgid "proxyPanel/store"
+msgstr "SKLEP"
+
+msgid "questsTooltip/timeLeft"
+msgstr "Sezon kończy się za %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "Nie przypisano klawisza dla detekcji radiowej"
+
+msgid "radar/hint/press"
+msgstr "Naciśnij"
+
+msgid "radar/hint/text"
+msgstr ", by uruchomić detekcję radiową"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Startuj"
+
+msgid "selectRespawn/button/land"
+msgstr "Startuj"
+
+msgid "selectRespawn/description"
+msgstr "Kliknij jeden z proponowanych punktów. Jeśli nie wybierzesz żadnego punktu, rozpoczniesz w losowym z nich."
+
+msgid "selectRespawn/header"
+msgstr "Wybierz punkt startu"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Kliknij jeden z proponowanych punktów. Jeśli nie wybierzesz żadnego punktu, rozpoczniesz w losowym z nich."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Twoja bitwa rozpoczyna się tutaj"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Wybierz punkt startu"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d."
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s godz. %(min)s min"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "ROZWAŁKA!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Kwas powoduje korozję pancerza!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Strefa jest zamknięta! Opuść strefę albo Twój pojazd zostanie zniszczony!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "Strefa wkrótce zmieni kolor na czerwony"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Mobilność zmniejszona!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Z powrotem na kołach..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Odnawianie punktów wytrzymałości"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Odnawianie punktów wytrzymałości"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Zamiana uszkodzeń"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Ulepszono parametry techniczne"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Pociski i regeneracja"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Zrzut"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Zestaw naprawczy lub ładunek umiejętności"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Trofea wojenne"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Mnogie trofea wojenne: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Zbieranie: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Strefa napraw"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Gwałtowny zapał!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "W dymie"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Nasz pancerz koroduje!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Mobilność zmniejszona!"
+
+msgid "techParams/type/damage"
+msgstr "Uszkodzenia"
+
+msgid "techParams/type/difficulty"
+msgstr "Poziom trudności"
+
+msgid "techParams/type/mobility"
+msgstr "Mobilność"
+
+msgid "techParams/type/spotting"
+msgstr "Wykrywanie"
+
+msgid "techParams/type/survivability"
+msgstr "Żywotność"
+
+msgid "techtree/body_armor"
+msgstr "Pancerz"
+
+msgid "techtree/body_health"
+msgstr "Punkty wytrzymałości"
+
+msgid "techtree/body_mobility"
+msgstr "Mobilność"
+
+msgid "techtree/engine_acceleration"
+msgstr "Dynamika"
+
+msgid "techtree/engine_speed"
+msgstr "Maksymalna prędkość"
+
+msgid "techtree/gun_alpha"
+msgstr "Uszkodzenia od strzału"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Automatyczne przeładowanie"
+
+msgid "techtree/gun_clip"
+msgstr "Przeładowanie magazynkowe"
+
+msgid "techtree/gun_dpm"
+msgstr "Szybkość ładowania"
+
+msgid "techtree/gun_dualgun"
+msgstr "Dwulufowy"
+
+msgid "techtree/gun_he"
+msgstr "Uszkodzenia od pocisków OB"
+
+msgid "techtree/gun_machinegun"
+msgstr "Przeciwpancerny karabin maszynowy"
+
+msgid "techtree/gun_piercing"
+msgstr "Penetracja"
+
+msgid "techtree/radar_cooldown"
+msgstr "Przygotowanie detekcji radiowej"
+
+msgid "techtree/radar_distance"
+msgstr "Zasięg wykrywania"
+
+msgid "techtree/turret_armor"
+msgstr "Pancerz"
+
+msgid "techtree/turret_health"
+msgstr "Punkty Wytrzymałości"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Prędkość obrotu"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "Do {{credits}} kredytów"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "Do {{experience}} PD"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Plutonowy bonus za bitwę"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Graj w plutonie z losowym sojusznikiem. Walczcie jako drużyna przeciwko dziewięciu plutonom przeciwnika. W tym trybie można wypełniać misje plutonowe. Pluton zostanie automatycznie rozwiązany po bitwie."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Klasyczny Stalowy łowca. Każdy gracz walczy sam. Zbieraj zasoby, ulepszaj swój pojazd i używaj jego unikalnych zdolności, aby pozostać ostatnim walczącym!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Graj w plutonie ze znajomym. Walczcie jako drużyna przeciwko dziewięciu plutonom przeciwnika. W tym trybie można wypełniać misje plutonowe."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Pluton losowy"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Tryb solo"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Pluton ze znajomym"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Solo"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Pluton"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Zasady zdobywania punktów"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s miejsce"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s miejsca"
+
+msgid "tooltips/awards/achievement"
+msgstr "Medal"
+
+msgid "tooltips/awards/badge"
+msgstr "Odznaka"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: „%(userName)s”"
+
+msgid "tooltips/respawn/common/description"
+msgstr "Pozwala powrócić do bitwy po tym, jak Twój pojazd został zniszczony. Gdy to nastąpi, poziom ulepszeń pojazdu nie jest tracony. Liczba zastosowań podczas jednej bitwy jest ograniczona."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Ładunki odradzania można otrzymać ze zrzutu."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "Aby umożliwić odrodzenie sojusznikowi, trzeba wstrzymać się od działań bojowych przez {brown_Open}%(timeToResurrect)s s{brown_Close}. Ta mechanika działa w ciągu pierwszych {brown_Open}%(duration)s minut{brown_Close} bitwy. Ładunki odradzania są współdzielone między członkami plutonu."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "Grając w plutonie"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Po zniszczeniu pojazd odrodzi się automatycznie. Ta mechanika działa tylko w ciągu pierwszych {brown_Open}%(duration)s minut{brown_Close} bitwy."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "Grając solo"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Jednokrotne użycie"
+
+msgid "tooltips/respawn/title"
+msgstr "Odradzanie"
+
+msgid "tooltips/vehicle/description"
+msgstr "Pojazd do trybu Stalowy łowca"
+
+msgid "tournament/description"
+msgstr "WIELKIE ŁOWY"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Niegotowy"
+
+msgid "tournament/fightButton/ready"
+msgstr "Gotów!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Nie można wejść do turnieju. Kod błędu: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Błąd turnieju Wielkie łowy. Kod błędu: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "WIELKIE ŁOWY"
+
+msgid "tournament/type/solo"
+msgstr "Typ: Solo"
+
+msgid "tournament/type/squad"
+msgstr "Typ: Pluton"
+
+msgid "upgradePanel/alert/0"
+msgstr "Nie możesz ulepszyć pojazdu!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Pojazdu nie można ulepszać w trakcie walki!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Nie możesz ulepszyć pojazdu. Pojazd właśnie tonie!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Nie możesz ulepszyć pojazdu. Pojazd jest przewrócony!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Naciśnij %(key)s, by otworzyć menu ulepszania."
+
+msgid "upgradePanel/title/default"
+msgstr "Dostępny jest nowy moduł"
+
+msgid "upgradePanel/title/hull"
+msgstr "Dostępny jest nowy kadłub"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Dostępne jest nowe zawieszenie"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Dostępny jest nowy silnik"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Dostęne jest nowe działo"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Dostępne jest nowe radio"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Dostępna jest nowa wieża"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "LUB"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Pancerz"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Uszkodzenia od strzału"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Szybkość ładowania"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Punkty Wytrzymałości"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Penetracja"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Działanie detekcji radiowej"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Magazynkowy system ładowania"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Prędkość"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Cechy pojazdu"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Zalety"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Wady"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Zawieszenie broni na wszystkich serwerach. Bitwy będą dostępne za %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Wybierz inny serwer"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Odcinek %(cycle)s zakończył się"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Odcinek zakończony"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Na tym serwerze trwa zawieszenie broni. Bitwy będą dostępne za %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Zawieszenie broni na %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Odcinek %(cycle)s rozpocznie się za %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "Pierwszy odcinek rozpocznie się za %(time)s"

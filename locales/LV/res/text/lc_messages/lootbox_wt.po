@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "Atlicis %(count) modulis"
+msgstr[1] "Atlikuši %(count) moduļi"
+msgstr[2] "Atlikuši %(count) moduļi"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Atpakaļ uz Moduļiem"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "Atverot šos moduļus, vari iegūt Premium tankus, spēles valūtas un citus vērtīgus apbalvojumus."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "Paradoxmoduli var iegūt Spēles veikalā vai Premium veikalā."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Paradoxmodulis"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "PARADOXMODULIS"
+
+msgid "common/getButton/lowerCase"
+msgstr "Iegūt Moduļus"
+
+msgid "common/getButton/upperCase"
+msgstr "IEGŪT MODUĻUS"
+
+msgid "common/loader"
+msgstr "Notiek moduļa atvēršana..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Atver moduļus, lai skatītu statistiku."
+
+msgid "common/statistics/header"
+msgstr "Atvērti moduļi: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Visa informācija par atvērtajiem moduļiem tiks dzēsta."
+
+msgid "entryPoint/boxes"
+msgstr "UZ MODUĻIEM"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Šie ir speciāli moduļi ar jauniem un unikāliem priekšmetiem — Premium tankiem, pielāgošanas elementiem, spēles valūtām un citiem vērtīgiem apbalvojumiem.\nModuļus var iegūt Spēles veikalā vai Premium veikalā."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Tehnisku iemeslu dēļ moduļus pašlaik nevar atvērt vai iegūt. Atvainojamies par sagādātajām neērtībām."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Moduļi uz Laiku nav Pieejami"
+
+msgid "eventName/lowerCase"
+msgstr "Izlauzties no Paradoksa"
+
+msgid "eventName/upperCase"
+msgstr "IZLAUZTIES NO PARADOKSA"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Garantēta Balva nākamajā modulī!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maksimālais modulis skaits līdz Garantētai Balvai: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Ja moduļi netiek atvērti līdz pasākuma beigām, tie tiks atvērti automātiski."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Ja tev jau ir visi tanki no iespējamā moduļu satura saraksta, tad visi nākamie iegūtie tanki tiks kompensēti ar zeltu pilnā vērtībā."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Ik pēc %(guaranteed0)s moduļiem garantēti tiks izlozēts Premium tanks. Ja neviena šāda transportlīdzekļa nav starp atvērtajiem, tad %(guaranteed0)s. modulī tiks piešķirts Premium tanks, kas tev vēl nav. Pēc tam skaitītājs tiek atiestatīts."
+
+msgid "infoPage/header/description"
+msgstr "Atver moduli, lai iegūtu vērtīgus spēles priekšmetus! Vairāk informācijas zemāk."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "No %(name) (atvērti %(boxesCount) moduļi)"
+
+msgid "noBoxesView/description/"
+msgstr "Tev nav neviena moduļa. Tos var iegūt\nSpēles veikalā vai Premium veikalā."
+
+msgid "preview/backLabel"
+msgstr "UZ MODUĻIEM"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Pieejamie moduļi: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nav pieejamu moduļu"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Ja tev jau ir visi tanki no iespējamā moduļa satura saraksta, visi nākamie iegūtie tanki tiks kompensēti ar zeltu."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) modulis"
+msgstr[1] "%(remainingCount) moduļi"
+msgstr[2] "%(remainingCount) moduļi"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Garantētā balva ir tanks no moduļa iespējamā satura saraksta.\nJa atver %(remainingCount) moduļus un nevienā no tiem šāds tanks netiek iegūts, tas tiek saņemts, atverot %(count). moduli. Kad tas notiek, skaitītājs tiek atiestatīts."

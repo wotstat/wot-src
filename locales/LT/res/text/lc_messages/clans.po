@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "Klano pokalbiai"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "Paspauskite norėdami parašyti ir išsiųsti žinutę į klano pokalbių langą."
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "Klano pokalbiai"
+
+msgid "clan/header/creationDate"
+msgstr "Sukurtas %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "Paraiškos ir pakvietimai"
+
+msgid "clan/header/requestSent"
+msgstr "Paraiška paduota"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "Paduoti paraišką"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "Paspauskite norėdami paduoti paraišką šiam klanui."
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "Paduoti paraišką"
+
+msgid "clan/post/combatOfficer"
+msgstr "Karo lauko vadas"
+
+msgid "clan/post/commander"
+msgstr "Vadas"
+
+msgid "clan/post/executiveOfficer"
+msgstr "Vado pavaduotojas"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "Žvalgybos karininkas"
+
+msgid "clan/post/juniorOfficer"
+msgstr "Jaunesnysis karininkas"
+
+msgid "clan/post/personnelOfficer"
+msgstr "Personalo karininkas"
+
+msgid "clan/post/private"
+msgstr "Eilinis"
+
+msgid "clan/post/quartermaster"
+msgstr "Iždininkas"
+
+msgid "clan/post/recruit"
+msgstr "Naujokas"
+
+msgid "clan/post/recruiter"
+msgstr "Verbuotojas"
+
+msgid "clan/post/reservist"
+msgstr "Rezervistas"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "Klaida parodant pavadinimą"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "Duomenys lentelėje pasikeitė."
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "Rekrutavimo reikalavimai"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "Galima redaguoti"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "Klanas neturi laukiančių paraiškų."
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "Klanas neturi negaliojančių paraiškų."
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "Pakviesti į klaną"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "Paspauskite %(invite)s norėdami nusiųsti kvietimus\nnaujiems žaidėjams."
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "Per paskutines 28 dienas klanas neišsiuntė nei vieno kvietimo."
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "Per paskutines 28 dienas klanas neturi jokių laukiančių pakvietimų."
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "Per paskutines 28 dienas klanas neturi nei vieno nebegaliojančio kvietimo."
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "Per paskutines 28 dienas klanas neturi nei vieno apdoroto kvietimo."
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "Klanas neturi apdorotų paraiškų."
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "Iš serverio negauta duomenų.\nPabandykite vėliau."
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "Serverio klaida"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "Laukiantys (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "Visi (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "Nebegaliojantys (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "Gautas atsakymas (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "Apdoroti (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "Laisvų vietų klane: %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "Pakviesti į klaną"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "Jūs turite 3 dienas per kurias reikia apdoroti paraišką jungimuisi į klaną. Paraiškos ir kvietimai saugomi 28 dienas, vėliau automatiškai ištrinami."
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "Negalima pakviesti žaidėjų: nėra laisvų vietų."
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "Negalima pakviesti žaidėjų: verbavimas šiuo metu nevyksta."
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "Priimtas"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "%(days)d d apdorojimui"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "Atmesta"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "Klaida"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "Nebegalioja"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "%(hours)d h apdorojimui"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "%(min)d min atsakymui"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "Išsiųsta"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "Kvietimai (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "Paraiškos (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "Veiksmai"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "Pakviesti"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "Išsiųsta"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "Rodyti dar"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "Statusas"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "Žaidėjas"
+
+msgid "clanInvitesWindow/title"
+msgstr "Paraiškos ir pakvietimai"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "Paspauskite norėdami pakviesti žaidėjus į klaną."
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "Su kvietimu iš:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "Kvietimas priimtas."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "Kvietimas atmestas."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "Kvietimas išsiųstas."
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "Siuntėjas:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Šis mygtukas aktyvuosis, kai bus gauti nauji duomenys iš serverio."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Paspauskite norėdami peržiūrėti naujas paraiškas ir pakvietimus."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "Atnaujinti sąrašą"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "Sprendimo priėmėjas:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "Paraiška priimta."
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "Paraiška atmesta."
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "Prašymo galiojimas baigėsi"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "Paraiška paduota."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "Negalima pakviesti žaidėjų: nėra laisvų vietų."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Žaidėjas neseniai išėjo iš klano. Jūs galėsite jį priimti į klaną nuo:"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "Negalima pakviesti naujų žaidėjų: klane nėra vietos."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Žaidėjo, kuriam buvo išsiųstas pakvietimas, vidutinė patirtis per mūšį (įvertinus Premium paskyrą)."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Vidutinė patirtis per mūšį"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Žaidėjo, kuriam buvo išsiųstas pakvietimas, sužaistų mūšių skaičius."
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Mūšiai"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "Paspauskite norėdami pakviesti šį žaidėją į klaną."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Žinutė, kuri bus nusiųsta kartu su pakvietimu."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Žinutė"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "Žaidėjo, kuriam buvo išsiųstas pakvietimas, asmeninis reitingas."
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "Asmeninis reitingas"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "Pakvietimo išsiuntimo data ir laikas."
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "Išsiųsta"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Pakvietimo į klaną statusas.\nPakvietimas gali būti laukiantis, nebegaliojantis ar apdorotas."
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Statusas"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "Žaidėjo, kuriam buvo išsiųstas pakvietimas, vardas."
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "Žaidėjas"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Žaidėjo, kuriam buvo išsiųstas pakvietimas, pergalių procentas."
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Pergalės"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Paraiška gali būti priimta arba atmesta."
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Veiksmai"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "Žaidėjo, kuris pateikė paraišką, vidutinė patirtis per mūšį (įvertinus Premium paskyrą)."
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "Vidutinė patirtis per mūšį"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "Žaidėjo, kuris pateikė paraišką, sužaistų mūšių skaičius."
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "Mūšiai"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "Žaidėjo atsiųsta žinutė su paraiška"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "Žinutė"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "Žaidėjo, kuris pateikė paraišką, asmeninis reitingas."
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "Asmeninis reitingas"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "Paraiškos į klaną statusas.\nParaiška gali būti laukianti, nebegaliojanti ar apdorota."
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "Statusas"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "Žaidėjo, kuris pateikė paraišką, vardas."
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "Žaidėjas"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "Žaidėjo, kuris pateikė paraišką, pergalių procentas."
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "Pergalės"
+
+msgid "clanLanding/notification/archived"
+msgstr "Žinutė buvo perkelta į archyvą."
+
+msgid "clanLanding/notification/commonError"
+msgstr "Techninė klaida: negalima užbaigti operacijos su žinute."
+
+msgid "clanLanding/notification/deleted"
+msgstr "Žinutė pašalinta."
+
+msgid "clanLanding/notification/edited"
+msgstr "Žinutė paskelbta."
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "Pasiektas maksimalus simbolių skaičius."
+
+msgid "clanLanding/notification/limitReached"
+msgstr "Jau paskelbtas maksimalus žinučių kiekis klane."
+
+msgid "clanLanding/notification/noPermission"
+msgstr "Trūksta teisių klano žinučių valdymui: jūsų rolė buvo pakeista."
+
+msgid "clanLanding/notification/notExist"
+msgstr "Žinutė buvo pašalinta arba perkelta į archyvą."
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "Žinutėje yra išsireiškimų, pažeidžiančių <a href=\"event:clanRulesLink\">klano taisykles</a>."
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "Laukiantys pakvietimai: %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "Atmesti pasirinktą (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "Mano pakvietimai į klaną"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "Duomenų gavimas..."
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "Jūs neturite pakvietimų į klanus."
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "Pasirinkti visas paraiškas"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "Veiksmai"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "Klano pavadinimas"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "Statusas"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "Kvietimai į klaną"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Jūs galėsite atnaujinti sąrašą gavę naujus duomenis."
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Paspauskite norėdami atnaujinti duomenis lentelėje."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Jūs neseniai išėjote iš klano. Priimti kvietimus į klaną galėsite po:"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Vidutinė, pakvietimą atsiuntusio klano, žaidėjų patirtis per mūšį (proporcinis vidurkis iš Atsitiktinių mūšių)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Vidutinė patirtis per mūšį"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Vidutinis, pakvietimą atsiuntusio klano, žaidėjų mūšių skaičius (tik atsitiktiniai mūšiai)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Klano mūšiai"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "Klano, kuris atsiuntė pakvietimą, pavadinimas"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "Klano pavadinimas"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Žinutė nuo klano, kuris atsiuntė pakvietimą"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Žinutė"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "Bendras reitingas klano, kuris atsiuntė kvietimą"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "Klano reitingas"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Rodo klano kvietimo statusą ir laiką likusį kvietimo apdorojimui"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Statusas"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Pakvietimą atsiuntusio klano, žaidėjų pergalių procentas (proporcinis vidurkis iš Atsitiktinių mūšių)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Klano pergalės"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Jūs galite priimti arba atmesti kvietimą. Priimdami kvietimą iš vieno klano, jūs automatiškai atmesite kvietimus iš kitų."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Veiksmai"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "Klano profilis"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "Uždaryti"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "Sveiki atvykę į klaną!"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "Dabar galite dalyvauti kovose Globaliame žemėlapyje, ginti savo Tvirtovę ir vykdyti specialias misijas."
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "Informacinis lapelis"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "Jūsų klanas: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "Atsiprašome už nepatogumus. Prašome pabandyti vėliau."
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "Tvirtovė laikinai nepasiekiama"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "Atsiprašome už nepatogumus.\nPabandykite vėliau."
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "Klaida užkraunant duomenis"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "Klano profilis"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "Tvirtovė"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "Globalus žemėlapis"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "Klano nariai"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "Tvirtovė"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "Suvestinė"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "Pakviesti žaidėją į klaną"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "Veiksmas negalimas. Žaidėjus į klaną galite pakviesti tik po vieną."
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "Visus kontaktus įtraukti į gavėjų sąrašą."
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "Mūšiai per paskutines 28 dienas"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "Puolimai per paskutines 28 dienas"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "Klano vadas"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "Dar nesukurta"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "Mūšiai nevyko.\nNėra valdomų provincijų."
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "Tvirtovės lygis"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "Iždas"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "Nedalyvauta mūšiuose"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "Provincijos"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Elo reitingas X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Elo reitingas VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Elo reitingas VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "Išpuoliai per paskutines 28 dienas"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "Viso žaidėjų"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "Detaliau"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "Pereiti"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "Pateikti paraišką"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "Klanas neturi devizo."
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "Globalaus žemėlapio informacija"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "Pereiti į žemėlapį"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "Duomenys laikinai nepasiekiami"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "Negalima įstoti į klaną."
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "Peržiūrėti prisijungimo į klaną reikalavimus %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "Jūs jau esate\nkito klano narys."
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "Jūs jau gavote kvietimą jungtis\nprie šio klano."
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s Laikinai neleidžiama"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s Laikinai neleidžiama"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "Šis klanas nepriima paraiškų %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "Paraiška paduota"
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "Duomenų sinchronizavimas..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "Klano Elo reitingas X diviziono Puolimuose"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Elo reitingas X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "Klano Elo reitingas VI divizione"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Elo reitingas VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "Klano Elo reitingas VIII diviziono Puolimuose"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Elo reitingas VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "Klano Puolimai per paskutines 28 dienas"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "Puolimai per paskutines 28 dienas"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "Tvirtovės lygis nustatomas pagal valdymo centro lygį."
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "Tvirtovės lygis"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "Klano išpuoliai per paskutines 28 dienas"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "Išpuoliai per paskutines 28 dienas"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "Klano Elo reitingas X diviziono mūšiuose globaliame žemėlapyje"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Elo reitingas X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "Klano Elo reitingas VI diviziono mūšiuose globaliame žemėlapyje"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Elo reitingas VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "Klano Elo reitingas VIII diviziono mūšiuose globaliame žemėlapyje"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Elo reitingas VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "Klano mūšiai globaliame žemėlapyje per paskutines 28 dienas"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "Mūšiai per paskutines 28 dienas"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "Klano turimos provincijos globaliame žemėlapyje."
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "Provincijos"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "Paduotas maksimalus paraiškų skaičius."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "Negalima paduoti paraiškos"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "Paduotas maksimalus paraiškų skaičius."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "Negalima paduoti paraiškos"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "Klanas nepriima paraiškų."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "Negalima paduoti paraiškos"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "Klano reitingas nebuvo atnaujintas per paskutines 28 dienas"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "Pasenusi informacija"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "Klano efektyvumas Puolimuose ir globalaus žemėlapio kovose įtakoja bendro reitingo augimą."
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "Bendras reitingas"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "Bendras reitingas"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "Klano profilis"
+
+msgid "globalMap/disabled"
+msgstr "Globalaus žemėlapio mūšiai šiuo metu\njūsų regione nepasiekiami"
+
+msgid "globalMapView/level10"
+msgstr "X lygis"
+
+msgid "globalMapView/level6"
+msgstr "VI lygis"
+
+msgid "globalMapView/level8"
+msgstr "VIII lygis"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "Provincija neuždirba jums jokių pajamų, nes ji neturi ryšio su valdymo centru arba provincija buvo apiplėšta."
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "Neuždirba pajamų"
+
+msgid "globalMapView/noProvince"
+msgstr "Klanas neturi nei vienos provincijos."
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "Populiariausias patogiausias laikas: %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "Globalus žemėlapis - tai vieta kur vyksta strateginės kovos tarp klanų. Klanų karininkai čia praleidžia daugiausia laiko planuodami taktikas, išdėstydami pajėgas strateginiams manevrams."
+
+msgid "globalMapView/promo/header"
+msgstr "Globalus žemėlapis"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "Globalaus žemėlapio informacija"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "Pereiti į žemėlapį"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "Mūšiai"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "Bendras mūšių skaičius X divizione globaliame žemėlapyje"
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "Mūšiai"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Elo reitingas"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "Klano reitingas X diviziono globalaus žemėlapio mūšiuose"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Elo reitingas"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "Populiarus žemėlapis"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "Žemėlapis, kuriame klanas daugiausia kartų kovojo X divizione per paskutines 28 dienas."
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "Populiarus žemėlapis: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "Vieta reitinge"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "Klano pozicija reitinge X diviziono globalaus žemėlapio mūšiuose"
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "Vieta reitinge"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "Pergalės"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "Bendras pergalių procentas X diviziono mūšiuose globaliame žemėlapyje"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "Pergalės"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "Mūšiai"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "Bendras mūšių skaičius VI divizione globaliame žemėlapyje"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "Mūšiai"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Elo reitingas"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "Klano reitingas VI diviziono globalaus žemėlapio mūšiuose"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Elo reitingas"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "Populiarus žemėlapis"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "Žemėlapis, kuriame klanas daugiausia kartų kovojo VI divizione per paskutines 28 dienas."
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "Populiarus žemėlapis: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "Vieta reitinge"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "Klano pozicija reitinge VI diviziono globalaus žemėlapio mūšiuose"
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "Klano reitingas"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "Pergalės"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "Bendras pergalių procentas VI diviziono mūšiuose globaliame žemėlapyje"
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "Pergalės"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "Mūšiai"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "Bendras mūšių skaičius VIII divizione globaliame žemėlapyje"
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "Mūšiai"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Elo reitingas"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "Klano reitingas VIII diviziono globalaus žemėlapio mūšiuose"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Elo reitingas"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "Populiarus žemėlapis"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "Žemėlapis, kuriame klanas daugiausia kartų kovojo VIII divizione per paskutines 28 dienas."
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "Populiarus žemėlapis: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "Vieta reitinge"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "Klano pozicija reitinge VIII diviziono globalaus žemėlapio mūšiuose"
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "Klano reitingas"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "Pergalės"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "Bendras pergalių procentas VIII diviziono mūšiuose globaliame žemėlapyje"
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "Pergalės"
+
+msgid "globalMapView/stats/battles"
+msgstr "Mūšiai globaliame žemėlapyje"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "Bendras klano mūšių skaičius globaliame žemėlapyje"
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "Mūšiai globaliame žemėlapyje"
+
+msgid "globalMapView/stats/seized"
+msgstr "Užimta provincijų"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "Bendras klano užimtų provincijų skaičius. Skaičiuojamos ir tos provincijos, kurias klanas užėmė, bet vėliau prarado."
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "Užimta provincijų"
+
+msgid "globalMapView/stats/wins"
+msgstr "Klano pergalės"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "Bendras klano narių pergalių procentas mūšiuose globaliame žemėlapyje"
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "Klano pergalės"
+
+msgid "globalMapView/table/days"
+msgstr "Dienos"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "Dienų skaičius, kai globaliame žemėlapyje klanas išlaiko provinciją."
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "Dienos"
+
+msgid "globalMapView/table/front"
+msgstr "Frontas"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "Pasirinkto fronto pavadinimas"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "Frontas"
+
+msgid "globalMapView/table/income"
+msgstr "Įplaukos"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "Per dieną iš provincijos gaunamas auksas"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "Įplaukos"
+
+msgid "globalMapView/table/map"
+msgstr "Žemėlapis"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "Žemėlapio pavadinimas, kuriame vyksta mūšiai dėl provincijos."
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "Žemėlapis"
+
+msgid "globalMapView/table/primeTime"
+msgstr "Patogiausias laikas"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "Suplanuota mūšių dėl provincijos pradžia."
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "Patogiausias laikas"
+
+msgid "globalMapView/table/province"
+msgstr "Provincija"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "Pasirinktos provincijos pavadinimas."
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "Provincija"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "Provincija buvo apiplėšta ir laikinai negeneruoja jokių pajamų."
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "Laikas, kai vėl gausite pajamas:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "Provincijos"
+
+msgid "globalMapView/tabs/stats"
+msgstr "Statistika"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "Klano reitingas nebuvo atnaujintas per paskutines 28 dienas"
+
+msgid "globalMapView/totalIncome"
+msgstr "Suminės dienos pajamos: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "Vidutinis\nmūšių skaičius"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "Vidutinis aritmetinis klano narių mūšių skaičius, sužaistas atsitiktinių ir kuopų mūšių režime. Skaičiuojami tik dabartiniai klano nariai."
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "Vidutinis klano narių mūšių skaičius"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "Vidutinė patirtis"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "Svertinis klano narių uždirbtos patirties atsitiktiniuose ir kuopų mūšiuose vidurkis. Bendras kiekvieno žaidėjo mūšių skaičius įtakoja svorį. Skaičiuojami tik dabartiniai klano nariai."
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "Vidutinė klano narių patirtis"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "Vidutinis asmeninis reitingas"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "Vidutinis aritmetinis klano narių asmeninis reitingas. Skaičiuojami tik dabartiniai klano nariai."
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "Vidutinis klano narių asmeninis reitingas"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "Vidutinis pergalių procentas"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "Svertinis klano narių pergalių procento atsitiktiniuose ir kuopų mūšiuose vidurkis. Bendras kiekvieno žaidėjo mūšių skaičius įtakoja svorį. Skaičiuojami tik dabartiniai klano nariai."
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "Vidutinis klano narių pergalių procentas"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "Žaidėjo uždirbtos patirties ir sužaistų atsitiktinių ir kuopų mūšių skaičiaus santykis"
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "Vidutinė patirtis"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "Bendras žaidėjo atsitiktinių ir kuopų mūšių skaičius"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "Bendras mūšių skaičius"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "Žaidėjo dienų skaičius klane"
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "Dienos klane"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "Žaidėjo asmeninis reitingas"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "Asmeninis reitingas"
+
+msgid "personnelView/table/player"
+msgstr "Žaidėjas (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "Klano nario vardas"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "Žaidėjas"
+
+msgid "personnelView/table/post"
+msgstr "Pareigos"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "Nario pareigos klane"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "Pareigos"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "Bendras žaidėjo pergalių procentas atsitiktinių ir kuopų mūšių režime"
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "Pergalės"
+
+msgid "personnelView/title"
+msgstr "Klano narių statistika iš Atsitiktinių ir Tankų kuopų mūšių:"
+
+msgid "search/clansList"
+msgstr "Klanų sąraše: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "Pagal jūsų užklausą nieko nerasta. Pabandyti ieškoti nurodę kitus paieškos žodžius."
+
+msgid "search/emptyResult/button"
+msgstr "Atgal į sąrašą"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "Paspauskite norėdami grįžti į rastų klanų sąrašą."
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "Atgal į sąrašą"
+
+msgid "search/emptyResult/header"
+msgstr "Nieko nerasta"
+
+msgid "search/foundClans"
+msgstr "Rasti klanai: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "Negalima įstoti į klaną."
+
+msgid "search/info/banned/tooltip/header"
+msgstr "Negalima paduoti paraiškos"
+
+msgid "search/info/clanProfileBtn"
+msgstr "Klano profilis"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "Negalima pateikti paraiškos stojimui į klaną."
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "Veiksmas negalimas"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "Jūs jau gavote kvietimą jungtis prie šio klano."
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "Negalima paduoti paraiškos"
+
+msgid "search/info/ratingDescription"
+msgstr "Bendras reitingas"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "Klano efektyvumas Tvirtovės režime ir Globalaus žemėlapio kovose įtakoja bendro reitingo augimą."
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "Bendras reitingas"
+
+msgid "search/info/ratingTitle"
+msgstr "Visų mūšių tipų statistika:"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "Jūs jau pateikėte paraišką šiam klanui."
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "Negalima paduoti paraiškos"
+
+msgid "search/info/requestSent"
+msgstr "Paraiška paduota"
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "Klanas nepriima paraiškų."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "Negalima paduoti paraiškos"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "Paduotas maksimalus paraiškų skaičius."
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "Negalima paduoti paraiškos"
+
+msgid "search/info/sendRequestBtn"
+msgstr "Paduoti paraišką"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "Negauta serverio duomenų. Pabandykite vėliau."
+
+msgid "search/info/serverUnavailable/header"
+msgstr "Serverio klaida"
+
+msgid "search/info/stats/avgExp"
+msgstr "Vidutinė patirtis"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "Svertinis klano narių uždirbtos patirties visuose mūšių režimuose vidurkis. Bendras kiekvieno žaidėjo mūšių skaičius įtakoja svorį. Skaičiuojami tik dabartiniai klano nariai."
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "Vidutinė klano narių patirtis"
+
+msgid "search/info/stats/battles"
+msgstr "Vidutinis\nmūšių skaičius"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "Vidutinis klano narių mūšių skaičius visuose režimuose. Skaičiuojami tik dabartiniai klano nariai."
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "Vidutinis klano narių mūšių skaičius"
+
+msgid "search/info/stats/wins"
+msgstr "Vidutinis pergalių procentas"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "Svertinis klano narių pergalių procento visuose mūšių režimuose vidurkis. Bendras kiekvieno žaidėjo mūšių skaičius įtakoja svorį. Skaičiuojami tik dabartiniai klano nariai."
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "Vidutinis klano narių pergalių procentas"
+
+msgid "search/nextBtn"
+msgstr "Kitas"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "Paspauskite norėdami peržiūrėti sekančią klanų sąrašo dalį."
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "Kitas"
+
+msgid "search/previousBtn"
+msgstr "Ankstesnis"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "Paspauskite norėdami peržiūrėti ankstesnę klanų sąrašo dalį."
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "Ankstesnis"
+
+msgid "search/promoText/body"
+msgstr "Norėdami surasti klaną, įveskite jo pavadinimą arba žymą į paieškos laukelį ir paspauskite \"Ieškoti\"."
+
+msgid "search/promoText/header"
+msgstr "Klano paieška"
+
+msgid "search/requestTooShort/body"
+msgstr "Norėdami ieškoti klano, įveskite bent 2 simbolius laukelyje ir pabandykite dar kartą."
+
+msgid "search/requestTooShort/button"
+msgstr "Atgal į sąrašą"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "Atgal į sąrašą"
+
+msgid "search/requestTooShort/header"
+msgstr "Trūksta duomenų"
+
+msgid "search/searchBtn"
+msgstr "Paieška"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "Įveskite klano pavadinimą arba žymą į laukelį kairėje (bent 2 simbolius)."
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "Klano paieška"
+
+msgid "search/searchInputPrompt"
+msgstr "Įveskite klano pavadinimą arba žymą"
+
+msgid "search/serverUnavailable/body"
+msgstr "Negauta serverio duomenų. Pabandykite vėliau."
+
+msgid "search/serverUnavailable/header"
+msgstr "Serverio klaida"
+
+msgid "search/table/clan"
+msgstr "Klanas"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "Klano atributai: žyma ir pavadinimas"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "Klanas"
+
+msgid "search/table/creationDate"
+msgstr "Sukurtas"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "Klano sukūrimo data"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "Sukurtas"
+
+msgid "search/table/players"
+msgstr "Žaidėjai"
+
+msgid "search/table/players/tooltip/body"
+msgstr "Klano narių skaičius"
+
+msgid "search/table/players/tooltip/header"
+msgstr "Žaidėjai"
+
+msgid "search/table/rating"
+msgstr "Reitingas"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "Bendras klano reitingas"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "Reitingas"
+
+msgid "search/title"
+msgstr "Klano paieška"
+
+msgid "search/titleDescription"
+msgstr "Čia galite ieškoti klanų, peržiūrėti jų informaciją\nbei pateikti paraišką stojimui. Klano galite ieškoti pagal klano žymą arba pavadinimą."
+
+msgid "search/windowTitle"
+msgstr "Klano paieška"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "Planas"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "Statistika"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "Lygis %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "nenurodyta"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "Paliaubos:"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "Gynybos periodas:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "Namų serveris:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "Pastatyta statinių:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "Neutralumas:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "Daugiausia uždirbta pramoninių išteklių"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "Daugiausia pergalių iš eilės"

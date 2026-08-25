@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Modtog også:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Denne serie af missioner kan spilles igen."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Bekræftet!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Luk"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Vis i garagen"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Spil igen"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Til Crucible"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "WoT premium konto"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Premium køretøj"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Lejekøretøj"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "og stilen “{{styleName}}”"
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) dag"
+msgstr[1] "%(day) dage"
+msgstr[2] "%(day) dage"
+
+msgid "awards_view/title"
+msgstr "CRUCIBLE FULDFØRT!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Mission for ×5 xp per kamp"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Plantegningsfragment: (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Universelt plantegningsfragment"
+
+msgid "bonuses/bpcoin"
+msgstr "Battle Pass-token"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Mission for ×3 mandskabs xp"
+
+msgid "bonuses/description/attachments_set"
+msgstr "Sæt med 3D-tilbehør"
+
+msgid "bonuses/description/booster"
+msgstr "Personlig reserve"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Erobret udstyr"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Mandskabsskin"
+
+msgid "bonuses/description/directive"
+msgstr "Direktiv"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Eksperimentelt udstyr"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Forbedret udstyr"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "og stilen “%(styleName)s”"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Standard udstyr"
+
+msgid "bonuses/description/style"
+msgstr "2D-stil"
+
+msgid "bonuses/description/style_3d"
+msgstr "3D-stil"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Kvindeligt mandskab"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Rekruttér"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Mandskabsmedlem"
+
+msgid "condition/achievement"
+msgstr "Optjen %(achievement)s-bedriften"
+
+msgid "condition/achievement/title"
+msgstr "Kamphelte"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Uddel og assister i at uddele i alt %(goal)s hp skade"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Uddel, modtag og bloker i alt %(goal)s hp skade"
+
+msgid "condition/aggregated/title"
+msgstr "Avanceret betingelse"
+
+msgid "condition/classes/AT-SPG"
+msgstr "Kampvognsjæger"
+
+msgid "condition/classes/SPG"
+msgstr "SPG"
+
+msgid "condition/classes/heavyTank"
+msgstr "Tung kampvogn"
+
+msgid "condition/classes/lightTank"
+msgstr "Let kampvogn"
+
+msgid "condition/classes/mediumTank"
+msgstr "Medium kampvogn"
+
+msgid "condition/critsCount"
+msgstr "Uddel %(goal)s kritiske træffere til interne eller eksterne moduler på fjendtlige køretøjer"
+
+msgid "condition/critsCount/title"
+msgstr "Immobiliser"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Bloker %(goal)s hp skade"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Bloker %(goal)s gange mere skade end hp på dit køretøj"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Bloker"
+
+msgid "condition/damageDealt"
+msgstr "Uddel %(goal)s hp skade til fjendtlige køretøjer"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Uddel %(goal)s gange mere skade end hp på dit køretøj"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Træf fjendtlige køretøjer fra en afstand på %(distance)s m eller mindre %(goal)s gange"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Træf fjendtlige køretøjer fra en afstand på %(distance)s m eller mere %(goal)s gange"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Uddel skade til fjendtlige køretøjer ved at påkøre dem %(goal)s gange"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Træf fjendtlige køretøjer indenfor dit køretøjs synsrækkevidde %(goal)s gange"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Uddel %(goal)s hp skade i de første %(timeLimit)s minutter af kampen"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Uddel %(goal)s hp skade til fjendtlige køretøjer fra en afstand på %(distance)s m eller mindre"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Uddel %(goal)s hp skade til fjendtlige køretøjer fra en afstand på %(distance)s m eller mere"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Uddel %(goal)s hp skade ved påkørsler"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Påkørsel"
+
+msgid "condition/damageDealt/title"
+msgstr "Skade"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Uddel %(goal)s hp skade til uopdagede fjendtlige køretøjer"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Uddel %(goal)s hp skade til fjendtlige køretøjer indenfor dit køretøjs synsrækkevidde"
+
+msgid "condition/kills"
+msgstr "Ødelæg %(goal)s fjendtlige køretøjer"
+
+msgid "condition/kills/classes"
+msgstr "Ødelæg %(goal)s fjendtlige %(vehicleClass)s"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Ødelæg %(goal)s fjendtlige køretøjer af %(classCount)s forskellige typer"
+
+msgid "condition/kills/title"
+msgstr "Ødelæg"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Ødelæg %(goal)s fjendtlige køretøjer uden at modtage skade"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Ødelæg %(goal)s fjendtlige køretøjer, mens du forbliver uopdaget"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Uddel %(goal)s%% af den samlede mængde skade uddelt af dit hold"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Skade"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Gennembryd fjendtligt panser %(goal)s gange"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Gennembrydning"
+
+msgid "condition/spotted"
+msgstr "Opdag %(goal)s fjendtlige køretøjer"
+
+msgid "condition/spotted/title"
+msgstr "Opdag"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Opdag %(goal)s køretøjer mens du forbliver uopdaget"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Opdag"
+
+msgid "condition/top/damageDealt"
+msgstr "Vær i top %(rank)s på dit hold efter uddelt skade"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Vær i top %(rank)s på begge hold efter uddelt skade"
+
+msgid "condition/top/title"
+msgstr "Bedste spiller"
+
+msgid "condition/top/xp"
+msgstr "Vær i top %(rank)s på dit hold efter optjent xp"
+
+msgid "condition/unknown"
+msgstr "Finder den bedst egnede mission..."
+
+msgid "condition/unknown/title"
+msgstr "Venter"
+
+msgid "postbattle/name"
+msgstr "CRUCIBLE: "

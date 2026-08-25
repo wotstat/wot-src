@@ -1,0 +1,50 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "serviceChannelMessages/resourceWell/enabled/text"
+msgstr "Surinkimo punktas vėl atidarytas!"
+
+msgid "serviceChannelMessages/resourceWell/end/text"
+msgstr "Mes pradedame dirbti ties nauju projektu. Mes jus informuosime, kai pabaigsime kūrimo darbus. Greitai pasimatysime!"
+
+msgid "serviceChannelMessages/resourceWell/end/title"
+msgstr "Surinkimo punktas užsidaro"
+
+msgid "serviceChannelMessages/resourceWell/noSerialVehicles/text"
+msgstr "Mašinų su numeriais pristatymas baigtas. Dabar pradedame surinkinėti standartinės konfigūracijos %(vehicle)s. Paskubėkite — mašinų kiekis ribotas!"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/text"
+msgstr "Mašinų surinkimas baigtas. Visos mašinos pristatytos jų savininkams."
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/title"
+msgstr "Surinkimo punkto ataskaita"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/twoParallelProducts/text"
+msgstr "%(soldOutVehicle)s dalybos baigėsi. Vis dar galite nusipirkti %(availableVehicle)s. Jei esate išleidę resursų, tačiau laiku neįsigijote mašinos, juos greitai grąžinsime jums. Paskubėkite — mašinų skaičius ribotas!"
+
+msgid "serviceChannelMessages/resourceWell/noVehiclesWithReturn/text"
+msgstr "Mašinų surinkimas baigtas. Visos mašinos pristatytos jų savininkams. Visi jūsų įdėti resursai bus netrukus sugrąžinti į jūsų paskyrą."
+
+msgid "serviceChannelMessages/resourceWell/oneVehicleStart/text"
+msgstr "Vade, jūs turite progą tapti %(vehicle)s su numeruotu 3D stiliumi savininku. Mašinų kiekis ribotas!"
+
+msgid "serviceChannelMessages/resourceWell/pause/text"
+msgstr "Surinkimo punktas laikinai nepasiekiamas dėl techninės profilaktikos."
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/additionalText"
+msgstr "Stiliaus numeris: %(serialNumber)s"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/text"
+msgstr "Unikali %(vehicle)s mašina gauta iš Surinkimo punkto."
+
+msgid "serviceChannelMessages/resourceWell/reward/title"
+msgstr "Gauta %(vehicle)s!"
+
+msgid "serviceChannelMessages/resourceWell/reward/vehicle/text"
+msgstr "%(vehicle)s mašina gauta iš Surinkimo punkto."
+
+msgid "serviceChannelMessages/resourceWell/start/title"
+msgstr "Surinkimo punktas atsidaro"
+
+msgid "serviceChannelMessages/resourceWell/twoVehiclesStart/text"
+msgstr "Vade, tai proga jums gauti %(firstVehicle)s ir %(secondVehicle)s! Tačiau paskubėkite — jų skaičius ribotas!"

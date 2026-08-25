@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT-vertaler <noreply@wargaming.net>\nLanguage-Team: WoT-team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "Antialiasing"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "Bepaalt de mate van extra verwerking van dunne lijnen en contouren van spelobjecten. Minimaliseert het aliasing effect.\n\n• Hoog – FXAA\n• Maximum – Tijdelijk Supersampling Antialiasing HQ (TSSAA HQ)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "Dynamische aanpassing"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "Zet automatische aanpassing van de 3D renderresolutie aan of uit, afhankelijk van de videokaartbelasting.\n\nHet aanzetten van deze parameter kan de spelprestatie verbeteren. De renderresolutie in de garage blijft altijd hetzelfde."
+
+msgid "EFFECTS_QUALITY"
+msgstr "Extra effecten kwaliteit"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "Bepaalt de beeldkwaliteit van de vonken van ricochets, explosies, rook en andere visuele effecten. \n\nHet verminderen van deze parameterwaarde kan de spelprestaties verbeteren."
+
+msgid "FAR_PLANE"
+msgstr "Weergavebereik"
+
+msgid "FAR_PLANE/description"
+msgstr "Bepaalt de weergaveafstand van reliëfkenmerken, gebouwen, vijandelijke voertuigen en andere spelobjecten."
+
+msgid "FLORA_QUALITY"
+msgstr "Grasdichtheid"
+
+msgid "FLORA_QUALITY/description"
+msgstr "Bepaalt de dichtheid van gras in arcade- en sluipschuttermodus."
+
+msgid "HAVOK_ENABLED"
+msgstr "Verbeterde natuurkundige vernietigingseffecten"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "UIT"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "AAN"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "Schakelt een meer gedetailleerd en realistisch model in voor objectvernietiging op kaarten.\n\nHet uitschakelen van deze parameter kan de spelprestatie verbeteren."
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "De instelling wordt bij het volgende gevecht toegepast als het in het huidige gevecht is uitgeschakeld."
+
+msgid "LANGUAGE_CODE"
+msgstr "nl"
+
+msgid "LIGHTING_QUALITY"
+msgstr "Belichtingskwaliteit"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "Bepaalt de kwaliteit en de weergavemethode van zonnestralen en optische effecten. \n\nHet vermeerderen van deze parameterwaarde kan de belasting van de grafische kaart aanzienlijk verhogen."
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "Bewegingsvervagings-effect"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "Bepaalt de kwaliteit van het motion blur-effect van het beeld wanneer een voertuig beweegt of de camera draait."
+
+msgid "MSAA_QUALITY"
+msgstr "Antialiasing"
+
+msgid "MSAA_QUALITY/description"
+msgstr "Bepaalt de mate van extra verwerking van dunne lijnen en contouren van spelobjecten. Minimaliseert het aliasing effect.\n\n• Laag—MSAA 2x\n• Medium—MSAA 4x\n• Hoog—MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "Hoeveelheid detail"
+
+msgid "OBJECT_LOD/description"
+msgstr "Bepaalt het aantal weergegeven objecten en hun kwaliteit."
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "Nabewerking"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "Bepaalt de kwaliteit van het nabewerken van visuele effecten: hitteflikkering en schokgolfeffecten, chromatische aberratie, vignet, filmkorrel, etc. \n\nHet verminderen van deze parameterwaarde kan de spelprestaties verbeteren."
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "Graphics"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "Verbeterd: zorgt voor maximale beeldkwaliteit.\n\nVereenvoudigd: zorgt voor maximale prestaties door de vereenvoudiging of uitschakeling van enkele visuele effecten."
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "Graphics:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "Veranderingen aan deze parameter worden pas na het herstarten van het spel doorgevoerd."
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "Begroeiingsdoorzichtigheid"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "Bepaalt hoeveel begroeiing van bomen en struiken dichtbij worden getoond.\n\nHet uitzetten van deze parameter maakt de begroeiing van bomen en struiken dichtbij totaal onzichtbaar, wat de spelprestaties kan verbeteren."
+
+msgid "SHADER_VERSION_CAP"
+msgstr "Shader-versie"
+
+msgid "SHADOWS_QUALITY"
+msgstr "Schaduwkwaliteit"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "Bepaalt de kwaliteit van dynamische schaduweffecten binnen het gehele weergavebereik.\n\nHet verminderen van deze parameterwaarde kan de spelprestatie verbeteren."
+
+msgid "SMOKE_ENABLED"
+msgstr "Rook"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "Extra effecten in sluipschuttermodus"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "Bepaalt de beeldkwaliteit van de vonken van ricochets, explosies, rook en andere realistische effecten in de sluipschuttermodus. \n\nHet verminderen van deze parameterwaarde kan de spelprestaties verbeteren."
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "Gras in sluipschuttermodus"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "Geeft gras weer in de sluipschuttermodus. \n\nHet uitschakelen van deze parameter kan de spelprestaties verbeteren."
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "Terrein betegeling in sluipschuttermodus"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Verhoogt de kwaliteit van terrein binnen een radius van 50 meter van je voertuig in sluipschuttermodus. Alleen beschikbaar met de Terrein betegeling optie ingeschakeld.\n\nHet uitschakelen van deze parameter kan de spelprestatie verbeteren."
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "Vegetatiekwaliteit"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "Bepaalt de beeldkwaliteit van bomen, struiken en gras."
+
+msgid "TERRAIN_QUALITY"
+msgstr "Terreinkwaliteit"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "Bepaalt de nauwkeurigheid van het kaartreliëf.\n\nGebruik een minimale kwaliteit van het landschap alleen in geval van lage computerprestatie.\n\nHet verminderen deze parameterwaarde kan de synchronisatie van de landschap-weergave tussen de client en de server verstoren."
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "Het toepassen van de geselecteerde parameter kan enige tijd kosten."
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "Terrein betegeling"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Hardware-versneld proces waarbij nieuwe driehoeken worden toegevoegd aan het polygoon netwerk om de details van het netwerk te verhogen.\n\nDeze functie werkt alleen met:\n• Verbeterde graphics\n• Hoog, maximum of ultra terreinkwaliteit\n• DirectX 11 geïnstalleerd.\n\nDe instellingswijzigingen zijn onbeschikbaar met versies ouder dan DirectX 11.\n\nHet uitschakelen van deze parameter kan de spelprestaties verbeteren."
+
+msgid "TEXTURE_QUALITY"
+msgstr "Textuurkwaliteit"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "Kwaliteit van de oppervlakken van spelobjecten, vooral dichtbij bezien. \n\nHet verminderen van de waarde van deze parameter kan de spelprestaties verbeteren."
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "Het toepassen van de geselecteerde parameter kan enige tijd kosten."
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "Rupsbandfysica"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "Bepaalt de kwaliteit van fysicasimulaties voor gebroken en operationele rupsbanden, en van rupsbanddetails.\n\nHet verlagen of uitschakelen van deze parameter kan de spelprestaties verbeteren."
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "Zet rupsband- en wieleffecten aan"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "Geeft grond, sneeuw en opspattend water achter de rupsbanden en wielen weer.\n\nHet uitschakelen van deze parameter kan de spelprestatie verbeteren."
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "Zet rupsband- en wielsporen aan"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "Toont rupsband- en wielsporen op de grond.\n\nNiet beschikbaar met vereenvoudigde graphics en lage decal-kwaliteit."
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "Verberg 3D-attachments in sluipschuttermodus"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "Verbergt tijdelijk 3D-attachments in het vizier van de sluipschuttermodus.\n\nVermindert visuele ruis en verbetert het richten."
+
+msgid "WATER_QUALITY"
+msgstr "Waterkwaliteit"
+
+msgid "WATER_QUALITY/description"
+msgstr "Bepaalt de weergave kwaliteit van wateroppervlakken."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "Alleen zwak pantser"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "Indien actief, licht de zaklamp alleen zwak pantser op.\n\nPantser met een hoge penetratiekans wordt aangegeven met een volle groene kleur, terwijl pantser met een middelmatige penetratiekans half doorzichtig groen is. In de kleurenblind-modus kunnen de kleuren anders zijn."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "Alleen zwak pantser oplichten"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "Alleen sterk pantser"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "Indien actief, licht de zaklamp alleen sterk pantser op.\n\nPantser met nul of een lage penetratiekans wordt aangegeven met een volle rode kleur, terwijl pantser met een middelmatige penetratiekans half doorzichtig rood is. In de kleurenblind-modus kunnen de kleuren anders zijn."
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "Alleen sterk pantser oplichten"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "Al het pantser"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "Indien actief, licht de zaklamp al het pantser op.\n\nPantser met nul of een lage penetratiekans wordt aangegeven met rood, pantser met een hoge penetratiekans wordt aangegeven met groen, en pantser met een middelmatige penetratiekans wordt aangegeven met geel. In de kleurenblind-modus kunnen de kleuren anders zijn."
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "Al het pantser oplichten"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "Pantser oplichten"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "Aanzetten aan het begin van het gevecht"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "De standaard instelling van de zaklamp aan het begin van het gevecht. Je kunt op elk moment de zaklamp aan of uit zetten met de toegewezen sneltoets.\n\nIndien aangezet, werkt de zaklamp alleen in de scherpschuttermodus.\n\nOndersteunde spelmodi:\n• Willekeurige gevechten en Teamtraining\n• Frontlinie\n• Arcadekast-gevechten\n• Bestorming\n• Sommige andere modi en evenementen \n\nIn de toekomst kunnen andere modi en evenementen ook worden ondersteund."
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "Aanzetten in gevecht"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "Zaklamptextuur"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "Vol"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "Dun patroon"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "Dik patroon"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "Doorzichtigheid"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "Prestatiewaarschuwing"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "Hoog"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "Laag"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "Medium"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "Zaklampresolutie"
+
+msgid "aim/cassette"
+msgstr "Cassettes"
+
+msgid "aim/centralTag"
+msgstr "Richtmarkering"
+
+msgid "aim/centralTag/type0"
+msgstr "A-vorm I"
+
+msgid "aim/centralTag/type1"
+msgstr "A-vorm II"
+
+msgid "aim/centralTag/type10"
+msgstr "O-vorm I"
+
+msgid "aim/centralTag/type11"
+msgstr "O-vorm II"
+
+msgid "aim/centralTag/type12"
+msgstr "A-vorm IV"
+
+msgid "aim/centralTag/type13"
+msgstr "A-vorm V"
+
+msgid "aim/centralTag/type2"
+msgstr "A-vorm III"
+
+msgid "aim/centralTag/type3"
+msgstr "V-vorm"
+
+msgid "aim/centralTag/type4"
+msgstr "Richtkruis I"
+
+msgid "aim/centralTag/type5"
+msgstr "Richtkruis II"
+
+msgid "aim/centralTag/type6"
+msgstr "T-vorm"
+
+msgid "aim/centralTag/type7"
+msgstr "I-vorm"
+
+msgid "aim/centralTag/type8"
+msgstr "Richtpunt I"
+
+msgid "aim/centralTag/type9"
+msgstr "Richtpunt II"
+
+msgid "aim/condition"
+msgstr "Leven"
+
+msgid "aim/gunTag"
+msgstr "Kanonmarkering"
+
+msgid "aim/gunTag/type0"
+msgstr "A-vorm I (met penetratie-indicator)"
+
+msgid "aim/gunTag/type1"
+msgstr "A-vorm II (met laadindicator)"
+
+msgid "aim/gunTag/type10"
+msgstr "O-vorm II (met laadindicator)"
+
+msgid "aim/gunTag/type11"
+msgstr "O-vorm III"
+
+msgid "aim/gunTag/type12"
+msgstr "A-vorm IV (met penetratie-indicator)"
+
+msgid "aim/gunTag/type13"
+msgstr "A-vorm V (met laadindicator)"
+
+msgid "aim/gunTag/type14"
+msgstr "A-vorm VI"
+
+msgid "aim/gunTag/type2"
+msgstr "A-vorm III"
+
+msgid "aim/gunTag/type3"
+msgstr "Richtkruis I (met penetratie-indicator)"
+
+msgid "aim/gunTag/type4"
+msgstr "Richtkruis II (met laadindicator)"
+
+msgid "aim/gunTag/type5"
+msgstr "Richtkruis III"
+
+msgid "aim/gunTag/type6"
+msgstr "Vizier I (met penetratie-indicator)"
+
+msgid "aim/gunTag/type7"
+msgstr "Vizier II (met laadindicator)"
+
+msgid "aim/gunTag/type8"
+msgstr "Vizier III"
+
+msgid "aim/gunTag/type9"
+msgstr "O-vorm I (met penetratie-indicator)"
+
+msgid "aim/mixing"
+msgstr "Richten"
+
+msgid "aim/mixing/type0"
+msgstr "Cirkel I (met laadindicator) "
+
+msgid "aim/mixing/type1"
+msgstr "Cirkel II (met bewegende laadindicator)"
+
+msgid "aim/mixing/type2"
+msgstr "Cirkel III (zonder laadindicator)"
+
+msgid "aim/mixing/type3"
+msgstr "Cirkel IV (solide)"
+
+msgid "aim/mixing/type4"
+msgstr "Richtkruis (met bewegende laadindicator)"
+
+msgid "aim/mixing/type5"
+msgstr "Richtkruis II"
+
+msgid "aim/mixing/type6"
+msgstr "Test"
+
+msgid "aim/net"
+msgstr "Indicator"
+
+msgid "aim/net/type0"
+msgstr "Diagonaal"
+
+msgid "aim/net/type1"
+msgstr "Horizontaal"
+
+msgid "aim/net/type2"
+msgstr "Radiaal"
+
+msgid "aim/net/type3"
+msgstr "Gestreept"
+
+msgid "aim/reloader"
+msgstr "Laad"
+
+msgid "aim/reloaderTimer"
+msgstr "Laad-timer"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "Wisselen naar artillerie richten"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "Laatst gebruikt"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "Bovenaanzicht"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "Kogelbaan-zicht"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "Automatisch richten moduswissel"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "Wanneer je met het muiswiel scrolt en een bepaald zoomniveau bereikt, zal het vizier automatisch naar het \"bovenaanzicht\" of \"kogelbaan-zicht\" wisselen."
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "Automatisch richten moduswissel"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "Geleidelijke camerazoom"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "Toon trajectindicatoren"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "Toon/verberg de indicatoren die weergeven of de geselecteerde granaat het richtpunt zal bereiken. Ze tonen ook de vliegtijd van granaten."
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "Trajectindicatoren"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "Toon camerapositie-indicator"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "Toon/verberg de indicator die het zoomniveau van de richtcamera (voor artillerie) weergeeft."
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "Camerapositie-indicator"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "Camerabesturing"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "Alternatief"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "Standaard"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "Bij standaard camerabesturing beweegt de camera naar boven, beneden, links en rechts. Bij alternatieve camerabesturing beweegt de camera voorwaarts, achterwaarts en rond de positie van de artillerie."
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "Camerabesturing"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "Zoom indicator"
+
+msgid "alternativeVoices/labels"
+msgstr "Spraakberichten gedurende het gevecht"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Spraakberichten in gevecht"
+
+msgid "apply_button"
+msgstr "Toepassen"
+
+msgid "autodetectButton"
+msgstr "Aanbevolen"
+
+msgid "autodetectButton/description"
+msgstr "Bepaalt de optimale beeldinstellingen voor uw computer. \n\nDit kan enige tijd duren."
+
+msgid "battlecomm/enableCommendations"
+msgstr "Ontvang aanbevelingen in gevechten"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "Toon persoonlijke commando's"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "Toon communicatie op teampaneel"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "Toon locatiemarkers op de kaart"
+
+msgid "battlecomm/showMarkers"
+msgstr "Toon basismarkers in Willekeurige gevechten"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "Toon blijvende markers"
+
+msgid "borderlessSize"
+msgstr "In kader (grensloos)"
+
+msgid "borderlessSize/description"
+msgstr "In kader (grensloos)"
+
+msgid "cancel_button"
+msgstr "Annuleren"
+
+msgid "chat/censorshipMessages"
+msgstr "Berichten censureren"
+
+msgid "chat/chatContactsListOnly"
+msgstr "Ontvang alleen berichten van de contactenlijst"
+
+msgid "chat/disableBattleChat"
+msgstr "Zet gevechts-chat met bondgenoten uit"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "Onthoud camerastand en chatvensterposities"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "Onthoud camerastand en posities overige vensters"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "Accepteer in de garage alleen uitnodigingen van vrienden"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "Ontvang clannotificaties"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "Accepteer vriendschapsverzoek"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "Accepteer uitnodigingen tot het peloton in het gevecht"
+
+msgid "chat/removeSpam"
+msgstr "Verberg spam"
+
+msgid "chat/showDateMessage"
+msgstr "Berichtdatum weergeven"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "Aan-/afmelden gebruikers weergeven"
+
+msgid "chat/showTimeMessage"
+msgstr "Berichttijd weergeven"
+
+msgid "colorCorrection"
+msgstr "Kleurenaanpassing"
+
+msgid "colorCorrectionBtn/label"
+msgstr "Configureren"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "Aangepaste instellingen"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "Helderheid"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "Contrast"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "Verzadiging"
+
+msgid "colorSettings/tab/default"
+msgstr "Standaard"
+
+msgid "colorSettings/tab/filters"
+msgstr "Voorgeprogrammeerde filters"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "Filter-intensiteit"
+
+msgid "colorSettings/view/after"
+msgstr "Na"
+
+msgid "colorSettings/view/before"
+msgstr "Voor"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "SLUITEN"
+
+msgid "colorSettings/view/description"
+msgstr "Selecteer één van de opties voor afbeeldingaanpassing"
+
+msgid "colorSettings/view/header"
+msgstr "Kleurenaanpassing"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "Resetten"
+
+msgid "colorSettings/view/subTitle"
+msgstr "Opties voor afbeeldingaanpassing"
+
+msgid "cursor/ArcadeTitle"
+msgstr "Arcade"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "Pantserzaklamp"
+
+msgid "cursor/ArtyTitle"
+msgstr "Artillerie"
+
+msgid "cursor/ContourTitle"
+msgstr "Omlijning"
+
+msgid "cursor/ServerAim"
+msgstr "Zet serverrichtpunt aan"
+
+msgid "cursor/SnipperTitle"
+msgstr "Sluipschutter"
+
+msgid "cursor/contour/type0"
+msgstr "Standaard"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "Wanneer je op het vijandelijk voertuig richt, wordt zijn gehele contour omlijnd, inclusief aangebrachte niet-pantser elementen die niet door granaten kunnen worden geraakt."
+
+msgid "cursor/contour/type1"
+msgstr "Vereenvoudigd"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "Wanneer je op het vijandelijk voertuig richt, wordt alleen het gedeelte van zijn contour omlijnd dat pantser is en door granaten kan worden geraakt."
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "Onpenetreerbaar gebied"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "Geen"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "Vullen"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "Arceren"
+
+msgid "cursor/contourLabel"
+msgstr "Type omlijning"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "Penetreerbaar gebied"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "Geen"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "Vullen"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "Arceren"
+
+msgid "cursor/overlapContour"
+msgstr "Obstakels renderen"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "Het aanzetten van renderen kan de prestatie verminderen."
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "Obstakelweergave tijdens het richten op het vijandelijk voertuig.\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "Obstakels renderen"
+
+msgid "cursor/overlapContourLabel"
+msgstr "Obstakels renderen"
+
+msgid "cursorTitle"
+msgstr "Richtpunt"
+
+msgid "defaultBtn"
+msgstr "Standaard"
+
+msgid "defaultNamePrefix"
+msgstr "Speler"
+
+msgid "dynamicCamera"
+msgstr "Zet dynamische camera aan"
+
+msgid "dynamicFov"
+msgstr "Dynamische FoV"
+
+msgid "dynamicFov/description"
+msgstr "Dynamische FoV staat het instellen van een minimale en maximale kijkhoek in Arcade-richten toe.\n\nMaximale hoek wordt gebruikt wanneer de camera uitgezoomd is van het voertuig.\n\nMinimale hoek wordt gebruikt wanneer de camera ingezoomd is op het voertuig."
+
+msgid "dynamicRenderer"
+msgstr "3D renderresolutie"
+
+msgid "dynamicRenderer/description"
+msgstr "Bepaalt de spelscene- en detailkwaliteit.\n\n3D renderresolutie kan in het gevecht worden gewijzigd met behulp van [RShift +] en [RShift -]. Beïnvloedt de interface niet.\n\nHet verminderen van deze parameter kan de spelprestaties verbeteren voor computers met een slechte videokaart."
+
+msgid "edgeDetectAA"
+msgstr "Rand detectie AA"
+
+msgid "feedBack"
+msgstr "Gevechtsnotificaties"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "Kaartgrens"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "Schade na jouw verdoving"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "Basisveroveringspunten"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "Veroveringspunten gereset"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "Schade geblokkeerd"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "Voertuig (vijand) in brand gezet"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "Kritische schade"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "Verkenning"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "Schade dankzij jouw verkenning"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "Schade van een schot"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "Vijandelijk voertuig vernietigd"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "Schade door rammen"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "Rupsband vernietigd"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "Gebeurtenis"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "Kritische schade"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "Beschadig"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "Toon in gevecht"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "Voertuiginformatie"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "Schade door botsing"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "Alle situationele specialisaties"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "De drie recentste gebeurtenissen\nworden tijdens het gevecht getoond"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "Gevechtsgebeurtenissen"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "Berichten"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "Evenementen"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "Bemanningsspecialisaties"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "Schade ontvangen"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "Gevechtsprestatie"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "Schade ontvangen"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "Het verbergen van de kaartgrens kan leiden tot desoriëntatie in een gevecht."
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "Bij het indrukken van Alt"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "Altijd markeren"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "Niet markeren"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "Bij benadering"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "Extra markering"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "Stippellijn"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "Niet tonen"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "Grenstype"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "Muur"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "Inkomende schoten indicator"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "Eigen vuur"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "Hoeveelheid schade"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "Schot geblokkeerd"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "Kritische treffer\nop jouw voertuig"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "x3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "Schade ontvangen"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "Module beschadigd"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "Eigenschappen"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "Animatie tonen"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "Hoeveelheid schade"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "Dynamische indicatoren"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "Voertuiginformatie"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "Toon in gevecht"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "Allen"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "Eigen vuur"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "Kritische treffers"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "Behalve kritisch"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "Geavanceerd"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "Standaard"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "Type"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "Logboek"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "Veroorzaakt na jouw verdoving"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "Geblokkeerd door pantser"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "Schade door jouw hulp"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "Schade veroorzaakt door jou"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "Altijd tonen"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Druk op Alt om te tonen"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "Niet tonen"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "Gedetailleerde schade"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "Alle gebeurtenissen onderaan"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "Ontvangen schade bovenaan"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "Positionering van gebeurtenissen"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "Alle gebeurtenissen"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "Gebeurtenistype"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "Schade ontvangen"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "Gevechtsprestatie"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "Het aanzetten van deze instelling wordt niet aangeraden\nvoor schermen met een lage resolutie"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "Samengevatte schade"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "Een blok voor gedetailleerde schade informatie. Toont complete informatie over jouw effectiviteit in gevecht."
+
+msgid "feedback/tab/eventsInfo"
+msgstr "Gevechtsgebeurtenissen"
+
+msgid "feedback/tab/questsProgress"
+msgstr "Gevechtsverslag & missies"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "Gevechtsscore"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "Missiedetails"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "Toon voertuigiconen\nop niveau"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "Toon team-HP staaf"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "Toon team-HP verschil"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "Toon team-HP getal"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "Alles tonen"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "Alleen voortgang tonen"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "Alternatief"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "Niet tonen"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "Standaard"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "Toon missies"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "Gezichtsveld (FoV)"
+
+msgid "fov/description"
+msgstr "Visueel bereik van de spelcamera.\n\n95° is een normale FoV (gezichtsveld). Hoe minder de FoV, hoe dichter bij de objecten zijn wanneer het zicht rondom verminderd.\n\nBeïnvloedt de prestaties van het spel niet."
+
+msgid "game/anonymizer"
+msgstr "Maak je in-game naam in het gevecht anoniem"
+
+msgid "game/battleLoadingInfo"
+msgstr "Tips in het laadscherm voor het gevecht"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "Minimap"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "Alleen tekst"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "Geïllustreerde tips"
+
+msgid "game/battlePanelSettings"
+msgstr "Gevechtsinterface"
+
+msgid "game/carouselType"
+msgstr "Voertuigpaneel"
+
+msgid "game/carouselType/double"
+msgstr "Twee niveaus"
+
+msgid "game/carouselType/single"
+msgstr "Een niveau"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "Toon statistieken bij muis op garageplekken"
+
+msgid "game/commanderCamEnabled"
+msgstr "Zet tactisch zicht aan"
+
+msgid "game/customizationDisplayType"
+msgstr "Weergave van aanpassingselementen in gevechten"
+
+msgid "game/customizationDisplayType/all"
+msgstr "Historisch, niet-historisch en fictief"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "Historisch"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "Historisch en niet-historisch"
+
+msgid "game/displayPlatoonMembers"
+msgstr "Toon voertuigen van pelotonleden in de garage"
+
+msgid "game/doubleCarousel/label"
+msgstr "Twee-niveaus voertuigpaneel"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "Adaptief"
+
+msgid "game/doubleCarouselType/small"
+msgstr "Minimalistisch"
+
+msgid "game/dynamicCamera"
+msgstr "Zet dynamische camera aan"
+
+msgid "game/enableBattleNotifier"
+msgstr "Toon vorige gevechtsresultaten in chat"
+
+msgid "game/enableMortalPostEffect"
+msgstr "Zet post-effect in postmortem-modus aan"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "Zet optische effecten in sluipschuttermodus aan"
+
+msgid "game/enableRepairTimer"
+msgstr "Toon de reparatietijd van beschadigde modules"
+
+msgid "game/enableSpeedometer"
+msgstr "Toon de snelheidsmeter voor wielvoertuigen"
+
+msgid "game/enableVoIP"
+msgstr "Voice-chat"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "Gevechtscommunicatie"
+
+msgid "game/fieldset/headerChat"
+msgstr "Chat"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "Minimap"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "Voertuigtekens"
+
+msgid "game/hangarCamCheckbox"
+msgstr "Garagecamera animatie als je de muis beweegt"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "Garagecamera inactief rotatie in"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "Garage camera-animatie"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "Nooit"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 seconden"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 seconden"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 seconden"
+
+msgid "game/horStabilizationSnp"
+msgstr "Horizontale stabilisatie in sluipschuttermodus"
+
+msgid "game/hullLockEnabled"
+msgstr "Fixeer onderstel automatisch in sluipsch.modus"
+
+msgid "game/increasedZoom/base"
+msgstr "Schakel de %(zooms)s in"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " en "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "Toon serverselectie tijdens het opstarten van het spel"
+
+msgid "game/minimapDrawRange"
+msgstr "Toon de weergavebereik-cirkel"
+
+msgid "game/minimapGroupTitle"
+msgstr "Minimap"
+
+msgid "game/minimapMaxViewRange"
+msgstr "Toon de maximale zichtbereik-cirkel"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "Toon de cirkel van nabijheidsverkenning"
+
+msgid "game/minimapViewRange"
+msgstr "Toon de zichtbereik-cirkel"
+
+msgid "game/newbeeTipsTitle"
+msgstr "Tips"
+
+msgid "game/newbieBattleHints"
+msgstr "Zet beginnerstips in Willekeurige gevechten aan"
+
+msgid "game/newbiePrebattleHints"
+msgstr "Zet beginnerstips op het laadscherm voor het gevecht aan"
+
+msgid "game/optimizeGraphics"
+msgstr "Verbeter interface graphics"
+
+msgid "game/playersPanelState/large"
+msgstr "Volledig paneel"
+
+msgid "game/playersPanelState/medium"
+msgstr "Medium"
+
+msgid "game/playersPanelState/none"
+msgstr "Geen paneel"
+
+msgid "game/playersPanelState/short"
+msgstr "Kort paneel"
+
+msgid "game/postmortemMode"
+msgstr "Postmortem-modus"
+
+msgid "game/postmortemMode/analysis"
+msgstr "Toon het moment waarop je voertuig werd vernietigd (gedetailleerd)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "Toon het vijandelijk voertuig dat jouw voertuig vernietigde"
+
+msgid "game/postmortemMode/self"
+msgstr "Toon jouw voertuig"
+
+msgid "game/postmortemMode/simple"
+msgstr "Toon het moment waarop je voertuig werd vernietigd (kort)"
+
+msgid "game/ppShowLevels"
+msgstr "Toon voertuigniveau"
+
+msgid "game/ppShowTypes"
+msgstr "Toon voertuigtype"
+
+msgid "game/ppStartStateLabel"
+msgstr "Type"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "Zet commandantcamera aan"
+
+msgid "game/replayEnabled"
+msgstr "Activeer gevechtsopname"
+
+msgid "game/replayEnabled/all"
+msgstr "Allen"
+
+msgid "game/replayEnabled/last"
+msgstr "Laatste"
+
+msgid "game/replayEnabled/none"
+msgstr "Nee"
+
+msgid "game/showArtyHitOnMap"
+msgstr "Toon het gebied dat artillerie zullen raken"
+
+msgid "game/showDamageIcon"
+msgstr "Laat notificaties zien als er geen schade wordt aangericht"
+
+msgid "game/showDogTag"
+msgstr "Toon dog tag"
+
+msgid "game/showDogTagToKiller"
+msgstr "Toon je toegepaste aanpasbare dog tag"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "Toon info vernietigde voertuigen"
+
+msgid "game/showKillersDogTag"
+msgstr "Toon de dog tag van de speler die je heeft vernietigd"
+
+msgid "game/showLanguageBar"
+msgstr "Talenpaneel weergeven"
+
+msgid "game/showMarksOnGun"
+msgstr "Toon markeringen van uitmuntendheid"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "Bekijk je geanimeerde dog tag"
+
+msgid "game/showSectorOnMap"
+msgstr "Toon schootsveld van artillerie"
+
+msgid "game/showVectorOnMap"
+msgstr "Toon richting camerahoek"
+
+msgid "game/showVehModelsOnMap"
+msgstr "Activeer uitgebreide minimap mogelijkheden"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Bij het indrukken van Alt"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "Altijd"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "Nooit"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "Toon voertuig-HP op de minimap"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Bij het indrukken van Alt"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "Altijd"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "Nooit"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "Toon voertuig-HP in teampanelen"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Bij het indrukken van Alt"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "Altijd"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "Nooit"
+
+msgid "game/showVehicleIcon"
+msgstr "Toon voertuig icoon"
+
+msgid "game/showVehicleLevel"
+msgstr "Toon voertuigniveau"
+
+msgid "game/showVehiclesCounter"
+msgstr "Geef voertuigtekens weer op gevechtsscorepaneel"
+
+msgid "game/showVictimsDogTag"
+msgstr "Toon dog tags van vijanden die je vernietigt"
+
+msgid "game/sniperModeByShift"
+msgstr "Wissel alleen naar sluipschuttermodus met de Shift toets"
+
+msgid "game/sniperZoom"
+msgstr "Voorkeurszoom sluipschuttermodus"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "Laatst gebruikt"
+
+msgid "game/switchEquipment"
+msgstr "Configuratie veranderen op het laadscherm"
+
+msgid "game/w2gtEnable"
+msgstr "Zet gevechtszones op minimap aan"
+
+msgid "gameTitle"
+msgstr "Spel"
+
+msgid "gameplay/devMaps"
+msgstr "Speel op kaarten met willekeurige gebeurtenissen"
+
+msgid "gameplay/nations"
+msgstr "Confrontatie"
+
+msgid "gamma"
+msgstr "Gamma"
+
+msgid "gammaBtn/label"
+msgstr "Configureer"
+
+msgid "gammaWizard/apply"
+msgstr "Toepassen"
+
+msgid "gammaWizard/cancel"
+msgstr "Annuleren"
+
+msgid "gammaWizard/closeBtn"
+msgstr "SLUITEN"
+
+msgid "gammaWizard/default"
+msgstr "Standaard"
+
+msgid "gammaWizard/description"
+msgstr "Beweeg de schuif totdat de achtergrond en het logo dezelfde helderheid bereikt hebben. Sluit je ogen gedeeltelijk of beweeg van je monitor af om de details moeilijk zichtbaar te maken."
+
+msgid "gammaWizard/header"
+msgstr "Gamma"
+
+msgid "gammaWizard/title"
+msgstr "Gamma-instellingen"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "Zorgt ervoor dat de helderheid kan worden ingesteld in het spel om de optimale beeldkwaliteit\nte bereiken op het scherm. Deze optie probeert te\ncompenseren voor de effecten van de videokaartdrivers en geeft\ninstellingen weer die de visuele kwaliteit van het spel beïnvloeden."
+
+msgid "gammaWizard/tooltip/header"
+msgstr "Gamma"
+
+msgid "graficTitle"
+msgstr "Graphics"
+
+msgid "graphics/block/effects"
+msgstr "Effecten"
+
+msgid "graphics/block/greenery"
+msgstr "Vegetatie"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "Terrein en water"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "Belichting en post-processing"
+
+msgid "graphics/block/main"
+msgstr "Hoofd"
+
+msgid "graphics/tabAdvanced"
+msgstr "Details"
+
+msgid "graphics/tabScreen"
+msgstr "Scherm"
+
+msgid "graphicsQuality"
+msgstr "Beeldkwaliteit"
+
+msgid "graphicsQuality/description"
+msgstr "Bepaalt de algemene beeldkwaliteit. Bepaalt de parameters van het \"Details\" tabblad. \n\nHet verminderen van de grafische kwaliteit kan:\n• Spelprestaties verbeteren.\n• Desynchonisatie van de landschapsweergave tussen server en client veroorzaken.\n\nGebruik de minimale grafische instellingen alleen in het geval van slechte computerprestaties."
+
+msgid "graphicsQualityHDSD"
+msgstr "Client types"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "HD client geïnstalleerd"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "Standaard (SD) client geïnstalleerd"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "Standaard client—volledige spel zonder maximum-kwaliteit texturen.\n\nHD client—volledige spel met maximum-kwaliteit texturen. Heeft meer ruimte op de harde schijf nodig dan de standaard client."
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "Client types"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "HD client—volledig spel met maximum-kwaliteit texturen. Heeft meer ruimte op de harde schijf nodig dan de standaard client.\n\nStandaard client (SD)—volledig spel zonder maximum-kwaliteit texturen."
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "Maximum (SD) en Ultra (SD) grafische kwaliteit bieden niet de maximale waarde van de Textuurkwaliteit parameter. Om de maximale grafische kwaliteit in te stellen, dien je te schakelen naar de HD client in de launcher van het spel."
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "Anisotropisch 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "Anisotropisch 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "Anisotropisch 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "Anisotropisch 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "Bilineair"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "Aangepast"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "'40 cine film"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "Contrast"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "Verbeterd"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "Ver"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "Standaard"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "Hoog"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "Laag"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "Zeer laag"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "Maximaal"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "Maximum (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "Medium"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "Minimaal"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "Gedempt"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "Dichtbij"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "UIT"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "UIT"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "AAN"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "Vereenvoudigd"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "Verbeterd"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "Punt"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "Fotochromatisch"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "Willekeurig"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "Standaard"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "Diep"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "Zachte kleuren"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "Trilineair"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "Ultra"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "Ultra (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "Zeer hoog"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "Zeer hoog"
+
+msgid "igbHardwareAcceleration"
+msgstr "Browser hardware acceleratie"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "Wanneer deze instelling is geselecteerd, zal webinhoud worden gerenderd met de GPU in plaats van de CPU.\n\nSelecteer deze instelling niet wanneer je problemen ervaart met het renderen van de inhoud van sommige schermen.\n\nDe wijziging zal na het herstarten van het spel worden toegepast."
+
+msgid "interfaceScale"
+msgstr "Interface indelen"
+
+msgid "interfaceScale/attention"
+msgstr "Onderdeel ondergaat testen;\nHet heeft geen invloed op de spelprestaties."
+
+msgid "interfaceScale/body"
+msgstr "Automatisch indelen van interface-elementen\nwanneer het spelscherm/venster wordt gemaximaliseerd."
+
+msgid "interfaceScale/description"
+msgstr "Automatisch indelen van interface-elementen wanneer het spelscherm/venster wordt gemaximaliseerd."
+
+msgid "interfaceScale/header"
+msgstr "Interface indelen"
+
+msgid "interfaceScale/warning"
+msgstr "Onderdeel ondergaat testen; het heeft geen invloed op de spelprestaties."
+
+msgid "interfaceScaleDisabled"
+msgstr "Interface indelen"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "Alleen beschikbaar voor 4K schermen."
+
+msgid "interfaceScaleDisabled/body"
+msgstr "Automatisch indelen van interface-elementen\nwanneer het spelscherm/venster wordt gemaximaliseerd."
+
+msgid "interfaceScaleDisabled/description"
+msgstr "Automatisch indelen van interface-elementen wanneer het spelscherm/venster wordt gemaximaliseerd."
+
+msgid "interfaceScaleDisabled/header"
+msgstr "Interface indelen"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "Alleen beschikbaar voor 4K schermen."
+
+msgid "isColorBlind"
+msgstr "Kleurenblind-modus"
+
+msgid "isColorBlind/description"
+msgstr "Aanpassing van het kleurenpalet voor de visueel gehandicapten."
+
+msgid "keyboard/backDraftInvert"
+msgstr "Omgekeerde inversie"
+
+msgid "keyboard/keyboard"
+msgstr "Toetsenbord"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "Begrepen!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "Verander richtkruismodus"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "Fixeer onderstel / Switch modus"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "Achteruit"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "Achteruit"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "\"Handrem\""
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "Omlaag"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "Links"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "Rechts"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "Omhoog"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "Salvo afvuren"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "Terugtrekken!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "Vuren"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "Vooruit"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "Vooruit"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "Voertuig verlaten (in Frontlinie)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "Help!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "Duid positie aan"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "Duid actief doelwit aan"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "Verbruiksartikel 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "Verbruiksartikel 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "Verbruiksartikel 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "Verbruiksartikel 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "Verbruiksartikel 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "Verbruiksartikel 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "Verbruiksartikel 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "Verbruiksartikel 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "Verbruiksartikel 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "Verbruiksartikel 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "Links"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "Automatisch richten"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "Automatisch richten uitzetten"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "Negatief!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "Push-to-Talk"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "Herlaad magazijn"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "Herladen!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "Rechts"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "Verberg gevechtsinterface"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "Activatie van persoonlijke reserves"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "Voortgang in persoonlijke missies"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "Toon commandomenu / Bevestig commando"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "Verkleinen"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "Vergroten"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "Speciale bekwaamheid"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "Stop en vuur"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "Bedankt!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "Pantserzaklamp aan/uit"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "Kogelbaan-zicht"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "Stel geluidssignaal in"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "Toon/Verberg"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "Voice chat in dynamische pelotons in-/uitschakelen"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "Camera"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "Cruisecontrol"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "Verbruiksartikelen"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "Vuren"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "Minimap"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "Verplaatsen"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "Berichten"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "Teamcommunicatie"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "Andere"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "Voice-chat"
+
+msgid "keyboard/mouse"
+msgstr "Muis"
+
+msgid "keyboardTitle"
+msgstr "Bediening"
+
+msgid "limitedUI/desc"
+msgstr "Geleidelijke verschijning van verborgen interface-elementen in de garage"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "Uitzetten"
+
+msgid "marker/AllyTitle"
+msgstr "Ons team"
+
+msgid "marker/DeadTitle"
+msgstr "Vernietigd"
+
+msgid "marker/EnemyTitle"
+msgstr "Vijandelijk team"
+
+msgid "marker/aimMarker2D"
+msgstr "Automatisch richten-indicator"
+
+msgid "marker/alt"
+msgstr "Alternatief"
+
+msgid "marker/base"
+msgstr "Normaal"
+
+msgid "marker/damage"
+msgstr "Schade ontvangen"
+
+msgid "marker/dead"
+msgstr "Vernietigde voertuigen-markering"
+
+msgid "marker/hp"
+msgstr "Voertuig duurzaamheid"
+
+msgid "marker/hp/type0"
+msgstr "Percentage %"
+
+msgid "marker/hp/type1"
+msgstr "Levenspunten over/totaal"
+
+msgid "marker/hp/type2"
+msgstr "Levenspunten over"
+
+msgid "marker/hp/type3"
+msgstr "Verberg"
+
+msgid "marker/hpIndicator"
+msgstr "Duurzaamheidsindicator"
+
+msgid "marker/icon"
+msgstr "Voertuig icoon"
+
+msgid "marker/level"
+msgstr "Niveau"
+
+msgid "marker/level/tooltip/body"
+msgstr "Wanneer deze instelling is ingeschakeld, wordt het niveau boven het voertuig getoond.\n\nIn Staaljager zal het huidige upgradelevel worden getoond."
+
+msgid "marker/level/tooltip/header"
+msgstr "Niveau"
+
+msgid "marker/name"
+msgstr "Voertuignaam"
+
+msgid "marker/name/type2"
+msgstr "Verberg"
+
+msgid "marker/nickname"
+msgstr "Spelernaam"
+
+msgid "markerTitle"
+msgstr "Markering"
+
+msgid "minimap/labels/alpha"
+msgstr "Minimaptransparantie"
+
+msgid "minimap/labels/size"
+msgstr "Maximum grootte"
+
+msgid "monitor"
+msgstr "Weergave"
+
+msgid "monitor/description"
+msgstr "Selecteer de primaire monitor voor het spel."
+
+msgid "mouse/sensitivity/art"
+msgstr "Artillerie richten"
+
+msgid "mouse/sensitivity/art2"
+msgstr "Kogelbaan-zicht"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "Vrije camera"
+
+msgid "mouse/sensitivity/header"
+msgstr "Gevoeligheid"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "Horizontale as omkeren"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "Verticale as omkeren"
+
+msgid "mouse/sensitivity/main"
+msgstr "Arcade richten"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "Sluipschutter richten"
+
+msgid "mouse/startDist"
+msgstr "Camerapositie"
+
+msgid "ok_button"
+msgstr "OK"
+
+msgid "otherSettings/fieldset/header"
+msgstr "Geluidsomgevings-elementen"
+
+msgid "otherSettings/labels/bulb"
+msgstr "Zesde zintuig activatiegeluid"
+
+msgid "otherTitle"
+msgstr "Andere"
+
+msgid "physicsQuality"
+msgstr "Geluidsfysicakwaliteit"
+
+msgid "refreshRate"
+msgstr "Frame Rate"
+
+msgid "refreshRate/default"
+msgstr "Standaard"
+
+msgid "refreshRate/description"
+msgstr "Beeldverversingssnelheid op de monitor.\n\nEen mismatch met beeldverversingssnelheid op de monitor kan een knipperend effect op het scherm veroorzaken.\n\nBeïnvloedt de spelprestaties niet."
+
+msgid "resolution"
+msgstr "Schermresolutie"
+
+msgid "resolution/description"
+msgstr "Horizontale en verticale schermresolutie in volledig scherm modus. Een hogere resolutie verbetert de beeldkwaliteit. Een mismatch van de resolutie in een volledig scherm modus met de huidige beeldscherm resolutie kan het beeld verstoren.\n\nHet verhogen van deze parameter verhoogt de belasting van de videokaart en kan de spelprestaties verminderen.\n\nBelasting van de videokaart kan verminderd worden met de instellingen van de 3D renderresolutie."
+
+msgid "restartNewbieBattleHints"
+msgstr "Reset beginnerstips"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "Reset de geschiedenis van beginnerstips om tips te krijgen die je eerder al hebt gezien."
+
+msgid "screenMode"
+msgstr "Spelmodus"
+
+msgid "screenMode/borderless"
+msgstr "In kader (grensloos)"
+
+msgid "screenMode/description"
+msgstr "Schakelen tussen volledig scherm, in kader en in kader (grensloos) spelmodi. Het spel in kadermodus zal de spelprestaties verminderen."
+
+msgid "screenMode/fullscreen"
+msgstr "Volledig scherm"
+
+msgid "screenMode/label"
+msgstr "Modus:"
+
+msgid "screenMode/windowed"
+msgstr "In kader"
+
+msgid "smoothing/description"
+msgstr "Bepaalt de mate van extra verwerking van dunne lijnen en contouren van spelobjecten. Het aliasing-effect verminderend. De randen en vlakken van objecten wordt gladder met deze optie ingeschakeld."
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "Standaard"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "Geluid van gebruiker"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "Variant 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "Variant 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "Geluid van gebruiker"
+
+msgid "sound/dynamicRange/label"
+msgstr "Dynamisch bereik"
+
+msgid "sound/fieldset/header"
+msgstr "Volume"
+
+msgid "sound/players_notifications"
+msgstr "Updates van andere spelers"
+
+msgid "sound/presets/title"
+msgstr "Voorgeprogrammeerd"
+
+msgid "sound/soundModes/U01"
+msgstr "Gebruiker 1"
+
+msgid "sound/soundModes/U02"
+msgstr "Gebruiker 2"
+
+msgid "sound/soundModes/U03"
+msgstr "Gebruiker 3"
+
+msgid "sound/soundModes/U04"
+msgstr "Gebruiker 4"
+
+msgid "sound/soundModes/default"
+msgstr "Standaard"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "Commandant"
+
+msgid "sound/special/field/set"
+msgstr "Spelevenement-volume"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "Herlaad apparaten"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "Stop test"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "Begin test"
+
+msgid "sound/vivox/fade_volume"
+msgstr "Algemene omgevingswaarde tijdens chat"
+
+msgid "sound/vivox/master_volume"
+msgstr "Voice-chat volume"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "Microfoongevoeligheid"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Vivox-test"
+
+msgid "soundTitle"
+msgstr "Volume"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "Automatische selectie"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "2.0/2.1 systeem"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "5.1 systeem"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "7.1 systeem"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "hoofdtelefoon"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "Centraal"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "Links"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "Linksachter"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "Linksvoor"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "Linkerzijde"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "Rechts"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "Rechtsachter"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "Rechtsvoor"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "Rechterzijde"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "Subwoofer"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "laptop"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "Geluidstest:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "Testgeluid"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "Spraakberichten zijn afhankelijk van de natie van een voertuig en het geslacht van de commandant"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "Commandant"
+
+msgid "sounds/altVoice/default/body"
+msgstr "Mannelijke stem in de taal van de spelclient"
+
+msgid "sounds/altVoice/default/header"
+msgstr "Standaard"
+
+msgid "sounds/ambient"
+msgstr "Omgeving"
+
+msgid "sounds/arena"
+msgstr "Muziek tijdens gevecht"
+
+msgid "sounds/artyBulbVoices"
+msgstr "Geluidsdetectie"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "Selecteer een van de varianten voor het geluidsdetectie activatiegeluid. Om je eigen geluid te gebruiken, hernoem jouw .mp3 bestand naar soundExploring en verplaats het naar de res/audioww map."
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "Geluidsdetectie activatiegeluid"
+
+msgid "sounds/bassBoost"
+msgstr "Lage frequentie versterking"
+
+msgid "sounds/bassBoost/description"
+msgstr "Versterkt lage frequenties in het spel terwijl het hoofdvolume hetzelfde blijft. Implementatie van deze modus kan verschillen afhankelijk van het geselecteerde geluidssysteem (speakers, hoofdtelefoon, of laptop)."
+
+msgid "sounds/bulbVoices"
+msgstr "Zesde zintuig"
+
+msgid "sounds/bulbVoices/description"
+msgstr "Selecteer een van de varianten voor het zesde zintuig activatiegeluid. Om je eigen geluid te gebruiken, hernoem jouw .mp3 bestand naar sixthSense en verplaats het naar de res/audioww map."
+
+msgid "sounds/effects"
+msgstr "Effecten"
+
+msgid "sounds/gui"
+msgstr "Interface"
+
+msgid "sounds/hangar"
+msgstr "Muziek in de garage"
+
+msgid "sounds/masterVolume"
+msgstr "Hoofdvolume"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "Geluid inschakelen"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "Het uitschakelen van de spelgeluiden kan de algemene spelprestaties verbeteren. Je moet het spel herstarten om de wijzigingen door te voeren."
+
+msgid "sounds/nightMode"
+msgstr "Nachtmodus"
+
+msgid "sounds/nightMode/description"
+msgstr "Egaliseert geluidsverschillen, vermindert scherpe geluiden en minimaliseert lage frequenties in het spel, wat een comfortabele en zachte geluidsomgeving verschaft om 's avonds laat te spelen."
+
+msgid "sounds/physicsQuality/attention"
+msgstr "Het aanzetten van deze feature kan de prestatie beïnvloeden."
+
+msgid "sounds/physicsQuality/body"
+msgstr "Bepaalt de kwaliteit van de geluidsfysica.\n\nSimuleert hoe geluid om obstakels en door oppervlakken heen gaat.\n\nGebruikt de geometrie van de kaart om vroege reflecties te genereren van tankgeluiden die op nabije objecten weerkaatsen.\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "Geluidsfysicakwaliteit"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "Uitgezet"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "Hoog"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "Laag"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "Medium"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "Aanbevolen"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "Bepaalt de optimale geluidsfysicakwaliteit voor jouw computer.\n\nDit kan even duren."
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "Aanbevolen"
+
+msgid "sounds/sixthSense/body"
+msgstr "Aangepast geluid. Verplaats het sixthSense.mp3 bestand naar de res/audioww map."
+
+msgid "sounds/sixthSense/header"
+msgstr "Aangepast"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "2.0/2.1 systeem"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "Past de ingame geluiden aan voor externe gekoppelde volledig-bereik speakers (2.) of gekoppelde hoge frequentie speakers + een lage frequentie speaker (2.1)."
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "2.0/2.1 systeem"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "5.1 Systeem"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "Past de positionering van in-game geluiden aan voor de externe speakers en subwoofer in het multikanaals 5.1 systeem."
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "5.1 Systeem"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "7.1 Systeem"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "Past de positionering van in-game geluiden aan voor de externe speakers en subwoofer in het multikanaals 7.1 systeem."
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "7.1 Systeem"
+
+msgid "sounds/soundDevice/auto"
+msgstr "Automatische selectie"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "Detecteert automatisch de geluidsconfiguratie zoals gespecificeerd in het besturingssysteem"
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "Automatische selectie"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "Hoofdtelefoon"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "Pas de in-game spelgeluiden aan voor hoofdtelefoons."
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "Hoofdtelefoon"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "Laptop"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "Gebruikt het positioneringsprincipe van de 2.0/2.1 systeemvoorinstelling maar past het in-game geluid aan voor het afspelen op kleine laptopspeakers op de hoogst mogelijke kwaliteit."
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "Laptop"
+
+msgid "sounds/soundQuality"
+msgstr "Lage kwaliteit"
+
+msgid "sounds/soundQuality/description"
+msgstr "Het verlagen van de geluidskwaliteit kan de algemene spelprestaties op low-end computers verbeteren. Het aanzetten van deze modus vermindert de hoeveelheid geluiden die simultaan verwerkt worden aanzienlijk."
+
+msgid "sounds/speakers/back/body"
+msgstr "Geluidstest op de rechter/linker achterspeakers."
+
+msgid "sounds/speakers/back/header"
+msgstr "Rechter/linker achterspeakers"
+
+msgid "sounds/speakers/center/body"
+msgstr "Geluidstest op de centrale speaker."
+
+msgid "sounds/speakers/center/header"
+msgstr "Centrale speaker"
+
+msgid "sounds/speakers/front/body"
+msgstr "Geluidstest op de rechter/linker voorspeakers."
+
+msgid "sounds/speakers/front/header"
+msgstr "Rechter/linker voorspeakers"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "In het 2.0/2.1 systeem is een subwoofer een optioneel apparaat. Deze kan niet getest worden zonder speakers."
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "Optionele subwoofer"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "Geluidstest op de rechter-/linkerzijde van de speakers."
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "Rechter-/linkerzijde speakers"
+
+msgid "sounds/speakers/sides/body"
+msgstr "Geluidstest op de rechter/linker speakers."
+
+msgid "sounds/speakers/sides/header"
+msgstr "Rechter/linker speakers"
+
+msgid "sounds/speakers/sub/body"
+msgstr "Geluidstest op de subwoofer."
+
+msgid "sounds/speakers/sub/header"
+msgstr "Subwoofer"
+
+msgid "sounds/subtitles"
+msgstr "Ondertiteling"
+
+msgid "sounds/tabCommon"
+msgstr "Hoofdgeluid"
+
+msgid "sounds/tabSpecial"
+msgstr "Spelevenement"
+
+msgid "sounds/tabVivox"
+msgstr "Voice-chat"
+
+msgid "sounds/vehicles"
+msgstr "Voertuigen"
+
+msgid "sounds/voiceNotification"
+msgstr "Stemberichten"
+
+msgid "title"
+msgstr "Instellingen"
+
+msgid "tripleBuffered"
+msgstr "Driedubbele buffer"
+
+msgid "tripleBuffered/description"
+msgstr "Vermindert scheuren bij beeldverandering (alleen beschikbaar met verticale synchronisatie ingeschakeld)."
+
+msgid "vertSync"
+msgstr "Verticale synchronisatie (v-sync)"
+
+msgid "vertSync/Off"
+msgstr "UIT"
+
+msgid "vertSync/On"
+msgstr "AAN"
+
+msgid "vertSync/description"
+msgstr "Synchronisatie van frame rate met de verversingssnelheid van de monitor.\n\n60 frames per seconde is een frame rate limiet. Gebruik wanneer een schuddend beeldeffect verschijnt met de huidige frame rate of een beeldvertraging aan de bodem van het scherm relatief ten opzichte van bovenaan."
+
+msgid "voice_chat/PTT"
+msgstr "Push-to-Talk"
+
+msgid "voice_chat/fieldset/header"
+msgstr "Volume"
+
+msgid "voice_chat/header/common"
+msgstr "Gemeenschappelijk"
+
+msgid "voice_chat/header/microphone"
+msgstr "Microfoon"
+
+msgid "voice_chat/header/speakers"
+msgstr "Hoofdtelefoon"
+
+msgid "voice_chat/microphone"
+msgstr "Microfoon"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "Microfoon"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "Schakel microfoon in"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "Schakel voice-chat in"
+
+msgid "windowSize"
+msgstr "Venstergrootte"
+
+msgid "windowSize/description"
+msgstr "Horizontale en verticale schermresolutie van de spel-client venster. Als je overschakelt naar de volledig scherm-mode zal de instelling veranderen in \"schermresolutie\"."
+
+msgid "windowTitle"
+msgstr "WoT client"

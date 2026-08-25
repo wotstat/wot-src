@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "Näytä uudet viestit"
+
+msgid "battle/history/header"
+msgstr "Vihollinen"
+
+msgid "battle/history/latestMessage"
+msgstr "Näytä viimeisin viesti"
+
+msgid "battle/history/title"
+msgstr "Chatin historia:"
+
+msgid "battle/history/upMessage"
+msgstr "Katsele vanhoja viestejä"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)sCHAT SULJETTU%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "Taistelukeskustelu ei ole saatavilla maasi pelaajille."
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "Taistelukeskustelu ei ole saatavilla tililläsi."
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "Taistelukeskustelu on estetty vanhempien työkaluilla."
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "Taisteluchat voidaan kytkeä päälle pelin asetuksissa."
+
+msgid "battle/receivers/common"
+msgstr "KAIKILLE"
+
+msgid "battle/receivers/squad"
+msgstr "OSASTOLLE"
+
+msgid "battle/receivers/team"
+msgstr "OMILLE"
+
+msgid "battle/toolTips/cancel"
+msgstr "peruuta"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "vaihda vastaanottajaa"
+
+msgid "battle/toolTips/default"
+msgstr "edellisen vastaanottajan kanssa"
+
+msgid "battle/toolTips/duringChat"
+msgstr "Chatin aikana:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "Voit estää viestit valitulta pelaajalta klikkaamalla painiketta pelaajan viestin lähellä chatissa."
+
+msgid "battle/toolTips/send"
+msgstr "lähetä viesti"
+
+msgid "battle/toolTips/startChat"
+msgstr "Aloita chat:"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "Voit raportoida viestin klikkaamalla sitä ja valitsemalla valituksen syyn. Tämä toiminto mahdollistaa chatin poistamisen käytöstä tai vain liittolaisten viestin näyttämisen. Osastokeskustelu on saatavilla aina."
+
+msgid "battle/toolTips/usingChat"
+msgstr "Chat"
+
+msgid "battle/toolTips/withSquad"
+msgstr "osastosi kanssa"
+
+msgid "battle/unknown/ally"
+msgstr "Liittolainen"
+
+msgid "battle/unknown/enemy"
+msgstr "Vihollinen"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "Yhteytesi palvelimeen katkaistaan %(curfewTime)s. Istunnon päättymiseen %(timeLeft)s min."
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "Päivittäinen peliaikasi on käytetty loppuun. Istuntosi päättyy %(timeLeft)s min kuluttua."
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "Viikoittainen peliaikasi on käytetty loppuun. Istuntosi päättyy %(timeLeft)s min kuluttua."
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "Olet saavuttanut peliajan rajasi. Pelisessiosi päättyy %(timeLeft)s min kuluttua."
+
+msgid "chat/personalMessage/warningBody"
+msgstr "Viestit tuntemattomilta pelaajilta voivat sisältää vahingollisia linkkejä. Älä klikkaa linkkejä, äläkä jaa salasanaasi kenellekään."
+
+msgid "chat/personalMessage/warningHead"
+msgstr "Huomio!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "Taistelun tulokset"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "Viesti pelaajalta %(playerName)s estettiin."
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "Lähetä viesti"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "Lähetä viesti"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "Etsi pelaajia"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "Äänikeskustelun asetukset"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "et voi antaa itsellesi porttikieltoa."
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "Virhe suoritettaessa \"%(actionName)s\"."
+
+msgid "chat_error/IS_BUSY"
+msgstr "Palvelin on varattu."
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "ei riittävästi oikeuksia toiminnon suorittamiseen."
+
+msgid "chat_error/NOT_READY"
+msgstr "Toiminto \"%(actionName)s\" ei ole saatavilla."
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "käyttäjää ei ole olemassa."
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "virheellinen parametri."
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "Äänikeskustelu poistettu käytöstä. Kommunikoidaksesi osastotovereidesi kanssa, ota äänikeskustelu käyttöön painamalla %(keyName)s."
+
+msgid "client/COMP7/disableVOIP"
+msgstr "Äänikeskustelu poistettu käytöstä. Kommunikoidaksesi osastosi jäsenien kanssa, ota äänikeskustelu käyttöön (%(keyName)s)."
+
+msgid "client/commendations/comms_mutual"
+msgstr "Sinä ja %(player)s kehuitte toisianne."
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)s kehui sinua."
+
+msgid "client/commendations/comms_sent"
+msgstr "Pelaaja %(player)s sai kehuja."
+
+msgid "client/dynSquad/created/allies"
+msgstr "Liittolaisesi perustivat osaston %(squadNum)s."
+
+msgid "client/dynSquad/created/enemies"
+msgstr "Osasto %(squadNum)s luotu vihollisjoukkueen toimesta."
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "Osasto %(squadNum)s luotu. Osasto- ja äänikeskustelut ovat nyt käytettävissä. Poistaaksesi äänikeskustelun käytöstä, paina %(keyName)s)."
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "Osasto %(squadNum)s luotu. Osasto- ja äänikeskustelut ovat nyt käytettävissä. Ottaaksesi äänikeskustelun käyttöön, paina %(keyName)s)."
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "Osasto %(squadNum)s luotu. Osasto- ja äänikeskustelut ovat nyt käytettävissä. Määritä painike äänikeskustelun ottamiseksi/poistamiseksi käytöstä."
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "Osasto %(squadNum)s luotu. Osaston välinen keskustelu on nyt käytettävissä."
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "Olet liittynyt osastoon %(squadNum)s. Osasto- ja äänikeskustelut ovat nyt käytettävissä. Poistaaksesi äänikeskustelun käytöstä, paina %(keyName)s)."
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "Olet liittynyt osastoon %(squadNum)s. Osasto- ja äänikeskustelut ovat nyt käytettävissä. Ottaaksesi äänikeskustelun käyttöön, paina %(keyName)s)."
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "Olet liittynyt osastoon %(squadNum)s. Osasto- ja äänikeskustelut ovat nyt käytettävissä. Määritä painike äänikeskustelun ottamiseksi/poistamiseksi käytöstä."
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "Olet liittynyt osastoon %(squadNum)s. Osaston välinen keskustelu on nyt käytettävissä."
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "Äänikeskustelu poistettu käytöstä. Kommunikoidaksesi osastosi jäsenien kanssa, ota äänikeskustelu käyttöön painamalla %(keyName)s)."
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "Äänikeskustelu otettu käyttöön."
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "Olet liittynyt osastoon %(squadNum)s. Osasto- ja äänikeskustelut ovat nyt käytettävissä. Poistaaksesi äänikeskustelun käytöstä, paina %(keyName)s)."
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "Olet liittynyt osastoon %(squadNum)s. Osasto- ja äänikeskustelut ovat nyt käytettävissä. Ottaaksesi äänikeskustelun käyttöön, paina %(keyName)s)."
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "Olet liittynyt osastoon %(squadNum)s. Osasto- ja äänikeskustelut ovat nyt käytettävissä. Määritä painike äänikeskustelun ottamiseksi/poistamiseksi käytöstä."
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "Olet liittynyt osastoon %(squadNum)s. Osaston välinen keskustelu on nyt käytettävissä."
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s on liittynyt osastoon %(squadNum)s."
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s kutsui sinut osastoon."
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)s kutsui sinut osastoon.\nHuomio! Varsinainen pelinimesi ja klaanitunnuksesi näytetään osaston jäsenille."
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s kutsuttu osastoon."
+
+msgid "client/error/broadcastInCooldown"
+msgstr "Viestien lähettäminen on estetty %s sekunniksi."
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "Komento \"%s\" on estetty %s sekunniksi."
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "Komento %s on estetty."
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "Viesti jäädytetty. Ole hyvä ja odota %s s."
+
+msgid "client/information/addToFriends/message"
+msgstr "Pyyntö lisätä pelaaja %s kaverilistallesi tallennettu."
+
+msgid "client/information/addToIgnored/message"
+msgstr "Pyyntö lisätä pelaaja %s mustalle listallesi on tallennettu. Keskustelu pelaajan kanssa on estetty ja pelaajan viestit on piilotettu."
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "Keskustelu %s kanssa on estetty; pelaajan viestit on piilotettu."
+
+msgid "client/information/emptySearchResult/message"
+msgstr "Tuloksia ei löytynyt."
+
+msgid "client/information/removeFromFriends/message"
+msgstr "Pyyntö poistaa pelaaja %s kaverilistaltasi tallennettu."
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "Pyyntö poistaa pelaaja %s mustalta listaltasi on tallennettu. Keskustelu pelaajan kanssa on täysin palautettu."
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "Keskustele %s kanssa jälleen."
+
+msgid "client/information/setMuted/message"
+msgstr "%s ei ole lupaa lähettää sinulle ääniviestejä."
+
+msgid "client/information/unsetMuted/message"
+msgstr "%s on lupa lähettää sinulle ääniviestejä."
+
+msgid "client/warning/AFKWarning/message"
+msgstr "Toimettomuudesta rangaistaan!\nVoittoon vaaditaan yhteistyötä!"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "Tyhjä haku"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "Hae käyttäjiä"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "Virheellinen pituus tai merkki hakukentässä. Kelvollinen määrä merkkejä on %d - %d."
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "Hae käyttäjiä"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "Lisää pelaaja kaverilistalle"
+
+msgid "client_action/ADD_GROUP"
+msgstr "Luo ryhmä"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "Lisää pelaaja mustalle listalle"
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "Vahvista kaverikutsu"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "Hylkää kaverikutsu"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "Muokkaa ryhmää"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "Luo pelaajakanava"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "Pelaajahaku"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "Yhdistä pelaajakanavaan"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "Poistu pelaajakanavasta"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "Poista pelaaja kaverilistalta"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "Poista pelaaja mustalta listalta"
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "Poista muistiinpano"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "Lähetä kaverikutsu"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "Näytä edellinen viesti"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "Etsi pelaajakanavia"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "Lähetä viesti"
+
+msgid "client_action/SET_MUTE"
+msgstr "Poista ääniviestit käytöstä"
+
+msgid "client_action/SET_NOTE"
+msgstr "Luo/muokkaa muistiinpanoa"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "Ota ääniviestit käyttöön"
+
+msgid "client_error/action/in_cooldown"
+msgstr "Toiminto \"%(actionName)s\" on jäädytetty %(floatArg1)s sekunniksi."
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "Toiminto \"%(actionName)s\" ei tilapäisesti ole saatavilla. Yritä myöhemmin uudelleen."
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "Olet ylittänyt kanavien sallitun määrän. Ole hyvä ja sulje tarpeettomat kanavat ja yritä uudelleen."
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "Kanava \"%(strArg1)s\" on jo olemassa."
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "Kanavan nimeä ei ole määritetty."
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "Virheellinen kanavan nimi \"%(strArg1)s\"."
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "Salasanan vahvistus ei vastaa syötettyä salasanaa."
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "Kanavan salasanaa ei ole määritetty."
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "Virheellinen kanavan salasana."
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "Salasanan vahvistusta ei ole määritetty."
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "Virheellinen salasanan vahvistus."
+
+msgid "client_error/command/generic_error"
+msgstr "Virhe suoritettaessa komentoa \"%(strArg1)s\"."
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "komento on jäädytetty %(floatArg1)s ajaksi."
+
+msgid "client_error/command/not_supported"
+msgstr "ohjelma ei tue komentoa %(strArg1)s."
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "virheellinen porttikiellon pituus %(int64Arg1)s."
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "virheellinen porttikiellon tyyppi %(int32Arg1)s."
+
+msgid "client_error/command/wrong_player_name"
+msgstr "virhellinen pelaajan nimi %(strArg1)s."
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "Pelaaja \"%(strArg1)s\" on mustalla listalla."
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "Pelaaja \"%(strArg1)s\" ei ole mustalla listallasi."
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "Pelaajaa ei löytynyt."
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "Olet jo hyväksynyt kaverikutsun pelaajalta \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "Olet jo hylännyt kaverikutsun pelaajalta \"%(strArg1)s\"."
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "Vastaustasi pelaajan \"%(strArg1)s\" kaverikutsuun käsitellään."
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "Ryhmän nimeä ei ole määritetty."
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "Ryhmä \"%(strArg1)s\" on jo olemassa."
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "Virheellinen ryhmän nimi \"%(strArg1)s\"."
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "Ryhmää \"%(strArg1)s\" ei löytynyt."
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "Ääniviestit otettu käyttöön pelaajalle \"%(strArg1)s\"."
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "Muistiinpanon tekstiä ei ole määritetty."
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "Ei muistiinpanoja pelaajalle \"%(strArg1)s\""
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "Pelaaja \"%(strArg1)s\" on kaverisi."
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "Pelaajaa \"%(strArg1)s\" ei löytynyt kaverilistaltasi."
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "Kanavan nimen täytyy sisältää %(int32Arg1)s–%(int32Arg2)s merkkiä."
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "Ryhmän nimi ei saa ylittää %(int32Arg2)s merkkiä."
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "Maksimimäärä pelaajia mustalla listalla %(int32Arg2)s."
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "Maksimimäärä luotuja ryhmiä %(int32Arg2)s."
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "Valitettavasti, sinulla ei voi olla yli %(int32Arg2)s pelaajaa kaverilistallasi. Poista pelaajia, joiden kanssa et pelaa."
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "Tekstin pituus muistiinpanossa ei saa ylittää %(int32Arg2)s merkkiä."
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "Salasanan täytyy sisältää %(int32Arg1)s–%(int32Arg2)s merkkiä."
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "Virheellinen pelaajan ID"
+
+msgid "client_error/shared/GENERIC"
+msgstr "Virhe suoritettaessa \"%(actionName)s\"."
+
+msgid "client_error/shared/LOCKED"
+msgstr "Toiminto \"%(actionName)s\" on väliaikaisesti poissa käytöstä. Yritä myöhemmin uudelleen."
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "Pelaajan nimeä ei ole määritetty."
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "Virheellinen pelaajan nimi %(strArg1)s."
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "Virhe yhdistettäessä chat-palvelimelle. Yritä myöhemmin uudelleen."
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "Toiminto \"%(actionName)s\" ei ole pelin tukema."
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "Tapahtui virhe, yritä myöhemmin uudelleen."
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "Osa ominaisuuksista ei toimi ennen kuin lähtölaskenta alkaa."
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "Virheellisesti määritetyt tiedot."
+
+msgid "command/acceptInvite"
+msgstr "Hyväksy kutsu"
+
+msgid "command/addFriend"
+msgstr "Lisää pelaaja kaverilistalle"
+
+msgid "command/addIgnored"
+msgstr "Lisää pelaaja mustalle listalle"
+
+msgid "command/broadcast"
+msgstr "Lähetä viesti"
+
+msgid "command/createChatChannel"
+msgstr "Luo kanava"
+
+msgid "command/createInvite"
+msgstr "Luo kutsu"
+
+msgid "command/createPrivate"
+msgstr "Luo yksityinen kanava"
+
+msgid "command/findChatChannels"
+msgstr "Hae kanavia"
+
+msgid "command/findUser"
+msgstr "Hae pelaajia"
+
+msgid "command/getActiveInvites"
+msgstr "Hae kutsulista"
+
+msgid "command/getArchiveInvites"
+msgstr "Hae arkistoitu kutsulista"
+
+msgid "command/getMembersCount"
+msgstr "Hae kanavalla olevien pelaajien määrä"
+
+msgid "command/leaveChatChannel"
+msgstr "Poistu kanavalta"
+
+msgid "command/rejectInvite"
+msgstr "Kieltäydy kutsusta"
+
+msgid "command/removeFriend"
+msgstr "Poista pelaaja kaverilistaltasi"
+
+msgid "command/removeIgnored"
+msgstr "Poista pelaaja mustalta listalta"
+
+msgid "command/requestChatChannelMembers"
+msgstr "Hae lista klaanin jäsenistä"
+
+msgid "command/requestSystemChatChannels"
+msgstr "Hae lista järjestelmäkanavista"
+
+msgid "command/setMuted"
+msgstr "Poista ääniviestit käytöstä"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s on annettu porttikielto."
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s ei ole enää porttikiellossa."
+
+msgid "command/unsetMuted"
+msgstr "Ota ääniviestit käyttöön"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "Klikkaa tallentaaksesi luodun kontaktiryhmän."
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "Luo"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "Klikkaa peruuttaaksesi luomisen ja palataksesi kontaktilistalle."
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "Sulje"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "Klikkaa poistaaksesi kontaktiryhmän."
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "Poista"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "Klikkaa peruuttaakseksi poistamisen ja palataksesi kontaktilistalle."
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "Peruuta"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "Klikkaa tallentaaksesi kontaktiryhmän uudella nimellä."
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "Tallenna"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "Klikkaa peruuttaaksesi muokkaamisen ja palataksesi kontaktilistalle."
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "Sulje"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "Nimi ei saa ylittää %(maxChars)s merkkiä."
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "Klikkaa lisätäksesi pelaajan kaverilistalle."
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "Lisää"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "Klikkaa peruuttaaksesi pelaajan etsimisen ja palaa kontaktilistallesi."
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "Sulje"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "Klikkaa etsiäksesi pelaajaa nimellä."
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "Etsi"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "Nimen täytyy sisältää %(minChars)s–%(maxChars)s merkkiä tai numeroa."
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "Haku jäädytetty %(time)s sekunniksi liian monen haun takia."
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "Klikkaa tallentaaksesi valitut asetukset."
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "Käytä"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "Klikkaa hylkääksesi muutokset ja palataksesi kontaktilistalle."
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "Peruuta"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "Klikkaa luodaksesi ryhmän."
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "Luo ryhmä"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "Klikkaa etsiäksesi pelaajaa nimellä, joka ei ole kontaktilistallasi."
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "Etsi kontaktien ulkopuolelta"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "Klikkaa löytääksesi ja lisätäksesi pelaajan kontaktilistallesi."
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "Pelaajahaku"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "Klikkaa vaihtaaksesi kontaktilistan asetuksia."
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "Asetukset"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "Nimen täytyy sisältää enintään %(maxChars)s merkkiä."
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "Lähetä komento"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "Poista joukkueesta"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "Sulje"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "Luo kanava"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "Hae ja liity"
+
+msgid "dialogs/channels/title"
+msgstr "Kanavat"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "Sulje"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "Liity"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "Salasanan täytyy sisältää 3 - 12 merkkiä."
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "Virheellinen salasana."
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "Yrität yhdistää salattuun kanavaan %s."
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "Kirjoita salasana:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "Varoitus"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "Yhdistä kanavaan"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "Kutsu klaaniin"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "Lisää kaverilistalle"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "Lisää mustalle listalle"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "Kopioi leikepöydälle"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "Luo yksityinen kanava"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "Siirrä kultaa"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "Poista kaverilistalta"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "Poista mustalta listalta"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "Näytä tiedot"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "Lajittele nimen mukaan."
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "Lajittele statuksen mukaan."
+
+msgid "dialogs/contacts/title"
+msgstr "Kontaktilista"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "Klaanilaiset"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "Kaverit"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "Kaverikutsut"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "Musta lista"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "Mykistetyt"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "Sulje"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "Luo"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "Luodaan automaattisesti"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "Kirjoita salasana"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "Kanavan nimi"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "Salasana"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "Vahvista salasanasi"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "Vaadi salasana"
+
+msgid "dialogs/createChannel/title"
+msgstr "Luo kanava"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "Valitse %(vehName)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "Valitse tason %(level)s vaunu"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "Valitse vaunuja"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "Valitse tason %(level)s vaunu"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "Vaunu: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "Sulje"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "Liity"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "Etsi"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "Hakutulokset (ensimmäiset %d):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "Etsi"
+
+msgid "dialogs/searchChannel/title"
+msgstr "Hae kanava"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "Lisää kaveriksi"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "Musta lista"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "Sulje"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "Etsi"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "Käyttäjän tiedot"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "Hakutulokset:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "Etsi"
+
+msgid "dialogs/searchContact/title"
+msgstr "Etsi kontakteja"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "Huoltokanava"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "Valitse tason VIII vaunu"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "Tärkein tavoite on olla viimeinen osasto hengissä."
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "\"Etulinja\" -pelimuoto on saatavilla\nvain tason VIII vaunuille."
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ tapahtuma +++\n+++ tapahtuma +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "Lisäkokemusta per taistelu\ntason IV tai korkeammilla vaunuilla"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "Pelaa saman tason vaunuilla\nalkaen tasolta IV ja saa lisäkokemusta"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "Pelaajien hyväksyttyä kutsun todellinen pelinimesi ja klaanitunnuksesi näytetään osaston jäsenille taistelun ajan."
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "Chat-kanava"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "Kokeellisia moduuleja asennettu vaunuihin: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "Tila: tauolla"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "Tila: taistelussa"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "Tila: ei valmis"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "Tila: offline-tilassa"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "Tila: valmis"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "Hajota"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "Kutsu"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "syyllinen"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "epäilty"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "Tappanut oman: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "Poista ääniviestit käytöstä"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "Lisää kaverilistalle"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "Lisää mustalle listalle"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "Sulje"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "Luo yksityinen kanava"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "Ota ääniviestit käyttöön"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "Summa"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "Luotu"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "Viimeisin taistelu"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "Tila:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s - Pelaajan tiedot"
+
+msgid "events/enterChannel"
+msgstr "[%s] liittyi kanavalle"
+
+msgid "events/leaveChannel"
+msgstr "[%s] poistui kanavalta"
+
+msgid "keyboardChat"
+msgstr "Chat"
+
+msgid "listView/emptyList/info"
+msgstr "ilmoituksia"
+
+msgid "listView/emptyList/invite"
+msgstr "kutsuja"
+
+msgid "listView/emptyList/offer"
+msgstr "spesiaaleja"
+
+msgid "listView/emptyList/template"
+msgstr "Ei vielä %(listType)s."
+
+msgid "listView/news/checkNewsBtn"
+msgstr "Uutisiin"
+
+msgid "listView/news/header"
+msgstr "MITÄ UUTTA?"
+
+msgid "listView/title"
+msgstr "Ilmoituskeskus"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "Taisteluaika: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "Lähetä"
+
+msgid "lobby/buttons/channels"
+msgstr "Kanavat"
+
+msgid "lobby/buttons/contacts"
+msgstr "Kontaktit"
+
+msgid "lobby/buttons/send"
+msgstr "Lähetä"
+
+msgid "lobby/channels/actions/remove"
+msgstr "Sulje kanava"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "Näytä päivämäärä viesteissä"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "Näytä aikaleimat viesteissä"
+
+msgid "lobby/faq/close"
+msgstr "Sulje"
+
+msgid "lobby/faq/title"
+msgstr "FAQ"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "Lisää tämä pelaaja kavereihin"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "Lisää tämä pelaaja mustalle listalle"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "Kopioi leikepöydälle"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "Luo yksityinen kanava"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "Näytä pelaajan tiedot"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "Etsi kontaktien ulkopuolelta"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "Peruuta"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "Muokkaa ryhmää"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "Poista ryhmästä"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "Poista ryhmä"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "Klikkaa peruuttaaksesi luomisen ja palataksesi kontaktilistalle."
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "Sulje"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "Klikkaa tallentaaksesi pelaajan muistiinpanon."
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "Luo"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "Vedä kontaktit tähän"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "Klikkaa peruuttaaksesi muokkaamisen ja palataksesi kontaktilistalle."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "Sulje"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "Klikkaa tallentaaksesi muokkaukset pelaajan muistiinpanoon."
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "Tallenna"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "Hakuehdoillasi ei löydetty mitään."
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "Vakituiset taktiset yksiköt"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "Kaverit"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "Muut"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "Musta lista"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "Kaverikutsut"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "Etsi pelaaja listalta"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "Pelaajia ei ole vielä lisätty."
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "Tyhjä kontaktilista"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "Ei kontakteja online-tilassa"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "Yritä etsiä kontaktilistan ulkopuolelta."
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "Ei osumia"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "Syötä pelaajan nimi"
+
+msgid "messenger/contacts/title"
+msgstr "Kontaktit"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "Sulje"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "Lisää"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "Ryhmä on jo olemassa."
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "Pelaajahaku"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "Sulje"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "Luo"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "Luo muistiinpano"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "Sulje"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "Tallenna"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "Nimi ei saa ylittää %(maxChars)s merkkiä."
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "Muokkaa muistiinpanoa"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "pelaajalle "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "Sulje"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "Luo"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "Luo ryhmä"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "Syötä nimi (max. %(symbols)s merkkiä)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "Sisältäen kontaktit ryhmän sisällä"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "Peruuta"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "Poista"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "Poista ryhmä"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "Sulje"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "Tallenna"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "Muokkaa ryhmää"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "Syötä nimi (max. %(symbols)s merkkiä)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "Anna kuvaus (%(symbols)s merkkiin asti)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "Kuvaus ei saa ylittää %(maxChars)s merkkiä."
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "Pelaajahaku"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "Hyväksy ryhmänä yhdessä ikkunassa"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "Näytä offline pelaajat"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "Näytä \"Muut\" kategoria"
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "Viestit kontaktilistasi ulkopuolisilta pelaajilta:"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "Hyväksy erillisessä ikkunassa"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "Peruuta"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "Käytä"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "Asetukset"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "Osa lisätty"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "Taistelupassin pisteitä poistettu"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "Pelimerkkejä poistettu"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "Manööveripoletteja poistettu"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "Komponentteja poistettu"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "Henkilökohtaisia mainepisteitä poistettu"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "Vapaata kokemusta vähennetty"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "Kenttäkomennuksen pisteitä poistettiin"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "Poletit palvelusvuosista poistettiin"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "Taistelupassin pisteitä lisätty"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "Pelimerkkejä lisätty"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "Manöveeripoletteja lisätty"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "Komponentteja lisätty"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "Henkilökohtaisia mainepisteitä lisätty"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "Vapaata kokemusta vastaanotettu"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "Kenttäkomennuksen pisteitä lisättiin"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "Poletit palvelusvuosista lisättiin"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "Lisää kaikki kontaktit vastaanottajien listaan."
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "Lisää valittu kontakti."
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "Poista kaikki kontaktit vastaanottajien listalta."
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "Poista valittu kontakti vastaanottajien listalta."
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "Toiminto %(action)s on estetty %(cooldownPeriod)s sekunniksi."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "Chattivirhe"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "Olet saavuttanut avoimien kanavien määrärajan. Ole hyvä ja sulje käyttämättömät kanavat."
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "Virhe"
+
+msgid "server/errors/addFriendError/message"
+msgstr "Virhe lisättäessä käyttäjää kaverilistallesi."
+
+msgid "server/errors/addFriendError/title"
+msgstr "Virhe"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "Virhe lisättäessä pelaajaa mustalle listalle."
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "Virhe"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "Samanniminen kanava on jo olemassa."
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "Virhe luodessa kanavaa."
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "Kanava poistettu."
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "Virhe liityttäessä kanavalle."
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "Chattivirhe"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "Virhe suoritettaessa chatkomentoa: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "Chattivirhe"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "Komento %(command)s on estetty %(cooldownPeriod)s sekunniksi."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "Chattivirhe"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "Viesti jäädytetty. Liian paljon viestejä."
+
+msgid "server/errors/connectTimeout/message"
+msgstr "Yhteys kanavaan on aikakatkaistu."
+
+msgid "server/errors/connectTimeout/title"
+msgstr "Chattivirhe"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "Yksityistä kanavaa ei voida luoda: käyttäjä on offline-tilassa."
+
+msgid "server/errors/createPrivateError/title"
+msgstr "Chattivirhe"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "Virheellinen symboli"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "Virhe"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "Virheellinen parametri %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "Virhe"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "Virheellinen salasana suojatulle kanavalle."
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "Virhe liityttäessä kanavalle."
+
+msgid "server/errors/initializationFailure/message"
+msgstr "Chatin aloitus epäonnistui."
+
+msgid "server/errors/initializationFailure/title"
+msgstr "Chattivirhe"
+
+msgid "server/errors/internalError/message"
+msgstr "Sisäinen virhe, yritä uudelleen myöhemmin."
+
+msgid "server/errors/internalError/title"
+msgstr "Virhe luodessa kanavaa"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "Virheellinen kanavan nimi."
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "Chattivirhe"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "Virhe suoritettaessa kutsukomentoa."
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "Virhe"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "Käyttäjällä %(user)s on jo porttikielto."
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "Chattivirhe"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "Käyttäjä %(user)s on jo kanavan moderaattori."
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "Chattivirhe"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "Chattivirhe"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "Käyttäjän yhteys on katkennut"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "Chattivirhe"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "Käyttäjä %(user)s ei ole kanavan moderaattori."
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "Chattivirhe"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "Tämän kanavan käyttäjäraja on saavutettu."
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "Virhe yhdistettäessä kanavalle"
+
+msgid "server/errors/notAllowed/message"
+msgstr "Ei tarvittavia oikeuksia tähän toimintoon."
+
+msgid "server/errors/notAllowed/title"
+msgstr "Chattivirhe"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "Kirjoita salasanasi kirjautuaksesi sisään suojatulle kanavalle."
+
+msgid "server/errors/passwordRequired/title"
+msgstr "Tapahtui virhe liityttäessä kanavalle"
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "Tämän asetuksen muuttaminen ei ole tällä hetkellä mahdollista."
+
+msgid "server/errors/sqlError/message"
+msgstr "Virhe kutsuttaessa tietokantaa."
+
+msgid "server/errors/sqlError/title"
+msgstr "Virhe"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "Tämä pelaaja on lisännyt sinut mustalle listalleen."
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "Virhe"
+
+msgid "server/errors/userNotExists/message"
+msgstr "Käyttäjää ei ole olemassa."
+
+msgid "server/errors/userNotExists/title"
+msgstr "Virhe"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "Olet saavuttanut sallittujen käyttäjien rajan kontaktilistalla."
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "Virhe"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "Olet ylittänyt kanavien sallitun määrän."
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "Olet ylittänyt kanavan nimen pituuden rajan."
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "Olet ylittänyt salasanan pituuden rajan."
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "Kanava \"%(strArg1)s\" on jo olemassa."
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "Virheellisiä merkkejä kanavan nimessä."
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "Loukkaavia sanoja kanavan nimessä."
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "Teräksen metsästäjä"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "Nämä ovat Teräksen metsästäjän erikoisvaunut. Kokeile tätä Teräksen metsästäjänä oloa saadaksesi selville, mihin nämä vaunut pystyvät."
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "Vaunu tuhoutui"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "Taso saavutettu"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "Pisteitä ansaittu"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "Voitto"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "Lisätty"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "Selvä!"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "Mene operaatioon"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "Palvelushistoria"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "Tapahtuma"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "Kampanja päättyi."
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "WoT Plussan kohdennettava kokemuskerroin on saatavilla"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "WoT Plussan kohdennettava kokemuskerroin ei ole saatavilla"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "Vaunun %s kulutustarvikkeiden täydennys epäonnistui. Kaikki kultasi on saatavilla, kun WG Walletin toiminta palautetaan automaattisesti."
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "Direktiivien täydentäminen %s vaunulle epäonnistui. Toiminto ei väliaikaisesti ole saatavilla huoltotoimien vuoksi."
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "Vaunun %s direktiiviä ei voitu täydentää. Ei riittävästi varoja."
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "Vaunun %s direktiiviä ei voitu täydentää automaattisesti. Ole hyvä ja asenna se manuaalisesti."
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "Direktiivit %s vaunulle täydennettiin onnistuneesti. Käytit "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Vaunun %s kulutustarvikkeita ei voitu täydentää. Harkitse kulutustarvikkeiden ostamista kullalla."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Kulutustarvikkeiden täydennys vaunuun %s epäonnistui. Ei riittävästi krediittejä."
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "Vaunun %s kulutustarvikkeiden täydennys epäonnistui. Kaikki kultasi on saatavilla, kun WG Walletin toiminta palautetaan automaattisesti."
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "Vaunun %s kulutustarvikkeiden automaattinen täydentäminen epäonnistui. Lastaa kulutustarvikkeet manuaalisesti."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Kulutustarvikkeiden täydennys vaunuun %s onnistui. Olet käyttänyt "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "Vaunun %s ammuksia ei voitu täydentää. Harkitse ammusten ostamista kullalla."
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "Ammusten täydennys vaunuun %s epäonnistui. Ei riittävästi krediittejä."
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "Vaunun %s ammusten täydennys epäonnistui. Kaikki kultasi on saatavilla, kun WG Walletin toiminta palautetaan automaattisesti."
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "Vaunun %s ammusten automaattinen täydentäminen epäonnistui. Lastaa ammukset manuaalisesti."
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "Ammusten täydennys vaunuun %s onnistui. Olet käyttänyt "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "Tyylin vuokra-ajan pidentäminen vaunulle %s epäonnistui. Osta tyyli kullalla."
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "Tyylin vuokra-ajan pidentäminen vaunulle %s epäonnistui. Ei riittävästi varoja."
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "Tyylin vuokra-ajan pidentäminen vaunulle %s epäonnistui. Kaikki kultasi on saatavilla, kunhan WG Lompakon toiminta palaa normaaliksi."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "Pidennä vuokra-aikaa"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "%s vaunuun asennetun %s vuokratyylin aika on loppumassa: 3 taistelua jäljellä."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "\"%s\" tyylin vuokra-aikaa (%s) pidennetään automaattisesti %s taistelulla kolmen taistelun jälkeen."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "Ulkoasuun"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "Vuokratyylin \"%s\", joka on ollut asennettuna %s vaunuun, vuokra-aika on päättynyt. Voit pidentää aikaa Ulkoasu-ruudussa."
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "Tyylin vuokra-ajan automaattinen pidentäminen vaunulle %s epäonnstui. Osta tyylin manuaalisesti."
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "Tyylin vuokra-ajan pidentäminen vaunulle %s onnistui. Käytettiin "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "Vaunun %s korjaus epäonnistui."
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "Vaunun %s korjaus epäonnistui. Ei riittävästi krediittejä."
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "Vaunun %s korjaus epäonnistui. Kaikki kultasi on saatavilla, kun WG Walletin toiminta palautetaan automaattisesti."
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "Vaunun %s automaattinen korjaus epäonnistui. Korjaa vaunu manuaalisesti."
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "Vaunu %s korjattu onnistuneesti. Olet käyttänyt "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "WoT Plussan \"Panssarimies\" -banneri on saatavilla"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "WoT Plussan \"Panssarimies\" banneri ei ole saatavilla"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "Arvomerkkejä lisätty"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "WoT Plussan taistelubonus on saatavilla"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "WoT Plussan taistelubonus ei ole saatavilla"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "Tehtävä suoritettu: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "Olet suorittanut sarjan panssarivaunuakatemian tehtäviä."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "Poletteja voi vaihtaa mihin hyvänsä tutkittavissa olevaan tason VI vaunuun."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "Vaunun valintaan"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "Onneksi olkoon!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "Panssarivaunuakatemian tehtäviä suoritettu: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "Palkinto saatu:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "Akatemiapoletti käytetty."
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "Palkinto saatu:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "Tallipaikkoja: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "Vuokravaunut: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "Ansaitse vaunuja ja hyödylliseä resursseja suorittamalla harjoitustehtäviä."
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "Panssarivaunuakatemiaan"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "KAIKKI, MITÄ TARVITSET\nALKUUN PÄÄSEMISEEN"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "Akatemiapoletti"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "Käyttämättömiä pisteitä käytetty"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "Käyttämättömät pisteet käytettiin eliittiradan aktivoinnin yhteydessä: %(points)s."
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "Käyttämättömiä pisteitä käytetty: %(points)s \"%(chapter)s\" lukuun."
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "Tavallinen varuste valittavaksi"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "Eliittirata aktivoitu"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "Eliittirata on tauolla."
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "Pisteraja saavutettu"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "Ansaitsit maksimimäärän pisteitä %(vehName)s vaunulla.\nPalkinto pisterajan saavuttamisesta: %(bonusPoints)s.\nTaistele muilla vaunuilla jatkaaksesi pisteiden ansaitsemista."
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "Onneksi olkoon!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "\"%(name)s\" -tyyli vastaanotettu. Se voidaan ottaa käyttöön vaunuun saman tien ja päivittää Taistelupassin edistymisen aikana."
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "Palkkiovaruste valittavaksi"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "Tiedot"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "Tiedot"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "Olet suorittanut Taistelupassin \"%(chapter)s\" luvun!\nSaadut palkinnot:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "Olet suorittanut Taistelupassin \"%(chapter)s\" luvun!\nSaadut palkinnot:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "Suoritit Taistelupassin edistymisen vaiheen %(newLevel)s\n\nPalkinto saatu:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "Vaiheita lisätty Lukuun %(chapter)s: %(levelCount)s\nSaavutit vaiheen %(currentLevel)s\nSaadut palkinnot:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "Sait palkintoja aiemmin suoritetuista taistelupassin vaiheista:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "Saat nyt palkinnot sekä tavalliselta että parempien palkintojen radalta."
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "Sait palkintoja käyttämättömillä pisteillä suoritetuista vaiheista:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "Suoritit \"%(chapter)s\" luvun!\nPalkinto saatu:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "Jatka taistelemista ja pisteiden ansaitsemista!"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "Suoritit kaikki Taistelupassin %(season)s pääluvut.\nPalkinto saatu:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "Olet suorittanut \"%(chapter)s\" luvun edistymisen vaiheen %(newLevel)s.\nPalkinto saatu:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "Tiedot"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "Vapaata kokemusta käytety:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "Kultaa käytetty:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "Olet ostanut Paremman passin ja kaikki vaiheet \"%(chapter)s\" lukuun.\nKaikista luvun vaiheista saadut saadut palkinnot:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "Sait bonuksen Parempien passien ostamisesta:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "Saat nyt sekä tavalliset että paremmat palkinnot kaikista kauden Luvuista."
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "Vaiheita lisätty \"%(chapter)s\" lukuun: %(levelCount)s\nSaavutit vaiheen %(currentLevel)s.\nPalkintoja saatu:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "Sait bonuksen Paremman passin ostamisesta:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "Tämä Parempi passi koskee vain \"%(chapter)s\" lukua."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "Sait palkintoja aiemmin suoritetuista taistelupassin vaiheista:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "Tämä Parempi passi toimii vain \"%(chapter)s\" luvussa."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "Saat nyt palkinnot sekä tavalliselta että parempien palkintojen radalta \"%(chapter)s\" luvusta."
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "Oletuspalkinto lisätty:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "Parempi passi ostettu"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "Parempi passi ostettu"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "Vaiheita ostettu"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "Onneksi olkoon!"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "Palkinto myönnetty"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "Eliittiradan vaihe suoritettu.\nPalkinto saatu:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "Eliittiradan vaiheita suoritettu: %(amount)s\nPalkinto saatu:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "Miehistön jäsen:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "Taistelusaavutukset"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "Vastaanotettiin %s spesiaalista '%s'"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "Vastaanotettiin %s spesiaaleista '%s'"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s polettia"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s krediittiä"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s arvopapereita"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "%s vuosipäiväkolikkoa"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s kokemusta"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s kultaa"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "Taistelu"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "Taistelupassin pisteitä saatu: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "Poletteja saatu"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "Tiedot"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "hyvitys liittolaisten aiheuttamista vahingoista: %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "Krediittejä ansaittu: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "Arvopapereita saatu"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "Tappio"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "x%d päivän ensimmäisestä voitosta"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "Tasapeli"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "Taistelu päättyi"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "Taistelureservipisteet"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "Komponentteja saatu"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "Vuosipäiväkolikoita saatu"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "Kokemusta saatu: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "Hyökkäysoperaatio"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "Rakennus"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "Teollisuusresursseja ansaittu"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "klaanin toimesta"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "pelaajan toimesta"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "Vapaata kokemusta vastaanotettu"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "Ansaittu kulta"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "\"%(campaignName)s\" kampanjan kävijöihin liittymisestä sinut on palkittu \"%(nameMedal)s\" -mitalilla."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "Onneksi olkoon!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "Sinut on palkittu \"%(nameMedal)s\" -mitalilla 45 tehtävän onnistuneesta suorittamisesta \"%(categoryName)s\" -sarjasta \"%(campaignName)s\" kampanjassa."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "Sinut on palkittu \"%(nameMedal)s\" -mitalilla 30 tehtävän onnistuneesta suorittamisesta \"%(categoryName)s\" -sarjasta \"%(campaignName)s\" kampanjassa."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "Sinut on palkittu \"%(nameMedal)s\" -mitalilla 15 tehtävän onnistuneesta suorittamisesta \"%(categoryName)s\" -sarjasta \"%(campaignName)s\" kampanjassa."
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "sakko liittolaisiin aiheutetuista vahingoista: %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "Onneksi olkoon!\nHenkilökohtaisten tehtävien onnistuneesta suorittamisesta saat seuraavat palkinnot"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "Onneksi olkoon!\n\"Kauan odotettu vahvistus\" -kampanjan henkilökohtaisten tehtävien onnistuneesta suorittamisesta saat seuraavat palkinnot"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "Onneksi olkoon!\n\"Toinen rintama\" -kampanjan henkilökohtaisten tehtävien onnistuneesta suorittamisesta saat seuraavat palkinnot"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "Onneksi olkoon!\nMolempien kampanjoiden henkilökohtaisten tehtävien onnistuneesta suorittamisesta saat seuraavat palkinnot"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "Lisättiin krediittivarastoon"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Tehtävä valmis! Palkinto"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "Palvelushistoria"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "Taistelupassin pisteitä saatu: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "Punkkia lisätty kasarmille"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "Poletteja lisätty"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "Krediittejä lisätty"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "Arvopapereita lisätty"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "Komponentteja lisätty"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "Vuosipäiväkolikoita lisätty"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "Vapaata kokemusta lisätty"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "Kultaa lisätty"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "Lisätty"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "Kampanjapisteet: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "Lemmikejä saatu"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "Wargaming premium-tilin päiviä lisättty"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "WoT Premium-tilin päiviä lisättty"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "Bonustaisteluita lisätty: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "%(count)s päivittäin"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "%(count)s tavallista"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "Tallipaikkoja lisätty"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "Bonustaisteluita lisätty"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \nTavallinen, suoriutumisestasi suoritetussa vaiheessa: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \nTehtävien suorittamisesta: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \nPäivittäin karsinnoissa ansaittujen natsojen määrästä: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \nTavallinen, karsinnoissa ansaittujen natsojen määrästä: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "Muutokset sijoitusluokissa"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \nNatsoja ansaittu"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \nNatsoja ansaittu"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \nSiirrytään divisioonaan: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \nSiirrytään liigoihin"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \nNatsa säilytetty"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \nSaavutit sijoitusluokan %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \nMenetit sijoitusluokan %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \nLuokituskilpi heikentyi"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \nEi muutoksia"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \nLuokituskilpi murtui"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \nNatsa säilytetty"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \nNatsa saatu"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \nNatsa menetetty"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \nNatsoja ansaittu"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "Luokituspisteet"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "Sait seuraavat palkinnot palvelusvuosistasi"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "Onneksi olkoon!"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "Värvää"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "Vaunut"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "Naismiehistön jäsen"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "Tekninen tappio"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "Tekninen voitto"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "Voitto"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "Yksi estettyjen karttojen paikka on poistettu. %(mapName)s on takaisin kierrossa."
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "Estetty kartta (%(mapNames)s) on poistettu pelistä. Voit estää uuden kartan."
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "Yksi estettyjen karttojen paikka on poistettu. %(mapNames)s on takaisin kierrossa."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "Spesiaali on alkanut!\nSinulla on mahdollisuus vaihtaa 10 päivän ajan piirustuksiasi muihin arvokkaisiin tarvikkeisiin."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "Tiedot"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "Spesiaali on päättynyt"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "Vaihda piirustuksiasi"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "Piirustusten muuntaminen ei ole mahdollista huoltotöiden takia."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "Piirustusten muuntaminen palautettu."
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "Älä unohda ottaa vastaan palkintoasi!"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "Mene valintaan"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "Bonuksia meneillään olevista taisteluista ei huomioida."
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "Henkilökohtainen reservi \"%(boosterName)s\" on poistettu käytöstä teknisen syyn takia."
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: henkilökohtainen reservi käytetty loppuun"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "Reservi menetetty:"
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "Reservit ovat vanhentuneet"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "krediitteihin"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "vapaaseen kokemukseen"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "miehistökokemukseen"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "Taistelukokemus"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "Bonus %(resourceName)s yhteensä:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "Sulje"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "Poistuit tai sinut poistettiin klaanista:"
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "\"%(element_name)s\" lisätty"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "\"%(element_name)s\" -mitali lisätty"
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "\"%(element_name)s\" -banneri lisätty"
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "Palkinto vastaanotettu"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "Kunniamainintoja saatu"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "Live-merkit eivät ole tällä hetkellä saatavilla"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "Live-merkit ovat saatavilla taistelussa"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "Kehut eivät ole tällä hetkellä saatavissa"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "Kehut ovat saatavissa taistelussa"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "Sinulle on annettu %(gold)s kultaa, %(credits)s krediittiä."
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "Sinulle on annettu %(credits)s krediittiä."
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "Miehistöavustaja on saatavilla"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "Miehistöavustaja ei ole saatavilla"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "Krediitti- ja kultavarastot avautuivat!"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "Huutokauppa"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "Taistelupassi"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "Päivämäärä"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "Poletteja poistettu"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "Krediittejä vähennetty"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "Arvopapereita poistettu"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "Komponentteja poistettu"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "Vuosipäiväkolikoita poistettu"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "Vapaata kokemusta vähennetty"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "Kultaa vähennetty"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "Rahasiirto"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "Huutokauppa"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "Poletteja saatu"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "Krediittejä saatu"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "Arvopapereita saatu"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "Komponentteja saatu"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "Vuosipäiväkolikoita saatu"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "Vapaata kokemusta vastaanotettu"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "Kultaa saatu"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "\"Aikamme sankarit\" -palkinto"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "\"%(medalName)s\" -mitali saatiin %(battlesCount)s käydystä taistelusta\nTunnustukset saatu %(battlesCount)s käydystä taistelusta (x%(decalsCount)s)"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "Irrotuspakkausten käyttö on väliaikaisesti mahdotonta huoltotoimien tähden."
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "Irrotuspakkausten käyttö on jälleen mahdollista. Pahoittelemme häiriötä."
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "Tuntolaatan tausta avattu: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "Tuntolaatan kaiverrus avattu: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "\"%(name)s\" -tuntolaatta"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "saavutettu taso"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "Uusi taso"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "Avattu"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "Tausta"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "Kaiverrus"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "Wargaming premium-tilin päättymiseen %(expiryTime)s."
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "Vahvista sähköposti"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "Sähköpostia ei vahvistettu"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "Kokeellinen moduuli käytetty"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "Kaikki kokeelliset moduulit poistettu"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "Kokeellisia moduuleja irrotettu seuraavista vaunuista"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "Skenaario"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• Varustedirektiivejä valittavaksi"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• Taistelupassin pisteitä"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• Yleinen koulutusvihko"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• Arvopapereita"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• Taistelureservipisteitä"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• Kokeellinen varuste valittavaksi"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• Opetuslupa"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• Uudelleenkoulutuskäskyjä"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• Yleinen koulutusohje"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "Sinulle on annettu vuosipäiväkolikoita: %(eventCoin)s."
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "Ylimääräinen mahdollisuus karttojen estämiseen avattu"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "Karttojen estäminen ei onnistu WoT Plussalla"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "Syy"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "Boosteroid-tilaus päättyi."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "Tilaus päättyi."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "Vaunu pois käytöstä"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "Vaunu"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "Vaunu saatavilla"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "Vaunu"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "Etenemisen nollaus"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "Mene tehtävään"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "Huomio! Tehtävän %(missionShortName)s eteneminen nollattiin. Ehdon suorittamienn aloitettiin alusta."
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "Tehtävä: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "Operaatio: %(operation)s"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s kello %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "Lisätiedot"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "Sinut on väliaikaisesti estetty \"%(mode)s\" -pelimuodon taisteluista. Esto poistetaan %(date)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "Väliaikainen estosi on poistettu. Voit pelata jälleen \"%(mode)s\" -pelimuodossa."
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "Taistelussa ansaitsemasi krediitit, kokemus ja palkinnot on poistettu \"%(mode)s\" -pelimuodossa syystä: %(reason)s"
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "Sait varoituksen \"%(mode)s\" -pelimuodossa seuraavasta syystä: %(reason)s."
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "Esto"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "Eston päättyminen"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "Sinua on rangaistu"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "Epäurheilijamainen käytös"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "Sota julistettu klaanille %(clan)s!\nHyökkäysoperaatio alkaa %(date)s klo %(time)s."
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "Puolustus musertui!\nKaikki hyökkäykset on peruutettu. Täytä komentokeskuksen kestävyyspalkki, jotta linnake voi toimia."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "Suunniteltu taistelu %(clan)s klaanin kanssa peruutettiin."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "%(time)s %(date)s ajoitettu hyökkäysoperaatio %(clan)s klaania vastaan on peruutettu: Linnakkeiden tasojen ero on enemmän kuin 1 taso."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "Rakennus %(building)s on vaurioitunut! Täytä kestävyyspalkki, jotta rakennus voi toimia."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "Komentokeskus on vaurioitunut! Täytä kestävyyspalkki, jotta linnake voi toimia. Jos komentokeskuksesi ottaa lisää vahinkoa, puolustuksesi musertuu."
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "Klaani %(clan)s on julistanut sinulle sodan!\nHyökkäysoperaatio alkaa %(date)s klo %(time)s."
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "Puolustusvaihe asetettu: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "Puolustusvaihetta on säädetty. Uusi puolustusvaihe: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "Linnakkeesi puolustus on poissa käytöstä. Kaikkien rakennusten ja reservien taso on laskettu tasolle IV."
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "Onneksi olkoon! Kehitit linnakkeesi tasolle VIII."
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "Onneksi olkoon! Linnake on täysin toiminnassa klaanin eduksi."
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "Tulitaukopäivä on muutettu. Tulitauon uutta päivää ei ole asetettu."
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "Tulitauon päivä asetettu: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "Rakennuksen %(building)s tasoa on nostettu.\nTekeillä oleva reservi %(order)s muunnettiin teollisuusresursseiksi ja lisättiin rakennuksen varastoon."
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "Reservi %(orderTypeName)s hyvitetty ja valmiina käyttöön."
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "Kotipalvelin vaihdettu %(peripheryName)s palvelimeen."
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "Teollisuusresursseja lisätty: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "Teollisuusresursseja vähennetty: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "Sinut on liitetty rakennukseen %(building)s."
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "Lisätyt reservit: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "Vähennetyt reservit: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "Reservi %(order)s on käytetty. Aikaa jäljellä: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "Reservi käytetty"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "Reservi %(order)s on täysin käytetty."
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "%(count)s reservin %(order)s suoritettu."
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "\"Evakuointi\" reservi on erääntynyt.\n\n%(additional)s\nKlaanille kaikkiaan: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "Vihollinen otti käyttöön \"Pakkoluovutus\" reservin ja ryöväsi lisää: %(resDec)s\nPelastettu lisää klaanin toimesta: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "\"Pakkoluovutus\" reservi on erääntynyt.\n\n%(additional)s\nKlaanille kaikkiaan: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "Vihollinen otti käyttöön \"Evakuointi\" reservin ja pelasti lisää: %(resDec)s\nRyövätty lisää klaanin toimesta: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "Rakennuksen %(building)s varasto on täynnä.\nKäytä teollisuusresursseja valmistellaksesi reservejä tai kuljettaaksesi niitä toiseen rakennukseen."
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "Linnakkeesi puolueettomuus on päättynyt.\nMuut klaanit voivat nyt hyökätä kimppuusi—ole valmiina!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "Linnakkeesi on julistanut puolueettomuuden.\nMuut klaanit eivät voi hyökätä kimppuusi. Puolueettomuus päättyy: %(finish)s."
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "%(defResCount)s yksikköä teollisuusresursseja lisätty komentokeskuksen varastoon."
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "Mene tapahtumaan"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "Edistymiseen"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "Sinulle on annettu %(gold)s kultaa."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "Huutokauppa: Tarjouksesi on pienempi kuin kilpailukykyinen tarjous."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "Mahdollisuutesi voittaa tämänhetkinen huutakauppa on pienempi: tarjouksesi on tällä hetkellä pienempi kuin kilpailukykyinen tarjous."
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "Tapahtumaan"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "Tarjouksesti hävisi. Palautetaan:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "Muut pelaajat tarjosivat sinua enemmän. Huutosi palautetaan pian tilillesi."
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "Virhe"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "Virhe tarjousta tehdessä. Varoja ei vähennetty. Ole hyvä ja yritä uudelleen."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "Tarjousaika on päättymäisillään."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "Pidä kiirettä ja jätä tarjous!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "Kiirehdi ja jätä tarjous. Tavaraa on tarjolla rajoitetusti."
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "Tarjousten jättäminen uusista kohteista on alkanut!"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "Punkkia lisätty kasarmille"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "Punkkia poistettu kasarmilta"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "Henkilökohtaiset reservit"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "Henkilökohtaisia reservejä poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "Poletteja lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "Poletteja poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "Hyvitys"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "poleteilla"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "Maastokuvio"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "krediittiä"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "arvopapereilla"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "Tunnus"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "vuosipäiväkolikoilla"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "kultaa"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "Kirjoitus"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "Efekti"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "Maali"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "Yksinumeroinen luku"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "Kaksinumeroinen luku"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "Kolminumeroinen luku"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "Koriste"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "Tyyli"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "Krediittejä lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "Krediittejä veloitettiin saldostasi"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "Miehistökirjoja lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "miehistö lähetetty kasarmille"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "miehistö %d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "Miehistöskinejä lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "Miehistöskinejä poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "miehistö %d%% lähetetty kasarmille"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "miehistö poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "Arvopapereita saatu"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "Arvopapereita poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "Henkilökohtaiset alennukset"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "Palkintoja lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "Palkintoja poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "Kokeellisia moduuleja lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "Kokeelliset moduulit poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "Lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "Poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "Komponentteja lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "Komponentteja poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "Kulutustarvikkeet"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "Kulutustarvikkeita poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "Vuosipäiväkolikoita lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "Vuosipäiväkolikoita poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "Vanhenevat henkilökohtaiset reservit"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "Käskyjä lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "Käskyjä vähennetty"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "Vapaata kokemusta"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "Vapaata kokemusta lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "Vapaata kokemusta vähennetty"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "Kultaa lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "Kultaa vähennetty"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "Yleisiä palasia lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "Yleisiä palasia poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "Kuitti"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "Lisätty varastoon"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "Kulutustarvikkeita poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "Vaunuissa"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "Lisätty %(nationName)s vaunujen piirustusten palasia "
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "Poistettu %(nationName)s vaunujen piirustusten palasia"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "Lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "Poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "kpl"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "Wargaming premium-tilin päiviä lisättty"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "Wargaming premium-tilin päiviä vähennetty"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "Wargaming premium-tili"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "%(vehicleName)s sai %(xpCount)s eliittipistettä."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "%(vehicleName)s sai eliittitason %(level)s ja %(xpCount)s eliittipistettä."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "%(vehicleName)s sai eliittitason %(level)s."
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "Tavaroita lähteestä"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "Steam DLC"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Steam-inventaario"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "Bonustaisteluita lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "Bonustaisteluita poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "päivää vuokrausta: "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "Tallipaikkoja lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "Tallipaikkoja poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "WoT Premium-tili"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "WoT Premium-tilin päiviä lisättty"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "WoT Premium-tilin päiviä vähennetty"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "Värvätty"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "Lisätty jakamaton kokemus miehistön jäsenille"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "Poistettu jakamaton kokemus miehistön jäseniltä"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "Erotettu"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "kaikki moduulit tutkittu"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "%(vehicleName)s vaunun piirustusten palasia lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "%(vehicleName)s vaunun piirustusten palasia poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "Vaunuja lisätty"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "Vaunuja poistettu"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "Vuokrattuja vaunuja lisätty"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "Sinulle on annettu kulutustarvikkeita: %(typeName)s \"%(itemName)s\" - %(amount)d kappale(tta)."
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "Paketteihin"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "Klikkaa nappia nähdäksesi sisällön."
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "Olet saanut paketin:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Näytä"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "Aktivoidut portit: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "Porttien aktivoiminen"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "Saadut tavarat:\n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "Aktivoimme kaikki porttisi ja lisäsimme niiden sisällön tilillesi:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Palkintoja saatu"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Avasimme kaikki pakettisi ja lisäsimme Lomaoperaation palkinnot"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "Palkintoja saatu"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "Koristeita lisätty: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "Koriste lisätty: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "Kyselyyn"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "Onneksi olkoon!"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "Tiedustelutehtävä on päättynyt. Kiitos panoksestasi uusien karttojen kehittämisessä!"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "Tiedustelutehtävä on päättynyt.\n\nKiitos panoksestasi uusien karttojen kehittämisessä!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "Tiedustelutehtävä on alkanut.\n\nTaistele kehitteillä olevilla kartoilla tasojen VIII–X vaunuilla, jaa mielipiteesi kyselyiden kautta ja saat palkintoja!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "Loppupalkinto:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "Olet taistellut %(battles)s taistelua tiedustelutehtävässä."
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "Palkinto saatu:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "Voit osallistua kyselyyn pelimuodon mekaniikoista Tiedustelutehtävässä."
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "Kysely saatavilla"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "Voit osallistua kyselyyn koskien tiedustelutehtävän %(mapName)s karttaa."
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "Mene kasarmeille"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "Miehistön jäseniä poistettu: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "Kotirintaman tarvikkeita"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "Varusteavustaja on saatavilla"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "Varusteavustaja ei ole saatavilla"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "Sinulla on uusia reservejä:"
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "Ilmoitus uudistuksesta"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "Reservit, jotka ovat vanhenemassa:"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "Vanhenevat reservit, jotka ollaan menettämässä"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "Krediittejä saatu: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "Päiväys: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "Rahasiirto:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "Lisätty varikolle: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "Kuitti"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "Uusi kertymisjakso aloitettu."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "Uusi keruusykli alkoi. Aktivoi WoT Premium-tili ansaitaksesi krediittejä."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "Uusi keruusykli alkoi. Tilaa WoT Plus ansaitaksesi kultaa."
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "Krediittien kertyminen krediittivarastoon on keskeytetty."
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "Krediittivarasto avautui!"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "Ota vastaan palkkio"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "Jälkiedistyminen suoritettu!"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "Edistymiseen"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "Jälkiedistyminen"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "Olet saanut pääsyn erikoispalkintoon."
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "Klaanitaistelu"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "Taistelutulokset"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "Turnaus"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "Tappio"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "Tasapeli"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "Tuloksia ei ole määritelty"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "Voitto!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "Poistettu omistajan toimesta"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "Tekninen häiriö"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "Sinut on poistettu"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "Tekninen tappio"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "Tekninen tasapeli"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "Tuloksia ei ole määritelty"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "Tekninen voitto!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "Aikalisä päättynyt"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "Valmis"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(taistelu %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "Välitulos"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "Tulokset"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "Wargaming premium-tiliä saatu. Päättymiseen %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "Wargaming premium-tiliä muutettu. Päättymiseen %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "Wargaming premium-tili on päättynyt."
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "Wargaming premium-tiliä jatkettu. Päättymiseen %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "WoT Premium-tiliä saatu. Päättymiseen %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "WoT Premium-tiliä muutettu. Päättymiseen %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "WoT Premium-tili on päättynyt."
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "WoT Premium-tiliä jatkettu. Päättymiseen %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "Sinulle on myönnetty Wargaming premium-tiliä %(days)d päiväksi."
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "Eliittijärjestelmään"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "Saadut eliittitasot ja eliittimerkit."
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "Eliittijärjestelmä"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "Vaunuihin"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "Eliittitaso saatu"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "Tapahtui virhe eliittipalkintoa lunastettaessa."
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "%(rewardName)s %(typeReward)s saatu eliittitason %(lvl)s saavuttamisesta."
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "Eliittipalkinto saatu"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "Huomio!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "Lisätiedot"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "Maastokuvio"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "koriste"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "tunnus"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "Kirjoitus"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(level)s\"%(name)s\" -%(typeName)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "Ja %(count)s lisää"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr "Tason %(level)s "
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "maali"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "koriste"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "Saatu:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "\"%(name)s\" -tyyli"
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "Onneksi olkoon!"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "Tiedot"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "Suorituspalkinto"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "Taistele ja saat palkintoja. Mitä enemmän taistelet, sitä lähempänä olet palkintoja."
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "Edistynyt palkinto saatu:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "Tiedot"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "%(surplusPoints)sluokituspoletti(a) muunnettu %(count)s arvopaperiksi."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "Onneksi olkoon!"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "Maksimipalkinto saatu:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "Tavallinen palkinto saatu:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "Pieni palkinto saatu:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "Ansaitsit %(points)s luokituspolettia 2021–2022."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "Vuosittainen palkinto"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "Täydennykset ovat saapuneet!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "Sait miehistön \"%(event)s\" -tapahtumasta."
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "Sinulla on värväämättömiä miehistönjäseniä: %(count)s. Seuraava poisto %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "Sinulla on värväystä odottavia miehistön jäseniä: %(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "Arvomerkit poistettu"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "Hyvitys"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "Krediittejä lisätty %(vehicleName)s vuokravaunun käyttämättömästä ajasta"
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "Kultaa lisätty %(vehicleName)s vuokravaunun käyttämättömästä ajasta"
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "%(vehicleName)s vaunun vuokra-aika on päättynyt."
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "Piirustusten palaset: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "Krediitit: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "Arvopaperit: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "Lisätiedot"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "Vapaa kokemus: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "Kulta: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "yleiset palaset"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "Tämän hetkinen edistyminen: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "Rakennuspajan projektiin käytetyt resurssit:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "Käytetyt resurssit"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "Kulutetut resurssit"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "Rakennuspajasta palautetut resurssit:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "Resurssien palauttaminen"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "Koulutusvihkoja valittavaksi"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "Koulutusoppaita valittavaksi"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "Maastokuvion"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "%s toimintaa on jatkettu huoltotoimenpiteiden takia."
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "Tunnuksen"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "Kirjoitusten"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "Wargaming premium-tilisi"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "WoT Premium-tilisi"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "Vuokra"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "Pelipalvelimen yhteys katkeaa %(date)s."
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "Pelipalvelimen yhteyden katkaisu peruttiin, yhteyden katkaisua suunnitellaan %(date)s."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "Palvelushistorian muokkaaminen on saatavilla"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "Tämä ominaisuus on hyllytetty."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "Palvelushistorian muokkaaminen ei ole tällä hetkellä saatavilla"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "Yleinen palanen (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "Kansallinen palanen (%(nationName)s) (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "Erikoispalkinto"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "Piirustuksen palanen %(vehicleName)s vaunulle (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "Palkinto sähköpostin vahvistamisesta:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "Onneksi olkoon!"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "Saatu hyvitys jo tutkittujen vaunujen piirustusten palasista:"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "Maastokuvio vaihdettu"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "Krediittejä saatu: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "Krediittejä vähennetty: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "Arvopapereita: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "Arvopapereita: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "Ulkoisia elementtejä muutettiin."
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "Muokkauselementtiä muutettiin. Elementtejä ostettiin: %(count)s. Käytit %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "Tunnukset vaihdettu"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "Vuosipäiväkolikoita lisätty: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "Vuosipäiväkolikoita poistettu: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "Vapaata kokemusta saatu: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "Vapaata kokemusta vähennetty: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "Kultaa saatu: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "Kultaa vähennetty: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "Kirjoitukset vaihdettu"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "Yleisiä palasia"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "Kansalliset %(nationName)s palaset"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "Päivityksen myötä kaikki koristeet poistettiin vaunuista ja lähetettiin varastoon \"Ulkonäkö\" -osastoon."
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "Tallipaikkoja lisätty: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "Tallipaikkoja poistettu: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "Huomio!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "Vaunuja lisätty: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "Vaunuja poistettu: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "Seuraavat muokkauselementit ostettiin:\n%(items)s\nKäytettiin %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "\"%(itemName)s\" %(itemType)s ostettiin onnistuneesti.\nKäytettiin %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "\"%(name)s\" -tyylin taso %(level)s ostettiin onnistuneesti.\nKulutettiin %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "Vaunun muokkauselementtejä vaihdettiin."
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "\"%(itemName)s\" %(itemType)s (%(count)s kappale(tta))"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "Tason %(level)s \"%(styleName)s\" -tyyli"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "Muokkauselementtejä poistettiin vaunusta."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "Onneksi olkoon!\nKehittyvät koristeet mahdollistavat esiasetettujen tyylien säätämisen %(vehicleName)s vaunulle."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "Onneksi olkoon!\nSait tason I \"%(itemName)s\" koristeen %(vehicleName)s vaunulle."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "Onneksi olkoon!\nSait tason I \"%(itemName)s\" koristeen."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "Tason %(level)s \"%(itemName)s\" koriste %(vehicleName)s vaunulle saavutettu."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "Ulkonäköön"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "Tason %(level)s \"%(itemName)s\" koriste saavutettu."
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Kulutettiin: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "Aavikko-kartta: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "Kesäkartta: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "Talvikartta: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Saatiin: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "Varuste purettu"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "Ulkonäköön"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "Moduulien korvaamisen takia seuraavat muokkauselementit poistettiin %(vehicle)s vaunusta."
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "Muokkaus:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "Varuste purettu"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "Irrotettu:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "Virhe:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "Rahasiirto:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "Myydään tavaroita varastosta:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "Maksutapa \"%(method)s\" lisättiin"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "Maksutapa \"%(method)s\" poistettiin"
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "Tutkittu:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "Ostettu:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "Poistettu tallista:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "Korjaukset:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "Palautettu:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "Myyty:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "Varusteen päivitys"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "Sinulle on myönnetty WoT Premium-tiliä %(days)d päiväksi."
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "Reserveihin"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "Maastokuviointi vaunulla %(vehicleName)s on erääntynyt."
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "Tunnus vaunulla %(vehicleName)s on erääntynyt."
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "Kirjoitus vaunulla %(vehicleName)s on erääntynyt."
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "Kokoelma saatavilla"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "Onneksi olkoon!\nOlet tutkinut %(nation)s tason %(level)s vaunun. Voit nyt ostaa saman tason ja kansakunnan keräilijöiden vaunuja kaupasta."
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "Vaunu tuhoutui. %(vehicleName)s on saatavilla klaanitaisteluihin %(expireTime)s."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "Lukitus poistettu. %(vehicleName)s on saatavilla klaanisotiin."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Kaikki %(vehicle)s vaunun kaksoismuokkaus peruutettiin."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "Muokkaukset peruutettu"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "pois käytöstä"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "käytössä"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "Varusteiden ja direktiivien vaihtaminen taistelun lähtölaskennan aikana vaunulle %(tankName)s on %(state)s."
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "Ammusten ja kulutustarvikkeiden vaihtaminen taistelun lähtölaskennan aikana vaunulle %(tankName)s on %(state)s."
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "Sinulle on myönnetty premium-vaunu: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "Vaunun vuokraaminen ei onnistu. Ei riittävästi rahaa."
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "%(vehicleName)s vaunu vuokrattu. Vuokra-aika päättyy: %(expiryTime)s."
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "Lukitukset poistettu. Vaunut ovat käytettävissä klaanitaisteluun."
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "Pelaaja %(srcName)s siirsi %(srcWares)s kultaa tilillesi."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s kultaa siirretty pelaajalle %(dstName)s. Maksu: %(fee)s."
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "Alennus tason %(level)s vaunusta"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "Palkinto \"Takaisin toiminnassa\" edistymisen suorittamisesta saatu:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "Valitse palkinto"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "Alennus tason %(level)s vaunusta"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% ja %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "Alennus ostamiseen ja tutkimiseen lisättiin: "
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "Onneksi olkoon!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "Tason %(level)s vaunu"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "Valitse palkinnot saatavilla olevista kategorioista."
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "Valitse"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "Palkintoja saatu!"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "Taistelupassi Plussan edut on hyllytetty."
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "Taistelupassi Plus ei ole tällä hetkellä saatavilla"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "Taistelupassi Plus on saatavilla"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "Jatka peliin kirjautumista saadaksesi lisää palkintoja!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "Erityinen läsnäolopalkinto saatu!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "Sykli valmis"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "Kirjaudu peliin ja saat palkintoja."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "Sykli alkoi!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "Läsnäolopalkinto"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "Palaa toisena päivänä saadaksesi uuden palkinnon!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "Läsnäolo kirjattu!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "Läsnäolopalkinnot on toistaiseksi keskeytetty."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "Läsnäolopalkinnot eivät ole saatavilla"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "Läsnäolopalkinnot saatavilla"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "Eksklusiivinen %(vehicleType)s <font color='#E9E2BF'>%(vehicleName)s</font> on saatavilla"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "<font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s, jonka saa vain WoT Plussalla, ei ole tällä hetkellä saatavilla."
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "WoT Plussan perusversio vanheni %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "Ilmainen varusteiden irrotus ei ole saatavilla"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "Jatka WoT Plussaa saadaksesi taas sen kaikki hyödyt."
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "WoT Plus päättyi %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "WoT Plus Pro vanheni %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "Kullan kertyminen on katkaistu"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "Kultavarasto ei ole tällä hetkellä saatavilla"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "Kultareservi on saatavilla"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "Kultareservi on täynnä: et voi kerryttää enempää kultaa"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "Kultavarasto avautui!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "Kaikki edut ovat nyt saatavilla.\nUusitaan: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "Uusitaan uudelleen: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "180 päivän tilauksesi on nyt aktiivinen. Nauti!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "360 päivän tilauksesi on nyt aktiivinen. Nauti!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "180 päivän tilauksesi on nyt aktiivinen. Nauti!\nUusitaan: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "360 päivän tilauksesi on nyt aktiivinen. Nauti!\nUusitaan: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "Miehistön intensiivikoulutus on lakannut toimimasta <font color='#E9E2BF'>%(vehicleName)s</font> vaunulle. Tarkasta vaunun miehistö."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "Yksi tai useampi <font color='#E9E2BF'>%(vehicleName)s</font> vaunun miehistön jäsen ei kelpaa miehistön intensiivikoulutukseen eikä kerää miehistökokemusta."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "Miehistön intensiivikoulutus"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "Miehistön intensiivikoulutus otettu käyttöön %(vehicleName)s vaunun miehistön jäsenille."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "Miehistön intensiivikoulutus otettu pois käytöstä %(vehicleName)s vaunun miehistön jäseniltä."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "Miehistökokemuksen kertyminen on keskeytetty."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "Miehistön intensiivikoulutus ei ole tällä hetkellä saatavilla"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "Miehistön intensiivikoulutus on saatavilla"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "Valitse vaunu, joka saa ilmaisen bonuksen miehistökokemukseen."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "Miehistön intensiivikoulutus vaihdettiin <font color='#E9E2BF'>%(oldVehName)s</font> vaunulta <font color='#E9E2BF'>%(newVehName)s</font> vaunuun. <font color='#E9E2BF'>%(oldVehName)s</font> vaunun miehistö lakkasi kerryttämästä kokemusta."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "Miehistön intensiivikoulutuksen kohdetta vaihdettu"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "Miehistön kokemusbonusta ei voida käyttää yhdelle tai useammalle miehistön jäsenelle."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "Sinulta jää väliin arvokasta miehistökokemusta!"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "Voit vaihtaa valintaasi taas %(cooldown)s tunnin kuluttua."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "Pro-boosti aktivoitu %(vehicleName)s vaunulle"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "Voit boostata halutessasi toista vaunua."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "Pro-boosti poistettu käytöstä %(vehicleName)s vaunulta"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "Pro-boostin lisäansiot on hyllytetty."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "Pro-boosti ei ole tällä hetkellä saatavilla"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "Pro-boosti on saatavilla"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)s ei ole enää boostattu. Voit vaihtaa valintaasi uudelleen %(cooldown)s tunnin kuluttua."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "Pro-boosti vaihdettu %(vehicleNameTo)s vaunuun"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "WoT Plussan uusimispäivä muutettu"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "Valitse vuokrattava vaunu listalta."
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "Vuokravaunua ei ole valittu"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "%(vehicle)s lisätään pian tilillesi."
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "Vuokrattu!"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "Nämä edut on poistettu käytöstä."
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "WoT Plus ei ole saatavilla"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "WOT PLUS PERUSVERSIO AKTIVOITU"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "Ilmainen varusteiden irrottaminen on saatavilla"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "WOT PLUS AKTIVOITU"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT Plus Pro"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "WoT Plus päivitetty Proksi!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "Jatka"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "Sinulle on myönnetty %(freeXP)s vapaata kokemusta."
+
+msgid "status/offline"
+msgstr "Offline"
+
+msgid "status/online"
+msgstr "Online"
+
+msgid "xmpp_error/action"
+msgstr "\"%(actionName)s\" toiminnon suorittaminen ei onnistu. Yritä myöhemmin uudelleen."
+
+msgid "xmpp_error/simple"
+msgstr "Yritä myöhemmin uudelleen."
+
+msgid "xmpp_error/user_room_creation"
+msgstr "Ei voida luoda pelaajakanavaa\"%(strArg1)s\"."

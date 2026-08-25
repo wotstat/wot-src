@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: <language team name> <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "Nogludināšana"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "Nosaka spēļu objektu plāno līniju un kontūru papildu apstrādes pakāpi. Samazina aliasing efektu.\n\n• Augsts—FXAA\n• Maksimāla—Temporal Supersampling Antialiasing (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "Dinamiska regulēšana"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "Iespējojiet vai atspējojiet automātisko 3D renderēšanas izšķirtspējas pielāgošanu atkarībā no videokartes slodzes.\n\nŠī parametra iespējošana var uzlabot spēles veiktspēju. Renderēšanas izšķirtspēja Garāžā vienmēr paliek nemainīga."
+
+msgid "EFFECTS_QUALITY"
+msgstr "Papildus efektu kvalitāte"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "Nosaka rikošetu dzirksteļu, sprādzienu, dūmu un citu vizuālo efektu atainošanas kvalitāti.\n\nVērtības samazināšana var uzlabot spēles ātrdarbību."
+
+msgid "FAR_PLANE"
+msgstr "Atainošanas attālums"
+
+msgid "FAR_PLANE/description"
+msgstr "Nosaka reljefa detaļu, ēku, pretinieku bruņutehnikas un citu objektu atainošanas attālumu."
+
+msgid "FLORA_QUALITY"
+msgstr "Zāles blīvums"
+
+msgid "FLORA_QUALITY/description"
+msgstr "Nosaka zāles blīvumu pamata un snaipera režīmā."
+
+msgid "HAVOK_ENABLED"
+msgstr "Uzlabota sagrūšanas fizika"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "Izslēgts"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "Ieslēgts"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "Ieslēdz detalizētāku un reālistiskāku objektu iznīcicības apstrādi kartēs.\n\nŠī iestatījuma atslēgšana var uzlabot spēles ātrdarbību."
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "Šis iestatījums tiks pielietots nākamajā kaujā, ja pašreizējā kaujā tas tiek izslēgts."
+
+msgid "LANGUAGE_CODE"
+msgstr "lv"
+
+msgid "LIGHTING_QUALITY"
+msgstr "Apgaismošanas kvalitāte"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "Apgaismojuma, saules staru un optisko efektu aprēķināšanas precizitāte.\n\nVērtības palielināšana var ievērojami palielināt video kartes noslodzi."
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "Izplūduma efekta kustībā kvalitāte"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "Nosaka attēla izplūduma efekta kvalitāti, kad bruņutehnika atrodas kustībā un kamera rotē."
+
+msgid "MSAA_QUALITY"
+msgstr "Nogludināšana"
+
+msgid "MSAA_QUALITY/description"
+msgstr "Nosaka papildus apstrādes līmeni plānām līnijām un spēles objektu kontūrām. Samazina robojuma efektu.\n\n• Zems – MSAA 2x\n• Vidējs – MSAA 4x\n• Augsts – MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "Objektu detalizācija"
+
+msgid "OBJECT_LOD/description"
+msgstr "Nosaka atainoto objektu skaitu un kvalitāti."
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "Pēcapstrāde"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "Nosaka pēcapstrādes kvalitāti vizuālajiem efektiem: karstam gaisam un triecienviļņiem, hromatiskai aberācijai, vinjetei, filmu graudainuma u.tml. efektiem.\n\nVērtības samazināšana var uzlabot spēles ātrdarbību."
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "Grafika"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "Uzlabots: nodrošina maksimālu attēla kvalitāti.\n\nVienkāršots: nodrošina maksimālu veiktspēju, vienkāršojot vai atspējojot dažus vizuālos efektus."
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "Grafika:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "Izmaiņas šajā parametrā stāsies spēkā pēc spēles restartēšanas."
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "Lapotņu caurspīdīgums"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "Nosaka, kā tiek atainotas tuvāko koku un krūmu lapotnes.\n\nJa parametrs tiek izslēgts, tuvāko koku un krūmu lapotnes nav redzamas vispār. Tas var uzlabot spēles ātrdarbību."
+
+msgid "SHADER_VERSION_CAP"
+msgstr "Ēnotāja versija"
+
+msgid "SHADOWS_QUALITY"
+msgstr "Ēnu kvalitāte"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "Nosaka dinamisko ēnu apstrādes kvalitāti visā redzamības attālumā.\n\nVērtības samazināšana var uzlabot spēles ātrdarbību."
+
+msgid "SMOKE_ENABLED"
+msgstr "Dūmi"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "Papildus efektu kvalitāte snaipera režīmā"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "Nosaka rikošetu dzirksteļu, sprādzienu, dūmu un citu vizuālo efektu atainošanas kvalitāti snaipera režīmā.\n\nVērtības samazināšana var uzlabot spēles ātrdarbību."
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "Atainot zāli snaipera režīmā"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "Ataino zāli snaipera režīmā.\n\nParametra izslēgšana var uzlabot spēles ātrdarbību."
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "Apkārtnes teselācija snaipera režīmā"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Palielina apkārtnes kvalitāti snaipera režīmā 50 metru attālumā no jūsu bruņutehnikas. Darbojas tikai tad, ja ir ieslēgta opcija „Apkārtnes teselācija”.\n\nŠī parametra atslēgšana var uzlabot spēles ātrdarbību."
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "Veģetācijas kvalitāte"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "Nosaka koku, krūmu un zāles atainošanas kvalitāti."
+
+msgid "TERRAIN_QUALITY"
+msgstr "Apvidus kvalitāte"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "Nosaka kartes reljefa detaļu atainošanas kvalitāti.\n\nIzmantojiet zemu apvidus kvalitāti tikai zemas datorsistēmas veiktspējas gadījumā.\n\nVērtības samazināšana var novest pie apkārtnes atainošanas nesakritībām klienta un servera pusē."
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "Parametra pielietošana var aizņemt ilgu laiku."
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "Apkārtnes teselācija"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Ar aparatūras paātrinājumu veikts process, kas pievieno jaunus trijstūrus daudzstūra režģim, lai uzlabotu tā detalizāciju.\n\nŠī funkcija darbojas tikai ar:\n• Uzlabota grafika\n• Augsta, Maksimāla vai Ultra Reljefa Kvalitāte\n• Instalēts DirectX 11\n\nIestatījumu izmaiņas nav pieejamas ar versijām, kas vecākas par DirectX 11.\n\nŠī parametra atspējošana var uzlabot spēles veiktspēju."
+
+msgid "TEXTURE_QUALITY"
+msgstr "Tekstūru kvalitāte"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "Spēles objektu virsmu kvalitāte, it sevišķi novērojot tos tuvumā.\n\nVērtības samazināšana var uzlabot spēles ātrdarbību."
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "Parametra pielietošana var aizņemt ilgu laiku."
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "Kāpurķēžu Fizika"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "Nosaka fizikas simulācijas kvalitāti salauztām un funkcionējošām kāpurķēdēm, kā arī kāpurķēžu detaļas.\n\nŠī parametra samazināšana vai izslēgšana var uzlabot spēles veiktspēju."
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "Ieslēgt kāpurķēžu efektus"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "Ataino zemes, sniega un ūdens šļakatas aiz kāpurķēdēm.\n\nParametra izslēgšana var uzlabot spēles ātrdarbību."
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "Ieslēgt kāpurķēžu pēdas"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "Attēlo kāpurķēžu un riteņu nospiedumus uz zemes.\n\nNav pieejams ar Vienkāršotu Grafiku un Zemu Uzlīmju Kvalitāti."
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "Paslēpt 3D pielikumus snaipera režīmā"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "Uz laiku paslēpj tanka 3D pielikumus no ieroča tēmēkļa snaipera režīmā.\n\n Samazina vizuālo traucējumu un uzlabo mērķēšanas precizitāti."
+
+msgid "WATER_QUALITY"
+msgstr "Ūdens kvalitāte"
+
+msgid "WATER_QUALITY/description"
+msgstr "Nosaka ūdens virsmu atainošanas kvalitāti."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "Tikai vājais bruņojums"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "Ja lukturītis ir aktivizēts, tas izceļ tikai vāju bruņu.\n\nBruņa ar augstu caursišanas iespēju tiek izcelta spilgti zaļā krāsā, bet bruņa ar vidēju caursišanas iespēju—daļēji caurspīdīgā zaļā krāsā. Krāsas var atšķirties krāsu neredzības režīmā."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "Izgaismot Tikai Vājo Bruņu"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "Tikai stiprais bruņojums"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "Ja ieslēgts, lukturis izceļ tikai stipro bruņu.\n\nBruņas ar zemu līdz nullei caursišanas iespēju tiek izceltas ar piesātināti sarkanu, bet bruņas ar vidēju caursišanas iespēju — ar daļēji caurspīdīgi sarkanu. Krāsas var atšķirties krāsu neredzības režīmā."
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "Izgaismot Tikai Stipro Bruņu"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "Visa bruņa"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "Ja ieslēgts, lukturis izceļ visas mērķa bruņas.\n\nBruņas ar zemu līdz nullei caursišanas iespēju tiek izceltas sarkanā krāsā, bruņas ar augstu caursišanas iespēju—zaļā krāsā, bet bruņas ar vidēju caursišanas iespēju—dzeltenā. Krāsas var atšķirties krāsu neredzības režīmā."
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "Izgaismot Visu Bruņu"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "Bruņas Izgaismošana"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "Ieslēgt kaujas sākumā"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "Noklusējuma lukturīša statuss kaujas sākumā. To var ieslēgt vai izslēgt jebkurā brīdī ar piešķirto taustiņu.\n\nIeslēgtā stāvoklī Lukturītis darbojas tikai Snaipera režīmā.\n\nAtbalstītie režīmi:\n• Nejaušās kaujas un Komandu apmācība;\n• Frontes līnija;\n• Arkādes cīņas;\n• Uzbrukums;\n• Citi režīmi un notikumi.\n\nNākotnē iespējams papildu atbalsts."
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "Ieslēgt Kaujas Sākumā"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "Lukturīša Tekstūra"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "Vienmērīgs"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "Retināts Raksts"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "Blīvs Raksts"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "Caurspīdīgums"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "Brīdinājums par Veiktspēju"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "Augsta"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "Zema"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "Vidējs"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "Lukturīša Izšķirtspēja"
+
+msgid "aim/cassette"
+msgstr "Magazīnas"
+
+msgid "aim/centralTag"
+msgstr "Centrālais marķieris"
+
+msgid "aim/centralTag/type0"
+msgstr "A-veida I"
+
+msgid "aim/centralTag/type1"
+msgstr "A-veida II"
+
+msgid "aim/centralTag/type10"
+msgstr "O-veida I"
+
+msgid "aim/centralTag/type11"
+msgstr "O-veida II"
+
+msgid "aim/centralTag/type12"
+msgstr "A-veida IV"
+
+msgid "aim/centralTag/type13"
+msgstr "A-veida V"
+
+msgid "aim/centralTag/type2"
+msgstr "A-veida III"
+
+msgid "aim/centralTag/type3"
+msgstr "V-veida"
+
+msgid "aim/centralTag/type4"
+msgstr "Krustiņš I"
+
+msgid "aim/centralTag/type5"
+msgstr "Krustiņš II"
+
+msgid "aim/centralTag/type6"
+msgstr "T-veida"
+
+msgid "aim/centralTag/type7"
+msgstr "I-veida"
+
+msgid "aim/centralTag/type8"
+msgstr "Punktiņš I"
+
+msgid "aim/centralTag/type9"
+msgstr "Punktiņš II"
+
+msgid "aim/condition"
+msgstr "Stāvoklis"
+
+msgid "aim/gunTag"
+msgstr "Lielgabala marķieris"
+
+msgid "aim/gunTag/type0"
+msgstr "A-veida I (ar cauršaušanas indikatoru)"
+
+msgid "aim/gunTag/type1"
+msgstr "A-veida II (ar pārlādēšanas indikatoru)"
+
+msgid "aim/gunTag/type10"
+msgstr "O-veida II (ar pārlādēšanas indikatoru)"
+
+msgid "aim/gunTag/type11"
+msgstr "O-veida III"
+
+msgid "aim/gunTag/type12"
+msgstr "A-veida IV (ar cauršaušanas indikatoru)"
+
+msgid "aim/gunTag/type13"
+msgstr "A-veida V (ar pārlādēšanas indikatoru)"
+
+msgid "aim/gunTag/type14"
+msgstr "A-veida VI"
+
+msgid "aim/gunTag/type2"
+msgstr "A-veida III"
+
+msgid "aim/gunTag/type3"
+msgstr "Krustiņš I (ar cauršaušanas indikatoru)"
+
+msgid "aim/gunTag/type4"
+msgstr "Krustiņš II (ar cauršaušanas indikatoru)"
+
+msgid "aim/gunTag/type5"
+msgstr "Krustiņš III"
+
+msgid "aim/gunTag/type6"
+msgstr "Punktiņš I (ar cauršaušanas indikatoru)"
+
+msgid "aim/gunTag/type7"
+msgstr "Punktiņš II (ar pārlādēšanas indikatoru)"
+
+msgid "aim/gunTag/type8"
+msgstr "Punktiņš III"
+
+msgid "aim/gunTag/type9"
+msgstr "O-veida I (ar cauršaušanas indikatoru)"
+
+msgid "aim/mixing"
+msgstr "Tēmēšana"
+
+msgid "aim/mixing/type0"
+msgstr "Aplis I (ar aizpildošos pārlādēšanas indikatoru) "
+
+msgid "aim/mixing/type1"
+msgstr "Aplis II (ar pārslēdzošos pārlādēšanas indikatoru)"
+
+msgid "aim/mixing/type2"
+msgstr "Aplis III (bez pārlādēšanas indikatora)"
+
+msgid "aim/mixing/type3"
+msgstr "Aplis IV (pilns)"
+
+msgid "aim/mixing/type4"
+msgstr "Krustiņš (ar cauršaušanas indikatoru)"
+
+msgid "aim/mixing/type5"
+msgstr "Krustiņš II"
+
+msgid "aim/mixing/type6"
+msgstr "Testa"
+
+msgid "aim/net"
+msgstr "Indikators"
+
+msgid "aim/net/type0"
+msgstr "Diagonālā"
+
+msgid "aim/net/type1"
+msgstr "Horizontāls"
+
+msgid "aim/net/type2"
+msgstr "Radiāls"
+
+msgid "aim/net/type3"
+msgstr "Punktains"
+
+msgid "aim/reloader"
+msgstr "Pārlādēšana"
+
+msgid "aim/reloaderTimer"
+msgstr "Pārlādēšanas taimeris"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "Maiņa uz Artilērijas Tēmēšanu"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "Pēdējais Izmantotais"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "Skats no augšas"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "Trajektorijas skats"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "Automātiska Tēmēšanas Režīma Maiņa"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "Ritinot peles riteni un sasniedzot noteiktu tālummaiņas vērtību, mērķis mainīsies uz \"skatu no augšas\" vai \"trajektorijas skatu\"."
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "Automātiska Tēmēšanas Režīma Maiņa"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "Gluda kameras tālummaiņa"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "Rādīt šaušanas līnijas indikatorus"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "Rādīt/slēpt indikatorus, kas rāda, vai izvēlētā čaulīte sasniegs mērķa punktu. Tie arī rāda čaulītes lidošanas ātrumu."
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "Uguns Līnijas Indikators"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "Rādīt kameras pozīcijas indikatoru"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "Rādīt/slēpt indikatoru, kas rāda artilērijas tēmēšanas kameras tālummaiņas līmeni."
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "Kameras Pozīcijas Indikators"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "Kameras Kontrole"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "Alternatīvais"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "Standarta"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "Standarta kameras kontroles režīmā, kamera pārvietojas uz augšu, uz leju, pa kreisi, pa labi. Alternatīvajā kameras kontroles režīmā, kamera kustās uz priekšu, uz atpakaļu un apkārt Artilērijas pozīcijai."
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "Kameras Kontrole"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "Pietuvinājuma indikators"
+
+msgid "alternativeVoices/labels"
+msgstr "Balss paziņojumi kaujā"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Balss paziņojumi kaujās"
+
+msgid "apply_button"
+msgstr "Pielietot"
+
+msgid "autodetectButton"
+msgstr "Ieteicamā"
+
+msgid "autodetectButton/description"
+msgstr "Nosaka optimālo grafikas kvalitāti jūsu datorsistēmai.\n\nTas var aizņemt kādu laiku."
+
+msgid "battlecomm/enableCommendations"
+msgstr "Saņemiet atzinumus kaujā"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "Rādīt personīgās komandas"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "Norādīt komunikāciju komandas panelī"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "Rādīt vietu marķierus uz kartes"
+
+msgid "battlecomm/showMarkers"
+msgstr "Rādīt bāzu marķierus Nejaušajās Kaujās"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "Rādīt pastāvīgos marķierus"
+
+msgid "borderlessSize"
+msgstr "Loga režīms (bez rāmja)"
+
+msgid "borderlessSize/description"
+msgstr "Loga režīms (bez rāmja)"
+
+msgid "cancel_button"
+msgstr "Atcelt"
+
+msgid "chat/censorshipMessages"
+msgstr "Ieslēgt lamuvārdu cenzūru čata ziņojumos"
+
+msgid "chat/chatContactsListOnly"
+msgstr "Saņemt ziņojumus tikai no spēlētājiem kontaktu sarakstā"
+
+msgid "chat/disableBattleChat"
+msgstr "Izslēgt čatu ar sabiedrotajiem"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "Atcerēties kanālu logu pozīcijas un izmērus"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "Atcerēties citu logu pozīcijas un izmērus"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "Saņemt angārā ielūgumus tikai no draugiem"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "Saņemt klana paziņojumus"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "Pieņemt draudzības uzaicinājumus"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "Saņemt kaujā ielūgumus pievienoties vadam"
+
+msgid "chat/removeSpam"
+msgstr "Paslēpt spamu"
+
+msgid "chat/showDateMessage"
+msgstr "Rādīt ziņojumu datumu"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "Rādīt spēlētāju pieslēgšanos/atslēgšanos"
+
+msgid "chat/showTimeMessage"
+msgstr "Rādīt ziņojumu laiku"
+
+msgid "colorCorrection"
+msgstr "Krāsu pieregulēšana"
+
+msgid "colorCorrectionBtn/label"
+msgstr "Konfigurēt"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "Pielāgoti iestatījumi"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "Gaišums"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "Kontrasts"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "Piesātinājums"
+
+msgid "colorSettings/tab/default"
+msgstr "Pēc noklusējuma"
+
+msgid "colorSettings/tab/filters"
+msgstr "Gatavi filtri"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "Filtra intensitāte"
+
+msgid "colorSettings/view/after"
+msgstr "Pēc"
+
+msgid "colorSettings/view/before"
+msgstr "Pirms"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "AIZVĒRT"
+
+msgid "colorSettings/view/description"
+msgstr "Izvēlieties vienu no attēla pieregulēšanas opcijām"
+
+msgid "colorSettings/view/header"
+msgstr "Krāsu pieregulēšana"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "Atiestatīt"
+
+msgid "colorSettings/view/subTitle"
+msgstr "Attēla pieregulēšanas opcijas"
+
+msgid "cursor/ArcadeTitle"
+msgstr "Pamata"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "Bruņu Apgaismojums"
+
+msgid "cursor/ArtyTitle"
+msgstr "Artilērija"
+
+msgid "cursor/ContourTitle"
+msgstr "Kontūra"
+
+msgid "cursor/ServerAim"
+msgstr "Izmantot servera tēmekli"
+
+msgid "cursor/SnipperTitle"
+msgstr "Snaipera"
+
+msgid "cursor/contour/type0"
+msgstr "Standarta"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "Tēmējot uz pretinieku tanku, tā visa kontūra tiek iezīmēta, ieskaitot piemērotos ne-bruņu elementus, ar kuriem čaulītes nevar mijiedarboties."
+
+msgid "cursor/contour/type1"
+msgstr "Vienkāršots"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "Tēmējot uz pretinieku tanku, daļa no tā kontūras tiek iezīmēta, ieskaitot tikai bruņu elementus, ar kuriem čaulītes var mijiedarboties."
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "Necauršaujama zona"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "Neviens"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "Pildījums"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "Tekstūra"
+
+msgid "cursor/contourLabel"
+msgstr "Kontūras Tips"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "Cauršaujama zona"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "Neviens"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "Pildījums"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "Tekstūra"
+
+msgid "cursor/overlapContour"
+msgstr "Šķēršļi renderēšana"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "Renderēšanas ieslēgšana var samazināt sniegumu."
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "Čaulīšu šķēršļu parādīšana tēmējot uz pretinieku tanku.\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "Šķēršļi Renderēšana"
+
+msgid "cursor/overlapContourLabel"
+msgstr "Šķēršļi Renderēšana"
+
+msgid "cursorTitle"
+msgstr "Tēmeklis"
+
+msgid "defaultBtn"
+msgstr "Pēc noklusējuma"
+
+msgid "defaultNamePrefix"
+msgstr "Spēlētājs"
+
+msgid "dynamicCamera"
+msgstr "Ieslēgt dinamisko kameru"
+
+msgid "dynamicFov"
+msgstr "Dinamiskais FoV"
+
+msgid "dynamicFov/description"
+msgstr "Dinamiskais FoV ļauj iestatīt lielāko un mazāko redzes lauka vērtību pamata tēmeklim.\n\nLielākais leņķis tiek lietots, kad kamera ir attālināta no savas bruņutehnikas.\n\nMazākais leņķis tiek lietots, kad kamera ir pietuvināta savai bruņutehnikai."
+
+msgid "dynamicRenderer"
+msgstr "3D rendera izšķirtspēja"
+
+msgid "dynamicRenderer/description"
+msgstr "Nosaka spēles atainošanas kvalitāti un detalizētību.\n\n3D rendera izšķirtspēju kaujā var mainīt ar taustiņu kombinācijām [labais Shift +] un [labais Shift -]. Interfeisu neietekmē.\n\nVērtības samazināšana var uzlabot spēles ātrdarbību datorsistēmās ar vāju video karti."
+
+msgid "edgeDetectAA"
+msgstr "Edge detect AA"
+
+msgid "feedBack"
+msgstr "Kaujas paziņojumi"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "Kartes robeža"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "Bojājumi pēc jūsu veiktas apdullināšanas"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "Bāzes ieņemšanas punkti"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "Bāzes aizsardzības punkti"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "Bojājumi bloķēti"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "Pretinieka aizdedzināšana"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "Kritiski bojājumi"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "Pretinieka atklāšana"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "Bojājumi pa jūsu atklātajiem"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "Bojājumi no šāviena"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "Pretinieka iznīcināšana"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "Bojājumi no taranēšanas"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "Noķēdēšana"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "Notikuma nosaukums"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "Kritisks bojājums"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "Bojājumi"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "Atainot kaujās"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "Informācija par bruņutehniku"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "Bojājumi no trieciena"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "Visas situācijas priekšrocības"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "Kaujā tiek atainoti\ntrīs jaunākie notikumi"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "Kaujas notikumi"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "Paziņojumi"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "Pasākumi"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "Apkalpes Iemaņas"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "Saņemti bojājumi"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "Kaujas efektivitāte"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "Saņemti bojājumi"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "Kartes robežas noslēpšana var novest pie disorientācijas kaujā."
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "Nospiežot Alt"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "Vienmēr iekrāsots"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "Neiekrāsot"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "Tuvojoties"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "Papildus iekrāsošana"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "Punktota līnija"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "Neatainot"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "Robežas veids"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "Siena"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "Apšaudes virziena indikators"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "Draudzīgā uguns"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "Bojājumu apjoms"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "Šāviens nobloķēts"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "Kritisks trāpījums\npa jūsu bruņutehniku"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "x3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "Saņemti bojājumi"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "Ierīce sabojāta"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "Informācija"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "Rādīt animāciju"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "Bojājumu apjoms"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "Dinamiskie indikatori"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "Informācija par bruņutehniku"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "Rādīt kaujās"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "Visus"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "Draudzīgā uguns"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "Kritiski šāvieni"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "Bez kritiskajiem"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "Izvērsts"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "Standarta"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "Tips"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "Žurnāls"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "Pa jūsu apdullinātajiem"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "Bruņu bloķētie"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "Pa jūsu atklātajiem"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "Jūsu izdarītie"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "Atainot vienmēr"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Nospiežot Alt"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "Nerādīt"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "Detalizēti bojājumi"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "Visi notikumi zemāk"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "Saņemtie bojājumi augšpusē"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "Notikumu pozīcija"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "Visi notikumi"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "Notikumu veids"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "Saņemtie bojājumi"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "Kaujas efektivitāte"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "Šo iestatījumu nav vēlams ieslēgt zemas izšķirtspējas ekrāniem"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "Kopējie bojājumi"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "Detalizētu bojājumu bloks. Ataino pilnu informāciju par jūsu efektivitāti kaujā."
+
+msgid "feedback/tab/eventsInfo"
+msgstr "Kaujas notikumi"
+
+msgid "feedback/tab/questsProgress"
+msgstr "Kaujas Atskaite un Misijas"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "Kaujas Rezultāts"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "Misijas Apraksts"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "Rādīt tanku ikonase\npēc līmeņa"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "Rādīt komandas dzīvības\npunktus"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "Rādīt komandas dzīvības\npunktu atšķirību"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "Rādīt komandas dzīvības\npunktu skaitli"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "Parādīt visu"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "Parādīt tikai progresu"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "Alternatīvais"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "Neatainot"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "Standarta"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "Rādīt misijas"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "Redzes lauks (FoV)"
+
+msgid "fov/description"
+msgstr "Spēles kameras redzamības robežas.\n\nIerasts redzes lauks cilvēkiem ir aptuveni 95°. Jo mazāks leņķis, jo tuvāk rādās objekti, bet periferiālais skats – samazinās.\n\nNeietekmē spēles ātrdarbību."
+
+msgid "game/anonymizer"
+msgstr "Anonimizējiet jūsu segvārdu kaujā"
+
+msgid "game/battleLoadingInfo"
+msgstr "Padomi kaujas ielādēšanas ekrānā"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "Minikarte"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "Tikai teksts"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "Ilustrēti padomi"
+
+msgid "game/battlePanelSettings"
+msgstr "Kaujas interfeiss"
+
+msgid "game/carouselType"
+msgstr "Bruņutehnikas panelis"
+
+msgid "game/carouselType/double"
+msgstr "Divlīmeņu"
+
+msgid "game/carouselType/single"
+msgstr "Vienlīmeņa"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "Rādīt statistiku, kad kursors ir uzbīdīts uz slota"
+
+msgid "game/commanderCamEnabled"
+msgstr "Ieslēgt Taktisko Skatu"
+
+msgid "game/customizationDisplayType"
+msgstr "Pielāgošanas elementu rādīšana kaujā"
+
+msgid "game/customizationDisplayType/all"
+msgstr "Vēsturiski, nevēsturiski un izdomāti"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "Vēsturiski"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "Vēsturiski un nevēsturiski"
+
+msgid "game/displayPlatoonMembers"
+msgstr "Rādīt Vada locekļu tankus Garāžā"
+
+msgid "game/doubleCarousel/label"
+msgstr "Divlīmeņu bruņutehnikas panelis"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "Adaptīvs"
+
+msgid "game/doubleCarouselType/small"
+msgstr "Minimālistisks"
+
+msgid "game/dynamicCamera"
+msgstr "Ieslēgt dinamisko kameru"
+
+msgid "game/enableBattleNotifier"
+msgstr "Rādīt iepriekšējās kaujas rezultātus čatā"
+
+msgid "game/enableMortalPostEffect"
+msgstr "Ieslēgt pēcnāves efektu"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "Ieslēgt optikas efektu snaipera režīmā"
+
+msgid "game/enableRepairTimer"
+msgstr "Rādīt remonta laiku bojātiem moduļiem"
+
+msgid "game/enableSpeedometer"
+msgstr "Parādīt riteņu tanku spidometru"
+
+msgid "game/enableVoIP"
+msgstr "Balss komunikācija"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "Kaujas Komunikācija"
+
+msgid "game/fieldset/headerChat"
+msgstr "Čats"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "Minikarte"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "Bruņutehniku marķieri"
+
+msgid "game/hangarCamCheckbox"
+msgstr "Angāra kameras animācija, kustinot peles kursoru"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "Angāra rotācija neaktivitātes gadījumā"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "Garāžas Kameras Animācija"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "Nekad"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 sekundes"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 sekundes"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 sekundes"
+
+msgid "game/horStabilizationSnp"
+msgstr "Horizontālā stabilizēšana snaipera režīmā"
+
+msgid "game/hullLockEnabled"
+msgstr "Ieslēgt auto korpusa bloķēšanu Snaipera režīmā"
+
+msgid "game/increasedZoom/base"
+msgstr "Ieslēgt %(zooms)s"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " un "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "Parādīt serveru izvēli pēc spēles palaišanas"
+
+msgid "game/minimapDrawRange"
+msgstr "Rādīt atainošanas apli"
+
+msgid "game/minimapGroupTitle"
+msgstr "Minikarte"
+
+msgid "game/minimapMaxViewRange"
+msgstr "Rādīt maksimālās redzamības apli"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "Rādīt tuvuma pamanīšanas apli"
+
+msgid "game/minimapViewRange"
+msgstr "Rādīt redzamības apli"
+
+msgid "game/newbeeTipsTitle"
+msgstr "Padomi"
+
+msgid "game/newbieBattleHints"
+msgstr "Ieslēdziet iesācēja padomus Nejaušajās Kaujās"
+
+msgid "game/newbiePrebattleHints"
+msgstr "Ieslēdziet iesācēja padomus kaujas ielādēšanas ekrānā"
+
+msgid "game/optimizeGraphics"
+msgstr "Optimizēt interfeisa grafiku"
+
+msgid "game/playersPanelState/large"
+msgstr "Pilna izmēra"
+
+msgid "game/playersPanelState/medium"
+msgstr "Vidējs"
+
+msgid "game/playersPanelState/none"
+msgstr "Nerādīt"
+
+msgid "game/playersPanelState/short"
+msgstr "Mazs panelis"
+
+msgid "game/postmortemMode"
+msgstr "Pēcnāves Režīms"
+
+msgid "game/postmortemMode/analysis"
+msgstr "Rādīt brīdi, kad jūsu tanks tika iznīcināts (detalizēti)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "Rādīt pretinieku tanku, kas iznīcināja jūsu tanku"
+
+msgid "game/postmortemMode/self"
+msgstr "Rādīt jūsu tanku"
+
+msgid "game/postmortemMode/simple"
+msgstr "Rādīt brīdi, kad jūsu tanks tika iznīcināts (īsi)"
+
+msgid "game/ppShowLevels"
+msgstr "Rādīt bruņutehnikas līmeni"
+
+msgid "game/ppShowTypes"
+msgstr "Rādīt bruņutehnikas veidu"
+
+msgid "game/ppStartStateLabel"
+msgstr "Tips"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "Ieslēgt Komandiera Kameru"
+
+msgid "game/replayEnabled"
+msgstr "Ierakstīt kaujas"
+
+msgid "game/replayEnabled/all"
+msgstr "Visas"
+
+msgid "game/replayEnabled/last"
+msgstr "Pēdējo"
+
+msgid "game/replayEnabled/none"
+msgstr "Nevienu"
+
+msgid "game/showArtyHitOnMap"
+msgstr "Zonas ekrāns, kur Artilērija trāpīs"
+
+msgid "game/showDamageIcon"
+msgstr "Rādīt paziņojumus, kad netiek izdarīti bojājumi"
+
+msgid "game/showDogTag"
+msgstr "Rādīt Militāro Žetonu"
+
+msgid "game/showDogTagToKiller"
+msgstr "Rādiet jūsu izvēlēto Pielāgojamo Militāro Žetonu"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "Rādīt iznīcinātās bruņutehnikas info"
+
+msgid "game/showKillersDogTag"
+msgstr "Rādīt spēlētāja Militāro Žetonu, kurš iznīcināja jūs"
+
+msgid "game/showLanguageBar"
+msgstr "Rādīt valodu izvēles paneli"
+
+msgid "game/showMarksOnGun"
+msgstr "Rādīt izcilības zīmes"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "Skatiet jūsu Animēto Militāro Žetonu"
+
+msgid "game/showSectorOnMap"
+msgstr "Rādīt Artilērijas uguns loku"
+
+msgid "game/showVectorOnMap"
+msgstr "Rādīt kameras virziena staru"
+
+msgid "game/showVehModelsOnMap"
+msgstr "Ieslēdziet paplašinātas minikartes iespējas"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Nospiežot Alt"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "Vienmēr"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "Nekad"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "Rādīt tanka dzīvības punktus minikartē"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Nospiežot Alt"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "Vienmēr"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "Nekad"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "Rādīt tanka dzīvības punktus komandu paneļos"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Nospiežot Alt"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "Vienmēr"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "Nekad"
+
+msgid "game/showVehicleIcon"
+msgstr "Rādīt bruņutehnikas ikonu"
+
+msgid "game/showVehicleLevel"
+msgstr "Rādīt bruņutehnikas līmeni"
+
+msgid "game/showVehiclesCounter"
+msgstr "Rādīt bruņutehnikas marķierus kaujas rezultātu panelī"
+
+msgid "game/showVictimsDogTag"
+msgstr "Rādīt iznīcināto pretinieku Militāros Žetonus"
+
+msgid "game/sniperModeByShift"
+msgstr "Pārslēgšanās uz snaipera režīmu tikai ar Shift"
+
+msgid "game/sniperZoom"
+msgstr "Vēlamais Snaipera Režīma Pietuvināšanas Līmenis"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "Pēdējais Izmantotais"
+
+msgid "game/switchEquipment"
+msgstr "Konfigurācijas mainīšana ielādēšanas ekrānā"
+
+msgid "game/w2gtEnable"
+msgstr "Iespējot kaujas zonas minimapē"
+
+msgid "gameTitle"
+msgstr "Spēle"
+
+msgid "gameplay/devMaps"
+msgstr "Spēlējiet kartēs ar nejaušiem notikumiem"
+
+msgid "gameplay/nations"
+msgstr "Konfrontācija"
+
+msgid "gamma"
+msgstr "Gamma"
+
+msgid "gammaBtn/label"
+msgstr "Konfigurēt"
+
+msgid "gammaWizard/apply"
+msgstr "Pielietot"
+
+msgid "gammaWizard/cancel"
+msgstr "Atcelt"
+
+msgid "gammaWizard/closeBtn"
+msgstr "AIZVĒRT"
+
+msgid "gammaWizard/default"
+msgstr "Pēc noklusējuma"
+
+msgid "gammaWizard/description"
+msgstr "Bīdiet slīdni līdz logo un fons sasniedz vienādu gaišumu. Daļēji pieveriet acis vai pavirzieties nostāk no monitora, lai attēla detaļas būtu sliktām saredzamas."
+
+msgid "gammaWizard/header"
+msgstr "Gamma"
+
+msgid "gammaWizard/title"
+msgstr "Gammas iestatījumi"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "Ļauj nokonfigurēt gaišumu spēlē, lai sasniegtu optimālu\nattēla kvalitāti uz ekrāna. Šis iestatījums cenšas kompensēt\nvideo karšu draiveru un ekrāna iestatījumu efektus, kas ietekmē\nspēles vizuālo kvalitāti."
+
+msgid "gammaWizard/tooltip/header"
+msgstr "Gamma"
+
+msgid "graficTitle"
+msgstr "Grafika"
+
+msgid "graphics/block/effects"
+msgstr "Efekti"
+
+msgid "graphics/block/greenery"
+msgstr "Veģetācija"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "Apkārtne un ūdens"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "Apgaismojums un pēcapstrāde"
+
+msgid "graphics/block/main"
+msgstr "Galvenie"
+
+msgid "graphics/tabAdvanced"
+msgstr "Papildus"
+
+msgid "graphics/tabScreen"
+msgstr "Ekrāns"
+
+msgid "graphicsQuality"
+msgstr "Grafikas kvalitāte"
+
+msgid "graphicsQuality/description"
+msgstr "Nosaka vispārējo attēla kvalitāti. Ietekmē parametrus apakšsadaļā „Papildus”.\n\nGrafikas kvalitātes samazināšana var:\n• uzlabot spēles ātrdarbību;\n• novest pie apkārtnes atainošanas nesakritībām klienta un servera pusē.\n\nIzmantojiet zemu grafikas kvalitāti tikai zemas datorsistēmas veiktspējas gadījumā."
+
+msgid "graphicsQualityHDSD"
+msgstr "Spēles klienta varianti"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "HD Klients instalēts"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "Standarta klients (SD) uzstādīts"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "Standarta klients – pilna spēles versija bez maksimālas kvalitātes tekstūras.\n\nHD klients – pilna spēles versija, iekļaujot maksimālas kvalitātes tekstūras. Salīdzinājumā ar standarta klientu aizņem vairāk vietas uz diska."
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "Spēles klienta varianti"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "HD klients – pilna spēles versija, iekļaujot maksimālas kvalitātes tekstūras. Aizņem vairāk vietas uz diska.\n\nStandarta klients (SD) – pilna spēles versija bez maksimālas kvalitātes tekstūrām."
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "Maksimāla (SD) un Ultra (SD) grafikas kvalitāte nenodrošina maksimālo tekstūru kvalitāti. Lai iestatītu augstāko grafikas kvalitāti, spēles palaidējā pārslēdzieties uz HD klientu."
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "Anizotropiskā 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "Anizotropiskā 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "Anizotropiskā 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "Anizotropiskā 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "Bilineārā"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "Pielāgota"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "1940. gadu kinofilma"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "Kontrastains"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "Uzlabota"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "Tālu"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "Standarta"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "Augsta"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "Zema"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "Ļoti zema"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "Maksimāla"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "Maksimāla (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "Vidēja"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "Minimāla"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "Klusināts"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "Tuvu"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "Izslēgta"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "Izslēgta"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "Ieslēgta"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "Vienkāršots"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "Uzlabots"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "Punktu"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "Fotohromatisks"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "Nejaušs"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "Standarta"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "Piesātināts"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "Maigs"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "Trilineārā"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "Ultra"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "Ultra (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "Ļoti augsta"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "Ļoti augsta"
+
+msgid "igbHardwareAcceleration"
+msgstr "Pārlūkprogrammas Aparatūras Paātrinājums"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "Kad šis iestatījums ir ieslēgts, tīmekļa saturs tiks renderēts izmantojot GPU nevis CPU.\n\nIzslēdziet to, ja jūs piedzīvojiet problēmas ar satura renderēšanu dažos logos.\n\nIzmaiņas tiks piemērotas pēs spēles restartēšanas."
+
+msgid "interfaceScale"
+msgstr "Interfeisa mērogošana"
+
+msgid "interfaceScale/attention"
+msgstr "Iestatījums tiek testēts;\ntas neietekmē spēles ātrdarbību."
+
+msgid "interfaceScale/body"
+msgstr "Automātiska interfeisa elementu palielināšana,\nkad tiek palielināta ekrāna izšķirtspēja vai spēles logs."
+
+msgid "interfaceScale/description"
+msgstr "Automātiska interfeisa elementu palielināšana, kad tiek palielināta ekrāna izšķirtspēja vai spēles logs."
+
+msgid "interfaceScale/header"
+msgstr "Interfeisa mērogošana"
+
+msgid "interfaceScale/warning"
+msgstr "Iestatījums tiek testēts; tas neietekmē spēles ātrdarbību."
+
+msgid "interfaceScaleDisabled"
+msgstr "Interfeisa mērogošana"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "Tikai priekš 4K monitoriem."
+
+msgid "interfaceScaleDisabled/body"
+msgstr "Automātiska interfeisa elementu palielināšana,\nkad tiek palielināta ekrāna izšķirtspēja vai spēles logs."
+
+msgid "interfaceScaleDisabled/description"
+msgstr "Automātiska interfeisa elementu palielināšana, kad tiek palielināta ekrāna izšķirtspēja vai spēles logs."
+
+msgid "interfaceScaleDisabled/header"
+msgstr "Interfeisa mērogošana"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "Tikai priekš 4K monitoriem."
+
+msgid "isColorBlind"
+msgstr "Alternatīva krāsu palete"
+
+msgid "isColorBlind/description"
+msgstr "Krāsu paletes adaptācija priekš cilvēkiem ar krāsu uztveres īpatnībām."
+
+msgid "keyboard/backDraftInvert"
+msgstr "Atpakaļgaitas inversija"
+
+msgid "keyboard/keyboard"
+msgstr "Klaviatūra"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "Tieši tā!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "Speciālais tēmeklis"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "Korpusa fiksācija / režīma maiņa"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "Atpakaļ"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "Atpakaļ"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "„Rokas bremze”"
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "Uz leju"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "Pa kreisi"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "Pa labi"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "Uz augšu"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "Izšaut zalvi"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "Atkāpies!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "Šaut"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "Uz priekšu"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "Uz priekšu"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "Pamest tanku (Frontes līnijā)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "Palīgā!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "Norādīt pozīciju"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "Norādīt aktīvo mērķi"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "Palīgmateriāls 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "Aprīkojums 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "Aprīkojums 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "Aprīkojums 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "Aprīkojums 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "Aprīkojums 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "Aprīkojums 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "Aprīkojums 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "Aprīkojums 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "Palīgmateriāls 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "Pa kreisi"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "Automātiskā tēmēšana"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "Atslēgt automātisko tēmēšanu"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "Nebūt ne!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "Mikrofona aktivēšana"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "Pārlādēt magazīnu"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "Pārlādēju!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "Pa labi"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "Paslēpt kaujas interfeisu"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "Personālo Rezervju Aktivizācija"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "Progress personālajām misijām"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "Rādīt Rīkojumu Izvēlni / Apstiprināt rīkojumu"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "Samazināt izmēru"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "Palielināt izmēru"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "Īpašā spēja"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "Apstāšanās šāvienam"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "Paldies tev!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "Pārslēgt Bruņu Lukturīti"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "Trajektorijas skats"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "Padot skaņas signālu"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "Noslēpt/Parādīt"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "Ieslēgt/izslēgt balss komunikāciju dinamiskajos vados"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "Kamera"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "Automātiska pārvietošanās"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "Aprīkojums"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "Šaušana"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "Minikarte"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "Pārvietošanās"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "Ziņojumi"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "Komandas komunikācija"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "Citi"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "Balss komunikācija"
+
+msgid "keyboard/mouse"
+msgstr "Pele"
+
+msgid "keyboardTitle"
+msgstr "Vadība"
+
+msgid "limitedUI/desc"
+msgstr "Pakāpeniska slēpto interfeisa elementu parādīšanās Garāžā"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "Izslēgt"
+
+msgid "marker/AllyTitle"
+msgstr "Sabiedrotie"
+
+msgid "marker/DeadTitle"
+msgstr "Iznīcinātie"
+
+msgid "marker/EnemyTitle"
+msgstr "Pretinieki"
+
+msgid "marker/aimMarker2D"
+msgstr "Auto mērķēšanas indikators"
+
+msgid "marker/alt"
+msgstr "Alternatīvais"
+
+msgid "marker/base"
+msgstr "Parastais"
+
+msgid "marker/damage"
+msgstr "Saņemti bojājumi"
+
+msgid "marker/dead"
+msgstr "Rādīt iznīcinātajiem"
+
+msgid "marker/hp"
+msgstr "Bruņutehnikas izturība"
+
+msgid "marker/hp/type0"
+msgstr "Procenti %"
+
+msgid "marker/hp/type1"
+msgstr "Atlikušie HP / kopā"
+
+msgid "marker/hp/type2"
+msgstr "Atlikušie HP"
+
+msgid "marker/hp/type3"
+msgstr "Nerādīt"
+
+msgid "marker/hpIndicator"
+msgstr "Mērķa izturības indikators"
+
+msgid "marker/icon"
+msgstr "Bruņutehnikas ikona"
+
+msgid "marker/level"
+msgstr "Bruņutehnikas līmenis"
+
+msgid "marker/level/tooltip/body"
+msgstr "Kad šis iestatījums ir ieslēgts, virs tanka tiks rādīts līmenis.\n\nTērauda Medniekā tiks rādīts pašreizējais uzlabošanas līmenis."
+
+msgid "marker/level/tooltip/header"
+msgstr "Bruņutehnikas līmenis"
+
+msgid "marker/name"
+msgstr "Bruņutehnikas modelis"
+
+msgid "marker/name/type2"
+msgstr "Nerādīt"
+
+msgid "marker/nickname"
+msgstr "Spēlētāja vārds"
+
+msgid "markerTitle"
+msgstr "Marķieris"
+
+msgid "minimap/labels/alpha"
+msgstr "Minikartes caurspīdīgums"
+
+msgid "minimap/labels/size"
+msgstr "Maksimālais izmērs"
+
+msgid "monitor"
+msgstr "Monitors"
+
+msgid "monitor/description"
+msgstr "Galvenā monitora izvēlēšanās."
+
+msgid "mouse/sensitivity/art"
+msgstr "Artilērijas tēmeklis"
+
+msgid "mouse/sensitivity/art2"
+msgstr "Trajektorijas skats"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "Brīvā Kamera"
+
+msgid "mouse/sensitivity/header"
+msgstr "Jutīgums"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "Horizontālā inversija"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "Vertikālā inversija"
+
+msgid "mouse/sensitivity/main"
+msgstr "Pamata tēmeklis"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "Snaipera tēmeklis"
+
+msgid "mouse/startDist"
+msgstr "Kameras pozīcija"
+
+msgid "ok_button"
+msgstr "Labi"
+
+msgid "otherSettings/fieldset/header"
+msgstr "Skaņas telpas elementi"
+
+msgid "otherSettings/labels/bulb"
+msgstr "Sestā prāta aktivizēšanās skaņa"
+
+msgid "otherTitle"
+msgstr "Citi"
+
+msgid "physicsQuality"
+msgstr "Skaņas Fizikas Kvalitāte"
+
+msgid "refreshRate"
+msgstr "Monitora atsvaidzes frekvence"
+
+msgid "refreshRate/default"
+msgstr "Pēc noklusējuma"
+
+msgid "refreshRate/description"
+msgstr "Kadru atjaunināšanas frekvence monitorā.\n\nNesaderība ar monitora atsvaidzes frekvenci var radīt attēla raustīšanās efektu.\n\nNeietekmē spēles ātrdarbību."
+
+msgid "resolution"
+msgstr "Ekrāna izšķirtspēja"
+
+msgid "resolution/description"
+msgstr "Pikseļu skaits pa ekrāna vertikāli un horizontāli pilnekrāna režīmā. Augstāka izšķirtspēja uzlabo attēla kvalitāti. Nesaderība starp izšķirtspēju pilnekrāna režīmā un pašreizējo monitora izšķirtspēju var izkropļot attēlu.\n\nVērtības pacelšana palielina noslodzi video kartei un var samazināt spēles ātrdarbību.\n\nSamazināt video kartes noslodzi var mainot 3D rendera izšķirtspēju."
+
+msgid "restartNewbieBattleHints"
+msgstr "Atiestatīt Iesācēja Padomus"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "Atiestatiet iesācēja padomu vēsturi, lai atkal saņemtu padomus, kuri jau tika rādīti."
+
+msgid "screenMode"
+msgstr "Spēles režīms"
+
+msgid "screenMode/borderless"
+msgstr "Loga režīms (bez rāmja)"
+
+msgid "screenMode/description"
+msgstr "Pārslēgšanās starp pilnekrāna, loga un loga (bez rāmja) spēles režīmiem. Loga režīms samazinās spēles ātrdarbību."
+
+msgid "screenMode/fullscreen"
+msgstr "Pilnekrāns"
+
+msgid "screenMode/label"
+msgstr "Režīms:"
+
+msgid "screenMode/windowed"
+msgstr "Loga režīms"
+
+msgid "smoothing/description"
+msgstr "Nosaka šauru līniju un spēles objektu kontūru papildus apstrādes līmeni. Samazina robojuma efektu. Objektu kontūras izskatās dabiskākas."
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "Standarta"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "Lietotāja"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "Variants 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "Variants 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "Lietotāja"
+
+msgid "sound/dynamicRange/label"
+msgstr "Dinamiskais diapazons"
+
+msgid "sound/fieldset/header"
+msgstr "Skaļums"
+
+msgid "sound/players_notifications"
+msgstr "Paziņojumi no citiem spēlētājiem"
+
+msgid "sound/presets/title"
+msgstr "Regulējumi"
+
+msgid "sound/soundModes/U01"
+msgstr "Lietotājs 1"
+
+msgid "sound/soundModes/U02"
+msgstr "Lietotājs 2"
+
+msgid "sound/soundModes/U03"
+msgstr "Lietotājs 3"
+
+msgid "sound/soundModes/U04"
+msgstr "Lietotājs 4"
+
+msgid "sound/soundModes/default"
+msgstr "Standarta"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "Komandiera"
+
+msgid "sound/special/field/set"
+msgstr "Spēles notikuma skaļums"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "Atjaunināt ierīces"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "Pabeigt testu"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "Sākt testu"
+
+msgid "sound/vivox/fade_volume"
+msgstr "Apkārtējās vides skaļums sarunas laikā"
+
+msgid "sound/vivox/master_volume"
+msgstr "Balss komunikācijas skaļums"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "Mikrofona jutīgums"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Balss komunikācijas tests"
+
+msgid "soundTitle"
+msgstr "Skaņa"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "Autonoteikšana"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "2.0/2.1 sistēma"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "5.1 sistēma"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "7.1 sistēma"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "austiņas"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "Centrālais"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "Kreisais"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "Kreisais aizmugurējais"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "Kreisais priekšējais"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "Kreisais malējais"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "Labais"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "Labais aizmugurējais"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "Labais priekšējais"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "Labais malējais"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "Sabvūfers"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "klēpjdators"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "Skaņas tests:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "Testēt skaņu"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "Balss paziņojumu veids ir atkarīgs no komandiera nācijas un dzimuma"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "Komandiera"
+
+msgid "sounds/altVoice/default/body"
+msgstr "Vīrieša balss spēles klienta valodā"
+
+msgid "sounds/altVoice/default/header"
+msgstr "Standarta"
+
+msgid "sounds/ambient"
+msgstr "Apkārtējā vide"
+
+msgid "sounds/arena"
+msgstr "Mūzika kaujā"
+
+msgid "sounds/artyBulbVoices"
+msgstr "Skaņas Noteikšana"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "Izvēlieties vienu no Skaņas Noteikšana aktivizācijas skaņas variantiem. Lai izmantotu jūsu pašu skaņu, pārdēvējiet jūsu .mp3 failu uz soundExploring un pārvietojiet to uz res/audioww mapi."
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "Skaņas Noteikšanas Aktivizācijas Skaņa"
+
+msgid "sounds/bassBoost"
+msgstr "Zemo frekvenču pastiprināšana"
+
+msgid "sounds/bassBoost/description"
+msgstr "Pastiprina zemās frekvences, atstājot galveno skaļuma līmeni nemainīgu. Režīms strādā atšķirīgi atkarībā no izvēlētās skaņas sistēmas (skaļruņi, austiņas, klēpjdators)."
+
+msgid "sounds/bulbVoices"
+msgstr "Sestais prāts"
+
+msgid "sounds/bulbVoices/description"
+msgstr "Iemaņas „Sestais prāts” aktivizēšanās skaņa. Lai izmantotu savu mp3 skaņas failu, pārsauciet to par sixthSense un pārvietojiet uz res/audioww mapi."
+
+msgid "sounds/effects"
+msgstr "Efekti"
+
+msgid "sounds/gui"
+msgstr "Interfeiss"
+
+msgid "sounds/hangar"
+msgstr "Mūzika Garāžā"
+
+msgid "sounds/masterVolume"
+msgstr "Kopējais skaļuma līmenis"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "Ieslēgt skaņu"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "Skaņas efektu atslēgšana var uzlabot kopējo spēles ātrdarbību. Lai izmaiņas stātos spēkā, nepieciešama atkārtota spēles klienta palaišana."
+
+msgid "sounds/nightMode"
+msgstr "Nakts režīms"
+
+msgid "sounds/nightMode/description"
+msgstr "Nolīdzina skaļuma atšķirības, pieklusina asas skaņas un samazina zemās frekvences spēlē, nodrošinot patīkamu un klusu spēlēšanas vidi nakts laikā."
+
+msgid "sounds/physicsQuality/attention"
+msgstr "Šīs funkcijas aktivizēšana var ietekmēt veiktspēju."
+
+msgid "sounds/physicsQuality/body"
+msgstr "Vada skaņas fizikas kvalitāti.\n\nSimulē, kā skaņa apliecas ap šķēršļiem un izplatās cauri kartes virsmām.\n\nIzmanto kartes ģeometriju, lai ģenerētu agrīnos tanka skaņu atstarojumus no tuvumā esošiem objektiem.\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "Skaņas Fizikas Kvalitāte"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "Izslēgts"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "Augsta"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "Zema"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "Vidējs"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "Ieteicamā"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "Nosaka optimālo skaņas fizikas kvalitāti jūsu datoram.\n\nTas var aizņemt zināmu laiku."
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "Ieteicamā"
+
+msgid "sounds/sixthSense/body"
+msgstr "Savs ieskaņojums. Pārvietojiet failu sixthSense.mp3 uz mapi res/audioww."
+
+msgid "sounds/sixthSense/header"
+msgstr "Lietotāja"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "Pielāgo spēles skaņas priekš diviem ārējiem pilna frekvenču spektra skaļruņiem (2.0) vai diviem augsto frekvenču + viena zemo frekvenču skaļruņa (2.1)."
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "5.1 sistēma"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "Pielāgo spēles skaņu ārējiem skaļruņiem un sabvūferim daudzkanālu 5.1 sistēmā."
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "5.1 sistēma"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "7.1 sistēma"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "Pielāgo spēles skaņu ārējiem skaļruņiem un sabvūferim daudzkanālu 7.1 sistēmā."
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "7.1 sistēma"
+
+msgid "sounds/soundDevice/auto"
+msgstr "Autonoteikšana"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "Automātiski nosaka operētājsistēmā norādītos skaņas konfigurācijas iestatījumus"
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "Autonoteikšana"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "Austiņas"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "Pielāgo spēles skaņas austiņām."
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "Austiņas"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "Klēpjdators"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "Izmanto 2.0/2.1 skaņas sistēmas pozicionēšanas principu, bet pielāgo skaņu maksimāli labas kvalitātes iegūšanai uz mazajiem klēpjdatora skaļruņiem."
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "Klēpjdators"
+
+msgid "sounds/soundQuality"
+msgstr "Zema kvalitāte"
+
+msgid "sounds/soundQuality/description"
+msgstr "Skaņas kvalitātes samazināšana var uzlabot spēles ātrdarbību zemākas veiktspējas datorsistēmās. Šī režīma ieslēgšana ievērojami samazina vienlaikus apstrādāto skaņu skaitu."
+
+msgid "sounds/speakers/back/body"
+msgstr "Labo/kreiso aizmugurējo skaļruņu skaņas tests."
+
+msgid "sounds/speakers/back/header"
+msgstr "Labie/kreisie aizmugurējie skaļruņi"
+
+msgid "sounds/speakers/center/body"
+msgstr "Centra skaļruņa skaņas tests."
+
+msgid "sounds/speakers/center/header"
+msgstr "Centrālais skaļrunis"
+
+msgid "sounds/speakers/front/body"
+msgstr "Labo/kreiso priekšējo skaļruņu skaņas tests."
+
+msgid "sounds/speakers/front/header"
+msgstr "Labie/kreisie priekšējie skaļruņi"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "2.0/2.1 sistēmā sabvūfers ir papildus komponents. To nevar testēt vienu pašu bez skaļruņiem."
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "Papildus sabvūfers"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "Labo/kreiso sānu skaļruņu skaņas tests."
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "Labie/kreisie sānu skaļruņi"
+
+msgid "sounds/speakers/sides/body"
+msgstr "Labo/kreiso skaļruņu skaņas tests."
+
+msgid "sounds/speakers/sides/header"
+msgstr "Labie/kreisie skaļruņi"
+
+msgid "sounds/speakers/sub/body"
+msgstr "Sabvūfera skaņas tests."
+
+msgid "sounds/speakers/sub/header"
+msgstr "Sabvūfers"
+
+msgid "sounds/subtitles"
+msgstr "Subtitri"
+
+msgid "sounds/tabCommon"
+msgstr "Kopējais skaļums"
+
+msgid "sounds/tabSpecial"
+msgstr "Spēles notikums"
+
+msgid "sounds/tabVivox"
+msgstr "Balss komunikācija"
+
+msgid "sounds/vehicles"
+msgstr "Bruņutehnika"
+
+msgid "sounds/voiceNotification"
+msgstr "Balss paziņojumi"
+
+msgid "title"
+msgstr "Iestatījumi"
+
+msgid "tripleBuffered"
+msgstr "Trīskāršā buferizācija"
+
+msgid "tripleBuffered/description"
+msgstr "Veic nolīdzināšanu straujiem attēla lēcieniem kadru maiņas momentos (tikai pie ieslēgtas opcijas „Vertikālā sinhronizācija”)."
+
+msgid "vertSync"
+msgstr "Vertikālā sinhronizācija"
+
+msgid "vertSync/Off"
+msgstr "Izsl."
+
+msgid "vertSync/On"
+msgstr "Iesl."
+
+msgid "vertSync/description"
+msgstr "Sinhronizācija starp spēles kadru maiņu un monitora atsvaidzes frekvenci.\n\nKadru maiņas ierobežojums – 60 kadri sekundē. Pielietojiet gadījumos, ja novērojama attēla drebēšana vai kadru aizkave ekrāna lejasdaļā."
+
+msgid "voice_chat/PTT"
+msgstr "Mikrofona aktivēšana"
+
+msgid "voice_chat/fieldset/header"
+msgstr "Skaļums"
+
+msgid "voice_chat/header/common"
+msgstr "Vispārējie"
+
+msgid "voice_chat/header/microphone"
+msgstr "Mikrofons"
+
+msgid "voice_chat/header/speakers"
+msgstr "Austiņas"
+
+msgid "voice_chat/microphone"
+msgstr "Mikrofons"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "Mikrofons"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "Ieslēgt mikrofonu"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "Ieslēgt balss komunikāciju"
+
+msgid "windowSize"
+msgstr "Loga izmērs"
+
+msgid "windowSize/description"
+msgstr "Pikseļu skaits klienta logam pa vertikāli un horizontāli. Augstāka izšķirtspēja uzlabo attēla kvalitāti. Pārejot uz pilnekrāna režīmu, šī vērtība mainās uz iestatījuma „Ekrāna izšķirtspēja” vērtību."
+
+msgid "windowTitle"
+msgstr "WoT klients"

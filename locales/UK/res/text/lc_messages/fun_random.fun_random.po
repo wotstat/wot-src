@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "Бої режиму «%(leftDetailedSeasonName)s» завершено"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Режим припинення вогню на всіх серверах. Бої почнуться через %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "Бої режиму «%(leftDetailedSeasonName)s» завершено"
+
+msgid "alertMessage/allNotSet"
+msgstr "Режим недоступний на сервері %(serverName)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Змінити сервер"
+
+msgid "alertMessage/notAvailable"
+msgstr "Режим припинення вогню на сервері %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Режим припинення вогню на сервері %(serverName)s"
+
+msgid "alertMessage/notSet"
+msgstr "Режим недоступний на сервері %(serverName)s"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Режим припинення вогню на сервері. Бої почнуться через %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "Бої режиму «%(leftDetailedSeasonName)s» завершено"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Режим недоступний на сервері %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s д"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s год %(min)s хв"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1 хв"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s хв"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Немає придатної техніки"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s – %(end)s"
+
+msgid "calendarDay/title"
+msgstr "Розклад"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "РЕЖИМ"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} — перехід до іншого режиму гри"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "Режим буде доступний"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "Припинення вогню {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "Бої завершено"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "Режим більше не доступний"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "Режим буде доступний {{timer}}"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s не може брати участь у боях режиму «%(modeName)s»."
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "Непридатний тип техніки"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "Виберіть машину %(levelSubStr)s, щоб узяти участь у режимі «%(modeName)s»."
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "Непридатний рівень техніки"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "%(levels)s рівня"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "На %(forbiddenType)s не можна брати участь у режимі «%(modeName)s»."
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "Непридатна машина"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "На цьому сервері триває режим припинення вогню. Спробуйте перейти на інший сервер."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "Вийти в бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "На вибраному сервері режим недоступний."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "Вийти в бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "Бої режиму «%(subModeName)s» завершено"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "Вийти в бій неможливо"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "Змініть режим або виберіть машину, що відповідає вимогам."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "Машина не придатна для режиму"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "Створення формування з 2–3 гравців для спільної гри в боях режиму «%(modeName)s»."
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "Взвод"
+
+msgid "invite/text/detailedTitle"
+msgstr "Запрошення увійти до складу взводу для режиму «%(detailedModeName)s»"
+
+msgid "invite/tooltip/noVehicles"
+msgstr "Потрібна бодай одна машина в Ангарі."
+
+msgid "lootboxTooltip/chance"
+msgstr "Імовірність випадіння: %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "Один ігровий предмет із переліку:"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "ВСІ ЕТАПИ ПРОЙДЕНІ"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "ВСІ ЕТАПИ ПОТОЧНОГО\nЗАВДАННЯ ПРОЙДЕНІ"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "Нагороди наступного етапу — потрібно %(stagePoints)s оч."
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "Нагорода наступного етапу"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "%(time)s до завершення активної фази"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "%(time)s до наступного запуску"
+
+msgid "modeSelector/notStarted"
+msgstr "Подія незабаром розпочнеться"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s д"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s год"
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1 хв"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s хв"
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "ДО РЕЖИМІВ"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "Недоступний з технічних причин"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "Ви пройшли всі етапи поточного завдання"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "Нагороди: %(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "Бої завершено"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "Незабаром розпочнеться"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "Почнеться за"
+
+msgid "modeSubSelector/subtitle"
+msgstr "ОБЕРІТЬ ПІДРЕЖИМ"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "Dev Усі етапи пройдено"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "Dev Оновлення прогресії"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "Вривайтеся в бій!"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "Відчуйте жар битви!"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "Аркада — це унікальні й різноманітні тимчасові активності! Бийтеся в ексклюзивних режимах із правилами, які змінюють гру, виконуйте завдання й отримуйте рідкісні нагороди."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Dev Ви пройшли прогресію"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "Dev Отримайте якомога більше нагород:"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "Dev Здобуто очок: {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "Виконано:"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "Можна виконати повторно"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "За виконання:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "За поразку:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "За перемогу:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Очки:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Отримано:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "Усі доступні наразі завдання виконано"
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "Завдання з'являться, коли розпочнеться прогресія"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "Ви виконали всі доступні завдання. Нові з'являться в наступній ротації."
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "Доступно протягом {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "Доступно протягом {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "Нове завдання за {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} — статус"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} — завдання"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "Усі етапи завершено"
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "Оновлення прогресії"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "НЕОНОВИЙ СТАРТ"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "Фініш уже чекає!"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "Готові до перегонів?"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "Неоновий старт — унікальна тимчасова подія зі свіжим геймплеєм! Мчіть небезпечними трасами, бийтеся, виконуйте завдання й здобувайте нагороди."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Цей режим вимогливий до комп'ютера. Мапа може завантажуватися тривалий час, можливі спотворення графіки й негаразди з пересуванням техніки в бою. У разі недостатньої продуктивності спробуйте знизити налаштування графіки."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Можливе зниження продуктивності"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Цей режим вимогливий до комп'ютера. Мапа може завантажуватися тривалий час, можливі спотворення графіки й негаразди з пересуванням техніки в бою. У разі недостатньої продуктивності спробуйте знизити налаштування графіки."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Можливе зниження продуктивності"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "Випадкова епічна нагорода"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "Випадкова легендарна нагорода"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "Випадкова звичайна нагорода"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "Випадкова рідкісна нагорода"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "Випадкова незвичайна нагорода"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "Завдання «Неоновий старт» — Етап: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "Прогрес зараховується в будь-якому заїзді Неонового старту."
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "Завдання «Неоновий старт»"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "Прогрес виконання зараховується в будь-якому підрежимі Аркади."
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "до нового завдання Аркади"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15–30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "Проривайтеся до фінішу в цьому режимі перегонів."
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Усі рівні"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "На низьких налаштуваннях графіки можуть виникати візуальні артефакти й інші проблеми. Для найкращого ігрового досвіду рекомендуємо встановити найвищі налаштування графіки, якщо це дозволяють характеристики вашої машини. Режим вимогливий до комп'ютера. Можливе зниження частоти кадрів під час інтенсивних бойових дій."
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "Рекомендовані найвищі налаштування графіки"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Рекомендовані найвищі налаштування графіки"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "На низьких налаштуваннях графіки можуть виникати візуальні артефакти й інші проблеми. Для найкращого ігрового досвіду рекомендуємо встановити найвищі налаштування графіки, якщо це дозволяють характеристики вашої машини. Режим вимогливий до комп'ютера. Можливе зниження частоти кадрів під час інтенсивних бойових дій."
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "Рекомендовані найвищі налаштування графіки"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Рекомендовані найвищі налаштування графіки"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "До нового завдання «Неоновий старт»:"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "Підрежим %(subModeName)s завершений: прогресію скинуто."
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "Підрежим %(subModeName)s завершений."
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "Доступні нові нагороди та підрежим %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "Доступний новий підрежим — %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "Підрежим %(subModeName)s недоступний: ведуться технічні роботи."
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "Підрежим %(subModeName)s знову доступний."
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "Перелік нагород"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "Вітаємо!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "Ви пройшли прогресію"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "Вітаємо!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "Нескінченна постпрогресія"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "Ви пройшли основну прогресію"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "Проходьте цей етап стільки разів, скільки зможете."
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "Отримано очок: {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Отримано очок:"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "ЗАВДАННЯ «НЕОНОВИЙ СТАРТ»"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "Виконано:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "Можна виконати повторно"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "За виконання:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "За поразку:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "За перемогу:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Очки:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Отримано:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "Усі доступні наразі завдання виконано"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "Завдання з'являться, коли розпочнеться прогресія"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "Ви виконали всі доступні завдання. Нові з'являться в наступній ротації."
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "Доступно протягом {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "Доступно протягом {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "Нове завдання за {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} — статус"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} — завдання"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "ОТРИМАНО ЛЕГЕНДАРНУ НАГОРОДУ"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "%(subModeName)s знову доступний."
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "Піт-стоп"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s завершено"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "Піт-стоп"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "Час для піт-стопу! Заїзди в режимі «%(subModeName)s» тимчасово недоступні."
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "Піт-стоп"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "Кожна випадкова нагорода — це предмет зі списку нижче, який можна отримати з певною ймовірністю."
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "Що всередині?"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "Усі машини доступні для Неонового старту."
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "Техніка для режиму «Неоновий старт»"
+
+msgid "modes/fall_tanks/userName"
+msgstr "Неоновий старт"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "Усі етапи пройдено"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "Оновлення прогресії"
+
+msgid "modes/undefined/capsUserName"
+msgstr "АРКАДА"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s: %(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "Вривайтеся в бій!"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "Відчуйте жар битви!"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "Аркада — це унікальні й різноманітні тимчасові активності! Бийтеся в ексклюзивних режимах із правилами, які змінюють гру, виконуйте завдання й отримуйте рідкісні нагороди."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Режим вимогливий до комп'ютера. Мапа може завантажуватися довго, можливі проблеми з графікою та переміщенням техніки в бою. В разі недостатньої продуктивності спробуйте знизити налаштування графіки."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Можливе зниження продуктивності"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Режим вимогливий до комп'ютера. Мапа може завантажуватися довго, можливі проблеми з графікою та переміщенням техніки в бою. В разі недостатньої продуктивності спробуйте знизити налаштування графіки."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Можливе зниження продуктивності"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "Випадкова епічна нагорода"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "Випадкова легендарна нагорода"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "Випадкова звичайна нагорода"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "Випадкова рідкісна нагорода"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "Випадкова незвичайна нагорода"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "Завдання Аркади. Етап: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "Прогрес виконання зараховують у будь-якому підрежимі Аркади."
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "Завдання Аркади"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "Прогрес виконання зараховують у будь-якому підрежимі Аркади."
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "До нового завдання Аркади"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15x15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "Експериментальні бої за нестандартними правилами."
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} %(levels)s&nbsp;рівні"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "На низьких налаштуваннях графіки можуть виникати візуальні артефакти й інші проблеми. Для найкращого ігрового досвіду рекомендуємо встановити найвищі налаштування графіки, якщо це дозволяють характеристики вашої машини. Режим вимогливий до комп'ютера. Можливе зниження частоти кадрів під час інтенсивних бойових дій."
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "Рекомендовані найвищі налаштування графіки"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Рекомендовані найвищі налаштування графіки"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "На низьких налаштуваннях графіки можуть виникати візуальні артефакти й інші проблеми. Для найкращого ігрового досвіду рекомендуємо встановити найвищі налаштування графіки, якщо це дозволяють характеристики вашої машини. Режим вимогливий до комп'ютера. Можливе зниження частоти кадрів під час інтенсивних бойових дій."
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "Рекомендовані найвищі налаштування графіки"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Рекомендовані найвищі налаштування графіки"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "До нового завдання Аркади"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "Підрежим %(subModeName)s завершений: прогресію скинуто."
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "Підрежим %(subModeName)s завершений."
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "Доступні нові нагороди та підрежим %(subModeName)s."
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "Доступний новий підрежим — %(subModeName)s."
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "Підрежим %(subModeName)s недоступний: ведуться технічні роботи."
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "Підрежим %(subModeName)s знову доступний."
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "Перелік нагород"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "Вітаємо!"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "Ви пройшли прогресію"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "Вітаємо!"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "Повторюваний етап"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "Ви пройшли основну прогресію"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "Отримайте якомога більше нагород:"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "Отримано очок: {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Отримано очок:"
+
+msgid "modes/undefined/progression/title"
+msgstr "ЗАВДАННЯ АРКАДИ"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "Виконано:"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "Можна виконати повторно"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "За виконання:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "За поразку:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "За перемогу:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Очки:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Отримано:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "Усі доступні наразі завдання виконано"
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "Завдання з'являться, коли розпочнеться прогресія"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "Ви виконали всі доступні завдання. Нові з'являться в наступній ротації."
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "Доступно протягом {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "Доступно протягом {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "Нове завдання за {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} — статус"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} — завдання"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "ОТРИМАНО ЛЕГЕНДАРНУ НАГОРОДУ"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "Бої підрежиму %(subModeName)s знову доступні."
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "Режим припинення вогню"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "Бої режиму «%(subModeName)s» завершено"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "Режим припинення вогню"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "Бої підрежиму %(subModeName)s недоступні до закінчення режиму припинення вогню."
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "Режим припинення вогню"
+
+msgid "modes/undefined/tierList/description"
+msgstr "Кожна випадкова нагорода — це предмет зі списку нижче, який ви можете отримати з певною ймовірністю."
+
+msgid "modes/undefined/tierList/title"
+msgstr "Що всередині?"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "Увімкнути/вимкнути показ відповідної техніки для режиму «Аркада»."
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "Аркадна техніка"
+
+msgid "modes/undefined/userName"
+msgstr "Аркада"
+
+msgid "notification/congratulation"
+msgstr "Вітаємо!"
+
+msgid "notification/finishSubModes"
+msgstr "Подію «%(modeName)s» завершено."
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "Підрежими %(subModesNames)s завершені: прогресію скинуто."
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "Підрежими %(subModesNames)s завершені."
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "Випадкова нагорода"
+
+msgid "notification/newProgression"
+msgstr "Прогресію режиму скинуто — ви можете знову отримати нагороди!"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "Прогресію режиму скинуто. Доступні нові режими: %(subModesNames)s."
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "Доступні нові підрежими: %(subModesNames)s."
+
+msgid "notification/progressionComplete"
+msgstr "Ви виконали всі доступні завдання %(modeName)s. Отримано нагороду:"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "Ви виконали всі доступні завдання в режимі «%(modeName)s». Доступний повторюваний етап. Отримано нагороду:"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "До скидання прогресії залишилося менше 1 д. Після цього ви зможете виконати завдання знову."
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "До скидання прогресії залишилося днів: %(days)d. Після цього ви зможете виконати завдання знову."
+
+msgid "notification/progressionStageComplete"
+msgstr "Ви пройшли етап %(stage)s у: %(modeName)s. Отримано нагороду:"
+
+msgid "notification/subModesSeparator"
+msgstr ", "
+
+msgid "notification/switchOffSubModes"
+msgstr "Підрежими %(subModesNames)s недоступні: ведуться технічні роботи."
+
+msgid "notification/switchOnSubModes"
+msgstr "Підрежими %(subModesNames)s знову доступні."
+
+msgid "platoonView/title"
+msgstr "Взвод: %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "Доступний для гри сервер: %(server)s."
+
+msgid "primeTimes/availableServers"
+msgstr "Доступні для гри сервери:"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Сервер %(serverName)s\nБої почнуться через %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Сервер %(serverName)s\nБої режиму «%(leftDetailedSeasonName)s» завершено."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Сервер %(serverName)s\nБої триватимуть іще %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Сервер %(serverName)s\nБої почнуться через %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Сервер %(serverName)s\nБої режиму «%(leftDetailedSeasonName)s» завершено."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Сервер %(serverName)s\nБої почнуться через %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Сервер %(serverName)s\nБої режиму «%(leftDetailedSeasonName)s» завершено."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s д"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s год %(min)s хв"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1 хв"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s хв"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Режим припинення вогню на всіх серверах.\nБої почнуться через %(primeDelta)s"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "Бої режиму «%(leftDetailedSeasonName)s» завершено."
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "Режим недоступний на сервері %(serverName)s"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Режим припинення вогню до %(primeDeltaDate)s%(primeDeltaTime)s на сервері %(serverName)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Режим припинення вогню на сервері %(serverName)s"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Режим недоступний на сервері %(serverName)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Режим припинення вогню на сервері %(serverName)s.\nБої почнуться через %(primeDelta)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "Бої режиму «%(leftDetailedSeasonName)s» завершено."
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Режим недоступний на сервері %(serverName)s"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Початок боїв на сервері %(serverName)s через %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "Бої режиму «%(leftDetailedSeasonName)s» на сервері %(serverName)s завершено."
+
+msgid "primeTimes/timeText/available"
+msgstr "Бої на сервері %(serverName)s триватимуть іще %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Початок боїв на сервері %(serverName)s через %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "Бої режиму «%(leftDetailedSeasonName)s» на сервері %(serverName)s завершено."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Початок боїв на сервері %(serverName)s через %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "Бої режиму «%(leftDetailedSeasonName)s» на сервері %(serverName)s завершено."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "очки"
+
+msgid "progression/complete/affirmative"
+msgstr "Так!"
+
+msgid "progression/defaultCondition/text"
+msgstr "Заробляйте очки й просувайтеся прогресією."
+
+msgid "progression/infinite/pointsEarned"
+msgstr "Отримано очок:"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "Активна фаза завершена. Бої закінчено"
+
+msgid "progression/questsList/quest/completed"
+msgstr "Виконано:"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "Можна виконати повторно"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "За виконання:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "За поразку:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "За перемогу:"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "Отримано:"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "До кінця активної фази: {{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "До кінця активної фази:"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "Наступний запуск за:"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "Нагороди наступного етапу — потрібно %(count)d оч."
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Також отримано:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Так!"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "Командир взводу змінив підрежим на %(subModeName)s."
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "Зміна підрежиму"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} %(levels)s&nbsp;рівні"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "НЕОНОВИЙ СТАРТ"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "Мчіть до фінішу й не дайте іншим його дістатися. Використовуйте здібності «Ривок» і «Щит», щоб сіяти хаос на полі бою!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "Обережно: рухливі платформи"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "Ухиляйтеся від лазерів і точно розраховуйте стрибки, щоб стрімко дістатися фінішу!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "Обережно: лазери й трампліни"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "для додаткової інформації про режим."
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "Натисніть"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "Неоновий старт"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15–30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "Проривайтеся\nдо фінішу"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Усі рівні"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "На низьких налаштуваннях графіки можуть виникати візуальні артефакти й інші проблеми. Для найкращого ігрового досвіду рекомендуємо встановити найвищі налаштування графіки, якщо це дозволяють характеристики вашої машини. Режим вимогливий до комп'ютера. Можливе зниження частоти кадрів під час інтенсивних бойових дій."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "Рекомендовані найвищі налаштування графіки"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Рекомендовані найвищі налаштування графіки"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "На низьких налаштуваннях графіки можуть виникати візуальні артефакти й інші проблеми. Для найкращого ігрового досвіду рекомендуємо встановити найвищі налаштування графіки, якщо це дозволяють характеристики вашої машини. Режим вимогливий до комп'ютера. Можливе зниження частоти кадрів під час інтенсивних бойових дій."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "Рекомендовані найвищі налаштування графіки"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Рекомендовані найвищі налаштування графіки"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "Неоновий старт"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "Неоновий старт"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "«Неоновий старт»"
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} %(levels)s&nbsp;рівні"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "На низьких налаштуваннях графіки можуть виникати візуальні артефакти й інші проблеми. Для найкращого ігрового досвіду рекомендуємо встановити найвищі налаштування графіки, якщо це дозволяють характеристики вашої машини. Режим вимогливий до комп'ютера. Можливе зниження частоти кадрів під час інтенсивних бойових дій."
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "Рекомендовані найвищі налаштування графіки"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Рекомендовані найвищі налаштування графіки"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "На низьких налаштуваннях графіки можуть виникати візуальні артефакти й інші проблеми. Для найкращого ігрового досвіду рекомендуємо встановити найвищі налаштування графіки, якщо це дозволяють характеристики вашої машини. Режим вимогливий до комп'ютера. Можливе зниження частоти кадрів під час інтенсивних бойових дій."
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "Рекомендовані найвищі налаштування графіки"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Рекомендовані найвищі налаштування графіки"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "«Unknown sub mode name»"
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

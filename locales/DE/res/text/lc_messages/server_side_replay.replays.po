@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "closeButtonLabel"
+msgstr "SCHLIESSEN"
+
+msgid "featureName"
+msgstr "WIEDERHOLUNGEN"
+
+msgid "filter/apply"
+msgstr "Filter anwenden"
+
+msgid "filter/group/nation/title"
+msgstr "Nation"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Stufe"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Stufe"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Qualifikation"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Fahrzeugtyp"
+
+msgid "filter/reset"
+msgstr "Filter zurücksetzen"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Besatzungsmitglieder dieser Nation anzeigen/ausblenden."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Skins dieser Nation anzeigen/ausblenden."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Fahrzeuge dieser Nation anzeigen/ausblenden."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Fahrzeuge dieses Typs anzeigen/ausblenden."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Jagdpanzer"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Selbstfahrlafetten"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Schwere Panzer"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Leichte Panzer"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Mittlere Panzer"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Keine Fahrzeuge\nerfüllen die Suchkriterien"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Nach Fahrzeugnamen sortieren."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Name"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Nach Fahrzeugstufe sortieren."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Stufe"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Nach Fahrzeugtyp sortieren."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Typ"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Name"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Klicken Sie hier, um die Filtereinstellungen anzuwenden."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Ausgewählte Filter anwenden"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Klicken Sie hier, um die Filtereinstellungen zurückzusetzen."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Alle Filter zurücksetzen"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Nur Wiederholungen der Prime Time anzeigen"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "Letzter Tag"
+msgstr[1] "Letzte %(count)s Tage"
+msgstr[2] "Letzte %(count)s Tage"
+
+msgid "filterPopover/title"
+msgstr "Filter für Wiederholungen"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Konfigurieren Sie den Filter für die Wiederholungen nach Fahrzeugtyp, Stufe, Nation usw."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Nach Parametern filtern"
+
+msgid "findReplay/buttonText/find"
+msgstr "Wiederholung finden"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Eingabe löschen"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Wiederholung ansehen!"
+
+msgid "findReplay/errorMessage"
+msgstr "Keine Treffer gefunden. Bitte passen Sie Ihre Abfrage an."
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Bitte geben Sie hier die ARENA_ID ein ..."
+
+msgid "findReplay/successMessage"
+msgstr "Die KI hat Wiederholungen gefunden, die Ihnen gefallen könnten! Viel Spaß beim Ansehen!"
+
+msgid "page/heading/bestReplays"
+msgstr "BESTE WIEDERHOLUNGEN"
+
+msgid "page/heading/findReplay"
+msgstr "WIEDERHOLUNG FINDEN (FÜR ENTWICKLER)"
+
+msgid "page/heading/myReplays"
+msgstr "MEINE WIEDERHOLUNGEN"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Dieser Abschnitt enthält Informationen über die besten Wiederholungen von allen WoT-Spielern."
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Dieser Abschnitt wird genutzt, um Wiederholungen mit bestimmten Parametern zu finden."
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Dieser Abschnitt enthält Informationen über IHRE besten Wiederholungen."
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "Beste Wiederholungen"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Wiederholung finden"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "Meine Wiederholungen"
+
+msgid "statsParam/damageAssisted"
+msgstr "Nr. 1 nach Unterstützung bei Zerstörung"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Nr. 1 nach abgewehrtem Schaden"
+
+msgid "statsParam/damageDealt"
+msgstr "Nr. 1 nach verursachtem Schaden"
+
+msgid "statsParam/earnedXp"
+msgstr "Nr. 1 nach verdienter Erfahrung"
+
+msgid "statsParam/kills"
+msgstr "Nr. 1 nach zerstörten Fahrzeugen"
+
+msgid "table/error/buttonText"
+msgstr "Aktualisieren"
+
+msgid "table/error/description"
+msgstr "Wir bedauern die Unannehmlichkeiten. Versuchen Sie bitte später erneut, die Seite zu aktualisieren."
+
+msgid "table/error/title"
+msgstr "Fehler beim Laden von Daten"
+
+msgid "table/header/damageAssisted"
+msgstr "Unterstützung"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Abgewehrter Schaden"
+
+msgid "table/header/damageDealt"
+msgstr "Schaden"
+
+msgid "table/header/date"
+msgstr "Datum"
+
+msgid "table/header/earnedXp"
+msgstr "Verdiente EP"
+
+msgid "table/header/kills"
+msgstr "Zerstörte Fahrzeuge"
+
+msgid "table/header/map"
+msgstr "Karte"
+
+msgid "table/header/marksOfMastery"
+msgstr "Überlegenheitsabzeichen"
+
+msgid "table/header/player"
+msgstr "Spielername"
+
+msgid "table/header/vehicle"
+msgstr "Fahrzeug"
+
+msgid "table/noRecords/buttonText"
+msgstr "Filter zurücksetzen"
+
+msgid "table/noRecords/title"
+msgstr "Nichts gefunden. Bitte ändern Sie die Einstellungen oder setzen Sie die Filter zurück."
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Klicken Sie hier, um die Filtereinstellungen zurückzusetzen."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Alle Filter zurücksetzen"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Höhe des durch den Spieler in dieser Wiederholung ermöglichten Schadens."
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Ermöglichter Schaden"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Höhe des durch den Spieler in dieser Wiederholung abgewehrten Schadens."
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Durch Panzerung abgewehrter Schaden"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Höhe des durch den Spieler in dieser Wiederholung verursachten Schadens."
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Verursachter Schaden"
+
+msgid "table/tooltip/date/body"
+msgstr "Datum, zu dem die Wiederholung aufgezeichnet wurde."
+
+msgid "table/tooltip/date/header"
+msgstr "Datum der Wiederholung"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Höhe der durch den Spieler in dieser Wiederholung verdienten EP."
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "Verdiente EP"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Durch den Spieler in dieser Wiederholung verdiente epische Medaillen."
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Epische Medaillen"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Klicken Sie, um diese Wiederholung zu Ihren Favoriten hinzuzufügen."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Favoriten"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Klicken Sie, um diese Wiederholung aus Ihren Favoriten zu entfernen."
+
+msgid "table/tooltip/kills/body"
+msgstr "Durch den Spieler in dieser Wiederholung zerstörte Fahrzeuge."
+
+msgid "table/tooltip/kills/header"
+msgstr "Zerstörte Fahrzeuge"
+
+msgid "table/tooltip/map/body"
+msgstr "Die Karte in dieser Wiederholung."
+
+msgid "table/tooltip/map/header"
+msgstr "Karte"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Durch den Spieler in dieser Wiederholung verdiente Überlegenheitsabzeichen."
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Überlegenheitsabzeichen"
+
+msgid "table/tooltip/player/body"
+msgstr "Der Name des Spielers in dieser Wiederholung."
+
+msgid "table/tooltip/player/header"
+msgstr "Spielername"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Fahrzeug des Spielers, mit dem diese Wiederholung aufgezeichnet wurde."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Fahrzeug"
+
+msgid "tableInfo/amount"
+msgstr "Angezeigte Wiederholungen: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Filter"
+
+msgid "waitingSpinner/message"
+msgstr "Lade Inhalt …"

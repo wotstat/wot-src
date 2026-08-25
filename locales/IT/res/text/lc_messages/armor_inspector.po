@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Corazza principale"
+
+msgid "armorValues/title/no_damage"
+msgstr "Nessun danno"
+
+msgid "armorValues/title/other"
+msgstr "Altro"
+
+msgid "armorValues/title/penetration"
+msgstr "Probabilità di perforazione"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Rimbalzo"
+
+msgid "armorValues/title/spaced"
+msgstr "Corazza spaziata"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Configurazione attaccante"
+
+msgid "attackerTooltip/body"
+msgstr "Clicca per cambiare veicolo attaccante"
+
+msgid "attackerTooltip/header"
+msgstr "Veicolo attaccante"
+
+msgid "menu/header"
+msgstr "Tipo sovrimpressione"
+
+msgid "menu/no_armor"
+msgstr "Nessuna sovrimpressione"
+
+msgid "menu/nominal"
+msgstr "Corazza nominale"
+
+msgid "menu/penetration"
+msgstr "Probabilità di perforazione"
+
+msgid "modules/current"
+msgstr "Configurazione attuale"
+
+msgid "modules/custom"
+msgstr "Configurazione personalizzata"
+
+msgid "modules/standard"
+msgstr "Configurazione standard"
+
+msgid "modules/title"
+msgstr "Moduli del veicolo"
+
+msgid "modules/top"
+msgstr "Configurazione migliore"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Telaio"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Cannone"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Mantelletto del cannone"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Scafo"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Schermatura"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Dispositivo d'osservazione"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Torretta"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Ruote"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Nessun danno"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Perforazione"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Rimbalzo"
+
+msgid "tooltip/minor/angle/description"
+msgstr "L'angolo tra la traiettoria del proiettile e la linea perpendicolare alla piastra corazzata.\n\nLa traiettoria del proiettile viene calcolata come se il proiettile si muovesse in linea retta dal centro dello schermo."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Angolo d'impatto"
+
+msgid "tooltip/minor/damage/description"
+msgstr "La probabilità di perforare la corazza nemica e causare danni al veicolo."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Probabilità di perforazione"
+
+msgid "tooltip/minor/effective/description"
+msgstr "Per un singolo strato di corazza, la corazza effettiva è la corazza nominale modificata dall'angolo di impatto e dalla normalizzazione del proiettile.\n\nSe nel punto d'impatto sono presenti più strati di corazza, il risultato è la somma dei valori effettivi di ciascuno strato."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Corazza effettiva"
+
+msgid "tooltip/minor/header"
+msgstr "Legenda"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Colpire la corazza spaziata non danneggia un veicolo, a meno che il proiettile poi non colpisca e perfori la corazza principale."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Nessun danno"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Lo spessore nominale delle piastre della corazza principale o spaziata."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Corazza nominale"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "I proiettili che colpiscono la corazza nemica di striscio rimbalzano su di essa. Tuttavia, possono comunque colpire un altro veicolo o persino lo stesso veicolo."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Rimbalzo"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Influisce sui calcoli della corazza effettiva e della probabilità di perforazione.\n\nPer tutti i calcoli viene utilizzata una distanza di 100 m (i proiettili AP e APCR perdono capacità di perforazione all'aumentare della distanza).\n\nI talenti dell'equipaggio e i potenziamenti del veicolo attaccante non influiscono sui calcoli."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Configurazione attaccante"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "La probabilità di perforare la corazza nemica e causare danni al veicolo.\n\nColpire la corazza spaziata non danneggia un veicolo, a meno che il proiettile poi non colpisca e perfori la corazza principale."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Probabilità di perforazione"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Un veicolo viene danneggiato solo se la sua corazza principale viene colpita e perforata. I proiettili HE possono causare danni ridotti a un veicolo anche senza perforare la corazza; tuttavia, devono comunque raggiungere la corazza principale."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Corazza principale"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Colpire la corazza spaziata non danneggia un veicolo, a meno che il proiettile poi non colpisca e perfori la corazza principale.\n\nColpire e perforare i moduli esterni danneggia direttamente quei moduli: colpisci un cingolo per immobilizzare un veicolo, colpisci un cannone per disabilitarlo o colpisci un dispositivo di osservazione per ridurre il raggio visivo di un veicolo."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Nessun danno"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "L'angolo di rimbalzo è pari a 70 gradi per i proiettili AP e APRC, e a 85 gradi per i proiettili HEAT.\n\nI proiettili HE non rimbalzano, mentre AP e APCR perdono il 25% di capacità di perforazione dopo un rimbalzo.\n\nIl rimbalzo non si verifica se il calibro del proiettile è superiore a tre volte lo spessore nominale della corazza nel punto d'impatto (si applica solo per i proiettili AP e APCR)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Rimbalzo"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Colpire la corazza spaziata non danneggia un veicolo, a meno che il proiettile poi non colpisca e perfori la corazza principale.\n\nColpire e perforare i moduli esterni danneggia direttamente quei moduli: colpisci un cingolo per immobilizzare un veicolo, colpisci un cannone per disabilitarlo o colpisci un dispositivo di osservazione per ridurre il raggio visivo di un veicolo.\n\nL'angolo d'impatto non si applica ai moduli esterni, come cingoli e cannone; in questo caso la corazza effettiva è uguale a quella nominale"
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Corazza spaziata"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Guarda un video sulle meccaniche di perforazione della corazza"

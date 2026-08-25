@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "Лишився %(count) модуль"
+msgstr[1] "Лишилося %(count) модулі"
+msgstr[2] "Лишилося %(count) модулів"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Повернутися до модулів"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "У цих модулях можна знайти преміум техніку, ігрову валюту й інші цінні нагороди."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "Парадоксмодулі можна купити у внутрішньоігровому або Преміум магазині."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Парадоксмодуль"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "ПАРАДОКСМОДУЛЬ"
+
+msgid "common/getButton/lowerCase"
+msgstr "Отримати модулі"
+
+msgid "common/getButton/upperCase"
+msgstr "ОТРИМАТИ МОДУЛІ"
+
+msgid "common/loader"
+msgstr "Відкриття модуля..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Відкривайте модулі, щоб побачити статистику."
+
+msgid "common/statistics/header"
+msgstr "Відкрито модулів: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Усю інформацію про відкриті модулі буде видалено."
+
+msgid "entryPoint/boxes"
+msgstr "ДО МОДУЛІВ"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Ці особливі модулі місять нове й унікальне майно, як-от преміум техніку, елементи зовнішнього вигляду, ігрову валюту та інші ціні нагороди.\nМодулі можна придбати у внутрішньоігровому або Преміум магазині."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "З технічних причин наразі неможливо відкривати чи купувати модулі. Вибачте за тимчасові незручності."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Модулі тимчасово недоступні"
+
+msgid "eventName/lowerCase"
+msgstr "Зламати парадокс"
+
+msgid "eventName/upperCase"
+msgstr "ЗЛАМАТИ ПАРАДОКС"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "У наступному модулі буде гарантована нагорода!"
+
+msgid "guaranteedTitle/text"
+msgstr "Максимум модулів до гарантованої нагороди: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Якщо ви не відкриєте модулі до кінця події, це відбудеться автоматично."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Якщо вже маєте всю техніку зі списку можливого вмісту модулів, за всі подальші машини з них ви отримуватимете компенсацію їхньої повної вартості золотом."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Кожен %(guaranteed0)s-й модуль гарантовано містить преміум техніку. Якщо після їхнього відкриття ви так і не отримали техніку, з %(guaranteed0)s-го модуля випаде преміум техніка, якої у вас іще немає. Після цього лічильник буде скинуто."
+
+msgid "infoPage/header/description"
+msgstr "Відкривайте модулі заради шансу отримати цінне ігрове майно! Подробиці нижче."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "З: %(name) (відкрито модулів: %(boxesCount))"
+
+msgid "noBoxesView/description/"
+msgstr "У вас немає модулів. Їх можна придбати\nв ігровому чи Преміум магазині."
+
+msgid "preview/backLabel"
+msgstr "ДО МОДУЛІВ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Модулів у наявності: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Модулів немає в наявності"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Якщо вже маєте всю техніку зі списку можливого вмісту модулів, за всі подальші машини з них ви отримуватимете золото як компенсацію."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) модуль"
+msgstr[1] "%(remainingCount) модулі"
+msgstr[2] "%(remainingCount) модулів"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Гарантована нагорода — машина зі списку можливого вмісту модуля.\nЯкщо після відкриття %(remainingCount) ви так і не отримали техніку, вона гарантовано випаде з %(count)-го модуля. Після цього лічильник буде скинуто."

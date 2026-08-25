@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Reset filters"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Geen voertuigen die aan de geselecteerde parameters voldoen.\nReset de filterinstellingen om de geschikte voertuigen te zien."
+
+msgid "battleType/description/fast"
+msgstr "Een scenario waarin gevechtsreserves sneller herladen."
+
+msgid "battleType/description/random"
+msgstr "Een scenario waarin spelers kunnen kiezen tussen willekeurige sets reserves, met de mogelijkheid om ze naar level IV te verbeteren."
+
+msgid "battleType/description/standard"
+msgstr "Een scenario met standaard Frontlinieregels."
+
+msgid "battleType/postBattle/title"
+msgstr "Gevechtsscenario: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Reserves herladen sneller."
+
+msgid "battleType/shortDescription/random"
+msgstr "Gevechtsreserves worden willekeurig gegeven."
+
+msgid "battleType/shortDescription/standard"
+msgstr "De standaard regels gelden."
+
+msgid "battleType/title/fast"
+msgstr "Operationele ondersteuning"
+
+msgid "battleType/title/random"
+msgstr "Wending van het lot"
+
+msgid "battleType/title/standard"
+msgstr "Standaard gevecht"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "TERUG"
+
+msgid "button/close"
+msgstr "SLUITEN"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} dag"
+msgstr[1] "{duration} dagen"
+msgstr[2] "{duration} dagen"
+
+msgid "filterPopover/note"
+msgstr "Hier worden alleen voertuigen weergegeven die in de modus kunnen worden gebruikt."
+
+msgid "levelReservesTooltip/desc"
+msgstr "De gevechtsreserveniveaus nemen bij het bereiken van nieuwe rangen toe."
+
+msgid "levelReservesTooltip/info"
+msgstr "In het {whiteSpanish_Start}Wending van het lot{whiteSpanish_End} scenario, verhoogt het kopen van een gevechtsreserve het niveau ervan met één, en geeft het de mogelijkheid om de reserve naar niveau {whiteSpanish_Start}%(lvl)s{whiteSpanish_End} te verhogen."
+
+msgid "levelReservesTooltip/level"
+msgstr "Neemt toe bij het bereiken van de volgende rang: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Beschikbaar bij de volgende rang: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Niveau {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "Voor {whiteSpanish_Start}gekochte gevechtsreserves{whiteSpanish_End} in het {whiteSpanish_Start}Wending van het lot{whiteSpanish_End} scenario."
+
+msgid "levelReservesTooltip/title"
+msgstr "Gevechtsreserveniveaus"
+
+msgid "loading"
+msgstr "Laden..."
+
+msgid "widget/eventStartSoon"
+msgstr "Het evenement zal binnenkort beginnen!"
+
+msgid "widget/maxTier"
+msgstr "Je hebt het maximale niveau bereikt!"

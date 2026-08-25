@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Szerverváltás"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Részletek"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "A játékmód nem érhető el ezen a szerveren %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "A játékmód egyik szerveren sem érhető el"
+
+msgid "alertMessage/modeOffline"
+msgstr "Adatbázishiba. A játékmód nem érhető el."
+
+msgid "alertMessage/noVehicles"
+msgstr "Nincs megfelelő jármű a garázsodban %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Értettem!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "ROHAM LIGHT"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "TELJESÍTETTED A VÉGSŐ SZAKASZT!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "%(level)s. SZAKASZ TELJESÍTVE!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Az összes küldetést teljesítetted!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Teljesítve"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Lejár ekkor: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Roham Light küldetés"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Új Roham Light küldetés ekkor: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Jutalom:"
+msgstr[1] "Jutalmak:"
+msgstr[2] "Jutalmak:"
+
+msgid "battleResult/header/deserter"
+msgstr "Büntetést kaptál"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "ROHAM LIGHT ELŐREHALADÁS"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "A Roham Light %(days)d napig tart"
+msgstr[1] "A Roham Light %(days)d napig tart"
+msgstr[2] "A Roham Light %(days)d napig tart"
+
+msgid "calendarDay/title"
+msgstr "Menetrend"
+
+msgid "closeButtonLabel"
+msgstr "BEZÁRÁS"
+
+msgid "countDown/text"
+msgstr "Az esemény kezdetéig hátravan:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Gyors tempójú mód 7v7 csatákkal %(levels)s. szintű járművekben. Élvezd az eredeti Roham mód játékmenetét a kvalifikáció, a rangok, illetve a szolgálati feljegyzések nélkül, és szerezz jutalmakat a napi küldetéseken."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MÓD"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s – Játékmód. Kattints a felfedezéséhez"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Roham Light"
+
+msgid "entryPointTooltip/status/active"
+msgstr "A mód csak ennyi ideig érhető el: %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Tűzszünet%(timer)s"
+
+msgid "featureName"
+msgstr "Roham Light"
+
+msgid "featureNameCapitalized"
+msgstr "ROHAM LIGHT"
+
+msgid "intro/confirmButton"
+msgstr "Értettem!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Élvezd az eredeti Roham mód játékmenetét a kvalifikáció, a rangok, illetve a szolgálati feljegyzések nélkül."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "A játékmód módosítókkal rendelkezik, amelyek megváltoztatják a jármű bizonyos paramétereit, például a jármű életerejét, a fogyócikkek visszatöltési idejét, a felderítettségi időt és így tovább."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Miután elfoglaltad a pálya bizonyos területeit, használhatod a taktikai képességeket. Kétféle fontos pont van: a Tüzérségi főhadiszállás lehetővé teszi, hogy tüzérségi csapást mérj egy adott pozícióra, a Kommunikációs központ pedig az összes ellenséges járművet felderíti. A pályától függően ezeknek a fontos pontoknak a jelenléte és az elhelyezkedése változhat."
+
+msgid "intro/description/roleSkills"
+msgstr "A szerepétől függően minden járműnek van egy különleges képessége három töltési szinttel. Minél magasabb a töltési szint a képesség aktiválásakor, annál erősebb lesz a hatás. A töltési szint a tekintélypontok számától függ, ezeket pedig a csatában nyújtott meggyőző teljesítményért, a fontos pontok elfoglalásáért, a taktikai képességek használatáért és egyebekért szerezhetsz.\n\nNézd meg a játékmód szabályzatát, amelyből bővebben tájékozódhatsz a tekintélypontok gyűjtésének különböző módjairól."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "A játékmódban csak %(levels)s. szintű járművek használhatók (az önjáró lövegek és néhány egyéb tank kivételével). Készítsd elő a járműveidet a Garázsban, majd a csatában válaszd ki az adott pályához legjobban illőt. A jármű kiválasztásakor érdemes figyelembe venni azt is, hogy a szövetségeseid milyen járműveket választottak."
+
+msgid "intro/title/lightGameplay"
+msgstr "NYUGALOM, PARANCSNOK!"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "ROHAM MÓDOSÍTÓK"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "FONTOS PONTOK"
+
+msgid "intro/title/roleSkills"
+msgstr "SZEREPKÉPESSÉGEK"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "VÁLASSZ EGY JÁRMŰVET EGY ADOTT PÁLYÁHOZ"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Győzelem"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Vereség/Döntetlen"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Szép munka, parancsnok, csak így tovább!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Teljesíts küldetéseket, és érj el minél jobb helyezést a Roham Light csatákban az előrehaladási szinted növeléséhez!"
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "A megszerzett előrehaladási pontjaid száma a csatában elhelyezett tekintélypontjaidtól függ."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "A mód %(countdown)s múlva véget ér"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Teljesítetted a fő előrehaladást"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Roham Light"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Legjobb 2 a tekintélypontok alapján"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Legjobb 5 a tekintélypontok alapján"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Legjobb 7 a tekintélypontok alapján"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Használj WoT prémium fiókot"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Aktiválj személyes tartalékokat"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Teljesíts küldetéseket"
+
+msgid "noVehicles/howTo/title"
+msgstr "Hogyan szerezhetsz minél gyorsabban %(levels)s. szintű járműveket?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "A Roham Light módban való részvételhez legalább egy %(levels)s. szintű, a módhoz használható jármű szükséges a Garázsban.\nA fejlesztési fán vagy a játékbeli Boltban vásárolhatsz %(levels)s. szintű prémium járműveket."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "A Roham Light módban való részvételhez legalább egy %(levels)s. szintű, a módhoz használható jármű szükséges a Garázsban.\nVan egy visszaállítható %(levels)s. szintű járműved."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "A Roham Light módban való részvételhez legalább egy %(levels)s. szintű módhoz használható jármű szükséges a Garázsban."
+
+msgid "noVehicles/title"
+msgstr "Nincs megfelelő jármű a Garázsodban"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "A részletekért látogass el a Tudnivalók a Roham Light módról oldalra."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Tekintélypontok"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Sebzésokozás\nFelderítési közreműködés\nLánctalpak megsemmisítése\nKritikus találatok\nEllenséges járművek megsemmisítése\nÉs még sok más"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Tekintélypontokat a következő harci cselekmények végrehajtásáért kaphatsz:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "A szezon véget ért ezen a szerveren: %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "A szezon véget ért ezen a szerveren: %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "A szezon véget ért ezen a szerveren: %(server)s."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Teljesítetted a fő előrehaladást!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "%(current)s. szakasz"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s vagy %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Az új küldetések érkezéséig hátralévő idő:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Az esemény végéig hátralévő idő:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "A küldetések frissítéséig hátralévő idő:"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Teljesítetted az összes napi küldetést."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s / %(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Teljesítetted az előrehaladást. Játssz Roham Light módban további jutalmakért!"
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Teljesítsd a küldetéseket, és érj el minél jobb helyezést a Roham Light\ncsatákban az előrehaladási szinted növeléséhez! %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Jutalom a különleges küldetések teljesítéséért és a Roham Light csaták megvívásáért. Lehetővé teszi, hogy továbbléphess az előrehaladásban."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Roham Light előrehaladási pontok"
+
+msgid "selectorTooltip/desc"
+msgstr "Nem rangsorolt mód. 7v7 | %(tier)s. szint"
+
+msgid "selectorTooltip/title"
+msgstr "Roham Light"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Kövesd a legfrissebb híreket a játék portálján, hogy naprakész legyél az új szezon indulásakor!"
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "A játékmód technikai problémák miatt átmenetileg nem érhető el."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "A mód ekkor lesz elérhető: %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Kapott előrehaladási pontok"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Részletek"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Roham Light"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Megszerzett jutalmak:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Teljesítetted a(z) %(stage)s. előrehaladási szakaszt ebben a módban: %(progressionName)s."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Gratulálunk!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Tűzszünet van. A Roham Light csaták átmenetileg nem érhetők el."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Tűzszünet"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "A tűzszünet véget ért. A Roham Light csaták újra elérhetők."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Tűzszünet"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Tudnivalók a Roham Light módról"

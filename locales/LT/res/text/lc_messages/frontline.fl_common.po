@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Atstatyti filtrus"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Nėra mašinų, atitinkančių pasirinktus nustatymus.\nVėl pamatysite mašinas atstatę filtravimo nustatymus"
+
+msgid "battleType/description/fast"
+msgstr "Scenarijus su mažesniu kovinių rezervų atsistatymo laiku."
+
+msgid "battleType/description/random"
+msgstr "Scenarijus, kuriame žaidėjai pasirenka iš atsitiktinių rezervų rinkinių, kuriuos jie galės patobulinti iki IV lygio."
+
+msgid "battleType/description/standard"
+msgstr "Scenarijus su standartinėmis Fronto linijos taisyklėmis."
+
+msgid "battleType/postBattle/title"
+msgstr "Mūšio scenarijus: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Sumažintas rezervų atsistatymo laikas."
+
+msgid "battleType/shortDescription/random"
+msgstr "Koviniai rezervai suteikiami atsitiktinai."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Taikomos standartinės taisyklės."
+
+msgid "battleType/title/fast"
+msgstr "Operatyvinė pagalba"
+
+msgid "battleType/title/random"
+msgstr "Likimo posūkis"
+
+msgid "battleType/title/standard"
+msgstr "Standartinis mūšis"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "ATGAL"
+
+msgid "button/close"
+msgstr "UŽDARYTI"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} diena"
+msgstr[1] "{duration} dienos"
+msgstr[2] "{duration} dienų"
+
+msgid "filterPopover/note"
+msgstr "Visos šiam režimui tinkamos mašinos parodytos čia."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Kovinių rezervų lygis didėja pasiekus aukštesnius rangus."
+
+msgid "levelReservesTooltip/info"
+msgstr "Žaisdami pagal {whiteSpanish_Start}Likimo posūkio{whiteSpanish_End} scenarijų, nusipirkę kovinį rezervą padidinsite jo lygį ir galėsite jį padidinti iki {whiteSpanish_Start}%(lvl)s{whiteSpanish_End} lygio."
+
+msgid "levelReservesTooltip/level"
+msgstr "Padidės pasiekus šį lygį: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Pasiekiamas su šiuo rangu: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "{whiteSpanish_Start}%(lvl)s{whiteSpanish_End} lygis"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "Už {whiteSpanish_Start}įsigytus kovinius rezervus{whiteSpanish_End} žaidžiant pagal {whiteSpanish_Start}Likimo posūkio{whiteSpanish_End} scenarijų."
+
+msgid "levelReservesTooltip/title"
+msgstr "Kovinių rezervų lygis"
+
+msgid "loading"
+msgstr "Užkraunama..."
+
+msgid "widget/eventStartSoon"
+msgstr "Renginys prasidės jau greitai!"
+
+msgid "widget/maxTier"
+msgstr "Jūs pasiekėte aukščiausią lygį!"

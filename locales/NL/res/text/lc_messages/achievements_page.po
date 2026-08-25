@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Punten die de totale onderscheidingsscore doen toenemen."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Onderscheidingspunten"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Je hebt alle stappen van deze onderscheiding voltooid en alle beschikbare beloningen ontvangen."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Druk op %(escIcon)s om terug te gaan naar het vorige CATALOGUS-level."
+
+msgid "catalog/rootLink"
+msgstr "CATALOGUS"
+
+msgid "category/achievementsScore/title"
+msgstr "ONDERSCHEIDINGSSCORE"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "De belangrijkste indicator van je progressie in het verzamelen van onderscheidingen. Elke nieuwe onderscheiding verhoogt de totale onderscheidingsscore, m.u.v. trofeeën."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Totale onderscheidingsscore: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "RECENTE\nONDERSCHEIDINGEN"
+
+msgid "category/title"
+msgstr "SPELERSVERZAMELING"
+
+msgid "category/upcoming/title"
+msgstr "AANKOMENDE\nONDERSCHEIDINGEN"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s en meer"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Onderscheiding ontgrendeld!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "%(count)s onderscheidingen ontgrendeld!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s en meer"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Nieuwe trofee verdiend!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "%(count)s trofeeën verdiend!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "De automatische weergave sorteert onderscheidingen van alle categorieën op basis van hun waarde voor weergave op het lint met waardevolle onderscheidingen. Dit wordt uitgezet wanneer je zelf de onderscheidingen rangschikt."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "De automatische weergave sorteert onderscheidingen van alle categorieën op basis van hun waarde voor weergave op het lint met waardevolle onderscheidingen. Wanneer je dit aanzet, zal de door jou ingestelde volgorde worden gereset."
+
+msgid "editConfirm/description/error"
+msgstr "We onderzoeken het probleem. Probeer het aanpassen later nog eens. Ondertussen word je doorgestuurd naar de samenvatting."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Opslaan"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Annuleren"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Begrepen!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Automatische weergave uitgezet"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Automatische weergave aangezet"
+
+msgid "editConfirm/title/error"
+msgstr "Foutmelding"
+
+msgid "editConfirm/title/normal"
+msgstr "Wijzigingen aan het lint met waardevolle onderscheidingen toepassen?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Wijzigingen annuleren"
+
+msgid "editView/footer/button/save"
+msgstr "Toepassen en afsluiten"
+
+msgid "editView/header/checkbox"
+msgstr "Automatische weergave"
+
+msgid "editView/header/close"
+msgstr "AFSLUITEN"
+
+msgid "editView/header/title/idle"
+msgstr "Kies de onderscheidingen die je op het lint wilt weergeven"
+
+msgid "editView/header/title/selecting"
+msgstr "Kies de onderscheidingen die je wilt vervangen"
+
+msgid "editView/header/title/tutorial"
+msgstr "Kies een plek"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Annuleren"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Vervangen"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "JE ONDERSCHEIDINGEN\nSTAAN HIER"
+
+msgid "hint/profile"
+msgstr "JE ONDERSCHEIDINGEN\nSTAAN HIER"
+
+msgid "hint/summary/customizationButton"
+msgstr "Aanpassing beschikbaar"
+
+msgid "notifications/editingEnabled/button"
+msgstr "Naar het lint"
+
+msgid "notifications/editingEnabled/title"
+msgstr "Aanpassing van het lint met waardevolle onderscheidingen is beschikbaar"
+
+msgid "notifications/firstEntry/button"
+msgstr "Naar statistieken"
+
+msgid "notifications/firstEntry/text"
+msgstr "World of Tanks-rating,\nonderscheidingen aanpassen."
+
+msgid "notifications/firstEntry/title"
+msgstr "Statistieken updaten"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "Naar statistieken"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Onderscheidingen aanpassen\nen visueel ontwerp."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Statistieken updaten"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "Naar statistieken"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Jouw level: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Je rating is berekend!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "Naar statistieken"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "Je World of Tanks-rating is veranderd. Ga naar je statistieken om meer te weten te komen."
+
+msgid "notifications/ratingUp/button"
+msgstr "Naar statistieken"
+
+msgid "notifications/ratingUp/text"
+msgstr "Je hebt dit level bereikt: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Je rating is toegenomen!"
+
+msgid "playerInfo/clan/button"
+msgstr "Clanprofiel"
+
+msgid "playerInfo/clan/date"
+msgstr "Toetredingsdatum:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "De speler heeft geen permanente tactische eenheden"
+
+msgid "playerInfo/clan/post"
+msgstr "Positie:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "Persoonlijke dog tag is\ntijdelijk onbeschikbaar"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "De rating van de speler is nog niet berekend: er zijn minder dan %(amount)s gevechten gespeeld."
+
+msgid "ratingWidget/status/initial"
+msgstr "Speel %(amount)s gevechten om je World of Tanks-rating te berekenen."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "De spelersrating is nog niet berekend"
+
+msgid "ratingWidget/status/progress"
+msgstr "Berekening van je World of Tanks-rating. Resterende gevechten: %(amount)s."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Ga het gevecht in en wij zullen je rating berekenen."
+
+msgid "rewardView/button/achievements"
+msgstr "Naar onderscheidingen"
+
+msgid "rewardView/button/dogTag"
+msgstr "Naar dog tag"
+
+msgid "rewardView/button/dogTags"
+msgstr "Naar dog tags"
+
+msgid "rewardView/button/moreRewards"
+msgstr "Bekijk er nog %(value)s"
+
+msgid "rewardView/reward/dogTag"
+msgstr "%(value)s dog tag"
+
+msgid "rewardView/title/multi"
+msgstr "ONDERSCHEIDINGSBELONINGEN ONTVANGEN"
+
+msgid "rewardView/title/single"
+msgstr "ONDERSCHEIDINGSBELONING ONTVANGEN"
+
+msgid "section/action"
+msgstr "Speciaal"
+
+msgid "section/battle"
+msgstr "Gevechtshelden"
+
+msgid "section/class"
+msgstr "Niveau-onderscheidingen"
+
+msgid "section/epic"
+msgstr "Epische medailles"
+
+msgid "section/group"
+msgstr "Groepsonderscheidingen"
+
+msgid "section/memorial"
+msgstr "Herinneringsmedailles"
+
+msgid "section/special"
+msgstr "Eervolle vermeldingen"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "NAAR ONDERSCHEIDINGEN"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Laatste gevecht: %(lastVisitDate)s om %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Account aangemaakt: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Achtergrond"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Standaard"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Vuur"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Goud"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Legendarisch"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Retro"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Explosief"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Wijzigingen annuleren"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Lint"
+
+msgid "summary/achievements/customization/save"
+msgstr "Toepassen en afsluiten"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "Wegens technische problemen is het momenteel niet mogelijk om je Dienstdossier aan te passen. We werken aan een oplossing. Ververs het scherm of kom later terug."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Aanpassen momenteel niet beschikbaar"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Waardevolle onderscheidingen"
+
+msgid "summary/achievements/total"
+msgstr "Totaal: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Unieke: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Gemiddelde: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Overwinningen: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Gemiddelde: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Gemiddelde: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Record: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Gemiddelde: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Speel een gevecht terwijl we je gegevens voorbereiden."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Informatie is tijdelijk onbeschikbaar."
+
+msgid "summary/disabled/title"
+msgstr "Meer informatie komt later beschikbaar"
+
+msgid "summary/main/assistance"
+msgstr "ASSISTENTIE-\nRECORD"
+
+msgid "summary/main/battles"
+msgstr "GESPEELDE\nGEVECHTEN"
+
+msgid "summary/main/blocked"
+msgstr "MAXIMAAL\nGEBLOKKEERD"
+
+msgid "summary/main/damage"
+msgstr "SCHADE-\nRECORD"
+
+msgid "summary/main/destroyed"
+msgstr "VERNIETIGDE\nVOERTUIGEN"
+
+msgid "summary/main/experience"
+msgstr "ERVARINGS-\nRECORD"
+
+msgid "summary/statistic/title"
+msgstr "World of Tanks-rating"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Persoonlijke rating"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Maximale schade veroorzaakt met jouw hulp."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Maximale schade veroorzaakt met jouw hulp in een gevecht met de %(tankName)s."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Assistentierecord: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Verhouding van de totale hoeveelheid veroorzaakte schade aan vijandelijke voertuigen met jouw hulp, tot het totale aantal gespeelde gevechten. Meegeteld:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Schade door jouw verkenning\n• Schade door jouw vernietiging van een rupsband en immobilisatie van het vijandelijk voertuig"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Gemiddelde assistentie: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Verhouding van het totale aantal overwinningen tot het aantal gespeelde gevechten."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Inclusief:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Overwinningen: %(wins)s\n• Nederlagen: %(loses)s\n• Gelijke spelen: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Overwinningspercentage: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Gespeelde gevechten: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Maximaal geblokkeerde schade."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Maximaal geblokkeerde schade in een gevecht met de %(tankName)s."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Maximaal geblokkeerd: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Verhouding van de totale hoeveelheid door pantser geblokkeerde schade van niet-penetrerende treffers en ricochets van AP, HEAT en APCR granaten, tot het aantal gespeelde gevechten."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Gemiddelde geblokkeerde schade: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Maximaal veroorzaakte schade."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Maximaal veroorzaakte schade in een gevecht met de %(tankName)s."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Schaderecord: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Verhouding van de totale hoeveelheid veroorzaakte schade tot het aantal gespeelde gevechten."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Gemiddelde schade: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Maximum aantal vernietigde voertuigen."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "Maximum aantal vernietigde vijandelijke voertuigen in een gevecht met de %(tankName)s."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Maximaal vernietigd: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Het totale aantal vernietigde vijandelijke voertuigen in alle gevechten."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Voertuigen vernietigd: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Maximum hoeveelheid verdiende ervaring."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "Maximum hoeveelheid verdiende ervaring in een gevecht met de %(tankName)s."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Ervaringsrecord: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Verhouding van de totale hoeveelheid verdiende ervaring tot het aantal gespeelde gevechten."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "Gemiddelde ervaring: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Overwinning of nederlaag heeft geen invloed op de berekening van je World of Tanks-rating."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Speel met verschillende voertuigen om te bepalen wat je efficiëntste voertuigen zijn, op basis van de volgende parameters:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "WTR is een ratingsysteem dat voor elk voertuig een individuele rating berekent en vervolgens deze waarden gebruikt om de algehele prestatie van een speler te bepalen. Het systeem reageert flexibel op veranderingen van strategie en vergelijkt de statistieken van spelers met het gemiddelde van de server."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Toegebrachte schade"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Schade toegebracht met jouw assistentie"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Aantal vernietigde vijandelijke voertuigen"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Geblokkeerde schade en overlevingspercentage"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "WTR verhogen"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "World of Tanks-rating"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Resterende gevechten om de rating te berekenen: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Level: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Limiet bereikt!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Resterende punten om je level te verhogen: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "Brons %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "Zilver %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "Goud %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "Aas %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "Legende %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Level"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Aantal punten"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "World of Tanks-rating"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "Wanneer je dit aanzet, zal de volgorde die je zelf hebt ingesteld %(whiteSpanish_Open)sworden gereset%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "Wanneer je dit uitzet of zelf instelt, zullen de onderscheidingen op het lint %(whiteSpanish_Open)sniet meer%(whiteSpanish_Close)s %(whiteSpanish_Open)sautomatisch%(whiteSpanish_Close)s %(whiteSpanish_Open)sworden geüpdatet%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "Sorteer automatisch onderscheidingen %(whiteSpanish_Open)svan alle categorieën%(whiteSpanish_Close)s op basis van hun waarde voor weergave op het lint met waardevolle onderscheidingen."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Automatische weergave"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "Het aanpassen van het lint met waardevolle onderscheidingen is tijdelijk onbeschikbaar. Probeer het later nog eens."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Je hebt nog geen onderscheidingen verdiend. Ontvang ze %(whiteSpanish_Open)sin gevechten%(whiteSpanish_Close)s of %(whiteSpanish_Open)s door aan spelevenementen deel te nemen%(whiteSpanish_Close)s."
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "Het aanpassen van het lint met waardevolle onderscheidingen komt beschikbaar na het ontvangen van %(whiteSpanish_Open)s%(amount)s of meer onderscheidingen%(whiteSpanish_Close)s van willekeurige categorieën."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Geen onderscheidingen om hier te plaatsen."
+
+msgid "tooltips/mastery/body"
+msgstr "Ontvangen Tank-aas meesterschapsbadges in alle relevante gevechtsmodi / Het aantal voertuigen dat in minstens één Willekeurig gevecht heeft gestreden"
+
+msgid "tooltips/mastery/header"
+msgstr "Meesterschapsbadges: Tank-aas"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "Persoonlijke rating is een indicatie van de vaardigheden en ervaring van een speler, en is gebaseerd op de volgende dingen:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "Persoonlijke rating wordt na elk gespeeld gevecht geüpdatet."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Overwinningen\n• Schade toegebracht met jouw assistentie\n• Gemiddelde schade per gevecht\n• Gemiddelde ervaring per gevecht\n• Overleefde gevechten"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Persoonlijke rating"

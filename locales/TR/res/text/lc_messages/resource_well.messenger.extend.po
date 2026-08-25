@@ -1,0 +1,50 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "serviceChannelMessages/resourceWell/enabled/text"
+msgstr "Montaj Atölyesi tekrar açılıyor!"
+
+msgid "serviceChannelMessages/resourceWell/end/text"
+msgstr "Bir sonraki proje üzerinde çalışmaya başlıyoruz. Geliştirmeyi tamamladığımızda sizi bilgilendireceğiz. Yakında görüşmek üzere!"
+
+msgid "serviceChannelMessages/resourceWell/end/title"
+msgstr "Montaj Atölyesi kapanıyor"
+
+msgid "serviceChannelMessages/resourceWell/noSerialVehicles/text"
+msgstr "Rakamlı araçların teslimatı tamamlandı. %(vehicle)s aracının montajına standart yapılandırma ile başlıyoruz. Acele edin, araç sayısı sınırlıdır!"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/text"
+msgstr "Araçların montajı tamamlandı. Tüm araçlar sahiplerine teslim edildi."
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/title"
+msgstr "Montaj Atölyesi Raporu"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/twoParallelProducts/text"
+msgstr "%(soldOutVehicle)s aracının teslimatı tamamlandı. %(availableVehicle)s aracını satın almak için hâlâ fırsatınız var. Alışverişi zamanında tamamlamazsanız harcadığınız kaynaklar yakında hesabınıza iade edilecek. Acele edin, araç sayısı sınırlı!"
+
+msgid "serviceChannelMessages/resourceWell/noVehiclesWithReturn/text"
+msgstr "Araçların montajı tamamlandı. Tüm araçlar sahiplerine teslim edildi. Harcanan tüm kaynaklar yakında hesabınıza iade edilecek."
+
+msgid "serviceChannelMessages/resourceWell/oneVehicleStart/text"
+msgstr "Komutan, %(vehicle)s aracına numaralı bir 3B stil ile sahip olma fırsatına sahipsiniz. Araç sayısı sınırlıdır!"
+
+msgid "serviceChannelMessages/resourceWell/pause/text"
+msgstr "Montaj Atölyesi bakım sebebiyle geçici olarak devre dışıdır."
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/additionalText"
+msgstr "Stil numarası: %(serialNumber)s"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/text"
+msgstr "Özgün %(vehicle)s aracı Montaj Atölyesinden alındı."
+
+msgid "serviceChannelMessages/resourceWell/reward/title"
+msgstr "%(vehicle)s alındı!"
+
+msgid "serviceChannelMessages/resourceWell/reward/vehicle/text"
+msgstr "%(vehicle)s Montaj Atölyesinden alındı."
+
+msgid "serviceChannelMessages/resourceWell/start/title"
+msgstr "Montaj Atölyesi Açılıyor"
+
+msgid "serviceChannelMessages/resourceWell/twoVehiclesStart/text"
+msgstr "Komutan, %(firstVehicle)s ve %(secondVehicle)s elde etme şansınız karşınızda! Acele edin, stoklar sınırlı!"

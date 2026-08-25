@@ -1,0 +1,254 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "closeBtn"
+msgstr "SULJE"
+
+msgid "continueBtn"
+msgstr "Jatka"
+
+msgid "economy/double/credits"
+msgstr "WoT Premium-tili lisää ansaittujen krediittien määrää %(value)s%%."
+
+msgid "economy/double/free_xp"
+msgstr "WoT Premium-tili lisää ansaitun vapaan kokemuksen määrää %(value)s%%."
+
+msgid "economy/double/tmen_xp"
+msgstr "WoT Premium-tili lisää ansaitun miehistökokemuksen määrää %(value)s%%."
+
+msgid "economy/double/xp"
+msgstr "WoT Premium-tili kasvattaa ansaitun taistelukokemuksen määrää %(value)s%%."
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "WoT Premium-tili kasvattaa ansaitun taistelu- ja vapaan kokemuksen määrää %(value)s%%."
+
+msgid "efficiency/capturePoints"
+msgstr "Tukikohdan valtaus"
+
+msgid "efficiency/damageAssisted"
+msgstr "Avustettu vahinko"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "Lamautus"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "Vahinkoa torjuttu"
+
+msgid "efficiency/damageDealt"
+msgstr "Vahinko"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "Tukikohdan puolustus"
+
+msgid "efficiency/empty"
+msgstr "—"
+
+msgid "efficiency/kills"
+msgstr "Tuhotut"
+
+msgid "efficiency/spotted"
+msgstr "Havaitseminen"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "Tukikohdan valtaus"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "Auttanut tuhoamisessa"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "Lamautus"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "Panssarin käyttö"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "Vahinko"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "Tukikohdan puolustus"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "Vihollinen tuhottu"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "Havaitseminen"
+
+msgid "finish"
+msgstr "Taistelu päättyi"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "Tulee käyttää viimeisimpään saman vaunun taisteluun."
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "Bonusta ei voitu ottaa käyttöön: nopeutettu miehistönkoulutus käytössä."
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "Bonus voidaan ottaa käyttöön: nopeutettu miehistönkoulutus pois käytöstä."
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "Kertoimia voi käyttää vain voittoisissa taisteluissa."
+
+msgid "premiumBonus/NoCrew"
+msgstr "Kohdennettavaa bonusta ei voitu ottaa käyttöön: miehistö ei löytynyt."
+
+msgid "premiumBonus/NoVehicle"
+msgstr "Kohdennettavaa bonusta ei voitu ottaa käyttöön: vaunua ei löytynyt."
+
+msgid "progress/title"
+msgstr "%(modeName)s: erikoistehtävä. Vaihe: %(done)s / %(total)s"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s: erikoistehtävä"
+
+msgid "result/lose"
+msgstr "TAPPIO"
+
+msgid "result/tie"
+msgstr "TASAPELI"
+
+msgid "result/win"
+msgstr "VOITTO"
+
+msgid "resultRace/battleStatus/finished"
+msgstr "MAALISSA"
+
+msgid "resultRace/battleStatus/inTop"
+msgstr "SIJOITUS"
+
+msgid "resultRace/battleStatus/notFinished"
+msgstr "EI PÄÄSSYT\nMAALIIN"
+
+msgid "resultRace/finishReason/finished"
+msgstr "Maaliviiva saavutettu"
+
+msgid "resultRace/finishReason/notFinished"
+msgstr "Maaliviivaa ei saavutettu"
+
+msgid "resultRace/footerSubtitle/battleEnded"
+msgstr "Taistelu päättyi: {{time}}"
+
+msgid "resultRace/footerSubtitle/finished"
+msgstr "Ei huono!"
+
+msgid "resultRace/footerSubtitle/inTop"
+msgstr "Top-3!"
+
+msgid "resultRace/footerSubtitle/notFinished"
+msgstr "Parempi onni ensi kerralla!"
+
+msgid "ribbon/applied"
+msgstr "Bonus käytetty onnistuneesti"
+
+msgid "ribbon/errorState"
+msgstr "Sovellusvirhe"
+
+msgid "ribbon/expBonus"
+msgstr "+%(count)s %(icon)s bonus kokemukseen"
+
+msgid "ribbon/timeLeft"
+msgstr "Bonuksen uusintumiseen:"
+
+msgid "ribbon/usesLeft"
+msgstr "Saatavilla olevat sovellukset: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "Dev YLEISKATSAUS"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "Dev JOUKKUETULOS"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "Pelaajat"
+
+msgid "sub_modes/fall_tanks/efficiency/checkpointsPassed"
+msgstr "Tarkistuspisteet"
+
+msgid "sub_modes/fall_tanks/efficiency/deathCount"
+msgstr "Taisteluun palaamiset"
+
+msgid "sub_modes/fall_tanks/efficiency/finishPosition"
+msgstr "Sijoitus"
+
+msgid "sub_modes/fall_tanks/efficiency/finishTime"
+msgstr "Aika"
+
+msgid "sub_modes/fall_tanks/efficiency/kills"
+msgstr "Hajottamiset"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/checkpointsPassed"
+msgstr "Ohittamiesi tarkistuspisteiden määrä"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/deathCount"
+msgstr "Taisteluun palaamiesi määrä vaunusi hajoamisien jälkeen"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/destroyed"
+msgstr "Hajottamiesi vihollisvaunujen määrä"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishPosition"
+msgstr "Loppusijoituksesi kilpailun tuloksissa"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishTime"
+msgstr "Kuinka kauan sinulta kului aikaa maaliviivan saavuttamiseen"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/checkpointsPassed"
+msgstr "Tarkistuspisteet"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/deathCount"
+msgstr "Taisteluun palaamiset"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/destroyed"
+msgstr "Hajottamiset"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishPosition"
+msgstr "Sijoitus"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishTime"
+msgstr "Aika"
+
+msgid "sub_modes/fall_tanks/navigation/battleResults"
+msgstr "HENKILÖKOHTAINEN TULOS"
+
+msgid "sub_modes/fall_tanks/navigation/teamEfficiency"
+msgstr "OSALLISTUJIEN TULOKSET"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/body"
+msgstr "Järjestä sijoituksen mukaan"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/header"
+msgstr "Sijoitus"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/body"
+msgstr "Järjestä ajan mukaan"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/header"
+msgstr "Aika"
+
+msgid "sub_modes/fall_tanks/team/singleTeam"
+msgstr "Pelaajat"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/body"
+msgstr "Järjestä vaunun mukaan"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/header"
+msgstr "Vaunut"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "YLEISKATSAUS"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "JOUKKUETULOS"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "Pelaajat"
+
+msgid "team/empty/finishTime"
+msgstr "-- : -- . --"
+
+msgid "team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "title"
+msgstr "TAISTELUN TULOKSET"
